@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-03-29T16:20:38.416345+00:00",
+  "fetched_at": "2026-03-29T17:20:18.428493+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -194,12 +194,12 @@
       }
     },
     {
-      "id": "4fb8d281c049",
-      "title": "EU-neuvostossa aiheena kriittiset lääkkeet, harjoitteludirektiivi ja maakohtaiset suositukset - stm.fi",
+      "id": "51b3a3acef8b",
+      "title": "EU-neuvostossa aiheena kriittiset lääkkeet, harjoitteludirektiivi ja maakohtaiset suositukset - Sosiaali- ja terveysministeriö",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOb3V4eVN0NHdzRGdjLUVJcVIyU2ljTkpDa0E2WkdkWDV4RWZCZDdRMFFzeS1LTDRfaXI4dlRiOTZ1d1pPTkpIcFdvcm85VWhBcmVfQlFjRTctTmhyS3RuZ2ctQjhKWTdEbjdpV0RvR09yaWxLcS0wejZmTlU3bHVNRzNjamUxMEFFNW9jcjdFSUxYSUtvWEp3SjNNYkNjV1J5TDFSUmt2Mk40VExrSkE?oc=5",
       "published": "2025-06-19T07:00:00+00:00",
       "source": {
-        "name": "stm.fi",
+        "name": "Sosiaali- ja terveysministeriö",
         "url": "https://stm.fi"
       }
     },
@@ -228,6 +228,16 @@
       "title": "Päihdelääkärien hätähuuto: Tärkeä lääke loppuu koko Suomesta - Iltalehti",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSG50UnBGSzVhUHNxS1JHbldXcWRhYXpHeFkzendhLTY3dFozTXV1TmF5c1FtOE15UlFTcThfZHVLX3h1Y0swYTNqdzRmdTJaMDRGNU9aX202TGs2MDJQXzZlNHhzWkYzUDlLSHpDNnV6bXQ0UjV2b3JIYW9WLWZiM3ZIWUo?oc=5",
       "published": "2025-11-06T08:00:00+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
+      }
+    },
+    {
+      "id": "b2604b41a810",
+      "title": "Suomalainen keksintö lähellä läpimurtoa – Pysäyttääkö tämä pelätyn taudin? - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOalZqbG95dUZISDZyOHFGYjNHemlSMDVNcHp6bDl1a1prYkVzM3lVcUZEY2cxNmhkSlBzNWpjaU1NSzQyLTVBYVJVNjNka3N4dzJISU9qQUJkZG0wZ1psY044YWE5dWJtSHdfQ3hPNWRsVGVyUFF3Ym1TQjlZM2xHS0hrc00?oc=5",
+      "published": "2025-10-25T07:00:00+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
@@ -284,23 +294,13 @@
       }
     },
     {
-      "id": "22de31d579f9",
-      "title": "Empatia voi parantaa tehokkaammin kuin lääke – mutta miksi? - Hyvä Terveys",
+      "id": "3f5e1ea9983d",
+      "title": "Empatia voi parantaa tehokkaammin kuin lääke – mutta miksi? - hyvaterveys.fi",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNclVJelpRV0RtMTNtVTVnbzRxWndXZ21vTW1mNHRrNVlvcHF2Um5aSnViVm9xaEpnY0VoMVNiX0hsT2JvUkw2Xzlvb2VxMlVpTk5rR1ByRHl1MGJzcjlnLURfTGN0ajdNakdBYlJpV3FGano4U0x4SElZcF9pc0VxazhDckJLVWQ3dEVrOGtLdkRUamdlWTMxTHIwLTlZLUtNM0Jj?oc=5",
       "published": "2025-07-08T07:00:00+00:00",
       "source": {
-        "name": "Hyvä Terveys",
+        "name": "hyvaterveys.fi",
         "url": "https://www.hyvaterveys.fi"
-      }
-    },
-    {
-      "id": "b2604b41a810",
-      "title": "Suomalainen keksintö lähellä läpimurtoa – Pysäyttääkö tämä pelätyn taudin? - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOalZqbG95dUZISDZyOHFGYjNHemlSMDVNcHp6bDl1a1prYkVzM3lVcUZEY2cxNmhkSlBzNWpjaU1NSzQyLTVBYVJVNjNka3N4dzJISU9qQUJkZG0wZ1psY044YWE5dWJtSHdfQ3hPNWRsVGVyUFF3Ym1TQjlZM2xHS0hrc00?oc=5",
-      "published": "2025-10-25T07:00:00+00:00",
-      "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
       }
     },
     {
@@ -354,6 +354,16 @@
       }
     },
     {
+      "id": "1882e629643d",
+      "title": "WHO jyrähti: Lihavuuslääkkeissä iso ongelma - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE95RDEzV0pTOExQQllCeXY3UkRkN0Nhb3REYXVZMkl0c3E0UWZ6VEJUd2cta3lBd3dUeHQzWGx5dUpDanlHLUppcHRXNGlQeE43aFBpX2lWc2xGbF9zaHlUM19GR1hyT1FOdWxsWU9rSFdGbDdiM2t6NDR4SEVLZw?oc=5",
+      "published": "2025-12-04T08:00:00+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
+      }
+    },
+    {
       "id": "3e7587c31d34",
       "title": "Terveys | Markkinoille tulee paljon syöpälääkkeitä, joita suomalaiset eivät saa - HS.fi",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1VME16VHo3SGhKZXFra19jMUVSdE5xN1pBS1phNXR3RHBmaExsclNOMnotRkljZFdibDZOdFBtb1djRnFKV240Tm5ac3hqSV9rNUFvYWlCRThHR1BXRV91SQ?oc=5",
@@ -371,16 +381,6 @@
       "source": {
         "name": "Apu360",
         "url": "https://www.apu.fi"
-      }
-    },
-    {
-      "id": "1882e629643d",
-      "title": "WHO jyrähti: Lihavuuslääkkeissä iso ongelma - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE95RDEzV0pTOExQQllCeXY3UkRkN0Nhb3REYXVZMkl0c3E0UWZ6VEJUd2cta3lBd3dUeHQzWGx5dUpDanlHLUppcHRXNGlQeE43aFBpX2lWc2xGbF9zaHlUM19GR1hyT1FOdWxsWU9rSFdGbDdiM2t6NDR4SEVLZw?oc=5",
-      "published": "2025-12-04T08:00:00+00:00",
-      "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
       }
     },
     {
@@ -524,12 +524,12 @@
       }
     },
     {
-      "id": "3873ec0e9657",
-      "title": "Inflaatio hidastui yhä kesäkuussa – terveyspalveluiden ja lääkkeiden hinnat nousussa - STT Info",
+      "id": "e4a71d49ea4c",
+      "title": "Inflaatio hidastui yhä kesäkuussa – terveyspalveluiden ja lääkkeiden hinnat nousussa - sttinfo.fi",
       "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPaHM5ZGcxSGYzcVNGekNHOWRDTFNibW5kVXFCRUh3VGxGV0hLbXI2dzBiLWtEbmtKaDZMbEJkOUIyRzR0X1hoVVZQOHVzRVRZUm9ldGJWSE5GX25CYlptUlljc19yUWFUNklrTnJyMTlXTHZSaF9xT2tKNjIyNmphWC1MMHgtTUFQLWxVUzltem8tVDRrRmdDaU9fZzVDM2M3MGpjZnZRLUlVYWNkMy1ScW1GYWlwbTA5M0NTZDJPdU5sQ0tYTXhjenM1bTVNRDdaR0tYRkJSRU4zMGVoSDl3X3dEX19jUQ?oc=5",
       "published": "2025-07-14T07:00:00+00:00",
       "source": {
-        "name": "STT Info",
+        "name": "sttinfo.fi",
         "url": "https://www.sttinfo.fi"
       }
     },
@@ -724,12 +724,12 @@
       }
     },
     {
-      "id": "d6e5f004e653",
-      "title": "Terveys | Älylääke osaa kertoa, onko se otettu vai ei – tulevaisuuden lääkkeet saatetaan myös tulostaa potilaskohtaisesti - Helsingin Uutiset",
+      "id": "d73388e364a6",
+      "title": "Terveys | Älylääke osaa kertoa, onko se otettu vai ei – tulevaisuuden lääkkeet saatetaan myös tulostaa potilaskohtaisesti - helsinginuutiset.fi",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE80XzlzblNVbFc3cUVqMGZpdERuTktKc1V5OWtrQzEwcTRWcWM3MmZZdnVmUkgzTzF0YThXWjJQN1pXZDhCN2s5OXhhVjJZdVdubkxIZlMyQzZ6UQ?oc=5",
       "published": "2021-06-16T07:00:00+00:00",
       "source": {
-        "name": "Helsingin Uutiset",
+        "name": "helsinginuutiset.fi",
         "url": "https://www.helsinginuutiset.fi"
       }
     },
@@ -834,12 +834,12 @@
       }
     },
     {
-      "id": "1e4ab61be4e5",
-      "title": "Luonto tekee parhaat lääkkeet - Hyvä Terveys",
+      "id": "51ab2dda8f09",
+      "title": "Luonto tekee parhaat lääkkeet - hyvaterveys.fi",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBwbUNsUHBCbDRadlJndVB4T0ZBcjQzd2ItR0tUYksyN0tyRS1kNXlpSTluYm51TTk2dEtSUVdqUXF6NURrdmticE1EVllpQmZrckxjbGJwa0JMUG8wZUxsb3k0SU0yRjlDOFJraXY5cktwY3QzQ0swTHBmR3haVUk?oc=5",
       "published": "2016-10-19T07:00:00+00:00",
       "source": {
-        "name": "Hyvä Terveys",
+        "name": "hyvaterveys.fi",
         "url": "https://www.hyvaterveys.fi"
       }
     },
@@ -894,12 +894,12 @@
       }
     },
     {
-      "id": "2a7698ef3a62",
-      "title": "Jos käytät lääkkeitä, rohdosten ja ravintolisien kanssa, on syytä olla tarkkana. Asiantuntija kertoo, miksi. - Hyvä Terveys",
+      "id": "3d566d96e989",
+      "title": "Jos käytät lääkkeitä, rohdosten ja ravintolisien kanssa, on syytä olla tarkkana. Asiantuntija kertoo, miksi. - hyvaterveys.fi",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbXo3TFpqZFgtTllWdzJ4bHVQbDF2ZnNqR1RBV200SWhuVnJwcjBHSGRWaXRMMHJnNFBhMEhNdXNUQVZaYnlSUFQ3WHg1eWpDR3NOY05QN0gyUnlyS1hzREZieXg3a2psN013WUtWVENZZ2hwM1J6aUNUWmxuNEhNZTRyVloxdk0zb2gwTWhoNWx1eDVVYmJEMERkUUdtejVCTUlpQWswaUQzMVl4VHBJTTkyVXpqLVBtUEo4?oc=5",
       "published": "2024-02-25T08:00:00+00:00",
       "source": {
-        "name": "Hyvä Terveys",
+        "name": "hyvaterveys.fi",
         "url": "https://www.hyvaterveys.fi"
       }
     },

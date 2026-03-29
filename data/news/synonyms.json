@@ -1,0 +1,22 @@
+{
+  "description": "Disease and drug synonyms in Finnish",
+  "generated": "2026-03-29",
+  "indication_synonyms": {
+    "diabetes mellitus": ["diabetes", "sokeritauti", "tyypin 2 diabetes", "tyypin 1 diabetes"],
+    "hypertension": ["verenpainetauti", "korkea verenpaine", "kohonnut verenpaine"],
+    "cancer": ["syöpä", "kasvain", "pahanlaatuinen kasvain"],
+    "heart disease": ["sydänsairaus", "sydämen vajaatoiminta", "sydäntauti"],
+    "asthma": ["astma", "keuhkoastma"],
+    "depression": ["masennus", "masennustila", "vakava masennus"],
+    "arthritis": ["niveltulehdus", "nivelreuma", "nivelrikko"],
+    "stroke": ["aivohalvaus", "aivoverenkiertohäiriö", "aivoinfarkti"],
+    "obesity": ["lihavuus", "ylipaino", "metabolinen oireyhtymä"],
+    "alzheimer disease": ["Alzheimer", "Alzheimerin tauti", "muistisairaus", "dementia"]
+  },
+  "drug_synonyms": {
+    "metformin": ["metformiini", "Diformin", "Glucophage"],
+    "aspirin": ["aspiriini", "asetyylisalisyylihappo", "ASA"],
+    "ibuprofen": ["ibuprofeeni", "Burana", "Ibusal"],
+    "acetaminophen": ["parasetamoli", "Panadol", "Para-Tabs"]
+  }
+}

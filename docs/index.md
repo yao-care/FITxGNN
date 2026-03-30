@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Drug Repurposing Predictions
+title: "L\u00e4\u00e4kkeiden Uudelleensijoittelun Ennusteet \u2014 Suomi"
 nav_order: 1
 description: "AI-powered drug repurposing predictions for Finland. Evidence-based analysis of approved medicines for potential new therapeutic indications."
 permalink: /

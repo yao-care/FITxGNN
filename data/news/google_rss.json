@@ -1,15 +1,15 @@
 {
-  "fetched_at": "2026-03-30T18:42:44.366451+00:00",
+  "fetched_at": "2026-03-30T19:45:32.345509+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
     {
-      "id": "231fd7e5841f",
-      "title": "Pysäyttävä luku: Jo joka yhdeksäs alakouluikäinen poika käyttää ADHD‑lääkkeitä - Kaksplus.fi",
+      "id": "1596f8a96a6b",
+      "title": "Pysäyttävä luku: Jo joka yhdeksäs alakouluikäinen poika käyttää ADHD‑lääkkeitä - kaksplus.fi",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOM2JxdDdwaXR4aGFHQXFJQ2ZFRnAza2FCbWRaRnZfdi1JY01EbERabE9VU0k5aXVGLUtWX1k4U1hwMnhfYXJQMFRFY1FVWlFUYkNleDdxRDByNXJvSFZMeUt4blhnQWlnWk9YRUY5VEd0N3VIWGhBTFlaSHlQUmUzS0RBQXU3cV9lLU9hRS00REpObEpsVnNRLUlLcEVPLXdUdEhpQlZHMUtkRVgy?oc=5",
       "published": "2026-03-30T09:18:42+00:00",
       "source": {
-        "name": "Kaksplus.fi",
+        "name": "kaksplus.fi",
         "url": "https://kaksplus.fi"
       }
     },
@@ -244,12 +244,12 @@
       }
     },
     {
-      "id": "02ebb2b1c5cf",
-      "title": "Empatia voi parantaa tehokkaammin kuin lääke – mutta miksi? - Hyvä Terveys",
+      "id": "7e1613ebe7a2",
+      "title": "Empatia voi parantaa tehokkaammin kuin lääke – mutta miksi? - hyvaterveys.fi",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNGdhWUVkeTdGU3h0WWFqYUFiQzIzVmlOSVp4dlRiUFVvb3RHajRockdROWtKQ2ZTdGVBaGdWSzVHZENIYlNiS2Nla3ZkYWJJU21KZVZ5MVNtaXE0bGRDRlI4bzRfbnN6a3dnaDNzVzBlWnY0RFQ1NUZ4OGhqYjJaMkFIQ2VEbnJPRmFoX29GZ2c1UkdFbkJ0Y2dxNDZ3SXNaVG5NM0dnYw?oc=5",
       "published": "2025-07-08T07:00:00+00:00",
       "source": {
-        "name": "Hyvä Terveys",
+        "name": "hyvaterveys.fi",
         "url": "https://www.hyvaterveys.fi"
       }
     },
@@ -264,12 +264,12 @@
       }
     },
     {
-      "id": "51b3a3acef8b",
-      "title": "EU-neuvostossa aiheena kriittiset lääkkeet, harjoitteludirektiivi ja maakohtaiset suositukset - Sosiaali- ja terveysministeriö",
+      "id": "4fb8d281c049",
+      "title": "EU-neuvostossa aiheena kriittiset lääkkeet, harjoitteludirektiivi ja maakohtaiset suositukset - stm.fi",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOb3V4eVN0NHdzRGdjLUVJcVIyU2ljTkpDa0E2WkdkWDV4RWZCZDdRMFFzeS1LTDRfaXI4dlRiOTZ1d1pPTkpIcFdvcm85VWhBcmVfQlFjRTctTmhyS3RuZ2ctQjhKWTdEbjdpV0RvR09yaWxLcS0wejZmTlU3bHVNRzNjamUxMEFFNW9jcjdFSUxYSUtvWEp3SjNNYkNjV1J5TDFSUmt2Mk40VExrSkE?oc=5",
       "published": "2025-06-19T07:00:00+00:00",
       "source": {
-        "name": "Sosiaali- ja terveysministeriö",
+        "name": "stm.fi",
         "url": "https://stm.fi"
       }
     },
@@ -514,12 +514,12 @@
       }
     },
     {
-      "id": "3873ec0e9657",
-      "title": "Inflaatio hidastui yhä kesäkuussa – terveyspalveluiden ja lääkkeiden hinnat nousussa - STT Info",
+      "id": "e4a71d49ea4c",
+      "title": "Inflaatio hidastui yhä kesäkuussa – terveyspalveluiden ja lääkkeiden hinnat nousussa - sttinfo.fi",
       "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPaHM5ZGcxSGYzcVNGekNHOWRDTFNibW5kVXFCRUh3VGxGV0hLbXI2dzBiLWtEbmtKaDZMbEJkOUIyRzR0X1hoVVZQOHVzRVRZUm9ldGJWSE5GX25CYlptUlljc19yUWFUNklrTnJyMTlXTHZSaF9xT2tKNjIyNmphWC1MMHgtTUFQLWxVUzltem8tVDRrRmdDaU9fZzVDM2M3MGpjZnZRLUlVYWNkMy1ScW1GYWlwbTA5M0NTZDJPdU5sQ0tYTXhjenM1bTVNRDdaR0tYRkJSRU4zMGVoSDl3X3dEX19jUQ?oc=5",
       "published": "2025-07-14T07:00:00+00:00",
       "source": {
-        "name": "STT Info",
+        "name": "sttinfo.fi",
         "url": "https://www.sttinfo.fi"
       }
     },
@@ -544,12 +544,12 @@
       }
     },
     {
-      "id": "bfa78be07bf8",
-      "title": "Anna-Liisa Enkovaara - Hyvä Terveys",
+      "id": "6e9c6a9aff76",
+      "title": "Anna-Liisa Enkovaara - hyvaterveys.fi",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE41T3BEb3ZNUGIwTDFCOF9xT1RHRlFQRGVUTDQ1TnhBZDRIWVlTODF3cHdDMElmV2ZCMmpadzAxcHZ1cDdwUzZMLUNHdW84UkF2bG8yT05ENDRrRUpBWDdMVlFSTllRV2w5WFVv?oc=5",
       "published": "2025-12-16T21:31:49+00:00",
       "source": {
-        "name": "Hyvä Terveys",
+        "name": "hyvaterveys.fi",
         "url": "https://www.hyvaterveys.fi"
       }
     },
@@ -814,22 +814,22 @@
       }
     },
     {
-      "id": "1e4ab61be4e5",
-      "title": "Luonto tekee parhaat lääkkeet - Hyvä Terveys",
+      "id": "51ab2dda8f09",
+      "title": "Luonto tekee parhaat lääkkeet - hyvaterveys.fi",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBwbUNsUHBCbDRadlJndVB4T0ZBcjQzd2ItR0tUYksyN0tyRS1kNXlpSTluYm51TTk2dEtSUVdqUXF6NURrdmticE1EVllpQmZrckxjbGJwa0JMUG8wZUxsb3k0SU0yRjlDOFJraXY5cktwY3QzQ0swTHBmR3haVUk?oc=5",
       "published": "2016-10-19T07:00:00+00:00",
       "source": {
-        "name": "Hyvä Terveys",
+        "name": "hyvaterveys.fi",
         "url": "https://www.hyvaterveys.fi"
       }
     },
     {
-      "id": "2a7698ef3a62",
-      "title": "Jos käytät lääkkeitä, rohdosten ja ravintolisien kanssa, on syytä olla tarkkana. Asiantuntija kertoo, miksi. - Hyvä Terveys",
+      "id": "3d566d96e989",
+      "title": "Jos käytät lääkkeitä, rohdosten ja ravintolisien kanssa, on syytä olla tarkkana. Asiantuntija kertoo, miksi. - hyvaterveys.fi",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbXo3TFpqZFgtTllWdzJ4bHVQbDF2ZnNqR1RBV200SWhuVnJwcjBHSGRWaXRMMHJnNFBhMEhNdXNUQVZaYnlSUFQ3WHg1eWpDR3NOY05QN0gyUnlyS1hzREZieXg3a2psN013WUtWVENZZ2hwM1J6aUNUWmxuNEhNZTRyVloxdk0zb2gwTWhoNWx1eDVVYmJEMERkUUdtejVCTUlpQWswaUQzMVl4VHBJTTkyVXpqLVBtUEo4?oc=5",
       "published": "2024-02-25T08:00:00+00:00",
       "source": {
-        "name": "Hyvä Terveys",
+        "name": "hyvaterveys.fi",
         "url": "https://www.hyvaterveys.fi"
       }
     },

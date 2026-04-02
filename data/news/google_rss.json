@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-02T09:49:05.193206+00:00",
+  "fetched_at": "2026-04-02T10:40:24.248068+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -254,12 +254,12 @@
       }
     },
     {
-      "id": "51212126c733",
-      "title": "ADHD-lääke auttaa miljoonia, mutta se ei toimi kuten luultiin – asiantuntija yllättyi - Tieteen Kuvalehti",
+      "id": "bc104e738ae4",
+      "title": "ADHD-lääke auttaa miljoonia, mutta se ei toimi kuten luultiin – asiantuntija yllättyi - tieku.fi",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbTlmamR3c1RHTGgwRGpxLUhsc25GZXdqVW1VNENyWjgxbGVMbmpyS05VMzR5Q3VtempGZ1hCdU56RVVhY0NkUFVpc25aYmQwaU9xdkJmU1JMaFh0WlhUZ3ZKOWRjdGtVbkRXUnQ3S1BOUXUyUnNIa1ctUWdKbWozMUs1UU43X0VSR21KWGM4R1RuY01MN3YtNXRmVUN3OHRPbUZyR215UFRJak0?oc=5",
       "published": "2026-01-10T08:00:00+00:00",
       "source": {
-        "name": "Tieteen Kuvalehti",
+        "name": "tieku.fi",
         "url": "https://tieku.fi"
       }
     },
@@ -384,12 +384,12 @@
       }
     },
     {
-      "id": "86b794c54317",
-      "title": "Kun lapsi saa adhd-diagnoosin, hän saa myös lääkkeet – Onko siinä järkeä? - aamulehti.fi",
+      "id": "73be480a6a61",
+      "title": "Kun lapsi saa adhd-diagnoosin, hän saa myös lääkkeet – Onko siinä järkeä? - Aamulehti",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5HUjA4ZTF1d1VVTnpJdGUyeVJfNVVRRUlLaVhlMmE3SmpfZ3llU0pGZ09LQmlDVlFXLVI0VWowdFFTTER1UmZ0RTBqWHc1aWQ1eFpkeTRyUEZENHlzNjBQYlpsN2hKZw?oc=5",
       "published": "2025-10-08T07:00:00+00:00",
       "source": {
-        "name": "aamulehti.fi",
+        "name": "Aamulehti",
         "url": "https://www.aamulehti.fi"
       }
     },
@@ -574,12 +574,12 @@
       }
     },
     {
-      "id": "d75909e245b1",
-      "title": "Murehtiminen voi nostaa verensokeria – Yksi lääke on yli muiden - aamulehti.fi",
+      "id": "3f1a56c0c624",
+      "title": "Murehtiminen voi nostaa verensokeria – Yksi lääke on yli muiden - Aamulehti",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1qbWxRTGJHMjRjYXIyWTdwN0x0WGxVMUFKeVZocmRabldNV0RWUTJ1X3B0NGM1MVlxN21HZVBKaEw4ZEgwR2NoeW02dEJXLUljZlhGeWRpMUVPUmJGSUZnTFp0N1FxZw?oc=5",
       "published": "2025-10-07T07:00:00+00:00",
       "source": {
-        "name": "aamulehti.fi",
+        "name": "Aamulehti",
         "url": "https://www.aamulehti.fi"
       }
     },

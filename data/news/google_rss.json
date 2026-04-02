@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-02T20:22:35.528867+00:00",
+  "fetched_at": "2026-04-02T21:25:24.579527+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -284,12 +284,12 @@
       }
     },
     {
-      "id": "baf0150c8a4d",
-      "title": "Satoja lääkkeitä uupuu apteekeista, erityisesti tällaisia – Osa lääkeyrityksistä rikkoo räikeästi lakia - satakunnankansa.fi",
+      "id": "a383adf1b9a3",
+      "title": "Satoja lääkkeitä uupuu apteekeista, erityisesti tällaisia – Osa lääkeyrityksistä rikkoo räikeästi lakia - Satakunnan Kansa",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0xMjVkbkUtcnZVWXhEMmxQLXpaUnpzVjR6Tnp5QzZnaDgxdFhOazk5d1BGWHA5d0VaOWxIc0ZhRXBlVHY4Mk5HcjM5Tm84aEVRQnpubmQ0U0FzZzAzU1FGY1kyRGdVWDhZcFJJdnRB?oc=5",
       "published": "2025-08-22T07:00:00+00:00",
       "source": {
-        "name": "satakunnankansa.fi",
+        "name": "Satakunnan Kansa",
         "url": "https://www.satakunnankansa.fi"
       }
     },
@@ -734,6 +734,16 @@
       }
     },
     {
+      "id": "c6e492bb73ad",
+      "title": "Syötkö näitä lääkkeitä? Tarkista reseptisi - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTWt6em13YUk1bGFyaTQ5RVdwRk5mbXQzVkVhSEhyckx6WGNVSHBMaWN4TlU5TWdULUc2ZnUzUWJRRExsbEFEYzlpQkVSYVN3WUFudDBzX0haTnhBUVc1d3B6WDc5XzRrX09YM1ZnSXlveUtxVVp5ak1mOVk4bGFaZ0xOS08?oc=5",
+      "published": "2025-05-19T07:00:00+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
+      }
+    },
+    {
       "id": "09f068405c2d",
       "title": "Tampereella testataan mullistavaa hoitoa eturauhassyöpään – Lääke yllättävä - Iltalehti",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBzLU5pT0ZrSXNzMWd6SGU0U1MtNVJaVHl4SUQ1NUFZQkw3WkNrR2hoaEFWdlhWelhRbFVpUTVVZDJ6RXN4RXN4RkpSbXNpUkV4aEJHcXBsemdONUxZc1FrNGdmMFNSVjMzVWE2TW43YU5ycWprM0FubQ?oc=5",
@@ -991,16 +1001,6 @@
       "source": {
         "name": "University of Helsinki",
         "url": "https://www.helsinki.fi"
-      }
-    },
-    {
-      "id": "1187fcc5c6fc",
-      "title": "Syyhytartuntojen lisääntyminen on nostanut myös lääkkeiden myynnin ennätyslukemiin - Yle",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE83SmE5bkpXdnExeFJUZXhIcUx1bzR2M2o2cjNUZkpocWhCWU9vaHc5Nng5YV9Gb19jMTFzVFlGNkl5Zw?oc=5",
-      "published": "2024-03-11T07:00:00+00:00",
-      "source": {
-        "name": "Yle",
-        "url": "https://yle.fi"
       }
     }
   ]

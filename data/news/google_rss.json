@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-13T18:57:19.290751+00:00",
+  "fetched_at": "2026-04-13T20:00:58.582985+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -11,6 +11,16 @@
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
+      }
+    },
+    {
+      "id": "242f0ed16fa1",
+      "title": "Tutkimus: Lihavuuslääkkeet voivat vaikuttaa myös mielialaan - Suomenmaa.fi",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVDNBalNoUTZlUzFsTHF0dkJYRjUwd3lTYTNWcVJqeV9SV3gwYjhLMEVTRHc5MDdHbFEwUjBfd1lCY2c5Q0NKMXNmeU5kenUtX3E5Ym5TU0dCZXI3anlRSktXMjVfOExfS3p1VmtyX19fclZKRGxjV3NXZDNIZTN6ZlRadUROeVVBY2NTRE1PaEpJWU96RmNQVXZLQmtna1U?oc=5",
+      "published": "2026-04-11T18:50:36+00:00",
+      "source": {
+        "name": "Suomenmaa.fi",
+        "url": "https://www.suomenmaa.fi"
       }
     },
     {
@@ -988,16 +998,6 @@
       "title": "Koronaan on saatavilla tehokas lääke, mutta sitä ei anneta kaikille – tässä syy - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1PUnZQZnlFTE9JV0ZvRHZvM0ZGMFVoVlRIQUl0V2d1TTZrYU5QUkpGMHc4cUxVYld4MkNGV3RoSEFtMVFmRWw1ZEhxbFFLeldzMGx4VXA2bm1VbjVE?oc=5",
       "published": "2023-11-09T08:00:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
-      }
-    },
-    {
-      "id": "085a57c16f34",
-      "title": "Mullistus syöpähoidoissa? Kaikki kokeellista lääkettä saaneet potilaat parantuivat - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE50Z2cxWHh1MXUzZnJuOFZQTVB1ZDNHeFFUdkhXUEpESm4xSFFDeS1Qc0stNExiZ25Ka3F5WUtvajJJVGNOOGRsczc1YzlPYzVwVWZ2R3h5ckNUNHlK?oc=5",
-      "published": "2022-06-08T07:00:00+00:00",
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-17T15:46:13.721450+00:00",
+  "fetched_at": "2026-04-17T16:40:05.021026+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -844,16 +844,6 @@
       }
     },
     {
-      "id": "09f068405c2d",
-      "title": "Tampereella testataan mullistavaa hoitoa eturauhassyöpään – Lääke yllättävä - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBzLU5pT0ZrSXNzMWd6SGU0U1MtNVJaVHl4SUQ1NUFZQkw3WkNrR2hoaEFWdlhWelhRbFVpUTVVZDJ6RXN4RXN4RkpSbXNpUkV4aEJHcXBsemdONUxZc1FrNGdmMFNSVjMzVWE2TW43YU5ycWprM0FubQ?oc=5",
-      "published": "2025-04-23T07:00:00+00:00",
-      "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
-      }
-    },
-    {
       "id": "32ce7ac82dd1",
       "title": "Professori kumoaa verenpainelääkkeisiin liittyvät harhaluulot – tarkistimme seitsemän väittämää, joista vain harva on totta - Yle",
       "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1WMFIzWXJCX2tVdnlIOG1nc2NOdXozbDdFSHVfdmhjS1FVaTUwYm94Ujk0QjZ6WTVQOTVpU2xMUHd3UQ?oc=5",
@@ -861,6 +851,16 @@
       "source": {
         "name": "Yle",
         "url": "https://yle.fi"
+      }
+    },
+    {
+      "id": "09f068405c2d",
+      "title": "Tampereella testataan mullistavaa hoitoa eturauhassyöpään – Lääke yllättävä - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBzLU5pT0ZrSXNzMWd6SGU0U1MtNVJaVHl4SUQ1NUFZQkw3WkNrR2hoaEFWdlhWelhRbFVpUTVVZDJ6RXN4RXN4RkpSbXNpUkV4aEJHcXBsemdONUxZc1FrNGdmMFNSVjMzVWE2TW43YU5ycWprM0FubQ?oc=5",
+      "published": "2025-04-23T07:00:00+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
       }
     },
     {

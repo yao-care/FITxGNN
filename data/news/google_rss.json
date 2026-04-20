@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-20T11:09:15.216116+00:00",
+  "fetched_at": "2026-04-20T12:59:36.092711+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -7,10 +7,20 @@
       "id": "75a58a192298",
       "title": "Näistä lääkkeistä tarvitset matkalle todistuksen – muuten voit joutua lentokentällä ongelmiin - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE51S2tjaWQ5TUhJQ2hxcnlsaU96TlRMUTF6eEYxM0ZiVk1kM2RHRS1iMHNSUGQ4SkNzWEt1WVRBclJMdHNkd2RUZ282TjRTTmdNQ0Vaek41MEVtLWlv?oc=5",
-      "published": "2026-04-19T13:30:00+00:00",
+      "published": "2026-04-19T13:32:25+00:00",
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
+      }
+    },
+    {
+      "id": "c4fea05ce5a1",
+      "title": "SSRI-mielialalääkkeitä käyttävien nuorten naisten osuus liki kaksinkertaistui kymmenessä vuodessa - Kaleva",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNYzU4b2JPenFyLW9CZlBwX0ZqRTZoRzFvbjh2ZGlZcmdGdm9WSl9GSzFuTHVITlhvUUJfNS1aSGhFXy1BM0FrREtqcTVnLUZMR3ptZm5MQXNtQVJKYUZXTWdqdWhMX0M3YndWVFNBY2F3NWlNNEkzU2tXRkpIb0hGWmFXZEFWY2c?oc=5",
+      "published": "2026-04-20T05:01:00+00:00",
+      "source": {
+        "name": "Kaleva",
+        "url": "https://www.kaleva.fi"
       }
     },
     {
@@ -991,16 +1001,6 @@
       "source": {
         "name": "Yle",
         "url": "https://yle.fi"
-      }
-    },
-    {
-      "id": "dfb5cd5509a8",
-      "title": "Jos käytät lääkkeitä, rohdosten ja ravintolisien kanssa, on syytä olla tarkkana. Asiantuntija kertoo, miksi. - Hyvä Terveys",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbXo3TFpqZFgtTllWdzJ4bHVQbDF2ZnNqR1RBV200SWhuVnJwcjBHSGRWaXRMMHJnNFBhMEhNdXNUQVZaYnlSUFQ3WHg1eWpDR3NOY05QN0gyUnlyS1hzREZieXg3a2psN013WUtWVENZZ2hwM1J6aUNUWmxuNEhNZTRyVloxdk0zb2gwTWhoNWx1eDVVYmJEMERkUUdtejVCTUlpQWswaUQzMVl4VHBJTTkyVXpqLVBtUEo4?oc=5",
-      "published": "2024-02-25T08:00:00+00:00",
-      "source": {
-        "name": "Hyvä Terveys",
-        "url": "https://www.hyvaterveys.fi"
       }
     }
   ]

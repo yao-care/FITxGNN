@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-27T19:10:29.701098+00:00",
+  "fetched_at": "2026-04-27T20:47:20.293612+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -74,12 +74,12 @@
       }
     },
     {
-      "id": "e46bc509b103",
-      "title": "Terveys | Tavalliset lääkkeet voivat aiheuttaa suolistossa ”ekologisen romahduksen” - HS.fi",
+      "id": "9059828b2eec",
+      "title": "Terveys | Tavalliset lääkkeet voivat aiheuttaa suolistossa ”ekologisen romahduksen” - hs.fi",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE41aE15RXJCUzVWSExFekE4NUh6YlFrR3ViQ1U0TmVMdkRkR2JQNEpWUDRxb2NJZVhwRlBFRzA0cm9VN1VHWDBRRFBjX0JyTVZkeF9KT096RkdJdw?oc=5",
       "published": "2026-03-23T07:00:00+00:00",
       "source": {
-        "name": "HS.fi",
+        "name": "hs.fi",
         "url": "https://www.hs.fi"
       }
     },
@@ -254,16 +254,6 @@
       }
     },
     {
-      "id": "503e514eb772",
-      "title": "Lihasreuma ja lääkitys – Asiantuntija kertoo, miten kortisonia käytetään oikein - Apu360",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQT2M0WC1Mam8tRDlrdHVhWFM2dnNQOXdscVE4LUpuSlhlQlo2bUNET2NVOXdFZG15RzBKYllrMVZhZDViV05vR2xLeWxYVURRNVh1SF9oakJmT3JPLUN3ZlBDOEdYMTBNV3o1c3RVS0FlaEM2ZV9Fb29KOWhubmFmT1hmRFE0LTlzWWJ5Yms2Sm5RWHJvLVR4ODVXZw?oc=5",
-      "published": "2026-03-31T07:00:00+00:00",
-      "source": {
-        "name": "Apu360",
-        "url": "https://www.apu.fi"
-      }
-    },
-    {
       "id": "7904c07dfeaf",
       "title": "Tällaisia haittavaikutuksia Ozempicillä voi olla – erityisesti tämä huolettaa asiantuntijoita - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9lNV9abFJCY1ZaRm1uYVc5NEtCUFNMRnZlQXVyUW5nVXVtWm1aTFNLV25wQ1RPWkVDMWhLMVpVS0Vjb1p4MEN0c2FVb2FMZW43Y01zNFREVVpSOGdj?oc=5",
@@ -274,6 +264,16 @@
       }
     },
     {
+      "id": "503e514eb772",
+      "title": "Lihasreuma ja lääkitys – Asiantuntija kertoo, miten kortisonia käytetään oikein - Apu360",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQT2M0WC1Mam8tRDlrdHVhWFM2dnNQOXdscVE4LUpuSlhlQlo2bUNET2NVOXdFZG15RzBKYllrMVZhZDViV05vR2xLeWxYVURRNVh1SF9oakJmT3JPLUN3ZlBDOEdYMTBNV3o1c3RVS0FlaEM2ZV9Fb29KOWhubmFmT1hmRFE0LTlzWWJ5Yms2Sm5RWHJvLVR4ODVXZw?oc=5",
+      "published": "2026-03-31T07:00:00+00:00",
+      "source": {
+        "name": "Apu360",
+        "url": "https://www.apu.fi"
+      }
+    },
+    {
       "id": "2e15e9e19f5d",
       "title": "Tutkimus: Tuttu lääke saattaa suojata koronan tarttumiselta - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5MUDFMWVZYMWt0M1JqZHpCTFZPenk4RmNUYjRCWk10dWtHRktoN2lMYXFkTm1VNkkwRTNqSEd3M1FRRWlXRHJXZVd5eE9UR29Zb2xVZjNsa2xIUUcz?oc=5",
@@ -281,16 +281,6 @@
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
-      }
-    },
-    {
-      "id": "4cb607cf0e29",
-      "title": "Hämeenkyrön Bepanthen-tapaus nosti esiin lääkehoidon byrokratian – Fimea: Järjen käyttö on sallittua - Yle",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1CcGFxeXc2YVFDOTJqRkNCMFJwT2phUXRzMGVIbFJ6RThIcUZBbjdfLUduTUZybk9VYXlzMmpFaGlRUQ?oc=5",
-      "published": "2025-12-16T08:00:00+00:00",
-      "source": {
-        "name": "Yle",
-        "url": "https://yle.fi"
       }
     },
     {
@@ -554,16 +544,6 @@
       }
     },
     {
-      "id": "0ec44a83ac1e",
-      "title": "ADHD-lääkkeiden pitkäaikainen käyttö lapsilla huolestuttaa asiantuntijoita – \"Puhutaan kuitenkin herkästä kehitysvaiheesta\" - Kaksplus.fi",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNZlUxbVVfb3g2eU0yVFhFSHpUSkg2blVDUlR1Rm5maDQxVWxXb1pGZ1JxODd1S3NodUtyc21WMDBFT2Q0TndWd1NndF92MEE4NW05VS02TGFYWlVURUxNNnQ5MVlYdXViSVYwdlVrZFBhTXNxcU5HcDFQZ29UOFNYRjBXWFJreS1GWnVVLWt3QmMzQkt1cEprVVBiVE96VmVqcDNlRXRZZ1ljb2M1enBtM3VYTVlodTY3aDBxYUJKQU11RUxibWpFblEzT011eFlLZjlKUFFqT3JLMDBMd29CdjFmTm9MVTBocFRyNkNtWGJyMU0?oc=5",
-      "published": "2025-05-15T07:00:00+00:00",
-      "source": {
-        "name": "Kaksplus.fi",
-        "url": "https://kaksplus.fi"
-      }
-    },
-    {
       "id": "0ad2c547427b",
       "title": "Liike on lääke, mutta mikä saisi meidät liikkumaan enemmän? - University of Helsinki",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxON0RGUmUtaFMtTzRnekJMSlVqLUVpZlFaZEtkV2Yxc1N6cUJDX2lWQW1CMTFTQ29CYzdpU0Nlc2lmUDZ0Q2ZmdEhFWVFtb0g2SDZ6dzNKRV9hd3BFUDQ0RUo0czJZWVY5SkdVYmRnb1JPZXlOY1NYaGR5NVQzTUVXbU9mNllMVWpFU25OZ2NyN0N6LXdzVHY4cG9sZ1VnNHdjczE1MVBrcEc?oc=5",
@@ -571,6 +551,16 @@
       "source": {
         "name": "University of Helsinki",
         "url": "https://www.helsinki.fi"
+      }
+    },
+    {
+      "id": "0ec44a83ac1e",
+      "title": "ADHD-lääkkeiden pitkäaikainen käyttö lapsilla huolestuttaa asiantuntijoita – \"Puhutaan kuitenkin herkästä kehitysvaiheesta\" - Kaksplus.fi",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNZlUxbVVfb3g2eU0yVFhFSHpUSkg2blVDUlR1Rm5maDQxVWxXb1pGZ1JxODd1S3NodUtyc21WMDBFT2Q0TndWd1NndF92MEE4NW05VS02TGFYWlVURUxNNnQ5MVlYdXViSVYwdlVrZFBhTXNxcU5HcDFQZ29UOFNYRjBXWFJreS1GWnVVLWt3QmMzQkt1cEprVVBiVE96VmVqcDNlRXRZZ1ljb2M1enBtM3VYTVlodTY3aDBxYUJKQU11RUxibWpFblEzT011eFlLZjlKUFFqT3JLMDBMd29CdjFmTm9MVTBocFRyNkNtWGJyMU0?oc=5",
+      "published": "2025-05-15T07:00:00+00:00",
+      "source": {
+        "name": "Kaksplus.fi",
+        "url": "https://kaksplus.fi"
       }
     },
     {
@@ -964,16 +954,6 @@
       }
     },
     {
-      "id": "1211d52ef0e7",
-      "title": "Tämä tuttu lääke voi myös hillitä alkoholin himoa - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE92RFdTbEl6THdRNFRNTkFjRXhoa2dteFJXTmZYVzFRWUdiYTdwYTdFY1hfb2ZpcnBoTU5RYy1XNXNiT0ZiZnljZTUzblZhangweFE1RFhobDQ1REVG?oc=5",
-      "published": "2025-04-30T07:00:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
-      }
-    },
-    {
       "id": "3662650f4614",
       "title": "Ozempic | Jokapaikan avuksi väitetty lääke loppumassa, valmistaja varoittaa terveydenhuoltoa - Satakunnan Kansa",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9EbVBsdF9LVWJBa3h3ZEsyd1VqQk5kOWhfbXYzYk5HNnNZQnFnUmZvbUhpckUwZzA1cDNzVkhCN3lMekRWYWRUX0VkYmNscUpuek1GRENadUxjTXpRNFRpQkpRV2Q4djR1TkJwanBn?oc=5",
@@ -981,6 +961,16 @@
       "source": {
         "name": "Satakunnan Kansa",
         "url": "https://www.satakunnankansa.fi"
+      }
+    },
+    {
+      "id": "1211d52ef0e7",
+      "title": "Tämä tuttu lääke voi myös hillitä alkoholin himoa - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE92RFdTbEl6THdRNFRNTkFjRXhoa2dteFJXTmZYVzFRWUdiYTdwYTdFY1hfb2ZpcnBoTU5RYy1XNXNiT0ZiZnljZTUzblZhangweFE1RFhobDQ1REVG?oc=5",
+      "published": "2025-04-30T07:00:00+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
       }
     },
     {
@@ -1001,6 +991,16 @@
       "source": {
         "name": "Verkkouutiset",
         "url": "https://www.verkkouutiset.fi"
+      }
+    },
+    {
+      "id": "1f9c37f9dee9",
+      "title": "Alzheimerin taudin hoitoon löytyi lupaava lääke – näin se toimii - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1NdnZsRDlLVUhNOU1scWE3Slpiazk3UkhSZW1jS0laTFdKMGFfcE5ZZzdobFdPQ2ZEdG02cHdObzZzRFlVSDdHVWt0bFdaQ3Y5V3dlaUpnV3d4ODV0?oc=5",
+      "published": "2023-07-18T07:00:00+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
       }
     }
   ]

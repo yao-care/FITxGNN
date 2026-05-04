@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-04T15:00:15.792177+00:00",
+  "fetched_at": "2026-05-04T16:46:48.700313+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -794,16 +794,6 @@
       }
     },
     {
-      "id": "3f45dcfdd1e0",
-      "title": "Lasten ja nuorten adhd-lääkitys kestää vuosia, mutta pitkäaikaisvaikutuksia ei ole tutkittu kunnolla - Keskisuomalainen",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE81ZXdiVXV2RUdjR2hHZWd6ZUFfRE82UW5ZQmlBY2RCb0hlV3JQbUtBaWpuUUFFUmtwNnBtNzdBeGM3U0QtTUJxMXhzeUY2Q2QyLVR1Vk4yYw?oc=5",
-      "published": "2025-05-08T07:00:00+00:00",
-      "source": {
-        "name": "Keskisuomalainen",
-        "url": "https://www.ksml.fi"
-      }
-    },
-    {
       "id": "6b45b3c559e1",
       "title": "Yllättävä päätös: Suomalaisten lääkäreiden hehkuttama lääke sai täystyrmäyksen Euroopassa - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9yY1BBRzIzdmZ5MHllcG9uMFA1dlR4dVR6Nzd2MzlBaGRYV3gtV1Npd0loWlMwSkRWcDloTFpEWjBRODZfSEkxRkI3YnJUVDRMV3dVak5IUE9GbW5s?oc=5",
@@ -821,6 +811,16 @@
       "source": {
         "name": "Yle",
         "url": "https://yle.fi"
+      }
+    },
+    {
+      "id": "3f45dcfdd1e0",
+      "title": "Lasten ja nuorten adhd-lääkitys kestää vuosia, mutta pitkäaikaisvaikutuksia ei ole tutkittu kunnolla - Keskisuomalainen",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE81ZXdiVXV2RUdjR2hHZWd6ZUFfRE82UW5ZQmlBY2RCb0hlV3JQbUtBaWpuUUFFUmtwNnBtNzdBeGM3U0QtTUJxMXhzeUY2Q2QyLVR1Vk4yYw?oc=5",
+      "published": "2025-05-08T07:00:00+00:00",
+      "source": {
+        "name": "Keskisuomalainen",
+        "url": "https://www.ksml.fi"
       }
     },
     {

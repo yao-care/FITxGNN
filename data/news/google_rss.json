@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-05T09:49:19.999521+00:00",
+  "fetched_at": "2026-05-05T11:07:52.764286+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -694,16 +694,6 @@
       }
     },
     {
-      "id": "840b7db9fc95",
-      "title": "Lääkkeet - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5FOFRUT1dMd2dITDBCWFBEcTZZaE96SEpZaGpUcjl4Rk8xZ3ZzVjFTZzVVN0x5RU5FRmNiX3lGNElwZmdpaDNZ?oc=5",
-      "published": "2017-09-29T15:41:50+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
-      }
-    },
-    {
       "id": "bf3aaca4f119",
       "title": "Lääkeautomaatit käyttöön myös kotihoidon palveluseteliasiakkaille - Yle",
       "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1USzBJT29QWHVoSG5iVmhEbXZNN1ptQTlhX3pPU3pMWXRfYWh5WUVUdnVGa1JGeFV1emZxLVFmelJZdw?oc=5",
@@ -721,6 +711,16 @@
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
+      }
+    },
+    {
+      "id": "840b7db9fc95",
+      "title": "Lääkkeet - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5FOFRUT1dMd2dITDBCWFBEcTZZaE96SEpZaGpUcjl4Rk8xZ3ZzVjFTZzVVN0x5RU5FRmNiX3lGNElwZmdpaDNZ?oc=5",
+      "published": "2017-09-29T15:41:50+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
       }
     },
     {

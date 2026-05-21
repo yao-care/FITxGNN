@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-21T22:08:02.189944+00:00",
+  "fetched_at": "2026-05-21T23:45:55.790701+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -994,13 +994,13 @@
       }
     },
     {
-      "id": "365208f9b881",
-      "title": "Levottomat jalat piinaavat Marjoa, jos lääke unohtuu – ”Kuin sähköiskuja” - Seura.fi",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9yckJwb2lGUUhTbnotMm01TF9ZQldxU01lVEh5NmZ6VWZmY2FhdDdjby0tYUNVZTZERm03ZUF1amZxY3BXdEdBOHZyWUdtb3FOZHZOaERDS1BxcjBUMmg5Vlc4U0gwLXFVTGtReHpTT3hxTTNHbFFUZTVYOGNtNHc?oc=5",
-      "published": "2025-06-08T07:00:00+00:00",
+      "id": "0a200b433e4c",
+      "title": "Suomalaistutkimuksen löydös: Uusi lääke levinneen melanooman hoitoon - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9YRzI4T2hhUlNnby05STVQaXNsWXpoWXRrR2VVRXc2akw0OVMxZTVkSm9sWkZjWmdoWDRaN3BTSGpBZ0FhRTBLZFRFWC1hYk5mc0drVEVOY2NTOHdO?oc=5",
+      "published": "2023-02-17T08:00:00+00:00",
       "source": {
-        "name": "Seura.fi",
-        "url": "https://seura.fi"
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
       }
     }
   ]

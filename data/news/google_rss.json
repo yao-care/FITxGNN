@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-25T22:59:30.010027+00:00",
+  "fetched_at": "2026-05-26T00:05:01.164601+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -944,16 +944,6 @@
       }
     },
     {
-      "id": "83649a190763",
-      "title": "Kaksi tuttua lääkettä, joita ei saa käyttää yhdessä – johtaa pahimmassa tapauksessa hengenvaaraan - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE96eWFyUFczc2h1UFAyZkJ6My0xQ3VyT09VSTViN1BNd2VwMnVWTGsyb0xzOHU2azlSU0E4SjNacjYyV0hDVFAzS3llNFZHWjFzYUJvM0pEUmdXVWFa?oc=5",
-      "published": "2025-05-27T07:00:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
-      }
-    },
-    {
       "id": "3e20c57b1e5c",
       "title": "Syyhy tyhjensi hyllyt: katso videolta, kuinka apteekin takahuoneessa syntyy syyhyvoidetta - Yle",
       "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE14eGphNW5xNHJLWEM5ano2VXVCSXdoNGdJM0hQMlBWVHlvREVWVVBQanRNRlFKdkJUV2xOa2tmalh6Zw?oc=5",
@@ -961,6 +951,16 @@
       "source": {
         "name": "Yle",
         "url": "https://yle.fi"
+      }
+    },
+    {
+      "id": "83649a190763",
+      "title": "Kaksi tuttua lääkettä, joita ei saa käyttää yhdessä – johtaa pahimmassa tapauksessa hengenvaaraan - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE96eWFyUFczc2h1UFAyZkJ6My0xQ3VyT09VSTViN1BNd2VwMnVWTGsyb0xzOHU2azlSU0E4SjNacjYyV0hDVFAzS3llNFZHWjFzYUJvM0pEUmdXVWFa?oc=5",
+      "published": "2025-05-27T07:00:00+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
       }
     },
     {

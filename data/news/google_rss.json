@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-07T11:39:49.235352+00:00",
+  "fetched_at": "2026-06-07T13:13:36.522433+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -24,16 +24,6 @@
       }
     },
     {
-      "id": "a047f4ca111a",
-      "title": "Syöpälääkäri purskahti itkuun – Tämän takia - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBUZzVHaE5KTnh0VkxfTV9xMDhodGJ1eXdnOUFhRndHRHhiRHVxNFhvLWJmQjI0YTR3WlZLcVJqOUEteDQ3Sk9OZlphYlFqLWVSM0xnU2hMRHc3WmpPbTA4WGZlWXU2Szc3NmRGZGlkUUNTcWZva3FLQQ?oc=5",
-      "published": "2026-06-03T04:49:07+00:00",
-      "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
-      }
-    },
-    {
       "id": "4a2927f8ebf5",
       "title": "Tämä yleinen lääke voi hälyttää huumetestissä - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBuWlVhUkQ1MWdoc1ozenpQUjJSamx3UHBxVmNiMmRsSnF1RW85X1drWGVYZTFJWHNfTWhLbVZtYUJLU004QmR4b0d3RWc1LXNiNW9KMFQ2TFFmWmts?oc=5",
@@ -41,6 +31,16 @@
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
+      }
+    },
+    {
+      "id": "a047f4ca111a",
+      "title": "Syöpälääkäri purskahti itkuun – Tämän takia - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBUZzVHaE5KTnh0VkxfTV9xMDhodGJ1eXdnOUFhRndHRHhiRHVxNFhvLWJmQjI0YTR3WlZLcVJqOUEteDQ3Sk9OZlphYlFqLWVSM0xnU2hMRHc3WmpPbTA4WGZlWXU2Szc3NmRGZGlkUUNTcWZva3FLQQ?oc=5",
+      "published": "2026-06-03T04:49:07+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
       }
     },
     {

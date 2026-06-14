@@ -1,18 +1,8 @@
 {
-  "fetched_at": "2026-06-14T17:04:45.030714+00:00",
+  "fetched_at": "2026-06-14T19:03:35.374200+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
-    {
-      "id": "f5c71ad608ba",
-      "title": "Suomeen perustetaan FinTrials vauhdittamaan kliinisiä lääke- ja laitetutkimuksia - Sosiaali- ja terveysministeriö",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZXZ2UnkwWWpZenNqS0F1Y2hRdlRnTjFxNmNwN3FYRnc3Z2NKd2lkVHhqeXRQM2RjMDZIRmtjMllCMTNERzlZQ3pNc0c2eTVUREtpbFRzdFNpNVRFYkVDaHFaek9rSjBzejl1RWxGejVGMzV0VHRSdWxfU3ZDQzhvUDNFbEl1Rks0Q1ZvU2F0YnFSVWxvQzBYeVJBdG0?oc=5",
-      "published": "2026-06-09T10:32:00+00:00",
-      "source": {
-        "name": "Sosiaali- ja terveysministeriö",
-        "url": "https://stm.fi"
-      }
-    },
     {
       "id": "b2965b5599de",
       "title": "Suomeen perustetaan kliinisten lääke- ja laitetutkimusten toimintamalli FinTrials - sitra.fi",
@@ -194,6 +184,16 @@
       }
     },
     {
+      "id": "e8f97d716fd2",
+      "title": "Lääkettä ei kannata ottaa tämän juoman kanssa – ja nyt ei puhuta vain alkoholista - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1oWmJtUjY5Rm1TSmtVM2tkbi1XLU5WRHdKSXNVN1hLNU9XbW1LcDd1TFBFNFlObHJDYnIyNVBGdU0wTUoxRU1WMHVYWFBSSGN2QUxsV0NEcGIzc0tp?oc=5",
+      "published": "2026-05-13T07:00:00+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
+      }
+    },
+    {
       "id": "bbb6ee35d88c",
       "title": "Syötkö samanaikaisesti yli neljää eri lääkettä? Tämän vaivan riski lisääntyy - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB6cDVyUUZOX1N2em15bldOdmhRTkZRczc2cENCNHFvS2pXVnJWd1FILUpmdjVRWWlQam5meC1DRlJld24walZzYUwxbTJGekFIWFhlNVVxcERfSVhl?oc=5",
@@ -361,16 +361,6 @@
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
-      }
-    },
-    {
-      "id": "1e9b2080d3f2",
-      "title": "Tutkimuksessa löytyi lääke joka kolmatta suomalaista piinaavaan vaivaan - mtvuutiset.fi",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZmp4TXNrTlVXN254dTVfVGZoMUtmRTJqY013UkdPbUJxdWRnZmQwbEVEcnpsX08yajJEMWxMc0JsemFzTDYyRlFIX21CMUZQOUFIb0oyS3d2NnhKcWktNjJKX2Rnb1RqTVo4dGw3em83MzlsRHRqTWJUeEhtMEZXRWxnRnN4RGV1a3YyWnBFR1daSHZWLUxDZXpmMWlBTUJJTi1NYWJsZGNqYVpRWU5BVWxPa2xKdw?oc=5",
-      "published": "2025-09-16T07:00:00+00:00",
-      "source": {
-        "name": "mtvuutiset.fi",
-        "url": "https://www.mtvuutiset.fi"
       }
     },
     {
@@ -624,6 +614,16 @@
       }
     },
     {
+      "id": "b99dbbee531b",
+      "title": "Useat hyvinvointialueet löivät Paxlovid-koronalääkkeelle ikärajan, mikä rikkoo Kuluttajaliiton mukaan useita lakeja - Yle",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9tRGxsLVBHZEFlZ00yOHlyTFlZUjJ2eU5lQTNyMW9JbklhN0tqNS1BV1c5TWdSZE5wUE1KVkI3dC1pUQ?oc=5",
+      "published": "2023-11-01T07:00:00+00:00",
+      "source": {
+        "name": "Yle",
+        "url": "https://yle.fi"
+      }
+    },
+    {
       "id": "afdaa9863100",
       "title": "Tutkija suosittaa: lääkkeiden saatavuuden varmistaminen vaatii toimivaa sääntelyä - University of Helsinki",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQM3lLWVFqZ2pTSUhrSWtlMWo1ZlMwaU51TTdGaVNaRzNqSENWYk9INzRJbV9XVjhmUGhhN3ppT2dsMkJEVmFnZHEtYVRMRGhXNENKeGxLTkNRaXFsOHEwY0xUQVV0V0t4aEFwbE13dU9Kc2E5Z3FIRVIzTjZzcDRkb2xRdG1xTWdPTnVNSWJiNTdtQ0dmcENmako5eHBzUGxEYVAyYXBEWm9UbzZ3TjQ3R0NZQjN1Q05odUxnZ1V1MDhTREd4Vk1KR2N0RQ?oc=5",
@@ -651,16 +651,6 @@
       "source": {
         "name": "Yle",
         "url": "https://yle.fi"
-      }
-    },
-    {
-      "id": "803fbe82a9a0",
-      "title": "Kysely: Monet pitkäaikaissairaat haluaisivat maksaa lääkkeiden lähes 600 euron vuosiomavastuun osissa - STT Info",
-      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQN2pUY00tb25qSExESy1BMGJ4ZFVHOHBOcGZMLUp0dkFkVGd3RHRfNzZqeG9NTmwxVFdKb0lOOFhIbThJWWhVUE8wbW5VYW5FTjhHQ3F6WWNxN0huYWtBYkhzSzkteUFGc2NhOGxoWUl4bWdJNGRLcVRpVXF6VkJlRDdMN0JjeGNNVUV4SlZfbWp2ek1jcEtiQUhFNnp2czNCaDhEX0VmRF9GdEt5aUV4QXFWb01XZk9iNktlSmItQS1ETlQ3SFZmdUtQbS1pdkJaT1JHZjktdjJtTVV0LUFQNE9XSkFkOTA4VEtkNGln?oc=5",
-      "published": "2023-02-16T08:00:00+00:00",
-      "source": {
-        "name": "STT Info",
-        "url": "https://www.sttinfo.fi"
       }
     },
     {
@@ -754,16 +744,6 @@
       }
     },
     {
-      "id": "dfb5cd5509a8",
-      "title": "Jos käytät lääkkeitä, rohdosten ja ravintolisien kanssa, on syytä olla tarkkana. Asiantuntija kertoo, miksi. - Hyvä Terveys",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbXo3TFpqZFgtTllWdzJ4bHVQbDF2ZnNqR1RBV200SWhuVnJwcjBHSGRWaXRMMHJnNFBhMEhNdXNUQVZaYnlSUFQ3WHg1eWpDR3NOY05QN0gyUnlyS1hzREZieXg3a2psN013WUtWVENZZ2hwM1J6aUNUWmxuNEhNZTRyVloxdk0zb2gwTWhoNWx1eDVVYmJEMERkUUdtejVCTUlpQWswaUQzMVl4VHBJTTkyVXpqLVBtUEo4?oc=5",
-      "published": "2024-02-25T08:00:00+00:00",
-      "source": {
-        "name": "Hyvä Terveys",
-        "url": "https://www.hyvaterveys.fi"
-      }
-    },
-    {
       "id": "ff27e4a70146",
       "title": "Sairaan alkuvuosi on kallis, kun omavastuut nollaantuvat: \"Ei ole muuta mahdollisuutta kuin ruveta säästämään jo kesällä\" - Yle",
       "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5jZ2tkd0Q2dWNkckp2RHZvTGJrOUVSZWV6QmtabE9tMThjd0dhVTJscnZQc1UydGpuSEJyUHplWk8?oc=5",
@@ -771,6 +751,16 @@
       "source": {
         "name": "Yle",
         "url": "https://yle.fi"
+      }
+    },
+    {
+      "id": "dfb5cd5509a8",
+      "title": "Jos käytät lääkkeitä, rohdosten ja ravintolisien kanssa, on syytä olla tarkkana. Asiantuntija kertoo, miksi. - Hyvä Terveys",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbXo3TFpqZFgtTllWdzJ4bHVQbDF2ZnNqR1RBV200SWhuVnJwcjBHSGRWaXRMMHJnNFBhMEhNdXNUQVZaYnlSUFQ3WHg1eWpDR3NOY05QN0gyUnlyS1hzREZieXg3a2psN013WUtWVENZZ2hwM1J6aUNUWmxuNEhNZTRyVloxdk0zb2gwTWhoNWx1eDVVYmJEMERkUUdtejVCTUlpQWswaUQzMVl4VHBJTTkyVXpqLVBtUEo4?oc=5",
+      "published": "2024-02-25T08:00:00+00:00",
+      "source": {
+        "name": "Hyvä Terveys",
+        "url": "https://www.hyvaterveys.fi"
       }
     },
     {
@@ -804,16 +794,6 @@
       }
     },
     {
-      "id": "1136e763b5df",
-      "title": "Lääke ei toimi – mistä se johtuu? - Terve.fi",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE90QmNkcnYyZy1qSWMyZlVlVi1YTS0zWjhlMllCWTYzSWVLOHc4VlpFNVVHWUFxRS1KX3hzQzFpRkVCSmhwMTBjc0tVNnFDejFJNWtaTEFXTVBpUnhxZDk3Mk1R?oc=5",
-      "published": "2019-10-13T07:00:00+00:00",
-      "source": {
-        "name": "Terve.fi",
-        "url": "https://www.terve.fi"
-      }
-    },
-    {
       "id": "0d856b7b4a47",
       "title": "Tuttu lääke voisi ehkäistä epäterveellisesti elävien suolistosyöpiä - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE03Tm5oWVAwMGdQWThwWU1LRThnSVFpRmJaZ1BJSVFOQXFYRlV4YXA4YUVjbVZMME9wZ09OdmJyYkhtVFI2RU9XLXVWazh5dzVnZHBoMlhVa0pndnFw?oc=5",
@@ -831,16 +811,6 @@
       "source": {
         "name": "Apu360",
         "url": "https://www.apu.fi"
-      }
-    },
-    {
-      "id": "6df66becdcfa",
-      "title": "Auttaako lääke, jos sen tehoon ei usko? Asiantuntija vastaa tyhmään kysymykseen - Kotiliesi.fi",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTFg3S3NaMHhkVUZaWUoycS1OdndiRHQtakc1QjNJbzNlWHc5VGluTUZEU3VlYUFzWGxCNVpZQkFOZWVpa1NNTXBuZ2dpZGhTS0FGWUpEU1JDYUxoWmp3dFVWYVFLMVlqaGlLVVdvZkVENVdBczhvODUyV0x4NkUzTG9BS2lnYk52VVI0WUpKaGJpM1FYQk1tTmZpTnI2RVBf?oc=5",
-      "published": "2021-02-08T08:00:00+00:00",
-      "source": {
-        "name": "Kotiliesi.fi",
-        "url": "https://kotiliesi.fi"
       }
     },
     {
@@ -864,6 +834,26 @@
       }
     },
     {
+      "id": "6df66becdcfa",
+      "title": "Auttaako lääke, jos sen tehoon ei usko? Asiantuntija vastaa tyhmään kysymykseen - Kotiliesi.fi",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTFg3S3NaMHhkVUZaWUoycS1OdndiRHQtakc1QjNJbzNlWHc5VGluTUZEU3VlYUFzWGxCNVpZQkFOZWVpa1NNTXBuZ2dpZGhTS0FGWUpEU1JDYUxoWmp3dFVWYVFLMVlqaGlLVVdvZkVENVdBczhvODUyV0x4NkUzTG9BS2lnYk52VVI0WUpKaGJpM1FYQk1tTmZpTnI2RVBf?oc=5",
+      "published": "2021-02-08T08:00:00+00:00",
+      "source": {
+        "name": "Kotiliesi.fi",
+        "url": "https://kotiliesi.fi"
+      }
+    },
+    {
+      "id": "1136e763b5df",
+      "title": "Lääke ei toimi – mistä se johtuu? - Terve.fi",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE90QmNkcnYyZy1qSWMyZlVlVi1YTS0zWjhlMllCWTYzSWVLOHc4VlpFNVVHWUFxRS1KX3hzQzFpRkVCSmhwMTBjc0tVNnFDejFJNWtaTEFXTVBpUnhxZDk3Mk1R?oc=5",
+      "published": "2019-10-13T07:00:00+00:00",
+      "source": {
+        "name": "Terve.fi",
+        "url": "https://www.terve.fi"
+      }
+    },
+    {
       "id": "926575103d7e",
       "title": "Tuttu lääke saattaa ehkäistä tyypin 2 diabetesta – mutta siihen liittyy myös riski - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBOZ2JvTGVTN3d0Wl81Q0psUk5BRURYbHhlMWpMMEVKOWg0dFZvV2dCQWl1eVhpYUxKbU9DOTdYaVItMFdQaFlxcGRfd1doSXF3NlE0NS1SbUhUVmFj?oc=5",
@@ -881,26 +871,6 @@
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
-      }
-    },
-    {
-      "id": "6d1dd8d58ee5",
-      "title": "Lääke lihottaa - Terve.fi",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE16QnhYRWZvaWtjSlFYSTk1UElQZjV4c1NueVlPV3MtXzlqWlhsTWsyZkFkT1NOZ21ieDJ2ZXRQcDNGTVBPdUtQQXM5dGhNcGZ5UTFFRVBUNG5hbGVWRkcyag?oc=5",
-      "published": "2019-01-09T08:00:00+00:00",
-      "source": {
-        "name": "Terve.fi",
-        "url": "https://www.terve.fi"
-      }
-    },
-    {
-      "id": "4438513d5c0c",
-      "title": "Tässä on maailman ensimmäinen 3D-tulostettu lääke - Terve.fi",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUDZQWm5RbTFmX3ZPdlFxUzUzSDdRVk5zSTBXbDNlVFhaM09Gcl9rNDlTN3ppSm9mcXdpMHY0TXBWQjlfbFhwSnZxWlE3Zl9tMVhueWlfaHpKMmJLa1ZqcUVLVmdNRm1tZklxWjI2ZEVEZzFqaVp2QVA3elYwUU1ELTNScFdYYVRkOWZ2OXhMM3o?oc=5",
-      "published": "2015-08-05T07:00:00+00:00",
-      "source": {
-        "name": "Terve.fi",
-        "url": "https://www.terve.fi"
       }
     },
     {
@@ -931,6 +901,26 @@
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
+      }
+    },
+    {
+      "id": "6d1dd8d58ee5",
+      "title": "Lääke lihottaa - Terve.fi",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE16QnhYRWZvaWtjSlFYSTk1UElQZjV4c1NueVlPV3MtXzlqWlhsTWsyZkFkT1NOZ21ieDJ2ZXRQcDNGTVBPdUtQQXM5dGhNcGZ5UTFFRVBUNG5hbGVWRkcyag?oc=5",
+      "published": "2019-01-09T08:00:00+00:00",
+      "source": {
+        "name": "Terve.fi",
+        "url": "https://www.terve.fi"
+      }
+    },
+    {
+      "id": "4438513d5c0c",
+      "title": "Tässä on maailman ensimmäinen 3D-tulostettu lääke - Terve.fi",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUDZQWm5RbTFmX3ZPdlFxUzUzSDdRVk5zSTBXbDNlVFhaM09Gcl9rNDlTN3ppSm9mcXdpMHY0TXBWQjlfbFhwSnZxWlE3Zl9tMVhueWlfaHpKMmJLa1ZqcUVLVmdNRm1tZklxWjI2ZEVEZzFqaVp2QVA3elYwUU1ELTNScFdYYVRkOWZ2OXhMM3o?oc=5",
+      "published": "2015-08-05T07:00:00+00:00",
+      "source": {
+        "name": "Terve.fi",
+        "url": "https://www.terve.fi"
       }
     },
     {
@@ -1001,6 +991,16 @@
       "source": {
         "name": "Hyvä Terveys",
         "url": "https://www.hyvaterveys.fi"
+      }
+    },
+    {
+      "id": "e3de84d459bc",
+      "title": "Karmeita mokia lääkkeiden käytössä: Suuri osa sairastuneista ei edes hae niitä apteekista – ja yhtä moni nielee ne väärin - Yle",
+      "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9HYmtfWUlncHNWdDJvcWhPZVNYNEpGM0NfaWdoZnFkdjlORHpHRmlSV2M3cnhoYTA1NDZlUklHaw?oc=5",
+      "published": "2016-09-15T07:00:00+00:00",
+      "source": {
+        "name": "Yle",
+        "url": "https://yle.fi"
       }
     }
   ]

@@ -1,26 +1,16 @@
 {
-  "fetched_at": "2026-06-15T09:48:36.292651+00:00",
+  "fetched_at": "2026-06-15T15:33:49.736699+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
     {
-      "id": "13f347f09d7d",
-      "title": "Lääkkeen ottaminen vääränlaisen veden kanssa voi tuhota tehon – Halvin on paras - Iltalehti",
+      "id": "9b55282b49e9",
+      "title": "Älä tee tätä virhettä, kun otat lääkkeen - Iltalehti",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPX21JS1JOVEt3QTc2VVJ1d3pXUjFza0ZPbjcxTjVoaXd5dm1fd3RtbGU0ZzRWcEtCOVUzV0Z6enE3SVNNOHEzaFVrNlJUX0Fya2Q2YXN4LUNNRFFlLUltSUk2cDAwNDQ5VEw0X2M0ekJxQzNJbWZuVFpNTnJXSV9nUmZrTDk?oc=5",
       "published": "2026-06-15T09:46:55+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
-      }
-    },
-    {
-      "id": "f5c71ad608ba",
-      "title": "Suomeen perustetaan FinTrials vauhdittamaan kliinisiä lääke- ja laitetutkimuksia - Sosiaali- ja terveysministeriö",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZXZ2UnkwWWpZenNqS0F1Y2hRdlRnTjFxNmNwN3FYRnc3Z2NKd2lkVHhqeXRQM2RjMDZIRmtjMllCMTNERzlZQ3pNc0c2eTVUREtpbFRzdFNpNVRFYkVDaHFaek9rSjBzejl1RWxGejVGMzV0VHRSdWxfU3ZDQzhvUDNFbEl1Rks0Q1ZvU2F0YnFSVWxvQzBYeVJBdG0?oc=5",
-      "published": "2026-06-09T10:32:00+00:00",
-      "source": {
-        "name": "Sosiaali- ja terveysministeriö",
-        "url": "https://stm.fi"
       }
     },
     {
@@ -34,6 +24,16 @@
       }
     },
     {
+      "id": "f5c71ad608ba",
+      "title": "Suomeen perustetaan FinTrials vauhdittamaan kliinisiä lääke- ja laitetutkimuksia - Sosiaali- ja terveysministeriö",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZXZ2UnkwWWpZenNqS0F1Y2hRdlRnTjFxNmNwN3FYRnc3Z2NKd2lkVHhqeXRQM2RjMDZIRmtjMllCMTNERzlZQ3pNc0c2eTVUREtpbFRzdFNpNVRFYkVDaHFaek9rSjBzejl1RWxGejVGMzV0VHRSdWxfU3ZDQzhvUDNFbEl1Rks0Q1ZvU2F0YnFSVWxvQzBYeVJBdG0?oc=5",
+      "published": "2026-06-09T10:32:00+00:00",
+      "source": {
+        "name": "Sosiaali- ja terveysministeriö",
+        "url": "https://stm.fi"
+      }
+    },
+    {
       "id": "4be08b8d0ca0",
       "title": "Tämä lääke voi auttaa pääsemään tupakasta eroon – vaikka motivaatio olisi nollassa - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1zU244ZDNTcGZadUJhZ3RRQUlEVExNektuamxka3gycTBtSUhzaE5RQmFWSjhpY2Jwa0hCVHl1dnk3MkREUjR5ZVFHX0x0S3JlYlk5V2FwMVg3LTha?oc=5",
@@ -41,6 +41,16 @@
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
+      }
+    },
+    {
+      "id": "6c0007337a67",
+      "title": "Uudet tiedot lihavuuslääkkeistä: tyypillinen virhe lääkkeen käytössä voi johtaa siihen, että lääke menettää tehonsa - Yle",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFAzazhjLVJrMWlfcGFZTG5WN2s2aW1jZFlSZVpXc1lFcWFNUHA5VGRSR2l6amRycjBmeXItc25qeVJRdw?oc=5",
+      "published": "2026-06-09T02:30:35+00:00",
+      "source": {
+        "name": "Yle",
+        "url": "https://yle.fi"
       }
     },
     {
@@ -84,40 +94,20 @@
       }
     },
     {
-      "id": "b1d9e2318b23",
-      "title": "Pieni virhe lääkityksessä voi maksaa jopa 4 500 euroa – tutkimus: niistä eroon pääsy säästäisi miljoonia vuodessa - Yle",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE82c3RveWRrY1lyU0c1RG1RVHAzbjBVNXdVVWZ1YkIzMmM5OVZhamZ6Znp1TTVNOENfdUpNMk1YYXB0Zw?oc=5",
-      "published": "2026-03-14T07:00:00+00:00",
-      "source": {
-        "name": "Yle",
-        "url": "https://yle.fi"
-      }
-    },
-    {
-      "id": "1f576b846983",
-      "title": "Lääkkeen saa puolittaa vain yhdessä tapauksessa - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE83anB2YUtMSU5jWVBSVjRRelh6R3pXdXl3c0h0bXkyT0FzZ3JMczhJOU1VZVNWNDdsdkFscmlCQTN1eTRuS1dJUW9ydTJVU2IySllPWmd1NlJEMUdH?oc=5",
-      "published": "2026-05-24T07:00:00+00:00",
+      "id": "ba1f809fcd68",
+      "title": "Tuttu lääke voi hillitä myös alkoholin käyttöä - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1rT3pjRFBQZlJRaXBjZ2o4ZzF6em5QWlNhMlNHNXFJSXpWMzdKdGpmZzJxUWV4emt2NFJ1bWZzQ0tsWjV3Qmp4N2Y1NDA1MVhGbHJiVC1qQjNqQWhO?oc=5",
+      "published": "2026-06-02T07:00:00+00:00",
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
       }
     },
     {
-      "id": "3f3062988d60",
-      "title": "Tutkimus: lihavuusleikkaus laihduttaa tehokkaammin ja edullisemmin kuin lääkkeet | Apu Terveys - Apu360",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUHc2M25TZHY5cm0td3BiS0VWTUpIY1VCdFNvREdtM1pzcGJKeTJGeUdIZ0kzSVkxcmh4RkVEMnY5ZkpxX0RHQmV5dnhMV1F6cnBXVEdEWTFqbkpseS1kOEJkY1VjUGVmVXlwUWlsTmYzNlZsRFJ1ei00T1VFZUYtWUVtLXVXY0gtR2pYVDBNWTNqTVRGNjBCVzFkVkpUd2NpVlE?oc=5",
-      "published": "2026-02-23T08:00:00+00:00",
-      "source": {
-        "name": "Apu360",
-        "url": "https://www.apu.fi"
-      }
-    },
-    {
-      "id": "db26b1adf129",
-      "title": "Laihdutuslääke saattaa auttaa masennukseen ja ahdistukseenkin, kertoo tutkimus – kysyimme, muuttuuko hoito - Yle",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5GV082ZTF6bU84UlMxaTJVcWtPOWRxV2h5REJaTWV5eFRFNEpCSWtPLW9EYVlXdTZDQ3dlTlF0cmJDQQ?oc=5",
-      "published": "2026-03-20T07:00:00+00:00",
+      "id": "b1d9e2318b23",
+      "title": "Pieni virhe lääkityksessä voi maksaa jopa 4 500 euroa – tutkimus: niistä eroon pääsy säästäisi miljoonia vuodessa - Yle",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE82c3RveWRrY1lyU0c1RG1RVHAzbjBVNXdVVWZ1YkIzMmM5OVZhamZ6Znp1TTVNOENfdUpNMk1YYXB0Zw?oc=5",
+      "published": "2026-03-14T07:00:00+00:00",
       "source": {
         "name": "Yle",
         "url": "https://yle.fi"
@@ -144,30 +134,40 @@
       }
     },
     {
-      "id": "ba1f809fcd68",
-      "title": "Tuttu lääke voi hillitä myös alkoholin käyttöä - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1rT3pjRFBQZlJRaXBjZ2o4ZzF6em5QWlNhMlNHNXFJSXpWMzdKdGpmZzJxUWV4emt2NFJ1bWZzQ0tsWjV3Qmp4N2Y1NDA1MVhGbHJiVC1qQjNqQWhO?oc=5",
-      "published": "2026-06-02T07:00:00+00:00",
+      "id": "75a58a192298",
+      "title": "Näistä lääkkeistä tarvitset matkalle todistuksen – muuten voit joutua lentokentällä ongelmiin - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE51S2tjaWQ5TUhJQ2hxcnlsaU96TlRMUTF6eEYxM0ZiVk1kM2RHRS1iMHNSUGQ4SkNzWEt1WVRBclJMdHNkd2RUZ282TjRTTmdNQ0Vaek41MEVtLWlv?oc=5",
+      "published": "2026-04-19T07:00:00+00:00",
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
       }
     },
     {
-      "id": "2b9a72f56b67",
-      "title": "Petra, 22, on tiettävästi ainoa Suomessa, joka sairastaa julmaa tautia – ”Jonain päivänä olen täysin muiden armoilla” - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcUdnV2h5OThSX3dJdGVoZ09kTnpXX0UtSmloT1R2ZGFrWWYweVNBb0h5amZwTE5sdjdqNVdwd01Zbmt0R2x0SmlGZFZFaEdRV1pONDRJVnNoaGhQV3ZrUjRzSnZ4R1ZVdkxaVFpzcWdXd3Nza2QwWmEteHhaaGg0SGpuYmc?oc=5",
-      "published": "2026-06-09T10:31:54+00:00",
+      "id": "db26b1adf129",
+      "title": "Laihdutuslääke saattaa auttaa masennukseen ja ahdistukseenkin, kertoo tutkimus – kysyimme, muuttuuko hoito - Yle",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5GV082ZTF6bU84UlMxaTJVcWtPOWRxV2h5REJaTWV5eFRFNEpCSWtPLW9EYVlXdTZDQ3dlTlF0cmJDQQ?oc=5",
+      "published": "2026-03-20T07:00:00+00:00",
+      "source": {
+        "name": "Yle",
+        "url": "https://yle.fi"
+      }
+    },
+    {
+      "id": "c807f81f0ada",
+      "title": "Tämä lääke loppui Suomesta - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNU2wxX0E0OWMtX0xZOFY3UjhEa20wV0N0U2huRFpNOXNQbVIzNUQ5NE9OYjZvVGxtemFVbU9iUHliRDFvQXd1OTlNdEpUdC1WaHZxUXdsUGtNYi1zWXdyMDUzSjVfUGZHUDNVOEJ2bjFOS05nWktzMkR1ODFDM1pkSUdBMUI?oc=5",
+      "published": "2026-03-31T07:00:00+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
       }
     },
     {
-      "id": "75a58a192298",
-      "title": "Näistä lääkkeistä tarvitset matkalle todistuksen – muuten voit joutua lentokentällä ongelmiin - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE51S2tjaWQ5TUhJQ2hxcnlsaU96TlRMUTF6eEYxM0ZiVk1kM2RHRS1iMHNSUGQ4SkNzWEt1WVRBclJMdHNkd2RUZ282TjRTTmdNQ0Vaek41MEVtLWlv?oc=5",
-      "published": "2026-04-19T07:00:00+00:00",
+      "id": "1f576b846983",
+      "title": "Lääkkeen saa puolittaa vain yhdessä tapauksessa - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE83anB2YUtMSU5jWVBSVjRRelh6R3pXdXl3c0h0bXkyT0FzZ3JMczhJOU1VZVNWNDdsdkFscmlCQTN1eTRuS1dJUW9ydTJVU2IySllPWmd1NlJEMUdH?oc=5",
+      "published": "2026-05-24T07:00:00+00:00",
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
@@ -204,6 +204,16 @@
       }
     },
     {
+      "id": "3f3062988d60",
+      "title": "Tutkimus: lihavuusleikkaus laihduttaa tehokkaammin ja edullisemmin kuin lääkkeet | Apu Terveys - Apu360",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUHc2M25TZHY5cm0td3BiS0VWTUpIY1VCdFNvREdtM1pzcGJKeTJGeUdIZ0kzSVkxcmh4RkVEMnY5ZkpxX0RHQmV5dnhMV1F6cnBXVEdEWTFqbkpseS1kOEJkY1VjUGVmVXlwUWlsTmYzNlZsRFJ1ei00T1VFZUYtWUVtLXVXY0gtR2pYVDBNWTNqTVRGNjBCVzFkVkpUd2NpVlE?oc=5",
+      "published": "2026-02-23T08:00:00+00:00",
+      "source": {
+        "name": "Apu360",
+        "url": "https://www.apu.fi"
+      }
+    },
+    {
       "id": "03ab012068da",
       "title": "Tämä liikuntalaji hoitaa masennusta paremmin kuin lääke – harrastajien aivot synkronisoituvat - Kotiliesi.fi",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA4WnJDaXBmLXVKek5wN2ZQYktpa3JfVEFnbnByUUp4TENHbTJCWjFaNlRsWVNwNk16a3M4MXE2TEl0a1pUcjhIZWFOZ1pNTHNja3JYV1hNRmZiS2FWVkdIVG5jM29JV1dvNEx6MkZaSDV0M3Fv?oc=5",
@@ -218,6 +228,16 @@
       "title": "Riikka pelkää: Mitä tapahtuu, kun elintärkeä lääke loppuu Suomesta? - Iltalehti",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObkxDOFB4cGJaT05tLVltVDdJLUxNaXdKVVVWZ3pZN0gwNWZ0aDhWOEZxU3hndmNOeFljSDdTRGVGU3ZqYll2RE9XaEEzOTR4U21EZ1JKN2pEMk1zZm1MNWpzNFBzTzFfZGFlemtJUFhDV3RvSWRBUHNSdGJpcmxoT2xrUjU?oc=5",
       "published": "2025-11-22T08:00:00+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
+      }
+    },
+    {
+      "id": "2b9a72f56b67",
+      "title": "Petra, 22, on tiettävästi ainoa Suomessa, joka sairastaa julmaa tautia – ”Jonain päivänä olen täysin muiden armoilla” - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcUdnV2h5OThSX3dJdGVoZ09kTnpXX0UtSmloT1R2ZGFrWWYweVNBb0h5amZwTE5sdjdqNVdwd01Zbmt0R2x0SmlGZFZFaEdRV1pONDRJVnNoaGhQV3ZrUjRzSnZ4R1ZVdkxaVFpzcWdXd3Nza2QwWmEteHhaaGg0SGpuYmc?oc=5",
+      "published": "2026-06-09T10:31:54+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
@@ -274,16 +294,6 @@
       }
     },
     {
-      "id": "b3e90a1c3deb",
-      "title": "Tutkimus: Tämä lääke ehkäisee sydänkohtauksen paremmin kuin aspiriini - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9ZbDlaVmdDR3JqakhKSnRyZEt4UHpwemJHLWVqQ0VTYXdJb25DNTBCRk5RVTJHcUtlN3hDb2tNaURISFZfT1d5Zzd3SkdZeEdtMnVyUzhvSERJM2F3X0RUd1FrWFhtdXV0c0JZRkVDV2htTFNKUmp0WA?oc=5",
-      "published": "2025-09-01T07:00:00+00:00",
-      "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
-      }
-    },
-    {
       "id": "2e15e9e19f5d",
       "title": "Tutkimus: Tuttu lääke saattaa suojata koronan tarttumiselta - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5MUDFMWVZYMWt0M1JqZHpCTFZPenk4RmNUYjRCWk10dWtHRktoN2lMYXFkTm1VNkkwRTNqSEd3M1FRRWlXRHJXZVd5eE9UR29Zb2xVZjNsa2xIUUcz?oc=5",
@@ -301,6 +311,16 @@
       "source": {
         "name": "Apu360",
         "url": "https://www.apu.fi"
+      }
+    },
+    {
+      "id": "b3e90a1c3deb",
+      "title": "Tutkimus: Tämä lääke ehkäisee sydänkohtauksen paremmin kuin aspiriini - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9ZbDlaVmdDR3JqakhKSnRyZEt4UHpwemJHLWVqQ0VTYXdJb25DNTBCRk5RVTJHcUtlN3hDb2tNaURISFZfT1d5Zzd3SkdZeEdtMnVyUzhvSERJM2F3X0RUd1FrWFhtdXV0c0JZRkVDV2htTFNKUmp0WA?oc=5",
+      "published": "2025-09-01T07:00:00+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
       }
     },
     {
@@ -491,16 +511,6 @@
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
-      }
-    },
-    {
-      "id": "a32ac34b518c",
-      "title": "Voiko Ketipinor-lääkitys heikentää toipumista aivoinfarktin jälkeen? – Pippa Laukka vastaa - Apu360",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbVg4am5MZHdsOEotemxGT3Q1eGU1MVJONlhpTkp4SVVtNWV1V3lGR0FIWDlMN1FWc21TbHNoTTN3YVFUZWUxNEVHczBHWjBjT00xa2ZhMER0bmRmcUJiNEc0MDgzbFNHNnl0SzJLdk45c19fdTdMT1BZWkpQQlpFQjlhVG1sZ1pMRGhGMS1tNDI?oc=5",
-      "published": "2025-10-24T07:00:00+00:00",
-      "source": {
-        "name": "Apu360",
-        "url": "https://www.apu.fi"
       }
     },
     {
@@ -764,16 +774,6 @@
       }
     },
     {
-      "id": "ff27e4a70146",
-      "title": "Sairaan alkuvuosi on kallis, kun omavastuut nollaantuvat: \"Ei ole muuta mahdollisuutta kuin ruveta säästämään jo kesällä\" - Yle",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5jZ2tkd0Q2dWNkckp2RHZvTGJrOUVSZWV6QmtabE9tMThjd0dhVTJscnZQc1UydGpuSEJyUHplWk8?oc=5",
-      "published": "2020-01-06T08:00:00+00:00",
-      "source": {
-        "name": "Yle",
-        "url": "https://yle.fi"
-      }
-    },
-    {
       "id": "dfb5cd5509a8",
       "title": "Jos käytät lääkkeitä, rohdosten ja ravintolisien kanssa, on syytä olla tarkkana. Asiantuntija kertoo, miksi. - Hyvä Terveys",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbXo3TFpqZFgtTllWdzJ4bHVQbDF2ZnNqR1RBV200SWhuVnJwcjBHSGRWaXRMMHJnNFBhMEhNdXNUQVZaYnlSUFQ3WHg1eWpDR3NOY05QN0gyUnlyS1hzREZieXg3a2psN013WUtWVENZZ2hwM1J6aUNUWmxuNEhNZTRyVloxdk0zb2gwTWhoNWx1eDVVYmJEMERkUUdtejVCTUlpQWswaUQzMVl4VHBJTTkyVXpqLVBtUEo4?oc=5",
@@ -781,6 +781,16 @@
       "source": {
         "name": "Hyvä Terveys",
         "url": "https://www.hyvaterveys.fi"
+      }
+    },
+    {
+      "id": "ff27e4a70146",
+      "title": "Sairaan alkuvuosi on kallis, kun omavastuut nollaantuvat: \"Ei ole muuta mahdollisuutta kuin ruveta säästämään jo kesällä\" - Yle",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5jZ2tkd0Q2dWNkckp2RHZvTGJrOUVSZWV6QmtabE9tMThjd0dhVTJscnZQc1UydGpuSEJyUHplWk8?oc=5",
+      "published": "2020-01-06T08:00:00+00:00",
+      "source": {
+        "name": "Yle",
+        "url": "https://yle.fi"
       }
     },
     {
@@ -864,16 +874,6 @@
       }
     },
     {
-      "id": "83649a190763",
-      "title": "Kaksi tuttua lääkettä, joita ei saa käyttää yhdessä – johtaa pahimmassa tapauksessa hengenvaaraan - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE96eWFyUFczc2h1UFAyZkJ6My0xQ3VyT09VSTViN1BNd2VwMnVWTGsyb0xzOHU2azlSU0E4SjNacjYyV0hDVFAzS3llNFZHWjFzYUJvM0pEUmdXVWFa?oc=5",
-      "published": "2025-05-28T07:00:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
-      }
-    },
-    {
       "id": "1136e763b5df",
       "title": "Lääke ei toimi – mistä se johtuu? - Terve.fi",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE90QmNkcnYyZy1qSWMyZlVlVi1YTS0zWjhlMllCWTYzSWVLOHc4VlpFNVVHWUFxRS1KX3hzQzFpRkVCSmhwMTBjc0tVNnFDejFJNWtaTEFXTVBpUnhxZDk3Mk1R?oc=5",
@@ -904,16 +904,6 @@
       }
     },
     {
-      "id": "affdab05c5a2",
-      "title": "Lääkäriliitto: 3D-lääke on vielä kaukana – 3D-leuka jo täällä - Yle",
-      "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9PdUJfRHZyc3dWekM4RHY0dk0xMlBRRFFadVcyWldmNDdaMDE0YWtIWWxzOEZRUEFOX2RPTGV5OA?oc=5",
-      "published": "2015-08-18T07:00:00+00:00",
-      "source": {
-        "name": "Yle",
-        "url": "https://yle.fi"
-      }
-    },
-    {
       "id": "24653ed0fdd2",
       "title": "Marian osteoporoosi paheni, koska hän käytti väärää lääkettä vuosia – Lääkärit eivät huomanneet virhettä | Apu Terveys - Apu360",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOYXFENERwWGZGSTVSOXhMZlNVNWo1QU1TUDQ0aHZiM1VXX3diUlpRWVh6aUhWSWVfUUVCV0VzVmVnR3FLcmxVSG1IZGdlVERFRjlSaWZZRWg2MERYU3MxaUNhbTFrcEdXUkxaZGkyNzJtWGcxc1lOLThyNEJ2NDBaU2tmRjY1djlXSUdnMHA4VWNYalU?oc=5",
@@ -921,6 +911,16 @@
       "source": {
         "name": "Apu360",
         "url": "https://www.apu.fi"
+      }
+    },
+    {
+      "id": "affdab05c5a2",
+      "title": "Lääkäriliitto: 3D-lääke on vielä kaukana – 3D-leuka jo täällä - Yle",
+      "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9PdUJfRHZyc3dWekM4RHY0dk0xMlBRRFFadVcyWldmNDdaMDE0YWtIWWxzOEZRUEFOX2RPTGV5OA?oc=5",
+      "published": "2015-08-18T07:00:00+00:00",
+      "source": {
+        "name": "Yle",
+        "url": "https://yle.fi"
       }
     },
     {

@@ -1,8 +1,18 @@
 {
-  "fetched_at": "2026-06-16T00:19:57.344235+00:00",
+  "fetched_at": "2026-06-16T06:19:44.959527+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
+    {
+      "id": "22d7ff84918b",
+      "title": "Tiina, 56, halusi laihtua, nyt hän on menettänyt ison osan näöstään – ”Miksi tällaista lääkettä määrätään?” - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1YTk82RDZHdGxJRkxaZm1LMTV5SEhMLVdlOW0yVm9hbkdselQySmJ0NkI0TC1Dam5DMUxkaXNkYnFCd2V1cXVCc3lua0ZmSDlCTVhYdWVILXZVOTkz?oc=5",
+      "published": "2026-06-16T03:00:00+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
+      }
+    },
     {
       "id": "b2965b5599de",
       "title": "Suomeen perustetaan kliinisten lääke- ja laitetutkimusten toimintamalli FinTrials - sitra.fi",
@@ -14,13 +24,13 @@
       }
     },
     {
-      "id": "4be08b8d0ca0",
-      "title": "Tämä lääke voi auttaa pääsemään tupakasta eroon – vaikka motivaatio olisi nollassa - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1zU244ZDNTcGZadUJhZ3RRQUlEVExNektuamxka3gycTBtSUhzaE5RQmFWSjhpY2Jwa0hCVHl1dnk3MkREUjR5ZVFHX0x0S3JlYlk5V2FwMVg3LTha?oc=5",
-      "published": "2026-06-10T07:45:00+00:00",
+      "id": "f5c71ad608ba",
+      "title": "Suomeen perustetaan FinTrials vauhdittamaan kliinisiä lääke- ja laitetutkimuksia - Sosiaali- ja terveysministeriö",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZXZ2UnkwWWpZenNqS0F1Y2hRdlRnTjFxNmNwN3FYRnc3Z2NKd2lkVHhqeXRQM2RjMDZIRmtjMllCMTNERzlZQ3pNc0c2eTVUREtpbFRzdFNpNVRFYkVDaHFaek9rSjBzejl1RWxGejVGMzV0VHRSdWxfU3ZDQzhvUDNFbEl1Rks0Q1ZvU2F0YnFSVWxvQzBYeVJBdG0?oc=5",
+      "published": "2026-06-09T10:32:00+00:00",
       "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
+        "name": "Sosiaali- ja terveysministeriö",
+        "url": "https://stm.fi"
       }
     },
     {
@@ -84,6 +94,16 @@
       }
     },
     {
+      "id": "4be08b8d0ca0",
+      "title": "Tämä lääke voi auttaa pääsemään tupakasta eroon – vaikka motivaatio olisi nollassa - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1zU244ZDNTcGZadUJhZ3RRQUlEVExNektuamxka3gycTBtSUhzaE5RQmFWSjhpY2Jwa0hCVHl1dnk3MkREUjR5ZVFHX0x0S3JlYlk5V2FwMVg3LTha?oc=5",
+      "published": "2026-06-10T07:45:00+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
+      }
+    },
+    {
       "id": "3f3062988d60",
       "title": "Tutkimus: lihavuusleikkaus laihduttaa tehokkaammin ja edullisemmin kuin lääkkeet | Apu Terveys - Apu360",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUHc2M25TZHY5cm0td3BiS0VWTUpIY1VCdFNvREdtM1pzcGJKeTJGeUdIZ0kzSVkxcmh4RkVEMnY5ZkpxX0RHQmV5dnhMV1F6cnBXVEdEWTFqbkpseS1kOEJkY1VjUGVmVXlwUWlsTmYzNlZsRFJ1ei00T1VFZUYtWUVtLXVXY0gtR2pYVDBNWTNqTVRGNjBCVzFkVkpUd2NpVlE?oc=5",
@@ -101,26 +121,6 @@
       "source": {
         "name": "Kotiliesi.fi",
         "url": "https://kotiliesi.fi"
-      }
-    },
-    {
-      "id": "ba1f809fcd68",
-      "title": "Tuttu lääke voi hillitä myös alkoholin käyttöä - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1rT3pjRFBQZlJRaXBjZ2o4ZzF6em5QWlNhMlNHNXFJSXpWMzdKdGpmZzJxUWV4emt2NFJ1bWZzQ0tsWjV3Qmp4N2Y1NDA1MVhGbHJiVC1qQjNqQWhO?oc=5",
-      "published": "2026-06-02T07:00:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
-      }
-    },
-    {
-      "id": "0e2d410096c2",
-      "title": "Seksi | Potilaat: Masennuslääke auttoi ensin, sitten seksi muuttui oudoksi - Satakunnan Kansa",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE80clFUdl9PZEZjbnhwOUZTbVZDc3VpYU9LbmowUUgzcnJ2M09NMFJrUmRMLXFBLUlMVXFYWkdjUEsyRzRMSVgyd3hqdHp0akdiZUI2VndtUXFZbTVXalZLNjBxallYRHJnOTJseDl3?oc=5",
-      "published": "2026-06-13T16:00:00+00:00",
-      "source": {
-        "name": "Satakunnan Kansa",
-        "url": "https://www.satakunnankansa.fi"
       }
     },
     {
@@ -154,36 +154,6 @@
       }
     },
     {
-      "id": "75a58a192298",
-      "title": "Näistä lääkkeistä tarvitset matkalle todistuksen – muuten voit joutua lentokentällä ongelmiin - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE51S2tjaWQ5TUhJQ2hxcnlsaU96TlRMUTF6eEYxM0ZiVk1kM2RHRS1iMHNSUGQ4SkNzWEt1WVRBclJMdHNkd2RUZ282TjRTTmdNQ0Vaek41MEVtLWlv?oc=5",
-      "published": "2026-04-19T07:00:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
-      }
-    },
-    {
-      "id": "7ec99122cfbe",
-      "title": "Edes lääke ei aina paranna tätä ”tuliaista” – Leviää nyt kiivaasti Euroopassa - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUUFua0U1ZGE4bUV5b2ZlcDVQZEc5V1Y4NGZvOXhIOGJBdEVGamFYejVUdHFMUUtjek9JYUZBM1ByX1BaeHBDeFdEY2V3R1lRLWR4TzZJQ05uQkxrWVdIOW9IRHhMcjhjWVVYM1BtTEVBQ1NUNEFHZ1ZZUlRfSVNPSUZPajE?oc=5",
-      "published": "2025-10-13T07:00:00+00:00",
-      "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
-      }
-    },
-    {
-      "id": "1f576b846983",
-      "title": "Lääkkeen saa puolittaa vain yhdessä tapauksessa - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE83anB2YUtMSU5jWVBSVjRRelh6R3pXdXl3c0h0bXkyT0FzZ3JMczhJOU1VZVNWNDdsdkFscmlCQTN1eTRuS1dJUW9ydTJVU2IySllPWmd1NlJEMUdH?oc=5",
-      "published": "2026-05-24T07:00:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
-      }
-    },
-    {
       "id": "4a2927f8ebf5",
       "title": "Tämä yleinen lääke voi hälyttää huumetestissä - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBuWlVhUkQ1MWdoc1ozenpQUjJSamx3UHBxVmNiMmRsSnF1RW85X1drWGVYZTFJWHNfTWhLbVZtYUJLU004QmR4b0d3RWc1LXNiNW9KMFQ2TFFmWmts?oc=5",
@@ -194,10 +164,10 @@
       }
     },
     {
-      "id": "bbb6ee35d88c",
-      "title": "Syötkö samanaikaisesti yli neljää eri lääkettä? Tämän vaivan riski lisääntyy - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB6cDVyUUZOX1N2em15bldOdmhRTkZRczc2cENCNHFvS2pXVnJWd1FILUpmdjVRWWlQam5meC1DRlJld24walZzYUwxbTJGekFIWFhlNVVxcERfSVhl?oc=5",
-      "published": "2026-05-17T07:00:00+00:00",
+      "id": "ba1f809fcd68",
+      "title": "Tuttu lääke voi hillitä myös alkoholin käyttöä - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1rT3pjRFBQZlJRaXBjZ2o4ZzF6em5QWlNhMlNHNXFJSXpWMzdKdGpmZzJxUWV4emt2NFJ1bWZzQ0tsWjV3Qmp4N2Y1NDA1MVhGbHJiVC1qQjNqQWhO?oc=5",
+      "published": "2026-06-02T07:00:00+00:00",
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
@@ -214,6 +184,26 @@
       }
     },
     {
+      "id": "1f576b846983",
+      "title": "Lääkkeen saa puolittaa vain yhdessä tapauksessa - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE83anB2YUtMSU5jWVBSVjRRelh6R3pXdXl3c0h0bXkyT0FzZ3JMczhJOU1VZVNWNDdsdkFscmlCQTN1eTRuS1dJUW9ydTJVU2IySllPWmd1NlJEMUdH?oc=5",
+      "published": "2026-05-24T07:00:00+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
+      }
+    },
+    {
+      "id": "bbb6ee35d88c",
+      "title": "Syötkö samanaikaisesti yli neljää eri lääkettä? Tämän vaivan riski lisääntyy - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB6cDVyUUZOX1N2em15bldOdmhRTkZRczc2cENCNHFvS2pXVnJWd1FILUpmdjVRWWlQam5meC1DRlJld24walZzYUwxbTJGekFIWFhlNVVxcERfSVhl?oc=5",
+      "published": "2026-05-17T07:00:00+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
+      }
+    },
+    {
       "id": "8654d571477b",
       "title": "Tuttu lääke voi tehota polven nivelrikkoon - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1iX3RfNURISzRVWkVKR05uRzFaQ0hQenVSTkZGaEtPMlNlS2xwTHRYS0xyNWtBaFBXVzZWZVhmRC15bXpGSXotX2VXenp1R3p2dXVMTXNhdExFOUtj?oc=5",
@@ -221,16 +211,6 @@
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
-      }
-    },
-    {
-      "id": "2b9a72f56b67",
-      "title": "Petra, 22, on tiettävästi ainoa Suomessa, joka sairastaa julmaa tautia – ”Jonain päivänä olen täysin muiden armoilla” - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcUdnV2h5OThSX3dJdGVoZ09kTnpXX0UtSmloT1R2ZGFrWWYweVNBb0h5amZwTE5sdjdqNVdwd01Zbmt0R2x0SmlGZFZFaEdRV1pONDRJVnNoaGhQV3ZrUjRzSnZ4R1ZVdkxaVFpzcWdXd3Nza2QwWmEteHhaaGg0SGpuYmc?oc=5",
-      "published": "2026-06-09T10:31:54+00:00",
-      "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
       }
     },
     {
@@ -284,10 +264,10 @@
       }
     },
     {
-      "id": "fd1e3a3f7728",
-      "title": "Päihdelääkärien hätähuuto: Tärkeä lääke loppuu koko Suomesta - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSG50UnBGSzVhUHNxS1JHbldXcWRhYXpHeFkzendhLTY3dFozTXV1TmF5c1FtOE15UlFTcThfZHVLX3h1Y0swYTNqdzRmdTJaMDRGNU9aX202TGs2MDJQXzZlNHhzWkYzUDlLSHpDNnV6bXQ0UjV2b3JIYW9WLWZiM3ZIWUo?oc=5",
-      "published": "2025-11-06T08:00:00+00:00",
+      "id": "69a777b93da8",
+      "title": "Tuttu lääke ykkösenä haittavaikutuslistalla – Pahoinvointia, ripulia, vatsakipuja... - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxON0Nkcy1qMnlaaGc3OGl1LThWeGkydS1sX09YektRUHNCdDhlSktLWUJMRmtISlRRTk95RDFJOFNjcnVDNUp3Z3pDUEhsQ3Mzd2dzWEYtN3d2c0hTVm1IVkFmczJrSlNyNE9MeWZSMTlkcVV6QWg1X1cxUl9peS03OTBXVGk?oc=5",
+      "published": "2026-01-12T08:00:00+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
@@ -464,16 +444,6 @@
       }
     },
     {
-      "id": "2ab5d85a5c1f",
-      "title": "Masennuslääkkeillä on karmea kääntöpuoli – Nyt puhuvat he, jotka ovat kokeneet sen katkeralla tavalla - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNUtMcExOb2VIMktDcWRuVkR3Q0VZbVNhekphUzU0b1JSbmJ2VUhtTHZuWkpJd0hmU0ZRdjlITjhZYTRIYVVvRjQ5cFFMSzBKSE82di1UN2g4X0JPUnUxVmRvbXBIbXk5dTJlb1Z6d2J4T0h4YlBFZm1XMkRrc2xmVHRIaVk?oc=5",
-      "published": "2025-07-28T07:00:00+00:00",
-      "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
-      }
-    },
-    {
       "id": "bbbc1319946c",
       "title": "Onko edullinen rinnakkaislääke huonompi kuin alkuperäinen? Apteekkari kertoo totuuden - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9iTHFPUTZMZDAySTRKdWFKT01xX3lCQWJkdUpHMlRacTR5dEhQeUhidmRQckk4NUpKUVhSZE9nOFBQQWFlVzgxTkNBOWhySVNMT21QUGNwUGY5NlVl?oc=5",
@@ -504,13 +474,13 @@
       }
     },
     {
-      "id": "032459aa0e77",
-      "title": "Psyykenlääkkeen lopettaminen vei toimintakyvyn – Miten selvitä eteenpäin? Pippa Laukka vastaa - Apu360",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPVWRBa0VqUXJ1c0piTTJ4WjQwcW5KcDMwZ3BqREZkZkludUN0ajF6LWRkb0NQWW4zWElQYXlDQlp5bi1JYlZkcFpaajMzaW9pZkpNckxyb0F6QjdOaEpTeTBNbkFmaGpmVDlKdHN3NkI3dnNXQ0lmbVVhMFBUcGwzdzVoQ0kycF90dTRJbkk2X29jUTNZ?oc=5",
-      "published": "2025-10-12T07:00:00+00:00",
+      "id": "2ab5d85a5c1f",
+      "title": "Masennuslääkkeillä on karmea kääntöpuoli – Nyt puhuvat he, jotka ovat kokeneet sen katkeralla tavalla - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNUtMcExOb2VIMktDcWRuVkR3Q0VZbVNhekphUzU0b1JSbmJ2VUhtTHZuWkpJd0hmU0ZRdjlITjhZYTRIYVVvRjQ5cFFMSzBKSE82di1UN2g4X0JPUnUxVmRvbXBIbXk5dTJlb1Z6d2J4T0h4YlBFZm1XMkRrc2xmVHRIaVk?oc=5",
+      "published": "2025-07-28T07:00:00+00:00",
       "source": {
-        "name": "Apu360",
-        "url": "https://www.apu.fi"
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
       }
     },
     {
@@ -518,6 +488,16 @@
       "title": "Levottomat jalat ja pramipeksoli – Pippa Laukan vinkit, milloin lääkitys kaipaa tarkistusta - Apu360",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOakotbXJoZFBrWXlDcktPZFdvbHRhRkxwM0ltTzBOYnJYbjNiSE9JdHVxX1JBR2FpWUZtNGZESzF5bU1WenBsV2lSM2MzZ2lPbXQ4VGNEajlSVnNDc00xSGJKRWxyc014YnBaQXM4aG1sdGtoTk5VdVRfeGw3YlhDRk11ckZXMDBGS1E?oc=5",
       "published": "2025-10-05T07:00:00+00:00",
+      "source": {
+        "name": "Apu360",
+        "url": "https://www.apu.fi"
+      }
+    },
+    {
+      "id": "032459aa0e77",
+      "title": "Psyykenlääkkeen lopettaminen vei toimintakyvyn – Miten selvitä eteenpäin? Pippa Laukka vastaa - Apu360",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPVWRBa0VqUXJ1c0piTTJ4WjQwcW5KcDMwZ3BqREZkZkludUN0ajF6LWRkb0NQWW4zWElQYXlDQlp5bi1JYlZkcFpaajMzaW9pZkpNckxyb0F6QjdOaEpTeTBNbkFmaGpmVDlKdHN3NkI3dnNXQ0lmbVVhMFBUcGwzdzVoQ0kycF90dTRJbkk2X29jUTNZ?oc=5",
+      "published": "2025-10-12T07:00:00+00:00",
       "source": {
         "name": "Apu360",
         "url": "https://www.apu.fi"
@@ -1001,6 +981,26 @@
       "source": {
         "name": "Hyvä Terveys",
         "url": "https://www.hyvaterveys.fi"
+      }
+    },
+    {
+      "id": "e3de84d459bc",
+      "title": "Karmeita mokia lääkkeiden käytössä: Suuri osa sairastuneista ei edes hae niitä apteekista – ja yhtä moni nielee ne väärin - Yle",
+      "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9HYmtfWUlncHNWdDJvcWhPZVNYNEpGM0NfaWdoZnFkdjlORHpHRmlSV2M3cnhoYTA1NDZlUklHaw?oc=5",
+      "published": "2016-09-15T07:00:00+00:00",
+      "source": {
+        "name": "Yle",
+        "url": "https://yle.fi"
+      }
+    },
+    {
+      "id": "65ce829777b3",
+      "title": "ADHD-lääkkeet saattavat suurentaa näiden sairauksien riskiä - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5ZcWJ3NDQxZmRsTlJjc2N1Y0ItQkYwd0RTU1RDckt4UjlnZW5ybDVPblJFZWVXM3VNUnJTb21ydEV1RDBTejV2Tk5VMGxuUTVvT0liSm9ZMkktNVJU?oc=5",
+      "published": "2024-02-13T08:00:00+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
       }
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-23T20:59:13.602167+00:00",
+  "fetched_at": "2026-06-23T22:10:11.163594+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -624,16 +624,6 @@
       }
     },
     {
-      "id": "803fbe82a9a0",
-      "title": "Kysely: Monet pitkäaikaissairaat haluaisivat maksaa lääkkeiden lähes 600 euron vuosiomavastuun osissa - STT Info",
-      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQN2pUY00tb25qSExESy1BMGJ4ZFVHOHBOcGZMLUp0dkFkVGd3RHRfNzZqeG9NTmwxVFdKb0lOOFhIbThJWWhVUE8wbW5VYW5FTjhHQ3F6WWNxN0huYWtBYkhzSzkteUFGc2NhOGxoWUl4bWdJNGRLcVRpVXF6VkJlRDdMN0JjeGNNVUV4SlZfbWp2ek1jcEtiQUhFNnp2czNCaDhEX0VmRF9GdEt5aUV4QXFWb01XZk9iNktlSmItQS1ETlQ3SFZmdUtQbS1pdkJaT1JHZjktdjJtTVV0LUFQNE9XSkFkOTA4VEtkNGln?oc=5",
-      "published": "2023-02-16T08:00:00+00:00",
-      "source": {
-        "name": "STT Info",
-        "url": "https://www.sttinfo.fi"
-      }
-    },
-    {
       "id": "20549b823652",
       "title": "Lihavuuslääke nousi Suomen myydyimmäksi lääkkeeksi - Yle",
       "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE02V0NFcVBPbWp5aHJmQThteGhla1YyZXJsd096TC14Vk1ZekwtVEhETVJ0Z3FqVDF3Z19kalBRUWozQQ?oc=5",
@@ -641,6 +631,16 @@
       "source": {
         "name": "Yle",
         "url": "https://yle.fi"
+      }
+    },
+    {
+      "id": "803fbe82a9a0",
+      "title": "Kysely: Monet pitkäaikaissairaat haluaisivat maksaa lääkkeiden lähes 600 euron vuosiomavastuun osissa - STT Info",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQN2pUY00tb25qSExESy1BMGJ4ZFVHOHBOcGZMLUp0dkFkVGd3RHRfNzZqeG9NTmwxVFdKb0lOOFhIbThJWWhVUE8wbW5VYW5FTjhHQ3F6WWNxN0huYWtBYkhzSzkteUFGc2NhOGxoWUl4bWdJNGRLcVRpVXF6VkJlRDdMN0JjeGNNVUV4SlZfbWp2ek1jcEtiQUhFNnp2czNCaDhEX0VmRF9GdEt5aUV4QXFWb01XZk9iNktlSmItQS1ETlQ3SFZmdUtQbS1pdkJaT1JHZjktdjJtTVV0LUFQNE9XSkFkOTA4VEtkNGln?oc=5",
+      "published": "2023-02-16T08:00:00+00:00",
+      "source": {
+        "name": "STT Info",
+        "url": "https://www.sttinfo.fi"
       }
     },
     {
@@ -774,20 +774,20 @@
       }
     },
     {
-      "id": "ff27e4a70146",
-      "title": "Sairaan alkuvuosi on kallis, kun omavastuut nollaantuvat: \"Ei ole muuta mahdollisuutta kuin ruveta säästämään jo kesällä\" - Yle",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5jZ2tkd0Q2dWNkckp2RHZvTGJrOUVSZWV6QmtabE9tMThjd0dhVTJscnZQc1UydGpuSEJyUHplWk8?oc=5",
-      "published": "2020-01-06T08:00:00+00:00",
+      "id": "d8f5512eb8e6",
+      "title": "Lihavuuslääke kiinnostaa nyt monia – näillä kriteereillä sen voi saada - Yle",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5IUUZ2dUlkTmtTdmVIcE9TRXIwamNSWFBiX1J2RFJSTThVS21XU3NMZmdMUXA2N0w3VVRLNDNHdXN3dw?oc=5",
+      "published": "2024-10-09T07:00:00+00:00",
       "source": {
         "name": "Yle",
         "url": "https://yle.fi"
       }
     },
     {
-      "id": "d8f5512eb8e6",
-      "title": "Lihavuuslääke kiinnostaa nyt monia – näillä kriteereillä sen voi saada - Yle",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5IUUZ2dUlkTmtTdmVIcE9TRXIwamNSWFBiX1J2RFJSTThVS21XU3NMZmdMUXA2N0w3VVRLNDNHdXN3dw?oc=5",
-      "published": "2024-10-09T07:00:00+00:00",
+      "id": "ff27e4a70146",
+      "title": "Sairaan alkuvuosi on kallis, kun omavastuut nollaantuvat: \"Ei ole muuta mahdollisuutta kuin ruveta säästämään jo kesällä\" - Yle",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5jZ2tkd0Q2dWNkckp2RHZvTGJrOUVSZWV6QmtabE9tMThjd0dhVTJscnZQc1UydGpuSEJyUHplWk8?oc=5",
+      "published": "2020-01-06T08:00:00+00:00",
       "source": {
         "name": "Yle",
         "url": "https://yle.fi"
@@ -861,6 +861,16 @@
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
+      }
+    },
+    {
+      "id": "feef8dc2546a",
+      "title": "Lääkäri teki virheen ja määräsi lääkettä, jolle potilas oli allerginen – käräjäoikeus: Ei rikosta - Yle",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE40YXBUUkYxcnRxOU9SaVBXQmJ0dVlGM01VbHh5UWxZZkNrNDdwU2xBUnFWZFhTNnd6b3p5SkpVbW5SQQ?oc=5",
+      "published": "2025-04-24T07:00:00+00:00",
+      "source": {
+        "name": "Yle",
+        "url": "https://yle.fi"
       }
     },
     {
@@ -954,16 +964,6 @@
       }
     },
     {
-      "id": "047d892d55f6",
-      "title": "Keskushermostoon vaikuttavat lääkkeet lisäävät riskiä saada murtumia - Yle",
-      "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFB0Mll2dFdqeHl6QUhMV1BrZ21zS2pDdzN5MUVNaVpsQlJ2bzBKaFkwTDJVSlFWdHV4NnBaamhMRQ?oc=5",
-      "published": "2014-06-16T07:00:00+00:00",
-      "source": {
-        "name": "Yle",
-        "url": "https://yle.fi"
-      }
-    },
-    {
       "id": "43ef0f5ba94d",
       "title": "Tällainen lääke on Matthew Perryn hengen vienyt ketamiini - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE15aHE5UFZSbHB1TEhZWFQ2SWdCN2dnTm5iQjI4d0g3blVpR1VUUkpSS2NwZVZhUE0tVHRXTU1zcDRuZlRsZGxkOUE4M2tqS2RzOW51SjV0VUFnd3dt?oc=5",
@@ -971,6 +971,16 @@
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
+      }
+    },
+    {
+      "id": "047d892d55f6",
+      "title": "Keskushermostoon vaikuttavat lääkkeet lisäävät riskiä saada murtumia - Yle",
+      "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFB0Mll2dFdqeHl6QUhMV1BrZ21zS2pDdzN5MUVNaVpsQlJ2bzBKaFkwTDJVSlFWdHV4NnBaamhMRQ?oc=5",
+      "published": "2014-06-16T07:00:00+00:00",
+      "source": {
+        "name": "Yle",
+        "url": "https://yle.fi"
       }
     },
     {
@@ -988,16 +998,6 @@
       "title": "Suomessa kehitetään mullistavaa syöpähoitoa, joka saattaa auttaa potilaita, joihin muut lääkkeet eivät tehoa – ”ihmelääkkeen” taustalla Sirpa-äidin ja Maija-tyttären työ - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9aYzYyUmpUd0VQWTFSUUU3ckhwMWJ5b1ZHcHhTcTdGVGZsVjNmNUNtQUE3VFY1ODRhejhXTVFkTnYzUlZJQ1I2SWZhTlBxYW1ST2dTWHZ0M1dMVmFE?oc=5",
       "published": "2021-08-19T07:00:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
-      }
-    },
-    {
-      "id": "4f725ebab7da",
-      "title": "Asiantuntija yllättyi Alzheimer-lääkkeen eväämisestä Euroopassa - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9PTnVQSmxCdURBSThHRi1ESGEzek1VY3M0UGtQcVZfdFgtNmxoV2ZVZ2N3Q1Z2R01vU2FmUDVsM3ZFamZsX3pTeFZnNlpMeTBKUllLZVFfRUs2cWpS?oc=5",
-      "published": "2024-08-05T07:00:00+00:00",
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"

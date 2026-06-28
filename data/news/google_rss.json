@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-28T22:50:05.656882+00:00",
+  "fetched_at": "2026-06-28T23:56:30.758925+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -664,16 +664,6 @@
       }
     },
     {
-      "id": "93281994d664",
-      "title": "Nämä kolme kummallista termiä lukevat usein lääkeresepteissä – Apteekkari: ”Tämä voi joskus säikäyttää” - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9MOWNxbkw3N0hkSkZnbm1NdmZLNHoydG5jaXB5ZWdPZ3RSVmwwSlcwTzExZDRNc2ZVeHhaNHhkYl9Qb1NhUXAxTTVOXy1OQWg0bUQ5Wk9kOU9zYXh3?oc=5",
-      "published": "2025-07-07T07:00:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
-      }
-    },
-    {
       "id": "803fbe82a9a0",
       "title": "Kysely: Monet pitkäaikaissairaat haluaisivat maksaa lääkkeiden lähes 600 euron vuosiomavastuun osissa - STT Info",
       "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQN2pUY00tb25qSExESy1BMGJ4ZFVHOHBOcGZMLUp0dkFkVGd3RHRfNzZqeG9NTmwxVFdKb0lOOFhIbThJWWhVUE8wbW5VYW5FTjhHQ3F6WWNxN0huYWtBYkhzSzkteUFGc2NhOGxoWUl4bWdJNGRLcVRpVXF6VkJlRDdMN0JjeGNNVUV4SlZfbWp2ek1jcEtiQUhFNnp2czNCaDhEX0VmRF9GdEt5aUV4QXFWb01XZk9iNktlSmItQS1ETlQ3SFZmdUtQbS1pdkJaT1JHZjktdjJtTVV0LUFQNE9XSkFkOTA4VEtkNGln?oc=5",
@@ -681,6 +671,16 @@
       "source": {
         "name": "STT Info",
         "url": "https://www.sttinfo.fi"
+      }
+    },
+    {
+      "id": "93281994d664",
+      "title": "Nämä kolme kummallista termiä lukevat usein lääkeresepteissä – Apteekkari: ”Tämä voi joskus säikäyttää” - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9MOWNxbkw3N0hkSkZnbm1NdmZLNHoydG5jaXB5ZWdPZ3RSVmwwSlcwTzExZDRNc2ZVeHhaNHhkYl9Qb1NhUXAxTTVOXy1OQWg0bUQ5Wk9kOU9zYXh3?oc=5",
+      "published": "2025-07-07T07:00:00+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
       }
     },
     {

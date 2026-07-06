@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-06T22:53:47.540129+00:00",
+  "fetched_at": "2026-07-06T23:54:57.265738+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -221,16 +221,6 @@
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
-      }
-    },
-    {
-      "id": "c058de181830",
-      "title": "Älä tee tätä virhettä aamupalalla – Lääkkeen teho voi romahtaa - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQTBJSVBnTnJpaUZkemZUeTM1dWVPN2dtVmlSSVljT0Z4NUIzWXhRRlYyU3hkQlFxdVN0WDBIeWRBa2szZTRHREFIRTdvOEI0N2ppUHJZNjNjbUIxTzc4M1IzSEJ1SDVJWEk4TldUNkJ5eWNvdE9pQjBLRnl3U2hiVmc4Q08?oc=5",
-      "published": "2026-03-06T08:00:00+00:00",
-      "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
       }
     },
     {
@@ -504,6 +494,16 @@
       }
     },
     {
+      "id": "1e9b2080d3f2",
+      "title": "Tutkimuksessa löytyi lääke joka kolmatta suomalaista piinaavaan vaivaan - mtvuutiset.fi",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZmp4TXNrTlVXN254dTVfVGZoMUtmRTJqY013UkdPbUJxdWRnZmQwbEVEcnpsX08yajJEMWxMc0JsemFzTDYyRlFIX21CMUZQOUFIb0oyS3d2NnhKcWktNjJKX2Rnb1RqTVo4dGw3em83MzlsRHRqTWJUeEhtMEZXRWxnRnN4RGV1a3YyWnBFR1daSHZWLUxDZXpmMWlBTUJJTi1NYWJsZGNqYVpRWU5BVWxPa2xKdw?oc=5",
+      "published": "2025-09-16T07:00:00+00:00",
+      "source": {
+        "name": "mtvuutiset.fi",
+        "url": "https://www.mtvuutiset.fi"
+      }
+    },
+    {
       "id": "032459aa0e77",
       "title": "Psyykenlääkkeen lopettaminen vei toimintakyvyn – Miten selvitä eteenpäin? Pippa Laukka vastaa - Apu360",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPVWRBa0VqUXJ1c0piTTJ4WjQwcW5KcDMwZ3BqREZkZkludUN0ajF6LWRkb0NQWW4zWElQYXlDQlp5bi1JYlZkcFpaajMzaW9pZkpNckxyb0F6QjdOaEpTeTBNbkFmaGpmVDlKdHN3NkI3dnNXQ0lmbVVhMFBUcGwzdzVoQ0kycF90dTRJbkk2X29jUTNZ?oc=5",
@@ -521,16 +521,6 @@
       "source": {
         "name": "Apu360",
         "url": "https://www.apu.fi"
-      }
-    },
-    {
-      "id": "1e9b2080d3f2",
-      "title": "Tutkimuksessa löytyi lääke joka kolmatta suomalaista piinaavaan vaivaan - mtvuutiset.fi",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZmp4TXNrTlVXN254dTVfVGZoMUtmRTJqY013UkdPbUJxdWRnZmQwbEVEcnpsX08yajJEMWxMc0JsemFzTDYyRlFIX21CMUZQOUFIb0oyS3d2NnhKcWktNjJKX2Rnb1RqTVo4dGw3em83MzlsRHRqTWJUeEhtMEZXRWxnRnN4RGV1a3YyWnBFR1daSHZWLUxDZXpmMWlBTUJJTi1NYWJsZGNqYVpRWU5BVWxPa2xKdw?oc=5",
-      "published": "2025-09-16T07:00:00+00:00",
-      "source": {
-        "name": "mtvuutiset.fi",
-        "url": "https://www.mtvuutiset.fi"
       }
     },
     {
@@ -644,6 +634,16 @@
       }
     },
     {
+      "id": "6df66becdcfa",
+      "title": "Auttaako lääke, jos sen tehoon ei usko? Asiantuntija vastaa tyhmään kysymykseen - Kotiliesi.fi",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTFg3S3NaMHhkVUZaWUoycS1OdndiRHQtakc1QjNJbzNlWHc5VGluTUZEU3VlYUFzWGxCNVpZQkFOZWVpa1NNTXBuZ2dpZGhTS0FGWUpEU1JDYUxoWmp3dFVWYVFLMVlqaGlLVVdvZkVENVdBczhvODUyV0x4NkUzTG9BS2lnYk52VVI0WUpKaGJpM1FYQk1tTmZpTnI2RVBf?oc=5",
+      "published": "2021-02-08T08:00:00+00:00",
+      "source": {
+        "name": "Kotiliesi.fi",
+        "url": "https://kotiliesi.fi"
+      }
+    },
+    {
       "id": "d3e7cd063332",
       "title": "Lääkehuollon kriisijohtaminen pandemian aikana vahvisti yhteistyötä ja Suomen terveydenhuollon kriisivalmiutta - University of Helsinki",
       "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOWktBTFpMdmNGLTFDTUJ3YlFmUS1GWG1WX2RCVl9rSERyT25JM09OQ2VpMVdQcjEzUkQ3NzdETlNjQ0RoZFBMVHk2ajdickRJZzZLcnNPQnNPUWFvQW9UQlBLVDBRV0EzUGpuVHRReWVjbktvWkM1cGswcWtQMVNRMU01T3JsOFphc0pEYkxYRElicm50UTdlVmtINnZzUG1WcndyTVFvVkZsdnZUTmhUUGFud1ZiV3lCQXg5bDFjcnRxTHBvTHRYdl8yUTlTcWpXNFUwWFVFd3d1ZWhGcWxhR3dLaExUZkRPWjdLSWthN1FYdXc?oc=5",
@@ -714,16 +714,6 @@
       }
     },
     {
-      "id": "6b6ff09594e3",
-      "title": "Satojen lääkkeiden hinnat halpenevat tänään - Yle",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE56VnRjMWlIeXdVbTBTNXVreFhaa3FhTGJsdEFQUGI0SEhURndWU0VqZy1SeGEyVW1ZWk56dVNYcUhndw?oc=5",
-      "published": "2025-02-28T08:00:00+00:00",
-      "source": {
-        "name": "Yle",
-        "url": "https://yle.fi"
-      }
-    },
-    {
       "id": "f8a52b94c7e9",
       "title": "Luonto tekee parhaat lääkkeet - Hyvä Terveys",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBwbUNsUHBCbDRadlJndVB4T0ZBcjQzd2ItR0tUYksyN0tyRS1kNXlpSTluYm51TTk2dEtSUVdqUXF6NURrdmticE1EVllpQmZrckxjbGJwa0JMUG8wZUxsb3k0SU0yRjlDOFJraXY5cktwY3QzQ0swTHBmR3haVUk?oc=5",
@@ -734,13 +724,13 @@
       }
     },
     {
-      "id": "6df66becdcfa",
-      "title": "Auttaako lääke, jos sen tehoon ei usko? Asiantuntija vastaa tyhmään kysymykseen - Kotiliesi.fi",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTFg3S3NaMHhkVUZaWUoycS1OdndiRHQtakc1QjNJbzNlWHc5VGluTUZEU3VlYUFzWGxCNVpZQkFOZWVpa1NNTXBuZ2dpZGhTS0FGWUpEU1JDYUxoWmp3dFVWYVFLMVlqaGlLVVdvZkVENVdBczhvODUyV0x4NkUzTG9BS2lnYk52VVI0WUpKaGJpM1FYQk1tTmZpTnI2RVBf?oc=5",
-      "published": "2021-02-08T08:00:00+00:00",
+      "id": "6b6ff09594e3",
+      "title": "Satojen lääkkeiden hinnat halpenevat tänään - Yle",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE56VnRjMWlIeXdVbTBTNXVreFhaa3FhTGJsdEFQUGI0SEhURndWU0VqZy1SeGEyVW1ZWk56dVNYcUhndw?oc=5",
+      "published": "2025-02-28T08:00:00+00:00",
       "source": {
-        "name": "Kotiliesi.fi",
-        "url": "https://kotiliesi.fi"
+        "name": "Yle",
+        "url": "https://yle.fi"
       }
     },
     {
@@ -748,6 +738,16 @@
       "title": "Lääkeautomaatit käyttöön myös kotihoidon palveluseteliasiakkaille - Yle",
       "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1USzBJT29QWHVoSG5iVmhEbXZNN1ptQTlhX3pPU3pMWXRfYWh5WUVUdnVGa1JGeFV1emZxLVFmelJZdw?oc=5",
       "published": "2025-03-10T07:00:00+00:00",
+      "source": {
+        "name": "Yle",
+        "url": "https://yle.fi"
+      }
+    },
+    {
+      "id": "3129f9dc47e0",
+      "title": "Maailman terveysjärjestö aikoo tukea lihavuuslääkkeiden käyttöä kansainvälisesti - Yle",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1RYWNOWlZGb1ozUmNTMlpPUmVNYlFjQVkySnh2XzFvZ0Y0bHRKTkMzNTh0Q1dJWlZNdjF3TlNBTXItUQ?oc=5",
+      "published": "2025-05-01T07:00:00+00:00",
       "source": {
         "name": "Yle",
         "url": "https://yle.fi"
@@ -801,6 +801,16 @@
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
+      }
+    },
+    {
+      "id": "ff27e4a70146",
+      "title": "Sairaan alkuvuosi on kallis, kun omavastuut nollaantuvat: \"Ei ole muuta mahdollisuutta kuin ruveta säästämään jo kesällä\" - Yle",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5jZ2tkd0Q2dWNkckp2RHZvTGJrOUVSZWV6QmtabE9tMThjd0dhVTJscnZQc1UydGpuSEJyUHplWk8?oc=5",
+      "published": "2020-01-06T08:00:00+00:00",
+      "source": {
+        "name": "Yle",
+        "url": "https://yle.fi"
       }
     },
     {
@@ -991,16 +1001,6 @@
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
-      }
-    },
-    {
-      "id": "a317b36384bd",
-      "title": "Pelottava lääke osteoporoosiin? - Hyvä Terveys",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOaENMLUJPLXZBNjhDQU05eGpMOHZybTczbGo3dnMwRXIzUGhaVnpNTXFmUVhWemRqUGV4VDhJd05ZcDRGd1V1anItTWRCdndtLVBJQUJmWEdNaS00Z2E0NXFGdUNGWkNCNHlGNERveEVrNUJjbTVicGNXeVc1ajVSSE5HN0c?oc=5",
-      "published": "2014-11-18T08:00:00+00:00",
-      "source": {
-        "name": "Hyvä Terveys",
-        "url": "https://www.hyvaterveys.fi"
       }
     }
   ]

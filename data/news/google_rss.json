@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-10T13:49:23.847386+00:00",
+  "fetched_at": "2026-07-10T16:10:32.009135+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -104,16 +104,6 @@
       }
     },
     {
-      "id": "672eecf52100",
-      "title": "Unohda laihdutuslääkkeet – Tämä lisäaine ehkäisee painonnousua - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5fbXJjY19pa1JCV3NSbEhEV3JDZGVFcFRyUmhVd091TkZ5VjRwU25kcEd0ZW9XRUMxZzN0UlVFQUd0QU51eGgzT1Y3NkxvRjdXTmlpZlh0TW1pdnBJenRkdDYtUUNBRUN5aVU1UHVCV2xkdTJxODdxbFRzcnpVQQ?oc=5",
-      "published": "2026-07-07T06:02:44+00:00",
-      "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
-      }
-    },
-    {
       "id": "b1d9e2318b23",
       "title": "Pieni virhe lääkityksessä voi maksaa jopa 4 500 euroa – tutkimus: niistä eroon pääsy säästäisi miljoonia vuodessa - Yle",
       "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE82c3RveWRrY1lyU0c1RG1RVHAzbjBVNXdVVWZ1YkIzMmM5OVZhamZ6Znp1TTVNOENfdUpNMk1YYXB0Zw?oc=5",
@@ -124,20 +114,20 @@
       }
     },
     {
+      "id": "9b6cf6eb55a8",
+      "title": "Miksi tehokkaat lääkkeet jäävät Suomessa hyödyntämättä? Professori: Suuri apu painonhallintaan - mtvuutiset.fi",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNUVc3YWJEblY4NXR5UC1rN3JuMDlUOXJZeUd0emlFaFpEdXg1VmthNEtYTU5LRzlOVE1rcTBRejNqVXVFa08wdUxuREdscV9xSUQwaUhJbzRfTkV3b3hIM1ZkSTM5dDluby1NdXVBeHBMLVBLVjRqSzlpTGY1b2ZiUFdJQ3dVVkFEd2J1TjlQS3gxazFQa3VlZ2d2d045NUk5ZzZ5S0lsdlZVNS1Yc21XMmpndXZQX24tb1ZoaGgySk1ZS0JzMWI4YTdMMm1FaU1EZVE?oc=5",
+      "published": "2026-06-24T15:52:00+00:00",
+      "source": {
+        "name": "mtvuutiset.fi",
+        "url": "https://www.mtvuutiset.fi"
+      }
+    },
+    {
       "id": "bbb6ee35d88c",
       "title": "Syötkö samanaikaisesti yli neljää eri lääkettä? Tämän vaivan riski lisääntyy - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB6cDVyUUZOX1N2em15bldOdmhRTkZRczc2cENCNHFvS2pXVnJWd1FILUpmdjVRWWlQam5meC1DRlJld24walZzYUwxbTJGekFIWFhlNVVxcERfSVhl?oc=5",
       "published": "2026-05-17T07:00:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
-      }
-    },
-    {
-      "id": "4a2927f8ebf5",
-      "title": "Tämä yleinen lääke voi hälyttää huumetestissä - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBuWlVhUkQ1MWdoc1ozenpQUjJSamx3UHBxVmNiMmRsSnF1RW85X1drWGVYZTFJWHNfTWhLbVZtYUJLU004QmR4b0d3RWc1LXNiNW9KMFQ2TFFmWmts?oc=5",
-      "published": "2026-05-20T07:00:00+00:00",
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
@@ -154,10 +144,10 @@
       }
     },
     {
-      "id": "75a58a192298",
-      "title": "Näistä lääkkeistä tarvitset matkalle todistuksen – muuten voit joutua lentokentällä ongelmiin - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE51S2tjaWQ5TUhJQ2hxcnlsaU96TlRMUTF6eEYxM0ZiVk1kM2RHRS1iMHNSUGQ4SkNzWEt1WVRBclJMdHNkd2RUZ282TjRTTmdNQ0Vaek41MEVtLWlv?oc=5",
-      "published": "2026-04-19T07:00:00+00:00",
+      "id": "4a2927f8ebf5",
+      "title": "Tämä yleinen lääke voi hälyttää huumetestissä - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBuWlVhUkQ1MWdoc1ozenpQUjJSamx3UHBxVmNiMmRsSnF1RW85X1drWGVYZTFJWHNfTWhLbVZtYUJLU004QmR4b0d3RWc1LXNiNW9KMFQ2TFFmWmts?oc=5",
+      "published": "2026-05-20T07:00:00+00:00",
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
@@ -171,6 +161,16 @@
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
+      }
+    },
+    {
+      "id": "75a58a192298",
+      "title": "Näistä lääkkeistä tarvitset matkalle todistuksen – muuten voit joutua lentokentällä ongelmiin - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE51S2tjaWQ5TUhJQ2hxcnlsaU96TlRMUTF6eEYxM0ZiVk1kM2RHRS1iMHNSUGQ4SkNzWEt1WVRBclJMdHNkd2RUZ282TjRTTmdNQ0Vaek41MEVtLWlv?oc=5",
+      "published": "2026-04-19T07:00:00+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
       }
     },
     {
@@ -201,16 +201,6 @@
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
-      }
-    },
-    {
-      "id": "9b6cf6eb55a8",
-      "title": "Miksi tehokkaat lääkkeet jäävät Suomessa hyödyntämättä? Professori: Suuri apu painonhallintaan - mtvuutiset.fi",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNUVc3YWJEblY4NXR5UC1rN3JuMDlUOXJZeUd0emlFaFpEdXg1VmthNEtYTU5LRzlOVE1rcTBRejNqVXVFa08wdUxuREdscV9xSUQwaUhJbzRfTkV3b3hIM1ZkSTM5dDluby1NdXVBeHBMLVBLVjRqSzlpTGY1b2ZiUFdJQ3dVVkFEd2J1TjlQS3gxazFQa3VlZ2d2d045NUk5ZzZ5S0lsdlZVNS1Yc21XMmpndXZQX24tb1ZoaGgySk1ZS0JzMWI4YTdMMm1FaU1EZVE?oc=5",
-      "published": "2026-06-24T15:52:00+00:00",
-      "source": {
-        "name": "mtvuutiset.fi",
-        "url": "https://www.mtvuutiset.fi"
       }
     },
     {
@@ -954,16 +944,6 @@
       }
     },
     {
-      "id": "0d856b7b4a47",
-      "title": "Tuttu lääke voisi ehkäistä epäterveellisesti elävien suolistosyöpiä - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE03Tm5oWVAwMGdQWThwWU1LRThnSVFpRmJaZ1BJSVFOQXFYRlV4YXA4YUVjbVZMME9wZ09OdmJyYkhtVFI2RU9XLXVWazh5dzVnZHBoMlhVa0pndnFw?oc=5",
-      "published": "2024-10-24T07:00:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
-      }
-    },
-    {
       "id": "ed60c3979c71",
       "title": "Puoli Suomea käyttää jatkuvasti lääkkeitä – oletko sinä yksi heistä? Varo näitä - Yle",
       "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE95X1ZsdGxqa2szR2dsTF9zdnZHZXU4bF9JVWJTbmY5M2s1bzVxdHh1Ny1CV2Y0WTZ1bXNqUTBfcw?oc=5",
@@ -971,6 +951,16 @@
       "source": {
         "name": "Yle",
         "url": "https://yle.fi"
+      }
+    },
+    {
+      "id": "0d856b7b4a47",
+      "title": "Tuttu lääke voisi ehkäistä epäterveellisesti elävien suolistosyöpiä - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE03Tm5oWVAwMGdQWThwWU1LRThnSVFpRmJaZ1BJSVFOQXFYRlV4YXA4YUVjbVZMME9wZ09OdmJyYkhtVFI2RU9XLXVWazh5dzVnZHBoMlhVa0pndnFw?oc=5",
+      "published": "2024-10-24T07:00:00+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
       }
     },
     {
@@ -1001,6 +991,16 @@
       "source": {
         "name": "Apu360",
         "url": "https://www.apu.fi"
+      }
+    },
+    {
+      "id": "c2dff57e9fe8",
+      "title": "Empatia voi hoitaa tehokkaammin kuin lääkkeet - Hyvä Terveys",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNFdjVU1zakhVbEgxVnJ1aDJXdjlTbGxNWGJhWGN2VS1rNVFlbjB3Tk1ISVM5MGZ4VDFicjh3b1F6MUpOY21QVTB5dVVQVkhuTHRSVzUwaWJPbHVBOVBkWk1kbjJsRWlxLXJzakNkbXB0d0g3ZEtWR0lSRVZYYXo3cXZldlJKTlJnbkFXUS1hc3pmV09P?oc=5",
+      "published": "2024-12-10T08:00:00+00:00",
+      "source": {
+        "name": "Hyvä Terveys",
+        "url": "https://www.hyvaterveys.fi"
       }
     }
   ]

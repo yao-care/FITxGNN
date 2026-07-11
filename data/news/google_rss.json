@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-11T07:02:49.884253+00:00",
+  "fetched_at": "2026-07-11T09:12:42.962060+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -204,16 +204,6 @@
       }
     },
     {
-      "id": "e65ec57fecfa",
-      "title": "Uusien syöpälääkkeiden Kela-korvaukset poistetaan – ihmetys heräsi: \"Yksityistä terveydenhuoltoa käyttävät saavat jatkossakin korvauksen?\" - MSN",
-      "link": "https://news.google.com/rss/articles/CBMilANBVV95cUxQZlU5clJ1U3Zpc0JpUVZ1ZnlzOTFCSnl4bFZNQ2VhX0dwaGNPR0tvQUhkWWN6RHRQM09TMC0xZGYybDBZd1VsWFlTaUJyaEZXT2VONnFiWlVnemJaV1VuM0xDdERkUFI2V0J6akQ0VUcxNlkweUJpZUpuRVJWQXB2UHAwdFRSN1oxc2RXT3BIbVF3elI2bHhuZnVIQU04Ujk5dnVNOVBVRV9FQ1dXQUtmUlJYQW5MM3NuV2FSZlFrWWxyUVFqOFVWYzV2UXRvSUFWNUFoNExXdjRkSGhSbGVYRVo2QVVmSmFSaXZXREZ5NWZRUzJPTVdiak9XVFZwbThzU3NWVVJ1NDBSY3lNX19RQkFYYV9KUlg3ckhyb0tDM0d6blQ1OHdYa3BHNlM0eW84bW9sWW4tTm5kaHdub3hGaENUUE03QVZPMU5Ed3ItaVIyMEQxeU1ULXowUWhzSkhwS0N4ZUxyWmNadWVCTUxUX0c3UWpoSU9xVktZT1BQeVcwckcxS2tPQzBCZ05TUnVoSkI5eQ?oc=5",
-      "published": "2026-07-11T00:07:01+00:00",
-      "source": {
-        "name": "MSN",
-        "url": "https://www.msn.com"
-      }
-    },
-    {
       "id": "1f576b846983",
       "title": "Lääkkeen saa puolittaa vain yhdessä tapauksessa - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE83anB2YUtMSU5jWVBSVjRRelh6R3pXdXl3c0h0bXkyT0FzZ3JMczhJOU1VZVNWNDdsdkFscmlCQTN1eTRuS1dJUW9ydTJVU2IySllPWmd1NlJEMUdH?oc=5",
@@ -251,6 +241,16 @@
       "source": {
         "name": "Suomenmaa.fi",
         "url": "https://www.suomenmaa.fi"
+      }
+    },
+    {
+      "id": "e65ec57fecfa",
+      "title": "Uusien syöpälääkkeiden Kela-korvaukset poistetaan – ihmetys heräsi: \"Yksityistä terveydenhuoltoa käyttävät saavat jatkossakin korvauksen?\" - MSN",
+      "link": "https://news.google.com/rss/articles/CBMilANBVV95cUxQZlU5clJ1U3Zpc0JpUVZ1ZnlzOTFCSnl4bFZNQ2VhX0dwaGNPR0tvQUhkWWN6RHRQM09TMC0xZGYybDBZd1VsWFlTaUJyaEZXT2VONnFiWlVnemJaV1VuM0xDdERkUFI2V0J6akQ0VUcxNlkweUJpZUpuRVJWQXB2UHAwdFRSN1oxc2RXT3BIbVF3elI2bHhuZnVIQU04Ujk5dnVNOVBVRV9FQ1dXQUtmUlJYQW5MM3NuV2FSZlFrWWxyUVFqOFVWYzV2UXRvSUFWNUFoNExXdjRkSGhSbGVYRVo2QVVmSmFSaXZXREZ5NWZRUzJPTVdiak9XVFZwbThzU3NWVVJ1NDBSY3lNX19RQkFYYV9KUlg3ckhyb0tDM0d6blQ1OHdYa3BHNlM0eW84bW9sWW4tTm5kaHdub3hGaENUUE03QVZPMU5Ed3ItaVIyMEQxeU1ULXowUWhzSkhwS0N4ZUxyWmNadWVCTUxUX0c3UWpoSU9xVktZT1BQeVcwckcxS2tPQzBCZ05TUnVoSkI5eQ?oc=5",
+      "published": "2026-07-11T00:07:01+00:00",
+      "source": {
+        "name": "MSN",
+        "url": "https://www.msn.com"
       }
     },
     {
@@ -444,16 +444,6 @@
       }
     },
     {
-      "id": "65287d90a873",
-      "title": "Jatkuva vapina kiusaa, eikä sopivaa lääkitystä tahdo löytyä – Mikä auttaisi oireeseen? - Apu360",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdGhNcFVyNjFMNVAtWWF4cGNJWldMalpwZFZPVFlvRmpEX1c1N1JSelh0WngyMFd0MGI3dXAycDh4aGYyN0EyZGpMM01HY3BTcW1lOXZHaVh1NTBBRW1zUHgwUXFaVmRTUGt3a3N2WHNBOXRKNWtWU29iSGxHc2hWWklEUktwdWNqYV9FWDJaZHdvdw?oc=5",
-      "published": "2025-09-03T07:00:00+00:00",
-      "source": {
-        "name": "Apu360",
-        "url": "https://www.apu.fi"
-      }
-    },
-    {
       "id": "684f6db5e22f",
       "title": "Suomalainen keksintö lähellä läpimurtoa – Pysäyttääkö tämä pelätyn taudin? - Iltalehti",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOalZqbG95dUZISDZyOHFGYjNHemlSMDVNcHp6bDl1a1prYkVzM3lVcUZEY2cxNmhkSlBzNWpjaU1NSzQyLTVBYVJVNjNka3N4dzJISU9qQUJkZG0wZ1psY044YWE5dWJtSHdfQ3hPNWRsVGVyUFF3Ym1TQjlZM2xHS0hrc00?oc=5",
@@ -461,6 +451,16 @@
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
+      }
+    },
+    {
+      "id": "65287d90a873",
+      "title": "Jatkuva vapina kiusaa, eikä sopivaa lääkitystä tahdo löytyä – Mikä auttaisi oireeseen? - Apu360",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdGhNcFVyNjFMNVAtWWF4cGNJWldMalpwZFZPVFlvRmpEX1c1N1JSelh0WngyMFd0MGI3dXAycDh4aGYyN0EyZGpMM01HY3BTcW1lOXZHaVh1NTBBRW1zUHgwUXFaVmRTUGt3a3N2WHNBOXRKNWtWU29iSGxHc2hWWklEUktwdWNqYV9FWDJaZHdvdw?oc=5",
+      "published": "2025-09-03T07:00:00+00:00",
+      "source": {
+        "name": "Apu360",
+        "url": "https://www.apu.fi"
       }
     },
     {

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-11T16:39:20.456117+00:00",
+  "fetched_at": "2026-07-11T17:43:21.584904+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -11,6 +11,16 @@
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
+      }
+    },
+    {
+      "id": "bbe464fd5f15",
+      "title": "Tämä lääke on apteekeista nyt täysin loppu - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTTB4NTNBLVRFMmVob29zUXRUOGZEZ3BfRDNkUXVzcFVjNE90UXM2Y0RyUW5EdTVxNzNYTEVHTzF1dnZiNFl2Q25pR3NMS0J4Q3BuVmQ0RXIzYXJUWmFwSk5pSG5hcWNsa0RFdGNCYVFxcjRFdU9oQzBLYWdWQ2hwVXJEX04?oc=5",
+      "published": "2026-07-09T05:13:06+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
       }
     },
     {
@@ -74,16 +84,6 @@
       }
     },
     {
-      "id": "2c65be79f8aa",
-      "title": "Näitä lääkkeitä suomalaiset ostavat eniten - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZVJLSVczQ2tIR1A4OGhZZzFPSnBfWF9LVl90dDB6YkZWdTlULTBibHhtSHFiZFh4VHNYWkV6M1JXNWVTS1JCR2Q5bGVDMEdkVTFUeFRHbG94dHhxdmwwZHNUcFRxYW1DYnQyaGo1V3ZacVN3RE9QVmxrZmswTDJxdjBNZkk?oc=5",
-      "published": "2026-06-17T07:00:00+00:00",
-      "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
-      }
-    },
-    {
       "id": "9005aeefeb60",
       "title": "Kokeellinen lääke suojasi keliaakikoiden elimistöä gluteenin haittavaikutuksilta - Suomenmaa.fi",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNaWd2d1haeTF6TGluWGs0Wll3b3lwelVHRTJCV0VURWlucENLLVZzSi12ZENCWnp2T1ZfYWt3UU1YTG1LekZwRnB6Y3dYYUR5Vnh3Ump0bHp4My1mQmt6VXZrMDBSdTZ2b1V2UjlWZE1rb2YxeEFvWkgzX0pIb0N2Rlk0LWxEbXdxdTFDMGlTTVVvYmtwaVR2WUJwN2xwdFR1UkpEWThCbE5qYnlNaXVfVjE4Y20?oc=5",
@@ -124,33 +124,13 @@
       }
     },
     {
-      "id": "4a2927f8ebf5",
-      "title": "Tämä yleinen lääke voi hälyttää huumetestissä - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBuWlVhUkQ1MWdoc1ozenpQUjJSamx3UHBxVmNiMmRsSnF1RW85X1drWGVYZTFJWHNfTWhLbVZtYUJLU004QmR4b0d3RWc1LXNiNW9KMFQ2TFFmWmts?oc=5",
-      "published": "2026-05-20T07:00:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
-      }
-    },
-    {
-      "id": "a190bc4042a1",
-      "title": "Tällainen on lääke, jota Trumpin väitetään saaneen - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUjlLSUp3UHhfNWtlVFVLNW5ONTZxdjl6T3BDLXA0VGhleXh5ZXFtbXRiRFdKNjNybG1SZ01zQkZHX0Y0djhkd2Y4c0p5UFJkRHVrMVRqRkdqR1ZNSXJNQUlnTDJvRUoyNVgyejNlSjRvSDZra1l1RXNSZzJ3bTRyZV9kMVg?oc=5",
-      "published": "2026-06-26T07:00:00+00:00",
+      "id": "2c65be79f8aa",
+      "title": "Näitä lääkkeitä suomalaiset ostavat eniten - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZVJLSVczQ2tIR1A4OGhZZzFPSnBfWF9LVl90dDB6YkZWdTlULTBibHhtSHFiZFh4VHNYWkV6M1JXNWVTS1JCR2Q5bGVDMEdkVTFUeFRHbG94dHhxdmwwZHNUcFRxYW1DYnQyaGo1V3ZacVN3RE9QVmxrZmswTDJxdjBNZkk?oc=5",
+      "published": "2026-06-17T07:00:00+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
-      }
-    },
-    {
-      "id": "defe709b642f",
-      "title": "Superbakteeriin löytyi uusi lääke – “Valtava käännekohta\" - Suomenmaa.fi",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPa0lQTjFfaWhUTVdpZUU1M1hqYklsNG8zYUM5ZndOZi1YME1VdW1xZ05XZGEtTE82QnhsWXgxUVJJRTc3dXhPSUZEX09PVm9VNmlORFBhaXhDWTFPUTFRcnlTemNoT1gwMHJSOV9LWDRIOTZtWDUtVXVFUWlYUFRPRzZtckZNbGxqQ1kwV0w4bVI?oc=5",
-      "published": "2025-12-16T08:00:00+00:00",
-      "source": {
-        "name": "Suomenmaa.fi",
-        "url": "https://www.suomenmaa.fi"
       }
     },
     {
@@ -164,13 +144,33 @@
       }
     },
     {
-      "id": "45fd296f05bb",
-      "title": "Tämä lääke voi tehdä hampaille pahaa – ”Odota puoli tuntia” - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaFpXa01RNnlKNEo2ZmdCMjhOTWRpTk9mRm1QWG5qZFNNbW4zOXFTTFJmdHdaYjNENi1xN3hmSDc1bXp3S1h6Ujc0N2szRDR4OS1TaEtBRllnNDNsbGlHeEtvMmItSDNmeHRMMjF0YnF0MU1EekNCNVNuRTMtOE94X18xRHg?oc=5",
-      "published": "2026-05-22T07:00:00+00:00",
+      "id": "defe709b642f",
+      "title": "Superbakteeriin löytyi uusi lääke – “Valtava käännekohta\" - Suomenmaa.fi",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPa0lQTjFfaWhUTVdpZUU1M1hqYklsNG8zYUM5ZndOZi1YME1VdW1xZ05XZGEtTE82QnhsWXgxUVJJRTc3dXhPSUZEX09PVm9VNmlORFBhaXhDWTFPUTFRcnlTemNoT1gwMHJSOV9LWDRIOTZtWDUtVXVFUWlYUFRPRzZtckZNbGxqQ1kwV0w4bVI?oc=5",
+      "published": "2025-12-16T08:00:00+00:00",
+      "source": {
+        "name": "Suomenmaa.fi",
+        "url": "https://www.suomenmaa.fi"
+      }
+    },
+    {
+      "id": "a190bc4042a1",
+      "title": "Tällainen on lääke, jota Trumpin väitetään saaneen - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUjlLSUp3UHhfNWtlVFVLNW5ONTZxdjl6T3BDLXA0VGhleXh5ZXFtbXRiRFdKNjNybG1SZ01zQkZHX0Y0djhkd2Y4c0p5UFJkRHVrMVRqRkdqR1ZNSXJNQUlnTDJvRUoyNVgyejNlSjRvSDZra1l1RXNSZzJ3bTRyZV9kMVg?oc=5",
+      "published": "2026-06-26T07:00:00+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
+      }
+    },
+    {
+      "id": "4a2927f8ebf5",
+      "title": "Tämä yleinen lääke voi hälyttää huumetestissä - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBuWlVhUkQ1MWdoc1ozenpQUjJSamx3UHBxVmNiMmRsSnF1RW85X1drWGVYZTFJWHNfTWhLbVZtYUJLU004QmR4b0d3RWc1LXNiNW9KMFQ2TFFmWmts?oc=5",
+      "published": "2026-05-20T07:00:00+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
       }
     },
     {
@@ -181,6 +181,16 @@
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
+      }
+    },
+    {
+      "id": "45fd296f05bb",
+      "title": "Tämä lääke voi tehdä hampaille pahaa – ”Odota puoli tuntia” - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaFpXa01RNnlKNEo2ZmdCMjhOTWRpTk9mRm1QWG5qZFNNbW4zOXFTTFJmdHdaYjNENi1xN3hmSDc1bXp3S1h6Ujc0N2szRDR4OS1TaEtBRllnNDNsbGlHeEtvMmItSDNmeHRMMjF0YnF0MU1EekNCNVNuRTMtOE94X18xRHg?oc=5",
+      "published": "2026-05-22T07:00:00+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
       }
     },
     {
@@ -284,16 +294,6 @@
       }
     },
     {
-      "id": "e65ec57fecfa",
-      "title": "Uusien syöpälääkkeiden Kela-korvaukset poistetaan – ihmetys heräsi: \"Yksityistä terveydenhuoltoa käyttävät saavat jatkossakin korvauksen?\" - MSN",
-      "link": "https://news.google.com/rss/articles/CBMilANBVV95cUxQZlU5clJ1U3Zpc0JpUVZ1ZnlzOTFCSnl4bFZNQ2VhX0dwaGNPR0tvQUhkWWN6RHRQM09TMC0xZGYybDBZd1VsWFlTaUJyaEZXT2VONnFiWlVnemJaV1VuM0xDdERkUFI2V0J6akQ0VUcxNlkweUJpZUpuRVJWQXB2UHAwdFRSN1oxc2RXT3BIbVF3elI2bHhuZnVIQU04Ujk5dnVNOVBVRV9FQ1dXQUtmUlJYQW5MM3NuV2FSZlFrWWxyUVFqOFVWYzV2UXRvSUFWNUFoNExXdjRkSGhSbGVYRVo2QVVmSmFSaXZXREZ5NWZRUzJPTVdiak9XVFZwbThzU3NWVVJ1NDBSY3lNX19RQkFYYV9KUlg3ckhyb0tDM0d6blQ1OHdYa3BHNlM0eW84bW9sWW4tTm5kaHdub3hGaENUUE03QVZPMU5Ed3ItaVIyMEQxeU1ULXowUWhzSkhwS0N4ZUxyWmNadWVCTUxUX0c3UWpoSU9xVktZT1BQeVcwckcxS2tPQzBCZ05TUnVoSkI5eQ?oc=5",
-      "published": "2026-07-11T00:07:01+00:00",
-      "source": {
-        "name": "MSN",
-        "url": "https://www.msn.com"
-      }
-    },
-    {
       "id": "42242cea2f0c",
       "title": "Tämä syöpä on yksi tappavimmista – nyt tuli niin hyviä uutisia, että syöpälääkärikin purskahti itkuun - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE82a3IwQXZEekZYeXp1Q0V5SUY5emg1Ymduc2QwcU5BMVhjTFNNMmtHczVGMHN4bDNHRGtaVUpFSk01aWIzN2pDWHdfTTZPaVJIRjZYc1FhOG1RanZv?oc=5",
@@ -301,6 +301,26 @@
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
+      }
+    },
+    {
+      "id": "7a8151a0abb4",
+      "title": "Lääkkeet | Tämän takia kolesterolilääkkeet ehkä aiheuttavat joillekin lihaskipuja - Satakunnan Kansa",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1uX2FPUndWc3Y0LWtFYk51d2REdzhaM0NKQUR6czVBQ01UQUFFZ1ZXN2tNZ0dTVk1VREctQVo5ZFctblZ5RkpxOU1tNGtMc0ctdVZVU1YzdHNiQ0Q5SVlhUHpldkI0d05OUWVnUUxR?oc=5",
+      "published": "2026-02-15T08:00:00+00:00",
+      "source": {
+        "name": "Satakunnan Kansa",
+        "url": "https://www.satakunnankansa.fi"
+      }
+    },
+    {
+      "id": "e65ec57fecfa",
+      "title": "Uusien syöpälääkkeiden Kela-korvaukset poistetaan – ihmetys heräsi: \"Yksityistä terveydenhuoltoa käyttävät saavat jatkossakin korvauksen?\" - MSN",
+      "link": "https://news.google.com/rss/articles/CBMilANBVV95cUxQZlU5clJ1U3Zpc0JpUVZ1ZnlzOTFCSnl4bFZNQ2VhX0dwaGNPR0tvQUhkWWN6RHRQM09TMC0xZGYybDBZd1VsWFlTaUJyaEZXT2VONnFiWlVnemJaV1VuM0xDdERkUFI2V0J6akQ0VUcxNlkweUJpZUpuRVJWQXB2UHAwdFRSN1oxc2RXT3BIbVF3elI2bHhuZnVIQU04Ujk5dnVNOVBVRV9FQ1dXQUtmUlJYQW5MM3NuV2FSZlFrWWxyUVFqOFVWYzV2UXRvSUFWNUFoNExXdjRkSGhSbGVYRVo2QVVmSmFSaXZXREZ5NWZRUzJPTVdiak9XVFZwbThzU3NWVVJ1NDBSY3lNX19RQkFYYV9KUlg3ckhyb0tDM0d6blQ1OHdYa3BHNlM0eW84bW9sWW4tTm5kaHdub3hGaENUUE03QVZPMU5Ed3ItaVIyMEQxeU1ULXowUWhzSkhwS0N4ZUxyWmNadWVCTUxUX0c3UWpoSU9xVktZT1BQeVcwckcxS2tPQzBCZ05TUnVoSkI5eQ?oc=5",
+      "published": "2026-07-11T00:07:01+00:00",
+      "source": {
+        "name": "MSN",
+        "url": "https://www.msn.com"
       }
     },
     {
@@ -494,16 +514,6 @@
       }
     },
     {
-      "id": "d7df60842659",
-      "title": "Kolesterolilääkkeiden käyttöön liittyy huolestuttava ilmiö – erikoislääkäri pitää tilannetta vakavana - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBieVJxM2JFVml3TWhESEF1SGdXOHpXS25HcUFfRm5oY0VwRTlpX0RYenVVUW1YWS1yc3pmUWVVOVB2aHRCUVEwZW9vX1dxMjZYUXJHczl1VjJtTi1f?oc=5",
-      "published": "2025-12-26T08:00:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
-      }
-    },
-    {
       "id": "0617b4cf2fb8",
       "title": "Onko kaapissa tätä lääkettä? Älä anna lapselle - Iltalehti",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPN09wRlZkZUVvRUR5Z2hpRG1vMzMtcm1VRWo3Wkd6QTZNRkdrZHpLSi1rMFRVUC1NT0R0VEdtV2ZuRnNGeGgtOUNSbVBtV05UTE9YOHBjNXp0NmhULUZLTVF6WHRqRXVLX1FTQ0g3ZTFIQmM5X3ZQNE82UTFHMWJGMmhrMHo?oc=5",
@@ -511,6 +521,16 @@
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
+      }
+    },
+    {
+      "id": "d7df60842659",
+      "title": "Kolesterolilääkkeiden käyttöön liittyy huolestuttava ilmiö – erikoislääkäri pitää tilannetta vakavana - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBieVJxM2JFVml3TWhESEF1SGdXOHpXS25HcUFfRm5oY0VwRTlpX0RYenVVUW1YWS1yc3pmUWVVOVB2aHRCUVEwZW9vX1dxMjZYUXJHczl1VjJtTi1f?oc=5",
+      "published": "2025-12-26T08:00:00+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
       }
     },
     {
@@ -624,13 +644,13 @@
       }
     },
     {
-      "id": "2d917b220c4f",
-      "title": "Lihavuuslääkkeet korvaavat laiskasti toimivia hormoneja – Jos käytön aloittaa, pitääkö sitä jatkaa loppuelämä? - Apu360",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeHZ2NEdCeEUyT1JOVGNjY1dLN3B3a2VldmpId2dEam9ld3hhcEJrU04yMTdrclJrdWUwQW53dk5NaFNfMzFESVFRTVFsN0EwcTB4NWUwUFJwZGg1Sjl0ZUQyV1hWMGMxdzNCbmoybFdCTWpuTUtPTG5nQmtxempQb0wzSm5GVHM?oc=5",
-      "published": "2025-08-11T07:00:00+00:00",
+      "id": "55f2468db470",
+      "title": "Trump syö tuttua lääkettä – Tämä vaara siinä piilee - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVVVhTHdpaUxDaUJjTjBsaXhyNDBwdVdBUTFHUWg5YW0yN0U5em9GUWp6X3FybEtlWW40cWZjMjZJSUhwNmlwbzVIbHg5eDViMGZWM1VjVXZJYjh3TDdxanYwYkhnVUpTakJDQmowNkxXSTJEZ0J5NkRXSkN0SWZ0Z001dVA?oc=5",
+      "published": "2025-07-19T07:00:00+00:00",
       "source": {
-        "name": "Apu360",
-        "url": "https://www.apu.fi"
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
       }
     },
     {
@@ -651,16 +671,6 @@
       "source": {
         "name": "Tieteen Kuvalehti",
         "url": "https://tieku.fi"
-      }
-    },
-    {
-      "id": "55f2468db470",
-      "title": "Trump syö tuttua lääkettä – Tämä vaara siinä piilee - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVVVhTHdpaUxDaUJjTjBsaXhyNDBwdVdBUTFHUWg5YW0yN0U5em9GUWp6X3FybEtlWW40cWZjMjZJSUhwNmlwbzVIbHg5eDViMGZWM1VjVXZJYjh3TDdxanYwYkhnVUpTakJDQmowNkxXSTJEZ0J5NkRXSkN0SWZ0Z001dVA?oc=5",
-      "published": "2025-07-19T07:00:00+00:00",
-      "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
       }
     },
     {
@@ -744,16 +754,6 @@
       }
     },
     {
-      "id": "fff7a5658e45",
-      "title": "Jo kolmas Alzheimerin tautia hidastava lääke löytyi, mutta Suomeen lääkettä joudutaan odottamaan vielä vuosikausia - Yle",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBKT0FiMnI4Z1NVQkwwR29oWFUzTmx5ZjVER3FtWUlkM0EtMVcyeE9GX3ZkbWJlNzM0bmJLdTZadTNodw?oc=5",
-      "published": "2023-05-04T07:00:00+00:00",
-      "source": {
-        "name": "Yle",
-        "url": "https://yle.fi"
-      }
-    },
-    {
       "id": "afdaa9863100",
       "title": "Tutkija suosittaa: lääkkeiden saatavuuden varmistaminen vaatii toimivaa sääntelyä - University of Helsinki",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQM3lLWVFqZ2pTSUhrSWtlMWo1ZlMwaU51TTdGaVNaRzNqSENWYk9INzRJbV9XVjhmUGhhN3ppT2dsMkJEVmFnZHEtYVRMRGhXNENKeGxLTkNRaXFsOHEwY0xUQVV0V0t4aEFwbE13dU9Kc2E5Z3FIRVIzTjZzcDRkb2xRdG1xTWdPTnVNSWJiNTdtQ0dmcENmako5eHBzUGxEYVAyYXBEWm9UbzZ3TjQ3R0NZQjN1Q05odUxnZ1V1MDhTREd4Vk1KR2N0RQ?oc=5",
@@ -768,6 +768,16 @@
       "title": "Orion lopettaa ei-addiktoivan kipulääkkeen kehittelyn – lääke ehti herättää odotuksia - Yle",
       "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5sbWRfS3pRaGJhZnRPOFRPaTVuaGV1UFdGOGZwbER6S1NtLWg1WG1MQXNvVTMzVTdGY1JLVkJMdG93QQ?oc=5",
       "published": "2024-10-24T07:00:00+00:00",
+      "source": {
+        "name": "Yle",
+        "url": "https://yle.fi"
+      }
+    },
+    {
+      "id": "fff7a5658e45",
+      "title": "Jo kolmas Alzheimerin tautia hidastava lääke löytyi, mutta Suomeen lääkettä joudutaan odottamaan vielä vuosikausia - Yle",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBKT0FiMnI4Z1NVQkwwR29oWFUzTmx5ZjVER3FtWUlkM0EtMVcyeE9GX3ZkbWJlNzM0bmJLdTZadTNodw?oc=5",
+      "published": "2023-05-04T07:00:00+00:00",
       "source": {
         "name": "Yle",
         "url": "https://yle.fi"
@@ -991,16 +1001,6 @@
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
-      }
-    },
-    {
-      "id": "24653ed0fdd2",
-      "title": "Marian osteoporoosi paheni, koska hän käytti väärää lääkettä vuosia – Lääkärit eivät huomanneet virhettä | Apu Terveys - Apu360",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOYXFENERwWGZGSTVSOXhMZlNVNWo1QU1TUDQ0aHZiM1VXX3diUlpRWVh6aUhWSWVfUUVCV0VzVmVnR3FLcmxVSG1IZGdlVERFRjlSaWZZRWg2MERYU3MxaUNhbTFrcEdXUkxaZGkyNzJtWGcxc1lOLThyNEJ2NDBaU2tmRjY1djlXSUdnMHA4VWNYalU?oc=5",
-      "published": "2024-02-04T08:00:00+00:00",
-      "source": {
-        "name": "Apu360",
-        "url": "https://www.apu.fi"
       }
     }
   ]

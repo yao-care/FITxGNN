@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-13T20:04:41.132693+00:00",
+  "fetched_at": "2026-07-13T21:41:07.583731+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -84,6 +84,16 @@
       }
     },
     {
+      "id": "b9a663abb90b",
+      "title": "Terveys | Vaihdevuosiin tuli uusi ei-hormonaalinen lääke - Satakunnan Kansa",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE13LURNNkhaakJhNzUxWm9vTzNOQ1N0V1pKQmZmUk1hel9WSF9lSkZqWWxJSFR1OGJ5ZUJ1eWxhX2JTVnd5eHJwUGpORUIwTnBGc3ZiTEtVZ1FkdG9TQ3BQM3kyeF8yWkVVSHh4TzNR?oc=5",
+      "published": "2026-06-11T07:00:00+00:00",
+      "source": {
+        "name": "Satakunnan Kansa",
+        "url": "https://www.satakunnankansa.fi"
+      }
+    },
+    {
       "id": "f760891e509e",
       "title": "Voiko ADHD-lääke aiheuttaa muistin heikkenemistä? – Pippa Laukka kertoo yllättävän asian - Apu360",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNc2laem9xaWl3eXk0R25rOFV4MjhUdHVTLXRudXI2TTBlNUkxWVZVNkx4Q05ZZXcwTnE0WXc0Sm5FdWIxZFg5LW9rRlRobFVJRUlBUkpWT1VrZEZHOXdWMnVXZXpTWThsdWpIdVNEYjhDdkQzSWQySlV1ZmhrMWlvOF9BZk9mSVBTYWZ1N3JrbWdaelJxc0E?oc=5",
@@ -114,16 +124,6 @@
       }
     },
     {
-      "id": "776f88aedda1",
-      "title": "Lääkejätteen palauttaminen apteekkiin on tärkeää, mutta eniten ympäristöä auttaisi lääkkeiden järkevä käyttö - Apteekkari",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPNlRod3RVQ2lDR1phSFpOczFMdHlzQkVQSHB6M1hZTTlaMnpHaGp3UWZWT1VINFptcGxxSEZsdWZjTXRTU3hyWXpDS3ZXTEM4clNaSVQ4STBySzNJWEd4X0ZES3V3RjdGZjNyNzhJd05TYWFfemFqRWNvR25VWW9DUjdaNVIxVzIwNC12UzJkRDBmVUNPWThYSWswMmFkU0F4TnkzM1BSVTBocHFGVUNLQ2xRbDVpT21fX0hXVE1ub29BMzZlMjNvekhzUUN0bm5wTm9lb0g2U1ItUQ?oc=5",
-      "published": "2026-04-23T07:00:00+00:00",
-      "source": {
-        "name": "Apteekkari",
-        "url": "https://www.apteekkari.fi"
-      }
-    },
-    {
       "id": "6eb05dd556fb",
       "title": "Tutun lääkkeen yllättävät terveyshyödyt – tehoaa varsinkin rasvamaksaan - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE80ZVRod2xUSjdCZEp6WTRvZEkwY29TUFFCeDdiMFJJZklXQTJWVjMwdldUMHR0UVRzNzlORWt2T1NmRXgxTUVEek54RnMwWXVUXzZxSFZJQzR5U3h6?oc=5",
@@ -134,10 +134,10 @@
       }
     },
     {
-      "id": "2c65be79f8aa",
-      "title": "Näitä lääkkeitä suomalaiset ostavat eniten - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZVJLSVczQ2tIR1A4OGhZZzFPSnBfWF9LVl90dDB6YkZWdTlULTBibHhtSHFiZFh4VHNYWkV6M1JXNWVTS1JCR2Q5bGVDMEdkVTFUeFRHbG94dHhxdmwwZHNUcFRxYW1DYnQyaGo1V3ZacVN3RE9QVmxrZmswTDJxdjBNZkk?oc=5",
-      "published": "2026-06-17T07:00:00+00:00",
+      "id": "a190bc4042a1",
+      "title": "Tällainen on lääke, jota Trumpin väitetään saaneen - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUjlLSUp3UHhfNWtlVFVLNW5ONTZxdjl6T3BDLXA0VGhleXh5ZXFtbXRiRFdKNjNybG1SZ01zQkZHX0Y0djhkd2Y4c0p5UFJkRHVrMVRqRkdqR1ZNSXJNQUlnTDJvRUoyNVgyejNlSjRvSDZra1l1RXNSZzJ3bTRyZV9kMVg?oc=5",
+      "published": "2026-06-26T07:00:00+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
@@ -164,10 +164,10 @@
       }
     },
     {
-      "id": "a190bc4042a1",
-      "title": "Tällainen on lääke, jota Trumpin väitetään saaneen - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUjlLSUp3UHhfNWtlVFVLNW5ONTZxdjl6T3BDLXA0VGhleXh5ZXFtbXRiRFdKNjNybG1SZ01zQkZHX0Y0djhkd2Y4c0p5UFJkRHVrMVRqRkdqR1ZNSXJNQUlnTDJvRUoyNVgyejNlSjRvSDZra1l1RXNSZzJ3bTRyZV9kMVg?oc=5",
-      "published": "2026-06-26T07:00:00+00:00",
+      "id": "2c65be79f8aa",
+      "title": "Näitä lääkkeitä suomalaiset ostavat eniten - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZVJLSVczQ2tIR1A4OGhZZzFPSnBfWF9LVl90dDB6YkZWdTlULTBibHhtSHFiZFh4VHNYWkV6M1JXNWVTS1JCR2Q5bGVDMEdkVTFUeFRHbG94dHhxdmwwZHNUcFRxYW1DYnQyaGo1V3ZacVN3RE9QVmxrZmswTDJxdjBNZkk?oc=5",
+      "published": "2026-06-17T07:00:00+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
@@ -204,6 +204,16 @@
       }
     },
     {
+      "id": "776f88aedda1",
+      "title": "Lääkejätteen palauttaminen apteekkiin on tärkeää, mutta eniten ympäristöä auttaisi lääkkeiden järkevä käyttö - Apteekkari",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPNlRod3RVQ2lDR1phSFpOczFMdHlzQkVQSHB6M1hZTTlaMnpHaGp3UWZWT1VINFptcGxxSEZsdWZjTXRTU3hyWXpDS3ZXTEM4clNaSVQ4STBySzNJWEd4X0ZES3V3RjdGZjNyNzhJd05TYWFfemFqRWNvR25VWW9DUjdaNVIxVzIwNC12UzJkRDBmVUNPWThYSWswMmFkU0F4TnkzM1BSVTBocHFGVUNLQ2xRbDVpT21fX0hXVE1ub29BMzZlMjNvekhzUUN0bm5wTm9lb0g2U1ItUQ?oc=5",
+      "published": "2026-04-23T07:00:00+00:00",
+      "source": {
+        "name": "Apteekkari",
+        "url": "https://www.apteekkari.fi"
+      }
+    },
+    {
       "id": "75a58a192298",
       "title": "Näistä lääkkeistä tarvitset matkalle todistuksen – muuten voit joutua lentokentällä ongelmiin - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE51S2tjaWQ5TUhJQ2hxcnlsaU96TlRMUTF6eEYxM0ZiVk1kM2RHRS1iMHNSUGQ4SkNzWEt1WVRBclJMdHNkd2RUZ282TjRTTmdNQ0Vaek41MEVtLWlv?oc=5",
@@ -231,16 +241,6 @@
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
-      }
-    },
-    {
-      "id": "b9a663abb90b",
-      "title": "Terveys | Vaihdevuosiin tuli uusi ei-hormonaalinen lääke - Satakunnan Kansa",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE13LURNNkhaakJhNzUxWm9vTzNOQ1N0V1pKQmZmUk1hel9WSF9lSkZqWWxJSFR1OGJ5ZUJ1eWxhX2JTVnd5eHJwUGpORUIwTnBGc3ZiTEtVZ1FkdG9TQ3BQM3kyeF8yWkVVSHh4TzNR?oc=5",
-      "published": "2026-06-11T07:00:00+00:00",
-      "source": {
-        "name": "Satakunnan Kansa",
-        "url": "https://www.satakunnankansa.fi"
       }
     },
     {
@@ -354,6 +354,26 @@
       }
     },
     {
+      "id": "7ec99122cfbe",
+      "title": "Edes lääke ei aina paranna tätä ”tuliaista” – Leviää nyt kiivaasti Euroopassa - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUUFua0U1ZGE4bUV5b2ZlcDVQZEc5V1Y4NGZvOXhIOGJBdEVGamFYejVUdHFMUUtjek9JYUZBM1ByX1BaeHBDeFdEY2V3R1lRLWR4TzZJQ05uQkxrWVdIOW9IRHhMcjhjWVVYM1BtTEVBQ1NUNEFHZ1ZZUlRfSVNPSUZPajE?oc=5",
+      "published": "2025-10-13T07:00:00+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
+      }
+    },
+    {
+      "id": "321ba17f6cbf",
+      "title": "Riikka pelkää: Mitä tapahtuu, kun elintärkeä lääke loppuu Suomesta? - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObkxDOFB4cGJaT05tLVltVDdJLUxNaXdKVVVWZ3pZN0gwNWZ0aDhWOEZxU3hndmNOeFljSDdTRGVGU3ZqYll2RE9XaEEzOTR4U21EZ1JKN2pEMk1zZm1MNWpzNFBzTzFfZGFlemtJUFhDV3RvSWRBUHNSdGJpcmxoT2xrUjU?oc=5",
+      "published": "2025-11-22T08:00:00+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
+      }
+    },
+    {
       "id": "8654d571477b",
       "title": "Tuttu lääke voi tehota polven nivelrikkoon - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1iX3RfNURISzRVWkVKR05uRzFaQ0hQenVSTkZGaEtPMlNlS2xwTHRYS0xyNWtBaFBXVzZWZVhmRC15bXpGSXotX2VXenp1R3p2dXVMTXNhdExFOUtj?oc=5",
@@ -364,10 +384,10 @@
       }
     },
     {
-      "id": "321ba17f6cbf",
-      "title": "Riikka pelkää: Mitä tapahtuu, kun elintärkeä lääke loppuu Suomesta? - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObkxDOFB4cGJaT05tLVltVDdJLUxNaXdKVVVWZ3pZN0gwNWZ0aDhWOEZxU3hndmNOeFljSDdTRGVGU3ZqYll2RE9XaEEzOTR4U21EZ1JKN2pEMk1zZm1MNWpzNFBzTzFfZGFlemtJUFhDV3RvSWRBUHNSdGJpcmxoT2xrUjU?oc=5",
-      "published": "2025-11-22T08:00:00+00:00",
+      "id": "9dfedf0e0e73",
+      "title": "Häiriö koskee satoja lääkkeitä – Lääkepula voi koskea myös sinua - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRFNIQ0RCUHhvV2p2eXpCVWtFSkhqU0N0aG9XZUR2ZXhxdnNmRTZoM0VZMFpLVDM5eGkzUDhPelZKalpPSFBlM2oxcXFuSnBJbTBTaFB0QkRBcXR2NHg0cEtGQkJ2b0pldld6eGJWbjh4c0l1UUE0THZ6VWpmT2xxYVVQRFk?oc=5",
+      "published": "2026-01-07T08:00:00+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
@@ -471,6 +491,16 @@
       "source": {
         "name": "Apu360",
         "url": "https://www.apu.fi"
+      }
+    },
+    {
+      "id": "e6baab499e8a",
+      "title": "Näihin yleisiin lääkkeisiin liittyy kaatumisriski – Katso lista - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUWlVOHZNdl9SR0FHNWZFTGstNjJ4Y2VyZF9UZmNwUURmTm9fd1l0eHpwT3pkV1BjUmxYRHVfTllaQmFFb01LNVFuVG9KemJtSnlRa2lOdTEtamRkX3JhRDFjTXVfYzBuSnZPODd3cU9UX2k1a1UtRDJXZ0hBdlFsa1YyUG4?oc=5",
+      "published": "2025-12-17T08:00:00+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
       }
     },
     {
@@ -704,16 +734,6 @@
       }
     },
     {
-      "id": "bc10383a5bc0",
-      "title": "Luuston hoitoon tarkoitettu lääke lisää merkittävästi leukakuolion riskiä, kertoo uusi tutkimus - Yle",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9vNF84RkI0T3FmQUJiU0NnMDE1OVdYWFlmeTZPSTRQanRzZkwzODJHNVRaTUszWExZYXAxUUxBUUVndw?oc=5",
-      "published": "2025-06-02T07:00:00+00:00",
-      "source": {
-        "name": "Yle",
-        "url": "https://yle.fi"
-      }
-    },
-    {
       "id": "dea1a2a4b9bb",
       "title": "Naiskeho, mieslääkkeet - University of Helsinki",
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9sal83eUcxREU3b281RFhiXzY2TWNoZHYyX1JqTjVDbnFRR3J2Y3lOX0FvSFVJT3BZZW5kOHBhR2w4VW1hanFMSmV2LVNVTWRHNTlzRWlrSVhtSktfZEVaQjl3MXJNdGtzZ3h1OVFNWnl6RGVjZE9od3d6dzE?oc=5",
@@ -721,6 +741,16 @@
       "source": {
         "name": "University of Helsinki",
         "url": "https://www.helsinki.fi"
+      }
+    },
+    {
+      "id": "bc10383a5bc0",
+      "title": "Luuston hoitoon tarkoitettu lääke lisää merkittävästi leukakuolion riskiä, kertoo uusi tutkimus - Yle",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9vNF84RkI0T3FmQUJiU0NnMDE1OVdYWFlmeTZPSTRQanRzZkwzODJHNVRaTUszWExZYXAxUUxBUUVndw?oc=5",
+      "published": "2025-06-02T07:00:00+00:00",
+      "source": {
+        "name": "Yle",
+        "url": "https://yle.fi"
       }
     },
     {
@@ -964,16 +994,6 @@
       }
     },
     {
-      "id": "4438513d5c0c",
-      "title": "Tässä on maailman ensimmäinen 3D-tulostettu lääke - Terve.fi",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUDZQWm5RbTFmX3ZPdlFxUzUzSDdRVk5zSTBXbDNlVFhaM09Gcl9rNDlTN3ppSm9mcXdpMHY0TXBWQjlfbFhwSnZxWlE3Zl9tMVhueWlfaHpKMmJLa1ZqcUVLVmdNRm1tZklxWjI2ZEVEZzFqaVp2QVA3elYwUU1ELTNScFdYYVRkOWZ2OXhMM3o?oc=5",
-      "published": "2015-08-05T07:00:00+00:00",
-      "source": {
-        "name": "Terve.fi",
-        "url": "https://www.terve.fi"
-      }
-    },
-    {
       "id": "0d856b7b4a47",
       "title": "Tuttu lääke voisi ehkäistä epäterveellisesti elävien suolistosyöpiä - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE03Tm5oWVAwMGdQWThwWU1LRThnSVFpRmJaZ1BJSVFOQXFYRlV4YXA4YUVjbVZMME9wZ09OdmJyYkhtVFI2RU9XLXVWazh5dzVnZHBoMlhVa0pndnFw?oc=5",
@@ -981,26 +1001,6 @@
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
-      }
-    },
-    {
-      "id": "e3de84d459bc",
-      "title": "Karmeita mokia lääkkeiden käytössä: Suuri osa sairastuneista ei edes hae niitä apteekista – ja yhtä moni nielee ne väärin - Yle",
-      "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9HYmtfWUlncHNWdDJvcWhPZVNYNEpGM0NfaWdoZnFkdjlORHpHRmlSV2M3cnhoYTA1NDZlUklHaw?oc=5",
-      "published": "2016-09-15T07:00:00+00:00",
-      "source": {
-        "name": "Yle",
-        "url": "https://yle.fi"
-      }
-    },
-    {
-      "id": "1de8e42e9b5d",
-      "title": "Halpa ja tuttu lääke voi estää syövän leviämisen – Älä silti ryntää apteekkiin - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5XdEd4RDRacUZEQWxjV2NNNWdIOXN3ZzltRnFCczRoTmczZTRUTnV0QTFiUG9EX3JiaFJPeUNsdVNXalBZNDR6OUVOWi1sVzFTclFoTTNJbGpCNEtHS1R0MVN4WWtpSHZDWVhRcDF6SHFqeFNEVmt4Rg?oc=5",
-      "published": "2025-03-06T08:00:00+00:00",
-      "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
       }
     }
   ]

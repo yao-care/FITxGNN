@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-14T18:56:44.794460+00:00",
+  "fetched_at": "2026-07-14T20:05:07.563370+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -134,6 +134,16 @@
       }
     },
     {
+      "id": "8d26a64330f4",
+      "title": "Syöpäjärjestöt huolissaan sairastuneiden yhdenvertaisuudesta – syynä muutos lääkkeiden Kela-korvauksissa - Yle",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE4tejg1RzJBX3RYUlhUWVlKZWx5LTN1LW5jNkw3elpnY1R5bUE1RVQyc0ZtRnVSMnYwbUdXMU9NSkhrdw?oc=5",
+      "published": "2026-07-10T14:50:41+00:00",
+      "source": {
+        "name": "Yle",
+        "url": "https://yle.fi"
+      }
+    },
+    {
       "id": "bbb6ee35d88c",
       "title": "Syötkö samanaikaisesti yli neljää eri lääkettä? Tämän vaivan riski lisääntyy - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB6cDVyUUZOX1N2em15bldOdmhRTkZRczc2cENCNHFvS2pXVnJWd1FILUpmdjVRWWlQam5meC1DRlJld24walZzYUwxbTJGekFIWFhlNVVxcERfSVhl?oc=5",
@@ -164,6 +174,16 @@
       }
     },
     {
+      "id": "4a2927f8ebf5",
+      "title": "Tämä yleinen lääke voi hälyttää huumetestissä - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBuWlVhUkQ1MWdoc1ozenpQUjJSamx3UHBxVmNiMmRsSnF1RW85X1drWGVYZTFJWHNfTWhLbVZtYUJLU004QmR4b0d3RWc1LXNiNW9KMFQ2TFFmWmts?oc=5",
+      "published": "2026-05-20T07:00:00+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
+      }
+    },
+    {
       "id": "b1d9e2318b23",
       "title": "Pieni virhe lääkityksessä voi maksaa jopa 4 500 euroa – tutkimus: niistä eroon pääsy säästäisi miljoonia vuodessa - Yle",
       "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE82c3RveWRrY1lyU0c1RG1RVHAzbjBVNXdVVWZ1YkIzMmM5OVZhamZ6Znp1TTVNOENfdUpNMk1YYXB0Zw?oc=5",
@@ -174,10 +194,10 @@
       }
     },
     {
-      "id": "4a2927f8ebf5",
-      "title": "Tämä yleinen lääke voi hälyttää huumetestissä - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBuWlVhUkQ1MWdoc1ozenpQUjJSamx3UHBxVmNiMmRsSnF1RW85X1drWGVYZTFJWHNfTWhLbVZtYUJLU004QmR4b0d3RWc1LXNiNW9KMFQ2TFFmWmts?oc=5",
-      "published": "2026-05-20T07:00:00+00:00",
+      "id": "75a58a192298",
+      "title": "Näistä lääkkeistä tarvitset matkalle todistuksen – muuten voit joutua lentokentällä ongelmiin - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE51S2tjaWQ5TUhJQ2hxcnlsaU96TlRMUTF6eEYxM0ZiVk1kM2RHRS1iMHNSUGQ4SkNzWEt1WVRBclJMdHNkd2RUZ282TjRTTmdNQ0Vaek41MEVtLWlv?oc=5",
+      "published": "2026-04-19T07:00:00+00:00",
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
@@ -191,16 +211,6 @@
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
-      }
-    },
-    {
-      "id": "75a58a192298",
-      "title": "Näistä lääkkeistä tarvitset matkalle todistuksen – muuten voit joutua lentokentällä ongelmiin - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE51S2tjaWQ5TUhJQ2hxcnlsaU96TlRMUTF6eEYxM0ZiVk1kM2RHRS1iMHNSUGQ4SkNzWEt1WVRBclJMdHNkd2RUZ282TjRTTmdNQ0Vaek41MEVtLWlv?oc=5",
-      "published": "2026-04-19T07:00:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
       }
     },
     {
@@ -991,16 +1001,6 @@
       "source": {
         "name": "Yle",
         "url": "https://yle.fi"
-      }
-    },
-    {
-      "id": "b5dc6231ef5b",
-      "title": "Helle voi aiheuttaa suuren määrän vakavia terveyshaittoja - Apteekkari",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUHZWWlBxX1VmTHRXTER5NkpaQjhFQ2ZUYkJwd0hQQVVFd3pwNlUwamQ3NVE0VTdfbUlVZUhKOWJzcXpVU0VmLWhoT000bm0tdDhjYWZSRkVua2tFOE5yUkdFUUtWMy1VM3FUeDhNcFJTN2FTVmp1eWZHTVhsbGY5Mjk4Z3RKd3h6MzFrS1FKNy1QUVpnWkVr?oc=5",
-      "published": "2021-11-24T08:00:00+00:00",
-      "source": {
-        "name": "Apteekkari",
-        "url": "https://www.apteekkari.fi"
       }
     }
   ]

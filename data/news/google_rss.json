@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-19T20:44:56.934361+00:00",
+  "fetched_at": "2026-07-19T21:38:28.707768+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -7,7 +7,7 @@
       "id": "e0462d1766b0",
       "title": "Hämmennys lääkekorvauksista leviää – Nyt on käännettä ilmassa - Iltalehti",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1iTXhFeEpqallCdjBTNVNLZ0pfZk1HNjV3MjJyV3JYalpfdU4tTmRWOVN3SVlFZW1HOEViTjl1MWRnYnd4MFFRUkkxMTQ0NV9mQXY2aUU3LXhhUWsyT09pcjBEZGo3ZHl0S01hTVNZbjJBcmdxRncxQ3I5eG5SZHM?oc=5",
-      "published": "2026-07-19T03:30:27+00:00",
+      "published": "2026-07-19T03:31:39+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
@@ -114,20 +114,20 @@
       }
     },
     {
-      "id": "4c64635e3922",
-      "title": "Tämä Kelan päätös kuohuttaa – Kanteluryöppy - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5sNGp0YWJtTGFyeVRtNDdHcG4yazVPYjY2YWJLVkM2WHh6bURrOFNuMGNaZlI5VV9IOTdBa0MyYzUtVndIWE9FZ3VLN1I1YTNvN0tzQjZPTkxlUktBZVJjX0J6d05OYkdfMkNEYTFQc3ptb29nTFRvYlJ3WFVPd2M?oc=5",
-      "published": "2026-07-14T13:54:20+00:00",
+      "id": "a190bc4042a1",
+      "title": "Tällainen on lääke, jota Trumpin väitetään saaneen - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUjlLSUp3UHhfNWtlVFVLNW5ONTZxdjl6T3BDLXA0VGhleXh5ZXFtbXRiRFdKNjNybG1SZ01zQkZHX0Y0djhkd2Y4c0p5UFJkRHVrMVRqRkdqR1ZNSXJNQUlnTDJvRUoyNVgyejNlSjRvSDZra1l1RXNSZzJ3bTRyZV9kMVg?oc=5",
+      "published": "2026-06-26T07:00:00+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
       }
     },
     {
-      "id": "a190bc4042a1",
-      "title": "Tällainen on lääke, jota Trumpin väitetään saaneen - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUjlLSUp3UHhfNWtlVFVLNW5ONTZxdjl6T3BDLXA0VGhleXh5ZXFtbXRiRFdKNjNybG1SZ01zQkZHX0Y0djhkd2Y4c0p5UFJkRHVrMVRqRkdqR1ZNSXJNQUlnTDJvRUoyNVgyejNlSjRvSDZra1l1RXNSZzJ3bTRyZV9kMVg?oc=5",
-      "published": "2026-06-26T07:00:00+00:00",
+      "id": "4c64635e3922",
+      "title": "Tämä Kelan päätös kuohuttaa – Kanteluryöppy - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5sNGp0YWJtTGFyeVRtNDdHcG4yazVPYjY2YWJLVkM2WHh6bURrOFNuMGNaZlI5VV9IOTdBa0MyYzUtVndIWE9FZ3VLN1I1YTNvN0tzQjZPTkxlUktBZVJjX0J6d05OYkdfMkNEYTFQc3ptb29nTFRvYlJ3WFVPd2M?oc=5",
+      "published": "2026-07-14T13:54:20+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
@@ -464,9 +464,9 @@
       }
     },
     {
-      "id": "4d83cae56e91",
-      "title": "Tuttuja lääkkeitä tulossa kauppoihin – Katso lista - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdDdVX3g1T2VlVi1fQUdNOHJnT184Z3NSQUFlQ1VyeWhfNkZrYmZzWVl0ZE1aMi1TWkdZNVAzM2FBRnRTUlBya0VXaV9QX19ra1ZEOGtlcW1SWER6ZXJzeWg4dldsbGlFUlo4TmZQcTE3dnlMZEo5QmJfOFN5UXVFYVF0bUc?oc=5",
+      "id": "e6baab499e8a",
+      "title": "Näihin yleisiin lääkkeisiin liittyy kaatumisriski – Katso lista - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUWlVOHZNdl9SR0FHNWZFTGstNjJ4Y2VyZF9UZmNwUURmTm9fd1l0eHpwT3pkV1BjUmxYRHVfTllaQmFFb01LNVFuVG9KemJtSnlRa2lOdTEtamRkX3JhRDFjTXVfYzBuSnZPODd3cU9UX2k1a1UtRDJXZ0hBdlFsa1YyUG4?oc=5",
       "published": "2025-12-17T08:00:00+00:00",
       "source": {
         "name": "Iltalehti",
@@ -474,9 +474,9 @@
       }
     },
     {
-      "id": "e6baab499e8a",
-      "title": "Näihin yleisiin lääkkeisiin liittyy kaatumisriski – Katso lista - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUWlVOHZNdl9SR0FHNWZFTGstNjJ4Y2VyZF9UZmNwUURmTm9fd1l0eHpwT3pkV1BjUmxYRHVfTllaQmFFb01LNVFuVG9KemJtSnlRa2lOdTEtamRkX3JhRDFjTXVfYzBuSnZPODd3cU9UX2k1a1UtRDJXZ0hBdlFsa1YyUG4?oc=5",
+      "id": "4d83cae56e91",
+      "title": "Tuttuja lääkkeitä tulossa kauppoihin – Katso lista - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdDdVX3g1T2VlVi1fQUdNOHJnT184Z3NSQUFlQ1VyeWhfNkZrYmZzWVl0ZE1aMi1TWkdZNVAzM2FBRnRTUlBya0VXaV9QX19ra1ZEOGtlcW1SWER6ZXJzeWg4dldsbGlFUlo4TmZQcTE3dnlMZEo5QmJfOFN5UXVFYVF0bUc?oc=5",
       "published": "2025-12-17T08:00:00+00:00",
       "source": {
         "name": "Iltalehti",

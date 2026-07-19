@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-19T19:59:30.531649+00:00",
+  "fetched_at": "2026-07-19T20:44:56.934361+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -464,9 +464,9 @@
       }
     },
     {
-      "id": "e6baab499e8a",
-      "title": "Näihin yleisiin lääkkeisiin liittyy kaatumisriski – Katso lista - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUWlVOHZNdl9SR0FHNWZFTGstNjJ4Y2VyZF9UZmNwUURmTm9fd1l0eHpwT3pkV1BjUmxYRHVfTllaQmFFb01LNVFuVG9KemJtSnlRa2lOdTEtamRkX3JhRDFjTXVfYzBuSnZPODd3cU9UX2k1a1UtRDJXZ0hBdlFsa1YyUG4?oc=5",
+      "id": "4d83cae56e91",
+      "title": "Tuttuja lääkkeitä tulossa kauppoihin – Katso lista - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdDdVX3g1T2VlVi1fQUdNOHJnT184Z3NSQUFlQ1VyeWhfNkZrYmZzWVl0ZE1aMi1TWkdZNVAzM2FBRnRTUlBya0VXaV9QX19ra1ZEOGtlcW1SWER6ZXJzeWg4dldsbGlFUlo4TmZQcTE3dnlMZEo5QmJfOFN5UXVFYVF0bUc?oc=5",
       "published": "2025-12-17T08:00:00+00:00",
       "source": {
         "name": "Iltalehti",
@@ -474,9 +474,9 @@
       }
     },
     {
-      "id": "4d83cae56e91",
-      "title": "Tuttuja lääkkeitä tulossa kauppoihin – Katso lista - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdDdVX3g1T2VlVi1fQUdNOHJnT184Z3NSQUFlQ1VyeWhfNkZrYmZzWVl0ZE1aMi1TWkdZNVAzM2FBRnRTUlBya0VXaV9QX19ra1ZEOGtlcW1SWER6ZXJzeWg4dldsbGlFUlo4TmZQcTE3dnlMZEo5QmJfOFN5UXVFYVF0bUc?oc=5",
+      "id": "e6baab499e8a",
+      "title": "Näihin yleisiin lääkkeisiin liittyy kaatumisriski – Katso lista - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUWlVOHZNdl9SR0FHNWZFTGstNjJ4Y2VyZF9UZmNwUURmTm9fd1l0eHpwT3pkV1BjUmxYRHVfTllaQmFFb01LNVFuVG9KemJtSnlRa2lOdTEtamRkX3JhRDFjTXVfYzBuSnZPODd3cU9UX2k1a1UtRDJXZ0hBdlFsa1YyUG4?oc=5",
       "published": "2025-12-17T08:00:00+00:00",
       "source": {
         "name": "Iltalehti",
@@ -944,16 +944,6 @@
       }
     },
     {
-      "id": "bbbc1319946c",
-      "title": "Onko edullinen rinnakkaislääke huonompi kuin alkuperäinen? Apteekkari kertoo totuuden - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9iTHFPUTZMZDAySTRKdWFKT01xX3lCQWJkdUpHMlRacTR5dEhQeUhidmRQckk4NUpKUVhSZE9nOFBQQWFlVzgxTkNBOWhySVNMT21QUGNwUGY5NlVl?oc=5",
-      "published": "2025-07-25T07:00:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
-      }
-    },
-    {
       "id": "d3e7cd063332",
       "title": "Lääkehuollon kriisijohtaminen pandemian aikana vahvisti yhteistyötä ja Suomen terveydenhuollon kriisivalmiutta - University of Helsinki",
       "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOWktBTFpMdmNGLTFDTUJ3YlFmUS1GWG1WX2RCVl9rSERyT25JM09OQ2VpMVdQcjEzUkQ3NzdETlNjQ0RoZFBMVHk2ajdickRJZzZLcnNPQnNPUWFvQW9UQlBLVDBRV0EzUGpuVHRReWVjbktvWkM1cGswcWtQMVNRMU01T3JsOFphc0pEYkxYRElicm50UTdlVmtINnZzUG1WcndyTVFvVkZsdnZUTmhUUGFud1ZiV3lCQXg5bDFjcnRxTHBvTHRYdl8yUTlTcWpXNFUwWFVFd3d1ZWhGcWxhR3dLaExUZkRPWjdLSWthN1FYdXc?oc=5",
@@ -961,6 +951,16 @@
       "source": {
         "name": "University of Helsinki",
         "url": "https://www.helsinki.fi"
+      }
+    },
+    {
+      "id": "bbbc1319946c",
+      "title": "Onko edullinen rinnakkaislääke huonompi kuin alkuperäinen? Apteekkari kertoo totuuden - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9iTHFPUTZMZDAySTRKdWFKT01xX3lCQWJkdUpHMlRacTR5dEhQeUhidmRQckk4NUpKUVhSZE9nOFBQQWFlVzgxTkNBOWhySVNMT21QUGNwUGY5NlVl?oc=5",
+      "published": "2025-07-25T07:00:00+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
       }
     },
     {

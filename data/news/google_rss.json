@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-20T05:26:33.068207+00:00",
+  "fetched_at": "2026-07-20T08:32:06.479840+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -11,16 +11,6 @@
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
-      }
-    },
-    {
-      "id": "fec884287619",
-      "title": "Näistä lääkkeistä tarvitset matkalle todistuksen – muuten voit joutua lentokentällä ongelmiin - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5zdmNQYzNhRFRxMGlKUHl5RXNyS3BnakQxQlFfdEdzbWh4R3dIVlphaFMtdnlCU1RPNUxGQWJvX0hFRENkX1Bsc2YtMDdEZGd3RlljeHZGMURyTWcz?oc=5",
-      "published": "2026-07-16T07:45:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
       }
     },
     {
@@ -41,6 +31,16 @@
       "source": {
         "name": "Sosiaali- ja terveysministeriö",
         "url": "https://stm.fi"
+      }
+    },
+    {
+      "id": "977ac12e0816",
+      "title": "Tuttu lääke voi alkoholin kanssa aiheuttaa ikävän ilmiön - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4xcXk5SnBpX3ZZUk9CZXNaWURHNFJVRkE1dW42VlFwdHdiSElpVjVmdGl6NmdYYkxpczZNdl9vcGNrZUVvbXRfX2MzWWE2THc1N3ZRRzV0UUFTRUVo?oc=5",
+      "published": "2026-07-10T07:00:00+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
       }
     },
     {
@@ -84,26 +84,6 @@
       }
     },
     {
-      "id": "977ac12e0816",
-      "title": "Tuttu lääke voi alkoholin kanssa aiheuttaa ikävän ilmiön - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4xcXk5SnBpX3ZZUk9CZXNaWURHNFJVRkE1dW42VlFwdHdiSElpVjVmdGl6NmdYYkxpczZNdl9vcGNrZUVvbXRfX2MzWWE2THc1N3ZRRzV0UUFTRUVo?oc=5",
-      "published": "2026-07-10T07:00:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
-      }
-    },
-    {
-      "id": "a190bc4042a1",
-      "title": "Tällainen on lääke, jota Trumpin väitetään saaneen - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUjlLSUp3UHhfNWtlVFVLNW5ONTZxdjl6T3BDLXA0VGhleXh5ZXFtbXRiRFdKNjNybG1SZ01zQkZHX0Y0djhkd2Y4c0p5UFJkRHVrMVRqRkdqR1ZNSXJNQUlnTDJvRUoyNVgyejNlSjRvSDZra1l1RXNSZzJ3bTRyZV9kMVg?oc=5",
-      "published": "2026-06-26T07:00:00+00:00",
-      "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
-      }
-    },
-    {
       "id": "bbb6ee35d88c",
       "title": "Syötkö samanaikaisesti yli neljää eri lääkettä? Tämän vaivan riski lisääntyy - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB6cDVyUUZOX1N2em15bldOdmhRTkZRczc2cENCNHFvS2pXVnJWd1FILUpmdjVRWWlQam5meC1DRlJld24walZzYUwxbTJGekFIWFhlNVVxcERfSVhl?oc=5",
@@ -118,6 +98,16 @@
       "title": "Suosittu lääke loppui Suomesta – Tiina sai lääkäriltä tyrmistyttävän ohjeen - Iltalehti",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5pa1AtTmhOX3lyelpuYktDUUJZblZrN1dmaWYyaVZNZDg4Q1RhTUZ1VGpjcUFhc0prdXRqcjlEZkZ5QVU4bjhESThWTEU2OUR6SDd1M19Yc1pzNnpCQUsySC02V1lLWXZaenZLUTJPLVIzWTQxdUtNM1VvYw?oc=5",
       "published": "2026-07-10T07:00:00+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
+      }
+    },
+    {
+      "id": "a190bc4042a1",
+      "title": "Tällainen on lääke, jota Trumpin väitetään saaneen - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUjlLSUp3UHhfNWtlVFVLNW5ONTZxdjl6T3BDLXA0VGhleXh5ZXFtbXRiRFdKNjNybG1SZ01zQkZHX0Y0djhkd2Y4c0p5UFJkRHVrMVRqRkdqR1ZNSXJNQUlnTDJvRUoyNVgyejNlSjRvSDZra1l1RXNSZzJ3bTRyZV9kMVg?oc=5",
+      "published": "2026-06-26T07:00:00+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
@@ -328,6 +318,16 @@
       "title": "Tuttu lääke voi hillitä myös alkoholin käyttöä - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1rT3pjRFBQZlJRaXBjZ2o4ZzF6em5QWlNhMlNHNXFJSXpWMzdKdGpmZzJxUWV4emt2NFJ1bWZzQ0tsWjV3Qmp4N2Y1NDA1MVhGbHJiVC1qQjNqQWhO?oc=5",
       "published": "2026-06-02T07:00:00+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
+      }
+    },
+    {
+      "id": "75a58a192298",
+      "title": "Näistä lääkkeistä tarvitset matkalle todistuksen – muuten voit joutua lentokentällä ongelmiin - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE51S2tjaWQ5TUhJQ2hxcnlsaU96TlRMUTF6eEYxM0ZiVk1kM2RHRS1iMHNSUGQ4SkNzWEt1WVRBclJMdHNkd2RUZ282TjRTTmdNQ0Vaek41MEVtLWlv?oc=5",
+      "published": "2026-04-19T07:00:00+00:00",
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
@@ -914,26 +914,6 @@
       }
     },
     {
-      "id": "ce041284b4c6",
-      "title": "Tämä on Suomen suosituin lääke - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1nYlYzb1ZEeldZdDM4MzJ6V2lIVXM1V0hyVUYwQjhtU0hoT0ptdHFjMUgtdllsbkl4RkRla0FkTXB1Y0JUUkNBSnhXTkpROU16dmJ0QmhLMjZPQl9X?oc=5",
-      "published": "2025-06-11T07:00:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
-      }
-    },
-    {
-      "id": "84469cdae09d",
-      "title": "Orion lopettaa ei-addiktoivan kipulääkkeen kehittelyn – lääke ehti herättää odotuksia - Yle",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5sbWRfS3pRaGJhZnRPOFRPaTVuaGV1UFdGOGZwbER6S1NtLWg1WG1MQXNvVTMzVTdGY1JLVkJMdG93QQ?oc=5",
-      "published": "2024-10-24T07:00:00+00:00",
-      "source": {
-        "name": "Yle",
-        "url": "https://yle.fi"
-      }
-    },
-    {
       "id": "fff7a5658e45",
       "title": "Jo kolmas Alzheimerin tautia hidastava lääke löytyi, mutta Suomeen lääkettä joudutaan odottamaan vielä vuosikausia - Yle",
       "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBKT0FiMnI4Z1NVQkwwR29oWFUzTmx5ZjVER3FtWUlkM0EtMVcyeE9GX3ZkbWJlNzM0bmJLdTZadTNodw?oc=5",
@@ -941,6 +921,16 @@
       "source": {
         "name": "Yle",
         "url": "https://yle.fi"
+      }
+    },
+    {
+      "id": "6ad7d0981214",
+      "title": "Lääkeväärennöksiä on liikkeellä entistä enemmän – Hälytyskellojen on syytä soida näistä merkeistä - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQUY0NXB2cmd3RVJmZFFEQ29vNmVzU0FpbE9mOXhkVjFEcnFmWXZscEl5OUZuRS1yREV2ZS1JZEkzWjBoRVpBTEc3eU1OcEotbUg1bURtMGxGQXo2RDVYQlR5aWVRbW53NW1hQkhId3R2NW0wT0dyY2dWLTFWQ2NkWElTV1g?oc=5",
+      "published": "2023-08-01T07:00:00+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
       }
     },
     {
@@ -981,6 +971,16 @@
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
+      }
+    },
+    {
+      "id": "ce041284b4c6",
+      "title": "Tämä on Suomen suosituin lääke - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1nYlYzb1ZEeldZdDM4MzJ6V2lIVXM1V0hyVUYwQjhtU0hoT0ptdHFjMUgtdllsbkl4RkRla0FkTXB1Y0JUUkNBSnhXTkpROU16dmJ0QmhLMjZPQl9X?oc=5",
+      "published": "2025-06-11T07:00:00+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
       }
     },
     {

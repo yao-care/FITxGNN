@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-20T23:43:55.678751+00:00",
+  "fetched_at": "2026-07-21T01:17:58.570860+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -424,6 +424,16 @@
       }
     },
     {
+      "id": "1f576b846983",
+      "title": "Lääkkeen saa puolittaa vain yhdessä tapauksessa - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE83anB2YUtMSU5jWVBSVjRRelh6R3pXdXl3c0h0bXkyT0FzZ3JMczhJOU1VZVNWNDdsdkFscmlCQTN1eTRuS1dJUW9ydTJVU2IySllPWmd1NlJEMUdH?oc=5",
+      "published": "2026-05-24T07:00:00+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
+      }
+    },
+    {
       "id": "7d52a3f36f9a",
       "title": "Lääkkeiden hinnat muuttuivat - Iltalehti",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWDhPOWJpZndkUlNtZTA2TzdpbjBTWHhvdDJZUzFScEl0NTFqcWZNUjlJZmg5eUZvdHlHc0xDY0xpZndIQjhoTlR5eDNTNE1JdU8yWXBWajRiX2VTV0gzVHBkZG02dnYwWldyTkRLeExGMkM3ekNRMkN3MWRrbXhIbUUxUTU?oc=5",
@@ -581,6 +591,16 @@
       "source": {
         "name": "Apu360",
         "url": "https://www.apu.fi"
+      }
+    },
+    {
+      "id": "0617b4cf2fb8",
+      "title": "Onko kaapissa tätä lääkettä? Älä anna lapselle - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPN09wRlZkZUVvRUR5Z2hpRG1vMzMtcm1VRWo3Wkd6QTZNRkdrZHpLSi1rMFRVUC1NT0R0VEdtV2ZuRnNGeGgtOUNSbVBtV05UTE9YOHBjNXp0NmhULUZLTVF6WHRqRXVLX1FTQ0g3ZTFIQmM5X3ZQNE82UTFHMWJGMmhrMHo?oc=5",
+      "published": "2025-08-21T07:00:00+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
       }
     },
     {
@@ -924,16 +944,6 @@
       }
     },
     {
-      "id": "2f52a52f731c",
-      "title": "Imatinibi-lääkitys ei vähentänytkään kuolleisuutta sairaalahoidetuilla koronapotilailla – professori miettii seuraavaa pandemiaa - University of Helsinki",
-      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNQ3NwMHZ2bUZFazB6VGNnTkNRaUduWkZJZlJJcUc4R0YyaGdaemRNbVdQUU1sQjhJVHYtNURaek1ZMTNKX1ozUUlFY1FyUTBBb0FjOFFyYm1udklkRzVUbnFJNXpZb3hFQzBIN013LVdETi01enlnTXF3cTlEbmRrTktKMWFmX1hxTUQ2TUtDbkppLVJLYk92emhZeWJUWGxDdkNSb1lucUExRDAySEVjdzZqa2FqVWlSVTA1eVBOb3c2T0dSV1d3cGwyTWhQWnBva0piWFA0SEM3M1RJSlFtekZPbGtLWll5cUJCalZjS2p6Zy0yV2lzemN2OV85V2dSS0ZuQjltSGFCMEU?oc=5",
-      "published": "2024-08-16T07:00:00+00:00",
-      "source": {
-        "name": "University of Helsinki",
-        "url": "https://www.helsinki.fi"
-      }
-    },
-    {
       "id": "715e886fcfc5",
       "title": "Lääkkeiden nimet sekaisin – Lähes jopa viides olisi valinnut väärän itsehoitolääkkeen - Iltalehti",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxON0ZXZE03MnNUbTFkc1dDTml2anowd19JVFR6amRTcFZoX2FKQ0ZmcTVGTWxQQlZJanVjY0NYOG5IdElTWkFBVXQ3bzRqeTRGeTZoelJWTUNFRmVGcWloUUZ6Wm1ueHFSQ3l2aVdXSHctUzB2RE04aGpWY2MxSjhOQ0c5blc?oc=5",
@@ -941,6 +951,16 @@
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
+      }
+    },
+    {
+      "id": "2f52a52f731c",
+      "title": "Imatinibi-lääkitys ei vähentänytkään kuolleisuutta sairaalahoidetuilla koronapotilailla – professori miettii seuraavaa pandemiaa - University of Helsinki",
+      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNQ3NwMHZ2bUZFazB6VGNnTkNRaUduWkZJZlJJcUc4R0YyaGdaemRNbVdQUU1sQjhJVHYtNURaek1ZMTNKX1ozUUlFY1FyUTBBb0FjOFFyYm1udklkRzVUbnFJNXpZb3hFQzBIN013LVdETi01enlnTXF3cTlEbmRrTktKMWFmX1hxTUQ2TUtDbkppLVJLYk92emhZeWJUWGxDdkNSb1lucUExRDAySEVjdzZqa2FqVWlSVTA1eVBOb3c2T0dSV1d3cGwyTWhQWnBva0piWFA0SEM3M1RJSlFtekZPbGtLWll5cUJCalZjS2p6Zy0yV2lzemN2OV85V2dSS0ZuQjltSGFCMEU?oc=5",
+      "published": "2024-08-16T07:00:00+00:00",
+      "source": {
+        "name": "University of Helsinki",
+        "url": "https://www.helsinki.fi"
       }
     },
     {
@@ -981,26 +1001,6 @@
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
-      }
-    },
-    {
-      "id": "bbbc1319946c",
-      "title": "Onko edullinen rinnakkaislääke huonompi kuin alkuperäinen? Apteekkari kertoo totuuden - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9iTHFPUTZMZDAySTRKdWFKT01xX3lCQWJkdUpHMlRacTR5dEhQeUhidmRQckk4NUpKUVhSZE9nOFBQQWFlVzgxTkNBOWhySVNMT21QUGNwUGY5NlVl?oc=5",
-      "published": "2025-07-25T07:00:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
-      }
-    },
-    {
-      "id": "6b6ff09594e3",
-      "title": "Satojen lääkkeiden hinnat halpenevat tänään - Yle",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE56VnRjMWlIeXdVbTBTNXVreFhaa3FhTGJsdEFQUGI0SEhURndWU0VqZy1SeGEyVW1ZWk56dVNYcUhndw?oc=5",
-      "published": "2025-02-28T08:00:00+00:00",
-      "source": {
-        "name": "Yle",
-        "url": "https://yle.fi"
       }
     }
   ]

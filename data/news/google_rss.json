@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-22T16:11:15.562172+00:00",
+  "fetched_at": "2026-07-22T17:58:36.227028+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -251,16 +251,6 @@
       "source": {
         "name": "Apu360",
         "url": "https://www.apu.fi"
-      }
-    },
-    {
-      "id": "672eecf52100",
-      "title": "Unohda laihdutuslääkkeet – Tämä lisäaine ehkäisee painonnousua - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5fbXJjY19pa1JCV3NSbEhEV3JDZGVFcFRyUmhVd091TkZ5VjRwU25kcEd0ZW9XRUMxZzN0UlVFQUd0QU51eGgzT1Y3NkxvRjdXTmlpZlh0TW1pdnBJenRkdDYtUUNBRUN5aVU1UHVCV2xkdTJxODdxbFRzcnpVQQ?oc=5",
-      "published": "2026-07-07T07:00:00+00:00",
-      "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
       }
     },
     {
@@ -714,16 +704,6 @@
       }
     },
     {
-      "id": "7904c07dfeaf",
-      "title": "Tällaisia haittavaikutuksia Ozempicillä voi olla – erityisesti tämä huolettaa asiantuntijoita - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9lNV9abFJCY1ZaRm1uYVc5NEtCUFNMRnZlQXVyUW5nVXVtWm1aTFNLV25wQ1RPWkVDMWhLMVpVS0Vjb1p4MEN0c2FVb2FMZW43Y01zNFREVVpSOGdj?oc=5",
-      "published": "2025-08-16T07:00:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
-      }
-    },
-    {
       "id": "032459aa0e77",
       "title": "Psyykenlääkkeen lopettaminen vei toimintakyvyn – Miten selvitä eteenpäin? Pippa Laukka vastaa - Apu360",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPVWRBa0VqUXJ1c0piTTJ4WjQwcW5KcDMwZ3BqREZkZkludUN0ajF6LWRkb0NQWW4zWElQYXlDQlp5bi1JYlZkcFpaajMzaW9pZkpNckxyb0F6QjdOaEpTeTBNbkFmaGpmVDlKdHN3NkI3dnNXQ0lmbVVhMFBUcGwzdzVoQ0kycF90dTRJbkk2X29jUTNZ?oc=5",
@@ -731,6 +711,16 @@
       "source": {
         "name": "Apu360",
         "url": "https://www.apu.fi"
+      }
+    },
+    {
+      "id": "7904c07dfeaf",
+      "title": "Tällaisia haittavaikutuksia Ozempicillä voi olla – erityisesti tämä huolettaa asiantuntijoita - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9lNV9abFJCY1ZaRm1uYVc5NEtCUFNMRnZlQXVyUW5nVXVtWm1aTFNLV25wQ1RPWkVDMWhLMVpVS0Vjb1p4MEN0c2FVb2FMZW43Y01zNFREVVpSOGdj?oc=5",
+      "published": "2025-08-16T07:00:00+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
       }
     },
     {
@@ -1001,6 +991,16 @@
       "source": {
         "name": "Hyvä Terveys",
         "url": "https://www.hyvaterveys.fi"
+      }
+    },
+    {
+      "id": "a1a5db1fb7cc",
+      "title": "Hyvinvointialueilla on erilainen ohjeistus koronalääkkeestä vanhuksille – ”Ei lääkäri voi leikkiä jumalaa”, sanoo Lapin infektioylilääkäri - Yle",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9HRndiOTh3aU1fRFZ5cU90eEgzY1NFX25IdW44MmU4Qk5Remt4Y0dySVZJZlV2Ry04UGQ2eXRxUHlrdw?oc=5",
+      "published": "2023-10-17T07:00:00+00:00",
+      "source": {
+        "name": "Yle",
+        "url": "https://yle.fi"
       }
     }
   ]

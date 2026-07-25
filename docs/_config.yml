@@ -1,6 +1,6 @@
-title: FITxGNN - Drug Repurposing
+title: FITxGNN - Lääkkeiden uudelleensijoittelu
 lang: "fi"
-description: Finland Fimea-approved Drug Repurposing predictions powered by TxGNN
+description: Ennusteet Fimean Suomessa hyväksymien lääkkeiden uudelleensijoittelusta, perustuu TxGNN-malliin
 remote_theme: just-the-docs/just-the-docs
 url: https://fitxgnn.yao.care
 baseurl: ""

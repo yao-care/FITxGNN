@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-26T21:44:50.852504+00:00",
+  "fetched_at": "2026-07-26T22:45:30.180841+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -7,7 +7,7 @@
       "id": "df65c4292d96",
       "title": "Oletko kuullut Ozempic-jaloista? Tältä ne näyttävät - Iltalehti",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbzlMbDFsR2FBOUhuZ0FDMEFYS1lXNzI3YzdiMlJCYzZwcEJqb1dSNndQaFlCOXNaYzJfNkJnYXNrRmlzbHpQWE5WaDlqck9URE9iU3llS1lhLUx6ci1UNFAta2taaWU2WnJyMHZ0MmtpT0oycDJRRVJpVTQxMEtpLWUzNnU?oc=5",
-      "published": "2026-07-26T04:01:37+00:00",
+      "published": "2026-07-26T04:02:08+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
@@ -354,16 +354,6 @@
       }
     },
     {
-      "id": "672eecf52100",
-      "title": "Unohda laihdutuslääkkeet – Tämä lisäaine ehkäisee painonnousua - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5fbXJjY19pa1JCV3NSbEhEV3JDZGVFcFRyUmhVd091TkZ5VjRwU25kcEd0ZW9XRUMxZzN0UlVFQUd0QU51eGgzT1Y3NkxvRjdXTmlpZlh0TW1pdnBJenRkdDYtUUNBRUN5aVU1UHVCV2xkdTJxODdxbFRzcnpVQQ?oc=5",
-      "published": "2026-07-07T07:00:00+00:00",
-      "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
-      }
-    },
-    {
       "id": "7ec99122cfbe",
       "title": "Edes lääke ei aina paranna tätä ”tuliaista” – Leviää nyt kiivaasti Euroopassa - Iltalehti",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUUFua0U1ZGE4bUV5b2ZlcDVQZEc5V1Y4NGZvOXhIOGJBdEVGamFYejVUdHFMUUtjek9JYUZBM1ByX1BaeHBDeFdEY2V3R1lRLWR4TzZJQ05uQkxrWVdIOW9IRHhMcjhjWVVYM1BtTEVBQ1NUNEFHZ1ZZUlRfSVNPSUZPajE?oc=5",
@@ -524,20 +514,20 @@
       }
     },
     {
-      "id": "4d83cae56e91",
-      "title": "Tuttuja lääkkeitä tulossa kauppoihin – Katso lista - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdDdVX3g1T2VlVi1fQUdNOHJnT184Z3NSQUFlQ1VyeWhfNkZrYmZzWVl0ZE1aMi1TWkdZNVAzM2FBRnRTUlBya0VXaV9QX19ra1ZEOGtlcW1SWER6ZXJzeWg4dldsbGlFUlo4TmZQcTE3dnlMZEo5QmJfOFN5UXVFYVF0bUc?oc=5",
-      "published": "2025-12-17T08:00:00+00:00",
+      "id": "dd2e38dfc3d7",
+      "title": "Yksi asia tehostaa Ozempicin tehoa merkittävästi – Tutkijat löysivät syyn - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOX1A4VHVFeXZ2R2lCR2dwc3dfVlJJSVNWRVgtanhkeFVpYXE4Y3FKS0hZUGhCRURRUGl6TVlXby1McXk2LWtfODlLa0NrQlpyTEFFSnJnZEpsUHJSbldiVm4xVTVySm5sT1B4dkcxZUJjSEdrQTBKeXBjck13clk3NUJ2TXQ?oc=5",
+      "published": "2026-04-26T07:00:00+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
       }
     },
     {
-      "id": "dd2e38dfc3d7",
-      "title": "Yksi asia tehostaa Ozempicin tehoa merkittävästi – Tutkijat löysivät syyn - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOX1A4VHVFeXZ2R2lCR2dwc3dfVlJJSVNWRVgtanhkeFVpYXE4Y3FKS0hZUGhCRURRUGl6TVlXby1McXk2LWtfODlLa0NrQlpyTEFFSnJnZEpsUHJSbldiVm4xVTVySm5sT1B4dkcxZUJjSEdrQTBKeXBjck13clk3NUJ2TXQ?oc=5",
-      "published": "2026-04-26T07:00:00+00:00",
+      "id": "4d83cae56e91",
+      "title": "Tuttuja lääkkeitä tulossa kauppoihin – Katso lista - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdDdVX3g1T2VlVi1fQUdNOHJnT184Z3NSQUFlQ1VyeWhfNkZrYmZzWVl0ZE1aMi1TWkdZNVAzM2FBRnRTUlBya0VXaV9QX19ra1ZEOGtlcW1SWER6ZXJzeWg4dldsbGlFUlo4TmZQcTE3dnlMZEo5QmJfOFN5UXVFYVF0bUc?oc=5",
+      "published": "2025-12-17T08:00:00+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
@@ -1001,6 +991,16 @@
       "source": {
         "name": "University of Helsinki",
         "url": "https://www.helsinki.fi"
+      }
+    },
+    {
+      "id": "715e886fcfc5",
+      "title": "Lääkkeiden nimet sekaisin – Lähes jopa viides olisi valinnut väärän itsehoitolääkkeen - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxON0ZXZE03MnNUbTFkc1dDTml2anowd19JVFR6amRTcFZoX2FKQ0ZmcTVGTWxQQlZJanVjY0NYOG5IdElTWkFBVXQ3bzRqeTRGeTZoelJWTUNFRmVGcWloUUZ6Wm1ueHFSQ3l2aVdXSHctUzB2RE04aGpWY2MxSjhOQ0c5blc?oc=5",
+      "published": "2025-06-26T07:00:00+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
       }
     }
   ]

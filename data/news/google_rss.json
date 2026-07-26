@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-26T18:50:17.270362+00:00",
+  "fetched_at": "2026-07-26T20:01:47.403477+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -7,7 +7,7 @@
       "id": "df65c4292d96",
       "title": "Oletko kuullut Ozempic-jaloista? Tältä ne näyttävät - Iltalehti",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbzlMbDFsR2FBOUhuZ0FDMEFYS1lXNzI3YzdiMlJCYzZwcEJqb1dSNndQaFlCOXNaYzJfNkJnYXNrRmlzbHpQWE5WaDlqck9URE9iU3llS1lhLUx6ci1UNFAta2taaWU2WnJyMHZ0MmtpT0oycDJRRVJpVTQxMEtpLWUzNnU?oc=5",
-      "published": "2026-07-26T04:02:08+00:00",
+      "published": "2026-07-26T04:01:37+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
@@ -324,6 +324,16 @@
       }
     },
     {
+      "id": "3ed1ba821af1",
+      "title": "Kun Veera Papinoja aloitti Ozempicin käytön, hänen somensa täyttyi kritiikistä – näin hän vastaa kommentteihin - eeva.fi",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1acEJtM2J6ZUxhenExNnQ3bUZvSVo1eUdJSU4zeGpYTVFrTHBBeWV4TS1DUVB0Q1hYMWlISlIwbXA4TUtBTG1Dck1JcWdRUWl5VXJfRlpxUUk1N3FZ?oc=5",
+      "published": "2026-07-10T04:00:00+00:00",
+      "source": {
+        "name": "eeva.fi",
+        "url": "https://www.eeva.fi"
+      }
+    },
+    {
       "id": "7c3217496471",
       "title": "Tämän lääkkeen käyttö räjähti Suomessa – Moni unohtaa yhden asian: ”Ei riitä” - Iltalehti",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQR2lNQk5ZVlBpVXg1ZG1mblZ0aWFBMmpxRno5bkZQS2NVS3pkbjJpd01aYXBvU3dfVTl1cUVTdWFXdjFMdFBoa1RXT29HM045bmZuYnRPdXZBNXhYTnhOWFNrd1BXanFEUjZmM0U3V3JzbW5VaS1wSGtFYW1tdzNmbVFrQnY?oc=5",
@@ -404,16 +414,6 @@
       }
     },
     {
-      "id": "d91576ebfd18",
-      "title": "Markkinoille saapuu uudenlainen hoito lihavuuteen - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8xY1lCdUxwbllDU2FsYlVRcGJUV0oyTEx2VWdBNXlPM1pTb01zY0tadkk0YzduZ1JFRHJLQnYtMUExazFjVzdCOG4zSFQ3YmR0X0JOZ1JqTEVIR3U2bGJXT2QzSkdVMjRCa0Q3b183UkJyT0U0emZIcGQzR1hxQQ?oc=5",
-      "published": "2025-12-30T08:00:00+00:00",
-      "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
-      }
-    },
-    {
       "id": "f760891e509e",
       "title": "Voiko ADHD-lääke aiheuttaa muistin heikkenemistä? – Pippa Laukka kertoo yllättävän asian - Apu360",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNc2laem9xaWl3eXk0R25rOFV4MjhUdHVTLXRudXI2TTBlNUkxWVZVNkx4Q05ZZXcwTnE0WXc0Sm5FdWIxZFg5LW9rRlRobFVJRUlBUkpWT1VrZEZHOXdWMnVXZXpTWThsdWpIdVNEYjhDdkQzSWQySlV1ZmhrMWlvOF9BZk9mSVBTYWZ1N3JrbWdaelJxc0E?oc=5",
@@ -474,16 +474,6 @@
       }
     },
     {
-      "id": "dd2e38dfc3d7",
-      "title": "Yksi asia tehostaa Ozempicin tehoa merkittävästi – Tutkijat löysivät syyn - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOX1A4VHVFeXZ2R2lCR2dwc3dfVlJJSVNWRVgtanhkeFVpYXE4Y3FKS0hZUGhCRURRUGl6TVlXby1McXk2LWtfODlLa0NrQlpyTEFFSnJnZEpsUHJSbldiVm4xVTVySm5sT1B4dkcxZUJjSEdrQTBKeXBjck13clk3NUJ2TXQ?oc=5",
-      "published": "2026-04-26T07:00:00+00:00",
-      "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
-      }
-    },
-    {
       "id": "db26b1adf129",
       "title": "Laihdutuslääke saattaa auttaa masennukseen ja ahdistukseenkin, kertoo tutkimus – kysyimme, muuttuuko hoito - Yle",
       "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5GV082ZTF6bU84UlMxaTJVcWtPOWRxV2h5REJaTWV5eFRFNEpCSWtPLW9EYVlXdTZDQ3dlTlF0cmJDQQ?oc=5",
@@ -508,6 +498,16 @@
       "title": "Tuttuja lääkkeitä tulossa kauppoihin – Katso lista - Iltalehti",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdDdVX3g1T2VlVi1fQUdNOHJnT184Z3NSQUFlQ1VyeWhfNkZrYmZzWVl0ZE1aMi1TWkdZNVAzM2FBRnRTUlBya0VXaV9QX19ra1ZEOGtlcW1SWER6ZXJzeWg4dldsbGlFUlo4TmZQcTE3dnlMZEo5QmJfOFN5UXVFYVF0bUc?oc=5",
       "published": "2025-12-17T08:00:00+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
+      }
+    },
+    {
+      "id": "dd2e38dfc3d7",
+      "title": "Yksi asia tehostaa Ozempicin tehoa merkittävästi – Tutkijat löysivät syyn - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOX1A4VHVFeXZ2R2lCR2dwc3dfVlJJSVNWRVgtanhkeFVpYXE4Y3FKS0hZUGhCRURRUGl6TVlXby1McXk2LWtfODlLa0NrQlpyTEFFSnJnZEpsUHJSbldiVm4xVTVySm5sT1B4dkcxZUJjSEdrQTBKeXBjck13clk3NUJ2TXQ?oc=5",
+      "published": "2026-04-26T07:00:00+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
@@ -624,6 +624,16 @@
       }
     },
     {
+      "id": "ea034ae8ab8f",
+      "title": "Laihdutuslääkkeiden käyttäjiä varoitetaan vakavasta ongelmasta - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5xUHkwNUFrcFdfbzdSdWlObEpYU1Nib1l4eWx2NzhZZVc5UGgyLXVQTlZjQnQyRjZQb2RTeU1fbjhuel9sQjdrSFg3RjBPQ1lELTcwWHEyS3ppOGxJREZHWUNZazlHM3BUSjUzdDRucVBld2puRUp0eWdPcjIxdw?oc=5",
+      "published": "2026-02-02T08:00:00+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
+      }
+    },
+    {
       "id": "768326ef7d87",
       "title": "Mielialalääke ja lumevaikutus: Voiko masennuslääke auttaa jo viikossa? Pippa Laukka vastaa - Apu360",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUC0wQ0hmd1RTQ3R3bnZhSDRvb2JKSWVLMjMtbU1yM2hxMEVMNEduVHR1TkZqRklFMTZiOFZiTWlBRTBWanhUZ1ZSNGRTLWRMbmdVNVJRczZLeE1fS2lLRTRkQno2ZHRXdWxIb1lUUGFBMFRDMjUzcEc0ejhTVTIwWlltakdudk1zekhmZEpjN2g?oc=5",
@@ -684,13 +694,13 @@
       }
     },
     {
-      "id": "ea034ae8ab8f",
-      "title": "Laihdutuslääkkeiden käyttäjiä varoitetaan vakavasta ongelmasta - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5xUHkwNUFrcFdfbzdSdWlObEpYU1Nib1l4eWx2NzhZZVc5UGgyLXVQTlZjQnQyRjZQb2RTeU1fbjhuel9sQjdrSFg3RjBPQ1lELTcwWHEyS3ppOGxJREZHWUNZazlHM3BUSjUzdDRucVBld2puRUp0eWdPcjIxdw?oc=5",
-      "published": "2026-02-02T08:00:00+00:00",
+      "id": "2e15e9e19f5d",
+      "title": "Tutkimus: Tuttu lääke saattaa suojata koronan tarttumiselta - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5MUDFMWVZYMWt0M1JqZHpCTFZPenk4RmNUYjRCWk10dWtHRktoN2lMYXFkTm1VNkkwRTNqSEd3M1FRRWlXRHJXZVd5eE9UR29Zb2xVZjNsa2xIUUcz?oc=5",
+      "published": "2025-11-10T08:00:00+00:00",
       "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
       }
     },
     {
@@ -704,16 +714,6 @@
       }
     },
     {
-      "id": "2e15e9e19f5d",
-      "title": "Tutkimus: Tuttu lääke saattaa suojata koronan tarttumiselta - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5MUDFMWVZYMWt0M1JqZHpCTFZPenk4RmNUYjRCWk10dWtHRktoN2lMYXFkTm1VNkkwRTNqSEd3M1FRRWlXRHJXZVd5eE9UR29Zb2xVZjNsa2xIUUcz?oc=5",
-      "published": "2025-11-10T08:00:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
-      }
-    },
-    {
       "id": "10e203a2ec99",
       "title": "Anneli, 58, menetti näkönsä – syyksi epäillään lääkettä, jonka suosio kasvaa Suomessa kohisten - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1SUVNoTWtCcm9Ta2tubkNLVTZZQk9JQXdlQ3lRcnpjUm5mTmV3UkNWRG44Z0hiVEFveVdsWG1pbjA3eWc2X1hueHdvbEZJVHpLSGNLbmVxLTVEeEJO?oc=5",
@@ -721,16 +721,6 @@
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
-      }
-    },
-    {
-      "id": "7cecd0cf699e",
-      "title": "HS mielipide: Lääkäri varoittaa ADHD-lääkityksen haitoista - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSjl0RkJxckg1bVJwWUJCWDNfeFluU3lQYmlNclNfeVM4cU5iZzFVZzVCdkFHLW1WS3RFUE5GTUtmZEY2Y0c0cHVCSWR1V0VJZHhBZmZfMWdvbUZDMFcyM2dFVy1rOGRtM2RLQUxoOUFybkFIYVhZeGNrUFFoVjJrMzRYeFc?oc=5",
-      "published": "2025-10-12T07:00:00+00:00",
-      "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
       }
     },
     {
@@ -781,6 +771,16 @@
       "source": {
         "name": "Apu360",
         "url": "https://www.apu.fi"
+      }
+    },
+    {
+      "id": "d7df60842659",
+      "title": "Kolesterolilääkkeiden käyttöön liittyy huolestuttava ilmiö – erikoislääkäri pitää tilannetta vakavana - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBieVJxM2JFVml3TWhESEF1SGdXOHpXS25HcUFfRm5oY0VwRTlpX0RYenVVUW1YWS1yc3pmUWVVOVB2aHRCUVEwZW9vX1dxMjZYUXJHczl1VjJtTi1f?oc=5",
+      "published": "2025-12-26T08:00:00+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
       }
     },
     {

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-26T16:41:57.612855+00:00",
+  "fetched_at": "2026-07-26T17:50:20.391756+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -304,6 +304,16 @@
       }
     },
     {
+      "id": "fcb71dce368b",
+      "title": "Unohda tämä tuttu lääke: Näin siitepölyallergiaa pitäisi oikeasti hoitaa - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbXdqaWU2SUF6clVNaXhLZEhDcmp1QjgzOVpBY09KV0NoOEx3YmVadnRaM1dxdGo3YXFjMUt4dE5yOF9OOWh5NS15RnVsaHowT2pLSzREdm5WZXJJREFfLXJwRmlNTjdZYW1YdmFLcWFlSzk5a3hZMFZTNXc4bFc0aExDUUk?oc=5",
+      "published": "2026-04-07T07:00:00+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
+      }
+    },
+    {
       "id": "9dfedf0e0e73",
       "title": "Häiriö koskee satoja lääkkeitä – Lääkepula voi koskea myös sinua - Iltalehti",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRFNIQ0RCUHhvV2p2eXpCVWtFSkhqU0N0aG9XZUR2ZXhxdnNmRTZoM0VZMFpLVDM5eGkzUDhPelZKalpPSFBlM2oxcXFuSnBJbTBTaFB0QkRBcXR2NHg0cEtGQkJ2b0pldld6eGJWbjh4c0l1UUE0THZ6VWpmT2xxYVVQRFk?oc=5",
@@ -374,16 +384,6 @@
       }
     },
     {
-      "id": "7d52a3f36f9a",
-      "title": "Lääkkeiden hinnat muuttuivat - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWDhPOWJpZndkUlNtZTA2TzdpbjBTWHhvdDJZUzFScEl0NTFqcWZNUjlJZmg5eUZvdHlHc0xDY0xpZndIQjhoTlR5eDNTNE1JdU8yWXBWajRiX2VTV0gzVHBkZG02dnYwWldyTkRLeExGMkM3ekNRMkN3MWRrbXhIbUUxUTU?oc=5",
-      "published": "2026-01-03T08:00:00+00:00",
-      "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
-      }
-    },
-    {
       "id": "69a777b93da8",
       "title": "Tuttu lääke ykkösenä haittavaikutuslistalla – Pahoinvointia, ripulia, vatsakipuja... - Iltalehti",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxON0Nkcy1qMnlaaGc3OGl1LThWeGkydS1sX09YektRUHNCdDhlSktLWUJMRmtISlRRTk95RDFJOFNjcnVDNUp3Z3pDUEhsQ3Mzd2dzWEYtN3d2c0hTVm1IVkFmczJrSlNyNE9MeWZSMTlkcVV6QWg1X1cxUl9peS03OTBXVGk?oc=5",
@@ -424,13 +424,13 @@
       }
     },
     {
-      "id": "2b63d0b9d7da",
-      "title": "Tavallinen särkylääke saattaa vahingoittaa munuaisia – yksi lääke on turvallisin vaihtoehto - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5zUFpfQmYtQURyTk92YmdQQWJLMG9JM0NyeHpmTng5Mk5Wb1cxUmE5b3lEbXN3bFRZbFc0bUVtVEdneU52OGFFSE1QMTM2UllXS25QV2xtTGNUV3JS?oc=5",
-      "published": "2026-03-01T08:00:00+00:00",
+      "id": "7d52a3f36f9a",
+      "title": "Lääkkeiden hinnat muuttuivat - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWDhPOWJpZndkUlNtZTA2TzdpbjBTWHhvdDJZUzFScEl0NTFqcWZNUjlJZmg5eUZvdHlHc0xDY0xpZndIQjhoTlR5eDNTNE1JdU8yWXBWajRiX2VTV0gzVHBkZG02dnYwWldyTkRLeExGMkM3ekNRMkN3MWRrbXhIbUUxUTU?oc=5",
+      "published": "2026-01-03T08:00:00+00:00",
       "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
       }
     },
     {
@@ -584,6 +584,16 @@
       }
     },
     {
+      "id": "015fe8ec59fd",
+      "title": "Kirja: Lihavuuslääkkeissä pitkä lista riskejä – Ozempic-naama oli vasta alkua - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWE5tU1dPd2ppc1NmWHBkWkJ4aDlWbXBJMm9vUVlkbmFFY0lnendOc1ZyRzhxVkhVQUFTV1RXZ2lpckc5SnZrd2NWREwzVDdXaGdkT3pyeEM2M3dvXzRfVzJSU0MwS0xqLVdzNk9oaEVDY1FVaHVnMmx2YnZ6VFhiS01BS3c?oc=5",
+      "published": "2026-04-23T07:00:00+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
+      }
+    },
+    {
       "id": "0e8f5e732b0e",
       "title": "Ozempic-käyttäjät paljastavat: Rajut sivuoireet ja hurjat tulokset - Iltalehti",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9rUnNWd0Z1dTJ2cmhCSzZmcmRtb3NfeVRwbXR4dEtGa21Vbms4SWpHODZ0bXdqRWo4T0RwbTJORGE5RElOMVdfQ1hyMW1rcVVEdmhlM2pVUUZxOFJJQjR6RUQzS2R3OHN6WFF6c3FydmJfRGFfR1VKSDRNUE92Zw?oc=5",
@@ -598,16 +608,6 @@
       "title": "Tutkimus: Tämä lääke ehkäisee sydänkohtauksen paremmin kuin aspiriini - Iltalehti",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9ZbDlaVmdDR3JqakhKSnRyZEt4UHpwemJHLWVqQ0VTYXdJb25DNTBCRk5RVTJHcUtlN3hDb2tNaURISFZfT1d5Zzd3SkdZeEdtMnVyUzhvSERJM2F3X0RUd1FrWFhtdXV0c0JZRkVDV2htTFNKUmp0WA?oc=5",
       "published": "2025-09-01T07:00:00+00:00",
-      "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
-      }
-    },
-    {
-      "id": "015fe8ec59fd",
-      "title": "Kirja: Lihavuuslääkkeissä pitkä lista riskejä – Ozempic-naama oli vasta alkua - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWE5tU1dPd2ppc1NmWHBkWkJ4aDlWbXBJMm9vUVlkbmFFY0lnendOc1ZyRzhxVkhVQUFTV1RXZ2lpckc5SnZrd2NWREwzVDdXaGdkT3pyeEM2M3dvXzRfVzJSU0MwS0xqLVdzNk9oaEVDY1FVaHVnMmx2YnZ6VFhiS01BS3c?oc=5",
-      "published": "2026-04-23T07:00:00+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
@@ -784,16 +784,6 @@
       }
     },
     {
-      "id": "d7df60842659",
-      "title": "Kolesterolilääkkeiden käyttöön liittyy huolestuttava ilmiö – erikoislääkäri pitää tilannetta vakavana - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBieVJxM2JFVml3TWhESEF1SGdXOHpXS25HcUFfRm5oY0VwRTlpX0RYenVVUW1YWS1yc3pmUWVVOVB2aHRCUVEwZW9vX1dxMjZYUXJHczl1VjJtTi1f?oc=5",
-      "published": "2025-12-26T08:00:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
-      }
-    },
-    {
       "id": "10aaf9cf3245",
       "title": "Suomessa tulee nyt saataville täysin uudenlainen Alzheimer-lääke – ”Tämä on merkittävä juttu” - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9ySEtpc2tERUNpUC1janlmU3lxSTRubzM3ODlhNVdOWjctQUhDc1BlV3dRc0JXMmkwRUFYOURWUFBWUEhVZDlFVDJqR0RVcnI2VFpqOERoc3RTNl9S?oc=5",
@@ -934,16 +924,6 @@
       }
     },
     {
-      "id": "2d917b220c4f",
-      "title": "Lihavuuslääkkeet korvaavat laiskasti toimivia hormoneja – Jos käytön aloittaa, pitääkö sitä jatkaa loppuelämä? - Apu360",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeHZ2NEdCeEUyT1JOVGNjY1dLN3B3a2VldmpId2dEam9ld3hhcEJrU04yMTdrclJrdWUwQW53dk5NaFNfMzFESVFRTVFsN0EwcTB4NWUwUFJwZGg1Sjl0ZUQyV1hWMGMxdzNCbmoybFdCTWpuTUtPTG5nQmtxempQb0wzSm5GVHM?oc=5",
-      "published": "2025-08-11T07:00:00+00:00",
-      "source": {
-        "name": "Apu360",
-        "url": "https://www.apu.fi"
-      }
-    },
-    {
       "id": "13a0b4c9a561",
       "title": "Huonoksi koettu terveys on yhteydessä monipäihdekäyttöön - Lääkärilehti",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNejhEN0xGUTJlenVzd0o1VVdxWGoxZFd1LU1vanBWYVJWbUFtN3doUTlSNHdLZVRQY2lkWjFKMEtJUWtVOFpfUEd3VXVXNkI4VWVCTlpLazI1UVE0a195ZW81NUpDZzFxZnRZdndTUnRmQjRoWWxuOVVHLUtiR285VkRySzZsWjZtQmUyVVZwWTN1Zmw0MV9qajdtYUViRVUzRFFBdk9DSjlKTjg3NWFWQ1V0d3liRDBhTWpza1ladUtNUnEwSWNkYWJEeGpNNkhhTG94bQ?oc=5",
@@ -951,6 +931,16 @@
       "source": {
         "name": "Lääkärilehti",
         "url": "https://www.laakarilehti.fi"
+      }
+    },
+    {
+      "id": "2d917b220c4f",
+      "title": "Lihavuuslääkkeet korvaavat laiskasti toimivia hormoneja – Jos käytön aloittaa, pitääkö sitä jatkaa loppuelämä? - Apu360",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeHZ2NEdCeEUyT1JOVGNjY1dLN3B3a2VldmpId2dEam9ld3hhcEJrU04yMTdrclJrdWUwQW53dk5NaFNfMzFESVFRTVFsN0EwcTB4NWUwUFJwZGg1Sjl0ZUQyV1hWMGMxdzNCbmoybFdCTWpuTUtPTG5nQmtxempQb0wzSm5GVHM?oc=5",
+      "published": "2025-08-11T07:00:00+00:00",
+      "source": {
+        "name": "Apu360",
+        "url": "https://www.apu.fi"
       }
     },
     {
@@ -984,6 +974,16 @@
       }
     },
     {
+      "id": "fff7a5658e45",
+      "title": "Jo kolmas Alzheimerin tautia hidastava lääke löytyi, mutta Suomeen lääkettä joudutaan odottamaan vielä vuosikausia - Yle",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBKT0FiMnI4Z1NVQkwwR29oWFUzTmx5ZjVER3FtWUlkM0EtMVcyeE9GX3ZkbWJlNzM0bmJLdTZadTNodw?oc=5",
+      "published": "2023-05-04T07:00:00+00:00",
+      "source": {
+        "name": "Yle",
+        "url": "https://yle.fi"
+      }
+    },
+    {
       "id": "d3e7cd063332",
       "title": "Lääkehuollon kriisijohtaminen pandemian aikana vahvisti yhteistyötä ja Suomen terveydenhuollon kriisivalmiutta - University of Helsinki",
       "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOWktBTFpMdmNGLTFDTUJ3YlFmUS1GWG1WX2RCVl9rSERyT25JM09OQ2VpMVdQcjEzUkQ3NzdETlNjQ0RoZFBMVHk2ajdickRJZzZLcnNPQnNPUWFvQW9UQlBLVDBRV0EzUGpuVHRReWVjbktvWkM1cGswcWtQMVNRMU01T3JsOFphc0pEYkxYRElicm50UTdlVmtINnZzUG1WcndyTVFvVkZsdnZUTmhUUGFud1ZiV3lCQXg5bDFjcnRxTHBvTHRYdl8yUTlTcWpXNFUwWFVFd3d1ZWhGcWxhR3dLaExUZkRPWjdLSWthN1FYdXc?oc=5",
@@ -994,13 +994,13 @@
       }
     },
     {
-      "id": "fff7a5658e45",
-      "title": "Jo kolmas Alzheimerin tautia hidastava lääke löytyi, mutta Suomeen lääkettä joudutaan odottamaan vielä vuosikausia - Yle",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBKT0FiMnI4Z1NVQkwwR29oWFUzTmx5ZjVER3FtWUlkM0EtMVcyeE9GX3ZkbWJlNzM0bmJLdTZadTNodw?oc=5",
-      "published": "2023-05-04T07:00:00+00:00",
+      "id": "715e886fcfc5",
+      "title": "Lääkkeiden nimet sekaisin – Lähes jopa viides olisi valinnut väärän itsehoitolääkkeen - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxON0ZXZE03MnNUbTFkc1dDTml2anowd19JVFR6amRTcFZoX2FKQ0ZmcTVGTWxQQlZJanVjY0NYOG5IdElTWkFBVXQ3bzRqeTRGeTZoelJWTUNFRmVGcWloUUZ6Wm1ueHFSQ3l2aVdXSHctUzB2RE04aGpWY2MxSjhOQ0c5blc?oc=5",
+      "published": "2025-06-26T07:00:00+00:00",
       "source": {
-        "name": "Yle",
-        "url": "https://yle.fi"
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
       }
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-26T12:50:56.925687+00:00",
+  "fetched_at": "2026-07-26T14:21:42.891197+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -344,16 +344,6 @@
       }
     },
     {
-      "id": "672eecf52100",
-      "title": "Unohda laihdutuslääkkeet – Tämä lisäaine ehkäisee painonnousua - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5fbXJjY19pa1JCV3NSbEhEV3JDZGVFcFRyUmhVd091TkZ5VjRwU25kcEd0ZW9XRUMxZzN0UlVFQUd0QU51eGgzT1Y3NkxvRjdXTmlpZlh0TW1pdnBJenRkdDYtUUNBRUN5aVU1UHVCV2xkdTJxODdxbFRzcnpVQQ?oc=5",
-      "published": "2026-07-07T07:00:00+00:00",
-      "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
-      }
-    },
-    {
       "id": "7c3217496471",
       "title": "Tämän lääkkeen käyttö räjähti Suomessa – Moni unohtaa yhden asian: ”Ei riitä” - Iltalehti",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQR2lNQk5ZVlBpVXg1ZG1mblZ0aWFBMmpxRno5bkZQS2NVS3pkbjJpd01aYXBvU3dfVTl1cUVTdWFXdjFMdFBoa1RXT29HM045bmZuYnRPdXZBNXhYTnhOWFNrd1BXanFEUjZmM0U3V3JzbW5VaS1wSGtFYW1tdzNmbVFrQnY?oc=5",
@@ -378,6 +368,16 @@
       "title": "Harvinainen syöpälääke maksutta – Tätä Olga Temonen nyt saa - Iltalehti",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUzJRUFBZZkdIQkJ1RXJ6RWxZTVNqRUdKbkRKeG5UQnl6TkJPZ19hMWRfVkJzdWM5dHlmZGVwcEFPd0hFajdfdU5mN1poanV5LXhBb2lBaE5ibEVkTEE3dmoteDJ0Y29wZXRTaHRYSW1GSWJnODdKMFJvSjJsWDlsdUdWNFo?oc=5",
       "published": "2025-10-09T07:00:00+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
+      }
+    },
+    {
+      "id": "672eecf52100",
+      "title": "Unohda laihdutuslääkkeet – Tämä lisäaine ehkäisee painonnousua - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5fbXJjY19pa1JCV3NSbEhEV3JDZGVFcFRyUmhVd091TkZ5VjRwU25kcEd0ZW9XRUMxZzN0UlVFQUd0QU51eGgzT1Y3NkxvRjdXTmlpZlh0TW1pdnBJenRkdDYtUUNBRUN5aVU1UHVCV2xkdTJxODdxbFRzcnpVQQ?oc=5",
+      "published": "2026-07-07T07:00:00+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
@@ -444,6 +444,16 @@
       }
     },
     {
+      "id": "dd2e38dfc3d7",
+      "title": "Yksi asia tehostaa Ozempicin tehoa merkittävästi – Tutkijat löysivät syyn - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOX1A4VHVFeXZ2R2lCR2dwc3dfVlJJSVNWRVgtanhkeFVpYXE4Y3FKS0hZUGhCRURRUGl6TVlXby1McXk2LWtfODlLa0NrQlpyTEFFSnJnZEpsUHJSbldiVm4xVTVySm5sT1B4dkcxZUJjSEdrQTBKeXBjck13clk3NUJ2TXQ?oc=5",
+      "published": "2026-04-26T07:00:00+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
+      }
+    },
+    {
       "id": "db26b1adf129",
       "title": "Laihdutuslääke saattaa auttaa masennukseen ja ahdistukseenkin, kertoo tutkimus – kysyimme, muuttuuko hoito - Yle",
       "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5GV082ZTF6bU84UlMxaTJVcWtPOWRxV2h5REJaTWV5eFRFNEpCSWtPLW9EYVlXdTZDQ3dlTlF0cmJDQQ?oc=5",
@@ -468,16 +478,6 @@
       "title": "Tuttuja lääkkeitä tulossa kauppoihin – Katso lista - Iltalehti",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdDdVX3g1T2VlVi1fQUdNOHJnT184Z3NSQUFlQ1VyeWhfNkZrYmZzWVl0ZE1aMi1TWkdZNVAzM2FBRnRTUlBya0VXaV9QX19ra1ZEOGtlcW1SWER6ZXJzeWg4dldsbGlFUlo4TmZQcTE3dnlMZEo5QmJfOFN5UXVFYVF0bUc?oc=5",
       "published": "2025-12-17T08:00:00+00:00",
-      "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
-      }
-    },
-    {
-      "id": "dd2e38dfc3d7",
-      "title": "Yksi asia tehostaa Ozempicin tehoa merkittävästi – Tutkijat löysivät syyn - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOX1A4VHVFeXZ2R2lCR2dwc3dfVlJJSVNWRVgtanhkeFVpYXE4Y3FKS0hZUGhCRURRUGl6TVlXby1McXk2LWtfODlLa0NrQlpyTEFFSnJnZEpsUHJSbldiVm4xVTVySm5sT1B4dkcxZUJjSEdrQTBKeXBjck13clk3NUJ2TXQ?oc=5",
-      "published": "2026-04-26T07:00:00+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-27T22:01:40.203758+00:00",
+  "fetched_at": "2026-07-27T23:51:34.339788+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -94,10 +94,10 @@
       }
     },
     {
-      "id": "df65c4292d96",
-      "title": "Oletko kuullut Ozempic-jaloista? Tältä ne näyttävät - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbzlMbDFsR2FBOUhuZ0FDMEFYS1lXNzI3YzdiMlJCYzZwcEJqb1dSNndQaFlCOXNaYzJfNkJnYXNrRmlzbHpQWE5WaDlqck9URE9iU3llS1lhLUx6ci1UNFAta2taaWU2WnJyMHZ0MmtpT0oycDJRRVJpVTQxMEtpLWUzNnU?oc=5",
-      "published": "2026-07-26T04:02:08+00:00",
+      "id": "e0462d1766b0",
+      "title": "Hämmennys lääkekorvauksista leviää – Nyt on käännettä ilmassa - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1iTXhFeEpqallCdjBTNVNLZ0pfZk1HNjV3MjJyV3JYalpfdU4tTmRWOVN3SVlFZW1HOEViTjl1MWRnYnd4MFFRUkkxMTQ0NV9mQXY2aUU3LXhhUWsyT09pcjBEZGo3ZHl0S01hTVNZbjJBcmdxRncxQ3I5eG5SZHM?oc=5",
+      "published": "2026-07-19T07:00:00+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
@@ -114,16 +114,6 @@
       }
     },
     {
-      "id": "e0462d1766b0",
-      "title": "Hämmennys lääkekorvauksista leviää – Nyt on käännettä ilmassa - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1iTXhFeEpqallCdjBTNVNLZ0pfZk1HNjV3MjJyV3JYalpfdU4tTmRWOVN3SVlFZW1HOEViTjl1MWRnYnd4MFFRUkkxMTQ0NV9mQXY2aUU3LXhhUWsyT09pcjBEZGo3ZHl0S01hTVNZbjJBcmdxRncxQ3I5eG5SZHM?oc=5",
-      "published": "2026-07-19T07:00:00+00:00",
-      "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
-      }
-    },
-    {
       "id": "a190bc4042a1",
       "title": "Tällainen on lääke, jota Trumpin väitetään saaneen - Iltalehti",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUjlLSUp3UHhfNWtlVFVLNW5ONTZxdjl6T3BDLXA0VGhleXh5ZXFtbXRiRFdKNjNybG1SZ01zQkZHX0Y0djhkd2Y4c0p5UFJkRHVrMVRqRkdqR1ZNSXJNQUlnTDJvRUoyNVgyejNlSjRvSDZra1l1RXNSZzJ3bTRyZV9kMVg?oc=5",
@@ -131,6 +121,16 @@
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
+      }
+    },
+    {
+      "id": "4a2927f8ebf5",
+      "title": "Tämä yleinen lääke voi hälyttää huumetestissä - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBuWlVhUkQ1MWdoc1ozenpQUjJSamx3UHBxVmNiMmRsSnF1RW85X1drWGVYZTFJWHNfTWhLbVZtYUJLU004QmR4b0d3RWc1LXNiNW9KMFQ2TFFmWmts?oc=5",
+      "published": "2026-05-20T07:00:00+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
       }
     },
     {
@@ -204,16 +204,6 @@
       }
     },
     {
-      "id": "4a2927f8ebf5",
-      "title": "Tämä yleinen lääke voi hälyttää huumetestissä - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBuWlVhUkQ1MWdoc1ozenpQUjJSamx3UHBxVmNiMmRsSnF1RW85X1drWGVYZTFJWHNfTWhLbVZtYUJLU004QmR4b0d3RWc1LXNiNW9KMFQ2TFFmWmts?oc=5",
-      "published": "2026-05-20T07:00:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
-      }
-    },
-    {
       "id": "b9a663abb90b",
       "title": "Terveys | Vaihdevuosiin tuli uusi ei-hormonaalinen lääke - Satakunnan Kansa",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE13LURNNkhaakJhNzUxWm9vTzNOQ1N0V1pKQmZmUk1hel9WSF9lSkZqWWxJSFR1OGJ5ZUJ1eWxhX2JTVnd5eHJwUGpORUIwTnBGc3ZiTEtVZ1FkdG9TQ3BQM3kyeF8yWkVVSHh4TzNR?oc=5",
@@ -241,16 +231,6 @@
       "source": {
         "name": "Yle",
         "url": "https://yle.fi"
-      }
-    },
-    {
-      "id": "df1df63d495a",
-      "title": "Yksi lääke voi parantaa aknen kokonaan – Harva tietää sen haittavaikutuksesta - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5SZWtuUEpMamRZLXNDLXJtZVJ5YllTb1ZDNVhGSG15cnNWQmktQnJ1NW4wenB5dy0xV2dwREZRRW9ycVd2TlZmTjFZVGc3OEVhLTRwUmhLMktwaEJ2TlN4OUZLdkhaWlV6cjFiSXdac1dpLWQxVW8w?oc=5",
-      "published": "2026-06-28T07:00:00+00:00",
-      "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
       }
     },
     {
@@ -484,16 +464,6 @@
       }
     },
     {
-      "id": "db26b1adf129",
-      "title": "Laihdutuslääke saattaa auttaa masennukseen ja ahdistukseenkin, kertoo tutkimus – kysyimme, muuttuuko hoito - Yle",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5GV082ZTF6bU84UlMxaTJVcWtPOWRxV2h5REJaTWV5eFRFNEpCSWtPLW9EYVlXdTZDQ3dlTlF0cmJDQQ?oc=5",
-      "published": "2026-03-20T07:00:00+00:00",
-      "source": {
-        "name": "Yle",
-        "url": "https://yle.fi"
-      }
-    },
-    {
       "id": "4d83cae56e91",
       "title": "Tuttuja lääkkeitä tulossa kauppoihin – Katso lista - Iltalehti",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdDdVX3g1T2VlVi1fQUdNOHJnT184Z3NSQUFlQ1VyeWhfNkZrYmZzWVl0ZE1aMi1TWkdZNVAzM2FBRnRTUlBya0VXaV9QX19ra1ZEOGtlcW1SWER6ZXJzeWg4dldsbGlFUlo4TmZQcTE3dnlMZEo5QmJfOFN5UXVFYVF0bUc?oc=5",
@@ -501,6 +471,16 @@
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
+      }
+    },
+    {
+      "id": "db26b1adf129",
+      "title": "Laihdutuslääke saattaa auttaa masennukseen ja ahdistukseenkin, kertoo tutkimus – kysyimme, muuttuuko hoito - Yle",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5GV082ZTF6bU84UlMxaTJVcWtPOWRxV2h5REJaTWV5eFRFNEpCSWtPLW9EYVlXdTZDQ3dlTlF0cmJDQQ?oc=5",
+      "published": "2026-03-20T07:00:00+00:00",
+      "source": {
+        "name": "Yle",
+        "url": "https://yle.fi"
       }
     },
     {
@@ -731,16 +711,6 @@
       "source": {
         "name": "Apu360",
         "url": "https://www.apu.fi"
-      }
-    },
-    {
-      "id": "7cecd0cf699e",
-      "title": "HS mielipide: Lääkäri varoittaa ADHD-lääkityksen haitoista - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSjl0RkJxckg1bVJwWUJCWDNfeFluU3lQYmlNclNfeVM4cU5iZzFVZzVCdkFHLW1WS3RFUE5GTUtmZEY2Y0c0cHVCSWR1V0VJZHhBZmZfMWdvbUZDMFcyM2dFVy1rOGRtM2RLQUxoOUFybkFIYVhZeGNrUFFoVjJrMzRYeFc?oc=5",
-      "published": "2025-10-12T07:00:00+00:00",
-      "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
       }
     },
     {
@@ -1001,6 +971,36 @@
       "source": {
         "name": "Yle",
         "url": "https://yle.fi"
+      }
+    },
+    {
+      "id": "88ee97614e05",
+      "title": "Uusi lupaava Alzheimer-lääke tulossa markkinoille – riskinä suuret haitat - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdHBkNlBnTWRCSk5McFR4cXhZTkRiVnNZRExVeW0wcXgwYVB3Q0VzNTBveHhYbnB5VDJMcmdjY2pxOVRyUG1CTlBKbFhVMGJHMERlbzY0WElTSVlzOVZDbTJJbzhDemI4MG5HVW1HQ2xDNEdXQ2RVYXUwTEdBdnpGVVVwTTA?oc=5",
+      "published": "2022-11-30T08:00:00+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
+      }
+    },
+    {
+      "id": "6df66becdcfa",
+      "title": "Auttaako lääke, jos sen tehoon ei usko? Asiantuntija vastaa tyhmään kysymykseen - Kotiliesi.fi",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTFg3S3NaMHhkVUZaWUoycS1OdndiRHQtakc1QjNJbzNlWHc5VGluTUZEU3VlYUFzWGxCNVpZQkFOZWVpa1NNTXBuZ2dpZGhTS0FGWUpEU1JDYUxoWmp3dFVWYVFLMVlqaGlLVVdvZkVENVdBczhvODUyV0x4NkUzTG9BS2lnYk52VVI0WUpKaGJpM1FYQk1tTmZpTnI2RVBf?oc=5",
+      "published": "2021-02-08T08:00:00+00:00",
+      "source": {
+        "name": "Kotiliesi.fi",
+        "url": "https://kotiliesi.fi"
+      }
+    },
+    {
+      "id": "1de8e42e9b5d",
+      "title": "Halpa ja tuttu lääke voi estää syövän leviämisen – Älä silti ryntää apteekkiin - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5XdEd4RDRacUZEQWxjV2NNNWdIOXN3ZzltRnFCczRoTmczZTRUTnV0QTFiUG9EX3JiaFJPeUNsdVNXalBZNDR6OUVOWi1sVzFTclFoTTNJbGpCNEtHS1R0MVN4WWtpSHZDWVhRcDF6SHFqeFNEVmt4Rg?oc=5",
+      "published": "2025-03-06T08:00:00+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
       }
     }
   ]

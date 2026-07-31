@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-31T20:49:15.778677+00:00",
+  "fetched_at": "2026-07-31T21:54:01.545581+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -104,10 +104,10 @@
       }
     },
     {
-      "id": "e8155a03fb19",
-      "title": "AL: Salla Paajanen ei maksa euron euroa yksityislääkäristä - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNE9PRF83VGRtRXNxeEdtNHU0LVZEckdjOGVmUWVWM1dnakVQX0o0UUpKdDEtUzZSc0wxYmFVZkJDd2I3UWk2Z1RoQTh5VmtqWXAtaGJ2Q3FPd3otakJqVUYtNDdvQ3RvSWo2dHNZa09xM0lNVjBEbEFUSjJERHczaldhTGM?oc=5",
-      "published": "2026-07-28T05:48:38+00:00",
+      "id": "60d78281fc06",
+      "title": "Monen käyttämä lääke saattaa suojata yleiseltä syövältä - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5vWXQtX3Zodm1VZmtaT1cyM1AtRmZlRndqdnRnY1VwX1ZBTGVTX0ppbWZTQ19IN3EwTjZlbjR2RXE3bXZsOFZkdjZ6V3VjV0FPSUdoS2hoZjlaV3owYnVvdzhHb2NqZVRpX3RYYk4xTXR2N2xGV2RlQg?oc=5",
+      "published": "2026-06-10T07:00:00+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
@@ -124,10 +124,10 @@
       }
     },
     {
-      "id": "60d78281fc06",
-      "title": "Monen käyttämä lääke saattaa suojata yleiseltä syövältä - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5vWXQtX3Zodm1VZmtaT1cyM1AtRmZlRndqdnRnY1VwX1ZBTGVTX0ppbWZTQ19IN3EwTjZlbjR2RXE3bXZsOFZkdjZ6V3VjV0FPSUdoS2hoZjlaV3owYnVvdzhHb2NqZVRpX3RYYk4xTXR2N2xGV2RlQg?oc=5",
-      "published": "2026-06-10T07:00:00+00:00",
+      "id": "e8155a03fb19",
+      "title": "AL: Salla Paajanen ei maksa euron euroa yksityislääkäristä - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNE9PRF83VGRtRXNxeEdtNHU0LVZEckdjOGVmUWVWM1dnakVQX0o0UUpKdDEtUzZSc0wxYmFVZkJDd2I3UWk2Z1RoQTh5VmtqWXAtaGJ2Q3FPd3otakJqVUYtNDdvQ3RvSWo2dHNZa09xM0lNVjBEbEFUSjJERHczaldhTGM?oc=5",
+      "published": "2026-07-28T05:48:38+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"

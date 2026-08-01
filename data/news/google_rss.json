@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-01T18:47:13.123233+00:00",
+  "fetched_at": "2026-08-01T20:02:22.375343+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -94,10 +94,10 @@
       }
     },
     {
-      "id": "a190bc4042a1",
-      "title": "Tällainen on lääke, jota Trumpin väitetään saaneen - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUjlLSUp3UHhfNWtlVFVLNW5ONTZxdjl6T3BDLXA0VGhleXh5ZXFtbXRiRFdKNjNybG1SZ01zQkZHX0Y0djhkd2Y4c0p5UFJkRHVrMVRqRkdqR1ZNSXJNQUlnTDJvRUoyNVgyejNlSjRvSDZra1l1RXNSZzJ3bTRyZV9kMVg?oc=5",
-      "published": "2026-06-26T07:00:00+00:00",
+      "id": "60d78281fc06",
+      "title": "Monen käyttämä lääke saattaa suojata yleiseltä syövältä - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5vWXQtX3Zodm1VZmtaT1cyM1AtRmZlRndqdnRnY1VwX1ZBTGVTX0ppbWZTQ19IN3EwTjZlbjR2RXE3bXZsOFZkdjZ6V3VjV0FPSUdoS2hoZjlaV3owYnVvdzhHb2NqZVRpX3RYYk4xTXR2N2xGV2RlQg?oc=5",
+      "published": "2026-06-10T07:00:00+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
@@ -114,10 +114,10 @@
       }
     },
     {
-      "id": "60d78281fc06",
-      "title": "Monen käyttämä lääke saattaa suojata yleiseltä syövältä - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5vWXQtX3Zodm1VZmtaT1cyM1AtRmZlRndqdnRnY1VwX1ZBTGVTX0ppbWZTQ19IN3EwTjZlbjR2RXE3bXZsOFZkdjZ6V3VjV0FPSUdoS2hoZjlaV3owYnVvdzhHb2NqZVRpX3RYYk4xTXR2N2xGV2RlQg?oc=5",
-      "published": "2026-06-10T07:00:00+00:00",
+      "id": "45fd296f05bb",
+      "title": "Tämä lääke voi tehdä hampaille pahaa – ”Odota puoli tuntia” - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaFpXa01RNnlKNEo2ZmdCMjhOTWRpTk9mRm1QWG5qZFNNbW4zOXFTTFJmdHdaYjNENi1xN3hmSDc1bXp3S1h6Ujc0N2szRDR4OS1TaEtBRllnNDNsbGlHeEtvMmItSDNmeHRMMjF0YnF0MU1EekNCNVNuRTMtOE94X18xRHg?oc=5",
+      "published": "2026-05-22T07:00:00+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
@@ -134,10 +134,10 @@
       }
     },
     {
-      "id": "45fd296f05bb",
-      "title": "Tämä lääke voi tehdä hampaille pahaa – ”Odota puoli tuntia” - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaFpXa01RNnlKNEo2ZmdCMjhOTWRpTk9mRm1QWG5qZFNNbW4zOXFTTFJmdHdaYjNENi1xN3hmSDc1bXp3S1h6Ujc0N2szRDR4OS1TaEtBRllnNDNsbGlHeEtvMmItSDNmeHRMMjF0YnF0MU1EekNCNVNuRTMtOE94X18xRHg?oc=5",
-      "published": "2026-05-22T07:00:00+00:00",
+      "id": "a190bc4042a1",
+      "title": "Tällainen on lääke, jota Trumpin väitetään saaneen - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUjlLSUp3UHhfNWtlVFVLNW5ONTZxdjl6T3BDLXA0VGhleXh5ZXFtbXRiRFdKNjNybG1SZ01zQkZHX0Y0djhkd2Y4c0p5UFJkRHVrMVRqRkdqR1ZNSXJNQUlnTDJvRUoyNVgyejNlSjRvSDZra1l1RXNSZzJ3bTRyZV9kMVg?oc=5",
+      "published": "2026-06-26T07:00:00+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
@@ -268,16 +268,6 @@
       "title": "Yllättävä sivuvaikutus – Tämä arkinen lääke suojaa muistisairaudelta - Iltalehti",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQTh5QkR2b1JuNF9Nay1Tak5BZjRKUVlPZzhkRGJsVDdOTlotRHhJczM5NUx4WFlTRC1BRkJWUEhDVS1TT1VaQkdiY1N0cFFwMmlWTDVjRkI3NTVCcHBKQVZYLXB3c25fdWVmZnFCaS1PVm5PREN4MzlKVEhKMkRVb3RfWjQ?oc=5",
       "published": "2026-03-18T07:00:00+00:00",
-      "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
-      }
-    },
-    {
-      "id": "29be63f14a1c",
-      "title": "Trumpin lääkeannos hätkähdyttää – Asiantuntijalta täystyrmäys - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOS1Z1XzJrSF9uSC1WLUlCTHBJS2FnVXE1NzdYNXRHdXRqekhmVndVTkk0aDNfTmYzZXVFaDBKMmxSZm9QcTFSYWRPSlJ0Nll1UndLSGIwRHZNY1V2bEVla0VHSTRmZjBCdzlsN3dDRkVQRVJhdUdqalkydUJTMlVDZFZxQUo?oc=5",
-      "published": "2026-01-05T08:00:00+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
@@ -441,16 +431,6 @@
       "source": {
         "name": "Yle",
         "url": "https://yle.fi"
-      }
-    },
-    {
-      "id": "dd2e38dfc3d7",
-      "title": "Yksi asia tehostaa Ozempicin tehoa merkittävästi – Tutkijat löysivät syyn - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOX1A4VHVFeXZ2R2lCR2dwc3dfVlJJSVNWRVgtanhkeFVpYXE4Y3FKS0hZUGhCRURRUGl6TVlXby1McXk2LWtfODlLa0NrQlpyTEFFSnJnZEpsUHJSbldiVm4xVTVySm5sT1B4dkcxZUJjSEdrQTBKeXBjck13clk3NUJ2TXQ?oc=5",
-      "published": "2026-04-26T07:00:00+00:00",
-      "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
       }
     },
     {
@@ -644,6 +624,16 @@
       }
     },
     {
+      "id": "2e15e9e19f5d",
+      "title": "Tutkimus: Tuttu lääke saattaa suojata koronan tarttumiselta - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5MUDFMWVZYMWt0M1JqZHpCTFZPenk4RmNUYjRCWk10dWtHRktoN2lMYXFkTm1VNkkwRTNqSEd3M1FRRWlXRHJXZVd5eE9UR29Zb2xVZjNsa2xIUUcz?oc=5",
+      "published": "2025-11-10T08:00:00+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
+      }
+    },
+    {
       "id": "f3f767229de1",
       "title": "Kortisonin haittavaikutukset herättävät huolta – Asiantuntija kertoo, miten sitä käytetään turvallisesti - Apu360",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQTl1djhEeHNYQVNiTVRvUVNLazRMMmpoby1MNlNSajliYW5YS1RiSEQ0MmpMU01uZFBuLU4wV2hQdmw5VU5ESUVZYV8tTk5QNWdFaFZiel8wT0c4eDB2NkpkUmRoQWg5YWplQ2xCWnNNM08zU2JXMkJ4UldGdmxDZHJrVnlUNDNEVkdjMGhhd05GUlBV?oc=5",
@@ -658,16 +648,6 @@
       "title": "Uusi havainto sepelvaltimotaudin lääkehoidosta - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBTRzRQdWdrR092bzVaV01tc1NkUEttX3l4Unk5eUs1Yi1wVG81ek01NFE2ZEZaclBLd0FIQVltWUtRNVJPZElVSlpyVGtBRWhKVkZqb21GeU5aaDla?oc=5",
       "published": "2025-10-03T07:00:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
-      }
-    },
-    {
-      "id": "2e15e9e19f5d",
-      "title": "Tutkimus: Tuttu lääke saattaa suojata koronan tarttumiselta - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5MUDFMWVZYMWt0M1JqZHpCTFZPenk4RmNUYjRCWk10dWtHRktoN2lMYXFkTm1VNkkwRTNqSEd3M1FRRWlXRHJXZVd5eE9UR29Zb2xVZjNsa2xIUUcz?oc=5",
-      "published": "2025-11-10T08:00:00+00:00",
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
@@ -1001,6 +981,26 @@
       "source": {
         "name": "Yle",
         "url": "https://yle.fi"
+      }
+    },
+    {
+      "id": "db24aa2dbe1c",
+      "title": "Suomessa keksitty lääke valloittaa maailmaa – Yhtiön kurssi nousussa - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5fd0xBSHZ5NlRlX3huZUdIbUswTm5NclZkOEpQa1BHWnEyTHh4RmV1NUZLSGlmOVNtMFNXN3duNklkNW8wVnVyaWVGakRMYUhoWUdHaU5OVlhqTS0yUm95cUlGU3VUYVlmX015U21velE0T1l0M0JYWWVB?oc=5",
+      "published": "2025-03-02T08:00:00+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
+      }
+    },
+    {
+      "id": "2ce024daa6c5",
+      "title": "Arkinen lääke voi ehkäistä diabetesta - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQVVPUEQ1d2V4MjhRVU1VaEdUTS1iZmgxVFo1Xzl4aFZ1ZlZTMzVKcFVXTGNyMFZxWWZmdmFuYTkzRXhFTEZoMXA0dHI4T2dkcVZ2SlpONE5zVnE0MlRDWnVjcmdCQU1EYkNNMzhIZnBMOElEQm9hOWdRQ0gxUDVXTUdGWlU?oc=5",
+      "published": "2024-03-06T08:00:00+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
       }
     }
   ]

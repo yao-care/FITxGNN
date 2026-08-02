@@ -1,18 +1,8 @@
 {
-  "fetched_at": "2026-08-02T17:48:45.349966+00:00",
+  "fetched_at": "2026-08-02T18:48:09.848836+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
-    {
-      "id": "5a0e939d6a40",
-      "title": "Lääkärit neuvovat: Näin särkylääke auttaa parhaiten kuukautiskipuihin - stara.fi",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQamZkV2dhRzVUY1FvU0c2ZS1yTjQ3dXBibEtwMlVHcFIxdW9kLWJxVlJQamdyendOUDl4TEx3Z1RyX3ZMcHR4OVU2c3dMaVhyYmVUYmFkRnFPVGg5T3JneEZpNEhQZTcyd01xSnVSMDdVTm5pNmx3bGZpSm05VlhkaDloeVdPQnQ0c2R0OFQ2Ykk4RlZINkVjVEc3aEI4a1JfTDNR?oc=5",
-      "published": "2026-08-02T15:40:33+00:00",
-      "source": {
-        "name": "stara.fi",
-        "url": "https://www.stara.fi"
-      }
-    },
     {
       "id": "d80735fde35f",
       "title": "Tekoäly kirjaa lääkärikäynnin, tunnistaa luunmurtumia – ”Lääkkeet menevät järjestään pieleen” - Suomenkuvalehti.fi",
@@ -21,6 +11,16 @@
       "source": {
         "name": "Suomenkuvalehti.fi",
         "url": "https://suomenkuvalehti.fi"
+      }
+    },
+    {
+      "id": "4489e991885c",
+      "title": "Lääkärit neuvovat: Näin särkylääke auttaa parhaiten kuukautiskipuihin - Stara.fi",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQamZkV2dhRzVUY1FvU0c2ZS1yTjQ3dXBibEtwMlVHcFIxdW9kLWJxVlJQamdyendOUDl4TEx3Z1RyX3ZMcHR4OVU2c3dMaVhyYmVUYmFkRnFPVGg5T3JneEZpNEhQZTcyd01xSnVSMDdVTm5pNmx3bGZpSm05VlhkaDloeVdPQnQ0c2R0OFQ2Ykk4RlZINkVjVEc3aEI4a1JfTDNR?oc=5",
+      "published": "2026-08-02T15:40:33+00:00",
+      "source": {
+        "name": "Stara.fi",
+        "url": "https://www.stara.fi"
       }
     },
     {
@@ -44,12 +44,12 @@
       }
     },
     {
-      "id": "903af3fe89d3",
-      "title": "Taina Siltanen sai uudesta syöpälääkkeestä lisävuosia – Kelan kiristynyt linjaus tuntuu hänestä kohtuuttomalta - kaleva.fi",
+      "id": "711930c1c8f9",
+      "title": "Taina Siltanen sai uudesta syöpälääkkeestä lisävuosia – Kelan kiristynyt linjaus tuntuu hänestä kohtuuttomalta - Kaleva",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQnZxOVJyUE10WnNZd2RsZmEyTjBlZG54dGlWQkRSWTkyV1lDcVVQTm41X0NKTUJ6NUZDOGsyZlNkWlZ6WTNNU1daeEZacHZsd21NTFVaWVVheUpJN0dKM1l6a2VvTEUzSC14TzJhaXhucFRzMmRLc05hc3ljQUg5LVg1eVVxYnIz?oc=5",
       "published": "2026-07-22T07:00:00+00:00",
       "source": {
-        "name": "kaleva.fi",
+        "name": "Kaleva",
         "url": "https://www.kaleva.fi"
       }
     },
@@ -84,16 +84,6 @@
       }
     },
     {
-      "id": "d465e683ea4c",
-      "title": "Automaatio tehostaa lääkkeiden potilaskohtaista jakoa ja parantaa potilasturvallisuutta - University of Helsinki",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORzMySU01ZTFZSVd4VVBwTThpYXVMSGJJclR2QnpLSGItOVhLTUFldWJKVWR0Z09kcjBzMHVkRXRxTVViY1JjeDlwRmlnbzBZWGk5T3lReEdWekFQbEtCNFA0NGljODAzUUtEUjRlQjJ4VkN0QkN4bFZFUWlqSDQ0dWY1T3hDeXBZdzFOa08yc3ZqbVJnUzItSkRXQ29zNzFnc0EybFNfdkZ6U0dWTElQYnJQQnpnTmM3YzBoM2w1SFJXUnRsQzV3ZVl3?oc=5",
-      "published": "2026-03-11T07:00:00+00:00",
-      "source": {
-        "name": "University of Helsinki",
-        "url": "https://www.helsinki.fi"
-      }
-    },
-    {
       "id": "bbe464fd5f15",
       "title": "Tämä lääke on apteekeista nyt täysin loppu - Iltalehti",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTTB4NTNBLVRFMmVob29zUXRUOGZEZ3BfRDNkUXVzcFVjNE90UXM2Y0RyUW5EdTVxNzNYTEVHTzF1dnZiNFl2Q25pR3NMS0J4Q3BuVmQ0RXIzYXJUWmFwSk5pSG5hcWNsa0RFdGNCYVFxcjRFdU9oQzBLYWdWQ2hwVXJEX04?oc=5",
@@ -111,6 +101,16 @@
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
+      }
+    },
+    {
+      "id": "3acb8e4e6fe4",
+      "title": "Ozempicille löytyi haastaja – Voi mullistaa laihdutuksen - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOaks0VDJ3RkwxRDZieVliRm84UEQwNEFVZHcyWXdKZ2MxQmdzX3JXREkxdGpYLVdQa0JiS2dKOVVYQ3A4c2hLQTJwMl8zLVkzVHhCZDlQVDJXTV9uS2VuZVFDd2JwTUlrelNBVGlaTlZuWGY2eEFwdzU0ejNEbW9XNTJXWXk?oc=5",
+      "published": "2026-07-30T14:34:40+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
       }
     },
     {
@@ -201,6 +201,16 @@
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
+      }
+    },
+    {
+      "id": "d465e683ea4c",
+      "title": "Automaatio tehostaa lääkkeiden potilaskohtaista jakoa ja parantaa potilasturvallisuutta - University of Helsinki",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORzMySU01ZTFZSVd4VVBwTThpYXVMSGJJclR2QnpLSGItOVhLTUFldWJKVWR0Z09kcjBzMHVkRXRxTVViY1JjeDlwRmlnbzBZWGk5T3lReEdWekFQbEtCNFA0NGljODAzUUtEUjRlQjJ4VkN0QkN4bFZFUWlqSDQ0dWY1T3hDeXBZdzFOa08yc3ZqbVJnUzItSkRXQ29zNzFnc0EybFNfdkZ6U0dWTElQYnJQQnpnTmM3YzBoM2w1SFJXUnRsQzV3ZVl3?oc=5",
+      "published": "2026-03-11T07:00:00+00:00",
+      "source": {
+        "name": "University of Helsinki",
+        "url": "https://www.helsinki.fi"
       }
     },
     {
@@ -991,16 +1001,6 @@
       "source": {
         "name": "Yle",
         "url": "https://yle.fi"
-      }
-    },
-    {
-      "id": "2d917b220c4f",
-      "title": "Lihavuuslääkkeet korvaavat laiskasti toimivia hormoneja – Jos käytön aloittaa, pitääkö sitä jatkaa loppuelämä? - Apu360",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeHZ2NEdCeEUyT1JOVGNjY1dLN3B3a2VldmpId2dEam9ld3hhcEJrU04yMTdrclJrdWUwQW53dk5NaFNfMzFESVFRTVFsN0EwcTB4NWUwUFJwZGg1Sjl0ZUQyV1hWMGMxdzNCbmoybFdCTWpuTUtPTG5nQmtxempQb0wzSm5GVHM?oc=5",
-      "published": "2025-08-11T07:00:00+00:00",
-      "source": {
-        "name": "Apu360",
-        "url": "https://www.apu.fi"
       }
     }
   ]

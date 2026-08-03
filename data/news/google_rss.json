@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-02T23:46:23.058410+00:00",
+  "fetched_at": "2026-08-03T01:23:49.973597+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -184,20 +184,20 @@
       }
     },
     {
-      "id": "df65c4292d96",
-      "title": "Oletko kuullut Ozempic-jaloista? Tältä ne näyttävät - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbzlMbDFsR2FBOUhuZ0FDMEFYS1lXNzI3YzdiMlJCYzZwcEJqb1dSNndQaFlCOXNaYzJfNkJnYXNrRmlzbHpQWE5WaDlqck9URE9iU3llS1lhLUx6ci1UNFAta2taaWU2WnJyMHZ0MmtpT0oycDJRRVJpVTQxMEtpLWUzNnU?oc=5",
-      "published": "2026-07-26T04:01:37+00:00",
+      "id": "4d8ea14f2a15",
+      "title": "Uutta tietoa: Nämä lääkkeet hidastavat syöpäsolujen kasvua - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA1RlhscWhHWTRxdHc4Y292R1lGZDM0elBQYmJzdFJlQTRfa0ItRFM0R05jNUZTTjlGZXU4cnViZ2w1WGx0aUdkcFAxRGo5TVZlVVMwOWh2d3hWTVJ6Y0JscFBndE5lekM3YlVPdTFPZURRMG00Q3pMTQ?oc=5",
+      "published": "2026-05-28T07:00:00+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
       }
     },
     {
-      "id": "4d8ea14f2a15",
-      "title": "Uutta tietoa: Nämä lääkkeet hidastavat syöpäsolujen kasvua - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA1RlhscWhHWTRxdHc4Y292R1lGZDM0elBQYmJzdFJlQTRfa0ItRFM0R05jNUZTTjlGZXU4cnViZ2w1WGx0aUdkcFAxRGo5TVZlVVMwOWh2d3hWTVJ6Y0JscFBndE5lekM3YlVPdTFPZURRMG00Q3pMTQ?oc=5",
-      "published": "2026-05-28T07:00:00+00:00",
+      "id": "df65c4292d96",
+      "title": "Oletko kuullut Ozempic-jaloista? Tältä ne näyttävät - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbzlMbDFsR2FBOUhuZ0FDMEFYS1lXNzI3YzdiMlJCYzZwcEJqb1dSNndQaFlCOXNaYzJfNkJnYXNrRmlzbHpQWE5WaDlqck9URE9iU3llS1lhLUx6ci1UNFAta2taaWU2WnJyMHZ0MmtpT0oycDJRRVJpVTQxMEtpLWUzNnU?oc=5",
+      "published": "2026-07-26T04:01:37+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
@@ -934,12 +934,12 @@
       }
     },
     {
-      "id": "ab6cb1071079",
-      "title": "Terveys | Älylääke osaa kertoa, onko se otettu vai ei – tulevaisuuden lääkkeet saatetaan myös tulostaa potilaskohtaisesti - Helsingin Uutiset",
+      "id": "1a71a42e4098",
+      "title": "Terveys | Älylääke osaa kertoa, onko se otettu vai ei – tulevaisuuden lääkkeet saatetaan myös tulostaa potilaskohtaisesti - helsinginuutiset.fi",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE80XzlzblNVbFc3cUVqMGZpdERuTktKc1V5OWtrQzEwcTRWcWM3MmZZdnVmUkgzTzF0YThXWjJQN1pXZDhCN2s5OXhhVjJZdVdubkxIZlMyQzZ6UQ?oc=5",
       "published": "2021-06-16T07:00:00+00:00",
       "source": {
-        "name": "Helsingin Uutiset",
+        "name": "helsinginuutiset.fi",
         "url": "https://www.helsinginuutiset.fi"
       }
     },

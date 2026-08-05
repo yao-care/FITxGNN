@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-05T12:29:47.396750+00:00",
+  "fetched_at": "2026-08-05T15:04:51.325809+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -314,16 +314,6 @@
       }
     },
     {
-      "id": "e5ec92b5ae05",
-      "title": "Maksuttomat lääkärintarkastukset ja lääkkeiden jakelu kansalaisille. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBFWUo3alJlbzBiZHc4Q1lZVW11QUNDLXlFMF9vRS1IS1lNLXlmem9rNXBUSkhUdk8tRXhidVpIMlNaSllBTkk0Ukc1cmpkaUhHV2VfZ3pESmxrZ3Z1SUJuZFotZEpOdUdpYjVvZk1oLThHRkdmTGsw?oc=5",
-      "published": "2026-07-29T22:06:08+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
       "id": "9dfedf0e0e73",
       "title": "Häiriö koskee satoja lääkkeitä – Lääkepula voi koskea myös sinua - Iltalehti",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRFNIQ0RCUHhvV2p2eXpCVWtFSkhqU0N0aG9XZUR2ZXhxdnNmRTZoM0VZMFpLVDM5eGkzUDhPelZKalpPSFBlM2oxcXFuSnBJbTBTaFB0QkRBcXR2NHg0cEtGQkJ2b0pldld6eGJWbjh4c0l1UUE0THZ6VWpmT2xxYVVQRFk?oc=5",
@@ -351,6 +341,16 @@
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
+      }
+    },
+    {
+      "id": "e5ec92b5ae05",
+      "title": "Maksuttomat lääkärintarkastukset ja lääkkeiden jakelu kansalaisille. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBFWUo3alJlbzBiZHc4Q1lZVW11QUNDLXlFMF9vRS1IS1lNLXlmem9rNXBUSkhUdk8tRXhidVpIMlNaSllBTkk0Ukc1cmpkaUhHV2VfZ3pESmxrZ3Z1SUJuZFotZEpOdUdpYjVvZk1oLThHRkdmTGsw?oc=5",
+      "published": "2026-07-29T22:06:08+00:00",
+      "source": {
+        "name": "Vietnam.vn",
+        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -894,12 +894,12 @@
       }
     },
     {
-      "id": "13a0b4c9a561",
-      "title": "Huonoksi koettu terveys on yhteydessä monipäihdekäyttöön - Lääkärilehti",
+      "id": "7669f5edd70d",
+      "title": "Huonoksi koettu terveys on yhteydessä monipäihdekäyttöön - laakarilehti.fi",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNejhEN0xGUTJlenVzd0o1VVdxWGoxZFd1LU1vanBWYVJWbUFtN3doUTlSNHdLZVRQY2lkWjFKMEtJUWtVOFpfUEd3VXVXNkI4VWVCTlpLazI1UVE0a195ZW81NUpDZzFxZnRZdndTUnRmQjRoWWxuOVVHLUtiR285VkRySzZsWjZtQmUyVVZwWTN1Zmw0MV9qajdtYUViRVUzRFFBdk9DSjlKTjg3NWFWQ1V0d3liRDBhTWpza1ladUtNUnEwSWNkYWJEeGpNNkhhTG94bQ?oc=5",
       "published": "2023-08-10T07:00:00+00:00",
       "source": {
-        "name": "Lääkärilehti",
+        "name": "laakarilehti.fi",
         "url": "https://www.laakarilehti.fi"
       }
     },

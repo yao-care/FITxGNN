@@ -1,18 +1,8 @@
 {
-  "fetched_at": "2026-08-07T04:19:20.083552+00:00",
+  "fetched_at": "2026-08-07T06:02:15.092294+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
-    {
-      "id": "0d28295cbdbc",
-      "title": "IS: Varusmiehelle määrättiin närästyslääkettä – Saikin Cipralexia - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5HcEtXbEVTZGVvZkd5MFBvZmlNcE5ISGdQMVoyQXFUeTNpMUMxZmMwVC00ZUE4SzZ2d1FSRmpmRnZmbDVHd19OLVpEMUxoRjJ5YTdRSDI5bW81M3pqTmNPRVhTQjRqd2lrN2hYb3dEYlFrUWpER3h3bE5qQQ?oc=5",
-      "published": "2026-08-06T19:02:39+00:00",
-      "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
-      }
-    },
     {
       "id": "3c295589b58e",
       "title": "Yllätystieto: Tunnettu lääke voi vaikuttaa syövän leviämiseen - Iltalehti",
@@ -84,6 +74,16 @@
       }
     },
     {
+      "id": "a190bc4042a1",
+      "title": "Tällainen on lääke, jota Trumpin väitetään saaneen - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUjlLSUp3UHhfNWtlVFVLNW5ONTZxdjl6T3BDLXA0VGhleXh5ZXFtbXRiRFdKNjNybG1SZ01zQkZHX0Y0djhkd2Y4c0p5UFJkRHVrMVRqRkdqR1ZNSXJNQUlnTDJvRUoyNVgyejNlSjRvSDZra1l1RXNSZzJ3bTRyZV9kMVg?oc=5",
+      "published": "2026-06-26T07:00:00+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
+      }
+    },
+    {
       "id": "4a2927f8ebf5",
       "title": "Tämä yleinen lääke voi hälyttää huumetestissä - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBuWlVhUkQ1MWdoc1ozenpQUjJSamx3UHBxVmNiMmRsSnF1RW85X1drWGVYZTFJWHNfTWhLbVZtYUJLU004QmR4b0d3RWc1LXNiNW9KMFQ2TFFmWmts?oc=5",
@@ -94,10 +94,10 @@
       }
     },
     {
-      "id": "a190bc4042a1",
-      "title": "Tällainen on lääke, jota Trumpin väitetään saaneen - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUjlLSUp3UHhfNWtlVFVLNW5ONTZxdjl6T3BDLXA0VGhleXh5ZXFtbXRiRFdKNjNybG1SZ01zQkZHX0Y0djhkd2Y4c0p5UFJkRHVrMVRqRkdqR1ZNSXJNQUlnTDJvRUoyNVgyejNlSjRvSDZra1l1RXNSZzJ3bTRyZV9kMVg?oc=5",
-      "published": "2026-06-26T07:00:00+00:00",
+      "id": "03ec289c9c08",
+      "title": "Ozempic vaikuttaa miehen kuntoon järisyttävällä tavalla – ”Voi olla, että tulevaisuudessa paras hoito” - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNN0xoX0NXMWVTTlllRXlJa3I3ejQ3X1VZdll2bmd3eGJ5NjRMT2xTNDNkYkI3R05SODQybHJhRkVvQ2dfY2lJMEdUOTVGN25zeXBLRmgxZ1lVai01dWt1cDBydWx2WkV0b19JcjJjeEhrMko1OXRFYm1XNEEtUHBsLWdPbXA?oc=5",
+      "published": "2026-07-27T07:00:00+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
@@ -364,6 +364,16 @@
       }
     },
     {
+      "id": "f760891e509e",
+      "title": "Voiko ADHD-lääke aiheuttaa muistin heikkenemistä? – Pippa Laukka kertoo yllättävän asian - Apu360",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNc2laem9xaWl3eXk0R25rOFV4MjhUdHVTLXRudXI2TTBlNUkxWVZVNkx4Q05ZZXcwTnE0WXc0Sm5FdWIxZFg5LW9rRlRobFVJRUlBUkpWT1VrZEZHOXdWMnVXZXpTWThsdWpIdVNEYjhDdkQzSWQySlV1ZmhrMWlvOF9BZk9mSVBTYWZ1N3JrbWdaelJxc0E?oc=5",
+      "published": "2026-06-29T07:00:00+00:00",
+      "source": {
+        "name": "Apu360",
+        "url": "https://www.apu.fi"
+      }
+    },
+    {
       "id": "d33d7a4bc3d7",
       "title": "Läpimurto lääketieteessä: Alzheimeriin löytynyt lupaava lääke - Stara.fi",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOU1hNdXd1MEJHcEJqTGd2TU5mZXRxeENZZkFQaktneGJOeWRoNmlubkRTdjFUdTh6ZFI0UG15aFpwa0xoSldmNDhrSW56VWl2d0NNbndkT0EwcHhSMXk3V2g3OTV5cThtYWtyU0hDN0doX0FVam9aT19OYVBoMWxOVzBEYmlaRjRZMWF3Sl9PRy1SNzVqcWxsWg?oc=5",
@@ -374,22 +384,12 @@
       }
     },
     {
-      "id": "083209826f1a",
-      "title": "Voiko ADHD-lääke aiheuttaa muistin heikkenemistä? – Pippa Laukka kertoo yllättävän asian - apu.fi",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNc2laem9xaWl3eXk0R25rOFV4MjhUdHVTLXRudXI2TTBlNUkxWVZVNkx4Q05ZZXcwTnE0WXc0Sm5FdWIxZFg5LW9rRlRobFVJRUlBUkpWT1VrZEZHOXdWMnVXZXpTWThsdWpIdVNEYjhDdkQzSWQySlV1ZmhrMWlvOF9BZk9mSVBTYWZ1N3JrbWdaelJxc0E?oc=5",
-      "published": "2026-06-29T07:00:00+00:00",
-      "source": {
-        "name": "apu.fi",
-        "url": "https://www.apu.fi"
-      }
-    },
-    {
-      "id": "d7e6b638923f",
-      "title": "Maksuttomat lääkärintarkastukset ja lääkkeiden jakelu kansalaisille. - vietnam.vn",
+      "id": "e5ec92b5ae05",
+      "title": "Maksuttomat lääkärintarkastukset ja lääkkeiden jakelu kansalaisille. - Vietnam.vn",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBFWUo3alJlbzBiZHc4Q1lZVW11QUNDLXlFMF9vRS1IS1lNLXlmem9rNXBUSkhUdk8tRXhidVpIMlNaSllBTkk0Ukc1cmpkaUhHV2VfZ3pESmxrZ3Z1SUJuZFotZEpOdUdpYjVvZk1oLThHRkdmTGsw?oc=5",
       "published": "2026-07-29T22:06:08+00:00",
       "source": {
-        "name": "vietnam.vn",
+        "name": "Vietnam.vn",
         "url": "https://www.vietnam.vn"
       }
     },
@@ -474,12 +474,12 @@
       }
     },
     {
-      "id": "25af0e71791f",
-      "title": "Tutkimus: lihavuusleikkaus laihduttaa tehokkaammin ja edullisemmin kuin lääkkeet | Apu Terveys - apu.fi",
+      "id": "3f3062988d60",
+      "title": "Tutkimus: lihavuusleikkaus laihduttaa tehokkaammin ja edullisemmin kuin lääkkeet | Apu Terveys - Apu360",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUHc2M25TZHY5cm0td3BiS0VWTUpIY1VCdFNvREdtM1pzcGJKeTJGeUdIZ0kzSVkxcmh4RkVEMnY5ZkpxX0RHQmV5dnhMV1F6cnBXVEdEWTFqbkpseS1kOEJkY1VjUGVmVXlwUWlsTmYzNlZsRFJ1ei00T1VFZUYtWUVtLXVXY0gtR2pYVDBNWTNqTVRGNjBCVzFkVkpUd2NpVlE?oc=5",
       "published": "2026-02-23T08:00:00+00:00",
       "source": {
-        "name": "apu.fi",
+        "name": "Apu360",
         "url": "https://www.apu.fi"
       }
     },
@@ -544,12 +544,12 @@
       }
     },
     {
-      "id": "a9a5c9d8b7b0",
-      "title": "Mielialalääke ja lumevaikutus: Voiko masennuslääke auttaa jo viikossa? Pippa Laukka vastaa - apu.fi",
+      "id": "768326ef7d87",
+      "title": "Mielialalääke ja lumevaikutus: Voiko masennuslääke auttaa jo viikossa? Pippa Laukka vastaa - Apu360",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUC0wQ0hmd1RTQ3R3bnZhSDRvb2JKSWVLMjMtbU1yM2hxMEVMNEduVHR1TkZqRklFMTZiOFZiTWlBRTBWanhUZ1ZSNGRTLWRMbmdVNVJRczZLeE1fS2lLRTRkQno2ZHRXdWxIb1lUUGFBMFRDMjUzcEc0ejhTVTIwWlltakdudk1zekhmZEpjN2g?oc=5",
       "published": "2026-03-12T07:00:00+00:00",
       "source": {
-        "name": "apu.fi",
+        "name": "Apu360",
         "url": "https://www.apu.fi"
       }
     },
@@ -574,12 +574,12 @@
       }
     },
     {
-      "id": "c18737062c1e",
-      "title": "Kortisonin haittavaikutukset herättävät huolta – Asiantuntija kertoo, miten sitä käytetään turvallisesti - apu.fi",
+      "id": "f3f767229de1",
+      "title": "Kortisonin haittavaikutukset herättävät huolta – Asiantuntija kertoo, miten sitä käytetään turvallisesti - Apu360",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQTl1djhEeHNYQVNiTVRvUVNLazRMMmpoby1MNlNSajliYW5YS1RiSEQ0MmpMU01uZFBuLU4wV2hQdmw5VU5ESUVZYV8tTk5QNWdFaFZiel8wT0c4eDB2NkpkUmRoQWg5YWplQ2xCWnNNM08zU2JXMkJ4UldGdmxDZHJrVnlUNDNEVkdjMGhhd05GUlBV?oc=5",
       "published": "2026-03-09T07:00:00+00:00",
       "source": {
-        "name": "apu.fi",
+        "name": "Apu360",
         "url": "https://www.apu.fi"
       }
     },
@@ -604,12 +604,12 @@
       }
     },
     {
-      "id": "e6852e4dc230",
-      "title": "Lihasreuma ja lääkitys – Asiantuntija kertoo, miten kortisonia käytetään oikein - apu.fi",
+      "id": "503e514eb772",
+      "title": "Lihasreuma ja lääkitys – Asiantuntija kertoo, miten kortisonia käytetään oikein - Apu360",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQT2M0WC1Mam8tRDlrdHVhWFM2dnNQOXdscVE4LUpuSlhlQlo2bUNET2NVOXdFZG15RzBKYllrMVZhZDViV05vR2xLeWxYVURRNVh1SF9oakJmT3JPLUN3ZlBDOEdYMTBNV3o1c3RVS0FlaEM2ZV9Fb29KOWhubmFmT1hmRFE0LTlzWWJ5Yms2Sm5RWHJvLVR4ODVXZw?oc=5",
       "published": "2026-03-31T07:00:00+00:00",
       "source": {
-        "name": "apu.fi",
+        "name": "Apu360",
         "url": "https://www.apu.fi"
       }
     },
@@ -654,12 +654,12 @@
       }
     },
     {
-      "id": "ee35b7099868",
-      "title": "Onko verenpainelääkitys kunnossa, kun jaloissa on hieman turvotusta? – Pippa Laukka kertoo lääkkeistä - apu.fi",
+      "id": "2ddc76767aed",
+      "title": "Onko verenpainelääkitys kunnossa, kun jaloissa on hieman turvotusta? – Pippa Laukka kertoo lääkkeistä - Apu360",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQnJ6UHl1aGx6dEZ4MjBOaUxwQ2ZoY2NQVlpaUGxWcVl5cDEzckE3NDdhcE9DS3pSWHVHc1Z6MWdHMjRCYjdGRkxMTjJETnRYWnBvZE9ZRWROcUt1ak1ncGU0elh2REVtTDR6RXpGVm9nODNKQ2RNdnE5em1Dckx5MzRoZm5mcTBRN3lEenhWN0JQSGVqZURvVA?oc=5",
       "published": "2025-12-01T08:00:00+00:00",
       "source": {
-        "name": "apu.fi",
+        "name": "Apu360",
         "url": "https://www.apu.fi"
       }
     },
@@ -694,32 +694,32 @@
       }
     },
     {
-      "id": "832dfd22b218",
-      "title": "Voiko Ketipinor-lääkitys heikentää toipumista aivoinfarktin jälkeen? – Pippa Laukka vastaa - apu.fi",
+      "id": "a32ac34b518c",
+      "title": "Voiko Ketipinor-lääkitys heikentää toipumista aivoinfarktin jälkeen? – Pippa Laukka vastaa - Apu360",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbVg4am5MZHdsOEotemxGT3Q1eGU1MVJONlhpTkp4SVVtNWV1V3lGR0FIWDlMN1FWc21TbHNoTTN3YVFUZWUxNEVHczBHWjBjT00xa2ZhMER0bmRmcUJiNEc0MDgzbFNHNnl0SzJLdk45c19fdTdMT1BZWkpQQlpFQjlhVG1sZ1pMRGhGMS1tNDI?oc=5",
       "published": "2025-10-24T07:00:00+00:00",
       "source": {
-        "name": "apu.fi",
+        "name": "Apu360",
         "url": "https://www.apu.fi"
       }
     },
     {
-      "id": "1bc48a100155",
-      "title": "Jatkuva vapina kiusaa, eikä sopivaa lääkitystä tahdo löytyä – Mikä auttaisi oireeseen? - apu.fi",
+      "id": "65287d90a873",
+      "title": "Jatkuva vapina kiusaa, eikä sopivaa lääkitystä tahdo löytyä – Mikä auttaisi oireeseen? - Apu360",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdGhNcFVyNjFMNVAtWWF4cGNJWldMalpwZFZPVFlvRmpEX1c1N1JSelh0WngyMFd0MGI3dXAycDh4aGYyN0EyZGpMM01HY3BTcW1lOXZHaVh1NTBBRW1zUHgwUXFaVmRTUGt3a3N2WHNBOXRKNWtWU29iSGxHc2hWWklEUktwdWNqYV9FWDJaZHdvdw?oc=5",
       "published": "2025-09-03T07:00:00+00:00",
       "source": {
-        "name": "apu.fi",
+        "name": "Apu360",
         "url": "https://www.apu.fi"
       }
     },
     {
-      "id": "70f71c96969d",
-      "title": "Psyykenlääkkeen lopettaminen vei toimintakyvyn – Miten selvitä eteenpäin? Pippa Laukka vastaa - apu.fi",
+      "id": "032459aa0e77",
+      "title": "Psyykenlääkkeen lopettaminen vei toimintakyvyn – Miten selvitä eteenpäin? Pippa Laukka vastaa - Apu360",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPVWRBa0VqUXJ1c0piTTJ4WjQwcW5KcDMwZ3BqREZkZkludUN0ajF6LWRkb0NQWW4zWElQYXlDQlp5bi1JYlZkcFpaajMzaW9pZkpNckxyb0F6QjdOaEpTeTBNbkFmaGpmVDlKdHN3NkI3dnNXQ0lmbVVhMFBUcGwzdzVoQ0kycF90dTRJbkk2X29jUTNZ?oc=5",
       "published": "2025-10-12T07:00:00+00:00",
       "source": {
-        "name": "apu.fi",
+        "name": "Apu360",
         "url": "https://www.apu.fi"
       }
     },
@@ -764,12 +764,12 @@
       }
     },
     {
-      "id": "9af086de823b",
-      "title": "Levottomat jalat ja pramipeksoli – Pippa Laukan vinkit, milloin lääkitys kaipaa tarkistusta - apu.fi",
+      "id": "38f36f67c7eb",
+      "title": "Levottomat jalat ja pramipeksoli – Pippa Laukan vinkit, milloin lääkitys kaipaa tarkistusta - Apu360",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOakotbXJoZFBrWXlDcktPZFdvbHRhRkxwM0ltTzBOYnJYbjNiSE9JdHVxX1JBR2FpWUZtNGZESzF5bU1WenBsV2lSM2MzZ2lPbXQ4VGNEajlSVnNDc00xSGJKRWxyc014YnBaQXM4aG1sdGtoTk5VdVRfeGw3YlhDRk11ckZXMDBGS1E?oc=5",
       "published": "2025-10-05T07:00:00+00:00",
       "source": {
-        "name": "apu.fi",
+        "name": "Apu360",
         "url": "https://www.apu.fi"
       }
     },
@@ -794,12 +794,12 @@
       }
     },
     {
-      "id": "316a9335a6a1",
-      "title": "Puolison muisti heikentynyt | Lukija epäilee Ketipinor-lääkitystä - apu.fi",
+      "id": "7598a29ff46f",
+      "title": "Puolison muisti heikentynyt | Lukija epäilee Ketipinor-lääkitystä - Apu360",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYzM0U2liSDU3WmpveXAxMnd2bEk1cVNFaVlHMmpfSHBGcU1RRVQzMGk5WGpENkV1TWUzVUlxMFpadmFETTZCVnFZZWpNS0l2N2NNZTdHV3p5WlgwOFU1QXM0N2hQXzhoQlRmck5XYVAyRlVLQUs2d1dHOFphaEhqUVpYZHAwZFRwNXE0VXdPMWNQRkRTb0NSTQ?oc=5",
       "published": "2025-08-31T07:00:00+00:00",
       "source": {
-        "name": "apu.fi",
+        "name": "Apu360",
         "url": "https://www.apu.fi"
       }
     },

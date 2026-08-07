@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-07T19:41:22.861198+00:00",
+  "fetched_at": "2026-08-07T20:25:27.825850+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -374,16 +374,6 @@
       }
     },
     {
-      "id": "d33d7a4bc3d7",
-      "title": "Läpimurto lääketieteessä: Alzheimeriin löytynyt lupaava lääke - Stara.fi",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOU1hNdXd1MEJHcEJqTGd2TU5mZXRxeENZZkFQaktneGJOeWRoNmlubkRTdjFUdTh6ZFI0UG15aFpwa0xoSldmNDhrSW56VWl2d0NNbndkT0EwcHhSMXk3V2g3OTV5cThtYWtyU0hDN0doX0FVam9aT19OYVBoMWxOVzBEYmlaRjRZMWF3Sl9PRy1SNzVqcWxsWg?oc=5",
-      "published": "2026-07-10T07:00:00+00:00",
-      "source": {
-        "name": "Stara.fi",
-        "url": "https://www.stara.fi"
-      }
-    },
-    {
       "id": "f8912b2c33b3",
       "title": "Kolesterolilääkkeellä toinenkin puoli – Muuttaa käsitystä - Iltalehti",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZjR6LUZsMGdyOXhJa2l4YTZHX05pX2o0dXlwTmhaN2JzNEFiS3JjWlRoYkRsblRYZ1ZNRF9ydWlwdjhDOHFnZjlHc3dsejlxOXF2ZmlLSjh4Rkh3aExWR1lzR1U5VmtpQjBGVVZjRXFZcnVlaEJJSzFya2lWRE5hWU9IWkk?oc=5",
@@ -391,6 +381,16 @@
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
+      }
+    },
+    {
+      "id": "d33d7a4bc3d7",
+      "title": "Läpimurto lääketieteessä: Alzheimeriin löytynyt lupaava lääke - Stara.fi",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOU1hNdXd1MEJHcEJqTGd2TU5mZXRxeENZZkFQaktneGJOeWRoNmlubkRTdjFUdTh6ZFI0UG15aFpwa0xoSldmNDhrSW56VWl2d0NNbndkT0EwcHhSMXk3V2g3OTV5cThtYWtyU0hDN0doX0FVam9aT19OYVBoMWxOVzBEYmlaRjRZMWF3Sl9PRy1SNzVqcWxsWg?oc=5",
+      "published": "2026-07-10T07:00:00+00:00",
+      "source": {
+        "name": "Stara.fi",
+        "url": "https://www.stara.fi"
       }
     },
     {

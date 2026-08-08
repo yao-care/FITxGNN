@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-08T13:36:00.435926+00:00",
+  "fetched_at": "2026-08-08T14:20:15.607444+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -424,16 +424,6 @@
       }
     },
     {
-      "id": "17b1b0e92d2f",
-      "title": "Läpimurto lääketieteessä: Alzheimeriin löytynyt lupaava lääke - stara.fi",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOU1hNdXd1MEJHcEJqTGd2TU5mZXRxeENZZkFQaktneGJOeWRoNmlubkRTdjFUdTh6ZFI0UG15aFpwa0xoSldmNDhrSW56VWl2d0NNbndkT0EwcHhSMXk3V2g3OTV5cThtYWtyU0hDN0doX0FVam9aT19OYVBoMWxOVzBEYmlaRjRZMWF3Sl9PRy1SNzVqcWxsWg?oc=5",
-      "published": "2026-07-10T07:00:00+00:00",
-      "source": {
-        "name": "stara.fi",
-        "url": "https://www.stara.fi"
-      }
-    },
-    {
       "id": "d91576ebfd18",
       "title": "Markkinoille saapuu uudenlainen hoito lihavuuteen - Iltalehti",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8xY1lCdUxwbllDU2FsYlVRcGJUV0oyTEx2VWdBNXlPM1pTb01zY0tadkk0YzduZ1JFRHJLQnYtMUExazFjVzdCOG4zSFQ3YmR0X0JOZ1JqTEVIR3U2bGJXT2QzSkdVMjRCa0Q3b183UkJyT0U0emZIcGQzR1hxQQ?oc=5",
@@ -441,6 +431,16 @@
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
+      }
+    },
+    {
+      "id": "d33d7a4bc3d7",
+      "title": "Läpimurto lääketieteessä: Alzheimeriin löytynyt lupaava lääke - Stara.fi",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOU1hNdXd1MEJHcEJqTGd2TU5mZXRxeENZZkFQaktneGJOeWRoNmlubkRTdjFUdTh6ZFI0UG15aFpwa0xoSldmNDhrSW56VWl2d0NNbndkT0EwcHhSMXk3V2g3OTV5cThtYWtyU0hDN0doX0FVam9aT19OYVBoMWxOVzBEYmlaRjRZMWF3Sl9PRy1SNzVqcWxsWg?oc=5",
+      "published": "2026-07-10T07:00:00+00:00",
+      "source": {
+        "name": "Stara.fi",
+        "url": "https://www.stara.fi"
       }
     },
     {

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-09T08:26:21.915247+00:00",
+  "fetched_at": "2026-08-09T09:26:00.995558+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -544,6 +544,16 @@
       }
     },
     {
+      "id": "fc736f30cc08",
+      "title": "Kolesterolilääkkeiden käyttöön liittyy huolestuttava ilmiö – erikoislääkäri pitää tilannetta vakavana - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5rNmFRNEdjWjd5bTZXM0FScXFNS3ZMb3l6RWdwazR0SXhwWUU3T21zSDVERGE5US12OHdsc1R6RmxoeUVXLWJHd0N4TDRfOGhac3EtMWRmN3VmN1dQ?oc=5",
+      "published": "2026-03-08T08:00:00+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
+      }
+    },
+    {
       "id": "768326ef7d87",
       "title": "Mielialalääke ja lumevaikutus: Voiko masennuslääke auttaa jo viikossa? Pippa Laukka vastaa - Apu360",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUC0wQ0hmd1RTQ3R3bnZhSDRvb2JKSWVLMjMtbU1yM2hxMEVMNEduVHR1TkZqRklFMTZiOFZiTWlBRTBWanhUZ1ZSNGRTLWRMbmdVNVJRczZLeE1fS2lLRTRkQno2ZHRXdWxIb1lUUGFBMFRDMjUzcEc0ejhTVTIwWlltakdudk1zekhmZEpjN2g?oc=5",
@@ -671,16 +681,6 @@
       "source": {
         "name": "eeva.fi",
         "url": "https://www.eeva.fi"
-      }
-    },
-    {
-      "id": "d7df60842659",
-      "title": "Kolesterolilääkkeiden käyttöön liittyy huolestuttava ilmiö – erikoislääkäri pitää tilannetta vakavana - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBieVJxM2JFVml3TWhESEF1SGdXOHpXS25HcUFfRm5oY0VwRTlpX0RYenVVUW1YWS1yc3pmUWVVOVB2aHRCUVEwZW9vX1dxMjZYUXJHczl1VjJtTi1f?oc=5",
-      "published": "2025-12-26T08:00:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
       }
     },
     {
@@ -904,16 +904,6 @@
       }
     },
     {
-      "id": "8a3e1762e8cb",
-      "title": "Koronasta toipuneen sisällä piilee lääke samaan tautiin - voi olla nopein tapa pelastaa potilaita - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQa21hVzNpVTduRXdvTC10OWdNM3ZZcVU5RVpaT2xGa0cxYk1QeUQ5RWRvdS1rQVpWejZkWVJack5jdWVLVmpwR2hISlVkdWs1QUlqaUROcERfUXpUaTFPQ0NHd3RjT0Z2czN0VEIyRG9fWk9rRmxFZEs3WDNWNG5fbTBhQzg?oc=5",
-      "published": "2020-04-18T07:00:00+00:00",
-      "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
-      }
-    },
-    {
       "id": "6b6ff09594e3",
       "title": "Satojen lääkkeiden hinnat halpenevat tänään - Yle",
       "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE56VnRjMWlIeXdVbTBTNXVreFhaa3FhTGJsdEFQUGI0SEhURndWU0VqZy1SeGEyVW1ZWk56dVNYcUhndw?oc=5",
@@ -921,6 +911,16 @@
       "source": {
         "name": "Yle",
         "url": "https://yle.fi"
+      }
+    },
+    {
+      "id": "8a3e1762e8cb",
+      "title": "Koronasta toipuneen sisällä piilee lääke samaan tautiin - voi olla nopein tapa pelastaa potilaita - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQa21hVzNpVTduRXdvTC10OWdNM3ZZcVU5RVpaT2xGa0cxYk1QeUQ5RWRvdS1rQVpWejZkWVJack5jdWVLVmpwR2hISlVkdWs1QUlqaUROcERfUXpUaTFPQ0NHd3RjT0Z2czN0VEIyRG9fWk9rRmxFZEs3WDNWNG5fbTBhQzg?oc=5",
+      "published": "2020-04-18T07:00:00+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
       }
     },
     {
@@ -964,16 +964,6 @@
       }
     },
     {
-      "id": "f8a52b94c7e9",
-      "title": "Luonto tekee parhaat lääkkeet - Hyvä Terveys",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBwbUNsUHBCbDRadlJndVB4T0ZBcjQzd2ItR0tUYksyN0tyRS1kNXlpSTluYm51TTk2dEtSUVdqUXF6NURrdmticE1EVllpQmZrckxjbGJwa0JMUG8wZUxsb3k0SU0yRjlDOFJraXY5cktwY3QzQ0swTHBmR3haVUk?oc=5",
-      "published": "2016-10-19T07:00:00+00:00",
-      "source": {
-        "name": "Hyvä Terveys",
-        "url": "https://www.hyvaterveys.fi"
-      }
-    },
-    {
       "id": "db24aa2dbe1c",
       "title": "Suomessa keksitty lääke valloittaa maailmaa – Yhtiön kurssi nousussa - Iltalehti",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5fd0xBSHZ5NlRlX3huZUdIbUswTm5NclZkOEpQa1BHWnEyTHh4RmV1NUZLSGlmOVNtMFNXN3duNklkNW8wVnVyaWVGakRMYUhoWUdHaU5OVlhqTS0yUm95cUlGU3VUYVlmX015U21velE0T1l0M0JYWWVB?oc=5",
@@ -981,6 +971,16 @@
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
+      }
+    },
+    {
+      "id": "f8a52b94c7e9",
+      "title": "Luonto tekee parhaat lääkkeet - Hyvä Terveys",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBwbUNsUHBCbDRadlJndVB4T0ZBcjQzd2ItR0tUYksyN0tyRS1kNXlpSTluYm51TTk2dEtSUVdqUXF6NURrdmticE1EVllpQmZrckxjbGJwa0JMUG8wZUxsb3k0SU0yRjlDOFJraXY5cktwY3QzQ0swTHBmR3haVUk?oc=5",
+      "published": "2016-10-19T07:00:00+00:00",
+      "source": {
+        "name": "Hyvä Terveys",
+        "url": "https://www.hyvaterveys.fi"
       }
     },
     {

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-09T09:26:00.995558+00:00",
+  "fetched_at": "2026-08-09T10:19:20.796368+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -7,7 +7,7 @@
       "id": "239d37a26b1c",
       "title": "Näin käy, jos syö vahingossa masennuslääkettä - Iltalehti",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWDlpa24wV1RYMWZzREZ6ZHlsR0JYMVpRZlZxSUJvWldxRk5aLXlTUE9MTHNSX1hFbmJOemZpeVpEZ3Z2WkR1b3BMMU9IVDJzUGI1TjNNbGQyaExMeUFuMTJGNFV1ajdlbkw5YS1EVzRPakEtVlhMaEJHaXhSNGZJdzkwWEQ?oc=5",
-      "published": "2026-08-09T07:00:09+00:00",
+      "published": "2026-08-09T10:00:54+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
@@ -774,16 +774,6 @@
       }
     },
     {
-      "id": "7904c07dfeaf",
-      "title": "Tällaisia haittavaikutuksia Ozempicillä voi olla – erityisesti tämä huolettaa asiantuntijoita - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9lNV9abFJCY1ZaRm1uYVc5NEtCUFNMRnZlQXVyUW5nVXVtWm1aTFNLV25wQ1RPWkVDMWhLMVpVS0Vjb1p4MEN0c2FVb2FMZW43Y01zNFREVVpSOGdj?oc=5",
-      "published": "2025-08-16T07:00:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
-      }
-    },
-    {
       "id": "bc10383a5bc0",
       "title": "Luuston hoitoon tarkoitettu lääke lisää merkittävästi leukakuolion riskiä, kertoo uusi tutkimus - Yle",
       "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9vNF84RkI0T3FmQUJiU0NnMDE1OVdYWFlmeTZPSTRQanRzZkwzODJHNVRaTUszWExZYXAxUUxBUUVndw?oc=5",
@@ -831,6 +821,16 @@
       "source": {
         "name": "Lääkärilehti",
         "url": "https://www.laakarilehti.fi"
+      }
+    },
+    {
+      "id": "7904c07dfeaf",
+      "title": "Tällaisia haittavaikutuksia Ozempicillä voi olla – erityisesti tämä huolettaa asiantuntijoita - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9lNV9abFJCY1ZaRm1uYVc5NEtCUFNMRnZlQXVyUW5nVXVtWm1aTFNLV25wQ1RPWkVDMWhLMVpVS0Vjb1p4MEN0c2FVb2FMZW43Y01zNFREVVpSOGdj?oc=5",
+      "published": "2025-08-16T07:00:00+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
       }
     },
     {
@@ -974,12 +974,12 @@
       }
     },
     {
-      "id": "f8a52b94c7e9",
-      "title": "Luonto tekee parhaat lääkkeet - Hyvä Terveys",
+      "id": "9af62df9bdcb",
+      "title": "Luonto tekee parhaat lääkkeet - hyvaterveys.fi",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBwbUNsUHBCbDRadlJndVB4T0ZBcjQzd2ItR0tUYksyN0tyRS1kNXlpSTluYm51TTk2dEtSUVdqUXF6NURrdmticE1EVllpQmZrckxjbGJwa0JMUG8wZUxsb3k0SU0yRjlDOFJraXY5cktwY3QzQ0swTHBmR3haVUk?oc=5",
       "published": "2016-10-19T07:00:00+00:00",
       "source": {
-        "name": "Hyvä Terveys",
+        "name": "hyvaterveys.fi",
         "url": "https://www.hyvaterveys.fi"
       }
     },

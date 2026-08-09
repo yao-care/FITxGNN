@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-09T20:16:30.110098+00:00",
+  "fetched_at": "2026-08-09T21:18:48.623053+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -94,6 +94,16 @@
       }
     },
     {
+      "id": "d465e683ea4c",
+      "title": "Automaatio tehostaa lääkkeiden potilaskohtaista jakoa ja parantaa potilasturvallisuutta - University of Helsinki",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORzMySU01ZTFZSVd4VVBwTThpYXVMSGJJclR2QnpLSGItOVhLTUFldWJKVWR0Z09kcjBzMHVkRXRxTVViY1JjeDlwRmlnbzBZWGk5T3lReEdWekFQbEtCNFA0NGljODAzUUtEUjRlQjJ4VkN0QkN4bFZFUWlqSDQ0dWY1T3hDeXBZdzFOa08yc3ZqbVJnUzItSkRXQ29zNzFnc0EybFNfdkZ6U0dWTElQYnJQQnpnTmM3YzBoM2w1SFJXUnRsQzV3ZVl3?oc=5",
+      "published": "2026-03-11T07:00:00+00:00",
+      "source": {
+        "name": "University of Helsinki",
+        "url": "https://www.helsinki.fi"
+      }
+    },
+    {
       "id": "4a2927f8ebf5",
       "title": "Tämä yleinen lääke voi hälyttää huumetestissä - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBuWlVhUkQ1MWdoc1ozenpQUjJSamx3UHBxVmNiMmRsSnF1RW85X1drWGVYZTFJWHNfTWhLbVZtYUJLU004QmR4b0d3RWc1LXNiNW9KMFQ2TFFmWmts?oc=5",
@@ -101,16 +111,6 @@
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
-      }
-    },
-    {
-      "id": "03ec289c9c08",
-      "title": "Ozempic vaikuttaa miehen kuntoon järisyttävällä tavalla – ”Voi olla, että tulevaisuudessa paras hoito” - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNN0xoX0NXMWVTTlllRXlJa3I3ejQ3X1VZdll2bmd3eGJ5NjRMT2xTNDNkYkI3R05SODQybHJhRkVvQ2dfY2lJMEdUOTVGN25zeXBLRmgxZ1lVai01dWt1cDBydWx2WkV0b19JcjJjeEhrMko1OXRFYm1XNEEtUHBsLWdPbXA?oc=5",
-      "published": "2026-07-27T07:00:00+00:00",
-      "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
       }
     },
     {
@@ -124,16 +124,6 @@
       }
     },
     {
-      "id": "75a58a192298",
-      "title": "Näistä lääkkeistä tarvitset matkalle todistuksen – muuten voit joutua lentokentällä ongelmiin - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE51S2tjaWQ5TUhJQ2hxcnlsaU96TlRMUTF6eEYxM0ZiVk1kM2RHRS1iMHNSUGQ4SkNzWEt1WVRBclJMdHNkd2RUZ282TjRTTmdNQ0Vaek41MEVtLWlv?oc=5",
-      "published": "2026-04-19T07:00:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
-      }
-    },
-    {
       "id": "a190bc4042a1",
       "title": "Tällainen on lääke, jota Trumpin väitetään saaneen - Iltalehti",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUjlLSUp3UHhfNWtlVFVLNW5ONTZxdjl6T3BDLXA0VGhleXh5ZXFtbXRiRFdKNjNybG1SZ01zQkZHX0Y0djhkd2Y4c0p5UFJkRHVrMVRqRkdqR1ZNSXJNQUlnTDJvRUoyNVgyejNlSjRvSDZra1l1RXNSZzJ3bTRyZV9kMVg?oc=5",
@@ -141,6 +131,16 @@
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
+      }
+    },
+    {
+      "id": "75a58a192298",
+      "title": "Näistä lääkkeistä tarvitset matkalle todistuksen – muuten voit joutua lentokentällä ongelmiin - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE51S2tjaWQ5TUhJQ2hxcnlsaU96TlRMUTF6eEYxM0ZiVk1kM2RHRS1iMHNSUGQ4SkNzWEt1WVRBclJMdHNkd2RUZ282TjRTTmdNQ0Vaek41MEVtLWlv?oc=5",
+      "published": "2026-04-19T07:00:00+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
       }
     },
     {
@@ -201,16 +201,6 @@
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
-      }
-    },
-    {
-      "id": "d465e683ea4c",
-      "title": "Automaatio tehostaa lääkkeiden potilaskohtaista jakoa ja parantaa potilasturvallisuutta - University of Helsinki",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORzMySU01ZTFZSVd4VVBwTThpYXVMSGJJclR2QnpLSGItOVhLTUFldWJKVWR0Z09kcjBzMHVkRXRxTVViY1JjeDlwRmlnbzBZWGk5T3lReEdWekFQbEtCNFA0NGljODAzUUtEUjRlQjJ4VkN0QkN4bFZFUWlqSDQ0dWY1T3hDeXBZdzFOa08yc3ZqbVJnUzItSkRXQ29zNzFnc0EybFNfdkZ6U0dWTElQYnJQQnpnTmM3YzBoM2w1SFJXUnRsQzV3ZVl3?oc=5",
-      "published": "2026-03-11T07:00:00+00:00",
-      "source": {
-        "name": "University of Helsinki",
-        "url": "https://www.helsinki.fi"
       }
     },
     {
@@ -404,16 +394,6 @@
       }
     },
     {
-      "id": "f3f767229de1",
-      "title": "Kortisonin haittavaikutukset herättävät huolta – Asiantuntija kertoo, miten sitä käytetään turvallisesti - Apu360",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQTl1djhEeHNYQVNiTVRvUVNLazRMMmpoby1MNlNSajliYW5YS1RiSEQ0MmpMU01uZFBuLU4wV2hQdmw5VU5ESUVZYV8tTk5QNWdFaFZiel8wT0c4eDB2NkpkUmRoQWg5YWplQ2xCWnNNM08zU2JXMkJ4UldGdmxDZHJrVnlUNDNEVkdjMGhhd05GUlBV?oc=5",
-      "published": "2026-03-09T07:00:00+00:00",
-      "source": {
-        "name": "Apu360",
-        "url": "https://www.apu.fi"
-      }
-    },
-    {
       "id": "fc736f30cc08",
       "title": "Kolesterolilääkkeiden käyttöön liittyy huolestuttava ilmiö – erikoislääkäri pitää tilannetta vakavana - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5rNmFRNEdjWjd5bTZXM0FScXFNS3ZMb3l6RWdwazR0SXhwWUU3T21zSDVERGE5US12OHdsc1R6RmxoeUVXLWJHd0N4TDRfOGhac3EtMWRmN3VmN1dQ?oc=5",
@@ -421,6 +401,16 @@
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
+      }
+    },
+    {
+      "id": "f3f767229de1",
+      "title": "Kortisonin haittavaikutukset herättävät huolta – Asiantuntija kertoo, miten sitä käytetään turvallisesti - Apu360",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQTl1djhEeHNYQVNiTVRvUVNLazRMMmpoby1MNlNSajliYW5YS1RiSEQ0MmpMU01uZFBuLU4wV2hQdmw5VU5ESUVZYV8tTk5QNWdFaFZiel8wT0c4eDB2NkpkUmRoQWg5YWplQ2xCWnNNM08zU2JXMkJ4UldGdmxDZHJrVnlUNDNEVkdjMGhhd05GUlBV?oc=5",
+      "published": "2026-03-09T07:00:00+00:00",
+      "source": {
+        "name": "Apu360",
+        "url": "https://www.apu.fi"
       }
     },
     {
@@ -664,12 +654,12 @@
       }
     },
     {
-      "id": "13a0b4c9a561",
-      "title": "Huonoksi koettu terveys on yhteydessä monipäihdekäyttöön - Lääkärilehti",
+      "id": "7669f5edd70d",
+      "title": "Huonoksi koettu terveys on yhteydessä monipäihdekäyttöön - laakarilehti.fi",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNejhEN0xGUTJlenVzd0o1VVdxWGoxZFd1LU1vanBWYVJWbUFtN3doUTlSNHdLZVRQY2lkWjFKMEtJUWtVOFpfUEd3VXVXNkI4VWVCTlpLazI1UVE0a195ZW81NUpDZzFxZnRZdndTUnRmQjRoWWxuOVVHLUtiR285VkRySzZsWjZtQmUyVVZwWTN1Zmw0MV9qajdtYUViRVUzRFFBdk9DSjlKTjg3NWFWQ1V0d3liRDBhTWpza1ladUtNUnEwSWNkYWJEeGpNNkhhTG94bQ?oc=5",
       "published": "2023-08-10T07:00:00+00:00",
       "source": {
-        "name": "Lääkärilehti",
+        "name": "laakarilehti.fi",
         "url": "https://www.laakarilehti.fi"
       }
     },
@@ -1001,6 +991,16 @@
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
+      }
+    },
+    {
+      "id": "6df66becdcfa",
+      "title": "Auttaako lääke, jos sen tehoon ei usko? Asiantuntija vastaa tyhmään kysymykseen - Kotiliesi.fi",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTFg3S3NaMHhkVUZaWUoycS1OdndiRHQtakc1QjNJbzNlWHc5VGluTUZEU3VlYUFzWGxCNVpZQkFOZWVpa1NNTXBuZ2dpZGhTS0FGWUpEU1JDYUxoWmp3dFVWYVFLMVlqaGlLVVdvZkVENVdBczhvODUyV0x4NkUzTG9BS2lnYk52VVI0WUpKaGJpM1FYQk1tTmZpTnI2RVBf?oc=5",
+      "published": "2021-02-08T08:00:00+00:00",
+      "source": {
+        "name": "Kotiliesi.fi",
+        "url": "https://kotiliesi.fi"
       }
     }
   ]

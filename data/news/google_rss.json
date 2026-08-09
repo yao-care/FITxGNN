@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-09T21:18:48.623053+00:00",
+  "fetched_at": "2026-08-09T22:15:57.317321+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -7,7 +7,7 @@
       "id": "239d37a26b1c",
       "title": "Näin käy, jos syö vahingossa masennuslääkettä - Iltalehti",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWDlpa24wV1RYMWZzREZ6ZHlsR0JYMVpRZlZxSUJvWldxRk5aLXlTUE9MTHNSX1hFbmJOemZpeVpEZ3Z2WkR1b3BMMU9IVDJzUGI1TjNNbGQyaExMeUFuMTJGNFV1ajdlbkw5YS1EVzRPakEtVlhMaEJHaXhSNGZJdzkwWEQ?oc=5",
-      "published": "2026-08-09T19:05:27+00:00",
+      "published": "2026-08-08T06:46:04+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
@@ -654,12 +654,12 @@
       }
     },
     {
-      "id": "7669f5edd70d",
-      "title": "Huonoksi koettu terveys on yhteydessä monipäihdekäyttöön - laakarilehti.fi",
+      "id": "13a0b4c9a561",
+      "title": "Huonoksi koettu terveys on yhteydessä monipäihdekäyttöön - Lääkärilehti",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNejhEN0xGUTJlenVzd0o1VVdxWGoxZFd1LU1vanBWYVJWbUFtN3doUTlSNHdLZVRQY2lkWjFKMEtJUWtVOFpfUEd3VXVXNkI4VWVCTlpLazI1UVE0a195ZW81NUpDZzFxZnRZdndTUnRmQjRoWWxuOVVHLUtiR285VkRySzZsWjZtQmUyVVZwWTN1Zmw0MV9qajdtYUViRVUzRFFBdk9DSjlKTjg3NWFWQ1V0d3liRDBhTWpza1ladUtNUnEwSWNkYWJEeGpNNkhhTG94bQ?oc=5",
       "published": "2023-08-10T07:00:00+00:00",
       "source": {
-        "name": "laakarilehti.fi",
+        "name": "Lääkärilehti",
         "url": "https://www.laakarilehti.fi"
       }
     },

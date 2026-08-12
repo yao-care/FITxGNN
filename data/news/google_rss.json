@@ -1,18 +1,8 @@
 {
-  "fetched_at": "2026-08-12T03:15:26.015454+00:00",
+  "fetched_at": "2026-08-12T05:20:44.964187+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
-    {
-      "id": "554d47140e03",
-      "title": "Kaksi yleistä lääkettä, joilla voi olla yllättäviä terveyshyötyjä – toinen voi auttaa rasvamaksaan - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9NUEUtNW94amFENi1aam11MlN4ekRvanNoVWgzMjVuVWNLNHJyTklxdEFVOWxKdHk2czlDS0pObzFNNmlyRW5COFdOLUhTbENMWjd1MERhWXptZFQw?oc=5",
-      "published": "2026-08-11T04:30:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
-      }
-    },
     {
       "id": "239d37a26b1c",
       "title": "Näin käy, jos syö vahingossa masennuslääkettä - Iltalehti",
@@ -21,6 +11,16 @@
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
+      }
+    },
+    {
+      "id": "554d47140e03",
+      "title": "Kaksi yleistä lääkettä, joilla voi olla yllättäviä terveyshyötyjä – toinen voi auttaa rasvamaksaan - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9NUEUtNW94amFENi1aam11MlN4ekRvanNoVWgzMjVuVWNLNHJyTklxdEFVOWxKdHk2czlDS0pObzFNNmlyRW5COFdOLUhTbENMWjd1MERhWXptZFQw?oc=5",
+      "published": "2026-08-11T04:30:00+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
       }
     },
     {
@@ -274,12 +274,12 @@
       }
     },
     {
-      "id": "b9a663abb90b",
-      "title": "Terveys | Vaihdevuosiin tuli uusi ei-hormonaalinen lääke - Satakunnan Kansa",
+      "id": "13cc4b5e8a61",
+      "title": "Terveys | Vaihdevuosiin tuli uusi ei-hormonaalinen lääke - satakunnankansa.fi",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE13LURNNkhaakJhNzUxWm9vTzNOQ1N0V1pKQmZmUk1hel9WSF9lSkZqWWxJSFR1OGJ5ZUJ1eWxhX2JTVnd5eHJwUGpORUIwTnBGc3ZiTEtVZ1FkdG9TQ3BQM3kyeF8yWkVVSHh4TzNR?oc=5",
       "published": "2026-06-11T07:00:00+00:00",
       "source": {
-        "name": "Satakunnan Kansa",
+        "name": "satakunnankansa.fi",
         "url": "https://www.satakunnankansa.fi"
       }
     },
@@ -504,12 +504,12 @@
       }
     },
     {
-      "id": "d33d7a4bc3d7",
-      "title": "Läpimurto lääketieteessä: Alzheimeriin löytynyt lupaava lääke - Stara.fi",
+      "id": "17b1b0e92d2f",
+      "title": "Läpimurto lääketieteessä: Alzheimeriin löytynyt lupaava lääke - stara.fi",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOU1hNdXd1MEJHcEJqTGd2TU5mZXRxeENZZkFQaktneGJOeWRoNmlubkRTdjFUdTh6ZFI0UG15aFpwa0xoSldmNDhrSW56VWl2d0NNbndkT0EwcHhSMXk3V2g3OTV5cThtYWtyU0hDN0doX0FVam9aT19OYVBoMWxOVzBEYmlaRjRZMWF3Sl9PRy1SNzVqcWxsWg?oc=5",
       "published": "2026-07-10T07:00:00+00:00",
       "source": {
-        "name": "Stara.fi",
+        "name": "stara.fi",
         "url": "https://www.stara.fi"
       }
     },
@@ -534,13 +534,13 @@
       }
     },
     {
-      "id": "8654d571477b",
-      "title": "Tuttu lääke voi tehota polven nivelrikkoon - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1iX3RfNURISzRVWkVKR05uRzFaQ0hQenVSTkZGaEtPMlNlS2xwTHRYS0xyNWtBaFBXVzZWZVhmRC15bXpGSXotX2VXenp1R3p2dXVMTXNhdExFOUtj?oc=5",
-      "published": "2026-02-07T08:00:00+00:00",
+      "id": "3ed1ba821af1",
+      "title": "Kun Veera Papinoja aloitti Ozempicin käytön, hänen somensa täyttyi kritiikistä – näin hän vastaa kommentteihin - eeva.fi",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1acEJtM2J6ZUxhenExNnQ3bUZvSVo1eUdJSU4zeGpYTVFrTHBBeWV4TS1DUVB0Q1hYMWlISlIwbXA4TUtBTG1Dck1JcWdRUWl5VXJfRlpxUUk1N3FZ?oc=5",
+      "published": "2026-07-10T07:00:00+00:00",
       "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
+        "name": "eeva.fi",
+        "url": "https://www.eeva.fi"
       }
     },
     {
@@ -564,6 +564,16 @@
       }
     },
     {
+      "id": "8654d571477b",
+      "title": "Tuttu lääke voi tehota polven nivelrikkoon - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1iX3RfNURISzRVWkVKR05uRzFaQ0hQenVSTkZGaEtPMlNlS2xwTHRYS0xyNWtBaFBXVzZWZVhmRC15bXpGSXotX2VXenp1R3p2dXVMTXNhdExFOUtj?oc=5",
+      "published": "2026-02-07T08:00:00+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
+      }
+    },
+    {
       "id": "5acf52f5ea2f",
       "title": "Masennuslääkkeiden sivuvaikutuksissa suuria eroja – osa nostaa ja osa laskee painoa - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBPelJvZFRJT2M2eThIeEVyMFlFSERBUjFBN0pEWFNiU2NmcFpEUENGaGVaei1QdGZFWUJFcUd1d2lPdkFzS1Bnd3hJYlBJZFNkSWVSMTZBdFlSZkJR?oc=5",
@@ -581,6 +591,16 @@
       "source": {
         "name": "Apu360",
         "url": "https://www.apu.fi"
+      }
+    },
+    {
+      "id": "fc736f30cc08",
+      "title": "Kolesterolilääkkeiden käyttöön liittyy huolestuttava ilmiö – erikoislääkäri pitää tilannetta vakavana - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5rNmFRNEdjWjd5bTZXM0FScXFNS3ZMb3l6RWdwazR0SXhwWUU3T21zSDVERGE5US12OHdsc1R6RmxoeUVXLWJHd0N4TDRfOGhac3EtMWRmN3VmN1dQ?oc=5",
+      "published": "2026-03-08T08:00:00+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
       }
     },
     {
@@ -624,6 +644,16 @@
       }
     },
     {
+      "id": "10e203a2ec99",
+      "title": "Anneli, 58, menetti näkönsä – syyksi epäillään lääkettä, jonka suosio kasvaa Suomessa kohisten - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1SUVNoTWtCcm9Ta2tubkNLVTZZQk9JQXdlQ3lRcnpjUm5mTmV3UkNWRG44Z0hiVEFveVdsWG1pbjA3eWc2X1hueHdvbEZJVHpLSGNLbmVxLTVEeEJO?oc=5",
+      "published": "2026-04-18T07:00:00+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
+      }
+    },
+    {
       "id": "b3e90a1c3deb",
       "title": "Tutkimus: Tämä lääke ehkäisee sydänkohtauksen paremmin kuin aspiriini - Iltalehti",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9ZbDlaVmdDR3JqakhKSnRyZEt4UHpwemJHLWVqQ0VTYXdJb25DNTBCRk5RVTJHcUtlN3hDb2tNaURISFZfT1d5Zzd3SkdZeEdtMnVyUzhvSERJM2F3X0RUd1FrWFhtdXV0c0JZRkVDV2htTFNKUmp0WA?oc=5",
@@ -638,16 +668,6 @@
       "title": "Tutkimus: Tuttu lääke saattaa suojata koronan tarttumiselta - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5MUDFMWVZYMWt0M1JqZHpCTFZPenk4RmNUYjRCWk10dWtHRktoN2lMYXFkTm1VNkkwRTNqSEd3M1FRRWlXRHJXZVd5eE9UR29Zb2xVZjNsa2xIUUcz?oc=5",
       "published": "2025-11-10T08:00:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
-      }
-    },
-    {
-      "id": "10e203a2ec99",
-      "title": "Anneli, 58, menetti näkönsä – syyksi epäillään lääkettä, jonka suosio kasvaa Suomessa kohisten - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1SUVNoTWtCcm9Ta2tubkNLVTZZQk9JQXdlQ3lRcnpjUm5mTmV3UkNWRG44Z0hiVEFveVdsWG1pbjA3eWc2X1hueHdvbEZJVHpLSGNLbmVxLTVEeEJO?oc=5",
-      "published": "2026-04-18T07:00:00+00:00",
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
@@ -701,16 +721,6 @@
       "source": {
         "name": "eeva.fi",
         "url": "https://www.eeva.fi"
-      }
-    },
-    {
-      "id": "d7df60842659",
-      "title": "Kolesterolilääkkeiden käyttöön liittyy huolestuttava ilmiö – erikoislääkäri pitää tilannetta vakavana - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBieVJxM2JFVml3TWhESEF1SGdXOHpXS25HcUFfRm5oY0VwRTlpX0RYenVVUW1YWS1yc3pmUWVVOVB2aHRCUVEwZW9vX1dxMjZYUXJHczl1VjJtTi1f?oc=5",
-      "published": "2025-12-26T08:00:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
       }
     },
     {
@@ -964,16 +974,6 @@
       }
     },
     {
-      "id": "67d702c1cbb6",
-      "title": "Uusi Alzheimer-lääke hyväksyttiin käyttöön Yhdysvalloissa – näin suomalaiset lääkärit kommentoivat - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSk1aT21PMExrQnpXbTZDUlQxSThVSWdFTnpvd0VmTWhNMnVUM2tQbDY5TU5pMjJFV1JjaE5vU1RVTUNhYzhIeHQwVUJmMEplekdYaGh4akdDWENPZnNCTVF0ZjRpMlZySnJfbDZBMHczYS0xcEIybTJIcncwZUFOeFE3S2g?oc=5",
-      "published": "2021-07-31T07:00:00+00:00",
-      "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
-      }
-    },
-    {
       "id": "f8a52b94c7e9",
       "title": "Luonto tekee parhaat lääkkeet - Hyvä Terveys",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBwbUNsUHBCbDRadlJndVB4T0ZBcjQzd2ItR0tUYksyN0tyRS1kNXlpSTluYm51TTk2dEtSUVdqUXF6NURrdmticE1EVllpQmZrckxjbGJwa0JMUG8wZUxsb3k0SU0yRjlDOFJraXY5cktwY3QzQ0swTHBmR3haVUk?oc=5",
@@ -984,20 +984,20 @@
       }
     },
     {
-      "id": "7458b5b3ecf0",
-      "title": "Lääke koronavirukseen voi olla jo olemassa – suomalaisprofessori: ”Lupaavia kandidaatteja” - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPd2lEalZJTmR1bkc0ZTRQaUtGODlVeUdoLXdNRTJGYUMzWEI0MGI5STZQM1AweTZRTzNwX25vLTlnV2hFNVNxN0FFZGZ0LVFuWFlXYjdMekZjenhHenJuQnNSR05kd095TjUzOXVsUmItTnFFYjMxbm1yNWFyUVJLbWNjekw?oc=5",
-      "published": "2020-02-27T08:00:00+00:00",
+      "id": "67d702c1cbb6",
+      "title": "Uusi Alzheimer-lääke hyväksyttiin käyttöön Yhdysvalloissa – näin suomalaiset lääkärit kommentoivat - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSk1aT21PMExrQnpXbTZDUlQxSThVSWdFTnpvd0VmTWhNMnVUM2tQbDY5TU5pMjJFV1JjaE5vU1RVTUNhYzhIeHQwVUJmMEplekdYaGh4akdDWENPZnNCTVF0ZjRpMlZySnJfbDZBMHczYS0xcEIybTJIcncwZUFOeFE3S2g?oc=5",
+      "published": "2021-07-31T07:00:00+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
       }
     },
     {
-      "id": "dbdbcbb9d6fd",
-      "title": "Lääkkeet loppu! Tässä syyt - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPM0NRWDBOZ1d0aURFUFBCQjhBY2FXVXVuUlNadjdqb0Q3TXE0b0U0TVJNVFd4TU5xX01rTUxzc2I0dFo5V2FBRXkyM0RiNjRNZDJsMGdHUFRRM3lFVGVHMDZjT0xlMmh6T2R6SF9iUDF2cXZwOEVwLXN0NkNaMGtoVTE5bE4?oc=5",
-      "published": "2023-03-17T07:00:00+00:00",
+      "id": "7458b5b3ecf0",
+      "title": "Lääke koronavirukseen voi olla jo olemassa – suomalaisprofessori: ”Lupaavia kandidaatteja” - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPd2lEalZJTmR1bkc0ZTRQaUtGODlVeUdoLXdNRTJGYUMzWEI0MGI5STZQM1AweTZRTzNwX25vLTlnV2hFNVNxN0FFZGZ0LVFuWFlXYjdMekZjenhHenJuQnNSR05kd095TjUzOXVsUmItTnFFYjMxbm1yNWFyUVJLbWNjekw?oc=5",
+      "published": "2020-02-27T08:00:00+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"

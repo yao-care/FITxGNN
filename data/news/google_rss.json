@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-12T17:46:53.295925+00:00",
+  "fetched_at": "2026-08-12T18:42:47.630903+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -464,12 +464,12 @@
       }
     },
     {
-      "id": "03ab012068da",
-      "title": "Tämä liikuntalaji hoitaa masennusta paremmin kuin lääke – harrastajien aivot synkronisoituvat - Kotiliesi.fi",
+      "id": "b3fc4dcc7043",
+      "title": "Tämä liikuntalaji hoitaa masennusta paremmin kuin lääke – harrastajien aivot synkronisoituvat - kotiliesi.fi",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA4WnJDaXBmLXVKek5wN2ZQYktpa3JfVEFnbnByUUp4TENHbTJCWjFaNlRsWVNwNk16a3M4MXE2TEl0a1pUcjhIZWFOZ1pNTHNja3JYV1hNRmZiS2FWVkdIVG5jM29JV1dvNEx6MkZaSDV0M3Fv?oc=5",
       "published": "2026-02-14T08:00:00+00:00",
       "source": {
-        "name": "Kotiliesi.fi",
+        "name": "kotiliesi.fi",
         "url": "https://kotiliesi.fi"
       }
     },
@@ -494,12 +494,12 @@
       }
     },
     {
-      "id": "17b1b0e92d2f",
-      "title": "Läpimurto lääketieteessä: Alzheimeriin löytynyt lupaava lääke - stara.fi",
+      "id": "d33d7a4bc3d7",
+      "title": "Läpimurto lääketieteessä: Alzheimeriin löytynyt lupaava lääke - Stara.fi",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOU1hNdXd1MEJHcEJqTGd2TU5mZXRxeENZZkFQaktneGJOeWRoNmlubkRTdjFUdTh6ZFI0UG15aFpwa0xoSldmNDhrSW56VWl2d0NNbndkT0EwcHhSMXk3V2g3OTV5cThtYWtyU0hDN0doX0FVam9aT19OYVBoMWxOVzBEYmlaRjRZMWF3Sl9PRy1SNzVqcWxsWg?oc=5",
       "published": "2026-07-10T07:00:00+00:00",
       "source": {
-        "name": "stara.fi",
+        "name": "Stara.fi",
         "url": "https://www.stara.fi"
       }
     },

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-14T19:39:45.458903+00:00",
+  "fetched_at": "2026-08-14T20:18:44.971071+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -271,6 +271,16 @@
       "source": {
         "name": "Apteekkari",
         "url": "https://www.apteekkari.fi"
+      }
+    },
+    {
+      "id": "a047f4ca111a",
+      "title": "Syöpälääkäri purskahti itkuun – Tämän takia - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBUZzVHaE5KTnh0VkxfTV9xMDhodGJ1eXdnOUFhRndHRHhiRHVxNFhvLWJmQjI0YTR3WlZLcVJqOUEteDQ3Sk9OZlphYlFqLWVSM0xnU2hMRHc3WmpPbTA4WGZlWXU2Szc3NmRGZGlkUUNTcWZva3FLQQ?oc=5",
+      "published": "2026-06-03T07:00:00+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
       }
     },
     {
@@ -988,16 +998,6 @@
       "title": "Uusi Alzheimer-lääke hyväksyttiin käyttöön Yhdysvalloissa – näin suomalaiset lääkärit kommentoivat - Iltalehti",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSk1aT21PMExrQnpXbTZDUlQxSThVSWdFTnpvd0VmTWhNMnVUM2tQbDY5TU5pMjJFV1JjaE5vU1RVTUNhYzhIeHQwVUJmMEplekdYaGh4akdDWENPZnNCTVF0ZjRpMlZySnJfbDZBMHczYS0xcEIybTJIcncwZUFOeFE3S2g?oc=5",
       "published": "2021-07-31T07:00:00+00:00",
-      "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
-      }
-    },
-    {
-      "id": "01e89d24bc60",
-      "title": "Nämä lääkkeet jokaisen mökiltä pitäisi löytyä - muista välttää tyypilliset säilytysmokat - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdURpZ1BhSjNiS3hGdmkyU0JjdEtOWlBhNDNzYzh2VExid2tnZDNlcVdCZ3gxT3dWY1FycjE1RnBoUUVyMFoxRzQwbUJCaHMyaXdsUkJWRkkzMHVGZEdzc2hSTVE1UkFQRzdMaW5BMEpCeGExQVRrOTQtSDhadnBtdzF0Y2U?oc=5",
-      "published": "2020-06-12T07:00:00+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"

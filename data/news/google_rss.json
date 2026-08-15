@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-15T00:28:53.508964+00:00",
+  "fetched_at": "2026-08-15T02:05:35.825077+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -34,16 +34,6 @@
       }
     },
     {
-      "id": "c084e75ac01a",
-      "title": "Kuittaatko köhimisen tupakkayskäksi? – Erikoislääkäri kertoo, milloin pitää epäillä keuhkoahtaumatautia - Apu360",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPempmQ2JzeUNuRWJtWFF4cGozektncEpsRjVSM0R3TWdnLUZwUnY4VzBiandycW04OWlvak1ieXNaWlZPWHp4Vi0yQzNwR1VfWFNETS1NZW5CdXdzbFZhRlJQNlZfVHNpSnhza2IzcjRwTUF4RGZ6ajROVXgydEF5M09HWE1uNUdRQzFSUGNCU19ZWjF0TUQzMV9sa0R4TDVaVkVlbWs3cWR5OUE?oc=5",
-      "published": "2026-08-11T07:00:00+00:00",
-      "source": {
-        "name": "Apu360",
-        "url": "https://www.apu.fi"
-      }
-    },
-    {
       "id": "cd7bdaa7c1f1",
       "title": "Yksi viime vuosina yleistynyt tuote näkyy Myrkytystietokeskukseen soitetuissa puheluissa - Anna.fi",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9RVWRLZDF3RklZSGx2Y09BbU92Rm1VR1RhYk5LREF5RTJCVWFjU2MyTnVZNF9kWjFfaksweElTSHlsWmVSVExHcWREVjJyZnUzNEkzaFg1dnltRTZ5WUlLdXlrZ0Iydw?oc=5",
@@ -71,6 +61,16 @@
       "source": {
         "name": "University of Helsinki",
         "url": "https://www.helsinki.fi"
+      }
+    },
+    {
+      "id": "711930c1c8f9",
+      "title": "Taina Siltanen sai uudesta syöpälääkkeestä lisävuosia – Kelan kiristynyt linjaus tuntuu hänestä kohtuuttomalta - Kaleva",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQnZxOVJyUE10WnNZd2RsZmEyTjBlZG54dGlWQkRSWTkyV1lDcVVQTm41X0NKTUJ6NUZDOGsyZlNkWlZ6WTNNU1daeEZacHZsd21NTFVaWVVheUpJN0dKM1l6a2VvTEUzSC14TzJhaXhucFRzMmRLc05hc3ljQUg5LVg1eVVxYnIz?oc=5",
+      "published": "2026-07-22T07:00:00+00:00",
+      "source": {
+        "name": "Kaleva",
+        "url": "https://www.kaleva.fi"
       }
     },
     {
@@ -154,20 +154,20 @@
       }
     },
     {
-      "id": "0d28295cbdbc",
-      "title": "IS: Varusmiehelle määrättiin närästyslääkettä – Saikin Cipralexia - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5HcEtXbEVTZGVvZkd5MFBvZmlNcE5ISGdQMVoyQXFUeTNpMUMxZmMwVC00ZUE4SzZ2d1FSRmpmRnZmbDVHd19OLVpEMUxoRjJ5YTdRSDI5bW81M3pqTmNPRVhTQjRqd2lrN2hYb3dEYlFrUWpER3h3bE5qQQ?oc=5",
-      "published": "2026-08-06T19:02:39+00:00",
+      "id": "45fd296f05bb",
+      "title": "Tämä lääke voi tehdä hampaille pahaa – ”Odota puoli tuntia” - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaFpXa01RNnlKNEo2ZmdCMjhOTWRpTk9mRm1QWG5qZFNNbW4zOXFTTFJmdHdaYjNENi1xN3hmSDc1bXp3S1h6Ujc0N2szRDR4OS1TaEtBRllnNDNsbGlHeEtvMmItSDNmeHRMMjF0YnF0MU1EekNCNVNuRTMtOE94X18xRHg?oc=5",
+      "published": "2026-05-22T07:00:00+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
       }
     },
     {
-      "id": "45fd296f05bb",
-      "title": "Tämä lääke voi tehdä hampaille pahaa – ”Odota puoli tuntia” - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaFpXa01RNnlKNEo2ZmdCMjhOTWRpTk9mRm1QWG5qZFNNbW4zOXFTTFJmdHdaYjNENi1xN3hmSDc1bXp3S1h6Ujc0N2szRDR4OS1TaEtBRllnNDNsbGlHeEtvMmItSDNmeHRMMjF0YnF0MU1EekNCNVNuRTMtOE94X18xRHg?oc=5",
-      "published": "2026-05-22T07:00:00+00:00",
+      "id": "0d28295cbdbc",
+      "title": "IS: Varusmiehelle määrättiin närästyslääkettä – Saikin Cipralexia - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5HcEtXbEVTZGVvZkd5MFBvZmlNcE5ISGdQMVoyQXFUeTNpMUMxZmMwVC00ZUE4SzZ2d1FSRmpmRnZmbDVHd19OLVpEMUxoRjJ5YTdRSDI5bW81M3pqTmNPRVhTQjRqd2lrN2hYb3dEYlFrUWpER3h3bE5qQQ?oc=5",
+      "published": "2026-08-06T07:00:00+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
@@ -201,16 +201,6 @@
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
-      }
-    },
-    {
-      "id": "711930c1c8f9",
-      "title": "Taina Siltanen sai uudesta syöpälääkkeestä lisävuosia – Kelan kiristynyt linjaus tuntuu hänestä kohtuuttomalta - Kaleva",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQnZxOVJyUE10WnNZd2RsZmEyTjBlZG54dGlWQkRSWTkyV1lDcVVQTm41X0NKTUJ6NUZDOGsyZlNkWlZ6WTNNU1daeEZacHZsd21NTFVaWVVheUpJN0dKM1l6a2VvTEUzSC14TzJhaXhucFRzMmRLc05hc3ljQUg5LVg1eVVxYnIz?oc=5",
-      "published": "2026-07-22T07:00:00+00:00",
-      "source": {
-        "name": "Kaleva",
-        "url": "https://www.kaleva.fi"
       }
     },
     {
@@ -998,6 +988,16 @@
       "title": "Lääke koronavirukseen voi olla jo olemassa – suomalaisprofessori: ”Lupaavia kandidaatteja” - Iltalehti",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPd2lEalZJTmR1bkc0ZTRQaUtGODlVeUdoLXdNRTJGYUMzWEI0MGI5STZQM1AweTZRTzNwX25vLTlnV2hFNVNxN0FFZGZ0LVFuWFlXYjdMekZjenhHenJuQnNSR05kd095TjUzOXVsUmItTnFFYjMxbm1yNWFyUVJLbWNjekw?oc=5",
       "published": "2020-02-27T08:00:00+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
+      }
+    },
+    {
+      "id": "67b9204a7158",
+      "title": "Hurja tutkimus: 75 vuotta täyttäneet käyttävät yleisesti kolmea lääkettä, joita pitäisi oikeasti välttää - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNa29xYkM5anoyeUdtb1dDVktMUjNWQ2xIbUpDYkJOQ3lFN2JMZk9maEJaUGJRVlVBLXI5b0wzVmZoejRUclpIVGsxTjJvanFycC1ncnMzM0RjaklfTjZnX3NFTTNGd2Jib3p5X05xSkd2dndKWjRlRXZoSlpIdWRjNDZTVDc?oc=5",
+      "published": "2023-03-21T07:00:00+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"

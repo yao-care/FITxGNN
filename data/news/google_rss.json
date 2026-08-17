@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-17T16:12:02.241906+00:00",
+  "fetched_at": "2026-08-17T17:14:56.382641+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -54,16 +54,6 @@
       }
     },
     {
-      "id": "c084e75ac01a",
-      "title": "Kuittaatko köhimisen tupakkayskäksi? – Erikoislääkäri kertoo, milloin pitää epäillä keuhkoahtaumatautia - Apu360",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPempmQ2JzeUNuRWJtWFF4cGozektncEpsRjVSM0R3TWdnLUZwUnY4VzBiandycW04OWlvak1ieXNaWlZPWHp4Vi0yQzNwR1VfWFNETS1NZW5CdXdzbFZhRlJQNlZfVHNpSnhza2IzcjRwTUF4RGZ6ajROVXgydEF5M09HWE1uNUdRQzFSUGNCU19ZWjF0TUQzMV9sa0R4TDVaVkVlbWs3cWR5OUE?oc=5",
-      "published": "2026-08-11T07:00:00+00:00",
-      "source": {
-        "name": "Apu360",
-        "url": "https://www.apu.fi"
-      }
-    },
-    {
       "id": "711930c1c8f9",
       "title": "Taina Siltanen sai uudesta syöpälääkkeestä lisävuosia – Kelan kiristynyt linjaus tuntuu hänestä kohtuuttomalta - Kaleva",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQnZxOVJyUE10WnNZd2RsZmEyTjBlZG54dGlWQkRSWTkyV1lDcVVQTm41X0NKTUJ6NUZDOGsyZlNkWlZ6WTNNU1daeEZacHZsd21NTFVaWVVheUpJN0dKM1l6a2VvTEUzSC14TzJhaXhucFRzMmRLc05hc3ljQUg5LVg1eVVxYnIz?oc=5",
@@ -81,6 +71,16 @@
       "source": {
         "name": "Suomenmaa.fi",
         "url": "https://www.suomenmaa.fi"
+      }
+    },
+    {
+      "id": "c084e75ac01a",
+      "title": "Kuittaatko köhimisen tupakkayskäksi? – Erikoislääkäri kertoo, milloin pitää epäillä keuhkoahtaumatautia - Apu360",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPempmQ2JzeUNuRWJtWFF4cGozektncEpsRjVSM0R3TWdnLUZwUnY4VzBiandycW04OWlvak1ieXNaWlZPWHp4Vi0yQzNwR1VfWFNETS1NZW5CdXdzbFZhRlJQNlZfVHNpSnhza2IzcjRwTUF4RGZ6ajROVXgydEF5M09HWE1uNUdRQzFSUGNCU19ZWjF0TUQzMV9sa0R4TDVaVkVlbWs3cWR5OUE?oc=5",
+      "published": "2026-08-11T07:00:00+00:00",
+      "source": {
+        "name": "Apu360",
+        "url": "https://www.apu.fi"
       }
     },
     {
@@ -204,12 +204,12 @@
       }
     },
     {
-      "id": "cfc89e488a98",
-      "title": "Lääkejätteen palauttaminen apteekkiin on tärkeää, mutta eniten ympäristöä auttaisi lääkkeiden järkevä käyttö - apteekkari.fi",
+      "id": "776f88aedda1",
+      "title": "Lääkejätteen palauttaminen apteekkiin on tärkeää, mutta eniten ympäristöä auttaisi lääkkeiden järkevä käyttö - Apteekkari",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPNlRod3RVQ2lDR1phSFpOczFMdHlzQkVQSHB6M1hZTTlaMnpHaGp3UWZWT1VINFptcGxxSEZsdWZjTXRTU3hyWXpDS3ZXTEM4clNaSVQ4STBySzNJWEd4X0ZES3V3RjdGZjNyNzhJd05TYWFfemFqRWNvR25VWW9DUjdaNVIxVzIwNC12UzJkRDBmVUNPWThYSWswMmFkU0F4TnkzM1BSVTBocHFGVUNLQ2xRbDVpT21fX0hXVE1ub29BMzZlMjNvekhzUUN0bm5wTm9lb0g2U1ItUQ?oc=5",
       "published": "2026-04-23T07:00:00+00:00",
       "source": {
-        "name": "apteekkari.fi",
+        "name": "Apteekkari",
         "url": "https://www.apteekkari.fi"
       }
     },

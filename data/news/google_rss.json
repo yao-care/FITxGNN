@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-17T05:23:56.947980+00:00",
+  "fetched_at": "2026-08-17T06:26:25.107527+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -64,12 +64,12 @@
       }
     },
     {
-      "id": "903af3fe89d3",
-      "title": "Taina Siltanen sai uudesta syöpälääkkeestä lisävuosia – Kelan kiristynyt linjaus tuntuu hänestä kohtuuttomalta - kaleva.fi",
+      "id": "711930c1c8f9",
+      "title": "Taina Siltanen sai uudesta syöpälääkkeestä lisävuosia – Kelan kiristynyt linjaus tuntuu hänestä kohtuuttomalta - Kaleva",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQnZxOVJyUE10WnNZd2RsZmEyTjBlZG54dGlWQkRSWTkyV1lDcVVQTm41X0NKTUJ6NUZDOGsyZlNkWlZ6WTNNU1daeEZacHZsd21NTFVaWVVheUpJN0dKM1l6a2VvTEUzSC14TzJhaXhucFRzMmRLc05hc3ljQUg5LVg1eVVxYnIz?oc=5",
       "published": "2026-07-22T07:00:00+00:00",
       "source": {
-        "name": "kaleva.fi",
+        "name": "Kaleva",
         "url": "https://www.kaleva.fi"
       }
     },
@@ -424,12 +424,12 @@
       }
     },
     {
-      "id": "9acfdf5305fb",
-      "title": "Moni käyttää näitä lääkkeitä raskausaikana – nyt ne liitettiin lapsen autismiriskiin - Kaksplus.fi",
+      "id": "6c1fc5baa1a7",
+      "title": "Moni käyttää näitä lääkkeitä raskausaikana – nyt ne liitettiin lapsen autismiriskiin - kaksplus.fi",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZUJ3aTdYM0JnLW9kLVdHRndvN3dYUk9BdFJHTmp2Nk44bm9HSmJwWHNuVUctYnVjcHlvckdlUVJESjVVb2l3bUNUS0JDZUJ1enlZM3FEQUlqdFR4dGhWdXRHd190RTBaUi04bnp5ak9NaFdoRnJ5N205M2hOUzdrR25GbWhPNlN3cXY4czdpeVFfTFcyQms4RWpua3JCSkExOV9KN2szSXJHLWJDc2l6RmFob1ViTHpVTklyTmRxeVVUZw?oc=5",
       "published": "2026-05-14T07:00:00+00:00",
       "source": {
-        "name": "Kaksplus.fi",
+        "name": "kaksplus.fi",
         "url": "https://kaksplus.fi"
       }
     },

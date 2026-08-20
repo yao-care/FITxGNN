@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-20T03:35:29.962637+00:00",
+  "fetched_at": "2026-08-20T04:23:03.174027+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -14,12 +14,12 @@
       }
     },
     {
-      "id": "1a3ccc8fb1a7",
-      "title": "Suomeen perustetaan FinTrials vauhdittamaan kliinisiä lääke- ja laitetutkimuksia - stm.fi",
+      "id": "f5c71ad608ba",
+      "title": "Suomeen perustetaan FinTrials vauhdittamaan kliinisiä lääke- ja laitetutkimuksia - Sosiaali- ja terveysministeriö",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZXZ2UnkwWWpZenNqS0F1Y2hRdlRnTjFxNmNwN3FYRnc3Z2NKd2lkVHhqeXRQM2RjMDZIRmtjMllCMTNERzlZQ3pNc0c2eTVUREtpbFRzdFNpNVRFYkVDaHFaek9rSjBzejl1RWxGejVGMzV0VHRSdWxfU3ZDQzhvUDNFbEl1Rks0Q1ZvU2F0YnFSVWxvQzBYeVJBdG0?oc=5",
       "published": "2026-06-09T07:00:00+00:00",
       "source": {
-        "name": "stm.fi",
+        "name": "Sosiaali- ja terveysministeriö",
         "url": "https://stm.fi"
       }
     },
@@ -204,23 +204,13 @@
       }
     },
     {
-      "id": "d465e683ea4c",
-      "title": "Automaatio tehostaa lääkkeiden potilaskohtaista jakoa ja parantaa potilasturvallisuutta - University of Helsinki",
+      "id": "c6dafa71b643",
+      "title": "Automaatio tehostaa lääkkeiden potilaskohtaista jakoa ja parantaa potilasturvallisuutta - helsinki.fi",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORzMySU01ZTFZSVd4VVBwTThpYXVMSGJJclR2QnpLSGItOVhLTUFldWJKVWR0Z09kcjBzMHVkRXRxTVViY1JjeDlwRmlnbzBZWGk5T3lReEdWekFQbEtCNFA0NGljODAzUUtEUjRlQjJ4VkN0QkN4bFZFUWlqSDQ0dWY1T3hDeXBZdzFOa08yc3ZqbVJnUzItSkRXQ29zNzFnc0EybFNfdkZ6U0dWTElQYnJQQnpnTmM3YzBoM2w1SFJXUnRsQzV3ZVl3?oc=5",
       "published": "2026-03-11T07:00:00+00:00",
       "source": {
-        "name": "University of Helsinki",
+        "name": "helsinki.fi",
         "url": "https://www.helsinki.fi"
-      }
-    },
-    {
-      "id": "9dfedf0e0e73",
-      "title": "Häiriö koskee satoja lääkkeitä – Lääkepula voi koskea myös sinua - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRFNIQ0RCUHhvV2p2eXpCVWtFSkhqU0N0aG9XZUR2ZXhxdnNmRTZoM0VZMFpLVDM5eGkzUDhPelZKalpPSFBlM2oxcXFuSnBJbTBTaFB0QkRBcXR2NHg0cEtGQkJ2b0pldld6eGJWbjh4c0l1UUE0THZ6VWpmT2xxYVVQRFk?oc=5",
-      "published": "2026-01-07T08:00:00+00:00",
-      "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
       }
     },
     {
@@ -274,6 +264,16 @@
       }
     },
     {
+      "id": "9dfedf0e0e73",
+      "title": "Häiriö koskee satoja lääkkeitä – Lääkepula voi koskea myös sinua - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRFNIQ0RCUHhvV2p2eXpCVWtFSkhqU0N0aG9XZUR2ZXhxdnNmRTZoM0VZMFpLVDM5eGkzUDhPelZKalpPSFBlM2oxcXFuSnBJbTBTaFB0QkRBcXR2NHg0cEtGQkJ2b0pldld6eGJWbjh4c0l1UUE0THZ6VWpmT2xxYVVQRFk?oc=5",
+      "published": "2026-01-07T08:00:00+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
+      }
+    },
+    {
       "id": "fec884287619",
       "title": "Näistä lääkkeistä tarvitset matkalle todistuksen – muuten voit joutua lentokentällä ongelmiin - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5zdmNQYzNhRFRxMGlKUHl5RXNyS3BnakQxQlFfdEdzbWh4R3dIVlphaFMtdnlCU1RPNUxGQWJvX0hFRENkX1Bsc2YtMDdEZGd3RlljeHZGMURyTWcz?oc=5",
@@ -308,6 +308,16 @@
       "title": "Päihdelääkärien hätähuuto: Tärkeä lääke loppuu koko Suomesta - Iltalehti",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSG50UnBGSzVhUHNxS1JHbldXcWRhYXpHeFkzendhLTY3dFozTXV1TmF5c1FtOE15UlFTcThfZHVLX3h1Y0swYTNqdzRmdTJaMDRGNU9aX202TGs2MDJQXzZlNHhzWkYzUDlLSHpDNnV6bXQ0UjV2b3JIYW9WLWZiM3ZIWUo?oc=5",
       "published": "2025-11-06T08:00:00+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
+      }
+    },
+    {
+      "id": "f8912b2c33b3",
+      "title": "Kolesterolilääkkeellä toinenkin puoli – Muuttaa käsitystä - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZjR6LUZsMGdyOXhJa2l4YTZHX05pX2o0dXlwTmhaN2JzNEFiS3JjWlRoYkRsblRYZ1ZNRF9ydWlwdjhDOHFnZjlHc3dsejlxOXF2ZmlLSjh4Rkh3aExWR1lzR1U5VmtpQjBGVVZjRXFZcnVlaEJJSzFya2lWRE5hWU9IWkk?oc=5",
+      "published": "2026-03-31T07:00:00+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
@@ -654,16 +664,6 @@
       }
     },
     {
-      "id": "d7df60842659",
-      "title": "Kolesterolilääkkeiden käyttöön liittyy huolestuttava ilmiö – erikoislääkäri pitää tilannetta vakavana - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBieVJxM2JFVml3TWhESEF1SGdXOHpXS25HcUFfRm5oY0VwRTlpX0RYenVVUW1YWS1yc3pmUWVVOVB2aHRCUVEwZW9vX1dxMjZYUXJHczl1VjJtTi1f?oc=5",
-      "published": "2025-12-26T08:00:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
-      }
-    },
-    {
       "id": "f559c0643ef0",
       "title": "Ylilääkäri: Parasetamoli on edelleen turvallinen raskaana oleville, vaikka Trump väittää muuta - Yle",
       "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1aaVdfT2Z1V0lrNWhCa1AybEMwWU93c2U5REgteXVvZkxNdXJhV2hpb0tGYWlhaW45anNFMDk2bUJYUQ?oc=5",
@@ -671,6 +671,16 @@
       "source": {
         "name": "Yle",
         "url": "https://yle.fi"
+      }
+    },
+    {
+      "id": "d7df60842659",
+      "title": "Kolesterolilääkkeiden käyttöön liittyy huolestuttava ilmiö – erikoislääkäri pitää tilannetta vakavana - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBieVJxM2JFVml3TWhESEF1SGdXOHpXS25HcUFfRm5oY0VwRTlpX0RYenVVUW1YWS1yc3pmUWVVOVB2aHRCUVEwZW9vX1dxMjZYUXJHczl1VjJtTi1f?oc=5",
+      "published": "2025-12-26T08:00:00+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
       }
     },
     {
@@ -774,20 +784,20 @@
       }
     },
     {
-      "id": "8a3e1762e8cb",
-      "title": "Koronasta toipuneen sisällä piilee lääke samaan tautiin - voi olla nopein tapa pelastaa potilaita - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQa21hVzNpVTduRXdvTC10OWdNM3ZZcVU5RVpaT2xGa0cxYk1QeUQ5RWRvdS1rQVpWejZkWVJack5jdWVLVmpwR2hISlVkdWs1QUlqaUROcERfUXpUaTFPQ0NHd3RjT0Z2czN0VEIyRG9fWk9rRmxFZEs3WDNWNG5fbTBhQzg?oc=5",
-      "published": "2020-04-18T07:00:00+00:00",
+      "id": "626573c28c2e",
+      "title": "Jos sinulla on tällainen lääke, älä ota alkoholia - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObVdDcjNVVlRJY0JZNDBfa3p5Z2s5dk4wZGl5UFBxSGJlWXN1cU1VOHBKRjJRWTAwWDJOcWY2dFV1ckJkcUFGZXJzN2dRTnREQXJpTjZIaXNWNGd6NHlReXdlY1d1dGlwLUtFdlNqbGl1NlEybnd2a2hhSlNFd3U3Z29HeTI?oc=5",
+      "published": "2025-06-01T07:00:00+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
       }
     },
     {
-      "id": "626573c28c2e",
-      "title": "Jos sinulla on tällainen lääke, älä ota alkoholia - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObVdDcjNVVlRJY0JZNDBfa3p5Z2s5dk4wZGl5UFBxSGJlWXN1cU1VOHBKRjJRWTAwWDJOcWY2dFV1ckJkcUFGZXJzN2dRTnREQXJpTjZIaXNWNGd6NHlReXdlY1d1dGlwLUtFdlNqbGl1NlEybnd2a2hhSlNFd3U3Z29HeTI?oc=5",
-      "published": "2025-06-01T07:00:00+00:00",
+      "id": "8a3e1762e8cb",
+      "title": "Koronasta toipuneen sisällä piilee lääke samaan tautiin - voi olla nopein tapa pelastaa potilaita - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQa21hVzNpVTduRXdvTC10OWdNM3ZZcVU5RVpaT2xGa0cxYk1QeUQ5RWRvdS1rQVpWejZkWVJack5jdWVLVmpwR2hISlVkdWs1QUlqaUROcERfUXpUaTFPQ0NHd3RjT0Z2czN0VEIyRG9fWk9rRmxFZEs3WDNWNG5fbTBhQzg?oc=5",
+      "published": "2020-04-18T07:00:00+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
@@ -914,12 +924,12 @@
       }
     },
     {
-      "id": "0ad2c547427b",
-      "title": "Liike on lääke, mutta mikä saisi meidät liikkumaan enemmän? - University of Helsinki",
+      "id": "7513ab00e8c5",
+      "title": "Liike on lääke, mutta mikä saisi meidät liikkumaan enemmän? - helsinki.fi",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxON0RGUmUtaFMtTzRnekJMSlVqLUVpZlFaZEtkV2Yxc1N6cUJDX2lWQW1CMTFTQ29CYzdpU0Nlc2lmUDZ0Q2ZmdEhFWVFtb0g2SDZ6dzNKRV9hd3BFUDQ0RUo0czJZWVY5SkdVYmRnb1JPZXlOY1NYaGR5NVQzTUVXbU9mNllMVWpFU25OZ2NyN0N6LXdzVHY4cG9sZ1VnNHdjczE1MVBrcEc?oc=5",
       "published": "2023-05-09T07:00:00+00:00",
       "source": {
-        "name": "University of Helsinki",
+        "name": "helsinki.fi",
         "url": "https://www.helsinki.fi"
       }
     },
@@ -988,16 +998,6 @@
       "title": "Lääkkeiden nimet sekaisin – Lähes jopa viides olisi valinnut väärän itsehoitolääkkeen - Iltalehti",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxON0ZXZE03MnNUbTFkc1dDTml2anowd19JVFR6amRTcFZoX2FKQ0ZmcTVGTWxQQlZJanVjY0NYOG5IdElTWkFBVXQ3bzRqeTRGeTZoelJWTUNFRmVGcWloUUZ6Wm1ueHFSQ3l2aVdXSHctUzB2RE04aGpWY2MxSjhOQ0c5blc?oc=5",
       "published": "2025-06-26T07:00:00+00:00",
-      "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
-      }
-    },
-    {
-      "id": "b58c4e2fcf8b",
-      "title": "Tutkimus: Uusi Alzheimer-lääke hidastaa sairautta merkittävästi - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOajFRdzZqRjhUb3dFZU5zemd2RWZEc2JJYzRFci1hZWFtNEZoamg4XzJDSVd5MlBXWjRVMW5yTHVkaXJzQ2U0UW1GSDJ1MWZtZENOekQtdVhqNmxXb1gzc2lLRFF1SjF6dVZmNDB3QWFZZzhMcUNFWVY5YnFqNVpnZ3h3SDA?oc=5",
-      "published": "2023-07-18T07:00:00+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"

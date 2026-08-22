@@ -1,18 +1,8 @@
 {
-  "fetched_at": "2026-08-22T04:19:18.863496+00:00",
+  "fetched_at": "2026-08-22T05:15:01.408916+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
-    {
-      "id": "b9b9d97afddb",
-      "title": "Sääret turpoavat, mikä neuvoksi? - Hyvä Terveys",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZ1hpRUVXc0tiTFlxZjRodFhfQ1ExR1FVOUZqcFBNTW5QazZvNkhDRWo4YjJySTU3OGZ1d2hrVEF5VmZkM2dCTi1qZE9RU1Q3dEp6RTV5SDRvcTFqVGZ0bDBONzF3S01zSHBSS0VzZFBqSXBTdnFNN1NQT0lfekVBQQ?oc=5",
-      "published": "2026-08-21T05:00:29+00:00",
-      "source": {
-        "name": "Hyvä Terveys",
-        "url": "https://www.hyvaterveys.fi"
-      }
-    },
     {
       "id": "b4e91c396027",
       "title": "Tutkijat antoivat nivelrikkopotilaille yhtä ”lääkettä” päivittäin – Tulos yllätti jopa asiantuntijat - Iltalehti",
@@ -21,6 +11,16 @@
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
+      }
+    },
+    {
+      "id": "b9b9d97afddb",
+      "title": "Sääret turpoavat, mikä neuvoksi? - Hyvä Terveys",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZ1hpRUVXc0tiTFlxZjRodFhfQ1ExR1FVOUZqcFBNTW5QazZvNkhDRWo4YjJySTU3OGZ1d2hrVEF5VmZkM2dCTi1qZE9RU1Q3dEp6RTV5SDRvcTFqVGZ0bDBONzF3S01zSHBSS0VzZFBqSXBTdnFNN1NQT0lfekVBQQ?oc=5",
+      "published": "2026-08-21T05:00:29+00:00",
+      "source": {
+        "name": "Hyvä Terveys",
+        "url": "https://www.hyvaterveys.fi"
       }
     },
     {

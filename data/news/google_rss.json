@@ -1,8 +1,18 @@
 {
-  "fetched_at": "2026-08-22T14:08:54.338407+00:00",
+  "fetched_at": "2026-08-22T15:08:21.594260+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
+    {
+      "id": "96e5a731ea3c",
+      "title": "Alzheimer-hoito maksoi 67000 euroa – taudin merkki hävisi aivokuvasta - Verkkouutiset",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZHExLTFfbHR6LWxsUUF0WWpNdDVaSTMzeGtwN3ctcndHa2pKTFFwdkQ4RFlXTlY4OUYwQ0R1bDZFNThTNUNRTndtZkdTS0dnRGswcjI1bUxFaGdMRE5MY3ZWU3ZCOGpfN3JhZkFTeG1DdF9Mejd5ZnlWd3hwNGV3YVduZ2dHRFV5NXNQS1hwQXN6UHR3T3E3ekgzdXIxN0dI?oc=5",
+      "published": "2026-08-22T14:45:57+00:00",
+      "source": {
+        "name": "Verkkouutiset",
+        "url": "https://www.verkkouutiset.fi"
+      }
+    },
     {
       "id": "b4e91c396027",
       "title": "Tutkijat antoivat nivelrikkopotilaille yhtä ”lääkettä” päivittäin – Tulos yllätti jopa asiantuntijat - Iltalehti",
@@ -124,20 +134,10 @@
       }
     },
     {
-      "id": "defe709b642f",
-      "title": "Superbakteeriin löytyi uusi lääke – “Valtava käännekohta\" - Suomenmaa.fi",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPa0lQTjFfaWhUTVdpZUU1M1hqYklsNG8zYUM5ZndOZi1YME1VdW1xZ05XZGEtTE82QnhsWXgxUVJJRTc3dXhPSUZEX09PVm9VNmlORFBhaXhDWTFPUTFRcnlTemNoT1gwMHJSOV9LWDRIOTZtWDUtVXVFUWlYUFRPRzZtckZNbGxqQ1kwV0w4bVI?oc=5",
-      "published": "2025-12-16T08:00:00+00:00",
-      "source": {
-        "name": "Suomenmaa.fi",
-        "url": "https://www.suomenmaa.fi"
-      }
-    },
-    {
-      "id": "a190bc4042a1",
-      "title": "Tällainen on lääke, jota Trumpin väitetään saaneen - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUjlLSUp3UHhfNWtlVFVLNW5ONTZxdjl6T3BDLXA0VGhleXh5ZXFtbXRiRFdKNjNybG1SZ01zQkZHX0Y0djhkd2Y4c0p5UFJkRHVrMVRqRkdqR1ZNSXJNQUlnTDJvRUoyNVgyejNlSjRvSDZra1l1RXNSZzJ3bTRyZV9kMVg?oc=5",
-      "published": "2026-06-26T07:00:00+00:00",
+      "id": "239d37a26b1c",
+      "title": "Näin käy, jos syö vahingossa masennuslääkettä - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWDlpa24wV1RYMWZzREZ6ZHlsR0JYMVpRZlZxSUJvWldxRk5aLXlTUE9MTHNSX1hFbmJOemZpeVpEZ3Z2WkR1b3BMMU9IVDJzUGI1TjNNbGQyaExMeUFuMTJGNFV1ajdlbkw5YS1EVzRPakEtVlhMaEJHaXhSNGZJdzkwWEQ?oc=5",
+      "published": "2026-08-08T07:00:00+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
@@ -154,10 +154,10 @@
       }
     },
     {
-      "id": "5e1be85a232d",
-      "title": "Kärsitkö korkeasta kolesterolista? Nyt tuli mullistava uutinen - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBnVWs2SG9IRWxmbjFnWTFkb3lLNkVnZkxjLTlUd3JQRTZVZS1iUW5yT3dJZjhHd3lmMERhZnNtNE5mR1JOTWNNS1MxUnY2UkVWVktFSEIwcFZpWFQ1S3FoaTlhaU1FMDlLd0ZCaWRCN2R1amNwcmRsVA?oc=5",
-      "published": "2026-07-16T07:00:00+00:00",
+      "id": "a190bc4042a1",
+      "title": "Tällainen on lääke, jota Trumpin väitetään saaneen - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUjlLSUp3UHhfNWtlVFVLNW5ONTZxdjl6T3BDLXA0VGhleXh5ZXFtbXRiRFdKNjNybG1SZ01zQkZHX0Y0djhkd2Y4c0p5UFJkRHVrMVRqRkdqR1ZNSXJNQUlnTDJvRUoyNVgyejNlSjRvSDZra1l1RXNSZzJ3bTRyZV9kMVg?oc=5",
+      "published": "2026-06-26T07:00:00+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
@@ -174,10 +174,30 @@
       }
     },
     {
+      "id": "5e1be85a232d",
+      "title": "Kärsitkö korkeasta kolesterolista? Nyt tuli mullistava uutinen - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBnVWs2SG9IRWxmbjFnWTFkb3lLNkVnZkxjLTlUd3JQRTZVZS1iUW5yT3dJZjhHd3lmMERhZnNtNE5mR1JOTWNNS1MxUnY2UkVWVktFSEIwcFZpWFQ1S3FoaTlhaU1FMDlLd0ZCaWRCN2R1amNwcmRsVA?oc=5",
+      "published": "2026-07-16T07:00:00+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
+      }
+    },
+    {
       "id": "45fd296f05bb",
       "title": "Tämä lääke voi tehdä hampaille pahaa – ”Odota puoli tuntia” - Iltalehti",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaFpXa01RNnlKNEo2ZmdCMjhOTWRpTk9mRm1QWG5qZFNNbW4zOXFTTFJmdHdaYjNENi1xN3hmSDc1bXp3S1h6Ujc0N2szRDR4OS1TaEtBRllnNDNsbGlHeEtvMmItSDNmeHRMMjF0YnF0MU1EekNCNVNuRTMtOE94X18xRHg?oc=5",
       "published": "2026-05-22T07:00:00+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
+      }
+    },
+    {
+      "id": "f0632647474b",
+      "title": "Suomea riivaa lääkekaaos, joka voi ajaa hengenvaarallisiin tilanteisiin, sanovat asiantuntijat – Nämä ovat riskilääkkeitä - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOaER5MHlOYjFaTWM3RlZ1Ulg4U3Z5enUzTDc5MHprcW45SThZVFkwbWlic001QXNmdVJTLWpGTU8tZXJPTVptbWNqZ3o5LW04UE1SdWFnbGFHay0ySFJpdXpYRFZ1SGl1ck9EamNwV3Y0OHNidVpoLWUzOEFVZXdGRUZiSmQ?oc=5",
+      "published": "2026-06-25T07:00:00+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
@@ -194,13 +214,13 @@
       }
     },
     {
-      "id": "f0632647474b",
-      "title": "Suomea riivaa lääkekaaos, joka voi ajaa hengenvaarallisiin tilanteisiin, sanovat asiantuntijat – Nämä ovat riskilääkkeitä - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOaER5MHlOYjFaTWM3RlZ1Ulg4U3Z5enUzTDc5MHprcW45SThZVFkwbWlic001QXNmdVJTLWpGTU8tZXJPTVptbWNqZ3o5LW04UE1SdWFnbGFHay0ySFJpdXpYRFZ1SGl1ck9EamNwV3Y0OHNidVpoLWUzOEFVZXdGRUZiSmQ?oc=5",
-      "published": "2026-06-25T07:00:00+00:00",
+      "id": "defe709b642f",
+      "title": "Superbakteeriin löytyi uusi lääke – “Valtava käännekohta\" - Suomenmaa.fi",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPa0lQTjFfaWhUTVdpZUU1M1hqYklsNG8zYUM5ZndOZi1YME1VdW1xZ05XZGEtTE82QnhsWXgxUVJJRTc3dXhPSUZEX09PVm9VNmlORFBhaXhDWTFPUTFRcnlTemNoT1gwMHJSOV9LWDRIOTZtWDUtVXVFUWlYUFRPRzZtckZNbGxqQ1kwV0w4bVI?oc=5",
+      "published": "2025-12-16T08:00:00+00:00",
       "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
+        "name": "Suomenmaa.fi",
+        "url": "https://www.suomenmaa.fi"
       }
     },
     {
@@ -964,16 +984,6 @@
       }
     },
     {
-      "id": "e3de84d459bc",
-      "title": "Karmeita mokia lääkkeiden käytössä: Suuri osa sairastuneista ei edes hae niitä apteekista – ja yhtä moni nielee ne väärin - Yle",
-      "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9HYmtfWUlncHNWdDJvcWhPZVNYNEpGM0NfaWdoZnFkdjlORHpHRmlSV2M3cnhoYTA1NDZlUklHaw?oc=5",
-      "published": "2016-09-15T07:00:00+00:00",
-      "source": {
-        "name": "Yle",
-        "url": "https://yle.fi"
-      }
-    },
-    {
       "id": "372ac6fb8fe0",
       "title": "Laihdutuslääkkeet voivat viedä ruokahalun jopa kokonaan – Liian niukka syöminen johtaa herkästi terveysongelmiin - Apu360",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZFpJeE0xLXNwRnRlUkVBOWNiSVRBVy1mNmRrSnk4YU1MNFh5VDViTlZBaTY3Z3BmN3l5cF9HTVJsRk5wSXZERkljbVNKTjdzNkN0eEF2M2ZtWUVlYWp3ZXp4Rkpxc0pjWUFVTzd2aVh1SXlFRWRuT3Q1dklDXzlCWlZZaGhYMlpBWFVlNWdmUC13a2dXMWc?oc=5",
@@ -984,23 +994,13 @@
       }
     },
     {
-      "id": "fc4a8857502d",
-      "title": "Masennuslääkkeistä vierotusoireita huomattavan isolle osalle käyttäjistä – Nämä tekijät lisäävät oireiden riskiä - Apu360",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdUlEeHRjQXRzYm5BMTYwSWNCV2NuRjhsNl9Mdml0SWZPdkxCRUpUcUtPODliZ25hY182ZHdOTlUxMXY1aDl2OHNSdHlYQnpkZGVaWHVNWjVzVVJ3dXBMcV9ibWNVM0NtVE9STWJMU2gtd1ZVbTZUbFNtX2ZoeVhUWWVhbEQ0T2h4RGNveGN6cFV4dTE1RGc?oc=5",
-      "published": "2025-07-24T07:00:00+00:00",
+      "id": "e3de84d459bc",
+      "title": "Karmeita mokia lääkkeiden käytössä: Suuri osa sairastuneista ei edes hae niitä apteekista – ja yhtä moni nielee ne väärin - Yle",
+      "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9HYmtfWUlncHNWdDJvcWhPZVNYNEpGM0NfaWdoZnFkdjlORHpHRmlSV2M3cnhoYTA1NDZlUklHaw?oc=5",
+      "published": "2016-09-15T07:00:00+00:00",
       "source": {
-        "name": "Apu360",
-        "url": "https://www.apu.fi"
-      }
-    },
-    {
-      "id": "5cffd0b7ccd9",
-      "title": "Löytyikö Alzheimerin taudin etenemistä hidastava lääke vihdoin? Suomalaisprofessori arvioi ”historiallisen läpimurron” - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB2RVRFRW1lSGlVWklHdnFYMTQyc0NuR3N3RVBKSmx0akotVzNvOXRpci0tUFdwU0ZET1RGWkFfWTVOdGw0MTYxSnZMYlUtZHc1QU5FRXVpTHBQb01K?oc=5",
-      "published": "2022-11-30T08:00:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
+        "name": "Yle",
+        "url": "https://yle.fi"
       }
     }
   ]

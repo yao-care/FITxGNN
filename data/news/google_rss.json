@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-23T06:18:39.998389+00:00",
+  "fetched_at": "2026-08-23T07:22:35.800750+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -514,16 +514,6 @@
       }
     },
     {
-      "id": "f559c0643ef0",
-      "title": "Ylilääkäri: Parasetamoli on edelleen turvallinen raskaana oleville, vaikka Trump väittää muuta - Yle",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1aaVdfT2Z1V0lrNWhCa1AybEMwWU93c2U5REgteXVvZkxNdXJhV2hpb0tGYWlhaW45anNFMDk2bUJYUQ?oc=5",
-      "published": "2025-09-23T07:00:00+00:00",
-      "source": {
-        "name": "Yle",
-        "url": "https://yle.fi"
-      }
-    },
-    {
       "id": "6dfa687ca792",
       "title": "ADHD-lääke auttaa miljoonia, mutta se ei toimi kuten luultiin – asiantuntija yllättyi - Tieteen Kuvalehti",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbTlmamR3c1RHTGgwRGpxLUhsc25GZXdqVW1VNENyWjgxbGVMbmpyS05VMzR5Q3VtempGZ1hCdU56RVVhY0NkUFVpc25aYmQwaU9xdkJmU1JMaFh0WlhUZ3ZKOWRjdGtVbkRXUnQ3S1BOUXUyUnNIa1ctUWdKbWozMUs1UU43X0VSR21KWGM4R1RuY01MN3YtNXRmVUN3OHRPbUZyR215UFRJak0?oc=5",
@@ -531,6 +521,16 @@
       "source": {
         "name": "Tieteen Kuvalehti",
         "url": "https://tieku.fi"
+      }
+    },
+    {
+      "id": "f559c0643ef0",
+      "title": "Ylilääkäri: Parasetamoli on edelleen turvallinen raskaana oleville, vaikka Trump väittää muuta - Yle",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1aaVdfT2Z1V0lrNWhCa1AybEMwWU93c2U5REgteXVvZkxNdXJhV2hpb0tGYWlhaW45anNFMDk2bUJYUQ?oc=5",
+      "published": "2025-09-23T07:00:00+00:00",
+      "source": {
+        "name": "Yle",
+        "url": "https://yle.fi"
       }
     },
     {
@@ -584,16 +584,6 @@
       }
     },
     {
-      "id": "7f79e9600618",
-      "title": "Vihdoin uutta toivoa erityisesti lapsilla esiintyvän syövän hoitoon – \"Ei juurikaan edistystä sitten 70-luvun\" - mtvuutiset.fi",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPVTFsbDNFdTg4b3Z3REwwQmUwWVlUcFlyQnZYRlZnOFVmXzZhUFhWeDJNR3loNUtDSl9PUGJ0anBUaW1PdzJyZ2RhUDdsQ25CZGlzTnYzYW1xZzFaZGdOOXJFaFlKTXJYbUV5cXFPeFVzWDljR0tFZGtJQkFFZ1ZSTERiU0N5R0FMWTM2NDFhZjFwY3k3YUQycENrTGRXQ3pBMjhDcWdrT3F0S3BVa05Rb2V6QlRKNnJ4OTl1bzV5bzFta0JKUUxWM29XQko3ZGZQc2xlb3A3cXptVDNpMUg3a0F4Rkw?oc=5",
-      "published": "2025-10-13T07:00:00+00:00",
-      "source": {
-        "name": "mtvuutiset.fi",
-        "url": "https://www.mtvuutiset.fi"
-      }
-    },
-    {
       "id": "0ad2c547427b",
       "title": "Liike on lääke, mutta mikä saisi meidät liikkumaan enemmän? - University of Helsinki",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxON0RGUmUtaFMtTzRnekJMSlVqLUVpZlFaZEtkV2Yxc1N6cUJDX2lWQW1CMTFTQ29CYzdpU0Nlc2lmUDZ0Q2ZmdEhFWVFtb0g2SDZ6dzNKRV9hd3BFUDQ0RUo0czJZWVY5SkdVYmRnb1JPZXlOY1NYaGR5NVQzTUVXbU9mNllMVWpFU25OZ2NyN0N6LXdzVHY4cG9sZ1VnNHdjczE1MVBrcEc?oc=5",
@@ -601,6 +591,16 @@
       "source": {
         "name": "University of Helsinki",
         "url": "https://www.helsinki.fi"
+      }
+    },
+    {
+      "id": "7f79e9600618",
+      "title": "Vihdoin uutta toivoa erityisesti lapsilla esiintyvän syövän hoitoon – \"Ei juurikaan edistystä sitten 70-luvun\" - mtvuutiset.fi",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPVTFsbDNFdTg4b3Z3REwwQmUwWVlUcFlyQnZYRlZnOFVmXzZhUFhWeDJNR3loNUtDSl9PUGJ0anBUaW1PdzJyZ2RhUDdsQ25CZGlzTnYzYW1xZzFaZGdOOXJFaFlKTXJYbUV5cXFPeFVzWDljR0tFZGtJQkFFZ1ZSTERiU0N5R0FMWTM2NDFhZjFwY3k3YUQycENrTGRXQ3pBMjhDcWdrT3F0S3BVa05Rb2V6QlRKNnJ4OTl1bzV5bzFta0JKUUxWM29XQko3ZGZQc2xlb3A3cXptVDNpMUg3a0F4Rkw?oc=5",
+      "published": "2025-10-13T07:00:00+00:00",
+      "source": {
+        "name": "mtvuutiset.fi",
+        "url": "https://www.mtvuutiset.fi"
       }
     },
     {

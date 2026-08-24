@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-24T03:41:16.130577+00:00",
+  "fetched_at": "2026-08-24T04:32:38.874216+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -844,16 +844,6 @@
       }
     },
     {
-      "id": "ff27e4a70146",
-      "title": "Sairaan alkuvuosi on kallis, kun omavastuut nollaantuvat: \"Ei ole muuta mahdollisuutta kuin ruveta säästämään jo kesällä\" - Yle",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5jZ2tkd0Q2dWNkckp2RHZvTGJrOUVSZWV6QmtabE9tMThjd0dhVTJscnZQc1UydGpuSEJyUHplWk8?oc=5",
-      "published": "2020-01-06T08:00:00+00:00",
-      "source": {
-        "name": "Yle",
-        "url": "https://yle.fi"
-      }
-    },
-    {
       "id": "6b45b3c559e1",
       "title": "Yllättävä päätös: Suomalaisten lääkäreiden hehkuttama lääke sai täystyrmäyksen Euroopassa - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9yY1BBRzIzdmZ5MHllcG9uMFA1dlR4dVR6Nzd2MzlBaGRYV3gtV1Npd0loWlMwSkRWcDloTFpEWjBRODZfSEkxRkI3YnJUVDRMV3dVak5IUE9GbW5s?oc=5",
@@ -861,6 +851,16 @@
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
+      }
+    },
+    {
+      "id": "ff27e4a70146",
+      "title": "Sairaan alkuvuosi on kallis, kun omavastuut nollaantuvat: \"Ei ole muuta mahdollisuutta kuin ruveta säästämään jo kesällä\" - Yle",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5jZ2tkd0Q2dWNkckp2RHZvTGJrOUVSZWV6QmtabE9tMThjd0dhVTJscnZQc1UydGpuSEJyUHplWk8?oc=5",
+      "published": "2020-01-06T08:00:00+00:00",
+      "source": {
+        "name": "Yle",
+        "url": "https://yle.fi"
       }
     },
     {
@@ -914,16 +914,6 @@
       }
     },
     {
-      "id": "6d1dd8d58ee5",
-      "title": "Lääke lihottaa - Terve.fi",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE16QnhYRWZvaWtjSlFYSTk1UElQZjV4c1NueVlPV3MtXzlqWlhsTWsyZkFkT1NOZ21ieDJ2ZXRQcDNGTVBPdUtQQXM5dGhNcGZ5UTFFRVBUNG5hbGVWRkcyag?oc=5",
-      "published": "2019-01-09T08:00:00+00:00",
-      "source": {
-        "name": "Terve.fi",
-        "url": "https://www.terve.fi"
-      }
-    },
-    {
       "id": "7904c07dfeaf",
       "title": "Tällaisia haittavaikutuksia Ozempicillä voi olla – erityisesti tämä huolettaa asiantuntijoita - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9lNV9abFJCY1ZaRm1uYVc5NEtCUFNMRnZlQXVyUW5nVXVtWm1aTFNLV25wQ1RPWkVDMWhLMVpVS0Vjb1p4MEN0c2FVb2FMZW43Y01zNFREVVpSOGdj?oc=5",
@@ -931,6 +921,16 @@
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
+      }
+    },
+    {
+      "id": "6d1dd8d58ee5",
+      "title": "Lääke lihottaa - Terve.fi",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE16QnhYRWZvaWtjSlFYSTk1UElQZjV4c1NueVlPV3MtXzlqWlhsTWsyZkFkT1NOZ21ieDJ2ZXRQcDNGTVBPdUtQQXM5dGhNcGZ5UTFFRVBUNG5hbGVWRkcyag?oc=5",
+      "published": "2019-01-09T08:00:00+00:00",
+      "source": {
+        "name": "Terve.fi",
+        "url": "https://www.terve.fi"
       }
     },
     {

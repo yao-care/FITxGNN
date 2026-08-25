@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-25T21:14:46.903313+00:00",
+  "fetched_at": "2026-08-25T22:12:03.598085+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -634,16 +634,6 @@
       }
     },
     {
-      "id": "8ed58995a32e",
-      "title": "Toimi näin, kun haluat uusia reseptisi – yksi yleinen teko kuormittaa terveydenhuoltoa turhaan - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBPNlpVaHY2TWdSLXZtSkZHN1Z2Qi16VjdGbkpRUmFmLTBKeVdxbkl0YTBsQ29OS3hfb3BwbnpTMjlkT3M4WDlSbmVWUUdfMzIyUzR1X2hfcy10Skk2?oc=5",
-      "published": "2025-09-02T07:00:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
-      }
-    },
-    {
       "id": "84469cdae09d",
       "title": "Orion lopettaa ei-addiktoivan kipulääkkeen kehittelyn – lääke ehti herättää odotuksia - Yle",
       "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5sbWRfS3pRaGJhZnRPOFRPaTVuaGV1UFdGOGZwbER6S1NtLWg1WG1MQXNvVTMzVTdGY1JLVkJMdG93QQ?oc=5",
@@ -651,6 +641,16 @@
       "source": {
         "name": "Yle",
         "url": "https://yle.fi"
+      }
+    },
+    {
+      "id": "8ed58995a32e",
+      "title": "Toimi näin, kun haluat uusia reseptisi – yksi yleinen teko kuormittaa terveydenhuoltoa turhaan - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBPNlpVaHY2TWdSLXZtSkZHN1Z2Qi16VjdGbkpRUmFmLTBKeVdxbkl0YTBsQ29OS3hfb3BwbnpTMjlkT3M4WDlSbmVWUUdfMzIyUzR1X2hfcy10Skk2?oc=5",
+      "published": "2025-09-02T07:00:00+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
       }
     },
     {
@@ -954,16 +954,6 @@
       }
     },
     {
-      "id": "e3de84d459bc",
-      "title": "Karmeita mokia lääkkeiden käytössä: Suuri osa sairastuneista ei edes hae niitä apteekista – ja yhtä moni nielee ne väärin - Yle",
-      "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9HYmtfWUlncHNWdDJvcWhPZVNYNEpGM0NfaWdoZnFkdjlORHpHRmlSV2M3cnhoYTA1NDZlUklHaw?oc=5",
-      "published": "2016-09-15T07:00:00+00:00",
-      "source": {
-        "name": "Yle",
-        "url": "https://yle.fi"
-      }
-    },
-    {
       "id": "372ac6fb8fe0",
       "title": "Laihdutuslääkkeet voivat viedä ruokahalun jopa kokonaan – Liian niukka syöminen johtaa herkästi terveysongelmiin - Apu360",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZFpJeE0xLXNwRnRlUkVBOWNiSVRBVy1mNmRrSnk4YU1MNFh5VDViTlZBaTY3Z3BmN3l5cF9HTVJsRk5wSXZERkljbVNKTjdzNkN0eEF2M2ZtWUVlYWp3ZXp4Rkpxc0pjWUFVTzd2aVh1SXlFRWRuT3Q1dklDXzlCWlZZaGhYMlpBWFVlNWdmUC13a2dXMWc?oc=5",
@@ -971,6 +961,16 @@
       "source": {
         "name": "Apu360",
         "url": "https://www.apu.fi"
+      }
+    },
+    {
+      "id": "e3de84d459bc",
+      "title": "Karmeita mokia lääkkeiden käytössä: Suuri osa sairastuneista ei edes hae niitä apteekista – ja yhtä moni nielee ne väärin - Yle",
+      "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9HYmtfWUlncHNWdDJvcWhPZVNYNEpGM0NfaWdoZnFkdjlORHpHRmlSV2M3cnhoYTA1NDZlUklHaw?oc=5",
+      "published": "2016-09-15T07:00:00+00:00",
+      "source": {
+        "name": "Yle",
+        "url": "https://yle.fi"
       }
     },
     {

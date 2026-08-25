@@ -1,18 +1,8 @@
 {
-  "fetched_at": "2026-08-25T06:21:54.758035+00:00",
+  "fetched_at": "2026-08-25T07:33:04.883843+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
-    {
-      "id": "e63446e913fd",
-      "title": "Terveys | Jo 110 000 suomalaista käyttää lihavuuslääkettä – lääkärit varoittavat: reseptin voi saada liian helposti - Satakunnan Kansa",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4xWHI3QlFVOU5DMXpRNHBrQVFxYkpNQlk1emhWY25GR2ltdDlpN3M1Ull5REE5RndGaVBONTZiUkZoLVMtRjltZVFOLTE5d0J4dnFmN25BLW1LamUxSnVvb2d5MGQ1bmhid3ZVTEZB?oc=5",
-      "published": "2026-08-24T18:30:00+00:00",
-      "source": {
-        "name": "Satakunnan Kansa",
-        "url": "https://www.satakunnankansa.fi"
-      }
-    },
     {
       "id": "cabe751ee597",
       "title": "Tämä yleinen lääke voi hälyttää huumetestissä - Ilta-Sanomat",
@@ -21,6 +11,16 @@
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
+      }
+    },
+    {
+      "id": "e63446e913fd",
+      "title": "Terveys | Jo 110 000 suomalaista käyttää lihavuuslääkettä – lääkärit varoittavat: reseptin voi saada liian helposti - Satakunnan Kansa",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4xWHI3QlFVOU5DMXpRNHBrQVFxYkpNQlk1emhWY25GR2ltdDlpN3M1Ull5REE5RndGaVBONTZiUkZoLVMtRjltZVFOLTE5d0J4dnFmN25BLW1LamUxSnVvb2d5MGQ1bmhid3ZVTEZB?oc=5",
+      "published": "2026-08-24T18:30:00+00:00",
+      "source": {
+        "name": "Satakunnan Kansa",
+        "url": "https://www.satakunnankansa.fi"
       }
     },
     {

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-25T20:13:30.376512+00:00",
+  "fetched_at": "2026-08-25T21:14:46.903313+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -624,6 +624,16 @@
       }
     },
     {
+      "id": "3328bcd81682",
+      "title": "Yli miljardi ihmistä kärsii migreenistä: Tutkija havaitsi, että yleinen lääke voi mahdollisesti auttaa heitä - Tieteen Kuvalehti",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNcUVIYW11NGJMb3N0Mmg1TXhvSkhrVTBnVFNkX2hJUEEyUThqYVNiX0xRazFUbTNPblZrUk9kU0VQOXByLVJDV2stbkdmRFR3OFBvWDlrWlVMMld6Rk1GSDhFYVZUeTRqVlloM0tvQ3BOWC1ENGF0TEFGcTJjaXlsYlN5ZUtVM1NhbkZwcDh6dXZzNjFCSm52eFVqWFFwVEVJejNsMHdJUUJncm5raTBpcmRqdVdZOGM2ekQzWjZWbUJZNENISDZybk9pSQ?oc=5",
+      "published": "2025-10-13T07:00:00+00:00",
+      "source": {
+        "name": "Tieteen Kuvalehti",
+        "url": "https://tieku.fi"
+      }
+    },
+    {
       "id": "8ed58995a32e",
       "title": "Toimi näin, kun haluat uusia reseptisi – yksi yleinen teko kuormittaa terveydenhuoltoa turhaan - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBPNlpVaHY2TWdSLXZtSkZHN1Z2Qi16VjdGbkpRUmFmLTBKeVdxbkl0YTBsQ29OS3hfb3BwbnpTMjlkT3M4WDlSbmVWUUdfMzIyUzR1X2hfcy10Skk2?oc=5",
@@ -681,16 +691,6 @@
       "source": {
         "name": "Yle",
         "url": "https://yle.fi"
-      }
-    },
-    {
-      "id": "3328bcd81682",
-      "title": "Yli miljardi ihmistä kärsii migreenistä: Tutkija havaitsi, että yleinen lääke voi mahdollisesti auttaa heitä - Tieteen Kuvalehti",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNcUVIYW11NGJMb3N0Mmg1TXhvSkhrVTBnVFNkX2hJUEEyUThqYVNiX0xRazFUbTNPblZrUk9kU0VQOXByLVJDV2stbkdmRFR3OFBvWDlrWlVMMld6Rk1GSDhFYVZUeTRqVlloM0tvQ3BOWC1ENGF0TEFGcTJjaXlsYlN5ZUtVM1NhbkZwcDh6dXZzNjFCSm52eFVqWFFwVEVJejNsMHdJUUJncm5raTBpcmRqdVdZOGM2ekQzWjZWbUJZNENISDZybk9pSQ?oc=5",
-      "published": "2025-10-13T07:00:00+00:00",
-      "source": {
-        "name": "Tieteen Kuvalehti",
-        "url": "https://tieku.fi"
       }
     },
     {
@@ -904,16 +904,6 @@
       }
     },
     {
-      "id": "240f97606a52",
-      "title": "Mullistus syöpähoidoissa? Kaikki kokeellista lääkettä saaneet potilaat parantuivat - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE50Z2cxWHh1MXUzZnJuOFZQTVB1ZDNHeFFUdkhXUEpESm4xSFFDeS1Qc0stNExiZ25Ka3F5WUtvajJJVGNOOGRsczc1YzlPYzVwVWZ2R3h5ckNUNHlK?oc=5",
-      "published": "2022-06-08T07:00:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
-      }
-    },
-    {
       "id": "c2dff57e9fe8",
       "title": "Empatia voi hoitaa tehokkaammin kuin lääkkeet - Hyvä Terveys",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNFdjVU1zakhVbEgxVnJ1aDJXdjlTbGxNWGJhWGN2VS1rNVFlbjB3Tk1ISVM5MGZ4VDFicjh3b1F6MUpOY21QVTB5dVVQVkhuTHRSVzUwaWJPbHVBOVBkWk1kbjJsRWlxLXJzakNkbXB0d0g3ZEtWR0lSRVZYYXo3cXZldlJKTlJnbkFXUS1hc3pmV09P?oc=5",
@@ -924,13 +914,13 @@
       }
     },
     {
-      "id": "07da53e91f85",
-      "title": "Moni ikääntynyt käyttää jopa kymmentä eri lääkettä yhtä aikaa – lääkkeiden yhteensopivuus tulisi aina katsoa tarkkaan - Suomenmaa.fi",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQS2U2QkhxT3RmUlFDUkVyZWZGZ2VxclRXcW1YbXVVekxSdWE1RjlpeUF5cHFraVNxeEhSdWp1NDV2YjN0SFZCTUVuTEVYblRicWlzaUc3WXNrcFhnVG9Nb3U0TVBOcG9OUGE4VTRPS1RDZHZvT3hlRGZNd0V0aDRxYmRNVkxWYmZoQmExUkpzRDBWSkc4eTY1OTRValVhZw?oc=5",
-      "published": "2021-09-25T07:00:00+00:00",
+      "id": "240f97606a52",
+      "title": "Mullistus syöpähoidoissa? Kaikki kokeellista lääkettä saaneet potilaat parantuivat - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE50Z2cxWHh1MXUzZnJuOFZQTVB1ZDNHeFFUdkhXUEpESm4xSFFDeS1Qc0stNExiZ25Ka3F5WUtvajJJVGNOOGRsczc1YzlPYzVwVWZ2R3h5ckNUNHlK?oc=5",
+      "published": "2022-06-08T07:00:00+00:00",
       "source": {
-        "name": "Suomenmaa.fi",
-        "url": "https://www.suomenmaa.fi"
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
       }
     },
     {
@@ -944,13 +934,13 @@
       }
     },
     {
-      "id": "9d3728d5e888",
-      "title": "Verenpaineen hoito kannattaisi aloittaa heti kahdella lääkkeellä – yksi lääke ei useinkaan tuota toivottuja tuloksia - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1BdVBFNHM2dTQ3T0lFcDlBQmJHYzBOYk5BZDhoVXJKVDRmM1BNb0JDX2F5YjFRR0gwUWRKTTl6ZTIzcGtnOUkzZ1NNSEFXZzhSMWRVckJmSGZaYW1r?oc=5",
-      "published": "2019-04-18T07:00:00+00:00",
+      "id": "07da53e91f85",
+      "title": "Moni ikääntynyt käyttää jopa kymmentä eri lääkettä yhtä aikaa – lääkkeiden yhteensopivuus tulisi aina katsoa tarkkaan - Suomenmaa.fi",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQS2U2QkhxT3RmUlFDUkVyZWZGZ2VxclRXcW1YbXVVekxSdWE1RjlpeUF5cHFraVNxeEhSdWp1NDV2YjN0SFZCTUVuTEVYblRicWlzaUc3WXNrcFhnVG9Nb3U0TVBOcG9OUGE4VTRPS1RDZHZvT3hlRGZNd0V0aDRxYmRNVkxWYmZoQmExUkpzRDBWSkc4eTY1OTRValVhZw?oc=5",
+      "published": "2021-09-25T07:00:00+00:00",
       "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
+        "name": "Suomenmaa.fi",
+        "url": "https://www.suomenmaa.fi"
       }
     },
     {
@@ -991,6 +981,16 @@
       "source": {
         "name": "Apu360",
         "url": "https://www.apu.fi"
+      }
+    },
+    {
+      "id": "8c382ee45f37",
+      "title": "Tupakasta pääsee lääkkeellä – miksi siitä ei kerrota? - Hyvä Terveys",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZzZQVEtoYjRyODdkYmcwMVRJaEdWRDJHa2NYbDI3M1VUU0VFeFk3YjdRenNENDVtNmZfZ24yc2E5Wlo3a2JzQzY1dEVva2tFa0dOTXVlbVlpV1lxcVg2cFBYdjlPRHZrUVdzdEh6WHhOSFpJSWhVUm5vT3dEazFyakhMbllKMGJMdk5vZDhmMTZlaWp4U3BqYVd5NA?oc=5",
+      "published": "2020-03-04T08:00:00+00:00",
+      "source": {
+        "name": "Hyvä Terveys",
+        "url": "https://www.hyvaterveys.fi"
       }
     },
     {

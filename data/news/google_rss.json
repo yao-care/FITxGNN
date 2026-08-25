@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-25T13:38:12.039892+00:00",
+  "fetched_at": "2026-08-25T14:31:49.177699+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -304,16 +304,6 @@
       }
     },
     {
-      "id": "1f576b846983",
-      "title": "Lääkkeen saa puolittaa vain yhdessä tapauksessa - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE83anB2YUtMSU5jWVBSVjRRelh6R3pXdXl3c0h0bXkyT0FzZ3JMczhJOU1VZVNWNDdsdkFscmlCQTN1eTRuS1dJUW9ydTJVU2IySllPWmd1NlJEMUdH?oc=5",
-      "published": "2026-05-24T07:00:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
-      }
-    },
-    {
       "id": "d33d7a4bc3d7",
       "title": "Läpimurto lääketieteessä: Alzheimeriin löytynyt lupaava lääke - Stara.fi",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOU1hNdXd1MEJHcEJqTGd2TU5mZXRxeENZZkFQaktneGJOeWRoNmlubkRTdjFUdTh6ZFI0UG15aFpwa0xoSldmNDhrSW56VWl2d0NNbndkT0EwcHhSMXk3V2g3OTV5cThtYWtyU0hDN0doX0FVam9aT19OYVBoMWxOVzBEYmlaRjRZMWF3Sl9PRy1SNzVqcWxsWg?oc=5",
@@ -474,16 +464,6 @@
       }
     },
     {
-      "id": "6dfa687ca792",
-      "title": "ADHD-lääke auttaa miljoonia, mutta se ei toimi kuten luultiin – asiantuntija yllättyi - Tieteen Kuvalehti",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbTlmamR3c1RHTGgwRGpxLUhsc25GZXdqVW1VNENyWjgxbGVMbmpyS05VMzR5Q3VtempGZ1hCdU56RVVhY0NkUFVpc25aYmQwaU9xdkJmU1JMaFh0WlhUZ3ZKOWRjdGtVbkRXUnQ3S1BOUXUyUnNIa1ctUWdKbWozMUs1UU43X0VSR21KWGM4R1RuY01MN3YtNXRmVUN3OHRPbUZyR215UFRJak0?oc=5",
-      "published": "2026-01-10T08:00:00+00:00",
-      "source": {
-        "name": "Tieteen Kuvalehti",
-        "url": "https://tieku.fi"
-      }
-    },
-    {
       "id": "d7df60842659",
       "title": "Kolesterolilääkkeiden käyttöön liittyy huolestuttava ilmiö – erikoislääkäri pitää tilannetta vakavana - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBieVJxM2JFVml3TWhESEF1SGdXOHpXS25HcUFfRm5oY0VwRTlpX0RYenVVUW1YWS1yc3pmUWVVOVB2aHRCUVEwZW9vX1dxMjZYUXJHczl1VjJtTi1f?oc=5",
@@ -491,6 +471,16 @@
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
+      }
+    },
+    {
+      "id": "6dfa687ca792",
+      "title": "ADHD-lääke auttaa miljoonia, mutta se ei toimi kuten luultiin – asiantuntija yllättyi - Tieteen Kuvalehti",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbTlmamR3c1RHTGgwRGpxLUhsc25GZXdqVW1VNENyWjgxbGVMbmpyS05VMzR5Q3VtempGZ1hCdU56RVVhY0NkUFVpc25aYmQwaU9xdkJmU1JMaFh0WlhUZ3ZKOWRjdGtVbkRXUnQ3S1BOUXUyUnNIa1ctUWdKbWozMUs1UU43X0VSR21KWGM4R1RuY01MN3YtNXRmVUN3OHRPbUZyR215UFRJak0?oc=5",
+      "published": "2026-01-10T08:00:00+00:00",
+      "source": {
+        "name": "Tieteen Kuvalehti",
+        "url": "https://tieku.fi"
       }
     },
     {
@@ -634,6 +624,16 @@
       }
     },
     {
+      "id": "3328bcd81682",
+      "title": "Yli miljardi ihmistä kärsii migreenistä: Tutkija havaitsi, että yleinen lääke voi mahdollisesti auttaa heitä - Tieteen Kuvalehti",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNcUVIYW11NGJMb3N0Mmg1TXhvSkhrVTBnVFNkX2hJUEEyUThqYVNiX0xRazFUbTNPblZrUk9kU0VQOXByLVJDV2stbkdmRFR3OFBvWDlrWlVMMld6Rk1GSDhFYVZUeTRqVlloM0tvQ3BOWC1ENGF0TEFGcTJjaXlsYlN5ZUtVM1NhbkZwcDh6dXZzNjFCSm52eFVqWFFwVEVJejNsMHdJUUJncm5raTBpcmRqdVdZOGM2ekQzWjZWbUJZNENISDZybk9pSQ?oc=5",
+      "published": "2025-10-13T07:00:00+00:00",
+      "source": {
+        "name": "Tieteen Kuvalehti",
+        "url": "https://tieku.fi"
+      }
+    },
+    {
       "id": "8ed58995a32e",
       "title": "Toimi näin, kun haluat uusia reseptisi – yksi yleinen teko kuormittaa terveydenhuoltoa turhaan - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBPNlpVaHY2TWdSLXZtSkZHN1Z2Qi16VjdGbkpRUmFmLTBKeVdxbkl0YTBsQ29OS3hfb3BwbnpTMjlkT3M4WDlSbmVWUUdfMzIyUzR1X2hfcy10Skk2?oc=5",
@@ -691,16 +691,6 @@
       "source": {
         "name": "Yle",
         "url": "https://yle.fi"
-      }
-    },
-    {
-      "id": "3328bcd81682",
-      "title": "Yli miljardi ihmistä kärsii migreenistä: Tutkija havaitsi, että yleinen lääke voi mahdollisesti auttaa heitä - Tieteen Kuvalehti",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNcUVIYW11NGJMb3N0Mmg1TXhvSkhrVTBnVFNkX2hJUEEyUThqYVNiX0xRazFUbTNPblZrUk9kU0VQOXByLVJDV2stbkdmRFR3OFBvWDlrWlVMMld6Rk1GSDhFYVZUeTRqVlloM0tvQ3BOWC1ENGF0TEFGcTJjaXlsYlN5ZUtVM1NhbkZwcDh6dXZzNjFCSm52eFVqWFFwVEVJejNsMHdJUUJncm5raTBpcmRqdVdZOGM2ekQzWjZWbUJZNENISDZybk9pSQ?oc=5",
-      "published": "2025-10-13T07:00:00+00:00",
-      "source": {
-        "name": "Tieteen Kuvalehti",
-        "url": "https://tieku.fi"
       }
     },
     {
@@ -844,16 +834,6 @@
       }
     },
     {
-      "id": "93281994d664",
-      "title": "Nämä kolme kummallista termiä lukevat usein lääkeresepteissä – Apteekkari: ”Tämä voi joskus säikäyttää” - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9MOWNxbkw3N0hkSkZnbm1NdmZLNHoydG5jaXB5ZWdPZ3RSVmwwSlcwTzExZDRNc2ZVeHhaNHhkYl9Qb1NhUXAxTTVOXy1OQWg0bUQ5Wk9kOU9zYXh3?oc=5",
-      "published": "2025-07-07T07:00:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
-      }
-    },
-    {
       "id": "1136e763b5df",
       "title": "Lääke ei toimi – mistä se johtuu? - Terve.fi",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE90QmNkcnYyZy1qSWMyZlVlVi1YTS0zWjhlMllCWTYzSWVLOHc4VlpFNVVHWUFxRS1KX3hzQzFpRkVCSmhwMTBjc0tVNnFDejFJNWtaTEFXTVBpUnhxZDk3Mk1R?oc=5",
@@ -934,16 +914,6 @@
       }
     },
     {
-      "id": "240f97606a52",
-      "title": "Mullistus syöpähoidoissa? Kaikki kokeellista lääkettä saaneet potilaat parantuivat - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE50Z2cxWHh1MXUzZnJuOFZQTVB1ZDNHeFFUdkhXUEpESm4xSFFDeS1Qc0stNExiZ25Ka3F5WUtvajJJVGNOOGRsczc1YzlPYzVwVWZ2R3h5ckNUNHlK?oc=5",
-      "published": "2022-06-08T07:00:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
-      }
-    },
-    {
       "id": "0d856b7b4a47",
       "title": "Tuttu lääke voisi ehkäistä epäterveellisesti elävien suolistosyöpiä - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE03Tm5oWVAwMGdQWThwWU1LRThnSVFpRmJaZ1BJSVFOQXFYRlV4YXA4YUVjbVZMME9wZ09OdmJyYkhtVFI2RU9XLXVWazh5dzVnZHBoMlhVa0pndnFw?oc=5",
@@ -954,16 +924,6 @@
       }
     },
     {
-      "id": "abb6780e0552",
-      "title": "Alopecian eli pälvikaljun hoitoon on ensimmäistä kertaa löydetty lupaava lääke – Suomessa hoito ei ole Kela-korvattava - Yle",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1HUEFCVGxUM3dPMFJNdjJHeTMyNHQwcXlSUEZnUnl2NDRyNjRQWHk2QXV5U0VtdG9wZTNPS2tSdzc1UQ?oc=5",
-      "published": "2022-10-31T07:00:00+00:00",
-      "source": {
-        "name": "Yle",
-        "url": "https://yle.fi"
-      }
-    },
-    {
       "id": "07da53e91f85",
       "title": "Moni ikääntynyt käyttää jopa kymmentä eri lääkettä yhtä aikaa – lääkkeiden yhteensopivuus tulisi aina katsoa tarkkaan - Suomenmaa.fi",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQS2U2QkhxT3RmUlFDUkVyZWZGZ2VxclRXcW1YbXVVekxSdWE1RjlpeUF5cHFraVNxeEhSdWp1NDV2YjN0SFZCTUVuTEVYblRicWlzaUc3WXNrcFhnVG9Nb3U0TVBOcG9OUGE4VTRPS1RDZHZvT3hlRGZNd0V0aDRxYmRNVkxWYmZoQmExUkpzRDBWSkc4eTY1OTRValVhZw?oc=5",
@@ -971,6 +931,16 @@
       "source": {
         "name": "Suomenmaa.fi",
         "url": "https://www.suomenmaa.fi"
+      }
+    },
+    {
+      "id": "abb6780e0552",
+      "title": "Alopecian eli pälvikaljun hoitoon on ensimmäistä kertaa löydetty lupaava lääke – Suomessa hoito ei ole Kela-korvattava - Yle",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1HUEFCVGxUM3dPMFJNdjJHeTMyNHQwcXlSUEZnUnl2NDRyNjRQWHk2QXV5U0VtdG9wZTNPS2tSdzc1UQ?oc=5",
+      "published": "2022-10-31T07:00:00+00:00",
+      "source": {
+        "name": "Yle",
+        "url": "https://yle.fi"
       }
     },
     {
@@ -1001,6 +971,36 @@
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
+      }
+    },
+    {
+      "id": "fc4a8857502d",
+      "title": "Masennuslääkkeistä vierotusoireita huomattavan isolle osalle käyttäjistä – Nämä tekijät lisäävät oireiden riskiä - Apu360",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdUlEeHRjQXRzYm5BMTYwSWNCV2NuRjhsNl9Mdml0SWZPdkxCRUpUcUtPODliZ25hY182ZHdOTlUxMXY1aDl2OHNSdHlYQnpkZGVaWHVNWjVzVVJ3dXBMcV9ibWNVM0NtVE9STWJMU2gtd1ZVbTZUbFNtX2ZoeVhUWWVhbEQ0T2h4RGNveGN6cFV4dTE1RGc?oc=5",
+      "published": "2025-07-24T07:00:00+00:00",
+      "source": {
+        "name": "Apu360",
+        "url": "https://www.apu.fi"
+      }
+    },
+    {
+      "id": "8c382ee45f37",
+      "title": "Tupakasta pääsee lääkkeellä – miksi siitä ei kerrota? - Hyvä Terveys",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZzZQVEtoYjRyODdkYmcwMVRJaEdWRDJHa2NYbDI3M1VUU0VFeFk3YjdRenNENDVtNmZfZ24yc2E5Wlo3a2JzQzY1dEVva2tFa0dOTXVlbVlpV1lxcVg2cFBYdjlPRHZrUVdzdEh6WHhOSFpJSWhVUm5vT3dEazFyakhMbllKMGJMdk5vZDhmMTZlaWp4U3BqYVd5NA?oc=5",
+      "published": "2020-03-04T08:00:00+00:00",
+      "source": {
+        "name": "Hyvä Terveys",
+        "url": "https://www.hyvaterveys.fi"
+      }
+    },
+    {
+      "id": "001869b5d400",
+      "title": "Lääkkeiden yhteisvaikutus aiheuttaa ongelmia - Yle",
+      "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5FTGlHTU4ta3l0cklmMmI3dWxzUWdMbVJ0d21Dd2ZiOXQ3Y0EtUUU2YnVxVTFxTVZ1QjBZWUVyaw?oc=5",
+      "published": "2010-10-28T07:00:00+00:00",
+      "source": {
+        "name": "Yle",
+        "url": "https://yle.fi"
       }
     }
   ]

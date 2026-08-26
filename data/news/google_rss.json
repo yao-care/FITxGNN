@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-26T13:42:55.095465+00:00",
+  "fetched_at": "2026-08-26T14:31:45.755031+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -74,16 +74,6 @@
       }
     },
     {
-      "id": "78710e5c14bf",
-      "title": "ADHD liittyy suurentuneeseen psykoosin riskiin – näin lääkkeet voivat vaikuttaa - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE13cWU3NUxpQnJ0N2d2ZjlpMExjRFZWeEJ2OEoyRWRfckx5eUNYUE9OSXd0OEpwcEVEZU4xd2RyUEZ5WUIwYUNJeGRvdVNjdXhXWVFuNERjSUhCajV5?oc=5",
-      "published": "2026-08-24T05:00:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
-      }
-    },
-    {
       "id": "776f88aedda1",
       "title": "Lääkejätteen palauttaminen apteekkiin on tärkeää, mutta eniten ympäristöä auttaisi lääkkeiden järkevä käyttö - Apteekkari",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPNlRod3RVQ2lDR1phSFpOczFMdHlzQkVQSHB6M1hZTTlaMnpHaGp3UWZWT1VINFptcGxxSEZsdWZjTXRTU3hyWXpDS3ZXTEM4clNaSVQ4STBySzNJWEd4X0ZES3V3RjdGZjNyNzhJd05TYWFfemFqRWNvR25VWW9DUjdaNVIxVzIwNC12UzJkRDBmVUNPWThYSWswMmFkU0F4TnkzM1BSVTBocHFGVUNLQ2xRbDVpT21fX0hXVE1ub29BMzZlMjNvekhzUUN0bm5wTm9lb0g2U1ItUQ?oc=5",
@@ -91,6 +81,16 @@
       "source": {
         "name": "Apteekkari",
         "url": "https://www.apteekkari.fi"
+      }
+    },
+    {
+      "id": "78710e5c14bf",
+      "title": "ADHD liittyy suurentuneeseen psykoosin riskiin – näin lääkkeet voivat vaikuttaa - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE13cWU3NUxpQnJ0N2d2ZjlpMExjRFZWeEJ2OEoyRWRfckx5eUNYUE9OSXd0OEpwcEVEZU4xd2RyUEZ5WUIwYUNJeGRvdVNjdXhXWVFuNERjSUhCajV5?oc=5",
+      "published": "2026-08-24T05:00:00+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
       }
     },
     {
@@ -664,16 +664,6 @@
       }
     },
     {
-      "id": "8ed58995a32e",
-      "title": "Toimi näin, kun haluat uusia reseptisi – yksi yleinen teko kuormittaa terveydenhuoltoa turhaan - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBPNlpVaHY2TWdSLXZtSkZHN1Z2Qi16VjdGbkpRUmFmLTBKeVdxbkl0YTBsQ29OS3hfb3BwbnpTMjlkT3M4WDlSbmVWUUdfMzIyUzR1X2hfcy10Skk2?oc=5",
-      "published": "2025-09-02T07:00:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
-      }
-    },
-    {
       "id": "ab6cb1071079",
       "title": "Terveys | Älylääke osaa kertoa, onko se otettu vai ei – tulevaisuuden lääkkeet saatetaan myös tulostaa potilaskohtaisesti - Helsingin Uutiset",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE80XzlzblNVbFc3cUVqMGZpdERuTktKc1V5OWtrQzEwcTRWcWM3MmZZdnVmUkgzTzF0YThXWjJQN1pXZDhCN2s5OXhhVjJZdVdubkxIZlMyQzZ6UQ?oc=5",
@@ -681,6 +671,16 @@
       "source": {
         "name": "Helsingin Uutiset",
         "url": "https://www.helsinginuutiset.fi"
+      }
+    },
+    {
+      "id": "8ed58995a32e",
+      "title": "Toimi näin, kun haluat uusia reseptisi – yksi yleinen teko kuormittaa terveydenhuoltoa turhaan - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBPNlpVaHY2TWdSLXZtSkZHN1Z2Qi16VjdGbkpRUmFmLTBKeVdxbkl0YTBsQ29OS3hfb3BwbnpTMjlkT3M4WDlSbmVWUUdfMzIyUzR1X2hfcy10Skk2?oc=5",
+      "published": "2025-09-02T07:00:00+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
       }
     },
     {

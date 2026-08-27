@@ -1,7 +1,7 @@
 {
   "generated": "2026-08-27",
-  "drug_count": 800,
-  "indication_count": 1126,
+  "drug_count": 867,
+  "indication_count": 1168,
   "drugs": [
     {
       "name": "Abacavir",
@@ -19607,6 +19607,762 @@
       "original": "",
       "level": "L5",
       "indications": []
+    },
+    {
+      "name": "Sirolimus",
+      "slug": "sirolimus",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sodium Oxybate",
+      "slug": "sodium_oxybate",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sofosbuvir",
+      "slug": "sofosbuvir",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sorafenib",
+      "slug": "sorafenib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sotatercept",
+      "slug": "sotatercept",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Spironolactone",
+      "slug": "spironolactone",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Sunitinib",
+      "slug": "sunitinib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Ovarian myxoid liposarcoma | 99.84% | L3 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "RCC associated with neuroblastoma | 99.78% | L5 | Hold (trial linkage appears mismatched)",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "RCC with Xp11.2/TFE3 fusion | 99.78% | L3 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Unclassified RCC | 99.78% | L2 | Proceed with Guardrails",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Dermatofibrosarcoma protuberans | 99.73% | L2 | Proceed with Guardrails",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Childhood kidney cell carcinoma | 99.72% | L4 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Angiolipoma | 99.67% | L5 | Hold (benign, no systemic-therapy rationale)",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Renal carcinoma | 99.65% | L1 | Proceed with Guardrails (already a globally approved indication, not a novel finding)",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Heart fibrosarcoma | 99.63% | L5 | Hold (no evidence, cardiotoxicity concern with TKI use)",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Susoctocog Alfa",
+      "slug": "susoctocog_alfa",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tacrolimus",
+      "slug": "tacrolimus",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tadalafil",
+      "slug": "tadalafil",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tagraxofusp",
+      "slug": "tagraxofusp",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Talimogene Laherparepvec",
+      "slug": "talimogene_laherparepvec",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tasimelteon",
+      "slug": "tasimelteon",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tasonermin",
+      "slug": "tasonermin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tecovirimat",
+      "slug": "tecovirimat",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tegafur",
+      "slug": "tegafur",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Telmisartan",
+      "slug": "telmisartan",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Temoporfin",
+      "slug": "temoporfin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Temozolomide",
+      "slug": "temozolomide",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Temsirolimus",
+      "slug": "temsirolimus",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tenecteplase",
+      "slug": "tenecteplase",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tenofovir Alafenamide",
+      "slug": "tenofovir_alafenamide",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tenofovir Disoproxil",
+      "slug": "tenofovir_disoproxil",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Teprotumumab",
+      "slug": "teprotumumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Teriflunomide",
+      "slug": "teriflunomide",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Teriparatide",
+      "slug": "teriparatide",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tezacaftor",
+      "slug": "tezacaftor",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Thyrotropin Alfa",
+      "slug": "thyrotropin_alfa",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Ticagrelor",
+      "slug": "ticagrelor",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tildrakizumab",
+      "slug": "tildrakizumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tipranavir",
+      "slug": "tipranavir",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tivozanib",
+      "slug": "tivozanib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tobramycin",
+      "slug": "tobramycin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tocilizumab",
+      "slug": "tocilizumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tocofersolan",
+      "slug": "tocofersolan",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tolcapone",
+      "slug": "tolcapone",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Tolvaptan",
+      "slug": "tolvaptan",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Topotecan",
+      "slug": "topotecan",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Toremifene",
+      "slug": "toremifene",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Trabectedin",
+      "slug": "trabectedin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Trametinib",
+      "slug": "trametinib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Trastuzumab",
+      "slug": "trastuzumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Trastuzumab Deruxtecan",
+      "slug": "trastuzumab_deruxtecan",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Trastuzumab Emtansine",
+      "slug": "trastuzumab_emtansine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Travoprost",
+      "slug": "travoprost",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Visceral calciphylaxis | 99.9998% | L5 | Hold — no mechanistic or evidentiary link",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Venous thoracic outlet syndrome | 99.9998% | L5 | Hold — no evidence",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Arterial thoracic outlet syndrome | 99.9998% | L5 | Hold — no evidence",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Neurogenic thoracic outlet syndrome | 99.9997% | L5 | Hold — no evidence",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Angiodysplasia of stomach | 99.9997% | L5 | Hold — no evidence",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Blue toe syndrome | 99.9997% | L5 | Hold — no evidence",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Lymphangiectasis | 99.9997% | L5 | Hold — no evidence",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Idiopathic spontaneous coronary artery dissection | 99.9997% | L5 | Hold — no evidence; population should avoid unvalidated cardiovascular intervention",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Hemangioendothelioma | 99.9997% | L4 | Hold — 2 case reports show travoprost **inducing** uveal effusion in patients with vascular anomalies (Sturge-Weber-Krabbe syndrome); this is a risk signal, not supporting evidence",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Treosulfan",
+      "slug": "treosulfan",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Turoctocog Alfa",
+      "slug": "turoctocog_alfa",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Turoctocog Alfa Pegol",
+      "slug": "turoctocog_alfa_pegol",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Upadacitinib",
+      "slug": "upadacitinib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Ustekinumab",
+      "slug": "ustekinumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Valsartan",
+      "slug": "valsartan",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Vandetanib",
+      "slug": "vandetanib",
+      "brands": [],
+      "original": "",
+      "level": "L2",
+      "indications": []
+    },
+    {
+      "name": "Varenicline",
+      "slug": "varenicline",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Velpatasvir",
+      "slug": "velpatasvir",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Venetoclax",
+      "slug": "venetoclax",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Pregerminal center CLL/SLL | 99.55% | L4 | S1 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "CLL/SLL (IGHV-mutated subtype) | 99.55% | L5 | S0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Hodgkin lymphoma ⚠ | 99.51% | L3 | S1 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "**Myeloid leukemia (AML)** | 99.47% | **L1** | **S3** | **Proceed with Guardrails**",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Chronic myelogenous leukemia (CML), BCR-ABL1+ | 99.36% | L2 | S2 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Ewing sarcoma | 99.21% | L4 | S0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Follicular lymphoma | 99.15% | L2 | S2 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Metastatic neoplasm (generic) | 99.14% | L3 | S0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Malignant spiradenoma | 99.12% | L5 | S0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "AML with t(8;21) translocation | 99.08% | L4 | S1 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Verteporfin",
+      "slug": "verteporfin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Vestronidase Alfa",
+      "slug": "vestronidase_alfa",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Vilanterol",
+      "slug": "vilanterol",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Vildagliptin",
+      "slug": "vildagliptin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Vismodegib",
+      "slug": "vismodegib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Vonicog Alfa",
+      "slug": "vonicog_alfa",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Primary release disorder of platelets | 99.98% | L5 | S0 | 0 | 0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Glanzmann thrombasthenia | 99.98% | L5 | S0 | 0 | 0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Pseudo-von Willebrand disease | 99.97% | L4 | S1 | 0 | 0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Hemophilia | 99.95% | L1 | S3 | 4 | 5 | Proceed with Guardrails",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Scott syndrome | 99.95% | L5 | S0 | 0 | 0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Acquired coagulation factor deficiency | 99.94% | L5 | S0 | 0 | 0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Von Willebrand disease, X-linked form | 99.92% | L4 | S0 | 0 | 0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Bleeding diathesis due to a collagen receptor defect | 99.92% | L5 | S0 | 0 | 0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Hemorrhagic disorder due to a constitutional thrombocytopenia | 99.92% | L5 | S0 | 0 | 0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Flood factor deficiency | 99.90% | L5 | S0 | 0 | 0 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Vortioxetine",
+      "slug": "vortioxetine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Zanamivir",
+      "slug": "zanamivir",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Zanubrutinib",
+      "slug": "zanubrutinib",
+      "brands": [],
+      "original": "",
+      "level": "L4",
+      "indications": []
+    },
+    {
+      "name": "Ziconotide",
+      "slug": "ziconotide",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Zidovudine",
+      "slug": "zidovudine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Feline acquired immunodeficiency syndrome",
+          "score": 99.96,
+          "level": "L4"
+        },
+        {
+          "name": "Simian immunodeficiency virus infection",
+          "score": 99.96,
+          "level": "L4"
+        },
+        {
+          "name": "Neurodevelopmental disorder with ataxic gait, absent speech, decreased cortical white matter",
+          "score": 99.96,
+          "level": "L5"
+        },
+        {
+          "name": "Obsolete familial combined hyperlipidemia",
+          "score": 99.62,
+          "level": "L5"
+        },
+        {
+          "name": "AIDS related complex",
+          "score": 99.19,
+          "level": "L1"
+        }
+      ]
+    },
+    {
+      "name": "Zonisamide",
+      "slug": "zonisamide",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
     }
   ],
   "indications": [
@@ -19628,6 +20384,17 @@
         {
           "drug": "Levofloxacin",
           "slug": "levofloxacin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "**Myeloid leukemia (AML)** | 99.47% | **L1** | **S3** | **Proceed with Guardrails**",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Venetoclax",
+          "slug": "venetoclax",
           "score": 99.0
         }
       ]
@@ -19678,12 +20445,17 @@
     },
     {
       "name": "AIDS related complex",
-      "drug_count": 1,
+      "drug_count": 2,
       "drugs": [
         {
           "drug": "Atazanavir",
           "slug": "atazanavir",
           "score": 99.71
+        },
+        {
+          "drug": "Zidovudine",
+          "slug": "zidovudine",
+          "score": 99.19
         }
       ]
     },
@@ -19776,6 +20548,17 @@
       ]
     },
     {
+      "name": "AML with t(8;21) translocation | 99.08% | L4 | S1 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Venetoclax",
+          "slug": "venetoclax",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "AML/MDS related to alkylating agent | 99.26% | L4 | S1 | Research Question",
       "drug_count": 1,
       "drugs": [
@@ -19815,6 +20598,17 @@
         {
           "drug": "Emicizumab",
           "slug": "emicizumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Acquired coagulation factor deficiency | 99.94% | L5 | S0 | 0 | 0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Vonicog Alfa",
+          "slug": "vonicog_alfa",
           "score": 99.0
         }
       ]
@@ -19935,12 +20729,45 @@
       ]
     },
     {
+      "name": "Angiodysplasia of stomach | 99.9997% | L5 | Hold — no evidence",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Travoprost",
+          "slug": "travoprost",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Angiolipoma | 99.67% | L5 | Hold (benign, no systemic-therapy rationale)",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sunitinib",
+          "slug": "sunitinib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Aregenerative anemia (aplastic anemia) | L2 | Proceed with Guardrails",
       "drug_count": 1,
       "drugs": [
         {
           "drug": "Busulfan",
           "slug": "busulfan",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Arterial thoracic outlet syndrome | 99.9998% | L5 | Hold — no evidence",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Travoprost",
+          "slug": "travoprost",
           "score": 99.0
         }
       ]
@@ -20127,6 +20954,17 @@
       ]
     },
     {
+      "name": "Bleeding diathesis due to a collagen receptor defect | 99.92% | L5 | S0 | 0 | 0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Vonicog Alfa",
+          "slug": "vonicog_alfa",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Blepharophimosis–intellectual disability syndrome (Ohdo type)",
       "drug_count": 1,
       "drugs": [
@@ -20155,6 +20993,17 @@
         {
           "drug": "Levofloxacin",
           "slug": "levofloxacin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Blue toe syndrome | 99.9997% | L5 | Hold — no evidence",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Travoprost",
+          "slug": "travoprost",
           "score": 99.0
         }
       ]
@@ -20253,6 +21102,17 @@
         {
           "drug": "ANAKINRA",
           "slug": "db00026",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "CLL/SLL (IGHV-mutated subtype) | 99.55% | L5 | S0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Venetoclax",
+          "slug": "venetoclax",
           "score": 99.0
         }
       ]
@@ -20362,12 +21222,34 @@
       ]
     },
     {
+      "name": "Childhood kidney cell carcinoma | 99.72% | L4 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sunitinib",
+          "slug": "sunitinib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Chronic hepatitis C virus infection | 99.11% | L4 | Hold | Likely ontology mislabel — all 16 attached trials and most literature concern chronic **hepatitis B**, not HCV; Lamivudine has no known activity against HCV's RNA-dependent RNA polymerase",
       "drug_count": 1,
       "drugs": [
         {
           "drug": "Lamivudine",
           "slug": "lamivudine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Chronic myelogenous leukemia (CML), BCR-ABL1+ | 99.36% | L2 | S2 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Venetoclax",
+          "slug": "venetoclax",
           "score": 99.0
         }
       ]
@@ -20612,6 +21494,17 @@
       ]
     },
     {
+      "name": "Dermatofibrosarcoma protuberans | 99.73% | L2 | Proceed with Guardrails",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sunitinib",
+          "slug": "sunitinib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Dravet syndrome | TxGNN Knowledge Graph",
       "drug_count": 2,
       "drugs": [
@@ -20694,6 +21587,17 @@
       ]
     },
     {
+      "name": "Ewing sarcoma | 99.21% | L4 | S0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Venetoclax",
+          "slug": "venetoclax",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Exposure keratitis | 99.87% | L5 | S0 | 1 unrelated case-series (methamphetamine keratitis)",
       "drug_count": 1,
       "drugs": [
@@ -20723,6 +21627,17 @@
           "drug": "Darunavir",
           "slug": "darunavir",
           "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Feline acquired immunodeficiency syndrome",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Zidovudine",
+          "slug": "zidovudine",
+          "score": 99.96
         }
       ]
     },
@@ -20793,12 +21708,34 @@
       ]
     },
     {
+      "name": "Flood factor deficiency | 99.90% | L5 | S0 | 0 | 0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Vonicog Alfa",
+          "slug": "vonicog_alfa",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Focal stiff limb syndrome | 99.36% | L5 | S0 | Hold | Same anti-GAD65 comorbidity confound",
       "drug_count": 1,
       "drugs": [
         {
           "drug": "Insulin Lispro",
           "slug": "insulin_lispro",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Follicular lymphoma | 99.15% | L2 | S2 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Venetoclax",
+          "slug": "venetoclax",
           "score": 99.0
         }
       ]
@@ -20907,6 +21844,17 @@
         {
           "drug": "Emicizumab",
           "slug": "emicizumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Glanzmann thrombasthenia | 99.98% | L5 | S0 | 0 | 0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Vonicog Alfa",
+          "slug": "vonicog_alfa",
           "score": 99.0
         }
       ]
@@ -21065,12 +22013,56 @@
       ]
     },
     {
+      "name": "Heart fibrosarcoma | 99.63% | L5 | Hold (no evidence, cardiotoxicity concern with TKI use)",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sunitinib",
+          "slug": "sunitinib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Hemangioendothelioma | 99.9997% | L4 | Hold — 2 case reports show travoprost **inducing** uveal effusion in patients with vascular anomalies (Sturge-Weber-Krabbe syndrome); this is a risk signal, not supporting evidence",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Travoprost",
+          "slug": "travoprost",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Hematological disease with acquired peripheral neuropathy | 99.80% | L5 | Hold (fluoroquinolones carry a known peripheral neuropathy risk — direction contradicts the prediction)",
       "drug_count": 1,
       "drugs": [
         {
           "drug": "Levofloxacin",
           "slug": "levofloxacin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Hemophilia | 99.95% | L1 | S3 | 4 | 5 | Proceed with Guardrails",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Vonicog Alfa",
+          "slug": "vonicog_alfa",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Hemorrhagic disorder due to a constitutional thrombocytopenia | 99.92% | L5 | S0 | 0 | 0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Vonicog Alfa",
+          "slug": "vonicog_alfa",
           "score": 99.0
         }
       ]
@@ -21094,6 +22086,17 @@
           "drug": "Duloxetine",
           "slug": "duloxetine",
           "score": 99.78
+        }
+      ]
+    },
+    {
+      "name": "Hodgkin lymphoma ⚠ | 99.51% | L3 | S1 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Venetoclax",
+          "slug": "venetoclax",
+          "score": 99.0
         }
       ]
     },
@@ -21288,6 +22291,17 @@
         {
           "drug": "INSULIN GLARGINE",
           "slug": "db00047",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Idiopathic spontaneous coronary artery dissection | 99.9997% | L5 | Hold — no evidence; population should avoid unvalidated cardiovascular intervention",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Travoprost",
+          "slug": "travoprost",
           "score": 99.0
         }
       ]
@@ -21559,6 +22573,17 @@
       ]
     },
     {
+      "name": "Lymphangiectasis | 99.9997% | L5 | Hold — no evidence",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Travoprost",
+          "slug": "travoprost",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Lymphoid neoplasm | 99.71% | L2 | Research Question | Overly broad label; evidence overlaps substantially with existing ALL trials",
       "drug_count": 1,
       "drugs": [
@@ -21680,6 +22705,17 @@
       ]
     },
     {
+      "name": "Malignant spiradenoma | 99.12% | L5 | S0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Venetoclax",
+          "slug": "venetoclax",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Marfan syndrome | TxGNN Knowledge Graph",
       "drug_count": 1,
       "drugs": [
@@ -21708,6 +22744,17 @@
         {
           "drug": "Nepafenac",
           "slug": "nepafenac",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Metastatic neoplasm (generic) | 99.14% | L3 | S0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Venetoclax",
+          "slug": "venetoclax",
           "score": 99.0
         }
       ]
@@ -21817,12 +22864,34 @@
       ]
     },
     {
+      "name": "Neurodevelopmental disorder with ataxic gait, absent speech, decreased cortical white matter",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Zidovudine",
+          "slug": "zidovudine",
+          "score": 99.96
+        }
+      ]
+    },
+    {
       "name": "Neurodevelopmental disorder with ataxic gait, absent speech, decreased cortical white matter | 99.93% | L5 | Hold | Zero clinical trials or literature; no known mechanistic link to an NRTI",
       "drug_count": 1,
       "drugs": [
         {
           "drug": "Lamivudine",
           "slug": "lamivudine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Neurogenic thoracic outlet syndrome | 99.9997% | L5 | Hold — no evidence",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Travoprost",
+          "slug": "travoprost",
           "score": 99.0
         }
       ]
@@ -21879,6 +22948,17 @@
           "drug": "LIDOCAINE",
           "slug": "db00281",
           "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Obsolete familial combined hyperlipidemia",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Zidovudine",
+          "slug": "zidovudine",
+          "score": 99.62
         }
       ]
     },
@@ -21966,6 +23046,17 @@
         {
           "drug": "Pazopanib",
           "slug": "pazopanib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Ovarian myxoid liposarcoma | 99.84% | L3 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sunitinib",
+          "slug": "sunitinib",
           "score": 99.0
         }
       ]
@@ -22309,6 +23400,17 @@
       ]
     },
     {
+      "name": "Pregerminal center CLL/SLL | 99.55% | L4 | S1 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Venetoclax",
+          "slug": "venetoclax",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Pregerminal center CLL/SLL | 99.95% | L5 | Hold | No trials/literature; mechanistically weak (mature, slow-proliferating B cells)",
       "drug_count": 1,
       "drugs": [
@@ -22364,6 +23466,17 @@
       ]
     },
     {
+      "name": "Primary release disorder of platelets | 99.98% | L5 | S0 | 0 | 0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Vonicog Alfa",
+          "slug": "vonicog_alfa",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Prinzmetal angina | TxGNN Knowledge Graph",
       "drug_count": 1,
       "drugs": [
@@ -22381,6 +23494,17 @@
         {
           "drug": "Entacapone",
           "slug": "entacapone",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Pseudo-von Willebrand disease | 99.97% | L4 | S1 | 0 | 0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Vonicog Alfa",
+          "slug": "vonicog_alfa",
           "score": 99.0
         }
       ]
@@ -22506,12 +23630,34 @@
       ]
     },
     {
+      "name": "RCC associated with neuroblastoma | 99.78% | L5 | Hold (trial linkage appears mismatched)",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sunitinib",
+          "slug": "sunitinib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "RCC with Xp11.2/TFE3 fusion | 99.63% | L5 | S0 | Hold",
       "drug_count": 1,
       "drugs": [
         {
           "drug": "Pazopanib",
           "slug": "pazopanib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "RCC with Xp11.2/TFE3 fusion | 99.78% | L3 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sunitinib",
+          "slug": "sunitinib",
           "score": 99.0
         }
       ]
@@ -22545,6 +23691,17 @@
         {
           "drug": "Busulfan",
           "slug": "busulfan",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Renal carcinoma | 99.65% | L1 | Proceed with Guardrails (already a globally approved indication, not a novel finding)",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sunitinib",
+          "slug": "sunitinib",
           "score": 99.0
         }
       ]
@@ -22745,6 +23902,17 @@
       ]
     },
     {
+      "name": "Scott syndrome | 99.95% | L5 | S0 | 0 | 0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Vonicog Alfa",
+          "slug": "vonicog_alfa",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Seborrheic keratosis | 99.83% | L5 | Hold",
       "drug_count": 1,
       "drugs": [
@@ -22829,6 +23997,17 @@
           "drug": "Eptifibatide",
           "slug": "eptifibatide",
           "score": 99.98
+        }
+      ]
+    },
+    {
+      "name": "Simian immunodeficiency virus infection",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Zidovudine",
+          "slug": "zidovudine",
+          "score": 99.96
         }
       ]
     },
@@ -23024,6 +24203,17 @@
       ]
     },
     {
+      "name": "Unclassified RCC | 99.78% | L2 | Proceed with Guardrails",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Sunitinib",
+          "slug": "sunitinib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Unclassified myelodysplastic syndrome | L3 | Research Question",
       "drug_count": 1,
       "drugs": [
@@ -23057,12 +24247,45 @@
       ]
     },
     {
+      "name": "Venous thoracic outlet syndrome | 99.9998% | L5 | Hold — no evidence",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Travoprost",
+          "slug": "travoprost",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Visceral calciphylaxis | 99.9998% | L5 | Hold — no mechanistic or evidentiary link",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Travoprost",
+          "slug": "travoprost",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Vitreous detachment | 99.81% | L3 | Research Question",
       "drug_count": 1,
       "drugs": [
         {
           "drug": "Nepafenac",
           "slug": "nepafenac",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Von Willebrand disease, X-linked form | 99.92% | L4 | S0 | 0 | 0 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Vonicog Alfa",
+          "slug": "vonicog_alfa",
           "score": 99.0
         }
       ]

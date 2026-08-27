@@ -2,7 +2,7 @@
 layout: default
 title: Asfotase Alfa
 parent: 僅模型預測 (L5)
-nav_order: 30
+nav_order: 44
 evidence_level: L5
 indication_count: 10
 ---

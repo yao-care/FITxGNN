@@ -2,7 +2,7 @@
 layout: default
 title: Atropine Sulfate
 parent: 僅模型預測 (L5)
-nav_order: 34
+nav_order: 48
 evidence_level: L5
 indication_count: 0
 ---

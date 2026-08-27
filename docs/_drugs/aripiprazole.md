@@ -2,7 +2,7 @@
 layout: default
 title: Aripiprazole
 parent: 僅模型預測 (L5)
-nav_order: 25
+nav_order: 39
 evidence_level: L5
 indication_count: 10
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Avibactam Sodium
 parent: 僅模型預測 (L5)
-nav_order: 40
+nav_order: 54
 evidence_level: L5
 indication_count: 0
 ---

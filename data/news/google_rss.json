@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-29T22:51:19.360993+00:00",
+  "fetched_at": "2026-08-30T00:49:39.458728+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -674,16 +674,6 @@
       }
     },
     {
-      "id": "65287d90a873",
-      "title": "Jatkuva vapina kiusaa, eikä sopivaa lääkitystä tahdo löytyä – Mikä auttaisi oireeseen? - Apu360",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdGhNcFVyNjFMNVAtWWF4cGNJWldMalpwZFZPVFlvRmpEX1c1N1JSelh0WngyMFd0MGI3dXAycDh4aGYyN0EyZGpMM01HY3BTcW1lOXZHaVh1NTBBRW1zUHgwUXFaVmRTUGt3a3N2WHNBOXRKNWtWU29iSGxHc2hWWklEUktwdWNqYV9FWDJaZHdvdw?oc=5",
-      "published": "2025-09-03T07:00:00+00:00",
-      "source": {
-        "name": "Apu360",
-        "url": "https://www.apu.fi"
-      }
-    },
-    {
       "id": "d3e7cd063332",
       "title": "Lääkehuollon kriisijohtaminen pandemian aikana vahvisti yhteistyötä ja Suomen terveydenhuollon kriisivalmiutta - University of Helsinki",
       "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOWktBTFpMdmNGLTFDTUJ3YlFmUS1GWG1WX2RCVl9rSERyT25JM09OQ2VpMVdQcjEzUkQ3NzdETlNjQ0RoZFBMVHk2ajdickRJZzZLcnNPQnNPUWFvQW9UQlBLVDBRV0EzUGpuVHRReWVjbktvWkM1cGswcWtQMVNRMU01T3JsOFphc0pEYkxYRElicm50UTdlVmtINnZzUG1WcndyTVFvVkZsdnZUTmhUUGFud1ZiV3lCQXg5bDFjcnRxTHBvTHRYdl8yUTlTcWpXNFUwWFVFd3d1ZWhGcWxhR3dLaExUZkRPWjdLSWthN1FYdXc?oc=5",
@@ -691,6 +681,16 @@
       "source": {
         "name": "University of Helsinki",
         "url": "https://www.helsinki.fi"
+      }
+    },
+    {
+      "id": "65287d90a873",
+      "title": "Jatkuva vapina kiusaa, eikä sopivaa lääkitystä tahdo löytyä – Mikä auttaisi oireeseen? - Apu360",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdGhNcFVyNjFMNVAtWWF4cGNJWldMalpwZFZPVFlvRmpEX1c1N1JSelh0WngyMFd0MGI3dXAycDh4aGYyN0EyZGpMM01HY3BTcW1lOXZHaVh1NTBBRW1zUHgwUXFaVmRTUGt3a3N2WHNBOXRKNWtWU29iSGxHc2hWWklEUktwdWNqYV9FWDJaZHdvdw?oc=5",
+      "published": "2025-09-03T07:00:00+00:00",
+      "source": {
+        "name": "Apu360",
+        "url": "https://www.apu.fi"
       }
     },
     {
@@ -824,16 +824,6 @@
       }
     },
     {
-      "id": "b3e90a1c3deb",
-      "title": "Tutkimus: Tämä lääke ehkäisee sydänkohtauksen paremmin kuin aspiriini - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9ZbDlaVmdDR3JqakhKSnRyZEt4UHpwemJHLWVqQ0VTYXdJb25DNTBCRk5RVTJHcUtlN3hDb2tNaURISFZfT1d5Zzd3SkdZeEdtMnVyUzhvSERJM2F3X0RUd1FrWFhtdXV0c0JZRkVDV2htTFNKUmp0WA?oc=5",
-      "published": "2025-09-01T07:00:00+00:00",
-      "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
-      }
-    },
-    {
       "id": "7aa3b6bc82ca",
       "title": "Rintasyöpään on kehitetty mullistava lääke: ”Merkittävä edistysaskel” - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5scmJpRlZYTGJGZTZYUTFZUHd0VGQ0Rm1FUkJOZV8tT1hfUlNmSC1kcFNCV0FxZWdBWVMzWEw0ejhnR3RWWTBjMGJHWW1hYTluODVPcWY0V050bDdS?oc=5",
@@ -841,6 +831,16 @@
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
+      }
+    },
+    {
+      "id": "b3e90a1c3deb",
+      "title": "Tutkimus: Tämä lääke ehkäisee sydänkohtauksen paremmin kuin aspiriini - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9ZbDlaVmdDR3JqakhKSnRyZEt4UHpwemJHLWVqQ0VTYXdJb25DNTBCRk5RVTJHcUtlN3hDb2tNaURISFZfT1d5Zzd3SkdZeEdtMnVyUzhvSERJM2F3X0RUd1FrWFhtdXV0c0JZRkVDV2htTFNKUmp0WA?oc=5",
+      "published": "2025-09-01T07:00:00+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
       }
     },
     {

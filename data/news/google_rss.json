@@ -1,25 +1,25 @@
 {
-  "fetched_at": "2026-09-11T21:22:59.116992+00:00",
+  "fetched_at": "2026-09-11T23:36:09.616582+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
     {
-      "id": "cabe751ee597",
-      "title": "Tämä yleinen lääke voi hälyttää huumetestissä - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5HQlA2eWpzQURBTGlIUmxncEJJaUdaUWVJakc3SlVXMlRqLUpsZjZ3eEozb1lpWlB4eHNtZW5tMmZuWFlNOHRZd184OVRSdnB2VmkxN09RaE9DNWVE?oc=5",
-      "published": "2026-08-23T07:00:00+00:00",
+      "id": "a6ab0d184a96",
+      "title": "Tuttu lääke voi ehkäistä myös muistisairautta – ajoituksella on väliä - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5yZmppSXk0TWpFbEx1cVVZaUcxV25rVldoWDlBams4ZFlXVlBSeXhWX2tWTVBCVWFmUDBtQ3oyUW80cl80U2pUQ2ZyQzVHdG9DUUdCQWtYU05GbURC?oc=5",
+      "published": "2026-09-04T03:15:00+00:00",
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
       }
     },
     {
-      "id": "76a9fdd67830",
-      "title": "Keski-iässä aloitettu lääke voi ehkäistä Alzheimerin taudin - Verkkouutiset",
+      "id": "0d46de6800bb",
+      "title": "Keski-iässä aloitettu lääke voi ehkäistä Alzheimerin taudin - verkkouutiset.fi",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSFdEWklEbkJDbHlfS1V6Xy1jQ28tU05SRTcxU2k2RjBTc0lUWUpZV0hQeUNTVFFMVHdEN3FtM2ZkQWVLeGVZSUFncmhRXzl1anRPREZwTVVyMVVlV090REN3TFNXczBmOV9uUjQ4RGVfMnNWaVBFd3YyZnFTUVNqQlVzLU83bVVQXzF6bWxYYnZNZmllcFE?oc=5",
       "published": "2026-09-05T08:16:13+00:00",
       "source": {
-        "name": "Verkkouutiset",
+        "name": "verkkouutiset.fi",
         "url": "https://www.verkkouutiset.fi"
       }
     },
@@ -54,10 +54,10 @@
       }
     },
     {
-      "id": "a6ab0d184a96",
-      "title": "Tuttu lääke voi ehkäistä myös muistisairautta – ajoituksella on väliä - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5yZmppSXk0TWpFbEx1cVVZaUcxV25rVldoWDlBams4ZFlXVlBSeXhWX2tWTVBCVWFmUDBtQ3oyUW80cl80U2pUQ2ZyQzVHdG9DUUdCQWtYU05GbURC?oc=5",
-      "published": "2026-09-04T03:15:00+00:00",
+      "id": "cabe751ee597",
+      "title": "Tämä yleinen lääke voi hälyttää huumetestissä - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5HQlA2eWpzQURBTGlIUmxncEJJaUdaUWVJakc3SlVXMlRqLUpsZjZ3eEozb1lpWlB4eHNtZW5tMmZuWFlNOHRZd184OVRSdnB2VmkxN09RaE9DNWVE?oc=5",
+      "published": "2026-08-23T07:00:00+00:00",
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
@@ -104,10 +104,10 @@
       }
     },
     {
-      "id": "c81ce9ff4f27",
-      "title": "Ikuinen laihduttaja Päivi, 44, sai lihavuuslääkkeestä hurjia oireita – menetti tärkeän sisäelimen - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5oMDFzQ29QWXpDeE9fM3h3UmZjSWpsMWpnMjR3MldocUpLd01NZGlvV3JUTHBoSUgtSlQ0WnYtZmVOQk90ZFZCZGZfSFp5Sk9GQ1IwVkFQVGpJSEp5?oc=5",
-      "published": "2026-09-03T07:00:00+00:00",
+      "id": "87c9d3654ab8",
+      "title": "Erikoislääkäri paljastaa: Jo se, miten potilas saapuu vastaanotolle, voi ratkaista, saako hän hoitoa vai ei - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1KdlMxYU5UUjdaR1FWVlNUS3FkTjZjMEwtdDY3RE9OcVd0bFg0RHQyUThrWjhfdVhNTzFpT1BXaWVGVlZEQTgwbFFCZml6MGNCdXdpTllfUU4tWmNF?oc=5",
+      "published": "2026-09-05T03:00:00+00:00",
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
@@ -124,10 +124,10 @@
       }
     },
     {
-      "id": "87c9d3654ab8",
-      "title": "Erikoislääkäri paljastaa: Jo se, miten potilas saapuu vastaanotolle, voi ratkaista, saako hän hoitoa vai ei - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1KdlMxYU5UUjdaR1FWVlNUS3FkTjZjMEwtdDY3RE9OcVd0bFg0RHQyUThrWjhfdVhNTzFpT1BXaWVGVlZEQTgwbFFCZml6MGNCdXdpTllfUU4tWmNF?oc=5",
-      "published": "2026-09-05T03:00:00+00:00",
+      "id": "c81ce9ff4f27",
+      "title": "Ikuinen laihduttaja Päivi, 44, sai lihavuuslääkkeestä hurjia oireita – menetti tärkeän sisäelimen - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5oMDFzQ29QWXpDeE9fM3h3UmZjSWpsMWpnMjR3MldocUpLd01NZGlvV3JUTHBoSUgtSlQ0WnYtZmVOQk90ZFZCZGZfSFp5Sk9GQ1IwVkFQVGpJSEp5?oc=5",
+      "published": "2026-09-03T07:00:00+00:00",
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
@@ -394,12 +394,12 @@
       }
     },
     {
-      "id": "b3fc4dcc7043",
-      "title": "Tämä liikuntalaji hoitaa masennusta paremmin kuin lääke – harrastajien aivot synkronisoituvat - kotiliesi.fi",
+      "id": "03ab012068da",
+      "title": "Tämä liikuntalaji hoitaa masennusta paremmin kuin lääke – harrastajien aivot synkronisoituvat - Kotiliesi.fi",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA4WnJDaXBmLXVKek5wN2ZQYktpa3JfVEFnbnByUUp4TENHbTJCWjFaNlRsWVNwNk16a3M4MXE2TEl0a1pUcjhIZWFOZ1pNTHNja3JYV1hNRmZiS2FWVkdIVG5jM29JV1dvNEx6MkZaSDV0M3Fv?oc=5",
       "published": "2026-02-14T08:00:00+00:00",
       "source": {
-        "name": "kotiliesi.fi",
+        "name": "Kotiliesi.fi",
         "url": "https://kotiliesi.fi"
       }
     },
@@ -664,12 +664,12 @@
       }
     },
     {
-      "id": "d5b8f192b20f",
-      "title": "Auttaako lääke, jos sen tehoon ei usko? Asiantuntija vastaa tyhmään kysymykseen - kotiliesi.fi",
+      "id": "6df66becdcfa",
+      "title": "Auttaako lääke, jos sen tehoon ei usko? Asiantuntija vastaa tyhmään kysymykseen - Kotiliesi.fi",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTFg3S3NaMHhkVUZaWUoycS1OdndiRHQtakc1QjNJbzNlWHc5VGluTUZEU3VlYUFzWGxCNVpZQkFOZWVpa1NNTXBuZ2dpZGhTS0FGWUpEU1JDYUxoWmp3dFVWYVFLMVlqaGlLVVdvZkVENVdBczhvODUyV0x4NkUzTG9BS2lnYk52VVI0WUpKaGJpM1FYQk1tTmZpTnI2RVBf?oc=5",
       "published": "2021-02-08T08:00:00+00:00",
       "source": {
-        "name": "kotiliesi.fi",
+        "name": "Kotiliesi.fi",
         "url": "https://kotiliesi.fi"
       }
     },
@@ -734,16 +734,6 @@
       }
     },
     {
-      "id": "a32ac34b518c",
-      "title": "Voiko Ketipinor-lääkitys heikentää toipumista aivoinfarktin jälkeen? – Pippa Laukka vastaa - Apu360",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbVg4am5MZHdsOEotemxGT3Q1eGU1MVJONlhpTkp4SVVtNWV1V3lGR0FIWDlMN1FWc21TbHNoTTN3YVFUZWUxNEVHczBHWjBjT00xa2ZhMER0bmRmcUJiNEc0MDgzbFNHNnl0SzJLdk45c19fdTdMT1BZWkpQQlpFQjlhVG1sZ1pMRGhGMS1tNDI?oc=5",
-      "published": "2025-10-24T07:00:00+00:00",
-      "source": {
-        "name": "Apu360",
-        "url": "https://www.apu.fi"
-      }
-    },
-    {
       "id": "ab6cb1071079",
       "title": "Terveys | Älylääke osaa kertoa, onko se otettu vai ei – tulevaisuuden lääkkeet saatetaan myös tulostaa potilaskohtaisesti - Helsingin Uutiset",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE80XzlzblNVbFc3cUVqMGZpdERuTktKc1V5OWtrQzEwcTRWcWM3MmZZdnVmUkgzTzF0YThXWjJQN1pXZDhCN2s5OXhhVjJZdVdubkxIZlMyQzZ6UQ?oc=5",
@@ -751,6 +741,16 @@
       "source": {
         "name": "Helsingin Uutiset",
         "url": "https://www.helsinginuutiset.fi"
+      }
+    },
+    {
+      "id": "a32ac34b518c",
+      "title": "Voiko Ketipinor-lääkitys heikentää toipumista aivoinfarktin jälkeen? – Pippa Laukka vastaa - Apu360",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbVg4am5MZHdsOEotemxGT3Q1eGU1MVJONlhpTkp4SVVtNWV1V3lGR0FIWDlMN1FWc21TbHNoTTN3YVFUZWUxNEVHczBHWjBjT00xa2ZhMER0bmRmcUJiNEc0MDgzbFNHNnl0SzJLdk45c19fdTdMT1BZWkpQQlpFQjlhVG1sZ1pMRGhGMS1tNDI?oc=5",
+      "published": "2025-10-24T07:00:00+00:00",
+      "source": {
+        "name": "Apu360",
+        "url": "https://www.apu.fi"
       }
     },
     {

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-12T21:44:10.909414+00:00",
+  "fetched_at": "2026-09-12T23:28:50.960154+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -894,12 +894,12 @@
       }
     },
     {
-      "id": "1136e763b5df",
-      "title": "Lääke ei toimi – mistä se johtuu? - Terve.fi",
+      "id": "849c16d36ac4",
+      "title": "Lääke ei toimi – mistä se johtuu? - terve.fi",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE90QmNkcnYyZy1qSWMyZlVlVi1YTS0zWjhlMllCWTYzSWVLOHc4VlpFNVVHWUFxRS1KX3hzQzFpRkVCSmhwMTBjc0tVNnFDejFJNWtaTEFXTVBpUnhxZDk3Mk1R?oc=5",
       "published": "2019-10-13T07:00:00+00:00",
       "source": {
-        "name": "Terve.fi",
+        "name": "terve.fi",
         "url": "https://www.terve.fi"
       }
     },
@@ -934,12 +934,12 @@
       }
     },
     {
-      "id": "6d1dd8d58ee5",
-      "title": "Lääke lihottaa - Terve.fi",
+      "id": "c56563f97bde",
+      "title": "Lääke lihottaa - terve.fi",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE16QnhYRWZvaWtjSlFYSTk1UElQZjV4c1NueVlPV3MtXzlqWlhsTWsyZkFkT1NOZ21ieDJ2ZXRQcDNGTVBPdUtQQXM5dGhNcGZ5UTFFRVBUNG5hbGVWRkcyag?oc=5",
       "published": "2019-01-09T08:00:00+00:00",
       "source": {
-        "name": "Terve.fi",
+        "name": "terve.fi",
         "url": "https://www.terve.fi"
       }
     },

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-13T01:36:32.013133+00:00",
+  "fetched_at": "2026-09-13T06:51:21.135597+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -14,10 +14,10 @@
       }
     },
     {
-      "id": "bbe464fd5f15",
-      "title": "Tämä lääke on apteekeista nyt täysin loppu - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTTB4NTNBLVRFMmVob29zUXRUOGZEZ3BfRDNkUXVzcFVjNE90UXM2Y0RyUW5EdTVxNzNYTEVHTzF1dnZiNFl2Q25pR3NMS0J4Q3BuVmQ0RXIzYXJUWmFwSk5pSG5hcWNsa0RFdGNCYVFxcjRFdU9oQzBLYWdWQ2hwVXJEX04?oc=5",
-      "published": "2026-07-09T07:00:00+00:00",
+      "id": "09cf58625987",
+      "title": "Nyt tuli painava varoitus viranomaiselta – Ole tarkkana näissä tilanteissa - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQcFdtdmZkUkxWY3E0czVGTHBmXzl1TXVyZE96RGdVcWg3TjJxelNJNVk2NFNsTkI2ZWRoTDFjbVFJSXA1U3czRVNId1F1YlBJZGRyR1RfZFFoWThIUl9kcjAzTkZpV1M3d2otMTBzYUVLTGl2c19RUHRsX0R1eE1OaWlyRFY?oc=5",
+      "published": "2026-09-03T07:00:00+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
@@ -104,30 +104,20 @@
       }
     },
     {
-      "id": "a190bc4042a1",
-      "title": "Tällainen on lääke, jota Trumpin väitetään saaneen - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUjlLSUp3UHhfNWtlVFVLNW5ONTZxdjl6T3BDLXA0VGhleXh5ZXFtbXRiRFdKNjNybG1SZ01zQkZHX0Y0djhkd2Y4c0p5UFJkRHVrMVRqRkdqR1ZNSXJNQUlnTDJvRUoyNVgyejNlSjRvSDZra1l1RXNSZzJ3bTRyZV9kMVg?oc=5",
-      "published": "2026-06-26T07:00:00+00:00",
+      "id": "bbe464fd5f15",
+      "title": "Tämä lääke on apteekeista nyt täysin loppu - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTTB4NTNBLVRFMmVob29zUXRUOGZEZ3BfRDNkUXVzcFVjNE90UXM2Y0RyUW5EdTVxNzNYTEVHTzF1dnZiNFl2Q25pR3NMS0J4Q3BuVmQ0RXIzYXJUWmFwSk5pSG5hcWNsa0RFdGNCYVFxcjRFdU9oQzBLYWdWQ2hwVXJEX04?oc=5",
+      "published": "2026-07-09T07:00:00+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
       }
     },
     {
-      "id": "1bf2cf08eae7",
-      "title": "Jonna lopetti yleisen lääkkeen ja ällistyi: paino putosi 46 kiloa - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE55U041N2xxVXdQUmdjLTg4VC1zV1JJNmhkaXptZEJ4Y1dGTkdTWHNLbERtWEhpWWhDQkxIb25FbkVNNW5VQU9Uanc1Nm52UzVldUJGbGE1VmMxU3hP?oc=5",
-      "published": "2026-08-30T07:00:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
-      }
-    },
-    {
-      "id": "19f8c3002e2f",
-      "title": "Yli 600 000 suomalaista syö jo näitä lääkkeitä – Tutkija paljastaa karun totuuden - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNWh5N3Q0NWRsSmxVeExVVDByRk1INHBaNWdiWXRCdkpfNWtjQ0Y1eE1lek9oVDg1SE1pWC1fNmJ3d2JhQVJmZEpuU09KTUtuSThiTWtrdlhKQWc5Y3JBbkJqazBxMG9pM21kSUt5VlFfZkcwVTJGU1FHQTR5NUN4M0hTMjM?oc=5",
-      "published": "2026-08-29T07:00:00+00:00",
+      "id": "a190bc4042a1",
+      "title": "Tällainen on lääke, jota Trumpin väitetään saaneen - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUjlLSUp3UHhfNWtlVFVLNW5ONTZxdjl6T3BDLXA0VGhleXh5ZXFtbXRiRFdKNjNybG1SZ01zQkZHX0Y0djhkd2Y4c0p5UFJkRHVrMVRqRkdqR1ZNSXJNQUlnTDJvRUoyNVgyejNlSjRvSDZra1l1RXNSZzJ3bTRyZV9kMVg?oc=5",
+      "published": "2026-06-26T07:00:00+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
@@ -144,10 +134,10 @@
       }
     },
     {
-      "id": "239d37a26b1c",
-      "title": "Näin käy, jos syö vahingossa masennuslääkettä - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWDlpa24wV1RYMWZzREZ6ZHlsR0JYMVpRZlZxSUJvWldxRk5aLXlTUE9MTHNSX1hFbmJOemZpeVpEZ3Z2WkR1b3BMMU9IVDJzUGI1TjNNbGQyaExMeUFuMTJGNFV1ajdlbkw5YS1EVzRPakEtVlhMaEJHaXhSNGZJdzkwWEQ?oc=5",
-      "published": "2026-08-08T07:00:00+00:00",
+      "id": "19f8c3002e2f",
+      "title": "Yli 600 000 suomalaista syö jo näitä lääkkeitä – Tutkija paljastaa karun totuuden - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNWh5N3Q0NWRsSmxVeExVVDByRk1INHBaNWdiWXRCdkpfNWtjQ0Y1eE1lek9oVDg1SE1pWC1fNmJ3d2JhQVJmZEpuU09KTUtuSThiTWtrdlhKQWc5Y3JBbkJqazBxMG9pM21kSUt5VlFfZkcwVTJGU1FHQTR5NUN4M0hTMjM?oc=5",
+      "published": "2026-08-29T07:00:00+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
@@ -164,10 +154,10 @@
       }
     },
     {
-      "id": "5e1be85a232d",
-      "title": "Kärsitkö korkeasta kolesterolista? Nyt tuli mullistava uutinen - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBnVWs2SG9IRWxmbjFnWTFkb3lLNkVnZkxjLTlUd3JQRTZVZS1iUW5yT3dJZjhHd3lmMERhZnNtNE5mR1JOTWNNS1MxUnY2UkVWVktFSEIwcFZpWFQ1S3FoaTlhaU1FMDlLd0ZCaWRCN2R1amNwcmRsVA?oc=5",
-      "published": "2026-07-16T07:00:00+00:00",
+      "id": "239d37a26b1c",
+      "title": "Näin käy, jos syö vahingossa masennuslääkettä - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWDlpa24wV1RYMWZzREZ6ZHlsR0JYMVpRZlZxSUJvWldxRk5aLXlTUE9MTHNSX1hFbmJOemZpeVpEZ3Z2WkR1b3BMMU9IVDJzUGI1TjNNbGQyaExMeUFuMTJGNFV1ajdlbkw5YS1EVzRPakEtVlhMaEJHaXhSNGZJdzkwWEQ?oc=5",
+      "published": "2026-08-08T07:00:00+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
@@ -184,10 +174,10 @@
       }
     },
     {
-      "id": "f0632647474b",
-      "title": "Suomea riivaa lääkekaaos, joka voi ajaa hengenvaarallisiin tilanteisiin, sanovat asiantuntijat – Nämä ovat riskilääkkeitä - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOaER5MHlOYjFaTWM3RlZ1Ulg4U3Z5enUzTDc5MHprcW45SThZVFkwbWlic001QXNmdVJTLWpGTU8tZXJPTVptbWNqZ3o5LW04UE1SdWFnbGFHay0ySFJpdXpYRFZ1SGl1ck9EamNwV3Y0OHNidVpoLWUzOEFVZXdGRUZiSmQ?oc=5",
-      "published": "2026-06-25T07:00:00+00:00",
+      "id": "5e1be85a232d",
+      "title": "Kärsitkö korkeasta kolesterolista? Nyt tuli mullistava uutinen - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBnVWs2SG9IRWxmbjFnWTFkb3lLNkVnZkxjLTlUd3JQRTZVZS1iUW5yT3dJZjhHd3lmMERhZnNtNE5mR1JOTWNNS1MxUnY2UkVWVktFSEIwcFZpWFQ1S3FoaTlhaU1FMDlLd0ZCaWRCN2R1amNwcmRsVA?oc=5",
+      "published": "2026-07-16T07:00:00+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
@@ -201,6 +191,16 @@
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
+      }
+    },
+    {
+      "id": "f0632647474b",
+      "title": "Suomea riivaa lääkekaaos, joka voi ajaa hengenvaarallisiin tilanteisiin, sanovat asiantuntijat – Nämä ovat riskilääkkeitä - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOaER5MHlOYjFaTWM3RlZ1Ulg4U3Z5enUzTDc5MHprcW45SThZVFkwbWlic001QXNmdVJTLWpGTU8tZXJPTVptbWNqZ3o5LW04UE1SdWFnbGFHay0ySFJpdXpYRFZ1SGl1ck9EamNwV3Y0OHNidVpoLWUzOEFVZXdGRUZiSmQ?oc=5",
+      "published": "2026-06-25T07:00:00+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
       }
     },
     {
@@ -324,23 +324,23 @@
       }
     },
     {
-      "id": "6c1fc5baa1a7",
-      "title": "Moni käyttää näitä lääkkeitä raskausaikana – nyt ne liitettiin lapsen autismiriskiin - kaksplus.fi",
+      "id": "9acfdf5305fb",
+      "title": "Moni käyttää näitä lääkkeitä raskausaikana – nyt ne liitettiin lapsen autismiriskiin - Kaksplus.fi",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZUJ3aTdYM0JnLW9kLVdHRndvN3dYUk9BdFJHTmp2Nk44bm9HSmJwWHNuVUctYnVjcHlvckdlUVJESjVVb2l3bUNUS0JDZUJ1enlZM3FEQUlqdFR4dGhWdXRHd190RTBaUi04bnp5ak9NaFdoRnJ5N205M2hOUzdrR25GbWhPNlN3cXY4czdpeVFfTFcyQms4RWpua3JCSkExOV9KN2szSXJHLWJDc2l6RmFob1ViTHpVTklyTmRxeVVUZw?oc=5",
       "published": "2026-05-14T07:00:00+00:00",
       "source": {
-        "name": "kaksplus.fi",
+        "name": "Kaksplus.fi",
         "url": "https://kaksplus.fi"
       }
     },
     {
-      "id": "3f3062988d60",
-      "title": "Tutkimus: lihavuusleikkaus laihduttaa tehokkaammin ja edullisemmin kuin lääkkeet | Apu Terveys - Apu360",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUHc2M25TZHY5cm0td3BiS0VWTUpIY1VCdFNvREdtM1pzcGJKeTJGeUdIZ0kzSVkxcmh4RkVEMnY5ZkpxX0RHQmV5dnhMV1F6cnBXVEdEWTFqbkpseS1kOEJkY1VjUGVmVXlwUWlsTmYzNlZsRFJ1ei00T1VFZUYtWUVtLXVXY0gtR2pYVDBNWTNqTVRGNjBCVzFkVkpUd2NpVlE?oc=5",
-      "published": "2026-02-23T08:00:00+00:00",
+      "id": "5acf52f5ea2f",
+      "title": "Masennuslääkkeiden sivuvaikutuksissa suuria eroja – osa nostaa ja osa laskee painoa - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBPelJvZFRJT2M2eThIeEVyMFlFSERBUjFBN0pEWFNiU2NmcFpEUENGaGVaei1QdGZFWUJFcUd1d2lPdkFzS1Bnd3hJYlBJZFNkSWVSMTZBdFlSZkJR?oc=5",
+      "published": "2025-11-27T08:00:00+00:00",
       "source": {
-        "name": "Apu360",
-        "url": "https://www.apu.fi"
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
       }
     },
     {
@@ -354,6 +354,16 @@
       }
     },
     {
+      "id": "3f3062988d60",
+      "title": "Tutkimus: lihavuusleikkaus laihduttaa tehokkaammin ja edullisemmin kuin lääkkeet | Apu Terveys - Apu360",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUHc2M25TZHY5cm0td3BiS0VWTUpIY1VCdFNvREdtM1pzcGJKeTJGeUdIZ0kzSVkxcmh4RkVEMnY5ZkpxX0RHQmV5dnhMV1F6cnBXVEdEWTFqbkpseS1kOEJkY1VjUGVmVXlwUWlsTmYzNlZsRFJ1ei00T1VFZUYtWUVtLXVXY0gtR2pYVDBNWTNqTVRGNjBCVzFkVkpUd2NpVlE?oc=5",
+      "published": "2026-02-23T08:00:00+00:00",
+      "source": {
+        "name": "Apu360",
+        "url": "https://www.apu.fi"
+      }
+    },
+    {
       "id": "3ed1ba821af1",
       "title": "Kun Veera Papinoja aloitti Ozempicin käytön, hänen somensa täyttyi kritiikistä – näin hän vastaa kommentteihin - eeva.fi",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1acEJtM2J6ZUxhenExNnQ3bUZvSVo1eUdJSU4zeGpYTVFrTHBBeWV4TS1DUVB0Q1hYMWlISlIwbXA4TUtBTG1Dck1JcWdRUWl5VXJfRlpxUUk1N3FZ?oc=5",
@@ -364,16 +374,6 @@
       }
     },
     {
-      "id": "dcafffe522c9",
-      "title": "Varoitus: Nämä lääkkeet voivat aiheuttaa lihasmassan menetyksen – \"10 vuoden ikääntyminen\" - Suomenmaa.fi",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOV1RJcUgyeHEtMHdHQUdEUmZtNUUzRXJlYWM2a2xFOVB5aEdVWFNMaHZOVHR4QVprV3RHU09TRUF1bXVnWnBaVjR4WmRONnQ2QkhzQVRDemRZSlVoZHE4REg0aUFiYlFBbXl5SXFFYnN2REMtRktZOG5GeE4yYWlwSm5qRmtETU1QTW5JVTVCWGRheGFIWHFwTTJ5X0lvbzIycVI2czVLbl9ieGk4eXZpLTFQNUdZTEZTTGs4?oc=5",
-      "published": "2025-12-08T08:00:00+00:00",
-      "source": {
-        "name": "Suomenmaa.fi",
-        "url": "https://www.suomenmaa.fi"
-      }
-    },
-    {
       "id": "cd7bdaa7c1f1",
       "title": "Yksi viime vuosina yleistynyt tuote näkyy Myrkytystietokeskukseen soitetuissa puheluissa - Anna.fi",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9RVWRLZDF3RklZSGx2Y09BbU92Rm1VR1RhYk5LREF5RTJCVWFjU2MyTnVZNF9kWjFfaksweElTSHlsWmVSVExHcWREVjJyZnUzNEkzaFg1dnltRTZ5WUlLdXlrZ0Iydw?oc=5",
@@ -381,6 +381,16 @@
       "source": {
         "name": "Anna.fi",
         "url": "https://anna.fi"
+      }
+    },
+    {
+      "id": "dcafffe522c9",
+      "title": "Varoitus: Nämä lääkkeet voivat aiheuttaa lihasmassan menetyksen – \"10 vuoden ikääntyminen\" - Suomenmaa.fi",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOV1RJcUgyeHEtMHdHQUdEUmZtNUUzRXJlYWM2a2xFOVB5aEdVWFNMaHZOVHR4QVprV3RHU09TRUF1bXVnWnBaVjR4WmRONnQ2QkhzQVRDemRZSlVoZHE4REg0aUFiYlFBbXl5SXFFYnN2REMtRktZOG5GeE4yYWlwSm5qRmtETU1QTW5JVTVCWGRheGFIWHFwTTJ5X0lvbzIycVI2czVLbl9ieGk4eXZpLTFQNUdZTEZTTGs4?oc=5",
+      "published": "2025-12-08T08:00:00+00:00",
+      "source": {
+        "name": "Suomenmaa.fi",
+        "url": "https://www.suomenmaa.fi"
       }
     },
     {
@@ -534,16 +544,6 @@
       }
     },
     {
-      "id": "2e15e9e19f5d",
-      "title": "Tutkimus: Tuttu lääke saattaa suojata koronan tarttumiselta - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5MUDFMWVZYMWt0M1JqZHpCTFZPenk4RmNUYjRCWk10dWtHRktoN2lMYXFkTm1VNkkwRTNqSEd3M1FRRWlXRHJXZVd5eE9UR29Zb2xVZjNsa2xIUUcz?oc=5",
-      "published": "2025-11-10T08:00:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
-      }
-    },
-    {
       "id": "a32ac34b518c",
       "title": "Voiko Ketipinor-lääkitys heikentää toipumista aivoinfarktin jälkeen? – Pippa Laukka vastaa - Apu360",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbVg4am5MZHdsOEotemxGT3Q1eGU1MVJONlhpTkp4SVVtNWV1V3lGR0FIWDlMN1FWc21TbHNoTTN3YVFUZWUxNEVHczBHWjBjT00xa2ZhMER0bmRmcUJiNEc0MDgzbFNHNnl0SzJLdk45c19fdTdMT1BZWkpQQlpFQjlhVG1sZ1pMRGhGMS1tNDI?oc=5",
@@ -614,16 +614,6 @@
       }
     },
     {
-      "id": "032459aa0e77",
-      "title": "Psyykenlääkkeen lopettaminen vei toimintakyvyn – Miten selvitä eteenpäin? Pippa Laukka vastaa - Apu360",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPVWRBa0VqUXJ1c0piTTJ4WjQwcW5KcDMwZ3BqREZkZkludUN0ajF6LWRkb0NQWW4zWElQYXlDQlp5bi1JYlZkcFpaajMzaW9pZkpNckxyb0F6QjdOaEpTeTBNbkFmaGpmVDlKdHN3NkI3dnNXQ0lmbVVhMFBUcGwzdzVoQ0kycF90dTRJbkk2X29jUTNZ?oc=5",
-      "published": "2025-10-12T07:00:00+00:00",
-      "source": {
-        "name": "Apu360",
-        "url": "https://www.apu.fi"
-      }
-    },
-    {
       "id": "0ad2c547427b",
       "title": "Liike on lääke, mutta mikä saisi meidät liikkumaan enemmän? - University of Helsinki",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxON0RGUmUtaFMtTzRnekJMSlVqLUVpZlFaZEtkV2Yxc1N6cUJDX2lWQW1CMTFTQ29CYzdpU0Nlc2lmUDZ0Q2ZmdEhFWVFtb0g2SDZ6dzNKRV9hd3BFUDQ0RUo0czJZWVY5SkdVYmRnb1JPZXlOY1NYaGR5NVQzTUVXbU9mNllMVWpFU25OZ2NyN0N6LXdzVHY4cG9sZ1VnNHdjczE1MVBrcEc?oc=5",
@@ -631,6 +621,16 @@
       "source": {
         "name": "University of Helsinki",
         "url": "https://www.helsinki.fi"
+      }
+    },
+    {
+      "id": "032459aa0e77",
+      "title": "Psyykenlääkkeen lopettaminen vei toimintakyvyn – Miten selvitä eteenpäin? Pippa Laukka vastaa - Apu360",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPVWRBa0VqUXJ1c0piTTJ4WjQwcW5KcDMwZ3BqREZkZkludUN0ajF6LWRkb0NQWW4zWElQYXlDQlp5bi1JYlZkcFpaajMzaW9pZkpNckxyb0F6QjdOaEpTeTBNbkFmaGpmVDlKdHN3NkI3dnNXQ0lmbVVhMFBUcGwzdzVoQ0kycF90dTRJbkk2X29jUTNZ?oc=5",
+      "published": "2025-10-12T07:00:00+00:00",
+      "source": {
+        "name": "Apu360",
+        "url": "https://www.apu.fi"
       }
     },
     {
@@ -654,12 +654,12 @@
       }
     },
     {
-      "id": "7669f5edd70d",
-      "title": "Huonoksi koettu terveys on yhteydessä monipäihdekäyttöön - laakarilehti.fi",
+      "id": "13a0b4c9a561",
+      "title": "Huonoksi koettu terveys on yhteydessä monipäihdekäyttöön - Lääkärilehti",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNejhEN0xGUTJlenVzd0o1VVdxWGoxZFd1LU1vanBWYVJWbUFtN3doUTlSNHdLZVRQY2lkWjFKMEtJUWtVOFpfUEd3VXVXNkI4VWVCTlpLazI1UVE0a195ZW81NUpDZzFxZnRZdndTUnRmQjRoWWxuOVVHLUtiR285VkRySzZsWjZtQmUyVVZwWTN1Zmw0MV9qajdtYUViRVUzRFFBdk9DSjlKTjg3NWFWQ1V0d3liRDBhTWpza1ladUtNUnEwSWNkYWJEeGpNNkhhTG94bQ?oc=5",
       "published": "2023-08-10T07:00:00+00:00",
       "source": {
-        "name": "laakarilehti.fi",
+        "name": "Lääkärilehti",
         "url": "https://www.laakarilehti.fi"
       }
     },
@@ -668,6 +668,16 @@
       "title": "Satojen lääkkeiden hinnat halpenevat tänään - Yle",
       "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE56VnRjMWlIeXdVbTBTNXVreFhaa3FhTGJsdEFQUGI0SEhURndWU0VqZy1SeGEyVW1ZWk56dVNYcUhndw?oc=5",
       "published": "2025-02-28T08:00:00+00:00",
+      "source": {
+        "name": "Yle",
+        "url": "https://yle.fi"
+      }
+    },
+    {
+      "id": "20549b823652",
+      "title": "Lihavuuslääke nousi Suomen myydyimmäksi lääkkeeksi - Yle",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE02V0NFcVBPbWp5aHJmQThteGhla1YyZXJsd096TC14Vk1ZekwtVEhETVJ0Z3FqVDF3Z19kalBRUWozQQ?oc=5",
+      "published": "2025-06-11T07:00:00+00:00",
       "source": {
         "name": "Yle",
         "url": "https://yle.fi"
@@ -688,16 +698,6 @@
       "title": "Orion lopettaa ei-addiktoivan kipulääkkeen kehittelyn – lääke ehti herättää odotuksia - Yle",
       "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5sbWRfS3pRaGJhZnRPOFRPaTVuaGV1UFdGOGZwbER6S1NtLWg1WG1MQXNvVTMzVTdGY1JLVkJMdG93QQ?oc=5",
       "published": "2024-10-24T07:00:00+00:00",
-      "source": {
-        "name": "Yle",
-        "url": "https://yle.fi"
-      }
-    },
-    {
-      "id": "20549b823652",
-      "title": "Lihavuuslääke nousi Suomen myydyimmäksi lääkkeeksi - Yle",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE02V0NFcVBPbWp5aHJmQThteGhla1YyZXJsd096TC14Vk1ZekwtVEhETVJ0Z3FqVDF3Z19kalBRUWozQQ?oc=5",
-      "published": "2025-06-11T07:00:00+00:00",
       "source": {
         "name": "Yle",
         "url": "https://yle.fi"
@@ -824,12 +824,12 @@
       }
     },
     {
-      "id": "1a71a42e4098",
-      "title": "Terveys | Älylääke osaa kertoa, onko se otettu vai ei – tulevaisuuden lääkkeet saatetaan myös tulostaa potilaskohtaisesti - helsinginuutiset.fi",
+      "id": "ab6cb1071079",
+      "title": "Terveys | Älylääke osaa kertoa, onko se otettu vai ei – tulevaisuuden lääkkeet saatetaan myös tulostaa potilaskohtaisesti - Helsingin Uutiset",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE80XzlzblNVbFc3cUVqMGZpdERuTktKc1V5OWtrQzEwcTRWcWM3MmZZdnVmUkgzTzF0YThXWjJQN1pXZDhCN2s5OXhhVjJZdVdubkxIZlMyQzZ6UQ?oc=5",
       "published": "2021-06-16T07:00:00+00:00",
       "source": {
-        "name": "helsinginuutiset.fi",
+        "name": "Helsingin Uutiset",
         "url": "https://www.helsinginuutiset.fi"
       }
     },
@@ -894,12 +894,12 @@
       }
     },
     {
-      "id": "6530ef50ab52",
-      "title": "Lääkkeiden ympäristövaikutuksista kaivataan lisää tietoa - laakarilehti.fi",
+      "id": "78fefd60d455",
+      "title": "Lääkkeiden ympäristövaikutuksista kaivataan lisää tietoa - Lääkärilehti",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaU00Unk3NFZ3R1E3WFlSV29xTF9XZjB0YlRGT3NQNEhXbTlKeFpsRFdBbHRhQXptSHpMcEIyVEJjZnNQcV9UVDN4blhVOUczT2VrN1NWclhzQldvdllIb1gxYUduR0NpWERfbW9Lc3BmaXVEcS13SjYyMDVCbE4wQkdBU2hiMDNfSFZ3T2VUMVduZEdTeV9EMEJLZEU3YVBlTG5KQ2hkQ2tCUQ?oc=5",
       "published": "2018-12-12T08:00:00+00:00",
       "source": {
-        "name": "laakarilehti.fi",
+        "name": "Lääkärilehti",
         "url": "https://www.laakarilehti.fi"
       }
     },
@@ -964,16 +964,6 @@
       }
     },
     {
-      "id": "6f16756b85b7",
-      "title": "Vertailu: Tärkeiden syöpälääkkeiden saatavuudessa on valtavia eroja Euroopan sisällä - Yle",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBmTlNNdkptOFRVRS15RzFNVzY5NEhHU0hpaXRqWmp6a2dhTXFBUVJKOXE1dWVGT0hua18wM0ZLNXRlQQ?oc=5",
-      "published": "2024-06-12T07:00:00+00:00",
-      "source": {
-        "name": "Yle",
-        "url": "https://yle.fi"
-      }
-    },
-    {
       "id": "0d856b7b4a47",
       "title": "Tuttu lääke voisi ehkäistä epäterveellisesti elävien suolistosyöpiä - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE03Tm5oWVAwMGdQWThwWU1LRThnSVFpRmJaZ1BJSVFOQXFYRlV4YXA4YUVjbVZMME9wZ09OdmJyYkhtVFI2RU9XLXVWazh5dzVnZHBoMlhVa0pndnFw?oc=5",
@@ -981,6 +971,16 @@
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
+      }
+    },
+    {
+      "id": "6f16756b85b7",
+      "title": "Vertailu: Tärkeiden syöpälääkkeiden saatavuudessa on valtavia eroja Euroopan sisällä - Yle",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBmTlNNdkptOFRVRS15RzFNVzY5NEhHU0hpaXRqWmp6a2dhTXFBUVJKOXE1dWVGT0hua18wM0ZLNXRlQQ?oc=5",
+      "published": "2024-06-12T07:00:00+00:00",
+      "source": {
+        "name": "Yle",
+        "url": "https://yle.fi"
       }
     },
     {

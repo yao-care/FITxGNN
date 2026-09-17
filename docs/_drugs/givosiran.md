@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Givosiran
-parent: 僅模型預測 (L5)
+parent: Vahva näyttö (L1-L2)
 nav_order: 175
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Givosiran
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -45,7 +45,7 @@ Givosiran is a hepatic-targeted siRNA therapeutic originally used to prevent att
 | Predicted New Indication | ALA Dehydratase Deficiency Porphyria (ALADP) |
 | TxGNN Prediction Score | 99.91% |
 | Evidence Level | L2 |
-| Finland Market Status | 未上市 (Not marketed) |
+| Finland Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -103,10 +103,10 @@ The mechanistic rationale (ALAS1 acting upstream of ALA dehydratase in the same 
 - Additional ALADP case series or registry data to reconcile the conflicting case report
 - Drug interaction (DDI) profile (currently `not_found`)
 - Regulatory pathway assessment, given the drug is not currently marketed in Finland (0 authorizations)
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

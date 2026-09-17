@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Susoctocog Alfa
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 353
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Susoctocog Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -99,10 +99,10 @@ Despite a high TxGNN prediction score, this candidate has no clinical trial or l
 - Fimea/TFDA package insert — warnings, contraindications, and DDI data (DG001)
 - Any preclinical or translational evidence connecting FVIII activity to platelet granule secretion pathways, if this indication is to be pursued further
 - Note: the same evidence pack shows stronger, more mechanistically coherent support for FVIII-pathway-adjacent indications (e.g., "hemophilia" and "acquired coagulation factor deficiency," ranks 4–5, which reference the drug's existing AHA evidence base) — these may warrant a separate evaluation rather than being treated as novel repurposing candidates, since they largely overlap with the drug's known use.
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Epinephrine
-parent: 僅模型預測 (L5)
+parent: Vahva näyttö (L1-L2)
 nav_order: 149
-evidence_level: L5
+evidence_level: L1
 indication_count: 4
 ---
 
 # Epinephrine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Näytön taso: **L1** | Ennustetut käyttöaiheet: **4** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -97,7 +97,7 @@ Because the mechanistic pathway is pharmacologically well characterized and the 
 
 ## Finland Market Information
 
-Epinephrine currently holds **no marketing authorization on file in Finland** (0 licenses; market status: 未上市 / Not Marketed). No product name, dosage form, or approved-indication text is available from the regulatory data source for this candidate.
+Epinephrine currently holds **no marketing authorization on file in Finland** (0 licenses; market status: Not marketed / Not Marketed). No product name, dosage form, or approved-indication text is available from the regulatory data source for this candidate.
 
 ---
 
@@ -135,10 +135,10 @@ The top-ranked prediction — epinephrine for obstructive lung disease — is su
 - A completed drug-drug interaction (DDI) query, since the current query returned no results
 - Route-compatibility confirmation (available vs. required administration routes), currently marked "pending" in the evidence pack
 - Disease-label verification for "respiratory malformation" (rank 4), where retrieved evidence does not match the stated indication
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

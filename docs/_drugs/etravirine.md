@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Etravirine
-parent: 僅模型預測 (L5)
+parent: Kohtalainen näyttö (L3-L4)
 nav_order: 157
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Etravirine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -94,10 +94,10 @@ The top-ranked prediction (SIV infection) rests on a single indirect preclinical
 - In vitro or in vivo antiviral activity data for etravirine specifically against SIV reverse transcriptase
 - Data-quality cleanup of the linked evidence set: several trials attached to lower-ranked predictions (e.g., rank 4, "congenital HIV") actually study other ARV agents (cabotegravir, rilpivirine, fosdevirine, darunavir) rather than etravirine itself, and one trial (NCT04273165, etravirine in Friedreich Ataxia) appears misclassified under an unrelated neurodevelopmental disorder prediction (rank 3) — these should be corrected before further scoring
 - Note: ranks 4–5 ("congenital HIV," "AIDS related complex") largely restate etravirine's existing approved HIV-1 mechanism rather than representing a novel repurposing signal; ranks 6–10 have no supporting evidence (L5) and should remain Hold
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

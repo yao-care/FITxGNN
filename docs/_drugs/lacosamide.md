@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Lacosamide
-parent: 僅模型預測 (L5)
+parent: Kohtalainen näyttö (L3-L4)
 nav_order: 210
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Lacosamide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -101,10 +101,10 @@ The mechanistic rationale (sodium-channel slow-inactivation, class analogy to la
 - Results from NCT07412132 (depressive-episode trial) once available, to gauge translatability to manic presentations
 - Consider re-scoping the candidate indication toward "bipolar depression" specifically, where evidence is materially stronger than for "manic bipolar affective disorder"
 - Note: within this same evidence pack, **migraine disorder** (rank 5) shows substantially stronger evidence (L1, head-to-head Phase 3 RCTs vs. propranolol, decision stage S3, "Proceed with Guardrails") and may warrant separate, higher-priority evaluation
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

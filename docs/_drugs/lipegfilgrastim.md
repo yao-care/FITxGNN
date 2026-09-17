@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lipegfilgrastim
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 230
 evidence_level: L5
 indication_count: 5
@@ -10,12 +10,12 @@ indication_count: 5
 # Lipegfilgrastim
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -100,10 +100,10 @@ All five predicted indications sit at evidence level L5 (model prediction only) 
 - Confirmed original approved indication(s) via regulatory license lookup
 - Targeted preclinical or mechanistic literature search specifically testing G-CSF activity against platelet-release disorders and diabetic retinopathy, to confirm or refute the knowledge-graph-driven hypothesis
 - If mechanistic plausibility is established, in vitro/in vivo proof-of-concept studies before any clinical trial design is considered
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

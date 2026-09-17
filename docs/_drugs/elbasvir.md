@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Elbasvir
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 139
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Elbasvir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -45,7 +45,7 @@ Elbasvir is an NS5A inhibitor originally developed as part of the elbasvir/grazo
 | Predicted New Indication | Hepatitis B Virus Infection |
 | TxGNN Prediction Score | 99.71% (rank 3637) |
 | Evidence Level | L5 (model prediction only — no study in the evidence set actually tests HBV efficacy) |
-| Finland Market Status | 未上市 (Not marketed) |
+| Finland Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -105,7 +105,7 @@ Remaining publications (PMID 35260039, 29077864, 28992878, 31521479, 32925725, 3
 
 ## Finland Market Information
 
-Elbasvir currently holds **no marketing authorization in Finland** (0 licenses on record; market status: 未上市/Not marketed). No product/authorization data is available for this candidate.
+Elbasvir currently holds **no marketing authorization in Finland** (0 licenses on record; market status: Not marketed/Not marketed). No product/authorization data is available for this candidate.
 
 ---
 
@@ -129,10 +129,10 @@ Please refer to the package insert for safety information. Key warnings, contrai
 - TFDA/EMA package insert warnings and contraindications (DG001 — currently blocking)
 - Genuine preclinical or in vitro evidence of elbasvir activity against HBV polymerase/core proteins, if this indication is to be pursued further
 - Given the weak mechanistic basis, consider deprioritizing this candidate in favor of TxGNN predictions with stronger target-disease alignment
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

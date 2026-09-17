@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Methoxy Polyethylene Glycol-Epoetin Beta
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 247
 evidence_level: L5
 indication_count: 7
@@ -10,12 +10,12 @@ indication_count: 7
 # Methoxy Polyethylene Glycol-Epoetin Beta
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **7** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -99,10 +99,10 @@ All seven predicted indications are model-only (L5), with zero corroborating cli
 - Confirmed mechanism of action and original approved indication(s) from DrugBank or another primary source (DG002)
 - Independent literature/mechanistic review specifically for severe nonproliferative diabetic retinopathy (rank 4), given its comparatively stronger biological rationale but unresolved angiogenesis safety signal
 - If platelet-release-disorder hypothesis (rank 1) is pursued, dedicated mechanistic validation of EPOR's role in megakaryocyte/platelet release, since current support is knowledge-graph co-occurrence rather than pathway evidence
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

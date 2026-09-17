@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Pegvaliase
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 290
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Pegvaliase
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -103,10 +103,10 @@ This prediction is supported only by the TxGNN model score (L5), with no clinica
 - Verified, structured mechanism-of-action data to close High-severity data gap DG002
 - Independent biological plausibility review (e.g., any evidence of phenylalanine/PAL pathway involvement in retinal microvascular disease)
 - Continued periodic monitoring of ClinicalTrials.gov, ICTRP, and PubMed for emerging evidence, since none currently exists for any of the three related predicted indications
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Fosaprepitant
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 168
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Fosaprepitant
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -83,10 +83,10 @@ The top-ranked prediction (NSIAD) has no supporting clinical trials or literatur
 - Obtain structured mechanism-of-action data from DrugBank to properly assess mechanistic plausibility
 - If pursuing repurposing research on this drug, consider prioritizing rank 7 (retinitis, L4 — supported by a preclinical mechanistic study showing fosaprepitant blocks NK1/Substance P-driven ocular inflammation) over the current top-ranked NSIAD candidate, which lacks any corroborating evidence
 - Independently re-verify the 3 clinical trials surfaced for "multiple endocrine neoplasia" (rank 5): all three are CINV antiemetic-support studies in patients with germ-cell/hematologic malignancies, not treatment trials for MEN — this pairing appears to be a drug/comorbidity false match rather than genuine evidence
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

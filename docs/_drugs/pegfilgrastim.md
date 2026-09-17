@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Pegfilgrastim
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 288
 evidence_level: L5
 indication_count: 2
@@ -10,12 +10,12 @@ indication_count: 2
 # Pegfilgrastim
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -47,7 +47,7 @@ Pegfilgrastim is a pegylated recombinant G-CSF used to support neutrophil recove
 | Predicted New Indication | Severe Nonproliferative Diabetic Retinopathy |
 | TxGNN Prediction Score | 99.89% (rank 1638) |
 | Evidence Level | L5 |
-| Taiwan Market Status | 未上市 (Not marketed) |
+| Taiwan Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | **Hold** |
 
@@ -77,7 +77,7 @@ Currently no related literature available (0 PubMed results for both associated 
 
 ## Taiwan Market Information
 
-Pegfilgrastim currently has **no marketing authorization in Taiwan** (`market_status`: 未上市; `total_licenses`: 0; `licenses`: none on file). No product name, dosage form, or approved indication text is available to extract.
+Pegfilgrastim currently has **no marketing authorization in Taiwan** (`market_status`: Not marketed; `total_licenses`: 0; `licenses`: none on file). No product name, dosage form, or approved indication text is available to extract.
 
 ---
 
@@ -106,10 +106,10 @@ This candidate has L5 evidence only (model prediction, no clinical trials, no li
 - Preclinical or mechanistic studies specifically examining pegfilgrastim's effect on diabetic retinopathy progression (both risk and potential benefit directions), since none currently exist
 - Confirmation of pegfilgrastim's original approved indication and Taiwan licensing status (currently absent from this evidence pack)
 - If this candidate is retained for monitoring, an explicit pharmacovigilance flag for retinal/ophthalmologic adverse events given the safety-concern hypothesis raised above
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

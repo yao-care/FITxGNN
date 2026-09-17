@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Upadacitinib
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 394
 evidence_level: L5
 indication_count: 2
@@ -10,12 +10,12 @@ indication_count: 2
 # Upadacitinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -85,10 +85,10 @@ Both predicted indications are algorithm-only (L5) signals with no supporting cl
 - Mechanism-of-action confirmation from DrugBank — currently a **High**-severity data gap
 - Original approved-indication data for upadacitinib
 - Preclinical or mechanistic studies directly linking JAK1 inhibition to either candidate disease before any further evaluation stage is considered
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

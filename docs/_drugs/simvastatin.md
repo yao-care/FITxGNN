@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Simvastatin
-parent: 僅模型預測 (L5)
+parent: Vahva näyttö (L1-L2)
 nav_order: 345
-evidence_level: L5
+evidence_level: L1
 indication_count: 8
 ---
 
 # Simvastatin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+Näytön taso: **L1** | Ennustetut käyttöaiheet: **8** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -99,7 +99,7 @@ Because of this direct mechanistic fit, the evidence pack itself flags this as a
 
 ## Finland Market Information
 
-Simvastatin currently has **no registered market authorizations in Finland** (`market_status: 未上市`, `total_licenses: 0`) in the evidence pack — no license records are available to summarize.
+Simvastatin currently has **no registered market authorizations in Finland** (`market_status: Not marketed`, `total_licenses: 0`) in the evidence pack — no license records are available to summarize.
 
 ---
 
@@ -121,10 +121,10 @@ The FH indication is backed by L1-level evidence (19 trials including the landma
 - Documented mechanism of action from DrugBank (DG002)
 - Clarification of Finland market/registration status, since the drug currently shows zero licenses despite being a globally marketed generic
 - Reconciliation of the FH vs. autosomal-dominant-hypercholesterolemia predictions as a single indication rather than two separate candidates
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

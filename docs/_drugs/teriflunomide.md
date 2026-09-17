@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Teriflunomide
-parent: 僅模型預測 (L5)
+parent: Vahva näyttö (L1-L2)
 nav_order: 370
-evidence_level: L5
+evidence_level: L1
 indication_count: 1
 ---
 
 # Teriflunomide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Näytön taso: **L1** | Ennustetut käyttöaiheet: **1** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -45,7 +45,7 @@ with **28 clinical trials** and **19 publications** currently supporting this di
 | Predicted New Indication | Relapsing-Remitting Multiple Sclerosis |
 | TxGNN Prediction Score | 99.24% |
 | Evidence Level | L1 |
-| Finland Market Status | ✗ Not Marketed (未上市) |
+| Finland Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -107,10 +107,10 @@ Efficacy evidence is exceptionally strong (L1) — two completed pivotal Phase 3
 - Structured DrugBank MOA record (High priority gap)
 - A drug-drug interaction dataset (current query returned no results)
 - Confirmation of Finland/EU regulatory pathway and timeline for market authorization
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

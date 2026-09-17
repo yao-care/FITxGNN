@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Regorafenib
-parent: 僅模型預測 (L5)
+parent: Vahva näyttö (L1-L2)
 nav_order: 319
-evidence_level: L5
+evidence_level: L2
 indication_count: 8
 ---
 
 # Regorafenib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+Näytön taso: **L2** | Ennustetut käyttöaiheet: **8** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -122,10 +122,10 @@ Although TxGNN ranks liposarcoma as the top predicted indication with a high sco
 - Confirmed DrugBank mechanism of action record (currently a data gap, DG002)
 - If this indication is to be reconsidered, a mechanistic explanation for why liposarcoma specifically does not respond, and whether a biomarker-selected subpopulation might still benefit
 - Given the negative liposarcoma signal, evaluate whether **clear cell renal carcinoma** (rank 3, L2, "Proceed with Guardrails," with a positive single-arm Phase 2 trial in RCC) is a more promising candidate from this same evidence pack
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

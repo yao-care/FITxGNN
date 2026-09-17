@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Turoctocog Alfa
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 392
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Turoctocog Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -43,7 +43,7 @@ Turoctocog alfa is a recombinant Factor VIII product used to treat and prevent b
 | Predicted New Indication | Primary release disorder of platelets |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L5 (model prediction only, no supporting trials or literature) |
-| Finland Market Status | 未上市 (Not marketed) |
+| Finland Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -65,7 +65,7 @@ Currently no related literature available.
 
 ## Finland Market Information
 
-Turoctocog alfa currently holds **no marketing authorizations** in Finland (`market_status: 未上市`, `total_licenses: 0`); no licence records are available to list.
+Turoctocog alfa currently holds **no marketing authorizations** in Finland (`market_status: Not marketed`, `total_licenses: 0`); no licence records are available to list.
 
 ## Safety Considerations
 
@@ -83,10 +83,10 @@ The predicted indication sits at the lowest evidence tier (L5) — no clinical t
 - Local package insert / regulatory warnings and contraindications (DG001, Blocking severity — required before any S1 safety screening)
 - A hematology/coagulation specialist review of whether FVIII replacement has any plausible role in platelet granule-release disorders
 - Continued literature/trial surveillance, as none currently exists for any of the 10 predicted indications in this pack
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

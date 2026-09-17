@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Perampanel
-parent: 僅模型預測 (L5)
+parent: Kohtalainen näyttö (L3-L4)
 nav_order: 294
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Perampanel
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -47,7 +47,7 @@ indication_count: 10
 | Predicted New Indication | Visual Epilepsy |
 | TxGNN Prediction Score | 99.92% |
 | Evidence Level | L4 |
-| Finland Market Status | 未上市 (Not marketed) |
+| Finland Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -118,10 +118,10 @@ Evidence for the visual-epilepsy indication is limited to mechanistic plausibili
 - Structured mechanism-of-action data from DrugBank (DG002)
 - A dedicated trial or case series enrolling patients with visual/photosensitive reflex epilepsy
 - For context: among the other TxGNN-predicted indications for perampanel in this evidence pack, **status epilepticus** (rank 10) has materially stronger evidence — an ongoing Phase 3 add-on trial, a Phase 2 prophylaxis trial, and a systematic review — reaching evidence level L3 / "Proceed with Guardrails." This may be a more promising near-term repurposing candidate than visual epilepsy.
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

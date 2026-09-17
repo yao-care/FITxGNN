@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Avapritinib
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 50
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Avapritinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -47,7 +47,7 @@ Avapritinib（DB15233）為一種激酶抑制劑類藥物，目前未於台灣�
 | 預測新適應症 | 本 Pack 無 TxGNN 預測結果 |
 | TxGNN 預測分數 | 無 |
 | 證據等級 | L5（模型預測層級，但本 Pack 尚無預測輸出） |
-| 台灣市場狀態 | ✗ 未上市 |
+| 台灣市場狀態 | ✗ Not marketed |
 | 許可證件數 | 0 |
 | 建議決策 | **Hold** |
 
@@ -85,7 +85,7 @@ Avapritinib **目前未於台灣取得藥品許可證**。TFDA 查詢（查詢�
 
 請參閱藥品仿單之警語與禁忌事項。
 
-> 本 Evidence Pack 的安全性警語、禁忌症及藥物交互作用查詢均未返回有效資料（DDI 查詢狀態：not\_found）。TFDA 仿單警語/禁忌（DG001，**Blocking** 級別缺口）尚待補齊，此缺口將阻擋 S1 安全性初評進行。
+> 本 Evidence Pack 的安全性警語、禁忌症及藥物交互作用查詢均未返回有效資料（DDI 查詢狀態：not\_found）。Fimea package insert warnings/contraindications（DG001，**Blocking** 級別缺口）尚待補齊，此缺口將阻擋 S1 安全性初評進行。
 
 ---
 
@@ -108,10 +108,10 @@ Avapritinib **目前未於台灣取得藥品許可證**。TFDA 查詢（查詢�
 
 > ⚠️ **資料完整性警示**
 > 本報告為資料缺口分析，非正式的老藥新用評估報告。待上述資料補齊、TxGNN 產出預測適應症後，需重新執行完整報告流程（候選 ID：TW-DB15233-multi，版本 v4，資料截止日：2026-04-20）。
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

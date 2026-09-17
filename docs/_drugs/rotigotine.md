@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Rotigotine
-parent: 僅模型預測 (L5)
+parent: Kohtalainen näyttö (L3-L4)
 nav_order: 334
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Rotigotine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -101,10 +101,10 @@ No clinical trials or ADHD-specific literature support rotigotine repurposing fo
 - DrugBank MOA confirmation to resolve DG002
 - Targeted literature/trial search specifically combining "rotigotine" and "ADHD" (current hits are RLS/receptor-pharmacology reviews only)
 - Note: within this same evidence pack, the rank-2 candidate (schizophrenia, L3/S1, "Research Question") has stronger supporting literature but carries a distinct safety concern — theoretical risk of psychotic symptom exacerbation given rotigotine's known association with psychosis in Parkinson's disease patients — and would need independent evaluation if pursued
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

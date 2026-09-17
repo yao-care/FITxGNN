@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Cabazitaxel
-parent: 僅模型預測 (L5)
+parent: Vahva näyttö (L1-L2)
 nav_order: 84
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Cabazitaxel
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -104,10 +104,10 @@ Mechanistic plausibility is supported by the established role of taxanes in brea
 - Confirmed DrugBank mechanism-of-action record
 - Efficacy outcomes from the GENEVIEVE trial (PMID 28768217) and the Phase I/II capecitabine combination study (PMID 21339064)
 - A breast cancer-specific safety monitoring plan addressing myelosuppression and neuropathy risk, given the drug is not currently marketed in Finland
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

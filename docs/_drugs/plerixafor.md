@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Plerixafor
-parent: 僅模型預測 (L5)
+parent: Vahva näyttö (L1-L2)
 nav_order: 301
-evidence_level: L5
+evidence_level: L2
 indication_count: 7
 ---
 
 # Plerixafor
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+Näytön taso: **L2** | Ennustetut käyttöaiheet: **7** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -121,10 +121,10 @@ The CXCR4-blockade chemosensitization mechanism is well-supported by a large bod
 - Confirmed original MOA/indication documentation from DrugBank (currently a data gap)
 - A completed Phase 2/3 RCT with survival or remission endpoints to upgrade evidence from L2
 - Assessment of the Finland regulatory pathway, since the drug is not currently marketed
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

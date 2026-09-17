@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Vestronidase Alfa
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 402
 evidence_level: L5
 indication_count: 9
@@ -10,12 +10,12 @@ indication_count: 9
 # Vestronidase Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **9** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 9
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -43,7 +43,7 @@ Vestronidase alfa（重組人類 β-glucuronidase, GUS）為第七型黏多醣�
 | 預測新適應症 | Scheie 症候群（MPS I 輕型） |
 | TxGNN 預測分數 | 99.90%（排名 1529） |
 | 證據等級 | L5（僅模型預測，無臨床試驗或文獻支持） |
-| 台灣上市狀態 | 未上市 |
+| 台灣上市狀態 | Not marketed |
 | 許可證數量 | 0 |
 | 建議決策 | **Hold（不建議推進）** |
 
@@ -65,11 +65,11 @@ TxGNN 的高分很可能反映的是知識圖譜中「MPS 疾病群組」表型�
 
 ## 台灣市場資訊
 
-Vestronidase alfa 在台灣未上市，無許可證紀錄可列示。
+Vestronidase alfa 在台灣Not marketed，無許可證紀錄可列示。
 
 ## 安全性考量
 
-請參閱藥品仿單以獲取安全性資訊（TFDA 仿單警語/禁忌屬關鍵資料缺口 DG001，Blocking 等級，尚未取得）。
+請參閱藥品仿單以獲取安全性資訊（Fimea package insert warnings/contraindications屬關鍵資料缺口 DG001，Blocking 等級，尚未取得）。
 
 ## 結論與後續建議
 
@@ -83,10 +83,10 @@ Vestronidase alfa 在台灣未上市，無許可證紀錄可列示。
 - 正式作用機轉（MOA）文件（DG002，High）
 - Scheie 症候群相關體外/體內機轉驗證研究，確認 GUS 補充對 IDUA 缺陷是否存在任何代償路徑
 - 建議優先評估本證據包中證據等級較高的候選適應症——**Hurler syndrome**（rank 3，L3，decision_stage S1，已有 1 篇 Phase 1 試驗 NCT04532047），其證據基礎明顯優於 Scheie 症候群
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

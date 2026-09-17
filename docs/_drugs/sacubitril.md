@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Sacubitril
-parent: 僅模型預測 (L5)
+parent: Kohtalainen näyttö (L3-L4)
 nav_order: 338
-evidence_level: L5
+evidence_level: L3
 indication_count: 5
 ---
 
 # Sacubitril
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+Näytön taso: **L3** | Ennustetut käyttöaiheet: **5** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -95,10 +95,10 @@ Evidence for diabetic nephropathy currently consists of a secondary RCT analysis
 - Sacubitril mechanism-of-action data (currently a High-severity data gap, DG002)
 - TFDA/regulatory package-insert warnings and contraindications (currently a Blocking data gap, DG001, required before any S1 safety pre-assessment)
 - Clarification of regulatory pathway: repurposing would apply to the marketed sacubitril/valsartan combination, not sacubitril monotherapy — combination-product regulatory status should be separately confirmed
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

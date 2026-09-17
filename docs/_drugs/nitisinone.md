@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Nitisinone
-parent: 僅模型預測 (L5)
+parent: Kohtalainen näyttö (L3-L4)
 nav_order: 265
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Nitisinone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -91,10 +91,10 @@ Mechanistic plausibility is strong (HT-1-associated renal tubular dysfunction is
 - Drug-drug interaction data (current DDI query returned no results)
 - Clarification that the target indication is scoped to HT-1-associated renal tubular acidosis, not general-etiology cases
 - Finland marketing authorization / import pathway assessment given current "not marketed" status
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

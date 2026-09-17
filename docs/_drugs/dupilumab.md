@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Dupilumab
-parent: 僅模型預測 (L5)
+parent: Kohtalainen näyttö (L3-L4)
 nav_order: 130
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Dupilumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -84,7 +84,7 @@ Critically, the single retrieved clinical trial (NCT04362501) was graded **C (da
 
 ## Finland Market Information
 
-No Finland marketing authorizations are on file for dupilumab in this dataset — `market_status: 未上市 (Not Marketed)`, `total_licenses: 0`.
+No Finland marketing authorizations are on file for dupilumab in this dataset — `market_status: Not marketed (Not Marketed)`, `total_licenses: 0`.
 
 ---
 
@@ -109,10 +109,10 @@ Please refer to the package insert for safety information.
 - Confirm mechanism of action via DrugBank API query (DG002)
 - Source bronchitis-specific (not asthma/COPD-proxy) clinical trial and literature evidence, or formally re-scope the indication to a better-defined Th2-driven phenotype (e.g., eosinophilic/chronic bronchitis)
 - Separately, note that rank-2 predicted indication **dermatitis** in this same dataset carries substantially stronger evidence (L1, multiple completed Phase 3/4 RCTs, "Proceed with Guardrails") and may warrant prioritized evaluation ahead of bronchitis
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

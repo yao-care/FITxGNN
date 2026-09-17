@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Prasterone
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 305
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Prasterone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -93,10 +93,10 @@ The top-ranked prediction (Heparin Cofactor 2 Deficiency) has no clinical trial 
 - Regulatory package insert (warnings, contraindications, DDI) to close the Blocking data gap (DG001)
 - Preclinical or pharmacodynamic data specifically addressing DHEA's effect on HCII activity/thrombotic risk, to resolve the directional mechanistic concern
 - If this program continues, consider re-scoping toward **scleroderma** (rank 7 in the same evidence pack), which reached decision stage S1 with L4 evidence — six cohort/case-control studies consistently show reduced serum DHEA-S in systemic sclerosis patients correlating with disease severity, offering a more coherent (deficiency-replacement) mechanistic rationale than the top-ranked candidate here
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

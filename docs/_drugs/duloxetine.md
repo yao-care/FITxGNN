@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Duloxetine
-parent: 僅模型預測 (L5)
+parent: Vahva näyttö (L1-L2)
 nav_order: 129
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Duloxetine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -45,7 +45,7 @@ Duloxetine is a serotonin-norepinephrine reuptake inhibitor (SNRI); formal origi
 | Predicted New Indication | Obsessive-Compulsive Disorder (OCD) |
 | TxGNN Prediction Score | 99.84% (rank 2195) |
 | Evidence Level | L2 |
-| Finland Market Status | 未上市 (Not marketed) |
+| Finland Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -92,7 +92,7 @@ This mechanistic plausibility is reinforced by a directly relevant completed Pha
 
 ## Finland Market Information
 
-Duloxetine currently has **no marketing authorization on record** in Finland (0 authorizations; market status: 未上市/not marketed). No product/dosage-form data is available to tabulate.
+Duloxetine currently has **no marketing authorization on record** in Finland (0 authorizations; market status: Not marketed/not marketed). No product/dosage-form data is available to tabulate.
 
 ---
 
@@ -131,10 +131,10 @@ Among 10 TxGNN-predicted indications, OCD is the only one with converging suppor
 - Larger controlled trials specifically evaluating duloxetine for OCD (as monotherapy or augmentation) beyond the existing N=20/N=26 studies
 - Finland-specific regulatory pathway assessment, given the drug is not currently marketed there
 - No further investment recommended for the remaining 9 predicted indications absent new trial or literature evidence
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

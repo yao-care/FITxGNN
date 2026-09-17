@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Irbesartan
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 205
 evidence_level: L5
 indication_count: 4
@@ -10,12 +10,12 @@ indication_count: 4
 # Irbesartan
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -95,10 +95,10 @@ No candidate indication in this pack has clinical trial or literature support, a
 - Detailed mechanism-of-action data to properly assess mechanistic fit for renal-hypertension indications
 - Clinical or real-world evidence specifically evaluating ARB use in malignant renovascular hypertension / malignant hypertensive renal disease, including renal-artery-stenosis screening protocols
 - Route and dosage-form compatibility data, since Finland has no existing marketing authorization to reference
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

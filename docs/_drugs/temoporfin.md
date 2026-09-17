@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Temoporfin
-parent: 僅模型預測 (L5)
+parent: Kohtalainen näyttö (L3-L4)
 nav_order: 363
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Temoporfin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -47,7 +47,7 @@ Temoporfin (mTHPC/Foscan) is a second-generation photosensitizer with an establi
 | Predicted New Indication | Benign Neoplasm of Tongue |
 | TxGNN Prediction Score | 99.76% |
 | Evidence Level | L3 |
-| Finland Market Status | 未上市 (Not Marketed) |
+| Finland Market Status | Not marketed (Not Marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -111,10 +111,10 @@ Multiple cohort and case-series studies (spanning 1996–2015) consistently supp
 - Confirmation of the drug's formally approved original indication text (not present in this evidence pack)
 - A prospective or randomized trial specifically evaluating mTHPC-PDT for benign tongue neoplasms
 - Photosensitivity/light-avoidance and airway-monitoring protocol, given procedural risks noted in the literature (post-operative swelling, airway compromise)
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

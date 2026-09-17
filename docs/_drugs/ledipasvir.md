@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ledipasvir
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 220
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Ledipasvir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -73,10 +73,10 @@ This Evidence Pack contains no TxGNN model predictions and has blocking-severity
 - **[Required]** Re-run TxGNN prediction pipeline for ledipasvir to generate candidate indications
 - **[Required]** Populate original indication data (ledipasvir is expected to have registered HCV indications in other markets — confirm and import)
 - **[Required]** After predictions are available, re-query clinical trial (ClinicalTrials.gov) and literature (PubMed) evidence for each candidate indication
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

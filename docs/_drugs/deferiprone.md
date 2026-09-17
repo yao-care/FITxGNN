@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Deferiprone
-parent: 僅模型預測 (L5)
+parent: Kohtalainen näyttö (L3-L4)
 nav_order: 115
-evidence_level: L5
+evidence_level: L4
 indication_count: 9
 ---
 
 # Deferiprone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **9** 個
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 9
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -43,7 +43,7 @@ Deferiprone is an oral iron chelator whose established clinical role — noted i
 | Predicted New Indication | Hepatic Porphyria |
 | TxGNN Prediction Score | 99.20% |
 | Evidence Level | L4 |
-| Finland Market Status | 未上市 (Not marketed) |
+| Finland Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -82,10 +82,10 @@ Evidence for the hepatic porphyria indication is limited to two preclinical/anim
 - TFDA/local package insert data on warnings and contraindications before any S1 safety evaluation (DG001)
 - Human clinical evidence (case series, observational, or trial data) in hepatic porphyria patients before advancing beyond a research-question stage
 - Note: within this same evidence pack, beta-thalassemia with other manifestations (rank 8, L3, "Proceed with Guardrails") has materially stronger literature support and may be a more actionable near-term candidate than hepatic porphyria
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

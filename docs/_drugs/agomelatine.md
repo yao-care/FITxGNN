@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Agomelatine
-parent: 僅模型預測 (L5)
+parent: Vahva näyttö (L1-L2)
 nav_order: 20
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Agomelatine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -45,7 +45,7 @@ Agomelatine is a melatonergic antidepressant whose approved use — confirmed on
 | Predicted New Indication | Melancholia (lead candidate within a 5-indication depressive/neurotic-spectrum cluster — see full ranking below) |
 | TxGNN Prediction Score | 99.88% (melancholia, model rank #1740 among all disease pairs; graph rank #4 among this drug's top-10 candidates) |
 | Evidence Level | L2 |
-| Finland Market Status | ✗ Not marketed (未上市) |
+| Finland Market Status | ✗ Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -129,10 +129,10 @@ Please refer to the package insert for safety information. All safety fields in 
 - Resolve DG002 (formal DrugBank mechanism-of-action record) to properly validate the mechanistic rationale currently based only on literature.
 - If pursuing the depressive/neurotic-spectrum cluster, clarify with clinical/regulatory experts whether melancholia, neurotic depression, and dysthymic disorder represent a genuinely distinct labeling opportunity versus overlap with the existing MDD indication.
 - Drop or deprioritize the five zero-evidence predictions (benign paroxysmal torticollis of infancy, Ohdo syndrome and variants, ligneous conjunctivitis, blepharophimosis–ID syndrome Ohdo type, Keppen-Lubinsky syndrome) pending any future contradicting evidence.
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

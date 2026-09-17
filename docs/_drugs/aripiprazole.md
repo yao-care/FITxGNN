@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Aripiprazole
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 39
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Aripiprazole
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -83,10 +83,10 @@ The Evidence Pack for Aripiprazole (DB01238) is critically incomplete — no TxG
 - **\[High\]** Query DrugBank API for mechanism of action (MOA) for DB01238 to enable mechanism-to-indication reasoning
 - **\[High\]** Investigate the Finland authorization query returning zero results — cross-check against EMA/Fimea databases directly, as this result is inconsistent with known global market status of Aripiprazole
 - Once the above gaps are resolved, regenerate the Evidence Pack (target version: v5) and re-submit for full evaluation
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

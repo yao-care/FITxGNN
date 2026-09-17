@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Insulin Degludec
-parent: 僅模型預測 (L5)
+parent: Vahva näyttö (L1-L2)
 nav_order: 197
-evidence_level: L5
+evidence_level: L1
 indication_count: 6
 ---
 
 # Insulin Degludec
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Näytön taso: **L1** | Ennustetut käyttöaiheet: **6** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -97,7 +97,7 @@ The five other TxGNN-predicted indications for this drug (autoimmune oophoritis,
 
 ## Finland Market Information
 
-No marketing authorizations are on file for insulin degludec in Finland (`market_status: 未上市` / Not Marketed; `total_licenses: 0`). Fimea product-level license data (product name, dosage form, approved indication text) has not yet been retrieved for this candidate.
+No marketing authorizations are on file for insulin degludec in Finland (`market_status: Not marketed` / Not Marketed; `total_licenses: 0`). Fimea product-level license data (product name, dosage form, approved indication text) has not yet been retrieved for this candidate.
 
 ---
 
@@ -119,10 +119,10 @@ Insulin degludec's efficacy and safety in type 1 diabetes are supported by an ex
 - Formal DrugBank-sourced mechanism-of-action documentation (DG002)
 - Confirmation of the appropriate regulatory pathway for Finland market entry (likely standard marketing-authorization/mutual-recognition route, not an experimental repurposing pathway, given this is an established global indication)
 - Note: the five other TxGNN-predicted indications for this drug (autoimmune oophoritis, opsismodysplasia, thiamine-responsive dysfunction syndrome, classic and focal stiff-person/stiff-limb syndrome) have no supporting trials or literature and remain on **Hold**.
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

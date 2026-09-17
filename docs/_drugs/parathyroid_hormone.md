@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Parathyroid Hormone
-parent: 僅模型預測 (L5)
+parent: Kohtalainen näyttö (L3-L4)
 nav_order: 285
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Parathyroid Hormone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -104,10 +104,10 @@ The mechanistic link relies on a genetic association involving PTHrP receptors r
 - Resolve Data Gap DG002: obtain confirmed mechanism of action data from DrugBank to clarify PTH vs. PTHrP receptor pharmacology
 - Confirm the original approved indication(s) for parathyroid hormone, currently undocumented in this evidence pack
 - Seek dedicated pharmacological or clinical studies testing PTH (not PTHrP or calcitonin) specifically in migraine populations before advancing beyond Hold
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

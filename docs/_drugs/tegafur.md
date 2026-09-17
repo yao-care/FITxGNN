@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Tegafur
-parent: 僅模型預測 (L5)
+parent: Vahva näyttö (L1-L2)
 nav_order: 361
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Tegafur
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -45,7 +45,7 @@ Tegafur is an oral fluoropyrimidine, a prodrug of 5-fluorouracil (5-FU), histori
 | Predicted New Indication | Colonic Neoplasm |
 | TxGNN Prediction Score | 99.90% |
 | Evidence Level | L1 |
-| Finland Market Status | 未上市 (Not Marketed) |
+| Finland Market Status | Not marketed (Not Marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -99,7 +99,7 @@ Gastric cancer and colonic neoplasm are both gastrointestinal malignancies that 
 
 ## Finland Market Information
 
-Tegafur currently has **no marketing authorizations registered in Finland** (market status: 未上市 / Not Marketed, 0 licenses on file).
+Tegafur currently has **no marketing authorizations registered in Finland** (market status: Not marketed / Not Marketed, 0 licenses on file).
 
 ---
 
@@ -137,10 +137,10 @@ Multiple completed Phase 3 RCTs (evidence level L1) already establish UFT/tegafu
 - DDI dataset (current query returned "not_found") and a DPD/DPYD-based dosing safety protocol before clinical use
 
 *Note: Nine other TxGNN-predicted indications for tegafur (e.g., cecum villous adenoma, colon leiomyoma, colonic lymphangioma) were also screened but carry evidence level L4–L5 with no or only tangential clinical/literature support and are recommended for **Hold**, not further evaluation at this time.*
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

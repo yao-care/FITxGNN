@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Benralizumab
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 67
 evidence_level: L5
 indication_count: 5
@@ -10,12 +10,12 @@ indication_count: 5
 # Benralizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -87,10 +87,10 @@ This prediction sits at the lowest evidence tier (L5) — no clinical trials, no
 - Continued surveillance for case reports or investigator-initiated studies, since none currently exist
 
 **Portfolio note:** Among the five indications TxGNN predicted for benralizumab, dermatitis (rank 2) has materially more evidence — 6 trials and 20 publications — but that evidence is largely negative (the Phase 2 HILLIER RCT, NCT04605094, was terminated, and PMID 37178404 reports "lack of effect" in atopic dermatitis). That candidate warrants its own separate evaluation rather than being folded into this one.
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

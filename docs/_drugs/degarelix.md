@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Degarelix
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 117
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Degarelix
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -101,10 +101,10 @@ The prediction is supported only by TxGNN model score with no corroborating clin
 - Confirmed mechanism of action data from DrugBank — High-priority gap DG002
 - Targeted literature/clinical search specifically for "degarelix AND hypertrichosis" (current 20-record literature match under rank 4 is unrelated noise and should be excluded)
 - Preclinical or case-level evidence establishing a causal link between androgen suppression and the specific hypertrichosis subtype targeted
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

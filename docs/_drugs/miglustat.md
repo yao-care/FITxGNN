@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Miglustat
-parent: 僅模型預測 (L5)
+parent: Vahva näyttö (L1-L2)
 nav_order: 251
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Miglustat
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -103,10 +103,10 @@ The Tay-Sachs/GM2 gangliosidosis candidate has genuine supporting evidence — o
 - Reasons for termination of NCT03822013 and NCT02030015
 - Subgroup efficacy data stratified by disease onset (infantile vs. juvenile vs. late-onset), since evidence strength differs markedly between these populations
 - DDI data (currently not found in query)
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

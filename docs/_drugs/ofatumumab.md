@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Ofatumumab
-parent: 僅模型預測 (L5)
+parent: Kohtalainen näyttö (L3-L4)
 nav_order: 270
-evidence_level: L5
+evidence_level: L4
 indication_count: 8
 ---
 
 # Ofatumumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **8** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -45,7 +45,7 @@ Ofatumumab is a fully human anti-CD20 monoclonal antibody originally approved (a
 | Predicted New Indication | Pregerminal center CLL/SLL (IGHV-unmutated molecular subtype) |
 | TxGNN Prediction Score | 99.77% |
 | Evidence Level | L4 |
-| Finland Market Status | ✗ Not marketed (未上市) |
+| Finland Market Status | ✗ Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold (Research Question stage) |
 
@@ -107,10 +107,10 @@ The TxGNN score for this specific molecular subtype is high, but it is supported
 - Finland regulatory/market status update, given the drug is currently not marketed there
 
 **Note for context:** within this same evidence pack, other TxGNN-predicted indications for ofatumumab carry substantially stronger evidence — chronic lymphocytic leukemia/small lymphocytic lymphoma overall (rank 5, L1, "Proceed with Guardrails," including completed Phase 3 trials) and follicular lymphoma (rank 3, L2, multiple completed Phase 2/3 trials). Those candidates may warrant separate, higher-priority evaluation.
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Clopidogrel
-parent: 僅模型預測 (L5)
+parent: Vahva näyttö (L1-L2)
 nav_order: 104
-evidence_level: L5
+evidence_level: L2
 indication_count: 8
 ---
 
 # Clopidogrel
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+Näytön taso: **L2** | Ennustetut käyttöaiheet: **8** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -93,10 +93,10 @@ Evidence for clopidogrel in migraine with brainstem aura specifically is L2 (lit
 - A defined patient selection protocol requiring confirmed PFO/RLS status prior to treatment
 - Consideration of whether to pursue the better-evidenced "migraine disorder" indication (rank 2, completed Phase 4 CANOA RCT) instead of, or alongside, the brainstem-aura subtype
 - Taiwan market/regulatory pathway assessment, since the drug currently holds zero local authorizations
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

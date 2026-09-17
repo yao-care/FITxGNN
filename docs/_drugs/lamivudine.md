@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lamivudine
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 211
 evidence_level: L5
 indication_count: 5
@@ -10,12 +10,12 @@ indication_count: 5
 # Lamivudine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -47,7 +47,7 @@ Lamivudine (DB00709) is a well-established nucleoside reverse transcriptase inhi
 | Predicted New Indication (Rank 1) | Feline acquired immunodeficiency syndrome (cat FIV) — **not a human indication** |
 | TxGNN Prediction Score | 99.93% |
 | Evidence Level | L4 (per Evidence Pack scoring; literature is veterinary cohort/preclinical, not human) |
-| Taiwan Market Status | 未上市 (Not marketed) |
+| Taiwan Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | **Hold** |
 
@@ -107,7 +107,7 @@ For **Rank 5 (chronic HCV)**, the mechanistic rationale does *not* hold: HCV is 
 
 ## Taiwan Market Information
 
-Lamivudine is currently **not marketed in Taiwan** (`market_status: 未上市`), with **0 authorizations** on file. No license records are available to summarize.
+Lamivudine is currently **not marketed in Taiwan** (`market_status: Not marketed`), with **0 authorizations** on file. No license records are available to summarize.
 
 ---
 
@@ -130,10 +130,10 @@ None of the 5 TxGNN-predicted indications is currently actionable for human drug
 - Verification/correction of the disease-ontology mapping for Rank 5 — if the intended target is chronic hepatitis B rather than hepatitis C, that candidate should be re-scored and re-evaluated as a distinct, evidence-rich signal
 - Re-scoping the predicted-indication set to exclude non-human disease terms (FIV, SIV) from the human repurposing pipeline at the model/filtering stage
 - No further action recommended on Ranks 3 and 4 given the complete absence of supporting evidence
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

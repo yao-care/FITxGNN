@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tocofersolan
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 380
 evidence_level: L5
 indication_count: 2
@@ -10,12 +10,12 @@ indication_count: 2
 # Tocofersolan
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -99,10 +99,10 @@ Please refer to the package insert for safety information.
 - Confirmed mechanism of action data from DrugBank — High-priority gap, needed to assess mechanistic plausibility for amenorrhea/acne
 - Confirmation of the drug's original approved indication(s), currently absent from this evidence pack
 - Any preclinical or mechanistic literature connecting vitamin E/TPGS pathways to reproductive endocrinology or dermatologic outcomes, to justify moving beyond L5
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

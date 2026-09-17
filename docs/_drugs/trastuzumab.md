@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Trastuzumab
-parent: 僅模型預測 (L5)
+parent: Kohtalainen näyttö (L3-L4)
 nav_order: 387
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Trastuzumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -104,10 +104,10 @@ The top-ranked prediction (normal breast-like subtype) has only L4 evidence — 
 - Dedicated trials or subgroup analyses specific to the normal-like intrinsic subtype
 
 **Note:** Within this same evidence pack, two other predicted indications show materially stronger support and may be more promising repurposing candidates: *progesterone-receptor negative breast cancer* (rank 3, L1 evidence — includes a completed Phase 3 RCT with n=3,270 — "Proceed with Guardrails") and *progesterone-receptor positive breast cancer* (rank 2, L2 evidence, "Proceed with Guardrails"), both of which align mechanistically with trastuzumab's approved HER2-positive breast cancer indication.
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

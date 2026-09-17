@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Zonisamide
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 412
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Zonisamide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -45,7 +45,7 @@ Zonisamide is a broad-spectrum antiepileptic drug (AED), most established as adj
 | Predicted New Indication | Tourette syndrome |
 | TxGNN Prediction Score | 99.85% |
 | Evidence Level | L5 (model prediction only) |
-| Taiwan Market Status | 未上市 (Not marketed) |
+| Taiwan Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -88,10 +88,10 @@ The Tourette syndrome prediction rests solely on a TxGNN score with no supportin
 ---
 
 **Note on this evidence pack:** This candidate bundle contains 10 TxGNN-predicted indications for zonisamide, several with materially stronger evidence than the top-ranked Tourette syndrome hit — notably **absence epilepsy** (L1, decision stage S3, "Proceed with Guardrails," supported by a 583-patient completed Phase 3 RCT) and **manic bipolar affective disorder** (L2, decision stage S1, "Research Question," supported by a dedicated RCT, PMID 22506436). If a repurposing report is desired for one of those higher-evidence candidates instead, a separate report should be generated using `predicted_indications[6]` (bipolar) or `predicted_indications[7]` (absence epilepsy) as the primary entry. Several other high-score predictions (methemoglobinemia variants) are flagged in the rationale as mechanistically *contradictory* — zonisamide's sulfonamide structure is a known methemoglobinemia risk factor, not a treatment — and should be treated as safety signals, not repurposing opportunities.
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

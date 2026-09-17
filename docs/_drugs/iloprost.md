@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Iloprost
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 190
 evidence_level: L5
 indication_count: 9
@@ -10,12 +10,12 @@ indication_count: 9
 # Iloprost
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **9** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 9
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -84,10 +84,10 @@ The top-ranked prediction (Hypotrichosis Simplex of the Scalp) has a high TxGNN 
 - TFDA/Fimea package insert warnings and contraindications (currently blocking per data gap DG001)
 
 **Note:** Among the other TxGNN-predicted indications in this evidence pack, **Pulmonary Arterial Hypertension Associated with Congenital Heart Disease** (rank 3) has materially stronger evidence — 1 completed trial and 20 literature references, Evidence Level L2, recommendation "Proceed with Guardrails" — and PAH-associated with connective tissue disease (rank 5) and HIV infection (rank 6) also show moderate evidence (L2–L3). These PAH-subtype candidates are mechanistically consistent with iloprost's known pharmacology and warrant prioritized evaluation ahead of the hypotrichosis candidate.
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

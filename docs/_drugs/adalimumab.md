@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Adalimumab
-parent: 僅模型預測 (L5)
+parent: Kohtalainen näyttö (L3-L4)
 nav_order: 18
-evidence_level: L5
+evidence_level: L3
 indication_count: 6
 ---
 
 # Adalimumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Näytön taso: **L3** | Ennustetut käyttöaiheet: **6** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -51,7 +51,7 @@ Using no additional coding tools — this is a direct content-generation task pe
 | Predicted New Indication | Rheumatoid Vasculitis |
 | TxGNN Prediction Score | 99.80% |
 | Evidence Level | L3 |
-| Finland Market Status | ✗ Not marketed (未上市) |
+| Finland Market Status | ✗ Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -102,7 +102,7 @@ However, the evidence is genuinely two-sided. On one hand, a published case repo
 
 ## Finland Market Information
 
-Adalimumab is currently **not marketed** in Finland per this evidence pack (`market_status: 未上市`, `total_licenses: 0`), and no license records are available to summarize. This should be independently confirmed against the current Fimea register, since adalimumab (including originator Humira® and multiple biosimilars) is widely marketed in the EU/EEA, and an unmarketed status here may reflect a gap in the source query rather than actual regulatory status.
+Adalimumab is currently **not marketed** in Finland per this evidence pack (`market_status: Not marketed`, `total_licenses: 0`), and no license records are available to summarize. This should be independently confirmed against the current Fimea register, since adalimumab (including originator Humira® and multiple biosimilars) is widely marketed in the EU/EEA, and an unmarketed status here may reflect a gap in the source query rather than actual regulatory status.
 
 ---
 
@@ -128,10 +128,10 @@ Please refer to the package insert for safety information — `key_warnings`, `c
 - Conduct a focused pharmacovigilance/case-series analysis to disambiguate whether TNF-α blockade with adalimumab more often treats or triggers vasculitis in RA patients, since current evidence supports both directions.
 - If proceeding, define an RV-specific interventional trial design and endpoints, since no completed randomized trial currently tests adalimumab directly for this indication.
 - Confirm Finland/Fimea market and licensing status directly against the current register, as the "not marketed" status here may reflect an incomplete source query rather than true regulatory absence.
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

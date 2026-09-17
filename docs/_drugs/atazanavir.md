@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Atazanavir
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 45
 evidence_level: L5
 indication_count: 6
@@ -10,12 +10,12 @@ indication_count: 6
 # Atazanavir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -83,10 +83,10 @@ The Evidence Pack contains no TxGNN predicted indications and three blocking or 
 - **Package insert warnings & contraindications**: Parse the TFDA/EMA package insert PDF (query log shows a successful fetch but no structured output) into `key_warnings` and `contraindications` fields
 - **Drug-drug interaction (DDI) data**: The DDI query returned `not_found`; re-query with alternate identifiers or a broader DDI database
 - **Finland market authorisation status**: Verify against the EMA/Fimea registry, as the current `market_status` of "Not marketed" may reflect a Taiwan-registry query rather than a Finnish-market query
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

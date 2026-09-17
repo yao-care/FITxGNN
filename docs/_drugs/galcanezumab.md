@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Galcanezumab
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 171
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Galcanezumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -45,7 +45,7 @@ Galcanezumab is a humanized monoclonal antibody targeting CGRP (calcitonin gene-
 | Predicted New Indication | Heparin Cofactor II Deficiency |
 | TxGNN Prediction Score | 99.50% |
 | Evidence Level | L5 |
-| Taiwan Market Status | 未上市 (Not marketed) |
+| Taiwan Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -93,10 +93,10 @@ The prediction is at Evidence Level L5 — model output only, with zero clinical
 - Confirmed DrugBank mechanism of action data
 - Preclinical or mechanistic studies establishing any plausible link between CGRP pathway modulation and coagulation/serpin function
 - Ongoing monitoring for any future clinical trials or case reports in this disease area before re-evaluating beyond Hold
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

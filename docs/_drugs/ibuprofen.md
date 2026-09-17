@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ibuprofen
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 185
 evidence_level: L5
 indication_count: 7
@@ -10,12 +10,12 @@ indication_count: 7
 # Ibuprofen
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **7** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -83,10 +83,10 @@ The top prediction has no clinical trial or literature support, no confirmed mec
 - Confirmed mechanism of action from DrugBank or primary literature
 - Independent biological plausibility review of the GDF5/BMP pathway relative to COX inhibition, given the model's own rationale casts doubt on a causal mechanism
 - Re-screening for lower-ranked but mechanistically stronger candidates, since all seven predictions in this pack score similarly (L5, Hold) with no differentiating evidence
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

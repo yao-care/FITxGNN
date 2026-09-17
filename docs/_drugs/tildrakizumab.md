@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tildrakizumab
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 375
 evidence_level: L5
 indication_count: 4
@@ -10,12 +10,12 @@ indication_count: 4
 # Tildrakizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -86,10 +86,10 @@ This is a purely computational (L5) signal with zero supporting clinical trials 
 - Original approved indication and regulatory history for tildrakizumab
 - Preclinical or translational data specifically linking IL-23/Th17 inhibition to diabetic retinopathy pathophysiology (subtype-specific, not inferred from general DR hypotheses)
 - Any emerging clinical trial or case-report evidence in this indication space, to re-evaluate evidence level above L5
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

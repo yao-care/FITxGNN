@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Ipilimumab
-parent: 僅模型預測 (L5)
+parent: Vahva näyttö (L1-L2)
 nav_order: 204
-evidence_level: L5
+evidence_level: L2
 indication_count: 2
 ---
 
 # Ipilimumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Näytön taso: **L2** | Ennustetut käyttöaiheet: **2** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -100,7 +100,7 @@ One important caveat: the input pack shows `original_indications` as empty and F
 
 ## Finland Market Information
 
-No product authorizations are on file for ipilimumab in Finland (`total_licenses = 0`, `market_status = 未上市/not marketed`). This is a data gap rather than confirmation of non-availability, since ipilimumab (Yervoy) is approved in the EU/EEA more broadly.
+No product authorizations are on file for ipilimumab in Finland (`total_licenses = 0`, `market_status = Not marketed/not marketed`). This is a data gap rather than confirmation of non-availability, since ipilimumab (Yervoy) is approved in the EU/EEA more broadly.
 
 ---
 
@@ -138,10 +138,10 @@ The mechanism of CTLA-4 blockade is not anatomically specific, and ipilimumab al
 - TFDA/Fimea package insert warnings, contraindications, and DDI data (DG001)
 - Subtype-stratified efficacy data specific to non-cutaneous melanoma (currently inferred, not directly reported, in most trials)
 - Confirmation of actual Finland/EU marketing and authorization status, since "not marketed" here likely reflects a data gap rather than true unavailability
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Fluticasone Furoate
-parent: 僅模型預測 (L5)
+parent: Vahva näyttö (L1-L2)
 nav_order: 167
-evidence_level: L5
+evidence_level: L1
 indication_count: 8
 ---
 
 # Fluticasone Furoate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+Näytön taso: **L1** | Ennustetut käyttöaiheet: **8** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -110,10 +110,10 @@ Fluticasone (propionate) has multiple Phase 3/4 trials with grade-A relevance di
 - Direct efficacy/safety data for the furoate ester in atopic dermatitis, to confirm cross-ester extrapolation from propionate-based trials
 - Route/formulation feasibility assessment (topical dermatologic formulation vs. currently available nasal/inhaled forms)
 - Drug-drug interaction data (current DDI query returned no results)
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

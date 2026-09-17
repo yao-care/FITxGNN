@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Glecaprevir
-parent: 僅模型預測 (L5)
+parent: Kohtalainen näyttö (L3-L4)
 nav_order: 176
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Glecaprevir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -43,7 +43,7 @@ Glecaprevir is an NS3/4A protease inhibitor originally developed (as the glecapr
 | Predicted New Indication | HIV infectious disease |
 | TxGNN Prediction Score | 99.87% |
 | Evidence Level | L4 |
-| Taiwan Market Status | 未上市 (Not marketed) |
+| Taiwan Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -107,10 +107,10 @@ Despite a high TxGNN score and a large volume of associated trials/literature, n
 - Resolve high-priority data gap DG002: confirmed original MOA/indication documentation from DrugBank (current record flagged as data gap despite mechanism being inferable from literature)
 - In vitro or biochemical evidence of any direct interaction between glecaprevir and HIV protease or replication machinery, if this hypothesis is to be pursued further
 - Formal DDI dataset (beyond the single identified publication) given the drug is not yet marketed in Taiwan and has zero registered authorizations
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Artenimol
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 41
 evidence_level: L5
 indication_count: 0
@@ -10,12 +10,12 @@ indication_count: 0
 # Artenimol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **0** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 0
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -70,10 +70,10 @@ The Evidence Pack for Artenimol is critically incomplete — no TxGNN repurposin
 - **[High] Mechanism of action (MOA)** — query DrugBank API for DB11638 to enable mechanistic plausibility analysis (DG002)
 - **TxGNN prediction results** — the `predicted_indications` array is empty; confirm whether the drug was processed through the TxGNN pipeline and re-run if necessary
 - **Original indication data** — the `original_indications` field is empty; verify source data completeness before re-querying
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

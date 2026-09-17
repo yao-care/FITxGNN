@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Azacitidine
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 57
 evidence_level: L5
 indication_count: 0
@@ -10,12 +10,12 @@ indication_count: 0
 # Azacitidine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **0** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 0
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -107,10 +107,10 @@ This Evidence Pack for Azacitidine (DB00928) is critically incomplete across all
 3. **Parse the TFDA package insert** (resolves DG001) — the PDF was located (query ID 4 returned success) but warnings and contraindications were not extracted into structured fields
 4. **Verify DDI coverage** — the DDI query returned `not_found`; cross-check against DrugBank interaction database or other DDI sources
 5. **Confirm Finland/Fimea market status separately** if this candidate is intended for the Finnish repurposing pipeline, as TFDA and Fimea regulatory records are independent
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

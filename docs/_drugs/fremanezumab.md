@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Fremanezumab
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 169
 evidence_level: L5
 indication_count: 2
@@ -10,12 +10,12 @@ indication_count: 2
 # Fremanezumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -110,10 +110,10 @@ The mechanistic case — peripheral CGRP blockade avoiding the vasoconstrictive 
 - DrugBank-sourced mechanism of action detail (currently missing — DG002)
 - A dedicated observational study or case series in migraine-with-brainstem-aura patients (current evidence is either general-migraine or hemiplegic-migraine, a related but distinct aura subtype)
 - Clarification of why preclinical CSD data show no effect on aura-correlate physiology despite clinical case reports suggesting benefit
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

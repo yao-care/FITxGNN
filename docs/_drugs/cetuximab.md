@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Cetuximab
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 99
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Cetuximab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -65,7 +65,7 @@ Currently no related literature available.
 
 ## Finland Market Information
 
-Cetuximab is not marketed in this jurisdiction per this evidence pack — market status "未上市" (Not Marketed), with 0 total authorizations on record. No license entries are available to tabulate.
+Cetuximab is not marketed in this jurisdiction per this evidence pack — market status "Not marketed" (Not Marketed), with 0 total authorizations on record. No license entries are available to tabulate.
 
 ## Cytotoxicity
 
@@ -96,10 +96,10 @@ The top-ranked TxGNN prediction (Bronchial Adenomas/Carcinoids, Childhood) has z
 - At minimum, preclinical/mechanistic evidence establishing EGFR expression or dependency in pediatric bronchial adenomas/carcinoids before this candidate can move beyond S0
 
 **Note:** Within this same evidence pack, other ranked candidates for cetuximab carry substantially stronger evidence — notably rank 8 "cystic neoplasm" and rank 10 "pre-malignant neoplasm" (both L2, S2, backed by Phase 2/3 trials including a completed n=987 Phase 3 in HPV-associated oropharynx cancer). Those may warrant a separate, dedicated evaluation report rather than further investment in the rank-1 candidate assessed here.
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Acalabrutinib
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 16
 evidence_level: L5
 indication_count: 0
@@ -10,12 +10,12 @@ indication_count: 0
 # Acalabrutinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **0** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 0
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -45,7 +45,7 @@ Acalabrutinib is a selective Bruton's tyrosine kinase (BTK) inhibitor, approved 
 | Predicted New Indication | — (No TxGNN prediction available) |
 | TxGNN Prediction Score | — |
 | Evidence Level | L5 (No prediction or supporting studies) |
-| Taiwan Market Status | ✗ Not marketed (未上市) |
+| Taiwan Market Status | ✗ Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | **Hold** |
 
@@ -84,7 +84,7 @@ Acalabrutinib is **not currently marketed in Taiwan**. No TFDA licenses were fou
 | Item | Content |
 |------|------|
 | TFDA Authorization | None (0 licenses) |
-| Market Status | 未上市 (Not marketed) |
+| Market Status | Not marketed (Not marketed) |
 
 > **Note:** Acalabrutinib is marketed internationally under the brand name **Calquence®** (AstraZeneca) and has received approvals from the US FDA, EMA, and other regulatory authorities for CLL/SLL and MCL.
 
@@ -134,10 +134,10 @@ No TxGNN-predicted new indications are currently available for Acalabrutinib. Ad
 - **TFDA package insert** — Obtain and parse the Taiwan package insert for warnings, contraindications, and safety information (addresses Data Gap DG001)
 - **DDI data** — Obtain drug-drug interaction data from DrugBank or other interaction databases
 - **Taiwan regulatory pathway assessment** — Given the drug is not marketed in Taiwan, evaluate whether an importation or compassionate use pathway would be applicable for any future repurposing indication
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

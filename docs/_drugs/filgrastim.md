@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Filgrastim
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 166
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Filgrastim
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -47,7 +47,7 @@ indication_count: 10
 | Predicted New Indication | Primary release disorder of platelets |
 | TxGNN Prediction Score | 99.998% (rank 48) |
 | Evidence Level | L4 (mechanistic/indirect only — no clinical trial or study directly targets this indication) |
-| Taiwan Market Status | Not marketed (未上市) |
+| Taiwan Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | **Hold** |
 
@@ -114,10 +114,10 @@ The mechanistic link between G-CSF signaling and platelet release/granule disord
 - Mechanism of action documentation (High-severity data gap — needed to properly evaluate mechanistic plausibility)
 - A dedicated preclinical or mechanistic study directly linking G-CSF/granulocyte pathways to platelet granule release function
 - If pursued, a hematology/coagulation specialist review of biological plausibility before any trial design work
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

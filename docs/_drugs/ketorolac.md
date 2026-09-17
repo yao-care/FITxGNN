@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Ketorolac
-parent: 僅模型預測 (L5)
+parent: Vahva näyttö (L1-L2)
 nav_order: 209
-evidence_level: L5
+evidence_level: L1
 indication_count: 3
 ---
 
 # Ketorolac
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Näytön taso: **L1** | Ennustetut käyttöaiheet: **3** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -99,7 +99,7 @@ Headache disorders such as migraine and tension-type headache involve neurogenic
 
 ## Taiwan Market Information
 
-Ketorolac currently holds **0 marketing authorizations** in Taiwan (`market_status: 未上市/Not marketed`). No product licenses are on file for this evidence pack.
+Ketorolac currently holds **0 marketing authorizations** in Taiwan (`market_status: Not marketed/Not marketed`). No product licenses are on file for this evidence pack.
 
 ---
 
@@ -133,10 +133,10 @@ The Headache Disorder prediction is backed by an unusually strong and consistent
 - A defined regulatory pathway given ketorolac's current "not marketed" status in Taiwan
 - Individual relevance grading of the 37 trials/19 papers (currently marked "pending") to confirm the L1 evidence-level classification
 - If pursuing Trigeminal Autonomic Cephalalgia as a secondary research question, dedicated prospective trial data specific to that subtype
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

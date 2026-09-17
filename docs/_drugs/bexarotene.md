@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Bexarotene
-parent: 中證據等級 (L3-L4)
+parent: Kohtalainen näyttö (L3-L4)
 nav_order: 69
 evidence_level: L4
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Bexarotene
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **3** 個
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -44,11 +44,11 @@ indication_count: 3
 
 | 項目 | 內容 |
 |------|------|
-| 原始適應症 | 皮膚T細胞淋巴瘤（Cutaneous T-Cell Lymphoma, CTCL）※台灣未上市，無正式核准適應症紀錄，此描述依文獻證據（如 PMID 19222457、11902993）佐證 |
+| 原始適應症 | 皮膚T細胞淋巴瘤（Cutaneous T-Cell Lymphoma, CTCL）※台灣Not marketed，無正式核准適應症紀錄，此描述依文獻證據（如 PMID 19222457、11902993）佐證 |
 | 預測新適應症 | Primary Cutaneous B-Cell Lymphoma |
 | TxGNN 預測分數 | 99.44%（rank 5969） |
 | 證據等級 | L4 |
-| 台灣市場狀態 | 未上市 |
+| 台灣市場狀態 | Not marketed |
 | 藥證數量 | 0 |
 | 建議決策 | **Hold** |
 
@@ -96,7 +96,7 @@ indication_count: 3
 
 ## 台灣市場資訊
 
-目前台灣**未上市**（0張藥證），無核准適應症或劑型資料可供查核。TFDA 查詢（2026-03-29）與仿單解析均未取得結果。
+目前台灣**Not marketed**（0張藥證），無核准適應症或劑型資料可供查核。TFDA 查詢（2026-03-29）與仿單解析均未取得結果。
 
 ---
 
@@ -118,7 +118,7 @@ Bexarotene 原始適應症為皮膚T細胞淋巴瘤（惡性腫瘤），屬抗�
 
 請參閱藥品仿單以獲取安全性資訊。
 
-（本證據包標記 TFDA 仿單警語/禁忌為 Blocking 等級資料缺口 DG001，藥物交互作用查詢亦無結果，需優先補齊後方能進行 S1 安全性初評）
+（本證據包標記 Fimea package insert warnings/contraindications為 Blocking 等級資料缺口 DG001，藥物交互作用查詢亦無結果，需優先補齊後方能進行 S1 安全性初評）
 
 ---
 
@@ -142,7 +142,7 @@ TxGNN 此次同時針對 Bexarotene 提出三項相關預測，證據強度差�
 
 **理由：**
 - 現有2項臨床試驗與13篇文獻均無法提供Bexarotene用於原發性皮膚B細胞淋巴瘤的直接證據，機轉關聯性也僅屬假說層級（B細胞與T細胞淋巴瘤致病路徑不同）。
-- 台灣未上市、無藥證，且安全性仿單資料為Blocking等級缺口，尚未具備進入S1安全性初評之條件。
+- 台灣Not marketed、無藥證，且安全性仿單資料為Blocking等級缺口，尚未具備進入S1安全性初評之條件。
 
 **若要推進，需要補齊：**
 - TFDA/原廠仿單警語與禁忌資料（DG001，Blocking）
@@ -150,10 +150,10 @@ TxGNN 此次同時針對 Bexarotene 提出三項相關預測，證據強度差�
 - 若欲驗證此假說，建議規劃以BCL2/NF-κB或CD20相關訊號路徑為切入之臨床前機轉研究，而非直接進入臨床試驗
 
 **優先建議：** 資源應優先投入證據等級L1、已具Proceed with Guardrails建議之 **Sézary syndrome** 項目，而非本項證據薄弱的B細胞淋巴瘤預測。
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

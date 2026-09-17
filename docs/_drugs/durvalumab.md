@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Durvalumab
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 131
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Durvalumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -45,7 +45,7 @@ Note: among the 10 candidates in this pack, two other urothelial/gynecologic-car
 | Predicted New Indication | Prostatic Urethra Urothelial Carcinoma |
 | TxGNN Prediction Score | 99.98% |
 | Evidence Level | L5 (model prediction only, no trials or literature) |
-| Finland Market Status | 未上市 (Not marketed) |
+| Finland Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -67,7 +67,7 @@ Currently no related literature available.
 
 ## Finland Market Information
 
-Durvalumab currently has no marketing authorization on file in Finland (`market_status`: 未上市, `total_licenses`: 0). No product/dosage-form information is available.
+Durvalumab currently has no marketing authorization on file in Finland (`market_status`: Not marketed, `total_licenses`: 0). No product/dosage-form information is available.
 
 ## Cytotoxicity
 
@@ -98,10 +98,10 @@ The top-ranked predicted indication (prostatic urethra urothelial carcinoma) has
 **Note for prioritization:** two other candidates in this same prediction set have materially stronger evidence and may warrant separate evaluation ahead of this one:
 - **Infiltrating bladder urothelial carcinoma, sarcomatoid variant** (rank 3, L3, decision stage S1) — a Phase 2 trial (NCT03912818, terminated, n=7) graded "A" for disease-specificity, plus a supporting Phase 1 trial (NCT02812420).
 - **Endocervical carcinoma** (rank 6, L2, decision stage S2) — two trials (NCT04065269 Phase 2 ongoing n=174; NCT03452332 Phase 1 completed n=20) and one supporting review (PMID 37467967).
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

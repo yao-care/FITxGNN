@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Granisetron
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 181
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Granisetron
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -43,7 +43,7 @@ Granisetron is a selective 5-HT3 receptor antagonist known for antiemetic use (c
 | Predicted New Indication | Manic bipolar affective disorder |
 | TxGNN Prediction Score | 99.62% |
 | Evidence Level | L5 |
-| Finland Market Status | 未上市 (Not marketed) |
+| Finland Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -85,10 +85,10 @@ The prediction rests solely on a TxGNN model score (L5) with no clinical trials,
 - TFDA/Fimea package insert warnings and contraindications (DG001, Blocking)
 - Exploratory or preclinical studies directly evaluating 5-HT3 antagonism in bipolar/manic states
 - Confirmation of original approved indication and licensing status, since Finland currently shows no marketed product
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

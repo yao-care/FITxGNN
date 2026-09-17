@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Teriparatide
-parent: 僅模型預測 (L5)
+parent: Kohtalainen näyttö (L3-L4)
 nav_order: 371
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Teriparatide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -45,7 +45,7 @@ Teriparatide (rhPTH 1-34, brand FORTEO) is an established bone-anabolic agent fo
 | Predicted New Indication | Pregnancy and Lactation-Associated Osteoporosis (PLO) |
 | TxGNN Prediction Score | 99.55% |
 | Evidence Level | L3 |
-| TFDA Market Status | 未上市 (Not marketed / no license on file) |
+| TFDA Market Status | Not marketed (Not marketed / no license on file) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -91,7 +91,7 @@ No trial in this evidence pack was designed specifically for PLO; the two identi
 
 ## Finland Market Information
 
-No TFDA marketing authorization is currently on file for teriparatide in this dataset (0 licenses, status: 未上市 / not marketed). This is itself a blocking data gap (DG001) for full safety evaluation and should be resolved via TFDA package-insert retrieval before proceeding further.
+No TFDA marketing authorization is currently on file for teriparatide in this dataset (0 licenses, status: Not marketed / not marketed). This is itself a blocking data gap (DG001) for full safety evaluation and should be resolved via TFDA package-insert retrieval before proceeding further.
 
 ---
 
@@ -114,10 +114,10 @@ PLO shares direct pathophysiology and mechanism with teriparatide's approved ost
 - Drug-drug interaction profile (currently not found)
 - A pregnancy/lactation-specific safety and monitoring plan, given the target population
 - Ongoing surveillance of the 9 other TxGNN-flagged candidates (L4–L5, Hold) is not warranted at this time — none returned supportive evidence, and one (esophageal disease) surfaced only adverse-event literature (e.g. calcinosis cutis worsening, PMID 26992073) rather than efficacy signal.
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

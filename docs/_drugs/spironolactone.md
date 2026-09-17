@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Spironolactone
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 351
 evidence_level: L5
 indication_count: 2
@@ -10,12 +10,12 @@ indication_count: 2
 # Spironolactone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -45,7 +45,7 @@ Spironolactone is a mineralocorticoid receptor antagonist widely used for hypert
 | Predicted New Indication | Hypotrichosis Simplex of the Scalp |
 | TxGNN Prediction Score | 99.26% (rank 7,390) |
 | Evidence Level | L5 (model prediction only, no clinical trials or literature found) |
-| Taiwan Market Status | 未上市 (Not marketed) |
+| Taiwan Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -91,10 +91,10 @@ The prediction is based solely on the TxGNN model score (L5, no supporting clini
 - Confirmed mechanism of action data from DrugBank (DG002)
 - Targeted literature/preclinical search on *APCDD1*-related hypotrichosis and any androgen/mineralocorticoid pathway involvement
 - Dermatology/genetics expert review of biological plausibility before advancing past S0
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

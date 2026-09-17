@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lenalidomide
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 223
 evidence_level: L5
 indication_count: 6
@@ -10,12 +10,12 @@ indication_count: 6
 # Lenalidomide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -45,7 +45,7 @@ with **50 clinical trials** and **20 publications** currently retrieved in suppo
 | Predicted New Indication | Myeloid Leukemia |
 | TxGNN Prediction Score | 99.49% (rank 5525) |
 | Evidence Level | L2 (1 completed Phase 2 RCT identified; no completed Phase 3 RCT) |
-| Taiwan Market Status | 未上市 (Not marketed) |
+| Taiwan Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -89,7 +89,7 @@ Mechanistically, lenalidomide's anti-clonal and immune-potentiating activity in 
 
 ## Taiwan Market Information
 
-Lenalidomide currently has no marketing authorization record in this evidence pack — market status is "未上市" (not marketed) with 0 licenses on file. No authorization number, product name, dosage form, or approved indication text is available for tabulation.
+Lenalidomide currently has no marketing authorization record in this evidence pack — market status is "Not marketed" (not marketed) with 0 licenses on file. No authorization number, product name, dosage form, or approved indication text is available for tabulation.
 
 ## Cytotoxicity
 
@@ -120,10 +120,10 @@ While TxGNN assigns a high prediction score (99.49%) and a substantial volume of
 - Confirmation of original approved indications and licensing status (original_indications field is currently empty)
 - Manual review of trial relevance grading (most trials/literature are still marked "pending" relevance in the evidence pack) to distinguish del(5q)-specific signal from general AML/MDS use
 - Drug interaction (DDI) data, currently unretrieved ("not_found")
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

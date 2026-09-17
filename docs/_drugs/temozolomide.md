@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Temozolomide
-parent: 僅模型預測 (L5)
+parent: Vahva näyttö (L1-L2)
 nav_order: 364
-evidence_level: L5
+evidence_level: L1
 indication_count: 2
 ---
 
 # Temozolomide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Näytön taso: **L1** | Ennustetut käyttöaiheet: **2** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -47,7 +47,7 @@ Temozolomide is an oral alkylating chemotherapy agent already established worldw
 | Predicted New Indication | Adult Astrocytic Tumour |
 | TxGNN Prediction Score | 99.36% |
 | Evidence Level | L1 |
-| Finland Market Status | ✗ 未上市 (Not marketed) |
+| Finland Market Status | ✗ Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -91,7 +91,7 @@ Because astrocytic tumors (including glioblastoma and anaplastic astrocytoma) ar
 
 ## Finland Market Information
 
-No marketing authorization is currently on file — market status is **未上市 (Not marketed)**, with 0 registered licenses in the reviewed regulatory data.
+No marketing authorization is currently on file — market status is **Not marketed (Not marketed)**, with 0 registered licenses in the reviewed regulatory data.
 
 ---
 
@@ -127,10 +127,10 @@ Evidence strength is high (L1) — a completed Phase 3 head-to-head RCT (n=500) 
 - Assess local market-entry pathway given current unmarketed status and 0 authorizations
 
 **Lower-confidence secondary signal (not pursued further here):** TxGNN also flagged *cauda equina neoplasm* (rank 2, score 99.30%) as a candidate indication. Evidence is weak — Evidence Level L4, no clinical trials, only 2 case-report/case-series-tier publications, one of which is unrelated to tumor treatment. Recommendation for this candidate is **Hold**.
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

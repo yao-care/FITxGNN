@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Axitinib
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 56
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Axitinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -103,10 +103,10 @@ The Evidence Pack for Axitinib is structurally incomplete — no TxGNN predictio
 - **[Critical]** Investigate why TxGNN returned zero predicted indications for DB06626 — check whether the DrugBank ID is correctly mapped to the knowledge graph node, and re-run prediction pipeline
 - **[Required]** Verify Finland (Fimea) registration status independently; if Axitinib is sold under a different brand or via parallel import, licenses may exist under alternate identifiers
 - Once TxGNN predictions are available, re-generate this Evidence Pack (v5+) to enable full L1–L5 evidence assessment
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

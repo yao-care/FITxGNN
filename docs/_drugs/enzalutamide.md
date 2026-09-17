@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Enzalutamide
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 148
 evidence_level: L5
 indication_count: 7
@@ -10,12 +10,12 @@ indication_count: 7
 # Enzalutamide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **7** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -114,10 +114,10 @@ The rank-1 prediction ("prostate cancer/brain cancer susceptibility") has no sup
 - Direct clinical or literature evidence specifically addressing "prostate cancer/brain cancer susceptibility" as a distinct indication (none currently exists)
 - De-duplication review against the overlapping "male reproductive organ cancer" candidate (rank 6, L1/S3) to confirm whether these represent one biological hypothesis or two
 - A completed drug-drug interaction (DDI) database query (current status: not found)
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

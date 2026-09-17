@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Aliskiren
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 24
 evidence_level: L5
 indication_count: 7
@@ -10,12 +10,12 @@ indication_count: 7
 # Aliskiren
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **7** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -45,7 +45,7 @@ Aliskiren is a direct renin inhibitor (DRI), a drug class originally developed t
 | Predicted New Indication | Pulmonary Hypertension Owing to Lung Disease and/or Hypoxia |
 | TxGNN Prediction Score | 99.98% |
 | Evidence Level | L5 |
-| Finland Market Status | ❌ Not Marketed (未上市) |
+| Finland Market Status | ❌ Not Marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -86,7 +86,7 @@ Currently no related clinical trials registered.
 
 ## Finland Market Information
 
-No marketing authorizations are on record for Aliskiren in Finland (`total_licenses = 0`, `market_status = 未上市 / Not Marketed`). No product/dosage-form/indication data is available to tabulate.
+No marketing authorizations are on record for Aliskiren in Finland (`total_licenses = 0`, `market_status = Not marketed / Not Marketed`). No product/dosage-form/indication data is available to tabulate.
 
 ---
 
@@ -131,10 +131,10 @@ The top-ranked predicted indication (pulmonary hypertension due to lung disease/
 - If pursuing the "chronic pulmonary heart disease" research question, dedicated trials or literature evaluating Aliskiren specifically in lung-disease-driven right heart failure (cor pulmonale), not extrapolated from systolic heart failure data (ALOFT)
 - A formal safety review addressing the ALTITUDE trial's stroke/hyperkalemia/renal signal before considering any indication involving renal impairment, diabetes, or combination RAAS blockade
 - Independent confirmation (or exclusion) of the Braddock syndrome and other L5 predictions, which currently show no biological plausibility and may be model artifacts
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

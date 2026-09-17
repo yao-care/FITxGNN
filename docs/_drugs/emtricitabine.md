@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Emtricitabine
-parent: 僅模型預測 (L5)
+parent: Kohtalainen näyttö (L3-L4)
 nav_order: 144
-evidence_level: L5
+evidence_level: L4
 indication_count: 3
 ---
 
 # Emtricitabine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -92,7 +92,7 @@ Because of this, the retrieved clinical trials below are all human HIV-1 trials 
 
 ## Finland Market Information
 
-No marketing authorization records are present for Emtricitabine in this evidence pack (`total_licenses = 0`, `market_status = 未上市 / Not Marketed`). There is currently no Finnish product/licence data to summarize.
+No marketing authorization records are present for Emtricitabine in this evidence pack (`total_licenses = 0`, `market_status = Not marketed / Not Marketed`). There is currently no Finnish product/licence data to summarize.
 
 ---
 
@@ -150,10 +150,10 @@ None of the three TxGNN predictions in this pack constitutes a validated, action
 - Resolve **DG002** (High): confirm Emtricitabine's mechanism of action via DrugBank API query
 - Clarify with the prediction pipeline whether species-mismatched disease entities (feline/simian) should be filtered from the human-indication candidate pool before ranking/scoring
 - If a genuine new human indication is still sought for Emtricitabine, treat rank 2 (SIV) only as confirmatory background for the existing PrEP indication — not as a new candidate — and deprioritize ranks 1 and 3 as invalid signals
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

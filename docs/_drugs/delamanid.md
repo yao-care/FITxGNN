@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Delamanid
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 118
 evidence_level: L5
 indication_count: 7
@@ -10,12 +10,12 @@ indication_count: 7
 # Delamanid
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **7** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -101,10 +101,10 @@ The specific predicted indication — bovine tuberculosis — has no direct clin
 - Confirmed mechanism-of-action data from DrugBank (DG002)
 - Direct preclinical or clinical evidence of Delamanid activity specifically against *M. bovis* infection
 - Consider evaluating **"inactive tuberculosis"** (rank 2) as an alternative/parallel candidate, given its stronger existing evidence base (CRUSH-TB [NCT05766267] and PHOENIx MDR-TB [NCT03568383] trials, plus 20 supporting publications)
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

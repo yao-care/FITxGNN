@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Eptifibatide
-parent: 僅模型預測 (L5)
+parent: Vahva näyttö (L1-L2)
 nav_order: 150
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Eptifibatide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -53,7 +53,7 @@ Eptifibatide is a GPIIb/IIIa (platelet integrin αIIbβ3) antagonist whose estab
 | Predicted New Indication | Hemoglobinopathy (Sickle Cell Disease spectrum) |
 | TxGNN Prediction Score | 99.98% (0.9998089671134948) |
 | Evidence Level | L2 |
-| Finland Market Status | ✗ Not Marketed (未上市) |
+| Finland Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -92,7 +92,7 @@ It is important to note that this mechanistic link is specific to the broader "h
 
 ## Finland Market Information
 
-Eptifibatide is **not currently marketed** in this market (`market_status: 未上市`), and there are **0 registered authorizations**. No product name, dosage form, or approved-indication license text is available to tabulate.
+Eptifibatide is **not currently marketed** in this market (`market_status: Not marketed`), and there are **0 registered authorizations**. No product name, dosage form, or approved-indication license text is available to tabulate.
 
 ---
 
@@ -135,10 +135,10 @@ The mechanistic rationale for eptifibatide in sickle cell disease/hemoglobinopat
 - A larger, adequately powered controlled trial in sickle cell disease (the only existing trial, NCT00834899, was terminated at n=13)
 - Drug–drug interaction (DDI) data, currently returning no results
 - Clarification of whether the narrower sickle-cell genotype predictions (HbSD, HbSC, etc.) warrant separate evaluation, or should remain bundled under the general hemoglobinopathy signal until genotype-specific data becomes available
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

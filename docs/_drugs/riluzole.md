@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Riluzole
-parent: 僅模型預測 (L5)
+parent: Vahva näyttö (L1-L2)
 nav_order: 324
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Riluzole
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -49,7 +49,7 @@ with **0 clinical trials** and **20 publications** currently supporting the unde
 | Predicted New Indication | Amyotrophic Lateral Sclerosis, susceptibility to |
 | TxGNN Prediction Score | 99.98% |
 | Evidence Level | L1 |
-| Finland Market Status | ✗ Not Marketed (未上市) |
+| Finland Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -96,10 +96,10 @@ The mechanistic link between riluzole's known anti-excitotoxic action and ALS-sp
 - Confirmed mechanism of action (MOA) source via DrugBank API — currently a data gap (DG002)
 - Subtype-specific clinical evidence for "ALS, susceptibility to" (currently none registered)
 - Confirmation of riluzole's real-world approved indication/licensing status, since it is absent from this dataset's Taiwan/Finland regulatory records despite being an established ALS therapy
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

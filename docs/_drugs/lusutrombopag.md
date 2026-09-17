@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lusutrombopag
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 239
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Lusutrombopag
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -81,10 +81,10 @@ The top-ranked prediction is itself scored as a "Research Question" (S0), with n
 - Confirmed mechanism of action detail (resolves DG002)
 - Preclinical or mechanistic evidence directly linking TPO-RA pathway activity to hereditary thrombocytopenia with normal platelets
 - Ongoing literature/trial monitoring, since current PubMed/ClinicalTrials.gov/ICTRP searches all returned zero results
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

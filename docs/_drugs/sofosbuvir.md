@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Sofosbuvir
-parent: 僅模型預測 (L5)
+parent: Kohtalainen näyttö (L3-L4)
 nav_order: 348
-evidence_level: L5
+evidence_level: L3
 indication_count: 8
 ---
 
 # Sofosbuvir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+Näytön taso: **L3** | Ennustetut käyttöaiheet: **8** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -43,7 +43,7 @@ Sofosbuvir is an NS5B RNA-dependent RNA polymerase inhibitor originally develope
 | Predicted New Indication | Hepatitis B virus infection |
 | TxGNN Prediction Score | 99.77% |
 | Evidence Level | L3 |
-| Taiwan Market Status | 未上市 (Not marketed) |
+| Taiwan Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -81,7 +81,7 @@ This is borne out by the direct evidence: the one HBV-monoinfection trial (APOST
 
 ## Taiwan Market Information
 
-Sofosbuvir currently holds **no marketing authorizations in Taiwan** (`taiwan_regulatory.total_licenses = 0`, market status 未上市). No product name, dosage form, or approved-indication data is available in the regulatory database for this candidate.
+Sofosbuvir currently holds **no marketing authorizations in Taiwan** (`taiwan_regulatory.total_licenses = 0`, market status Not marketed). No product name, dosage form, or approved-indication data is available in the regulatory database for this candidate.
 
 ## Safety Considerations
 
@@ -102,10 +102,10 @@ One safety signal specific to this repurposing candidate does emerge from the li
 - Systematic review of the HBV reactivation signal (frequency, risk factors) before considering sofosbuvir in any HBV-coinfected population
 
 **Note on related candidates in this evidence pack:** the same TxGNN run also scored sofosbuvir against Hepatitis E virus infection (rank 2, L3, in vitro RdRp inhibition plus a completed pilot trial NCT03282474 — recommended as a **Research Question** rather than Hold) and Kyasanur forest disease (rank 7, L4, direct enzymatic inhibition of a homologous flaviviral RdRp shown in vitro — also **Research Question**). Both show stronger mechanistic plausibility than the top-ranked HBV prediction and may warrant separate evaluation.
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Anagrelide
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 29
 evidence_level: L5
 indication_count: 2
@@ -10,12 +10,12 @@ indication_count: 2
 # Anagrelide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -111,10 +111,10 @@ TFDA/package-insert warnings and contraindications for anagrelide could not be r
 - Clarify why TxGNN ranked this association highly, given that the literature evidence base actually cautions against routine drug treatment of reactive thrombocytosis
 
 *Note: A second candidate indication, "inverse Klippel-Trenaunay syndrome" (TxGNN score 99.59%, rank 4816), was also evaluated for this drug. It has zero supporting clinical trials or literature and an implausible mechanistic link (Klippel-Trenaunay-spectrum disorders are associated with thrombocytopenia/consumptive coagulopathy, not thrombocytosis). It is assessed as Evidence Level L5 with a **Hold** recommendation and is very likely a knowledge-graph node-proximity artifact rather than a genuine repurposing signal; no further action is recommended on this indication.*
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

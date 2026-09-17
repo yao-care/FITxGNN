@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Bupivacaine
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 81
 evidence_level: L5
 indication_count: 4
@@ -10,12 +10,12 @@ indication_count: 4
 # Bupivacaine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -85,10 +85,10 @@ This candidate has evidence level L5 (model prediction only) with zero supportin
 - Confirmed original MOA and approved indication text from DrugBank (DG002, High)
 - A biologically grounded mechanistic hypothesis linking bupivacaine to the target disease before further evidence collection is warranted
 - Re-screening of the other three co-predicted candidates (neonatal dermatomyositis, childhood ILD-CTD, amyopathic dermatomyositis) is not recommended given their similarly unsupported rationale and, for the pediatric indications, added safety risk
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

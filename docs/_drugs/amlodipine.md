@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Amlodipine
-parent: 僅模型預測 (L5)
+parent: Vahva näyttö (L1-L2)
 nav_order: 28
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Amlodipine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -52,7 +52,7 @@ Using the provided Evidence Pack (v4, multi-indication candidate for DB00381 / A
 | Predicted New Indication | Intracerebral Hemorrhage (blood-pressure control for secondary prevention) |
 | TxGNN Prediction Score | 99.79% |
 | Evidence Level | L2 |
-| Finland Market Status | 未上市 (Not marketed) |
+| Finland Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -127,7 +127,7 @@ The main evidentiary gap is that no trial to date has isolated amlodipine's indi
 
 ## Finland Market Information
 
-Amlodipine is currently recorded as **not marketed (未上市)** in this dataset, with **0 marketing authorizations** on file. No product-level licensing data (authorization number, product name, dosage form, approved indication text) is available to report.
+Amlodipine is currently recorded as **not marketed (Not marketed)** in this dataset, with **0 marketing authorizations** on file. No product-level licensing data (authorization number, product name, dosage form, approved indication text) is available to report.
 
 ---
 
@@ -153,10 +153,10 @@ Please refer to the package insert for safety information.
 - A trial or subgroup analysis isolating amlodipine's specific contribution within triple-pill regimens for ICH secondary prevention.
 - Confirm actual Finland/Taiwan regulatory and marketing status, since the current record shows 0 authorizations, which conflicts with amlodipine's well-known global availability — this should be verified rather than assumed to be a true data gap versus a query/indexing error.
 - For the Research Question-tier candidates (malignant renovascular hypertension, cerebral artery occlusion), a targeted literature/trial search using amlodipine-specific terms (current literature was largely non-specific or animal-only) before any further prioritization.
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Nintedanib
-parent: 僅模型預測 (L5)
+parent: Kohtalainen näyttö (L3-L4)
 nav_order: 263
-evidence_level: L5
+evidence_level: L4
 indication_count: 3
 ---
 
 # Nintedanib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -87,10 +87,10 @@ The prediction rests on a single class-level mechanism review with no drug-speci
 - Confirmed original indication and MOA from DrugBank or the approved label (DG002)
 - Drug-specific preclinical or case-level evidence (e.g., PDGFR-inhibitor activity confirmed for nintedanib in DFSP or liposarcoma models)
 - Continued literature/trial monitoring, as liposarcoma and ovarian myxoid liposarcoma currently have zero supporting evidence beyond the TxGNN score
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

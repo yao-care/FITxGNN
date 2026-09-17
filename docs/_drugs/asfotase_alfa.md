@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Asfotase Alfa
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 44
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Asfotase Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -101,10 +101,10 @@ The Evidence Pack for asfotase alfa is critically incomplete — no TxGNN predic
 - **Parse Taiwan package insert from TFDA** (DG001, Blocking): Download and extract the 仿單 PDF to obtain official warnings, contraindications, and precautions before any clinical safety evaluation.
 - **Verify international approval status**: Asfotase alfa holds FDA and EMA approvals for HPP. Confirm whether Finland's Fimea has granted equivalent authorization, as this would establish a baseline regulatory precedent for any new indication filing.
 - **Assess rare disease framework applicability**: HPP carries orphan drug designation in multiple jurisdictions. Any repurposing candidate should be assessed within the rare disease regulatory pathway, which may affect evidence thresholds and approval timelines.
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

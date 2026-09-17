@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Palonosetron
-parent: 僅模型預測 (L5)
+parent: Kohtalainen näyttö (L3-L4)
 nav_order: 282
-evidence_level: L5
+evidence_level: L4
 indication_count: 5
 ---
 
 # Palonosetron
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **5** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -100,10 +100,10 @@ Evidence for the migraine indication consists of a single case report of an **ad
 - Confirmed mechanism of action and verified original indication, sourced rather than inferred from general knowledge (DG002)
 - Independent evaluation of whether the "palonosetron-induced migraine" case report represents a class-level 5-HT3-antagonist safety signal, which would argue **against** rather than for this repurposing direction
 - Any additional clinical or preclinical data establishing a positive (not merely correlative) mechanistic link to migraine before advancing past S0
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

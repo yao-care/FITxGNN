@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ranolazine
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 314
 evidence_level: L5
 indication_count: 1
@@ -10,12 +10,12 @@ indication_count: 1
 # Ranolazine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -83,10 +83,10 @@ This candidate is at the earliest possible evaluation stage (S0) — there is no
 - TFDA package insert data on warnings and contraindications (currently a blocking data gap, DG001)
 - A literature or preclinical search specifically probing any link between sodium-channel/late INa modulation (ranolazine's known pharmacology in other markets) and vasopressin/AVPR2-mediated water retention, to establish or rule out mechanistic plausibility
 - Ongoing monitoring for any new clinical trial or case-report evidence on ranolazine and NSIAD, given none currently exist
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

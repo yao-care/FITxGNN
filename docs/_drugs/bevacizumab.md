@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Bevacizumab
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 68
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Bevacizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -49,7 +49,7 @@ Bevacizumab (DB00112) is a recombinant humanized anti-VEGF-A monoclonal antibody
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the evidence pack (`original_moa`: Data Gap DG002). Based on known information, bevacizumab is a monoclonal antibody that binds and neutralizes vascular endothelial growth factor-A (VEGF-A), blocking angiogenesis; it is globally used as part of combination chemotherapy regimens across a range of VEGF-driven solid tumors (e.g., metastatic colorectal cancer, non-squamous NSCLC, renal cell carcinoma, ovarian cancer, cervical cancer, glioblastoma). No Finland-specific marketing authorization exists in this evidence pack (`market_status`: 未上市 / Not Marketed, 0 licenses).
+Currently, detailed mechanism of action data is not available in the evidence pack (`original_moa`: Data Gap DG002). Based on known information, bevacizumab is a monoclonal antibody that binds and neutralizes vascular endothelial growth factor-A (VEGF-A), blocking angiogenesis; it is globally used as part of combination chemotherapy regimens across a range of VEGF-driven solid tumors (e.g., metastatic colorectal cancer, non-squamous NSCLC, renal cell carcinoma, ovarian cancer, cervical cancer, glioblastoma). No Finland-specific marketing authorization exists in this evidence pack (`market_status`: Not marketed / Not Marketed, 0 licenses).
 
 For epiglottis neoplasm specifically, the evidence pack contains no clinical trials or literature at all. The mechanistic rationale is limited to a class-level generalization: bevacizumab has been studied in other head-and-neck tumor sites (see related candidates below), and anti-VEGF therapy has a plausible biological rationale in head-and-neck squamous cell carcinomas broadly. However, for epiglottis neoplasm this remains an unverified extrapolation with no site-specific supporting data — the TxGNN score alone (99.90%) is not accompanied by any confirmatory trial or publication.
 
@@ -96,10 +96,10 @@ The TxGNN score is high (99.90%), but there is no clinical trial or literature e
 
 ---
 **Note:** Within this same evidence pack, a lower-ranked candidate — **cystic neoplasm** (rank 7, TxGNN score 99.89%) — has substantially stronger supporting evidence (8 clinical trials including a Phase 3 RCT, 20 publications, Evidence Level L1, decision stage S3, recommendation "Proceed with Guardrails"), largely driven by bevacizumab's established use in low-grade serous ovarian cancer. That candidate may warrant separate evaluation as a higher-priority repurposing opportunity.
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

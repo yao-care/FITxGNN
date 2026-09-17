@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Pioglitazone
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 298
 evidence_level: L5
 indication_count: 9
@@ -10,12 +10,12 @@ indication_count: 9
 # Pioglitazone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **9** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 9
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -87,10 +87,10 @@ The top-ranked prediction (Opsismodysplasia) has no clinical trial or literature
 - Resolve DG002 (High): confirm mechanism of action via DrugBank API
 - If pursuing repurposing signals from this batch, prioritize the lipodystrophy cluster (ranks 5–8) for targeted literature/trial searches given their stronger PPAR-γ mechanistic rationale, rather than the top-ranked but mechanistically unsupported Opsismodysplasia signal
 - Note: the 9 literature hits under "pancreatic agenesis" (rank 9) are general T2DM/PPAR-γ reviews, not disease-specific — do not count these as supporting evidence without further screening
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

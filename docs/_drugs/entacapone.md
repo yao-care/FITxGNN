@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Entacapone
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 146
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Entacapone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -45,7 +45,7 @@ Entacapone (DB00494) is a COMT (catechol-O-methyltransferase) inhibitor, origina
 | Predicted New Indication (highest-evidence candidate) | Lewy body dementia |
 | TxGNN Prediction Score | 99.25% (rank 7 of screened candidates; top-ranked candidate overall, PLA2G6-associated neurodegeneration, scored 99.76% but has zero supporting evidence) |
 | Evidence Level | L4 (preclinical/mechanistic + non-interventional trial only) |
-| Finland Market Status | ✗ Not Marketed (未上市) |
+| Finland Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | **Hold** |
 
@@ -125,10 +125,10 @@ Please refer to the package insert for safety information. A **Blocking**-severi
 - Resolve DG002 (confirm mechanism of action via DrugBank API) to substantiate the COMT-inhibition rationale formally rather than relying on narrative inference.
 - If pursuing Lewy body dementia or PSP-CBS further, design or identify an actual interventional study testing entacapone (not just imaging/gait biomarkers) in these populations, with particular attention to the known risk of dopaminergic-agent-induced psychiatric side effects (hallucinations) in LBD patients.
 - Given the weak/indirect mechanistic rationale for the other 8 candidates, no further investment is recommended for those indications absent new evidence.
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

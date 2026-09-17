@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Esomeprazole
-parent: 僅模型預測 (L5)
+parent: Kohtalainen näyttö (L3-L4)
 nav_order: 155
-evidence_level: L5
+evidence_level: L4
 indication_count: 3
 ---
 
 # Esomeprazole
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -85,10 +85,10 @@ The TxGNN prediction score is high, but the mechanistic link to duodenogastric r
 - Disease-specific clinical evidence for duodenogastric reflux before re-scoring
 
 **Note on other candidates in this evidence pack:** Rank 3 ("duodenal ulcer") shows much stronger evidence (L1, 50 trials, 20 publications) but its own rationale flags that this is esomeprazole's well-established, already-approved PPI indication rather than a genuine repurposing candidate — the empty `original_indications` field is itself a data gap, not evidence of novelty. Rank 2 ("duodenal obstruction") has no supporting trials or literature and reflects a mechanistic mismatch (structural obstruction vs. pharmacological acid suppression); it should remain on Hold.
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Nevirapine
-parent: 僅模型預測 (L5)
+parent: Kohtalainen näyttö (L3-L4)
 nav_order: 261
-evidence_level: L5
+evidence_level: L4
 indication_count: 3
 ---
 
 # Nevirapine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -85,10 +85,10 @@ Evidence for this indication rests on a single preclinical structural/biochemica
 - Detailed mechanism of action (MOA) data for nevirapine — currently a High-severity gap
 - In vivo/in vitro efficacy data specifically demonstrating antiviral activity against FIV (not just structural RT comparison)
 - If a human-relevant repurposing signal is desired, note that rank 2 in this evidence pack (simian immunodeficiency virus infection, L3/S1, 17 supporting publications) has a stronger and more direct mechanistic basis, though it also concerns a non-human model rather than a human indication
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

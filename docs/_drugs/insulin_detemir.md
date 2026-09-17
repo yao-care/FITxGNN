@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Insulin Detemir
-parent: 僅模型預測 (L5)
+parent: Vahva näyttö (L1-L2)
 nav_order: 198
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Insulin Detemir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -120,10 +120,10 @@ The T1DM indication reaches Evidence Level L1, backed by multiple completed Phas
 - Confirmation of regulatory/reimbursement pathway for market entry in Finland (currently 0 authorizations)
 - Since this is not a novel indication, reclassify this candidate as "existing indication confirmation" rather than a repurposing opportunity in the pipeline
 - Ranks 2–10 (all L5, Hold) should be deprioritized pending real trial or literature evidence; the lipodystrophy-related predictions in particular warrant a knowledge-graph causal-direction review before any further work
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

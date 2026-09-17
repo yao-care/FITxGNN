@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Caspofungin
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 91
 evidence_level: L5
 indication_count: 1
@@ -10,12 +10,12 @@ indication_count: 1
 # Caspofungin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -97,10 +97,10 @@ This candidate has only model-level (L5) evidence with no clinical trials or lit
 - Confirmed original indication and detailed MOA data (DrugBank/TFDA)
 - Preclinical or mechanistic studies establishing biological plausibility for the gastrin-related pathway
 - Any emerging clinical trial or literature evidence for this drug-disease pair
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

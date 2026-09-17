@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Zanubrutinib
-parent: 中證據等級 (L3-L4)
+parent: Kohtalainen näyttö (L3-L4)
 nav_order: 409
 evidence_level: L4
 indication_count: 6
@@ -10,12 +10,12 @@ indication_count: 6
 # Zanubrutinib
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **6** 個
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **6** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -45,7 +45,7 @@ Zanubrutinib 是第二代 BTK（Bruton's tyrosine kinase）抑制劑，目前已
 | 預測新適應症 | 骨髓性白血病（Myeloid Leukemia） |
 | TxGNN 預測分數 | 99.65%（rank 4274） |
 | 證據等級 | L4 |
-| 芬蘭市場狀態 | 未上市 |
+| 芬蘭市場狀態 | Not marketed |
 | 許可證數量 | 0 |
 | 建議決策 | Hold |
 
@@ -92,7 +92,7 @@ Zanubrutinib 是第二代 BTK（Bruton's tyrosine kinase）抑制劑，目前已
 
 ## 芬蘭市場資訊
 
-Zanubrutinib 目前於芬蘭尚未取得上市許可（未上市，許可證數量 0），無可列示之核准藥品項目。
+Zanubrutinib 目前於芬蘭尚未取得上市許可（Not marketed，許可證數量 0），無可列示之核准藥品項目。
 
 ---
 
@@ -121,17 +121,17 @@ Zanubrutinib 屬於 B 細胞惡性腫瘤治療用藥，依已知藥理分類為�
 **決策：Hold**
 
 **理由：**
-TxGNN 預測分數雖高（99.65%），但支持證據皆非 zanubrutinib 於骨髓性白血病的直接證據——兩項臨床試驗受試藥物均非 zanubrutinib，文獻證據全數聚焦於 B 細胞惡性腫瘤而非髓系腫瘤；機轉上 BTK 亦非 AML 之主要驅動路徑。同時芬蘭未上市、無正式安全性資料，尚不足以支持進入下一階段評估。
+TxGNN 預測分數雖高（99.65%），但支持證據皆非 zanubrutinib 於骨髓性白血病的直接證據——兩項臨床試驗受試藥物均非 zanubrutinib，文獻證據全數聚焦於 B 細胞惡性腫瘤而非髓系腫瘤；機轉上 BTK 亦非 AML 之主要驅動路徑。同時芬蘭Not marketed、無正式安全性資料，尚不足以支持進入下一階段評估。
 
 **若要繼續推進，需要補充：**
 - Zanubrutinib 正式的作用機轉（MOA）結構化資料（DrugBank）
 - TFDA/Fimea 官方仿單警語與禁忌資料
 - 針對 zanubrutinib 於髓系腫瘤（AML/MDS）之直接臨床前或臨床證據
 - 藥物交互作用（DDI）完整資料
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Trastuzumab Emtansine
-parent: 僅模型預測 (L5)
+parent: Kohtalainen näyttö (L3-L4)
 nav_order: 389
-evidence_level: L5
+evidence_level: L4
 indication_count: 4
 ---
 
 # Trastuzumab Emtansine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **4** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -45,7 +45,7 @@ but this direction is currently supported by only **1 clinical trial** and **no 
 | Predicted New Indication | Normal breast-like subtype of breast carcinoma |
 | TxGNN Prediction Score | 99.82% |
 | Evidence Level | L4 |
-| Finland Market Status | 未上市 (Not marketed) |
+| Finland Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -69,7 +69,7 @@ Currently no related literature available
 
 ## Finland Market Information
 
-This drug is currently not marketed in Finland (未上市), and no market authorization records are available.
+This drug is currently not marketed in Finland (Not marketed), and no market authorization records are available.
 
 ## Cytotoxicity
 
@@ -97,10 +97,10 @@ The top-ranked prediction (normal breast-like subtype) has a very high TxGNN sco
 - DrugBank mechanism of action (MOA) data to strengthen mechanistic-relevance analysis
 - Confirmation of whether any T-DM1 trials specifically enroll or stratify by PAM50 normal-like subtype
 - Additional literature search specific to T-DM1 and normal-like/basal molecular subtypes
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

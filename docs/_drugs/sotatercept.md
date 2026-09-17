@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Sotatercept
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 350
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Sotatercept
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -83,10 +83,10 @@ The top-ranked prediction (acute lymphoblastic leukemia) is an L5, model-score-o
 - Resolve DG002: confirm mechanism of action via DrugBank API
 - Confirm the drug's actual original/approved indication(s), which are currently empty in this dataset
 - If pursuing further, redirect research priority toward rank 4 (drug-induced osteoporosis), the only candidate with a defensible mechanistic rationale, rather than the top-scored but mechanistically unsupported ALL prediction
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

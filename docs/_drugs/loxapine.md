@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Loxapine
-parent: 僅模型預測 (L5)
+parent: Vahva näyttö (L1-L2)
 nav_order: 236
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Loxapine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -110,10 +110,10 @@ Loxapine's applicability to acute agitation in bipolar mania is corroborated by 
 - Drug-drug interaction data (current DDI query returned no results)
 
 **Note on other predicted indications:** Nine additional TxGNN-predicted indications (ranks 2–10, e.g., retinal dystrophy, hydranencephaly, X-linked myopia variants, Charcot-Marie-Tooth type 1G) were also screened. All were rated **L5 / Hold** — no clinical trials, no relevant literature, and no plausible mechanistic link to loxapine's D2/5-HT2A pharmacology. These appear to be TxGNN link-prediction noise rather than genuine repurposing signals and are not recommended for further evaluation.
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

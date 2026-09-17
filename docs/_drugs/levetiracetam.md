@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Levetiracetam
-parent: 僅模型預測 (L5)
+parent: Kohtalainen näyttö (L3-L4)
 nav_order: 225
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Levetiracetam
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -108,10 +108,10 @@ Visual epilepsy is mechanistically plausible as an extension of levetiracetam's 
 - Finland-specific licensing/market authorization data, since the drug is currently unmarketed there
 
 *Note: within this evidence pack, a lower-ranked candidate — status epilepticus (rank 9, L1 evidence, "Proceed with Guardrails") — has substantially stronger direct trial support (e.g., ESETT, PEACH) and may warrant separate, higher-priority evaluation.*
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

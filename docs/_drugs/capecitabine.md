@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Capecitabine
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 88
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Capecitabine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -43,7 +43,7 @@ Capecitabine 為口服氟嘧啶類化療前驅藥；本證據包未取得其正�
 | 預測新適應症 | Gastric Adenocarcinoma and Proximal Polyposis of the Stomach (GAPPS) |
 | TxGNN 預測分數 | 99.94% |
 | 證據等級 | L5 |
-| 台灣市場狀態 | 未上市 |
+| 台灣市場狀態 | Not marketed |
 | 藥證數量 | 0 |
 | 建議決策 | Hold |
 
@@ -65,7 +65,7 @@ Capecitabine 為口服氟嘧啶類化療前驅藥；本證據包未取得其正�
 
 ## 台灣市場資訊
 
-本藥品於台灣尚未上市（未上市狀態，藥證數量 0），無核准藥證與適應症文字可供摘錄。
+本藥品於台灣尚Not marketed（Not marketed狀態，藥證數量 0），無核准藥證與適應症文字可供摘錄。
 
 ## 細胞毒性
 
@@ -91,14 +91,14 @@ Capecitabine 屬氟嘧啶類（fluoropyrimidine）口服細胞毒性化療藥物
 GAPPS 目前完全無臨床試驗或文獻證據支持，其標準治療為手術／內視鏡監測而非全身性化療，與 capecitabine 之細胞毒性化療機轉關聯性低；99.94% 之分數純為 TxGNN 分子相似性預測，證據等級僅 L5，不具備進入下一階段安全性評估之基礎。
 
 **若要推進，需要補齊：**
-- TFDA 仿單警語／禁忌資料（DG001，Blocking，需下載仿單 PDF 並解析）
-- 作用機轉（MOA）資料（DG002，High，需查詢 DrugBank API）
+- TFDA 仿單警語／禁忌資料（DG001，Blocking，需Download and parse the package insert PDF）
+- 作用機轉（MOA）資料（DG002，High，需Query the DrugBank API）
 - GAPPS 相關前瞻性試驗或病例系列證據（目前為零）
 - 若欲推進本藥物之老藥新用評估，建議改以證據等級較高之胃癌亞型（如 gastric cardia adenocarcinoma、gastric body carcinoma、gastric tubular adenocarcinoma，皆達 L1／Proceed with Guardrails）另案處理
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

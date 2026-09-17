@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Brolucizumab
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 79
 evidence_level: L5
 indication_count: 4
@@ -10,12 +10,12 @@ indication_count: 4
 # Brolucizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -46,7 +46,7 @@ The TxGNN model predicts it may be effective for **mitochondrial oxidative phosp
 | Predicted New Indication | Mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies |
 | TxGNN Prediction Score | 99.67% |
 | Evidence Level | L5 |
-| Finland Market Status | ✗ Not marketed (未上市) |
+| Finland Market Status | ✗ Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -76,7 +76,7 @@ Currently no related literature available
 
 ## Finland Market Information
 
-No marketing authorizations are currently registered for brolucizumab in Finland (market status: 未上市 / not marketed; total_licenses = 0).
+No marketing authorizations are currently registered for brolucizumab in Finland (market status: Not marketed / not marketed; total_licenses = 0).
 
 ---
 
@@ -98,10 +98,10 @@ The top-ranked TxGNN prediction has no known mechanistic pathway overlap with br
 - DrugBank mechanism-of-action detail (DG002)
 - An independent biological-plausibility review of the mitochondrial-disorder prediction, or re-evaluation of lower-score but mechanistically coherent candidates
 - If the esophageal-varices signal is pursued instead, a feasibility assessment of systemic/GI drug exposure given brolucizumab's intravitreal-only administration route
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

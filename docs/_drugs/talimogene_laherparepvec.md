@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Talimogene Laherparepvec
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 357
 evidence_level: L5
 indication_count: 7
@@ -10,12 +10,12 @@ indication_count: 7
 # Talimogene Laherparepvec
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **7** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -91,10 +91,10 @@ The predicted indication (CMM7) has zero supporting clinical trials or literatur
 - Obtain the TFDA/EMA package insert for key warnings, contraindications, and DDI data (currently blocking safety review)
 - Retrieve confirmed mechanism-of-action documentation from DrugBank or the manufacturer label
 - If CMM7 is intended as a genuinely distinct target population, define it precisely and search for dedicated trials/literature under that specific term rather than relying on melanoma-adjacent scoring
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

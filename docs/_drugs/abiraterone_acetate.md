@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Abiraterone Acetate
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 15
 evidence_level: L5
 indication_count: 0
@@ -10,12 +10,12 @@ indication_count: 0
 # Abiraterone Acetate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **0** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 0
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -45,7 +45,7 @@ Abiraterone acetate is a CYP17A1 inhibitor primarily used for the treatment of m
 | Predicted New Indication | **None** — No TxGNN predictions generated |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | **L5** — No predictions or supporting studies available |
-| Taiwan Market Status | ❌ Not marketed (未上市) |
+| Taiwan Market Status | ❌ Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | **Hold** |
 
@@ -127,10 +127,10 @@ No TxGNN-predicted indications were generated for abiraterone acetate, making a 
 - **Resolve DG002 (High):** Query DrugBank API for the full mechanism of action and obtain the DrugBank ID
 - **Obtain Taiwan regulatory information:** Confirm whether abiraterone acetate has been submitted for TFDA review or if any applications are pending
 - **Supplement drug identity data:** Populate DrugBank ID, brand name, and original indication fields in the evidence pack
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

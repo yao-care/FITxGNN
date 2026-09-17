@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Avibactam
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 53
 evidence_level: L5
 indication_count: 6
@@ -10,12 +10,12 @@ indication_count: 6
 # Avibactam
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -67,10 +67,10 @@ The current Evidence Pack contains no TxGNN predicted indications for Avibactam,
 - **Safety data**: Download and parse the package insert PDF from TFDA official website to obtain warnings and contraindications
 - **Original approved indication**: Confirm from TFDA or EMA/FDA regulatory sources
 - **DDI data**: Query drug interaction database (current query returned no results)
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

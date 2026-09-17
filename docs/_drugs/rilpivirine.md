@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Rilpivirine
-parent: 僅模型預測 (L5)
+parent: Vahva näyttö (L1-L2)
 nav_order: 323
-evidence_level: L5
+evidence_level: L1
 indication_count: 5
 ---
 
 # Rilpivirine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+Näytön taso: **L1** | Ennustetut käyttöaiheet: **5** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -111,10 +111,10 @@ Multiple completed Phase 3 RCTs establish rilpivirine's efficacy and safety as p
 - Drug-drug interaction profile (current DDI query returned no results)
 - Completion and grading of the 18 remaining, currently ungraded clinical trials in this evidence set
 - A dedicated maternal/fetal safety and dosing evaluation before recommending long-acting RPV in pregnant populations
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

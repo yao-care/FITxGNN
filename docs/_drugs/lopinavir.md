@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lopinavir
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 234
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Lopinavir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -45,7 +45,7 @@ Lopinavir is an HIV-1 protease inhibitor, typically co-formulated with ritonavir
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 99.90% |
 | Evidence Level | L4 (preclinical/mechanism studies only, non-human primate models) |
-| Finland Market Status | 未上市 (Not marketed) |
+| Finland Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -97,10 +97,10 @@ The predicted indication (SIV infection) is a disease of non-human primates rath
 - Confirmed original indication and mechanism-of-action data for lopinavir (Data Gap DG002)
 - Reassessment of whether any of the three predicted indications have a genuine human-relevant analog worth pursuing (SIV → HIV-related human indications, if any; FIV and the neurodevelopmental disorder currently show no mechanistic or evidentiary support)
 - If pursuing an HIV-adjacent human indication, dedicated clinical trial and literature search using human-relevant disease terms rather than the animal-model terms currently predicted
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

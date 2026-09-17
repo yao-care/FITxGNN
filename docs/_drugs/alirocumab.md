@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Alirocumab
-parent: 僅模型預測 (L5)
+parent: Vahva näyttö (L1-L2)
 nav_order: 23
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Alirocumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -111,10 +111,10 @@ The predicted indication is mechanistically well-aligned with alirocumab's estab
 - Clarify whether "cholesterol catabolic process disease" as scored by TxGNN maps to a genuinely new indication or substantially overlaps with alirocumab's existing approved use in HoFH/hypercholesterolemia
 - Confirm route-of-administration compatibility for the target population (currently marked "pending")
 - Note: other TxGNN-predicted indications for this drug (e.g., xanthomatosis, ichthyosis, diaphyseal dysplasia) carry only L4–L5 evidence and remain on **Hold** pending stronger mechanistic or clinical support; they are not part of this recommendation.
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

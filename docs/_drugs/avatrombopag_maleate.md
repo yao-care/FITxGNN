@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Avatrombopag Maleate
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 51
 evidence_level: L5
 indication_count: 0
@@ -10,12 +10,12 @@ indication_count: 0
 # Avatrombopag Maleate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **0** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 0
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -89,10 +89,10 @@ The Evidence Pack is critically incomplete — TxGNN returned no predicted indic
 - **Parse package insert** — TFDA package insert query also returned 1 result (result\_count: 1) but warnings and contraindications remain empty; check PDF extraction logic
 - **Confirm original approved indication** from Fimea / EMA regulatory filings to establish the repurposing baseline
 - Once the above are resolved, re-generate the Evidence Pack (v5+) and resubmit for full evaluation
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

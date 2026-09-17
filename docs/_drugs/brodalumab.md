@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Brodalumab
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 78
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Brodalumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -45,7 +45,7 @@ Brodalumab is an anti-IL-17RA monoclonal antibody; the Evidence Pack contains no
 | Predicted New Indication | Strongyloidiasis |
 | TxGNN Prediction Score | 99.84% |
 | Evidence Level | L5 (model prediction only, no supporting studies) |
-| Finland Market Status | 未上市 (Not marketed) |
+| Finland Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -99,10 +99,10 @@ The top-ranked prediction (strongyloidiasis) has no supporting clinical or liter
 - Obtain verified mechanism-of-action data from DrugBank (DG002) to properly evaluate mechanistic plausibility
 - If "eye disease" is pursued further, first narrow it to a specific IL-17-linked ocular diagnosis (e.g., uveitis) and re-query trials/literature against that specific term
 - Route the strongyloidiasis association to pharmacovigilance/signal-detection review rather than the repurposing pipeline, given its mechanistically inverted direction
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

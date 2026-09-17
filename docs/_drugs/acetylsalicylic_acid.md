@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Acetylsalicylic Acid
-parent: 僅模型預測 (L5)
+parent: Kohtalainen näyttö (L3-L4)
 nav_order: 17
-evidence_level: L5
+evidence_level: L3
 indication_count: 9
 ---
 
 # Acetylsalicylic Acid
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **9** 個
+Näytön taso: **L3** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 9
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -121,10 +121,10 @@ Please refer to the package insert for safety information.
 - Clarification of Finland market/licensing status, since "0 licenses" for a globally marketed OTC drug looks like a data gap rather than fact
 
 **Additional context for portfolio prioritization:** this evidence pack's other TxGNN candidates for aspirin include several with much stronger evidence at lower TxGNN rank — notably *thrombotic disease* (rank 8, evidence level L1, "Proceed with Guardrails") and *thrombophilia* (rank 9, L2, "Proceed with Guardrails"). These reflect aspirin's already well-established antithrombotic role rather than a novel repurposing opportunity, but may be more actionable near-term than the brainstem-aura candidate covered in this report.
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

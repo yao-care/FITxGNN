@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Telmisartan
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 362
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Telmisartan
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -95,10 +95,10 @@ This evidence pack is a multi-indication candidate set; two other TxGNN-predicte
 - **Intracerebral hemorrhage** (rank 9, score 99.93%) — Evidence Level L2, recommendation "Research Question." Supported by the completed Phase 3 TRIDENT trial (n=1,671) for recurrence prevention, though telmisartan was one component of a triple-pill combination rather than an independently tested agent.
 
 These would be better candidates for a dedicated evaluation report than Prinzmetal angina.
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

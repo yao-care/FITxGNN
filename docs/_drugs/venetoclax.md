@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Venetoclax
-parent: 僅模型預測 (L5)
+parent: Vahva näyttö (L1-L2)
 nav_order: 400
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Venetoclax
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -46,7 +46,7 @@ indication_count: 10
 | Predicted New Indication (headline) | Myeloid Leukemia (Acute Myeloid Leukemia) |
 | TxGNN Prediction Score | 99.47% (global model rank 5,697) |
 | Evidence Level | L1 |
-| Taiwan Market Status | ✗ Not marketed (未上市) |
+| Taiwan Market Status | ✗ Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | **Hold** (regulatory/safety gate) — see rationale below |
 
@@ -127,7 +127,7 @@ By contrast, several other candidates in this pack (CLL/SLL molecular subtypes, 
 
 ## Taiwan Market Information
 
-Venetoclax currently holds **0 marketing authorizations in Taiwan** (market status: 未上市 / not marketed). No product licenses, dosage forms, or approved indication text are available in this evidence pack.
+Venetoclax currently holds **0 marketing authorizations in Taiwan** (market status: Not marketed / not marketed). No product licenses, dosage forms, or approved indication text are available in this evidence pack.
 
 ---
 
@@ -167,10 +167,10 @@ Please refer to the package insert for safety information. (Key warnings, contra
 - Structured mechanism-of-action confirmation from DrugBank to replace the current data gap (DG002, High).
 - Manual re-verification of the Hodgkin lymphoma (Rank 3) evidence set, which appears mismatched to the disease label.
 - A formal DDI query, since the current query returned "not_found" rather than a populated result.
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

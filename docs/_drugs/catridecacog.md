@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Catridecacog
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 92
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Catridecacog
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -95,10 +95,10 @@ The prediction relies solely on a TxGNN model score (L5 evidence level) with zer
 - Mechanism of action (MOA) data via DrugBank API — currently high-severity gap (DG002)
 - Preclinical or case-level evidence specifically linking Factor XIII supplementation to platelet release disorders, pseudo-von Willebrand disease, or Glanzmann thrombasthenia (the other two candidates in this pack carry the same L5/Hold status and equally weak mechanistic links)
 - Confirmation of original approved indication(s) for catridecacog, since none are currently on file
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

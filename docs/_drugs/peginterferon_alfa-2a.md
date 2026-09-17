@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Peginterferon Alfa-2A
-parent: 僅模型預測 (L5)
+parent: Vahva näyttö (L1-L2)
 nav_order: 289
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Peginterferon Alfa-2A
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -129,10 +129,10 @@ Please refer to the package insert for safety information. No structured safety 
 - Clarify the regulatory pathway for market authorization in Finland, given the drug is not currently registered there despite established international approval for this indication.
 
 *Note: Nine additional candidate indications (ranks 2–10) were also evaluated in this evidence pack — including hepatitis E and hepatitis A virus infection, animal viral hepatitis, and several cardiac conditions — but all scored L3–L5 with weak, indirect, or apparently mismatched evidence (several appear to be ontology-mapping artifacts, e.g., "heart neoplasm" trials that are actually polycythemia vera studies). These are recommended for **Hold** or, at most, **Research Question** status and are not detailed further in this report, which focuses on the top-ranked, well-supported candidate.*
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

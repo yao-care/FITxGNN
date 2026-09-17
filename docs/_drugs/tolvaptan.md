@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Tolvaptan
-parent: 僅模型預測 (L5)
+parent: Vahva näyttö (L1-L2)
 nav_order: 382
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Tolvaptan
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -43,7 +43,7 @@ Tolvaptan is a vasopressin V2-receptor antagonist most widely known for treating
 | Predicted New Indication | Polycystic Kidney Disease 3, with or without Polycystic Liver Disease (ADPKD/PLD) |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L1 |
-| Taiwan Market Status | ✗ Not Marketed (未上市) |
+| Taiwan Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -51,7 +51,7 @@ Tolvaptan is a vasopressin V2-receptor antagonist most widely known for treating
 
 Detailed official mechanism-of-action documentation is not available in this evidence pack (data gap DG002). Based on the TxGNN repurposing rationale, tolvaptan is understood to act as a **vasopressin V2-receptor (V2R) antagonist**, blocking cAMP generation in renal collecting-duct epithelial cells — the pathway that drives cyst expansion and total kidney volume growth in ADPKD.
 
-Notably, this "predicted" indication is not a novel hypothesis: tolvaptan is already an approved, mechanistically-validated therapy for ADPKD in multiple countries. The evidence pack's own rationale explicitly flags this — the "未上市" (not marketed) status recorded here most likely reflects a market-specific regulatory gap (e.g., Taiwan) rather than genuine scientific uncertainty. The polycystic liver disease component of the prediction is mechanistically plausible (cAMP-driven cystogenesis is shared between renal and hepatic cysts) but is supported by weaker, indirect evidence (EASL guideline mention rather than dedicated hepatic trials).
+Notably, this "predicted" indication is not a novel hypothesis: tolvaptan is already an approved, mechanistically-validated therapy for ADPKD in multiple countries. The evidence pack's own rationale explicitly flags this — the "Not marketed" (not marketed) status recorded here most likely reflects a market-specific regulatory gap (e.g., Taiwan) rather than genuine scientific uncertainty. The polycystic liver disease component of the prediction is mechanistically plausible (cAMP-driven cystogenesis is shared between renal and hepatic cysts) but is supported by weaker, indirect evidence (EASL guideline mention rather than dedicated hepatic trials).
 
 Because V2R blockade directly targets the shared cystogenic mechanism, and because two independent Phase 3 RCTs (TEMPO 3:4 in early-stage disease, REPRISE in later-stage disease) demonstrated slowed kidney function decline, the mechanism-to-indication link here is unusually strong compared to typical TxGNN predictions.
 
@@ -91,10 +91,10 @@ The predicted indication is backed by L1-level evidence (two completed Phase 3 R
 - Drug-drug interaction data (tolvaptan is a known CYP3A4 substrate; interactions e.g. with strong CYP3A4 inhibitors need verification)
 - Clarification of Taiwan market-entry status, since tolvaptan is already approved for this indication in multiple other jurisdictions
 - Note: 9 other TxGNN-predicted indications for this drug were also screened (L4–L5 evidence) and remain on **Hold**; two of them (thoracic malformation; malformation syndrome with periodontal component) show literature entirely unrelated to the predicted disease and are likely ontology-matching artifacts, not genuine repurposing candidates.
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

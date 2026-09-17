@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Basiliximab
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 63
 evidence_level: L5
 indication_count: 0
@@ -10,12 +10,12 @@ indication_count: 0
 # Basiliximab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **0** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 0
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -91,10 +91,10 @@ The TxGNN prediction pipeline returned no candidate indications for basiliximab,
 3. **Re-run TxGNN:** After resolving the above gaps, execute the prediction pipeline; candidate indications (e.g., GVHD, autoimmune nephritis) are expected to appear.
 4. **Obtain safety source data:** Download and parse the EMA/TFDA package insert PDF to populate warnings and contraindications fields before proceeding to the safety screening stage (S1).
 5. **Confirm Finland registration pathway:** If a repurposing candidate is identified, assess whether the EMA-approved transplant rejection indication can anchor a line-extension application in Finland.
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Verteporfin
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 401
 evidence_level: L5
 indication_count: 1
@@ -10,12 +10,12 @@ indication_count: 1
 # Verteporfin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -43,7 +43,7 @@ Verteporfin (DrugBank DB00460) is a benzoporphyrin-derivative photosensitizer es
 | Predicted New Indication | Mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies |
 | TxGNN Prediction Score | 99.49% (global rank 5558) |
 | Evidence Level | L5 |
-| Taiwan Market Status | 未上市 (Not Marketed) |
+| Taiwan Market Status | Not marketed (Not Marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -65,7 +65,7 @@ Currently no related literature available.
 
 ## Taiwan Market Information
 
-Verteporfin is not marketed in Taiwan (market status: 未上市), with 0 active authorizations recorded — no license table available.
+Verteporfin is not marketed in Taiwan (market status: Not marketed), with 0 active authorizations recorded — no license table available.
 
 ## Safety Considerations
 
@@ -84,10 +84,10 @@ This is an L5, model-prediction-only signal with no clinical trials, no literatu
 - Confirmed original indication data (currently empty in this pack)
 - Completion of `mechanistic_link` and `similarity_to_original` rationale analysis
 - Ongoing monitoring for emerging clinical trials or literature on this indication
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

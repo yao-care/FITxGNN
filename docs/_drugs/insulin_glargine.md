@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Insulin Glargine
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 199
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Insulin Glargine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -99,10 +99,10 @@ The top-ranked predicted indication (autoimmune oophoritis) has an L5 evidence l
 - Confirmed mechanism of action data (DG002)
 - Targeted literature/trial search specifically on insulin and autoimmune oophoritis or APS-related ovarian failure to test whether any indirect supportive evidence exists
 - Consider re-evaluating **pancreatic agenesis** (rank 6 in this candidate set) as an alternative direction: it carries a stronger mechanistic rationale (congenital β-cell absence requiring exogenous insulin) and has 6 associated literature records, though none directly studies this rare condition — it is currently staged at S1 with a "Research Question" recommendation rather than "Hold."
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

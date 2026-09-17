@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Sacituzumab Govitecan
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 337
 evidence_level: L5
 indication_count: 4
@@ -10,12 +10,12 @@ indication_count: 4
 # Sacituzumab Govitecan
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -105,10 +105,10 @@ All four TxGNN-predicted indications (drug-induced osteoporosis, severe nonproli
 - Confirmed mechanism of action via DrugBank API — currently high priority (DG002)
 - Enrichment of the drug's original-indication and DDI records to resolve the apparent knowledge-graph data gap before re-evaluating any TxGNN prediction for this compound
 - Independent mechanistic or preclinical evidence for each predicted indication before advancing past S0
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

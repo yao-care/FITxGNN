@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Vandetanib
-parent: 高證據等級 (L1-L2)
+parent: Vahva näyttö (L1-L2)
 nav_order: 397
 evidence_level: L2
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Vandetanib
 {: .fs-9 }
 
-證據等級: **L2** | 預測適應症: **10** 個
+Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -45,7 +45,7 @@ Vandetanib（DrugBank DB05294）為口服多重酪胺酸激酶抑制劑，依證
 | 預測新適應症 | Renal Cell Carcinoma（腎細胞癌） |
 | TxGNN 預測分數 | 99.92%（score = 0.99917870759964，rank 1186） |
 | 證據等級 | L2 |
-| 台灣上市狀態 | 未上市 |
+| 台灣上市狀態 | Not marketed |
 | 許可證數量 | 0 |
 | 建議決策 | Hold |
 
@@ -122,17 +122,17 @@ Vandetanib 原始適應症（甲狀腺髓質癌）與預測新適應症（腎細
 
 **理由：**
 - 唯一完成且直接相關的 Phase 2 試驗（NCT00566995，n=37）僅涵蓋 VHL 疾病相關腎腫瘤，並非一般散發型腎細胞癌族群；其餘試驗均提前終止且樣本數極小（n=3、n=7），或已被證據包本身標註為資料誤關聯（NCT01191892 實為尿路上皮癌）。
-- TFDA 仿單警語/禁忌資料為 Blocking 等級缺口（DG001），依規範無法進入 S1 安全性初評；作用機轉資料亦為 High 等級缺口（DG002），影響機轉關聯性判讀的確定性。
+- Fimea package insert warnings/contraindications資料為 Blocking 等級缺口（DG001），依規範Cannot proceed to S1 safety screening；作用機轉資料亦為 High 等級缺口（DG002），影響機轉關聯性判讀的確定性。
 
 **需補齊以推進：**
 - 取得 TFDA（或原廠）仿單完整警語、禁忌症與 DDI 資料，解除 DG001 阻斷狀態
 - 取得正式 DrugBank/仿單來源之作用機轉（MOA）資料，解除 DG002
 - 釐清 NCT00566995 之 VHL 亞群結果能否外推至散發型 ccRCC 一般族群
 - 排除 NCT01191892 之尿路上皮癌資料誤關聯後，重新評估直接證據數量是否仍達 L2
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

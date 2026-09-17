@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Sorafenib
-parent: 僅模型預測 (L5)
+parent: Vahva näyttö (L1-L2)
 nav_order: 349
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Sorafenib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -104,10 +104,10 @@ One completed Phase 2 trial (NCT00217620) directly tests sorafenib in advanced s
 - A confirmatory Phase 2/3 trial or expanded case series specific to liposarcoma (current direct evidence is a single completed Phase 2 study)
 - Formal safety monitoring plan given the complete absence of hematologic/toxicity data in this pack
 - Note: among the 10 candidates evaluated for sorafenib, "unclassified renal cell carcinoma" carries markedly stronger evidence (L1, completed Phase 3, n=544) and may warrant separate, higher-priority evaluation
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

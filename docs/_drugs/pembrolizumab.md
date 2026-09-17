@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Pembrolizumab
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 291
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Pembrolizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -111,10 +111,10 @@ The top-ranked TxGNN prediction (Gingival Fibromatosis) has no supporting clinic
 - Resolve DG002 (formal DrugBank MOA record) to support mechanistic review
 - If repurposing pembrolizumab remains of interest, redirect evaluation toward the two candidates in this batch with actual signal — **lung hilum carcinoma** (rank 4, L4, decision stage S1, "Research Question," though one supporting case report shows a hyperprogression signal requiring caution) and **lung germ cell tumor** (rank 8, L3, S1, "Research Question," 50 trials/20 publications, though none disease-specific) — rather than this rank-1 candidate
 - Independent review of the TxGNN batch output is advisable, since several of the top-10 ranked candidates in this evidence pack were flagged by the model's own annotations as mechanistically implausible or as label/evidence mismatches
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

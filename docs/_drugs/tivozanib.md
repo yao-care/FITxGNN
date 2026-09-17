@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tivozanib
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 377
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Tivozanib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -45,7 +45,7 @@ Tivozanib is a highly selective VEGFR-1/2/3 tyrosine kinase inhibitor originally
 | Predicted New Indication | Endocervical carcinoma |
 | TxGNN Prediction Score | 99.81% |
 | Evidence Level | L5 |
-| Finland Market Status | 未上市 (Not marketed) |
+| Finland Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -96,10 +96,10 @@ The prediction rests solely on a TxGNN graph score (L5, decision stage S0) with 
 - TFDA/Fimea package insert (warnings, contraindications, DDI) — currently Blocking gap DG001
 - Confirmed original MOA and approved indication from DrugBank/regulatory source — DG002
 - Preclinical or case-level evidence of VEGFR pathway relevance specifically in endocervical carcinoma before any trial-stage investment
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

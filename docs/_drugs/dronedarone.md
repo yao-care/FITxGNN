@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Dronedarone
-parent: 僅模型預測 (L5)
+parent: Vahva näyttö (L1-L2)
 nav_order: 128
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Dronedarone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -45,7 +45,7 @@ Dronedarone is a Class III antiarrhythmic agent originally used to treat atrial 
 | Predicted New Indication | Stroke disorder |
 | TxGNN Prediction Score | 99.97% |
 | Evidence Level | L2 |
-| Taiwan Market Status | 未上市 (Not Marketed) |
+| Taiwan Market Status | Not marketed (Not Marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -122,10 +122,10 @@ Multiple trials and post-hoc analyses (ATHENA, EAST-AFNET 4) support an indirect
 - Formal drug-drug interaction (DDI) data, particularly for digoxin and P-glycoprotein/CYP3A4 substrates
 - Assessment of Taiwan market access pathway, since dronedarone is not currently marketed locally
 - A dedicated safety monitoring plan given the black-box warning in permanent AF/heart failure populations
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

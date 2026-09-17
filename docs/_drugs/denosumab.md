@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Denosumab
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 119
 evidence_level: L5
 indication_count: 2
@@ -10,12 +10,12 @@ indication_count: 2
 # Denosumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -45,7 +45,7 @@ Denosumab is an anti-RANKL monoclonal antibody; registry data on its original ap
 | Predicted New Indication | Severe Nonproliferative Diabetic Retinopathy (rank 1); Diabetic Retinopathy (rank 2, broader category) |
 | TxGNN Prediction Score | 99.63% (severe NPDR, rank 4411/all predictions) / 99.23% (diabetic retinopathy, rank 7686) |
 | Evidence Level | L5 (severe NPDR — model prediction only) / L4 (diabetic retinopathy — indirect/observational) |
-| Finland Market Status | 未上市 (Not Marketed) |
+| Finland Market Status | Not marketed (Not Marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -106,10 +106,10 @@ The top-ranked prediction (severe nonproliferative diabetic retinopathy) is supp
 - Confirmed original approved indication and mechanism of action from DrugBank or manufacturer labeling (currently a High-severity data gap)
 - Disease-specific preclinical or clinical studies directly evaluating denosumab in diabetic retinopathy (ideally severe NPDR), rather than inferred from osteoporosis-population cohorts
 - Retinopathy-specific outcome data from the 2024 cohort study (PMID 38899553), beyond the current abstract-level summary
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

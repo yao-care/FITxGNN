@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Reteplase
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 322
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Reteplase
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -86,10 +86,10 @@ The top-ranked prediction (posteroinferior MI) has no direct clinical trial or l
 - Clarification on whether "posteroinferior MI" should be evaluated as a distinct repurposing candidate or folded into reteplase's existing AMI indication
 
 **Note on a stronger alternate candidate:** among the 10 predictions in this evidence pack, **coronary stenosis** (rank 5, TxGNN score 99.62%) has materially stronger support — evidence level L3, decision stage S2, 6 literature references (including RCT/cohort data such as the SPEED/GUSTO-4 trial and GUSTO-V outcomes analysis), and a source recommendation of "Proceed with Guardrails." This candidate may warrant prioritization over the top-ranked but evidence-poor posteroinferior MI prediction.
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

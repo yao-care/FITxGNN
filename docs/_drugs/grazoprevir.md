@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Grazoprevir
-parent: 僅模型預測 (L5)
+parent: Kohtalainen näyttö (L3-L4)
 nav_order: 182
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Grazoprevir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -89,7 +89,7 @@ Nearly all the supporting evidence instead comes from studies of **HCV treatment
 
 ## Finland Market Information
 
-Grazoprevir currently has **no marketing authorization in Finland** (market status: 未上市 / Not Marketed; 0 authorizations on record). No product-level licensing data is available for this report.
+Grazoprevir currently has **no marketing authorization in Finland** (market status: Not marketed / Not Marketed; 0 authorizations on record). No product-level licensing data is available for this report.
 
 ## Safety Considerations
 
@@ -107,10 +107,10 @@ The predicted grazoprevir–HIV link lacks mechanistic plausibility (HCV NS3/4A 
 - Confirmed mechanism-of-action data for grazoprevir (DG002)
 - In vitro or preclinical evidence of any direct anti-HIV activity, if this signal is to be pursued further
 - Otherwise, this candidate should be deprioritized in favor of predicted indications with stronger mechanistic and evidentiary support
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

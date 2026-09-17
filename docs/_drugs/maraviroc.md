@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Maraviroc
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 241
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Maraviroc
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -84,10 +84,10 @@ Please refer to the package insert for safety information.
 - Preclinical or mechanistic studies specifically linking CCR5 signalling to endocrine neoplasia pathways before any further evaluation of this indication
 
 **Note on portfolio prioritization:** Among the 10 TxGNN-predicted indications for maraviroc in this evidence pack, **HER2-positive breast carcinoma** (rank 10, decision stage S1, "Research Question") has the strongest mechanistic support — a published preclinical study (PMID [32404410](https://pubmed.ncbi.nlm.nih.gov/32404410/)) shows autocrine CCL5-CCR5 signalling drives trastuzumab resistance via ERK pathway activation, suggesting CCR5 blockade could restore trastuzumab sensitivity. This candidate, rather than MEN, may warrant a dedicated follow-up evaluation.
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

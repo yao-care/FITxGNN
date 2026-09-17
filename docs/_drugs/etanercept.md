@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Etanercept
-parent: 僅模型預測 (L5)
+parent: Vahva näyttö (L1-L2)
 nav_order: 156
-evidence_level: L5
+evidence_level: L2
 indication_count: 6
 ---
 
 # Etanercept
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Näytön taso: **L2** | Ennustetut käyttöaiheet: **6** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -115,10 +115,10 @@ The only direct clinical trial in a vasculitis population (NCT00001901, Wegener'
 - TFDA package insert warnings/contraindications (currently a Blocking data gap; required before any S1 safety screening)
 - Confirmed mechanism of action documentation from DrugBank
 - A dedicated, adequately powered trial or controlled observational study in rheumatoid vasculitis patients that directly weighs the paradoxical vasculitis risk signal against any therapeutic benefit
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

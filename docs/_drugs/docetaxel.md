@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Docetaxel
-parent: 僅模型預測 (L5)
+parent: Vahva näyttö (L1-L2)
 nav_order: 125
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Docetaxel
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -59,7 +59,7 @@ Docetaxel is a taxane. It stabilizes microtubules and inhibits their depolymeriz
 
 The evidence pack's own repurposing rationale flags an important caveat: docetaxel (Taxotere) is a **currently approved chemotherapy for breast cancer** in most markets — this is not a typical "old drug, new disease" repurposing case. It appears here only because the `original_indications` field in this evidence pack is empty, so the model/scoring pipeline evaluated it as if breast cancer were an unconfirmed candidate. The very large number of completed Phase 3 trials below (including trials with >2,000–3,000 enrolled patients) reflects this: they are trials establishing/optimizing docetaxel's role in breast cancer treatment, not exploratory repurposing studies.
 
-Because no license or regulatory documentation exists in this pack for the Finland/Taiwan market ("未上市" / Not Marketed, 0 authorizations), the practical next step is regulatory confirmation rather than further mechanistic justification.
+Because no license or regulatory documentation exists in this pack for the Finland/Taiwan market ("Not marketed" / Not Marketed, 0 authorizations), the practical next step is regulatory confirmation rather than further mechanistic justification.
 
 ---
 
@@ -133,10 +133,10 @@ The evidence base is strong (L1: multiple completed Phase 3 RCTs, including tria
 - Confirmed drug interaction (DDI) data — current query returned no results
 - Verification of docetaxel's actual original/approved indication(s), since `original_indications` is empty in this pack
 - Clarification of local (Taiwan/Finland) market and licensing status before any "new indication" claim is made, since current status is Not Marketed with 0 authorizations
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

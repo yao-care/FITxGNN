@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Pravastatin
-parent: 僅模型預測 (L5)
+parent: Kohtalainen näyttö (L3-L4)
 nav_order: 307
-evidence_level: L5
+evidence_level: L3
 indication_count: 9
 ---
 
 # Pravastatin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **9** 個
+Näytön taso: **L3** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 9
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -110,10 +110,10 @@ The TxGNN score is high, but the direct evidence for pravastatin specifically in
 - Confirmed mechanism of action data for pravastatin — currently a **High** severity gap (DG002)
 - A pravastatin-specific study (or at minimum PK/PD data) in HoFH patients, given that HoFH typically requires PCSK9 inhibitors/ezetimibe/apheresis rather than statin monotherapy
 - Consider cross-referencing with the stronger, pravastatin-specific evidence available for heterozygous familial hypercholesterolemia (rank 6 in this evidence pack) when setting priorities
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

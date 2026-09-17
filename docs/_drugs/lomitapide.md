@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lomitapide
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 231
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Lomitapide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -85,10 +85,10 @@ The top-ranked predicted indication (macrothrombocytopenia with mitral valve ins
 - Verified DrugBank MOA record (DG002) to properly ground mechanistic-link analysis
 - A model/embedding-level audit of why TxGNN concentrates high scores on unrelated platelet/coagulation-disorder nodes for an MTP inhibitor
 - If pursuing lipid-adjacent extensions is of interest, evaluate label-adjacent conditions such as familial chylomicronemia syndrome (PMID 36152419) as an off-label extension review — not as a novel repurposing candidate from this prediction set
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

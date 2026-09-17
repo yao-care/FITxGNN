@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Cholic Acid
-parent: 中證據等級 (L3-L4)
+parent: Kohtalainen näyttö (L3-L4)
 nav_order: 101
 evidence_level: L4
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Cholic Acid
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **10** 個
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -45,7 +45,7 @@ Cholic acid（DrugBank ID: DB02659）在本證據包中未提供正式的原始�
 | 預測新適應症 | HIV infectious disease |
 | TxGNN 預測分數 | 99.79% |
 | 證據等級 | L4 |
-| 芬蘭市場狀態 | 未上市 |
+| 芬蘭市場狀態 | Not marketed |
 | 授權證號數量 | 0 |
 | 建議決策 | Hold |
 
@@ -83,7 +83,7 @@ Cholic acid（DrugBank ID: DB02659）在本證據包中未提供正式的原始�
 
 ## 芬蘭市場資訊
 
-Cholic acid 目前在芬蘭**未取得任何上市授權**（授權證號數量：0），市場狀態為「未上市」。
+Cholic acid 目前在芬蘭**未取得任何上市授權**（授權證號數量：0），市場狀態為「Not marketed」。
 
 ---
 
@@ -91,7 +91,7 @@ Cholic acid 目前在芬蘭**未取得任何上市授權**（授權證號數量�
 
 請參閱藥品仿單以取得安全性資訊。
 
-（本證據包之關鍵警語、禁忌症與藥物交互作用查詢均為「[Data Gap]」或「not_found」，且 meta.data_gaps 中 DG001「TFDA 仿單警語/禁忌」被標註為 **Blocking** 等級，直接影響安全性初評可否進行。）
+（本證據包之關鍵警語、禁忌症與藥物交互作用查詢均為「[Data Gap]」或「not_found」，且 meta.data_gaps 中 DG001「Fimea package insert warnings/contraindications」被標註為 **Blocking** 等級，直接影響安全性初評可否進行。）
 
 ---
 
@@ -107,10 +107,10 @@ Cholic acid 目前在芬蘭**未取得任何上市授權**（授權證號數量�
 - DrugBank 作用機轉（MOA）資料（解決 DG002）
 - 針對 HIV 感染症之直接體內/臨床藥效證據，以釐清 PMID 16610808 之負向發現是否具代表性
 - 補充建議：本證據包 rank 5（vitamin deficiency disorder）項目所附文獻與試驗（NCT03115086、PMID 35392794 等）實際指向 cholic acid 既有臨床用途「膽酸合成障礙」，其證據強度與相關性顯著優於 rank 1 之 HIV 適應症，建議評估團隊優先確認此適應症是否應納入正式老藥新用/新適應症擴充路徑評估
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

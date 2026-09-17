@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Vonicog Alfa
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 406
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Vonicog Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -129,10 +129,10 @@ The top-ranked candidate (Primary Release Disorder of Platelets) has no supporti
 - Disambiguate the "hemophilia" (rank 4) and "Von Willebrand disease, X-linked form" (rank 7) disease-entity labels against standard nomenclature — verify whether these represent real signals or ontology artifacts
 - If pursuing rank 3 (Pseudo-VWD), commission a dedicated mechanistic/safety review given the identified contraindication risk
 - No further action recommended on ranks 1, 2, 5, 6, 8, 9, 10 without new trial or literature evidence emerging
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

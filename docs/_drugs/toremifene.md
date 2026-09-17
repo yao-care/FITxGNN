@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Toremifene
-parent: 僅模型預測 (L5)
+parent: Kohtalainen näyttö (L3-L4)
 nav_order: 384
-evidence_level: L5
+evidence_level: L4
 indication_count: 1
 ---
 
 # Toremifene
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **1** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -33,7 +33,7 @@ indication_count: 1
 
 ## One-Sentence Summary
 
-Toremifene 是一種選擇性雌激素受體調節劑（SERM），原始適應症為乳癌治療（本證據包中原始 MOA 資料缺失，芬蘭市場狀態為未上市）。TxGNN 模型預測其對 **HIV 感染症** 可能有效，目前僅有 **0 篇臨床試驗** 與 **1 篇文獻** 支持此方向，且該文獻探討的是抗真菌機轉而非直接抗病毒機轉，證據強度薄弱。
+Toremifene 是一種選擇性雌激素受體調節劑（SERM），原始適應症為乳癌治療（本證據包中原始 MOA 資料缺失，芬蘭市場狀態為Not marketed）。TxGNN 模型預測其對 **HIV 感染症** 可能有效，目前僅有 **0 篇臨床試驗** 與 **1 篇文獻** 支持此方向，且該文獻探討的是抗真菌機轉而非直接抗病毒機轉，證據強度薄弱。
 
 ## Quick Overview
 
@@ -43,7 +43,7 @@ Toremifene 是一種選擇性雌激素受體調節劑（SERM），原始適應�
 | Predicted New Indication | HIV infectious disease |
 | TxGNN Prediction Score | 99.41% |
 | Evidence Level | L4 |
-| Finland Market Status | 未上市 |
+| Finland Market Status | Not marketed |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -67,7 +67,7 @@ Toremifene 與 HIV 感染症之間並無直接的抗病毒機轉關聯。唯一�
 
 ## Finland Market Information
 
-此藥品於芬蘭目前未上市（0 筆查驗登記），無授權資料可供列出。
+此藥品於芬蘭目前Not marketed（0 筆查驗登記），無授權資料可供列出。
 
 ## Cytotoxicity
 
@@ -95,10 +95,10 @@ Toremifene 與 HIV 感染症之間並無直接的抗病毒機轉關聯。唯一�
 - 補齊 Toremifene 完整作用機轉資料（DG002，High）
 - 釐清此適應症方向應定位為「抗 HIV 病毒治療」或「HIV 患者伺機性隱球菌感染輔助治療」，並據此重新檢索對應臨床試驗與文獻
 - 若後續方向確定為伺機性感染輔助治療，需補充與現有抗黴菌藥物（如 fluconazole、amphotericin B）併用之藥物交互作用資料
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Leflunomide
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 222
 evidence_level: L5
 indication_count: 2
@@ -10,12 +10,12 @@ indication_count: 2
 # Leflunomide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -47,7 +47,7 @@ Without a predicted indication to evaluate, this report documents the data gaps 
 | Predicted New Indication | None — TxGNN returned no predictions |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 (model prediction unavailable; no supporting studies) |
-| Market Status | Not marketed (未上市) |
+| Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | **Hold** |
 
@@ -98,10 +98,10 @@ The Evidence Pack returned no TxGNN predictions, and the two data gaps rated Hig
 - **Resolve DG001 (Safety)**: Download and parse the TFDA package insert PDF to extract warnings and contraindications; populate `key_warnings` and `contraindications` fields.
 - **Re-populate original_indications**: The TFDA package insert query (log ID 4) confirmed a result exists — extract the approved indication text and populate the field before the next evaluation cycle.
 - Once a predicted indication is available, regenerate this report using the full Evidence Pack template.
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

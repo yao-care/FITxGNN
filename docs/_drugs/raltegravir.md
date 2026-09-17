@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Raltegravir
-parent: 僅模型預測 (L5)
+parent: Kohtalainen näyttö (L3-L4)
 nav_order: 311
-evidence_level: L5
+evidence_level: L4
 indication_count: 3
 ---
 
 # Raltegravir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -103,10 +103,10 @@ The top-ranked prediction (FIV) sits at evidence level L4 with no genuine clinic
 - Direct feline pharmacokinetic, dosing, and safety data (no veterinary studies currently exist in this pack)
 - Correction of the clinical-trial knowledge-graph linkage that mismatched human HIV-1 trials to this feline indication
 - Consider prioritizing the better-supported related prediction — **Simian Immunodeficiency Virus Infection** (L3, "Research Question", 19 publications including direct animal efficacy data) — as a nearer-term research pathway before pursuing FIV directly
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Imatinib
-parent: 僅模型預測 (L5)
+parent: Kohtalainen näyttö (L3-L4)
 nav_order: 191
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Imatinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -119,10 +119,10 @@ The TxGNN score is high, but for this specific indication (heart fibrosarcoma) t
 - Detailed mechanism-of-action confirmation (currently a high-severity gap — DG002)
 - Case reports or preclinical data confirming PDGFR/KIT/BCR-ABL pathway activity specifically in cardiac fibrosarcoma
 - Consider re-evaluating the higher-evidence candidate in this same prediction set ("fibroblastic neoplasm"/DFSP, L2, Proceed with Guardrails) as a more actionable near-term repurposing target
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

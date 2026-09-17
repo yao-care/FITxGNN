@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Baricitinib
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 62
 evidence_level: L5
 indication_count: 2
@@ -10,12 +10,12 @@ indication_count: 2
 # Baricitinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -91,10 +91,10 @@ The Evidence Pack is structurally incomplete — TxGNN predictions are absent an
 - **[Required]** Run the TxGNN model for DB11817 to generate ranked predicted indications; without `predicted_indications`, no repurposing target can be evaluated
 - **[Required]** Re-run the evidence collection pipeline (clinical trials, literature) once a predicted indication is confirmed
 - **[Optional]** Verify Finland EMA/Fimec authorization status via the national medicines database for any recent approvals not captured in this query cycle
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

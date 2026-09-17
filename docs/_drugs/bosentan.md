@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Bosentan
-parent: 僅模型預測 (L5)
+parent: Kohtalainen näyttö (L3-L4)
 nav_order: 73
-evidence_level: L5
+evidence_level: L4
 indication_count: 9
 ---
 
 # Bosentan
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **9** 個
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 9
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -110,10 +110,10 @@ The rheumatoid arthritis prediction rests on preclinical arthritis-model mechani
 - Confirmed mechanism of action documentation (DG002)
 - An RA-specific interventional trial or translational study, since the only registered trial targets a different disease (GCA)
 - Consider re-prioritizing evaluation resources toward **limited systemic sclerosis** (rank 3 in this evidence pack), which shows materially stronger evidence — an SSc-matched observational trial, a systematic review/meta-analysis (PMID 36974107), and mechanistic in vitro data on endothelin-driven fibrosis — and is already scored L2/S3 ("Proceed with Guardrails") rather than L4/Hold
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

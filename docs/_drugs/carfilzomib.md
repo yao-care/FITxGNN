@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Carfilzomib
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 90
 evidence_level: L5
 indication_count: 5
@@ -10,12 +10,12 @@ indication_count: 5
 # Carfilzomib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -112,10 +112,10 @@ The CMM7 prediction is supported only by a TxGNN model score (L5, S0) with zero 
 - Preclinical or mechanistic studies directly linking proteasome inhibition to POT1-mutant/CMM7 melanoma biology
 - Any real-world or observational signal (even off-label) connecting carfilzomib to familial melanoma subtypes
 - Finland market/regulatory pathway assessment, given the drug is not currently marketed there
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

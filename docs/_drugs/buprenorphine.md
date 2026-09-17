@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Buprenorphine
-parent: 僅模型預測 (L5)
+parent: Kohtalainen näyttö (L3-L4)
 nav_order: 82
-evidence_level: L5
+evidence_level: L4
 indication_count: 6
 ---
 
 # Buprenorphine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **6** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -101,10 +101,10 @@ The top-ranked prediction (Acute Intermittent Porphyria) rests on a single 1993 
 - TFDA/Fimea package insert warnings and contraindications — currently a Blocking gap (DG001)
 - Dedicated preclinical or mechanistic studies linking opioid receptor activity to heme biosynthesis/porphyria pathophysiology
 - Any prospective clinical data (even observational) specifically evaluating buprenorphine as an AIP treatment, rather than as an incidental anesthetic choice
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

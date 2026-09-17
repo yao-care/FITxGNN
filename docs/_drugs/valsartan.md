@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Valsartan
-parent: 僅模型預測 (L5)
+parent: Kohtalainen näyttö (L3-L4)
 nav_order: 396
-evidence_level: L5
+evidence_level: L4
 indication_count: 7
 ---
 
 # Valsartan
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **7** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -85,10 +85,10 @@ Evidence level is L4 (mechanism/analogous evidence only), there are no clinical 
 - Official mechanism of action (MOA) data from DrugBank
 - Package insert-derived warnings/contraindications — this is currently a **Blocking** data gap (DG001) that must be resolved before any S1 safety review
 - Note: within this same evidence pack, a lower-ranked candidate — **chronic pulmonary heart disease** (rank 6, score 99.58%) — carries substantially stronger evidence (L1, multiple completed Phase 3/4 RCTs of sacubitril/valsartan in heart failure populations) and may warrant separate, higher-priority evaluation.
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

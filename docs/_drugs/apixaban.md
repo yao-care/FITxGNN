@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Apixaban
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 36
 evidence_level: L5
 indication_count: 1
@@ -10,12 +10,12 @@ indication_count: 1
 # Apixaban
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -51,7 +51,7 @@ This report is a triage placeholder; a full repurposing evaluation cannot procee
 | Predicted New Indication | None identified |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | — (no predictions to evaluate) |
-| Taiwan Market Status | 未上市 (Not marketed) |
+| Taiwan Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | **Hold** |
 
@@ -95,10 +95,10 @@ Two unresolved data gaps — one Blocking (DG001: TFDA package insert safety dat
 - [ ] **Resolve DG002 (High)**: Query DrugBank API for Apixaban's mechanism of action (Factor Xa inhibition pathway) and populate `original_moa`
 - [ ] **Populate `original_indications`**: Add the approved indication list (e.g., stroke prevention in non-valvular AFib, VTE treatment/prophylaxis) to provide TxGNN with correct graph anchor nodes
 - [ ] **Re-run DDI query**: The DDI lookup returned `not_found`; verify whether this reflects a true absence of interaction data or a query failure
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

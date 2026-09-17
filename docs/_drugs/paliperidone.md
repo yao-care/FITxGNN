@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Paliperidone
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 280
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Paliperidone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -111,10 +111,10 @@ This prediction lacks any mechanistic rationale, clinical trial support, or rele
 - TFDA package insert (warnings, contraindications) and DDI data (DG001, Blocking)
 - Confirmed original indication and mechanism of action from DrugBank (DG002, High)
 - If further repurposing work on this drug is desired, redirect evaluation toward **treatment-refractory schizophrenia** (rank 10 in this same evidence pack), which has an L2 evidence level, a completed Phase 4 real-world study (NCT01860781), and a directly plausible mechanism — a substantially stronger candidate than the top-ranked prediction above.
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

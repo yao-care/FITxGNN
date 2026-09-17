@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Romiplostim
-parent: 僅模型預測 (L5)
+parent: Kohtalainen näyttö (L3-L4)
 nav_order: 332
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Romiplostim
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -106,10 +106,10 @@ The predicted indication is supported only by a mechanistic rationale (TPO-recep
 - Fimea/TFDA-equivalent package insert warnings and contraindications (Blocking gap — required before any safety pre-assessment)
 - A direct interventional study (preclinical or clinical) of romiplostim specifically in primary release disorder of platelets, rather than general ITP populations
 - Reassessment of other TxGNN-predicted indications in this pack with stronger direct evidence — notably "platelet-type bleeding disorder" (rank 8), which has a completed Phase 3 RCT (NCT03362177) and evidence level L2, and may warrant separate evaluation
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

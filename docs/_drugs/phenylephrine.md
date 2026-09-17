@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Phenylephrine
-parent: 僅模型預測 (L5)
+parent: Kohtalainen näyttö (L3-L4)
 nav_order: 296
-evidence_level: L5
+evidence_level: L3
 indication_count: 3
 ---
 
 # Phenylephrine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Näytön taso: **L3** | Ennustetut käyttöaiheet: **3** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -44,7 +44,7 @@ The TxGNN model predicts it may be effective for **Nasal Cavity Disease**, with 
 | Predicted New Indication | Nasal Cavity Disease |
 | TxGNN Prediction Score | 99.97% (rank 534) |
 | Evidence Level | L3 |
-| Finland Market Status | 未上市 (Not marketed) |
+| Finland Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -84,7 +84,7 @@ Given the absence of both a documented original indication and TFDA/national pac
 
 ## Finland Market Information
 
-Phenylephrine currently has no marketing authorization on record in Finland (market status: 未上市 / Not marketed; 0 authorizations). No product-level license data is available to summarize.
+Phenylephrine currently has no marketing authorization on record in Finland (market status: Not marketed / Not marketed; 0 authorizations). No product-level license data is available to summarize.
 
 ## Safety Considerations
 
@@ -102,10 +102,10 @@ The predicted indication is consistent with phenylephrine's established α1-agon
 - Confirmed drug mechanism-of-action documentation from DrugBank (DG002)
 - A direct phenylephrine-monotherapy trial or systematic review against a defined nasal cavity disease endpoint (current evidence is mostly indirect/comparator-based)
 - Confirmation of Finland marketing-authorization status, since none currently exists
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

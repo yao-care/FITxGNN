@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Natalizumab
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 256
 evidence_level: L5
 indication_count: 5
@@ -10,12 +10,12 @@ indication_count: 5
 # Natalizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -65,7 +65,7 @@ Currently no related literature available
 
 ## Finland Market Information
 
-Natalizumab is not currently marketed in Finland (market status: 未上市, 0 authorizations on record). No product license data is available for this candidate.
+Natalizumab is not currently marketed in Finland (market status: Not marketed, 0 authorizations on record). No product license data is available for this candidate.
 
 ## Safety Considerations
 
@@ -83,10 +83,10 @@ The bronchitis prediction has no clinical trial or literature support (L5, model
 - Confirmed mechanism of action from DrugBank — DG002
 - Preclinical or in vitro evidence linking α4-integrin blockade to bronchitis pathophysiology, since none currently exists
 - If further candidates from this same drug are pursued, prioritize psoriasis (L4, 19 publications) for review instead — though note the existing literature there points toward an adverse (disease-inducing) relationship rather than a therapeutic one, so it would also require careful reframing before advancing
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

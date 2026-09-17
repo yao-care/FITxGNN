@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Albutrepenonacog Alfa
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 21
 evidence_level: L5
 indication_count: 6
@@ -10,12 +10,12 @@ indication_count: 6
 # Albutrepenonacog Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -45,7 +45,7 @@ Albutrepenonacog alfa is a recombinant Factor IX–albumin fusion protein, origi
 | Predicted New Indication | Pseudo-von Willebrand disease |
 | TxGNN Prediction Score | 99.94% (rank 878 among model predictions) |
 | Evidence Level | L5 |
-| Finland Market Status | ✗ Not marketed (未上市) |
+| Finland Market Status | ✗ Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | **Hold** |
 
@@ -75,7 +75,7 @@ Currently no related literature available.
 
 ## Finland Market Information
 
-The drug is currently **not marketed** in Finland (`market_status: 未上市`, `total_licenses: 0`), and no authorization records are available in the evidence pack.
+The drug is currently **not marketed** in Finland (`market_status: Not marketed`, `total_licenses: 0`), and no authorization records are available in the evidence pack.
 
 ---
 
@@ -99,10 +99,10 @@ The predicted indication is supported only by a TxGNN model score with no corrob
 - Confirmed mechanism of action data for albutrepenonacog alfa
 - Preclinical or translational studies directly testing Factor IX supplementation in platelet-receptor-defect bleeding disorders, to establish biological plausibility before further investment
 - Re-screening of TxGNN output to distinguish genuine mechanistic candidates from phenotype-clustering artifacts (given 6 similarly-scored, similarly-weak platelet-disorder predictions)
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

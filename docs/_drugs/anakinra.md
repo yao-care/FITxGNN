@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Anakinra
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 30
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Anakinra
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -86,10 +86,10 @@ The top-ranked TxGNN prediction (extracutaneous mastocytoma) has no clinical tri
 **Note on alternative candidates:** Within this same evidence pack, two other TxGNN-predicted indications for anakinra show substantially stronger support and may warrant separate, prioritized evaluation:
 - **Autosomal recessive Familial Mediterranean Fever** (L3, Proceed with Guardrails) — 20 literature results, including reports of anakinra use in colchicine-resistant patients, consistent with anakinra's established IL-1-blocking mechanism.
 - **Pyogenic autoinflammatory syndrome (PAPA/PSTPIP1-spectrum)** (L3, Proceed with Guardrails) — 19 literature results directly describing anakinra treatment in PAPA/PAPASH, mechanistically well aligned with IL-1β overproduction.
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

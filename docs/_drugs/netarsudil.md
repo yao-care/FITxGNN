@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Netarsudil
-parent: 僅模型預測 (L5)
+parent: Kohtalainen näyttö (L3-L4)
 nav_order: 260
-evidence_level: L5
+evidence_level: L4
 indication_count: 2
 ---
 
 # Netarsudil
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **2** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -73,7 +73,7 @@ Currently no related literature available specific to primary hereditary glaucom
 
 ## Finland Market Information
 
-Netarsudil is not currently marketed in Finland (market status: 未上市 / Not Marketed; 0 authorizations on record), so no product/authorization table is available.
+Netarsudil is not currently marketed in Finland (market status: Not marketed / Not Marketed; 0 authorizations on record), so no product/authorization table is available.
 
 ## Safety Considerations
 
@@ -91,10 +91,10 @@ The rank-1 TxGNN prediction (primary hereditary glaucoma) currently rests on a s
 - Confirmed mechanism-of-action documentation from DrugBank (currently a data gap)
 - A trial or study directly assessing IOP efficacy in genetically confirmed primary hereditary glaucoma, rather than extrapolation from general open-angle glaucoma data
 - Drug-drug interaction (DDI) data, currently not found
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

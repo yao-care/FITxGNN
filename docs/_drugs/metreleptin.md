@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Metreleptin
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 248
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Metreleptin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -98,10 +98,10 @@ The predicted indication rests on evidence level L5 (model prediction only) with
 - Confirmation of metreleptin's original approved indication(s), currently absent from the dataset
 - Independent mechanistic or preclinical evidence linking leptin signaling to familial generalized lentiginosis before any further investment in this candidate
 - If pursuing other ranked candidates (rhabdoid tumor, peripheral nerve schwannoma), directional risk should be clarified first, since leptin agonism may plausibly promote rather than inhibit tumor growth in these contexts
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

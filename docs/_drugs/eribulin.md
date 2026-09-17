@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Eribulin
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 154
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Eribulin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -41,11 +41,11 @@ Eribulin（DB08871）為國際上已核准用於轉移性乳癌與無法切除�
 
 | Item | Content |
 |------|------|
-| Original Indication | 台灣尚未查得核准適應症（未上市）；國際已知核准適應症為轉移性乳癌、無法切除之脂肪肉瘤 |
+| Original Indication | 台灣尚未查得核准適應症（Not marketed）；國際已知核准適應症為轉移性乳癌、無法切除之脂肪肉瘤 |
 | Predicted New Indication（證據最強候選） | Fibroblastic Neoplasm（孤立性纖維瘤，Solitary Fibrous Tumor） |
 | TxGNN Prediction Score | 99.36%（rank 8／全模型 6,643 名） |
 | Evidence Level | L3（1 項已完成非隨機 Phase II 臨床試驗 + 多篇臨床前／回顧文獻） |
-| 台灣上市狀態 | 未上市 |
+| 台灣上市狀態 | Not marketed |
 | 查驗登記許可證數 | 0 |
 | Recommended Decision | Hold |
 
@@ -107,7 +107,7 @@ Fibroblastic neoplasm（尤其是孤立性纖維瘤 SFT）與 eribulin 原始核
 
 ## Finland / 台灣市場資訊
 
-目前台灣尚未有 eribulin 之查驗登記許可證（未上市，0 張），無可列示之核准劑型與適應症資料。
+目前台灣尚未有 eribulin 之查驗登記許可證（Not marketed，0 張），無可列示之核准劑型與適應症資料。
 
 ---
 
@@ -136,17 +136,17 @@ Eribulin 屬於化學治療用之細胞毒性抗腫瘤藥物（微管抑制劑�
 **Decision: Hold**
 
 **Rationale:**
-TFDA 仿單警語／禁忌資料為 Blocking 等級缺口（DG001），依規範無法完成 S1 安全性初評；且本藥於台灣尚未上市（0 張許可證）。雖然 Fibroblastic Neoplasm（孤立性纖維瘤）候選有 1 項已完成之 Phase II 臨床試驗與多篇機轉支持文獻，證據等級達 L3，但其餘 9 個預測適應症證據薄弱，多為模型單獨預測（L5），其中評分最高之 FMF 已被證據包本身標記為機轉不合理之假陽性，不應優先投入資源。
+TFDA 仿單警語／禁忌資料為 Blocking 等級缺口（DG001），依規範無法完成 S1 安全性初評；且本藥於台灣尚Not marketed（0 張許可證）。雖然 Fibroblastic Neoplasm（孤立性纖維瘤）候選有 1 項已完成之 Phase II 臨床試驗與多篇機轉支持文獻，證據等級達 L3，但其餘 9 個預測適應症證據薄弱，多為模型單獨預測（L5），其中評分最高之 FMF 已被證據包本身標記為機轉不合理之假陽性，不應優先投入資源。
 
 **To proceed, the following is needed:**
 - 補齊 TFDA 仿單解析資料（DG001，Blocking）以完成 S1 安全性初評
 - 補齊 DrugBank MOA 結構化資料（DG002）以強化機轉關聯性分析
 - 追蹤 NCT03840772（ERASING study）正式發表結果，確認 SFT 適應症之療效訊號
 - 針對 L5 等級候選（FMF、間皮瘤系列、pleural adenomatoid tumor）建議降低優先序或排除，避免資源錯置
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

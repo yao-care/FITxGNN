@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Tasimelteon
-parent: 僅模型預測 (L5)
+parent: Vahva näyttö (L1-L2)
 nav_order: 358
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Tasimelteon
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -110,10 +110,10 @@ A completed Phase 3, placebo-controlled RCT (n=322) directly supports efficacy f
 - Formal DrugBank mechanism-of-action record to replace the literature-derived MOA used here
 - Results of the ongoing pediatric Phase 3 trial (NCT06953869, expected completion 2028-01)
 - Note: the other 9 TxGNN-predicted indications in this pack (including the top-scored polymicrogyria prediction) have no clinical trial or literature support and remain at Hold — no further action recommended on those without new evidence.
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Zidovudine
-parent: 僅模型預測 (L5)
+parent: Vahva näyttö (L1-L2)
 nav_order: 411
-evidence_level: L5
+evidence_level: L1
 indication_count: 6
 ---
 
 # Zidovudine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Näytön taso: **L1** | Ennustetut käyttöaiheet: **6** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -133,10 +133,10 @@ The clinical evidence base for zidovudine in preventing congenital/perinatal HIV
 - Clarification of true original approved indication(s), since `original_indications` is currently empty in source data
 - Regulatory pathway assessment for Finland market entry (new MA application or import route), given 0 current licenses
 - Confirmation that the "new indication" framing (PMTCT-specific) offers meaningful clinical/regulatory differentiation from AZT's existing antiretroviral use before committing further repurposing resources
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Icatibant
-parent: 僅模型預測 (L5)
+parent: Vahva näyttö (L1-L2)
 nav_order: 186
-evidence_level: L5
+evidence_level: L1
 indication_count: 7
 ---
 
 # Icatibant
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+Näytön taso: **L1** | Ennustetut käyttöaiheet: **7** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -99,7 +99,7 @@ Because "C1 inhibitor deficiency" is the pathophysiological label for the same d
 
 ## Finland Market Information
 
-Icatibant currently holds **no marketing authorization in Finland** (`market_status: 未上市`, `total_licenses: 0`). No product-level licensing data is available to summarize.
+Icatibant currently holds **no marketing authorization in Finland** (`market_status: Not marketed`, `total_licenses: 0`). No product-level licensing data is available to summarize.
 
 ---
 
@@ -125,10 +125,10 @@ Efficacy evidence is strong and consistent — three completed Phase 3 RCTs plus
 - Assess the Finland regulatory pathway (e.g., mutual recognition/decentralized procedure) given icatibant is already approved elsewhere in the EU and Asia-Pacific for this same indication
 
 *Note: Ranks 2–7 in this evidence pack (serpinopathy, pseudo-von Willebrand disease, primary platelet release disorder, immune-mediated necrotizing myopathy, antisynthetase syndrome, Glanzmann thrombasthenia) all scored L5/S0/Hold — no clinical trials, no literature, and weak-to-absent mechanistic links per the model's own rationale — and are not recommended for further evaluation.*
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

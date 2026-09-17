@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Ranibizumab
-parent: 僅模型預測 (L5)
+parent: Vahva näyttö (L1-L2)
 nav_order: 313
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Ranibizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -49,7 +49,7 @@ Using the report-writing instructions in the prompt directly (no additional skil
 | Predicted New Indication | Severe Nonproliferative Diabetic Retinopathy |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L1 |
-| Finland Market Status | ✗ Not Marketed (未上市) |
+| Finland Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -97,7 +97,7 @@ Notably, the clinical trial and literature evidence retrieved for this candidate
 
 ## Finland Market Information
 
-Ranibizumab is currently **not marketed** in Finland per this evidence pack (`market_status`: 未上市, `total_licenses`: 0). No authorization records are available.
+Ranibizumab is currently **not marketed** in Finland per this evidence pack (`market_status`: Not marketed, `total_licenses`: 0). No authorization records are available.
 
 ---
 
@@ -123,10 +123,10 @@ Please refer to the package insert for safety information.
 - Drug interaction (DDI) data, as the current query returned no results
 - Regulatory pathway assessment for Finland market entry, given zero existing local authorizations
 - Formal classification (study type / tier / relevance) of the currently "pending" clinical trial and literature records
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

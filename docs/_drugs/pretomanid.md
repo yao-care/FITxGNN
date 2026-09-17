@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Pretomanid
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 309
 evidence_level: L5
 indication_count: 5
@@ -10,12 +10,12 @@ indication_count: 5
 # Pretomanid
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -65,7 +65,7 @@ Currently no related literature available
 
 ## Finland Market Information
 
-Pretomanid holds no local marketing authorization in this market (`market_status: 未上市`, `total_licenses: 0`), so no authorization records are available to list.
+Pretomanid holds no local marketing authorization in this market (`market_status: Not marketed`, `total_licenses: 0`), so no authorization records are available to list.
 
 ## Safety Considerations
 
@@ -85,10 +85,10 @@ The TxGNN score is high, but there is zero clinical or literature evidence for c
 - Confirmed MOA data via DrugBank API to resolve DG002
 - In vitro/in vivo antifungal activity data for pretomanid against *Candida*, since none currently exists
 - For reference, the next-ranked prediction (leprosy, L4) has actual trial/literature coverage but is also contradicted by direct in vitro evidence (PMID 17005816) showing *M. leprae* is naturally resistant to PA-824 — so it is not a stronger candidate either. Ranks 3–5 (coronary artery disease, myocardial ischemia, anomalous coronary artery) have no mechanistic basis and no evidence, and should be treated as low-priority model noise.
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

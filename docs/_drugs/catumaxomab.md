@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Catumaxomab
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 93
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Catumaxomab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -45,7 +45,7 @@ Catumaxomab (DrugBank ID: DB06607) is a trifunctional anti-EpCAM × anti-CD3 bis
 | Predicted New Indication | Severe Nonproliferative Diabetic Retinopathy |
 | TxGNN Prediction Score | 99.64% (rank 4336) |
 | Evidence Level | L5 |
-| Finland Market Status | 未上市 (Not Marketed) |
+| Finland Market Status | Not marketed (Not Marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -110,10 +110,10 @@ This candidate has evidence level L5 — model prediction only, with zero suppor
 - Package insert / regulatory label data (warnings, contraindications) to clear the Blocking safety gap (DG001)
 - Confirmed mechanism of action from DrugBank to properly assess mechanistic plausibility (DG002)
 - Emergence of preclinical, mechanistic, or clinical evidence specifically linking EpCAM×CD3-directed T-cell engagement to diabetic retinopathy pathology before this candidate can be re-scored above L5
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

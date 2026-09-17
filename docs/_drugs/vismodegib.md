@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Vismodegib
-parent: 僅模型預測 (L5)
+parent: Vahva näyttö (L1-L2)
 nav_order: 405
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Vismodegib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -41,11 +41,11 @@ Vismodegib (DrugBank DB08828) is currently **not marketed** in this jurisdiction
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — no marketing authorizations on file (untuk market: 未上市) |
+| Original Indication | Not available — no marketing authorizations on file (untuk market: Not marketed) |
 | Predicted New Indication | Skin Cancer (Basal Cell Carcinoma) |
 | TxGNN Prediction Score | 99.82% |
 | Evidence Level | L2 |
-| Finland Market Status | 未上市 (Not Marketed) |
+| Finland Market Status | Not marketed (Not Marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -97,7 +97,7 @@ Separately, the model's top-ranked candidate overall, medulloblastoma with exten
 
 ## Finland Market Information
 
-Vismodegib currently has no marketing authorizations on file in this market (market status: 未上市 / Not Marketed; 0 licenses recorded).
+Vismodegib currently has no marketing authorizations on file in this market (market status: Not marketed / Not Marketed; 0 licenses recorded).
 
 ---
 
@@ -132,10 +132,10 @@ Vismodegib's mechanistic and clinical link to skin cancer (BCC) is well establis
 - Local drug-drug interaction (DDI) data — current query returned no results
 - Formal regulatory pathway assessment given zero current market authorizations
 - Independent literature/trial search for the top-ranked but currently unevidenced candidate (medulloblastoma with extensive nodularity) before it can be scored beyond L5/Research Question
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

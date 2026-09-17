@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Risperidone
-parent: 僅模型預測 (L5)
+parent: Vahva näyttö (L1-L2)
 nav_order: 328
-evidence_level: L5
+evidence_level: L1
 indication_count: 6
 ---
 
 # Risperidone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Näytön taso: **L1** | Ennustetut käyttöaiheet: **6** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -118,10 +118,10 @@ Major Affective Disorder is the only predicted indication in this pack reaching 
 - Local market/registration status confirmation (currently 0 licenses on file — verify if this reflects an actual regulatory gap)
 - Formal DDI review (current query returned "not_found")
 - Manual review of the 27 additional "pending"-graded trials in this dataset for relevance classification
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

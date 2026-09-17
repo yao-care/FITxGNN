@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Efmoroctocog Alfa
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 136
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Efmoroctocog Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -97,10 +97,10 @@ The top-ranked prediction (pseudo-von Willebrand disease) has a high TxGNN score
 - Resolve high-priority data gap DG002 (confirmed mechanism of action) to properly assess mechanistic plausibility
 - Confirm the drug's original approved indication(s), which are currently absent from this evidence pack
 - If pursuing repurposing further, consider prioritizing the two L4 candidates instead — **acquired coagulation factor deficiency** (rank 5) and **hemophilia A with vascular abnormality** (rank 9) — both flagged in this pack as "Research Question" with a direct, plausible mechanistic link to Factor VIII replacement, unlike the current top-ranked candidate
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

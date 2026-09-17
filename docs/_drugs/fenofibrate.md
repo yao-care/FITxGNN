@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Fenofibrate
-parent: 僅模型預測 (L5)
+parent: Kohtalainen näyttö (L3-L4)
 nav_order: 162
-evidence_level: L5
+evidence_level: L4
 indication_count: 7
 ---
 
 # Fenofibrate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **7** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -88,7 +88,7 @@ The repurposing rationale captured in the evidence pack states this explicitly: 
 
 ## Finland Market Information
 
-Fenofibrate currently holds **0 marketing authorizations** in Finland and is not on the market (`market_status: 未上市`). No product/license records are available in the evidence pack.
+Fenofibrate currently holds **0 marketing authorizations** in Finland and is not on the market (`market_status: Not marketed`). No product/license records are available in the evidence pack.
 
 ---
 
@@ -111,10 +111,10 @@ Please refer to the package insert for safety information. Key warnings, contrai
 - Obtain confirmed mechanism-of-action data (DG002) to properly assess mechanistic plausibility for HoFH
 - Consider evaluating the rank-2 candidate ("hyperlipoproteinemia," L1 evidence, 34 clinical trials) instead, or as an interim path, since it reflects fenofibrate's already-established use rather than a novel, mechanistically unsupported indication
 - If HoFH remains of interest, seek preclinical or mechanistic studies directly testing fenofibrate (or fenofibrate + statin/PCSK9i combination) in LDL-receptor-deficient models before further clinical consideration
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

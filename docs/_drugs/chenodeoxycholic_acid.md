@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Chenodeoxycholic Acid
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 100
 evidence_level: L5
 indication_count: 5
@@ -10,12 +10,12 @@ indication_count: 5
 # Chenodeoxycholic Acid
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -49,7 +49,7 @@ Using the drug-repurposing evaluation report template to generate this report fr
 | Predicted New Indication | Homozygous Familial Hypercholesterolemia |
 | TxGNN Prediction Score | 99.57% |
 | Evidence Level | L5 (model prediction only for this indication; the sole related publication concerns a different, mechanistically adjacent disease) |
-| Finland Market Status | Not Marketed (未上市) |
+| Finland Market Status | Not Marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -73,7 +73,7 @@ Currently no related clinical trials registered
 
 ## Finland Market Information
 
-Chenodeoxycholic acid is not currently marketed in Finland — `taiwan_regulatory.market_status` is "未上市" (Not Marketed) with 0 registered authorizations, so no authorization/product table is available.
+Chenodeoxycholic acid is not currently marketed in Finland — `taiwan_regulatory.market_status` is "Not marketed" (Not Marketed) with 0 registered authorizations, so no authorization/product table is available.
 
 ## Safety Considerations
 
@@ -93,10 +93,10 @@ There are no clinical trials for this predicted indication, no Taiwan/Finland ma
 - DrugBank/MOA detail on CDCA's mechanism relevant to lipid metabolism — resolves gap DG002
 - Dedicated clinical or preclinical studies of CDCA specifically in HoFH or related dyslipidemia populations
 - DDI data query resolution (current status: not found)
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

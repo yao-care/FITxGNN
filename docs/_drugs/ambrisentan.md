@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Ambrisentan
-parent: 僅模型預測 (L5)
+parent: Vahva näyttö (L1-L2)
 nav_order: 26
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Ambrisentan
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -194,10 +194,10 @@ One point worth flagging explicitly: the pack's own data-gap log records the **T
 - Manually verify whether NCT00709956 (iloprost crossover trial) actually enrolled an HIV-PAH-specific subpopulation, since the current summary is ambiguous
 - Run a formal DDI screen for ambrisentan against antiretroviral regimens before advancing the HIV-PAH indication further
 - Obtain route/formulation compatibility data (currently "pending" for all 10 predictions) to confirm the existing oral tablet meets requirements for pediatric CHD-PAH use
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

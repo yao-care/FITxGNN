@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tadalafil
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 355
 evidence_level: L5
 indication_count: 8
@@ -10,12 +10,12 @@ indication_count: 8
 # Tadalafil
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **8** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -45,7 +45,7 @@ indication_count: 8
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
 | TxGNN Prediction Score | 99.98% |
 | Evidence Level | L5 (model prediction only, no supporting studies) |
-| Finland Market Status | Not marketed (未上市) |
+| Finland Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -94,10 +94,10 @@ The top-ranked prediction (Ambras type hypertrichosis) has zero clinical trials,
 - Obtain confirmed original MOA and original indication data from DrugBank (DG002) to properly ground any repurposing rationale
 - If pursuing further, redirect evaluation toward the more mechanistically defensible candidate — kyphoscoliotic heart disease / Group 3 PH — rather than the top TxGNN-ranked but unsupported hypertrichosis prediction
 - Treat the migraine-aura literature signal as a pharmacovigilance flag for existing tadalafil use, not a repurposing opportunity
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

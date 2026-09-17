@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Alglucosidase Alfa
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 22
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Alglucosidase Alfa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -45,7 +45,7 @@ Alglucosidase alfa is a recombinant human acid α-glucosidase (rhGAA) enzyme rep
 | Predicted New Indication | Adult Polyglucosan Body Disease |
 | TxGNN Prediction Score | 99.47% |
 | Evidence Level | L5 |
-| Finland Market Status | ✗ Not marketed (未上市) |
+| Finland Market Status | ✗ Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -100,10 +100,10 @@ The evidence level is L5 — a model prediction with zero corroborating clinical
 - Case-level or preclinical evidence specifically for patients with overlapping GAA mutations in adult polyglucosan body disease, rather than reliance on disease-category similarity
 - Reassessment of whether GBE1-directed (rather than GAA-directed) therapeutic strategies are more appropriate targets for this indication
 - Clarification of any regulatory pathway or market intent for Finland, given the drug is currently unmarketed there
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ropeginterferon Alfa-2B
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 333
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Ropeginterferon Alfa-2B
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -43,7 +43,7 @@ Ropeginterferon alfa-2b's original approved indication and mechanism of action a
 | Predicted New Indication | Laubry-Pezzi syndrome |
 | TxGNN Prediction Score | 99.93% |
 | Evidence Level | L5 |
-| Finland Market Status | ✗ Not marketed (未上市) |
+| Finland Market Status | ✗ Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -83,10 +83,10 @@ All 10 top-ranked TxGNN predictions for this drug are Evidence Level L5 (model p
 - DrugBank-confirmed mechanism of action and original indication (DG002)
 - Correction of the disease-ontology label for rank 6 ("disorder of fucoglycosan synthesis") and a re-run of clinical trial/literature search specifically against **polycythemia vera**, since the attached literature strongly suggests this is the real signal being surfaced
 - Re-evaluation of ranks 1–5 and 7–10 only if independent mechanistic evidence emerges; as presented, these do not warrant further investment
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

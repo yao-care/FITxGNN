@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Golimumab
-parent: 中證據等級 (L3-L4)
+parent: Kohtalainen näyttö (L3-L4)
 nav_order: 180
 evidence_level: L4
 indication_count: 5
@@ -10,12 +10,12 @@ indication_count: 5
 # Golimumab
 {: .fs-9 }
 
-證據等級: **L4** | 預測適應症: **5** 個
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **5** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -33,7 +33,7 @@ indication_count: 5
 
 ## 一句話總結
 
-Golimumab（DrugBank DB06674）是一種全人源抗TNF-α單株抗體，文獻資料顯示其原始核准適應症為類風濕性關節炎（RA）、乾癬性關節炎（PsA）與僵直性脊椎炎（AS）等發炎性關節疾病；台灣官方適應症全文因未上市而無資料。TxGNN模型預測其可能對**Rheumatoid Vasculitis（類風濕性血管炎）**有效，目前僅有**3項臨床試驗**與**6篇文獻**支持，且證據等級偏弱（L4），文獻中同時存在anti-TNF誘發血管炎的矛盾安全性訊號。
+Golimumab（DrugBank DB06674）是一種全人源抗TNF-α單株抗體，文獻資料顯示其原始核准適應症為類風濕性關節炎（RA）、乾癬性關節炎（PsA）與僵直性脊椎炎（AS）等發炎性關節疾病；台灣官方適應症全文因Not marketed而無資料。TxGNN模型預測其可能對**Rheumatoid Vasculitis（類風濕性血管炎）**有效，目前僅有**3項臨床試驗**與**6篇文獻**支持，且證據等級偏弱（L4），文獻中同時存在anti-TNF誘發血管炎的矛盾安全性訊號。
 
 > 補充說明：本Evidence Pack中TxGNN共預測5項適應症，其中排名第3（inflammatory spondylopathy）與第5（polyarticular juvenile rheumatoid arthritis）證據等級達L1，但這兩者實質上是golimumab既有核准適應症的延伸族群，而非真正意義上的老藥新用；排名第2、第4（尾骨過度活動、Kummell氏病）則缺乏任何機轉或臨床證據支持，判定為模型層級偽陽性。本報告依格式規範聚焦於排名第1之預測結果。
 
@@ -41,11 +41,11 @@ Golimumab（DrugBank DB06674）是一種全人源抗TNF-α單株抗體，文獻�
 
 | 項目 | 內容 |
 |------|------|
-| 原始適應症 | 資料缺口（台灣未上市，無官方適應症全文；依文獻，golimumab已知核准用於RA、PsA、AS） |
+| 原始適應症 | 資料缺口（台灣Not marketed，無官方適應症全文；依文獻，golimumab已知核准用於RA、PsA、AS） |
 | 預測新適應症 | Rheumatoid Vasculitis |
 | TxGNN預測分數 | 99.73%（rank 3425） |
 | 證據等級 | L4 |
-| 台灣市場狀態 | ✗ 未上市 |
+| 台灣市場狀態 | ✗ Not marketed |
 | 許可證數量 | 0 |
 | 建議決策 | Hold |
 
@@ -93,13 +93,13 @@ Rheumatoid vasculitis此適應症目前僅達L4證據等級（機轉/臨床前�
 
 **要繼續進行，需要補充：**
 - TFDA仿單警語與禁忌全文（DG001，阻斷性缺口，影響S1安全性初評）
-- Golimumab詳細作用機轉資料（DG002，影響機轉關聯性分析）
+- Golimumab詳細作用機轉資料（DG002，Limits mechanistic-link analysis）
 - 針對rheumatoid vasculitis之疾病特異性介入性試驗設計與結果
 - Anti-TNF誘發血管炎風險之系統性安全性評估，以釐清機轉方向的矛盾訊號
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

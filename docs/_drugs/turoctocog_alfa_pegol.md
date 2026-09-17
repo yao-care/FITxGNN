@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Turoctocog Alfa Pegol
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 393
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Turoctocog Alfa Pegol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -81,10 +81,10 @@ The predicted indication (primary release disorder of platelets) has no clinical
 - Confirmed mechanism of action (MOA) via DrugBank API — currently a High-severity gap
 - Independent mechanistic/preclinical evaluation of platelet granule-release physiology relative to FVIII pharmacology, before any further investment
 - Consider evaluating rank 4 ("acquired coagulation factor deficiency") as a mechanistically stronger alternative candidate for a dedicated research-question track, given its direct overlap with the approved replacement-therapy logic
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

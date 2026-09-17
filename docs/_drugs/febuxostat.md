@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Febuxostat
-parent: 僅模型預測 (L5)
+parent: Kohtalainen näyttö (L3-L4)
 nav_order: 161
-evidence_level: L5
+evidence_level: L4
 indication_count: 3
 ---
 
 # Febuxostat
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -45,7 +45,7 @@ Febuxostat is a xanthine oxidase (XOR) inhibitor; the evidence pack does not rec
 | Predicted New Indication (Top Score) | Hypouricemia, Renal |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L4 |
-| Taiwan Market Status | Not Marketed (未上市) |
+| Taiwan Market Status | Not Marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -113,7 +113,7 @@ Currently no related clinical trials registered.
 
 ## Taiwan Market Information
 
-Febuxostat currently has **no marketing authorization on record in Taiwan** (`market_status: 未上市`, 0 licenses). No product name, dosage form, or approved indication data is available to report.
+Febuxostat currently has **no marketing authorization on record in Taiwan** (`market_status: Not marketed`, 0 licenses). No product name, dosage form, or approved indication data is available to report.
 
 ---
 
@@ -138,10 +138,10 @@ Please refer to the package insert for safety information.
 - Obtain formal DrugBank MOA and original-indication data (DG002) to properly frame the original-vs-new indication comparison.
 - Resolve the Rank 1 mechanistic ambiguity (prophylaxis of EIAKI in renal hypouricemia patients vs. "treating" hypouricemia) before writing any protocol referencing this indication.
 - If prioritizing Ranks 2–3 (HPRT partial deficiency / Lesch-Nyhan syndrome), seek case-series or registry-level data given the rarity of these conditions, since RCTs are unlikely to exist.
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

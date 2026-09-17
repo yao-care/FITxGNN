@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Nepafenac
-parent: 僅模型預測 (L5)
+parent: Vahva näyttö (L1-L2)
 nav_order: 258
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Nepafenac
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -130,10 +130,10 @@ The top prediction ("eye disease") is backed by L1-level evidence (multiple comp
 - TFDA/Fimea package insert (warnings, contraindications) to close the blocking safety gap (DG001)
 - Confirmed original indication and MOA documentation from DrugBank/regulatory sources to properly scope what counts as "new" vs. already-approved use (DG002)
 - If pursuing rank 10 (vitreous detachment) as a genuine research question, targeted literature/trial search specific to vitreous detachment rather than secondary post-surgical vitreous inflammation
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Gimeracil
-parent: 僅模型預測 (L5)
+parent: Vahva näyttö (L1-L2)
 nav_order: 174
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Gimeracil
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -47,7 +47,7 @@ with **8 clinical trials** and **15 publications** currently supporting this dir
 | Predicted New Indication | Colonic Neoplasm |
 | TxGNN Prediction Score | 99.88% |
 | Evidence Level | L1 |
-| Finland Market Status | 未上市 (Not Marketed) |
+| Finland Market Status | Not marketed (Not Marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -125,10 +125,10 @@ Two completed Phase 3 RCTs (SALTO, NCT01918852, n=161; NCT00660894, n=1535) dire
 - Detailed mechanism of action data from DrugBank (DG002, High priority)
 - Drug interaction (DDI) data, currently not found in the source database
 - Clarification of whether the repurposing claim applies to gimeracil alone or requires the full S-1 combination
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

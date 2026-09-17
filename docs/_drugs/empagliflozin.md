@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Empagliflozin
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 143
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Empagliflozin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -43,7 +43,7 @@ Empagliflozin is an SGLT2 inhibitor generally known for use in Type 2 Diabetes M
 | Predicted New Indication | Focal Stiff Limb Syndrome |
 | TxGNN Prediction Score | 99.06% (rank 9036) |
 | Evidence Level | L5 |
-| Market Status (Taiwan) | 未上市 (Not Marketed) |
+| Market Status (Taiwan) | Not marketed (Not Marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -90,10 +90,10 @@ There is no clinical trial or literature evidence, no plausible mechanistic path
 ---
 
 **Aside for your review:** the source template's Quick Overview field is labeled "Finland Market Status" (and the section header "Finland Market Information"), but this evidence pack's actual data lives under `taiwan_regulatory` and was sourced from TFDA (`query_log` source `tfda`/`tfda_package_insert`). I relabeled these to Taiwan in the report above rather than propagate what looks like a copy-paste artifact from the Finland-project template. Given `.claude/p0_consistency_check.sh` exists specifically to catch this class of cross-project copy-paste issue, you may want to run it against the report-generation template/prompt source to confirm and fix it upstream.
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

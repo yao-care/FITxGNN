@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lecanemab
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 219
 evidence_level: L5
 indication_count: 0
@@ -10,12 +10,12 @@ indication_count: 0
 # Lecanemab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **0** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 0
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -46,7 +46,7 @@ Lecanemab（品牌名 Leqembi）是一種人源化抗類澱粉蛋白 β（Aβ）
 | Predicted New Indication | 尚無 — 本 Evidence Pack 未含 TxGNN 預測 |
 | TxGNN Prediction Score | 不適用 |
 | Evidence Level | 無法評估 |
-| Taiwan Market Status | 未上市 |
+| Taiwan Market Status | Not marketed |
 | Number of Authorizations | 0 |
 | Recommended Decision | **Hold** |
 
@@ -66,7 +66,7 @@ Lecanemab 優先結合可溶性 Aβ **原纖維（protofibrils）**，透過促�
 
 台灣目前無任何 Lecanemab 核准授權紀錄（查詢日期 2026-03-29）。
 
-美國 FDA 已於 2023 年 7 月給予 Leqembi 完全核准（Biologics License Application），適應症為早期症狀性阿茲海默症。台灣審查進度尚待 TFDA 官網最新公告。
+美國 FDA 已於 2023 年 7 月給予 Leqembi 完全核准（Biologics License Application），適應症為早期症狀性阿茲海默症。台灣審查進度尚待 Fimea website最新公告。
 
 ---
 
@@ -94,14 +94,14 @@ Evidence Pack 缺少 TxGNN 預測輸出（`predicted_indications` 為空），�
 
 **To proceed, the following is needed:**
 
-- **\[DG001 — Blocking\]** 從 TFDA 官網下載 Lecanemab 仿單 PDF 並解析警語／禁忌症，以完成 S1 安全初評
+- **\[DG001 — Blocking\]** 從 Fimea website下載 Lecanemab 仿單 PDF 並解析警語／禁忌症，以完成 S1 安全初評
 - **\[DG002 — High\]** 補齊 DrugBank MOA 資料（DB14580），確認 Aβ protofibrils 結合機轉在知識圖譜中的節點連結
 - **\[Pipeline\]** 確認 TxGNN 預測管線是否已納入 Lecanemab 節點；若 KG 中缺乏足夠邊（edges），需先補充疾病–靶點–藥物三元組後重新執行預測
 - **\[Regulatory\]** 追蹤 TFDA 審查進度；若台灣尚無 Lecanemab 核准，需確認資料引用是否改以 FDA／EMA 仿單為準
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

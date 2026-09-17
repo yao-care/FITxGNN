@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ceritinib
-parent: 僅模型預測 (L5)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 95
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Ceritinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Sisällysluettelo
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Farmaseutin arviointiraportti
 
 </div>
 
@@ -43,7 +43,7 @@ Ceritinib is a second-generation ALK tyrosine kinase inhibitor whose approved us
 | Predicted New Indication | Gingival Fibromatosis (Fibromatosis, Gingival) |
 | TxGNN Prediction Score | 99.86% (rank 2020 among all candidates) |
 | Evidence Level | L5 |
-| Taiwan Market Status | 未上市 (Not marketed) |
+| Taiwan Market Status | Not marketed (Not marketed) |
 | Number of Authorizations | 0 |
 | Recommended Decision | Hold |
 
@@ -95,10 +95,10 @@ The top-ranked predicted indication, gingival fibromatosis, has no clinical tria
 - DrugBank MOA confirmation (DG002)
 - If pursuing repurposing further, prioritize mechanistically plausible, evidence-searchable candidates (e.g., ALK-rearranged tumour subtypes) over the current top-ranked prediction
 - No further development recommended for gingival fibromatosis or any of the other 9 predicted indications in this batch given the absence of supporting evidence and mechanistic plausibility
-## Disclaimer
+## Vastuuvapauslauseke
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.
+Kliininen validointi vaaditaan ennen kliinistä käyttöä.
 
 ---
 

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-17T17:19:35.883865+00:00",
+  "fetched_at": "2026-09-17T20:37:24.536465+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -284,12 +284,12 @@
       }
     },
     {
-      "id": "03ab012068da",
-      "title": "Tämä liikuntalaji hoitaa masennusta paremmin kuin lääke – harrastajien aivot synkronisoituvat - Kotiliesi.fi",
+      "id": "b3fc4dcc7043",
+      "title": "Tämä liikuntalaji hoitaa masennusta paremmin kuin lääke – harrastajien aivot synkronisoituvat - kotiliesi.fi",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA4WnJDaXBmLXVKek5wN2ZQYktpa3JfVEFnbnByUUp4TENHbTJCWjFaNlRsWVNwNk16a3M4MXE2TEl0a1pUcjhIZWFOZ1pNTHNja3JYV1hNRmZiS2FWVkdIVG5jM29JV1dvNEx6MkZaSDV0M3Fv?oc=5",
       "published": "2026-02-14T08:00:00+00:00",
       "source": {
-        "name": "Kotiliesi.fi",
+        "name": "kotiliesi.fi",
         "url": "https://kotiliesi.fi"
       }
     },
@@ -624,20 +624,20 @@
       }
     },
     {
-      "id": "f559c0643ef0",
-      "title": "Ylilääkäri: Parasetamoli on edelleen turvallinen raskaana oleville, vaikka Trump väittää muuta - Yle",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1aaVdfT2Z1V0lrNWhCa1AybEMwWU93c2U5REgteXVvZkxNdXJhV2hpb0tGYWlhaW45anNFMDk2bUJYUQ?oc=5",
-      "published": "2025-09-23T07:00:00+00:00",
+      "id": "bc10383a5bc0",
+      "title": "Luuston hoitoon tarkoitettu lääke lisää merkittävästi leukakuolion riskiä, kertoo uusi tutkimus - Yle",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9vNF84RkI0T3FmQUJiU0NnMDE1OVdYWFlmeTZPSTRQanRzZkwzODJHNVRaTUszWExZYXAxUUxBUUVndw?oc=5",
+      "published": "2025-06-02T07:00:00+00:00",
       "source": {
         "name": "Yle",
         "url": "https://yle.fi"
       }
     },
     {
-      "id": "bc10383a5bc0",
-      "title": "Luuston hoitoon tarkoitettu lääke lisää merkittävästi leukakuolion riskiä, kertoo uusi tutkimus - Yle",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9vNF84RkI0T3FmQUJiU0NnMDE1OVdYWFlmeTZPSTRQanRzZkwzODJHNVRaTUszWExZYXAxUUxBUUVndw?oc=5",
-      "published": "2025-06-02T07:00:00+00:00",
+      "id": "f559c0643ef0",
+      "title": "Ylilääkäri: Parasetamoli on edelleen turvallinen raskaana oleville, vaikka Trump väittää muuta - Yle",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1aaVdfT2Z1V0lrNWhCa1AybEMwWU93c2U5REgteXVvZkxNdXJhV2hpb0tGYWlhaW45anNFMDk2bUJYUQ?oc=5",
+      "published": "2025-09-23T07:00:00+00:00",
       "source": {
         "name": "Yle",
         "url": "https://yle.fi"
@@ -664,16 +664,6 @@
       }
     },
     {
-      "id": "20549b823652",
-      "title": "Lihavuuslääke nousi Suomen myydyimmäksi lääkkeeksi - Yle",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE02V0NFcVBPbWp5aHJmQThteGhla1YyZXJsd096TC14Vk1ZekwtVEhETVJ0Z3FqVDF3Z19kalBRUWozQQ?oc=5",
-      "published": "2025-06-11T07:00:00+00:00",
-      "source": {
-        "name": "Yle",
-        "url": "https://yle.fi"
-      }
-    },
-    {
       "id": "840b7db9fc95",
       "title": "Lääkkeet - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5FOFRUT1dMd2dITDBCWFBEcTZZaE96SEpZaGpUcjl4Rk8xZ3ZzVjFTZzVVN0x5RU5FRmNiX3lGNElwZmdpaDNZ?oc=5",
@@ -681,6 +671,16 @@
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
+      }
+    },
+    {
+      "id": "20549b823652",
+      "title": "Lihavuuslääke nousi Suomen myydyimmäksi lääkkeeksi - Yle",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE02V0NFcVBPbWp5aHJmQThteGhla1YyZXJsd096TC14Vk1ZekwtVEhETVJ0Z3FqVDF3Z19kalBRUWozQQ?oc=5",
+      "published": "2025-06-11T07:00:00+00:00",
+      "source": {
+        "name": "Yle",
+        "url": "https://yle.fi"
       }
     },
     {
@@ -834,12 +834,12 @@
       }
     },
     {
-      "id": "6d1dd8d58ee5",
-      "title": "Lääke lihottaa - Terve.fi",
+      "id": "c56563f97bde",
+      "title": "Lääke lihottaa - terve.fi",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE16QnhYRWZvaWtjSlFYSTk1UElQZjV4c1NueVlPV3MtXzlqWlhsTWsyZkFkT1NOZ21ieDJ2ZXRQcDNGTVBPdUtQQXM5dGhNcGZ5UTFFRVBUNG5hbGVWRkcyag?oc=5",
       "published": "2019-01-09T08:00:00+00:00",
       "source": {
-        "name": "Terve.fi",
+        "name": "terve.fi",
         "url": "https://www.terve.fi"
       }
     },
@@ -954,12 +954,12 @@
       }
     },
     {
-      "id": "151a71ec0a24",
-      "title": "Onko laihdutuslääkkeistä apua? - Terve.fi",
+      "id": "0293a24d1d04",
+      "title": "Onko laihdutuslääkkeistä apua? - terve.fi",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBkV3cyYUpTbk9fLVZGclNiNEJhMF9TMkpuSXlxNkRTRWFTMHpwajVqaEoxb1FrVjR2d3lLNGxDLVNNOHBvbURMdmJfamlCLUFPTUtpXzVPd2FHZkdNX1E?oc=5",
       "published": "2019-10-31T07:00:00+00:00",
       "source": {
-        "name": "Terve.fi",
+        "name": "terve.fi",
         "url": "https://www.terve.fi"
       }
     },

@@ -29,86 +29,87 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Darolutamide: From Prostate Cancer to Homozygous Familial Hypercholesterolemia
+# Darolutamide: eturauhassyövästä homotsygootiseen perinnölliseen hyperkolesterolemeiaan
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Darolutamide is an androgen receptor (AR) antagonist established for castration-resistant prostate cancer. The TxGNN model predicts it may be effective for **Homozygous Familial Hypercholesterolemia (HoFH)**, but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the model's own rationale flags it as a likely embedding-similarity artifact rather than a mechanistically grounded hypothesis.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Prostate cancer (castration-resistant prostate cancer) — formal indication text not available in this data pull |
-| Predicted New Indication | Homozygous Familial Hypercholesterolemia |
-| TxGNN Prediction Score | 99.11% |
-| Evidence Level | L5 |
-| Taiwan Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Darolutamide on androgeeninreseptori (AR) -antagonisti, joka on vakiintuneesti käytössä kastraation kestävään eturauhassyöpään. TxGNN-malli ennustaa, että se voisi olla tehokas **homotsygootiseen perinnölliseen hyperkolesterolemeiaan (HoFH)**, mutta tätä ennustusta tuetaan tällä hetkellä vain **0 kliinisellä tutkimuksella** ja **0 julkaisulla**, ja mallin omat perustelut osoittavat sen olevan todennäköisesti embedding-samankaltaisuuden artefakti mekanistisesti perustellun hypoteesin sijaan.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Pikayleiskatsaus
 
-Currently, detailed mechanism of action data is not available (flagged as a Blocking/High data gap in this pack). Based on known information, darolutamide is a second-generation androgen receptor antagonist used for castration-resistant prostate cancer; its efficacy in that setting is well established, but no MOA data is present here to connect it to lipid metabolism.
-
-Homozygous Familial Hypercholesterolemia is a genetic disorder driven by LDLR/APOB/PCSK9 defects that impair LDL receptor function and cause extreme LDL-C elevation. This is a pathway with no known mechanistic overlap with AR signaling. The evidence pack's own rationale is explicit on this point: it describes the link as having "no direct or known indirect mechanistic relationship" and states this is "a prediction driven purely by the TxGNN score, without any corroborating evidence."
-
-In other words, this candidate should be read as a low-confidence model output rather than a biologically motivated hypothesis. The two other predicted indications in this pack (multiple endocrine neoplasia, HIV infection) show the same pattern — plausible-sounding disease names with no mechanistic or empirical support — which suggests the ranking region these predictions come from (rank ~8,600–9,200) may sit outside TxGNN's high-confidence zone.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Eturauhassyöpä (kastraation kestävä eturauhassyöpä) — virallista indikaatiotekstiä ei ole saatavilla tässä tietojen noudosta |
+| Ennustettu uusi indikaatio | Homotsygootinen perinnöllinen hyperkolesterolemie |
+| TxGNN-ennusteen pistemäärä | 99.11% |
+| Todistusten taso | L5 |
+| Taiwan-markkinoiden asema | Ei markkinoilla |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Pidätä |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennuste on perusteltu?
 
-Currently no related literature available.
+Tällä hetkellä yksityiskohtaisia toimintamekanismin tietoja ei ole saatavilla (merkitty kriittiseksi tietovajeen osaksi tässä paketissa). Tunnettujen tietojen perusteella darolutamide on toisen sukupolven androgeeninreseptori-antagonisti, jota käytetään kastraation kestävään eturauhassyöpään; sen teho tuossa yhteydessä on hyvin todistettu, mutta mitään MOA-tietoja ei ole täällä yhdistämään sitä rasva-aineenvaihduntaan.
 
----
+Homotsygootinen perinnöllinen hyperkolesterolemie on geneettinen sairaus, jonka aiheuttavat LDLR/APOB/PCSK9-puutokset, jotka heikentävät LDL-reseptorin toimintaa ja aiheuttavat äärimmäisen LDL-C-nousun. Tämä on reitti, jolla ei ole tunnettua mekanistista päällekkäisyyttä AR-signaloinnin kanssa. Todisteen paketin omat perustelut ovat selkeitä tässä asiassa: se kuvaa linkin olevan ilman "suoraa tai tunnettua epäsuoraa mekanistista yhteyttä" ja toteaa, että tämä on "ennustus, joka perustuu puhtaasti TxGNN-pisteisiin vahvistavia todisteita."
 
-## Taiwan Market Information
-
-Darolutamide is not currently marketed in Taiwan (0 authorizations, no license records available in this data pull).
+Toisin sanoen tätä ehdokasta tulisi lukea matalan luottamustason mallin tuotoksena eikä biologisesti motivoituna hypoteesinä. Kaksi muuta ennustettua indikaatiota tässä paketissa (moninaisendokriininen neoplasia, HIV-infektio) osoittavat saman kaavan — uskottavan kuuloisia sairauksien nimiä ilman mekanistista tai empiiristä tukea — mikä viittaa siihen, että järjestysalue, josta nämä ennusteet tulevat (rank ~8,600–9,200), saattaa sijaita TxGNN:n korkean luottamustason alueen ulkopuolella.
 
 ---
 
-## Cytotoxicity
+## Kliinisten tutkimusten todisteet
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy — androgen receptor antagonist (hormonal antineoplastic agent, not conventional cytotoxic chemotherapy) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+Tällä hetkellä ei ole rekisteröityjä kliinisiä tutkimuksia.
 
 ---
 
-## Safety Considerations
+## Kirjallisuuden todisteet
 
-Please refer to the package insert for safety information.
+Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta.
 
 ---
 
-## Conclusion and Next Steps
+## Taiwan-markkinoiden tiedot
 
-**Decision: Hold**
+Darolutamide ei ole tällä hetkellä markkinoilla Taiwanissa (0 lupaa, käytettävissä olevia lisenssitietueita ei ole tässä tietojen noudosta).
 
-**Rationale:**
-The predicted indication (HoFH) has no supporting clinical trials or literature and no plausible mechanistic link to darolutamide's known pharmacology — the evidence pack itself characterizes this as a score-only artifact (L5, decision stage S0). The two alternate candidates (multiple endocrine neoplasia, HIV infection) are similarly unsupported, one resting on a single terminated, 2-patient basket trial with no disease-specific relevance.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings/contraindications) — currently a Blocking data gap
-- Confirmed mechanism of action (MOA) data from DrugBank — currently a High-severity data gap
-- Confirmed original indication text (formal source, not just rationale-embedded mentions)
-- Any preclinical or mechanistic rationale connecting AR antagonism to lipid metabolism, before this candidate can be reconsidered above S0
+## Syytoksisyys
+
+| Kohta | Sisältö |
+|------|---------|
+| Syytoksisyyden luokitus | Kohdennettu hoito — androgeeninreseptori-antagonisti (hormonihoitoinen antineoplastinen aine, ei tavanomainen syytoksinen kemikaalihoito) |
+| Ydinrihmaston suppressio -riski | Katso pakettiselosteen varoituksia ja varotoimenpiteitä |
+| Pahoinvoinnin aiheuttavuuden luokitus | Katso pakettiselosteen varoituksia ja varotoimenpiteitä |
+| Valvottavat tekijät | Katso pakettiselosteen varoituksia ja varotoimenpiteitä |
+| Käsittelysuojaus | Katso pakettiselosteen varoituksia ja varotoimenpiteitä |
+
+---
+
+## Turvallisuushuomiot
+
+Turvallisuustiedot löytyvät pakettiselosteesta.
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidätä**
+
+**Perustelut:**
+Ennustetulla indikaatiolla (HoFH) ei ole tukevia kliinisiä tutkimuksia tai kirjallisuutta, eikä sillä ole uskottavasti mekanistista yhteyttä darolutamiden tunnettuun farmakologiaan — todisteen paketti itse kuvailee tämän pisteisiin perustuvaksi artefaktiksi (L5, päätösvaihe S0). Kaksi vaihtoehtoista ehdokasta (moninaisendokriininen neoplasia, HIV-infektio) ovat samoin tuettuja; yksi niistä perustuu yksittäiseen lopetettuun 2 potilaan basket-tutkimukseen, jolla ei ole sairauskohtaista relevanssia.
+
+**Jatkamiseksi tarvitaan seuraavaa:**
+- TFDA-pakettiseloste (varoitukset/vasta-aiheet) — tällä hetkellä kriittinen tietovaje
+- Vahvistettu toimintamekanismin (MOA) tieto DrugBankista — tällä hetkellä korkean vakavuuden tietovaje
+- Vahvistettu alkuperäinen indikaatioteksti (virallinen lähde, ei vain perusteluihin sulautetut maininnat)
+- Kaikki prekliiniset tai mekanistiset perustelut, jotka yhdistävät AR-antagonismin rasva-aineenvaihduntaan, ennen kuin tätä ehdokasta voidaan harkita uudelleen S0:n yläpuolella
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

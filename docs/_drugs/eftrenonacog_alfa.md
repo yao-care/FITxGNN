@@ -29,56 +29,57 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Eftrenonacog Alfa: From Hemophilia B to Pseudo-von Willebrand Disease
+# Eftrenonacog alfa: Hemofiliasta B pseudo-von Willebrandin tautiin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Eftrenonacog alfa is a recombinant, extended half-life Factor IX (FIX) replacement therapy used to treat Hemophilia B. The TxGNN model's top-ranked prediction suggests possible relevance to **Pseudo-von Willebrand Disease**, but this signal is currently supported by **0 clinical trials** and **0 publications**, and the underlying mechanistic rationale is itself assessed as weak.
+Eftrenonacog alfa on rekombinantti, pidennetyn puoliintumisajan faktori IX:n (FIX) korvaava hoito, jota käytetään hemofilian B hoitamiseen. TxGNN-mallin parhaiten sijoitettu ennuste viittaa mahdolliseen merkitykseen **pseudo-von Willebrandin tautiin**, mutta tätä signaalia tukevat tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua**, ja taustalla oleva mekanistinen perustelus arvioidaan heikoksi.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Hemophilia B (congenital Factor IX deficiency) — per drug mechanism description; not confirmed by TFDA/regulatory license text |
-| Predicted New Indication | Pseudo-von Willebrand Disease |
-| TxGNN Prediction Score | 99.48% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Finland Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen indikaatio | Hemofilia B (synnynnäinen faktori IX:n puutos) — lääkkeen mekanismin kuvauksen mukaan; ei vahvistettua TFDA:n/sääntelyluvan tekstistä |
+| Ennustettu uusi indikaatio | Pseudo-von Willebrandin tauti |
+| TxGNN-ennusteen pisteet | 99.48% |
+| Todistusvoiman taso | L5 (vain mallin ennuste, ei tukevia tutkimuksia) |
+| Suomen markkina-asema | Ei markkinoilla |
+| Lupakumppanuuksien määrä | 0 |
+| Suositeltu päätös | Pidätys |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on perusteltu?
 
-Detailed, structured mechanism-of-action data is not available from DrugBank for this candidate (flagged as a High-severity data gap). Based on descriptive information captured in this evidence pack, eftrenonacog alfa is a recombinant FIX product that replaces deficient endogenous Factor IX, restoring thrombin generation via the intrinsic coagulation pathway — its established use is Hemophilia B.
+Yksityiskohtaisia, strukturoituja mekanismin toimintatietoja ei ole saatavilla DrugBankista tälle ehdokkaalle (merkitty korkean vakavuuden tietoaukoksi). Tähän todistelupakettiin kuvattujen tietojen perusteella eftrenonacog alfa on rekombinantti FIX-tuote, joka korvaa puutteellisen endogeenisen faktori IX:n ja palauttaa trombiinin muodostuksen koagulaation sisäisen reitin kautta — sen vakiintunut käyttö on hemofilia B.
 
-The predicted indication, Pseudo-von Willebrand Disease, is a platelet-membrane disorder caused by gain-of-function mutations in *GP1BA*, resulting in abnormally increased affinity of platelet glycoprotein Ib for von Willebrand factor. This is a platelet-adhesion defect, not a coagulation-factor deficiency. While both conditions fall under the broad category of "bleeding disorders," their pathophysiology is fundamentally different — platelet-vWF interaction versus thrombin-generation cascade — so replacing FIX has no established rationale for correcting a platelet-adhesion abnormality.
+Ennustettu indikaatio, pseudo-von Willebrandin tauti, on verihiutaleiden kalvohäiriö, jonka aiheuttavat hyötytoimintamuutokset *GP1BA*-geenissä, ja se johtaa poikkeavasti lisääntyneeseen verihiutaleiden glykoproteiini Ib:n affiniteettiin von Willebrandin tekijää kohtaan. Tämä on verihiutaleiden kiinnittymishäiriö, ei koagulaatiotekijän puutos. Vaikka molemmat tilat kuuluvat laajaan verenvuototautien kategoriaan, niiden patofysiologia on perusteeltaan erilainen — verihiutaleiden ja vWF:n vuorovaikutus verrattuna trombiinin muodostumisen sekvenssisarjaan — joten FIX:n korvaaminen ei ole perusteltu tapa korjata verihiutaleiden kiinnittymisanomalian ongelmaa.
 
-This evidence pack also surfaces two additional TxGNN-predicted candidates for this drug, both with similarly weak mechanistic plausibility and identical L5/Hold ratings: **primary release disorder of platelets** (platelet granule-release defect, score 99.42%) and **Glanzmann thrombasthenia** (GPIIb/IIIa integrin deficiency impairing platelet aggregation, score 99.28%). In all three cases, the predicted disease involves a platelet-function defect rather than a coagulation-factor deficiency, and none has any supporting rFIX-specific trial or literature evidence — these appear to be graph-similarity artifacts rather than mechanistically grounded repurposing candidates.
+Tämä todistelupaketti myös paljastaa kaksi muuta TxGNN:n ennustamaa ehdokasta tälle lääkkeelle, molemmat samankaltaisella heikolla mekanistisella uskottavuudella ja identtisillä L5/Pidätys-luokituksilla: **verihiutaleiden primaarinen vapautumishäiriö** (verihiutaleiden granulien vapautumisen vika, pisteet 99.42%) ja **Glanzmannin trombasthenia** (GPIIb/IIIa integriinikato, joka heikentää verihiutaleiden aggregaatiota, pisteet 99.28%). Kaikissa kolmessa tapauksessa ennustettu sairaus liittyy verihiutaleiden toimintahäiriöön eikä koagulaatiotekijän puutokseen, ja yksikään niistä ei ole tuettu rFIX-spesifisillä tutkimuksilla tai kirjallisuudella — nämä näyttävät olevan kuvaajankaltaiset artefaktit eikä mekanistisesti perusteltu hoitoindikaatioiden laajeneminen.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-Currently no related clinical trials registered
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-Currently no related literature available
+Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information.
+Katso turvaohjeet pakkausselosteesta.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidätys**
 
-**Rationale:**
-This prediction is supported only by TxGNN model scoring (L5), with no clinical trials, no literature, and a mechanistically weak rationale (platelet-adhesion disorder vs. coagulation-factor replacement). The drug is also not currently marketed in Finland, and TFDA safety/warning data is a Blocking-severity gap that prevents even a preliminary safety assessment.
+**Perustelus:**
+Tämä ennuste on tuettu vain TxGNN-mallin pisteillä (L5), ilman kliinisiä tutkimuksia, ilman kirjallisuutta ja mekanistisesti heikolla perustelulla (verihiutaleiden kiinnittymishäiriö vs. koagulaatiotekijän korvaus). Lääkettä ei myöskään myydä tällä hetkellä Suomessa, ja TFDA:n turvallisuus-/varoitustiedot ovat pysäyttävän vakavuuden aukko, joka estää edes alustavan turvallisuusarvioinnin.
 
-**To proceed, the following is needed:**
-- TFDA package insert data (warnings, contraindications) — currently a Blocking gap
-- Confirmed mechanism of action and formal original-indication labeling from DrugBank
-- Any preclinical or mechanistic studies linking FIX replacement to platelet-adhesion/aggregation/release disorders
-- Real-world or case-level evidence (e.g., hemostatic use in platelet disorders), if it exists outside registered trials/PubMed
+**Edistyäkseen seuraavaa tarvitaan:**
+- TFDA:n pakkausselosteen tiedot (varoitukset, vasta-aiheet) — tällä hetkellä pysäyttävä aukko
+- Vahvistettu vaikutusmekanismi ja virallinen alkuperäisen indikaation merkintä DrugBankista
+- Kaikki prekliiniset tai mekanistiset tutkimukset, jotka yhdistävät FIX:n korvaamisen verihiutaleiden kiinnittymis-/aggregaatio-/vapautumishäiriöihin
+- Todellisen maailman tai tapauskohtainen näyttö (esim. hemostatiikan käyttö verihiutaleiden häiriöissä), jos se on olemassa rekisteröityjen tutkimusten tai PubMedin ulkopuolella
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

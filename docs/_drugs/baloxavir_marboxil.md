@@ -29,68 +29,69 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 
 </div>
 
-# Baloxavir Marboxil: Evaluation Report — Insufficient Data to Generate Repurposing Analysis
+# Baloxavir marboxil: Arviointiraportti — Riittämätön data uudelleenkäytön analyysin luomiseksi
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Baloxavir marboxil (DB13997) is a drug for which original indication data and mechanism of action are currently unavailable in this Evidence Pack.
-The TxGNN model returned **no predicted new indications** for this candidate, meaning no repurposing direction can be evaluated at this time.
-This report documents the data gaps and provides a remediation roadmap before any clinical evaluation can proceed.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not available in this Evidence Pack |
-| Predicted New Indication | None — TxGNN returned no predictions |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | L5 (model prediction only — and none exist) |
-| Taiwan Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+Baloxavir marboxil (DB13997) on lääke, josta alkuperäisen indikaation tiedot ja vaikutusmekanismi eivät ole tällä hetkellä saatavilla tässä todistepakkauksessa.
+TxGNN-malli palautti **ei yhtään ennustettua uutta indikaatiota** tälle ehdokkaalle, mikä tarkoittaa, että uudelleenkäytön suuntaa ei voida arvioida tällä hetkellä.
+Tämä raportti dokumentoi tietovajeet ja tarjoaa korjaussuunnitelman ennen kuin kliininen arviointi voidaan aloittaa.
 
 ---
 
-## Why No Prediction Is Available
+## Nopea yleiskatsaus
 
-The Evidence Pack contains an empty `predicted_indications` array. There are two likely causes:
-
-**1. Upstream data gaps blocking the TxGNN pipeline.** The model requires a populated drug node in the knowledge graph, including mechanism-of-action edges and indication edges. With `original_moa` flagged as unavailable and no approved indications recorded for this drug in Taiwan, the graph embedding for Baloxavir marboxil may be insufficiently connected to generate confident disease-node predictions.
-
-**2. No Taiwan regulatory footprint.** With zero TFDA licenses on file, the drug's pharmacological profile has not been formally characterised within the local data pipeline. Without this anchor, the integration step that merges regulatory data with TxGNN scores cannot produce output.
-
-Until both gaps are resolved and the pipeline is re-run, repurposing evaluation cannot proceed.
-
----
-
-## Taiwan Market Information
-
-No authorization records found. Baloxavir marboxil is **not currently marketed in Taiwan** and has no registered licenses in the TFDA database as of the data cut-off date (2026-04-20).
+| Kohta | Sisältö |
+|-------|---------|
+| Alkuperäinen indikaatio | Ei saatavilla tässä todistepakkauksessa |
+| Ennustettu uusi indikaatio | Ei mikään — TxGNN ei palauttanut ennusteita |
+| TxGNN-ennusteen pistemäärä | E/S |
+| Todisteen taso | L5 (vain mallin ennuste — eikä niitäkään ole olemassa) |
+| Markkinatilanne Taiwanissa | Ei markkinoilla (Ei markkinoilla) |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | **Pidä varauksessa** |
 
 ---
 
-## Safety Considerations
+## Miksi ennustusta ei ole saatavilla
 
-Please refer to the package insert for safety information. No warning, contraindication, or drug-interaction data is available in the current Evidence Pack.
+Todistepakkauksessa on tyhjä `predicted_indications`-matriisi. Tähän on todennäköisesti kaksi syytä:
+
+**1. Ylävirran tietovajeista johtuva TxGNN-putkilinjan esto.** Malli vaatii täytetyn lääkesolmun tietoverkossa, mukaan lukien vaikutusmekanismin reunat ja indikaation reunat. Kun `original_moa` on merkitty saatamattomuudeksi ja tälle lääkkeelle ei ole kirjattu hyväksyttyjä indikaatioita Taiwanissa, Baloxavir marboxilin graafin upottaminen voi olla riittämättömästi kytketty tauteihin liittyvien solmujen ennusteiden luomiseksi.
+
+**2. Ei Taiwanin sääntelyyn liittyvää jäljellä olevaa osaa.** Ilman TFDA-lisenssejä tiedostossa, lääkkeen farmakologista profiilia ei ole muodollisesti luonnehdittu paikallisen tietopipeline-järjestelmässä. Ilman tätä ankkuria, integraatiovaihe, joka yhdistää sääntelyyn liittyvät tiedot TxGNN-pisteisiin, ei voi tuottaa tulosta.
+
+Kunnes molemmat vajeista korjataan ja putkilinja ajetaan uudelleen, uudelleenkäytön arviointi ei voi edetä.
 
 ---
 
-## Conclusion and Next Steps
+## Taiwanin markkinatiedot
 
-**Decision: Hold**
+Hyväksynnän tietueita ei löytynyt. Baloxavir marboxil **ei ole tällä hetkellä markkinoilla Taiwanissa** ja sillä ei ole rekisteröityjä lisenssejä TFDA-tietokannassa tiedon leikkaussuhteen päivämäärällä (2026-04-20).
 
-**Rationale:**
-The TxGNN model produced no repurposing predictions for this candidate, and critical upstream data — including mechanism of action and TFDA safety labelling — are absent. There is no evidence base on which to conduct a clinical or regulatory evaluation.
+---
 
-**To proceed, the following is needed:**
+## Turvallisuusnäkökohdat
 
-1. **Retrieve mechanism of action (MOA)** — Query the DrugBank API for DB13997 to populate pharmacological action, target, and pathway data; this is required for knowledge-graph edge generation.
-2. **Retrieve TFDA package insert warnings and contraindications** — Download and parse the PDF from the TFDA official website to complete the safety profile (currently a blocking gap per DG001).
-3. **Re-run the TxGNN prediction pipeline** — Once MOA and original indication data are populated, re-run the KG + DL + Mapping phases (Phase 2) to generate disease-node predictions.
-4. **Confirm original approved indication** — Cross-check international sources (FDA, EMA, PMDA) to populate `original_indications`, as the Taiwan database returned zero results.
-5. **Re-generate this Evidence Pack** — After steps 1–4, regenerate the v4 pack and submit for a full repurposing evaluation following the standard L1–L5 evidence-level framework.
+Lisätietoja turvallisuudesta saat pakkauksessa olevasta selosteesta. Nykyisessä todistepakkauksessa ei ole saatavilla varoitus-, vasta-aihe- tai lääkkeen vuorovaikutustietoja.
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidä varauksessa**
+
+**Perustelu:**
+TxGNN-malli ei tuottanut uudelleenkäytön ennusteita tälle ehdokkaalle, ja kriittiset ylävirran tiedot — mukaan lukien vaikutusmekanismi ja TFDA-turvallisuusleimaus — puuttuvat. Ei ole olemassa todistepohjaista perusteita kliinisen tai sääntelyllisen arvioinnin suorittamiselle.
+
+**Jotta voidaan edetä, seuraavaa tarvitaan:**
+
+1. **Hanki vaikutusmekanismi (MOA)** — Kysy DrugBank API:sta DB13997 farmakologisen toiminnan, kohteen ja polkutietojen saamiseksi; tämä on vaadittu tietoverkkojen reunojen luomiseen.
+2. **Hanki TFDA-pakkauksessa olevan selosteen varoitukset ja vasta-aiheet** — Lataa ja jäsennä PDF TFDA:n virallisesta verkkosivustosta turvallisuusprofiilin täydentämiseksi (tällä hetkellä este DG001:n mukaan).
+3. **Suorita TxGNN-ennusteen putkilinja uudelleen** — Kun MOA ja alkuperäisen indikaation tiedot on täytetty, suorita KG + DL + Mapping-vaiheet (vaihe 2) uudelleen tautisolmujen ennusteiden luomiseksi.
+4. **Vahvista alkuperäinen hyväksytty indikaatio** — Ristiintarkista kansainväliset lähteet (FDA, EMA, PMDA) täyttääksesi `original_indications`, koska Taiwanin tietokanta palautti nolla tuloksia.
+5. **Luo uudelleen tämä todistepakkaus** — Vaiheiden 1–4 jälkeen luo uudelleen v4-pakkaus ja lähetä täydellisen uudelleenkäytön arvioinnin tekemiseen seuraten L1–L5-todisteen tasokehystä.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

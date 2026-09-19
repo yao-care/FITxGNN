@@ -29,96 +29,97 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Duvelisib: From Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma to Hodgkin's Lymphoma
+# Duvelisib: Kroonisesta lymfosyyttisesta leukemiasta/pienestä lymfosyyttisesta lymfoomasta Hodgkinin lymfoomaan
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Duvelisib is a PI3Kδ/γ dual inhibitor whose only confirmed use (per the literature in this evidence pack) is relapsed/refractory chronic lymphocytic leukemia/small lymphocytic lymphoma (CLL/SLL) and follicular lymphoma; it is **not marketed in Finland**.
-The TxGNN model's top-ranked prediction is **Hodgkin's Lymphoma**, with **11 clinical trials** and **16 publications** retrieved for this pairing — but on inspection, every one of them actually studies **Non-Hodgkin lymphoma** subtypes, not true Hodgkin's lymphoma. This is flagged in the evidence pack itself as a likely disease-ontology mismatch, not a genuine mechanistic signal.
+Duvelisib on PI3Kδ/γ-kaksoishidastin, jonka ainoa vahvistettu käyttö (kirjallisuuden perusteella tässä todistelupakkauksessa) on uusiutunut/refraktaari krooninen lymfosyyttinen leukemia/pieni lymfosyyttinen lymfooma (CLL/SLL) ja follikulaarinen lymfooma; sitä **ei markkinoida Suomessa**.
+TxGNN-mallin korkeimmaksi sijoitettu ennustus on **Hodgkinin lymfooma**, jolle on löydetty **11 kliinistä tutkimusta** ja **16 julkaisua** — mutta tarkasteltaessa jokainen niistä tutkii itse asiassa **Non-Hodgkinin lymfooman** alamuotoja, ei todellista Hodgkinin lymfoomaa. Tämä on merkitty todistelupakkauksessa itsessään mahdolliseksi tautiontologian epäsuhtaksi, ei todelliseksi mekanistiseksi signaaliksi.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Relapsed/refractory CLL/SLL and follicular lymphoma (per literature; not a Fimea-approved indication — drug is unmarketed in Finland) |
-| Predicted New Indication | Hodgkin's Lymphoma |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L4 |
-| Finland Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen indikaatio | Uusiutunut/refraktaari CLL/SLL ja follikulaarinen lymfooma (kirjallisuuden perusteella; ei Fimean hyväksytty indikaatio — lääke ei ole markkinoilla Suomessa) |
+| Ennustettu uusi indikaatio | Hodgkinin lymfooma |
+| TxGNN-ennustuspisteet | 99.94% |
+| Todistelun taso | L4 |
+| Suomen markkinatilanne | Ei markkinoilla (Ei markkinoilla) |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Pidä |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennustus on järkevä?
 
-Currently, detailed mechanism of action data is not available (drug.original_moa = Data Gap). Based on the literature retrieved in this evidence pack, duvelisib is described as an oral dual inhibitor of phosphoinositide-3-kinase (PI3K)-δ and PI3K-γ, blocking B-cell receptor signaling and tumor-microenvironment survival cues in lymphoid malignancies. It received its first global approval (outside Finland/Taiwan) for CLL/SLL, and later follicular lymphoma.
+Tällä hetkellä mekanismin toiminnan yksityiskohtaisia tietoja ei ole saatavilla (drug.original_moa = Data Gap). Tässä todistelupakkauksessa haetun kirjallisuuden perusteella duvelisib kuvataan suun kautta otettavaksi fosfooinositidi-3-kiinaasi (PI3K)-δ:n ja PI3K-γ:n kaksoishidastimeksi, joka estää B-solujen reseptorisignalointia ja tuumorin mikroympäristön selviytymisvihjeitä lymfoidisissa pahanlaatuisissa sairauksissa. Se sai ensimmäisen globaalin hyväksynnän (Suomen/Taiwanin ulkopuolella) CLL/SLL:lle ja myöhemmin follikulaariselle lymfoomalle.
 
-**Important caveat:** the repurposing rationale explicitly attached to this candidate states that of the 11 trials and 16 papers surfaced for "Hodgkin's Lymphoma," none actually studies classical Hodgkin's lymphoma (Reed-Sternberg cell biology, NF-κB/EBV-driven pathogenesis). All of them study indolent/aggressive **Non-Hodgkin lymphoma** (follicular lymphoma, CLL/SLL, mantle cell lymphoma, peripheral T-cell lymphoma). This pattern is consistent with a knowledge-graph disease-naming collision ("Hodgkin's" vs. "Non-Hodgkin's") rather than a real mechanistic link between PI3Kδ/γ inhibition and Hodgkin's lymphoma biology. The evidence below should be read with that mismatch in mind — it supports duvelisib's role in B/T-cell NHL, not HL.
+**Tärkeä varoitus:** tähän kandidaattiin nimenomaisesti liitetyn uudelleenkäytön perustelun mukaan 11 tutkimuksesta ja 16 artikkelista, jotka paljastuivat "Hodgkinin lymfoomaa" varten, mikään ei itse asiassa tutki klassista Hodgkinin lymfoomaa (Reed-Sternberg-solubiologia, NF-κB/EBV-ohjattu patogenees). Kaikki niistä tutkivat indolentin/aggressiivisen **Non-Hodgkinin lymfooman** alamuotoja (follikulaarinen lymfooma, CLL/SLL, manttelisolulymfooma, perifeerinen T-solulymfooma). Tämä kuvio on johdonmukainen tietokaavion sairauden nimeämisen törmäyksen ("Hodgkin's" vs. "Non-Hodgkin's") kanssa pikemminkin kuin todellisen mekanistisen yhteyden kanssa PI3Kδ/γ-inhibition ja Hodgkinin lymfooman biologian välillä. Alla oleva todistelu tulee lukea tämä epäsuhta mielessä pitäen — se tukee duvelisibin roolia B/T-solujen NHL:ssa, ei HL:ssa.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen todisteet
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset löydökset |
 |---------|------|------|------|---------|
-| [NCT04379167](https://clinicaltrials.gov/study/NCT04379167) | Phase 2 | Unknown | 140 | YY-20394 (a duvelisib analog) monotherapy in relapsed/refractory **follicular Non-Hodgkin lymphoma** failing ≥2 prior therapies |
-| [NCT05923502](https://clinicaltrials.gov/study/NCT05923502) | N/A | Not yet recruiting | 200 | Real-world, non-interventional study of duvelisib capsules in **Non-Hodgkin lymphoma (NHL)** |
-| [NCT04803201](https://clinicaltrials.gov/study/NCT04803201) | Phase 2 | Suspended | 170 | CHO(E)P vs. CC-486-CHO(E)P vs. duvelisib-CHO(E)P in untreated CD30-negative **peripheral T-cell lymphoma** (relevance grade C — not HL) |
-| [NCT01882803](https://clinicaltrials.gov/study/NCT01882803) | Phase 2 | Completed | 129 | Duvelisib monotherapy in rituximab-refractory **indolent Non-Hodgkin lymphoma** (FL, MZL, SLL) (relevance grade C — distinct disease entity from HL) |
-| [NCT04038359](https://clinicaltrials.gov/study/NCT04038359) | Phase 2 | Completed | 103 | Compared two intermittent dosing schedules of duvelisib in **indolent NHL** (relevance grade C — not HL) |
-| [NCT05044039](https://clinicaltrials.gov/study/NCT05044039) | Phase 1 | Active, not recruiting | 42 | Duvelisib after CAR T-cell therapy to improve CAR T persistence via PI3K inhibition, in lymphoid malignancies |
-| [NCT04836832](https://clinicaltrials.gov/study/NCT04836832) | Phase 1 | Withdrawn | 0 | Duvelisib + acalabrutinib in relapsed/refractory **indolent NHL** (DUAL trial) |
-| [NCT02640833](https://clinicaltrials.gov/study/NCT02640833) | Phase 1 | Withdrawn | 0 | Duvelisib + venetoclax in relapsed/refractory CLL, SLL, or indolent/aggressive **NHL** |
-| [NCT05065866](https://clinicaltrials.gov/study/NCT05065866) | Phase 1 | Completed | 14 | Duvelisib + BMS-986345 combination, safety/tolerability in lymphoid malignancy |
-| [NCT01871675](https://clinicaltrials.gov/study/NCT01871675) | Phase 1 | Completed | 48 | IPI-145 (duvelisib) + rituximab or bendamustine/rituximab in lymphoma or CLL |
+| [NCT04379167](https://clinicaltrials.gov/study/NCT04379167) | Vaihe 2 | Tuntematon | 140 | YY-20394 (duvelisibin analogin) monoterapia uusiutuvassa/refraktaarissa **follikulaarissa Non-Hodgkinin lymfoomassa**, joissa ≥2 aiempaa terapiaa epäonnistui |
+| [NCT05923502](https://clinicaltrials.gov/study/NCT05923502) | N/A | Ei vielä rekrytoiva | 200 | Todellisen maailman, ei-interventionaalinen tutkimus duvelisibin kapseleista **Non-Hodgkinin lymfoomassa (NHL)** |
+| [NCT04803201](https://clinicaltrials.gov/study/NCT04803201) | Vaihe 2 | Keskeytetty | 170 | CHO(E)P vs. CC-486-CHO(E)P vs. duvelisib-CHO(E)P käsittelemättömässä CD30-negatiivisessa **perifeerisen T-solulymfoomassa** (relevanssiaste C — ei HL) |
+| [NCT01882803](https://clinicaltrials.gov/study/NCT01882803) | Vaihe 2 | Valmis | 129 | Duvelisibin monoterapia rituximabille refraktaarissa **indolenteissa Non-Hodgkinin lymfoomissa** (FL, MZL, SLL) (relevanssiaste C — eroava sairauden muoto HL:sta) |
+| [NCT04038359](https://clinicaltrials.gov/study/NCT04038359) | Vaihe 2 | Valmis | 103 | Kahden keskeytyneen annostelun vertailu duvelisibin osalta **indolenteissa NHL**:ssa (relevanssiaste C — ei HL) |
+| [NCT05044039](https://clinicaltrials.gov/study/NCT05044039) | Vaihe 1 | Aktiivinen, ei rekrytoiva | 42 | Duvelisib CAR T-solujen terapian jälkeen CAR T:n pysyvyyden parantamiseksi PI3K-inhibition kautta lymfoidisissa pahanlaatuisissa sairauksissa |
+| [NCT04836832](https://clinicaltrials.gov/study/NCT04836832) | Vaihe 1 | Peruutettu | 0 | Duvelisib + akalabrutiinib uusiutuvassa/refraktaarissa **indolenteissa NHL**:ssa (DUAL-tutkimus) |
+| [NCT02640833](https://clinicaltrials.gov/study/NCT02640833) | Vaihe 1 | Peruutettu | 0 | Duvelisib + venetoklakssi uusiutuvassa/refraktaarissa CLL:ssa, SLL:ssa tai indolenteissa/aggressiivisissa **NHL**:ssa |
+| [NCT05065866](https://clinicaltrials.gov/study/NCT05065866) | Vaihe 1 | Valmis | 14 | Duvelisib + BMS-986345-yhdistelmä, turvallisuus/siedettävyys lymfoidisissa pahanlaatuisissa sairauksissa |
+| [NCT01871675](https://clinicaltrials.gov/study/NCT01871675) | Vaihe 1 | Valmis | 48 | IPI-145 (duvelisib) + rituximab tai bendamustiini/rituximab lymfoomassa tai CLL:ssa |
 
-## Literature Evidence
+## Kirjallisuuden todisteet
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
 |------|-----|------|------|---------|
-| [36685572](https://pubmed.ncbi.nlm.nih.gov/36685572/) | 2022 | Systematic Review/Meta-analysis | Frontiers in Immunology | Safety and efficacy of duvelisib across relapsed/refractory lymphoid neoplasms |
-| [36882482](https://pubmed.ncbi.nlm.nih.gov/36882482/) | 2023 | Preclinical | Scientific Reports | PI3Kγ/δ expression drives mantle cell lymphoma proliferation/migration, supporting duvelisib efficacy in MCL |
-| [30799261](https://pubmed.ncbi.nlm.nih.gov/30799261/) | 2019 | Review | The Lancet Oncology | Duvelisib in indolent Non-Hodgkin lymphoma |
-| [31580408](https://pubmed.ncbi.nlm.nih.gov/31580408/) | 2019 | Review | Am J Health-Syst Pharm | Summary of approved targeted therapies for B- and T-cell lymphomas |
-| [31490009](https://pubmed.ncbi.nlm.nih.gov/31490009/) | 2019 | Clinical (Phase 1) | Am J Hematology | Duvelisib + rituximab or bendamustine/rituximab in NHL/CLL patients |
-| [33616890](https://pubmed.ncbi.nlm.nih.gov/33616890/) | 2021 | Review | Drugs | Novel therapy approaches, including PI3K inhibitors, in follicular lymphoma |
-| [32356174](https://pubmed.ncbi.nlm.nih.gov/32356174/) | 2020 | Review | Curr Treat Options Oncol | PI3K inhibitors as targeted therapy in lymphoma, incl. duvelisib |
-| [39836493](https://pubmed.ncbi.nlm.nih.gov/39836493/) | 2025 | Preclinical/Mechanistic | Advanced Science | TTK as a novel drug target in T-cell lymphoma (mechanistic, not duvelisib-specific) |
-| [27872741](https://pubmed.ncbi.nlm.nih.gov/27872741/) | 2016 | Review | Mediterr J Hematol Infect Dis | Novel drugs, incl. PI3K inhibitors, in follicular lymphoma |
-| [32658557](https://pubmed.ncbi.nlm.nih.gov/32658557/) | 2020 | Review | Future Oncology | Role of PI3K inhibitors (copanlisib class) in Non-Hodgkin lymphoma |
+| [36685572](https://pubmed.ncbi.nlm.nih.gov/36685572/) | 2022 | Systemaattinen katsaus/Meta-analyysi | Frontiers in Immunology | Duvelisibin turvallisuus ja tehokkuus uusiutuvissa/refraktaarissa lymfoidisissa pahanlaatuisissa sairauksissa |
+| [36882482](https://pubmed.ncbi.nlm.nih.gov/36882482/) | 2023 | Prekliininen | Scientific Reports | PI3Kγ/δ-ekspressio ohjaa manttelisolujen lymfooman proliferaatiota/migraatiota, tukien duvelisibin tehokkuutta MCL:ssa |
+| [30799261](https://pubmed.ncbi.nlm.nih.gov/30799261/) | 2019 | Katsaus | The Lancet Oncology | Duvelisib indolenteissa Non-Hodgkinin lymfoomissa |
+| [31580408](https://pubmed.ncbi.nlm.nih.gov/31580408/) | 2019 | Katsaus | Am J Health-Syst Pharm | Hyväksytyt kohdistetut hoidot B- ja T-solulymfoomille |
+| [31490009](https://pubmed.ncbi.nlm.nih.gov/31490009/) | 2019 | Kliininen (Vaihe 1) | Am J Hematology | Duvelisib + rituximab tai bendamustiini/rituximab NHL/CLL-potilaisissa |
+| [33616890](https://pubmed.ncbi.nlm.nih.gov/33616890/) | 2021 | Katsaus | Drugs | Uusien hoitomenetelmien lähestymistavat, mukaan lukien PI3K-inhibiittorit, follikulaarissa lymfoomassa |
+| [32356174](https://pubmed.ncbi.nlm.nih.gov/32356174/) | 2020 | Katsaus | Curr Treat Options Oncol | PI3K-inhibiittorit kohdistettuna hoitona lymfoomassa, mukaan lukien duvelisib |
+| [39836493](https://pubmed.ncbi.nlm.nih.gov/39836493/) | 2025 | Prekliininen/Mekanistinen | Advanced Science | TTK uutena lääkkeiden kohteena T-solulymfoomassa (mekanistinen, ei duvelisib-spesifinen) |
+| [27872741](https://pubmed.ncbi.nlm.nih.gov/27872741/) | 2016 | Katsaus | Mediterr J Hematol Infect Dis | Uudet lääkkeet, mukaan lukien PI3K-inhibiittorit, follikulaarissa lymfoomassa |
+| [32658557](https://pubmed.ncbi.nlm.nih.gov/32658557/) | 2020 | Katsaus | Future Oncology | PI3K-inhibiittorien (kopanlisiib-luokka) rooli Non-Hodgkinin lymfoomassa |
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-No Finland market authorization records exist for duvelisib — `taiwan_regulatory.market_status` = Not marketed (not marketed), 0 authorizations on file.
+Duvelisibin osalta ei ole olemassa Suomen markkinoiden hyväksyntätietueita — `taiwan_regulatory.market_status` = Ei markkinoilla (ei markkinoilla), 0 hyväksyntää tiedostossa.
 
-## Cytotoxicity
+## Sytotoksisuus
 
-Duvelisib is an antineoplastic agent (targeted kinase inhibitor used for hematologic malignancies).
+Duvelisib on pahanlaatuisten sairauksien vastainen aine (kohdistettu kiinaasihidastin, jota käytetään hematopoieettisissa pahanlaatuisissa sairauksissa).
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (PI3Kδ/γ dual inhibitor), not a conventional cytotoxic chemotherapy — per literature (PMID 38423708, 30430368) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| Sytotoksisuuden luokitus | Kohdistettu hoito (PI3Kδ/γ-kaksoishidastin), ei perinteinen sytotoksinen kemoterapia — kirjallisuuden perusteella (PMID 38423708, 30430368) |
+| Luuydinsuppressioriski | Katso pakkausseloste: varoitukset ja varotoimet |
+| Emetogenisuuden luokitus | Katso pakkausseloste: varoitukset ja varotoimet |
+| Valvontaa vaativat tekijät | Katso pakkausseloste: varoitukset ja varotoimet |
+| Käsittelysuojaus | Katso pakkausseloste: varoitukset ja varotoimet |
 
-## Safety Considerations
+## Turvallisuusnäkökohdista
 
-Please refer to the package insert for safety information.
+Katso turvallisuutta koskevat tiedot pakkauselosteesta.
 
-*Note: this evidence pack flags a Blocking data gap (DG001) — TFDA/package-insert warnings and contraindications could not be retrieved, which by itself prevents entry into the S1 safety pre-assessment stage regardless of efficacy evidence.*
+*Huomautus: tämä todistelupakkaus merkitsee estävää tietovaetta (DG001) — TFDA:n/pakkausselosteen varoituksia ja vasta-aiheita ei voitu hakea, mikä sinänsä estää siirtymisen S1-turvallisuuden esiarviointi-vaiheeseen riippumatta tehokkuutta koskevista todisteista.*
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidä**
 
-**Rationale:**
-- The evidence base for "Hodgkin's Lymphoma" is built entirely on Non-Hodgkin lymphoma trials/literature — a likely disease-ontology naming collision rather than a genuine mechanistic signal, so the L4/Hold call from the evidence pack stands.
-- A Blocking data gap (DG001: TFDA package insert / warnings and contraindications) independently prevents any S1 safety pre-assessment.
+**Perustelut:**
+- "Hodgkinin lymfooma" -todisteluperusta rakentuu kokonaan Non-Hodgkinin lymfooman tutkimuksilla/kirjallisuudella — todennäköisesti tietokaavion sairauden nimeämisen törmäys pikemminkin kuin todellinen mekanistinen signaali, joten todistelupakkauksen L4/Pidä-päätös jää voimaan.
+- Estävä tietovaje (DG001: TFDA-pakkausseloste / varoitukset ja vasta-aiheet) estää itsenäisesti minkään S1-turvallisuuden esiarvioinnin.
 
-**To proceed, the following is needed:**
-- Resolve the Hodgkin's vs. Non-Hodgkin's lymphoma entity mapping before any further evaluation of this candidate
-- Retrieve TFDA/manufacturer package insert (warnings, contraindications, DDI) — DG001
-- Retrieve confirmed mechanism of action from DrugBank — DG002
-- If re-scoping to Non-Hodgkin lymphoma subtypes is warranted, note that "B-cell neoplasm" (rank 9 in this evidence pack) already carries L1 evidence (Phase 3 DUO trial) — but that reflects duvelisib's existing approved indication (CLL/SLL, FL), not a novel repurposing opportunity, and should be evaluated as a market-access question rather than a repurposing candidate
+**Jatkon edellyttää seuraavaa:**
+- Ratkaise Hodgkinin vs. Non-Hodgkinin lymfooman entiteettikartoitus ennen tämän kandidaatin arviointia eteenpäin
+- Hanki TFDA:n/valmistajan pakkausseloste (varoitukset, vasta-aiheet, lääkkeellisten vuorovaikutusten riski) — DG001
+- Hanki vahvistettu mekanismin toiminta DrugBankista — DG002
+- Jos uudelleenlaajuuden määrittäminen Non-Hodgkinin lymfooman alamuotoihin on perusteltua, huomaa, että "B-solun pahanlaatuinen kasvain" (sija 9 tässä todistelupakkauksessa) sisältää jo L1-todisteen (Vaihe 3 DUO-tutkimus) — mutta se heijastaa duvelisibin olemassa olevaa hyväksyttyä indikaatiota (CLL/SLL, FL), ei uutta uudelleenkäyttömahdollisuutta, ja se olisi arvioitava markkinoille pääsyn kysymyksenä pikemminkin kuin uudelleenkäyttöehdokkaaksi
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

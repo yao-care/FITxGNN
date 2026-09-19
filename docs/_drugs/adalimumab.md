@@ -29,105 +29,102 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-Using no additional coding tools — this is a direct content-generation task per the detailed prompt template. Below is the report generated from the Evidence Pack.
+# Adalimumab: reumatoidiartriitista reumatoidiseen vaskuiittihin
+
+## Yhden lauseen yhteenveto
+
+> Adalimumab on täysin ihmisen peräisin oleva anti-TNF-α monoklonaalinen vasta-aine, joka on pitkään vakiintunut reumatoidiartriitiin ja muihin samankaltaisiin autoimmuunitulehduksellisiin sairauksiin liittyvänä hoitona.
+> TxGNN-malli ennustaa, että se saattaa olla tehokas myös **reumatoidiseen vaskuiittihin (RV)**, reumatoidiartriittiin liittyvään vakavaan ekstraartikulaariseen ilmentymään,
+> ja tällä hetkellä **5 kliinistä tutkimusta** ja **10 järjestettyä julkaisua** tukevat (ja mutkistavat) tätä suuntaa — kirjallisuus osoittaa sekä terapeuttisia että haitallisia yhteyksiä adalimumab-hoidon ja vaskuiitin välillä.
 
 ---
 
-# Adalimumab: From Rheumatoid Arthritis to Rheumatoid Vasculitis
+## Nopea yleiskatsaus
 
-## One-Sentence Summary
-
-> Adalimumab is a fully human anti-TNF-α monoclonal antibody, long established as a treatment for rheumatoid arthritis and related autoimmune inflammatory diseases.
-> The TxGNN model predicts it may also be effective for **Rheumatoid Vasculitis (RV)**, a severe extra-articular manifestation of RA,
-> with **5 clinical trials** and **10 curated publications** currently supporting (and complicating) this direction — the literature shows both therapeutic and adverse associations between adalimumab and vasculitis.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Rheumatoid arthritis (and related TNF-α–driven autoimmune diseases). *Note: Fimea-specific approved-indication text is not present in this evidence pack — regulatory license data is empty (data gap).* |
-| Predicted New Indication | Rheumatoid Vasculitis |
-| TxGNN Prediction Score | 99.80% |
-| Evidence Level | L3 |
-| Finland Market Status | ✗ Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|-------|---------|
+| Alkuperäinen indikaatio | Reumatoidiartriitti (ja TNF-α-vetoiset autoimmuunitulehdukselliset sairaudet). *Huomio: Fimean hyväksyttävien indikaatioiden tekstiä ei ole tässä näyttöpaketissa — sääntelylupa-data puuttuu (tietoraossa).* |
+| Ennustettu uusi indikaatio | Reumatoidinen vaskuiitti |
+| TxGNN-ennustepistemäärä | 99.80% |
+| Näyttötaso | L3 |
+| Suomen markkinatilanne | ✗ Ei saatavana markkinoilla (Ei saatavana markkinoilla) |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Odota |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennustus on järkevä?
 
-Detailed mechanism-of-action data was not returned in this evidence pack (`original_moa: [Data Gap]`). Based on well-established public information, adalimumab is a fully human IgG1 monoclonal antibody that binds and neutralizes TNF-α, blocking its downstream pro-inflammatory signaling. It is a founding member of the anti-TNF class alongside infliximab and etanercept, approved across numerous countries for rheumatoid arthritis, psoriatic arthritis, ankylosing spondylitis, juvenile idiopathic arthritis, psoriasis, and inflammatory bowel disease.
+Yksityiskohtaisia mekanismin tietoja ei palautettu tässä näyttöpaketissa (`original_moa: [Tietoraossa]`). Hyvin vakiintuneiden julkisten tietojen perusteella adalimumab on täysin ihmisen peräisin oleva IgG1 monoklonaalinen vasta-aine, joka sitoutuu TNF-α:han ja neutraloi sen, estäen sen alavirtaan suuntautuvaa proinfiammatorista signalointia. Se on anti-TNF-luokan perustajajäsen infliksimabi ja etanersepin rinnalla, hyväksytty lukuisissa maissa reumatoidiartriittiin, psoriaattiartriittiin, aksiaalisen spondyliitiin, nuorten idiopaattiseen artriittiin, psoriaasiin ja inflammatoorisiin suolistosairauksiin.
 
-Rheumatoid vasculitis (RV) is one of the most severe extra-articular manifestations of long-standing, often seropositive rheumatoid arthritis, driven by immune-complex deposition and TNF-α–mediated inflammation of blood vessel walls. Because RV arises directly from uncontrolled RA-associated inflammation, and TNF-α is a key cytokine in that pathway, suppressing TNF-α is mechanistically plausible as a way to reduce vascular wall inflammation and immune-complex burden — this is the biological rationale TxGNN's knowledge graph is likely capturing.
+Reumatoidinen vaskuiitti (RV) on yksi vakavimmista pitkäkestoisen, usein seropositiivisen reumatoidiartriittin ekstraartikulaarisista ilmenemismuodoista, jota aiheuttavat immunekompleksien sedimentaatio ja TNF-α-välitteinen verisuonten seinämien inflammaatio. Koska RV syntyy suoraan hallitsemattomasta RA-assosioituneet inflammaatiosta ja TNF-α on tämän reitin keskeinen sytokirii, TNF-α:n estäminen on mekanismisesti uskottava keino verisuonten seinämän inflammaation ja immunekompleksitaakan vähentämiseksi — tämä on biologinen perustelu, jonka TxGNN:n tietoverkko todennäköisesti kuvaa.
 
-However, the evidence is genuinely two-sided. On one hand, a published case report (PMID 25133007) describes digital vasculitis in an RA patient responding well to adalimumab, and a systematic review (PMID 33058033) discusses biologics — including anti-TNF agents — as part of the RV therapeutic armamentarium. On the other hand, multiple case reports and a pharmacovigilance cohort (PMID 28719435, PMID 28123776, PMID 36418100) describe adalimumab and other TNF inhibitors *inducing* vasculitis-like or lupus-like adverse reactions in RA patients. This paradox — TNF-α blockade as both a potential treatment and a potential trigger of vasculitis — means the mechanistic link, while biologically plausible, is not yet directionally resolved and requires focused safety/efficacy disambiguation before further evaluation.
+Kuitenkin näyttö on todella kaksijakoinen. Toisaalta julkaistu tapausraportti (PMID 25133007) kuvaa digitaalisen vaskuiitin RA-potilaalla, joka vastasi hyvin adalimumab-hoitoon, ja järjestelmällinen katsaus (PMID 33058033) käsittelee biologisia lääkkeitä — myös anti-TNF-aineita — osana RV:n terapeuttista arsenaalia. Toisaalta useat tapausraportit ja lääketurvallisuusvalvontakohortti (PMID 28719435, PMID 28123776, PMID 36418100) kuvaavat adalimumab- ja muita TNF-estäjälääkkeitä *aiheuttavan* vaskuiitin-kaltaisia tai lupus-kaltaisia haittavaikutuksia RA-potilaissa. Tämä paradoksi — TNF-α-esto sekä mahdollisena vaskuiitin hoitona että mahdollisena käynnistäjänä — tarkoittaa, että mekanistinen yhteys, vaikka biologisesti uskottava, ei ole vielä suunnan osalta ratkaistu ja vaatii keskittynyt turvallisuus-/tehokkuus-selvityksen ennen lisäselvityksiä.
 
 ---
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimusnumero | Vaihe | Tila | Rekrytointi | Keskeiset tulokset |
 |---------|------|------|------|---------|
-| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | Not yet recruiting | 80 | Perioperative immunosuppressant management (incl. adalimumab) in rheumatology patients undergoing shoulder arthroplasty; assesses flare risk, not RV efficacy directly (Grade C). |
-| [NCT01579006](https://clinicaltrials.gov/study/NCT01579006) | N/A | Completed | 184 | Multinational observational study of tocilizumab in RA patients with inadequate DMARD/biologic response; not RV-specific (Grade C). |
-| [NCT05111743](https://clinicaltrials.gov/study/NCT05111743) | N/A | Completed | 9,261 | Real-world safety study of brolucizumab in wet AMD — unrelated to adalimumab or RV, likely a keyword-matching artifact (Grade C). |
-| [NCT02590562](https://clinicaltrials.gov/study/NCT02590562) | N/A | Completed | 808 | Cross-sectional study of biologic DMARD treatment patterns in Chinese RA patients; not vasculitis-specific (Grade C). |
-| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | N/A | Unknown | 750,000 | Large cohort assessing risk of developing a second immune-mediated inflammatory disease (IMID, incl. vasculitis) after biologic/immunosuppressive treatment for a first IMID; indirectly relevant to the safety side of this question (Grade B). |
+| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Vaihe 2 | Ei vielä rekrytoinnissa | 80 | Perioperatiivinen immunosuppressiivinen hallinta (myös adalimumab) reumatologian potilaissa, jotka käyvät läpi hartiadiartiplastiikasta; arvioi pahenemisentaajuutta, ei suoraan RV-tehokkuutta (Grade C). |
+| [NCT01579006](https://clinicaltrials.gov/study/NCT01579006) | N/A | Valmis | 184 | Monikansallinen havainnointitutkimus tosilisumabista RA-potilaissa, joilla on riittämätön DMARD/biologinen vastaus; ei RV-spesifistä (Grade C). |
+| [NCT05111743](https://clinicaltrials.gov/study/NCT05111743) | N/A | Valmis | 9,261 | Todellisen maailman turvallisuustutkimus brolutsisumabista märässä AMD:ssä — ei liity adalimumabiin tai RV:hen, todennäköisesti avainsanan hakemisen artefakti (Grade C). |
+| [NCT02590562](https://clinicaltrials.gov/study/NCT02590562) | N/A | Valmis | 808 | Poikkileikkaustutkimus biologisesta DMARD-hoitomalleista kiinalaisissa RA-potilaissa; ei vaskuiitin-spesifistä (Grade C). |
+| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | N/A | Tuntematon | 750,000 | Laaja kohortti, joka arvioi toisen immuuni-välitteisen inflammatorisen sairauden (IMID, myös vaskuiitti) kehittymisen riskiä biologis-/immunosuppressiivisen hoidon jälkeen ensimmäiseen IMID:hen; epäsuorasti liittyvä tämän kysymyksen turvallisuuspuolelle (Grade B). |
 
-*No trial in this set was designed specifically to test adalimumab's efficacy in rheumatoid vasculitis; all listed trials are indirect (RA population studies, biologic safety registries, or likely mismatches).*
+*Yksikään tämän joukon tutkimus ei ole suunniteltu nimenomaisesti testaamaan adalimumab-hoitoa reumatoidisen vaskuiitin tehokkuuden osalta; kaikki lueteltujen tutkimuksissa ovat epäsuoria (RA-väestötasoiset tutkimukset, biologisen DMARD-rekisterit tai todennäköiset epäsopivuudet).*
 
 ---
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset tulokset |
 |------|-----|------|------|---------|
-| [33058033](https://pubmed.ncbi.nlm.nih.gov/33058033/) | 2021 | Systematic Review | Clinical Rheumatology | Systematic review of biological drugs (including anti-TNF agents) in the treatment of rheumatoid vasculitis — the most directly relevant evidence source. |
-| [28123776](https://pubmed.ncbi.nlm.nih.gov/28123776/) | 2017 | Pharmacovigilance Cohort | RMD Open | BSRBR-RA registry data comparing risk/characteristics of lupus-like and vasculitis-like events in RA patients on TNF inhibitors vs. non-biologic DMARDs — key safety signal. |
-| [34068884](https://pubmed.ncbi.nlm.nih.gov/34068884/) | 2021 | Review | Journal of Clinical Medicine | Update on treatment of RA-associated episcleritis and scleritis (ocular vasculitic manifestations). |
-| [31163474](https://pubmed.ncbi.nlm.nih.gov/31163474/) | 2019 | Review | Deutsche Medizinische Wochenschrift | Review of JAK inhibitors in rheumatology, contextualizing alternatives to anti-TNF therapy. |
-| [37699653](https://pubmed.ncbi.nlm.nih.gov/37699653/) | 2024 | Genetic Association Study | Annals of the Rheumatic Diseases | HLA-DRB1/HLA-DQA1 associations with immunogenicity to adalimumab in RA patients. |
-| [38931826](https://pubmed.ncbi.nlm.nih.gov/38931826/) | 2024 | PK Modeling Study | Pharmaceutics | Population PK modeling of adalimumab/etanercept biosimilar dosing regimens in RA. |
-| [30773522](https://pubmed.ncbi.nlm.nih.gov/30773522/) | 2019 | Case Report | Internal Medicine (Tokyo) | Acute pulmonary hypertension crisis in a rheumatoid vasculitis patient following adalimumab dose reduction — suggests a protective effect of continued therapy. |
-| [36418100](https://pubmed.ncbi.nlm.nih.gov/36418100/) | 2023 | Case Report | Internal Medicine (Tokyo) | Tocilizumab used to treat ANCA-associated nephritis that developed during abatacept/adalimumab therapy for RA. |
-| [28719435](https://pubmed.ncbi.nlm.nih.gov/28719435/) | 2018 | Case Report (Adverse Event) | American Journal of Dermatopathology | Leukocytoclastic vasculitis with dermal perivascular hemophagocytosis associated with adalimumab therapy — an adverse (pro-vasculitic) signal. |
-| [25133007](https://pubmed.ncbi.nlm.nih.gov/25133007/) | 2014 | Case Report | Case Reports in Rheumatology | Digital vasculitis in an RA patient that responded well to adalimumab — a positive efficacy signal for RV. |
+| [33058033](https://pubmed.ncbi.nlm.nih.gov/33058033/) | 2021 | Järjestelmällinen katsaus | Clinical Rheumatology | Järjestelmällinen katsaus biologisista lääkkeistä (myös anti-TNF-aineista) reumatoidisen vaskuiitin hoitoon — suoraan osuvain näyttölähde. |
+| [28123776](https://pubmed.ncbi.nlm.nih.gov/28123776/) | 2017 | Lääketurvallisuusvalvontakohortti | RMD Open | BSRBR-RA rekisteritiedot, jotka vertailevat lupus-kaltaisten ja vaskuiitin-kaltaisten tapahtumien riskiä ja ominaisuuksia RA-potilaissa TNF-estäjillä vs. ei-biologisilla DMARD-lääkkeillä — keskeinen turvallisuussignaali. |
+| [34068884](https://pubmed.ncbi.nlm.nih.gov/34068884/) | 2021 | Katsaus | Journal of Clinical Medicine | Päivitys RA-assosioituneen episkleriitin ja skleriitin (silmän vaskuiittiset ilmenemismuodot) hoitoon. |
+| [31163474](https://pubmed.ncbi.nlm.nih.gov/31163474/) | 2019 | Katsaus | Deutsche Medizinische Wochenschrift | Katsaus JAK-estäjiin reumatologiassa, asettaen ne suhteeseen anti-TNF-terapian vaihtoehdoista. |
+| [37699653](https://pubmed.ncbi.nlm.nih.gov/37699653/) | 2024 | Geneettinen assosiaatiotutkimus | Annals of the Rheumatic Diseases | HLA-DRB1/HLA-DQA1 assosiaatiot adalimumab-immunogeniteettiä vastaan RA-potilaissa. |
+| [38931826](https://pubmed.ncbi.nlm.nih.gov/38931826/) | 2024 | PK-mallinnus tutkimus | Pharmaceutics | Populaation PK-mallinnus adalimumab/etanersepi biosimilaari-annostusjärjestelmistä RA:ssa. |
+| [30773522](https://pubmed.ncbi.nlm.nih.gov/30773522/) | 2019 | Tapausraportti | Internal Medicine (Tokyo) | Akuutti keuhkojen hypertensio-kriisi reumatoidisen vaskuiitin potilaalla adalimumab-annoksen vähentämisen jälkeen — viittaa jatkuvan hoidon suojaavaan vaikutukseen. |
+| [36418100](https://pubmed.ncbi.nlm.nih.gov/36418100/) | 2023 | Tapausraportti | Internal Medicine (Tokyo) | Tosilisumab käytetään ANCA-assosioituneen nefriittin hoitoon, joka kehittyi abatasepti/adalimumab-hoidon aikana RA:ta varten. |
+| [28719435](https://pubmed.ncbi.nlm.nih.gov/28719435/) | 2018 | Tapausraportti (haittatapahtuma) | American Journal of Dermatopathology | Leukosytoklastinen vaskuiitti dermaalisella perivaskulaarisella hemofagosytoosin kanssa, joka liittyy adalimumab-hoitoon — haittava (pro-vaskuiitti) signaali. |
+| [25133007](https://pubmed.ncbi.nlm.nih.gov/25133007/) | 2014 | Tapausraportti | Case Reports in Rheumatology | Digitaalinen vaskuiitti RA-potilaalla, joka vastasi hyvin adalimumab-hoitoon — positiivinen tehokkuussignaali RV:lle. |
 
-*Ten additional literature records were retrieved but remain unclassified (`study_type: pending`) in the source data and were excluded from this table pending classification.*
-
----
-
-## Finland Market Information
-
-Adalimumab is currently **not marketed** in Finland per this evidence pack (`market_status: Not marketed`, `total_licenses: 0`), and no license records are available to summarize. This should be independently confirmed against the current Fimea register, since adalimumab (including originator Humira® and multiple biosimilars) is widely marketed in the EU/EEA, and an unmarketed status here may reflect a gap in the source query rather than actual regulatory status.
+*Kymmenen lisäkirjallisuustietuetta haettiin, mutta ne jäävät luokittelematta (`study_type: pending`) lähdetiedoissa ja jätettiin pois tästä taulukosta odottaen luokittelua.*
 
 ---
 
-## Safety Considerations
+## Suomen markkinatiedot
 
-Please refer to the package insert for safety information — `key_warnings`, `contraindications`, and DDI data are all marked as data gaps or not found in this evidence pack.
-
-**Important:** the meta-level data gap log flags this as a **Blocking** issue (DG001 — TFDA/Fimea package insert warnings/contraindications, source: TFDA official site, remediation: retrieve and parse the package insert PDF). Per the evidence pack, this gap currently **prevents entry into the S1 safety pre-assessment stage** for this candidate, independent of the mechanistic or clinical-trial evidence discussed above.
+Adalimumab ei ole tällä hetkellä **saatavana markkinoilla** Suomessa tämän näyttöpaketin mukaan (`market_status: Not marketed`, `total_licenses: 0`), ja lupatietueita ei ole saatavilla yhteenveto. Tämä olisi vahvistettava itsenäisesti Fimean nykyistä rekisteriä vastaan, sillä adalimumab (myös alkuperäinen Humira® ja useat biosimilaarit) on laajalti saatavana EU/ETA-alueella, ja saatavana olematon tila täällä saattaa heijastaa lähdekyselyssä puutetta pikemminkin kuin todellista sääntelystä poissaoloa.
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuusnäkökohdat
 
-**Decision: Hold**
+Katso pakkausseloste turvallisuustiedoista — `key_warnings`, `contraindications` ja DDI-tiedot on merkitty kaikki tietoraoksi tai niitä ei ole löydetty tässä näyttöpaketissa.
 
-**Rationale:**
-- A **Blocking** data gap (DG001) means official prescribing-label safety information (warnings/contraindications) is unavailable, which by itself prevents progression to formal safety pre-assessment (S1).
-- Independent of that gap, the disease-specific evidence is only **L3** (systematic review/cohort level, no completed RCT targeting adalimumab in RV) and is **directionally mixed** — published case reports support adalimumab both as a treatment for RV-related vasculitis and as a possible trigger of vasculitis-like/lupus-like reactions in RA patients on TNF inhibitors.
+**Tärkeää:** metatasoisen tietoraon loki merkitsee tämän **estäväksi** ongelmaksi (DG001 — TFDA/Fimea pakkausselosteen varoitukset/vasta-aiheet, lähde: TFDA virallinen sivusto, remediointi: pakkausselosteen PDF:n hakeminen ja jäsentäminen). Näyttöpaketin mukaan tämä aukko tällä hetkellä **estää pääsyn S1 turvallisuuden esihyväksyntävaiheeseen** tälle ehdokkaalle, riippumatta edellä käsitellystä mekanistisesta tai kliinisen tutkimuksen näytöstä.
 
-**To proceed, the following is needed:**
-- Retrieve and parse the TFDA/Fimea package insert to resolve the Blocking safety data gap (DG001).
-- Obtain structured DrugBank MOA and toxicity data (DG002) to formally support the mechanistic rationale.
-- Conduct a focused pharmacovigilance/case-series analysis to disambiguate whether TNF-α blockade with adalimumab more often treats or triggers vasculitis in RA patients, since current evidence supports both directions.
-- If proceeding, define an RV-specific interventional trial design and endpoints, since no completed randomized trial currently tests adalimumab directly for this indication.
-- Confirm Finland/Fimea market and licensing status directly against the current register, as the "not marketed" status here may reflect an incomplete source query rather than true regulatory absence.
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Odota**
+
+**Perustelu:**
+- **Estävä** tietoraoko (DG001) tarkoittaa, että virallisen reseptiseloste-turvallisuustiedot (varoitukset/vasta-aiheet) eivät ole saatavilla, mikä sinänsä estää edistymisen muodolliseen turvallisuuden esihyväksyntään (S1).
+- Tästä raoista riippumatta, sairauden-spesifistä näyttö on vain **L3** (järjestelmällinen katsaus/kohorttitaso, ei valmista RCT:tä, joka kohdistaisi adalimumab-hoitoa RV:hen) ja on **suunnallisesti sekoitettu** — julkaistut tapausraportit tukevat adalimumab-hoitoa sekä RV-liittyväiseen vaskuiittiin hoitona että mahdollisena TNF-estäjillä olevia RA-potilaita vaskuiitin-kaltaisia/lupus-kaltaisia reaktioita käynnistävänä.
+
+**Edistymiseksi seuraavat asiat ovat tarpeen:**
+- Hae ja jäsentämään TFDA/Fimea pakkausseloste ratkaisemaan estävä turvallisuus-tietoraoko (DG001).
+- Hanki strukturoitu DrugBank MOA ja myrkyllisyystiedot (DG002) tukemaan muodollisesti mekanistista perustelua.
+- Suorita kohdistettu lääketurvallisuusvalvonta/tapaussarja-analyysi selvittämään, käsitteleekö vai käynnistääkö TNF-α-esto adalimumab-hoitolla useammin vaskuiitin RA-potilaissa, koska nykyinen näyttö tukee molempia suuntia.
+- Jos jatketaan, määritä RV-spesifisti interventiotutkimuksen kuvaus ja päätepiirteet, koska mikään valmis satunnaistettu tutkimus ei tällä hetkellä testaa adalimumab-hoitoa suoraan tätä indikaatiota varten.
+- Vahvista Suomen/Fimea markkinoilla ja lisensointitilanne suoraan nykyistä rekisteriä vastaan, sillä "ei saatavana markkinoilla" -tilanne täällä saattaa heijastaa epätäydellistä lähdekyselyä pikemminkin kuin todellista sääntelystä puuttumista.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -29,83 +29,82 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Amifampridine: From Lambert-Eaton Myasthenic Syndrome to Glaucoma
+# Amifampridine: Lambert-Eatonin myasteenisesta syndroomasta glaukooman hoitoon
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-> Amifampridine is a voltage-gated potassium channel blocker whose established pharmacological use is in **Lambert-Eaton Myasthenic Syndrome (LEMS)**, though it currently holds **no marketing authorization in Taiwan**.
-> The TxGNN model predicts it may be effective for **Glaucoma** (score 99.71%), with a secondary, lower-confidence signal for **Acute Intermittent Porphyria** (score 99.32%).
-> Neither prediction is currently supported by any clinical trials or published literature — this is a **model-prediction-only (L5)** signal, and a **Blocking data gap** on TFDA package-insert safety data prevents any formal safety screening at this stage.
+> Amifampridine on jännitteestä riippuvainen kaliumkanavien salpaaja, jonka vakiintuneet farmakologiset käytöt ovat **Lambert-Eatonin myasteeninen syndrooma (LEMS)**, vaikka sillä ei tällä hetkellä ole **markkinointilupaa Taiwanissa**. TxGNN-malli ennustaa, että se saattaa olla tehokas **glaukooman** hoidossa (pistemäärä 99.71%), ja se tulee myös toissijaisen, heikomman luottamuksen signaalina **akuuttiin epäsäännölliseen porfiaan** (pistemäärä 99.32%). Kumpaakaan ennustusta ei tällä hetkellä tueta missään kliinisessä tutkimuksessa tai julkaistussa kirjallisuudessa — tämä on **pelkästään mallin ennustuksiin perustuva (L5)** signaali, ja **estävän vakavuuden tietoaukko** TFDA:n pakkauslehden turvallisuusosasta estää minkään muodollisen turvallisuuskarsintaseurannan tässä vaiheessa.
 
 ---
 
-## Quick Overview
+## Pikayhteenveto
 
-| Item | Content |
-|------|------|
-| Original Indication | Lambert-Eaton myasthenic syndrome (LEMS) — noted in the model's mechanistic rationale as the drug's known use; not confirmed via Taiwan license data, since the product is not marketed in Taiwan |
-| Predicted New Indication | Glaucoma |
-| TxGNN Prediction Score | 99.71% (rank 3737) |
-| Evidence Level | L5 |
-| Taiwan Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
-
----
-
-## Why is This Prediction Reasonable?
-
-Detailed mechanism-of-action data for amifampridine is a confirmed data gap in this evidence pack (DG002, High severity). Based on the model's own mechanistic rationale, amifampridine is known as a voltage-gated potassium channel blocker that acts at the neuromuscular junction to increase acetylcholine release — the basis of its established use in LEMS.
-
-For the top-ranked prediction, **glaucoma**, the pathological core is an imbalance between aqueous humor production and outflow that raises intraocular pressure (IOP). Ion channels — including K⁺ channels — in the ciliary body epithelium do participate in regulating aqueous humor secretion, which is the theoretical basis for the model's link between the two conditions.
-
-However, this connection is stated in the evidence pack itself as a **class-level, indirect analogy only**: there is no ophthalmic pharmacology, preclinical, or clinical evidence showing that amifampridine directly affects IOP or aqueous humor dynamics. Combined with the missing original-MOA data, the mechanistic link should be treated as a purely predictive hypothesis (L5), not a validated pharmacological rationale.
-
-### Secondary Prediction: Acute Intermittent Porphyria (Score 99.32%, Rank 6919)
-
-Acute Intermittent Porphyria (AIP) results from porphobilinogen deaminase deficiency disrupting heme biosynthesis, with acute attacks presenting as neuro-visceral symptoms (abdominal pain, peripheral neuropathy, autonomic dysfunction). The model's rationale draws only a **symptomatic-level analogy**: amifampridine's known neuromuscular-transmission-enhancing effect could theoretically offer symptomatic benefit for AIP-related neuropathy, but this has **no mechanistic connection** to the underlying enzymatic defect in heme synthesis (e.g., no evidence it modulates ALA synthase activity). This link is explicitly the weakest of the two and should be considered a surface-level analogy rather than a pharmacological hypothesis.
+| Kohde | Sisältö |
+|------|-------|
+| Alkuperäinen indikaatio | Lambert-Eatonin myasteeninen syndrooma (LEMS) — mainittu mallin mekanistisessa perustelussa lääkkeen tunnetuksi käytöksi; ei vahvistettu Taiwanin lupatieto­jen kautta, koska tuote ei ole markkinoilla Taiwanissa |
+| Ennustettu uusi indikaatio | Glaukooma |
+| TxGNN:n ennustuspistemäärä | 99.71% (sijoitus 3737) |
+| Näyttötaso | L5 |
+| Taiwanin markkinoiden tila | Ei markkinoilla |
+| Lupien määrä | 0 |
+| Suositeltu päätös | Pidä |
 
 ---
 
-## Clinical Trial Evidence
+## Miksi tämä ennustus on järkevä?
 
-Currently no related clinical trials registered for either predicted indication (glaucoma or acute intermittent porphyria).
+Amifampridinin toimintamekanismin yksityiskohtaiset tiedot ovat vahvistettu tietoaukko tässä näyttöpaketissa (DG002, korkea vakavuus). Mallin oman mekanistisen perusteluun nojaten amifampridine tunnetaan jännitteestä riippuvaisena kaliumkanavien salpaaajana, joka vaikuttaa neuromuskulaarisessa liitoksessa lisäämällä asetyylikoliinin vapautumista — tämä on sen vakiintuneen käytön perusta LEMS:ssä.
 
----
+Parhaan ennustuksen kohdalla **glaukooma** on patologisen tilan ydin silmänesteen tuotannon ja ulosvirtauksen välisessä epätasapainossa, joka nostaa silmänsisäistä painetta (IOP). Ionikanavat — mukaan lukien K⁺ kanavat — silmäjuuren epiteelissä osallistuvat silmänesteen eritykseen sääntelyyn, mikä on teoreettinen perusta mallin oletuksille näiden kahden tilan välillä.
 
-## Literature Evidence
+Kuitenkin tämä yhteys esitetään näyttöpaketissa vain **luokkatasoisena, epäsuorana analogiana**: ei ole oftalmologista farmakologiaa, prekliinisiä tai kliinisiä näyttöjä siitä, että amifampridine vaikuttaisi suoraan silmänsisäiseen paineeseen tai silmänesteen dynamiikkaan. Yhdessä puuttuvien alkuperäisten vaikutusmekanismin tietojen kanssa mekanistinen yhteys tulee käsitellä puhtaasti ennustavana hypoteesina (L5), ei validoituna farmakologisena perusteluna.
 
-Currently no related literature available for either predicted indication (glaucoma or acute intermittent porphyria).
+### Toissijainen ennustus: Akuutti epäsäännöllinen porfiria (pistemäärä 99.32%, sijoitus 6919)
 
----
-
-## Taiwan Market Information
-
-Amifampridine currently holds **no marketing authorization in Taiwan** (market status: Not marketed, total authorizations: 0). No approved indication text, dosage form, or license data is available for this product in Taiwan.
+Akuutti epäsäännöllinen porfiria (AIP) johtuu porfobinogeeni deamiinaasipuutoksesta, joka häiritsee heemisynteesiä, ja akuutit kohtaukset esiintyvät neuro-viskeraalisten oireiden muodossa (vatsankipu, perifeerinen neuropatia, autonomisen hermoston toimintahäiriö). Mallin perustelut perustuvat vain **oiretason analogiaan**: amifampridinin tunnettu neuromuskulaarisen välityksen parantava vaikutus voisi teoriassa tarjota oireista helpotusta AIP:hon liittyvälle neuropatialle, mutta tällä ei ole **mekanistista yhteyttä** heemisynteesiin liittyvään taustalla olevaan entsyymatiseen puutteeseen (esim. ei näyttöä siitä, että se sääntelisi ALA-syntentaasin aktiivisuutta). Tämä yhteys on eksplisiittisesti heikoin kahdesta ja sitä tulee pitää pintatasoisena analogiana pikemminkin kuin farmakologisena hypoteesina.
 
 ---
 
-## Safety Considerations
+## Kliinisen tutkimuksen näyttö
 
-Taiwan/TFDA package-insert data on warnings and contraindications for amifampridine has not yet been obtained (data gap DG001, **Blocking severity**) — this currently prevents the candidate from entering the S1 safety pre-screening stage. Drug-drug interaction data was queried but not found (0 interactions on file).
-
-Please refer to the package insert for safety information once available.
+Tällä hetkellä ei ole rekisteröitynyt asiaan liittyviä kliinisiä tutkimuksia kumpaakaan ennustetun indikaation osalta (glaukooma tai akuutti epäsäännöllinen porfiria).
 
 ---
 
-## Conclusion and Next Steps
+## Kirjallisuuden näyttö
 
-**Decision: Hold**
+Tällä hetkellä ei ole saatavissa liittyvää kirjallisuutta kumpaakaan ennustetun indikaation osalta (glaukooma tai akuutti epäsäännöllinen porfiria).
 
-**Rationale:**
-Both predicted indications rest solely on a TxGNN model score (L5, no clinical or literature evidence), and a Blocking-severity data gap on TFDA safety/package-insert information means the candidate cannot yet complete even initial safety screening (S1). The drug also has no existing Taiwan market presence to anchor a regulatory pathway.
+---
 
-**To proceed, the following is needed:**
-- TFDA package-insert data (warnings, contraindications) — required to clear the Blocking gap (DG001) before any safety review
-- Confirmed mechanism-of-action data from DrugBank or primary pharmacology literature (DG002)
-- Preclinical or mechanistic studies specifically testing amifampridine's effect on aqueous humor dynamics / intraocular pressure (for the glaucoma hypothesis)
-- Any case reports, preclinical data, or trials addressing amifampridine use in porphyria-related neuropathy (for the AIP hypothesis)
-- Validated drug-drug interaction data (current query status: not found)
+## Taiwanin markkinatieto
+
+Amifampridinella ei tällä hetkellä ole **markkinointilupaa Taiwanissa** (markkinoiden tila: Ei markkinoilla, yhteensä lupia: 0). Tälle tuotteelle ei ole saatavissa hyväksyttyä indikaatiotekstiä, lääkemuotoa tai lupatieto Taiwanissa.
+
+---
+
+## Turvallisuushuomiot
+
+Taiwan/TFDA pakkauslehden tiedot amifampridinin varoituksista ja vasta-aiheista ei ole vielä saatu (tietoaukko DG001, **estävä vakavuus**) — tämä estää tällä hetkellä ehdokkaan siirtymisen S1 turvallisuuden esikarsintavaiheeseen. Lääkkeiden välisen yhteisvaikutuksen tiedot kysyttiin mutta niitä ei löytynyt (0 yhteisvaikutusta tiedostoissa).
+
+Katso pakkauslehteä turvallisuustiedoista, kun ne ovat saatavilla.
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidä**
+
+**Perustelut:**
+Molemmat ennustetut indikaatiot perustuvat yksinomaan TxGNN-mallin pistemäärään (L5, ei kliinistä tai kirjallisuusnäyttöä), ja estävän vakavuuden tietoaukko TFDA:n turvallisuus/pakkauslehti tiedoista tarkoittaa, että ehdokas ei vielä voi suorittaa edes alkuperäistä turvallisuuskarsintaa (S1). Lääkkeellä ei myöskään ole olemassa olevaa Taiwanin markkinoiden läsnäoloa sääntelyllisen polun ankkuriksi.
+
+**Jatkaakseen tarvitaan seuraavaa:**
+- TFDA:n pakkauslehden tiedot (varoitukset, vasta-aiheet) — tarvitaan estävän aukkon (DG001) poistamiseksi ennen mitään turvallisuusarviota
+- Vahvistetut vaikutusmekanismin tiedot DrugBankista tai primaarisen farmakologian kirjallisuudesta (DG002)
+- Prekliniiset tai mekanistiset tutkimukset, jotka testaavat spesifisesti amifampridinin vaikutusta silmänesteen dynamiikkaan / silmänsisäiseen paineeseen (glaukooman hypoteesin kannalta)
+- Kaikki tapausraportit, prekliniiset tiedot tai tutkimukset, jotka käsittelevät amifampridinin käyttöä porfiaan liittyvässä neuropatiassa (AIP:n hypoteesin kannalta)
+- Validoidut lääkkeiden välisen yhteisvaikutuksen tiedot (nykyisen kyselyn tila: ei löytynyt)
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

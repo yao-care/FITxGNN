@@ -29,50 +29,51 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Ledipasvir: Repurposing Evaluation — Insufficient Data to Complete Assessment
+# Ledipasvir: Uudelleenkäyttöarviointi — riittämätön tieto arviointiin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Ledipasvir (DB09027) is a small molecule drug currently under initial repurposing evaluation.
-This Evidence Pack contains **no TxGNN predicted indications**, and both original indication and mechanism of action data are absent from the current dataset.
-A full repurposing report **cannot be generated** until critical data gaps are resolved.
+Ledipasvir (DB09027) on pieni molekyyli -lääke, jota arvioidaan tällä hetkellä alustavassa uudelleenkäyttöarvioinnissa.
+Tämä todistusaineisto-paketti sisältää **ei yhtään TxGNN-ennustettua indikaatiota**, ja sekä alkuperäinen indikaatio että toimintamekanismi-tiedot puuttuvat nykyisestä aineistosta.
+Täydellinen uudelleenkäyttöraportti **ei voida laatia**, kunnes kriittiset tietovajeet on ratkaistu.
 
 ---
 
-## Quick Overview
+## Pika-yhteenveto
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|---------|
-| Original Indication | Not available in current dataset |
-| Predicted New Indication | None — no TxGNN predictions in this Evidence Pack |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | N/A (no predictions available) |
-| Finland Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+| Alkuperäinen indikaatio | Ei saatavilla nykyisestä aineistosta |
+| Ennustettu uusi indikaatio | Ei yhtään — ei TxGNN-ennusteita tässä todistusaineisto-paketissa |
+| TxGNN-ennustepistemäärä | N/A |
+| Todistusaineiston taso | N/A (ei ennusteita saatavilla) |
+| Markkinatilanne Suomessa | Ei markkinoitu |
+| Hyväksyntöjen määrä | 0 |
+| Suositeltu päätös | **Keskeytä** |
 
 ---
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information.
+Turvallisutta koskevat tiedot löytyvät lääkkeen pakkausselosteesta.
 
 ---
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Keskeytä**
 
-**Rationale:**
-This Evidence Pack contains no TxGNN model predictions and has blocking-severity data gaps in MOA and safety information; a repurposing evaluation cannot be meaningfully conducted at this stage.
+**Perustelut:**
+Tämä todistusaineisto-paketti ei sisällä TxGNN-mallin ennusteita ja siinä on kriittisen vakavuuden tietovajeita toimintamekanismi- ja turvallisuustiedoissa; uudelleenkäyttöarviointia ei voida mielekkäällä tavalla suorittaa tässä vaiheessa.
 
-**To proceed, the following is needed:**
+**Jatkaakseen seuraavaa tarvitaan:**
 
-- **[Blocking]** Retrieve TFDA package insert warnings and contraindications to enable basic safety screening
-- **[High]** Obtain mechanism of action (MOA) data from DrugBank (DB09027) to support mechanistic plausibility analysis
-- **[Required]** Re-run TxGNN prediction pipeline for ledipasvir to generate candidate indications
-- **[Required]** Populate original indication data (ledipasvir is expected to have registered HCV indications in other markets — confirm and import)
-- **[Required]** After predictions are available, re-query clinical trial (ClinicalTrials.gov) and literature (PubMed) evidence for each candidate indication
+- **[Kriittinen]** Hae TFDA:n pakkausseloste-varoitukset ja vasta-aiheet perustavan turvallisuusseulonnan mahdollistamiseksi
+- **[Korkea]** Hanki toimintamekanismi (MOA) -tiedot DrugBankista (DB09027) mekanistisen uskottavuuden analyysin tueksi
+- **[Vaaditaan]** Suorita TxGNN-ennuste-putki uudelleen ledipasvirin osalta kandidaatti-indikaatioiden luomiseksi
+- **[Vaaditaan]** Täytä alkuperäisen indikaation tiedot (ledipasvirin odotetaan olevan rekisteröity HCV-indikaatioilla muilla markkinoilla — vahvista ja tuo)
+- **[Vaaditaan]** Kun ennusteet ovat saatavilla, tee uusi kysely kliinisen tutkimuksen (ClinicalTrials.gov) ja kirjallisuuden (PubMed) todistusaineistoista jokaiselle kandidaatti-indikaatiolle
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

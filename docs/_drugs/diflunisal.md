@@ -29,77 +29,74 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-Using judgment as domain expert: the raw top-ranked TxGNN hit (`acromesomelic dysplasia, Hunter-Thompson type`, score 99.99%) has **zero evidence** and its own rationale text flags it as a likely false positive. The only candidate that clears an actual evidence bar (L2, real RCT literature, "Proceed with Guardrails") is **ankylosing spondylitis** (rank 5). Building the headline report around a biologically implausible top-score hit would be misleading, so the report below leads with the evidence-supported candidate and explains that deviation explicitly.
+# Diflunisal: NSAID-indikaatiosta ankyloivaan spondyliitiin
 
----
+## Yhden lauseen yhteenveto
 
-# Diflunisal: From NSAID Pain/Inflammation Use to Ankylosing Spondylitis
+> Diflunisal on salisilaatin johdannainen NSAID, jota on historiallisesti käytetty kipuun ja tulehduksellisiin lihasluusto-olosuhteisiin.
+> Vaikka TxGNN:n yksittäin korkeimmin pisteytetty ennuste (akromesomeelinen dysplasia, Hunter-Thompson-tyyppi) ei ole tuettu todisteella ja sen oma perusteluteksti merkitsee sitä todennäköiseksi väärän positiivisen, sen 5. sijalla oleva ennuste — **Ankyloiva spondyliitti** — on tuettu suoralla vertailevalla satunnaistuksella ja **7 tukevalla julkaisulla**, mikä tekee siitä uskottavamman käyttötarkoituksen muutoskandidaatin tästä todistelupakettista.
 
-## One-Sentence Summary
+## Nopea katsaus
 
-> Diflunisal is a salicylic-acid-derivative NSAID historically used for pain and inflammatory musculoskeletal conditions.
-> While TxGNN's single highest-scoring hit (a rare skeletal dysplasia) has no supporting evidence and is flagged as a likely false positive, its 5th-ranked prediction — **Ankylosing Spondylitis** — is backed by a direct head-to-head randomized trial and **7 supporting publications**, making it the more credible repurposing candidate from this evidence pack.
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Ei ole määritetty lähdetiedoissa (lääkeryhmä tunnetaan: salisilaatti-NSAID kipuun/tulehdukseen) |
+| Ennustettu uusi indikaatio | Ankyloiva spondyliitti |
+| TxGNN-ennusteen pistemäärä | 99.98% (sijoitus 373 raakatuloksella; ylennetty johtavaksi kandidaatiksi todisteiden perusteella) |
+| Todisteiden taso | L2 |
+| Suomen markkinan asema | Ei saatavana markkinoilla |
+| Myyntilupien lukumäärä | 0 |
+| Suositeltu päätös | Jatka varauksilla (odottaen estävän turvallisuuden tietoaukon ratkaisua) |
 
-## Quick Overview
+## Miksi tämä ennuste on kohtuullinen?
 
-| Item | Content |
-|------|------|
-| Original Indication | Not specified in source data (drug class known: salicylate NSAID for pain/inflammation) |
-| Predicted New Indication | Ankylosing Spondylitis |
-| TxGNN Prediction Score | 99.98% (rank 373 by raw score; promoted to lead candidate based on evidence) |
-| Evidence Level | L2 |
-| Finland Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails (pending resolution of blocking safety data gap) |
+Tällä hetkellä yksityiskohtaista diflunisal-lääkkeen vaikutusmekanismia ei ole saatavilla tässä todistelupakettissa (tietoaukko, korkea vakavuus). Tunnettujen lääkeryhmän tietojen perusteella diflunisal on salisilaatin johdannainen NSAID; kuten muut tämän ryhmän jäsenet, se estää syklooksigenaasin (COX-1/COX-2), vähentäen prostaglandiinisynteesiä ja tuottaen kipulievittäviä ja tulehduksenvastustavia vaikutuksia.
 
-## Why is This Prediction Reasonable?
+Ankyloiva spondyliitti (AS) on krooninen tulehduksellinen spondyloartropatia, jossa NSAID:t ovat hyvin vakiintunut ensimmäisen linjan oirehoito. Mekanistinen yhteys on siis suora eikä spekulatiivinen: COX-este vähentää prostaglandiinin välittämää tulehdusta AS:n oireissa, samaa reittiä, jota kohdentavat diklofenaakki, naprokseeni ja pirprofeeni — joilla kaikilla on dokumentoitu tehokkuus AS:ssä alla olevassa kirjallisuudessa.
 
-Currently, detailed mechanism of action data for diflunisal is not available in this evidence pack (Data Gap, High severity). Based on known drug-class information, diflunisal is a salicylic acid derivative NSAID; like other members of this class it inhibits cyclo-oxygenase (COX-1/COX-2), reducing prostaglandin synthesis and producing analgesic and anti-inflammatory effects.
+Merkittävää on, että tämä ei ole puhtaasti analoginen (saman luokan) päätelmä. Yksi julkaisu (PMID 3524970) on suora satunnaistuksella kaksinsokkoutettu tutkimus diflunisal-lääkkeestä AS-potilaissa, mikä antaa vahvemman todisteen kuin tyypilliset lääkkeen uuden käyttötarkoituksen hypoteesit, jotka pohjautuvat vain ryhmävaikutuksiin.
 
-Ankylosing spondylitis (AS) is a chronic inflammatory spondyloarthropathy in which NSAIDs are a well-established first-line symptomatic therapy. The mechanistic link is therefore direct rather than speculative: COX inhibition reduces the prostaglandin-mediated inflammation underlying AS symptoms, the same pathway targeted by diclofenac, naproxen, and pirprofen — all of which have documented efficacy in AS per the supporting literature below.
+## Kliinisen tutkimuksen todisteet
 
-Notably, this is not a purely analogical (same-class) inference. One publication (PMID 3524970) is a direct, drug-specific randomized double-blind trial of diflunisal in AS patients, which is stronger support than typical repurposing hypotheses built only on class effects.
+Tällä hetkellä ei ole asiaan liittyviä rekisteröityjä kliinisiä tutkimuksia.
 
-## Clinical Trial Evidence
+## Kirjallisuuden todisteet
 
-Currently no related clinical trials registered.
+| PMID | Vuosi | Tyyppi | Lehti | Keskeisiä löydöksiä |
+|------|------|--------|------|----------|
+| [3524970](https://pubmed.ncbi.nlm.nih.gov/3524970/) | 1986 | RCT | Clinical Rheumatology | 12 viikon kaksinsokkoutettu RCT (n=38) vertailivat suoraan diflunisal 500 mg kahdesti päivässä vs. phenylbutazone 200 mg kahdesti päivässä AS:ssa; molemmat olivat tehokkaita, diflunisal oli nopeampi ja selvemmin vaikuttava varhaisen kipulievityksen osalta, hyöty säilyi 36 viikon avoimessa jatko-osassa |
+| [2670397](https://pubmed.ncbi.nlm.nih.gov/2670397/) | 1989 | Katsaus (sama luokka: diclofenac) | Clinical Pharmacy | Katsaus diclofenac-lääkkeen farmakologiasta ja tehokkuudesta reumasairauksissa mukaan lukien AS, tukee luokan tason NSAID-perustelua |
+| [6772422](https://pubmed.ncbi.nlm.nih.gov/6772422/) | 1980 | Katsaus (sama luokka: diclofenac) | Drugs | Diclofenac-lääkkeen tehokkuuskatsaus kattaa reumatoidisen artriittin, degeneratiivisen nivelsairaauden ja ankyloivan spondyliittin |
+| [387372](https://pubmed.ncbi.nlm.nih.gov/387372/) | 1979 | Katsaus (sama luokka: naproxen) | Drugs | Naproxen-lääkkeen tehokkuus- ja siedettävyys-katsaus reumasairauksissa, tukee NSAID-luokan vaikutusta spondyloartropatioissa |
+| [3539573](https://pubmed.ncbi.nlm.nih.gov/3539573/) | 1986 | Katsaus (sama luokka: pirprofen) | Drugs | Pirprofen vaihtoehtoisen NSAID-terapian reumatoidisen artriittin, osteoartriittin ja ankyloivan spondyliittin hoidossa |
+| [4062389](https://pubmed.ncbi.nlm.nih.gov/4062389/) | 1985 | Kohorttitutkimus | Annals of the Rheumatic Diseases | 48 viikon tutkimus serum IgA:n ja taudin aktiivisuuden välisestä suhteesta AS-potilaissa phenylbutazone- tai diflunisal-hoidolla; IgA korreloi rintakehän laajentumisen ja lumbaali-fleksion kanssa, ei suora tehokkuustutkimus |
+| [3546687](https://pubmed.ncbi.nlm.nih.gov/3546687/) | 1986 | Kohorttitutkimus | Journal of Rheumatology | Keuhkofunktiotutkimus AS-potilaissa diflunisal- tai phenylbutazone-hoidolla; arvioi keuhkojen restriktiiviä häiriötä ja taudin aktiivisuutta, ei pääasiallinen tehokkuuspääte |
 
-## Literature Evidence
+**Rajoitus:** Ainoa diflunisal-spesifinen tehokkuustutkimus (PMID 3524970) on pieni (n=38, vain miehillä), yli 35 vuotta vanha ja vertailivat phenylbutazonia — vertailuainetta, joka on nyt vedetty pois markkinoilta tai merkittävästi rajoitettu useimmissa maissa toksisiteetin vuoksi — eikä plaseboa tai nykyisen NSAID-standardi-hoidon kanssa.
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [3524970](https://pubmed.ncbi.nlm.nih.gov/3524970/) | 1986 | RCT | Clinical Rheumatology | 12-week double-blind RCT (n=38) directly comparing diflunisal 500mg BID vs. phenylbutazone 200mg BID in AS; both effective, diflunisal had faster, more pronounced early analgesic onset, benefit maintained through 36-week open extension |
-| [2670397](https://pubmed.ncbi.nlm.nih.gov/2670397/) | 1989 | Review (same-class: diclofenac) | Clinical Pharmacy | Reviews diclofenac pharmacology/efficacy across rheumatic conditions including AS, supporting class-level NSAID rationale |
-| [6772422](https://pubmed.ncbi.nlm.nih.gov/6772422/) | 1980 | Review (same-class: diclofenac) | Drugs | Diclofenac efficacy review covering rheumatoid arthritis, degenerative joint disease, and ankylosing spondylitis |
-| [387372](https://pubmed.ncbi.nlm.nih.gov/387372/) | 1979 | Review (same-class: naproxen) | Drugs | Naproxen efficacy/tolerability review in rheumatic disease, supportive of NSAID class effect in spondyloarthropathies |
-| [3539573](https://pubmed.ncbi.nlm.nih.gov/3539573/) | 1986 | Review (same-class: pirprofen) | Drugs | Pirprofen reviewed as alternative NSAID therapy in rheumatoid arthritis, osteoarthritis, and ankylosing spondylitis |
-| [4062389](https://pubmed.ncbi.nlm.nih.gov/4062389/) | 1985 | Cohort | Annals of the Rheumatic Diseases | 48-week study of serum IgA vs. disease activity in AS patients on phenylbutazone or diflunisal; IgA correlated with chest expansion/lumbar flexion, not a direct efficacy trial |
-| [3546687](https://pubmed.ncbi.nlm.nih.gov/3546687/) | 1986 | Cohort | Journal of Rheumatology | Pulmonary function study in AS patients treated with diflunisal or phenylbutazone; assesses restrictive lung impairment vs. disease activity, not a primary efficacy endpoint |
+## Suomen markkinatiedot
 
-**Limitation:** The only diflunisal-specific efficacy trial (PMID 3524970) is small (n=38, male only), over 35 years old, and compared against phenylbutazone — a comparator now withdrawn or heavily restricted in most markets due to toxicity — rather than placebo or a current standard of care.
+Myyntilupa-tietoja ei löytynyt — diflunisal ei ole tällä hetkellä saatavilla Suomessa (0 lupaa).
 
-## Finland Market Information
+## Turvallisuushuomiot
 
-No market authorization records found — diflunisal is currently not marketed in Finland (0 authorizations).
+Katso turvallisuustiedot pakkausselosteesta. Huomaa: TFDA:n/paikallisen pakkausselosteen (varoitukset, vasta-aiheet) kerääminen on avoin **estävä** tietoaukko (DG001) — tämä kandidaatti ei voi suorittaa täyttä S1-turvallisuus-esiarviointia, kunnes lähde on hankittu.
 
-## Safety Considerations
+## Johtopäätös ja seuraavat vaiheet
 
-Please refer to the package insert for safety information. Note: collection of TFDA/local package-insert warnings and contraindications is an open **Blocking** data gap (DG001) — this candidate cannot complete a full S1 safety pre-assessment until that source is retrieved.
+**Päätös: Jatka varauksilla**
 
-## Conclusion and Next Steps
+**Perustelut:**
+Suora satunnaistuksella kaksinsokkoutettu tutkimus ja johdonmukainen saman luokan NSAID-todiste tukevat diflunisal-lääkkeen mekanistista ja kliinistä uskottavuutta ankyloivassa spondyliitissa (L2, S2). Kuitenkin todistelupohja on vanha, pieni ja käyttää vanhentunutta vertailuainetta, sekä estävä turvallisuuden tietoaukko (pakkausseloste / vasta-aiheet) jää ratkaisematta, joten tätä ei vielä voida siirtää "Go"-päätökseen.
 
-**Decision: Proceed with Guardrails**
+**Jatkamiseksi tarvitaan seuraavaa:**
+- Hankkia TFDA:n/paikallinen pakkausseloste (varoitukset, vasta-aiheet) DG001:n estävän tietovajeen ratkaisuun
+- Hankkia virallinen vaikutusmekanismi-dokumentaatio (DrugBank) DG002:n korkean vakavuuden tietovajeen ratkaisuun
+- Arvioida, onko mahdollista toteuttaa modernin vertailutason (vs. plasebo tai nykyisen NSAID-standardi-hoidon) tutkimusta tai kerätä käytännön todisteet, kun otetaan huomioon olemassa olevan tutkimuksen ikä ja vanhentuneet vertailuaineet
+- Selventää alkuperäisen indikaatio-historian, sillä `original_indications` on tyhjä nykyisessä lähdetiedoissa
 
-**Rationale:**
-A direct, drug-specific randomized trial plus consistent same-class NSAID evidence support diflunisal's mechanistic and clinical plausibility in ankylosing spondylitis (L2, S2). However, the evidence base is old, small, and uses an outdated comparator, and a Blocking safety data gap (package insert / contraindications) remains unresolved, so this cannot yet advance to a Go decision.
+*Huomio: TxGNN:n korkeimmin pisteytetty ennuste (akromesomeelinen dysplasia, Hunter-Thompson-tyyppi, 99.99%) ja 7 muuta top-10-ennustetta suljettiin pois tästä raportista — jokaisella ei ole kliinistä tutkimusta tai kirjallisuuden tukea ja niiden omat mekanistiset perustelut merkitsevät ne biologisesti epäuskottaviksi diflunisal-NSAID-mekanismille (todennäköisesti mallin häly/väärät positiiviset).*
 
-**To proceed, the following is needed:**
-- Retrieve TFDA/local package insert (warnings, contraindications) to close Blocking data gap DG001
-- Obtain formal MOA documentation (DrugBank) to close High-severity gap DG002
-- Assess feasibility of a modern-comparator (vs. placebo or current standard-of-care NSAID) trial or real-world evidence, given the existing trial's age and outdated comparator
-- Clarify original indication history, since `original_indications` is empty in current source data
-
-*Note: The top TxGNN-ranked prediction (acromesomelic dysplasia, Hunter-Thompson type, 99.99%) and 7 of the other top-10 predictions were excluded from this report — each has no clinical trial or literature support and their own mechanistic rationale explicitly notes no biological plausibility to diflunisal's NSAID mechanism (likely model noise/false positives).*
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

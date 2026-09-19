@@ -29,71 +29,72 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Atosiban: Repurposing Evaluation — Insufficient Data to Proceed
+# Atosiban: Uudelleenkäytön arviointi — riittämättömät tiedot jatkamiselle
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Atosiban (DrugBank ID: DB09059) is an oxytocin/vasopressin receptor antagonist, widely known as a tocolytic agent for the management of preterm labor (approved in the EU under the brand name Tractocile).
-The current Evidence Pack contains **no TxGNN-predicted new indications**, and critical data gaps in mechanism of action and safety information prevent a full repurposing evaluation.
-**The recommended decision is Hold** until data collection is complete.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Known tocolytic for preterm labor (not registered in Taiwan) |
-| Predicted New Indication | No predictions available |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | L5 — Model prediction not generated; no supporting studies |
-| Taiwan Market Status | ✗ Not marketed (0 authorizations) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+Atosiban (DrugBank ID: DB09059) on oksitosiini/vasopressiini-reseptori-antagonisti, joka tunnetaan laajasti tokolitiikkana ennenaikaisen synnytyksen hoitossa (hyväksytty EU:ssa tuotenimellä Tractocile).
+Nykyinen näyttöpaketti sisältää **ei yhtään TxGNN-ennustettua uutta indikaatiota**, ja kriittiset tietoaukot toimintamekanismissa ja turvallisuustiedoissa estävät perusteellisen uudelleenkäytön arviointin.
+**Suositeltu päätös on odottaa** kunnes tiedonkeruu on valmis.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on established pharmacological knowledge, Atosiban is a competitive antagonist of the oxytocin and vasopressin V1a receptors. By blocking oxytocin-induced uterine contractions, it is used clinically to delay imminent preterm birth between 24–33 weeks of gestation. It has been approved in the European Union, but is not registered in Taiwan.
-
-No TxGNN predicted indications were generated for this candidate. This may reflect missing molecular features, insufficient input data fed into the model, or the drug's narrow receptor profile limiting cross-disease applicability. Without predicted indications, a mechanistic bridge to any new disease cannot be assessed.
-
-A full repurposing rationale will become possible once the TxGNN pipeline is re-run with complete drug features, and the mechanism of action data is retrieved from DrugBank.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for new indications.
+| Kohde | Sisältö |
+|-------|---------|
+| Alkuperäinen indikaatio | Tunnettu tokolitiikka ennenaikaisen synnytyksen hoitoon (ei rekisteröity Taiwanissa) |
+| Ennustettu uusi indikaatio | Ei ennusteita saatavilla |
+| TxGNN-ennusteen pistemäärä | N/A |
+| Näytön taso | L5 — mallin ennustetta ei luotu; ei tukevia tutkimuksia |
+| Taiwanin markkinoiden tila | ✗ Ei markkinoilla (0 lupaa) |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | **Odottaa** |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennuste on järkevä?
 
-Currently no related literature available for new indications.
+Yksityiskohtaisia toimintamekanismia koskevia tietoja ei ole saatavilla tässä näyttöpaketissa. Vakiintuneen farmakologisen tiedon perusteella, Atosiban on oksitosiini- ja vasopressiini V1a-reseptorien kilpailullinen antagonisti. Estämällä oksitosiinin aiheuttamia kohdukon supistuksia, sitä käytetään kliinisesti uhkaavan ennenaikaisen synnytyksen viivyttämiseen raskauden viikolla 24–33. Se on hyväksytty Euroopan unionissa, mutta ei ole rekisteröity Taiwanissa.
 
----
+TxGNN-ennusteita uusille indikaatioille ei luotu tälle ehdokkaalle. Tämä voi johtua puuttuvista molekyylitiedoista, mallille syötetystä riittämättömästä datasta, tai lääkkeen kapeasta reseptoriprofiilistä, joka rajoittaa soveltuvuutta eri sairauksiin. Ilman ennustettuja indikaatioita, mekaanista siltaa mihinkään uuteen sairauteen ei voida arvioida.
 
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+Täydellinen uudelleenkäytön perustelu tulee mahdolliseksi, kun TxGNN-putki ajetaan uudelleen täydellisillä lääkkeen ominaisuuksilla, ja toimintamekanismin tiedot noudetaan DrugBankista.
 
 ---
 
-## Conclusion and Next Steps
+## Kliinisen tutkimuksen näyttö
 
-**Decision: Hold**
+Tällä hetkellä ei ole liittyvää kliinistä tutkimusta rekisteröity uusille indikaatioille.
 
-**Rationale:**
-The Evidence Pack for Atosiban contains no TxGNN-predicted new indications and has blocking-level data gaps in safety information and mechanism of action; a repurposing evaluation cannot be responsibly conducted at this stage.
+---
 
-**To proceed, the following is needed:**
+## Kirjallisuuden näyttö
 
-- **TxGNN model re-run**: Generate predicted indications using complete drug feature input (DrugBank molecular profile, target annotations)
-- **Mechanism of action (MOA)**: Retrieve from DrugBank API (DB09059) — flagged as High severity data gap
-- **Safety data**: Download and parse the TFDA or EMA/EU package insert to extract key warnings, contraindications, and drug-drug interactions — flagged as Blocking severity data gap
-- **Evidence collection**: Once a predicted indication is available, run clinical trial and literature queries (ClinicalTrials.gov, PubMed) scoped to the new target disease
+Tällä hetkellä ei ole liittyvää kirjallisuutta saatavilla uusille indikaatioille.
+
+---
+
+## Turvallisuusasiat
+
+Turvallisustiedot löytyvät pakkausselosteesta.
+
+---
+
+## Johtopäätös ja seuraavat askeleet
+
+**Päätös: Odottaa**
+
+**Perustelu:**
+Atosibania koskeva näyttöpaketti ei sisällä yhtään TxGNN-ennustettua uutta indikaatiota ja siinä on estävän vakavuustason tietoaukot turvallisuustiedoissa ja toimintamekanismissa; vastuullinen uudelleenkäytön arviointi ei ole mahdollinen tässä vaiheessa.
+
+**Jatkamiseksi tarvitaan seuraavaa:**
+
+- **TxGNN-mallin uudelleenajo**: Luo ennustetut indikaatiot käyttämällä täydellisiä lääkkeen ominaisuuksien tietoja (DrugBank molekyyliprofiilit, kohde-annotaatiot)
+- **Toimintamekanismi (MOA)**: Nouda DrugBank API:stä (DB09059) — merkitty korkean vakavuustason tietoaukoksi
+- **Turvallisuustiedot**: Lataa ja jäsennä TFDA tai EMA/EU pakkausseloste, jotta voit poimia keskeiset varoitukset, vasta-aiheet ja lääke-lääke-interaktiot — merkitty estävän vakavuustason tietoaukoksi
+- **Näytön keruu**: Kun ennustettu indikaatio on saatavilla, suorita kliinisen tutkimuksen ja kirjallisuushaut uuden kohdesairauden osalta (ClinicalTrials.gov, PubMed)
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -29,60 +29,61 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Insulin Human: From Diabetes Mellitus to Autoimmune Oophoritis
+# Insulin Human: Diabetes Mellituksesta Autoimmuniseen Ooforiittiin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Insulin Human is the physiological hormone replacement used for insulin-dependent diabetes mellitus.
-The TxGNN model predicts it may be relevant to **Autoimmune Oophoritis**,
-but this ranking currently has **no supporting clinical trials and no supporting literature** — the association appears to reflect a shared autoimmune comorbidity pattern rather than a direct treatment mechanism.
+Insulin Human on fysiologinen hormonin korvaushoito, jota käytetään insuliinista riippuvaiseen diabetes mellitukseen.
+TxGNN-malli ennustaa sen olevan mahdollisesti relevantti **autoimmuniseen ooforiittiin**,
+mutta tämä sijoitus ei ole tällä hetkellä tuettu **kliinisillä tutkimuksilla eikä kirjallisuudella** — assosiaatio näyttää kuvaavan jaettua autoimmunista komorbiditeettikuviota eikä suoraa hoitomekanismia.
 
-## Quick Overview
+## Pikasilmäys
 
-| Item | Content |
+| Kohde | Sisältö |
 |------|------|
-| Original Indication | Diabetes Mellitus (well-established use; no local approved-indication text is available in this evidence pack) |
-| Predicted New Indication | Autoimmune Oophoritis |
-| TxGNN Prediction Score | 99.84% |
-| Evidence Level | L5 |
-| Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen indikaatio | Diabetes mellitus (hyvin vakiintunut käyttö; tässä evidenssipakkauksessa ei ole saatavilla paikallista hyväksytyn indikaation tekstiä) |
+| Ennustettu uusi indikaatio | Autoimmuninen ooforiitti |
+| TxGNN-ennuste-pistemäärä | 99.84% |
+| Evidenssin taso | L5 |
+| Markkinoinnin asema | Ei markkinoitava |
+| Hyväksyntöjen määrä | 0 |
+| Suositeltu päätös | Pidätä |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Detailed mechanism-of-action data for insulin human is not available in this evidence pack. Based on known clinical information, insulin human is the standard replacement therapy for insulin-dependent (Type 1) diabetes, restoring glucose uptake and metabolic regulation via the insulin receptor pathway.
+Yksityiskohtaisia vaikutusmekanismin tietoja insulin humanille ei ole saatavilla tässä evidenssipakkauksessa. Tunnettujen kliinisten tietojen perusteella insulin human on insuliinista riippuvaisen (tyypin 1 -diabetes) vakiokorvaushoito, joka palauttaa glukoosin oton ja aineenvaihdunnan sääntelyn insuliinireseptorin signalointireitin kautta.
 
-Autoimmune oophoritis is one component of polyglandular autoimmune syndrome (APS) and can co-occur with Type 1 diabetes because the two conditions share an underlying autoimmune predisposition — not because insulin acts therapeutically on ovarian tissue. The TxGNN score most likely captures this comorbidity/co-occurrence pattern in the knowledge graph rather than a genuine pharmacological mechanism linking insulin to ovarian autoimmunity.
+Autoimmuninen ooforiitti on yksi polyglandulaari-autoimmunisyndrooman (APS) komponentti ja voi esiintyä yhdessä tyypin 1 -diabeteksen kanssa, koska molemmat tilat jakavat taustalla olevaa autoimmunin predispostiota — ei siksi, että insuliini vaikuttaisi terapeuttisesti munasarjaan. TxGNN-pistemäärä todennäköisesti kaappaa tämän komorbiditeetin/samanaikaisen esiintymisen mallia tietojoukkograafissa eikä aidon farmakologisen mekanismin, joka yhdistää insuliinia munasarjan autoimmuniteetiin.
 
-Given this, the prediction should be read as a hypothesis-generating signal only. No clinical trial, case report, or mechanistic study in the current evidence pack supports insulin as a treatment for autoimmune oophoritis.
+Näiden perusteella ennuste tulee lukea vain hypoteesin muodostavaksi signaaliksi. Mikään kliininen tutkimus, tapauskertomus tai mekanistinen tutkimus nykyisessä evidenssipakkauksessa ei tue insuliinia autoimmunisen ooforiittin hoitona.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen evidenssi
 
-Currently no related clinical trials registered.
+Tällä hetkellä ei ole rekisteröityjä asiaa koskevia kliinisiä tutkimuksia.
 
-## Literature Evidence
+## Kirjallisuustieto
 
-Currently no related literature available.
+Tällä hetkellä asiaa koskevaa kirjallisuutta ei ole saatavilla.
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information.
+Katso turvallisuustietojen osalta pakkausselosteesta.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidätä**
 
-**Rationale:**
-The top-ranked prediction (autoimmune oophoritis) has zero clinical trials and zero literature support, and the proposed mechanistic link is a comorbidity association rather than a causal treatment pathway — this does not meet the bar to advance past S0.
+**Perustelut:**
+Parhaiten sijoitetulla ennusteella (autoimmuninen ooforiitti) ei ole yhtään kliinistä tutkimusta eikä yhtään kirjallisuuden tukea, ja ehdotettu mekanistinen yhteys on komorbiditeetin assosiaatio eikä kausaalinen hoitoreitti — tämä ei täytä S0-kriteeriä edistymiselle.
 
-**To proceed, the following is needed:**
-- Direct mechanistic or preclinical evidence that insulin modulates ovarian autoimmune activity (not merely diabetes co-occurrence)
-- At least one case series or observational study specifically evaluating insulin in autoimmune oophoritis
-- TFDA/package-insert safety data (currently a blocking data gap — DG001) before any S1 safety screening can begin
-- Formal MOA data from DrugBank (DG002) to support or refute the mechanistic rationale
+**Jatkaakseen tarvitaan seuraavaa:**
+- Suora mekanistinen tai prekliininen evidenssi siitä, että insuliini muokkaa munasarjan autoimmunin aktiviteettiä (ei pelkästään diabeteksen rinnakkaisesiintymistä)
+- Vähintään yksi tapaussarja tai havainnoiva tutkimus, joka erityisesti arvioi insuliinin käyttöä autoimmunisessa ooforiitissa
+- TFDA/pakkausseloste-turvallisuustiedot (tällä hetkellä estävä tietojen aukko — DG001) ennen kuin S1-turvallisuusarviointia voidaan aloittaa
+- Dokumentoitu vaikutusmekanismin tieto DrugBankista (DG002) mekanistisen perustelun tueksi tai kiistämiseksi
 
-**Note on other candidates in this evidence pack:** two lower-ranked predictions have notably stronger, direct mechanistic support than the top-ranked one and may warrant separate evaluation — *thiamine-responsive dysfunction syndrome* (rank 4) and *pancreatic agenesis* (rank 9), both scored "Proceed with Guardrails" because insulin is the established standard-of-care replacement therapy in the underlying genetic diabetes subtypes involved, even though formal trial data is still absent for both.
+**Huomautus muista ehdokkaista tässä evidenssipakkauksessa:** kahdella alemmin sijoittuneella ennusteella on huomattavasti vahvempi suora mekanistinen tuki kuin korkeimpaan sijoitetulla ennusteella, ja ne saattavat vaatia erillistä arviointia — *thiamine-responsive dysfunction syndrome* (sijoitus 4) ja *pancreatic agenesis* (sijoitus 9), molemmat arvioitu "Jatka varauksilla" koska insuliini on vakiintunut standardihoito taustalla olevissa geneettisen diabeteksen alamuodoissa, vaikka muodollista tutkimustietoa puuttuu edelleen molemmista.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

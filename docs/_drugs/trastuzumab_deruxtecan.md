@@ -29,86 +29,87 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Trastuzumab Deruxtecan: From HER2-Positive Breast/Gastric Cancer to Drug-Induced Osteoporosis
+# Trastuzumab deruxtecan: HER2-positiivisesta rinta- ja mahalaukisen syövästä lääkkeen aiheuttamaan osteoporoosiin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Trastuzumab deruxtecan is a HER2-targeted antibody-drug conjugate (ADC) currently used to treat HER2-positive breast cancer, gastric cancer, and other tumours. The TxGNN model predicts a possible association with **drug-induced osteoporosis**, but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the underlying mechanism appears to point in the opposite direction of clinical plausibility.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | HER2-positive breast cancer, gastric cancer, and other tumours (per drug mechanism description; no formal indication record in this dataset) |
-| Predicted New Indication | Drug-induced osteoporosis |
-| TxGNN Prediction Score | 99.31% (rank 7027) |
-| Evidence Level | L5 |
-| Finland Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Trastuzumab deruxtecan on HER2-kohdennettu vasta-aine-lääkekonjugaatti (ADC), jota käytetään tällä hetkellä HER2-positiivisen rintasyövän, mahalaukisen syövän ja muiden kasvainten hoitoon. TxGNN-malli ennustaa mahdollista yhteyttä **lääkkeen aiheuttamaan osteoporoosiin**, mutta tämä ennuste on tällä hetkellä tuettu **0 kliinisellä tutkimuksella** ja **0 julkaisulla**, ja taustalla oleva mekanismi näyttää osoittavan vastakkaiseen suuntaan kliinisen uskottavuuden kannalta.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Currently, detailed mechanism of action data is not available in structured form. Based on known information in this evidence pack, trastuzumab deruxtecan is a HER2-targeted antibody-drug conjugate whose payload, DXd, is a topoisomerase I inhibitor — a cytotoxic chemotherapy agent class. It is clinically used for HER2-positive breast cancer, gastric cancer, and related tumours.
-
-There is no known mechanistic pathway by which this drug would treat osteoporosis. On the contrary, cytotoxic ADCs and their associated cancer treatment regimens (chemotherapy, corticosteroids, ovarian/endocrine suppression) are recognized risk factors that **cause** bone loss rather than reverse it. The direction of the predicted association therefore runs counter to the drug's known pharmacology.
-
-Given this, the prediction is best interpreted as likely model noise or a reversed/confounded association within the TxGNN knowledge graph, rather than a genuine repurposing signal. The absence of any supporting clinical trials, literature, or MOA documentation further limits confidence in this prediction.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Kohde | Sisältö |
+|-------|---------|
+| Alkuperäinen indikaatio | HER2-positiivinen rintasyöpä, mahalaukisen syöpä ja muut kasvaimet (lääkkeen mekanismin kuvauksen mukaan; ei virallista indikaatiotietoa tässä tietoaineistossa) |
+| Ennustettu uusi indikaatio | Lääkkeen aiheuttama osteoporoosi |
+| TxGNN-ennustepistemäärä | 99.31% (sijoitus 7027) |
+| Näyttötaso | L5 |
+| Suomen markkinatilanne | ✗ Ei markkinoitu |
+| Hyväksynnän määrä | 0 |
+| Suositeltu päätös | Keskeytä |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennuste on järkevä?
 
-Currently no related literature available
+Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla strukturoidussa muodossa. Tämän näyttöpaketin tunnettujen tietojen perusteella trastuzumab deruxtecan on HER2-kohdennettu vasta-aine-lääkekonjugaatti, jonka kuorma, DXd, on topoisomeraasi I -inhibiittori — sytostaattisen kemoterapia-agentin luokka. Se käytetään kliinisesti HER2-positiivisen rintasyövän, mahalaukisen syövän ja niihin liittyvien kasvainten hoitoon.
 
----
+Ei ole tunnettua farmakologista polkua, jonka kautta tämä lääke hoitaisi osteoporosia. Päinvastoin, sytostaattiset ADC:t ja niihin liittyvät syöpähoidon skeemit (kemoterapia, kortikosteroidit, munasarjojen/endokriininen supressio) ovat tunnistettuja riskitekijöitä, jotka **aiheuttavat** luun menetystä sen sijaan, että ne kääntäisivät sitä. Ennustetun assosiaation suunta on siksi vastoin lääkkeen tunnetusta farmakologiasta.
 
-## Finland Market Information
-
-This drug is not currently marketed in Finland, and no marketing authorizations are on record.
+Näistä syistä ennuste tulkitaan parhaiten todennäköisesti mallin kohinaksi tai kääntyneeksi/sekaantuneeksi assosiaatioksi TxGNN-tietoverkossa eikä aidoksi uudelleenkäyttösignaaliksi. Minkään tukevan kliinisen kokeen, kirjallisuuden tai vaikutusmekanismin dokumentaation puuttuminen rajoittaa entisestään luottamusta tähän ennusteeseen.
 
 ---
 
-## Cytotoxicity
+## Kliinisten tutkimusten näyttö
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (ADC) with cytotoxic payload — topoisomerase I inhibitor (DXd) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Cytotoxic drug handling precautions apply, given the cytotoxic (topoisomerase I inhibitor) payload |
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia
 
 ---
 
-## Safety Considerations
+## Kirjallisuuden näyttö
 
-Please refer to the package insert for safety information.
+Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta
 
 ---
 
-## Conclusion and Next Steps
+## Suomen markkinatiedot
 
-**Decision: Hold**
+Tämä lääke ei ole tällä hetkellä markkinoitu Suomessa, eikä markkinointilupia ole kirjattu.
 
-**Rationale:**
-Despite a high TxGNN prediction score, there is zero clinical trial or literature support (Evidence Level L5), and the proposed mechanism runs counter to the drug's known cytotoxic pharmacology — cytotoxic anticancer agents are more plausibly a *cause* of drug-induced osteoporosis than a treatment for it. This pattern is consistent with model noise rather than a genuine repurposing signal.
+---
 
-**To proceed, the following is needed:**
-- Structured mechanism of action (MOA) data from DrugBank or another authoritative source
-- TFDA/regulatory package insert data (warnings, contraindications) to complete a baseline safety assessment
-- Independent biological rationale or preclinical evidence explaining any plausible link to bone metabolism before further investment
-- Continued literature/trial monitoring in case new evidence emerges
+## Sytostaattisuus
+
+| Kohde | Sisältö |
+|-------|---------|
+| Sytostaattisuusluokitus | Kohdennettu terapia (ADC), jolla on sytostaattinen kuorma — topoisomeraasi I -inhibiittori (DXd) |
+| Luuydinsuppression riski | Katso pakkausselosteesta varoitukset ja varotoimet |
+| Emetogenisuusluokitus | Katso pakkausselosteesta varoitukset ja varotoimet |
+| Valvontakohteet | Katso pakkausselosteesta varoitukset ja varotoimet |
+| Käsittelysuojaus | Sytostaattisen lääkkeen käsittelysuojaukset ovat sovellettavissa, koska kuormalla on sytostaattinen (topoisomeraasi I -inhibiittori) vaikutus |
+
+---
+
+## Turvallisuushuomiot
+
+Katso pakkausselosteesta turvallisuustiedot.
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Keskeytä**
+
+**Perustelut:**
+Huolimatta korkeasta TxGNN-ennustepisteestä, ei ole olemassa yhtään kliinistä koetta tai kirjallisuustoista (Näyttötaso L5), ja ehdotettu mekanismi vastustaa lääkkeen tunnetun sytostaattisen farmakologian kanssa — sytostaattiset syöpälääkkeet ovat luultavammin *aiheuttavat* lääkkeen aiheuttamaa osteoporosia sen sijaan, että ne hoitaisivat sitä. Tämä kuvio on yhdenmukainen mallin kohinan kanssa, ei aito uudelleenkäyttösignaali.
+
+**Jotta voidaan edetä, seuraavaa tarvitaan:**
+- Strukturoidut vaikutusmekanismin (MOA) tiedot DrugBankista tai toisesta virallisesta lähteestä
+- TFDA/viranomaisten pakkausseloste (varoitukset, vasta-aiheet) täydellisen perusturvallisuusarvioinnin suorittamiseksi
+- Itsenäinen biologinen perusteltu tai prekliininen näyttö, joka selittää mahdollisen yhteyden luun aineenvaihduntaan ennen lisäinvestointeja
+- Kirjallisuus- ja tutkimusneuvojen jatkuva seuranta uusien näyttöjen varalta
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -29,90 +29,91 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-# Neratinib: From HER2-Positive Breast Cancer to Progesterone-Receptor Positive Breast Cancer
+# Neratinibi: HER2-positiivisesta rintasyövästä progesteronireseptori-positiiviseen rintasyöpään
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-> Neratinib is an irreversible pan-HER (HER1/HER2/HER4) tyrosine-kinase inhibitor established for HER2-positive breast cancer, most notably as extended adjuvant therapy after trastuzumab-based treatment.
-> The TxGNN model predicts it may also be effective for **progesterone-receptor positive breast cancer**,
-> with **5 clinical trials** and **10 publications** currently supporting this direction.
-> Note: Finland market authorization and official original-indication text are not available in the current data — the original-indication statement above is drawn from published literature (ExteNET, NALA trials), not from a licensed package insert.
+> Neratinibi on peruuttamaton pan-HER (HER1/HER2/HER4) tyrosiinikinaasin estäjä, joka on hyväksytty HER2-positiiviselle rintasyövälle, erityisesti laajennetuksi adjuvanttiterapiaksi trastuzumabi-pohjaisen hoidon jälkeen.
+> TxGNN-malli ennustaa, että se voisi olla tehokas myös **progesteronireseptori-positiiviselle rintasyövälle**,
+> jonka puolesta puhuu tällä hetkellä **5 kliinistä tutkimusta** ja **10 julkaisua**.
+> Huomio: Suomen markkinointi-ilmoitus ja virallinen alkuperäisen indikaation teksti eivät ole saatavilla nykyisessä aineistossa — edellä mainittu alkuperäisen indikaation kuvaus on peräisin julkaistusta kirjallisuudesta (ExteNET, NALA tutkimukset), ei hyväksytystä pakkausselosteesta.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohde | Sisältö |
 |------|------|
-| Original Indication | Not available from Finland license records (drug not marketed); literature indicates HER2-positive breast cancer, extended adjuvant and metastatic settings |
-| Predicted New Indication | Progesterone-receptor positive breast cancer |
-| TxGNN Prediction Score | 99.68% |
-| Evidence Level | L2 |
-| Finland Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Alkuperäinen indikaatio | Ei saatavilla Suomen luvan rekistereistä (lääkettä ei markkinoida); kirjallisuus osoittaa HER2-positiivista rintasyöpää, laajennettua adjuvanttihoitoa ja metastaattisia asemia |
+| Ennustettu uusi indikaatio | Progesteronireseptori-positiivinen rintasyöpä |
+| TxGNN-ennusteen pistemäärä | 99.68% |
+| Evidenssin taso | L2 |
+| Suomen markkinatilanne | Ei markkinoitu (Ei markkinoitu) |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Jatka varauksilla |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on perusteltu?
 
-Detailed, formally sourced mechanism-of-action data is not available in the current evidence pack. Based on the supporting literature, neratinib is an irreversible tyrosine-kinase inhibitor of HER1, HER2, and HER4, and its clinical activity in HER2-positive breast cancer (including the pivotal ExteNET phase 3 trial) is well established.
+Yksityiskohtaisia, virallisesti dokumentoituja vaikutusmekanismin tietoja ei ole saatavilla nykyisessä näytöaineistossa. Tarkastelun kohteena olevan kirjallisuuden perusteella neratinibi on HER1:n, HER2:n ja HER4:n peruuttamaton tyrosiinikinaasin estäjä, ja sen kliininen vaikuttavuus HER2-positiivisessa rintasyövässä (mukaan lukien keskeinen ExteNET-vaiheen 3 tutkimus) on hyvin vakiintunut.
 
-Progesterone-receptor (PR) positivity frequently co-occurs with HER2 positivity in the clinically important HR+/HER2+ breast cancer subgroup. In this subgroup, hormone-receptor signaling and HER2 signaling interact and can drive resistance to endocrine therapy alone, providing a mechanistic rationale for combining a pan-HER inhibitor like neratinib with endocrine agents (fulvestrant, aromatase inhibitors) or trastuzumab.
+Progesteronireseptori (PR) positiivisuus esiintyy usein rinnakkain HER2-positiivisuuden kanssa kliinisesti tärkeässä HR+/HER2+ -rintasyövän alaryhmässä. Tässä alaryhmässä hormonaalisen reseptorin signalointi ja HER2-signalointi vuorovaikuttavat keskenään ja voivat johtaa vastukseen pelkästään endokriiniselle hoidolle, mikä tarjoaa mekaanisen perustelun pan-HER-estäjän, kuten neratinibin, yhdistämiselle endokriinisiin lääkeaineisiin (fulvesterantti, aromataasin estäjät) tai trastuzumabiin.
 
-This is why the TxGNN prediction is plausible: it does not represent a leap to an unrelated disease, but an extension within the same tumor biology space where neratinib already has proven activity, targeting a hormone-receptor-defined subgroup of its established indication.
+Tämä selittää, miksi TxGNN-ennuste on uskottava: se ei ole hyppy liittymättömään tautiin, vaan laajennus neratinibin jo vahvistetun HER2-positiivisen rintasyövän biologian sisälle, kohdistuen hormonaalisen reseptorin määrittelemään vakiintuneen indikaation alaryhmään.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimusnumero | Vaihe | Tila | Osallistujat | Tärkeimmät tulokset |
 |---------|------|------|------|---------|
-| [NCT04886531](https://clinicaltrials.gov/study/NCT04886531) | Phase 2 | Recruiting | 30 | Pre-operative neratinib plus endocrine therapy with trastuzumab in ER-positive, HER2-positive breast cancer; directly tests the neratinib + endocrine therapy combination relevant to PR+ disease |
-| [NCT06131424](https://clinicaltrials.gov/study/NCT06131424) | N/A | Completed | 1151 | Multicenter retrospective study of HER2-low prevalence, clinicopathologic characteristics and treatment patterns in metastatic breast cancer; large real-world sample but non-interventional |
-| [NCT05599334](https://clinicaltrials.gov/study/NCT05599334) | N/A | Completed | 111 | Retrospective observational study of neratinib as extended adjuvant therapy in early-stage HER2+ breast cancer under the European Early Access Program |
-| [NCT04901299](https://clinicaltrials.gov/study/NCT04901299) | Phase 2 | Withdrawn | 0 | Planned trial of fulvestrant plus neratinib in previously treated HR-positive, HER2-negative metastatic breast cancer; withdrawn, no data available |
-| [NCT04460430](https://clinicaltrials.gov/study/NCT04460430) | Phase 2 | Terminated | 12 | Neratinib targeting EGFR/ERBB2 in HR-positive/HER2-negative, HER2-enriched advanced/metastatic breast cancer; terminated early, small sample |
+| [NCT04886531](https://clinicaltrials.gov/study/NCT04886531) | Vaihe 2 | Rekrytoimassa | 30 | Preoperatiivinen neratinibi plus endokriininen hoito trastuzumabiin liittyen ER-positiivisessa, HER2-positiivisessa rintasyövässä; testaa suoraan neratinibin + endokriinisen hoidon yhdistelmää, joka on relevantti PR+ -taudille |
+| [NCT06131424](https://clinicaltrials.gov/study/NCT06131424) | Ei sovellettavissa | Valmis | 1151 | Monikeskuksinen retrospektiivinen tutkimus HER2-matalan esiintyvyyden, kliinikopatologisten piirteiden ja hoitomallien kasvaimesta metastaattisessa rintasyövässä; laaja todellisen potilasryhmän otos, mutta ei-interventio |
+| [NCT05599334](https://clinicaltrials.gov/study/NCT05599334) | Ei sovellettavissa | Valmis | 111 | Retrospektiivinen havainnollinen tutkimus neratinibista laajennetuksi adjuvanttiterapiaksi varhaisvaiheen HER2+ -rintasyövässä eurooppalaisen varhaiskäyttöohjelman puitteissa |
+| [NCT04901299](https://clinicaltrials.gov/study/NCT04901299) | Vaihe 2 | Peruttu | 0 | Suunniteltu tutkimus fulvesterantista plus neratinibista aiemmin hoidettussa HR-positiivisessa, HER2-negatiivisessa metastaattisessa rintasyövässä; peruttu, tuloksia ei saatavilla |
+| [NCT04460430](https://clinicaltrials.gov/study/NCT04460430) | Vaihe 2 | Lopetettu | 12 | Neratinibi kohdennetaan EGFR/ERBB2:een HR-positiivisessa/HER2-negatiivisessa, HER2-rikastuneessa kehittyneessä/metastaattisessa rintasyövässä; lopetettu ennenaikaisesti, pieni otos |
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Julkaisu | Tärkeimmät tulokset |
 |------|-----|------|------|---------|
-| [26874901](https://pubmed.ncbi.nlm.nih.gov/26874901/) | 2016 | RCT | The Lancet. Oncology | ExteNET phase 3 trial: 12 months of neratinib after trastuzumab-based adjuvant therapy in early-stage HER2-positive breast cancer |
-| [27406346](https://pubmed.ncbi.nlm.nih.gov/27406346/) | 2016 | RCT | New England Journal of Medicine | I-SPY 2 adaptive phase 2 trial evaluating neratinib added to standard neoadjuvant chemotherapy in high-risk early breast cancer |
-| [35640077](https://pubmed.ncbi.nlm.nih.gov/35640077/) | 2022 | Review | J Clin Oncol | ASCO guideline update on systemic therapy for advanced HER2-positive breast cancer |
-| [29784737](https://pubmed.ncbi.nlm.nih.gov/29784737/) | 2018 | Review | JNCCN | NCCN Guidelines update for breast cancer, covering HER2-directed and endocrine-based regimens |
-| [32139271](https://pubmed.ncbi.nlm.nih.gov/32139271/) | 2020 | Review | Clinical Breast Cancer | BCTEG roundtable on clinical developments and practice guidance for HER2-positive breast cancer, including neratinib |
-| [33726508](https://pubmed.ncbi.nlm.nih.gov/33726508/) | 2021 | Review | Future Oncology | Current treatment trends in HR+/HER2+ breast cancer, discussing hormone plus anti-HER2 combinations without chemotherapy |
-| [24892840](https://pubmed.ncbi.nlm.nih.gov/24892840/) | 2013 | Review | Clin Adv Hematol Oncol | Integration of recent data into clinical practice for metastatic breast cancer across receptor subgroups |
-| [39153126](https://pubmed.ncbi.nlm.nih.gov/39153126/) | 2024 | Cohort | Breast Cancer Res Treat | Real-world patterns of adjuvant neratinib use and tolerance in HR+/HER2+ early-stage breast cancer, noting GI-related discontinuation |
-| [32782013](https://pubmed.ncbi.nlm.nih.gov/32782013/) | 2020 | Cohort | Breast Cancer Research | Targetable ERBB2 mutations as an adverse prognostic marker in ER-positive, ERBB2 non-amplified lobular breast carcinoma |
-| [35251981](https://pubmed.ncbi.nlm.nih.gov/35251981/) | 2022 | Cohort | Frontiers in Oncology | Case report and literature review on HER2-positive breast cancer with leptomeningeal disease |
+| [26874901](https://pubmed.ncbi.nlm.nih.gov/26874901/) | 2016 | RCT | The Lancet. Oncology | ExteNET-vaiheen 3 tutkimus: 12 kuukautta neratinibia trastuzumabi-pohjaisen adjuvantiterapian jälkeen varhaisvaiheen HER2-positiivisessa rintasyövässä |
+| [27406346](https://pubmed.ncbi.nlm.nih.gov/27406346/) | 2016 | RCT | New England Journal of Medicine | I-SPY 2 -adaptiivinen vaiheen 2 tutkimus, jossa neratinibi lisätään tavalliseen neoadjuvanttikemoterapiaan korkeariski-rintasyövässä |
+| [35640077](https://pubmed.ncbi.nlm.nih.gov/35640077/) | 2022 | Katsaus | J Clin Oncol | ASCO-ohjeiden päivitys järjestelmällisestä hoidosta edistyneessä HER2-positiivisessa rintasyövässä |
+| [29784737](https://pubmed.ncbi.nlm.nih.gov/29784737/) | 2018 | Katsaus | JNCCN | NCCN-ohjeet rintasyövän hoitoon, sisältäen HER2-suunnatut ja hormonaalipohjaisten lääkitysyhdistelmät |
+| [32139271](https://pubmed.ncbi.nlm.nih.gov/32139271/) | 2020 | Katsaus | Clinical Breast Cancer | BCTEG-paneelikeskustelu kliinisista kehityksistä ja käytännön ohjeista HER2-positiivisessa rintasyövässä, mukaan lukien neratinibi |
+| [33726508](https://pubmed.ncbi.nlm.nih.gov/33726508/) | 2021 | Katsaus | Future Oncology | Nykyiset hoitotrendit HR+/HER2+ -rintasyövässä, käsitellen hormoni plus anti-HER2-yhdistelmiä ilman kemoterapiaa |
+| [24892840](https://pubmed.ncbi.nlm.nih.gov/24892840/) | 2013 | Katsaus | Clin Adv Hematol Oncol | Viimeaikaisten tutkimustulosten integrointi kliiniseen käytäntöön metastaattisessa rintasyövässä reseptoriluokissa |
+| [39153126](https://pubmed.ncbi.nlm.nih.gov/39153126/) | 2024 | Kohortti | Breast Cancer Res Treat | Todellisen potilasryhmän hoitomalleja adjuvantin neratinibin käytöstä ja sietävyydestä HR+/HER2+ -varhaisvaiheen rintasyövässä, erityisesti ruoansulatuselimistön liittyvät keskeytykset |
+| [32782013](https://pubmed.ncbi.nlm.nih.gov/32782013/) | 2020 | Kohortti | Breast Cancer Research | Kohdistettavat ERBB2-mutaatiot negatiivisena ennustetekijänä ER-positiivisessa, ERBB2-ei-vahvistetussa lobulaalisessa rintasyövässä |
+| [35251981](https://pubmed.ncbi.nlm.nih.gov/35251981/) | 2022 | Kohortti | Frontiers in Oncology | Tapausraportti ja kirjallisuuskatsaus HER2-positiivisesta rintasyövästä leptomeningeaalisen leviämisen kanssa |
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Neratinib currently has no marketing authorization on record in Finland (market status: Not marketed, 0 authorizations). No dosage form or approved-indication data is available to populate a licensing table.
+Neratinibillä ei ole tällä hetkellä markkinointilupaa Suomessa (markkinatilanne: Ei markkinoitu, 0 hyväksyntää). Annosmuotoja tai hyväksyttyjä indikaatioita koskevia tietoja ei ole saatavilla hyväksyntätaulukon täyttämiseksi.
 
-## Cytotoxicity
+## Sytotoksisyys
 
-| Item | Content |
+| Kohde | Sisältö |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (irreversible pan-HER tyrosine-kinase inhibitor) |
-| Myelosuppression Risk | Low — no myelosuppression signal reported in the available literature; dominant toxicity is gastrointestinal (diarrhea), which drives treatment discontinuation in real-world cohorts |
-| Emetogenicity Classification | Low to moderate |
-| Monitoring Items | Liver function tests, diarrhea/GI tolerance, and standard CBC per oncology monitoring practice |
-| Handling Protection | As an oral antineoplastic agent, standard institutional cytotoxic/hazardous drug handling precautions should apply pending official package insert confirmation |
+| Sytotoksisyyden luokitus | Kohdennettu lääkitys (peruuttamaton pan-HER tyrosiinikinaasin estäjä) |
+| Luuydinsuppressionin riski | Alhainen — saatavilla olevassa kirjallisuudessa ei ole ilmoitettu luuydinsuppressionin signaalia; hallitseva toksisuus on ruoansulatuselimistön (ripuli), mikä johtaa hoidon keskeyttämiseen todellisen potilasryhmän kohorteissa |
+| Pahoinvoinnin luokitus | Alhainen–kohtalainen |
+| Seurantakohteet | Maksafunktion testit, ripuli/ruoansulatuskanavan sietokyky ja säännölliset verenkuvat onkologian seurantakäytäntöjen mukaisesti |
+| Käsittelyn suoja | Suun kautta otettavana syöpälääkkeenä tulisi soveltaa laitoksen tavallisia syöpä- ja vaarallisten aineiden käsittelytoimenpiteitä virallisen pakkausselosteen varmistamisen odotuksella |
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information.
+Katso turvallisuustiedot pakkausselosteesta.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Proceed with Guardrails**
+**Päätös: Jatka varauksilla**
 
-**Rationale:**
-The predicted PR+ breast cancer indication sits within neratinib's already-validated HER2-positive breast cancer biology, supported by an L2 evidence level (one completed Phase 2 observational trial plus a recruiting Phase 2 combination trial), but no trial to date is specifically stratified by PR status, so guardrails are warranted before advancing further.
+**Perustelut:**
+Ennustettu PR+ rintasyövän indikaatio sijoittuu neratinibin jo vakiintuneen HER2-positiivisen rintasyövän biologian sisälle ja sitä tukee L2-evidenssin taso (yksi valmistunut vaiheen 2 havainnollinen tutkimus sekä meneillään oleva vaiheen 2 yhdistelmätutkimus), mutta mikään tutkimus ei ole toistaiseksi stratifioitu PR-statuksen mukaan, joten varauksista on oltava edellytys ennen etenemistä.
 
-**To proceed, the following is needed:**
-- TFDA/official package insert warnings and contraindications (currently blocking, DG001)
-- Formal DrugBank-sourced mechanism-of-action confirmation (DG002)
-- Finland market authorization and licensing status confirmation
-- A PR-status-stratified clinical trial or subgroup analysis to directly test the predicted indication
+**Jatkoa varten vaaditaan:**
+- TFDA:n/virallisen pakkausselosteen varoitukset ja vasta-aiheet (tällä hetkellä este, DG001)
+- Muodollinen DrugBank-lähteinen vaikutusmekanismin vahvistus (DG002)
+- Suomen markkinointi-ilmoituksen ja lisensointitilan vahvistus
+- PR-statuksella stratifioitu kliininen tutkimus tai alaryhmäanalyysi ennustetun indikaation suoraa testaamista varten
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

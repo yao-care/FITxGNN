@@ -29,123 +29,124 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Travoprost: From Ocular Hypertension/Glaucoma to Vascular Disease
+# Travoprost: Silmän sisäisestä paineen kohonneisuudesta/Glaukooma silmästä verisuonisairauksiin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-> Travoprost is a prostaglandin F2α analogue (FP receptor agonist) used to lower intraocular pressure in open-angle glaucoma and ocular hypertension.
-> The TxGNN model's single highest-scoring prediction (**visceral calciphylaxis**, score 99.9998%) has **zero supporting trials or literature** and is flagged as pure graph-proximity inference.
-> Among the 10 candidate indications in this pack, only **Vascular Disease** reached the "Research Question" stage, supported by **15 clinical trials** and **20 publications** — though all are drawn from the drug's original glaucoma indication and describe vascular *side effects* rather than a tested vascular *treatment* effect.
+> Travoprost on prostaglandiini F2α-analogi (FP-reseptoragonisti), jota käytetään silmän sisäisen paineen alentamiseen avokulmaisessa glaukoomatissa ja silmän sisäisen paineen kohonneisuudessa.
+> TxGNN-mallin yksittäinen korkeimmin pistetty ennuste (**viskeraalinen kalsifilaksia**, pistemäärä 99,9998%) saa **nolla tutkimustesteistä tai kirjallisuudesta tukea** ja se on merkitty puhtaaksi verkkoläheisyyden päättelyksi.
+> Tämän paketin 10 kandidoivan indikaation joukossa vain **Verisuonisairaus** saavutti "Tutkimuskysymys"-vaiheen, tuettuna **15 kliinisellä tutkimuksella** ja **20 julkaisulla** — vaikka kaikki ovat peräisin lääkkeen alkuperäisestä glaukooma-indikaatiosta ja kuvaavat verisuonien *sivuvaikutuksia* eikä testattua verisuonten *hoitovaikutusta*.
 
 ---
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohde | Sisältö |
 |------|------|
-| Original Indication | Open-angle glaucoma / Ocular hypertension (inferred from trial evidence and rationale text; no formal indication record in this pack) |
-| Predicted New Indication | Vascular Disease |
-| TxGNN Prediction Score | 99.9997% |
-| Evidence Level | L4 |
-| Taiwan Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold — Research Question (hypothesis-generating, not yet a Go candidate) |
+| Alkuperäinen indikaatio | Avokulmainen glaukooma / Silmän sisäisen paineen kohonneisuus (johdettu kokeellisesta näytöstä ja perusteeksi liitetyistä teksteistä; virallista indikaation tietuetta ei ole tässä paketissa) |
+| Ennustettu uusi indikaatio | Verisuonisairaus |
+| TxGNN-ennusteen pistemäärä | 99,9997% |
+| Näytön taso | L4 |
+| Taiwanin markkinatilanne | ✗ Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Pidä — Tutkimuskysymys (hypoteesin generoiminen, ei vielä Go-kandidaatti) |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, a formal mechanism-of-action record is not available for this drug (flagged in the evidence pack as a High-severity data gap). Based on information embedded in the evidence's own rationale text, travoprost is an FP-receptor prostaglandin agonist whose approved effect is intraocular pressure reduction via increased uveoscleral outflow. FP receptors are also expressed on vascular smooth muscle, which is the theoretical bridge TxGNN appears to be using to connect travoprost to the broad "vascular disease" category.
+Tällä hetkellä muodollista toimintamekanismitietuetta ei ole saatavilla tälle lääkkeelle (merkitty näytöpaketissa korkean vakavuuden tietovajeeksi). Näytteen omaan perustelutekstiin upotetun tiedon perusteella travoprost on FP-reseptorin prostaglandiinaagonisti, jonka hyväksytty vaikutus on silmän sisäisen paineen alentaminen lisääntyneen uveaskleeraalisen ulosvirtauksen kautta. FP-reseptoreita ilmentyy myös verisuonten sileiden lihasten pinnalla, mikä on teoreettinen silta, jota TxGNN näyttää käyttävän kytkeäkseen travoprosti laajaan "verisuonisairaus"-luokkaan.
 
-In practice, this link is indirect. The supporting trials do not test travoprost as a treatment for any systemic vascular condition — they document a related but distinct phenomenon: prostaglandin-analogue eye drops cause **conjunctival hyperemia** (local vasodilation) as a side effect, and one small study (NCT00308945, n=20) directly measured drug-induced changes in retinal vascular diameter and choroidal blood flow. This establishes that travoprost has *measurable vasoactive effects*, but not that modulating those effects treats "vascular disease" as a therapeutic indication.
+Käytännössä tämä linkki on epäsuora. Tukevat tutkimukset eivät testaa travoprosti hoitona mihinkään systeemiseen verisuonisairauteen — ne dokumentoivat liittyvää mutta erillistä ilmiötä: prostaglandiinianalogi-silmätipat aiheuttavat **konjunktivaalisen hyperemiaa** (paikallista vasodilataatiota) sivuvaikutuksena, ja yksi pieni tutkimus (NCT00308945, n=20) mittasi suoraan lääkkeellä aiheuttamat muutokset verkkokalvon verisuonten halkaisijassa ja koroidaalisen verenkierron virtauksessa. Tämä osoittaa, että travoprostilla on *mitattavissa olevia vaskulaarisia vaikutuksia*, mutta ei sitä, että näiden vaikutusten sääteleminen hoitaa "verisuonisairautta" terapeuttisena indikaationa.
 
-Given this, the TxGNN score most plausibly reflects graph proximity between "travoprost" and vascular *side-effect* nodes, rather than a validated treatment relationship. This is why the evidence level is capped at L4 (mechanistic/pharmacodynamic signal only) and the decision stage remains "Research Question" rather than moving toward a Go recommendation.
+Tämän perusteella TxGNN-pistemäärä todennäköisesti heijastaa verkkoläheisyyttä "travoprosti"- ja verisuoniin liittyvien *sivuvaikutus*-solmujen välillä, eikä vahvistettua hoitosuhteita. Tämä on syy siihen, että näytön taso on rajoitettu L4:ään (mekanistinen/farmakodynaamisesti signaali vain) ja päätösvaihe pysyy "Tutkimuskysymys"-tasolla eikä etene kohti Go-suositusta.
 
 ---
 
-## Other TxGNN-Predicted Indications (Screened, No Evidence Support)
+## Muut TxGNN:n ennustamat indikaatiot (seulottu, ei näyttötukea)
 
-For transparency, the remaining 9 ranked candidates in this evidence pack were also queried against ClinicalTrials.gov, ICTRP, and PubMed. All returned no hits except one (case-report level only), and all are held at decision stage S0:
+Avoimuuden vuoksi myös tämän näytöpaketin jäljellä olevat 9 rankkia kandidaattia kyseytettiin ClinicalTrials.gov:iin, ICTRP:hen ja PubMediin. Kaikki palauttivat nollatulokset yhtä lukuun ottamatta (vain tapausseloste-taso), ja kaikki pidetään päätösvaiheessa S0:
 
-| Rank | Disease | TxGNN Score | Evidence Level | Recommendation |
+| Rank | Sairaus | TxGNN-pistemäärä | Näytön taso | Suositus |
 |------|---------|-------------|-----------------|-----------------|
-| 1 | Visceral calciphylaxis | 99.9998% | L5 | Hold — no mechanistic or evidentiary link |
-| 2 | Venous thoracic outlet syndrome | 99.9998% | L5 | Hold — no evidence |
-| 3 | Arterial thoracic outlet syndrome | 99.9998% | L5 | Hold — no evidence |
-| 4 | Neurogenic thoracic outlet syndrome | 99.9997% | L5 | Hold — no evidence |
-| 6 | Angiodysplasia of stomach | 99.9997% | L5 | Hold — no evidence |
-| 7 | Blue toe syndrome | 99.9997% | L5 | Hold — no evidence |
-| 8 | Lymphangiectasis | 99.9997% | L5 | Hold — no evidence |
-| 9 | Idiopathic spontaneous coronary artery dissection | 99.9997% | L5 | Hold — no evidence; population should avoid unvalidated cardiovascular intervention |
-| 10 | Hemangioendothelioma | 99.9997% | L4 | Hold — 2 case reports show travoprost **inducing** uveal effusion in patients with vascular anomalies (Sturge-Weber-Krabbe syndrome); this is a risk signal, not supporting evidence |
+| 1 | Viskeraalinen kalsifilaksia | 99,9998% | L5 | Pidä — ei mekanistista tai näyttöpohjaisaa linkkiä |
+| 2 | Laskimon rinnan liitäntäoireyhtymä | 99,9998% | L5 | Pidä — ei näyttöä |
+| 3 | Valtimollinen rinnan liitäntäoireyhtymä | 99,9998% | L5 | Pidä — ei näyttöä |
+| 4 | Hermostosidonnainen rinnan liitäntäoireyhtymä | 99,9997% | L5 | Pidä — ei näyttöä |
+| 6 | Mahalaukun angioodyplasia | 99,9997% | L5 | Pidä — ei näyttöä |
+| 7 | Sinisen varvan oireyhtymä | 99,9997% | L5 | Pidä — ei näyttöä |
+| 8 | Lymfangiektasia | 99,9997% | L5 | Pidä — ei näyttöä |
+| 9 | Idiopaattinen spontaani sepelvaltimoiden dissekaatio | 99,9997% | L5 | Pidä — ei näyttöä; väestö tulisi välttää validoimatonta sydän- ja verisuonien hoitoa |
+| 10 | Hemangioendotelioma | 99,9997% | L4 | Pidä — 2 tapausseloste näyttävät travoprosti *indusoivan* uvealisen effuusion glaukooman potilaille, joilla on ennalta olemassa olevia verisuonten epämuodostumia (Sturge-Weber-Krabbe-oireyhtymä); tämä on riskisignaali, ei tukea antava näyttö |
 
 ---
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-Evidence below is drawn from `predicted_indications` → Vascular Disease (the only candidate with registered trials). All trials were conducted in the drug's original glaucoma/ocular hypertension population; none tests a systemic vascular disease endpoint directly.
+Alla oleva näyttö on peräisin `predicted_indications` → Verisuonisairaus (ainoa kandidaatti, jolla on rekisteröidyt tutkimukset). Kaikki tutkimukset suoritettiin lääkkeen alkuperäisessä glaukooma/silmän sisäisen paineen kohonneisuuden väestössä; mikään ei testaa systeemisen verisuonisairauden päätetapahtumaa suoraan.
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimuksen numero | Vaihe | Tila | Rekrytointi | Keskeiset löydökset |
 |---------|------|------|------|---------|
-| [NCT02136589](https://clinicaltrials.gov/study/NCT02136589) | Phase 4 | Completed | 40 | Evaluated whether NSAID pretreatment affects travoprost-induced conjunctival hyperemia and IOP reduction — direct vascular mechanism study (Grade B) |
-| [NCT00308945](https://clinicaltrials.gov/study/NCT00308945) | Phase 4 | Completed | 20 | Compared travoprost vs. latanoprost effects on retinal vascular diameter and choroidal blood flow — only trial measuring vascular physiology parameters (Grade B) |
-| [NCT00293787](https://clinicaltrials.gov/study/NCT00293787) | Phase 3 | Completed | 156 | Safety/efficacy of glaucoma therapy in open-angle glaucoma/ocular hypertension (original indication) |
-| [NCT00293761](https://clinicaltrials.gov/study/NCT00293761) | Phase 3 | Completed | 109 | Safety/efficacy of glaucoma therapy in open-angle glaucoma/ocular hypertension (original indication) |
-| [NCT00799682](https://clinicaltrials.gov/study/NCT00799682) | Phase 4 | Completed | 56 | Ocular surface signs/symptoms: Xalatan vs. Travatan Z in dry-eye glaucoma patients |
-| [NCT00760539](https://clinicaltrials.gov/study/NCT00760539) | Phase 3 | Completed | 87 | Travoprost/timolol BAC-free vs. standard formulation in open-angle glaucoma |
-| [NCT01253902](https://clinicaltrials.gov/study/NCT01253902) | Phase 4 | Completed | 164 | Ocular surface tolerability comparison across prostaglandin analogues |
-| [NCT00347126](https://clinicaltrials.gov/study/NCT00347126) | N/A | Completed | 372 | Efficacy/safety of systematic switch from latanoprost to travoprost |
-| [NCT00047554](https://clinicaltrials.gov/study/NCT00047554) | N/A | Terminated | 336 | Five-year safety study of iris pigmentation changes with travoprost |
-| [NCT00672997](https://clinicaltrials.gov/study/NCT00672997) | Phase 3 | Completed | 301 | Travoprost/timolol BAC-free vs. standard formulation, US arm of NCT00760539 |
+| [NCT02136589](https://clinicaltrials.gov/study/NCT02136589) | Vaihe 4 | Saatu päätökseen | 40 | Arvioitiin, vaikuttaako NSAID-esikäsittely travoprosti-aiheuttoiseen konjunktivaalisen hyperemiaa ja IOP-reduktioon — suora verisuonten mekanismikohtainen tutkimus (Grade B) |
+| [NCT00308945](https://clinicaltrials.gov/study/NCT00308945) | Vaihe 4 | Saatu päätökseen | 20 | Verrattiin travoprosti- vs. latanoprosti-vaikutusta verkkokalvon verisuonten halkaisijaan ja koroidaalisen verenkierron virtaukseen — ainoa tutkimus, joka mittasi verisuonten fysiologian parametreja (Grade B) |
+| [NCT00293787](https://clinicaltrials.gov/study/NCT00293787) | Vaihe 3 | Saatu päätökseen | 156 | Glaukooman hoitoon liittyvä turvallisuus/tehokkuus avokulmaisessa glaukoomatissa/silmän sisäisen paineen kohonneisuudessa (alkuperäinen indikaatio) |
+| [NCT00293761](https://clinicaltrials.gov/study/NCT00293761) | Vaihe 3 | Saatu päätökseen | 109 | Glaukooman hoitoon liittyvä turvallisuus/tehokkuus avokulmaisessa glaukoomatissa/silmän sisäisen paineen kohonneisuudessa (alkuperäinen indikaatio) |
+| [NCT00799682](https://clinicaltrials.gov/study/NCT00799682) | Vaihe 4 | Saatu päätökseen | 56 | Silmäpinnan merkit/oireet: Xalatan vs. Travatan Z kuivien silmien glaukooman potilaissa |
+| [NCT00760539](https://clinicaltrials.gov/study/NCT00760539) | Vaihe 3 | Saatu päätökseen | 87 | Travoprost/timololi BAC-vapaa vs. standardi formulaatio avokulmaisessa glaukoomatissa |
+| [NCT01253902](https://clinicaltrials.gov/study/NCT01253902) | Vaihe 4 | Saatu päätökseen | 164 | Silmäpinnan sietokyky vertailu prostaglandiini-analogien välillä |
+| [NCT00347126](https://clinicaltrials.gov/study/NCT00347126) | N/A | Saatu päätökseen | 372 | Systemaattisen vaihdon tehokkuus/turvallisuus latanoprostista travoprostiin |
+| [NCT00047554](https://clinicaltrials.gov/study/NCT00047554) | N/A | Peruutettu | 336 | Viiden vuoden turvallisuustutkimus iris-pigmentaation muutoksista travoprosti-hoidon seurauksena |
+| [NCT00672997](https://clinicaltrials.gov/study/NCT00672997) | Vaihe 3 | Saatu päätökseen | 301 | Travoprost/timololi BAC-vapaa vs. standardi formulaatio, NCT00760539:n USA-osio |
 
 ---
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
 |------|-----|------|------|---------|
-| [18497524](https://pubmed.ncbi.nlm.nih.gov/18497524/) | 2008 | RCT | Ophthalmologica | Compared ocular surface side effects (hyperemia, tearing) of travoprost vs. bimatoprost over 6 months |
-| [12614748](https://pubmed.ncbi.nlm.nih.gov/12614748/) | 2003 | RCT | Am J Ophthalmol | Conjunctival hyperemia after short-term dosing with latanoprost, bimatoprost, and travoprost |
-| [24070367](https://pubmed.ncbi.nlm.nih.gov/24070367/) | 2013 | RCT | J Ocul Pharmacol Ther | Bimatoprost 0.01% vs. travoprost/timolol in IOP control after latanoprost/timolol failure |
-| [40718639](https://pubmed.ncbi.nlm.nih.gov/40718639/) | 2025 | Review | Int J Nanomedicine | Nanomedicine-based ophthalmic drug delivery systems for ocular disease |
-| [31335731](https://pubmed.ncbi.nlm.nih.gov/31335731/) | 2019 | Review | Medicine | Systematic evaluation of travoprost efficacy in glaucoma |
-| [25867658](https://pubmed.ncbi.nlm.nih.gov/25867658/) | 2015 | Review | Curr Med Res Opin | Meta-analysis of prostaglandin-timolol fixed combination efficacy/tolerability |
-| [22167538](https://pubmed.ncbi.nlm.nih.gov/22167538/) | 2012 | Review | Eur J Ophthalmol | Meta-analysis of prostaglandin-timolol fixed combinations' IOP-lowering effect |
-| [21878000](https://pubmed.ncbi.nlm.nih.gov/21878000/) | 2011 | Review | Curr Med Res Opin | Balancing efficacy and tolerability of prostaglandin analogues in POAG |
-| [35524840](https://pubmed.ncbi.nlm.nih.gov/35524840/) | 2022 | Review | Adv Ther | VISIONARY study subanalysis: switching to preservative-free tafluprost/timolol |
-| [17535371](https://pubmed.ncbi.nlm.nih.gov/17535371/) | 2007 | Review | Clin Exp Optom | General review of ocular therapeutics |
+| [18497524](https://pubmed.ncbi.nlm.nih.gov/18497524/) | 2008 | RCT | Ophthalmologica | Verrattiin silmäpinnan sivuvaikutuksia (hyperemia, silmien kyynelöintiä) travoprosti vs. bimatoprosti 6 kuukauden aikana |
+| [12614748](https://pubmed.ncbi.nlm.nih.gov/12614748/) | 2003 | RCT | Am J Ophthalmol | Konjunktivaalinen hyperemia lyhyen aikavälin annostelun jälkeen latanoprosti, bimatoprosti ja travoprosti kanssa |
+| [24070367](https://pubmed.ncbi.nlm.nih.gov/24070367/) | 2013 | RCT | J Ocul Pharmacol Ther | Bimatoprosti 0,01% vs. travoprost/timololi IOP-kontrollissa latanoprosti/timololi-epäonnistumisen jälkeen |
+| [40718639](https://pubmed.ncbi.nlm.nih.gov/40718639/) | 2025 | Katsaus | Int J Nanomedicine | Nanolääkkeiden silmälääkkeiden antotuotteet silmäsairauksien hoitoon |
+| [31335731](https://pubmed.ncbi.nlm.nih.gov/31335731/) | 2019 | Katsaus | Medicine | Travoprosti-tehokkuuden systemaattinen arviointi glaukoomatassa |
+| [25867658](https://pubmed.ncbi.nlm.nih.gov/25867658/) | 2015 | Katsaus | Curr Med Res Opin | Prostaglandiini-timololi kiinteän yhdistelmän tehokkuuden/sietokyvyn meta-analyysi |
+| [22167538](https://pubmed.ncbi.nlm.nih.gov/22167538/) | 2012 | Katsaus | Eur J Ophthalmol | Prostaglandiini-timololi kiinteän yhdistelmien IOP-alenevan vaikutuksen meta-analyysi |
+| [21878000](https://pubmed.ncbi.nlm.nih.gov/21878000/) | 2011 | Katsaus | Curr Med Res Opin | Prostaglandiini-analogien tehokkuuden ja sietokyvyn tasapainottaminen POAG:ssa |
+| [35524840](https://pubmed.ncbi.nlm.nih.gov/35524840/) | 2022 | Katsaus | Adv Ther | VISIONARY-tutkimuksen alianalyysi: vaihto säilöntäainevapaaseen tafluprost/timolooliin |
+| [17535371](https://pubmed.ncbi.nlm.nih.gov/17535371/) | 2007 | Katsaus | Clin Exp Optom | Silmälääkkeiden yleinen katsaus |
 
 ---
 
-## Taiwan Market Information
+## Taiwanin markkinatilanne
 
-Travoprost is currently **not marketed in Taiwan** — the evidence pack records 0 active authorizations and no license entries, so no product/dosage-form table can be produced.
-
----
-
-## Safety Considerations
-
-No package-insert warnings, contraindications, or drug-drug interaction data are available for travoprost in this evidence pack (the TFDA package insert lookup is flagged as a **Blocking** data gap, and the DDI query returned no results).
-
-> Please refer to the package insert for safety information.
-
-**Related safety signal (not a formal warning, but real literature data):** two case reports (PMID 19107053, PMID 21524602) describe travoprost inducing uveal effusion in glaucoma patients with pre-existing vascular anomalies (Sturge-Weber-Krabbe syndrome). This suggests caution in any patient population with underlying vascular malformations, and is directionally opposite to a therapeutic vascular-disease use.
+Travoprost ei tällä hetkellä ole markkinoilla Taiwanissa — näytöpaketti kirjaa 0 aktiivista hyväksyntää ja ei luparivejä, joten tuote-/annoslomakkeen taulukkoa ei voida tuottaa.
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuusnäkökohdat
 
-**Decision: Hold**
+Pakkaustekstiin liittyvät varoitukset, vasta-aiheet tai lääkkeiden väliset vuorovaikutukset eivät ole saatavilla tälle lääkkeelle tässä näytöpaketissa (TFDA-pakkaustekstin haku on merkitty **Estäviksi** tietovajeeksi, ja DDI-kysely ei palauttanut tuloksia).
 
-**Rationale:**
-- The TxGNN model's top-ranked prediction (visceral calciphylaxis) has no clinical, literature, or mechanistic support and should not be advanced.
-- The only candidate with real supporting data — Vascular Disease — is backed solely by pharmacodynamic/safety observations (hyperemia, retinal blood flow changes) from the drug's original glaucoma trials, not by any trial testing a vascular-disease treatment endpoint. This is hypothesis-generating (L4), not decision-ready.
+> Viittaa pakkaustekstiin turvallisuustiedoista.
 
-**To proceed, the following is needed:**
-- TFDA/manufacturer package insert (warnings, contraindications) — currently a Blocking gap preventing any S1 safety screen
-- Formal mechanism-of-action documentation from DrugBank
-- A dedicated preclinical or translational study directly testing FP-receptor modulation in a defined vascular disease model, since existing evidence only documents vascular *side effects* of ocular dosing
-- Confirmation of Taiwan regulatory pathway, given the drug is currently unmarketed with zero local authorizations
+**Liittyvä turvallisuussignaali (ei muodollinen varoitus, mutta oikea kirjallisuustieto):** kaksi tapausseloste (PMID 19107053, PMID 21524602) kuvaavat travoprosti indusoivan uvealisen effuusion glaukooman potilaissa, joilla on ennalta olemassa olevia verisuonten epämuodostumia (Sturge-Weber-Krabbe-oireyhtymä). Tämä viittaa varovaisuuteen millään potilaspopulaatiolla, jolla on taustalla olevia verisuonten väärinkehittymiä, ja on suuntaisesti päinvastainen terapeuttiseen verisuonisairauden käyttöön.
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidä**
+
+**Perustelut:**
+- TxGNN-mallin eniten pisteytetty ennuste (viskeraalinen kalsifilaksia) ei saa kliinistä, kirjallisuus- tai mekanistista tukea ja sitä ei tule edistää.
+- Ainoa kandidaatti, jolla on oikea tukeva näyttö — Verisuonisairaus — saa tukea vain farmakodynaamisia/turvallisuushavaintoja (hyperemia, verkkokalvon verenkierron muutokset) lääkkeen alkuperäisistä glaukooma-tutkimuksista, ei mistään tutkimuksesta, joka testaa verisuonisairauden hoitopäätetapaa. Tämä on hypoteesin generoimista (L4), ei päätösvalmista.
+
+**Edistämiseksi seuraavaa vaaditaan:**
+- TFDA/valmistajan pakkausteksti (varoitukset, vasta-aiheet) — tällä hetkellä Estävä vahe, joka estää minkään S1 turvallisuusseulonnan
+- Muodollinen toimintamekanismi-dokumentaatio DrugBankista
+- Omistettu prekliininen tai translationaalinen tutkimus, joka testaa suoraan FP-reseptorin modulointia määritellyssä verisuonisairauden mallissa, koska olemassa oleva näyttö dokumentoi vain verisuonten *sivuvaikutuksia* silmä-annoksesta
+- Vahvistus Taiwanin sääntelyjärjestelmästä, koska lääke on tällä hetkellä markkinoimaton nolla paikallisilla hyväksynnillä
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

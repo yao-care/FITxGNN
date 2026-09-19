@@ -29,68 +29,63 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-Using the `data-report` skill's fidelity principle (no fabricating fields, no silently dropping caveats) since this is a data-driven report — I'll build it strictly from the evidence pack, using real values only.
+# Netarsudil: Silmänpaineen kohoamisesta primaariseen perinnölliseen glaukoomaan
 
-A structural note before the report: `predicted_indications[0]` (rank 1, **primary hereditary glaucoma**) is the top TxGNN hit and drives the title/overview per your template rules, but its own direct evidence is thin (1 indirect trial, 0 literature). The much stronger dataset (36 trials, 20 papers, L1) sits under rank 2, **glaucoma** — netarsudil's already-established indication elsewhere. I used that context only in the mechanism section, as the rationale text itself frames rank 1 as an extrapolation from rank 2's evidence base; the trial/literature tables strictly follow rank 1's own evidence per the template rule.
+## Yhden lauseen yhteenveto
 
----
+Netarsudil on Rho-kinaasi (ROCK) / norepinefriinin siirtäjä (NET) -duaaliestiö, jolla on vakiintunut silmänpainetta alentava mekanismi ja jota käytetään glaukooman ja silmän verenpaineen nousun hoidossa (markkinoilla muissa maissa nimillä Rhopressa/Rocklatan). TxGNN-malli ennustaa, että se voi olla tehokas myös erityisesti **primaarisessa perinnöllisessä glaukooomassa**, mutta tämä suppeampi ennustus perustuu tällä hetkellä vain **1 epäsuoraan liittyvään kliiniseen tutkimukseen** ja **ei yhdellekään omakseen julkaistusta tutkimukselle**.
 
-# Netarsudil: From Glaucoma/Ocular Hypertension to Primary Hereditary Glaucoma
+## Nopea yleiskatsaus
 
-## One-Sentence Summary
+| Kohta | Sisältö |
+|-------|---------|
+| Alkuperäinen indikaatio | Avokulmainen glaukooma / silmän verenpaineen nousu (vakiintunut käyttö kirjallisuuden perusteella; ei markkinoilla Suomessa tämän aineiston mukaan) |
+| Ennustettu uusi indikaatio | Primaarinen perinnöllinen glaukooma |
+| TxGNN-ennusteen pistemäärä | 99.50% |
+| Näytöntaso | L4 |
+| Suomen markkinointi | ✗ Ei markkinoilla |
+| Lupa-autorisaatioiden lukumäärä | 0 |
+| Suositeltu päätös | Pidättäytyminen |
 
-Netarsudil is a Rho-kinase (ROCK) / norepinephrine transporter (NET) dual inhibitor with an established IOP-lowering mechanism used in glaucoma and ocular hypertension (marketed elsewhere as Rhopressa/Rocklatan). The TxGNN model predicts it may also be effective specifically for **Primary Hereditary Glaucoma**, but this narrower prediction is currently supported by only **1 indirectly related clinical trial** and **no dedicated publications**.
+## Miksi tämä ennuste on järkevä?
 
-## Quick Overview
+Netarsudil on kaksoisestäjä, joka estää Rho-kinaasia (ROCK) ja norepinefriinin siirtäjää (NET). Se vaikuttaa verkkokalvon verkkosolukkoon vähenentäen nesteen ulosvirtausresistanssia ja alentaa episkleraalisen venoosin painetta, mikä alentaa silmän sisäistä painetta (IOP). Tämä mekanismi selittää sen hyvin dokumentoidun tehokkuuden avokulmaisen glaukooman ja silmän verenpaineen nousun hoidossa – indikaatio, jota tämän näyttöpaketin toisen sijoituksen ennuste tukee 36 kliinisellä tutkimuksella (mukaan lukien useat valmistuneet Phase 3 -pivoittutkimukset, kuten ROCKET ja MERCURY -sarjat) ja 20 julkaisulla, näytöntasolla L1.
 
-| Item | Content |
-|------|------|
-| Original Indication | Open-angle Glaucoma / Ocular Hypertension (established use per literature; not currently marketed in Finland under this dataset) |
-| Predicted New Indication | Primary Hereditary Glaucoma |
-| TxGNN Prediction Score | 99.50% |
-| Evidence Level | L4 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Primaarinen perinnöllinen glaukooma on glaukooman geneetinen alatyyppi, joka liittyy tyypillisesti verkkokalvon verkkosolukon rakenteellisiin tai toiminnallisiin puutoksiin (esim. ulosvirtausreitillä olevia geenejä vaikuttavat mutaatiot). Koska netarsudiilin IOP-alentava vaikutus toimii suoraan tässä samassa ulosvirtausreitissä, on mekanistisesti uskottavaa, että se voisi lisätä ulosvirtausta perinteisestä puutoksesta riippumatta – mahdollisesti ohittaen pikemminkin kuin korjatakseen geneettistä poikkeavuutta.
 
-## Why is This Prediction Reasonable?
+Kuitenkaan mikään tutkimus tässä näyttöpaketissa ei suoraan testaa netarsudiilin IOP-tehokkuutta geneettisesti vahvistetussa perinnöllisen glaukooman populaatiossa. Ainoastaan asiaan liittyvä tutkimus (NCT06969586) arvioi sarveiskalvon endoteelisuojaa glaukooma-potilailla, joilla on Fuchsin endoteelisen sarveiskalvon dystrofija – täysin eri päätetulos – ja se on luokiteltu "C":ksi (epäsuora relevanssi). Rank-1-ennuste on siksi parhaiten ymmärrettävissä vahvan yleisen avokulmaisen glaukooman näytön ekstrapolaationa, ei suorana todistuksena perinnöllisen alatyypissä.
 
-Netarsudil is a dual Rho-kinase (ROCK) and norepinephrine transporter (NET) inhibitor. It acts on the trabecular meshwork to reduce resistance to aqueous humour outflow and lowers episcleral venous pressure, thereby reducing intraocular pressure (IOP). This mechanism underlies its well-documented efficacy in open-angle glaucoma and ocular hypertension — an indication supported, per this evidence pack's rank-2 prediction, by 36 clinical trials (including multiple completed Phase 3 pivotal studies such as the ROCKET and MERCURY series) and 20 publications, at evidence level L1.
+## Kliinisen tutkimuksen näyttö
 
-Primary hereditary glaucoma is a genetic subtype of glaucoma typically linked to structural or functional defects in the trabecular meshwork (e.g., mutations affecting outflow-pathway genes). Because netarsudil's IOP-lowering effect works directly on that same outflow pathway, it is mechanistically plausible that it could increase outflow regardless of the underlying hereditary defect — theoretically bypassing rather than correcting the genetic abnormality.
-
-However, no trial in this evidence pack directly tests netarsudil's IOP efficacy in a genetically confirmed hereditary glaucoma population. The only related trial (NCT06969586) evaluates corneal endothelial protection in glaucoma patients with Fuchs endothelial corneal dystrophy — a different endpoint entirely — and is graded "C" (indirect relevance). The rank-1 prediction is therefore best understood as an extrapolation from strong general open-angle glaucoma evidence, not as direct proof in the hereditary subtype.
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimuksen numero | Vaihe | Tila | Osallistujamäärä | Tärkeimmät havainnot |
 |---------|------|------|------|---------|
-| [NCT06969586](https://clinicaltrials.gov/study/NCT06969586) | N/A | Enrolling by Invitation | 50 | Evaluates whether topical ROCK inhibitors protect corneal endothelial cells after cataract surgery in patients with glaucoma and Fuchs endothelial corneal dystrophy (FECD); compares topical ROCK inhibitor vs. placebo. Graded "C" relevance — endpoint is corneal endothelial cell loss, not IOP efficacy in hereditary glaucoma, and enrollment is invitation-only. |
+| [NCT06969586](https://clinicaltrials.gov/study/NCT06969586) | N/A | Kutsulla osallistava | 50 | Arvioi, suojavatko topikaalit ROCK-estäjät sarveiskalvon endoteelisoluja silmänmustaisen leikkauksen jälkeen potilailla, joilla on glaukooma ja Fuchsin endoteelisen sarveiskalvon dystrofija (FECD); vertaa topikaalista ROCK-estäjää lumelääkkeeseen. Luokiteltu "C"-relevanssiksi – päätetulos on sarveiskalvon endoteelisolun menetys, ei IOP-tehokkuus perinnöllisessä glaukooomassa, ja osallistaminen on vain kutsulla. |
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-Currently no related literature available specific to primary hereditary glaucoma.
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta, joka olisi spesifistä primaariselle perinnölliselle glaukooomalle.
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Netarsudil is not currently marketed in Finland (market status: Not marketed / Not Marketed; 0 authorizations on record), so no product/authorization table is available.
+Netarsudil ei ole tällä hetkellä markkinoilla Suomessa (markkinointi status: Ei markkinoilla; 0 autorisaatiota), joten tuote-/autorisaatiotaulukkoa ei ole saatavilla.
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-interaction data for netarsudil are not yet available in this evidence pack — TFDA/Fimea package insert retrieval is flagged as a blocking data gap, see below.)
+Katso tuoteselosteesta turvallisuustiedot. (Netarsudiilin tärkeimmät varoitukset, vasta-aiheet ja lääkevuorovaikutustiedot eivät ole vielä saatavilla tässä näyttöpaketissa – TFDA/Fimea-tuoteselosteen haku on merkitty blokkaavasiksi tietojen puutteeksi, katso alla.)
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidättäytyminen**
 
-**Rationale:**
-The rank-1 TxGNN prediction (primary hereditary glaucoma) currently rests on a single indirectly relevant trial with no supporting literature (L4, decision stage S1) — insufficient to advance. Netarsudil's mechanism is well-validated for glaucoma broadly, but that stronger evidence base does not directly confirm efficacy in the hereditary subtype, and a blocking safety data gap (no TFDA/Fimea package insert) prevents even an initial safety screen.
+**Perustelut:**
+Rank-1 TxGNN-ennuste (primaarinen perinnöllinen glaukooma) perustuu tällä hetkellä yhteen epäsuoraan liittyvään tutkimukseen ilman tukevaa kirjallisuutta (L4, päätösvaiheen S1) – riittämätön edistymiselle. Netarsudiilin mekanismi on hyvin validoitu glaukooomalle yleisesti, mutta tämä vahvempi näyttöperusta ei suoraan vahvista tehokkuutta perinnöllisessä alatyypissä, ja blokkava turvallisuustietojen puutos (ei TFDA/Fimea-tuotelehteä) estää jopa alkuperäisen turvallisuusseulonnan.
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert (warnings, contraindications) — currently blocking safety evaluation (S1)
-- Confirmed mechanism-of-action documentation from DrugBank (currently a data gap)
-- A trial or study directly assessing IOP efficacy in genetically confirmed primary hereditary glaucoma, rather than extrapolation from general open-angle glaucoma data
-- Drug-drug interaction (DDI) data, currently not found
+**Edistymiselle tarvitaan seuraavaa:**
+- TFDA/Fimea-tuoteseleosteen (varoitukset, vasta-aiheet) – tällä hetkellä turvallisuusarvioinnin este (S1)
+- Vahvistettu mekanismin dokumentaatio DrugBankista (tällä hetkellä tietojen puute)
+- Tutkimus, joka suoraan arvioi IOP-tehokkuutta geneettisesti vahvistetussa primaarisessa perinnöllisessä glaukooomassa, pikemminkin kuin ekstrapolaatio yleisen avokulmaisen glaukooman tiedoista
+- Lääkevuorovaikutus (DDI) -tiedot, joita ei tällä hetkellä löydy
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

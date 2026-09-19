@@ -29,80 +29,64 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 
 </div>
 
-The `txgnn-pipeline` skill covers pipeline operations, not report generation. I'll proceed directly with generating the evaluation report from the Evidence Pack.
+# Apremilast: Näyttöpaketti epätäydellinen — odotetaan TxGNN-ennusteen tuloksia
+
+## Yhden lauseen yhteenveto
+
+Apremilast (DrugBank ID: DB05676) on lääke, jolla ei ole alkuperäisiä indikaatioita tallennettuna tähän näyttöpakettiin.
+TxGNN-ennustevaihetta ei ole saatu päätökseen — tähän yhdisteelle **ei ole ennustettu uusia indikaatioita**.
+Tämä raportti ei voi edetä täydelliseen uudelleenkäyttöarvioihin, kunnes ennusteputkilo ajetaan ja näyttöjä kerätään.
 
 ---
 
-Analyzing the Evidence Pack for APREMILAST (DB05676):
+## Nopea yleiskatsaus
 
-- **`predicted_indications`**: Empty array — no TxGNN predictions were produced
-- **`original_indications`**: Empty — not populated in this pack
-- **`original_moa`**: `[Data Gap]`
-- **`taiwan_regulatory`**: Not marketed, 0 licenses
-- **`safety`**: All `[Data Gap]`
-- **`meta.inputs_received`**: Only `["drugbank"]` — TxGNN prediction step not completed
-
-Given these constraints, per the output rules (no `[Data Gap]`, omit empty sections), the report below reflects only what the Evidence Pack actually contains.
-
----
-
-# Apremilast: Evidence Pack Incomplete — Awaiting TxGNN Prediction Output
-
-## One-Sentence Summary
-
-Apremilast (DrugBank ID: DB05676) is a drug with no original indications recorded in this Evidence Pack.
-The TxGNN prediction step has not been completed — **no new indications have been predicted** for this compound.
-This report cannot proceed to a full repurposing evaluation until the prediction pipeline is run and evidence is collected.
+| Kohta | Sisältö |
+|-------|---------|
+| Alkuperäinen indikaatio | Ei saatavilla tässä näyttöpaketissa |
+| Ennustettu uusi indikaatio | Ei luotuja ennusteita |
+| TxGNN-ennustepisteet | - |
+| Näytön taso | Ei voida määrittää |
+| Taiwanin markkinatilanne | Ei ole markkinoitu |
+| Hyväksyntöjen määrä | 0 |
+| Suositeltu päätös | **Odota** |
 
 ---
 
-## Quick Overview
+## Miksi täydellinen arviointi ei voi edetä
 
-| Item | Content |
-|------|---------|
-| Original Indication | Not available in this Evidence Pack |
-| Predicted New Indication | No predictions generated |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | Cannot be determined |
-| Taiwan Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+Apremilastin näyttöpaketista puuttuvat kolme perustietoa, jotka vaaditaan uudelleenkäyttöanalyysiä varten:
 
----
+1. **Ei TxGNN-ennusteita** (`predicted_indications` on tyhjä). `meta.inputs_received`-kenttä osoittaa, että vain `"drugbank"` otettiin käyttöön — tietämysgraafin upottamisen ja taudin kytkentäennustuksen vaiheita ei ole suoritettu tälle yhdisteelle.
 
-## Why a Full Evaluation Cannot Proceed
+2. **Ei vaikutusmekanismin tietoja.** Ilman vaikutusmekanismia ei ole mahdollista arvioida vaikutusmekanismin uskottavuutta mille tahansa ehdokasindikaatiolle, eikä myöskään arvioida, ovatko lääkkeen kohteena olevat biologiset prosessit päällekkäisiä mahdollisten uusien sairauksien kanssa.
 
-The Evidence Pack for Apremilast is missing three foundational inputs required for repurposing analysis:
+3. **Ei rekisteröityä alkuperäistä indikaatiota.** Näyttöpaketti sisältää tyhjän `original_indications`-taulukon, joka estää vakio-"ankkuroindikaatio → ennustettu indikaatio" -päättelyketjun muodostamisen.
 
-1. **No TxGNN predictions** (`predicted_indications` is empty). The `meta.inputs_received` field shows only `"drugbank"` was ingested — the knowledge graph embedding and disease-link prediction steps have not been run for this compound.
-
-2. **No mechanism of action data.** Without MOA, it is not possible to reason about mechanistic plausibility for any candidate indication, nor to assess whether the drug's target biology overlaps with potential new disease areas.
-
-3. **No original indication on record.** The Evidence Pack contains an empty `original_indications` array, which prevents the standard "anchor indication → predicted indication" reasoning chain from being constructed.
-
-Until these gaps are closed, no sections on clinical trial evidence, literature support, or mechanistic rationale can be generated.
+Kunnes nämä puutteet korjataan, mitään klinisten kokeiden näytöistä, kirjallisuuden tuesta tai mekanistisista perusteluista ei voida luoda.
 
 ---
 
-## Safety Considerations
+## Turvallisuusharkinnot
 
-Please refer to the package insert for safety information.
+Ks. turvallisuustiedot pakkausselosteesta.
 
 ---
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Odota**
 
-**Rationale:**
-The Evidence Pack is structurally incomplete — TxGNN has not produced any predicted indications for Apremilast, and the foundational drug-level data (original indication, MOA) required for repurposing evaluation is absent. There is no evidence base to evaluate at this stage.
+**Perustelu:**
+Näyttöpaketti on rakenteellisesti epätäydellinen — TxGNN ei ole tuottanut mitään ennustettuja indikaatioita Apremilastille, ja uudelleenkäyttöarvioinnin vaatima perustieto lääkkeiden tasolla (alkuperäinen indikaatio, vaikutusmekanismi) puuttuu. Tässä vaiheessa ei ole näyttöpohjaa arvioitavaksi.
 
-**To proceed, the following is needed:**
+**Seuraavat asiat tarvitaan jatkaakseen:**
 
-- **Run the TxGNN prediction pipeline** for Apremilast (DB05676) against the full disease node set; populate `predicted_indications` with ranked candidates, scores, and supporting evidence
-- **Retrieve MOA from DrugBank** (`DG002`, severity: High) — query DrugBank API for mechanism of action, target proteins, and pharmacological class
-- **Retrieve Taiwan package insert warnings and contraindications** (`DG001`, severity: Blocking) — download and parse the TFDA package insert PDF to unblock the S1 safety screening step
-- **Populate `original_indications`** — cross-reference DrugBank approved indications and any existing regulatory filings to establish the anchor indication before running the repurposing chain
+- **Suorita TxGNN-ennustepipeline** Apremilastille (DB05676) koko sairauden solmujen joukkoutta vastaan; täytä `predicted_indications` järjestetyillä ehdokkailla, pisteillä ja tukevilla näytöillä
+- **Hae vaikutusmekanismi DrugBankista** (`DG002`, vakavuus: Korkea) — kysy DrugBank API:sta vaikutusmekanismia, kohdeproteiineja ja farmakologista luokkaa varten
+- **Hae Taiwanin pakkausselosteen varoitukset ja vasta-aiheet** (`DG001`, vakavuus: Estävä) — lataa ja jäsennä TFDA-pakkausseloste PDF-tiedosto S1-turvallisuusseulonnan vaiheen avaamista varten
+- **Täytä `original_indications`** — viitaa ristiinviitaten DrugBank hyväksyttyihin indikaatioihin ja kaikkiin olemassa oleviin sääntelyilmoituksiin ankkuroindikaation määrittämiseksi ennen uudelleenkäyttöketjun suorittamista
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

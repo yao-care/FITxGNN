@@ -29,55 +29,56 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Azathioprine: Evaluation Report — Insufficient Data for Repurposing Assessment
+# Azathioprine: Arviointiraportti — Riittämätön tieto uudelleenkäytön arviointiin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Azathioprine (DB00993) is a candidate submitted for TxGNN drug repurposing evaluation. However, this Evidence Pack contains **no predicted new indications**, **no mechanism of action data**, and **no safety information**, making a complete repurposing assessment impossible at this stage. A data remediation effort is required before evaluation can proceed.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not available in this Evidence Pack |
-| Predicted New Indication | No TxGNN predictions generated |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | N/A — No predictions available |
-| Finland Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+Azathioprine (DB00993) on ehdokas, joka on toimitettu TxGNN-lääkkeen uudelleenkäyttöarvioinnissa. Kuitenkin tämä Evidence Pack sisältää **ei yhtään ennustettuja uusia indikaatioita**, **ei toimintamekanismin tietoja** ja **ei turvallisuustietoja**, mikä tekee täydellisen uudelleenkäytön arvioinnin mahdottomaksi tässä vaiheessa. Tietojen korjaustoimenpide on tarpeen ennen kuin arviointi voidaan jatkaa.
 
 ---
 
-## Finland Market Information
+## Nopea yleiskatsaus
 
-Azathioprine currently holds **no marketing authorizations** in Finland according to the data queried on 2026-03-29. No product listings, dosage forms, or approved indications are on record.
+| Kohde | Sisältö |
+|-------|---------|
+| Alkuperäinen indikaatio | Ei saatavilla tässä Evidence Packissa |
+| Ennustettu uusi indikaatio | Ei TxGNN-ennusteita luotu |
+| TxGNN-ennustepisteet | N/A |
+| Todisteiden taso | N/A — Ei ennusteita saatavilla |
+| Suomen markkinatilanne | Ei myyntilupia |
+| Myyntilupien lukumäärä | 0 |
+| Suositeltu päätös | **Pidätä** |
 
 ---
 
-## Safety Considerations
+## Suomen markkinatiedot
 
-Please refer to the package insert for safety information.
+Azathioprinella ei tällä hetkellä ole **myyntilupia** Suomessa 2026-03-29 kerättyjen tietojen perusteella. Tuoteluetteloita, annosmuotoja tai hyväksyttyjä indikaatioita ei ole kirjattu.
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuusnäkökohdat
 
-**Decision: Hold**
+Katso pakkausselosteesta turvallisuustiedot.
 
-**Rationale:**
-The Evidence Pack for Azathioprine is missing all three elements required for a repurposing evaluation: TxGNN predictions, mechanism of action data, and safety/contraindication information. No recommendation for or against repurposing can be issued until these gaps are resolved.
+---
 
-**To proceed, the following is needed:**
+## Johtopäätös ja seuraavat vaiheet
 
-- **\[Blocking\] Predicted Indications**: The `predicted_indications` array is empty. Re-run the TxGNN pipeline for DB00993 to generate candidate indications with scores, supporting clinical trials, and literature.
-- **\[Blocking\] Safety Data (DG001)**: Key warnings and contraindications were not retrieved. Download and parse the package insert PDF from the relevant regulatory authority to enable the S1 safety pre-screening step.
-- **\[High\] Mechanism of Action (DG002)**: MOA data is absent. Query the DrugBank API for DB00993 to populate `original_moa`, which is required for the mechanistic rationale section of the evaluation.
-- **\[Recommended\] Original Indications**: The `original_indications` field is empty. Populate this from DrugBank or the package insert to enable the "From X to Y" repurposing narrative.
+**Päätös: Pidätä**
 
-Once the above data gaps are resolved and the Evidence Pack is regenerated at v5 or later, a full evaluation report can be produced.
+**Perustelut:**
+Azathiopriinin Evidence Packista puuttuu kaikki kolme osaa, jotka vaaditaan uudelleenkäyttöarvioinnissa: TxGNN-ennusteet, toimintamekanismin tiedot ja turvallisuus-/kontraindikaatiotiedot. Mitään suositusta uudelleenkäytön puolesta tai vastaan ei voida antaa ennen kuin nämä puutteet on ratkaistu.
+
+**Jatkamisen edellytyksenä seuraavat asiat ovat tarpeen:**
+
+- **\[Estävä\] Ennustetut indikaatiot**: `predicted_indications`-matriisi on tyhjä. Suorita TxGNN-putkilinja uudelleen DB00993:lle saadaksesi ehdokas-indikaatiot pistein, tukevia kliinisiä tutkimuksia ja kirjallisuusviitteita.
+- **\[Estävä\] Turvallisuustiedot (DG001)**: Tärkeitä varoituksia ja kontraindikaatioita ei haettu. Lataa ja jäsennä pakkausseloste PDF-tiedosto asianosaiselta sääntelyviranomaiselta S1-turvallisuuden esiarvioinnin vaiheen käyttöönottamiseksi.
+- **\[Korkea\] Mekanismin toiminta (DG002)**: MOA-tietoja ei ole. Kyselyä DrugBank-API:ta DB00993:lle täyttämään `original_moa`, jota vaaditaan arvioinnin mekanistisen perustelun osassa.
+- **\[Suositeltu\] Alkuperäiset indikaatiot**: `original_indications`-kenttä on tyhjä. Täytä tämä DrugBankista tai pakkausselosteesta, jotta voidaan kirjoittaa "X:stä Y:lle" -narratiivi uudelleenkäytössä.
+
+Kun yllä olevat tietojen puutteet on ratkaistu ja Evidence Pack on uudelleen luotu versiossa 5 tai uudempi, täydellinen arviointiraportti voidaan tuottaa.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

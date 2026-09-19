@@ -29,72 +29,73 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Brigatinib: From ALK-Positive Non-Small Cell Lung Cancer to Gingival Fibromatosis
+# Brigatinib: ALK-positiivisesta ei-pienisoluisesta keuhkosyövästä gingivaaliseen fibromatoosiin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Brigatinib is a next-generation ALK/ROS1 tyrosine kinase inhibitor originally developed for ALK-positive non-small cell lung cancer (NSCLC). The TxGNN model's top-ranked prediction proposes potential relevance to **Fibromatosis, Gingival**, a benign connective-tissue overgrowth condition, but this direction is currently supported by **0 clinical trials** and **0 publications**, and the model's own mechanistic rationale identifies no known biological link between the two.
+Brigatinib on uuden sukupolven ALK/ROS1-tyrosiinikinaasin estäjä, joka on alun perin kehitetty ALK-positiiviselle ei-pienisoluiselle keuhkosyövälle (NSCLC). TxGNN-mallin korkein-sijoitettu ennuste ehdottaa mahdollista relevanssia **Fibromatosis, Gingival** -tautiin, joka on hyvänlaatuinen sidekudoksen liikakasvun häiriö, mutta tätä suuntaa tukee tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua**, ja mallin oma mekanistinen perusteltu osoittaa, että näiden kahden välillä ei ole tunnetua biologista yhteyttä.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | ALK-positive non-small cell lung cancer (NSCLC)* |
-| Predicted New Indication | Fibromatosis, Gingival |
-| TxGNN Prediction Score | 99.89% (global rank 1633) |
-| Evidence Level | L5 (model prediction only, no clinical or literature support) |
-| Finland Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | ALK-positiivinen ei-pienisoluinen keuhkosyöpä (NSCLC)* |
+| Ennustettu uusi indikaatio | Fibromatosis, Gingival |
+| TxGNN-ennusteen pistemäärä | 99.89% (globaali sijoitus 1633) |
+| Todisteiden taso | L5 (vain mallin ennuste, ei kliinistä tai kirjallisuustukea) |
+| Suomen markkinoiden tila | ✗ Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Odota |
 
-*Formal `original_indications` and `original_moa` fields are marked as data gaps in this evidence pack (DG002). The original indication above is inferred from literature embedded in this pack's lower-ranked candidates (see Rank 5), not from a coded source field.
+*Viralliset `original_indications` ja `original_moa` -kentät on merkitty tämän todistepaketin tietovajeiksi (DG002, korkea vakavuus). Alkuperäinen indikaatio yllä on päätelty tämän paketin muualla olevista kirjallisuusviitteistä (katso sijoitus 5), ei koodatusta lähteestä.
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Brigatinib's formal mechanism-of-action record is flagged as a data gap in this evidence pack (DG002, High severity). Based on literature embedded elsewhere in this pack, brigatinib is known to act as a next-generation ALK/ROS1 tyrosine kinase inhibitor with activity against certain EGFR mutations, and its efficacy in ALK-positive NSCLC is well established through completed Phase 3 trials (e.g., ALTA-1L, ALTA-3).
+Brigatiniibin virallinen toimintamekanismin tietue on merkitty tietovajeeksi tässä todistepakettissa (DG002, korkea vakavuus). Tässä paketissa muualla olevan kirjallisuuden perusteella brigatiniibin tiedetään toimivan uuden sukupolven ALK/ROS1-tyrosiinikinaasin estäjänä, jolla on aktiivisuus tiettyjä EGFR-mutaatioita vastaan, ja sen tehokkuus ALK-positiivisessa NSCLC:ssä on hyvin selvitetty valmistuneiden vaiheen 3 tutkimusten kautta (esim. ALTA-1L, ALTA-3).
 
-Gingival fibromatosis, however, is a benign connective-tissue overgrowth disorder with no known driver-kinase pathology, and it is not associated with ALK, ROS1, or EGFR signaling. The evidence pack's own mechanistic rationale for this prediction states explicitly that there is "no known mechanistic association" between the drug's kinase-inhibition activity and this disease.
+Gingivaali fibromatoosi on kuitenkin hyvänlaatuinen sidekudoksen liikakasvun häiriö ilman tunnettua kuljettaja-kinaasien patologiaa, eikä se ole yhteydessä ALK-, ROS1- tai EGFR-signalointiin. Todistepaketin oma mekanistinen perusteltu tälle ennusteelle toteaa nimenomaisesti, että lääkkeen kinaasin esto-aktiivisuuden ja tämän taudin välillä ei ole "tunnetua mekanistista assosiaatiota".
 
-Because both the mechanistic rationale and the evidentiary record (zero trials, zero literature) point away from plausibility, this rank-1 prediction should be treated as a low-confidence model artifact rather than a genuine repurposing signal, and no further action is warranted at this time beyond monitoring.
+Koska sekä mekanistinen perusteltu että todisteiden tietue (nolla tutkimusta, nolla kirjallisuutta) viittaavat pois uskottavuudesta, tämä sijoitus-1-ennuste tulisi käsitellä matalan varmuuden mallin artefaktina eikä todellisen uudelleenkäytön signaalina, eikä muita toimintoja vaadita tässä vaiheessa paitsi seurantaa.
 
-## Clinical Trial Evidence
+## Kliinisten tutkimusten todisteet
 
-Currently no related clinical trials registered
+Ei tällä hetkellä olemassa olevia asiaan liittyviä kliinisiä tutkimuksia
 
-## Literature Evidence
+## Kirjallisuustodisteet
 
-Currently no related literature available
+Ei tällä hetkellä saatavilla olevaa asiaan liittyvää kirjallisuutta
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Brigatinib is not currently marketed in Finland — no authorizations are on record (0 licenses).
+Brigatinibia ei ole tällä hetkellä markkinoilla Suomessa — hyväksyntöjä ei ole saatavilla (0 lisenssejä).
 
-## Cytotoxicity
+## Sytotoksisuus
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (ALK/ROS1 tyrosine kinase inhibitor) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| Kohta | Sisältö |
+|------|---------|
+| Sytotoksisuusluokitus | Kohdistettu hoito (ALK/ROS1-tyrosiinikinaasin estäjä) |
+| Myelosortuuman riski | Katso pakkausliitteen varoitukset ja varotoimet |
+| Emetogenisuusluokitus | Katso pakkausliitteen varoitukset ja varotoimet |
+| Valvontakohdat | Katso pakkausliitteen varoitukset ja varotoimet |
+| Käsittelyn suojaus | Katso pakkausliitteen varoitukset ja varotoimet |
 
-## Safety Considerations
+## Turvallisuuden näkökulmat
 
-Please refer to the package insert for safety information.
+Katso pakkausliitteen turvallisuustietoja.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Odota**
 
-**Rationale:**
-The rank-1 predicted indication (gingival fibromatosis) has zero supporting clinical trials or literature, and the model's own mechanistic rationale confirms no known biological link to brigatinib's ALK/ROS1 kinase-inhibition activity — this is an L5, model-only signal with no real-world corroboration.
+**Perustelut:**
+Sijoitus-1 ennustetulla indikaatiolla (gingivaali fibromatoosi) ei ole tukevia kliinisiä tutkimuksia tai kirjallisuutta, ja mallin oman mekanistisen perustelun mukaan ei ole tunnettu biologista linkkiä brigatiniibin ALK/ROS1-kinaasin esto-aktiivisuuteen — tämä on L5-tasoinen, pelkästään malliin perustuva signaali ilman todellisen maailman vahvistusta.
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert warnings, contraindications, and DDI data (DG001, Blocking — currently missing entirely)
-- Confirmed DrugBank mechanism-of-action and drug categorization (DG002)
-- If repurposing research continues, re-triage the pack's lower-ranked candidates with actual literature (Ranks 5, 8, 10) — their disease labels appear to be ontology mismatches masking genuine ALK-inhibitor evidence (e.g., NF2-related schwannomatosis under Rank 10) that may be more promising than the top-ranked candidate
-- Any preclinical or mechanistic data specifically linking ALK/ROS1/EGFR pathways to gingival fibromatosis pathology, since none currently exist
+**Jatkaaksesi, seuraava on tarpeen:**
+- TFDA/Fimea pakkausliitteen varoitukset, vasta-aiheet ja yhteisvaikutustiedot (DG001, Estävä — tällä hetkellä täysin puuttuvat)
+- Vahvistettu DrugBank-toimintamekanismi ja lääkkeen luokittelu (DG002)
+- Jos uudelleenkäytön tutkimus jatkuu, uudelleenluokitele paketin matalammin sijoitetut ehdokkaat todellisen kirjallisuuden kanssa (Sijoitukset 5, 8, 10) — niiden tauditunnisteet näyttävät olevan ontologian virheistöjä, jotka peittävät todellista ALK-estäjä-evidenssiä (esim. NF2-liittyvä schwannomatoosi sijoituksessa 10), joka voi olla lupaavampi kuin huipulla sijoittunut ehdokas
+- Kaikki prekliiniset tai mekanistiset tiedot, jotka nimenomaisesti yhdistävät ALK/ROS1/EGFR-polkuja gingivaali fibromatoosin patologiaan, koska niitä ei tällä hetkellä ole olemassa
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

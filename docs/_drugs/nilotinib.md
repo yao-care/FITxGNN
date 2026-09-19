@@ -29,91 +29,92 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Nilotinib: From Undocumented Original Indication to Dermatofibrosarcoma Protuberans
+# Nilotinib: dokumentoimattomasta alkuperäisestä indikaatiosta dermatofibrosarcoma protuberansiaan
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-The evidence pack does not include a documented original indication or approved license for nilotinib in this market — mechanism-of-action data confirms it is a second-generation tyrosine kinase inhibitor (TKI) targeting BCR-ABL and PDGFR. The TxGNN model predicts it may be effective for **Dermatofibrosarcoma Protuberans (DFSP)**, but this direction is currently supported by **0 clinical trials** and only **1 publication** (a general PDGFR-inhibitor review, not nilotinib/DFSP-specific).
+Todistusaineisto ei sisällä dokumentoitua alkuperäistä indikaatiota tai hyväksyttyä lisenssiä nilotinibille tällä markkinalla — vaikutusmekanismin tiedot vahvistavat, että se on toisen sukupolven tyrosiinikinaasin estäjä (TKI), joka kohdituu BCR-ABL:lle ja PDGFR:lle. TxGNN-malli ennustaa, että se voi olla tehokas **dermatofibrosarcoma protuberansia (DFSP)** vastaan, mutta tämä suunta on tällä hetkellä tuettu **0 kliinisellä tutkimuksella** ja vain **1 julkaisulla** (yleinen PDGFR-estäjien katsaus, ei nilotinibille/DFSP:lle spesifi).
 
 ---
 
-## Quick Overview
+## Pika-yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Not available in evidence pack (no license/approved indication on file) |
-| Predicted New Indication | Dermatofibrosarcoma Protuberans (DFSP) |
-| TxGNN Prediction Score | 99.31% |
-| Evidence Level | L4 |
-| Finland Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen indikaatio | Ei saatavilla todistusaineistosta (lisenssiä/hyväksyttyä indikaatiota ei ole) |
+| Ennustettu uusi indikaatio | Dermatofibrosarcoma protuberans (DFSP) |
+| TxGNN-ennusteen pistemäärä | 99.31% |
+| Todistusaste | L4 |
+| Suomen markkina-asema | Ei markkinoitu |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Odota |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Detailed original-indication and formal MOA fields are marked as data gaps in this evidence pack. However, the repurposing rationale attached to the DFSP prediction indicates that nilotinib is a second-generation tyrosine kinase inhibitor that, in addition to BCR-ABL, also inhibits PDGFR — the same target implicated in DFSP pathogenesis.
+Yksityiskohtaiset alkuperäisen indikaation ja muodollisen vaikutusmekanismin kentät on merkitty tietovajeiksi tässä todistusaineistossa. Kuitenkin DFSP-ennusteeseen liitetty uudelleenkäyttöselvitys osoittaa, että nilotinib on toisen sukupolven tyrosiinikinaasin estäjä, joka BCR-ABL:n lisäksi estää myös PDGFR:ää — samaa kohdemolekyyliä, joka on osallisena DFSP:n patogeneesissä.
 
-DFSP is characterized in most cases by a COL1A1-PDGFB fusion gene, which drives constitutive PDGFRB activation and tumour proliferation. Because nilotinib inhibits PDGFR, there is a plausible mechanistic rationale for activity in DFSP. This is reinforced by class-level precedent: imatinib, a related TKI with PDGFR-inhibitory activity, already has established clinical evidence (including approved indications in some regions) for DFSP.
+DFSP:tä karakterisoi useimmissa tapauksissa COL1A1-PDGFB-fuusiogene, joka ajaa pysyvää PDGFRB-aktivaatiota ja kasvainten lisääntymistä. Koska nilotinib estää PDGFR:ää, on olemassa uskottava vaikutusmekanismin peruste DFSP:n aktiivisuudelle. Tätä vahvistaa luokkatasoinen edeltävä esimerkki: imatinib, siihen liittyvä TKI PDGFR-estävällä aktiivisuudella, on jo vakiintuneet kliiniset näyttöt (mukaan lukien hyväksytyt indikaatiot joillakin alueilla) DFSP:lle.
 
-That said, this is currently a **class-level analogy rather than nilotinib-specific evidence** — the single supporting publication is a general review of PDGFR-inhibitor pharmacology, not a nilotinib/DFSP clinical or case study. Nilotinib's own applicability to DFSP has not yet been independently demonstrated.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+Siitä huolimatta tämä on tällä hetkellä **luokkatasoinen analogia eikä nilotinibille spesifinen näyttö** — ainoa tukeva julkaisu on yleinen PDGFR-estäjien farmakologian katsaus, ei nilotinibille/DFSP:lle spesifi kliininen tai tapaustutkimus. Nilotinibille ominaisesta soveltuvuudesta DFSP:lle ei ole vielä itsenäisesti osoitettu.
 
 ---
 
-## Literature Evidence
+## Kliinisten tutkimusten näyttö
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [29408302](https://pubmed.ncbi.nlm.nih.gov/29408302/) | 2018 | Review | Pharmacological research | Reviews the role of small-molecule PDGFR inhibitors (a class including nilotinib) in treating neoplastic disorders driven by PDGF/PDGFR signaling; not specific to nilotinib or DFSP clinical outcomes |
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia
 
 ---
 
-## Finland Market Information
+## Kirjallisuuden näyttö
 
-No marketing authorizations are on file for nilotinib in this market (market status: Not Marketed, 0 licenses).
+| PMID | Vuosi | Tyyppi | Lehti | Keskeisiä löydöksiä |
+|------|------|------|------|---------|
+| [29408302](https://pubmed.ncbi.nlm.nih.gov/29408302/) | 2018 | Katsaus | Pharmacological research | Käsittelee pienimolekyylisten PDGFR-estäjien (mukaan lukien nilotinib) käyttöä PDGF/PDGFR-signaloinnin aiheuttamien kasvainten hoitamisessa; ei ole spesifi nilotinibille tai DFSP:n kliinisille tuloksille |
 
 ---
 
-## Cytotoxicity
+## Suomen markkina-tiedot
 
-Nilotinib is an antineoplastic agent (tyrosine kinase inhibitor targeting BCR-ABL/PDGFR).
+Nilotinibille ei ole markkinointilupia tietueissa tällä markkinalla (markkina-asema: Ei markkinoitu, 0 lisenssiä).
 
-| Item | Content |
+---
+
+## Sytostaattinen vaikutus
+
+Nilotinib on antineoplastinen aine (tyrosiinikinaasin estäjä, joka kohdituu BCR-ABL:lle/PDGFR:lle).
+
+| Kohta | Sisältö |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (tyrosine kinase inhibitor) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| Sytostaattisen vaikutuksen luokittelu | Kohdennettu hoito (tyrosiinikinaasin estäjä) |
+| Luuydintyksentämisen riski | Katso pakkauksessa olevan selosteen varoitukset ja varotoimet |
+| Emetogeenisuuden luokittelu | Katso pakkauksessa olevan selosteen varoitukset ja varotoimet |
+| Seurantakohteet | Katso pakkauksessa olevan selosteen varoitukset ja varotoimet |
+| Käsittelysuojaus | Katso pakkauksessa olevan selosteen varoitukset ja varotoimet |
 
 ---
 
-## Safety Considerations
+## Turvallisuushuomiot
 
-Please refer to the package insert for safety information.
+Katso turvallisuustiedoista pakkauksessa olevasta selosteesta.
 
 ---
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Odota**
 
-**Rationale:**
-Evidence is currently limited to a mechanistic class-level analogy (L4, decision stage S1 "Research Question") with no nilotinib-specific clinical trials or literature for DFSP, and a Blocking data gap on package-insert safety information (DG001) prevents even an initial safety screen (S1).
+**Perustelut:**
+Näyttö rajoittuu tällä hetkellä mekanistiseen luokkatasoisen analogiaan (L4, päätösvaihe S1 "Tutkimuskysymys") ilman nilotinibille spesifisiä kliinisiä tutkimuksia tai DFSP:n kirjallisuutta, ja pakkauksessa olevan selosteen turvallisuustietojen estävä tietovahe (DG001) estää jopa alustavan turvallisuusarvion (S1).
 
-**To proceed, the following is needed:**
-- TFDA/local package insert warnings and contraindications (DG001, Blocking)
-- Confirmed mechanism of action documentation from DrugBank (DG002)
-- Nilotinib-specific clinical or case-level evidence in DFSP (current literature is class-level only)
-- Drug-drug interaction data (currently not found)
-- Original approved indication and licensing history for baseline comparison
+**Jotta voidaan edetä, seuraavat tiedot ovat tarpeen:**
+- TFDA/paikallisen pakkauksen selosteen varoitukset ja vasta-aiheet (DG001, Estävä)
+- Vahvistettu vaikutusmekanismin dokumentaatio DrugBankista (DG002)
+- Nilotinibille spesifinen kliininen tai tapaustutkimuksen tasoinen näyttö DFSP:lle (nykyinen kirjallisuus on vain luokkatasoista)
+- Lääke-lääke vuorovaikutusten tiedot (tällä hetkellä ei löytynyt)
+- Alkuperäinen hyväksytty indikaatio ja markkinointihistoria perusvertailua varten
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

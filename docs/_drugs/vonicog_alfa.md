@@ -29,106 +29,103 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-Using the provided Evidence Pack directly (this is a report-writing task against an explicit template, not a codebase task — no skill applies). One structural note before the report: `predicted_indications[0]` (rank 1, "primary release disorder of platelets") has **zero** clinical/literature evidence, while rank 4 ("hemophilia") is the only candidate with real trial/publication support — and the pack's own rationale text flags that "hemophilia" label as likely a mislabeled reference to the drug's *existing* approved use (Von Willebrand Disease), not a genuine new indication. I built the report around rank 1 per the template's literal instruction, but added a full candidate-comparison table so this isn't buried.
+# Vonicog Alfa: Von Wilbrandin taudista Trombosyyttien Primaariseen Vapautumishäiriöön (Ennustettu)
+
+## Yhden Lauseen Yhteenveto
+
+> Vonicog alfaa (rekombinantti von Willebrand-faktori) ei ole tällä hetkellä markkinoilla Suomessa; sen vahvistettu alkuperäinen indikaatio ja toimintamekanismitiedot on molemmat merkitty tietovajeiksi tässä näyttöpaketissa.
+> TxGNN-mallin korkeimmaksi sijoitettu ennuste on **Trombosyyttien primaarinen vapautumishäiriö**, mutta tällä ehdokkaalla on **0 kliinistä tutkimusta** ja **0 julkaisua** sen tueksi, ja mallin oma mekanistinen perustelut vastustavat biologista uskottavuutta.
+> Tämän paketin 10 ennustetusta indikaatiosta vain yhdellä ("hemofilia", sija 4) on merkittävää näyttöä — ja se näyttää edustavan lääkkeen jo vakiintuneen käytön (von Wilbrandin tauti) ontologian virheellistä merkintää pikemminkin kuin oikean uudelleenkäytön signaalia.
 
 ---
 
-# Vonicog Alfa: From Von Willebrand Disease to Primary Release Disorder of Platelets (Predicted)
+## Nopea Yleiskatsaus
 
-## One-Sentence Summary
-
-> Vonicog alfa (recombinant von Willebrand factor) is not currently marketed in Finland; its confirmed original-indication and mechanism-of-action data are both flagged as data gaps in this evidence pack.
-> The TxGNN model's top-ranked prediction is **Primary Release Disorder of Platelets**, but this candidate has **0 clinical trials** and **0 publications** supporting it, and the model's own mechanistic rationale argues against biological plausibility.
-> Across the 10 predicted indications in this pack, only one ("hemophilia", rank 4) has substantial evidence — and it appears to represent an ontology mislabeling of the drug's already-established use in Von Willebrand Disease rather than a novel repurposing signal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not confirmed in drug-level data (Blocking gap, DG001/DG002). Trial/literature text within this pack repeatedly references "severe Von Willebrand Disease" as the drug's established use. |
-| Predicted New Indication | Primary Release Disorder of Platelets |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L5 |
-| Finland Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen Indikaatio | Ei vahvistettu lääketasolla (Estävä aukko, DG001/DG002). Tämän paketin tutkimus- ja kirjallisuusteksti viittaa toistuvasti "vakavaan von Wilbrandin tautiin" lääkkeen vakiintuneen käytön osalta. |
+| Ennustettu Uusi Indikaatio | Trombosyyttien primaarinen vapautumishäiriö |
+| TxGNN-ennustescore | 99.98% |
+| Näyttötaso | L5 |
+| Suomen Markkina-asema | Ei markkinoilla |
+| Hyväksyntöjen Lukumäärä | 0 |
+| Suositeltu Päätös | Pidä odotuksessa |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi Tämä Ennustus on Perusteltu?
 
-Currently, detailed mechanism of action data is not available for vonicog alfa in this pack (marked as a High-severity data gap, DG002), and no original indication is recorded at the drug level (Blocking gap, DG001). Based on the evidence embedded elsewhere in this pack (clinical trial and literature abstracts under the "hemophilia" candidate), vonicog alfa is a recombinant von Willebrand factor (rVWF) used to stabilize endogenous Factor VIII and restore platelet adhesion — the standard replacement mechanism for Von Willebrand Disease.
+Tällä hetkellä vonicog alfan yksityiskohtaiset toimintamekanismitiedot eivät ole saatavilla tässä paketissa (merkitty korkean vakavuuden tietovajeeksi, DG002), eikä alkuperäistä indikaa­tiota ole merkitty lääketasolla (Estävä aukko, DG001). Tämän paketin muualla olevien näyttöjen perusteella (kliinisen tutkimuksen ja kirjallisuustiivistelmät "hemofilia"-ehdokkaan alla), vonicog alfa on rekombinantti von Willebrand-faktori (rVWF), jota käytetään endogeenisen Tekijä VIII:n vakiintumiseen ja verihiutaleiden adheesion palauttamiseen — vakio­korvausmekanismi von Wilbrandin taudille.
 
-For the top-ranked prediction, **Primary Release Disorder of Platelets**, the model's own rationale argues against mechanistic plausibility: this disease group stems from defects in platelet-internal signal transduction and granule secretion, not the VWF–GPIb adhesion axis that vonicog alfa targets. Supplementing VWF does not correct a release-machinery defect. No clinical trial or literature evidence was found for this pairing (0 hits across ClinicalTrials.gov, ICTRP, and PubMed), and the evidence level is accordingly the lowest tier (L5, model prediction only).
+Korkeimmaksi sijoitetussa ennusteessa, **Trombosyyttien primaarinen vapautumishäiriö**, mallin oma perustelut vastustavat mekanistista uskottavuutta: tämä tautityhmä johtuu puutteista verihiutaleiden sisäisessä signaalin välityksessä ja jyvästeiden erittymisessä, ei VWF–GPIbα -adheesio-akselista, jota vonicog alfa kohdistaa. VWF:n täydentäminen ei korjaa vapautumismekanismin vikaantumista. Yhtään kliinistä tutkimusta tai kirjallisuustodisteita ei löytynyt tälle paritukselle (0 osumaa ClinicalTrials.govin, ICTRP:n ja PubMedin yli), ja näyttötaso on vastaavasti alin tasolla (L5, vain mallin ennustus).
 
-In short: the high TxGNN score reflects statistical pattern-matching in the knowledge graph, not a validated mechanistic or clinical signal for this specific candidate.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+Lyhyesti: korkea TxGNN-pistemäärä heijastaa tilastollista kuvioiden tunnistamista tietokaaviossa, ei validoitua mekanistista tai kliinistä signaalia tälle tietylle ehdokkaalle.
 
 ---
 
-## Literature Evidence
+## Kliinisen Tutkimuksen Näyttö
 
-Currently no related literature available
-
----
-
-## Finland Market Information
-
-Vonicog alfa is not currently marketed in Finland (0 authorizations on record). No license/product information is available in this pack.
+Tällä hetkellä ei ole rekisteröityjä liittyviä kliinisiä tutkimuksia
 
 ---
 
-## Other Predicted Indications (Full Candidate Comparison)
+## Kirjallisuuden Näyttö
 
-Since this evidence pack evaluates 10 candidate indications for vonicog alfa, the table below gives the full picture beyond the top-ranked candidate:
+Tällä hetkellä ei ole saatavilla liittyviä kirjallisuuden lähteitä
 
-| Rank | Disease | TxGNN Score | Evidence Level | Decision Stage | Trials | Literature | Recommendation |
+---
+
+## Suomen Markkina-informaatio
+
+Vonicog alfaa ei ole tällä hetkellä markkinoilla Suomessa (0 hyväksyntää merkinnöissä). Lisenssitietoja tai tuotetietoja ei ole saatavilla tässä paketissa.
+
+---
+
+## Muut Ennustetut Indikaatiot (Täydellinen Ehdokkaiden Vertailu)
+
+Koska tämä näyttöpaketti arvioi 10 ehdokasindikaatiota vonicog alfalle, alla oleva taulukko antaa täydellisen kuvan kaikista ehdokkaista:
+
+| Sija | Sairaus | TxGNN-Pisteet | Näyttötaso | Päätösvaihe | Tutkimukset | Kirjallisuus | Suositus |
 |------|---------|-------------|-----------------|-----------------|--------|------------|-----------------|
-| 1 | Primary release disorder of platelets | 99.98% | L5 | S0 | 0 | 0 | Hold |
-| 2 | Glanzmann thrombasthenia | 99.98% | L5 | S0 | 0 | 0 | Hold |
-| 3 | Pseudo-von Willebrand disease | 99.97% | L4 | S1 | 0 | 0 | Hold |
-| 4 | Hemophilia | 99.95% | L1 | S3 | 4 | 5 | Proceed with Guardrails |
-| 5 | Scott syndrome | 99.95% | L5 | S0 | 0 | 0 | Hold |
-| 6 | Acquired coagulation factor deficiency | 99.94% | L5 | S0 | 0 | 0 | Hold |
-| 7 | Von Willebrand disease, X-linked form | 99.92% | L4 | S0 | 0 | 0 | Hold |
-| 8 | Bleeding diathesis due to a collagen receptor defect | 99.92% | L5 | S0 | 0 | 0 | Hold |
-| 9 | Hemorrhagic disorder due to a constitutional thrombocytopenia | 99.92% | L5 | S0 | 0 | 0 | Hold |
-| 10 | Flood factor deficiency | 99.90% | L5 | S0 | 0 | 0 | Hold |
+| 1 | Trombosyyttien primaarinen vapautumishäiriö | 99.98% | L5 | S0 | 0 | 0 | Pidä odotuksessa |
+| 2 | Glantzmannin trombasthenia | 99.98% | L5 | S0 | 0 | 0 | Pidä odotuksessa |
+| 3 | Pseudo-von Wilbrandin tauti | 99.97% | L4 | S1 | 0 | 0 | Pidä odotuksessa |
+| 4 | Hemofilia | 99.95% | L1 | S3 | 4 | 5 | Jatka varauksin |
+| 5 | Scottin syndrooma | 99.95% | L5 | S0 | 0 | 0 | Pidä odotuksessa |
+| 6 | Hankittu hyytymistekijän puutos | 99.94% | L5 | S0 | 0 | 0 | Pidä odotuksessa |
+| 7 | von Wilbrandin tauti, X-siteinen muoto | 99.92% | L4 | S0 | 0 | 0 | Pidä odotuksessa |
+| 8 | Verenvuotoalttius kollageeninreseptorivian vuoksi | 99.92% | L5 | S0 | 0 | 0 | Pidä odotuksessa |
+| 9 | Verenvuototauti konstitutionaalisen trombosytopenian vuoksi | 99.92% | L5 | S0 | 0 | 0 | Pidä odotuksessa |
+| 10 | Flood-tekijän puutos | 99.90% | L5 | S0 | 0 | 0 | Pidä odotuksessa |
 
-**Notable flags:**
-- **Rank 3 (Pseudo-von Willebrand disease)**: this is a documented *mechanistic contraindication risk*, not a data gap — the disease originates from a platelet GPIbα mutation with abnormally increased VWF affinity, so administering exogenous VWF could theoretically worsen thrombocytopenia by depleting large VWF multimers. Requires safety review before any further evaluation, independent of low evidence volume.
-- **Rank 4 (Hemophilia)** is the only candidate with real trial/literature support: 4 Phase 3 trials (2 completed, 1 terminated, 1 recruiting) and 5 publications, all of which are actually about **Von Willebrand Disease** (rVWF prophylaxis, PK/PD vs. plasma-derived VWF, menorrhagia management), not classical Factor VIII/IX-deficient hemophilia A/B. This strongly suggests a knowledge-graph ontology mislabeling (VWD folded into a broader "hemophilia"/bleeding-disorder category) rather than a genuine new-indication signal — vonicog alfa's VWD use is standard of care, not a repurposing candidate.
-- **Rank 7 (Von Willebrand disease, X-linked form)** is likely a similar ontology error: VWD is autosomal (chromosome 12), not X-linked; no such classification exists in standard hematology nomenclature.
-- **Rank 10 (Flood factor deficiency)** is not a recognized medical term — likely a data extraction/translation error requiring source verification before clinical interpretation.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. Note: TFDA/Fimea package-insert warnings (DG001) and DDI data (query returned "not_found") are currently unavailable and are flagged as a **Blocking** gap for entering safety pre-assessment (S1).
+**Huomattavat merkit:**
+- **Sija 3 (Pseudo-von Wilbrandin tauti)**: tämä on dokumentoitu *mekanistinen kontraindikaation riski*, ei tietoväli — tauti johtuu verihiutaleiden GPIbα-mutaatiosta, jossa on poikkeuksellisesti kohonnut VWF-affiniteetti, joten ulkopuolisen VWF:n antaminen voisi teoriassa pahentaa trombosytopeniaa suurten VWF-multimerien kulutuksella. Vaatii turvallisuusarvioinnin ennen mitään muuta arviointia, riippumatta alhaisesta näyttömäärästä.
+- **Sija 4 (Hemofilia)** on ainoa ehdokas, jolla on oikea tutkimus-/kirjallisuustuella: 4 vaiheen 3 tutkimusta (2 saatu päätökseen, 1 lopetettu, 1 värvää osallistujia) ja 5 julkaisua, jotka kaikki ovat oikeastaan **von Wilbrandin taudista** (rVWF-profylaksia, PK/PD vs. plasmajohdannainen VWF, menorrhagian hallinta), ei klassisen Tekijä VIII/IX -puutoksesta johtuvan hemofilian A/B:sta. Tämä vahvasti ehdottaa tietokaavio-ontologian virheellistä merkitsemistä (VWD liitetty laajempaan "hemofilia"/verenvuototautien kategoriaan) pikemminkin kuin aito uuden indikaation signaali — vonicog alfan VWD-käyttö on standardi hoito, ei uudelleenkäyttöehdokas.
+- **Sija 7 (von Wilbrandin tauti, X-siteinen muoto)** on todennäköisesti samanlainen ontologian virhe: VWD on autosomaalinen (kromosomi 12), ei X-siteinen; tällaista luokitusta ei ole olemassa vakiohematologian nomenklaturissa.
+- **Sija 10 (Flood-tekijän puutos)** ei ole tunnustettu lääketieteellinen termi — todennäköisesti tiedon keräämis-/käännösvirhe, joka vaatii lähteen varmistamista ennen kliinistä tulkintaa.
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuusaspektit
 
-**Decision: Hold**
+Katso turvallisuustiedot pakkausseuloseesta. Huomioi: TFDA:n/Fimean pakkausseulosevaroitukset (DG001) ja lääkkeiden väliset vuorovaikutukset (DDI) -tiedot (haku palautti "ei_löytynyt") eivät ole tällä hetkellä saatavilla ja ne on merkitty **estäväksi** aukoksi turvallisuuden esiarviointiin (S1) pääsyä varten.
 
-**Rationale:**
-The top-ranked candidate (Primary Release Disorder of Platelets) has no supporting clinical or literature evidence and a mechanistically weak rationale per the model's own analysis. No candidate in this pack currently qualifies for progression on its own merits — the one candidate with strong evidence (rank 4, "hemophilia") most likely reflects the drug's existing approved use (Von Willebrand Disease) rather than a new indication.
+---
 
-**To proceed, the following is needed:**
-- Resolve DG001 (Blocking): obtain TFDA/Fimea package insert warnings and contraindications before any S1 safety pre-assessment
-- Resolve DG002 (High): obtain confirmed mechanism-of-action and original-indication data from DrugBank/regulatory source
-- Disambiguate the "hemophilia" (rank 4) and "Von Willebrand disease, X-linked form" (rank 7) disease-entity labels against standard nomenclature — verify whether these represent real signals or ontology artifacts
-- If pursuing rank 3 (Pseudo-VWD), commission a dedicated mechanistic/safety review given the identified contraindication risk
-- No further action recommended on ranks 1, 2, 5, 6, 8, 9, 10 without new trial or literature evidence emerging
+## Johtopäätös ja Seuraavat Vaiheet
+
+**Päätös: Pidä odotuksessa**
+
+**Perustelut:**
+Korkeimmaksi sijoitetulla ehdokkaalla (Trombosyyttien primaarinen vapautumishäiriö) ei ole tukevia kliinisiä tai kirjallisuustodisteita ja mekanistisesti heikko perustelut mallin omien analyysien mukaan. Yksikään ehdokas tässä paketissa ei tällä hetkellä ole oikeutettu etenemiseen omien ansioiden perusteella — ainoa ehdokas, jolla on vahva näyttö (sija 4, "hemofilia"), todennäköisesti heijastaa lääkkeen olemassa olevaa hyväksyttyä käyttöä (von Wilbrandin tauti) pikemminkin kuin uutta indikaa­tiota.
+
+**Jatkaakseen seuraavat ovat tarpeen:**
+- Ratkaise DG001 (estävä): hanki TFDA:n/Fimean pakkausseulosevaroitukset ja kontraindikaatiot ennen mitään S1-turvallisuuden esiarviointia
+- Ratkaise DG002 (korkea): hanki vahvistettu toimintamekanismi- ja alkuperäisindikaatiotieto DrugBankista/sääntelylähteestä
+- Selventää "hemofilia" (sija 4) ja "von Wilbrandin tauti, X-siteinen muoto" (sija 7) taudin nimikkeet vakiomedisiinilisen nomenklaturan mukaisesti — tarkista, edustavatko nämä todellisia signaaleja vai ontologian virheitä
+- Jos jatkaat sijoitusta 3 (Pseudo-VWD), tilaa erityinen mekanistinen/turvallisuusarviointi tunnistettujen kontraindikaatioriskien vuoksi
+- Ei lisäaktioita suositella sijoituksille 1, 2, 5, 6, 8, 9, 10 ilman uusia tutkimus- tai kirjallisuustodisteita
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

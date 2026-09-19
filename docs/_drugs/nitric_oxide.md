@@ -29,99 +29,100 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Nitric Oxide: From Unmarketed Status to Pulmonary Arterial Hypertension
+# Typpioksidi: Markkinoimattomasta asemasta keuhkoarteriaaliseen hypertensioon
 
-## One-Sentence Summary
+## Yhden lauseen tiivistelmä
 
-> Nitric Oxide (NO) currently has no documented original indication or market presence in Finland (0 authorizations on file). Among the 10 candidate indications TxGNN generated for this drug, **Pulmonary Arterial Hypertension** is the one with genuine evidentiary support — **50 clinical trials** and **20 publications** — reflecting NO's well-established pharmacology as an inhaled pulmonary vasodilator, rather than a novel repurposing hypothesis.
+> Typpioksidilla (NO) ei ole tällä hetkellä dokumentoitua alkuperäistä indikaatiota tai markkinavalmiutta Suomessa (0 lupaa rekisterissä). TxGNN:n tälle lääkkeelle tuottamista 10 potentiaalisesta indikaatiosta **keuhkoarteriaali hypertensiota** vastaan on todellinen näyttöpohja — **50 kliinistä tutkimusta** ja **20 julkaisua** — mikä heijastaa NO:n vakiintunutta farmakologiaa keuhkoverenpaineessa laskevana inhalatiivisena lääkkeenä, ei uuden käyttötarkoituksen tutkimushypoteesinä.
 
-*Note on indication selection: TxGNN's numerically top-ranked predictions for this drug (ranks 1–6: periodontal malformation syndrome, hypertrichosis, Dandy-Walker syndrome, hair shaft abnormality, pulmonary arteriovenous malformation) carry no supporting mechanism and were scored "Hold" by the evidence pipeline itself. Rank 7, Pulmonary Arterial Hypertension, is the first prediction with a coherent mechanism and Level-1 evidence, so this report evaluates that indication.*
+*Huomio indikaatiovalinnasta: TxGNN:n numeerisesti parhaiten sijoittuneilla ennustuksilla tälle lääkkeelle (sijoitukset 1–6: hammastautien kehittymisvika, ylikarvoitus, Dandy-Walkerin oireyhtymä, hiusrakenteen poikkeavuus, keuhkoarteriovenoosisuus) ei ole tukevia mekanismeja ja näyttöputkisto arvioi ne "Pidä odottavana" -kategoriassa. Sijoitus 7, keuhkoarteriaali hypertensiota, on ensimmäinen ennustus johdonmukaisella mekanismilla ja L1-näytöllä, joten tämä raportti arvioi kyseistä indikaatiota.*
 
 ---
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Not documented (drug is unmarketed in Finland; no license records) |
-| Predicted New Indication | Pulmonary Arterial Hypertension |
-| TxGNN Prediction Score | 99.41% |
-| Evidence Level | L1 |
-| Finland Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Alkuperäinen indikaatio | Ei dokumentoitu (lääke ei ole markkinoilla Suomessa; ei lupahallinnon tietoja) |
+| Ennustettu uusi indikaatio | Keuhkoarteriaali hypertensiota |
+| TxGNN:n ennustuspistemäärä | 99.41% |
+| Näyttötaso | L1 |
+| Suomen markkina-asema | Ei markkinoilla |
+| Lupien määrä | 0 |
+| Suositeltu päätös | Jatka varauksellisesti |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennustus on järkevä?
 
-Detailed mechanism-of-action documentation for this NO entry is not available (flagged as a High-severity data gap), and no original indication is on file. Based on the supporting literature in this evidence pack, however, Nitric Oxide's pharmacology is well characterized: it is an endogenous, endothelium-derived signaling gas that activates soluble guanylate cyclase, raising intracellular cGMP and producing selective pulmonary vasodilation. This is the core mechanism cited across the review literature retrieved here (PMID 32442078, PMID 23822809).
+Yksityiskohtaista vaikutustapakoskevan dokumentaatiota tälle NO-merkinnälle ei ole saatavilla (merkitty korkeaa vakavuusastetta olevaksi tietovajeksi), eikä alkuperäistä indikaatiota ole rekisterissä. Tämän näyttöpaketin perusteella typpioksidin farmakologia on kuitenkin hyvin luonnehdittu: se on endogeeninen, endoteeliperäinen signaalikaasujohtaja, joka aktivoi liukoista guanyylatosyklaasia, kohottaa solun sisäisen syklikadenomiinimonofosfaatin tasoa ja tuottaa valikoivaa keuhkoverenpaineessa laskevan vaikutuksen. Tämä on ydinmekanismi, jota siteerataan tässä jäljitetyssä kirjallisuudessa (PMID 32442078, PMID 23822809).
 
-Pulmonary Arterial Hypertension is pathophysiologically defined by pulmonary vascular remodeling and impaired NO bioavailability/signaling in the pulmonary endothelium. Restoring this pathway — either directly via inhaled NO or indirectly via downstream drugs (PDE5 inhibitors, soluble guanylate cyclase stimulators) that amplify the NO–cGMP axis — is already a recognized pillar of PAH treatment, alongside the endothelin and prostacyclin pathways. Inhaled NO itself has an established clinical role in acute pulmonary vasoreactivity testing and in neonatal persistent pulmonary hypertension (PPHN), where it is a standard-of-care therapy.
+Keuhkoarteriaali hypertensiota määritellään patofysiologisesti keuhkoverisuonten uudelleenmuodostumisella ja heikentynyt typpioksidi-biosaatavuudella/signaaloinnilla keuhkoendoteeliossa. Tämän polun palauttaminen — joko suoraan inhaloitavalla typpioksidilla tai epäsuorasti alavirtauksellisilla lääkkeillä (PDE5-estäjät, liukoisen guanyylatosyklaasistimulantit), jotka vahvistavat typpioksidi–syklikadenomiinimonofosfaatti-akselia — on jo tunnustettu keuhkoarteriaali hypertension hoidon pilari endotaliini- ja prostaglandiinipolkujen rinnalla. Inhaloitavalla typpioksidilla on vakiintunut kliininen rooli akuutin keuhkoverisuonten reagointikyky-testauksessa ja neonataalisessa pysyvässä keuhkoverisuonten hypertensiossa (PPHN), jossa se on vakiohoito.
 
-The strength of this candidate over the other nine predictions is that it is not an extrapolation from disease-embedding similarity alone: it is directly supported by a completed Phase 4 head-to-head hemodynamic trial (NCT04231084, iNO vs. inhaled epoprostenol) and a pivotal completed trial in neonatal PPHN (NCT00139217, n=400), plus 18 mechanistic/clinical reviews. Two closely related predictions in the same evidence pack — PAH associated with congenital heart disease (rank 8) and PAH associated with connective tissue disease (rank 9) — reinforce the same NO-pathway mechanism across different PAH subtypes, which further supports the plausibility of this signal rather than undermining it.
+Tämän ehdokkaan vahvuus muihin yhdeksään ennustukseen verrattuna on se, että se ei ole pelkän sairauden upottamisen samankaltaisuuden ekstrapolointi: se on suoraan tuettu suoritetulla vaiheen 4 rinnakkaisvertailututkimuksella (NCT04231084, inhaloituva typpioksidi vs. inhaloituva epoprostenoli) ja keskeisellä, 400 potilaan PPHN-tutkimuksella (NCT00139217), sekä 18 mekanistisella/kliinisellä katsauksella. Kaksi läheisesti liittyvää ennustusta samassa näyttöpaketissa — keuhkoarteriaali hypertensiota synnynnäisen sydänsairauden yhteydessä (sijoitus 8) ja keuhkoarteriaali hypertensiota sidekudossairauden yhteydessä (sijoitus 9) — vahvistavat samaa NO-polkumekanismia eri PAH-alaryhmissä, mikä edelleen tukee tämän signaalin uskottavuutta.
 
 ---
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimusnumero | Vaihe | Tila | Osallistujien määrä | Keskeiset tulokset |
 |---------|------|------|------|---------|
-| [NCT04231084](https://clinicaltrials.gov/study/NCT04231084) | Phase 4 | Completed | 115 | Direct acute hemodynamic comparison of inhaled NO vs. inhaled epoprostenol across PH phenotypes |
-| [NCT00139217](https://clinicaltrials.gov/study/NCT00139217) | N/A | Completed | 400 | Pivotal trial establishing feasibility/safety/efficacy of non-invasive inhaled NO in PPHN |
-| [NCT05213676](https://clinicaltrials.gov/study/NCT05213676) | Phase 4 | Recruiting | 600 | "NoNO Trial" — stepped-wedge de-implementation study of iNO in congenital diaphragmatic hernia |
-| [NCT01142219](https://clinicaltrials.gov/study/NCT01142219) | Phase 3 | Completed | 40 | RCT of L-arginine (NO precursor) as adjuvant therapy for sickle-cell-associated PAH |
-| [NCT07099144](https://clinicaltrials.gov/study/NCT07099144) | Phase 4 | Recruiting | 120 | Multi-center safety study of INOmax + ventilatory support for neonatal hypoxic respiratory failure with PH |
-| [NCT01959828](https://clinicaltrials.gov/study/NCT01959828) | Phase 3 | Completed | 18 | IK-3001 inhaled NO for PH associated with cardiac surgery (Japan) |
-| [NCT00955487](https://clinicaltrials.gov/study/NCT00955487) | Phase 2 | Completed | 124 | Low-dose iNO to reduce bronchopulmonary dysplasia and associated PH in premature infants |
-| [NCT01265888](https://clinicaltrials.gov/study/NCT01265888) | Phase 2 | Completed | 31 | Dose-escalation study of inhaled NO (GeNOsyl system) in PAH and PH secondary to IPF |
-| [NCT03132428](https://clinicaltrials.gov/study/NCT03132428) | N/A | Terminated | 140 | Observational registry of neonates with PH receiving inhaled NO via invasive/non-invasive ventilation |
-| [NCT05356052](https://clinicaltrials.gov/study/NCT05356052) | N/A | Available | N/A | Expanded access program providing pulsed inhaled NO (INOpulse) for PH-related serious conditions |
+| [NCT04231084](https://clinicaltrials.gov/study/NCT04231084) | Vaihe 4 | Valmis | 115 | Suora akuutti hemodynamiikkavertailu inhaloitavan typpioksidin vs. inhaloitavan epoprostenolin välillä eri PH-fenotyyppien joukossa |
+| [NCT00139217](https://clinicaltrials.gov/study/NCT00139217) | N/A | Valmis | 400 | Keskeinen tutkimus, joka osoittaa ei-invasiivisen inhaloitavan typpioksidin toteutettavuuden/turvallisuuden/tehokkuuden PPHN:ssä |
+| [NCT05213676](https://clinicaltrials.gov/study/NCT05213676) | Vaihe 4 | Rekrytointivaiheessa | 600 | "NoNO Trial" — porrastettujen muutoksien poistamistutkimus inhaloitavan typpioksidin käytöstä synnynnäisessä pallean hernioitumassa |
+| [NCT01142219](https://clinicaltrials.gov/study/NCT01142219) | Vaihe 3 | Valmis | 40 | Satunnaistettu vertailukoe L-arginiinista (typpioksidin prekursori) lisähoitona sirppisoluanemiaan liittyvässä PAH:ssa |
+| [NCT07099144](https://clinicaltrials.gov/study/NCT07099144) | Vaihe 4 | Rekrytointivaiheessa | 120 | Monipaikkainen turvallisuustutkimus INOmax + hengitystuesta neonataalisessa hypoksisessa hengitysvajaamuksessa ja PH:ssa |
+| [NCT01959828](https://clinicaltrials.gov/study/NCT01959828) | Vaihe 3 | Valmis | 18 | IK-3001 inhaloituva typpioksidi sydänleikkaukseen liittyvässä PH:ssa (Japani) |
+| [NCT00955487](https://clinicaltrials.gov/study/NCT00955487) | Vaihe 2 | Valmis | 124 | Pieni annos inhaloitavaa typpioksidia bronkopulmonaalisesta dysplasiasta ja liittyvästä PH:sta johtuvien komplikaatioiden vähentämiseksi keskosilla |
+| [NCT01265888](https://clinicaltrials.gov/study/NCT01265888) | Vaihe 2 | Valmis | 31 | Inhaloitavan typpioksidin (GeNOsyl-järjestelmä) annoksenkorotustutkimus PAH:ssa ja IPF:ään liittyvässä PH:ssa |
+| [NCT03132428](https://clinicaltrials.gov/study/NCT03132428) | N/A | Lopetettu | 140 | Havaintorekisteri vauvoista, joilla on PH, jotka saavat inhaloitavaa typpioksidia invasiivisesti/ei-invasiivisesti |
+| [NCT05356052](https://clinicaltrials.gov/study/NCT05356052) | N/A | Saatavilla | N/A | Laajennettu käyttöohjelma, joka tarjoaa pulssitettua inhaloitavaa typpioksidia (INOpulse) PH-liittyville vakaviin tiloihin |
 
 ---
 
-## Literature Evidence
+## Kirjallisuusnäyttö
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset tulokset |
 |------|-----|------|------|---------|
-| [33773120](https://pubmed.ncbi.nlm.nih.gov/33773120/) | 2021 | RCT | Lancet Respir Med | REPLACE trial: switching PAH patients from PDE5 inhibitors to riociguat (same NO–cGMP pathway) |
-| [32442078](https://pubmed.ncbi.nlm.nih.gov/32442078/) | 2020 | Review | Curr Med Chem | The NO pathway in PAH: pathomechanism, biomarkers, and drug targets |
-| [23822809](https://pubmed.ncbi.nlm.nih.gov/23822809/) | 2013 | Review | Am J Respir Crit Care Med | NO deficiency and endothelial dysfunction as a driver of PAH pathogenesis |
-| [35412560](https://pubmed.ncbi.nlm.nih.gov/35412560/) | 2022 | Review | JAMA | Diagnosis and treatment overview of PAH |
-| [38054614](https://pubmed.ncbi.nlm.nih.gov/38054614/) | 2024 | Review | Small | Inhalable NO delivery systems (NO-releasing microspheres) for PAH treatment |
-| [38416633](https://pubmed.ncbi.nlm.nih.gov/38416633/) | 2024 | Meta-analysis | Eur Heart J | Individual participant data network meta-analysis of PAH treatment pathways, including NO pathway |
-| [15194181](https://pubmed.ncbi.nlm.nih.gov/15194181/) | 2004 | Review | J Am Coll Cardiol | NO pathway and phosphodiesterase inhibitors in PAH |
-| [40341051](https://pubmed.ncbi.nlm.nih.gov/40341051/) | 2025 | Review | Eur Respir J | Drugs targeting novel pathways in PAH, including established NO-pathway agents |
-| [33836637](https://pubmed.ncbi.nlm.nih.gov/33836637/) | 2021 | Review | J Cardiovasc Pharmacol Ther | Combination therapy in PAH targeting the NO and prostacyclin pathways |
-| [39580019](https://pubmed.ncbi.nlm.nih.gov/39580019/) | 2025 | Systematic review/meta-analysis | Nitric Oxide | NOS3 gene polymorphism and PAH risk |
+| [33773120](https://pubmed.ncbi.nlm.nih.gov/33773120/) | 2021 | RCT | Lancet Respir Med | REPLACE-tutkimus: PAH-potilaiden siirtäminen PDE5-estäjistä riokuguaatille (sama typpioksidi–syklikadenomiinimonofosfaatti-polku) |
+| [32442078](https://pubmed.ncbi.nlm.nih.gov/32442078/) | 2020 | Katsaus | Curr Med Chem | Typpioksidipolku PAH:ssa: patomekanismi, biomarkkerit ja lääkkeen kohteet |
+| [23822809](https://pubmed.ncbi.nlm.nih.gov/23822809/) | 2013 | Katsaus | Am J Respir Crit Care Med | Typpioksidin puutos ja endoteelivajaus PAH:n patogeneesin ajajana |
+| [35412560](https://pubmed.ncbi.nlm.nih.gov/35412560/) | 2022 | Katsaus | JAMA | PAH:n diagnoosi ja hoito — yleiskatsaus |
+| [38054614](https://pubmed.ncbi.nlm.nih.gov/38054614/) | 2024 | Katsaus | Small | Hengitettävät typpioksiditorjunta-järjestelmät (typpioksidia vapauttavat mikrosfattit) PAH-hoitoon |
+| [38416633](https://pubmed.ncbi.nlm.nih.gov/38416633/) | 2024 | Metaanalyysi | Eur Heart J | Yksilöllisen osallistujan tiedon verkkoanalyysi PAH:n hoitopoluista, mukaan lukien typpioksidipolku |
+| [15194181](https://pubmed.ncbi.nlm.nih.gov/15194181/) | 2004 | Katsaus | J Am Coll Cardiol | Typpioksidipolku ja fosfodiesteraasi-estäjät PAH:ssa |
+| [40341051](https://pubmed.ncbi.nlm.nih.gov/40341051/) | 2025 | Katsaus | Eur Respir J | Uusiin polkuihin kohdistavat lääkkeet PAH:ssa, mukaan lukien vakiintuneet typpioksidipolun lääkkeet |
+| [33836637](https://pubmed.ncbi.nlm.nih.gov/33836637/) | 2021 | Katsaus | J Cardiovasc Pharmacol Ther | Yhdistelmähoito PAH:ssa, joka kohditaa typpioksidi- ja prostaglandiinipolkuja |
+| [39580019](https://pubmed.ncbi.nlm.nih.gov/39580019/) | 2025 | Järjestelmällinen katsaus/metaanalyysi | Nitric Oxide | NOS3-geenitapahtuma ja PAH-riski |
 
 ---
 
-## Finland Market Information
+## Suomen markkina-asema
 
-Nitric Oxide is currently **not marketed** in Finland under this evidence pack's data pull — no marketing authorizations, products, or approved-indication texts are on file (0 licenses).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+Typpioksidi ei ole tällä hetkellä **markkinoilla** Suomessa tämän näyttöpaketin tiedonkeruun mukaan — markkinointihyväksynnät, tuotteet tai hyväksytyt indikaatiotekstit eivät ole rekisterissä (0 lupaa).
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuushuomiot
 
-**Decision: Proceed with Guardrails**
+Katso turvallisuustiedot pakkausselosteesta.
 
-**Rationale:**
-The Pulmonary Arterial Hypertension prediction is backed by L1-level evidence — a completed Phase 4 head-to-head hemodynamic trial and a pivotal 400-patient PPHN trial, plus a substantial, mechanistically coherent literature base — making it far stronger than the other nine TxGNN predictions for this drug, most of which were assessed as model noise. However, at the candidate level, the **TFDA/Fimea package insert (warnings and contraindications) is flagged as a Blocking data gap**, meaning this candidate cannot yet formally enter the S1 safety review stage.
+---
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert data (warnings, contraindications) — currently Blocking; required before any S1 safety assessment
-- Mechanism-of-action documentation from DrugBank — currently a High-severity gap
-- Confirmation of Finland licensing/market status, since inhaled NO is a clinically established gas therapy elsewhere and the "0 licenses / not marketed" result here may reflect a data collection gap rather than true absence from market
-- Drug interaction (DDI) data, which returned no results in this pull
-- A dedicated safety monitoring plan for inhaled NO administration (e.g., methemoglobinemia risk, NO2 formation, rebound pulmonary hypertension on withdrawal) before clinical use in the PAH population
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Jatka varauksellisesti**
+
+**Perustelut:**
+Keuhkoarteriaali hypertensioennustus on tuettu L1-tason näytöllä — suoritetulla vaiheen 4 rinnakkaisvertailututkimuksella ja keskeisellä 400 potilaan PPHN-tutkimuksella, sekä merkittävällä, mekanistisesti johdonmukaisella kirjallisuuspohjalla — mikä tekee siitä paljon vahvemman kuin muista yhdeksästä TxGNN:n ennustuksesta tälle lääkkeelle, joista suurin osa arvioitiin mallin meluna. Ehdokkaan tasolla kuitenkin **TFDA/Fimea:n pakkausseloste (varoitukset ja vasta-aiheet) on merkitty estäviksi tietovajeiksi**, mikä tarkoittaa, että tämä ehdokas ei voi vielä muodollisesti siirtyä S1 turvallisuusarviovaiheseen.
+
+**Jatkaaksesi tarvitaan seuraava:**
+- TFDA/Fimea:n pakkausseloste-tiedot (varoitukset, vasta-aiheet) — tällä hetkellä estävä; vaaditaan ennen S1 turvallisuusarviota
+- Vaikutustavakoskevan dokumentaation DrugBank-lähteestä — tällä hetkellä korkea-vakavuusastetta oleva tietovahe
+- Suomen lisenssin/markkina-aseman vahvistaminen, koska inhaloituva typpioksidi on vakiintunut kaasulääke muissa maissa ja tämä "0 lupaa / ei markkinoilla" -tulos saattaa heijastaa tiedonkeruun vajeita todellisen poissaolon sijasta
+- Lääkkeiden väliset vuorovaikutukset (DDI), joita ei saatu palautettua tässä tiedonkeruussa
+- Erityinen turvallisuuden seurantasuunnitelma inhaloitavan typpioksidin antamiselle (esim. methemoglobinemiariskit, NO2:n muodostuminen, kehotus-keuhkoverisuonten ylipaineistuminen käytön lopetuksesta) ennen kliinistä käyttöä PAH-populaatiossa
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

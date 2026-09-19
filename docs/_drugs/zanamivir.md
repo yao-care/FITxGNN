@@ -29,96 +29,97 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Zanamivir: From Influenza to Pyelonephritis
+# Zanamivir: Influenssasta pyelonefriittiin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Zanamivir is a neuraminidase inhibitor used against influenza A and B infection. The TxGNN model's top prediction suggests possible efficacy for **Pyelonephritis**, but this pairing currently has **0 clinical trials** and **0 supporting publications** — the model's own rationale flags it as likely graph noise rather than a genuine mechanistic signal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Influenza A/B (inferred from the pharmacological classification described in the supporting literature within this evidence pack — no Fimea-approved indication text is available; see Market Status) |
-| Predicted New Indication | Pyelonephritis |
-| TxGNN Prediction Score | 99.84% |
-| Evidence Level | L5 |
-| Finland Market Status | ✗ Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Zanamivir on neuraminidaasin estäjä, jota käytetään influenssa A ja B -infektioihin. TxGNN-mallin parhaan ennusteen mukaan sillä saattaa olla tehokkuutta **pyelonefriittiin**, mutta tällä yhdistelmällä on tällä hetkellä **0 kliinistä tutkimusta** ja **0 tukevaa julkaisua** — mallin omassa perustelussa se merkitään todennäköisesti graafimeluiksi pikemminkin kuin todelliseksi mekanistiseksi signaaliksi.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Lyhyt yleiskatsaus
 
-Currently, detailed mechanism of action data from DrugBank is not available (data gap, high severity). Based on the pharmacological classification captured in the accompanying literature, zanamivir is a neuraminidase inhibitor that blocks release of influenza A/B virus particles from infected host cells — a narrowly targeted antiviral mechanism, not a broad-spectrum one.
-
-Pyelonephritis is a bacterial upper urinary tract infection. There is no established pathway linking viral neuraminidase inhibition — or any host sialidase-mediated process — to bacterial pyelonephritis pathogenesis. The TxGNN score of 99.84% reflects graph-embedding similarity only; it is not accompanied by a single clinical trial or publication.
-
-The model's own repurposing rationale for this pair explicitly states the connection is unsupported and likely represents knowledge-graph noise/a false positive rather than a plausible biological signal. Given the complete absence of corroborating evidence and the clear mechanistic mismatch, this pairing does not currently meet the bar for further mechanistic investigation.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Kohde | Sisältö |
+|-------|---------|
+| Alkuperäinen indikaatio | Influenssa A/B (päätelty farmakologisesta luokituksesta tämän näytöpaketin tukevassa kirjallisuudessa – Fimean hyväksytyn indikaation tekstiä ei ole saatavilla; katso Markkinatilanne) |
+| Ennustettu uusi indikaatio | Pyelonefriitti |
+| TxGNN:n ennusteen pistemäärä | 99.84% |
+| Näyttötaso | L5 |
+| Suomen markkinatilanne | ✗ Ei markkinoilla (Not marketed) |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Pidä |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennuste on järkevä?
 
-Currently no related literature available.
+Tällä hetkellä yksityiskohtaisia toimintamekanismin tietoja DrugBankista ei ole saatavilla (tietoaukko, korkea vakavuus). Liitekirjallisuudessa kerätyn farmakologisen luokituksen perusteella zanamivir on neuraminidaasin estäjä, joka estää influenssa A/B -viruspartikkelien vapautumisen infektoiduista isäntäsoluista — kapeasti kohdennettu antiviraalinen mekanismi, ei laaja-alainen.
 
----
+Pyelonefriitti on bakteeriaalinen ylävirtsateiden infektio. Ei ole tunnettua polkua, joka yhdistäisi viraalisen neuraminidaasin estämisen – tai minkään isäntäsialidaasin välittämän prosessin – bakteeriaalisen pyelonefriiitin patogeneesiin. TxGNN:n 99.84 % pistemäärä heijastaa pelkkää graafi-upotuksen samankaltaisuutta; sitä ei seuraa edes yksi kliininen tutkimus tai julkaisu.
 
-## Finland Market Information
-
-Zanamivir currently holds no marketing authorization in Finland (market status: Not marketed / Not marketed). No license records exist to list.
+Mallin oma uusintakäytön perusteleminen tälle parille ilmaisee selvästi, että yhteys on kannustamatonta ja todennäköisesti edustaa tietojoukon melua/väärää positiivista pikemminkin kuin uskottavaa biologista signaalia. Täydellisen tukevaan näyttöön puuttuessa ja selkeän mekanistisen epäsopivuuden vuoksi tämä yhdistelmä ei täytä tällä hetkellä vaatimuksia jatkotutkimukselle.
 
 ---
 
-## Additional Predicted Indication (Rank 2): Disorder of Tyrosine Metabolism
+## Kliinisen tutkimuksen näyttö
 
-For completeness, a second candidate was returned by the model:
-
-| Item | Content |
-|------|------|
-| TxGNN Prediction Score | 99.02% (rank 9324) |
-| Evidence Level | L5 |
-| Recommended Decision | Hold |
-
-Three PubMed records were returned by the automated search, but none actually concern tyrosine metabolism disease:
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [23675925](https://pubmed.ncbi.nlm.nih.gov/23675925/) | 2013 | Review | Infectious Disorders Drug Targets | Oseltamivir resistance surveillance (H275Y neuraminidase mutation) — not related to tyrosine metabolism |
-| [25727669](https://pubmed.ncbi.nlm.nih.gov/25727669/) | 2015 | Methodology | J Mol Recognit | SPR assay for neuraminidase inhibition sensitivity (zanamivir/oseltamivir vs. H274Y mutant) — assay development, not disease-relevant |
-| [21367898](https://pubmed.ncbi.nlm.nih.gov/21367898/) | 2011 | Basic virology | J Virology | N294S neuraminidase mutation and H5N1 pathogenicity — unrelated to tyrosine metabolism |
-
-These were most likely matched through incidental term overlap (e.g., "tyrosine" appearing in neuraminidase mutation nomenclature such as H274Y/N294S) rather than genuine disease relevance. No known pathway connects viral neuraminidase inhibition to endogenous tyrosine-metabolizing enzymes (e.g., FAH, TAT, HPD). This candidate should also be held.
+Tällä hetkellä rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia ei ole.
 
 ---
 
-## Safety Considerations
+## Kirjallisuuden näyttö
 
-Please refer to the package insert for safety information.
+Tällä hetkellä asiaan liittyvää kirjallisuutta ei ole saatavilla.
 
 ---
 
-## Conclusion and Next Steps
+## Suomen markkinatiedot
 
-**Decision: Hold**
+Zanamivir ei tällä hetkellä pidä markkinoikeutta Suomessa (markkinatilanne: Ei markkinoilla / Not marketed). Ei olemassa luetteloitavia lisenssitietueita.
 
-**Rationale:**
-Both candidate indications are graded L5 (model prediction only), with zero supporting clinical trials and no genuinely relevant literature — the model's own mechanistic rationale identifies both pairings as likely false positives rather than credible repurposing signals.
+---
 
-**To proceed, the following is needed:**
-- Retrieve TFDA/Fimea package insert warnings and contraindications (currently a **blocking** data gap)
-- Obtain confirmed mechanism-of-action data from DrugBank (high-severity data gap)
-- Identify any literature or preclinical studies that specifically link zanamivir to pyelonephritis or tyrosine-metabolism pathways — none currently exist
-- If no genuine supporting evidence emerges, deprioritize this candidate pair in favor of higher-evidence-level TxGNN predictions
+## Lisäennustettu indikaatio (sijoitus 2): Tyrosiinin aineenvaihdunnan häiriö
+
+Täydellisyyden vuoksi mallin palauttama toinen ehdokas:
+
+| Kohde | Sisältö |
+|-------|---------|
+| TxGNN:n ennusteen pistemäärä | 99.02% (sijoitus 9324) |
+| Näyttötaso | L5 |
+| Suositeltu päätös | Pidä |
+
+Automaattinen haku palautti kolme PubMedin tietuetta, mutta mikään niistä ei käsittele tyrosiinin aineenvaihduntasairautta:
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-------|--------|-------|----------------------|
+| [23675925](https://pubmed.ncbi.nlm.nih.gov/23675925/) | 2013 | Katsaus | Infectious Disorders Drug Targets | Oseltamiviirinsisäkkyyden valvonta (H275Y neuraminidaasin mutaatio) – ei liity tyrosiinin aineenvaihduntaan |
+| [25727669](https://pubmed.ncbi.nlm.nih.gov/25727669/) | 2015 | Metodologia | J Mol Recogn | SPR-assay neuraminidaasin estämisen herkkyydelle (zanamivir/oseltamivir vs. H274Y mutantti) – assay-kehitys, ei sairauden kannalta merkityksellinen |
+| [21367898](https://pubmed.ncbi.nlm.nih.gov/21367898/) | 2011 | Perusviirologia | J Virology | N294S neuraminidaasin mutaatio ja H5N1 patogenisyys – ei liity tyrosiinin aineenvaihduntaan |
+
+Nämä vastattiin todennäköisesti satunnaisella termin päällekkäisyydellä (esim. "tyrosiini" ilmaantuu neuraminidaasin mutaation nomenklatuurissa, kuten H274Y/N294S) pikemminkin kuin todellisella sairauden merkityksellisyydellä. Ei tunnettua polkua, joka yhdistäisi viraalisen neuraminidaasin estämisen endogeenisten tyrosiinia metaboloivien entsyymien (esim. FAH, TAT, HPD) kanssa. Myös tämä ehdokas tulisi pidättyä.
+
+---
+
+## Turvallisuusnäkökohdat
+
+Katso turvallisuustietoja varten pakkausseloste.
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidä**
+
+**Perustelut:**
+Molemmat ehdokasindikaatiot on luokiteltu L5:ksi (pelkkä mallin ennuste), nolla tukevia kliinisiä tutkimuksia ja ei genuiinisti merkityksellisiä julkaisuja – mallin omassa mekanistisessa perustelussa molemmat yhdistelmät merkitään todennäköisesti väärillä positiiveiksi pikemminkin kuin uskottaviksi uusintakäytön signaaleiksi.
+
+**Edistämiseksi tarvitaan seuraavaa:**
+- Hae TFDA/Fimea pakkausselosteen varoitukset ja vasta-aiheet (tällä hetkellä **esto** tietoaukko)
+- Hanki vahvistetut toimintamekanismin tiedot DrugBankista (korkea-vakavuus tietoaukko)
+- Tunnista mikä tahansa kirjallisuus tai prekliiniset tutkimukset, jotka erityisesti yhdistävät zanamivirin pyelonefriittiin tai tyrosiinin aineenvaihdunnan polkuihin – yhtään nykyään ei ole olemassa
+- Jos mitään genuiini tukeva näyttö ei ilmene, alenna tämä ehdokaspari etusijalla korkeamman näyttötason TxGNN-ennustuksiin nähden
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

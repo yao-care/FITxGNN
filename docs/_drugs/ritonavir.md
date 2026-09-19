@@ -29,79 +29,74 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-Using no specific skill — this is a direct report-generation task per the detailed prompt template already provided.
+# Ritonavir: HIV-1-infektiosta Simian-immunodeficiency-viruksen (SIV) -infektioon
 
-One judgment call before drafting: `predicted_indications[0]` (feline AIDS) is TxGNN's top-ranked hit by array order, but the evidence pack's own `repurposing_rationale` flags it as a likely ontology-mapping artifact (human HIV trial, "grade C" relevance, no cat data) and `predicted_indications[2]` has zero evidence (L5, no mechanistic plausibility). Presenting either as the headline indication would misrepresent the evidence. I'm featuring rank 2 (SIV infection — L3, real mechanistic/experimental support) as the primary candidate and noting why the other two were screened out.
+## Yhden lauseen yhteenveto
 
----
+Ritonavir on HIV-1-proteinaasi-inhibiittori, jota käytetään sekä suorana antiretroviraalina että muiden proteinaasi-inhibiittorien farmakokineettisenä vahvistajana CYP3A4-inhibition kautta. TxGNN-mallin biologisesti johdonmukaisin ennustus on **Simian-immunodeficiency-virusinfektio (SIV)** — lentiviirus, joka on lähisukua HIV-1:lle ja standardi primaattimalli antiretrovirustutkimukselle — **10 relevantin julkaisun** tuella, mukaan lukien suoraa in vitro -vastaanottavuustietoa, vaikka **kliinisiä tutkimuksia** tälle indikaatiolle ei ole tällä hetkellä olemassa.
 
-# Ritonavir: From HIV-1 Infection to Simian Immunodeficiency Virus (SIV) Infection
+> **Huomio mallin tuotannosta:** TxGNN antoi myös kahdelle muulle kandidaatille samanlaisen korkean luottamuspisteet — *kissalla esiintyvä hankittu immunodeficiency-syndrooma* (sijoitus 1) ja harvinainen neurokehityshäiriö (sijoitus 3). Molemmat jätettiin pois tästä raportista: kissalla esiintyvä AIDS-tulkinta on merkitty todisteissa itsessään todennäköiseksi sairauden nimen kartoitusvirheeksi (sen ainoa linkitetty tutkimus on ihmisten HIV-tutkimus), ja neurokehityshäiriöllä ei ole mekanistista perustelua, tutkimuksia tai kirjallisuutta (L5, vain ennustus).
 
-## One-Sentence Summary
+## Nopea yleiskatsaus
 
-Ritonavir is an HIV-1 protease inhibitor, used both as a direct antiretroviral and as a pharmacokinetic booster of other protease inhibitors via CYP3A4 inhibition. The TxGNN model's most biologically coherent prediction is **Simian Immunodeficiency Virus (SIV) Infection** — a lentivirus closely related to HIV-1 and a standard primate model for antiretroviral research — supported by **10 relevant publications** including direct in vitro susceptibility data, though **no dedicated clinical trials** currently exist for this indication.
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | HIV-1-infektio (todiste-paketin mekanistisen merkinnän mukaan; virallista Suomen pakkaustekstiä ei ole saatavilla) |
+| Ennustettu uusi indikaatio | Simian-immunodeficiency-virusinfektio (SIV) |
+| TxGNN-ennustuspistemäärä | 99.92% |
+| Todisteen taso | L3 |
+| Markkinoinnin tila Suomessa | Ei markkinoitu |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Odota |
 
-> **Note on model output:** TxGNN also scored two other candidates at similarly high confidence — *feline acquired immunodeficiency syndrome* (rank 1) and a rare neurodevelopmental disorder (rank 3). Both were excluded from this report: the feline AIDS hit is annotated in the evidence itself as a likely disease-name mapping error (its only linked trial is a human HIV study), and the neurodevelopmental disorder has no mechanistic rationale, trials, or literature (L5, prediction-only).
+## Miksi tämä ennustus on perusteltu?
 
-## Quick Overview
+Yksityiskohtaisia muodollisia toimintamekanismi-dokumentaatioita ei ole saatavilla tässä todiste-paketissa (merkitty Blocking-vakavuusasteisen tietoaukoksi). Saatavilla olevan tiedon perusteella ritonavir on HIV-1-proteinaasi-inhibiittori, joka toimii myös CYP3A4-inhibiittorina — ominaisuus, jota hyödynnetään samanaikaisesti annettujen proteinaasi-inhibiittorien plasmapitoisuuksien nostamiseksi ("vahvistaminen"). Sen teho HIV-1-proteinaasia vastaan on hyvin vakiintunut.
 
-| Item | Content |
-|------|------|
-| Original Indication | HIV-1 infection (per evidence-pack mechanistic annotation; no formal Finland label text on file) |
-| Predicted New Indication | Simian Immunodeficiency Virus (SIV) Infection |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L3 |
-| Finland Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+SIV on lähisukua HIV-1:lle lentiviruksien suvussa ja sitä käytetään laajasti mallieläimenä antiretrovirustutkimukselle. Todiste-paketin omassa perustelussaan tämän ennustuksen osalta todetaan, että PI-luokan lääkkeet osoittavat risteytyvää inhibiivista vaikutusta SIV-proteinaasia vastaan kahden virusproteinasin rakenteellisen ja substraatin spesifisyyssamankaltaisuuden vuoksi — väite, joka on suoraan vahvistettu alla esitetyssä kirjallisuudessa (esim. PMID 12709355 mittasi ritonabiivin IC50-arvon SIV-proteinaasia vastaan in vitro -olosuhteissa).
 
-## Why is This Prediction Reasonable?
+Koska SIV-infektio on tutkimus-/mallieläin-ehto pikemminkin kuin kohdepotilaspopulaatio, tämän ennustuksen käytännöllinen arvo on ensisijaisesti vahvistetuna *tutkimuslääkkeen* käyttönä (PI-vaikutuksen vahvistaminen SIV-malleissa HIV-paranemis-/varantotutkimukselle) pikemminkin kuin terapeuttisena indikaationa eläimille tai ihmisille — tämä ero olisi ohjattava kuinka "Go/Hold" tulkitaan jatkotyöskentelyyn.
 
-Detailed formal mechanism-of-action documentation is not available in this evidence pack (flagged as a Blocking-severity data gap). Based on the information that is available, ritonavir is an HIV-1 protease inhibitor that also acts as a CYP3A4 inhibitor, a property exploited to raise the blood levels of co-administered protease inhibitors ("boosting"). Its efficacy against HIV-1 protease is well established.
+## Kliinisen tutkimuksen todisteet
 
-SIV is a close relative of HIV-1 within the lentivirus genus and is widely used as an animal-model surrogate for HIV-1 in antiretroviral research. The evidence pack's own rationale for this prediction notes that PI-class drugs show cross-reactive inhibitory activity against SIV protease because of structural and substrate-specificity similarity between the two viral proteases — a claim borne out directly in the literature below (e.g., PMID 12709355 measured ritonavir's IC50 against SIV protease in vitro).
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
 
-Because SIV infection is a research/model-organism condition rather than a target patient population, the practical value of this prediction is primarily as a validated *tool compound* use (confirming PI activity in SIV models for HIV cure/reservoir research) rather than a therapeutic indication in animals or humans — this distinction should guide how "Go/Hold" is interpreted downstream.
+## Kirjallisuuteen perustuva todiste
 
-## Clinical Trial Evidence
+| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät löydökset |
+|------|------|--------|---------|-----------------|
+| [12709355](https://pubmed.ncbi.nlm.nih.gov/12709355/) | 2003 | In vitro -vastaanottavuus | Antimicrob Agents Chemother | PI-vastaanottavuuden suora vertailu: SIVmac239 inhiboitiin ritonavirilla EC50:ssa ≈13 nM, samanlainen kuin sen potenssi HIV-1:tä vastaan (EC50 ≈25 nM) |
+| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | In vitro -vastaanottavuus | Antiviral Therapy | Arvioitiin 16 hyväksyttyä anti-HIV-1-lääkettä HIV-2:ta, SIV:tä (mac251, B670) ja SHIV-kantoja vastaan hoidon/PEP-ohjauksen informoimiseksi |
+| [16973590](https://pubmed.ncbi.nlm.nih.gov/16973590/) | 2006 | Eläinmalli (makakki) | Journal of Virology | Mallinnettiin nopea viraalisen hajoamisen kinetiikka SIVmac251-infektoiduissa makakeissa 7 päivän nelikertaisella antiretrovirusregimillä |
+| [25033210](https://pubmed.ncbi.nlm.nih.gov/25033210/) | 2014 | Eläinmalli (makakki) | PLoS ONE | Yhdistelmä ART plus HDAC-inhibiittori SAHA testattiin SIV-infektoiduissa Kiinan silkkiapinakerttuissa viraalisen varantojen/hoitomallina |
+| [12951220](https://pubmed.ncbi.nlm.nih.gov/12951220/) | 2003 | Eläinmalli (makakki) | Journal of Virological Methods | Suun kautta annettava HAART sisältäen Lopinavir/Ritonavir annettiin SHIV(89.6P)-infektoiduille makakeille; arvioitiin vaikutusta CD8+ T-solu-osajoukoille |
+| [34903055](https://pubmed.ncbi.nlm.nih.gov/34903055/) | 2021 | Eläinmalli (makakki) | mBio | Löydettiin lentiviruksen (HIV/SIV) pysyvyys aivojen kudoksessa tehokkaasta ART:sta huolimatta, neuroimmunologisen aktivoinnin kanssa |
+| [22737073](https://pubmed.ncbi.nlm.nih.gov/22737073/) | 2012 | Eläinmalli (makakki) | PLoS Pathogens | Erittäin intensiivinen monilääkkeinen ART testattiin usean viraalisuuden tason yli SIVmac251-infektoiduissa silkkiapina-makakeissa; arvioitiin viraalisen varannon rajoittamista |
+| [17350308](https://pubmed.ncbi.nlm.nih.gov/17350308/) | 2007 | Perusvirokemia | Microbes and Infection | Suunniteltiin kimeera-SHIV, joka sisälsi HIV-1-proteinaasia in vivo -välineenä proteinaasi-inhibiittorin tehokkuuden testaamiseksi makakeissa |
+| [12186895](https://pubmed.ncbi.nlm.nih.gov/12186895/) | 2002 | Perusvirokemia | Journal of Virology | Karakterisoitiin viraalisen proteinaasi-riippuvainen HIV-1 Vif-proteiinin prosessointi viruspartikkeleissa |
+| [9875393](https://pubmed.ncbi.nlm.nih.gov/9875393/) | 1998 | In vitro (liittymätön yhdiste) | Antiviral Chemistry & Chemotherapy | Fluorokinoloni-johdannainen K-12, aktiivinen AZT- ja ritonavir-resistenteille HIV-1-kannoille sekä HIV-2:ta ja SIV:ä vastaan |
 
-Currently no related clinical trials registered.
+## Suomen markkinatiedot
 
-## Literature Evidence
+Ritonavir ei ole tällä hetkellä markkinoitu Suomessa; markkinointiluvista ei ole tietoja (0 lisenssejä tallennettu).
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [12709355](https://pubmed.ncbi.nlm.nih.gov/12709355/) | 2003 | In vitro susceptibility | Antimicrob Agents Chemother | Direct head-to-head comparison of PI susceptibility: SIVmac239 inhibited by ritonavir at EC50 ≈13 nM, similar to its potency against HIV-1 (EC50 ≈25 nM) |
-| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | In vitro susceptibility | Antiviral Therapy | Evaluated 16 approved anti-HIV-1 drugs against HIV-2, SIV (mac251, B670) and SHIV strains to inform treatment/PEP guidance |
-| [16973590](https://pubmed.ncbi.nlm.nih.gov/16973590/) | 2006 | Animal model (macaque) | Journal of Virology | Modeled rapid viral decay kinetics in SIVmac251-infected macaques on a 7-day quadruple antiretroviral regimen |
-| [25033210](https://pubmed.ncbi.nlm.nih.gov/25033210/) | 2014 | Animal model (macaque) | PLoS ONE | Combination ART plus the HDAC inhibitor SAHA tested in SIV-infected Chinese rhesus macaques as a viral-reservoir/cure model |
-| [12951220](https://pubmed.ncbi.nlm.nih.gov/12951220/) | 2003 | Animal model (macaque) | Journal of Virological Methods | Oral HAART including Lopinavir/Ritonavir given to SHIV(89.6P)-infected macaques; assessed impact on CD8+ T-cell subsets |
-| [34903055](https://pubmed.ncbi.nlm.nih.gov/34903055/) | 2021 | Animal model (macaque) | mBio | Found lentivirus (HIV/SIV) persistence in brain tissue despite effective ART, with neuroimmune activation |
-| [22737073](https://pubmed.ncbi.nlm.nih.gov/22737073/) | 2012 | Animal model (macaque) | PLoS Pathogens | Highly intensified multidrug ART tested across a range of viremia levels in SIVmac251-infected rhesus macaques; assessed viral reservoir restriction |
-| [17350308](https://pubmed.ncbi.nlm.nih.gov/17350308/) | 2007 | Basic virology | Microbes and Infection | Engineered a chimeric SHIV carrying HIV-1 protease as an in vivo tool for testing protease inhibitor efficacy in macaques |
-| [12186895](https://pubmed.ncbi.nlm.nih.gov/12186895/) | 2002 | Basic virology | Journal of Virology | Characterized viral-protease-dependent processing of the HIV-1 Vif protein within virions |
-| [9875393](https://pubmed.ncbi.nlm.nih.gov/9875393/) | 1998 | In vitro (unrelated compound) | Antiviral Chemistry & Chemotherapy | Fluoroquinolone derivative K-12 active against AZT- and ritonavir-resistant HIV-1 strains as well as HIV-2 and SIV |
+## Turvallisuusnäkökohdat
 
-## Finland Market Information
+Katso lisätietoja pakkaustekstista. (Suomen-kohtaiset varoitukset, vasta-aiheet ja lääkeyhteisvaikutustiedot on merkitty Blocking-vakavuusasteisen tietoaukoksi, eikä niitä voitu noutaa TFDA-lähteistä tämän tiedon leikkauspäivän aikaan.)
 
-Ritonavir is not currently marketed in Finland; no marketing authorizations are on file (0 licenses recorded).
+## Johtopäätös ja seuraavat vaiheet
 
-## Safety Considerations
+**Päätös: Odota**
 
-Please refer to the package insert for safety information. (Finland-specific warnings, contraindications, and drug-interaction data are recorded as a Blocking-severity data gap and were not retrievable from TFDA sources at this data cutoff.)
+**Perustelut:**
+Todisteet rajoittuvat in vitro -vastaanottavuusanalyyseihin ja eläinmallin (makakki) tutkimuksiin, joissa käytettiin ritonaviiria vain yhdistelmä-ART:n osana — mikään tutkimus ei erota ritonabiivin vaikutusta eikä kohdi SIV-infektiota ensisijaisena kliinisena päätepisteenä, eikä omistautuneita kliinisiä tutkimuksia ole. Yhdessä Suomen markkinoinnin puuttumisen ja perusturvallisuustietojen Blocking-vakavuusasteisen aukon kanssa tämä kandidaatti ei ole valmis etnemään tutkimuskysymyksen yli.
 
-## Conclusion and Next Steps
+**Edetäkseen seuraavaa vaaditaan:**
+- Suomen-kohtainen pakkausteksti / SPC (varoitukset, vasta-aiheet, lääkeyhteisvaikutukset) — tällä hetkellä Blocking-tietoaukko (DG001)
+- Vahvistettu toimintamekanismi-dokumentaatio DrugBankista tai vastaavasta lähteestä (DG002)
+- Terapeuttisen tarkoituksen selventäminen: SIV-infektio on tutkimus-/mallieläin-ehto, ei ihmisen eikä eläinlääketieteen sairauden kohde — seuraava vaihe olisi määriteltävä, haetaanko tätä tutkimuslääkkeen validoinnina vai uudelleenkehystettävä kliinisesti relevantti lentivirusindikatio
+- TxGNN/ontologia-kartoituksen uudelleenkyselyj rankingissa 1 (kissan AIDS) epäillyn sairauden nimen väärinkäytön vahvistamiseksi tai kumoamiseksi ennen sitä, että sitä tarkastellaan edelleen
 
-**Decision: Hold**
-
-**Rationale:**
-Evidence is limited to in vitro susceptibility assays and animal-model (macaque) studies using ritonavir only as part of combination ART — no study isolates ritonavir's effect or targets SIV infection as a primary clinical endpoint, and no dedicated clinical trials exist. Combined with the absence of Finland market presence and a Blocking-severity gap on core safety documentation, this candidate is not ready to advance past a research question.
-
-**To proceed, the following is needed:**
-- Finland-specific package insert / SPC (warnings, contraindications, DDI) — currently Blocking data gap (DG001)
-- Confirmed mechanism-of-action documentation from DrugBank or equivalent (DG002)
-- Clarification of therapeutic intent: SIV infection is a research/animal-model condition, not a human or veterinary disease target — next step should define whether this is pursued as a tool-compound validation or reframed toward a clinically relevant lentivirus indication
-- Re-query TxGNN/ontology mapping for rank-1 (feline AIDS) to confirm or rule out the suspected disease-name mismatch before considering it further
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

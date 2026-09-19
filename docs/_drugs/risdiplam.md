@@ -29,58 +29,59 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Risdiplam: From Spinal Muscular Atrophy to Acne (Disease)
+# Risdiplam: spinaalihermolihasatrofiasta akneen (sairaus)
 
-## One-Sentence Summary
+## Yhteenveto yhdessä lauseessa
 
-Risdiplam is an SMN2 pre-mRNA splicing modifier developed for spinal muscular atrophy (SMA); no marketing authorization or approved-indication text is currently on file for this product.
-The TxGNN model predicts a possible effect in **Acne (disease)**, with a very high raw score (**99.45%**) but **zero supporting clinical trials and zero publications**.
-The model's own mechanistic rationale flags this pairing as lacking any known biological link, so the prediction should be treated as a candidate signal only, not evidence.
+Risdiplam on SMN2:n pre-mRNA:n silmukointimuuntaja, joka kehitettiin selkäydinhermolihasatrofiaan (SMA); tälle tuotteelle ei tällä hetkellä ole markkinointiluvan eikä hyväksytyn indikaation tekstiä arkistossa.
+TxGNN-malli ennustaa mahdollista vaikutusta **Akneen (sairaus)**, erittäin korkealla raakapisteyttelyllä (**99.45%**), mutta **nolla kliinisen tutkimuksen ja nolla julkaisuja**.
+Mallin oma mekanistinen perustelut merkitsevät tätä yhdistelmää puuttuvaksi tunnetusta biologisesta yhteydestä, joten ennustetta tulisi käsitellä vain kandidaattisignaalina, ei todisteena.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Spinal Muscular Atrophy (SMA) — per repurposing rationale text; formal MOA/indication fields are a data gap |
-| Predicted New Indication | Acne (disease) |
-| TxGNN Prediction Score | 99.45% |
-| Evidence Level | L5 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Selkäydinhermolihasatrofia (SMA) — uudelleenkäytön perustelutekstin mukaan; viralliset MOA/indikaatioalueet ovat tietojen puutteita |
+| Ennustettu uusi indikaatio | Akne (sairaus) |
+| TxGNN-ennusteen pisteet | 99.45% |
+| Näytön taso | L5 |
+| Suomen markkinoiden asema | ✗ Ei markkinoilla |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Pidä odottavana |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Detailed mechanism of action data is currently unavailable (original_moa: Data Gap). Based on the information available in this evidence pack, Risdiplam is known as an SMN2 splicing modifier that promotes inclusion of exon 7 in SMN2 pre-mRNA, restoring functional SMN protein in motor neurons — the basis for its use in spinal muscular atrophy.
+Yksityiskohtaiset vaikutusmekanismin tiedot eivät ole tällä hetkellä saatavilla (original_moa: Data Gap). Tässä näyttöpaketissa saatavilla olevien tietojen perusteella Risdiplam tunnetaan SMN2:n silmukointimuuntajana, joka edistää eksoni 7:n sisällyttämistä SMN2:n pre-mRNA:ssa, palauttaen toimivan SMN-proteiinin motoneuroneissa — peruste sen käytölle selkäydinhermolihasatrofiassa.
 
-There is no known or biologically plausible mechanistic pathway connecting SMN2 splicing modulation to acne pathophysiology (sebaceous gland activity, androgen signaling, follicular hyperkeratinization, or *C. acnes*-driven inflammation). The evidence pack's own rationale explicitly characterizes this prediction as lacking mechanistic support and flags it as a possible spurious association arising from the knowledge graph rather than a genuine biological signal.
+Ei ole olemassa tunnettua tai biologisesti uskottavaa mekanistista polkua, joka yhdistäisi SMN2:n silmukointimuuntelun akneen liittyvään patofysiologiaan (talirauhastoiminta, androgeenisignalointi, follikkeli-hyperkeratinisaatio tai *C. acnes* -aiheuttama tulehdus). Näyttöpaketin oma perustelut luonnehtivat nimenomaisesti tätä ennustetta mekanistisen tuen puutteeksi ja merkitsevät sitä mahdolliseksi valeyhteydyksi, joka johtuu tietoverkosta pikemminkin kuin aidosta biologisesta signaalista.
 
-Given the absence of both original-indication/MOA data and any mechanistic bridge to acne, this prediction should be treated purely as a TxGNN model output pending independent biological validation — it does not currently meet the bar for hypothesis-driven follow-up.
+Ottaen huomioon sekä alkuperäisen indikaation/MOA-tietojen että minkään mekanistisen sillan puuttumisen akneen, tätä ennustetta tulisi käsitellä puhtaasti TxGNN-mallin tulostuksena riippumattoman biologisen validoinnin odotuksella — se ei tällä hetkellä täytä hypoteesin ohjaaman seurannan vaatimaa tasoa.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-Currently no related clinical trials registered.
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-Currently no related literature available.
+Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta.
 
-## Safety Considerations
+## Turvallisuuden huomioitavat asiat
 
-Please refer to the package insert for safety information.
+Katso turvallisuustietoja varten pakkausselosteesta.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidä odottavana**
 
-**Rationale:**
-The prediction is supported only by a raw TxGNN score (L5, S0) with no clinical trials, no literature, and no plausible mechanistic link identified in the evidence itself; the drug is also unmarketed with no available regulatory or safety data, and the original indication/MOA data gap (DG001, DG002) blocks even a preliminary safety assessment.
+**Perustelut:**
+Ennuste perustuu vain raakapisteeseen TxGNN (L5, S0), jossa ei ole kliinisiä tutkimuksia, kirjallisuutta eikä tunnettuja uskottavia mekanistisia yhteyksiä; lääke on myös markkinoimaton ilman saatavilla olevia sääntelytietoja tai turvallisuustietoja, ja alkuperäisen indikaation/MOA-tietojen puute (DG001, DG002) estää jopa alustavaa turvallisuuden arviointia.
 
-**To proceed, the following is needed:**
-- TFDA/regulatory package insert (warnings, contraindications) — currently a Blocking data gap (DG001)
-- Confirmed original indication and mechanism of action data (DG002)
-- An independent mechanistic hypothesis linking SMN2 splicing to acne pathology before further evidence search is warranted
-- Ongoing monitoring for any future clinical trial or literature signal in dermatologic indications
+**Jotta voidaan edetä, seuraavaa tarvitaan:**
+- Sääntelyviranomaisen pakkausseloste (varoitukset, vasta-aiheet) — tällä hetkellä estävä tietojen puute (DG001)
+- Vahvistetut alkuperäisen indikaation ja vaikutusmekanismin tiedot (DG002)
+- Itsenäinen mekanistinen hypoteesi, joka yhdistää SMN2:n silmukointimuuntelun aknen patologiaan, ennen kuin lisätodisteen etsintä on perusteltua
+- Jatkuva seuranta tulevista kliinisista tutkimuksista tai kirjallisuuden signaaleista dermatologisissa indikaatioissa
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

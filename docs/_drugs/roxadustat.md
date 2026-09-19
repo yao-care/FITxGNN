@@ -29,63 +29,64 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-# Roxadustat: From Anemia of Chronic Kidney Disease to Dry Eye Syndrome
+# Roxadustat: kroonisen munuaistaudin anemiasta silmän kuivuuteen
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Roxadustat is a HIF-PH (hypoxia-inducible factor prolyl hydroxylase) inhibitor globally approved for anemia associated with chronic kidney disease. The TxGNN model predicts it may also be effective for **dry eye syndrome**, but this direction is currently supported by only **1 clinical trial** and **no publications**, so the evidence base is still very early.
+Roxadustat on HIF-PH-hidastin (hypoksian-indusoitava tekijä-prolyylihydroksylaasi), joka on hyväksytty globaalisti kroonisen munuaistaudin yhteydessä esiintyvän anemia hoitoon. TxGNN-malli ennustaa, että se voisi olla tehokas myös **silmän kuivuudelle**, mutta tätä suuntaa tukee tällä hetkellä vain **1 kliininen tutkimus** ja **ei yhtään julkaisua**, joten näyttöperusta on vielä hyvin alkuvaiheessa.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available in the evidence pack (no local licenses on file); globally, roxadustat is approved for anaemia associated with chronic kidney disease |
-| Predicted New Indication | Dry eye syndrome |
-| TxGNN Prediction Score | 99.51% |
-| Evidence Level | L3 (single observational study, no completed RCT) |
-| Finland Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|------|--------|
+| Alkuperäinen indikaatio | Ei saatavilla näyttölaukussa (paikallisia lisenssejä ei ole kirjalla); globaalisti roxadustat on hyväksytty kroonisen munuaistaudin yhteydessä esiintyvän anemia hoitoon |
+| Ennustettu uusi indikaatio | Silmän kuivuus |
+| TxGNN-ennustuspistemäärä | 99.51% |
+| Näyttötaso | L3 (yksittäinen havainttutkimus, ei satunnaistetun vertailututkimuksen tuloksia) |
+| Suomen markkinatilanne | Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Pidätä |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, detailed mechanism of action data is not available. Based on known information, roxadustat is a HIF-PH inhibitor used for anemia associated with chronic kidney disease (CKD), and mechanistically may be applicable to dry eye syndrome.
+Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla. Tunnettujen tietojen perusteella roxadustat on HIF-PH-hidastin, jota käytetään kroonisen munuaistaudin yhteydessä esiintyvän anemia hoitoon (CKD), ja mekanistisesti se voisi olla soveltava silmän kuivuudelle.
 
-Renal anemia and dry eye syndrome are not obviously linked at first glance, but the one identified clinical trial (NCT06287879) offers a plausible bridge: it examines meibomian gland structure and function specifically in **renal anemia patients treated with erythropoietin or roxadustat** who present with dry eye symptoms. This suggests a possible connection between chronic anemia/hypoxia physiology (or its treatment) and ocular surface / meibomian gland health, which may be what the TxGNN model is picking up on.
+Munuaisanemia ja silmän kuivuus eivät ole ilmeisesti yhteydessä toisiin ensivaikutelmalta katsottuna, mutta yksittäinen tunnistettu kliininen tutkimus (NCT06287879) tarjoaa uskottavan sillan: se tutkii meibomin-rauhasen rakennetta ja toimintaa erityisesti **munuaisanemiaa EPO:lla tai roxadustatilla hoitavilla potilailla**, joilla on silmän kuivuusoireita. Tämä viittaa mahdolliseen yhteyteen kroonisen anemia/hypoksian fysiologian (tai sen hoidon) ja silmän pinnan / meibomin-rauhasen terveyden välillä, mikä voi olla mitä TxGNN-malli havaitsee.
 
-However, this trial is observational and descriptive (it characterizes meibomian gland findings in an existing patient population) rather than an interventional study testing roxadustat's therapeutic effect on dry eye. The mechanistic pathway from HIF stabilization to ocular surface benefit has not been established, so the prediction should be treated as hypothesis-generating rather than confirmed.
+Kuitenkin tämä tutkimus on havainttutkimus ja kuvaileva (se kuvaa meibomin-rauhasen havaintoja olemassa olevassa potilaspopulaatiossa) eikä interventiotutkimus, joka testaisi roxadustaatin terapeuttista vaikutusta silmän kuivuuteen. Mekanistinen polku HIF-stabiloinnista silmän pinnan hyötyyn ei ole selvitetty, joten ennustetta tulisi käsitellä hypoteesiä tuottavana eikä vahvistettuna.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimuksen numero | Vaihe | Tila | Osallistujat | Tärkeimmät tulokset |
 |---------|------|------|------|---------|
-| [NCT06287879](https://clinicaltrials.gov/study/NCT06287879) | NA | Unknown | 50 | Observational study characterizing meibomian gland function and morphology in renal anemia patients (treated with EPO or roxadustat) presenting with dry eye symptoms |
+| [NCT06287879](https://clinicaltrials.gov/study/NCT06287879) | NA | Tuntematon | 50 | Havainttutkimus, jossa karakterisoidaan meibomin-rauhasen toiminta ja morfologia munuaisanemiapotilailla (hoidettu EPO:lla tai roxadustatilla), joilla on silmän kuivuusoireita |
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-Currently no related literature available.
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Roxadustat is not currently marketed in Finland — no marketing authorizations are on record (0 licenses).
+Roxadustat ei ole tällä hetkellä markkinoilla Suomessa — markkinointilupia ei ole rekisteröity (0 lisenssiä).
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information.
+Turvallisuustiedot löytyvät pakkausselosteesta.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidätä**
 
-**Rationale:**
-Evidence for the dry eye syndrome indication rests on a single observational trial of unknown status with no supporting literature, and the drug is not yet marketed in Finland. Critically, TFDA/Fimea package insert warnings and contraindications are flagged as a **Blocking** data gap, which prevents even an initial safety (S1) assessment.
+**Perustelut:**
+Silmän kuivuuden indikaation näyttö perustuu yksittäiseen havainttutkimukseen, jonka tila on tuntematon, ilman tukevaa kirjallisuutta, ja lääke ei ole vielä markkinoilla Suomessa. Kriittisesti TFDA/Fimean pakkausselosteen varoitukset ja vasta-aiheet on merkitty **estäväksi** tietovajeeksi, joka estää jo alustavaa turvallisuusarviointia (S1).
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert data (warnings, contraindications) — Blocking gap
-- Confirmed mechanism of action (MOA) documentation from DrugBank
-- Drug-drug interaction (DDI) data (currently not found)
-- Follow-up on NCT06287879 to determine its completion status and results
-- At least one interventional/controlled study directly testing roxadustat for dry eye syndrome before advancing beyond hypothesis stage
+**Jatkamisen edellytykset:**
+- TFDA/Fimean pakkausselosteen tiedot (varoitukset, vasta-aiheet) — estävä vaatimus
+- Vahvistettu vaikutusmekanismi (MOA) -dokumentaatio DrugBankista
+- Lääke-lääke-vuorovaikutus (DDI) -tiedot (tällä hetkellä ei löytynyt)
+- Seurantatutkimus NCT06287879-tutkimukselle sen valmistumisen tilan ja tulosten selvittämiseksi
+- Vähintään yksi interventio- tai vertailututkimus, joka suoraan testaa roxadustaattia silmän kuivuuden hoitoon ennen kuin edetään hypoteesin vaihetta pidemmälle
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

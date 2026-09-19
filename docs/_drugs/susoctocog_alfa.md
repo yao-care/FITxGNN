@@ -29,76 +29,77 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Susoctocog Alfa: From Acquired Hemophilia A to Primary Release Disorder of Platelets
+# Susoctocog Alfa: Hankitusta hemofiliasta A primaariseen trombosyyttien erityshäiriöön
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Susoctocog alfa is a recombinant, B-domain deleted, porcine sequence Factor VIII (FVIII) product, best documented in the literature for treating bleeding episodes in **acquired hemophilia A (AHA)**. The TxGNN model's top-ranked prediction for this drug is **primary release disorder of platelets**, but this candidate is currently supported by **0 clinical trials** and **0 publications**, and the underlying rationale explicitly notes the mechanism does not align with FVIII replacement therapy.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Acquired Hemophilia A / bleeding episodes (per literature; not confirmed in Finnish regulatory records) |
-| Predicted New Indication | Primary release disorder of platelets |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L5 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Susoctocog alfa on rekombinantti, B-domeenia poistettu, sianperäinen Factor VIII (FVIII) -tuote, joka on parhaiten dokumentoitu kirjallisuudessa **hankitun hemofilian A (AHA)** verenvuotojen hoitoon. TxGNN-mallin tämän lääkkeen korkeimmin sijoittama ennustus on **primaarinen trombosyyttien erityshäiriö**, mutta tätä kandidaattia tukee tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua**, ja taustalla olevan perustelun mukaan mekanismi ei ole sopusoinnussa FVIII-korvaushoidon kanssa.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Pikayleiskatsaus
 
-Currently, detailed mechanism of action data for susoctocog alfa is not available in the structured drug record. Based on the surrounding literature, susoctocog alfa (recombinant porcine FVIII, marketed elsewhere as Obizur) is used to replace Factor VIII activity in patients whose endogenous FVIII is neutralized by autoantibodies (acquired hemophilia A), restoring the intrinsic coagulation pathway to control bleeding.
-
-Primary release disorder of platelets, however, is a disease of impaired platelet granule secretion — patients have normal platelet counts and normal coagulation factor levels, but platelets fail to release their granule contents (ADP, serotonin, etc.) needed to amplify aggregation. This is mechanistically distinct from FVIII deficiency or FVIII autoantibody neutralization.
-
-The evidence pack's own repurposing rationale for this candidate states this directly: there is no clear physiological link between exogenous FVIII replacement and correcting a platelet granule release defect. The high TxGNN score therefore reflects a graph-based similarity signal (both diseases fall under a broad "bleeding disorder" neighborhood) rather than a validated pharmacological mechanism, and it is not corroborated by any clinical trial or published case evidence.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Kohta | Sisältö |
+|------|--------|
+| Alkuperäinen indikaatio | Hankittu hemofilia A / verenvuodot (kirjallisuuden mukaan; ei vahvistettu Suomen sääntelytiedoissa) |
+| Ennustettu uusi indikaatio | Primaarinen trombosyyttien erityshäiriö |
+| TxGNN-ennustepisteet | 99.94% |
+| Evidenssitaso | L5 |
+| Suomen markkinatilanne | ✗ Ei markkinoitu |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Odotus |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennustus on perusteltu?
 
-Currently no related literature available
+Tällä hetkellä yksityiskohtaisia mekanismin tietoja susoctocog alfalle ei ole saatavilla strukturoiduissa lääketiedoissa. Ympäröivän kirjallisuuden perusteella susoctocog alfa (rekombinantti sianperäinen FVIII, markkinoitu muualla nimellä Obizur) käytetään Factor VIII -toiminnan korvaamiseen potilailla, joiden endogeeninen FVIII on neutraloitunut autoantibodien toimesta (hankittu hemofilia A), palauttaen sisäisen koagulaatioreitin verenvuotojen hallintaan.
 
----
+Primaarinen trombosyyttien erityshäiriö kuitenkin on sairaus, jolle on ominaista heikentynyt trombosyyttien granulaeriytyskyky — potilailla on normaalit trombosyyttiluvut ja normaalit koagulaatiotekijöiden tasot, mutta trombosyytit eivät vapauta granulasisältöään (ADP, serotoniini jne.), joita tarvitaan aggregaation vahvistamiseen. Tämä on mekanistisesti erillään FVIII-puutoksesta tai FVIII-autoantibodien neutralisaatiosta.
 
-## Finland Market Information
-
-Susoctocog alfa is not currently marketed in Finland — the regulatory record shows 0 authorizations, so no product/dosage-form details are available.
+Todistepaketti toteaa omassa uudelleenkäyttöperustelussaan tälle kandidaatille suoraan, että eksogeenisen FVIII-korvauksen ja trombosyyttien granulaeriytysvajavuuden korjaamisen välillä ei ole selkeitä fysiologisia yhteyksiä. Korkea TxGNN-pistemäärä heijastaa siksi graafiselle samankaltaisuussignaalille (molemmat sairaudet kuuluvat laajaan "verenvuodon häiriö" -naapurustoon) pikemminkin kuin validoidulle farmakoloogiselle mekanismille, eikä sitä tueta millään kliinisellä tutkimuksella tai julkaistulla potilastapahtumaesimerkkillä.
 
 ---
 
-## Safety Considerations
+## Kliinisen tutkimuksen todisteet
 
-Please refer to the package insert for safety information.
-
-*(Note: Fimea/TFDA package insert warnings, contraindications, and DDI data are flagged as blocking data gaps (DG001) in the evidence pack and have not yet been retrieved.)*
+Tällä hetkellä ei ole liittyviä kliinisiä tutkimuksia rekisteröitynä
 
 ---
 
-## Conclusion and Next Steps
+## Kirjallisuuden todisteet
 
-**Decision: Hold**
+Tällä hetkellä ei ole liittyvää kirjallisuutta saatavilla
 
-**Rationale:**
-Despite a high TxGNN prediction score, this candidate has no clinical trial or literature support, and the evidence pack's own mechanistic assessment concludes there is no credible biological link between FVIII replacement and correcting a platelet granule release defect. This does not meet the bar to advance past model-only prediction (L5).
+---
 
-**To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) data for susoctocog alfa (DG002)
-- Fimea/TFDA package insert — warnings, contraindications, and DDI data (DG001)
-- Any preclinical or translational evidence connecting FVIII activity to platelet granule secretion pathways, if this indication is to be pursued further
-- Note: the same evidence pack shows stronger, more mechanistically coherent support for FVIII-pathway-adjacent indications (e.g., "hemophilia" and "acquired coagulation factor deficiency," ranks 4–5, which reference the drug's existing AHA evidence base) — these may warrant a separate evaluation rather than being treated as novel repurposing candidates, since they largely overlap with the drug's known use.
+## Suomen markkinatiedot
+
+Susoctocog alfaa ei tällä hetkellä markkinoida Suomessa — sääntelytietue osoittaa 0 hyväksynnät, joten tuotteen/annosmuodon yksityiskohtia ei ole saatavilla.
+
+---
+
+## Turvallisuusnäkökohdat
+
+Turvatietoja varten katso pakkausseloste.
+
+*(Huomautus: Fimea/TFDA-pakkausselosteen varoitukset, vasta-aiheet ja lääkevuorovaikutustieto (DDI) on merkitty estäviksi tietovajeiksi (DG001) todistepakettiin ja niitä ei ole vielä haettu.)*
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Odotus**
+
+**Perustelut:**
+Huolimatta korkeasta TxGNN-ennustepisteistä, tällä kandidaatilla ei ole kliinistä tutkimusta tai kirjallisuuden tukea, ja todistepaketin oma mekanistinen arviointi päättelee, että uskottavaa biologista yhteyttä ei ole FVIII-korvauksen ja trombosyyttien granulaeriytysvajavuuden korjaamisen välillä. Tämä ei täytä vaatimuksia edistää malliin perustuvaa ennustusta (L5) pidemmälle.
+
+**Jatkaakseen tarvitaan seuraavaa:**
+- Vahvistettu vaikutusmekanismi (MOA) -tieto susoctocog alfalle (DG002)
+- Fimea/TFDA-pakkausseloste — varoitukset, vasta-aiheet ja lääkevuorovaikutustieto (DG001)
+- Mikä tahansa prekliininen tai translaatiotieteen todiste, joka yhdistää FVIII-aktiivisuuden trombosyyttien granulaeriytyspolkuihin, mikäli tätä indikaatiota aiotaan tutkia edelleen
+- Huomautus: sama todistepaketti osoittaa vahvempia, mekanistisesti johdonmukaisia tukea FVIII-polkuun liittyville indikaatioille (esim. "hemofilia" ja "hankittu koagulaatiotekijän puutos," sijoitus 4–5, jotka viitaavat lääkkeen olemassa olevaan AHA-todistuspohjaan) — nämä voivat edellyttää erillistä arviointia pikemminkin kuin niiden käsittelemistä uusina uudelleenkäyttökandidaatteina, koska ne menevät pitkälti päällekkäin lääkkeen tunnetun käytön kanssa.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

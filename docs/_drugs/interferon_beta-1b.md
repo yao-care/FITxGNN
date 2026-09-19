@@ -29,81 +29,82 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Interferon Beta-1b: A TxGNN Candidate for Hairy Cell Leukemia
+# Interferoni beeta-1b: TxGNN-ehdokas karvapaita-leukemiaan
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-> Interferon Beta-1b (DrugBank DB00068) is a recombinant type I interferon; its originally approved indication and mechanism of action are not documented in this evidence pack, and the drug currently holds **no marketing authorization in Finland**.
-> The TxGNN model predicts it may be effective for **Hairy Cell Leukemia**,
-> with **0 registered clinical trials** and **4 publications** (all from 1987–1990) currently supporting this direction.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available — no approved indication text on file (drug not marketed in Finland) |
-| Predicted New Indication | Hairy Cell Leukemia |
-| TxGNN Prediction Score | 99.16% |
-| Evidence Level | L3 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Interferoni beeta-1b (DrugBank DB00068) on rekombinantti tyypin I interferoni; sen alkuperäinen käyttöaihe ja vaikutusmekanismi eivät ole dokumentoituja tässä todistepakkauksessa, ja lääkkeellä ei ole tällä hetkellä markkinointilupia Suomessa.
+> TxGNN-malli ennustaa, että se voi olla tehokas **karvapaita-leukemiaan**,
+> ja tällä hetkellä on **0 rekisteröityä kliinistä tutkimusta** ja **4 julkaisua** (kaikki vuosilta 1987–1990) tukevia tätä suuntaa.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Currently, detailed mechanism of action data is not available. Based on known information, Interferon Beta-1b belongs to the type I interferon class of biologic immunomodulators, which act via antiproliferative and immune-modulating effects on target cells.
-
-The repurposing rationale documented for this candidate notes that type I interferons show antiproliferative and immunomodulatory activity against the malignant B cells characteristic of hairy cell leukemia, and that clinical responses to IFN alpha/beta in this disease were already being reported in the late 1980s. Importantly, this is described as **historical evidence of an interferon class effect**, not mechanistic validation specific to IFN beta-1b using modern methods.
-
-Because the supporting literature predates IFN beta-1b's later, better-characterized clinical role and largely reflects small, single-arm or retrospective series, the mechanistic plausibility is reasonable but the evidence base has not been refreshed with contemporary, drug-specific studies.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Kohde | Sisältö |
+|-------|---------|
+| Alkuperäinen käyttöaihe | Ei saatavilla — hyväksyttyä käyttöaihetekstiä ei ole tiedostossa (lääkettä ei myydä Suomessa) |
+| Ennustettu uusi käyttöaihe | Karvapaita-leukemia |
+| TxGNN-ennuste-pistemäärä | 99.16% |
+| Todisteiden taso | L3 |
+| Suomen markkinatilanne | ✗ Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Odota |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennuste on järkevä?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [2736487](https://pubmed.ncbi.nlm.nih.gov/2736487/) | 1989 | Prospective comparative study (vs. recombinant alpha-IFN) | Cancer | 10 HCL patients treated with recombinant beta-serine-interferon (90×10⁶ U SC TIW); 63% normalized peripheral counts, 25% showed partial hematologic improvement. |
-| [2082943](https://pubmed.ncbi.nlm.nih.gov/2082943/) | 1990 | Small clinical treatment report | American Journal of Hematology | 12 HCL patients (10 previously treated) given IV beta-ser interferon 90 MU TIW; bone marrow involvement 90–100% hairy cells at baseline. |
-| [2198792](https://pubmed.ncbi.nlm.nih.gov/2198792/) | 1990 | Small clinical treatment report (post-interferon salvage) | American Journal of Clinical Oncology | 3 HCL patients who failed alpha-2a- or beta-ser-interferon were switched to deoxycoformycin and achieved complete response (9–15+ months). |
-| [3312839](https://pubmed.ncbi.nlm.nih.gov/3312839/) | 1987 | Retrospective experience summary (UCLA) | Leukemia | 51 HCL patients across interferon trials; hematologic improvement in 96% (alpha-2b), 69% (alpha-N1), and 71% (recombinant beta-serine-interferon, early follow-up). |
+Tällä hetkellä yksityiskohtaista vaikutusmekanismin dataa ei ole saatavilla. Olemassa olevan tiedon perusteella interferoni beeta-1b kuuluu tyypin I interferoneiden luokkaan, jotka ovat biologisia immunomodulaattoreita ja joilla on antiproliferatiivisia ja immuunimoduloivia vaikutuksia kohdeksenteihin.
 
----
+Tähän ehdokkaaseen dokumentoitu lääkkeen uudelleenkäytön perustelu huomioi, että tyypin I interferoneilla on antiproliferatiivinen ja immunomoduloiva aktiivisuus karvapaita-leukemiaan liittyvää pahanlaatuista B-soluja vastaan, ja että kliiniset vasteet IFN alfa/beeta-hoitoon tässä taudissa olivat jo raportoituja myöhäisellä 1980-luvulla. Tärkeää on, että tämä kuvataan interferoni-luokan historialliseksi todisteeksi, eikä interferoni beeta-1b-spesifiseksi mekanistiseksi validoinniksi käyttäen nykyaikaisia menetelmiä.
 
-## Finland Market Information
-
-Interferon Beta-1b currently holds no marketing authorization in Finland (0 license records on file).
+Koska tukevat kirjallisuudet edeltävät interferoni beeta-1b:n myöhempää, paremmin karakterisoitua kliinistä roolia ja heijastlevat suurelta osin pieniä, yhden parren tai retrospektiivisiä sarjoja, mekanistinen uskottavuus on kohtuullinen, mutta todisteiden perusta ei ole päivitetty nykyaikaisilla, lääkekohtaisilla tutkimuksilla.
 
 ---
 
-## Safety Considerations
+## Kliinisen tutkimuksen todisteet
 
-Please refer to the package insert for safety information.
+Tällä hetkellä ei liittyviä rekisteröityjä kliinisiä tutkimuksia.
 
 ---
 
-## Conclusion and Next Steps
+## Kirjallisuuden todisteet
 
-**Decision: Hold**
+| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät havainnot |
+|------|-------|--------|-------|----------------------|
+| [2736487](https://pubmed.ncbi.nlm.nih.gov/2736487/) | 1989 | Prospektiivinen vertailututkimus (vs. rekombinantti alfa-IFN) | Cancer | 10 karvapaita-leukemia potilasta, joille annettiin rekombinantti beeta-seriini-interferoni (90×10⁶ U SC TIW); 63% :lla perifeerisen verenkierron arvot normalisoutuivat, 25% :lla havaittiin osittaista hematologista paranemista. |
+| [2082943](https://pubmed.ncbi.nlm.nih.gov/2082943/) | 1990 | Pieni kliinisen hoidon raportti | American Journal of Hematology | 12 karvapaita-leukemia potilasta (10 aiemmin hoidettua) saivat IV beeta-seriini-interferoni 90 MU TIW; luuydinsosallistuminen 90–100% karvapaita-soluja lähtötilanteessa. |
+| [2198792](https://pubmed.ncbi.nlm.nih.gov/2198792/) | 1990 | Pieni kliinisen hoidon raportti (interferoni-hoidon epäonnistumisen jälkeen) | American Journal of Clinical Oncology | 3 karvapaita-leukemia potilasta, jotka epäonnistuivat alfa-2a- tai beeta-seriini-interferoni-hoidolla, siirrettiin dekoksyformysiiniin ja saivat täydellisen vasteen (9–15+ kuukautta). |
+| [3312839](https://pubmed.ncbi.nlm.nih.gov/3312839/) | 1987 | Retrospektiivinen kokemuksen yhteenveto (UCLA) | Leukemia | 51 karvapaita-leukemia potilasta interferonitutkinnoissa; hematologinen parantuminen 96% (alfa-2b), 69% (alfa-N1), ja 71% (rekombinantti beeta-seriini-interferoni, varhainen seuranta). |
 
-**Rationale:**
-The supporting evidence for the Hairy Cell Leukemia indication consists solely of small, single-arm, or retrospective interferon studies from 1987–1990 (Evidence Level L3), with no registered clinical trials specific to modern IFN beta-1b use in this disease. A Blocking-severity data gap (missing Finland/TFDA package-insert warnings and contraindications) prevents the required S1 safety review from being completed.
+---
 
-**To proceed, the following is needed:**
-- Finland/TFDA package insert data (safety warnings, contraindications) — currently Blocking (DG001)
-- Mechanism of action data specific to IFN beta-1b — currently High priority gap (DG002)
-- Contemporary, drug-specific clinical validation in hairy cell leukemia (the existing literature reflects an interferon class effect from the late 1980s, not IFN beta-1b-specific modern evidence)
-- Confirmation of Finland market/regulatory pathway status, given the drug currently has zero licenses on file
+## Suomen markkinatiedot
+
+Interferoni beeta-1b:llä ei ole tällä hetkellä markkinointilupia Suomessa (0 lisenssitietuetta tiedostossa).
+
+---
+
+## Turvallisuushuomiot
+
+Katso pakkausselosteesta turvallisuustiedot.
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Odota**
+
+**Perustelut:**
+Karvapaita-leukemia-käyttöaiheen tukevat todisteet koostuvat ainoastaan pienistä, yhden parren tai retrospektiivisistä interferonitutkimuksista vuosilta 1987–1990 (Todisteiden taso L3), eikä ole rekisteröityjä kliinisiä tutkimuksia, jotka olisivat spesifisiä nykyaikaiselle interferoni beeta-1b-käytölle tässä taudissa. Estävän vakavuuden tietoaukko (puuttuvat Suomen/TFDA pakkausseloste-varoitukset ja vasta-aiheet) estää vaaditun S1-turvallisuuden arvioinnin valmiiksi saattamisesta.
+
+**Jatkaakseen seuraava on tarpeen:**
+- Suomen/TFDA pakkausseloste-data (turvallisuusvaroitukset, vasta-aiheet) — tällä hetkellä estävä (DG001)
+- Vaikutusmekanismin data, joka on spesifinen interferoni beeta-1b:lle — tällä hetkellä korkean prioriteetin aukko (DG002)
+- Nykyaikainen, lääkekohtainen kliininen validointi karvapaita-leukemiassa (olemassa oleva kirjallisuus heijastaa interferoni-luokan vaikutusta myöhäiseltä 1980-luvulta, ei interferoni beeta-1b-spesifisiä moderneja todisteita)
+- Vahvistus Suomen markkinoiden/sääntelyn polun tilasta, koska lääkkeellä on tällä hetkellä nolla lisenssejä tiedostossa
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

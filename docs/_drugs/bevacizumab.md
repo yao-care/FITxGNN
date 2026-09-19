@@ -29,73 +29,74 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Bevacizumab: From Advanced Solid Tumors to Epiglottis Neoplasm
+# Bevacizumab: edistyneistä kiinteistä kasvaimista silvanteen syöpään
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Bevacizumab (DB00112) is a recombinant humanized anti-VEGF-A monoclonal antibody, globally used as part of combination regimens for various VEGF-driven solid tumors. The TxGNN model predicts it may be effective for **Epiglottis Neoplasm** (its highest-scoring candidate, score 0.9990), but this evidence pack currently contains **zero clinical trials** and **zero publications** specific to this indication.
+Bevacizumab (DB00112) on rekombinantti humanisaattu anti-VEGF-A-monoklonaalinen vasta-aine, jota käytetään maailmanlaajuisesti osana yhdistelmiä erilaisille VEGF-vetoisille kiinteille kasvaimille. TxGNN-malli ennustaa, että se saattaa olla tehokas **silvanteen syöpään** (sen korkeimmin pisteytetty ehdokas, pistemäärä 0.9990), mutta tämä näyttöpaketti sisältää tällä hetkellä **nolla kliinistä tutkimusta** ja **nolla julkaisua**, jotka ovat erityisiä tälle käyttöaihkeelle.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available in evidence pack (`original_indications` empty; Finland: unmarketed, no license record) |
-| Predicted New Indication | Epiglottis Neoplasm |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L5 |
-| Finland Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|-------|---------|
+| Alkuperäinen käyttöaihe | Ei saatavilla näyttöpaketissa (`original_indications` tyhjä; Suomi: ei markkinoilla, ei lupa-asiakirjaa) |
+| Ennustettu uusi käyttöaihe | Silvanteen syöpä |
+| TxGNN-ennustepistemäärä | 99.90% |
+| Näyttötaso | L5 |
+| Markkinatilanne Suomessa | Ei markkinoilla |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Pito |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, detailed mechanism of action data is not available in the evidence pack (`original_moa`: Data Gap DG002). Based on known information, bevacizumab is a monoclonal antibody that binds and neutralizes vascular endothelial growth factor-A (VEGF-A), blocking angiogenesis; it is globally used as part of combination chemotherapy regimens across a range of VEGF-driven solid tumors (e.g., metastatic colorectal cancer, non-squamous NSCLC, renal cell carcinoma, ovarian cancer, cervical cancer, glioblastoma). No Finland-specific marketing authorization exists in this evidence pack (`market_status`: Not marketed / Not Marketed, 0 licenses).
+Tällä hetkellä yksityiskohtaista toimintamekanismin tietoja ei ole saatavilla näyttöpaketissa (`original_moa`: Data Gap DG002). Tunnettujen tietojen perusteella bevacizumab on monoklonaalinen vasta-aine, joka sitoutuu ja neutralisoi verisuonen endoteelin kasvutekijä-A:ta (VEGF-A), estäen angiogeneesin; sitä käytetään maailmanlaajuisesti osana yhdistelmäkemoterapia-annoksia eri VEGF-veto isille kiinteille kasvaimille (esim. metastasoitunut paksusuolen syöpä, ei-levysolusyöpä NSCLC, munuaissolujen karsinooma, munarauhassyöpä, kohdunkaulansyöpä, glioblastooma). Suomalaista markkinointilupia ei ole olemassa tässä näyttöpaketissa (`market_status`: Not marketed / Ei markkinoilla, 0 lupaa).
 
-For epiglottis neoplasm specifically, the evidence pack contains no clinical trials or literature at all. The mechanistic rationale is limited to a class-level generalization: bevacizumab has been studied in other head-and-neck tumor sites (see related candidates below), and anti-VEGF therapy has a plausible biological rationale in head-and-neck squamous cell carcinomas broadly. However, for epiglottis neoplasm this remains an unverified extrapolation with no site-specific supporting data — the TxGNN score alone (99.90%) is not accompanied by any confirmatory trial or publication.
+Silvanteen syövän osalta näyttöpaketti ei sisällä lainkaan kliinisiä tutkimuksia tai kirjallisuutta. Mekanistinen perusteltu on rajoitettu luokkatasoisen yleistämiseen: bevacizumabia on tutkittu muilla pään ja kaulan syöpäkohteilla (katso niihin liittyvät ehdokkaat alla), ja anti-VEGF-terapialla on biologisesti perusteltu rationale pään ja kaulan levysolusyövissä laajasti. Silvanteen syövän kohdalla tämä on kuitenkin vielä vahvistamaton ekstrapolaatio ilman paikan kohtaisia tukemisen tietoja – TxGNN-pistemäärä yksinään (99.90%) ei ole saattanut vahvistavia tutkimuksia tai julkaisuja.
 
-## Clinical Trial Evidence
+## Kliinisten tutkimusten näyttö
 
-Currently no related clinical trials registered
+Tällä hetkellä ei ole asiaan liittyviä rekisteröityjä kliinisiä tutkimuksia
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-Currently no related literature available
+Tällä hetkellä kirjallisuutta ei ole saatavilla
 
-## Finland Market Information
+## Markkinatiedot Suomesta
 
-Bevacizumab is currently not marketed in Finland (`total_licenses` = 0; no license records on file).
+Bevacizumabia ei ole tällä hetkellä markkinoilla Suomessa (`total_licenses` = 0; lupa-asiakirjoja ei ole saatavilla).
 
-## Cytotoxicity
+## Sytotoksisuus
 
-Bevacizumab is an antineoplastic agent (anti-VEGF monoclonal antibody used exclusively in oncology regimens), so this section applies.
+Bevacizumab on antineoplastinen lääke (anti-VEGF-monoklonaalinen vasta-aine, jota käytetään yksinomaan syövän hoitoannoksissa), joten tämä osio koskee sitä.
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (anti-angiogenic monoclonal antibody; not a conventional cytotoxic chemotherapeutic) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| Kohta | Sisältö |
+|-------|---------|
+| Sytotoksisuuden luokittelu | Kohdennettua hoitoa (anti-angiogeniininen monoklonaalinen vasta-aine; ei perinteinen sytostaattinen kemoterapeutti) |
+| Ytimen sortumistaipumuksen riski | Katso pakkausseloste varoitukset ja varotoimet |
+| Pahoinvointiherkkyysluokittelu | Katso pakkausseloste varoitukset ja varotoimet |
+| Seurantakohteet | Katso pakkausseloste varoitukset ja varotoimet |
+| Käsittelysuojaus | Katso pakkausseloste varoitukset ja varotoimet |
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information.
+Katso turvallisuustietoja pakkauksesta.
 
-## Conclusion and Next Steps
+## Johtopäätökset ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pito**
 
-**Rationale:**
-The TxGNN score is high (99.90%), but there is no clinical trial or literature evidence specific to epiglottis neoplasm — evidence level is L5 (model prediction only), and this drug is not marketed in Finland.
+**Perustelut:**
+TxGNN-pistemäärä on korkea (99.90%), mutta silvanteen syövän osalta ei ole kliinisiä tutkimuksia tai kirjallisuuden näyttöä – näyttötaso on L5 (vain mallin ennuste), ja tätä lääkettä ei ole markkinoilla Suomessa.
 
-**To proceed, the following is needed:**
-- Site-specific clinical trial or literature evidence for bevacizumab in epiglottis neoplasm
-- TFDA/Finland package insert warnings and contraindications (DG001, Blocking — currently missing)
-- Confirmed detailed mechanism of action data (DG002)
-- Verification that "epiglottis neoplasm" is a correctly mapped disease ontology term in the TxGNN prediction
+**Jotta voitaisiin edetä, tarvitaan seuraavaa:**
+- Paikankohtaisia kliinisiä tutkimuksia tai kirjallisuuden näyttöä bevacizumabista silvanteen syöpää vastaan
+- TFDA/Suomen pakkausseloste varoitukset ja vasta-aiheet (DG001, Esto – tällä hetkellä puuttuu)
+- Vahvistettu yksityiskohtainen toimintamekanismin tieto (DG002)
+- Vahvistus siitä, että "silvanteen syöpä" on oikein kartoitettu tautiin liittyvä ontologiatermi TxGNN-ennusteessa
 
 ---
-**Note:** Within this same evidence pack, a lower-ranked candidate — **cystic neoplasm** (rank 7, TxGNN score 99.89%) — has substantially stronger supporting evidence (8 clinical trials including a Phase 3 RCT, 20 publications, Evidence Level L1, decision stage S3, recommendation "Proceed with Guardrails"), largely driven by bevacizumab's established use in low-grade serous ovarian cancer. That candidate may warrant separate evaluation as a higher-priority repurposing opportunity.
+**Huomautus:** Tämän saman näyttöpaketin sisällä alemmin sijoittuva ehdokas – **kystinen syöpä** (sijoitus 7, TxGNN-pistemäärä 99.89%) – sisältää huomattavasti vahvemman tukemisen näytön (8 kliinistä tutkimusta, joihin sisältyy vaihe 3 RCT, 20 julkaisua, Näyttötaso L1, päätöksentekouasema S3, suositus "Etene varoituksilla"), pääasiassa johtuen bevacizumabin vakiintuneesta käytöstä matalaasteisennytkään munarauhassyövän hoitamisessa. Tuo ehdokas saattaa vaatia erillistä arviointia korkeampiprioriteetin lääkkeen uudelleenkäyttämisen mahdollisuutena.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

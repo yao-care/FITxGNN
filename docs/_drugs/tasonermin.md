@@ -29,72 +29,73 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Tasonermin: From Soft Tissue Sarcoma (Limb Perfusion) to Prostatic Urethra Urothelial Carcinoma
+# Tasonermin: Pehmeiden kudosten sarkooomasta (raajan perfuusio) eturauhanen virtsaputken uroteliaalikarsinoomaan
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Tasonermin (recombinant human TNF-alpha, marketed elsewhere as Beromun) is a cytokine agent whose established clinical use is isolated limb perfusion for soft tissue sarcoma. The TxGNN model predicts it may be effective for **Prostatic Urethra Urothelial Carcinoma**, but this is currently a **pure model prediction with zero supporting clinical trials or publications**.
+Tasonermin (ihmisen rekombinantti TNF-alfa, muualla markkinoilla nimellä Beromun) on sytokiini-agentti, jonka vakiintunut kliininen käyttö on eristetty raajan perfuusio pehmeiden kudosten sarkooomassa. TxGNN-malli ennustaa, että se voi olla tehokas **eturauhanen virtsaputken uroteliaalikarsinoomassa**, mutta tämä on tällä hetkellä **puhtaasti mallin ennustus ilman tukevia kliinisiä tutkimuksia tai julkaisuja**.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Soft tissue sarcoma (isolated limb perfusion) — per known drug background; not licensed in Finland |
-| Predicted New Indication | Prostatic urethra urothelial carcinoma |
-| TxGNN Prediction Score | 99.81% |
-| Evidence Level | L5 |
-| Finland Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Pehmeiden kudosten sarkooma (eristetty raajan perfuusio) — tunnetun lääkkeen taustan mukaisesti; ei lisensöity Suomessa |
+| Ennustettu uusi indikaatio | Eturauhanen virtsaputken uroteliaalikarsinooma |
+| TxGNN-ennustuskeskiarvo | 99.81% |
+| Todistusaineiston taso | L5 |
+| Suomen markkina-asema | Ei markkinoilla |
+| Valtuutuksien lukumäärä | 0 |
+| Suositeltu päätös | Odota |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennustus on järkevä?
 
-Detailed, source-verified mechanism of action data for Tasonermin is not yet available (flagged as a High-severity data gap). Based on known general information, Tasonermin is a recombinant human TNF-alpha with tumor vascular-endothelial-disruptive, pro-apoptotic, and immunomodulatory activity, giving it theoretical broad-spectrum antitumor potential across solid tumors.
+Tasonerminin yksityiskohtaisia, lähde-varmennettuja toimintamekanismin tietoja ei ole vielä saatavilla (merkitty suuren vakavuusasteen tietokuiluksi). Tunnettujen yleistietojen perusteella tasonermin on ihmisen rekombinantti TNF-alfa, jolla on kasvaimeen liittyvien verisuonten endoteeliä tuhoava, apoptoosia edistävä ja immunimoduloiva aktiivisuus, mikä antaa sille teoreettisesti laajan spektrin syöpää vastustava potentiaali kiinteillä kasvaimilla.
 
-However, its only established clinical use is isolated limb perfusion for soft tissue sarcoma — a locoregional delivery route chosen specifically because systemic administration of TNF-alpha causes severe, shock-like toxicity. Prostatic urethra urothelial carcinoma has no established locoregional perfusion treatment paradigm analogous to limb perfusion, so the delivery model that makes Tasonermin clinically usable does not obviously transfer to this indication.
+Kuitenkin sen ainoa vakiintunut kliininen käyttö on eristetty raajan perfuusio pehmeiden kudosten sarkooomassa — paikallisen alueen antoväylä, joka valittiin erityisesti siksi, että TNF-alfan systeeminen antaminen aiheuttaa vakavaa, sokki-kaltaista toksisuutta. Eturauhanen virtsaputken uroteliaalikarsinoomalla ei ole vakiintunutta paikallisen alueen perfuusion hoitoparadigmaa, joka olisi verrattavissa raajan perfuusioon, joten tasonerminin kliinisessä käytössä käytetty paikallisen alueen antoväylä ei ilmeisesti sovellu tälle indikaatiolle.
 
-No urothelial-carcinoma-specific mechanistic, preclinical, or clinical evidence currently supports this prediction — it derives purely from TxGNN's graph-based association scoring.
+Mikään uroteliaalikarsinooma-spesifinen, mekanistinen, prekliininen tai kliininen todistusaineisto ei tällä hetkellä tue tätä ennustusta — se johtuu puhtaasti TxGNN:n graafipohjaisen assosiaatiopisteytyksestä.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen todistusaineisto
 
-Currently no related clinical trials registered.
+Tällä hetkellä asiaan liittyviä rekisteröityjä kliinisiä tutkimuksia ei ole.
 
-## Literature Evidence
+## Kirjallisuuden todistusaineisto
 
-Currently no related literature available.
+Tällä hetkellä asiaan liittyvää saatavilla olevaa kirjallisuutta ei ole.
 
-## Finland Market Information
+## Suomen markkina-tiedot
 
-Tasonermin is not currently marketed in Finland (0 authorizations on record); no license or approved-indication data is available.
+Tasonerminia ei ole tällä hetkellä markkinoilla Suomessa (0 valtuutusta rekisterissä); lisensointi- tai hyväksytyn indikaation tietoja ei ole saatavilla.
 
-## Cytotoxicity
+## Toksisuus
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Immunotherapy / cytokine therapy (recombinant TNF-alpha) |
-| Myelosuppression Risk | Please refer to the package insert for safety information; known systemic risk for this class is severe cytokine-release/shock-like reaction rather than classic myelosuppression |
-| Emetogenicity Classification | Please refer to the package insert for safety information |
-| Monitoring Items | Hemodynamic/cardiovascular monitoring (particularly if any systemic or perfusion-based exposure), CBC, liver and renal function |
-| Handling Protection | Handle per institutional cytotoxic/biologic agent protocols pending confirmed labeling |
+| Kohta | Sisältö |
+|------|---------|
+| Toksisuusluokitus | Immunoterapia / sytokiniherapia (ihmisen rekombinantti TNF-alfa) |
+| Luuydintukahduttamisen riski | Katso turvaohjeet pakkausselosteesta; tunnettu systeeminen riski tälle luokalle on vakava sytokinievästyminen/sokki-kaltainen reaktio, ei klassinen luuydintukahduttaminen |
+| Emetoisuusluokitus | Katso turvaohjeet pakkausselosteesta |
+| Seurantakohteet | Hemodynamiikka-/sydänverenkiertoseuranta (erityisesti jos systeeminen tai perfuusioon perustuva altistus), CBC, maksan ja munuaisten toiminta |
+| Käsittelyssuoja | Käsitellään laitoksen sytostaattisten/biologisten valmisteiden protokollien mukaisesti merkinnän vahvistamista odottaen |
 
-## Safety Considerations
+## Turvahuomiot
 
-Please refer to the package insert for safety information.
+Katso turvaohjeet pakkausselosteesta.
 
-## Conclusion and Next Steps
+## Johtopäätelmät ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Odota**
 
-**Rationale:**
-This candidate sits at evidence level L5 (decision stage S0) — the prediction is unsupported by any clinical trial, ICTRP record, or publication, and a Blocking data gap (missing TFDA/Fimea package insert warnings and contraindications) prevents even an initial safety review (S1). The mechanistic rationale is also weak: Tasonermin's only validated use relies on a locoregional perfusion delivery route not applicable to this new indication.
+**Perustelut:**
+Tämä ehdokas sijaitsee todistusaineiston tasolla L5 (päätösten vaihe S0) — ennustusta ei tue mikään kliininen tutkimus, ICTRP-tietue tai julkaisu, ja blokaava tietokuilu (puuttuvat TFDA/Fimea-pakkausselosteen varoitukset ja vasta-aiheet) estävät jopa alkuperäisen turvakatselmusvaiheen (S1). Mekanistinen perustelun on myös heikko: Tasonerminin ainoa vahvistettu käyttö perustuu paikallisen alueen perfuusion antoväylään, jota ei voida soveltaa tähän uuteen indikaatioon.
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert (warnings, contraindications) to unblock S1 safety review
-- Confirmed mechanism of action data from DrugBank or primary literature
-- Preclinical or early clinical evidence specific to prostatic urethra urothelial carcinoma
-- A feasible delivery-route rationale, given TNF-alpha's systemic toxicity constraints
+**Etenemiseksi tarvitaan seuraavat:**
+- TFDA/Fimea-pakkausseloste (varoitukset, vasta-aiheet) S1-turvakatselmusvaiheen vapauttamiseksi
+- Vahvistettu toimintamekanismin tieto DrugBankista tai pääasiallisista kirjallisista lähteistä
+- Prekliininen tai varhainen kliininen todistusaineisto, joka koskee eturauhanen virtsaputken uroteliaalikarsinoomaa
+- Toteuttamiskelpoinen antoväyläperuste ottaen huomioon TNF-alfan systeemisen toksisuuden rajoitukset
 
-*Note: This same L5/Hold status and evidence gap apply to the other 9 TxGNN-predicted indications in this evidence pack (ranks 2–10), none of which have clinical trial or literature support.*
+*Huomio: Tämä sama L5/Odota-tila ja tietokuilu koskevat myös muita 9 TxGNN-ennustettua indikaatiota tässä todistusaineiston pakkauksessa (sijoitukset 2–10), joista yksikään ei ole tuettu kliinisillä tutkimuksilla tai kirjallisuudella.*
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

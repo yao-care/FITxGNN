@@ -29,78 +29,79 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Lidocaine: From Local Anesthesia to Punctate Epithelial Keratoconjunctivitis
+# Lidokaini: Paikallispuudutuksesta pisteinäiseen epiteelikeratokonjunktiviitiin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Lidocaine is a well-established amide-type local anesthetic, used clinically as a topical/regional anesthetic (including in ophthalmic procedures, per the evidence base reviewed here). The TxGNN model's top-ranked prediction is **Punctate Epithelial Keratoconjunctivitis**, but this specific candidate currently has **zero supporting clinical trials** and **zero supporting literature** — it is a pure model-score signal with no external validation.
+Lidokaini on vakiintunut amidityyppiinen paikallispuudute, jota käytetään kliinisesti paikallisesti/alueellisesti anesteettisenä aineena (mukaan lukien oftalmologisissa toimenpiteissä, kuten tässä tarkasteltavasta näyttöpohjasta käy ilmi). TxGNN-mallin parhaiten sijoittuva ennuste on **pisteinäinen epiteelikeratokonjunktiviitti**, mutta tällä erityisellä ehdokkaalla ei ole tällä hetkellä **nolla kliinistä tutkimusta** ja **nolla tutkimuskirjallisuutta** — se on puhdas mallin pisteluku -signaali, jolla ei ole ulkoista validointia.
 
-## Quick Overview
+## Pikasilmäys
 
-| Item | Content |
-|------|------|
-| Original Indication | Local/regional anesthesia (established pharmacological use; no Finland-specific licensed indication text on file — drug not marketed) |
-| Predicted New Indication | Punctate Epithelial Keratoconjunctivitis |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L5 (model prediction only, no trials or literature) |
-| Finland Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Erä | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Paikallinen/alueellinen puudutus (vakiintunut farmakologinen käyttö; Suomeen ominaisen hyväksytyn indikaation teksti ei ole saatavilla — lääkettä ei markkinoida) |
+| Ennustettu uusi indikaatio | Pisteinäinen epiteelikeratokonjunktiviitti |
+| TxGNN-ennusteen pistemäärä | 99.99% |
+| Näyttötaso | L5 (vain mallin ennuste, tutkimuksia tai kirjallisuutta ei ole) |
+| Suomen markkinatilanne | Ei markkinoilla |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Pysäytys |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, detailed mechanism of action data is not available for lidocaine in this evidence pack. Based on the supporting materials that *are* present (drawn from other ranked candidates in the same pack), lidocaine is a sodium-channel-blocking local anesthetic with established ophthalmic use as a topical/subconjunctival anesthetic during ocular procedures (e.g., intravitreal injection, pterygium excision, cataract surgery).
+Tällä hetkellä yksityiskohtaista vaikutusmekanismin tietoa lidokaiiinista ei ole saatavilla tässä näyttöpaketissa. Olemassa olevien tukimateriaalien perusteella (kerätty samasta paketista muista ehdokkaista), lidokaini on natriumkanava-estävä paikallispuudute, jolla on vakiintunut oftalmologinen käyttö paikallisena/subkonjunktivaalisena puudutuksena silmäkirurgisissa toimenpiteissä (esim. intravitreaalinen injektio, pterygion poisto, kataraktaleikkaus).
 
-For the top-ranked candidate specifically, the evidence pack's own annotation states plainly: *"no clinical trial or literature evidence exists; this is a pure model prediction score."* Punctate epithelial keratoconjunctivitis is a corneal epithelial disorder (commonly viral, toxic, or dry-eye related in etiology), and no mechanistic pathway connecting lidocaine's anesthetic action to treating this condition is documented anywhere in the supplied data.
+Erityisesti parhaiten sijoittuneen ehdokkaan osalta näyttöpaketin omassa huomautuksessa todetaan selvästi: *"mitään kliinisen tutkimuksen tai kirjallisuuden näyttöä ei ole olemassa; tämä on puhdas mallin pisteluku -ennuste."* Pisteinäinen epiteelikeratokonjunktiviitti on sarveiskalvon epiteelisairaus (yleensä viraalinen, myrkyllinen tai kuiva silmä alkuperältään), eikä millään tavalla dokumentoidulla mekanismilla ole yhteyttä lidokaiiinin puuduttavan vaikutuksen ja tämän sairauden hoidon välillä.
 
-The only tangential plausibility argument is that lidocaine already has approved-formulation precedent for ocular surface application (ophthalmic gel/drops used peri-procedurally, seen in related candidates below), so a topical route would be technically feasible if a treatment rationale were ever established — but that rationale does not currently exist.
+Ainoa epäsuora uskottavuusargumentti on se, että lidokaiiinilla on jo hyväksytty muotoilu silmän pinnan soveltamiseen (oftalmologinen geeli/pisarat toimenpiteiden yhteydessä, kuten näkyy muista ehdokkaista), joten paikallinen reitti olisi teknisesti mahdollinen, jos hoitoperuste koskaan vahvistettaisiin — mutta sellaista perustaa ei tällä hetkellä ole olemassa.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-Currently no related clinical trials registered.
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-Currently no related literature available.
+Tällä hetkellä kirjallisuuden näyttöä ei ole saatavilla.
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-No Finland market authorizations on file — lidocaine is not currently marketed in Finland under this evidence pack (0 licenses).
+Suomen markkinoita koskevia lupia ei ole saatavilla — lidokaini ei ole tällä hetkellä markkinoilla Suomessa tämän näyttöpaketin perusteella (0 lupaa).
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information. (Note: TFDA/Fimea package-insert warnings and contraindications are a **Blocking** data gap — DG001 — and have not yet been retrieved.)
+Viittaa pakkausselosteeseen turvallisuustiedoista. (Huomautus: TFDA/Fimea pakkausselosteen varoitukset ja vasta-aiheet ovat **Estävä** tietoaukko — DG001 — eikä niitä ole vielä haettu.)
 
-## Other Screened Candidates (Ranks 2–10)
+## Muut seulotut ehdokkaat (Sijoitukset 2–10)
 
-For context, nine additional TxGNN-predicted indications were screened alongside the top candidate. Only one showed meaningful (non-score-only) support:
+Kontekstiin, yhdeksän muuta TxGNN:n ennustamaa indikaatiota seulottiin parhaiten sijoittuneen ehdokkaan rinnalla. Vain yksi osoitti merkitsevää (ei pelkkää pistelukua) tukea:
 
-| Rank | Disease | Score | Evidence Level | Stage | Note |
+| Sijoitus | Sairaus | Pistemäärä | Näyttötaso | Vaihe | Huomautus |
 |------|---------|-------|-----------------|-------|------|
-| 2 | Papillary conjunctivitis | 99.98% | L5 | S0 | No evidence |
-| 3 | Rosacea conjunctivitis | 99.92% | L5 | S0 | No evidence |
-| 4 | Exposure keratitis | 99.87% | L5 | S0 | 1 unrelated case-series (methamphetamine keratitis) |
-| 5 | Atopic conjunctivitis | 99.86% | L4 | S0 | Indirect mechanistic hint only (nasal anesthesia/lacrimal reflex study) |
-| 6 | Conjunctival disorder | 99.84% | L3 | S1 (Research Question) | Best-supported candidate — IV lidocaine literature for SUNCT/SUNA (trigeminal autonomic cephalalgia with conjunctival injection); most of its 18 trials reflect existing surgical-anesthesia use, not a new indication |
-| 7 | Nephrotic syndrome | 99.83% | L5 | S0 | Pharmacokinetic/safety literature only, not efficacy |
-| 8 | Non-human animal disease | 99.82% | L4 | S0 | Non-human disease label; primate seizure case report (safety signal, not efficacy) |
-| 9 | Tinea corporis | 99.82% | L5 | S0 | No mechanistic link to antifungal activity |
-| 10 | Steroid-resistant nephrotic syndrome | 99.79% | L5 | S0 | No evidence, no mechanistic hypothesis |
+| 2 | Papillaarinen konjunktiviitti | 99.98% | L5 | S0 | Ei näyttöä |
+| 3 | Rosacea-konjunktiviitti | 99.92% | L5 | S0 | Ei näyttöä |
+| 4 | Altistuskeratitis | 99.87% | L5 | S0 | 1 aiheeseen liittymätön tapaussarja (metamfetamiini-keratitis) |
+| 5 | Atooppinen konjunktiviitti | 99.86% | L4 | S0 | Vain epäsuora mekanistinen vihje (nenän puudutus/kyynelireflexi-tutkimus) |
+| 6 | Konjunktivaalinen häiriö | 99.84% | L3 | S1 (Tutkimuskysymys) | Parhaiten tuettu ehdokas — IV-lidokaini-kirjallisuus SUNCT/SUNA:sta (trigeminaaliautonomiset kefalalgiat konjunktivaalisella injektiolla); suurin osa sen 18 tutkimuksesta heijastaa olemassa olevaa kirurgian-anestesian käyttöä, ei uutta indikaatiota |
+| 7 | Nefroottinen oireyhtymä | 99.83% | L5 | S0 | Vain farmakokineettiset/turvallisuuskirjallisuus, ei tehokkuus |
+| 8 | Ei-inhimillinen eläinsairaus | 99.82% | L4 | S0 | Ei-inhimillinen sairaus -merkintä; primaattikohtainen kuumeen tapaus (turvallisuussignaali, ei tehokkuus) |
+| 9 | Kehonsieni | 99.82% | L5 | S0 | Ei mekaanista yhteyttä antifungaaliseen toimintaan |
+| 10 | Steroidiresistentti nefroottinen oireyhtymä | 99.79% | L5 | S0 | Ei näyttöä, ei mekanistista hypoteesia |
 
-If pursuing this drug further, **rank 6 (conjunctival disorder / SUNCT-SUNA)** is the more defensible research direction, not the top-ranked candidate reported above.
+Jos halutaan jatkaa tämän lääkkeen tutkimusta, **sijoitus 6 (konjunktivaalinen häiriö / SUNCT-SUNA)** on puolustettavampi tutkimussuunta, ei edellä raportoitu parhaiten sijoittunut ehdokas.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pysäytys**
 
-**Rationale:**
-The top-ranked predicted indication (punctate epithelial keratoconjunctivitis) is supported by a TxGNN score alone, with no clinical trials, no literature, and no mechanistic rationale in the evidence pack — this does not meet even the minimum bar for a Research Question stage (S1).
+**Perustelut:**
+Parhaiten sijoittuneen ennustetun indikaation (pisteinäinen epiteelikeratokonjunktiviitti) tueksi on vain TxGNN-pisteluku, ilman kliinisiä tutkimuksia, ilman kirjallisuutta ja ilman mekanistista perustetta näyttöpaketissa — tämä ei täytä edes vähimmäisvaatimusta Tutkimuskysymys-vaiheelle (S1).
 
-**To proceed, the following is needed:**
-- Direct preclinical or mechanistic studies linking lidocaine to punctate epithelial keratoconjunctivitis
-- TFDA/Fimea package insert data (warnings, contraindications) — currently Blocking gap (DG001)
-- DrugBank mechanism-of-action detail — currently High-severity gap (DG002)
-- Consider re-scoping evaluation to rank 6 ("conjunctival disorder," specifically the SUNCT/SUNA signal), which has the only L3/S1-level evidence in this pack
+**Jatkamiseksi tarvitaan seuraavaa:**
+- Suorat prekliiniset tai mekanistiset tutkimukset, jotka yhdistävät lidokaiiinin pisteinäiseen epiteelikeratokonjunktiviittin
+- TFDA/Fimea pakkausselosteen tiedot (varoitukset, vasta-aiheet) — tällä hetkellä estävä aukko (DG001)
+- DrugBank vaikutusmekanismin yksityiskohdat — tällä hetkellä korkean vakavuuden aukko (DG002)
+- Harkitse uudelleenalueistamista sijoitukseen 6 ("konjunktivaalinen häiriö", erityisesti SUNCT/SUNA-signaalin), jolla on ainoa L3/S1-tason näyttö tässä paketissa
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

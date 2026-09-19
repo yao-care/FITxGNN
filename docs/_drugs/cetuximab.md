@@ -29,73 +29,74 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Cetuximab: From Original Indication Not Reported to Bronchial Adenomas/Carcinoids, Childhood
+# Setuximabi: raportoimattomasta alkuperäisestä indikaatiosta lasten keuhkoputkien adenoomeihin/karsinoideihin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Cetuximab is an anti-EGFR monoclonal antibody (per the model's own annotation); this evidence pack does not record its formally approved original indication or detailed mechanism of action. TxGNN's top-ranked prediction is **Bronchial Adenomas/Carcinoids, Childhood**, but this pairing is supported by **0 clinical trials** and **0 publications** — the pack's own rationale states the score reflects graph-similarity inference only, with no EGFR-driven mechanism demonstrated in this pediatric rare tumor.
+Setuximabi on EGFR:ia vastaan suuntautuva monoklonaalinen vasta-aine (mallin omien merkintöjen mukaan); tämä todistepaketti ei kirjaa sen muodollisesti hyväksyttyä alkuperäistä indikaatiota tai yksityiskohtaista vaikutusmekanismia. TxGNN:n korkeimmin sijoittuva ennuste on **Lasten keuhkoputkien adenoomat/karsinoidit**, mutta tätä yhdistelmää tukee **0 kliinistä tutkimusta** ja **0 julkaisua** — paketin omassa perustelussa todetaan, että pistemäärä heijastaa vain graafin samankaltaisuuden päättelyä, eikä EGFR-ohjattua mekanismia ole osoitettu tässä pediatrisessa harvinaisessa kasvaintyypissä.
 
-## Quick Overview
+## Pikakatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Not reported in this evidence pack (data gap) |
-| Predicted New Indication | Bronchial Adenomas/Carcinoids, Childhood |
-| TxGNN Prediction Score | 99.95% |
-| Evidence Level | L5 |
-| Finland Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohde | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Ei raportoitu tässä todistepakettissa (tietojen puuttuminen) |
+| Ennustettu uusi indikaatio | Lasten keuhkoputkien adenoomat/karsinoidit |
+| TxGNN:n ennustepistemäärä | 99.95% |
+| Todistustaso | L5 |
+| Suomen markkinatilanne | Ei markkinoilla |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Odota |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, detailed mechanism of action data is not available from DrugBank in this pack (flagged as data gap DG002, High severity). Based on the model's own rationale annotations, cetuximab is known to be an anti-EGFR (epidermal growth factor receptor) monoclonal antibody.
+Yksityiskohtaisia vaikutusmekanismin tietoja ei ole tällä hetkellä saatavilla tästä pakettista DrugBank-lähteestä (merkitty tietojen puuttumiseksi DG002, korkea vakavuus). Mallin omien perustelumerkintöjen perusteella setuximabi tunnetaan EGFR:ia (epidermaalisen kasvutekijän reseptori) vastaan suuntautuvaksi monoklonaaliksi vasta-aineeksi.
 
-No original indication data is populated in this pack, so the relationship between cetuximab's established use and this predicted indication cannot be assessed here.
+Alkuperäisen indikaation tietoja ei ole tässä paketissa, joten setuximabin vakiintuneen käytön ja tämän ennustetun indikaation välistä suhdetta ei voida arvioida täällä.
 
-Critically, the pack's own repurposing rationale for this top-ranked prediction states plainly that **no EGFR-driven pathology has been reported** for bronchial adenomas/carcinoids in children, and that the high TxGNN score reflects knowledge-graph similarity inference rather than any clinical or mechanistic support. This prediction should therefore be treated as hypothesis-generating only, not as a signal with biological plausibility established.
+Kriittisesti, paketin omassa perustelussa todetaan selvästi, että **EGFR-ohjattua patologiaa ei ole raportoitu** lasten keuhkoputkien adenoomeissa/karsinoideissa, ja että korkea TxGNN-pistemäärä heijastaa tietoverkkojen samankaltaisuuden päättelyä eikä mitään kliinistä tai mekanistista tukea. Tämä ennuste tulisi siten käsitellä vain hypoteesia luovana, ei biologisen uskottavuuden osoittajana.
 
-## Clinical Trial Evidence
+## Kliiniset tutkimusnäytöt
 
-Currently no related clinical trials registered.
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
 
-## Literature Evidence
+## Kirjallisuuden näytöt
 
-Currently no related literature available.
+Tällä hetkellä ei ole saatavilla asiaan liittyviä kirjallisuuden näyttöjä.
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Cetuximab is not marketed in this jurisdiction per this evidence pack — market status "Not marketed" (Not Marketed), with 0 total authorizations on record. No license entries are available to tabulate.
+Setuximabi ei ole markkinoilla tässä lainkäyttöalueella tämän todistepaketin mukaan — markkinatilanne "Ei markkinoilla" (Ei markkinoilla), jossa on 0 lupaa yhteensä tietueilla. Lupamerkintöjä ei ole saatavilla taulukointia varten.
 
-## Cytotoxicity
+## Sytotoksisuus
 
-Cetuximab is an antineoplastic agent (anti-EGFR monoclonal antibody, used across this pack's evidence in combination with cytotoxic chemotherapy regimens such as FOLFOX and cisplatin).
+Setuximabi on antineoplastinen aine (EGFR:ia vastaan suuntautuva monoklonaalinen vasta-aine, jota käytetään koko tämän todistepaketin näytössä yhdessä sytotoksisten kemoterapiakaavioiden kanssa, kuten FOLFOX ja sisplatiini).
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (anti-EGFR monoclonal antibody) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| Kohde | Sisältö |
+|------|---------|
+| Sytotoksisuuden luokitus | Kohdistettu lääkehoito (EGFR:ia vastaan suuntautuva monoklonaalinen vasta-aine) |
+| Luuydintukahduttava riski | Katso pakkausselostetta varoituksissa ja varotoimissa |
+| Pahoinvointipotentiaali | Katso pakkausselostetta varoituksissa ja varotoimissa |
+| Seurantakohteet | Katso pakkausselostetta varoituksissa ja varotoimissa |
+| Käsittelyturvallisuus | Katso pakkausselostetta varoituksissa ja varotoimissa |
 
-## Safety Considerations
+## Turvallisuushuomiot
 
-Please refer to the package insert for safety information.
+Katso pakkausselostetta turvallisuustiedoissa.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Odota**
 
-**Rationale:**
-The top-ranked TxGNN prediction (Bronchial Adenomas/Carcinoids, Childhood) has zero supporting clinical trials or literature, and the model's own mechanistic rationale explicitly disclaims any EGFR-driven biological plausibility for this pairing — the score is a pure graph-embedding artifact.
+**Perustelut:**
+Korkeimmin sijoittuva TxGNN-ennuste (Lasten keuhkoputkien adenoomat/karsinoidit) ei ole tuettu millään kliinisillä tutkimuksilla tai kirjallisuudella, ja mallin mekanistiset perustelut selvästi kieltävät EGFR-ohjatun biologisen uskottavuuden tälle yhdistelmälle — pistemäärä on puhdas graafin upotusten artefakti.
 
-**To proceed, the following is needed:**
-- TFDA package insert data (DG001, Blocking — currently prevents any S1 safety screening)
-- DrugBank-sourced mechanism of action and original approved indications (DG002)
-- At minimum, preclinical/mechanistic evidence establishing EGFR expression or dependency in pediatric bronchial adenomas/carcinoids before this candidate can move beyond S0
+**Jotta voitaisiin edetä, seuraavat tiedot ovat välttämättömiä:**
+- TFDA pakkausseloste tiedot (DG001, Estävä — tällä hetkellä estää kaikki S1 turvallisuuden seulonta)
+- DrugBank-lähteestä peräisin olevat vaikutusmekanismin ja alkuperäisten hyväksyttyjen indikaatioiden tiedot (DG002)
+- Ainakin prekliiniset/mekanistiset näytöt, jotka osoittavat EGFR-ekspression tai riippuvuuden lasten keuhkoputkien adenoomeissa/karsinoideissa, ennen kuin tämä kandidaatti voi siirtyä S0:n yli
 
-**Note:** Within this same evidence pack, other ranked candidates for cetuximab carry substantially stronger evidence — notably rank 8 "cystic neoplasm" and rank 10 "pre-malignant neoplasm" (both L2, S2, backed by Phase 2/3 trials including a completed n=987 Phase 3 in HPV-associated oropharynx cancer). Those may warrant a separate, dedicated evaluation report rather than further investment in the rank-1 candidate assessed here.
+**Huomio:** Tässä samassa todistepakettissa muut setuximabin ehdokkaat sisältävät huomattavasti vahvempia näyttöjä — erityisesti sijoitus 8 "kystinen neoplasma" ja sijoitus 10 "premaligna neoplasma" (molemmat L2, S2, tuettuja 2/3-vaiheen tutkimuksilla, mukaan lukien valmistunut n=987 3-vaiheen tutkimus HPV-yhdistetyssä orofaryngiaalisessa syövässä). Nämä saattavat oikeuttaa erillisen, kohdistetun arviointiraportin sen sijaan, että jatkettaisiin panostusta tässä arvioidussa sijoitus-1 kandidaatissa.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

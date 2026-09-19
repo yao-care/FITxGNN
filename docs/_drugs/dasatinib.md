@@ -29,84 +29,85 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Dasatinib: From Chronic Myeloid Leukemia to Ewing Sarcoma
+# Dasatinibi: Kroonisesta myeloidileukemiasta Ewingin sarkooma
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Dasatinib is a second-generation tyrosine kinase inhibitor established for chronic myeloid leukemia (CML) and Philadelphia chromosome-positive acute lymphoblastic leukemia (Ph+ ALL). The TxGNN model's top prediction is that it may also be effective in **Ewing Sarcoma**, with **3 clinical trials** and **9 publications** currently identified, though the mechanistic rationale (SRC/FAK pathway inhibition) is stronger than the clinical evidence, which remains largely preclinical and non-disease-specific.
+Dasatinibi on toisen sukupolven tyrosiinikinaasi-inhibiittori, joka on hyväksytty kroonisen myeloidileukemian (CML) ja Philadelphian-kromosomin positiivisen akuutin lymfoblastisen leukemian (Ph+ ALL) hoitoon. TxGNN-mallin pääennuste on, että se saattaa olla tehokas myös **Ewingin sarkooma**ssa, ja siitä on tunnistettu tällä hetkellä **3 kliinistä tutkimusta** ja **9 julkaisua**, vaikka mekanistinen perustelu (SRC/FAK-signalointipolun estäminen) on vahvempi kuin kliininen näyttö, joka pysyy suurelta osin prekliinisenä ja ei-tautikohtaisena.
 
-> **Note on model validation:** TxGNN's rank-2 prediction for dasatinib is "myeloid leukemia" — which is not a new indication but dasatinib's *original*, already-approved use (confirmed by the DASISION trial, PMID 27217448, in this same evidence pack). This is a useful sanity check: the model correctly recovers a known true positive, which lends some circumstantial credibility to its ranking of Ewing sarcoma, but does not substitute for disease-specific validation.
+> **Huomio mallin validoinnista:** TxGNN:n rank-2-ennuste dasatiinille on "myeloidileukemia" — mikä ei ole uusi indikaatio vaan dasatinibin *alkuperäinen*, jo hyväksytty käyttötarkoitus (vahvistettu DASISION-tutkimuksella, PMID 27217448, tässä samassa näyttöpaketissa). Tämä on hyödyllinen järkevyyden tarkistus: malli palauttaa oikein tunnetun todellisen positiivisen tuloksen, mikä antaa epäsuorasti uskottavuutta sen Ewingin sarkooman rankaukselle, mutta ei korvaa tautikohtaista validointia.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohde | Sisältö |
 |------|------|
-| Original Indication | Chronic myeloid leukemia (CML) / Ph+ ALL *(not present in the Taiwan/Finland regulatory dataset — drug is unmarketed there; based on globally established approved indications, corroborated by literature evidence in this pack)* |
-| Predicted New Indication | Ewing sarcoma |
-| TxGNN Prediction Score | 99.90% (rank 1502) |
-| Evidence Level | L3 |
-| Finland Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen indikaatio | Krooninen myeloidileukemia (CML) / Ph+ ALL *(ei ole läsnä Taiwan/Suomen sääntelyaineistossa — lääke ei ole markkinoilla siellä; perustuu globaalisti vahvistettuihin hyväksyttyihin käyttötarkoituksiin, joita tämän näyttöpaketin kirjallisuus tukee)* |
+| Ennustettu uusi indikaatio | Ewingin sarkooma |
+| TxGNN-ennusteen pistemäärä | 99.90% (rank 1502) |
+| Näytön taso | L3 |
+| Suomen markkinatilanne | ✗ Ei markkinoilla |
+| Hyväksynnän määrä | 0 |
+| Suositeltu päätös | Odota |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, detailed mechanism of action data is not available (Data Gap, High severity). Based on known information, dasatinib is a multi-target kinase inhibitor originally developed for BCR-ABL–driven leukemias, and its efficacy in chronic myeloid leukemia and Ph+ ALL is well established and mechanistically may extend beyond hematologic malignancy given its activity against SRC-family kinases, c-KIT, and PDGFR-β.
+Tällä hetkellä yksityiskohtaista toimintamekanismin tietoa ei ole saatavilla (tietoaukko, korkea vakavuus). Tunnetun tiedon perusteella dasatinibi on monikohteinen kinaasi-inhibiittori, joka alun perin kehitettiin BCR-ABL-ohjattujen leukemioiden hoitoon, ja sen teho kroonisessa myeloidileukemiassa ja Ph+ ALL:ssa on hyvin vakiintunut ja mekanistisesti se saattaa olla tehokas myös hematopoieettisten kasvainten ulkopuolella sen aktiivisuuden vuoksi SRC-perhekinaasin, c-KIT:n ja PDGFR-β:n vastaisesti.
 
-Ewing sarcoma is biologically distinct from CML — it is a bone/soft-tissue sarcoma of neuroectodermal origin driven by the EWSR1-FLI1 fusion oncogene, not by BCR-ABL. There is therefore no shared disease lineage with dasatinib's original indication; the rationale instead rests entirely on a shared downstream molecular target rather than a shared tumor origin.
+Ewingin sarkooma on biologisesti selvästi erillään CML:stä — se on luun/pehmeän kudoksen sarkoomia neuroektodermaalista alkuperää, jota ohjaa EWSR1-FLI1-fuusiogeeni, ei BCR-ABL. Siksi sillä ei ole jaettu sairauden perimää dasatinibin alkuperäisen indikaation kanssa; perustelu sen sijaan perustuu kokonaan jaettuun alasvirran molekyylikohteeseen eikä jaettuun tumorin alkuperään.
 
-Mechanistically, Ewing sarcoma cell invasion and metastasis are highly dependent on SRC/FAK signaling. Dasatinib, as a potent SRC-family kinase inhibitor, has been shown in vitro to suppress migration/invasion and induce apoptosis in Ewing sarcoma cell lines. However, this is an indirect mechanistic link (inhibiting a downstream signaling node) rather than a direct hit on the disease's driver oncogene, and single-agent dasatinib has previously underperformed in a Phase 2 basket trial for sarcomas including Ewing sarcoma — suggesting any future clinical benefit would likely require combination strategies rather than monotherapy.
+Mekanistisesti Ewingin sarkooman solujen invaasiota ja metastaasiota ohjaa vahvasti SRC/FAK-signalointi. Dasatinibi, voimakkaana SRC-perhekinaasin estäjänä, on osoitettu in vitro -kokeissa tukahduttavan migraatiota/invaasiota ja aiheuttavan apoptoosia Ewingin sarkooman solulinjoissa. Tämä on kuitenkin epäsuora mekanistinen yhteys (alavirtaan signaloinnin solmun estäminen) eikä suora osuma taudin ohjaajageeniin, ja yksittäin annettu dasatinibi on aiemmin alitoiminut Phase 2:n korisarja-tutkimuksessa, joka sisälsi Ewingin sarkooman — mikä viittaa siihen, että mahdollinen tulevaisuuden kliininen hyöty vaatisi todennäköisesti yhdistelmästrategioita yksittäisagenttihoidon sijasta.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimusnumero | Vaihe | Tilanne | Osallistujamäärä | Tärkeimmät löydökset |
 |---------|------|------|------|---------|
-| [NCT00788125](https://clinicaltrials.gov/study/NCT00788125) | Phase 1/2 | Terminated | 7 | Pediatric trial of dasatinib combined with ifosfamide, carboplatin, and etoposide in Ewing sarcoma and related tumors; trial terminated, and the small sample size (n=7) sharply limits any conclusions. |
-| [NCT00464620](https://clinicaltrials.gov/study/NCT00464620) | Phase 2 | Completed | 366 | Basket trial of single-agent dasatinib across advanced sarcomas (response rate, 6-month PFS); Ewing sarcoma was one of several subtypes enrolled, not a dedicated disease-specific design — subgroup results for Ewing sarcoma specifically were not reported here. |
-| [NCT06500819](https://clinicaltrials.gov/study/NCT06500819) | Phase 1 | Recruiting | 41 | Trial of B7-H3 CAR-T cell therapy (not dasatinib) in pediatric/young-adult relapsed/refractory solid tumors; overlaps only in disease population, not in study drug. |
+| [NCT00788125](https://clinicaltrials.gov/study/NCT00788125) | Phase 1/2 | Lopetettu | 7 | Ewingin sarkooman ja siihen liittyvien kasvainten hoitoon tarkoitettu dasatinibin ja ifosfamidi-, karboplatiini- ja etopositiidiyhdistelmällä toteutettu pediatrinen tutkimus; tutkimus lopetettiin, ja pieni otoskoko (n=7) rajoittaa johtopäätöksien tekemistä merkittävästi. |
+| [NCT00464620](https://clinicaltrials.gov/study/NCT00464620) | Phase 2 | Valmistunut | 366 | Yksittäisen dasatinibin korisarja-tutkimus edistyneissä sarkoomeissa (vasteen esiintyminen, 6 kuukauden PFS); Ewingin sarkooma oli yksi useista sisällytetyistä alatyypeistä, ei tautispesifinen suunnittelu — Ewingin sarkooman erityisiä alaotostuloksia ei raportoitu täällä. |
+| [NCT06500819](https://clinicaltrials.gov/study/NCT06500819) | Phase 1 | Rekrytoi | 41 | B7-H3 CAR-T-soluterapiatutkimus (ei dasatinibi) pediatrisissa/nuoren aikuisuuden uusiutuneissa/refraktaarisissa kiinteissä kasvaimissa; päällekkäinen vain sairauspopulaation osalta, ei tutkimuslääkkeen osalta. |
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät löydökset |
 |------|-----|------|------|---------|
-| [35190971](https://pubmed.ncbi.nlm.nih.gov/35190971/) | 2022 | Review | Curr Treat Options Oncol | Review of systemic therapy for chondrosarcoma; tangential to Ewing sarcoma, likely surfaced via cross-sarcoma search overlap. |
-| [26170970](https://pubmed.ncbi.nlm.nih.gov/26170970/) | 2015 | Review | Oncology Letters | Reviews the role of Src signaling across sarcoma biology, supporting Src as a plausible therapeutic target class. |
-| [17363602](https://pubmed.ncbi.nlm.nih.gov/17363602/) | 2007 | Preclinical (in vitro) | Cancer Research | Dasatinib inhibits migration/invasion across diverse sarcoma cell lines and induces apoptosis in Src-dependent bone sarcoma cells. |
-| [35655525](https://pubmed.ncbi.nlm.nih.gov/35655525/) | 2022 | Preclinical | Sarcoma | Studies FAK-Src complex targeting in DSRCT, Ewing sarcoma, and rhabdomyosarcoma; notes single-agent dasatinib previously failed in a Phase 2 trial for these subtypes, motivating combination approaches. |
-| [18202781](https://pubmed.ncbi.nlm.nih.gov/18202781/) | 2008 | Preclinical (in vitro) | Oncology Reports | Dasatinib shows antiproliferative and antimigratory activity in neuroblastoma and Ewing sarcoma cell lines, linked to c-KIT/PDGFR inhibition. |
-| [31521948](https://pubmed.ncbi.nlm.nih.gov/31521948/) | 2019 | Preclinical | Neoplasia | Tenascin C and Src cooperate to drive invadopodia formation and metastatic invasion in Ewing sarcoma. |
-| [27566104](https://pubmed.ncbi.nlm.nih.gov/27566104/) | 2016 | Preclinical (in vitro) | Neoplasia | Microenvironmental stress induces Src-dependent invadopodia activation and cell migration in Ewing sarcoma. |
-| [29776413](https://pubmed.ncbi.nlm.nih.gov/29776413/) | 2018 | Preclinical (different agent: plerixafor) | Cell Commun Signal | CXCR4 antagonist plerixafor (not dasatinib) promotes Ewing sarcoma proliferation via receptor tyrosine kinase signaling; included through disease-overlap search, not a dasatinib study. |
-| [32999666](https://pubmed.ncbi.nlm.nih.gov/32999666/) | 2020 | Case report | Case Reports in Oncology | Describes a rare chromosomal abnormality in CML blast crisis; not related to Ewing sarcoma — likely a search mismatch. |
+| [35190971](https://pubmed.ncbi.nlm.nih.gov/35190971/) | 2022 | Katsaus | Curr Treat Options Oncol | Kondrosarkooman systeemisen hoidon katsaus; sivuava suhteessa Ewingin sarkoomaan, todennäköisesti löydetty sarkoomatyyppien välisen haun päällekkäisyyden kautta. |
+| [26170970](https://pubmed.ncbi.nlm.nih.gov/26170970/) | 2015 | Katsaus | Oncology Letters | Src-signaloinnin rooli sarkooman biologiassa; tukee Src:ia mahdollisena terapeuttisen kohdeluokkana. |
+| [17363602](https://pubmed.ncbi.nlm.nih.gov/17363602/) | 2007 | Prekliininen (in vitro) | Cancer Research | Dasatinibi estää migraatiota/invaasiota useissa sarkooman solulinjoissa ja aiheuttaa apoptoosia Src-riippuvaisissa luusarkooman soluissa. |
+| [35655525](https://pubmed.ncbi.nlm.nih.gov/35655525/) | 2022 | Prekliininen | Sarcoma | Tutkii FAK-Src-kompleksin kohdintamista DSRCT:ssa, Ewingin sarkoomassa ja rabdomyosarkoomassa; huomioidaan, että yksittäinen dasatinibi epäonnistui aiemmin Phase 2 -tutkimuksessa näille alatyypeille, mikä motivoi yhdistelmälähestymistapoja. |
+| [18202781](https://pubmed.ncbi.nlm.nih.gov/18202781/) | 2008 | Prekliininen (in vitro) | Oncology Reports | Dasatinibi osoittaa antiproliferatiivista ja antimimigratiivista aktiviteettiä neuroblastoomassa ja Ewingin sarkoomassa solulinjoissa, yhdistetty c-KIT/PDGFR-estoon. |
+| [31521948](https://pubmed.ncbi.nlm.nih.gov/31521948/) | 2019 | Prekliininen | Neoplasia | Tenaskiini C ja Src yhteistoiminnassa ajavat invadopodian muodostumista ja metastaattista invaasiota Ewingin sarkoomassa. |
+| [27566104](https://pubmed.ncbi.nlm.nih.gov/27566104/) | 2016 | Prekliininen (in vitro) | Neoplasia | Mikro-ympäristön stressi indusoi Src-riippuvaista invadopodian aktivoitumista ja solun migraatiota Ewingin sarkoomassa. |
+| [29776413](https://pubmed.ncbi.nlm.nih.gov/29776413/) | 2018 | Prekliininen (eri aine: plerixafor) | Cell Commun Signal | CXCR4-antagonisti plerixafor (ei dasatinibi) edistää Ewingin sarkooman proliferaatiota reseptori-tyrosiinikinaasi-signaloinnin kautta; sisällytetty taudin päällekkäiseen hakuun, ei dasatinibi-tutkimus. |
+| [32999666](https://pubmed.ncbi.nlm.nih.gov/32999666/) | 2020 | Potilastapauskertomus | Case Reports in Oncology | Kuvaa harvinaista kromosomaalipoikkeavuutta CML:n blastikriisissä; ei liity Ewingin sarkoomaan — todennäköisesti hakuvirhe. |
 
-## Cytotoxicity
+## Sytoktoksisuus
 
-Dasatinib is an antineoplastic agent (tyrosine kinase inhibitor class), so this section applies. Note: TFDA/regulatory label data for dasatinib is a **Blocking** data gap in this evidence pack (no package insert available), so the items below draw on the drug class and on safety signals present in this evidence pack's literature rather than an official label — they should not substitute for label review.
+Dasatinibi on antineoplasminen aine (tyrosiinikinaasi-inhibiittoriluokka), joten tämä osio pätee. Huomio: TFDA:n/sääntelyasetuksen pakkausselostetiedot dasatiinille ovat **estävä** tietoaukko tässä näyttöpaketissa (pakkausselosteita ei ole saatavilla), joten alla olevat tiedot perustuvat lääkeluokkaan ja tässä näyttöpaketissa oleviin turvallisuussignaaleihin eikä viralliseen merkintään — ne eivät korvaa merkinnän tarkistamista.
 
-| Item | Content |
+| Kohde | Sisältö |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy — second-generation multi-target tyrosine kinase inhibitor (BCR-ABL, SRC-family, c-KIT, PDGFR-β) |
-| Myelosuppression Risk | Moderate–High — cytopenias (including thrombocytopenia) are a recognized class effect of dasatinib and other BCR-ABL TKIs (e.g., a dedicated trial investigated IL-11 for TKI-associated thrombocytopenia, NCT00493181); routine hematologic monitoring is warranted |
-| Emetogenicity Classification | Low (oral targeted therapy, not conventional cytotoxic chemotherapy) |
-| Monitoring Items | CBC with differential, liver function, and pulmonary/pleural status — literature in this evidence pack documents dasatinib-associated pleural effusion/chylothorax and interstitial pneumonitis as class-relevant adverse events |
-| Handling Protection | Oral hazardous/antineoplastic agent — institutional hazardous drug handling precautions apply; formal TFDA label warnings are pending (Blocking data gap) |
+| Sytoktoksisuuden luokitus | Kohdennettu terapia — toisen sukupolven monikohteinen tyrosiinikinaasi-inhibiittori (BCR-ABL, SRC-perhe, c-KIT, PDGFR-β) |
+| Luuydinsuppression riski | Kohtalainen–Korkea — sytopeniat (mukaan lukien trombosytopenia) ovat dasatinibin ja muiden BCR-ABL TKI:iden tunnettu luokkavaikutus (esim. erityinen tutkimus tutki IL-11:ää TKI-liittyvään trombosytopeniaan, NCT00493181); säännöllinen hematologlinen seuranta on perusteltua |
+| Pahoinvointiherkkyyden luokitus | Matala (suun kautta annettava kohdennettu terapia, ei tavanomainen sytotoksinen kemikaali) |
+| Seuranta-asiat | Täydellinen verenkuva erottelulla, maksan toiminta ja keuhko-/pleurastatukselle — tämän näyttöpaketin kirjallisuus dokumentoi dasatinibiin liittyvää pleuraefuusiota/kylotraksea ja interstiisin pneumoniittia luokkarelevantteina haittavaikutuksina |
+| Käsittelysuoja | Suun kautta otettava vaarallinen/antineoplasminen aine — laitoksen vaarallisten lääkkeiden käsittelystandardit pätevät; virallinen TFDA-merkinnän varoitus on vireillä (estävä tietoaukko) |
 
-## Safety Considerations
+## Turvallisuusnäkökulmat
 
-Please refer to the package insert for safety information. TFDA label warnings, contraindications, and drug-drug interaction data are currently unavailable (Blocking data gap — DG001), so no structured safety data from this evidence pack can be cited here.
+Ole hyvä ja katso pakkausselosteesta turvallisuustiedot. TFDA:n merkinnän varoitukset, kontraindikaatiot ja lääkeaineiden väliset vuorovaikutusdata eivät ole saatavilla (Estävä tietoaukko — DG001), joten yhtään strukturoitua turvallisuustietoa tästä näyttöpaketista ei voida siteerata täällä.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Odota**
 
-**Rationale:**
-The mechanistic rationale (SRC/FAK-pathway dependence in Ewing sarcoma) is plausible, but clinical support is weak — the only disease-related trial with meaningful enrollment (NCT00464620) is a non-disease-specific sarcoma basket trial, and the one Ewing-sarcoma–focused trial was terminated at n=7. Combined with a Blocking data gap on TFDA safety/label information (which prevents even an initial S1 safety assessment) and the drug being unmarketed in Finland, there is insufficient basis to proceed at this time.
+**Perustelut:**
+Mekanistinen perustelu (SRC/FAK-signalointipolkuriippuvuus Ewingin sarkoomassa) on uskottava, mutta kliininen tuki on heikko — ainoa merkityksellisen ilmoittautumismäärän omaava tautispesifinen tutkimus (NCT00464620) on ei-tautispesifinen sarcoma-korisarja-tutkimus, ja ainoa Ewingin sarkooman-kohdistettu tutkimus lopetettiin n=7:llä. Yhdessä estävän tietoaukon kanssa TFDA:n turvallisuus/merkintätiedoista (mikä estää jopa alkuperäisen S1-turvallisuusarvioinnin) ja lääkkeen ollessa markkinoimatta Suomessa, tälle ei ole riittävää perustaa jatkaa tällä hetkellä.
 
-**To proceed, the following is needed:**
-- TFDA/regulatory package insert data (warnings, contraindications, DDI) to clear the Blocking safety gap
-- Confirmed mechanism-of-action data from DrugBank
-- Ewing-sarcoma-specific subgroup results from NCT00464620 (the completed Phase 2 basket trial)
-- Any updated combination-therapy trial data, since single-agent dasatinib has previously underperformed in sarcoma trials
+**Jatkamista varten tarvitaan seuraavat asiat:**
+- TFDA:n/sääntelyasetuksen pakkausseloste (varoitukset, kontraindikaatiot, DDI) estävän turvallisuusaukon ratkaisemiseksi
+- Vahvistettu toimintamekanismidata DrugBankista
+- Ewingin sarkooman-spesifeistä alaotostulokset NCT00464620:stä (valmistunut Phase 2 -korisarja-tutkimus)
+- Kaikki päivitetyt yhdistelmähoitotutkimukset, koska yksittäinen dasatinibi on aiemmin alitoiminut sarkoomatutkimuksissa
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

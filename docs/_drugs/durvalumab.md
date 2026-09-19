@@ -29,75 +29,76 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Durvalumab: An Anti-PD-L1 Checkpoint Inhibitor — Predicted New Indication: Prostatic Urethra Urothelial Carcinoma
+# Durvalumab: Anti-PD-L1 pistokkeen estäjä — Ennustettu uusi käyttöaihe: Prostataan kuuluvan virtsaputken uroteliaalikarsinooma
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Durvalumab is an anti-PD-L1 monoclonal antibody (immune checkpoint inhibitor); this evidence pack does not document its original approved indication or detailed mechanism of action data, and the drug is currently not marketed in Finland.
-The TxGNN model's top-ranked prediction is **Prostatic Urethra Urothelial Carcinoma** (score 99.98%), but this specific prediction is currently supported by **no clinical trials and no literature** — it is a model-only hypothesis.
-Note: among the 10 candidates in this pack, two other urothelial/gynecologic-carcinoma indications (ranks 3 and 6) do have supporting trial and/or literature evidence — see the Conclusion for details.
+Durvalumab on anti-PD-L1 monoklonaalinen vasta-aine (immuunisen pistokkeen estäjä); tämä näyttöpaketti ei dokumentoi sen alkuperäistä hyväksyttyä käyttöaihetta tai yksityiskohtaisia toimintamekanismikohtaisia tietoja, ja lääke ei ole tällä hetkellä markkinoilla Suomessa.
+TxGNN-mallin parhaiten rankattu ennuste on **Prostataan kuuluvan virtsaputken uroteliaalikarsinooma** (pistemäärä 99,98 %), mutta tätä erityistä ennustetta ei tällä hetkellä tueta klinisillä tutkimuksilla tai kirjallisuudella — se on pelkkä mallin hypoteesi.
+Huomio: tämän paketin 10 ehdokkaasta kahdella muulla virtsateisiin/naisten sukupuolielimiin liittyvällä karsinooma-indikaatiolla (sijoitus 3 ja 6) on tutkimus- ja/tai kirjallisuustodisteita — katso johtopäätös yksityiskohtaisesti.
 
-## Quick Overview
+## Pika-yhteenveto
 
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in this evidence pack (`original_indications` empty; Finland has 0 licenses on file) |
-| Predicted New Indication | Prostatic Urethra Urothelial Carcinoma |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L5 (model prediction only, no trials or literature) |
-| Finland Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen käyttöaihe | Ei dokumentoitu tässä näyttöpaketissa (`original_indications` tyhjä; Suomessa 0 lupaa tiedostossa) |
+| Ennustettu uusi käyttöaihe | Prostataan kuuluvan virtsaputken uroteliaalikarsinooma |
+| TxGNN-ennusteen pistemäärä | 99,98 % |
+| Näyttötaso | L5 (vain mallin ennuste, ei tutkimuksia tai kirjallisuutta) |
+| Suomen markkinatilanne | Ei markkinoilla (Ei markkinoilla) |
+| Lupien määrä | 0 |
+| Suositeltu päätös | Lykkää |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, detailed mechanism of action data is not available for durvalumab in this evidence pack (flagged as a High-severity data gap). Based on information present in the supporting rationale fields, durvalumab is an **anti-PD-L1 monoclonal antibody** that works by blocking the PD-1/PD-L1 checkpoint pathway, restoring T-cell mediated anti-tumor immune activity — a mechanism already established as a therapeutic strategy across several urothelial and immunogenic tumor types represented elsewhere in this same prediction set.
+Tällä hetkellä durvalumabille ei ole saatavilla yksityiskohtaisia toimintamekanismikohtaisia tietoja tässä näyttöpaketissa (merkitty korkeamman vakavuusasteen tietoraukoksi). Käytettävissä olevan tukiperustelujen kentän tietojen perusteella durvalumab on **anti-PD-L1 monoklonaalinen vasta-aine**, joka toimii estämällä PD-1/PD-L1 pistokkeen signalointireittiä ja palauttamalla T-solujen välityksellä tapahtuvaa anti-tuumori-immuuniaktiivisuutta — mekanismi, joka on jo osoittautunut hoitostrategiaksi useissa uroteleiaalisissa ja muissa immuunisissa tuumorityypeissä, jotka ovat edustettuina tässä samassa ennustejoukkossa muualla.
 
-Prostatic urethra urothelial carcinoma shares tissue origin with bladder and renal pelvis urothelial carcinoma — both part of the broader urothelial carcinoma family. The rationale for this specific prediction is a mechanistic extrapolation: because PD-L1 checkpoint blockade has known biological relevance in urothelial carcinoma generally, the model infers the same may hold for the prostatic urethra subtype.
+Prostataan kuuluva virtsaputken uroteliaalikarsinooma jakaa kudoksen alkuperän virtsarakko- ja munuaisen pyhvöksen uroteleialisten karsinoomien kanssa — molemmat ovat osa laajempaa uroteleaalista karsinooma-perhettä. Tämän erityisen ennusteen perusteluna on mekanistinen ekstrapolointi: koska PD-L1 pistokkeen esto on tunnetusti biologisesti merkityksellinen uroteleiaalisissa karsinoomanissa yleensä, malli päättelee että sama saattaa päteä myös prostataan kuuluvan virtsaputken alatyyppiin.
 
-However, this extrapolation is **not yet backed by any disease-specific trial or publication** — no clinicaltrials.gov, ICTRP, or PubMed record was found for durvalumab in prostatic urethra urothelial carcinoma specifically (query log IDs 5–7, all zero results). The mechanistic plausibility is inherited from the urothelial-carcinoma class as a whole rather than from direct evidence in this exact histologic subtype.
+Kuitenkin tämä ekstrapolointi ei ole **vielä tuettu minkään sairauden spesifisellä tutkimuksella tai julkaisulla** — yhtään clinicaltrials.gov-, ICTRP- tai PubMed-tietuetta ei löytynyt durvalumabista prostataan kuuluvassa virtsaputken uroteleiaalisessa karsinoomassa erityisesti (kyselylokin tunnukset 5–7, kaikki nolla tuloksia). Mekanistinen uskottavuus on peritty uroteleaalisen karsinoomaluokan kokonaisuudelta pikemminkin kuin suorilta todisteilta tässä tarkalleen määritellyssä histologisessa alatyyppissä.
 
-## Clinical Trial Evidence
+## Kliinisten tutkimusten näyttö
 
-Currently no related clinical trials registered.
+Tällä hetkellä ei ole aiheeseen liittyviä rekisteröityjä kliinisiä tutkimuksia.
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-Currently no related literature available.
+Tällä hetkellä ei ole aiheeseen liittyvää saatavilla olevaa kirjallisuutta.
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Durvalumab currently has no marketing authorization on file in Finland (`market_status`: Not marketed, `total_licenses`: 0). No product/dosage-form information is available.
+Durvalumabilla ei ole tällä hetkellä markkinointilupaa Suomessa (`market_status`: Ei markkinoilla, `total_licenses`: 0). Tuotetietoja tai annostusmuoto-informaatiota ei ole saatavilla.
 
-## Cytotoxicity
+## Sytostaattisyys
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Immunotherapy (anti-PD-L1 immune checkpoint inhibitor) — not a conventional cytotoxic chemotherapy agent |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| Kohta | Sisältö |
+|------|---------|
+| Sytostaattisyyden luokitus | Immunoterapia (anti-PD-L1 immuunisen pistokkeen estäjä) — ei tavanomainen sytostaattinen kemoterapiaaine |
+| Luuydinsuppression riski | Katso pakkausseloste, varoitukset ja varotoimet |
+| Pahoinvointiherkkyysluokitus | Katso pakkausseloste, varoitukset ja varotoimet |
+| Seurantakohteet | Katso pakkausseloste, varoitukset ja varotoimet |
+| Käsittelysuojaus | Katso pakkausseloste, varoitukset ja varotoimet |
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information.
+Katso pakkausseloste turvallisuustiedoista.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Lykkää**
 
-**Rationale:**
-The top-ranked predicted indication (prostatic urethra urothelial carcinoma) has evidence level L5 — a TxGNN model score with zero corroborating clinical trials or literature. In addition, package insert warnings/contraindications for durvalumab are flagged as a **Blocking** data gap (DG001), which by itself prevents this candidate from entering the S1 safety pre-assessment stage regardless of efficacy evidence.
+**Perustelut:**
+Parhaiten rankatulla ennustetulla käyttöaiheella (prostataan kuuluvan virtsaputken uroteliaalikarsinooma) on näyttötaso L5 — TxGNN-mallin pistemäärä, jolla ei ole yhtään vahvistavaa kliinistä tutkimusta tai kirjallisuutta. Lisäksi pakkausselosteeseen liittyvät varoitukset/vasta-aiheet durvalumabille on merkitty **Estäväksi** tietoraukoksi (DG001), joka itsessään estää tämän ehdokkaan siirtymisen S1-turvallisuuden esiarviointivaiheeseen riippumatta tehokkuustodisteista.
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert (warnings, contraindications) to clear the Blocking data gap (DG001) and enable S1 safety pre-assessment
-- Confirmed mechanism of action and original approved indication documentation (DG002)
-- Disease-specific preclinical or early clinical data for prostatic urethra urothelial carcinoma, since current support is mechanistic extrapolation only
+**Jotta voidaan edetä, tarvitaan seuraavaa:**
+- TFDA/Fimea-pakkausseloste (varoitukset, vasta-aiheet) estävän tietorako (DG001) selvittämiseksi ja S1-turvallisuuden esiarviointivaiheelle pääsemiseksi
+- Vahvistettu toimintamekanismi ja alkuperäisen hyväksytyn käyttöaihe-dokumentaatio (DG002)
+- Sairauden spesifinen prekliininen tai varhaisen vaiheen kliininen tieto prostataan kuuluvasta virtsaputken uroteleiaalisesta karsinoomasta, koska nykyinen tuki perustuu pelkästään mekanistiseen ekstrapolointiin
 
-**Note for prioritization:** two other candidates in this same prediction set have materially stronger evidence and may warrant separate evaluation ahead of this one:
-- **Infiltrating bladder urothelial carcinoma, sarcomatoid variant** (rank 3, L3, decision stage S1) — a Phase 2 trial (NCT03912818, terminated, n=7) graded "A" for disease-specificity, plus a supporting Phase 1 trial (NCT02812420).
-- **Endocervical carcinoma** (rank 6, L2, decision stage S2) — two trials (NCT04065269 Phase 2 ongoing n=174; NCT03452332 Phase 1 completed n=20) and one supporting review (PMID 37467967).
+**Huomio prioritarisoinnille:** Tässä samassa ennustejoukkossa on kaksi muuta ehdokasta, joilla on huomattavasti vahvempi näyttö ja jotka saattavat vaatia erillistä arviointia ennen tätä:
+- **Invasiivinen virtsarakkon uroteliaalikarsinooma, sarkomatoidi variantti** (sijoitus 3, L3, päätösvaihe S1) — Phase 2 tutkimus (NCT03912818, keskeytetty, n=7) arvioitu "A" sairauden spesialisyydelle, sekä tukeva Phase 1 tutkimus (NCT02812420).
+- **Endoselvikaalinen karsinooma** (sijoitus 6, L2, päätösvaihe S2) — kaksi tutkimusta (NCT04065269 Phase 2 käynnissä n=174; NCT03452332 Phase 1 valmis n=20) ja yksi tukeva katsaus (PMID 37467967).
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

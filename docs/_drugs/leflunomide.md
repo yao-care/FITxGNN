@@ -29,75 +29,76 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Leflunomide: Repurposing Candidate — Evaluation On Hold
+# Leflunomidi: Lääkkeen uudelleenkäytön ehdokas — Arviointi keskeytettynä
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Leflunomide is an immunomodulatory disease-modifying antirheumatic drug (DMARD), known in clinical practice for rheumatoid arthritis and psoriatic arthritis treatment.
-However, the current Evidence Pack contains **no TxGNN repurposing predictions** for this drug, and key data fields including mechanism of action, safety warnings, and original indication records are absent.
-Without a predicted indication to evaluate, this report documents the data gaps and recommends a Hold decision pending data remediation.
+Leflunomidi on immunomoduloiva tautia muokkaava reumaatinen lääke (DMARD), joka tunnetaan kliinisessä käytännössä reumatoidiartriitista ja psoriaattisesta artriitista.
+Nykyinen Evidence Pack ei kuitenkaan sisällä **TxGNN:n uudelleenkäytön ennusteita** tälle lääkkeelle, ja keskeiset tietokentät, joihin kuuluvat vaikutusmekanismi, turvallisuusvaroitukset ja alkuperäisten indikaatioiden tietueet, puuttuvat.
+Ilman arvioitavaa ennustettua indikaatiota tämä raportti dokumentoi tietoaukot ja suosittelee lykkäyksen päätöstä tietojen korjaamisen odotuksissa.
 
 ---
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohde | Sisältö |
 |------|---------|
-| Original Indication | Not recorded in current Evidence Pack |
-| Predicted New Indication | None — TxGNN returned no predictions |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | L5 (model prediction unavailable; no supporting studies) |
-| Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+| Alkuperäinen indikaatio | Ei kirjattu nykyisessä Evidence Packissa |
+| Ennustettu uusi indikaatio | Ei mikään — TxGNN ei palauttanut ennusteita |
+| TxGNN-ennusteen pistemäärä | N/A |
+| Näytön taso | L5 (mallin ennuste ei saatavilla; ei tukevia tutkimuksia) |
+| Myyntistatus | Ei myynnissä (Ei myynnissä) |
+| Lupien määrä | 0 |
+| Suositeltu päätös | **Lykkää** |
 
 ---
 
-## Why No Prediction is Available
+## Miksi ennuste ei ole saatavilla
 
-The Evidence Pack for Leflunomide (DrugBank ID: DB01097) returned an empty `predicted_indications` array. Two possible explanations exist:
+Leflunomidin Evidence Pack (DrugBank ID: DB01097) palautti tyhjän `predicted_indications`-taulukon. Kaksi mahdollista selitystä on olemassa:
 
-1. **Pipeline upstream failure**: If the drug node for DB01097 was not present or not properly embedded in the knowledge graph used for TxGNN inference, the model would produce no ranked candidates.
-2. **Filtered output**: Predictions may have been generated but fell below the confidence threshold applied during post-processing.
+1. **Putkilinjan alkupään epäonnistuminen**: Jos lääkkeen solmu DB01097:lle ei ollut läsnä tai ei ollut asianmukaisesti upotettu TxGNN:n käyttämään tietokaaviin, malli ei tuottaisi sijoitettuja ehdokkaita.
+2. **Suodatettu tulos**: Ennusteita on voitu luoda, mutta ne jäivät jälkikäsittelyn aikana käytetyn luottamustason kynnyksen alapuolelle.
 
-Until the root cause is confirmed, no repurposing hypothesis can be assessed. The data gaps recorded in the Evidence Pack (DG001: TFDA package insert warnings; DG002: mechanism of action) further limit the safety and mechanistic review that would normally accompany any predicted indication.
-
----
-
-## Market Information
-
-Leflunomide is **not marketed** under any current local authorization. The regulatory query returned zero licenses (total_licenses: 0), with no dosage form or approved indication data on file.
-
-> Note: The DrugBank query (query log ID 3) and TFDA package insert query (query log ID 4) both returned result_count ≥ 1, indicating source records exist. However, the structured fields in this Evidence Pack were not populated from those results. Remediation should re-extract approved indication text and safety warnings from these confirmed sources.
+Kunnes juurisyy vahvistetaan, mitään uudelleenkäytön hypoteesia ei voida arvioida. Evidence Packissa kirjatut tietoaukot (DG001: TFDA:n pakkausselosteen varoitukset; DG002: vaikutusmekanismi) rajoittavat myös turvallisuuden ja mekanismin arviointia, joka normaalisti liittyisi mihin tahansa ennustettuun indikaatioon.
 
 ---
 
-## Safety Considerations
+## Markkinatiedot
 
-All safety fields in the current Evidence Pack are marked as data gaps:
+Leflunomidi **ei ole myynnissä** minkään nykyisen paikallisen luvan alaisena. Sääntelykysely palautti nolla lisenssiä (total_licenses: 0), eikä doseerausmuodosta tai hyväksytystä indikaatiotiedosta ole tietoja tiedostoissa.
 
-- Key warnings: not available
-- Contraindications: not available
-- Drug–drug interactions: query returned no results
-
-Please refer to the package insert and DrugBank record (DB01097) for safety information before any further evaluation.
+> Huomio: Sekä DrugBank-kysely (kyselylokin tunnus 3) että TFDA:n pakkausselosteen kysely (kyselylokin tunnus 4) palautti result_count ≥ 1, mikä osoittaa lähdetietueiden olevan olemassa. Kuitenkin tämän Evidence Packin jäsennellyt kentät eivät olleet täytettyjä näistä tuloksista. Korjauksessa tulisi uudelleen purkaa hyväksytyn indikaation teksti ja turvallisuusvaroitukset näistä vahvistetuista lähteistä.
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuusnäkökohdat
 
-**Decision: Hold**
+Kaikki nykyisen Evidence Packin turvallisuuskentät on merkitty tietoaukoksi:
 
-**Rationale:**
-The Evidence Pack returned no TxGNN predictions, and the two data gaps rated High/Blocking (MOA and TFDA safety warnings) have not been resolved. There is no repurposing hypothesis to evaluate at this time.
+- Keskeiset varoitukset: ei saatavilla
+- Vasta-aiheet: ei saatavilla
+- Lääke-lääke-vuorovaikutukset: kysely ei palauttanut tuloksia
 
-**To proceed, the following is needed:**
+Tutustu pakkausselosteeseen ja DrugBank-tietueeseen (DB01097) turvallisuustiedoille ennen kuin jatkat arviointia.
 
-- **Re-run TxGNN inference** for DB01097 and confirm whether the drug node is present in the knowledge graph; if absent, add it and re-embed.
-- **Resolve DG002 (MOA)**: Query DrugBank API for mechanism of action and pharmacological class data for DB01097.
-- **Resolve DG001 (Safety)**: Download and parse the TFDA package insert PDF to extract warnings and contraindications; populate `key_warnings` and `contraindications` fields.
-- **Re-populate original_indications**: The TFDA package insert query (log ID 4) confirmed a result exists — extract the approved indication text and populate the field before the next evaluation cycle.
-- Once a predicted indication is available, regenerate this report using the full Evidence Pack template.
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Lykkää**
+
+**Perustelut:**
+Evidence Pack ei palauttanut TxGNN-ennusteita, ja kaksi korkean/estävän prioriteetin tietoaukkoa (MOA ja TFDA:n turvallisuusvaroitukset) eivät ole ratkenneet. Tällä hetkellä ei ole arvioitavaa uudelleenkäytön hypoteesia.
+
+**Jatkamista varten tarvitaan seuraavaa:**
+
+- **Suorita TxGNN uudelleen** DB01097:lle ja vahvista, onko lääkkeen solmu läsnä tietokaavissa; jos ei, lisää se ja upota uudelleen.
+- **Ratkaise DG002 (MOA)**: Kysy DrugBank API:ta vaikutusmekanismista ja farmakologisesta luokasta DB01097:lle.
+- **Ratkaise DG001 (turvallisuus)**: Lataa ja jäsennä TFDA:n pakkausselose-PDF purkamalla varoitukset ja vasta-aiheet; täytä `key_warnings` ja `contraindications`-kentät.
+- **Täytä uudelleen original_indications**: TFDA:n pakkausselose-kysely (lokin tunnus 4) vahvisti tuloksen olevan olemassa — pura hyväksytyn indikaation teksti ja täytä kenttä ennen seuraavaa arviointisykliä.
+- Kun ennustettu indikaatio on saatavilla, luo raportti uudelleen käyttämällä täyttä Evidence Pack -mallia.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

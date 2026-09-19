@@ -29,78 +29,79 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Ziconotide: From Severe Chronic Pain to Migraine Disorder
+# Zikonotidi: Kroonisesta kipusta migraiiniin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-> Ziconotide is an N-type calcium channel blocker originally used as intrathecal therapy for severe chronic pain refractory to other treatments (not present as structured data in this evidence pack, sourced from general drug knowledge). The TxGNN model predicts it may be effective for **Migraine Disorder**, but this is currently supported by only **0 clinical trials** and **1 case-report publication**, so the evidence base is very thin.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Severe chronic pain requiring intrathecal analgesia *(not recorded in evidence pack — general drug knowledge; original_indications field is empty)* |
-| Predicted New Indication | Migraine Disorder |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L4 |
-| Taiwan Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Zikonotidi on N-tyypin kalsiumkanavaestäjä, jota alun perin käytetään selkäydintälineisesti muille hoitomuodoille vastustuskykyisten kroonisten vakaiden kipujen hoitoon (nämä tiedot eivät ole saatavilla strukturoituna tässä todistuspaketissa; lähteenä yleinen lääkkeistä saatava tieto). TxGNN-malli ennustaa sen olevan tehokas **migraiinin** hoidossa, mutta tätä tukee tällä hetkellä vain **0 kliinistä tutkimusta** ja **1 tapausraportin julkaisu**, joten todistusperusta on erittäin heikko.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Pikakatsaus
 
-Currently, detailed mechanism of action data is not available in the evidence pack (original_moa: Data Gap). Based on the repurposing rationale supplied for this prediction, Ziconotide selectively blocks N-type (Cav2.2) voltage-gated calcium channels, inhibiting presynaptic release of neurotransmitters including glutamate and CGRP-related pathways.
-
-Migraine pathophysiology is linked to abnormal neurotransmitter release in the trigeminovascular system, and familial hemiplegic migraine is genetically associated with mutations in P/Q-type (CACNA1A) calcium channels. This gives calcium-channel modulation general mechanistic plausibility in migraine.
-
-However, the channel subtype Ziconotide targets (N-type) differs from the subtype genetically linked to migraine (P/Q-type), so this mechanistic extrapolation should be treated cautiously. Supporting evidence is limited to a single 2015 case report of chronic migraine resolution with intrathecal ziconotide — informative as a signal, but far from confirmatory.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Kohta | Sisältö |
+|-------|---------|
+| Alkuperäinen indikaatio | Muille hoitomuodoille vastustuskykyinen krooninen vakava kipu, joka vaatii selkäydintälineistä analgesiahoitoa *(ei kirjattu todistuspaketissa — yleinen lääkkeistä saatava tieto; original_indications-kenttä on tyhjä)* |
+| Ennustettu uusi indikaatio | Migraini |
+| TxGNN-ennustuspisteet | 99.92% |
+| Todisteiden taso | L4 |
+| Taiwanin markkina-asema | Ei markkinoilla (Ei markkinoilla) |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Odota |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennuste on perusteltu?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [26392785](https://pubmed.ncbi.nlm.nih.gov/26392785/) | 2015 | Case Report | Journal of Pain Research | Single case of chronic migraine headache resolution following intrathecal ziconotide, framed around its N-type calcium channel blockade for chronic severe pain without tolerance/dependence issues seen with opioids |
+Tällä hetkellä yksityiskohtaiset vaikutusmekanismin tiedot eivät ole saatavilla todistuspaketissa (original_moa: Tietoaukko). Tämän ennustetun uudelleenkäytön perustelun mukaan Ziconotidi estää valikoivasti N-tyypin (Cav2.2) jänniteohjattuja kalsiumkanavia ja estää presynaptisen hermoston välittäjäaineiden, kuten glutamaatin ja CGRP:ään liittyvien polkujen vapautumista.
 
----
+Migraiinin patofysiologia liittyy trigeminivaskularisen järjestelmän epänormaaliin hermoston välittäjäaineiden vapautumiseen, ja perinnöllinen hemipleginen migraini on geneettisesti yhteydessä P/Q-tyypin (CACNA1A) kalsiumkanavien mutaatioihin. Tämä antaa kalsiumkanavan modulaatiolle yleistä mekanistista uskottavuutta migraiinin hoidossa.
 
-## Taiwan Market Information
-
-Ziconotide is currently **not marketed in Taiwan** (0 authorizations on record), so no product/license table is available.
+Kuitenkin kanavan alatyyppi, jota Ziconotidi estää (N-tyyppi), eroaa alatyypistä, joka on geneettisesti yhteydessä migraiiniin (P/Q-tyyppi), joten tämä mekanistinen ekstrapolointi tulee käsitellä varovaisuudella. Tukitodisteet rajoittuvat yhteen vuoden 2015 tapausraporttiin, jossa kroonisen migraiinin päänsärky ratkesi selkäydintälineisellä Ziconotidi-hoidolla — informatiivinen signaali, mutta kaukana vahvistavasta näytöstä.
 
 ---
 
-## Safety Considerations
+## Kliinisten tutkimusten todisteet
 
-Safety data (key warnings, contraindications, drug–drug interactions) is entirely unavailable in this evidence pack — the TFDA package insert warnings/contraindications item is flagged as a **Blocking** data gap (DG001), which prevents entry into formal S1 safety pre-assessment.
-
-> Please refer to the package insert for safety information.
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia
 
 ---
 
-## Conclusion and Next Steps
+## Kirjallisuuden todisteet
 
-**Decision: Hold**
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
+|------|-------|--------|-------|-------------------|
+| [26392785](https://pubmed.ncbi.nlm.nih.gov/26392785/) | 2015 | Tapausraportti | Journal of Pain Research | Yksittäinen tapaus, jossa kroonisen migraiinin päänsärky ratkesi selkäydintälineisen Ziconotidi-hoidon jälkeen; raportointi keskittyi sen N-tyypin kalsiumkanavan estävään vaikutukseen kroonisessa kovassa kivussa ilman opioidien aiheuttamia toleranssi- ja riippuvuusongelmia |
 
-**Rationale:**
-- The top-ranked predicted indication (migraine disorder) has only a single case report and zero clinical trials, and the mechanistic link relies on a calcium-channel subtype (N-type) that differs from the one genetically implicated in migraine (P/Q-type). Safety data is completely unavailable (Blocking gap), and the drug is not marketed in Taiwan — none of the criteria for "Go" or "Proceed with Guardrails" are met.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert with warnings/contraindications (DG001, Blocking)
-- Verified mechanism of action data via DrugBank API (DG002)
-- Prospective or at least observational clinical data specifically evaluating ziconotide in migraine, given the N-type vs. P/Q-type channel mismatch noted above
-- Confirmation of intrathecal route feasibility/acceptability for a migraine population, since Ziconotide's approved route is highly invasive relative to standard migraine therapies
+## Taiwanin markkina-tiedot
+
+Ziconotidi ei ole tällä hetkellä markkinoilla Taiwanissa (0 lupaa tietueissa), joten tuote- ja lupitaulukko ei ole saatavilla.
+
+---
+
+## Turvallisuusnäkökohdat
+
+Turvallisuustiedot (keskeiset varoitukset, vasta-aiheet, lääkevuorovaikutukset) ovat kokonaan puuttuvat tästä todistuspaketista — TFDA:n pakkausselosteen varoitukset/vasta-aiheet-kohta on merkitty **estäväksi** tietoaukoksi (DG001), mikä estää muodolliseen S1-turvallisuuden esiarviointiin osallistumisen.
+
+> Turvallisustiedot löytyvät pakkausselosteesta.
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Odota**
+
+**Perustelut:**
+- Korkeimmalle sijoitetulla ennustetulla indikaatiolla (migraini) on vain yksi tapausraportti ja nolla kliinistä tutkimusta, ja mekanistinen yhteys perustuu N-tyypin kalsiumkanavaan, joka eroaa migraiiniin geneettisesti liittyneestä P/Q-tyypin kanavasta. Turvallisuustiedot ovat kokonaan puuttuvat (estävä aukko), ja lääke ei ole markkinoilla Taiwanissa — mikään kriteereistä "Jatka" tai "Jatka valvonnalla" ei täyty.
+
+**Jatkamista varten tarvitaan seuraavat tiedot:**
+- TFDA:n pakkausseloste varoituksineen ja vasta-aiheet (DG001, estävä)
+- Todennettava vaikutusmekanismin tieto DrugBank API:n kautta (DG002)
+- Prospektiivinen tai havainnoiva kliininen tutkimus, joka nimenomaisesti arvioi Ziconotidea migraiinin hoidossa, ottaen huomioon edellä mainitun N-tyypin ja P/Q-tyypin kanavien välisen eron
+- Selkäydintälineisen antoreitin toteutettavuuden ja hyväksyttävyyden vahvistaminen migraiinipotilaiden osalta, koska Ziconotiden hyväksytty antoreitti on huomattavasti invasiivisempi verrattuna vakiomuotoisiin migraiinin hoitokeinoihin
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -29,70 +29,71 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Idebenone: From Mitochondrial Protection to Hepatic Porphyria
+# Idebenone: Mitokondriosuojauksesta maksan porfiryriaan
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Idebenone is a synthetic coenzyme Q10 analogue best known for its mitochondrial electron-transport and antioxidant activity; no confirmed original approved indication is documented in this dataset, and the drug is not currently marketed in Finland. The TxGNN model predicts it may be effective for **hepatic porphyria**, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a pure graph-based inference with no direct experimental backing.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in current dataset (0 Finland authorizations); Idebenone is generally known as a mitochondrial-support/antioxidant CoQ10 analogue |
-| Predicted New Indication | Hepatic porphyria |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L5 |
-| Finland Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Idebenone on synteettinen CoQ10-analogi, joka tunnetaan parhaiten sen mitokondrion elektroninsiirto- ja antioksidanttitoiminnasta; tässä aineistossa ei ole dokumentoitu vahvistettua alkuperäistä hyväksyttyä indikaatiota, ja lääkettä ei ole tällä hetkellä markkinoilla Suomessa. TxGNN-malli ennustaa, että se voi olla tehokas **maksan porfiryriassa**, mutta tätä ennustetta tuetaan tällä hetkellä **0 kliinisellä tutkimuksella** ja **0 julkaisulla** — se on puhdas graafi-pohjainen päätelmä ilman suoraa kokeellista tukea.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Currently, detailed mechanism of action data is not available for this candidate record. Based on general pharmacological knowledge, Idebenone is a short-chain benzoquinone that acts on the mitochondrial electron transport chain and functions as an antioxidant; it has no formally documented approved indication in the present dataset, and Idebenone is not currently marketed in Finland (0 authorizations).
-
-The TxGNN-generated rationale for hepatic porphyria explicitly flags a weak mechanistic link: Idebenone's mitochondrial/antioxidant activity does not directly overlap with the heme biosynthesis pathway that is the core pathology of porphyria. The stated hypothesis is that oxidative stress could be a shared secondary contributor between the two conditions, but this is speculative rather than evidence-based.
-
-Given the absence of any supporting clinical trials or literature, this prediction should be treated as a hypothesis-generation signal from the knowledge graph rather than a mechanistically grounded repurposing candidate at this time.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Kohta | Sisältö |
+|-------|---------|
+| Alkuperäinen indikaatio | Ei dokumentoitu nykyisessä aineistossa (0 Suomen hyväksyntää); Idebenone tunnetaan yleensä mitokondriotuki- ja antioksidanttilääkkeeksi CoQ10-analogina |
+| Ennustettu uusi indikaatio | Maksan porfyria |
+| TxGNN-ennustepisteet | 99.92% |
+| Näyttötaso | L5 |
+| Suomen markkinatilanne | ✗ Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Pidätä |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennuste on kohtuullinen?
 
-Currently no related literature available
+Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla tälle ehdokastietueelle. Yleisen farmakologisen tiedon perusteella idebenone on lyhytketjuinen bentsokinoni, joka vaikuttaa mitokondrion elektroninsiirtoketjuun ja toimii antioksidanttina; sillä ei ole virallisesti dokumentoitua hyväksyttyä indikaatiota nykyisessä aineistossa, ja idebenone ei ole tällä hetkellä markkinoilla Suomessa (0 hyväksyntää).
 
----
+TxGNN:n perustelut maksan porfiryriassa nimenomaisen merkitsevät heikon mekanistisen yhteyden: idebenonen mitokondriotoiminta ja antioksidanttitoiminta eivät suoraan osu heemin biosynteesipolun kanssa päällekkäin, joka on porfyrian ytimellinen patologia. Esitetty hypoteesi on, että hapettava stressi voisi olla jaettu sivuava tekijä näiden kahden sairauden välillä, mutta tämä on enemmän spekulatiivista kuin näyttöön perustuvaa.
 
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*Note: A blocking data gap exists — TFDA/Fimea package insert warnings and contraindications have not yet been retrieved (DG001), so no safety-related decision can currently be supported by this evidence pack.*
+Ottaen huomioon, että kliinisiä tutkimuksia tai kirjallisuutta ei ole, tätä ennustetta tulisi käsitellä pikemminkin tietokaaviosta tulevana hypoteesinmuodostamisen signaalina kuin mekanistisesti perustelluna uusiokäyttöehdokkaana tällä hetkellä.
 
 ---
 
-## Conclusion and Next Steps
+## Kliinisen tutkimuksen näyttö
 
-**Decision: Hold**
+Tällä hetkellä ei ole asiaan liittyviä rekisteröityjä kliinisiä tutkimuksia
 
-**Rationale:**
-The prediction is at decision stage S0 with evidence level L5 — supported only by a knowledge-graph score, with zero clinical trials, zero literature, and a mechanistic rationale the model itself describes as weak. Idebenone is also not marketed in Finland, and core safety data (warnings/contraindications) is missing (blocking gap).
+---
 
-**To proceed, the following is needed:**
-- Idebenone package insert / TFDA-equivalent safety data (warnings, contraindications) — currently blocking (DG001)
-- Confirmed mechanism of action and original approved indication data (DG002)
-- Preclinical or mechanistic studies directly linking mitochondrial/antioxidant pathways to heme biosynthesis or porphyria pathophysiology
-- Any emerging clinical trial or case-report evidence in hepatic porphyria before advancing beyond S0
+## Kirjallisuuden näyttö
+
+Tällä hetkellä ei ole asiaan liittyvää kirjallisuutta saatavilla
+
+---
+
+## Turvallisuusnäkökohdat
+
+Katso pakkausselosteesta turvallisuustiedot.
+
+*Huomautus: Tiedon puute on este — TFDA/Fimean pakkausselosteen varoituksia ja vasta-aiheita ei ole vielä haettu (DG001), joten mikään turvallisuuteen liittyvä päätös ei voi tällä hetkellä olla tuettu tällä todistuspaketilla.*
+
+---
+
+## Johtopäätökset ja seuraavat vaiheet
+
+**Päätös: Pidätä**
+
+**Perustelut:**
+Ennuste on päätöksenteon vaiheessa S0 ja näyttötasolla L5 — tuettu vain tietokaaviosta, jossa on nolla kliinistä tutkimusta, nolla kirjallisuutta ja mekanistinen perustelu, jota malli itse kuvailee heikoksi. Idebenone ei myöskään ole markkinoilla Suomessa, ja ydinturvallisuustiedot (varoitukset/vasta-aiheet) puuttuvat (este DG001).
+
+**Jotta voitaisiin edetä, seuraava on tarpeen:**
+- Idebenone pakkausseloste / TFDA:n vastaava turvallisuustieto (varoitukset, vasta-aiheet) — tällä hetkellä este (DG001)
+- Vahvistettu vaikutusmekanismi ja alkuperäisen hyväksynnän indikaatiotiedot (DG002)
+- Esikliiniset tai mekanistiset tutkimukset, jotka suoraan yhdistävät mitokondriotoimintaa ja antioksidanttitoimintaa heemin biosynteesiin tai porfyrian patofysiologiaan
+- Kaikki ilmaantuvat kliiniset tutkimukset tai tapausraporttinäyttöä maksan porfiryriassa ennen siirtymistä S0:sta eteenpäin
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

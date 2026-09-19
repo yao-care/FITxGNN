@@ -29,72 +29,73 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# ABATACEPT: Drug Repurposing Evaluation Report
+# ABATACEPT: Lääkkeen uudelleenkäyttöä koskevan arvioinnin raportti
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Abatacept (DrugBank: DB01281) is a biologic agent known internationally for immune modulation, but it currently has **no marketing authorization in Taiwan** and **no original indication data** in this evidence pack. The TxGNN model has **not generated any predicted new indications** for this drug, and critical data gaps remain in mechanism of action and safety information.
+Abatacept (DrugBank: DB01281) on kansainvälisesti tunnettu biologinen aine, jota käytetään immuunijärjestelmän modulointiin, mutta sillä ei tällä hetkellä ole **markkinointilupia Taiwanissa** eikä **alkuperäisen indikaation tietoja** tässä näyttöpaketissa. TxGNN-malli **ei ole luonut ennusteita uusille indikaatioille** tälle lääkkeelle, ja toimintamekanismin ja turvallisuustietojen osalta on kriittisiä tietojen puutteita.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohteet | Sisältö |
 |------|------|
-| Drug Name (INN) | ABATACEPT |
-| DrugBank ID | DB01281 |
-| Original Indication | No data available (no Taiwan licenses) |
-| Predicted New Indication | None (no TxGNN predictions) |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | L5 — Model prediction only; no predictions generated |
-| Taiwan Market Status | ✗ Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+| Lääkkeen nimi (INN) | ABATACEPT |
+| DrugBank-tunnus | DB01281 |
+| Alkuperäinen indikaatio | Tietoja ei saatavilla (ei Taiwanin lupia) |
+| Ennustettu uusi indikaatio | Ei (ei TxGNN-ennusteita) |
+| TxGNN-ennuste-pistemäärä | N/A |
+| Näytön taso | L5 — Vain mallinnusennuste; ennusteita ei luotu |
+| Taiwanin markkinatilanne | ✗ Ei markkinoilla (Ei markkinoilla) |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | **Pidä odottavalla** |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on kohtuullinen?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Abatacept is widely recognized internationally as a selective T-cell co-stimulation modulator (CTLA-4-Ig fusion protein) that inhibits T-cell activation by binding to CD80/CD86 on antigen-presenting cells. It is approved in many countries for rheumatoid arthritis, juvenile idiopathic arthritis, and psoriatic arthritis; however, none of this information is captured in the current Taiwan regulatory dataset.
+Tässä näyttöpaketissa ei ole saatavilla yksityiskohtaisia toimintamekanismin tietoja. Abatacept tunnetaan kansainvälisesti selektiivisenä T-solujen ko-stimulaation modulaattorina (CTLA-4-Ig fusioproteiini), joka estää T-solujen aktivaatiota sitoutumalla CD80/CD86-reseptoreihin antigeenia esittävissä soluissa. Se on hyväksytty monissa maissa reumatoidisen nivelreuman, nuorten idiopaattisen nivelreuman ja psoriaattisen nivelreuman hoitoon; kuitenkaan mitään näistä tiedoista ei ole tallennettu nykyisessä Taiwanin sääntelyaineistossa.
 
-Since the TxGNN model has not generated any predicted indications for Abatacept, there is no mechanistic bridging analysis to perform at this time. The absence of predictions may be due to insufficient representation of Abatacept in the knowledge graph, or it may indicate that the model did not identify high-confidence repurposing candidates above its scoring threshold.
+Koska TxGNN-malli ei ole luonut ennusteita Abatacept-lääkkeelle uusista indikaatioista, mekanistista yhdystävää analyysia ei voida toteuttaa tässä vaiheessa. Ennusteiden puuttuminen voi johtua Abataceptin riittämättömästä esittämisestä tietokaaviossa, tai se voi viitata siihen, että malli ei tunnistanut korkean luotettavuuden omaavia uudelleenkäyttökandidaatteja pistemäärärajan yläpuolella.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-Currently no related clinical trials to report, as no new indications have been predicted by the TxGNN model.
+Tällä hetkellä ei ole ilmoitettavia asiaan liittyviä kliinisiä tutkimuksia, koska TxGNN-malli ei ole ennustanut uusia indikaatioita.
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-Currently no related literature to report, as no new indications have been predicted by the TxGNN model.
+Tällä hetkellä ei ole ilmoitettavaa asiaan liittyvää kirjallisuutta, koska TxGNN-malli ei ole ennustanut uusia indikaatioita.
 
-## Taiwan Market Information
+## Taiwanin markkinatiedot
 
-Abatacept currently holds **no marketing authorization (許可證)** in Taiwan. No license records were returned from the TFDA query (queried 2026-03-29).
+Abatacept ei tällä hetkellä omista **markkinointilupia (許可證)** Taiwanissa. TFDA:n haussa ei löytynyt lupakirjoja (haettu 2026-03-29).
 
-## Safety Considerations
+## Turvallisuuden näkökohdat
 
-> Please refer to the package insert for safety information.
+> Katso turvallisuustiedot lääkkeen pakkausselosteesta.
 >
-> All safety fields (key warnings, contraindications, drug-drug interactions) returned as data gaps in this evidence pack. The DDI query returned no results. Complete safety data should be obtained from international sources (e.g., FDA label, EMA SmPC) or the DrugBank full profile before any clinical evaluation proceeds.
+> Kaikki turvallisuuskentät (tärkeimmät varoitukset, vasta-aiheet, lääkkeiden väliset yhteisvaikutukset) puuttuvat tästä näyttöpaketista. Yhteisvaikutushaku ei tuottanut tuloksia. Täydelliset turvallisuustiedot tulee hankkia kansainvälisistä lähteistä (esim. FDA-merkinnät, EMA SmPC) tai DrugBank-täysprofiilista ennen kliinisen arvioinnin jatkamista.
 
-## Data Gaps Summary
+## Tietojen puutteiden yhteenveto
 
-The following critical data gaps were identified and must be resolved before advancing this candidate:
+Seuraavat kriittiset tietojen puutteet tunnistettiin ja ne on ratkaistava ennen tämän kandidaatin edistämistä:
 
-| Gap ID | Category | Item | Severity | Remediation |
+| Aukon tunnus | Luokka | Kohta | Vakavuus | Korjaus |
 |--------|----------|------|----------|-------------|
-| DG001 | Drug Level | TFDA Package Insert Warnings/Contraindications | **Blocking** | Download and parse package insert PDF from TFDA website |
-| DG002 | Drug Level | Mechanism of Action (MOA) | High | Query DrugBank API for detailed MOA |
+| DG001 | Lääkkeen taso | TFDA:n pakkausselosteen varoitukset/vasta-aiheet | **Estävä** | Lataa ja jäsennä pakkausselosteen PDF TFDA:n verkkosivustolta |
+| DG002 | Lääkkeen taso | Toimintamekanismi (MOA) | Korkea | Kysy yksityiskohtaisia tietoja toimintamekanismista DrugBank-sovellusliittymästä |
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidä odottavalla**
 
-**Rationale:**
-Abatacept has no TxGNN-predicted new indications in the current analysis, no Taiwan marketing authorization, and multiple blocking data gaps. There is insufficient evidence to justify advancing this candidate through the repurposing pipeline at this time.
+**Perustelut:**
+Abatacept-lääkkeellä ei ole TxGNN-ennustettuja uusia indikaatioita nykyisessä analyysissä, sillä ei ole markkinointilupia Taiwanissa, ja tiedoissa on useita kriittisiä puutteita. Näyttöä ei ole riittävästi tämän kandidaatin edistämiseksi uudelleenkäyttöputkessa tässä vaiheessa.
 
-**To proceed, the following is needed:**
-- Resolve **DG001 (Blocking)**: Obtain TFDA package insert warnings and contraindications, or equivalent safety data from international regulatory sources (FDA/EMA)
-- Resolve **DG002 (High)**: Retrieve detailed mechanism of action from DrugBank API to enable knowledge graph enrichment
-- Re-run TxGNN prediction after knowledge graph is updated with complete Abatacept pharmacological data
-- If international indications (e.g., rheumatoid arthritis, JIA, psoriatic arthritis) are confirmed, populate `original_indications` and re-evaluate for repurposing opportunities
-- Confirm whether Abatacept's absence from the Taiwan market is a regulatory gap or a strategic decision, as this affects the feasibility of any repurposing pathway in Taiwan
+**Jatkamista varten tarvitaan seuraavaa:**
+- Ratkaise **DG001 (Estävä)**: Hanki TFDA:n pakkausselosteen varoitukset ja vasta-aiheet tai vastaavat turvallisuustiedot kansainvälisistä sääntelylähteistä (FDA/EMA)
+- Ratkaise **DG002 (Korkea)**: Hae yksityiskohtaiset toimintamekanismin tiedot DrugBank-sovellusliittymästä tietokaavion rikastamisen mahdollistamiseksi
+- Suorita TxGNN-ennuste uudelleen, kun tietokaavio on päivitetty täydellisillä Abatacept-lääkkeen farmakologisilla tiedoilla
+- Jos kansainväliset indikaatiot (esim. reumatoidinen nivelreuma, JIA, psoriaattinen nivelreuma) vahvistetaan, täytä `original_indications` ja arvioi uudelleen uudelleenkäyttömahdollisuuksien osalta
+- Varmista, onko Abataceptin puuttuminen Taiwanin markkinoilta sääntelypuute vai strateginen päätös, sillä tämä vaikuttaa uudelleenkäyttöpolun toteutettavuuteen Taiwanissa
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

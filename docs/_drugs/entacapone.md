@@ -29,102 +29,103 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Entacapone: From Parkinson's Disease to Lewy Body Dementia
+# Entakapooni: Parkinsonin taudista Lewyn kappale -dementiaan
 
-## One-Sentence Summary
+## Yksisäikeinen yhteenveto
 
-Entacapone (DB00494) is a COMT (catechol-O-methyltransferase) inhibitor, originally used as an adjunct to levodopa/carbidopa therapy for Parkinson's disease motor fluctuations. This evidence pack is a **multi-indication screen**: TxGNN surfaced 10 candidate new indications (all >99% prediction score), but only **2 of the 10 have any supporting real-world evidence** — Lewy Body Dementia (1 clinical trial, 3 publications) and Progressive Supranuclear Palsy-Corticobasal Syndrome (1 clinical trial). The remaining 8 candidates are pure model predictions (L5, no clinical trials or literature at all). Given a **Blocking**-severity data gap on safety labeling and the absence of any interventional trial actually testing entacapone in a new indication, the overall recommendation is **Hold**.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Parkinson's disease, adjunct to levodopa/carbidopa (inferred from repurposing rationale narrative; formal MOA/indication fields are data gaps — see below) |
-| Predicted New Indication (highest-evidence candidate) | Lewy body dementia |
-| TxGNN Prediction Score | 99.25% (rank 7 of screened candidates; top-ranked candidate overall, PLA2G6-associated neurodegeneration, scored 99.76% but has zero supporting evidence) |
-| Evidence Level | L4 (preclinical/mechanistic + non-interventional trial only) |
-| Finland Market Status | ✗ Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+Entakapooni (DB00494) on COMT-estäjä (katekolimetyylin siirtäjä), jota käytetään alun perin levodopa-karbiodopa-hoidon lisähoitona Parkinsonin taudin motoriikan vaihteluihin. Tämä todistusten kokoelma on **usean indikaation seulonta**: TxGNN nostatti esiin 10 kandidaattoindikaatiota (kaikki >99 % ennustepisteellä), mutta vain **2 kymmenestä on todellisen maailman todisteiden tukea** — Lewyn kappale -dementia (1 kliininen koe, 3 julkaisua) ja Progressive supranuclear palsy-corticobasal syndrome (1 kliininen koe). Loput 8 kandidaattia ovat puhtaasti mallin ennusteita (L5, ei kliinisiä kokeita tai kirjallisuutta ollenkaan). **Sulkevantason** tietoaukko turvallisuuden merkinnöissä ja se tosiasia, että mitään interventiotutkimusta entakaportin testaamisesta uudessa indikaatiossa ei ole olemassa, johtavat **Pidätä** -suositukseen kokonaisuudessaan.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Pikayleiskatsaus
 
-Detailed mechanism-of-action data was not returned from the structured DrugBank query for this pack (flagged as data gap DG002). However, the repurposing rationale fields embedded in this evidence pack consistently describe entacapone by its established pharmacology: a peripheral **COMT inhibitor** that blocks the O-methylation of levodopa, thereby prolonging levodopa's plasma half-life and increasing central dopamine availability. It is approved worldwide (though not currently marketed in Finland per this pack) as an add-on to levodopa/carbidopa for Parkinson's disease patients experiencing "wearing-off" motor fluctuations.
-
-Lewy body dementia (LBD) shares meaningful pathophysiology with Parkinson's disease: both are alpha-synucleinopathies with substantial nigrostriatal dopaminergic neuron loss, and LBD patients frequently exhibit parkinsonian motor symptoms that are treated off-label with levodopa-based regimens. Extending COMT inhibition to LBD is mechanistically plausible as a way to enhance dopaminergic therapy efficacy in this population. One in-vitro study in the evidence base (PMID 23913715) additionally suggests some antiparkinsonian agents may influence alpha-synuclein oligomer formation, offering a secondary, exploratory molecular rationale — though this evidence is indirect (in vitro only) and does not establish clinical efficacy.
-
-A second, weaker candidate — Progressive Supranuclear Palsy–Corticobasal Syndrome (PSP-CBS) — also shares a "dopaminergic-adjacent" mechanistic story, but the rationale text itself cautions that PSP-CBS patients typically respond poorly to levodopa (reported response rate <20%), meaning any COMT-inhibitor benefit would likely be marginal. The remaining 8 candidates (PLA2G6-associated neurodegeneration, Rasmussen encephalitis, myelitis, juvenile Hunt-type parkinsonism, transaldolase deficiency, lethal infantile mitochondrial myopathy, fructose-1,6-bisphosphatase deficiency, and a perisylvian polymicrogyria syndrome) each have rationale text explicitly noting **weak, indirect, or absent** pharmacological linkage to COMT inhibition — these appear to reflect knowledge-graph network propagation rather than genuine drug-disease relationships, and none carry any clinical trial or literature support.
+| Kohta | Sisältö |
+|------|--------|
+| Alkuperäinen indikaatio | Parkinsonin tauti, levodopa-karbiodopa-hoidon lisähoito (johdettu repurposing-perustelusta; muodolliset mekanismi/indikaatio-kentät ovat tietoaukko — katso alla) |
+| Ennustettu uusi indikaatio (korkein todiste-kandidaatti) | Lewyn kappale -dementia |
+| TxGNN-ennustepistemäärä | 99,25 % (sijoitus 7 seulotusta kandidaatista; huipulla olevan kandidaatin kaikista, PLA2G6-assosioitunut neurorappeuma, pistemäärä 99,76 %, mutta nolla tukea) |
+| Todisteiden taso | L4 (prekliininen/mekanistinen + ei-interventionaalinen koe vain) |
+| Suomen markkinatilanne | ✗ Ei markkinoilla (Ei markkinoilla) |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | **Pidätä** |
 
 ---
 
-## Overview of All 10 TxGNN-Predicted Indications
+## Miksi tämä ennuste on perusteltu?
 
-| Rank | Disease | TxGNN Score | Evidence Level | Recommendation |
+Yksityiskohtaisia mekanismin tietoja ei palautettu tämän paketin rakenteistetusta DrugBank-kyselystä (merkitty tietoaukoksi DG002). Tämän todistusten paketin sisällytetyt repurposing-perustelun kentät kuvaavat johdonmukaisesti entakaportin vakiintuneen farmakologian perusteella: perifeerinen **COMT-estäjä**, joka estää levodopan O-metylointia, jolloin levodopan plasman puoliintumisaika pitenee ja keskushermostollinen dopamiini-saatavuus kasvaa. Se on hyväksytty maailmanlaajuisesti (vaikkakaan sitä ei tällä hetkellä markkinoida Suomessa tämän paketin mukaan) levodopa-karbiodopa-lisähoidoksi Parkinsonin taudin potilaille, jotka kokevat "wearing-off" -motoriikan vaihtelua.
+
+Lewyn kappale -dementia (LBD) jakaa merkityksellisen patofysiologian Parkinsonin taudin kanssa: molemmat ovat alfa-synukleiinitauteja, joissa on huomattavaa nigrostriataalisen dopamiiniseuraneuronin kuolemaa, ja LBD-potilaat osoittavat usein parkinsonilaisia motorisia oireita, joita hoidetaan off-label levodopa-pohjaisilla skeemoilla. COMT-inhibition ulottaminen LBD:hen on mekanistisesti perusteltu tapa tehostaa dopamiinergista hoitoa tässä väestössä. Yksi in vitro -tutkimus todistusten perusjoukossa (PMID 23913715) viittaa lisäksi siihen, että jotkut Parkinsonin taudin vastaiset lääkkeet voivat vaikuttaa alfa-synukleiinitrigliseeridien muodostukseen, tarjoten toissijaisen, tutkivan molekyylisen perustelun — vaikka tämä todiste on epäsuora (vain in vitro) eikä vahvista kliinistä tehokkuutta.
+
+Toinen, heikompi kandidaatti — Progressive supranuclear palsy–corticobasal syndrome (PSP-CBS) — jakaa myös "dopamiinergia-läheisen" mekanistiikan, mutta perusteluteksti itse varoittaa, että PSP-CBS-potilaat reagoivat tyypillisesti huonosti levodopaan (raportoitu vastausprosentti <20 %), mikä tarkoittaa, että kaikki COMT-inhibitoria hyöty olisi todennäköisesti marginaalinen. Loput 8 kandidaattia (PLA2G6-assosioitunut neurorappeuma, Rasmussinin enkefaliitti, myeliitti, nuoruuden parkinsoniittimuoto Hunt-tyyppi, transaldolaasi-puutos, letaalinen infantiili mitokondrioiden myopatia, fruktoos-1,6-bisfosfataasi-puutos ja perisylviaaninen polymikrogyria-syndromi) sisältävät kukin perustelutekstin, joka nimenomaisesti huomauttaa **heikko, epäsuora tai poissa olevan** farmakologisen yhteyden COMT-inhibitioon — nämä näyttävät heijastavan tiedon-graafi-verkon leviämistä pikemminkin kuin todellisia lääke-tauti-suhteita, eikä mikään niistä sisällä kliinisiä kokeita tai kirjallisuustukea.
+
+---
+
+## Yleiskatsaus kaikkiin 10 TxGNN-ennustettuun indikaatioon
+
+| Sijoitus | Sairaus | TxGNN pistemäärä | Todisteiden taso | Suositus |
 |------|---------|-------------|----------------|-----------------|
-| 1 | PLA2G6-associated neurodegeneration | 99.76% | L5 | Hold |
-| 2 | Rasmussen subacute encephalitis | 99.73% | L5 | Hold |
-| 3 | Myelitis | 99.63% | L5 | Hold |
-| 4 | Paralysis agitans, juvenile, of Hunt | 99.60% | L5 | Hold |
-| 5 | Transaldolase deficiency | 99.43% | L5 | Hold |
-| 6 | Lethal infantile mitochondrial myopathy | 99.28% | L5 | Hold |
-| **7** | **Lewy body dementia** | **99.25%** | **L4** | **Research Question** |
-| 8 | Fructose-1,6-bisphosphatase deficiency | 99.22% | L5 | Hold |
-| 9 | Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis | 99.06% | L5 | Hold |
-| 10 | Progressive supranuclear palsy-corticobasal syndrome | 99.04% | L4 | Research Question |
+| 1 | PLA2G6-assosioitunut neurorappeuma | 99,76 % | L5 | Pidätä |
+| 2 | Rasmussinin akuutti enkefaliitti | 99,73 % | L5 | Pidätä |
+| 3 | Myeliitti | 99,63 % | L5 | Pidätä |
+| 4 | Paralyysi agitans, nuoruus, Hunt-tyyppi | 99,60 % | L5 | Pidätä |
+| 5 | Transaldolaasi-puutos | 99,43 % | L5 | Pidätä |
+| 6 | Letaalinen infantiili mitokondrioiden myopatia | 99,28 % | L5 | Pidätä |
+| **7** | **Lewyn kappale -dementia** | **99,25 %** | **L4** | **Tutkimuskysymys** |
+| 8 | Fruktoos-1,6-bisfosfataasi-puutos | 99,22 % | L5 | Pidätä |
+| 9 | Polymikrogyria, perisylviaaninen, pikkuaivotaipale-hypoplasia ja arthrogrypsis | 99,06 % | L5 | Pidätä |
+| 10 | Progressive supranuclear palsy-corticobasal syndrome | 99,04 % | L4 | Tutkimuskysymys |
 
-Only ranks 7 and 10 cleared decision stage S1; all others remain at S0 with no clinical trial or literature evidence identified.
+Vain sijoitukset 7 ja 10 ylittivät päätösvaihe S1:n; kaikki muut jäävät S0:een, eikä kliinisiä kokeita tai kirjallisuustodistetta ole tunnistettu.
 
 ---
 
-## Clinical Trial Evidence (Lewy Body Dementia)
+## Kliinisen kokeen todisteet (Lewyn kappale -dementia)
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Kokeen numero | Vaihe | Tila | Osallistujat | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT04246437](https://clinicaltrials.gov/study/NCT04246437) | Phase 1 | Recruiting | 40 | [18F]F-DOPA imaging study in patients with autonomic failure/synucleinopathies (including DLB spectrum). **Not an entacapone interventional trial** — no treatment arm; provides only dopaminergic-uptake biomarker background (Relevance grade: C). |
+| [NCT04246437](https://clinicaltrials.gov/study/NCT04246437) | Vaihe 1 | Osallistujia haetaan | 40 | [18F]F-DOPA-kuvantamisen tutkimus autonomisen toimintahäiriön/synukleiinitautien potilaissa (mukaan lukien DLB-spektri). **Ei entakaportin interventiotutkimus** — ilman hoitohaaraa; sisältää vain dopamiinergia-imeytymistaustalla olevan biomarkerin (Relevanssiluokka: C). |
 
-*Note: For Progressive Supranuclear Palsy-Corticobasal Syndrome, one related trial was also found — [NCT02994719](https://clinicaltrials.gov/study/NCT02994719) (gait pattern analysis, observational, N=120) — but it likewise involves no entacapone intervention (Relevance grade: C).*
+*Huomautus: Progressive supranuclear palsy-corticobasal syndromea varten löydettiin myös yksi siihen liittyvä koe — [NCT02994719](https://clinicaltrials.gov/study/NCT02994719) (kävelymallin analyysi, havainnoiva, N=120) — mutta sekin ei sisällä entakaportin intervenotiota (Relevanssiluokka: C).*
 
 ---
 
-## Literature Evidence (Lewy Body Dementia)
+## Kirjallisuuden todisteet (Lewyn kappale -dementia)
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [23913715](https://pubmed.ncbi.nlm.nih.gov/23913715/) | 2013 | In vitro | Journal of Neuroscience Research | Examined effects of antiparkinsonian agents (including levodopa-pathway drugs) on β-amyloid and α-synuclein oligomer formation in vitro; offers indirect molecular support only. |
-| [39259788](https://pubmed.ncbi.nlm.nih.gov/39259788/) | 2024 | In vitro (iPSC organoid model) | Science Advances | Models Lewy body disease using SNCA-triplication cortical organoids to screen therapeutic candidates; mechanistic/disease-model study, not a direct entacapone efficacy study. |
-| [11268898](https://pubmed.ncbi.nlm.nih.gov/11268898/) | 2001 | Review | Presse Médicale | General Parkinson's disease review; background context only. |
+| [23913715](https://pubmed.ncbi.nlm.nih.gov/23913715/) | 2013 | In vitro | Journal of Neuroscience Research | Tutkimuksessa tarkasteltiin Parkinsonin taudin vastaisissa lääkkeissä (mukaan lukien levodopa-reitin lääkkeet) vaikutuksia β-amyloidi ja α-synukleiinitrigliseeridin muodostukseen in vitro; tarjoaa vain epäsuoraa molekyylistä tukea. |
+| [39259788](https://pubmed.ncbi.nlm.nih.gov/39259788/) | 2024 | In vitro (iPSC-organoidimalli) | Science Advances | Lewyn-kappaleiden taudin mallintaminen SNCA-triplicaation kortikaalisen organoidien avulla hoitokandidaattien seulontaan; mekanistinen/tauti-mallin tutkimus, ei suora entakaportin tehokkuustutkimus. |
+| [11268898](https://pubmed.ncbi.nlm.nih.gov/11268898/) | 2001 | Katsaus | Presse Médicale | Yleinen Parkinsonin taudin katsaus; tausta-asiatieto vain. |
 
 ---
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Entacapone is currently **not marketed in Finland** under this evidence pack (0 authorizations on record), so no local product/authorization table can be produced.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. A **Blocking**-severity data gap (DG001) was identified: TFDA/label warnings and contraindications could not be retrieved for this evidence pack, and the DDI database query returned no results (`not_found`). This gap must be closed before any formal safety assessment (S1) can proceed for the candidate indications.
+Entakapoonia ei tällä hetkellä markkinoida Suomessa tämän todistusten paketin mukaan (0 lupaa rekisterissä), joten paikallisten tuotteiden/lupien taulukkoa ei voida tuottaa.
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuusnäkökohdat
 
-**Decision: Hold**
+Katso pakkauksessa olevaa selosteesta turvallisuustietoja. **Sulkeva**-tason tietoaukko (DG001) tunnistettiin: TFDA/merkinnän varoituksia ja vasta-aiheita ei voitu noutaa tälle todistusten paketille, ja DDI-tietokantakysely palautti tuloksettomuuden (`not_found`). Tämä aukko on suljettava ennen kuin muodollinen turvallisuusarvio (S1) voi edetä kandidaattindikaatioille.
 
-**Rationale:**
-- No completed or ongoing trial directly tests entacapone as a treatment for any of the 10 predicted indications; the only two trials identified (for Lewy body dementia and PSP-CBS) are non-interventional biomarker/observational studies with Grade C relevance.
-- A Blocking-severity data gap (missing label safety/contraindication data) prevents even a preliminary safety assessment, and the drug is not currently marketed in Finland.
+---
 
-**To proceed, the following is needed:**
-- Resolve DG001 (obtain and parse the official package insert for warnings/contraindications) before any S1 safety evaluation.
-- Resolve DG002 (confirm mechanism of action via DrugBank API) to substantiate the COMT-inhibition rationale formally rather than relying on narrative inference.
-- If pursuing Lewy body dementia or PSP-CBS further, design or identify an actual interventional study testing entacapone (not just imaging/gait biomarkers) in these populations, with particular attention to the known risk of dopaminergic-agent-induced psychiatric side effects (hallucinations) in LBD patients.
-- Given the weak/indirect mechanistic rationale for the other 8 candidates, no further investment is recommended for those indications absent new evidence.
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidätä**
+
+**Perustelut:**
+- Yksikään valmis tai käynnissä oleva koe ei suoraan testaa entakaportin käyttöä hoitona mihinkään 10 ennustettuun indikaatioon; ainoat kaksi tunnistettua koetta (Lewyn kappale -dementialle ja PSP-CBS:lle) ovat ei-interventionaalis biomarkeri-/havainnolliset tutkimukset, joissa on C-relevanssiluokka.
+- Sulkeva-tason tietoaukko (puuttuvat merkinnän turvallisuus-/vasta-aiheiden tiedot) estää jopa alustavan turvallisuusarvion, eikä lääkettä markkinoida tällä hetkellä Suomessa.
+
+**Jatkaakseen, seuraavaa tarvitaan:**
+- Ratkaise DG001 (hanki ja jäsennä virallinen pakkauksessa oleva seloste varoituksista/vasta-aiheista) ennen S1-turvallisuusarviota.
+- Ratkaise DG002 (vahvista mekanismin toiminta DrugBank API:n kautta) perustellaksesi COMT-inhibition perustelut muodollisesti pikemminkin kuin narratiivisen johtopäätöksen varaan.
+- Jos Lewyn kappale -dementian tai PSP-CBS:n jatkamista harkitaan, suunnittele tai tunnista todellinen interventiotutkimus entakaportin testaamiseksi (ei vain kuvantamis-/kävelymallien biomarkereita) näissä väestöissä, erityistä huomiota dopamiinergia-agentin aiheuttamien psyykkisten sivuvaikutusten (hallusinaatiot) tunnettuun riskiin LBD-potilaissa.
+- Muiden 8 kandidaatin heikon/epäsuoran mekanistisen perustelun vuoksi näihin indikaatioihin ei suositella lisäinvestointeja ilman uusia todisteita.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

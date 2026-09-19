@@ -29,59 +29,60 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **9** kpl
 
 </div>
 
-# Deferiprone: From Iron Overload (Thalassemia) to Hepatic Porphyria
+# Deferiprone: rautaylijäämästä (talassemia) maksan porfyriaan
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Deferiprone is an oral iron chelator whose established clinical role — noted in the evidence pack's own rationale — is managing chronic iron overload from long-term transfusion (e.g., thalassemia major). The TxGNN model predicts it may be effective for **Hepatic Porphyria**, but this direction is currently supported only by **2 preclinical/animal publications** and **no registered clinical trials**.
+Deferiprone on suun kautta otettava rautaa sitova lääke, jonka vakiintunut kliininen käyttö — kuten näyttöpaketin omissa perusteluissa todetaan — on kroonisen rautaylijäämän hoitaminen pitkäaikaisten verensiirtojen yhteydessä (esim. talassemia major). TxGNN-malli ennustaa, että se voi olla tehokas **maksan porfyriassa**, mutta tämä suunta tuetaan tällä hetkellä vain **2 prekliinisellä/eläintutkimuksella** ja **rekisteröityjen kliinisten tutkimusten puuttuessa**.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Iron overload (chronic, transfusion-related — per evidence pack rationale; not marketed locally, so no formal approved-indication text is available) |
-| Predicted New Indication | Hepatic Porphyria |
-| TxGNN Prediction Score | 99.20% |
-| Evidence Level | L4 |
-| Finland Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen indikaatio | Rautaylijäämä (krooninen, verensiirtoon liittyvä — näyttöpaketin perusteluissa mainittu; ei markkinoitu paikallisesti, joten virallista hyväksytyn indikaation tekstiä ei ole saatavilla) |
+| Ennustettu uusi indikaatio | Maksan porfyyria |
+| TxGNN-ennustepistemäärä | 99.20% |
+| Näyttötaso | L4 |
+| Suomen markkinatilanne | Ei markkinoitu (Not marketed) |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Odota |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on kohtuullinen?
 
-Currently, detailed mechanism of action data is not available. Based on the information present in this evidence pack, deferiprone is an oral iron-chelating agent, and its rationale entries indicate proven efficacy in reducing iron-catalyzed oxidative damage in transfusion-dependent iron overload states.
+Tällä hetkellä yksityiskohtaisesta vaikutusmekanismista saatavilla olevat tiedot puuttuvat. Tässä näyttöpaketissa esitettyjen tietojen perusteella deferiprone on suun kautta otettava rautaa sitova lääke, ja sen perusteluissa mainitaan sen todistettu tehokkuus raudan katalysoiman hapettavan vaurioitumisen vähentämisessä verensiirtoihin liittyvässä rautaylijäämässä.
 
-Mechanistically, hepatic porphyria and iron overload intersect through iron-driven oxidative stress: excess free iron catalyzes Fenton-type reactions that worsen porphyrin accumulation and associated hemolysis. Two preclinical studies in the evidence pack support this link — one showing iron chelation rescues hemolytic anemia and skin photosensitivity in a congenital erythropoietic porphyria model (PMID 32678895), and another showing an oral iron chelator (deferiprone) reduces uroporphyrin accumulation in a murine model of porphyria cutanea tarda (PMID 17854053).
+Mekanistisesti hepataaliset porfyriat ja rautaylijäämä leikkaavat raudan aiheuttaman hapettavan stressin kautta: ylijäämäinen vapaa rauta katalysoi Fenton-tyyppisiä reaktioita, jotka pahentavat porfyriinikertymää ja siihen liittyvää hemolyysiä. Kaksi näyttöpaketin prekliinistä tutkimusta tukevat tätä mekanismia — toinen osoittaa rautasidontahoidon pelastavat hemolyttisen anemia:n ja ihon valoherkkyyden synnynnäisen erytropoiettisen porfyyrian (CEP) mallissa, mikä liittyy pelkistettyyn porfy-riiniisomeeri I:n ylijäämään (PMID 32678895), ja toinen osoittaa suun kautta otettavan rautasidontaaineen (deferiprone) vähentävän maksassa olevaa uroporfy-riinin kertymää Hfe(-/-) hiirillä, verrattavissa rautavajeisen ruokavalion lähestymistapaan porfyria cutanea tardassa (PMID 17854053).
 
-However, both supporting studies are animal/preclinical in nature, with no human clinical trial or observational data identified. The mechanistic plausibility is reasonable, but translation to human hepatic porphyria remains unconfirmed.
+Kuitenkin molemmat tukevia tutkimuksia ovat eläimistön/prekliinisiä, eikä ihmisten kliinisiä tutkimuksia tai havaintotietoja ole löydetty. Mekanistinen uskottavuus on kohtuullinen, mutta siirtyminen ihmisen hepataaliseen porfyriaan jää vielä vahvistamatta.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-Currently no related clinical trials registered
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät löydökset |
 |------|-----|------|------|---------|
-| [32678895](https://pubmed.ncbi.nlm.nih.gov/32678895/) | 2020 | Preclinical/Animal | Blood | Iron chelation rescued hemolytic anemia and skin photosensitivity in a congenital erythropoietic porphyria (CEP) model, linked to reduced porphyrin isomer I overload |
-| [17854053](https://pubmed.ncbi.nlm.nih.gov/17854053/) | 2007 | Preclinical/Animal (murine) | Hepatology (Baltimore, Md.) | Oral iron chelator (deferiprone/L1) reduced hepatic uroporphyrin accumulation in Hfe(-/-) mice, comparable to iron-deficient diet approach for porphyria cutanea tarda |
+| [32678895](https://pubmed.ncbi.nlm.nih.gov/32678895/) | 2020 | Prekliininen/Eläin | Blood | Rautasidonta pelasti hemolyttista anemiaa ja ihon valoherkkyytta synnynnäisen erytropoiettisen porfyyrian (CEP) mallissa, mikä liittyy pelkistettyyn porfy-riiniisomeeri I:n ylijäämään |
+| [17854053](https://pubmed.ncbi.nlm.nih.gov/17854053/) | 2007 | Prekliininen/Eläin (hiiri) | Hepatology (Baltimore, Md.) | Suun kautta otettava rautasidontaaine (deferiprone/L1) vähensi maksassa olevan uroporfy-riinin kertymää Hfe(-/-) hiirillä, verrattavissa rautavajeisen ruokavalion lähestymistapaan porfyria cutanea tardassa |
 
-## Safety Considerations
+## Turvallisuuden huomiot
 
-Please refer to the package insert for safety information.
+Katso turvallisuustiedoista pakkausseloste.
 
-## Conclusion and Next Steps
+## Johtopäätökset ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Odota**
 
-**Rationale:**
-Evidence for the hepatic porphyria indication is limited to two preclinical/animal studies (L4) with no clinical trials or human data; the drug is also not currently marketed locally, and core safety documentation (TFDA warnings/contraindications, MOA) is flagged as a blocking data gap in this evidence pack.
+**Perustelut:**
+Hepataalisella porfyrialla olevan näytön perusteena ovat ainoastaan kaksi prekliinistä/eläintutkimusta (L4), joista puuttuvat kliiniset tutkimukset ja ihmisten tiedot; lääke ei myöskään ole tällä hetkellä markkinoitu paikallisesti, ja keskeinen turvallisuusasiakirja (TFDA varoitukset/vasta-aiheet, vaikutusmekanismi) on merkitty blokaavaksi tiedon puutteeksi tässä näyttöpaketissa.
 
-**To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) data from DrugBank or primary literature (DG002)
-- TFDA/local package insert data on warnings and contraindications before any S1 safety evaluation (DG001)
-- Human clinical evidence (case series, observational, or trial data) in hepatic porphyria patients before advancing beyond a research-question stage
-- Note: within this same evidence pack, beta-thalassemia with other manifestations (rank 8, L3, "Proceed with Guardrails") has materially stronger literature support and may be a more actionable near-term candidate than hepatic porphyria
+**Edistymisen edellytyksenä vaaditaan:**
+- Vahvistettu vaikutusmekanismin (MOA) tieto DrugBankista tai alkuperäisestä kirjallisuudesta (DG002)
+- TFDA/paikallisen pakkausselosteen tiedot varoituksista ja vasta-aiheista ennen S1-turvallisuuden arviointia (DG001)
+- Ihmisten kliininen näyttö (tapaussarja, havaintoiva tai tutkimustieto) hepataalisesti porfyriapotilailla ennen siirtymistä tutkimuskysymystason yli
+- Huomio: samassa näyttöpaketissa beta-talassemia muiden ilmenemismuotojen kanssa (sijoitus 8, L3, "Jatka turvasäädöillä") on merkittävästi vahvemmin tuettu kirjallisuus ja voi olla käyttökelpoisempi lähiajan ehdokas kuin hepataalinen porfyyria
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -29,83 +29,84 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Romiplostim: From Immune Thrombocytopenia to Primary Release Disorder of Platelets
+# Romiplostim: immuunitrombosytopeniasta primaarisen verihiutaleiden vapautumishäiriöön
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Romiplostim is a thrombopoietin (TPO) receptor agonist internationally used to treat chronic immune thrombocytopenia (ITP); detailed original-indication and MOA data were not captured in this evidence pack, and the drug is not currently marketed in Finland.
-The TxGNN model predicts it may be effective for **primary release disorder of platelets**, with **1 clinical trial** and **2 publications** currently associated with this direction — none of which directly test romiplostim in this specific disease.
-Evidence quality is preclinical/mechanistic (L4); this remains a research question rather than an actionable repurposing candidate at this time.
+Romiplostim on trombopoietiini (TPO) -reseptoriagonisti, jota käytetään kansainvälisesti kroonisen immuunitrombosytopenia (ITP) hoitoon; yksityiskohtaiset alkuperäisen indikaation ja vaikutusmekanismin tiedot eivät olleet tämän näytöpaketin kohteena, ja lääkettä ei myönnetä tällä hetkellä Suomessa.
+TxGNN-malli ennustaa sen voivan olla tehokas **primaarisen verihiutaleiden vapautumishäiriön** hoitoon, ja siihen liittyy tällä hetkellä **1 kliininen tutkimus** ja **2 julkaisua** — mikään näistä ei kuitenkaan testaa romiplostimia suoraan tässä spesifisessä taudissa.
+Näytön laatu on prekliininen/mekanistinen (L4); tämä on edelleen tutkimuskysymys pikemminkin kuin toimintakelpoinen uudelleenkäytön ehdokas tässä vaiheessa.
 
 ---
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohde | Sisältö |
 |------|------|
-| Original Indication | Not available in evidence pack (no licenses on file); internationally approved for chronic Immune Thrombocytopenia (ITP) |
-| Predicted New Indication | Primary release disorder of platelets |
-| TxGNN Prediction Score | 99.9998% |
-| Evidence Level | L4 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen indikaatio | Ei saatavilla näytöpaketissa (lisenssiä ei ole); kansainvälisesti hyväksytty kroonisen immuunitrombosytopenia (ITP) hoitoon |
+| Ennustettu uusi indikaatio | Primaarinen verihiutaleiden vapautumishäiriö |
+| TxGNN ennustepisteet | 99.9998% |
+| Näytön taso | L4 |
+| Suomen markkinatilanne | ✗ Ei myyntilupia |
+| Myyntilupien määrä | 0 |
+| Suositeltu päätös | Pysäytä |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Detailed mechanism of action data is not available in this evidence pack (flagged as a High-severity data gap). Based on known information, romiplostim is a thrombopoietin receptor (MPL) agonist that binds and activates the TPO receptor on megakaryocyte progenitors, stimulating megakaryocyte proliferation and platelet production/release — this is the mechanistic basis of its established efficacy in chronic ITP.
+Yksityiskohtaiset vaikutusmekanismin tiedot eivät ole saatavilla tässä näytöpaketissa (merkitty korkeaprioriteetiseksi tietovajepyyntönä). Saatavilla olevien tietojen perusteella romiplostim on trombopoietiini-reseptorin (MPL) agonisti, joka sitoutuu ja aktivoi TPO-reseptorin megakaryosyyttiä edeltävissä soluissa, edistäen megakaryosyytin proliferaatiota ja verihiutaleiden tuotantoa/vapautumista — tämä on mekanistinen perusta sen vakiintuneen tehokkuuden taustalla kroonisessa ITP:ssä.
 
-Primary release disorder of platelets refers to defective release of platelets from megakaryocytes into circulation. Since romiplostim's core pharmacology is to stimulate megakaryocytopoiesis and platelet release, there is a plausible mechanistic direction between the two conditions.
+Primaarinen verihiutaleiden vapautumishäiriö viittaa megakaryosyytistä verenkiertoon tapahtuvan verihiutaleiden vapautumisen häiriöihin. Koska romiplostimin ydinpharmakaologia on megakaryosytopoeesiä ja verihiutaleiden vapautumista stimuloida, on mekanistisen suunnan välillä olemassa uskottava yhteys näiden kahden tilan välillä.
 
-However, the supporting evidence currently on file does not test this hypothesis directly: the single clinical trial identified (NCT03820960) is an observational study of thrombosis risk factors in ITP patients, not an interventional trial of romiplostim, and both literature citations are reviews of megakaryocytopoiesis/ITP autoantibody biology rather than romiplostim efficacy studies. As the rationale notes, the underlying mechanism (TPO receptor agonism to boost platelet generation) is directionally consistent, but the cited evidence describes autoantibody-mediated inhibition of proplatelet formation in ITP — a related but distinct clinical entity from primary release disorder of platelets itself.
+Kuitenkin tällä hetkellä käytettävissä oleva tukea antava näyttö ei testaa tätä hypoteesia suoraan: tunnistettu yksittäinen kliininen tutkimus (NCT03820960) on havainnollinen tutkimus tromboosiriskin tekijöistä ITP-potilaissa, ei romiplostimin interventiotutkimus, ja molemmat kirjallisuusviittaukset ovat megakaryosytopoeesiä/ITP-autoantiaineiden biologian katselmuksia pikemminkin kuin romiplostimin tehokkuustutkimuksia. Mekanismi (TPO-reseptoriagonismi verihiutaleiden tuotannon edistämiseksi) on suunnallisesti johdonmukainen, mutta siteerattu näyttö kuvailee autoantiaineiden välittämää proplateletin muodostumisen estämistä ITP:ssä — liittyvä mutta erillinen kliininen entiteetti verrattuna primaariseen verihiutaleiden vapautumishäiriöön.
 
 ---
 
-## Clinical Trial Evidence
+## Kliinisten tutkimusten näyttö
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimusnumero | Vaihe | Tila | Rekrytointi | Keskeiset löydökset |
 |---------|------|------|------|---------|
-| [NCT03820960](https://clinicaltrials.gov/study/NCT03820960) | N/A | Completed | 10,039 | Observational study of thrombosis risk factors in immune thrombocytopenia (ITP) patients; does not evaluate romiplostim treatment. Population-overlap relevance only (Grade C). |
+| [NCT03820960](https://clinicaltrials.gov/study/NCT03820960) | N/A | Valmis | 10,039 | Havainnollinen tutkimus tromboosiriskin tekijöistä immuunitrombosytopenia (ITP) -potilaissa; ei arvioi romiplostimin hoitoa. Väestöpäällekkäisyyden perusteella relevantti (Grade C). |
 
 ---
 
-## Literature Evidence
+## Kirjallisuusnäyttö
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
 |------|-----|------|------|---------|
-| [23594368](https://pubmed.ncbi.nlm.nih.gov/23594368/) | 2013 | Review | British Journal of Haematology | Reviews megakaryocytopoiesis and thrombopoiesis biology, including TPO's role as the primary growth factor for the megakaryocyte lineage. |
-| [25682608](https://pubmed.ncbi.nlm.nih.gov/25682608/) | 2015 | Review | Haematologica | Shows antiplatelet autoantibodies in primary ITP inhibit proplatelet formation by megakaryocytes and impair platelet production in vitro. |
+| [23594368](https://pubmed.ncbi.nlm.nih.gov/23594368/) | 2013 | Katselmaus | British Journal of Haematology | Käsittelee megakaryosytopoeesiä ja thrombopoieesiä, mukaan lukien TPO:n roolia megakaryosyyttilinjan ensisijaisena kasvutekijänä. |
+| [25682608](https://pubmed.ncbi.nlm.nih.gov/25682608/) | 2015 | Katselmaus | Haematologica | Osoittaa, että ensisijaisen ITP:n verihiutale-autoantiaineet estävät megakaryosyyttien proplateletin muodostumista ja heikentävät verihiutaleiden tuotantoa in vitro -tutkimuksissa. |
 
 ---
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Currently no marketing authorization on file — romiplostim is not marketed in Finland (0 authorizations).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Key warnings, contraindications, and drug-interaction data were queried but not returned — flagged as a Blocking-severity data gap requiring retrieval of the TFDA/Fimea package insert.)*
+Tällä hetkellä ei ole markkinointilupaa — romiplostimia ei myynnetä Suomessa (0 myyntilupaa).
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuusnäkökohdat
 
-**Decision: Hold**
+Katso turvallisuustiedot pakkausselosteesta.
 
-**Rationale:**
-The predicted indication is supported only by a mechanistic rationale (TPO-receptor agonism → megakaryocyte stimulation) and indirect evidence — one observational trial that does not test romiplostim, plus two review articles on related ITP biology. No trial or publication directly evaluates romiplostim in "primary release disorder of platelets," placing this at evidence level L4 / decision stage S1 (Research Question).
+*(Tärkeimmät varoitukset, vasta-aiheet ja lääkkeen yhteisvaikutustiedot kyseittiin, mutta niitä ei palautettu — merkitty kriittisenä tietovajepyyntönä, joka vaatii TFDA/Fimean pakkausselosteen noutamista.)*
 
-**To proceed, the following is needed:**
-- Original indication and mechanism-of-action data from DrugBank/Fimea package insert (currently marked as data gaps)
-- Fimea/TFDA-equivalent package insert warnings and contraindications (Blocking gap — required before any safety pre-assessment)
-- A direct interventional study (preclinical or clinical) of romiplostim specifically in primary release disorder of platelets, rather than general ITP populations
-- Reassessment of other TxGNN-predicted indications in this pack with stronger direct evidence — notably "platelet-type bleeding disorder" (rank 8), which has a completed Phase 3 RCT (NCT03362177) and evidence level L2, and may warrant separate evaluation
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pysäytä**
+
+**Perustelut:**
+Ennustettu indikaatio on tuettavissa vain mekanistisilla perustelulla (TPO-reseptoriagonismi → megakaryosyytin stimulaatio) ja epäsuoralla näytöllä — yksi havainnollinen tutkimus, joka ei testaa romiplostimia, sekä kaksi katselmusta liittyvistä ITP-biologian tekijöistä. Mikään tutkimus tai julkaisu ei arvioi romiplostimia suoraan "primaarisen verihiutaleiden vapautumishäiriössä", mikä sijoittaa tämän näyttötasolle L4 / päätösvaiheelle S1 (tutkimuskysymys).
+
+**Jatkaakseen seuraavaa tarvitaan:**
+- Alkuperäisen indikaation ja vaikutusmekanismin tiedot DrugBankista/Fimean pakkausselosteesta (merkitty tällä hetkellä tietovajepyyntönä)
+- Fimean/TFDA-vastaavan pakkausselosteen varoitukset ja vasta-aiheet (kriittinen vaje — vaaditaan ennen turvallisuusarviota)
+- Suora interventiotutkimus (prekliininen tai kliininen) romiplostimista nimenomaan primaarisen verihiutaleiden vapautumishäiriön osalta yleisten ITP-väestöjen asemesta
+- Tämän paketin muiden TxGNN-ennustettujen indikaatioiden uudelleenarvio vahvemman suoran näytön kanssa — erityisesti "verihiutale-tyypin verenvuototauti" (sijoitus 8), jolla on valmis Phase 3 RCT (NCT03362177) ja näyttötaso L2, ja joka voi vaatia erillisen arvion
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

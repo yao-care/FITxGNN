@@ -29,82 +29,82 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Pregabalin: From Unspecified Original Indication to Tendinitis
+# Pregabalin: Määrittelemättömästä alkuperäisestä indikaatiosta tendinitiikseen
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Pregabalin (DrugBank DB00230) is a gabapentinoid analgesic/anticonvulsant; this Evidence Pack does not record its original approved indication(s) — that field is empty in the source data.
-The TxGNN model predicts it may be effective for **Tendinitis**, but current support is limited to **0 clinical trials** and **6 publications**, most of which address postoperative pain control rather than tendinitis pathology itself.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not specified in evidence pack (data gap) |
-| Predicted New Indication | Tendinitis |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L4 |
-| Taiwan Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Pregabalin (DrugBank DB00230) on gabapentinoidi analgeetti/antikonvulsantti; tämä Evidence Pack ei sisällä sen alkuperäisiä hyväksyttyjä indikaatiota/indikaatioita – kyseinen kenttä on tyhjä lähdetiedoissa. TxGNN-malli ennustaa, että se saattaa olla tehokas **tendinitiiksessä**, mutta nykyinen näyttö rajoittuu **0 kliiniseen tutkimukseen** ja **6 julkaisuun**, joista suurin osa käsittelee postoperatiivista kipun hallintaa pikemmin kuin tendinittipatologiaa itsessään.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Yleiskatsaus
 
-Currently, detailed mechanism of action data for pregabalin is not available in this Evidence Pack, and no original indication is recorded either — both are flagged as data gaps (MOA: High severity; TFDA label/warnings: Blocking severity). Based on general pharmacological class knowledge represented in the literature evidence below, pregabalin acts on the α2δ subunit of voltage-gated calcium channels to reduce neuronal excitability and is used clinically as an analgesic for neuropathic and postoperative pain.
-
-The link to tendinitis is indirect. Most of the supporting literature examines pregabalin's use for **postoperative pain control after rotator cuff/shoulder arthroscopy** or for **unrelated peripheral neuropathy case reports**, not for tendinitis pathology (inflammation or collagen repair) itself. As the model's own repurposing rationale states, pregabalin's analgesic effect may only indirectly relieve neuropathic pain that co-occurs with tendinitis, but there is no disease-specific mechanistic evidence connecting it to tendon pathology.
-
-Given this, the prediction should be read as a pain-management adjacency signal rather than a disease-modifying hypothesis for tendinitis.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Ei määritelty evidence packissa (tietoväli) |
+| Ennustettu uusi indikaatio | Tendiniitti |
+| TxGNN-ennustepistemäärä | 99.71% |
+| Näytön taso | L4 |
+| Taiwanin markkinatilanne | Ei markkinoilla (Ei markkinoilla) |
+| Valtuuksien lukumäärä | 0 |
+| Suositeltu päätös | Odota |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennuste on järkevä?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [32839073](https://pubmed.ncbi.nlm.nih.gov/32839073/) | 2021 | RCT | J Orthop Sci | Retrospective cohort on pregabalin's analgesic efficacy and opioid-sparing effect after arthroscopic rotator cuff repair |
-| [34052386](https://pubmed.ncbi.nlm.nih.gov/34052386/) | 2022 | RCT | Arthroscopy | Perioperative oral pregabalin produced pain scores equivalent to interscalene brachial plexus block after rotator cuff repair |
-| [40818536](https://pubmed.ncbi.nlm.nih.gov/40818536/) | 2025 | Editorial Commentary | Arthroscopy | Discussion of piriformis syndrome diagnosis/treatment; not pregabalin- or tendinitis-specific |
-| [37051935](https://pubmed.ncbi.nlm.nih.gov/37051935/) | 2023 | Case report | Pain Practice | Posterior femoral cutaneous nerve impingement from hamstring tendonitis in a marathon runner |
-| [41017607](https://pubmed.ncbi.nlm.nih.gov/41017607/) | 2025 | Case report | Praxis | Fluoroquinolone (ciprofloxacin)-associated tendinopathy and disability; not a pregabalin study |
-| [39703364](https://pubmed.ncbi.nlm.nih.gov/39703364/) | 2024 | Animal study (non-pregabalin agent) | Adv Pharmacol Pharm Sci | Plant extract (Cissus quadrangularis) attenuates chemotherapy-induced neuropathy in rats; tendon healing mentioned only as background |
+Tällä hetkellä pregabaliinin yksityiskohtaisia vaikutusmekanismi-tietoja ei ole saatavilla tässä Evidence Packissa, eikä alkuperäistäkään indikaatiota ole kirjattu – molemmat on merkitty tietovajeiksi (MOA: korkea vakavuus; TFDA-etiketti/varoitukset: estävä vakavuus). Alla esitettyjen kirjallisuusperustaisten näyttöjen edustaman yleisen farmakologisen luokan tietojen perusteella pregabalin vaikuttaa jännitteellä ohjattavan kalsiumkanavan α2δ-aleyksikköön hermosolujen kiihtyvyyttä vähentääkseen ja sitä käytetään kliinisesti analgeettina neuropaattisen ja postoperatiivisen kivun hoitoon.
+
+Yhteys tendinitiikseen on epäsuora. Suurin osa tukevasta kirjallisuudesta tutkii pregabaliinin käyttöä **postoperatiivisen kipun hallintaan rotaatorimansettikorjauksen/olkapään artroskoopian jälkeen** tai **riippumattomista ääreishermon puristusta koskevista tapausraporteista**, ei tendinittipatologian **(tulehdus tai kollageenikorjaus) itsestään.**
+
+Tämän vuoksi ennuste tulisi lukea kipunhallintaan liittyväksi signaaleiksi pikemmin kuin tendiittiä muokkaavaksi hypoteesiksi.
 
 ---
 
-## Taiwan Market Information
+## Kliinisen tutkimuksen näyttö
 
-Pregabalin is currently **not marketed** in this jurisdiction (0 authorizations on record), so no product license table is available.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
 
 ---
 
-## Conclusion and Next Steps
+## Kirjallisuusperustainen näyttö
 
-**Decision: Hold**
+| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät löydökset |
+|------|-------|--------|-------|----------------------|
+| [32839073](https://pubmed.ncbi.nlm.nih.gov/32839073/) | 2021 | RCT | J Orthop Sci | Retrospektiivinen kohortti pregabaliinin analgeettisesta tehokkuudesta ja opioidsäästävästä vaikutuksesta artroskooppisen rotaatorimansettikorjauksen jälkeen |
+| [34052386](https://pubmed.ncbi.nlm.nih.gov/34052386/) | 2022 | RCT | Arthroscopy | Perioperatiivisesti suun kautta annettu pregabalin tuotti kipuarviot, jotka vastaavat intercalene-brachiaalipleksusestoa rotaatorimansettikorjauksen jälkeen |
+| [40818536](https://pubmed.ncbi.nlm.nih.gov/40818536/) | 2025 | Editorial Commentary | Arthroscopy | Piriformis-oireyhtymän diagnoosin/hoidon käsittely; ei pregabalin- tai tendiniittikohtainen |
+| [37051935](https://pubmed.ncbi.nlm.nih.gov/37051935/) | 2023 | Case report | Pain Practice | Takaisen reisinahkaisen hermon puristus reisilihastendiitista maratonijuoksijalla |
+| [41017607](https://pubmed.ncbi.nlm.nih.gov/41017607/) | 2025 | Case report | Praxis | Fluorokinoloniista (ciprofloxacin) aiheutuva tendopatia ja vammaisuus; ei pregabaliinitutkimus |
+| [39703364](https://pubmed.ncbi.nlm.nih.gov/39703364/) | 2024 | Animal study (non-pregabalin agent) | Adv Pharmacol Pharm Sci | Kasviperäinen uute (Cissus quadrangularis) lieventää kemoterapiasta aiheutuvaa ääreishermon vaivaa rotilla; jänteen paraneminen mainitaan vain taustaksi |
 
-**Rationale:**
-Evidence for pregabalin in tendinitis is at Evidence Level L4 with no clinical trials, and the available literature addresses postoperative pain management or unrelated conditions rather than tendinitis pathology directly — insufficient to justify advancing past initial screening.
+---
 
-**To proceed, the following is needed:**
-- Confirmed original indication(s) and detailed MOA data (currently data gaps)
-- TFDA package insert (warnings/contraindications) — currently a Blocking data gap for safety screening
-- Preclinical or mechanistic studies directly evaluating pregabalin in tendinopathy models
-- A disease-specific pilot or observational study before considering trial design
+## Taiwanin markkinatiedot
+
+Pregabalin ei ole tällä hetkellä **markkinoilla** tällä lainkäyttöalueella (0 valtuutusta rekisterissä), joten tuoteluvantaulukkoa ei ole saatavilla.
+
+---
+
+## Turvallisuushuomiot
+
+Katso turvallisuustiedoista pakkauksen selosteesta.
+
+---
+
+## Johtopäätökset ja seuraavat vaiheet
+
+**Päätös: Odota**
+
+**Perustelut:**
+Pregabaliinin näyttö tendinitiikselle on näytön tasolla L4 ilman kliinisiä tutkimuksia, ja saatavilla oleva kirjallisuus käsittelee postoperatiivisen kipun hallintaa tai muihin sairauksiin liittyviä tekijöitä pikemmin kuin tendinittipatologiaa suoraan – riittämätön perustelun antaminen alkuperäisen seulonnan jälkeisen etenemiselle.
+
+**Jatkaaksesi tarvitset seuraavaa:**
+- Vahvistettu alkuperäinen indikaatio/indikaatiot ja yksityiskohtainen MOA-tieto (tällä hetkellä tietovajeet)
+- TFDA-pakkauksen seloste (varoitukset/vasta-aiheet) – tällä hetkellä turvallisuusseulontaa estävä tietoväli
+- Prekliiniset tai mekanistiset tutkimukset, jotka arvioivat suoraan pregabalin tendinopatia-malleissa
+- Sairauden spesifinen pilotti- tai havainnointitutkimus ennen tutkimussuunnittelun harkitsemista
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

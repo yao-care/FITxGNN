@@ -29,104 +29,103 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-Using the report structure to generate this directly from the Evidence Pack data (no ambiguity in schema — proceeding without other skills, as this is a single-shot content generation task using the fully-specified template already provided).
+# Temozolomiidi: pahanlaatuisen gliooman kemoterapiasta aikuisten astrosyyttisiin kasvaimiin
 
-# Temozolomide: From Malignant Glioma Chemotherapy to Adult Astrocytic Tumour
+## Yhden lauseen yhteenveto
 
-## One-Sentence Summary
-
-Temozolomide is an oral alkylating chemotherapy agent already established worldwide as the backbone of malignant glioma treatment. The TxGNN model predicts it is effective for **Adult Astrocytic Tumour**, a disease category that substantially overlaps with its existing standard-of-care use, and this direction is supported by **2 registered clinical trials** (including 1 completed Phase 3 RCT, n=500) and **20 publications**, several of which are landmark practice-defining trials (e.g., the original Stupp regimen study).
+Temozolomiidi on suun kautta otettava alkylointiaine, joka on jo maailmanlaajuisesti hyväksi todettu pahanlaatuisen gliooman hoidon kulmakivi. TxGNN-malli ennustaa sen olevan tehokas **aikuisten astrosyyttisten kasvaimien** hoidossa, sairausluokka, joka sisältää huomattavan päällekkäisyyden sen olemassa olevan standardi-hoidon kanssa, ja tätä suuntaa tukee **2 rekisteröityä kliinistä tutkimusta** (sisältäen 1 päätöitetyn vaihe 3 RCT:n, n=500) ja **20 julkaisua**, joista useat ovat merkittäviä käytäntöä määrittäviä tutkimuksia (esim. alkuperäinen Stupp-regimen-tutkimus).
 
 ---
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Not confirmed in local licensing data (0 authorizations on file); evidence-pack mechanistic analysis identifies malignant glioma / anaplastic astrocytoma chemotherapy (Stupp regimen) as temozolomide's established global use |
-| Predicted New Indication | Adult Astrocytic Tumour |
-| TxGNN Prediction Score | 99.36% |
-| Evidence Level | L1 |
-| Finland Market Status | ✗ Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
-
-## Why is This Prediction Reasonable?
-
-Temozolomide is an oral imidazotetrazine alkylating prodrug. It undergoes spontaneous, non-enzymatic hydrolysis to MTIC, which methylates DNA at the O6 and N7 positions of guanine. This methylation triggers a futile mismatch-repair (MMR) cycle that ultimately drives apoptosis in tumor cells. Its high lipophilicity allows it to cross the blood–brain barrier, and MGMT (O6-methylguanine-DNA methyltransferase) promoter methylation status is the key biomarker predicting treatment response.
-
-Because astrocytic tumors (including glioblastoma and anaplastic astrocytoma) arise from the same glial cell lineage that temozolomide was developed to target, the mechanistic fit is direct rather than inferred by analogy — unlike typical drug-repurposing candidates where the original and new indications are pharmacologically distant.
-
-**Important caveat:** the evidence pack's own rationale explicitly notes that this is "the current standard of care (Stupp regimen), not strictly repurposing in the narrow sense, but an extension of evidence for an already-established indication." In other words, TxGNN has correctly rediscovered temozolomide's known primary use rather than surfaced a genuinely novel therapeutic hypothesis. This strengthens confidence in the model's signal quality but reduces its value as a *new* opportunity — the practical question here is regulatory/market entry, not proof of efficacy.
+| Kohta | Sisältö |
+|------|--------|
+| Alkuperäinen indikaatio | Ei vahvistettu paikallisissa luparekistereissä (0 lupia tiedostossa); näyttöpakin mekanistinen analyysi tunnistaa pahanlaatuisen gliooman ja anaplastisen astrosytoomachemoterapian (Stupp-regimen) temozolomidin vakiintuneeksi globaaliksi käyttötarkoitukseksi |
+| Ennustettu uusi indikaatio | Aikuisten astrosyyttinen kasvain |
+| TxGNN-ennustuspisteet | 99.36% |
+| Näyttötaso | L1 |
+| Suomen markkinatilanne | ✗ Ei markkinoilta (Ei markkinoilta) |
+| Myyntilupien lukumäärä | 0 |
+| Suositeltu päätös | Jatka varauksilla |
 
 ---
 
-## Clinical Trial Evidence
+## Miksi tämä ennuste on järkevä?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Temozolomiidi on suun kautta otettava imidatsotetratsiini-alkylointiyhdiste. Se käy läpi spontaania, entsyymiton hydrolyysiä MTIC:ksi, joka metyloii DNA:ta guaniinin O6- ja N7-asemissa. Tämä metylointi käynnistää turhaa virheellisen parituksen korjausta (MMR), joka lopulta johtaa syöpäsolujen apoptooosiin. Sen korkea lipofilisuus mahdollistaa sen kulkeutumisen veri-aivoesteen yli, ja MGMT:n (O6-methylguanine-DNA methyltransferase) promoottorin metyloinnin status on keskeinen biomarkeri, joka ennustaa hoitovastetta.
+
+Koska astrosyyttiset kasvaimet (mukaan lukien glioblastooma ja anaplastinen astrosytooma) syntyvät samasta glia-solulinjasta, johon temozolomiidi kehitettiin kohdistamaan, mekanistinen sopivuus on suora, ei analogian perusteella päätelty – toisin kuin tyypillisissä lääkkeiden uudelleenkäytön kandidaateissa, joissa alkuperäinen ja uusi indikaatio ovat farmakologisesti etäisiä.
+
+**Tärkeä huomio:** näyttöpakin perustelussa nimenomaisesti todetaan, että tämä on "nykyinen standardi hoito (Stupp-regimen), ei tiukasti uudelleenkäyttö suppeassa merkityksessä, vaan jo vakiintuneen indikaation todistusaineiston laajennusta". Toisin sanoen TxGNN on oikein löytänyt uudelleen temozolomidin jo tunnetun pääkäyttötarkoituksen sen sijaan että se olisi tuonut esiin täysin uutta terapeuttista hypoteesia. Tämä vahvistaa luottamusta mallin havaitseman signaalin laatuun, mutta vähentää sen arvoa *uutena* mahdollisuutena – käytännöllinen kysymys tässä on paikallinen sääntelytie, ei tehokkuus.
+
+---
+
+## Kliiniset tutkimukset
+
+| Tutkimuksen numero | Vaihe | Tila | Osallistujat | Keskeiset tulokset |
 |---------|------|------|------|---------|
-| [NCT00052455](https://clinicaltrials.gov/study/NCT00052455) | Phase 3 | Completed | 500 | Head-to-head RCT comparing temozolomide alone vs. procarbazine/lomustine/vincristine (PCV) in recurrent WHO Grade III/IV astrocytic tumors — direct efficacy evidence for this indication (relevance grade A). |
-| [NCT00960492](https://clinicaltrials.gov/study/NCT00960492) | Phase 1 | Completed | 26 | Dose-finding study of cabozantinib (XL184) combined with temozolomide + radiotherapy as first-line treatment in glioblastoma; temozolomide is a combination-arm component, providing supportive safety/PK data rather than standalone efficacy (relevance grade B). |
+| [NCT00052455](https://clinicaltrials.gov/study/NCT00052455) | Vaihe 3 | Päätöitetty | 500 | Rinnakkaisvertailu RCT temozolomidia yksin vs. prokarbasiini / lomustiini / vinkristiini (PCV) uusiutuvissa WHO-luokka III/IV astrosyyttisissa kasvaimissa – suora tehokkuustodiste tälle indikaatiolle (merkitysaste A). |
+| [NCT00960492](https://clinicaltrials.gov/study/NCT00960492) | Vaihe 1 | Päätöitetty | 26 | Optimaalisen annoksen tutkimus kabotsantinibista (XL184) yhdistettynä temozolomiidiin + sädehoitoon ensimmäisen linjan hoitona glioblastoomassa; temozolomiidi on kombinaatiohaaran komponentti, joka tarjoaa tukevaa turvallisuus-/PK-näyttöä pikemminkin kuin itsenäistä tehokkuusnäyttöä (merkitysaste B). |
 
 ---
 
-## Literature Evidence
+## Kirjallisuustutkimukset
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset tulokset |
 |------|-----|------|------|---------|
-| [15758009](https://pubmed.ncbi.nlm.nih.gov/15758009/) | 2005 | RCT | N Engl J Med | Landmark EORTC-NCIC trial establishing radiotherapy + concomitant/adjuvant temozolomide (the "Stupp regimen") as standard of care for newly diagnosed glioblastoma. |
-| [19269895](https://pubmed.ncbi.nlm.nih.gov/19269895/) | 2009 | RCT (long-term follow-up) | Lancet Oncol | 5-year follow-up of the EORTC-NCIC trial confirming durable survival benefit of RT + temozolomide over RT alone. |
-| [24552317](https://pubmed.ncbi.nlm.nih.gov/24552317/) | 2014 | RCT | N Engl J Med | Randomized trial adding bevacizumab to RT + temozolomide in newly diagnosed glioblastoma; no overall survival benefit shown. |
-| [30782343](https://pubmed.ncbi.nlm.nih.gov/30782343/) | 2019 | RCT | Lancet | CeTeG/NOA-09 Phase 3 trial: lomustine-temozolomide combination improved OS vs. temozolomide alone in MGMT-methylated glioblastoma. |
-| [26670971](https://pubmed.ncbi.nlm.nih.gov/26670971/) | 2015 | RCT | JAMA | Randomized trial showing Tumor-Treating Fields plus maintenance temozolomide improves survival vs. temozolomide alone. |
-| [22578793](https://pubmed.ncbi.nlm.nih.gov/22578793/) | 2012 | RCT | Lancet Oncol | NOA-08 Phase 3 trial: dose-dense temozolomide alone vs. radiotherapy alone in elderly patients with malignant astrocytoma. |
-| [40779733](https://pubmed.ncbi.nlm.nih.gov/40779733/) | 2025 | RCT | J Clin Oncol | NRG Oncology BN007 Phase II/III trial of dual immune checkpoint blockade in MGMT-unmethylated newly diagnosed glioblastoma. |
-| [25920709](https://pubmed.ncbi.nlm.nih.gov/25920709/) | 2015 | Cohort/Trial | J Neurooncol | Exploratory cohort of radiotherapy + temozolomide specifically in anaplastic astrocytic gliomas. |
-| [36809318](https://pubmed.ncbi.nlm.nih.gov/36809318/) | 2023 | Review | JAMA | Comprehensive review of glioblastoma and other primary adult brain malignancies, including temozolomide-based standard of care. |
-| [29075865](https://pubmed.ncbi.nlm.nih.gov/29075865/) | 2017 | Review | Curr Oncol Rep | Review of glioblastoma treatment considerations specific to older adults. |
+| [15758009](https://pubmed.ncbi.nlm.nih.gov/15758009/) | 2005 | RCT | N Engl J Med | Merkittävä EORTC-NCIC-tutkimus, jonka mukaan sätelyhoito ja samanaikainen/jatko-temozolomiidi ("Stupp-regimen") on uusidiagnosoidun glioblastoomastandardi hoito. |
+| [19269895](https://pubmed.ncbi.nlm.nih.gov/19269895/) | 2009 | RCT (pitkäaikainen seuranta) | Lancet Oncol | 5 vuoden seurantatutkimus EORTC-NCIC-tutkimuksesta, joka vahvistaa RT + temozolomidin kestävää selviytymisedusta pelkkään RT:hen verrattuna. |
+| [24552317](https://pubmed.ncbi.nlm.nih.gov/24552317/) | 2014 | RCT | N Engl J Med | Satunnaistamistestutkimus, joka lisäsi bevacizumabia RT + temozolomiidiin uusidiagnosoidussa glioblastoomassa; kokonaisselviytymishyödystä ei havaittu. |
+| [30782343](https://pubmed.ncbi.nlm.nih.gov/30782343/) | 2019 | RCT | Lancet | CeTeG/NOA-09 vaihe 3 -tutkimus: lomustiini-temozolomiidi-yhdistelmä paransi selviytymistä vs. pelkkä temozolomiidi MGMT-metyloidussa glioblastoomassa. |
+| [26670971](https://pubmed.ncbi.nlm.nih.gov/26670971/) | 2015 | RCT | JAMA | Satunnaistamistestutkimus, jossa Tumor-Treating Fields sekä ylläpitävä temozolomiidi parantavat selviytymistä verrattuna pelkkään temozolomiidiin. |
+| [22578793](https://pubmed.ncbi.nlm.nih.gov/22578793/) | 2012 | RCT | Lancet Oncol | NOA-08 vaihe 3 -tutkimus: tiheä temozolomiidiannostelu yksin vs. sädehoito yksin iäkkäillä potilailla pahanlaatuisessa astrosytoomassa. |
+| [40779733](https://pubmed.ncbi.nlm.nih.gov/40779733/) | 2025 | RCT | J Clin Oncol | NRG Oncology BN007 vaihe II/III -tutkimus kahdella immuunikompastopistesalpaajalla MGMT-metyloimattomassa uusidiagnosoidussa glioblastoomassa. |
+| [25920709](https://pubmed.ncbi.nlm.nih.gov/25920709/) | 2015 | Kohortti/tutkimus | J Neurooncol | Tutkimuksellinen kohortti sädehoinnista + temozolomiidista erityisesti anaplastisissa astrosyyttisissa gliioomissa. |
+| [36809318](https://pubmed.ncbi.nlm.nih.gov/36809318/) | 2023 | Katsaus | JAMA | Kattava katsaus glioblastoomaan ja muihin aikuisen aivojen primaareihin pahanlaatuisiin kasvaimiin, mukaanlukien temozolomiidipohjainen standardi hoito. |
+| [29075865](https://pubmed.ncbi.nlm.nih.gov/29075865/) | 2017 | Katsaus | Curr Oncol Rep | Katsaus glioblastoomahoitoon iäkkäille potilaille. |
 
 ---
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-No marketing authorization is currently on file — market status is **Not marketed (Not marketed)**, with 0 registered licenses in the reviewed regulatory data.
-
----
-
-## Cytotoxicity
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (alkylating agent, imidazotetrazine class) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Cytotoxic chemotherapy agent — standard cytotoxic/hazardous drug handling protocols apply; specific label-based precautions pending TFDA package insert retrieval |
+Yhtään markkinointilupia ei ole tiedostossa — markkinatilanne on **Ei markkinoilta (Ei markkinoilta)**, ja tarkistetuissa sääntelytiedoissa on 0 rekisteröityä lisenssiä.
 
 ---
 
-## Safety Considerations
+## Sitotoksisuus
 
-Please refer to the package insert for safety information.
+| Kohta | Sisältö |
+|------|--------|
+| Sitotoksisuusluokitus | Tavanomainen sitotoksinen aine (alkylointiaine, imidatsotetratsiiniluokka) |
+| Luuydintukahduttamisriski | Katso pakettiselosteesta varoituksia ja varotoimenpiteitä |
+| Pahoinvointiluokitus | Katso pakettiselosteesta varoituksia ja varotoimenpiteitä |
+| Seuranta | Katso pakettiselosteesta varoituksia ja varotoimenpiteitä |
+| Käsittelysuojaus | Sitotoksinen kemoterapiaaine — standardi sitotoksisten/vaarallisten lääkkeiden käsittelyprotokollat sovelletaan; erityiset pakkausselostepohjaiset varoitukset odottavat TFDA-pakkausselosteen hakua |
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuushuomiot
 
-**Decision: Proceed with Guardrails**
+Katso turvallisuustiedot pakettiselosteesta.
 
-**Rationale:**
-Evidence strength is high (L1) — a completed Phase 3 head-to-head RCT (n=500) plus multiple landmark Phase 3 trials in the literature support temozolomide's efficacy across astrocytic tumor subtypes. However, the drug is not currently marketed locally (0 licenses), and two data gaps are flagged as Blocking/High severity: (DG001) TFDA/local package insert warnings and contraindications, and (DG002) a formal MOA/indication registry entry. Note also that this "prediction" largely reconfirms temozolomide's already-established global standard-of-care role rather than surfacing a genuinely novel indication — the open question is local regulatory pathway, not efficacy.
+---
 
-**To proceed, the following is needed:**
-- Retrieve and parse the TFDA/Fimea package insert for warnings, contraindications, and dosing (closes DG001, Blocking)
-- Confirm formal original MOA/indication registry entry via DrugBank or equivalent (closes DG002, High)
-- Obtain drug-drug interaction data (current query status: not found)
-- Assess local market-entry pathway given current unmarketed status and 0 authorizations
+## Johtopäätös ja seuraavat vaiheet
 
-**Lower-confidence secondary signal (not pursued further here):** TxGNN also flagged *cauda equina neoplasm* (rank 2, score 99.30%) as a candidate indication. Evidence is weak — Evidence Level L4, no clinical trials, only 2 case-report/case-series-tier publications, one of which is unrelated to tumor treatment. Recommendation for this candidate is **Hold**.
+**Päätös: Jatka varauksilla**
+
+**Perustelut:**
+Näyttötaso on korkea (L1) — päätöitetty vaihe 3 -rinnakkaisvertailu RCT (n=500) sekä useat merkittävät vaihe 3 -tutkimukset kirjallisuudessa tukevat temozolomidin tehokkuutta eri astrosyyttisissa kasvaintyypeissä. Kuitenkin lääke ei ole tällä hetkellä markkinoilla paikallisesti (0 lisenssiä), ja kaksi tietoaukkoa on merkitty pakottavaksi/suuresti vakaviksi: (DG001) TFDA:n/paikallisen pakkausselosteen varoitukset ja vasta-aiheet, sekä (DG002) muodollinen MOA/indikaatiorekisterin merkintä. Huomaa myös, että tämä "ennuste" suuresti vahvistaa temozolomidin jo vakiintunutta globaalia standardi-hoitoroolia pikemminkin kuin esittelee täysin uutta indikaatiota — avoin kysymys on paikallinen sääntelytie, ei tehokkuus.
+
+**Jatkaakseen, seuraavaa tarvitaan:**
+- Noutaa ja jäsennellä TFDA:n/Fimean pakkausselosteen varoitukset, vasta-aiheet ja annosteluohjeet (sulkee DG001, Pakottava)
+- Vahvista muodollinen alkuperäinen MOA/indikaatiorekisterin merkintä DrugBankin tai vastaavan kautta (sulkee DG002, Korkea)
+- Hanki lääkkeiden väliset vuorovaikutustiedot (nykyinen kyselytila: ei löydetty)
+- Arvioi paikallinen markkinoille tulon polku ottaen huomioon nykyinen ei-markkinoitu tila ja 0 valtuutusta
+
+**Pienempi luottamus sekundarinen signaali (ei tutkittu tämän jälkeen):** TxGNN myös merkitsi *cauda equina neoplasm* (sijoitus 2, pistemäärä 99.30%) kandidaattindikaationa. Näyttö on heikko — Näyttötaso L4, ei kliinisiä tutkimuksia, vain 2 tapausraportin/tapaussarjan tasoisia julkaisuja, joista yksi ei liity kasvainhoitoon. Suositus tälle kandidaatille on **Pidä odotuksessa**.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

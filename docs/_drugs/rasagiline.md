@@ -29,63 +29,64 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Rasagiline: From Parkinson's Disease to PLA2G6-Associated Neurodegeneration
+# Rasagiliini: Parkinsonin taudista PLA2G6-assosioituneeseen neurorappeumaan
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Rasagiline is a selective, irreversible MAO-B inhibitor established for treating Parkinson's disease.
-The TxGNN model predicts it may be effective for **PLA2G6-associated neurodegeneration**,
-but this prediction is currently supported by **no clinical trials** and **no published literature** — it rests on model score alone.
+Rasagiliini on selektiivinen, peruuttamaton MAO-B-estäjä, joka on vakiintunut Parkinsonin taudin hoitoon.
+TxGNN-malli ennustaa, että se voi olla tehokas **PLA2G6-assosioituneessa neurorappeumassa**,
+mutta tätä ennustetta ei tällä hetkellä tue **kliinisiä tutkimuksia** eikä **julkaistua kirjallisuutta** — se perustuu yksinomaan mallin pistemäärään.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohde | Sisältö |
 |------|------|
-| Original Indication | Parkinson's disease (based on known pharmacological classification; not documented in Finland regulatory data as the drug is unmarketed there) |
-| Predicted New Indication | PLA2G6-associated neurodegeneration |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L5 |
-| Finland Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen käyttöaihe | Parkinsonin tauti (tunnetun farmakologisen luokittelun perusteella; ei dokumentoitu Suomen sääntelytiedoissa, koska lääkettä ei ole markkinoilla siellä) |
+| Ennustettu uusi käyttöaihe | PLA2G6-assosioitunut neurorappeuma |
+| TxGNN-ennustepisteys | 99.71% |
+| Näytön taso | L5 |
+| Suomen markkinatilanne | ✗ Ei markkinoilla |
+| Lupakäyttöoikeuksien lukumäärä | 0 |
+| Suositeltu päätös | Odota |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on perusteltu?
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on known pharmacological information, rasagiline is a selective, irreversible monoamine oxidase type B (MAO-B) inhibitor used in Parkinson's disease, where it reduces dopamine breakdown in the central nervous system and has been studied for possible neuroprotective and antioxidant effects beyond simple symptomatic control.
+Toistaiseksi yksityiskohtaista toimintamekanismin tietoa ei ole saatavilla näyttöaineistosta. Tunnettujen farmakologisten tietojen perusteella rasagiliini on selektiivinen, peruuttamaton monoamiinioksidaasi tyypin B (MAO-B) -estäjä, jota käytetään Parkinsonin taudin hoidossa. Se vähentää dopamiinin hajoamista keskushermostossa ja sitä on tutkittu mahdollisesti neurosuojaavien ja antioksidatiivisten vaikutusten osalta, jotka menevät yksinkertaisen oireiden hallinnan pidemmälle.
 
-PLA2G6-associated neurodegeneration (part of the NBIA/INAD disease spectrum caused by PLA2G6 gene mutations) shares clinical overlap with Parkinson's disease: certain adult-onset forms present with a dystonia-parkinsonism phenotype, and the underlying pathology involves iron accumulation, mitochondrial dysfunction, and membrane phospholipid metabolism disturbances.
+PLA2G6-assosioitunut neurorappeuma (osa NBIA/INAD-tautikirjoa, jonka aiheuttavat PLA2G6-geenimutaatiot) osoittaa kliinistä päällekkäisyyttä Parkinsonin taudin kanssa: tietyt aikuisiällä alkavat muodot osoittavat dystonia-parkinsonismi-fenotyypin, ja taustalla olevan patologian olennaisia piirteitä ovat raudan kertymä, mitokondrioiden toimintahäiriö ja kalvon fosfatidyylilipidien aineenvaihdunnan häiriöt.
 
-The rationale for this prediction is therefore mechanistically plausible but highly indirect — rasagiline's MAO-B inhibition and theoretical neuroprotective properties could conceivably slow neurodegenerative processes, but there is no direct molecular link to PLA2G6 pathology, and the connection is inferred purely from phenotypic (parkinsonism) similarity rather than confirmed shared mechanism.
+Tämän ennusteen perustelut ovat siksi mekanistisesti uskottavat mutta erittäin epäsuorat — rasagiliinin MAO-B-esto ja teoreettinen neurosuoja vaikutukset voisivat ajateltavasti hidastaa neurorappeuman prosesseja, mutta PLA2G6-patologiaan ei ole suoraa molekyylisiteen, ja yhteys johdetaan puhtaasti fenotyyppisten (parkinsonismi) samankaltaisuuksien perusteella eikä vahvistetusta yhteisestä mekanismista.
 
-## Clinical Trial Evidence
+## Kliinisten tutkimusten todiste
 
-Currently no related clinical trials registered
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia
 
-## Literature Evidence
+## Kirjallisuuden todiste
 
-Currently no related literature available
+Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-No marketing authorizations currently exist in Finland — rasagiline is not marketed in this market (total licenses: 0).
+Markkinointilupakäyttöoikeuksia ei ole tällä hetkellä Suomessa — rasagiliini ei ole markkinoilla tässä markkinassa (yhteensä lupakäyttöoikeudet: 0).
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information.
+Turvallista tietoja varten katso pakkausseloste.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Odota**
 
-**Rationale:**
-The prediction is supported only by a TxGNN model score (evidence level L5) with zero clinical trials, zero literature, and no confirmed mechanistic link to PLA2G6-associated neurodegeneration — evidence is insufficient to advance beyond exploratory screening.
+**Perustelut:**
+Ennustetta tukee vain TxGNN-mallin pistemäärä (näytön taso L5), jossa ei ole kliinisiä tutkimuksia, ei kirjallisuutta ja ei vahvistettua mekanistista yhteyttä PLA2G6-assosioituneeseen neurorappeumaan — näyttö on riittämätön edetä tutkitavan seulonnan ulkopuolelle.
 
-**To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) data from DrugBank or primary literature
-- TFDA/regulatory package insert data (warnings, contraindications) — currently a Blocking data gap preventing safety pre-assessment
-- Preclinical or mechanistic studies directly linking MAO-B inhibition to PLA2G6-related neurodegeneration pathology
-- Case reports or observational data in NBIA/INAD spectrum patients, if any exist
-- Drug interaction (DDI) profile, since none is currently on file
+**Edetäkseen seuraavaa tarvitaan:**
+- Vahvistetut toimintamekanismin (MOA) tiedot DrugBankista tai alkuperäiskirjallisuudesta
+- TFDA/sääntelyselosteen tiedot (varoitukset, vasta-aiheet) — tällä hetkellä turvallisuuden esiarviointia estävä tietoaukko
+- Prekliinistä tai mekanistista tutkimusta, joka suoraan yhdistää MAO-B-eston PLA2G6-liittyvään neurorappeuman patologiaan
+- Tapausselostukset tai havainnointitiedot NBIA/INAD-spektrin potilaissa, jos niitä on olemassa
+- Lääkeinteraktio (DDI) -profiili, koska sitä ei ole tällä hetkellä dokumentoitu
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -29,104 +29,105 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 
 </div>
 
-# ABIRATERONE ACETATE: Drug Repurposing Evaluation — Insufficient Data for Assessment
+# ABIRATERONE ACETATE: Lääkkeen uudelleenkäytön arviointi — riittämättömät tiedot arvioinnille
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Abiraterone acetate is a CYP17A1 inhibitor primarily used for the treatment of metastatic castration-resistant prostate cancer (mCRPC). The TxGNN model has **not generated any predicted new indications** for this drug, and the evidence pack contains significant data gaps across regulatory, safety, and mechanistic domains. **No repurposing assessment can be completed at this time.**
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available in evidence pack (known use: metastatic prostate cancer) |
-| Predicted New Indication | **None** — No TxGNN predictions generated |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | **L5** — No predictions or supporting studies available |
-| Taiwan Market Status | ❌ Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+Abiraterone acetate on CYP17A1-inhibiittori, jota käytetään pääasiassa metastaattisen kastraatiolle resistentin eturauhassyövän (mCRPC) hoitoon. TxGNN-malli ei ole tuottanut mitään uusia ennakoituja indikaatioita tälle lääkkeelle, ja todisteista koostuva paketti sisältää merkittäviä tietovajetta sääntelyä, turvallisuutta ja mekanismeja koskevilla alueilla. **Uudelleenkäytön arviointia ei voida tällä hetkellä suorittaa.**
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on publicly known information, abiraterone acetate is a prodrug of abiraterone, which acts as a selective, irreversible inhibitor of CYP17A1 (17α-hydroxylase/C17,20-lyase). This enzyme is critical in the androgen biosynthesis pathway. By blocking CYP17A1, abiraterone reduces the production of testosterone and other androgens, thereby inhibiting the growth of androgen-dependent prostate cancer cells.
-
-However, **no TxGNN-predicted indications were provided in the evidence pack**. Without a predicted new indication, it is not possible to evaluate the biological plausibility of any repurposing hypothesis. The absence of predictions may reflect insufficient data in the knowledge graph, or may indicate that the model did not identify high-confidence novel indications beyond the drug's established uses.
-
-Before any repurposing analysis can proceed, the TxGNN prediction pipeline must be re-run or supplemented with additional data to generate candidate indications for evaluation.
-
----
-
-## Clinical Trial Evidence
-
-No TxGNN-predicted indication is available; therefore, no indication-specific clinical trial search was conducted.
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Ei saatavilla todisteista koostuvassa paketissa (tunnettu käyttö: metastaattinen eturauhassyöpä) |
+| Ennakoitu uusi indikaatio | **Ei** — Ei TxGNN-ennakointeja |
+| TxGNN-ennakointipisteet | N/A |
+| Todisteiden taso | **L5** — Ei ennakointeja tai tukevia tutkimuksia saatavilla |
+| Taiwanin markkinoiden asema | ❌ Ei markkinoilla (Ei markkinoilla) |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | **Odota** |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennakointi on järkevä?
 
-No TxGNN-predicted indication is available; therefore, no indication-specific literature search was conducted.
+Tällä hetkellä lääkkeen toimiluontoon liittyvät yksityiskohtaiset tiedot eivät ole saatavilla todisteista koostuvasta paketista. Julkisesti saatavilla olevien tietojen perusteella abiraterone acetate on abiraterone:n prodrugi, joka toimii CYP17A1:n (17α-hydroksylaasi/C17,20-lyaasi) selektiivisenä, peruuttamattomana inhibiittorina. Tämä entsyymi on kriittinen androgeenin biosynteesipolulla. Estämällä CYP17A1:n, abiraterone vähentää testosteronin ja muiden androgeenien tuotantoa ja estää näin androgeenista riippuvaisten eturauhassyöpäsolujen kasvua.
 
----
+Kuitenkin **mitään TxGNN:n ennakoimaa indikaatiota ei annettu todisteista koostuvassa paketissa**. Ilman ennakoitua uutta indikaatiota on mahdotonta arvioida minkään uudelleenkäyttöhypoteesin biologista uskottavuutta. Ennakointien puuttuminen voi heijastaa riittämätöntä tietoa tietokaaviossa tai voi osoittaa, että malli ei tunnistunut korkeampaa luottamusta omaavia uusia indikaatioita lääkkeen vakiintuneiden käyttöjen ulkopuolella.
 
-## Taiwan Market Information
-
-Abiraterone acetate currently has **no TFDA marketing authorizations** in Taiwan. No license records were found in the regulatory query conducted on 2026-03-29.
+Ennen kuin uudelleenkäyttöanalyysiä voidaan jatkaa, TxGNN-ennakointilinja on käytettävä uudelleen tai täydennettävä lisätiedoilla ehdokkaiden indikaatioiden luomiseksi arviointia varten.
 
 ---
 
-## Cytotoxicity
+## Kliiniset kokeet
 
-Abiraterone acetate is an antineoplastic agent (androgen biosynthesis inhibitor targeting CYP17A1). The following cytotoxicity profile is based on the drug's known pharmacological class:
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (CYP17A1 inhibitor — not a conventional cytotoxic agent) |
-| Myelosuppression Risk | Low (myelosuppression is uncommon; however, monitoring is recommended) |
-| Emetogenicity Classification | Low |
-| Monitoring Items | Liver function tests (ALT/AST monthly), blood pressure, serum potassium, cardiac function, cortisol levels |
-| Handling Protection | Standard handling precautions for antineoplastic oral agents; no special cytotoxic handling required as it is a non-cytotoxic targeted therapy |
-
-> Note: Abiraterone acetate must be co-administered with prednisone/prednisolone to mitigate mineralocorticoid excess side effects (hypertension, hypokalaemia, fluid retention) caused by CYP17A1 inhibition upstream of the mineralocorticoid pathway.
+Mitään TxGNN:n ennakoimaa indikaatiota ei ole saatavilla; siksi mitään indikaatiokohtaista kliinisten kokeiden hakua ei suoritettu.
 
 ---
 
-## Safety Considerations
+## Kirjallisuuden todisteet
 
-Safety data was not available in the evidence pack. Both TFDA package insert warnings and contraindication data were queried but returned no extractable results.
-
-> Please refer to the package insert for complete safety information. Key known safety concerns for abiraterone acetate include hepatotoxicity, mineralocorticoid-related adverse effects (hypertension, hypokalaemia, oedema), and cardiac disorders. It is contraindicated in severe hepatic impairment and in women who are or may become pregnant.
+Mitään TxGNN:n ennakoimaa indikaatiota ei ole saatavilla; siksi mitään indikaatiokohtaista kirjallisuushausta ei suoritettu.
 
 ---
 
-## Data Gaps Summary
+## Taiwanin markkinatiedot
 
-The following critical data gaps were identified in the evidence pack:
-
-| Gap ID | Category | Item | Severity | Impact | Remediation |
-|--------|----------|------|----------|--------|-------------|
-| DG001 | Drug Level | TFDA Package Insert Warnings/Contraindications | **Blocking** | Cannot enter S1 safety preliminary assessment | Download and parse package insert PDF from TFDA website |
-| DG002 | Drug Level | Mechanism of Action (MOA) | High | Affects mechanism-relevance analysis | Query DrugBank API |
+Abiraterone acetate:lla ei ole tällä hetkellä **TFDA:n markkinointilupia** Taiwanissa. 2026-03-29 päivätyssä viranomaisten kyselyssä ei löytynyt lisenssitietoja.
 
 ---
 
-## Conclusion and Next Steps
+## Sytotoksisuus
 
-**Decision: Hold**
+Abiraterone acetate on antiseniplastinen aine (androgeenin biosynteesin inhibiittori, joka kohdistuu CYP17A1:een). Seuraava sytotoksisuusprofiili perustuu lääkkeen tunnettuun farmakologiseen luokkaan:
 
-**Rationale:**
-No TxGNN-predicted indications were generated for abiraterone acetate, making a repurposing evaluation impossible at this stage. Additionally, the drug is not currently marketed in Taiwan, and critical safety and regulatory data gaps remain unresolved (severity: Blocking).
+| Kohta | Sisältö |
+|-------|---------|
+| Sytotoksisuusluokitus | Kohdennettu terapia (CYP17A1-inhibiittori — ei perinteinen sytotoksinen aine) |
+| Luuydinsuppression riski | Matala (luuydinsuppressio on epätavallista; seurantaa suositellaan kuitenkin) |
+| Emetogenisuusluokitus | Matala |
+| Seurantakohteet | Maksafunktiotestit (ALT/AST kuukausittain), verenpaine, seerumin kalium, sydämen toiminta, kortisolitasot |
+| Käsittelytoimenpiteet | Antiseniplastisille suusisäisille lääkkeille vakiomukaisia käsittelytoimenpiteitä; ei erityistä sytotoksista käsittelyä vaadita, koska se on ei-sytotoksinen kohdennettu terapia |
 
-**To proceed, the following is needed:**
-- **Re-run TxGNN prediction pipeline** with complete knowledge graph data to generate candidate new indications
-- **Resolve DG001 (Blocking):** Obtain and parse the TFDA package insert to extract warnings and contraindications
-- **Resolve DG002 (High):** Query DrugBank API for the full mechanism of action and obtain the DrugBank ID
-- **Obtain Taiwan regulatory information:** Confirm whether abiraterone acetate has been submitted for TFDA review or if any applications are pending
-- **Supplement drug identity data:** Populate DrugBank ID, brand name, and original indication fields in the evidence pack
+> Huomio: Abiraterone acetate on otettava rinnakkain prednisoni/prednisoloinin kanssa mineralokortikoidiylimäärän sivuvaikutuksien (hypertensio, hypokalemia, nestekertymä) lieventämiseksi, jotka johtuvat CYP17A1-inhibitiosta mineralokortikoidisynteesireitillä.
+
+---
+
+## Turvallisuusnäkökohdat
+
+Turvallisuustietoja ei ollut saatavilla todisteista koostuvassa paketissa. Sekä TFDA-pakkauksen liitteen varoituksista että kontraindikaatiotiedoista tehtiin hakuja, mutta mitään erotettavissa olevaa tulosta ei saatu.
+
+> Täydellisiä turvallisuustietoja varten tutustu pakkauksen liitteeseen. Abiraterone acetaten tunnetut turvallisuushuolet ovat hepatotoksisuus, mineralokortikoidihin liittyvät haittavaikutukset (hypertensio, hypokalemia, turvotus) ja sydänhäiriöt. Se on kontraindisoitu vakavassa maksan vajaatoiminnassa ja naisilla, jotka ovat tai voivat tulla raskaaksi.
+
+---
+
+## Tietovajausyhteenveto
+
+Seuraavat kriittiset tietovajaot tunnistettiin todisteista koostuvassa paketissa:
+
+| Vajauskoodi | Kategoria | Kohta | Vakavuus | Vaikutus | Korjaaminen |
+|-------------|-----------|-------|----------|----------|------------|
+| DG001 | Lääkketaso | TFDA-pakkauksen liitteen varoitukset/kontraindikaatiot | **Estävä** | Ei voida siirtyä S1-turvallisuuden alustavaan arviointiin | Lataa ja jäsennä pakkauksen liite PDF-muodossa TFDA:n verkkosivustolta |
+| DG002 | Lääkketaso | Toimiluonto (MOA) | Korkea | Vaikuttaa mekanismin relevanssiin analyysiin | Hae tiedot DrugBank API:sta |
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Odota**
+
+**Perustelut:**
+Mitään TxGNN:n ennakoimaa indikaatiota ei tuotu esiin abiraterone acetate:lle, mikä tekee uudelleenkäytön arvioinnin mahdottomaksi tässä vaiheessa. Lisäksi lääkettä ei ole tällä hetkellä markkinoilla Taiwanissa, ja kriittiset turvallisuus- ja sääntely-tietovajeat jäävät ratkaisematta (vakavuus: Estävä).
+
+**Jotta voitaisiin jatkaa, seuraavat tiedot ovat tarpeen:**
+- **Suorita TxGNN-ennakointilinja uudelleen** täydellisillä tietokaavikohtaisilla tiedoilla ehdokkaiden indikaatioiden luomiseksi
+- **Ratkaise DG001 (Estävä):** Hanki ja jäsennä TFDA:n pakkauksen liite varoitusten ja kontraindikaatioiden poimimiseksi
+- **Ratkaise DG002 (Korkea):** Hae DrugBank API:sta toimiluontotiedot ja hanki DrugBank-tunnus
+- **Hanki Taiwanin sääntelyä koskevia tietoja:** Vahvista, onko abiraterone acetate jätetty TFDA:n arviointiin tai ovatko kaikki hakemukset odottavaksi
+- **Täydennä lääkkeen tunnistustietoja:** Täytä DrugBank-tunnus, brändinimi ja alkuperäinen indikaatio todisteista koostuvassa paketissa
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

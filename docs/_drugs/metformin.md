@@ -29,57 +29,58 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Metformin: From Type 2 Diabetes to Focal Stiff Limb Syndrome
+# Metformiini: Tyypin 2 diabeteksesta fokaaliseen jäykkään raajasyndromaan
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Metformin is a biguanide antidiabetic agent, well established for the treatment of type 2 diabetes mellitus (this specific detail is not recorded in the evidence pack, which lists no original indications).
-The TxGNN model predicts it may be effective for **Focal Stiff Limb Syndrome**, but currently **0 clinical trials** and **0 publications** support this direction — the prediction rests entirely on graph-embedding similarity.
+Metformiini on biguaniidipohjainen antidiabeettinen lääke, joka on hyvin vakiintunut tyypin 2 diabeteksen hoitoon (tätä erityistä seikkaa ei ole tallennettu näyttöpakettiin, joka ei luettele alkuperäisiä indikaatioita).
+TxGNN-malli ennustaa, että se saattaa olla tehokas **fokaalisessa jäykässä raajasyndromassa**, mutta tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua** tukee tätä suuntaa — ennustus perustuu kokonaan graafin upotusten samankaltaisuuteen.
 
-## Quick Overview
+## Pika-yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Not recorded in evidence pack (Metformin is generically known as a Type 2 Diabetes Mellitus treatment) |
-| Predicted New Indication | Focal Stiff Limb Syndrome |
-| TxGNN Prediction Score | 99.45% |
-| Evidence Level | L5 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|------|--------|
+| Alkuperäinen indikaatio | Ei tallennettu näyttöpakettiin (Metformiini tunnetaan yleisesti tyypin 2 diabeteksen hoidosta) |
+| Ennustettu uusi indikaatio | Fokaali jäykkä raajasyndrooma |
+| TxGNN-ennuste-pistemäärä | 99.45% |
+| Näyttötaso | L5 |
+| Suomen markkinatilanne | ✗ Ei markkinoitu |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Odota |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennustus on järkevä?
 
-Currently, detailed mechanism of action data is not available for Metformin in this evidence pack ([Data Gap]). Based on general pharmacological knowledge, Metformin's known mechanism involves AMPK activation and inhibition of mitochondrial complex I — mechanisms central to its glucose-lowering effect.
+Tällä hetkellä metformiinin yksityiskohtainen toimintamekanismi ei ole saatavilla tässä näyttöpakettissa ([Data Gap]). Yleisen farmakologisen tiedon perusteella metformiinin tunnettu mekanismi sisältää AMPK:n aktivoinnin ja mitokondrion kompleksin I:n estämisen — mekanismit, jotka ovat keskeisiä sen glukoosia alentavaan vaikutukseen.
 
-Focal Stiff Limb Syndrome and classic Stiff Person Syndrome sit on a disease spectrum driven primarily by GABAergic neurotransmission deficits and anti-GAD65 autoimmune pathology. There is no established mechanistic link between AMPK/mitochondrial pathways and this neuro-autoimmune process. The connection surfaced by TxGNN appears to be a pure graph-embedding association rather than a biologically grounded hypothesis, and should be treated as exploratory only.
+Fokaali jäykkä raajasyndrooma ja klassinen jäykkä henkilö -syndrooma sijaitsevat sairauskirjossa, jota ohjaavat ensisijaisesti GABAergisen neurotransmission puutteet ja anti-GAD65-autoimmuunipathologia. AMPK:n ja mitokondrion reittien sekä tämän neuro-autoimmuuniprosessin välillä ei ole vakiintunutta mekanistista yhteyttä. TxGNN:n paljastama yhteys näyttää olevan pelkkä graafin upotukseen perustuva yhteys pikemminkin kuin biologisesti perustettu hypoteesi, ja sitä tulisi käsitellä vain tutkimuksellisena.
 
-Notably, the four other TxGNN-ranked candidates for Metformin (classic stiff person syndrome, opsismodysplasia, thiamine-responsive dysfunction syndrome, and drug-induced localized lipodystrophy) show similarly weak or even conflicting mechanistic rationale — the thiamine-responsive candidate in particular runs counter to Metformin's known interference with thiamine/B12 absorption, and should be flagged as a potential mechanistic contraindication rather than a treatment opportunity.
+Huomionarvoista on, että neljä muuta TxGNN:n rankaamaa metformiinin kandidaattia (klassinen jäykkä henkilö -syndrooma, opsismodysplasia, tiamiinille herkkä häiriöoireyhtymä ja lääkkeen aiheuttama paikallinen lipodystrofia) osoittavat vastaavasti heikkoa tai jopa ristiriitaista mekanistista perustelua — erityisesti tiamiinille herkkä kandidaatti on ristiriidassa metformiinin tunnetun tiamiinin/B12-imeytymisen häiriön kanssa, ja sitä tulisi merkitä mahdolliseksi mekanistiseksi kontraindikaatioksi eikä hoitomahdollisuudeksi.
 
-## Clinical Trial Evidence
+## Kliinisten tutkimusten näyttö
 
-Currently no related clinical trials registered
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-Currently no related literature available
+Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information.
+Turvallisuustietoja varten katso pakkausseloste.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Odota**
 
-**Rationale:**
-The prediction is supported only by a TxGNN embedding score (L5, S0) with zero clinical trials and zero literature across all five predicted indications, and a Blocking data gap on TFDA package insert warnings/contraindications currently prevents even an initial (S1) safety review.
+**Perustelut:**
+Ennustusta tukee vain TxGNN-upotusten pistemäärä (L5, S0) nolla kliinisen tutkimuksen ja nolla kirjallisuuden kanssa kaikkien viiden ennustetun indikaation osalta, ja TFDA:n pakkausselosteen varoituksista ja kontraindikaatioista puuttuva tieto estää tällä hetkellä jopa alkuvaiheen (S1) turvallisuustarkastelun.
 
-**To proceed, the following is needed:**
-- TFDA package insert data (warnings, contraindications) — currently Blocking
-- Confirmed original mechanism of action (MOA) for Metformin
-- Preclinical or mechanistic literature specifically linking AMPK/mitochondrial pathways to GABAergic/anti-GAD65 pathology
-- Reassessment of Finland/Taiwan market and licensing status, currently recorded as not marketed with zero authorizations
+**Jatkamiseksi tarvitaan seuraavaa:**
+- TFDA:n pakkausselosteen tieto (varoitukset, kontraindikaatiot) — tällä hetkellä esto
+- Metformiinin alkuperäisen toimintamekanismin (MOA) vahvistaminen
+- Prekliininen tai mekanistinen kirjallisuus, joka spesifisesti yhdistää AMPK/mitokondrion reittejä GABAergisiin/anti-GAD65-patologioihin
+- Suomen/Taiwanin markkinoiden ja lisensointitilanteen uudelleenarviointi (tällä hetkellä tallennettu tilanne: ei markkinoitu, 0 hyväksyntää)
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

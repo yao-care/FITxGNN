@@ -29,96 +29,97 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Risankizumab: From Psoriasis to Dermatitis
+# Risankitsumabi: psoriasista dermatiitin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Risankizumab is a humanised IgG monoclonal antibody targeting the p19 subunit of IL-23, first approved in Japan (2019) for psoriasis vulgaris, psoriatic arthritis, generalized pustular psoriasis and erythrodermic psoriasis. The TxGNN model predicts it may be effective for **Dermatitis** (including atopic dermatitis), with **7 clinical trials** and **17 publications** currently supporting this direction. Evidence includes a completed placebo-controlled Phase 2 RCT specifically in moderate-to-severe atopic dermatitis, though the drug is not currently marketed in Finland and key safety labeling data is missing.
+Risankitsumabi on humanisioitu IgG-monoklonaalinen vasta-aine, joka kohdistuu IL-23:n p19-alayksikköön, ja se hyväksyttiin ensimmäisen kerran Japanissa (2019) psoriasis vulgarista, psoriaattisesta artriitista, yleistyneestä pustuloosisesta psoriasista ja erytrodermisesta psoriasista. TxGNN-malli ennustaa, että se saattaa olla tehokas **dermatiitin** (mukaan lukien atopisen dermatiitin) hoitoon, ja tätä suuntaa tukee tällä hetkellä **7 kliinistä tutkimusta** ja **17 julkaisua**. Näyttö sisältää valmistuneen lumekontrolloidun vaiheen 2 RCT:n keskivaikeasta vakavaan atopisen dermatiitin kanssa, vaikka lääke ei ole tällä hetkellä markkinoilla Suomessa ja keskeisiä turvallisuustietoja puuttuu.
 
 ---
 
-## Quick Overview
+## Pika-yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Psoriasis (psoriasis vulgaris, psoriatic arthritis, generalized pustular/erythrodermic psoriasis — per first global approval; no Finland license record available) |
-| Predicted New Indication | Dermatitis |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L2 |
-| Finland Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen indikaatio | Psoriasis (psoriasis vulgaris, psoriaattinen artriitti, yleistynyt pustuloosinen/erytroderminen psoriasis — ensimmäisen globaalin hyväksynnän mukaisesti; Suomen lääkelupaa ei ole saatavilla) |
+| Ennustettu uusi indikaatio | Dermatiti |
+| TxGNN-ennustepistemäärä | 99.98 % |
+| Näyttötaso | L2 |
+| Suomen markkinatilanne | Ei markkinoilla |
+| Markkinointilupien lukumäärä | 0 |
+| Suositeltu päätös | Pidätä |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Detailed original MOA data for risankizumab is flagged as a data gap in this evidence pack. However, the pack's own literature and repurposing rationale supply the mechanistic picture: risankizumab is an anti-IL-23 (p19 subunit) monoclonal antibody that blocks the IL-23/Th17 signaling axis (PMID 31098898). This pathway is a well-established driver of keratinocyte hyperproliferation and inflammation in psoriasis, its original indication.
+Risankitsumabi-mekanismin yksityiskohtaiset alkuperäiset tiedot merkitään tässä näyttöpaketissa tietovajeeksi. Paketti tarjoaa kuitenkin omalla kirjallisuudella ja uudelleenkäyttö-perusteluilla mekanistisen kuvan: risankitsumabi on anti-IL-23 (p19-alayksikkö) monoklonaalinen vasta-aine, joka estää IL-23/Th17-signalointiakselia (PMID 31098898). Tämä polku on tunnettu keratinosyytin hyperproliferaation ja tulehduksellisen toiminnan aiheuttaja psoriasissa, sen alkuperäisessä indikaatiossa.
 
-The IL-23/Th17 axis also contributes to other chronic inflammatory skin diseases, including atopic dermatitis, where Th2, Th22 and — increasingly recognized — Th17 pathways overlap. This shared immunopathogenesis is the biological basis for the TxGNN prediction linking risankizumab to dermatitis.
+IL-23/Th17-akseli osallistuu myös muihin kroonisiin tulehduksellisiin ihosairauksiin, mukaan lukien atopinen dermatiti, joissa Th2-, Th22- ja yhä enemmän tunnustetut Th17-polut limittyivät. Tämä jaettu immunopatologia on biologinen perusta TxGNN-ennusteelle, joka yhdistää risankitsumabi dermatiitin kanssa.
 
-Consistent with this rationale, a dedicated Phase 2 placebo-controlled RCT (NCT03706040) directly tested risankizumab in adult and adolescent patients with moderate-to-severe atopic dermatitis, and a real-world cohort has reported combined dupilumab + risankizumab use in patients with concomitant atopic dermatitis and psoriasis. Notably, the literature also documents a recognized paradoxical adverse effect — eczematous/dermatitis-like eruptions emerging *during* risankizumab treatment for psoriasis (e.g., PMID 33185530, 36939506, 41645692) — which is a double-edged signal: it confirms cutaneous immunologic activity relevant to dermatitis pathways, but also flags a safety consideration that should be weighed alongside efficacy.
+Johdonmukaisesti tämän kanssa omistettu vaiheen 2 lumekontrollohtu RCT (NCT03706040) testasi suoraan risankitsumab ia aikuisilla ja nuorilla potilailla, joilla on keskivaikeasta vakavaan atopinen dermatiti, ja todellisen maailman kohortti on ilmoittanut yhdistetystä dupilumabi + risankitsumabi-käytöstä potilailla, joilla on samanaikaisesti atopinen dermatiti ja psoriasis. Merkittävästi kirjallisuus dokumentoi myös tunnustetun paradoksisen haittavaikutus-signaalin — ekseemaattiset/dermatiitin-kaltaiset puhkeamat, jotka ilmaantuvat risankitsumabi-hoidon *aikana* psoriasista (esim. PMID 33185530, 36939506, 41645692) — mikä on kaksiteräinen signaali: se vahvistaa ihon immunologisen aktiivisuuden, joka on merkitsevä dermatiitin poluille, mutta myös flagaa turvallisuushuomion, joka olisi punnittava tehokkuuden rinnalla.
 
 ---
 
-## Clinical Trial Evidence
+## Kliinisten tutkimusten näyttö
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimusnumero | Vaihe | Tila | Rekrytointi | Tärkeimmät löydökset |
 |---------|------|------|------|---------|
-| [NCT03706040](https://clinicaltrials.gov/study/NCT03706040) | Phase 2 | Completed | 172 | Randomized, placebo-controlled, double-blind study of risankizumab in adult and adolescent subjects with moderate to severe atopic dermatitis — the most directly relevant trial for this indication |
-| [NCT04908475](https://clinicaltrials.gov/study/NCT04908475) | Phase 4 | Completed | 352 | Open-label comparison of risankizumab vs. apremilast in moderate plaque psoriasis; supports mature clinical use in inflammatory skin disease |
-| [NCT05969223](https://clinicaltrials.gov/study/NCT05969223) | Phase 4 | Completed | 214 | Double-blind study of risankizumab in moderate-to-severe genital or scalp psoriasis |
-| [NCT04818385](https://clinicaltrials.gov/study/NCT04818385) | N/A (observational) | Completed | 240 | Taiwan prospective cohort on durability of risankizumab response (PASI 90) vs. other biologics in moderate-to-severe plaque psoriasis |
-| [NCT07021495](https://clinicaltrials.gov/study/NCT07021495) | N/A (observational) | Recruiting | 840 | Real-world biomarker profiling study covering atopic dermatitis, psoriasis and other immune-mediated inflammatory skin diseases |
-| [NCT07041112](https://clinicaltrials.gov/study/NCT07041112) | N/A (observational) | Completed | 1000 | Pharmacogenetic study on 10-year survival of biologic therapies in cutaneous psoriasis ± psoriatic arthritis |
-| [NCT07352566](https://clinicaltrials.gov/study/NCT07352566) | Phase 4 | Not yet recruiting | 10 | Microdevice-based topical drug testing platform for atopic dermatitis and psoriasis; low direct relevance |
+| [NCT03706040](https://clinicaltrials.gov/study/NCT03706040) | Vaihe 2 | Valmistunut | 172 | Satunnaistettu, lumekontrollohtu, kaksoissokkoutettu tutkimus risankitsumabista aikuisilla ja nuorilla potilailla, joilla on keskivaikeasta vakavaan atopinen dermatiti — relevanttein tutkimus tähän indikaatioon |
+| [NCT04908475](https://clinicaltrials.gov/study/NCT04908475) | Vaihe 4 | Valmistunut | 352 | Avoin vertailu risankitsumabista vs. apremilastia keskivaikeassa plaakki-psoriasissa; tukee kypsää kliinistä käyttöä tulehduksellisissa ihotaudeissa |
+| [NCT05969223](https://clinicaltrials.gov/study/NCT05969223) | Vaihe 4 | Valmistunut | 214 | Kaksoissokkoutettu tutkimus risankitsumabista keskivaikeasta vakavaan genitaliaali- tai päänahan psoriasissa |
+| [NCT04818385](https://clinicaltrials.gov/study/NCT04818385) | N/A (havainnoiva) | Valmistunut | 240 | Taiwan prospektiivinen kohortti risankitsumabi-vasteen kestävyydestä (PASI 90) vs. muista biologisista lääkkeistä keskivaikeassa plaakki-psoriasissa |
+| [NCT07021495](https://clinicaltrials.gov/study/NCT07021495) | N/A (havainnoiva) | Rekrytointi käynnissä | 840 | Todellisen maailman biomarkkerien profilointi-tutkimus, joka kattaa atopisen dermatiitin, psoriaasin ja muut immuunimedioitua tulehduksellisia ihosairauksia |
+| [NCT07041112](https://clinicaltrials.gov/study/NCT07041112) | N/A (havainnoiva) | Valmistunut | 1000 | Farmakogeneettinen tutkimus 10 vuoden selviytymisestä biologisiin lääkkeisiin ihotaudin psoriasissa ± psoriaattinen artriitti |
+| [NCT07352566](https://clinicaltrials.gov/study/NCT07352566) | Vaihe 4 | Ei vielä rekrytoimassa | 10 | Mikrolaitepohjainen topikaalinen lääkkeiden testauspalvelu atopisen dermatiitin ja psoriaasin osalta; matala suora relevanssi |
 
 ---
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät löydökset |
 |------|-----|------|------|---------|
-| [36588137](https://pubmed.ncbi.nlm.nih.gov/36588137/) | 2023 | RCT | Dermatology and Therapy | Phase 2 randomized, double-blind, placebo-controlled trial of risankizumab in moderate-to-severe atopic dermatitis, supporting IL-23/IL-22 blockade rationale in AD |
-| [31098898](https://pubmed.ncbi.nlm.nih.gov/31098898/) | 2019 | Review | Drugs | "First Global Approval" review: risankizumab's MOA (anti-IL-23 p19) and initial approval history in psoriasis-spectrum disease |
-| [39201826](https://pubmed.ncbi.nlm.nih.gov/39201826/) | 2024 | Review | Children (Basel) | Narrative review of biologics/small molecules for pediatric alopecia areata, psoriasis, atopic dermatitis and hidradenitis suppurativa |
-| [33078990](https://pubmed.ncbi.nlm.nih.gov/33078990/) | 2020 | Review | Expert Opinion on Biological Therapy | Review of current and emerging biologics for pediatric atopic dermatitis |
-| [40856907](https://pubmed.ncbi.nlm.nih.gov/40856907/) | 2025 | Review | American Journal of Clinical Dermatology | Systematic review of systemic therapies (including risankizumab) for erythrodermic psoriasis |
-| [40794374](https://pubmed.ncbi.nlm.nih.gov/40794374/) | 2025 | Review | Inflammopharmacology | Systematic review of interleukin inhibitors (incl. IL-23) in lichen planus, therapeutic and paradoxical cutaneous effects |
-| [39668419](https://pubmed.ncbi.nlm.nih.gov/39668419/) | 2025 | Cohort | International Journal of Dermatology | Effectiveness and safety of combined dupilumab and risankizumab in patients with concomitant atopic dermatitis and psoriasis |
-| [40071317](https://pubmed.ncbi.nlm.nih.gov/40071317/) | 2025 | Cohort | Experimental Dermatology | Retrospective longitudinal study of risankizumab treatment response in patients with a history of erythrodermic psoriasis |
-| [38607726](https://pubmed.ncbi.nlm.nih.gov/38607726/) | 2024 | Review | Military Medicine | Reappraisal of systemic immunomodulators, including risankizumab, for psoriasis and eczema in military populations |
-| [37381703](https://pubmed.ncbi.nlm.nih.gov/37381703/) | 2023 | Case Report | Journal of Dermatological Treatment | Case of acrodermatitis continua of Hallopeau successfully and rapidly treated with risankizumab |
+| [36588137](https://pubmed.ncbi.nlm.nih.gov/36588137/) | 2023 | RCT | Dermatology and Therapy | Vaiheen 2 satunnaistettu, kaksoissokkoutettu, lumekontrollohtu tutkimus risankitsumabista keskivaikeassa vakavassa atopisen dermatiitin kanssa, tukien IL-23/IL-22-blokkauksen perustelua AD:ssä |
+| [31098898](https://pubmed.ncbi.nlm.nih.gov/31098898/) | 2019 | Katsaus | Drugs | "Ensimmäinen globaalinen hyväksyntä" -katsaus: risankitsumabi MOA (anti-IL-23 p19) ja alkuperäinen hyväksyntähistoria psoriasis-spektrin sairauksissa |
+| [39201826](https://pubmed.ncbi.nlm.nih.gov/39201826/) | 2024 | Katsaus | Children (Basel) | Biologisten aineiden ja pienten molekyylien narratiivinen katsaus pediatriseen alopecia areataan, psoriasiin, atopisen dermatiitin ja hidrosadeniitti-suppuratiivaan |
+| [33078990](https://pubmed.ncbi.nlm.nih.gov/33078990/) | 2020 | Katsaus | Expert Opinion on Biological Therapy | Katsaus nykyisistä ja nousevista biologisista aineista pediatriseen atopisen dermatiitin hoitoon |
+| [40856907](https://pubmed.ncbi.nlm.nih.gov/40856907/) | 2025 | Katsaus | American Journal of Clinical Dermatology | Systemaattinen katsaus systeemisistä terapioista (mukaan lukien risankitsumabi) erytrodermisen psoriaasin hoitoon |
+| [40794374](https://pubmed.ncbi.nlm.nih.gov/40794374/) | 2025 | Katsaus | Inflammopharmacology | Systemaattinen katsaus interleukiini-inhibiittoreista (incl. IL-23) lichen planuksessa, terapeuttisista ja paradoksaalisista ihoreaktioista |
+| [39668419](https://pubmed.ncbi.nlm.nih.gov/39668419/) | 2025 | Kohortti | International Journal of Dermatology | Yhdistetyn dupilumabi ja risankitsumabi tehokkuus ja turvallisuus potilailla, joilla on samanaikaisesti atopinen dermatiti ja psoriasis |
+| [40071317](https://pubmed.ncbi.nlm.nih.gov/40071317/) | 2025 | Kohortti | Experimental Dermatology | Retrospektiivinen pitkittäistutkimus risankitsumabi-vasteesta potilailla, joilla on historiaa erytrodermisesta psoriasista |
+| [38607726](https://pubmed.ncbi.nlm.nih.gov/38607726/) | 2024 | Katsaus | Military Medicine | Systeeimisten immunomodulatoreiden, mukaan lukien risankitsumabi, uudelleenarviointi psoriaasin ja ekseemasta sotilas-populaatioissa |
+| [37381703](https://pubmed.ncbi.nlm.nih.gov/37381703/) | 2023 | Tapauskertomus | Journal of Dermatological Treatment | Tapaus acrodermatitis continuasta Hallopeausta, jonka risankitsumabi hoiti onnistuneesti ja nopeasti |
 
 ---
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-No marketing authorizations for risankizumab are currently recorded in Finland (market status: Not Marketed, 0 authorizations).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*Note: Retrieval of the TFDA/EMA package insert (warnings, contraindications) is flagged as a Blocking data gap in this evidence pack, meaning a formal S1 safety pre-assessment cannot currently be completed. Separately, the literature evidence base surfaces a recurring paradoxical adverse-event signal — eczematous/dermatitis-like eruptions during risankizumab treatment (PMID 33185530, 36939506, 33185535, 41645692, 37014149) — that should be factored into any future safety review for a dermatitis indication specifically.*
+Risankitsumabi-markkinointilupaa ei ole tällä hetkellä rekisteröity Suomessa (markkinatila: Ei markkinoilla, 0 lupaa).
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuushuomiot
 
-**Decision: Hold**
+Katso lisätietoja pakkausselosteesta.
 
-**Rationale:**
-The mechanistic rationale (IL-23/Th17 blockade) and a completed Phase 2 RCT in atopic dermatitis (L2 evidence) provide a genuine efficacy signal, but a Blocking data gap on official safety labeling and the drug's absence from the Finnish market (0 authorizations) mean the safety pre-assessment (S1) cannot be completed at this time.
+*Huomautus: TFDA/EMA-vastaavan pakkausselosteen (varoitukset, vasta-aiheet) hankkiminen merkitään tässä näyttöpaketissa estäväksi tietovajeeksi, mikä tarkoittaa, että muodollista S1-turvallisuus-esiarviointia ei voida tällä hetkellä suorittaa. Erillään tästä kirjallisuuden näyttöperusta nostaa esille toistuvan paradoksisen haittavaikutus-signaalin — ekseemaattiset/dermatiitin-kaltaiset puhkeamat, jotka ilmaantuvat risankitsumabi-hoidon aikana (PMID 33185530, 36939506, 33185535, 41645692, 37014149) — joka olisi otettava huomioon tulevassa turvallisuusarvioinnissa erityisesti dermatiitin indikaation osalta.*
 
-**To proceed, the following is needed:**
-- TFDA/EMA-equivalent package insert (warnings and contraindications) to complete S1 safety pre-assessment
-- Confirmed original indication and full MOA documentation from DrugBank
-- DDI dataset (current query returned no results)
-- Targeted review of the paradoxical eczematous-reaction literature to assess risk when repurposing toward a primary dermatitis indication
-- Regulatory pathway assessment for Finland market entry given current "Not Marketed" status
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidätä**
+
+**Perustelut:**
+Mekanistinen perustelut (IL-23/Th17-blokkaus) ja valmistunut vaiheen 2 RCT atopisen dermatiitin kanssa (L2-näyttö) tarjoavat todellisen tehokkuussignaalin, mutta estävä tietovaje virallisen turvallisuusmerkinän osalta ja lääkkeen puuttuminen Suomen markkinoilta (0 lupaa) tarkoittavat, että turvallisuus-esiarviointia (S1) ei voida tällä hetkellä suorittaa.
+
+**Edetäkseen seuraavaa tarvitaan:**
+- TFDA/EMA-vastaava pakkausseloste (varoitukset ja vasta-aiheet) S1-turvallisuus-esiarviointin täydentämiseksi
+- Vahvistettu alkuperäinen indikaatio ja täydellinen MOA-dokumentointi DrugBankista
+- DDI-datasetti (nykyinen kysely ei palauttanut tuloksia)
+- Kohdistettu katsaus paradoksisen ekseemaattisen reaktion kirjallisuuteen riskin arvioimiseksi, kun lääkettä uudelleenkäytetään primaariksi dermatiitin indikaatioksi
+- Sääntelypolun arviointi Suomen markkinoille pääsystä ottaen huomioon nykyinen "Ei markkinoilla" -tilanne
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

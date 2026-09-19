@@ -29,76 +29,77 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Teprotumumab: From Thyroid Eye Disease to Monosomy X
+# Teprotumumab: kilpirauhasen silmäsairaudesta Monosomiaan X
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Teprotumumab is an anti-IGF-1R monoclonal antibody whose established use (referenced in the evidence pack's mechanistic rationale) is thyroid eye disease; formal original-indication data was not returned by this query. The TxGNN model's top prediction is **Monosomy X** (Turner syndrome karyotype) with a 99.79% score, but this candidate is supported by **0 clinical trials** and **0 publications**, and the evidence pack itself flags the prediction as a likely knowledge-graph false positive.
+Teprotumumab on anti-IGF-1R-monoklonaalinen vasta-aine, jonka vakiintunut käyttö (johon viitataan todistuspaketin mekanistisessa perustelussa) on kilpirauhasen silmäsairaus; virallisia alkuperäisen indikaation tietoja ei palautettu tällä kyselyllä. TxGNN-mallin huippuennuste on **Monosomia X** (Turnerin oireyhtymän karyytyyppi) 99.79 % pisteluvulla, mutta tätä kandidaattia tuetaan **0 kliinisillä tutkimuksilla** ja **0 julkaisulla**, ja todistuspaketti itsessään merkitsee ennusteen todennäköisesti tietokantaverkon väärä positiiviksi.
 
 ---
 
-## Quick Overview
+## Nopea katsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Not confirmed in source data (`original_indications` empty; mechanistic rationale references thyroid eye disease as the known use) |
-| Predicted New Indication | Monosomy X |
-| TxGNN Prediction Score | 99.79% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen indikaatio | Ei vahvistettu lähdetiedoissa (`original_indications` tyhjä; mekanistinen perustelu viittaa kilpirauhasen silmäsairauteen tunnetuksi käytöksi) |
+| Ennustettu uusi indikaatio | Monosomia X |
+| TxGNN-ennusteen pisteluku | 99.79 % |
+| Todistustaso | L5 (mallin ennuste vain, ilman tukevia tutkimuksia) |
+| Suomen markkinoiden asema | ✗ Ei markkinoilla |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Pidä |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, detailed mechanism of action data is not available from DrugBank for this query (`original_moa: [Data Gap]`). Based on information embedded in the evidence pack's own rationale fields, teprotumumab is understood to act as an IGF-1R (insulin-like growth factor 1 receptor) antagonist, with established use in thyroid eye disease.
+Yksityiskohtaisia toimintamekanismin tietoja ei ole tällä hetkellä saatavilla DrugBankista tällä kyselyllä (`original_moa: [Data Gap]`). Todistuspaketin omiin perustelukenttihin upotettujen tietojen perusteella teprotumumabin ymmärretään toimivan IGF-1R-reseptorin (insuliinin kaltaisen kasvutekijän 1 -reseptor) antagonistina, ja sillä on vakiintunut käyttö kilpirauhasen silmäsairaudessa.
 
-The top-ranked prediction, monosomy X, is the cytogenetic form of Turner syndrome. The evidence pack's own repurposing rationale flags a **direction conflict**: Turner syndrome is clinically managed with growth-hormone/IGF-1-axis therapies that *promote* growth in affected patients, whereas teprotumumab *blocks* IGF-1R signaling. Blocking the same axis that clinicians are trying to stimulate is mechanistically backwards, not complementary.
+Korkeimmalle rankattu ennuste, monosomia X, on Turnerin oireyhtymän sytogeeninen muoto. Todistuspaketin oma uudelleenkäytön perustelu merkitsee **suunnan ristiriidan**: Turnerin oireyhtymää hallitaan kliinisesti kasvuhormonin ja IGF-1-akselin terapioilla, jotka *edistävät* kasvua sairastuneilla potilailla, kun taas teprotumumab *estää* IGF-1R-signaloinnin. Saman akselin estäminen, jota klinisesti pyritään stimuloimaan, on mekanistisesti taaksepäin, ei täydentävä.
 
-Compounding this, 6 of the 10 top-ranked predictions (ranks 1, 4, 6, 7, 8, 10) are all variants of the same Turner-syndrome/sex-chromosome-anomaly disease cluster, and 3 more (ranks 2, 3, 9) are all variants of a single venous/vascular disease cluster (esophageal varices, varicose disease). This pattern is consistent with TxGNN embedding proximity within disease-similarity clusters rather than 10 independent pharmacological hypotheses. With zero clinical trials and zero literature across all 10 candidates, none currently clears even a preliminary plausibility bar.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+Lisäksi 6 kymmenestä huippusijoituksesta (sijoitukset 1, 4, 6, 7, 8, 10) ovat kaikki saman Turnerin oireyhtymä-/sukupuolikromosomianomalia-sairauden klusterin muunnoksia, ja 3 muuta (sijoitukset 2, 3, 9) ovat kaikki yhden laskimo-/verisuonisairauden klusterin muunnoksia (oesofageaaliset varitsit, varikositeetti). Tämä malli on yhteensopiva TxGNN-upotuksen läheisyyden kanssa sairauksien samankaltaisuusklustereiden sisällä pikemminkin kuin 10 riippumattoman farmakologisen hypoteesin kanssa. Nolla kliinisten tutkimusten ja nolla kirjallisuuden kanssa kaikissa 10 kandidaatissa, mikään ei selvästikään täytä edes alustavan uskottavuuden kynnystä.
 
 ---
 
-## Literature Evidence
+## Kliinisten tutkimusten todisteet
 
-Currently no related literature available
-
----
-
-## Finland Market Information
-
-Teprotumumab currently holds no marketing authorization in Finland (0 licenses on file); no dosage forms or approved-indication text are available to tabulate.
+Tällä hetkellä ei ole asiaan liittyviä rekisteröityjä kliinisiä tutkimuksia
 
 ---
 
-## Safety Considerations
+## Kirjallisuuden todisteet
 
-Please refer to the package insert for safety information.
-
-*(Note: TFDA package-insert warnings/contraindications for this drug are flagged in the evidence pack as a Blocking data gap — DG001 — pending PDF retrieval and parsing from the TFDA site.)*
+Tällä hetkellä ei ole asiaan liittyvää kirjallisuutta saatavilla
 
 ---
 
-## Conclusion and Next Steps
+## Suomen markkinoiden tiedot
 
-**Decision: Hold**
+Teprotumumabilla ei ole tällä hetkellä myyntilupaa Suomessa (0 lisenssiä rekisterissä); mihinkään taulukointiin ei ole saatavilla annosmuotoja tai hyväksyttyjen indikaatioiden tekstiä.
 
-**Rationale:**
-The top prediction (monosomy X) and all 9 runner-up candidates sit at Evidence Level L5 with zero clinical trials and zero literature support. The evidence pack's own mechanistic rationale identifies a direction conflict for the Turner-syndrome cluster (IGF-1R blockade vs. the growth-promoting therapy this population needs) and attributes the remaining candidates to graph-clustering artifacts rather than independent biological hypotheses.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings, contraindications) — currently a Blocking gap (DG001)
-- Confirmed original indication and MOA from DrugBank (currently Data Gap, DG002)
-- A mechanistically coherent hypothesis for any candidate indication, independently reviewed before further evidence-gathering is commissioned
-- Preclinical or case-level evidence for at least one candidate before advancing past S0
+## Turvallisuusnäkökohdat
+
+Turvallisuustiedot löytyvät valmisteyhteenvedosta.
+
+*(Huomio: Tämän lääkkeen TFDA:n valmisteyhteenvedon varoitukset/vasta-aiheet merkitään todistuspakettissa blokkavaksi tietovajeksi — DG001 — odottaen PDF-hakua ja jäsentelyä TFDA:n sivustolta.)*
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidä**
+
+**Perustelu:**
+Huippuennuste (monosomia X) ja kaikki 9 muuta huippiehdokasta ovat todistustasolla L5, nolla kliinisen tutkimuksen ja nolla kirjallisuuden tuella. Todistuspaketin oma mekanistinen perustelu tunnistaa Turnerin oireyhtymäklusterin suunnan ristiriidan (IGF-1R-estävyys vs. kasvua edistävä terapia, jota tämä väestö tarvitsee) ja johtaa loput kandidaatit graafien klusterointiperusteihin pikemminkin kuin riippumattomiin biologisiin hypoteeseihin.
+
+**Jatkamiseksi tarvitaan seuraavat:**
+- TFDA:n valmisteyhteenveto (varoitukset, vasta-aiheet) — tällä hetkellä blokkava aukko (DG001)
+- Vahvistettu alkuperäinen indikaatio ja MOA DrugBankista (tällä hetkellä tietovaje, DG002)
+- Mekanistisesti yhtenäinen hypoteesi vähintään yhdelle indikaa... lle, itsenäisesti tarkistettu ennen kuin lisätodistusten keruusta päätetään
+- Prekliiniset tai potilastasoiset todisteet vähintään yhdelle ehdokkaalle, ennen kuin edetään S0:n yli
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

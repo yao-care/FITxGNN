@@ -29,60 +29,61 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Bezlotoxumab: From *Clostridioides difficile* Infection Recurrence Prevention to Acute Female Pelvic Peritonitis
+# Bezlotoxumab: *Clostridioides difficile* -infektioiden uusiutumisen ehkäisystä akuuttiin naiselliseen lantion peritonitiin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Bezlotoxumab is a monoclonal antibody that neutralizes *C. difficile* toxin B, used to prevent recurrence of *C. difficile* infection (CDI). The TxGNN model's top prediction for this drug is **Acute Female Pelvic Peritonitis** (score 99.89%), but this candidate — and all 9 others in the top-10 list — has **zero supporting clinical trials or literature**, and the model's own mechanistic rationale flags the biological link as weak.
+Bezlotoxumab on monoklonaalinen vasta-aine, joka neutralisoi *C. difficile* -toksiini B:tä ja sitä käytetään *C. difficile* -infektioiden (CDI) uusiutumisen ehkäisyyn. TxGNN-mallin huippuennuste tälle lääkkeelle on **akuutti naisellinen lantion peritonitis** (pistemäärä 99.89 %), mutta tällä ehdokkaalla – ja kaikilla yhdeksällä muulla kymmenen parhaan joukossa – ei ole **lainkaan tukevia klinkkisia tutkimuksia tai kirjallisuusviitteitä**, ja mallin oma mekanistinen perustelu merkitsee biologisen yhteyden heikoksi.
 
-## Quick Overview
+## Pikainen yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Prevention of *Clostridioides difficile* infection (CDI) recurrence *(inferred from the repurposing rationale text in this evidence pack; not yet confirmed via TFDA/DrugBank structured records — see data gap DG002)* |
-| Predicted New Indication | Acute Female Pelvic Peritonitis |
-| TxGNN Prediction Score | 99.89% |
-| Evidence Level | L5 |
-| Finland Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | *Clostridioides difficile* -infektioiden (CDI) uusiutumisen ehkäisy *(johdettu tämän todistuspackagin uudelleenkäyttöargumentin tekstistä; ei vielä vahvistettu TFDA/DrugBank-rakenteisista tietueista — katso tietokuilusta DG002)* |
+| Ennustettu uusi indikaatio | Akuutti naisellinen lantion peritonitis |
+| TxGNN-ennusteen pistemäärä | 99.89% |
+| Todisteen taso | L5 |
+| Suomen markkinatilanne | ✗ Ei markkinoilla |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Odota |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, detailed mechanism of action data is not available in the structured drug record (DrugBank field marked as data gap). Based on the mechanistic notes accompanying this prediction, bezlotoxumab is a monoclonal antibody that binds and neutralizes *C. difficile* toxin B in the gut, preventing the toxin-mediated tissue damage that drives CDI recurrence. It does not have a known antimicrobial or broader anti-inflammatory mechanism.
+Tällä hetkellä yksityiskohtaisia tietoja vaikutusmekanismista ei ole saatavilla rakenteisessa lääketietueessa (DrugBank-kenttä on merkitty tietokuiluksi). Tämän ennusteen mukana olevien mekanististen huomautusten perusteella bezlotoxumab on monoklonaalinen vasta-aine, joka sitoutuu *C. difficile* -toksiini B:hen ja neutralisoi sen suolistossa, mikä estää toksiinin välittämän kudosvaurion, joka johtaa CDI:n uusiutumiseen. Sillä ei ole tunnettua antimikrobista tai laajempaa tulehdusta vaimentavaa mekanismia.
 
-Acute female pelvic peritonitis is typically caused by ascending polymicrobial infection (mixed aerobic/anaerobic flora) from the genital tract, a pathophysiology unrelated to *C. difficile* toxin activity. The evidence pack's own repurposing rationale explicitly characterizes this mechanistic link as weak, with no known biological connection between toxin-B neutralization and pelvic infection pathology.
+Akuutti naisellinen lantion peritonitis johtuu tyypillisesti genitaaliratojen nousevista polymikrobisista infektioista (sekoitetusta aerobisesta/anaerobisesta floraasta), ja sen taudin fysiologia on erillään *C. difficile* -toksiinin aktiviteetista. Todistuspackagin uudelleenkäyttöargumentti karakterisoi tätä mekanistista yhteyttä eksplisiittisesti heikoksi, eikä ole tunnettu biologista yhteyttä toksiini-B:n neutralisaation ja lantion infektiopatofysiologian välillä.
 
-Notably, this is not an isolated case: all 10 top-ranked candidates for bezlotoxumab (pelvic peritonitis, fallopian tube cyst, tubal pregnancy, salpingitis isthmica nodosa, broad ligament disease, lumbar spinal stenosis, abdominal cystic lymphangioma, abdominal ectopic pregnancy, celiac trunk compression syndrome, pelvic varices) span structural, vascular, and anatomic conditions with no plausible link to toxin neutralization. The rationale text for several candidates explicitly labels them as likely "model noise." This pattern suggests the TxGNN score cluster here reflects an embedding-space artifact rather than a real pharmacological signal, and should be weighted accordingly.
+Huomionarvoista on, että tämä ei ole eristetty tapaus: kaikki 10 bezlotoxumabille korkeimmiten sijoitettua ehdokasta (lantion peritonitis, munatorven kysta, tubaaliinen raskaus, salpingitis isthmica nodosa, laajasiteen sairaus, lannerangasta johtuva spinaalistenoosi, vatsaontelon kystinen lymfangioma, vatsan ulkoinen raskaus, keliakaalisen rungon puristussyndrooma, lantion varices) kattavat rakenteellisia, vaskkulaarisia ja anatomisia tiloja, joilla ei ole uskottavaa yhteyttä toksiinin neutralisaatioon. Useiden ehdokkaiden perusteluteksti merkitsee ne eksplisiittisesti todennäköisiksi "mallin kohinnaksi". Tämä kuvio ehdottaa, että TxGNN-pistejoukko tässä heijastaa upotusavaruuden artefaktia eikä todellista farmakologista signaalia, ja sitä tulisi painottaa sen mukaisesti.
 
-## Clinical Trial Evidence
+## Kliiniset tutkimustodisteet
 
-Currently no related clinical trials registered
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä klinkkisia tutkimuksia
 
-## Literature Evidence
+## Kirjallisuustodisteet
 
-Currently no related literature available
+Tällä hetkellä ei ole saatavilla asiaan liittyviä kirjallisuusviitteitä
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Bezlotoxumab is not currently marketed in Finland (market status: not marketed), and there are no marketing authorizations on record (0 total).
+Bezlotoxumab ei ole tällä hetkellä markkinoilla Suomessa (markkinatilanne: ei markkinoilla), eikä siitä ole tietueissa myyntilupaa (0 yhteensä).
 
-## Safety Considerations
+## Turvallisuushuomiot
 
-Please refer to the package insert for safety information.
+Turvaa koskevan tiedon osalta katso pakkausselosteesta.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Odota**
 
-**Rationale:**
-Despite a high raw TxGNN score, the evidence level is L5 (model prediction only) with no clinical trials, no literature, and no market presence in Finland to draw on. The mechanistic rationale itself assesses the drug-disease link as weak, and this pattern repeats across all 10 top-ranked candidates for bezlotoxumab, indicating the signal cluster is more likely model noise than a genuine repurposing opportunity.
+**Perustelu:**
+Huolimatta korkeasta TxGNN-pistemäärästä, todisteen taso on L5 (vain mallin ennuste) ilman klinkkisia tutkimuksia, ilman kirjallisuutta ja ilman markkinoilla olevaa läsnäoloa Suomessa. Mekanistinen perustelu itse arvioi lääke-sairauden yhteyden heikoksi, ja tämä kuvio toistuu kaikilla 10 bezlotoxumabille korkeimmiten sijoitetulla ehdokkaalla, mikä viittaa siihen, että signaalijoukko on todennäköisemmin mallin kohina kuin todellista uudelleenkäyttömahdollisuutta.
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings/contraindications) — currently a Blocking data gap (DG001), required before any S1 safety screening
-- Confirmed original MOA and indication from an authoritative source (DrugBank API / regulatory label) — currently a High-severity gap (DG002)
-- Independent mechanistic or preclinical evidence connecting toxin-B neutralization to pelvic infection pathophysiology
-- Any clinical trial, case report, or observational data before this candidate can advance past S0
+**Jotta voidaan edetä, seuraavaa tarvitaan:**
+- TFDA:n pakkausseloste (varoitukset/vasta-aiheet) — tällä hetkellä estävä tietokuilu (DG001), vaaditaan ennen mitään S1 turvallisuusseulontaa
+- Vahvistettu alkuperäinen vaikutusmekanismi ja indikaatio luotettavasta lähteestä (DrugBank-rajapinta / sääntelyasiakirja) — tällä hetkellä korkean vakavuuden tietokuilu (DG002)
+- Riippumaton mekanistinen tai prekliininen todiste, joka yhdistää toksiini-B:n neutralisaation lantion infektiopatofysiologiaan
+- Kaikki kliiniset tutkimukset, tapausraportit tai havainnointitiedot, ennen kuin tämä ehdokas voi edetä S0:n yli
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

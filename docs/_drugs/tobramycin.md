@@ -29,73 +29,74 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Tobramycin: From Bacterial Infections to Exposure Keratitis
+# Tobramycini: bakteeri-infektioista altistuskeratiittiin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Tobramycin is an aminoglycoside antibiotic established in indications such as cystic fibrosis pulmonary infection and complicated urinary tract infection (per mechanistic notes in this evidence pack); it is not currently marketed in Finland and no original-indication registry data is available. The TxGNN model predicts it may be effective for **Exposure Keratitis**, with **2 clinical trials** (both low direct relevance) and **7 publications** currently associated with this direction, none of which use tobramycin as the primary study intervention.
+Tobramycini on aminoglykosidi-antibiootiksi, joka on vakiintunut käytössä indikaatioissa, kuten kystisen fibroosin keuhkoinfektio ja komplikoidun virtsatieinfektio (mekanististen huomautusten mukaan tässä näyttöpaketissa); sitä ei ole tällä hetkellä markkinoilla Suomessa, eikä alkuperäisen indikaation rekisteridata ole saatavissa. TxGNN-malli ennustaa, että se saattaa olla tehokas **altistuskeratiittiin**, ja siihen liittyy tällä hetkellä **2 kliinistä tutkimusta** (molemmat heikon suoran merkityksen osalta) ja **7 julkaisua**, joista yksikään ei käytä tobramyciniä päätutkimuksen interventioon.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in evidence pack (Finland: not marketed, 0 licenses on record; `original_indications` field empty) |
-| Predicted New Indication | Exposure Keratitis |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L4 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Ei dokumentoitu näyttöpaketissa (Suomi: ei markkinoilla, 0 hyväksyntää; `original_indications`-kenttä tyhjä) |
+| Ennustettu uusi indikaatio | Altistuskeratiitti |
+| TxGNN-ennusteen pistemäärä | 99.93% |
+| Näyttötaso | L4 |
+| Suomen markkinatilanne | ✗ Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Odota |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap). Based on information embedded in the evidence pack's rationale notes, tobramycin is an aminoglycoside antibiotic that binds the bacterial 30S ribosome to inhibit protein synthesis, giving it bactericidal activity against common Gram-negative and Gram-positive pathogens (notably *Pseudomonas aeruginosa* and *Staphylococcus aureus*); it is already established for infections such as CF pulmonary infection and complicated UTI.
+Tällä hetkellä yksityiskohtainen vaikutusmekanismin tieto ei ole saatavilla (merkitty korkean vakavuusasteen datatyhjiöksi). Näyttöpaketin perustelutietoihin perustuen tobramycini on aminoglykosidi-antibiootiksi, joka sitoutuu bakteerin 30S-ribosomiin proteiinin synteesin estämiseksi, jolloin se on bakteeriside-aktiivinen yleisiä Gram-negatiivisia ja Gram-positiivisia patogeeneja vastaan (erityisesti *Pseudomonas aeruginosa* ja *Staphylococcus aureus*); sitä käytetään jo vakiintuneesti CF-keuhkoinfektio ja komplikoidun virtsatieinfektio hoitoon.
 
-Exposure keratitis results from incomplete eyelid closure, leaving the cornea chronically exposed and at elevated risk of secondary bacterial infection. Mechanistically, tobramycin's antibacterial spectrum against the pathogens most likely to cause secondary corneal infection provides a plausible rationale for use as a prophylactic/adjunct topical agent — this is consistent with tobramycin's long-standing off-label use as a topical ophthalmic antibiotic.
+Altistuskeratiitti johtuu silmäluomen epätäydellisestä sulkeutumisesta, jolloin sarveiskalvo jää kroonisesti altistuneeksi, mikä lisää sekundaarisen bakteeri-infektioriskiä. Mekanistisesti tobramycinin antibakteerinen spektri patogeeneja vastaan, jotka todennäköisimmin aiheuttavat sekundaarisen sarveiskalvon infektioriskiin, tarjoaa perustellun perusteen käyttöön profylaktisena/apu-topikaalina aineena – tämä on yhdenmukainen tobramycinin pitkäaikaisen off-label-käytön kanssa topikaalina oftalmisena antibiootina.
 
-However, the evidence pack explicitly cautions that aminoglycosides carry known corneal epithelial toxicity (see PMID 2707046, an in vitro study of tobramycin among other aminoglycosides), and notes that **no trial in this dataset uses tobramycin as the actual intervention** for exposure keratitis. The prediction should therefore be read as mechanistically plausible but currently unsupported by drug-specific clinical evidence.
+Näyttöpaketti kuitenkin varoittaa, että aminoglykosideilla on tunnettu sarveiskalvon epiteelin toksisuus (katso PMID 2707046, in vitro -tutkimus tobramyciinista ja muista aminoglykosideista), ja huomioi, että **mikään tämän aineiston tutkimus ei käytä tobramyciniä todellisena interventioon** altistuskeratiitissa. Ennuste tulisi siten lukea mekanistisesti perustellusti, mutta tällä hetkellä ilman lääkkeelle spesifistä kliinistä näyttöä.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimuksen numero | Vaihe | Tila | Osallistujat | Keskeiset löydökset |
 |---------|------|------|------|---------|
-| [NCT06200727](https://clinicaltrials.gov/study/NCT06200727) | N/A | Unknown | 170 | Evaluates platelet-rich fibrin (PRF) membrane across four ophthalmic conditions (macular hole, pterygium, corneal ulcer, post-trabeculectomy). Tobramycin is not the study intervention (relevance grade C). |
-| [NCT05313828](https://clinicaltrials.gov/study/NCT05313828) | N/A | Unknown | 40 | Compares treatment modalities for dendritic corneal ulcer, primarily herpes simplex virus keratitis; tobramycin is not the primary intervention (relevance grade C). |
+| [NCT06200727](https://clinicaltrials.gov/study/NCT06200727) | N/A | Tuntematon | 170 | Evaluoi platelet-rich fibrin (PRF) -kalvoa neljässä oftalmisessa sairaudessa (makkulan reikä, pterygium, sarveiskalvon haava, post-trabekulektomia). Tobramycini ei ole tutkimuksen interventio (merkityksellisyysluokka C). |
+| [NCT05313828](https://clinicaltrials.gov/study/NCT05313828) | N/A | Tuntematon | 40 | Vertaa dendriittisen sarveiskalvon haavan hoitotapoja, pääasiassa herpes simpleksin viruksen keratiitin osalta; tobramycini ei ole pääinterventio (merkityksellisyysluokka C). |
 
-*Note: Neither trial directly evaluates tobramycin for exposure keratitis; both were graded "C" relevance in the source evidence.*
+*Huomio: Kumikaan tutkimus ei suoraan tutki tobramyciniä altistuskeratiittiin; molemmat arvioitiin "C" merkityksellisyydeksi lähdenäyttöissä.*
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Julkaisu | Keskeiset löydökset |
 |------|-----|------|------|---------|
-| [17228760](https://pubmed.ncbi.nlm.nih.gov/17228760/) | 2006 | Cohort/Lab comparison | Nippon Ganka Gakkai Zasshi | Compared MIC and post-antibiotic effect of antibiotic eye drops (including tobramycin) against isolates from Japan's National Surveillance of Infectious Keratitis. |
-| [2707046](https://pubmed.ncbi.nlm.nih.gov/2707046/) | 1989 | In vitro | Current Eye Research | In vitro corneal epithelial cytotoxicity study of aminoglycosides (neomycin, gentamicin, **tobramycin**, amikacin) in rabbit corneal cell culture — informs known toxicity risk. |
-| [34987857](https://pubmed.ncbi.nlm.nih.gov/34987857/) | 2021 | Case report | Oxford Medical Case Reports | Bacterial keratitis caused by multi-drug-resistant *Shewanella algae* without marine exposure. |
-| [11581057](https://pubmed.ncbi.nlm.nih.gov/11581057/) | 2001 | Case report | Ophthalmology | *Bacillus cereus* keratitis associated with contact lens wear. |
-| [12861116](https://pubmed.ncbi.nlm.nih.gov/12861116/) | 2003 | Case report | Eye & Contact Lens | Bilateral MRSA keratitis following photorefractive keratectomy. |
-| [33847093](https://pubmed.ncbi.nlm.nih.gov/33847093/) | 2021 | Case series (veterinary) | Polish Journal of Veterinary Sciences | Feline ocular toxoplasmosis seroprevalence and treatment outcomes — different pathogen class, low direct relevance. |
-| [14574976](https://pubmed.ncbi.nlm.nih.gov/14574976/) | 2003 | Case report (unrelated pathology) | Yan Ke Xue Bao | Paracentral corneal dellen as a sign of Graves ophthalmopathy — unrelated to infectious keratitis. |
+| [17228760](https://pubmed.ncbi.nlm.nih.gov/17228760/) | 2006 | Kohortti/laboratoriovertailu | Nippon Ganka Gakkai Zasshi | Vertasi MIC:tä ja post-antibiootin vaikutusta antibiootin silmäpistoille (mukaan lukien tobramycini) Japanin kansallisen infektiivisen keratiittin valvonnan isoalaateista. |
+| [2707046](https://pubmed.ncbi.nlm.nih.gov/2707046/) | 1989 | In vitro | Current Eye Research | In vitro -sarveiskalvon epiteelin sytotoksisuustutkimus aminoglykosideista (neomysiini, gentamisiini, **tobramycini**, amikasini) kanin sarveiskalvosoluviljelmissä – kertoo tunnetusta toksisuusriskistä. |
+| [34987857](https://pubmed.ncbi.nlm.nih.gov/34987857/) | 2021 | Tapauskertomus | Oxford Medical Case Reports | Bakteerinen keratiitti, jonka aiheutti monilääkeresistentti *Shewanella algae* ilman mereen liittyvää altistusta. |
+| [11581057](https://pubmed.ncbi.nlm.nih.gov/11581057/) | 2001 | Tapauskertomus | Ophthalmology | *Bacillus cereus* -keratiitti, joka liittyy piilolinssien käyttöön. |
+| [12861116](https://pubmed.ncbi.nlm.nih.gov/12861116/) | 2003 | Tapauskertomus | Eye & Contact Lens | Bilateraalinen MRSA-keratiitti fotorefratiivisen keratektomian jälkeen. |
+| [33847093](https://pubmed.ncbi.nlm.nih.gov/33847093/) | 2021 | Tapaussarja (eläinlääkintä) | Polish Journal of Veterinary Sciences | Feliinin okkulaarisen toksoplasmoosin seroprevalenssi ja hoitotulokset – eri patogeeniluokka, alhainen suora merkitys. |
+| [14574976](https://pubmed.ncbi.nlm.nih.gov/14574976/) | 2003 | Tapauskertomus (liittymätön patologia) | Yan Ke Xue Bao | Parantsentrinen sarveiskalvon dellen Gravesin oftalmopatiassa – liittymätön infektiiviseen keratiittiin. |
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Tobramycin currently has no marketing authorization on record in Finland (market status: Not Marketed; total licenses: 0).
+Tobramyciinil ei ole tietueissa markkinointihyväksyntää Suomessa (markkinatilanne: Ei markkinoilla; hyväksyntöjen kokonaismäärä: 0).
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information. (Note: TFDA/Fimea package-insert warnings and contraindications are flagged in this evidence pack as a **Blocking** data gap — see Conclusion below — and drug interaction lookup returned no data.)
+Katso turvallisuustiedot pakkausselosteesta. (Huomio: TFDA/Fimea-pakkausselosteen varoitukset ja vasta-aiheet on merkitty tässä näyttöpaketissa **estäväksi** datatyhjiöksi – katso johtopäätös alla – ja lääkkeiden vuorovaikutuksen haku ei palauttanut tietoja.)
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Odota**
 
-**Rationale:**
-Evidence for tobramycin in exposure keratitis is mechanism-level only (L4) — no clinical trial or publication in this dataset uses tobramycin as the actual intervention for this indication, and a known aminoglycoside corneal-toxicity signal (PMID 2707046) warrants caution. Separately, the package-insert safety review cannot proceed at all: the missing TFDA/Fimea label data is a Blocking-severity gap in this evidence pack.
+**Perustelut:**
+Näyttö tobramyciipin käytöstä altistuskeratiitissa on vain mekanismin tasolla (L4) – mikään tämän aineiston kliininen tutkimus tai julkaisu ei käytä tobramyciniä todellisena interventioon tälle indikaatiolle, ja tunnettu aminoglykosidi-sarveiskalvotoksisuussignaali (PMID 2707046) edellyttää varovaisuutta. Toisaalta pakkausselosteen turvallisuuskatsaus ei voi edetä ollenkaan: puuttuva TFDA/Fimea-merkkidata on tämän näyttöpaketin estävän vakavuusasteen tyhjiö.
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert (warnings, contraindications) — required before any S1 safety screening can occur
-- Confirmed DrugBank mechanism-of-action data for tobramycin
-- A tobramycin-specific preclinical or clinical study in exposure keratitis, given the current lack of drug-specific evidence and the known corneal epithelial toxicity signal from aminoglycosides
-- Clarification of tobramycin's original approved indication(s), since no data exists in Finland's registry
+**Jatkaakseen seuraavaa tarvitaan:**
+- TFDA/Fimea-pakkausseloste (varoitukset, vasta-aiheet) – pakollinen ennen S1-turvallisuusseulonnan aloittamista
+- Vahvistettu DrugBank-vaikutusmekanismin tieto tobramyciinille
+- Tobramyciin-spesifinen prekliininen tai kliininen tutkimus altistuskeratiitissa, koska nykytilassa puuttuu lääkkeelle spesifinen näyttö ja aminoglykosideilla tunnettu sarveiskalvon epiteelin toksisuussignaali
+- Selkeytys tobramyciiinin alkuperäisistä hyväksytyistä indikaatioista, koska Suomen rekisterissä ei ole dataa
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

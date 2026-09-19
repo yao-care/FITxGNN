@@ -29,62 +29,63 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 
 </div>
 
-# Avanafil: Drug Repurposing Evaluation — Incomplete Evidence Pack
+# Avanafil: Lääkkeen uudelleenkäytön arviointi — Epätäydellinen näyttöpaketti
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Avanafil (DrugBank: DB06237) is a drug currently not registered in Taiwan, and this Evidence Pack contains **no TxGNN-predicted indications** along with multiple critical data gaps. A formal drug repurposing evaluation cannot be completed at this stage; the recommended action is **Hold** pending remediation of missing data items.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not documented in this Evidence Pack |
-| Predicted New Indication | None available |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | L5 — Model prediction stage not reached |
-| Taiwan Market Status | Not marketed（Not marketed） |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+Avanafil (DrugBank: DB06237) on lääke, jota ei tällä hetkellä ole rekisteröity Taiwanissa, ja tämä näyttöpaketti sisältää **ei yhtään TxGNN-ennustamaa indikaatiota** sekä useita kriittisiä tietojen puutteita. Muodollista lääkkeen uudelleenkäytön arviointia ei voida saattaa loppuun tässä vaiheessa; suositeltu toimenpide on **Odottaa** puuttuvien tietojen korjaamisen saaksi.
 
 ---
 
-## Why No Evaluation Can Be Completed
+## Nopea yleiskatsaus
 
-The TxGNN pipeline returned **zero predicted indications** for Avanafil in this Evidence Pack. Two blocking data gaps are directly responsible:
-
-**1. Missing mechanism of action (DG002 — High severity)**
-Mechanism of action data is absent from the evidence pack. MOA is a core input for TxGNN's knowledge-graph embedding. Without it, drug–disease edge weights cannot be computed, and the model may fail to surface candidate indications.
-
-**2. Missing TFDA package insert warnings and contraindications (DG001 — Blocking severity)**
-Taiwan TFDA label data is required to complete the S1 safety pre-screening layer. This gap is classified as Blocking, meaning downstream evaluation steps are gated on its resolution.
-
-Because `predicted_indications` is empty, the following standard sections cannot be generated and are therefore omitted per reporting rules: *Clinical Trial Evidence*, *Literature Evidence*, and *Taiwan Market Information*.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+| Kohta | Sisältö |
+|-------|---------|
+| Alkuperäinen indikaatio | Ei dokumentoitu tässä näyttöpaketissa |
+| Ennustettu uusi indikaatio | Ei saatavilla |
+| TxGNN-ennusteen pisteet | N/A |
+| Näytön taso | L5 — Mallin ennustamisen vaihetta ei saavutettu |
+| Taiwanin markkinatilanne | Ei myytävänä（Ei myytävänä） |
+| Autorisaatioiden lukumäärä | 0 |
+| Suositeltu päätös | **Odottaa** |
 
 ---
 
-## Conclusion and Next Steps
+## Miksi arviointia ei voi saattaa loppuun
 
-**Decision: Hold**
+TxGNN-putki palautti **nolla ennustettua indikaatiota** Avanafilillle tässä näyttöpaketissa. Kaksi kriittistä tietojen puutetta ovat suoraan vastuussa:
 
-**Rationale:**
-The Evidence Pack is structurally incomplete — no TxGNN-predicted indications are present, and the two most critical data items (MOA and TFDA package insert) are missing. No meaningful repurposing signal can be evaluated or communicated until these gaps are closed.
+**1. Puuttuva toimintamekanismi (DG002 — Korkea vakavuus)**
+Toimintamekanismin tiedot puuttuvat näyttöpaketista. Toimintamekanismi on keskeinen syöte TxGNN:n knowledge-graph-upotukselle. Ilman sitä lääke-sairaus-reunojen painoja ei voida laskea, ja malli ei ehkä pysty tuottamaan kandidaatti-indikaatioita.
 
-**To proceed, the following is needed:**
+**2. Puuttuva TFDA-pakkausselosteen varoitukset ja vasta-aiheet (DG001 — Estävä vakavuus)**
+Taiwan TFDA -etiketin tiedot vaaditaan S1-turvallisuuden esi-seulontakerroksen täyttämiseen. Tämä puute on luokiteltu estäväksi, mikä tarkoittaa, että myöhemmät arviointivaiheet ovat riippuvaisia sen ratkaisusta.
 
-- **[DG001 — Blocking]** Download and parse the TFDA package insert PDF for Avanafil to extract approved indications, warnings, and contraindications; this unblocks the S1 safety screening gate
-- **[DG002 — High]** Query DrugBank API (`/drugs/DB06237`) to retrieve mechanism of action; this restores full knowledge-graph embedding coverage
-- Re-run the TxGNN evidence pipeline with the completed drug profile to generate ranked predicted indications
-- Verify DDI data via an alternative source (e.g., DrugBank interaction endpoint or clinical pharmacology database), as the current DDI query returned `not_found`
-- Once predicted indications are available, re-initiate this report with a populated Evidence Pack (v5+)
+Koska `predicted_indications` on tyhjä, seuraavia vakioosioita ei voida luoda, joten ne jätetään raportointisääntöjen mukaan pois: *Clinical Trial Evidence*, *Literature Evidence* ja *Taiwan Market Information*.
+
+---
+
+## Turvallisuusnäkökohdat
+
+Katso pakkausselosteen turvallisuustietoja.
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Odottaa**
+
+**Perustelut:**
+Näyttöpaketti on rakenteellisesti epätäydellinen — ei ole TxGNN-ennustamia indikaatioita, ja kaksi kriittisin tietokohdista (toimintamekanismi ja TFDA-pakkausseloste) puuttuvat. Mielekästä uudelleenkäytön signaalia ei voida arvioida tai kertoa, kunnes nämä puutteet on korjattu.
+
+**Seuraavaa vaihetta varten tarvitaan:**
+
+- **[DG001 — Estävä]** Lataa ja analysoi TFDA-pakkausselosteen PDF Avanafilille hyväksyttyjen indikaatioiden, varoituksien ja vasta-aiheisten purkamiseksi; tämä avaa S1-turvallisuusseulonnan portin
+- **[DG002 — Korkea]** Kysy DrugBank API:ta (`/drugs/DB06237`) toimintamekanismin hakemiseksi; tämä palauttaa täyden knowledge-graph-upotuksen kattavuuden
+- Suorita TxGNN-näyttöputki uudelleen täydennetyllä lääkkeen profiililla luodaksesi sijoitetut ennustetut indikaatiot
+- Vahvista DDI-tiedot vaihtoehtoisesta lähteestä (esim. DrugBank-vuorovaikutuspääte tai kliinisen farmakologian tietokanta), koska nykyinen DDI-kysely palautti `not_found`
+- Kun ennustetut indikaatiot ovat käytettävissä, aloita tämä raportti uudelleen täytetyllä näyttöpaketilla (v5+)
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -29,54 +29,55 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 
 </div>
 
-# Apalutamide: Repurposing Evaluation — No Predictions Available
+# Apalutamidi: Uudelleenkäyttöarviointi — Ei ennusteita saatavilla
 
-## Summary
+## Yhteenveto
 
-Apalutamide (DB11901) is a drug currently not approved in Finland. The TxGNN model returned **no predicted new indications** for this candidate in the current dataset. Critical data items — including original indications, mechanism of action, and safety information — are also absent, making a complete repurposing evaluation impossible at this stage.
+Apalutamidi (DB11901) on lääke, joka ei ole tällä hetkellä hyväksytty Suomessa. TxGNN-malli ei palauttanut **yhtään ennustettuja uusia indikaatioita** tälle kandidaatille nykyisessä tietojoukossa. Kriittiset tiedot – mukaan lukien alkuperäiset indikaatiot, vaikutusmekanismi ja turvallisuustiedot – puuttuvat myös, mikä tekee täydellisen uudelleenkäyttöarvioinnin mahdottomaksi tässä vaiheessa.
 
 ---
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|---------|
-| Original Indication | Not available in current dataset |
-| Predicted New Indication | None returned by TxGNN |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | N/A |
-| Finland Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+| Alkuperäinen indikaatio | Ei saatavilla nykyisessä tietojoukossa |
+| Ennustettu uusi indikaatio | Mikään ei palautettu TxGNN:llä |
+| TxGNN:n ennustepistemäärä | N/A |
+| Evidenssin taso | N/A |
+| Suomen markkinoiden asema | Ei markkinoitu |
+| Lupakäsittelyjen lukumäärä | 0 |
+| Suositeltu päätös | **Pidätys** |
 
 ---
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Apalutamide has no registered authorizations in Finland. No license records, approved dosage forms, or approved indications are available in the current dataset.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+Apalutamidilla ei ole rekisteröityjä hyväksyntöjä Suomessa. Nykyisessä tietojoukossa ei ole saatavilla lupakäsittelytietoja, hyväksyttyjä antomuotoja tai hyväksyttyjä indikaatioita.
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuusnäkökohdat
 
-**Decision: Hold**
+Katso turvallisuustietoja pakkausselosteesta.
 
-**Rationale:**
-The TxGNN model returned no candidate indications for Apalutamide, and the absence of original indication data, mechanism of action, and safety information means there is no basis for a repurposing evaluation at this time.
+---
 
-**To proceed, the following is needed:**
+## Johtopäätös ja seuraavat vaiheet
 
-- **TxGNN prediction**: Re-run the prediction pipeline with Apalutamide's DrugBank graph embeddings to determine whether a candidate indication score can be generated
-- **Mechanism of action**: Query the DrugBank API (DB11901) to retrieve pharmacological class, target, and MOA
-- **Original indications**: Parse the TFDA package insert PDF (already located per query log) to extract approved indications and safety warnings
-- **Finland regulatory check**: Verify Fimea database directly to confirm current approval and market status
-- **Safety data**: Extract key warnings, contraindications, and drug interactions from the package insert before proceeding to safety screen
+**Päätös: Pidätys**
+
+**Perustelut:**
+TxGNN-malli ei palauttanut kandidaatti-indikaatioita apalutamidille, ja alkuperäisen indikaation tietojen, vaikutusmekanismin ja turvallisuustietojen puuttuminen tarkoittaa, että uudelleenkäyttöarvioinnin pohjaa ei ole tässä vaiheessa.
+
+**Jotta voidaan edetä, seuraavaa tarvitaan:**
+
+- **TxGNN ennuste**: Suorita ennuste-prosessi uudelleen Apalutamidin DrugBank-graafi-upotuksilla määrittääksesi, voidaanko kandidaatti-indikaation pistemäärä luoda
+- **Vaikutusmekanismi**: Kysy DrugBank API:sta (DB11901) farmakologisen luokan, kohteen ja MOA:n hakemiseksi
+- **Alkuperäiset indikaatiot**: Jäsentele TFDA-pakkausselosteen PDF:stä (jo sijainnissa kysymyslokin perusteella) hyväksytyt indikaatiot ja turvallisuusvaroitukset ennen siirtymistä turvallisuusseulontaan
+- **Suomen sääntelyjen tarkistus**: Vahvista Fimean tietokannasta suoraan vahvistaaksesi nykyisen hyväksynnän ja markkinoiden aseman
+- **Turvallisuustiedot**: Poimi pakkausselosteesta tärkeimmät varoitukset, vasta-aiheet ja lääkeinteraktiot ennen siirtymistä turvallisuusseulontaan
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

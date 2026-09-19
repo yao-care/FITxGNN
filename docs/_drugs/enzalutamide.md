@@ -29,91 +29,92 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **7** kpl
 
 </div>
 
-# Enzalutamide: From Prostate Cancer to Prostate Cancer/Brain Cancer Susceptibility
+# Enzalutamiidi: Eturauhassyövästä eturauhassyövän/aivokasvainten alttiuden repurposingiin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Enzalutamide is an androgen receptor (AR) antagonist whose established, approved use is metastatic castration-resistant/hormone-sensitive prostate cancer. TxGNN's top-ranked prediction for this drug is the composite label **"prostate cancer/brain cancer susceptibility"** (score **99.71%**), but this candidate currently has **zero clinical trials and zero publications** directly supporting it, and the model's own rationale flags it as likely overlapping with the drug's known indication rather than a genuine new use.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available from Fimea license records (0 authorizations on file). Based on the drug's known AR-antagonist mechanism referenced elsewhere in this evidence pack, Enzalutamide's approved use is prostate cancer (castration-resistant / hormone-sensitive, mCRPC/mHSPC) |
-| Predicted New Indication | Prostate cancer/brain cancer susceptibility |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L5 |
-| Finland Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Enzalutamiidi on androgeenireseptorin (AR) antagonisti, jonka vakiintunut hyväksytty indikaatio on metastaattinen kastraatioresistentti tai hormoniherkkä eturauhassyöpä. TxGNN:n tälle lääkkeelle antama korkeimmin sijoittuva ennuste on yhdistelmäkohde **"eturauhassyöpä/aivokasvainten alttiuden"** (pistemäärä **99.71%**), mutta tälle ehdokkaalle ei ole tällä hetkellä **kliinisiä tutkimuksia eikä julkaisuja**, jotka suoraan tukisivat sitä. Mallin oma perustelut myös viittaavat siihen, että se todennäköisesti päällekkäin lääkkeen tunnetun indikaation kanssa sen sijaan että se olisi aito uuden käytön ennuste.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Detailed mechanism-of-action data for Enzalutamide is formally flagged as a data gap in this evidence pack (DG002, High severity). However, the rationale attached to a related candidate ("male reproductive organ cancer," rank 6) confirms that Enzalutamide acts as an **AR (androgen receptor) antagonist**, directly blocking androgen-driven proliferation signaling in prostate cancer cells — this is the drug's core, already-approved mechanism, not a novel hypothesis.
-
-This context matters for interpreting the rank-1 prediction: the "prostate cancer" component of "prostate cancer/brain cancer susceptibility" likely reflects the model detecting the drug's **known** indication rather than surfacing something new. The "brain cancer susceptibility" component has no established mechanistic rationale — AR signaling's role in central nervous system tumor susceptibility is not established in the literature or evidence supplied here.
-
-The evidence pack itself explicitly recommends caution: it notes this label should be reviewed alongside the "male reproductive organ cancer" candidate to avoid double-counting the same underlying prostate-cancer biology as two separate "new" hypotheses. In short, this top-ranked prediction is best read as a **high embedding-similarity artifact** rather than a mechanistically grounded repurposing signal, and it currently has no clinical or literature corroboration.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Kohde | Sisältö |
+|------|--------|
+| Alkuperäinen indikaatio | Saatavilla ei ole Fimean myyntiluvadatasta (0 myyntilupaa rekisterissä). Lääkkeen tunnetun AR-antagonisti-mekanismin perusteella, johon viitataan muualla tässä evidenssissä, Enzalutamiidin hyväksytty käyttö on eturauhassyöpä (kastraatioresistentti / hormoniherkkä, mCRPC/mHSPC) |
+| Ennustettu uusi indikaatio | Eturauhassyöpä/aivokasvainten alttiuden |
+| TxGNN:n ennustepisteet | 99.71% |
+| Evidenssin taso | L5 |
+| Suomen markkinatilanne | ✗ Ei markkinoilla |
+| Myyntilupien lukumäärä | 0 |
+| Suositeltu päätös | Pidä |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennuste on järkevä?
 
-Currently no related literature available
+Enzalutamiidin yksityiskohtaisen vaikutusmekanismin tiedot on virallisesti merkitty tietoaukoksi tässä evidenssissä (DG002, korkea vakavuus). Kuitenkin samaan asiaan liittyvään ehdokkaaseen liittyvät perustelut ("miehisen sukupuolielimen syöpä", sijoitus 6) vahvistaa, että Enzalutamiidi toimii **AR (androgeenireseptorin) antagonistina**, suoraan estäen androgeenin ohjaamaa proliferaatiosignalointia eturauhassyöpäsoluissa — tämä on lääkkeen ydinmekanismi, joka on jo hyväksytty, eikä uusi hypoteesi.
 
----
+Tämä konteksti on tärkeä rank-1-ennustuksen tulkitsemiselle: "eturauhassyövän" komponentti "eturauhassyövän/aivokasvainten alttiuden" yhdistelmässä todennäköisesti heijastaa mallin havaitsemista lääkkeen **tunnetusta** indikaatiosta eikä uuden pinnan löytämisestä. "Aivokasvainten alttiuden" komponentilla ei ole vakiintunutta mekanistista perustelua — AR-signaloinnin rooli keskushermoston kasvainten alttiudessa ei ole vakiintunut kirjallisuudessa tai tässä esitetyissä todisteissa.
 
-## Finland Market Information
-
-Enzalutamide is not currently marketed in Finland — the Fimea regulatory record shows 0 marketing authorizations and no license entries are available to summarize.
+Evidenssissä itse suositellaan varovaisuutta: se huomautuu, että tätä tunnistetta tulee arvioida rinnalla "miehisen sukupuolielimen syövän" ehdokkaan kanssa, jotta vältetään saman taustalla olevan eturauhassyövän biologian laskeminen kaksinkertaisesti kahtena erillisenä "uutena" hypoteesina. Lyhyesti sanottuna, tämä korkeimmin sijoittuva ennuste tulisi lukea **korkean upotuksen samankaltaisuusartefaktina** mekanistisesti perustetun repurposing-signaalin sijaan, ja sillä ei tällä hetkellä ole kliinistä tai kirjallisuusperustaista tukea.
 
 ---
 
-## Cytotoxicity
+## Kliinisen tutkimuksen todisteet
 
-*(Included because Enzalutamide is an antineoplastic agent used for prostate cancer.)*
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (androgen receptor signaling inhibitor; non-cytotoxic hormonal agent) |
-| Myelosuppression Risk | Low — AR inhibitors as a class typically carry lower myelosuppressive potential than conventional cytotoxic chemotherapy; no drug-specific toxicity data are available in this evidence pack |
-| Emetogenicity Classification | Low — oral hormonal/targeted agents generally have minimal emetogenic potential |
-| Monitoring Items | Please refer to the package insert warnings and precautions (no toxicity/monitoring data available in this evidence pack) |
-| Handling Protection | Please refer to the package insert warnings and precautions (institutional hazardous-drug handling classification not available in this evidence pack) |
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia
 
 ---
 
-## Safety Considerations
+## Kirjallisuuden todisteet
 
-Please refer to the package insert for safety information.
-
-*(Note: key warnings, contraindications, and DDI data are all recorded as data gaps in this evidence pack — DG001, Blocking severity — meaning a formal safety pre-screen (S1) cannot currently be performed.)*
+Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta
 
 ---
 
-## Conclusion and Next Steps
+## Suomen markkinatiedot
 
-**Decision: Hold**
+Enzalutamiidi ei ole tällä hetkellä markkinoilla Suomessa — Fimean sääntelytiedot osoittavat 0 markkinointilupia ja lisenssimerkintöjä ei ole saatavilla yhteenvetosuoria varten.
 
-**Rationale:**
-The rank-1 prediction ("prostate cancer/brain cancer susceptibility") has no supporting clinical trials or literature and is classified L5 (model prediction only). Its "prostate cancer" component likely restates the drug's already-known indication rather than a genuine repurposing signal, and its "brain cancer susceptibility" component lacks mechanistic support. Combined with a Blocking-severity safety data gap and no Finland market presence, there is insufficient basis to advance this candidate.
+---
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert (warnings, contraindications) — currently Blocking data gap (DG001)
-- Confirmed DrugBank mechanism-of-action record — currently High-severity data gap (DG002)
-- Direct clinical or literature evidence specifically addressing "prostate cancer/brain cancer susceptibility" as a distinct indication (none currently exists)
-- De-duplication review against the overlapping "male reproductive organ cancer" candidate (rank 6, L1/S3) to confirm whether these represent one biological hypothesis or two
-- A completed drug-drug interaction (DDI) database query (current status: not found)
+## Sytostaattinen vaikutus
+
+*(Sisällytetty, koska Enzalutamiidi on antineoplastinen aine, jota käytetään eturauhassyövän hoitoon.)*
+
+| Kohde | Sisältö |
+|------|--------|
+| Sytostaattisen vaikutuksen luokitus | Kohdennettu hoito (androgeenireseptorin signaloinnin estäjä; ei-sytostaattinen hormonaaliaine) |
+| Luuydinsuppression riski | Matala — AR-estäjät luokkana tyypillisesti aiheuttavat alhaisempaa luuydinsuppression riskiä kuin perinteiset sytostaattiset kemoterapiat; lääkekohtaisia toksisuustietoja ei ole saatavilla tässä evidenssissä |
+| Oksentamisen klassifikaatio | Matala — suun kautta annettavat hormonaali-/kohdennetut lääkkeet yleensä aiheuttavat minimaalista oksentamisvaaraa |
+| Seurantakohteet | Katso pakkausseloste varoituksista ja varotoimista (toksisuus-/seurantadata ei ole saatavilla tässä evidenssissä) |
+| Käsittelyn suojaus | Katso pakkausseloste varoituksista ja varotoimista (laitoksen vaarallisten lääkkeiden käsittelyluokitusta ei ole saatavilla tässä evidenssissä) |
+
+---
+
+## Turvallisuusnäkökohdat
+
+Katso turvallisuustiedot pakkauselosteesta.
+
+*(Huomautus: tärkeät varoitukset, vasta-aiheet ja DDI-tiedot on kaikki kirjattu tietoaukoiksi tässä evidenssissä — DG001, estävä vakavuus — mikä tarkoittaa, että muodollista turvallisuuden esiarviointia (S1) ei voida tällä hetkellä suorittaa.)*
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidä**
+
+**Perustelut:**
+Rank-1-ennuste ("eturauhassyöpä/aivokasvainten alttiuden") ei ole tuettu kliinisillä tutkimuksilla tai kirjallisuudella ja se on luokiteltu L5:ksi (pelkästään mallin ennuste). Sen "eturauhassyöpä" -komponentti todennäköisesti toistaa lääkkeen jo tunnetun indikaation eikä ole aito repurposing-signaali, ja sen "aivokasvainten alttiuden" -komponentti vaatii mekanistisen tuen. Yhdessä estävän vakavuuden turvallisuustietoaukon ja puuttuvasta Suomen markkinoinnin kanssa, ei ole riittävää perustelua ehdokkaan eteenpäin viemiseksi.
+
+**Etenemistä varten tarvitaan seuraavaa:**
+- TFDA/Fimea pakkausseloste (varoitukset, vasta-aiheet) — tällä hetkellä estävä tietoaukko (DG001)
+- Vahvistettu DrugBank-vaikutusmekanismi-tietue — tällä hetkellä korkean vakavuuden tietoaukko (DG002)
+- Suora kliininen tai kirjallisuusperustainen näyttö, joka käsittelee nimenomaisesti "eturauhassyöpä/aivokasvainten alttiuden" erillisenä indikaationa (ei tällä hetkellä olemassa)
+- Päällekkäisyyden tarkistus "miehisen sukupuolielimen syövän" -ehdokkaan kanssa (rank 6, L1/S3) sen varmistamiseksi, edustaako nämä yhtä vai kahta biologista hypoteesia
+- Valmis lääke-lääke-vuorovaikutus (DDI) -tietokannan kysely (nykyinen tila: ei löytynyt)
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

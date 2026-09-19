@@ -29,78 +29,79 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Avelumab: Evaluation Report — Insufficient Data for Full Repurposing Analysis
+## Avelumab: Arviointiraportti — Riittämätön tieto täydellisen uudelleenkäyttötarkoituksen analysointiin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Avelumab (DrugBank: DB11945) is a fully human anti-PD-L1 monoclonal antibody checkpoint inhibitor currently not approved in Taiwan.
-This Evidence Pack contains **no TxGNN predicted indications**, and critical data fields — including original indication, mechanism of action, and safety profile — are absent.
-A **Hold** decision is recommended until the data gaps identified below are resolved.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not recorded in this Evidence Pack |
-| Predicted New Indication | No TxGNN predictions available |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | L5 — Model prediction unavailable; no supporting studies retrievable |
-| Taiwan Market Status | ✗ Not marketed (0 authorizations) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+Avelumab (DrugBank: DB11945) on täysin ihmisperäinen anti-PD-L1-monoklonaalinen vasta-aine, joka toimii tarkastuspiste-inhibiittorina, eikä sitä ole tällä hetkellä hyväksytty Taiwanissa.
+Tämä todistusnippu ei sisällä TxGNN-ennustettuja indikaatioita, ja kriittiset tietokentät – mukaan lukien alkuperäinen indikaatio, toimintamekanismi ja turvallisuusprofiili – puuttuvat.
+Suositellaan pidätys-päätöstä kunnes alla tunnistetut tietoaukot on ratkaistu.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Currently, this section cannot be completed. The Evidence Pack does not include original indication data (`original_indications: []`) or mechanism of action information (`original_moa: [Data Gap]`), and the `predicted_indications` array is empty.
-
-DrugBank query (Query Log ID 3) confirmed one record exists for Avelumab in DrugBank, but the parsed content was not forwarded into the Evidence Pack. Retrieving the full DrugBank entry — including pharmacology, targets, and categories — is a prerequisite before any mechanistic rationale can be constructed.
-
----
-
-## Clinical Trial Evidence
-
-Currently no predicted indication is available to associate clinical trials with. Clinical trial evidence retrieval is deferred pending TxGNN prediction output.
-
----
-
-## Literature Evidence
-
-Currently no predicted indication is available to associate literature with. Literature retrieval is deferred pending TxGNN prediction output.
+| Kohde | Sisältö |
+|-------|---------|
+| Alkuperäinen indikaatio | Ei kirjattu tähän todistusnippuun |
+| Ennustettu uusi indikaatio | Ei TxGNN-ennustuksia saatavilla |
+| TxGNN-ennustepisteet | N/A |
+| Näyttötaso | L5 — Mallin ennustus ei ole saatavilla; tukiarvioita ei ole haettavissa |
+| Taiwan-markkinoiden tila | ✗ Ei markkinoilla (0 hyväksyntää) |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltava päätös | **Pidätys** |
 
 ---
 
-## Taiwan Market Information
+## Miksi tämä ennuste on perusteltu?
 
-Avelumab has **no approved authorizations** in Taiwan. The TFDA query (Query Log ID 1) returned zero results.
+Tällä hetkellä tätä osiota ei voida saattaa loppuun. Todistusnippu ei sisällä alkuperäisen indikaation tietoja (`original_indications: []`) tai toimintamekanismin tietoja (`original_moa: [Data Gap]`), ja `predicted_indications`-joukko on tyhjä.
 
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-> Note: TFDA package insert query (Query Log ID 4) returned 1 result, indicating a package insert document may exist. The parsed safety content — warnings, contraindications, and drug interactions — was not populated into this Evidence Pack. Drug interaction query (Query Log ID 2) returned no results.
+DrugBank-kysely (Kyselylokin tunnus 3) vahvisti, että yksi Avelumab-tietue on olemassa DrugBankissa, mutta jäsenneltyä sisältöä ei välitetty todistusnippuun. Täydellisen DrugBank-merkinnän hakeminen – mukaan lukien farmakologia, kohdemolekyylit ja kategoriat – on edellytys ennen kuin mekanistista perustelua voidaan rakentaa.
 
 ---
 
-## Conclusion and Next Steps
+## Kliinisen tutkimuksen näyttö
 
-**Decision: Hold**
+Tällä hetkellä yhtään ennustettua indikaatiota ei ole saatavilla, jotta kliinisiä tutkimuksia voitaisiin liittää siihen. Kliinisen tutkimuksen näyttöjen hakeminen lykätään kunnes TxGNN-ennuste tuottaa tuloksia.
 
-**Rationale:**
-This Evidence Pack is structurally incomplete — no predicted indications, no original indication records, no MOA, and no safety data are present. A repurposing evaluation cannot be performed without these inputs.
+---
 
-**To proceed, the following is needed:**
+## Kirjallisuuden näyttö
 
-- **[Blocking — DG001]** Parse TFDA package insert PDF to extract contraindications and key warnings; this is required before any safety screening (S1 gate)
-- **[High — DG002]** Retrieve full Avelumab entry from DrugBank API to populate mechanism of action, pharmacological targets, and drug categories
-- **[Required]** Run TxGNN prediction pipeline for Avelumab (DB11945) to generate `predicted_indications` with disease scores, clinical trial links, and literature references
-- **[Required]** Confirm original approved indication(s) from DrugBank or TFDA package insert to anchor the repurposing comparison
-- **[Recommended]** After MOA is confirmed, verify whether Avelumab meets antineoplastic/cytotoxic criteria to determine if a Cytotoxicity section is required in the final report
+Tällä hetkellä yhtään ennustettua indikaatiota ei ole saatavilla, jotta kirjallisuutta voitaisiin liittää siihen. Kirjallisuuden hakeminen lykätään kunnes TxGNN-ennuste tuottaa tuloksia.
+
+---
+
+## Taiwan-markkinoiden tiedot
+
+Avelumabilla ei ole hyväksyttyjä valtuuksia Taiwanissa. TFDA-kysely (Kyselylokin tunnus 1) palautti nolla tuloksia.
+
+---
+
+## Turvallisuuskysymykset
+
+Viitaa pakkausselosteeseen turvallisuustiedoista.
+
+> Huomautus: TFDA-pakkausselosteen kysely (Kyselylokin tunnus 4) palautti 1 tuloksen, mikä osoittaa, että pakkausselostedokumentti saattaa olla olemassa. Jäsenneltyä turvallisuussisältöä – varoituksia, vasta-aiheita ja lääkkeiden välisiä vuorovaikutuksia – ei lisätty tähän todistusnippuun. Lääkkeiden välisen vuorovaikutuksen kysely (Kyselylokin tunnus 2) ei palauttanut tuloksia.
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidätys**
+
+**Perustelut:**
+Tämä todistusnippu on rakenteellisesti epätäydellinen – ei ennustettuja indikaatioita, ei alkuperäisen indikaation tietoja, ei mekanismia (MOA) eikä turvallisuustietoja. Uudelleenkäyttötarkoituksen arviointia ei voida suorittaa ilman näitä tuloja.
+
+**Jatkamista varten tarvitaan seuraavaa:**
+
+- **[Blocking — DG001]** Jäsentele TFDA-pakkausseloste ottaaksesi vasta-aiheet ja päävaroitukset; tämä vaaditaan ennen mitään turvallisuuden seulontaa (S1-portti)
+- **[High — DG002]** Hae täysi Avelumab-merkintä DrugBank API:sta toimintamekanismin, farmakologisten kohteiden ja lääkkeen kategorioiden täyttämiseksi
+- **[Required]** Suorita TxGNN-ennusteprosessi Avelumabille (DB11945) luodaksesi `predicted_indications` tautipisteet, kliinisen tutkimuksen linkit ja kirjallisuusviitteet
+- **[Required]** Vahvista alkuperäinen/-et hyväksytty/-yt indikaatio(t) DrugBankista tai TFDA-pakettiselosteesta ankkuroidaksesi uudelleenkäyttötarkoituksen vertailun
+- **[Recommended]** Kun mekanismi on vahvistettu, tarkista täyttääkö Avelumab antineoplastiset/sytotoksiset kriteerit määrittääksesi, vaaditaanko Sytotoksisuus-osio lopullisessa raportissa
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

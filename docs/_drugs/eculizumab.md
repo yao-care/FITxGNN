@@ -29,60 +29,61 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Eculizumab: From Paroxysmal Nocturnal Hemoglobinuria to Cyclic Hematopoiesis
+# Ekulitsumabi: Paroksysmaalisen yöllisen hemoglobiinuriasta sykliseen verisolujen muodostukseen
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Eculizumab is a complement C5 inhibitor whose established use is in complement-mediated disorders such as paroxysmal nocturnal hemoglobinuria (PNH) and atypical hemolytic uremic syndrome (aHUS). The TxGNN model predicts it may be effective for **Cyclic Hematopoiesis**, but this ranking is driven purely by embedding similarity — **0 clinical trials** and **0 publications** support this specific pairing, and the underlying disease biology (ELANE-driven neutrophil cycling) has no known connection to the complement pathway.
+Ekulitsumabi on komplementin C5-estäjä, jonka vakiintunut käyttöaihe on komplementinmedioidut häiriöt, kuten paroksysmaalinen yöllinen hemoglobiinuria (PNH) ja atypillinen hemolyysi-uremiasyndromi (aHUS). TxGNN-malli ennustaa, että se voi olla tehokas **syklisessä verisolujen muodostuksessa**, mutta tämä sijoitus perustuu puhtaasti upotukseen perustuvan samankaltaisuuden pohjalle — **0 kliinistä tutkimusta** ja **0 julkaisua** tukee tätä erityistä yhdistelmää, eikä taustalla olevan sairauden biologia (ELANE-väliintuleva neutrofiilisykli) ole tunnustetulla tavalla yhteydessä komplementtireittiin.
 
-## Quick Overview
+## Pikaohjeistus
 
-| Item | Content |
-|------|------|
-| Original Indication | Complement-mediated disorders (PNH, atypical HUS) — inferred from literature captured in this evidence pack; not separately confirmed via structured drug record |
-| Predicted New Indication | Cyclic Hematopoiesis |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L5 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohde | Sisältö |
+|------|---------|
+| Alkuperäinen käyttöaihe | Komplementinmedioidut häiriöt (PNH, atypillinen HUS) — päätelmä kirjallisuudesta, joka on otettu tähän näyttöpakettiin; ei ole erikseen vahvistettu rakenteisen lääketietueen kautta |
+| Ennustettu uusi käyttöaihe | Syklinen verisolujen muodostus |
+| TxGNN-ennustepisteet | 99,97% |
+| Näyttöjen taso | L5 |
+| Suomen markkinatilanne | ✗ Ei markkinoilla |
+| Markkinointilupapäätösten lukumäärä | 0 |
+| Suositeltu päätös | Odota |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on perusteltu?
 
-Detailed, sourced mechanism-of-action data for eculizumab is not available in this evidence pack (flagged as a High-severity data gap, DG002). Based on information embedded in the supporting literature and rationale records, eculizumab is a humanized monoclonal antibody that binds complement protein C5, blocking its cleavage into C5a and C5b-9, thereby preventing terminal complement (membrane attack complex) activation. This mechanism underlies its established efficacy in complement-driven hematologic disease (PNH, aHUS) and, per the qualitative literature captured here, in other complement-associated conditions such as thrombotic microangiopathies and CD59-deficiency syndromes.
+Yksityiskohtaista, lähteillä tuettua vaikutusmekanismin tietoa ekulitsumabista ei ole saatavilla tässä näyttöpaketissa (merkitty korkeimman vakavuuden tietovajeeksi, DG002). Tukevassa kirjallisuudessa ja perustelutietueissa sisältyvien tietojen perusteella ekulitsumabi on humanisaitu monoklonaalinen vasta-aine, joka sitoutuu komplementtiproteiiniin C5 ja estää sen pilkkoutumisen C5a:ksi ja C5b-9:ksi, mikä estää terminaalisen komplementin (kalvohyökkäysmonimerin) aktivaatiota. Tämä mekanismi selittää sen vakiintuneen tehokkuuden komplementinmedioidussa hematologisessa sairaudessa (PNH, aHUS) ja tässä kuvatuissa laadullisissa kirjallisuusglähteissä muissa komplementtiin liittyvissä tiloissa, kuten thrombotisissa mikroangiopatioissa ja CD59-puutossyndroomeissa.
 
-Cyclic hematopoiesis, however, is a periodic disorder of granulocyte production caused by ELANE (neutrophil elastase) mutations, affecting myeloid progenitor differentiation and survival — a pathway with no established link to terminal complement activation. The repurposing rationale attached to this candidate explicitly states there is no known mechanism by which C5 blockade would correct an ELANE-driven cycling defect, and this ranking derives entirely from TxGNN's learned embedding similarity between diseases, not from any shared pathophysiology.
+Syklinen verisolujen muodostus on kuitenkin granulosyytin tuotannon jaksoittainen häiriö, jonka aiheuttaa ELANE-mutaatiot (neutrofiilielastaasin mutaatiot), jotka vaikuttavat myeloidisolujen esiasteikkojen erilaistumiseen ja selviytymiseen — reitillä, jolla ei ole tunnettua yhteyttä terminaalisen komplementin aktivaatioon. Tähän kandidaattiin liitetyssä repurposoinnin perustelutekstissä nimenomaisesti todetaan, että ei ole tunnettua mekanismia, jolla C5-esto korjaisi ELANE-aiheuttamaa syklistä häiriötä, ja tämä sijoitus johtuu puhtaasti TxGNN:n opitusta upotukseen perustuvan samankaltaisuudesta sairauksien välillä, ei mistään jaetusta patofysiologiasta.
 
-Given this mechanistic disconnect and the complete absence of clinical or literature evidence, this prediction should be read as a hypothesis-generating signal only, not as a clinically supported repurposing candidate.
+Näiden mekanististen eroavuuksien ja täydellisen kliinisten tai kirjallisuuslähtöjen puuttumisen vuoksi tätä ennustetta olisi tulkittava vain hypoteesia luovaksi signaaliksi, ei kliinisesti tuetuksi repurposointimahdollisuudeksi.
 
-## Clinical Trial Evidence
+## Kliinisten tutkimusten näyttö
 
-Currently no related clinical trials registered.
+Tällä hetkellä ei ole rekisteröityjä vastaavia kliinisiä tutkimuksia.
 
-## Literature Evidence
+## Kirjallisuuslähtöjen näyttö
 
-Currently no related literature available.
+Tällä hetkellä ei ole saatavilla vastaavia kirjallisuuslähtöjä.
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-No marketing authorization records are available for this market — eculizumab is currently **not marketed** in this region (0 authorizations on file).
+Markkinointilupapäätösten tietueita ei ole saatavilla tälle markkinalle — ekulitsumabi ei ole tällä hetkellä **markkinoilla** tässä alueella (0 lupapäätöstä tiedostoissa).
 
-## Safety Considerations
+## Turvallisuushuomiot
 
-Please refer to the package insert for safety information. (TFDA package insert data has not yet been obtained — flagged as a Blocking data gap, DG001, required before any Stage 1 safety assessment can proceed.)
+Turvakkautta koskevat tiedot löytyvät pakkaussesite-dokumentista. (TFDA:n pakkausesite-tietoja ei ole vielä saatu — merkitty estävaksi tietovaheeksi, DG001, vaatii muuta ennen kuin voidaan edetä vaiheen 1 turvallisuusarviointiin.)
 
-## Conclusion and Next Steps
+## Johtopäätökset ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Odota**
 
-**Rationale:**
-The prediction is supported only by TxGNN embedding similarity (L5, S0) with zero clinical trials and zero literature evidence, and the repurposing rationale itself identifies no plausible mechanistic link between complement C5 inhibition and ELANE-driven cyclic hematopoiesis. Note that 9 additional TxGNN-predicted indications for this candidate (all congenital neutropenia/immunodeficiency syndromes) were reviewed alongside this one and show the same pattern — high similarity scores but no mechanistic, trial, or genuinely on-topic literature support.
+**Perustelut:**
+Ennuste on tuettu vain TxGNN:n upotukseen perustuvan samankaltaisuuden pohjalla (L5, S0), jossa on nolla kliinistä tutkimusta ja nolla kirjallisuuslähtöjä, ja repurposoinnin perusteluteksti itse tunnistaa, ettei ole uskottavaa mekanistista yhteyttä komplementin C5-estontyökalun ja ELANE-aiheuttaman syklisen verisolujen muodostuksen välillä. Huomaa, että 9 muuta TxGNN:n ennustamaa indikaatiota tälle kandidaatille (kaikki synnynnäiset neutropeniat/immuunivajavuussyndroomat) käytiin läpi rinnakkain tämän kanssa ja ne näyttävät samalta mallilta — korkeat samankaltaisuuspisteet mutta ei mekanistista, tutkimus- tai todella aiheeseen liittyvää kirjallisuustukea.
 
-**To proceed, the following is needed:**
-- TFDA/local regulatory package insert (warnings, contraindications) — currently a blocking gap
-- Confirmed mechanism-of-action documentation from DrugBank or primary literature
-- Preclinical or mechanistic studies directly linking complement pathway activity to ELANE-mediated neutrophil cycling, if such a link is ever established
-- Re-screening of literature search terms, since prior queries for related candidates (e.g., rank 4 and rank 10) returned matches driven by keyword overlap rather than disease-specific relevance
+**Jotta voitaisiin edetä, seuraavaa tarvitaan:**
+- TFDA:n/paikallisten sääntelyviranomaisten pakkausesite (varoitukset, vasta-aiheet) — tällä hetkellä estävä tietovahe
+- Vahvistettu vaikutusmekanismin dokumentaatio DrugBank:sta tai alkuperäisestä kirjallisuudesta
+- Prekliiniset tai mekanistiset tutkimukset, jotka suoraan yhdistävät komplementtireittiaktiviteetin ELANE-aiheuttamaan neutrofiilisykliin, jos tällainen yhteys koskaan muodostetaan
+- Kirjallisuushaun termien uudelleentarkistus, koska aiemmat kyselyt vastaavista kandidaateista (esim. sijoitus 4 ja sijoitus 10) palautivat osumia, joita ohjasivat avainsanayhtymät eikä sairauksille spesifinen relevanssi
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

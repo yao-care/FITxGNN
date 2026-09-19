@@ -29,79 +29,80 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **7** kpl
 
 </div>
 
-# Mogamulizumab: From Adult T-Cell Leukemia/Lymphoma to Prostatic Urethra Urothelial Carcinoma
+# Mogamulizumab: Aikuisten T-soluleukeemiasta/lymfoomasta eturauhaseen virtsaputkeen sijoittuvaan uroteelisytolaarin karsinoomaan
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Mogamulizumab is an anti-CCR4 monoclonal antibody currently used for adult T-cell leukemia/lymphoma and mycosis fungoides/Sézary syndrome (per the evidence pack's mechanistic rationale; not independently confirmed via Finland licensing data).
-The TxGNN model predicts it may be effective for **Prostatic Urethra Urothelial Carcinoma**, but this ranking is based **purely on the model's score** — **0 clinical trials** and **0 publications** currently support this direction.
+Mogamulizumab on anti-CCR4-monoklonaalinen vasta-aine, jota käytetään tällä hetkellä aikuisten T-soluleukeemiaan/lymfoomaan ja mykoosin fungoidesiin/Sézary-syndroomaan (todistusaineiston mekanistisen perustelun mukaan; ei vahvistettu itsenäisesti Suomen lisensointitietojen perusteella).
+TxGNN-malli ennustaa, että se saattaa olla tehokas **eturauhaseen virtsaputkeen sijoittuvassa uroteelisytolaarin karsinoomassa**, mutta tämä sijoitus perustuu **puhtaasti mallin pisteytyksen perusteella** — **0 kliinistä tutkimusta** ja **0 julkaisua** tukee tätä suuntaa.
 
-## Quick Overview
+## Pikayleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Adult T-cell leukemia/lymphoma; Mycosis fungoides/Sézary syndrome (per repurposing rationale text; no structured license record available) |
-| Predicted New Indication | Prostatic Urethra Urothelial Carcinoma |
-| TxGNN Prediction Score | 99.44% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Aikuisten T-soluleukeemia/lymfooma; Mykoosin fungoides/Sézary-syndrooma (uudelleenkäyttöperustelutekstin mukaan; strukturoitua lisensointitietoa ei saatavilla) |
+| Ennustettu uusi indikaatio | Eturauhaseen virtsaputkeen sijoittuva uroteelisytolaarin karsinooma |
+| TxGNN-ennusteen pistemäärä | 99.44% |
+| Todistusvahvuus | L5 (vain mallin ennuste, ei tukevia tutkimuksia) |
+| Suomen markkinoiden tila | ✗ Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Odottava |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on perusteltu?
 
-Currently, detailed mechanism of action data is not available in structured form (marked as a data gap). Based on the repurposing rationale provided, mogamulizumab is an anti-CCR4 monoclonal antibody, and its efficacy in adult T-cell leukemia/lymphoma and mycosis fungoides/Sézary syndrome has been established. CCR4 is expressed on regulatory T cells (Tregs), and mogamulizumab's mechanism involves depleting CCR4-positive Tregs to enhance anti-tumor immunity.
+Tällä hetkellä yksityiskohtaista vaikutusmekanismitietoa ei ole saatavilla strukturoidussa muodossa (merkitty tietoaukoksi). Tarjotun uudelleenkäyttöperustelun perusteella mogamulizumab on anti-CCR4-monoklonaalinen vasta-aine, ja sen tehokkuus aikuisten T-soluleukeemiaan/lymfoomaan ja mykoosin fungoidesiin/Sézary-syndroomaan on osoitettu. CCR4 ilmentyy säätävissä T-soluissa (Tregs), ja mogamulizumabin vaikutusmekanismi sisältää CCR4-positiivisten Tregien poistamisen syöpää vastustavan immuniteetin parantamiseksi.
 
-The theoretical link to prostatic urethra urothelial carcinoma rests on the observation that CCR4-positive Treg infiltration has been described in some urothelial tumor microenvironments — depleting these Tregs could, in principle, relieve local immunosuppression and enhance anti-tumor immune response. However, this connection is a mechanistic hypothesis derived solely from the TxGNN embedding space; it is not supported by any preclinical, translational, or clinical data specific to urothelial carcinoma.
+Teoreettinen yhteys eturauhaseen virtsaputkeen sijoittuvaan uroteelisytolaarin karsinoomaan perustuu havaintoon, että CCR4-positiivisten Tregien infiltraatiota on kuvattu joissakin uroteelisen kasvaimen mikro-ympäristöissä — näiden Tregien poistaminen voisi periaatteessa lievittää paikallista immunosupressiota ja parantaa syöpää vastaan suuntautuvaa immuunivastausta. Tämä yhteys on kuitenkin mekanistinen hypoteesi, joka on johdettu yksinomaan TxGNN-upotusavaruudesta; sitä ei tueta millään esikliinisillä, translaatiotutkimuksellisilla tai kliinisillä tutkimuksilla, jotka olisivat uroteeliselle karsinoomalle erityisiä.
 
-Given the complete absence of clinical trials or literature (see below), this prediction should be treated as a hypothesis-generating signal rather than an actionable repurposing candidate at this time.
+Kun otetaan huomioon kliinisten tutkimusten tai kirjallisuuden täydellinen puute (katso alla), tätä ennustetta tulisi pitää hypoteesin tuottavana signaalina eikä toimenpidekelpoisen uudelleenkäyttöehdokkaan sijaan tällä hetkellä.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen todisteet
 
-Currently no related clinical trials registered
+Tällä hetkellä ei ole rekisteröity asiaan liittyviä kliinisiä tutkimuksia
 
-## Literature Evidence
+## Kirjallisuuden todisteet
 
-Currently no related literature available
+Tällä hetkellä ei ole saatavilla asiaan liittyviä kirjallisuuslähteitä
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Mogamulizumab is not currently marketed in Finland (0 authorizations on record), so no product/license details are available.
+Mogamulizumab ei ole tällä hetkellä markkinoilla Suomessa (0 hyväksyntöä tietueessa), joten tuote-/lisensointitietoja ei ole saatavilla.
 
-## Cytotoxicity
+## Sytotoksiisuus
 
-Mogamulizumab is an antineoplastic agent (indicated for T-cell leukemia/lymphoma).
+Mogamulizumab on syöpää vastaan vaikuttava aine (indisoitu T-soluleukeemiaan/lymfoomaan).
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Immunotherapy (anti-CCR4 monoclonal antibody; not a conventional cytotoxic agent) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| Kohta | Sisältö |
+|------|---------|
+| Sytotoksiisuuden luokittelu | Immunoterapia (anti-CCR4-monoklonaalinen vasta-aine; ei tavanomainen sytotoksinen aine) |
+| Luuydintukahduttamisen riski | Katso pakkausseloste varoitukset ja varotoimet |
+| Emetogeenisuuden luokitus | Katso pakkausseloste varoitukset ja varotoimet |
+| Seurantakohdat | Katso pakkausseloste varoitukset ja varotoimet |
+| Käsittelysuojaus | Katso pakkausseloste varoitukset ja varotoimet |
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information.
+Katso pakkausselostetta turvallisuustiedoista.
 
-*Note: Retrieval of the Finland package insert / warning label (a blocking data gap, DG001) has not yet been completed, so no safety review (S1 stage) can be performed until this is resolved.*
+*Huomautus: Suomen pakkausselosteen/varoitusetiketin hakeminen (estävä tietoaukko, DG001) ei ole vielä valmis, joten turvallisuusarvioita (S1 vaihe) ei voida suorittaa ennen tämän ratkaisemista.*
 
-## Additional Candidates Identified by TxGNN
+## TxGNN:n tunnistama lisäehdokkaat
 
-The model flagged six further low-confidence candidates in the same score band (99.15–99.42%), all similarly lacking clinical or literature support and all scored L5/Hold: kidney pelvis sarcomatoid transitional cell carcinoma, infiltrating bladder urothelial carcinoma (sarcomatoid variant), renal pelvis papillary urothelial carcinoma, human herpesvirus 8-related tumor, ectomesenchymoma, and malignant cutaneous granular cell skin tumor. None currently warrant individual evaluation beyond the top-ranked candidate above.
+Malli tunnisti kuusi muuta matalan luottamuksen ehdokasta samassa pistemäärävälissä (99,15–99,42%), kaikki samankaltaisesti ilman kliinistä tai kirjallisuustukea ja kaikki luokiteltu L5/Odottava: munuaisen pelviksen sarkomatiitti siirtymäsolukarsinooma, tunkeuttava virtsarakkouroteelisytolaarin karsinooma (sarkomatiitti muunnos), munuaisen pelviksen papillaarinen uroteelisytolaarin karsinooma, ihmisen herpesvirus 8 -liittyvä kasvain, ektomesenkymooma ja pahanlaatuinen ihoonsijoittuva rakeisolinen ihosyöpä. Mikään näistä ei oikeuta yksittäistä arviointia edellä olevan korkeimmin sijoitetun ehdokkaan lisäksi.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Odottava**
 
-**Rationale:**
-The TxGNN score is high, but there is zero clinical trial or literature evidence for any of the seven predicted indications, and the mechanistic rationale is theoretical only. In addition, the Finland package insert/warning data (blocking gap) has not been retrieved, so the candidate cannot yet even enter safety pre-screening (S1).
+**Perustelut:**
+TxGNN-pistemäärä on korkea, mutta seitsemälle ennustetulle indikaatiolle ei ole yhtään kliinisen tutkimuksen tai kirjallisuustodistetta, ja mekanistinen perusteltu on vain teoreettinen. Lisäksi Suomen pakkausselosteen/varoitustiedot (estävä aukko) ei ole haettu, joten ehdokas ei voi vielä siirtyä turvallisuuden esikarsintaan (S1).
 
-**To proceed, the following is needed:**
-- Finland (Fimea) package insert warnings/contraindications (DG001, blocking)
-- Confirmed mechanism of action detail from DrugBank or primary literature (DG002)
-- Preclinical or translational evidence for CCR4/Treg involvement specifically in urothelial carcinoma
-- Any emerging clinical trial or case report data before this candidate is reconsidered beyond Hold
+**Jatkaakseen tarvitaan seuraavaa:**
+- Suomen (Fimea) pakkausselosteen varoitukset/vasta-aiheet (DG001, estävä)
+- Vahvistettu vaikutusmekanismin yksityiskohta DrugBankista tai alkuperäiskirjallisuudesta (DG002)
+- Esikliininen tai translaatiotieto CCR4/Treg-osallisuudesta erityisesti uroteelisytolaarin karsinoomassa
+- Syntyvät kliinisen tutkimuksen tai tapausselostotiedot ennen tämän ehdokkaan uudelleenarvioita odottavan vaiheen jälkeen
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

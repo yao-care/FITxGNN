@@ -29,56 +29,57 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Prilocaine: From Local Anesthesia to Papillary Conjunctivitis
+# Prilokaini: paikallispuudutuksesta papillaariseen konjunktiviitiin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Prilocaine is an amide-type local anesthetic (best known as a component of EMLA cream, used together with lidocaine for topical/regional analgesia). The TxGNN model's top-ranked prediction for this drug is **Papillary Conjunctivitis**, but currently **0 clinical trials** and **0 publications** support this specific link — the prediction is model-score only.
+Prilokaini on amidityyppiä oleva paikallispuudutusaine (tunnetaan parhaiten EMLA-voiteen osana, jota käytetään yhdessä lidokainin kanssa topikaalista/alueellista analgetiaa varten). TxGNN-mallin parhaiten arvotettu ennuste tälle lääkeaineelle on **papillaarinen konjunktiviitti**, mutta tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua** tukee tätä spesifistä yhteyttä — ennuste perustuu vain mallin pistemäärään.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Not marketed in Finland; no approved indication text on file. Known use (per literature in this evidence pack) is topical/regional local anesthesia. |
-| Predicted New Indication | Papillary Conjunctivitis |
-| TxGNN Prediction Score | 99.78% |
-| Evidence Level | L5 |
-| Finland Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|------|--------|
+| Alkuperäinen indikaatio | Ei markkinoitu Suomessa; hyväksyttyä indikaatiotekstiä ei ole saatavilla. Tunnettu käyttö (tämän todistuspaketin kirjallisuuden perusteella) on topikaalinen/alueellinen paikallispuudutus. |
+| Ennustettu uusi indikaatio | Papillaarinen konjunktiviitti |
+| TxGNN-ennusteen pistemäärä | 99.78% |
+| Todisteen taso | L5 |
+| Suomen markkinoiden tila | Ei markkinoitu (Ei markkinoitu) |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Odota |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Detailed mechanism-of-action data for prilocaine is not available in this evidence pack. Based on known information, prilocaine is a sodium-channel-blocking amide local anesthetic (frequently combined with lidocaine in EMLA cream), and its efficacy for producing local/topical analgesia is well established across the literature captured for this drug's other candidate indications.
+Yksityiskohtaiset prilokainin toimintamekanismin tiedot eivät ole saatavilla tässä todistuspaketissa. Tunnettujen tietojen perusteella prilokaini on natrium-kanava-salpaava amidityyppiä oleva paikallispuudutusaine (usein yhdistetty lidokainin kanssa EMLA-voiteessa), ja sen tehokkuus paikallisen/topikaalisen analgesian tuottamisessa on hyvin dokumentoitu tämän lääkeaineen muille ehdokasindikatiioille kerätyssä kirjallisuudessa.
 
-Papillary conjunctivitis, however, is a hypersensitivity/mechanical-irritation condition of the conjunctiva, driven by allergic or foreign-body inflammatory pathways — not by nociceptive nerve conduction. No mechanistic pathway currently links sodium-channel blockade to this disease process.
+Papillaarinen konjunktiviitti on kuitenkin yliherkkyys- tai mekaanisen ärsytyksen aiheuttama konjunktiivin sairaus, jota ohjaavat allergiset tai vierasaineen aiheuttamat tulehdusvaikutukset — ei nosiseptiivinen hermonjohto. Mikään mekanistinen reitti ei tällä hetkellä yhdistä natrium-kanava-salpausta tähän sairausprosessiin.
 
-The evidence pack's own analysis is explicit on this point: no clinical trials or publications connect prilocaine to papillary conjunctivitis, and the reviewers judged there to be no plausible mechanistic overlap. The high TxGNN score therefore reflects the model's embedding-space output alone, not any corroborating biological or clinical rationale.
+Todistuspaketin oma analyysi on nimenomainen tässä suhteessa: yksikään kliininen tutkimus tai julkaisu ei yhdistä prilokainia papillaariseen konjunktiviitiin, ja arvioijat katsoivat, että mekanistista päällekkäisyyttä ei ole. Korkea TxGNN-pistemäärä heijastaa siksi mallin laskennallista ennustetta yksin, ei mitään vahvistavia biologisia tai kliinisiä perusteita.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen todisteet
 
-Currently no related clinical trials registered
+Tällä hetkellä ei ole liittyviä rekisteröityjä kliinisiä tutkimuksia
 
-## Literature Evidence
+## Kirjallisuuden todisteet
 
-Currently no related literature available
+Tällä hetkellä ei ole saatavilla liittyviä julkaisuja
 
-## Safety Considerations
+## Turvallisuushuomiot
 
-Please refer to the package insert for safety information.
+Katso turvatiedot pakkausselosteesta.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Odota**
 
-**Rationale:**
-Despite a high TxGNN prediction score (99.78%), there is no clinical trial, literature, or mechanistic evidence connecting prilocaine to papillary conjunctivitis, and the underlying disease pathology does not align with the drug's known pharmacology. This candidate does not currently meet the bar for further investment.
+**Perustelut:**
+Huolimatta korkeasta TxGNN-ennusteen pistemäärästä (99.78%), ei ole olemassa kliinistä tutkimusta, kirjallisuutta tai mekanistista todistetta, joka yhdistäisi prilokainia papillaariseen konjunktiviitiin, ja taustalla olevan sairausprosessin patologia ei ole linjassa lääkeaineen tunnetun farmakologian kanssa. Tämä ehdokas ei tällä hetkellä täytä jatko-investoinnin kriteeriä.
 
-**To proceed, the following is needed:**
-- Confirmed mechanism-of-action (MOA) data for prilocaine
-- Preclinical or in-vitro rationale specifically linking local anesthetic activity to conjunctival hypersensitivity pathways
-- TFDA/Fimea package insert data (warnings, contraindications) — currently a blocking data gap
-- Consider redirecting evaluation effort toward this drug's better-evidenced candidates in the same evidence pack — notably **neuralgia** (L2, 12 trials, 20 publications, "Proceed with Guardrails") and **migraine disorder** (L3, 4 trials, "Research Question") — which have substantially stronger mechanistic and clinical support than papillary conjunctivitis.
+**Jotta voitaisiin edetä, tarvitaan seuraavaa:**
+- Vahvistetut prilokainin toimintamekanismin (MOA) tiedot
+- Prekliiniset tai in-vitro perustelut, jotka erityisesti yhdistävät paikallispuudutusaineen vaikutuksen konjunktiivin yliherkkyysreitteihin
+- TFDA/Fimea pakkausseloste (varoitukset, vasta-aiheet) — tällä hetkellä tietoaukko
+- Harkitse arviointityön uudelleenohjaamista tämän lääkeaineen paremmin perustelluille ehdokkaille samassa todistuspaketissa — erityisesti **neuragia** (L2, 12 tutkimusta, 20 julkaisua, "Jatka varauksella") ja **migreeni** (L3, 4 tutkimusta, "Tutkimuskysymys") — joissa on olennaisesti vahvemmat mekanistiset ja kliiniset perustelut kuin papillaarisessa konjunktiviitissa.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

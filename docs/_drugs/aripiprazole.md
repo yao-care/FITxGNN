@@ -29,60 +29,61 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Aripiprazole: From Psychiatric Disorders — New Indications Pending TxGNN Prediction
+# Arpipratsoli: Psykiatrisista sairauksista — Uudet indikaatiot odottavat TxGNN-ennustusta
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Aripiprazole is a well-established atypical antipsychotic agent used globally for schizophrenia, bipolar disorder, and adjunctive treatment of major depressive disorder.
-The current Evidence Pack contains **no TxGNN-predicted new indications**, as the prediction pipeline did not return results for DB01238.
-Evaluation cannot be completed at this stage; a **Hold** decision is recommended until critical data gaps are resolved.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Schizophrenia / Bipolar disorder (general domain knowledge; not populated in data package) |
-| Predicted New Indication | — (No predictions returned) |
-| TxGNN Prediction Score | — |
-| Evidence Level | Insufficient Data |
-| Finland Market Status | Not Marketed *(see note below)* |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
-
-> ⚠️ **Data Integrity Note:** Aripiprazole (brand name Abilify and generics) is among the most widely prescribed psychiatric agents in Europe and is routinely available in Finland. A result of zero authorizations strongly suggests a **data collection issue** rather than an actual absence from the Finnish market. The regulatory query should be re-run and verified before proceeding.
+Arpipratsoli on vakiintunut atypillinen antipsykoottinen lääkeaine, jota käytetään maailmanlaajuisesti skitsofreniaan, bipolaariseen häiriöön ja pääkaukaisen masennushäiriön liitännäishoitoon.
+Nykyinen todistepaketti sisältää **ei TxGNN-ennustettuja uusia indikaatioita**, koska ennusteputkilinja ei palauttanut tuloksia DB01238:lle.
+Arviointia ei voida suorittaa tässä vaiheessa; suositellaan **Odotuksessa**-päätöstä, kunnes kriittiset tietoaukot on ratkaistu.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on known clinical information, Aripiprazole is classified as an atypical antipsychotic with partial agonist activity at dopamine and serotonin receptors. Its efficacy in schizophrenia and mood disorders has been extensively established, and mechanistically it may be applicable to neurological and psychiatric comorbidities.
+| Kohta | Sisältö |
+|-------|---------|
+| Alkuperäinen indikaatio | Skitsofrenia / Bipolaarinen häiriö (yleinen tietämys; ei populoitu data-paketissa) |
+| Ennustettu uusi indikaatio | — (Ei ennusteita palautettu) |
+| TxGNN-ennustepisteet | — |
+| Näyttötaso | Riittämättömät tiedot |
+| Suomen markkinatilanne | Ei markkinoilla *(katso huomautus alla)* |
+| Hyväksyntöjen määrä | 0 |
+| Suositeltu päätös | **Odotuksessa** |
 
-However, because **no TxGNN-predicted new indications were returned**, a full mechanism-to-indication mapping cannot be performed at this time. This section will be completed once predictions are available.
+> ⚠️ **Tietojen eheyden huomautus:** Arpipratsoli (kauppanimi Abilify ja generikat) on yksi eniten määrättyistä psykiatrisista lääkkeistä Euroopassa ja on rutiininomaisesti saatavilla Suomessa. Nolla hyväksyntöjä koskeva tulos viittaa voimakkaasti **tiedonkeruuongelmaan** eikä todelliseen puuttumiseen Suomen markkinoilta. Sääntelyhaun tulisi suorittaa uudelleen ja vahvistaa ennen jatkamista.
 
 ---
 
-## Safety Considerations
+## Miksi tämä ennuste on järkevä?
 
-Please refer to the package insert for safety information.
+Tällä hetkellä yksityiskohtaista vaikutusmekanismin tietoa ei ole saatavilla tässä todistepakettissa. Tunnettujen kliinisten tietojen perusteella arpipratsoli luokitellaan atypilliseksi antipsykoottiseksi lääkkeeksi, jolla on osittainen agonistinen aktiviteetti dopamiinin ja serotoniinin reseptoreilla. Sen tehokkuus skitsofreniassa ja mielialahäiriöissä on laajalti vakiintunut, ja mekanismisesti se voi olla sovellettavissa neurologisiin ja psykiatrisiin sairauksien yhteesiintymiin.
+
+Kuitenkin, koska **ei TxGNN-ennustettuja uusia indikaatioita palautettu**, täydellinen mekanismi-indikaation kartoitus ei ole mahdollinen tässä vaiheessa. Tämä osio täydennetään, kun ennusteet ovat saatavilla.
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuustarkastelut
 
-**Decision: Hold**
+Katso turvallisuustiedot pakkausselosteesta.
 
-**Rationale:**
-The Evidence Pack for Aripiprazole (DB01238) is critically incomplete — no TxGNN predicted indications were returned, and both the mechanism of action and safety warning fields are unpopulated. No repurposing evaluation can proceed without at minimum one scored candidate indication.
+---
 
-**To proceed, the following is needed:**
+## Johtopäätös ja seuraavat vaiheet
 
-- **\[Blocking\]** Re-run the TxGNN prediction pipeline for DB01238 and confirm it produces at least one scored candidate indication before regenerating the Evidence Pack
-- **\[Blocking\]** Download and parse the regulatory authority package insert PDF to populate key warnings and contraindications (currently blocking safety screening Stage S1)
-- **\[High\]** Query DrugBank API for mechanism of action (MOA) for DB01238 to enable mechanism-to-indication reasoning
-- **\[High\]** Investigate the Finland authorization query returning zero results — cross-check against EMA/Fimea databases directly, as this result is inconsistent with known global market status of Aripiprazole
-- Once the above gaps are resolved, regenerate the Evidence Pack (target version: v5) and re-submit for full evaluation
+**Päätös: Odotuksessa**
+
+**Perustelu:**
+Arpipratsolin todistepaketti (DB01238) on kriittisesti epätäydellinen — mitään TxGNN-ennustettuja indikaatioita ei palautettu, ja sekä vaikutusmekanismi että turvallisuushyötyjen varoituskentät ovat täyttämättä. Mitään lääkkeen uudelleenkäyttöä koskevaa arviointia ei voida jatkaa ilman vähintään yhtä pisteytettyä kandidaattindikaatiota.
+
+**Jatkamiseksi tarvitaan seuraavat:**
+
+- **\[Estävä\]** Suorita TxGNN-ennusteputkilinja uudelleen DB01238:lle ja vahvista, että se tuottaa vähintään yhden pisteytetyn kandidaattindikaation ennen todistepaketin uudelleentuottamista
+- **\[Estävä\]** Lataa ja jäsennä sääntelyviranomaisten pakkausselosteen PDF täyttääksesi keskeiset varoitukset ja vasta-aiheet (estää tällä hetkellä turvallisuusseulontaa vaiheessa S1)
+- **\[Korkea\]** Kysy DrugBank API:lta arpipratsolin vaikutusmekanismista (MOA) DB01238:lle mekanismi-indikaation päättelyä varten
+- **\[Korkea\]** Tutki, miksi Suomen hyväksyntähaun tulos on nolla — risti-tarkista suoraan EMA/Fimea tietokannoissa, koska tämä tulos on epäyhteensopiva arpipratsolin tunnetun globaalin markkinatilanteen kanssa
+- Kun edellä mainitut aukot on ratkaistu, tuota todistepaketti uudelleen (tavoiteversio: v5) ja lähetä uudelleen täydelliseen arviointiin
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -29,91 +29,92 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 
 </div>
 
-# Insulin Lispro: From Diabetes Mellitus to Autoimmune Oophoritis
+# Insulin lispro: Diabetes mellituksesta autoimmuuni ooforiittiin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Insulin lispro is a rapid-acting insulin analog used to manage diabetes mellitus.
-The TxGNN model's top-ranked prediction for this drug is **Autoimmune Oophoritis**,
-but this candidate is currently supported by **0 clinical trials** and **0 publications**,
-and the model's own rationale flags it as a likely indirect graph association rather than a genuine mechanistic hypothesis.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Diabetes mellitus (glycemic control) — based on general drug identity; no Finland license text is available in this evidence pack |
-| Predicted New Indication | Autoimmune Oophoritis |
-| TxGNN Prediction Score | 99.78% |
-| Evidence Level | L5 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Insulin lispro on nopeavaikutteinen insuliinin analoginen aine, jota käytetään diabetes mellituksen hoitoon.
+TxGNN-mallin ylimpään rankingiin asettama ennuste tälle lääkkeelle on **autoimmuuni ooforiitti**,
+mutta tätä kandidaattia tuetaan tällä hetkellä **0 kliinisellä tutkimuksella** ja **0 julkaisulla**,
+ja mallin oma perustelu merkitsee sitä todennäköisesti epäsuoraksi graafisoksi assosiaatioksi pikemmin kuin aitojen mekanistiseksi hypoteesiksi.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Currently, detailed mechanism of action data is not available (DrugBank query returned no MOA text for this drug). Based on general pharmacological knowledge, insulin lispro is a recombinant rapid-acting insulin analog (reversed Lys-Pro at positions B28–B29) that binds the insulin receptor to lower blood glucose; it is used in the management of type 1 and type 2 diabetes mellitus.
-
-For the top-ranked prediction, **autoimmune oophoritis**, the evidence pack's own mechanistic assessment is explicit: there is no known pathophysiological connection between insulin and autoimmune oophoritis. The prediction most likely reflects the drug and disease being indirectly clustered under a shared "autoimmune disease" node in the knowledge graph, rather than any causal or therapeutic mechanism. No preclinical, case-level, or clinical evidence currently supports insulin as a treatment for this condition.
-
-Because the mechanistic rationale is absent and no supporting studies exist, this candidate does not currently meet the bar for further evaluation despite its high TxGNN score.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
-
-## Literature Evidence
-
-Currently no related literature available
-
-## Finland Market Information
-
-Insulin lispro has no registered authorizations in Finland in this evidence pack (`market_status: Not marketed`, `total_licenses: 0`); no product/dosage-form/indication records are available.
-
-## Other Candidate Indications in This Evidence Pack
-
-This evidence pack (`TW-DB00046-multi`) evaluated 9 TxGNN-predicted indications for insulin lispro. Only one — ranked lower by score — currently has literature support:
-
-| Rank | Disease | TxGNN Score | Evidence Level | Decision Stage | Recommendation | Note |
-|------|---------|------------|-----------------|-----------------|------------------|------|
-| 1 | Autoimmune oophoritis | 99.78% | L5 | S0 | Hold | No known mechanistic link |
-| 2 | Thiamine-responsive dysfunction syndrome | 99.37% | L5 | S0 | Hold | Diabetes component only; thiamine is first-line, not insulin |
-| 3 | Classic stiff person syndrome | 99.36% | L5 | S0 | Hold | Comorbidity via anti-GAD65, not a treatment target |
-| 4 | Focal stiff limb syndrome | 99.36% | L5 | S0 | Hold | Same anti-GAD65 comorbidity confound |
-| 5 | Opsismodysplasia | 99.34% | L5 | S0 | Hold | No known pathway overlap |
-| 6 | Drug-induced localized lipodystrophy | 99.09% | L4 | S0 | Hold | **Reverse causality** — insulin injection is a known cause of this condition |
-| 7 | Pancreatic agenesis | 99.09% | L3 | S1 | Research Question | Insulin (incl. lispro) is already standard-of-care for PNDM due to pancreatic agenesis — extension of existing practice, not a novel repurposing signal |
-| 8 | Centrifugal lipodystrophy | 99.04% | L5 | S0 | Hold | Same reverse-causality confound as #6 |
-| 9 | Pressure-induced localized lipoatrophy | 99.03% | L5 | S0 | Hold | Same reverse-causality confound as #6 |
-
-Three of the nine candidates (#6, #8, #9) are likely artifacts of insulin injection being a **cause** of localized lipodystrophy/lipoatrophy, not a treatment for it, and should be deprioritized rather than pursued. Candidate #7 (pancreatic agenesis) has the most substantive support in this pack but represents confirmation of existing clinical practice rather than a new repurposing opportunity.
+| Kohta | Sisältö |
+|-------|---------|
+| Alkuperäinen indikaatio | Diabetes mellitus (verensokerin säätely) — perustuu yleisen lääkkeen identiteetille; Suomen lisensointiteksti ei ole saatavilla tässä todistepakkauksessa |
+| Ennustettu uusi indikaatio | Autoimmuuni ooforiitti |
+| TxGNN-ennustepistemäärä | 99.78% |
+| Näyttöaste | L5 |
+| Suomen markkina-asema | ✗ Ei markkinoilla |
+| Hyväksynnöissä lukumäärä | 0 |
+| Suositeltu päätös | Keskeytä |
 
 ---
 
-## Safety Considerations
+## Miksi tämä ennuste on perusteltu?
 
-Please refer to the package insert for safety information.
+Tällä hetkellä yksityiskohtaista vaikutusmekanismin tietoa ei ole saatavilla (DrugBank-kysely ei palauttanut tämän lääkkeen MOA-tekstiä). Yleisen farmakologisen tiedon perusteella insulin lispro on rekombinantti nopeavaikutteinen insuliinin analoginen aine (käänteinen Lys-Pro kohdissa B28–B29), joka sitoutuu insuliinireseptoriin verensokerin alentamiseksi; sitä käytetään tyypin 1 ja tyypin 2 diabetes mellituksen hoitoon.
+
+Ylimpään rankingiin asetetun ennusteen osalta, **autoimmuuni ooforiitti**, todistepakkauksen oma mekanistinen arviointi on selkeä: insuliinin ja autoimmuuni ooforiittin välillä ei ole tunnettu patofysiologista yhteyttä. Ennuste heijastaa todennäköisesti sitä, että lääke ja tauti ryhmitellään epäsuorasti jaetun "autoimmuunihairainnon" solmun alle tietokaavion sisällä, pikemmin kuin mitään kausaalia tai terapeuttista mekanismia. Yksikään prekliininen, tapauskohtainen tai kliininen näyttö ei tällä hetkellä tue insuliinia tämän sairauden hoitona.
+
+Koska mekanistinen perustelu puuttuu ja ei ole olemassa tukevia tutkimuksia, tämä kandidaatti ei tällä hetkellä täytä jatkoarviointiin etenemisen rajaa huolimatta sen korkeasta TxGNN-pisteestä.
 
 ---
 
-## Conclusion and Next Steps
+## Kliinisen tutkimuksen näyttö
 
-**Decision: Hold**
+Tällä hetkellä ei ole liittyviä rekisteröityjä kliinisiä tutkimuksia
 
-**Rationale:**
-The top-ranked prediction (autoimmune oophoritis) has no supporting clinical trials, no literature, and no plausible mechanistic link per the evidence pack's own analysis — it most likely reflects an indirect knowledge-graph association rather than a genuine therapeutic signal. This does not meet the threshold to advance past S0.
+## Kirjallisuuden näyttö
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert data (warnings, contraindications) — currently a **Blocking** data gap (DG001), required before any S1 safety screening
-- DrugBank mechanism-of-action data — currently a **High**-priority gap (DG002), needed to properly assess mechanistic plausibility
-- A specific preclinical or case-level rationale connecting insulin signaling to autoimmune oophorits pathophysiology, if this candidate is to be pursued further
-- If interest continues in this evidence pack, consider re-scoping evaluation toward candidate #7 (pancreatic agenesis), which has actual literature support, though it reflects standard-of-care confirmation rather than novel repurposing
+Tällä hetkellä ei ole käytettävissä liittyvää kirjallisuutta
+
+## Suomen markkina-asema
+
+Insulin lispro:lla ei ole rekisteröityjä hyväksynnöjä Suomessa tässä todistepakkauksessa (`market_status: Not marketed`, `total_licenses: 0`); mitään tuote-/antomuoto-/indikaatiotietueita ei ole saatavilla.
+
+## Muut ehdokasindikaatiot tässä todistepakkauksessa
+
+Tämä todistepakkaus (`TW-DB00046-multi`) arvioi 9 TxGNN:n ennustamaa insuliini lispro:n indikaatiota. Vain yksi — jonka pistemäärä on alempi — omaa tällä hetkellä kirjallisuuden tukea:
+
+| Sijoitus | Sairaus | TxGNN-pistemäärä | Näyttöaste | Päätösvaihe | Suositus | Huomautus |
+|---------|---------|-----------------|-----------|-----------|----------|----------|
+| 1 | Autoimmuuni ooforiitti | 99.78% | L5 | S0 | Keskeytä | Ei tunnettua mekanistista yhteyttä |
+| 2 | Tiamiiinille reagoiva dysfunktiosyndrooma | 99.37% | L5 | S0 | Keskeytä | Diabetes-komponentti vain; tiamii on ensisijaisesti, ei insuliini |
+| 3 | Klassinen stiff person -syndrooma | 99.36% | L5 | S0 | Keskeytä | Yhteisesiintyvyys anti-GAD65:n kautta, ei hoitokohde |
+| 4 | Paikallinen stiff limb -syndrooma | 99.36% | L5 | S0 | Keskeytä | Sama anti-GAD65 yhteisesiintyvyyden sekaannus |
+| 5 | Opsimodysplasia | 99.34% | L5 | S0 | Keskeytä | Ei tunnettua reittienpäällystöpäällekkäisyyttä |
+| 6 | Lääkkeen aiheuttama paikallinen lipodystroofia | 99.09% | L4 | S0 | Keskeytä | **Käänteinen syy-yhteys** — insuliiniinjektio on tunnettu tämän sairauden aiheuttaja |
+| 7 | Pankreaan agenesia | 99.09% | L3 | S1 | Tutkimuskysymys | Insuliini (mukaan lukien lispro) on jo hoitostandardina PNDM:lle pankreaan agenesian vuoksi — olemassa olevan käytännön laajennus, ei uusi uudelleenkäyttösignaali |
+| 8 | Säteittävä lipodystroofia | 99.04% | L5 | S0 | Keskeytä | Sama käänteisen syy-yhteyksen sekaannus kuin #6 |
+| 9 | Paineen aiheuttama paikallinen lipoatroofia | 99.03% | L5 | S0 | Keskeytä | Sama käänteisen syy-yhteyksen sekaannus kuin #6 |
+
+Kolme yhdeksästä kandidaatista (#6, #8, #9) ovat todennäköisesti insuliiniinjektiosta aiheutuvia ilmiöitä, jotka ovat **syy** paikalliselle lipostroofialle/lipoatrofalle, ei hoito sille, ja ne tulisi priorisoida alemmaksi pikemmin kuin edetä. Ehdokas #7 (pankreaan agenesia) omaa vahvimman tuen tässä pakkauksessa, mutta se edustaa olemassa olevan kliinisen käytännön vahvistusta pikemmin kuin uutta uudelleenkäyttömahdollisuutta.
+
+---
+
+## Turvallisuushuomiot
+
+Katso turvallisuustiedot pakkausselosteesta.
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Keskeytä**
+
+**Perustelut:**
+Ylimpään rankingiin asetettu ennuste (autoimmuuni ooforiitti) ei omaa tuettuja kliinisiä tutkimuksia, ei kirjallisuutta ja ei uskottavaa mekanistista yhteyttä todistepakkauksen oman analyysin mukaan — se heijastaa todennäköisesti epäsuoraa tietokaavion assosiaatiota pikemmin kuin aitojen terapeuttisen signaalin. Tämä ei täytä S0:n ohitse etenemisen raja-arvoa.
+
+**Jatkaakseen seuraavaa tarvitaan:**
+- TFDA/Fimea-pakkausseloste-tiedot (varoitukset, vasta-aiheet) — tällä hetkellä **estävä** tietoaukko (DG001), vaaditaan ennen mitään S1 turvallisuusseulontaa
+- DrugBank-vaikutusmekanismi-tiedot — tällä hetkellä **korkean prioriteetin** aukko (DG002), vaaditaan mekanistisen uskottavuuden asianmukaiseen arviointiin
+- Spesifinen prekliininen tai tapauskohtainen perustelu, joka yhdistää insuliinisignaloinnin autoimmuuni ooforiittin patofysiologiaan, jos tätä kandidaattia on tarkoitus edetä eteenpäin
+- Jos kiinnostus jatkuu tässä todistepakkauksessa, harkitse uudelleenarvioinnin siirtämistä kohti ehdokasta #7 (pankreaan agenesia), jolla on todellinen kirjallisuuden tuki, vaikka se heijastaa hoitostandardin vahvistusta pikemmin kuin uutta uudelleenkäyttöä
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

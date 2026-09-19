@@ -29,105 +29,106 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Levofloxacin: From Bacterial Infections to Monoclonal Gammopathy (Infection Prophylaxis)
+# Levofloxasiini: Bakteeri-infektioista monoklonaalisiin gampaatioihin (Infektioprofylaksia)
 
-## One-Sentence Summary
+## Yhteenveto
 
-Levofloxacin is a fluoroquinolone antibiotic originally used to treat bacterial infections. Across 10 TxGNN-predicted indications screened in this evidence pack, most show no supporting clinical or literature evidence (Hold), but the model's prediction for **Monoclonal Gammopathy** — specifically as **infection prophylaxis in newly diagnosed multiple myeloma** — is backed by a completed Phase 3 RCT (TEAMM) and **20 supporting publications**, making it the strongest candidate in this batch.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Bacterial infections (fluoroquinolone antibiotic); no Taiwan-specific approved indication text on file — drug is currently unmarketed in Taiwan |
-| Predicted New Indication | Monoclonal Gammopathy (infection prophylaxis during myeloma treatment) |
-| TxGNN Prediction Score | 99.81% |
-| Evidence Level | L1 |
-| Taiwan Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+Levofloxasiini on fluorikinoloni-antibiootti, jota alun perin käytetään bakteeri-infektioiden hoitoon. Tämän todistelupaketin 10 TxGNN-ennustetussa indikaatiossa seulottujen joukossa useimpilla ei ole tukevia kliinisiä tai kirjallisuustodisteita (Hold), mutta mallin ennuste **monoklonaalisille gampaatioille** — erityisesti **infektioprofylaksiana äskettäin diagnosoidussa useassa myeloomassa** — on tuettu suoritetulla Phase 3 RCT:llä (TEAMM) ja **20 tukevalla julkaisulla**, mikä tekee siitä vahvimman kandidaatin tässä erässä.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Currently, a structured DrugBank mechanism-of-action record is not available (data gap). Based on the pharmacology already referenced within this evidence pack's own repurposing rationale, Levofloxacin is a broad-spectrum **fluoroquinolone** that inhibits bacterial DNA gyrase and topoisomerase IV, giving it bactericidal activity against a wide range of gram-negative and gram-positive organisms.
-
-Patients with monoclonal gammopathy (particularly newly diagnosed multiple myeloma) have profound humoral immunodeficiency from suppressed normal immunoglobulin production, compounded by chemotherapy-induced neutropenia. Roughly a quarter of newly diagnosed myeloma patients develop a serious infection within 3 months of diagnosis. Levofloxacin's role here is **infection prophylaxis during the vulnerable induction/transplant period**, not a disease-modifying therapy for the gammopathy itself — the TEAMM trial and subsequent literature support this as a supportive-care intervention rather than a treatment targeting the underlying plasma cell disorder.
-
-This distinction matters for scoping: the mechanistic link is indirect (anti-infective support in an immunocompromised population) rather than a direct antibody/plasma-cell pathway effect, so any recommendation must be framed as "infection prophylaxis in monoclonal gammopathy patients," not "treatment of monoclonal gammopathy."
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered (no ClinicalTrials.gov or ICTRP records found in this evidence pack for this indication; the pivotal TEAMM trial is documented via literature/HTA report below rather than a registry entry).
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Bakteeri-infektiot (fluorikinoloni-antibiootti); Taiwanissa hyväksyttyjä indikaatiotekstiä ei ole saatavilla — lääke ei tällä hetkellä ole markkinoilla Taiwanissa |
+| Ennustettu uusi indikaatio | Monoklonaaliset gampaatiat (infektioprofylaksia myelooman hoidon aikana) |
+| TxGNN-ennusteen pistemäärä | 99.81% |
+| Todistetaso | L1 |
+| Taiwanin markkinatilanne | Ei markkinoilla (Ei markkinoilla) |
+| Myyntilupien lukumäärä | 0 |
+| Suositeltu päätös | Etene varauksilla |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennuste on järkevä?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [31668592](https://pubmed.ncbi.nlm.nih.gov/31668592/) | 2019 | RCT (Phase 3) | Lancet Oncology | TEAMM trial: levofloxacin prophylaxis in newly diagnosed myeloma reduced febrile episodes/infections vs placebo without significantly increasing C. difficile or resistant-organism carriage |
-| [31690402](https://pubmed.ncbi.nlm.nih.gov/31690402/) | 2019 | RCT (HTA monograph) | Health Technol Assess | Full technology assessment report of the TEAMM RCT, evaluating antibiotic prophylaxis to prevent infection in newly diagnosed symptomatic myeloma |
-| [25212681](https://pubmed.ncbi.nlm.nih.gov/25212681/) | 2014 | RCT | Int J Hematol | Prophylactic oral levofloxacin reduced severe infections in myeloma patients on bortezomib-based regimens at high risk from lymphocytopenia |
-| [26150022](https://pubmed.ncbi.nlm.nih.gov/26150022/) | 2015 | RCT/Comparative cohort | Biol Blood Marrow Transplant | Levofloxacin prophylaxis before vs after implementation reduced bloodstream infection and fever/neutropenia rates in autologous HSCT for myeloma |
-| [32172361](https://pubmed.ncbi.nlm.nih.gov/32172361/) | 2020 | Review | Curr Hematol Malig Rep | Supportive care review in multiple myeloma covering infection prevention among other management domains |
-| [37573150](https://pubmed.ncbi.nlm.nih.gov/37573150/) | 2023 | Cohort study | Transpl Infect Dis | Characterizes infectious complications after autologous HSCT in myeloma, comparing outcomes with/without levofloxacin prophylaxis |
-| [29080369](https://pubmed.ncbi.nlm.nih.gov/29080369/) | 2018 | Comparative cohort | Clin Transplant | Retrospective comparison of ciprofloxacin vs levofloxacin prophylaxis in autologous HSCT for myeloma; compared breakthrough infection rates |
-| [32304873](https://pubmed.ncbi.nlm.nih.gov/32304873/) | 2020 | Retrospective review | Biol Blood Marrow Transplant | Reassesses fluoroquinolone prophylaxis value in autologous stem-cell transplantation, comparing myeloma (prophylaxis) vs lymphoma (no prophylaxis) cohorts |
-| [15791505](https://pubmed.ncbi.nlm.nih.gov/15791505/) | 2005 | Cohort study | Clin Infect Dis | Foundational study showing fluoroquinolone prophylaxis reduces infection-related mortality in neutropenic patients with hematologic malignancies |
-| [25591868](https://pubmed.ncbi.nlm.nih.gov/25591868/) | 2016 | Case report (safety) | J Oncol Pharm Pract | Reports acute kidney injury from crystal nephropathy in a myeloma patient on concurrent pomalidomide and levofloxacin — relevant safety signal for this population |
+Tällä hetkellä strukturoitu DrugBank-mekanismi-toiminta-tietue ei ole saatavilla (tietoaukko). Tämän todistelupaketin omissa uudelleenkäyttöperusteluissa jo viitattavien farmakologian perusteella levofloxasiini on laajaspektrin **fluorikinoloni**, joka estää bakteerin DNA-gyraasia ja topoisomeraasia IV, mikä antaa sille bakteerin tappavaa vaikutusta laajaa valikoimaa gram-negatiivisia ja gram-positiivisia organismeja vastaan.
+
+Potilailla, joilla on monoklonaaliset gampaatiat (erityisesti äskettäin diagnosoitu useampi myelooma), on syvä humoraalinen immunovaje, joka johtuu normaalin immunoglobuliinin tuotannon tukahduttamisesta ja yhdistyy kemoterapiasta aiheutuvaan neutropeniaan. Noin neljännes äskettäin diagnosoiduista myelooma-potilaista kehittää vakavaa infektiota kolmen kuukauden sisällä diagnoosista. Levofloxasiinin rooli tässä on **infektioprofylaksia induktiokäsittelyn ja siirtohoidon aikana**, eikä taudin mukaavaa hoitoa gampaatioille itselleen — TEAMM-tutkimus ja sitä seuraava kirjallisuus tukevat tätä tukihoitointerventioksi pikemminkin kuin hoitoksi, joka kohdistuu taustalla olevaan plasmasolujen häiriöön.
+
+Tämä ero on tärkeä soveltamisalan kannalta: mekanistinen yhteys on epäsuora (anti-infektiivinen tuki immunokomprometoidussa populaatiossa) pikemminkin kuin suora vasta-aine/plasmasolu-polku vaikutus, joten kaikissa suosituksissa on oltava selvää, että "infektioprofylaksia monoklonaalisissa gampaatioissa", eikä "monoklonaalisien gampaatioiden hoito".
 
 ---
 
-## Taiwan Market Information
+## Kliinisen tutkimuksen todisteet
 
-Levofloxacin currently holds **no marketing authorization in Taiwan** (0 licenses on file, market status: Not marketed). No product/dosage-form data is available to tabulate.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (No structured key-warning, contraindication, or drug-interaction data is currently available in this evidence pack — the Taiwan package insert has not yet been retrieved.)
+Tällä hetkellä ei löydetty liittyvää kliinistä tutkimusta rekisteröityä (ei ClinicalTrials.gov- tai ICTRP-tietueita löydetty tässä todistelupaketeista tälle indikaatiolle; keskeinen TEAMM-tutkimus on dokumentoitu kirjallisuuden/HTA-raportin kautta alla pikemminkin kuin rekisteröintikirjaus).
 
 ---
 
-## Other Predicted Indications Screened (This Batch)
+## Kirjallisuustodisteet
 
-For transparency, this evidence pack screened 10 TxGNN-predicted indications for levofloxacin. Only two reached an actionable evidence tier; the remaining eight had no clinical trial or literature support and are held.
-
-| Rank | Disease | TxGNN Score | Evidence Level | Recommendation |
-|------|---------|------------|-----------------|-----------------|
-| 1 | Punctate epithelial keratoconjunctivitis | 99.92% | L4 | Hold (sole literature source describes microsporidial, not bacterial, etiology — mechanistic mismatch) |
-| 7 | **Monoclonal gammopathy** (featured above) | 99.81% | L1 | Proceed with Guardrails |
-| 9 | Septicemic plague | 99.80% | L2 | Proceed with Guardrails — evidence from FDA Animal Rule primate/rodent efficacy studies; already an approved US indication for plague, though human RCTs are not ethically feasible |
-| 5 | Blood group incompatibility | 99.85% | L4 | Hold (only literature is an incidental case report of infection during ABO-incompatible transplant workup, not a causal link) |
-| 2 | Hyperamylasemia | 99.90% | L5 | Hold (no evidence) |
-| 3 | Polyclonal hyperviscosity syndrome | 99.90% | L5 | Hold (no evidence) |
-| 4 | Congenital analbuminemia | 99.89% | L5 | Hold (no mechanistic plausibility) |
-| 6 | Premalignant hematological system disease | 99.83% | L5 | Hold (label too nonspecific) |
-| 8 | Hematological disease with acquired peripheral neuropathy | 99.80% | L5 | Hold (fluoroquinolones carry a known peripheral neuropathy risk — direction contradicts the prediction) |
-| 10 | Congenital hematological disorder | 99.72% | L5 | Hold (label too nonspecific) |
+| PMID | Vuosi | Tyyppi | Lehti | Avaintulokset |
+|------|------|--------|-------|---------|
+| [31668592](https://pubmed.ncbi.nlm.nih.gov/31668592/) | 2019 | RCT (Phase 3) | Lancet Oncology | TEAMM-tutkimus: levofloxasiinin profylaksia äskettäin diagnosoidussa myeloomassa vähensi kuumeisia jaksoja ja infektioita lumelääkkeeseen verrattuna ilman merkittävää C. difficilen tai vastustuskykyisten mikro-organismien kantaajuuden lisääntymistä |
+| [31690402](https://pubmed.ncbi.nlm.nih.gov/31690402/) | 2019 | RCT (HTA-monografia) | Health Technol Assess | Täydellinen teknologian arviointiraportti TEAMM-tutkimuksesta, joka arvioi antibioottiprofylaksian infektioiden ehkäisemiseksi äskettäin diagnosoidussa oireilevassa myeloomassa |
+| [25212681](https://pubmed.ncbi.nlm.nih.gov/25212681/) | 2014 | RCT | Int J Hematol | Profylaktinen suun kautta annettava levofloxasiini vähensi vakavia infektioita myelooma-potilailla, joilla oli bortezomibiin perustuvia hoitoja ja korkea riski lymfosytopeniasta |
+| [26150022](https://pubmed.ncbi.nlm.nih.gov/26150022/) | 2015 | RCT/Vertaileva kohortti | Biol Blood Marrow Transplant | Levofloxasiinin profylaksia ennen ja jälkeen soveltamisen vähensi verenvirtausinfektioita ja kuumeen/neutropeniajaksoja autologisen HSCT:n aikana myelooma-potilailla |
+| [32172361](https://pubmed.ncbi.nlm.nih.gov/32172361/) | 2020 | Katsaus | Curr Hematol Malig Rep | Tukihoidon katsaus useassa myeloomassa, joka kattaa infektioiden ehkäisyn muiden hallintotoimenpiteiden joukossa |
+| [37573150](https://pubmed.ncbi.nlm.nih.gov/37573150/) | 2023 | Kohorttitutkimus | Transpl Infect Dis | Karakterisoi infektiokomplikaatioita autologisen HSCT:n jälkeen myelooma-potilailla, vertaillen tuloksia levofloxasiinin profylaksian kanssa ja ilman |
+| [29080369](https://pubmed.ncbi.nlm.nih.gov/29080369/) | 2018 | Vertaileva kohortti | Clin Transplant | Siprofloksasiinin ja levofloxasiinin profylaksian retrospektiivinen vertailu autologisessa HSCT:ssä myelooma-potilailla; vertaili läpimurtoinfektioita |
+| [32304873](https://pubmed.ncbi.nlm.nih.gov/32304873/) | 2020 | Retrospektiivinen katsaus | Biol Blood Marrow Transplant | Arvioi uudelleen fluorikinoloniprofylaksian arvoa autologisen kantasolujen siirron yhteydessä, vertaillen myeloomaa (profylaksia) ja lymfoomaa (ei profylaksia) kohortteita |
+| [15791505](https://pubmed.ncbi.nlm.nih.gov/15791505/) | 2005 | Kohorttitutkimus | Clin Infect Dis | Perustutkimus osoittaa, että fluorikinoloniprofylaksia vähentää infektioihin liittyvää kuolleisuutta neutropenisissa potilaissa, joilla on hematologisia pahanlaatuisia kasvaimia |
+| [25591868](https://pubmed.ncbi.nlm.nih.gov/25591868/) | 2016 | Tapausraportti (turvallisuus) | J Oncol Pharm Pract | Raportoi akuuttia munuaisten vajaatoimintaa kidepostneumoniana myelooma-potilaalla, jolla on samanaikainen pomalidomidi ja levofloxasiini — olennainen turvallisuussignaali tälle väestölle |
 
 ---
 
-## Conclusion and Next Steps
+## Taiwanin markkinatiedot
 
-**Decision: Proceed with Guardrails**
+Levofloxasiinilla ei tällä hetkellä ole myyntilupaa Taiwanissa (0 lupaa arkistossa, markkinatilanne: Ei markkinoilla). Mitään tuotetta- tai annosmuodontietoja ei ole saatavilla taulukkoon.
 
-**Rationale:**
-The monoclonal gammopathy prediction is supported by a completed Phase 3 RCT (TEAMM) plus multiple corroborating cohort studies, establishing levofloxacin's value as **infection prophylaxis during myeloma induction/transplant**, not as disease-modifying therapy. This is meaningfully stronger evidence than any other candidate in this batch, but the drug is currently unmarketed in Taiwan and a **Blocking** data gap (DG001: TFDA package insert unavailable) prevents even the initial S1 safety screen from being completed.
+---
 
-**To proceed, the following is needed:**
-- Retrieve the Taiwan/TFDA package insert (DG001, Blocking) — required before any S1 safety assessment can proceed
-- Obtain a structured DrugBank MOA record (DG002)
-- Scope the indication precisely as "infection prophylaxis in monoclonal gammopathy patients undergoing chemotherapy/HSCT," not treatment of the gammopathy itself
-- Evaluate the Taiwan registration/import pathway, since the drug currently has zero local marketing authorizations
-- Track septicemic plague (L2, US Animal Rule precedent) as a secondary candidate in parallel, given its distinct regulatory pathway and biodefense relevance
+## Turvallisuusnäkökohdat
+
+Viittaa pakkaukseen sisältyviin tietoihin turvallisuustiedoista. (Tällä hetkellä tässä todistelupaketeissa ei ole saatavilla strukturoituja avainvaroituksia, kontraindikaatioita tai lääkkeiden välisen vuorovaikutuksien tietoja — Taiwan-pakkausselosteita ei ole vielä haettu.)
+
+---
+
+## Muut seulotut ennustetut indikaatiot (Tämä erä)
+
+Läpinäkyvyyden vuoksi tämä todistelupaketti seuloi 10 TxGNN-ennustettua levofloxasiinin indikaatiota. Vain kaksi saavutti toiminnallisen todistetason; loput kahdeksan eivät saaneet kliinisen tutkimuksen tai kirjallisuuden tukea ja ne ovat pidossa.
+
+| Sijoitus | Sairaus | TxGNN-pistemäärä | Todistetaso | Suositus |
+|----------|---------|-----------------|------------|----------|
+| 1 | Pistemiäinen pintakeratokunjunktiviitti | 99.92% | L4 | Hold (ainoa kirjallisuuslähde kuvaa mikrosporidian, ei bakteerin, etiologiaa — mekanistinen epäsuhta) |
+| 7 | **Monoklonaaliset gampaatiat** (esitelty edellä) | 99.81% | L1 | Etene varauksilla |
+| 9 | Septinen rutto | 99.80% | L2 | Etene varauksilla — todisteet FDA:n eläinmallisäännön primaatti- ja jyrsijätutkimuksista; jo hyväksytty Yhdysvaltojen indikaatio ruttoon, vaikka ihmisten RCT:t eivät ole eettisesti toteuttavissa |
+| 5 | Veriryhmien epäyhteensopivuus | 99.85% | L4 | Hold (ainoa kirjallisuus on satunnainen tapausraportti infektiosta ABO-yhteensopivuuden tutkimuksen aikana, ei kausaalista yhteyttä) |
+| 2 | Hyperamylaasemia | 99.90% | L5 | Hold (ei todisteita) |
+| 3 | Polyallonaaliset hyperviskoosisyndrooma | 99.90% | L5 | Hold (ei todisteita) |
+| 4 | Synnynnäinen analbuminemia | 99.89% | L5 | Hold (ei mekanistista uskottavuutta) |
+| 6 | Ennakkomaligni hematologinen sairaus | 99.83% | L5 | Hold (liian epäspesifinen etiketti) |
+| 8 | Hematologinen sairaus hankkitulla perifeerisella neuropatialla | 99.80% | L5 | Hold (fluorikinolonit kantavat tunnetun perifeerisen neuropatian riskin — suunta vastustaa ennustusta) |
+| 10 | Synnynnäinen hematologinen häiriö | 99.72% | L5 | Hold (liian epäspesifinen etiketti) |
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Etene varauksilla**
+
+**Perustelut:**
+Monoklonaalisille gampaatioille tehtävä ennuste on tuettu suoritetulla Phase 3 RCT:llä (TEAMM) sekä useilla tukevilla kohorttitutkimuksilla, mikä vahvistaa levofloxasiinin arvon **infektioprofylaksiana myelooman induktiokäsittelyn ja siirtohoidon aikana**, eikä taudille mukaavana hoitona. Tämä on huomattavasti vahvempia todisteita kuin mikään muu kandidaatti tässä erässä, mutta lääke ei tällä hetkellä ole markkinoilla Taiwanissa ja **estävä** tietoaukko (DG001: TFDA-pakkausseloste ei saatavilla) estää jopa alkuperäisen S1-turvallisuuskatselmuksen tekemisen.
+
+**Jotta voidaan edetä, seuraava on tarpeen:**
+- Hae Taiwan/TFDA-pakkausseloste (DG001, Estävä) — vaadittu ennen mitään S1-turvallisuusarviointia
+- Hanki strukturoitu DrugBank MOA -tietue (DG002)
+- Määritä indikaatio tarkasti muotoon "infektioprofylaksia monoklonaalisissa gampaatioissa olevien potilaiden kemoterapian/HSCT:n aikana", eikä gampaatioiden hoitona itselleen
+- Arvioi Taiwan-rekisteröinti- ja tuontireitti, koska lääkkeellä ei tällä hetkellä ole paikallisia myyntilupoja
+- Seuraa septista ruttoa (L2, Yhdysvaltojen eläinmallisäännön ennakkotapaus) rinnakkaisena kandidaattina, koska sen sääntelypolku ja bioenargian merkitys ovat erilaiset
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

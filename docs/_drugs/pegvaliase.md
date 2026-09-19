@@ -29,80 +29,81 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Pegvaliase: From Phenylketonuria (PKU) to Diabetic Retinopathy (Predicted)
+# Pegvaliase: Fenylketonuriasta (PKU) diabeettiseen retinopatiahin (ennuste)
 
-## One-Sentence Summary
+## Yksirivinen yhteenveto
 
-Pegvaliase (DrugBank DB12839) is a PEGylated phenylalanine ammonia lyase (PAL) enzyme therapy used to lower blood phenylalanine levels in patients with phenylketonuria (PKU) — this background is inferred from the model's own rationale text, as no formal original-indication or regulatory data is on file. The TxGNN model predicts potential effectiveness for **Diabetic Retinopathy**, with a prediction score of **99.17%**, but currently **zero clinical trials and zero publications** support this direction. This is a model-only (L5) prediction with no biological plausibility established, and the recommended decision is **Hold**.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not captured in regulatory data (drug not marketed in Finland); background pharmacology indicates use in PKU-associated hyperphenylalaninemia |
-| Predicted New Indication | Diabetic Retinopathy |
-| TxGNN Prediction Score | 99.17% (rank 8141 in model output) |
-| Evidence Level | L5 (model prediction only — no clinical trials, no literature) |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Pegvaliase (DrugBank DB12839) on PEGyloidun fenyylialaniini-ammoniakkilyaasi (PAL) -entsyymiterapia, jota käytetään veren fenyylialaniinipitoisuuden alentamiseen PKU-potilailla — tämä tausta on johdettu mallin omasta perustelutekstistä, sillä muodollisia alkuperäisen käyttöaiheen tai sääntelytietoja ei ole saatavilla. TxGNN-malli ennustaa mahdollista tehokkuutta **Diabeettiseen retinopatiahin**, ennustetulla pistemäärällä **99,17 %**, mutta tällä hetkellä **nolla kliinisiä tutkimuksia ja nolla julkaisuja** tukea tätä suuntaa. Tämä on pelkkä malliennuste (L5), jolla ei ole vahvistettua biologista perustelua, ja suositeltu päätös on **Odota**.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Pikayleiskatsaus
 
-Detailed, structured mechanism-of-action data is flagged as a data gap in this evidence pack (DG002, High severity). However, the model's own repurposing rationale describes Pegvaliase's known pharmacology: it catabolizes circulating phenylalanine via PAL enzyme activity, and is used to manage hyperphenylalaninemia in PKU patients.
-
-Diabetic retinopathy has a fundamentally different pathophysiology — chronic hyperglycemia driving retinal microvascular basement membrane thickening, pericyte loss, VEGF-driven neovascularization, and vascular leakage. There is no known biochemical or pharmacological intersection between phenylalanine metabolism/PAL enzyme activity and this VEGF/microvascular disease pathway.
-
-Based on the evidence pack's own assessment, the high TxGNN score is most likely a **false positive** arising from indirect knowledge-graph topology — for example, shared nodes such as "metabolic disease" or PKU-associated ocular/neurological complications connecting to diabetes-related eye disease clusters, rather than a genuine shared mechanism. The two related predictions (severe nonproliferative diabetic retinopathy, and diabetic cataract) are sub-classifications or variants of the same diabetic-eye-disease cluster and share this same lack of independent mechanistic support — they appear to be redundant outputs of the same underlying graph artifact rather than three independent signals.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-*(Confirmed by direct ClinicalTrials.gov and ICTRP queries for Pegvaliase against diabetic retinopathy, severe NPDR, and diabetic cataract — all returned zero results.)*
+| Kohta | Sisältö |
+|-------|---------|
+| Alkuperäinen käyttöaihe | Ei sisältynyt sääntelytietoihin (lääketta ei markkinoida Suomessa); taustafarmakologia viittaa käyttöön PKU-liittyvän hyperfenyylialaninemian hoidossa |
+| Ennustettu uusi käyttöaihe | Diabeettinen retinopatia |
+| TxGNN-ennusteen pistemäärä | 99,17 % (sijoitus 8141 mallin tuloksissa) |
+| Näytön taso | L5 (pelkkä malliennuste — ei kliinisiä tutkimuksia, ei kirjallisuutta) |
+| Suomen markkinatilanne | ✗ Ei markkinoilla |
+| Hyväksyntöjen määrä | 0 |
+| Suositeltu päätös | Odota |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennuste on järkevä?
 
-Currently no related literature available.
+Yksityiskohtainen, jäsennelty vaikutusmekanismin tieto on merkitty tietoaukoksi tässä näyttöpaketissa (DG002, korkea vakavuus). Kuitenkin mallin omassa uudelleenkäytön perustelutekstissä kuvataan Pegvaliasin tunnettu farmakologia: se hajottaa kiertävää fenyylialaniinia PAL-entsyymiaktiivisuuden kautta, ja sitä käytetään hyperfenyylialaninemian hallintaan PKU-potilailla.
 
-*(Confirmed by direct PubMed queries for Pegvaliase against diabetic retinopathy, severe NPDR, and diabetic cataract — all returned zero results.)*
+Diabeettinen retinopatia on pohjimmiltaan eri patofysiologia — krooninen hyperglykemia johtaa verkkokalvon pienten verisuonten peruskalvon paksuuntumiseen, perityytin menetykseen, VEGF-ohjattuun uusien verisuonten muodostumiseen ja verisuonten vuotoon. Fenyylialaniinin aineenvaihdunnan/PAL-entsyymitoiminnan ja tämän VEGF/mikrovaskulaarisen sairauden välillä ei ole tunnettua biokemiallista tai farmakologista yhteyttä.
 
----
-
-## Finland Market Information
-
-Pegvaliase currently holds no marketing authorization in Finland — market status is **Not Marketed**, with 0 authorizations on file. No product, dosage form, or approved-indication data is available.
+Näyttöpaketin omaan arviointiin perustuen korkea TxGNN-pistemäärä on todennäköisesti **väärä positiivinen tulos**, joka johtuu epäsuorasta tietoverkkojen topologiasta — esimerkiksi jaetuista solmuista, kuten "aineenvaihduntasairaus" tai PKU-liittyvät silmä-/neurologiset komplikaatiot, jotka yhdistyvät diabetes-liittyvän silmäsairauden klustereihin, eikä todellisesta jaetusta mekanismista. Kaksi muuta liittyvää ennustetta (vaikea ei-proliferatiivinen diabeettinen retinopatia ja diabeettinen katarakta) ovat saman diabeettisen silmäsairauden alaryhmiä tai variantteja ja jakavat saman riippumattoman mekanistisen tuen puutteen — ne näyttävät olevan saman taustalla olevan kuvaajan artefaktin tuloksia eikä kolme riippumatonta signaalia.
 
 ---
 
-## Safety Considerations
+## Kliinisen tutkimuksen näyttö
 
-Please refer to the package insert for safety information.
+Tällä hetkellä ei ole rekisteröityjä liittyviä kliinisiä tutkimuksia.
 
-*(No key warnings, contraindications, or drug interaction data are currently on file for Pegvaliase in this evidence pack; TFDA package insert data collection (DG001, Blocking severity) is still pending.)*
+*(Vahvistettu suorilla ClinicalTrials.gov- ja ICTRP-kyselyillä Pegvaliasista diabeettiseen retinopatiahin, vakavaan ei-proliferatiiviseen diabeettiseen retinopatiahin ja diabeettiseen kataraktaan — kaikki palautuivat nollatulokseen.)*
 
 ---
 
-## Conclusion and Next Steps
+## Kirjallisuuden näyttö
 
-**Decision: Hold**
+Tällä hetkellä ei ole saatavilla liittyvää kirjallisuutta.
 
-**Rationale:**
-This prediction is supported only by the TxGNN model score (L5), with no clinical trials, no literature, and no established biological mechanism linking PAL enzyme activity to diabetic retinopathy pathophysiology. The evidence pack itself assesses this as a likely knowledge-graph false positive. This does not meet the threshold to advance to safety pre-screening (S1).
+*(Vahvistettu suorilla PubMed-kyselyillä Pegvaliasista diabeettiseen retinopatiahin, vakavaan ei-proliferatiiviseen diabeettiseen retinopatiahin ja diabeettiseen kataraktaan — kaikki palautuivat nollatulokseen.)*
 
-**To proceed, the following is needed:**
-- TFDA/EMA package insert data (warnings, contraindications) to close Blocking data gap DG001
-- Verified, structured mechanism-of-action data to close High-severity data gap DG002
-- Independent biological plausibility review (e.g., any evidence of phenylalanine/PAL pathway involvement in retinal microvascular disease)
-- Continued periodic monitoring of ClinicalTrials.gov, ICTRP, and PubMed for emerging evidence, since none currently exists for any of the three related predicted indications
+---
+
+## Suomen markkinatiedot
+
+Pegvaliasilla ei ole tällä hetkellä myyntilupaa Suomessa — markkinatilanne on **Ei markkinoilla**, sillä saatavilla on 0 lupaa. Tuotetietoja, antomuotoja tai hyväksyttyjä käyttöaiheita koskevia tietoja ei ole saatavilla.
+
+---
+
+## Turvallisuusnäkökohdat
+
+Turvallisuustietoja koskevia lisätietoja saat pakkausselosteesta.
+
+*(Pegvaliasin tärkeät varoitukset, vasta-aiheet tai lääkkeiden yhteisvaikutustiedot eivät ole tällä hetkellä saatavilla tässä näyttöpaketissa; TFDA:n pakkausseloste-tietojen keräys (DG001, estävä vakavuus) on vielä odottamassa.)*
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Odota**
+
+**Perustelut:**
+Tämä ennuste on tuettu ainoastaan TxGNN-mallin pistemäärällä (L5), eikä sen tueksi ole kliinisiä tutkimuksia, kirjallisuutta tai vahvistettua biologista mekanismia, joka yhdistäisi PAL-entsyymitoiminnan diabeettisen retinopatian patofysiologiaan. Näyttöpaketti itsessään arvioi tämän todennäköisesti tietoverkko-väärä positiiviseksi. Tämä ei täytä kynnystä edetä turvallisuuden esiseulontaan (S1).
+
+**Edistymiseksi tarvitaan seuraavaa:**
+- TFDA/EMA pakkausseloste-tieto (varoitukset, vasta-aiheet) sulkiakseen estävä tietoaukko DG001
+- Tarkistettu, jäsennelty vaikutusmekanismin tieto sulkiakseen korkean vakavuuden tietoaukko DG002
+- Riippumaton biologisen perustelun tarkastelu (esimerkiksi mikä tahansa näyttö fenyylialaniinin/PAL-polun osallistumisesta verkkokalvon pienten verisuonten sairauksiin)
+- Jatkuva määräaikainen seuranta ClinicalTrials.gov-, ICTRP- ja PubMed-tietokannoista uusien näyttöjen varalta, koska mitään ei ole tällä hetkellä saatavilla yhdellekään kolmesta liittyvästä ennustetusta käyttöaiheesta
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

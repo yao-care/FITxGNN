@@ -29,74 +29,75 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 
 </div>
 
-# Fidaxomicin: From Clostridioides difficile Infection to Staphylococcal Scalded Skin Syndrome
+# Fidaksomisiini: Clostridioides difficile -infektiosta stafilokokkin aiheuttamaan ihottuma-oireyhtymään (SSSS)
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Fidaxomicin is a narrow-spectrum macrocyclic antibiotic whose established use is treating *Clostridioides difficile* infection through gut-restricted (non-systemic) antibacterial activity. The TxGNN model predicts possible efficacy for **Staphylococcal Scalded Skin Syndrome (SSSS)**, but this direction currently has **zero supporting clinical trials and zero publications** (L5, model prediction only), and the accompanying mechanistic analysis in this evidence pack actually argues *against* plausibility, since fidaxomicin has negligible systemic absorption.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | *Clostridioides difficile* infection (CDI) — based on known drug class/mechanism; no Finland market license data exists to confirm this formally |
-| Predicted New Indication | Staphylococcal Scalded Skin Syndrome (SSSS) |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L5 |
-| Finland Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Fidaksomisiini on kapea-spektrinen makrosyklinen antibiootti, jonka vakiintunut käyttö on *Clostridioides difficile* -infektioiden hoito suoleen rajoittuneen (ei-systeemisen) antibakteerisen toiminnan kautta. TxGNN-malli ennustaa mahdollista tehokkuutta **stafilokokkin aiheuttamaa ihottuma-oireyhtymää (SSSS)** vastaan, mutta tällä suunnalla ei ole tällä hetkellä **mitään tukevia kliinisiä tutkimuksia eikä julkaisuja** (L5, vain mallin ennuste), ja tähän näyttöpakettiin liittyvä mekanistinen analyysi itse asiassa puoltaa *epäuskottavuutta*, koska fidaksomisiinilla on merkityksetön systeeminen absorptio.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Detailed, sourced mechanism-of-action data for fidaxomicin is not available at the drug-record level (DrugBank MOA field: data gap). However, the evidence pack's own mechanistic rationale fields indicate fidaxomicin is a narrow-spectrum macrocyclic antibiotic that inhibits bacterial RNA polymerase (σ subunit), with activity concentrated against *Clostridium*-related organisms including *C. difficile*. Critically, oral bioavailability is reported as **<0.5%**, meaning the drug acts almost entirely within the gut lumen and does not achieve meaningful systemic circulation.
-
-SSSS is caused by exfoliative-toxin-producing *Staphylococcus aureus* and requires **systemic** anti-staphylococcal antibiotic therapy to control the underlying infection. Given fidaxomicin's near-total lack of systemic absorption, it cannot reach a skin-based staphylococcal infection at therapeutic concentrations — the pharmacokinetic profile is fundamentally mismatched to this indication's requirements. The rationale text accompanying this prediction explicitly states that "the mechanism and PK characteristics do not support this indication."
-
-For context, this same TxGNN batch flags 9 candidate indications for fidaxomicin, and the internal rationale for most of them (bullous impetigo, impetigo, hordeolum, vulvovaginal candidiasis, punctate epithelial keratoconjunctivitis) similarly notes mechanistic mismatch — either wrong pathogen class (e.g., vulvovaginal candidiasis is fungal; fidaxomicin has no antifungal activity) or wrong compartment (skin/eye infections requiring systemic or topical exposure fidaxomicin cannot provide). The one exception flagged as comparatively more plausible is **toxin-mediated infectious botulism** (rank 5), where the proposed mechanism — suppressing intraluminal *Clostridium botulinum* proliferation — parallels fidaxomicin's established gut-restricted anti-*Clostridium* action against *C. difficile*. Even so, that indication has no clinical trial or literature support either. Overall, this batch should be treated as low-confidence model output requiring substantial independent validation before any indication is pursued.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | *Clostridioides difficile* -infektio (CDI) — tunnetun lääkeluokan/mekanismin perusteella; Suomen markkinoiden hyväksyntää ei ole olemassa tämän vahvistamiseksi muodollisesti |
+| Ennustettu uusi indikaatio | Stafilokokkin aiheuttama ihottuma-oireyhtymä (SSSS) |
+| TxGNN-ennusteen pistemäärä | 99,71% |
+| Näytön taso | L5 |
+| Suomen markkinoiden tila | Ei myyntilupia |
+| Myyntilupien lukumäärä | 0 |
+| Suositeltu päätös | Odota |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennuste on järkevä?
 
-Currently no related literature available.
+Yksityiskohtaista, lähdettyä tietoa fidaksomisiinin toimintamekanismista ei ole saatavilla lääketason tasolla (DrugBank MOA -kenttä: tietojen puute). Näyttöpaketin omat mekanistiset perustelut osoittavat kuitenkin, että fidaksomisiini on kapea-spektrinen makrosyklinen antibiootti, joka estää bakteerien RNA-polymeraasia (σ-alayksikkö), ja sen toiminta on keskittynyt *Clostridium*-sukuisiin organismeihin, mukaan lukien *C. difficile*. Kriittisesti, suun kautta annetun biokäytettävyyden raportoitu arvo on **<0,5%**, mikä tarkoittaa, että lääke vaikuttaa lähes kokonaan suolen sisällökseen eikä saavuta merkityksellistä systeemistä verenkiertoa.
 
----
+SSSS:n aiheuttaa eksfoliatiiviä myrkkyä tuottava *Staphylococcus aureus* ja se vaatii **systeemisen** anti-stafilokokkisen antibiootin taustalla olevan infektion hallitsemiseksi. Koska fidaksomisiinilla on lähes täydellinen systeemisen absorption puute, se ei voi saavuttaa ihon stafilokokki-infektiota terapeuttisissa pitoisuuksissa — farmakokineettinen profiili on perustavanlaatuisesti ristiriidassa tämän indikaation vaatimusten kanssa. Tähän ennusteeseen liittyvä perusteluteksti toteaa nimenomaisesti, että "mekanismi ja PK-ominaisuudet eivät tue tätä indikaatiota."
 
-## Finland Market Information
-
-Fidaxomicin is not currently marketed in Finland; no Fimea market authorization records exist for this product (total authorizations: 0).
+Kontekstiksi, sama TxGNN-erä merkitsee 9 ehdokkaan indikaatiota fidaksomisiinille, ja suurimman osan heistä sisäiset perustelut (bulloosinen impetigo, impetigo, hordeolum, vulvovaginaalinen kandidiaasiinfektio, pistemainen epiteelisen keratokonjunktiviitti) huomaavat samoin mekanistisen epäsoveltuvuuden — joko väärä patogeenikanta (esim. vulvovaginaalinen kandidiaasiinfektio on sieniperäinen; fidaksomisiinilla ei ole antisieni-toimintaa) tai väärä kompartmentti (ihon/silmän infektiot, jotka vaativat systeemistä tai paikallista eksponoitumista, jota fidaksomisiini ei voi tarjota). Ainoa poikkeus, joka merkitään vertailukelpoisen uskottavammaksi, on **toksiinimediioitu infektiivinen botulismi** (sijoitus 5), jossa ehdotettu mekanismi — ruumensisäisen *Clostridium botulinum* -kasvun estäminen — vastaa fidaksomisiinin vakiintuneen suolen sisäisen anti-*Clostridium* -toiminnan kanssa *C. difficile* vastaan. Silti senkin indikaatiolla ei ole kliinisen tutkimuksen tai kirjallisuuden tukea. Kaiken kaikkiaan tätä erää tulee käsitellä matalan luottamustason mallin tuotoksena, joka vaatii huomattavaa riippumatonta validointia ennen kuin mitään indikaatiota jatketaan.
 
 ---
 
-## Safety Considerations
+## Kliinisen tutkimuksen näyttö
 
-Please refer to the package insert for safety information. (No key warnings, contraindications, or drug-drug interaction data were retrievable for fidaxomicin at this time; a TFDA/Fimea package insert lookup is flagged as a Blocking data gap in this evidence pack.)
+Tällä hetkellä ei ole rekisteröityjä vastaavia kliinisiä tutkimuksia.
 
 ---
 
-## Conclusion and Next Steps
+## Kirjallisuuden näyttö
 
-**Decision: Hold**
+Tällä hetkellä kirjallisuutta ei ole saatavilla.
 
-**Rationale:**
-The top-ranked prediction (SSSS) has no clinical or literature support (L5) and its own mechanistic assessment argues against pharmacological plausibility due to fidaxomicin's negligible systemic absorption. Combined with the drug's unmarketed status in Finland and missing MOA/safety documentation, there is insufficient basis to advance.
+---
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert (warnings, contraindications) — currently a Blocking gap (DG001)
-- Confirmed original mechanism-of-action documentation from DrugBank — High-severity gap (DG002)
-- If pursuing further, in vitro/in vivo evidence of systemic or topical anti-staphylococcal efficacy for SSSS, since current PK data contradicts the prediction
-- Consider redirecting evaluation toward toxin-mediated infectious botulism (rank 5), which has a mechanistically more coherent rationale (shared *Clostridium* genus, gut-localized action) but still requires de novo preclinical/clinical evidence generation, as none currently exists
+## Suomen markkinoiden tiedot
+
+Fidaksomisiinia ei ole tällä hetkellä hyväksytty myyntiin Suomessa; Fimean markkinatarkastuksesta ei ole tämän tuotteen hyväksyntätietoja (hyväksyntöjen kokonaismäärä: 0).
+
+---
+
+## Turvallisuutta koskevat huomiot
+
+Katso pakkausselosteesta turvallisuustietoja. (Fidaksomisiinin keskeisiä varoituksia, vasta-aiheita tai lääkkeiden välisiä vuorovaikutustietoja ei ollut saatavilla tällä hetkellä; TFDA/Fimean pakkausselosteen haku on merkitty tämän näyttöpaketin estäväksi tietojen puutteeksi.)
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Odota**
+
+**Perustelut:**
+Parhaiten sijoitetulla ennusteella (SSSS) ei ole kliinistä tai kirjallisuuden tukea (L5) ja sen oman mekanistisen arvioinnin mukaan se vastustaa farmakologisen uskottavuuden perusta, koska fidaksomisiinilla on merkityksetön systeeminen absorptio. Yhdessä lääkkeen puuttuvan myyntiluvan kanssa Suomessa ja puuttuvan MOA/turvallisuuden dokumentoinnin kanssa, edistämisen perusta on riittämätön.
+
+**Jatkon kannalta tarvitaan seuraavaa:**
+- TFDA/Fimean pakkausseloste (varoitukset, vasta-aiheet) — tällä hetkellä estävä puute (DG001)
+- Vahvistettu alkuperäisen toimintamekanismin dokumentointi DrugBankista — korkea-asteinen puute (DG002)
+- Mikäli jatketaan edelleen, in vitro/in vivo näyttö systeemisestä tai paikallisesta anti-stafilokokkisesta tehokkuudesta SSSS:lle, koska nykyiset PK-tiedot ovat ristiriidassa ennusteen kanssa
+- Harkitse arviointien ohjaamista uudelleen toksiinimediioituun infektiiviseen botulismiin (sijoitus 5), jonka mekanistiset perustelut ovat johdonmukaisemmat (jaettu *Clostridium*-suku, suolen sisäinen toiminta), mutta se vaatii kuitenkin de novo prekliinisen/kliinisen näyttöjen luomista, koska mitään ei ole tällä hetkellä olemassa
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

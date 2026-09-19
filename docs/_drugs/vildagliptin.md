@@ -29,74 +29,75 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Vildagliptin: From Type 2 Diabetes Mellitus to Classic Stiff Person Syndrome
+# Vildagliptin: Tyypin 2 diabeteksesta klassiseen jäykän henkilön oireyhtymään
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Vildagliptin is a DPP-4 (dipeptidyl peptidase-4) inhibitor established for the treatment of type 2 diabetes mellitus. The TxGNN model's top-ranked prediction for this drug is **Classic Stiff Person Syndrome**, but this direction is currently supported by **0 clinical trials** and **0 publications** — it is a pure model-generated hypothesis with no corroborating clinical or mechanistic evidence.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Type 2 Diabetes Mellitus (per supporting literature; no formal Finland label text on file) |
-| Predicted New Indication | Classic Stiff Person Syndrome |
-| TxGNN Prediction Score | 99.88% |
-| Evidence Level | L5 |
-| Finland Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Vildagliptin on DPP-4 (dipeptidyylipeptidaasi-4) -inhibiittori, joka on vakiintunut tyypin 2 diabeteksen hoidossa. TxGNN-mallin parhaiten arvioitu ennustus tälle lääkkeelle on **klassinen jäykän henkilön oireyhtymä**, mutta tätä suuntaa tukee tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua** — kyseessä on puhtaasti mallin generoima hypoteesi ilman vahvistavia kliinisiä tai mekanistisia todisteita.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Pika-yleiskatsaus
 
-Currently, detailed mechanism of action data for vildagliptin is not available in this evidence pack. Based on information contained in the supporting literature collected for other candidate indications, vildagliptin belongs to the DPP-4 inhibitor class: it blocks degradation of the incretin hormones GLP-1 and GIP, thereby enhancing glucose-dependent insulin secretion and suppressing glucagon release. Its efficacy in type 2 diabetes has been established through extensive clinical use.
-
-Classic Stiff Person Syndrome is a rare autoimmune central nervous system disorder, most commonly associated with anti-GAD65 antibodies, that causes progressive muscle rigidity and spasms. Per the evidence pack's own repurposing rationale, there is **no known mechanistic link** between DPP-4/incretin-pathway modulation and the autoimmune, GABAergic-neuron-directed pathophysiology underlying this disease.
-
-The very high TxGNN score paired with a complete absence of clinical, preclinical, or mechanistic evidence is consistent with how graph neural network models can surface high-confidence link predictions for rare diseases with sparse knowledge-graph connectivity, independent of established biology. This candidate should be treated strictly as a hypothesis-generating signal, not as evidence of therapeutic plausibility.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Kohde | Sisältö |
+|-------|---------|
+| Alkuperäinen indikaatio | Tyypin 2 diabetes mellitus (tukitiedon mukaan; virallisia Suomen pakkausselosteita ei ole saatavilla) |
+| Ennustettu uusi indikaatio | Klassinen jäykän henkilön oireyhtymä |
+| TxGNN-ennustuspisteet | 99.88% |
+| Todistusaste | L5 |
+| Suomen markkinoiden asema | Ei markkinoilla |
+| Hyväksyntöjen määrä | 0 |
+| Suositeltu päätös | Pysäytä |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennustus on järkevä?
 
-Currently no related literature available.
+Tällä hetkellä vildagliptinin yksityiskohtaiset vaikutusmekanismin tiedot eivät ole saatavilla tässä todistuspaketissa. Muille ehdokasindikaa­tioille kerätyn tukitiedon perusteella vildagliptin kuuluu DPP-4-inhibiittorien luokkaan: se estää inkretiinihormoniien GLP-1:n ja GIP:n hajottamista, mikä parantaa glukoosia riippuvaa insuliinin erittymistä ja estää glukagoniinin vapautumista. Sen tehokkuus tyypin 2 diabeteksessa on vakiintunut laajan kliinisen käytön kautta.
 
----
+Klassinen jäykän henkilön oireyhtymä on harvinainen autoimmuuni keskushermostosairaus, joka liittyy useimmiten anti-GAD65-vasta-aiheisiin ja aiheuttaa progressiivista lihaskaihta ja spaseja. Todistuspaketin omien uudelleenkäyttötavoitteiden mukaan DPP-4/inkretiinireitin moduloinnin ja GABAergisia neuroneita kohtaan suunnattujen autoimmuunien patofysiologian välillä **ei ole tunnettu mekanistista yhteyttä**.
 
-## Finland Market Information
-
-Vildagliptin is not currently marketed in Finland, and no marketing authorizations are on record for this candidate.
+Hyvin korkea TxGNN-pistemäärä yhdessä täydellisen kliinisen, prekliinisen tai mekanistisen todistusaineiston puuttumisen kanssa sopii yhteen sen kanssa, kuinka graafineuralointiverkkomallit voivat ehdottaa korkeasti arvioituja linkkiennusteita harvinaisissa sairauksissa, joissa on vähän tietokaavioyhteyksiä, riippumatta vakiintuneista biologisista mekanismeista. Tämä ehdokas tulisi käsitellä tiukasti hypoteesia tuottavaksi signaaliksi, ei terapeuttisen uskottavuuden todisteeksi.
 
 ---
 
-## Safety Considerations
+## Kliinisen tutkimuksen todistusaineisto
 
-Please refer to the package insert for safety information.
+Tällä hetkellä ei ole rekisteröityjä liittyviä kliinisiä tutkimuksia.
 
 ---
 
-## Conclusion and Next Steps
+## Kirjallisuuden todistusaineisto
 
-**Decision: Hold**
+Tällä hetkellä ei ole saatavilla liittyvää kirjallisuutta.
 
-**Rationale:**
-- The prediction sits at evidence level L5 with zero clinical trials and zero literature support, and the drug's own repurposing rationale explicitly states there is no known mechanistic connection between DPP-4 inhibition and stiff person syndrome pathophysiology. There is no basis to advance beyond model prediction at this time.
+---
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert data (warnings, contraindications) — currently a **Blocking** data gap (DG001)
-- DrugBank-sourced mechanism of action data — currently a **High**-severity gap (DG002)
-- Any preclinical or mechanistic study specifically linking incretin/DPP-4 pathway modulation to GAD65-mediated autoimmune neurological disease, before this candidate can move past S0
-- Note: within the same evidence pack, the rank-10 prediction (**Type 1 Diabetes Mellitus**, L2, decision stage S2, 50 trials incl. 1 RCT) has materially stronger support and may warrant separate, prioritized evaluation ahead of this candidate
+## Suomen markkinoiden tiedot
+
+Vildagliptinia ei ole tällä hetkellä markkinoilla Suomessa, eikä tälle ehdokkaalle ole markkinointihyväksyntöjä.
+
+---
+
+## Turvallisuusasiat
+
+Turvallisuustiedot löytyvät pakkausselosteesta.
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pysäytä**
+
+**Perustelut:**
+- Ennustus sijaitsee todistustasolla L5 nolla kliinisen tutkimuksen ja nolla kirjallisuustuen kanssa, ja lääkkeen oman uudelleenkäyttötavoitteen mukaan DPP-4-estäjien ja jäykän henkilön oireyhtymän patofysiologian välillä ei ole tunnettu mekanistista yhteyttä. Perusteita edetä malliennusteen pidemmälle ei ole tällä hetkellä.
+
+**Jatkamiseksi tarvitaan:**
+- TFDA/Fimea pakkausselostetiedot (varoitukset, vasta-aiheet) — tällä hetkellä **estävä** tietoaukko (DG001)
+- DrugBankista peräisin oleva vaikutusmekanismin tieto — tällä hetkellä **korkean vakavuuden** aukko (DG002)
+- Mikä tahansa prekliininen tai mekanistinen tutkimus, joka erityisesti yhdistää inkretiini/DPP-4-reitin moduloinnin GAD65-välitteiseen autoimmuunien neurologiseen sairaukseen, ennen kuin tämä ehdokas voi siirtyä S0:n ohi
+- Huomio: samassa todistuspaketissa kymmenennen sijalla oleva ennustus (**Tyypin 1 diabetes mellitus**, L2, päätösvaihe S2, 50 tutkimusta sisältäen 1 RCT) on aineellisesti vahvemmin tuettu ja voi vaatia erillisen, priorisoitavan arvioinnin ennen tätä ehdokasta
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -29,107 +29,108 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Lamivudine: TxGNN Multi-Indication Screen — No Actionable Repurposing Candidate Identified
+# Lamivudiini: TxGNN-monien indikaatioiden seulonta — Ei löydetty toimeenpantavaa uudelleenkäyttökandidaattia
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Lamivudine (DB00709) is a well-established nucleoside reverse transcriptase inhibitor (NRTI) used against HIV-1 and chronic hepatitis B; the Evidence Pack does not record its original indication text due to a data gap. TxGNN returned **5 top-ranked predicted indications** (score ≈ 99.1–99.9%), but on evidence review **none qualify as an actionable human repurposing candidate** — the top signal is a veterinary disease (cats), the second is an animal-model-only condition (non-human primates), and the remaining three lack usable or correctly matched evidence. All five candidates carry a **Hold** recommendation.
-
----
-
-## Quick Overview
-
-*(Values below reflect the top-ranked candidate, predicted_indications[0]; see "All Predicted Indications" for the full set.)*
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available — no Taiwan license on file (`total_licenses = 0`); Lamivudine is widely known as an antiretroviral for HIV-1 infection and chronic hepatitis B, but this is general background, not Evidence Pack data |
-| Predicted New Indication (Rank 1) | Feline acquired immunodeficiency syndrome (cat FIV) — **not a human indication** |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L4 (per Evidence Pack scoring; literature is veterinary cohort/preclinical, not human) |
-| Taiwan Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
-
-### All Predicted Indications (Ranked)
-
-| Rank | Disease | TxGNN Score | Evidence Level | Recommendation | Key Issue |
-|------|---------|------------|-----------------|-----------------|-----------|
-| 1 | Feline acquired immunodeficiency syndrome | 99.93% | L4 | Hold | Veterinary disease (cats); attached clinical trials are human HIV/dolutegravir studies, unrelated to FIV (relevance grade C) |
-| 2 | Simian immunodeficiency virus infection | 99.93% | L5 | Hold | Non-human primate model only; no clinical trials; 20 literature items are all animal/mechanistic studies |
-| 3 | Neurodevelopmental disorder with ataxic gait, absent speech, decreased cortical white matter | 99.93% | L5 | Hold | Zero clinical trials or literature; no known mechanistic link to an NRTI |
-| 4 | Obsolete familial combined hyperlipidemia | 99.63% | L5 | Hold | Disease term flagged "obsolete" in ontology; no mechanistic rationale (antiretroviral vs. lipid metabolism); no evidence |
-| 5 | Chronic hepatitis C virus infection | 99.11% | L4 | Hold | Likely ontology mislabel — all 16 attached trials and most literature concern chronic **hepatitis B**, not HCV; Lamivudine has no known activity against HCV's RNA-dependent RNA polymerase |
+Lamivudiini (Lamivudine, DB00709) on vakiintunut nukleosidi-käänteisen transkriptaasin inhibiittori (NRTI), jota käytetään HIV-1:tä ja kroonista hepatiitti B:tä vastaan; Evidence Pack ei sisällä sen alkuperäisen indikaation tekstiä tiedon puutteen vuoksi. TxGNN palautti **5 parhaiten sijoittunutta ennustettua indikaatiota** (pistemäärä ≈ 99,1–99,9%), mutta todisteiden perusteella **yksikään ei täytä toimeenpantavan ihmisten uudelleenkäyttökandidaatin kriteerejä** — paras signaali on eläinlääkinnöllinen sairaus (kissat), toinen on vain eläinmalleista johdettu sairaus (ihmisiin kuulumattomat primaatit), ja loput kolme ovat riittämättömiä tai virheellisesti sovitettuja todisteiden kannalta. Kaikki viisi kandidaattia saavat **Pidä**-suosituksen.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Currently, detailed mechanism of action data is not available (DrugBank MOA field: Data Gap). Based on known information, Lamivudine is a cytidine nucleoside analogue (NRTI) that, after intracellular phosphorylation, inhibits retroviral reverse transcriptase. Its efficacy against HIV-1 and hepatitis B virus (both of which depend on reverse transcription) is well established in humans.
+*(Alla olevat arvot heijastavat parhaiten sijoittunutta kandidaattia (predicted_indications[0]); katso "Kaikki ennustetut indikaatiot" täydellisen joukon osalta.)*
 
-For **Rank 1 (feline FIV)** and **Rank 2 (simian SIV)**, the mechanistic logic is genuine at the biology level — FIV and SIV are lentiviruses closely related to HIV, and reverse-transcriptase inhibition is a shared vulnerability (the M184V resistance mutation reported in SIV models mirrors the same mutation seen in HIV-1 under lamivudine therapy, per the literature evidence). However, these are **veterinary and non-human-primate disease models**, not human indications, so they do not constitute valid targets for a human drug-repurposing pipeline regardless of mechanistic plausibility.
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Ei saatavilla — tiedostossa ei ole Taiwanin lupaa (`total_licenses = 0`); Lamivudiini tunnetaan laajalti antiretroviraaleista HIV-1-infektioita ja kroonista hepatiitti B:tä vastaan, mutta tämä on yleinen tausta, ei Evidence Pack -dataa |
+| Ennustettu uusi indikaatio (Sijoitus 1) | Kissojen hankkittu immuunivajaavuussyndrooma (kissan FIV) — **ei ihmisten indikaatio** |
+| TxGNN:n ennusteen pistemäärä | 99,93% |
+| Todisteiden taso | L4 (Evidence Pack -pisteytyksessä; kirjallisuus on eläinlääkinnöllinen kohortti/prekliininen, ei ihmisten) |
+| Taiwanin markkinoinnin tila | Ei markkinoitu (Ei markkinoitu) |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | **Pidä** |
 
-For **Rank 5 (chronic HCV)**, the mechanistic rationale does *not* hold: HCV is a *Flaviviridae* RNA virus that replicates via the NS5B RNA-dependent RNA polymerase, not reverse transcription, so Lamivudine has no established antiviral activity against it. Critically, essentially all of the attached clinical trial and literature evidence for this candidate actually describes **chronic hepatitis B** (entecavir/adefovir/tenofovir/peginterferon vs. lamivudine trials), suggesting a disease-ontology labeling error in the underlying prediction rather than a genuine HCV signal. Ranks 3 and 4 have no supporting evidence of any kind and, in the case of Rank 4, reference an ontology term explicitly marked "obsolete."
+### Kaikki ennustetut indikaatiot (Sijoituksen mukaan)
+
+| Sijoitus | Sairaus | TxGNN-pistemäärä | Todisteiden taso | Suositus | Pääkysymys |
+|------|---------|------------|-----------------|-----------|-----------|
+| 1 | Kissojen hankkittu immuunivajaavuussyndrooma | 99,93% | L4 | Pidä | Eläinlääkinnöllinen sairaus (kissat); liitetyt kliiniset tutkimukset ovat ihmisten HIV/dolutegravir-tutkimuksia, eivät liity FIV:ään (relevanssiluokitus C) |
+| 2 | Simiaanisen immuunivajaavuusviruksen infektio | 99,93% | L5 | Pidä | Vain ihmisiin kuulumattomien primaattien malli; ei kliinisiä tutkimuksia; 20 kirjallisuusviitettä ovat kaikki eläin-/mekanistisia tutkimuksia |
+| 3 | Neurokehi­tyk­sel­li­nen häiriö ataksisella kävelyllä, puheentuotannon puutteella ja vähentyneellä aivokuoren valkoaineen määrällä | 99,93% | L5 | Pidä | Nolla kliinisiä tutkimuksia tai kirjallisuutta; ei tunnettua mekanistista yhteyttä NRTI:hen |
+| 4 | Vanhentunut familiaalisesti yhdistetty hyperlipidemie | 99,63% | L5 | Pidä | Sairaustermi merkitty "vanhentuneeksi" ontologiassa; ei mekanistista perustelua (antiretroviraali vs. lipidimetabolismi); ei todistetta |
+| 5 | Krooninen hepatiitti C -viruksen infektio | 99,11% | L4 | Pidä | Todennäköinen ontologian vääritys — kaikki 16 liitettyä tutkimusta ja suurin osa kirjallisuudesta käsittelevät kroonista **hepatiitti B:tä**, ei HCV:tä; Lamivodiinilla ei ole tunnettua aktiviteettiä HCV:n RNA-riippuvaiselle RNA-polymeraasille |
 
 ---
 
-## Clinical Trial Evidence
+## Miksi tämä ennuste on järkevä?
 
-*(Drawn from predicted_indications[0] — feline FIV. All 5 trials are human HIV studies with dolutegravir/abacavir/lamivudine regimens and are graded "C" relevance — i.e., not actually about the predicted indication.)*
+Tällä hetkellä yksityiskohtaisia vaikutusmekanismi-tietoja ei ole saatavilla (DrugBank MOA -kenttä: Tiedon puute). Tunnettujen tietojen perusteella Lamivudiini on sytidinukleosidi-analogi (NRTI), joka solun sisäisen fosforylaation jälkeen estää retroviraali-käänteisen transkriptaasin. Sen teho HIV-1:tä ja hepatiitti B -virusta vastaan (molemmat riippuvat käänteisestä transkriptiosta) on hyvin vakiintunut ihmisillä.
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+**Sijoitukselle 1 (kissojen FIV)** ja **Sijoitukselle 2 (simiaanien SIV)**, mekanistinen logiikka on aito biologian tasolla — FIV ja SIV ovat lentiviruksia, jotka liittyvät läheisesti HIV:iin, ja käänteisen transkriptaasin estäminen on jaettu haavoittuvuus (M184V-resistenssi-mutaatio, joka raportoitu SIV-malleissa, peilaa samaa mutaatiota, joka nähdään HIV-1:ssä lamivudiini-terapian alaisina, kirjallisuuden todisteen mukaan). Kuitenkin nämä ovat **eläinlääkinnöllisiä ja ihmisiin kuulumattomien primaattien sairauksien malleja**, eivät ihmisten indikaatioita, joten ne eivät ole kelvollisia kohteita ihmisten lääkkeiden uudelleenkäyttöputkelle riippumatta mekanistisesta uskottavuudesta.
+
+**Sijoitukselle 5 (krooninen HCV)**, mekanistinen perustelu *ei* ole: HCV on *Flaviviridae*-RNA-virus, joka monistuu NS5B-RNA-riippuvaisen RNA-polymeraasin kautta, ei käänteisen transkription kautta, joten Lamivodiinilla ei ole tunnettua antiviraalista aktiviteettiä sitä vastaan. Kriittisesti, olennaisesti kaikki tähän kandidaattiin liitetyt kliinisen tutkimuksen ja kirjallisuuden todisteet koskevat itse asiassa **kroonista hepatiitti B:tä** (entecavir/adefovir/tenofovir/peginterferoni vs. lamivudiini-tutkimuksia), mikä viittaa sairausontologian merkintävirheeseen taustalla olevassa ennusteessa sen sijaan, että olisi aito HCV-signaali. Sijoituksilla 3 ja 4 ei ole minkäänlaisia tukevia todisteia, ja Sijoituksella 4 viitattaessa ontologiatermiin, joka on nimenomaisesti merkitty "vanhentuneeksi".
+
+---
+
+## Kliinisen tutkimuksen todisteet
+
+*(Poimittu predicted_indications[0]:sta — kissojen FIV. Kaikki 5 tutkimusta ovat ihmisten HIV-tutkimuksia dolutegravir/abacavir/lamivudiini-säännöillä ja on arvosteltu "C"-relevanssilla — eli eivät itse asiassa koske ennustettua indikaatiota.)*
+
+| Tutkimuksen numero | Vaihe | Tila | Osallistujien määrä | Keskeisiä löydöksiä |
 |---------|------|------|------|---------|
-| [NCT01499199](https://clinicaltrials.gov/study/NCT01499199) | Phase 3 | Completed | 13 | Dolutegravir + abacavir/lamivudine CNS/plasma PK study in ART-naive HIV-1 patients — human trial, unrelated to FIV |
-| [NCT01263015](https://clinicaltrials.gov/study/NCT01263015) | Phase 3 | Completed | 844 | Dolutegravir + abacavir/lamivudine vs. Atripla in ART-naive HIV-1 patients — human trial, unrelated to FIV |
-| [NCT00951015](https://clinicaltrials.gov/study/NCT00951015) | Phase 2 | Completed | 208 | Dolutegravir dose-selection with abacavir/lamivudine or tenofovir/emtricitabine in HIV-1 patients — human trial, unrelated to FIV |
-| [NCT02770508](https://clinicaltrials.gov/study/NCT02770508) | Phase 4 | Completed | 145 | Darunavir + lamivudine vs. darunavir + emtricitabine/tenofovir or lamivudine/tenofovir in HIV-1 patients — human trial, unrelated to FIV |
-| [NCT01227824](https://clinicaltrials.gov/study/NCT01227824) | Phase 3 | Completed | 828 | Dolutegravir vs. raltegravir, both with dual NRTI backbone, in HIV-1 patients — human trial, unrelated to FIV |
+| [NCT01499199](https://clinicaltrials.gov/study/NCT01499199) | Vaihe 3 | Valmis | 13 | Dolutegravir + abacavir/lamivudiini CNS/plasman PK-tutkimus ART-naiiville HIV-1-potilaille — ihmisten tutkimus, ei liity FIV:ään |
+| [NCT01263015](https://clinicaltrials.gov/study/NCT01263015) | Vaihe 3 | Valmis | 844 | Dolutegravir + abacavir/lamivudiini vs. Atripla ART-naiiville HIV-1-potilaille — ihmisten tutkimus, ei liity FIV:ään |
+| [NCT00951015](https://clinicaltrials.gov/study/NCT00951015) | Vaihe 2 | Valmis | 208 | Dolutegravir-annoksen valinta abacavir/lamivudiini- tai tenofovir/emtricitabiini-kanssa HIV-1-potilailla — ihmisten tutkimus, ei liity FIV:ään |
+| [NCT02770508](https://clinicaltrials.gov/study/NCT02770508) | Vaihe 4 | Valmis | 145 | Darunavir + lamivudiini vs. darunavir + emtricitabiini/tenofovir tai lamivudiini/tenofovir HIV-1-potilailla — ihmisten tutkimus, ei liity FIV:ään |
+| [NCT01227824](https://clinicaltrials.gov/study/NCT01227824) | Vaihe 3 | Valmis | 828 | Dolutegravir vs. raltegravir, molemmat kaksinkertaisella NRTI-selkärankaisella, HIV-1-potilailla — ihmisten tutkimus, ei liity FIV:ään |
 
-**Note:** No clinical trials exist for Lamivudine in any of the 5 predicted indications as actually defined (FIV, SIV, the neurodevelopmental disorder, or obsolete hyperlipidemia). The 16 trials attached to Rank 5 (chronic HCV) are also mismatched — they are chronic hepatitis B trials — and are omitted here to avoid restating irrelevant data.
+**Huomautus:** Lamivodiinin kliinisiä tutkimuksia ei ole olemassa missään 5:stä ennustetusta indikaatiosta sellaisena kuin ne on todellisuudessa määritelty (FIV, SIV, neurokehi­tyk­sel­li­nen häiriö tai vanhentunut hyperlipidemie). Sijoitukselle 5 liitetyt 16 tutkimusta (krooninen HCV) ovat myös virheellisiä — ne ovat kroonisen hepatiitti B:n tutkimuksia — ja jätetään tässä pois välttämään asiattomien tietojen toistamisen.
 
 ---
 
-## Literature Evidence
+## Kirjallisuuden todisteet
 
-*(Drawn from predicted_indications[0] — feline FIV; these are the only literature items directly on-topic for their stated indication.)*
+*(Poimittu predicted_indications[0]:sta — kissojen FIV; nämä ovat ainoat kirjallisuusviitteet, jotka ovat suoraan aiheellisia niiden ilmoitettujen indikaatioiden osalta.)*
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeisiä löydöksiä |
 |------|-----|------|------|---------|
-| [11943320](https://pubmed.ncbi.nlm.nih.gov/11943320/) | 2002 | Cohort | Veterinary Immunology and Immunopathology | AZT/3TC combination showed additive-to-synergistic anti-FIV activity in primary PBMCs, but efficacy diminished in chronically infected cells |
-| [25855689](https://pubmed.ncbi.nlm.nih.gov/25855689/) | 2016 | Cohort | Journal of Feline Medicine and Surgery | Long-term antiretroviral therapy (AZT-based) evaluated in FIV-infected cats over 5–6 years |
-| [22816032](https://pubmed.ncbi.nlm.nih.gov/22816032/) | 2012 | Cohort | Viruses | ZDV+3TC vs. other regimens compared in naturally FIV-infected cats; viral load and CD4+/CD8+ ratios followed over one year |
-| [11684314](https://pubmed.ncbi.nlm.nih.gov/11684314/) | 2002 | Cohort | Antiviral Research | ZDV+3TC+ABC combination suppressed FIV replication in vitro; FIV proposed as an HIV animal model |
-| [11327469](https://pubmed.ncbi.nlm.nih.gov/11327469/) | 2001 | In vitro/Preclinical | American Journal of Veterinary Research | Characterized 3TC-resistant FIV pol gene mutants in vitro |
+| [11943320](https://pubmed.ncbi.nlm.nih.gov/11943320/) | 2002 | Kohortti | Veterinary Immunology and Immunopathology | AZT/3TC-yhdistelmä osoitti additiivisia-synergistisiä anti-FIV-aktivititeetteja primaarisissa PBMCs:issa, mutta tehokkuus väheni kroonisesti infektoituneissa soluissa |
+| [25855689](https://pubmed.ncbi.nlm.nih.gov/25855689/) | 2016 | Kohortti | Journal of Feline Medicine and Surgery | Pitkäaikaista antiretroviraali-terapiaa (AZT-pohjainen) arvioitiin FIV-infektoituneissa kissoissa 5–6 vuoden aikana |
+| [22816032](https://pubmed.ncbi.nlm.nih.gov/22816032/) | 2012 | Kohortti | Viruses | ZDV+3TC vs. muita säännöksiä verrattiin luonnollisesti FIV-infektoituneissa kissoissa; virusikuormaa ja CD4+/CD8+-suhteita seurattiin yhden vuoden ajan |
+| [11684314](https://pubmed.ncbi.nlm.nih.gov/11684314/) | 2002 | Kohortti | Antiviral Research | ZDV+3TC+ABC-yhdistelmä esti FIV-monistumisen in vitro; FIV ehdotettiin HIV-eläinmalliksi |
+| [11327469](https://pubmed.ncbi.nlm.nih.gov/11327469/) | 2001 | In vitro/Prekliininen | American Journal of Veterinary Research | Karakterisoitu 3TC-resistentti FIV-pol-geeni-mutantit in vitro |
 
-**Note:** All 5 items are veterinary (feline) studies — none constitute human clinical evidence. Literature for Rank 2 (SIV, 20 items) and further items for Rank 5 (HCV/HBV mismatch, 20 items) exist in the Evidence Pack but are animal-model or wrong-disease studies and are not reproduced here to avoid misrepresenting them as support for a human indication.
-
----
-
-## Taiwan Market Information
-
-Lamivudine is currently **not marketed in Taiwan** (`market_status: Not marketed`), with **0 authorizations** on file. No license records are available to summarize.
+**Huomautus:** Kaikki 5 kohetta ovat eläinlääkinnöllisiä (kissojen) tutkimuksia — yksikään ei ole ihmisten kliinisiä todisteia. Sijoitukselle 2 (SIV, 20 kohdetta) ja lisäkohdille sijoitukselle 5 (HCV/HBV-väärityyppi, 20 kohdetta) on olemassa kirjallisuusviitteitä Evidence Packissa, mutta ne ovat eläinmalleja tai väärä-sairaus-tutkimuksia eivätkä ole tässä jäljennettyjä välttämään näiden kuvittelun tukevan ihmisten indikaatiota.
 
 ---
 
-## Safety Considerations
+## Taiwanin markkinatiedot
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-drug interaction data are all marked as data gaps in this Evidence Pack — TFDA package insert retrieval is flagged as a **Blocking** data gap, DG001.)
+Lamivudiini ei tällä hetkellä ole markkinoitu Taiwanissa (`market_status: Not marketed`), ja tiedostossa on **0 hyväksyntää**. Lupamerkinnöistä ei ole saatavilla yhteenveto.
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuusnäkökohdat
 
-**Decision: Hold**
+Katso pakkausseloste turvallisuustiedoista. (Keskeisiä varoituksia, vasta-aiheita ja lääkkeiden välisiä vuorovaikutuksia koskevat tiedot ovat kaikki merkitty tiedon puutteeksi tässä Evidence Packissa — TFDA-pakkauselosteenhaku on merkitty **Estäväksi** tiedon puutteeksi, DG001.)
 
-**Rationale:**
-None of the 5 TxGNN-predicted indications is currently actionable for human drug repurposing: Rank 1 and Rank 2 are non-human disease models (feline FIV, simian SIV) with only animal evidence; Rank 3 and Rank 4 have no supporting evidence at all (Rank 4's disease term is even flagged as ontologically obsolete); and Rank 5 (chronic hepatitis C) is very likely a disease-ontology mismatch, since its clinical trial and literature evidence overwhelmingly concern chronic hepatitis B, a mechanistically plausible indication for an NRTI, rather than HCV.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert retrieval (DG001, Blocking) to establish a baseline safety profile before any S1 evaluation
-- DrugBank MOA/category data (DG002) to properly assess mechanistic plausibility
-- Verification/correction of the disease-ontology mapping for Rank 5 — if the intended target is chronic hepatitis B rather than hepatitis C, that candidate should be re-scored and re-evaluated as a distinct, evidence-rich signal
-- Re-scoping the predicted-indication set to exclude non-human disease terms (FIV, SIV) from the human repurposing pipeline at the model/filtering stage
-- No further action recommended on Ranks 3 and 4 given the complete absence of supporting evidence
+## Johtopäätökset ja seuraavat vaiheet
+
+**Päätös: Pidä**
+
+**Perustelut:**
+Yksikään viidestä TxGNN:n ennustamasta indikaatiosta ei ole tällä hetkellä toimeenpantava ihmisten lääkkeiden uudelleenkäyttöön: Sijoitus 1 ja Sijoitus 2 ovat ihmisiin kuulumattomien sairauksien malleja (kissojen FIV, simiaanien SIV), joissa on vain eläintodisteet; Sijoituksilla 3 ja 4 ei ole minkäänlaisia tukevia todisteia (Sijoituksen 4 sairaustermi on jopa merkitty ontologisesti vanhentuneeksi); ja Sijoitus 5 (krooninen hepatiitti C) on hyvin todennäköisesti sairausontologian väärityyppi, koska sen kliinisen tutkimuksen ja kirjallisuuden todisteet käsittelevät ylivoimaisesti kroonista hepatiitti B:tä, NRTI:lle mekanistisesti uskottava indikaatio, sen sijaan, että olisivat HCV.
+
+**Jotta voidaan edetä, seuraavaa tarvitaan:**
+- TFDA-pakkauselosteenhaku (DG001, Estävä) perusturvallisuusprofiilin vahvistamiseksi ennen S1-arviointia
+- DrugBank MOA/kategoria-data (DG002) mekanistisen uskottavuuden asianmukaiseen arviointiin
+- Sijoituksen 5 sairauden ontologiakartituksen vahvistaminen/korjaaminen — jos aiottu kohde on krooninen hepatiitti B sen sijaan, että olisivat hepatiitti C, kyseisen kandidaatin pitäisi ohjata uudelleen ja uudelleenarvioida erilliseksi, todistepitoisaksi signaaliksi
+- Ennustetun indikaation joukon uudelleenkäyttöönotto, jotta voidaan sulkea pois ihmisiin kuulumattomat sairaustermit (FIV, SIV) ihmisten uudelleenkäyttöputkesta mallinnuksessa/suodatusvaiheessa
+- Ei muuta toimintaa suositeltu Sijoituksille 3 ja 4, koska tukevien todisteiden täydellinen puute
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

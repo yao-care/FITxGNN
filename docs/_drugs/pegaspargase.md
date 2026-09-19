@@ -29,138 +29,139 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Pegaspargase: From Acute Lymphoblastic Leukemia to Hodgkin Lymphoma (Extranodal NK/T-Cell Lymphoma)
+# Pegaspargase: Akuutista lymfoblastisesta leukemiasta Hodgkinin lymfoomaan (Ekstranodaalinen NK/T-solu lymfooma)
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-> Pegaspargase (PEGylated L-asparaginase) is an established chemotherapy component for acute lymphoblastic leukemia (ALL)/lymphoblastic lymphoma, where it depletes serum asparagine to selectively kill asparagine-synthetase-deficient malignant lymphoblasts.
-> This evidence pack contains **10 TxGNN-ranked candidate indications**; two of the top five (precursor lymphoblastic lymphoma/leukemia and "acute lymphoblastic leukemia") are simply the drug's **existing, already-approved use** rather than a new hypothesis.
-> The most credible genuinely **new-use** signal in this pack is ranked #8 and labeled **"Hodgkin lymphoma,"** but nearly all of its supporting trials and literature actually study **Extranodal NK/T-cell Lymphoma (ENKTL)** — a distinct, aggressive non-Hodgkin subtype in which asparaginase-based regimens (SMILE, P-GEMOX, GELOX, DDGP) are already used in real-world practice, backed by **18 clinical trials** and **20 publications**.
+> Pegaspargase (PEGylöity L-asparaginaasi) on vakiintunut kemoterapiakomponentti akuutissa lymfoblastisessa leukemiassa (ALL)/lymfoblastisessa lymfoomassa, jossa se kuluttaa serumin asparaginiinitasoa valinnollisesti tappakseen asparaginaasisyntaasi-puutteellisia pahanlaatuisia lymfoblasteja.
+> Tämä todistepaketti sisältää **10 TxGNN-luokiteltua kandidaattisairastumusosoitusta**; kahdesta viiden parhaan joukossa (prekursorin lymfoblastinen lymfooma/leukemia ja "akuutti lymfoblastinen leukemia") ovat yksinkertaisesti lääkkeen **olemassa olevat, jo hyväksytyt käyttöindikaatiot** kuin uus hypoteesi.
+> Uskottavin todella **uuden käytön** signaali tässä paketissa on sijoitukseltaan #8 ja merkitty **"Hodgkinin lymfoomaksi,"** mutta lähes kaikki sen tukevat tutkimukset ja kirjallisuus tutkivat itse asiassa **Ekstranodaalista NK/T-solu lymfoomaa (ENKTL)** — erillinen, aggressiivinen non-Hodgkin alaryhmä, jossa asparaginaasipohjaisia skeemoja (SMILE, P-GEMOX, GELOX, DDGP) käytetään jo käytännön toteutuksessa, tukena **18 kliinisen tutkimuksen** ja **20 julkaisun**.
 
 ---
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Acute Lymphoblastic Leukemia (ALL) / Lymphoblastic Lymphoma *(inferred from clinical-trial context and repurposing rationale — `original_indications` field was empty in the evidence pack)* |
-| Predicted New Indication | Hodgkin Lymphoma (label) — supporting evidence corresponds primarily to **Extranodal NK/T-cell Lymphoma (ENKTL)** |
-| TxGNN Prediction Score | 99.71% (rank 3726 of model output) |
-| Evidence Level | L2 |
-| Finland Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Research Question |
+| Alkuperäinen indikaatio | Akuutti lymfoblastinen leukemia (ALL) / Lymfoblastinen lymfooma *(päätellään kliinisen tutkimuksen kontekstista ja uudelleenkäytön perustelusta — `original_indications` kenttä oli tyhjä todistepakettissa)* |
+| Ennustettu uusi indikaatio | Hodgkinin lymfooma (merkintä) — tukevia todisteita vastaa pääasiassa **Ekstranodaalinen NK/T-solu lymfooma (ENKTL)** |
+| TxGNN ennustamispistemäärä | 99.71% (sijoitus 3726 mallin tuloksesta) |
+| Todistustaso | L2 |
+| Suomen markkinatila | Ei markkinoitu |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Tutkimuskysymys |
 
-**Note on this evidence pack:** This is a multi-indication candidate pack (`candidate_id: TW-DB00059-multi`) containing 10 ranked TxGNN predictions. The table below summarizes all of them so the reader understands the full portfolio before the deep dive on the primary candidate.
+**Huomio tästä todistupaketista:** Tämä on monisairastumuskohtainen kandidaattipaketti (`candidate_id: TW-DB00059-multi`), joka sisältää 10 luokiteltua TxGNN ennustetta. Alla oleva taulukko tiivistää ne kaikki, jotta lukija ymmärtää koko salkun ennen syvää analyysiä pääkandidaatista.
 
-### Portfolio of All TxGNN-Predicted Indications in This Pack
+### Kaikkien TxGNN-Ennustettujen Sairastumusten Salkku Tässä Paketissa
 
-| Rank | Disease Label | Score | Evidence Level | Recommendation | Note |
+| Sijoitus | Sairauden merkintä | Pistemäärä | Todistustaso | Suositus | Huomio |
 |------|---------------|-------|-----------------|-----------------|------|
-| 1 | Precursor lymphoblastic lymphoma/leukemia | 99.96% | L1 | Proceed with Guardrails | **Not a new indication** — this is the drug's core existing use |
-| 2 | Pregerminal center CLL/SLL | 99.95% | L5 | Hold | No trials/literature; mechanistically weak (mature, slow-proliferating B cells) |
-| 3 | CLL/SLL (IGHV-mutated subtype) | 99.95% | L5 | Hold | Same as above |
-| 4 | Follicular lymphoma | 99.90% | L5 | Hold | No evidence; indolent germinal-center lymphoma, weak rationale |
-| 5 | Acute lymphoblastic leukemia | 99.89% | L1 | Proceed with Guardrails | **Not a new indication** — duplicate of rank 1 |
-| 6 | Methylcobalamin deficiency (cblE) | 99.74% | L5 | Hold | Biologically implausible (B12/MTRR metabolic defect) — likely graph noise; recommend exclusion |
-| 7 | Lymphoid neoplasm | 99.71% | L2 | Research Question | Overly broad label; evidence overlaps substantially with existing ALL trials |
-| **8** | **Hodgkin lymphoma** | **99.71%** | **L2** | **Research Question** | **Primary candidate analyzed below — evidence base is largely ENKTL, not classic Hodgkin lymphoma** |
-| 9 | CLL/SLL | 99.68% | L5 | Hold | No evidence |
-| 10 | Blast-phase CML, BCR-ABL1+ | 99.61% | L3 | Research Question | Plausible only if lymphoid blast crisis; weak evidence (2 trials, 1 case report) |
+| 1 | Prekursorin lymfoblastinen lymfooma/leukemia | 99.96% | L1 | Jatka varauksilla | **Ei uusi indikaatio** — tämä on lääkkeen ydinperustakausi |
+| 2 | Pregerminalisen keskuksen CLL/SLL | 99.95% | L5 | Pidä odottamassa | Ei tutkimuksia/kirjallisuutta; mekanistisesti heikko (kypsät, hitaasti leviävät B-solut) |
+| 3 | CLL/SLL (IGHV-mutattu alaryhmä) | 99.95% | L5 | Pidä odottamassa | Sama kuin edellä |
+| 4 | Folliculaarinen lymfooma | 99.90% | L5 | Pidä odottamassa | Ei todisteita; indolenttigerminaalikeskus-lymfooma, heikko perusteltu |
+| 5 | Akuutti lymfoblastinen leukemia | 99.89% | L1 | Jatka varauksilla | **Ei uusi indikaatio** — sijoituksen 1 kaksikappale |
+| 6 | Metyylkobalamiiini puute (cblE) | 99.74% | L5 | Pidä odottamassa | Biologisesti epätodennäköinen (B12/MTRR metabolinen vika) — todennäköisesti graafisen melun kohinaa; suosita poissulkemista |
+| 7 | Lymfoidinen neoplasma | 99.71% | L2 | Tutkimuskysymys | Liian laaja merkintä; todisteet päällekkäin merkittävästi olemassa olevien ALL-tutkimusten kanssa |
+| **8** | **Hodgkinin lymfooma** | **99.71%** | **L2** | **Tutkimuskysymys** | **Analysoidaan pääkandidaattina alla — todistusperusta on pääosin ENKTL, ei klassinen Hodgkinin lymfooma** |
+| 9 | CLL/SLL | 99.68% | L5 | Pidä odottamassa | Ei todisteita |
+| 10 | Räjähdysvaiheen CML, BCR-ABL1+ | 99.61% | L3 | Tutkimuskysymys | Uskottava vain jos lymfoidinen räjähdyskriisi; heikko todistus (2 tutkimusta, 1 tapausselostus) |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Pegaspargase is a PEGylated form of *E. coli*-derived L-asparaginase. Malignant lymphoblasts in ALL/lymphoblastic lymphoma characteristically lack asparagine synthetase (ASNS) and depend on exogenous serum asparagine to sustain protein synthesis. Pegaspargase depletes plasma asparagine, selectively starving these malignant cells while sparing most normal tissues — a mechanism explicitly confirmed in the evidence pack's own rationale text, even though the drug-level `original_moa` field itself is marked as a data gap (DG002).
+Pegaspargase on PEGylöity *E. coli* -peräisen L-asparaginaasi muoto. Pahanlaatuiset lymfoblastit ALL:ssa/lymfoblastisessa lymfoomassa usein puuttuvat asparaginaasisyntaasista (ASNS) ja riippuvat ulkoisesta serumin asparaginasta proteiinisynteesin ylläpitämiseen. Pegaspargase kuluttaa plasma-asparaginiiä, selvästi nälkiintyttäen nämä pahanlaatuiset solut samalla kun säästävät useimmat normaali kudokset — mekanismi, joka on eksplisiittisesti vahvistettu todistepaketin omassa perustelutekstissä, vaikka lääke-tason `original_moa` kenttä itsessään on merkitty tiedon puutteeksi (DG002).
 
-Ranks 1 and 5 in this pack ("precursor lymphoblastic lymphoma/leukemia" and "acute lymphoblastic leukemia") are **not new hypotheses** — they are simply the drug's already-established indication being re-surfaced by the model with very high confidence. This is a useful model-calibration signal (it confirms TxGNN correctly recognizes Pegaspargase's real pharmacology) but has no repurposing value.
+Sijoitukset 1 ja 5 tässä paketissa ("prekursorin lymfoblastinen lymfooma/leukemia" ja "akuutti lymfoblastinen leukemia") ovat **eivät uusia hypoteeseja** — ne ovat yksinkertaisesti lääkkeen jo vakiintunutta indikaatiota, jota mallin tulee re-pinnaalla hyvin suurella luottamuksella. Tämä on hyödyllinen mallikalibration signaali (se vahvistaa, että TxGNN oikein tunnistaa pegaspargasen todellisen farmakologian) mutta sillä ei ole uudelleenkäytön arvoa.
 
-The most actionable **genuinely new** signal is rank 8. TxGNN's disease ontology labels it "Hodgkin lymphoma," but essentially all of the associated trials and papers (SMILE, P-GEMOX, GELOX, DDGP regimens) describe **Extranodal NK/T-cell Lymphoma (ENKTL)** — a mature NK/T-cell neoplasm that, like ALL, frequently shows low ASNS expression and is asparagine-dependent, giving a biologically coherent rationale for asparaginase-based therapy. ENKTL is biologically and clinically distinct from classic Hodgkin lymphoma, so this is very likely an **ontology/label mapping issue** rather than a genuine Hodgkin lymphoma signal. Because asparaginase-based regimens for ENKTL are already widely used in Asia-Pacific clinical practice (largely outside Western label indications), this represents a credible "old drug, already-adopted new use" story that merits formal indication/label clarification before further action.
+Eniten toimintakuntoinen **todella uusi** signaali on sijoitus 8. TxGNN:n sairauden ontologia merkitsee sen "Hodgkinin lymfoomaksi," mutta oleellisesti kaikki liittyvät tutkimukset ja artikkelit (SMILE, P-GEMOX, GELOX, DDGP skeemoja) kuvaavat **Ekstranodaalista NK/T-solu lymfoomaa (ENKTL)** — kypsän NK/T-solun neoplasma, joka, kuten ALL, usein osoittaa matalia ASNS ilmentymisen ja on asparaginiiiriippuvainen, antaen biologisesti johdonmukaisen perustelun asparaginaasipohjaisen hoidon kannalta. ENKTL on biologisesti ja kliinisesti erillään klassisesta Hodgkinin lymfoomasta, joten tämä on hyvin todennäköisesti **ontologia/merkintä kartoituksen ongelma** kuin todellinen Hodgkinin lymfooma signaali. Koska asparaginaasipohjaisia skeemoja ENKTL:lle käytetään jo laajalti Aasian ja Tyynenmeren alueella kliinisessä käytännössä (pääosin länsimaisten merkintöjen ulkopuolella), tämä edustaa uskottavaa "vanhaa lääkettä, jo käyttöön otettua uutta käyttöä" tarinaansa, joka ansaitsee muodollisen merkinnän/merkintä selvennyksen ennen lisätoimia.
 
 ---
 
-## Clinical Trial Evidence
+## Kliiniset tutkimustodisteet
 
-*(Trials shown are the evidence supporting the rank-8 candidate; nearly all study ENKTL rather than classic Hodgkin lymphoma — see caveat above.)*
+*(Alla esitetyt tutkimukset ovat todisteita, jotka tukevat sijoituksen 8 kandidaattia; lähes kaikki tutkivat ENKTL:ää eikä klassista Hodgkinin lymfoomaa — katso varoitus edellä.)*
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimuksen numero | Vaihe | Tila | Osallistujamäärä | Keskeisiä tuloksia |
 |---------|------|------|------|---------|
-| [NCT02085655](https://clinicaltrials.gov/study/NCT02085655) | Phase 3 | Unknown | 264 | Randomized comparison of PA-Gemox followed by thalidomide vs. AspaMetDex regimen in NKTCL |
-| [NCT02631239](https://clinicaltrials.gov/study/NCT02631239) | Phase 3 | Unknown | 256 | Etoposide/dexamethasone/pegaspargase ± methotrexate with sandwiched radiotherapy in stage I–II ENKTL, nasal type |
-| [NCT02359162](https://clinicaltrials.gov/study/NCT02359162) | Phase 3 | Terminated | 50 | Randomized P-Gemox vs. EPOCH as first-line chemotherapy in NK/T-cell lymphoma |
-| [NCT02918747](https://clinicaltrials.gov/study/NCT02918747) | Phase 2 | Unknown | 100 | Randomized P-Gemoxd + radiotherapy vs. P-CHOP + radiotherapy in early-stage ENKTL |
-| [NCT02533323](https://clinicaltrials.gov/study/NCT02533323) | Phase 2 | Terminated | 50 | Pegaspargase-Gemox (P-Gemox) as first-line therapy in newly diagnosed, nasal-type ENKTL |
-| [NCT06583083](https://clinicaltrials.gov/study/NCT06583083) | Phase 2 | Recruiting | 84 | Sintilimab (PD-1 antibody) + P-GEMOX vs. P-GEMOX alone in advanced-stage ENKTL |
-| [NCT02080234](https://clinicaltrials.gov/study/NCT02080234) | Phase 2 | Unknown | 40 | GELOX (gemcitabine/oxaliplatin/asparaginase) with concurrent radiotherapy in stage IE/IIE ENKTL |
-| [NCT02705508](https://clinicaltrials.gov/study/NCT02705508) | Phase 2 | Unknown | 35 | PEG-ASP + etoposide + gemcitabine (PEG regimen) as first-line therapy for NK/T-cell lymphoma |
-| [NCT07457177](https://clinicaltrials.gov/study/NCT07457177) | Phase 2 | Not yet recruiting | 40 | Golidocitinib + pegaspargase + anti-PD-1 antibody as first-line therapy for advanced ENKTL |
-| [NCT06953739](https://clinicaltrials.gov/study/NCT06953739) | Phase 3 | Not yet recruiting | 60 | Pegaspargase + P-GEMD vs. P-Gemox in untreated early-stage (non-upper-aerodigestive) or advanced ENKTL |
+| [NCT02085655](https://clinicaltrials.gov/study/NCT02085655) | Vaihe 3 | Tuntematon | 264 | Satunnaistettu PA-Gemox:in ja thalidomiidin sekä AspaMetDex-skeeman vertailu NKTCL:ssa |
+| [NCT02631239](https://clinicaltrials.gov/study/NCT02631239) | Vaihe 3 | Tuntematon | 256 | Etopositiidi/deksametasoni/pegaspargase ± metotreksaatti sandwitched säteilyhoidolla vaiheen I–II ENKTL:ssa, nenätyyppi |
+| [NCT02359162](https://clinicaltrials.gov/study/NCT02359162) | Vaihe 3 | Lopetettu | 50 | Satunnaistettu P-Gemox vs. EPOCH ensimmäisen linjan kemoterapiana NK/T-solulymfoomassa |
+| [NCT02918747](https://clinicaltrials.gov/study/NCT02918747) | Vaihe 2 | Tuntematon | 100 | Satunnaistettu P-Gemoxd + säteily vs. P-CHOP + säteily varhaisvaiheen ENKTL:ssa |
+| [NCT02533323](https://clinicaltrials.gov/study/NCT02533323) | Vaihe 2 | Lopetettu | 50 | Pegaspargase-Gemox (P-Gemox) ensimmäisen linjan hoitona uudisksi diagnosoidussa nenätyyppi ENKTL:ssa |
+| [NCT06583083](https://clinicaltrials.gov/study/NCT06583083) | Vaihe 2 | Rekrytoi | 84 | Sintilimab (PD-1 vasta-aine) + P-GEMOX vs. P-GEMOX yksin edistynyt-vaiheen ENKTL:ssa |
+| [NCT02080234](https://clinicaltrials.gov/study/NCT02080234) | Vaihe 2 | Tuntematon | 40 | GELOX (gemcitabiini/oksaliplatini/asparaginaasi) samanaikaisella säteilyhoidolla vaiheen IE/IIE ENKTL:ssa |
+| [NCT02705508](https://clinicaltrials.gov/study/NCT02705508) | Vaihe 2 | Tuntematon | 35 | PEG-ASP + etopositiidi + gemcitabiini (PEG skeema) ensimmäisen linjan hoitona NK/T-solulymfoomalle |
+| [NCT07457177](https://clinicaltrials.gov/study/NCT07457177) | Vaihe 2 | Ei vielä rekrytoimassa | 40 | Golidocitinibi + pegaspargase + anti-PD-1 vasta-aine ensimmäisen linjan hoitona edistynyt ENKTL:ssa |
+| [NCT06953739](https://clinicaltrials.gov/study/NCT06953739) | Vaihe 3 | Ei vielä rekrytoimassa | 60 | Pegaspargase + P-GEMD vs. P-Gemox kohdeltamattomassa varhaisvaiheen (ei ylempi-ilmaekeiskunetään) tai edistynyt ENKTL:ssa |
 
 ---
 
-## Literature Evidence
+## Kirjallisuustodisteet
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeisiä tuloksia |
 |------|-----|------|------|---------|
-| [27723108](https://pubmed.ncbi.nlm.nih.gov/27723108/) | 2017 | RCT | Hematological Oncology | Phase 2 multicenter trial of MESA (methotrexate/etoposide/dexamethasone/pegaspargase) in newly diagnosed, relapsed, or refractory ENKTL, nasal type; CR 43.5%, ORR 87% |
-| [34449095](https://pubmed.ncbi.nlm.nih.gov/34449095/) | 2021 | Cohort | American Journal of Hematology | Multicenter study of sequential P-GEMOX + radiotherapy in early-stage ENKTL |
-| [29194798](https://pubmed.ncbi.nlm.nih.gov/29194798/) | 2018 | Cohort | European Journal of Haematology | Multicenter retrospective study of GELOXD/P-GEMOXD efficacy and tolerance in newly diagnosed nasal-type ENKTL |
-| [2345067](https://pubmed.ncbi.nlm.nih.gov/2345067/) | 1990 | Review/Phase 2 | Investigational New Drugs | Phase 2 trial of PEG-L-asparaginase in refractory non-Hodgkin lymphoma (21 patients) |
-| [30241515](https://pubmed.ncbi.nlm.nih.gov/30241515/) | 2018 | Cohort | BMC Cancer | PEG-L-CHOP regimen shown safe and effective in adult ENKTL with low hypersensitivity rate |
-| [24299319](https://pubmed.ncbi.nlm.nih.gov/24299319/) | 2014 | Case Series | Neoplasma | DDGP regimen (pegaspargase/dexamethasone/cisplatin/gemcitabine) in newly diagnosed ENKTL |
-| [37486391](https://pubmed.ncbi.nlm.nih.gov/37486391/) | 2023 | Cohort | Annals of Hematology | "Sandwich" modified SMILE regimen (including pegaspargase) in pediatric newly diagnosed ENKTL |
-| [29764116](https://pubmed.ncbi.nlm.nih.gov/29764116/) | 2019 | Cohort | Cancer Research and Treatment | Low circulating CD4+ T-cell count predicts poor prognosis in ENKTL treated with pegaspargase-based chemotherapy |
-| [19786301](https://pubmed.ncbi.nlm.nih.gov/19786301/) | 2010 | Case Report | Leukemia Research | Two ENKTL patients refractory to CHOP responded to single-agent pegaspargase |
-| [8481665](https://pubmed.ncbi.nlm.nih.gov/8481665/) | 1993 | Review | Leukemia & Lymphoma | Historical review of L-asparaginase/PEG-asparaginase development and lymphoid-malignancy applications |
+| [27723108](https://pubmed.ncbi.nlm.nih.gov/27723108/) | 2017 | RCT | Hematological Oncology | Vaihe 2 monikeeskisen MESA:n (metotreksaatti/etopositiidi/deksametasoni/pegaspargase) tutkimus uudisksy diagnosoidussa, uusiutuneessa tai vastustuksessa olevassa nenätyyppi ENKTL:ssa; CR 43.5%, ORR 87% |
+| [34449095](https://pubmed.ncbi.nlm.nih.gov/34449095/) | 2021 | Kohortti | American Journal of Hematology | Monikeeskinen peräkkäisen P-GEMOX + säteilyn tutkimus varhaisvaiheen ENKTL:ssa |
+| [29194798](https://pubmed.ncbi.nlm.nih.gov/29194798/) | 2018 | Kohortti | European Journal of Haematology | Monikeeskinen retrospektiivinen GELOXD/P-GEMOXD tehokkuuden ja siedettävyyden tutkimus uudisksy diagnosoidussa nenätyyppi ENKTL:ssa |
+| [2345067](https://pubmed.ncbi.nlm.nih.gov/2345067/) | 1990 | Katsaus/Vaihe 2 | Investigational New Drugs | Vaihe 2 PEG-L-asparaginaasi tutkimus vastustuksessa olevassa non-Hodgkin lymfoomassa (21 potilasta) |
+| [30241515](https://pubmed.ncbi.nlm.nih.gov/30241515/) | 2018 | Kohortti | BMC Cancer | PEG-L-CHOP skeema osoitettiin turvalliseksi ja tehokkaaksi aikuisen ENKTL:ssa alhaisen yliherkkyyden kanssa |
+| [24299319](https://pubmed.ncbi.nlm.nih.gov/24299319/) | 2014 | Tapaussarja | Neoplasma | DDGP skeema (pegaspargase/deksametasoni/sisplaatini/gemcitabiini) uudisksy diagnosoidussa ENKTL:ssa |
+| [37486391](https://pubmed.ncbi.nlm.nih.gov/37486391/) | 2023 | Kohortti | Annals of Hematology | "Sandwich" modifioitu SMILE skeema (sisältäen pegaspargasen) pediatrisessa uudisksy diagnosoidussa ENKTL:ssa |
+| [29764116](https://pubmed.ncbi.nlm.nih.gov/29764116/) | 2019 | Kohortti | Cancer Research and Treatment | Matala kiertävä CD4+ T-solun lukumäärä ennustaa huonoa ennustetta ENKTL:ssä, jota käsitellään pegaspargase-pohjaisella kemoterapialla |
+| [19786301](https://pubmed.ncbi.nlm.nih.gov/19786301/) | 2010 | Tapausselostus | Leukemia Research | Kaksi CHOP-vastustuksessa olevaa ENKTL potilasta vastasivat yksittäiseen pegaspargaasiin |
+| [8481665](https://pubmed.ncbi.nlm.nih.gov/8481665/) | 1993 | Katsaus | Leukemia & Lymphoma | Historiallinen L-asparaginaasi/PEG-asparaginaasi kehityksen ja lymfoidisen-malignanssin sovellusten katsaus |
 
 ---
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Pegaspargase currently holds **no marketing authorization in Finland** (`market_status: Not Marketed`, `total_licenses: 0`). No product listings, dosage forms, or approved indication text were available in this evidence pack for the Finnish market.
+Pegaspargase:lla ei ole tällä hetkellä **myyntilupaa Suomessa** (`market_status: Not Marketed`, `total_licenses: 0`). Mitään tuotetietoja, annosmuotoja tai hyväksyttyjä merkintötekstejä ei ollut saatavilla tässä todistepakettissa Suomen markkinoille.
 
 ---
 
-## Cytotoxicity
+## Sytotoksisuus
 
-Pegaspargase is an antineoplastic agent used exclusively within combination chemotherapy regimens for hematologic malignancies, so this section applies.
+Pegaspargase on antineoplastinen lääke, jota käytetään yksinomaan monilääkkeisen kemoterapian yhteydessä hemaattisissa malignansseissa, joten tämä osio koskee.
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic — enzyme-based, asparagine-depleting agent (not a DNA-damaging cytotoxic; mechanism is metabolic/protein-synthesis inhibition) |
-| Myelosuppression Risk | Low to Moderate as monotherapy — asparaginase itself is not strongly myelosuppressive, but it is invariably combined with myelosuppressive agents (vincristine, anthracyclines, cytarabine, etc.) in ALL/ENKTL regimens, and combination-regimen myelosuppression is well documented in the literature evidence above |
-| Emetogenicity Classification | Low (asparaginase-class agents are generally classified as low emetogenic risk) |
-| Monitoring Items | Liver function tests (hepatotoxicity), lipid panel/triglycerides (hypertriglyceridemia), coagulation parameters — fibrinogen, antithrombin (thrombosis/bleeding risk), amylase/lipase (pancreatitis), blood glucose (hyperglycemia), and hypersensitivity monitoring; CBC with differential per standard combination-regimen practice |
-| Handling Protection | Yes — must be handled under standard cytotoxic/hazardous drug handling precautions (closed-system transfer, PPE) |
+| Sytotoksisuuden luokitus | Perinteinen sytotoksinen — entsyymin pohjainen, asparaginiiniekuluttava aine (ei DNA-vaurioittava sytotoksinen; mekanismi on metabolinen/proteiinisynteesin estäminen) |
+| Luuytimen tukahduttamisen riski | Alhainen - kohtalainen yksinään käytettäessä — asparaginaasi itsessään ei ole vahvasti luuytimen tukahduttava, mutta se yhdistetään väistämättä luuytimen tukahduttaviin aineisiin (vinkristiini, antrasykliinit, sytarbiini, jne.) ALL/ENKTL skeemoissa, ja yhdistelmäskeeman luuytimen tukahduttaminen on hyvin dokumentoitu yllä olevassa kirjallisuustodisteissa |
+| Pahoinvoinnin aiheuttamiskyky | Matala (asparaginaasi-luokan lääkkeet on yleensä luokiteltu matalaksi pahoinvoinnin aiheuttamisrisikiksi) |
+| Monitoroinnin kohteita | Maksan toiminnon testit (maksatoksisuus), rasva-arvojen mittaus/triglyseeridit (hypertriglyseridemia), hyytymisparametrit — fibrinogeeni, antitrombiini (tromboosin/verenvuodon riski), amylaasi/lipaasin (pankreatiitti), verensokeri (hyperglykemia) ja yliherkkyys seuranta; verensolujen laskenta (CBC) erotusvärityksellä tavallisen yhdistelmäskeeman käytännön mukaan |
+| Käsittelysuojaus | Kyllä — täytyy käsitellä vakio-sytotoksisen/vaarallisen lääkkeen käsittelystandardien mukaisesti (suljettu järjestelmän siirto, henkilösuojaimet) |
 
-*(Toxicity items above are derived from literature evidence within this pack — e.g., pancreatitis, hypertriglyceridemia, and hepatotoxicity case reports/cohorts identified for pegaspargase — since DrugBank-level toxicity/warning data was not directly available in this evidence pack.)*
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Both `key_warnings` and `contraindications` were marked as data gaps, and the DDI query returned no results in this evidence pack. Note separately: Data Gap DG001 flags that TFDA/Fimea package-insert warnings and contraindications are a **Blocking**-severity gap — this must be resolved before any S1 safety pre-assessment can proceed, regardless of the efficacy evidence level discussed above.)*
+*(Yllä olevat myrkyllisyyden kohdat ovat johdettu tämän paketin kirjallisuustodisteista — esim. pankreatiitti, hypertriglyseridemia ja pegaspargasen hepatotoksisuus tapaussarjat/kohorteista — koska DrugBank-tason toksisuus/varoitustiedot eivät olleet suoraan saatavilla tässä todistepakettissa.)*
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuushuomiot
 
-**Decision: Research Question**
+Viitatkaa pakkausselosteeseen turvallisuustiedoista.
 
-**Rationale:**
-- Two of this pack's top predictions (ranks 1 and 5) merely restate Pegaspargase's existing approved use and carry no repurposing value; several others (ranks 2, 3, 4, 6, 9) have no supporting clinical or literature evidence and are likely model noise, including one (cblE, rank 6) that is biologically implausible.
-- The only credible new-use signal (rank 8) is confounded by a disease-label mismatch — real-world evidence supports **Extranodal NK/T-cell Lymphoma**, not classic Hodgkin lymphoma — and while the ENKTL evidence base is genuinely substantial (L2, 18 trials, 20 publications, including Phase 3 RCTs), it cannot be scored or acted on correctly until the disease-label mapping is verified.
-- Separately, this candidate is currently gated by a **Blocking**-severity data gap (DG001: missing TFDA/Fimea package-insert warnings/contraindications), which prevents any safety pre-assessment regardless of efficacy evidence quality.
+*(Sekä `key_warnings` että `contraindications` merkittiin tiedon puutteeksi, ja lääkkeiden väliset vuorovaikutuskyselyt eivät tuottaneet tuloksia tässä todistepakettissa. Huomaa erikseen: Tiedon puute DG001 ilmoittaa, että TFDA/Fimea pakkausselosteen varoitukset ja vasta-aiheet ovat **Estävän**-vakavuusaste puute — tämä täytyy ratkaista ennen kuin mitään S1 turvallisuuden esitutkimusta voidaan jatkaa, riippumatta yllä käsitellystä tehokkuuden todistustasosta.)*
 
-**To proceed, the following is needed:**
-- Verify and correct the disease-ontology mapping for the rank-8 prediction (confirm ENKTL vs. classic Hodgkin lymphoma before any further scoring)
-- Obtain TFDA/Fimea package insert (warnings, contraindications) to resolve the blocking safety data gap (DG001)
-- Obtain formal DrugBank/MOA documentation to resolve the MOA data gap (DG002)
-- If ENKTL is confirmed as the intended target indication, request updated evidence retrieval using "extranodal NK/T-cell lymphoma" as the disease query term rather than "Hodgkin lymphoma"
-- Given zero current Finland marketing authorization, evaluate feasibility/regulatory pathway before any repurposing program is initiated
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Tutkimuskysymys**
+
+**Perustelut:**
+- Kaksi tämän paketin huipuista ennustetta (sijoitukset 1 ja 5) toistavat yksinkertaisesti pegaspargasen olemassa olevaa hyväksyttyä käyttöä ja ne eivät ole uudelleenkäytön arvoa; useat muut (sijoitukset 2, 3, 4, 6, 9) eivät ole tutkimus- tai kirjallisuustodisteita ja ovat todennäköisesti mallin kohinaa, mukaan lukien yksi (cblE, sijoitus 6), joka on biologisesti epätodennäköinen.
+- Ainoa uskottava uuden käytön signaali (sijoitus 8) on sekoitettu sairauden merkinnän ristiriidasta — todellisen maailman todisteet tukevat **Ekstranodaalista NK/T-solu lymfoomaa**, ei klassista Hodgkinin lymfoomaa — ja vaikka ENKTL todistusperusta on todella merkittävä (L2, 18 tutkimusta, 20 julkaisua, mukaan lukien Vaihe 3 RCT:t), sitä ei voida arvioida tai toimia oikein, kunnes sairauden merkinnän kartoitus on varmennettu.
+- Erikseen, tämä kandidaatti on tällä hetkellä estetty **Estävän**-vakavuusaste tiedon puutteella (DG001: puuttuva TFDA/Fimea pakkausseloste varoitukset/vasta-aiheet), mikä estää minkä tahansa turvallisuus esitutkimusta riippumatta tehokkuuden todistusten laadusta.
+
+**Jatkamiseksi tarvitaan seuraavaa:**
+- Varmentaa ja korjata sijoituksen 8 ennusteen sairauden ontologian kartoitus (vahvistaa ENKTL vs. klassinen Hodgkinin lymfooma ennen mitään lisäarvioita)
+- Hankkia TFDA/Fimea pakkausseloste (varoitukset, vasta-aiheet) tiedon puutteen (DG001) ratkaisemiseksi
+- Hankkia muodollinen DrugBank/MOA dokumentaatio tiedon puutteen (DG002) ratkaisemiseksi
+- Jos ENKTL vahvistetaan aiotuksi kohde-indikaatioksi, pyydä päivitettyä todisteiden hakua käyttäen "ekstranodaalinen NK/T-solulymfooma" sairauden kyselytermina "Hodgkinin lymfooma" sijasta
+- Koska markkinointi on nolla Suomessa tällä hetkellä, arvioi toteutettavuus/sääntelyn polku ennen uudelleenkäyttöohjelman aloittamista
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

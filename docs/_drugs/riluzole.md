@@ -29,73 +29,72 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-已根據 Evidence Pack 產生報告。**說明一點資料選擇邏輯**：`predicted_indications` 陣列第一筆（多囊腦回畸形，L5/Hold）完全無證據支持且與 riluzole 機轉無合理連結；反觀 rank 8「ALS, susceptibility to」是全部 10 筆預測中唯一有 20 篇文獻佐證、evidence_level 達 L1、decision_stage 達 S3 的項目，且 repurposing_rationale 明確指出「應以真實世界已知核准狀態為準」。因此本報告以 rank 8 作為主要預測適應症，而非機械套用陣列索引 0。
+Raportti on luotu Evidence Pack -paketin perusteella. **Tietojen valintalogiikan selitys**: `predicted_indications` -taulukon ensimmäinen merkintä (polymikrogyria, L5/Hold) vastaavat täysin ilman näyttötutkimuksellista tukea eikä siihen liity järkevää yhteyttä rilutsoliin toimintamekanismiin; sitä vastoin rank 8 "ALS, susceptibility to" on ainoa kaikista 10 ennusteesta, jolla on 20 julkaisun tuki, evidence_level saavuttaa L1:n ja decision_stage saavuttaa S3:n, ja repurposing_rationale ilmoittaa selvästi "tulee käyttää todellisen maailman tunnettua hyväksynnän statusta". Siksi tämä raportti käyttää rank 8:aa pääasiallisena ennustetuotena indikaationa mekaanisen taulukko-indeksin 0 sijaan.
 
 ---
 
-# Riluzole: From Amyotrophic Lateral Sclerosis (ALS) to ALS Genetic Susceptibility Subtype
+# Rilutsooli: amyotrofisesta lateraaaliskleroosista (ALS) ALS-geneettisen alttius-alaryhmään
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Riluzole is a glutamate-release inhibitor and sodium-channel blocker whose real-world approved use is classic amyotrophic lateral sclerosis (ALS), where it modestly extends survival.
-The TxGNN model additionally predicts benefit in **ALS, susceptibility to** — a genetically-defined ALS subtype —
-with **0 clinical trials** and **20 publications** currently supporting the underlying disease biology and riluzole's mechanism, though none are subtype-specific.
+Rilutsooli on glutamaatin vapautumisen estäjä ja natrium-kanavablokkeri, jonka todellinen hyväksytty käyttö on klassinen amyotrofinen lateraaliskleroosi (ALS), jossa se pidentää eloonjäämistä vaatimattomasti. TxGNN-malli ennustaa lisäksi hyötyä **ALS:n alttiudessa** — geneettisesti määritellylle ALS-alaryhmälle — tällä hetkellä **0 kliinisen tutkimuksen** ja **20 julkaisun** tuella, jotka tukevat taustalla olevaa taudin biologiaa ja rilutsoliin mekanismia, vaikka yksikään ei ole alaryhmäkohtainen.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Amyotrophic Lateral Sclerosis (real-world approved use since 1995; not captured in this dataset's licensing records — data gap) |
-| Predicted New Indication | Amyotrophic Lateral Sclerosis, susceptibility to |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L1 |
-| Finland Market Status | ✗ Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Alkuperäinen indikaatio | Amyotrofinen lateraaliskleroosi (todellinen hyväksytty käyttö vuodesta 1995 lähtien; ei tallennettu tämän tietojoukon sääntelytietoihin — tietoaukko) |
+| Ennustettu uusi indikaatio | Amyotrofinen lateraaliskleroosi, alttius |
+| TxGNN-ennustepistemäärä | 99.98% |
+| Näyttötaso | L1 |
+| Suomen markkinatilanne | ✗ Ei markkinoilla (Ei markkinoilla) |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Etene varoituskokeineen |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, detailed mechanism of action data is not available in this dataset (original_moa is a data gap). Based on known information, riluzole inhibits presynaptic glutamate release and blocks voltage-gated sodium channels, reducing excitotoxic injury to motor neurons — this is the same core pathological process (glutamate excitotoxicity) implicated in ALS motor neuron degeneration.
+Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla tässä tietojoukossa (original_moa on tietoaukko). Tunnettujen tietojen perusteella rilutsooli estää presynaptisen glutamaatin vapautumisen ja estää jännitteestä riippuvia natriumkanavia, mikä vähentää eksitotoksisia vaurioita motoneuroneissa — tämä on sama peruspatologinen prosessi (glutamaatin eksitotoksisuus), joka liittyy ALS-motoreuronien rapautumiseen.
 
-"ALS, susceptibility to" refers to a genetically-defined subtype of the same disease entity as classic ALS, differing mainly in causative gene rather than in core pathophysiology. Riluzole's approved indication is not currently subdivided by genetic subtype, and in clinical practice patients with genetically-linked ALS are typically treated with the same standard-of-care riluzole regimen as sporadic ALS.
+"ALS:n alttius" viittaa geneettisesti määriteltyyn saman sairauden alaryhmään kuin klassinen ALS, joka eroaa pääasiassa aiheuttavassa geenissä, mutta ydinpatofysiologia on sama. Rilutsoliin hyväksytty indikaatio ei tällä hetkellä ole jaettu geneettisiin alaryhmiin, ja kliinisessä käytännössä potilaita, joilla on geneettisesti linkittynyt ALS, käsitellään yleensä samalla standardi rilutsooli-regiimillä kuin sporadisen ALS:n potilaita.
 
-The supporting literature in this evidence pack is disease-mechanism literature (glutamate excitotoxicity, motor neuron degeneration, riluzole's established but modest survival benefit) rather than subtype-specific trials, so the mechanistic extrapolation from classic ALS to this genetic subtype is reasonable but indirect.
+Tämän todistepaketin tukeva kirjallisuus on sairauden mekanismia koskeva kirjallisuus (glutamaatin eksitotoksisuus, motoreuronien rapautuminen, rilutsoliin vakiintunut mutta vaatimaton selviytymisetu) pikemminkin kuin alaryhmäkohtaiset kliiniset tutkimukset, joten mekaaninen ekstrapolaatio klassisesta ALS:sta tähän geneettiseen alaryhmään on järkevää mutta epäsuoraa.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-Currently no related clinical trials registered
+Tällä hetkellä yhtään asiaan liittyvää kliinistä tutkimusta ei ole rekisteröity
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [21128691](https://pubmed.ncbi.nlm.nih.gov/21128691/) | 2011 | Review | CNS Drugs | Confirms riluzole is the only medication shown to modestly prolong ALS survival; reviews pathophysiology and management |
-| [19593125](https://pubmed.ncbi.nlm.nih.gov/19593125/) | 2009 | Review | Current Opinion in Neurology | Notes riluzole remains the only drug with proven efficacy in ALS despite intensive research into other therapies |
-| [22646982](https://pubmed.ncbi.nlm.nih.gov/22646982/) | 2011 | Review (preclinical drug development) | Expert Opinion on Drug Discovery | Riluzole is the only approved ALS therapeutic, improving survival by 2-3 months; highlights unmet need for new agents |
-| [20942785](https://pubmed.ncbi.nlm.nih.gov/20942785/) | 2010 | Review | CNS & Neurological Disorders Drug Targets | Riluzole is the only available ALS drug; reviews genetic determinants (e.g. SOD1) as future therapeutic targets |
-| [9178165](https://pubmed.ncbi.nlm.nih.gov/9178165/) | 1997 | Review (mechanism) | Journal of Neurology | Foundational review of the "glutamate hypothesis" of motor neuron injury underlying ALS |
-| [8061281](https://pubmed.ncbi.nlm.nih.gov/8061281/) | 1994 | pending | Neuroreport | Shows riluzole exerts neuroprotective effects against excitotoxic CSF factors from ALS patients in neuronal culture |
-| [31108504](https://pubmed.ncbi.nlm.nih.gov/31108504/) | 2019 | pending | Human Molecular Genetics | iPSC-derived motor neurons from ALS patients (C9orf72, FUS, SOD1, TDP43 mutations) show altered calcium/glutamate receptor dynamics; riluzole's mechanism is glutamatergic inhibition and calcium regulation |
-| [16723044](https://pubmed.ncbi.nlm.nih.gov/16723044/) | 2006 | Review | Expert Reviews in Molecular Medicine | Reviews proposed ALS mechanisms (oxidative stress, excitotoxicity, mitochondrial dysfunction, protein aggregation) and treatment pathways |
-| [20942786](https://pubmed.ncbi.nlm.nih.gov/20942786/) | 2010 | Review | CNS & Neurological Disorders Drug Targets | Reviews ALS diagnosis, pathogenesis, and therapeutic targets in the motor neuron system |
-| [20698807](https://pubmed.ncbi.nlm.nih.gov/20698807/) | 2011 | pending | Amyotrophic Lateral Sclerosis | Critical appraisal of ALS therapeutic trials; notes riluzole (glutamate metabolism modulator) is the only drug improving survival, albeit modestly |
+| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät havainnot |
+|------|------|--------|------|---------|
+| [21128691](https://pubmed.ncbi.nlm.nih.gov/21128691/) | 2011 | Katsaus | CNS Drugs | Vahvistaa, että rilutsooli on ainoa lääkitys, jolla on osoittautunut pidentävän ALS-potilaan selviytymistä vaatimattomasti; käsittelee patofysiologiaa ja hoitoa |
+| [19593125](https://pubmed.ncbi.nlm.nih.gov/19593125/) | 2009 | Katsaus | Current Opinion in Neurology | Huomauttaa, että rilutsooli pysyy ainoana lääkkeenä, jolla on todistettu teho ALS:ssa, vaikka muista hoitomuodoista tehdään intensiivistä tutkimusta |
+| [22646982](https://pubmed.ncbi.nlm.nih.gov/22646982/) | 2011 | Katsaus (prekliininen lääkkeiden kehittäminen) | Expert Opinion on Drug Discovery | Rilutsooli on ainoa hyväksytty ALS-lääke, joka pidentää selviytymistä 2-3 kuukaudella; korostaa tyydyttämättömän tarpeen uusille lääkkeille |
+| [20942785](https://pubmed.ncbi.nlm.nih.gov/20942785/) | 2010 | Katsaus | CNS & Neurological Disorders Drug Targets | Rilutsooli on ainoa saatavilla oleva ALS-lääke; käsittelee geneettisiä tekijöitä (esim. SOD1) tulevien terapeuttisten kohteiden näkökulmasta |
+| [9178165](https://pubmed.ncbi.nlm.nih.gov/9178165/) | 1997 | Katsaus (mekanismi) | Journal of Neurology | Perustavanlaatuinen katsaus ALS:n motoreuroneihin kohdistuvaa vaaraa aiheuttavasta "glutamaatista hypoteesista" |
+| [8061281](https://pubmed.ncbi.nlm.nih.gov/8061281/) | 1994 | odottava | Neuroreport | Osoittaa, että rilutsooli käyttäytyi neuroprotektiivisesti ALS-potilaiden eksitotoksisia CSF-tekijöitä vastaan hermosoluviljelyssä |
+| [31108504](https://pubmed.ncbi.nlm.nih.gov/31108504/) | 2019 | odottava | Human Molecular Genetics | iPSC-johdannaiset motoneuronit ALS-potilaista (C9orf72, FUS, SOD1, TDP43 mutaatiot) osoittavat muutuneita kalsium-/glutamaattireceptori-dynamiikkaa; rilutsoliin mekanismi on glutamaatterginen estäminen ja kalsiumin sääntely |
+| [16723044](https://pubmed.ncbi.nlm.nih.gov/16723044/) | 2006 | Katsaus | Expert Reviews in Molecular Medicine | Käsittelee ehdotettuja ALS-mekanismeja (hapettava stressi, eksitotoksisuus, mitokondrion toimintahäiriöt, proteiinin aggregaatio) ja hoitoväyliä |
+| [20942786](https://pubmed.ncbi.nlm.nih.gov/20942786/) | 2010 | Katsaus | CNS & Neurological Disorders Drug Targets | Käsittelee ALS-diagnoosia, patogeneesia ja terapeuttisia kohteita motoreuronijärjestelmässä |
+| [20698807](https://pubmed.ncbi.nlm.nih.gov/20698807/) | 2011 | odottava | Amyotrophic Lateral Sclerosis | Kriittinen arvio ALS-terapeuttisista tutkimuksista; huomauttaa, että rilutsooli (glutamaatin aineenvaihdunnan modulaattori) on ainoa lääke, joka parantaa selviytymistä, vaikkakin vaatimattomasti |
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information.
+Turvallisustiedot löytyvät pakkausselosteesta.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Proceed with Guardrails**
+**Päätös: Etene varoituskokeineen**
 
-**Rationale:**
-The mechanistic link between riluzole's known anti-excitotoxic action and ALS-spectrum pathology is well established in the general ALS literature, and this specific genetic-susceptibility subtype shares the same core pathophysiology as classic ALS for which riluzole is already real-world standard of care. However, no subtype-specific trial or DDI/safety data exists in this dataset, and a TFDA package insert review is flagged as a **Blocking** data gap that must be resolved before any S1 safety evaluation.
+**Perustelut:**
+Rilutsoliin tunnetun anti-eksitotoksisen vaikutuksen ja ALS-spektrin patologian välinen mekaaninen yhteys on hyvin vakiintunut yleisessä ALS-kirjallisuudessa, ja tämä erityinen geneettisen alttiuden subtyyppi jakaa saman ydinpatofysiologian klassisen ALS:n kanssa, jolle rilutsooli on jo todellisen maailman hoitostandardi. Subtyyppikohtaista tutkimusta, DDI/turvallisuustietoja ei kuitenkaan ole saatavilla tässä tietojoukossa, ja TFDA-pakkausselosteen tarkistus on merkitty **blokaavaksi** tietoaukoksi, joka on ratkaistava ennen S1-turvallisuusarviointia.
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings/contraindications) — currently blocking (DG001)
-- Confirmed mechanism of action (MOA) source via DrugBank API — currently a data gap (DG002)
-- Subtype-specific clinical evidence for "ALS, susceptibility to" (currently none registered)
-- Confirmation of riluzole's real-world approved indication/licensing status, since it is absent from this dataset's Taiwan/Finland regulatory records despite being an established ALS therapy
+**Jatkaaksemme tarvitaan seuraavaa:**
+- TFDA-pakkausseloste (varoitukset/vasta-indikaatiot) — tällä hetkellä blokaava (DG001)
+- Vahvistettu toimintamekanismi (MOA) DrugBank API:n kautta — tällä hetkellä tietoaukko (DG002)
+- Alaryhmäkohtainen kliininen näyttö "ALS, susceptibility to" -osoituksesta (tällä hetkellä yhtään ei ole rekisteröity)
+- Rilutsoliin todellisen maailman hyväksytyn indikaation/lisensointitilan vahvistus, koska se puuttuu tämän tietojoukon Taiwanin/Suomen sääntely-tietueista huolimatta siitä, että se on vakiintunut ALS-hoito
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

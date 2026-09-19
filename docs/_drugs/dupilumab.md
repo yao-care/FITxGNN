@@ -29,86 +29,87 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Dupilumab: From Atopic Dermatitis to Bronchitis
+# Dupilumab: Atooppisesta dermatitista keuhkoputkentulehdukseen
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Dupilumab is a human monoclonal antibody targeting IL-4Rα that blocks IL-4/IL-13 signaling; per the evidence captured in this dataset, it has established use in Th2-driven inflammatory diseases such as atopic dermatitis, asthma, and eosinophilic COPD. The TxGNN model predicts it may also be effective for **Bronchitis**, but this is currently supported by only **1 clinical trial** (with a disease-label mismatch flag) and **6 publications**, most of which actually address asthma or COPD rather than bronchitis specifically.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not recorded in this dataset (no Finland marketing licenses on file); literature evidence in this pack indicates the drug is approved for atopic dermatitis, asthma, and eosinophilic COPD |
-| Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.92% (rank 1226) |
-| Evidence Level | L3 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Dupilumab on ihmisen monoklonaalinen vasta-aine, joka kohdistuu IL-4Rα-reseptoriin ja estää IL-4/IL-13-signalointia. Tämän aineiston perusteella sillä on vakiintunut käyttö Th2-välitteisissa inflammatorisissa sairauksissa, kuten atooppisessa dermatitissa, astmassa ja eosinofiilistä COPD:ssa. TxGNN-malli ennustaa, että se saattaa olla tehokas myös **keuhkoputkentulehduksessa**, mutta sitä tukee tällä hetkellä vain **1 kliininen tutkimus** (jonka indikaatioissa on ristiriita) ja **6 julkaisua**, joista useimmat käsittelevät itse asiassa astmaa tai COPD:ta pikemminkin kuin keuhkoputkentulehdusta.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Pikayleiskatsaus
 
-Currently, detailed mechanism of action data is not available in the structured drug record (`original_moa: [Data Gap]`). Based on information embedded in the supporting literature, dupilumab is a fully human IgG4 monoclonal antibody that binds the shared IL-4Rα subunit, blocking downstream signaling of interleukin-4 and interleukin-13 — the key cytokines driving Th2/type-2 airway and skin inflammation. Its efficacy in Th2-driven diseases (atopic dermatitis, moderate-to-severe asthma, eosinophilic COPD) is well documented in the evidence pack.
-
-Bronchitis — particularly chronic or eosinophilic bronchitis — can share the same Th2/eosinophilic inflammatory pathway seen in asthma and COPD exacerbations, which is the mechanistic basis for the TxGNN prediction. However, "bronchitis" as a standalone diagnostic label is broader and less specific than asthma or COPD, and the trial/literature evidence retrieved for this indication is largely borrowed from adjacent, better-studied conditions rather than bronchitis itself.
-
-Critically, the single retrieved clinical trial (NCT04362501) was graded **C (data mismatch)** by the relevance review — its actual target population is chronic rhinosinusitis without nasal polyps (CRSsNP), not bronchitis, sharing only the underlying Th2 mechanism. This means the mechanistic rationale is plausible, but direct, disease-specific clinical evidence for bronchitis is currently lacking.
+| Kohde | Sisältö |
+|------|--------|
+| Alkuperäinen käyttöaihe | Ei kirjattu tähän aineistoon (suomalaisia myyntilupauksia ei ole saatavilla); tämän paketin kirjallisuustodisteena osoitetaan, että lääke on hyväksytty atooppiseen dermatitiin, astmaan ja eosinofiilistä COPD:han |
+| Ennustettu uusi käyttöaihe | Keuhkoputkentulehdus |
+| TxGNN-ennusteen pistemäärä | 99.92% (sijoitus 1226) |
+| Todistusaste | L3 |
+| Suomen markkinatila | ✗ Ei markkinoinnissa |
+| Valtuuksien lukumäärä | 0 |
+| Suositeltu päätös | Pidätä |
 
 ---
 
-## Clinical Trial Evidence
+## Miksi tämä ennuste on perusteltu?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Tällä hetkellä yksityiskohtaiset toimintamekanismin tiedot eivät ole saatavilla strukturoidussa lääketietueessa (`original_moa: [Tietoaukko]`). Tukevan kirjallisuuden perusteella dupilumab on täysin ihmisen IgG4-monoklonaalinen vasta-aine, joka sitoutuu jakoon IL-4Rα ja estää interleukinan-4 ja interleukinan-13 aiheuttaman signaloinnin — pääkytokiinit, jotka ohjaavat Th2/tyypin-2 ilmaväylä- ja ihotulehdusta. Sen tehokkuus Th2-välitteisissa sairauksissa (atooppinen dermatitis, keskivaikea-vaikea astma, eosinofiilistä COPD) on hyvin dokumentoitu todistepaketissa.
+
+Keuhkoputkentulehdus — erityisesti pitkittynyt tai eosinofiilistä keuhkoputkentulehdus — voi jakaa saman Th2/eosinofiilijohtoisen inflammaatiota-reitin, jota nähdään astmassa ja COPD:n äkäyksissä, mikä on TxGNN-ennusteen mekanistinen perusta. Kuitenkin "keuhkoputkentulehdus" erillisen diagnostisena merkintänä on laajempi ja epäspesifisempi kuin astma tai COPD, ja sairauksiin kohdistuvat tutkimus- ja kirjallisuustodisteet on pääosin lainattu vierekkäisistä, paremmin tutkituista sairauksista pikemminkin kuin keuhkoputkentulehduksesta itsestään.
+
+Kriittisesti ainoa haettu kliininen tutkimus (NCT04362501) arvioitiin **C (tietojen epäsuhta)** relevanssitarkistuksessa — sen todellinen kohdepopulaatio on krooninen rinosinusiitti ilman nenäpolyypejä (CRSsNP), ei keuhkoputkentulehdus, ja se jakaa vain taustalla olevan Th2-mekanismin. Tämä tarkoittaa, että mekanistinen perusteltu on uskottava, mutta suoria, sairauksiin kohdistuvia kliinisiä todistetta keuhkoputkentulehduksesta puuttuu tällä hetkellä.
+
+---
+
+## Kliinisen tutkimuksen todisteet
+
+| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset tulokset |
 |---------|------|------|------|---------|
-| [NCT04362501](https://clinicaltrials.gov/study/NCT04362501) | Phase 2 | Completed | 33 | Randomized, double-blind, placebo-controlled study of dupilumab for chronic rhinosinusitis without nasal polyps (CRSsNP) — **relevance grade C**: actual target disease is CRSsNP, not bronchitis; only shares Th2 inflammatory mechanism, flagged as a data-label mismatch |
+| [NCT04362501](https://clinicaltrials.gov/study/NCT04362501) | Vaihe 2 | Valmis | 33 | Satunnaistettu, kaksoissokea, lumelääkeohjattu tutkimus dupilumabista krooniessa rinosinusiitissa ilman nenäpolyypejä (CRSsNP) — **relevanssiasteen C**: todellinen kohdesairaus on CRSsNP, ei keuhkoputkentulehdus; jakaa vain Th2-inflammaatiomekanismin, merkitty indikaation-epäsuhta |
 
 ---
 
-## Literature Evidence
+## Kirjallisuuden todisteet
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset tulokset |
 |------|-----|------|------|---------|
-| [34597534](https://pubmed.ncbi.nlm.nih.gov/34597534/) | 2022 | RCT extension (TRAVERSE) | Lancet Respir Med | Long-term (>1 year) open-label extension confirming safety and sustained efficacy of dupilumab in moderate-to-severe **asthma**, not bronchitis specifically |
-| [32428511](https://pubmed.ncbi.nlm.nih.gov/32428511/) | 2020 | RCT substudy (imaging) | Chest | MRI-based ventilation defect imaging in prednisone-dependent severe asthma patients on anti-T2 biologic treatment |
-| [30273510](https://pubmed.ncbi.nlm.nih.gov/30273510/) | 2019 | Systematic Review/Meta-analysis | J Asthma | Meta-analysis of RCTs evaluating dupilumab efficacy/safety in uncontrolled **asthma** |
-| [39904363](https://pubmed.ncbi.nlm.nih.gov/39904363/) | 2025 | Review (COPD) | Tuberc Respir Dis | Comprehensive review of pharmacologic therapies (including biologics) for preventing **COPD** exacerbations |
-| [30196731](https://pubmed.ncbi.nlm.nih.gov/30196731/) | 2018 | Review | Expert Opin Pharmacother | Discusses treatment challenges in smoking-induced airway diseases including chronic bronchitis, emphysema, and asthma-COPD overlap; notes these patients are typically excluded from major trials |
-| [38488768](https://pubmed.ncbi.nlm.nih.gov/38488768/) | 2024 | Review (pediatric plastic bronchitis) | Pediatr Pulmonol | Reviews novel therapies for eosinophilic pediatric plastic bronchitis (abstract not available in this dataset) |
+| [34597534](https://pubmed.ncbi.nlm.nih.gov/34597534/) | 2022 | RCT-laajennus (TRAVERSE) | Lancet Respir Med | Pitkäaikainen (>1 vuosi) avoin laajennus, joka vahvistaa dupilumab-turvallisuuden ja jatkuvan tehokkuuden keskivaikeassa-vaikeassa **astmassa**, ei erityisesti keuhkoputkentulehduksessa |
+| [32428511](https://pubmed.ncbi.nlm.nih.gov/32428511/) | 2020 | RCT-osattutkimus (kuvantaminen) | Chest | MRI-pohjainen ilmanvaihto-puutteen kuvantaminen prednisonista riippuvaisissa vakavissa astman potilaissa, jotka saavat anti-T2-biologiset hoitoa |
+| [30273510](https://pubmed.ncbi.nlm.nih.gov/30273510/) | 2019 | Järjestelmällinen katsaus/Meta-analyysi | J Asthma | RCT-tutkimusten meta-analyysi dupilumab-tehokkuudesta ja turvallisuudesta hallitsemattomassa **astmassa** |
+| [39904363](https://pubmed.ncbi.nlm.nih.gov/39904363/) | 2025 | Katsaus (COPD) | Tuberc Respir Dis | Kattava katsaus farmakologisista hoidoista (mukaan lukien biologiset lääkkeet) **COPD**:n äkäysten ehkäisyyn |
+| [30196731](https://pubmed.ncbi.nlm.nih.gov/30196731/) | 2018 | Katsaus | Expert Opin Pharmacother | Käsittelee hoitohaasteita tupakoinnin aiheuttamissa ilmaväylä-sairauksissa, kuten krooniessa keuhkoputkentulehduksessa, emfyseemassa ja astma-COPD-päällekkäisyydessä; toteaa, että nämä potilaat on tyypillisesti suljettu pois suurista tutkimuksista |
+| [38488768](https://pubmed.ncbi.nlm.nih.gov/38488768/) | 2024 | Katsaus (pediatrinen muovibronkitis) | Pediatr Pulmonol | Arvioi uusia terapeuttisia vaihtoehtoja eosinofiilistä pediatrista muovia bronkiittiin (tiivistelmä ei ole saatavilla tässä aineistossa) |
 
 ---
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-No Finland marketing authorizations are on file for dupilumab in this dataset — `market_status: Not marketed (Not Marketed)`, `total_licenses: 0`.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-> Note: A **Blocking**-severity data gap (DG001 — TFDA/Fimea package insert warnings and contraindications) is recorded in this dataset, which by itself prevents entry into the S1 safety pre-assessment stage regardless of efficacy evidence strength.
+Tähän aineistoon ei ole kirjattu suomalaisia myyntilupauksia dupilumabille — `market_status: Not marketed (Not Marketed)`, `total_licenses: 0`.
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuushuomioita
 
-**Decision: Hold**
+Turvallisuustiedoista katso pakkausliite.
 
-**Rationale:**
-- Evidence specific to bronchitis is weak: the sole clinical trial is a confirmed disease-label mismatch (actual target: CRSsNP), and the literature predominantly covers asthma and COPD rather than bronchitis itself.
-- A Blocking-severity data gap (missing package insert warnings/contraindications) prevents even initial safety screening (S1), independent of the efficacy question.
+> Huomautus: **Blocking**-vakavuuden tietoaukko (DG001 — TFDA/Fimea-pakkausliitteen varoitukset ja vasta-aiheet) on kirjattu tähän aineistoon, joka itsessään estää pääsyn S1-turvallisuus-esiarvioinnin vaiheeseen riippumatta siitä, kuinka vahva tehokkuuden todiste on.
 
-**To proceed, the following is needed:**
-- Retrieve TFDA/Fimea package insert (warnings, contraindications) to unblock S1 safety review (DG001)
-- Confirm mechanism of action via DrugBank API query (DG002)
-- Source bronchitis-specific (not asthma/COPD-proxy) clinical trial and literature evidence, or formally re-scope the indication to a better-defined Th2-driven phenotype (e.g., eosinophilic/chronic bronchitis)
-- Separately, note that rank-2 predicted indication **dermatitis** in this same dataset carries substantially stronger evidence (L1, multiple completed Phase 3/4 RCTs, "Proceed with Guardrails") and may warrant prioritized evaluation ahead of bronchitis
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidätä**
+
+**Perustelut:**
+- Keuhkoputkentulehdusta koskevan todisteen on heikko: ainoa kliininen tutkimus on vahvistettu indikaation-epäsuhta (todellinen kohde: CRSsNP), ja kirjallisuus pääosin kattaa astman ja COPD:n pikemminkin kuin keuhkoputkentulehdusta.
+- **Blocking**-vakavuuden tietoaukko (puuttuvat pakkausliitteen varoitukset/vasta-aiheet) estää jopa ensimmäisen turvallisuus-seulonnan (S1), riippumatta tehokkuuskysymyksestä.
+
+**Jotta voidaan jatkaa, seuraava on tarpeen:**
+- Hae TFDA/Fimea-pakkausliite (varoitukset, vasta-aiheet) S1-turvallisuus-arviointiesteille (DG001)
+- Vahvista toimintamekanismi DrugBank API -kyselyn kautta (DG002)
+- Hanki keuhkoputkentulehdus-spesifiset (ei astma/COPD-välitystä) kliiniset tutkimukset ja kirjallisuustodisteet, tai virallisesti uudelleenmääritä käyttöaihe paremmin määriteltävään Th2-välitteiseen fenotyyppiin (esim. eosinofiilistä/kroonista keuhkoputkentulehdusta)
+- Erillinen huomautus: toisessa ennustetussa käyttöaiheessa **dermatitis** (2. sijalla) tässä samassa aineistossa on huomattavasti vahvempi todiste (L1, useita valmistuneita vaihe-3/4-RCT-tutkimuksia, "Jatka varauksella") ja se saattaa vaatia priorisoidun arvioinnin keuhkoputkentulehduksen edelle
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

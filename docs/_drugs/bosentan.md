@@ -29,87 +29,88 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **9** kpl
 
 </div>
 
-# Bosentan: From Pulmonary Arterial Hypertension to Rheumatoid Arthritis
+# Bosentan: Keuhkojen valtimohypertensioista nivelreumaan
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Bosentan is a dual endothelin receptor antagonist historically used for pulmonary arterial hypertension (PAH) and, per the supporting literature in this evidence pack, systemic sclerosis-related vasculopathy. The TxGNN model's top-ranked prediction is **Rheumatoid Arthritis**, but the supporting evidence is indirect — the only registered trial actually targets Giant Cell Arteritis, not RA — and is currently backed by **1 clinical trial (wrong indication)** and **16 publications**, mostly preclinical/review-level. Note: a lower-ranked candidate (limited systemic sclerosis, rank 3) shows a substantially stronger evidence base and is flagged separately below.
+Bosentan on dual-toimintainen endoteliinin reseptorin antagonisti, jota on historiallisesti käytetty keuhkojen valtimohypertensioissa (PAH) ja tämän näyttöpaketissa olevan kirjallisuuden mukaan systeemisen skleroosin aiheuttamassa verisuonitaudissa. TxGNN-mallin korkeimmin sijoitettu ennustus on **nivelreuma**, mutta tukevat näytöt ovat epäsuoria — ainoa rekisteröity tutkimus kohdistuu itse asiassa jättisoluvaltimotulehdukseen, ei reumaan — ja siihen on tällä hetkellä tukevia tuloksia **1 klinisestä tutkimuksesta (väärä indikaatio)** ja **16 julkaisusta**, joista suurin osa on prekliinisiä/review-tasoa. Huomautus: alemmas sijoitetulla kandidaatilla (rajoitettu systeeminen skleroosi, sijoitus 3) on oleellisesti vahvempi näyttöperusta ja se on merkitty erikseen alla.
 
 ---
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Not available in structured drug data (Data Gap); literature in this evidence pack consistently describes Bosentan as an endothelin receptor antagonist for pulmonary arterial hypertension |
-| Predicted New Indication | Rheumatoid Arthritis |
-| TxGNN Prediction Score | 99.80% |
-| Evidence Level | L4 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen indikaatio | Ei saatavilla rakenteellisesti järjestetyssä lääketiedoissa (tietoaukko); tämän näyttöpaketin kirjallisuus kuvaa johdonmukaisesti Bosentania endoteliinin reseptorin antagonistina keuhkojen valtimohypertensioissa |
+| Ennustettu uusi indikaatio | Nivelreuma |
+| TxGNN-ennuste-pistemäärä | 99.80% |
+| Näyttötaso | L4 |
+| Saatavuus Suomessa | ✗ Ei markkinoilla |
+| Lupahyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Pidättäytyminen |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennustus on järkevä?
 
-Currently, detailed mechanism of action data is not available (Data Gap DG002). Based on the literature captured in this evidence pack, Bosentan is a dual ETA/ETB endothelin receptor antagonist whose established clinical use is pulmonary arterial hypertension and, in an off-label/extended context, systemic sclerosis-related vasculopathy.
+Yksityiskohtaisen toimintamekanismin tiedot eivät ole tällä hetkellä saatavilla (tietoaukko DG002). Tämän näyttöpaketin kirjallisuuden perusteella Bosentan on dual-toimintainen ETA/ETB endoteliinin reseptorin antagonisti, jonka vakiintunut kliininen käyttö on keuhkojen valtimohypertensio ja, off-label käytössä tai laajennetussa yhteydessä, systeemisen skleroosin aiheuttama verisuonitauti.
 
-The rationale for a rheumatoid arthritis link is indirect: two preclinical studies show that endothelin signaling contributes to inflammation in collagen-induced and zymosan-induced arthritis mouse models, and that Bosentan can reduce arthritis severity in these models (PMID 22249931, PMID 18515326). This supports a plausible role for endothelin blockade in joint inflammation generally, but it is a mechanistic inference from animal models of arthritis, not RA-specific clinical or translational data.
+Perustelut nivelreuman kanssa liittyvälle linkille ovat epäsuoria: kaksi prekliinista tutkimusta osoittavat, että endoteliinin signalointi vaikuttaa tulehdukseen kollageni-indusoitujen ja tsymoosaani-indusoitujen niveltulehduksen hiirimalleissa, ja että Bosentan voi vähentää niveltulehduksen vakavuutta näissä malleissa (PMID 22249931, PMID 18515326). Tämä tukee uskottavaa roolia endoteliinin estossa niveltulehduksen yleisessä mielessä, mutta se on mekanistinen päätelmä eläinten niveltulehdusmalleista, ei reumalle spesifistä kliinistä tai translationaalisesti tutkittua tietoa.
 
-Importantly, the single clinical trial associated with this prediction (NCT06957002) is not an RA trial — it studies Bosentan in **Giant Cell Arteritis**, a different rheumatic disease. No RA-specific interventional trial currently exists. Given this gap between the predicted indication and the actual trial population, the evidence level is capped at L4 (mechanism/preclinical only), and this candidate should be treated as an early-stage hypothesis rather than a clinically supported repurposing case.
+Tärkeää on, että tähän ennustukseen liittyvä ainoa kliininen tutkimus (NCT06957002) ei ole reumaa tutkiva tutkimus — se tutkii Bosentania **jättisoluvaltimotulehduksessa**, eri reumatassussa. Reumalle spesifiä interventiotutkimusta ei tällä hetkellä ole. Tämä kuilu ennustetun indikaation ja todellisen tutkimuspopulaation välillä huomioon ottaen todistusten taso on rajoitettu L4:ään (mekanismi/prekliininen vain), ja tätä kandidaattia tulee käsitellä varhaisen vaiheen hypoteesin pikemminkin kuin kliinisesti tuetun uudelleenkäytön tapauksena.
 
 ---
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näytöt
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimusnumero | Vaihe | Tila | Osallistujamäärä | Keskeiset löydökset |
 |---------|------|------|------|---------|
-| [NCT06957002](https://clinicaltrials.gov/study/NCT06957002) | Phase 2 | Not Yet Recruiting | 40 | Randomized, controlled trial of Bosentan + glucocorticoids vs. glucocorticoids alone in **Giant Cell Arteritis** (not RA) — endpoint is failure-free survival at 12 months. Included here because it is the only bosentan trial retrieved under the RA search, but it targets a different disease entity. |
+| [NCT06957002](https://clinicaltrials.gov/study/NCT06957002) | Vaihe 2 | Ei vielä rekrytoitava | 40 | Satunnaistettu, kontrolloitu tutkimus Bosentanista + glukokortikosteroidit vs. glukokortikosteroidit yksin **jättisoluvaltimotulehduksessa** (ei nivelreuma) — päätetapahtuma on epäonnistumisen vapaa eloonjäänti 12 kuukaudessa. Sisällytetty tähän, koska se on ainoa bosentania tutkiva tutkimus, joka on haettu reumahauilla, mutta se kohdistuu erilaiseen sairauden muotoon. |
 
 ---
 
-## Literature Evidence
+## Kirjallisuuden näytöt
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
 |------|-----|------|------|---------|
-| [22249931](https://pubmed.ncbi.nlm.nih.gov/22249931/) | 2012 | Preclinical (collagen-induced arthritis) | Inflammation Research | Bosentan ameliorates collagen-induced arthritis in mice; TNF-α induces endothelin system genes |
-| [18515326](https://pubmed.ncbi.nlm.nih.gov/18515326/) | 2008 | Preclinical (zymosan-induced arthritis) | Journal of Leukocyte Biology | Endothelins modulate inflammation in zymosan-induced arthritis via LTB4, TNF-α, CXCL-1; ET-1 elevated in RA synovium |
-| [19969421](https://pubmed.ncbi.nlm.nih.gov/19969421/) | 2010 | Preclinical (IL-17, antigen-induced arthritis) | Pain | IL-17, a key RA cytokine, drives joint hypernociception in a mouse arthritis model |
-| [16766656](https://pubmed.ncbi.nlm.nih.gov/16766656/) | 2006 | Preclinical (IL-15) | PNAS | IL-15-induced hypernociception (relevant to RA) inhibited by a dual ETA/ETB receptor antagonist |
-| [20054770](https://pubmed.ncbi.nlm.nih.gov/20054770/) | 2009 | Case Report | Kardiologia Polska | Child with Eisenmenger syndrome and juvenile RA improved clinically on bosentan (given for PAH, not RA) |
-| [19851110](https://pubmed.ncbi.nlm.nih.gov/19851110/) | 2010 | Review | Current Opinion in Rheumatology | Overview of rheumatic skin disease pathophysiology and therapy |
-| [19487226](https://pubmed.ncbi.nlm.nih.gov/19487226/) | 2009 | Review | Rheumatology (Oxford) | Vasculopathy and PAH in connective tissue disease, including RA |
-| [24268012](https://pubmed.ncbi.nlm.nih.gov/24268012/) | 2014 | Review | Rheumatic Diseases Clinics of North America | PAH related to connective tissue disease |
-| [18238768](https://pubmed.ncbi.nlm.nih.gov/18238768/) | 2008 | Review | American Journal of Health-System Pharmacy | Drug therapy for systemic sclerosis complications, including endothelin antagonists |
-| [21165350](https://pubmed.ncbi.nlm.nih.gov/21165350/) | 2010 | Review | Canadian Respiratory Journal | Treatment of pulmonary hypertension in connective tissue disease with interstitial lung disease |
+| [22249931](https://pubmed.ncbi.nlm.nih.gov/22249931/) | 2012 | Prekliininen (kollageni-indusoitu niveltulehdus) | Inflammation Research | Bosentan parantaa kollageni-indusoitua niveltulehdusta hiirissä; TNF-α indusoi endoteliinin systeemi-geenejä |
+| [18515326](https://pubmed.ncbi.nlm.nih.gov/18515326/) | 2008 | Prekliininen (tsymoosaani-indusoitu niveltulehdus) | Journal of Leukocyte Biology | Endoteliinit säätelevät tulehdusta tsymoosaani-indusoitussa niveltulehduksessa LTB4:n, TNF-α:n, CXCL-1:n kautta; ET-1 koholla nivelnestekalvossa |
+| [19969421](https://pubmed.ncbi.nlm.nih.gov/19969421/) | 2010 | Prekliininen (IL-17, antigen-indusoitu niveltulehdus) | Pain | IL-17, keskeinen nivelreuma-sytoviini, aiheuttaa nivelen kipuherkkyyttä hiiren niveltulehdusmalleissa |
+| [16766656](https://pubmed.ncbi.nlm.nih.gov/16766656/) | 2006 | Prekliininen (IL-15) | PNAS | IL-15-indusoitu hypersensitiivisyys (reumaan liittyvä) estetty dual-ETA/ETB reseptorin antagonistilla |
+| [20054770](https://pubmed.ncbi.nlm.nih.gov/20054770/) | 2009 | Tapausraportti | Kardiologia Polska | Lapsi, jolla oli Eisenmenger-oireyhtymä ja juveniilinen nivelreuma, parani kliinisesti bosentanilla (annettu PAH:n vuoksi, ei niveltulehduksen) |
+| [19851110](https://pubmed.ncbi.nlm.nih.gov/19851110/) | 2010 | Katsausartikkeli | Current Opinion in Rheumatology | Reumaan liittyvien ihosairauksien patofysiologia ja hoito |
+| [19487226](https://pubmed.ncbi.nlm.nih.gov/19487226/) | 2009 | Katsausartikkeli | Rheumatology (Oxford) | Verisuonitauti ja PAH sidekudossairauksissa, mukaan lukien nivelreuma |
+| [24268012](https://pubmed.ncbi.nlm.nih.gov/24268012/) | 2014 | Katsausartikkeli | Rheumatic Diseases Clinics of North America | Sidekudossairauksiin liittyvä PAH |
+| [18238768](https://pubmed.ncbi.nlm.nih.gov/18238768/) | 2008 | Katsausartikkeli | American Journal of Health-System Pharmacy | Systeemisen skleroosin komplikaatioiden lääkehoito, mukaan lukien endoteliinin antagonistit |
+| [21165350](https://pubmed.ncbi.nlm.nih.gov/21165350/) | 2010 | Katsausartikkeli | Canadian Respiratory Journal | Keuhkojen hypertension hoito sidekudossairaudesta johtuvassa intersitiaalisessa keuhkosairaudessa |
 
 ---
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Bosentan is currently **not marketed** in Finland — no product authorizations are on record (0 licenses).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug interaction data for Bosentan were not available in this evidence pack — Data Gap DG001, flagged as Blocking, and DG002.)
+Bosentan **ei ole tällä hetkellä markkinoilla** Suomessa — mikään tuotteen hyväksynnät eivät ole rekisteröidyt (0 lisenssejä).
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuuteen liittyvät näkökohdat
 
-**Decision: Hold**
+Viitattava pakkausselosteeseen turvallisuustiedoista. (Bosentanin tärkeimmät varoitukset, vasta-aiheet ja lääkkeiden vuorovaikutukset eivät olleet saatavilla tässä näyttöpaketissa — tietoaukko DG001, merkitty estävänä, ja DG002.)
 
-**Rationale:**
-The rheumatoid arthritis prediction rests on preclinical arthritis-model mechanism data only; the sole associated clinical trial actually targets Giant Cell Arteritis, not RA, so there is no direct clinical evidence for this specific indication. Combined with the Blocking data gap on TFDA/package-insert safety information, this candidate cannot yet clear even an initial safety screen (S1).
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert / regulatory safety data (contraindications, warnings, DDI) — currently Blocking (DG001)
-- Confirmed mechanism of action documentation (DG002)
-- An RA-specific interventional trial or translational study, since the only registered trial targets a different disease (GCA)
-- Consider re-prioritizing evaluation resources toward **limited systemic sclerosis** (rank 3 in this evidence pack), which shows materially stronger evidence — an SSc-matched observational trial, a systematic review/meta-analysis (PMID 36974107), and mechanistic in vitro data on endothelin-driven fibrosis — and is already scored L2/S3 ("Proceed with Guardrails") rather than L4/Hold
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidättäytyminen**
+
+**Perustelut:**
+Nivelreuman ennustus perustuu vain prekliinisten niveltulehdusmallin mekanismi-tietoihin; ainoa siihen liittyvä kliininen tutkimus kohdistuu itse asiassa jättisoluvaltimotulehdukseen, ei reumaan, joten tälle spesifille indikaatiolle ei ole suoraa kliinistä näyttöä. Yhdessä estävän tietoaukon kanssa TFDA:n/pakkausselosteen turvallisuustiedoista, tämä kandidaatti ei voi vielä läpäistä edes alkuperäistä turvallisuusseulontaa (S1).
+
+**Jotta voidaan edetä, seuraavaa tarvitaan:**
+- TFDA:n pakkausseloste / sääntelyyn liittyvät turvallisuustiedot (vasta-aiheet, varoitukset, lääkkeiden vuorovaikutukset) — tällä hetkellä estävä (DG001)
+- Vahvistettu toimintamekanismin dokumentaatio (DG002)
+- Reumalle spesifinen interventiotutkimus tai translationaalinen tutkimus, koska ainoa rekisteröity tutkimus kohdistuu eri sairauden muotoon (GCA)
+- Harkita arviointiresurssien uudelleenpriorisointia **rajoitetun systeemisen skleroosin** (sijoitus 3 tässä näyttöpaketissa) suuntaan, joka osoittaa oleellisesti vahvempia näyttöjä — systeemisen skleroosin kannalta kohdistetun havaintotutkimuksen, systemaattisen katsauksen/meta-analyysin (PMID 36974107) ja mekanistisen in vitro-tiedon endoteliini-johtamasta fibrosista — ja on jo sijoitettu L2/S3:ksi ("Etene varovaisuutta noudattaen") pikemminkin kuin L4/Pidättäytyminen
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

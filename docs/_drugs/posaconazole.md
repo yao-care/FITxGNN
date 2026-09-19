@@ -29,68 +29,69 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Posaconazole: From Invasive Fungal Infection Prophylaxis to Pneumocystosis
+# Poskonatsoli: invasiivisen sieniinfektioiden profylaksiasta pneumosystoosin hoitoon
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Posaconazole is a triazole antifungal historically used for the prevention and treatment of invasive fungal infections such as aspergillosis and mucormycosis in high-risk immunocompromised patients. The TxGNN model predicts it may also be effective for **Pneumocystosis (Pneumocystis pneumonia)**, but currently only **2 clinical trials** and **5 publications** are available, and none directly test posaconazole against this specific indication.
+Poskonatsoli on triatsoolimainen antifungilainen lääke, jota on perinteisesti käytetty invasiivisten sieniinfektioiden (kuten aspergilloosin ja mukormykoosin) ehkäisyyn ja hoitoon kuulumattomissa immunovajaavaissa potilaissa. TxGNN-malli ennustaa, että se voi olla tehokas myös **pneumosystoosin (Pneumocystis-keuhkokalvontulehdus)** hoidossa, mutta tällä hetkellä on saatavilla vain **2 kliinistä tutkimusta** ja **5 julkaisua**, eikä mikään niistä testaa suoraan poskonatsolia tätä erityistä indikaatiota vastaan.
 
-## Quick Overview
+## Pikayleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Invasive fungal infection prophylaxis/treatment (e.g., aspergillosis, mucormycosis) — official Finland labeling text is not available since the product is not currently marketed |
-| Predicted New Indication | Pneumocystosis (Pneumocystis pneumonia) |
-| TxGNN Prediction Score | 99.77% |
-| Evidence Level | L4 |
-| Finland Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohde | Sisältö |
+|-------|---------|
+| Alkuperäinen indikaatio | Invasiivisen sieniinfektioiden profylaksia/hoito (esim. aspergilloosi, mukormykoosi) — virallista Suomen merkintätekstiä ei ole saatavilla, koska tuotetta ei tällä hetkellä markkinoida |
+| Ennustettu uusi indikaatio | Pneumosystoosi (Pneumocystis-keuhkokalvontulehdus) |
+| TxGNN-ennustepisteet | 99.77% |
+| Näytön taso | L4 |
+| Suomen markkinoiden asema | ✗ Ei markkinoitu |
+| Hyväksyntöjen määrä | 0 |
+| Suositeltu päätös | Pidätä |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Posaconazole is a triazole antifungal. Its mechanism of action is inhibition of fungal CYP51 (14-α-demethylase), which blocks ergosterol synthesis — an essential component of the fungal cell membrane. Clinically, it is currently used mainly for the prevention and treatment of invasive aspergillosis and mucormycosis in high-risk populations such as patients with hematologic malignancy or those undergoing transplantation.
+Poskonatsoli on triatsoolimainen antifungilainen lääke. Sen vaikutusmekanismi on sienen CYP51-inhibitio (14-α-demetylaasin), joka estää ergosterolin synteesiä — solun kalvon välttämätöntä osatekijää. Kliinisesti sitä käytetään pääasiassa invasiivisen aspergilloosin ja mukormykoosin ehkäisyyn ja hoitoon korkean riskin potilasryhmissä, kuten hematologisissa malignansseissa tai siirtohoidon saaneissa potilaissa.
 
-*Pneumocystis jirovecii*, however, is an atypical fungus with a distinct membrane sterol composition — it contains relatively little ergosterol and relies more on other sterols. As a result, the direct antifungal activity of triazoles against *Pneumocystis* is mechanistically plausible but weakly and inconsistently supported in the literature; trimethoprim-sulfamethoxazole (TMP-SMX) remains the standard of care for this organism.
+*Pneumocystis jirovecii* on kuitenkin epätyypillinen sieni, jonka kalvojen sterolien koostumus on erilainen — se sisältää suhteellisen vähän ergosterolia ja riippuu enemmän muista sterooleista. Tämän seurauksena triatsoolien suora antifungaalinen vaikutus *Pneumocystista* vastaan on mekanistisesti mahdollinen, mutta kirjallisuudessa vain heikosti ja epäjohdonmukaisesti tuettu; trimetopriimi-sulfametoksatsoli (TMP-SMX) pysyy tämän organismin hoitostandardi.
 
-Because of this, the link between posaconazole and pneumocystosis should be treated as an indirect, mechanism-driven hypothesis rather than a clinically validated one. This is consistent with the evidence pack's own scoring: an L4 evidence level and an "S0 / Research Question" decision stage, meaning the prediction currently rests on mechanistic reasoning rather than confirmed clinical benefit.
+Tästä johtuen yhteys poskonatsolin ja pneumosystoosin välillä tulee käsitellä epäsuoran, mekanismin ajaman hypoteesin eikä kliinisesti validoidun hoidon näkökulmasta. Tämä on johdonmukaista näyttöpaketin oman pisteytyksen kanssa: L4-näytön taso ja "S0 / Research Question" -päätösvaihe, mikä tarkoittaa, että ennuste perustuu tällä hetkellä mekanistiseen päättelyyn, ei vahvistettuun kliiniseen hyötyyn.
 
-## Clinical Trial Evidence
+## Kliinisten tutkimusten näyttö
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimuksen numero | Vaihe | Tila | Osallistujat | Tärkeimmät löydökset |
 |---------|------|------|------|---------|
-| [NCT04368559](https://clinicaltrials.gov/study/NCT04368559) | Phase 3 | Completed | 602 | Evaluated IV rezafungin (an echinocandin, not posaconazole) versus standard antimicrobial regimen for prevention of invasive fungal disease in allogeneic HSCT recipients; relevant only as background context for antifungal prophylaxis, not direct evidence for posaconazole in pneumocystosis. |
-| [NCT06859424](https://clinicaltrials.gov/study/NCT06859424) | Phase 2 | Recruiting | 358 | Platform trial comparing GVHD prophylaxis regimens (PTCy-based) after mismatched unrelated donor transplant; does not name posaconazole or pneumocystosis as a primary endpoint — any antifungal prophylaxis arm is incidental, not a direct test of this indication. |
+| [NCT04368559](https://clinicaltrials.gov/study/NCT04368559) | Vaihe 3 | Valmis | 602 | Arvioi IV rezafungiinia (ekinokandiini, ei poskonatsolia) tavanomaisen antimikrobisen hoitovalinnan kanssa invasiivisen sieniinfektioiden ennaltaehkäisyssä allgeenisen HSCT:n saaneiden potilaissa; merkityksellinen vain antifungaalisen profylaksian taustakontekstina, ei suoraa näyttöä poskonatsolin hyväksi pneumosystoosin hoidossa. |
+| [NCT06859424](https://clinicaltrials.gov/study/NCT06859424) | Vaihe 2 | Rekrytointi käynnissä | 358 | Alustutkimus vertailemassa GVHD-profylaksian hoitoskeemoja (PTCy-pohjaiset) epäsopivista ei-sukulaisista siirtäjistä; ei mainitse poskonatsolia tai pneumosystoosia ensisijaisena päätetapahtumana — mikään antifungaalisen profylaksian varsi on satunnainen, ei suora testi tälle indikaatiolle. |
 
-Neither trial directly tests posaconazole for pneumocystosis; both are graded "C" relevance (indirect background evidence only).
+Kumpikaan tutkimus ei testaa suoraan poskonatsolia pneumosystoosin hoidossa; molemmat on arvioitu "C"-merkityksellisyydellä (epäsuora taustanäyttö vain).
 
-## Literature Evidence
+## Kirjallisuusnäyttö
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Julkaisu | Tärkeimmät löydökset |
 |------|-----|------|------|---------|
-| [41232547](https://pubmed.ncbi.nlm.nih.gov/41232547/) | 2025 | Review/Guideline | The Lancet Infectious Diseases | UK best-practice update on diagnosis of serious fungal disease; covers diagnostic methods broadly, not posaconazole efficacy in pneumocystosis specifically. |
-| [41362140](https://pubmed.ncbi.nlm.nih.gov/41362140/) | 2025 | Review/Guideline | Chinese Journal of Tuberculosis and Respiratory Diseases | 2025 Chinese clinical practice guideline for invasive pulmonary fungal disease diagnosis and management. |
-| [35596686](https://pubmed.ncbi.nlm.nih.gov/35596686/) | 2022 | Cohort | Transplant Infectious Disease | Retrospective review of infectious complications (including fungal) in acute GVHD after liver transplantation; provides epidemiologic context, not direct posaconazole–pneumocystosis data. |
-| [26901377](https://pubmed.ncbi.nlm.nih.gov/26901377/) | 2016 | Review | Swiss Medical Weekly | Overview of invasive candidiasis, aspergillosis, cryptococcosis, and Pneumocystis pneumonia; notes posaconazole's established role in reducing invasive candidiasis via mould-active prophylaxis, but does not report direct anti-Pneumocystis efficacy. |
-| [21973267](https://pubmed.ncbi.nlm.nih.gov/21973267/) | 2011 | Review (PK) | Clinical Pharmacokinetics | Reviews pulmonary epithelial lining fluid penetration of antifungal/antitubercular agents; pharmacokinetic context only, no efficacy data for pneumocystosis. |
+| [41232547](https://pubmed.ncbi.nlm.nih.gov/41232547/) | 2025 | Katsaus/Ohje | The Lancet Infectious Diseases | UK:n parhaiden käytäntöjen päivitys vakavien sieniinfektioiden diagnostiikasta; käsittelee diagnostiikkaisia menetelmiä laajasti, ei poskonatsolin tehokkuutta pneumosystoosin hoidossa erityisesti. |
+| [41362140](https://pubmed.ncbi.nlm.nih.gov/41362140/) | 2025 | Katsaus/Ohje | Chinese Journal of Tuberculosis and Respiratory Diseases | 2025 Kiinan invasiivisen pulmonaarisen sieniinfektioiden diagnostiikan ja hoitamisen kliininen käytäntöohje. |
+| [35596686](https://pubmed.ncbi.nlm.nih.gov/35596686/) | 2022 | Kohortti | Transplant Infectious Disease | Infektiouskomplikaatioiden (myös sieniinfektiot) takautuva katsaus akuuttiin GVHD:n yhteydessä maksansiirtopotilaissa; tarjoaa epidemiologista kontekstia, ei suoraa poskonatsoli–pneumosystoosi-tietoa. |
+| [26901377](https://pubmed.ncbi.nlm.nih.gov/26901377/) | 2016 | Katsaus | Swiss Medical Weekly | Invasiivisen kandidiaasin, aspergilloosin, kryptokokkoosin ja Pneumocystis-keuhkokalvontulehduksen yleiskatsaus; huomauttaa poskonatsolin vakiintuneen roolin invasiivisen kandidiaasin vähentämisessä homeaktiivisen profylaksian kautta, mutta ei raportoi suoraa anti-Pneumocystis-tehokkuutta. |
+| [21973267](https://pubmed.ncbi.nlm.nih.gov/21973267/) | 2011 | Katsaus (PK) | Clinical Pharmacokinetics | Arvioi keuhkoepiteelin pinnoitusnesteen penetraatiota antifungaalisten/antituberkkuloosisten aineiden osalta; vain farmakokineetinen konteksti, ei tehokkuustietoja pneumosystoosin hoidossa. |
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information.
+Viitatkaa tuoteselosteeseen turvallisuustiedoista.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidätä**
 
-**Rationale:**
-The evidence pack itself scores this prediction as L4 ("Research Question," decision stage S0) — a mechanistic hypothesis with no clinical trial or literature directly testing posaconazole in pneumocystosis, and *Pneumocystis*'s atypical sterol biology makes triazole efficacy uncertain. Combined with a Blocking data gap on TFDA/Fimea safety labeling and the product currently not being marketed in Finland, there is not yet a basis to proceed.
+**Perustelut:**
+Näyttöpaketti itse pisteyttää tämän ennusteen L4:ksi ("Research Question," päätösvaihe S0) — mekanistinen hypoteesi ilman kliinistä tutkimusta tai kirjallisuutta, joka testaa poskonatsolia pneumosystoosin hoidossa, ja *Pneumocystiksen* epätyypillinen sterolien biologia tekee triatsoolien tehokkuuden epävarmmaksi. TFDA/Fimean turvallisuusmerkinöinnin blokkaavan tietovajeen ja tuotteen nykyisen markkinoinnin puuttumisen Suomessa vuoksi ei ole vielä riittävää perustaa jatkaa.
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert data (warnings, contraindications) — currently a Blocking gap
-- Confirmed mechanism-of-action documentation (DrugBank MOA) — currently a High-severity gap
-- Direct preclinical or clinical evidence of posaconazole activity against *Pneumocystis jirovecii*
-- Drug-drug interaction (DDI) data, currently unavailable ("not_found")
-- Confirmation of original approved indication text once market/licensing data becomes available
+**Jotta voitaisiin edetä, seuraavaa tarvitaan:**
+- TFDA/Fimean tuoteselostetiedot (varoitukset, vasta-aiheet) — tällä hetkellä blokkaava aukko
+- Vahvistettu vaikutusmekanismin dokumentaatio (DrugBank MOA) — tällä hetkellä korkean vakavuusasteen aukko
+- Suora prekliininen tai kliininen näyttö poskonatsolin vaikuttavuudesta *Pneumocystis jiroveciiä* vastaan
+- Lääke-lääke-interaktioiden (DDI) tiedot, joita ei tällä hetkellä ole saatavilla ("not_found")
+- Alkuperäisen hyväksytyn indikaation tekstin vahvistaminen, kun markkinointi-/lisenssitiedot tulevat saataville
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

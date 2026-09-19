@@ -29,84 +29,85 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **8** kpl
 
 </div>
 
-# Ofatumumab: From Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma to Pregerminal Center CLL/SLL
+# Ofatumumab: kroonisesta lymfosyyttileukemiasta/piensolulympfoomasta pregeerminalikeskuksen CLL/SLL:ään
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Ofatumumab is a fully human anti-CD20 monoclonal antibody originally approved (as Arzerra) for chronic lymphocytic leukemia/small lymphocytic lymphoma (CLL/SLL). The TxGNN model's top-ranked prediction points to **pregerminal center CLL/SLL** — a specific IGHV-unmutated molecular subtype of the same disease — with a prediction score of **99.77%**, but currently **0 clinical trials** and **0 publications** directly support this subtype-specific extrapolation.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Chronic lymphocytic leukemia (CLL) / small lymphocytic lymphoma (SLL) — the drug's original core indication (as Arzerra); no formal Finland license text is available in current data |
-| Predicted New Indication | Pregerminal center CLL/SLL (IGHV-unmutated molecular subtype) |
-| TxGNN Prediction Score | 99.77% |
-| Evidence Level | L4 |
-| Finland Market Status | ✗ Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold (Research Question stage) |
+Ofatumumab on täysin ihmisen monoklonaalinen vasta-aine, joka kohdistuu CD20-antigeeniin (anti-CD20-monoklonaalinen vasta-aine), ja se on alkuperäisesti hyväksytty (nimellä Arzerra) kroonisen lymfosyyttileukemian/piensolulympfoooman (CLL/SLL) hoitoon. TxGNN-mallin korkeimmaksi sijoitettu ennuste osoittaa **pregeerminalikeskuksen CLL/SLL:ään** — tiettyyn IGHV-mutoimattomaan molekyyliseen alaryhmään samasta sairaudesta — ennustepistemäärän **99.77%**, mutta tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua** tukevat suoraan tätä alaryhmäkohtaista ekstrapolaatiota.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Currently, detailed mechanism of action data is not available. Based on known information, ofatumumab is a fully human IgG1κ monoclonal antibody targeting CD20, in the same drug class as rituximab and obinutuzumab. Its efficacy in chronic lymphocytic leukemia/small lymphocytic lymphoma has been proven and forms its original approved indication.
-
-"Pregerminal center CLL/SLL" is not a distinct disease but a molecular subtype of CLL/SLL, characterized by an unmutated IGHV gene status (pre-germinal center origin), which is typically associated with a more aggressive clinical course. Tumor cells in this subtype continue to express CD20, so ofatumumab's core cytotoxic mechanism — complement-dependent cytotoxicity (CDC) and antibody-dependent cell-mediated cytotoxicity (ADCC) against CD20+ B cells — remains mechanistically applicable.
-
-However, this prediction is an **indirect extrapolation** from the drug's main CLL/SLL evidence base rather than a subtype-specific finding: no clinical trial or publication in this evidence pack specifically enrolled or analyzed IGHV-unmutated/pre-germinal center CLL/SLL patients as a defined subgroup for ofatumumab treatment.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Kohde | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Krooninen lymfosyyttileukemia (CLL) / piensolulympfooma (SLL) — lääkkeen alkuperäinen pääindikaatio (nimellä Arzerra); virallinen Suomen pakkausteksti ei ole saatavilla nykyisissä tiedoissa |
+| Ennustettu uusi indikaatio | Pregeerminalikeskuksen CLL/SLL (IGHV-mutoimaton molekyylinen alaryhmä) |
+| TxGNN-ennustepistemäärä | 99.77% |
+| Näytön taso | L4 |
+| Suomen markkinatilanne | ✗ Ei markkinoilla (Ei markkinoilla) |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Odota (Tutkimuskysymys-vaihe) |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennuste on perusteltu?
 
-Currently no related literature available.
+Tällä hetkellä yksityiskohtaista vaikutusmekanismin tietoa ei ole saatavilla. Tunnettujen tietojen perusteella ofatumumab on täysin ihmisen IgG1κ-monoklonaalinen vasta-aine, joka kohdistuu CD20-antigeeniin, samassa lääkeryhmässä kuin rituximab ja obinutuzumab. Sen tehokkuus kroonisessa lymfosyyttileukemiassa/piensolulympfoomassa on osoitettu, ja se muodostaa lääkkeen alkuperäisen hyväksytyn indikaation.
 
----
+"Pregeerminalikeskuksen CLL/SLL" ei ole erillinen sairaus, vaan kroonisen lymfosyyttileukemian/piensolulympfoooman molekyylinen alaryhmä, jolle on ominaista mutoimaton IGHV-geenin asema (pregeerminalikeskuksen alkuperä), joka tyypillisesti liittyy aggressiivisempaan kliiniseen kulkuun. Kasvainsolut tässä alaryhmässä jatkavat CD20-antigeenin ilmentämistä, joten ofatumumabin ydinmekanismi — komplementista riippuvainen sytotoksisuus (CDC) ja vasta-aineriippuvainen soluvälitteinen sytotoksisuus (ADCC) CD20+ B-soluja vastaan — pysyy mekanistisesti soveltuvaksi.
 
-## Cytotoxicity
-
-Ofatumumab is an antineoplastic biologic (anti-CD20 monoclonal antibody used in CD20+ B-cell malignancies including CLL/SLL and follicular lymphoma), so this section applies.
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted immunotherapy (anti-CD20 monoclonal antibody), not conventional cytotoxic chemotherapy |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions. Literature (PMID [26566719](https://pubmed.ncbi.nlm.nih.gov/26566719/)) describes a "favorable toxicity profile" in CLL patients, but no quantified hematologic toxicity data is available in the current dataset |
-| Emetogenicity Classification | Low (monoclonal antibodies are generally minimally emetogenic; infusion-related reactions are the more prominent acute toxicity for this class) |
-| Monitoring Items | CBC with differential, infusion-related reaction monitoring, hepatitis B screening (class recommendation for anti-CD20 agents), immunoglobulin levels |
-| Handling Protection | Standard biologic infusion handling precautions; not subject to cytotoxic chemotherapy handling regulations, as it is a monoclonal antibody rather than a cytotoxic small molecule |
+Tämä ennuste on kuitenkin **epäsuora ekstrapolaatio** lääkkeen pääasiallisesta CLL/SLL-näytöpohjasta eikä alaryhmäkohtainen löydös: mikään kliininen tutkimus tai julkaisu tässä näytöpaketissa ei ole nimenomaisesti ottanut mukaan tai analysoinut IGHV-mutoimattomia/pregeerminalikeskuksen CLL/SLL-potilaita määriteltyinä alaryhmänä ofatumumabin hoitoa varten.
 
 ---
 
-## Safety Considerations
+## Kliinisen tutkimuksen näyttö
 
-Please refer to the package insert for safety information.
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
 
 ---
 
-## Conclusion and Next Steps
+## Kirjallisuuden näyttö
 
-**Decision: Hold**
+Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta.
 
-**Rationale:**
-The TxGNN score for this specific molecular subtype is high, but it is supported by zero direct clinical trials or publications — the mechanistic rationale is entirely extrapolated from ofatumumab's broader CLL/SLL evidence base rather than subtype-specific data. This does not meet the bar to advance beyond S1 (Research Question).
+---
 
-**To proceed, the following is needed:**
-- Subtype-specific clinical trial or literature evidence for IGHV-unmutated/pre-germinal center CLL/SLL
-- TFDA/Fimea package insert warnings and contraindications (currently a Blocking data gap, DG001) — required before any S1 safety screening
-- Confirmed mechanism-of-action data from DrugBank (High-severity data gap, DG002)
-- Finland regulatory/market status update, given the drug is currently not marketed there
+## Sytotoksisuus
 
-**Note for context:** within this same evidence pack, other TxGNN-predicted indications for ofatumumab carry substantially stronger evidence — chronic lymphocytic leukemia/small lymphocytic lymphoma overall (rank 5, L1, "Proceed with Guardrails," including completed Phase 3 trials) and follicular lymphoma (rank 3, L2, multiple completed Phase 2/3 trials). Those candidates may warrant separate, higher-priority evaluation.
+Ofatumumab on antineoplastinen biologinen lääke (anti-CD20-monoklonaalinen vasta-aine, jota käytetään CD20+ B-solupahanlaatuisuuksissa mukaan lukien CLL/SLL ja follikkelimainen lymfooma), joten tämä osio pätee.
+
+| Kohde | Sisältö |
+|------|---------|
+| Sytotoksisuuden luokittelu | Kohdennettu immunoterapia (anti-CD20-monoklonaalinen vasta-aine), ei tavanomainen sytotoksinen kemoterapia |
+| Luuytimen tukahduttamisen riski | Katso pakkausselosteen varoitukset ja varotoimet. Kirjallisuus (PMID [26566719](https://pubmed.ncbi.nlm.nih.gov/26566719/)) kuvaa "suotuisaa toksisuusprofiilia" kroonisen lymfosyyttileukemian potilailla, mutta nykyisessä aineistossa ei ole saatavilla määrällistä hematologista toksisuustietoa |
+| Pahoinvoinnin aiheuttamisen luokittelu | Matala (monoklonaalisia vasta-aineita pidetään yleisesti vähän pahoinvointia aiheuttavina; infuusioihin liittyvät reaktiot ovat tämän lääkeryhmän merkittävämpi akuutti toksisuus) |
+| Seurannan kohteet | Täydellinen verenkuva differentiaalin kanssa, infuusioihin liittyvien reaktioiden seuranta, hepatiitti B:n seulonta (lääkeryhmän suositus anti-CD20-valmisteiden osalta), immunoglobuliinin tasot |
+| Käsittelysuojaus | Standardi biologisen infuusion käsittelyvarotoimet; ei kuulu sytotoksisen kemoterapian käsittelysäädöksiin, koska se on monoklonaalinen vasta-aine eikä sytotoksinen pienimolekyylinen aine |
+
+---
+
+## Turvallisuusnäkökohdat
+
+Katso turvallisuustiedot pakkausselosteesta.
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Odota**
+
+**Perustelut:**
+TxGNN-pistemäärä tälle erityiselle molekyyliselle alaryhmälle on korkea, mutta se ei ole tuettu millään suoralla kliinisellä tutkimuksella tai julkaisulla — mekanistinen perustelu on kokonaan ekstrapoloitu ofatumumabin laajemmasta CLL/SLL-näytöpohjasta pikemminkin kuin alaryhmäkohtaisista tiedoista. Tämä ei täytä vaatimuksia edetä S1 (Tutkimuskysymys) -vaiheen yli.
+
+**Jatkaaksemme, seuraava on tarpeen:**
+- Alaryhmäkohtainen kliininen tutkimus tai kirjallisuuden näyttö IGHV-mutoimattomille/pregeerminalikeskuksen CLL/SLL:lle
+- TFDA/Fimea-pakkausselosteen varoitukset ja vasta-aiheet (tällä hetkellä estävä tietojen puute, DG001) — vaaditaan ennen mitään S1-turvallisuusseulontaa
+- Vahvistetut vaikutusmekanismin tiedot DrugBankista (korkean vakavuuden tietojen puute, DG002)
+- Suomen sääntelyyn ja markkinatilanteen päivitys, kun lääkettä ei tällä hetkellä myydä siellä
+
+**Huomio kontekstissa:** samassa näytöpaketissa muilla TxGNN-ennustetuilla ofatumumabin indikaatioilla on huomattavasti vahvempi näyttö — krooninen lymfosyyttileukemia/piensolulympfooma kokonaisuudessaan (sijoitus 5, L1, "Jatka turvavälinein", sisältäen valmiit Phase 3 -tutkimukset) ja follikkelimainen lymfooma (sijoitus 3, L2, useita valmiita Phase 2/3 -tutkimuksia). Nämä ehdokkaat saattavat vaatia erillistä, korkeamman prioriteetin arviointia.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

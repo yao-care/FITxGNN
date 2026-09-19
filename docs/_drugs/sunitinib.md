@@ -29,102 +29,101 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-Using the evidence pack directly (no skill applies — this is a templated content-generation task with the format fully specified in the prompt).
+# Sunitinibi: Munuaisvälikarsinooman hyväksynnästä liposarkooman hoitoon
 
-# Sunitinib: From Renal Cell Carcinoma to Liposarcoma
+## Yhden lauseen yhteenveto
 
-## One-Sentence Summary
+Sunitinibi on moneen kohteeseen kohdentuva tyrosiinikinaasinsalpaaja, joka on jo kansainvälisesti hyväksytty munuaisvälikarskinoomaan, gastrointestinaalisten stromaseikkelojen tuumoriin (GIST) ja haiman neuroendokriinisiin tumoreihin, vaikka sitä ei tällä hetkellä markkinoida Suomessa. TxGNN-malli ennustaa sen voivan olla tehokasta myös **liposarkooman** hoidossa, ja tätä suuntaa tukee **3 kliinistä tutkimusta** ja **9 julkaisua**. Sama todistepaketti palautti myös itsenäisesti sunitinibin tunnetun munuaisvälikarskinooman aktiivisuuden (L1-todisteet), mikä lisää mallin luotettavuutta myös vähemmän vahvistettujen ennusteiden osalta.
 
-Sunitinib is a multi-targeted tyrosine kinase inhibitor already established globally for renal cell carcinoma, GIST, and pancreatic neuroendocrine tumours, though it is not currently marketed in Finland. The TxGNN model predicts it may also be effective for **Liposarcoma**, with **3 clinical trials** and **9 publications** currently supporting this direction. The same evidence pack also independently recovered sunitinib's known renal cell carcinoma activity (L1 evidence), which lends credibility to the model's less-established predictions.
+## Nopea yleiskatsaus
 
-## Quick Overview
-
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Not documented in Fimea licensing data (drug not marketed in Finland); literature within this evidence pack confirms sunitinib is a globally approved first-line therapy for advanced/metastatic renal cell carcinoma |
-| Predicted New Indication | Liposarcoma |
-| TxGNN Prediction Score | 99.87% |
-| Evidence Level | L2 |
-| Finland Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Alkuperäinen indikaatio | Ei dokumentoitu Fimean lupatieto-arkistossa (lääkettä ei markkinoida Suomessa); kirjallisuus tässä todeistepaketeissa vahvistaa, että sunitinibi on maailmanlaajuisesti hyväksytty ensilinjan hoito edistyneeseen/etäpesäkkeiseen munuaisvälikarskinoomaan |
+| Ennustettu uusi indikaatio | Liposarkooma |
+| TxGNN-ennustepisteet | 99.87% |
+| Todisteiden tasot | L2 |
+| Suomen markkina-asema | ✗ Ei markkinoitu |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Jatka varauksilla |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on perusteltu?
 
-Detailed structured mechanism-of-action data is not available for this drug entry. Based on information embedded in the trial and literature evidence collected for this pack, sunitinib is described repeatedly as a **multitargeted receptor tyrosine kinase inhibitor**, acting on VEGFR, PDGFR, and KIT, and working by "blocking some of the enzymes needed for cell growth and by blocking blood flow to the tumor" (NCT00474994). Its efficacy in VEGF/PDGFR-driven cancers such as renal cell carcinoma is well proven — reflected in this same evidence pack, where sunitinib appears as the historical standard-of-care comparator arm in numerous Phase 3 renal cell carcinoma trials (e.g., NCT00083889, NCT02231749, NCT03141177).
+Yksityiskohtaista rakenteista vaikutusmekanismi-tietoa ei ole saatavilla tälle lääkkeen merkinnälle. Tutkimuksissa ja kirjallisuudessa, jotka kerättiin tähän todistepakettiin, sunitinibia kuvataan toistuvasti **moneen kohteeseen kohdentuneena reseptorin tyrosiinikinaasinsalpaajana** (RTK-salpaaaja), joka vaikuttaa VEGFRiin, PDGFRiin ja KITiin ja toimii "estämällä joitain entsyymiä, joita kasvaimen kasvu tarvitsee, ja estämällä verivirran tuumoria kohti" (NCT00474994). Sen tehokkuus VEGF/PDGFR-ohjaamissa syövissä, kuten munuaisvälikarskinoossa, on hyvin dokumentoitu — mikä näkyy tässä samassa todeistepaketeissa, jossa sunitinibi esiintyy historiallisena standardihoitona useissa Phase 3 -munuaisvälikarskinooman tutkimuksissa (esim. NCT00083889, NCT02231749, NCT03141177).
 
-Soft tissue sarcomas, including several liposarcoma subtypes, frequently show PDGFR and VEGFR pathway activation, providing a plausible mechanistic bridge from the drug's proven anti-angiogenic/anti-proliferative activity in renal cell carcinoma to activity in liposarcoma. This is not a purely theoretical leap: two completed Phase 2 trials (NCT00400569, NCT00474994) already tested sunitinib directly in liposarcoma patients as part of broader soft-tissue-sarcoma cohorts, and a published case report (PMID 23482782) documents long-lasting clinical benefit in a heavily pre-treated metastatic liposarcoma patient.
+Pehmyt-kudossarkomat, mukaan lukien useat liposarkooman alatyypit, osoittavat usein PDGFR- ja VEGFR-signaalitieväylien aktivaatiota, mikä tarjoaa uskottavan mekanistisen sillan lääkkeen todistetusta anti-angiogeneettisesta/anti-proliferatiivisesta aktiivisuudesta munuaisvälikarskinooman hoidossa liposarkooman aktiivisuuteen. Tämä ei ole puhtaasti teoreettinen hyppäys: kaksi valmistunutta Phase 2 -tutkimusta (NCT00400569, NCT00474994) testasivat jo sunitiniibia suoraan liposarkooma-potilaille osana laajempia pehmytkudossarkooma-kohortteja, ja julkaistu tapausraportti (PMID 23482782) dokumentoi pitkäkestoisen kliinisen hyödyn voimakkaasti esikäsitellyssä etäpesäkkeellisessä liposarkooma-potilaassa.
 
-That said, liposarcoma is histologically heterogeneous. Well-differentiated and dedifferentiated subtypes are predominantly MDM2-driven rather than PDGFR/VEGFR-driven, so sunitinib's activity is likely confined to specific subtypes (e.g., myxoid/round-cell liposarcoma) rather than the disease as a whole — a caveat the evidence pack itself flags.
+Liposarkooma on kuitenkin histologisesti heterogeeninen. Hyvin differensoituneet ja dedifferensoituneet alatyypit ovat pääasiassa MDM2-ohjattuja eikä PDGFR/VEGFR-ohjattuja, joten sunitinibin aktiivisuus on todennäköisesti rajoitettu tiettyihin alatyyppeihin (esim. myksoidiseen/pyöreäsoluiseen liposarkooma) koko sairauden sijaan — varoitus, jonka todistepaketti itse merkitsee.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen todisteet
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimusnumero | Vaihe | Tila | Osallistujamäärä | Keskeisiä tuloksia |
 |---------|------|------|------|---------|
-| [NCT00400569](https://clinicaltrials.gov/study/NCT00400569) | Phase 2 | Completed | 48 | Open-label single-site trial of sunitinib malate in adult patients with metastatic/unresectable soft tissue sarcoma, including liposarcoma, leiomyosarcoma, fibrosarcoma, and MFH |
-| [NCT00474994](https://clinicaltrials.gov/study/NCT00474994) | Phase 2 | Completed | 53 | Multicenter continuous-dosing sunitinib trial in non-GIST sarcomas (metastatic, locally advanced, or recurrent); liposarcoma among eligible histologies |
-| [NCT02048371](https://clinicaltrials.gov/study/NCT02048371) | Phase 2 | Completed | 131 | SARC024 basket study of oral regorafenib (not sunitinib) across sarcoma subtypes including liposarcoma; only indirectly relevant, cited as precedent for kinase-inhibitor activity in sarcomas |
+| [NCT00400569](https://clinicaltrials.gov/study/NCT00400569) | Phase 2 | Valmistunut | 48 | Avoin, yksittäisen sairaalan sunitinibi maleat -tutkimus aikuisilla potilailla, joilla metastaattiset/poistamaton pehmytkudossarkooma, mukaan lukien liposarkooma, leiomyosarkooma, fibrosarkooma ja MFH |
+| [NCT00474994](https://clinicaltrials.gov/study/NCT00474994) | Phase 2 | Valmistunut | 53 | Monikeskuksinen jatkuvan annoksen sunitinibi-tutkimus non-GIST-sarkoomeissa (metastaattiset, paikallisesti edenneet tai uusiutuvat); liposarkooma kelpoisten histologioiden joukossa |
+| [NCT02048371](https://clinicaltrials.gov/study/NCT02048371) | Phase 2 | Valmistunut | 131 | SARC024-korisäily regorafenibia (ei sunitiniibia) käyttäen eri sarkooma-alatyyppien välillä, mukaan lukien liposarkooma; vain välillisesti relevantti, viitattava seuraavaksi kinaasin estäjän aktiivisuudesta sarkoomeissa |
 
-## Literature Evidence
+## Kirjallisuuden todisteet
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeisiä tuloksia |
 |------|-----|------|------|---------|
-| [21154746](https://pubmed.ncbi.nlm.nih.gov/21154746/) | 2011 | Phase 2 trial | International Journal of Cancer | Phase 2 study of sunitinib malate in relapsed/refractory soft tissue sarcoma, with dedicated focus on leiomyosarcoma, liposarcoma, and MFH |
-| [23482782](https://pubmed.ncbi.nlm.nih.gov/23482782/) | 2013 | Case report | Anticancer Research | Long-lasting clinical benefit of sunitinib malate in a heavily pre-treated metastatic liposarcoma patient |
-| [38254762](https://pubmed.ncbi.nlm.nih.gov/38254762/) | 2024 | Review (genomic) | Cancers | Genetic, epigenetic, and transcriptomic alterations in liposarcoma relevant to target-therapy selection |
-| [24712007](https://pubmed.ncbi.nlm.nih.gov/24712007/) | 2014 | Review | Magyar Onkologia | Medical treatment of adult soft tissue sarcomas by histological subtype, including targeted-agent options |
-| [24555529](https://pubmed.ncbi.nlm.nih.gov/24555529/) | 2014 | Review | Expert Review of Anticancer Therapy | Emerging systemic therapies for adult soft tissue sarcoma |
-| [22987955](https://pubmed.ncbi.nlm.nih.gov/22987955/) | 2012 | Review | Annals of Oncology | Histology-driven medical treatment of soft tissue sarcomas, noting subtype-specific chemosensitivity |
-| [38717131](https://pubmed.ncbi.nlm.nih.gov/38717131/) | 2024 | Case series (pathology) | American Journal of Surgical Pathology | Clinicopathologic analysis of myxoid inflammatory myofibroblastic sarcoma, a related but distinct sarcoma entity |
-| [28423517](https://pubmed.ncbi.nlm.nih.gov/28423517/) | 2017 | Genomic profiling | Oncotarget | Next-generation sequencing of extraskeletal myxoid chondrosarcoma, evaluating predictors of sunitinib benefit |
-| [25884155](https://pubmed.ncbi.nlm.nih.gov/25884155/) | 2015 | Trial protocol (regorafenib) | BMC Cancer | REGOSARC protocol for regorafenib in advanced soft tissue sarcoma; different drug, cited for angiogenesis-pathway rationale only |
+| [21154746](https://pubmed.ncbi.nlm.nih.gov/21154746/) | 2011 | Phase 2 -tutkimus | International Journal of Cancer | Phase 2 -tutkimus sunitinibi maleaatista relapsissa/refraktaarisissa pehmytkudossarkoomissa, erityisellä fokuksella leiomyosarkooma, liposarkooma ja MFH |
+| [23482782](https://pubmed.ncbi.nlm.nih.gov/23482782/) | 2013 | Tapausraportti | Anticancer Research | Pitkäkestoinen kliininen hyöty sunitinibi maleaatista voimakkaasti esikäsitellyssä metastaattisessa liposarkooma-potilaassa |
+| [38254762](https://pubmed.ncbi.nlm.nih.gov/38254762/) | 2024 | Katsaus (genominen) | Cancers | Geneettiset, epigeenist ja transkriptomiset muutokset liposarkooma, jotka ovat olennaisia kohdehoitojen valintaan |
+| [24712007](https://pubmed.ncbi.nlm.nih.gov/24712007/) | 2014 | Katsaus | Magyar Onkologia | Aikuisten pehmytkudossar kooman lääkehoito histologisen alatyypin mukaan, mukaan lukien kohdeaine-vaihtoehdot |
+| [24555529](https://pubmed.ncbi.nlm.nih.gov/24555529/) | 2014 | Katsaus | Expert Review of Anticancer Therapy | Nousevat systeemiset terapiat aikuisen pehmytkudossarkooman hoidossa |
+| [22987955](https://pubmed.ncbi.nlm.nih.gov/22987955/) | 2012 | Katsaus | Annals of Oncology | Histologiaperustainen lääkehoito pehmytkudossarkoomissa, huomioiden alatyypin kohtainen kemiaherkkyys |
+| [38717131](https://pubmed.ncbi.nlm.nih.gov/38717131/) | 2024 | Tapaussarja (patologia) | American Journal of Surgical Pathology | Myksoidisen tulehduksellisen myofibroblastisen sarkooman kliinipatolooginen analyysi, asiaan liittyvä mutta eri sarkooma-kokonaisuus |
+| [28423517](https://pubmed.ncbi.nlm.nih.gov/28423517/) | 2017 | Genominen profilointi | Oncotarget | Seuraavan sukupolven sekvensointi ekskeletaalisessa myksoidissa kondrosarkooma, ennustajien arvioiminen sunitinibin hyödystä |
+| [25884155](https://pubmed.ncbi.nlm.nih.gov/25884155/) | 2015 | Tutkimusprotokolla (regorafenibi) | BMC Cancer | REGOSARC-protokolla regoafenibille edistyneessä pehmytkudossarkooma; eri lääke, viitattava vain angiogeneesi-signaalitie-logiikasta |
 
-## Finland Market Information
+## Suomen markkina-tieto
 
-Sunitinib is **not currently marketed in Finland**. No Fimea marketing authorizations are on record in this evidence pack (0 licenses), so no product-level dosage form or indication text is available.
+Sunitinibi **ei ole tällä hetkellä markkinoitu Suomessa**. Fimean myyntiluvista ei ole kirjauksia tässä todeistepaketeissa (0 lupaa), joten tuotteen taso-annoksen muoto tai indikaatioteksti eivät ole saatavilla.
 
-## Cytotoxicity
+## Sytotoksikiteetti
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (multi-targeted receptor tyrosine kinase inhibitor; VEGFR/PDGFR/KIT), not a conventional cytotoxic agent |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Given the drug class, standard practice for oral VEGFR-targeted TKIs includes CBC with differential, liver and renal function, and blood pressure/cardiac monitoring; exact thresholds pending Fimea package insert (data gap) |
-| Handling Protection | Oral capsule formulation; standard oral antineoplastic handling precautions apply (avoid crushing/opening capsules); confirm against local hazardous-drug handling policy pending package insert |
+| Sytotoksikiteetin luokitus | Kohdehoito (moneen kohteeseen kohdentuva reseptorin tyrosiinikinaasinsalpaaja; VEGFR/PDGFR/KIT), ei tavanomainen sytotoksinen aine |
+| Ydinsolun vajaustumisen riski | Katso pakkausselosteen varoitukset ja varotoimet |
+| Pahoinvointiluokitus | Katso pakkausselosteen varoitukset ja varotoimet |
+| Seurannan kohteet | Annettu lääkkeen luokka, vakiosuunnitelma suun kautta otettuihin VEGFR-kohdistettuihin TKI-lääkkeisiin sisältää CBC-testi differentiaaliolla, maksa- ja munuaisten toiminta, ja verenpaine/sydämen valvonta; tarkat rajat riippuen Fimean pakkauksesta (tietokulkeväli) |
+| Käsittelyn suojaus | Suun kautta otettava kapselimuoto; vakio-suun kautta otettavat antineoplastiset käsittelytoimet ovat voimassa (vältä kapselien murskaamista/avaamista); vahvista paikallisen vaarallisten lääkkeiden käsittelykäytännön mukaan pakkausselosteen perusteella |
 
-## Safety Considerations
+## Turvallisuus-näkökulmat
 
-Please refer to the package insert for safety information. Fimea warnings, contraindications, and drug-interaction data are not yet available in this evidence pack (flagged as a Blocking data gap — see Conclusion).
+Katso pakkauseloste turvallisuustiedoista. Fimean varoitukset, vasta-aiheet ja lääkkeen vuorovaikutustiedot eivät ole vielä saatavilla tässä todeistepaketeissa (merkitty blokaavaksi tietovajeeksi — katso Johtopäätös).
 
-## Other Candidate Indications Identified in This TxGNN Run
+## Muut ehdokkaat indikaatiot tunnistettu tässä TxGNN-ajossa
 
-This evidence pack scored ten candidate indications for sunitinib. For context, they are summarized below; only liposarcoma (rank 1) is detailed above.
+Tämä todeistepaketti arvioi kymmenen ehdokkaan indikaation sunitiniibille. Kontekstiksi ne on yhteenveto alla; vain liposarkooma (sija 1) on yksityiskohtaisesti edellä.
 
-| Rank | Disease | TxGNN Score | Evidence Level | Decision |
+| Sija | Sairaus | TxGNN pisteet | Todisteen taso | Päätös |
 |------|---------|-------------|-----------------|----------|
-| 2 | Ovarian myxoid liposarcoma | 99.84% | L3 | Research Question |
-| 3 | RCC associated with neuroblastoma | 99.78% | L5 | Hold (trial linkage appears mismatched) |
-| 4 | RCC with Xp11.2/TFE3 fusion | 99.78% | L3 | Research Question |
-| 5 | Unclassified RCC | 99.78% | L2 | Proceed with Guardrails |
-| 6 | Dermatofibrosarcoma protuberans | 99.73% | L2 | Proceed with Guardrails |
-| 7 | Childhood kidney cell carcinoma | 99.72% | L4 | Research Question |
-| 8 | Angiolipoma | 99.67% | L5 | Hold (benign, no systemic-therapy rationale) |
-| 9 | Renal carcinoma | 99.65% | L1 | Proceed with Guardrails (already a globally approved indication, not a novel finding) |
-| 10 | Heart fibrosarcoma | 99.63% | L5 | Hold (no evidence, cardiotoxicity concern with TKI use) |
+| 2 | Munasarjan myksoidinen liposarkooma | 99.84% | L3 | Tutkimuskysymys |
+| 3 | Munuaisvälikarsinoma neurologiastokesin yhteydessä | 99.78% | L5 | Pidätä (tutkimuksen linkitys näyttää virheelliseltä) |
+| 4 | Munuaisvälikarsinoma Xp11.2/TFE3-fuusion kanssa | 99.78% | L3 | Tutkimuskysymys |
+| 5 | Luokittelematon munuaisvälikarsinoma | 99.78% | L2 | Jatka varauksilla |
+| 6 | Dermatofibrosarkooma protuberans | 99.73% | L2 | Jatka varauksilla |
+| 7 | Lapsuuden munuaisen solukarsinom | 99.72% | L4 | Tutkimuskysymys |
+| 8 | Angiolipoomu | 99.67% | L5 | Pidätä (hyvänlaatuinen, ei systeemihoitoperustetta) |
+| 9 | Munuaisvälikarsinoma | 99.65% | L1 | Jatka varauksilla (jo globaalisti hyväksytty indikaatio, ei uusi löydös) |
+| 10 | Sydämen fibrosarkooma | 99.63% | L5 | Pidätä (ei todistetta, kardiotoksuksiushuoli TKI-käytön kanssa) |
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Proceed with Guardrails**
+**Päätös: Jatka varauksilla**
 
-**Rationale:**
-Two completed Phase 2 trials and a case report directly support sunitinib activity in liposarcoma, and the mechanistic link (VEGFR/PDGFR pathway) is grounded in evidence already present in this pack. However, liposarcoma's histological heterogeneity means benefit is likely subtype-specific, and no Finland-specific regulatory or safety data currently exist.
+**Perustelut:**
+Kaksi valmistunutta Phase 2 -tutkimusta ja tapausraportti tukevat suoraan sunitinibin aktiivisuutta liposarkooma-hoidossa, ja mekanistinen silta (VEGFR/PDGFR-signaalitie) on perustunut jo tässä paketissa oleviin tietoihin. Liposarkooman histologinen heterogeenisuus tarkoittaa kuitenkin, että hyöty on todennäköisesti alatyypin erityistä, eikä Suomen-kohtaisia säännöllisiä tai turvallisuustietoja ole tällä hetkellä saatavilla.
 
-**To proceed, the following is needed:**
-- Fimea package insert warnings, contraindications, and full safety profile (currently a Blocking data gap)
-- Structured DrugBank mechanism-of-action data to formally confirm target/pathway claims
-- Subtype-level liposarcoma response data (e.g., myxoid/round-cell vs. well-differentiated/dedifferentiated) to refine the guardrails for patient selection
-- A regulatory pathway assessment given sunitinib is not currently marketed in Finland
+**Jatkaakseen tarvitaan seuraavaa:**
+- Fimean pakkausseloste, varoitukset, vasta-aiheet ja täysi turvallisuusprofiili (tällä hetkellä blokaava tietokulkeväli)
+- Rakenteellinen DrugBank-vaikutusmekanismi-tieto muodollisesti vahvistamaan kohde/signaalitie-väitteet
+- Alatyypin tasolla liposarkooma-vastetieto (esim. myksoidinen/pyöreäsoluinen vs. hyvin-differensoitunut/dedifferensoitunut) varausehtojen tarkentamiseksi potilaiden valinnassa
+- Säännöllinen polku-arviointi, koska sunitinibia ei ole tällä hetkellä markkinoitu Suomessa
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

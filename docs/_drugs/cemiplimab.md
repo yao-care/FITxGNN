@@ -29,72 +29,73 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Cemiplimab: From Cutaneous Squamous Cell Carcinoma to Gallbladder Adenosquamous Carcinoma
+# Cemiplimab: ihon levyepiteelisyövästä sappirakontaadenoskvamöösaariseen syöpään
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Cemiplimab is an anti-PD-1 immune checkpoint inhibitor originally developed for advanced cutaneous squamous cell carcinoma, basal cell carcinoma, and non-small cell lung cancer. The TxGNN model's top-ranked prediction for this candidate is **gallbladder adenosquamous carcinoma**, but this direction is currently supported by **0 clinical trials** and **0 publications** — it is a pure network-based prediction with no external validation.
+Cemiplimab on anti-PD-1-immuunipiste-estäjä, joka alun perin kehitettiin kehittyneelle ihon levyepiteelisyövälle (cutaneous squamous cell carcinoma), okasolasyövälle ja ei-pienisoluiselle keuhkosyövälle. TxGNN-mallin tämän kandidaatin huipulla sijoittuva ennuste on **sappirakontaadenoskvamösaarinen karsinooma**, mutta tätä suuntaa tuetaan tällä hetkellä **0 kliinisellä tutkimuksella** ja **0 julkaisulla** — se on puhtaasti verkkopohjaisesti johdettu ennuste ilman ulkoista validointia.
 
-## Quick Overview
+## Pikakatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Kehittynyt/metastasoitunut ihon levyepiteelisyöpä (CSCC); myös hyväksytty okasolasyövän ja ei-pienisoluisen keuhkosyövän hoitoon (tunnettujen lääkeaineen luokittelutietojen perusteella, ei saatavissa tässä todistetapaketeissa) |
+| Ennustettu uusi indikaatio | Sappirakontaadenoskvamösaarinen karsinooma |
+| TxGNN-ennusteen pistemäärä | 99,99% |
+| Näyttötaso | L5 |
+| Saatavuus Suomen markkinoilla | Ei saatavissa markkinoilla |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Odota |
+
+## Miksi tämä ennuste on järkevä?
+
+Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavissa tässä todistetapaketeissa. Tunnettujen tietojen perusteella cemiplimab on täysin inhimillinen IgG4-monoklonaalinen vasta-aine, joka kuuluu anti-PD-1-immuunipiste-estäjien luokkaan. Sen tehokkuus ihon levyepiteelisyövässä, okasolasyövässä ja ei-pienisoluisessa keuhkosyövässä on kliinisesti todistettu ja hyvin vakiintunut tämän tietojoukkon ulkopuolella.
+
+Sappirakontaadenoskvamösaarinen karsinooma sisältää levyepiteelidifferentiaation komponentin, joka teoriassa voisi ilmaista PD-L1:tä ja siten vastata PD-1-estohoidolle samalla tavalla kuin cemiplimab vaikuttaa levyepiteelisyöpiin muualla. Kuitenkin immuuni-onkologian näyttöperusta sappirakonsyövälle kokonaisuudessaan on heikko, ja sappiratojen syövät ovat yleensä matalan tuumorimuutostiheyden ja heikosti immunogeenisia ("kylmä") syöpiä verrattuna ihon ja keuhkojen levyepiteelisyöpiin.
+
+Tämän seurauksena tätä mekanistista yhteyttä tulisi tulkita pikemminkin verkkopohjaisesti johdetuksi hypoteesiksi kuin validoiduksi farmakologiseksi perusteluksi — se on puhtaasti ennustettu yhdistelmä ilman tukevaa kliinistä tai kirjallisuusperäistä näyttöä nykyisessä tietojoukossa.
+
+## Kliinisen tutkimuksen näyttö
+
+Tällä hetkellä ei ole saatavissa asiaan liittyviä rekisteröityjä kliinisiä tutkimuksia
+
+## Kirjallisuuden näyttö
+
+Tällä hetkellä ei ole saatavissa asiaan liittyvää kirjallisuutta
+
+## Saatavuus Suomen markkinoilla
+
+Cemiplimabilla ei ole tällä hetkellä markkinointilupaa Suomessa (0 lupaa tallennettu tässä todistetapaketeissa). Fimean rekisteristä ei ole saatavissa tuotenimi, annosmuoto tai hyväksyttyjä indikaatioita tämän kandidaatin osalta.
+
+## Sytotoksisyys
+
+Cemiplimab on antineoplastinen aine (immuunipiste-estäjä, jota käytetään monissa karsinoomiissa), joten tämä osio on soveltuvaa. DrugBankista ei saatu lääkkeenkohtaisia myrkyllisyystietoja tässä todistetapaketeissa; alla oleva taulukko heijastaa anti-PD-1-monoklonaalisten vasta-aineiden luokan yleisiä ominaisuuksia ja se tulee vahvistaa pakkauselosteen kohdasta heti kun se on saatavilla.
+
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Advanced/metastatic cutaneous squamous cell carcinoma (CSCC); also approved for basal cell carcinoma and NSCLC (based on known drug class information, not present in this evidence pack) |
-| Predicted New Indication | Gallbladder adenosquamous carcinoma |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L5 |
-| Finland Market Status | Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Sytotoksisyyden luokitus | Immuuniterapia (anti-PD-1-immuunipiste-estäjä) — ei perinteinen sytotoksinen aine |
+| Luuydinsuppression riski | Matala (immuunipiste-estäjät eivät suoraan sortua luuydintä; hematoloogiset immuuniin liittyvät haittavaikutukset ovat harvinaisia) |
+| Pahoinvoinnin aiheuttamisen luokitus | Matala (minimaali suora pahoinvointia aiheuttava potentiaali verrattuna sytotoksiseen kemotherapiaan) |
+| Seurattavat tekijät | Lähtötasomittaus ja säännölliset mittaukset: kilpirauhastoiminta, maksatoiminta (ALT/AST/bilirubiini), munuaisten toiminta ja kliininen seuranta immuuniin liittyville haittavaikutuksille (koliitti, pneumoniitti, dermaattiitti, endokrinopathiat) |
+| Käsittelyvarotoimet | Vakio-IV-infuusion varotoimet monoklonaalisten vasta-aineiden osalta; sytotoksisten lääkkeiden käsittelysäännökset (esim. suljetun järjestelmän siirtölaitteet) eivät ole pakollisia kuten perinteisen kemoterapian osalta |
 
-## Why is This Prediction Reasonable?
+## Turvallisuushuomiot
 
-Currently, detailed mechanism of action data is not available for this evidence pack. Based on known information, cemiplimab is a fully human IgG4 monoclonal antibody belonging to the anti-PD-1 immune checkpoint inhibitor class. Its efficacy in cutaneous squamous cell carcinoma, basal cell carcinoma, and non-small cell lung cancer has been clinically proven and is well established outside this dataset.
+Katso turvallisuustiedot pakkauselosteen kohdasta.
 
-Gallbladder adenosquamous carcinoma contains a squamous differentiation component, which in theory could express PD-L1 and thus respond to PD-1 blockade in the same way cemiplimab acts against squamous tumors elsewhere. However, the immuno-oncology evidence base for gallbladder cancer as a whole is weak, and biliary tract tumors are generally considered a low tumor-mutational-burden, poorly immunogenic ("cold") setting compared to skin or lung squamous cancers.
+## Johtopäätös ja seuraavat vaiheet
 
-As a result, this mechanistic link should be read as a network-derived hypothesis rather than a validated pharmacological rationale — it is a purely predictive association with no supporting clinical or literature evidence in the current dataset.
+**Päätös: Odota**
 
-## Clinical Trial Evidence
+**Perustelut:**
+Ennustetulla indikaatiolla (sappirakontaadenoskvamösaarinen karsinooma) ei ole tukevia kliinisiä tutkimuksia tai kirjallisuusviittauksia, ja tumorin immuunologisesti "kylmä" luonne heikentää mekanistista perustelua. Ilman saatavuutta Suomen markkinoilla ja TFDA:n pakkausselosteen (DG001, esto) ja täydellisen vaikutusmekanismin tietueen (DG002, korkea) ollessa vielä ratkaisematta, tämä kandidaatti ei voi edetä malliennusteen (L5/S0) yli tässä vaiheessa.
 
-Currently no related clinical trials registered
+**Jatkaakseen seuraavaa tarvitaan:**
+- TFDA/Fimean pakkausseloste (varoitukset, vasta-aiheet) — tällä hetkellä este-aineiston puute
+- Vahvistettu täydellinen vaikutusmekanismi ja DrugBank-myrkyllisyysprofiilin
+- Prekliininen tai potilastapaus-tason näyttö PD-L1:n ilmaisusta / immuunisolujen tunkeutumisesta sappirakontaadenoskvamöösaariseen karsinooma
+- Harkitse sensiaan sijoituksen 4 (korvan ulkopinta okasolasyöpä) priorisointia, jolla on jo L4-näyttö, S1-päätösvaihe ja yksi tukeva potilastapausraportti, koska se laajentaa indikaatiota, jolle cemiplimab on jo hyväksytty
 
-## Literature Evidence
-
-Currently no related literature available
-
-## Finland Market Information
-
-Cemiplimab does not currently hold a marketing authorization in Finland (0 licenses on file in this evidence pack). No product name, dosage form, or approved-indication text is available from the Fimea registry for this candidate.
-
-## Cytotoxicity
-
-Cemiplimab is an antineoplastic agent (immune checkpoint inhibitor used across multiple carcinomas), so this section applies. No drug-specific toxicity data was returned by DrugBank in this evidence pack; the table below reflects general characteristics of the anti-PD-1 monoclonal antibody class and should be confirmed against the package insert once available.
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Immunotherapy (anti-PD-1 immune checkpoint inhibitor) — not a conventional cytotoxic agent |
-| Myelosuppression Risk | Low (checkpoint inhibitors do not directly suppress bone marrow; hematologic irAEs are uncommon) |
-| Emetogenicity Classification | Low (minimal direct emetogenic potential compared to cytotoxic chemotherapy) |
-| Monitoring Items | Baseline and periodic thyroid function, liver function (ALT/AST/bilirubin), renal function, and clinical monitoring for immune-related adverse events (colitis, pneumonitis, dermatitis, endocrinopathies) |
-| Handling Protection | Standard IV infusion precautions for monoclonal antibodies; cytotoxic drug handling regulations (e.g., closed-system transfer devices) are not required as with conventional chemotherapy |
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The predicted indication (gallbladder adenosquamous carcinoma) has no supporting clinical trials or literature, and the tumor's immunologically "cold" biology weakens the mechanistic rationale. With no Finland market presence and a TFDA package insert (DG001, blocking) and full MOA record (DG002, high) still outstanding, this candidate cannot advance past model prediction (L5/S0) at this time.
-
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert (warnings, contraindications) — currently a blocking data gap
-- Confirmed full mechanism of action and DrugBank toxicity profile
-- Preclinical or case-level evidence of PD-L1 expression / immune infiltrate in gallbladder adenosquamous carcinoma
-- Consider prioritizing rank 4 (external ear basal cell carcinoma) instead, which already has L4 evidence, an S1 decision stage, and one supporting case report, since it extends an indication cemiplimab is already approved for
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

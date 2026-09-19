@@ -29,98 +29,99 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **7** kpl
 
 </div>
 
-# Plerixafor: From Stem Cell Mobilization to Myeloid Leukemia Chemosensitization
+# Plerixafor: kantasolun mobilisaatiosta myeloidisen leukemian kemosensitisaatioon
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-> Plerixafor is a CXCR4 antagonist originally used to mobilize hematopoietic stem cells for transplantation in lymphoma and multiple myeloma patients.
-> Among several TxGNN-predicted indications for this drug, **myeloid leukemia (AML) chemosensitization** is the only candidate with substantial supporting evidence,
-> with **30 clinical trials** and **20 publications** currently on record. (Note: TxGNN's single highest-scoring prediction, indolent plasma cell myeloma at 99.97%, currently has zero supporting trials or literature and was screened out.)
+> Plerixafor on CXCR4-antagonisti, jonka alkuperäinen käyttöaihe on hematopoieettisten kantasolun mobilisaatio siirtämistä varten lymfoomaan ja multippeliin myeloomaan sairastuvilla potilailla.
+> Useiden TxGNN-ennustettujen käyttöaiheista plerixaforolille **myeloidinen leukemia (AML) kemosensitisaatio** on ainoa ehdokas, jolla on merkittävää tukevaa näyttöä,
+> ja siihen liittyy tällä hetkellä **30 kliinistä tutkimusta** ja **20 julkaisua**. (Huomio: TxGNN:n yksittäin korkeimmin pisteytetty ennuste, indolentin plasma-solumyelooma 99,97 %:lla, ei tällä hetkellä ole yhtään tukevaa tutkimusta tai kirjallisuutta ja se seulottiin pois.)
 
 ---
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Hematopoietic stem cell mobilization (with G-CSF) prior to autologous transplantation — no structured license record available in this evidence pack |
-| Predicted New Indication | Myeloid Leukemia (AML) — chemosensitization / leukemic stem cell mobilization |
-| TxGNN Prediction Score | 99.02% |
-| Evidence Level | L2 |
-| Finland Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen käyttöaihe | Hematopoieettisten kantasolun mobilisaatio (G-CSF:n kanssa) autologista kantasolusiirtämistä varten – myyntilupaan liittyviä strukturoituja tietoja ei ole saatavilla tässä näyttöpaketissa |
+| Ennustettu uusi käyttöaihe | Myeloidinen leukemia (AML) – kemosensitisaatio / leukemian kantasolun mobilisaatio |
+| TxGNN-ennustuspistemäärä | 99,02 % |
+| Näytön taso | L2 |
+| Suomen markkinatilanne | ✗ Ei markkinoilla |
+| Myyntilupien lukumäärä | 0 |
+| Suositeltu päätös | Odota |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Plerixafor is a CXCR4 antagonist that blocks the CXCL12(SDF-1)/CXCR4 signaling axis. Its original approved pharmacology disrupts the interaction between hematopoietic stem cells and their protective bone marrow niche, releasing them into peripheral blood so they can be collected for transplantation.
+Plerixafor on CXCR4-antagonisti, joka estää CXCL12(SDF-1)/CXCR4-signaloinnin. Sen alkuperäisen hyväksytyn farmakologian seurauksena hematopoieettisten kantasolun ja niiden suojaavan luuydin niche-alueen vuorovaikutus katkeaa, jolloin kantasolut vapautuvat perifeeriseen verenkiertoon ja ne voidaan kerätä siirtämiseen.
 
-Myeloid leukemia cells (AML blasts and leukemic stem cells) use this same CXCR4/SDF-1 interaction to anchor themselves in protective bone marrow niches, where they evade chemotherapy and drive relapse. The mechanistic hypothesis — extensively tested in investigator-initiated trials since the AMD3100 era (plerixafor's original development code) — is that blocking CXCR4 mobilizes leukemic cells out of this protective niche, sensitizing them to concurrent chemotherapy (cytarabine, daunorubicin, decitabine, sorafenib, clofarabine, etc.).
+Myeloidisen leukemian solut (AML-blasit ja leukemian kantasolut) hyödyntävät samaa CXCR4/SDF-1-vuorovaikutusta ankkuroitumiseen suojaavissa luuydin niche-alueissa, joissa ne pakenevat kemoterapiasta ja edistävät uusiutumista. Mekanistinen hypoteesi – jota on laajalti tutkittu tutkija-aloitteisissa kliinisissä tutkimuksissa AMD3100-kehityskauden jälkeen (plerixaforin alkuperäinen kehityskoodi) – on, että CXCR4:n esto mobilisoi leukemian soluja näistä suojaavista niche-alueista, mikä tekee niistä herkempiä samanaikaiselle kemoterapialle (sytarabi, daunorubisini, desitabiini, sorafenibi, klofarabiini jne.).
 
-This is a direct mechanistic extension of the drug's known pharmacology rather than an unrelated repurposing hypothesis, which is reflected in the depth of clinical investigation already performed (multiple Phase 1/2 studies across pediatric and adult AML/MDS populations spanning 2004–2026).
+Kyse on lääkkeen tunnetun farmakologian suorasta mekanistisesta jatkeesta, ei liittymättömästä uudelleenkäyttö-hypoteesista, mikä näkyy jo suoritetun kliinisen tutkimuksen laajuudessa (useita Vaihe 1/2-tutkimuksia lapsi- ja aikuisten AML/MDS-potilaspopulaatioissa vuosina 2004–2026).
 
 ---
 
-## Clinical Trial Evidence
+## Kliiniset tutkimukset
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimusnumero | Vaihe | Tila | Rekrytointi | Keskeiset tulokset |
 |---------|------|------|------|---------|
-| [NCT01236144](https://clinicaltrials.gov/study/NCT01236144) | Phase 1/2 | Completed | 113 | AML18 pilot combining TKI AC220, CXCR4 inhibitor plerixafor, or HSP90 inhibitor ganetespib with standard DAE chemotherapy in older AML/high-risk MDS patients |
-| [NCT01352650](https://clinicaltrials.gov/study/NCT01352650) | Phase 1 | Completed | 71 | Decitabine + plerixafor priming in AML patients ≥60 years, testing mobilization of leukemic stem cells to improve treatment outcomes |
-| [NCT01435343](https://clinicaltrials.gov/study/NCT01435343) | Phase 1/2 | Completed | 55 | FLAG-Ida + plerixafor induction in young patients with relapsed/refractory AML |
-| [NCT00512252](https://clinicaltrials.gov/study/NCT00512252) | Phase 1/2 | Completed | 52 | AMD3100 (plerixafor) + mitoxantrone/etoposide/cytarabine (MEC) in relapsed/refractory AML; hypothesis that disrupting AML–marrow niche interaction enhances chemotherapy cytotoxicity |
-| [NCT00822770](https://clinicaltrials.gov/study/NCT00822770) | Phase 1/2 | Completed | 47 | G-CSF + plerixafor with busulfan/fludarabine preparative regimen before allogeneic transplant for AML, MDS, and CML |
-| [NCT00990054](https://clinicaltrials.gov/study/NCT00990054) | Phase 1 | Completed | 36 | Dose-escalation of plerixafor with cytarabine/daunorubicin ("7+3") in newly diagnosed AML, with/without G-CSF |
-| [NCT00943943](https://clinicaltrials.gov/study/NCT00943943) | Phase 1 | Completed | 33 | G-CSF + plerixafor + sorafenib in FLT3-mutated AML; determined most tolerable combination dose |
-| [NCT01319864](https://clinicaltrials.gov/study/NCT01319864) | Phase 1 | Completed | 20 | Plerixafor as a chemosensitizing agent with cytarabine/etoposide in pediatric relapsed AML and MDS |
-| [NCT01141543](https://clinicaltrials.gov/study/NCT01141543) | N/A | Completed | 12 | Plerixafor added to myeloablative preparative regimen to mobilize residual leukemic stem cells before allografting in AML |
-| [NCT01068301](https://clinicaltrials.gov/study/NCT01068301) | Phase 1 | Completed | 12 | Plerixafor-containing regimen in pediatric patients undergoing a second allogeneic stem cell transplant for refractory hematologic malignancy |
+| [NCT01236144](https://clinicaltrials.gov/study/NCT01236144) | Vaihe 1/2 | Valmis | 113 | AML18-pilootti, jossa DAE-vakiokemoterapiaa täydennettiin TKI AC220:lla, CXCR4-inhibiittorin plerixaforilla tai HSP90-inhibiittorin ganetespibillä vanhemmissa AML/korkean riskin MDS-potilaissa |
+| [NCT01352650](https://clinicaltrials.gov/study/NCT01352650) | Vaihe 1 | Valmis | 71 | Desitabiini + plerixafor-esihoito ≥60-vuotiaille AML-potilaille, tutkimalla leukemian kantasolun mobilisaatiota hoitotuloksia parannettaessa |
+| [NCT01435343](https://clinicaltrials.gov/study/NCT01435343) | Vaihe 1/2 | Valmis | 55 | FLAG-Ida + plerixafor-induktio nuorilla uusiutuneiden/refraktaarisen AML:n potilailla |
+| [NCT00512252](https://clinicaltrials.gov/study/NCT00512252) | Vaihe 1/2 | Valmis | 52 | AMD3100 (plerixafor) + mitotsantrooni/etopositidi/sytarabi (MEC) uusiutuneiden/refraktaarisen AML:n potilailla; hypoteesi siitä, että AML:n luuydin-niche-vuorovaikutuksen häiriintyminen parantaa kemoterapian sitotoksisuutta |
+| [NCT00822770](https://clinicaltrials.gov/study/NCT00822770) | Vaihe 1/2 | Valmis | 47 | G-CSF + plerixafor busulfaani/fludarabiin-valmistelulla ennen allogenista kantasolusiirtämistä AML-, MDS- ja CML-potilailla |
+| [NCT00990054](https://clinicaltrials.gov/study/NCT00990054) | Vaihe 1 | Valmis | 36 | Plerixaforin annosporrastus sytarabi/daunorubisiinilla ("7+3") uusille diagnosoiduille AML-potilaille, G-CSF:n kanssa tai ilman |
+| [NCT00943943](https://clinicaltrials.gov/study/NCT00943943) | Vaihe 1 | Valmis | 33 | G-CSF + plerixafor + sorafenibi FLT3-mutantin AML:ssa; määritettiin hyväksyttävin yhdistelmäannos |
+| [NCT01319864](https://clinicaltrials.gov/study/NCT01319864) | Vaihe 1 | Valmis | 20 | Plerixafor kemosensitisointiainena sytarabi/etopositidilla uusiutuneiden lapsi-AML:n ja MDS:n potilailla |
+| [NCT01141543](https://clinicaltrials.gov/study/NCT01141543) | N/A | Valmis | 12 | Plerixafor lisätty myeloablatiivia valmistelua edeltävään regimeniin jäljellä olevien leukemian kantasolun mobilisoimiseksi ennen allogenista kantasolusiirtämistä AML:ssa |
+| [NCT01068301](https://clinicaltrials.gov/study/NCT01068301) | Vaihe 1 | Valmis | 12 | Plerixafor-sisältävä regimeeni lapsi-potilailla, jotka saivat toisen allogenisen kantasolusiirtämisen refraktaariseen hematologiseen pahanlaatuisuuksiin |
 
 ---
 
-## Literature Evidence
+## Kirjallinen näyttö
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset tulokset |
 |------|-----|------|------|---------|
-| [29392425](https://pubmed.ncbi.nlm.nih.gov/29392425/) | 2018 | RCT (Phase I-II) | Annals of Hematology | PLERIFLAG regimen (plerixafor + FLAG-Ida) in first early-relapsed/refractory AML; plerixafor added as chemosensitizer via SDF-1α/CXCR4 blockade |
-| [32697348](https://pubmed.ncbi.nlm.nih.gov/32697348/) | 2020 | RCT (Phase 1) | American Journal of Hematology | Sorafenib + G-CSF + plerixafor in relapsed/refractory FLT3-ITD-mutated AML (28 patients, 3 dose levels) |
-| [22308295](https://pubmed.ncbi.nlm.nih.gov/22308295/) | 2012 | Phase 1/2 trial | Blood | Chemosensitization with plerixafor in 52 patients with relapsed/refractory AML; foundational trial for the CXCR4-blockade chemosensitization hypothesis |
-| [32877869](https://pubmed.ncbi.nlm.nih.gov/32877869/) | 2020 | Systematic Review & Meta-analysis | Leukemia Research | Pooled preclinical and clinical evidence for plerixafor + chemotherapy/HCT in acute leukemia to inform design of definitive trials |
-| [29724902](https://pubmed.ncbi.nlm.nih.gov/29724902/) | 2018 | Phase 1 trial | Haematologica | Plerixafor combined with decitabine in newly diagnosed older AML patients (69 treated); evaluated effect on leukemia stem cells |
-| [39261603](https://pubmed.ncbi.nlm.nih.gov/39261603/) | 2024 | Review | Leukemia | Comprehensive review of the CXCL12-CXCR4 axis as a therapeutic target in AML |
-| [30654137](https://pubmed.ncbi.nlm.nih.gov/30654137/) | 2019 | Cohort | Biology of Blood and Marrow Transplantation | Safety/tolerability of plerixafor within myeloablative conditioning for AML patients undergoing allogeneic HCT |
-| [32079173](https://pubmed.ncbi.nlm.nih.gov/32079173/) | 2020 | Review | Biology | CXCR4 antagonists as stem cell mobilizers and chemotherapy sensitizers in AML and glioblastoma |
-| [30150522](https://pubmed.ncbi.nlm.nih.gov/30150522/) | 2018 | Case Report | Cancers | Complete remission of refractory pediatric AML (monosomy 7) after a plerixafor + cytarabine + melphalan conditioning regimen |
-| [28718760](https://pubmed.ncbi.nlm.nih.gov/28718760/) | 2018 | Cohort | Leukemia & Lymphoma | CD25 expression and outcomes in older AML patients treated with plerixafor + decitabine |
+| [29392425](https://pubmed.ncbi.nlm.nih.gov/29392425/) | 2018 | RCT (Vaihe I-II) | Annals of Hematology | PLERIFLAG-regimeeni (plerixafor + FLAG-Ida) ensipalautuneiden/refraktaarisen AML:n potilailla; plerixafor lisätty kemosensitisointiaineen SDF-1α/CXCR4-esto |
+| [32697348](https://pubmed.ncbi.nlm.nih.gov/32697348/) | 2020 | RCT (Vaihe 1) | American Journal of Hematology | Sorafenibi + G-CSF + plerixafor uusiutuneiden/refraktaarisen FLT3-ITD-mutantin AML:n potilailla (28 potilasta, 3 annostahtoa) |
+| [22308295](https://pubmed.ncbi.nlm.nih.gov/22308295/) | 2012 | Vaihe 1/2-tutkimus | Blood | Kemosensitisaatio plerixaforilla 52 uusiutuneen/refraktaarisen AML:n potilaalla; perustavanlaatuinen tutkimus CXCR4-esto-kemosensitisaatio-hypoteesille |
+| [32877869](https://pubmed.ncbi.nlm.nih.gov/32877869/) | 2020 | Systemaattinen katsaus ja meta-analyysi | Leukemia Research | Plerixaforin ja kemoterapia/HCT-hoidon yhdistelmän preklinisen ja kliinisen näytön meta-analyysi akuutin leukemian tutkimuksissa |
+| [29724902](https://pubmed.ncbi.nlm.nih.gov/29724902/) | 2018 | Vaihe 1-tutkimus | Haematologica | Plerixafor yhdistettynä desitabiiniin uusille diagnosoiduille ikääntyneille AML-potilaille (69 potilasta); tutkittiin vaikutusta leukemian kantasoluihin |
+| [39261603](https://pubmed.ncbi.nlm.nih.gov/39261603/) | 2024 | Katsaus | Leukemia | Kattava katsaus CXCL12-CXCR4-akselista terapeuttisenä kohteena AML:ssa |
+| [30654137](https://pubmed.ncbi.nlm.nih.gov/30654137/) | 2019 | Kohortti | Biology of Blood and Marrow Transplantation | Plerixaforin turvallisuus/siedettävyys myeloablatiivin valmistelun yhteydessä AML-potilaille, jotka saivat allogenista kantasolusiirtämistä |
+| [32079173](https://pubmed.ncbi.nlm.nih.gov/32079173/) | 2020 | Katsaus | Biology | CXCR4-antagonistit kantasolun mobilisaattoreina ja kemoterapian sensitisoijina AML:ssa ja glioblastoomassa |
+| [30150522](https://pubmed.ncbi.nlm.nih.gov/30150522/) | 2018 | Tapausraportti | Cancers | Refraktaarisen lapsi-AML:n (monosomia 7) täydellinen remissio plerixafor + sytarabi + melfalaani-valmistelun jälkeen |
+| [28718760](https://pubmed.ncbi.nlm.nih.gov/28718760/) | 2018 | Kohortti | Leukemia & Lymphoma | CD25-ekspressio ja tulokset ikääntyneissä AML-potilaissa, joilla oli plerixafor + desitabiini-hoito |
 
 ---
 
-## Finland Market Information
+## Suomen markkinatilanne
 
-Plerixafor is currently **not marketed** in Finland — no marketing authorization records are on file (0 authorizations).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (TFDA/Fimea warnings, contraindications, and drug interaction data were not available in this evidence pack — flagged as a blocking data gap.)
+Plerixafor ei ole tällä hetkellä markkinoilla Suomessa – myyntilupahakemuksista ei ole saatavilla rekisterimerkintöjä tässä näyttöpaketissa (0 myyntilupaa).
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuusnäkökohdat
 
-**Decision: Hold**
+Katso turvallisuustiedot pakkausselosteesta. (TFDA/Fimea-varoitukset, vasta-aiheet ja lääkkeen yhteisvaikutustiedot eivät olleet saatavilla tässä näyttöpaketissa – merkitty estäviksi tietovajeiksi.)
 
-**Rationale:**
-The CXCR4-blockade chemosensitization mechanism is well-supported by a large body of Phase 1/2 investigator-initiated trials and a systematic review, but no completed Phase 3 RCT has confirmed clinical benefit, and several trials were terminated or withdrawn (e.g., NCT01455025, NCT01027923, NCT00396968). Plerixafor is also not currently marketed in Finland for any oncology indication. This remains a research-stage hypothesis rather than a repurposing-ready candidate. Separately, TxGNN's highest-scoring prediction for this drug (indolent plasma cell myeloma) and four other top-6 candidates have no clinical trial or literature support and were screened to Hold at S0.
+---
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert data (warnings, contraindications, DDI) to complete the S1 safety pre-screen (currently blocking)
-- Confirmed original MOA/indication documentation from DrugBank (currently a data gap)
-- A completed Phase 2/3 RCT with survival or remission endpoints to upgrade evidence from L2
-- Assessment of the Finland regulatory pathway, since the drug is not currently marketed
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Odota**
+
+**Perustelut:**
+CXCR4-esto-kemosensitisaatiomekanismi on hyvin tuettu suurella määrällä Vaihe 1/2-tutkija-aloitteisia tutkimuksia ja systemaattisella katsauksella, mutta yhtään valmistunutta Vaihe 3-RCT:tä ei ole vahvistamassa kliinistä hyötyä, ja useita tutkimuksia keskeytettiin tai peruutettiin (esim. NCT01455025, NCT01027923, NCT00396968). Plerixafor ei myöskään ole tällä hetkellä markkinoilla Suomessa minkään onkologisen käyttöaiheensa osalta. Tämä pysyy tutkimuksen tasoisena hypoteesina pikemminkin kuin uudelleenkäyttövalmiina ehdokkaana. Erillään tästä, TxGNN:n tälle lääkkeelle antama korkeimman pistemäärän saanut ennuste (indolentin plasma-solumyelooma) ja neljä muuta kuuden parhaan joukossa olevaa ehdokasta ei ole kliinisen tutkimuksen tai kirjallisuuden tukea ja ne seulottiin Odota-statukseen S0.
+
+**Jatko edellyttää:**
+- TFDA/Fimea-pakkausseloste (varoitukset, vasta-aiheet, lääkkeen yhteisvaikutukset) S1-turvallisuuden esiseulonnan viimeistelyä varten (tällä hetkellä esto)
+- Vahvistetut alkuperäisen vaikutustavan/käyttöaiheet DrugBankista (tällä hetkellä tietovahe)
+- Valmistunut Vaihe 2/3-RCT eloonjäämis- tai remissio-päätepisteillä näytön parantamiseksi L2:sta
+- Arviointi Suomen sääntelykäytännöstä, koska lääkettä ei ole tällä hetkellä markkinoilla
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

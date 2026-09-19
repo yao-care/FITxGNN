@@ -29,93 +29,94 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Certolizumab Pegol: From Rheumatoid Arthritis to Rheumatoid Vasculitis
+# Certolizumab pegol: reumatoidaartriiitista reumatoidivaskuliitiksi
 
-## One-Sentence Summary
+## Yhteenveto yhdellä lauseella
 
-Certolizumab pegol is a PEGylated anti-TNF-α biologic originally used to treat rheumatoid arthritis and related TNF-driven inflammatory diseases (axial spondyloarthritis, psoriatic arthritis, Crohn's disease). The TxGNN model predicts it may be effective for **Rheumatoid Vasculitis**, but this is currently supported by only **3 clinical trials** (none designed specifically for this indication) and **8 publications** — and most of the literature describes certolizumab pegol as a *cause* of vasculitis rather than a proven treatment for it.
+Certolizumab pegol on PEGylsoitu anti-TNF-α biologinen lääke, jota käytettiin alun perin reumatoidiartriittin ja siihen liittyvien TNF-ohjattujen tulehduksellisten sairauksien (aksiaalinen spondyloartriitti, psoriaattinen artriitti, Crohnin tauti) hoitoon. TxGNN-malli ennustaa, että se voisi olla tehokas **reumatoidivaskuliitissa**, mutta tätä puoltaa tällä hetkellä vain **3 kliinistä tutkimusta** (joista yksikään ei ole erityisesti suunniteltu tälle indikaatiolle) ja **8 julkaisua** — ja useimmissa tutkimuksissa certolizumab pegol kuvataan pikemminkin vaskuliitin *aiheuttajana* kuin todistettavana hoitokeinona.
 
 ---
 
-## Quick Overview
+## Pikakatsaus
 
-| Item | Content |
+| Kohde | Sisältö |
 |------|------|
-| Original Indication | Rheumatoid arthritis, axial spondyloarthritis, psoriatic arthritis, Crohn's disease (per literature evidence in this pack; no local product label on file) |
-| Predicted New Indication | Rheumatoid Vasculitis |
-| TxGNN Prediction Score | 99.78% |
-| Evidence Level | L4 |
-| Finland Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen indikaatio | Reumatoidiartriitti, aksiaalinen spondyloartriitti, psoriaattinen artriitti, Crohnin tauti (kirjallisuustutkimuksiin perustuva; paikallista tuotetietoa ei saatavilla) |
+| Ennustettu uusi indikaatio | Reumatoidivaskuliitti |
+| TxGNN-ennustepistemäärä | 99.78% |
+| Todistusten taso | L4 |
+| Markkinatilanne Suomessa | Ei markkinoilla |
+| Hyväksyntöjen määrä | 0 |
+| Suositeltu päätös | Odota |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on perusteltu?
 
-Detailed mechanism-of-action data for this candidate is not available in the evidence pack (flagged as a High-severity data gap, DG002). Based on the literature captured here, certolizumab pegol is a Fc-free, PEGylated anti-TNF-α Fab' fragment approved for rheumatoid arthritis (RA), axial spondyloarthritis, psoriatic arthritis, and Crohn's disease — diseases in which TNF-α is a central inflammatory driver.
+Yksityiskohtaisia vaikutusmekanismin tietoja tästä kandidaatista ei ole saatavilla todistepaketissa (merkitty korkean vakavuuden tietoksi, DG002). Tässä kerätyn kirjallisuuden perusteella certolizumab pegol on Fc-vapaa, PEGylsoitu anti-TNF-α Fab' fragmentti, joka on hyväksytty reumatoidiartriittin (RA), aksiaalisen spondyloartriittin, psoriaattisen artriitin ja Crohnin taudin hoitoon — sairauksiin, joissa TNF-α on keskeinen tulehduksellinen tekijä.
 
-Rheumatoid vasculitis is a severe extra-articular complication of RA, and TNF-α blockade is mechanistically plausible as a way to dampen the vascular inflammation involved. One case report (PMID 34786446) supports this direction, describing certolizumab pegol used to treat leg ulcers caused by rheumatoid vasculitis.
+Reumatoidivaskuliitti on vakava reumatoidiartriittin ulkiartikulaarinen komplikaatio, ja TNF-α:n esto on mekanistisesti perusteltu tapa vaimentaa verisuonitulehdusta. Yksi tapausraportti (PMID 34786446) tukee tätä suuntaa kuvatessaan certolizumab pegol'ia käytetyn reumatoidivaskuliitin aiheuttamien jalkaterän haavautumien hoitoon.
 
-However, the remaining literature evidence points the other way: multiple independent case reports describe certolizumab pegol *inducing* vasculitis (leukocytoclastic vasculitis, hypocomplementemic urticarial vasculitis, medium-vessel vasculitis, rapidly progressive glomerulonephritis) as a paradoxical adverse drug reaction. This is a known class effect of anti-TNF agents. The evidence base is therefore internally contradictory — the same drug-disease pairing appears in the literature both as a potential treatment and as a trigger — and cannot currently be read as a clean repurposing signal.
+Jäljellä oleva kirjallisuus kuitenkin osoittaa toiseen suuntaan: useat riippumattomat tapausraportit kuvaavat certolizumab pegol'in aiheuttavan vaskuliittia (leukosytoklaastinen vaskuliitti, hypokomplementeeminen urtikaarinen vaskuliitti, keskisuurten suonten vaskuliitti, nopeasti etenevä glomerulonefriitti) paradoksaalisena haittavaikutuksena. Tämä on tunnettu TNF-estäjäluokan vaikutus. Näyttöpohja on siksi sisäisesti ristiriitainen — sama lääke-sairauspari esiintyy kirjallisuudessa sekä mahdollisena hoitona että laukaisijana — eikä sitä voida tällä hetkellä lukea selväksi uudelleenkäytön signaaliksi.
 
 ---
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen todisteet
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimusnumero | Vaihe | Tila | Rekrytointimäärä | Keskeiset löydökset |
 |---------|------|------|------|---------|
-| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | Not Yet Recruiting | 80 | Perioperative immunosuppressant management in rheumatology patients undergoing shoulder arthroplasty; assesses flares, pain, and surgical complications — not disease-specific to rheumatoid vasculitis. |
-| [NCT01579006](https://clinicaltrials.gov/study/NCT01579006) | N/A | Completed | 184 | Multinational non-interventional study of tocilizumab (not certolizumab) in RA; may capture vasculitis-related safety data as a secondary observation. |
-| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | N/A | Unknown | 750,000 | Large real-world study of incident immune-mediated inflammatory disease risk in patients on biologics/immunosuppressants; could capture vasculitis signals but status is unknown and not indication-specific. |
+| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Vaihe 2 | Ei vielä rekrytointia | 80 | Perioperatiivinen immunosuppressiivinen hoito reumatologian potilailla olkavarren tekonivelleikkauksessa; arvioi lipeämistä, kipua ja kirurgisia komplikaatioita — ei sairauden spesifinen reumatoidivaskuliitille. |
+| [NCT01579006](https://clinicaltrials.gov/study/NCT01579006) | N/A | Valmis | 184 | Monikansallinen ei-interventionaalis tutkimus tocilizumab'ista (ei certolizumab pegol'ista) reumatoidiartriitissa; voi kerätä vaskuliitin liittyviä turvallisuustietoja toissijaisena havaintona. |
+| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | N/A | Tuntematon | 750,000 | Suuri todellisen maailman tutkimus immuunien välittämien tulehduksellisten sairauksien uuden ilmenemisen riskistä potilailla, joilla on biologisia lääkkeitä/immunosuppressiiveja; voi kerätä vaskuliitin signaaleja, mutta tila on tuntematon eikä se ole indikaation spesifinen. |
 
-None of these trials directly evaluate certolizumab pegol as a treatment for rheumatoid vasculitis.
+Yksikään näistä tutkimuksista ei suoraan arvioi certolizumab pegol'ia reumatoidivaskuliitin hoitona.
 
 ---
 
-## Literature Evidence
+## Kirjallisuuden todisteet
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
 |------|-----|------|------|---------|
-| [36418084](https://pubmed.ncbi.nlm.nih.gov/36418084/) | 2022 | Review | RMD Open | Comparative review of infection profiles across immune-modulatory drugs, based on product-label adverse event data. |
-| [36597972](https://pubmed.ncbi.nlm.nih.gov/36597972/) | 2022 | Cohort | RMD Open | 80-patient cohort on long-term certolizumab pegol for IMID-associated uveitis (not rheumatoid vasculitis) — adjacent safety/efficacy data only. |
-| [29610119](https://pubmed.ncbi.nlm.nih.gov/29610119/) | 2018 | Case series | Clinical Medicine & Research | Single-center experience of cutaneous adverse events associated with biologic agents, including certolizumab. |
-| [34786446](https://pubmed.ncbi.nlm.nih.gov/34786446/) | 2021 | Case report | JAAD Case Reports | Certolizumab pegol used to **treat** leg ulcers caused by rheumatoid vasculitis. |
-| [31990069](https://pubmed.ncbi.nlm.nih.gov/31990069/) | 2020 | Case report (drug-induced) | Journal of Clinical Pharmacy and Therapeutics | Hypocomplementemic urticarial vasculitis developing **during** certolizumab pegol treatment for RA. |
-| [28405087](https://pubmed.ncbi.nlm.nih.gov/28405087/) | 2017 | Case report (ADR) | Proceedings (Baylor University Medical Center) | Leukocytoclastic vasculitis as a drug reaction to certolizumab pegol. |
-| [41158918](https://pubmed.ncbi.nlm.nih.gov/41158918/) | 2025 | Case report (ADR) | Cureus | Anti-TNF (certolizumab)-related medium-vessel vasculitis, reported as a rare adverse drug reaction. |
-| [32687015](https://pubmed.ncbi.nlm.nih.gov/32687015/) | 2021 | Case report (ADR) | Modern Rheumatology Case Reports | Rapidly progressive glomerulonephritis after certolizumab pegol initiation, a paradoxical autoimmune reaction. |
+| [36418084](https://pubmed.ncbi.nlm.nih.gov/36418084/) | 2022 | Katsaus | RMD Open | Immuuni-modulaattoristen lääkkeiden infektioprofiilin vertaileva katsaus tuote-ohjeen haittavaikutustietojen perusteella. |
+| [36597972](https://pubmed.ncbi.nlm.nih.gov/36597972/) | 2022 | Kohortti | RMD Open | 80 potilaan kohortti pitkäaikaisen certolizumab pegol'in kanssa immuuni-välittämän tulehduksellisen sairauden liittyvää uveiittia (ei reumatoidivaskuliittia) varten — vain vierekkäiset turvallisuus/tehokkuustiedot. |
+| [29610119](https://pubmed.ncbi.nlm.nih.gov/29610119/) | 2018 | Tapaussarja | Clinical Medicine & Research | Yhden sairaalan kokemus biologisiin agenteista liittyvistä ihon haittavaikutuksista, mukaan lukien certolizumab. |
+| [34786446](https://pubmed.ncbi.nlm.nih.gov/34786446/) | 2021 | Tapausraportti | JAAD Case Reports | Certolizumab pegol'ia käytetty **reumatoidivaskuliitin aiheuttamien jalkaterän haavautumisen hoitoon**. |
+| [31990069](https://pubmed.ncbi.nlm.nih.gov/31990069/) | 2020 | Tapausraportti (lääkkeen aiheuttama) | Journal of Clinical Pharmacy and Therapeutics | Hypokomplementeeminen urtikaarinen vaskuliitti, joka kehittyi **certolizumab pegol'in hoidon aikana** reumatoidiartriitissa. |
+| [28405087](https://pubmed.ncbi.nlm.nih.gov/28405087/) | 2017 | Tapausraportti (haittavaikutus) | Proceedings (Baylor University Medical Center) | Leukosytoklaastinen vaskuliitti certolizumab pegol'in lääkereaktiona. |
+| [41158918](https://pubmed.ncbi.nlm.nih.gov/41158918/) | 2025 | Tapausraportti (haittavaikutus) | Cureus | Anti-TNF (certolizumab) -liittyvä keskisuurten suonten vaskuliitti, raportoitu harvinaisena haittavaikutuksena. |
+| [32687015](https://pubmed.ncbi.nlm.nih.gov/32687015/) | 2021 | Tapausraportti (haittavaikutus) | Modern Rheumatology Case Reports | Nopeasti etenevä glomerulonefriitti certolizumab pegol'in aloituksen jälkeen, paradoksaalinen autoimmunireaktio. |
 
-Six of the eight publications describe certolizumab pegol as a trigger of vasculitis rather than a treatment for it; only one supports a therapeutic use.
-
----
-
-## Finland Market Information
-
-Certolizumab pegol is currently **not marketed in Finland**, and no product authorizations are on file in this evidence pack.
+Kuusi kahdeksasta julkaisusta kuvaa certolizumab pegol'ia vaskuliitin laukaisijana pikemminkin kuin sen hoitokeinona; vain yksi tukee terapeuttista käyttöä.
 
 ---
 
-## Safety Considerations
+## Markkinatilanne Suomessa
 
-Please refer to the package insert for safety information. TFDA/Fimea label warnings and contraindications could not be retrieved (data gap DG001, Blocking severity), and no drug-drug interaction data is available.
+Certolizumab pegol ei ole tällä hetkellä markkinoilla Suomessa, eikä tähän todistepakettiin sisälly tuotevaltuutuksia.
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuusnäkökulmat
 
-**Decision: Hold**
+Lue turvallisuustiedot tuotteen pakkausselosteesta. Fimean/TFDA:n ohjeen varoituksia ja vasta-aiheita ei voitu noutaa (tietoväli DG001, estävä vakavuus), eikä lääkkeiden välisen vuorovaikutuksen tietoja ole saatavilla.
 
-**Rationale:**
-Evidence is limited to L4 (case reports and mechanism-level reasoning) and is internally contradictory — the same drug-disease pairing appears in the literature both as a possible treatment (1 case report) and as a cause of vasculitis (6 case reports). No trial directly tests certolizumab pegol for rheumatoid vasculitis. Combined with the absence of local label safety data (DG001, Blocking), this candidate cannot advance past initial screening (S1).
+---
 
-**To proceed, the following is needed:**
-- Fimea/TFDA package insert (warnings, contraindications) — currently blocking safety review (DG001)
-- Formal mechanism-of-action documentation (DG002)
-- A focused literature review distinguishing "certolizumab-induced vasculitis" reports from genuine treatment-use reports, to determine whether the safety signal outweighs the therapeutic signal
-- If pursued further, a case-control or pharmacovigilance analysis (e.g., FAERS/VigiBase) to quantify net vasculitis risk vs. benefit before considering any prospective study
+## Johtopäätös ja seuraavat vaiheet
 
-**Note:** Within this same evidence pack, *polyarticular juvenile rheumatoid arthritis* (rank 5, L2/S2) has a dedicated completed Phase 3 PK/safety/efficacy trial (NCT01550003, N=193) and represents a substantially stronger near-term candidate than rheumatoid vasculitis.
+**Päätös: Odota**
+
+**Perustelut:**
+Todisteet ovat rajoitettuja L4-tasoiseen (tapausraportit ja mekanismi-tason perustelut) ja sisäisesti ristiriitaisia — sama lääke-sairauspari esiintyy kirjallisuudessa sekä mahdollisena hoitona (1 tapausraportti) että vaskuliitin aiheuttajana (6 tapausraporttia). Yksikään tutkimus ei suoraan testaa certolizumab pegol'ia reumatoidivaskuliitin hoidossa. Yhdessä paikallisen ohjeen turvallisuustietojen puuttuessa (DG001, estävä vakavuus), tämä kandidaatti ei voi edetä alkuperäisen seulonnan ohitse (S1).
+
+**Jatkon edellytykset:**
+- Fimean/TFDA:n pakkausseloste (varoitukset, vasta-aiheet) — tällä hetkellä estää turvallisuuden arvioinnin (DG001)
+- Muodollinen vaikutusmekanismin dokumentaatio (DG002)
+- Kohdistettu kirjallisuustutkimus, joka erottaa "certolizumab-aiheuttama vaskuliitti" raportit alkuperäisistä hoidon käyttöön tarkoitetuista raporteista, jotta voidaan määrittää, ylittääkö turvallisuussignaali terapeuttisen signaalin
+- Jos jatketaan edelleen, tapaus-verrokki- tai farmakovalvontaanalyysi (esim. FAERS/VigiBase) vaskuliitin nettoriskin kvantifioimiseksi hyötyjen nähden ennen minkään prospektiivisen tutkimuksen harkintaa
+
+**Huomautus:** Samaan todistepakettiin sisältyy *polyartikulaarinen juveniiliksi alkava reumatoidiartriitti* (sijoitus 5, L2/S2), jolla on dedikoidut valmis vaihe 3 PK/turvallisuus/tehokkuustutkimus (NCT01550003, N=193) ja se edustaa huomattavasti vahvempaa lähiajan kandidaattia kuin reumatoidivaskuliitti.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

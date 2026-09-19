@@ -29,91 +29,92 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Filgrastim: From Neutropenia/Stem Cell Mobilization to Primary Release Disorder of Platelets
+# Filgrastiimi: Neutropeniasta/kantasolujen mobilisaatiosta trombosyyttien primaarisen vapautumishäiriön hoitoon
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-> Filgrastim (recombinant human G-CSF) is a hematopoietic growth factor whose established clinical use is treating chemotherapy-induced neutropenia and mobilizing peripheral blood stem cells before collection.
-> The TxGNN model predicts it may be effective for **Primary Release Disorder of Platelets**,
-> but the supporting evidence is weak: of **14 clinical trials** surfaced, most are graded as *not directly relevant* (off-target stem cell transplant studies), and only **1 publication** (an observational cohort study, relevance still pending review) touches the topic.
+> Filgrastiimi (ihmisen rekombinantti G-CSF) on hematopoieettinen kasvutekijä, jonka vakiintunut kliininen käyttö on kemoterapian aiheuttaman neutropenia-hoito ja perifeerisen veren kantasolujen mobilisaatio ennen keräämistä.
+> TxGNN-malli ennustaa, että se saattaa olla tehokas **trombosyyttien primaarisen vapautumishäiriön** hoitoon,
+> mutta tukeva näyttö on heikko: 14:stä löydetystä kliinisestä tutkimuksesta useimmat on luokitettu *ei suoraan asiaan liittyviksi* (kohdentamattomat kantasolujen siirtotukimukset), ja vain **1 julkaisu** (havainnollinen kohorttitutkimus, relevanssin arviointi on vielä kesken) käsittelee aihetta.
 
 ---
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Neutropenia (chemotherapy-induced) / Peripheral blood stem cell mobilization — *based on the drug's known G-CSF mechanism described in the evidence pack's rationale field; not an officially approved Taiwan indication (see Market Status)* |
-| Predicted New Indication | Primary release disorder of platelets |
-| TxGNN Prediction Score | 99.998% (rank 48) |
-| Evidence Level | L4 (mechanistic/indirect only — no clinical trial or study directly targets this indication) |
-| Taiwan Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+| Alkuperäinen indikaatio | Neutropenia (kemoterapian aiheuttama) / perifeerisen veren kantasolujen mobilisaatio — *perustuu lääkkeen tunnettuun G-CSF-mekanismiin, joka on kuvattu näyttöpaketin perustelukentässä; ei virallisesti hyväksytty Taiwan-indikaatio (katso Markkinatilanne)* |
+| Ennustettu uusi indikaatio | Trombosyyttien primaarinen vapautumishäiriö |
+| TxGNN-ennustepisteet | 99.998% (sijoitus 48) |
+| Näyttötaso | L4 (mekanistinen/epäsuora vain — yksikään kliininen tutkimus tai tutkielma ei kohdista suoraan tähän indikaatioon) |
+| Taiwanin markkinatilanne | Ei markkinoilla (Ei markkinoilla) |
+| Hyväksyntöjen määrä | 0 |
+| Suositeltu päätös | **Pidätetään** |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on kohtuullinen?
 
-Filgrastim is recombinant human granulocyte colony-stimulating factor (G-CSF). It acts on granulocyte precursor cells to promote proliferation and differentiation, and it mobilizes hematopoietic stem cells from the bone marrow into peripheral blood — the basis for its established uses in neutropenia management and stem cell collection prior to transplantation.
+Filgrastiimi on ihmisen rekombinantti granulosyytti-koloniastimulointikerroin (G-CSF). Se vaikuttaa granulosyytin ennakkosoluihin edistääkseen proliferaatiota ja differentiaatiota, ja se mobilisoi hematopoieettisia kantasoluja luuydinnestä perifeerisen veren kiertokulkuun — tämä muodostaa perustan sen vakiintuneille käyttötarkoituksille neutropenia-hoidossa ja kantasolujen keräämisessä siirtoa ennen.
 
-Primary release disorder of platelets (a δ-storage pool disease affecting platelet granule release) has no established pharmacological link to G-CSF signaling. The evidence pack's own mechanistic assessment is explicit on this point: there is "no known direct pharmacological mechanism" connecting filgrastim to platelet granule release function. The single related publication describes an *indirect observation* — that G-CSF mobilization in healthy stem cell donors preferentially affects lymphocyte subsets — which is not a treatment mechanism study for platelet release disorders.
+Trombosyyttien primaarinen vapautumishäiriö (δ-varastoinnin sairaus, joka vaikuttaa trombosyytin granulaarisen aineen vapautumiseen) ei ole vakiintunutta farmakologista yhteyttä G-CSF-signalointiin. Näyttöpaketin oma mekanistinen arviointi on tässä asiassa selkeä: "ei tunnettua suoraa farmakologista mekanismia", joka yhdistäisi filgrastiimin trombosyytin granulaarin vapautumistoimintoon. Ainoa asiaan liittyvä julkaisu kuvaa *epäsuoraa havaintoa* — että G-CSF-mobilisaatio terveillä kantasolujen lahjoittajilla vaikuttaa mieluummin lymfosyytin osajoukkoihin — mikä ei ole hoitomekanismin tutkimus trombosyyttien vapautumishäiriöille.
 
-In short, the high TxGNN score appears to be driven by semantic/graph clustering around "hematopoietic" and "hemorrhagic disorder" concepts rather than a validated pharmacological pathway. This is consistent with the model's other top candidates for filgrastim (pseudo-von Willebrand disease, Glanzmann thrombasthenia, Scott syndrome, and others), all of which the evidence pack itself flags as having **no mechanistic overlap** with G-CSF signaling and **no supporting trial or literature evidence** (Evidence Level L5, Hold recommendation for every one of them).
+Lyhyesti sanottuna, korkea TxGNN-pistemäärä näyttää olevan semanttisen/graafi-klusteroinnin ohjaamaa "hematopoieettisen" ja "verenvuotohäiriön" käsitteiden ympärillä pikemminkin kuin validoitu farmakologinen polku. Tämä on yhteneväinen mallin muiden filgrastiimin huippiehdokkaiden kanssa (pseudo-von Willebrand-tauti, Glanzmann-trombastenia, Scottin oireyhtymä ja muut), joiden kaikki näyttöpaketti itse merkitsee olevan **ei mekanistista päällekkäisyyttä** G-CSF-signaloinnin kanssa ja **ei tukevaa tutkimus- tai kirjallisuusnäyttöä** (Näyttötaso L5, Pidätetään-suositus jokaisen niistä kohdalla).
 
 ---
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimusnumero | Vaihe | Tila | Osallistujat | Tärkeimmät löydökset |
 |---------|------|------|------|---------|
-| [NCT00281879](https://clinicaltrials.gov/study/NCT00281879) | Phase 2 | Terminated | 200 | Unrelated donor stem cell transplant for hematologic malignancies — *not relevant* (grade C: population and endpoint are hematologic cancer, not platelet release disorder) |
-| [NCT00043979](https://clinicaltrials.gov/study/NCT00043979) | Phase 2 | Completed | 60 | Allogeneic/syngeneic stem cell transplant in pediatric sarcomas — *not relevant* (grade C) |
-| [NCT00354172](https://clinicaltrials.gov/study/NCT00354172) | Phase 2 | Terminated | 16 | Umbilical cord blood transplant for myeloid leukemia — *not relevant* (grade C) |
-| [NCT00923364](https://clinicaltrials.gov/study/NCT00923364) | Phase 2 | Completed | 19 | Reduced-intensity stem cell transplant for GATA2 mutation patients — relevance not yet graded |
-| [NCT02646098](https://clinicaltrials.gov/study/NCT02646098) | Phase 2 | Completed | 64 | CD34+ selected vs unselected autologous transplant in lymphoma — *not relevant* (grade C) |
-| [NCT05436418](https://clinicaltrials.gov/study/NCT05436418) | Phase 1/2 | Recruiting | 260 | Post-transplant cyclophosphamide dosing for GVHD prophylaxis — *not relevant* (grade C) |
-| [NCT05170828](https://clinicaltrials.gov/study/NCT05170828) | Phase 1 | Withdrawn | 0 | Cryopreserved unrelated donor bone marrow transplant — relevance not yet graded |
-| [NCT00076752](https://clinicaltrials.gov/study/NCT00076752) | Phase 2 | Completed | 9 | Autologous stem cell transplant for severe lupus (SLE) — relevance not yet graded |
-| [NCT04540120](https://clinicaltrials.gov/study/NCT04540120) | Phase 2 | Terminated | 49 | Dapansutrile for COVID-19 cytokine release syndrome — relevance not yet graded |
-| [NCT06859424](https://clinicaltrials.gov/study/NCT06859424) | Phase 2 | Recruiting | 358 | Post-transplant cyclophosphamide GVHD prophylaxis platform trial — relevance not yet graded |
+| [NCT00281879](https://clinicaltrials.gov/study/NCT00281879) | Vaihe 2 | Keskeytetty | 200 | Sukulaisella olevan lahjoittajan kantasolujen siirto hematologisten syöpien hoitoon — *ei asiaa* (luokka C: väestö ja päätetapahtumat ovat hematologinen syöpä, ei trombosyyttien vapautumishäiriö) |
+| [NCT00043979](https://clinicaltrials.gov/study/NCT00043979) | Vaihe 2 | Valmistunut | 60 | Allogeeninen/syngeeninen kantasolujen siirto lapsuusajan sarkoomeissa — *ei asiaa* (luokka C) |
+| [NCT00354172](https://clinicaltrials.gov/study/NCT00354172) | Vaihe 2 | Keskeytetty | 16 | Napanuoran veren siirto myeloidiin leukemiaan — *ei asiaa* (luokka C) |
+| [NCT00923364](https://clinicaltrials.gov/study/NCT00923364) | Vaihe 2 | Valmistunut | 19 | Vähennetyn intensiteetin kantasolujen siirto GATA2-mutaatioiden potilaille — relevanssia ei ole vielä arvioitu |
+| [NCT02646098](https://clinicaltrials.gov/study/NCT02646098) | Vaihe 2 | Valmistunut | 64 | CD34+ valittu vs valitsematon autologinen siirto lymfoomassa — *ei asiaa* (luokka C) |
+| [NCT05436418](https://clinicaltrials.gov/study/NCT05436418) | Vaihe 1/2 | Rekrytoi | 260 | Siirtojälkeisen syklofosforamidi-doseerauksen GVHD-profylaksia — *ei asiaa* (luokka C) |
+| [NCT05170828](https://clinicaltrials.gov/study/NCT05170828) | Vaihe 1 | Peruutettu | 0 | Kryopreservoidun sukulaisella olevan lahjoittajan luuydin siirto — relevanssia ei ole vielä arvioitu |
+| [NCT00076752](https://clinicaltrials.gov/study/NCT00076752) | Vaihe 2 | Valmistunut | 9 | Autologinen kantasolujen siirto vakavaan lupukseen (SLE) — relevanssia ei ole vielä arvioitu |
+| [NCT04540120](https://clinicaltrials.gov/study/NCT04540120) | Vaihe 2 | Keskeytetty | 49 | Dapansutrilli COVID-19 sytokinien vapautumisen oireyhtymään — relevanssia ei ole vielä arvioitu |
+| [NCT06859424](https://clinicaltrials.gov/study/NCT06859424) | Vaihe 2 | Rekrytoi | 358 | Siirtojälkeisen syklofosforamidi GVHD-profylaksian alustava tutkimus — relevanssia ei ole vielä arvioitu |
 
-*Note: 4 additional trials were returned but omitted for brevity; none were graded as directly relevant to this indication. Across all 14 trials retrieved, none study filgrastim as a treatment for a platelet release disorder — all involve hematopoietic stem cell transplantation for unrelated hematologic malignancies or autoimmune disease.*
+*Huomio: 4 muuta tutkimusta palautettiin, mutta jätettiin pois niiden lyhyyden vuoksi; yksikään niistä ei ole luokiteltu suoraan asiaa olevaksi tähän indikaatioon. Kaikissa 14 haetulla tutkimuksella filgrastiimia ei tutkita trombosyyttien vapautumishäiriön hoitona — kaikissa on kyse hematopoieettisten kantasolujen siirrosta liittymättömille hematologisille syöpiin tai autoimmuunitaudeille.*
 
 ---
 
-## Literature Evidence
+## Kirjallisuusnäyttö
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät löydökset |
 |------|-----|------|------|---------|
-| [29770133](https://pubmed.ncbi.nlm.nih.gov/29770133/) | 2018 | Cohort/Observational | Frontiers in Immunology | G-CSF mobilization in healthy stem cell donors preferentially mobilizes lymphocyte subsets; an indirect immunological observation, not a study of platelet release function or treatment efficacy (relevance grading still pending) |
+| [29770133](https://pubmed.ncbi.nlm.nih.gov/29770133/) | 2018 | Kohortti/Havainnollinen | Frontiers in Immunology | G-CSF-mobilisaatio terveillä kantasolujen lahjoittajilla mobilisoi mieluummin lymfosyytin osajoukkoja; epäsuora immunologinen havainto, ei tutkimus trombosyytin vapautumisen toiminnasta tai hoitotehokkuudesta (relevanssin luokitus on vielä kesken) |
 
 ---
 
-## Taiwan Market Information
+## Taiwanin markkinatiedot
 
-Filgrastim is **not currently marketed in Taiwan** — no authorization records are available in the evidence pack (0 licenses).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. *(Key warnings, contraindications, and drug interaction data are all flagged as data gaps in this evidence pack — including a Blocking-severity gap on the TFDA package insert, which prevents a preliminary safety assessment.)*
+Filgrastiimia **ei tällä hetkellä markkinoida Taiwanissa** — näyttöpaketissa ei ole saatavilla hyväksyntätietoja (0 lisenssejä).
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuusnäkökohdat
 
-**Decision: Hold**
+Katso pakkausselosteesta turvallisuustietoja. *(Tärkeimmät varoitukset, vasta-aiheet ja lääkkeiden vuorovaikutustiedot on kaikki merkitty tietojen puutteiksi tässä näyttöpaketissa — myös niin vakavaksi kuin Blocking-vakavuuden TFDA-pakkausseloste, joka estää alustavaa turvallisuuden arviointia.)*
 
-**Rationale:**
-The mechanistic link between G-CSF signaling and platelet release/granule disorders is unestablished — the evidence pack's own rationale states there is no known direct pharmacology connecting the two. No clinical trial or publication actually studies filgrastim for this indication; the trials retrieved are almost entirely off-target hematopoietic stem cell transplant studies, and the single literature hit is an indirect observational finding. This same weak-evidence pattern (Evidence Level L5, Hold) applies to all nine other TxGNN-predicted indications for filgrastim in this pack (pseudo-von Willebrand disease, Glanzmann thrombasthenia, Scott syndrome, C1 inhibitor deficiency, and others), none of which have any supporting trial or literature evidence at all.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert warnings/contraindications (Blocking data gap — required before any S1 safety review can begin)
-- Mechanism of action documentation (High-severity data gap — needed to properly evaluate mechanistic plausibility)
-- A dedicated preclinical or mechanistic study directly linking G-CSF/granulocyte pathways to platelet granule release function
-- If pursued, a hematology/coagulation specialist review of biological plausibility before any trial design work
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidätetään**
+
+**Perustelut:**
+G-CSF-signaloinnin ja trombosyyttien vapautumisen/granulaarin häiriöiden välinen mekanistinen yhteys on vakiintumaton — näyttöpaketin oma perustelu toteaa, ettei ole tunnettua suoraa farmakologiaa, joka yhdistäisi nämä kaksi. Yksikään kliininen tutkimus tai julkaisu ei tutkimus filgrastiimia tähän indikaatioon; haetut tutkimukset ovat lähes kokonaan kohdentamattomia hematopoieettisia kantasolujen siirtotukimuksia, ja ainoa kirjallisuuden osuma on epäsuora havainnollinen löydös. Tämä sama heikko-näytön kuvio (Näyttötaso L5, Pidätetään) koskee kaikkia yhdeksää muuta TxGNN-ennustettua filgrastiimin indikaatiota tässä paketissa (pseudo-von Willebrand-tauti, Glanzmann-trombastenia, Scottin oireyhtymä, C1-inhibiittorin puutos ja muut), joista yksikään ei ole millään tutkimus- tai kirjallisuusnäytöllä.
+
+**Jotta voitaisiin edetä, seuraavaa tarvitaan:**
+- TFDA-pakkausseloste varoitukset/vasta-aiheet (Blocking-tietojen puute — vaaditaan ennen kuin mikään S1 turvallisuuden arviointi voidaan aloittaa)
+- Toimintamekanismin dokumentaatio (Korkea vakavuuden tietojen puute — vaaditaan mekanistisen uskottavuuden asianmukaiseen arviointiin)
+- Omistettu prekliininen tai mekanistinen tutkimus, joka yhdistää suoraan G-CSF/granulosyytin polut trombosyytin granulaarin vapautumisen toimintoon
+- Jos sitä jatketaan, hematologian/hyytymisen asiantuntijan arviointi biologisen uskottavuuden osalta ennen mitään tutkimussuunnittelua
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

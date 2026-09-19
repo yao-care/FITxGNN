@@ -29,72 +29,73 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 
 </div>
 
-# Anidulafungin: Evaluation Report — No Repurposing Candidates Identified
+# Anidulafungin: Arviointiraportti — Uudelleenkäyttökohteita ei tunnistettu
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Anidulafungin (DB00362) is an echinocandin antifungal agent approved in multiple markets for the treatment of candidemia and invasive candidiasis. The TxGNN model did not return any predicted new indications for this drug in the current analysis run. Due to the absence of predictions and multiple data gaps in the Evidence Pack, a full repurposing evaluation cannot be completed at this stage.
+Anidulafungin (DB00362) on ekinokandiini-tyypin antimikoottinen aine, jonka käyttö on hyväksytty useilla markkinoilla kandidemian ja invasiivisen kandida-infektioiden hoitoon. TxGNN-malli ei palauttanut mitään ennustettuja uusia indikaatioita tälle lääkkeelle nykyisessä analyysiajossa. Ennusteiden puuttumisen ja Evidence Pack -tietojen moninaisista puutteista johtuen täydellistä uudelleenkäyttöarviointia ei voida suorittaa tässä vaiheessa.
 
 ---
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohde | Sisältö |
 |------|---------|
-| Original Indication | Not recorded in Evidence Pack (known use: candidemia, esophageal candidiasis) |
-| Predicted New Indication | None — TxGNN returned no candidates |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | L5 — Model prediction only; no candidates to evaluate |
-| Finland Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+| Alkuperäinen indikaatio | Ei tallennettu Evidence Packiin (tunnettu käyttö: kandidemia, ruokatorven kandidiaasin) |
+| Ennustettu uusi indikaatio | Ei mikään — TxGNN ei palauttanut kandidaatteja |
+| TxGNN-ennusteen pistemäärä | N/A |
+| Näyttöaste | L5 — Vain mallin ennuste; ei kandidaatteja arviointiin |
+| Suomen markkinatilanne | Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | **Odota** |
 
 ---
 
-## Why No Prediction Was Returned
+## Miksi ennustusta ei palautettu
 
-The Evidence Pack for Anidulafungin contains an empty `predicted_indications` array, which indicates that the TxGNN knowledge graph model did not identify any disease nodes with a repurposing score above the reporting threshold for this compound in the current run.
+Anidulafunginin Evidence Pack sisältää tyhjän `predicted_indications`-taulukon, mikä osoittaa, että TxGNN-tietämysgraafin neuroverkkomalli ei tunnistanut mitään sairaussolmuja, joilla olisi uudelleenkäyttöpistemäärä raportointikynnysarvon yläpuolella tälle yhdisteelle nykyisessä analyysiajossa.
 
-Two compounding data gaps likely limited the model's ability to generate predictions:
+Kaksi rinnakkaista tietovajaata todennäköisesti rajoittivat mallin kykyä tuottaa ennusteita:
 
-1. **Mechanism of Action (MOA) is absent** — Without structured MOA data in DrugBank format (e.g., enzyme targets, receptor bindings, pathway annotations), the graph neural network has limited pharmacological edges to traverse and score against disease nodes.
+1. **Vaikutusmekanismi (MOA) puuttuu** — Ilman strukturoituja MOA-tietoja DrugBank-muodossa (esim. entsyymien kohteet, reseptorikytkennät, polkuhuomiot), graafi-neuroverkolla on rajoitetut farmakologiset reunat, joita kulkea ja pisteytetään sairaussolmuja vastaan.
 
-2. **Original indication list is empty** — The Evidence Pack carries no structured indication entries. If the model relies on indication-level graph anchoring to seed its prediction walk, the absence of a seed node would suppress all candidate scores.
+2. **Alkuperäisen indikaation luettelo on tyhjä** — Evidence Pack ei sisällä strukturoituja indikaatiomerkintöjä. Jos malli perustuu indikaatiotason kuvaajan ankkurointiin ennustuskulun aloittamiseksi, alkusolmun puuttuminen estäisi kaikki ehdokaspistemäärät.
 
-These two gaps together represent a compound failure: neither the "from" anchor (indication) nor the "why" signal (MOA) is available for the model to reason from.
-
----
-
-## Finland Market Information
-
-Anidulafungin is **not currently marketed in Finland**. No authorizations, product names, dosage forms, or approved indications are recorded in the Evidence Pack.
-
-> For reference, in markets where it is authorized (e.g., USA, EU via EMA under the brand name Eraxis), anidulafungin is approved as an intravenous antifungal for candidemia and invasive Candida infections including esophageal candidiasis. This information is provided for context only and does not substitute for a formal regulatory search.
+Nämä kaksi vajausta yhdessä edustavat yhdistettyä epäonnistumista: kumpikaan "mistä" ankkuri (indikaatio) eikä "miksi" signaali (MOA) ei ole käytettävissä mallin päättelyä varten.
 
 ---
 
-## Safety Considerations
+## Suomen markkinoiden tiedot
 
-All safety fields in the current Evidence Pack contain data gaps. No key warnings, contraindications, or drug interaction data are available for reporting.
+Anidulafungin **ei ole tällä hetkellä markkinoilla Suomessa**. Evidence Packissa ei ole tallennettu mitään hyväksyntöjä, tuotenimiä, annosmuotoja tai hyväksyttyjä indikaatioita.
 
-> Please refer to the current Summary of Product Characteristics (SmPC) or package insert for full safety information.
+> Vertailun vuoksi, markkinoilla, joissa se on hyväksytty (esim. USA, EU EMA:n kautta tuotenimellä Eraxis), anidulafungin on hyväksytty laskimoon annettavaksi antimikootiksi kandidemian ja invasiivisten Candida-infektioiden hoitoon, mukaan lukien ruokatorven kandidiaasin. Nämä tiedot on annettu vain viiteeksi eivätkä korvaa muodollista sääntelyhaun.
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuushuomiot
 
-**Decision: Hold**
+Kaikki nykyisen Evidence Pack -turvallisuuskentät sisältävät tietovajeita. Tärkeitä varoituksia, vasta-aiheita tai lääkkeiden vuorovaikutustietoja ei ole saatavilla raportointia varten.
 
-**Rationale:**
-The TxGNN model returned no repurposing candidates for Anidulafungin, and critical input data (MOA, structured original indications) are missing — meaning the pipeline lacks the minimum inputs required to produce or evaluate a prediction. Without candidates, no repurposing case can be made.
+> Lisätietoja turvallisuudesta saat nykyisestä Summary of Product Characteristics (SmPC) -asiakirjasta tai pakkauksesta.
 
-**To proceed, the following is needed:**
+---
 
-- **Resolve DG002 (MOA):** Query DrugBank API for Anidulafungin's mechanistic data (target: β-1,3-D-glucan synthase; pathway: fungal cell wall synthesis). Populate `original_moa` field and re-run TxGNN.
-- **Resolve DG001 (Safety):** Download the Finnish SmPC or EMA product monograph and extract key warnings and contraindications. Populate `key_warnings` and `contraindications`.
-- **Populate original indications:** Add structured ICD-10 or MeSH disease entries for candidemia and esophageal candidiasis to `original_indications`. This provides a graph anchor for the TxGNN walk.
-- **Re-run TxGNN prediction pipeline** after data gaps are closed; reassess whether candidates emerge at a lower score threshold if the standard threshold still yields zero results.
-- **Check if Eraxis or a generic holds an EMA centralised authorisation** that would apply to Finland — this would change market status from "Not marketed" to "Marketed (EMA)."
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Odota**
+
+**Perustelu:**
+TxGNN-malli ei palauttanut Anidulafunginin uudelleenkäyttökandidaatteja, ja kriittiset syötetiedot (MOA, strukturoidut alkuperäiset indikaatiot) puuttuvat — mikä tarkoittaa, että prosessilla ei ole vähimmäissyöttöä, joka tarvitaan ennusteen tuottamiseen tai arviointiin. Ilman kandidaatteja uudelleenkäyttöä ei voi perustella.
+
+**Jatkaakseen seuraavaa on tarpeen:**
+
+- **Ratkaise DG002 (MOA):** Kyselyy DrugBank API:a Anidulafunginin mekanistisista tiedoista (kohde: β-1,3-D-glucan synthase; prosessi: sienen seinän synteesi). Täytä `original_moa`-kenttä ja suorita TxGNN uudelleen.
+- **Ratkaise DG001 (Turvallisuus):** Lataa Suomen SmPC tai EMA:n tuotemonografia ja pura tärkeimmät varoitukset ja vasta-aiheet. Täytä `key_warnings` ja `contraindications`.
+- **Täytä alkuperäiset indikaatiot:** Lisää strukturoidut ICD-10 tai MeSH-sairauksien merkinnät kandidemialle ja ruokatorven kandidiaasille kenttään `original_indications`. Tämä tarjoaa kuvaajaan ankkurin TxGNN:n kulkua varten.
+- **Suorita TxGNN-ennusteprosessi uudelleen** tietovajojen korjaamisen jälkeen; arvioi uudelleen, nousevatko kandidaatit alhaisemmalla pistekynnysarvolla, jos vakiokynnysarvo tuottaa edelleen nolla tuloksia.
+- **Tarkista, pitääkö Eraxis tai geneerinen EMA:n keskitettyä hyväksyntää**, joka koskisi Suomea — tämä muuttaisi markkinoiden tilan "Ei markkinoilla" muotoon "Markkinoilla (EMA)".
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

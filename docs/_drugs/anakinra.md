@@ -29,63 +29,64 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Anakinra: From Rheumatoid Arthritis to Extracutaneous Mastocytoma
+# Anakinra: reumatoidiartriitista ihon ulkopuoliseen mastosytooomaan
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Anakinra is a recombinant IL-1 receptor antagonist whose original indication (rheumatoid arthritis) is not included in this evidence pack. The TxGNN model's top-ranked prediction for this drug is **Extracutaneous Mastocytoma**, but this direction currently has **no clinical trials** and **no supporting literature** — it is a pure model prediction with no corroborating evidence.
+Anakinra on rekombinantti IL-1-reseptoriantagonisti, jonka alkuperäinen indikaatio (reumatoidiartriitti) ei sisälly tähän näyttöpakettiin. TxGNN-mallin parhaiten sijoittuva ennuste tälle lääkkeelle on **ihon ulkopuolinen mastosytooma**, mutta tällä suunnalla ei ole tällä hetkellä **yhtään kliinistä tutkimusta** eikä **tukevia julkaisuja** — kyseessä on puhdas malliennuste ilman vahvistavia näyttöjä.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Not provided in evidence pack (publicly, anakinra's original approved indication is rheumatoid arthritis — flagged here as background, not evidence-pack data) |
-| Predicted New Indication | Extracutaneous Mastocytoma |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L5 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Ei annettu näyttöpakettiin (julkisesti anakinran alkuperäinen hyväksytty indikaatio on reumatoidiartriitti — liputettu tässä tausta-aineistoksi, ei näyttöpaketin tiedoksi) |
+| Ennustettu uusi indikaatio | Ihon ulkopuolinen mastosytooma |
+| TxGNN-ennusteen pistemäärä | 99.93% |
+| Näyttötaso | L5 |
+| Suomen markkinatilanne | ✗ Ei markkinoilla |
+| Myyntilupien lukumäärä | 0 |
+| Suositeltu päätös | Odota |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on perusteltu?
 
-Currently, detailed mechanism of action data is not available in this evidence pack (marked as a High-severity data gap). Based on known information, anakinra belongs to the class of IL-1 receptor antagonists (interleukin-1 blocking biologic agents), and its efficacy in IL-1-mediated inflammatory conditions has been established in clinical use; mechanistically it is expected to be applicable primarily to diseases driven by excess IL-1β signaling.
+Tällä hetkellä yksityiskohtaisia toimintamekanismin tietoja ei ole saatavilla tässä näyttöpakettiin (merkitty vakavaksi tietoaukoksi). Saatavilla olevan tiedon perusteella anakinra kuuluu IL-1-reseptoriantagonistien luokkaan (interleukiini-1:tä estävät biologiset lääkevalmisteet), ja sen tehokkuus IL-1-välitteisiin tulehduksellisiin sairauksiin on osoitettu kliinisessä käytössä; toimintamekanismin osalta sen odotetaan olevan soveltavissa pääasiassa liiallisen IL-1β-signaloinnin aiheuttamiin sairauksiin.
 
-However, the evidence pack's own repurposing rationale for this specific prediction is skeptical: extracutaneous mastocytoma is a localized mast cell proliferative lesion driven predominantly by **KIT signaling**, not IL-1-dependent inflammation. There is no described IL-1 pathway involvement in this disease's pathogenesis, and the link is characterized in the source data as lacking mechanistic support.
+Näyttöpaketin omasta näkökulmasta tämän spesifisen ennusteen uudelleenkäyttöperustelut ovat kuitenkin skeptiset: ihon ulkopuolinen mastosytooma on paikallinen mastosolun proliferatiivinen vaurio, jota ajaa pääasiassa **KIT-signalointi**, ei IL-1-riippuvainen tulehdus. Sairauden patogeneesissä ei ole kuvattu IL-1-signaalireitin osallisuutta, ja lähdetiedoissa yhteys on kuvattu mekanistisen perustelun puuttuvan.
 
-No clinical trials or publications currently connect anakinra to extracutaneous mastocytoma (evidence level L5, decision stage S0). This prediction should be treated as an unvalidated model output rather than a substantiated repurposing hypothesis.
+Yhtään kliinistä tutkimusta tai julkaisua ei ole tällä hetkellä, joka yhdistää anakinran ihon ulkopuoliseen mastosytooomaan (näyttötaso L5, päätösvaihe S0). Tämä ennuste on käsiteltävä validoimattomana mallin tuotoksena eikä tuettuna uudelleenkäyttöhypoteesin.
 
-## Clinical Trial Evidence
+## Kliinisten tutkimusten näyttö
 
-Currently no related clinical trials registered
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia
 
-## Literature Evidence
+## Kirjallisuusnäyttö
 
-Currently no related literature available
+Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Anakinra is not currently marketed in Finland — no marketing authorizations (0 licenses) are recorded in this evidence pack.
+Anakinra ei ole tällä hetkellä markkinoilla Suomessa — tässä näyttöpakettiin ei ole merkitty yhtään myyntilupaa (0 lisenssiä).
 
-## Safety Considerations
+## Turvallisuushuomiot
 
-Please refer to the package insert for safety information.
+Turvallisuuskoskevista tiedoista voi lukea pakkausselosteesta.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Odota**
 
-**Rationale:**
-The top-ranked TxGNN prediction (extracutaneous mastocytoma) has no clinical trial or literature support, and the mechanistic rationale in the evidence pack itself questions the IL-1 dependency of this disease. Evidence level L5 (model prediction only) does not meet the bar to proceed.
+**Perustelut:**
+Parhaimmin sijoittuneella TxGNN-ennusteella (ihon ulkopuolinen mastosytooma) ei ole kliinistä tutkimusta tai kirjallisuuden tukea, ja näyttöpaketin oma mekanistinen perusteltu kyseenalaistaa tämän sairauden IL-1-riippuvuuden. Näyttötaso L5 (vain malliennuste) ei täytä jatkotyöskentelyn vaatimustasoa.
 
-**To proceed, the following is needed:**
-- TFDA/regulatory package insert warnings and contraindications (currently a Blocking data gap — required before any S1 safety review)
-- Confirmed mechanism of action data from DrugBank or equivalent source (currently a High-severity data gap)
-- Dedicated literature or preclinical search specific to IL-1/mast cell biology in extracutaneous mastocytoma to test the mechanistic hypothesis
+**Seuraavaa tarvitaan jatkaakseen:**
+- TFDA/säännösten mukaisen pakkausselosteen varoitukset ja vasta-aiheet (tällä hetkellä estävä tieto-aukko — vaaditaan ennen minkään S1-turvallisuustarkastelua)
+- Vahvistettu toimintamekanismin tieto DrugBankista tai vastaavasta lähteestä (tällä hetkellä vakava tieto-aukko)
+- Erityinen kirjallisuus- tai prekliininen haku, joka kohdistuu IL-1/mastosolun biologiaan ihon ulkopuolisessa mastosytooomassa mekanistisen hypoteesin testaamiseksi
 
-**Note on alternative candidates:** Within this same evidence pack, two other TxGNN-predicted indications for anakinra show substantially stronger support and may warrant separate, prioritized evaluation:
-- **Autosomal recessive Familial Mediterranean Fever** (L3, Proceed with Guardrails) — 20 literature results, including reports of anakinra use in colchicine-resistant patients, consistent with anakinra's established IL-1-blocking mechanism.
-- **Pyogenic autoinflammatory syndrome (PAPA/PSTPIP1-spectrum)** (L3, Proceed with Guardrails) — 19 literature results directly describing anakinra treatment in PAPA/PAPASH, mechanistically well aligned with IL-1β overproduction.
+**Huomautus vaihtoehtoisista ehdokkaista:** Samassa näyttöpaketissa kahdella muulla TxGNN-ennusteella anakinran indikaatioiksi näyttää olevan merkittävästi vahvempi tuki, ja ne saattavat vaatia erillisen, priorisoitua arviointia:
+- **Autosomaalinen resessiivinen Välimerenläinen kuume** (L3, Jatka varauksilla) — 20 kirjallisuustulosta, mukaan lukien raportit anakinran käytöstä kolkisiinille vastustuskykyisillä potilailla, johdonmukaisia anakinran vakiintuneen IL-1-estävän mekanismin kanssa.
+- **Pyogeeninen autoinflammatorinen oireyhtymä (PAPA/PSTPIP1-spektri)** (L3, Jatka varauksilla) — 19 kirjallisuustulosta, jotka kuvaavat suoraan anakinra-hoitoa PAPA/PAPASH-oireessa, mekanistisesti hyvin linjassa IL-1β:n liikatuotannon kanssa.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

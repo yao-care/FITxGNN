@@ -29,56 +29,57 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 
 </div>
 
-# Avibactam Sodium: Repurposing Evaluation Inconclusive — No TxGNN Predictions Available
+# Avibactam-natrium: Uudelleenkäytön arviointi epäselvä — TxGNN-ennusteita ei ole saatavilla
 
-## One-Sentence Summary
+## Yksisäikeinen yhteenveto
 
-Avibactam Sodium is a non-β-lactam β-lactamase inhibitor, used in combination with ceftazidime to treat serious gram-negative bacterial infections. The TxGNN model did not generate any repurposing predictions for this compound in the current evidence pack, and no Finland regulatory authorizations are on file. A formal repurposing evaluation cannot be conducted at this stage.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Gram-negative bacterial infections (combination partner of ceftazidime; evidence from external domain knowledge — not present in evidence pack) |
-| Predicted New Indication | No prediction available |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | L5 — no predictions generated |
-| Finland Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Avibactam-natrium on ei-β-laktaami β-laktamaasi-inhibiittori, jota käytetään yhdessä keftatsidiimin kanssa vakavien gram-negatiivisten bakteeritartuntojen hoitoon. TxGNN-malli ei tuottanut mitään uudelleenkäytön ennusteita tälle yhdisteelle nykyisessä todistepaketissa, eikä Suomen viranomaishyväksynnät ole rekisteröity. Muodollista uudelleenkäytön arviointia ei voida suorittaa tässä vaiheessa.
 
 ---
 
-## Why No Prediction is Available
+## Nopea yleiskatsaus
 
-Avibactam Sodium is a β-lactamase inhibitor without intrinsic antibacterial activity. Its sole mechanism of action is irreversible, covalent binding to serine β-lactamases (class A, C, and some class D enzymes), thereby shielding its combination partner (ceftazidime) from enzymatic inactivation. This highly specific, adjunctive mechanistic role — rather than a direct receptor-mediated or pathway-level effect — may limit TxGNN's ability to identify disease-graph associations for the compound as a standalone node.
-
-Additionally, the evidence pack confirms no DrugBank ID was resolved (`drugbank_id: null`) and no original indications were populated. The absence of a mapped knowledge graph node is the most likely technical reason no predictions were returned.
+| Kohta | Sisältö |
+|-------|---------|
+| Alkuperäinen lääkeindikaatio | Gram-negatiiviset bakteeritartunnat (keftatsidiimin yhdistelmäkumppani; todisteet ulkoisista lähteistä — ei ole olemassa todistepaketissa) |
+| Ennustettu uusi lääkeindikaatio | Ennustetta ei ole saatavilla |
+| TxGNN-ennustepistemäärä | N/A |
+| Todisteen taso | L5 — ennusteita ei luotu |
+| Suomen markkinoiden asema | Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Odota |
 
 ---
 
-## Safety Considerations
+## Miksi ennustetta ei ole saatavilla
 
-Please refer to the package insert for safety information.
+Avibactam-natrium on β-laktamaasi-inhibiittori, jolla ei ole luontaista antibakteeriaktiviteettia. Sen ainoa toimintamekanismi on peruuttamaton, kovalenttinen sitoutuminen seriini-β-laktamaaseihin (luokat A, C ja jotkut luokan D entsyymit), jolloin sen yhdistelmäkumppani (keftatsidiimi) suojataan entsymaattiselta inaktivoinnilta. Tämä erittäin spesifinen, aputoiminen mekanistinen rooli — pikemminkin kuin suora reseptorilla välitetty tai polkujen tasolla vaikuttava vaikutus — saattaa rajoittaa TxGNN:n kykyä tunnistaa sairauden-graafin liittymiä yhdisteelle erillisenä solmuna.
+
+Lisäksi todistepaketti vahvistaa, että mitään DrugBank-tunnusta ei ratkaistu (`drugbank_id: null`) ja mitään alkuperäisiä indikaatioita ei täytetty. Kartoitetun tietokaavion solmun puuttuminen on todennäköisin tekninen syy sille, miksi ennusteita ei palautettu.
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuushuomiot
 
-**Decision: Hold**
+Lisätietoja turvallisuudesta löytyy pakkausselosteesta.
 
-**Rationale:**
-The evidence pack contains no TxGNN repurposing predictions, no Finland regulatory authorizations, and no safety data. There is no evidentiary basis on which to proceed with a repurposing evaluation.
+---
 
-**To proceed, the following is needed:**
+## Johtopäätös ja seuraavat vaiheet
 
-- **Resolve DrugBank ID**: Confirm whether Avibactam Sodium has a DrugBank entry (it may be listed under the combination product Ceftazidime-Avibactam, DB09050) and re-map the knowledge graph node.
-- **Clarify evaluation scope**: Determine whether the evaluation target is Avibactam Sodium as a standalone compound or the Ceftazidime-Avibactam combination — TxGNN predictions will differ significantly between the two.
-- **Re-run TxGNN pipeline**: Once the node is correctly mapped, rerun prediction to obtain scored indication candidates.
-- **Retrieve package insert**: Obtain warnings, contraindications, and MOA from the official Finnish/EMA-approved SmPC (Zavicefta).
-- **Populate original indications**: Register the approved indications (complicated UTI, complicated IAI, hospital-acquired/ventilator-associated pneumonia) in the evidence pack before re-evaluation.
+**Päätös: Odota**
+
+**Perustelut:**
+Todistepaketti ei sisällä mitään TxGNN-uudelleenkäytön ennusteita, mitään Suomen viranomaishyväksyntöjä ja mitään turvallisuustietoja. Uudelleenkäytön arviointiin jatkamiselle ei ole todistuspohjaa.
+
+**Jatkamista varten tarvitaan seuraava:**
+
+- **Ratkaise DrugBank-tunnus**: Varmista, onko Avibactam-natriumilla DrugBank-merkintä (se voidaan listata yhdistelmätuotteen Keftatsidiimi-Avibactam alla, DB09050) ja kartoita tietokaavion solmu uudelleen.
+- **Selventää arviointilaajuutta**: Määritä, onko arviointikohteena Avibactam-natrium itsenäisenä yhdisteenä vai Keftatsidiimi-Avibactam-yhdistelmänä — TxGNN-ennusteet eroavat merkittävästi näiden kahden välillä.
+- **Suorita TxGNN-putkilinja uudelleen**: Kun solmu on oikein kartoitettu, suorita ennuste uudelleen saadaksesi pisteytetyt indikaatioiden ehdokkaat.
+- **Hae pakkausseloste**: Hanki varoitukset, vasta-aiheet ja MOA virallisesta Suomen/EMA-hyväksytystä SmPC:stä (Zavicefta).
+- **Täytä alkuperäiset indikaatiot**: Rekisteröi hyväksytyt indikaatiot (monimutkainen UTI, monimutkainen IAI, sairaalassa hankittu/ventilaattoriin liittyvä keuhkokalvontulehdus) todistepaketissa ennen uudelleen arviointia.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

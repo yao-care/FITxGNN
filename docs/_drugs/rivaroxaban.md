@@ -29,66 +29,67 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-# Rivaroxaban: From Anticoagulation Therapy to Rheumatoid Arthritis
+# Rivaroxaban: antikoagulaaniterapiasta reumatoidi artriittiin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Rivaroxaban is a direct Factor Xa inhibitor anticoagulant, generally used for prevention and treatment of thromboembolic conditions (e.g., venous thromboembolism, stroke prevention in atrial fibrillation); no structured original-indication data is present in this dataset. The TxGNN model predicts it may be effective for **Rheumatoid Arthritis**, with **0 clinical trials** and **4 publications** currently identified — none of which directly test rivaroxaban as an RA therapy.
+Rivaroxaban on suora Xa-tekijän estäjä, jota käytetään pääasiassa tromboembolitaudin ehkäisyyn ja hoitoon (esim. laskimotromboembolia, aivohalvausriski eteisen värinässä); tässä aineistossa ei ole strukturoituja alkuperäisen käyttöaiheen tietoja. TxGNN-malli ennustaa, että se saattaa olla tehokas **reumatoidi artriittiin**, ja tällä hetkellä on tunnistetty **0 kliinistä tutkimusta** ja **4 julkaisua** — joista yksikään ei suoraan testaa rivaroxabania RA:n hoitona.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Not available in current dataset (drug not marketed in Finland; known generally as an anticoagulant/Factor Xa inhibitor) |
-| Predicted New Indication | Rheumatoid Arthritis |
-| TxGNN Prediction Score | 99.57% |
-| Evidence Level | L4 |
-| Finland Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen käyttöaihe | Ei saatavilla nykyisessä aineistossa (lääkettä ei markkinoida Suomessa; tunnetaan yleisesti antikoagulantteina/Xa-tekijän estäjänä) |
+| Ennustettu uusi käyttöaihe | Reumatoidi artriitti |
+| TxGNN-ennusteen pistemäärä | 99.57% |
+| Todistelun taso | L4 |
+| Markkinatilanne Suomessa | Ei markkinoitu |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Odota |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on known information, rivaroxaban is a direct Factor Xa inhibitor used to prevent and treat thromboembolic disease; it has no established mechanistic action on inflammatory or immune pathways.
+Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla todistelupakkauksessa. Tunnettujen tietojen perusteella rivaroxaban on suora Xa-tekijän estäjä, jota käytetään tromboembolitaudin ehkäisyyn ja hoitoon, eikä sillä ole tunnettua mekanistista vaikutusta tulehduksellisiin tai immuunijärjestelmän väyliin.
 
-Rheumatoid arthritis (RA) is a chronic inflammatory disease, and elevated inflammatory activity is known to increase venous thromboembolism (VTE) risk. In clinical practice, RA patients may receive rivaroxaban to manage a co-occurring VTE or atrial fibrillation event — that is, treatment of a *complication* of RA, not RA itself.
+Reumatoidi artriitti (RA) on krooninen tulehduksellinen sairaus, ja kohonneen tulehduksellisen aktiivisuuden tiedetään lisäävän laskimotromboembolia (VTE) -riskiä. Kliinisessä käytännössä RA-potilaat saattavat saada rivaroxabania liitännäisen VTE:n tai eteisen värinän hoitoon — toisin sanoen RA:n *komplikaation* hoitoon, ei RA:n itsensä hoitoon.
 
-There is no evidence that Factor Xa inhibition acts on RA's core inflammatory pathways (e.g., TNF-α, IL-6). The high TxGNN score most likely reflects an indirect knowledge-graph association driven by RA–VTE comorbidity co-occurrence rather than a genuine therapeutic mechanism, and should be interpreted with caution.
+Ei ole näyttöä siitä, että Xa-tekijän esto vaikuttaisi RA:n keskeisiin tulehduksellisiin väyliin (esim. TNF-α, IL-6). Korkea TxGNN-pistemäärä heijastaa todennäköisesti epäsuoraa tietoverkko-assosiaatiota, joka johtuu RA:n ja VTE:n liitännäisyydestä eikä aidon terapeuttisen mekanismin tulosta, ja sitä on tulkittava varauksella.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-Currently no related clinical trials registered.
+Tällä hetkellä ei ole saatavilla liittyviä rekisteröityjä kliinisiä tutkimuksia.
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [29621248](https://pubmed.ncbi.nlm.nih.gov/29621248/) | 2018 | Cohort | PloS one | Compares medication adherence between rivaroxaban and apixaban in non-valvular atrial fibrillation patients; not RA-specific. |
-| [33141212](https://pubmed.ncbi.nlm.nih.gov/33141212/) | 2020 | Review | JAMA | General review of lower-extremity VTE diagnosis and treatment; does not address RA. |
-| [34175144](https://pubmed.ncbi.nlm.nih.gov/34175144/) | 2021 | Review | La Revue de medecine interne | Discusses thrombin generation assay for assessing hypercoagulability in autoimmune disease (e.g., antiphospholipid syndrome); RA relevance is indirect. |
-| [41918541](https://pubmed.ncbi.nlm.nih.gov/41918541/) | 2026 | Case Report | Cureus | Case of an 88-year-old woman with RA (on oral steroids) and atrial fibrillation who had recurrent thromboembolic events despite anticoagulation — illustrates RA as a comorbidity in anticoagulated patients, not RA treatment. |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
+|------|------|------|------|---------|
+| [29621248](https://pubmed.ncbi.nlm.nih.gov/29621248/) | 2018 | Kohortti | PloS one | Vertaa lääkkeiden hoitoon sitoutumista rivaroxabanin ja apixabanin välillä ei-valvulaarian eteisen värinän potilailla; ei RA-spesifinen. |
+| [33141212](https://pubmed.ncbi.nlm.nih.gov/33141212/) | 2020 | Katsaus | JAMA | Yleinen katsaus alaraajojen laskimotromboembolia-diagnostiikkaan ja hoitoon; ei käsittele RA:ta. |
+| [34175144](https://pubmed.ncbi.nlm.nih.gov/34175144/) | 2021 | Katsaus | La Revue de medecine interne | Käsittelee trombiiniksi-generaatioassayta hyperkoagulaation arvioimiseksi autoimmuunitaudeissa (esim. antifosfoli-lipiidi-syndrooma); RA:n relevanssi on epäsuora. |
+| [41918541](https://pubmed.ncbi.nlm.nih.gov/41918541/) | 2026 | Potilastapaus | Cureus | 88-vuotiaan naisen potilastapaus: RA (steroidihoito), eteisen värinä, toistuvat tromboemboli-tapahtumat antikoagulaaniterapiasta huolimatta — kuvaa RA:ta liitännäissairautena antikoagulaanilla hoidetuilla potilailla, ei RA:n hoitona. |
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Rivaroxaban is currently not marketed in Finland (0 authorizations on record); no license data is available.
+Rivaroxabania ei tällä hetkellä markkinoida Suomessa (0 hyväksyntää saatavilla olevissa tiedoissa); lisenssitietoja ei ole saatavilla.
 
-## Safety Considerations
+## Turvallisuusasiat
 
-Please refer to the package insert for safety information. (Note: TFDA/Fimea package insert warnings and contraindications are a blocking data gap for this candidate — see Next Steps.)
+Turvallisuustiedoissa viitattavaksi pakkauksen seloste. (Huomaa: TFDA/Fimea pakkauksen seloste (varoitukset, vasta-aiheet) — tällä hetkellä kriittinen aukko, joka estää alkuperäisen turvallisuusarvioinnin – katso Seuraavat vaiheet.)
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Odota**
 
-**Rationale:**
-Despite a high TxGNN score, there is no clinical trial evidence and no mechanistic support for rivaroxaban treating RA itself — the identified literature reflects RA-as-comorbidity in anticoagulated patients rather than RA-directed efficacy. Combined with the absence of safety/regulatory data, this candidate does not meet the bar to proceed.
+**Perustelut:**
+Huolimatta korkeasta TxGNN-pistemäärästä, ei ole kliinisen tutkimuksen näyttöä ja ei mekanistista tukea rivaroxabanin käytölle RA:n itsensä hoitoon — tunnistetut julkaisut heijastavat RA:ta liitännäissairautena antikoagulaanilla hoidetuilla potilailla, ei RA-kohdistettua tehoa. Yhdessä puuttuvan turvallisuus- ja sääntelyn tiedon kanssa, tämä ehdokas ei täytä etenemiskriteerejä.
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert (warnings, contraindications) — currently a blocking gap preventing initial safety assessment
-- DrugBank-sourced mechanism of action data
-- RA-specific mechanistic or preclinical studies (e.g., effect of Factor Xa inhibition on synovial inflammation) to distinguish a true signal from comorbidity-driven graph noise
+**Jotta voitaisiin edetä, tarvitaan seuraavaa:**
+- TFDA/Fimea pakkauksen seloste (varoitukset, vasta-aiheet) — tällä hetkellä kriittinen aukko, joka estää alkuperäisen turvallisuusarvioinnin
+- DrugBank-lähteisen vaikutusmekanismin tiedot
+- RA-spesiifiset mekanistiset tai prekliiniset tutkimukset (esim. Xa-tekijän eston vaikutus nivelkalvon tulehdukseen) aidon signaalin erottamiseksi liitännäisyysperäisestä graafikohinasta
 
-**Other candidates from this evidence pack** (gout, HIV infectious disease, brachydactyly-syndactyly syndrome) were also evaluated and all received a **Hold** recommendation, with weaker or no mechanistic rationale than rheumatoid arthritis.
+**Muut ehdokkaat tästä todistelupakkauksesta** (kihti, HIV-infektiotauti, brakhidaktyylia-syndaktyylia-oireyhtymä) arvioitiin myös, ja kaikki saivat **Odota**-suosituksen, jossa oli heikkompi tai puuttuva mekanistinen perustelu verrattuna reumatoidi artriittiin.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

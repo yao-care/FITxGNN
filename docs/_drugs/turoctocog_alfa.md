@@ -29,60 +29,61 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Turoctocog Alfa: From Haemophilia A to Primary Release Disorder of Platelets
+# Turoctocog alfa: Hemofiliasta A primaariseen verihiutaleiden vapautumishäiriöön
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Turoctocog alfa is a recombinant Factor VIII product used to treat and prevent bleeding in Haemophilia A. The TxGNN model predicts it may be effective for **primary release disorder of platelets**, but this candidate currently has **no supporting clinical trials and no supporting literature**, and the model's own rationale flags the mechanistic link as weak.
+Turoctocog alfa on rekombinantti Factor VIII -valmiste, jota käytetään verenvuotojen hoitoon ja ehkäisyyn hemofiliassa A. TxGNN-malli ennustaa, että se saattaa olla tehokas **primaariseen verihiutaleiden vapautumishäiriöön**, mutta tällä kandidaatilla ei ole tällä hetkellä **tukevia kliinisiä tutkimuksia eikä tukevia kirjallisuuslähteitä**, ja mallin oman perustelun mukaan mekanistinen yhteys on heikko.
 
-## Quick Overview
+## Pika-yhteenveto
 
-| Item | Content |
-|------|------|
-| Original Indication | Haemophilia A (Factor VIII replacement) — not verifiable from local licence text, as the product is not currently marketed here |
-| Predicted New Indication | Primary release disorder of platelets |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L5 (model prediction only, no supporting trials or literature) |
-| Finland Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohde | Sisältö |
+|-------|---------|
+| Alkuperäinen indikaatio | Hemofilia A (Factor VIII -korvaus) — ei voida varmentaa paikallisesta hyväksymistekstistä, koska valmistetta ei tällä hetkellä markkinoida täällä |
+| Ennustettu uusi indikaatio | Primaarinen verihiutaleiden vapautumishäiriö |
+| TxGNN-ennustepisteet | 99.99% |
+| Näytön taso | L5 (vain mallin ennuste, ei tukevia tutkimuksia tai kirjallisuutta) |
+| Suomen markkinatilanne | Ei markkinoinnissa (Ei markkinoinnissa) |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Pidätä |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on perusteltu?
 
-Detailed mechanism of action data is not available in this evidence pack (`original_moa: [Data Gap]`). Based on known pharmacology, turoctocog alfa is a recombinant Factor VIII (FVIII) concentrate; its proven role is replacing deficient FVIII clotting activity in Haemophilia A.
+Yksityiskohtaiset vaikutusmekanismin tiedot eivät ole saatavilla tässä näyttöpaketissa (`original_moa: [Data Gap]`). Tunnetun farmakologian perusteella turoctocog alfa on rekombinantti Factor VIII (FVIII) -konsentraatti; sen vahvistettu tehtävä on korvata hemofiliassa A puutteellista FVIII:n hyytymisaktiviteettia.
 
-Primary release disorder of platelets, however, is a platelet granule secretion defect (e.g. δ-storage pool disease) rather than a coagulation factor deficiency. The bleeding tendency in this condition arises from platelets failing to release their granule contents, not from insufficient FVIII. The evidence pack's own repurposing rationale explicitly states this link is weak: FVIII supplementation cannot correct a platelet granule-release defect.
+Primaarinen verihiutaleiden vapautumishäiriö on kuitenkin verihiutaleiden granulaarin erityshäiriö (esim. δ-varastopoolin sairaus) eikä hyytymistekijän puute. Verenvuotoriski tässä tilassa johtuu siitä, että verihiutaleista ei vapaudu niiden granulaarin sisältöä, ei puutteellisesta FVIII:sta. Näyttöpaketin oman uudelleenkäyttöperustelun mukaan tämä yhteys on nimenomaisesti heikko: FVIII-täydennys ei voi korjata verihiutaleiden granulaarin vapautumishäiriötä.
 
-In short, the TxGNN score is high, but the underlying biology does not obviously support extrapolating FVIII replacement to this platelet disorder. This is a case where a strong model score is not accompanied by a plausible mechanistic story, and no clinical or literature evidence currently exists to independently corroborate the prediction.
+Lyhyesti sanottuna TxGNN-pistemäärä on korkea, mutta taustalla oleva biologia ei selvästi tue FVIII-korvauksen ekstrapolointia tähän verihiutaleiden häiriöön. Tämä on tapaus, jossa vahvaa mallipistettä ei seuraa uskottava mekanistinen kertomus, eikä kliinisiä tai kirjallisuusperusteisia todisteita ole tällä hetkellä olemassa ennusteen riippumattomaksi vahvistamiseksi.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-Currently no related clinical trials registered.
+Tällä hetkellä ei ole rekisteröityjä liittyviä kliinisiä tutkimuksia.
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-Currently no related literature available.
+Tällä hetkellä ei ole saatavilla liittyviä kirjallisuuslähteitä.
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Turoctocog alfa currently holds **no marketing authorizations** in Finland (`market_status: Not marketed`, `total_licenses: 0`); no licence records are available to list.
+Turoctocog alfalla ei ole tällä hetkellä **markkinointilupia** Suomessa (`market_status: Not marketed`, `total_licenses: 0`); mitään luparekistereitä ei ole saatavilla luetteloimista varten.
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-interaction data are all currently unavailable — DDI query returned no results.)
+Katso turvallisuustiedot pakkauksen sisällä olevasta tiedotteesta. (Tärkeät varoitukset, vasta-aiheet ja lääkkeen vuorovaikutustiedot ovat kaikki tällä hetkellä saatavilla — DDI-kysely ei palauttanut tuloksia.)
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidätä**
 
-**Rationale:**
-The predicted indication sits at the lowest evidence tier (L5) — no clinical trials, no literature, and the mechanistic rationale itself is assessed as weak (a platelet granule-release defect vs. a coagulation factor replacement mechanism). Several lower-ranked candidates in this same evidence pack (e.g. thrombotic thrombocytopenic purpura) even carry a plausible safety concern, since FVIII supplementation is pro-coagulant and could theoretically worsen a pro-thrombotic condition — reinforcing that these TxGNN scores should not be acted on without mechanistic and clinical scrutiny.
+**Perustelut:**
+Ennustettu indikaatio on alimmalla näyttötasolla (L5) — ei ole kliinisiä tutkimuksia, ei kirjallisuutta, ja mekanistisen perustelun itse arvioidaan olevan heikko (verihiutaleiden granulaarin vapautumishäiriö verrattuna hyytymistekijän korvaamismekanismiin). Useat alemman sijoituksen omaavat kandidaatit tässä samassa näyttöpaketissa (esim. trombotinen trombosytopenia) sisältävät jopa uskottavan turvallisuushuolen, koska FVIII-täydennys on pro-hyytyminen ja saattaisi teoreettisesti pahentaa pro-trombottista tilaa — mikä vahvistaa, että näihin TxGNN-pisteisiin ei pidä ryhtyä toimiin ilman mekanistista ja kliinistä tarkastelua.
 
-**To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) documentation for turoctocog alfa (DG002, High severity)
-- Local package insert / regulatory warnings and contraindications (DG001, Blocking severity — required before any S1 safety screening)
-- A hematology/coagulation specialist review of whether FVIII replacement has any plausible role in platelet granule-release disorders
-- Continued literature/trial surveillance, as none currently exists for any of the 10 predicted indications in this pack
+**Jatkaakseen seuraavaa tarvitaan:**
+- Vahvistettu vaikutusmekanismin (MOA) dokumentaatio turoctocog alfalle (DG002, High severity)
+- Paikallinen liitepaperi / sääntelyvaroitukset ja vasta-aiheet (DG001, Blocking severity — vaaditaan ennen mitään S1-turvallisuusseulontaa)
+- Hematologian/hyytymisen asiantuntijan katsaus siitä, onko FVIII-korvauksella mitään uskottavaa roolia verihiutaleiden granulaarin vapautumishäiriöissä
+- Jatkuva kirjallisuuden/tutkimuksen valvonta, koska mikään ei tällä hetkellä ole olemassa yhdellekään 10:stä ennustetusta indikaatiosta tässä paketissa
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

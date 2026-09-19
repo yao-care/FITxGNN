@@ -29,93 +29,94 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Erdafitinib: From Urothelial Carcinoma to Pulmonary Hypertension
+# Erdafitinib: virtsarakon syövästä keuhkojen hypertensiooon
 
-## One-Sentence Summary
+## Yksirivinen yhteenveto
 
-> Erdafitinib is a pan-FGFR (FGFR1–4) tyrosine kinase inhibitor publicly known for the treatment of FGFR-altered locally advanced or metastatic urothelial carcinoma; this specific indication is not confirmed in the current Evidence Pack (regulatory and MOA fields are flagged as data gaps).
-> The TxGNN model's top prediction is **Pulmonary Hypertension**, but with **0 clinical trials** and **0 publications** currently supporting this direction — and the available mechanistic rationale actually points toward a **safety concern** (FGFR-pathway inhibition has been linked to pulmonary hypertension risk with other kinase inhibitors) rather than a therapeutic benefit.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Urothelial carcinoma, FGFR2/3-altered (public knowledge; not confirmed by supplied regulatory/MOA data — see Data Gaps) |
-| Predicted New Indication | Pulmonary Hypertension |
-| TxGNN Prediction Score | 99.38% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Erdafitinib on pan-FGFR (FGFR1–4) tyrosiinikinaasin inhibiittori, joka on julkisen tiedon mukaan tarkoitettu paikallisesti edenneen tai etäpesäkkeisen FGFR-muuntuneen virtsarakon syövän hoitoon; tätä erityistä indikaatiota ei vahvisteta nykyisessä Näyttöpaketissa (sääntelylliset ja MOA-kentät on merkitty tietojen puutteiksi).
+> TxGNN-mallin paras ennuste on **keuhkojen hypertensio**, mutta sen tueksi ei ole **yhtään kliinistä tutkimusta** eikä **yhtään julkaisua** - ja saatavilla oleva mekanistinen perustelu osoittaa itse asiassa **turvallisuushuoleen** (FGFR-signaalireitin estäminen on yhdistetty keuhkojen hypertension riskiin muiden kinaasin inhibiittorien kanssa) eikä terapeuttiseen hyötyyn.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Pikayleiskatsaus
 
-Detailed mechanism of action data is not available in this Evidence Pack (flagged as a High-severity data gap, DG002). Based on public information, erdafitinib is a pan-FGFR tyrosine kinase inhibitor used in oncology; its known efficacy is in FGFR-altered urothelial carcinoma.
-
-Unlike the typical repurposing case where mechanism supports a new therapeutic use, the rationale attached to this top-ranked prediction is a **caution flag rather than an efficacy hypothesis**. FGF/FGFR signaling plays a role in pulmonary vascular remodeling, and other multi-kinase inhibitors (e.g., dasatinib) are known to induce or worsen pulmonary arterial hypertension. Because erdafitinib acts on the same FGFR axis, the model's association with pulmonary hypertension is mechanistically consistent with a **drug-induced risk signal**, not a proposed treatment application. No clinical trials, ICTRP records, or literature currently exist to support either a therapeutic or an adverse relationship — this remains a pure model output requiring safety-first evaluation before any further action.
-
-The lower-ranked candidates in this pack show more classic repurposing logic (e.g., rheumatoid arthritis via FGFR's role in synovial angiogenesis, or brachydactyly-syndactyly syndrome via FGFR's established role in skeletal development), but all remain at evidence level L4–L5 with no clinical or trial-level corroboration.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Virtsarakon syöpä, FGFR2/3-muuntunut (julkinen tieto; ei vahvistettu toimitettujen sääntelyllisten/MOA-tietojen perusteella — katso Tietojen puutteet) |
+| Ennustettu uusi indikaatio | Keuhkojen hypertensio |
+| TxGNN-ennustepistemäärä | 99.38% |
+| Näyttötaso | L5 (vain mallin ennuste, ei tutkimuksia) |
+| Markkinatilanne Suomessa | ✗ Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Odota |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennuste on järkevä?
 
-Currently no related literature available for the pulmonary hypertension indication specifically. One general reference on erdafitinib's kinase-inhibitor class was identified in relation to a lower-ranked candidate (rheumatoid arthritis):
+Yksityiskohtaisia toimintamekanismin tietoja ei ole saatavilla tässä Näyttöpaketissa (merkitty korkean vakavuuden tietojen puutteeksi, DG002). Julkisen tiedon perusteella erdafitinib on pan-FGFR-tyrosiinikinaasin inhibiittori, jota käytetään syöpähoitoon; sen tunnettu tehokkuus on FGFR-muuntuneessa virtsarakon syövässä.
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [31862477](https://pubmed.ncbi.nlm.nih.gov/31862477/) | 2020 | Review | Pharmacological Research | Overview of FDA-approved small-molecule kinase inhibitors (2019 cohort), noting erdafitinib among four newly approved agents; does not address pulmonary hypertension or rheumatoid arthritis specifically. |
+Toisin kuin tyypillisessä uudelleenkäyttötapauksessa, jossa mekanismi tukee uutta terapeuttista käyttöä, tähän ylimmäksi rankattuun ennusteeseen liittyvät perustelut toimivat **varoituslippuna eikä tehokkuushypoteesina**. FGF/FGFR-signalointi osallistuu keuhkoverisuonten uudelleenmuokkaukseen, ja muut moniydin-kinaasin inhibiittorit (esim. dasatinib) tiedetään laukaisemaan tai pahentamaan keuhkovaltimohypertensiota. Koska erdafitinib vaikuttaa samalla FGFR-akselilla, mallin yhdistys keuhkojen hypertension kanssa on mekanistisesti johdonmukainen lääke-aiheuttaman riskisignaalin kanssa, ei ehdotetun hoitosovelluksen kanssa. Tällä hetkellä ei ole olemassa kliinisiä tutkimuksia, ICTRP-tietoja tai kirjallisuutta, joka tukeisi joko terapeuttista tai epäsuotuisaa suhdetta - tämä on edelleen vain mallin tuotos, joka vaatii turvallisuuteen painottuvaa arviointia ennen jatkotoimia.
 
----
-
-## Finland Market Information
-
-Erdafitinib is **not marketed in Finland** — no marketing authorizations are on record (0 licenses).
+Tämän paketin alemmin rankatut ehdokkaat osoittavat klassisempaa uudelleenkäyttölogiikkaa (esim. reumatoidi nivelreuma FGFR:n roolin kautta synovian angiogeneesissä, tai brachydactyly-syndactyly-oireyhtymä FGFR:n vakiintuneen roolin kautta luustojen kehityksessä), mutta ne kaikki pysyvät L4–L5 näyttötasolla ilman kliinisen tason tai tutkimustason vahvistusta.
 
 ---
 
-## Cytotoxicity
+## Kliinisten tutkimusten näyttö
 
-Erdafitinib is a targeted anticancer kinase inhibitor (publicly documented as an FGFR-directed therapy for urothelial carcinoma), so this section is included despite the Evidence Pack's DrugBank/toxicity fields being unpopulated.
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (FGFR1–4 tyrosine kinase inhibitor) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+Tällä hetkellä ei ole rekisteröity asiaan liittyviä kliinisiä tutkimuksia.
 
 ---
 
-## Safety Considerations
+## Kirjallisuuden näyttö
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-interaction data are all flagged as data gaps in this Evidence Pack — TFDA/EU package insert warnings retrieval is listed as a **Blocking** severity gap, DG001.)
+Tällä hetkellä ei ole saatavilla kirjallisuutta keuhkojen hypertensio-indikaatiota varten spesifisesti. Yksi yleinen viite erdafitiniibin kinaasin inhibiittorin luokkaan havaittiin suhteessa alemmin rankattuun ehdokkaaseen (reumatoidi nivelreuma):
+
+| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät havainnot |
+|------|------|--------|-------|---------|
+| [31862477](https://pubmed.ncbi.nlm.nih.gov/31862477/) | 2020 | Katsaus | Pharmacological Research | FDA-hyväksyttyjen pienimolekyyli-kinaasin inhibiittorien yleiskatsaus (2019 kohortti), jossa erdafitinib on lueteltu neljän vastikään hyväksytyn aineen joukossa; ei käsitele keuhkojen hypertensiota tai reumatoidia nivelreumaa erityisesti. |
 
 ---
 
-## Conclusion and Next Steps
+## Markkinatilanne Suomessa
 
-**Decision: Hold**
+Erdafitinib **ei ole markkinoilla Suomessa** — mitään markkinointilupaa ei ole rekisteröity (0 lupaa).
 
-**Rationale:**
-The top-ranked prediction (pulmonary hypertension) has zero supporting clinical or literature evidence and its own mechanistic rationale reads as a potential safety risk rather than an efficacy signal — this is an L5, S0-stage model output with no independent corroboration. All six predicted indications in this pack sit at L4 or L5, and core safety data (package insert warnings, contraindications, DDI) are unavailable, which blocks even an initial S1 safety review.
+---
 
-**To proceed, the following is needed:**
-- TFDA/EU package insert (warnings, contraindications) — currently a Blocking data gap (DG001)
-- Confirmed mechanism of action and original indication from DrugBank — currently a High-severity data gap (DG002)
-- Targeted literature/pharmacovigilance search specifically on FGFR inhibitors and pulmonary hypertension risk (safety signal, not efficacy) before any further development consideration
-- If pursuing lower-ranked candidates (e.g., rheumatoid arthritis, brachydactyly-syndactyly syndrome), preclinical mechanistic studies to move beyond L4/L5 evidence
+## Sytotoksisuus
+
+Erdafitinib on kohdennettu syöpälääke-kinaasin inhibiittori (julkisesti dokumentoitu FGFR-suuntautuneena hoitona virtsarakon syövässä), joten tämä osio sisällytetään huolimatta siitä, että Näyttöpaketin DrugBank-sytotoksisuus-kentät ovat täyttämättömiä.
+
+| Kohta | Sisältö |
+|------|--------|
+| Sytotoksisuus-luokitus | Kohdennettu hoito (FGFR1–4 tyrosiinikinaasin inhibiittori) |
+| Luuydintukahdutuksen riski | Katso pakkauksessa olevan liitteen varoitukset ja varotoimet |
+| Emetogeniteetti-luokitus | Katso pakkauksessa olevan liitteen varoitukset ja varotoimet |
+| Monitoroitavat kohdat | Katso pakkauksessa olevan liitteen varoitukset ja varotoimet |
+| Käsittelyn suojatoimet | Katso pakkauksessa olevan liitteen varoitukset ja varotoimet |
+
+---
+
+## Turvallisuusnäkökulmat
+
+Katso pakkauksessa olevan liitteen turvallisuustietoja. (Tärkeimmät varoitukset, vasta-aiheet ja lääkkeen vuorovaikutustiedot on kaikki merkitty tietojen puutteiksi tässä Näyttöpaketissa — TFDA/EU-pakkauksessa olevan liitteen varoitusten hakeminen on merkitty **Esto**-vakavuuden puutteeksi, DG001.)
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Odota**
+
+**Perustelut:**
+Ylimmäksi rankatulla ennusteella (keuhkojen hypertensio) ei ole yhtään kliinistä tai kirjallisuusperustaista näyttöä, ja sen mekanistinen perustelu viittaa pikemminkin turvallisuusriskiin kuin tehokkuussignaaliin — tämä on L5, S0-vaiheen mallin tuotos ilman riippumatonta vahvistusta. Kaikki kuusi ennustettua indikaatiota tässä paketissa ovat L4 tai L5 -tasolla, ja keskeinen turvallisuustieto (pakkauksessa olevan liitteen varoitukset, vasta-aiheet, DDI) ei ole saatavilla, mikä estää jopa alkuperäisen S1-turvallisuusarvion.
+
+**Edistymiseksi tarvitaan:**
+- TFDA/EU-pakkauksessa oleva liite (varoitukset, vasta-aiheet) — tällä hetkellä Esto-vakavuuden tietojen puute (DG001)
+- Vahvistettu toimintamekanismi ja alkuperäinen indikaatio DrugBankista — tällä hetkellä Korkea-vakavuuden tietojen puute (DG002)
+- Kohdistettu kirjallisuus-/lääketurvallisuushaku erityisesti FGFR-inhibiittorien ja keuhkojen hypertension riskin osalta (turvallisuussignaali, ei tehokkuus) ennen mitään jatkokehittämismahdollisuuden harkintaa
+- Jos haetaan alemmin rankattuja ehdokkaita (esim. reumatoidi nivelreuma, brachydactyly-syndactyly-oireyhtymä), prekliinisiä mekanistisia tutkimuksia L4/L5 näyttöjen siirtämiseksi
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

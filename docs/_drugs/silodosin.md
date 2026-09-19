@@ -29,64 +29,65 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Silodosin: From Benign Prostatic Hyperplasia to Ambras Type Hypertrichosis Universalis Congenita
+# Silodosin: hyvänlaatuisesta eturauhassyperplasiasta Ambras-tyypin yleistyneeseen kongeniaaliseen hypertrikoosiin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Silodosin is a highly selective alpha-1A adrenergic receptor antagonist originally used to relieve lower urinary tract symptoms associated with benign prostatic hyperplasia (BPH). The TxGNN model predicts it may be effective for **Ambras type hypertrichosis universalis congenita** with a 99.99% score, but this and all five other top-ranked predictions are supported by **zero clinical trials and no relevant literature** — the evidence pack itself flags them as likely embedding-space artifacts with no plausible biological mechanism.
+Silodosin on erittäin valikoiva alfa-1A-adrenergisen reseptorin antagonisti, jota käytetään alun perin alemman virtsateiden oireiden lievittämiseen, jotka liittyvät hyvänlaatuiseen eturauhassyperplasiaan (BPH). TxGNN-malli ennustaa, että se voi olla tehokas **Ambras-tyypin yleistyneelle kongeniaaliselle hypertrikoosille** pistemäärällä 99,99 %, mutta tätä ja kaikkia muita viittä parhaiten sijoittunutta ennustetta ei tue **yksikään kliininen tutkimus eikä oleellinen kirjallisuus** — todistepaketti itse merkitsee ne todennäköisesti upotusavaruuden artefakteiksi ilman uskottavaa biologista mekanismia.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Lower urinary tract symptoms associated with benign prostatic hyperplasia (BPH) — not present in this evidence pack; TFDA package insert data is flagged as a blocking gap (DG001) |
-| Predicted New Indication | Ambras type hypertrichosis universalis congenita (congenital generalized hypertrichosis) |
-| TxGNN Prediction Score | 99.99% (rank 153 among all disease candidates) |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Finland Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Alemman virtsateiden oireet, jotka liittyvät hyvänlaatuiseen eturauhassyperplasiaan (BPH) — ei ole esillä tässä todistepakettissa; TFDA:n pakkausseloste on merkitty estäväksi puutteeksi (DG001) |
+| Ennustettu uusi indikaatio | Ambras-tyypin yleistyneinen kongeniaali hypertrikoosi |
+| TxGNN-ennusteen pistemäärä | 99,99 % (sijoitus 153 kaikkien sairauskandidaattien joukossa) |
+| Todistuksen taso | L5 (vain mallin ennuste, ei tukevia tutkimuksia) |
+| Suomen markkinoiden asema | Ei markkinoilla (Ei markkinoilla) |
+| Valtuuksien määrä | 0 |
+| Suositeltu päätös | Odota |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Detailed formal mechanism-of-action documentation is not available in this evidence pack (flagged as data gap DG002), but based on publicly available drug reference data, silodosin is a highly α1A-selective adrenergic receptor antagonist that relaxes smooth muscle in the prostate and urethra, relieving BPH-related voiding symptoms. Its selectivity for α1A over α1B receptors is what limits cardiovascular side effects relative to older, non-selective alpha blockers.
+Yksityiskohtaista muodollista vaikutusmekanismidata ei ole saatavilla tässä todistepakettissa (merkitty tietovajeeksi DG002), mutta julkisesti saatavilla olevan lääkeviitteen perusteella silodosin on erittäin α1A-valikoiva adrenergisen reseptorin antagonisti, joka rentouttaa eturauhassa ja virtsaputkessa olevia sileitä lihaksia ja lievittää BPH:n kannalta virtsaamisen oireita. Sen α1A:n suhteellinen valikoivuus α1B-reseptoreihin verrattuna rajoittaa sydän- ja verisuonijärjestelmän sivuvaikutuksia verrattuna vanhempiin ei-valikoiviin alfa-salpaajiin.
 
-There is no known or biologically plausible mechanistic pathway connecting α1A-adrenergic antagonism to Ambras syndrome, which is a congenital disorder linked to chromosomal rearrangements near 8q affecting *TRPS1* gene regulation and hair follicle development — an entirely distinct biological system from smooth-muscle adrenergic signaling.
+Ambras-syndroomin kanssa α1A-adrenergisen antagonismin yhdistämiselle ei ole tunnettu tai biologisesti uskottava mekanistinen polku, sillä kyseessä on kongeniaali häiriö, joka liittyy 8q:n lähellä oleviin kromosomaalisiin uudelleenjärjestelyihin, jotka vaikuttavat *TRPS1*-geenin säätöön ja hiusfollikelikehitykseen — täysin erillinen biologinen järjestelmä sileiden lihasten adrenergisesta signaloinnista.
 
-The evidence pack's own repurposing rationale is explicit on this point: the TxGNN score of 0.9999 is assessed as a likely **spurious correlation within the model's knowledge-graph embedding space**, with no supporting biological hypothesis. The same pattern repeats across all six top-ranked predictions in this pack (hypertrichosis, a periodontal malformation syndrome, Dandy-Walker malformation, a hair-shaft structural disorder, and familial trichomegaly) — none has a credible mechanistic link to α1A antagonism, and the periodontal-disease literature that did surface (20 PubMed hits) was confirmed to be keyword-matching noise unrelated to silodosin.
+Todistepaketin omat uudelleenkäytön perustelut ovat selkeät tässä suhteessa: TxGNN-pistemäärä 0,9999 arvioidaan todennäköiseksi **harhaanjohtavaksi upotusavaruuden korrelaatioksi**, ilman tukevia biologisia hypoteeseja. Sama kuvio toistuu kaikkien kuuden parhaiten sijoittuneen ennusteen kohdalla tässä paketissa (hypertrikoosi, periodontin malformaatiosyndroomi, Dandy-Walker-muodostuma, hiusvarren rakenteellinen häiriö ja perinnöllinen trikkomegalia) — yksikään ei liity biologisesti uskottavasti α1A-antagonismiin, ja periodontaalisen sairauden kirjallisuus, joka nousi esiin (20 PubMed-osumaa), vahvistettiin olevan asiasanojen sovittelusta johtuvaa melua, joka ei liity silodosiin.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen todisteet
 
-Currently no related clinical trials registered.
+Tällä hetkellä ei ole liittyviä rekisteröityjä kliinisiä tutkimuksia.
 
-## Literature Evidence
+## Kirjallisuuden todisteet
 
-Currently no related literature available.
+Tällä hetkellä ei ole saatavilla oleellista kirjallisuutta.
 
-## Finland Market Information
+## Suomen markkinoiden tiedot
 
-Silodosin is not currently marketed in Finland (0 authorizations on record), so no product license information is available.
+Silodosia ei tällä hetkellä markkinoida Suomessa (tietueissa 0 valtuutusta), joten tuotteen lupatietoja ei ole saatavilla.
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information.
+Turvallisuustiedot löytyvät pakkausselosteesta.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Odota**
 
-**Rationale:**
-The predicted indication has no clinical trials, no relevant literature, and no biologically plausible mechanistic link to silodosin's known α1A-adrenergic antagonism — the evidence pack itself characterizes the TxGNN score as a likely spurious embedding-space correlation. All five other top-ranked predictions in this pack show the identical pattern (L5 evidence, Hold recommendation), reinforcing that this candidate set is not ready for further evaluation.
+**Perustelut:**
+Ennustetulla indikaatiolla ei ole kliinisiä tutkimuksia, oleellista kirjallisuutta eikä biologisesti uskottavaa mekanistista yhteyttä silodosiin tunnettuun α1A-adrenergiseen antagonismiin — todistepaketti itse luonnehtii TxGNN-pistemäärää todennäköiseksi harhaanjohtavaksi upotusavaruuden korrelaatioksi. Kaikissa tässä paketissa olevissa viidessä muussa parhaiten sijoittuneessa ennusteessa näkyy samanlainen kuvio (L5-todistus, Odota-suositus), mikä vahvistaa, että tämä kandidaattijoukko ei ole valmis jatkoarviointiin.
 
-**To proceed, the following is needed:**
-- TFDA/official package insert with warnings, contraindications, and confirmed original indication text (blocking gap, DG001)
-- Verified mechanism-of-action data from DrugBank or equivalent primary source (DG002)
-- A biologically grounded hypothesis (e.g., from dermatology/endocrinology literature) before any further investment in the hypertrichosis-related predictions
-- Re-screening once TxGNN model version or training data is updated, given the current rank (153) is far outside typical high-confidence repurposing candidates
+**Jatkamiseksi seuraavaa tarvitaan:**
+- TFDA:n/virallinen pakkausseloste varoituksilla, kontraindikaatioilla ja vahvistetulla alkuperäisen indikaation tekstillä (estävä puute, DG001)
+- Vahvistettu vaikutusmekanismidata DrugBankista tai vastaavasta ensisijaisesta lähteestä (DG002)
+- Biologisesti perusteltu hypoteesi (esim. dermatologian/endokrinologian kirjallisuudesta) ennen mitään lisäinvestointia hypertrikoosiin liittyviin ennusteisiin
+- Uudelleenseulonta, kun TxGNN-mallin versio tai harjoitusdata päivitetään, koska nykyinen sijoitus (153) on kaukana tyypillisistä korkean luottamuksen uudelleenkäyttökandidaateista
 
-Sources:
+Lähteet:
 - [Silodosin: Uses, Interactions, Mechanism of Action | DrugBank](https://go.drugbank.com/drugs/DB06207)
 - [Silodosin - Wikipedia](https://en.wikipedia.org/wiki/Silodosin)
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

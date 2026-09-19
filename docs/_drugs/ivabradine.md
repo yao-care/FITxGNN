@@ -29,76 +29,77 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Ivabradine: From Heart Rate Reduction (Cardiovascular Disease) to Hypertrichosis
+# Ivabradine: sydämen sykkeen alennuksesta (sydän- ja verenkiertosairaus) hypertrikoosiin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Ivabradine is a selective inhibitor of the sinoatrial node I_f ("funny") current, used pharmacologically to lower heart rate in cardiovascular disease; it is not currently marketed in Finland and no local product label is on file.
-The TxGNN model predicts it may be effective for **hypertrichosis (disease)**, but this direction is currently supported by **0 clinical trials** and **0 publications** — it is a pure graph-based prediction with no known mechanistic link.
-Given the absence of any trial, literature, or confirmed mechanism-of-action evidence, and a blocking gap in safety/label data, this candidate is not ready to advance.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in evidence pack (Finland: unmarketed, no product license text); known pharmacological class use is heart-rate reduction in cardiovascular disease |
-| Predicted New Indication | Hypertrichosis (disease) |
-| TxGNN Prediction Score | 99.79% |
-| Evidence Level | L5 |
-| Finland Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Ivabradine on sinoatriaalisolmun I_f ("funny") virran selektiivinen estäjä, jota käytetään farmakologisesti sydämen sykkeen alentamiseen sydän- ja verenkiertosairauksissa; sitä ei tällä hetkellä markkinoida Suomessa eikä paikallista tuoteselosteita ole saatavilla.
+TxGNN-malli ennustaa, että se saattaa olla tehokas **hypertrikoosille (sairaus)**, mutta tätä suuntaa tuetaan tällä hetkellä **0 kliinisellä tutkimuksella** ja **0 julkaisulla** — se on puhdas graafipohjainen ennustus ilman tunnettua mekanistista yhteyttä.
+Kliinisten tutkimusten, kirjallisuuden ja vahvistetun vaikutusmekanismin puuttumisen sekä turvallisuus-/selostetietojen kriittisen aukon vuoksi tämä kandidaatti ei ole valmis etenemään.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Pikakatsaus
 
-Currently, detailed mechanism-of-action data for ivabradine is not available in this evidence pack (DrugBank MOA field returned a data gap). Elsewhere in the collected evidence, ivabradine's known pharmacology is noted as selective inhibition of the sinoatrial node I_f ("funny") current, which reduces heart rate — the basis for its cardiovascular use.
-
-There is no established or plausible biological pathway connecting I_f-channel inhibition to hair follicle growth or hypertrichosis. The evidence pack's own assessment for this candidate states explicitly that no clinical trials, no literature, and no MOA data exist to support the link, and that the prediction is a pure TxGNN graph output rather than a mechanism-grounded hypothesis.
-
-The four other top-ranked predictions for this drug (Ambras-type hypertrichosis, an odontal/periodontal malformation syndrome, a Dandy-Walker malformation syndrome, and an isolated hair-shaft abnormality) are similarly unsupported — none show a credible mechanistic tie to sinoatrial rate control, and only one (the odontal/periodontal syndrome) returned any literature at all, and that literature is generic periodontal-disease background rather than ivabradine-specific research.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Ei dokumentoitu evidenssipakettiin (Suomi: ei markkinoitu, ei tuotelisenssia); tunnettu farmakologinen käyttö on sydämen sykkeen alennus sydän- ja verenkiertosairauksissa |
+| Ennustettu uusi indikaatio | Hypertrikoosi (sairaus) |
+| TxGNN-ennustuspistemäärä | 99.79% |
+| Näyttötaso | L5 |
+| Suomen markkinatilanne | Ei markkinoitu |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Odotus |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennustus vaikuttaa kohtuulliselta?
 
-Currently no related literature available.
+Tällä hetkellä yksityiskohtaisia vaikutusmekanismi-tietoja ivabradiinille ei ole saatavilla tässä evidenssipakettissa (DrugBank MOA-kenttä palautti tietoaukon). Muissa kerätyissä tiedoissa ivabradiinin tunnettu farmakologia on dokumentoitu sinoatriaalisolmun I_f-virran ("funny") selektiivisenä estäjänä, joka alentaa sydämen sykettä — tämä on perusta sen käytölle sydän- ja verenkiertosairauksien hoidossa.
 
----
+Ei ole vakiintunutta eikä uskottavaa biologista polkua, joka yhdistäisi I_f-kanavan estämisen hiuskasvuun tai hypertrikoosiin. Evidenssipaktin oma arvio tälle kandidaatille toteaa selvästi, että kliinisiä tutkimuksia, kirjallisuutta eikä vaikutusmekanismi-tietoja ei ole olemassa tukeakseen tätä yhteyttä, ja että ennuste on puhdas TxGNN-graafipohjaiseen tulos eikä mekanismiin perustuva hypoteesi.
 
-## Finland Market Information
-
-Ivabradine has no marketing authorization on file (`market_status`: Not Marketed; `total_licenses`: 0). No product license records are available to summarize.
+Neljä muuta parhaiten sijoittuvaa ennustusta tälle lääkkeelle (Ambrasi-tyypin hypertrikoosi, hammas- ja parodontaalinen kehityshäiriöoireyhtymä, Dandy-Walkerin kehityshäiriöoireyhtymä ja eristetty hiusvarren epänormaalisuus) ovat samoin ilman tukea — mikään ei osoita uskottavaa mekanistista yhteyttä sinoatriaalisolmun sykkeen hallintaan, ja vain yksi (hammas- ja parodontaalinen kehityshäiriöoireyhtymä) palautti mitään kirjallisuutta ollenkaan, ja se kirjallisuus on geneerinen parodontaalisen sairauden tausta-aineisto eikä ivabradiini-kohtaista tutkimusta.
 
 ---
 
-## Safety Considerations
+## Kliinisen tutkimuksen näyttö
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-interaction data are not currently available in the evidence pack; the TFDA/label warning data gap is flagged as **Blocking** for safety evaluation.)
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
 
 ---
 
-## Conclusion and Next Steps
+## Kirjallisuuden näyttö
 
-**Decision: Hold**
+Asiaan liittyviä kirjallisuuslähteitä ei ole tällä hetkellä saatavilla.
 
-**Rationale:**
-The top predicted indication (hypertrichosis) has no supporting clinical trials, no literature, and no mechanistic rationale — the evidence pack itself characterizes it as model noise. This is compounded by a blocking data gap on TFDA/label safety information, which prevents even a preliminary safety screen (S1).
+---
 
-**To proceed, the following is needed:**
-- TFDA/local package insert warnings and contraindications (currently blocking)
-- Confirmed mechanism-of-action data from DrugBank
-- Preclinical or mechanistic studies linking I_f-channel inhibition (or any other ivabradine target) to hair follicle biology
-- Any pilot clinical or case-level evidence before this candidate can move past L5/S0
+## Suomen markkinoiden tiedot
+
+Ivabradiinilla ei ole markkinointilupia (`market_status`: Ei markkinoitu; `total_licenses`: 0). Tuotelisenssitietueita ei ole saatavilla yhteenvetoa varten.
+
+---
+
+## Turvallisuushuomiot
+
+Turvallisuustietoja varten katso tuoteselosteesta. (Tärkeimmät varoitukset, vasta-aiheet ja lääkeinteraktiotiedot eivät ole tällä hetkellä saatavilla evidenssipakettissa; TFDA/selostetietojen varoitusaukkoa merkitään turvallisuusarviointia **estävänä** tekijänä.)
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Odotus**
+
+**Perustelut:**
+Paras ennustettu indikaatio (hypertrikoosi) ei ole tuettu kliinisillä tutkimuksilla, kirjallisuudella eikä mekanistisilla perusteilla — evidenssipakki itse kuvaa sitä mallin kohinaksi. Tätä pahentaa TFDA/selostetietojen varoitustieto-aukkoa, joka estää jopa alustavaa turvallisuusseulontaa (S1).
+
+**Etenemisen edellytykset:**
+- TFDA/paikalliset tuoteselosteen varoitukset ja vasta-aiheet (tällä hetkellä estävä)
+- Vahvistetut vaikutusmekanismi-tiedot DrugBankista
+- Prekliiniset tai mekanistiset tutkimukset, jotka yhdistävät I_f-kanavan estämisen (tai minkä tahansa muun ivabradiinin kohteen) hiustupen biologiaan
+- Kaikki pilotti-kliiniset tai tapaus-tason näytteet ennen kuin tämä kandidaatti voi edetä L5/S0:n yli
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

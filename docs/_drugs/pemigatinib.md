@@ -29,90 +29,91 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Pemigatinib: From Undocumented Original Indication to Multiple Endocrine Neoplasia
+# Pemigatinib: tuntemattomasta alkuperäisestä osoitteesta monien endokriinisten neoplasioiden osoitteeseen
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-> The evidence pack for pemigatinib does not include original indication data, though the drug is characterized elsewhere in this pack as a selective FGFR1/2/3 kinase inhibitor.
-> The TxGNN model predicts it may be effective for **Multiple Endocrine Neoplasia**,
-> but this direction currently has **0 clinical trials** and **0 publications** supporting it, and the model's own rationale flags a lack of mechanistic plausibility.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in this evidence pack (data gap) |
-| Predicted New Indication | Multiple Endocrine Neoplasia |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L5 |
-| Finland Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Pemigatiniibin näyttöpaketti ei sisällä alkuperäisen osoitteen tietoja, vaikka lääkettä kuvataan muualla tässä paketissa selektiiiviseksi FGFR1/2/3-kinaasin estäjäksi.
+> TxGNN-malli ennustaa, että se voi olla tehokas **monien endokriinisten neoplasioiden** hoidossa,
+> mutta tämä suunta on tällä hetkellä tuettu **0 kliinisellä tutkimuksella** ja **0 julkaisulla**, ja mallin oma perustelut viittaa mekanistisen uskottavuuden puutteeseen.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Pikayleiskatsaus
 
-Currently, detailed mechanism of action data is not available for pemigatinib in this evidence pack (flagged as a High-severity data gap). Based on information embedded elsewhere in the pack's repurposing rationales, pemigatinib is consistently described as a **selective FGFR1/2/3 kinase inhibitor**, consistent with its classification (in an independently retrieved review) among FDA-approved small-molecule protein kinase inhibitors.
-
-For the top-ranked prediction, Multiple Endocrine Neoplasia, the model's own generated rationale is explicitly skeptical: MEN is primarily driven by *RET*, *MEN1*, and *CDKN1B* mutations, none of which have an established link to FGFR signaling. The rationale states this high score likely reflects a lack of underlying mechanistic support rather than a genuine biological signal.
-
-By contrast, a lower-ranked prediction in the same pack — HER2-positive breast carcinoma (rank 3, L4, "Research Question") — has a more coherent mechanistic story (FGFR1 amplification as a known trastuzumab-resistance pathway) and at least one supporting literature reference, even though it still lacks disease-specific data or trials. This suggests the top-ranked prediction may not be the most biologically credible candidate in this pack, and rank 3 may merit separate follow-up.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Kohta | Sisältö |
+|------|--------|
+| Alkuperäinen osoite | Ei dokumentoitu tässä näyttöpaketissa (tietoaukko) |
+| Ennustettu uusi osoite | Monet endokriiniset neoplasiat |
+| TxGNN-ennustteen pistemäärä | 99.71% |
+| Näyttötaso | L5 |
+| Suomen markkinatilanne | Ei markkinoilla |
+| Hyväksyntöjen määrä | 0 |
+| Suositeltu päätös | Odota |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennuste on järkevä?
 
-Currently no related literature available
+Yksityiskohtaiset pemigatiniibin vaikutusmekanismin tiedot eivät ole tällä hetkellä saatavilla tässä näyttöpaketissa (merkitty vakavuusasteella varustetuksi tietoaukoksi). Pakettiin muualla sisältyvissä uudelleenkäyttöjen perusteluissa pemigatinibia kuvataan johdonmukaisesti **selektiiiviseksi FGFR1/2/3-kinaasin estäjäksi**, mikä on yhdenmukainen sen luokittelun kanssa (itsenäisesti noudettavasta arvostelussa) FDA:n hyväksymien pienimolekyylisten proteiinikinaasin estäjien joukossa.
 
----
+Huippuluokitellun ennusteen osalta – monet endokriiniset neoplasiat – mallin oma tuottama perustelut on selvästi skeptinen: MEN:iä ajaa ensisijaisesti *RET*-, *MEN1*- ja *CDKN1B*-mutaatiot, joista millään ei ole vakiintunutta yhteyttä FGFR-signalointi. Perusteluista todetaan, että tämä korkea pistemäärä johtuu todennäköisesti taustalla olevan mekanistisen tuen puutteesta pikemminkin kuin aidoista biologisista signaaleista.
 
-## Finland Market Information
-
-Pemigatinib currently holds no marketing authorizations in Finland (market status: Not Marketed; 0 registered authorizations).
+Sitä vastoin matalasijoitettu ennuste samasta paketista – HER2-positiivinen rinnansyöpä (sijoitus 3, L4, "Tutkimuskysymys") – sisältää johdonmukaisemman mekanistisen selityksen (FGFR1-amplifikaatio tunnetussa trastuzumabi-resistanssin polkussa) ja vähintään yhden tukevan kirjallisuusviitteen, vaikka sille silti puuttuu tautikohtaisesti tietoa ja tutkimuksia. Tämä viittaa siihen, että huippuluokitellun ennusteen ei välttämättä ole biologisesti uskottavin ehdokas tässä paketissa, ja sijoitus 3 voi vaatia erillistä seurantaa.
 
 ---
 
-## Cytotoxicity
+## Kliinisen tutkimuksen näyttö
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (FGFR1/2/3 selective kinase inhibitor) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+Tällä hetkellä ei ole asiaan liittyviä kliinisiä tutkimuksia rekisteröity
 
 ---
 
-## Safety Considerations
+## Kirjallisuuden näyttö
 
-Please refer to the package insert for safety information.
-
-*(Note: TFDA package insert warnings/contraindications are marked as a Blocking data gap in this evidence pack — this item must be resolved before any S1 safety assessment can proceed.)*
+Tällä hetkellä ei ole asiaan liittyvää kirjallisuutta saatavilla
 
 ---
 
-## Conclusion and Next Steps
+## Suomen markkinatiedot
 
-**Decision: Hold**
+Pemigatiniibi ei tällä hetkellä ole minkään markkinoinnin hyväksynnän piirissä Suomessa (markkinatilanne: Ei markkinoilla; 0 rekisteröityä hyväksyntää).
 
-**Rationale:**
-The top-ranked prediction (Multiple Endocrine Neoplasia) has no clinical trials, no literature, and the model-generated rationale itself questions the mechanistic basis for the score. Combined with the drug's unmarketed status in Finland and a blocking gap in TFDA safety data, there is currently no basis to advance this specific indication.
+---
 
-**To proceed, the following is needed:**
-- TFDA/EMA package insert extraction (warnings, contraindications, DDI) — currently a blocking gap
-- Confirmed original indication and mechanism-of-action data for pemigatinib
-- Any preclinical or mechanistic evidence directly linking FGFR1/2/3 signaling to MEN pathophysiology
-- Consider redirecting research attention to the HER2-positive breast carcinoma signal (rank 3, L4), which has a more plausible mechanistic rationale and at least preliminary literature support
+## Sytoitoksisuus
+
+| Kohta | Sisältö |
+|------|--------|
+| Sytoitoksisuuden luokittelu | Kohdennettu lääkehoito (FGFR1/2/3-selektiivinen kinaasin estäjä) |
+| Luuydinmasennuksen riski | Katso pakkausseloste varoitukset ja varotoimet |
+| Emetogeenisuuden luokittelu | Katso pakkausseloste varoitukset ja varotoimet |
+| Seurantakohteet | Katso pakkausseloste varoitukset ja varotoimet |
+| Käsittelysuojaus | Katso pakkausseloste varoitukset ja varotoimet |
+
+---
+
+## Turvallisuusnäkökohdat
+
+Katso pakkausseloste turvallisuustiedoista.
+
+*(Huomio: TFDA-pakkausselosteen varoitukset/vasta-aiheet on merkitty tämän näyttöpaketin estäväksi tietoaukoksi – tämä kohta on ratkaistava ennen kuin S1-turvallisuusarvio voidaan suorittaa.)*
+
+---
+
+## Johtopäätökset ja seuraavat vaiheet
+
+**Päätös: Odota**
+
+**Perustelut:**
+Huippuluokitellun ennusteen (monet endokriiniset neoplasiat) taustalla ei ole kliinisiä tutkimuksia, kirjallisuutta, eikä mallin itse tuottama perustelut aseta kysymysmerkkejä pistemäärän mekanistisesta perusteesta. Yhdistettynä lääkkeen markkinoimattomaan asemaan Suomessa ja TFDA-turvallisuustietojen estävään tietoaukkoon, ei ole tällä hetkellä perusteita tämän erityisen osoitteen edistämiselle.
+
+**Jatkamiseksi tarvitaan seuraavaa:**
+- TFDA/EMA-pakkausselosteen louhinta (varoitukset, vasta-aiheet, lääkeyhteisvaikutukset) – tällä hetkellä estävä tietoaukko
+- Vahvistetut pemigatiniibin alkuperäiset osoitteet ja vaikutusmekanismin tiedot
+- Kaikki prekliiniset tai mekanistiset todisteet, jotka suoraan yhdistävät FGFR1/2/3-signaloinnin MEN-patofysiologiaan
+- Harkitse tutkimushuomion ohjaamista HER2-positiivisen rinnansyövän signaaliin (sijoitus 3, L4), jolla on uskottavampi mekanistinen perustelut ja ainakin alustava kirjallisuuden tuki
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

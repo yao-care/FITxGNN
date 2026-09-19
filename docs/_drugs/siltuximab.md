@@ -29,64 +29,65 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **8** kpl
 
 </div>
 
-# Siltuximab: From Multicentric Castleman Disease to Extracutaneous Mastocytoma
+# Siltuximab: monikeskisestä Castlemanin taudista ekstraküutaaniseen mastokaytoomaan
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Siltuximab is a chimeric anti-IL-6 monoclonal antibody, generally known for its use in multicentric Castleman disease (this drug is not yet marketed in Finland, so no local indication record exists in this evidence pack).
-The TxGNN model predicts it may be effective for **Extracutaneous Mastocytoma**,
-but currently **no clinical trials** and **no publications** support this specific link — it is a model-only prediction.
+Siltuximab on kimeera-anti-IL-6-monoklonaalinen vasta-aine, joka on yleisesti tunnettu sen käytöstä monikeskisessä Castlemanin taudissa (tämä lääke ei ole vielä markkinoilla Suomessa, joten paikallista indikaatiorekisteriä ei ole tässä näytöpaketissa).
+TxGNN-malli ennustaa sen voivan olla tehokas **ekstraküutaaniselle mastokaytoomalle**,
+mutta tällä hetkellä **mikään kliininen tutkimus** ja **mikään julkaisu** eivät tue tätä erityistä yhteyttä — se on vain mallin ennustus.
 
-## Quick Overview
+## Pikaselostus
 
-| Item | Content |
-|------|------|
-| Original Indication | Not on record in Finland (drug not marketed); generally known for multicentric Castleman disease |
-| Predicted New Indication | Extracutaneous Mastocytoma |
-| TxGNN Prediction Score | 99.64% |
-| Evidence Level | L5 |
-| Finland Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|------|--------|
+| Alkuperäinen indikaatio | Ei merkitty Suomen rekisteriin (lääke ei ole markkinoilla); yleisesti tunnettu monikeskisestä Castlemanin taudista |
+| Ennustettu uusi indikaatio | Ekstraküutaaninen mastokytooma |
+| TxGNN-ennustepisteet | 99.64% |
+| Näyttötaso | L5 |
+| Suomen markkinatilanne | Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Odota |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on perusteltu?
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap). Based on generally known information, siltuximab is a recombinant chimeric (human-murine) anti-interleukin-6 (IL-6) monoclonal antibody, administered by intravenous infusion, whose efficacy in IL-6-driven lymphoproliferative disease has been established.
+Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla (merkitty vakavaksi tietovajeeksi). Yleisesti tunnetun tiedon perusteella siltuximab on rekombinantti-kimeera (ihminen-hiiri) anti-interleukiini-6 (IL-6) -monoklonaalinen vasta-aine, jota annostellaan suonensisäisesti, ja sen tehokkuus IL-6-välitteisessä lymfoproliferatiivisessa taudissa on osoitettu.
 
-For this specific prediction, the evidence pack's own rationale is explicit that the mechanistic link is unproven: "There is no clear mechanistic literature directly connecting IL-6 blockade to mastocytoma pathology — only the TxGNN prediction score supports this direction, with no clinical or literature evidence." Mast cells are known to secrete IL-6 in some contexts, which offers a theoretical rationale, but this has not been demonstrated for siltuximab specifically in extracutaneous mastocytoma.
+Tälle erityiselle ennusteelle näytöpaketti ilmaisee selvästi, että mekanistinen yhteys on todistamaton: "Ei ole selkeää kirjallista mekanistista näyttöä, joka suoraan yhdistäisi IL-6-estoa mastokaytoomapatologiaan — vain TxGNN-ennustepisteet tukevat tätä suuntaa, ilman kliinistä tai kirjallista näyttöä." Mastosolujen tiedetään erittävän IL-6:ta joissakin yhteyksissä, mikä tarjoaa teoreettisen perustelun, mutta tätä ei ole osoitettu siltuximabille erityisesti ekstraküutaanisessa mastokaytoomassa.
 
-Given the absence of any supporting trial or publication data, this prediction should be treated as a hypothesis-generating signal from the model rather than a clinically or mechanistically substantiated repurposing candidate at this stage.
+Koska tukevaa tutkimus- tai julkaisutietoa ei ole, tätä ennustetta tulee käsitellä mallin hypoteesin generoivana signaalina pikemminkin kuin kliinisesti tai mekanistisesti perustelulla lääkkeen uudelleenkäytön kandidaattina tässä vaiheessa.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-Currently no related clinical trials registered.
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-Currently no related literature available.
+Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta.
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Siltuximab has no Finland market authorizations on record — market status is "not marketed" with 0 total licenses.
+Siltuximabilla ei ole Suomen markkinoille hyväksyntää rekisterissä — markkinatilanne on "ei markkinoilla" yhteensä 0 luvalla.
 
-## Safety Considerations
+## Turvallisuushuomiot
 
-Please refer to the package insert for safety information.
+Turvallisuustiedoista katso pakkausseloste.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Odota**
 
-**Rationale:**
-This is an L5, model-prediction-only candidate with no clinical trials, no literature, and no established mechanistic link to extracutaneous mastocytoma. The drug is also not marketed in Finland, so there is no local regulatory or safety baseline to build on.
+**Perustelu:**
+Tämä on L5-luokan, vain malliennusteeseen perustuva kandidaatti, jolla ei ole kliinisiä tutkimuksia, kirjallisuutta eikä osoitettua mekanistista yhteyttä ekstraküutaaniseen mastokaytoomaan. Lääke ei myöskään ole markkinoilla Suomessa, joten paikallista sääntelyperustelua tai turvallisuusperustaa ei ole olemassa.
 
-**To proceed, the following is needed:**
-- TFDA/manufacturer package insert data (warnings, contraindications) — currently a Blocking gap preventing any S1 safety assessment
-- Confirmed mechanism of action data via DrugBank — currently a High-severity gap
-- Preclinical or mechanistic studies linking IL-6 blockade to mastocytoma pathology
-- Any real-world case reports or exploratory trials, should they emerge, to move this candidate beyond model-only evidence
+**Jatkamiseksi tarvitaan seuraavaa:**
+- TFDA:n/valmistajan pakkausseloste (varoitukset, vasta-aiheet) — tällä hetkellä estävä vaje, joka estää S1-turvallisuusarvioinnin
+- Vahvistettu vaikutusmekanismin tieto DrugBankin kautta — tällä hetkellä vakava vaje
+- Prekliiniset tai mekanistiset tutkimukset, jotka yhdistävät IL-6-estoa mastokaytoomapatologiaan
+- Mahdolliset todellisen maailman potilastapaukset tai exploratiiviset tutkimukset, mikäli ne ilmaantuvat, joiden avulla tämä kandidaatti voitaisiin siirtää pelkän malliennusteen ulkopuolelle
 
-*Note: Among the other seven candidates in this evidence pack, only Kaposi's sarcoma (rank 5) reached L4/S1 status with a literature-supported mechanistic rationale (KSHV-driven IL-6 signaling, linked to siltuximab's established use in KSHV-associated Castleman disease) — this may warrant separate evaluation as a "Research Question" candidate rather than "Hold."*
+*Huomio: Muista seitsemästä tämän näytöpaketin kandidaatista vain Kaposin sarkooma (ranking 5) saavutti L4/S1-tilan kirjallisuudella tuetulla mekanistisella perustelulla (KSHV-välitteinen IL-6-signalointi, yhdistetty siltuximabin vakiintuneeseen käyttöön KSHV-assosioituneissa Castlemanin taudissa) — tämä saattaa vaatia erillistä arviointia "tutkimuskysymys"-kandidaattina "Odota"-vaihtoehdon sijaan.*
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

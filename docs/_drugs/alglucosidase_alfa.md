@@ -29,77 +29,78 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Alglucosidase Alfa: From Pompe Disease to Adult Polyglucosan Body Disease
+# Alglucosidaasi alfa: Pompén taudista aikuisten polyglukosaanirunko-sairauteen
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Alglucosidase alfa is a recombinant human acid α-glucosidase (rhGAA) enzyme replacement therapy, best known for treating Pompe disease (glycogen storage disease type II). The TxGNN model predicts it may be effective for **Adult Polyglucosan Body Disease**, but this direction is currently supported by **0 clinical trials** and **0 publications**, and the drug is not marketed in Finland.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Pompe disease (acid α-glucosidase deficiency / glycogen storage disease type II) — *not present in this Evidence Pack's Finland licensing data, since the product is unmarketed there* |
-| Predicted New Indication | Adult Polyglucosan Body Disease |
-| TxGNN Prediction Score | 99.47% |
-| Evidence Level | L5 |
-| Finland Market Status | ✗ Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Alglucosidaasi alfa on ihmisperäinen rekombinantti hapan α-glukosidaasi (rhGAA) -entsyymikorvaushoito, joka tunnetaan parhaiten Pompén taudin (glykogeenin varastointisairaus tyypin II) hoitamisesta. TxGNN-malli ennustaa, että se saattaa olla tehokas **aikuisten polyglukosaanirunko-sairaudelle**, mutta tämä suunta on tällä hetkellä tuettu **0 kliinisellä tutkimuksella** ja **0 julkaisulla**, eikä lääkettä markkinoida Suomessa.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack (flagged as a High-severity data gap, DG002). Based on known information, Alglucosidase alfa is a recombinant human acid α-glucosidase (rhGAA) enzyme replacement therapy; its efficacy in Pompe disease has been proven, and mechanistically it may be applicable to other disorders of glycogen metabolism that share an overlapping enzymatic pathway.
-
-However, the mechanistic rationale supplied for this specific prediction is cautious rather than supportive. Adult polyglucosan body disease is primarily caused by deficiency of **GBE1** (glycogen branching enzyme), not GAA — only a minority of reported cases show overlap with GAA mutations. The core pathology in this disease is *structurally abnormal* glycogen (polyglucosan) accumulation due to a branching defect, not simply a shortfall of enzyme activity. There is no established mechanistic evidence that GAA enzyme replacement therapy can clear this structurally abnormal glycogen. The rationale explicitly notes that the high TxGNN score likely reflects the knowledge graph's clustering of "glycogen metabolism disease" nodes near one another, rather than a direct pharmacological correspondence.
-
-This caution extends to the rest of the top-10 predicted list: ranks 2–3 (GSD IV subtypes) share the same GBE1-vs-GAA mismatch, while ranks 4–10 (congenital entropion/ectropion, Horner syndrome, ptosis syndromes, congenital eye/muscle disorders) have no known mechanistic link to lysosomal glycogen metabolism at all and are explicitly flagged in the source data as likely graph-proximity noise from shared "congenital/rare disease" annotations. None of the ten predictions currently have any corroborating clinical trial or literature evidence.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Pompén tauti (hapan α-glukosidaasin puute / glykogeenin varastointisairaus tyypin II) — *ei ole läsnä tämän todistepaketin Suomen lisensointitiedoissa, koska tuotetta ei markkinoida siellä* |
+| Ennustettu uusi indikaatio | Aikuisten polyglukosaanirunko-sairaus |
+| TxGNN-ennusteen pistemäärä | 99.47% |
+| Todistusaste | L5 |
+| Suomen markkinatilanne | ✗ Ei markkinoitu (Ei markkinoitu) |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Jäädytä |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennuste on järkevä?
 
-Currently no related literature available.
+Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla tässä todistepakettissa (merkitty korkean vakavuuden tietovajeeksi, DG002). Tunnettujen tietojen perusteella alglucosidaasi alfa on ihmisperäinen rekombinantti hapan α-glukosidaasi (rhGAA) -entsyymikorvaushoito; sen teho Pompén taudissa on osoitettu, ja mekanistisesti se saattaa soveltua muihin glykogeenin aineenvaihdunnan häiriöihin, jotka jakavat päällekkäisen entsyymipolun.
 
----
+Kuitenkin tämän erityisen ennusteen tarjoama mekanistinen perusteltu on varovainen pikemminkin kuin tukeva. Aikuisten polyglukosaanirunko-sairaus johtuu ensisijaisesti **GBE1**:n (glykogeenihaaroitusentsyymi) puutteesta, ei GAA:sta — vain pienessä osassa raportoituja tapauksia on päällekkäisyyttä GAA-mutaatioiden kanssa. Taudin ydinpatologia on *rakenteellisesti poikkeava* glykogeeni (polyglukosaani) -kertymä hajoamispuutteen vuoksi, ei yksinkertainen entsyymiaktiivisuuden puute. Ei ole olemassa vakiintunutta mekanistista näyttöä siitä, että GAA-entsyymikorvaushoito pystyisi poistamaan tätä rakenteellisesti poikkeavaa glykogenia. Perusteltu huomautus nimenomaisesti, että korkea TxGNN-pistemäärä heijastaa todennäköisesti tietoverkon "glykogeenin aineenvaihdunnan sairaus" -solmujen klusteroitumista toisiinsa, ei suoraa farmakoloogista vastaavuutta.
 
-## Finland Market Information
-
-Alglucosidase alfa is currently **not marketed** in Finland — the Evidence Pack lists 0 authorizations and no license records, so no product/authorization table can be produced.
+Tämä varovaisuus ulottuu myös loput top-10 ennustelistalle: rankit 2–3 (GSD IV -alatyyppi) jakavat saman GBE1-vs-GAA-epäsuhdan, kun taas rankit 4–10 (synnynnäinen entropioni/ektropioni, Hornerin oireyhtymä, ptoosin syndroomat, synnynnäiset silmä-/lihasjonot) eivät ole mitenkään mekanistisesti yhteydessä lysosomaalisen glykogeenin aineenvaihduntaan ja ne nimenomaisesti merkitään lähdemateriaalissa todennäköisiksi graafin läheisyyden meluksi jaetuista "synnynnäinen/harvinainen sairaus" -merkinnöistä. Millään kymmenestä ennusteesta ei ole tällä hetkellä mitään vahvistavaa kliinisen tutkimuksen tai kirjallisuuden näyttöä.
 
 ---
 
-## Safety Considerations
+## Kliiniset tutkimustodisteet
 
-Please refer to the package insert for safety information.
-
-*(Key warnings, contraindications, and drug–drug interaction data are all recorded as data gaps in this Evidence Pack. Notably, TFDA/Fimea package insert warnings and contraindications are flagged as a Blocking data gap — DG001 — which by itself prevents this candidate from entering the S1 safety pre-assessment stage.)*
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
 ---
 
-## Conclusion and Next Steps
+## Kirjallisuustodisteet
 
-**Decision: Hold**
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
-**Rationale:**
-The evidence level is L5 — a model prediction with zero corroborating clinical trials or literature. The proposed mechanistic link is weak: the target disease's primary causal enzyme (GBE1) differs from Alglucosidase alfa's target (GAA), and the score pattern across the full top-10 list suggests disease-category clustering in the knowledge graph rather than genuine pharmacological signal. In addition, a Blocking data gap (missing TFDA/Fimea package insert data) independently prevents progression to safety pre-assessment.
+---
 
-**To proceed, the following is needed:**
-- TFDA/Fimea official package insert (warnings, contraindications) — resolves Blocking gap DG001
-- Confirmed mechanism-of-action documentation from DrugBank — resolves High-severity gap DG002
-- Case-level or preclinical evidence specifically for patients with overlapping GAA mutations in adult polyglucosan body disease, rather than reliance on disease-category similarity
-- Reassessment of whether GBE1-directed (rather than GAA-directed) therapeutic strategies are more appropriate targets for this indication
-- Clarification of any regulatory pathway or market intent for Finland, given the drug is currently unmarketed there
+## Suomen markkinatiedot
+
+Alglucosidaasi alfa ei ole tällä hetkellä **markkinoitu** Suomessa — todistepaketti sisältää 0 hyväksyntää ja ei lisensointitietoja, joten tuote-/hyväksyntätaulukkoa ei voida tuottaa.
+
+---
+
+## Turvallisuustarkastelut
+
+Katso turvaohjeiden mukaisesti turvallisuustietoja.
+
+*(Tärkeät varoitukset, vasta-aiheet ja lääkkeen vuorovaikutustiedot on kaikki kirjattu tietovajeiksi tässä todistepakettissa. Erityisesti TFDA/Fimea pakkausselosteen varoitukset ja vasta-aiheet on merkitty estävänä tietovajeena — DG001 — mikä itsessään estää tätä kandidaattia päästä S1-turvallisuuden esiarviointivaiheeseen.)*
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Jäädytä**
+
+**Perustelut:**
+Todistusaste on L5 — mallin ennuste, jonka tueksi ei ole mitään kliinisiä tutkimuksia tai kirjallisuusviitteitä. Ehdotettu mekanistinen yhteys on heikko: kohdesairauden ensisijainen syyn entsyymi GBE1 eroaa alglucosidaasi alfan kohteesta GAA, ja pistemäärä koko top-10 -listan yli viittaa sairauden kategorian klusterointiin tietoverkossa pikemminkin kuin aitoihin farmakoloogisiin signaaleihin. Lisäksi estävä tietovaje (puuttuva TFDA/Fimea-pakkausselosteen tieto) estää itsenäisesti etenemisen S1-turvallisuuden esiarviointivaiheeseen.
+
+**Jotta voidaan edetä, seuraavaa tarvitaan:**
+- TFDA/Fimea virallinen pakkausseloste (varoitukset, vasta-aiheet) — ratkaisee estävän vajeen DG001
+- Vahvistettu mekanismin vaikutustiedot DrugBankista — ratkaisee korkean vakavuuden vajeen DG002
+- Tapauskohtaiset tai prekliiniset todisteet erityisesti potilaille, joilla on päällekkäisiä GAA-mutaatioita aikuisten polyglukosaanirunko-sairaudessa, sen sijaan että luotettaisiin sairauden kategorian samankaltaisuuteen
+- Uudelleenarviointi siitä, ovatko GBE1-suunnatut (pikemminkin kuin GAA-suunnatut) terapeuttisen tavoitteet sopivampia tähän indikaatioon
+- Selventäminen mahdollisen sääntelyreitin tai markkinointi-aikomuksen osalta Suomelle, koska lääkettä ei ole tällä hetkellä markkinoitu siellä
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

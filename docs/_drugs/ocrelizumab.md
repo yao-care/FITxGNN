@@ -29,58 +29,59 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Ocrelizumab: From Multiple Sclerosis to HER2 Positive Breast Carcinoma
+# Ocrelizumab: Multippeliskleroosilta HER2-positiiviseen rintakarsinoomaan
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Ocrelizumab is an anti-CD20 monoclonal antibody approved for multiple sclerosis, acting by depleting CD20-expressing B cells.
-The TxGNN model predicts it may be effective for **HER2 Positive Breast Carcinoma**,
-but currently **0 clinical trials** and **0 relevant publications** support this specific link — the evidence pack itself flags the prediction as a likely knowledge-graph embedding artifact rather than a mechanism-driven signal.
+Ocrelizumab on anti-CD20-monoklonaalinen vasta-aine, joka on hyväksytty multippeliskleroosin hoitoon ja toimii CD20-ekspressoivien B-solujen poistamisen kautta.
+TxGNN-malli ennustaa, että se voi olla tehokas **HER2-positiiviseen rintakarsinoomaan**,
+mutta tällä hetkellä tätä spesifistä yhteyttä tukee **0 kliinistä tutkimusta** ja **0 relevanttia julkaisua** — todistepaketti itse merkitsee ennusteen todennäköisesti tietoverkko-upotusartefaktiksi pikemminkin kuin mekanismivetoiseksi signaaliksi.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Multiple Sclerosis (per drug background; formal DrugBank/MOA record is a data gap) |
-| Predicted New Indication | HER2 positive breast carcinoma |
-| TxGNN Prediction Score | 99.89% |
-| Evidence Level | L5 |
-| Finland Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohde | Sisältö |
+|-------|---------|
+| Alkuperäinen indikaatio | Multippeliskleroosi (lääkkeen tietojen perusteella; virallinen DrugBank/mekanismi-tietue on tietoaukko) |
+| Ennustettu uusi indikaatio | HER2-positiivinen rintakarsinooma |
+| TxGNN-ennusteen pistemäärä | 99.89% |
+| Todistusvoiman taso | L5 |
+| Suomen markkinoinnin asema | Ei markkinoitu |
+| Hyväksyntöjen määrä | 0 |
+| Suositeltu päätös | Pidätä |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, detailed mechanism of action data is not available from DrugBank (flagged as a High-severity data gap). Based on known background information, ocrelizumab is an anti-CD20 monoclonal antibody that depletes CD20-positive B cells and is approved for multiple sclerosis, an autoimmune disease driven by aberrant B-cell activity.
+Tällä hetkellä yksityiskohtaisia toimintamekanismi-tietoja ei ole saatavissa DrugBankista (merkitty korkean vakavuustason tietoaukoksi). Tunnettujen taustatietojen perusteella ocrelizumab on anti-CD20-monoklonaalinen vasta-aine, joka poistaa CD20-positiivisia B-soluja ja on hyväksytty multippeliskleroosin hoitoon, autoimmuunisairauteen, jonka taustalla on epätyypillinen B-solun aktiviteetti.
 
-HER2-positive breast carcinoma, by contrast, is driven by HER2/neu receptor overexpression fueling proliferative signaling pathways — a mechanism with no established biological link to B-cell depletion. The evidence pack's own repurposing rationale is explicit on this point: it assesses the high TxGNN score as most likely reflecting proximity in the knowledge-graph embedding space rather than any true mechanistic connection.
+HER2-positiivinen rintakarsinooma puolestaan syntyy HER2/neu-reseptorin yliekspressiosta, joka aktivoi proliferatiivisia signalointireittejä — mekanismi, jolla ei ole vakiintunutta biologista yhteyttä B-solun poistamiseen. Todistepaketin oma analyysi on eksplisiitti tästä: se arvioi korkean TxGNN-pistemäärän todennäköisesti heijastavan läheisyyttä tietoverkko-upotusavaruudessa pikemminkin kuin mitään todellista mekanistista yhteyttä.
 
-No supporting mechanistic, preclinical, or clinical rationale bridges CD20-targeted B-cell depletion to HER2-driven tumor biology. This prediction should be treated as a candidate for further model-validation research, not as a pharmacologically grounded hypothesis at this stage.
+Ei ole mekanistisia, prekliinisiä tai kliinisiä perusteita, jotka yhdistäisivät CD20-kohdistetun B-solun poistamisen HER2-ohjattuun rintasyövän biologiaan. Tätä ennustetta tulee käsitellä kandidaattina mallin validointiututkimuksiin, ei farmakologisesti perustetuna hypoteesina tässä vaiheessa.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen todisteet
 
-Currently no related clinical trials registered.
+Tällä hetkellä ei ole liittyviä rekisteröityjä kliinisiä tutkimuksia.
 
-## Literature Evidence
+## Kirjallisuuden todisteet
 
-Currently no related literature available.
+Liittyvää kirjallisuutta ei ole tällä hetkellä saatavilla.
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information. Note: TFDA/Fimea package insert warnings and contraindications are currently a **Blocking** data gap (DG001) and must be resolved before any safety pre-assessment can proceed.
+Turvallisuustiedot löytyvät pakkausselosteesta. Huomio: TFDA/Fimean pakkausselosteen varoitukset ja kontraindikaatiot ovat tällä hetkellä **blokaava** tietoaukko (DG001) ja ne on ratkaistava ennen kuin turvallisuuden esiselvitystä voidaan jatkaa.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidätä**
 
-**Rationale:**
-Across all five TxGNN-predicted indications for this candidate (all breast cancer subtypes — HER2-positive, normal-like, PR-positive, luminal A/B, PR-negative), there is no supporting clinical trial or credible literature evidence. The one literature hit found (19 papers retrieved for "breast tumor luminal A or B") is a false-positive keyword match on the letter "B" (hepatitis B vaccines, HLA-B typing, B-1/B-2 lymphocyte biology) with no actual relevance to breast cancer or ocrelizumab. The evidence pack's own analysis concludes the high prediction scores likely reflect knowledge-graph embedding proximity rather than a real mechanistic signal. Combined with the blocking absence of TFDA/Fimea safety data, this candidate does not currently meet the bar to advance past S0.
+**Perustelut:**
+Kaikkissa viidessä TxGNN-ennustetussa indikaatiossa (kaikki rintasyövän alatyyppi — HER2-positiivinen, normaalimainen, PR-positiivinen, luminalinen A/B, PR-negatiivinen) puuttuvat tukevia kliinisiä tutkimuksia ja uskottavaa kirjallisuustodistusta. Ainoa löydetty kirjallisuusosuma ("rintasyöpä luminalinen A tai B" -haku, 19 artikkelia) on väärä positiivinen avainsanaosuma kirjaimen "B" perusteella (hepatiitti B -rokotteet, HLA-B-tyypitys, B-1/B-2-lymfosyytit) ilman mitään relevanttia yhteyttä rintakarsinoomaan tai ocrelizumabiin. Todistepaketin oma analyysi johtaa siihen, että korkeat ennusteen pistemäärät todennäköisesti heijastivat tietoverkko-upotusavaruuden läheisyyttä pikemminkin kuin todellista mekanistista signaalia. Yhdessä TFDA/Fimean turvallisuustietojen puuttumisen kanssa tämä kandidaatti ei tällä hetkellä täytä vaatimuksia edetä S0:n yli.
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert (warnings, contraindications) — currently blocking
-- Formal mechanism of action record from DrugBank
-- Preclinical/in vitro evidence evaluating any role of CD20+ B cells in HER2-driven or other breast cancer subtypes
-- Targeted literature search using breast-cancer-specific and ocrelizumab-specific terms to rule out further keyword-driven false positives across the other four ranked candidates
+**Edetäkseen tarvitaan seuraavaa:**
+- TFDA/Fimean pakkausseloste (varoitukset, kontraindikaatiot) — tällä hetkellä blokaava
+- Muodollinen toimintamekanismi-tietue DrugBankista
+- Prekliininen/in vitro -todiste CD20+ B-solujen roolista HER2-ohjattavissa tai muissa rintakarsinoomien alaryhmissä
+- Kohdistettu kirjallisuushaku käyttäen rintakarsinooma-spesifisiä ja ocrelizumab-spesifisiä termejä kaikkien muiden neljän sijoitetun kandidaatin osalta avainsana-ohjattujen väärien positiivisten poistamiseksi
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

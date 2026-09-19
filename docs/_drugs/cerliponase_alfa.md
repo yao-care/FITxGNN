@@ -29,58 +29,59 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Cerliponase Alfa: From CLN2 Disease to Scheie Syndrome
+# Cerliponase alfa: CLN2-taudista Scheien syndroomaan
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Cerliponase alfa is a recombinant human TPP1 enzyme replacement therapy originally developed for CLN2 disease (Neuronal Ceroid Lipofuscinosis Type 2), a lysosomal storage disorder. The TxGNN model predicts it may be effective for **Scheie Syndrome** (a mild subtype of MPS I), but this direction is currently supported by **0 clinical trials** and **0 publications** — the prediction stands on model score alone.
+Cerliponase alfa on rekombinantti ihmisen TPP1-entsyymin korvaava hoito, joka on alun perin kehitetty CLN2-tautia (Neuronal Ceroid Lipofuscinosis Type 2) varten, joka on lysosomin varastointisairaus. TxGNN-malli ennustaa, että se saattaa olla tehokas Scheien syndroomaan (MPS I:n lievä alatyyppi), mutta tämä suunta on tällä hetkellä tuettu 0 kliinisellä tutkimuksella ja 0 julkaisulla — ennuste perustuu yksinomaan mallin pistemäärään.
 
-## Quick Overview
+## Pika-arviointitaulukko
 
-| Item | Content |
+| Kohde | Sisältö |
 |------|------|
-| Original Indication | CLN2 disease (Neuronal Ceroid Lipofuscinosis Type 2) |
-| Predicted New Indication | Scheie Syndrome |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L5 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen indikaatio | CLN2-tauti (Neuronal Ceroid Lipofuscinosis Type 2) |
+| Ennustettu uusi indikaatio | Scheien syndrooma |
+| TxGNN-mallin ennustuspistemäärä | 99.98% |
+| Todistetaso | L5 |
+| Suomen markkinatilanne | ✗ Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Pidätä |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, detailed mechanism of action data is not available (marked as a Data Gap in the source pack). Based on known information, cerliponase alfa is an enzyme replacement therapy that supplies recombinant tripeptidyl peptidase 1 (TPP1) to treat CLN2 disease, a neurodegenerative lysosomal storage disorder.
+Tällä hetkellä yksityiskohtaista vaikutusmekanismin tietoa ei ole saatavilla (merkitty tietoaukoksi lähdepaketissa). Tunnettujen tietojen perusteella cerliponase alfa on entsyymin korvaava hoito, joka toimittaa rekombinanttista tripeptidyyli-peptidaasi 1:tä (TPP1) CLN2-taudin hoitoon, joka on neurodegeneratiivinen lysosomin varastointisairaus.
 
-Scheie syndrome, however, is a distinct condition — the mild end of the MPS I spectrum, caused by deficiency of α-L-iduronidase, not TPP1. The evidence pack's own repurposing rationale is explicit that there is **no direct enzyme-level or biochemical overlap** between the two conditions; the only connection is that both fall under the broad umbrella category of "lysosomal storage disease." There is no evidence that TPP1 replacement could substitute for or compensate α-L-iduronidase deficiency.
+Scheien syndrooma on kuitenkin erillinen ehto — MPS I -kirjon lievä pää, joka johtuu α-L-iduronidaasin puutteesta, ei TPP1:stä. Todistusp akettiin oman uudelleenkäyttöpyrkimyksen perustelut ovat nimenomaisesti, että näiden kahden ehdon välillä ei ole **suoraa entsyymi- tai biokemiallista päällekkäisyyttä**; ainoa yhteys on, että molemmat kuuluvat laajaan "lysosomin varastointisairaus" -kategoriaan. Ei ole näyttöä siitä, että TPP1:n korvaus voisi korvata tai kompensoida α-L-iduronidaasin puutetta.
 
-In short, this prediction reflects a disease-similarity signal from the TxGNN model rather than a mechanistically grounded hypothesis. It should be treated as a hypothesis-generating signal only, not as evidence of therapeutic plausibility.
+Lyhyesti sanottuna, tämä ennuste heijastaa sairauksien samankaltaisuussignaalia TxGNN-mallista pikemminkin kuin mekanistisesti perustuvaa hypoteesia. Sitä tulisi käsitellä ainoastaan hypoteesin muodostavan signaalin tasolla, ei terapeuttisen uskottavuuden näyttönä.
 
-## Clinical Trial Evidence
+## Kliiniset tutkimukset
 
-Currently no related clinical trials registered
+Tällä hetkellä ei ole rekisteröityjä liittyviä kliinisiä tutkimuksia
 
-## Literature Evidence
+## Kirjallisuustodisteet
 
-Currently no related literature available
+Tällä hetkellä liittyviä kirjallisuusviitteitä ei ole saatavilla
 
-## Safety Considerations
+## Turvallisuuden huomiot
 
-Please refer to the package insert for safety information.
+Katso turvallisuustiedot pakkausselosteesta.
 
-*Note: Key TFDA/Fimea package-insert warnings and contraindications data are currently a blocking data gap (DG001) and have not been retrieved; DDI data is also unavailable (query returned not_found).*
+*Huomautus: Tärkeät TFDA/Fimea-pakkauselosteeseen liittyvät varoitukset ja vasta-aiheet ovat tällä hetkellä estävä tietoaukko (DG001) eikä niitä ole haettu; DDI-tiedot eivät ole myöskään saatavilla (kysely palautti not_found).*
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidätä**
 
-**Rationale:**
-The predicted link between cerliponase alfa and Scheie syndrome is supported only by a TxGNN model score (L5 evidence level), with zero clinical trials, zero literature, and an explicitly weak mechanistic rationale (different causative enzyme, no biochemical overlap). This does not meet the threshold to advance beyond model prediction.
+**Perustelut:**
+Ennustettu yhteys cerliponase alfan ja Scheien oireyhtymän välillä on tuettu vain TxGNN-mallin pistemäärällä (L5-todistetaso), ilman kliinisiä tutkimuksia, ilman kirjallisuutta ja nimenomaisesti heikolla mekanistisella perustelulla (eri aiheuttava entsyymi, ei biokemiallista päällekkäisyyttä). Tämä ei täytä edellytyksiä edetä mallin ennusteen pidemmälle.
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert data (warnings, contraindications) — currently a blocking data gap
-- Confirmed mechanism of action (MOA) data from DrugBank
-- Preclinical or mechanistic studies establishing biological plausibility of TPP1 activity in MPS I/Scheie syndrome
-- Any emerging clinical trial or case-report evidence, since none currently exists
+**Seuraavaa varten tarvitaan:**
+- TFDA/Fimea-pakkauseloste-tiedot (varoitukset, vasta-aiheet) — tällä hetkellä estävä tietoaukko
+- Vahvistetut vaikutusmekanismin (MOA) tiedot DrugBankista
+- Prekliiniset tai mekanistiset tutkimukset, jotka osoittavat TPP1-aktiivisuuden biologisen uskottavuuden MPS I:ssa/Scheien syndroomassa
+- Kaikki nousevat kliiniset tutkimukset tai tapauskertomusten todisteet, koska mitään ei ole tällä hetkellä olemassa
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

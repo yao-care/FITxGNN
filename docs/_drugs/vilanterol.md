@@ -29,100 +29,101 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Vilanterol: From COPD/Asthma Bronchodilator Therapy to Obstructive Lung Disease
+# Vilanterol: COPD:n ja astman keuhkoputkien laajenemishoitosta obstruktiivisen keuhkosairauden hoitoon
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Vilanterol is a long-acting β2-adrenergic agonist (LABA) already used worldwide as a component of combination inhalers (e.g. fluticasone furoate/vilanterol, umeclidinium/vilanterol, and the triple combination FF/UMEC/VI) for COPD and asthma maintenance therapy, though it is **not currently marketed in Taiwan**. The TxGNN model predicts it may be effective for **Obstructive Lung Disease**, a signal strongly corroborated by **50 clinical trials** and **20 publications** already in the evidence pack — this is less a novel repurposing hypothesis than a confirmation of vilanterol's well-established pharmacological class effect.
+Vilanterol on pitkävaikutteinen β2-adrenergisen agonisti (LABA), jota jo käytetään maailmanlaajuisesti yhdistelmäinhaalaatioissa (esim. flutikasooni-furoaatti/vilanterol, umeklidinium/vilanterol ja kolmoisyhdistelmä FF/UMEC/VI) COPD:n ja astman ylläpitohoitoon, mutta sitä **ei tällä hetkellä myydä Taiwanissa**. TxGNN-malli ennustaa sen olevan tehokas **obstruktiiviseen keuhkosairauteen**, signaalin, jota vahvistaa **50 kliinistä tutkimusta** ja **20 julkaisua** jo olevassa todistusaineistossa — tämä on pikemminkin vilanterolin tunnetun farmakologisen vaikutusluokan vahvistus kuin uusi lääkkeen uudelleenkäytön hypoteesi.
 
 ---
 
-## Quick Overview
+## Pikayleiskatsaus
 
-| Item | Content |
+| Kohde | Sisältö |
 |------|------|
-| Original Indication | Not documented in this evidence pack (`original_indications` empty); based on the trial evidence itself, vilanterol is an established LABA component of COPD/asthma combination inhalers |
-| Predicted New Indication | Obstructive Lung Disease |
-| TxGNN Prediction Score | 99.97% (rank 636) |
-| Evidence Level | L1 |
-| Taiwan Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Alkuperäinen indikaatio | Ei dokumentoitu tässä todistusaineistossa (`original_indications` tyhjä); tutkimusten itsensä perusteella vilanterol on tunnettu LABA-komponentti COPD:n/astman yhdistelmäinhaalaatioissa |
+| Ennustettu uusi indikaatio | Obstruktiivinen keuhkosairaaus |
+| TxGNN-ennusteen pistemäärä | 99,97% (sijoitus 636) |
+| Todistustaso | L1 |
+| Taiwanin markkinatilanne | ✗ Ei markkinoilla |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Jatketaan varauksilla |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on perusteltu?
 
-Currently, detailed mechanism of action data is not available in this evidence pack (`original_moa: [Data Gap]`). Based on known pharmacology and the pattern of clinical trial evidence collected here, vilanterol is a long-acting β2-adrenergic receptor agonist (LABA) that relaxes bronchial smooth muscle to produce sustained (24-hour) bronchodilation. It is not marketed as a standalone agent but as a component of fixed-dose combination inhalers — fluticasone furoate/vilanterol (FF/VI), umeclidinium/vilanterol (UMEC/VI), and the triple therapy fluticasone furoate/umeclidinium/vilanterol (FF/UMEC/VI) — used globally (e.g. as Breo/Relvar Ellipta, Anoro Ellipta, Trelegy Ellipta).
+Tällä hetkellä yksityiskohtaista vaikutusmekanismitietoa ei ole saatavilla tässä todistusaineistossa (`original_moa: [Data Gap]`). Tunnetun farmakologian ja täällä kerättyjen kliinisten tutkimusten perusteella vilanterol on pitkävaikutteinen β2-adrenergisen reseptorin agonisti (LABA), joka rentouttaa keuhkoputkien sileitä lihaksia ja tuottaa kestävää (24 tunnin) keuhkoputkien laajenemista. Sitä ei myydä itsenäisenä aineena vaan yhdistelmäinhaalaatioissa — flutikasooni-furoaatti/vilanterol (FF/VI), umeklidinium/vilanterol (UMEC/VI) ja flutikasooni-furoaatti/umeklidinium/vilanterol (FF/UMEC/VI) — joita käytetään maailmanlaajuisesti (esim. Breo/Relvar Ellipta, Anoro Ellipta, Trelegy Ellipta).
 
-The predicted indication, "Obstructive Lung Disease," is mechanistically direct: airway smooth muscle relaxation via β2-agonism is the core pharmacological rationale for treating both COPD and asthma, the two dominant obstructive lung diseases. Nearly all 50 clinical trials in this pack were conducted specifically in COPD or asthma populations, and the drug already has extensive regulatory approval in other jurisdictions for this exact disease category.
+Ennustettu indikaatio "Obstruktiivinen keuhkosairaaus" on farmakologisesti suora: keuhkoputkien sileiden lihasten rentouttaminen β2-agonismin kautta on perustavanlaatuinen farmakologinen peruste sekä COPD:n että astman hoitoon, jotka ovat kaksi hallitsevaa obstruktiivista keuhkosairautta. Lähes kaikki 50 kliinistä tutkimusta tässä pakkauksessa tehtiin erityisesti COPD:n tai astman populaatioilla, ja lääkkeelle on jo myönnetty laajat myyntiluvat muualla tässä sairauskategoriassa.
 
-Because vilanterol's known, approved use elsewhere overlaps almost entirely with the TxGNN-predicted indication, this candidate should be interpreted primarily as a **Taiwan market-access gap** (the drug/combinations are not currently registered or marketed in Taiwan per this evidence pack) rather than a genuinely novel mechanistic repurposing opportunity.
+Koska vilanterolin hyväksytyn käytön muualla ja TxGNN:n ennustaman indikaation välinen päällekkäisyys on lähes täydellinen, tätä ehdokasta tulee ensisijaisesti tulkita **Taiwanin markkinoille pääsyn kuiluksi** (lääkettä/yhdistelmiä ei ole tällä hetkellä rekisteröity tai markkinoitu Taiwanissa tämän todistusaineiston mukaan) pikemminkin kuin geniaalisesti uudeksi mekanistiseksi uudelleenkäytön mahdollisuudeksi.
 
 ---
 
-## Clinical Trial Evidence
+## Kliiniset tutkimustodisteet
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimusnumero | Vaihe | Tila | Osallistujamäärä | Tärkeimmät havainnot |
 |---------|------|------|------|---------|
-| [NCT01313676](https://clinicaltrials.gov/study/NCT01313676) | Phase 3 | Completed | 16,568 | FF/VI vs. placebo in COPD with cardiovascular risk — assessed effect on survival |
-| [NCT01706198](https://clinicaltrials.gov/study/NCT01706198) | Phase 3 | Completed | 4,233 | 12-month effectiveness study of FF/VI vs. usual maintenance therapy in asthma |
-| [NCT02924688](https://clinicaltrials.gov/study/NCT02924688) | Phase 3 | Completed | 2,436 | FF/UMEC/VI triple therapy vs. FF/VI dual therapy in inadequately controlled asthma |
-| [NCT02345161](https://clinicaltrials.gov/study/NCT02345161) | Phase 3 | Completed | 1,811 | FF/UMEC/VI once-daily vs. budesonide/formoterol twice-daily in COPD |
-| [NCT02105974](https://clinicaltrials.gov/study/NCT02105974) | Phase 3 | Completed | 1,621 | FF/VI 100/25mcg vs. VI 25mcg alone in COPD — isolates contribution of FF component |
-| [NCT01313650](https://clinicaltrials.gov/study/NCT01313650) | Phase 3 | Completed | 1,538 | Registrational study of UMEC/VI (Anoro) and individual components in COPD |
-| [NCT02729051](https://clinicaltrials.gov/study/NCT02729051) | Phase 3 | Completed | 1,055 | "Closed" triple therapy (FF/UMEC/VI) vs. "open" triple therapy (FF/VI + UMEC) in COPD |
-| [NCT01777334](https://clinicaltrials.gov/study/NCT01777334) | Phase 3 | Completed | 905 | UMEC/VI 62.5/25mcg vs. tiotropium 18mcg — lung function (trough FEV1) in COPD |
-| [NCT01316900](https://clinicaltrials.gov/study/NCT01316900) | Phase 3 | Completed | 846 | GSK573719/vilanterol vs. vilanterol alone vs. tiotropium over 24 weeks in COPD |
-| [NCT03474081](https://clinicaltrials.gov/study/NCT03474081) | Phase 4 | Completed | 800 | Single-inhaler triple therapy (FF/UMEC/VI) vs. tiotropium monotherapy in COPD |
+| [NCT01313676](https://clinicaltrials.gov/study/NCT01313676) | Vaihe 3 | Valmistunut | 16,568 | FF/VI vs. lumelääke COPD:ssä kardiovaskulaarisen riskin kanssa — arvioitiin vaikutus eloonjäämiseen |
+| [NCT01706198](https://clinicaltrials.gov/study/NCT01706198) | Vaihe 3 | Valmistunut | 4,233 | 12 kuukauden tehokkuustutkimus FF/VI vs. tavallinen ylläpitohoito astmassa |
+| [NCT02924688](https://clinicaltrials.gov/study/NCT02924688) | Vaihe 3 | Valmistunut | 2,436 | FF/UMEC/VI kolmoishoito vs. FF/VI kaksoishoito riittämättömästi kontrolloitu astmassa |
+| [NCT02345161](https://clinicaltrials.gov/study/NCT02345161) | Vaihe 3 | Valmistunut | 1,811 | FF/UMEC/VI kerran päivässä vs. budesonidi/formoteroli kaksi kertaa päivässä COPD:ssä |
+| [NCT02105974](https://clinicaltrials.gov/study/NCT02105974) | Vaihe 3 | Valmistunut | 1,621 | FF/VI 100/25mcg vs. VI 25mcg yksin COPD:ssä — eristää FF-komponentin osuus |
+| [NCT01313650](https://clinicaltrials.gov/study/NCT01313650) | Vaihe 3 | Valmistunut | 1,538 | Rekisteröintitutkimus UMEC/VI (Anoro) ja yksittäisistä komponenteista COPD:ssä |
+| [NCT02729051](https://clinicaltrials.gov/study/NCT02729051) | Vaihe 3 | Valmistunut | 1,055 | "Suljettu" kolmoishoito (FF/UMEC/VI) vs. "avoin" kolmoishoito (FF/VI + UMEC) COPD:ssä |
+| [NCT01777334](https://clinicaltrials.gov/study/NCT01777334) | Vaihe 3 | Valmistunut | 905 | UMEC/VI 62.5/25mcg vs. tiotroopium 18mcg — keuhkojen toiminta (pohja-FEV1) COPD:ssä |
+| [NCT01316900](https://clinicaltrials.gov/study/NCT01316900) | Vaihe 3 | Valmistunut | 846 | GSK573719/vilanterol vs. vilanterol yksin vs. tiotroopium 24 viikon aikana COPD:ssä |
+| [NCT03474081](https://clinicaltrials.gov/study/NCT03474081) | Vaihe 4 | Valmistunut | 800 | Yhden inhalaattorin kolmoishoito (FF/UMEC/VI) vs. tiotroopiumin monoterapia COPD:ssä |
 
-*40 additional trials are available in the evidence pack (largely COPD/asthma efficacy and real-world comparative-effectiveness studies); the 10 above were selected for enrollment size, phase, and pivotal/registrational relevance.*
+*40 lisätutkimusta ovat saatavilla todistusaineistossa (suurilta osin COPD:n/astman tehokkuus ja tosielämän vertailevat tehokkuustutkimukset); 10 yllä olevaa valittiin osallistujamäärän, vaiheen ja keskeisen/rekisteröintivaatimuksellisen merkityksen perusteella.*
 
 ---
 
-## Literature Evidence
+## Kirjallisuuden todisteet
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät havainnot |
 |------|-----|------|------|---------|
-| [29668352](https://pubmed.ncbi.nlm.nih.gov/29668352/) | 2018 | RCT | N Engl J Med | IMPACT trial: once-daily single-inhaler triple therapy vs. dual therapy in COPD |
-| [32162970](https://pubmed.ncbi.nlm.nih.gov/32162970/) | 2020 | RCT | Am J Respir Crit Care Med | IMPACT trial follow-up: FF/UMEC/VI reduced all-cause mortality vs. UMEC/VI in COPD |
-| [28375647](https://pubmed.ncbi.nlm.nih.gov/28375647/) | 2017 | RCT | Am J Respir Crit Care Med | FULFIL trial: once-daily triple therapy for COPD |
-| [32918892](https://pubmed.ncbi.nlm.nih.gov/32918892/) | 2021 | RCT | Lancet Respir Med | CAPTAIN trial: FF/UMEC/VI vs. FF/VI in inadequately controlled asthma |
-| [32299860](https://pubmed.ncbi.nlm.nih.gov/32299860/) | 2020 | RCT (subgroup) | Eur Respir J | Effect of exacerbation history on IMPACT trial outcomes |
-| [35849317](https://pubmed.ncbi.nlm.nih.gov/35849317/) | 2022 | Network Meta-Analysis | Advances in Therapy | FF/UMEC/VI vs. other COPD therapies — comparative efficacy synthesis |
-| [39696097](https://pubmed.ncbi.nlm.nih.gov/39696097/) | 2024 | Systematic Review/Meta-analysis | BMC Pulm Med | UMEC/VI vs. other bronchodilators in COPD management |
-| [31389190](https://pubmed.ncbi.nlm.nih.gov/31389190/) | 2019 | Systematic Review | Clin Respir J | Fixed-dose UMEC/VI combination in COPD |
-| [28956463](https://pubmed.ncbi.nlm.nih.gov/28956463/) | 2017 | Review | Expert Rev Respir Med | FF/VI once-daily combination therapy for stable COPD |
-| [24259654](https://pubmed.ncbi.nlm.nih.gov/24259654/) | 2014 | Review | Ann Pharmacother | Efficacy/safety of FF/VI combination for COPD maintenance |
+| [29668352](https://pubmed.ncbi.nlm.nih.gov/29668352/) | 2018 | RCT | N Engl J Med | IMPACT-tutkimus: kerran päivässä yhden inhalaattorin kolmoishoito vs. kaksoishoito COPD:ssä |
+| [32162970](https://pubmed.ncbi.nlm.nih.gov/32162970/) | 2020 | RCT | Am J Respir Crit Care Med | IMPACT-tutkimuksen seuranta: FF/UMEC/VI vähensi yleistä kuolleisuutta vs. UMEC/VI COPD:ssä |
+| [28375647](https://pubmed.ncbi.nlm.nih.gov/28375647/) | 2017 | RCT | Am J Respir Crit Care Med | FULFIL-tutkimus: kerran päivässä kolmoishoito COPD:ssä |
+| [32918892](https://pubmed.ncbi.nlm.nih.gov/32918892/) | 2021 | RCT | Lancet Respir Med | CAPTAIN-tutkimus: FF/UMEC/VI vs. FF/VI riittämättömästi kontrolloitu astmassa |
+| [32299860](https://pubmed.ncbi.nlm.nih.gov/32299860/) | 2020 | RCT (alaryhmä) | Eur Respir J | Kiihdytysvaiheen historian vaikutus IMPACT-tutkimuksen tuloksiin |
+| [35849317](https://pubmed.ncbi.nlm.nih.gov/35849317/) | 2022 | Verkko-metaanalyysi | Advances in Therapy | FF/UMEC/VI vs. muut COPD-hoidot — vertaileva tehokkuussynteesi |
+| [39696097](https://pubmed.ncbi.nlm.nih.gov/39696097/) | 2024 | Järjestelmällinen katsaus/Meta-analyysi | BMC Pulm Med | UMEC/VI vs. muut bronkodilataattorit COPD-hallinnassa |
+| [31389190](https://pubmed.ncbi.nlm.nih.gov/31389190/) | 2019 | Järjestelmällinen katsaus | Clin Respir J | Kiinteän annoksen UMEC/VI-yhdistelmä COPD:ssä |
+| [28956463](https://pubmed.ncbi.nlm.nih.gov/28956463/) | 2017 | Katsaus | Expert Rev Respir Med | FF/VI kerran päivässä yhdistelmähoito vakaalle COPD:lle |
+| [24259654](https://pubmed.ncbi.nlm.nih.gov/24259654/) | 2014 | Katsaus | Ann Pharmacother | FF/VI-yhdistelmän tehokkuus/turvallisuus COPD:n ylläpitohoidossa |
 
-*10 additional publications are available in the pack, including further real-world comparative-effectiveness studies (e.g. PMID 39797646, 39731707, 40619503) and pharmacokinetic/QT safety studies.*
-
----
-
-## Taiwan Market Information
-
-Vilanterol (and its combination products) currently has **no drug licenses on file and is not marketed in Taiwan** (0 authorizations). No approved product name, dosage form, or indication text is available from this evidence pack.
+*10 lisäjulkaisua ovat saatavilla pakkauksessa, mukaan lukien tosielämän vertaileva tehokkuustutkimukset (esim. PMID 39797646, 39731707, 40619503) ja farmakokineettiset/QT-turvallisuustutkimukset.*
 
 ---
 
-## Safety Considerations
+## Taiwanin markkinatieto
 
-Please refer to the package insert for safety information. No Taiwan-specific warnings, contraindications, or drug interaction data were returned by this evidence pack, and the DDI database query returned no results.
+Vilanterolilla (ja sen yhdistelmätuotteilla) ei ole tällä hetkellä mitään lääkelupaa tiedostossa ja se ei ole markkinoilla Taiwanissa (0 lupaa). Hyväksyttyä tuotenimeä, annostelmuotoa tai indikaatiotekstiä ei ole saatavilla tästä todistusaineistosta.
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuushuomiot
 
-**Decision: Proceed with Guardrails**
+Lisätietoja turvallisuudesta löytyy pakkausselosteesta. Taiwanin erityisiä varoituksia, vasta-aiheita tai lääkkeiden välisen vuorovaikutuksen tietoja ei palautettu tästä todistusaineistosta, ja DDI-tietokantakysely palautti nolla tulosta.
 
-**Rationale:**
-The clinical evidence base is exceptionally strong (L1 — many completed Phase 3 RCTs, including pivotal registrational and mortality-outcome trials such as IMPACT and FULFIL), and the predicted indication aligns with vilanterol's already-established international use. However, this is currently a **regulatory market-access question for Taiwan rather than an unproven repurposing hypothesis** — the drug is not marketed locally, and a Blocking data gap (missing TFDA package insert / warnings / contraindications) prevents completion of the initial safety assessment (S1).
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert / label data (warnings, contraindications) — currently a Blocking gap (DG001)
-- Confirmed mechanism-of-action documentation from DrugBank (High-priority gap, DG002)
-- Formal drug-drug interaction (DDI) data, as the current query returned no results
-- Confirmation of Taiwan regulatory filing/registration status for FF/VI, UMEC/VI, and FF/UMEC/VI combination products
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Jatketaan varauksilla**
+
+**Perustelut:**
+Kliininen todistusaineisto on poikkeuksellisen vahva (L1 — monet valmistuneet vaiheen 3 RCT:t, mukaan lukien keskeisen rekisteröinti- ja kuolleisuustulosten tutkimukset kuten IMPACT ja FULFIL), ja ennustettu indikaatio vastaa vilanterolin jo vakiintuneeseen kansainväliseen käyttöön. Kuitenkin tämä on tällä hetkellä **sääntelyllinen markkinoille pääsyn kysymys Taiwanissa pikemminkin kuin todistamaton lääkkeen uudelleenkäytön hypoteesi** — lääkettä ei myydä paikallisesti, ja estävä tietoväli (puuttuva TFDA-pakkausseloste / varoitukset / vasta-aiheet) estää alkuperäisen turvallisuusarvioinnin valmistumisen (S1).
+
+**Jatkaakseen seuraavaa tarvitaan:**
+- TFDA-pakkausseloste / merkinnät (varoitukset, vasta-aiheet) — tällä hetkellä estävä aukko (DG001)
+- Vahvistettu vaikutusmekanismin dokumentaatio DrugBankista (korkean prioriteetin aukko, DG002)
+- Muodollinen lääkkeiden välisen vuorovaikutuksen (DDI) tieto, koska nykyinen kysely palautti nolla tulosta
+- Vahvistus Taiwanin sääntelyllisistä vaatimuksista FF/VI, UMEC/VI ja FF/UMEC/VI-yhdistelmätuotteiden rekisteröinnin/markkinoille pääsyn osalta
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

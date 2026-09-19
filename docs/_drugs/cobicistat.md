@@ -29,59 +29,60 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Cobicistat: From HIV Pharmacokinetic Boosting to Simian Immunodeficiency Virus Infection
+# Cobicistat: HIV:n farmakokineetisesta vahvistuksesta Simiaanien immunodefisienssi-viruksen infektioihin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Cobicistat is not itself an antiviral agent — it is a pharmacokinetic booster (CYP3A4/CYP2D6, P-gp, and OATP1B1/1B3 inhibitor) co-formulated with antiretroviral drugs such as elvitegravir and atazanavir for HIV treatment. The TxGNN model predicts it may be relevant to **Simian Immunodeficiency Virus (SIV) Infection**, but this prediction is currently supported by **0 clinical trials** and **0 publications**, and rests entirely on graph-embedding similarity to HIV-related nodes.
+Cobicistat ei ole itsessään antiviraalinen aine — se on farmakokineetinen vahvistin (CYP3A4/CYP2D6, P-gp ja OATP1B1/1B3:n inhibiittori), joka on yhteismuotoiltu antiretroviraalisissa lääkkeissä, kuten elvitegravir ja atazanavir, HIV:n hoitoa varten. TxGNN-malli ennustaa, että se saattaa olla merkityksellinen **Simiaanien immunodefisienssi-viruksen (SIV) infektiolle**, mutta tämä ennustus on tällä hetkellä tuettu **0 kliinisellä tutkimuksella** ja **0 julkaisulla**, ja se perustuu kokonaan verkon upotuksen samankaltaisuuteen HIV-vastaaviin solmuihin.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohde | Sisältö |
 |------|------|
-| Original Indication | No approved indication text available — cobicistat is not marketed in Finland; globally known as a pharmacokinetic booster used alongside antiretroviral agents (no direct antiviral activity of its own) |
-| Predicted New Indication | Simian Immunodeficiency Virus Infection |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L5 |
-| Finland Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen indikaatio | Hyväksyttävää indikaatiotekstiä ei ole saatavilla — cobicistat ei ole markkinoilla Suomessa; tunnetaan maailmanlaajuisesti farmakokineettisenä vahvistimena, jota käytetään antiretroviraalisaineiden rinnalla (ei omaa suoraa antiviraalista vaikutusta) |
+| Ennustettu uusi indikaatio | Simiaanien immunodefisienssi-viruksen infektio |
+| TxGNN-ennustuspisteet | 99.92% |
+| Näytön taso | L5 |
+| Suomen markkinatilanne | Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Pidätä |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennustus on järkevä?
 
-Detailed mechanism-of-action data is flagged as a data gap in the evidence pack. Based on available pharmacological knowledge, cobicistat is a structural analog of ritonavir and acts as a potent inhibitor of CYP3A4/CYP2D6 and the transporters P-gp and OATP1B1/1B3. Its clinical role is to raise plasma concentrations of co-administered antiretrovirals rather than to exert direct antiviral effect.
+Yksityiskohtaiset vaikutusmekanismin tiedot on merkitty tietoaukoksi näyttöpaketissa. Saatavilla olevan farmakologisen tiedon perusteella cobicistat on ritonavirin rakenneanalogi ja toimii CYP3A4/CYP2D6:n ja P-gp- ja OATP1B1/1B3-kuljettajien tehokkaana inhibiittorina. Sen kliininen rooli on nostaa yhdessä annamittujen antiretroviraalisaineiden plasman konsentraatioita pikemminkin kuin harjoittaa suoraa antiviraalista vaikutusta.
 
-SIV is a lentivirus infecting non-human primates and is taxonomically related to HIV, which likely explains why the TxGNN knowledge graph places cobicistat close to SIV-infection nodes — both share proximity to HIV/lentivirus-related entities in the embedding space. However, this is a topological similarity, not a demonstrated pharmacological one: cobicistat has no known direct antiviral activity against SIV or HIV itself, and SIV infection is a veterinary/animal-model disease rather than a human clinical indication.
+SIV on lenitivirus, joka infektoi ei-ihmisiä primaatteja, ja se on taksonomiallisesti sukua HIV:lle, mikä todennäköisesti selittää, miksi TxGNN:n tietoverkko sijoittaa cobicistatia lähelle SIV-infektiosolmuja — molemmat jakavat läheisyyden HIV/lenitivirus-vastaaviin entititeetteihin upotustilassa. Tämä on kuitenkin topologinen samankaltaisuus, ei osoitettu farmakologinen: cobicistatilla ei ole tunnettua suoraa antiviraalista vaikutusta SIV:tä tai HIV:tä vastaan, ja SIV-infektio on eläinlääketieteen/eläinmallin sairaus pikemminkin kuin ihmisen kliininen indikaatio.
 
-The two other TxGNN candidates in this pack reinforce the same caution: feline immunodeficiency syndrome (rank 2) is likewise a veterinary lentivirus condition inferred purely from retrovirus homology, and the rare neurodevelopmental white-matter disorder (rank 3) has no plausible mechanistic link to cobicistat's known CYP/transporter-inhibition profile. All three predictions score similarly high (~99.9%) yet have zero supporting trials or literature — consistent with a graph-embedding artifact rather than a validated repurposing signal.
+Kaksi muuta TxGNN-ehdokasta tässä paketissa vahvistavat saman varotoimenpiteet: kissien immunodefisienssi-oireyhtymä (sijoitus 2) on samoin eläinlääketieteen lentivirus-sairaus, joka on päätelty puhtaasti retrovirus-homologiasta, ja harvinainen neurokehityksellinen valkoisen aineen häiriö (sijoitus 3) ei ole uskottavaa mekanistista yhteyttä cobicistatiin tunnettuun CYP/kuljettaja-inhibitio-profiiliin. Kaikki kolme ennustusta saavat samalla tavalla korkeita pisteitä (~99.9%), vaikka niihin ei ole tukevia tutkimuksia tai kirjallisuutta — mikä on johdonmukaista verkon upotuksen artefaktin kanssa pikemminkin kuin validoitu uudelleenkäyttösignaali.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-Currently no related clinical trials registered.
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-Currently no related literature available.
+Tällä hetkellä ei ole saatavilla asiaan liittyviä kirjallisuusviitteitä.
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Cobicistat holds no marketing authorization in Finland (market status: not marketed; 0 authorizations on record), so no product/dosage-form information is available.
+Cobicistat ei pidä markkinointilupaa Suomessa (markkinatilanne: ei markkinoilla; 0 rekisteröityä hyväksyntää), joten tuote- ja annostelun muotoihin liittyviä tietoja ei ole saatavilla.
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information.
+Lisätietoja turvallisuustiedoista on saatavilla pakkausselosteesta.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidätä**
 
-**Rationale:**
-All three TxGNN-predicted indications (SIV infection, feline immunodeficiency syndrome, and a rare neurodevelopmental disorder) are Evidence Level L5 — model prediction only, with no supporting clinical trials or literature — and two of the three target animal, not human, diseases. Combined with a **Blocking** data gap on TFDA/Fimea package-insert safety data (DG001), this candidate cannot proceed past initial screening (S0).
+**Perustelut:**
+Kaikki kolme TxGNN-ennustettua indikaatiota (SIV-infektio, kissien immunodefisienssi-oireyhtymä ja harvinainen neurokehityksellinen häiriö) ovat näytön tasolla L5 — pelkkä mallin ennustus ilman tukevia kliinisiä tutkimuksia tai kirjallisuutta — ja kaksi kolmesta kohdistavat eläin-, ei ihmisen, sairauksia. Yhdessä **estävän** tietoaukon kanssa TFDA/Fimea-pakkausselosteen turvallisuustiedoissa (DG001), tämä ehdokas ei voi edetä alkuperäisen seulonnan (S0) ohi.
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert data (warnings, contraindications) to clear the Blocking gap (DG001) before any S1 safety review
-- Confirmed mechanism-of-action data from DrugBank (DG002)
-- Independent pharmacological or preclinical evidence connecting cobicistat's CYP3A4/P-gp/OATP inhibition to a human-relevant indication, since the current top predictions are non-human disease models
+**Edistymiseksi seuraavat tiedot tarvitaan:**
+- TFDA/Fimea-pakkausselosteen tiedot (varoitukset, vasta-aiheet) estävän aukon (DG001) poistamiseksi ennen mitään S1-turvallisuuden tarkastelua
+- Vahvistettu vaikutusmekanismin tieto DrugBankista (DG002)
+- Riippumaton farmakologinen tai prekliininen näyttö, joka yhdistää cobicistatiin CYP3A4/P-gp/OATP-inhibition ihmiselle relevanttiin indikaatioon, koska nykyiset parhaat ennustukset ovat ei-ihmisen tautimalleja
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

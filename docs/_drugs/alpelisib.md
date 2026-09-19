@@ -29,105 +29,100 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-Using the drug-repurposing evaluation prompt (v5) to build this report directly from the Evidence Pack — no external tool calls are needed since all data is embedded in the JSON provided.
+# Alpelisib: Syövästä keuhkojen valtimohypertensiooon
 
-A quick note before the report: `drug.original_indications` is empty and `taiwan_regulatory.licenses` is empty (drug not marketed in Finland), so the "Original Indication" cannot be sourced from the regulatory license text as the template default rule specifies. I've inferred it from the clinical-trial/literature context in the evidence pack itself (HR+/HER2− advanced breast cancer), which is clearly labeled below as inferred rather than regulatory-confirmed.
+## Yhden lauseen yhteenveto
 
----
-
-# Alpelisib: From Breast Cancer to Pulmonary Hypertension
-
-## One-Sentence Summary
-
-Alpelisib is a PI3Kα inhibitor used in HR+/HER2-negative, PIK3CA-mutated advanced or metastatic breast cancer. The TxGNN model predicts it may be effective for **Pulmonary Hypertension**, but this prediction is currently supported by **0 relevant clinical trials** and **0 supportive publications** — the only clinical trial retrieved is a drug/indication mismatch, and the only literature retrieved actually documents alpelisib-induced lung and cardiac toxicity, which runs counter to the predicted benefit.
+Alpelisib on PI3Kα-estäjä, jota käytetään HR+/HER2-negatiivisessa, PIK3CA-mutaatiota kantavassa edistyneessä tai metastaattisessa rintasyövässä. TxGNN-malli ennustaa, että se voi olla tehokas **keuhkojen valtimohypertensiossa**, mutta tätä ennustetta tukee tällä hetkellä **0 asiaankuuluvaa kliinistä tutkimusta** ja **0 tukevaa julkaisua** — ainoa saatu kliininen tutkimus on lääke/indikaatioiden epäsuhta, ja ainoa saatu kirjallisuusviite itse asiassa dokumentoi alpelisibin aiheuttaman keuhko- ja sydäntoksisuuden, mikä vastustaa ennustettua hyötyä.
 
 ---
 
-## Quick Overview
+## Pikakatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Breast cancer (HR+/HER2-negative, PIK3CA-mutated advanced/metastatic BC) — *inferred from trial/literature context; not confirmed by Finnish/Fimea regulatory data* |
-| Predicted New Indication | Pulmonary Hypertension |
-| TxGNN Prediction Score | 99.03% |
-| Evidence Level | L5 |
-| Finland Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
-
----
-
-## Why is This Prediction Reasonable?
-
-Detailed mechanism-of-action data for alpelisib is currently a data gap in this evidence pack (DG002). Based on known pharmacology, alpelisib is a selective PI3Kα (p110α) inhibitor approved for PIK3CA-mutated breast cancer, where it blocks aberrant PI3K/AKT/mTOR signaling driving tumor cell proliferation.
-
-The TxGNN model's rationale for linking alpelisib to pulmonary hypertension rests on a mechanistic hypothesis: in preclinical animal models, PI3Kα signaling has been implicated in pulmonary artery smooth muscle cell proliferation and anti-apoptotic signaling, and selective p110α inhibition has been shown to prevent or reverse experimental pulmonary hypertension and right ventricular hypertrophy. This provides a theoretical basis for repurposing.
-
-However, this mechanistic hypothesis has **not** been validated in human pulmonary hypertension populations by any trial or study in this evidence pack. On the contrary, the two literature reports retrieved describe alpelisib-associated interstitial lung disease (ILD) and PI3Kα-pathway-inhibition-associated cardiac atrophy/right ventricular dysfunction — adverse effects that point in the *opposite* direction of the intended therapeutic benefit for a patient population that, by definition, has compromised pulmonary and right-heart function. The mechanistic plausibility therefore coexists with a real safety signal that argues for caution rather than support.
+| Kohta | Sisältö |
+|-------|---------|
+| Alkuperäinen indikaatio | Rintasyöpä (HR+/HER2-negatiivinen, PIK3CA-mutaatio, edistynyt/metastaattinen rintasyöpä) — *päätelty tutkimus-/kirjallisuusyhteydestä; ei vahvistettu Suomen/Fimean sääntelytiedoilla* |
+| Ennustettu uusi indikaatio | Keuhkojen valtimohypertensio |
+| TxGNN-ennusteen pistemäärä | 99.03% |
+| Todistusten taso | L5 |
+| Suomen markkinoiden asema | Ei markkinoilla |
+| Lupien määrä | 0 |
+| Suositeltu päätös | Odota |
 
 ---
 
-## Clinical Trial Evidence
+## Miksi tämä ennuste on perusteltu?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Alpelisibin yksityiskohtainen vaikutusmekanismi-tieto on tällä hetkellä tämän todistuspaketin tietoaukko (DG002). Tunnetun farmakologian perusteella alpelisib on selektiivinen PI3Kα (p110α)-estäjä, joka on hyväksytty PIK3CA-mutaatiota kantavassa rintasyövässä, jossa se estää poikkeamaa PI3K/AKT/mTOR-signalointia, joka ajaa syöpäsolujen lisääntymistä.
+
+TxGNN-mallin peruste alpelisibin yhdistämiselle keuhkojen valtimohypertensiooon perustuu mekanistiseen hypoteesiin: prekliinisissä eläinmalleissa PI3Kα-signaalointi on liitetty keuhkojen valtimonseinämuskulatuurin solujen proliferaatioon ja anti-apoptottiseen signalointiin, ja selektiivinen p110α-esto on osoittautunut estävän tai kääntävän kokeellisen keuhkojen valtimohypertension ja oikean kammion hypertrofian. Tämä tarjoaa teoreettisen perustan uudelleenkäytölle.
+
+Kuitenkin tätä mekanistista hypoteesia ei ole vahvistettu inhimillisen keuhkojen valtimohypertension väestöissä millään tässä todistustapauksessa olevalla tutkimuksella tai tutkimuksella. Päinvastoin, kaksi saadut kirjallisuusviitettä kuvaavat alpelisibin aiheuttamaa interstitiaalista keuhkosairutta (ILD) ja PI3Kα-reitin esto-asiaan liittyvää sydänlihaksen atrofiaa/oikean kammion toiminnan häiriötä — haittavaikutuksia, jotka osoittavat *päinvastaiseen* suuntaan kuin tarkoitettu terapeuttinen hyöty potilaspopulaatioon, jolla määritelmän mukaan on vaaranneet keuhko- ja oikean sydämen toiminnot. Mekanistinen uskottavuus siis yhdistyy todelliseen turvallisuussignaaliin, joka vaatii varovaisuutta tukemisen sijaan.
+
+---
+
+## Kliinisen tutkimuksen todisteet
+
+| Tutkimusnumero | Vaihe | Tila | Osallistujamäärä | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT06705504](https://clinicaltrials.gov/study/NCT06705504) | N/A | Completed | 435 | Real-world retrospective study of **ribociclib** (not alpelisib) in HR+/HER2- advanced/metastatic breast cancer. Flagged by relevance review as **Grade C — not relevant**: wrong drug, wrong indication (breast cancer, not pulmonary hypertension); appears to be a drug-name co-occurrence mismatch and does not support this indication. |
+| [NCT06705504](https://clinicaltrials.gov/study/NCT06705504) | Ei asiaankuuluvaa | Valmis | 435 | Retrospektiivinen todellisen maailman tutkimus **ribosiklibistä** (ei alpelisibistä) HR+/HER2- edistynyt/metastaattisessa rintasyövässä. Merkitty merkityksellisyyden tarkistuksella arvosanaksi **C-luokka — ei asiaankuuluva**: väärä lääke, väärä indikaatio (rintasyöpä, ei keuhkojen valtimohypertensio); näyttää olevan lääkkeen nimen rinnakkaisesiintymisen epäsuhta eikä tue tätä indikaatiota. |
 
-No clinical trial in this evidence pack actually studies alpelisib in pulmonary hypertension.
-
----
-
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [35730191](https://pubmed.ncbi.nlm.nih.gov/35730191/) | 2023 | Case Report | J Oncol Pharm Pract | Reports alpelisib-induced interstitial lung disease in a patient with advanced breast cancer — a pulmonary **adverse-effect** signal, not supportive efficacy evidence. |
-| [31039672](https://pubmed.ncbi.nlm.nih.gov/31039672/) | 2019 | Preclinical/Mechanistic | J Am Heart Assoc | PI3Kα pathway inhibition (with doxorubicin) causes biventricular cardiac atrophy and right ventricular dysfunction in animal models — a cardiotoxicity signal relevant to right-heart function, which is already compromised in pulmonary hypertension. |
-
-Neither publication provides direct evidence of efficacy in pulmonary hypertension; both instead flag lung and cardiac safety concerns relevant to this candidate indication.
+Mikään kliininen tutkimus tässä todistustapauksessa ei todellakaan tutki alpelisibia keuhkojen valtimohypertension osalta.
 
 ---
 
-## Finland Market Information
+## Kirjallisuuden todisteet
 
-Alpelisib is currently **not marketed in Finland** (`market_status: Not marketed`), with 0 authorizations on record. No Fimea/marketing-authorization license data is available to summarize.
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|------|------|------|---------|
+| [35730191](https://pubmed.ncbi.nlm.nih.gov/35730191/) | 2023 | Tapausraportti | J Oncol Pharm Pract | Raportoinnit alpelisibin aiheuttamasta interstitiaalisesta keuhkosairaudesta potilaan edistyneessä rintasyövässä — keuhkotoksisten **haittavaikutusten** signaali, ei tukevia tehokkuuden todisteita. |
+| [31039672](https://pubmed.ncbi.nlm.nih.gov/31039672/) | 2019 | Prekliininen/Mekanistinen | J Am Heart Assoc | PI3Kα-reitin esto (doksorubisiinin kanssa) aiheuttaa kaksisuuntaista sydänlihasten atrofiaa ja oikean kammion toiminnan häiriöitä eläinmalleissa — sydäntoksisuussignaali, joka on merkityksellinen oikean kammion toiminnalle, joka on jo vaaranneet keuhkojen valtimohypertension potilaissa. |
 
----
-
-## Cytotoxicity (Antineoplastic Drug)
-
-Alpelisib is classified here as antineoplastic because its known original indication is breast cancer and it belongs to a targeted oncology drug class (PI3Kα inhibitor).
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (PI3Kα / p110α inhibitor) — not a conventional cytotoxic agent |
-| Myelosuppression Risk | Not established in this evidence pack (DrugBank toxicity data not retrieved). Please refer to the package insert warnings and precautions. |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Given the literature signals above: pulmonary function/imaging (ILD risk), cardiac function assessment (right ventricular function, given documented biventricular atrophy/dysfunction in PI3Kα-pathway inhibition), blood glucose (class-associated hyperglycemia), liver and renal function, CBC |
-| Handling Protection | Oral antineoplastic small molecule; institutional hazardous/antineoplastic drug handling precautions should be followed pending confirmation from the TFDA/Fimea package insert |
+Kumpikaan julkaisu ei tarjoa suoria todisteita tehokkuudesta keuhkojen valtimohypertension osalta; molemmat sen sijaan merkitsevät keuhko- ja sydämen turvallisuushuolia, jotka liittyvät tähän ehdokkasindikaatioon.
 
 ---
 
-## Safety Considerations
+## Suomen markkinoiden tiedot
 
-All formal safety fields in this evidence pack (`key_warnings`, `contraindications`, `ddi`) are data gaps. Please refer to the package insert for safety information.
-
-**Important signal from the literature review (not part of the formal safety dataset, but material to this decision):** the only two publications identified for this candidate describe alpelisib-associated interstitial lung disease and PI3Kα-pathway-related cardiac dysfunction — both directly relevant risks for a pulmonary hypertension population, which typically has reduced pulmonary and right-ventricular reserve.
+Alpelisib ei tällä hetkellä ole **markkinoilla Suomessa** (`market_status: Not marketed`), joiden luparekistereissä on 0 lupaa. Fimean/markkinointiluvan tietoja ei ole saatavilla yhteenvetämistä varten.
 
 ---
 
-## Conclusion and Next Steps
+## Sytostaattinen aktiviteetti (Syöpäätoimikoultu lääke)
 
-**Decision: Hold**
+Alpelisib on luokiteltu tähän syöpää vastustavan lääkkeen luokkaan, koska sen tunnettu alkuperäinen indikaatio on rintasyöpä ja se kuuluu kohdennetun onkologian lääkkeiden luokkaan (PI3Kα-estäjä).
 
-**Rationale:**
-The TxGNN score is high, but it is unsupported by any direct human evidence — the single clinical trial retrieved is a drug/indication mismatch, and the only literature retrieved reports adverse pulmonary and cardiac effects rather than therapeutic benefit. Combined with a Blocking data gap on TFDA/Fimea labeling (DG001) and the drug not being marketed in Finland, there is currently no basis to advance this candidate beyond model prediction (evidence level L5, decision stage S0).
+| Kohta | Sisältö |
+|-------|---------|
+| Sytostaattisen aktiviteetin luokittelu | Kohdistettu hoito (PI3Kα / p110α-estäjä) — ei tavanomainen sytostaattinen aine |
+| Luuydintukahduksen riski | Ei vahvistettu tässä todistustapauksessa (DrugBank-toksisuustietoja ei saatu). Katso pakkausesite varoitukset ja varotoimet. |
+| Pahoinvoinnin luokitus | Katso pakkausesite varoitukset ja varotoimet |
+| Seurantakohteet | Edellä olevien kirjallisuussignaalien perusteella: keuhkofunktio/kuvantaminen (ILD-riski), sydämen toiminta (oikean kammion toiminta, josta on dokumentoitu kaksisuuntainen atrofia/toiminnan häiriö PI3Kα-reitin estetyillä), verensokeri (luokkaan liittyvä hyperglykemia), maksa- ja munuaistoiminta, veritutkimukset |
+| Käsittelynsuojaus | Suun kautta otettava pienimolelyyliä syöpäätoimikulta lääke; institutionaalisen vaarallisen/syöpäätoimikoulun lääkkeen käsittelyn varotoimet tulee noudattaa pakkausesitteen TFDA/Fimea-vahvistuksesta riippuen |
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert with confirmed warnings, contraindications, and DDI data (DG001, Blocking)
-- Verified mechanism-of-action documentation from DrugBank or another primary source (DG002, High)
-- A trial or study that directly evaluates alpelisib (or PI3Kα inhibition) in human pulmonary hypertension patients
-- Targeted pulmonary/cardiac safety assessment to reconcile the mechanistic hypothesis against the documented ILD and cardiotoxicity signals before any further evaluation
+---
+
+## Turvallisuushuomiot
+
+Kaikki muodolliset turvallisuuskentät tässä todistustapauksessa (`key_warnings`, `contraindications`, `ddi`) ovat tietoaukkoja. Katso pakkausesite turvallisuustietoja.
+
+**Tärkeä signaali kirjallisuuden tarkistuksesta (ei osa muodollista turvallisuusaineistoa, mutta merkityksellinen tälle päätökselle):** kaksi ainoaa tunnistettua julkaisua kuvaavat alpelisibin aiheuttamaa interstitiaalista keuhkosairutta ja PI3Kα-reitin-asiaan liittyvää sydämen toiminnan häiriötä — molemmat suoraan merkityksellisen keuhkojen valtimohypertension väestön riskit, jolla tyypillisesti on heikentynyt keuhko- ja oikean kammion varanto.
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Odota**
+
+**Perustelut:**
+TxGNN-pistemäärä on korkea, mutta sillä ei ole suoraa ihmisperäistä näyttöä — saatu ainoa kliininen tutkimus on lääke/indikaatioiden epäsuhta, ja ainoa saatu kirjallisuusviite raportoinnit haittavaikutuksista keuhkoissa ja sydämessä tehokkuuden hyödyn sijaan. Yhdessä tietoaukon estäneiden TFDA/Fimea-merkkien kanssa (DG001) ja lääkkeen ei ole markkinoilla Suomessa, ei ole tällä hetkellä perustetta edetä tätä ehdokasta mallin ennusteen ulkopuolelle (todistusten taso L5, päätösvaihe S0).
+
+**Jatkaaksemme tarvitaan seuraavaa:**
+- TFDA/Fimea-pakkausesite vahvistetulla varoituksilla, vastaindikaatioilla ja DDI-tiedoilla (DG001, esto)
+- Vahvistettu vaikutusmekanismi-dokumentaatio DrugBankista tai muusta ensisijaisesta lähteestä (DG002, korkea)
+- Tutkimus tai julkaisu, joka suoraan arvioi alpelisibia (tai PI3Kα-estoa) ihmisissä keuhkojen valtimohypertension potilaissa
+- Kohdennettu keuhko-/sydämen turvallisuuden arviointi mekanistisen hypoteesin sovittamiseksi dokumentoiduista ILD- ja sydäntoksisuussignaaleista vastaan ennen mitään lisätutkimuksia
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

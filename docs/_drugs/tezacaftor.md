@@ -29,62 +29,63 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Tezacaftor: From Cystic Fibrosis to HIV Infectious Disease
+# Tezacaftor: kystisestä fibrooosista HIV-infektioon
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Tezacaftor is a CFTR (cystic fibrosis transmembrane conductance regulator) corrector, a class of drug used to treat cystic fibrosis by improving CFTR protein folding and membrane trafficking. The TxGNN model predicts it may be effective for **HIV infectious disease**, but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the evidence pack itself flags no known mechanistic link between the two conditions.
+Tezacaftor on CFTR:n (kystisen fibroosin transmembraaninen johtavuusregulaattori) korjaaja, lääkeaine, jota käytetään kystisen fibroosin hoitoon parantamalla CFTR-proteiinin taittumista ja kalvonsiirroa. TxGNN-malli ennustaa, että se saattaa olla tehokas HIV-infektioon, mutta tämä ennuste perustuu tällä hetkellä **0:aan kliiniseen tutkimukseen** ja **0:aan julkaisuun**, ja näyttöpaketti itse merkitsee, ettei tunnetulla mekanismilla ole yhteyttä näiden kahden sairauden välillä.
 
-## Quick Overview
+## Pikayleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Cystic fibrosis (inferred from drug class; no TFDA-approved indication text available — Tezacaftor is not marketed in Taiwan) |
-| Predicted New Indication | HIV infectious disease |
-| TxGNN Prediction Score | 99.24% |
-| Evidence Level | L5 |
-| Taiwan Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|------|--------|
+| Alkuperäinen indikaatio | Kystinen fibrooosi (päätelty lääkkeiden luokasta; TFDA-hyväksyttyä indikaation tekstiä ei ole saatavilla — Tezacaftoria ei markkinoida Taiwanissa) |
+| Ennustettu uusi indikaatio | HIV-infektio |
+| TxGNN-ennusteen pistemäärä | 99.24% |
+| Näyttötaso | L5 |
+| Taiwanin markkinoinnin tila | ✗ Ei markkinoitu |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Pidätä |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap). Based on the evidence pack's own rationale notes, Tezacaftor is known as a CFTR corrector used in cystic fibrosis treatment, where it helps misfolded CFTR protein traffic correctly to the cell membrane.
+Tällä hetkellä yksityiskohtaisia toimintamekanismia koskevia tietoja ei ole saatavilla (merkitty korkean vakavuusasteen tietovajeeksi). Näyttöpaketin omien perustelutekstien perusteella Tezacaftor tunnetaan kystisen fibroosin hoidossa käytettävänä CFTR-korjaajaena, jossa se auttaa väärin laskostuneita CFTR-proteiineja kulkeutumaan oikein solukalvolle.
 
-There is no known mechanistic overlap between CFTR modulation and HIV pathophysiology (viral replication, reverse transcription, or host immune pathways). The evidence pack explicitly states that this TxGNN score reflects knowledge-graph embedding similarity only, without biological plausibility, and is not corroborated by any clinical trial or literature evidence.
+CFTR:n säätelyllä ja HIV:n patofysiologialla ei ole tunnetuksi mekanismista päällekkäisyyttä (viruksen lisääntyminen, käänteinen transkriptio tai isännän immuunivasteen väylät). Näyttöpaketti eksplisiittisesti ilmoittaa, että tämä TxGNN-pistemäärä heijastaa pelkästään tietokaavion upottamisen samankaltaisuutta ilman biologista uskottavuutta, eikä sitä tueta missään kliinisellä tutkimuksella tai kirjallisuuden näytöllä.
 
-For context, TxGNN also flagged **leprosy** (score 99.14%) and **multiple endocrine neoplasia** (score 99.06%) for this drug — both rank 2 and 3 candidates carry the same caveat: no mechanistic rationale, no trials, and no literature. None of the three predictions in this evidence pack currently have independent scientific support beyond the model score itself.
+Kontekstiksi, TxGNN merkitsi myös **lepran** (pistemäärä 99.14%) ja **moninkertaisen endokriinisen neoplasian** (pistemäärä 99.06%) tälle lääkkeelle — sekä järjestykseltään 2. että 3. ehdokkaat sisältävät saman varauman: ei mekaanista perustelua, ei tutkimuksia ja ei kirjallisuutta. Yksikään näistä kolmesta ennusteen ei saa muuta riippumatonta tieteellistä tukea kuin mallin pistemäärä itse.
 
-## Clinical Trial Evidence
+## Kliininen tutkimusnäyttö
 
-Currently no related clinical trials registered
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia
 
-## Literature Evidence
+## Kirjallisuusnäyttö
 
-Currently no related literature available
+Tällä hetkellä ei ole käytettävissä asiaan liittyvää kirjallisuutta
 
-## Taiwan Market Information
+## Taiwanin markkinatiedot
 
-Tezacaftor is not currently marketed in Taiwan (0 authorizations, market status: Not marketed/Not Marketed). No TFDA-approved product or indication text is available.
+Tezacaftoria ei markkinoida tällä hetkellä Taiwanissa (0 hyväksyntää, markkinoinnin tila: Ei markkinoitu). TFDA-hyväksyttyä tuote- tai indikaatiotekstiä ei ole saatavilla.
 
-## Safety Considerations
+## Turvallisuuteen liittyvät huomiot
 
-Please refer to the package insert for safety information.
+Turvallisusaineistojen osalta katso pakkausselosteesta.
 
-Note: TFDA package insert warnings/contraindications are marked as a **Blocking** data gap (DG001) — this drug currently cannot proceed to the S1 safety pre-assessment stage until this data is obtained.
+Huomautus: TFDA-pakkausselosteen varoitukset/vasta-aiheet on merkitty **estäväksi** tietovajeeksi (DG001) — tämä lääkeaine ei voi tällä hetkellä edetä S1-turvallisuuden esiarviointivaiheeseen, kunnes nämä tiedot ovat saatavilla.
 
-## Conclusion and Next Steps
+## Johtopäätökset ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidätä**
 
-**Rationale:**
-The prediction reflects pure knowledge-graph embedding similarity (L5, decision stage S0) with no mechanistic rationale, clinical trial, or literature support for HIV infectious disease — and the other two ranked candidates (leprosy, multiple endocrine neoplasia) fare no better. A blocking data gap on TFDA safety labeling also prevents any safety pre-assessment from starting.
+**Perustelut:**
+Ennuste heijastaa puhtaasti tietokaavion upottamisen samankaltaisuutta (L5, päätösvaihe S0) ilman mekaanista perustelua, kliinisen tutkimuksen tai kirjallisuuden tukea HIV-infektioon — ja muut kaksi sijoitettua ehdokasta (lepra, moninkertainen endokriininen neoplasia) eivät ole parempia. TFDA:n turvallisuusmerkinnän estävä tietovahe estää myös turvallisuuden esiarviointivaiheeseen pääsyn.
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings/contraindications) — required before any S1 safety evaluation can begin
-- Official mechanism of action documentation from DrugBank or the manufacturer
-- Independent preclinical or mechanistic evidence linking CFTR modulation to HIV pathophysiology, before committing further evaluation resources
-- If no such evidence emerges, this candidate should not advance beyond model-prediction stage
+**Jatkamisen edellytykset:**
+- TFDA-pakkausseloste (varoitukset/vasta-aiheet) — vaaditaan ennen kuin S1-turvallisuuden arviointia voidaan aloittaa
+- Virallinen toimintamekanismia koskeva asiakirja DrugBankista tai valmistajalta
+- Riippumaton esikliininen tai mekanisminen näyttö, joka yhdistää CFTR:n säätelyn HIV:n patofysiologiaan, ennen kuin panostetaan lisäarvioinnin resursseihin
+- Jos tällaista näyttöä ei ilmene, tämä ehdokas ei pitäisi edistyä mallin ennustamistasojen ulkopuolelle
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

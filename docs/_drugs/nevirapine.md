@@ -29,62 +29,63 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Nevirapine: From HIV-1 Infection to Feline Acquired Immunodeficiency Syndrome
+# Nevirapine: HIV-1-infektiosta kissojen hankittuun immunovajaukseen
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Nevirapine is an approved HIV-1 non-nucleoside reverse transcriptase inhibitor (NNRTI). The TxGNN model predicts it may be effective for **Feline Acquired Immunodeficiency Syndrome** (FIV infection in cats), but this direction is currently supported by only **1 publication** and **no clinical trials**, and that single study raises caution rather than confirming efficacy.
+Nevirapine on hyväksytty HIV-1-infektioon käytettävä NNRTI-lääke. TxGNN-malli ennustaa, että se voisi olla tehokas **kissan hankitussa immunovajauksessa** (kissojen FIV-infektio), mutta tätä suuntaa tukee tällä hetkellä vain **1 julkaisu** ja **ei klinisia tutkimuksia**, ja tämä yksittäinen tutkimus herättää varovaisuutta pikemminkin kuin vahvistaa tehokkuutta.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | HIV-1 infection (nevirapine is referenced in the evidence pack as an "approved HIV-1 non-nucleoside reverse transcriptase inhibitor"; a formal indication text/MOA record is not yet on file) |
-| Predicted New Indication | Feline Acquired Immunodeficiency Syndrome (FIV) |
-| TxGNN Prediction Score | 99.85% |
-| Evidence Level | L4 |
-| Finland Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | HIV-1-infektio (nevirapine mainitaan näyttöaineistossa "hyväksyttynä HIV-1-infektioon käytettävänä NNRTI-lääkkeenä"; virallista indikaaatiotekstiä/MOA-tietuetta ei ole vielä saatavilla) |
+| Ennustettu uusi indikaatio | Kissan hankittu immunovajaus (FIV) |
+| TxGNN-ennustepistemäärä | 99.85% |
+| Näyttötaso | L4 |
+| Suomen markkinatilanne | Ei markkinoilla |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Odota |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on perusteltu?
 
-Currently, detailed mechanism of action data is not available in this evidence pack (flagged as a High-severity data gap). Based on the information that is available, nevirapine is known to act as an NNRTI that binds the hydrophobic allosteric pocket of HIV-1 reverse transcriptase (RT), a mechanism referenced elsewhere in this same evidence pack.
+Tällä hetkellä yksityiskohtaisia mekanismin tietoja ei ole saatavilla tässä näyttöaineistossa (merkitty korkeaprioriteettiseksi tietovajeeksi). Saatavilla olevan tiedon perusteella nevirapine tunnetaan NNRTI-lääkkeeksi, joka sitoutuu HIV-1-käänteiskirjaimen hydrofobiseen allosteeriseen taskuun (RT) — mekanismia, jota viitataan muualla samassa näyttöaineistossa.
 
-Feline immunodeficiency virus (FIV) causes an AIDS-like syndrome in cats and, like HIV-1, depends on a reverse transcriptase for replication — the superficial rationale for testing HIV-1 NNRTIs against it. However, the sole supporting publication (PMID 38031646) is a structural/biochemical comparison of NNRTIs against feline vs. human RT, and this type of study is typically conducted precisely *because* the two RTs differ significantly in structure. The evidence therefore points toward **limited or unpredictable cross-species inhibition**, not demonstrated efficacy.
+Kissan immunovajaustautivirus (FIV) aiheuttaa AIDS-kaltaisen oireyhtymän kissoissa ja riippuu kuten HIV-1 käänteiskirjaimesta replikointiinsa — tämä on pinnallinen peruste HIV-1-NNRTI-lääkkeiden testaamiselle sitä vastaan. Ainoa tukeva julkaisu (PMID 38031646) on kuitenkin NNRTI-lääkkeiden rakenteellinen/biokemiallinen vertailu kissan ja ihmisen RT:ta vastaan, ja tämän tyyppinen tutkimus tehdään tyypillisesti juuri *koska* nämä kaksi käänteiskirjaimet eroavat merkittävästi rakenteeltaan. Todisteet viittaavat siis **rajalliseen tai arvaamattomaan lajien väliseen estävään vaikutukseen**, ei todistettuun tehokkuuteen.
 
-Taken together, the mechanistic plausibility is weak: the link is a shared drug class/target family rather than confirmed cross-species activity, and FIV is a veterinary (non-human) indication that sits outside the typical human drug-repurposing development pathway.
+Kaiken kaikkiaan mekanistinen uskottavuus on heikko: linkki perustuu jaettuun lääkkeluokkaan/kohdeperheeseen pikemminkin kuin vahvistettuun lajien väliseen aktiivisuuteen, ja FIV on eläinlääketieteellinen (ei-inhimillinen) indikaatio, joka sijoittuu tyypillisen inhimillisen lääkkeiden uudelleenkäytön kehityspolun ulkopuolelle.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen todisteet
 
-Currently no related clinical trials registered.
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä klinisia tutkimuksia.
 
-## Literature Evidence
+## Kirjallisuuden todisteet
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [38031646](https://pubmed.ncbi.nlm.nih.gov/38031646/) | 2023 | Structural/biochemical comparison study | Journal of Veterinary Science | Compared nevirapine, efavirenz, and rilpivirine biochemically/structurally against feline vs. human RT to assess NNRTI potential for treating FIV-infected cats; no effective FIV treatment currently exists |
+| PMID | Vuosi | Tyyppi | Julkaisu | Keskeiset löydökset |
+|------|--------|--------|----------|---------|
+| [38031646](https://pubmed.ncbi.nlm.nih.gov/38031646/) | 2023 | Rakenteellinen/biokemiallinen vertailututkimus | Journal of Veterinary Science | Vertasi nevirapiiinia, efavirenitsiä ja rilpiviriiniä biokemiallisesti ja rakenteellisesti kissan ja ihmisen RT:ta vastaan arvioidakseen NNRTI-potentiaalia FIV-infektoituneiden kissojen hoitoon; hyväksyttyä FIV-hoitoa ei ole tällä hetkellä olemassa |
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Nevirapine is currently not marketed in Finland, and no marketing authorizations are on record.
+Nevirapine ei ole tällä hetkellä markkinoilla Suomessa, eikä markkinointikelpoisuuslupia ole rekisteröitynä.
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information. (TFDA package insert data was queried but is currently a Blocking-severity data gap in this evidence pack, preventing a full safety review.)
+Katso turvallisuustiedot pakkausselosteesta. (TFDA-pakkausseloste-tiedot haettiin, mutta ne ovat tällä hetkellä estävän priorisaation tietovahe tässä näyttöaineistossa, mikä estää täydellisen turvallisuuskatselmuksen.)
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Odota**
 
-**Rationale:**
-Evidence for this indication rests on a single preclinical structural/biochemical comparison study with no clinical trials, and that study itself suggests cross-species RT inhibition may be limited rather than confirming therapeutic benefit. The candidate indication is also a veterinary disease (feline FIV), which falls outside standard human drug-repurposing evaluation.
+**Perustelut:**
+Todisteet tälle indikaatiolle perustuvat yhteen esikliiniseen rakenteelliseen/biokemialliseen vertailututkimukseen ilman klinisia tutkimuksia, ja tutkimus itse viittaa siihen, että lajien välinen käänteiskirjaimen esto saattaa olla rajallista pikemminkin kuin vahvistaa terapeuttista hyötyä. Kandidaatti-indikaatio on myös eläinlääketieteellinen tauti (kissan FIV), joka sijoittuu standardin inhimillisen lääkkeiden uudelleenkäytön arvioinnin ulkopuolelle.
 
-**To proceed, the following is needed:**
-- TFDA package insert data (warnings/contraindications) — currently a Blocking gap preventing S1 safety evaluation
-- Detailed mechanism of action (MOA) data for nevirapine — currently a High-severity gap
-- In vivo/in vitro efficacy data specifically demonstrating antiviral activity against FIV (not just structural RT comparison)
-- If a human-relevant repurposing signal is desired, note that rank 2 in this evidence pack (simian immunodeficiency virus infection, L3/S1, 17 supporting publications) has a stronger and more direct mechanistic basis, though it also concerns a non-human model rather than a human indication
+**Jatkaakseen seuraavaa tarvitaan:**
+- TFDA-pakkausseloste-tiedot (varoitukset/vasta-aiheet) — tällä hetkellä estävä vaatimus, joka estää S1-turvallisuusarvioinnin
+- Yksityiskohtaiset mekanismin tiedot (MOA) nevirapiiinille — tällä hetkellä korkeaprioriteettinen tietovahe
+- In vivo/in vitro tehokkuustiedot, jotka erityisesti osoittavat antiviraalisen aktiivisuuden FIV:ää vastaan (ei pelkästään rakenteellinen käänteiskirjaimen vertailu)
+- Jos halutaan kehittää inhimillisen lääkkeen repurposointi-signaalia, huomaa, että tämän näyttöaineiston sijoitus 2 (apinoiden immunovajaustautivirus-infektio, L3/S1, 17 tukevaa julkaisua) on vahvempi ja suorempi mekanistinen perusta, vaikka se koskeekin ei-inhimillistä mallia pikemminkin kuin inhimillistä indikaatiota
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

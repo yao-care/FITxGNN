@@ -29,75 +29,76 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Ganirelix: From GnRH Receptor Antagonism to Hypertrichosis
+# Ganirelix: GnRH-reseptorin antagonismista hypertrikoosiaan
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Ganirelix is a GnRH (gonadotropin-releasing hormone) receptor antagonist; the original approved indication is not recorded in this evidence pack, and the drug is not currently marketed in Finland. The TxGNN model predicts it may be effective for **Hypertrichosis (disease)**, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a pure graph-embedding prediction with no corroborating evidence.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available in evidence pack (no licenses, no indication text on record) |
-| Predicted New Indication | Hypertrichosis (disease) |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L5 |
-| Finland Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Ganirelix on GnRH-reseptorin (gonadotropiinia vapauttava hormoni) antagonisti; alkuperäinen hyväksytty indikaatio ei ole tallennettu tähän näyttöpakettiin, eikä lääke ole tällä hetkellä markkinoitavana Suomessa. TxGNN-malli ennustaa, että se saattaa olla tehokas **hypertrikoosiassa (sairaus)**, mutta tätä ennustetta tuetaan tällä hetkellä **0 kliinisellä tutkimuksella** ja **0 julkaisulla** — kyseessä on puhdas verkkoupotetun mallinnuksen ennuste ilman korroboratiivista näyttöä.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Detailed mechanism-of-action data is not available in structured form for this candidate. Based on general pharmacological knowledge referenced elsewhere in this evidence pack, ganirelix is a GnRH receptor antagonist — a drug class typically used to suppress the hypothalamic-pituitary-gonadal axis (e.g., blocking premature LH surges in controlled ovarian stimulation). No original indication text was captured in this pack, so a direct comparison between the original and predicted indications cannot be made.
-
-For the top-ranked prediction, hypertrichosis, the evidence pack's own mechanistic assessment is explicit: **there is no known pathway connecting GnRH receptor antagonism to excess hair growth pathology.** This is reflected in the ranking as well — while the TxGNN score is high (99.98%), the underlying rank (420th) is far outside the top tier, and zero clinical trials or publications were found on targeted searches. This candidate should be treated as an unvalidated model output rather than a mechanistically grounded hypothesis.
-
-It is also worth noting that among the other nine ranked candidates in this pack, rank 3 ("malformation syndrome with odontal/periodontal component") returned 20 literature hits — but on review these are all generic periodontitis papers with no mention of ganirelix or GnRH signaling, and are flagged in the source data as a likely text-matching artifact rather than genuine evidence. No candidate in this batch has a plausible mechanistic basis or real-world evidence trail.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Kohta | Sisältö |
+|-------|---------|
+| Alkuperäinen indikaatio | Ei saatavilla näyttöpaketissa (ei lisenssejä, ei indikaatiotekstiä tietueessa) |
+| Ennustettu uusi indikaatio | Hypertrikoosi (sairaus) |
+| TxGNN-ennusteiden pistemäärä | 99.98% |
+| Näyttöjen taso | L5 |
+| Suomen markkinoiden asema | Ei markkinoitavana (Ei markkinoitavana) |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Odota |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennuste on järkevä?
 
-Currently no related literature available.
+Yksityiskohtaisia mekanismi-toiminta-tietoja ei ole saatavilla strukturoidussa muodossa tälle ehdokkaalle. Yleisen farmakologisen tiedon perusteella, johon viitataan muualla tässä näyttöpaketissa, ganirelix on GnRH-reseptorin antagonisti — lääkeryhmä, jota käytetään tyypillisesti hypotalamuksen-hypofyysin-sukupuolirakeiden akselin tukahduttamiseen (esim. LH-huippujen estäminen hallitussa munasarjan stimulaatiossa). Mitään alkuperäisen indikaation tekstiä ei tallennettu tähän pakettiin, joten suoraa vertailua alkuperäisen ja ennustetun indikaation välillä ei voida tehdä.
 
----
+Parhaiten sijoitetun ennusteen osalta, hypertrikoosi, näyttöpaketti omassa mekanistisessa arvioinnissa on eksplisiittinen: **ei ole tunnettu reittiä, joka yhdistää GnRH-reseptorin antagonismin liiallisen hiuskasvun patologiaan.** Tämä heijastuu myös rankingissa — vaikka TxGNN-pisteet ovat korkeat (99.98%), taustalla oleva sijoitus (420.) on paljon kärkitason ulkopuolella, eikä kohdistettujen hakujen avulla löydetty yhtään kliinistä tutkimusta tai julkaisua. Tätä ehdokasta on käsiteltävä pikemminkin validoimattomana mallin tuloksena kuin mekanistisesti perusteltuna hypoteesinä.
 
-## Finland Market Information
-
-Ganirelix currently holds no marketing authorization in Finland (0 licenses on record); no product/dosage-form information is available.
+On myös huomionarvoista, että muiden yhdeksän sijoitetun ehdokkaan joukossa tässä paketissa sijoitus 3 ("epämuodostumasyndroomi hammasluun/periodontaalisen komponentin kanssa") palautti 20 kirjallisuusosumaa — mutta tarkastelun jälkeen nämä ovat kaikki yleisiä parodontiitin papereita, joissa ei mainita ganireliksiä tai GnRH-signalointia, ja ne on merkitty lähdetiedoissa todennäköiseksi tekstin vastaavuuden artefaktiksi pikemminkin kuin oikeaksi näytöksi. Tällä erässä olevan ehdokkaan ei ole uskottavaa mekanistista perustaa tai todellisen maailman näyttöä.
 
 ---
 
-## Safety Considerations
+## Kliinisen tutkimuksen näyttö
 
-Please refer to the package insert for safety information.
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisia tutkimuksia.
 
 ---
 
-## Conclusion and Next Steps
+## Kirjallisuuden näyttö
 
-**Decision: Hold**
+Tällä hetkellä ei ole saatavilla asiaan liittyviä kirjallisuuslähteitä.
 
-**Rationale:**
-The top predicted indication (hypertrichosis) is supported only by a TxGNN model score, with zero clinical trials, zero publications, and no plausible mechanistic link to GnRH receptor antagonism. Combined with the drug's unmarketed status in Finland and a **Blocking**-severity gap in TFDA/package-insert safety data, this candidate does not meet the minimum evidence bar to advance past initial screening.
+---
 
-**To proceed, the following is needed:**
-- Original indication and confirmed mechanism-of-action data for ganirelix (currently absent from this pack)
-- TFDA/EMA package insert with warnings and contraindications (Blocking data gap)
-- Drug-drug interaction data (currently not found)
-- Any preclinical or mechanistic literature specifically linking GnRH receptor antagonism to hair-growth pathology, before further evidence collection is warranted
-- Re-evaluation of lower-priority candidates in this batch only if independent (non-text-matching) evidence emerges
+## Suomen markkinoiden tiedot
+
+Ganirelix ei ole tällä hetkellä hankkinut myyntilupaa Suomessa (0 listattua lisenssiä); mitään tuotetietoja tai annosmuotoa ei ole saatavilla.
+
+---
+
+## Turvallisuusnäkökohdat
+
+Katso turvallisuustiedot pakkausselosteesta.
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Odota**
+
+**Perustelut:**
+Parhaiten sijoitettu ennustettu indikaatio (hypertrikoosi) on tuettu vain TxGNN-mallin pistemäärällä; sen taustalla on nolla kliinistä tutkimusta, nolla julkaisua ja ei uskottavaa mekanistista yhteyttä GnRH-reseptorin antagonismiin. Yhdessä lääkkeen markkinoimattoman aseman kanssa Suomessa ja estävän vakavuuden tietoaukossa TFDA/pakkausselosteen turvallisuustiedoissa, tämä ehdokas ei täytä vähimmäisnäyttöjen raja-arvoa edistää alkuperäisen seulonnan jälkeen.
+
+**Jotta voidaan edetä, seuraavat ovat tarpeen:**
+- Ganireliksin alkuperäinen indikaatio ja vahvistettu mekanismi-toiminta-tieto (tällä hetkellä puuttuu tästä paketista)
+- TFDA/EMA pakkausseloste, jossa varoitukset ja vasta-aiheet (estävän vakavuuden tietoaukko)
+- Lääkkeiden väliset yhteisvaikutustiedot (tällä hetkellä ei löydetty)
+- Kaikki prekliiniset tai mekanistiset kirjallisuuslähteet, jotka erityisesti yhdistävät GnRH-reseptorin antagonismin hiuskasvun patologiaan, ennen kuin lisää näyttöjen keräämistä on perusteltua
+- Tässä erässä olevia alemman prioriteetin ehdokkaita arvioidaan uudelleen vain, jos ilmaantuu itsenäinen (ei-tekstin vastaavuuden) näyttö
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

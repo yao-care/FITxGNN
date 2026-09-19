@@ -29,54 +29,55 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 
 </div>
 
-# ASENAPINE MALEATE: Evaluation Pending — Critical Data Gaps
+# ASENAPINE MALEATE: Arviointi odottavana — Kriittiset tietoaukot
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Asenapine maleate was queried against the Taiwan TFDA database with no approved registrations found in Taiwan.
-No TxGNN repurposing predictions are available in the current Evidence Pack, and **critical data gaps** in the mechanism of action and safety information prevent a complete evaluation.
-The DrugBank and TFDA package insert queries each returned one record, but the data has not yet been integrated.
+Asenapine-maleiinia kyseyttiin Taiwan TFDA -tietokannasta, eikä Taiwanissa hyväksynnöjä löytynyt.
+Nykyisessä Evidence Pack -aineistossa ei ole saatavilla TxGNN-uudelleenkäyttöennusteita, ja **kriittiset tietoaukot** vaikutusmekanismista ja turvallisuustiedoista estävät täydellisen arvioinnin.
+DrugBank- ja TFDA-pakkaussisällysluettelokyselyt palauttivat kumpikin yhden tietueen, mutta tietoja ei ole vielä integroitu.
 
 ---
 
-## Quick Overview
+## Pikakatsaus
 
-| Item | Content |
+| Kohde | Sisältö |
 |------|---------|
-| Original Indication | No approved indication found in Taiwan |
-| Predicted New Indication | Not available — TxGNN prediction not generated |
-| TxGNN Prediction Score | Not available |
-| Evidence Level | Insufficient data |
-| Taiwan Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen indikaatio | Hyväksyttyä indikaatiota ei löytynyt Taiwanista |
+| Ennustettu uusi indikaatio | Ei saatavilla — TxGNN-ennustetta ei ole luotu |
+| TxGNN-ennustepisteet | Ei saatavilla |
+| Todistusten taso | Riittämätön tieto |
+| Taiwan-markkinoiden asema | Ei markkinoilla |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Pidätä |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on perusteltu?
 
-No TxGNN prediction data is present in the current Evidence Pack, so no mechanistic reasoning can be offered at this stage.
+Nykyisessä Evidence Pack -aineistossa ei ole TxGNN-ennustetietoja, joten tässä vaiheessa mekanistista perustelua ei voida tarjota.
 
-The mechanism of action has not been retrieved despite DrugBank returning one record (query log ID 3, run 2026-03-29). Similarly, the TFDA package insert query returned one record (query log ID 4, same date), which should contain original indication and safety information. Neither dataset has been parsed into the Evidence Pack fields — these two sources together would be sufficient to unlock the next evaluation step.
+Vaikutusmekanismia ei ole haettu, vaikka DrugBank palautti yhden tietueen (kyselylokin tunnus 3, suoritus 2026-03-29). Samoin TFDA-pakkaussisällysluettelokysely palautti yhden tietueen (kyselylokin tunnus 4, sama päivä), jonka pitäisi sisältää alkuperäisen indikaation ja turvallisuustiedot. Kumpikaan datasetti ei ole jäsennelty Evidence Pack -kenttiin — nämä kaksi lähde yhdessä riittäisivät seuraavan arviointivaiheen vapauttamiseen.
 
-Until those records are integrated, any mechanistic or clinical justification for repurposing would be speculative and cannot be included in this report.
+Kunnes nuo tietueet integroidaan, mikä tahansa mekanistinen tai kliininen perustelu uudelleenkäytölle olisi spekulatiivista eikä voida sisällyttää tähän raporttiin.
 
 ---
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidätä**
 
-**Rationale:**
-The Evidence Pack contains no TxGNN predictions, no original indication, no mechanism of action, and no safety data — the minimum inputs required for a repurposing evaluation are not met.
+**Perustelut:**
+Evidence Pack -aineisto ei sisällä TxGNN-ennusteita, alkuperäistä indikaatiota, vaikutusmekanismia eikä turvallisuustietoja — uudelleenkäytön arviointiin vaadittavat vähimmäistulot puuttuvat.
 
-**To proceed, the following is needed:**
+**Edistymiseksi tarvitaan seuraavat:**
 
-- Parse and integrate the DrugBank record already retrieved (query log ID 3) to populate MOA, drug categories, and toxicity data
-- Parse and integrate the TFDA package insert record already retrieved (query log ID 4) to populate original indication and safety warnings
-- Re-run TxGNN prediction pipeline for ASENAPINE MALEATE to generate candidate indications with scores
-- After predictions are available, re-run the evidence collection step (clinical trials + literature) for the top-ranked indication
-- Rebuild the Evidence Pack and regenerate this report
+- Jäsennellä ja integroida jo haettu DrugBank-tietue (kyselylokin tunnus 3) vaikutusmekanismin, lääkkeiden luokkien ja myrkyllisyystietojen täyttämiseksi
+- Jäsennellä ja integroida jo haettu TFDA-pakkaussisällysluettelotietue (kyselylokin tunnus 4) alkuperäisen indikaation ja turvallisuusvaroitusten täyttämiseksi
+- Suorittaa TxGNN-ennuste-prosessi uudelleen ASENAPINE MALEATE -lääkkeelle kandidaatti-indikatiota ja pistemäärät luomiseksi
+- Kun ennusteet ovat saatavilla, suorittaa todistusten keräämisen vaihe uudelleen (kliiniset tutkimukset + kirjallisuus) parhaiten sijoittuneelle indikaatiolle
+- Rakentaa Evidence Pack uudelleen ja luoda tämä raportti uudelleen
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -29,72 +29,73 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Capecitabine：原始適應症資料缺失，預測新適應症為 Gastric Adenocarcinoma and Proximal Polyposis of the Stomach (GAPPS)
+# Capecitabine: Alkuperäisen indikaation tiedot puuttuvat, ennustettu uusi indikaatio on Gastric Adenocarcinoma and Proximal Polyposis of the Stomach (GAPPS)
 
-## 一句話摘要
+## Yhden lauseen yhteenveto
 
-Capecitabine 為口服氟嘧啶類化療前驅藥；本證據包未取得其正式核准之原始適應症資料（Data Gap），但依證據包內其他預測適應症之機轉論述，capecitabine 於體內轉換為 5-FU 後經抑制 thymidylate synthase 產生細胞毒性，是 XELOX／CAPOX 等方案之標準化療骨幹藥物。TxGNN 模型將 **Gastric Adenocarcinoma and Proximal Polyposis of the Stomach (GAPPS)** 列為預測分數最高的新適應症（99.94%），但目前**沒有任何臨床試驗或文獻**支持此用途，屬純模型預測。
+Capecitabine on suun kautta otettava fluoriprimidiiniluokan kemoterapian esiaineaine. Tämä näytöpaketti ei ole hankkinut sen virallisesti hyväksyttyä alkuperäisen indikaation tietoja (Data Gap), mutta muiden näytöpakettiin sisältyviä ennustettuja indikaatioita koskevien toimintamekanismien perusteella capecitabine muuntuu kehossa 5-FU:ksi ja tuottaa solujen tappavaa vaikutusta thymidylaattisyntetaasin estämisen kautta. Se on XELOX/CAPOX ja vastaavien hoitojärjestelmien vakio-kemoterapian runkoksi tarkoitettu lääke. TxGNN-malli luokittelee **Gastric Adenocarcinoma and Proximal Polyposis of the Stomach (GAPPS)** korkeimman ennustuspisteen omaavaksi uudeksi indikaatioksi (99.94%), mutta tällä hetkellä **mikään kliininen tutkimus tai kirjallisuus ei tue tätä käyttöä**, se on puhdas mallin ennuste.
 
-## 重點總覽
+## Tärkeimmät kohdat
 
-| 項目 | 內容 |
-|------|------|
-| 原始適應症 | 無資料（本證據包未記錄核准適應症，屬資料缺口） |
-| 預測新適應症 | Gastric Adenocarcinoma and Proximal Polyposis of the Stomach (GAPPS) |
-| TxGNN 預測分數 | 99.94% |
-| 證據等級 | L5 |
-| 台灣市場狀態 | Not marketed |
-| 藥證數量 | 0 |
-| 建議決策 | Hold |
+| Kohde | Sisältö |
+|-------|---------|
+| Alkuperäinen indikaatio | Tiedot puuttuvat (tämä näytöpaketti ei sisällä hyväksyttyjä indikaatioita, tämä on tietoaukko) |
+| Ennustettu uusi indikaatio | Gastric Adenocarcinoma and Proximal Polyposis of the Stomach (GAPPS) |
+| TxGNN:n ennustepisteet | 99.94% |
+| Näyttötaso | L5 |
+| Taiwanin markkinatilanne | Ei markkinoilla |
+| Lääkelupien lukumäärä | 0 |
+| Suositeltu päätös | Pidätä |
 
-## 為什麼這個預測合理？
+## Miksi tämä ennuste on järkevä?
 
-目前尚無詳細的作用機轉（MOA）資料可供引用（DG002，High severity，待透過 DrugBank API 補齊）。根據本證據包中其他胃癌亞型預測適應症的機轉論述，capecitabine 是口服氟嘧啶類化療前驅藥，於體內轉換為 5-FU 後透過抑制 thymidylate synthase 阻斷 DNA 合成，屬 XELOX、CAPOX 等方案的標準化療骨幹藥物之一。
+Tällä hetkellä ei ole saatavilla yksityiskohtaisia toimintamekanismin (MOA) tietoja (DG002, Korkea vakavuus, vaatii täydennystä DrugBank API:n kautta). Näytöpakettiin sisältyviä muita mahasyövän alatyypeille annettuja ennustettuja indikaatioita koskevan toimintamekanismin perusteella capecitabine on suun kautta otettava fluoriprimidiiniluokan kemoterapian esiaineaine, joka muuntuu kehossa 5-FU:ksi ja thymidylaattisyntetaasin estämisen kautta estää DNA:n synteesin. Se on yksi XELOX-, CAPOX- ja vastaavien hoitojärjestelmien vakio-kemoterapian runkoksi tarkoitetuista lääkkeistä.
 
-然而，針對此次排名第一的預測適應症 GAPPS，證據包內的機轉論述明確指出：GAPPS 為體質性 APC 啟動子 1B 突變引起的遺傳性息肉症候群，臨床處置以預防性胃切除或內視鏡監測為主，並非化療適應症；**無任何試驗或文獻支持 capecitabine 於此族群之用途，純屬 TxGNN 分子相似性預測**。
+Kuitenkin tämän kerran eniten rankatun ennustetun indikaation, GAPPS:n, osalta näytöpaketin sisällä oleva toimintamekanismin käsittely osoittaa selvästi: GAPPS on konstitutionaalinen APC-promoottorin 1B:n mutaatio aiheuttama periytyvä polyyppisyndrooma, jonka kliininen hallinta perustuu ensisijaisesti profylaktiseen mahalaukun poistoon tai endoskooppiseen seuraamiseen, eikä se ole kemoterapian indikaatio. **Mikään tutkimus tai kirjallisuus ei tue capecitabiinin käyttöä tässä potilasryhmässä, se on puhtaasti TxGNN:n molekulaarisen samankaltaisuuden ennuste**.
 
-值得注意的是，本證據包同批預測適應症中，第 3、5、8 名（gastric tubular adenocarcinoma、gastric cardia adenocarcinoma、gastric body carcinoma）皆已累積多筆 Phase 2/3 試驗與文獻證據，達到 L1／Proceed with Guardrails，機轉關聯性遠高於 GAPPS。相較之下，GAPPS 屬於低機轉相關性、無實證支持的預測結果。
+Huomionarvoista on, että tämän näytöpaketin samalla kierroksella ennustetuissa indikaatioissa 3., 5. ja 8. sija (gastric tubular adenocarcinoma, gastric cardia adenocarcinoma, gastric body carcinoma) ovat jo kertyneet useita Phase 2/3 tutkimuksia ja kirjallisuuden todistusaineistoa, saavuttaen L1/Jatka varauksilla -tason, ja niiden toimintamekanismin yhteys on paljon korkeampi kuin GAPPS:lla. Verrattaessa muihin, GAPPS on matalan mekanismin relevanssin ja todistusaineiston puuttumisen perusteella saatu ennuste.
 
-## 臨床試驗證據
+## Kliinisen tutkimuksen näyttö
 
-目前無相關臨床試驗登記
+Tällä hetkellä ei ole asiaan liittyviä kliinisen tutkimuksen rekisteröintejä
 
-## 文獻證據
+## Kirjallisuuden näyttö
 
-目前無相關文獻資料
+Tällä hetkellä ei ole asiaan liittyviä kirjallisuuden tietoja
 
-## 台灣市場資訊
+## Taiwanin markkinoiden tiedot
 
-本藥品於台灣尚Not marketed（Not marketed狀態，藥證數量 0），無核准藥證與適應症文字可供摘錄。
+Tämä lääke ei ole markkinoilla Taiwanissa (Ei markkinoilla -tila, lääkelupien lukumäärä 0), eikä sille ole olemassa hyväksyttyjä lääkelupia, joista voitaisiin poimia indikaation tekstejä.
 
-## 細胞毒性
+## Solujen tappavuus
 
-Capecitabine 屬氟嘧啶類（fluoropyrimidine）口服細胞毒性化療藥物，符合抗腫瘤藥物認定標準，故列出以下資訊：
+Capecitabine on fluoriprimidiiniluokan (fluoropyrimidine) suun kautta otettava solujen tappavuuden kemoterapialääke, joka täyttää syöpälääkkeen tunnistamisstandardit. Alla on esitetty seuraavat tiedot:
 
-| 項目 | 內容 |
-|------|------|
-| 細胞毒性分類 | Conventional cytotoxic（氟嘧啶類，口服 5-FU 前驅藥） |
-| 骨髓抑制風險 | 請參閱仿單警語與注意事項（本證據包未提供具體毒性數據） |
-| 致吐性分級 | 請參閱仿單警語與注意事項 |
-| 監測項目 | CBC（含白血球分類）、肝腎功能、電解質 |
-| 處置防護 | 應依細胞毒性藥品調配與處置相關規範辦理 |
+| Kohde | Sisältö |
+|-------|---------|
+| Solujen tappavuuden luokitus | Tavanomainen solujen tappavuus (fluoriprimidiiniluokka, suun kautta otettava 5-FU:n esiaineaine) |
+| Luuydinsuppression riski | Katso pakkausselosteen varoitukset ja huomautukset (tämä näytöpaketti ei tarjoa erityisiä myrkyllisyystietoja) |
+| Pahoinvointiseittelyn luokitus | Katso pakkausselosteen varoitukset ja huomautukset |
+| Monitoroinnin kohteet | CBC (mukaan lukien valkosolut selostettuina), maksa- ja munuaistoiminta, elektrolyytit |
+| Käsittelysuojaus | Tulee noudattaa sytotoksisten lääkkeiden valmistusta ja käsittelyä koskevia määräyksiä ja ohjeita |
 
-## 安全性考量
+## Turvallisuusnäkökohdat
 
-請參閱仿單以獲取安全性資訊。
+Katso pakkausseloste turvallisuustietojen saamiseksi.
 
-## 結論與後續步驟
+## Johtopäätökset ja seuraavat vaiheet
 
-**決策：Hold**
+**Päätös: Pidätä**
 
-**理由：**
-GAPPS 目前完全無臨床試驗或文獻證據支持，其標準治療為手術／內視鏡監測而非全身性化療，與 capecitabine 之細胞毒性化療機轉關聯性低；99.94% 之分數純為 TxGNN 分子相似性預測，證據等級僅 L5，不具備進入下一階段安全性評估之基礎。
+**Perustelu:**
+GAPPS:lla ei tällä hetkellä ole mitään kliinisen tutkimuksen tai kirjallisuuden näyttöä, sen vakiohoito on leikkaus/endoskooppinen seuranta eikä koko kehon kemoterapia, ja sen yhteys capecitabiinin solujen tappavuuden kemoterapiamekanismiin on heikko. 99.94% pistemäärä on puhtaasti TxGNN:n molekulaarisen samankaltaisuuden ennuste, näyttötaso on vain L5, eikä sillä ole perustaa siirtyä seuraavaan turvallisuuden arviointivaiheeseen.
 
-**若要推進，需要補齊：**
-- TFDA 仿單警語／禁忌資料（DG001，Blocking，需Download and parse the package insert PDF）
-- 作用機轉（MOA）資料（DG002，High，需Query the DrugBank API）
-- GAPPS 相關前瞻性試驗或病例系列證據（目前為零）
-- 若欲推進本藥物之老藥新用評估，建議改以證據等級較高之胃癌亞型（如 gastric cardia adenocarcinoma、gastric body carcinoma、gastric tubular adenocarcinoma，皆達 L1／Proceed with Guardrails）另案處理
+**Jos halutaan edetä, on täydennettävä:**
+- TFDA:n pakkausselosteen varoitukset/vasta-aiheet (DG001, Esto, vaatii PDF-pakettiselosteen lataamisen ja jäsentämisen)
+- Toimintamekanismi (MOA) -tiedot (DG002, Korkea, vaatii DrugBank API:n kyselyä)
+- GAPPS-aiheisia prospektiivisia tutkimuksia tai tapaussarjoja (tällä hetkellä nolla)
+- Jos halutaan edetä tämän lääkkeen vanhasta lääkkeestä uuteen käyttöön -arvioinnissa, suositellaan käsittelemään todistusaineiston tasoltaan korkeampia mahasyövän alatyyppejä (kuten gastric cardia adenocarcinoma, gastric body carcinoma, gastric tubular adenocarcinoma, jotka kaikki saavuttavat L1/Jatka varauksilla) erikseen.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

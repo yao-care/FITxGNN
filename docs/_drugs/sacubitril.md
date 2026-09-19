@@ -29,72 +29,73 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Sacubitril: From Heart Failure (Sacubitril/Valsartan Combination) to Diabetic Nephropathy
+# Sakubitriili: Sydämen vajaatoiminnasta (sakubitriili/valsartaani-yhdistelmä) diabeettiseen nefropatiaan
 
-> **Scoping note:** The evidence pack lists 5 TxGNN-predicted indications. Ranks #1 (brain small vessel disease/ocular anomalies), #2 (HANAC syndrome), #4 (rheumatoid arthritis) and #5 (hemoglobinopathy) each have **zero clinical trials**, and where literature exists (rank #1, 19 papers) none of it mentions sacubitril — the evidence pack's own rationale flags these as likely TxGNN false positives with no mechanistic support. Rank #3, **Diabetic Nephropathy**, is the only candidate with actual clinical trials and mechanistically relevant literature, so this report focuses on it.
+> **Täsmennyshuomio:** Näytöpaketti luettelee 5 TxGNN-ennakoidusta indikaatiota. Sijoilla #1 (aivon pieni-verisuonisairaus/silmän poikkeavuudet), #2 (HANAC-oireyhtymä), #4 (reumatoidi artriitti) ja #5 (hemoglobinopatia) ei ole **yhtään kliinisiä tutkimuksia**, ja siellä missä kirjallisuutta on olemassa (sija #1, 19 artikkelia), mikään niistä ei mainitse sakubitriilia — näytöpaketin omat perustelut merkitsevät nämä todennäköiksi TxGNN:n vääriin positiivisiksi tuloksiksi ilman mekanistista tukea. Sija #3, **Diabeettinen nefropatia**, on ainoa ehdokas todellisilla kliinisillä tutkimuksilla ja mekanistisesti merkityksellisellä kirjallisuudella, joten tämä raportti keskittyy siihen.
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Sacubitril is the neprilysin-inhibitor component of the heart failure combination sacubitril/valsartan (LCZ696/Entresto); sacubitril itself has no marketing authorization on record in this evidence pack and its standalone mechanism-of-action data has not yet been catalogued. The TxGNN model predicts the sacubitril/valsartan combination may also benefit **Diabetic Nephropathy**, with **2 clinical trials** (including 1 not-yet-recruiting Phase 4 RCT) and **17 publications** — largely preclinical and mechanistic — currently supporting this direction.
+Sakubitriili on neprilysiini-inhibiittorikomponentti sydämen vajaatoiminnan yhdistelmälääkkeestä sakubitriili/valsartaani (LCZ696/Entresto); sakubitriilillä itsellään ei ole markkinointilupaa tässä näytöpaketissa ja sen erillisen toimintamekanismin tietoja ei ole vielä katalogioitu. TxGNN-malli ennakoi, että sakubitriili/valsartaani-yhdistelmä voi hyödyttää myös **diabeettista nefropatiaa**, jota tukee tällä hetkellä **2 kliinistä tutkimusta** (mukaan lukien 1 vielä rekrytointia odottava Phase 4 RCT) ja **17 julkaisua** — enimmäkseen prekliinisiä ja mekanistisia — tähän suuntaan.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Heart failure with reduced ejection fraction, as part of the sacubitril/valsartan combination (no sacubitril monotherapy indication on record) |
-| Predicted New Indication | Diabetic Nephropathy |
-| TxGNN Prediction Score | 99.50% |
-| Evidence Level | L3 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold (Research Question) |
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Sydämen vajaatoiminta alentuneella ulosvirtauksella osana sakubitriili/valsartaani-yhdistelmää (sakubitriilillä ei ole yksittäisenä aineena rekisteröityä indikaatiota) |
+| Ennakoidtu uusi indikaatio | Diabeettinen nefropatia |
+| TxGNN-ennustepistemäärä | 99.50% |
+| Näyttötaso | L3 |
+| Suomen markkina-asema | ✗ Ei kaupallinen |
+| Myyntilupia yhteensä | 0 |
+| Suositeltu päätös | Odota (tutkimuskysymys) |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on perusteltu?
 
-Currently, detailed mechanism-of-action data for sacubitril itself is not available in this evidence pack. Based on known information, sacubitril is the neprilysin-inhibitor component of sacubitril/valsartan (LCZ696), whose efficacy in heart failure with reduced ejection fraction (HFrEF) is well established; mechanistically, this combination may also be applicable to diabetic nephropathy.
+Tällä hetkellä yksityiskohtaiset sakubitriili-erityiset toimintamekanismin tiedot eivät ole saatavilla tässä näytöpaketissa. Tunnettujen tietojen perusteella sakubitriili on neprilysiini-inhibiittorikomponentti sakubitriili/valsartaani-yhdistelmässä (LCZ696), jonka tehokkuus sydämen vajaatoiminnassa alentuneella ulosvirtauksella (HFrEF) on hyvin dokumentoitu; mekanistisesti tämä yhdistelmä voi myös soveltua diabeettiseen nefropatiaan.
 
-Neprilysin inhibition raises circulating natriuretic peptide (ANP/BNP) activity, which is theorized to reduce glomerular intracapillary pressure and exert anti-fibrotic and antioxidant effects; combined with valsartan's angiotensin-receptor blockade, this gives a plausible dual mechanism against diabetic kidney injury. Several rodent models (db/db mice, Zucker Obese rats, streptozotocin-diabetic rats) support reduced glomerulosclerosis, oxidative stress and NLRP3 inflammasome activity under sacubitril/valsartan treatment.
+Neprilysiini-inhibitio lisää verenkiertävää natriureettisen peptidi (ANP/BNP) aktiivisuutta, jonka teoriassa vähentää glomerulaarista sisäkapillaarista painetta ja vaikuttaa anti-fibrotisesti sekä antioksidatiivisesti; yhdessä valsartaanin angiotensiini-reseptoriestäjän kanssa tämä tarjoaa uskottavan kaksisuuntaisen mekanismin diabeettista munuaisten vaurioita vastaan. Useat jyrsijämallinnukset (db/db-hiiret, Zucker-lihavat rotat, streptozotosiini-diabetekselliset rotat) tukevat glomeruloskleroosin, oksidatiivisen stressin ja NLRP3-inflammasiini-aktiivisuuden vähenemistä sakubitriili/valsartaani-hoidon alaisena.
 
-An important caveat: **every piece of clinical and preclinical evidence below concerns the sacubitril/valsartan combination, not sacubitril as a single agent.** Since sacubitril has no monotherapy indication or market presence on record here, any repurposing pathway for diabetic nephropathy would necessarily follow the already-marketed combination product, not sacubitril alone.
+Tärkeä varoitus: **kaikki alla oleva kliininen ja prekliininen näyttö koskee sakubitriili/valsartaani-yhdistelmää, ei sakubitriilia yksittäisenä aineena.** Koska sakubitriilillä ei ole yksittäisen aineen indikaatiota eikä markkina-asemaa tässä lainkäyttöalueella, mikään uudelleenkäyttöpolku diabeettiseen nefropatiaan koskisi välttämättä jo markkinoilla olevaa yhdistelmätuotetta, ei sakubitriilia yksinään.
 
-## Clinical Trial Evidence
+## Kliinisten tutkimusten näyttö
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimuksen numero | Vaihe | Asema | Rekrytointi | Tärkeimmät tulokset |
 |---------|------|------|------|---------|
-| [NCT06501651](https://clinicaltrials.gov/study/NCT06501651) | Phase 4 | Not yet recruiting | 297 | Randomized, multicenter study (2:1 allocation) comparing sacubitril/valsartan vs. valsartan over 12 weeks in patients with essential hypertension and type 2 diabetic nephropathy; primary outcome tracks renal function change. No results yet available. |
-| [NCT04735354](https://clinicaltrials.gov/study/NCT04735354) | N/A | Completed | 268 | Retrospective, non-interventional real-world EMR study of HFrEF patients on sacubitril/valsartan in India; documents prescribing/demographic patterns, not a diabetic-nephropathy-specific endpoint. |
+| [NCT06501651](https://clinicaltrials.gov/study/NCT06501651) | Phase 4 | Ei vielä rekrytoiva | 297 | Satunnaistettu, monikeskustutkimus (2:1 jako), jossa verrataan sakubitriili/valsartaania vs. valsartaania 12 viikon aikana potilailla, joilla on olennainen hypertensio ja tyypin 2 diabeettinen nefropatia; päätulosmittari seuraa munuaisten toiminnan muutosta. Tuloksia ei ole vielä saatavilla. |
+| [NCT04735354](https://clinicaltrials.gov/study/NCT04735354) | N/A | Valmis | 268 | Retrospektiivinen, ei-interventiivinen todellisen maailman EMR-tutkimus HFrEF-potilaista, joille on annettu sakubitriili/valsartaania Intiassa; dokumentoi määrääytymis- ja demografisia malleja, ei diabeettiseen nefropatiaan liittyvää päätulosmittaria. |
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät tulokset |
 |------|-----|------|------|---------|
-| [29661699](https://pubmed.ncbi.nlm.nih.gov/29661699/) | 2018 | RCT secondary analysis | The Lancet Diabetes & Endocrinology | Secondary analysis of the PARADIGM-HF trial assessing neprilysin inhibition's effect on renal function decline in patients with type 2 diabetes and chronic heart failure. |
-| [37549515](https://pubmed.ncbi.nlm.nih.gov/37549515/) | 2023 | Clinical (combination therapy study) | International Immunopharmacology | 112 hypertensive diabetic nephropathy patients randomized to nifedipine + valsartan vs. nifedipine + sacubitril/valsartan; evaluates renal function outcomes. |
-| [40416927](https://pubmed.ncbi.nlm.nih.gov/40416927/) | 2025 | Clinical imaging study | Diabetes, Metabolic Syndrome and Obesity | BOLD-MRI study evaluating sacubitril/valsartan's renal protective effects in type 2 diabetic nephropathy patients. |
-| [37625003](https://pubmed.ncbi.nlm.nih.gov/37625003/) | 2023 | Review | Diabetes Care | Update on pillars of diabetic kidney disease therapy, situating RAAS/neprilysin-pathway agents within current management. |
-| [34441977](https://pubmed.ncbi.nlm.nih.gov/34441977/) | 2021 | Review | Journal of Clinical Medicine | Reviews the diabetes–heart failure–diabetic nephropathy relationship and relevant pharmacotherapies. |
-| [34734359](https://pubmed.ncbi.nlm.nih.gov/34734359/) | 2023 | Review | Heart Failure Reviews | Reviews disease-modifying drugs, including sacubitril/valsartan, in diabetic HFrEF patients. |
-| [35165832](https://pubmed.ncbi.nlm.nih.gov/35165832/) | 2022 | Review | Current Hypertension Reports | Reviews newer blood-pressure-lowering drugs developed for diabetic kidney disease and heart failure, including their mechanisms. |
-| [34431635](https://pubmed.ncbi.nlm.nih.gov/34431635/) | 2021 | Review | Revue Médicale Suisse | Discusses the potential role of sacubitril/valsartan in type 2 diabetes, including glycemic and renal protective signals. |
-| [35975848](https://pubmed.ncbi.nlm.nih.gov/35975848/) | 2023 | Review | Current Diabetes Reviews | Clinical review of existing and novel combination therapies for diabetic cardiorenal complications. |
-| [35992034](https://pubmed.ncbi.nlm.nih.gov/35992034/) | 2022 | Animal (preclinical, rat model) | Diabetes, Metabolic Syndrome and Obesity | Rat model of early diabetic nephropathy showing sacubitril/valsartan slows progression via NLRP3 inflammasome inhibition. |
+| [29661699](https://pubmed.ncbi.nlm.nih.gov/29661699/) | 2018 | RCT:n toissijaisanalyysi | The Lancet Diabetes & Endocrinology | PARADIGM-HF-tutkimuksen toissijaisanalyysi, joka arvioi neprilysiini-inhibition vaikutusta munuaisten toiminnan heikkenemiseen potilailla, joilla on tyypin 2 diabetes ja krooninen sydämen vajaatoiminta. |
+| [37549515](https://pubmed.ncbi.nlm.nih.gov/37549515/) | 2023 | Kliininen (yhdistelmähoidon tutkimus) | International Immunopharmacology | 112 hypertensiivistä diabeettisesta nefropatiapotilasta satunnaistettu nifedipiiniksi + valsartaani vs. nifedipiini + sakubitriili/valsartaani; arvioi munuaisten toiminnon tuloksia. |
+| [40416927](https://pubmed.ncbi.nlm.nih.gov/40416927/) | 2025 | Kliininen kuvantamistutkimus | Diabetes, Metabolic Syndrome and Obesity | BOLD-MRI-tutkimus, joka arvioi sakubitriili/valsartaanin munuaisten suojaavaa vaikutusta tyypin 2 diabeettista nefropatiaa sairastavilla potilailla. |
+| [37625003](https://pubmed.ncbi.nlm.nih.gov/37625003/) | 2023 | Katsaus | Diabetes Care | Diabeettisen munuaistaudin terapeuttisten peruspillareiden päivitys, jossa RAAS- ja neprilysiini-polun lääkkeet sijoitetaan nykyisen hoidon kontekstiin. |
+| [34441977](https://pubmed.ncbi.nlm.nih.gov/34441977/) | 2021 | Katsaus | Journal of Clinical Medicine | Diabeteksen, sydämen vajaatoiminnan ja diabeettisen nefropatian välisen suhteen sekä asiaan liittyvien farmakoterapioiden katsaus. |
+| [34734359](https://pubmed.ncbi.nlm.nih.gov/34734359/) | 2023 | Katsaus | Heart Failure Reviews | Tautia muokkaavien lääkkeiden, mukaan lukien sakubitriili/valsartaani, katsaus diabeettisissa HFrEF-potilaissa. |
+| [35165832](https://pubmed.ncbi.nlm.nih.gov/35165832/) | 2022 | Katsaus | Current Hypertension Reports | Uudempien verenpainetta alentavien lääkkeiden, jotka on kehitetty diabeettiselle munuaistauidille ja sydämen vajaatoiminnalle, katsaus, mukaan lukien niiden toimintamekanismit. |
+| [34431635](https://pubmed.ncbi.nlm.nih.gov/34431635/) | 2021 | Katsaus | Revue Médicale Suisse | Sakubitriili/valsartaanin mahdollisen roolin tyypin 2 diabeteksessa käsittely, mukaan lukien glykeemiset ja munuaisten suojaavat vaikutukset. |
+| [35975848](https://pubmed.ncbi.nlm.nih.gov/35975848/) | 2023 | Katsaus | Current Diabetes Reviews | Olemassa olevien ja uusien yhdistelmähoitojen kliininen katsaus diabeettisiin kardio-renaalisen moniongelmiin. |
+| [35992034](https://pubmed.ncbi.nlm.nih.gov/35992034/) | 2022 | Eläin (prekliininen, rotamalli) | Diabetes, Metabolic Syndrome and Obesity | Rotamalli varhaisesta diabeettisesta nefropatiasta, osoittava, että sakubitriili/valsartaani hidastaa etenemistä NLRP3-inflammasiini-estäjän kautta. |
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information.
+Turvallisuustiedot löytyvät pakkausselosteesta.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold (Research Question)**
+**Päätös: Odota (tutkimuskysymys)**
 
-**Rationale:**
-Evidence for diabetic nephropathy currently consists of a secondary RCT analysis (PARADIGM-HF), one small combination-therapy clinical study, one imaging study, and multiple preclinical/review sources — but no completed trial with diabetic nephropathy as a primary endpoint, and the sole purpose-built Phase 4 RCT (NCT06501651) has not yet started recruiting. All evidence pertains to the sacubitril/valsartan combination, while sacubitril itself remains unmarketed in this jurisdiction with no MOA data on file.
+**Perustelut:**
+Diabeettisen nefropatian näyttö koostuu tällä hetkellä toissijaisen RCT-analyysin (PARADIGM-HF), yhden pienen yhdistelmähoidon kliinisen tutkimuksen, yhden kuvantamistutkimuksen ja useiden prekliinisten/katsauslähteistä — mutta ei valmiista tutkimuksesta, jonka päätulosmittari olisi diabeettinen nefropatia, ja ainoa erityisesti suunniteltu Phase 4 RCT (NCT06501651) ei ole vielä aloittanut rekrytointia. Kaikki näyttö koskee sakubitriili/valsartaani-yhdistelmää, kun taas sakubitriili itsessään on markkinoimaton tässä lainkäyttöalueella, eikä sillä ole MOA-tietoja tiedostoissa.
 
-**To proceed, the following is needed:**
-- Results from NCT06501651 (Phase 4 Hyper-Save Study) once recruitment completes
-- Sacubitril mechanism-of-action data (currently a High-severity data gap, DG002)
-- TFDA/regulatory package-insert warnings and contraindications (currently a Blocking data gap, DG001, required before any S1 safety pre-assessment)
-- Clarification of regulatory pathway: repurposing would apply to the marketed sacubitril/valsartan combination, not sacubitril monotherapy — combination-product regulatory status should be separately confirmed
+**Etenemisen edellytyksenä vaaditaan:**
+- Tulokset tutkimuksesta NCT06501651 (Phase 4 Hyper-Save Study) rekrytointia valmistumisen jälkeen
+- Sakubitriili-toimintamekanismin tiedot (tällä hetkellä korkea-vakavuuden tietokohta, DG002)
+- TFDA:n/sääntelyviranomaisen pakkausselostevaroitukset ja vasta-aiheet (tällä hetkellä estävä tietokohta, DG001, vaaditaan ennen S1-turvallisuusennakkoarviota)
+- Sääntelypolun selvitys: uudelleenkäyttö koskisi markkinoilla olevaa sakubitriili/valsartaani-yhdistelmää, ei sakubitriili-monoterapiaa — yhdistelmätuotteen sääntelystatus on vahvistettava erikseen
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

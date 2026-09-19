@@ -29,81 +29,82 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Trastuzumab: From HER2-Positive Breast Cancer to Normal Breast-like Subtype of Breast Carcinoma
+# Trastuzumabi: HER2-positiivisesta rintasyövästä rintasyövän normaalimaisen alatyyppiä kohti
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Trastuzumab is an anti-HER2 humanized monoclonal antibody originally developed for HER2-overexpressing breast and gastric cancer. The TxGNN model's top-ranked prediction for this drug is the **normal breast-like subtype of breast carcinoma**, but this subtype is molecularly defined by the *absence* of a dominant HER2-driven phenotype, and the supporting evidence (**12 clinical trials, 1 publication**) is drawn from general HER2-positive breast cancer trials rather than subtype-specific studies.
+Trastuzumabi on anti-HER2-humanisoidutu monoklonaalinen vasta-aine, joka on alun perin kehitetty HER2-yliilmentävään rintasyöpään ja mahalaukun syöpään. TxGNN-mallin eniten ennustettu indikaatio tälle lääkeaineelle on **rintasyövän normaalimainen alatyyppi**, mutta tämä alatyyppi määritellään molekyylitasolla hallitsevan HER2-ohjatun fenotyypin puuttumisella, ja sitä tukeva näyttö (**12 kliinistä tutkimusta, 1 julkaisu**) on kerätty yleisistä HER2-positiivisista rintasyöpätutkimuksista pikemminkin kuin alatyyppikohtaisista tutkimuksista.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohde | Sisältö |
 |------|------|
-| Original Indication | HER2-overexpressing breast cancer (established public labeling; no TFDA/local license text available in this evidence pack) |
-| Predicted New Indication | Normal breast-like subtype of breast carcinoma |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L4 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen indikaatio | HER2-yliilmentävä rintasyöpä (vakiintunut julkinen merkintä; ei TFDA/paikallisia lisenssitekstiä saatavilla tässä näyttöpaketissa) |
+| Ennustettu uusi indikaatio | Rintasyövän normaalimainen alatyyppi |
+| TxGNN-ennustepistemäärä | 99.90% |
+| Näytön taso | L4 |
+| Suomen markkina-asema | ✗ Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Odota |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, detailed mechanism of action data is not available in this evidence pack (flagged as data gap DG002, High severity). Based on known public information, trastuzumab binds the extracellular domain of HER2/ERBB2, blocking downstream proliferative signaling and mediating antibody-dependent cellular cytotoxicity (ADCC) against HER2-overexpressing tumor cells. This mechanism has been proven effective in HER2-positive breast and gastric cancer.
+Tällä hetkellä yksityiskohtaisia mekanismin tietoja ei ole saatavilla tässä näyttöpaketissa (merkitty tietovajeksi DG002, korkea vakavuus). Tunnetun julkisen tiedon perusteella trastuzumabi sitoutuu HER2/ERBB2:n ekstrasellulaaridomääniin, estää myötäsuuntaisen proliferatiivisen signaloinnin ja välittää vasta-aine-riippuvaista solutoksisyyttä (ADCC) HER2-yliilmentäviä syöpäsoluja vastaan. Tämä mekanismi on todistettu tehokkaaksi HER2-positiivisessa rinnan ja mahalaukun syövässä.
 
-However, the "normal breast-like" subtype identified by gene-expression profiling is, by definition, characterized by low proliferation and a gene expression profile resembling normal breast epithelium rather than HER2 overexpression. As the model's own rationale states, this subtype has no direct mechanistic link to trastuzumab's HER2-targeting activity.
+Kuitenkin geeniilmaisuprofiloinnilla tunnistettu "normaalimainen" alatyyppi on määritelmän mukaan luonnehdittava matalan proliferaation ja normaalia rintarauhasepiteeliä muistuttavan geeniilmaisuprofiilin perusteella eikä HER2-yliilmennyksen perusteella. Kuten mallin oma perustelunsa toteaa, tällä alatyypillä ei ole suoraa mekaanista yhteyttä trastuzumabin HER2-kohdentavaan vaikutukseen.
 
-The clinical trials retrieved in support of this prediction are all general HER2-positive neoadjuvant/metastatic breast cancer trials — none were designed to specifically enroll or stratify by the normal-like molecular subtype. The single supporting publication is a morphological review of basal-like carcinoma that only tangentially references the five intrinsic subtype classification. Taken together, the prediction appears to be a model-level association driven by the broader "breast carcinoma" disease class rather than a subtype-specific mechanistic signal.
+Näissä ennustuksissa haetut kliiniset tutkimukset ovat kaikki yleisiä HER2-positiivisia neoadjuvanttia/metastaattista rintasyöpätutkimuksia — mikään niistä ei ole suunniteltu erityisesti rekrytoimaan tai stratifioimaan potilasta normaalimaisen molekyylisen alatyyppin perusteella. Ainoa tukeva julkaisu on morfologinen katsaus basiilisen karsinooman piirteistä, joka viittaa vain sivuseikassa viiden sisäisen rintasyövän alatyyppiluokitukseen. Yhteensä ennuste näyttää olevan mallin tason assosiaatio, jota ohjaa laajempi "rintasyöpä"-tautiluokka eikä alatyyppikohtainen mekaaninen signaali.
 
-## Clinical Trial Evidence
+## Kliininen tutkimusnäyttö
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimusnumero | Vaihe | Tila | Osallistujamäärä | Keskeiset löydökset |
 |---------|------|------|------|---------|
-| [NCT04329065](https://clinicaltrials.gov/study/NCT04329065) | Phase 2 | Recruiting | 25 | WOKVAC vaccine + chemotherapy + HER2-targeted mAb as neoadjuvant therapy in breast cancer |
-| [NCT04759248](https://clinicaltrials.gov/study/NCT04759248) | Phase 2 | Active, not recruiting | 55 | Atezolizumab + trastuzumab + vinorelbine in HER2+ advanced/metastatic BC, focusing on ER-negative/non-luminal cohorts |
-| [NCT04750122](https://clinicaltrials.gov/study/NCT04750122) | Phase 1/2 | Recruiting | 46 | Drug-screening-guided neoadjuvant therapy strategy for HER2-positive early breast cancer |
-| [NCT03168880](https://clinicaltrials.gov/study/NCT03168880) | Phase 3 | Active, not recruiting | 720 | Neoadjuvant paclitaxel ± carboplatin in triple-negative (largely basal-like) breast cancer; not specific to normal-like subtype |
-| [NCT06585969](https://clinicaltrials.gov/study/NCT06585969) | Phase 3 | Withdrawn | 0 | T-DXd vs CDK4/6 inhibitors in non-Luminal A, ER-positive/HER2-low metastatic breast cancer |
-| [NCT06328387](https://clinicaltrials.gov/study/NCT06328387) | Phase 1/2 | Unknown | 120 | Hydroxychloroquine combined with antibody-drug conjugate vs ADC alone in advanced breast cancer |
-| [NCT01796197](https://clinicaltrials.gov/study/NCT01796197) | Phase 2 | Completed | 23 | Paclitaxel + trastuzumab + pertuzumab as preoperative therapy for inflammatory breast cancer |
-| [NCT05900206](https://clinicaltrials.gov/study/NCT05900206) | Phase 2 | Recruiting | 370 | T-DXd vs standard preoperative treatment with biology-driven neoadjuvant selection in HER2+ breast cancer |
-| [NCT01670877](https://clinicaltrials.gov/study/NCT01670877) | Phase 2 | Completed | 56 | Neratinib ± fulvestrant in metastatic HER2 non-amplified but HER2-mutant breast cancer |
-| [NCT06348134](https://clinicaltrials.gov/study/NCT06348134) | Phase 2 | Recruiting | 74 | Efficacy/safety of optimal neoadjuvant-to-adjuvant anti-HER2 therapy in Nigerian women with HER2+ breast cancer |
+| [NCT04329065](https://clinicaltrials.gov/study/NCT04329065) | Vaihe 2 | Aktiivinen rekrytointi | 25 | WOKVAC-rokote + kemoterapia + HER2-kohdattu monoklonaalinen vasta-aine neoadjuvanttina rintasyöpähoidossa |
+| [NCT04759248](https://clinicaltrials.gov/study/NCT04759248) | Vaihe 2 | Aktiivinen, ei rekrytointia | 55 | Atezolizumabi + trastuzumabi + vinorelbiini HER2-positiivisessa edistyneessä/metastaattisessa rintasyövässä, keskittyen ER-negatiivisiin/ei-luminaalisiin potilasryhmiin |
+| [NCT04750122](https://clinicaltrials.gov/study/NCT04750122) | Vaihe 1/2 | Aktiivinen rekrytointi | 46 | Lääkkeen valinnan ohjaama neoadjuvantti-hoitostrategia HER2-positiivisessa varhaisessa rintasyövässä |
+| [NCT03168880](https://clinicaltrials.gov/study/NCT03168880) | Vaihe 3 | Aktiivinen, ei rekrytointia | 720 | Neoadjuvantti paklitakseli ± karboplatiini kolmoisnegatiivisessa (pääosin basiilisessa) rintasyövässä; ei ole spesifinen normaalimaisen alatyypille |
+| [NCT06585969](https://clinicaltrials.gov/study/NCT06585969) | Vaihe 3 | Peruutettu | 0 | T-DXd vs CDK4/6-inhibiittorit ei-Luminal A -alaryhmässä, ER-positiivisessa/HER2-matalassa metastaattisessa rintasyövässä |
+| [NCT06328387](https://clinicaltrials.gov/study/NCT06328387) | Vaihe 1/2 | Tuntematon | 120 | Hydroksiklorokiini yhdistettynä vasta-aine-lääkekonjugaattiin vs ADC itsenäisenä käyttönä edistyneessä rintasyövässä |
+| [NCT01796197](https://clinicaltrials.gov/study/NCT01796197) | Vaihe 2 | Valmistunut | 23 | Paklitakseli + trastuzumabi + pertuzumabi preoperatiivisena hoitona tulehtuneessa rintasyövässä |
+| [NCT05900206](https://clinicaltrials.gov/study/NCT05900206) | Vaihe 2 | Aktiivinen rekrytointi | 370 | T-DXd vs standardi preoperatiivinen hoito biologisesti ohjatulla neoadjuvantti-valinnalla HER2+ rintasyövässä |
+| [NCT01670877](https://clinicaltrials.gov/study/NCT01670877) | Vaihe 2 | Valmistunut | 56 | Neratinibi ± fulvestranti HER2-mutantti-kantaisessa, ei-amplifioidussa metastaattisessa rintasyövässä |
+| [NCT06348134](https://clinicaltrials.gov/study/NCT06348134) | Vaihe 2 | Aktiivinen rekrytointi | 74 | Optimaalisen neoadjuvantti-adjuvantti anti-HER2-hoidon tehokkuus ja turvallisuus nigerialaisten naisten HER2+ rintasyövässä |
 
-## Literature Evidence
+## Kirjallisuusnäyttö
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
 |------|-----|------|------|---------|
-| [19466513](https://pubmed.ncbi.nlm.nih.gov/19466513/) | 2009 | Review | Breast Cancer (Tokyo, Japan) | Reviews morphological/cytopathological features of the basal-like subtype among the five intrinsic breast carcinoma subtypes (including normal breast-like); does not address trastuzumab treatment of the normal-like subtype specifically |
+| [19466513](https://pubmed.ncbi.nlm.nih.gov/19466513/) | 2009 | Katsaus | Breast Cancer (Tokyo, Japan) | Käsittelee morfologisia/sytologisia ominaisuuksia basiilisen alatyyppin osalta viiden sisäisen rintasyövän alatyyppiluokituksen joukossa (mukaan lukien normaalimainen); ei käsittele trastuzumabin hoitoa normaalimaisen alatyypille erityisesti |
 
-## Cytotoxicity
+## Sytotoksisyys
 
-| Item | Content |
+| Kohde | Sisältö |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (anti-HER2 monoclonal antibody; ADCC-mediated, non-cytotoxic-chemotherapy mechanism) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| Sytotoksisyysluokittelu | Kohdennettu lääkitys (anti-HER2 monoklonaalinen vasta-aine; ADCC-välitteinen, ei kemoterapiaan perustuva sytotoksinen mekanismi) |
+| Verellisen tuotannon häiriön riski | Tutustu pakkausselosteeseen varoituksista ja varotoimista |
+| Pahoinvointiriskin luokittelu | Tutustu pakkausselosteeseen varoituksista ja varotoimista |
+| Seurantakohteet | Tutustu pakkausselosteeseen varoituksista ja varotoimista |
+| Käsittelysuojaus | Tutustu pakkausselosteeseen varoituksista ja varotoimista |
 
-## Safety Considerations
+## Turvallisuushuomioon otettavat asiat
 
-Please refer to the package insert for safety information.
+Katso pakkausseloste turvallisuustiedoista.
 
-## Conclusion and Next Steps
+## Johtopäätökset ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Odota**
 
-**Rationale:**
-The top-ranked prediction (normal breast-like subtype) has only L4 evidence — all supporting trials target general HER2-positive breast cancer populations, not this specific molecular subtype, and the subtype's biology (low proliferation, non-HER2-driven) directly conflicts with trastuzumab's mechanism of action. Additionally, TFDA safety data (warnings/contraindications) is a Blocking-severity data gap, which prevents this candidate from advancing to the S1 safety pre-assessment stage regardless of efficacy evidence.
+**Perustelut:**
+Eniten ennustetulla indikaatiolla (normaalimainen alatyyppi) on ainoastaan L4-näyttö — kaikki tukevat tutkimukset kohdennetaan yleisille HER2-positiivisille rintasyöpäpotilaille eikä tälle spesifiselle molekyyliselle alatyypille, ja alatyyppin biologia (matala proliferaatio, ei HER2-ohjattu) on suoraan ristiriidassa trastuzumabin mekanismin kanssa. Lisäksi TFDA:n turvallisuustiedot (varoitukset/vasta-aiheet) ovat kriittisen vakavuuden tietovaje, joka estää tämän kandidaatin etenemisen S1-turvallisuuden esiarviointivaiheeseen riippumatta tehokkuuden näytöstä.
 
-**To proceed, the following is needed:**
-- TFDA package insert warnings and contraindications (Blocking gap, DG001)
-- Verified mechanism of action data from DrugBank (High-priority gap, DG002)
-- Molecular/HER2-status characterization confirming whether "normal breast-like" patients in the cited trials actually carry HER2 amplification
-- Dedicated trials or subgroup analyses specific to the normal-like intrinsic subtype
+**Edetäkseen, seuraavaa tarvitaan:**
+- TFDA:n pakkausseloste varoituksista ja vasta-aiheista (kriittinen tietovaje, DG001)
+- Vahvistettu mekanismin tieto DrugBankista (korkean prioriteetin tietovaje, DG002)
+- Molekyylinen/HER2-statuksen karakterisointi, joka vahvistaa, kantavatko "normaalimaisen" potilaat siteeratuissa tutkimuksissa todella HER2-amplifikaatiota
+- Terävät tutkimukset tai alajoukkoanalyysit, jotka ovat spesifiset normaalimaisen sisäisen alatyypille
 
-**Note:** Within this same evidence pack, two other predicted indications show materially stronger support and may be more promising repurposing candidates: *progesterone-receptor negative breast cancer* (rank 3, L1 evidence — includes a completed Phase 3 RCT with n=3,270 — "Proceed with Guardrails") and *progesterone-receptor positive breast cancer* (rank 2, L2 evidence, "Proceed with Guardrails"), both of which align mechanistically with trastuzumab's approved HER2-positive breast cancer indication.
+**Huomio:** Samassa näyttöpaketissa kaksi muuta ennustettua indikaatiota osoittavat huomattavasti vahvemman tuen ja saattavat olla lupaavampia uudelleenkäyttöhakemuksia: *progesteronin reseptorin negatiivinen rintasyöpä* (sija 3, L1-näyttö — sisältää valmistuneen Vaihe 3 RCT:n, n=3,270 — "Etene varauksella") ja *progesteronin reseptorin positiivinen rintasyöpä* (sija 2, L2-näyttö, "Etene varauksella"), joista molemmat kohtaavat mekanistisesti trastuzumabin hyväksytyn HER2-positiivisen rintasyövän indikaation kanssa.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

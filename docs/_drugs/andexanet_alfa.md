@@ -29,86 +29,85 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-# Andexanet Alfa: Anticoagulant Reversal Agent — TxGNN Predictions Not Yet Available
+# Andexanet Alfa: Antikoagulantin palauttava aine — TxGNN-ennusteet eivät vielä saatavilla
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Andexanet alfa (Ondexxya/Andexxa) is a recombinant modified human Factor Xa decoy protein, approved internationally as a reversal agent for life-threatening or uncontrolled bleeding caused by Factor Xa inhibitors (apixaban, rivaroxaban).
-The TxGNN model has **not yet generated predicted indications** for this drug in the current Evidence Pack — clinical trial and literature evidence tables are therefore unavailable.
-This report documents the current data status and outlines the remediation steps required before a repurposing evaluation can proceed.
+Andexanet alfa on rekombinantti modifioitu ihmisen Factor Xa -köydenheittoproteiini, joka on hyväksytty kansainvälisesti palautuslääkkeeksi Factor Xa -inhibiittorien aiheuttamiin elämää uhkaaviin tai hallitsemattomiin verenvuotoihin. TxGNN-malli ei ole vielä tuottanut ennustettuja indikaatioita tälle lääkkeelle nykyisessä Evidence Packissa — kliinisen tutkimuksen ja kirjallisuuden todisteet eivät siten ole saatavilla. Tämä raportti dokumentoi nykyisen tiedon tilan ja esittelee korjaustoimenpiteet, joita tarvitaan, ennen kuin uudelleenkäytön arviointia voidaan jatkaa.
 
 ---
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohde | Sisältö |
 |------|---------|
-| Original Indication | Reversal of anticoagulation due to Factor Xa inhibitors in life-threatening/uncontrolled bleeding (FDA/EMA approved; not yet registered in Finland) |
-| Predicted New Indication | ⚠️ Not available — TxGNN predictions absent from Evidence Pack |
-| TxGNN Prediction Score | — |
-| Evidence Level | — (cannot determine without predicted indications) |
-| Finland Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+| Alkuperäinen indikaatio | Factor Xa -inhibiittorien aiheuttaman antikoagulaation peruuttaminen elämää uhkaavissa tai hallitsemattomissa verenvuodoissa (FDA/EMA-hyväksytty; ei vielä rekisteröity Suomessa) |
+| Ennustettu uusi indikaatio | ⚠️ Ei saatavilla — TxGNN-ennusteet puuttuvat Evidence Packista |
+| TxGNN-ennustepisteet | — |
+| Todistelun taso | — (ei voida määrittää ilman ennustettuja indikaatioita) |
+| Suomen markkinatilanne | ✗ Ei markkinoinnissa |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | **Keskeytä** |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on perusteltu?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack (Data Gap DG002). Based on known pharmacological information, andexanet alfa is a catalytically inactive recombinant human Factor Xa variant. It acts as a "decoy receptor" that competitively binds and sequesters circulating Factor Xa inhibitors — including apixaban and rivaroxaban — thereby restoring endogenous thrombin generation and reversing anticoagulant effect.
+Tällä hetkellä Evidence Packissa ei ole saatavilla yksityiskohtaisia toimintamekanismin tietoja (Datakuilu DG002). Tunnettujen farmakologisten tietojen perusteella andexanet alfa on katalyyttisesti inaktiivinen rekombinantti ihmisen Factor Xa -variantti. Se toimii "köydenheittovastaanottimena", joka sitoutuu kilpailussa ja kerää liikkeellä olevia Factor Xa -inhibiittoreita — mukaan lukien apixaban ja rivaroxaban — ja näin palauttaa endogeenisen trombiinin tuotannon sekä peruuttaa antikoagulantin vaikutuksen.
 
-Because the TxGNN model requires a mechanistic and graph-based evidence foundation to generate repurposing candidates, the absence of MOA data (DG002) and the lack of any predicted indications in this Evidence Pack means it is not currently possible to evaluate whether andexanet alfa's mechanism is applicable to any new indication.
+Koska TxGNN-malli vaatii mekanistisen ja graafipohjaisen todistelun perustan uudelleenkäytön ehdokkaiden tuottamiseen, toimintamekanismin tietojen puuttuminen (DG002) ja minkään ennustetun indikaation puuttuminen tästä Evidence Packista tarkoittaa, että ei ole tällä hetkellä mahdollista arvioida, onko andexanet alfan mekanismi soveltuvissa mihinkään uuteen indikaatioon.
 
-Before a mechanistic repurposing rationale can be constructed, the two blocking data gaps (DG001: safety/package insert; DG002: MOA) must be resolved.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for a predicted new indication — TxGNN predictions are absent from this Evidence Pack.
+Ennen kuin mekanistinen uudelleenkäytön perustelu voidaan muodostaa, kaksi estävää datakuilua (DG001: turvallisuus/pakkausseloste; DG002: toimintamekanismi) on ratkaistava.
 
 ---
 
-## Literature Evidence
+## Kliinisen tutkimuksen todisteet
 
-Currently no related literature available for a predicted new indication — TxGNN predictions are absent from this Evidence Pack.
+Tällä hetkellä ei ole rekisteröity liittyviä kliinisiä tutkimuksia ennustetusta uudesta indikaatiosta — TxGNN-ennusteet puuttuvat tästä Evidence Packista.
 
 ---
 
-## Finland Market Information
+## Kirjallisuuden todisteet
 
-Andexanet alfa is not currently authorised or marketed in Finland. No licences on record.
+Tällä hetkellä ei ole saatavilla liittyvää kirjallisuutta ennustetusta uudesta indikaatiosta — TxGNN-ennusteet puuttuvat tästä Evidence Packista.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
+---
+
+## Suomen markkinatiedot
+
+Andexanet alfaa ei ole tällä hetkellä hyväksytty tai markkinoitu Suomessa. Tutkinnolla ei ole lisenssejä.
+
+| Luvannumero | Tuotteen nimi | Lääkemuoto | Hyväksytty indikaatio |
 |---------------------|-------------|-------------|---------------------|
-| — | — | — | No authorisations found |
+| — | — | — | Yhtään hyväksyntää ei löydetty |
 
-> **Note:** Andexanet alfa is marketed in the United States as **Andexxa** (AstraZeneca/Pfizer) and in the EU as **Ondexxya** (AstraZeneca). An EMA marketing authorisation exists (EU/1/19/1404), but this drug has not been registered through Fimea for the Finnish market as of the data cut-off date.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-> ⚠️ **Data Gap DG001 (Blocking):** Package insert warnings and contraindications data have not been parsed into the Evidence Pack. This gap must be resolved before any safety screening (S1 Safety Gate) can be performed.
+> **Huomautus:** Andexanet alfaa markkinoidaan Yhdysvalloissa nimellä **Andexxa** (AstraZeneca/Pfizer) ja Euroopan unionissa nimellä **Ondexxya** (AstraZeneca). EMA:n myyntilupa on olemassa (EU/1/19/1404), mutta tämä lääke ei ole rekisteröity Fimean kautta Suomen markkinoille tiedon leikkaushetkellä.
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuutta koskevat näkökohdat
 
-**Decision: Hold**
+Katso pakkausselosteesta turvallisuustiedot.
 
-**Rationale:**
-The Evidence Pack for andexanet alfa contains two unresolved data gaps — a blocking gap in safety/package insert data (DG001) and a high-severity gap in mechanism of action data (DG002) — and the TxGNN model has produced no predicted indications for this drug. Without predicted indications, there is no repurposing hypothesis to evaluate.
+> ⚠️ **Datakuilu DG001 (Esto):** Pakkauselosteesta saatavat varoitukset ja vasta-aiheet -tiedot eivät ole jäsennetty Evidence Packiin. Tämä kuilu on ratkaistava ennen kuin mitään turvallisuusseulontaa (S1 Safety Gate) voidaan suorittaa.
 
-**To proceed, the following is needed:**
+---
 
-1. **Resolve DG001 (Blocking):** Download and parse the TFDA/Fimea package insert PDF to extract approved warnings, contraindications, and special population restrictions — required for S1 Safety Gate entry.
-2. **Resolve DG002 (High):** Query the DrugBank API for andexanet alfa's full MOA, pharmacodynamics, and protein targets — required for mechanistic plausibility analysis.
-3. **Re-run TxGNN pipeline:** Once MOA and safety data are populated, resubmit andexanet alfa through the TxGNN prediction pipeline to generate candidate disease indications with scores.
-4. **Verify EMA/Fimea status:** Confirm whether Ondexxya's EMA authorisation has been extended to the Finnish market through the decentralised or mutual-recognition procedure, which would change the Finland Market Status from "Not marketed" to "Marketed."
-5. **Re-evaluate Evidence Pack version:** Current version is v4 with `inputs_received: ["drugbank"]` only. A complete v5 pack should include TFDA/Fimea regulatory data, DDI data, and TxGNN predictions before the full report can be generated.
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Keskeytä**
+
+**Perustelu:**
+Andexanet alfan Evidence Pack sisältää kaksi ratkaisematonta datakuilua — turvallisuus-/pakkauseloste-tiedon estävä kuilu (DG001) ja toimintamekanismin tiedon korkean vakavuuden kuilu (DG002) — ja TxGNN-malli ei ole tuottanut ennustettuja indikaatioita tälle lääkkeelle. Ilman ennustettuja indikaatioita uudelleenkäytön hypoteesia ei ole arvioitavaksi.
+
+**Jotta edistystä voidaan tehdä, seuraava on tarpeen:**
+
+1. **Ratkaise DG001 (Esto):** Lataa ja jäsennä TFDA/Fimean pakkauseloste PDF-muodossa poimiaksesi hyväksytyt varoitukset, vasta-aiheet ja erityispopulaatioiden käyttörajoitukset — vaaditaan S1 Safety Gate -sisäänpääsyä varten.
+2. **Ratkaise DG002 (Korkea):** Hae DrugBank API:sta andexanet alfan täydellinen toimintamekanismi, farmakodynamiikka ja proteiinikohteet — vaaditaan mekanistisen uskottavuusanalyysin suorittamiseksi.
+3. **Suorita TxGNN-putki uudelleen:** Kun toimintamekanismi- ja turvallisuustiedot on täytetty, lähetä andexanet alfa uudelleen TxGNN-ennustusjärjestelmään jotta voit tuottaa ehdokkaat sairausindikaatiot pistein.
+4. **Tarkista EMA/Fimea-tila:** Vahvista, onko Ondexxyan EMA-myyntilupa laajennettu Suomen markkinoille hajautetun tai keskinäisen tunnustamisen menettelyn kautta, mikä muuttaisi Suomen markkinatilannetta "Ei markkinoinnissa" -tilasta "Markkinoinnissa" -tilaan.
+5. **Arvioi Evidence Pack -versio uudelleen:** Nykyinen versio on v4 ja käyttää ainoastaan `inputs_received: ["drugbank"]`. Täydellinen v5-paketti sisältää TFDA/Fimean sääntelyaineiston, DDI-tiedot ja TxGNN-ennusteet, ennen kuin täydellinen raportti voidaan tuottaa.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

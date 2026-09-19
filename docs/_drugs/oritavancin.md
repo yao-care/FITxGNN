@@ -29,62 +29,63 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Oritavancin: Predicted New Indication — Bacteroidaceae Infectious Disease
+# Oritavancin: Ennustettu uusi indikaatio — Bacteroidaceae-infektiosairaus
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-> Oritavancin's original approved indication is not documented in the current data pack (data gap).
-> The TxGNN model's top prediction for this drug is **Bacteroidaceae infectious disease**, with a score of **99.48%**,
-> but **0 clinical trials** and **0 publications** currently support this direction, and the drug's own mechanism of action directly contradicts the prediction.
+> Oritavancin alkuperäinen hyväksytty indikaatio ei ole dokumentoitu nykyisessä datapakkauksessa (tietoaukko).
+> TxGNN-mallin paras ennuste tälle lääkkeelle on **Bacteroidaceae-infektiosairaus**, pisteellä **99.48%**,
+> mutta **0 kliinistä tutkimusta** ja **0 julkaisua** tukevat tätä suuntaa, ja lääkkeen oma toimintamekanismi on suoraan ristiriidassa ennusteen kanssa.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in available data (data gap) |
-| Predicted New Indication | Bacteroidaceae infectious disease |
-| TxGNN Prediction Score | 99.48% |
-| Evidence Level | L5 |
-| Finland Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohde | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Ei dokumentoitu saatavilla olevassa datassa (tietoaukko) |
+| Ennustettu uusi indikaatio | Bacteroidaceae-infektiosairaus |
+| TxGNN-ennusteen pistemäärä | 99.48% |
+| Näytön taso | L5 |
+| Suomen markkinatilanne | Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Keskeytä |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, detailed original-indication and formal MOA data are not available for oritavancin in this evidence pack (flagged as a High-severity data gap). Based on the mechanistic notes attached to the prediction itself, oritavancin is a lipoglycopeptide antibiotic that inhibits bacterial peptidoglycan transglycosylation/transpeptidation and disrupts cell membrane integrity — a mechanism active only against Gram-positive organisms (including MRSA and VRE).
+Tällä hetkellä yksityiskohtaiset alkuperäisindikaatio- ja muodolliset toimintamekanismitiedot eivät ole saatavilla oritavancin-lääkkeelle tässä näyttöpaketissa (merkitty korkeaksi vakavuusasteiseksi tietoaukoksi). Ennusteen yhteydessä olevien mekanististen huomioiden perusteella oritavancin on lipoglykopeptidi-antibiootikka, joka estää bakteerin peptidoglykaanitransglykosylaatiota/transpeptidaatiota ja häiritsee solun kalvon eheyttä — mekanismi, joka vaikuttaa vain Gram-positiivisia organismeja vastaan (mukaanlukien MRSA ja VRE).
 
-This mechanism does not support the top prediction. *Bacteroidaceae* are Gram-negative anaerobes whose outer membrane blocks glycopeptide penetration to the target site — glycopeptides are pharmacologically known to be ineffective against Gram-negative bacteria. The prediction therefore conflicts directly with established pharmacology despite its high TxGNN score.
+Tämä mekanismi ei tue parasta ennustetta. *Bacteroidaceae* ovat Gram-negatiivisia anaerobeja, joiden ulkokalvo estää glykopeptidien penetraation kohdesijaintiin — glykopeptideistä tiedetään farmakologisesti olevan tehotonta Gram-negatiivisia bakteereita vastaan. Ennuste on siis suorassa ristiriidassa vakiintuneen farmakologian kanssa huolimatta sen korkeasta TxGNN-pisteestä.
 
-The same pattern holds for the two next-ranked candidates in this evidence pack: ophthalmic herpes zoster (rank 2, score 99.03%) is caused by a virus (VZV), for which a cell-wall-targeting antibacterial has no plausible mechanism; and *Mycoplasma pneumoniae* pneumonia (rank 3, score 99.01%) involves a pathogen that entirely lacks a cell wall, the sole known target of oritavancin. All three top predictions for this drug are flagged internally as mechanistically unsupported, which is an important caveat when interpreting the raw TxGNN scores.
+Sama kuvio pätee kahteen seuraavaksi sijoitettuun ehdokkaaseen tässä näyttöpaketissa: oftalminen herpes zoster (sijoitus 2, pistemäärä 99.03%) on viruksen (VZV) aiheuttama, jolle solun seinään kohdistuva antibiootikalla ei ole uskottavaa mekanismia; ja *Mycoplasma pneumoniae* -keuhkokuume (sijoitus 3, pistemäärä 99.01%) koskee patogeenia, jolla ei ole lainkaan solun seinää, joka on oritavancin ainoa tunnettu kohdesija. Kaikki kolme parasta tämän lääkkeen ennustetta on sisäisesti merkitty mekanistisesti perusteettomiksi, mikä on tärkeä varaus näitä raakoja TxGNN-pisteitä tulkittaessa.
 
-## Clinical Trial Evidence
+## Kliinisten tutkimusten näyttö
 
-Currently no related clinical trials registered
+Tällä hetkellä ei ole niihin liittyviä rekisteröityjä kliinisiä tutkimuksia
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-Currently no related literature available
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Oritavancin is not currently marketed in Finland; no authorization records are available (0 licenses on file).
+Oritavancin ei ole tällä hetkellä markkinoilla Suomessa; hyväksyntätietueita ei ole saatavilla (0 lisenssejä).
 
-## Safety Considerations
+## Turvallisuushuomiot
 
-Please refer to the package insert for safety information.
+Katso turvallisuustiedot pakkausselosteesta.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Keskeytä**
 
-**Rationale:**
-Despite a high TxGNN prediction score (99.48%), the repurposing rationale attached to this candidate explicitly identifies a mechanistic contradiction — glycopeptide antibiotics are not active against the Gram-negative anaerobic target — and there is zero supporting real-world evidence (no clinical trials, no literature). The two next-ranked candidates for this drug show the same pattern (viral etiology and cell-wall-deficient pathogen, respectively, both incompatible with the drug's cell-wall-targeting mechanism), and safety data (warnings, contraindications, DDI) is a Blocking data gap that prevents any S1 safety screening.
+**Perustelut:**
+Huolimatta korkeasta TxGNN-ennustepisteestä (99.48%), tälle lääkkeelle annetussa uudelleenkäyttöperustelussa on eksplisiittisesti tunnistettu mekanistinen ristiriita — glykopeptidi-antibioottit eivät ole aktiivisia Gram-negatiivisia bakteereita vastaan — eikä ole lainkaan tosielämän näyttöä (ei kliinisiä tutkimuksia, ei kirjallisuutta). Kaksi seuraavaksi paremmin sijoittunutta ehdokasta tälle lääkkeelle osoittavat saman kuvion (viraalinen etiologia ja ilman solun seinää oleva patogeeni, molemmat yhteensopimattomia lääkkeen solun seinään kohdistuvan mekanismin kanssa), ja turvallisuustiedot (varoitukset, vasta-aiheet, lääkkeiden yhteisvaikutukset) ovat esto-aukko, joka estää S1-turvallisuusseulonnan.
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert data (warnings, contraindications) — currently Blocking gap (DG001)
-- Confirmed original indication and formal MOA documentation — currently High-severity gap (DG002)
-- Independent pharmacological review reconciling the TxGNN score with the mechanistic contradiction before any further evaluation
-- DDI/safety database query (current status: not found)
+**Jatkamista varten tarvitaan seuraavaa:**
+- TFDA/Fimea-pakkausseloste-data (varoitukset, vasta-aiheet) — tällä hetkellä esto-aukko (DG001)
+- Vahvistettu alkuperäinen indikaatio ja muodollinen MOA-dokumentaatio — tällä hetkellä korkean vakavuusasteen aukko (DG002)
+- Riippumaton farmakologinen katsaus, joka sovittaa yhteen TxGNN-pistemäärän mekanistisen ristiriidan kanssa ennen kuin mitään lisäarviointia suoritetaan
+- Lääkkeiden yhteisvaikutusten/turvallisuustietokannan haku (nykyinen tila: ei löydetty)
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -29,79 +29,80 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 
 </div>
 
-# Atropine Sulfate: Repurposing Candidate — Data Insufficient for Full Evaluation
+# Atropiinin sulfaatti: uudelleenkäyttöehdokas — riittämätön tietoaineisto täydelliseen arviointiin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Atropine Sulfate is a well-established anticholinergic agent with broad clinical applications including bradycardia management, organophosphate poisoning antidote, and mydriasis induction.
-The current Evidence Pack contains **no TxGNN-predicted indications**, and critical data fields — including mechanism of action, safety warnings, and regulatory records — are all absent.
-This report documents the data gaps and recommends a **Hold** pending remediation before any repurposing evaluation can proceed.
+Atropiinin sulfaatti on vakiintunut antikolinerginen aine, jolla on laajat kliiniset soveltamisalueet, joihin kuuluvat bradykardia, organofosfaatti-myrkytyksen vastalääke ja mydriaasin indusointi.
+Nykyinen näyttöpaketti ei sisällä **TxGNN-ennustettuja indikaatioita**, ja kriittiset tietokentät — joihin kuuluvat vaikutusmekanismi, turvallisuusvaroitukset ja sääntelyrekisterit — puuttuvat kokonaan.
+Tämä raportti dokumentoi tietoaukot ja suosittelee **pidätystä** ennen korjausta, kunnes uudelleenkäyttöarviointi voidaan aloittaa.
 
 ---
 
-## Quick Overview
+## Pika-yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|---------|
-| Original Indication | Not available in Evidence Pack |
-| Predicted New Indication | Not available — no TxGNN predictions returned |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | N/A — no predictions or supporting studies on file |
-| Taiwan Market Status | ✗ Not Marketed (0 licenses found) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+| Alkuperäinen indikaatio | Ei saatavilla näyttöpaketissa |
+| Ennustettu uusi indikaatio | Ei saatavilla — TxGNN ei palauttanut ennusteita |
+| TxGNN-ennusteen pistemäärä | Ei sovellettavissa |
+| Näyttötaso | Ei sovellettavissa — ei ennusteita tai tukevia tutkimuksia asiakirjoissa |
+| Taiwanin markkinatilanne | ✗ Ei markkinoilla (0 lisenssiä löydetty) |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | **Pidätys** |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on perusteltu?
 
-No TxGNN predictions are available for this drug at this time; therefore, a mechanism-to-indication linkage analysis cannot be performed.
+Tälle lääkkeelle ei ole saatavilla TxGNN-ennusteita tällä hetkellä; siksi mekanismi-indikaatio-linkkianalyysiä ei voida suorittaa.
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on established pharmacology, Atropine Sulfate is a competitive antagonist at muscarinic acetylcholine receptors, producing effects including increased heart rate, reduced secretions, smooth muscle relaxation, and pupil dilation. These properties underpin its classical uses across emergency medicine, anaesthesia, and ophthalmology.
+Tällä hetkellä yksityiskohtaista vaikutusmekanismin tietoa ei ole saatavilla näyttöpaketissa. Vakiintuneen farmakologian perusteella atropiinin sulfaatti on kilpaileva antagonisti muskariinisissa asetyylikoliini-reseptoreissa, mikä tuottaa vaikutuksia, joihin kuuluvat sydämen lyöntitiheyden kiihtyminen, erityksen väheneminen, sileiden lihasten rentoutuminen ja pupillin laajeneminen. Nämä ominaisuudet pohjustavat sen klassisia soveltamisalueita ensiapulääketieteessä, anestesiologiassa ja oftalmologiassa.
 
-To determine whether a repurposing prediction is pharmacologically reasonable, TxGNN outputs are required. Once predictions are returned, the anticholinergic mechanism can be assessed for relevance to any predicted indication.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered in the Evidence Pack.
+Jotta voidaan määrittää, onko uudelleenkäyttöennuste farmakologisesti perusteltu, TxGNN-tulokset ovat välttämättömiä. Kun ennusteet palautetaan, antikolinergista mekanismia voidaan arvioida sen relevanssin osalta mihin tahansa ennustettuun indikaatioon.
 
 ---
 
-## Literature Evidence
+## Kliiniset tutkimustodisteet
 
-Currently no related literature available in the Evidence Pack.
-
----
-
-## Taiwan Market Information
-
-No authorizations on file. TFDA query returned 0 results for ATROPINE SULFATE as of 2026-03-29.
+Tällä hetkellä näyttöpaketissa ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
 
 ---
 
-## Safety Considerations
+## Kirjallisuustodisteet
 
-Please refer to the package insert for safety information.
-
-> A TFDA package insert query returned 1 result (query log ID 4, status: success), but its contents have not been parsed into the Evidence Pack. Retrieving warnings and contraindications from this source is the highest-priority remediation action (DG001, Blocking severity).
+Tällä hetkellä näyttöpaketissa ei ole saatavilla asiaan liittyvää kirjallisuutta.
 
 ---
 
-## Conclusion and Next Steps
+## Taiwanin markkinatiedot
 
-**Decision: Hold**
+Myöntölupia ei ole arkistoissa. TFDA-haku palautti 0 tuloksia ATROPINE SULFATE -haulle 2026-03-29 jälkeen.
 
-**Rationale:**
-The Evidence Pack is missing all three elements required to begin a repurposing evaluation: TxGNN predictions, mechanism of action data, and safety information. No assessment of efficacy, risk, or regulatory pathway is possible at this stage.
+---
 
-**To proceed, the following is needed:**
+## Turvallisuusnäkökulmat
 
-- **\[Blocking\]** Parse the TFDA package insert (query log ID 4 already returned success) to extract warnings, contraindications, and approved indications — this unblocks S1 safety screening (DG001)
-- **\[High\]** Retrieve DrugBank MOA data (query log ID 3 returned 1 result) to enable mechanism-indication linkage analysis (DG002)
-- **\[Critical\]** Re-run TxGNN prediction pipeline for ATROPINE SULFATE — the `predicted_indications` array is empty, which prevents any repurposing evaluation from proceeding
-- **\[Informational\]** Confirm whether the 0-result TFDA license search reflects a genuine absence of Taiwan approvals or a query configuration issue, given that Atropine Sulfate is widely marketed globally
+Katso turvallisuustiedoista pakkausseloste.
+
+> TFDA-pakkausselosteen haku palautti 1 tuloksen (kyselylokin tunnus 4, tila: onnistunut), mutta sen sisältöä ei ole jäsennetty näyttöpakettiin. Varoitusten ja vasta-aiheisten kerääminen tästä lähteestä on korkeimman prioriteetin korjaustoiminto (DG001, estävä vakavuus).
+
+---
+
+## Johtopäätökset ja seuraavat vaiheet
+
+**Päätös: Pidätys**
+
+**Perustelut:**
+Näyttöpaketista puuttuvat kaikki kolme elementtiä, jotka vaaditaan uudelleenkäyttöarvioinnin aloittamiseksi: TxGNN-ennusteet, vaikutusmekanismin tiedot ja turvallisuustiedot. Tehokkuuden, riskin tai sääntelypolun arviointia ei ole mahdollista suorittaa tässä vaiheessa.
+
+**Jatkamiseksi seuraavaa tarvitaan:**
+
+- **\[Estävä\]** Jäsennä TFDA-pakkausseloste (kyselylokin tunnus 4 on jo palauttanut tuloksen) poimiaksesi varoitukset, vasta-aiheet ja hyväksytyt indikaatiot — tämä avaa S1-turvallisuusseulonnan (DG001)
+- **\[Korkea\]** Hae DrugBank MOA -tiedot (kyselylokin tunnus 3 palautti 1 tuloksen) mekanismi-indikaatio-linkkianalyysin mahdollistamiseksi (DG002)
+- **\[Kriittinen\]** Suorita TxGNN-ennustepipeline uudelleen ATROPINE SULFATE -lääkkeelle — `predicted_indications` -taulukko on tyhjä, mikä estää uudelleenkäyttöarvioinnin jatkamisen
+- **\[Informatiivinen\]** Vahvista, heijastaavatko nolla-tulokset TFDA-lisenssihausta todellista Taiwanin hyväksyntöjen puuttumista vai kyselyn konfiguraatioongelmaa, kun otetaan huomioon, että atropiinin sulfaatti myydään laajalti maailmanlaajuisesti
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

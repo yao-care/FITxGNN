@@ -29,63 +29,63 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 
 </div>
 
-# Dibotermin Alfa: From Bone Regeneration to Esotropia
+# Dibotermin alfa: luun regeneraatiosta sisäkarsastukseen
 
-## One-Sentence Summary
+## Yhden lauseen tiivistelmä
 
-Dibotermin alfa (recombinant human BMP-2) is known for its role in inducing osteogenic differentiation and bone regeneration, and per the available evidence pack is associated with local adult bone repair use.
-The TxGNN model predicts it may be effective for **Esotropia**, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a pure data-driven signal with no corroborating evidence.
+Dibotermin alfa (rekombinantti ihmisen BMP-2) tunnetaan siitä, että se indusoi osteogeenista differentiaatiota ja luun regeneraatiota. Saatavilla olevan todistustapakin mukaan se liittyy paikalliseen aikuisten luun korjaukseen. TxGNN-malli ennustaa, että se saattaa olla tehokas **sisäkarsastuksessa**, mutta tätä ennustusta tukee tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua** — kyseessä on puhdas data-ohjattu signaali ilman vahvistavia todisteita.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Bone regeneration / local adult bone repair (per repurposing rationale text; no formal indication text available — drug is not marketed in Finland) |
-| Predicted New Indication | Esotropia |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L5 |
-| Finland Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|-------|---------|
+| Alkuperäinen indikaatio | Luun regeneraatio / paikallinen aikuisten luun korjaus (uudelleenkäyttöperustelun tekstin mukaan; muodollista indikaation tekstiä ei saatavilla — lääke ei ole markkinoilla Suomessa) |
+| Ennustettu uusi indikaatio | Sisäkarsastus |
+| TxGNN-ennustepisteet | 99.97% |
+| Näyttötaso | L5 |
+| Suomen markkinatilanne | Ei markkinoilla (Ei markkinoilla) |
+| Valtuuksien määrä | 0 |
+| Suositeltu päätös | Pidätä |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on kohtuullinen?
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap). Based on the information available in this evidence pack, dibotermin alfa is a recombinant human bone morphogenetic protein (BMP-2), with a known action of inducing osteogenic differentiation and bone regeneration; it has been associated with local adult bone repair applications.
+Tällä hetkellä yksityiskohtaista toimintamekanismi-tietoa ei ole saatavilla (merkitty korkean vakavuuden tietovajeeksi). Tässä todistustapakin perusteella dibotermin alfa on rekombinantti ihmisen luumorfogeeninen proteiini (BMP-2), jonka tunnettu vaikutus on osteogeenisen differentiaation indusointi ja luun regeneraatio. Sitä on käytetty paikallisen aikuisten luun korjauksen sovelluksissa.
 
-Esotropia is a form of strabismus driven by extraocular muscle tone imbalance and neuromuscular control — a biological domain unrelated to osteoinduction. The evidence pack's own mechanistic assessment explicitly states that no pathway evidence links BMP-2 signaling to extraocular muscle tone regulation or strabismus, and characterizes the high TxGNN score as a purely data-driven (embedding-space) association rather than a mechanistically supported one.
+Sisäkarsastus on karsastuksen muoto, jonka aiheuttaa silmän ulkolihaksen tasapainottomuus ja neuromuskulaarinen säätely — biologinen alue, joka ei liity osteoinduktioihin. Todistustapakin oma mekaaninen arviointi nimenomaisesti toteaa, että mikään reitti-todisteet eivät yhdistä BMP-2-signalointia silmän ulkolihaksen tasapainon säätelyyn tai karsastukseen, ja luonnehtii korkeaa TxGNN-pistemäärää puhtaasti data-ohjatuksi (embedding-space) assosiaatioksi mekaanisesti tuetun sijaan.
 
-Given the absence of any mechanistic rationale, clinical trials, or literature, this prediction should be treated as a low-plausibility, hypothesis-generating signal only, not a candidate for near-term clinical evaluation.
+Ottaen huomioon minkään mekaanisen perustelun, kliinisten tutkimusten tai kirjallisuuden puuttumisen, tätä ennustetta tulisi käsitellä vain matalan uskottavuuden hypoteesin muodostavana signaalina, ei lähiajan kliinisen arvioinnin ehdokkaana.
 
-## Clinical Trial Evidence
+## Kliinisten tutkimusten todisteet
 
-Currently no related clinical trials registered
+Tällä hetkellä ei ole liittyviä rekisteröityjä kliinisiä tutkimuksia
 
-## Literature Evidence
+## Kirjallisuuden todisteet
 
-Currently no related literature available
+Tällä hetkellä kirjallisuutta ei ole saatavilla
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Dibotermin alfa is currently not marketed in Finland (0 authorizations on record); no product/license information is available.
+Dibotermin alfa ei ole tällä hetkellä markkinoilla Suomessa (0 valtuutusta tietueessa); tuote- tai lisenssi-tietoja ei ole saatavilla.
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information.
+Katso turvatietoja pakkausselosteesta.
 
-*(Note: a Blocking-severity data gap exists — TFDA/official package insert warnings and contraindications have not yet been retrieved, which precludes a formal S1 safety pre-assessment.)*
+*(Huomio: tutkimuksessa on olemassa estävän vakavuuden tietovahe — TFDA:n/virallisen pakkausselostteen varoituksia ja vasta-aiheita ei ole vielä noudettu, mikä estää muodollisen S1-turvallisuuden ennakkokäytön.)*
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidätä**
 
-**Rationale:**
-The top predicted indication (esotropia) has no supporting clinical trials or literature, and the evidence pack's own mechanistic review finds no biological plausibility linking BMP-2 osteoinduction to strabismus — this is an L5, model-only signal. A Blocking-severity safety data gap (no TFDA package insert data) further precludes any safety pre-assessment.
+**Perustelut:**
+Ylimmainen ennustettu indikaatio (sisäkarsastus) ei ole kliinisillä tutkimuksilla tai kirjallisuudella tuettu, ja todistustapakin oma mekaaninen arvio ei löydä mitään biologista uskottavuutta, joka yhdistäisi BMP-2-osteoinduktion karsastukseen — tämä on L5-taso, vain mallia koskeva signaali. Estävän vakavuuden turvallisuuden tietovahe (ei TFDA:n pakkausselostteen dataa) estää myös minkään turvallisuuden ennakkokäytön.
 
-**To proceed, the following is needed:**
-- TFDA/official package insert data (warnings, contraindications) — currently Blocking
-- Confirmed mechanism of action (MOA) documentation from DrugBank or primary literature
-- Preclinical/mechanistic studies evaluating any BMP-2 signaling role in extraocular muscle or strabismus biology
-- Continued monitoring of clinical trial registries and literature for emerging evidence on this or the other 8 lower-confidence predicted indications in this candidate set
+**Edistääkseen tarvitaan seuraavaa:**
+- TFDA:n/virallisen pakkausselostteen data (varoitukset, vasta-aiheet) — tällä hetkellä estävä
+- Vahvistettu toimintamekanismi (MOA) dokumentaatio DrugBankista tai perustietokirjallisuudesta
+- Prekliiniset/mekanistiset tutkimukset, jotka arvioivat mitä tahansa BMP-2-signalointia silmän ulkolihaksen tai karsastuksen biologiassa
+- Jatkuva seuranta kliinisten tutkimusten rekistereistä ja kirjallisuudesta nousevista todisteista joko tästä tai muista 8 alhaisemman luottamuksen ennustetusta indikaatiosta tässä ehdokasjoukon
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

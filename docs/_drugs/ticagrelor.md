@@ -29,93 +29,94 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Ticagrelor: From Acute Coronary Syndrome to Intracranial Arteriosclerosis
+# Tikalopidiini: akuutista koronaariarterioiden oireyhtymästä kallonsisäiseen arterioskleroosiin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Ticagrelor is a reversible P2Y12 receptor antagonist used as an antiplatelet agent to reduce thrombotic cardiovascular events (no official original-indication or MOA record was returned from the source registries for this candidate — this is based on generally known drug information, not the Evidence Pack). The TxGNN model predicts it may be effective for **Intracranial Arteriosclerosis**, with **11 clinical trials** and **3 publications** currently supporting this direction, though none of the trials has yet reported completed pivotal results specific to this indication. This Evidence Pack also flags TFDA/Fimea package insert data as a **blocking gap**, so no safety pre-screen can be completed at this stage.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Acute Coronary Syndrome (general knowledge fallback — no Finland/Fimea license record available) |
-| Predicted New Indication | Intracranial Arteriosclerosis |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L2 |
-| Finland Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Tikalopidiini on palautuva P2Y12-reseptoriantagonisti, jota käytetään antitrombosyyttilääkkeenä trombisten sydän- ja verisuonitapahtumien riskin vähentämiseksi (lähde-rekistereistä ei saatu virallista alkuperäisen indikaation tai toimintamekanismin tietoja tälle ehdokkaalle – tämä perustuu yleisesti tunnettuihin lääkitietoihin, ei todistusaineiden pakettiin). TxGNN-malli ennustaa, että se saattaa olla tehokas **kallonsisäiselle arterioskleroosille**, jota tukee tällä hetkellä **11 kliinistä tutkimusta** ja **3 julkaisua**, vaikka mikään tutkimuksista ei ole vielä raportoinut valmiita pivotaalisääntöjä tästä indikaatiosta. Tämä todistusaineiden paketti merkitsee myös TFDA/Fimea-pakkausselostetiedot **estäväksi puutokseksi**, joten turvallisuusarvioinnin ennakkotarkastusta (S1) ei voida suorittaa tässä vaiheessa.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap, DG002). Based on generally known information, ticagrelor is a reversible, direct-acting oral P2Y12 receptor antagonist that inhibits ADP-induced platelet activation and aggregation — the standard antiplatelet mechanism used to prevent atherothrombotic events in acute coronary syndrome, post-PCI stenting, and prior myocardial infarction.
-
-Intracranial arteriosclerosis (intracranial atherosclerotic disease, ICAD) shares the same underlying pathology as coronary atherosclerosis: plaque build-up in the arterial wall leading to thrombus formation and downstream ischemic events (stroke rather than myocardial infarction). Since antiplatelet therapy is the pathophysiological countermeasure to arterial (not venous) thrombosis regardless of vascular bed, extending a P2Y12 inhibitor from coronary to cerebrovascular arteries is mechanistically coherent.
-
-This is reflected in the evidence: the CAPTIVA trial (NCT05047172, Phase 3, ongoing) is directly testing ticagrelor (alone or combined with rivaroxaban) against clopidogrel for symptomatic intracranial arteriosclerotic stenosis, and the DREAM-PRIDE trial (NCT04948749, recruiting) is evaluating intracranial stenting plus aggressive antiplatelet management for the same population. However, both are still active/recruiting rather than completed with reported outcomes, which is why the evidence level is capped at L2 rather than L1.
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Akuutti koronaariarterioiden oireyhtymä (yleisen tiedon varainto – Suomessa/Fimean lisensointitietoa ei saatavilla) |
+| Ennustettu uusi indikaatio | Kallonsisäinen arterioskleroosi |
+| TxGNN-ennustepistemäärä | 99.97% |
+| Näyttötaso | L2 |
+| Suomen markkinatilanne | Ei markkinoilla |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Pidätä |
 
 ---
 
-## Clinical Trial Evidence
+## Miksi tämä ennuste on järkevä?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Tällä hetkellä yksityiskohtaisia toimintamekanismin tietoja ei ole saatavilla (merkitty korkean vakavuuden tietojen puutokseksi, DG002). Yleisesti tunnettujen tietojen perusteella tikalopidiini on palautuva, suoraan toimiva suun kautta otettava P2Y12-reseptorin antagonisti, joka estää ADP-indusoitua verihiutaleen aktivaatiota ja aggregaatiota – tavallinen antitrombosyyttimekanismi, jota käytetään atherotromboottisten tapahtumien ehkäisyyn akuutissa koronaariarterioiden oireyhtymässä, PCI-stenttauksen jälkeen ja aiemmin tapahtuneen sydäninfarktin yhteydessä.
+
+Kallonsisäinen arterioskleroosi (intrakraniaalinen arterioskleroottinen sairaus, ICAD) jakaa saman patofysiologisen mekanismin kuin koronaarinen arterioskleroosi: plakkin kertyminen valtimoseinämään johtaen verihyytymän muodostumiseen ja seuraaviin iskeemisiin tapahtumiin (aivohalvaus sydäninfarktion sijaan). Koska antitrombosyyttihoidot ovat patofysiologinen vastatoimenpide arteriaaliselle (ei venöösille) thromboosiille riippumatta verisuonista, P2Y12-inhibiittorin laajentaminen koronaarisista aivoverenkierron valtimoihin on mekanistisesti yhtenäistä.
+
+Tämä heijastuu todisteissa: CAPTIVA-tutkimus (NCT05047172, Phase 3, meneillään) testaa suoraan tikalopidiinia (yksinään tai yhdistettynä rivaroksabaaniin) klopidogreliä vastaan oireisen intrakraniaalisen arterioskleroottisen stenoosin yhteydessä, ja DREAM-PRIDE-tutkimus (NCT04948749, rekrytoimassa) arvioi intrakraniaalista stenttausta sekä aggressiivista antitrombosyyttihoidon hallintaa samalle väestölle. Kuitenkin molemmat ovat edelleen meneillään/rekrytoimassa eikä valmiita raportoiduilla tuloksilla, minkä vuoksi näyttötaso on ylärajalla L2 eikä L1.
+
+---
+
+## Kliinisen tutkimuksen todisteet
+
+| Tutkimuksen numero | Vaihe | Tila | Osallistujamäärä | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT05047172](https://clinicaltrials.gov/study/NCT05047172) | Phase 3 | Active, not recruiting | 1,683 | CAPTIVA: tests whether rivaroxaban, ticagrelor, or both are superior to clopidogrel for lowering 1-year ischemic stroke/ICH/vascular death in intracranial vascular atherostenosis. |
-| [NCT04948749](https://clinicaltrials.gov/study/NCT04948749) | N/A | Recruiting | 792 | DREAM-PRIDE: drug-eluting stent + aggressive medical treatment vs. standard medical treatment alone to prevent 1-year stroke recurrence in symptomatic intracranial atherosclerotic disease. |
-| [NCT02605447](https://clinicaltrials.gov/study/NCT02605447) | Phase 4 | Completed | 2,009 | EVOLVE Short DAPT: assessed safety of 3-month DAPT in high-bleeding-risk PCI patients with the SYNERGY stent system. |
-| [NCT01732822](https://clinicaltrials.gov/study/NCT01732822) | Phase 3 | Completed | 13,885 | EUCLID: compared ticagrelor vs. clopidogrel on CV death/MI/ischemic stroke in peripheral artery disease — supportive but indirect atherosclerosis-population evidence. |
-| [NCT06857045](https://clinicaltrials.gov/study/NCT06857045) | N/A | Withdrawn | 0 | 3- vs 6-month DAPT after implantation of the NOVA intracranial sirolimus-eluting stent system. |
-| [NCT06714526](https://clinicaltrials.gov/study/NCT06714526) | N/A | Recruiting | 100 | Pilot RCT comparing genotype-guided P2Y12 inhibitor selection vs. conventional clopidogrel in symptomatic intracranial atherosclerotic disease (ICAD). |
-| [NCT06058130](https://clinicaltrials.gov/study/NCT06058130) | N/A | Unknown | 2,171 | Anticoagulation alone vs. anticoagulation + antiplatelet in acute ischemic stroke with concomitant atrial fibrillation and extracranial/intracranial artery stenosis. |
-| [NCT01813435](https://clinicaltrials.gov/study/NCT01813435) | Phase 3 | Completed | 15,991 | GLOBAL LEADERS: ticagrelor + aspirin (1 month) then ticagrelor monotherapy vs. standard DAPT strategy after stent implantation. |
-| [NCT07164859](https://clinicaltrials.gov/study/NCT07164859) | Phase 3 | Not yet recruiting | 1,700 | SOLOPCI: very short DAPT followed by P2Y12 monotherapy vs. standard DAPT duration in elderly post-PCI patients. |
-| [NCT03620760](https://clinicaltrials.gov/study/NCT03620760) | Phase 4 | Unknown | 2,036 | Low-dose (45mg BID) vs. standard-dose (90mg BID) ticagrelor after drug-eluting stent implantation for unstable angina. |
+| [NCT05047172](https://clinicaltrials.gov/study/NCT05047172) | Phase 3 | Aktiivinen, ei ole rekrytoinnissa | 1,683 | CAPTIVA: testaa ovatko rivaroksabaani, tikalopidiini tai molemmat parempia kuin klopidogrel ischemia-aivohalvauksen/intrakraniaalisen verenvuodon/verisuonikatojen riskin vähentämisessä intrakraniaalisen valtimo-arterioskleroosin kanssa 1 vuoden sisällä. |
+| [NCT04948749](https://clinicaltrials.gov/study/NCT04948749) | N/A | Rekrytoimassa | 792 | DREAM-PRIDE: lääkkeiden eluoiva stentti + aggressiivinen lääkinnöllinen hoito vs. standardilääkinnöllinen hoito yksinään aivohalvauksen uusiintumisen ehkäisemiseksi 1 vuoden sisällä oireisen intrakraniaalisen arterioskleroottisen sairauden yhteydessä. |
+| [NCT02605447](https://clinicaltrials.gov/study/NCT02605447) | Phase 4 | Valmis | 2,009 | EVOLVE Short DAPT: arvioi 3 kuukauden kaksinkertaisen antitrombosyyttihoidon turvallisuutta korkealla verenvuotoriskillä olevissa perkutaanisen koronaarisen intervention (PCI) potilaissa SYNERGY-stenttijärjestelmän kanssa. |
+| [NCT01732822](https://clinicaltrials.gov/study/NCT01732822) | Phase 3 | Valmis | 13,885 | EUCLID: vertaili tikalopidiinia klopidogreliiin sydänkuoleman/sydäninfarktin/iskeemisen aivohalvauksen osalta perifeerisen valtimo-sairauden potilailla – tukeva mutta epäsuora arterioskleroottisen populaation todistusaineisto. |
+| [NCT06857045](https://clinicaltrials.gov/study/NCT06857045) | N/A | Peruttu | 0 | 3 vs 6 kuukauden kaksinkertainen antitrombosyyttihoidot NOVA intrakraniaalisen sirrolimuksilla varustetun stenttijärjestelmän implantoinnin jälkeen. |
+| [NCT06714526](https://clinicaltrials.gov/study/NCT06714526) | N/A | Rekrytoimassa | 100 | Pilotti-satunnaistettu kontrolloitu tutkimus, joka vertaa genotyyppiä ohjattua P2Y12-inhibiittorin valintaa tavanomaista klopidogelia vastaan oireisen intrakraniaalisen arterioskleroottisen sairauden (ICAD) yhteydessä. |
+| [NCT06058130](https://clinicaltrials.gov/study/NCT06058130) | N/A | Tuntematon | 2,171 | Antikoagulaatio yksinään vs. antikoagulaatio + antitrombosyyttihoidot akuutin iskeemisen aivohalvauksen yhteydessä, jonka kanssa on samanaikainen eteisvärinä ja ekstrakraniaalinen/intrakraniaalinen valtimostenosis. |
+| [NCT01813435](https://clinicaltrials.gov/study/NCT01813435) | Phase 3 | Valmis | 15,991 | GLOBAL LEADERS: tikalopidiini + aspiriini (1 kuukausi) sitten tikalopidiini monoterapiana vs. tavanomainen kaksinkertainen antitrombosyyttihoidon strategia stenttien implantoinnin jälkeen. |
+| [NCT07164859](https://clinicaltrials.gov/study/NCT07164859) | Phase 3 | Ei vielä rekrytoida | 1,700 | SOLOPCI: hyvin lyhyt kaksinkertainen antitrombosyyttihoidot seurattuna P2Y12-monoterapialla vs. tavanomainen kaksinkertaisen antitrombosyyttihoidon kesto iäkkäissä PCI-potilaissa. |
+| [NCT03620760](https://clinicaltrials.gov/study/NCT03620760) | Phase 4 | Tuntematon | 2,036 | Matala annos (45mg BID) vs. tavallinen annos (90mg BID) tikalopidiini lääkkeiden eluoivan stenttien implantoinnin jälkeen epävakaan angiinan yhteydessä. |
 
-*(1 additional lower-relevance trial, NCT07354828 — a generic DAPT quality-control-indicator study not specific to intracranial arteriosclerosis — was excluded to keep the table to the 10 most relevant trials.)*
+*(1 lisätutkimus pienemmän relevanssin kanssa, NCT07354828 – yleinen kaksinkertaisen antitrombosyyttihoitojen laadunvalvontaindikaattoriiden tutkimus, joka ei ole spesifinen kallonsisäiselle arterioskleroosille – jätettiin pois taulukon pitämiseksi 10 merkityksellisimmän tutkimuksen sisällä.)*
 
 ---
 
-## Literature Evidence
+## Kirjallisuuden todisteet
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [39862061](https://pubmed.ncbi.nlm.nih.gov/39862061/) | 2025 | RCT | International Journal of Stroke | Design/early progress of the CAPTIVA trial testing whether dual antithrombotic combinations (incl. ticagrelor) outperform clopidogrel+aspirin for symptomatic intracranial atherosclerotic stenosis. |
-| [39658130](https://pubmed.ncbi.nlm.nih.gov/39658130/) | 2025 | Cohort | Journal of Neurointerventional Surgery | Reports experience with ticagrelor 60mg BID + aspirin vs. standard aspirin/clopidogrel for DAPT in neurointerventional (intracranial stenting) procedures. |
-| [38252758](https://pubmed.ncbi.nlm.nih.gov/38252758/) | 2024 | Review | Stroke | Focused update on intracranial atherosclerosis, summarizing current knowledge gaps and highlights in the field. |
+| [39862061](https://pubmed.ncbi.nlm.nih.gov/39862061/) | 2025 | Satunnaistettu kontrolloitu tutkimus | International Journal of Stroke | CAPTIVA-tutkimuksen muotoilu ja aikainen edistyminen; testaa ovatko kaksoiskaksoisantitrombosyyttiyhdistelmät (ml. tikalopidiini) parempia kuin klopidogrel+aspiriini oireisen intrakraniaalisen arterioskleroottisen stenoosin yhteydessä. |
+| [39658130](https://pubmed.ncbi.nlm.nih.gov/39658130/) | 2025 | Kohortti | Journal of Neurointerventional Surgery | Raportoi kokemuksia tikalopidiini 60mg BID + aspiriini vs. tavallinen aspiriini/klopidogrel neurointerventionaalisissa (intrakraniaalisissa stenttauksissa) toimenpiteissä. |
+| [38252758](https://pubmed.ncbi.nlm.nih.gov/38252758/) | 2024 | Katsaus | Stroke | Keskitetty päivitys intrakraniaalisen arterioskleroosin osalta; tiivistää nykyisiä tietojen puutoksia ja keskeisiä löydöksiä alalla. |
 
 ---
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Ticagrelor is currently **not marketed** in Finland under this Evidence Pack's regulatory query (market_status: Not marketed, total authorizations: 0). No license records are available to summarize.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. Note: this Evidence Pack flags a **Blocking** data gap (DG001 — TFDA/Fimea package insert warnings and contraindications not retrieved), which means the S1 safety preliminary evaluation cannot be completed at this stage. A separate drug interaction database query also returned no results (query_status: not_found).
+Tikalopidiinia ei ole tällä hetkellä **markkinoilla** Suomessa tämän todistusaineiden paketin sääntelyn kyselyin mukaan (market_status: Ei markkinoilla, kokonaislupien lukumäärä: 0). Lisensointitietoja ei ole saatavilla yhteenvedoksi.
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuushuomiot
 
-**Decision: Hold**
+Tutustu pakkausselosteeseen turvallisuustiedoista. Huomio: tämä todistusaineiden paketti merkitsee estävän tietojen puutoksen (DG001 – TFDA/Fimea pakkausselosteen varoitukset ja vasta-aiheet eivät ole haettavissa), mikä tarkoittaa, että S1-turvallisuusarvioinnin ennakkotarkastusta ei voida suorittaa tässä vaiheessa. Erillinen lääkkeiden välisten vuorovaikutusten tietokantahaku ei myöskään palauttanut tuloksia (query_status: not_found).
 
-**Rationale:**
-- Safety data (package insert warnings, contraindications, drug-drug interactions) is entirely missing, which is a Blocking-severity gap that prevents even a preliminary (S1) safety evaluation.
-- The top-ranked predicted indication (intracranial arteriosclerosis) has only L2 evidence — mechanistically plausible and actively being tested (CAPTIVA, DREAM-PRIDE), but no completed indication-specific pivotal trial has yet reported results.
-- Ticagrelor is not currently marketed in Finland, so there is no existing local regulatory foothold to leverage for a label-extension pathway.
+---
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert data (warnings, contraindications, DDI) to complete the S1 safety pre-screen
-- Detailed mechanism of action (MOA) documentation from DrugBank or equivalent source
-- Completed results from the CAPTIVA trial (NCT05047172) and DREAM-PRIDE trial (NCT04948749)
-- A Finland-specific regulatory pathway assessment, given the drug currently has zero local marketing authorizations
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidätä**
+
+**Perustelut:**
+- Turvallisuustiedot (pakkausselosteen varoitukset, vasta-aiheet, lääkkeiden väliset vuorovaikutukset) puuttuvat täysin, mikä on korkean vakavuuden omaava puute, joka estää jopa ennakkotarkastuksen (S1) turvallisuusarvioinnin suorittamisen.
+- Korkeimmin sijoitetulla ennustetulla indikaatiolla (kallonsisäinen arterioskleroosi) on vain L2-näyttötaso – mekanistisesti uskottava ja aktiivisesti testattava (CAPTIVA, DREAM-PRIDE), mutta mikään valmis indikaatiokohtainen pivotaalitutkimus ei ole vielä raportoinut tuloksia.
+- Tikalopidiinia ei ole tällä hetkellä markkinoilla Suomessa, joten paikallisen sääntelyreitille ei ole olemassa käytettävissä olevaa paikallista sääntelykannan perustaa.
+
+**Jatkamista varten tarvitaan seuraavaa:**
+- TFDA/Fimea pakkausseloste-tieto (varoitukset, vasta-aiheet, lääkkeiden väliset vuorovaikutukset) S1-turvallisuusarvioinnin ennakkotarkastuksen suorittamiseksi
+- Yksityiskohtainen toimintamekanismin (MOA) dokumentaatio DrugBankista tai vastaavasta lähteestä
+- Valmiit tulokset CAPTIVA-tutkimuksesta (NCT05047172) ja DREAM-PRIDE-tutkimuksesta (NCT04948749)
+- Suomen-spesifinen sääntelyreittiarviointi, koska lääkkeellä on tällä hetkellä nolla paikallisia markkinoinninvaltuutuksia
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

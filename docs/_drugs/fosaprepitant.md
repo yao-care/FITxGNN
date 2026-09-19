@@ -29,60 +29,61 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Fosaprepitant: From Chemotherapy-Induced Nausea and Vomiting to Nephrogenic Syndrome of Inappropriate Antidiuresis
+# Fosaprepitant: Kemoterapiaan liittyvän pahoinvoinnin ja oksentamisen hoidosta Neprogeneettiseen sopimattoman antidiureettisen hormonin oireyhtymään
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Fosaprepitant is the intravenous prodrug of aprepitant, an NK1 (Substance P) receptor antagonist established for preventing chemotherapy-induced nausea and vomiting (CINV). The TxGNN model predicts it may be effective for **Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD)**, but this ranking is currently supported by **no clinical trials and no literature** — it is a pure model-score prediction, and the evidence pack's own mechanistic review flags the biological link as weak.
+Fosaprepitant on aprepitanin intravenöösä farmakko, NK1 (Substance P) -reseptoriantagonisti, joka on vakiintunut käytettäväksi kemoterapiaan liittyvän pahoinvoinnin ja oksentamisen (CINV) ehkäisyyn. TxGNN-malli ennustaa, että se voisi olla tehokas **Neprogeneettiseen sopimattoman antidiureettisen hormonin oireyhtymään (NSIAD)**, mutta tämä ennustus ei tällä hetkellä ole tuettu **millään kliinisillä tutkimuksilla eikä kirjallisuudella** — se on puhtaasti mallin pistemäärien ennustus, ja todistuspaketin oma mekanistinen arviointi merkitsee biologisen yhteyden olevan heikko.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Chemotherapy-induced nausea and vomiting (CINV) prevention (inferred from supporting trial/literature context; not present in structured `original_indications` field) |
-| Predicted New Indication | Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD) |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L5 |
-| Finland Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Kemoterapiaan liittyvän pahoinvoinnin ja oksentamisen (CINV) ehkäisy (päätelty tukevasta tutkimus-/kirjallisuuskontekstista; ei ole strukturoidussa `original_indications`-kentässä) |
+| Ennustettu uusi indikaatio | Neprogeneettisen sopimattoman antidiureettisen hormonin oireyhtymä (NSIAD) |
+| TxGNN-ennusteen pistemäärä | 99.92% |
+| Näyttötaso | L5 |
+| Suomen markkinatilanne | Ei markkinoilla |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Pidä varauksella |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennustus on järkevä?
 
-Detailed mechanism-of-action data is not available in DrugBank for this record (flagged as a High-severity data gap). Based on information embedded elsewhere in the evidence pack, fosaprepitant is the phosphorylated prodrug of aprepitant, and its established pharmacology is NK1 (Substance P) receptor antagonism, used clinically as an antiemetic in combination with 5-HT3 antagonists and dexamethasone for CINV prevention.
+Yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla DrugBankissa tälle merkinnälle (merkitty korkeaksi tietojen puutokseksi). Todistuspaketin muualla olevien tietojen perusteella fosaprepitant on aprepitanin fosforyloitu farmakko, ja sen vakiintunut farmakologia on NK1-reseptoriantagonismi (Substance P), jota käytetään kliinisesti antiemeettinä yhdessä 5-HT3-antagonistien ja deksametasonin kanssa CINV-ehkäisyyn.
 
-NSIAD is a distinct clinical entity caused by gain-of-function mutations in the AVPR2 (vasopressin V2) receptor, producing a water-retention/hyponatremia phenotype independent of vasopressin levels. There is no established pharmacological crosstalk between NK1/Substance P signaling and the AVPR2 pathway that drives NSIAD.
+NSIAD on erillinen kliininen kokonaisuus, jonka aiheuttavat AVPR2-reseptorin (vasopressiini V2) toimintaa lisäävät mutaatiot, jotka tuottavat nestepidätys/hyponatremia-fenotyypin vasopressiinitasoista riippumatta. NK1/Substance P -signaloinnin ja NSIAD:ta ohjaavan AVPR2-polun välillä ei ole vakiintunutta farmakologista yhteyttä.
 
-Consequently, the model's own repurposing rationale for this pairing explicitly characterizes the mechanistic link as weak ("與AVPR2功能增益型突變...無已知交互作用，機轉關聯薄弱"), and recommends this candidate be excluded from the priority research queue. The 99.92% TxGNN score should be read as a graph-embedding similarity signal only, not as biological plausibility — it is not corroborated by any trial or publication.
+Näin ollen mallin oma lääkkeen uudelleenkäyttöä koskevassa perustelussa mekanistinen yhteys luonnehtitaan selvästi heikoksi ("與AVPR2功能增益型突變...無已知交互作用，機轉關聯薄弱"), ja siinä suositellaan tämän ehdokkaan sulkemista pois prioriteettitutkimusjonosta. 99.92 %:n TxGNN-pistemäärää olisi luettava vain graafisen embedding-samankaltaisuussignaalina, ei biologisena uskottavuutena — sitä ei tue mikään tutkimus tai julkaisu.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen todisteet
 
-Currently no related clinical trials registered.
+Tällä hetkellä ei ole rekisteröity yhtään siihen liittyvää kliinistä tutkimusta.
 
-## Literature Evidence
+## Kirjallisuuden todisteet
 
-Currently no related literature available.
+Tällä hetkellä ei ole saatavilla yhtään siihen liittyvää kirjallisuutta.
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Fosaprepitant is not currently marketed in Finland (market status: Not Marketed; total registered authorizations: 0). No product-level licensing data is available to summarize.
+Fosaprepitant-lääkettä ei tällä hetkellä markkinoida Suomessa (markkinatilanne: Ei markkinoilla; rekisteröityjen lupien kokonaismäärä: 0). Tuotteiden tason lisensointi- ja lupadata ei ole saatavilla yhteenvetoon.
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information.
+Katso turvallisuustietoja pakkausselosteesta.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidä varauksella**
 
-**Rationale:**
-The top-ranked prediction (NSIAD) has no supporting clinical trials or literature and its own mechanistic rationale describes the biological link as weak, so it does not meet the threshold to advance past model screening (S0). This is compounded by a Blocking-severity data gap (Fimea/TFDA-equivalent package insert not yet retrieved), which prevents even a preliminary safety assessment.
+**Perustelut:**
+Parhaiten sijoitetulla ennustuksella (NSIAD) ei ole tukevia kliinisiä tutkimuksia tai kirjallisuutta, ja sen oma mekanistinen perustelunsa kuvaa biologisen yhteyden heikoksi, joten se ei täytä kynnystä edetä mallin seulonnan ohitse (S0). Tätä pahentaa kriittisen vakavuuden tietojen puutos (Fimea/TFDA-vastaava pakkausseloste ei ole vielä haettu), mikä estää jopa alustavaa turvallisuusarviointia.
 
-**To proceed, the following is needed:**
-- Retrieve and parse the official package insert (labeling, warnings, contraindications) — currently a Blocking gap
-- Obtain structured mechanism-of-action data from DrugBank to properly assess mechanistic plausibility
-- If pursuing repurposing research on this drug, consider prioritizing rank 7 (retinitis, L4 — supported by a preclinical mechanistic study showing fosaprepitant blocks NK1/Substance P-driven ocular inflammation) over the current top-ranked NSIAD candidate, which lacks any corroborating evidence
-- Independently re-verify the 3 clinical trials surfaced for "multiple endocrine neoplasia" (rank 5): all three are CINV antiemetic-support studies in patients with germ-cell/hematologic malignancies, not treatment trials for MEN — this pairing appears to be a drug/comorbidity false match rather than genuine evidence
+**Edetäkseen, seuraavaa tarvitaan:**
+- Virallisen pakkausselosteen hakeminen ja jäsentäminen (merkinnät, varoitukset, vasta-aiheet) — tällä hetkellä kriittinen puutos
+- Strukturoidut vaikutusmekanismin tiedot DrugBankista oikean mekanistisen uskottavuuden arvioimiseksi
+- Jos tutkitaan tämän lääkkeen uudelleenkäyttöä, harkitse sijoituksen 7 (retiniitti, L4 — tuettu prekliinisellä mekanistisella tutkimuksella, joka osoittaa fosaprepitantin estävän NK1/Substance P -vetoisesti silmän tulehusta) priorisointia nykyisen parhaiten sijoitetun NSIAD-ehdokkaan sijaan, jolla ei ole mitään tukevaa näyttöä
+- Vahvista itsenäisesti uudelleen kolme "useita endokriinisiä neoplasioita" varten ilmennyttä kliinistä tutkimusta (sijoitus 5): kaikki kolme ovat CINV-antiemeettisen tuen tutkimuksia potilailla, joilla on sukusolu-/hematologisia pahanlaatuisuuksia, eivät MEN-hoidon tutkimuksia — tämä yhdistelmä näyttää olevan lääkkeen ja sairauden väärä täsmäys oikean näytön sijaan
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

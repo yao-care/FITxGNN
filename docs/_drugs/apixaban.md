@@ -29,72 +29,69 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-The `txgnn-pipeline` skill covers infrastructure management, not report generation — my system prompt already defines the report format. Proceeding directly to generate the report.
+# Apixaban: Näyttöpaketti puutteellinen — uudelleenkohdentamisen ehdokkaita ei tunnistettu
+
+## Yhden lauseen yhteenveto
+
+Apixaban on suora antikoagulantti (Tekijä Xa:n estäjä), jota käytetään laajalti kansainvälisesti aivohalvauksen ehkäisyyn eteisvärinässä ja laskimotromboembolia (VTE) hoidossa.
+Nykyinen Näyttöpaketti (v4) ei palautunut mitään TxGNN-ennustamia uusia indikaatioita, ja kriittiset lähtötiedot — mukaan lukien vaikutusmekanismi ja turvallisuusdata — jäävät ratkaisematta.
+Tämä raportti on alustavaa paikkamerkki; täydellinen uudelleenkohdentamisen arviointi ei voi edetä, kunnes tietojen puutteet on korjattu.
 
 ---
 
-# Apixaban: Evidence Pack Incomplete — No Repurposing Candidates Identified
+## Pika-yleiskatsaus
 
-## One-Sentence Summary
-
-Apixaban is a direct oral anticoagulant (Factor Xa inhibitor), widely used internationally for stroke prevention in atrial fibrillation and venous thromboembolism (VTE) treatment.
-The current Evidence Pack (v4) returned **zero TxGNN-predicted new indications**, and critical inputs — including mechanism of action and safety data — remain unresolved.
-This report is a triage placeholder; a full repurposing evaluation cannot proceed until the data gaps are remediated.
-
----
-
-## Quick Overview
-
-| Item | Content |
+| Kohde | Sisältö |
 |------|---------|
-| Original Indication | Not available in Evidence Pack |
-| Predicted New Indication | None identified |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | — (no predictions to evaluate) |
-| Taiwan Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+| Alkuperäinen indikaatio | Ei saatavilla Näyttöpaketista |
+| Ennustettu uusi indikaatio | Ei tunnistettu |
+| TxGNN-ennustepistemäärä | N/A |
+| Näyttötaso | — (ei ennusteita arvioitavaksi) |
+| Taiwanin markkinatilanne | Ei markkinoilla (Ei markkinoilla) |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | **Pidä** |
 
 ---
 
-## Why No Predictions Are Available
+## Miksi ennusteita ei ole saatavilla
 
-The TxGNN model returned an empty `predicted_indications` list for Apixaban. Based on the query log, DrugBank was successfully queried (result_count: 1) but the pipeline did not produce scored candidates. Three likely causes:
+TxGNN-malli palautti tyhjän `predicted_indications`-listan Apixabanille. Kyselylokin perusteella DrugBank kyselyyn vastattiin onnistuneesti (result_count: 1), mutta putkilinja ei tuottanut pisteytettyjä ehdokkaita. Kolme todennäköistä syytä:
 
-1. **Missing original indications**: The `original_indications` field is empty, which may have caused the disease–drug graph traversal to start from an undefined anchor point, producing no candidate paths.
-2. **MOA gap (DG002, High severity)**: Without mechanism of action data, TxGNN cannot build the mechanism-level similarity features used to score candidate disease links.
-3. **Safety gate not cleared (DG001, Blocking severity)**: The TFDA package insert query returned a result but the warnings/contraindications were not parsed into the Evidence Pack. This blocking gap prevents the pipeline from advancing to safety pre-screening (S1), which may have halted the full workflow.
+1. **Puuttuvat alkuperäiset indikaatiot**: `original_indications`-kenttä on tyhjä, mikä on saattanut aiheuttaa, että taudin ja lääkkeen verkon läpikulku aloitettiin määrittelemättömästä ankkuripisteestä, jolloin ei syntynyt ehdokasteitä.
+2. **MOA-puuttue (DG002, korkea vakavuus)**: Ilman vaikutusmekanismin tietoja TxGNN ei voi rakentaa mekanismitason samankaltaisuuspiirteitä, joita käytetään ehdokassairauden-lääkkeen linkkien pisteyttämiseen.
+3. **Turvallisuusportti ei läpäissyt (DG001, estävä vakavuus)**: TFDA:n pakkausseloste-kysely palautti tuloksen, mutta varoitukset/vasta-aiheet eivät jäsentyneet Näyttöpakettiin. Tämä estävä puuttue estää putkilinjaa etenemästä turvallisuuden esiarviointiin (S1), mikä on saattanut pysäyttää koko työnkulun.
 
-Until all blocking gaps are resolved and the TxGNN run is re-executed, no drug repurposing candidates can be evaluated.
-
----
-
-## Taiwan Market Information
-
-Apixaban has **no registered marketing authorizations** with the Taiwan FDA (TFDA). The drug is not commercially marketed in Taiwan under any product name as of the data cutoff (2026-04-20).
+Kunnes kaikki estävät puutteet on ratkaistu ja TxGNN-ajo suoritetaan uudelleen, uudelleenkohdentamisen ehdokkaita ei voi arvioida.
 
 ---
 
-## Safety Considerations
+## Taiwanin markkinatiedot
 
-Please refer to the package insert for safety information.
+Apixabanilla ei ole **rekisteröityjä myyntilupia** Taiwan FDA:ssa (TFDA). Lääkettä ei markkinoida kaupallisesti Taiwanissa minkään tuotenimen alla tietojen rajapäivään (2026-04-20) mennessä.
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuusnäkökohdat
 
-**Decision: Hold**
+Katso pakkausselosteesta turvallisuustiedot.
 
-**Rationale:**
-Two unresolved data gaps — one Blocking (DG001: TFDA package insert safety data) and one High (DG002: MOA) — prevent even a preliminary evaluation. Additionally, the TxGNN model produced zero predictions, meaning there is no repurposing hypothesis to assess at this time.
+---
 
-**To proceed, the following is needed:**
+## Johtopäätös ja seuraavat vaiheet
 
-- [ ] **Re-run TxGNN pipeline** after resolving DG001 and DG002 — the `predicted_indications` array must be populated before any evaluation can begin
-- [ ] **Resolve DG001 (Blocking)**: Download and parse the TFDA package insert PDF to extract warnings and contraindications; this is required for S1 safety pre-screening
-- [ ] **Resolve DG002 (High)**: Query DrugBank API for Apixaban's mechanism of action (Factor Xa inhibition pathway) and populate `original_moa`
-- [ ] **Populate `original_indications`**: Add the approved indication list (e.g., stroke prevention in non-valvular AFib, VTE treatment/prophylaxis) to provide TxGNN with correct graph anchor nodes
-- [ ] **Re-run DDI query**: The DDI lookup returned `not_found`; verify whether this reflects a true absence of interaction data or a query failure
+**Päätös: Pidä**
+
+**Perustelut:**
+Kaksi ratkaisematta jäänyttä tietojen puutetta — yksi estävä (DG001: TFDA:n pakkausseloste turvallisuusdata) ja yksi korkea (DG002: MOA) — estävät jopa alustavaa arviointia. Lisäksi TxGNN-malli tuotti nolla ennusteita, mikä tarkoittaa, että uudelleenkohdentamisen hypoteesia ei ole arvioitavaksi tässä vaiheessa.
+
+**Jatkaakseen seuraava on tarpeen:**
+
+- [ ] **Suorita TxGNN-putkilinja uudelleen** ratkaisemisen jälkeen DG001:n ja DG002:n — `predicted_indications`-lista täytyy täyttää ennen kuin mitään arviointia voidaan suorittaa
+- [ ] **Ratkaise DG001 (estävä)**: Lataa ja jäsennä TFDA:n pakkausseloste-PDF puruaksesi varoitukset ja vasta-aiheet; tämä vaaditaan S1-turvallisuuden esiarviointiin
+- [ ] **Ratkaise DG002 (korkea)**: Kysy DrugBank API:sta Apixabanin vaikutusmekanismia (Tekijä Xa:n esto-polkua) ja täytä `original_moa`
+- [ ] **Täytä `original_indications`**: Lisää hyväksytyn indikaation luettelo (esim. aivohalvauksen ehkäisy ei-venttiiliperäisessä eteisvärinässä, VTE:n hoito/profylaksia) antaaksesi TxGNN:lle oikeat verkko-ankkuripisteet
+- [ ] **Suorita DDI-kysely uudelleen**: DDI-haku palautti `not_found`; tarkista, heijasteleeko tämä todellista vuorovaikutustietojen puuttumista vai kyselyn epäonnistumista
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

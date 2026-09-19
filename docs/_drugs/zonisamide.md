@@ -29,65 +29,64 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-Using the evidence-pack rules directly (no skill match for this templated report-writing task).
+# Zonisamidi: Epilepsiasta Touretten oireyhtymään
 
-# Zonisamide: From Epilepsy to Tourette Syndrome
+## Yhden lauseen yhteenveto
 
-## One-Sentence Summary
+Zonisamidi on laaja-kirjoilla vaikuttava antiepileptinen lääke (AED), jota käytetään vakiintuneesti osittain alkavien kohtausten apu- tai monolääkkeenä. TxGNN-mallin parhaaksi rankattu ennuste tälle kandidaatille on **Touretten oireyhtymä** (pistemäärä 99,85%), mutta tämä spesifinen ennuste on tällä hetkellä tuettu **nollalla kliinisellä tutkimuksella ja nollalla julkaisulla** — se on puhdas mallin tuotos ilman vahvistavaa näyttöä.
 
-Zonisamide is a broad-spectrum antiepileptic drug (AED), most established as adjunctive/monotherapy for partial-onset seizures. The TxGNN model's top-ranked prediction for this candidate is **Tourette syndrome** (score 99.85%), but this specific prediction is currently supported by **zero clinical trials and zero publications** — it is a pure model output with no confirmatory evidence.
+## Nopea yleiskatsaus
 
-## Quick Overview
-
-| Item | Content |
+| Kohde | Sisältö |
 |------|------|
-| Original Indication | Epilepsy (partial-onset seizures) — based on known AED classification; no formal Taiwan license text available (drug is unmarketed) |
-| Predicted New Indication | Tourette syndrome |
-| TxGNN Prediction Score | 99.85% |
-| Evidence Level | L5 (model prediction only) |
-| Taiwan Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen käyttöaihe | Epilepsia (osittain alkavat kohtaukset) — tunnetun AED-luokituksen perusteella; virallista Taiwan-lisenssi tekstiä ei saatavilla (lääke on markkinoimaton) |
+| Ennustettu uusi käyttöaihe | Touretten oireyhtymä |
+| TxGNN-ennusteen pistemäärä | 99,85% |
+| Näytön taso | L5 (mallin ennuste vain) |
+| Taiwanin markkinatilanne | Ei markkinoitu (Ei markkinoitu) |
+| Valtuuksien lukumäärä | 0 |
+| Suositeltu päätös | Odota |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Detailed mechanism-of-action data is not available in this evidence pack (`original_moa` is a data gap). Based on known information, zonisamide belongs to the antiepileptic drug (AED) class, and its efficacy in epilepsy is well established clinically and pharmacologically (voltage-gated sodium/T-type calcium channel modulation, among other actions referenced throughout the AED literature in this pack).
+Yksityiskohtaisia toimintamekanismin tietoja ei ole saatavilla tässä näyttöpaketissa (`original_moa` on tietojen puutepaikka). Saatavilla olevien tietojen perusteella zonisamidi kuuluu antiepileptisen lääkkeen (AED) luokkaan, ja sen teho epilepsiassa on kliinisesti ja farmakologisesti hyvin vakiintunut (jännitteestä riippuvaisten natriumkanavien ja T-tyypin kalsiumkanavien modulaatio muun muassa, kuten tässä paketissa oleva AED-kirjallisuus viittaa).
 
-The rationale offered for Tourette syndrome is that TxGNN's high score may reflect zonisamide's hypothesized dopaminergic/serotonergic modulatory effects, since Tourette syndrome is theoretically linked to dopamine pathway dysfunction. This is a plausible mechanistic *hypothesis*, not an evidence-backed connection — no clinical trial or published study in this pack tests zonisamide in Tourette syndrome specifically.
+Touretten oireyhtymän perusteluksi esitetään, että TxGNN:n korkea pistemäärä voi heijastaa zonisamidin hypoteesin mukaisia dopaminergisia ja serotoninergisia moduloivia vaikutuksia, koska Touretten oireyhtymä on teoreettisesti yhdistetty dopamiinikierron toimintahäiriöihin. Tämä on uskottava mekanistinen *hypoteesi*, ei näyttöön perustuva yhteys — tämän paketin mikään kliininen tutkimus tai julkaisu ei testaa zonisamidia erityisesti Touretten oireyhtymässä.
 
-Given the complete absence of clinical trials or literature (evidence level L5), this prediction should be treated as a hypothesis-generation signal only, not a basis for clinical or regulatory action.
+Kliinisten tutkimusten tai kirjallisuuden täydellisen puuttuessa (näytön taso L5) tämä ennuste tulisi käsitellä vain hypoteesin luomisen signaalina, ei kliinisen tai sääntelyluonteisen toiminnan perustana.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-Currently no related clinical trials registered.
+Tällä hetkellä ei ole merkityksellisiä rekisteröityjä kliinisiä tutkimuksia.
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-Currently no related literature available.
+Tällä hetkellä ei ole saatavilla merkityksellisiä julkaisuja.
 
-## Taiwan Market Information
+## Taiwanin markkinatiedot
 
-Zonisamide is not currently marketed in Taiwan (0 authorizations on file; `total_licenses` = 0, no license records available).
+Zonisamidia ei ole tällä hetkellä markkinoitu Taiwanissa (0 valtuutusta arkistossa; `total_licenses` = 0, valtuutustietueita ei ole saatavilla).
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and DDI data are all unavailable in this evidence pack — TFDA package insert retrieval is flagged as a **Blocking** data gap, DG001.)
+Katso pakkausselosteesta turvallisuustiedot. (Tärkeimmät varoitukset, vasta-aiheet ja lääkkeen yhteisvaikutukset eivät ole saatavilla tässä näyttöpaketissa — TFDA pakkausselosteen haku on merkitty **estävä** tietojen puutteeksi, DG001.)
 
-## Conclusion and Next Steps
+## Johtopäätökset ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Odota**
 
-**Rationale:**
-The Tourette syndrome prediction rests solely on a TxGNN score with no supporting clinical trials, literature, or confirmed mechanism of action — insufficient to justify any further evaluation stage (S0).
+**Perustelut:**
+Touretten oireyhtymän ennuste perustuu pelkästään TxGNN-pisteytykseen, jolle ei ole tukea kliinisissä tutkimuksissa, kirjallisuudessa tai vahvistetusta toimintamekanismista — riittämätön mistään arviointivaiheesta etenemisen perustelemiseksi (S0).
 
-**To proceed, the following is needed:**
-- TFDA/regulatory package insert (warnings, contraindications) — currently blocking (DG001)
-- Confirmed mechanism of action data (DG001/DG002 remediation via DrugBank API)
-- At minimum, preclinical or case-level evidence specifically linking zonisamide to Tourette syndrome before advancing past S0
+**Jatkaakseen seuraavaa tarvitaan:**
+- TFDA/sääntelyasetuksen pakkausseloste (varoitukset, vasta-aiheet) — tällä hetkellä estävä (DG001)
+- Vahvistettu toimintamekanismin tieto (DG001/DG002 korjaus DrugBank API:n kautta)
+- Vähintään prekliininen tai tapauksen tasolla oleva näyttö, joka erityisesti yhdistää zonisamidin Touretten oireyhtymään ennen kuin edetään S0:n ohi
 
 ---
 
-**Note on this evidence pack:** This candidate bundle contains 10 TxGNN-predicted indications for zonisamide, several with materially stronger evidence than the top-ranked Tourette syndrome hit — notably **absence epilepsy** (L1, decision stage S3, "Proceed with Guardrails," supported by a 583-patient completed Phase 3 RCT) and **manic bipolar affective disorder** (L2, decision stage S1, "Research Question," supported by a dedicated RCT, PMID 22506436). If a repurposing report is desired for one of those higher-evidence candidates instead, a separate report should be generated using `predicted_indications[6]` (bipolar) or `predicted_indications[7]` (absence epilepsy) as the primary entry. Several other high-score predictions (methemoglobinemia variants) are flagged in the rationale as mechanistically *contradictory* — zonisamide's sulfonamide structure is a known methemoglobinemia risk factor, not a treatment — and should be treated as safety signals, not repurposing opportunities.
+**Huomautus tästä näyttöpaketista:** Tämä kandidaattipaketti sisältää 10 TxGNN-ennustettua zonisamidin käyttöaihetta, joista useilla on aineellisesti vahvempi näyttö kuin parhaaksi rankattu Touretten oireyhtymän osuma — erityisesti **poissaoloepilepsian** (L1, päätösvaihe S3, "Etene varovaisuustoimiin", tuettu 583 potilaan täytetyllä vaiheen 3 satunnaistetulla kontrolloidulla tutkimuksella) ja **maaninen bipolaarinen affektiivinen häiriö** (L2, päätösvaihe S1, "Tutkimuskysymys", tuettu omalla satunnaistetulla kontrolloidulla tutkimuksella, PMID 22506436). Jos repurposing-raportti on toivottu jollekin näille korkeamman näytön omaavista kandidaateista sen sijaan, erillinen raportti tulisi tuottaa käyttäen `predicted_indications[6]` (bipolaarinen) tai `predicted_indications[7]` (poissaoloepilepsian) pääsisäntönä. Useat muut korkean pistemäärän saavat ennusteet (metahemoglobinemian variantit) ovat merkitty perusteluissa mekanistisesti *ristiriitaisiksi* — zonisamidin sulfonamidirakenne on tunnettu metahemoglobinemian riskitekijä, ei hoito — ja niitä tulisi käsitellä turvallisuussignaaleina, ei repurposing-mahdollisuuksina.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

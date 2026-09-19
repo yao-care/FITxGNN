@@ -29,92 +29,93 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Gefitinib: From Non-Small Cell Lung Cancer to Fibromatosis, Gingival (Predicted)
+# Gefitinibi: keuhkoputken ei-pienisoluisesta syövästä gingivaalisen fibromatoosiin (ennustettu)
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Gefitinib (Iressa) is globally known as a first-generation EGFR tyrosine kinase inhibitor used to treat non-small cell lung cancer (NSCLC), but this evidence pack does not itself document that original indication — a data gap flagged internally as inconsistent with real-world approval status. The TxGNN model's top-ranked prediction is **Fibromatosis, Gingival**, but this candidate is supported by **0 clinical trials** and **0 publications**, and the pack's own mechanistic review found no plausible biological link between EGFR signaling and gingival fibromatosis pathogenesis.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in this evidence pack (real-world: NSCLC — flagged internally as data gap, see DG002) |
-| Predicted New Indication | Fibromatosis, Gingival |
-| TxGNN Prediction Score | 99.89% |
-| Evidence Level | L5 |
-| Finland Market Status | ✗ Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Gefitinibi (Iressa) on maailmanlaajuisesti tunnettu ensimmäisen sukupolven EGFR-tyrosiinikinaasin estäjä, jota käytetään keuhkoputken ei-pienisoluisen syövän (NSCLC) hoitoon, mutta tämä näyttöpaketti ei itsessään dokumentoi tuota alkuperäistä indikaatiota – sisäisesti merkitty tietovajeeksi, joka on epäjohdonmukainen tosimaailman hyväksynnän kanssa. TxGNN-mallin parhaiten sijoittunut ennuste on **Gingivaalinen fibromatoosi**, mutta tätä ehdokasta tukee **0 kliinistä tutkimusta** ja **0 julkaisua**, ja paketin oman mekanistisen arvioinnin mukaan EGFR-signaloinnin ja gingivaalisen fibromatoosin patogeneesiyksen välillä ei ole uskottavaa biologista yhteyttä.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Detailed mechanism-of-action data for gefitinib is not available in this evidence pack (data gap DG002). Based on general pharmacological knowledge — and corroborated by literature retrieved elsewhere in this pack (e.g. PMID 24794908, PMID 12841190) — gefitinib is a reversible, small-molecule inhibitor of the epidermal growth factor receptor (EGFR) tyrosine kinase, established worldwide as a treatment for EGFR-mutation-positive non-small cell lung cancer. This original indication is nonetheless not captured in the structured `original_indications` field of this pack, a discrepancy the pack's own rank-5 rationale explicitly flags as needing manual verification.
-
-The top-ranked predicted indication, gingival fibromatosis, is a benign gingival overgrowth most commonly linked to SOS1/REST gene mutations or induced by drugs such as cyclosporine, phenytoin, or calcium-channel blockers. The evidence pack's own mechanistic assessment concludes there is no known overlap between EGFR signaling and gingival fibromatosis pathogenesis, and no clinical trial or literature evidence (0/0) was retrieved to support the link — this prediction appears to be a model score artifact rather than a substantiated hypothesis.
-
-Among the ten predictions reviewed, rank #5 (lung hilum carcinoma) and rank #9 (pulmonary sulcus neoplasm) — both anatomical subtypes of NSCLC — carry meaningfully stronger mechanistic grounding, since gefitinib's EGFR-TKI activity is directly relevant to NSCLC biology. These should be treated as the more credible research questions arising from this evidence pack, rather than the top-ranked but mechanistically unsupported gingival fibromatosis prediction.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Ei dokumentoitu tässä näyttöpaketissa (tosimaailma: NSCLC – merkitty sisäisesti tietovajeksi, katso DG002) |
+| Ennustettu uusi indikaatio | Gingivaalinen fibromatoosi |
+| TxGNN-ennustepisteet | 99.89% |
+| Näytön taso | L5 |
+| Suomen markkinoiden asema | ✗ Ei markkinoilla (Ei markkinoilla) |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Pidä varauksessa |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennuste on järkevä?
 
-Currently no related literature available
+Yksityiskohtainen gefitinibin vaikutusmekanismin tieto ei ole saatavilla tässä näyttöpaketissa (tietovahe DG002). Yleisen farmakologisen tiedon perusteella – ja tämän paketin muualla haetulla kirjallisuudella vahvistettu (esim. PMID 24794908, PMID 12841190) – gefitinibi on palautuva pienimolekyylinen epidermaalisen kasvutekijän reseptorin (EGFR) tyrosiinikinaasin estäjä, joka on maailmanlaajuisesti vakiintunut EGFR-mutaatiota kantavien keuhkoputken ei-pienisoluisen syövän potilaitten hoitovalmiste. Tämä alkuperäinen indikaatio ei kuitenkaan ole kirjattu tämän paketin strukturoituun `original_indications`-kenttään, eroa, jota paketin omassa rank-5-perustelussa nimenomaisesti merkitään manuaalisen vahvistamisen tarpeeksi.
 
----
+Korkeimman sijoituksen ennustettu indikaatio, gingivaalinen fibromatoosi, on hyvänlaatuinen gingivaalinen ylikasvain, joka on useimmiten yhdistetty SOS1/REST-geenimuutoksiin tai lääkkeiden – kuten siklosporiinin, fenytoiinin tai kalsiumkanavaestäjien – aiheuttamaan. Näyttöpaketin omassa mekanistisessa arvioinnissa todetaan, ettei EGFR-signaloinnin ja gingivaalisen fibromatoosin patogeneesiyksen välillä ole tunnettua yhteyttä, eikä mitään kliinisen tutkimuksen tai kirjallisuuden näyttöä (0/0) ole saatu linkin tueksi – tämä ennuste näyttää olevan mallin pisteytysartefakti eikä perusteltu hypoteesi.
 
-## Finland Market Information
-
-Gefitinib is currently **not marketed in Finland** (market status: Not marketed) and has **0 recorded marketing authorizations** in this evidence pack. No authorization records are available to tabulate.
+Kymmenen tarkistamansa ennusteen joukossa rank #5 (keuhkon juuren syöpä) ja rank #9 (keuhkon sulkus-neoplasma) – molemmat NSCLC:n anatomisia alamuotoja – kantavat selvästi vahvemman mekanistisen perustan, koska gefitinibin EGFR-TKI-aktiivisuus on suoraan merkityksellinen NSCLC-biologialle. Näitä tulisi käsitellä uskottavimmiksi tutkimuskysymyksiksi, jotka nousevat tästä näyttöpaketista, eikä korkeimman sijoituksen mutta mekanistisesti perusteetonta gingivaalisen fibromatoosin ennusteesta.
 
 ---
 
-## Cytotoxicity
+## Kliinisen tutkimuksen näyttö
 
-Gefitinib is an antineoplastic agent (literature within this pack directly documents its use "for the treatment of chemoresistant non-small cell lung cancer patients," PMID 24794908), classified pharmacologically as a targeted small-molecule kinase inhibitor rather than conventional cytotoxic chemotherapy.
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (EGFR tyrosine kinase inhibitor) |
-| Myelosuppression Risk | Low — as a targeted EGFR-TKI, gefitinib is not directly cytotoxic to bone marrow, unlike conventional chemotherapy agents |
-| Emetogenicity Classification | Low |
-| Monitoring Items | Liver function (hepatotoxicity risk), pulmonary status (interstitial lung disease — PMID 20942679, 20949670), ECG/QTc (PMID 34474028, 37258113), skin toxicity (acneiform eruption — PMID 18931563), baseline CBC |
-| Handling Protection | Oral hazardous-drug handling precautions recommended (avoid tablet crushing, use gloves) even though IV cytotoxic-handling protocols do not apply; confirm against official package insert once available |
-
-Note: this table is derived from literature retrieved elsewhere in this pack, not from a structured DrugBank toxicity field. Please cross-check against the official package insert once DG001 is resolved.
+Parhaillaan ei ole olemassa asiaan liittyviä rekisteröityjä kliinisiä tutkimuksia
 
 ---
 
-## Safety Considerations
+## Kirjallisuuden näyttö
 
-Please refer to the package insert for safety information.
-
-**⚠ Note:** Key warnings, contraindications, and DDI data are all recorded as data gaps in this pack. The missing TFDA/Fimea package insert (DG001) is flagged as **Blocking** severity — it prevents any S1 safety pre-assessment and must be resolved before further evaluation.
+Parhaillaan ei ole asiaan liittyviä kirjallisuuslähteitä saatavilla
 
 ---
 
-## Conclusion and Next Steps
+## Suomen markkinoiden tieto
 
-**Decision: Hold**
+Gefitinibi ei ole parhaillaan **markkinoilla Suomessa** (markkinoiden asema: Ei markkinoilla) ja sillä on **0 rekisteröityä markkinointilupia** tässä näyttöpaketissa. Mitään lupahakemusennätyksiä ei ole saatavilla esitettäväksi.
 
-**Rationale:**
-The top-ranked prediction (fibromatosis, gingival) has zero clinical trial or literature support and no plausible mechanistic link per the pack's own assessment (evidence level L5). Combined with the Blocking data gap in package-insert safety data (DG001), there is no basis to advance this candidate beyond the model-prediction stage.
+---
 
-**To proceed, the following is needed:**
-- Fimea/TFDA-approved package insert (resolves DG001 — currently Blocking)
-- Confirmed original indication and mechanism-of-action data for gefitinib (resolves DG002)
-- Re-validation of the TxGNN output against gefitinib's known NSCLC indication space, to distinguish genuine signal from embedding noise
-- If pursuing lung-cancer-adjacent candidates instead, targeted clinical trial/literature searches on EGFR-mutation status in lung hilum carcinoma (rank #5) and pulmonary sulcus neoplasm (rank #9), which show stronger mechanistic plausibility than the current top-ranked prediction
+## Sytotoksisuus
+
+Gefitinibi on antineoplastinen lääkeaine (tämän paketin kirjallisuus dokumentoi suoraan sen käyttöä "kemoresistentin keuhkoputken ei-pienisoluisen syövän potilaitten hoitoon," PMID 24794908), farmakologisesti luokiteltu kohdennetuksi pienimolekyyliseksi kinaasin estäjäksi eikä perinteiseksi sytotoksiseksi kemoterapiaksi.
+
+| Kohta | Sisältö |
+|------|---------|
+| Sytotoksisuuden luokittelu | Kohdennettu hoito (EGFR-tyrosiinikinaasin estäjä) |
+| Luuydinsupression riski | Matala – kohdennetun EGFR-TKI-valmisteen gefitinibina ei ole suoraa luuydinelle sytostaattista vaikutusta, toisin kuin perinteisillä kemoterapialääkkeillä |
+| Pahoinvointiin johtamisen luokittelu | Matala |
+| Seurantakohteet | Maksatoiminto (hepatotoksisuuden riski), keuhkojen tila (interstitiaalinen keuhkosairaus – PMID 20942679, 20949670), EKG/QTc (PMID 34474028, 37258113), ihoreaktiot (akneenomainen ihottuma – PMID 18931563), lähtötaso-verenkuva |
+| Käsittely ja suojaus | Suun kautta otettavan vaarallisen lääkkeen käsittelyohjeet suositellaan (vältä tabletin murskaamista, käytä suojakäsineitä), vaikka IV:n avulla annettavien sytotoksisten lääkkeiden käsittelyprotokollat eivät sovellu; vahvista virallisen pakkausselosteen kanssa kun DG001 on ratkaistu |
+
+Huomautus: tämä taulukko on peräisin muualla tässä paketissa haetusta kirjallisuudesta, ei strukturoidusta DrugBank-sytotoksisuuskentästä. Vahvista virallisen pakkausselosteen kanssa, kun DG001 on ratkaistu.
+
+---
+
+## Turvallisuusnäkökohtia
+
+Turvallisuustiedot on esitetty pakkausselosteessa.
+
+**⚠ Huomautus:** Keskeiset varoitukset, vasta-aiheet ja lääkkeiden välisen yhteisvaikutuksen tieto on kaiken kaikkiaan kirjattu tietovajeiksi tässä paketissa. Puuttuvan TFDA/Fimea-pakkausselosteen (DG001) vakavuus on merkitty **Estäväksi** – se estää minkä tahansa S1-turvallisuuden esiarvioin ja on ratkaistava ennen jatkovaiheita.
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidä varauksessa**
+
+**Perustelut:**
+Korkeimman sijoituksen ennusteen (gingivaalinen fibromatoosi) takana ei ole nolla kliinisen tutkimuksen tai kirjallisuuden näyttöä eikä uskottavaa mekanistista perustelua paketin omassa arvioinnissa (näytön taso L5). Yhdessä pakkausselosteen turvallisuustietojen estävän tietovajeen kanssa (DG001) ei ole perusteita edetä tätä ehdokasta malliennusteen vaiheen ulkopuolelle.
+
+**Jatkaakseen seuraavaa tarvitaan:**
+- Fimea/TFDA:n hyväksymä pakkausseloste (ratkaisee DG001 – parhaillaan Estävä)
+- Gefitinibin vahvistettu alkuperäinen indikaatio ja vaikutusmekanismin tieto (ratkaisee DG002)
+- TxGNN-tuotoksen uudelleenvalidointi gefitinibin tunnettujen NSCLC-indikaatiovaatimuksien suhteen, erottaakseen varsinaisen signaalin upotuskohinasta
+- Mikäli jatketaan keuhkojen syöpään liittyvien ehdokkaiden tutkimista, kohdennetut kliinisen tutkimuksen/kirjallisuushaet EGFR-mutaatiotilasta keuhkon juuren syövässä (rank #5) ja keuhkon sulkus-neoplasissa (rank #9), joissa näkyy vahvempi mekanistinen uskottavuus kuin nykyisessä korkeimman sijoituksen ennusteessa
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

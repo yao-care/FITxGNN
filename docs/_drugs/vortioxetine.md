@@ -29,64 +29,65 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Vortioxetine: From Major Depressive Disorder to Neurotic Disorder
+# Vortioxetine: Masennushäiriöstä hermostohäiriöön
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Vortioxetine is a multimodal serotonergic antidepressant originally developed and used for **Major Depressive Disorder (MDD)**. The TxGNN model's top-ranked prediction suggests possible efficacy in **Neurotic Disorder** — a broad, heterogeneous ICD-9 category covering anxiety, dissociative, and somatoform conditions — but this is currently supported by only **1 indirect clinical trial** and **1 review-level publication**, making the evidence base thin relative to the model's high confidence score.
+Vortioxetine on monimoodinen serotoniinerginen masennuslääke, joka on alun perin kehitetty ja käytetty **masennushäiriön (Major Depressive Disorder, MDD)** hoitoon. TxGNN-mallin korkeimmalle sijoittunut ennuste vihjaa mahdollisesta tehosta **hermostohäiriössä** — laajassa, heterogeenisessa ICD-9-luokassa, joka kattaa ahdistus-, dissosiaatio- ja somatoformiset oireet — mutta tätä tukee tällä hetkellä vain **yksi epäsuora kliininen tutkimus** ja **yksi review-tasoisisa julkaisu**, mikä tekee näyttökannan ohueksi verrattuna mallin korkeaan luottamuspistesarjaan.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Major Depressive Disorder (MDD) — per literature evidence; no Finland license record available (drug not marketed) |
-| Predicted New Indication | Neurotic Disorder |
-| TxGNN Prediction Score | 99.24% |
-| Evidence Level | L4 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Research Question |
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Masennushäiriö (MDD) — kirjallisuuden näytön mukaan; Suomen markkinointi­lupaa ei ole saatavilla (lääkettä ei markkinoida) |
+| Ennustettu uusi indikaatio | Hermostohäiriö |
+| TxGNN-ennustuspistemäärä | 99.24% |
+| Näyttötaso | L4 |
+| Suomen markkinatilanne | ✗ Ei markkinoitu |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Research Question |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on perusteltu?
 
-Detailed mechanism-of-action data for vortioxetine is flagged as a data gap in this evidence pack (DG002, High severity). Based on information available in the associated literature (e.g., PMID 25016186, PMID 29189941), vortioxetine is known to act as a serotonin (5-HT) transporter (SERT) inhibitor combined with 5-HT3, 5-HT7, and 5-HT1D receptor antagonism, 5-HT1B partial agonism, and 5-HT1A agonism — a "multimodal" profile that increases serotonergic, noradrenergic, dopaminergic, and cholinergic neurotransmission. Its efficacy in MDD has been well established through multiple Phase 3 registration trials and network meta-analyses.
+Vortioxetiiinin yksityiskohtaiset toimintamekanismin tiedot on merkitty tämän näyttöpaketin tietovajeeksi (DG002, korkea vakavuus). Saatavilla olevien kirjallisuustietojen perusteella (esim. PMID 25016186, PMID 29189941) vortioxetiiini toimii serotoniini (5-HT) -kuljetushilifusin (SERT) estoaineena yhdistettynä 5-HT3-, 5-HT7- ja 5-HT1D-reseptoriantagonismiin, 5-HT1B-osittaiseen agonismiin ja 5-HT1A-agonismiin — "monimoodinen" profiili, joka lisää serotoniinergista, noradrenergista, dopaminergista ja kolinergista neurotransmissiota. Sen teho masennushäiriön hoidossa on vahvistettu monien Phase 3 -rekisteröintitutkimusten ja verkon meta-analyysien kautta.
 
-"Neurotic disorder" is a broad, now largely retired ICD-9 classification that encompasses anxiety, dissociative, and somatoform symptom clusters rather than a single well-defined disease entity. Since anxiety commonly co-occurs with depression, and vortioxetine's serotonergic multimodal mechanism has a theoretical rationale for anxiety-comorbid depression, the biological plausibility for this link is not unreasonable.
+"Hermostohäiriö" on laaja, nykyään enimmäkseen poistunut ICD-9-luokittelu, joka kattaa ahdistus-, dissosiaatio- ja somatoformiset oireyhdistelmät pikemminkin kuin yhden hyvin määritellyn sairauden kokonaisuuden. Koska ahdistus yleensä esiintyy samanaikaisesti masennuksen kanssa ja vortioxetiiinin serotoniinergisella monimoodisella mekanismilla on teoreettinen peruste ahdistus-samanaikaisen masennuksen kannalta, biologinen uskottavuus tälle yhteydelle on järkevä.
 
-However, the model's own rationale flags an important caveat: current evidence for "neurotic disorder" is only indirect (a general-population real-world antidepressant cohort study and a case-report-style review focused on a narrower, related term — "neurotic depression") and does not specifically validate this broad diagnostic category. Notably, this same evidence pack contains two closely related, more specific candidate terms — **melancholia** and **neurotic depression** — each supported by Phase 3 RCT-level evidence (evidence level L1) and multiple network meta-analyses, including the well-known Cipriani et al. 21-antidepressant comparison (PMID 29477251). Those candidates represent substantially stronger, more actionable repurposing signals than the top-ranked "neurotic disorder" prediction evaluated here.
+Kuitenkin mallin oma rationale osoittaa tärkeän varoituksen: nykyinen näyttö "hermostohäiriöstä" on vain epäsuora (yleisen väestön todellisen maailman antidepressanttikohorttitutkimus ja case-report-tyylinen review, joka käsittelee kapeampaa, liittyvää termia — "hermoston masennushäiriö") eikä erityisesti vahvista tätä laajaa diagnostista luokkaa. Merkittävää on, että tämä sama näyttöpaketti sisältää kaksi läheisesti liittyvää, spesifisempää ehdokasta — **melankolia** ja **hermoston masennushäiriö** — joita kukin tukee Phase 3 RCT-tason näyttö (näyttötaso L1) ja useita verkon meta-analyyseja, mukaan lukien tunnettu Cipriani et al. 21 antidepressantin vertailu (PMID 29477251). Nämä ehdokkaat edustävat huomattavasti vahvempia, käytännöllisempiä uudelleenkäyttösignaaleja kuin tässä arvioidulla korkeimmalle sijoittuneella "hermostohäiriö" -ennusteella.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimusrekisterinumero | Vaihe | Tila | Osallistujamäärä | Keskeiset löydökset |
 |---------|------|------|------|---------|
-| [NCT04446039](https://clinicaltrials.gov/study/NCT04446039) | N/A | Completed | 370,212 | Real-world retrospective cohort using nationwide claims data comparing medication utilization patterns and adverse-outcome risk across commonly used antidepressants; population is general depression patients, not specifically defined as "neurotic disorder" — relevance graded C (indirect). |
+| [NCT04446039](https://clinicaltrials.gov/study/NCT04446039) | N/A | Valmistunut | 370,212 | Todellisen maailman retrospektiivinen kohorttitutkimus, joka käytti kansallisia korvaus­tietokantoja antidepressanttien käyttömuotojen ja haittavaikutusten riskin vertailuun yleisesti käytettyjen antidepressanttien välillä; populaatio koostuu yleisistä masennuspotilaista, joita ei ole erityisesti määritelty "hermostohäiriön" omaaviksi — relevanssi arvioitu C (epäsuora). |
 
-## Literature Evidence
+## Kirjallisuusnäyttö
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
 |------|-----|------|------|---------|
-| [31006795](https://pubmed.ncbi.nlm.nih.gov/31006795/) | 2019 | Review (case report) | Zhurnal nevrologii i psikhiatrii imeni S.S. Korsakova | Case report on "neurotic depression" treatment approaches, noting the benefit of combining antidepressants with cognitive behavioral therapy; addresses a narrower diagnosis than the broader "neurotic disorder" category. |
+| [31006795](https://pubmed.ncbi.nlm.nih.gov/31006795/) | 2019 | Review (tapausraportti) | Zhurnal nevrologii i psikhiatrii imeni S.S. Korsakova | Tapausraportti "hermoston masennushäiriön" hoitomenetelmistä, huomioimassa antidepressanttien yhdistämisen hyödyn kognitiivis-behavioraaliseen terapiaan; käsittelee kapeampaa diagnoosia kuin laajempi "hermostohäiriö" -luokka. |
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Vortioxetine currently has **no marketing authorization in Finland** (0 licenses on record).
+Vortioxetiinil ei ole tällä hetkellä markkinointiluvan aikaista hyväksyntää Suomessa (0 lupaa tietueissa).
 
-## Safety Considerations
+## Turvallisuushuomiot
 
-Please refer to the package insert for safety information. Key warnings, contraindications, and drug-drug interaction data are not currently available in this evidence pack (TFDA/Fimea package insert review is flagged as a **Blocking** data gap, DG001).
+Katso tuoteselosteesta turvallisuustiedot. Keskeiset varoitukset, vasta-aiheet ja lääkkeiden välisen vuorovaikutuksen tiedot eivät ole tällä hetkellä saatavilla tässä näyttöpaketissa (TFDA/Fimea tuoteselosteen katsaus on merkitty **Blocking**-tietovajeksi, DG001).
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Research Question**
+**Päätös: Research Question**
 
-**Rationale:**
-The TxGNN score for "neurotic disorder" is high, but supporting evidence is limited to one indirect real-world cohort study and one review discussing a related but narrower diagnosis. No study directly evaluates vortioxetine in a population specifically diagnosed with the broad "neurotic disorder" category, so this remains a hypothesis-generating signal rather than an actionable repurposing case.
+**Perustelut:**
+TxGNN:n pistemäärä "hermostohäiriölle" on korkea, mutta tukevat näyttö rajoittuu yhteen epäsuoraan todellisen maailman kohorttitutkimukseen ja yhteen review-katsaukseen, joka käsittelee liittyvää mutta kapeampaa diagnoosia. Mikään tutkimus ei erityisesti tutki vortioxetiiinia populaatiossa, jolle olisi diagnosoitu laaja "hermostohäiriö" -luokka, joten tämä pysyy hypoteesin generoivana signaalina oikean uudelleenkäyttötapauksen sijaan.
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert data (warnings, contraindications) — currently a Blocking data gap (DG001)
-- Confirmed mechanism-of-action data from DrugBank — currently a High-severity data gap (DG002)
-- A study or trial specifically targeting the "neurotic disorder" diagnostic category (anxiety/dissociative/somatoform spectrum), rather than proxy terms like general antidepressant cohorts
-- Consider prioritizing the related, better-supported candidates in this same evidence pack — **melancholia** and **neurotic depression** — both rated L1 evidence with Phase 3 RCT support and recommended as "Proceed with Guardrails"
+**Jatkamiseksi seuraavaa tarvitaan:**
+- TFDA/Fimea tuoteselosteen tiedot (varoitukset, vasta-aiheet) — tällä hetkellä Blocking-tietovaje (DG001)
+- Vahvistettu toimintamekanismin data DrugBankista — tällä hetkellä korkean vakavuuden tietovaje (DG002)
+- Tutkimus tai kliininen tutkielma, joka kohdistuu erityisesti "hermostohäiriön" diagnostiseen luokkaan (ahdistus/dissosiaatio/somatoformiset spektri) eikä välillisiin termeihin kuten yleisiin antidepressanttikohorteihin
+- Harkitse tämän saman näyttöpaketin liittyvien, paremmin tuettujen ehdokkaiden priorisoimista — **melankolia** ja **hermoston masennushäiriö** — joita kukin tukee L1-tason näyttö Phase 3 RCT -tuella ja suositellaan "Proceed with Guardrails" -päätöksellä
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

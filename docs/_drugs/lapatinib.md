@@ -29,102 +29,103 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Lapatinib: Drug Repurposing Evaluation Report
+# Lapatinib: Lääkkeen uudelleenkäyttöä koskevan arvioinnin raportti
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Lapatinib is a dual tyrosine kinase inhibitor targeting HER2 (ErbB2) and EGFR (ErbB1), originally developed for HER2-positive advanced breast cancer.
-**This Evidence Pack is critically incomplete: the `predicted_indications` field is empty**, meaning no TxGNN repurposing predictions are available for evaluation at this time.
-Without a predicted new indication, a full repurposing analysis cannot be generated — a **Hold** decision applies until the Evidence Pack is completed.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | HER2-positive advanced or metastatic breast cancer (from domain knowledge; not present in Evidence Pack) |
-| Predicted New Indication | **Not available** — `predicted_indications` is empty |
-| TxGNN Prediction Score | Not available |
-| Evidence Level | Cannot be determined |
-| Finland Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+Lapatinib on proteiinityrosiinikinaasin kaksoisestäjä, joka kohdistuu HER2:iin (ErbB2) ja EGFR:iin (ErbB1), ja se kehitettiin alun perin HER2-positiiviseen edistyneeseen rintasyöpään.
+**Tämä todistusten kokoelma on kriittisesti epätäydellinen: kenttä `predicted_indications` on tyhjä**, mikä tarkoittaa, että TxGNN-uudelleenkäyttöennusteita ei ole saatavilla tätä kertaa arviointia varten.
+Ilman ennustettua uutta käyttöosoitusta täydellistä uudelleenkäytön analyysia ei voida tuottaa — päätös on **Pysäytä** kunnes todistusten kokoelma on täytetty.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack (`original_moa: [Data Gap]`). Based on publicly known pharmacology, Lapatinib (DrugBank ID: DB01259) is a small-molecule, reversible dual inhibitor of the intracellular tyrosine kinase domains of HER2/ErbB2 and EGFR/ErbB1. By blocking downstream RAS/MAPK and PI3K/AKT signalling pathways, it inhibits tumour cell proliferation and survival in HER2-overexpressing cancers.
-
-Because no TxGNN prediction exists in this Evidence Pack, it is not possible to assess mechanistic plausibility for any specific new indication. Once a target indication is provided by the prediction pipeline, the mechanistic link between HER2/EGFR signalling and that disease can be formally evaluated.
-
-**This section will be completed once `predicted_indications` is populated.**
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered in this Evidence Pack.
-
-> *Reason: `predicted_indications` is empty. Clinical trial evidence is indication-specific and cannot be retrieved without a target disease.*
+| Kohde | Sisältö |
+|-------|---------|
+| Alkuperäinen käyttöosoitus | HER2-positiivinen edistynyt tai etäpesäkkeinen rintasyöpä (aihealueiden tiedoista; ei läsnä todistusten kokoelmassa) |
+| Ennustettu uusi käyttöosoitus | **Ei saatavilla** — kenttä `predicted_indications` on tyhjä |
+| TxGNN-ennustepistemäärä | Ei saatavilla |
+| Todisteiden taso | Ei voida määrittää |
+| Suomen markkinatilanne | Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | **Pysäytä** |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennuste on järkevä?
 
-Currently no related literature available in this Evidence Pack.
+Yksityiskohtaiset toimintamekanismin tiedot eivät ole tällä hetkellä saatavilla todistusten kokoelmassa (`original_moa: [Data Gap]`). Julkisesti tunnetun farmakologian perusteella lapatinib (DrugBank-tunniste: DB01259) on pieni-molekylaarinen, palautuva proteiinityrosiinikinaasin intrasellulaarisen domeenin kaksoisestäjä, joka kohdistuu HER2/ErbB2:een ja EGFR/ErbB1:een. Estämällä alavirtaan olevia RAS/MAPK- ja PI3K/AKT-signaloitumisreittejä se estää HER2-ylituotettujen syöpäsolujen lisääntymisen ja selviytymisen.
 
-> *Reason: `predicted_indications` is empty. Literature evidence is indication-specific and cannot be retrieved without a target disease.*
+Koska tässä todistusten kokoelmassa ei ole TxGNN-ennustetta, ei ole mahdollista arvioida mekanistista uskottavuutta mihinkään tiettyyn uuteen käyttöosoitukseen. Kun ennuste-pipeline tarjoaa kohteeksi valitun käyttöosoituksen, HER2/EGFR-signaloitumisen ja kyseisen sairauden mekanistinen yhteys voidaan muodollisesti arvioida.
 
----
-
-## Finland Market Information
-
-Lapatinib has **0 authorizations** in the regulatory database queried. The drug is currently **not marketed**.
-
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------------------|-------------|-------------|---------------------|
-| — | — | — | No authorizations on record |
+**Tämä osio täydennetään, kun kenttä `predicted_indications` on täytetty.**
 
 ---
 
-## Cytotoxicity
+## Kliinisen tutkimuksen todisteet
 
-Lapatinib is an antineoplastic targeted therapy (HER2/EGFR dual tyrosine kinase inhibitor). The following applies:
+Tällä hetkellä tähän todistusten kokoelmaan ei ole rekisteröity asiaan liittyviä kliinisiä tutkimuksia.
 
-| Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy — HER2/EGFR dual tyrosine kinase inhibitor |
-| Myelosuppression Risk | Low to moderate (less myelosuppressive than conventional cytotoxics; neutropenia reported but less frequent) |
-| Emetogenicity Classification | Low |
-| Monitoring Items | Liver function tests (LFTs), cardiac function (LVEF), CBC, electrolytes (QTc monitoring required) |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+> *Syy: kenttä `predicted_indications` on tyhjä. Klinisen tutkimuksen todisteet ovat käyttöosoituskohtaisia, eikä niitä voi hakea ilman kohdesairautta.*
 
 ---
 
-## Safety Considerations
+## Kirjallisuuden todisteet
 
-Please refer to the package insert for safety information.
+Tällä hetkellä tähän todistusten kokoelmaan ei ole saatavilla asiaan liittyvää kirjallisuutta.
 
-> *All safety fields (`key_warnings`, `contraindications`, DDI) are marked as data gaps in the current Evidence Pack. The TFDA package insert query returned a result (query log ID 4, status: success), but the parsed content was not loaded into this Evidence Pack version. Remediation: parse the TFDA package insert PDF.*
+> *Syy: kenttä `predicted_indications` on tyhjä. Kirjallisuuden todisteet ovat käyttöosoituskohtaisia, eikä niitä voi hakea ilman kohdesairautta.*
 
 ---
 
-## Conclusion and Next Steps
+## Suomen markkinatiedot
 
-**Decision: Hold**
+Lapatinib-lääkkeellä on **0 hyväksyntää** kyselyyn lähetetyssa sääntelytietokannassa. Lääke ei ole tällä hetkellä **markkinoilla**.
 
-**Rationale:**
-This Evidence Pack is missing the two most critical components for repurposing analysis — `predicted_indications` (TxGNN output) and `original_moa` — making it impossible to assess either the candidate indication or the mechanistic plausibility of the prediction.
+| Hyväksyntänumero | Tuotteen nimi | Lääkemuoto | Hyväksytty käyttöosoitus |
+|------------------|---------------|-----------|-------------------------|
+| — | — | — | Rekisteröityjä hyväksyntöjä ei ole |
 
-**To proceed, the following is needed:**
+---
 
-- **[Blocking]** Run TxGNN prediction pipeline for DB01259 and populate `predicted_indications` with at least one candidate disease, including `txgnn.score`, `evidence.clinical_trials`, and `evidence.literature`
-- **[High]** Retrieve Lapatinib MOA from DrugBank API (DrugBank query returned success with 1 result in query log ID 3 — this data should already be parseable)
-- **[High]** Parse TFDA package insert PDF (query log ID 4 returned success) to extract `key_warnings` and `contraindications` and resolve data gaps DG001/DG002
-- **[Medium]** Re-run DDI query with a broader search scope (current result: `not_found`; consider synonym or brand name search for Lapatinib/Tykerb)
-- Once `predicted_indications` is populated, regenerate this report using Evidence Pack v5+
+## Solumyrkyllisyys
+
+Lapatinib on syöpänsolujen kasvua estävä kohdennettu lääkehoito (HER2/EGFR-proteiinityrosiinikinaasin kaksoisestäjä). Seuraavaa sovelletaan:
+
+| Kohde | Sisältö |
+|-------|---------|
+| Solumyrkyllisyysluokitus | Kohdennettu lääkehoito — HER2/EGFR-proteiinityrosiinikinaasin kaksoisestäjä |
+| Luuydinsuppressio-riski | Alhainen tai kohtalainen (pienempi luuydinsuppressio kuin perinteisillä sytostaateiilla; neutropeniaa on raportoitu, mutta harvemmin) |
+| Pahoinvointiluokitus | Alhainen |
+| Valvottavat tekijät | LFTs, sydämen toiminto (LVEF), täydellinen verenkuva, elektrolyytit (QTc-seuranta vaaditaan) |
+| Käsittelysuojat | Katso pakkausselosteesta varoituksia ja varotoimia |
+
+---
+
+## Turvallisuustarkastelut
+
+Katso turvallisesta tiedosta pakkausselosteesta.
+
+> *Kaikki turvallisuuskentät (`key_warnings`, `contraindications`, DDI) on merkitty tietovajeiksi nykyisessä todistusten kokoelmassa. TFDA-pakkausseloste-kysely palautti tuloksen (kyselylokin tunniste 4, tila: success), mutta jäsenneltyä sisältöä ei ladattu tähän todistusten kokoelman versioon. Korjaus: jäsennä TFDA-pakkausseloste-PDF.*
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pysäytä**
+
+**Perustelu:**
+Tästä todistusten kokoelmasta puuttuu kaksi kriittisintä komponenttia uudelleenkäytön analyysille — `predicted_indications` (TxGNN-tuloste) ja `original_moa` — mikä tekee mahdottomaksi arvioida sekä ehdokaskäyttöosoitusta että ennusteen mekanistista uskottavuutta.
+
+**Jatkamista varten tarvitaan seuraavaa:**
+
+- **[Esto]** Aja TxGNN-ennuste-pipeline tunnukselle DB01259 ja täytä kenttä `predicted_indications` vähintään yhdellä ehdokassairaudella, mukaan lukien `txgnn.score`, `evidence.clinical_trials` ja `evidence.literature`
+- **[Korkea]** Hae lapatiniibin toimintamekanismi (MOA) DrugBank-ohjelmistorajapinnasta (DrugBank-kysely palautti onnistumisen 1 tuloksella kyselylokin tunnisteen 3 — nämä tiedot olisi jo pitänyt jäsennellä)
+- **[Korkea]** Jäsennä TFDA-pakkausseloste-PDF (kyselylokin tunniste 4 palautti onnistumisen) poistaaksesi `key_warnings` ja `contraindications` sekä ratkaisemaan tietovajeita DG001/DG002
+- **[Keskitaso]** Aja DDI-kysely uudelleen laajemmalla hakualueella (nykyinen tulos: `not_found`; harkitse synonyymia tai tuotenimenä hakua lapatiniibin/Tykerb-nimelle)
+- Kun kenttä `predicted_indications` on täytetty, tuota tämä raportti uudelleen Evidence Pack v5+-versiolla
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

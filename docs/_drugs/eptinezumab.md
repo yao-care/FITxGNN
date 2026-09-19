@@ -29,71 +29,72 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Eptinezumab: From Migraine Prevention to Migraine with Brainstem Aura
+# Eptinezumabi: Migreenipreventioista migreeniin aivovartaloauran kanssa
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Eptinezumab is an anti-CGRP monoclonal antibody used for migraine prevention (episodic and chronic).
-The TxGNN model predicts it may be effective for **Migraine with Brainstem Aura**, a specific ICHD-3 migraine subtype,
-currently supported by **0 clinical trials** and **8 publications**, most of which address the broader "migraine with aura" population rather than this subtype specifically.
+Eptinezumabi on anti-CGRP-monoklonaalinen vasta-aine, jota käytetään migreenipreventioissa (episodinen ja krooninen).
+TxGNN-malli ennustaa sen olevan tehokas **migreeniin aivovartaloauran kanssa**, tietyn ICHD-3-migreenivaihtelun osalta,
+jota tukee tällä hetkellä **0 kliinistä tutkimusta** ja **8 julkaisua**, joista suurin osa käsittelee laajempaa "migreeniä auran kanssa" -populaatiota kuin tätä erityistä alaryhmiä.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Migraine prevention (episodic/chronic) — general pharmacological use; no Finland license record available |
-| Predicted New Indication | Migraine with Brainstem Aura |
-| TxGNN Prediction Score | 99.94% (rank 917) |
-| Evidence Level | L4 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|------|--------|
+| Alkuperäinen indikaatio | Migreenipreventio (episodinen/krooninen) – yleinen farmakologinen käyttö; Suomesta ei ole lisenssitietoja saatavilla |
+| Ennustettu uusi indikaatio | Migreeni aivovartaloauran kanssa |
+| TxGNN-ennusteen pistemäärä | 99.94% (sijoitus 917) |
+| Todisteen taso | L4 |
+| Suomen markkinatilanne | ✗ Ei markkinoilla |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Pidätys |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known information, Eptinezumab is an anti-CGRP (calcitonin gene-related peptide) monoclonal antibody administered by IV infusion, approved for prevention of episodic and chronic migraine; its efficacy in reducing migraine frequency has been established in Phase 3 trials (PROMISE-1, PROMISE-2).
+Tällä hetkellä yksityiskohtaista vaikutusmekanismin tietoa ei ole saatavilla tässä todisteen paketissa. Tunnettujen tietojen perusteella eptinezumabi on anti-CGRP (kalsitoniin-genille sukua oleva peptidi) -monoklonaalinen vasta-aine, joka annetaan IV-infuusiona ja joka on hyväksytty episodisen ja krooniisen migreeni ehkäisyyn; sen tehokkuus migreeniesiintymisyyden vähentämisessä on vakiintunut vaiheessa 3 olevissa tutkimuksissa (PROMISE-1, PROMISE-2).
 
-The proposed new indication, "migraine with brainstem aura" (formerly basilar-type migraine), is a specific ICHD-3 subtype whose aura symptoms (diplopia, dysarthria, vertigo, etc.) are thought to relate more to cortical spreading depression and posterior-circulation mechanisms than to CGRP signaling itself. CGRP's role in the headache phase of migraine is well established, but its causal role in the aura phase remains debated.
+Ehdotettu uusi indikaatio, "migreeni aivovartaloauran kanssa" (entinen basilaarinen migreeni), on tietty ICHD-3-alaryhmiä, jonka aura-oireet (diplopia, dysartria, vertigo jne.) liittyvät enemmän kortikaalisen leviävän depolarisaation ja takajohtomekaniisiin kuin itse CGRP-signalointiin. CGRP:n rooli migreeni päänsärkyvaiheen aikana on hyvin vakiintunut, mutta sen syy-rooli auravaiheessa jää keskustelujen kohteeksi.
 
-Notably, one RCT in this evidence set (PMID 40229719) found that PACAP38-induced migraine attacks occur independently of CGRP signaling, suggesting a CGRP-independent pathway may drive certain aura/trigger mechanisms — this weakens direct mechanistic extrapolation to the brainstem aura subtype. The remaining literature largely covers the broader "migraine with aura" population, so this prediction currently represents an indirect, mechanism-based extrapolation rather than a therapeutic effect validated for this specific subtype.
+Merkittävästi, yksi RCT tässä todisteen joukossa (PMID 40229719) osoitti, että PACAP38-indusoituneet migreenihyökkäykset tapahtuvat riippumatta CGRP-signaaliosta, mikä viittaa siihen, että CGRP-riippumaton reitti voi ohjata tiettyjä aura- ja laukaisomekanismeja – tämä heikentää suoraa mekanistista ekstrapolointia aivovartaloaura-alaryhmiään. Loput kirjallisuus kattaa suurelta osin laajempaa "migreeniä auran kanssa" -populaatiota, joten tämä ennuste edustaa tällä hetkellä epäsuoraa, mekanismiin perustuvaa ekstrapolointia sen sijaan että se olisi validoitu terapeuttinen vaikutus tälle tietylle alaryhmialle.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen todisteet
 
-Currently no related clinical trials registered
+Tällä hetkellä asiaan liittyviä rekisteröityjä kliinisiä tutkimuksia ei ole
 
-## Literature Evidence
+## Kirjallisuuden todisteet
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [40229719](https://pubmed.ncbi.nlm.nih.gov/40229719/) | 2025 | RCT (mechanistic) | J Headache Pain | PACAP38-induced migraine attacks are independent of CGRP signaling, suggesting a CGRP-independent pathway may exist alongside CGRP-mediated mechanisms |
-| [35302389](https://pubmed.ncbi.nlm.nih.gov/35302389/) | 2022 | Post-hoc Analysis of Phase 3 RCT | Cephalalgia | Post hoc analysis of PROMISE-1/PROMISE-2 evaluating eptinezumab efficacy and safety in patients with migraine and self-reported aura |
-| [30725283](https://pubmed.ncbi.nlm.nih.gov/30725283/) | 2019 | Review | Handbook Exp Pharmacol | Overview of CGRP's central role in migraine pathophysiology, including trigeminal system involvement |
-| [40341526](https://pubmed.ncbi.nlm.nih.gov/40341526/) | 2025 | Review | Headache | Case series of genetic migraine disorders responsive to CGRP antagonist therapy |
-| [33550872](https://pubmed.ncbi.nlm.nih.gov/33550872/) | 2021 | Review | Pain Management | Overview of new acute/preventive migraine treatments including eptinezumab |
-| [32699706](https://pubmed.ncbi.nlm.nih.gov/32699706/) | 2020 | Review | Cureus | Review of CGRP antagonists in episodic and chronic migraine management |
-| [40191903](https://pubmed.ncbi.nlm.nih.gov/40191903/) | 2025 | Case Report | Rev Neurol | Case of successful management of "wearing-off" effect with eptinezumab in chronic migraine refractory to two subcutaneous CGRP antibodies |
-| [35268319](https://pubmed.ncbi.nlm.nih.gov/35268319/) | 2022 | Case Reports + Literature Review | J Clin Med | Case reports and literature review on efficacy of anti-CGRP monoclonal antibodies (including eptinezumab) specifically for migraine aura |
+| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät tulokset |
+|------|------|--------|-------|--------|
+| [40229719](https://pubmed.ncbi.nlm.nih.gov/40229719/) | 2025 | RCT (mekanistinen) | J Headache Pain | PACAP38-indusoituneet migreenihyökkäykset ovat riippumattomia CGRP-signaaliosta, mikä viittaa siihen, että CGRP-riippumaton reitti voi olla olemassa CGRP-välitteisten mekanismien rinnalla |
+| [35302389](https://pubmed.ncbi.nlm.nih.gov/35302389/) | 2022 | Vaiheen 3 RCT:n post hoc -analyysi | Cephalalgia | PROMISE-1/PROMISE-2-tutkimusten post hoc -analyysi arvioimassa eptinezumabin tehokkuutta ja turvallisuutta potilailla, joilla on migreeni ja itseraportoidut aura |
+| [30725283](https://pubmed.ncbi.nlm.nih.gov/30725283/) | 2019 | Katsaus | Handbook Exp Pharmacol | Yleiskatsaus CGRP:n keskeisestä roolista migreeni patofysiologiassa, mukaan lukien trigeminal-järjestelmän osallisuus |
+| [40341526](https://pubmed.ncbi.nlm.nih.gov/40341526/) | 2025 | Katsaus | Headache | Geneettisten migreeni häiriöiden tapaustutkimus, jotka reagoivat CGRP-antagonisti-hoitoon |
+| [33550872](https://pubmed.ncbi.nlm.nih.gov/33550872/) | 2021 | Katsaus | Pain Management | Yleiskatsaus uusiin äkillisiin ja ennaltaehkäiseviin migreeni hoitoihin, mukaan lukien eptinezumabi |
+| [32699706](https://pubmed.ncbi.nlm.nih.gov/32699706/) | 2020 | Katsaus | Cureus | Katsaus CGRP-antagonisteista episodisen ja krooniisen migreeni hallinnassa |
+| [40191903](https://pubmed.ncbi.nlm.nih.gov/40191903/) | 2025 | Tapausraportti | Rev Neurol | Tapaus eptinezumabin onnistuneesta käytöstä "väsytys-ilmiön" hallinnassa kroonisissa migreeneissa, jotka eivät vastanneet kahteen subkutaaniseen CGRP-vasta-aineeseen |
+| [35268319](https://pubmed.ncbi.nlm.nih.gov/35268319/) | 2022 | Tapaustulokset + kirjallisuuskatsaus | J Clin Med | Tapaustulokset ja kirjallisuuskatsaus anti-CGRP-monoklonaalisten vasta-aineiden (mukaan lukien eptinezumabi) tehokkuudesta erityisesti migreeni aurassa |
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Eptinezumab is currently **not marketed** in Finland; no marketing authorization records are available in this evidence pack.
+Eptinezumabi ei ole tällä hetkellä markkinoilla Suomessa; tässä todisteen paketissa ei ole saatavilla markkinointi-lupahakemustietoja.
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information.
+Turvallisuustiedoista katso pakkausselosetta.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidätys**
 
-**Rationale:**
-Evidence level is L4 (mechanism/preclinical-grade extrapolation only) — there are no clinical trials specific to migraine with brainstem aura, and one RCT in the evidence set (PMID 40229719) suggests a CGRP-independent pathway may underlie certain migraine attack/aura mechanisms, weakening the mechanistic case. In addition, Finland/TFDA safety labeling data is flagged as a **Blocking** data gap (DG001), which prevents even an initial S1 safety evaluation.
+**Perustelut:**
+Todisteen taso on L4 (vain mekanismi/prekliinisen tason ekstrapolointi) – ei ole olemassa kliinisiä tutkimuksia erityisesti migreeniin aivovartaloauran kanssa, ja yksi RCT todisteen joukossa (PMID 40229719) viittaa siihen, että CGRP-riippumaton reitti voi olla taustalla tietyissä migreenihyökkäys-/auravaiheissa, mikä heikentää mekanistista tapausta. Lisäksi Suomen/TFDA turvallisuusmerkintöjen tieto on merkitty **estäväksi** tietoaukoksi (DG001), mikä estää jopa alkuvaiheen S1 turvallisuusarvioinnin.
 
-**To proceed, the following is needed:**
-- Package insert safety data (warnings, contraindications) — currently a Blocking gap (DG001)
-- Confirmed mechanism of action data from DrugBank (currently a High-severity gap, DG002)
-- Clinical or observational evidence specific to the migraine-with-brainstem-aura subtype, rather than the broader migraine-with-aura population
-- Clarification of Finland market entry status/timeline, since the drug is not currently marketed there
+**Jatkaakseen tarvitaan seuraavaa:**
+- Pakkausselostteen turvallisuustiedot (varoitukset, vasta-aiheet) – tällä hetkellä estävä aukko (DG001)
+- Vahvistettu vaikutusmekanismin tieto DrugBankista (tällä hetkellä korkean vakavuuden aukko, DG002)
+- Kliininen tai havainnollinen todiste erityisesti migreeni-aivovartaloauran-kanssa -alaryhmiälle, ei laajemmalle migreeni-auran-kanssa -populaatiolle
+- Suomen markkinoille tulon statuksen/aikataulun selventäminen, koska lääkettä ei ole tällä hetkellä markkinoilla siellä
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

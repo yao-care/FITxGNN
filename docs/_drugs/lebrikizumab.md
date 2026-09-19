@@ -29,80 +29,81 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 
 </div>
 
-# Lebrikizumab: Insufficient Data for Repurposing Evaluation
+# Lebrikizumab: Riittämätön tieto uudelleenkäyttöarvioinnille
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Lebrikizumab (DB11914) is a monoclonal antibody currently under evaluation for drug repurposing analysis. However, the current Evidence Pack contains **no TxGNN predicted indications** and **no original indication records**, making a complete repurposing assessment impossible at this stage. The data pipeline has identified critical gaps that must be resolved before any evidence-based recommendation can be made.
+Lebrikizumab (DB11914) on monoklonaalinen vasta-aine, joka on tällä hetkellä lääkkeen uudelleenkäyttöanalyysin arvioinnin kohteena. Evidence Pack -paketin tiedot sisältävät kuitenkin **ei yhtään TxGNN-ennustettua indikaatiota** ja **ei alkuperäisen indikaation tietueita**, mikä tekee täydellisen uudelleenkäyttöarvioinnin mahdottomaksi tässä vaiheessa. Tietoputkessa on tunnistettu kriittiset puutteet, jotka on ratkaistava ennen kuin mitään näyttöön perustuvaa suositusta voidaan antaa.
 
 ---
 
-## Quick Overview
+## Pikayleiskatsaus
 
-| Item | Content |
+| Kohde | Sisältö |
 |------|---------|
-| Original Indication | Not available in Evidence Pack |
-| Predicted New Indication | No predictions generated |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | L5 — Model prediction not yet available |
-| Taiwan Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+| Alkuperäinen indikaatio | Ei saatavilla Evidence Pack -paketissa |
+| Ennustettu uusi indikaatio | Ei ennusteita luotu |
+| TxGNN-ennustuksen pistemäärä | N/A |
+| Näyttötaso | L5 — Mallin ennustus ei vielä saatavilla |
+| Markkinatila Taiwanissa | ✗ Ei markkinoilla |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | **Pidä odotuksissa** |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, detailed mechanism of action data is not available for Lebrikizumab in this Evidence Pack. The DrugBank query was completed successfully (DB11914, query log entry #3), and the TFDA package insert search also returned a result (query log entry #4), yet neither MOA nor original indication data has been populated into the structured fields.
+Tällä hetkellä Lebrikizumabin yksityiskohtaista toimintamekanismin tietoa ei ole saatavilla tässä Evidence Pack -paketissa. DrugBank-kysely suoritettiin onnistuneesti (DB11914, kyselylokin merkintä #3), ja TFDA-pakkausselosteen haku palautti myös tuloksen (kyselylokin merkintä #4), mutta MOA- eikä alkuperäisen indikaation tiedot ole siirtyneet strukturoituihin kenttiin.
 
-Based on publicly available information, Lebrikizumab is a monoclonal antibody targeting **IL-13**, a cytokine involved in type 2 inflammatory signalling pathways. It is approved in several jurisdictions for moderate-to-severe atopic dermatitis. Its mechanism — blocking IL-13 from binding to the IL-13Rα1/IL-4Rα receptor complex — is distinct from cytotoxic chemotherapy, placing it firmly in the **targeted biologic / immunotherapy** category.
+Julkisesti saatavilla olevan tiedon perusteella Lebrikizumab on monoklonaalinen vasta-aine, joka kohdistuu **IL-13**:een, sytokiiniin, joka on mukana tyypin 2 inflammatorisen signaloinnin reiteissä. Se on hyväksytty useissa lainkäyttöalueissa keskivaikean ja vakavan atooppisen dermatiisin hoitoon. Sen mekanismi — IL-13:n estäminen sitoutumasta IL-13Rα1/IL-4Rα-reseptorikompleksiin — eroaa sytotoksisesta kemoterapiasta, ja se sijoittuu selvästi **kohdennettujen biologisten aineiden / immunoterapian** luokkaan.
 
-Because the `predicted_indications` array is empty in the current Evidence Pack, no repurposing target has been identified by the TxGNN pipeline. It is unclear whether this reflects a pipeline gap, a data ingestion failure, or a deliberate exclusion. This must be resolved before the rationale section can be meaningfully completed.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered in this Evidence Pack.
-
-> **Note:** This reflects only the contents of the Evidence Pack. External searches on ClinicalTrials.gov for Lebrikizumab return multiple completed and ongoing trials for atopic dermatitis and other inflammatory conditions, which may be relevant once a repurposing target is defined.
+Koska `predicted_indications`-taulukko on tyhjä nykyisessä Evidence Pack -paketissa, TxGNN-putki ei ole tunnistanut yhtään uudelleenkäyttötavoitetta. Ei ole selvää, heijasteleeko tämä putken puutetta, tiedon sisäänottohäiriötä vai tarkoituksellista poissulkemista. Tämä on ratkaistava ennen kuin perustelut voidaan täyttää mielekkäällä tavalla.
 
 ---
 
-## Literature Evidence
+## Kliiniset tutkimusnäytöt
 
-Currently no related literature available in this Evidence Pack.
+Tällä hetkellä Evidence Pack -paketissa ei ole asiaan liittyviä kliinisiä tutkimuksia rekisteröitynä.
 
----
-
-## Taiwan Market Information
-
-Lebrikizumab has **no registered licenses** in Taiwan as of data cutoff 2026-04-20. No authorizations, dosage forms, or approved indications are on record with the TFDA.
+> **Huomio:** Tämä heijastaa vain Evidence Pack -paketin sisältöä. Ulkoiset haut ClinicalTrials.gov-sivustolla Lebrikizumabille palauttavat useita valmiita ja meneillään olevia tutkimuksia atooppisesta dermatiisin ja muista inflammatorisista sairauksista, joista voi olla hyötyä, kun uudelleenkäyttötavoite on määritelty.
 
 ---
 
-## Safety Considerations
+## Kirjallisuusnäytöt
 
-Please refer to the package insert for safety information.
-
-> The TFDA package insert query returned a result (query log entry #4, status: success), but structured warning and contraindication fields were not populated. The DDI database returned no interactions. Raw package insert data should be parsed and reviewed directly before any clinical or regulatory step.
+Tällä hetkellä Evidence Pack -paketissa ei ole saatavilla kirjallisuusnäyttöjä.
 
 ---
 
-## Conclusion and Next Steps
+## Taiwanin markkinatiedot
 
-**Decision: Hold**
+Lebrikizumabilla ei ole **rekisteröityjä lupia** Taiwanissa tietojen keruupäivän 2026-04-20 mukaan. TFDA:lla ei ole tietueita lupista, annosmuodoista tai hyväksytyistä indikaatioista.
 
-**Rationale:**
-The Evidence Pack is missing two critical components — original indications and TxGNN predicted indications — which are prerequisite inputs for any repurposing evaluation. Without a defined repurposing target, no evidence assessment, safety mapping, or clinical pathway analysis is possible.
+---
 
-**To proceed, the following is needed:**
+## Turvallisuusnäkökohdat
 
-- **Resolve DG001 (Blocking):** Parse the TFDA package insert PDF (query log entry #4 returned success — raw content must be extracted and structured) to populate warnings, contraindications, and original approved indication
-- **Resolve DG002 (High):** Query DrugBank API for MOA data — DrugBank lookup was successful (entry #3) but MOA field is still unpopulated; review the raw DrugBank response
-- **Re-run TxGNN pipeline:** `predicted_indications` array is empty — confirm whether Lebrikizumab (DB11914) is present in the knowledge graph node set and re-trigger prediction generation
-- **Verify IL-13 pathway coverage:** Confirm the knowledge graph includes IL-13, IL-13Rα1, and IL-4Rα nodes to ensure biologic MOA is representable
-- **Register Taiwan license status:** If repurposing proceeds, a regulatory pathway assessment for Taiwan market entry will be required given the current zero-license status
+Turvallisuustiedoista katso pakkausseloste.
+
+> TFDA-pakkausselosteen kysely palautti tuloksen (kyselylokin merkintä #4, tila: onnistui), mutta strukturoidut varoitus- ja kontraindikaatiokentät eivät täyttyneet. DDI-tietokanta ei palauttanut yhtään vuorovaikutuksia. Raakapakkausselostetiedot tulisi jäsentää ja tarkistaa suoraan ennen mitään kliinistä tai sääntelyä koskevia vaiheita.
+
+---
+
+## Johtopäätökset ja seuraavat vaiheet
+
+**Päätös: Pidä odotuksissa**
+
+**Perustelut:**
+Evidence Pack -paketista puuttuvat kaksi kriittistä osaa — alkuperäiset indikaatiot ja TxGNN-ennustetut indikaatiot — jotka ovat edellytykset mille tahansa uudelleenkäyttöarvioinille. Ilman määriteltyä uudelleenkäyttötavoitetta ei ole mahdollista suorittaa näyttöarviointia, turvallisuuden kartoitusta tai kliinisen polun analyysia.
+
+**Jotta voimme edetä, seuraava on välttämätöntä:**
+
+- **Ratkaise DG001 (Estävä):** Jäsentele TFDA-pakkausseloste PDF:stä (kyselylokin merkintä #4 palautti onnistui — raakasisältö on purettava ja jäsennettävä) varoituksien, kontraindikaatioiden ja alkuperäisen hyväksytyn indikaation täyttämiseksi
+- **Ratkaise DG002 (Korkea):** Kysy DrugBank API:sta MOA-tiedoille — DrugBank-haku oli onnistunut (merkintä #3), mutta MOA-kenttä on silti täyttämättä; tarkista raakamuotoinen DrugBank-vastaus
+- **Suorita TxGNN-putki uudelleen:** `predicted_indications`-taulukko on tyhjä — vahvista, onko Lebrikizumab (DB11914) tietokaavion solmujoukossa ja käynnistä ennusteiden luominen uudelleen
+- **Tarkista IL-13-polun kattavuus:** Vahvista, että tietokaavio sisältää IL-13-, IL-13Rα1- ja IL-4Rα-solmut, jotta biologisen MOA:n esittäminen on mahdollista
+- **Rekisteröi Taiwanin lupastatus:** Jos uudelleenkäyttö etenee, sääntelyreitin arviointi Taiwanin markkinoille tulolle on tarpeen, kun otetaan huomioon nykyinen nolla-lupastatus
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

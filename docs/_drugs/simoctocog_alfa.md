@@ -29,76 +29,77 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Simoctocog Alfa: From Hemophilia A to Pseudo-von Willebrand Disease
+# Simoctocog alfa: hemofiliasta A pseudo-von Willebrandin tautiin
 
-## One-Sentence Summary
+## Yksirivinen yhteenveto
 
-> Simoctocog alfa is a recombinant human Factor VIII (B-domain-deleted rFVIII) used as replacement therapy in Hemophilia A.
-> The TxGNN model's top prediction is **Pseudo-von Willebrand Disease**, but this is currently supported by **0 clinical trials** and **0 publications** — it is a computational hypothesis only, not an evidence-backed signal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Hemophilia A (FVIII replacement therapy) — inferred from internal rationale notes; formal approved-indication text not yet retrieved |
-| Predicted New Indication | Pseudo-von Willebrand Disease |
-| TxGNN Prediction Score | 99.997% |
-| Evidence Level | L5 (model prediction only) |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Simoctocog alfa on rekombinanttihumaani tekijä VIII (B-domääni-poistettu rFVIII), jota käytetään korvaushoitona hemofiliassa A.
+> TxGNN-mallin huippu-ennustus on **pseudo-von Willebrandin tauti**, mutta sitä tuetaan tällä hetkellä **0 kliinisellä tutkimuksella** ja **0 julkaisulla** — se on vain laskennallinen hypoteesi, ei todiste-pohjainen signaali.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Pika-yleiskatsaus
 
-Detailed mechanism-of-action data is not currently available for simoctocog alfa (flagged as a High-severity data gap). Based on information available in this evidence pack, simoctocog alfa is a B-domain-deleted recombinant Factor VIII whose only established pharmacological action is replacing/supplementing endogenous FVIII activity in the coagulation cascade.
-
-Pseudo-von Willebrand disease (platelet-type vWD) is caused by a gain-of-function mutation in the platelet receptor GPIbα that increases its affinity for von Willebrand factor (VWF) — the pathology sits at the platelet receptor, not at Factor VIII itself. Because plasma FVIII circulates bound to VWF and depends on it for stability, there is an indirect biochemical relationship between the two proteins, but supplementing exogenous FVIII does not correct the GPIbα defect and could theoretically worsen platelet clearance by increasing VWF–platelet binding.
-
-Overall, the mechanistic link for this top-ranked prediction is weak, and the model score likely reflects semantic clustering around "bleeding disorders" in the knowledge graph rather than a validated causal pathway. Of the 10 predicted indications reviewed, rank #9 ("Hemophilia A with vascular abnormality") is mechanistically the most consistent with FVIII's known pharmacology, while rank #4 ("Scott syndrome") has a plausible indirect link via phosphatidylserine exposure and tenase complex assembly — both are noted here for context, though the template's primary output above reflects rank #1 as specified.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Kohde | Sisältö |
+|-------|---------|
+| Alkuperäinen indikaatio | Hemofilia A (FVIII-korvaushoito) — päätelty sisäisistä perustelumerkinnöistä; virallista hyväksyttyä indikaatiotekstiä ei ole vielä haettu |
+| Ennustettu uusi indikaatio | Pseudo-von Willebrandin tauti |
+| TxGNN-ennustepistemäärä | 99.997% |
+| Näyttötaso | L5 (vain mallin ennustus) |
+| Markkinatilanne Suomessa | ✗ Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Pidätä |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennustus on järkevä?
 
-Currently no related literature available.
+Yksityiskohtaisia vaikutusmekanismin tietoja ei ole tällä hetkellä saatavilla simoctocog alfalle (merkitty korkean vakavuuden tietovajeeksi). Tämän näyttöpaketin saatavilla olevien tietojen perusteella simoctocog alfa on B-domääni-poistettu rekombinanttihumaani tekijä VIII, jonka ainoa vahvistettu farmakologinen vaikutus on endogeenisen FVIII-aktiivisuuden korvaaminen tai täydentäminen hyytymiskaskadissa.
 
----
+Pseudo-von Willebrandin tauti (verihiutaletyypin vWD) johtuu verihiutaleiden reseptorin GPIbα:n funktionaalisesti vahvistavasta mutaatiosta, joka lisää sen affiniteettia von Willebrandin tekijää (VWF) kohtaan — patologia sijaitsee verihiutaleiden reseptorin tasolla, ei itse tekijä VIII:ssa. Koska plasman FVIII kiertää VWF:ään sitoutuneena ja riippuu siitä vakaudestaan, näiden kahden proteiinin välillä on epäsuora biokemiallinen yhteys. Eksogeeninisen FVIII:n lisääminen ei kuitenkaan korjaa GPIbα-vian aiheuttamaa häiriötä ja voisi teoriassa parantaa verihiutaleiden poistumaa lisäämällä VWF-verihiutaleiden sitomista.
 
-## Finland Market Information
-
-Simoctocog alfa is currently **not marketed** in Finland (0 authorizations on record); no license entries are available to tabulate.
+Kaiken kaikkiaan mekanistinen yhteys tälle huipulla olevaksi arvioidulle ennusteelle on heikko, ja mallin pistemäärä heijastaa todennäköisesti semanttista ryhmittelyä "hyytymishäiriöiden" ympärillä tietoverkossa pikemminkin kuin vahvistettua syy-seuraussuhdetta. Tarkistettujen 10 ennustetusta indikaatiosta listalla #9 ("Hemofilia A vaskulaarisen poikkeavuuden kanssa") on mekanistisesti eniten yhdenmukainen FVIII:n tunnetun farmakologian kanssa, kun taas listalla #4 ("Scottin syndrooma") on uskottava epäsuora yhteys fosfatidyyliserviinitunnuksen ja tenaasin kompleksin muodostumisen kautta — molemmat mainitaan tässä kontekstille, vaikka mallin ensisijainen tulos edellä heijastaa määriteltyä listaa #1.
 
 ---
 
-## Safety Considerations
+## Kliiniset tutkimusnäytteet
 
-Please refer to the package insert for safety information.
-
-*(Key warnings, contraindications, and drug interaction data are not yet available in this evidence pack — retrieval of the TFDA/Fimea package insert is a blocking data gap.)*
+Tällä hetkellä ei ole rekisteröitynä liittyviä kliinisiä tutkimuksia.
 
 ---
 
-## Conclusion and Next Steps
+## Kirjallisuusnäytteet
 
-**Decision: Hold**
+Tällä hetkellä ei ole saatavilla liittyviä kirjallisuustietoja.
 
-**Rationale:**
-This candidate is supported only by a TxGNN network score (L5) — no clinical trials, no literature, and a mechanistically weak rationale (the target pathology lies in platelet receptor biology, not the coagulation factor cascade FVIII acts on). Across all 10 predicted indications for this drug, none has any clinical or literature evidence, and several (e.g., thrombotic thrombocytopenic purpura) are mechanistically contradictory to FVIII supplementation.
+---
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert warnings and contraindications (blocking gap, DG001)
-- Confirmed mechanism-of-action detail from DrugBank (High-priority gap, DG002)
-- If pursuing further, prioritize mechanistically stronger candidates (e.g., Scott syndrome, or the FVIII-consistent "Hemophilia A with vascular abnormality") for targeted literature/trial searches before any translational commitment
+## Suomen markkinatiedot
+
+Simoctocog alfa ei ole tällä hetkellä markkinoilla Suomessa (0 hyväksyntää kirjattu); lisenssimerkintöjä ei ole saatavilla taulukointia varten.
+
+---
+
+## Turvallisuushuomiot
+
+Turvallisustiedoista katso pakkausseloste.
+
+*(Tärkeimmät varoitukset, vasta-aiheet ja lääkkeiden vuorovaikutustiedot eivät ole vielä saatavilla tässä näyttöpaketissa — TFDA/Fimean pakkausselosteen haku on estävä tietovaje.)*
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidätä**
+
+**Perustelu:**
+Tämä kandidaatti tuetaan vain TxGNN-verkkopisteillä (L5) — ei kliinisiä tutkimuksia, ei kirjallisuutta ja mekanistisesti heikko perustelu (kohde-patologia sijaitsee verihiutaleiden reseptorin biologiassa, ei hyytymistekijän kaskadissa, jota FVIII toimii). Tämän lääkkeen kaikista 10 ennustetusta indikaatiosta yksikään ei ole tuettu kliinisillä tai kirjallisuusnäytteillä, ja useat (esim. trombotinen trombosytopenia) ovat mekanistisesti ristiriitaisia FVIII-korvaushoidon kanssa.
+
+**Jatkamiseksi tarvitaan seuraavaa:**
+- TFDA/Fimean pakkausseloste varoitukset ja vasta-aiheet (estävä vaje, DG001)
+- Vahvistettu vaikutusmekanismin yksityiskohtia DrugBankista (korkean prioriteetin vaje, DG002)
+- Jos jatketaan edelleen, priorisoi mekanistisesti vahvemmat kandidaatit (esim. Scottin syndrooma tai FVIII:n mukainen "Hemofilia A vaskulaarisen poikkeavuuden kanssa") kohdistetuille kirjallisuus- ja tutkimushauille ennen mitään translaatiositoumusta
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

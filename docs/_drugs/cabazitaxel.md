@@ -29,81 +29,82 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Cabazitaxel: From Metastatic Castration-Resistant Prostate Cancer to Female Breast Carcinoma
+# Kaabasitakseli: metastaattisesta kastroinnille resistentistä eturauhassyövästa naisten rintakarkioomaan
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Cabazitaxel is a second-generation taxane originally developed for metastatic castration-resistant prostate cancer (mCRPC) after docetaxel failure. The TxGNN model predicts it may also be effective for **Female Breast Carcinoma**, with **0 registered clinical trials** matched to this indication but **20 supporting publications** — including one completed Phase II RCT directly testing cabazitaxel in breast cancer — currently backing this direction.
+Kaabasitakseli on toisen sukupolven taksaani, joka kehitettiin alun perin metastaattisen kastroinnille resistentin eturauhassyövän (mCRPC) hoitoon dosetakselin epäonnistumisen jälkeen. TxGNN-malli ennustaa, että se voi olla tehokas myös **naisten rintakarkioomassa**, ja tälle indikaatiolle on **0 rekisteröityä kliinistä tutkimusta**, mutta **20 tukevaa julkaisua** — mukaan lukien yksi valmistunut II-vaiheen satunnaistettu kontrolloitu tutkimus, joka testasi kaabasitaksellia suoraan rintasyövässä — jotka tukevat tätä suuntaa.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Metastatic castration-resistant prostate cancer (per literature evidence in this pack; official Finnish label text unavailable — drug is not marketed in Finland) |
-| Predicted New Indication | Female Breast Carcinoma |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L2 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Alkuperäinen indikaatio | Metastaattinen kastroinnille resistentti eturauhassyöpä (kirjallisuustodisteisiin perustuva; virallista suomalaisesta pakkausta selosteesta puuttuvat tiedot — lääkettä ei ole markkinoilla Suomessa) |
+| Ennustettu uusi indikaatio | Naisten rintakarkioma |
+| TxGNN-ennustepistemäärä | 99.92% |
+| Todisteiden taso | L2 |
+| Suomen markkinatilanne | ✗ Ei markkinoilla |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Edetä turvatoimien kanssa |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennustus on perusteltu?
 
-Formal DrugBank mechanism-of-action data is not available for cabazitaxel in this evidence pack. Based on information contained in the literature evidence, cabazitaxel is a second-generation taxane and microtubule-stabilizing antimitotic agent: it binds tubulin to stabilize microtubules and arrest mitosis, in the same manner as docetaxel and paclitaxel, but was specifically engineered to reduce affinity for P-glycoprotein (P-gp) efflux pumps, giving it activity in taxane-resistant tumor cell lines (PMID 25416788, 26651178).
+Virallisia DrugBank-mekanismin tietoja ei ole saatavilla kaabasitakselia varten tässä todistepakkauksessa. Kirjallisuustodisteen perusteella kaabasitakseli on toisen sukupolven taksaani ja mikrotubuleja stabiloiva antimitoottinen aine: se sitoutuu tubuliiniin mikrotubulusten vakauttamiseksi ja mitoosissa pysäyttämiseksi samalla tavalla kuin dosetakseli ja paklitakseli, mutta se on erityisesti suunniteltu vähentämään affiniteettia P-glykoproteiini (P-gp) effluksipumpuille, mikä antaa sille aktiivisuutta taksaaniin resistenteissä syöpäsolulinjoissa (PMID 25416788, 26651178).
 
-Cabazitaxel's original indication (mCRPC) and the predicted new indication (breast carcinoma) are both solid tumors for which taxane-class chemotherapy (paclitaxel, docetaxel) is already a clinical standard of care. Cabazitaxel's improved resistance profile is mechanistically relevant to breast cancer, where acquired resistance to earlier-generation taxanes is a recognized clinical problem.
+Kaabasitakselin alkuperäinen indikaatio (mCRPC) ja ennustettu uusi indikaatio (rintakarkioma) ovat molemmat kiinteitä kasvaimia, joille taksaaniluokan kemoterapia (paklitakseli, dosetakseli) on jo vakiintunutta hoitokäytäntöä. Kaabasitakselin parantunut resistenssiprofiili on mekanistisesti relevantti rintasyövälle, jossa aikaisemman sukupolven taksaaneihin kehittynyt resistanssi on tunnustettu kliininen ongelma.
 
-This is not purely theoretical: a completed Phase II RCT (GENEVIEVE, PMID 28768217) already compared neoadjuvant cabazitaxel against weekly paclitaxel in operable triple-negative and luminal B/HER2-negative breast cancer, and a Phase I/II dose-escalation study (PMID 21339064) tested cabazitaxel plus capecitabine in metastatic breast cancer after anthracycline/taxane failure — indicating clinical-stage investigation of this indication already exists, beyond model prediction alone.
+Tämä ei ole puhtaasti teoreettista: valmistunut II-vaiheen satunnaistettu kontrolloitu tutkimus (GENEVIEVE, PMID 28768217) on jo verrannut neoadjuvantia kaabasitaksellia viikoittaiseen paklitakseliin leikattavissa kolminkertaisesti negatiivisessa ja luminalissa B/HER2-negatiivisessa rintasyövässä, ja I/II-vaiheen annoksen noustutkimus (PMID 21339064) testasi kaabasitaksellia plus kapesitabiinia metastaattisessa rintasyövässä antrasykliinikemoterapian/taksaanin epäonnistumisen jälkeen — mikä osoittaa, että kliinisen vaiheen tutkimus tälle indikaatiolle on jo olemassa pelkän mallipohjain ennusteen sijaan.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen todisteet
 
-Currently no related clinical trials registered.
+Tällä hetkellä ei ole rekisteröityjä kyseisiä kliinisiä tutkimuksia.
 
-## Literature Evidence
+## Kirjallisuuden todisteet
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [28768217](https://pubmed.ncbi.nlm.nih.gov/28768217/) | 2017 | RCT (Phase II) | European Journal of Cancer | GENEVIEVE study: randomised neoadjuvant cabazitaxel vs weekly paclitaxel in operable TNBC/luminal B/HER2-negative breast cancer, comparing pathological complete response rates |
-| [21339064](https://pubmed.ncbi.nlm.nih.gov/21339064/) | 2011 | Phase I/II (dose-escalation) | European Journal of Cancer | Cabazitaxel + capecitabine in metastatic breast cancer progressing after anthracycline/taxane treatment; established MTD, PK, and safety profile |
-| [33753567](https://pubmed.ncbi.nlm.nih.gov/33753567/) | 2021 | Preclinical (mechanistic) | Journal for ImmunoTherapy of Cancer | Cabazitaxel modulates tumor-associated macrophages, enhancing CD47-targeted immunotherapy efficacy in triple-negative breast cancer models |
-| [25416788](https://pubmed.ncbi.nlm.nih.gov/25416788/) | 2015 | Preclinical (resistance mechanisms) | Molecular Cancer Therapeutics | Characterized cabazitaxel resistance in MCF-7 breast cancer cell-derived resistant variants; showed lower cross-resistance than paclitaxel/docetaxel |
-| [33247980](https://pubmed.ncbi.nlm.nih.gov/33247980/) | 2021 | Review (PK/TDM) | British Journal of Clinical Pharmacology | Review of taxane pharmacology including cabazitaxel PK/PD and therapeutic drug monitoring considerations |
-| [26651178](https://pubmed.ncbi.nlm.nih.gov/26651178/) | 2016 | Review (pharmacology/patents) | Expert Opinion on Therapeutic Patents | Reviews taxane development including cabazitaxel; notes related taxane nab-paclitaxel's approval for refractory/metastatic breast cancer |
-| [30529259](https://pubmed.ncbi.nlm.nih.gov/30529259/) | 2019 | Preclinical (PDX model) | Journal of Controlled Release | Cabazitaxel-loaded PEBCA nanoparticles achieved complete remission in 6/8 basal-like breast cancer patient-derived xenografts, outperforming free drug |
-| [28504249](https://pubmed.ncbi.nlm.nih.gov/28504249/) | 2017 | Preclinical (drug delivery) | Acta Pharmacologica Sinica | Cabazitaxel-loaded polymeric micelles showed enhanced anti-metastatic efficacy in breast cancer metastasis models |
-| [30521787](https://pubmed.ncbi.nlm.nih.gov/30521787/) | 2019 | Preclinical (drug delivery) | Chemistry and Physics of Lipids | Cabazitaxel + thymoquinone co-loaded lipospheres developed as a synergistic combination targeting p53/STAT3/Bax/BCL-2 pathways in breast cancer |
-| [33360926](https://pubmed.ncbi.nlm.nih.gov/33360926/) | 2021 | Preclinical (drug delivery) | Colloids and Surfaces B: Biointerfaces | Cabazitaxel-loaded nanostructured lipid carriers (NLCs) optimized and evaluated against breast cancer cell lines |
+| PMID | Vuosi | Tyyppi | Julkaisu | Keskeiset löydökset |
+|------|------|--------|---------|---------|
+| [28768217](https://pubmed.ncbi.nlm.nih.gov/28768217/) | 2017 | RCT (II vaihe) | European Journal of Cancer | GENEVIEVE-tutkimus: satunnaistettu neoadjuvantti kaabasitakseli vs viikoittainen paklitakseli leikattavissa TNBC/luminal B/HER2-negatiivisessa rintasyövässä, patologisen täydellisen vastauksen määrät vertailussa |
+| [21339064](https://pubmed.ncbi.nlm.nih.gov/21339064/) | 2011 | I/II vaihe (annoksen nosto) | European Journal of Cancer | Kaabasitakseli + kapesitabiini metastaattisessa rintasyövässä antrasykliinikemoterapian/taksaanin epäonnistumisen jälkeen; määritti MTD:n, PK:n ja turvallisuusprofiilin |
+| [33753567](https://pubmed.ncbi.nlm.nih.gov/33753567/) | 2021 | Prekliininen (mekanistinen) | Journal for ImmunoTherapy of Cancer | Kaabasitakseli säätää kasvain-assosioituneita makrofageja, parantaa CD47-kohdistettua immunoterapian tehokkuutta kolminkertaisesti negatiivisissa rintasyöpämalleissa |
+| [25416788](https://pubmed.ncbi.nlm.nih.gov/25416788/) | 2015 | Prekliininen (resistanssimekanismit) | Molecular Cancer Therapeutics | Karakterisoi kaabasitakselin resistanssia MCF-7 rintasyöpäsoluista johdetuissa resistenteissa varianteissa; osoitti pienemmän ristiresistanssia kuin paklitakseli/dosetakseli |
+| [33247980](https://pubmed.ncbi.nlm.nih.gov/33247980/) | 2021 | Katsaus (PK/TDM) | British Journal of Clinical Pharmacology | Taksaanien farmakologian katsaus, mukaan lukien kaabasitakselin PK/PD ja lääkkeen terapeuttisen seurannan näkökohdat |
+| [26651178](https://pubmed.ncbi.nlm.nih.gov/26651178/) | 2016 | Katsaus (farmakologia/patentit) | Expert Opinion on Therapeutic Patents | Arvioi taksaanien kehitystä, mukaan lukien kaabasitakseli; huomaa, että siihen liittyvä nab-paklitakseli on hyväksytty hoitoon vastustukselliselle/metastaattiselle rintasyövälle |
+| [30529259](https://pubmed.ncbi.nlm.nih.gov/30529259/) | 2019 | Prekliininen (PDX-malli) | Journal of Controlled Release | Kaabasitakselilla kuormitetut PEBCA-nanopartikkelit saivat täydellisen remission 6/8:ssa basal-tyyppisessä potilaasta johdetussa rintasyöpä ksenografissa, ylittivät vapaan lääkkeen tehokkuudessa |
+| [28504249](https://pubmed.ncbi.nlm.nih.gov/28504249/) | 2017 | Prekliininen (lääkkeen antoväline) | Acta Pharmacologica Sinica | Kaabasitakselilla kuormitetut polymeriset misellit osoittivat parannettu anti-metastaasin tehokkuutta rintasyöpä metastaasimalleissa |
+| [30521787](https://pubmed.ncbi.nlm.nih.gov/30521787/) | 2019 | Prekliininen (lääkkeen antoväline) | Chemistry and Physics of Lipids | Kaabasitakseli + tymokvinoni yhdessä kuormitetut liposfäärit kehitettiin synergistiseksi yhdistelmäksi p53/STAT3/Bax/BCL-2 -reiteille kohdistetuksi rintasyövässä |
+| [33360926](https://pubmed.ncbi.nlm.nih.gov/33360926/) | 2021 | Prekliininen (lääkkeen antoväline) | Colloids and Surfaces B: Biointerfaces | Kaabasitakselilla kuormitetut nanokiderakenteiset lipidikantoaineet (NLC) optimoitu ja arvioitu rintasyöpäsolulinjojen vastaan |
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Cabazitaxel is not currently marketed in Finland — no marketing authorizations are registered (0 licenses on file).
+Kaabasitakselia ei ole tällä hetkellä markkinoilla Suomessa — markkinointilupia ei ole rekisteröity (0 lupaa tiedostoissa).
 
-## Cytotoxicity
+## Sytostaattisuus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (taxane class, microtubule-stabilizing antimitotic agent) |
-| Myelosuppression Risk | High — neutropenia is reported as one of the most common adverse effects of cabazitaxel in the literature (PMID 21076710) |
-| Emetogenicity Classification | Please refer to the package insert |
-| Monitoring Items | CBC with differential (neutropenia), peripheral neuropathy assessment, renal and hepatic function |
-| Handling Protection | Standard cytotoxic drug handling precautions required (PPE, closed-system transfer device) |
+| Sytostaattisen vaikutuksen luokittelu | Perinteinen sytostaattinen (taksaaniluokka, mikrotubuleja stabiloiva antimitoottinen aine) |
+| Luuytimen eston riski | Korkea — neutropenia on raportoitu yhtenä kaabasitakselin yleisimmistä haittavaikutuksista kirjallisuudessa (PMID 21076710) |
+| Pahoinvointia aiheuttavan vaikutuksen luokittelu | Katso pakkauksen seloste |
+| Seurattavat asiat | Täydellinen verenkuva differentiaalilla (neutropenia), perifeerisen neuropatian arviointi, munuaisten ja maksan toiminta |
+| Käsittelysuoja | Vaaditaan standardit sytostaattisia lääkkeitä koskevat varotoimet (PPE, suljetun järjestelmän siirtölaite) |
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information. (TFDA/Fimea label warnings, contraindications, and drug interaction data are currently unavailable — flagged as a blocking data gap for formal safety review.)
+Katso pakkauksen seloste turvallisuustiedoista. (TFDA/Fimea-selosteen varoitukset, vasta-aiheet ja lääkkeiden vuorovaikutustiedot eivät ole tällä hetkellä saatavilla — merkitty tietovajeen estävänä tekijänä viralliselle turvallisuusarvioon.)
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Proceed with Guardrails**
+**Päätös: Edetä turvatoimien kanssa**
 
-**Rationale:**
-Mechanistic plausibility is supported by the established role of taxanes in breast cancer treatment, and this specific indication already has clinical-stage investigation — one completed Phase II RCT (GENEVIEVE) and one Phase I/II dose-escalation study — rather than being purely a model prediction. However, no clinical trials are currently indexed against this exact indication, and Finnish regulatory/safety data are entirely absent, justifying guardrails rather than an unconditional Go.
+**Perustelu:**
+Mekanistinen todennäköisyys on tuettu taksaanien vakiintuneen roolin perusteella rintasyövän hoidossa, ja tälle erityiselle indikaatiolle on jo olemassa kliinisen vaiheen tutkimusta — yksi valmistunut II-vaiheen satunnaistettu kontrolloitu tutkimus (GENEVIEVE) ja yksi I/II-vaiheen annoksen noustutkimus — pelkän mallipohjain ennusteen sijaan. Kuitenkin tällä hetkellä ei ole kliinisiä tutkimuksia, joita on rekisteröity tälle tarkealle indikaatiolle, ja suomalaiset sääntelyyn liittyvät/turvallisuustiedot puuttuvat kokonaan, mikä perustelee turvatoimia ehdottoman hyväksynnän sijaan.
 
-**To proceed, the following is needed:**
-- Official package insert / label safety data (warnings, contraindications, DDI) — currently a blocking data gap
-- Confirmed DrugBank mechanism-of-action record
-- Efficacy outcomes from the GENEVIEVE trial (PMID 28768217) and the Phase I/II capecitabine combination study (PMID 21339064)
-- A breast cancer-specific safety monitoring plan addressing myelosuppression and neuropathy risk, given the drug is not currently marketed in Finland
+**Jotta voidaan edetä, seuraavaa tarvitaan:**
+- Virallinen pakkauksen seloste / selosteen turvallisuustiedot (varoitukset, vasta-aiheet, lääkkeiden vuorovaikutukset) — tällä hetkellä estävä tietovaje
+- Vahvistettu DrugBank-mekanismin tietue
+- Tehokkuuden tulokset GENEVIEVE-tutkimuksesta (PMID 28768217) ja I/II-vaiheen kapesitabiiniyhdistelmätutkimuksesta (PMID 21339064)
+- Rintasyövälle spesifinen turvallisuuden seurantasuunnitelma, joka käsittelee luuytimen eston ja neuropatian riskiä, koska lääkettä ei ole tällä hetkellä markkinoilla Suomessa
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

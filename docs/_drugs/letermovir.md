@@ -29,60 +29,61 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Letermovir: From Cytomegalovirus (CMV) Infection to Vulvovaginal Candidiasis
+# Letermovir: Sytomegaloviruksen (CMV) infektiosta vulvovaginaaliseen kandidiaasiin
 
-## One-Sentence Summary
+## Yksirivinen yhteenveto
 
-Letermovir is an antiviral drug highly specific to cytomegalovirus (CMV), acting as a terminase complex inhibitor; this evidence pack does not contain a recorded original indication or licensed use. TxGNN predicts it may be effective for **Vulvovaginal Candidiasis**, but this direction is currently supported by **0 clinical trials** and **0 publications**, and the drug's own mechanistic profile argues against pharmacological plausibility — this is most likely a model-level false positive.
+Letermovir on antiviraalilääke, joka on erittäin spesifinen sytomegalovirusille (CMV) ja toimii terminaasikompleeksin inhibiittorina; tämä näytepaketti ei sisällä kirjattua alkuperäistä indikaatiota tai hyväksyttyä käyttöä. TxGNN ennustaa, että se saattaa olla tehokas **vulvovaginaalista kandidiaasia** vastaan, mutta tätä suuntaa tukee tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua**, ja lääkkeen oma mekanistinen profiili puhuu farmakologisen uskottavuuden vastaan — tämä on todennäköisesti mallin tason väärä positiivinen.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Not specified in evidence pack |
-| Predicted New Indication | Vulvovaginal Candidiasis |
-| TxGNN Prediction Score | 99.88% |
-| Evidence Level | L5 (model prediction only) |
-| Taiwan Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Ei ole määritetty näytepaketissa |
+| Ennustettu uusi indikaatio | Vulvovaginaalinen kandidiaasi |
+| TxGNN:n ennustepisteet | 99.88% |
+| Näyttöjen taso | L5 (vain mallin ennuste) |
+| Taiwan-markkinoiden asema | Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Odota |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-The formal `original_moa` field for letermovir is not populated in this evidence pack, but the model's own rationale describes its mechanism: letermovir is a highly specific inhibitor of the CMV DNA terminase complex (UL56/UL89/UL51). Its antiviral activity is confined to the Herpesviridae family, particularly CMV, and it does not act on any known fungal target — such as ergosterol synthesis or glucan synthase — that would be relevant to *Candida* species.
+`original_moa`-kenttä letermovirin osalta ei ole täytetty tässä näytepaketissa, mutta mallin oma perustelut kuvaavat sen mekanismia: letermovir on CMV:n DNA-terminaasikompleeksin (UL56/UL89/UL51) erittäin spesifinen inhibiittori. Sen antiviraalinen aktiivisuus rajoittuu Herpesviridae-perheeseen, erityisesti CMV:hen, eikä se vaikuta mihinkään tunnettuun sieni-infektiosta merkitykselliseen kohteeseen — kuten ergosteroolin synteesiin tai glukaaninsyntetaasiin — joka olisi relevantti *Candida*-lajeille.
 
-Vulvovaginal candidiasis is a fungal infection with a biology entirely unrelated to viral DNA packaging. There is no known pharmacological pathway connecting a CMV terminase inhibitor to antifungal activity, and no clinical or preclinical evidence in this pack links letermovir to any fungal indication.
+Vulvovaginaalinen kandidiaasi on sieniinfektio, jonka biologia on täysin liittymätön viraalisen DNA-pakkaamisen kanssa. Ei ole tunnettua farmakologista polkua, joka yhdistäisi CMV-terminaasin inhibiittorin antiviraalifunktioihin, eikä tässä pakettissa ole kliinisiä tai prekliinisiä todisteiden, jotka yhdistäisivät letermovirin mihinkään sieni-indikaatioon.
 
-Given this mismatch, the high TxGNN confidence score (99.88%) most plausibly reflects a spurious association in the knowledge-graph embedding space rather than a genuine pharmacological signal. The absence of the drug's original indication and confirmed MOA in structured form (flagged as gaps DG001/DG002) further limits the ability to validate or refute this link with confidence.
+Tämän epäsuhdan vuoksi korkea TxGNN:n luottamuspistemäärä (99.88%) heijastaa todennäköisesti harhaanjohtavaa assosiaatiota tietokaavion upotusavaruudessa pikemminkin kuin aitoa farmakologista signaalia. Lääkkeen alkuperäisen indikaation ja vahvistetun mekanismin puuttuminen strukturoidussa muodossa (merkitty aukoiksi DG001/DG002) rajoittaa edelleen kykyä validoida tai kumota tämä yhteys varmuudella.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näytteet
 
-Currently no related clinical trials registered
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia
 
-## Literature Evidence
+## Kirjallisuuden näytteet
 
-Currently no related literature available
+Tällä hetkellä ei ole saatavilla asiaan liittyviä kirjallisuuslähteitä
 
-## Taiwan Market Information
+## Taiwan-markkinoiden tiedot
 
-Letermovir is not currently marketed in Taiwan, and no drug licenses were found for this product (0 authorizations on record).
+Letermovir ei ole tällä hetkellä markkinoilla Taiwanissa, eikä tälle tuotteelle ole löydetty mitään lääkemääräyksiä (0 hyväksyntää kirjanpidossa).
 
-## Safety Considerations
+## Turvallisuusnäkökohtien huomiointi
 
-Please refer to the package insert for safety information.
+Viitatkaa pakkausselosteeseen turvallisuustietoja varten.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Odota**
 
-**Rationale:**
-Evidence level is L5 (model prediction only) with zero supporting clinical trials or literature, and the drug's own mechanism of action — a CMV-specific antiviral terminase inhibitor — is not pharmacologically consistent with an antifungal indication. This pattern is consistent with a knowledge-graph false positive rather than a credible repurposing signal.
+**Perustelut:**
+Näyttöjen taso on L5 (vain mallin ennuste) ilman tukevia kliinisiä tutkimuksia tai kirjallisuutta, ja lääkkeen oma vaikutusmekanismi — CMV-spesifinen antiviraalisen terminaasin inhibiittori — ei ole farmakologisesti yhteensopiva antifungiaalisen indikaation kanssa. Tämä malli on yhteensopiva tietokaavion väärän positiivisen kanssa pikemminkin kuin uskottavan uudelleenkäytön signaalin kanssa.
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings/contraindications) — currently a blocking data gap (DG001)
-- Confirmed mechanism of action from DrugBank (DG002)
-- Original indication and regulatory history for letermovir
-- Any preclinical or in vitro data testing antifungal activity, if such data exists, to either support or close out this signal
+**Jatkaaksesi seuraavaa tarvitaan:**
+- TFDA:n pakkausseloste (varoitukset/vasta-aiheet) — tällä hetkellä estävä tietoaukko (DG001)
+- Vahvistettu vaikutusmekanismi DrugBankista (DG002)
+- Letermovirin alkuperäinen indikaatio ja sääntelyn historia
+- Kaikki prekliiniset tai in vitro -tiedot, joissa testataan antifungiaalista aktiivisuutta, jos tällaisia tietoja on, joko tämän signaalin tukemiseksi tai sulkemiseksi
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

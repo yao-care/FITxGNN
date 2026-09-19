@@ -29,57 +29,58 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Tolcapone: From Parkinson's Disease to Rasmussen Subacute Encephalitis
+# Tolcapone: Parkinsonin taudista Rasmussenin akuuttiin enkefaliittiin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Tolcapone is a COMT (catechol-O-methyltransferase) inhibitor originally developed as an adjunct therapy to levodopa/carbidopa in Parkinson's disease. The TxGNN model's top-ranked prediction for this drug is **Rasmussen Subacute Encephalitis** (score 99.93%), but this candidate is currently supported by **0 clinical trials** and **0 publications**, and the evidence pack explicitly notes no known mechanistic relationship between COMT inhibition and this disease's autoimmune pathology.
+Tolcapone on COMT-esto (katekoli-O-metyylitransferaasi-esto), joka kehitettiin alun perin lisentyynin/karbilepan liitännäishoitoksi Parkinsonin taudissa. TxGNN-mallin parhaimmaksi ennustettu indikaatio tälle lääkkeelle on **Rasmussenin akuutti enkefaliitti** (pistemäärä 99.93%), mutta tätä ehdokasta tuetaan tällä hetkellä **0 kliinisellä tutkimuksella** ja **0 julkaisulla**, ja todistepaketissa todetaan, ettei COMT-inhibition ja tämän sairauden autoimmuunipatologian välillä ole tunnetua mekanistista yhteyttä.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Parkinson's disease, adjunct to levodopa/carbidopa (based on known drug class; not present in this evidence pack's Taiwan regulatory data) |
-| Predicted New Indication | Rasmussen Subacute Encephalitis |
-| TxGNN Prediction Score | 99.93% (rank 1033 in full prediction list) |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Taiwan Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohde | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Parkinsonin tauti, liitännäishoito lisenityyninille/karbilepalle (tunnetun lääkeluokan perusteella; ei ole läsnä tämän todisteenpaketin Taiwanin sääntelytiedoissa) |
+| Ennustettu uusi indikaatio | Rasmussenin akuutti enkefaliitti |
+| TxGNN-ennusteen pistemäärä | 99.93% (sijoitus 1033 koko ennusteiden luettelossa) |
+| Todisteiden taso | L5 (vain malliennuste, ei tukevia tutkimuksia) |
+| Taiwanin markkinatilanne | Ei markkinoilla (Ei markkinoilla) |
+| Valtuuksien lukumäärä | 0 |
+| Suositeltu päätös | Odotetaan |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap, DG002). Based on known pharmacological class information, tolcapone is a peripheral and central COMT inhibitor that reduces the metabolic breakdown of levodopa and dopamine, and its efficacy as adjunct therapy in Parkinson's disease is well established.
+Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla (merkitty korkean vakavuuden tietoaukoksi, DG002). Tunnettujen farmakologisten luokkien tietojen perusteella tolcapone on perifeerinen ja keskushermostoon vaikuttava COMT-esto, joka vähentää lisenityymin ja dopamiinin aineenvaihdunnan hajoamista, ja sen tehokkuus Parkinsonin taudin liitännäishoitona on hyvin vakiintunut.
 
-For the top-ranked predicted indication, Rasmussen subacute encephalitis, the evidence pack's own mechanistic assessment is negative: this is an autoimmune encephalitis with intractable epilepsy, driven by T-cell-mediated neuronal destruction, and there is no known link to COMT inhibition or catecholamine metabolism. No clinical trials, ICTRP records, or PubMed literature were found connecting tolcapone to this disease. This prediction should be treated as a network-topology signal from the TxGNN model only, not as a mechanistically grounded hypothesis.
+Parhaiten sijoittuvaa ennustettua indikaatiota (Rasmussenin akuutti enkefaliitti) varten todisteenpaketin oma mekanistinen arviointi on negatiivinen: kyseessä on autoimmuuni-enkefaliitti, johon liittyy hallitsematon epilepsia ja jonka taustalla on T-solujen välittämä hermosolujen tuho, ja COMT-inhibition tai katekoliamiinin aineenvaihdunnan välillä ei ole tunnettu yhteys. Tolcaponea tähän sairauteen yhdistäviä kliinisiä tutkimuksia, ICTRP-tietoja tai PubMed-kirjallisuutta ei löytynyt. Tätä ennustetta tulisi käsitellä vain TxGNN-mallin verkkotopologiasignaalina, ei mekanistisesti perustettu hypoteesina.
 
-It is worth noting that other candidates in this evidence pack carry stronger rationale even though ranked lower by score: **Lewy body dementia** (rank 6) has supporting preclinical/mechanistic literature on catecholamine-metabolite-driven α-synuclein pathology, and **juvenile parkinsonism (paralysis agitans, juvenile, of Hunt)** (rank 10) is mechanistically direct, since tolcapone's drug class is already used in classic parkinsonism. Neither reached the primary index position (rank 1) used for this report's structured fields, but both warrant separate, prioritized evaluation (see Next Steps).
+On huomioitavaa, että muilla ehdokkailla tässä todistepaketeissa on vahvemmat perustelut, vaikka ne sijoittuvat pisteiden suhteen alemmas: **Lewyn kehojen dementia** (sijoitus 6) sisältää tukevia prekliinisiä/mekanistisia kirjallisuusviittauksia katekoliamiinin metaboliiteista johtuvan α-synuclein-patologian osalta, ja **nuorten parkinsonismi (paralysis agitans, juvenile, of Hunt)** (sijoitus 10) on mekanistisesti suora, koska tolcaponeen kuuluva lääkeluokka on jo käytössä klassisessa parkinsonismissa. Kumpikaan ei saavuttanut ensisijaisen indeksiaseman (sijoitus 1), jota käytetään tämän raportin jäsennellyissä kentissä, mutta molemmat ansaitsevat erillisen, priorisoidun arvioinnin (katso Seuraavat vaiheet).
 
-## Clinical Trial Evidence
+## Kliinisten tutkimusten näyttö
 
-Currently no related clinical trials registered.
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
 
-## Literature Evidence
+## Kirjallisuusaineiston näyttö
 
-Currently no related literature available.
+Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta.
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information.
+Turvallisuusohjeita varten katso pakkausselosteesta.
 
-*Note: TFDA package insert warnings/contraindications for tolcapone were not retrievable in this data pull and are flagged as a Blocking data gap (DG001) — this prevents a formal S1 safety pre-assessment. Tolcapone carries well-known hepatotoxicity concerns in its approved indication that should be independently verified against the official label before any further evaluation.*
+*Huomautus: Tolcaponin TFDA-pakkausselosteesta löytyvät varoitukset/vasta-aiheet eivät olleet haettavissa tässä tiedonkeruussa ja ne on merkitty estävän tietoaukoksi (DG001) — tämä estää muodollisen S1-turvallisuuden ennakko-arvioinnin. Tolcaponella on hyvin tunnetut hepatotoksisyyden riskit sen hyväksytyssä indikaatiossa, jotka tulisi vahvistaa itsenäisesti virallisen selosteen mukaan ennen lisäarviointia.*
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Odotetaan**
 
-**Rationale:**
-The top-ranked prediction (Rasmussen subacute encephalitis) has no clinical, literature, or mechanistic support beyond the raw TxGNN score, and mandatory safety data (TFDA label warnings/contraindications) is missing and blocking, so this candidate cannot proceed past S0.
+**Perustelut:**
+Parhaiten sijoittuneella ennusteella (Rasmussenin akuutti enkefaliitti) ei ole tukevia kliinisiä, kirjallisuus- tai mekanistisia näyttöjä raakaiden TxGNN-pisteiden lisäksi, ja pakollinen turvallisuustieto (TFDA-pakkausselosteen varoitukset/vasta-aiheet) puuttuu ja estää etenemisen, joten tätä ehdokasta ei voida siirtää S0:ta pidemmälle.
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings, contraindications) — currently Blocking (DG001)
-- Confirmed mechanism of action data from DrugBank — currently High priority gap (DG002)
-- If pursuing this drug further, re-scope the evaluation toward better-evidenced candidates in the same prediction set — specifically Lewy body dementia (rank 6, L4, S1 "Research Question") and juvenile parkinsonism (rank 10, S1 "Research Question") — rather than the top-scored but mechanistically unsupported rank 1 candidate
+**Etenemistä varten tarvitaan seuraavaa:**
+- TFDA-pakkausseloste (varoitukset, vasta-aiheet) — tällä hetkellä estävä (DG001)
+- Vahvistetut toimintamekanismin tiedot DrugBankista — tällä hetkellä korkean prioriteetin aukko (DG002)
+- Jos tätä lääkettä tutkitaan jatkossa, uudelleen suuntaa arviointi kohti paremmin todistettuja ehdokkaita samassa ennustejoukossa — erityisesti Lewyn kehojen dementia (sijoitus 6, L4, S1 "Tutkimuskysymys") ja nuorten parkinsonismi (sijoitus 10, S1 "Tutkimuskysymys") — korkeimman pistemäärän saaneen mutta mekanistisesti tukemattoman sijoituksen 1 ehdokkaan sijaan
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

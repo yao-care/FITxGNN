@@ -29,66 +29,67 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Prasugrel: From Antiplatelet Therapy (ACS/PCI) to Pulmonary Hypertension
+# Prasugrel: antitrombosyyttihoitosta (ACS/PCI) keuhkojen hypertensioihin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Prasugrel is a thienopyridine-class P2Y12 receptor antagonist established as antiplatelet therapy following acute coronary syndrome and percutaneous coronary intervention (per the literature context in this evidence pack). The TxGNN model predicts it may be effective for **Pulmonary Hypertension**, but currently only **2 clinical trials** and **2 publications** are on file, and none directly test prasugrel in this indication — the signal remains at the mechanistic-hypothesis stage.
+Prasugrel on tieniopyridiiniklas­san P2Y12-reseptorin antagonisti, joka on vakiintunut antitrombosyyttihoito akuutin koronaarisen oireyhtymän (ACS) ja perkutaanisen koronaariintervention (PCI) jälkeen (kuten tämän todistepaketin kirjallisuusympäristö osoittaa). TxGNN-malli ennustaa sen voivan olla tehokas **keuhkojen hypertensiossa**, mutta tällä hetkellä tiedostoissa on vain **2 kliinistä tutkimusta** ja **2 julkaisua**, eivätkä mitkään niistä testaa suoraan prasugrekia tässä indikaatiossa — signaali pysyy mekanistisen hypoteesin tasolla.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in this evidence pack (no Finland licenses on file); literature context points to antiplatelet use in ACS/PCI |
-| Predicted New Indication | Pulmonary Hypertension |
-| TxGNN Prediction Score | 99.88% |
-| Evidence Level | L4 |
-| Finland Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Ei dokumentoitu tässä todistepaketissa (Suomen lupia ei tiedostoissa); kirjallisuusympäristö viittaa antitrombosyyttihoitoon ACS/PCI-yhteydessä |
+| Ennustettu uusi indikaatio | Keuhkojen hypertensio |
+| TxGNN-ennustepisteet | 99.88% |
+| Todisteiden taso | L4 |
+| Suomen markkinatilanne | Ei markkinoitu |
+| Lupien määrä | 0 |
+| Suositeltu päätös | Odotus |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, detailed mechanism of action data is not available for prasugrel. Based on known information within this evidence pack, prasugrel is a thienopyridine-class P2Y12 receptor antagonist (antiplatelet drug) in the same family as clopidogrel; its efficacy in acute coronary syndrome/PCI settings is well established in the literature, and mechanistically this class may be applicable to other vascular/thrombotic conditions.
+Tällä hetkellä prasugrekia koskevia yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla. Tässä todistepaketissa saatavilla olevien tietojen perusteella prasugrel on tieniopyridiiniklas­san P2Y12-reseptorin antagonisti (antitrombosyytilääke) samassa perheessä kuin klopidogreeli; sen teho akuutin koronaarisen oireyhtymän/PCI-yhteydessä on hyvin vakiintunut kirjallisuudessa, ja mekanistisesti tämä lääkeklas­si saattaa soveltua myös muihin verisuoniperäisiin/trombosyyttiperäisiin sairauksiin.
 
-The proposed link to pulmonary hypertension rests on a single hypothesis: in chronic thromboembolic pulmonary hypertension (CTEPH), a subtype of pulmonary hypertension, anticoagulant therapy is standard adjunctive care, so an antiplatelet agent might plausibly play an analogous thrombo-preventive role. However, this is a class-level, indirect inference — no direct evidence currently supports prasugrel's use for pulmonary hypertension itself.
+Ehdotettu yhteys keuhkojen hypertensioihin perustuu yhteen hypoteesiin: kroonisessa tromboembolisessa keuhkojen hypertensiossa (CTEPH), keuhkojen hypertension alatyyppissä, antikoagulanttiherapia on vakiintunut apuhoito, joten antitrombosyytilääke saattaisi teoriassa toimia vastaavasti tromboembolismin ehkäisevällä tavalla. Kyseessä on kuitenkin lääkeklas­san tason, epäsuora johtopäätös — suora näyttö prasugrecin käytöstä keuhkojen hypertensiossa itsessään puuttuu.
 
-Both retrieved clinical trials were graded **relevance C** (low relevance) by the evidence review: one is an observational NOAC-management study in elderly atrial fibrillation patients, the other a retrospective eligibility analysis for cancer-associated thrombosis. Neither involves prasugrel or pulmonary hypertension directly. Similarly, the two literature items provide only background context (a COVID-19 comorbidity registry, and a clopidogrel/prasugrel adherence study in ACS/PCI patients) rather than direct evidence for this indication. This is why the evidence level is capped at L4 (mechanism-level reasoning only) despite the high TxGNN score.
+Molemmat haetut kliiniset tutkimukset arvioitiin todisteiden katselmuksessa **relevanssiluokkaan C** (alhainen relevanssi): toinen on observatiivinen NOAC-hallinnon tutkimus ikääntyneiden ei-valvulaarisen sydämen eteistakykardia-potilaiden kohdalla Espanjassa, toinen retrospektiivinen kelpoisuusanalyysi syöpään liittyvää tromboembolismiaa koskien. Kumpikaan ei liity suoraan prasugreliin tai keuhkojen hypertensioihin. Samoin kaksi kirjallisuuslähteestä tarjoavat vain taustatietoa (COVID-19-sairastavuusrekisteri ja klopidogreeli/prasugrel-adherenssi-tutkimus ACS/PCI-potilailla) sen sijaan, että ne tarjoaisivat suoraa näyttöä tälle indikaatiolle. Tämän vuoksi todisteiden taso on rajoitettu L4:ään (vain mekanismin tason päättely) huolimatta korkeasta TxGNN-pisteestä.
 
-## Clinical Trial Evidence
+## Kliinisten tutkimusten todisteet
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimusnumero | Vaihe | Tila | Potilasrekrytointi | Tärkeimmät löydökset |
 |---------|------|------|------|---------|
-| [NCT03993119](https://clinicaltrials.gov/study/NCT03993119) | N/A | Completed | 500 | Observational cross-sectional study of NOAC management in elderly non-valvular AF patients in Spain; no direct link to prasugrel or pulmonary hypertension (relevance grade C — background noise) |
-| [NCT04846556](https://clinicaltrials.gov/study/NCT04846556) | N/A | Completed | 300 | Retrospective study on eligibility for the CARAVAGGIO cancer-associated thrombosis trial; no direct link to prasugrel or pulmonary hypertension (relevance grade C — background noise) |
+| [NCT03993119](https://clinicaltrials.gov/study/NCT03993119) | Ei sovellettavissa | Valmistunut | 500 | Observatiivinen poikkileikkaustutkimus NOAC-hallinnosta ikääntyneiden ei-valvulaarisen sydämen eteistakykardia-potilaiden kohdalla Espanjassa; ei suoraa yhteyttä prasugreliin tai keuhkojen hypertensioihin (relevanssiluokka C — taustatietoa) |
+| [NCT04846556](https://clinicaltrials.gov/study/NCT04846556) | Ei sovellettavissa | Valmistunut | 300 | Retrospektiivinen tutkimus CARAVAGGIO-syöpään liittyvä thromboembolismi -tutkimukseen kelpoisuudesta; ei suoraa yhteyttä prasugreliin tai keuhkojen hypertensioihin (relevanssiluokka C — taustatietoa) |
 
-## Literature Evidence
+## Kirjallisuuden todisteet
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [21241206](https://pubmed.ncbi.nlm.nih.gov/21241206/) | 2011 | Cohort | Current Medical Research and Opinion | Evaluates factors associated with clopidogrel/prasugrel use and adherence after PCI in ACS patients — confirms prasugrel's established antiplatelet role in ACS, but not related to pulmonary hypertension |
-| [34713782](https://pubmed.ncbi.nlm.nih.gov/34713782/) | 2021 | Cohort/Observational | Kardiologiia | ACTIV SARS-CoV-2 registry analysis of background comorbidity therapy on COVID-19 outcomes; not specific to prasugrel or pulmonary hypertension |
+| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät löydökset |
+|------|------|------|------|---------|
+| [21241206](https://pubmed.ncbi.nlm.nih.gov/21241206/) | 2011 | Kohorttitutkimus | Current Medical Research and Opinion | Arvioi klopidogreeli/prasugrel-käytön ja adherenssin tekijöitä PCI:n jälkeen ACS-potilailla — vahvistaa prasugrecin vakiintuneen antitrombosyyttihoiton roolin ACS:ssa, mutta ei liity keuhkojen hypertensioihin |
+| [34713782](https://pubmed.ncbi.nlm.nih.gov/34713782/) | 2021 | Kohortti/Observatiivinen | Kardiologiia | ACTIV SARS-CoV-2 -rekisterianalyysi taustataudinhoitojen vaikutuksesta COVID-19:n tuloksiin; ei ole prasugreliin tai keuhkojen hypertensioihin liittyviä |
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Prasugrel currently has no marketing authorizations on file in Finland (0 authorizations; market status: not marketed).
+Prasugrelilla ei ole tällä hetkellä markkinointilupia Suomessa (0 lupaa; markkinatilanne: ei markkinoitu).
 
-## Safety Considerations
+## Turvallisuusseikat
 
-Please refer to the package insert for safety information.
+Katso pakkausselosteesta turvallisuustietoja.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Odotus**
 
-**Rationale:**
-The only available evidence — two clinical trials (both graded low relevance) and two publications (neither addressing prasugrel in pulmonary hypertension) — does not support a direct or even strong indirect signal. The proposed mechanism (antiplatelet effect analogous to anticoagulation in CTEPH) is plausible but unverified, and core drug data (MOA, package insert warnings/contraindications) are also missing.
+**Perustelut:**
+Ainoastaan saatavilla olevat todisteet — kaksi kliinistä tutkimusta (molemmat alhaisen relevanssin arvioituja) ja kaksi julkaisua (kumpikaan ei käsittele prasugrekia keuhkojen hypertensiossa) — eivät tue suoraa tai edes vahvaa epäsuoraa signaalia. Ehdotettu mekanismi (antitrombosyyttivaikutus verrattavissa antikoagulanttihoitoon CTEPH:ssa) on uskottava mutta toistaiseksi todentamaton, ja keskeisistä lääketiedoista (vaikutusmekanismi, pakkausseloste varoitukset/vasta­indikaatiot) puuttuu myös.
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert data (blocking gap: warnings/contraindications, DG001)
-- DrugBank mechanism of action data (DG002)
-- Preclinical or mechanistic studies evaluating P2Y12 inhibition specifically in pulmonary vascular remodeling or CTEPH
-- Dedicated clinical trials or case series testing prasugrel in pulmonary hypertension populations
+**Etenemiseen tarvitaan seuraavaa:**
+- TFDA/Fimea-pakkausselostetieto (kriittinen puute: varoitukset/vasta­indikaatiot, DG001)
+- DrugBank-vaikutusmekanismin tieto (DG002)
+- Esikliiniset tai mekanistiset tutkimukset, jotka arvioivat P2Y12-inhibition vaikutusta erityisesti keuhkoverisuonten uudelleenmuodostumiseen tai CTEPH:aan
+- Dedikoidut kliiniset tutkimukset tai tapauksittaiset tutkimukset, joissa testataan prasugrekia keuhkojen hypertensio-potilailla
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

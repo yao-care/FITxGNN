@@ -29,68 +29,69 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Tolvaptan: From Hyponatremia (SIADH) to Autosomal Dominant Polycystic Kidney Disease (ADPKD) with Polycystic Liver Disease
+# Tolvaptan: hyponatremiasta (SIADH) autosomaalisen dominantin polykystisen munuaistaudin (ADPKD) ja polykystisen maksataudin kautta
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Tolvaptan is a vasopressin V2-receptor antagonist most widely known for treating SIADH-related hyponatremia (this evidence pack does not include a confirmed original-indication record — see data gap below). The TxGNN model predicts strong potential for **Polycystic Kidney Disease 3, with or without Polycystic Liver Disease (ADPKD/PLD)**, and this is not a purely speculative signal: **20 supporting publications**, including **2 pivotal completed Phase 3 RCTs** (TEMPO 3:4, REPRISE), already back this use in other markets, even though no trial matched this exact disease term in our clinical-trials search.
+Tolvaptan on vasopressiini-V2-reseptorin antagonisti, joka tunnetaan pääasiassa SIADH-liittyvän hyponatremia-hoidosta (tämä arviointipaketti ei sisällä vahvistettua alkuperäisen indikaation rekisteriä — katso tietoväli alla). TxGNN-malli ennustaa vahvaa potentiaalia **Polykystiselle munuaistaudille 3, jossa voi tai ei voi olla polykystista maksatautia (ADPKD/PLD)**, ja tämä ei ole puhtaasti spekulatiivinen signaali: **20 tukevaa julkaisua**, mukaan lukien **2 keskeistä valmistunutta vaiheen 3 RCT:tä** (TEMPO 3:4, REPRISE), jo tukevat tätä käyttöä muilla markkinoilla, vaikka yksikään tutkimus ei vastannut tarkalleen tätä taudin termiä kliinisten tutkimusten haussa.
 
-## Quick Overview
+## Pikainen yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Hyponatremia (SIADH) — well-established use; not confirmed in this evidence pack (TFDA label data gap, DG001) |
-| Predicted New Indication | Polycystic Kidney Disease 3, with or without Polycystic Liver Disease (ADPKD/PLD) |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L1 |
-| Taiwan Market Status | ✗ Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Kohde | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Hyponatremia (SIADH) — vakiintunut käyttö; ei vahvistettu tässä arviointipaketissa (TFDA-merkinnöt, tietoväli DG001) |
+| Ennustettu uusi indikaatio | Polykystinen munuaistauti 3, jossa voi tai ei voi olla polykystista maksatautia (ADPKD/PLD) |
+| TxGNN-ennusteen pistemäärä | 99.99% |
+| Näyttötaso | L1 |
+| Taiwanin markkinatilanne | ✗ Ei markkinoilla (Ei markkinoilla) |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Jatka varautuvin järjestelyin |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on perusteltu?
 
-Detailed official mechanism-of-action documentation is not available in this evidence pack (data gap DG002). Based on the TxGNN repurposing rationale, tolvaptan is understood to act as a **vasopressin V2-receptor (V2R) antagonist**, blocking cAMP generation in renal collecting-duct epithelial cells — the pathway that drives cyst expansion and total kidney volume growth in ADPKD.
+Yksityiskohtaista virallista toimintamekanismin dokumentaatiota ei ole saatavana tässä arviointipaketissa (tietoväli DG002). TxGNN-uudelleenkäyttöperustelujen perusteella tolvaptaanin ymmärretään toimivan **vasopressiini-V2-reseptorin (V2R) antagonistina**, estämällä cAMP-tuotantoa munuaisten keräävien kanavien epiteelisolissa — radalla, joka ajaa kystien laajentumista ja kokonaismunaisten tilavuuden kasvua ADPKD:ssä.
 
-Notably, this "predicted" indication is not a novel hypothesis: tolvaptan is already an approved, mechanistically-validated therapy for ADPKD in multiple countries. The evidence pack's own rationale explicitly flags this — the "Not marketed" (not marketed) status recorded here most likely reflects a market-specific regulatory gap (e.g., Taiwan) rather than genuine scientific uncertainty. The polycystic liver disease component of the prediction is mechanistically plausible (cAMP-driven cystogenesis is shared between renal and hepatic cysts) but is supported by weaker, indirect evidence (EASL guideline mention rather than dedicated hepatic trials).
+Huomionarvoista on, että tämä "ennustettu" indikaatio ei ole uusi hypoteesi: tolvaptan on jo hyväksytty, mekanismiltaan validoitu hoito ADPKD:lle useissa maissa. Arviointipaketin oma perusteltu selvästi liputtaa tämä — täällä tallennettu "Ei markkinoilla" (Ei markkinoilla) -asema heijastaa todennäköisimmin markkinakohtaista sääntelyvajetta (esim. Taiwan) eikä todellista tieteellistä epävarmuutta. Ennusteen polykystisen maksataudin komponentti on mekanismiltaan uskottava (cAMP-ohjattu kystogeneesi jaetaan munuaisten ja maksan kystien välillä) mutta sitä tuetaan heikompi, epäsuora näyttö (EASL-ohjeen maininta eikä omistautuneita maksan tutkimuksia).
 
-Because V2R blockade directly targets the shared cystogenic mechanism, and because two independent Phase 3 RCTs (TEMPO 3:4 in early-stage disease, REPRISE in later-stage disease) demonstrated slowed kidney function decline, the mechanism-to-indication link here is unusually strong compared to typical TxGNN predictions.
+Koska V2R-esto suoraan kohdistuu jaettuun kystogeneesin mekanismiin, ja koska kaksi itsenäistä vaiheen 3 RCT:tä (TEMPO 3:4 varhaisvaiheen taudissa, REPRISE myöhemmän vaiheen taudissa) osoittivat hidastuneen munuaisten toiminnan heikkenemisen, mekanismi-indikaatio-yhteys on tässä epätavallisen vahva verrattuna tyypillisiin TxGNN-ennusteisiin.
 
-## Clinical Trial Evidence
+## Kliiniset tutkimukset
 
-Currently no related clinical trials are registered under this exact predicted-disease term in the evidence pack's clinical trial search. (Note: the pivotal RCTs establishing tolvaptan's efficacy in ADPKD — TEMPO 3:4, REPRISE — are captured under Literature Evidence below rather than the structured clinical-trials field.)
+Tällä hetkellä arviointipaketin kliinisten tutkimusten haussa ei ole kliinisiä tutkimuksia, jotka olisivat rekisteröityneet tässä tarkalleen ennustetun taudin termin alla. (Huomio: tolvaptaanin tehokkavuuden perustavia keskeisiä RCT-tutkimuksia ADPKD:ssä — TEMPO 3:4, REPRISE — siepaa alla oleva kirjallisuusnäyttö eikä jäsennelty kliinisten-tutkimusten kenttä.)
 
-## Literature Evidence
+## Kirjallisuusnäyttö
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [23121377](https://pubmed.ncbi.nlm.nih.gov/23121377/) | 2012 | RCT (Phase 3, TEMPO 3:4) | The New England Journal of Medicine | Tolvaptan slowed the increase in total kidney volume and the decline in eGFR versus placebo in early ADPKD — landmark trial establishing V2R antagonism as disease-modifying therapy. |
-| [29105594](https://pubmed.ncbi.nlm.nih.gov/29105594/) | 2017 | RCT (Phase 3, REPRISE) | The New England Journal of Medicine | In later-stage ADPKD (lower eGFR), tolvaptan slowed kidney function decline versus placebo, extending efficacy evidence beyond early-stage disease. |
-| [37150675](https://pubmed.ncbi.nlm.nih.gov/37150675/) | 2023 | Systematic Review & Meta-analysis | Nefrologia | Pooled analysis confirms tolvaptan's efficacy in delaying ADPKD progression to end-stage renal disease, alongside expected hepatic/renal safety signals. |
-| [39356039](https://pubmed.ncbi.nlm.nih.gov/39356039/) | 2024 | Cochrane Systematic Review | Cochrane Database of Systematic Reviews | Reviews disease-modifying agents, including tolvaptan, for preventing ADPKD progression and compares relative effectiveness. |
-| [35134221](https://pubmed.ncbi.nlm.nih.gov/35134221/) | 2022 | Consensus Statement | Nephrology, Dialysis, Transplantation | ERA Working Group consensus on practical initiation and monitoring of tolvaptan therapy in ADPKD, based on TEMPO 3:4/REPRISE evidence. |
-| [35728731](https://pubmed.ncbi.nlm.nih.gov/35728731/) | 2022 | Clinical Practice Guideline (EASL) | Journal of Hepatology | EASL guideline on management of cystic liver diseases, referencing tolvaptan's mechanistic relevance to polycystic liver disease. |
-| [40126492](https://pubmed.ncbi.nlm.nih.gov/40126492/) | 2025 | Review | JAMA | Comprehensive review of ADPKD pathophysiology and genetics, naming tolvaptan as the only approved disease-modifying therapy. |
-| [35487607](https://pubmed.ncbi.nlm.nih.gov/35487607/) | 2022 | Review | Clinics in Liver Disease | Notes tolvaptan slows renal function decline and cyst growth in ADPKD; discusses concurrent polycystic liver disease management. |
-| [38091246](https://pubmed.ncbi.nlm.nih.gov/38091246/) | 2024 | Randomized Trial (Pediatric) | Pediatric Nephrology | Evaluated tolvaptan safety/pharmacodynamics and progression-risk estimation in pediatric ADPKD patients (NCT02964273). |
-| [29175241](https://pubmed.ncbi.nlm.nih.gov/29175241/) | 2018 | Review | Journal of Hepatology | Clinical management guidance for polycystic liver disease, including case discussion relevant to cyst-burden reduction strategies. |
+| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät löydökset |
+|------|-------|---------|--------|---------|
+| [23121377](https://pubmed.ncbi.nlm.nih.gov/23121377/) | 2012 | RCT (vaiheen 3, TEMPO 3:4) | The New England Journal of Medicine | Tolvaptan hidasti munuaisten kokonaistilavuuden kasvua ja eGFR:n heikkenemistä verrattuna lumelääkkeeseen varhaisvaiheen ADPKD:ssä — maamerkkitutkimus, joka vahvisti V2R-antagonismin tautia muuntavaksi terapiaksi. |
+| [29105594](https://pubmed.ncbi.nlm.nih.gov/29105594/) | 2017 | RCT (vaiheen 3, REPRISE) | The New England Journal of Medicine | Myöhemmän vaiheen ADPKD:ssä (alempi eGFR), tolvaptan hidasti munuaisten toiminnan heikkenemistä verrattuna lumelääkkeeseen, laajentaen tehokkavuus-näyttöä varhaisvaiheen taudin yli. |
+| [37150675](https://pubmed.ncbi.nlm.nih.gov/37150675/) | 2023 | Systemaattinen katsaus ja meta-analyysi | Nefrologia | Yhdistetty analyysi vahvistaa tolvaptaanin tehokkavuuden ADPKD-progression hidastamisessa loppuvaiheen munuaistautiin, sekä odotettavissa olevan maksan/munuaisten turvallisuussignaalien rinnalla. |
+| [39356039](https://pubmed.ncbi.nlm.nih.gov/39356039/) | 2024 | Cochrane systemaattinen katsaus | Cochrane Database of Systematic Reviews | Katsoo tautia muuntavia aineita, mukaan lukien tolvaptaania, ADPKD-progression estämiseksi ja vertaa suhteellista tehokkavuutta. |
+| [35134221](https://pubmed.ncbi.nlm.nih.gov/35134221/) | 2022 | Yksimielisyyslausunto | Nephrology, Dialysis, Transplantation | ERA-työryhmän yksimielisyys tolvaptaani-terapian käytännöllisestä aloittamisesta ja seurannasta ADPKD:ssä, perustuen TEMPO 3:4/REPRISE-näyttöön. |
+| [35728731](https://pubmed.ncbi.nlm.nih.gov/35728731/) | 2022 | Kliininen käytäntöohje (EASL) | Journal of Hepatology | EASL-ohje kystisen maksataudin hallinnosta, viitaten tolvaptaanin mekanistiseen merkitykseen polykystiselle maksataudille. |
+| [40126492](https://pubmed.ncbi.nlm.nih.gov/40126492/) | 2025 | Katsaus | JAMA | Kattava ADPKD-patofysiologian ja genetiikan katsaus, nimeää tolvaptaanin ainoaksi hyväksytyksi tautia muuntavaksi terapeuksi. |
+| [35487607](https://pubmed.ncbi.nlm.nih.gov/35487607/) | 2022 | Katsaus | Clinics in Liver Disease | Huomauttaa, että tolvaptan hidastaa munuaisten toiminnan heikkenemistä ja kystien kasvua ADPKD:ssä; käsittelee samanaikaista polykystisen maksataudin hallintoa. |
+| [38091246](https://pubmed.ncbi.nlm.nih.gov/38091246/) | 2024 | Satunnaistettu tutkimus (pediatrinen) | Pediatric Nephrology | Arvioi tolvaptaanin turvallisuutta/farmakodynamiikkaa ja progression-riskin arviointia pediatrisissa ADPKD-potilaissa (NCT02964273). |
+| [29175241](https://pubmed.ncbi.nlm.nih.gov/29175241/) | 2018 | Katsaus | Journal of Hepatology | Kliinisen hallinnon ohjaus polykystiselle maksataudille, mukaan lukien tapausseloste, joka on merkityksellinen kystikuorman vähentämisstrategioissa. |
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information.
+Turvallisuustiedoista katso pakkausseloste.
 
-## Conclusion and Next Steps
+## Johtopäätelmät ja seuraavat askeleet
 
-**Decision: Proceed with Guardrails**
+**Päätös: Jatka varautuvin järjestelyin**
 
-**Rationale:**
-The predicted indication is backed by L1-level evidence (two completed Phase 3 RCTs plus multi-society consensus/guideline endorsement), but Taiwan-specific regulatory and safety data (TFDA label, drug interactions) are entirely absent, so a full safety evaluation (S1) cannot be completed despite strong efficacy evidence.
+**Perustelut:**
+Ennustettu indikaatio on tuettu L1-tasoisella näytöllä (kaksi valmistunutta vaiheen 3 RCT:tä sekä moniyhteiset konsensus-/ohjeet-hyväksyntä), mutta Taiwan-spesifinen sääntelyllinen ja turvallisuustieto (TFDA-merkinnöt, lääkkeiden väliset vuorovaikutukset) puuttuu kokonaan, joten täydellistä turvallisuuden arviointia (S1) ei voida suorittaa vahvan tehokkavuus-näytön olemasta huolimatta.
 
-**To proceed, the following is needed:**
-- TFDA package insert / label — warnings and contraindications (Blocking gap, DG001)
-- Official MOA confirmation via DrugBank API (High-priority gap, DG002)
-- Drug-drug interaction data (tolvaptan is a known CYP3A4 substrate; interactions e.g. with strong CYP3A4 inhibitors need verification)
-- Clarification of Taiwan market-entry status, since tolvaptan is already approved for this indication in multiple other jurisdictions
-- Note: 9 other TxGNN-predicted indications for this drug were also screened (L4–L5 evidence) and remain on **Hold**; two of them (thoracic malformation; malformation syndrome with periodontal component) show literature entirely unrelated to the predicted disease and are likely ontology-matching artifacts, not genuine repurposing candidates.
+**Jatkaaksemme, seuraava on välttämätöntä:**
+- TFDA-pakkausseloste / merkinnöt — varoitukset ja vasta-aiheet (Estävä väli, DG001)
+- Virallinen MOA-vahvistus DrugBank-sovellusliittymän kautta (Korkean prioriteetin väli, DG002)
+- Lääkkeiden väliset vuorovaikutustiedot (tolvaptan on tunnettu CYP3A4-substraatti; vuorovaikutukset esim. vahvojen CYP3A4-inhibiittorien kanssa vaativat vahvistusta)
+- Taiwan markkinoille-tulon tilan selventäminen, koska tolvaptan on jo hyväksytty tälle indikaatiolle useissa muissa lainkäyttöalueissa
+- Huomio: tämän lääkkeen 9 muuta TxGNN-ennustettua indikaatiota oli myös seulottu (L4–L5 näyttö) ja pysyvät **Pidossa**; kaksi niistä (rintakehän epämuodostuminen; epämuodostumisoireyhtymä parodontaalisen komponentin kanssa) osoittavat kirjallisuutta, joka on täysin epäsiihen liittyvää ennustettuun tautiin, ja ne ovat todennäköisesti ontologian-sovitusartefakteja, ei todellisia uudelleenkäytön ehdokkioita.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

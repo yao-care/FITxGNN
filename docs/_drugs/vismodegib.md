@@ -29,109 +29,110 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Vismodegib: From No Registered Indication (Not Marketed) to Skin Cancer (Basal Cell Carcinoma)
+# Vismodegib: ei rekisteröityä indikaatiota (ei markkinoitu) ihosyöpään (basaalisolukarsinooma)
 
-## One-Sentence Summary
+## Yksirivinen yhteenveto
 
-Vismodegib (DrugBank DB08828) is currently **not marketed** in this jurisdiction and has no registered original indication on file. Among the 10 TxGNN-predicted indications in this evidence pack, the only one with substantive supporting data is **Skin Cancer (Basal Cell Carcinoma)**, backed by **23 clinical trials** and **20 publications**, and it corresponds to vismodegib's globally established use as the first-in-class oral Hedgehog-pathway inhibitor. The model's single highest-scoring candidate (medulloblastoma with extensive nodularity, 99.93%) shares the same mechanism but currently has zero retrievable trials or literature, so it is flagged separately below as an unvalidated research question rather than the primary subject of this report.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available — no marketing authorizations on file (untuk market: Not marketed) |
-| Predicted New Indication | Skin Cancer (Basal Cell Carcinoma) |
-| TxGNN Prediction Score | 99.82% |
-| Evidence Level | L2 |
-| Finland Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+Vismodegib (DrugBank DB08828) ei ole tällä hetkellä markkinoitu tässä lainkäyttöalueella ja sillä ei ole rekisteröityä alkuperäistä indikaatiota saatavilla. Tässä todistepakkauksessa olevista kymmenestä TxGNN-ennustetusta indikaatiosta ainoa merkittävän tukitiedon omaava on **ihosyöpä (basaalisolukarsinooma)**, jonka tuella on **23 kliinistä tutkimusta** ja **20 julkaisua**, ja se vastaa vismodegib'in globaalisti vakiintunutta käyttöä ensimmäisenä suun kautta otettavana pieni-molekyyli-antagonistina Hedgehog (Hh) -signalointireitillä. Mallin yleisesti korkeimmin pisteitetty ehdokas (medulloblastooma laajalla solukkorakenteella, 99.93%) jakaa saman mekanismin, mutta sillä ei ole tällä hetkellä saatavissa olevia tutkimuksia tai kirjallisuutta — se on merkitty erillisesti alla todentamattomaksi tutkimuskysymykseksi alkuperäisen raportin pääkohteen sijaan.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Pikayhteenveto
 
-Currently, the formal DrugBank-sourced mechanism-of-action field is flagged as a data gap (DG002, High severity, pending DrugBank API query). Based on the literature evidence retrieved in this pack, however, vismodegib (GDC-0449) is well characterized as the first-in-class, orally bioavailable small-molecule antagonist of the Hedgehog (Hh) signaling pathway. It binds Smoothened (SMO), a seven-transmembrane receptor, blocking downstream activation of GLI transcription factors and suppressing pathway-driven proliferation (PMID 22679179, 22653209, 24756807).
-
-The mechanistic fit to skin cancer is direct rather than inferred: basal cell carcinoma is primarily driven by aberrant Hedgehog signaling, and genomic profiling shows roughly 85% of BCCs carry activating mutations in this pathway (PTCH1 ~73%, SMO ~20%, SUFU ~8%; PMID 26950094). Vismodegib was in fact the first Hedgehog-pathway inhibitor approved (FDA, 2012) specifically for locally advanced and metastatic BCC, and it remains referenced across current European and US treatment guidelines (PMID 37604067, 31288208, 29331385). In this evidence pack, "skin cancer" is therefore best understood not as a novel repurposing hypothesis but as a re-confirmation of vismodegib's canonical, mechanistically validated indication in a market where the product is not yet registered.
-
-Separately, the model's top-ranked candidate overall, medulloblastoma with extensive nodularity (TxGNN score 99.93%), reflects the same SMO/Hedgehog mechanism (SHH-activated molecular subgroup of medulloblastoma) and is biologically plausible, but no clinical trials or literature were retrieved for it in this data pull — it is scored L5/S0 ("Research Question") and requires a dedicated literature search on vismodegib in pediatric/recurrent SHH-medulloblastoma before it can be evaluated further.
+| Kohta | Sisältö |
+|------|--------|
+| Alkuperäinen indikaatio | Ei saatavissa — markkinointilupaa ei ole saatavilla (markkinoitavaksi: Ei markkinoitu) |
+| Ennustettu uusi indikaatio | Ihosyöpä (basaalisolukarsinooma) |
+| TxGNN-ennustepistemäärä | 99.82% |
+| Näytön taso | L2 |
+| Suomen markkinatilanne | Ei markkinoitu (Ei markkinoitu) |
+| Markkinointilupien lukumäärä | 0 |
+| Suositeltu päätös | Edetään varovaisuustoimia noudattaen |
 
 ---
 
-## Clinical Trial Evidence
+## Miksi tämä ennuste on järkevä?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Tällä hetkellä virallinen DrugBank-lähteinen vaikutusmekanismi-kenttä on merkitty tietovajeeksi (DG002, korkea vakavuus, DrugBank API -kyselyn odotuksella). Tässä paketissa löydetyn kirjallisuustiedon perusteella vismodegib (GDC-0449) on kuitenkin hyvin karakterisoitu ensimmäisenä lajityyppiään suun kautta otettavana pieni-molekyyli-antagonistina Hedgehog (Hh) -signalointiväylää vastaan. Se sitoutuu Smoothened (SMO) -receptoriin, seitsemän kalvon läpi kuljettavaan receptoriin, ja estää GLI-transkriptiotekijöiden alavirtaan tapahtuvaa aktivaatiota ja hillitsee väylän aikaansaamaa proliferaatiota (PMID 22679179, 22653209, 24756807).
+
+Mekanistinen sopivuus ihosyöpään on suora, ei päätelty: basaalisolukarsinooma aiheutuu pääasiassa poikkeamallisesta Hedgehog-signaloinnista, ja genomiprofilointi osoittaa, että noin 85 % BCC:istä kantaa aktivoivia mutaatioita tällä väylällä (PTCH1 ~73 %, SMO ~20 %, SUFU ~8 %; PMID 26950094). Vismodegib oli todellakin ensimmäinen Hedgehog-väylän estäjä, joka hyväksyttiin (FDA, 2012) paikallisesti edistyneessä ja etäpesäkkeitä olevassa BCC:ssä, ja sitä viitataan edelleen nykyisissä eurooppalaisissa ja Yhdysvalloissa käytettävissä hoito-ohjeissa (PMID 37604067, 31288208, 29331385). Tässä todistepakkauksessa "ihosyöpä" tulisi siksi ymmärtää ei uudeksi lääkkeistämisen hypoteesiksi, vaan vismodegib'in kanonisen, mekanistisesti vahvistavan indikaation uudelleen vahvistamiseksi markkinoilla, joissa tuotetta ei ole vielä rekisteröity.
+
+Erillisesti mallin yleisesti korkeimmin pisteitetty ehdokas (medulloblastooma laajalla solukkorakenteella, TxGNN-pistemäärä 99.93%) heijastaa samaa SMO/Hedgehog-mekanismia (SHH-aktivoitu medulloblastoomaan molekyylinen alatyyppi) ja on biologisesti uskottava, mutta tälle tiedonhaun vedolle ei löydetty yhtään kliinistä tutkimusta tai kirjallisuutta — se on pisteytetty L5/S0-tasolla ("Tutkimuskysymys") ja vaatii omaa kirjallisuushakua vismodegib'istä pediatrisissa/uusiutuvissa SHH-medulloblastoomissa ennen kuin sitä voidaan arvioida edelleen.
+
+---
+
+## Kliiniset tutkimustodisteet
+
+| Tutkimusnumero | Vaihe | Tila | Osallistujamäärä | Keskeiset löydökset |
 |---------|------|------|------|---------|
-| [NCT01367665](https://clinicaltrials.gov/study/NCT01367665) | Phase 2 | Completed | 1232 | STEVIE study — large single-arm, open-label safety/efficacy trial of vismodegib 150 mg/day in locally advanced/metastatic BCC; primary supportive safety dataset behind approval |
-| [NCT00607724](https://clinicaltrials.gov/study/NCT00607724) | Phase 1 | Completed | 68 | First-in-human study of GDC-0449 (vismodegib) in refractory advanced/metastatic solid tumors; established dose and safety basis |
-| [NCT01815840](https://clinicaltrials.gov/study/NCT01815840) | Phase 2 | Completed | 229 | Randomized, double-blind comparison of two vismodegib dosing regimens (intermittent vs. induction+intermittent) in multiple BCC |
-| [NCT01835626](https://clinicaltrials.gov/study/NCT01835626) | Phase 2 | Completed | 24 | Vismodegib combined with radiation therapy in locally advanced head/neck BCC |
-| [NCT03035188](https://clinicaltrials.gov/study/NCT03035188) | Phase 2 | Completed | 40 | Neoadjuvant vismodegib in large/recurrent resectable BCC, aimed at scar/tissue-sparing surgery |
-| [NCT01631331](https://clinicaltrials.gov/study/NCT01631331) | Early Phase 1 | Completed | 15 | Pilot study of vismodegib as pre-surgical adjuvant in sporadic BCC |
-| [NCT01543581](https://clinicaltrials.gov/study/NCT01543581) | Phase 2 | Completed | 3 | Placebo-controlled, double-blind trial of vismodegib prior to Mohs micrographic surgery |
-| [NCT06357988](https://clinicaltrials.gov/study/NCT06357988) | Phase 2 | Active, not recruiting | 35 | NCI-MATCH subprotocol T — vismodegib in non-BCC tumors with SMO/PTCH1 mutations (basket trial, mechanism-extension use) |
-| [NCT05651828](https://clinicaltrials.gov/study/NCT05651828) | Early Phase 1 | Recruiting | 34 | Adaptive/personalized intermittent dosing schedules vs. fixed regimens in advanced BCC |
-| [NCT05463757](https://clinicaltrials.gov/study/NCT05463757) | N/A (registry) | Recruiting | 80 | Netherlands prospective registration study comparing vismodegib and sonidegib in advanced/multiple BCC |
+| [NCT01367665](https://clinicaltrials.gov/study/NCT01367665) | Vaihe 2 | Valmistunut | 1232 | STEVIE-tutkimus — suuri yksihaara, avoimen kategorian turvallisuus-/tehokkuustutkimus vismodegib'istä 150 mg/päivä paikallisesti edistyneissä/etäpesäkkeitä olevissa BCC:ssä; ensisijainen turvallisuustietojoukkoon hyväksynnän takaa |
+| [NCT00607724](https://clinicaltrials.gov/study/NCT00607724) | Vaihe 1 | Valmistunut | 68 | Ensimmäinen ihmisen tutkimus GDC-0449:stä (vismodegib) hoitokelvottomissa edistyneissä/etäpesäkkeitä olevissa kiinteissä kasvaimissa; luoneet annoksen ja turvallisuusperustan |
+| [NCT01815840](https://clinicaltrials.gov/study/NCT01815840) | Vaihe 2 | Valmistunut | 229 | Satunnaistettu, kaksoissokkoutettu kahden vismodegib'in annosskeduulin vertailu (välittävä vs. induktio+välittävä) useissa BCC:issä |
+| [NCT01835626](https://clinicaltrials.gov/study/NCT01835626) | Vaihe 2 | Valmistunut | 24 | Vismodegib kombinaationa sädehoitoon paikallisesti edistyneissä pään/kaulan BCC:ssä |
+| [NCT03035188](https://clinicaltrials.gov/study/NCT03035188) | Vaihe 2 | Valmistunut | 40 | Neoadjuvantti vismodegib suurissa/toistuvissa resektaatavissa BCC:ssä, tavoitteena arpi-/kudosneuvotteleva kirurgia |
+| [NCT01631331](https://clinicaltrials.gov/study/NCT01631331) | Varhainen vaihe 1 | Valmistunut | 15 | Lääkekokeileva tutkimus vismodegib'istä pre-kirurgisena apuaineena oireettomissa BCC:ssä |
+| [NCT01543581](https://clinicaltrials.gov/study/NCT01543581) | Vaihe 2 | Valmistunut | 3 | Lumekontrolloitu, kaksoissokkoutettu vismodegib-tutkimus ennen Mohs-mikrografiselta kirurgiaa |
+| [NCT06357988](https://clinicaltrials.gov/study/NCT06357988) | Vaihe 2 | Aktiivinen, ei rekrytoida | 35 | NCI-MATCH alaohjelmake T — vismodegib ei-BCC-kasvaimissa SMO/PTCH1-mutaatioilla (korikoe, mekanismi-laajentamiskäyttö) |
+| [NCT05651828](https://clinicaltrials.gov/study/NCT05651828) | Varhainen vaihe 1 | Rekrytointi käynnissä | 34 | Mukaautuva/henkilökohtaistettu välittävä annostusjaksot vs. kiinteät skeduulit edistyneissä BCC:ssä |
+| [NCT05463757](https://clinicaltrials.gov/study/NCT05463757) | N/A (rekisteri) | Rekrytointi käynnissä | 80 | Alankomaiden prospektiivinen rekisteröintiä tutkimus vismodegib'in ja sonidegib'in vertailussa edistyneissä/useissa BCC:ssä |
 
 ---
 
-## Literature Evidence
+## Kirjallisuusarviot
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Julkaisu | Keskeiset löydökset |
 |------|-----|------|------|---------|
-| [37604067](https://pubmed.ncbi.nlm.nih.gov/37604067/) | 2023 | Review/Guideline | European Journal of Cancer | Updated European consensus guideline (EADO/ESTRO) on BCC diagnosis and treatment, including Hedgehog inhibitor use |
-| [34000246](https://pubmed.ncbi.nlm.nih.gov/34000246/) | 2021 | RCT/Cohort | Lancet Oncology | Phase 2 trial of cemiplimab after Hedgehog-inhibitor (incl. vismodegib) failure in locally advanced BCC |
-| [31288208](https://pubmed.ncbi.nlm.nih.gov/31288208/) | 2019 | Review/Guideline | European Journal of Cancer | European consensus-based interdisciplinary BCC treatment guidelines |
-| [29331385](https://pubmed.ncbi.nlm.nih.gov/29331385/) | 2018 | Review/Guideline | J Am Acad Dermatol | AAD guidelines of care for BCC management |
-| [32759706](https://pubmed.ncbi.nlm.nih.gov/32759706/) | 2020 | Review | Int J Mol Sci | Comprehensive review of BCC biology and molecular features |
-| [26950094](https://pubmed.ncbi.nlm.nih.gov/26950094/) | 2016 | Cohort/Genomic | Nature Genetics | Genomic profiling of 293 BCCs: 85% carry Hedgehog pathway mutations (PTCH1/SMO/SUFU) |
-| [27436804](https://pubmed.ncbi.nlm.nih.gov/27436804/) | 2016 | Review | Actas Dermo-Sifiliográficas | Review of resistance mechanisms to nonsurgical BCC treatments including vismodegib |
-| [24756807](https://pubmed.ncbi.nlm.nih.gov/24756807/) | 2014 | Review | Recent Results Cancer Res | MOA review: vismodegib binds SMO, inhibits aberrant Hh pathway activation; notes relevance beyond BCC (medulloblastoma, GI, brain, lung, breast, prostate) |
-| [22679179](https://pubmed.ncbi.nlm.nih.gov/22679179/) | 2012 | Review | Clin Cancer Res | Approval-era review of vismodegib pharmacology and Phase 2 basis for FDA approval |
-| [22653209](https://pubmed.ncbi.nlm.nih.gov/22653209/) | 2012 | Review | Nature Reviews Drug Discovery | Drug profile at initial FDA approval, MOA and development summary |
+| [37604067](https://pubmed.ncbi.nlm.nih.gov/37604067/) | 2023 | Katsaus/Ohje | European Journal of Cancer | Päivitetty eurooppalainen yksimielisyysohje (EADO/ESTRO) BCC-diagnoosista ja hoidosta, mukaan lukien Hedgehog-estäjän käyttö |
+| [34000246](https://pubmed.ncbi.nlm.nih.gov/34000246/) | 2021 | RCT/Kohortti | Lancet Oncology | Vaihe 2-tutkimus cemiplimab'ista Hedgehog-estäjän (mukaan lukien vismodegib) epäonnistumisen jälkeen paikallisesti edistyneessä BCC:ssä |
+| [31288208](https://pubmed.ncbi.nlm.nih.gov/31288208/) | 2019 | Katsaus/Ohje | European Journal of Cancer | Eurooppalainen yksimielisyyspohjaiset monitieteelliset BCC-hoito-ohjeet |
+| [29331385](https://pubmed.ncbi.nlm.nih.gov/29331385/) | 2018 | Katsaus/Ohje | J Am Acad Dermatol | AAD-hoito-opas BCC-hallinnasta |
+| [32759706](https://pubmed.ncbi.nlm.nih.gov/32759706/) | 2020 | Katsaus | Int J Mol Sci | Kattava katsaus BCC-biologiasta ja molekyylisistä piirteistä |
+| [26950094](https://pubmed.ncbi.nlm.nih.gov/26950094/) | 2016 | Kohortti/Genominen | Nature Genetics | 293 BCC:n genomiprofilointi: 85 % kantaa Hedgehog-väylän mutaatioita (PTCH1/SMO/SUFU) |
+| [27436804](https://pubmed.ncbi.nlm.nih.gov/27436804/) | 2016 | Katsaus | Actas Dermo-Sifiliográficas | Katsaus vastustumekanismeista ei-kirurgisille BCC-hoitoihin, mukaan lukien vismodegib |
+| [24756807](https://pubmed.ncbi.nlm.nih.gov/24756807/) | 2014 | Katsaus | Recent Results Cancer Res | Vaikutusmekanismi-katsaus: vismodegib sitoutuu SMO:hon, estää poikkeamallisen Hh-väylän aktivaatiota; huomioidaan merkitys BCC:n ulkopuolella (medulloblastooma, GI, aivo, keuhko, rinta, eturauhanen) |
+| [22679179](https://pubmed.ncbi.nlm.nih.gov/22679179/) | 2012 | Katsaus | Clin Cancer Res | Hyväksyntäaikakautisen katsaus vismodegib'in farmakologiasta ja vaihe 2 -perusteista FDA-hyväksyntään |
+| [22653209](https://pubmed.ncbi.nlm.nih.gov/22653209/) | 2012 | Katsaus | Nature Reviews Drug Discovery | Lääkkeen profiili alkuperäisen FDA-hyväksynnän yhteydessä, vaikutusmekanismi ja kehityksellinen yhteenveto |
 
 ---
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Vismodegib currently has no marketing authorizations on file in this market (market status: Not marketed / Not Marketed; 0 licenses recorded).
-
----
-
-## Cytotoxicity
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (Hedgehog pathway / Smoothened inhibitor) — not a conventional cytotoxic agent |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+Vismodegib ei ole tällä hetkellä saanut markkinointilupaa tässä markkinassa (markkinatilanne: Ei markkinoitu / Ei markkinoitu; 0 lupaa tallennettu).
 
 ---
 
-## Safety Considerations
+## Sytotoksisuus
 
-Please refer to the package insert for safety information.
+| Kohta | Sisältö |
+|------|--------|
+| Sytotoksisuus-luokitelu | Kohdistettu hoito (Hedgehog-väylä / Smoothened-estäjä) — ei perinteinen sytotoksinen aine |
+| Luuytimen tukahduttamisriski | Katso pakkausselosteesta varoitukset ja varotoimet |
+| Pahoinvointiin aiheuttavuuden luokitus | Katso pakkausselosteesta varoitukset ja varotoimet |
+| Seurantakohteet | Katso pakkausselosteesta varoitukset ja varotoimet |
+| Käsittelyn suojaus | Katso pakkausselosteesta varoitukset ja varotoimet |
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuusnäkökohdat
 
-**Decision: Proceed with Guardrails**
+Turvallisuustiedot on esitetty pakkausselosteessa.
 
-**Rationale:**
-Vismodegib's mechanistic and clinical link to skin cancer (BCC) is well established internationally (large Phase 2 safety cohort of 1,232 patients, multiple completed trials, and current treatment guidelines), but the drug has no registration or marketing history in this jurisdiction, so local regulatory and safety data must be established before advancing.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert warnings/contraindications (DG001, Blocking) — required before any S1 safety assessment can proceed
-- Confirmed mechanism-of-action data via DrugBank API (DG002)
-- Local drug-drug interaction (DDI) data — current query returned no results
-- Formal regulatory pathway assessment given zero current market authorizations
-- Independent literature/trial search for the top-ranked but currently unevidenced candidate (medulloblastoma with extensive nodularity) before it can be scored beyond L5/Research Question
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Edetään varovaisuustoimia noudattaen**
+
+**Perustelut:**
+Vismodegib'in mekanistinen ja kliininen yhteys ihosyöpään (BCC) on hyvin vakiintunut kansainvälisesti (suuri vaihe 2 turvallisuuskohortti 1 232 potilaalla, useat suoritetut tutkimukset ja nykyiset hoito-ohjeet), mutta lääkkeellä ei ole rekisteröintiä tai markkinointihistoriaa tässä lainkäyttöalueella, joten paikallinen sääntelyviranomaisten ja turvallisuustiedot on vahvistettava ennen kuin edetään eteenpäin.
+
+**Jatkaakseen tarvitaan seuraavaa:**
+- TFDA-pakkausseloste varoitukset/vasta-aiheet (DG001, Esto) — vaaditaan ennen kuin mikään S1-turvallisuusarvio voidaan jatkaa
+- Vahvistettu vaikutusmekanismi-data DrugBank API:n kautta (DG002)
+- Paikallisen lääke-lääke-vuorovaikutus (DDI) -data — nykyinen kysely ei palauttanut tuloksia
+- Muodollinen sääntelyviranomaisten reittien arviointi annettu nolla nykyisiä markkinointilupuja
+- Riippumaton kirjallisuus-/tutkimushaku korkeimmin sijoitetusta mutta tällä hetkellä todistamattomasta ehdokkaasta (medulloblastooma laajalla solukkorakenteella) ennen kuin se voidaan pisteytetä L5/Tutkimuskysymystä enemmälle
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

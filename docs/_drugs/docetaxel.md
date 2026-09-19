@@ -29,110 +29,111 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Docetaxel: From Undocumented Original Indication to Female Breast Carcinoma
+# Docetaxel: Dokumentoimattomasta alkuperäisestä indikaatiosta naisen rintasyöpään
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Docetaxel (DrugBank DB01248) is a taxane-class cytotoxic agent; the evidence pack does not carry a documented original indication or Finland/Taiwan license record, but the drug's real-world clinical use context is breast cancer chemotherapy.
-The TxGNN model predicts continued/strengthened efficacy for **Female Breast Carcinoma**, with **50 clinical trials** and **20 publications** returned from the literature search supporting this signal.
-Because this indication overlaps with docetaxel's already-established real-world use (per the evidence pack's own rationale notes), this is best read as a **confirmatory signal rather than a novel repurposing candidate**.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in evidence pack (no `original_indications` or license records on file) |
-| Predicted New Indication | Female Breast Carcinoma |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L1 |
-| Finland/Taiwan Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+Docetaxel (DrugBank DB01248) on taksiini-luokan sytostaattinen aine; evidenssipaketti ei sisällä dokumentoitua alkuperäistä indikaatiota tai Suomen/Taiwanin lisenssi­tietoja, mutta lääkkeen tosielämän kliininen käyttöyhteys on rintasyövän kemoterapia.
+TxGNN-malli ennustaa jatkuvaa/vahvistunutta tehoa **naisen rintasyövän** hoitoon, ja kirjallisuushaussa löydettiin **50 kliinistä tutkimusta** ja **20 julkaisua** tukevia tätä havaintoa.
+Koska tämä indikaatio päällekkäistyy docetakselin jo vakiintuneen tosielämän käytön kanssa (evidenssipaketin omat perustelut osoittavat), tätä tulisi lukea pikemmin **vahvistavan signaalin** kuin **uuden uudelleenkäyttötarkoituksen kandidaatin**.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Pikayleiskatsaus
 
-Docetaxel is a taxane. It stabilizes microtubules and inhibits their depolymerization, which locks rapidly dividing cells in the G2/M phase and drives apoptosis. Since breast cancer cells have a high proliferation rate, this mechanism is directly relevant to the predicted indication.
-
-The evidence pack's own repurposing rationale flags an important caveat: docetaxel (Taxotere) is a **currently approved chemotherapy for breast cancer** in most markets — this is not a typical "old drug, new disease" repurposing case. It appears here only because the `original_indications` field in this evidence pack is empty, so the model/scoring pipeline evaluated it as if breast cancer were an unconfirmed candidate. The very large number of completed Phase 3 trials below (including trials with >2,000–3,000 enrolled patients) reflects this: they are trials establishing/optimizing docetaxel's role in breast cancer treatment, not exploratory repurposing studies.
-
-Because no license or regulatory documentation exists in this pack for the Finland/Taiwan market ("Not marketed" / Not Marketed, 0 authorizations), the practical next step is regulatory confirmation rather than further mechanistic justification.
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Ei dokumentoitu evidenssipakettiin (ei `original_indications` tai lisenssi­tietoja arkistossa) |
+| Ennustettu uusi indikaatio | Naisen rintasyöpä |
+| TxGNN-ennusteen pistemäärä | 99.90% |
+| Evidenssin taso | L1 |
+| Suomen/Taiwanin markkinatilanne | ✗ Ei markkinoitu |
+| Hyväksynnän kokonaismäärä | 0 |
+| Suositeltu päätös | Jatka varauksin |
 
 ---
 
-## Clinical Trial Evidence
+## Miksi tämä ennuste on järkevä?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Docetaxel on taksiini. Se stabiloi mikrotubuluksia ja estää niiden depolymeroitumista, mikä lukitsee nopeasti jakautuvat solut G2/M-vaiheeseen ja ajaa apoptoosin. Koska rintasyövän solut ovat nopean lisääntymisen vaiheessa, tämä mekanismi on suoraan olennainen ennustettuun indikaatioon.
+
+Evidenssipaketin oman uudelleenkäyttöperustelun mukaan on tärkeä varoitus: docetaxel (Taxotere) on **tällä hetkellä hyväksytty kemoterapia rintasyövän hoitoon** useimmilla markkinoilla — tämä ei ole tyypillinen "vanha lääke, uusi tauti" -uudelleenkäyttötapaus. Se ilmestyy tähän vain siksi, koska tämän evidenssipaketin `original_indications`-kenttä on tyhjä, joten malli/pisteytysputki arvioi rintasyövän ikään kuin vahvistamattomaksi kandidaatiksi. Alla olevan valmistuneiden 3. vaiheen tutkimusten hyvin suuri määrä (mukaan lukien tutkimukset, joissa oli >2 000–3 000 rekrytoitua potilasta) heijastaa tätä: ne ovat tutkimuksia, jotka vakiintuvat/optimoivat docetakselin roolia rintasyövän hoidossa, eivät tutkivia uudelleenkäyttötutkimuksia.
+
+Koska tähän evidenssipakettiin ei ole sisällytetty Suomen/Taiwanin markkinoiden lisenssi- tai sääntelydokumentaatiota ("Ei markkinoitu", 0 hyväksyntää), käytännöllinen seuraava vaihe on sääntelyvoiman vahvistus eikä jatkomekanistisen perustelun.
+
+---
+
+## Kliinisen tutkimuksen evidenssi
+
+| Tutkimusnumero | Vaihe | Tila | Osallistujamäärä | Tärkeimmät löydökset |
 |---------|------|------|------|---------|
-| [NCT00002544](https://clinicaltrials.gov/study/NCT00002544) | Phase 3 | Completed | 300 | Mitoxantrone ± docetaxel as first-line chemotherapy for metastatic breast cancer with unfavorable prognosis |
-| [NCT00193011](https://clinicaltrials.gov/study/NCT00193011) | Phase 3 | Completed | 150 | Weekly docetaxel vs. CMF in adjuvant treatment of high-risk breast cancer patients ≥65 or anthracycline-ineligible |
-| [NCT01275677](https://clinicaltrials.gov/study/NCT01275677) | Phase 3 | Completed | 3270 | Docetaxel+cyclophosphamide or doxorubicin+cyclophosphamide→paclitaxel, ± trastuzumab, in node-positive/high-risk HER2-low breast cancer |
-| [NCT00089479](https://clinicaltrials.gov/study/NCT00089479) | Phase 3 | Completed | 2611 | Adriamycin/Cytoxan followed by Taxotere ± Xeloda; overall survival in high-risk breast cancer |
-| [NCT00002707](https://clinicaltrials.gov/study/NCT00002707) | Phase 3 | Completed | 2411 | Preoperative AC vs. AC followed by pre- or postoperative docetaxel in operable breast carcinoma |
-| [NCT02003209](https://clinicaltrials.gov/study/NCT02003209) | Phase 3 | Completed | 315 | Neoadjuvant docetaxel, carboplatin, trastuzumab, pertuzumab (TCHP) ± estrogen deprivation in HR+/HER2+ breast cancer |
-| [NCT01354522](https://clinicaltrials.gov/study/NCT01354522) | Phase 3 | Completed | 204 | TAC (docetaxel/doxorubicin/cyclophosphamide) vs. TCX (docetaxel/cyclophosphamide/capecitabine) as adjuvant therapy in high-risk HER2-negative breast cancer |
-| [NCT00431080](https://clinicaltrials.gov/study/NCT00431080) | Phase 3 | Completed | 478 | Dose-dense FE75C→docetaxel vs. paclitaxel as adjuvant chemotherapy in node-positive breast cancer |
-| [NCT03252431](https://clinicaltrials.gov/study/NCT03252431) | Phase 3 | Completed | 393 | F-627 vs. Neulasta in women with Stage I–III breast cancer receiving myelotoxic (docetaxel-containing) chemotherapy |
-| [NCT00003565](https://clinicaltrials.gov/study/NCT00003565) | Phase 2 | Completed | 109 | Population pharmacokinetics of docetaxel in Caucasian and African-American solid tumor patients |
+| [NCT00002544](https://clinicaltrials.gov/study/NCT00002544) | 3. vaihe | Valmistunut | 300 | Mitokantroni ± docetaxel ensimmäisen linjan kemoterapiana levinneessä rintasyövässä huonolla ennusteella |
+| [NCT00193011](https://clinicaltrials.gov/study/NCT00193011) | 3. vaihe | Valmistunut | 150 | Viikoittainen docetaxel vs. CMF adjuvantti­hoitona korkean riskin ≥65 vuotta tai antrasykliini-kelpaamattomissa rintasyöpäpotilaissa |
+| [NCT01275677](https://clinicaltrials.gov/study/NCT01275677) | 3. vaihe | Valmistunut | 3270 | Docetaxel+syklofosfamiidi tai doksorubisiini+syklofosfamiidi→paklitakseli, ± trastuzumabi, solmukkeiden sisältävissä/korkean riskin HER2-matalissa rintasyövissä |
+| [NCT00089479](https://clinicaltrials.gov/study/NCT00089479) | 3. vaihe | Valmistunut | 2611 | Adriamysiini/Cytoxan seurattuna Taxoteella ± Xelodalla; kokonaisselviytyminen korkean riskin rintasyövässä |
+| [NCT00002707](https://clinicaltrials.gov/study/NCT00002707) | 3. vaihe | Valmistunut | 2411 | Esileikkausta edeltävä AC vs. AC seurattuna pre- tai postleikkausta jälkeisellä docetakselilla hoitokelpoisessa rintasyövässä |
+| [NCT02003209](https://clinicaltrials.gov/study/NCT02003209) | 3. vaihe | Valmistunut | 315 | Neoadjuvantti docetaxel, karboplatiini, trastuzumabi, pertuzumabi (TCHP) ± estrogeenistriippaus HR+/HER2+-rintasyövässä |
+| [NCT01354522](https://clinicaltrials.gov/study/NCT01354522) | 3. vaihe | Valmistunut | 204 | TAC (docetaxel/doksorubisiini/syklofosfamiidi) vs. TCX (docetaxel/syklofosfamiidi/kapesitabiini) adjuvantti­hoitona korkean riskin HER2-negatiivisessa rintasyövässä |
+| [NCT00431080](https://clinicaltrials.gov/study/NCT00431080) | 3. vaihe | Valmistunut | 478 | Tiivis-annostettu FE75C→docetaxel vs. paklitakseli adjuvantti­hoitona solmuke-positiivisessa rintasyövässä |
+| [NCT03252431](https://clinicaltrials.gov/study/NCT03252431) | 3. vaihe | Valmistunut | 393 | F-627 vs. Neulasta naisissa, joilla on Stage I–III rintasyöpä ja jotka saavat myelotoksiaa aiheuttavaa (docetaxel-sisältävää) kemoterapiaa |
+| [NCT00003565](https://clinicaltrials.gov/study/NCT00003565) | 2. vaihe | Valmistunut | 109 | Docetakselin populaatiofar­makokinetiikat kaukaasialaisissa ja afrikkalaisen alkuperän kantaisissa kiinteän kasvaisuuden potilaissa |
 
 ---
 
-## Literature Evidence
+## Kirjallisuuden evidenssi
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät löydökset |
 |------|-----|------|------|---------|
-| [28398846](https://pubmed.ncbi.nlm.nih.gov/28398846/) | 2017 | RCT | J Clin Oncol | Docetaxel+cyclophosphamide (TC) vs. anthracycline-taxane regimens (TaxAC) in early breast cancer (ABC trials pooled analysis) |
-| [9282422](https://pubmed.ncbi.nlm.nih.gov/9282422/) | 1997 | Review | Drug and Therapeutics Bulletin | Early review of paclitaxel and docetaxel in breast and ovarian cancer |
-| [15161988](https://pubmed.ncbi.nlm.nih.gov/15161988/) | 2004 | Review | The Oncologist | Clinical experience review of docetaxel and paclitaxel in breast cancer treatment |
-| [27997437](https://pubmed.ncbi.nlm.nih.gov/27997437/) | 2017 | Cohort | Anti-Cancer Drugs | Association between adjuvant docetaxel-based chemotherapy and breast cancer-related lymphedema |
-| [7595719](https://pubmed.ncbi.nlm.nih.gov/7595719/) | 1995 | Review (pending classification) | J Clin Oncol | Foundational preclinical/clinical profile review of docetaxel (Taxotere) |
-| [26874836](https://pubmed.ncbi.nlm.nih.gov/26874836/) | 2017 | Study (pending classification) | Breast Cancer (Tokyo) | Docetaxel+cyclophosphamide+trastuzumab as neoadjuvant therapy for HER2+ primary breast cancer |
-| [15858439](https://pubmed.ncbi.nlm.nih.gov/15858439/) | 2005 | Study (pending classification) | Breast Cancer (Tokyo) | CEF followed by docetaxel as preoperative chemotherapy for early-stage breast carcinoma |
-| [12599222](https://pubmed.ncbi.nlm.nih.gov/12599222/) | 2003 | Study (pending classification) | Cancer | Capecitabine + docetaxel + epirubicin (TEX) as first-line therapy for advanced breast carcinoma |
-| [16020974](https://pubmed.ncbi.nlm.nih.gov/16020974/) | 2005 | Study (pending classification) | Oncology | Weekly docetaxel + gemcitabine as first-line treatment for metastatic breast cancer |
-| [11481357](https://pubmed.ncbi.nlm.nih.gov/11481357/) | 2001 | Study (pending classification) | J Clin Oncol | Dose-dense doxorubicin/docetaxel/G-CSF ± tamoxifen as preoperative therapy for operable breast carcinoma |
+| [28398846](https://pubmed.ncbi.nlm.nih.gov/28398846/) | 2017 | RCT | J Clin Oncol | Docetaxel+syklofosfamiidi (TC) vs. antrasykliini-taksiini-regiimit (TaxAC) varhaisvaiheen rintasyövässä (ABC-tutkimuksien yhdistetty analyysi) |
+| [9282422](https://pubmed.ncbi.nlm.nih.gov/9282422/) | 1997 | Katsaus | Drug and Therapeutics Bulletin | Paklitakselin ja docetakselin varhaiskatsaus rintasyövän ja munuaisovarian syövän hoidossa |
+| [15161988](https://pubmed.ncbi.nlm.nih.gov/15161988/) | 2004 | Katsaus | The Oncologist | Docetakselin ja paklitakselin kliinisen käytön katsaus rintasyövän hoidossa |
+| [27997437](https://pubmed.ncbi.nlm.nih.gov/27997437/) | 2017 | Kohortti­tutkimus | Anti-Cancer Drugs | Yhteys adjuvantti docetaxel-pohjaisen kemoterapian ja rintasyöpään liittyvän lymfödeemin välillä |
+| [7595719](https://pubmed.ncbi.nlm.nih.gov/7595719/) | 1995 | Katsaus (luokitus vireillä) | J Clin Oncol | Docetakselin (Taxotere) preclinical- ja klinisen profiilin perustutkimus­katsaus |
+| [26874836](https://pubmed.ncbi.nlm.nih.gov/26874836/) | 2017 | Tutkimus (luokitus vireillä) | Breast Cancer (Tokyo) | Docetaxel+syklofosfamiidi+trastuzumabi neoadjuvantti­hoitona HER2+-ensisijaisen rintasyövän hoidossa |
+| [15858439](https://pubmed.ncbi.nlm.nih.gov/15858439/) | 2005 | Tutkimus (luokitus vireillä) | Breast Cancer (Tokyo) | CEF seurattuna docetakselilla esileikkausta edeltävänä kemoterapiana varhaisvaiheen rintasyövässä |
+| [12599222](https://pubmed.ncbi.nlm.nih.gov/12599222/) | 2003 | Tutkimus (luokitus vireillä) | Cancer | Kapesitabiini + docetaxel + epirubisiini (TEX) ensimmäisen linjan hoitona edistyneessä rintasyövässä |
+| [16020974](https://pubmed.ncbi.nlm.nih.gov/16020974/) | 2005 | Tutkimus (luokitus vireillä) | Oncology | Viikoittainen docetaxel + gemitsitiini ensimmäisen linjan hoitona levinneessä rintasyövässä |
+| [11481357](https://pubmed.ncbi.nlm.nih.gov/11481357/) | 2001 | Tutkimus (luokitus vireillä) | J Clin Oncol | Tiivis-annostettu doksorubisiini/docetaxel/G-CSF ± tamoksifeeni esileikkausta edeltävänä hoitona hoitokelpoisessa rintasyövässä |
 
 ---
 
-## Finland/Taiwan Market Information
+## Suomen ja Taiwanin markkinatiedot
 
-No authorization records are on file for docetaxel in this evidence pack. Market status is recorded as **Not Marketed**, with **0 total licenses**.
-
----
-
-## Cytotoxicity
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (taxane class, microtubule-stabilizing agent) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+Tähän evidenssipakettiin ei ole sisällytetty docetakselin hyväksynnän tietueita. Markkinatilanne merkitään **Ei markkinoitu**, jossa on **0 hyväksyntää yhteensä**.
 
 ---
 
-## Safety Considerations
+## Sytostaattinen vaikutus
 
-Please refer to the package insert for safety information.
+| Kohta | Sisältö |
+|------|---------|
+| Sytostaattisen vaikutuksen luokitus | Tavanomainen sytostaatti (taksiini-luokka, mikrotubuli-stabiloiva aine) |
+| Luuydintykitysriski | Katso pakkausselosteen varoituksista ja varotoimista |
+| Pahoinvointi-induktioriskin luokitus | Katso pakkausselosteen varoituksista ja varotoimista |
+| Seurantakohdat | Katso pakkausselosteen varoituksista ja varotoimista |
+| Käsittelysuojaus | Katso pakkausselosteen varoituksista ja varotoimista |
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuusnäkökohdat
 
-**Decision: Proceed with Guardrails**
+Katso turvallisuustietoja pakkausselosteen osalta.
 
-**Rationale:**
-The evidence base is strong (L1: multiple completed Phase 3 RCTs, including trials with >2,000 patients) and mechanistically coherent, but this indication appears to reflect docetaxel's already-established clinical use for breast cancer rather than a genuinely new repurposing target — and the pack has no Finland/Taiwan regulatory or safety documentation to support an independent evaluation.
+---
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert (warnings, contraindications) — currently blocking (DG001)
-- Confirmed drug interaction (DDI) data — current query returned no results
-- Verification of docetaxel's actual original/approved indication(s), since `original_indications` is empty in this pack
-- Clarification of local (Taiwan/Finland) market and licensing status before any "new indication" claim is made, since current status is Not Marketed with 0 authorizations
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Jatka varauksin**
+
+**Perustelut:**
+Todistusaineisto on vahva (L1: useita valmistuneita 3. vaiheen satunnaistettuja kontrolloituja tutkimuksia, mukaan lukien tutkimukset, joissa oli >2 000–3 000 rekrytoitua potilasta) ja mekanistisesti johdonmukainen, mutta tämä indikaatio näyttää heijastavan docetakselin jo vakiintunutta kliinistä käyttöä rintasyövän hoitoon eikä todellista uutta uudelleenkäyttötarkoitusta — ja pakettiin ei ole Suomen/Taiwanin sääntelyyn tai turvallisuuteen liittyvää dokumentaatiota itsenäisen arvioimisen tueksi.
+
+**Jatkamista varten tarvitaan seuraavat:**
+- TFDA/Fimea pakkausselose (varoitukset, vasta­indikaatiot) — tällä hetkellä este (DG001)
+- Vahvistetut lääkkeiden väliset interaktiot (DDI) — nykyinen kysely ei tuonut tuloksia
+- Docetakselin todellisen alkuperäisen ja/tai hyväksytyn indikaation/indikaatioiden vahvistaminen, koska `original_indications` on tyhjä tässä paketissa
+- Paikallisen (Taiwanin/Suomen) markkinan ja lupa­tilanteen selventäminen ennen kuin väiteetään "uudesta indikaatiosta", koska nykyinen status on Ei markkinoitu ja hyväksyntöjä on 0
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

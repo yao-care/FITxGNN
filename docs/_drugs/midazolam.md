@@ -29,89 +29,90 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Midazolam: From Procedural Sedation to Insomnia
+# Midatsoli: toimenpidepohjaisen sedaation soveltamisesta unettomuuden hoitoon
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Midazolam is a short-acting benzodiazepine currently positioned for anesthesia induction and procedural sedation rather than as an oral treatment for chronic insomnia.
-The TxGNN model predicts it may be effective for **Insomnia**, with **32 clinical trials** and **11 publications** identified in the search — though only a small, mostly historical subset directly supports this direction.
-Given a blocking gap in local safety/label data, the current evidence level is **L2** and the recommendation is to **Hold**.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in evidence pack (no local marketing authorization on file); available data indicates current clinical use is procedural sedation / anesthesia induction |
-| Predicted New Indication | Insomnia |
-| TxGNN Prediction Score | 99.74% |
-| Evidence Level | L2 |
-| Taiwan Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Midatsoli on lyhytvaikutteinen bentsodiatsipiini, joka on tällä hetkellä tarkoitettu anestesian induktioon ja toimenpidepohjaisen sedaation pikemminkin kuin suun kautta otettavaksi kroonisen unettomuuden hoitolääkkeeksi.
+TxGNN-malli ennustaa, että se voi olla tehokas **unettomuuden** hoitoon, ja haussa tunnistettiin **32 kliinistä tutkimusta** ja **11 julkaisua** — vaikka vain pieni, pääosin historiallinen osajoukko suoraan tukee tätä suuntaa.
+Koska paikallisen turvallisuus-/merkintätiedon kriittinen aukko on olemassa, nykyinen näyttötaso on **L2** ja suositus on **Pidätä**.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Detailed DrugBank mechanism-of-action text is not available for this record. However, the evidence pack's repurposing rationale confirms midazolam is a short-acting benzodiazepine acting at the benzodiazepine binding site of the GABA-A receptor, enhancing GABAergic inhibitory neurotransmission — a pharmacology that is inherently sedative-hypnotic in nature and directly relevant to insomnia treatment.
-
-Clinically, midazolam today is used almost exclusively for anesthesia induction and procedural sedation, not as a chronic oral hypnotic, largely because of its very short half-life, injectable route of administration, controlled-substance status, and dependence/withdrawal risk. The predicted link to insomnia is therefore not a novel mechanistic discovery but reflects a known class effect shared with other benzodiazepine hypnotics (e.g., flurazepam).
-
-This class effect is supported by real historical evidence: several Phase-level RCTs from the 1980s–1990s directly tested oral midazolam in patients with sleep disorders/chronic insomnia and found it effective and generally well tolerated, before its clinical use shifted almost entirely toward procedural sedation. This gives the TxGNN prediction plausible pharmacological and historical grounding, even though it does not represent a new therapeutic hypothesis.
+| Kohta | Sisältö |
+|-------|---------|
+| Alkuperäinen käyttöaihe | Ei dokumentoitu todistuspaketissa (paikallista myyntilupaa ei ole tiedostoissa); saatavilla olevat tiedot osoittavat, että nykyinen kliininen käyttö on toimenpidepohjainen sedaatio / anestesian induktio |
+| Ennustettu uusi käyttöaihe | Unettomuus |
+| TxGNN-ennusteen pistemäärä | 99.74% |
+| Näyttötaso | L2 |
+| Taiwanin markkinatilanne | Ei markkinoilla |
+| Lupien määrä | 0 |
+| Suositeltu päätös | Pidätä |
 
 ---
 
-## Clinical Trial Evidence
+## Miksi tämä ennuste on järkevä?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Yksityiskohtaista DrugBank-toimintamekanismin tekstiä ei ole saatavilla tälle kirjaukselle. Todistuspaketin uudelleensoveltamisen perustelut kuitenkin vahvistavat, että midatsoli on lyhytvaikutteinen bentsodiatsipiini, joka vaikuttaa GABA-A-reseptorin bentsodiatsipiini-sitoutumiskohtaan, tehostamalla GABAergista inhibitorisoivaa neurotransmissiota — farmakologia, joka on luonnostaan sedatiivi-hypnoottinen ja suoraan merkityksellinen unettomuuden hoitoon.
+
+Kliinisesti midatsolia käytetään nykyään lähes yksinomaan anestesian induktion ja toimenpidepohjaisen sedaation hoitoon, ei kroonisen suun kautta otettavan unilääkkeen, pääosin sen erittäin lyhyen puoliintumisajan, injektoitavan antoreitin, kontrolloitavan aineen statuksen ja riippuvuus-/vieroitusoireiden riskin vuoksi. Ennustettu yhteys unettomuuteen ei siis ole uusi mekanistinen löytö vaan heijastaa tunnettua luokkavaikutusta, joka on yhteinen muiden bentsodiatsipiini-unilääkkeiden kanssa (esim. fluratsepaami).
+
+Tätä luokkavaikutusta tukee todellinen historiallinen todiste: useat faasintasoiset satunnaistetut kontrolloidut tutkimukset 1980-luvulta–1990-luvulta testasivat suoraan suun kautta otettavaa midatsolia potilaissa, joilla oli uni-häiriöitä / kroonista unettomuutta, ja havaitsivat sen olevan tehokas ja yleensä hyvin siedetty, ennen kuin sen kliininen käyttö siirtyi lähes kokonaan toimenpidepohjaisen sedaation käyttöön. Tämä antaa TxGNN-ennusteelle uskottavat farmakologiset ja historialliset perusteet, vaikka se ei edustakaan uutta terapeuttista hypoteesia.
+
+---
+
+## Kliininen tutkimustodiste
+
+| Tutkimuksen numero | Faasi | Tila | Rekrytointi | Tärkeimmät havainnot |
 |---------|------|------|------|---------|
-| [NCT02142595](https://clinicaltrials.gov/study/NCT02142595) | Phase 4 | Completed | 111 | IV midazolam vs. dexmedetomidine, combined with spinal anesthesia, compared for postoperative sleep quality after TURP; graded most directly relevant (Grade B) trial in the pack. |
-| [NCT06407518](https://clinicaltrials.gov/study/NCT06407518) | NA | Recruiting | 280 | Preoperative oral midazolam evaluated in patients with sleep disturbance/anxiety undergoing laparoscopic colorectal cancer resection; trial description notes oral midazolam solution is "safe and effective for short-term hypnosis." |
-| [NCT07336095](https://clinicaltrials.gov/study/NCT07336095) | Phase 3 | Not yet recruiting | 195 | Oral melatonin vs. oral midazolam as premedication in children undergoing tonsillectomy, comparing sleep-inducing/anxiolytic effect. |
-| [NCT01966315](https://clinicaltrials.gov/study/NCT01966315) | N/A | Terminated | 5 | Compared sleep quality/quantity (24-hour polysomnography) and delirium incidence between dexmedetomidine and midazolam in mechanically ventilated ICU patients; terminated early, very small sample. |
-| [NCT00826553](https://clinicaltrials.gov/study/NCT00826553) | Phase 1 | Terminated | 6 | Polysomnographic comparison of sleep stages/total sleep time between α2-agonist (dexmedetomidine) and GABA-agonist (midazolam) sedation; terminated early, very small sample. |
+| [NCT02142595](https://clinicaltrials.gov/study/NCT02142595) | Faasi 4 | Valmistunut | 111 | IV midatsoli vs. deksmedetomidiini, yhdistetty selkäydintäydytysanesteesiaan, vertaillen postoperatiivista unen laatua TURP:n jälkeen; paketissa arvioitu suoraan relevantimmaksi (Grade B) tutkimukseksi. |
+| [NCT06407518](https://clinicaltrials.gov/study/NCT06407518) | NA | Rekrytointivaiheessa | 280 | Leikkausta edeltävää suun kautta otettavaa midatsolia arvioitiin potilaissa, joilla oli uni-häiriöitä / ahdistusta ja joiden oli määrä saada laparoskoopista kolorektaalisyöpäresektiota; tutkimuskuvaus huomauttaa, että suun kautta otettava midatsoli-liuos on "turvallinen ja tehokas lyhytaikaiseen hypnoosiin." |
+| [NCT07336095](https://clinicaltrials.gov/study/NCT07336095) | Faasi 3 | Rekrytointi ei ole vielä alkanut | 195 | Suun kautta otettava melatoniini vs. suun kautta otettava midatsoli esimedikointina lapsissa, joille tehtiin kurkkurisaleikkaus, vertaamalla uni-indusoivaa ja ahdistusta lievittävää vaikutusta. |
+| [NCT01966315](https://clinicaltrials.gov/study/NCT01966315) | N/A | Lopetettu | 5 | Vertasi unen laatua / määrää (24 tunnin polysomnografia) ja deliriumin esiintyvyyttä deksmedetomidiinin ja midatsoolin välillä mekaanisesti ventiloitavissa teho-osastopotilaissa; lopetettu ennenaikaisesti, hyvin pieni otanta. |
+| [NCT00826553](https://clinicaltrials.gov/study/NCT00826553) | Faasi 1 | Lopetettu | 6 | Polysomnografinen vertailu univaiheiden ja kokonaisuniaika:n osalta α2-agonistin (deksmedetomidiini) ja GABA-agonistin (midatsoli) sedaation välillä; lopetettu ennenaikaisesti, hyvin pieni otanta. |
 
-*Note: 32 trials were retrieved in total; the majority (graded "C" or judged low relevance on review) involve midazolam only as a background sedation agent in unrelated surgical/ICU studies and are not listed here to avoid diluting the evidence table.*
+*Huomio: Yhteensä 32 tutkimusta haettiin; suurin osa (arvioitu "C"-arvosanaksi tai arvioitu matalan merkityksellisyydeksi) sisältävät midatsolit vain tausta-sedaatioaineena liittymättömissä kirurgisissa / teho-osasto-tutkimuksissa eikä niitä ole lueteltu tässä näyttötaulukon selventämisen vuoksi.*
 
 ---
 
-## Literature Evidence
+## Kirjallisuustodiste
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät havainnot |
 |------|-----|------|------|---------|
-| [6138072](https://pubmed.ncbi.nlm.nih.gov/6138072/) | 1983 | RCT | British Journal of Clinical Pharmacology | Double-blind study in 30 women with insomnia secondary to neuromuscular disease: midazolam 15 mg and Vesparax both effective hypnotics; midazolam better tolerated with no hangover effect. |
-| [6120704](https://pubmed.ncbi.nlm.nih.gov/6120704/) | 1981 | RCT | Arzneimittel-Forschung | Multicenter dose-finding study (75 patients, oral midazolam 10–30 mg) in mild-to-moderate insomnia secondary to musculoskeletal/neuropathic disorders; established optimal dose range. |
-| [2121802](https://pubmed.ncbi.nlm.nih.gov/2121802/) | 1990 | RCT | Journal of Clinical Psychopharmacology | Multicenter, randomized, double-blind, parallel-group study of sleep, performance, and plasma levels during 14-day use of flurazepam vs. midazolam in chronic insomnia patients. |
-| [2229461](https://pubmed.ncbi.nlm.nih.gov/2229461/) | 1990 | RCT | Journal of Clinical Psychopharmacology | Executive summary of the above 14-day flurazepam vs. midazolam chronic-insomnia study (companion paper; abstract text not available). |
-| [17988972](https://pubmed.ncbi.nlm.nih.gov/17988972/) | 2007 | Review | Orvosi Hetilap | General review of insomnia pathogenesis (hyperarousal state) and its relationship to cerebral hypoperfusion; background context, not midazolam-specific. |
-| [2883820](https://pubmed.ncbi.nlm.nih.gov/2883820/) | 1986 | Review | Acta Psychiatrica Scandinavica Supplementum | Review of clinical use of hypnotics, discussing benzodiazepine pharmacokinetic/pharmacodynamic differences and rationale for a variety of agents in insomnia subtypes. |
-| [36615100](https://pubmed.ncbi.nlm.nih.gov/36615100/) | 2022 | RCT | Journal of Clinical Medicine | Pilot study of lemborexant (not midazolam) for insomnia in high-risk pancreato-biliary patients post-endoscopy; notes benzodiazepines traditionally used for insomnia may worsen delirium risk — relevant safety context. |
+| [6138072](https://pubmed.ncbi.nlm.nih.gov/6138072/) | 1983 | RCT | British Journal of Clinical Pharmacology | Kaksoissokkoutettu tutkimus 30 naisella lihashermon sairaudesta johtuvalla unettomuudella: midatsoli 15 mg ja Vesparax molemmat tehokkaat unilääkkeet; midatsoli paremmin siedetty ilman jäännösvaikutusta. |
+| [6120704](https://pubmed.ncbi.nlm.nih.gov/6120704/) | 1981 | RCT | Arzneimittel-Forschung | Monikeskus annosten määritystutkimus (75 potilasta, suun kautta otettava midatsoli 10–30 mg) lievään tai keskivaikeaan unettomuuteen, joka oli sekundaarinen lihasluuston ja hermoston häiriöihin; määritti optimaalisen annosalueen. |
+| [2121802](https://pubmed.ncbi.nlm.nih.gov/2121802/) | 1990 | RCT | Journal of Clinical Psychopharmacology | Monikeskus-, satunnaistettu, kaksoissokkoutettu, rinnakkaisryhmätutkimus unesta, suorituskyvystä ja plasmapitoisuuksista fluratsepaamin vs. midatsoolin 14 päivän käytön aikana kroonisen unettomuuden potilaissa. |
+| [2229461](https://pubmed.ncbi.nlm.nih.gov/2229461/) | 1990 | RCT | Journal of Clinical Psychopharmacology | Tiivistelmä yllä olevasta 14 päivän fluratsepaamin vs. midatsoolin kroonisen unettomuuden tutkimuksesta (liitännäisartikkeli; abstrakti ei ole saatavilla). |
+| [17988972](https://pubmed.ncbi.nlm.nih.gov/17988972/) | 2007 | Katsaus | Orvosi Hetilap | Yleinen katsaus unettomuuden patogeneesin (yliherätystila) ja sen suhteesta aivojen heikomperfusioon; taustatieto, ei midatsoli-spesifinen. |
+| [2883820](https://pubmed.ncbi.nlm.nih.gov/2883820/) | 1986 | Katsaus | Acta Psychiatrica Scandinavica Supplementum | Katsaus unilääkkeiden kliiniseen käyttöön, käsitellen bentsodiatsipiinin farmakokineettisia / farmakodynaamisia eroja ja perusteluja eri aineiden käytölle unettomuuden erimuodoissa. |
+| [36615100](https://pubmed.ncbi.nlm.nih.gov/36615100/) | 2022 | RCT | Journal of Clinical Medicine | Pilottitutkimus lemborexantista (ei midatsoli) unettomuuden hoitoon korkean riskin pankreaattis-sappiväylä-potilaat endoskopian jälkeen; tutkimus huomauttaa, että perinteisesti unettomuudessa käytetyt bentsodiatsepiinit voivat pahentaa deliriumin riskiä — merkityksellinen turvallisuuskonteksti. |
 
 ---
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information.
+Katso turvallisuustiedot pakkausselosteesta.
 
-*(Key warnings, contraindications, and drug-drug interaction data are not currently available for this record — DDI query returned "not_found," and TFDA package-insert warnings/contraindications are flagged as a Blocking data gap, DG001.)*
+*(Tärkeimmät varoitukset, vasta-aiheet ja lääke-lääke-vuorovaikutustiedot eivät ole tällä hetkellä saatavilla tälle kirjaukselle — DDI-kysely palautti "not_found" ja TFDA-pakkausselosteen varoitukset / vasta-aiheet on merkitty estävä tietoaukko, DG001.)*
 
 ---
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidätä**
 
-**Rationale:**
-Historical Phase-level RCTs (1980s–1990s) show oral midazolam was effective for insomnia/sleep disorders, but this reflects a known benzodiazepine class effect rather than a novel signal, and no recent or large-scale trials directly target chronic insomnia. Critically, TFDA package-insert warnings/contraindications are entirely missing (Blocking gap, DG001), which prevents this candidate from clearing the S1 safety screening stage regardless of efficacy evidence.
+**Perustelut:**
+Historialliset faasintasoiset satunnaistetut kontrolloidut tutkimukset (1980-luku–1990-luku) osoittavat, että suun kautta otettava midatsoli oli tehokas unettomuudessa / uni-häiriöissä, mutta tämä heijastaa tunnettua bentsodiatsipiini-luokan vaikutusta pikemminkin kuin uutta signaalia, eikä yksikään tuoreemmista tai laajamittaisemmista tutkimuksista kohdistu suoraan krooniseen unettomuuteen. Kriittisesti TFDA-pakkausselosteen varoitukset / vasta-aiheet puuttuvat kokonaan (esto, DG001), mikä estää ehdokkaan etenemisen S1 turvallisuuden seulonnasta riippumatta tehokkuustodisteista.
 
-**To proceed, the following is needed:**
-- TFDA package insert warnings, precautions, and contraindications (DG001, blocking)
-- DrugBank mechanism-of-action detail (DG002)
-- Drug-drug interaction data (current DDI query status: not_found)
-- Assessment of an oral formulation and dosing regimen suitable for chronic insomnia use, given midazolam's short half-life and controlled-substance status
-- Local marketing authorization pathway analysis, since the drug currently has zero registered licenses
+**Jotta voidaan edetä, seuraavaa tarvitaan:**
+- TFDA-pakkausselosteen varoitukset, varotoimet ja vasta-aiheet (DG001, esto)
+- DrugBank-toimintamekanismin yksityiskohdat (DG002)
+- Lääke-lääke-vuorovaikutustiedot (nykyinen DDI-kyselyn tila: not_found)
+- Suun kautta otettavan formulaation ja annostelusäännöksen arviointi kroonisen unettomuuden hoitoon sopivaksi, ottaen huomioon midatsoolin lyhyt puoliintumisaika ja kontrolloitavan aineen status
+- Paikallisen markkinointiluvan polun analyysi, koska lääkkeellä on tällä hetkellä nolla rekisteröityä lupaa
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

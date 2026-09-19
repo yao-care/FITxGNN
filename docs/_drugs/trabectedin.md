@@ -29,107 +29,108 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Trabectedin: From Soft Tissue Sarcoma to Female Breast Carcinoma
+# Trabektediini: pehmeäkudossarkoomeista naisellisen rintasyövän hoitoon
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-> Trabectedin is a marine-derived DNA-binding alkylator, established in Europe for soft tissue sarcoma and (in combination with pegylated liposomal doxorubicin) platinum-sensitive ovarian cancer.
-> The TxGNN model predicts it may be effective for **Female Breast Carcinoma**,
-> with **2 clinical trials** and **20 publications** currently retrieved, though most literature addresses breast cancer only indirectly (BRCA-related mechanism, preclinical work, or combination regimens).
+> Trabektediini on merenpohjasta johdettu DNA-sitova alkyloija, joka on vakiintunut Euroopassa pehmeäkudossarkooman ja (pegyloidun lipidosomin doksirubisiinin kanssa) platinaa-herkkien munasarjasyöpien hoitoon.
+> TxGNN-malli ennustaa sen voivan olla tehokas **naisellisen rintasyövän** hoidossa,
+> ja tällä hetkellä on haettu **2 kliinistä tutkimusta** ja **20 julkaisua**, vaikka useimmissa lähteissä rintasyöpää käsitellään vain epäsuorasti (BRCA-liittyvä mekanismi, prekliiniset tutkimukset tai yhdistelmähoitojen joukossa).
 
 ---
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Soft tissue sarcoma / ovarian cancer (per literature evidence; no formal approved-indication text on file — data gap) |
-| Predicted New Indication | Female Breast Carcinoma |
-| TxGNN Prediction Score | 99.73% |
-| Evidence Level | L2 |
-| Market Status | Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen indikaatio | Pehmeäkudossarkooma / munasarjasyöpä (kirjallisuuden perusteella; virallista hyväksytyn indikaation tekstiä ei ole saatavilla — tietoaukko) |
+| Ennustettu uusi indikaatio | Naisellinen rintasyöpä |
+| TxGNN-ennusteen pisteet | 99.73% |
+| Todisteen taso | L2 |
+| Markkinaasema | Ei markkinoitu |
+| Hyväksynnän määrä | 0 |
+| Suositeltu päätös | Pidätetään |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on perusteltu?
 
-Currently, detailed mechanism of action data is not available in the source database (data gap). Based on the literature retrieved in this evidence pack, trabectedin is a tetrahydroisoquinoline alkaloid originally derived from the marine tunicate *Ecteinascidia turbinata*. It binds the DNA minor groove, inhibits transcription-coupled nucleotide excision repair (TC-NER), and interferes with transcription-factor binding (e.g., NF-Y), conferring selective cytotoxicity against tumor cells with BRCA1/2 or other DNA-repair deficiencies. It also acts on the tumor microenvironment by depleting tumor-associated macrophages/myeloid cells.
+Tällä hetkellä lähdetietokannan yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla (tietoaukko). Tämän todisteen paketissa haetun kirjallisuuden perusteella trabektediini on tetrahyydroisikinoliinikaloidi, joka on peräisin alun perin merenpohjasta *Ecteinascidia turbinata* -nimisestä merieläimestä. Se sitoutuu DNA:n pieneen uraan, estää transktiptiokytkennäisen nukleotidien poistamiskorjauksen (TC-NER) ja häiritsee transktriptiotekijöiden sitoutumista (esim. NF-Y), mikä antaa valikoivaa sytostaattista vaikutusta syöpäsoluihin, joilla on BRCA1/2- tai muita DNA-korjausmekanismin puutoksia. Se vaikuttaa myös kasvainympäristöön tyhjentämällä kasvaimiin liittyvät makrofagit ja myeloidiset solut.
 
-Trabectedin's established indications — soft tissue sarcoma and platinum-sensitive ovarian cancer — both frequently involve homologous-recombination/DNA-repair pathway alterations, the same biological axis implicated in a meaningful subset of breast cancers (particularly germline BRCA1/2-mutated and triple-negative disease). This shared vulnerability is the mechanistic bridge for the predicted extension to breast carcinoma.
+Trabektediinin vakiintuneet indikaatiot — pehmeäkudossarkooma ja platinaa-herkät munasarjasyövät — sisältävät molemmissa usein homologisen rekombinaation ja DNA-korjausreitin muutoksia, samaa biologista akselia, joka liittyy merkittävään osaan rintasyövistä (erityisesti perinnöllisiä BRCA1/2-mutaatioita ja triple-negatiivista tautia). Tämä jaettu haavoittuvuus on mekanistinen silta ennustetusta laajentumisesta rintasyöpään.
 
-Consistent with this rationale, in vitro studies in this evidence pack show trabectedin induces apoptosis in both HER2-/ER+ (MCF-7) and HER2+/ER- (MDA-MB-453) breast cancer cell lines, exerts anti-angiogenic effects on breast cancer cells, and — in combination with IL-12 — enhances NK-cell-mediated antitumor immunity in triple-negative breast cancer models. Several completed Phase 1/2 clinical studies have also tested trabectedin directly in advanced/metastatic breast cancer, including BRCA1/2-mutated subgroups, giving the prediction more than purely computational support.
+Johdonmukaisesti tämän perustelun kanssa tämän todisteen paketissa olevat in vitro -tutkimukset osoittavat, että trabektediini indusoi apoptoosia sekä HER2-/ER+ (MCF-7) että HER2+/ER- (MDA-MB-453) rintasyöpäsolulinjoissa, on antiangiogenista vaikutusta rintasyöpäsoluissa ja — IL-12:n kanssa — vahvistaa NK-solujen välittämää antitumori-immuniteettia triple-negatiivisissa rintasyövän malleissa. Useita valmistautuneita Phase 1/2 kliinisiä tutkimuksia on myös testannut trabektediinia suoraan edistyneessä ja etäpesäkkeisessä rintasyövässä, mukaan lukien BRCA1/2-mutaatiota sisältävät alaryhmät, mikä antaa ennusteelle enemmän kuin puhtaasti laskennallisen tuen.
 
 ---
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen todisteet
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset tulokset |
 |---------|------|------|------|---------|
-| [NCT00786838](https://clinicaltrials.gov/study/NCT00786838) | Phase 2 | Completed | 76 | Single-blind, placebo-controlled study of trabectedin's effect on QT/QTc interval in patients with advanced solid tumor malignancies (cardiac safety pharmacology, not breast-cancer-specific efficacy) |
-| [NCT03470805](https://clinicaltrials.gov/study/NCT03470805) | Phase 2 | Completed | 9 | Olaparib maintenance therapy after response to trabectedin + pegylated liposomal doxorubicin in recurrent ovarian carcinoma; trabectedin used as induction regimen, not as the primary study drug |
+| [NCT00786838](https://clinicaltrials.gov/study/NCT00786838) | Phase 2 | Valmistunut | 76 | Yksisokkoinen, plasebo-kontrolloitu tutkimus trabektediinin vaikutuksesta QT/QTc-intervalliin potilailla, joilla on edistyneet kiinteät kasvaimet (sydämen turvallisuus farmakologia, ei rintasyöpäkohtaista tehomerkintää) |
+| [NCT03470805](https://clinicaltrials.gov/study/NCT03470805) | Phase 2 | Valmistunut | 9 | Olapariibin ylläpitohoito vastauksen jälkeen trabektediiniin + pegyloidun lipidosomin doksirubisiiniin toistuvassa munasarjasyövässä; trabektediini käytettiin induktiohoidon säännöstelyssä, ei tutkimuksen pääasiallisena lääkeaineena |
 
-Note: neither retrieved trial directly evaluates trabectedin efficacy in a breast cancer population; efficacy signals in breast cancer come primarily from the literature below.
+Huomio: kumpikaan haettu tutkimus ei arvioi suoraan trabektediinin tehokkuutta rintasyövän populaatiossa; teho-signaalit rintasyövässä tulevat ensisijaisesti alla olevasta kirjallisuudesta.
 
 ---
 
-## Literature Evidence
+## Kirjallisuuden todisteet
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset tulokset |
 |------|-----|------|------|---------|
-| [25239225](https://pubmed.ncbi.nlm.nih.gov/25239225/) | 2014 | Phase 2 Clinical Trial (single-agent) | Clinical Breast Cancer | Multicenter randomized Phase 2 study of trabectedin monotherapy in advanced breast cancer post-anthracycline/taxane, comparing two administration regimens |
-| [27266804](https://pubmed.ncbi.nlm.nih.gov/27266804/) | 2016 | Phase 2 Clinical Trial | Clinical Breast Cancer | Phase 2 study of trabectedin 1.3 mg/m² q3w in HR+/HER2- advanced breast cancer, stratified by XPG mRNA expression as a predictive biomarker |
-| [24692579](https://pubmed.ncbi.nlm.nih.gov/24692579/) | 2014 | Phase 2 Clinical Trial | Annals of Oncology | First-in-class international Phase 2 trial of trabectedin in germline BRCA1/2-mutated metastatic breast cancer |
-| [25722380](https://pubmed.ncbi.nlm.nih.gov/25722380/) | 2015 | Phase 3 exploratory biomarker analysis | Annals of Oncology | Exploratory analysis of the Phase 3 OVA-301 trial showing BRCA1/XPG mutation status predicts response to trabectedin + PLD (ovarian cancer, BRCA biology relevant to breast) |
-| [26592307](https://pubmed.ncbi.nlm.nih.gov/26592307/) | 2016 | Review | Expert Opinion on Investigational Drugs | Overview of trabectedin's mechanism and rationale for use in breast cancer via tumor-associated macrophage modulation |
-| [27710871](https://pubmed.ncbi.nlm.nih.gov/27710871/) | 2016 | Review | Cancer Treatment Reviews | Trabectedin as a chemotherapy option in BRCA-deficient tumors, including breast cancer |
-| [19114300](https://pubmed.ncbi.nlm.nih.gov/19114300/) | 2009 | Phase 1 (combination) | European Journal of Cancer | Phase 1 pharmacokinetic study of trabectedin + doxorubicin in soft tissue sarcoma and advanced breast cancer (9 breast cancer patients) |
-| [39777457](https://pubmed.ncbi.nlm.nih.gov/39777457/) | 2025 | Preclinical | Cancer Immunology Research | Trabectedin depletes MDSCs and enhances IL-12-driven NK-cell antitumor activity in triple-negative breast cancer models |
-| [23792433](https://pubmed.ncbi.nlm.nih.gov/23792433/) | 2013 | Preclinical | Toxicology Letters | Trabectedin induces apoptosis via distinct pathways in MCF-7 (HER2-/ER+) and MDA-MB-453 (HER2+/ER-) breast cancer cell lines |
-| [24941346](https://pubmed.ncbi.nlm.nih.gov/24941346/) | 2014 | Preclinical | European Cytokine Network | Trabectedin shows anti-angiogenic effects on HUVECs and breast cancer cell lines in vitro |
+| [25239225](https://pubmed.ncbi.nlm.nih.gov/25239225/) | 2014 | Phase 2 kliininen tutkimus (yksiaine) | Clinical Breast Cancer | Monikeskuksinen satunnaistettu Phase 2 -tutkimus trabektediinin monoterapiasta edistyneessä rintasyövässä antrasykliinin/taksaanin jälkeen, vertaamalla kahta antosäännöstelyä |
+| [27266804](https://pubmed.ncbi.nlm.nih.gov/27266804/) | 2016 | Phase 2 kliininen tutkimus | Clinical Breast Cancer | Phase 2 -tutkimus trabektediinista 1.3 mg/m² q3w HR+/HER2- edistyneessä rintasyövässä, stratifioitu XPG mRNA-ekspression mukaan ennustavan biomerkkerin perusteella |
+| [24692579](https://pubmed.ncbi.nlm.nih.gov/24692579/) | 2014 | Phase 2 kliininen tutkimus | Annals of Oncology | Ensimmäinen kansainvälinen Phase 2 -tutkimus trabektediinista perinnöllisissä BRCA1/2-mutaatioissa etäpesäkkeisessä rintasyövässä |
+| [25722380](https://pubmed.ncbi.nlm.nih.gov/25722380/) | 2015 | Phase 3 eksploratiivinen biomerkkianalyysi | Annals of Oncology | Eksploratiivinen analyysi Phase 3 OVA-301 -tutkimuksesta, jossa BRCA1/XPG mutaatiostatus ennustaa vastetta trabektediiniin + PLD (munasarjasyöpä, BRCA-biologia asiaankuuluva rintasyövässä) |
+| [26592307](https://pubmed.ncbi.nlm.nih.gov/26592307/) | 2016 | Katsaus | Expert Opinion on Investigational Drugs | Trabektediinin mekanismin ja käytön perustelut rintasyövässä kasvaimen assosioituneiden makrofagien modulaation kautta |
+| [27710871](https://pubmed.ncbi.nlm.nih.gov/27710871/) | 2016 | Katsaus | Cancer Treatment Reviews | Trabektediini kemoterapiavaihtoehtona BRCA-puutteisissa kasvaimissa, mukaan lukien rintasyöpä |
+| [19114300](https://pubmed.ncbi.nlm.nih.gov/19114300/) | 2009 | Phase 1 (yhdistelmä) | European Journal of Cancer | Phase 1 farmakokinetiikan tutkimus trabektediinista + doksorubisiinista pehmeäkudossarkooma ja edistyneessä rintasyövässä (9 rintasyöpäpotilasta) |
+| [39777457](https://pubmed.ncbi.nlm.nih.gov/39777457/) | 2025 | Prekliininen | Cancer Immunology Research | Trabektediini tyhjentää MDSC:itä ja vahvistaa IL-12:n johtamaa NK-solujen antitumori-aktiivisuutta triple-negatiivisissa rintasyövän malleissa |
+| [23792433](https://pubmed.ncbi.nlm.nih.gov/23792433/) | 2013 | Prekliininen | Toxicology Letters | Trabektediini indusoi apoptoosia erillisten reittien kautta MCF-7:ssä (HER2-/ER+) ja MDA-MB-453:ssa (HER2+/ER-) rintasyöpäsolulinjoissa |
+| [24941346](https://pubmed.ncbi.nlm.nih.gov/24941346/) | 2014 | Prekliininen | European Cytokine Network | Trabektediini osoittaa antiangiogenisia vaikutuksia HUVEC-soluissa ja rintasyöpäsolulinjoissa in vitro |
 
 ---
 
-## Market Information
+## Markkinatiedot
 
-Trabectedin currently has **no market authorization on file** (0 licenses, market status: Not Marketed). No product/dosage-form records are available to summarize.
+Trabektediinillä ei ole tällä hetkellä markkinahyväksyntää saatavilla (0 lisenssiä, markkinaasema: Ei markkinoitu). Tuote- ja annosmuoto-tietueita ei ole saatavilla yhteenvetoon.
 
 ---
 
-## Cytotoxicity
+## Sytostaattivaikutus
 
-Trabectedin is a cytotoxic antineoplastic agent (DNA minor-groove-binding alkylator), so this section applies.
+Trabektediini on sytostaattinen syöpälääke (DNA-pieni-ura-sitova alkyloija), joten tämä osio koskee sitä.
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (marine-derived tetrahydroisoquinoline alkylator) |
-| Myelosuppression Risk | High — literature in this evidence pack reports grade 3–4 neutropenia in ~50% and thrombocytopenia in ~20% of patients; hepatic toxicity also commonly noted |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | CBC with differential, liver function tests, renal function |
-| Handling Protection | Cytotoxic drug handling precautions apply (standard for DNA-alkylating chemotherapy agents) |
+| Sytostaattivaikutuksen luokittelu | Perinteinen sytostaattinen (merenpohjasta johdettu tetrahyydroisikinoliinikaloidi) |
+| Luuydinsuppression riski | Korkea — tämän todisteen paketin kirjallisuus raportoi grade 3–4 neutropeniaa noin 50 %:lla potilaista ja trombosytopeniaa noin 20 %:lla; maksatoksisuutta myös yleisesti raportoitu |
+| Emeetogeniteetin luokittelu | Katso pakkausselosteen varoituksia ja varotoimia |
+| Seurannan kohteet | CBC differenssillä, maksan toimintakokeet, munuaisten toiminta |
+| Käsittelysuoja | Sytostaattisen lääkkeen käsittelysuojaus koskee (standardi DNA-alkyloivien kemoterapiaagenttien osalta) |
 
 ---
 
-## Safety Considerations
+## Turvallisuuden näkökohdat
 
-Please refer to the package insert for safety information. No key warnings, contraindications, or drug-drug interaction data are currently available in the evidence pack (DDI query status: not found).
+Katso pakkausselosteen turvallisuustiedot. Tällä hetkellä todisteen paketissa ei ole saatavilla keskeisiä varoituksia, vasta-aiheita tai lääkitys-lääkitys-vuorovaikutus-tietoja (DDI-kyselystatus: ei löydetty).
 
 ---
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidätetään**
 
-**Rationale:**
-- A Blocking data gap (DG001: no TFDA/local package insert data) means the candidate cannot yet enter the S1 safety pre-assessment, and the drug is not marketed locally (0 authorizations).
-- Efficacy evidence specific to breast carcinoma is real but preliminary — several completed Phase 1/2 studies (including a BRCA1/2-mutated subgroup) plus supportive preclinical mechanism data, but no completed Phase 3 confirmatory trial and no directly relevant registered clinical trial in this pack targets breast cancer as primary endpoint. This is consistent with the pack's own scoring of Evidence Level L2 / Decision Stage S2 ("Research Question").
+**Perustelut:**
+- Estävä tietoaukko (DG001: TFDA/paikallisen pakkausselosteen tietoja ei ole saatavilla) tarkoittaa, että ehdokas ei voi vielä siirtyä S1 turvallisuuden ennakkohintaukseen, ja lääke ei ole markkinoitu paikallisesti (0 hyväksyntöä).
+- Rintasyövälle spesifinen tehokkuustodiste on todellinen mutta alustavaa — useita valmistuneita Phase 1/2 tutkimusta (mukaan lukien BRCA1/2-mutaatiota sisältävä alaryhmä) sekä tukeva prekliininen mekanismin tieto, mutta ei valmistunutta Phase 3 vahvista tutkimusta ja ei suoraan asiaankuuluvaa rekisteröityä kliinistä tutkimusta tässä paketissa, joka kohdistaa rintasyövän päätetapahtumaksi. Tämä on yhdenmukaista paketin omien L2 / S2 pisteyttämisen kanssa ("Tutkimuskysymys").
 
-**To proceed, the following is needed:**
-- TFDA/local regulatory package insert (warnings, contraindications, DDI) to clear the Blocking gap (DG001)
-- Confirmed mechanism of action data from DrugBank (DG002)
-- A completed randomized trial with breast carcinoma (ideally BRCA1/2-mutated or HR+/HER2- subgroup) as the primary study population
-- A local market-entry or import pathway assessment, given current "Not Marketed" status
+**Jatkamiseksi tarvitaan seuraava:**
+- TFDA/paikallinen säädöspakkaus (varoitukset, vasta-aiheet, DDI) estävän aukon poistamiseksi (DG001)
+- Vahvistetut vaikutusmekanismin tiedot DrugBankista (DG002)
+- Valmistunut satunnaistettu tutkimus rintasyövälle (ihanteellisesti BRCA1/2-mutaatiota sisältävä tai HR+/HER2- alaryhmä) päätutkimuspopulaationa
+- Paikallisen markkinoille tulon tai tuontireitin arviointia, koska nykyinen "Ei markkinoitu" -asema
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

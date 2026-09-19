@@ -29,90 +29,91 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Ponatinib: From Chronic Myeloid Leukemia to Gingival Fibromatosis
+# Ponatinibi: kroonisesta myeloisesta leukemiasta gingivaalisen fibromatoosin hoitoon
 
-## One-Sentence Summary
+## Yksisäikeinen yhteenveto
 
-Ponatinib is a multi-target tyrosine kinase inhibitor best known for treating chronic myeloid leukemia (CML) and Philadelphia chromosome-positive acute lymphoblastic leukemia (Ph+ ALL). The TxGNN model predicts it may be effective for **Gingival Fibromatosis**, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it rests on the model score alone.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Chronic myeloid leukemia (CML) / Ph+ acute lymphoblastic leukemia (general drug knowledge; not confirmed by a local license record) |
-| Predicted New Indication | Gingival Fibromatosis |
-| TxGNN Prediction Score | 99.04% |
-| Evidence Level | L5 |
-| Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Ponatinibi on moniaineinen tyrosiinkinaasin estäjä, joka tunnetaan parhaiten kroonisen myeloisen leukemian (CML) ja Philadelphia-kromosomin positiivisen akuutin lymfoblastisen leukemian (Ph+ ALL) hoidosta. TxGNN-malli ennustaa, että se saattaa olla tehokas **gingivaalisen fibromatoosin** hoidossa, mutta tätä ennustusta tukee tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua** — se perustuu pelkästään mallin pistemäärään.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Pikakatsaus
 
-Currently, detailed mechanism of action data is not available (flagged as a data gap in this evidence pack). Based on known information, ponatinib is a third-generation, multi-target tyrosine kinase inhibitor (BCR-ABL, including the T315I-resistant mutant, plus VEGFR, FGFR, PDGFR and SRC-family kinases), and its efficacy in CML/Ph+ ALL has been proven; mechanistically, some of these same kinases (notably PDGFR and related fibro-proliferative pathways) are implicated in fibrotic gum overgrowth, which is the theoretical basis TxGNN's knowledge graph likely relied on.
-
-Chronic myeloid leukemia and gingival fibromatosis are biologically unrelated conditions — one is a hematologic malignancy driven by the BCR-ABL fusion kinase, the other is a benign, often hereditary, fibroblast-proliferative disorder of the gums. The mechanistic bridge is therefore indirect: it depends on ponatinib's off-target inhibition of PDGFR/kinase pathways that also drive fibroblast proliferation and extracellular matrix deposition, rather than on any shared disease biology with CML. Given that this prediction has zero clinical trial or literature support, it should be treated as a hypothesis generated purely from the model's learned associations rather than an evidence-backed signal.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
+| Kohta | Sisältö |
+|------|--------|
+| Alkuperäinen indikaatio | Krooninen myeloinen leukemia (CML) / Ph+ akuutti lymfoblastinen leukemia (yleinen lääketieto; ei vahvistettu paikallisen hyväksynnän perusteella) |
+| Ennustettu uusi indikaatio | Gingivaalinen fibromatoosi |
+| TxGNN-ennustepistemäärä | 99.04% |
+| Näyttötaso | L5 |
+| Markkinoinnin tila | Ei saatavilla markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Pidätä |
 
 ---
 
-## Market Information
+## Miksi tämä ennuste on järkevä?
 
-Ponatinib currently holds no marketing authorizations in this jurisdiction (status: **Not marketed**, 0 licenses on record), so no approved indication text is available for comparison.
+Tällä hetkellä yksityiskohtaisia toimintamekanismia koskevia tietoja ei ole saatavilla (merkitty aineistovajiksi tässä näyttöpaketissa). Tunnettujen tietojen perusteella ponatinibi on kolmannen sukupolven moniaineinen tyrosiinkinaasin estäjä (BCR-ABL, mukaan lukien T315I-resistentti mutantti, sekä VEGFR, FGFR, PDGFR ja SRC-perheen kinaasit), ja sen tehokkuus CML/Ph+ ALL:n hoidossa on todistettu; mekanismiltaan jotkut näistä samoista kinaaseista (erityisesti PDGFR ja niihin liittyvät fibroblaastien proliferaatiota edistävät signalointireitit) osallistuvat ienien fibroblaastisen liikakasvamisen syntyyn, mikä on todennäköisesti se teoreettinen perusta, johon TxGNN:n tietoverkko perustui.
 
----
-
-## Cytotoxicity
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (multi-target tyrosine kinase inhibitor: BCR-ABL, VEGFR, FGFR, PDGFR, SRC-family) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+Krooninen myeloinen leukemia ja gingivaalinen fibromatoosi ovat biologisesti toisiaan liittymättömiä sairauksia — toinen on verisolujen malignanssi, jonka ajaa BCR-ABL-fuusiokinaasi, toinen on hyvänlaatuinen, usein perinnöllinen ientulehdusta aiheuttava fibroblaastien proliferatiosairaus. Mekanistinen yhteys on siis epäsuora: se riippuu ponatinibin vaiotarkoitteisesta PDGFR/kinaasireiteille kohdituvasta estämisestä, jotka edistävät sekä fibroblaastien proliferaatiota että solunulkoisen matriisin kertymistä, pikemminkin kuin siitä, että CML ja gingivaalinen fibromatoosi jakaisisivat yhteisen tautibiologian. Koska tällä ennustuksella ei ole mitään kliinisen tutkimuksen tai kirjallisuuden tukea, sitä tulisi käsitellä hypoteesina, joka on muodostunut puhtaasti mallin opittujen assosiaatioiden perusteella, eikä näyttöpohjaisen signaalin perusteella.
 
 ---
 
-## Safety Considerations
+## Kliinisen tutkimuksen näyttö
 
-Please refer to the package insert for safety information.
-
----
-
-## Additional Note: Rank 2 Predicted Indication
-
-A second predicted indication, **liposarcoma**, scored nearly as high (99.00%, TxGNN rank 9484) and — unlike gingival fibromatosis — has one supporting preclinical publication: [29132397](https://pubmed.ncbi.nlm.nih.gov/29132397/) (2017, *Journal of Hematology & Oncology*), a kinase-profiling/RNAi drug-screening study identifying druggable kinase targets in liposarcoma. This is preclinical, not clinical, evidence, but it gives liposarcoma a stronger (though still early) evidentiary basis than the top-ranked indication and may warrant separate follow-up.
+Tällä hetkellä ei ole kirjattuja asiaan liittyviä kliinisiä tutkimuksia.
 
 ---
 
-## Conclusion and Next Steps
+## Kirjallisuustutkimuksen näyttö
 
-**Decision: Hold**
+Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta.
 
-**Rationale:**
-The top predicted indication (gingival fibromatosis) has no clinical trial or literature support — only a model score — placing it at Evidence Level L5. Combined with a Blocking data gap on package insert/safety data (DG001) and the drug not being marketed in this jurisdiction, there is insufficient basis to advance past initial screening.
+---
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert data (warnings, contraindications, DDIs) — currently a Blocking gap
-- Confirmed mechanism of action from DrugBank — currently a High-severity gap
-- Targeted literature/preclinical search specific to gingival fibromatosis to test the mechanistic hypothesis
-- Consider parallel evaluation of the liposarcoma signal (rank 2), which has at least one supporting preclinical publication
+## Markkinatiedot
+
+Ponatinibilla ei tällä hetkellä ole myyntilupaa tässä kotimaassa (tila: **Ei saatavilla markkinoilla**, 0 lupaa rekisterissä), joten hyväksyttyä indikaatiotekstiä ei ole saatavilla vertailua varten.
+
+---
+
+## Sytotoksiksuus
+
+| Kohta | Sisältö |
+|------|--------|
+| Sytotoksiksuusluokitus | Kohdennettu lääkitys (moniaineinen tyrosiinkinaasin estäjä: BCR-ABL, VEGFR, FGFR, PDGFR, SRC-perhe) |
+| Luuydinsortumusriski | Viitattava pakkauselosteeseen |
+| Pahoinvointipotentiaalin luokitus | Viitattava pakkauselosteeseen |
+| Seurattavat asiat | Viitattava pakkauselosteeseen |
+| Käsittelyturvallisuus | Viitattava pakkauselosteeseen |
+
+---
+
+## Turvallisuusnäkökohdat
+
+Katso pakkausseloste turvallisuustietojen osalta.
+
+---
+
+## Lisähuomautus: 2. Sijan ennustettu indikaatio
+
+Toinen ennustettu indikaatio, **liposarkooma**, sai lähes yhtä korkean pistemäärän (99.00%, TxGNN-ranking 9484) ja toisin kuin gingivaalinen fibromatoosi, sillä on yksi tukeva prekliininen julkaisu: [29132397](https://pubmed.ncbi.nlm.nih.gov/29132397/) (2017, *Journal of Hematology & Oncology*), kinaasien profilointi-/RNAi-lääkkeiden seulontatutkimus, joka tunnisti lääkkeettäviä kinaasikohteita liposarkoomassa. Tämä on prekliininen, ei kliininen, näyttö, mutta se antaa liposarkooman osalta vahvemman (vaikka silti varhaisen) näyttöperustan kuin etusijalla oleva indikaatio ja voi vaatia erillistä tutkimista.
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidätä**
+
+**Perustelut:**
+Korkeimman sijoituksen saaneen indikaation (gingivaalinen fibromatoosi) tukeina ei ole mitään kliinisiä tutkimuksia tai kirjallisuusviitteitä — vain mallin pistemäärä, mikä asettaa sen näyttötasolle L5. Kriittisen aineistovajeen (pakkausseloste/turvallisuustiedot, DG001) ja lääkkeen markkinointiluvattoman aseman vuoksi ei ole riittävää perustetta edetä alkuseulonnasta eteenpäin.
+
+**Jotta voidaan edetä, tarvitaan seuraavaa:**
+- TFDA/Fimea-pakkauselosteen tiedot (varoitukset, vasta-aiheet, lääkkeiden yhteisvaikutukset) — tällä hetkellä kriittinen aineistovaje
+- Vahvistettu toimintamekanismi DrugBankista — tällä hetkellä korkean vakavuuden aineistovaje
+- Kohdennettu kirjallisuus-/prekliininen haku, joka on spesifinen gingivaalisen fibromatoosin osalta, mekanistisen hypoteesin testaamiseksi
+- Harkitse rinnakkaista liposarkooma-signaalin (ranking 2) arviointia, jolla on vähintään yksi tukeva prekliininen julkaisu
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

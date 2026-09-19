@@ -29,102 +29,103 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Sodium Oxybate: From Narcolepsy with Cataplexy to Insomnia
+# Natrium-oksibutaatti: narkolepsian katapleksiasta unettomuuteen
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Sodium oxybate (Xyrem) is a GABA-B/GHB receptor agonist established for narcolepsy with cataplexy in the EU/US. The TxGNN model predicts it may also be effective for **Insomnia**, with **13 clinical trials** and **13 publications** currently identified, though the drug is not marketed in Finland and carries controlled-substance (Schedule III) risk.
+Natrium-oksibutaatti (Xyrem) on GABA-B/GHB-reseptorin agonisti, joka on vakiintunut narkolepsian katapleksian hoitoon EU:ssa ja USA:ssa. TxGNN-malli ennustaa, että se saattaa olla tehokas myös **unettomuuden** hoidossa, ja tällä hetkellä on tunnistettu **13 kliinistä tutkimusta** ja **13 julkaisua**, vaikka lääkettä ei ole markkinoitu Suomessa ja siihen liittyy valvotun aineen (luokka III) riski.
 
 ---
 
-## Quick Overview
+## Pika-yleiskatsaus
 
-| Item | Content |
+| Kohde | Sisältö |
 |------|------|
-| Original Indication | Narcolepsy with cataplexy (per international literature; not derivable from Finland licensing data — drug not marketed) |
-| Predicted New Indication | Insomnia |
-| TxGNN Prediction Score | 99.997% |
-| Evidence Level | L2 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen käyttöaihe | Narkolepsia katapleksian kanssa (kansainvälisen kirjallisuuden mukaan; ei johdettavissa Suomen lääkevalvontadatasta — lääkettä ei ole markkinoitu) |
+| Ennustettu uusi käyttöaihe | Unettomuus |
+| TxGNN-ennuste-pistemäärä | 99.997% |
+| Näyttötaso | L2 |
+| Suomen markkinatilanne | ✗ Ei markkinoitu |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Pidä odotuksissa |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Detailed DrugBank-sourced mechanism of action data is currently a data gap (DG002). Based on the mechanistic rationale available in the evidence pack, sodium oxybate (the sodium salt of gamma-hydroxybutyrate, GHB) acts as a GABA-B/GHB receptor agonist that induces and consolidates slow-wave sleep (SWS). This effect has been clinically validated in narcolepsy, where it improves sleep consolidation and reduces cataplexy attacks.
+DrugBank-lähteen mekanistisen vaikutuksen yksityiskohtaiset tiedot ovat tällä hetkellä tiedon puutokohta (DG002). Saatavilla olevan mekanistisen perustelun mukaan natrium-oksibutaatti (gamma-hydroksibutyraaatin natriumsuola, GHB) toimii GABA-B/GHB-reseptorin agonistina, joka aiheuttaa ja vahvistaa hitaan aallon unia (SWS). Tämä vaikutus on kliinisesti vahvistettu narkolepsiassa, jossa se parantaa unen jatkuvuutta ja vähentää katapleksiakohtauksia.
 
-Narcolepsy and insomnia are both primary sleep-architecture disorders, so the pharmacological logic — enhancing SWS to improve sleep continuity — is mechanistically transferable. Directly supporting this, a completed Phase 2 randomized, double-blind, placebo-controlled trial (NCT00383643) compared sodium oxybate against zolpidem (Ambien) specifically in chronic insomnia patients, which is the strongest available evidence for this candidate.
+Narkolepsia ja unettomuus ovat molemmat primäärisiä univaiheen häiriöitä, joten farmakologinen logiikka – SWS:n tehostaminen unen jatkuvuuden parantamiseksi – on mekanistisesti siirrettävissä. Tätä tukee suoraan valmis fase 2 -satunnaistettu, kaksoissokkotettu, kaksoisummikkomenetelmää käyttävä, lumekontrolloitu tutkimus (NCT00383643), jossa verrattiin natrium-oksibutaattia (Xyrem) ja zolpidemia (Ambien) erityisesti kroonisen unettomuuden potilaissa, mikä on vahvin saatavilla oleva näyttö tälle kandidaatille.
 
-However, the mechanism is not insomnia-specific: it is a generalized CNS/sleep-architecture effect rather than a targeted insomnia pathway, and several of the identified trials in related sleep-disturbance populations (PTSD, chronic fatigue syndrome) were withdrawn or terminated, suggesting practical or tolerability barriers to broader use. The drug's Schedule III controlled status, dependence/abuse potential, and respiratory depression risk (noted in the repurposing rationale) also temper enthusiasm for a mechanism that is otherwise plausible.
+Mekanismi ei kuitenkaan ole unettomuuden spesifinen: se on yleistetty keskushermostolle (CNS) ja univaiheelle kohdistuva vaikutus eikä kohdennettu unettomuuden polku, ja useat tunnistetut tutkimukset samankaltaisista univaiheen häiriöistä (PTSD, krooninen väsymysoireyhtymä) keskeytettiin tai pysäytettiin, mikä viittaa käytännöllisiin tai siedettävyyden esteisiin laajempaan käyttöön. Lääkkeen luokka III -valvotun aineen asema, riippuvuus-/väärinkäyttöpotentiaali ja hengityslamaa heikentävä riski (mainittu uudelleenkäyttöperustelun yhteydessä) vähentävät myös muuten uskottavan mekanismin houkuttelevuutta.
 
 ---
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset tulokset |
 |---------|------|------|------|---------|
-| [NCT00383643](https://clinicaltrials.gov/study/NCT00383643) | Phase 2 | Completed | 48 | Randomized, double-blind, double-dummy, placebo-controlled trial comparing sodium oxybate (Xyrem) vs. zolpidem (Ambien) for chronic insomnia — the most directly relevant and strongest trial for this indication |
-| [NCT02637648](https://clinicaltrials.gov/study/NCT02637648) | Phase 3 | Unknown | 60 | Sodium oxybate for headache and sleep disturbance prophylaxis in cluster headache; sleep quality was a secondary outcome, status unknown |
-| [NCT00330291](https://clinicaltrials.gov/study/NCT00330291) | Phase 2 | Withdrawn | 0 | Planned trial of Xyrem for treatment-refractory insomnia due to PTSD; withdrawn with no enrollment |
-| [NCT00641186](https://clinicaltrials.gov/study/NCT00641186) | Phase 2 | Completed | 30 | Open-label trial of Xyrem for excessive daytime sleepiness and nocturnal sleep disturbance in mild-to-moderate Parkinson's disease |
-| [NCT04803786](https://clinicaltrials.gov/study/NCT04803786) | N/A | Completed | 110 | Observational study (TENOR) on real-world dosing/transition experience of narcolepsy patients switching from Xyrem to Xywav |
-| [NCT04508166](https://clinicaltrials.gov/study/NCT04508166) | N/A | Completed | 27 | Healthy-volunteer study testing whether deep-sleep enhancement (including a GHB-class agent) reduces post-traumatic intrusive memories |
-| [NCT00594256](https://clinicaltrials.gov/study/NCT00594256) | Phase 2 | Completed | 8 | Open-label pilot of adjunctive Xyrem for persistent schizophrenia symptoms and associated sleep disturbance |
-| [NCT01584934](https://clinicaltrials.gov/study/NCT01584934) | Phase 4 | Withdrawn | 0 | Planned double-blind, randomized crossover trial of sodium oxybate for chronic fatigue syndrome-related sleep disturbance; withdrawn |
-| [NCT07077278](https://clinicaltrials.gov/study/NCT07077278) | Phase 4 | Not yet recruiting | 25 | Randomized withdrawal study of low-sodium oxybate for autonomic symptoms in idiopathic hypersomnia patients with POTS |
-| [NCT03626727](https://clinicaltrials.gov/study/NCT03626727) | Early Phase 1 | Withdrawn | 0 | Planned open-label trial of Xyrem for post-traumatic narcolepsy and hypersomnia in TBI patients; withdrawn |
+| [NCT00383643](https://clinicaltrials.gov/study/NCT00383643) | Vaihe 2 | Päätötetty | 48 | Satunnaistettu, kaksoissokkotettu, kaksoisummikkomenetelmää käyttävä, lumekontrolloitu tutkimus, jossa verrattiin natrium-oksibutaattia (Xyrem) ja zolpidemia (Ambien) kroonisen unettomuuden hoidossa – suoraan soveltuvin ja vahvin tutkimus tälle käyttöaiheelle |
+| [NCT02637648](https://clinicaltrials.gov/study/NCT02637648) | Vaihe 3 | Tuntematon | 60 | Natrium-oksibutaatti päänsäryn ja univaiheen häiriöiden ennaltaehkäisyyn ryppykepallon puuskittaissa päänsärkykohduissa; unen laatu oli toissijainen tulosmuuttuja, tila tuntematon |
+| [NCT00330291](https://clinicaltrials.gov/study/NCT00330291) | Vaihe 2 | Peruutettu | 0 | Suunniteltu tutkimus Xyremia hoitoon-resistenteille unettomuuksille PTSD:n vuoksi; peruutettu ilman osallistujia |
+| [NCT00641186](https://clinicaltrials.gov/study/NCT00641186) | Vaihe 2 | Päätötetty | 30 | Avoin tutkimus Xyremia liialliselle päiväväsymykselle ja yölliselle univaiheen häiriölle lievässä tai kohtalaisessa Parkinsonin taudissa |
+| [NCT04803786](https://clinicaltrials.gov/study/NCT04803786) | N/A | Päätötetty | 110 | Havainnollinen tutkimus (TENOR) narkolepsian potilaiden siirtymiskokemuksesta Xyremiasta Xywaviin todellisissa olosuhteissa |
+| [NCT04508166](https://clinicaltrials.gov/study/NCT04508166) | N/A | Päätötetty | 27 | Terveellisten vapaaehtoissijoiden tutkimus testaamaan, pienentääkö syvän unen lisääminen (mukaan lukien GHB-luokan aine) traumaattisen jälkeen jäävien häiritsevämpien muistojen esiintymistä |
+| [NCT00594256](https://clinicaltrials.gov/study/NCT00594256) | Vaihe 2 | Päätötetty | 8 | Avoin pilottitutkimus täydentävää Xyremea pysyviin skizofrenia-oireisiin ja niihin liittyviin univaiheen häiriöihin |
+| [NCT01584934](https://clinicaltrials.gov/study/NCT01584934) | Vaihe 4 | Peruutettu | 0 | Suunniteltu sokkotettu, satunnaistettu ristikkeittäinen tutkimus natrium-oksibutaatista kroonisen väsymysoireyhtymän aiheuttamaan univaiheen häiriöön; peruutettu |
+| [NCT07077278](https://clinicaltrials.gov/study/NCT07077278) | Vaihe 4 | Ei vielä rekrytoida | 25 | Satunnaistettu poistumistutkimus matalan natriumoksibutaatin autonomisista oireista idiopaattisissa hypersomnian potilaissa POTS:n kanssa |
+| [NCT03626727](https://clinicaltrials.gov/study/NCT03626727) | Varhainen vaihe 1 | Peruutettu | 0 | Suunniteltu avoin tutkimus Xyremiaa traumaattiseen narkolepsiaan ja hypersomniiaan TBI-potilaissa; peruutettu |
 
 ---
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset tulokset |
 |------|-----|------|------|---------|
-| [40120323](https://pubmed.ncbi.nlm.nih.gov/40120323/) | 2025 | Cohort | J Clin Neurosci | Propensity-matched cohort characterizing treatment patterns of patients on immediate-release sodium oxybate for narcolepsy |
-| [18852348](https://pubmed.ncbi.nlm.nih.gov/18852348/) | 2008 | Cohort | Archives of Neurology | Open-label polysomnographic study of sodium oxybate for excessive daytime sleepiness in Parkinson disease |
-| [11174231](https://pubmed.ncbi.nlm.nih.gov/11174231/) | 2001 | Review | Annals of Emergency Medicine | Describes GHB (gamma-hydroxybutyrate) withdrawal syndrome — relevant safety signal for dependence risk |
-| [20166851](https://pubmed.ncbi.nlm.nih.gov/20166851/) | 2010 | Review | Expert Opin Emerging Drugs | Review of emerging narcolepsy treatments including sodium oxybate's role in nocturnal sleep disruption |
-| [26171909](https://pubmed.ncbi.nlm.nih.gov/26171909/) | 2015 | Review (Cochrane) | Cochrane Database Syst Rev | Systematic review of opioid/hypnotic/sedating medication effects on sleep-disordered breathing, relevant to CNS depressant risk |
-| [31526967](https://pubmed.ncbi.nlm.nih.gov/31526967/) | 2019 | Case report | Sleep Medicine | Sodium oxybate used to manage severe sleep deprivation in a child with EBV encephalitis affecting the sleep-wake regulation system |
-| [18805301](https://pubmed.ncbi.nlm.nih.gov/18805301/) | 2008 | Review | Revue Neurologique | Review of narcolepsy with cataplexy, including sleep-maintenance insomnia as a disease feature |
-| [21815499](https://pubmed.ncbi.nlm.nih.gov/21815499/) | 2011 | Review | Revue Medicale Suisse | Review of the bidirectional relationship between chronic pain and sleep disorder, discussing hypnotic approaches |
-| [37590830](https://pubmed.ncbi.nlm.nih.gov/37590830/) | 2023 | Review | Continuum (Minneap Minn) | Comprehensive review of pediatric sleep disorders including insomnia and narcolepsy |
-| [20082966](https://pubmed.ncbi.nlm.nih.gov/20082966/) | 2009 | Review | Parkinsonism Relat Disord | Review of sleepiness and sleep disturbance in Parkinson's disease |
+| [40120323](https://pubmed.ncbi.nlm.nih.gov/40120323/) | 2025 | Kohortti | J Clin Neurosci | Taipumuksella painotettu kohortti, joka luonnehtii narkolepsian välittömiä vapautumisen natriumoksibutaattia saaneiden potilaiden hoitokäytäntöjä |
+| [18852348](https://pubmed.ncbi.nlm.nih.gov/18852348/) | 2008 | Kohortti | Archives of Neurology | Avoin polysomnografinen tutkimus natriumoksibutaatista liialliselle päiväväsymykselle Parkinsonin taudissa |
+| [11174231](https://pubmed.ncbi.nlm.nih.gov/11174231/) | 2001 | Katsaus | Annals of Emergency Medicine | Kuvailee GHB (gamma-hydroksibutyraaatin) vieroitusoireyhtymää – tärkeä riippuvuusriskin turvallisuussignaali |
+| [20166851](https://pubmed.ncbi.nlm.nih.gov/20166851/) | 2010 | Katsaus | Expert Opin Emerging Drugs | Katsaus nousevista narkolepsian hoitomenetelmistä, mukaan lukien natrium-oksibutaatin rooli yöllisen univaiheen häiriöiden häiriössä |
+| [26171909](https://pubmed.ncbi.nlm.nih.gov/26171909/) | 2015 | Katsaus (Cochrane) | Cochrane Database Syst Rev | Systemaattinen katsaus opioidi-, hypnootti- ja sedatiivisten lääkkeiden vaikutuksista univaiheen häiriöisiin, liittyy keskushermostoa tukahduttaviin riskeihin |
+| [31526967](https://pubmed.ncbi.nlm.nih.gov/31526967/) | 2019 | Tapausraportti | Sleep Medicine | Natrium-oksibutaattia käytettiin ankaran unenpuutteen hallintaan lapsella, jonka EBV-enkefaliitti vaikutti uni-heräämis-sääntelyjärjestelmään |
+| [18805301](https://pubmed.ncbi.nlm.nih.gov/18805301/) | 2008 | Katsaus | Revue Neurologique | Katsaus narkolepsiaan katapleksian kanssa, mukaan lukien unenpitäväisen unettomuuden puolustelu sairauden piirteinä |
+| [21815499](https://pubmed.ncbi.nlm.nih.gov/21815499/) | 2011 | Katsaus | Revue Medicale Suisse | Katsaus kahdensuuntaisesta suhteesta kroonisen kivun ja univaiheen häiriön välillä, käsittelee univaiheen lääkityksen lähestymistapoja |
+| [37590830](https://pubmed.ncbi.nlm.nih.gov/37590830/) | 2023 | Katsaus | Continuum (Minneap Minn) | Kattava katsaus lasten univaiheen häiriöistä, mukaan lukien unettomuus ja narkolepsia |
+| [20082966](https://pubmed.ncbi.nlm.nih.gov/20082966/) | 2009 | Katsaus | Parkinsonism Relat Disord | Katsaus väsymykseen ja univaiheen häiriöihin Parkinsonin taudissa |
 
 ---
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Sodium oxybate currently has no marketing authorizations recorded for Finland (0 licenses; market status: not marketed).
-
----
-
-## Safety Considerations
-
-Official Fimea package insert warnings and contraindications are currently unavailable (Blocking data gap, DG001) — this prevents a formal S1 safety evaluation. Based on information present elsewhere in the evidence pack (mechanistic rationale and literature), the following risks are relevant and should be verified once the package insert is obtained:
-
-- **Controlled substance risk**: Sodium oxybate (GHB) is a Schedule III controlled substance with known dependence, abuse, and diversion potential (supported by literature on GHB withdrawal syndrome and tolerability/abuse liability).
-- **CNS/respiratory depression**: Additive sedative and respiratory depression risk when combined with alcohol or other CNS depressants.
-- **Movement/sleep side effects**: Case literature associates sodium oxybate with induction or worsening of restless legs syndrome/periodic limb movements in narcolepsy patients — a paradoxical sleep-disruption effect worth monitoring if repurposed for insomnia.
-
-Please refer to the package insert for complete safety information once available.
+Natrium-oksibutaatilla ei ole tällä hetkellä rekisteröityjä markkinointi-lupia Suomessa (0 lupaa; markkinatilanne: ei markkinoitu).
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuusnäkökohdat
 
-**Decision: Hold**
+Fimean virallinen pakkausseloste-varoitukset ja vasta-aiheet ovat tällä hetkellä saatavilla (Esto-aineisto-puute, DG001) – tämä estää muodollisen S1-turvallisuusarvioinnin. Näytössä olevien tietojen perusteella (mekanistinen perustelu ja kirjallisuus), seuraavat riskit ovat merkityksellisiä ja ne on varmistettava, kun pakkausseloste on saatavilla:
 
-**Rationale:**
-The insomnia signal has meaningful supporting evidence (L2: one completed Phase 2 RCT directly comparing sodium oxybate to zolpidem in chronic insomnia), but a Blocking data gap on Fimea warnings/contraindications (DG001) prevents the required S1 safety evaluation, and the drug's controlled-substance/abuse-risk profile combined with its unmarketed status in Finland warrants caution before advancing.
+- **Valvotun aineen riski**: Natrium-oksibutaatti (GHB) on luokka III -valvottu aine, jossa on tunnettu riippuvuus-, väärinkäyttö- ja anastaspotentiaali (tuettu kirjallisuudella GHB-vieroitusoireyhtymästä ja siedettävyys-/väärinkäyttövastuusta).
+- **CNS/hengityslama-depressio**: Lisääntyvä sedatiivinen ja hengityslamaa heikentävä riski yhdessä alkoholin tai muiden keskushermostoa tukahduttavien aineiden kanssa.
+- **Liikunta-/univaiheen sivuvaikutukset**: Tapauskirjallisuus yhdistää natrium-oksibutaatin levottomien jalkojen oireyhtymän tai jaksottaisten raajaliikkeiden indusoitumiseen tai pahentumiseen narkolepsian potilaissa – paradoksaalinen univaiheen häiriön vaikutus, jonka seuranta on tärkeää, jos lääkettä käytetään unettomuuden uudelleen käyttöön.
 
-**To proceed, the following is needed:**
-- Fimea package insert (warnings, contraindications, controlled-substance scheduling in Finland) — DG001
-- DrugBank mechanism of action detail — DG002
-- Formal drug-drug interaction (DDI) database query (current query returned no results)
-- Assessment of controlled-substance import/prescribing feasibility for an unmarketed product in Finland
+Täydellisiä turvallisuustietoja koskevan pakkausselosteen saatavilla olemisen jälkeen.
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidä odotuksissa**
+
+**Perustelu:**
+Unettomuussignaali on merkityksellistä näyttöä tukevan (L2: yksi valmis fase 2 RCT, joka vertaa suoraan natrium-oksibutaattia ja zolpidemia kroonisessa unettomuudessa), mutta Fimean varoituksista ja vasta-aiheista johtuva esto-aineiston puute (DG001) estää vaaditun S1-turvallisuusarvioinnin, ja lääkkeen valvotun aineen/väärinkäyttöriskin profiili yhdessä sen ei-markkinoidun tilan kanssa Suomessa vaatii varovaisuutta ennen etenemistä.
+
+**Jatkamiseksi tarvitaan seuraavaa:**
+- Fimean pakkausseloste (varoitukset, vasta-aiheet, valvotun aineen luokittelu Suomessa) – DG001
+- DrugBank-mekanismin yksityiskohdat – DG002
+- Muodollinen lääkkeiden väliset yhteisvaikutukset (DDI) -tietokannan kysely (nykyinen kysely ei tuottanut tuloksia)
+- Valvotun aineen tuonnin/määräämisen toteutettavuuden arviointi Suomessa markkinoimattomalle tuotteelle
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

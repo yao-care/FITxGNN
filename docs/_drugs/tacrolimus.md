@@ -29,76 +29,77 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Tacrolimus: From Atopic Dermatitis to Seborrheic Dermatitis
+# Takrolimus: atopisen dermatiitin hoidosta seborroosisen dermatiitin hoitoon
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Tacrolimus is a topical calcineurin inhibitor best known for treating atopic dermatitis (eczema) under products such as Protopic.
-The TxGNN model predicts it may also be effective for **Seborrheic Dermatitis**,
-with **2 clinical trials** and **20 publications** currently supporting this direction.
+Takrolimus on topikaalinen kalsineumiinin inhibiittori, joka tunnetaan parhaiten atopisen dermatiitin (ekseema) hoidosta tuotteiden, kuten Protopicin, alla.
+TxGNN-malli ennustaa, että se saattaa olla myös tehokas **seborroosisen dermatiitin** hoidossa,
+ja tällä hetkellä **2 kliinistä tutkimusta** ja **20 julkaisua** tukevat tätä suuntaa.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Atopic Dermatitis (topical calcineurin inhibitor) — no formal indication text on file for this dataset |
-| Predicted New Indication | Seborrheic Dermatitis |
-| TxGNN Prediction Score | 99.26% |
-| Evidence Level | L1 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Alkuperäinen indikaatio | Atopinen dermatiitti (topikaalinen kalsineumiinin inhibiittori) – tässä aineistossa ei ole virallista indikaatiotekstiä |
+| Ennustettu uusi indikaatio | Seborroosinen dermatiitti |
+| TxGNN:n ennustuspistemäärä | 99.26% |
+| Näyttötaso | L1 |
+| Suomen markkinatilanne | ✗ Ei markkinoilla |
+| Valtuuksien määrä | 0 |
+| Suositeltu päätös | Jatka varainnein |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known pharmacology, tacrolimus is a calcineurin inhibitor originally developed as a topical immunomodulator (Protopic ointment) for atopic dermatitis; it suppresses T-cell activation and downstream inflammatory cytokine release without the skin-atrophy risk associated with long-term topical corticosteroid use.
+Tällä hetkellä yksityiskohtaista vaikutusmekanismin tietoa ei ole saatavilla tässä näyttöpaketissa. Tunnetun farmakologian perusteella takrolimus on kalsineumiinin inhibiittori, joka alun perin kehitettiin topikaalisen immunomodulaattorin rooliin (Protopic-voide) atopisen dermatiitin hoitoon; se estää T-solujen aktivaatiota ja sitä seuraavaa tulehdustekijöiden vapautumista ilman pitkäaikaisen topikaalisen kortikosteroidin käyttöön liittyvän ihon atrofian riskiä.
 
-Seborrheic dermatitis and atopic dermatitis are both chronic, relapsing inflammatory skin conditions driven by T-cell/cytokine-mediated inflammation, and seborrheic dermatitis additionally involves *Malassezia*-associated impairment of skin barrier permeability. Because calcineurin inhibition dampens the shared inflammatory cascade, tacrolimus's established anti-inflammatory activity in atopic dermatitis is mechanistically plausible for seborrheic dermatitis as well.
+Seborroosinen dermatiitti ja atopinen dermatiitti ovat molemmat kroonisia, oireiltaan toistuvia ihosairauksia, jotka aiheutuvat T-solujen ja sytokinien välityksellä tapahtuvasta tulehduksesta. Lisäksi seborroosinen dermatiitti liittyy *Malassezia*-yhdistykseen ja ihon estefunktion heikkenemiseen. Koska kalsineumiinin inhibitio vaimentaa jaetun tulehduskaskaadin, takrolimuksen vahvistettu anti-inflammatorinen teho atopisen dermatiitin hoidossa on mekanistisesti järkevää myös seborroosisen dermatiitin hoidossa.
 
-This mechanistic rationale is reinforced by real clinical use: tacrolimus ointment has repeatedly been trialed specifically for facial seborrheic dermatitis maintenance therapy (steroid-sparing, safe for chronic facial application), which is exactly the use case supported by the Phase 3 and Phase 4 trial evidence below.
+Tätä mekanistista perustelua vahvistaa todellinen kliininen käyttö: takrolimus-voide on toistuvasti tutkittu nimenomaan kasvojen seborroosisen dermatiitin ylläpitohoidossa (steroidisäästävä, turvallinen kasvojen pitkäaikaiseen soveltamiseen), mikä on täsmälleen käyttötapaus, jota tuetaan alla esitettävällä vaihe 3 ja vaihe 4 tutkimuksen näytöllä.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimusnumero | Vaihe | Tila | Osallistujamäärä | Keskeiset löydökset |
 |---------|------|------|------|---------|
-| [NCT02004860](https://clinicaltrials.gov/study/NCT02004860) | Phase 3 | Completed | 120 | Maintenance treatment with tacrolimus ointment (Protopic) for severe facial seborrheic dermatitis in adults, aiming to prolong remission and reduce topical steroid use |
-| [NCT01591070](https://clinicaltrials.gov/study/NCT01591070) | Phase 4 | Completed | 104 | Proactive once/twice-weekly 0.1% tacrolimus ointment to maintain remission and reduce exacerbation in adult facial seborrheic dermatitis |
+| [NCT02004860](https://clinicaltrials.gov/study/NCT02004860) | Vaihe 3 | Valmistunut | 120 | Ylläpitohoito takrolimus-voidella (Protopic) vakavalle kasvojen seborroosiselle dermatitille aikuisilla, jonka tavoitteena on pidentää remissiota ja vähentää topikaalisen steroidin käyttöä |
+| [NCT01591070](https://clinicaltrials.gov/study/NCT01591070) | Vaihe 4 | Valmistunut | 104 | Ennaltaehkäisevä kerran/kahdesti viikossa annettu 0.1% takrolimus-voide remission ylläpitoon ja oireiden uusiutumisen vähentämiseen aikuisten kasvojen seborroosisessa dermatitissa |
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
 |------|-----|------|------|---------|
-| [26512166](https://pubmed.ncbi.nlm.nih.gov/26512166/) | 2015 | RCT | Annals of Dermatology | Maintenance therapy of facial seborrheic dermatitis with 0.1% tacrolimus ointment reduces flare-ups similar to intermittent TCI use in atopic dermatitis |
-| [33010323](https://pubmed.ncbi.nlm.nih.gov/33010323/) | 2021 | RCT | J Am Acad Dermatol | Multicenter double-blind RCT: tacrolimus 0.1% vs ciclopiroxolamine 1% for maintenance therapy of severe facial seborrheic dermatitis |
-| [22101215](https://pubmed.ncbi.nlm.nih.gov/22101215/) | 2012 | RCT | J Am Acad Dermatol | Single-blind RCT comparing hydrocortisone 1% ointment vs tacrolimus 0.1% ointment for facial seborrheic dermatitis in adults |
-| [24171300](https://pubmed.ncbi.nlm.nih.gov/24171300/) | 2013 | Clinical Trial | Annals of Parasitology | Compared sertaconazole 2% cream vs tacrolimus 0.03% cream efficacy in seborrheic dermatitis treatment |
-| [27804089](https://pubmed.ncbi.nlm.nih.gov/27804089/) | 2017 | Systematic Review | Am J Clin Dermatol | Systematic review of topical treatments (antifungals, keratolytics, corticosteroids, TCIs) for facial seborrheic dermatitis |
-| [19222250](https://pubmed.ncbi.nlm.nih.gov/19222250/) | 2009 | Review | Am J Clin Dermatol | Review of topical calcineurin inhibitors' pathophysiology, safety, and efficacy as a corticosteroid-sparing option in seborrheic dermatitis |
-| [19213227](https://pubmed.ncbi.nlm.nih.gov/19213227/) | 2009 | Review | J Drugs Dermatol | Overview of facial seborrheic dermatitis pathophysiology and therapeutic horizons, including calcineurin inhibitors |
-| [15663338](https://pubmed.ncbi.nlm.nih.gov/15663338/) | 2004 | Review | Am J Clin Dermatol | Review of antifungal agents' role in seborrheic dermatitis, providing treatment-landscape context for calcineurin inhibitor use |
-| [28685715](https://pubmed.ncbi.nlm.nih.gov/28685715/) | 2017 | Cohort | Chinese Medical Journal | Found high *Staphylococcus epidermidis* colonization and impaired skin barrier permeability in facial seborrheic dermatitis, supporting the barrier/inflammation rationale for TCI therapy |
-| [12833030](https://pubmed.ncbi.nlm.nih.gov/12833030/) | 2003 | Open-label Pilot | J Am Acad Dermatol | Open-label pilot study: 0.1% tacrolimus cleared seborrheic dermatitis completely in 61% of 18 patients within 28 days |
+| [26512166](https://pubmed.ncbi.nlm.nih.gov/26512166/) | 2015 | RCT | Annals of Dermatology | 0.1% takrolimus-voidella annettava kasvojen seborroosisen dermatiitin ylläpitohoito vähentää oireiden uusiutumisia samalla tavoin kuin epäjatkuva TCI-käyttö atopisen dermatiitin hoidossa |
+| [33010323](https://pubmed.ncbi.nlm.nih.gov/33010323/) | 2021 | RCT | J Am Acad Dermatol | Monisairaalan kaksoissokkoutettu RCT: takrolimus 0.1% vs. siklöpiroksoliamiini 1% vakavan kasvojen seborroosisen dermatiitin ylläpitohoidossa |
+| [22101215](https://pubmed.ncbi.nlm.nih.gov/22101215/) | 2012 | RCT | J Am Acad Dermatol | Yksittäisesti sokkoitettu RCT, jossa verrattiin hydrokortisonin 1% voitoa takrolimus 0.1% voiteeseen kasvojen seborroosisen dermatiitin hoidossa aikuisilla |
+| [24171300](https://pubmed.ncbi.nlm.nih.gov/24171300/) | 2013 | Kliininen tutkimus | Annals of Parasitology | Verrattiin sertakonatsolikremiä (2%) ja takrolimus-kremiiä (0.03%) seborroosisen dermatiitin hoidon tehokkuudessa |
+| [27804089](https://pubmed.ncbi.nlm.nih.gov/27804089/) | 2017 | Systemaattinen katsaus | Am J Clin Dermatol | Systemaattinen katsaus topikaalisten hoitomuotojen (sienilääkkeet, keratolyytit, kortikosteroidit, TCI:t) käyttöön kasvojen seborroosisen dermatiitin hoidossa |
+| [19222250](https://pubmed.ncbi.nlm.nih.gov/19222250/) | 2009 | Katsaus | Am J Clin Dermatol | Katsaus topikaalisten kalsineumiinin inhibiittoreiden patofysiologiaan, turvallisuuteen ja tehokkuuteen steroidisäästävänä vaihtoehtona seborroosisen dermatiitin hoidossa |
+| [19213227](https://pubmed.ncbi.nlm.nih.gov/19213227/) | 2009 | Katsaus | J Drugs Dermatol | Yleiskatsaus kasvojen seborroosisen dermatiitin patofysiologiaan ja terapeuttisiin näkymiin, mukaan lukien kalsineumiinin inhibiittorit |
+| [15663338](https://pubmed.ncbi.nlm.nih.gov/15663338/) | 2004 | Katsaus | Am J Clin Dermatol | Katsaus sienilääkkeiden rooliin seborroosisen dermatiitin hoidossa, antaen kontekstia kalsineumiinin inhibiittoreiden käytölle |
+| [28685715](https://pubmed.ncbi.nlm.nih.gov/28685715/) | 2017 | Kohortti | Chinese Medical Journal | Löydettiin korkea *Staphylococcus epidermidis* -kolonisaatio ja ihon estefunktion heikkeneminen kasvojen seborroosisessa dermatitissa, mikä tukee TCI-hoidon ihon estefunktion ja tulehdukseen liittyviä perusteita |
+| [12833030](https://pubmed.ncbi.nlm.nih.gov/12833030/) | 2003 | Avoin pilottitutkimus | J Am Acad Dermatol | Avoin pilottitutkimus: 0.1% takrolimus poisti seborroosisen dermatiitin kokonaan 61%:ssa 18 potilasta 28 päivän aikana |
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Tacrolimus currently has no marketing authorization on file in this dataset (market status: Not Marketed, 0 authorizations). No product/authorization details are available to tabulate.
+Takrolimuksella ei ole tällä hetkellä markkinointilupaa tässä aineistossa (markkinatilanne: Ei markkinoilla, 0 lupaa). Tuote-/lupattietoja ei ole saatavilla taulukoitavaksi.
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information. No structured safety warnings, contraindications, or drug interaction data are currently available for this candidate (TFDA/Fimea package insert data is flagged as a blocking data gap).
+Katso turvallisuustiedoista pakkausselosteesta. Tällä hetkellä ei ole saatavilla strukturoituja turvallisuusvaroituksia, vasta-aiheita tai lääkkeiden välisiä vuorovaikutuksia tälle kandidaatille (TFDA/Fimea pakkausselosteen tiedot on merkitty tietopuuttoksi).
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Proceed with Guardrails**
+**Päätös: Jatka varainnein**
 
-**Rationale:**
-Two completed trials (one Phase 3, one Phase 4) plus multiple RCTs and reviews directly support tacrolimus ointment for facial seborrheic dermatitis maintenance therapy, giving an L1 evidence level. However, the drug is not currently marketed in this jurisdiction and formal safety/label data is missing, so guardrails are warranted before advancing.
+**Perustelut:**
+Kaksi valmistunutta tutkimusta (yksi vaihe 3, yksi vaihe 4) sekä useita RCT-tutkimuksia ja katsauksia tukevat suoraan takrolimus-voiteiden käyttöä kasvojen seborroosisen dermatiitin ylläpitohoidossa, mikä antaa L1-näyttötason. Kuitenkin lääkettä ei ole tällä hetkellä markkinoilla tässä lainkäyttöalueella ja muodollista turvallisuus-/merkintätietoa puuttuu, joten varainnit ovat perusteltuja ennen etenemistä.
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert warnings and contraindications (currently a Blocking data gap, DG001)
-- Confirmed mechanism-of-action documentation from DrugBank (High-priority gap, DG002)
-- Confirmation of local marketing/regulatory pathway status before any repurposing submission
-- Drug-drug interaction (DDI) data, currently unavailable (query returned not_found)
+**Etenemiseen vaaditaan seuraavaa:**
+- TFDA/Fimea pakkausselosteen varoitukset ja vasta-aiheet (kriittinen tietopuutte, DG001)
+- Vahvistettu vaikutusmekanismin dokumentaatio DrugBankista (korkean prioriteetin tietopuutte, DG002)
+- Paikalisen markkinointi-/sääntelypolun tilan vahvistaminen ennen mitään uudelleenkäyttöhakemuksia
+- Lääkkeiden väliset vuorovaikutukset (DDI), ei tällä hetkellä saatavilla (kysely palautti `not_found`)
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

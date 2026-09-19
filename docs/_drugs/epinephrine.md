@@ -29,112 +29,113 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-# Epinephrine: From Anaphylaxis to Obstructive Lung Disease
+# Epinefriini: Anafilaksiasta obstruktiiviseen keuhkosairauteen
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Epinephrine (adrenaline) is classically used as an emergency treatment for anaphylaxis, cardiac arrest, and acute bronchospasm. The TxGNN model predicts it may also be broadly effective for **Obstructive Lung Disease**, a prediction already substantially supported by **50 clinical trials** and **20 publications** — several of which directly test inhaled or nebulized epinephrine in asthma and bronchiolitis. However, epinephrine currently holds **no marketing authorization in Finland**, and a Blocking-severity data gap in TFDA/Fimea package-insert warnings means the candidate cannot yet enter formal (S1) safety screening.
+Epinefriini (adrenaliini) on klassinen hätähoitolääke anafilaksialle, sydänpysähdykselle ja akuutille bronkospasmi/astmalle. TxGNN-malli ennustaa, että se voisi olla tehokas myös **obstruktiiviselle keuhkosairaudelle**, mikä on tukena jo **50 kliinisen tutkimuksen** ja **20 julkaisun** avulla — joista useissa testataan suoraan inhaloitavaa tai sumutettavaa epinefriiniä astmassa ja bronkiolitissa. Kuitenkin epinefriinillä ei ole tällä hetkellä **myyntilupaa Suomessa**, ja TFDA/Fimean pakkausselosteista puuttuva kriittinen tieto (Blocking-severity-luokan tietovaje) tarkoittaa, että kandidaatti ei voi vielä siirtyä muodolliseen (S1) turvallisuusseulontaan.
 
 ---
 
-## Quick Overview
+## Pika-yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Not on file in Finland regulatory data (0 licenses, unmarketed); epinephrine's well-established classic uses are anaphylaxis, cardiac arrest, and acute bronchospasm/asthma |
-| Predicted New Indication | Obstructive Lung Disease |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L1 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails (conditional on resolving safety data gap) |
+| Alkuperäinen käyttöaihe | Ei tiedossa Suomen sääntelytiedoissa (0 myyntilupaa, ei markkinoilla); epinefriinin vakiintuneet käyttöaiheet ovat anafilaksia, sydänpysähdys ja akuutti bronkospasmi/astma |
+| Ennustettu uusi käyttöaihe | Obstruktiivinen keuhkosairaus |
+| TxGNN-ennusteen pistemäärä | 99,71% |
+| Näyttöaste | L1 |
+| Suomen markkinatilanne | ✗ Ei markkinoilla |
+| Myyntilupien lukumäärä | 0 |
+| Suositeltu päätös | Jatka varautumistein (edellyttäen turvallisuustietovajeen ratkaisemista) |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Detailed mechanism-of-action data is not currently available from DrugBank for this candidate (flagged as data gap **DG002**, High severity). Based on well-established pharmacology, however, epinephrine is a **nonselective α/β-adrenergic receptor agonist**. Its β2-receptor activity produces bronchial smooth-muscle relaxation (bronchodilation), while its α1-receptor activity reduces airway mucosal vascular congestion and edema — both actions directly counteract the airflow limitation that defines obstructive lung disease.
+Yksityiskohtaiset vaikutusmekanismin tiedot eivät ole tällä hetkellä saatavilla DrugBankista tämän kandidaatin osalta (merkitty tietovajeeksi **DG002**, High severity). Hyvin vakiintuneen farmakologian perusteella epinefriini on kuitenkin **epäselektiivinen α/β-adrenerginen reseptoriagonisti**. Sen β2-reseptorin aktiviteetin kautta keuhkojen sileät lihakset rentoutuvat (bronkodilataatio), kun taas α1-reseptorin aktiviteetti vähentää ilmateiden limakalvon suonten tulehdusoireyhtymää ja turvotusta — molemmat toiminnot vastustavat suoraan obstruktiivisen keuhkosairauden määrittelemää ilmavirtauksen rajoittumista.
 
-Critically, this is not a purely theoretical extrapolation: epinephrine already has a documented history of use in acute bronchospasm and asthma. The historical over-the-counter inhaler Primatene Mist, its investigational HFA reformulation (E004), and nebulized "racemic epinephrine"/adrenaline are all epinephrine-based products that have been directly studied in asthma and infant bronchiolitis — both recognized subtypes of obstructive lung disease. This is reflected in the trial evidence below, where multiple studies test epinephrine formulations head-to-head against albuterol, hypertonic saline, and placebo in exactly this disease space.
+Kriittisesti, tämä ei ole puhtaasti teoreettinen ekstrapolaatio: epinefriinillä on jo dokumentoitu historia käytöstä akuutissa bronkospasmi ja astmassa. Historiallinen ilman reseptiä saatava inhalaattori Primatene Mist, sen tutkimusvaiheen HFA-uudelleenmuotoilu (E004), ja sumutettava "raseeminen epinefriini"/adrenaliini ovat kaikki epinefriinipohjaisia tuotteita, joita on tutkittu suoraan astmassa ja vauvojen bronkiolitissa — molemmat obstruktiivisen keuhkosairauden tunnustetut alatyypit. Tämä näkyy alla olevassa näyttötodistuksessa, jossa useat tutkimukset testasivat epinefriinin muotoiluja rinnakkain albuterolille, hypertoniselle suolaliuokselle ja plaseebolle juuri tässä sairauden tilassa.
 
-Because the mechanistic pathway is pharmacologically well characterized and the "new" indication substantially overlaps with epinephrine's existing off-label/legacy respiratory use, this candidate reaches a relatively mature decision stage (S3) with an L1 evidence level, despite the drug lacking a current Finland indication record.
+Koska farmakologinen mekanismi on hyvin karakterisoitu ja "uusi" käyttöaihe merkittävästi limittää epinefriinin olemassa olevan off-label/historian hengitystieindikaation kanssa, tämä kandidaatti saavuttaa suhteellisen kypsän päätösvaiheen (S3) L1-näyttöasteella huolimatta siitä, että lääkkeellä ei ole tällä hetkellä Suomen indikaatiotietuetta.
 
 ---
 
-## Clinical Trial Evidence
+## Kliiniset tutkimustodisteet
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset löydökset |
 |---------|------|------|------|---------|
-| [NCT01357642](https://clinicaltrials.gov/study/NCT01357642) | Phase 3 | Completed | 373 | 12-week efficacy/safety of Epinephrine HFA Inhalation Aerosol MDI vs. placebo-HFA and marketed Primatene® Mist (CFC epinephrine inhaler) in adolescents/adults with asthma. |
-| [NCT01300325](https://clinicaltrials.gov/study/NCT01300325) | Phase 4 | Completed | 136 | Nebulized 3% hypertonic saline vs. normal saline, both with epinephrine, in RSV-positive hospitalized infants with bronchiolitis. |
-| [NCT02586961](https://clinicaltrials.gov/study/NCT02586961) | Phase 2/3 | Terminated | 195 | Combined nebulized adrenaline + oral betamethasone tested as an alternative to reduce hospitalization for acute bronchiolitis in pediatric emergency departments. |
-| [NCT05363670](https://clinicaltrials.gov/study/NCT05363670) | Phase 2 | Completed | 18 | Cross-over safety/efficacy study of intranasal epinephrine (ARS-1) vs. albuterol as a needleless route for refractory asthma symptom management. |
-| [NCT04207840](https://clinicaltrials.gov/study/NCT04207840) | Phase 4 | Completed | 28 | Crossover PK comparison of inhaled Primatene Mist (epinephrine) vs. IM epinephrine injection vs. inhaled ProAir (albuterol) in healthy adults. |
-| [NCT03614273](https://clinicaltrials.gov/study/NCT03614273) | NA | Completed | 60 | RCT comparing nebulized 3% hypertonic saline vs. nebulized adrenaline for bronchiolitis, including response in initial non-responders. |
-| [NCT01255709](https://clinicaltrials.gov/study/NCT01255709) | Phase 2 | Completed | 24 | Deuterium-labeled PK study of epinephrine HFA-MDI (E004) inhalation aerosol distinguishing exogenous from endogenous epinephrine. |
-| [NCT00114478](https://clinicaltrials.gov/study/NCT00114478) | NA | Unknown | 600 | RCT comparing epinephrine and albuterol, the two most commonly used bronchodilators, in bronchiolitis. |
-| [NCT01737892](https://clinicaltrials.gov/study/NCT01737892) | Phase 1/2 | Terminated | 21 | Follow-up PK/safety study of epinephrine HFA-MDI (E004) using deuterium-labeled epinephrine in healthy volunteers. |
-| [NCT01216553](https://clinicaltrials.gov/study/NCT01216553) | Phase 4 | Unknown | 135 | Home oxygen therapy vs. standard nebulized therapy (0.1% epinephrine + bromhexine or hypertonic saline) in ambulatory infant bronchiolitis. |
+| [NCT01357642](https://clinicaltrials.gov/study/NCT01357642) | Vaihe 3 | Valmis | 373 | 12 viikon pituinen epinefriinin HFA-inhalatsio-aerosolipumpun MDI:n teho/turvallisuus vs. plaseeboa-HFA ja markkinoilla olevaa Primatene® Mist (CFC-epinefriininhalaaja) nuorissa/aikuisissa astmaatikoissa. |
+| [NCT01300325](https://clinicaltrials.gov/study/NCT01300325) | Vaihe 4 | Valmis | 136 | Sumutettava 3 % hypertonisuolaliuos vs. normaali suolaliuos, molemmat epinefriinin kanssa, RSV-positiivisissa sairaalahoitoon otettuissa vauvoissa bronkiolitissa. |
+| [NCT02586961](https://clinicaltrials.gov/study/NCT02586961) | Vaihe 2/3 | Lopetettu | 195 | Sumutettavan adrenaliinin + suullisen betametasonin yhdistelmä testattiin vaihtoehtona sairaalahoitoon joutumisen vähenemiseksi akuutin bronkioliitin yhteydessä lasten päivystyksessä. |
+| [NCT05363670](https://clinicaltrials.gov/study/NCT05363670) | Vaihe 2 | Valmis | 18 | Ristiinvaihto-turvallisuus/teho-tutkimus sisäänhengitettävästä epinefriinistä (ARS-1) vs. albuterol neulattomana reittinä vaikealaatuisen astman oireen hoitamiselle. |
+| [NCT04207840](https://clinicaltrials.gov/study/NCT04207840) | Vaihe 4 | Valmis | 28 | Ristiinvaihto-PK-vertailu sisäänhengitettävästä Primatene Mist (epinefriini) vs. IM-epinefriini-injektio vs. sisäänhengitettävä ProAir (albuterol) terveissä aikuisissa. |
+| [NCT03614273](https://clinicaltrials.gov/study/NCT03614273) | EI | Valmis | 60 | Satunnaistettu tutkimus, jossa verrataan sumutettavaa 3 % hypertonista suolaliuosta vs. sumutettavaa adrenaliinia bronkiolitissa, myös vastetta alkuperäisiin ei-vastaajaiin. |
+| [NCT01255709](https://clinicaltrials.gov/study/NCT01255709) | Vaihe 2 | Valmis | 24 | Deuteriumilla merkityn epinefriinin HFA-MDI (E004)-inhalatsio-aerosoliin PK-tutkimus, joka erottelee eksogeenisen ja endogeenisen epinefriinin. |
+| [NCT00114478](https://clinicaltrials.gov/study/NCT00114478) | EI | Tuntematon | 600 | Satunnaistettu tutkimus, jossa verrataan epinefriiniä ja albuterolia, kahta yleisimmin käytettävää bronkodilataattoria bronkiolitissa. |
+| [NCT01737892](https://clinicaltrials.gov/study/NCT01737892) | Vaihe 1/2 | Lopetettu | 21 | Epinefriinin HFA-MDI (E004) seurantatutkimus deuteriumilla merkityllä epinefriinillä terveissä vapaaehtoisissa. |
+| [NCT01216553](https://clinicaltrials.gov/study/NCT01216553) | Vaihe 4 | Tuntematon | 135 | Kotioksigeeni-hoito vs. standardisumutushoito (0,1% epinefriini + bromheksiin tai hypertonisuolaliuos) poliklinikalla hoidetuissa vauvoissa bronkiolitissa. |
 
 ---
 
-## Literature Evidence
+## Kirjallisuusviitteet
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
 |------|-----|------|------|---------|
-| [21678340](https://pubmed.ncbi.nlm.nih.gov/21678340/) | 2011 | Cochrane Review | The Cochrane Database of Systematic Reviews | "Epinephrine for bronchiolitis" — systematic review of bronchodilator use; effectiveness remains uncertain despite common practice. |
-| [14974006](https://pubmed.ncbi.nlm.nih.gov/14974006/) | 2004 | Cochrane Review | The Cochrane Database of Systematic Reviews | Earlier Cochrane review version; bronchodilators show modest short-term benefit in mild-to-moderate bronchiolitis. |
-| [30488718](https://pubmed.ncbi.nlm.nih.gov/30488718/) | 2019 | Review | Expert Review of Respiratory Medicine | Reviews the role of racemic epinephrine, corticosteroids, hypertonic saline, and high-flow oxygen in pediatric bronchiolitis therapy. |
-| [6777857](https://pubmed.ncbi.nlm.nih.gov/6777857/) | 1980 | Cohort | Scandinavian Journal of Clinical and Laboratory Investigation | Elevated plasma noradrenaline in chronic obstructive lung disease patients, correlated with hemodynamics and blood-gas abnormalities. |
-| [21486501](https://pubmed.ncbi.nlm.nih.gov/21486501/) | 2011 | Review | BMJ Clinical Evidence | Overview of bronchiolitis epidemiology and treatment as the most common infant lower respiratory tract infection. |
-| [19450362](https://pubmed.ncbi.nlm.nih.gov/19450362/) | 2007 | Review | BMJ Clinical Evidence | Earlier edition of the same bronchiolitis clinical-evidence review. |
-| [4606289](https://pubmed.ncbi.nlm.nih.gov/4606289/) | 1974 | Pending classification | Clinical Pharmacology and Therapeutics | "Bronchodilator effects of terbutaline and epinephrine in obstructive lung disease" — direct historical comparison of epinephrine's bronchodilator effect. |
-| [4551435](https://pubmed.ncbi.nlm.nih.gov/4551435/) | 1972 | Pending classification | Annals of Allergy | "Nebulized bronchodilators in obstructive lung disease II" — early evaluation of nebulized bronchodilator therapy including epinephrine. |
-| [6417212](https://pubmed.ncbi.nlm.nih.gov/6417212/) | 1983 | Review | Journal of Allergy and Clinical Immunology | Review of childhood asthma pathophysiology, characterizing asthma as an obstructive airway disease. |
-| [30856157](https://pubmed.ncbi.nlm.nih.gov/30856157/) | 2019 | Other | The Medical Letter on Drugs and Therapeutics | Coverage of the OTC return of Primatene Mist (epinephrine inhaler) for asthma symptom relief. |
+| [21678340](https://pubmed.ncbi.nlm.nih.gov/21678340/) | 2011 | Cochrane-katsaus | The Cochrane Database of Systematic Reviews | "Epinefriini bronkiolitissa" — systematiinen katsaus bronkodilataattoreiden käytöstä; tehokkuus epävarma huolimatta yleisestä käytöstä. |
+| [14974006](https://pubmed.ncbi.nlm.nih.gov/14974006/) | 2004 | Cochrane-katsaus | The Cochrane Database of Systematic Reviews | Aikaisempi Cochrane-katsauksen versio; bronkodilataattorit osoittavat vaatimattomia lyhyen aikavälin hyötyjä lievässä-keskivaikeassa bronkiolitissa. |
+| [30488718](https://pubmed.ncbi.nlm.nih.gov/30488718/) | 2019 | Katsaus | Expert Review of Respiratory Medicine | Tarkastelee raseemisen epinefriinin, kortikosteroidien, hypertonisen suolaliuoksen ja korkeavirtausoksiterapian roolia lasten bronkioliitin hoidossa. |
+| [6777857](https://pubmed.ncbi.nlm.nih.gov/6777857/) | 1980 | Kohortti | Scandinavian Journal of Clinical and Laboratory Investigation | Kohonnut plasman noradrenalin kroonisen obstruktiivisen keuhkosairauden potilaissa, korrelaation verinen hemodynamiikka ja verikaasupoimintahäiriöt. |
+| [21486501](https://pubmed.ncbi.nlm.nih.gov/21486501/) | 2011 | Katsaus | BMJ Clinical Evidence | Yleiskatsaus bronkioliitin epidemiologiaan ja hoitoon eniten leikkaavaksi vauvojen alemman hengitysteiden infektio. |
+| [19450362](https://pubmed.ncbi.nlm.nih.gov/19450362/) | 2007 | Katsaus | BMJ Clinical Evidence | Aiempi versio samasta bronkioliitin kliinisen näytön katsauksesta. |
+| [4606289](https://pubmed.ncbi.nlm.nih.gov/4606289/) | 1974 | Luokittelua odottaa | Clinical Pharmacology and Therapeutics | "Terbutaliiinin ja epinefriinin bronkodilataattori-vaikutukset obstruktiivisessa keuhkosairaudessa" — suora historiallinen vertailu epinefriinin bronkodilataattori-vaikutuksesta. |
+| [4551435](https://pubmed.ncbi.nlm.nih.gov/4551435/) | 1972 | Luokittelua odottaa | Annals of Allergy | "Sumutettavat bronkodilataattorit obstruktiivisessa keuhkosairaudessa II" — varhainen arviointi sumutettavasta bronkodilataattori-terapeuttisesta sisällöstä myös epinefriini. |
+| [6417212](https://pubmed.ncbi.nlm.nih.gov/6417212/) | 1983 | Katsaus | Journal of Allergy and Clinical Immunology | Katsaus lapsuuden astman patofysiologiaan, joissa astma karakterisoidaan obstruktiiviseksi ilmateiden sairaudeksi. |
+| [30856157](https://pubmed.ncbi.nlm.nih.gov/30856157/) | 2019 | Muu | The Medical Letter on Drugs and Therapeutics | Primatene Mist (epinefriinin halaaja) ilman reseptiä saatavaksi palautumisen kattavuus astman oireista helpotukseen. |
 
 ---
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Epinephrine currently holds **no marketing authorization on file in Finland** (0 licenses; market status: Not marketed / Not Marketed). No product name, dosage form, or approved-indication text is available from the regulatory data source for this candidate.
-
----
-
-## Safety Considerations
-
-No structured safety data (key warnings, contraindications, or drug-drug interactions) is currently available for this candidate — the DDI query returned `not_found` with zero interactions on record. Please refer to the package insert for safety information.
-
-**Note on safety data status:** This is flagged in the evidence pack as a **Blocking**-severity gap (DG001) — the absence of TFDA/Fimea package-insert warnings and contraindications means this candidate **cannot yet proceed to the S1 safety initial evaluation stage**, independent of how strong the efficacy/mechanistic evidence is for the predicted indication. Remediation requires downloading and parsing the official package insert PDF from the relevant regulatory source.
+Epinefriinillä ei ole tällä hetkellä myyntilupaa Suomessa (0 myyntilupaa; markkinatilanne: Ei markkinoilla / Not Marketed). Tuotteen nimeä, annosmuotoa tai hyväksyttyä käyttöaihetta ei ole saatavilla sääntelytiedoista tälle kandidaatille.
 
 ---
 
-## Other TxGNN-Predicted Indications (Not Prioritized)
+## Turvallisuusnäkökohdat
 
-The evidence pack scored three additional candidate indications for epinephrine, none of which are recommended to advance at this time:
+Strukturoitua turvallisuusdata (avainosaat, vasta-aiheet tai lääke-lääke-vuorovaikutukset) ei ole tällä hetkellä saatavilla tälle kandidaatille — DDI-kysely palautti `not_found` nolla vuorovaikutuksia tiedoissa. Katso pakkausselosteesta turvallisuustiedot.
 
-| Rank | Indication | Score | Evidence Level | Recommendation | Note |
+**Huomautus turvallisuustiedon tilasta:** Tämä on merkitty näyttötodistuksessa **Blocking**-severity-luokan vajeeksi (DG001) — TFDA/Fimean pakkausselosteista puuttuva varoitus ja vasta-aiheet tarkoittavat, että tämä kandidaatti **ei voi vielä siirtyä S1 turvallisuuden alkuarvioinnin vaiheeseen**, riippumatta siitä kuinka vahva ennustetun käyttöaiheen teho/mekanistinen näyttö on. Korjaaminen edellyttää virallisen pakkausselosteen PDF-dokumentin lataamista ja jäsennystä asiaankuuluvasta sääntelylähteestä.
+
+---
+
+## Muut TxGNN-ennustetut käyttöaiheet (ei priorisoitu)
+
+Näyttötodistus arvioi kolme lisäkandidaattikäyttöaihetta epinefriinille, joista mitään ei suositella edistettäväksi tällä hetkellä:
+
+| Sijoitus | Käyttöaihe | Pistemäärä | Näyttöaste | Suositus | Huomautus |
 |------|-----------|-------|----------------|-----------------|------|
-| 2 | Food-Dependent Exercise-Induced Anaphylaxis (FDEIA) | 99.57% | L3 | Proceed with Guardrails | Strong mechanistic rationale (epinephrine is standard anaphylaxis rescue therapy) but no clinical trials — 20 review/case-level publications only; represents an indication-label extension rather than new pharmacology. |
-| 3 | Rienhoff Syndrome | 99.57% | L5 | **Hold** | No clinical trials, no literature, no mechanistic link to adrenergic pharmacology (a rare LTBP3-related connective tissue disorder). Likely model noise/false positive from sparse rare-disease training data — not a meaningful signal. |
-| 4 | Respiratory Malformation | 99.56% | L4 | **Hold** | Evidence retrieved is mismatched to the disease label — trials and literature relate to functional respiratory emergencies (cardiac arrest resuscitation, croup/upper-airway obstruction) rather than structural airway malformation. Requires disease-label clarification before further evaluation. |
+| 2 | Ruoan aiheuttama rasituksesta johtuva anafilaksia (FDEIA) | 99,57% | L3 | Jatka varautumistein | Vahva mekanistinen perustelu (epinefriini on standardi anafilaksian pelastushoito), mutta ei kliinisiä tutkimuksia — 20 katsaus/tapaus-tason julkaisua vain; edustaa indikaatio-etiketin laajennusta pikemmin kuin uutta farmakologiaa. |
+| 3 | Rienhoffin oireyhtymä | 99,57% | L5 | **Pidä taukoa** | Ei kliinisiä tutkimuksia, ei kirjallisuutta, ei mekanistista yhteyttä adrenergisen farmakologian kanssa (harvinainen LTBP3-liittyvä sidekudoksen häiriö). Todennäköisesti mallin kohina/väärä positiivinen harva sairauden koulutusdata — ei mielekkää signaalia. |
+| 4 | Hengitysteiden väärämuodostuma | 99,56% | L4 | **Pidä taukoa** | Haetut todisteet ovat epäsuhteisia sairauden etiketin kanssa — tutkimukset ja kirjallisuus liittyvät toiminnallisiin hengitystiehätätilanteisiin (sydänpysähdyksen elvytys, kruupi/yläilmatie-obstruksio) pikemmin kuin rakenteelliseen ilmateiden väärämuodostumaan. Vaatii sairauden-etiketin selkeytystä ennen jatkokehitystä. |
 
 ---
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Proceed with Guardrails (Conditional on Safety Data)**
+**Päätös: Jatka varautumistein (ehdollinen turvallisuustiedon perusteella)**
 
-**Rationale:**
-The top-ranked prediction — epinephrine for obstructive lung disease — is supported by an L1 evidence level, including a completed Phase 3 RCT (NCT01357642, N=373) and a substantial, epinephrine-specific trial record spanning both asthma and bronchiolitis. This is less a novel prediction than a data-driven reconfirmation of epinephrine's existing legacy respiratory use. However, the candidate cannot move past initial safety screening until the Blocking-severity package-insert data gap (DG001) is resolved, and Finland market status (unmarketed, 0 licenses) still needs a defined regulatory pathway.
+**Perustelut:**
+Korkeimmalle sijoittunut ennuste — epinefriini obstruktiiviselle keuhkosairaudelle — on tuettu L1-näyttöasteella, joka sisältää valmistuneen vaihe 3:n satunnaistetun tutkimuksen (NCT01357642, N=373) ja merkittävän, epinefriini-spesifisen näyttörekisterin, joka kattaa sekä astman että bronkioliitin. Tämä on pikemmin tietojen perustuva vahvistus epinefriinin olemassa olevasta historian hengitystieindikaatiosta kuin uutuusennuste. Kuitenkin kandidaatti ei voi siirtyä alkuperäisen turvallisuusseulonnan jälkeen ennen kuin Blocking-severity-luokan pakkausselosteen tietovaje (DG001) ratkaistu, ja Suomen markkinatilanne (ei markkinoilla, 0 myyntilupaa) silti vaatii määriteltyä sääntelypolkua.
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert (warnings and contraindications) — Blocking gap (DG001), required before S1 safety evaluation
-- Confirmed DrugBank mechanism-of-action record — High-priority gap (DG002), to support mechanistic-link analysis
-- A defined Finland regulatory/registration pathway, given the drug is currently unmarketed with zero licenses
-- A completed drug-drug interaction (DDI) query, since the current query returned no results
-- Route-compatibility confirmation (available vs. required administration routes), currently marked "pending" in the evidence pack
-- Disease-label verification for "respiratory malformation" (rank 4), where retrieved evidence does not match the stated indication
+**Edetäkseen seuraavat ovat vaadittavat:**
+- TFDA/Fimean pakkausseloste (varoitukset ja vasta-aiheet) — Blocking-vahe (DG001), vaaditaan ennen S1-turvallisuuden arviointia
+- Vahvistettu DrugBank vaikutusmekanismi-tietue — Korkea-prioriteettinen vaje (DG002), tukeakseen mekanistisen linkin analyysia
+- Määritelty Suomen sääntelyllinen/rekistöinti-polku, koska lääke on tällä hetkellä ei markkinoilla nolla myyntiluvalla
+- Valmiiksi toteutettu lääke-lääke-vuorovaikutus (DDI) kysely, koska nykyinen kysely palautti nolla tuloksia
+- Reitti-yhteensopivuuden vahvistus (saatavilla vs. vaadittu hallintoreitti), tällä hetkellä merkitty "odottaa" näyttötodistuksessa
+- Sairauden-etiketin vahvistus "hengitysteiden väärämuodostumalle" (sijoitus 4), jossa haetut näyttötodisteet eivät vastaa ilmoitettua käyttöaihetta
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

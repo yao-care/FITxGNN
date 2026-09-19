@@ -29,85 +29,84 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-Using the drug-repurposing evaluation report template directly on the supplied Evidence Pack (rank-1 predicted indication = *visual epilepsy*, TxGNN score 99.98%).
+# Levetiracetam: Epilepsiasta visuaaliseen (valoherkkään) epilepsiaan
 
-# Levetiracetam: From Epilepsy to Visual (Photosensitive) Epilepsy
+## Yhden lauseen yhteenveto
 
-## One-Sentence Summary
+Levetiracetam on vakiintunut toiseen sukupolveen kuuluva antiepileptinen lääke (AED), jota käytetään eniten osittaisen alkuperän ja yleistyneiden kouristuksien hoitoon. TxGNN ennustaa sen voivan olla tehokas myös **visuaalisen epilepsian** (valoherkkyyteen liittyvä tai refleksiivinen kouristusmuoto) hoidossa, ja tätä suuntaa tukee tällä hetkellä **9 kliinistä tutkimusta** ja **20 julkaisua**, vaikka yksikään niistä ei suoraan kohdistu tähän spesifiin refleksiiviseen muotoon.
 
-Levetiracetam is an established second-generation antiepileptic drug (AED), most widely used for partial-onset and generalized seizures. TxGNN predicts it may also be effective for **Visual Epilepsy** (a photosensitive/reflex seizure subtype), a direction currently supported by **9 clinical trials** and **20 publications**, though none targets this specific reflex subtype directly.
+## Pikavertailu
 
-## Quick Overview
-
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Epilepsy — adjunctive/monotherapy for partial-onset seizures, and adjunctive treatment of myoclonic seizures in juvenile myoclonic epilepsy and primary generalized tonic-clonic seizures (per literature evidence; no Finland license text available) |
-| Predicted New Indication | Visual Epilepsy |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L4 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen indikaatio | Epilepsia — adjuvanttina/monoterapiana osittaisen alkuperän kouristuksiin sekä adjuvanttina nuorten myokloniksen epilepsian ja primaarin yleistyneen toniklonisen kouristuksen hoitoon (kirjallisuuden tietojen mukaan; Suomen pakkausselosteita ei ole saatavilla) |
+| Ennustettu uusi indikaatio | Visuaalinen epilepsia |
+| TxGNN-ennusteen pistemäärä | 99.98% |
+| Todistusten taso | L4 |
+| Suomen markkinatila | ✗ Ei markkinoilla |
+| Lupakäsittelyjen lukumäärä | 0 |
+| Suositeltu päätös | Pidätä |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, detailed mechanism of action data from DrugBank is not available for levetiracetam in this evidence pack. Based on known pharmacology (also reflected in this pack's own repurposing rationale fields), levetiracetam binds to synaptic vesicle protein 2A (SV2A), modulating neurotransmitter release and reducing pathological neuronal hypersynchronization — the mechanism underlying its broad-spectrum antiseizure effect.
+Tässä todistusten paketissa levetiracetaamin yksityiskohtaisia toimintamekanismin tietoja DrugBankista ei ole saatavilla. Tunnetun farmakologian perusteella (joka näkyy myös tämän paketin uudelleenkäyttöargumenteissa) levetiracetam sitoutuu synapsin vesikkeliproteiiniin 2A:han (SV2A), säätelee neurotransmitterien vapauttamista ja vähentää patologista hermosolujen ylisynkronisoitumista — mekanismia, joka on taustalla levetiracetaamin laaja-alaisen antiepileptisen vaikutuksen. 
 
-Visual epilepsy is a reflex/photosensitive subtype within the idiopathic generalized epilepsy (IGE) spectrum — the same disease family as levetiracetam's original indication. A network meta-analysis in this pack (PMID 37378757) confirms antiseizure medication efficacy across IGE broadly, and a related meta-analysis (PMID 40450767) supports levetiracetam specifically for myoclonic seizures in IGE, a closely related reflex-adjacent phenotype.
+Visuaalinen epilepsia on refleksiivinen/valoherkkyysperustaisesti laukaistava muoto idiopaattisen yleistyneen epilepsian (IGE) spektrillä — samaan tautiperheen kuuluu levetiracetaamin alkuperäinen indikaatio. Tässä paketissa oleva verkkometaanalyysi (PMID 37378757) vahvistaa antiepileptisten lääkkeiden tehokkuuden laajasti IGE:ssä, ja asiaan liittyvä metaanalyysi (PMID 40450767) tukee levetiracetamia erityisesti IGE:n myokloniksen kouristuksissa, joka on läheisesti refleksiepilepsian kanssa liittyvä muoto.
 
-Mechanistically, SV2A-mediated suppression of hypersynchronized cortical discharge is plausible for stimulus-triggered (visual) seizure activity, and this is indirectly supported by trials using visual stimulation paradigms — e.g., NCT04277936 and NCT04559529, which used visual scene-processing fMRI tasks to test whether levetiracetam reduces hippocampal hyperexcitability. However, no trial in this dataset directly enrolls or measures "visual epilepsy" as a defined endpoint, so this remains an extrapolation from broader IGE/reflex-epilepsy efficacy data rather than direct proof.
+Mekanistisesti SV2A:n välityksellä tapahtuva ylisynkronisoituneen aivokuoren sähköisen aktiivisuuden tukahduttaminen on biologisesti uskottava keino stimulus­laukaistun (visuaalisen) kouristusaktiviteetin hallitsemiseksi. Tätä tukee epäsuorasti tutkimukset, joissa käytetään visuaalisen stimulaation paradigmoja — esimerkiksi NCT04277936 ja NCT04559529, joissa käytettiin visuaalisen kohtausten käsittelyn fMRI-tehtäviä levetiracetaamin vaikutuksesta hippokampuksen yliaktiivisuuteen. Kuitenkaan yksikään tämän aineiston tutkimus ei suoraan rekrytoisi tai mittaisi "visuaalista epilepsiaa" määriteltyinä päätetapahtumina, joten kyse on pikemminkin laajemmista IGE- ja refleksiepilepsiatiedoista tehdystä ekstrapolaatiosta kuin suorasta todistuksesta.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimusaineiston todisteet
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset löydökset |
 |---------|------|------|------|---------|
-| [NCT03107507](https://clinicaltrials.gov/study/NCT03107507) | Phase 4 | Unknown | 40 | Levetiracetam evaluated as alternative to phenobarbital for neonatal seizures; not visual-epilepsy specific |
-| [NCT00203216](https://clinicaltrials.gov/study/NCT00203216) | N/A | Completed | 31 | Open-label trial of levetiracetam for migraine prophylaxis with/without visual aura |
-| [NCT04277936](https://clinicaltrials.gov/study/NCT04277936) | Phase 2 | Terminated | 1 | Tests whether levetiracetam reduces hippocampal hyperactivity via visual scene-processing fMRI task in psychosis |
-| [NCT07336992](https://clinicaltrials.gov/study/NCT07336992) | Phase 3 | Not Yet Recruiting | 580 | Prophylactic levetiracetam to prevent seizures after intracerebral haemorrhage; different patient population |
-| [NCT00855738](https://clinicaltrials.gov/study/NCT00855738) | Phase 4 | Completed | 111 | Observational study of levetiracetam and other AEDs as first bitherapy in focal epilepsy |
-| [NCT00105040](https://clinicaltrials.gov/study/NCT00105040) | Phase 2 | Completed | 87 | RCT of cognitive/neuropsychological effects of adjunctive levetiracetam in children with refractory partial seizures |
-| [NCT04559529](https://clinicaltrials.gov/study/NCT04559529) | Phase 2 | Completed | 62 | fMRI study of levetiracetam's effect on hippocampal hyperactivity via visual scene-processing task in psychotic disorders |
-| [NCT04573803](https://clinicaltrials.gov/study/NCT04573803) | Phase 3 | Not Yet Recruiting | 1649 | MAST trial: AED duration/choice (including levetiracetam) for seizure prevention after traumatic brain injury |
-| [NCT04833907](https://clinicaltrials.gov/study/NCT04833907) | Phase 1/2 | Enrolling by Invitation | 24 | Gene therapy trial for Canavan disease; levetiracetam not the primary intervention, tangential relevance only |
+| [NCT03107507](https://clinicaltrials.gov/study/NCT03107507) | Vaihe 4 | Tuntematon | 40 | Levetiracetamia tutkittiin vaihtoehtona fenobarbitaalille vastasyntyneiden kouristuksiin; ei visuaalisen epilepsian erityisesti |
+| [NCT00203216](https://clinicaltrials.gov/study/NCT00203216) | N/A | Päättynyt | 31 | Avoin tutkimus levetiracetamista migrenienpreventioon, silmien aurassa tai ilman |
+| [NCT04277936](https://clinicaltrials.gov/study/NCT04277936) | Vaihe 2 | Keskeytetty | 1 | Testaa, vähentääkö levetiracetam hippokampuksen yliaktiivisuutta visuaalisen kohtausten käsittelyn fMRI-tehtävällä psykoosissa |
+| [NCT07336992](https://clinicaltrials.gov/study/NCT07336992) | Vaihe 3 | Ei vielä rekrytoija | 580 | Profylaktinen levetiracetam kouristusten ehkäisemiseksi aivojen sisäisen verenvuodon jälkeen; eri potilaspopulaatio |
+| [NCT00855738](https://clinicaltrials.gov/study/NCT00855738) | Vaihe 4 | Päättynyt | 111 | Havainnoiva tutkimus levetiracetamista ja muista AED:stä ensimmäisenä kaksoislääkityksenä paikallisissa epilepsioissa |
+| [NCT00105040](https://clinicaltrials.gov/study/NCT00105040) | Vaihe 2 | Päättynyt | 87 | Satunnaistettu kontrolloitu tutkimus kognitiivisten ja neuropsykologisten vaikutusten levetiracetamista lasten lääkekestävissä osittaisissa kouristuksissa |
+| [NCT04559529](https://clinicaltrials.gov/study/NCT04559529) | Vaihe 2 | Päättynyt | 62 | fMRI-tutkimus levetiracetamin vaikutuksesta hippokampuksen yliaktiivisuuteen visuaalisen kohtausten käsittelyn tehtävällä psykoottisissa häiriöissä |
+| [NCT04573803](https://clinicaltrials.gov/study/NCT04573803) | Vaihe 3 | Ei vielä rekrytoija | 1649 | MAST-tutkimus: AED:n kesto/valinta (mukaan lukien levetiracetam) kouristusten ehkäisemiseksi traumaattisen aivovamman jälkeen |
+| [NCT04833907](https://clinicaltrials.gov/study/NCT04833907) | Vaihe 1/2 | Kutsujen perusteella rekrytoiva | 24 | Geeniterapiatutkimus Canavain taudista; levetiracetam ei ole päätutkimusaine, vain sivuva merkitys |
 
-## Literature Evidence
+## Kirjallisuusaineiston todisteet
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Julkaisu | Keskeiset löydökset |
 |------|-----|------|------|---------|
-| [21936590](https://pubmed.ncbi.nlm.nih.gov/21936590/) | 2011 | Review | CNS Drugs | Spotlight review confirming levetiracetam's approved indications: partial-onset seizures, and adjunctive therapy for myoclonic/GTC seizures in JME |
-| [37378757](https://pubmed.ncbi.nlm.nih.gov/37378757/) | 2023 | Network Meta-analysis | J Neurol | Compares ASM efficacy/safety across idiopathic generalized epilepsies — the disease family containing visual/photosensitive epilepsy |
-| [40450767](https://pubmed.ncbi.nlm.nih.gov/40450767/) | 2025 | Systematic Review | Epilepsy Behav | Levetiracetam efficacy for myoclonic seizures in IGE, a reflex-adjacent phenotype relevant to visual epilepsy |
-| [34260837](https://pubmed.ncbi.nlm.nih.gov/34260837/) | 2021 | Review | NEJM | General review on initial management of seizure in adults |
-| [35963261](https://pubmed.ncbi.nlm.nih.gov/35963261/) | 2022 | RCT | Lancet Neurol | PEACH trial: prophylactic levetiracetam vs placebo for seizure prevention after intracerebral haemorrhage |
-| [32385134](https://pubmed.ncbi.nlm.nih.gov/32385134/) | 2020 | RCT | Pediatrics | Levetiracetam vs phenobarbital for neonatal seizures |
-| [38316735](https://pubmed.ncbi.nlm.nih.gov/38316735/) | 2024 | Guideline | Neurocrit Care | Clinical practice guideline on seizure prophylaxis (incl. levetiracetam) after moderate-severe TBI |
-| [34286461](https://pubmed.ncbi.nlm.nih.gov/34286461/) | 2022 | Systematic Review/Meta-analysis | Neurocrit Care | Levetiracetam for seizure prophylaxis in neurocritical care (ICH, TBI, SAH, post-neurosurgery) |
-| [35976303](https://pubmed.ncbi.nlm.nih.gov/35976303/) | 2022 | Review | Arq Neuropsiquiatr | Review of status epilepticus diagnosis, monitoring and treatment |
-| [39786974](https://pubmed.ncbi.nlm.nih.gov/39786974/) | 2025 | — | Future Oncol | Levetiracetam and valproic acid as first-line antiseizure medications in glioma-related epilepsy |
+| [21936590](https://pubmed.ncbi.nlm.nih.gov/21936590/) | 2011 | Katsaus | CNS Drugs | Erityiskatsaus levetiracetaamin hyväksytyista indikaatioista: osittaisen alkuperän kouristukset sekä adjuvantti hoito myokloniksen ja GTC-kouristuksissa JME:ssa |
+| [37378757](https://pubmed.ncbi.nlm.nih.gov/37378757/) | 2023 | Verkkometaanalyysi | J Neurol | Vertaa ASM:n tehokkuutta ja turvallisuutta idiopaattisissa yleistyneissä epilepsioissa — tautiperheen, joka sisältää visuaalisen ja valoherkkyyteen liittyvän epilepsian |
+| [40450767](https://pubmed.ncbi.nlm.nih.gov/40450767/) | 2025 | Järjestelmällinen katsaus | Epilepsy Behav | Levetiracetamin tehokkuus myokloniksen kouristuksissa IGE:ssä, refleksiin liittyvä muoto visuaalisen epilepsian kannalta |
+| [34260837](https://pubmed.ncbi.nlm.nih.gov/34260837/) | 2021 | Katsaus | NEJM | Yleinen katsaus kouristuksen alkuhoidosta aikuisilla |
+| [35963261](https://pubmed.ncbi.nlm.nih.gov/35963261/) | 2022 | Satunnaistettu kontrolloitu tutkimus | Lancet Neurol | PEACH-tutkimus: profylaktinen levetiracetam vs. lumelääke kouristusten ehkäisemiseksi aivojen sisäisen verenvuodon jälkeen |
+| [32385134](https://pubmed.ncbi.nlm.nih.gov/32385134/) | 2020 | Satunnaistettu kontrolloitu tutkimus | Pediatrics | Levetiracetam vs. fenobarbitaali vastasyntyneiden kouristuksissa |
+| [38316735](https://pubmed.ncbi.nlm.nih.gov/38316735/) | 2024 | Ohjeistus | Neurocrit Care | Kliinisen käytännön ohjeistus kouristusten profylaksiasta (mukaan lukien levetiracetam) kohtuullisen tai vakavan aivovamman jälkeen |
+| [34286461](https://pubmed.ncbi.nlm.nih.gov/34286461/) | 2022 | Järjestelmällinen katsaus/metaanalyysi | Neurocrit Care | Levetiracetam kouristusten profylaksiassa neurokriittisen hoidon yhteydessä (ICH, TBI, SAH, postneurokirurgia) |
+| [35976303](https://pubmed.ncbi.nlm.nih.gov/35976303/) | 2022 | Katsaus | Arq Neuropsiquiatr | Katsaus statusepileptikuksen diagnostiikkaan, seurantaan ja hoitoon |
+| [39786974](https://pubmed.ncbi.nlm.nih.gov/39786974/) | 2025 | — | Future Oncol | Levetiracetam ja valpraata ensimmäisen linjan antiepileptisina lääkkeinä gliooma-liittyvässä epilepsiassa |
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Levetiracetam is currently **not marketed in Finland** in this dataset (0 authorizations on record; Fimea query returned no results). No product-level licensing data is available.
+Levetiracetam ei ole tällä hetkellä markkinoilla Suomessa tässä aineistossa (0 hyväksymistä saatavilla; Fimean hakutulosten perusteella). Tuotekohtaisia hyväksynnän yksityiskohtia ei ole saatavilla.
 
-## Safety Considerations
+## Turvallisuushuomiot
 
-Please refer to the package insert for safety information. (No structured safety data — key warnings, contraindications, or DDI records — is currently available for levetiracetam in this evidence pack.)
+Katso turvallisuustiedot pakkausselosteesta. (Levetiracetaamin järjestelmällisiä turvallisuustietoja — keskeisiä varoituksia, vasta-aiheita tai lääkeyhteisvaikutuksia — ei ole saatavilla tässä todistusten paketissa.)
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidätä**
 
-**Rationale:**
-Visual epilepsy is mechanistically plausible as an extension of levetiracetam's established IGE/reflex-epilepsy activity, but no trial or publication in this dataset directly targets this reflex subtype — evidence is indirect (L4, mechanism/adjacent-phenotype only). Critically, a **Blocking**-severity data gap (missing TFDA/Fimea package insert) currently prevents even an initial safety (S1) assessment, independent of the efficacy evidence level.
+**Perustelut:**
+Visuaalinen epilepsia on biologisesti uskottava levetiracetaamin vakiintuneen IGE/refleksiepilepsian aktiivisuuden jatke, mutta yksikään tämän aineiston tutkimus tai julkaisu ei suoraan kohdistu tähän refleksiiviseen muotoon — todisteet ovat epäsuoria (L4, vain mekanismi/viereinen muoto). Ratkaisevana tekijänä **Estävä**-tasoisesti vakava tietoaukko (puuttuvat TFDA/Fimean pakkausseloste-tiedot) estää tällä hetkellä jopa alkuperäisen turvallisuusarvioinnin (S1) suorittamisen tehokkuustodistusten tasosta riippumatta.
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert data (warnings, contraindications) — blocking gap, required before any S1 safety review
-- DrugBank-sourced mechanism of action confirmation (SV2A binding, pharmacokinetics)
-- A dedicated study or registry cohort specifically enrolling patients with visual/photosensitive-triggered seizures
-- Finland-specific licensing/market authorization data, since the drug is currently unmarketed there
+**Jatkamista varten tarvitaan seuraavat:**
+- TFDA/Fimean pakkausseloste-tiedot (varoitukset, vasta-aiheet) — estävä aukko, pakollinen ennen mitään S1-turvallisuusarviointia
+- DrugBankista peräisin olevat toimintamekanismin vahvistukset (SV2A-sitoutuminen, farmakokinetiikka)
+- Erityinen tutkimus tai rekisterikohortti, joka erityisesti rekrytoisi potilaita visuaalisten tai valoherkkyysperustaisesti laukaistuneiden kouristusten kanssa
+- Suomalaisen markkinoinnin luvan tiedot, koska lääkettä ei ole tällä hetkellä markkinoilla siellä
 
-*Note: within this evidence pack, a lower-ranked candidate — status epilepticus (rank 9, L1 evidence, "Proceed with Guardrails") — has substantially stronger direct trial support (e.g., ESETT, PEACH) and may warrant separate, higher-priority evaluation.*
+*Huomio: Tässä todistusten paketissa alemman rankin ehdokas — statusepileptikus (sija 9, L1-todisteet, "Edenee varauksellisesti") — on huomattavasti vahvemmalla suoralla tutkimusten tuella (esim. ESETT, PEACH) ja voi vaatia erillisen, korkeamman prioriteetin arvioinnin.*
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

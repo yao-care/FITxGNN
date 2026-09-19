@@ -29,171 +29,172 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Ambrisentan: From Pulmonary Arterial Hypertension (Idiopathic/Heritable) to Additional PAH Subtypes
+# Ambrisentaani: Keuhkojen arteriaalisen hypertension (idiopaattinen/periytyvä) uusista PAH-alatyypeistä
 
-## One-Sentence Summary
+## Yhden lauseen tiivistelmä
 
-Ambrisentan is a selective endothelin type A (ETA) receptor antagonist already used for pulmonary arterial hypertension (idiopathic/heritable forms); this is not stated in the structured drug fields of this Evidence Pack but is recoverable from the literature retrieved within it (e.g., PMID 28425346, 24787237). TxGNN produced **10 candidate new-indication predictions** for ambrisentan; of these, two — **PAH associated with congenital heart disease** and **PAH associated with connective tissue disease** — are backed by **9–19 trials/publications each** and reach the highest evidence tier (L1), while the model's top-scored prediction (pulmonary arteriovenous malformation) and six others have little to no supporting evidence. This report evaluates the full portfolio and recommends action only on the well-supported subtypes.
+Ambrisentaani on valikoiva endoteleiinityypin A (ETA) -reseptorin antagonisti, jota käytetään jo keuhkojen arteriaalisen hypertension (idiopaattinen/periytyvä) hoitoon; tätä ei ole mainittu tämän näyttöpaketin rakenteistetuissa lääkekenttissä, mutta se on löydettävissä paketin sisältämistä kirjallisuusviitteistä (esim. PMID 28425346, 24787237). TxGNN tuotti **10 ehdokaskysymystä uusille indikaatioille** ambrisentaanille; näistä kaksi — **keuhkojen arteriaalinen hypertensio synnynnäisen sydänvian yhteydessä** ja **keuhkojen arteriaalinen hypertensio sidekudossairauksien yhteydessä** — on tuettu **9–19 tutkimuksella/julkaisulla kumpikin** ja saavuttavat korkeimman näyttötason (L1), kun taas mallin korkeimmin pisteytetty ennustus (keuhkojen valtimolaskimoisen vääränmuodostuman) ja kuusi muuta ennustusta ovat vähäisesti tai ei lainkaan tuettuja. Tämä raportti arvioi koko salkun ja suosittelee toimenpiteitä vain hyvin tuetuissa alatyypeissä.
 
-> **Note on scope:** This Evidence Pack (`TW-DB06403-multi`) covers 10 ranked predictions rather than a single indication. Rather than mechanically reporting only the #1-ranked TxGNN hit (which the evidence itself flags as mechanistically weak), this report leads with the two indications that have real clinical evidence, and summarizes the rest for transparency.
-
----
-
-## Quick Overview
-
-*(Primary candidate shown below is rank #2, PAH associated with congenital heart disease — the highest-scored prediction that also carries substantial clinical evidence. Rank #1, pulmonary arteriovenous malformation, is addressed in the "Other Predicted Indications" section because it has only one indirect case report and is explicitly noted in the source data as mechanistically questionable.)*
-
-| Item | Content |
-|------|------|
-| Original Indication | Pulmonary arterial hypertension (idiopathic/heritable) — inferred from literature within this pack; not present in the structured `original_indications`/`licenses` fields |
-| Predicted New Indication | Pulmonary arterial hypertension associated with congenital heart disease (incl. Eisenmenger syndrome) |
-| TxGNN Prediction Score | 99.37% |
-| Evidence Level | L1 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+> **Huomautus laajuudesta:** Tämä näyttöpaketti (`TW-DB06403-multi`) kattaa 10 sijoitettua ennustusta yhden indikaation sijaan. Sen sijaan että raportoitaisiin mekaanisesti vain TxGNN:n korkeimmin sijoitettu osuma (jonka näyttö itse merkitsee mekaanisesti heikoksi), tämä raportti aloittaa kahdella indikaatiolla, joilla on todellista kliinistä näyttöä, ja tiivistää loput avoimuuden vuoksi.
 
 ---
 
-## Predicted Indications Portfolio (All 10 Ranked Candidates)
+## Nopea yleiskatsaus
 
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Recommendation |
-|------|----------------------|-------------|-----------------|-----------------|
-| 1 | Pulmonary arteriovenous malformation | 99.41% | L4 | Hold |
-| 2 | PAH associated with congenital heart disease | 99.37% | L1 | Proceed with Guardrails |
-| 3 | PAH associated with schistosomiasis | 99.30% | L5 | Hold |
-| 4 | PAH associated with HIV infection | 99.30% | L2 | Research Question |
-| 5 | PAH associated with chronic hemolytic anemia | 99.30% | L5 | Hold |
-| 6 | PAH associated with connective tissue disease | 99.30% | L1 | Proceed with Guardrails |
-| 7 | Malformation syndrome with odontal/periodontal component | 99.19% | L5 | Hold |
-| 8 | Hypotrichosis simplex of the scalp | 99.15% | L5 | Hold |
-| 9 | Hypertrichosis | 99.14% | L5 | Hold |
-| 10 | Syndrome with Dandy-Walker malformation | 99.12% | L5 | Hold |
+*(Alla on esitetty ensisijainen ehdokas, joka on sijoitus #2, keuhkojen arteriaalinen hypertensio synnynnäisen sydänvian yhteydessä — korkeimmin pisteytetty ennustus, jolla on myös merkittävää kliinistä näyttöä. Sijoitus #1, keuhkojen valtimolaskimoinen vääränmuodostuma, on käsitelty "Muut ennustetut indikaatiot" -osiossa, koska sitä tukee vain yksi epäsuora tapausraportti ja lähdeaineisto merkitsee sitä nimenomaisesti mekaanisesti kyseenalaiseksi.)*
 
----
-
-## Why is This Prediction Reasonable?
-
-Currently, the structured mechanism-of-action field for ambrisentan is not populated in this Evidence Pack. However, literature retrieved within the pack itself (PMID 28425346, 24787237) identifies ambrisentan as **a selective ETA receptor antagonist approved for idiopathic, heritable, and connective-tissue-disease-associated PAH**, working by blocking endothelin-1-mediated vasoconstriction and vascular remodeling in the pulmonary arterial bed.
-
-**PAH associated with congenital heart disease (CHD-PAH, including Eisenmenger syndrome)** is a well-recognized subtype within the WHO Group 1 PAH classification. Its pathophysiology likewise involves endothelin-1 pathway dysregulation from chronically elevated pulmonary flow and shear stress, making it a direct mechanistic extension of ambrisentan's established pharmacology rather than a novel target. Nine trials and 18 publications support this direction, though the hemodynamic particularities of shunt-related disease — right-to-left shunting, Eisenmenger physiology — mean patients need individualized evaluation before treatment (the guardrail behind the "Proceed with Guardrails" call).
-
-**PAH associated with connective tissue disease (CTD-PAH)**, most often driven by systemic sclerosis, is likewise a WHO Group 1 subtype whose vascular remodeling and endothelin-1 activation mirror idiopathic PAH. This is the strongest-supported prediction in the pack: it is backed by a Tier-1 meta-analysis (PMID 23906950), an AMBITION-trial subgroup RCT analysis (PMID 28039187), and three dedicated trials including the Phase 4 combination study (NCT01042158) and the EDITA early-intervention RCT (NCT02290613).
-
-By contrast, the model's **highest-scored** prediction — pulmonary arteriovenous malformation (PAVM) — is a *structural* vascular malformation (direct arteriovenous shunting), not the *functional* vasoconstriction/remodeling process ambrisentan's ETA-antagonism targets. The only supporting literature is a single case report describing PAH in a patient with hereditary hemorrhagic telangiectasia (an indirect association), which is why this report leads with the two mechanistically and clinically better-supported subtypes instead.
+| Kohta | Sisältö |
+|------|--------|
+| Alkuperäinen indikaatio | Keuhkojen arteriaalinen hypertensio (idiopaattinen/periytyvä) — johdettu tämän paketin sisältävästä kirjallisuudesta; ei ole present rakenteistettujen `original_indications`/`licenses` -kenttien osassa |
+| Ennustettu uusi indikaatio | Keuhkojen arteriaalinen hypertensio synnynnäisen sydänvian yhteydessä (sisältäen Eisenmengerin oireyhtymän) |
+| TxGNN ennusteen pistemäärä | 99.37% |
+| Näyttötaso | L1 |
+| Suomen markkinatilanne | ✗ Ei markkinoilla |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Jatka varjeluin |
 
 ---
 
-## Clinical Trial Evidence
+## Ennustettujen indikaatioiden salkku (kaikki 10 sijoitettua ehdokasta)
 
-### Primary candidate: PAH associated with congenital heart disease
+| Sijoitus | Ennustettu indikaatio | TxGNN pistemäärä | Näyttötaso | Suositus |
+|------|------|------|------|------|
+| 1 | Keuhkojen valtimolaskimoinen vääränmuodostuma | 99.41% | L4 | Pidätä |
+| 2 | PAH synnynnäisen sydänvian yhteydessä | 99.37% | L1 | Jatka varjeluin |
+| 3 | PAH skhistosomiaasiin liittyen | 99.30% | L5 | Pidätä |
+| 4 | PAH HIV-infektioon liittyen | 99.30% | L2 | Tutkimuskysymys |
+| 5 | PAH krooniseen hemolyyettiseen anemiaan liittyen | 99.30% | L5 | Pidätä |
+| 6 | PAH sidekudossairauksiin liittyen | 99.30% | L1 | Jatka varjeluin |
+| 7 | Vääränmuodostumaoireyhtymä hampaiden/ienterveyden komponenteilla | 99.19% | L5 | Pidätä |
+| 8 | Yksinkertainen alipilaisuus pään iholla | 99.15% | L5 | Pidätä |
+| 9 | Liiallinen karvaisuus | 99.14% | L5 | Pidätä |
+| 10 | Oireyhtymä Dandy-Walkerin vääränmuodostuman kanssa | 99.12% | L5 | Pidätä |
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+---
+
+## Miksi tämä ennustus on järkevä?
+
+Tällä hetkellä ambrisentaanin strukturoitu vaikutusmekanismi-kenttä ei ole täytetty tässä näyttöpaketissa. Kuitenkin paketin sisältämä kirjallisuus (PMID 28425346, 24787237) tunnistaa ambrisentaanin **valikoivaksi ETA-reseptorin antagonistiksi, joka on hyväksytty idiopaattiseen, periytyvään ja sidekudossairauksiin liittyvään PAH:iin**, ja joka toimii estämällä endoteleiiniksi-1-välitteistä vasokonstriktsiota ja vaskularista uudelleenmuodostumista keuhkojen arteriaalisessa kentässä.
+
+**Keuhkojen arteriaalinen hypertensio synnynnäisen sydänvian yhteydessä (CHD-PAH, sisältäen Eisenmengerin oireyhtymän)** on hyvin tunnustettu alatyyppi WHO Group 1 PAH -luokituksessa. Sen patofysiologia sisältää myös endoteleiiniksi-1 -polun säätelyn häiriintymisen kroonisesti kohonneesta keuhkojen virtauksesta ja leikkausstressista, mikä tekee siitä suoran mekaanisen jatkon ambrisentaanin vakiintuneelle farmakologialle pikemminkin kuin uuden kohteen. Yhdeksän tutkimusta ja 18 julkaisua tukevat tätä suuntaa, vaikka leikkausvirtaukseen liittyvän sairauden hemodynaamiset erityispiirteet — oikealta vasemmalle suuntautuva oikosulku, Eisenmengerin fysiologia — tarkoittavat, että potilaat tarvitsevat yksilöllisen arvioinnin ennen hoitoa (varjelu, joka on "Jatka varjeluin" -suosituksen takana).
+
+**Keuhkojen arteriaalinen hypertensio sidekudossairauksiin liittyen (CTD-PAH)**, useimmin järjestelmällisen skleroosista aiheutuva, on myös WHO Group 1 -alatyyppi, jonka vaskularinen uudelleenmuodostuminen ja endoteleiiniksi-1 -aktivaatio heijastelevat idiopaattista PAH:ta. Tämä on paketissa vahvimmin tuettu ennustus: sitä tukee Tier-1 meta-analyysi (PMID 23906950), AMBITION-tutkimuksen alajoukko-RCT-analyysi (PMID 28039187) ja kolme erillistä tutkimusta sisältäen Phase 4 yhdistelmätutkimus (NCT01042158) ja EDITA-tutkimus varhaiselle väliintuloon (NCT02290613).
+
+Sen sijaan, mallin **korkeimmin pisteytetty** ennustus — keuhkojen valtimolaskimoinen vääränmuodostuma (PAVM) — on *rakenteellinen* vaskularinen vääränmuodostuma (suora arteriaalilaskimoinen oikosulku), ei *toiminnallinen* vasokonstriktio/uudelleenmuodostumisprosessi, johon ambrisentaanin ETA-antagonismi kohdistuu. Ainoa tukeva kirjallisuus on yksittäinen tapausraportti, joka kuvailee PAH:taa potilaalla, jolla on periytyvä verenvuototauti (epäsuora yhdistelmä), mikä on syy, miksi tämä raportti aloittaa kahdella mekaanisesti ja kliinisesti paremmin tuetuilla alatyypeillä sen sijaan.
+
+---
+
+## Kliiniset tutkimusnäyttöä
+
+### Ensisijainen ehdokas: PAH synnynnäisen sydänvian yhteydessä
+
+| Tutkimuksen numero | Vaihe | Tila | Osallistujamäärä | Keskeiset löydökset |
 |---------|------|------|------|---------|
-| [NCT01884675](https://clinicaltrials.gov/study/NCT01884675) | Phase 3 | Terminated | 33 | Randomized, double-blind, placebo-controlled trial of ambrisentan 5 mg in inoperable CTEPH; terminated early (Grade A evidence) |
-| [NCT01808313](https://clinicaltrials.gov/study/NCT01808313) | Phase 3 | Completed | 134 | Open-label study of ambrisentan on exercise capacity (6MWT) in Chinese PAH patients; completed (Grade A) |
-| [NCT01342952](https://clinicaltrials.gov/study/NCT01342952) | Phase 2 | Completed | 38 | Long-term open-label extension for pediatric PAH patients continuing ambrisentan treatment (Grade A) |
-| [NCT01894022](https://clinicaltrials.gov/study/NCT01894022) | Phase 3 | Terminated | 19 | Long-term extension study of ambrisentan safety/efficacy in inoperable CTEPH (Grade A) |
-| [NCT01332331](https://clinicaltrials.gov/study/NCT01332331) | Phase 2 | Terminated | 41 | Randomized comparison of high vs. low weight-adjusted ambrisentan dose in pediatric PAH (Grade B) |
-| [NCT04095286](https://clinicaltrials.gov/study/NCT04095286) | Phase 1 | Completed | 29 | PK bioavailability study of a low-dose pediatric ambrisentan formulation vs. marketed tablet (Grade B) |
-| [NCT00593905](https://clinicaltrials.gov/study/NCT00593905) | N/A | Withdrawn | 0 | Pharmacogenomics study of endothelin receptor antagonist response; withdrawn, no data (Grade C) |
-| [NCT02688387](https://clinicaltrials.gov/study/NCT02688387) | Phase 1 | Completed | 112 | Relative bioavailability of ambrisentan/tadalafil fixed-dose combinations; PK only (Grade C) |
-| [NCT01383083](https://clinicaltrials.gov/study/NCT01383083) | N/A | Unknown | 42 | Iloprost (not ambrisentan) in Eisenmenger-related PAH; low relevance (Grade C) |
+| [NCT01884675](https://clinicaltrials.gov/study/NCT01884675) | Vaihe 3 | Lopetettu | 33 | Satunnaistettu, kaksoissokkoutettu, lumelääkekontrolloitu ambrisentaani 5 mg:n tutkimus korjaamattomassa CTEPH:ssa; lopetettu varhain (Grade A näyttö) |
+| [NCT01808313](https://clinicaltrials.gov/study/NCT01808313) | Vaihe 3 | Valmis | 134 | Avoin ambrisentaanin tutkimus harjoituskyvyn (6MWT) osalta Kiinan PAH-potilaille; valmis (Grade A) |
+| [NCT01342952](https://clinicaltrials.gov/study/NCT01342952) | Vaihe 2 | Valmis | 38 | Pitkäaikainen avoin jatko-opiskelu lapsille, joilla PAH jatketaan ambrisentaanilla (Grade A) |
+| [NCT01894022](https://clinicaltrials.gov/study/NCT01894022) | Vaihe 3 | Lopetettu | 19 | Pitkäaikainen jatko-opiskelu ambrisentaanin turvallisuudesta/tehokkuudesta korjaamattomassa CTEPH:ssa (Grade A) |
+| [NCT01332331](https://clinicaltrials.gov/study/NCT01332331) | Vaihe 2 | Lopetettu | 41 | Satunnaistettu vertailu korkean vs. matalan painolla säädetyn ambrisentaanin annoksen välillä lapsille PAH (Grade B) |
+| [NCT04095286](https://clinicaltrials.gov/study/NCT04095286) | Vaihe 1 | Valmis | 29 | PK biovaatavuustutkimus matalan annoksen lasten ambrisentaaniformulaatiosta vs. markkinoitu tabletti (Grade B) |
+| [NCT00593905](https://clinicaltrials.gov/study/NCT00593905) | N/A | Peruutettu | 0 | Farmakogenomiikan tutkimus endoteliinireseptorin antagonistin vasteesta; peruutettu, ei tietoja (Grade C) |
+| [NCT02688387](https://clinicaltrials.gov/study/NCT02688387) | Vaihe 1 | Valmis | 112 | Ambrisentaani/tadalafiilin kiinteäannos-yhdistelmien suhteellinen biovaatavuus; vain PK (Grade C) |
+| [NCT01383083](https://clinicaltrials.gov/study/NCT01383083) | N/A | Tuntematon | 42 | Iloprosti (ei ambrisentaani) Eisenmengerin-liittyvässä PAH:ssa; alhainen relevanssi (Grade C) |
 
-### Secondary candidate: PAH associated with connective tissue disease
+### Toissijainen ehdokas: PAH sidekudossairauksiin liittyen
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimuksen numero | Vaihe | Tila | Osallistujamäärä | Keskeiset löydökset |
 |---------|------|------|------|---------|
-| [NCT01042158](https://clinicaltrials.gov/study/NCT01042158) | Phase 4 | Completed | 25 | Ambrisentan + tadalafil combination therapy in scleroderma-spectrum PAH (SSc-PAH), assessing 6MWD, NYHA class, hemodynamics (Grade A) |
-| [NCT02290613](https://clinicaltrials.gov/study/NCT02290613) | Phase 2 | Completed | 38 | EDITA proof-of-concept RCT: early ambrisentan treatment for borderline PAH in systemic sclerosis (Grade A) |
-| [NCT02885012](https://clinicaltrials.gov/study/NCT02885012) | Phase 4 | Terminated | 3 | Switch study from bosentan/macitentan to ambrisentan in CTD-PAH; terminated for under-enrollment (Grade B) |
+| [NCT01042158](https://clinicaltrials.gov/study/NCT01042158) | Vaihe 4 | Valmis | 25 | Ambrisentaani + tadalafiilin yhdistelmähoito skleroderma-spektrin PAH:ssa (SSc-PAH), arvioiden 6MWD, NYHA-luokkaa, hemodynamiikkaa (Grade A) |
+| [NCT02290613](https://clinicaltrials.gov/study/NCT02290613) | Vaihe 2 | Valmis | 38 | EDITA proof-of-concept RCT: varhainen ambrisentaanihoito rajatapauksen PAH:lle järjestelmällisessä skleroosissä (Grade A) |
+| [NCT02885012](https://clinicaltrials.gov/study/NCT02885012) | Vaihe 4 | Lopetettu | 3 | Vaihtamistutkimus bosentaani/macitentaanista ambrisentaaniin CTD-PAH:ssa; lopetettu riittämättömän rekrytoinnin vuoksi (Grade B) |
 
-### PAH associated with HIV infection *(Research Question — lower priority)*
+### PAH HIV-infektioon liittyen *(tutkimuskysymys — pienempi prioriteetti)*
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimuksen numero | Vaihe | Tila | Osallistujamäärä | Keskeiset löydökset |
 |---------|------|------|------|---------|
-| [NCT00709956](https://clinicaltrials.gov/study/NCT00709956) | Phase 3 | Completed | 64 | Double-blind crossover study of inhaled iloprost in idiopathic/familial/HIV/drug-toxin-associated PAH on background PAH therapy (which may include ambrisentan); population is mixed-etiology, not HIV-PAH specific — needs manual verification of the original trial record (Grade B) |
+| [NCT00709956](https://clinicaltrials.gov/study/NCT00709956) | Vaihe 3 | Valmis | 64 | Kaksoissokkoutettu ristiin-tutkimus sisäänhengitettävän iloprosti-lääkkeen osalta idiopaattisessa/familiaarisessa/HIV/lääkemyrkyyn-liittyvässä PAH:ssa taustahoitona (joka saattaa sisältää ambrisentaania); väestö on sekoittunut-etiologia, ei HIV-PAH-spesifinen — vaatii alkuperäisen tutkimusasiakirjan manuaalisen varmistamisen (Grade B) |
 
-### Other predicted indications
-No clinical trials are registered for: pulmonary arteriovenous malformation, PAH associated with schistosomiasis, PAH associated with chronic hemolytic anemia, malformation syndrome with odontal/periodontal component, hypotrichosis simplex of the scalp, hypertrichosis, or Dandy-Walker malformation syndrome.
+### Muut ennustetut indikaatiot
+Kliinisiä tutkimuksia ei ole rekisteröity: keuhkojen valtimolaskimoinen vääränmuodostuma, PAH skhistosomiaasiin liittyen, PAH krooniseen hemolyyettiseen anemiaan liittyen, vääränmuodostumaoireyhtymä hampaiden/ienterveyden komponenteilla, yksinkertainen alipilaisuus pään iholla, liiallinen karvaisuus, tai oireyhtymä Dandy-Walkerin vääränmuodostuman kanssa.
 
 ---
 
-## Literature Evidence
+## Kirjallisuusnäyttö
 
-### Primary candidate: PAH associated with congenital heart disease
+### Ensisijainen ehdokas: PAH synnynnäisen sydänvian yhteydessä
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
 |------|-----|------|------|---------|
-| [21371683](https://pubmed.ncbi.nlm.nih.gov/21371683/) | 2011 | Cohort | American Journal of Cardiology | Early experience with ambrisentan in Eisenmenger syndrome; effects on resting/exercise systemic arterial saturation |
-| [34921523](https://pubmed.ncbi.nlm.nih.gov/34921523/) | 2022 | Cohort | Pediatric Pulmonology | Real-world safety/tolerability of ambrisentan + tadalafil combination in pediatric PH |
-| [22104452](https://pubmed.ncbi.nlm.nih.gov/22104452/) | 2011 | Cohort | Postgraduate Medicine | Adult congenital heart disease program experience with PAH management, including targeted therapies |
-| [35412560](https://pubmed.ncbi.nlm.nih.gov/35412560/) | 2022 | Review | JAMA | General PAH diagnosis/treatment review; contextualizes endothelin receptor antagonist use |
-| [18333354](https://pubmed.ncbi.nlm.nih.gov/18333354/) | 2007 | Review | Rom J Intern Med | Management of PAH associated with congenital heart disease |
-| [21852894](https://pubmed.ncbi.nlm.nih.gov/21852894/) | 2009 | Review | Progress in Pediatric Cardiology | Non-CHD causes of pediatric PAH, for differential context |
-| [31096477](https://pubmed.ncbi.nlm.nih.gov/31096477/) | 2019 | Systematic Review/Meta-analysis | Medicine | PAH-specific drug therapy position in Eisenmenger syndrome |
-| [22621693](https://pubmed.ncbi.nlm.nih.gov/22621693/) | 2012 | Review | Drugs | PAH treatment in connective tissue disease and congenital heart disease subgroups |
-| [26223872](https://pubmed.ncbi.nlm.nih.gov/26223872/) | 2015 | Review | Indian Journal of Pediatrics | Modern management concepts for pediatric pulmonary hypertension incl. CHD-PAH |
-| [24787237](https://pubmed.ncbi.nlm.nih.gov/24787237/) | 2014 | Cohort | Ther Adv Respir Dis | Real-world ambrisentan tolerability/use across a broad PH referral population |
+| [21371683](https://pubmed.ncbi.nlm.nih.gov/21371683/) | 2011 | Kohortti | American Journal of Cardiology | Varhainen kokemus ambrisentaanilla Eisenmengerin oireyhtymässä; vaikutus lepotilan/harjoituksen systeemiseen arteriaalisen kyllästysasteeseen |
+| [34921523](https://pubmed.ncbi.nlm.nih.gov/34921523/) | 2022 | Kohortti | Pediatric Pulmonology | Tosimaailman turvallisuus/siedettävyys ambrisentaani + tadalafiilin yhdistelmällä lapsille, joilla PH |
+| [22104452](https://pubmed.ncbi.nlm.nih.gov/22104452/) | 2011 | Kohortti | Postgraduate Medicine | Aikuisten synnynnäisten sydänsairauksien ohjelman kokemus PAH-hoidosta, mukaan lukien kohdistetut terapiat |
+| [35412560](https://pubmed.ncbi.nlm.nih.gov/35412560/) | 2022 | Katsaus | JAMA | Yleinen PAH diagnoosi/hoitotutkimuskatsaus; laittaa endoteliinireseptorin antagonistin käytön kontekstiin |
+| [18333354](https://pubmed.ncbi.nlm.nih.gov/18333354/) | 2007 | Katsaus | Rom J Intern Med | PAH:n hallinta synnynnäisen sydänvian yhteydessä |
+| [21852894](https://pubmed.ncbi.nlm.nih.gov/21852894/) | 2009 | Katsaus | Progress in Pediatric Cardiology | Muut kuin CHD:n aiheuttamat lapsille PAH:n syyt, differentiaalidiagnostiikkayhteydessä |
+| [31096477](https://pubmed.ncbi.nlm.nih.gov/31096477/) | 2019 | Systemaattinen katsaus/Meta-analyysi | Medicine | PAH-spesifinen lääkityshoito asemassa Eisenmengerin oireyhtymässä |
+| [22621693](https://pubmed.ncbi.nlm.nih.gov/22621693/) | 2012 | Katsaus | Drugs | PAH-hoito sidekudossairauksien ja synnynnäisen sydänvian alaryhmiissä |
+| [26223872](https://pubmed.ncbi.nlm.nih.gov/26223872/) | 2015 | Katsaus | Indian Journal of Pediatrics | Modernit hallintakonseptit lapsille, joilla keuhkojen hypertensio, mukaan lukien CHD-PAH |
+| [24787237](https://pubmed.ncbi.nlm.nih.gov/24787237/) | 2014 | Kohortti | Ther Adv Respir Dis | Tosimaailman ambrisentaanin siedettävyys/käyttö laajalla PH-lähettämöväestöllä |
 
-### Secondary candidate: PAH associated with connective tissue disease
+### Toissijainen ehdokas: PAH sidekudossairauksiin liittyen
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
 |------|-----|------|------|---------|
-| [23906950](https://pubmed.ncbi.nlm.nih.gov/23906950/) | 2013 | Meta-analysis | BMJ Open | Meta-analysis of clinical trials in CTD-PAH treatment |
-| [28039187](https://pubmed.ncbi.nlm.nih.gov/28039187/) | 2017 | RCT subgroup analysis | Annals of the Rheumatic Diseases | AMBITION trial subgroup: initial ambrisentan + tadalafil combination in CTD-PAH |
-| [32161055](https://pubmed.ncbi.nlm.nih.gov/32161055/) | 2020 | Cohort (post hoc) | Annals of the Rheumatic Diseases | AMBITION modified ITT post hoc analysis of combination vs. monotherapy in CTD-PAH |
-| [27492539](https://pubmed.ncbi.nlm.nih.gov/27492539/) | 2016 | Cohort | Respiratory Medicine | ARIES-E subgroup: 3-year ambrisentan efficacy/safety specifically in CTD-PAH |
-| [26360334](https://pubmed.ncbi.nlm.nih.gov/26360334/) | 2015 | RCT subgroup analysis | Am J Respir Crit Care Med | Up-front ambrisentan + tadalafil combination in scleroderma-associated PAH |
-| [31655622](https://pubmed.ncbi.nlm.nih.gov/31655622/) | 2019 | RCT | Arthritis Research & Therapy | EDITA RCT: early ambrisentan treatment for mildly elevated mPAP in systemic sclerosis |
-| [29282676](https://pubmed.ncbi.nlm.nih.gov/29282676/) | 2018 | Post-marketing surveillance | Clinical Drug Investigation | Interim analysis of 702 real-world PAH patients on ambrisentan (Volibris) |
-| [38378970](https://pubmed.ncbi.nlm.nih.gov/38378970/) | 2024 | Systematic Review/Meta-analysis | Internal and Emergency Medicine | Treatment outcomes for CTD-PAH across RCT subgroup/post hoc data |
-| [37765060](https://pubmed.ncbi.nlm.nih.gov/37765060/) | 2023 | Review | Pharmaceuticals (Basel) | Recent advances in CTD-PAH treatment |
-| [22621693](https://pubmed.ncbi.nlm.nih.gov/22621693/) | 2012 | Review | Drugs | PAH treatment in connective tissue disease |
+| [23906950](https://pubmed.ncbi.nlm.nih.gov/23906950/) | 2013 | Meta-analyysi | BMJ Open | Meta-analyysi kliinisistä tutkimuksista CTD-PAH-hoidossa |
+| [28039187](https://pubmed.ncbi.nlm.nih.gov/28039187/) | 2017 | RCT:n alajoukko-analyysi | Annals of the Rheumatic Diseases | AMBITION-tutkimuksen alajoukko: alkuvaiheen ambrisentaani + tadalafiilin yhdistelmä CTD-PAH:ssa |
+| [32161055](https://pubmed.ncbi.nlm.nih.gov/32161055/) | 2020 | Kohortti (jälkeisanalyysi) | Annals of the Rheumatic Diseases | AMBITION muokattu ITT jälkeisanalyysi yhdistelmä vs. monoterapiasta CTD-PAH:ssa |
+| [27492539](https://pubmed.ncbi.nlm.nih.gov/27492539/) | 2016 | Kohortti | Respiratory Medicine | ARIES-E alajoukko: 3-vuotinen ambrisentaanin tehokkuus/turvallisuus nimenomaan CTD-PAH:ssa |
+| [26360334](https://pubmed.ncbi.nlm.nih.gov/26360334/) | 2015 | RCT:n alajoukko-analyysi | Am J Respir Crit Care Med | Etupään ambrisentaani + tadalafiilin yhdistelmä skleroderma-liittyneessa PAH:ssa |
+| [31655622](https://pubmed.ncbi.nlm.nih.gov/31655622/) | 2019 | RCT | Arthritis Research & Therapy | EDITA RCT: varhainen ambrisentaanihoito miedomasti kohonneelle mPAP:lle järjestelmällisessä skleroosissä |
+| [29282676](https://pubmed.ncbi.nlm.nih.gov/29282676/) | 2018 | Markkinoinnin jälkeinen valvonta | Clinical Drug Investigation | 702 tosimaailman PAH-potilaasta ambrisentaanilla (Volibris) välianalyysi |
+| [38378970](https://pubmed.ncbi.nlm.nih.gov/38378970/) | 2024 | Systemaattinen katsaus/Meta-analyysi | Internal and Emergency Medicine | Hoitotulokset CTD-PAH:lle RCT:n alajoukko/jälkeisanalyysi-tietojen poikki |
+| [37765060](https://pubmed.ncbi.nlm.nih.gov/37765060/) | 2023 | Katsaus | Pharmaceuticals (Basel) | Viimeaikaiset edistysaskeleet CTD-PAH-hoidossa |
+| [22621693](https://pubmed.ncbi.nlm.nih.gov/22621693/) | 2012 | Katsaus | Drugs | PAH-hoito sidekudossairauksissa |
 
-### PAH associated with HIV infection *(supporting literature)*
-- [24787237](https://pubmed.ncbi.nlm.nih.gov/24787237/) (2014, Cohort) — broad PH referral population including HIV-associated cases
-- [25560124](https://pubmed.ncbi.nlm.nih.gov/25560124/) (2015, Case report) — HIV-associated PAH diagnosed postpartum
-- [26897508](https://pubmed.ncbi.nlm.nih.gov/26897508/) (2016, Case series) — 4 cases of HIV-associated PAH
-- [31090367](https://pubmed.ncbi.nlm.nih.gov/31090367/) (2019, Registry/Cohort) — Russian national PAH registry, includes HIV-associated subgroup
+### PAH HIV-infektioon liittyen *(tukevat kirjallisuus)*
+- [24787237](https://pubmed.ncbi.nlm.nih.gov/24787237/) (2014, Kohortti) — laaja PH-lähettämöväestö, sisältäen HIV-liittyneistä tapauksista
+- [25560124](https://pubmed.ncbi.nlm.nih.gov/25560124/) (2015, Tapausraportti) — HIV-liittyneinen PAH diagnosoitu postpartum-tilassa
+- [26897508](https://pubmed.ncbi.nlm.nih.gov/26897508/) (2016, Tapauskertomus) — 4 tapausta HIV-liittyneestä PAH:sta
+- [31090367](https://pubmed.ncbi.nlm.nih.gov/31090367/) (2019, Rekisteri/Kohortti) — Venäjän kansallinen PAH-rekisteri, sisältää HIV-liittyneisen alaryhmiä
 
-### Other predicted indications
-No literature is available for: PAH associated with schistosomiasis, PAH associated with chronic hemolytic anemia, hypotrichosis simplex of the scalp, or hypertrichosis.
+### Muut ennustetut indikaatiot
+Mitään kirjallisuutta ei ole saatavilla: PAH skhistosomiaasiin liittyen, PAH krooniseen hemolyyettiseen anemiaan liittyen, yksinkertainen alipilaisuus pään iholla, tai liiallinen karvaisuus.
 
-For **malformation syndrome with odontal/periodontal component** (rank 7), 20 publications were retrieved, but every one discusses periodontitis pathology/treatment with no mention of ambrisentan or its pharmacology — the source data itself flags this as a likely **knowledge-graph false positive** (entity confusion) rather than a genuine repurposing signal. **Syndrome with Dandy-Walker malformation** (rank 10) similarly has no clinical trials or literature.
-
----
-
-## Finland Market Information
-
-Ambrisentan is **not currently marketed in Finland** — 0 authorizations are on record, and no license entries are available in this Evidence Pack. No product name, dosage form, or approved indication text can be extracted at this time.
+**Vääränmuodostumaoireyhtymä hampaiden/ienterveyden komponenteilla** (sijoitus 7), 20 julkaisua haettiin, mutta jokainen niistä käsittelee gingiviitin patologiaa/hoitoa ilman mainintaa ambrisentaanista tai sen farmakologiasta — lähdeaineisto itse merkitsee tätä todennäköisesti **tietokaavion valehyväksi positiiviseksi** (entiteetin sekaannus) pikemminkin kuin todelliseksi repurposing-signaaliksi. **Oireyhtymä Dandy-Walkerin vääränmuodostuman kanssa** (sijoitus 10) samoin ei ole kliinisiä tutkimuksia tai kirjallisuutta.
 
 ---
 
-## Safety Considerations
+## Suomen markkinatieto
 
-Please refer to the package insert for safety information. No structured key warnings, contraindications, or drug-drug interaction data are available in this Evidence Pack.
-
-One point worth flagging explicitly: the pack's own data-gap log records the **TFDA/Fimea package insert (warnings/contraindications) as a Blocking-severity gap** — meaning this candidate cannot yet clear the S1 safety pre-screen. For the HIV-associated PAH prediction specifically, the repurposing rationale notes that HIV patients commonly co-prescribe antiretrovirals (protease inhibitors, CYP3A4-interacting agents), which would need dedicated DDI screening before that indication could advance beyond a research question.
+Ambrisentaania **ei tällä hetkellä myydä Suomessa** — 0 lupaa on kirjattu, ja mitään lupa-kirjauksia ei ole saatavilla tässä näyttöpaketissa. Yhtään tuotenimeä, antomuotoa tai hyväksytyn indikaation tekstiä ei voida poimia tällä hetkellä.
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuusnäkökohdat
 
-**Decision: Proceed with Guardrails** (for PAH associated with congenital heart disease and PAH associated with connective tissue disease — the two L1-evidence predictions). **Hold** on the remaining 8 predictions, including the model's top-scored hit (pulmonary arteriovenous malformation).
+Pyydämme viitata pakkausselosteeseen turvallisuustiedoista. Mitään strukturoituja keskeisiä varoituksia, vasta-aiheita tai lääkintä-lääkintö-vuorovaikutus-tietoja ei ole saatavilla tässä näyttöpaketissa.
 
-**Rationale:**
-- CHD-PAH and CTD-PAH are both established WHO Group 1 PAH subtypes with a direct endothelin-pathway mechanistic link to ambrisentan's known pharmacology, and each is backed by multiple completed trials (including Phase 3/4 and an AMBITION-trial subgroup analysis) plus double-digit publication counts — meeting the L1 bar (≥2 relevant completed RCT-grade studies).
-- PAVM is a structural vascular malformation rather than a functional vasoconstrictive process, and its only literature support is one indirect case report — mechanistically and evidentially too weak to advance (Hold, L4).
-- HIV-associated PAH has moderate cohort/case-series support (L2) but the key trial's population is ambiguous and DDI risk with antiretrovirals is unassessed — kept as a research question rather than advanced.
-- Schistosomiasis-, hemolytic-anemia-, periodontal-, hypotrichosis-, hypertrichosis-, and Dandy-Walker-related predictions have no clinical trials or literature (L5) and in one case (periodontal) show clear signs of a knowledge-graph false positive.
+Yksi asia, joka kannattaa merkitä nimenomaisesti: paketin oman tietorakotekijän loki kirjaa **TFDA/Fimea pakkausselosteen (varoitukset/vasta-aiheet) Blocking-vakavuusasteena puuttuvaksi** — mikä tarkoittaa, että tämä ehdokas ei voi vielä läpäistä S1 turvallisuuden esiseulontaa. HIV-liittyvän PAH ennustusta varten erityisesti, repurposing-perustelut huomauttavat, että HIV-potilailla on usein yhtäaikainen antiretroviraali-lääkitys (proteiinin inhibiittorit, CYP3A4-vuorovaikuttavat aineet), jotka vaatisivat erityisen DDI-seulonnan ennen kuin se indikaatio voisi edetä tutkimuskysymystä pidemmälle.
 
-**To proceed, the following is needed:**
-- Obtain and parse the TFDA/Fimea approved package insert (Blocking data gap — required before any S1 safety pre-screen)
-- Confirm ambrisentan's mechanism of action via a formal DrugBank API lookup (currently reconstructed only from embedded literature abstracts)
-- Manually verify whether NCT00709956 (iloprost crossover trial) actually enrolled an HIV-PAH-specific subpopulation, since the current summary is ambiguous
-- Run a formal DDI screen for ambrisentan against antiretroviral regimens before advancing the HIV-PAH indication further
-- Obtain route/formulation compatibility data (currently "pending" for all 10 predictions) to confirm the existing oral tablet meets requirements for pediatric CHD-PAH use
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Jatka varjeluin** (keuhkojen arteriaalisen hypertension osalta synnynnäisen sydänvian yhteydessä ja keuhkojen arteriaalisen hypertension osalta sidekudossairauksien yhteydessä — kaksi L1-näytön ennustusta). **Pidätä** loput 8 ennustusta, mukaan lukien mallin korkeimmin pisteytetty osuma (keuhkojen valtimolaskimoinen vääränmuodostuma).
+
+**Perustelut:**
+- CHD-PAH ja CTD-PAH ovat molemmat vakiintuneita WHO Group 1 PAH -alaryhmät, joilla on suora endoteleiiniksi-polun mekaaninen yhteys ambrisentaanin tunnettuun farmakologiaan, ja kumpainen on tuettu useilla valmiilla tutkimuksilla (mukaan lukien Vaihe 3/4 ja AMBITION-tutkimuksen alajoukko-analyysi) sekä kaksinumeroinen julkaisumäärä — L1-tasoa (≥2 asiaankuuluvaa valmista RCT-tasoa tutkimusta) täyttävät.
+- PAVM on rakenteellinen vaskularinen vääränmuodostuma pikemminkin kuin toiminnallinen vasokonstriktio/uudelleenmuodostumisprosessi, ja sen ainoa kirjallisuustuki on yksi epäsuora tapausraportti — mekaanisesti ja todisteellisesti liian heikko edetäkseen (Pidätä, L4).
+- HIV-liittyvä PAH:n kohortti/tapauskertomus-tuki on kohtuullinen (L2), mutta avainkokeen väestö on epäselvä ja antiretroviraali-lääkkeiden DDI-riski ei ole arvioitu — pidetään tutkimuskysymisenä pikemminkin kuin edistetään.
+- Skhistosomiasis-, hemolyyetti-anemia-, periodontaalinen-, alipilaisuus-, liiallinen karvaisuus- ja Dandy-Walker-liittyvät ennustukset eivät ole kliinisiä tutkimuksia tai kirjallisuutta (L5) ja yhdessä tapauksessa (periodontaalinen) näytöt selvää tietokaavion valepositiivin merkkejä.
+
+**Jatkamiseksi tarvitaan seuraavaa:**
+- Hanki ja jäsennä TFDA/Fimea hyväksytty pakkausseloste (Blocking-tietoaukko — vaaditaan ennen mitään S1 turvallisuusseulontaa)
+- Vahvista ambrisentaanin vaikutusmekanismi muodollisen DrugBank API -haun kautta (tällä hetkellä rekonstruoitu vain sulautettujen kirjallisuusabstrakteista)
+- Tarkista manuaalisesti, osallistuiko NCT00709956 (iloprosti ristiin-tutkimus) todella HIV-PAH-spesifiseen alaryhmään, koska nykyinen yhteenveto on epäselvä
+- Suorita muodollinen DDI-seulonta ambrisentaanille antiretroviraali-lääkityksiä vastaan ennen HIV-PAH indikaation edelleen edistämistä
+- Hanki reitti/formulaatio-yhteensopivuusdata (tällä hetkellä "odottaa" kaikilla 10 ennustuksella) vahvistaaksesi olemassa olevan suuansioitavan tabletin vaatimukset lasten CHD-PAH:lle
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

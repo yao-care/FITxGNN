@@ -29,60 +29,61 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Natalizumab: From Multiple Sclerosis to Bronchitis
+# Natalizumab: Multippelskeloosista keuhkoputkentulehdukseen
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Natalizumab is a humanized monoclonal antibody used to treat relapsing-remitting multiple sclerosis (RRMS) by blocking α4-integrin-mediated leukocyte migration. The TxGNN model predicts it may be effective for **Bronchitis**, but this prediction currently has **no supporting clinical trials and no supporting literature** — it is a model-only signal that runs counter to the drug's known immunosuppressive risk profile.
+Natalizumab on humanisoidtu monoklonaalinen vasta-aine, jota käytetään relapsoiva-remittentti multippelskleroosiin (RRMS) hoitoon estämällä α4-integriinivälitteistä valkosolun siirtymistä. TxGNN-malli ennustaa sen saattavan olla tehokas **keuhkoputkentulehduksessa**, mutta tämä ennuste ei tällä hetkellä ole tuettu kliinisillä tutkimuksilla eikä kirjallisuudella — se on vain mallin signaali, joka on ristiriidassa lääkkeen tunnetun immunosuppressiivisen riskiprofiilin kanssa.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Multiple Sclerosis (relapsing-remitting) — inferred from literature context; not present in Finland market data |
-| Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.46% |
-| Evidence Level | L5 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|-------|---------|
+| Alkuperäinen käyttöaihe | Multippelskleroosi (relapsoiva-remittentti) — päätelmä kirjallisuuskontekstista; ei ole läsnä Suomen markkinatiedoissa |
+| Ennustettu uusi käyttöaihe | Keuhkoputkentulehdus |
+| TxGNN-ennusteen pistemäärä | 99.46% |
+| Näyttöastee | L5 |
+| Suomen markkinatieto | ✗ Ei markkinoilla |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Odota |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, detailed mechanism of action data is not available (DrugBank query returned a Data Gap). Based on known information from the evidence pack's literature context, natalizumab is a monoclonal antibody targeting α4-integrin, used for relapsing-remitting multiple sclerosis; its efficacy in MS is well established in the cited literature, which repeatedly references its use in RRMS patient cohorts.
+Tällä hetkellä yksityiskohtaista vaikutusmekanismia koskevaa tietoa ei ole saatavilla (DrugBank-haku palautti Data Gap -ilmoituksen). Todistusjoukon kirjallisuuskontekstista saatavilla olevien tietojen perusteella natalizumab on monoklonaalinen vasta-aine, joka kohdistuu α4-integriiniin ja jota käytetään relapsoiva-remittentti multippelskleroosiin; sen tehokkuus MS:ssä on hyvin vakiintunut siteeratussa kirjallisuudessa, joka toistuvasti viittaa sen käyttöön RRMS-potilaiden kohorteissa.
 
-For the bronchitis prediction specifically, the mechanistic rationale supplied alongside the score is explicitly skeptical: α4-integrin blockade could theoretically reduce leukocyte infiltration of airway mucosa, but bronchitis is predominantly infectious or irritant in origin. Natalizumab's defining safety concern is *increased* infection risk (most notably progressive multifocal leukoencephalopathy, PML, from JC virus reactivation) — a direction that runs opposite to what would be needed to safely treat an infection-driven respiratory condition. No clinical trial or publication in this evidence pack connects natalizumab to bronchitis in either direction.
+Keuhkoputkentulehdusta koskevan ennusteen osalta pisteytyksen yhteydessä annettu mekanistinen perustelu on selvästi skeptinen: α4-integriinisalpaaja voisi teoriassa vähentää valkosolun tunkeutumista ilmateiden limakalvoille, mutta keuhkoputkentulehdus on pääosin infektioperäinen tai ärsytyksestä johtuva. Natalizumabin määrittävä turvallisuushuoli on *lisääntynyt* infektioriskiä (erityisesti progressiivinen multifokaalinen leukoenkefalopatiia, PML, JC virus reaktivaation seurauksena) — suunta, joka on vastakkainen siihen, mitä tarvittaisiin infektioperäisen hengitystieinfektiota turvallisesti hoidettaessa. Mikään tässä todistusjoukon kliininen tutkimus tai julkaisu ei yhdistä natalizumabaa keuhkoputkentulehdukseen kumpaankaan suuntaan.
 
-For added context: among this drug's other predicted indications, the highest-evidence candidate (psoriasis, L4, 19 publications) shows the *opposite* relationship — multiple case reports and a cohort study document natalizumab **inducing or aggravating** psoriasis (paradoxical reaction), not treating it. This pattern reinforces that a high TxGNN score alone should not be read as a treatment signal without directional literature support.
+Lisäyhteydessä: tämän lääkkeen muista ennustetuista käyttöaiheista korkein todistusteho omaava kandidaatti (psoriasis, L4, 19 julkaisua) osoittaa *vastakkaisen* suhteen — useat tapausraportit ja kohorttitutkimus dokumentoivat natalizumabia **indusoivan tai pahentavan** psoriasia (paradoksaalinen reaktio), ei sen hoitamisen. Tämä kuvio vahvistaa, että korkea TxGNN-pistemäärä yksinään ei tulisi tulkita hoitosignaaliksi ilman suuntaa-antavaa kirjallisuustuella.
 
-## Clinical Trial Evidence
+## Kliininen tutkimusnäyttö
 
-Currently no related clinical trials registered
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia
 
-## Literature Evidence
+## Kirjallisuusnäyttö
 
-Currently no related literature available
+Tällä hetkellä asiaan liittyvää kirjallisuutta ei ole saatavilla
 
-## Finland Market Information
+## Suomen markkinatieto
 
-Natalizumab is not currently marketed in Finland (market status: Not marketed, 0 authorizations on record). No product license data is available for this candidate.
+Natalizumabaa ei tällä hetkellä markkinoida Suomessa (markkinatila: Ei markkinoilla, 0 lupaa kirjatuissa tiedoissa). Tälle ehdokkaalle ei ole saatavilla tuotteen lupa-aineistoja.
 
-## Safety Considerations
+## Turvallisuushuomiot
 
-Please refer to the package insert for safety information. (TFDA/package-insert warnings, contraindications, and drug-drug interaction data are all outstanding — see Data Gap DG001, Blocking severity.)
+Turvallisuustietoja varten, ks. pakkausseloste. (TFDA/pakkausselosteen varoitukset, vasta-aiheet ja lääkkeiden väliset yhteisvaikutustiedot ovat kaikki odottamassa — ks. Data Gap DG001, Blocking severity.)
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat askeleet
 
-**Decision: Hold**
+**Päätös: Odota**
 
-**Rationale:**
-The bronchitis prediction has no clinical trial or literature support (L5, model prediction only), and the proposed mechanism conflicts with natalizumab's known immunosuppressive/infection-risk profile (including PML), making it biologically implausible as currently evidenced.
+**Perustelu:**
+Keuhkoputkentulehdusta koskevalla ennusteella ei ole kliinistä tutkimusnäyttöä eikä kirjallisuustuella (L5, vain mallin ennuste), ja ehdotettu mekanismi on ristiriidassa natalizumabin tunnetun immunosuppressiivisen/infektioriskin profiilin kanssa (mukaan lukien PML), mikä tekee siitä biologisesti epätodennäköisen nykyisen näytön perusteella.
 
-**To proceed, the following is needed:**
-- TFDA/Finland package insert data (safety warnings, contraindications) — DG001, currently blocking S1 safety review
-- Confirmed mechanism of action from DrugBank — DG002
-- Preclinical or in vitro evidence linking α4-integrin blockade to bronchitis pathophysiology, since none currently exists
-- If further candidates from this same drug are pursued, prioritize psoriasis (L4, 19 publications) for review instead — though note the existing literature there points toward an adverse (disease-inducing) relationship rather than a therapeutic one, so it would also require careful reframing before advancing
+**Jatkaakseen tarvitaan seuraavaa:**
+- TFDA/Suomen pakkausseloste-tiedot (turvallisuusvaroitukset, vasta-aiheet) — DG001, tällä hetkellä estää S1 turvallisuustarkistusta
+- Varmistettu vaikutusmekanismi DrugBankista — DG002
+- Esikliininen tai in vitro -näyttö, joka yhdistää α4-integriinisalpauksen keuhkoputkentulehduksen patofysiologiaan, koska sitä ei tällä hetkellä ole
+- Jos tämän saman lääkkeen muita ehdokkaita jatketaan, aseta psoriasis (L4, 19 julkaisua) tarkistuksen etusijalle — huomaa kuitenkin, että nykyinen kirjallisuus viittaa siellä pikemminkin negatiiviseen (sairauden aiheuttavaan) suhteeseen kuin terapeuttiseen suhteeseen, joten se vaatisi myös huolellista uudelleenmuotoilua ennen eteenpäinmenemistä
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

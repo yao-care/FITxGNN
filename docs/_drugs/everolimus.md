@@ -29,94 +29,95 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Everolimus: From Unspecified Original Indication to Liposarcoma
+# Everolimus: määrittelemättömästä alkuperäisestä indikaatiosta liposarkooomaan
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-The evidence pack does not document Everolimus's original approved indication or mechanism of action (both flagged as data gaps), and the drug is currently not marketed in Finland. The TxGNN model predicts potential efficacy for **Liposarcoma**, supported by **1 clinical trial** and **5 publications**, though the strongest direct evidence so far comes from a combination regimen (everolimus + ribociclib) rather than everolimus monotherapy.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in evidence pack (data gap) |
-| Predicted New Indication | Liposarcoma |
-| TxGNN Prediction Score | 99.88% |
-| Evidence Level | L2 |
-| Finland Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Todistepaketti ei dokumentoi everolimuksen alkuperäistä hyväksyttyä indikaatiota tai vaikutusmekanismia (molemmat merkitty tietovajeiksi), ja lääke ei ole tällä hetkellä markkinoilla Suomessa. TxGNN-malli ennustaa mahdollista tehoa **liposarkooomassa**, mitä tukee **1 kliininen tutkimus** ja **5 julkaisua**, vaikka vahvin suora näyttö toistaiseksi tulee yhdistelmähoitoskeemasta (everolimus + ribociclib) pikemminkin kuin everolimuksen monoterapiasta.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Detailed mechanism of action data for everolimus is not available in this evidence pack (data gap DG002), and no original indication is documented. The supporting literature and trial records, however, consistently identify everolimus as an **mTOR (mechanistic target of rapamycin) inhibitor** — this is stated directly within the evidence pack's own repurposing rationale (e.g., for renal cell carcinoma: "Everolimus 為 mTOR 抑制劑").
-
-The mechanistic case for liposarcoma rests on documented **Akt-mTOR and MAPK pathway activation** in dedifferentiated liposarcoma tumor specimens (PMID 26518767), providing a biological basis for mTOR-directed therapy in this tumor type. This is reinforced by an active Phase 2 trial (NCT03114527) combining everolimus with the CDK4/6 inhibitor ribociclib in dedifferentiated liposarcoma and leiomyosarcoma, built on preclinical evidence of synergistic growth inhibition when CDK4 and mTOR are co-inhibited (PMID 37967116).
-
-Importantly, all current clinical evidence for this indication involves everolimus **as part of a combination regimen**, not as monotherapy — there is no everolimus single-agent trial or publication for liposarcoma in this evidence pack, which limits the strength of the causal link between everolimus itself and clinical benefit in this tumor type.
+| Kohde | Sisältö |
+|------|--------|
+| Alkuperäinen indikaatio | Ei dokumentoitu todistepakettiin (tieto vaje) |
+| Ennustettu uusi indikaatio | Liposarkooma |
+| TxGNN:n ennustepisteet | 99.88% |
+| Näytön taso | L2 |
+| Suomen markkinatilanne | Ei markkinoilla |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Pidä varauksessa |
 
 ---
 
-## Clinical Trial Evidence
+## Miksi tämä ennuste on järkevä?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Everolimuksen yksityiskohtaiset vaikutusmekanismin tiedot eivät ole saatavilla tässä todistepaketissa (tieto vaje DG002), ja alkuperäistä indikaatiota ei ole dokumentoitu. Tukeva kirjallisuus ja tutkimusten tietueet kuvaavat kuitenkin johdonmukaisesti everolimusta **mTOR (rapamycinin mekanistinen kohde) -estäjäksi** – tämä todetaan suoraan todistepaketin omassa uudelleenkäytön perustelussa (esim. munuaissolususyöpässä: "Everolimus on mTOR-estäjä").
+
+Liposarkooman mekanistinen perustelu perustuu dokumentoituun **Akt-mTOR- ja MAPK-polun aktivaatioon** dedifferentioituneen liposarkooman kasvainäytteissä (PMID 26518767), mikä tarjoaa biologisen perustan mTOR-kohdistetun hoidon käyttölle tässä kasvaimen tyypissä. Tätä vahvistaa aktiivinen Phase 2 -tutkimus (NCT03114527), jossa yhdistetään everolimus CDK4/6-estäjän ribociclibin kanssa edistyneessä dedifferentioituneessa liposarkooma (Ryhmä A) ja leiomyosarkooma (Ryhmä B) jälkeen ≥1 aikaisemmasta systeemisesta hoitosta, joka perustuu prekliiniseen näyttöön synergistisesta kasvun estosta CDK4- ja mTOR-estäjien yhteisvaikutuksesta (PMID 37967116).
+
+Tärkeää on, että kaikki nykyinen kliininen näyttö tästä indikaatiosta liittyy everolimukseen **osana yhdistelmähoitoskeemaa**, ei monoterapiana – tälle indikaatiolle ei ole everolimuksen yksittäisaineen tutkimusta tai julkaisua tässä todistepaketissa, mikä rajoittaa everolimuksen itsensä ja kliinisen hyödyn välisen syy-yhteyden vahvuutta tämän kasvaimen tyypissä.
+
+---
+
+## Kliinisen tutkimuksen näyttö
+
+| Tutkimuksen numero | Vaihe | Tila | Rekrytointi | Tärkeimmät löydökset |
 |---------|------|------|------|---------|
-| [NCT03114527](https://clinicaltrials.gov/study/NCT03114527) | Phase 2 | Active, not recruiting | 48 | Evaluates ribociclib + everolimus combination in advanced dedifferentiated liposarcoma (Arm A) and leiomyosarcoma (Arm B) after ≥1 prior systemic therapy, assessing anti-tumor activity of the doublet; everolimus dosed at 2.5–5 mg/day alongside ribociclib 300 mg/day (3 weeks on/1 week off). |
+| [NCT03114527](https://clinicaltrials.gov/study/NCT03114527) | Vaihe 2 | Aktiivinen, ei rekrytointia | 48 | Arvioi ribociclib + everolimus -yhdistelmää edistyneessä dedifferentioituneessa liposarkooma (Ryhmä A) ja leiomyosarkooma (Ryhmä B) jälkeen ≥1 aikaisemmasta systeemisesta hoitosta, arvioi kaksoishoidon anti-kasvain-aktiivisuutta; everolimus annostetaan 2,5–5 mg/päivä ribociclibin 300 mg/päivä (3 viikkoa päällä/1 viikko pois) rinnalla. |
 
 ---
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät löydökset |
 |------|-----|------|------|---------|
-| [37967116](https://pubmed.ncbi.nlm.nih.gov/37967116/) | 2024 | RCT | Clinical Cancer Research | Reports the SAR-096 Phase 2 trial of ribociclib + everolimus in DDL/LMS; CDK4/6 and mTOR co-inhibition showed synergistic growth inhibition in preclinical tumor models, motivating the combination trial. |
-| [36003796](https://pubmed.ncbi.nlm.nih.gov/36003796/) | 2022 | Review | Frontiers in Oncology | Review of sarcoma patient-derived orthotopic xenograft (PDOX) models identifying effective CDK-inhibitor-based combination therapies, supporting the CDK/mTOR pathway-targeting rationale in sarcomas. |
-| [26518767](https://pubmed.ncbi.nlm.nih.gov/26518767/) | 2016 | Review | Tumour Biology | Demonstrates Akt-mTOR and MAPK pathway activation in dedifferentiated liposarcoma specimens (99 cases); in vitro mTOR inhibition showed antitumor effect. |
-| [29848686](https://pubmed.ncbi.nlm.nih.gov/29848686/) | 2018 | Review | Anticancer Research | Preclinical evaluation of eribulin combined with mechanistically distinct anticancer agents, including activity in liposarcoma models; not everolimus-specific. |
-| [41991999](https://pubmed.ncbi.nlm.nih.gov/41991999/) | 2026 | Review | Oncogene | Identifies XPO1 inhibitor selinexor as disrupting the core transcriptional regulatory circuitry of dedifferentiated liposarcoma; a distinct, non-mTOR therapeutic vulnerability. |
+| [37967116](https://pubmed.ncbi.nlm.nih.gov/37967116/) | 2024 | RCT | Clinical Cancer Research | Raportoituu SAR-096 Phase 2 -tutkimuksesta ribociclib + everolimus dedifferentioituneissa liposarkooma/leiomyosarkooma; CDK4/6- ja mTOR-rinnakkaisinhibitio osoitti synergistisen kasvun eston prekliinisissä kasvainmalleissa, mikä motivoi yhdistelmätutkimusta. |
+| [36003796](https://pubmed.ncbi.nlm.nih.gov/36003796/) | 2022 | Katsaus | Frontiers in Oncology | Katsaus sarkooman potilasjohdannaisista ortotooppisista siirtomalleista (PDOX) tunnistaen tehokkaat CDK-inhibiittoripohjaiset yhdistelmäterapiat, tukemalla CDK/mTOR-polun kohdentamisen perusteluja sarkoomeissa. |
+| [26518767](https://pubmed.ncbi.nlm.nih.gov/26518767/) | 2016 | Katsaus | Tumour Biology | Osoittaa Akt-mTOR- ja MAPK-polun aktivaation dedifferentioituneissa liposarkooma näytteissä (99 tapausta); in vitro mTOR-inhibitio osoitti anti-kasvain-vaikutusta. |
+| [29848686](https://pubmed.ncbi.nlm.nih.gov/29848686/) | 2018 | Katsaus | Anticancer Research | Mekanistisesti erilaisten syöpälääkkeiden, mukaan lukien liposarkooma-mallien, yhdistelmä eribulinin prekliininen arviointi; ei everolimuksen-spesifinen. |
+| [41991999](https://pubmed.ncbi.nlm.nih.gov/41991999/) | 2026 | Katsaus | Oncogene | Tunnistaa XPO1-estäjän selinexorin häiritsevän dedifferentioituneen liposarkooman ydintranskription sääntelypiirille; erilainen, ei-mTOR terapeuttinen haavoittuvuus. |
 
 ---
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Everolimus currently has **no marketing authorizations on file** for Finland (market status: Not Marketed, 0 licenses recorded). No product-level licensing data is available in this evidence pack.
-
----
-
-## Cytotoxicity
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (mTOR inhibitor) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+Everolimuksella ei ole tällä hetkellä **markkinointilupaa** Suomelle (markkinatilanne: Ei markkinoilla, 0 lupaa rekisteröity). Tuote-tasoisista lääkinnällisistä tiedoista ei ole saatavilla tässä todistepaketissa.
 
 ---
 
-## Safety Considerations
+## Sytotoksisuus
 
-Please refer to the package insert for safety information. No key warnings, contraindications, or drug-drug interaction data are available in this evidence pack (Fimea/TFDA package insert data is a blocking gap, DG001).
+| Kohde | Sisältö |
+|------|--------|
+| Sytotoksisuuden luokitus | Kohdennettu terapi (mTOR-estäjä) |
+| Luuytimen tukahduttamisen riski | Katso pakkausliitteen varoitukset ja varotoimet |
+| Oksentamisen aiheuttavuuden luokitus | Katso pakkausliitteen varoitukset ja varotoimet |
+| Seurannan kohteet | Katso pakkausliitteen varoitukset ja varotoimet |
+| Käsittelyssä noudatettavat varotoimet | Katso pakkausliitteen varoitukset ja varotoimet |
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuutta koskevat näkökohdat
 
-**Decision: Hold**
+Turvallisuustiedot löytyvät pakkausliitteesta. Keskeiset varoitukset, vasta-aiheet tai lääkkeiden väliset vuorovaikutustiedot eivät ole saatavilla tässä todistepaketissa (Fimea/TFDA-pakkausliitteen tiedot muodostavat kriittisen tieto vajeen, DG001).
 
-**Rationale:**
-The liposarcoma prediction (L2, decision stage S2) is supported by only one ongoing, non-completed combination trial and mechanistic/preclinical literature — there is no everolimus monotherapy evidence in this tumor type. Combined with a blocking gap in safety/label data (DG001), the evidence base is not yet sufficient to advance beyond a research question.
+---
 
-**To proceed, the following is needed:**
-- Fimea/TFDA package insert (warnings, contraindications, DDI) — required before any S1 safety pre-assessment
-- Confirmed original indication and mechanism of action data for everolimus (DG002)
-- Maturation/results of NCT03114527 (estimated completion 2025-12)
-- Evidence distinguishing everolimus's independent contribution from the ribociclib combination effect
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidä varauksessa**
+
+**Perustelut:**
+Liposarkooman ennuste (L2, päätös vaihe S2) perustuu vain yhteen käynnissä olevaan, valmistumattomaan yhdistelmätutkimukseen ja mekanistiseen/prekliiniseen kirjallisuuteen – tälle kasvaimen tyypille ei ole everolimuksen monoterapianäyttöä. Yhdessä turvallisuus-/merkintätietojen kriittisen tieto vajeen (DG001) kanssa, näytön perusta ei ole vielä riittävä edetä tutkimuskysymyksen ulkopuolelle.
+
+**Edetäkseen tarvitaan seuraavaa:**
+- Fimea/TFDA pakkausliite (varoitukset, vasta-aiheet, lääkkeiden väliset vuorovaikutukset) – vaadittu ennen mitä tahansa S1-turvallisuuden esi-arviointia
+- Everolimuksen alkuperäisen indikaation ja vaikutusmekanismin tiedot vahvistettuna (DG002)
+- NCT03114527:n kypsyminen/tulokset (arvioidut valmistuminen 2025-12)
+- Näyttö, joka erottaa everolimuksen itsenäisen vaikutuksen ribociclib-yhdistelmän vaikutuksesta
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

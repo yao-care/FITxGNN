@@ -29,78 +29,79 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Mometasone: From Topical/Nasal Corticosteroid Use to Primary Cutaneous T-Cell Lymphoma
+# Mometasone: topikaalista/nasaalisesta kortikosteroidikäytöstä primaariin kutaaniseen T-solujen lymfoomaan
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Mometasone is a high-potency corticosteroid, commonly used topically and intranasally for inflammatory skin and airway conditions (specific approved indication text is not present in this dataset). The TxGNN model predicts it may be effective for **Primary Cutaneous T-Cell Lymphoma**, but this is currently supported only by **0 clinical trials** and **2 case-report-level publications**, with no mometasone-specific efficacy data.
+Mometasone on korkeavaikutteinen kortikosteroid, jota käytetään yleisesti topikaalisti ja nasaalisti tulehtuneille ihoille ja hengitysteihin (spesifiä hyväksyttyä näytöä ei ole tässä tietojoukossa). TxGNN-malli ennustaa, että se voisi olla tehokas **primaarissa kutaanisessa T-solujen lymfoomassa**, mutta tätä tukee tällä hetkellä vain **0 kliinistä tutkimusta** ja **2 tapausraporttitasoista julkaisua**, ilman mometasoniin spesifisiä tehokkuustietoja.
 
 ---
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Not specified in dataset (mometasone is a topical/nasal corticosteroid class drug; typical uses are dermatitis/eczema and allergic rhinitis) |
-| Predicted New Indication | Primary Cutaneous T-Cell Lymphoma |
-| TxGNN Prediction Score | 99.36% |
-| Evidence Level | L4 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen indikaatio | Ei määritelty tietojoukossa (mometasone on topikaalinen/nasaalinen kortikosteroidin luokan lääke; tyypilliset käytöt ovat ihottuma/eksema ja allerginen nuhatauti) |
+| Ennustettu uusi indikaatio | Primaari kutaaninen T-solujen lymfooma |
+| TxGNN-ennusteen pistemäärä | 99.36% |
+| Näyttötaso | L4 |
+| Suomen markkinoille asema | ✗ Ei markkinoitu |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Pidä odotuksessa |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, detailed mechanism of action data for mometasone is not available. Based on known pharmacological information, mometasone is part of the high-potency corticosteroid class, and its anti-inflammatory/immunosuppressive efficacy in skin- and mucosa-related inflammatory conditions is well established.
+Tällä hetkellä yksityiskohtaiset mometasonin vaikutusmekanismin tiedot eivät ole saatavilla. Tunnettujen farmakologisten tietojen perusteella mometasone on osa korkeavaikutteisten kortikosteroidien luokkaa, ja sen anti-inflammatorinen/immunosuppressiivinen teho iho- ja limakalvon tulehdustiloissa on hyvin vakiintunut.
 
-Mechanistically, corticosteroids suppress cutaneous lymphocyte infiltration and reduce local cytokine release, which is the pharmacological basis for using topical steroids as skin-directed therapy in early-stage cutaneous T-cell lymphoma (CTCL)/mycosis fungoides. However, this is a **class effect** shared by all topical corticosteroids, not evidence specific to mometasone.
+Mekanistisesti kortikosteroidit estävät kutaanisten lymfosyyttien infiltraation ja vähentävät paikallista sytokiinien vapautumista, mikä on farmakologinen perusta topikaalisten steroidien käytölle ihoon kohdistettuna terapiana varhaisvaiheen kutaanisessa T-solujen lymfoomassa (CTCL)/mycosis fungoides. Tämä on kuitenkin **luokkavaikutus**, jonka jakavat kaikki topikaalit kortikosteroidit, ei mometasoniin spesifisiä näyttöä.
 
-The TxGNN score of 99.36% likely reflects structural and mechanistic similarity inference within the corticosteroid class rather than direct clinical evidence for mometasone in CTCL. Both retrieved publications describe mometasone only as a background/failed treatment in case reports of related lymphoproliferative skin conditions (pseudolymphoma, mycosis fungoides), not as a studied intervention with efficacy outcomes — so the prediction should be treated as a research hypothesis rather than a validated repurposing signal.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+TxGNN-pistemäärä 99.36% heijastaa todennäköisesti strukturaalista ja mekanistista samankaltaisuusjohtopäätöstä kortikosteroidien luokassa eikä suoraa kliinistä näyttöä mometasonista CTCL:ssä. Molemmat haetut julkaisut kuvaavat mometasonea vain taustaksi/epäonnistuneeksi hoidoksi liittyvien lymfoproliferatiivisten ihosairauksien (pseudolymfooma, mycosis fungoides) tapausraporteissa, ei tutkittuna interventiona tehokkuustuloksineen — joten ennuste tulisi käsitellä tutkimushypoteesina vakiintuneen uudelleenkäyttösignaalin sijasta.
 
 ---
 
-## Literature Evidence
+## Kliinisen tutkimuksen näyttö
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [40821495](https://pubmed.ncbi.nlm.nih.gov/40821495/) | 2025 | Case Report | Proceedings (Baylor University Medical Center) | Case of refractory cutaneous pseudolymphoma (T-cell lymphoproliferative process mimicking CTCL); mometasone and tacrolimus were tried but unsuccessful before switching to tapinarof |
-| [25442255](https://pubmed.ncbi.nlm.nih.gov/25442255/) | 2015 | Case Report | Journal of Cutaneous Pathology | Pediatric case of CD8+CD56+ cytotoxic mycosis fungoides (a primary cutaneous T-cell lymphoma subtype); mometasone mentioned in the clinical context of the disease, not as a proven therapeutic |
+Tällä hetkellä ei ole liittyviä rekisteröityjä kliinisiä tutkimuksia
 
 ---
 
-## Finland Market Information
+## Kirjallisuuden näyttö
 
-Mometasone currently has no marketing authorization in Finland (0 licenses on record).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät havainnot |
+|------|------|------|------|---------|
+| [40821495](https://pubmed.ncbi.nlm.nih.gov/40821495/) | 2025 | Tapausraportti | Proceedings (Baylor University Medical Center) | Tapaus hoitoresistentista kutaanisesta pseudolymfoomasta (T-solujen lymfoproliferatiivinen prosessi, joka jäljittelee CTCL:ää); mometasonea ja takrolimuusta yritettiin, mutta epäonnistuivat ennen siirtymistä tapinarofiin |
+| [25442255](https://pubmed.ncbi.nlm.nih.gov/25442255/) | 2015 | Tapausraportti | Journal of Cutaneous Pathology | Pediatrinen tapaus CD8+CD56+ sytotoksisesta mycosis fungoidesista (primaarin kutaanisen T-solujen lymfooman alatyyppi); mometasonea mainitaan sairauden kliinisessä yhteydessä, ei todetuksi terapeuttiseksi |
 
 ---
 
-## Conclusion and Next Steps
+## Suomen markkinatiedot
 
-**Decision: Hold**
+Mometasonilla ei ole tällä hetkellä markkinointilupaa Suomessa (0 lisenssiä kirjanpidossa).
 
-**Rationale:**
-Evidence is limited to two case reports in which mometasone appears only as a background or failed treatment, with no clinical trials, no drug-specific efficacy data, and a blocking data gap on TFDA/package-insert safety information — this falls short of what is needed even for a preliminary safety review (S1).
+---
 
-**To proceed, the following is needed:**
-- TFDA/manufacturer package insert with warnings and contraindications (currently blocking S1 safety review)
-- Confirmed mechanism of action (MOA) data from DrugBank or primary literature
-- Confirmed original approved indication(s) for mometasone
-- Clinical or preclinical studies evaluating mometasone specifically (not corticosteroids as a class) in CTCL/mycosis fungoides
-- Drug interaction (DDI) data, currently unavailable
+## Turvallisuusnäkökohdat
+
+Katso turvallisuustietoja pakkausselosteesta.
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidä odotuksessa**
+
+**Perustelut:**
+Näyttö on rajoittunut kahteen tapausraporttiin, joissa mometasone näkyy vain taustaksi tai epäonnistuneeksi hoidoksi, ilman kliinisiä tutkimuksia, ilman lääkkeen spesifisiä tehokkuustietoja ja TFDA/pakkausselosteen turvallisuustietojen puutteen kanssa — tämä ei täytä vaatimuksia edes alustavan turvallisuusarvioinnin (S1) kannalta.
+
+**Edistymisen kannalta tarvitaan seuraavaa:**
+- TFDA/valmistajan pakkausseloste, jossa on varoitukset ja vasta-aiheet (tällä hetkellä estää S1 turvallisuusarviointia)
+- Vahvistetut vaikutusmekanismin (MOA) tiedot DrugBankista tai alkuperäisestä kirjallisuudesta
+- Vahvistetut alkuperäiset hyväksynnän näyttöjä (indikatiota) mometasonille
+- Kliiniset tai prekliiniset tutkimukset, jotka arvioivat mometasonea spesifisesti (ei kortikosteroideja luokkana) CTCL:ssä/mycosis fungoidesissa
+- Lääkkeiden välisen vuorovaikutuksen (DDI) tiedot (tällä hetkellä ei saatavilla)
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

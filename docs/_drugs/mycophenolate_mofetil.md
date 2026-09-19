@@ -29,97 +29,98 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Mycophenolate Mofetil: From Organ Transplant Rejection Prophylaxis to HIV Infectious Disease
+# Mykofenolaaatti: Elimisiirron torjuntaprofylaksista HIV-infektioon
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Mycophenolate mofetil (MMF) is a purine-synthesis-inhibiting immunosuppressant historically used to prevent rejection after solid organ transplantation. The TxGNN model predicts it may be effective for **HIV infectious disease**, with **10 clinical trials** and **20 publications** currently retrieved in support of this direction — though the strongest human data date from small, mostly investigator-initiated studies conducted in the early-to-mid 2000s.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Prophylaxis of organ transplant rejection (renal, cardiac, hepatic) — based on general pharmacological knowledge; no Finland-specific approved indication text is available (see below) |
-| Predicted New Indication | HIV infectious disease |
-| TxGNN Prediction Score | 99.86% |
-| Evidence Level | L2 |
-| Finland Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Mykofenolaatti (MMF) on puriininsynteesiä estävä immunosuppressantti, jota on historiallisesti käytetty torjumaan elimisiirron jälkeistä hylkäytymistä. TxGNN-malli ennustaa, että se voi olla tehokas **HIV-infektiotaudissa**, ja tällä hetkellä on saatavilla **10 kliinistä tutkimusta** ja **20 julkaisua** tämän suunnan tueksi – vaikka vahvimmat kliiniset tiedot ovat peräisin pienistä, pääasiassa tutkija-aloitteisista tutkimuksista, jotka tehtiin 2000-luvun alussa ja puolivälissä.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Structured mechanism-of-action data for this candidate were not returned from DrugBank (flagged as a High-severity data gap, DG002). However, the repurposing evidence pack supplies a specific mechanistic rationale: MMF inhibits inosine monophosphate dehydrogenase (IMPDH), depleting the guanine nucleotide pool and blocking proliferation of lymphocytes — including activated CD4+ T cells, the primary target/reservoir cells for HIV replication.
-
-This is not a purely speculative mechanistic leap. Because activated, proliferating CD4+ T cells are both the preferred substrate for HIV infection and the cell population MMF most potently suppresses, researchers proposed in the late 1990s and 2000s that MMF could shrink the pool of cells available for viral replication and slow CD4+ T-cell depletion in chronic HIV-1 infection. MMF was also studied as an adjunct to nucleoside reverse transcriptase inhibitors (particularly abacavir and didanosine), where mycophenolic acid was shown to deplete intracellular deoxyguanosine triphosphate (dGTP) and potentiate antiretroviral activity in vitro and in small clinical cohorts.
-
-Taken together, the prediction reflects a genuine, previously-tested immunomodulatory hypothesis rather than a novel mechanistic guess — but the human evidence base remains limited to small, mostly Phase 1/2 pilot and cohort studies, several of which were terminated or withdrawn before completion.
+| Kohta | Sisältö |
+|------|--------|
+| Alkuperäinen indikaatio | Elimisiirron torjunnan profylaksia (munuainen-, sydän-, maksa-) – perustuu yleiseen farmakologiseen tietoon; Suomi-spesifiä hyväksyttyä indikaatiotekstiä ei ole saatavilla (ks. alla) |
+| Ennustettu uusi indikaatio | HIV-infektiotauti |
+| TxGNN-ennustepisteet | 99.86% |
+| Näyttötaso | L2 |
+| Markkinatilanne Suomessa | Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Pidä odotuksessa |
 
 ---
 
-## Clinical Trial Evidence
+## Miksi tämä ennuste on järkevä?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Strukturoitua toimintamekanismia koskevat tiedot tälle ehdokkaalle ei saatu DrugBankista (merkitty korkean vakavuuden tietovajeeksi, DG002). Kuitenkin uudelleenkäytön näyttöpaketti tarjoaa erityisen mekaanisen perustelun: MMF estää inosiini-5'-monofosfaatin dehydrogenaasia (IMPDH), tyhjentäen guaniininukleotidivarantoja ja estäen lymfosyyttien – mukaan lukien aktivoidut CD4+ T-solut, pääasiallinen kohde-/varastosolu HIV-replikaatiolle – proliferaatiota.
+
+Tämä ei ole puhtaasti spekulatiivinen mekaaninen hypoteesi. Koska aktivoidut, lisääntyvät CD4+ T-solut ovat sekä ensisijainen substraatti HIV-infektiolle että solujen populaatio, joita MMF voimakkaimmin estää, tutkijat ehdottivat 1990-luvun lopulla ja 2000-luvulla, että MMF voisi pienentää kroonisen HIV-1-infektioiden viruksille saatavilla olevien solujen varantoja ja hidastaa CD4+ T-solujen vähenemistä. MMF tutkittiin myös nukleosidi-käänteisen transkriptaasin estäjien (erityisesti abakaviiria ja didanoksiinia) lisäaineena, jolloin mykofenolaatihappo osoitettiin tyhjentävän intraselulaariset deoksiguanosiini-trifosfaattia (dGTP) ja potentioimaan antiretroviraaliaktiviteettia in vitro ja pienissä kliinisissä kohorteissa.
+
+Yhteensä ottaen ennuste heijastaa aitoa, aiemmin testattua immunomodulaatoriohypoteesia pikemminkin kuin uuden mekaanisen arvailun – mutta ihmisaineiston näyttöpohja pysyy rajoittuneena pieniin, pääasiassa fase 1/2 pilotti- ja kohortti-tutkimuksiin, joista useat keskeytettiin tai peruutettiin ennen valmistumista.
+
+---
+
+## Kliiniset tutkimukset
+
+| Tutkimuksen numero | Vaihe | Tila | Rekrytointi | Keskeiset löydökset |
 |---------|------|------|------|---------|
-| [NCT00120419](https://clinicaltrials.gov/study/NCT00120419) | Phase 4 | Unknown | 90 | MAN2 study — evaluates whether MMF can dampen chronic immune hyperactivation and slow CD4+ T-cell decline in ART-naive chronic HIV-1 patients, and its effect on HIV-1 RNA and disease progression |
-| [NCT00247494](https://clinicaltrials.gov/study/NCT00247494) | Phase 4 | Unknown | 90 | MAN2 substudy assessing effects of MMF on cardiovascular surrogate markers in HIV-1 infected patients |
-| [NCT00021489](https://clinicaltrials.gov/study/NCT00021489) | Phase 1/2 | Withdrawn | 0 | Planned safety/tolerability and antiretroviral-activity study of MMF added to abacavir in heavily treatment-experienced HIV patients; withdrawn before enrollment, no data generated |
-| [NCT00009009](https://clinicaltrials.gov/study/NCT00009009) | Phase 2 | Completed | 10 | Renal transplantation in HIV-infected patients with end-stage renal disease, examining safety of MMF-based immunosuppression in this population |
-| [NCT02793544](https://clinicaltrials.gov/study/NCT02793544) | Phase 2 | Completed | 80 | HLA-mismatched unrelated donor bone marrow transplant (HIV-cure-directed research context) using MMF as standard GVHD prophylaxis, not as the primary study drug |
-| [NCT00112593](https://clinicaltrials.gov/study/NCT00112593) | N/A | Completed | 5 | Allogeneic HSCT to induce mixed hematopoietic chimerism in HIV-1-infected patients, with post-transplant immunosuppression using cyclosporine and MMF |
-| [NCT01453192](https://clinicaltrials.gov/study/NCT01453192) | Phase 3 | Completed | 27 | Multicenter follow-up of renal transplantation in HIV-1 infected patients with end-stage renal insufficiency, evaluating acute graft rejection incidence |
-| [NCT00038272](https://clinicaltrials.gov/study/NCT00038272) | Phase 2 | Completed | 56 | Pilot RCT of amdoxovir (DAPD) with or without MMF in treatment-experienced HIV patients; primary study drug is DAPD, MMF is an add-on arm |
-| [NCT01288131](https://clinicaltrials.gov/study/NCT01288131) | Phase 3 | Terminated | 8 | MMF plus cyclosporine vs. cyclophosphamide plus prednisolone for anti-EPO-associated pure red cell aplasia — not an HIV indication |
-| [NCT06869265](https://clinicaltrials.gov/study/NCT06869265) | Phase 2 | Recruiting | 56 | Thiotepa/busulfan/fludarabine conditioning for haploidentical HSCT in elderly AML patients — unrelated to MMF/HIV, likely a keyword co-occurrence mismatch |
+| [NCT00120419](https://clinicaltrials.gov/study/NCT00120419) | Vaihe 4 | Tuntematon | 90 | MAN2-tutkimus – arvioi, voiko MMF vaimentaa kroonista immuuniaktivaatiota ja hidastaa CD4+ T-solujen vähenemistä ART-naiiveissa kroonisen HIV-1-infektioiden potilaissa, ja sen vaikutusta HIV-1-RNA:han ja taudin etenemiseen |
+| [NCT00247494](https://clinicaltrials.gov/study/NCT00247494) | Vaihe 4 | Tuntematon | 90 | MAN2-alitutkimus, joka arvioi MMF:n vaikutuksia kardiovaskulaarisiin korvikkeisiin HIV-1-infisoiduissa potilaissa |
+| [NCT00021489](https://clinicaltrials.gov/study/NCT00021489) | Vaihe 1/2 | Peruutettu | 0 | Suunniteltu turvallisuus-/siedettävyystutkimus ja antiretroviraaliaktiivisuustutkimus MMF:stä lisättynä abakaviiria raskaasti hoidettuihin HIV-potilaisiin; peruutettu ennen rekrytointia, tietoja ei syntynyt |
+| [NCT00009009](https://clinicaltrials.gov/study/NCT00009009) | Vaihe 2 | Valmistunut | 10 | Munuaissiirrto HIV-infektoiduissa potilaissa, joilla on loppuvaiheen munuaisten vajaatoiminta, tutkien MMF-pohjaisen immunosuppression turvallisuutta tässä väestössä |
+| [NCT02793544](https://clinicaltrials.gov/study/NCT02793544) | Vaihe 2 | Valmistunut | 80 | HLA-virheensopimattomat sukua olevat luuydinsiirrannaiset (HIV-parannustutkimus-konteksti) käyttäen MMF:ää vakiintuneen GVHD-profylaksina, ei pääasiallisesti tutkittavana lääkeaineena |
+| [NCT00112593](https://clinicaltrials.gov/study/NCT00112593) | N/A | Valmistunut | 5 | Allogeninen HSCT indusoida sekamuotoista hematopoieettista kimerismia HIV-1-infektoiduissa potilaissa, jossa siirrannälkeen jälkeinen immunosuppressio käyttäen siklosporiinia ja MMF:ää |
+| [NCT01453192](https://clinicaltrials.gov/study/NCT01453192) | Vaihe 3 | Valmistunut | 27 | Monikeskuksinen seurantatutkimus munuaissiirrosta HIV-1-infektoiduissa potilaissa, joilla on loppuvaiheen munuaisten vajaatoiminta, arvioden akuutin siirroksen torjuntatapauksien esiintymistiheyttä |
+| [NCT00038272](https://clinicaltrials.gov/study/NCT00038272) | Vaihe 2 | Valmistunut | 56 | Pilotti-RCT amidoksivoiria (DAPD) kanssa tai ilman MMF:ää hoitojen kestävissä HIV-potilaissa; pääasiallinen tutkittava lääkeaine on DAPD, MMF on lisäosa-varsi |
+| [NCT01288131](https://clinicaltrials.gov/study/NCT01288131) | Vaihe 3 | Pysäytetty | 8 | MMF plus siklosporiini vs. siklofosfa-miidi plus prednisoloni anti-EPO-liittyvää puhdasta punaisten solujen aplasian – ei HIV-indikaatio |
+| [NCT06869265](https://clinicaltrials.gov/study/NCT06869265) | Vaihe 2 | Hakee osallistujia | 56 | Tiotepa/busulfaani/fludarabiini -konditionointi haplo-identtiselle HSCT:lle iäkkäille AML-potilailla – ei liity MMF/HIV:hen, todennäköisesti avainsana-esiintymisen virhe |
 
 ---
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [15213566](https://pubmed.ncbi.nlm.nih.gov/15213566/) | 2004 | Randomized pilot study | J Acquir Immune Defic Syndr | 17 chronic HIV-1 patients randomized to MMF vs. continued HAART after treatment interruption; assessed immune response and plasma/lymphatic tissue viral load |
-| [15353978](https://pubmed.ncbi.nlm.nih.gov/15353978/) | 2004 | Controlled trial | AIDS | HAART with or without MMF in treatment-naive HIV-1 patients; studied effect on plasma HIV-1 RNA decay rate and the latent reservoir |
-| [16379601](https://pubmed.ncbi.nlm.nih.gov/16379601/) | 2005 | Cohort (Tier 1) | AIDS Res Hum Retroviruses | No detrimental immunological effects observed when combining MMF with HAART in treatment-naive acute/chronic HIV-1 patients |
-| [12352149](https://pubmed.ncbi.nlm.nih.gov/12352149/) | 2002 | Cohort (Tier 1) | J Acquir Immune Defic Syndr | Adding MMF to abacavir-containing ART was associated with intracellular dGTP depletion and decreased plasma HIV-1 RNA in 5 heavily pretreated patients |
-| [41118390](https://pubmed.ncbi.nlm.nih.gov/41118390/) | 2025 | Cohort | J Clin Invest | Antiproliferative drugs combined with cognate peptide stimulation selectively reduced clonally expanded HIV-infected CD4+ T cells |
-| [15871638](https://pubmed.ncbi.nlm.nih.gov/15871638/) | 2005 | PK study | Clin Pharmacokinet | Pharmacokinetics/pharmacodynamics of low-dose MMF in HIV patients on abacavir, efavirenz, and nelfinavir |
-| [15355127](https://pubmed.ncbi.nlm.nih.gov/15355127/) | 2004 | PK study | Clin Pharmacokinet | Effect of MMF on pharmacokinetics of antiretrovirals and on intracellular nucleoside triphosphate pools |
-| [11391161](https://pubmed.ncbi.nlm.nih.gov/11391161/) | 2001 | Pilot study | J Acquir Immune Defic Syndr | Open-label pilot of MMF added to a multidrug-resistant HIV-1 regimen (abacavir, ddI, amprenavir, ritonavir ± efavirenz) in 7 heavily treated AIDS patients |
-| [17017956](https://pubmed.ncbi.nlm.nih.gov/17017956/) | 2006 | Review (Tier 2) | Curr Top Med Chem | Reviews immunosuppressive drugs, including MMF, as adjuncts to HAART targeting chronic immune activation in HIV disease |
-| [17885292](https://pubmed.ncbi.nlm.nih.gov/17885292/) | 2007 | Clinical study | AIDS | Safety, tolerability and antiretroviral activity of amdoxovir (DAPD) with or without MMF in drug-resistant HIV-1 infection |
-
----
-
-## Finland Market Information
-
-Mycophenolate mofetil is currently **not marketed in Finland** — no marketing authorizations are on record (0 licenses found). No product/dosage-form/indication data are available to tabulate.
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
+|------|------|------|------|---------|
+| [15213566](https://pubmed.ncbi.nlm.nih.gov/15213566/) | 2004 | Satunnaistettu pilootti-tutkimus | J Acquir Immune Defic Syndr | 17 kroonisen HIV-1-infektioiden potilasta satunnaistettu MMF vs. jatkettu HAART käsittelyjen keskeytyksen jälkeen; arvioitiin immuunivasteesta ja plasma-/imusolmun kudoksen viruskuormituksesta |
+| [15353978](https://pubmed.ncbi.nlm.nih.gov/15353978/) | 2004 | Kontrolloitu tutkimus | AIDS | HAART kanssa tai ilman MMF:ää hoitamattomissa HIV-1-potilaissa; tutkittiin vaikutusta plasma-HIV-1-RNA:n vähenemisnopeudelle ja piilevään varantoon |
+| [16379601](https://pubmed.ncbi.nlm.nih.gov/16379601/) | 2005 | Kohortti (Taso 1) | AIDS Res Hum Retroviruses | Mitään haitallisia immuunologisia vaikutuksia ei havaittu, kun MMF yhdistettiin HAART:iin hoitamattomissa akuuteissa/kroonisen HIV-1-infektioissa |
+| [12352149](https://pubmed.ncbi.nlm.nih.gov/12352149/) | 2002 | Kohortti (Taso 1) | J Acquir Immune Defic Syndr | MMF:n lisääminen abakaviiria sisältävään ART:iin liittyi intraselulaariaseen dGTP-vähenemiseen ja vähentyneeseen plasma-HIV-1-RNA:han raskaasti hoidettuissa 5 potilaissa |
+| [41118390](https://pubmed.ncbi.nlm.nih.gov/41118390/) | 2025 | Kohortti | J Clin Invest | Antiproliferatiiviset lääkkeet yhdessä kognaatti-peptidi-stimulaation kanssa vähensi klonaalisen laajentuneet HIV-infektoidut CD4+ T-solut valikoivasti |
+| [15871638](https://pubmed.ncbi.nlm.nih.gov/15871638/) | 2005 | Farmakokinetiikat-tutkimus | Clin Pharmacokinet | Matalien annoksien MMF:n farmakokinetiikat/farmakodynaamiset ominaisuudet HIV-potilaissa abakaviiria, efaviirentsia ja nelfinaviria saavilla |
+| [15355127](https://pubmed.ncbi.nlm.nih.gov/15355127/) | 2004 | Farmakokinetiikat-tutkimus | Clin Pharmacokinet | MMF:n vaikutus antiretroviraaliaineiden farmakokinetiikoihin ja intraselulaariisiin nukleosidi-trifosfaatti-varantoihin |
+| [11391161](https://pubmed.ncbi.nlm.nih.gov/11391161/) | 2001 | Pilootti-tutkimus | J Acquir Immune Defic Syndr | Avoin pilootti-tutkimus MMF lisättynä monilääkeresistentille HIV-1-säännöstelypotilaalle (abakaviiria, ddI, amprenaviiria, ritonaviiri ± efavirensa) 7 raskaasti hoidettussa AIDS-potilaissa |
+| [17017956](https://pubmed.ncbi.nlm.nih.gov/17017956/) | 2006 | Katsaus (Taso 2) | Curr Top Med Chem | Arvioi immunosuppressiivisiä lääkkeitä, mukaan lukien MMF, lisäaineina HAART:iin, kohdistuen krooniseen immuuniaktivaatioon HIV-taudissa |
+| [17885292](https://pubmed.ncbi.nlm.nih.gov/17885292/) | 2007 | Kliininen tutkimus | AIDS | Amidoksivoiria (DAPD) kanssa tai ilman MMF:ää turvallisuus, siedettävyys ja antiretroviraaliaktiivisuus lääke-resistentissä HIV-1-infektiossa |
 
 ---
 
-## Safety Considerations
+## Suomen markkinatiedot
 
-Please refer to the package insert for safety information. Structured safety data (key warnings, contraindications, and drug–drug interaction records) could not be retrieved for this candidate; the TFDA-equivalent package insert warnings/contraindications are recorded as a **Blocking** data gap (DG001) that must be resolved before any S1 safety pre-assessment can proceed.
+Mykofenolaaatti ei ole tällä hetkellä markkinoilla Suomessa – markkinointilupia ei ole kirjattu (0 lupaa löytyi). Tuotetta/annosmuotoa/indikaatiotietoja ei ole saatavilla taulukoida.
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuusasiat
 
-**Decision: Hold**
+Tutustu pakkausselosteeseen turvallisuustiedoista. Strukturoitua turvallisuustietoa (keskeiset varoitukset, vasta-aiheet ja lääke–lääke-vuorovaikutusrekisteri) ei voitu hakea tälle ehdokkaalle; TFDA:n vastaavat pakkausselosteen varoitukset/vasta-aiheet on kirjattu **Estävänä** tietovajeksena (DG001), joka on ratkaistava ennen kuin mikä tahansa S1-turvallisuus-ennakkoselvitys voidaan jatkaa.
 
-**Rationale:**
-The IMPDH-inhibition mechanism gives a biologically coherent rationale for suppressing HIV target-cell proliferation, and this hypothesis was actually tested clinically in the 2000s (small cohorts, pilot RCTs, and one PK series) with encouraging but not definitive results — no confirmatory Phase 3 efficacy trial exists, several relevant studies were withdrawn or terminated, and the MAN2 study's outcome status remains "Unknown." Combined with the complete absence of validated safety/DDI data and the drug's non-marketed status in Finland, the evidence does not yet support proceeding to development or clinical guardrail design.
+---
 
-**To proceed, the following is needed:**
-- Official package insert / TFDA-equivalent warnings and contraindications (resolves Blocking gap DG001)
-- Confirmed mechanism-of-action documentation from DrugBank (resolves High-severity gap DG002)
-- A completed drug–drug interaction database query (currently "not_found")
-- Verification of final outcomes/publication status for the MAN2 study (NCT00120419/NCT00247494)
-- Assessment of the regulatory pathway required for Finland market entry if this indication is pursued further
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidä odotuksessa**
+
+**Perustelu:**
+IMPDH-estämisen mekanismi antaa biologisesti johdonmukaisen perustelun HIV-kohdesolujen lisääntymisen estämiselle, ja tätä hypoteesia testattiin tosiasiassa kliinisesti 2000-luvulla (pienet kohordit, pilotti-RCT:t ja yksi PK-sarja) kannustavilla mutta ei ratkaisevilla tuloksilla – yhtään vahvistamista vaativaa vaihe 3 tehokkuustutkimusta ei ole, useat merkitykselliset tutkimukset keskeytettiin tai peruutettiin, ja MAN2-tutkimuksen lopullisen tuloksen tila pysyy "Tuntematon". Yhdessä täydellisen puuttumisen kanssa validoitujen turvallisuus-/DDI-tietojen ja lääkkeen ei-markkinoitu-tila Suomessa, näyttö ei vielä tue jatkamista kehitykseen tai kliinisten varoitusten suunnitteluun.
+
+**Jatkaakseen tarvitaan seuraavaa:**
+- Virallinen pakkausseloste / TFDA:n vastaavat varoitukset ja vasta-aiheet (ratkaisee estävän vaon DG001)
+- Vahvistettu toimintamekanismi-dokumentaatio DrugBankista (ratkaisee korkean vakavuuden vaon DG002)
+- Lääke–lääke-vuorovaikutustietokannan kysely valmis (tällä hetkellä "not_found")
+- MAN2-tutkimuksen (NCT00120419/NCT00247494) lopullisten tulosten/julkaisun tilan vahvistus
+- Sääntelytien arvioiminen, jota Suomen markkinoille pääsy vaatii, jos tätä indikaatiota jatketaan edelleen
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

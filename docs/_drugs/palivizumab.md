@@ -29,56 +29,57 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Palivizumab: From RSV Prophylaxis to Benign Neoplasm of Tongue
+# Palivizumab: RSV-profylaksiasta kielen hyvänlaatuiseen kasvaimeen
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Palivizumab is a humanized monoclonal antibody used to prevent respiratory syncytial virus (RSV) infection in high-risk infants. The TxGNN model predicts it may be effective for **benign neoplasm of tongue**, but this prediction is currently supported by **0 clinical trials** and **0 publications**.
+Palivizumab on humanisoidusta monoklonaalista vasta-aineesta valmistettu lääke, jota käytetään hengitysteiden synkytiaaliviruksen (RSV) infektioiden ehkäisyyn korkean riskin keskoilla. TxGNN-malli ennustaa, että se saattaa olla tehokas **kielen hyvänlaatuiselle kasvaimelle**, mutta tätä ennustetta tuetaan tällä hetkellä **0 kliinisella tutkimuksella** ja **0 julkaisulla**.
 
-## Quick Overview
+## Pika-yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | RSV (Respiratory Syncytial Virus) infection prophylaxis (based on known drug classification; not marketed in Finland, so no structured license text is available) |
-| Predicted New Indication | Benign neoplasm of tongue |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L5 |
-| Finland Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohde | Sisältö |
+|-------|---------|
+| Alkuperäinen indikatio | RSV-infektioiden profylaksia (perustuu tunnettuun lääkkeen luokitteluun; ei markkinoitu Suomessa, joten strukturoitua hyväksymistekstiä ei ole saatavana) |
+| Ennustettu uusi indikatio | Kielen hyvänlaatuinen kasvain |
+| TxGNN-ennustepisteet | 99.94% |
+| Näyttötaso | L5 |
+| Suomen markkinatilanne | ✗ Ei markkinoitu |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Odottaa |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Palivizumab is a humanized monoclonal antibody that targets the RSV fusion (F) protein. It works by neutralizing the virus and blocking cell-to-cell fusion, making it a respiratory antiviral prophylactic agent rather than an oncology drug.
+Palivizumab on humanisoidusta monoklonaalista vasta-aineesta valmistettu lääke, joka kohdistuu RSV:n fuusioproteiiniin (F). Se toimii neutraloimalla virusta ja estämällä solusta soluun siirtymisen, joten se on hengitysteiden antiviraalinen profylaktiikka-aine eikä onkologinen lääke.
 
-There is no known mechanistic link between neutralizing an RSV surface glycoprotein and the biology of a benign oral/tongue neoplasm. No shared pathway, receptor, or cellular process connects the two.
+RSV-pinnan glykoproteiinin neutraloinnin ja hyvänlaatuisen suun/kielen kasvainbiologian välillä ei tunneta mekanistista yhteyttä. Mitään yhteistä reittiä, reseptoria tai solubiologista prosessia ei yhdistä näitä kahta.
 
-Notably, all top-10 TxGNN predictions for this drug (tongue neoplasm, epiglottis neoplasm, cervical neuroblastoma, hypopharynx neoplasm, floor-of-mouth neoplasm, testicular tumor, cystic neoplasm, jugular foramen schwannoma, mesenchymoma, thyroglossal duct cyst) cluster within a narrow score band (99.93–99.94%) and span unrelated head/neck and reproductive-organ pathologies. This pattern is more consistent with a structural artifact of the knowledge graph — e.g., node proximity within a pediatric/rare-disease ontology cluster — than with a genuine causal signal. No clinical or literature evidence currently supports any of these ten predictions.
+Merkittävää on, että kaikki kymmenen parasta TxGNN-ennustetta tälle lääkkeelle (kielen kasvain, kurkunkannen kasvain, kaulan neuroblastoma, nielusuun kasvain, suun pohjan kasvain, testiksen kasvain, kystinen kasvain, kaula-aukon schwannoma, mesenkymaoma, kilpirauhasen kielen kanavan kystä) ryhmittyvät kapealle pistealueelle (99.93–99.94%) ja kattavat toisiinsa liittymättömiä pään/kaulan ja sukupuolielinten patologioita. Tämä kuvio on yhteensopivampi tietokaavion upotuksen artefaktin kanssa — esimerkiksi solun läheisyys pediatrisen/harvinaisen taudin ontologiaklusterissa — kuin todellisen syy-suhteen kanssa. Mitkään näistä kymmenestä ennusteesta eivät ole tällä hetkellä tuettuina kliinisellä tai kirjallisuusnäytöllä.
 
-## Clinical Trial Evidence
+## Kliinisten tutkimusten näyttö
 
-Currently no related clinical trials registered
+Tällä hetkellä ei ole rekisteröityjä liittyvää kliinisiä tutkimuksia
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-Currently no related literature available
+Tällä hetkellä ei ole saatavilla liittyvää kirjallisuutta
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information.
+Turvallisuustiedot löytyvät pakkausselosteesta.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Odottaa**
 
-**Rationale:**
-The prediction has a high TxGNN score but zero supporting clinical trials or literature, and the drug's known mechanism (RSV F-protein neutralization) has no plausible biological connection to tongue neoplasia. The clustering of ten unrelated neoplasm predictions at nearly identical scores further suggests a graph-embedding artifact rather than a real signal (Evidence Level L5, Decision Stage S0).
+**Perustelut:**
+Ennusteella on korkea TxGNN-pistemäärä, mutta nolla tukevia kliinisiä tutkimuksia tai kirjallisuutta, ja lääkkeen tunnetulla mekanismilla (RSV:n F-proteiinin neutralointi) ei ole uskottavaa biologista yhteyttä kielen kasvaimiin. Kymmenen epäliittyvän kasvainennusteen klusteroituminen lähes identtisiin pisteisiin viittaa edelleen enemmän tietokaavion upotuksen artefaktiin kuin todelliseen signaaliin (Näyttötaso L5, Päätösvaihe S0).
 
-**To proceed, the following is needed:**
-- TFDA/regulatory package insert data (currently a Blocking data gap, DG001)
-- Confirmed mechanism of action from DrugBank or primary literature (High-priority data gap, DG002)
-- Independent preclinical or biological plausibility review before any further evidence search is justified
-- Re-evaluation of TxGNN output for signs of ontology-cluster bias across the full head/neck-neoplasm prediction set
+**Jatkon edellytykset:**
+- TFDA/sääntelyviranomaisen pakkausselostedata (tällä hetkellä estävä datakohde, DG001)
+- Vahvistettu vaikutusmekanismi DrugBankista tai alkuperäisestä kirjallisuudesta (korkean prioriteetin datakohde, DG002)
+- Riippumaton prekliininen tai biologisen uskottavuuden arviointi, ennen kuin lisätodisteiden etsiminen on perusteltavaa
+- TxGNN-tulosten uudelleen arviointi ontologiaklusterharhojen varalta koko pään/kaulan kasvainennustejoukossa
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

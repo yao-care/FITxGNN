@@ -29,79 +29,80 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-# Memantine: From Alzheimer's Disease to Pulmonary Hypertension
+# Memantiin: Alzheimerin taudista keuhkoverenpainetautiin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Memantine is an NMDA receptor antagonist best known for treating moderate-to-severe Alzheimer's disease dementia. The TxGNN model's top-ranked prediction suggests it may be effective for **Pulmonary Hypertension**, but this direction is currently supported only by mechanistic literature — **0 registered clinical trials** and **2 supporting publications**, with no dedicated efficacy studies of memantine itself in this indication.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Alzheimer's disease (moderate-to-severe dementia) — based on the drug's known clinical profile; not confirmed via the Finland registry, as the drug is currently unmarketed there |
-| Predicted New Indication | Pulmonary Hypertension |
-| TxGNN Prediction Score | 99.54% |
-| Evidence Level | L4 |
-| Finland Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Memantiin on NMDA-reseptorin antagonisti, joka tunnetaan parhaiten kohtalaisen ja vaikean Alzheimerin taudin dementian hoidosta. TxGNN-mallin huipulla sijoittuva ennuste viittaa siihen, että se saattaa olla tehokas **keuhkoverenpainetaudissa**, mutta tätä suuntaa tukevat tällä hetkellä vain mekanistinen kirjallisuus — **0 rekisteröityjä kliinisiä tutkimuksia** ja **2 tukevaa julkaisua**, eikä memantiinan omaa tehotutkimusta ole tässä indikaatiossa.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Lyhyt yleiskatsaus
 
-Currently, detailed mechanism of action data for memantine is not available in this evidence pack (data gap, high severity). Based on general drug knowledge, memantine is a moderate-affinity, uncompetitive NMDA (N-methyl-D-aspartate) receptor antagonist, with proven efficacy in Alzheimer's disease dementia by modulating glutamatergic neurotransmission.
-
-The mechanistic bridge to pulmonary hypertension comes from the glutamate/NMDAR signaling axis, which has been implicated beyond the central nervous system — including in acute lung injury and pulmonary arterial hypertension pathophysiology (PMID 33500723). This suggests NMDAR blockade could plausibly affect pulmonary vascular remodeling, though this is preclinical/mechanistic evidence rather than direct clinical proof in memantine itself.
-
-Notably, a nitrate derivative of memantine (MN-08) is already in clinical development specifically for pulmonary arterial hypertension, having completed a Phase 1 single/multiple ascending dose safety and pharmacokinetics study in healthy volunteers (PMID 41739394). This is a meaningful signal — it indicates industry interest in the memantine/NMDAR scaffold for this exact indication — but it is evidence for a related compound, not for memantine itself, and no efficacy data yet exists for either molecule in pulmonary hypertension patients.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Alzheimerin tauti (kohtalaisen ja vaikean dementian hoito) — perustuu lääkkeen tunnettuun kliiniseen profiiliin; ei vahvistettu Suomen rekisterin kautta, koska lääke on tällä hetkellä markkinoimatta |
+| Ennustettu uusi indikaatio | Keuhkoverenpainetauti |
+| TxGNN-ennusteen pistemäärä | 99.54% |
+| Näyttötaso | L4 |
+| Suomen markkinoiden tila | Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Odota |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennuste on järkevä?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [33500723](https://pubmed.ncbi.nlm.nih.gov/33500723/) | 2021 | Mechanism study | Theranostics | Glutamate/NMDAR axis implicated in acute lung injury, pulmonary arterial hypertension, and diabetes; explores metabolic role in insulin sensitivity/lipid metabolism |
-| [41739394](https://pubmed.ncbi.nlm.nih.gov/41739394/) | 2026 | Phase 1 PK/safety study | Clinical Drug Investigation | MN-08, a nitrate derivative of memantine under development for pulmonary arterial hypertension, shown safe and tolerable in single/multiple ascending dose study in healthy Chinese volunteers |
+Tällä hetkellä memantiinan yksityiskohtaisia toimintamekanismin tietoja ei ole saatavilla tässä näyttöpaketissa (tietoaukko, korkea vakavuus). Yleisen lääketieteellisen tiedon perusteella memantiin on kohtalaisen affiniteetin, ei-kilpaileva NMDA (N-methyl-D-aspartate) -reseptorin antagonisti, jolla on todistettu teho Alzheimerin taudin dementian hoidossa glutamaattergisen neurotransmission säätelyn kautta.
 
----
+Mekanistinen silta keuhkoverenpainetautiin tulee glutamaatti/NMDA-reseptorin signalointiakselista, jolle on osoitettu merkitystä keskushermoston ulkopuolella — mukaan lukien akuutissa keuhkovammassa ja keuhkojen valtimoiden verenpainetaudin patofysiologiassa (PMID 33500723). Tämä viittaa siihen, että NMDA-reseptorin esto voisi vaikuttaa keuhkojen verisuonten uudelleenmuotoutumiseen, vaikka tämä on prekliinistä/mekanistista näyttöä eikä suoraa kliinistä näyttöä memantiinan itsensä osalta.
 
-## Finland Market Information
-
-Memantine is not currently marketed in Finland (Not marketed); no marketing authorizations are on record in this evidence pack.
+On huomionarvoista, että memantiinan nitraattijohdannainen (MN-08) on jo kliinisessä kehitysvaiheessa erityisesti keuhkojen valtimoiden verenpainetaudin hoitoon, ja se on saattanut loppuun vaiheen 1 yksittäisen/usean nousevan annoksen turvallisuus- ja farmakokinetiikkatutkimuksen terveillä vapaaehtoisilla (PMID 41739394). Tämä on merkityksellinen merkki — se osoittaa teollisuuden kiinnostusta memantiinan/NMDA-reseptorin rakenteeseen tälle tarkoille indikaatiolle — mutta se on näyttöä sukua olevalle yhdisteelle, ei memantiinan itsensä osalta, eikä kummallaakaan molekyylillä ole vielä tehokkuustietoja keuhkoverenpainetaudin potilaissa.
 
 ---
 
-## Safety Considerations
+## Kliininen tutkimustieto
 
-Please refer to the package insert for safety information.
-
-*(Note: TFDA package insert warnings/contraindications are flagged as a **Blocking** data gap (DG001) — they must be obtained before any S1 safety pre-assessment can proceed.)*
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
 
 ---
 
-## Conclusion and Next Steps
+## Kirjallisuustieto
 
-**Decision: Hold**
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset tulokset |
+|------|-------|--------|-------|-------------------|
+| [33500723](https://pubmed.ncbi.nlm.nih.gov/33500723/) | 2021 | Mekanismitutkimus | Theranostics | Glutamaatti/NMDA-reseptorin akseli liittyen akuuttiin keuhkovammaan, keuhkojen valtimoiden verenpainetautiin ja diabetekseen; tutkii metabolisen roolin insuliiniherkkyydessä ja rasvojen aineenvaihdannassa |
+| [41739394](https://pubmed.ncbi.nlm.nih.gov/41739394/) | 2026 | Vaiheen 1 PK/turvallisuustutkimus | Clinical Drug Investigation | MN-08, memantiinan nitraattijohdannainen, jonka kehitys on käynnissä keuhkojen valtimoiden verenpainetaudin hoitoon, osoitettu turvalliseksi ja siedettäväksi yksittäisen/usean nousevan annoksen tutkimuksessa terveillä kiinalaisilla vapaaehtoisilla |
 
-**Rationale:**
-The pulmonary hypertension signal rests entirely on mechanistic literature and a Phase 1 PK study of a memantine analog (not memantine itself) — there are no registered clinical trials or efficacy data for memantine in this indication, so the evidence base is too thin to advance.
+---
 
-**To proceed, the following is needed:**
-- TFDA/official package insert warnings and contraindications (Blocking data gap — required before any safety pre-assessment)
-- Confirmed mechanism of action (MOA) documentation from DrugBank (High-severity data gap — needed to substantiate the mechanistic rationale)
-- Direct preclinical or clinical efficacy data for memantine (not just its analog MN-08) in pulmonary hypertension
-- Monitoring of MN-08 clinical development, as positive results there would meaningfully strengthen this repurposing case
+## Suomen markkinatiedot
+
+Memantiionia ei markkinoida tällä hetkellä Suomessa (Ei markkinoilla); näyttöpaketissa ei ole rekisteröityjä markkinointilupia.
+
+---
+
+## Turvallisuusnäkökohdat
+
+Turvallisuustietoja varten katso pakkausseloste.
+
+*(Huomautus: TFDA:n pakkausselosteen varoitukset/vasta-aiheet on merkitty **estäväksi** tietoaukoksi (DG001) — ne on hankittava ennen kuin S1-turvallisuuden esiarviointiin voidaan jatkaa.)*
+
+---
+
+## Johtopäätökset ja seuraavat vaiheet
+
+**Päätös: Odota**
+
+**Perustelut:**
+Keuhkoverenpainetaudin merkki perustuu kokonaan mekanistiseen kirjallisuuteen ja memantiinan analogin vaiheen 1 PK-tutkimukseen (ei memantiinan itsensä) — memantiiville ei ole rekisteröityjä kliinisiä tutkimuksia tai tehokkuustietoja tässä indikaatiossa, joten näyttöpohja on liian ohut jatkaakseen.
+
+**Jatkaakseen tarvitaan seuraavaa:**
+- TFDA:n virallisen pakkausselosteen varoitukset ja vasta-aiheet (Estävä tietoaukko — vaadittu ennen turvallisuuden esiarvioita)
+- Vahvistettu toimintamekanismi (MOA) dokumentaatio DrugBankista (Korkean vakavuuden tietoaukko — tarvitaan mekanistisen perustelun vahvistamiseksi)
+- Suora prekliininen tai kliininen tehokkuustieto memantiinanlle (ei vain sen analogille MN-08) keuhkoverenpainetaudissa
+- MN-08-kliinisen kehityksen seuranta, koska positiiviset tulokset siellä vahvistaisivat merkityksellisesti tätä uudelleenkäyttömahdollisuuden tapausta
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

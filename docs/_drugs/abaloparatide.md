@@ -29,94 +29,95 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-# ABALOPARATIDE: Drug Repurposing Evaluation Report
+# ABALOPARATIDE: Lääkkeen uudelleenkäytön arviointiraportti
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Abaloparatide (DrugBank: DB05084) is a synthetic peptide analog of parathyroid hormone-related protein (PTHrP), known internationally for the treatment of osteoporosis in postmenopausal women at high risk of fracture. Currently, **no new indications have been predicted by the TxGNN model**, and the drug is **not marketed in Taiwan** with **zero active licenses**. Insufficient data is available to support a repurposing assessment at this time.
+Abaloparatide (DrugBank: DB05084) on paratermoidi-hormoniin liittyvän proteiinin (PTHrP) synteettinen peptidianalogi, joka tunnetaan kansainvälisesti postmenopausaalisten naisten osteoporoosin hoitoon, joilla on korkea murtumariski. Tällä hetkellä **TxGNN-malli ei ole ennustanut uusia indikaatioita**, ja lääkettä **ei markkinoida Taiwanissa** **nollalla aktiivisella lisenssillä**. Uudelleenkäytön arviointiin ei ole riittävästi näyttöä saatavilla tässä vaiheessa.
 
 ---
 
-## Quick Overview
+## Pikayleiskatsaus
 
-| Item | Content |
-|------|------|
-| Drug Name (INN) | Abaloparatide |
+| Kohde | Sisältö |
+|------|---------|
+| Lääkkeen nimi (INN) | Abaloparatide |
 | DrugBank ID | DB05084 |
-| Original Indication | Not recorded in Taiwan (no TFDA licenses found) |
-| Predicted New Indication | — (No TxGNN predictions available) |
-| TxGNN Prediction Score | — |
-| Evidence Level | L5 — Model prediction not yet generated |
-| Taiwan Market Status | ✗ Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+| Alkuperäinen indikaatio | Ei kirjattu Taiwanissa (TFDA-lisenssejä ei löytynyt) |
+| Ennustettu uusi indikaatio | — (Ei TxGNN-ennusteita saatavilla) |
+| TxGNN-ennusteen pistemäärä | — |
+| Todistujen taso | L5 — Mallin ennuste ei ole vielä luotu |
+| Taiwanin markkinoiden tila | ✗ Ei markkinoitu (Ei markkinoitu) |
+| Valtuuksien lukumäärä | 0 |
+| Suositeltu päätös | **Pysäytä väliaikaisesti** |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on publicly known information, Abaloparatide is a synthetic analog of human parathyroid hormone-related protein (PTHrP(1-34)). It acts as a selective activator of the PTH1 receptor signaling pathway, preferentially stimulating the RG conformation of the receptor, which promotes bone formation over bone resorption. It was approved by the U.S. FDA in 2017 under the brand name **Tymlos** for the treatment of postmenopausal osteoporosis in women at high risk of fracture.
+Tällä hetkellä yksityiskohtaisia mekanismin tietoja ei ole saatavilla tässä todistusten pakkauksessa. Julkisesti saatavilla olevan tiedon perusteella Abaloparatide on ihmisen paratermoidi-hormoniin liittyvän proteiinin (PTHrP(1-34)) synteettinen analogi. Se toimii PTH1-reseptorin signalointireitin selektiivisenä aktivaattorina, joka preferentiaalisti stimuloi reseptorin RG-konformaatiota, mikä edistää luun muodostumista luun resorption sijaan. Se sai Yhdysvaltojen FDA:n hyväksynnän vuonna 2017 brändinimellä **Tymlos** postmenopausaalisten naisten osteoporoosin hoitoon, joilla on korkea murtumariski.
 
-However, as the TxGNN model has **not generated any predicted indications** for Abaloparatide, there is currently no new disease target to evaluate for mechanistic plausibility. This may be due to limited representation of the drug or its targets within the knowledge graph used by TxGNN. Until predictions become available, no mechanistic bridging analysis can be performed.
-
----
-
-## Clinical Trial Evidence
-
-Currently no TxGNN-predicted indications exist for Abaloparatide, therefore no targeted clinical trial search was conducted for repurposing candidates.
+Kuitenkin koska TxGNN-malli **ei ole luonut mitään ennustettuja indikaatioita** Abaloparatidelle, yksikään uusi sairaudentavoite ei ole tällä hetkellä arviointikelpoinenkaan mekanismin uskottavuuden kannalta. Tämä voi johtua lääkkeen tai sen kohdesolmujen rajoitetusta edustavuudesta TxGNN:n käyttämässä tietografissa. Kunnes ennusteet tulevat saatavilla, mitään mekanistisen sillanrakennuksen analyysiä ei voida suorittaa.
 
 ---
 
-## Literature Evidence
+## Kliiniset tutkimustodisteet
 
-Currently no TxGNN-predicted indications exist for Abaloparatide, therefore no targeted literature search was conducted for repurposing candidates.
+Tällä hetkellä Abaloparatidelle ei ole TxGNN:n ennustamia indikaatioita, joten kohdennettua kliinisen tutkimuksen hakua uudelleenkäytön ehdokkaista ei suoritettu.
 
 ---
 
-## Taiwan Market Information
+## Kirjallisuustodisteet
 
-Abaloparatide has **no active TFDA licenses** in Taiwan. The drug is currently classified as **not marketed (Not marketed)** in this jurisdiction.
+Tällä hetkellä Abaloparatidelle ei ole TxGNN:n ennustamia indikaatioita, joten kohdennettua kirjallisuushausta uudelleenkäytön ehdokkaista ei suoritettu.
 
-| Item | Status |
+---
+
+## Taiwanin markkinatiedot
+
+Abaloparatidella ei ole **aktiivisia TFDA-lisenssejä** Taiwanissa. Lääkettä pidetään tällä hetkellä tässä lainkäyttöalueessa **ei markkinoidusta (Ei markkinoitu)** -luokassa.
+
+| Kohde | Tila |
 |------|------|
-| TFDA Licenses | None found |
-| Market Status | Not marketed |
-| Dosage Forms Available | None in Taiwan |
+| TFDA-lisenssit | Ei löytynyt |
+| Markkinoiden tila | Ei markkinoitu |
+| Taiwanissa saatavilla olevat annostelumuodot | Ei Taiwanissa |
 
 ---
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-> Please refer to the package insert for safety information.
+> Viitaa pakkausselosteen turvallisuustietoihin.
 >
-> TFDA package insert warnings, contraindications, and drug-drug interaction data were not available for Abaloparatide in Taiwan. No drug-drug interactions were found in the queried databases. For prescribing information, consult the originator's labeling (e.g., U.S. FDA-approved Tymlos prescribing information).
+> TFDA:n pakkausselosteen varoitustiedot, vastaindikaatiot ja lääkkeen välisten vuorovaikutusten tiedot eivät olleet saatavilla Abaloparatidelle Taiwanissa. Yksikään lääkkeen välinen vuorovaikutus ei löytynyt kysetyistä tietokannoista. Määräysmerkinnöistä voit kuulla alkuperäisen toimittajan merkinnöistä (esim. Yhdysvaltojen FDA:n hyväksymät Tymlos-määräysmerkinnät).
 
 ---
 
-## Data Gaps
+## Tietojen puutteet
 
-The following critical data gaps were identified during evidence pack assembly:
+Seuraavat kriittiset tietojen puutteet tunnistettiin todistusten pakkauksen kokoamisen aikana:
 
-| Gap ID | Category | Item | Severity | Impact | Remediation |
+| Puutteen tunnus | Luokka | Kohde | Vakavuus | Vaikutus | Korjaus |
 |--------|----------|------|----------|--------|-------------|
-| DG001 | Drug Level | TFDA Package Insert Warnings/Contraindications | **Blocking** | Cannot enter Stage 1 safety screening | Download and parse package insert PDF from TFDA website |
-| DG002 | Drug Level | Mechanism of Action (MOA) | **High** | Impacts mechanism-relevance analysis | Query DrugBank API |
+| DG001 | Lääketaso | TFDA:n pakkausselosteen varoitukset/vastaindikaatiot | **Estävä** | Ei voida siirtyä vaiheen 1 turvallisuusseulontaan | Lataa ja jäsennä pakkausselosteen PDF TFDA:n verkkosivustolta |
+| DG002 | Lääketaso | Toiminnan mekanismi (MOA) | **Korkea** | Vaikuttaa mekanismin-relevanssin analyysiin | Hae tiedot DrugBank-ohjelmointirajapinnasta |
 
 ---
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pysäytä väliaikaisesti**
 
-**Rationale:**
-Abaloparatide currently has no TxGNN-predicted new indications, is not marketed in Taiwan (zero TFDA licenses), and has multiple blocking-level data gaps (package insert warnings, MOA). There is insufficient evidence to proceed with any repurposing evaluation at this time.
+**Perustelut:**
+Abaloparatidella ei tällä hetkellä ole TxGNN:n ennustamia uusia indikaatioita, sitä ei markkinoida Taiwanissa (nolla TFDA-lisenssejä), ja sillä on useita estäviä tietojen puutteita (pakkausselosteen varoitukset, mekanismi). Uudelleenkäytön arviointiin ei ole riittävää näyttöä tässä vaiheessa.
 
-**To proceed, the following is needed:**
-- **TxGNN prediction results** — Re-run the model or verify that the drug and its target nodes are properly represented in the knowledge graph
-- **Mechanism of action data** (DG002) — Query DrugBank API to retrieve full MOA and target information for Abaloparatide
-- **TFDA regulatory pathway assessment** — Determine if Abaloparatide is under review or if an import pathway exists for Taiwan
-- **Safety profile completion** (DG001) — Obtain warnings and contraindications from the originator's prescribing information (e.g., U.S. FDA label notes a boxed warning regarding osteosarcoma risk observed in animal studies)
-- **Re-evaluate** once TxGNN predictions and data gaps are resolved
+**Jatkaaksesi seuraavaa tarvitaan:**
+- **TxGNN-ennustetulokset** — Aja malli uudelleen tai vahvista, että lääkke ja sen kohdesolmut ovat asianmukaisesti edustettuina tietografissa
+- **Toiminnan mekanismi -tiedot** (DG002) — Hae DrugBank-ohjelmointirajapinnasta Abaloparatidelle täydellisen MOA:n ja kohdetiedot
+- **TFDA:n sääntelypolun arviointi** — Määritä, onko Abaloparatide tarkastuksessa vai onko Taiwanille olemassa tuontipolku
+- **Turvallisuusprofiilin täyttäminen** (DG001) — Hanki varoitukset ja vastaindikaatiot alkuperäisen toimittajan määräysmerkinnöistä (esim. Yhdysvaltojen FDA:n merkinnöissä mainitaan laatikoitu varoitus osteosarkooman riskistä, jota havaittiin eläintutkimuksissa)
+- **Arvioi uudelleen** kun TxGNN-ennusteet ja tietojen puutteet on ratkaistu
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

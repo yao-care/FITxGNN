@@ -29,78 +29,79 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Lacosamide: From Epilepsy to Manic Bipolar Affective Disorder
+# Lakosamidi: Epilepsiasta maanis-bipolaariseen affektiiviseen häiriöön
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Lacosamide is an antiepileptic drug (AED), acting as a sodium-channel modulator used for partial-onset seizures. The TxGNN model predicts it may be effective for **manic bipolar affective disorder**, but the strongest current evidence (1 recruiting Phase 3 trial and multiple retrospective/case reports) addresses bipolar **depressive**, not manic, episodes — a polarity mismatch that limits confidence in this specific prediction.
+Lakosamidi on antiepilepsiakään (AED), joka toimii natriumkanavamodulaattorina ja sitä käytetään osittaisten kohtauksien hoitoon. TxGNN-malli ennustaa, että se saattaa olla tehokas **maanisen bipolaarisen affektiivisen häiriön** hoitoon, mutta vahvin saatavilla oleva todistusaineisto (1 rekrytointivaiheessa oleva vaiheen 3 tutkimus ja useita retrospektiivisiä/tapausraportteja) koskee bipolaarisen häiriön **depressiivisiä** eikä maanisia vaiheita — polariteetin epäsuhta heikentää luottamusta tähän spesifiin ennustukseen.
 
-*Note: `original_indications` and `original_moa` were not populated in the evidence pack (data gap DG002). "Epilepsy (partial-onset seizures)" is inferred from the supporting literature/trial descriptions (e.g., "FDA-approved for treating partial seizures," "adjunctive treatment for partial epilepsy"), not from a formal indication field.*
+*Huomautus: `original_indications` ja `original_moa` eivät täyttyneet todistusaineistossa (tietoaukko DG002). "Epilepsia (osittaiset kohtaukset)" on päätelty tukevasta kirjallisuudesta/tutkimuskuvailuista (esim. "FDA-hyväksynnässä osittaisiin kohtauksiin," "apukäyttö epilepsian osittaisissa kohtauksissa"), ei muodollisesta indikaatiokentästä.*
 
 ---
 
-## Quick Overview
+## Pikayleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Epilepsy (partial-onset seizures) — inferred from literature, not a formal labeled field |
-| Predicted New Indication | Manic bipolar affective disorder |
-| TxGNN Prediction Score | 99.96% (rank 711) |
-| Evidence Level | L3 |
-| Finland Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Research Question (Hold pending confirmatory data) |
+| Alkuperäinen indikaatio | Epilepsia (osittaiset kohtaukset) — päätelty kirjallisuudesta, ei muodollisen merkinnän perusteella |
+| Ennustettu uusi indikaatio | Maanis-bipolaarinen affektiivinen häiriö |
+| TxGNN-ennustuspistemäärä | 99,96% (sijoitus 711) |
+| Todistusaineiston taso | L3 |
+| Suomen markkinatilanne | Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Tutkimuskysymys (Odotus vahvistavan aineiston saamiseen) |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennustus on kohtuullinen?
 
-Currently, detailed mechanism of action data is not available (data gap DG002). Based on known information, lacosamide selectively enhances slow inactivation of voltage-gated sodium channels — a mechanism pharmacologically related to established mood stabilizers such as lamotrigine, which is used clinically for bipolar disorder. This shared class-level mechanism is the biological rationale behind the TxGNN prediction.
+Tällä hetkellä yksityiskohtaista vaikutusmekanismia koskeva tieto ei ole saatavilla (tietoaukko DG002). Tunnetun tiedon perusteella lakosamidi vahvistaa selektiivisesti jännitteestä riippuvien natriumkanavien hidasta inaktivaatiota — farmakologisesti mekanismi liittyy vahvistettuihin mielialan stabilisaattoreihin kuten lamotrigiiniin, jota käytetään kliinisesti bipolaariseen häiriöön. Tämä jaettu luokkatasoinen mekanismi on biologinen perustelu TxGNN-ennustukselle.
 
-However, the relationship between the original indication (epilepsy) and the predicted new indication (bipolar **mania**) is indirect. Existing clinical and case-level evidence on lacosamide in bipolar disorder consistently centers on **depressive** and mixed/anxious symptoms — e.g., open-label improvement of depressive symptoms, and the only ongoing Phase 3 trial (NCT07412132) specifically targets major depressive episodes in Bipolar I/II. No trial or publication in this evidence pack directly demonstrates antimanic efficacy, so the mechanistic story (sodium-channel stabilization → mood stabilization) is plausible but has not been shown to extend to the manic pole specifically.
+Alkuperäisen indikaation (epilepsia) ja ennustetun uuden indikaation (bipolaarinen **mania**) välinen suhde on kuitenkin epäsuora. Olemassa olevat kliiniset ja tapaustasoisen todisteet lakosamidista bipolaarisessa häiriössä keskittyvät jatkuvasti **depressiivisiin** ja sekaviin/ahdistusoireisiin — esim. avoin paranetus depressiivisistä oireista, ja ainoa käynnissä oleva vaiheen 3 tutkimus (NCT07412132) kohdistuu spesifisesti suuriin depressiivisiin jaksokausiin Bipolaarisen I/II häiriön yhteydessä. Mikään tämän todistusaineiston tutkimus tai julkaisu ei suoraan osoita antiimanista tehokkuutta, joten mekanistinen selitys (natriumkanavastabilisaatio → mielialan stabilisaatio) on uskottava mutta sitä ei ole osoitettu ulottuvan spesifisesti maaniselle navalle.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen todisteet
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset löydökset |
 |---------|------|------|------|---------|
-| [NCT07412132](https://clinicaltrials.gov/study/NCT07412132) | Phase 3 | Recruiting | 40 | Evaluates lacosamide as augmentation therapy for **major depressive episodes** in Bipolar I/II (not mania); based on prior observational/open-label signals of mood improvement in epilepsy and bipolar patients. Polarity mismatch with the "manic" prediction — no results yet. |
+| [NCT07412132](https://clinicaltrials.gov/study/NCT07412132) | Vaihe 3 | Rekrytointivaiheessa | 40 | Arvioi lakosamidia lisähoitona **suurissa depressiivisissä jaksoissa** bipolaarisessa I/II häiriössä (ei mania); perustuu edeltäviin havaintoihin/avoimiin oireista paranettavuuden signaaleista epilepsia- ja bipolaaripotilailta. Polariteetin epäsuhta "maanisen" ennustuksen kanssa — tuloksia ei vielä. |
 
-## Literature Evidence
+## Kirjallisuuden todisteet
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Julkaisu | Keskeiset löydökset |
 |------|-----|------|------|---------|
-| [30251375](https://pubmed.ncbi.nlm.nih.gov/30251375/) | 2018 | Retrospective cohort | Psychiatry Clin Neurosci | 30-day comparison of lacosamide vs. other AEDs in bipolar disorder patients without epilepsy — first dedicated look at lacosamide in BD. |
-| [33666402](https://pubmed.ncbi.nlm.nih.gov/33666402/) | 2021 | Open-label pilot | J Clin Psychopharmacol | 12-week open-label pilot showing efficacy/safety signal specifically in **bipolar depression**. |
-| [29253680](https://pubmed.ncbi.nlm.nih.gov/29253680/) | 2018 | Prospective multicenter | Epilepsy Behav | Lacosamide associated with improved depression/anxiety symptoms in focal epilepsy patients — precursor signal for psychiatric use. |
-| [28845834](https://pubmed.ncbi.nlm.nih.gov/28845834/) | 2017 | Case report | Acta Biomed | Mood stabilization achieved with lacosamide in a patient with comorbid mood disorder, PTSD, and fronto-temporal epilepsy. |
-| [30275630](https://pubmed.ncbi.nlm.nih.gov/30275630/) | 2018 | Case report (adverse event) | Indian J Psychol Med | Neutropenia precipitated by lacosamide in a patient with bipolar disorder and comorbid epilepsy — safety signal. |
-| [38304661](https://pubmed.ncbi.nlm.nih.gov/38304661/) | 2024 | Case report | Cureus | Complex case of Bipolar I disorder with multiple comorbidities including seizure-like activity; illustrative rather than efficacy evidence. |
-| [29957667](https://pubmed.ncbi.nlm.nih.gov/29957667/) | 2018 | Review | Ther Drug Monit | Notes AEDs, including lacosamide's class, are used off-label in bipolar disorder management. |
-| [22210279](https://pubmed.ncbi.nlm.nih.gov/22210279/) | 2012 | Review | Adv Drug Deliv Rev | Background on lacosamide's chemical/pharmacokinetic properties among newer AEDs. |
-| [32693579](https://pubmed.ncbi.nlm.nih.gov/32693579/) | 2020 | Review | ACS Chem Neurosci | Discusses CRMP2 as a druggable target relevant to lacosamide's mechanism of action. |
-| [37782796](https://pubmed.ncbi.nlm.nih.gov/37782796/) | 2023 | Mechanistic | PNAS | Cryo-EM structural mechanism of Nav channel inhibition by lamotrigine, a related mood-stabilizing AED — supports the shared-mechanism rationale. |
+| [30251375](https://pubmed.ncbi.nlm.nih.gov/30251375/) | 2018 | Retrospektiivinen kohortti | Psychiatry Clin Neurosci | 30 päivän vertailu lakosamidista vs. muut AED:t bipolaarisissa häiriöissä ilman epilepsiaa — ensimmäinen lakosamidin omistautunut tarkastelu bipolaarisessa häiriössä. |
+| [33666402](https://pubmed.ncbi.nlm.nih.gov/33666402/) | 2021 | Avoin piilotutkimus | J Clin Psychopharmacol | 12 viikon avoin piilotutkimus osoittaa tehokkuus/turvallisuussignaali spesifisesti **bipolaarisessa masennuksessa**. |
+| [29253680](https://pubmed.ncbi.nlm.nih.gov/29253680/) | 2018 | Prospektiivinen monitupakeskustutkimus | Epilepsy Behav | Lakosamidi liittyy parantuneisiin depressio/ahdistus-oireisiin paikallisen epilepsian potilailla — edeltävä signaali psykiatriseen käyttöön. |
+| [28845834](https://pubmed.ncbi.nlm.nih.gov/28845834/) | 2017 | Tapausraportti | Acta Biomed | Mielialan stabilisaatio saavutettiin lakosamidilla potilaalla, jolla oli mielialan häiriö, PTSD ja otsalohkon epilepsia. |
+| [30275630](https://pubmed.ncbi.nlm.nih.gov/30275630/) | 2018 | Tapausraportti (haittavaikutus) | Indian J Psychol Med | Neutropenia, jonka laukaisi lakosamidi bipolaarisessa häiriössä ja epilepsiassa olevan potilaan yhteydessä — turvallisuussignaali. |
+| [38304661](https://pubmed.ncbi.nlm.nih.gov/38304661/) | 2024 | Tapausraportti | Cureus | Monimutkainen Bipolaarisen I häiriön tapaus useilla komorbiditeetteilla mukaan lukien kohtauksenkaltainen aktiviteetti; havainnollistava pikemminkin kuin tehokkuuden todiste. |
+| [29957667](https://pubmed.ncbi.nlm.nih.gov/29957667/) | 2018 | Katsaus | Ther Drug Monit | Huomioi AED:t, mukaan lukien lakosamidi-luokka, jota käytetään off-label-käytössä bipolaarisen häiriön hoidossa. |
+| [22210279](https://pubmed.ncbi.nlm.nih.gov/22210279/) | 2012 | Katsaus | Adv Drug Deliv Rev | Tausta lakosamidin kemiallisista/farmakokineetisista ominaisuuksista uudempien AED:ien joukossa. |
+| [32693579](https://pubmed.ncbi.nlm.nih.gov/32693579/) | 2020 | Katsaus | ACS Chem Neurosci | Käsittelee CRMP2:a lääkeaineen kohteena, joka liittyy lakosamidin vaikutusmekanismiin. |
+| [37782796](https://pubmed.ncbi.nlm.nih.gov/37782796/) | 2023 | Mekanistinen | PNAS | Lamotrigiinin kryo-EM-rakenteen mekanismi Nav-kanavan inhibitiosta, siihen liittyvä mielialan stabilisaattori AED — tukee jaetun mekanismin perustelu. |
 
 ---
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information. *(Key warnings, contraindications, and DDI data were not available in this evidence pack — DG001, classified as Blocking, prevents a full S1 safety pre-assessment.)*
+Katso pakkausselosteesta turvallisuustietoja. *(Keskeiset varoitukset, vasta-aiheet ja DDI-tiedot eivät olleet saatavilla tässä todistusaineistossa — DG001, luokiteltu Estäviksi, estää täydellisen S1-turvallisuuden esiarviointia.)*
 
 ---
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Research Question (Hold pending confirmatory data)**
+**Päätös: Tutkimuskysymys (Odotus vahvistavan aineiston saamiseen)**
 
-**Rationale:**
-The mechanistic rationale (sodium-channel slow-inactivation, class analogy to lamotrigine) is plausible, but all available clinical evidence for lacosamide in bipolar disorder addresses the **depressive** pole (open-label pilot, retrospective cohort, one recruiting Phase 3 trial), not the **manic** pole predicted here — a direct polarity mismatch flagged in the evidence pack's own relevance grading (Grade B). No completed trial or literature currently supports antimanic efficacy.
+**Perustelut:**
+Mekanistinen perustelu (natriumkanavan hidasta inaktivaatiota, luokkaekvivalenssi lamotrigiiniin) on uskottava, mutta kaikki saatavilla oleva lakosamidin kliininen todistusaineisto bipolaarisessa häiriössä käsittelee **depressiivistä** napaa (avoin piilotutkimus, retrospektiivinen kohortti, yksi rekrytointivaiheessa oleva vaiheen 3 tutkimus), ei ennustetulla tavalla maanista napaa — suora polariteetin epäsuhta, joka on merkitty todistusaineiston omassa relevanssiarvioinnissa (Luokka B). Mikään valmis tutkimus tai kirjallisuus ei tällä hetkellä tue antiimanista tehokkuutta.
 
-**To proceed, the following is needed:**
-- TFDA/EMA package insert data to close the Blocking safety gap (DG001) before any S1 progression
-- Formal MOA documentation (DG002) to substantiate the sodium-channel-to-mood-stabilization mechanistic link
-- Results from NCT07412132 (depressive-episode trial) once available, to gauge translatability to manic presentations
-- Consider re-scoping the candidate indication toward "bipolar depression" specifically, where evidence is materially stronger than for "manic bipolar affective disorder"
-- Note: within this same evidence pack, **migraine disorder** (rank 5) shows substantially stronger evidence (L1, head-to-head Phase 3 RCTs vs. propranolol, decision stage S3, "Proceed with Guardrails") and may warrant separate, higher-priority evaluation
+**Edistymiseen vaaditaan seuraavaa:**
+- TFDA/EMA-pakkausseloste sulkemaan blokkivan turvallisuusaukko (DG001) ennen S1-edistymistä
+- Muodollinen MOA-dokumentaatio (DG002) natriumkanavaistaan mielialan stabilisaatioon mekanistisen linkin perustella
+- Tulokset NCT07412132:sta (depressiivisten jaksojen tutkimus) saatavilla ollessa siirtokelpoisuuden arvioimiseksi maanisiin esityksiin
+- Harkitse ehdokkaan indikaatiota "bipolaariseen masennukseen" spesifisesti, jossa todistusaineisto on materiaalisesti vahvempi kuin "maanis-bipolaarisessa affektiivisessa häiriössä"
+- Huomio: samassa todistusaineistossa **migreeni** (sijoitus 5) osoittaa huomattavasti vahvemman todistusaineiston (L1, pää-pää vaihe 3 RCT:t vs. propranololi, päätösvaihe S3, "Jatka varauksilla") ja saattaa vaatia erillisen, korkeamman prioriteetin arvioinnin
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

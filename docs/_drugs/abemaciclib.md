@@ -29,93 +29,94 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 
 </div>
 
-# ABEMACICLIB: Drug Repurposing Evaluation Report
+# ABEMACICLIB: Lääkkeen uudelleenkäyttötarkoituksen arviointiraportti
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Abemaciclib is a selective CDK4/6 inhibitor, originally developed for the treatment of HR-positive, HER2-negative breast cancer (brand name: Verzenio).
-The TxGNN model has **not yet generated any predicted new indications** for this drug,
-and there are currently **no clinical trials or publications** linked to a repurposing hypothesis in this evidence pack.
+Abemaciclib on selektiivinen CDK4/6-inhibiittori, joka on alun perin kehitetty HR-positiivisen, HER2-negatiivisen rintojen syövän (kauppanimi: Verzenio) hoitoon.
+TxGNN-malli ei ole vielä luonut tälle lääkkeelle mitään **ennustettuja uusia käyttöaiheita**,
+ja tässä näytepakkauksessa ei ole tällä hetkellä mitään **klinisiä tutkimuksia tai julkaisuja**, jotka liittyisivät uudelleenkäyttötarkoituksen hypoteesiin.
 
 ---
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Not listed in evidence pack (known: HR+/HER2− breast cancer) |
-| Predicted New Indication | — None predicted |
-| TxGNN Prediction Score | — N/A |
-| Evidence Level | L5 (No model prediction or supporting studies available) |
-| Taiwan Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+| Alkuperäinen käyttöaihe | Ei listattu näytepakkauksessa (tunnettu: HR+/HER2− rintojen syöpä) |
+| Ennustettu uusi käyttöaihe | — Ei ennustettuja |
+| TxGNN-ennuste-pistemäärä | — N/A |
+| Näytön taso | L5 (Ei mallin ennustusta tai tukevia tutkimuksia saatavilla) |
+| Taiwanin markkinatilanne | ✗ Ei markkinoilla |
+| Myyntilupien lukumäärä | 0 |
+| Suositeltu päätös | **Pidä odotuksessa** |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on publicly known information, Abemaciclib (DB12001) is a selective inhibitor of cyclin-dependent kinases 4 and 6 (CDK4/6). By blocking CDK4/6, it prevents phosphorylation of the retinoblastoma protein (Rb), halting cell cycle progression from G1 to S phase. This mechanism is particularly relevant in cancers driven by dysregulated CDK4/6–cyclin D–Rb signalling, most notably HR-positive, HER2-negative breast cancer.
+Yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla näytepakkauksessa. Julkisesti tunnetun tiedon perusteella abemaciclib (DB12001) on sykliinitasoisten kinaasien 4 ja 6 (CDK4/6) selektiivinen inhibiittori. Estämällä CDK4/6:ta se estää retinoblastooma-proteiinin (Rb) fosforylaatiota ja pysäyttää solujakson etenemisen G1:stä S-vaiheeseen. Tämä mekanismi on erityisen relevantti syövissä, joita ohjaa dysreguloitu CDK4/6–sykliinitasoinen D–Rb-signaalointi, erityisesti HR-positiivisessa, HER2-negatiivisessa rintojen syövässä.
 
-No new indications have been predicted by TxGNN at this time. Without a target disease, it is not possible to evaluate mechanistic plausibility for repurposing. The absence of a prediction may reflect insufficient data in the knowledge graph, or that Abemaciclib's pharmacological profile did not meet the model's threshold for any novel indication in this run.
+TxGNN ei ole vielä ennustanut mitään uusia käyttöaiheita. Ilman kohdesairautta ei ole mahdollista arvioida mekanismin uskottavuutta uudelleenkäytölle. Ennusteen puute voi heijastaa riittämätöntä dataa tietokaavion osalta tai sitä, että abemaciclibin farmakologinen profiili ei täyttänyt mallin kynnystä mihinkään uuteen käyttöaiheseen tässä suorituksessa.
 
-To enable a meaningful repurposing evaluation, the TxGNN prediction pipeline should be re-run once the knowledge graph is enriched with Abemaciclib's complete target, pathway, and indication data.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered in the evidence pack for a repurposing indication.
+Mielekkään uudelleenkäyttötarkoituksen arvioimisen mahdollistamiseksi TxGNN-ennusteen määrittelyputki olisi käynnistettävä uudelleen, kun tietokaavio on rikastettu abemaciclibin täydellisillä kohde-, polku- ja käyttöaihetiedoilla.
 
 ---
 
-## Literature Evidence
+## Klinisten tutkimusten näyttö
 
-Currently no related literature available in the evidence pack for a repurposing indication.
-
----
-
-## Taiwan Market Information
-
-Abemaciclib is **not currently marketed in Taiwan** and holds **0 TFDA authorizations**. No license records are available.
+Näytepakkauksessa ei ole tällä hetkellä liittyvää klinisiä tutkimuksia uudelleenkäyttötarkoituksen käyttöaiheen osalta.
 
 ---
 
-## Cytotoxicity
+## Kirjallisuuslähteet
 
-Abemaciclib is an antineoplastic agent (CDK4/6 inhibitor class). The following information is based on the known pharmacological profile:
+Näytepakkauksessa ei ole tällä hetkellä liittyvää kirjallisuutta uudelleenkäyttötarkoituksen käyttöaiheen osalta.
 
-| Item | Content |
+---
+
+## Taiwanin markkinatiedot
+
+Abemaciclib **ei ole tällä hetkellä markkinoilla Taiwanissa** ja sillä on **0 TFDA-hyväksyntää**. Mitään lisensointitietoja ei ole saatavilla.
+
+---
+
+## Sytotoksisuus
+
+Abemaciclib on antineoplasminen aine (CDK4/6-inhibiitorien luokka). Seuraavat tiedot perustuvat tunnettuun farmakologiseen profiiliin:
+
+| Kohta | Sisältö |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (CDK4/6 inhibitor) |
-| Myelosuppression Risk | High — neutropenia is the most common Grade ≥3 adverse event; thrombocytopenia also reported |
-| Emetogenicity Classification | Low to moderate (diarrhoea is more clinically significant than emesis) |
-| Monitoring Items | CBC with differential (every 2 weeks for first 2 months, then monthly), liver function tests (ALT, AST, bilirubin), renal function, signs of venous thromboembolism and interstitial lung disease |
-| Handling Protection | Standard oral anticancer drug handling; not a conventional cytotoxic — no special closed-system transfer device required, but follow institutional oral hazardous drug policies |
+| Sytotoksisuusluokitus | Kohdistettu hoito (CDK4/6-inhibiittori) |
+| Luydnsuppression riski | Korkea — neutropenia on yleisin ≥3-asteen haittavaikutus; trombositopenia myös raportoitu |
+| Emetogenisuusluokitus | Matala tai kohtalainen (ripuli on kliinisesti merkitsevämpi kuin oksentelu) |
+| Seurantakohteet | Täydellinen verenkuva erillisyydellä (kahden viikon välein ensimmäisen kahden kuukauden ajan, sitten kuukausittain), maksaintotoiminnon testit (ALT, AST, bilirubiini), munuaisten toiminta, laskimotromboembolia ja interstisiaalisen keuhkosairauden merkit |
+| Käsittelysuojaus | Vakiotasoinen suun kautta annettava syöpälääkkeen käsittely; ei perinteinen sytostaatti — erityistä suljetun järjestelmän siirtolaitetta ei vaadita, mutta noudata laitoksen suun kautta annettavaa vaarallista lääkkeitä koskevia käytäntöjä |
 
 ---
 
-## Safety Considerations
+## Turvallisuutta koskevia näkökohtia
 
-Safety data (key warnings, contraindications, and drug-drug interactions) was not available in the evidence pack for Abemaciclib.
+Turvallisuustiedot (keskeiset varoitukset, vasta-aiheet ja lääkkeiden väliset yhteisvaikutukset) eivät olleet saatavilla näytepakkauksessa abemaciclibin osalta.
 
-> Please refer to the package insert for safety information. Key known concerns from global labelling include: diarrhoea (dose-limiting toxicity), neutropenia, hepatotoxicity, venous thromboembolism, and interstitial lung disease/pneumonitis. Abemaciclib is a CYP3A4 substrate — concomitant strong CYP3A4 inhibitors (e.g., ketoconazole, clarithromycin) require dose reduction.
+> Viittaa pakkausselosteeseen turvallisuustietojen osalta. Globaaliin merkintään sisältyvät keskeiset tunnetut huolenaiheet ovat: ripuli (annoksen rajoittava toksisuus), neutropenia, maksatoksisuus, laskimotromboembolia ja interstisiaalinen keuhkosairauden/pneumoniitti. Abemaciclib on CYP3A4-substraatti — samanaikainen vahva CYP3A4-inhibiittori (esim. ketokonatsoli, klaritromysiini) vaatii annoksen pienentämisen.
 
 ---
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidä odotuksessa**
 
-**Rationale:**
-No new indication has been predicted by TxGNN, and the evidence pack contains critical data gaps (MOA, TFDA package insert warnings, original indication mapping). Without a repurposing hypothesis, there is no actionable evaluation to advance.
+**Perustelut:**
+TxGNN ei ole ennustanut uutta käyttöaihetta, ja näytepakkauksessa on kriittisiä tietoaukkoja (vaikutusmekanismi, TFDA-pakkausseloste varoitukset, alkuperäinen käyttöaihe-kartoitus). Ilman uudelleenkäyttötarkoituksen hypoteesia ei ole toiminnallista arviointia edistää.
 
-**To proceed, the following is needed:**
-- **Re-run TxGNN prediction** with enriched knowledge graph data for Abemaciclib (targets: CDK4, CDK6; pathways: Rb/E2F cell cycle control)
-- **Fill MOA data gap** (DG002): Query DrugBank API for complete mechanism of action, targets, and pathway information
-- **Fill TFDA safety data gap** (DG001): Download and parse TFDA package insert PDF for warnings and contraindications — this is a **blocking** gap for Stage 1 safety assessment
-- **Confirm Taiwan regulatory status**: Verify whether Abemaciclib (Verzenio) has pending TFDA applications or is available through special import programmes
-- Once a predicted indication is available, re-generate this report with full evidence assessment
+**Jatkamiseksi tarvitaan seuraavaa:**
+- **Suorita TxGNN-ennuste uudelleen** rikastetulla tietokaavion datalla abemaciclibin osalta (kohteet: CDK4, CDK6; polut: Rb/E2F-solunjako-ohjaus)
+- **Täytä vaikutusmekanismin tietoaukko** (DG002): Kysy DrugBank-ohjelmistorajapinnalta täydellisiä vaikutusmekanismin, kohteiden ja polkutietojen osalta
+- **Täytä TFDA-turvallisuustiedon tietoaukko** (DG001): Lataa ja jäsennä TFDA-pakkausseloste PDF varoituksille ja vasta-aiheiden osalta — tämä on **estävä** tietoaukko Stage 1 turvallisuusarvioinnille
+- **Vahvista Taiwanin sääntelyasema**: Vahvista, onko abemaciclib (Verzenio) kohteena vireillä olevalla TFDA-hakemuksella tai saatavilla erikoistoimitusohjelmien kautta
+- Kun ennustettu käyttöaihe on saatavilla, luo tämä raportti uudelleen täydellisellä näytöjen arvioinnilla
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

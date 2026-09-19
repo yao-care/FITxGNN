@@ -29,94 +29,95 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Arsenic Trioxide: Repurposing Evaluation — Evidence Pack Incomplete
+# Arsenic Trioxide: Uudelleenkäytön arviointi — Todistepaketti epätäydellinen
 
-## One-Sentence Summary
+## Yhteenveto yhdellä lauseella
 
-Arsenic Trioxide (DB01169) is a well-established antineoplastic agent; however, this Evidence Pack contains **no TxGNN predicted indications**, and critical data fields — including original indications, mechanism of action, and safety warnings — are either missing or not yet populated.
-A full repurposing evaluation cannot be completed at this stage.
-The overall evidence level is **L5** and the recommended decision is **Hold** pending data remediation.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not specified in Evidence Pack |
-| Predicted New Indication | None — no TxGNN predictions available |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | L5 — Model data not yet available |
-| Taiwan Market Status | ✗ Not marketed (0 authorizations) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+Arsenic Trioxide (DB01169) on vakiintuneet antineoplastinen valmiste; tämä Todistepaketti ei kuitenkaan sisällä **TxGNN:n ennustettuja indikaatioita**, ja kriittiset tietoalueet – kuten alkuperäiset indikaatiot, vaikutusmekanismi ja turvallisuusvaroitukset – puuttuvat tai niitä ei ole vielä täytetty.
+Täydellistä uudelleenkäytön arviointia ei voida suorittaa tässä vaiheessa.
+Todisteiden kokonaistaso on **L5** ja suositeltu päätös on **Odota** kunnes tiedot korjataan.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-No TxGNN predictions are present in this Evidence Pack (`predicted_indications: []`), so a data-driven repurposing rationale cannot be generated at this time.
-
-Additionally, the mechanism of action is flagged as **Data Gap DG002** (severity: High), which means even a qualitative mechanistic bridge between a source indication and a candidate new indication cannot be constructed. Until DrugBank API data is retrieved and parsed, any mechanistic claim would be speculative.
-
-Currently, detailed mechanism of action data is not available. Based on known pharmacological class, Arsenic Trioxide belongs to the arsenic compound category with established antineoplastic activity; however, this must be formally confirmed via DrugBank (DB01169) before it can be used to support a repurposing hypothesis.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered in this Evidence Pack.
+| Kohta | Sisältö |
+|-------|---------|
+| Alkuperäinen indikaatio | Ei määritelty Todestepaketissa |
+| Ennustettu uusi indikaatio | Ei mikään — TxGNN-ennusteita ei ole saatavilla |
+| TxGNN-ennusteen pistemäärä | N/A |
+| Todisteiden taso | L5 — Mallitietoja ei vielä ole saatavilla |
+| Taiwan-markkinoiden asema | ✗ Ei markkinoilla (0 lupaa) |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | **Odota** |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennuste on järkevä?
 
-Currently no related literature available in this Evidence Pack.
+Ei TxGNN-ennusteita ole tässä Todestepaketissa (`predicted_indications: []`), joten datalähtöistä uudelleenkäytön perustelua ei voida luoda tässä vaiheessa.
 
----
+Lisäksi vaikutusmekanismi on merkitty nimellä **Data Gap DG002** (vakavuus: Korkea), mikä tarkoittaa, että myöskään laadullista mekaanista yhteyttä lähde-indikaation ja ehdokkaan uuden indikaation välille ei voida rakentaa. Kunnes DrugBank API -tiedot haetaan ja jäsennetään, kaikki mekaaniset väitteet olisivat spekulatiivisia.
 
-## Taiwan Market Information
-
-Arsenic Trioxide is currently **not marketed in Taiwan**. No drug authorizations are on file (total licenses = 0). No license table can be generated.
+Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla. Tunnetun farmakologisen luokan perusteella Arsenic Trioxide kuuluu arseeniyhdisteiden luokkaan, jolla on vakiintuneet antineoplastiset vaikutukset; tämä on kuitenkin vahvistettava muodollisesti DrugBank:ssa (DB01169), ennen kuin sitä voidaan käyttää uudelleenkäytön hypoteesin tueksi.
 
 ---
 
-## Cytotoxicity
+## Kliiniset tutkimukset
 
-Arsenic Trioxide belongs to a class of antineoplastic agents (arsenic compounds); a cytotoxicity section is included accordingly.
-
-| Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Conventional cytotoxic — Arsenic compound |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | CBC with differential, liver function tests, renal function, ECG (QTc interval), serum electrolytes (potassium, magnesium) |
-| Handling Protection | Must follow cytotoxic drug handling regulations |
+Tällä hetkellä tässä Todestepaketissa ei ole rekisteröityjä asiaan liittyviä klinisia tutkimuksia.
 
 ---
 
-## Safety Considerations
+## Kirjallisuustodisteet
 
-Please refer to the package insert for safety information.
-
-> Both key warnings (DG001, severity: **Blocking**) and contraindications are listed as data gaps. The TFDA package insert PDF must be retrieved and parsed before any safety screening can proceed. DDI query returned no results (status: `not_found`).
+Tällä hetkellä tässä Todestepaketissa ei ole saatavilla asiaan liittyvää kirjallisuutta.
 
 ---
 
-## Conclusion and Next Steps
+## Taiwan-markkinatilanne
 
-**Decision: Hold**
+Arsenic Trioxide ei tällä hetkellä ole **markkinoilla Taiwanissa**. Lääkkeen hyväksynnöistä ei ole tietoja tiedostossa (yhteensä lisenssit = 0). Lupien taulukkoa ei voida luoda.
 
-**Rationale:**
-This Evidence Pack is critically incomplete — there are no TxGNN predicted indications, no mechanism of action data, and safety information is blocked pending package insert retrieval. A repurposing evaluation cannot responsibly proceed until these gaps are closed.
+---
 
-**To proceed, the following is needed:**
+## Sytotoksisuus
 
-- **[DG001 — Blocking]** Retrieve and parse the TFDA package insert PDF to extract warnings and contraindications; this is a prerequisite for the S1 safety screening gate
-- **[DG002 — High]** Query DrugBank API (DB01169) to populate mechanism of action, drug categories, and toxicity profile
-- **Re-run TxGNN pipeline** after data gaps are resolved to generate `predicted_indications` — without this, no repurposing candidate can be evaluated
-- **DDI re-query** once the drug identity and formulation details are confirmed in DrugBank
-- **Taiwan market status cross-check** — confirm whether any foreign authorizations (e.g., FDA Trisenox, EMA Trisenox) could support a bridging regulatory strategy
+Arsenic Trioxide kuuluu antineoplastisten valmisteiden luokkaan (arseeniyhdisteet); sytotoksisuusosio on sisällytetty sen mukaisesti.
+
+| Kohta | Sisältö |
+|-------|---------|
+| Sytotoksisuusluokittelu | Perinteinen sytotoksinen — arseeniyhdiste |
+| Luuytimen tukahduttamisen riski | Katso pakkausseloste varoituksista ja varotoimista |
+| Pahoinvointiastisuus | Katso pakkausseloste varoituksista ja varotoimista |
+| Seurantakohteet | Kokonaisverilaskenta erotuella, maksatoiminnon testit, munuaisten toiminta, EKG (QTc-väli), seerumin elektrolyytit (kalium, magnesium) |
+| Käsittelyn suojaus | On noudatettava sytotoksisten lääkkeiden käsittelysäädöksiä |
+
+---
+
+## Turvallisuushuomiot
+
+Katso turvallisuustiedot pakkausselosteesta.
+
+> Sekä tärkeät varoitukset (DG001, vakavuus: **Esto**) että vasta-aiheet on lueteltu tietovajeina. TFDA:n pakkausseloste PDF on hankittava ja jäsennettävä, ennen kuin turvallisuusseulonta voi jatkua. DDI-kysely ei palauttanut tuloksia (tila: `not_found`).
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Odota**
+
+**Perustelut:**
+Tämä Todistepaketti on kriittisesti epätäydellinen — ei ole TxGNN:n ennustettuja indikaatioita, ei ole vaikutusmekanismin tietoja, ja turvallisuustiedot ovat estetyt odottaen pakkausselosteen hakemista. Uudelleenkäytön arviointia ei voida vastuullisesti jatkaa ennen kuin nämä vajaavaisuudet suljetaan.
+
+**Jatkamiseksi tarvitaan seuraavaa:**
+
+- **[DG001 — Esto]** Hae ja jäsennä TFDA:n pakkausseloste PDF varoitusten ja vasta-aiheet poimimiseksi; tämä on edellytys S1 turvallisuusseulonnan portille
+- **[DG002 — Korkea]** Kysy DrugBank API:ta (DB01169) vaikutusmekanismin, lääkeluokkien ja toksisuusprofiilin täyttämiseksi
+- **Suorita TxGNN-putki uudelleen** tietovajeista palauduttaessa `predicted_indications`-tuotoksia varten — ilman tätä yhtään uudelleenkäytön ehdokasta ei voida arvioida
+- **Uudelleen DDI-kysely** kun lääkkeen identiteetti ja muotoilutiedot on vahvistettu DrugBankissa
+- **Taiwan markkinatilanne ristiintarkistus** — vahvista, voisivatko ulkomaiset hyväksynnät (esim. FDA Trisenox, EMA Trisenox) tukea silloittavaa sääntelystrategiaa
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

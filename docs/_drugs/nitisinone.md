@@ -29,68 +29,65 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-Using the report template above (this is a direct content-generation task from the given Evidence Pack — no coding/skill workflow needed).
+# Nitisinoni: periytyvästä tyrosinemiasta tyypin 1 renaalisen tubulaarin asidoosin hoitoon
 
-# Nitisinone: From Hereditary Tyrosinemia Type 1 to Renal Tubular Acidosis
+## Yhden lauseen yhteenveto
 
-## One-Sentence Summary
+Nitisinoni (NTBC) on HPPD-inhibiittori, jota käytetään periytyvän tyrosinemia tyypin 1 (HT-1) -sairauden vakiohoidossa. TxGNN-malli ennustaa sen voivan olla tehokas myös **renaalisen tubulaarin asidoosin** hoitoon, ja sitä tukee tällä hetkellä **0 kliinistä tutkimusta** ja **2 julkaisua** — todistusaineisto on alustava ja rajoittuu HT-1-liittyviin tapauksiin.
 
-Nitisinone (NTBC) is an HPPD inhibitor used as the standard treatment for hereditary tyrosinemia type 1 (HT-1).
-The TxGNN model predicts it may also be effective for **Renal Tubular Acidosis**,
-with **0 clinical trials** and **2 publications** currently supporting this direction — evidence is preliminary and limited to HT-1-associated cases.
+## Nopea yleiskatsaus
 
-## Quick Overview
-
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Hereditary Tyrosinemia Type 1 (HT-1) — noted in repurposing rationale; not confirmed via a structured MOA/indication field (data gap) |
-| Predicted New Indication | Renal Tubular Acidosis |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L3 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Alkuperäinen indikaatio | Periytyvä tyrosinemia tyypin 1 (HT-1) — mainittu uudelleenkäyttöperustelun yhteydessä; ei vahvistettu rakenteisella MOA/indikaation kentällä (tietoaukko) |
+| Ennustettu uusi indikaatio | Renaalinen tubulaari asidoosi |
+| TxGNN-ennustuspistemäärä | 99.96% |
+| Todistusten taso | L3 |
+| Suomen markkinatilanne | ✗ Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Jatka varauksellisesti |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, detailed mechanism of action data is not confirmed in a structured field (DrugBank MOA lookup is flagged as a data gap). Based on known pharmacology, nitisinone is an HPPD (4-hydroxyphenylpyruvate dioxygenase) inhibitor and is the standard treatment for hereditary tyrosinemia type 1 (HT-1), a rare inherited disorder of tyrosine metabolism.
+Tällä hetkellä yksityiskohtaisia toimintamekanismin tietoja ei ole vahvistettu rakenteisessa kentässä (DrugBank MOA -haku on merkitty tietoaukoksi). Tunnetun farmakologian perusteella nitisinoni on HPPD (4-hydroksifenyylipyruvaaattioksidaasi) -inhibiittori ja se on periytyvän tyrosinemia tyypin 1 (HT-1) vakiohoito — harvinaisessa periytyvässä tyrosiinin metabolian häiriössä.
 
-Renal tubular dysfunction — which can present as proximal renal tubular acidosis or Fanconi syndrome — is a well-recognized complication of untreated HT-1, caused by accumulation of the toxic metabolite succinylacetone. Published cohort data show that nitisinone therapy improves renal tubular function in HT-1 patients, which is mechanistically consistent with the TxGNN prediction.
+Munuaisten putkijärjestelmän toimintahäiriö — joka voi ilmetä proksimaalina renaalisen tubulaarin asidoosina tai Fanconi-oireyhtymänä — on hyvin tunnettu hoitamattoman HT-1:n komplikaatio, johon liittyy myrkyllisen metaboliitin sukkinyyliasetonin kertyminen. Julkaistut kohorttitutkimukset osoittavat, että nitisinonihoito parantaa munuaisten putkijärjestelmän toimintaa HT-1-potilailla, mikä on mekanistisesti yhdenmukainen TxGNN-ennusteen kanssa.
 
-Importantly, this evidence supports nitisinone's benefit for renal tubular acidosis **secondary to HT-1**, not renal tubular acidosis of general or unrelated etiology. Any downstream indication should be scoped specifically to "HT-1-associated" renal tubular dysfunction rather than a broad renal tubular acidosis label.
+Tärkeää on, että tämä todistusaineisto tukee nitisinoniavun hyötyä renaalisen tubulaarin asidoosiin **HT-1-sekundaarina**, ei renaalisen tubulaarin asidoosiin yleisestä tai asiaan liittymättömästä etiologiasta. Kaikki jatkoevälykäyttöindikaatiot tulisi rajata erityisesti "HT-1-liittyvään" munuaisten putkijärjestelmän toimintahäiriöön sen sijaan että käytettäisiin laajaa renaalisen tubulaarin asidoosin leimaa.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen todistusaineisto
 
-Currently no related clinical trials registered
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia
 
-## Literature Evidence
+## Kirjallisuuden todistusaineisto
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät löydökset |
 |------|-----|------|------|---------|
-| [25172236](https://pubmed.ncbi.nlm.nih.gov/25172236/) | 2014 | Cohort | Molecular Genetics and Metabolism | Describes early effect of NTBC on renal tubular dysfunction in HT-1 patients; renal tubular disease is a recognized HT-1 complication that has been poorly studied prior to this work |
-| [27109516](https://pubmed.ncbi.nlm.nih.gov/27109516/) | 2016 | Case Series | Indian Journal of Gastroenterology | Case series of 4 children with tyrosinemia treated with NTBC; 3 patients maintained normal liver function and undetectable urine succinylacetone with no renal tubular complications on long-term NTBC therapy |
+| [25172236](https://pubmed.ncbi.nlm.nih.gov/25172236/) | 2014 | Kohorttitutkimus | Molecular Genetics and Metabolism | Kuvaa NTBC:n varhaisvaiheen vaikutusta renaalisen tubulaarin toimintahäiriöön HT-1-potilailla; renaalinen tubulaari tauti on tunnustettu HT-1:n komplikaatio, jota on tutkittu huonosti ennen tätä työtä |
+| [27109516](https://pubmed.ncbi.nlm.nih.gov/27109516/) | 2016 | Tapaussarja | Indian Journal of Gastroenterology | Neljän NTBC:llä hoidetun tyrosinemiapotilaan tapaussarja; 3 potilasta säilytti normaalin maksan toiminnan ja havaitsemattoman virtsassa olevan sukkinyyliasetonin määrän ilman renaalisen tubulaarin komplikaatioita pitkäaikaisen NTBC-hoidon aikana |
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Nitisinone is currently **not marketed** in Finland (0 authorizations on record), so no marketing-authorization details are available.
+Nitisinonia ei ole tällä hetkellä **markkinoilla** Suomessa (0 rekisteröityä hyväksyntää), joten markkinointihyväksyntätietoja ei ole saatavilla.
 
-## Safety Considerations
+## Turvallisuusnäkökulmat
 
-Please refer to the package insert for safety information.
+Katso turvallisuustiedot pakkausselosteesta.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Proceed with Guardrails**
+**Päätös: Jatka varauksellisesti**
 
-**Rationale:**
-Mechanistic plausibility is strong (HT-1-associated renal tubular dysfunction is a well-documented complication that improves with NTBC), but supporting evidence is limited to one cohort study and one case series — no RCTs or registered clinical trials exist for this specific indication, and the drug is not currently marketed in Finland.
+**Perustelut:**
+Mekanistinen uskottavuus on vahva (HT-1-liittyvä renaalisen tubulaarin toimintahäiriö on hyvin dokumentoitu komplikaatio, joka paranee NTBC-hoidolla), mutta tukeva todistusaineisto rajoittuu yhteen kohorttitutkimukseen ja yhteen tapaussarjaan — tätä spesifistä indikaatiota varten ei ole RCT:itä eikä rekisteröityjä kliinisiä tutkimuksia, ja lääkettä ei ole tällä hetkellä markkinoilla Suomessa.
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert data (warnings, contraindications) — currently a blocking data gap
-- Structured DrugBank MOA confirmation
-- Drug-drug interaction data (current DDI query returned no results)
-- Clarification that the target indication is scoped to HT-1-associated renal tubular acidosis, not general-etiology cases
-- Finland marketing authorization / import pathway assessment given current "not marketed" status
+**Jatkaaksemme tarvitaan seuraavaa:**
+- TFDA/Fimea pakkausselosteen tiedot (varoitukset, vasta-aiheet) — tällä hetkellä estävä tietoaukko
+- Rakenteinen DrugBank MOA -vahvistus
+- Lääkkeiden väliset yhteisvaikutukset (nykyinen DDI-kysely palautti nolla tuloksia)
+- Selkeytys, että tavoiteindikaatio on rajattu HT-1-liittyvään renaalisen tubulaarin asidoosiin, ei yleiseen etiologiaan perustuviin tapauksiin
+- Suomen markkinointihyväksynnän / tuontireitin arviointi nykytilassa "ei markkinoilla" olevan lääkkeen osalta
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -29,60 +29,61 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **7** kpl
 
 </div>
 
-# Ibuprofen: From Unrecorded Original Indication to Acromesomelic Dysplasia, Hunter-Thompson Type
+# Ibuprofeiini: dokumentoimattomasta alkuperäisestä indikaatiosta akromesomeelisen dysplasian, Hunter-Thompson-tyypin, hoitoon
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Ibuprofen's original indication and mechanism of action could not be retrieved from the available regulatory sources for this candidate. The TxGNN model's top prediction is **Acromesomelic Dysplasia, Hunter-Thompson Type**, a rare GDF5-related skeletal dysplasia, but **no clinical trials and no literature** currently support this direction, and the drug is not marketed in Finland.
+Ibuprofeiinin alkuperäinen indikaatio ja vaikutusmekanismi eivät olleet hankittavissa saatavilla olevista sääntelylähteistä tälle ehdokkaalle. TxGNN-mallin pääennuste on **akromesomeelinen dysplasia, Hunter-Thompson-tyyppi**, harvinainen GDF5-liittyvä luurankoston dysplasia, mutta **kliinisiä tutkimuksia eikä kirjallisuusviitteitä** ole tällä hetkellä tämän suunnan tueksi, eikä lääkettä ole markkinoilla Suomessa.
 
-## Quick Overview
+## Pikakatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Not recorded in the available regulatory data |
-| Predicted New Indication | Acromesomelic Dysplasia, Hunter-Thompson Type |
-| TxGNN Prediction Score | 99.74% |
-| Evidence Level | L5 |
-| Finland Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Ei kirjattu saatavilla oleviin sääntelyaineistoihin |
+| Ennustettu uusi indikaatio | Akromesomeelinen dysplasia, Hunter-Thompson-tyyppi |
+| TxGNN-ennuste-pistemäärä | 99.74% |
+| Näytön taso | L5 |
+| Suomen markkinatilanne | Ei markkinoilla |
+| Lupien määrä | 0 |
+| Suositeltu päätös | Odota |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, detailed mechanism of action data is not available for Ibuprofen in this evidence pack. Based on general pharmacological knowledge, Ibuprofen is a non-selective COX-1/COX-2 inhibitor with analgesic and anti-inflammatory activity, but this was not confirmed through the DrugBank query underlying this candidate.
+Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla ibuprofeiinille tässä näyttöpakkauksessa. Yleisen farmakologisen tiedon perusteella ibuprofeiini on ei-selektiivinen COX-1/COX-2-inhibiittori, jolla on analgeettinen ja tulehduksensuppressiva vaikutus, mutta tämä ei vahvistunut tämän ehdokkaan taustalla olevan DrugBank-kyselyn kautta.
 
-Acromesomelic Dysplasia, Hunter-Thompson Type is a rare skeletal dysplasia caused by *GDF5* mutations affecting endochondral ossification — a pathway unrelated to prostaglandin synthesis or COX inhibition. The evidence pack's own mechanistic assessment states there is **no known mechanistic link** between Ibuprofen and the GDF5/BMP signaling pathway, and suggests the high TxGNN score more likely reflects a learned association with joint-symptom comorbidity (e.g., osteoarthritis-type pain management common to skeletal dysplasias) rather than a disease-modifying mechanism.
+Akromesomeelinen dysplasia, Hunter-Thompson-tyyppi on harvinainen luurankoston dysplasia, jonka aiheuttavat *GDF5*-mutaatiot, jotka vaikuttavat endokondraaaliseen osifikaatioon — väylä, joka ei liity prostaglandiinien synteesiin tai COX-inhibitioon. Näyttöpaketin oma mekanistinen arviointi toteaa, että **ei ole tunnettua mekanistista yhteyttä** ibuprofeiinin ja GDF5/BMP-signaloinnin väylän välillä, ja ehdottaa, että korkea TxGNN-pistemäärä todennäköisesti heijastaa opittua assosiaatiota nivel-oireisiin liittyvän yhteisesiintyvyyden kanssa (esim. nivelrikkotyyppiset kivut, jotka ovat yleisiä luurankoston dysplasioissa) pikemminkin kuin todellista sairauden muovaavaa mekanismia.
 
-The remaining six predicted indications (brachyolmia-amelogenesis imperfecta syndrome, myosclerosis, brachyolmia, brachydactyly-syndactyly syndrome, pseudoachondroplasia, and colobomatous microphthalmia-rhizomelic dysplasia syndrome) show the same pattern: TxGNN scores above 99%, but each rationale explicitly notes an absent or purely symptomatic (not disease-modifying) mechanistic basis. This is consistent with the model surfacing a shared "rare skeletal disorder + analgesic comorbidity" signal rather than a genuine repurposing opportunity.
+Kuusi jäljellä olevaa ennustettua indikaatiota (brakioolmia-amelogeneesin epätäydellisyys -syndrooma, myoskleroosi, brakioolmia, brakydaktylia-syndaktylia-syndrooma, pseudoakondroplaasia ja kolobamaattinen mikroftalmia-risomeelinen dysplasia-syndrooma) osoittavat saman kaavan: TxGNN-pistemäärät yli 99%, mutta jokainen perusteltu nimenomaan huomauttaa puuttuvasta tai puhtaasti oireista (ei sairauden muovaavasta) mekanistisesta perusteesta. Tämä on yhdenmukaista sen kanssa, että malli paljastaa jaetun "harvinainen luurankoston häiriö + analgeettinen yhteisesiintyvyys" -signaalin pikemminkin kuin todellisen uudelleenkäytön mahdollisuuden.
 
-## Clinical Trial Evidence
+## Kliinisten tutkimusten näyttö
 
-Currently no related clinical trials registered
+Tällä hetkellä ei ole rekisteröityjä liittyviä kliinisiä tutkimuksia
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-Currently no related literature available
+Tällä hetkellä ei ole saatavilla liittyvää kirjallisuutta
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Ibuprofen has no active marketing authorizations recorded for this candidate (0 authorizations; market status: not marketed).
+Ibuprofeiinilla ei ole voimassa olevia markkinointilupia, jotka on kirjattu tälle ehdokkaalle (0 lupaa; markkinatilanne: ei markkinoilla).
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information.
+Turvallisuustiedot löytyvät pakkausselosteesta.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Odota**
 
-**Rationale:**
-The top prediction has no clinical trial or literature support, no confirmed mechanistic link, and the underlying regulatory/safety data (original indication, MOA, TFDA warnings, DDI) are all missing — this candidate does not meet even a minimal evidentiary bar to proceed.
+**Perustelut:**
+Pääennusteen tueksi ei ole kliinisiä tutkimuksia eikä kirjallisuusviitteitä, ei vahvistettua mekanistista yhteyttä, ja taustalla olevat sääntelytiedot (alkuperäinen indikaatio, vaikutusmekanismi, TFDA-varoitukset, lääkeyhdysvaikutukset) puuttuvat kokonaan — tämä ehdokas ei täytä edes vähimmäisvaatimuksia edistyä eteenpäin.
 
-**To proceed, the following is needed:**
-- TFDA/EMA package insert (warnings, contraindications, DDI) to clear the blocking safety data gap
-- Confirmed mechanism of action from DrugBank or primary literature
-- Independent biological plausibility review of the GDF5/BMP pathway relative to COX inhibition, given the model's own rationale casts doubt on a causal mechanism
-- Re-screening for lower-ranked but mechanistically stronger candidates, since all seven predictions in this pack score similarly (L5, Hold) with no differentiating evidence
+**Jatkaakseen tarvitaan seuraava:**
+- TFDA/EMA-pakkausseloste (varoitukset, vasta-aiheet, lääkeyhdysvaikutukset) turvallisuustietojen kriittisen puutteen ratkaisemiseksi
+- Vahvistettu vaikutusmekanismi DrugBankista tai ensisijaisesta kirjallisuudesta
+- Itsenäinen biologisen uskottavuuden arviointi GDF5/BMP-väylästä suhteessa COX-inhibitioon, ottaen huomioon mallin oman perustelun kyseenalaistavan syy-yhteyttä
+- Uudelleenseulonta alemman sijoituksen saaneille mutta mekanistisesti vahvemmille ehdokkaille, koska kaikki seitsemän ennustetta tässä paketissa saavat samankaltaisen pistemäärän (L5, Odota) ilman erottavaa näyttöä
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

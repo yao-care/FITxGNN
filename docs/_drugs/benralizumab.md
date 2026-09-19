@@ -29,64 +29,65 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Benralizumab: From Severe Eosinophilic Asthma to Thrombocytopenia Due to Immune Destruction
+# Benralizumab: Vakavasta eosinofiilistä astmasta immuunivälitteisen verihiutaleisyyden hoitoon
 
-## One-Sentence Summary
+## Tiivistelmä yhdessä lauseessa
 
-Benralizumab is a monoclonal antibody whose established use is severe eosinophilic asthma, where it depletes eosinophils through an anti-IL-5Rα/ADCC mechanism. The TxGNN model predicts a possible role in **Thrombocytopenia Due to Immune Destruction (Immune Thrombocytopenia, ITP)**, but this pairing is currently supported by **zero clinical trials** and **zero publications** — it is a pure model-generated hypothesis with an explicitly weak mechanistic rationale.
+Benralizumab on monoklonaalinen vasta-aine, jonka vakiintunut käyttöaihe on vaikea eosinofiilistä astma, jossa se poistaa eosinofiileja anti-IL-5Rα/ADCC-mekanismilla. TxGNN-malli ennustaa mahdollisen roolin **immuunivälitteisessä verihiutaleisyydessä (ITP)**, mutta tämä yhdistelmä on tällä hetkellä tuettu **nollalla kliinisellä tutkimuksella** ja **nollalla julkaisulla** — se on puhtaasti mallin tuottama hypoteesi, jolla on eksplisiittisesti heikko mekanistinen perustelu.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Severe eosinophilic asthma (inferred from supporting trial context in the evidence pack; not confirmed via local license data, as the drug is unmarketed in this market) |
-| Predicted New Indication | Thrombocytopenia Due to Immune Destruction (ITP) |
-| TxGNN Prediction Score | 99.34% |
-| Evidence Level | L5 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen käyttöaihe | Vaikea eosinofiilistä astma (päätelty tukevista tutkimuspaketista; ei vahvistettu paikallisen markkinaluvan tietojen perusteella, koska lääketta ei myydä tällä markkinalla) |
+| Ennustettu uusi käyttöaihe | Immuunivälitteinen verihiutaleisyys (ITP) |
+| TxGNN-ennustepisteet | 99,34% |
+| Näytön taso | L5 |
+| Suomen markkina-asema | ✗ Ei markkinoilla |
+| Rekisteröintien lukumäärä | 0 |
+| Suositeltu päätös | Odota |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Detailed mechanism of action data for benralizumab is not available in the structured record for this market. Based on the supporting evidence collected, benralizumab is an anti-IL-5Rα monoclonal antibody that clears eosinophils via antibody-dependent cell-mediated cytotoxicity (ADCC), acting primarily on the Type 2 inflammation pathway relevant to eosinophilic asthma.
+Tarkempaa tietoa benralizumabin toimintamekanismista ei ole saatavilla tämän markkinan rakenteisista tiedoista. Kerätyn tukevien näyttöjen perusteella benralizumab on anti-IL-5Rα monoklonaalinen vasta-aine, joka poistaa eosinofiileja vasta-aineriippuvaisen solujen välittämän sytotoksisuuden (ADCC) kautta ja vaikuttaa pääasiassa eosinofiilistiseen astmaan liittyvien tyypin 2 inflammaation polkuun.
 
-Immune Thrombocytopenia (ITP), by contrast, is driven by autoantibody-mediated destruction of platelets by macrophages and the spleen — a mechanism centered on humoral autoimmunity and reticuloendothelial clearance, not eosinophil biology. The connection proposed by the model is only an indirect hypothesis: eosinophils have been observed to play a bystander role in some autoimmune conditions, but there is no established causal or mechanistic pathway linking IL-5Rα-mediated eosinophil depletion to platelet-sparing or ITP remission.
+Immuunivälitteinen verihiutaleisyys (ITP) sitä vastoin johtuu vasta-aineiden välittämästä verihiutaleiden tuhoutumisesta makrofagien ja pernassa — mekanismissa, joka keskittyy humoraaliin autoimmuniteettiin ja retikuloendoteeliaalisen järjestelmän selektioon, ei eosinofiilin biologiaan. Mallin ehdottama yhteys on vain epäsuora hypoteesi: eosinofiilien on havaittu olevan sivustakatsojia joissakin autoimmunisairauksissa, mutta vakiintunut syy-seuraussuhde tai mekanistinen polku IL-5Rα-välitteisestä eosinofiilin poistosta verihiutaleiden säästämiseen tai ITP:n remissioon ei ole olemassa.
 
-In short, this is a case where the TxGNN similarity score is high, but the underlying biology does not currently provide a credible causal story, and no trial or case evidence has yet been generated to test the hypothesis directly.
+Lyhyesti sanottuna tämä on tapaus, jossa TxGNN samankaltaisuuspistemäärä on korkea, mutta taustalla oleva biologia ei tällä hetkellä tarjoa uskottavaa syy-seuraussuhdetta, eikä yhtään tutkimusta tai tapausraportointiinsa ole vielä tuotettu hypoteesin suoraan testaamiseksi.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-Currently no related clinical trials registered.
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-Currently no related literature available.
+Tällä hetkellä ei ole asiaan liittyvää kirjallisuutta saatavilla.
 
-## Finland Market Information
+## Suomen markkina-asema
 
-Benralizumab is not currently marketed in Finland — there are no marketing authorizations on file (total licenses: 0).
+Benralizumab ei ole tällä hetkellä markkinoilla Suomessa — tiedostoissa ei ole markkinointilupeja (kokonaislupia: 0).
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information.
+Katso turvallisuustiedot pakkausselosteesta.
 
-*(Note: Local warning, contraindication, and drug-interaction data could not be retrieved — this is logged as a Blocking data gap (DG001) that prevents a formal S1 safety pre-assessment.)*
+*(Huomautus: Paikallisia varoituksia, vasta-aiheita ja lääkkeiden välisiä vuorovaikutuksia koskevat tiedot eivät olleet saatavilla — tämä on kirjattu estäväksi tietojen puuttumaksi (DG001), joka estää muodollisen S1-turvallisuuden esiarviointia.)*
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Odota**
 
-**Rationale:**
-This prediction sits at the lowest evidence tier (L5) — no clinical trials, no literature, and only a self-described "weak, indirect" mechanistic hypothesis support it. Combined with missing local safety/label data (Blocking gap DG001) and missing MOA confirmation (DG002), there is currently no basis to advance this candidate beyond model output.
+**Perustelu:**
+Tämä ennuste sijaitsee alimmalla näytön tasolla (L5) — ei kliinisiä tutkimuksia, ei kirjallisuutta, ja vain itse kuvatulla "heikolla, epäsuoralla" mekanistisella hypoteesilla tuettua. Yhdistettynä puuttuviin paikallisiin turvallisuus-/merkintätietoihin (estävä puuttuma DG001) ja puuttuviin MOA-vahvistuksiin (DG002), tällä hetkellä ei ole perustetta edetä tämän ehdokkaan osalta mallin tuloksen yli.
 
-**To proceed, the following is needed:**
-- TFDA/local package insert (warnings, contraindications) to clear the Blocking gap before any S1 safety review
-- Confirmed mechanism-of-action data from DrugBank or primary literature
-- Preclinical or translational evidence connecting IL-5Rα/eosinophil depletion to platelet autoimmunity, before committing to trial design
-- Continued surveillance for case reports or investigator-initiated studies, since none currently exist
+**Jotta voidaan edetä, tarvitaan seuraavaa:**
+- TFDA/paikallinen pakkausseloste (varoitukset, vasta-aiheet) estävän puuttuman poistamiseksi ennen S1-turvallisuustarkastusta
+- Vahvistettu toimintamekanismin tieto DrugBankista tai alkuperäisestä kirjallisuudesta
+- Prekliininen tai translationaalinen näyttö IL-5Rα/eosinofiilin poiston yhdistämisestä verihiutaleiden autoimmuniteettiin, ennen tutkimuksen suunnittelun aloittamista
+- Jatkuva valvonta tapausraporteista tai tutkijan aloittamista tutkimuksista, koska niitä ei tällä hetkellä ole olemassa
 
-**Portfolio note:** Among the five indications TxGNN predicted for benralizumab, dermatitis (rank 2) has materially more evidence — 6 trials and 20 publications — but that evidence is largely negative (the Phase 2 HILLIER RCT, NCT04605094, was terminated, and PMID 37178404 reports "lack of effect" in atopic dermatitis). That candidate warrants its own separate evaluation rather than being folded into this one.
+**Portfolion huomautus:** Viidestä käyttöaiheesta, joita TxGNN ennusti benralizumabille, dermatiitti (sijoitus 2) on aineellisesti enemmän näyttöä — 6 tutkimusta ja 20 julkaisua — mutta näyttö on suurelta osin negatiivista (HILLIER-vaiheen 2 RCT, NCT04605094, keskeytettiin, ja PMID 37178404 raportoi "vaikutuksen puuttumisesta" atopisen dermatiitin hoidossa). Tämä ehdokas vaatii oman erillisen arvioinnin sen sijaan, että se yhdistettäisiin tähän.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

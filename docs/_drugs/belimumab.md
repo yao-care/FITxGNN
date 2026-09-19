@@ -29,62 +29,63 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Belimumab: From an Undocumented Original Indication to Primary Release Disorder of Platelets
+# Belimumab: dokumentoimattomasta alkuperäisestä käyttöaiheesta verihiutaleisten primaarisen vapautumishäiriön hoitoon
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-The evidence pack does not contain Belimumab's original approved indication or mechanism of action (both flagged as data gaps). The TxGNN model predicts it may be effective for **Primary Release Disorder of Platelets**, but this direction is currently supported by only **1 clinical trial** (assessed as not actually relevant to the predicted indication) and **0 publications**.
+Todisteiden pakettiin ei sisälly belimumabinin alkuperäistä hyväksyttyä käyttöaihetta tai vaikutusmekanismia (molemmat merkitty tietovajeiksi). TxGNN-malli ennustaa, että se saattaa olla tehokas **verihiutaleisten primaarisen vapautumishäiriön** hoitoon, mutta tätä suuntaa tukee tällä hetkellä vain **1 kliininen tutkimus** (arvioitu: ei ole tosiasiallisesti merkityksellinen ennustetulle käyttöaiheelle) ja **0 julkaisua**.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Not documented in evidence pack (data gap) |
-| Predicted New Indication | Primary release disorder of platelets |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L5 (model prediction only — the one associated trial is a label mismatch, not true supporting evidence) |
-| Taiwan Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen käyttöaihe | Ei dokumentoitu todisteiden pakettiin (tietovaie) |
+| Ennustettu uusi käyttöaihe | Verihiutaleisten primaarinen vapautumishäiriö |
+| TxGNN-ennusteen pistemäärä | 99.96% |
+| Todisteiden taso | L5 (vain mallin ennuste — siihen liittyvä tutkimus on merkintöjen epäsuhta, ei todellinen tukeva näyttö) |
+| Taiwanin markkinatilanne | Ei markkinoilla |
+| Lupien määrä | 0 |
+| Suositeltu päätös | Pidä odotuksessa |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on kohtuullinen?
 
-Currently, detailed mechanism of action data for Belimumab is not available in this evidence pack, and no original indication is on file either — both are flagged as data gaps (DG001, DG002).
+Tällä hetkellä belimumabinin yksityiskohtaiset vaikutusmekanismin tiedot eivät ole saatavilla tässä todisteiden paketissa, eikä alkuperäistä käyttöaihetta ole tiedostoissa — molemmat on merkitty tietovajeiksi (DG001, DG002).
 
-Based on the repurposing rationale that is available, the evidence pack itself concludes there is **no known mechanistic link** between Belimumab and primary release disorder of platelets: Belimumab is known to act on BAFF/BLyS signaling affecting B-cell survival and autoantibody production, a pathway unrelated to platelet granule release. The only associated clinical trial (NCT01610492) was reviewed and graded "C" — its actual subject was idiopathic membranous glomerulonephropathy, not a platelet disorder, and it was judged a database label mismatch rather than genuine supporting evidence.
+Saatavilla olevan uudelleenkäytön perustelun pohjalta todisteiden paketti itse päättelee, että **belimumabinin ja verihiutaleisten primaarisen vapautumishäiriön välillä ei ole tunnettua mekanistista yhteyttä**: belimumabinin tiedetään vaikuttavan BAFF/BLyS-signalointiin, joka vaikuttaa B-solujen säilymiseen ja autoantibodien tuottamiseen — reitti, joka ei liity verihiutaleisten granulien vapautumiseen. Ainoalla liittyvällä kliinisella tutkimuksella (NCT01610492) on tarkisteltu ja sijoitettu "C" -luokkaan — sen todellinen aihe oli idiopaattinen kalvomainen glomerulonefriitti, ei verihiutaleisiin liittyvä häiriö, ja se arvioitiin tietokannan merkintöjen epäsuhteeksi eikä todelliseksi tukevaksi näytöksi ennustetulla käyttöaiheella.
 
-Taken together, this prediction currently rests on the TxGNN model score alone, without a corroborating mechanistic hypothesis or relevant trial/literature evidence.
+Kaiken kaikkiaan tämä ennuste tällä hetkellä perustuu vain TxGNN-mallin pistemäärään ilman vahvistettua mekanistista yhteyttä tai asiaan liittyvää kliinistä tutkimusta tai kirjallisuuden näyttöä.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset tulokset |
 |---------|------|------|------|---------|
-| [NCT01610492](https://clinicaltrials.gov/study/NCT01610492) | Phase 2 | Completed | 14 | Studied belimumab in anti-PLA2R-positive idiopathic membranous glomerulonephropathy — **not** platelet-related; reviewer graded this a label mismatch and not valid supporting evidence for the predicted indication |
+| [NCT01610492](https://clinicaltrials.gov/study/NCT01610492) | Vaihe 2 | Valmis | 14 | Tutki belimumaabia anti-PLA2R-positiivisessa idiopaattisessa kalvomaisessa glomerulonefriitissa — **ei** verihiutaleisiin liittyvä; arvioija katsoi tämän tietokannan merkintöjen epäsuhteeksi eikä hyväksyttäviksi tukeviksi näytöksi ennustetulle käyttöaiheelle |
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-Currently no related literature available.
+Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta.
 
-## Taiwan Market Information
+## Taiwanin markkinatiedot
 
-Belimumab currently holds no marketing authorization in Taiwan (0 licenses on file; market status: Not marketed).
+Belimumabilla ei ole tällä hetkellä myyntilupaa Taiwanissa (0 lupaa rekisterissä; markkinatilanne: Ei markkinoilla).
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information. Note: TFDA package insert warnings/contraindications data is flagged as a **Blocking** data gap (DG001) and must be obtained before any safety pre-assessment (S1) can proceed.
+Katso pakkausseloste turvallisuustiedoista. Huomio: TFDA:n pakkausselosteen varoitukset/vasta-aiheet -tiedot on merkitty **estäviksi** tietovajeiksi (DG001) ja ne on hankittava ennen kuin turvallisuuden esiarviointia (S1) voidaan suorittaa.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidä odotuksessa**
 
-**Rationale:**
-Evidence level is L5 — the prediction is supported only by the TxGNN model score, with no confirmed mechanistic link and no relevant clinical trial or literature evidence (the single associated trial is a documented label mismatch). The drug is also not currently marketed in Taiwan, and safety data is a blocking gap.
+**Perustelut:**
+Todisteiden taso on L5 — ennuste saa tukea vain TxGNN-mallin pistemäärästä ilman vahvistettua mekanistista yhteyttä ja ilman asiaan liittyviä kliinisiä tutkimuksia tai kirjallisuuden näyttöä (ainoa liittyvä tutkimus on dokumentoitu merkintöjen epäsuhde). Lisäksi lääke ei ole tällä hetkellä markkinoilla Taiwanissa, ja turvallisuustiedot muodostavat estävän tietovajeen.
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings/contraindications) — resolve blocking gap DG001
-- Confirmed mechanism of action data — resolve gap DG002
-- Belimumab's original approved indication(s), for mechanistic comparison
-- Genuine clinical trial or literature evidence specific to primary release disorder of platelets (or a re-screen of the other 5 lower-ranked candidates, all of which are similarly at Hold/L5 with no supporting studies)
+**Jatkamiseksi tarvitaan seuraavaa:**
+- TFDA:n pakkausseloste (varoitukset/vasta-aiheet) — ratkaise estävä tietovaie DG001
+- Vahvistetut vaikutusmekanismin tiedot — ratkaise tietovaie DG002
+- Belimumabinin alkuperäiset hyväksytyt käyttöaiheet mekanistista vertailua varten
+- Todellinen kliininen tutkimus tai kirjallisuuden näyttö, joka liittyy nimenomaisesti verihiutaleisten primaarisen vapautumishäiriöön (tai muiden 5 alemman sijoituksen saaneen ehdokkaan uudelleenseulonta, joista kaikki ovat samalla tavalla Pidä odotuksessa/L5 -statuksessa ilman tukitutkimuksia)
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

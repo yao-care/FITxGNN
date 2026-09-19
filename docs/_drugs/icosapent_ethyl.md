@@ -29,59 +29,60 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Icosapent Ethyl: Toward a Potential New Indication in Hemoglobinopathy
+# Ikosapentaenyyli: kohti mahdollista uutta indikaatiota hemoglobinopatiassa
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Icosapent ethyl's original approved indication is not documented in the current evidence pack, and detailed mechanism-of-action data is a confirmed data gap. The TxGNN model predicts potential relevance to **Hemoglobinopathy**, but this direction is currently supported by only **1 preclinical publication** (studying a related but distinct compound, not icosapent ethyl itself) and **no clinical trials**.
+Ikosapentaenyylin alkuperäinen hyväksytty indikaatio ei ole dokumentoitu nykyisessä näytöpaketissa, ja yksityiskohtaiset toimintamekanismitiedot ovat vahvistettu tietoaukko. TxGNN-malli ennustaa mahdollisen relevanssin **hemoglobinopatialle**, mutta tämä suunta on tällä hetkellä tuettu vain **yhdellä esikliinisellä julkaisulla** (tutkii asiaan liittyvää mutta erillistä yhdistettä, ei itse ikosapentaenyyliä) eikä kliinisillä tutkimuksilla.
 
-## Quick Overview
+## Pikayleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Not documented in evidence pack (data gap) |
-| Predicted New Indication | Hemoglobinopathy |
-| TxGNN Prediction Score | 99.09% |
-| Evidence Level | L4 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen indikaatio | Ei dokumentoitu näytöpaketissa (tietoaukko) |
+| Ennustettu uusi indikaatio | Hemoglobinopatia |
+| TxGNN ennustuspisteet | 99.09% |
+| Näytön taso | L4 |
+| Suomen markkinoiden asema | ✗ Ei markkinoitu |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Pidätä |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on perusteltu?
 
-Currently, detailed mechanism of action data for icosapent ethyl is not available in the evidence pack (data gap, High severity). Based on the limited information provided, icosapent ethyl is the ethyl ester of eicosapentaenoic acid (EPA), an ω-3 fatty acid, and it is described as having potential anti-inflammatory, red-cell-membrane-stabilizing, and microvascular endothelial-modulating properties.
+Tällä hetkellä ikosapentaenyylin yksityiskohtaiset toimintamekanismitiedot eivät ole saatavilla näytöpaketissa (tietoaukko, korkea vakavuus). Annettujen rajoitettujen tietojen perusteella ikosapentaenyyli on eikosapentaeenihapon (EPA) etyyliesteri, ω-3-rasvahapo, ja sen kuvataan voivan omata mahdollisesti anti-inflammatorisia sekä punaisten verisolujen kalvoa stabiloivia ja mikrovaskulaarisen endoteelin sääteleviä ominaisuuksia.
 
-The proposed rationale for hemoglobinopathy (e.g., sickle cell disease) is that these properties could theoretically reduce hypoxia/reperfusion-driven vaso-occlusion and oxidative stress, mechanisms known to contribute to sickle cell disease-associated organ damage.
+Esitetty perustelut hemoglobinopatialle (esim. sirppisoluanemia) on, että nämä ominaisuudet voisivat teoriassa vähentää hypoksia/reperfusio-ohjattua verisuonten tukkeutumaa ja oksidatiivista stressiä, mekanismeja, joiden tiedetään osallistuvan sirppisoluanemiaan liittyviin elimellisiin vahinkoihin.
 
-Importantly, this rationale is **not derived from direct evidence on icosapent ethyl**. The single supporting publication studied epeleuton, a structurally related but distinct synthetic ω-3 fatty acid, in a mouse model of sickle cell disease. This is an indirect, same-class inference rather than a direct pharmacological validation of icosapent ethyl in hemoglobinopathy, which substantially limits confidence in the mechanistic link.
+Tärkeää on, että tämä perustelu **ei johdu suoraan näytöstä ikosapentaenyylistä**. Ainoa tukeva julkaisu tutki epeleutoonia, rakenteellisesti samankaltaista mutta erillistä synteettistä ω-3-rasvahapon, hiiren sirppisoluanemia-mallissa. Tämä on epäsuora, samaan luokkaan kuuluva johtopäätös pikemmin kuin ikosapentaenyylin suora farmakologinen validointi hemoglobinopatiassa, mikä olennaisesti rajoittaa luottamusta mekanistiseen yhteyteen.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-Currently no related clinical trials registered.
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [38105727](https://pubmed.ncbi.nlm.nih.gov/38105727/) | 2024 | Preclinical (Animal Model) | Haematologica | Epeleuton, a synthetic ω-3 fatty acid structurally related to icosapent ethyl, reduced hypoxia/reperfusion-induced inflammatory vasculopathy in a mouse model of sickle cell disease, supporting a potential class-level anti-inflammatory mechanism relevant to hemoglobinopathies. |
+| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät löydökset |
+|------|------|--------|-------|-------------------|
+| [38105727](https://pubmed.ncbi.nlm.nih.gov/38105727/) | 2024 | Esikliininen (eläinmalli) | Haematologica | Epeleuton, rakenteellisesti samankaltainen mutta erilainen synteettinen ω-3-rasvahapo, vähensi hypoksia/reperfusio-indusoimaa tulehduksellista verisuonten sairautta hiiren sirppisoluanemia-mallissa, tukien mahdollista luokkatasoisesti anti-inflammatorista mekanismia, joka on relevantti hemoglobinopatiaille. |
 
-## Safety Considerations
+## Turvallisuushuomiot
 
-A TFDA-equivalent package insert (warnings/contraindications) for icosapent ethyl could not be located, which is flagged as a **Blocking** data gap for any safety pre-assessment. No drug-drug interaction data was found (query returned no results). Please refer to the official package insert for safety information once available.
+TFDA-vastaavaa pakkausselosteita (varoitukset/vasta-aiheet) ikosapentaenyylistä ei voitu paikantaa, mikä merkitään **estäväksi** tietoaukoksi kaikkien turvallisuuden esiarviointien kannalta. Lääkkeen ja lääkkeen välisiä vuorovaikutustietoja ei löytynyt (kysely palautti mitään). Viitatkaa viralliseen pakkausselosteeseen turvallisuustiedoille, kun se on saatavilla.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidätä**
 
-**Rationale:**
-Evidence is limited to a single preclinical study of a structurally related but non-identical compound, with no clinical trials and no direct pharmacological data on icosapent ethyl in hemoglobinopathy. In addition, a blocking data gap in safety/package-insert information prevents even an initial safety assessment, and the drug is not currently marketed in this jurisdiction.
+**Perustelut:**
+Näyttö on rajoitettu yksittäiseen esikliiniseen tutkimukseen rakenteellisesti samankaltaisesta mutta epäidenttisestä yhdisteestä, ilman kliinisiä tutkimuksia eikä suoria farmakologisia tietoja ikosapentaenyylistä hemoglobinopatiassa. Lisäksi estävä tietoaukko turvallisuus-/pakkausselostetiedoissa estää jopa alkuvaiheen turvallisuusarviointia, ja lääke ei ole tällä hetkellä markkinoitu tällä lainkäyttöalueella.
 
-**To proceed, the following is needed:**
-- Official package insert / TFDA warnings and contraindications for icosapent ethyl (DG001, Blocking)
-- Confirmed mechanism-of-action data specific to icosapent ethyl, not inferred from epeleuton (DG002, High)
-- Original approved indication(s) for icosapent ethyl to properly frame the repurposing rationale
-- Direct preclinical or clinical evidence testing icosapent ethyl (not an analog) in hemoglobinopathy models
-- Assessment of local regulatory pathway, given current "Not Marketed" status
+**Jotta voidaan edetä, seuraava on tarpeen:**
+- Virallinen pakkausseloste / TFDA varoitukset ja vasta-aiheet ikosapentaenyylistä (DG001, Estävä)
+- Vahvistetut toimintamekanismitiedot, jotka ovat spesifisiä ikosapentaenyylistä, ei pääteltävissä epeleutonoista (DG002, Korkea)
+- Alkuperäinen/-et hyväksytty/-yt indikaatio/-iot ikosapentaenyylistä asianmukaisen uudelleenkäyttötarkoitusperustelun kehystämiseksi
+- Suora esikliininen tai kliininen näyttö, joka testaa ikosapentaenyyliä (ei analoogeja) hemoglobinopatia-malleissa
+- Paikallisen sääntelypolun arviointi, koska nykyinen asema on "Ei markkinoitu"
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

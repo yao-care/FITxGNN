@@ -29,110 +29,111 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Zidovudine: From HIV/AIDS Antiretroviral Therapy to Prevention of Congenital HIV Transmission
+# Zidovudiini: HIV/AIDS-antiretroviraalisesta terapiasta kongenitaalin HIV-tartunnan ehkäisyyn
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Zidovudine (AZT) is the original nucleoside reverse transcriptase inhibitor (NRTI), long established for treating HIV-1 infection/AIDS. Of six indications TxGNN predicted in this evidence pack, **Congenital Human Immunodeficiency Virus** (perinatal / mother-to-child transmission prevention) is the only candidate with strong, credible support — **33 clinical trials** and **20 publications**, including the landmark ACTG 076/PACTG-derived prophylaxis regimens. This largely reflects zidovudine's already-established PMTCT role rather than a genuinely novel indication; the other five predictions in this batch (feline/simian AIDS animal models, a rare neurodevelopmental disorder, and an obsolete hyperlipidemia ontology term) lack credible human clinical relevance and are not recommended for further evaluation (see "Other Predicted Indications Screened" below).
+Zidovudiini (AZT) on alkuperäinen nukleosidinen käänteisen transkriptaasin estäjä (NRTI), joka on pitkään vakiintunut HIV-1-infektio/AIDS-taudin hoitoon. Kuudesta indikaatiosta, joita TxGNN ennusti tässä näyttöpaketissa, **kongenitaalinen ihmisen immuunikatovirus** (perinataalinen / äidiltä lapselle siirtyvä tartunta) on ainoa kandidaatti, jolla on vahva, uskottava tuki — **33 kliinistä tutkimusta** ja **20 julkaisua**, mukaan lukien maamerkkitutkimus ACTG 076/PACTG-johdetut profylaksiakaaviot. Tämä heijastaa pääosin zidovudiinin jo vakiintunutta PMTCT-roolia pikemminkin kuin todella uutta indikaatiota; muilla viidellä ennustetulla indikaatiolla tässä erässä (lemmikkieläin-/apinoiden immuunikatovirus-mallit, harvinainen neurokehi­tyk­sel­linen häiriö ja vanhentunut hyperlipidemian ontologia-termi) ei ole uskottavaa ihmisen kliinistä relevanssia, eikä niitä suositella jatkotutkimukselle (katso "Muut seulotut ennustetut indikaatiot" alla).
 
 ---
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Not available from Finland licensing data (drug not marketed there); based on general pharmacological knowledge — HIV-1 infection / AIDS (adult antiretroviral therapy) |
-| Predicted New Indication | Congenital Human Immunodeficiency Virus (perinatal/mother-to-child transmission prevention) |
-| TxGNN Prediction Score | 99.19% |
-| Evidence Level | L1 |
-| Finland Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Alkuperäinen käyttöaihe | Ei saatavilla Suomen lääkevalvontadatasta (lääkettä ei markkinoida siellä); perustuu yleiseen farmakologiseen tietämykseen — HIV-1-infektio / AIDS (aikuisten antiretrovibaali-hoito) |
+| Ennustettu uusi käyttöaihe | Kongenitaalinen ihmisen immuunikato-virus (perinataalinen/äidiltä lapselle siirtyvä tartunnan ehkäisy) |
+| TxGNN:n ennusteosuus | 99,19% |
+| Näyttöjen taso | L1 |
+| Suomen markkinatilanne | ✗ Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Jatka varauksellisesti |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, detailed mechanism of action data is not available from DrugBank for this record. Based on well-established pharmacological knowledge, zidovudine is a thymidine nucleoside analogue reverse transcriptase inhibitor (NRTI): it is phosphorylated intracellularly to its active triphosphate form, which is incorporated into nascent viral DNA by HIV-1 reverse transcriptase, causing chain termination and blocking viral replication. Its efficacy in adult HIV-1 infection/AIDS has been established since 1987 (the first antiretroviral drug ever approved).
+Tällä hetkellä vaikutusmekanismin yksityiskohtaista tietoa ei ole saatavilla DrugBankista tälle tietueelle. Hyvin vakiintuneen farmakologisen tiedon perusteella zidovudiini on timidiinin nukleosidianalogi käänteisen transkriptaasin estäjä (NRTI): se fosforyloituu solunsisäisesti aktiiviseksi trifosfaattimuodoksi, joka inkorporoituu syntyvään viraali-DNA:han HIV-1:n käänteisen transkriptaasin välityksellä, aiheuttaen ketjun lopettamisen ja estäen viraalin replikaation. Sen tehokkuus aikuisten HIV-1-infektiosta/AIDS-taudista on vakiintunut vuodesta 1987 lähtien (ensimmäinen koskaan hyväksytty antiretrovibaali).
 
-Mechanistically, the same reverse-transcriptase-blocking action applies directly to interrupting mother-to-child (in-utero, intrapartum, and early neonatal) transmission of HIV-1 — the virus and its reverse transcriptase are identical; only the patient population (pregnant women and neonates) differs. This is reflected in real regulatory history: the landmark ACTG 076/PACTG 076 trial established that zidovudine prophylaxis (given antepartum/intrapartum to the mother and for six weeks to the newborn) reduces perinatal HIV transmission by roughly two-thirds, becoming the founding evidence base for PMTCT programs worldwide.
+Mekanistisesti sama käänteisen transkriptaasin estävä vaikutus soveltuu suoraan äidiltä lapselle (raskauden aikaisen, synnytysaikaisen ja varhaisen vastasyntyneen) siirtymisen estämiseen — virus ja sen käänteinen transktriptaasi ovat identtisiä; vain potilaspopulaatio (raskaat naiset ja vastasyntyneet) eroaa. Tämä heijastuu todellisessa säädösten mukaisen historiassa: maamerkkitutkimus ACTG 076/PACTG 076 osoitti, että zidovudiini-profylaksia (annettuna ennen synnytystä/synnytysaikana äidille ja kuuden viikon ajan vastasyntyneet) vähentää perinataalista HIV-tartuntaa noin kahteen kolmasosaan, mikä muodosti PMTCT-ohjelmien koko maailman perustavan näyttöjärjestelmän.
 
-Because this evidence pack's `original_indications` field is empty (a documented drug-level data gap, DG002), the model's "predicted new indication" substantially overlaps with zidovudine's already-recognized antiretroviral/PMTCT role rather than a true off-label repurposing opportunity. This should be read as a data-completeness artifact rather than a novel scientific hypothesis — the underlying clinical evidence is nonetheless strong.
+Koska tämän näyttöpaketin `original_indications`-kenttä on tyhjä (dokumentoitu lääketason tietoaukko, DG002), mallin "ennustettu uusi indikaatio" päällekkäin merkittävästi zidovudiinin jo tunnustetun antiretroviraali-/PMTCT-roolin kanssa pikemminkin kuin todelliseksi off-label-uudelleenkäyttömahdollisuudeksi. Tämä tulisi lukea tiedon täydellisyyden artefaktiksi pikemminkin kuin uudeksi tieteelliseksi hypoteesiksi — taustalla oleva kliininen näyttö on kuitenkin vahva.
 
 ---
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimusnumero | Vaihe | Tila | Osallistujat | Tärkeimmät havainnot |
 |---------|------|------|------|---------|
-| [NCT00386230](https://clinicaltrials.gov/study/NCT00386230) | Phase 3 | Completed | 1,554 | Short-course ZDV regimen non-inferior to long ACTG-076-like regimen for reducing perinatal HIV transmission risk in Thailand |
-| [NCT00000751](https://clinicaltrials.gov/study/NCT00000751) | Phase 3 | Completed | 1,600 | Evaluated HIVIG vs IVIG added to intrapartum/neonatal AZT for further reducing maternal-fetal HIV transmission |
-| [NCT01061151](https://clinicaltrials.gov/study/NCT01061151) | Phase 3 | Completed | 3,747 | PROMISE study — optimal antiretroviral strategies (incl. AZT-based regimens) for antepartum, intrapartum, and postpartum/breastfeeding MTCT prevention |
-| [NCT00164736](https://clinicaltrials.gov/study/NCT00164736) | Phase 3 | Completed | 2,369 | Maternal/infant antiretroviral interventions and nutritional supplementation during breastfeeding to prevent MTCT |
-| [NCT00197587](https://clinicaltrials.gov/study/NCT00197587) | N/A | Completed | 1,200 | "Mashi" study — prevention of milk-borne HIV-1C transmission in Botswana |
-| [NCT01511237](https://clinicaltrials.gov/study/NCT01511237) | Phase 3 | Completed | 379 | PHPT-5 — perinatal antiretroviral intensification for women with <8 weeks of prior HAART during pregnancy |
-| [NCT00102960](https://clinicaltrials.gov/study/NCT00102960) | Phase 3 | Completed | 377 | Compared antiretroviral course lengths for infants infected with HIV at birth, in a resource-poor setting |
-| [NCT00001007](https://clinicaltrials.gov/study/NCT00001007) | Phase 1 | Completed | 18 | Safety and pharmacokinetics of IV and oral zidovudine in infants with perinatal HIV exposure (age 1 day–3 months) |
-| [NCT03642704](https://clinicaltrials.gov/study/NCT03642704) | Phase 4 | Completed | 56 | Strategy evaluation of early HIV diagnosis plus reinforced preventive antiretroviral treatment at birth (Guinea) |
+| [NCT00386230](https://clinicaltrials.gov/study/NCT00386230) | Vaihe 3 | Valmis | 1 554 | Lyhyen kurssin ZDV-kaavio yhtä tehokas kuin pitkä ACTG-076-tyyppinen kaavio perinataalisen HIV-tartunnan riskin vähentämiseen Thaimaassa |
+| [NCT00000751](https://clinicaltrials.gov/study/NCT00000751) | Vaihe 3 | Valmis | 1 600 | Arvioi HIVIG vs IVIG lisätty synnytysaikaiselle/vastasyntyneen AZT:lle äiti-sikiö HIV-tartunnan edelleen vähentämiseksi |
+| [NCT01061151](https://clinicaltrials.gov/study/NCT01061151) | Vaihe 3 | Valmis | 3 747 | PROMISE-tutkimus — optimaaliset antiretroviraaliset strategiat (mukaan lukien AZT-pohjaisia kaavioita) raskauden edelliselle, synnytysaikaiselle ja synnytyksen jälkeiselle/imetysaikaiselle MTCT-ehkäisylle |
+| [NCT00164736](https://clinicaltrials.gov/study/NCT00164736) | Vaihe 3 | Valmis | 2 369 | Äidin/vastasyntyneen antiretroviraali-interventiot ja ravinnollinen täydentäminen imetysaikana MTCT-ehkäisyä varten |
+| [NCT00197587](https://clinicaltrials.gov/study/NCT00197587) | N/A | Valmis | 1 200 | "Mashi"-tutkimus — maidon välityksellä siirtyvän HIV-1C-tartunnan ehkäisy Botswanassa |
+| [NCT01511237](https://clinicaltrials.gov/study/NCT01511237) | Vaihe 3 | Valmis | 379 | PHPT-5 — perinataalinen antiretroviraali-intensifiointi naisille, joilla oli <8 viikkoa edeltävää HAART-hoitoa raskauden aikana |
+| [NCT00102960](https://clinicaltrials.gov/study/NCT00102960) | Vaihe 3 | Valmis | 377 | Vertaili antiretroviraali-hoitokurssien pituuksia vastasyntyneen kanssa syntyneille HIV-infektoiduille vauvoille resurssien puutteeseen kärsivässä ympäristössä |
+| [NCT00001007](https://clinicaltrials.gov/study/NCT00001007) | Vaihe 1 | Valmis | 18 | IV- ja suun kautta annetun zidovudiinin turvallisuus ja farmakokinetiikka vastasyntyneillä perinataalisen HIV-altistuksen kanssa (ikä 1 päivä–3 kuukautta) |
+| [NCT03642704](https://clinicaltrials.gov/study/NCT03642704) | Vaihe 4 | Valmis | 56 | Varhaisen HIV-diagnoosin strategian arviointi ja vahvistettu ennaltaehkäisevä antiretroviraali-hoito syntymässä (Guinea) |
 
 ---
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Aikakauslehti | Tärkeimmät havainnot |
 |------|-----|------|------|---------|
-| [7913986](https://pubmed.ncbi.nlm.nih.gov/7913986/) | 1994 | Guideline | MMWR Recomm Rep | US PHS Task Force recommendations for ZDV use to reduce perinatal HIV transmission, based on ACTG 076 results (~2/3 risk reduction) |
-| [8879761](https://pubmed.ncbi.nlm.nih.gov/8879761/) | 1996 | Review | Clin Infect Dis | Progress report two years post-ACTG 076: real-world MTCT rates fell substantially when counseling and ZDV therapy were offered |
-| [9240849](https://pubmed.ncbi.nlm.nih.gov/9240849/) | 1997 | Cohort | Acta Paediatr Suppl | Timing of perinatal HIV transmission and its implications for designing ZDV-based preventive/therapeutic interventions |
-| [12197800](https://pubmed.ncbi.nlm.nih.gov/12197800/) | 2002 | Cohort | Arch Pediatr Adolesc Med | Population-level effectiveness of zidovudine prophylaxis on mother-to-infant HIV-1 transmission, before vs. after its introduction |
-| [8419601](https://pubmed.ncbi.nlm.nih.gov/8419601/) | 1993 | Phase I trial | J Pediatr | Safety, tolerability, and pharmacokinetics of IV/oral zidovudine in 32 infants born to HIV-infected mothers |
-| [28537936](https://pubmed.ncbi.nlm.nih.gov/28537936/) | 2017 | Cohort/registry | AIDS | Assessed association between zidovudine use in pregnancy and congenital malformations; evidence inconsistent for increased risk |
-| [26687320](https://pubmed.ncbi.nlm.nih.gov/26687320/) | 2016 | Registry study | Eur J Obstet Gynecol Reprod Biol | Antiretroviral Pregnancy Registry data on prenatal ZDV exposure and risk of ventricular septal/congenital heart defects |
-| [33541012](https://pubmed.ncbi.nlm.nih.gov/33541012/) | 2021 | Systematic review/meta-analysis | Epidemiol Health | Meta-analysis on whether antiretroviral therapy (incl. ZDV) during pregnancy causes congenital malformations |
-| [40011239](https://pubmed.ncbi.nlm.nih.gov/40011239/) | 2025 | Case/non-case study | Eur J Clin Pharmacol | European congenital anomaly registry analysis of antiretroviral drug exposure in pregnancy and malformation risk |
-| [2126136](https://pubmed.ncbi.nlm.nih.gov/2126136/) | 1990 | Case report | Pediatr Infect Dis J | Early case report describing zidovudine treatment of an infant with congenital HIV infection |
+| [7913986](https://pubmed.ncbi.nlm.nih.gov/7913986/) | 1994 | Ohjeisto | MMWR Recomm Rep | USA:n terveydenhuollon tehtäväryhmän suositukset ZDV:n käytöstä perinataalisen HIV-tartunnan vähentämiseksi, perustuen ACTG 076 -tuloksiin (~2/3 riskin vähentäminen) |
+| [8879761](https://pubmed.ncbi.nlm.nih.gov/8879761/) | 1996 | Katsaus | Clin Infect Dis | Edistyskertomus kaksi vuotta ACTG 076:n jälkeen: todellisuuden MTCT-osuudet laskivat merkittävästi kun neuvonta ja ZDV-hoito tarjottiin |
+| [9240849](https://pubmed.ncbi.nlm.nih.gov/9240849/) | 1997 | Kohortti | Acta Paediatr Suppl | Perinataalisen HIV-tartunnan ajoitus ja sen vaikutukset ZDV-pohjaisten ennaltaehkäisevien/hoitavien interventioiden suunnitteluun |
+| [12197800](https://pubmed.ncbi.nlm.nih.gov/12197800/) | 2002 | Kohortti | Arch Pediatr Adolesc Med | Zidovudiini-profylaksian väestötason tehokkuus äiti-lapsi HIV-1-tartuntaan ennen ja jälkeen sen käyttöön oton |
+| [8419601](https://pubmed.ncbi.nlm.nih.gov/8419601/) | 1993 | Vaihe I tutkimus | J Pediatr | IV- ja suun kautta annetun zidovudiinin turvallisuus, siedettävyys ja farmakokinetiikka 32 vastasyntyneellä HIV-infektoiduista äideistä syntyneillä vastasyntyneillä |
+| [28537936](https://pubmed.ncbi.nlm.nih.gov/28537936/) | 2017 | Kohortti/rekisteri | AIDS | Arvioi zidovudiini-käytön yhteyttä raskauden aikana ja synnynnäisen epämuodostumisen; näyttö ristiriitainen lisääntyneelle riskille |
+| [26687320](https://pubmed.ncbi.nlm.nih.gov/26687320/) | 2016 | Rekisteri-tutkimus | Eur J Obstet Gynecol Reprod Biol | Antiretroviraali-raskauden rekisterin tiedot prenataalista ZDV-altistuksesta ja kammion väliseinämän poikkeaman/synnynnäisen sydänvian riskistä |
+| [33541012](https://pubmed.ncbi.nlm.nih.gov/33541012/) | 2021 | Järjestelmällinen katsaus/meta-analyysi | Epidemiol Health | Meta-analyysi siitä, aiheuttaako antiretrovibaali-hoito (mukaan lukien ZDV) raskauden aikana synnynnäisiä epämuodostumia |
+| [40011239](https://pubmed.ncbi.nlm.nih.gov/40011239/) | 2025 | Tapaus/ei-tapaus -tutkimus | Eur J Clin Pharmacol | Eurooppalaisen synnynnäisen poikkeaman rekisterin analyysi antiretroviraali-lääkkeen altistuksesta raskauden aikana ja epämuodostumien riskistä |
+| [2126136](https://pubmed.ncbi.nlm.nih.gov/2126136/) | 1990 | Tapausraportti | Pediatr Infect Dis J | Varhainen tapausraportti zidovudiinin hoidosta vastasyntyneen kongenitalisen HIV-infektiossa |
 
 ---
 
-## Finland Market Information
+## Suomen markkinatilanne
 
-Zidovudine is **not currently marketed in Finland** — the regulatory query returned 0 valid marketing authorizations, so no product name, dosage form, or approved-indication text is available. Any repurposing pathway would require a new marketing authorization application (or import/named-patient route) before local use.
+Zidovudiini **ei ole tällä hetkellä markkinoilla Suomessa** — säädösten mukainen kysely palautti 0 kelvollista markkinointilupaa, joten tuotteen nimeä, vahvuutta tai hyväksyttyä käyttöaihetta ei ole saatavilla. Kaikki uudelleenkäyttöpolut vaatisivat uuden markkinointilupahakemuksen (tai tuonti-/nimetyn potilaan reitin) ennen paikallista käyttöä.
 
 ---
 
-## Other Predicted Indications Screened
+## Muut seulotut ennustetut indikaatiot
 
-Five additional TxGNN predictions were reviewed in this evidence pack and are **not recommended for further evaluation**:
+Viisi muuta TxGNN-ennustetta seulottiin tässä näyttöpaketissa ja **eivät ole suositella jatkotutkimukselle**:
 
-| Disease | Score | Evidence Level | Reason for Exclusion |
+| Sairaus | Osuus | Näyttöjen taso | Poissulkemisen syy |
 |---|---|---|---|
-| Feline acquired immunodeficiency syndrome | 99.96% | L4 | Cross-species knowledge-graph artifact (feline FIV model); no human clinical relevance |
-| Simian immunodeficiency virus infection | 99.96% | L4 | Primate disease model used as an HIV analogue in preclinical research; not a human indication |
-| Neurodevelopmental disorder with ataxic gait, absent speech, decreased cortical white matter | 99.96% | L5 | No mechanistic link, no supporting trials or literature; likely embedding-similarity false positive |
-| Obsolete familial combined hyperlipidemia | 99.62% | L5 | Ontology term marked "obsolete"; no known lipid-related mechanism, zero evidence |
-| AIDS related complex | 99.19% | L1 | Same underlying finding as the reported indication above — reflects AZT's already-established antiretroviral role, not a novel candidate |
+| Kissailla esiintyvä hankittu immuunikato | 99,96% | L4 | Lajien välisen tietoverkko-artefakti (kissojen FIV-malli); ihmisen kliininen relevanssi puuttuu |
+| Apinoiden immuunikato-virusinfektio | 99,96% | L4 | Primaatti-tautimalli käytetään HIV:n analogina prekliinisessä tutkimuksessa; ei ihmisen indikaatio |
+| Neurokehi­tyk­sel­linen häiriö ataksisella kävelylla, puuttuvalla puheella, vähentyneellä kortikaalin valkeiden aineiden määrällä | 99,96% | L5 | Ei mekanistista yhteyttä, ei tukevia kokeita tai kirjallisuutta; todennäköisesti upotuksen samankaltaisuus valepositiivinen |
+| Vanhentunut familiaaris yhdistetty hyperlipidemiat | 99,62% | L5 | Ontologia termi merkitty "vanhentuneeksi"; ei tunnettua lipideihin liittyvää mekanismia, nolla näyttöä |
+| AIDS-siihen liittyvä kompleksi | 99,19% | L1 | Sama perustava löydös kuin raportoitu indikaatio yllä — heijastaa AZT:n jo vakiintunutta antiretrovibaali-roolia, ei uutta kandidaattia |
 
 ---
 
-## Safety Considerations
+## Turvallisuusasiat
 
-Please refer to the package insert for safety information. Key warnings, contraindications, and drug-drug interaction data were not available in this evidence pack (TFDA/Fimea package insert query pending — flagged as a **Blocking** data gap, DG001).
+Lisätietoja turvallisuudesta on saatavilla pakkausselosteesta. Tärkeät varoitukset, vasta-aiheet ja lääkkeiden väliset vuorovaikutukset eivät olleet saatavilla tässä näyttöpaketissa (TFDA/Fimean pakkausseloste-kysely vireillä — merkitty **estävänä** tietoaukoksi, DG001).
 
 ---
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Proceed with Guardrails**
+**Päätös: Jatka varauksellisesti**
 
-**Rationale:**
-The clinical evidence base for zidovudine in preventing congenital/perinatal HIV transmission is strong (L1: 33 trials including multiple large completed Phase 3 studies, plus 20 publications spanning efficacy and pregnancy-safety literature). However, this substantially overlaps with the drug's already-established antiretroviral/PMTCT use rather than representing a genuinely new indication, and two blocking data gaps prevent a full go decision: local (Finland) package-insert safety data and formal MOA documentation are both missing, and the drug is not currently marketed in Finland.
+**Perustelut:**
+Zidovudiinin kliinisen näyttöjärjestelmä perinataalisen/äidiltä lapselle siirtyvän HIV-tartunnan ehkäisyyn on vahva (L1: 33 tutkimusta mukaan lukien useita suuria valmiita Vaihe 3 -tutkimuksia, sekä 20 julkaisua, jotka kattavat tehokkuuden ja raskauden aikaa koskevan turvallisuuskirjallisuuden). Kuitenkin tämä päällekkäin merkittävästi lääkkeen jo vakiintuneen antiretroviraali-/PMTCT-käytön kanssa pikemminkin kuin todella uutta indikaatiota edustaa, ja kaksi estävää tietoaukkoa estävät täydellisen myöntävän päätöksen: paikallisen (Suomen) pakkausselosteen turvallisuustiedot ja virallinen vaikutusmekanismin dokumentaatio ovat molemmat puuttuneet, ja lääkettä ei ole tällä hetkellä markkinoilla Suomessa.
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert (warnings, contraindications) — **Blocking**, required for initial safety screening (S1)
-- Formal DrugBank/regulatory-sourced mechanism of action documentation
-- Clarification of true original approved indication(s), since `original_indications` is currently empty in source data
-- Regulatory pathway assessment for Finland market entry (new MA application or import route), given 0 current licenses
-- Confirmation that the "new indication" framing (PMTCT-specific) offers meaningful clinical/regulatory differentiation from AZT's existing antiretroviral use before committing further repurposing resources
+**Jatkamista varten vaaditaan seuraavaa:**
+- TFDA/Fimean pakkausseloste (varoitukset, vasta-aiheet) — **Estävä**, vaaditaan alkuperäisen turvallisuusseulan kannalta (S1)
+- Virallinen DrugBank/säädösten mukaisen lähteen vaikutusmekanismin dokumentaatio
+- Selventäminen todellisista alkuperäisistä hyväksytyistä indikaatioista, koska `original_indications` on tällä hetkellä tyhjä lähdedatassa
+- Säädösten mukainen polku-arvio Suomen markkinoille (uusi MA-hakemus tai tuontireitti), ottaen huomioon 0 nykyistä lupaa
+- Vahvistus siitä, että "uuden indikaation" kehys (PMTCT-spesifinen) tarjoaa merkityksellistä kliinistä/säädösten mukaista erottelua AZT:n olemassa olevasta antiretroviraali-käytöstä ennen jatkon sitouttamista uudelleenkäytön resursseihin
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

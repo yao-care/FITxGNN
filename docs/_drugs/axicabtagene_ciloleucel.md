@@ -29,95 +29,96 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 
 </div>
 
-# Axicabtagene Ciloleucel: Repurposing Evaluation — Insufficient Evidence Pack
+# Aksikabtageen siloleuseeli: Uudelleenkäyttöarviointi — riittämätön näyttöpaketti
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Axicabtagene ciloleucel (DB13915) is a CD19-directed CAR-T cell immunotherapy; however, the current Evidence Pack contains no original indication records, no TxGNN-predicted indications, and no mechanism-of-action data.
-Without a predicted new indication, a standard repurposing evaluation **cannot be completed at this time**.
-The recommended action is to remediate all Blocking/High-severity data gaps before re-running the pipeline.
+Aksikabtageen siloleuseeli (DB13915) on CD19-suunnattu CAR-T-soluimmunoterapia; nykyisen näyttöpaketin sisältö ei kuitenkaan sisällä alkuperäisen indikaation tietoja, ei TxGNN-ennustettuja indikaatioita eikä toimintamekanismin tietoja.
+Ilman ennustettua uutta indikaatiota tavanomaista uudelleenkäyttöarviointia **ei voida suorittaa tällä hetkellä**.
+Suositeltu toimenpide on korjata kaikki estävät/korkean vakavuuden tietoaukot ennen prosessin uudelleenkäyttöä.
 
 ---
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohde | Sisältö |
 |------|---------|
-| Original Indication | Not recorded in Evidence Pack |
-| Predicted New Indication | None — TxGNN returned no predictions |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | N/A (no predictions generated) |
-| Finland Market Status | Not marketed (0 authorisations) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+| Alkuperäinen indikaatio | Ei tallennettu näyttöpaketissa |
+| Ennustettu uusi indikaatio | Ei mitään — TxGNN ei palauttanut ennusteita |
+| TxGNN-ennusteen pistemäärä | N/A |
+| Näyttötaso | N/A (ei ennusteita luotu) |
+| Suomen markkinatilanne | Ei markkinoilla (0 hyväksyntää) |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | **Pidätys** |
 
 ---
 
-## Why No Prediction Is Available
+## Miksi ennustetta ei ole saatavilla
 
-The `predicted_indications` array in the Evidence Pack is empty. This typically occurs for one of two reasons:
+Näyttöpaketin `predicted_indications`-taulukko on tyhjä. Tämä tapahtuu tyypillisesti yhdestä kahdesta syystä:
 
-1. **Model scope**: The TxGNN knowledge graph may not include the DrugBank node for `DB13915` (axicabtagene ciloleucel) because CAR-T cell therapies are living-cell products whose graph representation differs from small-molecule drugs.
-2. **Pipeline gap**: The prediction step may not have been executed, or the disease-mapping step (KG → MeSH/ICD) produced no matched candidates above threshold.
+1. **Mallin laajuus**: TxGNN-tietokanta ei välttämättä sisällä DrugBank-solmua `DB13915`:lle (aksikabtageen siloleuseeli), koska CAR-T-solujen terapiat ovat eläviin soluihin perustuvia tuotteita, joiden esitys tietokannassa eroaa pienimolekyylilääkkeiden esityksestä.
+2. **Prosessin aukko**: Ennustevaihetta ei välttämättä ole suoritettu, tai tautikartitusvaihe (KG → MeSH/ICD) ei tuottanut yhtään vastaavia ehdokkaita kynnysarvon yläpuolella.
 
-Currently, detailed mechanism-of-action data is also unavailable. Based on known information, axicabtagene ciloleucel belongs to the CD19-targeting CAR-T cell therapy class; its efficacy in relapsed/refractory large B-cell lymphoma has been established in registrational trials, and mechanistically its approach could in principle extend to other CD19-expressing haematological malignancies — but **this cannot be formally evaluated without Evidence Pack data**.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered in this Evidence Pack.
+Tällä hetkellä yksityiskohtaiset toimintamekanismin tiedot eivät myöskään ole saatavilla. Tunnettujen tietojen perusteella aksikabtageen siloleuseeli kuuluu CD19-kohdentavien CAR-T-soluterapioiden luokkaan; sen teho relapsseissa/refraktaarisessa laajassa B-solutahdissa on osoitettu rekisteröintiinterventiossa, ja mekanismisesti lähestymistapa voisi periaatteessa laajentua muihin CD19-ilmaiseviin hematologisiin maligniteetteihin — mutta **tätä ei voida muodollisesti arvioida ilman näyttöpaketin tietoja**.
 
 ---
 
-## Literature Evidence
+## Kliiniset tutkimukset
 
-Currently no related literature available in this Evidence Pack.
-
----
-
-## Finland Market Information
-
-No marketing authorisations on file for axicabtagene ciloleucel in this Evidence Pack.
+Näyttöpaketissa ei ole tällä hetkellä siihen liittyviä kliinisiä tutkimuksia.
 
 ---
 
-## Cytotoxicity
+## Kirjallisuusväitteet
 
-Axicabtagene ciloleucel is an antineoplastic cellular product (CAR-T immunotherapy targeting CD19). The following is noted from the DrugBank record retrieved in this run; detailed package-insert toxicity data was not parsed into the Evidence Pack.
+Näyttöpaketissa ei ole tällä hetkellä aiheeseen liittyviä kirjallisuuslähteitä.
 
-| Item | Content |
+---
+
+## Suomen markkinatiedot
+
+Tässä näyttöpaketissa ei ole aksikabtageen silolesueelille merkittyjä markkinointihyväksynnän tietoja.
+
+---
+
+## Sytotoksisuus
+
+Aksikabtageen siloleuseeli on kasvainsytostaattinen solutuote (CD19:tä kohdennettu CAR-T-immuuniterapia). Seuraavat tiedot on huomioitu tässä ajossa haetussa DrugBank-tietueesta; yksityiskohtaisia pakkausesite-toksisuustietoja ei jäsennetty näyttöpaketiksi.
+
+| Kohde | Sisältö |
 |------|---------|
-| Cytotoxicity Classification | Cellular immunotherapy (CAR-T; not conventional cytotoxic) |
-| Myelosuppression Risk | High — cytokine release syndrome and haematological toxicity are class effects of CAR-T therapies |
-| Emetogenicity Classification | Low (primary toxicity is CRS/neurotoxicity, not emetogenicity) |
-| Monitoring Items | CBC with differential, liver function, renal function, neurological status, ferritin, CRP (CRS monitoring) |
-| Handling Protection | Must follow guidelines for handling of genetically modified cellular products; standard cytotoxic handling precautions apply |
+| Sytotoksisuuden luokittelu | Soluimmuuniterapia (CAR-T; ei tavanomainen sytotoksinen) |
+| Ydinliemen sortumisenriski | Korkea — sytokiinin vapautumisen oireyhtymä ja hematologinen toksisuus ovat CAR-T-terapioiden luokan vaikutuksia |
+| Emetisyysluokittelu | Alhainen (ensisijainen toksisuus on CRS/neurotoksisuus, ei pahoinvointia) |
+| Seurantakohteet | Täydellinen verikuvio differentiaalilla, maksanfunktio, munuaisten toiminta, neurologinen asema, ferritiini, CRP (CRS-seuranta) |
+| Käsittelyn varotoimet | On noudatettava genetiikasti muunnettujen solutuotteiden käsittelyä koskevia ohjeita; tavanomaiset sytotoksisten aineiden käsittelyvarotoimet soveltuvat |
 
-> **Note:** The above is based on CAR-T class knowledge. Please refer to the full package insert (Yescarta® SmPC) for product-specific warnings and precautions.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+> **Huomio:** Yllä oleva perustuu CAR-T-luokan tietoihin. Katso täydelliset pakkausesite-tiedot (Yescarta® SmPC) tuottekohtaisista varoituksista ja varotoimista.
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuusnäkökohdat
 
-**Decision: Hold**
+Katso pakkausesite-turvallisuustietoja.
 
-**Rationale:**
-The Evidence Pack contains no predicted indications, no original indication records, and no mechanism-of-action data; a drug repurposing evaluation cannot be meaningfully completed or scored without these inputs.
+---
 
-**To proceed, the following is needed:**
+## Johtopäätös ja seuraavat vaiheet
 
-- **[DG001 — Blocking]** Retrieve TFDA (or EMA/FDA) package insert PDF and parse warnings, contraindications, and approved indications
-- **[DG002 — High]** Query DrugBank API for MOA, pharmacology, and drug categories for `DB13915`
-- **Re-run TxGNN pipeline** after confirming that the `DB13915` node is present in the knowledge graph and that the prediction + disease-mapping steps complete successfully
-- **Verify KG node type**: Confirm whether axicabtagene ciloleucel is modelled as a small-molecule node or a biologic/cell-therapy node in the TxGNN graph, as this affects prediction coverage
-- Once predictions are available, re-generate this Evidence Pack (v5+) and re-run the evaluation
+**Päätös: Pidätys**
+
+**Perustelut:**
+Näyttöpaketti ei sisällä ennustettuja indikaatioita, alkuperäisen indikaation tietoja eikä toimintamekanismin tietoja; lääkkeen uudelleenkäyttöarviointia ei voida mielekkäällä tavalla suorittaa tai pisteyttää ilman näitä syöttötietoja.
+
+**Jatkamista varten tarvitaan seuraavat:**
+
+- **[DG001 — Estävä]** Hae TFDA:n (tai EMA:n/FDA:n) pakkausesite-PDF ja jäsennä varoitukset, vasta-aiheet ja hyväksytyt indikaatiot
+- **[DG002 — Korkea]** Kysy DrugBank API:sta MOA-, farmakologisia ja lääkkeiden luokittelutietoja `DB13915`:lle
+- **Suorita TxGNN-prosessi uudelleen** sen jälkeen kun olet vahvistanut, että `DB13915`-solmu on olemassa tietokannassa ja että ennuste- ja tautikartitusvaihe saa päätökseen
+- **Vahvista KG-solmun tyyppi**: Vahvista, onko aksikabtageen siloleuseeli mallinnettu pienimolekyyliseksi solmuksi vai biologia/soluterapia-solmuksi TxGNN-graafissa, koska tämä vaikuttaa ennusteen kattavuuteen
+- Kun ennusteet ovat saatavilla, luonti uudelleen tämä näyttöpaketti (v5+) ja uudelleenkäyttö arviointi
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -29,91 +29,92 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-# Palbociclib: From Breast Cancer to Hyperthyroidism
+# Palbociclib: Rintasyövästä hypertyreositukseen
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Palbociclib is a CDK4/6 inhibitor, per the literature captured in this evidence pack primarily developed for hormone receptor-positive, HER2-negative metastatic breast cancer. The TxGNN model's top-ranked prediction for this drug is **Hyperthyroidism**, but currently **zero clinical trials and zero publications** support this specific pairing — it is a computational prediction only.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Breast cancer (HR+/HER2-) — inferred from literature context in this pack; not confirmed via Taiwan/TFDA licensing data (none available) |
-| Predicted New Indication | Hyperthyroidism |
-| TxGNN Prediction Score | 99.44% |
-| Evidence Level | L5 |
-| Taiwan Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Palbociclib on CDK4/6-estäjä, joka tämän näytepaketin kirjallisuuden mukaan on pääasiassa kehitetty hormonieostin-positiiviseen, HER2-negatiiviseen etäpesäkkeiden rintasyöpään. TxGNN-mallin tämän lääkkeen korkeimman sijoituksen mukainen ennuste on **Hypertyreoosia**, mutta tällä hetkellä **nolla kliinistä tutkimusta ja nolla julkaisua** ei tue tätä spesifistä yhdistelmää — se on vain laskennallinen ennuste.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Currently, detailed mechanism of action data is not available in this evidence pack (flagged as a High-severity data gap, DG002). Based on literature context embedded in this pack, palbociclib is a CDK4/6 (cyclin-dependent kinase 4/6) inhibitor that blocks cell-cycle progression from G1 to S phase, and is established in HR+/HER2- metastatic breast cancer.
-
-There is no known pathophysiological relationship between CDK4/6-mediated cell-cycle arrest and hyperthyroidism (a disorder of excess thyroid hormone secretion driven by thyroid gland/pituitary-axis dysregulation, not cell-cycle control). The repurposing rationale supplied with this candidate explicitly states there is no mechanistic link identified.
-
-No clinical trials, published literature, or preclinical studies were found connecting palbociclib to hyperthyroidism (see query_log entries 5–7, all zero results). This prediction should be treated as an untested network-level hypothesis from TxGNN, not as a mechanistically or clinically supported signal.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Kohde | Sisältö |
+|-------|---------|
+| Alkuperäinen indikaatio | Rintasyöpä (HR+/HER2-) — päätelty tämän näytepaketin kirjallisuuden kontekstista; ei vahvistettu Taiwanin/TFDA-hyväksyntädatalla (ei saatavilla) |
+| Ennustettu uusi indikaatio | Hypertyreoosia |
+| TxGNN:n ennustepistemäärä | 99.44% |
+| Näyttötaso | L5 |
+| Taiwanin markkinatilanne | Ei markkinoilla (Ei markkinoilla) |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Pidätä |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennuste on järkevä?
 
-Currently no related literature available.
+Tällä hetkellä yksityiskohtaista toimintamekanismia koskevaa tietoa ei ole saatavilla tässä näytepakettissa (merkitty korkean vakavuuden tietovajeksi, DG002). Tämän paketin kirjallisuuden perusteella palbociclib on CDK4/6-estäjä (sykliiniriippuvainen kinaasi 4/6), joka estää solujakson etenemisen G1-vaiheesta S-vaiheeseen, ja se on vakiintunut HR+/HER2-negatiivisen etäpesäkkeiden rintasyövän hoitoon.
 
----
+CDK4/6-välitteisen solujakson pysäyttämisen ja hypertyreosiin (kilpirauhashormonin ylituotanto, jota aiheuttaa kilpirauhanen/hypofyysi-akselin häiriö, ei solujakson kontrolli) välillä ei ole tunnettu patofysiologista yhteyttä. Tämän kandidaatin kanssa toimitetut uudelleenkäyttöperustelut nimenomaisesti toteavat, että mekanistista yhteyttä ei ole tunnistettu.
 
-## Taiwan Market Information
-
-Palbociclib currently holds **0 marketing authorizations** in Taiwan (market status: Not marketed / not marketed). No license records are available in this evidence pack, and TFDA package insert data is flagged as a Blocking data gap (DG001).
+Mitään kliinisiä tutkimuksia, julkaistua kirjallisuutta tai prekliinisiä tutkimuksia, jotka yhdistävät palbociclbin hypertyreositukseen, ei löydetty (katso kyselylokin merkinnät 5–7, kaikki nolla tuloksia). Tätä ennustetta tulee käsitellä testaamattomana TxGNN:n verkko-tasoisena hypoteesina, ei mekanistisesti tai kliinisesti tuetuna signaalina.
 
 ---
 
-## Cytotoxicity
+## Kliiniset tutkimukset
 
-Palbociclib is an oncology agent (CDK4/6 inhibitor class, established in breast cancer per the literature in this pack), so this section applies.
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (CDK4/6 inhibitor) |
-| Myelosuppression Risk | High — literature within this evidence pack documents palbociclib-induced myelosuppression (neutropenia/thrombocytopenia) as a recognized class effect (PMID [39940918](https://pubmed.ncbi.nlm.nih.gov/39940918/), PMID [37994878](https://pubmed.ncbi.nlm.nih.gov/37994878/)) |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | CBC with differential (neutrophil count); liver function; monitor for interstitial lung disease symptoms per PMID [37994878](https://pubmed.ncbi.nlm.nih.gov/37994878/) |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+Tällä hetkellä mitään liittyviä rekisteröityjä kliinisiä tutkimuksia ei ole.
 
 ---
 
-## Safety Considerations
+## Kirjallisuusnäyttö
 
-Please refer to the package insert for safety information (key warnings, contraindications, and DDI data are all unavailable — flagged as a Blocking data gap, DG001).
-
-**Supplementary note (from literature, not formal safety data):** other candidate indications in this same evidence pack surfaced pharmacovigilance signals worth tracking independently — myelosuppression (PMID 39940918, 37994878) and thromboembolic events (PMID 35300061, 36794339, 39123221) associated with CDK4/6 inhibitors as a class.
+Tällä hetkellä mitään liittyviä kirjallisuusmateriaaleja ei ole saatavilla.
 
 ---
 
-## Conclusion and Next Steps
+## Taiwanin markkinatiedot
 
-**Decision: Hold**
+Palbociclib:llä on tällä hetkellä **0 hyväksyntöä** Taiwanissa (markkinatilanne: Ei markkinoilla / ei markkinoilla). Tässä näytepakettissa ei ole saatavilla mitään lisensointitietoja, ja TFDA:n pakkausseloste on merkitty estäväksi tietovajeksi (DG001).
 
-**Rationale:**
-Despite a high TxGNN similarity score, there is no clinical trial, literature, or mechanistic evidence linking palbociclib to hyperthyroidism — evidence level is L5 (model prediction only), which does not meet the threshold to advance this specific candidate.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings/contraindications) — currently Blocking data gap
-- DrugBank-confirmed mechanism of action (MOA) — currently High-severity data gap
-- Any preclinical/translational data establishing a plausible link between CDK4/6 inhibition and thyroid hormone regulation before further evaluation is warranted
+## Sytotoksisuus
 
-**Note:** this evidence pack also includes a second candidate, **rheumatoid arthritis** (rank 2, score 99.36%), with substantially stronger support — a human case report of RA remission during palbociclib treatment, a 2025 review on CDK4/6 inhibitors and immune-mediated disease, and two preclinical studies on CDK6-driven synovial hyperplasia (Evidence Level L4, "Research Question" recommendation). If exploring repurposing directions for this drug, that candidate merits a separate, dedicated evaluation.
+Palbociclib on onkologinen lääke (CDK4/6-estäjä-luokka, vakiintunut rintasyövän hoidossa tämän paketin kirjallisuuden mukaan), joten tämä osa on sovellettavissa.
+
+| Kohde | Sisältö |
+|-------|---------|
+| Sytotoksisuuden luokittelu | Kohdennettu hoito (CDK4/6-estäjä) |
+| Verituotannon heikkenemisen riski | Korkea — tämän näytepaketin kirjallisuus dokumentoi palbociclbin aiheuttaman verituotannon heikkenemisen (neutropenia/trombosytopenia) tunnistettuna luokan vaikutuksena (PMID [39940918](https://pubmed.ncbi.nlm.nih.gov/39940918/), PMID [37994878](https://pubmed.ncbi.nlm.nih.gov/37994878/)) |
+| Oksettavuuden luokittelu | Katso pakkausselosteen varoituksista ja varotoimista |
+| Seurannan kohteet | Verenkuva erottelussa (neutrofiilien lukumäärä); maksan toiminta; interstitiaalisen keuhkosairauden oireiden seuranta PMID [37994878](https://pubmed.ncbi.nlm.nih.gov/37994878/) mukaisesti |
+| Käsittelysuojaus | Katso pakkausselosteen varoituksista ja varotoimista |
+
+---
+
+## Turvallisuusnäkökohdat
+
+Katso pakkausselosteesta turvallisuustietoja (keskeiset varoitukset, vasta-aiheet ja lääkkeiden välisen yhteisvaikutuksen tiedot eivät ole saatavilla — merkitty estäväksi tietovajeksi, DG001).
+
+**Täydentävä huomio (kirjallisuudesta, ei muodollisista turvallisuustiedoista):** muut kandidaattindikaatiot tässä samassa näytepakettissa nousivat esiin lääkitystä turvallisuusvalvontasignaaleja, joita kannattaa seurata erikseen — verituotannon heikkeneminen (PMID 39940918, 37994878) ja tromboemboliset tapahtumat (PMID 35300061, 36794339, 39123221) liittyvät CDK4/6-estäjiin luokkana.
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidätä**
+
+**Perustelut:**
+Huolimatta korkeasta TxGNN-samankaltaisuuspisteestä, ei ole kliinisiä tutkimuksia, kirjallisuutta tai mekanistisia todisteita, jotka yhdistävät palbociclbin hypertyreositukseen — näyttötaso on L5 (mallin ennuste vain), mikä ei täytä kriteeria edetä tämän spesifisen kandidaatin kanssa.
+
+**Jatkaakseen tarvitaan seuraavaa:**
+- TFDA:n pakkausseloste (varoitukset/vasta-aiheet) — tällä hetkellä estävä tietovaje
+- DrugBankissa vahvistettu toimintamekanismi (MOA) — tällä hetkellä korkean vakavuuden tietovaje
+- Mikä tahansa prekliininen/translationaalinen tieto, joka vahvistaa viitattavissa olevan yhteyden CDK4/6-inhibition ja kilpirastushormoniregulation välillä ennen kuin lisäevaluointia kannattaa harkita
+
+**Huomio:** tämä näytepaketti sisältää myös toisen kandidaatin, **reumatoidi artriitti** (sijoitus 2, pistemäärä 99.36%), jolla on huomattavasti vahvempi tuki — ihmisen tapausraportti RA-remissiosta palbociclbin hoidon aikana, 2025 katsaus CDK4/6-estäjistä ja immuunijärjestelmän väliintulosta saatuista sairauksista, ja kaksi prekliinistä tutkimusta CDK6:n aiheuttamasta synoviaalin hyperplasiasta (Näyttötaso L4, "Tutkimuskysymys"-suositus). Jos tutkitaan tämän lääkkeen uudelleenkäyttösuuntia, tuo kandidaatti ansaitsee erillisen, omistautuneen arvioinnin.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

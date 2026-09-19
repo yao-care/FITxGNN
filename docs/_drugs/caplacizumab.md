@@ -29,102 +29,103 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Caplacizumab: From Not-Yet-Marketed to Thrombotic Thrombocytopenic Purpura (TTP)
+# Caplacizumab: markkinoimattomasta laakkeesta trombosytopeenisen purpuran (TTP) hoitoon
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Caplacizumab (DrugBank DB06081) is not currently marketed in this jurisdiction (0 authorizations on file), so no locally-documented original indication exists in this dataset. Among the 10 candidate indications TxGNN generated, **Thrombotic Thrombocytopenic Purpura (TTP)** is the only one with substantive supporting evidence — **14 clinical trials** and **20 publications**, including the pivotal TITAN and HERCULES RCTs that underpin the drug's approval elsewhere. Note this is effectively a **market-access gap**, not classical repurposing: caplacizumab's globally-approved indication is TTP itself, and the evidence pack flags this explicitly.
+Caplacizumab (DrugBank DB06081) ei ole tällä hetkellä markkinoilla tässä lainkäyttöalueella (0 hyväksyntää rekisterissä), joten paikallisesti dokumentoitua alkuperäistä indikaatiota ei ole tässä tietojoukossa. Kymmenen ehdokkaan indikaatiosta, jonka TxGNN loi, **Trombosytopeeninen purpura (TTP)** on ainoa, jolla on merkittävää tukevaa näyttöä — **14 kliinistä tutkimusta** ja **20 julkaisua**, mukaan lukien pivotaaliset TITAN- ja HERCULES-RCT-tutkimukset, jotka tukevat lääkkeen hyväksyntää muissa lainkäyttöalueilla. Huomaa, että tämä on käytännössä **markkinoille pääsyn aukko**, ei klassista uudelleenkäyttöä: caplacizumabin globaalisti hyväksytty indikaatio on itse TTP, ja näyttöpaketti liputtaa tämän nimenomaisesti.
 
 ---
 
-## Quick Overview
+## Pikakatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Not documented — drug not yet marketed in this jurisdiction (0 licenses on file) |
-| Predicted New Indication | Thrombotic Thrombocytopenic Purpura (TTP) |
-| TxGNN Prediction Score | 99.996% |
-| Evidence Level | L1 |
-| Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Alkuperäinen indikaatio | Ei dokumentoitu — lääkettä ei ole vielä markkinoilla tässä lainkäyttöalueella (0 lisenssejä rekisterissä) |
+| Ennustettu uusi indikaatio | Trombosytopeeninen purpura (TTP) |
+| TxGNN-ennustepistemäärä | 99.996% |
+| Näyttötaso | L1 |
+| Markkinoinnin asema | Ei markkinoilla (Ei markkinoilla) |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Jatka varauksilla |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-A structured mechanism-of-action field is not populated in this dataset for caplacizumab, but the repurposing rationale attached to the TTP candidate supplies sufficient mechanistic detail: caplacizumab is an anti-von Willebrand factor (vWF) A1-domain humanized nanobody that blocks the interaction between vWF multimers and platelet GPIbα.
+Rakenteellinen vaikutusmekanismikenttä ei ole täytetty caplacizumabille tässä tietojoukossa, mutta TTP-ehdokkaaseen liitetyt uudelleenkäytön perustelut antavat riittävät mekanistiset yksityiskohdat: caplacizumab on humanoidutettu nanobody, joka estää von Willebrandin tekijän (vWF) A1-domeenin ja verihiutaleen GPIbα:n välistä vuorovaikutusta.
 
-In immune-mediated TTP, autoantibody-driven ADAMTS13 deficiency allows uncontrolled accumulation of ultra-large vWF multimers, which drive pathological platelet adhesion, microthrombosis, thrombocytopenia, and organ ischemia. By blocking the vWF–GPIbα axis directly, caplacizumab interrupts the proximate step in this pathology — the mechanism maps onto the disease process essentially 1:1, rather than by analogy.
+Immuunivälitteisessä TTP:ssä autoantibodien ohjaamassa ADAMTS13-puutoksessa sallitaan ultra-suurten vWF-multimerien säätymätön kertyminen, mikä ohjaa patologista verihiutaleiden adheesiota, mikrotromboosia, trombosytopeniaa ja elimensisäkkeiden iskemiaa. Estämällä vWF–GPIbα-akselin suoraan, caplacizumab keskeyttää tämän patologian välittävän vaiheen — mekanismi kartoitetaan tautiprosessiin olennaisesti 1:1, eikä analogian kautta.
 
-This is why the evidence pack itself flags TTP as an unusual "prediction": caplacizumab (Cablivi) is already approved for TTP in multiple countries. Its appearance here as a "predicted indication" reflects a **local data/licensing gap** (Not marketed) rather than a genuine mechanistic hypothesis requiring validation — the underlying clinical evidence base is mature.
+Tämän vuoksi näyttöpaketti itse liputtaa TTP:n epätavallisena "ennusteena": caplacizumab (Cablivi) on jo hyväksytty TTP:hen useissa maissa. Sen esiintyminen tässä "ennustetuna indikaationa" heijastaa **paikallista tietojen/lisensointia** (Ei markkinoilla) pikemminkin kuin todellista mekanistista hypoteesia, joka vaatii validointia — taustalla oleva kliininen näyttöpohja on kypsä.
 
 ---
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimusnumero | Vaihe | Asema | Rekrytointi | Keskeiset löydökset |
 |---------|------|------|------|---------|
-| [NCT02553317](https://clinicaltrials.gov/study/NCT02553317) | Phase 3 | Completed | 145 | HERCULES — pivotal double-blind, placebo-controlled RCT establishing caplacizumab's efficacy in faster platelet count normalization and prevention of microvascular thrombosis in aTTP |
-| [NCT01151423](https://clinicaltrials.gov/study/NCT01151423) | Phase 2 | Completed | 75 | TITAN — single-blind, placebo-controlled RCT; first evidence anti-vWF nanobody shortens time to platelet response as adjunct to plasma exchange |
-| [NCT05468320](https://clinicaltrials.gov/study/NCT05468320) | Phase 3 | Completed | 51 | Single-arm study of caplacizumab + immunosuppression **without** first-line plasma exchange; supports remission without daily TPE |
-| [NCT04074187](https://clinicaltrials.gov/study/NCT04074187) | Phase 2/3 | Completed | 21 | Japanese population trial confirming efficacy/safety consistency across ethnic groups, including recurrence prevention |
-| [NCT02878603](https://clinicaltrials.gov/study/NCT02878603) | Phase 3 | Completed | 104 | Post-HERCULES long-term follow-up; evaluates safety/efficacy of repeated caplacizumab use |
-| [NCT05876221](https://clinicaltrials.gov/study/NCT05876221) | N/A | Completed | 223 | Real-world observational study characterizing platelet-count dynamics under caplacizumab, decoupled from ADAMTS13 activity |
-| [NCT06291025](https://clinicaltrials.gov/study/NCT06291025) | N/A | Recruiting | 131 | Multicenter non-inferiority study of immunosuppression + caplacizumab + plasma infusion **without** therapeutic plasma exchange |
-| [NCT06376786](https://clinicaltrials.gov/study/NCT06376786) | N/A | Recruiting | 132 | Italian iTTP prospective registry — natural history and long-term real-world outcomes |
-| [NCT04985318](https://clinicaltrials.gov/study/NCT04985318) | N/A | Recruiting | 350 | REACT-2020 (Germany) — national observational study confirming real-world efficacy and prescribing patterns |
-| [NCT04720261](https://clinicaltrials.gov/study/NCT04720261) | Phase 2 | Terminated | 58 | Personalized caplacizumab dosing regimen guided by ADAMTS13 activity monitoring |
+| [NCT02553317](https://clinicaltrials.gov/study/NCT02553317) | Vaihe 3 | Valmis | 145 | HERCULES — pivotaali, kaksoissokkoutettava, lumekontrolloitu RCT, joka osoittaa caplacizumabin tehokkuuden verihiutaleiden lukumäärän nopeammassa normalisaatiossa ja mikrovaskulaarisen tromboosin ehkäisyssä aTTP:ssä |
+| [NCT01151423](https://clinicaltrials.gov/study/NCT01151423) | Vaihe 2 | Valmis | 75 | TITAN — yksittäin sokkoutettu, lumekontrolloitu RCT; ensimmäinen näyttö anti-vWF-nanobodysta lyhentää aikaa verihiutaleiden vasteeseen apuaineen plasman vaihdossa |
+| [NCT05468320](https://clinicaltrials.gov/study/NCT05468320) | Vaihe 3 | Valmis | 51 | Yksiarvoinen tutkimus caplacizumabista + immunosuppressio **ilman** ensisijaista plasman vaihtoa; tukee remissiota ilman päivittäistä TPE:tä |
+| [NCT04074187](https://clinicaltrials.gov/study/NCT04074187) | Vaihe 2/3 | Valmis | 21 | Japanilaisen populaation tutkimus vahvistaa tehokkuuden ja turvallisuuden johdonmukaisuuden etnisten ryhmien välillä, mukaan lukien uusintumisen ehkäisy |
+| [NCT02878603](https://clinicaltrials.gov/study/NCT02878603) | Vaihe 3 | Valmis | 104 | HERCULES:n jälkeinen pitkäaikainen seuranta; arvioi caplacizumabin toistuvan käytön turvallisuutta ja tehokkuutta |
+| [NCT05876221](https://clinicaltrials.gov/study/NCT05876221) | N/A | Valmis | 223 | Todellisen maailman havainnoiva tutkimus verihiutaleiden lukumäärän dynamiikasta caplacizumabin aikana, irrotettu ADAMTS13-aktiviteetistä |
+| [NCT06291025](https://clinicaltrials.gov/study/NCT06291025) | N/A | Rekrytoiva | 131 | Monikeskinen ei-pienempiarvoisuustutkimus immunosuppressiosta + caplacizumab + plasmainfuusio **ilman** terapeuttista plasman vaihtoa |
+| [NCT06376786](https://clinicaltrials.gov/study/NCT06376786) | N/A | Rekrytoiva | 132 | Italialainen iTTP:n prospektiivinen rekisteri — luonnollinen historiikki ja pitkäaikainen todellisen maailman tulokset |
+| [NCT04985318](https://clinicaltrials.gov/study/NCT04985318) | N/A | Rekrytoiva | 350 | REACT-2020 (Saksa) — kansallinen havainnoiva tutkimus, joka vahvistaa todellisen maailman tehokkuuden ja reseptimerkintöjen kuvioita |
+| [NCT04720261](https://clinicaltrials.gov/study/NCT04720261) | Vaihe 2 | Lopetettu | 58 | Personoitu caplacizumabin annostelu, ohjattu ADAMTS13-aktiivisuuden seurannan perusteella |
 
 ---
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
 |------|-----|------|------|---------|
-| [30625070](https://pubmed.ncbi.nlm.nih.gov/30625070/) | 2019 | RCT | NEJM | HERCULES primary publication — caplacizumab inhibits vWF-platelet interaction, reduces time to platelet response |
-| [26863353](https://pubmed.ncbi.nlm.nih.gov/26863353/) | 2016 | RCT | NEJM | TITAN primary publication — establishes proof-of-concept efficacy of anti-vWF nanobody in aTTP |
-| [36053773](https://pubmed.ncbi.nlm.nih.gov/36053773/) | 2023 | Systematic Review/Meta-analysis | Blood Advances | Adding caplacizumab to standard of care — pooled RCT and real-world observational data |
-| [37045600](https://pubmed.ncbi.nlm.nih.gov/37045600/) | 2023 | Systematic Review/Meta-analysis | Expert Review of Hematology | Efficacy and safety synthesis across populations |
-| [40533296](https://pubmed.ncbi.nlm.nih.gov/40533296/) | 2025 | Guideline | J Thromb Haemost | 2025 focused update of ISTH TTP management guidelines |
-| [32914526](https://pubmed.ncbi.nlm.nih.gov/32914526/) | 2020 | Guideline | J Thromb Haemost | ISTH guidelines for treatment of TTP |
-| [32914582](https://pubmed.ncbi.nlm.nih.gov/32914582/) | 2020 | Guideline | J Thromb Haemost | ISTH guidelines for diagnosis of TTP |
-| [34266669](https://pubmed.ncbi.nlm.nih.gov/34266669/) | 2022 | Guideline | Medicina Clínica | Spanish diagnosis/treatment recommendations for TTP |
-| [40388146](https://pubmed.ncbi.nlm.nih.gov/40388146/) | 2025 | Review | JAMA | Comprehensive review of immune TTP diagnosis and management |
-| [36890095](https://pubmed.ncbi.nlm.nih.gov/36890095/) | 2023 | Review | Transfus Apher Sci | Individualized treatment approach to TTP in the caplacizumab era |
+| [30625070](https://pubmed.ncbi.nlm.nih.gov/30625070/) | 2019 | RCT | NEJM | HERCULES-pääjulkaisu — caplacizumab estää vWF-verihiutaleiden vuorovaikutuksen, vähentää aikaa verihiutaleiden vasteeseen |
+| [26863353](https://pubmed.ncbi.nlm.nih.gov/26863353/) | 2016 | RCT | NEJM | TITAN-pääjulkaisu — vahvistaa anti-vWF-nanoboysyn todistavan tehokkuuden aTTP:ssä |
+| [36053773](https://pubmed.ncbi.nlm.nih.gov/36053773/) | 2023 | Systemaattinen katsaus/Metaanalyysi | Blood Advances | Caplacizumabin lisääminen vakiohoitoon — yhdistetyt RCT- ja todellisen maailman havaintotiedot |
+| [37045600](https://pubmed.ncbi.nlm.nih.gov/37045600/) | 2023 | Systemaattinen katsaus/Metaanalyysi | Expert Review of Hematology | Tehokkuuden ja turvallisuuden synteesi väestöiden kesken |
+| [40533296](https://pubmed.ncbi.nlm.nih.gov/40533296/) | 2025 | Ohje | J Thromb Haemost | 2025 TTP:n hallinnan kohdistettu päivitys |
+| [32914526](https://pubmed.ncbi.nlm.nih.gov/32914526/) | 2020 | Ohje | J Thromb Haemost | ISTH-ohjeet TTP:n hoitoon |
+| [32914582](https://pubmed.ncbi.nlm.nih.gov/32914582/) | 2020 | Ohje | J Thromb Haemost | ISTH-ohjeet TTP:n diagnoosiin |
+| [34266669](https://pubmed.ncbi.nlm.nih.gov/34266669/) | 2022 | Ohje | Medicina Clínica | Espanjan diagnoosi- ja hoitosuositukset TTP:lle |
+| [40388146](https://pubmed.ncbi.nlm.nih.gov/40388146/) | 2025 | Katsaus | JAMA | Kattava katsaus immuunivälitteisen TTP:n diagnoosiin ja hallintaan |
+| [36890095](https://pubmed.ncbi.nlm.nih.gov/36890095/) | 2023 | Katsaus | Transfus Apher Sci | Yksilöllinen lähestymistapa TTP:n hoitoon caplacizumab-aikakauden aikana |
 
 ---
 
-## Market Information
+## Markkinointitiedot
 
-This drug is **not currently marketed** in this jurisdiction — no product authorizations, dosage forms, or approved indication text are on file.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+Tämä lääke ei ole tällä hetkellä markkinoilla tässä lainkäyttöalueella — mitään tuotevaltuutuksia, annostettuja muotoja tai hyväksyttyjä indikaatiotekstejä ei ole rekisterissä.
 
 ---
 
-## Other TxGNN-Flagged Candidates (Not Recommended)
+## Turvallisuusnäkökohdat
 
-For completeness: this evidence pack scored caplacizumab against 9 additional platelet/bleeding-disorder nodes (primary release disorder of platelets, pseudo-von Willebrand disease, Glanzmann thrombasthenia, Scott syndrome, collagen-receptor bleeding diathesis, constitutional thrombocytopenia, FNAIT, hemophilia, platelet-type bleeding disorder). All carry **L4–L5 evidence, decision stage S0/S1, and a Hold or Research Question recommendation** — either no clinical/literature evidence exists, or the disease mechanism runs counter to caplacizumab's anti-adhesive action (several are bleeding disorders where blocking vWF–GPIbα could *worsen* hemorrhagic risk). None are addressed further here.
+Katso turvallisuutta koskevia tietoja pakkausselosteesta.
 
 ---
 
-## Conclusion and Next Steps
+## Muut TxGNN:n merkitsemät ehdokkaat (Ei suositeltu)
 
-**Decision: Proceed with Guardrails**
+Täydellisyyden vuoksi: tämä näyttöpaketti arvioi caplacizumabia yhdeksää muuta verihiutaleiden/verenvuototauti-solmua vastaan (primaarinen verihiutaleiden vapautumishäiriö, pseudo-von Willebrand-tauti, Glanzmannin trombastenia, Scottin syndrooma, kollageenireseptori-verenvuotosairaus, konstitutionaalinen trombosytopenia, FNAIT, hemofilia, verihiutaleiden verenvuototauti). Kaikissa on **L4–L5-näyttö, päätösvaihe S0/S1 ja Hold- tai Research Question -suositus** — joko kliinistä tai kirjallisuuspalkkion näyttöä ei ole, tai tautimekanismi vastustaa caplacizumabin antiadheesiivista toimintaa (useat ovat verenvuototaudit, joissa vWF–GPIbα:n estäminen voisi *pahentaa* verenvuotoriskia). Niitä ei käsitellä tarkemmin tässä.
 
-**Rationale:**
-The clinical evidence for caplacizumab in TTP is mature (two pivotal RCTs, multiple Phase 2/3 confirmatory trials, and real-world registries across 1,500+ patients), so this is not an open efficacy question — it is a local registration/market-access gap.
+---
 
-**To proceed, the following is needed:**
-- Local regulatory dossier / TFDA package insert (warnings, contraindications) — currently unavailable and blocking a full safety review
-- Structured mechanism-of-action documentation from DrugBank
-- Drug-drug interaction data (currently not found)
-- Local licensing/market-authorization application status
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Jatka varauksilla**
+
+**Perustelut:**
+Caplacizumabin kliininen näyttö TTP:ssä on kypsä (kaksi pivotaali-RCT:tä, useita vaihe 2/3 vahvistavia tutkimuksia ja todellisen maailman rekisterit yli 1 500 potilaan kesken), joten tämä ei ole avoin tehokkuuskysymys — se on paikallinen rekisteröinti- tai markkinoille pääsyn aukko.
+
+**Jatkaakseen seuraava vaaditaan:**
+- Paikallinen sääntelydossier/TFDA:n pakkauseloste (varoitukset, vasta-aiheet) — tällä hetkellä saatavilla oleva ja estävä täydellisen turvallisuusarvion
+- Rakenteiset vaikutusmekanismi-dokumentaatio DrugBankista
+- Lääkkeiden väliset vuorovaikutustiedot (tällä hetkellä ei löydy)
+- Paikallinen lisensointihakemus/markkinoille-hyväksymisen hakemuksen asema
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

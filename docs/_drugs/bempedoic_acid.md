@@ -29,87 +29,88 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Bempedoic Acid: From Hypercholesterolemia to Homozygous Familial Hypercholesterolemia
+# Bempedoiinihapo: hyperkolesterolemian hoidosta homozygoosin familiaali-hyperkolesterolemian hoitoon
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-> Bempedoic acid is an ATP-citrate lyase (ACLY) inhibitor used to lower LDL-cholesterol. TxGNN's top-ranked predictions (hyperthyroidism, thyroid hormone resistance, two cattle diseases, CMV infection) are flagged in the evidence pack itself as likely false positives or model noise with no supporting literature — one is even a data-pairing error citing a paper about an unrelated drug. The only prediction with real supporting evidence is **Homozygous Familial Hypercholesterolemia (HoFH)** (rank 6), backed by **1 real-world cohort study** and **16 additional publications**, with a coherent mechanistic rationale.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available from Finland licensing data (drug not yet marketed); pharmacologically an LDL-C–lowering agent (ACLY inhibitor) |
-| Predicted New Indication | Homozygous Familial Hypercholesterolemia (HoFH) |
-| TxGNN Prediction Score | 99.48% (rank 5650 of full candidate list) |
-| Evidence Level | L3 (real-world cohort study) |
-| Finland Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
-**Note on TxGNN ranking:** Ranks 1–5, 7, and 10 (hyperthyroidism, thyroid hormone receptor-β resistance, malignant catarrh, infectious bovine rhinotracheitis, CMV infection, hyperthyroxinemia, pregnancy-associated osteoporosis) all scored *higher* than HoFH but carry **no supporting clinical or literature evidence** — two are veterinary/cattle diseases, and the one literature hit (PMID 40549098) discusses a different drug (tiratricol) entirely. These are treated as model noise and excluded from further evaluation. Rank 6 (HoFH) is the only candidate with real, verifiable evidence and is the subject of this report.
+> Bempedoiinihapo on ATP-sitroaattilyaasi (ACLY) -inhibiittori, jota käytetään LDL-kolesterolin alentamiseen. TxGNN:n korkeimmin sijoittuneet ennusteet (kilpirauhasen yliaktiivisuus, kilpirauhasen hormonin resistanssi, kaksi nautakarjan sairautta, CMV-infektio) on merkitty todistepaketin sisällään todennäköisiksi vääriksi positiivisiksi tuloksiksi tai mallin kohinaksi ilman tukevaa kirjallisuutta - yksi on jopa tietojen yhdistelmävirhe, joka siteeraa paperia täysin eri lääkkeen osalta. Ainoa ennuste, jolla on todellista tukevaa näyttöä, on **Homozygoosin familiaali-hyperkolesterolemia (HoFH)** (sijoitus 6), jonka takana on **1 todellisen maailman kohorttitutkimus** ja **16 lisäpublikaatiota**, samoin kuin johdonmukainen mekanistinen perustelu.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea katsaus
 
-Bempedoic acid is an ATP-citrate lyase (ACLY) inhibitor that acts upstream of HMG-CoA reductase in the cholesterol biosynthesis pathway. It is a prodrug requiring liver-specific activation by ACSVL1, which limits off-target effects to hepatic tissue. By inhibiting ACLY, it reduces hepatic cholesterol synthesis and upregulates LDL receptor (LDLR) expression, producing an LDL-C-lowering effect that is additive to statins and PCSK9 inhibitors.
+| Kohde | Sisältö |
+|------|---------|
+| Alkuperäinen käyttöaihe | Ei saatavilla Suomen myyntilupa-tiedoista (lääkettä ei ole vielä markkinoilla); farmakologisesti LDL-kolesterolia alentava aine (ACLY-inhibiittori) |
+| Ennustettu uusi käyttöaihe | Homozygoosin familiaali-hyperkolesterolemia (HoFH) |
+| TxGNN-ennusteen pistemäärä | 99,48% (sijoitus 5650 kokonaisella ehdokasluettelolla) |
+| Todisteiden taso | L3 (todellisen maailman kohorttitutkimus) |
+| Suomen markkinakelpoisuus | ✗ Ei markkinoilla |
+| Myyntilupien lukumäärä | 0 |
+| Suositeltu päätös | Jatka varovaisuudella |
 
-HoFH is caused by biallelic loss-of-function mutations in the LDLR gene, leading to extreme, treatment-resistant LDL-C elevations from birth. Because bempedoic acid's LDL-C-lowering mechanism partly depends on LDLR upregulation, its efficacy in HoFH is mechanistically plausible but genotype-dependent: patients with residual LDLR function ("receptor-defective") are expected to respond better than those with a complete null/null genotype, a pattern also seen with statins in this population.
-
-This mechanistic overlap — both the original indication (general/heterozygous hypercholesterolemia) and the predicted indication (HoFH) converge on the same LDL-C-lowering pathway — is the basis for the TxGNN signal, and is now supported by an initial real-world cohort study (PMID 41274797) evaluating bempedoic acid specifically in HoFH patients.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [41274797](https://pubmed.ncbi.nlm.nih.gov/41274797/) | 2026 | Cohort (Real-world) | Journal of Clinical Lipidology | Real-world evaluation of bempedoic acid efficacy and tolerability specifically in HoFH patients |
-| [41741298](https://pubmed.ncbi.nlm.nih.gov/41741298/) | 2026 | Expert Consensus | Journal of Clinical Lipidology | National Lipid Association update on FH management, reviewing current diagnostic and therapeutic advances |
-| [41694628](https://pubmed.ncbi.nlm.nih.gov/41694628/) | 2026 | Case Report/Review | Clinical Case Reports | Case of catastrophic HoFH progression after interrupted follow-up, illustrating consequences of inadequate LDL-C control |
-| [41106315](https://pubmed.ncbi.nlm.nih.gov/41106315/) | 2025 | Review | Experimental and Molecular Pathology | Reviews innovative therapies for HoFH, including LDLR-independent approaches |
-| [33766264](https://pubmed.ncbi.nlm.nih.gov/33766264/) | 2021 | Review | J Am Coll Cardiol (JACC Focus Seminar) | Discusses bempedoic acid alongside inclisiran and PCSK9 inhibitors as emerging LDL-C/ApoB-lowering therapies |
-| [37071085](https://pubmed.ncbi.nlm.nih.gov/37071085/) | 2024 | Review | Cardiology in Review | Positions bempedoic acid among add-on lipid-lowering options for familial hypercholesterolemia |
-| [35466160](https://pubmed.ncbi.nlm.nih.gov/35466160/) | 2022 | Review | J Atherosclerosis and Thrombosis | Reviews advancements in HoFH treatment, contextualizing non-statin options |
-| [29449335](https://pubmed.ncbi.nlm.nih.gov/29449335/) | 2018 | Preclinical | Arterioscler Thromb Vasc Biol | Bempedoic acid lowers LDL-C and attenuates atherosclerosis in LDLR+/- and LDLR-/- miniature pigs, a direct model of the HoFH mechanism |
-| [38576462](https://pubmed.ncbi.nlm.nih.gov/38576462/) | 2024 | Review | Am J Preventive Cardiology | Reviews the importance of sustained LDL-C lowering across the ASCVD risk continuum |
-| [32243228](https://pubmed.ncbi.nlm.nih.gov/32243228/) | 2020 | Review | Postgraduate Medicine | Reviews emerging LDL-C-lowering agents including bempedoic acid |
+**Huomio TxGNN-sijoituksesta:** Sijoitukset 1–5, 7 ja 10 (kilpirauhasen yliaktiivisuus, kilpirauhasen hormonreseptori-β-resistanssi, pahanlaatuinen kataarih, tarttuva naudanrinotrakeiiitti, CMV-infektio, hypertyroksinemia ja raskausperäinen osteoporoosi) saivat kaikki **korkeammat** pisteet kuin HoFH, mutta niillä ei ole **kliinisiä tai kirjallisuuden tukemia näyttöjä** - kaksi niistä ovat eläinlääketieteellisiä/nautakarjan sairauksia, ja ainoa kirjallisuushit (PMID 40549098) käsittelee täysin eri lääkettä (tiratrikolia). Nämä käsitellään mallin kohinana ja suljetaan pois jatko-arviosta. Sijoitus 6 (HoFH) on ainoa ehdokas, jolla on todellista, tarkistettavissa olevaa näyttöä, ja se on tämän raportin aihe.
 
 ---
 
-## Finland Market Information
+## Miksi tämä ennuste on perusteltu?
 
-Bempedoic acid is not currently marketed in Finland — no marketing authorizations are on record (`total_licenses: 0`).
+Bempedoiinihapo on ATP-sitroaattilyaasi (ACLY) -inhibiittori, joka vaikuttaa ylävirtaan HMG-CoA-reduktaasista kolesteriinin biosynteesin reitillä. Se on pro-lääke, joka vaatii maksassa tapahtuvaa aktivaatiota ACSVL1:n kautta, mikä rajoittaa sivuvaikutuksia maksatutkimusten. Estämällä ACLY:tä se vähentää maksassa tapahtuvaa kolesteriinin synteesiä ja lisää LDL-reseptorin (LDLR) ekspressiota, tuottaen LDL-C-alentavan vaikutuksen, joka on additiivinen statiinien ja PCSK9-inhibiittorien kanssa.
 
----
+HoFH johtuu bialleeliset häviävistä LDLR-geenin mutaatioista, jotka johtavat äärimmäisen, hoitokestäviin LDL-C-arvojen nousuihin syntymästä alkaen. Koska bempedoiinikappaloinnin LDL-C-alentava mekanismi on osittain riippuvainen LDLR-ekspression vahvistuksesta, sen tehokkuus HoFH:ssa on mekanistisesti uskottava, mutta genotyypistä riippuvainen: potilaat, joilla on jäljellä olevaa LDLR-toimintaa ("reseptorivika"), odotamme vastaa paremmin kuin potilaat, joilla on täydellinen nolla/nolla-genotyyppi, kuvio, joka näkyy myös statiineilla tässä potilaspopulaatiossa.
 
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+Tämä mekanistinen päällekkäisyys - sekä alkuperäinen käyttöaihe (yleinen/heterotsygootti hyperkolesterolemia) että ennustettu käyttöaihe (HoFH) yhdistyvät samaan LDL-C-alentavaan reittiin - muodostaa perustan TxGNN-signaalille, ja sitä tukee nyt alkuperäinen todellisen maailman kohorttitutkimus (PMID 41274797), joka evaluoi bempedoiinikappaloinnin tehokkuutta ja siedettävyyttä erityisesti HoFH-potilaissa.
 
 ---
 
-## Conclusion and Next Steps
+## Kliinisten tutkimusten näyttö
 
-**Decision: Proceed with Guardrails**
+Tällä hetkellä ei ole liittyviä kliinisiä tutkimuksia rekisteröitynä.
 
-**Rationale:**
-Bempedoic acid's LDL-C-lowering mechanism (ACLY inhibition → LDLR upregulation) is directly relevant to HoFH pathophysiology, and an initial real-world cohort study now supports this use, but efficacy is expected to be genotype-dependent (limited in null/null LDLR patients) and no randomized controlled trial data yet exist specifically for HoFH.
+---
 
-**To proceed, the following is needed:**
-- TFDA/Finnish package insert (warnings, contraindications) — currently a blocking data gap
-- Confirmed original indication and approved labeling (drug not yet marketed in Finland)
-- Genotype-stratified efficacy data (receptor-defective vs. null/null) from the cited real-world cohort or future prospective trials
-- Drug-drug interaction data, particularly with statins and PCSK9 inhibitors commonly co-administered in HoFH
+## Kirjallisuuden näyttö
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
+|------|-------|--------|--------|---------|
+| [41274797](https://pubmed.ncbi.nlm.nih.gov/41274797/) | 2026 | Kohorttitutkimus (Todellisen maailman) | Journal of Clinical Lipidology | Todellisen maailman tutkimus bempedoiinikappaloinnin tehokkuudesta ja siedettävyydestä HoFH-potilaissa |
+| [41741298](https://pubmed.ncbi.nlm.nih.gov/41741298/) | 2026 | Asiantuntijakonsensus | Journal of Clinical Lipidology | National Lipid Associationin päivitys FH-hoidosta, tarkastellaan nykyisiä diagnostisia ja terapeuttisia edistysaskeleita |
+| [41694628](https://pubmed.ncbi.nlm.nih.gov/41694628/) | 2026 | Tapausraportti/Katsaus | Clinical Case Reports | HoFH:n katastrofaalisen etenemisen tapaus seurannasta luopumisen jälkeen, valaisee riittämättömän LDL-C-kontrollin seurauksia |
+| [41106315](https://pubmed.ncbi.nlm.nih.gov/41106315/) | 2025 | Katsaus | Experimental and Molecular Pathology | Käsittelee innovatiivisia HoFH-terapioita, mukaan lukien LDLR-riippumattomat lähestymistavat |
+| [33766264](https://pubmed.ncbi.nlm.nih.gov/33766264/) | 2021 | Katsaus | J Am Coll Cardiol (JACC Focus Seminar) | Käsittelee bempedoiinikappaloinnin muiden inkliiraanin ja PCSK9-inhibiittorien rinnalla nousevia LDL-C/ApoB-alentavia terapioita |
+| [37071085](https://pubmed.ncbi.nlm.nih.gov/37071085/) | 2024 | Katsaus | Cardiology in Review | Sijoittaa bempedoiinikappaloinnin familiaalisessa hyperkolesterolemissa käytettyjen lisäaineiden joukkoon |
+| [35466160](https://pubmed.ncbi.nlm.nih.gov/35466160/) | 2022 | Katsaus | J Atherosclerosis and Thrombosis | Käsittelee edistysaskeleita HoFH-hoidossa, asettaa ei-statiini-valinnat kontekstiin |
+| [29449335](https://pubmed.ncbi.nlm.nih.gov/29449335/) | 2018 | Prekliininen | Arterioscler Thromb Vasc Biol | Bempedoiinihapo alentaa LDL-C:tä ja lieventää ateroskleroosia LDLR+/- ja LDLR-/- miniature-sioissa, HoFH-mekanismin suorassa mallissa |
+| [38576462](https://pubmed.ncbi.nlm.nih.gov/38576462/) | 2024 | Katsaus | Am J Preventive Cardiology | Käsittelee kestävän LDL-C-alentamisen merkitystä ASCVD-riskispektrin yli |
+| [32243228](https://pubmed.ncbi.nlm.nih.gov/32243228/) | 2020 | Katsaus | Postgraduate Medicine | Käsittelee nousevia LDL-C-alentavia aineita, mukaan lukien bempedoiinihapo |
+
+---
+
+## Suomen markkinatiedot
+
+Bempedoiinihapo ei ole tällä hetkellä markkinoilla Suomessa - myyntilupien rekisterissa ei ole merkintöjä (`total_licenses: 0`).
+
+---
+
+## Turvallisuusnäkökohdat
+
+Katso turvallisuustietoja pakkausselosteesta.
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Jatka varovaisuudella**
+
+**Perustelut:**
+Bempedoiinikappaloinnin LDL-C-alentava mekanismi (ACLY-esto → LDLR-ekspression lisääminen) on suoraan relevantti HoFH-patofysiologialle, ja alkuperäinen todellisen maailman kohorttitutkimus tukee nyt tätä käyttöä, mutta tehokkuus odotetaan olevan genotyypistä riippuvainen (rajallinen nolla/nolla LDLR-potilaissa) eikä satunnaistettuja kontrolloituja tutkimuksia ole vielä erityisesti HoFH:n osalta.
+
+**Jatkaakseen seuraavat ovat välttämättömiä:**
+- Suomen pakkausseloste (varoitukset, vasta-aiheet) - tällä hetkellä estävä tietoaukko
+- Vahvistettu alkuperäinen käyttöaihe ja hyväksytyt merkinnät (lääkettä ei ole vielä Suomessa markkinoilla)
+- Genotyypistä stratifioitu tehokkuustieto (reseptorivika vs. nolla/nolla) siteeratusta todellisen maailman kohorttitutkimuksesta tai tulevista prospektiivisista tutkimuksista
+- Lääkkeen välisen vuorovaikutuksen tieto, erityisesti statiineista ja PCSK9-inhibiitoreista, joita käytetään usein yhdessä HoFH:n hoidossa
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

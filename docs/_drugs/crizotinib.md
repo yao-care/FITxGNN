@@ -29,91 +29,92 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Crizotinib: From ALK/ROS1-Positive NSCLC to Gingival Fibromatosis
+# Crizotinib: ALK/ROS1-positiivisesta NSCLC:sta ienfibromatoosiin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Crizotinib is an ALK/ROS1/MET tyrosine kinase inhibitor, established in non-small cell lung cancer (NSCLC) harboring ALK or ROS1 gene rearrangements (per the literature evidence in this pack).
-The TxGNN model's top-ranked prediction is **Fibromatosis, Gingival**, but this candidate currently has **zero clinical trials** and **zero publications** supporting it — it is a pure model-generated hypothesis with no known mechanistic link.
+Crizotinib on ALK/ROS1/MET-tyrosiinikinaasin inhibiittori, joka on vakiintunut pienisoluisessa keuhkosyövässä (NSCLC), jossa on ALK- tai ROS1-geenin uudelleenjärjestelyitä (tämän tietopakin kirjallisuustodisteiden perusteella).
+TxGNN-mallin parhaiten sijoittuva ennuste on **ienfibromatoosi**, mutta tämä ehdokas on tällä hetkellä tuettu **nollalla kliinisillä tutkimuksilla** ja **nollalla julkaisuilla** – se on puhdas mallinnuksella luotu hypoteesi ilman tunnettua mekanistista yhteyttä.
 
 ---
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohde | Sisältö |
 |------|------|
-| Original Indication | ALK/ROS1-positive non-small cell lung cancer (NSCLC) — inferred from literature evidence in this pack; not separately confirmed by Finland (Fimea) licensing data, as the drug is not marketed there |
-| Predicted New Indication | Fibromatosis, Gingival |
-| TxGNN Prediction Score | 99.81% |
-| Evidence Level | L5 |
-| Finland Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen indikaatio | ALK/ROS1-positiivinen pienisoluinen keuhkosyöpä (NSCLC) – päätelty tämän tietopakin kirjallisuustodisteiden perusteella; ei ole erikseen vahvistettu Suomen (Fimea) lupamäärittelyjen perusteella, koska lääkettä ei ole markkinoilla täällä |
+| Ennustettu uusi indikaatio | Ienfibromatoosi |
+| TxGNN-ennusteen pistemäärä | 99.81% |
+| Todisteiden taso | L5 |
+| Suomen markkinatilanne | Ei markkinoilla |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Pidä varalla |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on kohtuullinen?
 
-Currently, detailed mechanism of action data is not available (blocking data gap). Based on the literature captured elsewhere in this evidence pack, crizotinib is a small-molecule ATP-competitive inhibitor of the receptor tyrosine kinases ALK, ROS1, and c-MET, with proven efficacy in ALK/ROS1-rearranged NSCLC.
+Yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla tällä hetkellä (estävä tietopuute). Tämän tietopakin muualla olevan kirjallisuustodisteiden perusteella crizotinib on pienimolekyylinen ATP-kilpaileva inhibiittori, joka kohdistuu reseptorityrosiinikinaasin ALK, ROS1 ja c-MET, joilla on todistettu teho ALK/ROS1-uudelleenjärjestelyillä NSCLC:ssa.
 
-For the top-ranked predicted indication, **gingival fibromatosis**, no clinical trial or publication evidence was found in any of the three source databases (ClinicalTrials.gov, ICTRP, PubMed). Gingival fibromatosis is a benign fibrous overgrowth condition with no established relationship to ALK, ROS1, or MET signaling. The TxGNN score reflects the model's internal graph-based similarity metric only — it does not correspond to any documented pharmacological, clinical, or case-based rationale linking crizotinib's known targets to this disease.
+Parhaiten sijoittuneelle ennustetulle indikaatiolle, **ienfibromatoosille**, ei löytynyt kliinisiä tutkimuksia tai julkaisun näyttöä mistään kolmesta lähdetietokannasta (ClinicalTrials.gov, ICTRP, PubMed). Ienfibromatoosi on hyvänlaatuinen fibroosin liikakasvu -ehto, jolla ei ole vakiintunutta yhteyttä ALK-, ROS1- tai MET-signalointiin. TxGNN-pistemäärä heijastaa ainoastaan mallin sisäistä graafipohjaista samankaltaisuusmittaria – se ei vastaa mitään dokumentoitua farmakologista, kliinistä tai tapausperusteista näyttöä, joka yhdistäisi crizotinibin tunnettuja kohteita tähän tautiin.
 
-Given the absence of both mechanistic plausibility and empirical evidence, this candidate should not be interpreted as a validated repurposing signal at this time.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+Koska sekä mekanistisen uskottavuuden että empiirisen näytön puuttuvat, tätä ehdokasta ei tulisi tulkita vahvistetuksi uudelleenkäytön signaaliksi tässä vaiheessa.
 
 ---
 
-## Literature Evidence
+## Kliinisen tutkimuksen näyttö
 
-Currently no related literature available
-
----
-
-## Finland Market Information
-
-Crizotinib currently holds no marketing authorization in Finland (0 licenses on record; market status: Not marketed/Not Marketed). No product, dosage form, or approved-indication data is available from Fimea for this drug.
+Tällä hetkellä ei ole rekisteröityä niihin liittyviä kliinisiä tutkimuksia
 
 ---
 
-## Cytotoxicity
+## Kirjallisuuden näyttö
 
-Crizotinib is an antineoplastic agent (per its known ALK/ROS1/MET tyrosine kinase inhibitor class, evidenced throughout the literature entries in this pack, e.g. its established use in ALK/ROS1-positive NSCLC).
+Tällä hetkellä ei ole saatavilla niihin liittyviä kirjallisuuslähteitä
 
-| Item | Content |
+---
+
+## Suomen markkinatiedot
+
+Crizotinibilla ei ole tällä hetkellä myyntilupaa Suomessa (0 lupaa rekisterissä; markkinatilanne: Ei markkinoilla). Fimealla ei ole saatavilla tuote-, vahvuus- tai hyväksyttyjen indikaatioiden tietoja tälle lääkkeelle.
+
+---
+
+## Sytotoksisuus
+
+Crizotinib on solujen kasvua estävä aine (sen tunnetun ALK/ROS1/MET-tyrosiinikinaasin inhibiittorin luokan perusteella, mikä on nähtävissä tämän tietopakin kirjallisuusmerkinnöissä, esim. sen vakiintunut käyttö ALK/ROS1-positiivisessa NSCLC:ssa).
+
+| Kohde | Sisältö |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (ALK/ROS1/MET tyrosine kinase inhibitor) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | No structured toxicity dataset is available in this pack; literature elsewhere among the other candidates references hepatotoxicity, QT prolongation/cardiotoxicity, and interstitial lung disease as known crizotinib safety signals — liver function, ECG/QTc, and pulmonary status should be considered, pending confirmation from the official package insert |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| Sytotoksisuuden luokitus | Kohdennettu hoito (ALK/ROS1/MET-tyrosiinikinaasin inhibiittori) |
+| Luuytimen toiminnan heikkenemisen riski | Katso pakkausseloste, varoitukset ja varotoimet |
+| Oksentamisen aiheuttamisen luokitus | Katso pakkausseloste, varoitukset ja varotoimet |
+| Seurannan kohteet | Strukturoitua myrkyllisyyden tietojoukkoa ei ole saatavilla tässä paketissa; muiden ehdokkaiden kirjallisuusviitteet mainitsevat hepatotoksisuuden, QT:n pidentymisen/sydäntoksisuuden ja interstitiaalisen keuhkosairauden tunnettuina crizotinibin turvallisuussignaaleina – maksan toimintaa, EKG/QTc:ta ja keuhkojen tilaa tulisi harkita, odottaen vahvistusta virallisesta pakkausselosteesta |
+| Käsittelyn suojaus | Katso pakkausseloste, varoitukset ja varotoimet |
 
 ---
 
-## Safety Considerations
+## Turvallisuuteen liittyvät näkökohdat
 
-Please refer to the package insert for safety information.
+Katso turvallista käyttöä koskevat tiedot pakkausselosteesta.
 
 ---
 
-## Conclusion and Next Steps
+## Johtopäätökset ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidä varalla**
 
-**Rationale:**
-The top-ranked predicted indication (gingival fibromatosis) is supported only by a TxGNN model score, with no clinical trials, no literature, and no mechanistic hypothesis connecting ALK/ROS1/MET inhibition to this disease (Evidence Level L5). In addition, TFDA package insert data (warnings/contraindications) is a blocking data gap, so this candidate cannot even enter S1 safety screening.
+**Perustelut:**
+Parhaiten sijoittuva ennustettu indikaatio (ienfibromatoosi) on tuettu vain TxGNN-mallin pistemäärällä, eikä siinä ole kliinisiä tutkimuksia, kirjallisuutta tai mekanistista hypoteesia, joka yhdistäisi ALK/ROS1/MET-estämisen tähän tautiin (Todisteiden taso L5). Lisäksi TFDA:n pakkausselosteen tiedot (varoitukset/vasta-aiheet) ovat estävä tietopuute, joten tämä ehdokas ei voi edes siirtyy S1-turvallisuuden seulontaan.
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert (warnings, contraindications) — currently blocking
-- Confirmed DrugBank mechanism of action data
-- A preclinical or mechanistic rationale linking crizotinib's ALK/ROS1/MET targets to gingival fibromatosis pathology
-- At minimum, case-report or in vitro evidence to escalate this candidate beyond L5
+**Jatkon edellytyksenä tarvitaan:**
+- TFDA:n pakkausseloste (varoitukset, vasta-aiheet) – estää tällä hetkellä
+- Vahvistetut DrugBank-vaikutusmekanismin tiedot
+- Prekliininen tai mekanistinen perustelu, joka yhdistää crizotinibin ALK/ROS1/MET-kohteita ienfibromatoosin patologiaan
+- Vähintään tapausraportin tai in vitro -tutkimuksen näyttö tämän ehdokkaan siirtämiseksi L5:n yli
 
-**Note:** This evidence pack contains other predicted indications for crizotinib with substantially stronger support — e.g., *lung hilum carcinoma* (L3, Proceed with Guardrails) and *lung benign neoplasm* / *lung germ cell tumor* (L4, Research Question) — largely reflecting crizotinib's already-established ALK/ROS1/MET-driven NSCLC biology. Several of these appear to be disease-ontology mapping mismatches (e.g., "lung benign neoplasm" literature is almost entirely about malignant ALK/ROS1+ NSCLC) and would need manual disease-label verification before advancing. If a report on one of these higher-evidence candidates is desired instead of the top TxGNN-ranked (but evidence-free) prediction, let us know.
+**Huomio:** Tämä tietopaketti sisältää muita crizotinibin ennustettuja indikaatioita, joilla on huomattavasti vahvempi tuki – esim. *keuhkon hilumin karsinooma* (L3, Jatka varauksilla) ja *keuhkon hyvänlaatuinen neoplasma* / *keuhkon siittiösolututumori* (L4, Tutkimuskysymys) – jotka heijastivat pitkälti crizotinibin jo vakiintunutta ALK/ROS1/MET-ajamaa NSCLC-biologiaa. Monet näistä näyttävät olevan taudin ontologian kartoitusvirheitä (esim. "keuhkon hyvänlaatuinen neoplasma" kirjallisuus käsittelee lähes kokonaan pahanlaatuisia ALK/ROS1+ NSCLC-tapauksia) ja vaatisivat manuaalisen tautilabeloinnin vahvistamisen ennen etenemistä. Jos haluat raportin yhdestä näistä korkeamman näytön omaavista ehdokkaista TxGNN-rankingissa ylimpänä olevan (mutta näyttövapaaan) ennusteen sijasta, ota meihin yhteyttä.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

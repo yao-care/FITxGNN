@@ -29,58 +29,59 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Selinexor: Original Indication Not on File — Predicted Application in Drug-Induced Osteoporosis
+# Selinexor: alkuperäinen käyttöaihe puuttuu — ennustettu soveltuvuus lääkkeen aiheuttamaan osteoporoosiin
 
-## One-Sentence Summary
+## Yhden lauseen tiivistelmä
 
-The current evidence pack does not include Selinexor's original approved indication or mechanism of action — both are marked as data gaps. The TxGNN model predicts a possible association with **Drug-Induced Osteoporosis**, but this prediction is currently supported by **0 clinical trials** and **0 publications**, making it a model-only hypothesis at this stage.
+Nykyinen todistusaineisto ei sisällä selinexorin alkuperäistä hyväksyttyä käyttöaiheita tai vaikutusmekanismia – molemmat merkitty tietovajeiksi. TxGNN-malli ennustaa mahdollista yhteyttä **lääkkeen aiheuttamaan osteoporoosiin**, mutta tätä ennustusta tukee tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua**, mikä tekee siitä ainoastaan malliin perustuvan hypoteesin tässä vaiheessa.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available — no approved indications on file for this drug |
-| Predicted New Indication | Drug-Induced Osteoporosis |
-| TxGNN Prediction Score | 99.22% |
-| Evidence Level | L5 |
-| Finland Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen käyttöaihe | Ei saatavilla – tästä lääkkeestä ei ole hyväksyttyjä käyttöaiheita arkistossa |
+| Ennustettu uusi käyttöaihe | Lääkkeen aiheuttama osteoporoosi |
+| TxGNN-ennustuspisteet | 99.22% |
+| Todistustaso | L5 |
+| Suomen markkinoiden tila | Ei markkinoilla |
+| Myyntiluvan määrä | 0 |
+| Suositeltu päätös | Pidä varauksessa |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Detailed mechanism of action data is not available for Selinexor in this evidence pack, and no original indication is on record to compare against. Based on the limited mechanistic information captured in the prediction rationale, Selinexor is an XPO1 (exportin-1 / nuclear export protein) inhibitor. Clinically, this drug class is associated with systemic metabolic effects such as weight loss, fatigue, nausea, and hyponatremia.
+Selinexorin yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla tässä todistusaineistossa, eikä alkuperäisestä käyttöaiheesta ole tietoja vertailun pohjaksi. Ennustuksen perustelusta löytyvien rajoitettujen mekanististen tietojen perusteella selinexor on XPO1 (exportin-1 / ydinvientproteiini) -inhibiittori. Kliinisesti tämä lääkeryhmä liittyy systeemisiin aineenvaihduntavaikutuksiin, kuten painon laskuun, väsymykseen, pahoinvointiin ja hyponatremiaan.
 
-The link to drug-induced osteoporosis is speculative: it is theorized that long-term use could indirectly affect bone metabolism pathways (e.g., through glucocorticoid-like effects or nutritional decline), but this is an inference, not an established mechanistic connection. No direct pharmacological link between XPO1 inhibition and bone metabolism is documented in this evidence pack. The TxGNN score of 99.22% reflects model confidence only and does not by itself constitute mechanistic or clinical evidence.
+Yhteys lääkkeen aiheuttamaan osteoporoosiin on spekulatiivinen: on arvioitu, että pitkäaikainen käyttö voisi epäsuorasti vaikuttaa luun aineenvaihduntareitteihin (esim. glukokortikoidin kaltaisten vaikutusten tai ravitsemuksellisen heikkenemisen kautta), mutta tämä on johtopäätös, ei vahvistettu vaikutusmekanismi. Dokumentoitua suoraa farmakologista yhteyttä XPO1-estämisen ja luun aineenvaihdunnan välillä ei ole tässä todistusaineistossa. TxGNN-pistemäärä 99.22% kuvastaa ainoastaan mallin luottamusta, eikä se sinänsä muodosta vaikutusmekanistä tai kliinistä näyttöä.
 
-## Clinical Trial Evidence
+## Kliinisten tutkimusten näyttö
 
-Currently no related clinical trials registered
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia
 
-## Literature Evidence
+## Kirjallisuusnäyttö
 
-Currently no related literature available
+Tällä hetkellä ei ole saatavilla asiaan liittyviä julkaisuja
 
-## Finland Market Information
+## Suomen markkinoiden tiedot
 
-Selinexor is not currently marketed in Finland, and no marketing authorizations are on record.
+Selinexoria ei markkinoida tällä hetkellä Suomessa, eikä myyntiluvista ole merkintöjä arkistossa.
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information.
+Turvallisuustietoja varten katso pakkausseloste.
 
-## Conclusion and Next Steps
+## Johtopäätökset ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidä varauksessa**
 
-**Rationale:**
-This prediction is currently supported only by the TxGNN model score (Evidence Level L5), with no clinical trials, literature, mechanism of action data, or Finland market presence to corroborate it. There is insufficient evidence to advance this candidate at this time.
+**Perustelut:**
+Tätä ennustetta tukee tällä hetkellä ainoastaan TxGNN-mallin pistemäärä (todistustaso L5), eikä mitään kliinisiä tutkimuksia, julkaisuja, vaikutusmekanismin tietoja tai Suomen markkinoiden läsnäoloa ole sen tueksi. Tällä hetkellä on riittämätön näyttö edetä tämän ehdokkaan kanssa.
 
-**To proceed, the following is needed:**
-- Selinexor's original approved indication(s) and confirmed mechanism of action (MOA)
-- TFDA/Fimea package insert data (warnings, contraindications, drug interactions) — currently a blocking data gap
-- Clinical trial or literature evidence directly linking Selinexor (or its drug class) to bone metabolism/osteoporosis
-- Reassessment of mechanistic plausibility once MOA data is obtained
+**Edistymiseksi tarvitaan seuraavaa:**
+- Selinexorin alkuperäiset hyväksytyt käyttöaiheet ja varmistettu vaikutusmekanismi (MOA)
+- TFDA/Fimean pakkausseloste-tiedot (varoitukset, vasta-aiheet, lääkkeiden väliset yhteisvaikutukset) – tällä hetkellä estävä tietovaje
+- Kliiniset tutkimukset tai kirjallisuusnäyttö, joka yhdistää suoraan selinexorin (tai sen lääkeryhmän) luun aineenvaihduntaan/osteoporoosiin
+- Mekanistisen uskottavuuden uudelleenarviointi, kun MOA-tiedot saadaan
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

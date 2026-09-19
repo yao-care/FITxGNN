@@ -29,87 +29,88 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **9** kpl
 
 </div>
 
-# Pravastatin: From Hypercholesterolemia to Homozygous Familial Hypercholesterolemia
+# Pravastatin: hyperkolesteroleemiasta homotsygoottiseen familiaaliseen hyperkolesterolemiaan
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Pravastatin is a statin (HMG-CoA reductase inhibitor) originally used to lower LDL cholesterol in hypercholesterolemia and mixed dyslipidemia. The TxGNN model predicts potential efficacy in **Homozygous Familial Hypercholesterolemia (HoFH)**, but the supporting evidence is largely indirect — **1 clinical trial** (testing a different drug, alirocumab, in the same patient population) and **13 publications**, most of which discuss other statins or cholesterol-lowering agents rather than pravastatin specifically in HoFH.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Hypercholesterolemia / dyslipidemia (statin class) — formal label text unavailable, drug not marketed in Finland |
-| Predicted New Indication | Homozygous Familial Hypercholesterolemia (HoFH) |
-| TxGNN Prediction Score | 99.95% |
-| Evidence Level | L3 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+Pravastatin on statiini (HMG-CoA-reduktaasin estäjä), jota on alun perin käytetty LDL-kolesterolin alentamiseen hyperkolesteroleemiassa ja sekamuotoisessa dyslipidemiassa. TxGNN-malli ennustaa mahdollista tehokkuutta **homotsygoottisessa familiaalisessa hyperkolesterolemiassa (HoFH)**, mutta tukeva näyttö on suurelta osin epäsuoraa — **1 kliininen tutkimus** (toisen lääkkeen, alirokumaabin tutkimus, samassa potilasryhmässä) ja **13 julkaisua**, joista suurin osa käsittelee muita statiineja tai kolesterolia alentavia aineita eikä pravastatiinia erityisesti HoFH:ssä.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Currently, detailed mechanism of action data is not available (data gap: MOA). Based on known information, pravastatin belongs to the statin (HMG-CoA reductase inhibitor) class, which lowers LDL cholesterol by inhibiting hepatic cholesterol synthesis and upregulating LDL receptor expression. Its efficacy in general hypercholesterolemia is well established, and statins as a class are used across the spectrum of hyperlipidemic conditions, which is the mechanistic basis for the TxGNN prediction linking pravastatin to HoFH.
-
-However, the biological rationale is weaker for HoFH specifically than for other lipid disorders. HoFH patients carry near-complete loss of functional LDL receptors, so the LDL-receptor-upregulation mechanism that drives statin efficacy has limited effect in this population — clinical practice typically requires add-on therapy with PCSK9 inhibitors, ezetimibe, or LDL apheresis rather than statin monotherapy. Direct evidence for pravastatin alone in HoFH is sparse; most of the supporting literature and the one clinical trial in this evidence pack actually involve other agents (alirocumab, rosuvastatin, ezetimibe, atorvastatin) studied in HoFH or related hypercholesterolemia populations, with pravastatin appearing only via statin-class extrapolation.
-
-Notably, a related but lower-ranked prediction in this evidence pack — **familial hypercholesterolemia (heterozygous, rank 6)** — has substantially stronger direct evidence for pravastatin (multiple pediatric trials and pharmacokinetic studies specifically using pravastatin), though it is scored as an already-established indication rather than a novel repurposing candidate. This should be considered alongside the HoFH prediction when prioritizing further work.
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen käyttöaihe | Hyperkolesterolemia / dyslipidemia (statiiniluokka) — muodollista pakkausesitteen tekstiä ei ole saatavilla, lääke ei ole markkinoilla Suomessa |
+| Ennustettu uusi käyttöaihe | Homotsygoottinen familiaali hyperkolesterolemia (HoFH) |
+| TxGNN-ennustepisteet | 99.95% |
+| Näyttötaso | L3 |
+| Suomen markkinatilanne | ✗ Ei markkinoilla |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Jatka varauksilla |
 
 ---
 
-## Clinical Trial Evidence
+## Miksi tämä ennuste on järkevä?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla (tietovajaus: MOA). Tunnettujen tietojen perusteella pravastatin kuuluu statiini (HMG-CoA-reduktaasin estäjä) -luokkaan, joka alentaa LDL-kolesterolia estämällä maksan kolesterolisynteesin ja lisäämällä LDL-reseptorin ilmenemistä. Sen tehokkuus yleisessä hyperkolesterolemiassa on hyvin vakiintunut, ja statiineja käytetään koko dyslipidemiaoireyhtymien spektrissa, mikä on biologinen perustelu TxGNN-ennusteelle, joka yhdistää pravastatiinin HoFH:iin.
+
+Kuitenkin biologinen perustelu on heikompi HoFH:lle erityisesti kuin muille rasva-aineenvaihdunnan häiriöille. HoFH-potilaat kantavat lähes täydellisen toiminnallisen LDL-reseptorin menetyksen, joten LDL-reseptorin lisäämisen mekanismilla, joka ajaa statiinien tehokkuutta, on rajallinen vaikutus tässä väestöryhmässä — kliininen käytäntö tyypillisesti vaatii lisälääkitystä PCSK9-estäjillä, etsitiimillä tai LDL-afereesilla pikemminkin kuin statiinien monoterapialla. Suora näyttö pelkästään pravastatiinista HoFH:ssä on harvinaista; suurin osa tämän näyttöpaketin tukevasta kirjallisuudesta ja ainoa tämä kliininen tutkimus käsittelevät muita aineita (alirokumaabia, rosuvastatiiinia, etsitimiä, atorvastatiiinia) tutkittuja HoFH:ssä tai siihen liittyviä hyperkolesterolemia-populaatioissa, pravastatiini esiintyy vain statiiniluokan ekstrapolaation kautta.
+
+Huomattavasti, siihen liittyvä mutta alemman sijoituksen ennuste tässä näyttöpaketissa — **familiaali hyperkolesterolemia (heterotsygoottinen, sijoitus 6)** — on oleellisesti vahvempi suora näyttö pravastatiinista (useat pediatriset tutkimukset ja farmakokineettiset tutkimukset, joissa käytetään pravastatiinia erityisesti), vaikka se on pisteytetty jo vakiintuneen käyttöaihen pikemminkin kuin uuden lääkkeen uudelleen käytön ehdokkaan perusteella. Tämä tulisi ottaa huomioon HoFH-ennusteen rinnalla asettaessa prioriteetteja jatkotyölle.
+
+---
+
+## Kliinisen tutkimuksen näyttö
+
+| Tutkimuksen numero | Vaihe | Tila | Osallistujat | Keskeiset löydökset |
 |---------|------|------|------|---------|
-| [NCT03510715](https://clinicaltrials.gov/study/NCT03510715) | Phase 3 | Completed | 18 | Evaluated alirocumab (not pravastatin) in children/adolescents (8–17y) with HoFH; assessed LDL-C reduction at 12/24/48 weeks on top of background lipid-lowering therapy. Relevance graded B — same patient population, but different drug/mechanism (PCSK9 inhibitor). |
+| [NCT03510715](https://clinicaltrials.gov/study/NCT03510715) | Vaihe 3 | Valmistunut | 18 | Arvioi alirokumaabia (ei pravastatiinia) lapsilla/nuorilla (8–17v) HoFH:ssa; arvioi LDL-C:n vähenemistä 12/24/48 viikon kohdalla taustalla olevan rasva-aineenvaihdunnan hoitolääkkeiden päälle. Relevanssi luokitteltu B — sama potilasryhmä, mutta eri lääke/mekanismi (PCSK9-estäjä). |
 
 ---
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
 |------|-----|------|------|---------|
-| [28437620](https://pubmed.ncbi.nlm.nih.gov/28437620/) | 2017 | Guideline | Endocr Pract | AACE/ACE guideline for management of dyslipidemia and cardiovascular disease prevention. |
-| [28416195](https://pubmed.ncbi.nlm.nih.gov/28416195/) | 2017 | RCT (INTREPID) | Lancet HIV | Phase 4 RCT comparing pitavastatin vs. pravastatin; pravastatin's non-CYP450 metabolism reduces DDI risk relative to other statins. |
-| [31696945](https://pubmed.ncbi.nlm.nih.gov/31696945/) | 2019 | Review (Cochrane) | Cochrane Database Syst Rev | Systematic review of statins in children with familial hypercholesterolemia, covering both heterozygous and homozygous forms. |
-| [28685504](https://pubmed.ncbi.nlm.nih.gov/28685504/) | 2017 | Review (Cochrane) | Cochrane Database Syst Rev | Earlier version of the same Cochrane review on statins for pediatric familial hypercholesterolemia. |
-| [12269853](https://pubmed.ncbi.nlm.nih.gov/12269853/) | 2002 | Review (rosuvastatin) | Drugs | Rosuvastatin superior to pravastatin/atorvastatin/simvastatin in lipid profile improvement across 6–52 week trials. |
-| [14727947](https://pubmed.ncbi.nlm.nih.gov/14727947/) | 2003 | Review (ezetimibe) | Am J Cardiovasc Drugs | Ezetimibe mechanism and LDL-C reduction data; relevant as combination-therapy context for severe hypercholesterolemia. |
-| [15531000](https://pubmed.ncbi.nlm.nih.gov/15531000/) | 2004 | Review | Clin Ther | Rosuvastatin indicated for hypercholesterolemia, mixed dyslipidemia, and homozygous familial hypercholesterolemia. |
-| [9793596](https://pubmed.ncbi.nlm.nih.gov/9793596/) | 1998 | Review (atorvastatin) | Ann Pharmacother | Efficacy/safety review of atorvastatin in primary hypercholesterolemia and mixed dyslipidemias. |
-| [14647533](https://pubmed.ncbi.nlm.nih.gov/14647533/) | 2003 | Review (ezetimibe) | Cardiovasc Drug Rev | Ezetimibe as first-in-class cholesterol absorption inhibitor, used when statin monotherapy is insufficient. |
-| [9129869](https://pubmed.ncbi.nlm.nih.gov/9129869/) | 1997 | Review (atorvastatin) | Drugs | Pharmacology and therapeutic potential of atorvastatin in hyperlipidemias. |
+| [28437620](https://pubmed.ncbi.nlm.nih.gov/28437620/) | 2017 | Ohje | Endocr Pract | AACE/ACE-ohje dyslipidemiahäiriön ja sydän- ja verisuonisairauksien ehkäisyhoidon hallinnasta. |
+| [28416195](https://pubmed.ncbi.nlm.nih.gov/28416195/) | 2017 | RCT (INTREPID) | Lancet HIV | Vaihe 4 satunnaistettu kontrolloitu tutkimus vertaamassa pivastatiiinia ja pravastatiinia; pravastatiinin ei-CYP450-metabolismi vähentää DDI-riskiä muihin statiineihin nähden. |
+| [31696945](https://pubmed.ncbi.nlm.nih.gov/31696945/) | 2019 | Katsaus (Cochrane) | Cochrane Database Syst Rev | Järjestelmällinen katsaus statiineista lapsilla, joilla on familiaali hyperkolesterolemia, kattaen sekä heterotsygoottisen että homotsygoottisen muodot. |
+| [28685504](https://pubmed.ncbi.nlm.nih.gov/28685504/) | 2017 | Katsaus (Cochrane) | Cochrane Database Syst Rev | Saman Cochrane-katsauksen aiempi versio statiineista lasten familiaalisella hyperkolesterolemialla. |
+| [12269853](https://pubmed.ncbi.nlm.nih.gov/12269853/) | 2002 | Katsaus (rosuvastaatiini) | Drugs | Rosuvastaatiini parempi kuin pravastatiini/atorvastaatiini/simvastaatiini lipidiprofiilin parantumisessa 6–52 viikon tutkimuksissa. |
+| [14727947](https://pubmed.ncbi.nlm.nih.gov/14727947/) | 2003 | Katsaus (etsitiimi) | Am J Cardiovasc Drugs | Etsitiimin mekanismi ja LDL-C:n vähenemisen tiedot; relevantti yhdistelmähoito-kontekstina vakavalle hyperkolesterolemialle. |
+| [15531000](https://pubmed.ncbi.nlm.nih.gov/15531000/) | 2004 | Katsaus | Clin Ther | Rosuvastaatiini osoitettu hyperkolesterolemiaan, sekamuotoiseen dyslipidemiaan ja homotsygoottiseen familiaaliseen hyperkolesterolemiaan. |
+| [9793596](https://pubmed.ncbi.nlm.nih.gov/9793596/) | 1998 | Katsaus (atorvastaatiini) | Ann Pharmacother | Atorvastatiinin tehokkuuden ja turvallisuuden katsaus primaarissa hyperkolesterolemiassa ja sekamuotoisissa dyslipidemiassa. |
+| [14647533](https://pubmed.ncbi.nlm.nih.gov/14647533/) | 2003 | Katsaus (etsitiimi) | Cardiovasc Drug Rev | Etsitiimi ensimmäisen luokkansa kolesterolin imeytymisen estäjänä, käytetään kun statiinien monoterapia on riittämätön. |
+| [9129869](https://pubmed.ncbi.nlm.nih.gov/9129869/) | 1997 | Katsaus (atorvastaatiini) | Drugs | Atorvastatiinin farmakologia ja terapeuttinen potentiaali hyperlipidemioissa. |
 
 ---
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Pravastatin is not currently marketed in Finland — no marketing authorizations were found in the regulatory data source.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (TFDA warnings, contraindications, and drug interaction data are flagged as a **Blocking** data gap — DG001 — and could not be retrieved for this evaluation.)
+Pravastatiinia ei ole tällä hetkellä markkinoilla Suomessa — markkinointilupia ei löydetty sääntelyä koskevasta tietolähteestä.
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuusnäkökulmat
 
-**Decision: Proceed with Guardrails**
+Katso turvallisuustiedot pakkausesite. (TFDA-varoitukset, vasta-aiheet ja lääkkeiden vuorovaikutustiedot on merkitty **Estäväksi** tietovajeeksi — DG001 — eikä niitä voitu noutaa tätä arviointia varten.)
 
-**Rationale:**
-The TxGNN score is high, but the direct evidence for pravastatin specifically in HoFH is weak — the sole clinical trial studies a different drug (alirocumab) in the same population, and most supporting literature discusses other statins/agents rather than pravastatin. Evidence level is L3 (reviews/guidelines, no dedicated pravastatin-HoFH RCT), so this candidate should not proceed without closing key data gaps.
+---
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert data (warnings, contraindications) — currently a **Blocking** gap (DG001)
-- Confirmed mechanism of action data for pravastatin — currently a **High** severity gap (DG002)
-- A pravastatin-specific study (or at minimum PK/PD data) in HoFH patients, given that HoFH typically requires PCSK9 inhibitors/ezetimibe/apheresis rather than statin monotherapy
-- Consider cross-referencing with the stronger, pravastatin-specific evidence available for heterozygous familial hypercholesterolemia (rank 6 in this evidence pack) when setting priorities
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Jatka varauksilla**
+
+**Perustelut:**
+TxGNN-pisteet ovat korkeat, mutta suora näyttö pravastatiinista erityisesti HoFH:ssä on heikko — ainoa kliininen tutkimus tutkii eri lääkettä (alirokumaabia) samassa väestöryhmässä, ja suurin osa tukevasta kirjallisuudesta käsittelee muita statiineja/aineita eikä pravastatiinia. Näyttötaso on L3 (katsaukset/ohjeet, ei omistettua pravastatiini-HoFH RCT:tä), joten tätä ehdokasta ei tulisi jatkaa avaamatta avainten tietovajeita.
+
+**Jatkamista varten tarvitaan seuraavat:**
+- TFDA/Fimea-pakkausesitteen tiedot (varoitukset, vasta-aiheet) — tällä hetkellä **Estävä** vajaus (DG001)
+- Vahvistettu vaikutusmekanismin tieto pravastatiinille — tällä hetkellä **Korkea** vakavuustason vajaus (DG002)
+- Pravastatiini-spesifinen tutkimus (tai vähintään PK/PD-tiedot) HoFH-potilaissa, ottaen huomioon, että HoFH tyypillisesti vaatii PCSK9-estäjiä/etsitimiä/aferesiaa pikemminkin kuin statiinien monoterapiaa
+- Harkitse ristiviittausta vahvempaan, pravastatiini-spesifisiin näyttöihin, jotka ovat saatavilla heterotsygoottiseen familiaaliseen hyperkolesterolemiaan (sijoitus 6 tässä näyttöpaketissa) kun asetetaan prioriteetteja jatkotyölle
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

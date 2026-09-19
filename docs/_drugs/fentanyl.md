@@ -29,63 +29,64 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Fentanyl: From Undocumented Original Indication to Nephrogenic Syndrome of Inappropriate Antidiuresis
+# Fentanyyli: dokumentoimattomasta alkuperäisestä indikaatiosta nephrogenic syndrome of inappropriate antidiuresis -oireyhtymään
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-The original indication data for fentanyl is not captured in this evidence pack, and the drug is currently **not marketed in Finland**. The TxGNN model predicts fentanyl may be relevant to **Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD)**, with a high model score (**99.46%**) but **zero supporting clinical trials or literature** identified to date.
+Fentanyilin alkuperäisen indikaation tiedot eivät sisälly tähän näyttöpakettiin, ja lääkettä ei ole tällä hetkellä markkinoitu Suomessa. TxGNN-malli ennustaa, että fentanyyli voi olla merkityksellinen **Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD)** -oireyhtymälle, ja mallin pistemäärä on korkea (**99.46%**), mutta tueksi ei ole löydetty yhtään kliinistä tutkimusta tai kirjallisuutta.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in this evidence pack (no licenses or original indications on file) |
-| Predicted New Indication | Nephrogenic Syndrome of Inappropriate Antidiuresis |
-| TxGNN Prediction Score | 99.46% (embedding rank 5778) |
-| Evidence Level | L5 — model prediction only, no supporting studies |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Ei dokumentoitu tässä näyttöpaketissa (lisenssejä tai alkuperäisiä indikaatioita ei saatavilla) |
+| Ennustettu uusi indikaatio | Nephrogenic Syndrome of Inappropriate Antidiuresis |
+| TxGNN-ennusteen pistemäärä | 99.46% (upottamisen sijoitus 5778) |
+| Näyttötaso | L5 — vain mallin ennuste, ei tukevia tutkimuksia |
+| Suomen markkinatilanne | ✗ Ei markkinoitu |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Pidätä |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Mechanism of action data for fentanyl is not available in this evidence pack (`original_moa: [Data Gap]`), and the drug's original indication(s) are also undocumented here, so the relationship between fentanyl's known pharmacology and NSIAD cannot be substantiated from the data on hand.
+Fentanyilin vaikutusmekanismin tietoja ei ole saatavilla tässä näyttöpaketissa (`original_moa: [Data Gap]`), ja lääkkeen alkuperäinen indikaatio/indikaatiot ovat myös dokumentoimattomat tässä, joten fentanyilin tunnetun farmakologian ja NSIAD:n välinen suhde ei ole todistettavissa käytössä olevista tiedoista.
 
-The model's own repurposing-rationale fields for this candidate (`mechanistic_link`, `similarity_to_original`) are marked **pending** — meaning no mechanistic or similarity analysis has been completed for this prediction yet. This is purely an embedding-based association from TxGNN with no corroborating clinical trials, literature, or expert-reviewed rationale at this time.
+Mallin omat uudelleenkäyttöperustelu-kentät tälle kandidaatille (`mechanistic_link`, `similarity_to_original`) on merkitty **odottavaksi** — mikä tarkoittaa, että mekanistista tai samankaltaisuusanalyysiä ei ole vielä suoritettu tälle ennusteelle. Tämä on puhtaasti upottamiseen perustuva assosiaatio TxGNN:stä, jolla ei ole tukevia kliinisiä tutkimuksia, kirjallisuutta eikä asiantuntijoiden tarkistamaa perustelua tällä hetkellä.
 
-Without MOA data, original indication context, or any supporting studies, this prediction should be treated as an unvalidated model output rather than a mechanistically grounded hypothesis.
+Ilman vaikutusmekanismin tietoja, alkuperäisen indikaation kontekstia tai tukevia tutkimuksia, tätä ennustetta tulee käsitellä validoimattomana mallin tuloksena eikä mekanistisesti perustelluna hypoteesina.
 
-## Clinical Trial Evidence
+## Kliinisten tutkimusten näyttö
 
-Currently no related clinical trials registered.
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
 
-## Literature Evidence
+## Kirjallisuusnäyttö
 
-Currently no related literature available.
+Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta.
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Fentanyl currently has no Fimea marketing authorizations on file (`total_licenses: 0`), so no product/authorization table can be produced.
+Fentanyylilla ei ole tällä hetkellä Fimean markkinointihyväksyntöjä arkistossa (`total_licenses: 0`), joten tuote-/hyväksyntätaulukkoa ei voida tuottaa.
 
-## Safety Considerations
+## Turvallisuushuomiot
 
-Please refer to the package insert for safety information.
+Kaikki turvallisuustiedot löydät pakkausselosteesta.
 
-*(Note: TFDA/Fimea package insert data is flagged as a **Blocking** data gap — its absence prevents completion of the initial S1 safety review for this candidate.)*
+*(Huomio: TFDA/Fimea-selostetiedot on merkitty **estäväksi** tietovajeeksi — sen puuttuminen estää alkuperäisen S1-turvallisuusarvioinnin loppuunsaattamisen tälle kandidaatille.)*
 
-## Conclusion and Next Steps
+## Johtopäätökset ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidätä**
 
-**Rationale:**
-This prediction is supported only by a TxGNN model score with no clinical trials, no literature, and no completed mechanistic rationale (evidence level L5). The drug is also unmarketed in Finland, and a **Blocking**-severity data gap (missing TFDA/Fimea package insert) prevents even an initial safety assessment.
+**Perustelut:**
+Tätä ennustetta tuetaan vain TxGNN-mallin pistemäärällä, eikä sillä ole kliinisiä tutkimuksia, kirjallisuutta eikä suoritettua mekanistista perustelua (näyttötaso L5). Lääke on myös markkinoimaton Suomessa, ja **estävän** vakavuuden tietovahe (puuttuva TFDA/Fimea-seloste) estää jopa alkuperäisen turvallisuusarvioinnin.
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert (warnings, contraindications) — blocking gap, required before any S1 safety review
-- Drugbank-sourced mechanism of action (MOA) data for fentanyl
-- Original indication history for fentanyl to assess mechanistic similarity to NSIAD
-- Completion of the pending mechanistic-link and similarity-to-original analysis for this candidate
-- Targeted literature/clinical trial search specifically for fentanyl–NSIAD association, since current PubMed/ClinicalTrials.gov/ICTRP queries returned zero results
+**Etenemiseksi tarvitaan seuraavaa:**
+- TFDA/Fimea-seloste (varoitukset, vasta-aiheet) — estävä vahe, vaaditaan ennen S1-turvallisuusarviointia
+- Drugbank-lähteinen vaikutusmekanismin (MOA) tieto fentanyylille
+- Fentanyilin alkuperäisen indikaation historia mekanistisen samankaltaisuuden arvioimiseksi NSIAD:lle
+- Odottavien mekanistisen linkin ja samankaltaisuus-alkuperäiseen-nähden -analyysin loppuunsaattaminen tälle kandidaatille
+- Kohdennettu kirjallisuuden ja klinisten tutkimusten haku erityisesti fentanyyli–NSIAD-assosiaatiolle, koska nykyiset PubMed/ClinicalTrials.gov/ICTRP-kyselyt palautuivat nollilla tuloksilla
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

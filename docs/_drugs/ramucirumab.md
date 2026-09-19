@@ -29,86 +29,87 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Ramucirumab: From Solid Tumor Oncology to Uterine Ligament Adenocarcinoma
+# Ramucirumab: Kiinteän kasvainten onkologiasta kohdun ligamenttien adenokarsinoomaan
 
-## One-Sentence Summary
+## Yhteenveto yhdellä lauseella
 
-Ramucirumab is an anti-VEGFR2 monoclonal antibody used in solid tumor oncology; its specific original indication is not captured in this evidence pack. The TxGNN model predicts it may be effective for **Uterine Ligament Adenocarcinoma**, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it rests entirely on knowledge-graph association strength and a class-level anti-angiogenic mechanism hypothesis.
+Ramucirumab on anti-VEGFR2-monoklonaalinen vasta-aine, jota käytetään kiinteän kasvainten onkologiassa; sen tarkka alkuperäinen indikaatio ei ole kuvattu tässä näytöpaketissa. TxGNN-malli ennustaa, että se saattaa olla tehokas **kohdun ligamenttien adenokarsinoomaa** vastaan, mutta tätä ennustetta tuetaan tällä hetkellä **0 kliinisellä tutkimuksella** ja **0 julkaisulla** — se perustuu kokonaan tietograafin assosiaatiovahvuuteen ja luokkatason anti-angiogeneettisen mekanismin hypoteesiin.
 
 ---
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Not specified in evidence pack (original_indications field empty; DrugBank extraction incomplete) |
-| Predicted New Indication | Uterine Ligament Adenocarcinoma |
-| TxGNN Prediction Score | 99.95% |
-| Evidence Level | L5 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen indikaatio | Ei määritetty näytöpaketissa (original_indications-kenttä tyhjä; DrugBank-louhinta epätäydellinen) |
+| Ennustettu uusi indikaatio | Kohdun ligamenttien adenokarsinooma |
+| TxGNN:n ennustuskeskiarvo | 99.95% |
+| Näyttötaso | L5 |
+| Suomen markkinoiden asema | ✗ Ei markkinoilla |
+| Hyväksyntöjen määrä | 0 |
+| Suositeltu päätös | Pidetään odotuksissa |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, detailed mechanism of action data is not available in structured form (original_moa is a data gap). Based on the rationale captured for this candidate, ramucirumab is an anti-VEGFR2 monoclonal antibody that mechanistically inhibits angiogenesis in solid tumors, giving it theoretical broad-spectrum potential against highly vascularized malignancies — including gynecologic cancers.
+Tällä hetkellä yksityiskohtaisia toimintamekanismin tietoja ei ole saatavilla jäsennellyssä muodossa (original_moa on tietojen puute). Tälle ehdokastutkimukselle kerätyn perustelun perusteella ramucirumab on anti-VEGFR2-monoklonaalinen vasta-aine, joka mekaanisesti estää angiogeneesiä kiinteissä kasvaimissa, mikä antaa sille teoreettisesti laaja-alaista potentiaalia erittäin verisuonittuja maligniteetteja vastaan — mukaan lukien gynekologisten syöpien kannalta.
 
-This is, however, a **class-level extrapolation, not a disease-specific finding**. Uterine ligament adenocarcinoma is a rare histological subtype, and no direct clinical, preclinical, or observational data linking ramucirumab to this indication exists in any of the queried sources (ClinicalTrials.gov, ICTRP, PubMed all returned zero results). The extremely high TxGNN score (99.95%) reflects the strength of the model's learned graph association, not clinical validation — the same pattern repeats across all 10 top-ranked predictions for this drug, which are all rare uterine/cervical adenocarcinoma subtypes clustered together in the knowledge graph, each equally lacking supporting evidence.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+Tämä on kuitenkin **luokkatason ekstrapolaatio, ei tautiin kohdistuva havainto**. Kohdun ligamenttien adenokarsinooma on harvinainen histologinen alatyyppi, eikä ramucirumabiin liittyvää suoraa kliinistä, prekliinistä tai havainnollista tietoa tähän indikaatioon ole missään kyselyyn kuuluneista lähteistä (ClinicalTrials.gov, ICTRP, PubMed kaikki palauttivat nollatulokset). Erittäin korkea TxGNN-pistemäärä (99.95 %) heijastaa mallin opitun kaariassosiaation vahvuutta, ei kliinistä vahvistusta — sama kuvio toistuu kaikissa tämän lääkkeen 10 parhaiten sijoittuvassa ennusteessa, jotka ovat kaikki harvinaisia kohtu-/emätinkanavien adenokarsinooma-alityyppejä TxGNN:n mukaan luokiteltuna 814–978, joista kukin on yhtä paljon näyttöä vailla.
 
 ---
 
-## Literature Evidence
+## Kliinisen tutkimuksen näyttö
 
-Currently no related literature available
-
----
-
-## Finland Market Information
-
-Ramucirumab has no marketing authorizations in Finland (market status: not marketed, 0 licenses on file).
+Tällä hetkellä ei ole liittyvää rekisteröityä kliinisiä tutkimuksia
 
 ---
 
-## Cytotoxicity
+## Kirjallisuuden näyttö
 
-Ramucirumab is an antineoplastic agent (anti-VEGFR2 monoclonal antibody used in solid tumor oncology).
+Tällä hetkellä ei ole saatavilla liittyvää kirjallisuutta
 
-| Item | Content |
+---
+
+## Suomen markkinatiedot
+
+Ramucirumabilla ei ole markkinoinnin lupia Suomessa (markkinatilanne: ei markkinoilla, 0 lupaa tiedoissa).
+
+---
+
+## Sytotoksisuus
+
+Ramucirumab on syöpänsäätöaine (anti-VEGFR2-monoklonaalinen vasta-aine, jota käytetään kiinteän kasvainten onkologiassa).
+
+| Kohta | Sisältö |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (anti-VEGFR2 monoclonal antibody / anti-angiogenic agent) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| Sytotoksisuusluokitus | Kohdennettu hoito (anti-VEGFR2-monoklonaalinen vasta-aine / anti-angiogeneettinen aine) |
+| Luuydinvaimennusriski | Katso pakkausseloste varoitukset ja varotoimet |
+| Pahoinvointiluokitus | Katso pakkausseloste varoitukset ja varotoimet |
+| Valvontakohdat | Katso pakkausseloste varoitukset ja varotoimet |
+| Käsittelysuojaus | Katso pakkausseloste varoitukset ja varotoimet |
 
 ---
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information.
+Katso pakkauselosteen turvallisuustiedot.
 
 ---
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidetään odotuksissa**
 
-**Rationale:**
-This candidate cannot yet advance past the S0 (model-prediction-only) stage. The TFDA/regulatory package insert data gap is classified **Blocking** — it explicitly prevents entry into S1 safety pre-evaluation — and none of the top 10 predicted indications (all rare uterine/cervical adenocarcinoma subtypes, ranked 814–978 by TxGNN) have any supporting clinical trial or literature evidence.
+**Perustelut:**
+Tämä ehdokas ei voi vielä edetä S0-vaiheen (vain malliennuste) yli. TFDA/sääntelyyn liittyvän pakkausselosteen tietojen puute on luokiteltu **Estäväksi** — se estää nimenomaista S1-turvallisuuden esiarviointiin pääsyä — eikä yhdessäkään 10 parhaiten ennustetusta indikaatiosta (kaikki harvinaisia kohtu-/emätinkanavien adenokarsinooma-alityyppejä, TxGNN:n mukaan luokiteltuna 814–978) ole mitään tukevia kliinisen tutkimuksen tai kirjallisuuden näyttöä.
 
-**To proceed, the following is needed:**
-- Original indication and approved-label data for ramucirumab (currently missing from evidence pack)
-- TFDA/Fimea package insert (warnings, contraindications) — Blocking gap, required before any S1 safety review
-- Confirmed mechanism of action detail via DrugBank API (High severity gap)
-- At minimum, preclinical or mechanistic studies specific to gynecologic malignancies before this candidate can move beyond model-prediction-only status
+**Jatkamiseksi tarvitaan seuraavaa:**
+- Ramucirumabiin liittyvät alkuperäinen indikaatio ja hyväksytyn merkinnän tiedot (tällä hetkellä puuttuvat näytöpaketista)
+- TFDA/Fimean pakkausseloste (varoitukset, vasta-aiheet) — Estävä puute, vaaditaan ennen mitään S1-turvallisuusarvioita
+- Vahvistettu toimintamekanismin yksityiskohta DrugBank-ohjelmointirajapinnan kautta (Korkean vakavuuden puute)
+- Vähintään prekliiniset tai mekanistiset tutkimukset, jotka ovat spesifejä gynekologisten maligniteettien kannalta, ennen kuin tämä ehdokas voi ylittää vain-malliennuste-statuksen
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

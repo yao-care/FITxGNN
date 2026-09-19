@@ -29,76 +29,77 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Insulin Glargine: From Diabetes Mellitus to Autoimmune Oophoritis
+# Insuliini glargiini: diabeteksesta autoimmuuniin ooforiittiin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Insulin glargine is a long-acting basal insulin analog originally used to treat Type 1 and Type 2 diabetes mellitus. The TxGNN model predicts a possible link to **Autoimmune Oophoritis**, but this prediction currently has **no supporting clinical trials or literature**, and the underlying rationale describes only an indirect, disease-co-occurrence relationship rather than a treatment mechanism.
+Insuliini glargiini on pitkävaikutteinen baasaalinsuliini-analogi, jota käytetään pääasiassa tyypin 1 ja tyypin 2 diabeteksen hoitoon. TxGNN-malli ennustaa mahdollista yhteyttä **autoimmuuniin ooforiittiin**, mutta tällä ennusteella ei ole tällä hetkellä kliinisiä tutkimuksia tai kirjallisuuslähteitä, ja taustalla oleva perustelu kuvaa ainoastaan epäsuoraa, taudin samanesiintymisyyteen perustuvaa suhdetta, ei hoitomekanismia.
 
 ---
 
-## Quick Overview
+## Nopea katsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Diabetes mellitus (Type 1 and Type 2) |
-| Predicted New Indication | Autoimmune Oophoritis |
-| TxGNN Prediction Score | 99.88% (model rank 1777) |
-| Evidence Level | L5 |
-| Finland Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen indikaatio | Diabetes mellitus (tyypin 1 ja tyypin 2) |
+| Ennustettu uusi indikaatio | Autoimmuuni ooforiitti |
+| TxGNN-ennustepisteet | 99.88% (mallin sijoitus 1777) |
+| Näytön taso | L5 |
+| Suomen markkinatilanne | Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Pidätä |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on perusteltu?
 
-Detailed mechanism of action data is not currently available in this evidence pack. Based on known pharmacology, insulin glargine is a long-acting recombinant human insulin analog that provides basal glycemic control by activating the insulin receptor; its efficacy in diabetes mellitus is well established.
+Yksityiskohtaista mekanismin toimintaa koskevaa tietoa ei ole tällä hetkellä saatavilla tässä näyttöpaketissa. Tunnetun farmakologian perusteella insuliini glargiini on pitkävaikutteinen rekombinantti-ihmisen insuliini-analogi, joka tarjoaa baasaalisen glykeemisen kontrollin aktivoimalla insuliinireseptorin; sen teho diabeteksessa on hyvin vakiintunut.
 
-The proposed link to autoimmune oophoritis, however, is not a pharmacological treatment relationship. Autoimmune oophoritis is a component of autoimmune polyendocrine syndrome (APS) and can co-occur with Type 1 diabetes, but there is no direct mechanistic pathway by which insulin would treat ovarian autoimmune inflammation. The model's own rationale explicitly describes this as a "knowledge-graph proximity effect" driven by shared autoimmune/endocrine disease nodes, rather than a genuine drug-disease treatment signal.
+Ehdotettu yhteys autoimmuuniin ooforiittiin ei ole kuitenkaan farmakologinen hoito-sairaus-suhde. Autoimmuuni ooforiitti on osa autoimmuunia polyendokriini syndroomaa (APS) ja voi esiintyä samanaikaisesti tyypin 1 diabeteksen kanssa, mutta ei ole suoraa mekanistista polkua, jonka kautta insuliini hoitaisi munasarjan autoimmuunikipinää. Mallin itsensä perustelut kuvailevat tämän selvästi "knowledge-graph-läheisyysvaikutukseksi", jota ohjaavat jaetut autoimmuuni-/endokriinisairaussolmut, ei todellisen lääke-sairaus-hoitosignaalin havainnoksi.
 
-Given this, the prediction should be interpreted as a hypothesis-generating signal only — it reflects disease co-occurrence patterns learned by the model, not evidence of therapeutic benefit.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Tämän perusteella ennuste tulisi tulkita ainoastaan hypoteesia generoivaksi signaaliksi — se heijastaa mallin oppimia taudin samanesiintymisen kuvioita, ei todisteita terapeuttisesta hyödystä.
 
 ---
 
-## Literature Evidence
+## Kliiniset tutkimustodisteet
 
-Currently no related literature available.
-
----
-
-## Finland Market Information
-
-Insulin glargine currently has no registered marketing authorizations in Finland under this evidence pack (0 licenses on file; market status: not marketed).
+Tällä hetkellä ei ole asiaan liittyviä rekisteröityjä kliinisiä tutkimuksia.
 
 ---
 
-## Safety Considerations
+## Kirjallisuuden todisteet
 
-Please refer to the package insert for safety information.
-
-*(Note: TFDA/Fimea package insert warnings, contraindications, and drug interaction data are flagged as a blocking data gap (DG001) in this evidence pack and could not be retrieved for this evaluation.)*
+Tällä hetkellä ei ole asiaan liittyvää kirjallisuutta saatavilla.
 
 ---
 
-## Conclusion and Next Steps
+## Suomen markkinatiedot
 
-**Decision: Hold**
+Insuliini glargiinil ei ole tällä hetkellä rekisteröityjä markkinointilupia Suomessa tämän näyttöpaketin perusteella (0 lisenssejä tiedostossa; markkinatilanne: ei markkinoilla).
 
-**Rationale:**
-The top-ranked predicted indication (autoimmune oophoritis) has an L5 evidence level — a model prediction only, with zero supporting clinical trials or literature, and the rationale explicitly identifies the link as an indirect co-occurrence artifact rather than a treatment mechanism. This does not meet the threshold to proceed.
+---
 
-**To proceed, the following is needed:**
-- Fimea/TFDA package insert data (warnings, contraindications) — currently a blocking gap (DG001)
-- Confirmed mechanism of action data (DG002)
-- Targeted literature/trial search specifically on insulin and autoimmune oophoritis or APS-related ovarian failure to test whether any indirect supportive evidence exists
-- Consider re-evaluating **pancreatic agenesis** (rank 6 in this candidate set) as an alternative direction: it carries a stronger mechanistic rationale (congenital β-cell absence requiring exogenous insulin) and has 6 associated literature records, though none directly studies this rare condition — it is currently staged at S1 with a "Research Question" recommendation rather than "Hold."
+## Turvallisuusnäkökohdat
+
+Katso turvallisuustieto pakkauksessa olevan tietolehdeltä.
+
+*(Huomio: TFDA/Fimea-pakkauksessa olevan tietoaineen varoitukset, vasta-aiheet ja lääkkeiden väliset yhteisvaikutustiedot on merkitty tietoaukoksi (DG001) tässä näyttöpaketissa, eikä niitä voitu hakea tälle arvioinille.)*
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidätä**
+
+**Perustelu:**
+Parhaiten sijoitetulla ennustetulla indikaatiolla (autoimmuuni ooforiitti) on L5-näyttötaso — ainoastaan mallin ennuste, ilman tukevia kliinisiä tutkimuksia tai kirjallisuutta, ja perustelut tunnistavat selvästi yhteyden epäsuoraksi samanesiintymisen artefaktiksi mekanistisen hoitosignaalin sijaan. Tämä ei täytä jatkokartoitukseen tarvittavaa kynnystä.
+
+**Jatkokartoitukseksi tarvitaan:**
+- Fimea/TFDA-pakkauksessa olevan tietoaineen tiedot (varoitukset, vasta-aiheet) — tällä hetkellä tietoesteenä (DG001)
+- Vahvistettu mekanismin toimintatieto (DG002)
+- Kohdennettu kirjallisuus-/tutkimushaku erityisesti insuliinista ja autoimmuunista ooforiitista tai APS-liittyvästä munasarjan toimintahäiriöstä mahdollisten epäsuorien tukevan todisteiden testaamista varten
+- Harkitse **haimaäärisen agenesiaa** (sijoitus 6 tässä ehdokaskandidaattijoukossa) vaihtoehtoisen suunnan arvioinnin uudelleen: sillä on vahvempi mekanistinen perustelu (synnynnäinen β-solujen puute vaatii ulkoista insuliinia) ja siihen liittyy 6 kirjallisuustietoa, vaikka yksikään ei tutkikaan tätä harvinaista tilaa suoraan — se on tällä hetkellä S1-vaiheessa "tutkimuskysymys"-suosituksella "pidätä"-suosituksen sijaan.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

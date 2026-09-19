@@ -29,86 +29,87 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Tenofovir Alafenamide: From HIV-1 Infection to Simian Immunodeficiency Virus (SIV) Infection
+# Tenofoviiri Alafenamidi: HIV-1-infektiosta Simiaanin Immunodeficiency Virus (SIV) -infektioon
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Tenofovir alafenamide (TAF) is a nucleotide reverse-transcriptase inhibitor prodrug whose established clinical role is HIV-1 treatment and pre-exposure prophylaxis (PrEP); no original-indication record exists in this evidence pack because the drug is **not marketed in Taiwan**. TxGNN's top scored prediction, **Simian Immunodeficiency Virus (SIV) infection**, is supported only by **1 tangentially relevant clinical trial** and **9 non-human-primate (NHP) preclinical publications** — no human efficacy data exist for this specific indication. Two other candidates in this pack (feline AIDS, and a rare neurodevelopmental disorder) carry zero supporting evidence and/or fall outside human-drug repurposing scope, so they are noted but not developed further below.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in this evidence pack (no Taiwan licenses on file); TAF is internationally established as an antiretroviral for HIV-1 infection/PrEP |
-| Predicted New Indication | Simian Immunodeficiency Virus (SIV) Infection |
-| TxGNN Prediction Score | 99.89% |
-| Evidence Level | L4 (preclinical/NHP challenge-model evidence only; no completed human RCT or observational study specific to this indication) |
-| Taiwan Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Tenofoviiri alafenamidi (TAF) on nukleotidi-käänteisen transkriptaasin inhibiittori pro-lääke, jonka vakiintunut kliininen käyttö on HIV-1-infektiohoidossa ja ennakoivassa profylaksiassa (PrEP); alkuperäisen indikaation rekisteröintiä ei ole tässä todistepakkauksessa, koska lääkettä **ei markkinoida Taiwanissa**. TxGNN:n korkeimmin pisteytetty ennuste, **Simiaanin Immunodeficiency Virus (SIV) -infektio**, on tuettu vain **yhdellä epäsuorasti relevanttilla kliinisellä tutkimuksella** ja **yhdeksällä ei-ihmisten primaatin (NHP) prekliinisellä julkaisulla** — ihmisten tehokkuustietoja tälle spesifiselle indikaatiolle ei ole olemassa. Kaksi muuta kandidaattia tässä paketissa (feliininen AIDS ja harvinainen neuroevoluution kehityshäiriö) kantavat nolla tukevia todisteita ja/tai jäävät ihmisten lääkkeiden uudelleenkäytön soveltamisalan ulkopuolelle, joten niistä mainitaan, mutta niitä ei kehitetä edelleen alla.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Pikayleiskatsaus
 
-Detailed mechanism-of-action data for TAF is not available in this evidence pack (flagged as data gap DG002). Based on known pharmacology, TAF is a prodrug that is intracellularly converted to tenofovir diphosphate, which inhibits retroviral reverse transcriptase — the same enzyme class targeted in HIV-1 treatment.
-
-SIV is a lentivirus closely related to HIV-1 and infects non-human primates; because the two viruses share reverse-transcriptase biology, TAF's antiviral mechanism is plausible in the SIV/SHIV (simian-human immunodeficiency virus) macaque model. However, the supporting literature is almost entirely translational research designed to validate TAF as **PrEP/PEP for human HIV prevention** using SIV/SHIV-infected macaques as a surrogate model — it is not evidence that TAF treats SIV infection as a disease in its own right. SIV infection itself is a veterinary/research-model condition, not a human clinical indication, which limits the practical repurposing value of this prediction despite the high TxGNN similarity score.
-
-For context, the other two TxGNN candidates in this pack are weaker still: feline acquired immunodeficiency syndrome is an explicitly veterinary indication outside the company's human-drug repurposing scope, and the rare neurodevelopmental disorder has no clinical, preclinical, or mechanistic support whatsoever (pure embedding-similarity prediction, L5).
+| Kohta | Sisältö |
+|------|--------|
+| Alkuperäinen indikaatio | Ei dokumentoitu tässä todistepakkauksessa (ei Taiwan-lisenssejä tiedostossa); TAF on kansainvälisesti vakiintunut antiretroviraaliseksi HIV-1-infektiohoidon/PrEP:n lääkkeeksi |
+| Ennustettu uusi indikaatio | Simiaanin Immunodeficiency Virus (SIV) -infektio |
+| TxGNN ennustuspistemäärä | 99.89% |
+| Todistelutaso | L4 (vain prekliininen/NHP-haastamallitodiste; ei valmista ihmisten satunnaistetulla tai havainnointitutkimusta tälle indikaatiolle) |
+| Taiwanin markkinatilanne | Ei markkinoitu |
+| Lupauksien lukumäärä | 0 |
+| Suositeltava päätös | Pidätys |
 
 ---
 
-## Clinical Trial Evidence
+## Miksi tämä ennuste on järkevä?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+TAF:n yksityiskohtaista toimintamekanismin tietoa ei ole saatavilla tässä todistepakkauksessa (merkitty tietoväliksi DG002). Tunnetun farmakologian perusteella TAF on pro-lääke, joka solun sisällä muuntuu tenofoviiri-difosfaatiksi, joka estää retroviraalista käänteisen transkriptaasin — samaa entsyymiluokkaa, jota kohdennetaan HIV-1-hoidossa.
+
+SIV on lentiviruksista läheisesti sukua HIV-1:lle ja infektoi ei-ihmisten primaaatteja; koska nämä kaksi virusta jakavat käänteisen transkriptaasin biologian, TAF:n antiviraalinen mekanismi on uskottava SIV/SHIV (simiaanin-ihmisen immunodeficiency-virus) makakien mallissa. Kuitenkin tukeva kirjallisuus on lähes kokonaan translaatiotutkimusta, joka on suunniteltu validoimaan TAF:ia **PrEP/PEP ihmisen HIV-ehkäisyä varten** käyttämällä SIV/SHIV-infektoituneita makakkeja vertailumallina — se ei ole todiste siitä, että TAF hoitaa SIV-infektiota itsenäisenä sairautena. SIV-infektio itsessään on eläinlääkinnällinen/tutkimusmalli-tauti, ei ihmisen kliininen indikaatio, mikä rajoittaa tämän ennusteen käytännön uudelleenkäyttöarvoa korkean TxGNN-samankaltaisuuspistemäärän huolimatta.
+
+Kontekstille, kaksi muuta TxGNN-kandidaattia tässä paketissa ovat vieläkin heikkompia: feliininen hankittu immunodeficiency-syndrooma on nimenomaan eläinlääkinnällinen indikaatio yrityksen ihmisen lääkkeiden uudelleenkäytön soveltamisalan ulkopuolella, ja harvinainen neuroevoluution kehityshäiriö ei ole lainkaan kliinistä, prekliinistä tai mekanistista tukea (puhtaasti embedding-samankaltaisuusennuste, L5).
+
+---
+
+## Kliinisen tutkimuksen näyttö
+
+| Tutkimuksen numero | Vaihe | Tila | Osallistujat | Keskeiset löydökset |
 |---------|------|------|------|---------|
-| [NCT03577782](https://clinicaltrials.gov/study/NCT03577782) | Phase 1/2 | Unknown | 12 | Trial of vedolizumab + antiretroviral therapy aiming for virologic remission in HIV-infected subjects; TAF is only incidentally part of background ART, and the trial does not target SIV infection directly (relevance grade C) |
+| [NCT03577782](https://clinicaltrials.gov/study/NCT03577782) | Vaihe 1/2 | Tuntematon | 12 | Vedolizumabi + antiretroviraalihoito -tutkimus, jonka tavoitteena on virologinen remissio HIV-infektoituneissa henkilöissä; TAF on vain perushoitoon kuuluva antiretroviraaliaine, eikä tutkimus kohdistu SIV-infektioon suoraan (relevanssiaste C) |
 
 ---
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
 |------|-----|------|------|---------|
-| [39632836](https://pubmed.ncbi.nlm.nih.gov/39632836/) | 2024 | Preclinical (SHIV remission, macaque) | Nature Communications | Oral emtricitabine/TAF plus long-acting cabotegravir/rilpivirine tested for SHIV remission in macaques |
-| [38134382](https://pubmed.ncbi.nlm.nih.gov/38134382/) | 2024 | Preclinical (NHP model) | J Infect Dis | TAF/elvitegravir vaginal inserts gave 93–100% protection against repeated SHIV vaginal exposure in macaques |
-| [39559349](https://pubmed.ncbi.nlm.nih.gov/39559349/) | 2024 | Preclinical (humanized mouse model) | Frontiers in Immunology | Dual-purpose humanized mouse model proposed for testing antiviral strategies against SIV and HIV |
-| [35913838](https://pubmed.ncbi.nlm.nih.gov/35913838/) | 2022 | Preclinical (implant device, NHP) | J Antimicrob Chemother | Biodegradable TAF-releasing implant evaluated for sustained vaginal HIV/SHIV protection in macaques |
-| [31362305](https://pubmed.ncbi.nlm.nih.gov/31362305/) | 2019 | Preclinical (macaque efficacy) | J Infect Dis | Oral TAF/emtricitabine or TAF alone tested against vaginal SHIV infection in macaques (PrEP model) |
-| [31730629](https://pubmed.ncbi.nlm.nih.gov/31730629/) | 2019 | Preclinical (methodology, macaque) | PLoS One | Protocol for daily oral ARV dosing in macaques to improve compliance in SIV/SHIV prevention studies |
-| [27465645](https://pubmed.ncbi.nlm.nih.gov/27465645/) | 2016 | Preclinical (macaque chemoprophylaxis) | J Infect Dis | Oral TAF/emtricitabine prevented rectal SHIV infection in macaques |
-| [22740713](https://pubmed.ncbi.nlm.nih.gov/22740713/) | 2012 | Preclinical (SHIV, macaque) | J Infect Dis | Oral PrEP reduced inflammation and CD4 loss in acute SHIV infection |
-| [16810108](https://pubmed.ncbi.nlm.nih.gov/16810108/) | 2006 | Preclinical (infant macaque) | J Acquir Immune Defic Syndr | Oral tenofovir DF and topical GS-7340 (TAF precursor) evaluated against oral SIV challenge in infant macaques |
+| [39632836](https://pubmed.ncbi.nlm.nih.gov/39632836/) | 2024 | Prekliininen (SHIV remissio, makakki) | Nature Communications | Suullinen emtricitabiini/TAF sekä pitkävaikutteinen kabotegraviri/rilpiviini tutkittiin SHIV remissiona makakeissa |
+| [38134382](https://pubmed.ncbi.nlm.nih.gov/38134382/) | 2024 | Prekliininen (NHP-malli) | J Infect Dis | TAF/elvitegraviri emätininsertit antoivat 93–100% suojan toistuvaa SHIV emätinaltistusta vastaan makakeissa |
+| [39559349](https://pubmed.ncbi.nlm.nih.gov/39559349/) | 2024 | Prekliininen (humanisoidun hiiren malli) | Frontiers in Immunology | Kaksitarkoitteinen humanisoidun hiiren malli ehdotettiin antiviraalisten strategioiden testaamista varten SIV- ja HIV-infektiota vastaan |
+| [35913838](https://pubmed.ncbi.nlm.nih.gov/35913838/) | 2022 | Prekliininen (implantaatilaite, NHP) | J Antimicrob Chemother | Hajoava TAF-vapautava implantaatti arvioitiin jatkuvan emätinsuojan HIV/SHIV-infektiota vastaan makakeissa |
+| [31362305](https://pubmed.ncbi.nlm.nih.gov/31362305/) | 2019 | Prekliininen (makakki-tehokkuus) | J Infect Dis | Suullinen TAF/emtricitabiini tai TAF yksin testattiin emätimen SHIV-infektiota vastaan makakeissa (PrEP-malli) |
+| [31730629](https://pubmed.ncbi.nlm.nih.gov/31730629/) | 2019 | Prekliininen (metodologia, makakki) | PLoS One | Protokolla päivittäiselle suulliselle antiretroviraaliaineiden annostelulle makakeissa osallistujien noudattamisen parantamiseksi SIV/SHIV-ehkäisytutkimuksissa |
+| [27465645](https://pubmed.ncbi.nlm.nih.gov/27465645/) | 2016 | Prekliininen (makakki-kemoprofylaksia) | J Infect Dis | Suullinen TAF/emtricitabiini esti peräsuolen SHIV-infektiota makakeissa |
+| [22740713](https://pubmed.ncbi.nlm.nih.gov/22740713/) | 2012 | Prekliininen (SHIV, makakki) | J Infect Dis | Suullinen PrEP vähensi tulehdusta ja CD4-menetystä akuutissa SHIV-infektiossa |
+| [16810108](https://pubmed.ncbi.nlm.nih.gov/16810108/) | 2006 | Prekliininen (vauva-makakki) | J Acquir Immune Defic Syndr | Suullinen tenofoviiri DF ja topikaalinen GS-7340 (TAF-edeltäjä) arvioitiin suullista SIV-haastetta vastaan vauvamakakeissa |
 
 ---
 
-## Taiwan Market Information
+## Taiwanin markkinatiedot
 
-Currently no Taiwan marketing authorizations on file (0 licenses; market status: not marketed).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (No warnings, contraindications, or drug-interaction data were retrievable in this cycle — see data gap DG001, marked Blocking.)
+Tällä hetkellä ei ole Taiwan-markkinointilupaa tiedostossa (0 lisenssejä; markkinatilanne: ei markkinoitu).
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuusnäkökulmat
 
-**Decision: Hold**
+Katso turvallisuustietoja pakkausselosteesta. (Mitään varoituksia, vasta-aiheita tai lääkkeen vuorovaikutustietoja ei saatu noutaa tässä syklissä — katso tietoväli DG001, merkitty Blokkaus.)
 
-**Rationale:**
-All available evidence for the top prediction (SIV infection) is preclinical NHP model data supporting TAF as **HIV prevention/PrEP in humans**, not evidence of efficacy for treating SIV infection as a standalone indication; SIV infection is itself an animal/research-model disease rather than a human clinical target. Combined with the absence of TFDA safety/label data (Blocking gap) and MOA data, this candidate set does not currently support progression.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings/contraindications) — Blocking gap, required before any S1 safety review
-- DrugBank-sourced mechanism-of-action data to properly assess mechanistic fit
-- Re-evaluation of whether SIV infection should be reframed as a human indication (e.g., HIV-1 PrEP/treatment) rather than pursued literally, since the current disease label is not a viable human repurposing target
-- If pursuing further, deprioritize the feline AIDS (veterinary, out of scope) and neurodevelopmental-disorder (L5, no evidence) candidates from this set
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidätys**
+
+**Perustelut:**
+Kaikki saatavilla oleva todiste parhaasta ennusteesta (SIV-infektio) on prekliininen NHP-mallitodiste, joka tukee TAF:ia **HIV-ehkäisyyn/PrEP:iin ihmisille**, ei todisteita tehokkuudesta SIV-infektiohoidossa itsenäisenä indikaationa; SIV-infektio itsessään on eläinlääkinnällinen/tutkimusmalli-tauti, ei ihmisen kliininen indikaatio, mikä rajoittaa tämän ennusteen käytännön uudelleenkäyttöarvoa korkean TxGNN-samankaltaisuuspistemäärän huolimatta. Yhdessä TFDA-turvallisuus-/merkintätietojen puutteen (Blokkaus-väli) ja MOA-tietojen kanssa, tämä kandidaattisarja ei tällä hetkellä tue etenemistä.
+
+**Jatkaaksesi, seuraavaa tarvitaan:**
+- TFDA-pakkausseloste (varoitukset/vasta-aiheet) — Blokkaus-väli, vaaditaan ennen mitään S1-turvallisuustarkistusta
+- DrugBank-lähteinen toimintamekanismin tieto oikean mekanistisen sovituksen arvioimiseksi
+- SIV-infektiosta uudelleenmuotoilu ihmisen indikaatioksi (esim. HIV-1 PrEP/hoito) sen sijaan, että sitä tavoitellaan kirjaimellisesti, koska nykyinen tautiluokitus ei ole elinkelponen ihmisen uudelleenkäyttötavoite
+- Jos jatkat edelleen, aseta feliininen AIDS (eläinlääkinnällinen, soveltamisalan ulkopuolella) ja neuroevoluution kehityshäiriö (L5, ei todisteita) kandidaatit tälle ryhmälle alhaisempaan prioriteettiin
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

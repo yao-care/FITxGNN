@@ -29,110 +29,111 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Ketorolac: From Acute Pain Management to Headache Disorder
+# Ketorolac: Akuutista kivusta päänsärkyyn
 
-## One-Sentence Summary
+## Yksisanainen yhteenveto
 
-Ketorolac is an NSAID (nonsteroidal anti-inflammatory drug), a class that has been broadly established for short-term management of moderate-to-severe acute pain; detailed original-indication text was not captured in this evidence pack. The TxGNN model predicts it may also be effective for **Headache Disorder** (migraine/tension-type headache), a use already supported by **37 clinical trials** and **19 publications**, including a 2026 American Headache Society guideline update. Two weaker candidate indications — Rosacea Conjunctivitis and Trigeminal Autonomic Cephalalgia — are also flagged by the model but have little to no supporting evidence.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Acute pain management (NSAID class; detailed original-indication text not on file) |
-| Predicted New Indication | Headache Disorder |
-| TxGNN Prediction Score | 99.43% |
-| Evidence Level | L1 |
-| Taiwan Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Ketorolac on NSAID (ei-steroidinen tulehduskipulääke), lääkeluokka, joka on vakiintuneesti käytössä keskivaikean tai vaikean akuutin kivun lyhytaikaiseen hoitoon; yksityiskohtaista alkuperäisen indikaation tekstiä ei ole saatavilla tässä aineistossa. TxGNN-malli ennustaa, että ketorolac saattaa olla tehokas myös **päänsärkyhäiriön** (migreeni/jännitysperäinen päänsärky) hoidossa, käyttöä tukee jo **37 kliinistä tutkimusta** ja **19 julkaisua**, joista osa on vuoden 2026 American Headache Society -ohjepäivitys. Kaksi heikommin tuetusta ehdokashoidon indikaatiosta — Rosacea-konjunktiviitti ja trigeminaali-autonominen kefalalgia — on myös mallin tunnistama, mutta niillä on vähän tai ei ollenkaan tukevaa näyttöä.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Currently, detailed mechanism-of-action data is not available in this evidence pack (flagged as a High-severity data gap). Based on known pharmacology, ketorolac is a member of the NSAID class, acting via non-selective inhibition of cyclooxygenase (COX-1/COX-2) to reduce prostaglandin synthesis; its efficacy in acute pain has been well established for decades.
-
-Headache disorders such as migraine and tension-type headache involve neurogenic inflammation and prostaglandin-mediated nociception in the trigeminovascular pathway. The anti-inflammatory/analgesic mechanism that underlies ketorolac's approved pain indication therefore plausibly extends to headache pain — and in practice, parenteral ketorolac is already a long-standing off-label/guideline-referenced option in emergency-department migraine management, which is consistent with the very large volume of trial and literature evidence identified below.
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Akuutin kivun hoito (NSAID-luokka; yksityiskohtaista alkuperäisen indikaation tekstiä ei saatavilla) |
+| Ennustettu uusi indikaatio | Päänsärkyhäiriö |
+| TxGNN-ennusteen pistemäärä | 99.43% |
+| Näytön taso | L1 |
+| Taiwan-markkinatilanne | Ei markkinoilla |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Pitää odottaa |
 
 ---
 
-## Clinical Trial Evidence
+## Miksi tämä ennuste on perusteltu?
 
-*(Top 10 of 37 trials identified, prioritizing completed/higher-phase, headache-specific studies)*
+Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla tässä aineistossa (merkitty korkeatasoiseksi tietovajeeksi). Tunnetun farmakologian perusteella ketorolac on NSAID-luokan jäsen, joka toimii syklooksigenaasia (COX-1/COX-2) ei-selektiivin esto kautta prostaglandiinin synteesiä vähentäen; sen teho akuutissa kivussa on vakiintunut vuosikymmeniksi.
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Päänsärkyhäiriöihin, kuten migreeni ja jännitysperäinen päänsärky, liittyy neurogeninen tulehdus ja prostaglandiini-välitteinen nosiseptio trigeminovaskulaaris-radassa. Anti-inflammatorinen/kivunlievitysmekanismi, joka on ketorolacin hyväksytyn indikaation perusta, ulottuu siten uskottavasti päänsärkykipuun — ja käytännössä parenteroitu ketorolac on jo pitkään ollut off-label-valinta tai ohjearvoissa mainittu vaihtoehto polikliinisessä migreenin hoidossa, mikä on yhdenmukainen alla tunnistettujen tutkimus- ja kirjallisuustietojen erittäin laajan määrän kanssa.
+
+---
+
+## Kliinisen tutkimuksen näyttö
+
+*(Paras 10 tunnistetusta 37 tutkimuksesta, priorisoiden valmistuneet/korkeamman vaiheen päänsärkyyn liittyvät tutkimukset)*
+
+| Tutkimusnumero | Vaihe | Tilanne | Osallistujien määrä | Keskeiset tulokset |
 |---------|------|------|------|---------|
-| [NCT01807234](https://clinicaltrials.gov/study/NCT01807234) | Phase 4 | Completed | 72 | Ketorolac nasal spray vs. sumatriptan nasal spray vs. placebo for acute migraine treatment, including migraine-associated nausea/allodynia |
-| [NCT02358681](https://clinicaltrials.gov/study/NCT02358681) | Phase 3 | Completed | 59 | Intranasal vs. intravenous ketorolac non-inferiority trial for pediatric migraine |
-| [NCT00483717](https://clinicaltrials.gov/study/NCT00483717) | Phase 2 | Completed | 173 | Safety, tolerability, and analgesic efficacy of intranasal ketorolac for acute migraine |
-| [NCT01267864](https://clinicaltrials.gov/study/NCT01267864) | Phase 4 | Completed | 330 | IV ketorolac vs. IV metoclopramide vs. IV valproate for acute migraine |
-| [NCT01011673](https://clinicaltrials.gov/study/NCT01011673) | Phase 4 | Completed | 123 | Metoclopramide/diphenhydramine vs. ketorolac alone for tension-type headache in the ED |
-| [NCT01596166](https://clinicaltrials.gov/study/NCT01596166) | Phase 4 | Completed | 56 | IV ketorolac + metoclopramide combination vs. monotherapy for pediatric migraine |
-| [NCT02664116](https://clinicaltrials.gov/study/NCT02664116) | Phase 4 | Unknown | 40 | IM ketorolac vs. oral diclofenac potassium (Cambia) for severe migraine |
-| [NCT03221569](https://clinicaltrials.gov/study/NCT03221569) | Phase 4 | Unknown | 60 | Sub-dissociative ketamine vs. ketorolac for tension-type headache |
-| [NCT05641363](https://clinicaltrials.gov/study/NCT05641363) | Phase 3 | Completed | 171 | Comparison of ketorolac at three doses in children with acute pain |
-| [NCT06083571](https://clinicaltrials.gov/study/NCT06083571) | Phase 2 | Terminated | 41 | Intranasal ketorolac + oral prochlorperazine/diphenhydramine vs. IV standard regimen for pediatric migraine |
+| [NCT01807234](https://clinicaltrials.gov/study/NCT01807234) | Phase 4 | Valmistunut | 72 | Ketorolac-nenäsumute vs. sumatriptaani-nenäsumute vs. lumelääke akuuttiin migreenin hoitoon, mukaan lukien migreeni-liittyvä pahoinvointi/allodynia |
+| [NCT02358681](https://clinicaltrials.gov/study/NCT02358681) | Phase 3 | Valmistunut | 59 | Intranaalisesti vs. intravenöösesti annettu ketorolac ei-inferioriteetti-tutkimus pediatriselle migreeniille |
+| [NCT00483717](https://clinicaltrials.gov/study/NCT00483717) | Phase 2 | Valmistunut | 173 | Intranaalisesti annetun ketorolacin turvallisuus, siedettävyys ja analgeettinen teho akuuttiin migreeniiin |
+| [NCT01267864](https://clinicaltrials.gov/study/NCT01267864) | Phase 4 | Valmistunut | 330 | IV ketorolac vs. IV metokloperamidi vs. IV valpraatti akuuttiin migreeniiin |
+| [NCT01011673](https://clinicaltrials.gov/study/NCT01011673) | Phase 4 | Valmistunut | 123 | Metokloperamidi/difenhidramiini vs. ketorolac yksin jännitysperäiseen päänsärkään päivystyksessä |
+| [NCT01596166](https://clinicaltrials.gov/study/NCT01596166) | Phase 4 | Valmistunut | 56 | IV ketorolac + metokloperamidi yhdistelmä vs. monoterapia pediatriselle migreeniille |
+| [NCT02664116](https://clinicaltrials.gov/study/NCT02664116) | Phase 4 | Tuntematon | 40 | IM ketorolac vs. suun kautta otettava diklofenakin kalium (Cambia) vakavaan migreeniiin |
+| [NCT03221569](https://clinicaltrials.gov/study/NCT03221569) | Phase 4 | Tuntematon | 60 | Sub-dissosiatiiviinen ketamiini vs. ketorolac jännitysperäiseen päänsärkään |
+| [NCT05641363](https://clinicaltrials.gov/study/NCT05641363) | Phase 3 | Valmistunut | 171 | Ketorolacin vertailu kolmella annoksella lapsilla, joilla akuuttia kipua |
+| [NCT06083571](https://clinicaltrials.gov/study/NCT06083571) | Phase 2 | Lopetettu | 41 | Intranaalisesti annettu ketorolac + suun kautta otettava prokloorperatsiini/difenhidramiini vs. IV standardihoito pediatriselle migreeniille |
 
 ---
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-*(Top 10 of 19 publications identified, prioritizing guidelines/RCTs/systematic reviews)*
+*(Paras 10 tunnistetusta 19 julkaisusta, priorisoiden ohjeet/RCT:t/systemaattiset katsaukset)*
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset tulokset |
 |------|-----|------|------|---------|
-| [41321235](https://pubmed.ncbi.nlm.nih.gov/41321235/) | 2026 | Guideline | Headache | AHS 2025 guideline update on parenteral pharmacotherapy for acute migraine in the ED, including ketorolac |
-| [39674934](https://pubmed.ncbi.nlm.nih.gov/39674934/) | 2025 | Systematic Review/Meta-analysis | Annals of Emergency Medicine | Bayesian network meta-analysis ranking pharmacologic therapies for ED migraine efficacy/safety |
-| [35670115](https://pubmed.ncbi.nlm.nih.gov/35670115/) | 2022 | RCT | Headache | Randomized trial of IV metoclopramide vs. metoclopramide + ketorolac for pediatric migraine in the ED |
-| [35138658](https://pubmed.ncbi.nlm.nih.gov/35138658/) | 2022 | Systematic Review/Meta-analysis | Academic Emergency Medicine | Efficacy of parenteral ketorolac for acute migraine attack |
-| [30783794](https://pubmed.ncbi.nlm.nih.gov/30783794/) | 2019 | RCT | Neurological Sciences | Double-blind RCT comparing dexamethasone, metoclopramide, ketorolac, and chlorpromazine for migraine pain relief and recurrence prevention |
-| [37849443](https://pubmed.ncbi.nlm.nih.gov/37849443/) | 2024 | Systematic Review/Meta-analysis | Adv Clin Exp Med | Updated meta-analysis of IV ketorolac vs. metoclopramide for adult migraine |
-| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | Review | Headache | AHS evidence assessment of migraine pharmacotherapies |
-| [24875925](https://pubmed.ncbi.nlm.nih.gov/24875925/) | 2015 | Guideline/Review | Cephalalgia | Canadian Headache Society systematic review and recommendations for treating migraine pain in the ED |
-| [9484382](https://pubmed.ncbi.nlm.nih.gov/9484382/) | 1998 | RCT | Neurology | Controlled trial of IM ketorolac vs. meperidine+promethazine vs. saline for tension-type headache |
-| [1514724](https://pubmed.ncbi.nlm.nih.gov/1514724/) | 1992 | RCT | Annals of Emergency Medicine | Randomized double-blind trial: ketorolac vs. meperidine+hydroxyzine for acute migraine |
+| [41321235](https://pubmed.ncbi.nlm.nih.gov/41321235/) | 2026 | Ohje | Headache | AHS 2025 -ohjeen päivitys parenteroitujen lääkkeiden farmakoterapiasta akuuttiin migreeniiin päivystyksessä, mukaan lukien ketorolac |
+| [39674934](https://pubmed.ncbi.nlm.nih.gov/39674934/) | 2025 | Systemaattinen katsaus/Meta-analyysi | Annals of Emergency Medicine | Bayesilainen verkko-meta-analyysi farmakologisten hoitojen tehokkuuden ja turvallisuuden rankingista päivystyksen migreenihoitoon |
+| [35670115](https://pubmed.ncbi.nlm.nih.gov/35670115/) | 2022 | RCT | Headache | IV metokloperamidin ja metokloperamidi + ketorolacin satunnaistettu tutkimus pediatriselle migreeniille päivystyksessä |
+| [35138658](https://pubmed.ncbi.nlm.nih.gov/35138658/) | 2022 | Systemaattinen katsaus/Meta-analyysi | Academic Emergency Medicine | Parenteroinnin antaman ketorolacin tehokkuus akuutin migreeni-hyökkäyksen hoitoon |
+| [30783794](https://pubmed.ncbi.nlm.nih.gov/30783794/) | 2019 | RCT | Neurological Sciences | Sokkoitu RCT vertaamalla deksametasonia, metokloperamidia, ketorolacia ja kloorpromasiinia migreeni-kivunlievitykseen ja uusimisen ehkäisyyn |
+| [37849443](https://pubmed.ncbi.nlm.nih.gov/37849443/) | 2024 | Systemaattinen katsaus/Meta-analyysi | Adv Clin Exp Med | Päivitetty meta-analyysi IV ketorolacista vs. metokloperamidi aikuismigreeniä varten |
+| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | Katsaus | Headache | AHS:n näytön arviointi migreeni-farmakoterapioista |
+| [24875925](https://pubmed.ncbi.nlm.nih.gov/24875925/) | 2015 | Ohje/Katsaus | Cephalalgia | Canadian Headache Society -systemaattinen katsaus ja suositukset migreeni-kivun hoitoon päivystyksessä |
+| [9484382](https://pubmed.ncbi.nlm.nih.gov/9484382/) | 1998 | RCT | Neurology | Kontrolloitu tutkimus IM ketorolacista vs. meperiidiini+prometatsiini vs. plasebo jännitysperäiseen päänsärkään |
+| [1514724](https://pubmed.ncbi.nlm.nih.gov/1514724/) | 1992 | RCT | Annals of Emergency Medicine | Satunnaistettu sokkoitu tutkimus: ketorolac vs. meperiidiini+hydroksysiini akuuttiin migreeniiin |
 
 ---
 
-## Taiwan Market Information
+## Taiwan-markkinatiedot
 
-Ketorolac currently holds **0 marketing authorizations** in Taiwan (`market_status: Not marketed/Not marketed`). No product licenses are on file for this evidence pack.
+Ketorolac ei tällä hetkellä ole markkinoilla Taiwanissa (`market_status: Not marketed/Not marketed`). Tässä aineistossa ei ole tuotteita, joilla olisi myyntilupa.
 
 ---
 
-## Additional Predicted Indications (Preliminary)
+## Muut ennustetut indikaatiot (alustavat)
 
-Two further indications were flagged by TxGNN for ketorolac but carry substantially weaker evidence than Headache Disorder:
+TxGNN tunnisti kaksi muuta ketorolacin indikaatiota, mutta ne saavat merkittävästi heikomman näytön kuin Päänsärkyhäiriö:
 
-| Indication | TxGNN Score | Evidence Level | Decision Stage | Recommendation | Notes |
+| Indikaatio | TxGNN-pistemäärä | Näytön taso | Päätösvaihe | Suositus | Huomautukset |
 |---|---|---|---|---|---|
-| Rosacea Conjunctivitis | 99.40% | L5 | S0 | Hold | No clinical trials or literature identified; theoretical rationale only (possible topical NSAID anti-inflammatory effect), no ophthalmic development data exists |
-| Trigeminal Autonomic Cephalalgia (e.g., cluster headache) | 99.39% | L4 | S1 | Research Question | 1 low-relevance withdrawn Phase 1 trial (procedural intervention, not ketorolac dosing) + 2 older literature items (1 review, 1 case report of ketorolac-lithium toxicity); shares trigeminovascular pain pathway with migraine but lacks direct efficacy data for this subtype |
+| Rosacea-konjunktiviitti | 99.40% | L5 | S0 | Pitää odottaa | Ei kliinisiä tutkimuksia tai kirjallisuusviitteitä tunnistettu; vain teoreettinen perustelusta (mahdollinen paikallisen NSAID:in anti-inflammatorinen vaikutus), oftalmologisen kehityksen tietoja ei ole olemassa |
+| Trigeminaali-autonominen kefalalgia (esim. klusteriheadache) | 99.39% | L4 | S1 | Tutkimuskysymys | 1 alhaisen relevanssin peruutettu Phase 1 -tutkimus (menettely-interventio, ei ketorolac-annoksia) + 2 vanhempaa kirjallisuusitemistä (1 katsaus, 1 ketorolac-litium-toksisuuden tapausraportti); jakaa trigeminovaskulaaris-kivun radan migreenin kanssa mutta vailla suoraa tehokkuustietoa tästä alaryhmästä |
 
 ---
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information. Structured warnings, contraindications, and drug-interaction data were not available in this evidence pack (DDI query: not found).
+Katso pakkausselosteesta turvallisuustiedot. Rakennetut varoitukset, vasta-aiheet ja lääkevuorovaikutustiedot eivät olleet saatavilla tässä aineistossa (DDI-haku: ei löydetty).
 
 ---
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pitää odottaa**
 
-**Rationale:**
-The Headache Disorder prediction is backed by an unusually strong and consistent evidence base (37 trials, 19 publications including a 2026 specialty-society guideline), largely reconfirming ketorolac's established off-label use in emergency migraine/tension-headache management. However, a **Blocking**-severity data gap exists: TFDA/package-insert warnings and contraindications are unavailable, which prevents even an initial (S1) safety evaluation, and the drug is not currently marketed in Taiwan (0 authorizations). Efficacy evidence alone cannot justify advancing past Hold until the safety data gap is closed.
+**Perustelu:**
+Päänsärkyhäiriö-ennuste on tuettu epätavallisen vahvalla ja johdonmukaisella näytöllä (37 tutkimusta, 19 julkaisua, joista osa vuoden 2026 erikoisjärjestön ohjeet), joka suurelta osin vahvistaa ketorolacin vakiintuneen off-label-käytön päivystysmigreeni- ja jännitysperäisessä päänsärkyhoidossa. Kuitenkin **pysäyttävä** tietovaje on olemassa: TFDA/pakkausselosteen varoitukset ja vasta-aiheet eivät ole saatavilla, mikä estää jopa alustavan (S1) turvallisuuden arvioinnin, ja lääkettä ei ole tällä hetkellä markkinoilla Taiwanissa (0 lupaa). Vain tehokkuusnäyttö ei voi perustella edistymistä pidemmälle kuin Pitää odottaa, kunnes turvallisuustietovaje on korjattu.
 
-**To proceed, the following is needed:**
-- TFDA (or equivalent) package insert with warnings/contraindications (DG001, Blocking)
-- Confirmed mechanism-of-action documentation from DrugBank (DG002, High)
-- A defined regulatory pathway given ketorolac's current "not marketed" status in Taiwan
-- Individual relevance grading of the 37 trials/19 papers (currently marked "pending") to confirm the L1 evidence-level classification
-- If pursuing Trigeminal Autonomic Cephalalgia as a secondary research question, dedicated prospective trial data specific to that subtype
+**Jatkaakseen seuraavat ovat tarpeen:**
+- TFDA:n (tai vastaavan) pakkausseloste varoituksineen/vasta-aiheita (DG001, Blocking)
+- Vahvistetut vaikutusmekanismin dokumentaatio DrugBankista (DG002, High)
+- Määritelty sääntelypolku ottaen huomioon ketorolacin nykyinen "ei markkinoilla" -tilanne Taiwanissa
+- Yksittäinen relevanssiluokitus 37 tutkimuksesta/19 paperista (tällä hetkellä merkitty "odottaa"), jotta L1-näytön taso varmistetaan
+- Jos trigeminaali-autonomista kefalalgaa jatketaan toissijaisten tutkimuskysymyksinä, prospektiivisia tutkimustietoja, jotka on omistettu nimenomaan tälle alaryhmälle
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

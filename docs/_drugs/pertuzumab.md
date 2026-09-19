@@ -29,110 +29,111 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Pertuzumab: From HER2-Positive Breast Cancer to Progesterone-Receptor Positive Breast Cancer
+# Pertuzumaabi: HER2-positiivisesta rintasyövästä progesteroni-reseptori-positiiviseen rintasyöpään
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Pertuzumab is an anti-HER2 monoclonal antibody originally developed and approved for HER2-positive breast cancer, typically given in combination with trastuzumab and a taxane.
-The TxGNN model predicts it may also be effective for **progesterone-receptor (PR) positive breast cancer**,
-with **10 clinical trials** and **20 publications** currently supporting this direction.
+Pertuzumaabi on anti-HER2-monoklonaalinen vasta-aine, joka on alun perin kehitetty ja hyväksytty HER2-positiiviseen rintasyöpään, jota annetaan tyypillisesti yhdessä trastuzumabin ja taksaanin kanssa.
+TxGNN-malli ennustaa, että se voi olla tehokas myös **progesteroni-reseptori (PR) -positiiviseen rintasyöpään**,
+ja tällä hetkellä **10 kliinistä tutkimusta** ja **20 julkaisua** tukevat tätä suuntaa.
 
 ---
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohde | Sisältö |
 |------|------|
-| Original Indication | HER2-positive breast cancer (established indication used with trastuzumab; no Finland licence currently on file) |
-| Predicted New Indication | Progesterone-receptor positive breast cancer |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L1 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Alkuperäinen indikaatio | HER2-positiivinen rintasyöpä (vakiintunut indikaatio, jota käytetään trastuzumabin kanssa; Suomalaista myyntilupaa ei ole tällä hetkellä tiedostossa) |
+| Ennustettu uusi indikaatio | Progesteroni-reseptori-positiivinen rintasyöpä |
+| TxGNN-ennustepistemäärä | 99.93% |
+| Näyttötaso | L1 |
+| Suomen markkinoinnin tila | ✗ Ei markkinoilla |
+| Myyntilupien lukumäärä | 0 |
+| Suositeltu päätös | Jatka varauksilla |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on perusteltu?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known information, pertuzumab is an anti-HER2 monoclonal antibody that inhibits HER2/HER3 heterodimerization, used together with trastuzumab as standard therapy for HER2-positive breast cancer.
+Yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla tässä näyttöpaketissa. Tunnettujen tietojen perusteella pertuzumaabi on anti-HER2-monoklonaalinen vasta-aine, joka estää HER2/HER3-heterodimerraation ja jota käytetään trastuzumabin kanssa HER2-positiivisen rintasyövän standardihoitona.
 
-Progesterone-receptor status frequently co-occurs with HER2 positivity — the HER2+/hormone-receptor-positive (HR+) subtype is a well-recognized clinical entity representing roughly half of all HER2-overexpressing breast cancers. The predicted "new" indication is therefore best understood as a hormone-receptor-defined stratum of pertuzumab's existing approved population, not a wholly independent drug–disease association.
+Progesteroni-reseptori-status esiintyy usein samanaikaisesti HER2-positiivisuuden kanssa — HER2+/hormonireseptori-positiivinen (HR+) alatyyppi on hyvin tunnettu kliininen entiteetti, joka edustaa noin puolta kaikista HER2-yliekspressioista. Ennustettu "uusi" indikaatio on näin ollen parhaiten ymmärrettävä pertuzumabin olemassa olevan hyväksytyn populaation hormonireseptorilla määritelty osa, ei täysin itsenäinen lääke-tauti-assosiaatio.
 
-This is why the evidence base is unusually strong for a "predicted" indication: multiple completed Phase 3 trials (e.g. IMpassion050, the Asia-Pacific pertuzumab neoadjuvant trial, and several pertuzumab-biosimilar equivalence trials) already enrolled HER2+/HR-defined populations, and de-escalation studies (WSG-ADAPT, WSG-TP-II, PERTAIN) specifically examine how hormone-receptor status modifies response to dual HER2 blockade — directly supporting the mechanistic plausibility of extending use into the PR-positive stratum.
+Tämä selittää, miksi näyttöpohja on epätavallisen vahva "ennustetulle" indikaa­tiolle: useat valmiit III-vaiheen tutkimukset (esim. IMpassion050, Aasian ja Tyynenmeren alueen pertuzumaabi-neoadjuvantti-tutkimus ja useat pertuzumaabi-biosimilaarejen ekvivalenssin tutkimukset) rekrytoivat jo HER2+/HR-määritellyt populaatiot, ja de-eskalointi-tutkimukset (WSG-ADAPT, WSG-TP-II, PERTAIN) tutkivat erityisesti sitä, kuinka hormonireseptori-status muuttaa vasteita kaksois-HER2-blokkaukseen — suoraan tukien mekanistisen uskottavuuden laajentamisen PR-positiiviseen osajoukkoon.
 
 ---
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimusnumero | Vaihe | Tila | Osallistujien määrä | Keskeiset tulokset |
 |---------|------|------|------|---------|
-| [NCT04629846](https://clinicaltrials.gov/study/NCT04629846) | Phase 3 | Completed | 517 | QL1209 (pertuzumab biosimilar) + trastuzumab + docetaxel vs. reference pertuzumab regimen in HER2+/ER-PR- early or locally advanced breast cancer |
-| [NCT05802225](https://clinicaltrials.gov/study/NCT05802225) | Phase 3 | Active, not recruiting | 398 | BCD-178 vs. Perjeta as neoadjuvant therapy for HER2-positive breast cancer, ER/PR-negative population |
-| [NCT02326974](https://clinicaltrials.gov/study/NCT02326974) | Phase 2 | Active, not recruiting | 164 | T-DM1 + pertuzumab preoperative therapy; explores impact of HER2 heterogeneity on treatment response |
-| [NCT00545688](https://clinicaltrials.gov/study/NCT00545688) | Phase 2 | Completed | 417 | 4-arm neoadjuvant study comparing Herceptin/docetaxel/pertuzumab combinations on pathological complete response |
-| [NCT06131424](https://clinicaltrials.gov/study/NCT06131424) | N/A | Completed | 1151 | Retrospective study of HER2-low prevalence, treatment patterns and outcomes in metastatic breast cancer |
-| [NCT03058939](https://clinicaltrials.gov/study/NCT03058939) | Phase 2 | Withdrawn | 0 | Neoadjuvant weekly paclitaxel response-rate study in Nigerian women with breast cancer (withdrawn, no data) |
-| [NCT02689921](https://clinicaltrials.gov/study/NCT02689921) | Phase 2 | Unknown | 7 | Chemotherapy-free neoadjuvant aromatase inhibitor + pertuzumab/trastuzumab in HR+ (ER+/PR+), HER2+ localized breast cancer |
-| [NCT03726879](https://clinicaltrials.gov/study/NCT03726879) | Phase 3 | Completed | 454 | IMpassion050: atezolizumab vs. placebo added to neoadjuvant chemo + trastuzumab + pertuzumab in early HER2+ breast cancer |
-| [NCT00999804](https://clinicaltrials.gov/study/NCT00999804) | Phase 2 | Active, not recruiting | 128 | Lapatinib + trastuzumab ± endocrine therapy, 12 vs. 24 weeks, in HER2-overexpressing breast cancer |
-| [NCT04675827](https://clinicaltrials.gov/study/NCT04675827) | Phase 2 | Terminated | 139 | DECRESCENDO: de-escalation of adjuvant chemotherapy after pCR with neoadjuvant chemo + dual HER2 blockade, HR-negative/node-negative population |
+| [NCT04629846](https://clinicaltrials.gov/study/NCT04629846) | III | Valmis | 517 | QL1209 (pertuzumaabi-biosimilaari) + trastuzumaabi + doketakseli vs. referenssi-pertuzumaabi-hoito HER2+/ER-PR-negatiivisessa varhaisessa tai paikallisesti edistyneessä rintasyövässä |
+| [NCT05802225](https://clinicaltrials.gov/study/NCT05802225) | III | Aktiivinen, ei rekrytointi | 398 | BCD-178 vs. Perjeta neoadjuvantti-hoitona HER2-positiiviseen rintasyöpään, ER/PR-negatiivinen populaatio |
+| [NCT02326974](https://clinicaltrials.gov/study/NCT02326974) | II | Aktiivinen, ei rekrytointi | 164 | T-DM1 + pertuzumaabi preoperatiivinen hoito; tutkii HER2-heterogeenisuuden vaikutusta hoitovasteeseen |
+| [NCT00545688](https://clinicaltrials.gov/study/NCT00545688) | II | Valmis | 417 | 4-ryhmäinen neoadjuvantti-tutkimus vertaamassa Herceptin/doketakseli/pertuzumaabi-yhdistelmiä patologisen täydellisen vasteen kannalta |
+| [NCT06131424](https://clinicaltrials.gov/study/NCT06131424) | – | Valmis | 1151 | Takautuva tutkimus HER2-matalasta prevalenssista, hoitokäytännöistä ja tuloksista metastaattisessa rintasyövässä |
+| [NCT03058939](https://clinicaltrials.gov/study/NCT03058939) | II | Peruutettu | 0 | Neoadjuvantti viikottaisen paklitakselin vastetaso-tutkimus nigerialaisten naisten rintasyövässä (peruutettu, ei dataa) |
+| [NCT02689921](https://clinicaltrials.gov/study/NCT02689921) | II | Tuntematon | 7 | Kemoterapiaton neoadjuvantti aromataasiestäjä + pertuzumaabi/trastuzumaabi HR+-positiivisessa (ER+/PR+), HER2+ paikallisessa rintasyövässä |
+| [NCT03726879](https://clinicaltrials.gov/study/NCT03726879) | III | Valmis | 454 | IMpassion050: atezolizumaabi vs. plasebo lisättynä neoadjuvantti-kemoterapiaan + trastuzumaabi + pertuzumaabi varhaisessa HER2+ rintasyövässä |
+| [NCT00999804](https://clinicaltrials.gov/study/NCT00999804) | II | Aktiivinen, ei rekrytointi | 128 | Lapatinibi + trastuzumaabi ± endokriininen hoito, 12 vs. 24 viikkoa, HER2-yliekspressoitavassa rintasyövässä |
+| [NCT04675827](https://clinicaltrials.gov/study/NCT04675827) | II | Lopetettu | 139 | DECRESCENDO: adjuvantti-kemoterapian de-eskalointi pCR:n jälkeen neoadjuvantti-kemoterapian + kaksois-HER2-blokkauksen kanssa, HR-negatiivinen/solmunegatiivinen populaatio |
 
 ---
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Julkaisu | Keskeiset tulokset |
 |------|-----|------|------|---------|
-| [38906970](https://pubmed.ncbi.nlm.nih.gov/38906970/) | 2024 | RCT (biosimilar equivalence) | British Journal of Cancer | QL1209 pertuzumab biosimilar equivalent to reference pertuzumab + trastuzumab + docetaxel in HER2+/ER-PR- breast cancer |
-| [37166817](https://pubmed.ncbi.nlm.nih.gov/37166817/) | 2023 | RCT | JAMA Oncology | WSG-TP-II: endocrine therapy + trastuzumab/pertuzumab vs. de-escalated chemotherapy in HR+/HER2+ early breast cancer |
-| [27179402](https://pubmed.ncbi.nlm.nih.gov/27179402/) | 2016 | RCT (5-year follow-up) | Lancet Oncology | NeoSphere 5-year PFS/DFS/safety analysis of neoadjuvant pertuzumab + trastuzumab in HER2+ breast cancer |
-| [30106636](https://pubmed.ncbi.nlm.nih.gov/30106636/) | 2018 | RCT (Phase II) | Journal of Clinical Oncology | PERTAIN: trastuzumab + aromatase inhibitor ± pertuzumab in HER2+/HR+ metastatic breast cancer |
-| [35640077](https://pubmed.ncbi.nlm.nih.gov/35640077/) | 2022 | Guideline/Review (ASCO) | Journal of Clinical Oncology | Updated ASCO guideline for systemic therapy in HER2-positive advanced breast cancer |
-| [28945833](https://pubmed.ncbi.nlm.nih.gov/28945833/) | 2017 | Phase II trial | Annals of Oncology | WSG-ADAPT HER2+/HR- final analysis: 12-week dual blockade ± paclitaxel, predictive markers |
-| [37609714](https://pubmed.ncbi.nlm.nih.gov/37609714/) | 2023 | Review (trial rationale) | Future Oncology | DECRESCENDO: rationale for de-escalating chemotherapy in HR-negative, HER2-positive, node-negative early breast cancer |
-| [33902424](https://pubmed.ncbi.nlm.nih.gov/33902424/) | 2022 | Review | Endocrine, Metabolic & Immune Disorders Drug Targets | Overview of immunotherapy options for breast cancer, including trastuzumab/pertuzumab context |
-| [32905036](https://pubmed.ncbi.nlm.nih.gov/32905036/) | 2020 | Review | Cureus | Literature review of therapeutic strategies for HER2-positive metastatic breast cancer |
-| [29291541](https://pubmed.ncbi.nlm.nih.gov/29291541/) | 2018 | Case report | International Journal of Surgery Case Reports | HER2-positive mucinous breast carcinoma case, notes on hormone receptor co-expression |
+| [38906970](https://pubmed.ncbi.nlm.nih.gov/38906970/) | 2024 | RCT (biosimilaarin ekvivalenssi) | British Journal of Cancer | QL1209 pertuzumaabi-biosimilaari vastaa referenssi-pertuzumaabia + trastuzumaabi + doketakseli HER2+/ER-PR-negatiivisessa rintasyövässä |
+| [37166817](https://pubmed.ncbi.nlm.nih.gov/37166817/) | 2023 | RCT | JAMA Oncology | WSG-TP-II: endokriininen hoito + trastuzumaabi/pertuzumaabi vs. de-eskaloidtu kemoterapia HR+/HER2+ varhaisessa rintasyövässä |
+| [27179402](https://pubmed.ncbi.nlm.nih.gov/27179402/) | 2016 | RCT (5 vuoden seurantatutkimus) | Lancet Oncology | NeoSphere 5 vuoden PFS/DFS/turvallisuuden analyysi neoadjuvantti pertuzumaabin + trastuzumabin kanssa HER2+ rintasyövässä |
+| [30106636](https://pubmed.ncbi.nlm.nih.gov/30106636/) | 2018 | RCT (II vaihe) | Journal of Clinical Oncology | PERTAIN: trastuzumaabi + aromataasiestäjä ± pertuzumaabi HER2+/HR+ metastaattisessa rintasyövässä |
+| [35640077](https://pubmed.ncbi.nlm.nih.gov/35640077/) | 2022 | Ohjeistus/Katsaus (ASCO) | Journal of Clinical Oncology | Päivitetty ASCO:n ohjeistus systeemisestä hoidosta HER2-positiivisessa edistyneessä rintasyövässä |
+| [28945833](https://pubmed.ncbi.nlm.nih.gov/28945833/) | 2017 | II-vaiheen tutkimus | Annals of Oncology | WSG-ADAPT HER2+/HR- lopullinen analyysi: 12 viikon kaksoisblokkaadi ± paklitakseli, ennustavat merkitsijät |
+| [37609714](https://pubmed.ncbi.nlm.nih.gov/37609714/) | 2023 | Katsaus (tutkimuksen perustelut) | Future Oncology | DECRESCENDO: kemoterapian de-eskaloinnin perustelut HR-negatiivisessa, HER2-positiivisessa, solmuttomassa varhaisessa rintasyövässä |
+| [33902424](https://pubmed.ncbi.nlm.nih.gov/33902424/) | 2022 | Katsaus | Endocrine, Metabolic & Immune Disorders Drug Targets | Immunoterapian valintojen yleiskatsaus rintasyövässä, mukaan lukien trastuzumaabi/pertuzumaabi konteksti |
+| [32905036](https://pubmed.ncbi.nlm.nih.gov/32905036/) | 2020 | Katsaus | Cureus | Kirjallisuuskatsaus HER2-positiivisen metastaattisen rintasyövän hoitostrategioista |
+| [29291541](https://pubmed.ncbi.nlm.nih.gov/29291541/) | 2018 | Tapausraportti | International Journal of Surgery Case Reports | HER2-positiivinen mukinoosi-rintasyöpä tapaus, huomautuksia hormonireseptorien rinnakkaesiintymisestä |
 
 ---
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Pertuzumab currently has no marketing authorization on file in Finland (market status: not marketed; 0 authorizations recorded).
+Pertuzumaabia ei ole tällä hetkellä myyntiluvalla Suomessa (markkinoinnin tila: ei markkinoilla; 0 myyntilupaa rekisterissä).
 
 ---
 
-## Cytotoxicity
+## Sytotoksisuus
 
-| Item | Content |
+| Kohde | Sisältö |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (anti-HER2 monoclonal antibody; not conventional cytotoxic chemotherapy) |
-| Myelosuppression Risk | Low as monotherapy; risk in practice is largely driven by concurrent chemotherapy partners (e.g. docetaxel, paclitaxel) used in combination regimens |
-| Emetogenicity Classification | Minimal to low as monotherapy; combination regimens follow the emetogenicity of the concurrent chemotherapy backbone |
-| Monitoring Items | Please refer to the package insert warnings and precautions; anti-HER2 antibody therapy generally requires cardiac function (LVEF) monitoring and infusion-reaction observation |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| Sytotoksisuuden luokitus | Kohdennettu terapia (anti-HER2-monoklonaalinen vasta-aine; ei perinteinen sytotoksinen kemoterapia) |
+| Verisolujen vähentymisen riski | Matala monoterapiana; käytännössä riski johtuu pääasiassa rinnakkaisista kemoterapiapartneista (esim. doketakseli, paklitakseli) yhdistelmähoitoissa |
+| Pahoinvoinnin luokitus | Minimaalinen tai matala monoterapiana; yhdistelmähoitojen pahoinvointiluokitus seuraa rinnakkaisen kemoterapian pohjan pahoinvoinnin tasoa |
+| Seurannantarvikkeet | Katso pakkausselosteen varoitukset ja huomautukset; anti-HER2-vasta-ainehoidon osalta vaaditaan yleensä sydämen toimintakyvyn (LVEF) seuranta ja infuusioreaktion havainnointi |
+| Käsittelysuojaus | Katso pakkausselosteen varoitukset ja huomautukset |
 
 ---
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information.
+Katso turvallisuustiedoista pakkausseloste.
 
 ---
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Proceed with Guardrails**
+**Päätös: Jatka varauksilla**
 
-**Rationale:**
-The predicted PR-positive breast cancer indication is supported by an L1 evidence level, including multiple completed Phase 3 trials, but it substantially overlaps with pertuzumab's existing approved HER2-positive use rather than representing a novel drug–disease relationship. The drug is not currently marketed in Finland and no local safety data are available, so guardrails are needed before any local development or off-label use decision.
+**Perustelut:**
+Ennustettu PR-positiivisen rintasyövän indikaatio on tuettu L1-näyttötasolla, mukaan lukien useita valmiita III-vaiheen tutkimuksia, mutta se merkittävästi päällekkäinen pertuzumabin nykyisen hyväksytyn HER2-positiivisen käytön kanssa eikä edusta täysin uutta lääke-tauti-suhdetta. Lääkettä ei ole tällä hetkellä markkinoilla Suomessa eikä paikallisia turvallisuustietoja ole saatavilla, joten varauksista tarvitaan ennen paikallis­kehityksen tai off-label-käyttöpäätöksen tekemistä.
 
-**To proceed, the following is needed:**
-- Fimea/TFDA package insert data (warnings, contraindications) — currently a blocking data gap
-- Confirmed mechanism-of-action documentation from DrugBank or product labeling
-- Assessment of the regulatory pathway required for Finland market entry, given current "not marketed" status
-- Formal drug-drug interaction (DDI) review, since the current query returned no data
+**Jatkamiseksi tarvitaan seuraavaa:**
+- Fimea/TFDA pakkausseloste (varoitukset, vasta-aiheet) — tällä hetkellä tutkittava tietojen puuttumisen este
+- Vahvistettu vaikutusmekanismin dokumentaatio DrugBankista tai tuotteen merkinnöistä
+- Suomen markkinoille tulon säädöstaso nykytilassa "ei markkinoilla" arvioidut
+- Muodollinen lääke-lääke-vuorovaikutus (DDI) tarkastelu, koska nykyinen kysely palautti mitään dataa
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

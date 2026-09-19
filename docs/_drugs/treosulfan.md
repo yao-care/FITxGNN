@@ -29,58 +29,59 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Treosulfan: From Undocumented Original Indication to Diabetic Cataract
+# Treosulfan: Dokumentoimattomasta alkuperäisestä indikaatiosta diabetes-katarraktaan
 
-## One-Sentence Summary
+## Yksirivinen yhteenveto
 
-Treosulfan's original approved indication and mechanism of action are not recorded in the available data set (flagged as data gaps DG001/DG002). The TxGNN model predicts a possible association with **Diabetic Cataract** (score 99.01%), but this prediction is currently unsupported by any registered clinical trials or published literature.
+Treosulfanin alkuperäinen hyväksytty indikaatio ja vaikutusmekanismi eivät ole kirjattuina saatavilla olevassa tietojoukossa (merkitty tietovajeiksi DG001/DG002). TxGNN-malli ennustaa mahdollisen yhteyden **diabetes-katarraktaan** (pistemäärä 99,01%), mutta tätä ennustetta ei tällä hetkellä tue mikään rekisteröity kliininen tutkimus tai julkaistu kirjallisuus.
 
-## Quick Overview
+## Pikayleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available — no approved indications on file (data gap) |
-| Predicted New Indication | Diabetic Cataract |
-| TxGNN Prediction Score | 99.01% |
-| Evidence Level | L5 |
-| Finland Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Ei saatavilla — indikaatioita ei ole arkistoidussa tiedossa (tietovaje) |
+| Ennustettu uusi indikaatio | Diabetes-katarakta |
+| TxGNN-ennusteen pistemäärä | 99,01% |
+| Todistusvoiman taso | L5 |
+| Markkinointistatus Suomessa | Ei markkinoitu |
+| Myönnösten lukumäärä | 0 |
+| Suositeltu päätös | Pidätys |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Detailed mechanism of action data for treosulfan is not currently available, and no original indication is recorded in this evidence pack. Without this foundational information, it is not possible to independently assess whether a mechanistic link between treosulfan's known pharmacology and diabetic cataract exists.
+Treosulfanin yksityiskohtaisia vaikutusmekanismin tietoja ei ole tällä hetkellä saatavilla, eikä tähän todistusjoukkoon ole kirjattu alkuperäistä indikaatiota. Ilman näitä perustietoja ei ole mahdollista itsenäisesti arvioida, onko treosulfanin tunnetun farmakologian ja diabetes-kataraktan välillä mekanistinen yhteys.
 
-The TxGNN score (99.01%, rank 9439) reflects a network-derived prediction only. In the absence of any clinical trials, literature, or MOA data confirming or contextualizing this association, the prediction should be treated as hypothesis-generating rather than clinically actionable at this stage.
+TxGNN-pistemäärä (99,01%, sijoitus 9439) heijastaa vain verkkoon perustuvaa ennustetta. Ilman kliinisiä tutkimuksia, kirjallisuutta tai MOA-tietoja, jotka vahvistaisivat tai selittäisivät tätä yhteyttä, ennustusta olisi käsiteltävä pikemminkin hypoteesin luontavana kuin kliinisesti toimintakelpoisena tässä vaiheessa.
 
-## Clinical Trial Evidence
+## Kliinisten tutkimusten näyttö
 
-Currently no related clinical trials registered.
+Tällä hetkellä ei ole rekisteröity asiaan liittyviä kliinisiä tutkimuksia.
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-Currently no related literature available.
+Tällä hetkellä ei ole asiaan liittyvää kirjallisuutta saatavilla.
 
-## Finland Market Information
+## Markkinointitiedot Suomessa
 
-Treosulfan is not currently marketed in Finland (0 authorizations on file).
+Treosulfania ei ole tällä hetkellä markkinoitu Suomessa (arkistoidussa tiedossa 0 myönnöstä).
 
-## Safety Considerations
+## Turvallisuustekijät
 
-Please refer to the package insert for safety information.
+Turvallisuustietoja saa pakkausselosteesta.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidätys**
 
-**Rationale:**
-- Evidence level is L5 (model prediction only, no clinical trials or literature), the drug is unmarketed in Finland, and a blocking data gap (TFDA package insert / warnings, DG001) prevents any safety pre-assessment.
+**Perustelut:**
+- Todistusvoiman taso on L5 (pelkkä malliennuste, ei kliinisiä tutkimuksia tai kirjallisuutta), lääke ei ole markkinoitu Suomessa, ja estävä tietovaje (TFDA-pakkausesite / varoitukset, DG001) estää minkä tahansa turvallisuuden esiarvion.
 
-**To proceed, the following is needed:**
-- TFDA/EMA package insert data — warnings, contraindications, DDI (DG001, blocking)
-- Confirmed original indication(s) and mechanism of action from DrugBank or primary labeling (DG002)
-- Targeted literature/clinical trial search using expanded synonyms for "diabetic cataract" to check for missed evidence
-- Determination of therapeutic/cytotoxic classification once original indication and MOA data are available
+**Jatkaakseen tarvitaan seuraavaa:**
+- TFDA/EMA-pakkausesite-tiedot — varoitukset, vasta-aiheet, DDI (DG001, estävä)
+- Vahvistettu alkuperäinen indikaatio(t) ja vaikutusmekanismi DrugBankista tai alkuperäisesta pakkausselosteesta (DG002)
+- Kohdennettu kirjallisuus-/kliininen tutkimushaku käyttäen laajennettuja synonyymeja "diabetes-katarraktalle" jätettyjen näyttöjen tarkistamiseksi
+- Terapeuttisen/sytotoksisen luokittelun määrittäminen kun alkuperäinen indikaatio ja MOA-tiedot ovat saatavilla
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

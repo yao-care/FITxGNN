@@ -29,80 +29,81 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Axitinib: Insufficient Data for Repurposing Analysis
+# Aksitinibi: Riittämätön data uudelleenkäyttösoveltuvuuden analyysiin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Axitinib (Inlyta) is a selective VEGFR-1/2/3 tyrosine kinase inhibitor approved globally for advanced renal cell carcinoma. However, **this Evidence Pack contains no TxGNN-predicted new indications**, and the drug is **not marketed in Finland**, making a full repurposing evaluation impossible at this stage. The current data is insufficient to support any repurposing recommendation.
+Aksitinibi (Inlyta) on valikoiva VEGFR-1/2/3-tyrosiinikinaasin estäjä, joka on hyväksytty maailmanlaajuisesti edistyneen munuaissolun karsinoomaan. Kuitenkin **tämä todistusaineisto-paketti ei sisällä TxGNN-ennustettuja uusia indikaatioita**, ja lääkettä **ei markkinoida Suomessa**, mikä tekee täydellisen uudelleenkäyttösoveltuvuuden arvioinnin mahdottomaksi tässä vaiheessa. Nykyiset tiedot eivät riitä minkään uudelleenkäyttösoveltuvuussuosituksen tueksi.
 
 ---
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohde | Sisältö |
 |------|---------|
-| Original Indication | Advanced renal cell carcinoma (global approval; not registered in Finland) |
-| Predicted New Indication | No predictions available in this Evidence Pack |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | N/A — TxGNN output absent |
-| Finland Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+| Alkuperäinen indikaatio | Edistynyt munuaissolun karsinoma (maailmanlaajuinen hyväksyntä; ei rekisteröity Suomessa) |
+| Ennustettu uusi indikaatio | Ei ennusteita saatavilla tässä todistusaineisto-paketissa |
+| TxGNN-ennusteen pistemäärä | N/A |
+| Todistusaineen taso | N/A — TxGNN-tuloste puuttuu |
+| Markkinointiasema Suomessa | Ei markkinoitu |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | **Odota** |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on kohtuullinen?
 
-No TxGNN-predicted indications were returned for Axitinib in this Evidence Pack (`predicted_indications: []`). As a result, the mechanistic linkage analysis between the original indication and any new indication cannot be performed.
+Tässä todistusaineisto-paketissa ei palautettu TxGNN-ennustettuja indikaatioita Aksitiniibille (`predicted_indications: []`). Seurauksena näiden alkuperäisen indikaation ja jonkin uuden indikaation välisen mekanistisen yhteyden analyysia ei voida suorittaa.
 
-Based on general pharmacological knowledge, Axitinib is a second-generation selective inhibitor of vascular endothelial growth factor receptors (VEGFR-1, VEGFR-2, VEGFR-3). Its anti-angiogenic mechanism is mechanistically applicable across multiple solid tumour types, and it has been studied in thyroid cancer, hepatocellular carcinoma, and non-small cell lung cancer beyond its approved renal cell carcinoma indication. However, **these observations are not supported by the current Evidence Pack** and cannot form the basis of a formal repurposing recommendation under this evaluation framework.
+Yleisen farmakologisen tiedon perusteella aksitinibi on toisen sukupolven valikoiva verisuonen endoteelisolun kasvutekijän reseptori (VEGFR-1, VEGFR-2, VEGFR-3) estäjä. Sen antiangiogeneettinen mekanismi on mekanistisesti sovellettavissa useisiin kiinteisiin kasvaimiin, ja sitä on tutkittu kilpirauhan syöpään, hepatosellulaariseen karsinoomaan ja ei-pienisoluiseen keuhkosyöpään hyväksytyn munuaissolun karsinooman indikaation lisäksi. Kuitenkin **nämä havainnot eivät ole nykyisen todistusaineisto-paketin tuella** ja ne eivät voi muodostaa virallisen uudelleenkäyttösoveltuvuussuosituksen perustaa tämän arviointikehikon puitteissa.
 
-Detailed MOA data was flagged as a data gap (DG002) in the evidence pack and must be retrieved from DrugBank before mechanism-based analysis can proceed.
-
----
-
-## Finland Market Information
-
-Axitinib holds **no marketing authorizations in Finland** as of the data cutoff (2026-04-20). No license records are available.
+Yksityiskohtaiset MOA-tiedot merkittiin tietoaukoksi (DG002) todistusaineisto-paketissa ja ne on haettava DrugBankista ennen kuin mekanismipohjainen analyysi voidaan aloittaa.
 
 ---
 
-## Cytotoxicity
+## Suomen markkinatiedot
 
-Axitinib is an antineoplastic targeted therapy (VEGFR tyrosine kinase inhibitor). Although cytotoxicity data was not present in this Evidence Pack, the following applies based on its drug class:
+Aksitiniibillä ei ole markkinointilupaa Suomessa tietojen katkaisun mukaan (2026-04-20). Mitään lupapäätöstä ei ole saatavilla.
 
-| Item | Content |
+---
+
+## Sytotoksisuus
+
+Aksitinibi on antineoplastinen kohdennettu lääke (VEGFR-tyrosiinikinaasin estäjä). Vaikka sytotoksisuustietoja ei ollut esillä tässä todistusaineisto-paketissa, seuraava pätee sen lääkeryhmän perusteella:
+
+| Kohde | Sisältö |
 |------|---------|
-| Cytotoxicity Classification | Targeted therapy — selective VEGFR tyrosine kinase inhibitor |
-| Myelosuppression Risk | Low to moderate (less than conventional cytotoxics; thrombocytopenia and neutropenia reported) |
-| Emetogenicity Classification | Low |
-| Monitoring Items | Blood pressure (hypertension is a class effect), CBC, liver function (ALT/AST), thyroid function, urine protein |
-| Handling Protection | Follow institutional cytotoxic drug handling guidelines; oral formulation but classified as hazardous drug |
+| Sytotoksisuuden luokittelu | Kohdennettu lääke — valikoiva VEGFR-tyrosiinikinaasin estäjä |
+| Luuytimen sortuman riski | Pieni tai kohtalainen (pienempi kuin perinteisten sytotoksisten lääkkeiden; verihiutaleiden väheneminen ja neutropenia ilmoitettu) |
+| Pahoinvointialttius | Pieni |
+| Seurantakohteet | Verenpaine (hypertensio on luokan vaikutus), täydellinen verenkuva, maksan toiminto (ALT/AST), kilpirauhan toiminto, virtsan proteiini |
+| Käsittelyohjeet | Noudata institutionaalisia sytotoksisten lääkkeiden käsittelyohjeita; suun kautta annosteltava muoto, mutta luokiteltu vaaralliseksi lääkkeeksi |
 
 ---
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-No safety data (key warnings, contraindications, or drug interactions) was available in this Evidence Pack. The TFDA package insert query returned a result (query log ID 4), but the content was not parsed into the evidence pack.
+Tässä todistusaineisto-paketissa ei ollut saatavilla turvallisuustietoja (tärkeimmät varoitukset, vasta-aiheet tai lääkkeiden väliset yhdysvaikutukset). TFDA-pakkausseloste-kyselyn tulos palautui (kyselyn loki-tunnus 4), mutta sisältöä ei jäsennetty todistusaineisto-pakettiin.
 
-> Please refer to the Inlyta (axitinib) Summary of Product Characteristics (SmPC) and local package insert for full safety information, including warnings on hypertension, arterial and venous thromboembolism, haemorrhage, hepatotoxicity, and wound healing complications.
+> Koko turvallisuustiedon osalta katso Inlyta (aksitinibi) Tuotteen ominaisuuksien yhteenveto (SmPC) ja paikallinen pakkausseloste, mukaan lukien varoitukset hypertension, arteriaalisten ja laskimoiden tromboembolian, verenvuodon, maksatoksisuuden ja haavan parantumisen komplikaatioista.
 
 ---
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Odota**
 
-**Rationale:**
-The Evidence Pack for Axitinib is structurally incomplete — no TxGNN predictions, no Finland market authorization, no parsed safety data, and no MOA data — making it impossible to perform a repurposing evaluation under the current framework.
+**Perustelut:**
+Aksitiniibin todistusaineisto-paketti on rakenteellisesti epätäydellinen — ei TxGNN-ennusteita, ei Suomen markkinointilupaa, ei jäsenneltyä turvallisuustietoa ja ei MOA-tietoa — mikä tekee uudelleenkäyttösoveltuvuuden arvioinnin mahdottomaksi nykyisen kehikon puitteissa.
 
-**To proceed, the following is needed:**
+**Jatkamista varten tarvitaan seuraavaa:**
 
-- **[Critical — DG001]** Parse the TFDA/Fimea package insert PDF to extract key warnings and contraindications; required before any safety review can begin
-- **[High — DG002]** Retrieve MOA data from DrugBank API to enable mechanism-based repurposing analysis
-- **[Critical]** Investigate why TxGNN returned zero predicted indications for DB06626 — check whether the DrugBank ID is correctly mapped to the knowledge graph node, and re-run prediction pipeline
-- **[Required]** Verify Finland (Fimea) registration status independently; if Axitinib is sold under a different brand or via parallel import, licenses may exist under alternate identifiers
-- Once TxGNN predictions are available, re-generate this Evidence Pack (v5+) to enable full L1–L5 evidence assessment
+- **[Kriittinen — DG001]** Jäsennä TFDA/Fimea-pakkausselosteen PDF-tiedosto tärkeimpien varoitusten ja vasta-aiheista; vaaditaan ennen kuin mikään turvallisuuden tarkistus voidaan aloittaa
+- **[Korkea — DG002]** Hae MOA-tiedot DrugBank API:sta mekanismipohjaisen uudelleenkäyttösoveltuvuuden analyysin mahdollistamiseksi
+- **[Kriittinen]** Tutki, miksi TxGNN palautti nolla ennustettua indikaatiota DB06626:lle — tarkista, onko DrugBank-tunniste oikein kartoitettu tietoaineiston graafisolmuun, ja aja ennustepipeline uudelleen
+- **[Vaaditaan]** Vahvista Suomen (Fimea) rekisteröintitila itsenäisesti; jos Aksitinibi myydään eri tuotenimellä tai rinnakkaistuonnin kautta, lisenssit saattavat olla olemassa vaihtoehtoisten tunnisteiden alla
+- Kun TxGNN-ennusteet ovat saatavilla, luo tämä todistusaineisto-paketti uudelleen (v5+) täydellisen L1–L5-todistusaineen arvioinnin mahdollistamiseksi
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

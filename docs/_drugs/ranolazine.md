@@ -29,60 +29,61 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Ranolazine: Original Indication Not Documented → Predicted Link to Nephrogenic Syndrome of Inappropriate Antidiuresis
+# Ranolazine: Alkuperäistä indikaatiota ei dokumentoitu → Ennustettu yhteys Nephrogenic Syndrome of Inappropriate Antidureesiin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Ranolazine's original indication and mechanism of action are not available in the current evidence pack, and the drug is not yet marketed in Taiwan. The TxGNN model predicts a possible association with **Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD)**, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a computational signal only.
+Ranolazinen alkuperäistä indikaatiota ja vaikutusmekanismia ei ole saatavilla nykyisessä todistepaketeissa, eikä lääkettä ole vielä markkinoitu Taiwanissa. TxGNN-malli ennustaa mahdollista yhteyttä **Nephrogenic Syndrome of Inappropriate Antidiureesiin (NSIAD)**, mutta tätä ennustusta tukevat tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua** — se on vain laskennallinen signaali.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Not documented in current evidence (data gap) |
-| Predicted New Indication | Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD) |
-| TxGNN Prediction Score | 99.65% (model rank #4278) |
-| Evidence Level | L5 |
-| Taiwan Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen indikaatio | Ei dokumentoitu nykyisessä todistepaketeissa (tietoaukko) |
+| Ennustettu uusi indikaatio | Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD) |
+| TxGNN-ennustuspisteet | 99.65% (mallin sijoitus #4278) |
+| Todistetaso | L5 |
+| Taiwan-markkinoiden asema | Ei markkinoitu |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Pidä odottamassa |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennustus on järkevä?
 
-Detailed mechanism of action data for ranolazine is not currently available in this evidence pack, and no original indication is on record either. Without a known MOA, there is no receptor, pathway, or pharmacological basis on which to evaluate whether ranolazine's action could plausibly extend to NSIAD.
+Ranolazinen yksityiskohtaiset vaikutusmekanismin tiedot eivät ole tällä hetkellä saatavilla tässä todistepaketeissa, eikä alkuperäistä indikaatiota ole myöskään tietueissa. Ilman tuntemaa vaikutusmekanismia ei ole reseptoria, signaalinsiirtoreittiä tai farmakologista perusteita, joiden nojalla voitaisiin arvioida, voiko ranolazinen vaikutus ulottua NSIAD:iin.
 
-NSIAD itself is a rare, X-linked condition caused by gain-of-function mutations in the vasopressin V2 receptor (AVPR2), leading to inappropriate water retention independent of vasopressin levels. Establishing a credible mechanistic link would require evidence that ranolazine interacts with the AVPR2 pathway, renal water-handling mechanisms, or a related target — none of which can be assessed here due to the missing MOA data.
+NSIAD itse on harvinainen, X-sidoksinen sairaus, jonka aiheuttavat vasopressiini V2 -reseptorin (AVPR2) gain-of-function-mutaatiot, mikä johtaa epäasianmukaiseen veden varastointiin vasopressiinin tasoista riippumatta. Uskottavan mekanistisen yhteyden luominen edellyttäisi todisteita siitä, että ranolazine on vuorovaikutuksessa AVPR2-signaalinsiirtoreitin, munuaisten veden käsittelymekanismien tai siihen liittyvän kohteen kanssa — mikään näistä ei ole arvioitavissa puuttuvien vaikutusmekanismin tietojen vuoksi.
 
-As a result, this prediction rests entirely on the TxGNN model's computed similarity score (99.65%, rank #4278 out of the model's candidate space), with no corroborating clinical trial, registry, or literature evidence. It should be treated as an early-stage hypothesis-generation signal rather than a pharmacologically grounded rationale.
+Tämän seurauksena tämä ennustus perustuu kokonaan TxGNN-mallin laskettuun samankaltaisuuspisteyteen (99.65%, sijoitus #4278 mallin ehdokasjoukon sisällä), ilman tukevia kliinisiä tutkimuksia, rekistereitä tai kirjallisuustodisteita. Sitä on käsiteltävä varhaisvaiheen hypoteesin muodostamisen signaalina eikä farmakologisesti perustettuina perusteluja.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen todisteet
 
-Currently no related clinical trials registered
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia
 
-## Literature Evidence
+## Kirjallisuustodisteet
 
-Currently no related literature available
+Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta
 
-## Taiwan Market Information
+## Taiwan-markkinoiden tiedot
 
-Ranolazine is not currently marketed in Taiwan (0 product authorizations on record), so no license or product detail table is available.
+Ranolazinia ei ole tällä hetkellä markkinoitu Taiwanissa (0 tuotteen lupaa tietueissa), joten lisenssitaulukko tai tuotteen yksityiskohtataulukko ei ole saatavilla.
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information. (TFDA warnings, contraindications, and DDI data are not currently available for this drug in Taiwan.)
+Katso turvallisuustiedot pakkausselosteesta. (TFDA:n varoitukset, vasta-aiheet ja lääkkeiden väliset yhteisvaikutukset eivät ole tällä hetkellä saatavilla tälle lääkkeelle Taiwanissa.)
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidä odottamassa**
 
-**Rationale:**
-This candidate is at the earliest possible evaluation stage (S0) — there is no MOA, no documented original indication, no clinical trial or literature support, and no Taiwan market presence. The 99.65% TxGNN score alone is insufficient to justify further evaluation without a mechanistic or empirical basis.
+**Perustelut:**
+Tämä ehdokas on arviointivaiheessa S0 — vaikutusmekanismia ei ole olemassa, alkuperäistä indikaatiota ei ole dokumentoitu, kliinisten tutkimusten tai kirjallisuustodisteiden tukea ei ole olemassa, ja Taiwan-markkinoilla ei ole läsnäoloa. Pelkkä 99.65 % TxGNN-pisteytys ei riitä etenemiselle ilman mekanistista tai empiiristä perusteita.
 
-**To proceed, the following is needed:**
-- Confirmed original indication(s) and mechanism of action (via DrugBank/manufacturer labeling)
-- TFDA package insert data on warnings and contraindications (currently a blocking data gap, DG001)
-- A literature or preclinical search specifically probing any link between sodium-channel/late INa modulation (ranolazine's known pharmacology in other markets) and vasopressin/AVPR2-mediated water retention, to establish or rule out mechanistic plausibility
-- Ongoing monitoring for any new clinical trial or case-report evidence on ranolazine and NSIAD, given none currently exist
+**Etenemiseksi tarvitaan seuraavaa:**
+- Vahvistettu alkuperäinen indikaatio/indikaatiot ja vaikutusmekanismi (DrugBankin/valmistajan merkinnöin perusteella)
+- TFDA-pakkausselosteesta tiedot varoituksista ja vasta-aiheista (tällä hetkellä estävä tietoaukko, DG001)
+- Kirjallisuus- tai prekliininen tutkimus, joka erityisesti tutkii mahdollista yhteyttä natriumkanava/myöhäisen INa-modulaation (ranolazinen tunnettu farmakologia muilla markkinoilla) ja vasopressiini/AVPR2-välitteisen veden varastoinnin välillä mekanistisen uskottavuuden selvittämiseksi tai poistamiseksi
+- Jatkuva seuranta uusille ranolaziniin ja NSIAD:iin liittyville kliinisille tutkimuksille tai tapaustapahtumaraportille, sillä niitä ei tällä hetkellä ole olemassa
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

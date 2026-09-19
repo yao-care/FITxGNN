@@ -29,62 +29,63 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Mepolizumab: From Eosinophilic Inflammatory Disease to Thrombocytopenia Due to Immune Destruction
+# Mepolizumab: Eosinofiiliksi liittyvästä tulehdaussairaudesta immuunivälisteiseen verihiutaleisopeniaan
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Mepolizumab is a humanized anti-IL-5 monoclonal antibody publicly known for treating eosinophilic-driven conditions such as severe eosinophilic asthma and hypereosinophilic syndrome (HES); this specific original indication is not recorded in the current evidence pack. The TxGNN model predicts it may be effective for **thrombocytopenia due to immune destruction**, but this direction is currently supported by only **1 case-report-level publication** and **no registered clinical trials**.
+Mepolizumab on humanisoidtu anti-IL-5-monoklonaalinen vasta-aine, jonka tiedetään olevan tehokas eosinofiiliksi liittyvien sairauksien, kuten vakavan eosinofiiliksi liittyvän astman ja hypereosinofiiliksi liittyvän oireyhtymän (HES), hoidossa; tämä erityinen alkuperäinen käyttöaihe ei ole kirjattu nykyisessä näyttöpaketissa. TxGNN-malli ennustaa, että se saattaa olla tehokas **immuunivälisteiseen verihiutaleisopeniaan**, mutta tätä suuntaa tukee tällä hetkellä vain **1 tapausraportti** ja **ei rekisteröityjä kliinisiä tutkimuksia**.
 
-## Quick Overview
+## Pikaselaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Not available in evidence pack (drug not marketed in Finland; no license records) |
-| Predicted New Indication | Thrombocytopenia due to immune destruction |
-| TxGNN Prediction Score | 99.66% |
-| Evidence Level | L4 (single case report / mechanistic evidence only) |
-| Finland Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen käyttöaihe | Ei saatavilla näyttöpaketissa (lääke ei ole markkinoilla Suomessa; ei lisenssitietoja) |
+| Ennustettu uusi käyttöaihe | Immuunivälisteinen verihiutaleisopenia |
+| TxGNN-ennustepisteet | 99.66% |
+| Näyttötaso | L4 (yksittäinen tapausraportti / vain mekanistinen näyttö) |
+| Suomen markkinatila | Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Pidätä |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennustus on perusteltu?
 
-Currently, detailed mechanism of action data is not available in this evidence pack (data gap DG002). Based on publicly known drug information, mepolizumab is a humanized IgG1 monoclonal antibody that binds circulating interleukin-5 (IL-5), blocking its interaction with the IL-5 receptor on eosinophils and thereby reducing eosinophil production, activation, and survival. It is established for eosinophil-driven diseases such as severe eosinophilic asthma, hypereosinophilic syndrome (HES), and eosinophilic granulomatosis with polyangiitis (EGPA).
+Tällä hetkellä yksityiskohtaiset vaikutusmekanismin tiedot eivät ole saatavilla tässä näyttöpaketissa (tietoaukko DG002). Julkisesti saatavilla olevan lääketiedon perusteella mepolizumab on humanisoidtu IgG1-monoklonaalinen vasta-aine, joka sitoutuu kiertävään interleukiini-5:een (IL-5) ja estää sen vuorovaikutuksen IL-5-reseptoreihin eosinofiiileissa ja vähentää näin eosinofiilin tuotantoa, aktivaatiota ja selviytymistä. Se on vakiintunut eosinofiiliksi liittyville sairauksille, kuten vakavalle eosinofiiliksi liittyvälle astmalle, hypereosinofiiliksi liittyvälle oireyhtymälle (HES) ja eosinofiiliksi liittyvälle granulomaattiselle polyangiitille (EGPA).
 
-The predicted new indication — thrombocytopenia due to immune destruction — may be mechanistically linked through eosinophil-mediated immune injury pathways. Hypereosinophilic states can trigger secondary immune-mediated platelet destruction and thrombotic microangiopathy via eosinophil-derived granule products and complement activation. This is directly illustrated in the single literature case identified below (PMID 28648630), where mepolizumab resolved a steroid-resistant hypereosinophilic immune process with concomitant improvement of an associated thrombotic microangiopathy involving platelet consumption.
+Ennustettu uusi käyttöaihe — immuunivälisteinen verihiutaleisopenia — saattaa olla mekanistisesti yhteydessä eosinofiiliksi välityneisiin immuunikeskeytyspoluihin. Hypereosinofiiliksi tilat voivat laukaista toissijaista immuunivälistä verihiutaleiden tuhotoimintaa ja trombottista mikroangipatia eosinofiilin peräisin olevien rakeiden tuotteiden ja komplementin aktivaation kautta. Tämä on suoraan kuvattu alla olevassa yksittäisessä kirjallisuustapauksessa (PMID 28648630), jossa mepolizumab ratkaisi steroidikestävän hypereosinofiiliksi immuuniprosessin, samalla parantaen siihen liittyvää trombottista mikroangipatia, johon liittyi verihiutaleiden kuluminen.
 
-Because the original indication field is empty in this evidence pack, this mechanistic rationale should be treated as background context rather than a pack-verified claim, and confirmed against DrugBank/Fimea sources before use in decision-making.
+Koska alkuperäisen käyttöaiheen kenttä on tyhjä tässä näyttöpaketissa, tämä mekanistinen perustelu tulee käsitellä taustakontekstina, eikä paketin vahvistamana väitteenä. Se tulee vahvistaa DrugBank/Fimea-lähteistä ennen käyttöä päätöksenteossa.
 
-## Clinical Trial Evidence
+## Kliiniset tutkimustodisteet
 
-Currently no related clinical trials registered
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia
 
-## Literature Evidence
+## Kirjallisuustodisteet
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [28648630](https://pubmed.ncbi.nlm.nih.gov/28648630/) | 2018 | Case report | Blood Cells, Molecules & Diseases | Mepolizumab, combined with anti-C5 therapy, resolved a steroid-resistant hypereosinophilic immune process in a patient with atypical HUS-associated eosinophilia, with concomitant amelioration of a mixed thrombotic microangiopathy |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset tulokset |
+|------|------|------|------|------|
+| [28648630](https://pubmed.ncbi.nlm.nih.gov/28648630/) | 2018 | Tapausraportti | Blood Cells, Molecules & Diseases | Mepolizumab yhdessä anti-C5-hoidon kanssa ratkaisi steroidikestävän hypereosinofiiliksi immuuniprosessin potilaalla, jolla oli epätavallinen HUS-liittyvä eosinofilia, ja samalla paransi sekamuotoista trombottista mikroangipatia |
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Mepolizumab is currently not marketed in Finland; no drug license records are on file (0 authorizations).
+Mepolizumab ei ole tällä hetkellä markkinoilla Suomessa; lääkkeen lisenssitietoja ei ole saatavilla (0 hyväksynnät).
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information.
+Turvallisuestiedot löytyvät pakkausselosteesta.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidätä**
 
-**Rationale:**
-The prediction rests on a single case report with no controlled or registered clinical trials, and the safety-labeling data gap (DG001) is flagged as Blocking, meaning the candidate cannot yet pass initial safety screening. Mepolizumab is also not currently marketed in Finland, removing local regulatory precedent to lean on.
+**Perustelu:**
+Ennustus perustuu yksittäiseen tapausraporttiin ilman kontrolloituja tai rekisteröityjä kliinisiä tutkimuksia, ja turvallisuusseloitteen tietoaukko (DG001) on merkitty estäväksi, mikä tarkoittaa, että ehdokas ei voi vielä läpäistä alkuvaiheen turvallisuusseulontaa. Mepolizumab ei myöskään ole tällä hetkellä markkinoilla Suomessa, mikä poistaa paikallisen sääntelyperustan.
 
-**To proceed, the following is needed:**
-- Fimea/TFDA-equivalent package insert data (warnings, contraindications) to resolve DG001
-- Confirmed original indication and mechanism of action documentation to resolve DG002
-- Additional clinical evidence (case series or controlled studies) specific to immune thrombocytopenia
-- A completed drug-drug interaction (DDI) query, since the current query returned "not_found"
+**Etenemiseen tarvitaan seuraavaa:**
+- Fimea/TFDA-vastaava pakkausseloste-tieto (varoitukset, vasta-aiheet) DG001:n ratkaisemiseksi
+- Vahvistettu alkuperäinen käyttöaihe ja vaikutusmekanismin dokumentaatio DG002:n ratkaisemiseksi
+- Lisää kliinistä näyttöä (tapaussarja tai kontrolloitut tutkimukset) immuunivälisteiselle verihiutaleisopenialle
+- Valmis lääke-lääkkeiden vuorovaikutuskysely (DDI), sillä nykyinen kysely palautti "not_found"
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

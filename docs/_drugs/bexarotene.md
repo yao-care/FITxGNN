@@ -29,127 +29,125 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Bexarotene：從皮膚T細胞淋巴瘤到原發性皮膚B細胞淋巴瘤（Primary Cutaneous B-Cell Lymphoma）
+# Bexarotene: ihon T-solulymfoomasta primaariseen ihon B-solulymfoomaan (Primary Cutaneous B-Cell Lymphoma)
 
-## 一句話摘要
+## Yhden lauseen yhteenveto
 
-> Bexarotene（Targretin）是一種選擇性視黃素X受體（RXR）促效劑，原始核准適應症為皮膚T細胞淋巴瘤（CTCL，含Sézary syndrome）。
-> TxGNN 模型此次針對三個相關病名提出預測，最高分項為**原發性皮膚B細胞淋巴瘤**（TxGNN score 99.44%），
-> 但其臨床試驗與文獻證據多集中於T細胞淋巴瘤族群，直接支持B細胞淋巴瘤的證據薄弱（**2 項臨床試驗、13 篇文獻，均非直接證據**）。
-> 值得注意的是，同批預測中的 **Sézary syndrome**（TxGNN 第2名）證據強度遠高於此項（L1，已有多項Bexarotene直接介入之第三期/第四期試驗），本質上是既有核准適應症的延伸而非全新假說，建議併同參考（詳見文末「其他預測適應症比較」）。
+> Bexarotene (Targretin) on selektiivinen retinoidi X -reseptorin (RXR) agonisti, jonka alkuperäinen hyväksytty indikaatio on ihon T-solulymfooma (CTCL, mukaan lukien Sézary-syndrooma). TxGNN-malli ehdottaa tällä kertaa kolmelle asiaan liittyvän diagnoosin, joista korkeimman pistesumman saa **primaarinen ihon B-solulymfooma** (TxGNN-pistemäärä 99,44%), mutta sen kliiniset tutkimukset ja kirjallisuuden näyttö keskittyvät pääosin T-solulymfooman potilasryhmiin, ja B-solulymfoomaa suoraan tukevia näyttöjä on niukalti (**2 kliinistä tutkimusta, 13 artikkelia, kaikki epäsuoraa näyttöä**). On huomionarvoista, että samassa ennustesarjassa **Sézary-syndrooma** (TxGNN sija 2) on paljon vahvempaa näyttöä kuin tämä indikaatio (L1, useita bexaroteeniin suoraan liittyviä vaihe 3/4-tutkimuksia), se on pohjimmiltaan olemassa olevan hyväksytyn indikaation laajentamista eikä täysin uutta hypoteesia, suositellaan tutustua siihenkin (katso "Muiden ennustettujen indikaatioiden vertailu" lopussa).
 
 ---
 
-## 快速總覽
+## Nopea katsaus
 
-| 項目 | 內容 |
-|------|------|
-| 原始適應症 | 皮膚T細胞淋巴瘤（Cutaneous T-Cell Lymphoma, CTCL）※台灣Not marketed，無正式核准適應症紀錄，此描述依文獻證據（如 PMID 19222457、11902993）佐證 |
-| 預測新適應症 | Primary Cutaneous B-Cell Lymphoma |
-| TxGNN 預測分數 | 99.44%（rank 5969） |
-| 證據等級 | L4 |
-| 台灣市場狀態 | Not marketed |
-| 藥證數量 | 0 |
-| 建議決策 | **Hold** |
-
----
-
-## 為什麼這個預測合理？
-
-目前缺乏正式登錄的 MOA 欄位資料（Data Gap），但依據評估證據包內文獻（如 PMID 11702369）可確認：Bexarotene 為選擇性 RXR（retinoid X receptor）促效劑，與 RXR 結合並活化其作為配體活化轉錄因子的功能，進而調控基因表現，影響細胞生長、凋亡與分化，此機轉已明確用於誘導惡性 T 細胞株凋亡，是 CTCL（含 Sézary syndrome）的既有核准機轉基礎。
-
-原發性皮膚B細胞淋巴瘤與CTCL雖同屬「皮膚淋巴瘤」大類，但致病細胞系不同：B細胞淋巴瘤致病路徑多與 BCL2、NF-κB、CD20 相關訊號有關，與 RXR 路徑活化誘導 T 細胞凋亡的機轉並無直接證據支持的重疊。TxGNN 團隊自身的機轉關聯分析也指出，此預測很可能是模型因「cutaneous lymphoma」語意鄰近（T細胞與B細胞淋巴瘤同屬皮膚淋巴瘤語意群）而產生的高分結果，應視為待驗證假說，而非已有實證支持的機轉延伸。
-
-因此，此項預測目前僅具機轉「間接關聯」層級的合理性，尚缺乏能直接外推到B細胞淋巴瘤的分子或臨床證據。
+| Kohde | Sisältö |
+|------|--------|
+| Alkuperäinen indikaatio | Ihon T-solulymfooma (Cutaneous T-Cell Lymphoma, CTCL) ※Taiwan: Not marketed, virallista hyväksyttyä indikaatiota ei ole kirjattu, tämä kuvaus perustuu kirjallisuuden näyttöihin (kuten PMID 19222457, 11902993) |
+| Ennustettu uusi indikaatio | Primary Cutaneous B-Cell Lymphoma |
+| TxGNN-ennusteen pistemäärä | 99,44% (sijoitus 5969) |
+| Näytön taso | L4 |
+| Taiwanin markkinatilanne | Not marketed |
+| Lääkkeiden kelpoisuuksien lukumäärä | 0 |
+| Suositeltu päätös | **Hold** |
 
 ---
 
-## 臨床試驗證據
+## Miksi tämä ennuste on järkevä?
 
-| 試驗編號 | 期別 | 狀態 | 收案人數 | 重點發現 |
+Virallisia kirjattuja MOA-tietoja ei ole saatavilla (Data Gap), mutta arviointipalkkiin kuuluvien kirjallisuuden lähteiden (kuten PMID 11702369) perusteella voidaan vahvistaa: Bexarotene on selektiivinen RXR (retinoidi X -reseptori) agonisti, joka sitoutuu RXR:ään ja aktivoi sen ligandilla aktivoitavan transkriptiotekijän toimintoja, mikä puolestaan säätelee geenien ilmentymistä vaikuttaen solujen kasvuun, apoptoosiin ja erilaistumiseen. Tämä mekanismi on jo todettu indusoivan pahanlaatuisten T-solulinjastoja apoptoosiin ja on CTCL:n (mukaan lukien Sézary-syndrooma) olemassa olevan hyväksytyn mekanismin perusta.
+
+Primaarinen ihon B-solulymfooma ja CTCL kuuluvat molemmat "ihon lymfooma" -luokkaan, mutta ne poikkeavat etiologian kannalta: B-solulymfoomat liittyvät usein BCL2-, NF-κB- ja CD20-signaloinnin välitykseen, ja ne eivät ole suoran näytön perusteella yhteydessä RXR-signaloinnin aktivaatioon T-solujen apoptoosiin inertoimiseksi. TxGNN-tiimin oman mekanismin assosiaatioanalyysin mukaan tämä ennuste johtuu todennäköisesti siitä, että malli tuottaa korkean pistemäärän "cutaneous lymphoma" semanttisen läheisyyden perusteella (T- ja B-solulymfoomat kuuluvat samaan ihon lymfooman semanttiseen ryhmään), ja sitä tulisi pitää vaativan vahvistusta hypoteesina eikä mekanismina tuettuna jatkeena.
+
+Näin ollen tämän ennusteen nykyinen järkevyys on rajoittunut "epäsuoran mekanismin" tasolle, ja sillä puuttuu näyttö, joka suoraan tukeisi mekanismin yleistämistä B-solulymfoomaan molekyyli- tai kliiniset näytöt huomioon ottaen.
+
+---
+
+## Kliiniset tutkimukset
+
+| Tutkimuksen numero | Vaihe | Tila | Osallistujien lukumäärä | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT05106192](https://clinicaltrials.gov/study/NCT05106192) | NA | 已撤回 (WITHDRAWN) | 0 | 比較 MedJet 無針注射系統與標準照護於皮膚T/B細胞淋巴瘤斑塊之疼痛差異；研究藥物為 Triamcinolone Acetonide，非 Bexarotene，且未實際收案，對本適應症無實質證據價值 |
-| [NCT01134341](https://clinicaltrials.gov/study/NCT01134341) | Phase 1 | 已完成 | 34 | Pralatrexate 併用口服 Bexarotene 治療復發/難治性 CTCL 之劑量爬升研究；收案族群以T細胞淋巴瘤為主，未見明確納入原發性皮膚B細胞淋巴瘤，屬間接證據 |
+| [NCT05106192](https://clinicaltrials.gov/study/NCT05106192) | NA | Peruutettu (WITHDRAWN) | 0 | Vertailu MedJet-neulattomien ruiskutusjärjestelmien ja tavanomaisen hoidon välillä ihon T/B-solulymfooman plaakkeiden kivun osalta; tutkimuksessa käytetty lääke on Triamcinolone Acetonide, ei Bexarotene, eikä tutkimuksella ollut varsinaisia osallistujia, mikä tekee siitä merkityksettömän tälle indikaatiolle |
+| [NCT01134341](https://clinicaltrials.gov/study/NCT01134341) | Vaihe 1 | Valmistunut | 34 | Pralatrexaatin yhdistelmä suun kautta otettavan bexaroteenin kanssa uusiutuvien tai vaikeasti hoidettavien CTCL-tapausten hoitoon; annoksen kohoamisen tutkimus; osallistujat olivat pääosin T-solulymfooma-potilaita, ei selviä primaarisen ihon B-solulymfooman sisällyttämisiä, kuuluu epäsuoraan näyttöön |
 
-**兩項試驗均非此適應症之直接證據。**
+**Molemmat tutkimukset eivät ole tämän indikaation suoraa näyttöä.**
 
 ---
 
-## 文獻證據
+## Kirjallisuuden näyttö
 
-| PMID | 年份 | 類型 | 期刊 | 重點發現 |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [31466585](https://pubmed.ncbi.nlm.nih.gov/31466585/) | 2019 | Review | Dermatologic Clinics | 原發性皮膚B細胞淋巴瘤診斷與治療回顧，指出治療指引證據有限，各機構作法不一，未提及Bexarotene |
-| [34059248](https://pubmed.ncbi.nlm.nih.gov/34059248/) | 2021 | Review | Med Clin North Am | 皮膚淋巴瘤（含T/B細胞型）診斷與管理綜述 |
-| [20806174](https://pubmed.ncbi.nlm.nih.gov/20806174/) | 2010 | Review | Ther Umsch | 皮膚淋巴瘤依WHO/EORTC分類之綜述 |
-| [14616487](https://pubmed.ncbi.nlm.nih.gov/14616487/) | 2003 | Review | Australas J Dermatol | 原發性皮膚淋巴瘤治療策略綜述，列舉局部類固醇、光療、視黃酸類等選項 |
-| [31932947](https://pubmed.ncbi.nlm.nih.gov/31932947/) | 2020 | Review | Der Pathologe | 皮膚淋巴瘤臨床表現與治療綜述，明確提及 Bexarotene 用於**Sézary syndrome**（非B細胞淋巴瘤）之系統性治療 |
-| [19786826](https://pubmed.ncbi.nlm.nih.gov/19786826/) | 2009 | Review | Skin Pharmacol Physiol | 皮膚淋巴瘤（含T/B細胞型）新興皮膚導向療法綜述 |
-| [31511903](https://pubmed.ncbi.nlm.nih.gov/31511903/) | 2019 | Review | Der Hautarzt | 同上（31932947）之姊妹篇，同樣僅提及Bexarotene用於Sézary syndrome |
-| [22031653](https://pubmed.ncbi.nlm.nih.gov/22031653/) | 2011 | Case Report | Dermatol Online J | 復發性局部原發性皮膚邊緣區B細胞淋巴瘤病例，CD20/Bcl-2陽性，**未使用Bexarotene治療** |
-| [29881891](https://pubmed.ncbi.nlm.nih.gov/29881891/) | 2018 | Case Series | Der Hautarzt | 163例原發性皮膚淋巴瘤病例系列報告 |
-| [23941646](https://pubmed.ncbi.nlm.nih.gov/23941646/) | 2013 | Case Series | J Cutan Pathol | 皮膚濾泡輔助性T細胞淋巴瘤診斷陷阱案例，易誤診為皮膚濾泡中心B細胞淋巴瘤 |
+| [31466585](https://pubmed.ncbi.nlm.nih.gov/31466585/) | 2019 | Katsaus | Dermatologic Clinics | Primaarisen ihon B-solulymfooman diagnoosi ja hoito -katsaus, jossa todetaan hoitoohjeiden näytön rajoittuneisuus ja eri instituutioiden erilaiset käytännöt; ei mainita bexaroteenia |
+| [34059248](https://pubmed.ncbi.nlm.nih.gov/34059248/) | 2021 | Katsaus | Med Clin North Am | Ihon lymfoomien (mukaan lukien T/B-solutyypit) diagnoosi ja hoito -yleiskatsaus |
+| [20806174](https://pubmed.ncbi.nlm.nih.gov/20806174/) | 2010 | Katsaus | Ther Umsch | Ihon lymfoomien WHO/EORTC-luokituksen mukainen yleiskatsaus |
+| [14616487](https://pubmed.ncbi.nlm.nih.gov/14616487/) | 2003 | Katsaus | Australas J Dermatol | Primaarisen ihon lymfooman hoitostrategiat -katsaus, jossa luetellaan paikallisten kortikosteroidien, valonhoito ja retinoidien vaihtoehdot |
+| [31932947](https://pubmed.ncbi.nlm.nih.gov/31932947/) | 2020 | Katsaus | Der Pathologe | Ihon lymfoomien kliininen esitys ja hoito -yleiskatsaus, jossa nimenomaisesti mainitaan bexaroteeni **Sézary-syndroomassa** käyttöön (ei B-solulymfooma) systeemisessä hoidossa |
+| [19786826](https://pubmed.ncbi.nlm.nih.gov/19786826/) | 2009 | Katsaus | Skin Pharmacol Physiol | Ihon lymfoomien (mukaan lukien T/B-solutyypit) uudet ihohoidon suuntaviivaavat hoitomenetelmät -katsaus |
+| [31511903](https://pubmed.ncbi.nlm.nih.gov/31511903/) | 2019 | Katsaus | Der Hautarzt | Sama kuin [31932947](https://pubmed.ncbi.nlm.nih.gov/31932947/), jossa mainitaan bexaroteeni vain Sézary-syndroomassa |
+| [22031653](https://pubmed.ncbi.nlm.nih.gov/22031653/) | 2011 | Tapausraportti | Dermatol Online J | Uusiutunut paikallinen primaarinen ihon marginaali-alueen B-solulymfooma -tapaus, CD20/Bcl-2 positiivinen, **bexaroteenia ei käytetty hoitoon** |
+| [29881891](https://pubmed.ncbi.nlm.nih.gov/29881891/) | 2018 | Tapaussarja | Der Hautarzt | 163 potilaasta koostuva primaarisen ihon lymfooman tapaussarjan raportti |
+| [23941646](https://pubmed.ncbi.nlm.nih.gov/23941646/) | 2013 | Tapaussarja | J Cutan Pathol | Ihon follikkeli-avustavan T-solulymfooman diagnoositiessään syviä ansoja, helposti sekoitettavaksi ihon follikkeli-keskus-B-solulymfoomaksi |
 
-（共13篇文獻，列出前10篇最相關者；**無一篇為RCT，亦無文獻報告Bexarotene直接用於原發性皮膚B細胞淋巴瘤治療**）
-
----
-
-## 台灣市場資訊
-
-目前台灣**Not marketed**（0張藥證），無核准適應症或劑型資料可供查核。TFDA 查詢（2026-03-29）與仿單解析均未取得結果。
+(yhteensä 13 artikkelia, listattu 10 relevantinta; **mikään artikkeli ei ole satunnaistettu kontrolloitu tutkimus eikä mikään raportointi bexaroteenin suorasta käytöstä primaarisen ihon B-solulymfooman hoidossa**)
 
 ---
 
-## 細胞毒性（抗腫瘤藥物適用）
+## Taiwanin markkinatiedot
 
-Bexarotene 原始適應症為皮膚T細胞淋巴瘤（惡性腫瘤），屬抗腫瘤用藥，故列出本節。
-
-| 項目 | 內容 |
-|------|------|
-| 細胞毒性分類 | 標靶治療（Targeted therapy）— 選擇性RXR促效劑，非傳統DNA毒性化療藥物 |
-| 骨髓抑制風險 | 低至中度（文獻報告口服膠囊劑型可見嗜中性球低下，但非主要毒性） |
-| 致吐性分類 | 低（口服視黃素類藥物，非傳統高致吐性化療藥） |
-| 監測項目 | 空腹血脂（三酸甘油酯，為最常見且最需監測之副作用）、甲狀腺功能（TSH、free T4，中樞性甲狀腺低下風險）、CBC（嗜中性球）、肝功能 |
-| 處理防護 | 依細胞毒性藥品處理規範辦理（多國危害性藥品清單將 Bexarotene 列入管制） |
+Taiwanissa tällä hetkellä **Not marketed** (0 lääkkeen kelpoistusta), hyväksyttyä indikaatiota tai lääkemuotoa ei ole saatavilla. TFDA-haku (2026-03-29) ja pakkausseloste-analyysi eivät tuottaneet tuloksia.
 
 ---
 
-## 安全性考量
+## Sytostaattinen vaikutus (antituumorisiille lääkkeille soveltuvat)
 
-請參閱藥品仿單以獲取安全性資訊。
+Bexarotene on alkuperäisen indikaationsa osalta ihon T-solulymfooma (pahanlaatuinen kasvain), joten se kuuluu antituumorisiille lääkkeille. Siksi tämä osio on luettelossa.
 
-（本證據包標記 Fimea package insert warnings/contraindications為 Blocking 等級資料缺口 DG001，藥物交互作用查詢亦無結果，需優先補齊後方能進行 S1 安全性初評）
+| Kohde | Sisältö |
+|------|--------|
+| Sytostaattisen vaikutuksen luokitus | Kohdistava hoito (Targeted therapy) — selektiivinen RXR-agonisti, ei perinteinen DNA-myrkyllinen kemoterapialääke |
+| Luuydintukahdus-riski | Alhainen-keskitaso (kirjallisuus raporttoi suun kautta otettavalla kapselimuodolla voi esiintyä neutropeniam, mutta ei ole pääasiallinen myrkyllisyys) |
+| Pahoinvointiriskin luokitus | Alhainen (suun kautta otettu retinoidilääke, ei perinteinen korkean pahoinvoinnin kemoterapialääke) |
+| Valvonta-alueet | Paastopaino-veren rasvapitoisuus (triglyseridien, yleisin ja tärkein valvottava sivuvaikutus), kilpirauhastoiminto (TSH, vapaa T4, keskushermostollisen kilpirauhashypoksisin riski), solujen lukumäärät (neutrofiilut), maksan toiminta |
+| Käsittely ja suojaus | Sytostaattisten lääkkeiden käsittelykäytäntöjen mukainen hoito (monet kansalliset vaarallisten lääkkeiden luettelot luokittelevat bexaroteenin hallinnon alaiseen) |
 
 ---
 
-## 其他預測適應症比較（同批候選，供決策參考）
+## Turvallisuusnäkökohdat
 
-TxGNN 此次同時針對 Bexarotene 提出三項相關預測，證據強度差異極大，建議一併評估決策優先順序：
+Viittaa lääkkeen pakkauksessa olevaan selosteeseen saadaksesi turvallisuustiedot.
 
-| 排名 | 預測適應症 | TxGNN分數 | 證據等級 | 決策階段 | 建議決策 | 備註 |
+(tämä näyttöpaketti merkitsee Fimean pakkausseloste-varoitusten/kontraindikaatioiden data-aukkoksi DG001, estävä tason tietoaukko, lääkkeiden välisten vuorovaikutusten haku ei myöskään tuottanut tuloksia, nämä on täytettävä etuajassa ennen kuin voidaan tehdä S1-turvallisuuden alustava arviointi)
+
+---
+
+## Muiden ennustettujen indikaatioiden vertailu (sama sarja, päätösten tukemiseksi)
+
+TxGNN ehdottaa tällä kertaa kolmea asiaan liittyvää ennustetta bexaroteenille, joiden näytön vahvuus vaihtelee suuresti, suositellaan arvioimaan päätösten prioriteetit yhdessä:
+
+| Sija | Ennustettu indikaatio | TxGNN-pistemäärä | Näytön taso | Päätöksen vaihe | Suositeltu päätös | Huomautukset |
 |------|-----------|----------|---------|---------|---------|------|
-| 1 | Primary Cutaneous B-Cell Lymphoma | 99.44% | L4 | S1 | Hold | 本報告主題；機轉關聯薄弱，可能為語意鄰近之模型假影 |
-| 2 | **Sézary Syndrome** | 99.29% | **L1** | S3 | **Proceed with Guardrails** | 本質為既有核准適應症CTCL之白血病期延伸；10項Bexarotene直接介入試驗（含Phase 3/4），機轉與臨床皆已驗證 |
-| 3 | Lymphosarcoma | 99.12% | L2 | S2 | Research Question | 為歷史性淋巴瘤統稱術語，證據實質集中於CTCL/PTCL，需先釐清目標病理亞型才能判定證據外推適用性 |
+| 1 | Primary Cutaneous B-Cell Lymphoma | 99,44% | L4 | S1 | Hold | Raportin pääteema; mekanismin assosiaatio heikko, mahdollisesti mallin artefakti semanttisen läheisyyden perusteella |
+| 2 | **Sézary Syndrome** | 99,29% | **L1** | S3 | **Proceed with Guardrails** | Pohjimmiltaan jo olemassa olevan hyväksytyn CTCL-indikaation leukemianmuotoisen laajentamisen; 10 bexaroteeniin suoraan liittyviä tutkimusta (mukaan lukien vaihe 3/4), mekanismi ja kliininen näyttö jo vahvistettu |
+| 3 | Lymphosarcoma | 99,12% | L2 | S2 | Research Question | Historiallinen lymfooman yleistermi, näyttö tosiasiassa keskittyy CTCL/PTCL, etusijalle tulee selvittää kohdepathologian alatyyppi ennen näytön yleistettävyyden arviointia |
 
-**排名2（Sézary syndrome）為三者中證據最紮實者**，具多項直接使用Bexarotene之Phase 3（NCT00056056, N=93）與Phase 4上市後研究（NCT01007448, N=59；NCT01569724），且已為多國核准適應症的一部分，建議列為優先追蹤項目而非本報告主題之B細胞淋巴瘤。
+**Sija 2 (Sézary-syndrooma) on näiden kolmen antama vahvin näytöllä**, jossa on useita suoraan bexaroteenin käyttäviä vaihe 3:a (NCT00056056, N=93) ja vaihe 4:ää jälkimarkkinatutkimuksia (NCT01007448, N=59; NCT01569724), ja se on jo monien maiden hyväksytty indikaatio, suositellaan luetteloimaan se etusija-seurantakohteeksi pikemmin kuin raportin pääteemaksi olevaksi B-solulymfoomaksi.
 
 ---
 
-## 結論與後續步驟
+## Johtopäätökset ja seuraavat vaiheet
 
-**決策：Hold**（針對 Primary Cutaneous B-Cell Lymphoma）
+**Päätös: Hold** (primaarisen ihon B-solulymfooman osalta)
 
-**理由：**
-- 現有2項臨床試驗與13篇文獻均無法提供Bexarotene用於原發性皮膚B細胞淋巴瘤的直接證據，機轉關聯性也僅屬假說層級（B細胞與T細胞淋巴瘤致病路徑不同）。
-- 台灣Not marketed、無藥證，且安全性仿單資料為Blocking等級缺口，尚未具備進入S1安全性初評之條件。
+**Perustelut:**
+- Nykyiset 2 kliinistä tutkimusta ja 13 artikkelia eivät voi tarjota suoraa näyttöä bexaroteenin käytöstä primaarisen ihon B-solulymfooman hoitoon, mekanismin assosiaatio on myös vain hypoteesin tasolla (B- ja T-solulymfoomilla on eri sairauden kehittymisreitit).
+- Taiwanissa Not marketed, ei lääkkeen kelpoistusta, ja turvallisuuden pakkausselosteosiot ovat estävän tason tietoaukko, ei vielä täytä S1-turvallisuuden alustavan arvioinnin ehtoja.
 
-**若要推進，需要補齊：**
-- TFDA/原廠仿單警語與禁忌資料（DG001，Blocking）
-- DrugBank 完整MOA資料以確認RXR路徑與B細胞淋巴瘤致病機轉之關聯性（DG002，High）
-- 若欲驗證此假說，建議規劃以BCL2/NF-κB或CD20相關訊號路徑為切入之臨床前機轉研究，而非直接進入臨床試驗
+**Jos halutaan edetä, näitä on täytettävä:**
+- TFDA/valmistajan pakkausseloste-varoitukset ja kontraindikaatiot (DG001, estävä)
+- DrugBank:n täydellinen MOA-tieto RXR-polun ja B-solulymfooman sairauden mekanismin assosiaation varmistamiseksi (DG002, korkea)
+- Jos hypoteesin vahvistaminen halutaan, suositellaan kliinistä edeltävää mekanismikautta BCL2/NF-κB tai CD20-signaloinnin lähestymisellä sen sijaan, että suoraan siirtyminen kliinisiin tutkimuksiin
 
-**優先建議：** 資源應優先投入證據等級L1、已具Proceed with Guardrails建議之 **Sézary syndrome** 項目，而非本項證據薄弱的B細胞淋巴瘤預測。
+**Prioriteettiehdotus:** Resurssit olisi kohdennetava ensisijaisesti näytöntasoon L1, Proceed with Guardrails -suosituksen jo saaneeseen **Sézary-syndroomaan**, ei tähän heikosti todistetussa B-solulymfooman ennusteeseen.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

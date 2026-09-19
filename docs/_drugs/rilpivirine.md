@@ -29,88 +29,89 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Rilpivirine: From HIV-1 Infection to Congenital HIV (Mother-to-Child Transmission Prevention)
+# Rilpivirine: HIV-1-infektiosta synnynnäiseen HIV-tartuntaan (äidistä lapselle -siirtymisen ehkäisy)
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Rilpivirine (DB08864) is a non-nucleoside reverse transcriptase inhibitor (NNRTI) already used as part of oral and long-acting injectable (CAB LA/RPV LA) antiretroviral regimens for **HIV-1 infection**. This evidence pack's strongest TxGNN-predicted signal points to **congenital HIV (perinatal/mother-to-child transmission)**, supported by **28 clinical trials** (including multiple completed Phase 3 RCTs) and **5 publications** focused on pregnancy pharmacokinetics and safety. Four other candidate indications were also flagged by TxGNN in this pack but carry markedly weaker or non-human evidence (see note below).
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | HIV-1 infection (NNRTI-based antiretroviral therapy) — drawn from trial descriptions in this evidence pack; no formal MOA/indication record on file |
-| Predicted New Indication | Congenital human immunodeficiency virus (perinatal/vertical transmission prevention) |
-| TxGNN Prediction Score | 99.56% |
-| Evidence Level | L1 |
-| Market Status | Not marketed (0 authorizations on file) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+Rilpivirine (DB08864) on ei-nukleosidinen käänteisen transriptaasin inhibiittori (NNRTI), jota käytetään jo osana suun kautta otettavia ja pitkävaikutteisia injektiomuotoisia (CAB LA/RPV LA) antiretroviraalisia hoitolinjoja **HIV-1-infektiolle**. Tämän todistepaketin vahvin TxGNN-ennustettu signaali osoittaa **synnynnäiseen HIV-tartuntaan (perinataalinen/äidistä lapselle -siirtymisen ehkäisy)**, mitä tukevat **28 kliinistä tutkimusta** (mukaan lukien useita valmistuneita vaiheen 3 satunnaistettuja kontrolloituja tutkimuksia) ja **5 julkaisua**, jotka koskevat raskauden farmakokinettiikkaa ja turvallisuutta. TxGNN tunnisti neljä muuta ehdokasindikatiota myös tässä paketissa, mutta niillä on huomattavasti heikommat tai ei-ihmisillä tehdyt todisteet (katso huomautus alla).
 
 ---
 
-## Why is This Prediction Reasonable?
+## Pikayleiskatsaus
 
-Currently, no formal mechanism-of-action record exists in the drug-level fields for Rilpivirine (flagged as a data gap in this pack). However, the clinical trial and literature evidence gathered here consistently describes rilpivirine as an NNRTI that blocks HIV-1 reverse transcriptase, and it is a component of both oral regimens and the long-acting injectable cabotegravir/rilpivirine (CAB LA/RPV LA) regimen approved for HIV-1 infection.
-
-The core strategy for preventing vertical/perinatal HIV transmission is suppression of maternal viral load. Since rilpivirine directly blocks reverse transcriptase and interrupts viral replication, its mechanism maps directly onto congenital-HIV prevention — this is less a novel repurposing hypothesis and more a logical extension of its existing antiviral action into the pregnant/perinatal population. The main open questions are pharmacokinetic: literature in this pack shows rilpivirine plasma concentrations drop 70–75% during pregnancy with the long-acting injectable formulation, and fetal/infant safety data are still accumulating, which is why guardrails rather than an unqualified "Go" are warranted.
-
-**Note on other TxGNN-flagged candidates in this pack:** TxGNN also scored feline acquired immunodeficiency syndrome, simian immunodeficiency virus infection, and a rare neurodevelopmental disorder as high-probability matches. These were assessed as low-confidence: feline AIDS and SIV are non-human veterinary/primate-model indications outside the human repurposing scope (Hold / Research Question), and the neurodevelopmental disorder has no clinical trial or literature support at all and is flagged in the source rationale as a likely false-positive candidate (Hold). "AIDS related complex" (rank 4) scored similarly to congenital HIV but is essentially the same underlying HIV-1 indication under an older staging term, so it is not treated as a distinct repurposing opportunity here.
+| Kohta | Sisältö |
+|------|--------|
+| Alkuperäinen indikaatio | HIV-1-infektio (NNRTI-pohjainen antiretroviraalinen hoito) — poimittu tämän todistepaketin tutkimuskuvailusta; virallista MOA/indikaatiota ei ole tiedossa |
+| Ennustettu uusi indikaatio | Synnynnäinen ihmisen immuunikatoviruksen tartunta (perinataalinen/pystysuora siirtymisen ehkäisy) |
+| TxGNN-ennusteyhtälö | 99.56% |
+| Todistusaste | L1 |
+| Markkinointiasema | Ei markkinoitu (0 valtuutusta tiedossa) |
+| Valtuuksien lukumäärä | 0 |
+| Suositeltu päätös | Jatka varautumisjärjestelmillä |
 
 ---
 
-## Clinical Trial Evidence
+## Miksi tämä ennuste on järkevä?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Tällä hetkellä lääkkeen tasolla ei ole muodollista vaikutusmekanismin kirjausta rilpivirinille (merkitty tietovajaeeksi tässä paketissa). Kuitenkin tässä koottu kliininen tutkimus- ja kirjallisuusaineisto kuvaa johdonmukaisesti rilpivirinia NNRTI:na, joka estää HIV-1:n käänteisen transriptaasin, ja se on komponentti sekä suun kautta otettavissa hoitolinjissa että pitkävaikutteisessa cabotegravir/rilpivirine (CAB LA/RPV LA) hoitolinjassa, joka on hyväksytty HIV-1-infektioon.
+
+Perinataaliselle/vertikaaliselle HIV-siirtymisen ehkäisystrategialle oleellista on äidin viruskuorman suppressio. Koska rilpivirine estää suoraan käänteistä transriptaasia ja keskeyttää viraalisen replikaation, sen mekanismi kartoittaa suoraan synnynnäisen HIV:n ehkäisyyn — tämä on vähemmän uusi uudelleenkäyttöhypoteesi kuin looginen jatke sen olemassa olevasta antiviraalista toiminnasta raskauden/perinataalisen väestön pariin. Pääkysymykset ovat farmakokineettisiä: tämän paketin kirjallisuus osoittaa rilpivirinin plasman konsentraatioiden laskevan 70–75 % raskauden aikana pitkävaikutteisen injektiotoimitumuodon kanssa, ja sikiön/imeväisen turvallisuusdata kertyvät edelleen, jonka vuoksi varautumisjärjestelmät eikä ehdoton "Jatka" ovat perusteltuja.
+
+**Huomautus muista TxGNN:n tunnistetuista ehdokkaista tässä paketissa:** TxGNN arvioi myös kissalle hankitun immuunikatolaukaisen, apinoiden immuunikatolaukaisen infektioiden ja harvinaiseen neuroevolutionaariseen häiriöön liittyen korkean todennäköisyyden osumiksi. Nämä arvioitiin matalaksi luotettavuudeksi: kissojen AIDS ja SIV ovat ei-ihmisiin veterinaarisia/primaattimallintutkimuksia, jotka eivät kuulu ihmisten uudelleenkäyttöohjelmaan (Pidä kiinni / Tutkimuskysymys), ja neuroevoluutionaarisen häiriön taakse ei ole kliinisiä tutkimuksia tai kirjallisuustutkimuksia, ja se on merkitty lähteen perusteluna todennäköiseksi väärä-positiiviseksi ehdokkaaksi (Pidä kiinni). "AIDS-siihen liittyvä kompleksi" (sijoitus 4) arvioi samanlaisen todennäköisyyden kuin synnynnäinen HIV mutta on oleellisesti sama taustalla oleva HIV-1-indikaatio vanhemmalla nimen antamisen termillä, joten sitä ei käsitellä erillisenä uudelleenkäyttömahdollisuutena tässä.
+
+---
+
+## Kliinisen tutkimuksen todisteet
+
+| Tutkimusnumero | Vaihe | Tila | Rekrytointi | Tärkeimmät havainnot |
 |---------|------|------|------|---------|
-| [NCT02951052](https://clinicaltrials.gov/study/NCT02951052) | Phase 3 | Active, not recruiting | 618 | ATLAS study — switching virologically suppressed HIV-1 adults to long-acting IM cabotegravir + rilpivirine |
-| [NCT05896748](https://clinicaltrials.gov/study/NCT05896748) | Phase 3 | Completed | 94 | FLAIR sub-study comparing subcutaneous vs. intramuscular administration of CAB/RPV long-acting injections |
-| [NCT01266902](https://clinicaltrials.gov/study/NCT01266902) | Phase 3 | Completed | 482 | TMC278 (rilpivirine) 25 mg qd continued-access study — pivotal registration-supporting trial |
-| [NCT00855335](https://clinicaltrials.gov/study/NCT00855335) | Phase 3 | Completed | 77 | Pharmacokinetics of darunavir, etravirine, and rilpivirine specifically in HIV-1 infected **pregnant women** |
-| [NCT00042289](https://clinicaltrials.gov/study/NCT00042289) | N/A (Phase 4) | Completed | 1578 | IMPAACT P1026s — pharmacokinetics of antiretrovirals and TB drugs during **pregnancy and postpartum** |
-| [NCT03497676](https://clinicaltrials.gov/study/NCT03497676) | Phase 1/2 | Completed | 168 | Safety, tolerability and PK of oral/long-acting CAB and long-acting rilpivirine in HIV-infected **children and adolescents** |
-| [NCT02494986](https://clinicaltrials.gov/study/NCT02494986) | Phase 2 | Active, not recruiting | 48 | Continued-access rollover study of rilpivirine in participants from **pediatric** rilpivirine studies |
-| [NCT07412977](https://clinicaltrials.gov/study/NCT07412977) | N/A | Not yet recruiting | 5160 | VIROPREG — French prospective cohort assessing viral infections (incl. HIV) and antiviral treatment impact during **pregnancy** on maternal/child health |
-| [NCT02938520](https://clinicaltrials.gov/study/NCT02938520) | Phase 3 | Active, not recruiting | 631 | FLAIR — long-acting IM cabotegravir + rilpivirine maintenance after switch from an integrase-inhibitor regimen |
-| [NCT03299049](https://clinicaltrials.gov/study/NCT03299049) | Phase 3 | Active, not recruiting | 1049 | ATLAS-2M — long-acting CAB + RPV dosed every 8 vs. every 4 weeks |
+| [NCT02951052](https://clinicaltrials.gov/study/NCT02951052) | Vaihe 3 | Aktiivinen, ei rekrytoida | 618 | ATLAS-tutkimus — virologisesti suppressoidut HIV-1-aikuiset siirtyvät pitkävaikutteiseen IM cabotegravir + rilpivirineen |
+| [NCT05896748](https://clinicaltrials.gov/study/NCT05896748) | Vaihe 3 | Valmis | 94 | FLAIR-alatutkimus, jossa verrataan CAB/RPV pitkävaikutteisten injektioiden subkutaanista vs. intramuskulaarista antamista |
+| [NCT01266902](https://clinicaltrials.gov/study/NCT01266902) | Vaihe 3 | Valmis | 482 | TMC278 (rilpivirine) 25 mg qd jatkuva pääsy -tutkimus — keskeinen rekisteröintiä tukeva tutkimus |
+| [NCT00855335](https://clinicaltrials.gov/study/NCT00855335) | Vaihe 3 | Valmis | 77 | Darunaviirin, etraivirinin ja rilpivirinin farmakokinetiikka HIV-1-infektoiduissa **raskaissa naisissa** |
+| [NCT00042289](https://clinicaltrials.gov/study/NCT00042289) | N/A (Vaihe 4) | Valmis | 1578 | IMPAACT P1026s — antiretroviraalisen ja TB-lääkkeen farmakokinetiikka **raskauden ja synnytyksen jälkeisen ajan** aikana |
+| [NCT03497676](https://clinicaltrials.gov/study/NCT03497676) | Vaihe 1/2 | Valmis | 168 | Suun kautta otettavan ja pitkävaikutteisen CAB:n ja pitkävaikutteisen rilpivirinin turvallisuus, siedettävyys ja PK HIV-infektoiduissa **lapsissa ja nuorissa** |
+| [NCT02494986](https://clinicaltrials.gov/study/NCT02494986) | Vaihe 2 | Aktiivinen, ei rekrytoida | 48 | Jatkuva pääsy -rollover tutkimus rilpiviriniin osallistujista **pediatrisista** rilpiviriinan tutkimuksista |
+| [NCT07412977](https://clinicaltrials.gov/study/NCT07412977) | N/A | Ei vielä rekrytoida | 5160 | VIROPREG — ranskalainen prospektiivinen kohortti, joka arvioi virusinfektioita (mukaan lukien HIV) ja antiviraalisen hoidon vaikutusta **raskauden** aikana äidin/lapsen terveydentilaan |
+| [NCT02938520](https://clinicaltrials.gov/study/NCT02938520) | Vaihe 3 | Aktiivinen, ei rekrytoida | 631 | FLAIR — pitkävaikutteinen IM cabotegravir + rilpivirine ylläpitohoito siirtymisen jälkeen integraasin inhibiittori -hoitolinjasta |
+| [NCT03299049](https://clinicaltrials.gov/study/NCT03299049) | Vaihe 3 | Aktiivinen, ei rekrytoida | 1049 | ATLAS-2M — pitkävaikutteinen CAB + RPV annettava 8 vs. 4 viikon välein |
 
-*18 additional trials in this pack were not included above; full list available in the source evidence file.*
+*Tässä paketissa oli 18 muuta tutkimusta, joita ei ole sisällytetty edellä; täydellinen luettelo saatavilla lähteen todistepakettisessa.*
 
 ---
 
-## Literature Evidence
+## Kirjallisuuden todisteet
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät havainnot |
 |------|-----|------|------|---------|
-| [41225339](https://pubmed.ncbi.nlm.nih.gov/41225339/) | 2025 | Systematic Review/Meta-analysis | BMC Infectious Diseases | Safety of cabotegravir (co-administered with rilpivirine) in pregnancy |
-| [36411596](https://pubmed.ncbi.nlm.nih.gov/36411596/) | 2023 | Cohort/PK study | HIV Medicine | Pregnancy outcomes and PK in women exposed to long-acting cabotegravir + rilpivirine in clinical trials |
-| [38864586](https://pubmed.ncbi.nlm.nih.gov/38864586/) | 2024 | Cohort | AIDS (London, England) | First-trimester exposure to newer antiretrovirals (incl. rilpivirine) and congenital anomalies in a US cohort |
-| [38703388](https://pubmed.ncbi.nlm.nih.gov/38703388/) | 2024 | Case Report | Clinical Infectious Diseases | Long-acting CAB/RPV in a pregnant woman with HIV — RPV levels 70–75% lower during pregnancy, no vertical transmission or malformation |
-| [41268510](https://pubmed.ncbi.nlm.nih.gov/41268510/) | 2025 | Case Report | Case Reports in Infectious Diseases | Long-acting CAB/RPV maintained viral suppression throughout pregnancy; literature review |
+| [41225339](https://pubmed.ncbi.nlm.nih.gov/41225339/) | 2025 | Järjestelmällinen katsaus/meta-analyysi | BMC Infectious Diseases | Cabotegrravirin turvallisuus (yhdessä rilpivirinin kanssa) raskauden aikana |
+| [36411596](https://pubmed.ncbi.nlm.nih.gov/36411596/) | 2023 | Kohortti/PK tutkimus | HIV Medicine | Raskauden tulokset ja PK naisilla, jotka olivat altistuneet pitkävaikutteiselle cabotegravir + rilpivirinelle kliinisissä tutkimuksissa |
+| [38864586](https://pubmed.ncbi.nlm.nih.gov/38864586/) | 2024 | Kohortti | AIDS (London, England) | Ensimmäisen kolmanneksen altistuminen uudempia antiretroviraalisia (mukaan lukien rilpivirine) ja synnynnäisten epämuodostumien kanssa Yhdysvaltojen kohortissa |
+| [38703388](https://pubmed.ncbi.nlm.nih.gov/38703388/) | 2024 | Tapausselostus | Clinical Infectious Diseases | Pitkävaikutteinen CAB/RPV raskaassa olevassa HIV-infektoidussa naisessa — RPV-tasot 70–75 % alhaisemmat raskauden aikana, ei pystysuoraa siirtymää tai epämuodostumaa |
+| [41268510](https://pubmed.ncbi.nlm.nih.gov/41268510/) | 2025 | Tapausselostus | Case Reports in Infectious Diseases | Pitkävaikutteinen CAB/RPV säilytti viruksettoman suppressio koko raskauden ajan; kirjallisuuskatsaus |
 
 ---
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information.
+Katso pakkausesite turvallisuusohjeita varten.
 
 ---
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Proceed with Guardrails**
+**Päätös: Jatka varautumisjärjestelmillä**
 
-**Rationale:**
-Multiple completed Phase 3 RCTs establish rilpivirine's efficacy and safety as part of oral and long-acting antiretroviral regimens (L1 evidence), and an emerging body of pregnancy-specific PK, cohort, and case-report data supports its mechanistic applicability to congenital HIV prevention. However, long-acting rilpivirine shows markedly reduced plasma exposure during pregnancy and remains an off-label use in this population, so guardrails around monitoring and dosing are warranted rather than an unqualified proceed.
+**Perustelut:**
+Useita valmistuneita vaiheen 3 satunnaistettuja kontrolloituja tutkimuksia osoittavat rilpivirinin tehokkuuden ja turvallisuuden osana suun kautta otettavia ja pitkävaikutteisia antiretroviraalisia hoitolinjoja (L1-todiste), ja nouseva joukko raskauden-spesifisiä PK-, kohortti- ja tapausselostustietoja tukee sen mekanistista soveltuvuutta synnynnäisen HIV:n ehkäisyyn. Kuitenkin pitkävaikutteinen rilpivirine osoittaa huomattavasti pienentyneet plasman ekspositiot raskauden aikana ja pysyy off-label käyttönä tässä väestössä, joten varautumisjärjestelmät seurannan ja annostelun ympärillä ovat perusteltuja kuin ehdoton jatka.
 
-**To proceed, the following is needed:**
-- TFDA/local package insert warnings and contraindications (currently a blocking data gap, DG001)
-- Formal mechanism-of-action documentation at the drug level (DG002)
-- Drug-drug interaction profile (current DDI query returned no results)
-- Completion and grading of the 18 remaining, currently ungraded clinical trials in this evidence set
-- A dedicated maternal/fetal safety and dosing evaluation before recommending long-acting RPV in pregnant populations
+**Jatkaaksesi, seuraavaa tarvitaan:**
+- TFDA/paikallinen pakkausesite varoitukset ja vasta-aiheet (tällä hetkellä estävä tietoväli, DG001)
+- Muodollinen vaikutusmekanismin dokumentointi lääkkeiden tasolla (DG002)
+- Lääkkeiden väliset yhteisvaikutukset -profiili (nykyinen DDI-kysely ei palauttanut tuloksia)
+- 18 jäljellä olevan, tällä hetkellä arvioimattoman kliinisen tutkimuksen suorittaminen ja arvioiminen tässä todistejoukoissa
+- Omistettu äitiyden/sikiön turvallisuuden ja annostelun arvioiminen ennen pitkävaikutteisen RPV suosittelua raskaassa olevilla väestöillä
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

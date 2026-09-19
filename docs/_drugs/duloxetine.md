@@ -29,108 +29,109 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Duloxetine: From Depression/Anxiety Disorders to Obsessive-Compulsive Disorder
+# Duloksetiini: masennuksesta/ahdistuneisuushäiriöistä pakko-oireiseen häiriöön
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Duloxetine is a serotonin-norepinephrine reuptake inhibitor (SNRI); formal original-indication records in this evidence pack are unavailable, but literature within the pack confirms established use in major depressive disorder, generalized anxiety disorder, diabetic peripheral neuropathic pain, fibromyalgia, and chronic musculoskeletal pain (PMID 31749717). Among 10 TxGNN-predicted indications reviewed, **Obsessive-Compulsive Disorder (OCD)** is the only candidate with meaningful clinical and literature support — **5 clinical trials** (including a completed Phase 4 efficacy trial and a double-blind RCT on augmentation) and **20 publications** — while the other 9 candidates (including the top-ranked TxGNN score) lack any supporting evidence and are held.
+Duloksetiini on serotoniinin ja norepinefriinin jälleenottohäiriön estäjä (SNRI); virallisia alkuperäisen indikaation tietueita ei ole saatavilla tässä näytöpaketissa, mutta paketin kirjallisuus vahvistaa vakiintuvan käytön masennuksen pääepisodissa, yleisen ahdistuneisuushäiriön, diabeettisen perifeerisen neuropaattisen kivun, fibromialgian ja kroonisen tuki- ja liikuntaelinkivun hoidossa (PMID 31749717). Kymmenestä TxGNN-ennustetusta indikaatiosta arvioitavaksi otetuista **pakko-oireinen häiriö (OCD)** on ainoa ehdokas, jolla on merkityksellinen kliininen ja kirjallisuustuki — **5 kliinistä tutkimusta** (sisältäen valmistuneen vaiheen 4 tehokkuustutkimuksen ja kaksoissokkoutetun satunnaistetun vertailututkimuksen täydennyshoidosta) ja **20 julkaisua** — kun taas muilla 9 ehdokkaalla (mukaan lukien huippurankattu TxGNN-pisteytys) ei ole mitään tukevia näyttöjä ja ne on pantu odottamaan.
 
 ---
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Not formally recorded (data gap); per in-pack literature, duloxetine (SNRI) is established for major depressive disorder, generalized anxiety disorder, diabetic peripheral neuropathic pain, fibromyalgia, and chronic musculoskeletal pain (PMID 31749717) |
-| Predicted New Indication | Obsessive-Compulsive Disorder (OCD) |
-| TxGNN Prediction Score | 99.84% (rank 2195) |
-| Evidence Level | L2 |
-| Finland Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Alkuperäinen indikaatio | Ei ole virallisesti kirjattu (tietoaukko); paketin kirjallisuuden mukaan duloksetiini (SNRI) on vakiintunut masennuksen pääepisodissa, yleisessä ahdistuneisuushäiriössä, diabeettisen perifeerisen neuropaattisen kivun, fibromialgian ja kroonisen tuki- ja liikuntaelinkivun hoidossa (PMID 31749717) |
+| Ennustettu uusi indikaatio | Pakko-oireinen häiriö (OCD) |
+| TxGNN-ennusteen pisteytys | 99,84 % (sijoitus 2195) |
+| Näyttötaso | L2 |
+| Suomen markkina-asema | Ei markkinoilla (Ei markkinoilla) |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Jatka varauksilla |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on kohtuullinen?
 
-Detailed formal mechanism-of-action documentation is not available in this evidence pack (data gap). Based on known information, duloxetine is a dual serotonin-norepinephrine reuptake inhibitor (SNRI), and its efficacy in depression and anxiety-spectrum disorders is well established.
+Yksityiskohtaista virallista vaikutusmekanismin dokumentaatiota ei ole saatavilla tässä näytöpaketissa (tietoaukko). Saatavilla olevan tiedon perusteella duloksetiini on dual-serotoniinin ja norepinefriinin jälleenottohäiriön estäjä (SNRI), ja sen tehokkuus masennuksen ja ahdistuneisuusspektrin häiriöiden hoidossa on hyvin vakiintunutta.
 
-OCD's pathophysiology is closely linked to serotonergic dysregulation within the cortico-striato-thalamo-cortical circuit. SSRIs are already first-line pharmacotherapy for OCD, and SNRIs such as venlafaxine have documented use as alternatives in treatment-resistant cases. Duloxetine's serotonergic and noradrenergic reuptake inhibition therefore has a biologically plausible extension into OCD, particularly as an augmentation strategy in patients who do not fully respond to SSRIs.
+OCD:n patofysiologia on tiiviisti sidoksissa serotoniiniergisen häiriöintiin kortiko-striato-talamo-kortikaalisen piirin sisällä. SSRI:t ovat jo ensimmäisen linjan farmakoterapiaa OCD:lle, ja SNRI:t kuten venlafaksiini ovat dokumentoitujen käyttöä vaihtoehtoina hoitoon reagoimattomissa tapauksissa. Duloksetiinin serotoniinergiset ja noradrenergisen jälleenottohäiriön estäminen on siksi biologisesti uskottava laajennus OCD:hen, erityisesti täydennyshoidon strategiana potilaissa, jotka eivät vastaa riittävästi SSRI-hoitoon.
 
-This mechanistic plausibility is reinforced by a directly relevant completed Phase 4 trial and a double-blind RCT on duloxetine augmentation in resistant OCD (see below), which together elevate this candidate from a pure model prediction (L5) to L2 evidence — the strongest-supported candidate among all 10 TxGNN predictions reviewed for this drug.
+Tätä mekanistista uskottavuutta vahvistaa suoraan relevantti valmistunut vaiheen 4 tutkimus ja kaksoissokkoutettu satunnaistettu vertailututkimus duloksetiinin käytöstä täydennyshoidossa resistenttiin OCD:hen (katso alla), jotka yhdessä nostavat tämän ehdokkaan puhtaasta malli-ennusteesta (L5) L2-näyttötasolle — vahvimmin tuettu ehdokas kaikkien 10 TxGNN-ennusteen joukosta, jotka on arvioitu tälle lääkkeelle.
 
 ---
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimusnumero | Vaihe | Tila | Osallistujamäärä | Keskeiset tulokset |
 |---------|------|------|------|---------|
-| [NCT00464698](https://clinicaltrials.gov/study/NCT00464698) | Phase 4 | Completed | 20 | Directly assesses duloxetine's efficacy in treating OCD; most relevant trial (relevance grade A). |
-| [NCT01404871](https://clinicaltrials.gov/study/NCT01404871) | N/A | Completed | 26 | Compares clomipramine, escitalopram, and duloxetine to predict individual medication response in OCD (grade B). |
-| [NCT02476136](https://clinicaltrials.gov/study/NCT02476136) | N/A | Unknown | 8,800 | Individual-patient-data meta-analysis of antidepressant efficacy across anxiety disorders (including OCD) by baseline severity (grade B). |
-| [NCT01944657](https://clinicaltrials.gov/study/NCT01944657) | N/A | Withdrawn | 0 | TMS vs. medication monotherapy for major depression; withdrawn (N=0), low relevance to OCD (grade C). |
-| [NCT05930912](https://clinicaltrials.gov/study/NCT05930912) | N/A | Unknown | 1 | Psychoanalytic case study in ASD with comorbid OCD; single-subject, low relevance (grade C). |
+| [NCT00464698](https://clinicaltrials.gov/study/NCT00464698) | Vaihe 4 | Valmistunut | 20 | Arvioi suoraan duloksetiinin tehokkuutta OCD:n hoidossa; relevantein tutkimus (relevanssiluokka A). |
+| [NCT01404871](https://clinicaltrials.gov/study/NCT01404871) | N/A | Valmistunut | 26 | Vertaa klomipramiinia, esitalopraamia ja dulokseteinia OCD:n yksittäisen lääkkeen vastausennusteen ennustamiseksi (luokka B). |
+| [NCT02476136](https://clinicaltrials.gov/study/NCT02476136) | N/A | Tuntematon | 8 800 | Yksilökohtaisten potilaiden data -metaanalyysi antidepressanttien tehokkuudesta ahdistuneisuushäiriöissä (mukaan lukien OCD) lähtötason vakavuuden mukaan (luokka B). |
+| [NCT01944657](https://clinicaltrials.gov/study/NCT01944657) | N/A | Peruttu | 0 | TMS vs. lääkkeen monoterapia masennuksen pääepisodissa; peruttu (N=0), alhainen relevantssi OCD:hen (luokka C). |
+| [NCT05930912](https://clinicaltrials.gov/study/NCT05930912) | N/A | Tuntematon | 1 | Psykoanalyyttinen tapaustutkimus autismikirjon häiriössä, johon liittyy OCD; yksittäistapaus, alhainen relevantssi (luokka C). |
 
 ---
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset tulokset |
 |------|-----|------|------|---------|
-| [27811556](https://pubmed.ncbi.nlm.nih.gov/27811556/) | 2016 | RCT | J Clin Psychopharmacol | Double-blind controlled trial evaluating duloxetine augmentation in treatment-resistant OCD. |
-| [25637377](https://pubmed.ncbi.nlm.nih.gov/25637377/) | 2015 | Open-label | Int J Neuropsychopharmacol | Open-label study investigating duloxetine efficacy for OCD (DSM-IV). |
-| [28477500](https://pubmed.ncbi.nlm.nih.gov/28477500/) | 2017 | Review/Meta-analysis | J Affect Disord | Meta-analysis showing OCD has a reduced placebo and antidepressant response vs. other anxiety disorders. |
-| [32982805](https://pubmed.ncbi.nlm.nih.gov/32982805/) | 2020 | Review | Front Psychiatry | Meta-review of antidepressant efficacy, tolerability, and suicidality in children/adolescents, covering OCD. |
-| [31749717](https://pubmed.ncbi.nlm.nih.gov/31749717/) | 2019 | Review | Front Psychiatry | Systematic review of duloxetine use across psychiatric disorders beyond depression/GAD, including OCD. |
-| [24766145](https://pubmed.ncbi.nlm.nih.gov/24766145/) | 2014 | Review | Expert Opin Pharmacother | Updated review of serotonergic antidepressants (including duloxetine) in OCD treatment. |
-| [16669725](https://pubmed.ncbi.nlm.nih.gov/16669725/) | 2006 | Review | J Clin Psychiatry | Critical review of SNRIs (venlafaxine, clomipramine) as alternatives to SSRIs in OCD. |
-| [39583807](https://pubmed.ncbi.nlm.nih.gov/39583807/) | 2024 | Review | Heliyon | Machine-learning classification of OCD medication response patterns. |
-| [39735048](https://pubmed.ncbi.nlm.nih.gov/39735048/) | 2024 | Case report | Cureus | Supratherapeutic duloxetine combined with CBT in severe treatment-resistant OCD with comorbid depression. |
-| [22567604](https://pubmed.ncbi.nlm.nih.gov/22567604/) | 2012 | Case report | Innov Clin Neurosci | Suprathreshold duloxetine used for treatment-resistant depression, binge-purging anorexia, and OCD. |
+| [27811556](https://pubmed.ncbi.nlm.nih.gov/27811556/) | 2016 | RCT | J Clin Psychopharmacol | Kaksoissokkoutettu kontrollitutkimus arvioimassa duloksetiinin täydennyshoitoa hoitoon reagoimattomassa OCD:ssä. |
+| [25637377](https://pubmed.ncbi.nlm.nih.gov/25637377/) | 2015 | Avoin merkintä | Int J Neuropsychopharmacol | Avoin tutkimus tutkimassa duloksetiinin tehokkuutta OCD:ssa (DSM-IV). |
+| [28477500](https://pubmed.ncbi.nlm.nih.gov/28477500/) | 2017 | Katsaus/metaanalyysi | J Affect Disord | Metaanalyysi osoittaa, että OCD:ssä on vähentynyt plaseboon ja antidepressantteihin vastaus verrattuna muihin ahdistuneisuushäiriöihin. |
+| [32982805](https://pubmed.ncbi.nlm.nih.gov/32982805/) | 2020 | Katsaus | Front Psychiatry | Metakatsaus antidepressanttien tehokkuudesta, siedettävyydestä ja itsemurhaisuudesta lapsilla/nuorilla, sisältäen OCD:n. |
+| [31749717](https://pubmed.ncbi.nlm.nih.gov/31749717/) | 2019 | Katsaus | Front Psychiatry | Järjestelmällinen katsaus duloksetiinin käytöstä psykiatrisissa häiriöissä masennuksen/GAD:n ulkopuolella, sisältäen OCD:n. |
+| [24766145](https://pubmed.ncbi.nlm.nih.gov/24766145/) | 2014 | Katsaus | Expert Opin Pharmacother | Päivitetty katsaus serotoniinergiisiin antidepressantteihin (sisältäen duloksetiini) OCD:n hoidossa. |
+| [16669725](https://pubmed.ncbi.nlm.nih.gov/16669725/) | 2006 | Katsaus | J Clin Psychiatry | Kriittinen katsaus SNRI:ihin (venlafaksiini, klomipramiini) vaihtoehtona SSRI:ille OCD:ssa. |
+| [39583807](https://pubmed.ncbi.nlm.nih.gov/39583807/) | 2024 | Katsaus | Heliyon | Koneoppimisen OCD-lääkkeen vasteen mallien luokittelu. |
+| [39735048](https://pubmed.ncbi.nlm.nih.gov/39735048/) | 2024 | Tapausraportti | Cureus | Ylisuboptimaalinen duloksetiini yhdistetty kognitiivis-behavioraaliseen terapiaan vakavassa hoitoon reagoimattomassa OCD:ssä, johon liittyy masennus. |
+| [22567604](https://pubmed.ncbi.nlm.nih.gov/22567604/) | 2012 | Tapausraportti | Innov Clin Neurosci | Kynnysarvon ylittävä duloksetiini käytetty hoitoon reagoimattomassa masennuksessa, ahmivassa-oksentavassa anoreksianervosassa ja OCD:ssä. |
 
 ---
 
-## Finland Market Information
+## Suomen markkina-asema
 
-Duloxetine currently has **no marketing authorization on record** in Finland (0 authorizations; market status: Not marketed/not marketed). No product/dosage-form data is available to tabulate.
+Dulokseteiinil ei tällä hetkellä ole markkinointilupaa kirjattu Suomeen (0 lupaa; markkina-asema: Ei markkinoilla/ei markkinoilla). Tuotteen/annosmuodon tietoja ei ole saatavilla taulukointia varten.
 
 ---
 
-## Other TxGNN Predictions Reviewed (Not Prioritized)
+## Muut arvioidut TxGNN-ennusteet (ei priorisoitu)
 
-| Disease | TxGNN Score | Evidence Level | Decision | Reason |
+| Sairaus | TxGNN-pisteytys | Näyttötaso | Päätös | Syy |
 |---------|------------|-----------------|----------|--------|
-| Benign paroxysmal torticollis of infancy | 99.85% | L5 | Hold | No mechanistic link, no pediatric safety data, no trials/literature — likely model noise. |
-| Agoraphobia | 99.84% | L3 | Research Question | Literature exists for panic disorder generally, but no agoraphobia-specific trial evidence. |
-| Paranoid personality disorder | 99.78% | L5 | Hold | No mechanistic basis (personality structure, not monoamine pathology); no evidence. |
-| Schizotypal personality disorder | 99.78% | L5 | Hold | Same as above. |
-| Histrionic personality disorder | 99.78% | L5 | Hold | Same as above. |
-| Schizoid personality disorder | 99.78% | L5 | Hold | Same as above. |
-| Ohdo syndrome and variants | 99.69% | L5 | Hold | Rare genetic syndrome (KAT6A/KAT6B); no pharmacological relevance. |
-| Ligneous conjunctivitis | 99.66% | L5 | Hold | Rare plasminogen-deficiency eye disease; no pharmacological relevance. |
-| Blepharophimosis–intellectual disability syndrome (Ohdo type) | 99.60% | L5 | Hold | Rare genetic syndrome; no pharmacological relevance. |
+| Hyvänlaatuinen paroksysmaalinen tortikolis vauvoilla | 99,85 % | L5 | Odota | Ei mekanistista yhteyttä, ei pediatrista turvallisuustietoa, ei tutkimuksia/kirjallisuutta — todennäköisesti mallin kohina. |
+| Agorafoobia | 99,84 % | L3 | Tutkimuskysymys | Kirjallisuus on olemassa paniikkihäiriöstä yleensä, mutta ei agorafobia-spesifistä tutkimusnäyttöä. |
+| Paranoidinen persoonallisuushäiriö | 99,78 % | L5 | Odota | Ei mekanistista perustaa (persoonallisuusrakenne, ei monoamiinien pattologia); ei näyttöä. |
+| Skitsotyyppinen persoonallisuushäiriö | 99,78 % | L5 | Odota | Sama kuin yllä. |
+| Historiaalinen persoonallisuushäiriö | 99,78 % | L5 | Odota | Sama kuin yllä. |
+| Skitsoidinen persoonallisuushäiriö | 99,78 % | L5 | Odota | Sama kuin yllä. |
+| Ohdoyn oireyhtymä ja variantit | 99,69 % | L5 | Odota | Harvinainen geneettinen oireyhtymä (KAT6A/KAT6B); ei farmakologista relevanssia. |
+| Ligneous-sidekalvotulehdus | 99,66 % | L5 | Odota | Harvinainen plasminogeeni-puutoksesta johtuva silmän sairaus; ei farmakologista relevanssia. |
+| Silmäluomien fimoosi-älyllinen vammaisuus -oireyhtymä (Ohdoyn tyyppi) | 99,60 % | L5 | Odota | Harvinainen geneettinen oireyhtymä; ei farmakologista relevanssia. |
 
 ---
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information.
+Turvallisuustiedot löytyvät pakkausselosteesta.
 
 ---
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Proceed with Guardrails**
+**Päätös: Jatka varauksilla**
 
-**Rationale:**
-Among 10 TxGNN-predicted indications, OCD is the only one with converging supportive evidence — a completed Phase 4 efficacy trial, a double-blind RCT on augmentation therapy, and a serotonergic mechanistic rationale consistent with established OCD pharmacotherapy. However, trials are small-scale and largely positioned as augmentation rather than monotherapy, and duloxetine currently has no market authorization in Finland.
+**Perustelut:**
+Kymmenestä TxGNN-ennustetusta indikaatiosta OCD on ainoa, jolla on konvergoiva tukevan näytön — valmistunut vaiheen 4 tehokkuustutkimus, kaksoissokkoutettu satunnaistettu vertailututkimus täydennyshoidosta ja serotoniinergiset mekanistiset perustelut, jotka ovat johdonmukaisia vakiintuneen OCD-farmakoterapian kanssa. Tutkimukset ovat kuitenkin pienimittaisia ja pääasiassa sijoitettu täydennyshoitoon monoterapian sijaan, ja dulokseteiinil ei tällä hetkellä ole markkinointilupaa Suomessa.
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert with warnings, contraindications, and DDI data (currently a blocking data gap, DG001)
-- Confirmed mechanism-of-action documentation from DrugBank (DG002)
-- Larger controlled trials specifically evaluating duloxetine for OCD (as monotherapy or augmentation) beyond the existing N=20/N=26 studies
-- Finland-specific regulatory pathway assessment, given the drug is not currently marketed there
-- No further investment recommended for the remaining 9 predicted indications absent new trial or literature evidence
+**Jatkaakseen seuraavat tiedot ovat tarpeen:**
+- TFDA/Fimea pakkausseloste varoituksilla, vasta-aiheilla ja lääkkeiden välisiä interaktioita koskevilla tiedoilla (tällä hetkellä osittavana tietoaukkona DG001)
+- Vahvistettu vaikutusmekanismin dokumentaatio DrugBankista (DG002)
+- Suuremmat kontrolloidut tutkimukset, jotka arvioivat erityisesti dulokseteiinitä OCD:n hoitoon (monoterapiana tai täydennyshoitona) olemassa olevia N=20/N=26 tutkimuksia laajemmin
+- Suomi-spesifinen sääntelyteiden arviointi, koska lääkettä ei ole tällä hetkellä markkinoilla siellä
+- Ei enempää sijoitusta suositella jäljelle jääneille 9 ennustettujen indikaatioiden osalta ilman uusia tutkimus- tai kirjallisuusnäyttöjä
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -29,63 +29,64 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Varenicline: From Smoking Cessation to Migraine Disorder
+# Varenikliini: tupakoinnin lopettamisesta migreeniindikatioon
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Varenicline is a nicotinic acetylcholine receptor (nAChR) partial agonist originally developed and marketed for smoking cessation. The TxGNN model predicts it may be effective for **Migraine Disorder**, but this direction is currently supported by **0 clinical trials** and only **1 unrelated case report**, so the prediction remains speculative.
+Varenikliini on nikotiini-asetyylikoliini-reseptori (nAChR) -osittainen agonisti, joka on alun perin kehitetty ja markkinoitu tupakoinnin lopettamiseen. TxGNN-malli ennustaa, että se voi olla tehokas **migreeniindikatioon**, mutta tätä suuntaa tukee tällä hetkellä vain **0 kliinistä tutkimusta** ja vain **1 asiaan liittymätön tapauskertomus**, joten ennuste jää spekulatiiviseksi.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohde | Sisältö |
 |------|------|
-| Original Indication | Smoking Cessation (established use; not present in current regulatory dataset — see Data Gap below) |
-| Predicted New Indication | Migraine Disorder |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L5 |
-| Finland Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen indikaatio | Tupakoinnin lopettaminen (vakiintunut käyttö; ei ole läsnä nykyisessä säännösvälineistö-aineistossa — katso tietoaukko alla) |
+| Ennustettu uusi indikaatio | Migreeniindikatio |
+| TxGNN-ennustepisteet | 99.92% |
+| Näytön taso | L5 |
+| Suomen markkinan asema | Ei markkinoilla |
+| Lupien määrä | 0 |
+| Suositeltu päätös | Odota |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap). Based on known information, varenicline is a partial agonist at α4β2 nicotinic acetylcholine receptors and a full agonist at α7 nAChR, and its efficacy in smoking cessation is well established through decades of clinical use.
+Tällä hetkellä yksityiskohtaisia toimintamekanismin tietoja ei ole saatavilla (merkitty korkean vakavuuden tietoaukoksi). Saatavilla olevien tietojen perusteella varenikliini on osittainen agonisti α4β2-nikotiini-asetyylikoliini-reseptoreissa ja täysi agonisti α7 nAChR-reseptoreissa, ja sen tehokkuus tupakoinnin lopettamisessa on vakiintunut kymmenien vuosien kliinisen käytön perusteella.
 
-There is a theoretical overlap between nAChR signaling and the trigeminovascular pain pathway implicated in migraine, which is the basis for the TxGNN model's prediction. However, this remains a purely mechanistic hypothesis — no clinical trial or pharmacological study in this Evidence Pack directly tests varenicline for migraine.
+Teoreettinen päällekkäisyys nAChR-signaloinnin ja migreeniiniin liittyvän trigeminovanaskuraalisen kivun reitin välillä on TxGNN-mallin ennusteen perusta. Kuitenkin tämä on puhtaasti mekanistinen hypoteesi — mikään tämän näyttöpaketin kliininen tutkimus tai farmakologinen tutkimus ei suoraan testaa varenikliinia migreeniinä.
 
-Critically, the only literature retrieved for this indication (PMID 19585710) is a case report of **cardiac arrest associated with varenicline use**, an adverse-event record with no relevance to migraine efficacy. There is currently no clinical evidence — positive or negative — that varenicline treats migraine.
+Kriittisesti, ainoa tähän indikatioon haettu kirjallisuusviite (PMID 19585710) on tapauskertomus **varenikliinin käyttöön liittyvästä sydämen pysähtymisestä**, haittatapahtumien kirjaus, jolla ei ole yhteyttä migreenihoitoon. Tällä hetkellä ei ole kliinistä näyttöä — positiivista tai negatiivista — että varenikliini hoitaa migreeniä.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-Currently no related clinical trials registered.
+Tällä hetkellä ei ole liittyviä kliinisiä tutkimuksia rekisteröitynä.
 
-## Literature Evidence
+## Kirjallisuusnäyttö
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Julkaisu | Pääasiallisia löydöksiä |
 |------|-----|------|------|---------|
-| [19585710](https://pubmed.ncbi.nlm.nih.gov/19585710/) | 2009 | Case Report | Therapie | Case report of cardiac arrest associated with varenicline use; an adverse-event record, not efficacy evidence for migraine |
+| [19585710](https://pubmed.ncbi.nlm.nih.gov/19585710/) | 2009 | Tapauskertomus | Therapie | Tapauskertomus varenikliinin käyttöön liittyvästä sydämen pysähtymisestä; haittatapahtumien kirjaus, jolla ei ole yhteyttä migreenihoitoon |
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Varenicline currently has no marketing authorizations recorded in the Finland dataset (market status: Not Marketed; 0 licenses on file).
+Varenikliinilla ei tällä hetkellä ole markkinointilupauksia Suomen aineistossa (markkinan asema: Ei markkinoilla; 0 lupaa tiedostossa).
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information. (TFDA package insert warnings/contraindications and DDI data are flagged as outstanding — DDI query returned no results, and package insert parsing is a Blocking-severity data gap.)
+Turvakysymyksiin liittyvien tietojen osalta tulee katsoa pakkausselosteesta. (TFDA-pakkausselosteen varoitukset/vasta-aiheet ja DDI-tiedot on merkitty ratkaisemattomiksi — DDI-haku ei tuottanut tuloksia, ja pakkausselosteen analysointi on kriittinen tietoaukko.)
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Odota**
 
-**Rationale:**
-The only evidence tied to the Migraine Disorder prediction is an unrelated adverse-event case report (cardiac arrest), not an efficacy signal. Combined with the absence of MOA data and unresolved safety data gaps, there is insufficient basis to advance this indication.
+**Perustelu:**
+Ainoana todisteena migreeniindikation ennusteelle on asiaan liittymätön haittatapahtumien tapauskertomus (sydämen pysähtyminen), ei tehokkuussignaali. Yhdessä MOA-tietojen puuttumisen ja ratkaisemattomien turvallisuustietojen kanssa on riittämätön peruste edetä tässä indikatiossa.
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert (warnings, contraindications) — currently a Blocking data gap
-- Confirmed mechanism of action data from DrugBank — currently a High-severity data gap
-- Preclinical or mechanistic studies linking nAChR signaling to the trigeminovascular pain pathway
-- Any dedicated clinical trial or observational data on varenicline in migraine patients (none currently exist)
-- Note: rank-9 candidate "headache disorder" returned 5 trials and 14 publications, but nearly all concern smoking cessation, not headache treatment — this dataset should not be mistaken for supporting evidence for migraine
+**Jatkaakseen, seuraava on tarpeen:**
+- TFDA/Fimea-pakkausseloste (varoitukset, vasta-aiheet) — tällä hetkellä kriittinen tietoaukko
+- Vahvistettu toimintamekanismin tieto DrugBankista — tällä hetkellä korkean vakavuuden tietoaukko
+- Prekliiniset tai mekanistiset tutkimukset, jotka yhdistävät nAChR-signaloinnin trigeminovanaskuraaliseen kivun reititykseen
+- Kaikki varenikliiniin liittyvät kliiniset tutkimukset tai havaintointitutkimukset migreeni-potilaissa (mitään ei tällä hetkellä ole olemassa)
+- Huomio: sijoitus-9 ehdokas "päänsäryn häiriö" palautti 5 tutkimusta ja 14 julkaisua, mutta lähes kaikki koskevat tupakoinnin lopettamista, ei päänsäryn hoitoa — tätä aineistoa ei pidä sekoittaa migreeniä tukevan näytön kanssa
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

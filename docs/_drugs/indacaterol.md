@@ -29,77 +29,78 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Indacaterol: From Respiratory Bronchodilation to Nephrogenic Syndrome of Inappropriate Antidiuresis
+# Indakaterooli: Hengitysteiden bronkodilataatiosta nefrogeniseen sopimattoman antidiureesin oireyhtymään
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Indacaterol is a long-acting β2-adrenergic receptor agonist (LABA) bronchodilator used in respiratory disease (COPD/asthma), most commonly as part of fixed-dose combinations with glycopyrronium and/or mometasone. The TxGNN model's top-ranked prediction for this candidate pack is **Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD)**, but this ranks among the pack's ten predictions with **zero clinical trials and zero publications** supporting it, and the accompanying mechanistic review explicitly finds no plausible biological link.
+Indakaterooli on pitkävaikutteinen β2-adrenergisen reseptorin agonisti (LABA), jota käytetään hengitysteiden sairauksiin (COPD/astma) liittyvän lääkityksen osana, yleisimmin yhdistettynä glykopirroniinin ja/tai mometasoniinin kiinteisiin kombinaatioihin. TxGNN-mallin korkeimmin sijoittuva ennuste tälle ehdokaspaketille on **nefrogeninen sopimattoman antidiureesin oireyhtymä (NSIAD)**, mutta tämä sijoittuu pakkauksen kymmenen ennusteen joukkoon, joilla on **nolla kliinistä tutkimusta ja nolla julkaisua**, jotka tukisivat sitä, ja mukana oleva mekanistinen katsaus ei löydä mitään uskottavaa biologista yhteyttä.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Not formally on record (see note below); evidence pack confirms indacaterol acts as a LABA bronchodilator for respiratory disease |
-| Predicted New Indication | Nephrogenic Syndrome of Inappropriate Antidiuresis |
-| TxGNN Prediction Score | 99.54% |
-| Evidence Level | L5 |
-| Finland Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Ei muodollisesti dokumentoituna (ks. huomautus alla); näyttöpaketti vahvistaa, että indakaterooli vaikuttaa LABA-bronkodilataattorina hengitysteiden sairauksiin |
+| Ennustettu uusi indikaatio | Nefrogeninen sopimattoman antidiureesin oireyhtymä |
+| TxGNN-ennusteen pistemäärä | 99.54% |
+| Näyttötaso | L5 |
+| Suomen markkinatilanne | Ei markkinoilla |
+| Lupien määrä | 0 |
+| Suositeltu päätös | Pidätä |
 
-*Note: `taiwan_regulatory.licenses` is empty (drug not marketed in Finland), so no formal approved-indication text is available from that source.*
+*Huomautus: `taiwan_regulatory.licenses` on tyhjä (lääkettä ei ole markkinoilla Suomessa), joten virallista hyväksytyn indikaation tekstiä ei ole saatavilla kyseisestä lähteestä.*
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, detailed mechanism of action data is not available (data gap DG002). Based on information within this evidence pack, indacaterol is a long-acting β2-adrenergic receptor agonist that activates β2 receptors on bronchial smooth muscle, raising intracellular cAMP and producing bronchodilation — the established mechanism underlying its core respiratory use (see the "bronchial disease" candidate below, which is strongly evidence-backed but represents an already-known use rather than a novel repurposing signal).
+Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla (tietojen puutosvaatimus DG002). Tämän näyttöpaketin sisällä olevan tiedon perusteella indakaterooli on pitkävaikutteinen β2-adrenergisen reseptorin agonisti, joka aktivoi β2-reseptoreita keuhkoputkien sileiden lihasten pinnalla, nostaen solunsisäisen cAMP:n tasoa ja tuottaen bronkodilataatiota — vakiintunut mekanismi, joka on sen pääasiallisen hengitysteiden käytön taustalla (ks. alla oleva "keuhkoputkiston sairaus" -ehdokas, jolla on vahva näyttötuki mutta joka edustaa jo tunnettua käyttöä, ei uuden uudelleenkäytön mahdollisuutta).
 
-For the top-ranked candidate — Nephrogenic Syndrome of Inappropriate Antidiuresis — the evidence pack's own mechanistic review finds **no plausible link**: NSIAD results from activating mutations of the renal V2 vasopressin receptor, and its standard management (fluid restriction or vaptans/V2-receptor antagonists) operates through a pathway with no known interaction with β2-adrenergic signaling. The high TxGNN score therefore appears to reflect a graph-embedding similarity rather than a biologically grounded hypothesis, and no clinical trials, ICTRP records, or PubMed literature exist to corroborate it (query log entries #5–#7, all zero results).
+Korkeimmin sijoittuneelle ehdokkaalle — nefrogeniselle sopimattoman antidiureesin oireyhtymälle — näyttöpaketin oma mekanistinen katsaus ei löydä **mitään uskottavaa yhteyttä**: NSIAD johtuu munuaisen V2-vasopressiini-reseptorin aktivoivista mutaatioista, ja sen standardi hallinta (nesteen rajoittaminen tai vaptaanit/V2-reseptoriantagoniistit) toimii polulla, jolla ei ole tunnettua vuorovaikutusta β2-adrenergisen signaloinnin kanssa. Korkea TxGNN-pistemäärä näyttää siis heijastavan graafi-upotusten samankaltaisuutta biologisesti perustellun hypoteesin sijaan, eikä kliinisiä tutkimuksia, ICTRP-tietueita tai PubMed-kirjallisuutta ole olemassa sen perustelemiseksi (kyselylokin merkinnät #5–#7, kaikki nolla tuloksia).
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-Currently no related clinical trials registered.
+Tällä hetkellä ei ole olemassa asiaan liittyviä rekisteröityjä kliinisiä tutkimuksia.
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-Currently no related literature available.
+Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta.
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Indacaterol is not currently marketed in Finland — 0 authorizations are on record (`taiwan_regulatory.market_status`: Not marketed / Not Marketed).
+Indakateroolia ei ole tällä hetkellä markkinoilla Suomessa — 0 valtuutusta on rekisterissä (`taiwan_regulatory.market_status`: Ei markkinoilla / Not Marketed).
 
-## Safety Considerations
+## Turvallisuutta koskevat näkökohdat
 
-Please refer to the package insert for safety information. (TFDA package insert warnings/contraindications are flagged as a **Blocking** data gap — DG001 — pending retrieval and parsing before any S1 safety review can proceed.)
+Katso turvallisuustiedot pakkausselosteesta. (TFDA-pakkausselosteen varoitukset ja kontraindikaatiot on merkitty **estäväksi** aineistopuutokseksi — DG001 — odottamassa hakemista ja jäsentämistä, ennen kuin S1-turvallisuuskatsaus voidaan aloittaa.)
 
-## Other Predicted Indications in This Evidence Pack
+## Muut ennustetut indikaatiot tässä näyttöpaketissa
 
-This candidate pack (`TW-DB05039-multi`) contains 10 TxGNN predictions for indacaterol. For context, they are summarized below; only rank 7 currently has meaningful supporting evidence, and it reflects an already-established use (respiratory bronchodilation) rather than a new repurposing opportunity.
+Tämä ehdokaspaketti (`TW-DB05039-multi`) sisältää 10 TxGNN-ennustetta indakateroolille. Kontekstiksi ne on esitetty alla; vain sijoituksella 7 on tällä hetkellä merkitsevää tukea, ja se heijastaa jo vakiintunutta käyttöä (hengitysteiden bronkodilataatio) eikä uuden uudelleenkäytön mahdollisuutta.
 
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Recommendation |
-|------|----------------------|-------------|-----------------|-----------------|
-| 1 | Nephrogenic syndrome of inappropriate antidiuresis | 99.54% | L5 | Hold |
-| 2 | Headache disorder | 99.53% | L5 | Hold |
-| 3 | Trigeminal autonomic cephalalgia | 99.33% | L5 | Hold |
-| 4 | Paratenonitis | 99.26% | L5 | Hold |
-| 5 | Calcific tendinitis | 99.25% | L5 | Hold |
-| 6 | Hypertrichosis (disease) | 99.23% | L5 | Hold |
-| 7 | Bronchial disease | 99.18% | L1 | Proceed with Guardrails (known indication, not novel) |
-| 8 | Myositis | 99.12% | L5 | Hold |
-| 9 | Anaphylaxis | 99.07% | L4 | Hold |
-| 10 | Ambras type hypertrichosis universalis congenita | 99.06% | L5 | Hold |
+| Sijoitus | Ennustettu indikaatio | TxGNN-pistemäärä | Näyttötaso | Suositus |
+|----------|----------------------|-----------------|----------|----------|
+| 1 | Nefrogeninen sopimattoman antidiureesin oireyhtymä | 99.54% | L5 | Pidätä |
+| 2 | Päänsärkyoireyhtymä | 99.53% | L5 | Pidätä |
+| 3 | Kolmoissilmähermon autonominen kefalalgia | 99.33% | L5 | Pidätä |
+| 4 | Paratenonitis | 99.26% | L5 | Pidätä |
+| 5 | Kalsifioituva jänteiden tulehdus | 99.25% | L5 | Pidätä |
+| 6 | Hypertrikoosi (sairaus) | 99.23% | L5 | Pidätä |
+| 7 | Keuhkoputkiston sairaus | 99.18% | L1 | Jatka varauksin (tunnettu indikaatio, ei uutta) |
+| 8 | Myosiitti | 99.12% | L5 | Pidätä |
+| 9 | Anafilaksia | 99.07% | L4 | Pidätä |
+| 10 | Ambras-tyypin yleinen synnynnäinen hypertrikoosi | 99.06% | L5 | Pidätä |
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidätä**
 
-**Rationale:**
-Although the TxGNN score for NSIAD is high (99.54%), it is unsupported by any clinical trial or literature evidence, and the mechanistic review within this evidence pack explicitly finds no biological rationale connecting β2-adrenergic bronchodilation to a V2-receptor-mediated water-balance disorder. This is an L5 candidate (model prediction only) with a Hold recommendation from the scoring stage itself.
+**Perustelut:**
+Vaikka NSIAD:n TxGNN-pistemäärä on korkea (99.54%), sitä ei tue mikään kliininen tutkimus tai kirjallisuuden näyttö, ja tämän näyttöpaketin sisällä oleva mekanistinen katsaus ei eksplisiittisesti löydä mitään biologista perustelua, joka yhdistäisi β2-adrenergisen bronkodilataation V2-reseptorivälitteiseen vesitasapainohäiriöön. Tämä on L5-ehdokas (vain mallin ennuste), jolle pisteytysvaihe suosittaa jo pidättämistä.
 
-**To proceed, the following is needed:**
-- TFDA/Finnish package insert warnings and contraindications (Blocking gap DG001) before any safety evaluation is possible
-- Confirmed mechanism of action data (High-priority gap DG002)
-- Preclinical or mechanistic studies specifically testing β2-agonism in NSIAD or related water-balance disorders, since none currently exist
-- If pursuing a repurposing candidate from this pack, consider prioritizing better-evidenced signals (e.g., rank 9, anaphylaxis, L4) over the current top-ranked but mechanistically unsupported prediction
+**Jatkaakseen seuraavaa tarvitaan:**
+- TFDA/Suomen pakkausselosteen varoitukset ja kontraindikaatiot (Estävä aukko DG001) ennen kuin turvallisuusarviointi on mahdollinen
+- Vahvistetut vaikutusmekanismin tiedot (Korkea-prioriteettinen aukko DG002)
+- Prekliinisiä tai mekanistisia tutkimuksia, jotka testaavat β2-agonismin vaikutusta NSIAD:iin tai siihen liittyviin vesitasapainohäiriöihin, koska sellaisia ei tällä hetkellä ole olemassa
+- Jos uudelleenkäytettävää ehdokasta haetaan tästä paketista, kannattaa harkita paremmin perusteltuja signaaleita (esim. sijoitus 9, anafilaksia, L4) nykyisen korkeimmin sijoittuneen, mutta mekanistisesti perustelemattoman ennusteen sijaan
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

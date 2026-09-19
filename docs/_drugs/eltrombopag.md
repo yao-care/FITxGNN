@@ -29,93 +29,94 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Eltrombopag: From Thrombocytopenia to HIV Infectious Disease
+# Eltrombopag: Trombosytopeniasta HIV-infektiotaudin hoitoon
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Eltrombopag is a thrombopoietin (TPO) receptor agonist whose clinical evidence base centers on thrombocytopenia associated with chronic liver disease and hepatitis C infection; it is **not currently marketed in Finland**. The TxGNN model predicts a possible link to **HIV infectious disease**, but on closer review the supporting evidence almost entirely concerns **HIV-associated immune thrombocytopenia (ITP)** or **immune reconstitution thrombocytopenia** rather than direct antiviral activity, with **5 clinical trials** and **10 publications** currently identified.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in this dataset (no Finland market authorization on file); trial evidence indicates historical/investigational use for **thrombocytopenia** in chronic liver disease and hepatitis C |
-| Predicted New Indication | HIV infectious disease |
-| TxGNN Prediction Score | 99.26% |
-| Evidence Level | L4 |
-| Finland Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Eltrombopag on TPO-reseptorin agoni, jonka kliininen näyttöpohja keskittyy kroonisen maksasairauden ja hepatiitti C -infektioon liittyvään trombosytopeniaan; se ei ole tällä hetkellä markkinoilla Suomessa. TxGNN-malli ennustaa mahdollista yhteyttä HIV-infektiotautiin, mutta tarkemman tarkastelun jälkeen tukeva näyttö käsittelee lähes yksinomaan HIV-yhdistynyttä immuuni-verihiutaleiden puutosta (ITP) tai immuuni-rekonstitution liittyviä verihiutaleiden puutoksia suoramisen sijaan antiviraalisen vaikutuksen kautta, ja tällä hetkellä on tunnistettu 5 kliinistä tutkimusta ja 10 julkaisua.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Currently, detailed mechanism of action data (`original_moa`) is not available in the drug record itself. Based on the evidence pack's own repurposing analysis, eltrombopag is a **TPO (thrombopoietin) receptor agonist** that works by stimulating megakaryocyte production and raising platelet counts. This mechanism has no direct link to HIV viral replication or the infection process itself.
-
-Almost all of the identified clinical trials and case reports actually describe eltrombopag being used to manage **thrombocytopenia that occurs alongside HIV infection** — either as HIV-associated ITP, immune reconstitution thrombocytopenia after starting HAART, or thrombocytopenia in the closely related setting of chronic HCV/liver disease. This is a supportive-care use pattern, not a demonstration of anti-HIV efficacy.
-
-Only one source, an in vitro FDA-drug-library screen (PMID 32977702), raises a mechanistic hypothesis that eltrombopag might modulate HIV-1 proviral transcription — potentially relevant to "shock and kill" latency-reversal strategies — but this is preclinical and unvalidated in humans. **The TxGNN label "HIV infectious disease" should therefore be interpreted cautiously**: the real, evidence-backed repurposing signal is eltrombopag for **HIV-associated thrombocytopenia/ITP**, not treatment of HIV infection itself.
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Ei dokumentoitu tässä aineistossa (Suomen markkinoilla ei ole rekisteröintiä); tutkimusnäyttö osoittaa historiallisen/tutkimusvaiheen käytön **trombosytopenialle** kroonisessa maksasairaudessa ja hepatiitti C:ssä |
+| Ennustettu uusi indikaatio | HIV-infektiotauti |
+| TxGNN-ennusteen pistemäärä | 99.26% |
+| Näyttötaso | L4 |
+| Suomen markkinoinnin tila | Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Keskeytys |
 
 ---
 
-## Clinical Trial Evidence
+## Miksi tämä ennuste on järkevä?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Tällä hetkellä yksityiskohtaista vaikutusmekanismin tietoa (`original_moa`) ei ole saatavilla lääketietueen itsensä sisällä. Näyttöpaketin oman uudelleen käyttötarkastelun perusteella eltrombopag on **TPO-reseptorin (thrombopoietiini) agoni**, joka vaikuttaa stimuloimalla megakaryosyyttien tuotantoa ja trombosyyttilukujen nousua. Tällä mekanismilla ei ole suoraa yhteyttä HIV-viruksen replikaatioon tai infektiomekanismiin itseensä.
+
+Lähes kaikista tunnistetusta kliinisestä tutkimuksesta ja tapausraporteista käy ilmi, että eltrombopagina käytetään **verihiutaleiden vähäisyyden hoitamiseen, joka esiintyy HIV-infektion yhteydessä** — joko HIV-yhdistyneenä ITP:na, immuuni-rekonstitutio-trombosytopeniaan HAART-hoidon alkamisen jälkeen, tai trombosytopeniaan läheisesti liittyvässä kroonisen HCV/maksasairauden tilanteessa. Tämä on tukeva hoitokäyttö, ei todiste HIV-vastaisesta tehokkuudesta.
+
+Vain yksi lähde, in vitro FDA-lääkekirjaston seulonta (PMID 32977702), esittää mekanistisen hypoteesin, että eltrombopag saattaa moduloida HIV-1-proviraalitranskriptiota — mahdollisesti merkityksellinen "shock and kill" -latenssin kääntämisen strategioille — mutta tämä on prekliininen ja ihmisillä validoimaton. **TxGNN-merkintä "HIV-infektiotauti" olisi siksi tulkittava varovasti**: todellinen, näyttöön perustuva uudelleen käyttöehdotus on eltrombopag **HIV-yhdistyneen trombosytopenia/ITP:n** hoitamiseen, ei itse HIV-infektion hoitamiseen.
+
+---
+
+## Kliinisten tutkimusten näyttö
+
+| Tutkimusnumero | Vaihe | Tila | Rekrytointi | Tärkeimmät löydökset |
 |---------|------|------|------|---------|
-| [NCT00678587](https://clinicaltrials.gov/study/NCT00678587) | Phase 3 | Terminated | 292 | Evaluated eltrombopag to reduce platelet transfusion needs in thrombocytopenic chronic liver disease patients undergoing invasive procedures; not HIV-specific |
-| [NCT00996216](https://clinicaltrials.gov/study/NCT00996216) | Phase 3 | Completed | 27 | Open-label rollover study of eltrombopag safety/efficacy in thrombocytopenic HCV patients eligible for antiviral therapy |
-| [NCT01636778](https://clinicaltrials.gov/study/NCT01636778) | Phase 2 | Completed | 45 | Assessed ability of eltrombopag (SB-497115-GR) to raise/maintain platelet counts in HCV patients with compensated cirrhosis |
-| [NCT00529568](https://clinicaltrials.gov/study/NCT00529568) | Phase 3 | Completed | 759 | Large pivotal RCT of eltrombopag for thrombocytopenia in HCV patients initiating peginterferon/ribavirin therapy |
-| [NCT00516321](https://clinicaltrials.gov/study/NCT00516321) | Phase 3 | Completed | 687 | Companion pivotal RCT (peginterferon alfa-2a arm) for eltrombopag in HCV-related thrombocytopenia |
+| [NCT00678587](https://clinicaltrials.gov/study/NCT00678587) | Vaihe 3 | Keskeytetty | 292 | Arvioi eltrombopagina verihiutaleiden transfuusiotarpeen vähentämiseksi trombosytopeniassa kroonisen maksasairauden potilailla, jotka käyvät läpi invasiivisia toimenpiteitä; ei HIV-spesifinen |
+| [NCT00996216](https://clinicaltrials.gov/study/NCT00996216) | Vaihe 3 | Valmis | 27 | Avoimen tutkimuksen jatkotutkimus eltrombopagan turvallisuudesta ja tehokkuudesta trombosytopeniassa HCV-potilaissa, jotka ovat oikeutettuja antiviraalisen hoidon saamiseen |
+| [NCT01636778](https://clinicaltrials.gov/study/NCT01636778) | Vaihe 2 | Valmis | 45 | Arvioi eltrombopagian kykyä nostaa ja ylläpitää verihiutaleiden lukuja HCV-potilaissa, joilla on kompensoitu sirroosi |
+| [NCT00529568](https://clinicaltrials.gov/study/NCT00529568) | Vaihe 3 | Valmis | 759 | Suuri päätutkimus eltrombopagista trombosytopeniassa HCV-potilaissa, jotka aloittavat peginterferoni/ribaviriini-hoidon |
+| [NCT00516321](https://clinicaltrials.gov/study/NCT00516321) | Vaihe 3 | Valmis | 687 | Rinnakkainen päätutkimus (peginterferoni alfa-2a-haara) eltrombopagista HCV-yhdistyneessä trombosytopeniassa |
 
-*Note: None of the above trials enrolled HIV-infected patients specifically or tested antiviral efficacy against HIV; all target thrombocytopenia in HCV/liver disease populations.*
+*Huomio: Mikään yllä olevista tutkimuksista ei rekrytoinut HIV-positiivisia potilaita nimenomaisesti eikä testannut antiviraalista tehokkuutta HIV:tä vastaan; kaikki kohdistuvat trombosytopeniaan HCV/maksasairauden väestössä.*
 
 ---
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Julkaisu | Tärkeimmät löydökset |
 |------|-----|------|------|---------|
-| [22185370](https://pubmed.ncbi.nlm.nih.gov/22185370/) | 2012 | Cohort | Platelets | Danish real-world cohort of TPO receptor agonist use (including eltrombopag) in refractory ITP, including secondary/infection-associated cases |
-| [19932434](https://pubmed.ncbi.nlm.nih.gov/19932434/) | 2009 | Review | Hematology/Oncology Clinics of North America | Reviews HCV, HIV, and H. pylori as infectious causes of chronic ITP; treating the underlying infection often improves thrombocytopenia |
-| [19245929](https://pubmed.ncbi.nlm.nih.gov/19245929/) | 2009 | Review | Seminars in Hematology | Discusses therapeutic strategies for hepatitis- and other infection-related immune thrombocytopenias, including HIV |
-| [24816314](https://pubmed.ncbi.nlm.nih.gov/24816314/) | 2014 | Review | Internal Medicine Journal | Reviews TPO receptor agonist use in immune thrombocytopenia of less than 6 months' duration |
-| [25504472](https://pubmed.ncbi.nlm.nih.gov/25504472/) | 2015 | Case series | J Int Assoc Provid AIDS Care | TPO receptor agonists (eltrombopag, romiplostim) used as salvage therapy in refractory HIV-associated ITP after HAART optimization |
-| [22992580](https://pubmed.ncbi.nlm.nih.gov/22992580/) | 2012 | Case report | AIDS | Eltrombopag successfully used without splenectomy for refractory HIV-related immune reconstitution thrombocytopenia |
-| [25333665](https://pubmed.ncbi.nlm.nih.gov/25333665/) | 2014 | Case report | AIDS | First report of eltrombopag successfully treating aplastic anaemia associated with HIV infection; showed immunomodulatory effect (reduced Th1/Th17, increased Treg/Th ratio) |
-| [28043314](https://pubmed.ncbi.nlm.nih.gov/28043314/) | 2016 | Case report | J Coll Physicians Surg Pak | HBV infection (not HIV) causing megaloblastic anemia and severe thrombocytopenia; general infection–thrombocytopenia link |
-| [24128106](https://pubmed.ncbi.nlm.nih.gov/24128106/) | 2013 | Case report | Farmacia Hospitalaria | Two case reports of eltrombopag for thrombocytopenia in chronic hepatitis C patients |
-| [32977702](https://pubmed.ncbi.nlm.nih.gov/32977702/) | 2020 | In vitro screening | Viruses | FDA-approved drug library screen identifying modulators of HIV-1 proviral transcription; basis for a preclinical latency-reversal hypothesis |
+| [22185370](https://pubmed.ncbi.nlm.nih.gov/22185370/) | 2012 | Kohortti | Platelets | Tanskalainen todellisen elämän kohortti TPO-reseptorin agonisteista (sisältäen eltrombopagan) refraktaarissa ITP:ssä, mukaan lukien toissijaiset ja infektioon liittyvät tapaukset |
+| [19932434](https://pubmed.ncbi.nlm.nih.gov/19932434/) | 2009 | Katsaus | Hematology/Oncology Clinics of North America | Käsittelee hepatiitti C:tä, HIV:tä ja H. pylorita kroonisen ITP:n infektiosynyisiksi syiksi; taustalla olevan infektion hoitaminen usein parantaa trombosytopeniaa |
+| [19245929](https://pubmed.ncbi.nlm.nih.gov/19245929/) | 2009 | Katsaus | Seminars in Hematology | Käsittelee terapeuttisia strategioita hepatiitti- ja muista infektioista johtuville immuuni-verihiutaleiden puutoksille, mukaan lukien HIV |
+| [24816314](https://pubmed.ncbi.nlm.nih.gov/24816314/) | 2014 | Katsaus | Internal Medicine Journal | Käsittelee TPO-reseptorin agonisteja immuuni-verihiutaleiden puutoksessa, joka on kestänyt alle 6 kuukautta |
+| [25504472](https://pubmed.ncbi.nlm.nih.gov/25504472/) | 2015 | Tapaussarja | J Int Assoc Provid AIDS Care | TPO-reseptorin agonisteja (eltrombopag, romiplostim) käytettiin pelastushoitona refraktaarissa HIV-yhdistyneessä ITP:ssä HAART-optimoinnin jälkeen |
+| [22992580](https://pubmed.ncbi.nlm.nih.gov/22992580/) | 2012 | Tapausraportti | AIDS | Eltrombopag käytettiin onnistuneesti ilman pernaojan poistoa refraktaarissa HIV-liittyvässä immuuni-rekonstitutio-trombosytopeniassa |
+| [25333665](https://pubmed.ncbi.nlm.nih.gov/25333665/) | 2014 | Tapausraportti | AIDS | Ensimmäinen raportti eltrombopagista, joka hoitaa onnistuneesti aplastista anemiaa HIV-infektioon liittyvästi; osoitti immunomodulaattorisen vaikutuksen (vähensi Th1/Th17, lisäsi Treg/Th-suhdetta) |
+| [28043314](https://pubmed.ncbi.nlm.nih.gov/28043314/) | 2016 | Tapausraportti | J Coll Physicians Surg Pak | HBV-infektio (ei HIV) aiheuttaa megaloblastista anemiaa ja vakavaa trombosytopeniaa; yleinen infektio–trombosytopenia-yhteys |
+| [24128106](https://pubmed.ncbi.nlm.nih.gov/24128106/) | 2013 | Tapausraportti | Farmacia Hospitalaria | Kaksi tapausraporttia eltrombopagista trombosytopeniassa kroonisissa hepatiitti C -potilaissa |
+| [32977702](https://pubmed.ncbi.nlm.nih.gov/32977702/) | 2020 | In vitro-seulonta | Viruses | FDA-hyväksyttyjen lääkkeiden kirjaston seulonta, jossa tunnistettiin HIV-1-proviraalitranskription modulaattoreita; perusta prekliiniselle latenssin kääntämisen hypoteesille |
 
 ---
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Eltrombopag currently has no marketing authorization on record in Finland (0 authorizations, market status: not marketed).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (No key warnings, contraindications, or drug-interaction data were retrievable at this time — this is flagged as a **Blocking** data gap (DG001) for TFDA-equivalent labeling and must be resolved before any safety evaluation.)
+Eltrombopagilla ei ole tällä hetkellä markkinointilupia Suomessa (0 hyväksyntää, markkinoinnin tila: ei markkinoilla).
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuushuomiot
 
-**Decision: Hold**
+Katso turvallisustietoja pakkausselosteesta. (Mitään keskeisiä varoituksia, vasta-aiheita tai lääkkeen vuorovaikutustietoja ei ollut saatavilla tällä hetkellä — tämä on merkitty **esto**-tietovajeen (DG001) TFDA-vastaavalle merkinnälle, ja se on ratkaistava ennen turvallisuusarvioinnin suorittamista.)
 
-**Rationale:**
-The TxGNN score is high, but the supporting evidence base actually addresses HIV-associated thrombocytopenia/ITP rather than treatment of HIV infection itself, and the drug is not currently marketed in Finland with no verified safety/labeling data available — evidence level L4 (preclinical/mechanistic and case-level only) does not support proceeding.
+---
 
-**To proceed, the following is needed:**
-- TFDA/regulatory-equivalent package insert data (warnings, contraindications) — currently a Blocking gap (DG001)
-- Confirmed mechanism of action (MOA) from DrugBank or primary literature (DG002)
-- Reframing of the indication hypothesis toward "HIV-associated thrombocytopenia/ITP" rather than "HIV infectious disease," followed by re-scoring
-- A prospective study (even small/observational) specifically enrolling HIV-infected patients with thrombocytopenia to validate the case-report-level signal
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Keskeytys**
+
+**Perustelut:**
+TxGNN-pistemäärä on korkea, mutta tukeva näyttöpohja käsittelee itse asiassa HIV-yhdistynyttä trombosytopenia/ITP:tä pikemminkin kuin itse HIV-infektion hoitoa, ja lääke ei ole tällä hetkellä markkinoilla Suomessa vahvistetun turvallisuus-/merkintätiedon ilman — näyttötaso L4 (prekliininen/mekanistinen ja tapaus-tasoinen vain) ei tue etenemista.
+
+**Etenemiseksi tarvitaan seuraavat:**
+- TFDA/sääntelyyn perustuva pakkausseloste (varoitukset, vasta-aiheet) — tällä hetkellä esto-tietovaje (DG001)
+- Vahvistettu vaikutusmekanismi (MOA) DrugBankista tai alkuperäisestä kirjallisuudesta (DG002)
+- Indikaatiohypoteesin uudelleen muotoilu kohti "HIV-yhdistyneen trombosytopenia/ITP:tä" sen sijaan, että "HIV-infektiotauti", minkä jälkeen uudelleen pisteytys
+- Prospektiivinen tutkimus (jopa pieni/havainnollinen), joka rekrytoi nimenomaisesti HIV-positiivisia potilaita trombosytopenialla tapausraporttitason signaalin validoimiseksi
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

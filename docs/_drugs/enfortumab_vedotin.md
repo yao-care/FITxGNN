@@ -29,94 +29,95 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 
 </div>
 
-# Enfortumab Vedotin: From Urothelial (Bladder) Cancer to Leprosy
+# Enfortumab vedotin: uroteliaalisyövästä (virtsarakon) pakkotautiin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Enfortumab vedotin is a Nectin‑4 targeted antibody‑drug conjugate (ADC) carrying the microtubule‑inhibitor payload MMAE, developed and used in the treatment of advanced urothelial (bladder) cancer — though this original indication is **not directly recorded** in the current evidence pack (`original_indications` is empty; only inferred from associated literature context). The TxGNN model's top-ranked new prediction, **Leprosy**, has a very high similarity score but **zero supporting clinical trials or literature**, and the evidence pack's own mechanistic review explicitly concludes there is **no plausible biological link** between the drug's mechanism and *Mycobacterium leprae* infection. This candidate should be treated as a model-only signal, not a validated repurposing opportunity.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in evidence pack (`original_indications` empty); literature context (PMID 41341429) associates enfortumab vedotin ADCs with **bladder/urothelial cancer** — unconfirmed, pending DrugBank/label verification |
-| Predicted New Indication | Leprosy |
-| TxGNN Prediction Score | 99.53% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Finland Market Status | Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+Enfortumab vedotin on Nectin-4-kohdistettu vasta-aine-lääkekonjugaatti (ADC), joka kuljettaa mikrotubuluksien estäjän kuormaksi MMAE:ta, ja se on kehitetty edistyneen uroteliaalisyövän (virtsarakon) hoitoon — vaikka tätä alkuperäistä indikaatiota **ei ole suoraan dokumentoitu** nykyisessä todistusaineistossaan (`original_indications` on tyhjä; vain päätelty liittyvästä kirjallisuudesta). TxGNN-mallin parhaiten sijoittuva uusi ennustus, **Pakkotauti**, saavuttaa erittäin korkean samankaltaisuuspistemäärän, mutta sillä on **nolla tukevia kliinisiä tutkimuksia tai kirjallisuusviitteitä**, ja todistusaineiston oma mekanistinen arvio toteaa eksplisiittisesti, että **ei ole uskottavaa biologista yhteyttä** lääkkeen mekanismin ja *Mycobacterium leprae* -infektioiden välillä. Tätä ehdokasta tulee käsitellä pelkästään mallin tuottamana signaalina, ei validoiduksi uudelleenkäytön mahdollisuudeksi.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Currently, detailed mechanism of action data is not available in the structured `original_moa` field (Data Gap DG002, High severity). Based on information embedded elsewhere in this evidence pack, enfortumab vedotin is described as a **Nectin‑4 targeted antibody‑drug conjugate**, whose payload MMAE (monomethyl auristatin E) is a microtubule inhibitor that acts on cancer cell mitosis — consistent with its known role as an ADC used in oncology.
-
-For the top-ranked prediction, **leprosy**, the evidence pack's own repurposing rationale explicitly states there is **no reasonable mechanistic link**: leprosy is driven by *Mycobacterium leprae* infection and its associated immune/neural pathology, which has no known intersection with Nectin‑4 expression or microtubule-targeted cytotoxicity. The rationale itself notes the high TxGNN score more likely reflects an indirect node connection within the knowledge graph rather than a genuine biological mechanism.
-
-This concern is reinforced by the quality of the broader prediction batch: of the nine ranked indications returned, **all nine are rated L5/S0/Hold**, two (rank 8 "infectious bovine rhinotracheitis" and rank 9 "malignant catarrh") are **veterinary diseases in cattle/ruminants**, explicitly flagged in the evidence pack as likely species-confusion artifacts in the knowledge graph, and one (rank 4, candidiasis) is supported only by a pharmacovigilance study describing candidiasis as an **adverse safety signal** of ADC-induced immunosuppression, not a treatment indication. Taken together, this pattern suggests the current prediction set for this drug reflects graph-level noise more than credible pharmacological hypotheses, and none of the top candidates — including leprosy — currently rises above a speculative, model-only signal.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Ei dokumentoitu todistusaineistossa (`original_indications` tyhjä); kirjallisuuskonteksti (PMID 41341429) yhdistää enfortumab vedotin ADC:t **virtsarakon/uroteliaalisyöpään** — vahvistamaton, odottaa DrugBank/pakkausseloste-vahvistusta |
+| Ennustettu uusi indikaatio | Pakkotauti |
+| TxGNN-ennustepiste | 99.53% |
+| Näyttötaso | L5 (pelkkä mallin ennuste, ei tukevia tutkimuksia) |
+| Suomen markkina-asema | Ei markkinoilla |
+| Lupakäsittelyjen lukumäärä | 0 |
+| Suositeltu päätös | **Pidätys** |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennustus on järkevä?
 
-Currently no related literature available.
+Tällä hetkellä yksityiskohtaiset toimintamekanismin tiedot eivät ole saatavilla jäsennellyssä `original_moa` -kentässä (tietoaukko DG002, korkea vakavuus). Tämän todistusaineiston muualla olevan tiedon perusteella enfortumab vedotin on kuvattu **Nectin-4-kohdistettuna vasta-aine-lääkekonjugaattina**, jonka kuorma MMAE (monomethyl auristatin E) on mikrotubuluksien estäjä, joka vaikuttaa syöpäsolujen mitoosiin — mikä on yhdenmukaista sen tunnetun roolin kanssa onkologisena ADC:nä.
 
-*(Note: literature evidence exists elsewhere in this dataset for a different candidate indication — rank 4, "candidiasis," PMID 41341429 — but this concerns an ADC-class safety signal, not leprosy, and is discussed under Safety Considerations below.)*
+Parhaiten sijoittuvan ennustuksen, **pakkotaudin**, osalta todistusaineiston oma uudelleenkäytön perustelut sanovat eksplisiittisesti, että **ei ole järkevää mekanistista yhteyttä**: pakkotauti johtuu *Mycobacterium leprae* -infektiosta ja sen liittyvästä immuuni-/hermopathologiasta, jolla ei ole tunnettua yhteyttä Nectin-4-ilmentymiseen tai mikrotubuluksiin kohdistettuun sytotoksisuuteen. Perustelut huomauttavat, että korkea TxGNN-pistemäärä todennäköisesti heijastaa epäsuoraa solmujen yhteyttä tietokaavion sisällä todellisen biologisen mekanismin sijaan.
 
----
-
-## Finland Market Information
-
-No marketing authorization currently registered in Finland (`total_licenses: 0`). Enfortumab vedotin is not currently marketed in this jurisdiction.
+Huoli vahvistuu laajemman ennustejonon laadusta: yhdeksästä sijoitetusta indikaatiosta **kaikki yhdeksän on luokiteltu L5/S0/Pidätys**, kaksi (sijoitus 8 "naudan infektiivinen rhinotraheiitti" ja sijoitus 9 "paha kataari") ovat **eläinlääketieteellisiä sairauksia naudoilla/märehtijöillä**, jotka on eksplisiittisesti merkitty todistusaineistossa todennäköisiksi lajisekaannusartefakteiksi tietokaavion sisällä, ja yksi (sijoitus 4, kandidiaasi) on tuettu ainoastaan lääketurvallisuus-kirjallisuussignaalilla, joka kuvaa kandidiaasia **haitallisena turvallisuussignaalina** ADC-indusoidusta immuunosupresiosta, ei hoito-indikaationa. Kaiken kaikkiaan tämä kaava viittaa siihen, että tämän lääkkeen nykyinen ennustejoukko heijastaa enemmän graafi-tason kohinaa kuin uskottavia farmakologisia hypoteeseja, eikä yksikään parhaista ehdokkaista — mukaan lukien pakkotauti — tällä hetkellä ylitä spekulatiivista, pelkästään malliin perustuvaa signaalia.
 
 ---
 
-## Cytotoxicity
+## Kliinisen tutkimuksen näyttö
 
-Enfortumab vedotin is an antibody-drug conjugate with a cytotoxic microtubule-inhibitor payload, so this section applies.
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (Antibody-Drug Conjugate) delivering a conventional cytotoxic payload (MMAE, microtubule/mitosis inhibitor of the auristatin class) |
-| Myelosuppression Risk | Not formally quantified in this evidence pack. A related pharmacovigilance literature signal (PMID 41341429, rank-4 candidiasis rationale) associates ADC therapy with neutropenia/immunosuppression manifesting as opportunistic infection — please refer to the package insert for confirmed data |
-| Emetogenicity Classification | Not available in evidence pack — please refer to the package insert |
-| Monitoring Items | CBC with differential (particularly neutrophil count), signs/symptoms of infection, liver and renal function |
-| Handling Protection | Cytotoxic drug handling precautions should apply given the MMAE payload; confirm specific protocol against the package insert |
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
 
 ---
 
-## Safety Considerations
+## Kirjallisuusaineiston näyttö
 
-Formal package insert data (key warnings, contraindications, DDI) is a **Blocking** data gap (DG001) — TFDA/manufacturer labeling has not yet been retrieved, so a full safety review cannot be completed at this time. Drug interaction screening also returned no results (`ddi.query_status: not_found`), which reflects absence from the queried database rather than a confirmed absence of interactions.
+Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta.
 
-One relevant signal was identified in adjacent literature: a 2025 real-world FAERS pharmacovigilance study of ADCs in bladder cancer (PMID 41341429) reports safety signals including opportunistic infections such as candidiasis, plausibly related to ADC-induced immunosuppression or neutropenia. This should be treated as a risk to monitor, not a treatment indication.
-
-Please refer to the package insert for complete safety information once available.
+*(Huomautus: kirjallisuusaineiston näyttö on olemassa muualla tässä aineistossa eri ehdokkaalle — sijoitus 4, "kandidiaasi," PMID 41341429 — mutta tämä koskee ADC-luokan turvallisuussignaalia, ei pakkotautia, ja sitä käsitellään alla olevan turvallisuusnäkökohtien kohdalla.)*
 
 ---
 
-## Conclusion and Next Steps
+## Suomen markkinatiedot
 
-**Decision: Hold**
+Suomessa ei ole tällä hetkellä rekisteröityä myyntilupaa (`total_licenses: 0`). Enfortumab vedotin ei ole tällä hetkellä markkinoilla tässä lainkäyttöalueella.
 
-**Rationale:**
-The leprosy prediction has no supporting clinical trials or literature, is explicitly assessed by the evidence pack's own mechanistic analysis as lacking a plausible biological rationale, and sits within a prediction batch where all nine ranked indications are L5/Hold — two of which appear to be veterinary-disease artifacts. Combined with a Blocking-severity gap in package insert/safety data (DG001) and the drug's non-marketed status in Finland, there is currently no basis to advance this candidate beyond model screening.
+---
 
-**To proceed, the following is needed:**
-- TFDA/EMA package insert data (warnings, contraindications, DDI) — DG001, Blocking
-- Confirmed mechanism of action and original indication via DrugBank/regulatory label — DG002, High
-- Preclinical or biological plausibility data specifically linking Nectin‑4/MMAE activity to *M. leprae* infection or leprosy pathophysiology, if this hypothesis is to be pursued further
-- A data-quality review of the broader TxGNN prediction batch for this drug, given the presence of veterinary-disease entries (ranks 8–9) suggesting possible knowledge-graph node confusion
+## Sytotoksisuus
+
+Enfortumab vedotin on vasta-aine-lääkekonjugaatti, joka sisältää sytotoksisen mikrotubuluksien estäjä-kuorman, joten tämä osio on asiaankuuluvaa.
+
+| Kohta | Sisältö |
+|------|---------|
+| Sytotoksisuusluokittelu | Kohdennettu hoito (Vasta-aine-lääkekonjugaatti), joka toimittaa perinteistä sytotoksista kuormaa (MMAE, mikrotubuluksien/mitoosien estäjä auriin-luokasta) |
+| Luuydintukahduttamisen riski | Ei ole muodollisesti määritelty tässä todistusaineistossa. Liittyvä lääketurvallisuus-kirjallisuussignaali (PMID 41341429, sijoitus 4 kandidiaasi-perustelut) yhdistää ADC-hoitoa neutropeniaan/immuunosupresioon, joka ilmenee opportunistisena infektiona — katso vahvistettuja tietoja pakkausselosteesta |
+| Oksentamispotentiaalin luokittelu | Ei saatavilla todistusaineistossa — katso pakkausseloste |
+| Seurantakohdat | Täydellinen veritutkimus differentiaalilla (erityisesti neutrofiilit), infektioiden merkit/oireet, maksan ja munuaisten toiminta |
+| Käsittelysuojaus | Sytotoksisen lääkkeen käsittelyvarotoimet pitäisi noudattaa MMAE-kuorman vuoksi; vahvista spesifinen protokolla pakkausselosteen perusteella |
+
+---
+
+## Turvallisuusnäkököhdat
+
+Virallinen pakkausselosteen tieto (tärkeät varoitukset, vasta-aiheet, lääkkeiden yhteisvaikutukset) on **estävä** tietoaukko (DG001) — TFDA/valmistajan merkinnät eivät ole vielä käytettävissä, joten täydellinen turvallisuusarvio ei ole tällä hetkellä mahdollinen. Lääkkeiden yhteisvaikutusseulonta ei tuottanut tuloksia (`ddi.query_status: not_found`), mikä heijastaa lääkkeen puuttumista kyseisestä tietokannasta eikä yhteisvaikutusten puuttumisen vahvistusta.
+
+Yksi asiaa koskeva turvallisuussignaali löydettiin lähteistä: vuonna 2025 julkaistu FAERS-pohjainen lääketurvallisuustutkimus virtsarakon syövän ADC-hoidoista (PMID 41341429) raportoi turvallisuussignaaleja, joihin kuuluvat opportunistiset infektiot, kuten kandidiaasi, joiden epäillään johtuvan ADC-indusoidusta immuunosupresiosta tai neutropeniasta. Tätä pitää käsitellä monitoroitavana riskinä, ei hoito-indikaationa.
+
+Tutustu pakkausselosteen täydellisiin turvallisuustietoihin niiden ollessa saatavilla.
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidätys**
+
+**Perustelut:**
+Pakkotaudin ennusteella ei ole tukevia kliinisiä tutkimuksia tai kirjallisuutta, todistusaineiston oma mekanistinen analyysi arvioi eksplisiittisesti, että sillä ei ole uskottavaa biologista perustelua, ja se sijaitsee ennustejoukon sisällä, jossa kaikki yhdeksän sijoitettua indikaatiota ovat L5/Pidätys — joista kaksi näyttävät olevan eläinlääketieteellisten sairauksien artefakteja. Estävän vakavuuden tietoaukon (DG001) pakkausselosteesta/turvallisuustiedoista ja lääkkeen markkinoimattomasta asemasta Suomessa ei ole tällä hetkellä perustetta siirtää tätä ehdokasta mallin seulonnasta eteenpäin.
+
+**Etenemisvaiheille tarvitaan seuraavaa:**
+- TFDA/EMA pakkausselosteen tiedot (varoitukset, vasta-aiheet, lääkkeiden yhteisvaikutukset) — DG001, Estävä
+- Vahvistettu toimintamekanismi ja alkuperäinen indikaatio DrugBankin/sääntelylabelien kautta — DG002, Korkea
+- Prekliininen tai biologisen plausibiliteettiin liittyvä tieto, joka yhdistää erityisesti Nectin-4/MMAE-aktiviteetin *M. leprae* -infektioon tai pakkotaudin patofysiologiaan, mikäli tätä hypoteesia halutaan tutkia edelleen
+- Tämän lääkkeen laajemman TxGNN-ennustejonon tietojen laadun tarkistus, ottaen huomioon eläinlääketieteellisten sairauksien merkinnöt (sijoitukset 8–9), jotka viittaavat mahdolliseen tietokaavion solmusekaannukseen
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

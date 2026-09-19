@@ -29,86 +29,83 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-以下是根據 Evidence Pack 產生的完整評估報告：
+# Laronidaasi: Arviointi puutteellinen — ei uudelleen käyttötarkoituksen ennustetta saatavilla
+
+## Yhden lauseen yhteenveto
+
+Laronidaasi (DrugBank: DB00090) on rekombinantti entsyymikorvaushoidon lääke, jonka alkuperäisen indikaation tiedot puuttuvat tästä Evidence Pack -paketista.
+TxGNN-malli **ei ole tuottanut mitään ennustettuja uusia indikaatioita** tälle yhdisteelle, ja kaksi tietoaukkoa — mekanismi ja turvatiedot — estävät täydellisen uudelleen käyttötarkoituksen arvioinnin.
+Tukevia kliinisiä tutkimuksia tai julkaisuja ei ole saatavilla tällä hetkellä.
 
 ---
 
-# Laronidase: Evaluation Incomplete — No Repurposing Prediction Available
+## Pikayhteenveto
 
-## One-Sentence Summary
-
-Laronidase (DrugBank: DB00090) is a recombinant enzyme replacement therapy whose original indication data is absent from this Evidence Pack.
-The TxGNN model has **not generated any predicted new indications** for this compound, and two blocking data gaps — mechanism of action and safety information — prevent a complete repurposing evaluation.
-No supporting clinical trials or publications are available at this time.
-
----
-
-## Quick Overview
-
-| Item | Content |
+| Kohta | Sisältö |
 |------|---------|
-| Original Indication | Not available in Evidence Pack |
-| Predicted New Indication | None — no predictions generated |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | L5 — No actual studies, prediction data absent |
-| Finland Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+| Alkuperäinen indikaatio | Ei saatavilla Evidence Pack -paketissa |
+| Ennustettu uusi indikaatio | Ei — ennusteita ei ole luotu |
+| TxGNN-ennuste-pistemäärä | N/A |
+| Näytön taso | L5 — Ei varsinaisia tutkimuksia, ennustetiedot puuttuvat |
+| Suomen markkinatilanne | Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | **Pidätetään** |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-No TxGNN-predicted indications are currently available for Laronidase. Without a target indication, it is not possible to construct a mechanistic rationale for repurposing, or to assess whether the drug's mode of action is transferable to a new disease context.
+TxGNN-ennustettuja indikaatioita ei tällä hetkellä ole saatavilla laronidaasille. Ilman kohdeindikaatiota on mahdotonta rakentaa mekanistista perustelua uudelleen käyttötarkoitukselle tai arvioida, onko lääkkeen vaikutusmekanismi siirrettävissä uuden sairauden yhteydessä.
 
-Mechanism of action data (DG002) has been flagged as a High-severity data gap. Although Laronidase is generally understood to function as a recombinant form of alpha-L-iduronidase — an enzyme involved in glycosaminoglycan catabolism — this information has not been formally populated in the Evidence Pack and therefore cannot be cited as the basis for any prediction.
+Mekanismin tiedot (DG002) on merkitty korkean vakavuuden tietoaukoksi. Vaikka laronidaasi yleensä tunnistetaan rekombinantin alfa-L-iduronidaasin muodoksi — entsyyminä, joka osallistuu glykosaminoglykaanien hajoamiseen — näitä tietoja ei ole virallisesti lisätty Evidence Pack -pakettiin, ja siksi niitä ei voida lainata minkään ennusteen perustukseksi.
 
-Original indication data is also absent (`original_indications: []`). Combined with the missing MOA, the foundational inputs required by the repurposing evaluation framework are not yet in place. This report will be updated once data gaps are resolved and TxGNN predictions are available.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Alkuperäisen indikaation tiedot puuttuvat myös (`original_indications: []`). Yhdessä puuttuvan mekanismin kanssa vaadittavat perustilat uudelleen käyttötarkoituksen arviointikehikossa eivät ole vielä olemassa. Tämä raportti päivitetään, kun tietoaukot on ratkaistu ja TxGNN-ennusteet ovat saatavilla.
 
 ---
 
-## Literature Evidence
+## Kliinisen tutkimuksen näyttö
 
-Currently no related literature available.
-
----
-
-## Finland Market Information
-
-Laronidase is not currently marketed in Finland. No marketing authorizations are on record.
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
 
 ---
 
-## Safety Considerations
+## Kirjallisuuden näyttö
 
-Please refer to the package insert for safety information.
-
----
-
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-This Evidence Pack is structurally incomplete — TxGNN has not generated any predicted indications for Laronidase, and two data gaps (DG001, DG002) are blocking the minimum required inputs for safety and mechanistic evaluation.
-
-**To proceed, the following is needed:**
-
-- **Resolve DG001 (Blocking):** Obtain Finnish prescribing information (warnings, contraindications) via package insert PDF from the regulatory authority's website
-- **Resolve DG002 (High):** Populate mechanism of action by querying the DrugBank API for DB00090
-- **Populate `original_indications`:** Known indication (Mucopolysaccharidosis type I / Hurler syndrome) should be extracted from DrugBank and entered into the Evidence Pack
-- **Re-run TxGNN prediction pipeline:** Laronidase does not appear in the current predicted indications output — verify whether the compound was included in the input drug list and re-execute if necessary
-- **Re-run evidence collection:** Once predictions are available, trigger the clinical trial and literature retrieval pipeline for the top-ranked predicted indication
+Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta.
 
 ---
 
-> ⚠️ **Note:** This report reflects the state of the Evidence Pack as of 2026-04-20. All sections will be revised once data gaps DG001 and DG002 are resolved and TxGNN predictions are generated. Results are for research purposes only and do not constitute medical advice.
+## Suomen markkinatiedot
+
+Laronidaasia ei tällä hetkellä markkinoida Suomessa. Hyväksyntöjä ei ole kirjattu.
+
+---
+
+## Turvallisuutta koskevat näkökohdat
+
+Lisätietoja turvallisuudesta löytyy pakkausselosteesta.
+
+---
+
+## Johtopäätökset ja seuraavat vaiheet
+
+**Päätös: Pidätetään**
+
+**Perustelut:**
+Tämä Evidence Pack -paketti on rakenteellisesti puutteellinen — TxGNN ei ole tuottanut mitään ennustettuja indikaatioita laronidaasille, ja kaksi tietoaukkoa (DG001, DG002) estävät turvallisuuden ja mekanistisen arvioinnin vaadittavat vähimmäissyötteet.
+
+**Jatkamista varten tarvitaan seuraavaa:**
+
+- **Ratkaise DG001 (Estävä):** Hanki Suomen reseptiohjeistus (varoitukset, vasta-aiheet) pakkausselosteesta PDF-muodossa viranomaisen verkkosivuilta
+- **Ratkaise DG002 (Korkea):** Täytä mekanismin tiedot käyttämällä DrugBank API:a DB00090:n osalta
+- **Täytä `original_indications`:** Tunnettu indikaatio (Mukopolysakkariidoosi tyypin I / Hurler-oireyhtymä) tulisi poimia DrugBankista ja lisätä Evidence Pack -pakettiin
+- **Suorita TxGNN-ennustepipeline uudelleen:** Laronidaasi ei näy nykyisessä ennustettujen indikaatioiden tulokseissa — vahvista, oliko yhdiste sisällytetty syöttelääkkeiden luetteloon, ja suorita uudelleen tarvittaessa
+- **Suorita näyttöjenkeräys uudelleen:** Kun ennusteet ovat saatavilla, käynnistä kliinisen tutkimuksen ja kirjallisuuden hakupipeline korkeimman arvostetulle ennustetulle indikaatiolle
+
+---
+
+> ⚠️ **Huomautus:** Tämä raportti osoittaa Evidence Pack -paketin tilaa 2026-04-20. Kaikki osiot päivitetään, kun tietoaukot DG001 ja DG002 on ratkaistu ja TxGNN-ennusteet on luotu. Tulokset ovat tarkoitukseltaan vain tutkimuskäyttöä varten eivätkä muodosta lääketieteellistä neuvoa.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

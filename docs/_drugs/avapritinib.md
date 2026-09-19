@@ -29,85 +29,86 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Avapritinib：Evidence Pack 資料不足 — 初步缺口評估報告
+# Avapritinib: Evidence Pack -tietojen puutteellisuus — alustava puuteanalyysin raportti
 
-## 摘要
+## Yhteenveto
 
-Avapritinib（DB15233）為一種激酶抑制劑類藥物，目前未於台灣上市。
-本 Evidence Pack **未包含任何 TxGNN 預測適應症**，且作用機轉（MOA）及安全性資料均存在關鍵缺口，
-**無法執行完整的老藥新用評估**，建議列為 **Hold** 待補齊資料後重新評估。
+Avapritinib (DB15233) on kiinaasi-inhibiittoriluokan lääkeaine, jota ei ole tällä hetkellä markkinoilla Taiwanissa.
+Tämä Evidence Pack **ei sisällä mitään TxGNN-ennustettuja indikaatioita**, ja vaikutusmekanismin (MOA) sekä turvallisuustiedot sisältävät kriittisiä puutteita.
+**Täydellisen vanhanlääkkeen uudelleenkäytön arviointia ei voida suorittaa**, ja suosituksena on merkitä se **Hold**-tilaan tietojen täydentämisen jälkeistä uudelleenarvointia varten.
 
 ---
 
-## 快速總覽
+## Nopea katsaus
 
-| 項目 | 內容 |
+| Kohta | Sisältö |
 |------|------|
-| 原始適應症 | Evidence Pack 中未提供 |
-| 預測新適應症 | 本 Pack 無 TxGNN 預測結果 |
-| TxGNN 預測分數 | 無 |
-| 證據等級 | L5（模型預測層級，但本 Pack 尚無預測輸出） |
-| 台灣市場狀態 | ✗ Not marketed |
-| 許可證件數 | 0 |
-| 建議決策 | **Hold** |
+| Alkuperäiset indikaatiot | Ei annettu Evidence Packissa |
+| Ennustetut uudet indikaatiot | Tämä pakkaus ei sisällä TxGNN-ennusteita |
+| TxGNN-ennustepistemäärä | Ei |
+| Todisteen taso | L5 (malliennusteen taso, mutta pakkaus ei vielä sisällä ennusteita) |
+| Taiwanin markkinatila | ✗ Not marketed |
+| Lupapäätösten lukumäärä | 0 |
+| Ehdotettu päätös | **Hold** |
 
 ---
 
-## 為何無法進行機轉關聯分析
+## Miksi mekanismin yhdistämisen analyysia ei voida suorittaa
 
-本 Evidence Pack 缺少以下兩項核心資料，導致機轉–適應症推論無法執行：
+Tämä Evidence Pack puuttuu seuraavista kahdesta ydintiedoista, mikä tekee mekanismi-indikaation päättelyä mahdottomaksi:
 
-目前 Avapritinib 的詳細作用機轉資料不在此 Pack 中（DG002，High severity）。原始適應症欄位亦為空白，無法建立「原始疾病 → 作用機轉 → 預測疾病」的推論鏈。
+Avapritinibin yksityiskohtainen vaikutusmekanismin tieto puuttuu tästä Packista (DG002, High severity). Alkuperäisen indikaation kenttä on myös tyhjä, eikä "alkuperäinen sairaus → vaikutusmekanismi → ennustettu sairaus" -päättelyketjua voida muodostaa.
 
-此外，TxGNN 模型對本藥物**未輸出任何預測適應症**（`predicted_indications: []`），代表此輪評估缺乏老藥新用的候選目標，整份報告的核心分析章節因此無法展開。
-
----
-
-## 臨床試驗證據
-
-目前無可評估的預測適應症，無對應臨床試驗資料。
+Lisäksi TxGNN-malli **ei ole tuottanut tälle lääkeaineelle mitään ennustettuja indikaatioita** (`predicted_indications: []`), mikä osoittaa, että tässä arviointikierroksessa puuttuu vanhan lääkkeen uudelleenkäytön ehdokkaat, ja raportin ydinanalyysikappaleet eivät voi siten avautua.
 
 ---
 
-## 文獻證據
+## Kliinisen tutkimuksen näyttö
 
-目前無可評估的預測適應症，無對應文獻資料。
-
----
-
-## 台灣市場資訊
-
-Avapritinib **目前未於台灣取得藥品許可證**。TFDA 查詢（查詢日期：2026-03-29）結果為 0 筆，`taiwan_regulatory.licenses` 為空。
+Tällä hetkellä arvioitavia ennustettuja indikaatioita ei ole saatavilla, joten vastaavia kliinisen tutkimuksen tietoja ei ole.
 
 ---
 
-## 安全性考量
+## Kirjallisuustutkimuksen näyttö
 
-請參閱藥品仿單之警語與禁忌事項。
-
-> 本 Evidence Pack 的安全性警語、禁忌症及藥物交互作用查詢均未返回有效資料（DDI 查詢狀態：not\_found）。Fimea package insert warnings/contraindications（DG001，**Blocking** 級別缺口）尚待補齊，此缺口將阻擋 S1 安全性初評進行。
+Tällä hetkellä arvioitavia ennustettuja indikaatioita ei ole saatavilla, joten vastaavia kirjallisuustutkimuksen tietoja ei ole.
 
 ---
 
-## 結論與下一步行動
+## Taiwanin markkinatiedot
 
-**決策：Hold**
-
-**理由：**
-本 Evidence Pack 存在 Blocking 級別資料缺口（DG001：TFDA 仿單警語）及 High 級別缺口（DG002：MOA），且 TxGNN 未產出任何預測適應症，目前不具備執行老藥新用評估的基本條件。
-
-**進入下一階段所需補齊：**
-
-1. **（Blocking）** 補齊 TFDA 仿單 PDF 並解析警語與禁忌事項（DG001）
-2. **（High）** 透過 DrugBank API 取得作用機轉（MOA）資料（DG002）
-3. **（必要）** 確認 TxGNN 是否已對 DB15233 執行預測，若無請觸發預測流程
-4. **（建議）** 確認原始核准適應症（GIST / 全身性肥大細胞增多症等）並填入 `original_indications`
-5. **（建議）** 補充藥物交互作用（DDI）資料
+Avapritinib **ei ole tällä hetkellä saavuttanut lääkkeen markkinointiluvan Taiwanissa**. TFDA-haku (hakupäivä: 2026-03-29) antoi 0 tuloksia, `taiwan_regulatory.licenses` on tyhjä.
 
 ---
 
-> ⚠️ **資料完整性警示**
-> 本報告為資料缺口分析，非正式的老藥新用評估報告。待上述資料補齊、TxGNN 產出預測適應症後，需重新執行完整報告流程（候選 ID：TW-DB15233-multi，版本 v4，資料截止日：2026-04-20）。
+## Turvallisuusnäkökohdat
+
+Katso lääkkeen pakkausselosteesta varoitukset ja vasta-aiheet.
+
+> Tämän Evidence Packin turvallisuusvaroitukset, vasta-aiheet ja lääkevuorovaikutus-kyselyt eivät palauttaneet käyttökelpoisia tietoja (DDI-kyselyjen tila: not_found). Fimea-pakkausselosteen varoitukset/vasta-aiheet (DG001, **Blocking**-tasoinen puute) odottavat täydentämistä, ja tämä puute estää S1-turvallisuusarvioinnin aloittamisen.
+
+---
+
+## Johtopäätökset ja seuraavat vaiheet
+
+**Päätös: Hold**
+
+**Perustelu:**
+Tämä Evidence Pack sisältää Blocking-tasoisen tietopuutteen (DG001: TFDA-pakkausseloste) sekä High-tasoisen puutteen (DG002: MOA), eikä TxGNN ole tuottanut mitään ennustettuja indikaatioita. Tällä hetkellä ei ole perusedellytyksiä vanhan lääkkeen uudelleenkäytön arviointiin.
+
+**Seuraavaan vaiheeseen siirtymiseksi vaadittavat täydennykset:**
+
+1. **（Blocking）** Täydennä TFDA-pakkausseloste PDF:nä ja analysoi varoitukset ja vasta-aiheet (DG001)
+2. **（High）** Hae vaikutusmekanismin (MOA) tiedot DrugBank API:n kautta (DG002)
+3. **（Vaatii）** Varmista, onko TxGNN jo suorittanut ennustuksen DB15233:lle. Jos ei, käynnistä ennustusprosessi
+4. **（Suositus）** Varmista alkuperäiset hyväksytyt indikaatiot (GIST / systeeminen mastosolun proliferaatio jne.) ja täytä `original_indications`
+5. **（Suositus）** Täydennä lääkevuorovaikutusten (DDI) tiedot
+
+---
+
+> ⚠️ **Tietojen täydellisyyden varoitus**
+> Tämä raportti on tietojen puutepuolesta tehty analyysi, ei muodollinen vanhan lääkkeen uudelleenkäytön arviointiraportti. Kun edellä mainitut tiedot on täydennetty ja TxGNN on tuottanut ennustetut indikaatiot, on suoritettava täydellisen raportin prosessi uudelleen (ehdokas-ID: TW-DB15233-multi, versio v4, tietojen katkaisu: 2026-04-20).
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

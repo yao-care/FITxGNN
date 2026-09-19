@@ -29,72 +29,73 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Toremifene: From Breast Cancer to HIV Infectious Disease
+# Toremifeeni: Rintojen syövästä HIV-infektioon
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Toremifene 是一種選擇性雌激素受體調節劑（SERM），原始適應症為乳癌治療（本證據包中原始 MOA 資料缺失，芬蘭市場狀態為Not marketed）。TxGNN 模型預測其對 **HIV 感染症** 可能有效，目前僅有 **0 篇臨床試驗** 與 **1 篇文獻** 支持此方向，且該文獻探討的是抗真菌機轉而非直接抗病毒機轉，證據強度薄弱。
+Toremifeeni on selek­tiivinen estrogeenireseptorimodulaattori (SERM), jonka alkuperäinen indikaatio on rintojen syövän hoito (alkuperäisen toimintamekanismin tiedot puuttuvat tästä näyttöpakettista, Suomen markkinatilanne on Not marketed). TxGNN-malli ennustaa sen olevan mahdollisesti tehokas **HIV-infektioon**, ja tällä hetkellä vain **0 kliinistä tutkimusta** ja **1 artikkeli** tukevat tätä suuntaa. Lisäksi mainittu artikkeli käsittelee antifungaalisia mekanismeja eikä suoraa antiviraalista mekanismia, mikä tekee näytön vahvuudesta heikko.
 
-## Quick Overview
+## Pikayleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | 乳癌 (Breast Cancer)（取自 repurposing rationale 敘述，非正式核准適應症欄位；正式仿單資料尚缺，見 DG001） |
-| Predicted New Indication | HIV infectious disease |
-| TxGNN Prediction Score | 99.41% |
-| Evidence Level | L4 |
-| Finland Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|------|--------|
+| Alkuperäinen indikaatio | Rintojen syöpä (Breast Cancer) (otettu uudelleenkäyttöindikaation perusteluista, ei virallinen hyväksytty indikaatio; virallisen valmisteen tiedot puuttuvat, katso DG001) |
+| Ennustettu uusi indikaatio | HIV-infektiotauti |
+| TxGNN-ennustepistemäärä | 99.41% |
+| Näyttötaso | L4 |
+| Suomen markkinatilanne | Not marketed |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Pidä odotuksissa |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-目前尚無可用的詳細作用機轉（MOA）資料（DG002，High severity）。根據既有分類資訊，Toremifene 屬於選擇性雌激素受體調節劑（SERM），其乳癌適應症的療效已獲證實，但本證據包中並無正式的原始適應症登記文字或核准仿單可供交叉驗證。
+Yksityiskohtaista toimintamekanismin (MOA) tietoa ei ole saatavilla (DG002, korkea vakavuus). Olemassa olevien luokittelutietojen perusteella toremifeeni on selek­tiivinen estrogeenireseptorimodulaattori (SERM), jonka teho rintojen syövän hoitoon on osoitettu, mutta tässä näyttöpaketissa ei ole virallista alkuperäisen indikaation dokumentaatiota tai hyväksyttyä valmistetta, jota voitaisiin käyttää ristiin tarkistamiseen.
 
-Toremifene 與 HIV 感染症之間並無直接的抗病毒機轉關聯。唯一支持此預測的文獻（PMID 24520056）研究的是雌激素受體拮抗劑（tamoxifen、toremifene）對新型隱球菌（*Cryptococcus neoformans*）EF-hand 蛋白的直接結合能力及抗真菌活性，屬於**抗黴菌機轉**，並非抗反轉錄病毒機轉。隱球菌腦膜炎雖為 HIV/AIDS 病人常見的伺機性感染，但該文獻支持的實際適應症應為「治療 HIV 患者之伺機性隱球菌感染（輔助抗真菌治療）」，而非「直接治療 HIV 病毒感染」。兩者臨床定位不同，TxGNN 高分預測（99.41%）與現有機轉證據之間存在明顯落差，屬於間接、薄弱的推論鏈。
+Toremifeenin ja HIV-infektiotaudin välillä ei ole suoraa antiviraalista toimintamekanismia. Ainoastaan tämä ennuste tukeva artikkeli (PMID 24520056) tutkii estrogeenireseptorin antagonistien (tamoksifeni, toremifeeni) suoraa sitoutumiskykyä *Cryptococcus neoformans* -sienen EF-hand -proteiineihin ja antifungaalista aktiivisuutta, joka on **antifungaalinen mekanismi** eikä antiretroviraali­nen mekanismi. Vaikka kryptokokkimeningiitti on yleinen opportunistinen infektio HIV/AIDS-potilailla, mainitun artikelin tosiasiallinen indikaatio pitäisi olla "HIV-potilaiden opportunistisen kryptokokki-infektioin hoito (antifungaalisen hoidon tukeminen)" eikä "HIV-viruksen suora hoito". Niiden kliininen asema on erilainen, ja TxGNN:n korkea pistemäärä (99.41%) ja olemassa oleva mekanismin näyttö eroavat merkittävästi toisistaan, mikä edustaa epäsuoraa ja heikkoa johtopäätösten ketjua.
 
-因此，儘管模型分數高，此預測方向的生物學合理性目前僅建立在單一體外機轉研究上，尚不足以支持進入下一階段安全性或臨床評估。
+Siksi, vaikka mallin pistemäärä on korkea, tämän ennustesuunnan biologinen järkevyys perustuu tällä hetkellä vain yhteen in vitro -mekanismi­tutkimukseen, mikä ei riitä seuraavaan vaiheeseen turvallisuuden tai kliinisen arvioinnin kannalta.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-目前無相關臨床試驗註冊
+Ei saatavilla olevia asiaan liittyviä kliinisen tutkimuksen rekisteröintejä
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät tulokset |
 |------|-----|------|------|---------|
-| [24520056](https://pubmed.ncbi.nlm.nih.gov/24520056/) | 2014 | Mechanistic (in vitro) | mBio | 雌激素受體拮抗劑（tamoxifen、toremifene）對新型隱球菌具直接殺菌活性，可結合真菌 EF-hand 蛋白，並與 fluconazole、amphotericin B 於體內外實驗中呈現加乘抗真菌效果；未涉及抗 HIV 病毒機轉 |
+| [24520056](https://pubmed.ncbi.nlm.nih.gov/24520056/) | 2014 | Mekanistinen (in vitro) | mBio | Estrogeenireseptorin antagonistit (tamoksifeni, toremifeeni) osoittavat suoraa fungisidaalista aktiivisuutta *Cryptococcus neoformans* -sienelle, voivat sitoutua sienen EF-hand -proteiineihin ja osoittavat additiivisia antifungaalisia vaikutuksia flukonatsolin ja amfoteriisiini B:n kanssa in vivo- ja in vitro -kokeissa; ei sisällä anti-HIV-viraalin mekanismia |
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-此藥品於芬蘭目前Not marketed（0 筆查驗登記），無授權資料可供列出。
+Tämä lääke ei ole tällä hetkellä markkinoilla Suomessa (0 hyväksyntähakemusta), eikä hyväksyntätietoja voida luetteloida.
 
-## Cytotoxicity
+## Sytotoksisuus
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy（荷爾蒙類 SERM，非傳統細胞毒性化療藥物） |
-| Myelosuppression Risk | 請參考仿單警語與注意事項 |
-| Emetogenicity Classification | 請參考仿單警語與注意事項 |
-| Monitoring Items | 請參考仿單警語與注意事項 |
-| Handling Protection | 請參考仿單警語與注意事項 |
+| Kohta | Sisältö |
+|------|---------|
+| Sytotoksisuuden luokitus | Kohdistettu hoito (hormoniterapian SERM, ei perinteinen sytostaattinen kemoterapialääke) |
+| Ydinreaktion (Myelosuppression) riski | Katso valmisteen käyttöturvatiedoista varoitukset ja huomautukset |
+| Pahoinvointi-herkkyys (Emetogenicity) | Katso valmisteen käyttöturvatiedoista varoitukset ja huomautukset |
+| Seurantakohdat | Katso valmisteen käyttöturvatiedoista varoitukset ja huomautukset |
+| Käsittelysuojaus | Katso valmisteen käyttöturvatiedoista varoitukset ja huomautukset |
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-請參考仿單以取得安全性資訊。
+Katso valmisteen käyttöturvatiedoista turvallisuustietojen saamiseksi.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidä odotuksissa**
 
-**Rationale:**
-目前唯一支持證據為單篇體外抗真菌機轉研究，並非直接抗 HIV 病毒證據，且原始適應症、MOA、TFDA 仿單警語等關鍵資料均缺失（DG001 為 Blocking 等級），無法進行安全性初評，故暫不推進。
+**Perustelut:**
+Ainoastaan tukeva näyttö on in vitro -antifungaalisen mekanismin yhdessä artikkelissa, ei suoraa anti-HIV-viraalin näyttöä, ja alkuperäisen indikaation, MOA:n, TFDA:n valmisteen käyttöturvatiedot ja muut kriittiset tiedot puuttuvat (DG001 on este-luokitus), eikä turvallisuuden alustava arvio ole mahdollinen, joten ei edetä tällä hetkellä.
 
-**To proceed, the following is needed:**
-- 取得 TFDA（或當地主管機關）正式仿單，確認警語與禁忌症（DG001，Blocking）
-- 補齊 Toremifene 完整作用機轉資料（DG002，High）
-- 釐清此適應症方向應定位為「抗 HIV 病毒治療」或「HIV 患者伺機性隱球菌感染輔助治療」，並據此重新檢索對應臨床試驗與文獻
-- 若後續方向確定為伺機性感染輔助治療，需補充與現有抗黴菌藥物（如 fluconazole、amphotericin B）併用之藥物交互作用資料
+**Jotta voidaan edetä, tarvitaan seuraavaa:**
+- Hanki TFDA:n (tai paikallisen viranomaisen) virallinen valmisteen käyttöturvainfo, jotta voit vahvistaa varoitukset ja vasta-aiheet (DG001, este)
+- Täydennä toremifeenin kaikki toimintamekanismin tiedot (DG002, korkea)
+- Selvennetään, pitäisikö tämä indikaatiosuunta määritellä "HIV-viruksen suoraksi hoitosuhteeksi" vai "HIV-potilaiden opportunistisen kryptokokki-infektioin apuhoidoksi", ja haetaan vastaavasti asiaan liittyviä kliinisen tutkimuksen ja kirjallisuuden tiedot
+- Jos myöhemmällä vaiheella suunta määritellään opportunistisen infektioin apuhoidoksi, täydennä lääkkeiden yhteisvaikutustiedot olemassa olevan antifungaalisten lääkkeiden (kuten flukonatsoli, amfoteriisiini B) kanssa
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

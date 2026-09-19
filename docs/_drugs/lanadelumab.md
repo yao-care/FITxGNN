@@ -29,67 +29,67 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Lanadelumab: Evidence Pack Incomplete — Repurposing Evaluation Pending
+# Lanadelumab: Näyttöpaketti epätäydellinen – Lääkkeen uudelleenkäyttöarviointi kesken
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Lanadelumab (DrugBank: DB14597) has been queried through the data pipeline, but the current Evidence Pack contains **no original indication data**, **no TxGNN predicted indications**, and **two unresolved data gaps** (one Blocking, one High severity).
-A full repurposing evaluation cannot be completed until these gaps are remediated — this report documents the current data state and outlines the steps required to proceed.
+Lanadelumab (DrugBank: DB14597) on käyty läpi tietolinja-alustan kautta, mutta nykyisessä Näyttöpaketissa ei ole **alkuperäisiä indikaatiotietoja**, **TxGNN:n ennustamia indikaatioita** eikä **kahta ratkaisematonta tietovajausta** (yksi kriittinen, yksi korkea vakavuus). Täydellistä lääkkeen uudelleenkäyttöarviointia ei voi valmistua ennen näiden vajauksien korjaamista – tämä raportti dokumentoi nykyisen tietojen tilan ja esittelee etenemiseen tarvittavat vaiheet.
 
 ---
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|---------|
-| Original Indication | — (no data retrieved) |
-| Predicted New Indication | — (TxGNN predictions not yet generated) |
-| TxGNN Prediction Score | — |
-| Evidence Level | N/A — prediction pipeline has not produced output |
-| Finland Market Status | Not marketed (0 authorizations) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+| Alkuperäinen indikaatio | — (tietoja ei haettu) |
+| Ennustettu uusi indikaatio | — (TxGNN-ennusteita ei ole vielä luotu) |
+| TxGNN-ennustepiste | — |
+| Näyttöjen taso | N/A — ennustelinja ei ole tuottanut tuloksia |
+| Suomen markkinatilanne | Ei markkinoilla (0 myyntilupaa) |
+| Myyntilupien lukumäärä | 0 |
+| Suositeltu päätös | **Pidätys** |
 
 ---
 
-## Why No Mechanistic Analysis Is Possible
+## Miksi mekaniikan analyysi ei ole mahdollista
 
-Currently, detailed mechanism of action data is not available for Lanadelumab in this Evidence Pack.
+Tällä hetkellä Lanadelumabin yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla tässä Näyttöpaketissa.
 
-Two data gaps block the mechanistic reasoning step:
+Kaksi tietovajausta estävät mekanistisen päättelyvaiheen:
 
-- **DG002 (High severity)** — MOA is missing from the DrugBank query results. Without this, it is impossible to draw a mechanistic link between any original indication and a predicted new indication.
-- **DG001 (Blocking severity)** — TFDA package insert warnings and contraindications have not been parsed. This prevents the mandatory Safety Pre-Screen (S1) from running.
+- **DG002 (korkea vakavuus)** — MOA puuttuu DrugBank-kyselytulosteista. Ilman tätä on mahdotonta muodostaa mekaanista yhteyttä minkä tahansa alkuperäisen indikaation ja ennustetun uuden indikaation välille.
+- **DG001 (kriittinen vakavuus)** — TFDA-pakkauksen sisällön varoituksia ja vasta-aiheita ei ole jäsennetty. Tämä estää pakollisen turvallisuuden esikyselyn (S1) suorittamisen.
 
-Until DG001 is resolved, the pipeline **cannot advance to safety evaluation**. Until DG002 is resolved, any predicted indication cannot be assessed for biological plausibility.
-
----
-
-## Finland Market Information
-
-Lanadelumab is not currently marketed in Finland. No marketing authorizations were found in the regulatory query conducted on 2026-03-29.
+Kunnes DG001 on ratkaistu, prosessi **ei voi edetä turvallisuuden arviointiin**. Kunnes DG002 on ratkaistu, yhtään ennustettua indikaatiota ei voida arvioida biologisen uskottavuuden näkökulmasta.
 
 ---
 
-## Safety Considerations
+## Suomen markkinatiedot
 
-Please refer to the package insert for safety information.
+Lanadelumab ei ole tällä hetkellä markkinoilla Suomessa. Myyntilupoja ei löytynyt sääntelyhallinnon kyselystä, joka toteutettiin 2026-03-29.
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuusnäkökohtia
 
-**Decision: Hold**
+Turvallisuu­stiedot löytyvät pakkauksen sisällöstä.
 
-**Rationale:**
-The Evidence Pack has zero predicted indications and contains a Blocking-severity data gap (missing regulatory safety data), making it technically and ethically premature to issue any repurposing recommendation.
+---
 
-**To proceed, the following is needed:**
+## Johtopäätös ja seuraavat vaiheet
 
-1. **[DG001 — Blocking]** Download the TFDA package insert PDF for Lanadelumab and parse warnings, contraindications, and special population restrictions. This is a prerequisite before any safety pre-screen can run.
-2. **[DG002 — High]** Query DrugBank API (`/drugs/DB14597`) to retrieve the mechanism of action, pharmacodynamics, and drug categories. This is required for mechanistic plausibility analysis.
-3. **Re-run the TxGNN prediction pipeline** for DB14597 to generate `predicted_indications` with scores, supporting clinical trials, and literature.
-4. Once predictions are available, re-generate this Evidence Pack (v5+) and run a full L1–L5 evidence evaluation.
+**Päätös: Pidätys**
+
+**Perustelut:**
+Näyttöpaketissa on nolla ennustettua indikaatiota ja se sisältää kriittisen vakavuuden tietovajauden (puuttuvat sääntelyturvallisuustiedot), mikä tekee teknisesti ja eettisesti ennenaikaiseksi antaa mitään lääkkeen uudelleenkäyttösuositusta.
+
+**Etenemiseen tarvitaan seuraavaa:**
+
+1. **[DG001 — kriittinen]** Lataa Lanadelumabin TFDA-pakkauksen sisältö PDF-muodossa ja jäsennä varoitukset, vasta-aiheet ja erityisväestöjen rajoitukset. Tämä on edellytys, ennen kuin mitään turvallisuuden esiarviointia voidaan suorittaa.
+2. **[DG002 — korkea]** Kyselytä DrugBank API:ta (`/drugs/DB14597`) noutaaksesi vaikutusmekanismin, farmakodynamiikan ja lääkkeen luokat. Tämä vaaditaan mekanistisen uskottavuuden analyysia varten.
+3. **Suorita TxGNN-ennustelinja uudelleen** DB14597:lle tuottaaksesi `predicted_indications` pisteillä, niihin liittyvät kliiniset tutkimukset ja kirjallisuuden.
+4. Kun ennusteet ovat saatavilla, luo Näyttöpaketti uudelleen (v5+) ja suorita täydellinen L1–L5-näytönarviointti.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

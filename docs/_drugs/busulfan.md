@@ -29,131 +29,132 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Busulfan: From Chronic Myeloid Leukemia to Myelodysplastic Syndrome
+# Busulfani: kroonisesta myeloidisesta leukemiasta myelodyplastiseen oireyhtymään
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Busulfan is a classic bifunctional alkylating agent, historically developed for chronic myeloid leukemia and now used mainly as a myeloablative conditioning agent before allogeneic hematopoietic stem cell transplantation (allo-HSCT). The TxGNN model predicts it may be effective for **Myelodysplastic Syndrome (MDS)**, with **50 clinical trials** and **20 publications** currently supporting this direction, including completed Phase 3 randomized trials.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Chronic myeloid leukemia / myeloablative conditioning agent (based on general pharmacological knowledge — not captured in the current Finland regulatory dataset, which contains no license records) |
-| Predicted New Indication | Myelodysplastic Syndrome |
-| TxGNN Prediction Score | 99.62% |
-| Evidence Level | L1 |
-| Finland Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+Busulfani on klassinen bifunktiaalinen alkiloiva aine, joka kehitettiin historiallisesti kroonista myeloidista leukemiaa varten ja jota käytetään nykyään lähinnä myeloablatiivisen esilääkityksen aineena allogenisen vermuodostuksellisen kantasiirrännän (allo-HSCT) edellä. TxGNN-malli ennustaa, että se voi olla tehokas **myelodyplastisessa oireyhtymässä (MDS)**, ja tätä suuntaa tukee tällä hetkellä **50 kliinistä tutkimusta** ja **20 julkaisua**, mukaan lukien valmistuneet vaiheen 3 satunnaistetut kokeet.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Detailed mechanism-of-action data is not available in the evidence pack (MOA field marked as a data gap). Based on well-established pharmacology, busulfan is a bifunctional alkylating agent that cross-links DNA, producing profound, dose-dependent myeloablation. Its established modern clinical role is as a component of **myeloablative/reduced-intensity conditioning regimens** (typically combined with fludarabine or cyclophosphamide) given immediately before allo-HSCT.
-
-MDS is a clonal hematopoietic stem cell disorder for which allo-HSCT remains the only potentially curative treatment in higher-risk disease. To perform allo-HSCT, the recipient's abnormal marrow must first be ablated to allow donor stem cells to engraft — this is exactly the role busulfan-based conditioning already plays in routine clinical practice for MDS. As the repurposing rationale notes, this is not a novel biological hypothesis so much as a confirmation of an already-standard clinical pathway: busulfan-based conditioning (Bu/Flu, Bu/Cy, timed-sequential busulfan, etc.) is widely used pre-transplant for MDS patients, which explains both the very high TxGNN score and the unusually deep clinical trial/literature base for this pairing.
-
-The mechanistic link is therefore strong and directly supported by decades of transplant literature, rather than purely computational inference — multiple Phase 3 randomized trials directly compare busulfan-based conditioning regimens in MDS/AML populations undergoing allo-HSCT.
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Krooninen myeloidi leukemia / myeloablatiivinen esilääkitysaine (perustuu yleiseen farmakologiseen tietämykseen — ei sisälly nykyiseen Suomen säännösten mukaiseen tietokantaan, joka ei sisällä lisensointitietueita) |
+| Ennustettu uusi indikaatio | Myelodyplastinen oireyhtymä |
+| TxGNN-ennusteen pistemäärä | 99.62% |
+| Todisteiden taso | L1 |
+| Suomen markkinatilanne | ✗ Ei markkinoilla |
+| Lupien määrä | 0 |
+| Suositeltu päätös | Jatka varavaraisuuksilla |
 
 ---
 
-## Clinical Trial Evidence
+## Miksi tämä ennuste on perusteltu?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla todistepakkauksessa (MOA-kenttä merkitty tietoaukoksi). Hyvin vakiintuneen farmakologian perusteella busulfani on bifunktiaalinen alkiloiva aine, joka ristisilloittaa DNA:ta, mikä aiheuttaa syvän, annoksesta riippuvan myeloablation. Sen vakiintuneet nykyaikaisen kliinisen roolit ovat **myeloablatiivisten/vähennetyn intensiteetin esilääkityskaavioiden** komponentit (tyypillisesti yhdistetty fludarabiniin tai syklofosforamidiin), jotka annetaan välittömästi ennen allo-HSCT:ta.
+
+MDS on klonaalinen vermuodostuksellisten kantasolujen häiriö, jolle allo-HSCT jää ainoaksi mahdollisesti paranevaksi hoidoksi korkeamman riskin sairauksissa. Allo-HSCT:n suorittamiseksi potilaan poikkeava ydinaines on ensin abloiduttava, jotta luovuttajan kantasolut voivat istuuntua — tämä on täsmälleen sillä roolilla, joka busulfanipohjaisella esilääkityksellä on jo rutiinissa kliininen käytäntö MDS:n hoidossa. Kuten uudelleenkäytön perusteluissa todetaan, tämä ei ole uusi biologinen hypoteesi, vaan vakiintuneen kliinisen polun vahvistus: busulfanipohjaisella esilääkityksellä (Bu/Flu, Bu/Cy, ajoitetulla peräkkäisellä busulfanilla jne.) käytetään laajasti siirron edellä MDS-potilaiden hoidossa, mikä selittää sekä erittäin korkean TxGNN-pistemäärän että epätavallisen syvän kliinisen tutkimuksen/kirjallisuuspohjan tälle yhdistelmälle.
+
+Mekanistinen yhteys on siis vahva ja sitä tukevat suoraan vuosikymmenten siirtökirjallisuus, eivät pelkästään laskennalliset johtopäätökset — useita vaiheen 3 satunnaistettuja kokeita vertaa suoraan busulfanipohjaisiin esilääkityskaavioihin MDS/AML-populaatioissa, jotka käyvät läpi allo-HSCT:tä.
+
+---
+
+## Kliinisen tutkimuksen todisteet
+
+| Tutkimusnumero | Vaihe | Tila | Osallistujamäärä | Tärkeimmät havainnot |
 |---------|------|------|------|---------|
-| [NCT00416598](https://clinicaltrials.gov/study/NCT00416598) | Phase 2 | Completed | 546 | Maintenance decitabine after busulfan-containing induction/intensification in AML/MDS; large completed study, grade A relevance |
-| [NCT02250937](https://clinicaltrials.gov/study/NCT02250937) | Phase 2 | Active, not recruiting | 116 | Venetoclax + timed-sequential busulfan/cladribine/fludarabine conditioning directly in AML and MDS patients |
-| [NCT06477549](https://clinicaltrials.gov/study/NCT06477549) | Phase 2 | Recruiting | 220 | Randomized comparison of bendamustine vs. ruxolitinib added to fludarabine/busulfan conditioning in haploidentical HSCT |
-| [NCT02861417](https://clinicaltrials.gov/study/NCT02861417) | Phase 2 | Active, not recruiting | 204 | Timed-sequential busulfan plus post-transplant cyclophosphamide conditioning for blood cancers including MDS |
-| [NCT00454480](https://clinicaltrials.gov/study/NCT00454480) | Phase 2/3 | Completed | 2000 | Large treatment-development program for older AML/high-risk MDS patients, including busulfan-based regimens |
-| [NCT00002989](https://clinicaltrials.gov/study/NCT00002989) | Phase 3 | Unknown | 207 | Randomized Phase 3 trial intensifying the conditioning regimen for allo-HSCT in leukemia/MDS with high relapse risk |
-| [NCT03779854](https://clinicaltrials.gov/study/NCT03779854) | Phase 2 | Recruiting | 68 | Multicenter randomized trial of naïve T-cell depletion for chronic GVHD prevention post-transplant |
-| [NCT01861106](https://clinicaltrials.gov/study/NCT01861106) | Phase 2 | Recruiting | 144 | Allo-HSCT for GATA2 deficiency/MonoMAC syndrome, a condition that frequently progresses to MDS |
-| [NCT00186342](https://clinicaltrials.gov/study/NCT00186342) | N/A | Completed | 120 | Busulfan, etoposide and cyclophosphamide conditioning for MDS/MPD patients aged 51–60 |
-| [NCT01622556](https://clinicaltrials.gov/study/NCT01622556) | Phase 2 | Terminated | 6 | Reduced-intensity busulfan/TBI/thymoglobulin conditioning with cord blood transplant; small, terminated, limited value |
+| [NCT00416598](https://clinicaltrials.gov/study/NCT00416598) | Vaihe 2 | Valmistunut | 546 | Ylläpidon dekitabiini busulfania sisältävän induktion/intensifioinnin jälkeen AML/MDS:ssä; suuri valmistunut tutkimus, luokan A relevanssi |
+| [NCT02250937](https://clinicaltrials.gov/study/NCT02250937) | Vaihe 2 | Aktiivinen, ei rekrytoi | 116 | Venetoclax + ajoitettu peräkkäinen busulfani/kladribiini/fludarabiini esilääkitys suoraan AML:n ja MDS:n potilaissa |
+| [NCT06477549](https://clinicaltrials.gov/study/NCT06477549) | Vaihe 2 | Rekrytoi | 220 | Satunnaistettu vertailu bendamustinesta vs. ruxolitinibistä, jotka on lisätty fludarabiini/busulfani esilääkitykseen haploidentisen HSCT:n yhteydessä |
+| [NCT02861417](https://clinicaltrials.gov/study/NCT02861417) | Vaihe 2 | Aktiivinen, ei rekrytoi | 204 | Ajoitettu peräkkäinen busulfani sekä siirron jälkeinen siklofosforamidi esilääkitys verisiirauksille, mukaan lukien MDS |
+| [NCT00454480](https://clinicaltrials.gov/study/NCT00454480) | Vaihe 2/3 | Valmistunut | 2000 | Suuri hoitokehitysohjelma vanhemmille AML/korkean riskin MDS-potilaille, sisältäen busulfanipohjaisia kaavioita |
+| [NCT00002989](https://clinicaltrials.gov/study/NCT00002989) | Vaihe 3 | Tuntematon | 207 | Satunnaistettu vaiheen 3 tutkimus intensivoida esilääkityskaavioita allo-HSCT:ssa leukemian/MDS:n osalta, joissa on korkea uusiutumisen riski |
+| [NCT03779854](https://clinicaltrials.gov/study/NCT03779854) | Vaihe 2 | Rekrytoi | 68 | Monikeskuksinen satunnaistettu tutkimus naiivien T-solujen depletioinnista kronikisen GVHD:n ehkäisemiseksi siirron jälkeen |
+| [NCT01861106](https://clinicaltrials.gov/study/NCT01861106) | Vaihe 2 | Rekrytoi | 144 | Allo-HSCT GATA2-puutokselle/MonoMAC-oireyhtymälle, joka usein etenee MDS:ksi |
+| [NCT00186342](https://clinicaltrials.gov/study/NCT00186342) | N/A | Valmistunut | 120 | Busulfani, etopositidi ja siklofosforamidi esilääkitys MDS/MPD-potilaille, joiden ikä on 51–60 vuotta |
+| [NCT01622556](https://clinicaltrials.gov/study/NCT01622556) | Vaihe 2 | Loppuutettu | 6 | Vähennetyn intensiteetin busulfani/TBI/tymoglobuliini esilääkitys napanuoraverensiirron kanssa; pieni, loppuutettu, rajallinen arvo |
 
 ---
 
-## Literature Evidence
+## Kirjallisuuden todisteet
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät havainnot |
 |------|-----|------|------|---------|
-| [31606445](https://pubmed.ncbi.nlm.nih.gov/31606445/) | 2020 | RCT (Phase 3) | The Lancet Haematology | Randomized non-inferiority trial: treosulfan vs. busulfan/fludarabine conditioning in older AML/MDS patients undergoing allo-HSCT |
-| [28380315](https://pubmed.ncbi.nlm.nih.gov/28380315/) | 2017 | RCT (Phase 3) | J Clin Oncol | Randomized trial comparing myeloablative vs. reduced-intensity busulfan-based conditioning for AML/MDS |
-| [36702138](https://pubmed.ncbi.nlm.nih.gov/36702138/) | 2023 | RCT (Phase 3) | The Lancet Haematology | Open-label multicenter randomized trial: G-CSF+decitabine+busulfan/cyclophosphamide vs. busulfan/cyclophosphamide alone to reduce relapse in MDS/secondary AML |
-| [35617104](https://pubmed.ncbi.nlm.nih.gov/35617104/) | 2022 | Cohort | American Journal of Hematology | Final analysis: treosulfan improves outcomes vs. reduced-intensity busulfan in older AML/MDS allo-HSCT patients |
-| [33425740](https://pubmed.ncbi.nlm.nih.gov/33425740/) | 2020 | Systematic Review / Meta-analysis | Frontiers in Oncology | Long-term outcomes of treosulfan- vs. busulfan-based conditioning in MDS/AML before HSCT |
-| [38648898](https://pubmed.ncbi.nlm.nih.gov/38648898/) | 2024 | Cohort | Transplantation and Cellular Therapy | Propensity-matched retrospective comparison of treosulfan- vs. busulfan-based conditioning in MDS (n=138) |
-| [40079242](https://pubmed.ncbi.nlm.nih.gov/40079242/) | 2025 | Review | American Journal of Hematology | Contemporary review of allogeneic HSCT for MDS and myelofibrosis, covering conditioning strategy |
-| [38176654](https://pubmed.ncbi.nlm.nih.gov/38176654/) | 2024 | Retrospective cohort | Transplantation and Cellular Therapy | Long-term complications after treosulfan- vs. busulfan-based conditioning in pediatric acute leukemia/MDS |
-| [37579918](https://pubmed.ncbi.nlm.nih.gov/37579918/) | 2023 | Cohort | Transplantation and Cellular Therapy | Myeloablative busulfan + fludarabine with in vivo T-cell depletion shown safe and effective for AML/MDS |
-| [34489555](https://pubmed.ncbi.nlm.nih.gov/34489555/) | 2021 | Propensity-matched cohort | Bone Marrow Transplantation | Fludarabine/busulfan vs. busulfan/cyclophosphamide myeloablative conditioning for MDS, nationwide Japanese registry |
+| [31606445](https://pubmed.ncbi.nlm.nih.gov/31606445/) | 2020 | RCT (Vaihe 3) | The Lancet Haematology | Satunnaistettu ei-alemmuustutkimus: treosulfani vs. busulfani/fludarabiini esilääkitys vanhemmille AML/MDS-potilaille, jotka käyvät läpi allo-HSCT:tä |
+| [28380315](https://pubmed.ncbi.nlm.nih.gov/28380315/) | 2017 | RCT (Vaihe 3) | J Clin Oncol | Satunnaistettu tutkimus vertaamassa myeloablatiivista vs. vähennetyn intensiteetin busulfanipohjaista esilääkitystä AML/MDS:lle |
+| [36702138](https://pubmed.ncbi.nlm.nih.gov/36702138/) | 2023 | RCT (Vaihe 3) | The Lancet Haematology | Avoin monikeskuksinen satunnaistettu tutkimus: G-CSF+dekitabiini+busulfani/siklofosforamidi vs. busulfani/siklofosforamidi yksinään relapsien vähentämiseksi MDS/sekundaarissa AML:ssä |
+| [35617104](https://pubmed.ncbi.nlm.nih.gov/35617104/) | 2022 | Kohortti | American Journal of Hematology | Lopullinen analyysi: treosulfani parantaa tuloksia verrattuna vähennetyn intensiteetin busulfaniin vanhemmille AML/MDS allo-HSCT-potilaille |
+| [33425740](https://pubmed.ncbi.nlm.nih.gov/33425740/) | 2020 | Järjelmällinen katsaus / Meta-analyysi | Frontiers in Oncology | Pitkäaikaisten tulosten treosulfani- vs. busulfanipohjaiset esilääkitykset MDS/AML:ssä ennen HSCT:tä |
+| [38648898](https://pubmed.ncbi.nlm.nih.gov/38648898/) | 2024 | Kohortti | Transplantation and Cellular Therapy | Taipumuspisteillä sovittu retrospektiivinen vertailu treosulfani- vs. busulfanipohjaista esilääkitystä MDS:ssä (n=138) |
+| [40079242](https://pubmed.ncbi.nlm.nih.gov/40079242/) | 2025 | Katsaus | American Journal of Hematology | Nykyaikainen katsaus allogenisesta HSCT:stä MDS:lle ja myelofibroosulle, joka kattaa esilääkitysstrategian |
+| [38176654](https://pubmed.ncbi.nlm.nih.gov/38176654/) | 2024 | Retrospektiivinen kohortti | Transplantation and Cellular Therapy | Pitkäaikaiset komplikaatiot treosulfani- vs. busulfanipohjaisen esilääkityksen jälkeen lapsuusiän akuutin leukemian/MDS:n osalta |
+| [37579918](https://pubmed.ncbi.nlm.nih.gov/37579918/) | 2023 | Kohortti | Transplantation and Cellular Therapy | Myeloablatiivisen busulfanin + fludarabiinin in vivo T-solujen depletioinnilla on osoitettu olevan turvallinen ja tehokas AML/MDS:lle |
+| [34489555](https://pubmed.ncbi.nlm.nih.gov/34489555/) | 2021 | Taipumuspisteillä sovittu kohortti | Bone Marrow Transplantation | Fludarabiini/busulfani vs. busulfani/siklofosforamidi myeloablatiivinen esilääkitys MDS:lle, koko maan laajuinen Japanin rekisteri |
 
 ---
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Busulfan currently holds **no marketing authorization records in the evidence pack for Finland** (market status: Not marketed; 0 authorizations on file). No product-level licensing data is available for evaluation.
-
----
-
-## Cytotoxicity
-
-Busulfan is a well-established cytotoxic alkylating agent used in high-dose myeloablative regimens; it qualifies as antineoplastic/cytotoxic based on drug class (alkylating agent) and its role in myeloablative chemotherapy.
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (alkylating agent; myeloablative conditioning agent) |
-| Myelosuppression Risk | High — myeloablation is the intended therapeutic effect; profound, prolonged pancytopenia is expected by design, particularly at HSCT-conditioning doses |
-| Emetogenicity Classification | High (especially at high-dose IV conditioning regimens) |
-| Monitoring Items | CBC with differential, hepatic function (veno-occlusive disease/sinusoidal obstruction syndrome risk), pulmonary function ("busulfan lung"/pulmonary fibrosis), seizure precautions at high dose, and therapeutic drug monitoring (busulfan plasma levels) where used for conditioning |
-| Handling Protection | Cytotoxic drug handling precautions required (PPE, closed-system transfer devices per institutional cytotoxic handling protocols) |
-
-One identified publication ([PMID 37856098](https://pubmed.ncbi.nlm.nih.gov/37856098/)) specifically evaluates busulfan's association with secondary malignancy risk, relevant to long-term safety monitoring in non-malignant or curative-intent transplant settings.
+Busulfanilla ei ole tällä hetkellä **mitään markkinoinnin hyväksyntätietueita todistepakkauksessa Suomelle** (markkinatilanne: Ei markkinoilla; 0 hyväksyntää aktiivisia). Tuotteen tasoisesta lisensointitiedosta ei ole saatavilla arviointia varten.
 
 ---
 
-## Safety Considerations
+## Sytotoksisuus
 
-Please refer to the package insert for safety information. Key warnings, contraindications, and drug-drug interaction data were not available in the evidence pack (DDI query returned no results), and this is flagged as a **Blocking** data gap (DG001) that must be resolved before any S1 safety assessment.
+Busulfani on hyvin vakiintunut sytotoksinen alkiloiva aine, jota käytetään korkean annoksen myeloablatiivisissa kaavioissa; se täyttää antineoplastisen/sytoktoksisen määrityksen lääkeluokan (alkiloiva aine) ja sen roolin perusteella myeloablatiivisessa kemoterapiassa.
+
+| Kohta | Sisältö |
+|------|---------|
+| Sytoktoksisuuden luokitus | Tavanomaiset sytotoksiset (alkiloiva aine; myeloablatiivinen esilääkitysaine) |
+| Myelosuppression-riski | Korkea — myeloablatatio on tarkoituksenmukainen terapeuttinen vaikutus; syvä, pitkäkestoinen pankytopenia odotetaan kaaviolla, erityisesti HSCT-esilääkitysannoksissa |
+| Oksentamisen aiheuttamisen luokitus | Korkea (erityisesti korkean annoksen IV esilääkityskaavioissa) |
+| Seurannan kohteet | CBC-testi differentiaalilla, maksatoiminta (veno-oklusiivinen tauti/sinusoidaalinen obstruktsiosyndrooman riski), keuhkotoiminta ("busulfan-keuhko"/keuhkofibroosu), saivaisten ennaltaehkäisy korkealla annoksella ja terapeuttinen lääkkeen seuranta (busulfanin plasman tasot), missä sitä käytetään esilääkitykseen |
+| Käsittelyn suojaus | Sytoktoksisen lääkkeen käsittelyn varotoimet vaaditaan (PPE, suljetun järjestelmän siirtolaiteet institusionaalisten sytoktoksisten käsittelyprotokollien mukaisesti) |
+
+Yksi tunnistettu julkaisu ([PMID 37856098](https://pubmed.ncbi.nlm.nih.gov/37856098/)) arvioi erityisesti busulfanin yhteyttä sekundaarisen pahanlaatuisen kasvainriskin kanssa, joka on merkityksellinen pitkäaikaisen turvallisuuden seurantaan ei-pahanlaatuisissa tai parantoavan tarkoituksen mukaissa siirtoasetelmissa.
 
 ---
 
-## Other Predicted Indications (Lower Priority)
+## Turvallisuushuomiot
 
-This evidence pack also scored busulfan against 9 additional candidate indications, all ranked below MDS and mechanistically related to it as a broader hematologic-malignancy/bone-marrow-failure cluster, except two flagged as likely graph artifacts:
+Katso turvallisuustiedoista pakkauksen selosteesta. Tärkeimmät varoitukset, vasta-aiheet ja lääkkeiden väliset vuorovaikutustiedot eivät olleet käytettävissä todistepakkauksessa (DDI-kysely palautti nolla tuloksia), ja tämä merkitään **Blocking**-tietoaukoksi (DG001), joka on ratkaistava ennen mitään S1 turvallisuuden arviointia.
 
-| Rank | Indication | Evidence Level | Recommendation |
+---
+
+## Muut ennustetut indikaatiot (Alhaisempi prioriteetti)
+
+Tämä todistepakkaus pisteitti busulfanin myös 9 muuta ehdokas-indikaatiota vastaan, kaikki sijoittuivat MDS:n alapuolelle ja olivat mekanistisesti siihen liittyvät laajemmaksi verisiirauden/luuydimen vioittumisen klusteriksi, paitsi kaksi, jotka merkittiin todennäköisiksi verkon häiriöiden seurauksiksi:
+
+| Sijoitus | Indikaatio | Todisteiden taso | Suositus |
 |------|-----------|----------------|-----------------|
-| 2 | Refractory cytopenia of childhood | L2 | Research Question |
-| 3 | Unclassified myelodysplastic syndrome | L3 | Research Question |
-| 4 | Partial deletion of chromosome 5q (5q- syndrome) | L5 | Hold |
-| 5 | Aregenerative anemia (aplastic anemia) | L2 | Proceed with Guardrails |
-| 6 | Severe congenital hypochromic anemia w/ ringed sideroblasts | L5 | Hold |
-| 7 | HIV infectious disease | L3 | Research Question |
-| 8 | Neurodevelopmental disorder (ataxic gait/absent speech) | L5 | Hold — likely graph noise |
-| 9 | Seborrheic keratosis | L5 | Hold — likely false positive |
-| 10 | Feline acquired immunodeficiency syndrome | L5 | Hold — non-human species, should be excluded from evaluation |
+| 2 | Lapsuuden refraktorinen sytopennia | L2 | Tutkimuskysymys |
+| 3 | Luokittelematon myelodyplastinen oireyhtymä | L3 | Tutkimuskysymys |
+| 4 | Kromosomin 5q:n osittainen poistuminen (5q--oireyhtymä) | L5 | Pidä |
+| 5 | Aregeneratiivinen anemia (aplastinen anemia) | L2 | Jatka varavaraisuuksilla |
+| 6 | Vakava synnynnäinen hypokrominen anemia rengastettujen sideroblastien kanssa | L5 | Pidä |
+| 7 | HIV-infektiosairaus | L3 | Tutkimuskysymys |
+| 8 | Neurokeihityshäiriö (ataksinen käynti/puheettomyys) | L5 | Pidä — todennäköisesti verkon häiriö |
+| 9 | Seborroinen keratoosi | L5 | Pidä — todennäköisesti väärä positiivinen |
+| 10 | Kissojen hankittu immuunikadon oireyhtymä | L5 | Pidä — muille kuin ihmisille kuuluva laji, tulisi sulkea pois arvioinnista |
 
 ---
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Proceed with Guardrails**
+**Päätös: Jatka varavaraisuuksilla**
 
-**Rationale:**
-Myelodysplastic syndrome has the strongest evidence base of all predicted indications (L1: multiple completed Phase 3 RCTs directly comparing busulfan-based conditioning regimens in this population), and busulfan-based conditioning is already an established standard of care ahead of allo-HSCT for MDS. However, busulfan is currently unmarketed in Finland and critical safety documentation (TFDA/Fimea label warnings and contraindications) is missing, so guardrails are required before proceeding.
+**Perustelut:**
+Myelodyplastisella oireyhtymällä on vahvin todistepohja kaikista ennustetuista indikaatioista (L1: useita valmistuneita vaiheen 3 RCT:tä, jotka vertaavat suoraan busulfanipohjaisiin esilääkityskaavioihin tässä populaatiossa), ja busulfanipohjaisella esilääkityksellä on jo vakiintunut standardi hoitokallo allo-HSCT:n edellä MDS:lle. Kuitenkin busulfani ei ole tällä hetkellä markkinoilla Suomessa ja kriittiset turvallisuuden dokumentointi (TFDA/Fimea-merkinnän varoitukset ja vasta-aiheet) puuttuvat, joten varavaraisuudet ovat tarpeen ennen jatkamista.
 
-**To proceed, the following is needed:**
-- Resolve blocking data gap DG001: obtain official Finnish/EU package insert warnings and contraindications
-- Resolve high-priority data gap DG002: confirm detailed mechanism of action from DrugBank or product label
-- Confirm whether any Finland/EU marketing authorization exists for busulfan under any brand (e.g., Busilvex) despite the "not marketed" status shown here
-- Establish a drug-drug interaction profile (current DDI query returned no data)
-- Develop a monitoring and cytotoxic-handling protocol specific to conditioning-dose use in MDS transplant candidates
+**Jatkaakseen tarvitaan seuraavaa:**
+- Ratkaise estävä tietoaukko DG001: hanki viralliset Suomen/EU-pakkauksen selosteesta varoitukset ja vasta-aiheet
+- Ratkaise korkea-prioriteettinen tietoaukko DG002: vahvista yksityiskohtainen vaikutusmekanismi DrugBankista tai tuotteen merkinnästä
+- Vahvista, onko Suomessa/EU:ssa busulfanille mikään markkinoinnin hyväksyntä missään tuotemerkin alla (esim. Busilvex) huolimatta täällä näytettävästä "ei markkinoilla" -statuksesta
+- Muodosta lääkkeiden väliset vuorovaikutusprofiilit (nykyinen DDI-kysely palautti nolla dataa)
+- Kehitä seuranta- ja sytoktoksisen käsittelyn protokolla, joka on erityinen esilääkitysannoksen käytölle MDS:n siirron ehdokkaissa
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

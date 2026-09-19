@@ -29,62 +29,63 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Granisetron: From Antiemetic Use to Manic Bipolar Affective Disorder
+# Granisetron: Antiemeettisestä käytöstä maniakaalisen kaksisuuntaisen affektiivisen häiriön hoitoon
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Granisetron is a selective 5-HT3 receptor antagonist known for antiemetic use (chemotherapy/radiotherapy-induced and postoperative nausea and vomiting). The TxGNN model predicts it may be effective for **manic bipolar affective disorder**, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a pure model-generated hypothesis with no corroborating evidence.
+Granisetron on selektiivinen 5-HT3-reseptoriantagonisti, joka tunnetaan antiemeettisestä käytöstään (kemoterapian/sädehoidon aiheuttama pahoinvointi ja oksentelu sekä postoperatiivinen pahoinvointi ja oksentelu). TxGNN-malli ennustaa, että se voi olla tehokas **maniakaalisen kaksisuuntaisen affektiivisen häiriön** hoidossa, mutta tätä ennustusta tukee tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua** — kyseessä on puhtaasti mallista johdettu hypoteesi, jolla ei ole vahvistavia näyttöjä.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Antiemetic use (CINV/PONV) — based on known pharmacology of 5-HT3 antagonists; not confirmed via evidence pack (no Finland license text on file) |
-| Predicted New Indication | Manic bipolar affective disorder |
-| TxGNN Prediction Score | 99.62% |
-| Evidence Level | L5 |
-| Finland Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen indikaatio | Antiemeettinen käyttö (CINV/PONV) — perustuu 5-HT3-antagonistien tunnettuun farmakologiaan; ei vahvistettu näyttöpaketissa (Suomen lupaa koskevaa tekstiä ei ole saatavilla) |
+| Ennustettu uusi indikaatio | Maniakaalinen kaksisuuntainen affektiivinen häiriö |
+| TxGNN-ennustepisteet | 99.62% |
+| Näyttöjen taso | L5 |
+| Suomen markkinoiden asema | Ei markkinoilla (Ei markkinoilla) |
+| Lupien määrä | 0 |
+| Suositeltu päätös | Odota |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on kohtuullinen?
 
-Currently, detailed mechanism of action data is not available. Based on known information, granisetron is a selective 5-HT3 (serotonin) receptor antagonist, its efficacy in antiemetic use has been proven, and mechanistically it may theoretically extend to conditions involving serotonergic dysregulation.
+Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla. Tunnettujen tietojen perusteella granisetron on selektiivinen 5-HT3 (serotoniini) -reseptoriantagonisti, sen teho antiemeettisessä käytössä on todistettu, ja mekanistisesti se voi teoriassa ulottua serotoniergisen säätöhäiriöön liittyviin tiloihin.
 
-The repurposing rationale supplied for this candidate notes that 5-HT3 receptor signaling has an indirect, theoretical relationship to mood regulation — pointing to small exploratory studies of the same-class drug ondansetron as adjunctive therapy in mania. However, this is explicitly flagged as speculative: there is no direct mechanistic or clinical evidence that granisetron itself has any effect on manic bipolar affective disorder.
+Tälle ehdokkaalle toimitetun uudelleenkäyttöperustelun mukaan 5-HT3-reseptoreiden signalointi liittyy epäsuorasti ja teoriassa mielialan säätelyyn — se viittaa saman luokan lääkkeen ondansetronia koskeviin pieniin alkututkimuksiin lisähoitona maniassa. Tämä on kuitenkin selvästi merkitty spekulatiiviseksi: ei ole suoraa mekanistista tai kliinistä näyttöä siitä, että granisetronilla olisi mitään vaikutusta maniakaalisen kaksisuuntaisen affektiivisen häiriön hoitoon.
 
-Given the absence of clinical trials, registry entries, or literature connecting granisetron to this indication, the TxGNN score should be interpreted as a knowledge-graph-derived hypothesis rather than an evidence-backed signal. It is reasonable as a research lead worth monitoring, but not as a basis for clinical action at this time.
+Koska kliinisiä tutkimuksia, rekisteri-ilmoituksia tai kirjallisuutta yhdistämään granisetonia tähän indikaatioon ei ole, TxGNN-pisteet tulisi tulkita tietoverkosta johdetuksi hypoteesiksi pikemminkin kuin näyttöön perustuvaksi signaaliksi. Se on kohtuullinen tutkimuskohde, jota kannattaa seurata, mutta ei perusta kliiniselle toiminnalle tällä hetkellä.
 
-## Clinical Trial Evidence
+## Kliiniset tutkimusnäytöt
 
-Currently no related clinical trials registered.
+Tällä hetkellä yhtään asiaankuuluvaa rekisteröityä kliinistä tutkimusta ei ole.
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-Currently no related literature available.
+Tällä hetkellä ei ole saatavilla asiaankuuluvaa kirjallisuutta.
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Granisetron is currently **not marketed** in Finland (0 authorizations on file); no product-level licensing data is available to tabulate.
+Granisetron ei ole tällä hetkellä markkinoilla Suomessa (0 lupaa saatavilla); tuotekohtaista lupaa koskevaa aineistoa ei ole saatavilla taulukointiin.
 
-## Safety Considerations
+## Turvallisuushuomioon
 
-Please refer to the package insert for safety information.
+Katso pakkausselosteesta turvallisuustiedot.
 
-*Note: TFDA package insert warnings/contraindications (DG001) are flagged as a Blocking data gap — this must be resolved before any S1 safety pre-assessment can proceed.*
+*Huomautus: TFDA-pakkausselosteen varoitukset/vasta-aiheet (DG001) on merkitty estäviksi aineiston puutteiksi — tämä on ratkaistava ennen kuin S1-turvallisuuden esiarviointia voidaan jatkaa.*
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Odota**
 
-**Rationale:**
-The prediction rests solely on a TxGNN model score (L5) with no clinical trials, registry entries, or literature support, and the proposed mechanistic link between 5-HT3 antagonism and bipolar mania is speculative and drug-class-inferred rather than granisetron-specific.
+**Perustelut:**
+Ennuste perustuu pelkästään TxGNN-mallin pisteisiin (L5), joita ei tueta kliinisillä tutkimuksilla, rekisteri-ilmoituksilla tai kirjallisuudella, ja ehdotettu mekanistinen yhteys 5-HT3-antagonismin ja kaksisuuntaisen manian välillä on spekulatiivinen ja lääkeluokasta johdettu pikemminkin kuin granisetronille ominainen.
 
-**To proceed, the following is needed:**
-- Confirmed mechanism of action data (MOA) for granisetron (DG002)
-- TFDA/Fimea package insert warnings and contraindications (DG001, Blocking)
-- Exploratory or preclinical studies directly evaluating 5-HT3 antagonism in bipolar/manic states
-- Confirmation of original approved indication and licensing status, since Finland currently shows no marketed product
+**Jatkamista varten tarvitaan seuraavaa:**
+- Vahvistetut granisetronin vaikutusmekanismin tiedot (MOA) (DG002)
+- TFDA/Fimea-pakkausselosteen varoitukset ja vasta-aiheet (DG001, este)
+- Tutkimustutkimukset tai prekliiniset tutkimukset, jotka arvoivat suoraan 5-HT3-antagonismia kaksisuuntaisissa/maniakaalissa tiloissa
+- Alkuperäisen hyväksytyn indikaation ja lupien aseman vahvistaminen, koska Suomen markkinoilla ei ole tällä hetkellä markkinoitavaa tuotetta
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

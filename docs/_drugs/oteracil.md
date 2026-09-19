@@ -29,90 +29,91 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Oteracil: From Gastric Cancer to Colonic Neoplasm
+# Oteracil: Mahalaukun syövästä kolonin kasvaimeen
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Oteracil is a non-cytotoxic modulating component of the S-1 combination (tegafur/gimeracil/oteracil), historically used alongside tegafur-based regimens in gastric and gastrointestinal cancers. The TxGNN model predicts it may be effective for **Colonic Neoplasm**, with **8 clinical trials** and **20 publications** currently supporting this direction, including three completed Phase 3 RCTs.
+Oteracil on ei-sytotoksinen moduloiva komponentti S-1 yhdistelmässä (tegafur/gimeracil/oteracil), jota on historiallisesti käytetty tegafurin pohjaisissa säännöllisissä mahalaukun ja ruoansulatuskanavasta peräisin olevissa syövissä. TxGNN-malli ennustaa, että se saattaa olla tehokas **kolonin kasvaimissa**, ja tällä hetkellä **8 kliinistä tutkimusta** ja **20 julkaisua** tukevat tätä suuntaa, mukaan lukien kolme valmistunutta Phase 3 RCT-tutkimusta.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Gastric cancer (as a component of the S-1 combination) — specific Fimea/TFDA label text not available |
-| Predicted New Indication | Colonic Neoplasm |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L1 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Mahalaukun syöpä (S-1 yhdistelmän komponenttina) — spesifejä Fimea/TFDA-pakkaustekstejä ei ole saatavilla |
+| Ennustettu uusi indikaatio | Kolonin kasvain |
+| TxGNN-ennusteen pistemäärä | 99.99% |
+| Näyttötaso | L1 |
+| Suomen markkinatilanne | ✗ Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Jatka varauksilla |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on perusteltu?
 
-Currently, detailed mechanism of action data for oteracil itself is not available. Based on known information, oteracil is part of the S-1 oral fluoropyrimidine combination (tegafur + gimeracil + oteracil). Within this combination, oteracil acts by inhibiting orotate phosphoribosyltransferase (OPRT) in the gastrointestinal tract, which reduces local phosphorylation of 5-FU generated from tegafur and thereby lowers GI toxicity — it does not itself exert direct antitumor activity.
+Tällä hetkellä oteraciilin itsensä yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla. Tunnettujen tietojen perusteella oteracil on osa S-1:n suun kautta otettavaa fluoropyrimidiiniyhdistelmää (tegafur + gimeracil + oteracil). Tässä yhdistelmässä oteracil vaikuttaa inhiboimalla oraattifosforiboosyylitransferaasia (OPRT) ruoansulatuskanavassa, mikä vähentää tegafuusta vapautuvasta 5-FU:sta tapahtuvan paikallisen fosforylaation ja siten alentaa GI-toksisuutta — se ei itsessään aiheuta suoraa syöpää tuhoavaa vaikutusta.
 
-Gastric cancer and colonic neoplasm are both gastrointestinal malignancies that share the same underlying pharmacological target: the fluoropyrimidine (5-FU) pathway delivered via tegafur. Because S-1 has already been established and, in several countries, approved for colorectal cancer in addition to gastric cancer, the mechanistic rationale for extending oteracil-containing regimens to colonic neoplasm is well supported.
+Mahalaukun syöpä ja kolonin kasvain ovat molemmat ruoansulatuskanavasta peräisin olevia pahanlaatuisia kasvaimia, jotka jakavat saman taustalla olevan farmakologisen kohteen: tegafurin välityksellä toimitetun fluoropyrimidiini (5-FU) -reitin. Koska S-1 on jo vakiintutettu ja useiden maiden farmakokannistovalvontaviranomaisissa hyväksytty sekä mahalaukun syövän että kolorektaalisyövän hoidossa, mekanistinen perustelu oteraciilin sisältävien yhdistelmien laajentamiselle kolonin kasvaimiin on hyvin tuettu.
 
-The strength of this prediction rests specifically on the S-1 combination's extensive clinical development in colorectal cancer (ACTS-CC, ACTS-RC, SALTO trials), rather than on any independent activity of oteracil. This distinguishes it from several lower-ranked predictions in this evidence pack (e.g., benign or vascular colonic lesions), which lack any plausible cytotoxic mechanism and appear to be anatomical-proximity artifacts of the TxGNN embedding rather than genuine pharmacological signals.
+Tämän ennusteen vahvuus perustuu erityisesti S-1 yhdistelmän laajalle levinneen kliinisen kehityksen kolorektalissa syövässä (ACTS-CC, ACTS-RC, SALTO-tutkimukset), eikä mihinkään oteraciilin itsenäiseen vaikutukseen. Tämä erottaa sen tämän näyttöpaketin useista alemman sijoituksella olevista ennusteista (esim. hyvänlaatuiset tai vaskulaariset kolonin leesiot), joilla ei ole mitään uskottavaa sytotoksista mekanismia ja jotka näyttävät olevan TxGNN-upotuksen anatomisen läheisyyden tekijöitä pikemminkin kuin aito farmakologinen signaali.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimuksen numero | Vaihe | Tila | Rekrytointi | Keskeisiä löydöksiä |
 |---------|------|------|------|---------|
-| [NCT00660894](https://clinicaltrials.gov/study/NCT00660894) | Phase 3 | Completed | 1535 | UFT+Leucovorin vs. TS-1 (S-1) as adjuvant treatment for Stage III colon cancer, with gene-expression predictive factor analysis |
-| [NCT01918852](https://clinicaltrials.gov/study/NCT01918852) | Phase 3 | Completed | 161 | SALTO study: S-1 vs. Capecitabine as first-line treatment for metastatic colorectal cancer, ± bevacizumab |
-| [NCT03448549](https://clinicaltrials.gov/study/NCT03448549) | Phase 3 | Unknown | 1191 | SOX (oxaliplatin + S-1) vs. XELOX as adjuvant chemotherapy for Stage III colorectal cancer |
-| [NCT06255379](https://clinicaltrials.gov/study/NCT06255379) | Phase 2 | Not yet recruiting | 52 | Fuquinitinib combined with S-1 (tegafur/gimeracil/oteracil) as third-line treatment for advanced metastatic CRC |
-| [NCT02618356](https://clinicaltrials.gov/study/NCT02618356) | Phase 2 | Unknown | 82 | Raltitrexed + S-1 for metastatic colorectal cancer that failed standard chemotherapy; primary endpoint mPFS |
-| [NCT00974389](https://clinicaltrials.gov/study/NCT00974389) | Phase 2 | Unknown | 40 | S-1 + bevacizumab in unresectable/recurrent colorectal cancer after irinotecan/oxaliplatin failure |
-| [NCT00524706](https://clinicaltrials.gov/study/NCT00524706) | Phase 1/2 | Unknown | 42 | S-1 + oral leucovorin + oxaliplatin (SOL regimen) for untreated metastatic colorectal cancer |
-| [NCT02216149](https://clinicaltrials.gov/study/NCT02216149) | Phase 2 | Terminated | 20 | S-1/capecitabine + oxaliplatin vs. cardiac microvascular safety in metastatic GI adenocarcinoma (safety-focused, not efficacy) |
+| [NCT00660894](https://clinicaltrials.gov/study/NCT00660894) | Phase 3 | Valmistunut | 1535 | UFT+Leukevoriini vs. TS-1 (S-1) adjuvanttina hoitona Stage III -paksusuolen syövässä, geeniekspression ennustetekijä-analyysin kanssa |
+| [NCT01918852](https://clinicaltrials.gov/study/NCT01918852) | Phase 3 | Valmistunut | 161 | SALTO-tutkimus: S-1 vs. Capecitabine ensimmäisen linjan hoitona metastasoituneessa kolorektaalissa syövässä, ± bevacizumab |
+| [NCT03448549](https://clinicaltrials.gov/study/NCT03448549) | Phase 3 | Tuntematon | 1191 | SOX (oksaliplatini + S-1) vs. XELOX adjuvanttina kemoterapiana Stage III -kolorektaalissa syövässä |
+| [NCT06255379](https://clinicaltrials.gov/study/NCT06255379) | Phase 2 | Ei vielä rekrytoiva | 52 | Fuquinitinibi yhdistettynä S-1:een (tegafur/gimeracil/oteracil) kolmannen linjan hoitona edistyneessä metastasoituneessa CRC:ssä |
+| [NCT02618356](https://clinicaltrials.gov/study/NCT02618356) | Phase 2 | Tuntematon | 82 | Raltitreksed + S-1 metastasoituneessa kolorektaalissa syövässä, joissa vakiokenoterapia epäonnistui; pääpäätepiste: mPFS |
+| [NCT00974389](https://clinicaltrials.gov/study/NCT00974389) | Phase 2 | Tuntematon | 40 | S-1 + bevacizumab resektoimattomassa/uusiutuvassa kolorektaalissa syövässä irinotekaani/oksaliplatini-epäonnistumisen jälkeen |
+| [NCT00524706](https://clinicaltrials.gov/study/NCT00524706) | Phase 1/2 | Tuntematon | 42 | S-1 + suun kautta otettava leukevoriini + oksaliplatini (SOL-säännös) käsittelemättömässä metastasoituneessa kolorektaalissa syövässä |
+| [NCT02216149](https://clinicaltrials.gov/study/NCT02216149) | Phase 2 | Lopetettu | 20 | S-1/capecitabine + oksaliplatini vs. sydämen mikrovaskulaarinen turvallisuus metastasoituneessa GI-adenokarsinoomassa (turvallisuuskeskeinen, ei tehokkuus) |
 
-## Literature Evidence
+## Kirjallisuusviitteet
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeisiä löydöksiä |
 |------|-----|------|------|---------|
-| [31917122](https://pubmed.ncbi.nlm.nih.gov/31917122/) | 2020 | RCT | Clin Colorectal Cancer | ACTS-CC 02: S-1 + oxaliplatin (SOX) superior to UFT/LV as adjuvant therapy in high-risk Stage III colon cancer |
-| [27056996](https://pubmed.ncbi.nlm.nih.gov/27056996/) | 2016 | RCT | Annals of Oncology | ACTS-RC (JFMC35-C1): S-1 vs. UFT as adjuvant chemotherapy for Stage II/III rectal cancer |
-| [24942277](https://pubmed.ncbi.nlm.nih.gov/24942277/) | 2014 | RCT | Annals of Oncology | ACTS-CC trial: S-1 non-inferior to UFT/LV as adjuvant chemotherapy for Stage III colon cancer |
-| [26036466](https://pubmed.ncbi.nlm.nih.gov/26036466/) | 2015 | RCT | BMC Cancer | Randomized Phase II study comparing S-1 dosing schedules after resection of colorectal cancer |
-| [32189156](https://pubmed.ncbi.nlm.nih.gov/32189156/) | 2020 | Clinical Study | Int J Clin Oncol | KSCC1303: S-1 + oxaliplatin (C-SOX) for Stage III colon cancer, final 3-year disease-free survival analysis |
-| [25209093](https://pubmed.ncbi.nlm.nih.gov/25209093/) | 2014 | Review | Clin Colorectal Cancer | Asian consensus guidelines for management of metastatic colorectal cancer |
-| [10897209](https://pubmed.ncbi.nlm.nih.gov/10897209/) | 2000 | Review | Gan To Kagaku Ryoho | Foundational review of S-1's biochemical modulation concept, including oteracil's role in reducing GI toxicity |
-| [17496461](https://pubmed.ncbi.nlm.nih.gov/17496461/) | 2007 | Review | Gan To Kagaku Ryoho | Status of adjuvant chemotherapy for colorectal cancer in Japan |
-| [22415232](https://pubmed.ncbi.nlm.nih.gov/22415232/) | 2012 | Clinical Study | Br J Cancer | ACTS-CC trial planned safety analysis of UFT/LV vs. S-1 as adjuvant therapy for Stage III colon cancer |
-| [21875473](https://pubmed.ncbi.nlm.nih.gov/21875473/) | 2011 | Clinical Study | Zhonghua Zhong Liu Za Zhi | Efficacy and side effects of oxaliplatin + S-1 combination therapy in postoperative colorectal cancer patients |
+| [31917122](https://pubmed.ncbi.nlm.nih.gov/31917122/) | 2020 | RCT | Clin Colorectal Cancer | ACTS-CC 02: S-1 + oksaliplatini (SOX) ylivoimainen verrattuna UFT/LV:ään adjuvanttina hoitona korkean riskin Stage III -paksusuolen syövässä |
+| [27056996](https://pubmed.ncbi.nlm.nih.gov/27056996/) | 2016 | RCT | Annals of Oncology | ACTS-RC (JFMC35-C1): S-1 vs. UFT adjuvanttina kemoterapiana Stage II/III peräsuolen syövässä |
+| [24942277](https://pubmed.ncbi.nlm.nih.gov/24942277/) | 2014 | RCT | Annals of Oncology | ACTS-CC -tutkimus: S-1 ei-alainen UFT/LV:ään verrattuna adjuvanttina kemoterapiana Stage III -paksusuolen syövässä |
+| [26036466](https://pubmed.ncbi.nlm.nih.gov/26036466/) | 2015 | RCT | BMC Cancer | Satunnaistettu Phase II -tutkimus S-1:n annostusjärjestelyjen vertailusta kolorektaalisyövän resektioiden jälkeen |
+| [32189156](https://pubmed.ncbi.nlm.nih.gov/32189156/) | 2020 | Kliininen tutkimus | Int J Clin Oncol | KSCC1303: S-1 + oksaliplatini (C-SOX) Stage III -paksusuolen syövässä, kolmen vuoden taudittomuuden eloonjäämisen lopullinen analyysi |
+| [25209093](https://pubmed.ncbi.nlm.nih.gov/25209093/) | 2014 | Katsaus | Clin Colorectal Cancer | Aasian konsensusohje metastasoituneen kolorektaalisyövän hoitoon |
+| [10897209](https://pubmed.ncbi.nlm.nih.gov/10897209/) | 2000 | Katsaus | Gan To Kagaku Ryoho | Perusteellinen katsaus S-1:n biokemiallisen modulaation käsitteeseen, mukaan lukien oteraciilin rooli GI-toksisuuden vähentämisessä |
+| [17496461](https://pubmed.ncbi.nlm.nih.gov/17496461/) | 2007 | Katsaus | Gan To Kagaku Ryoho | Adjuvantin kemoterapian tila kolorektaalisyövän hoidossa Japanissa |
+| [22415232](https://pubmed.ncbi.nlm.nih.gov/22415232/) | 2012 | Kliininen tutkimus | Br J Cancer | ACTS-CC -tutkimuksen suunniteltu turvallisuusanalyysi UFT/LV vs. S-1 adjuvanttina hoitona Stage III -paksusuolen syövässä |
+| [21875473](https://pubmed.ncbi.nlm.nih.gov/21875473/) | 2011 | Kliininen tutkimus | Zhonghua Zhong Liu Za Zhi | Oksaliplatini + S-1 yhdistelmähoidon tehokkuus ja sivuvaikutukset postoperatiivisissa kolorektaalisyövän potilaissa |
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Oteracil-containing products (S-1 combination) are currently **not marketed in Finland** — no active Fimea marketing authorizations were found (0 licenses on record).
+Oteraciilin sisältävät tuotteet (S-1 yhdistelmä) eivät ole tällä hetkellä markkinoilla Suomessa — ei aktiivisia Fimea-myyntiluvituksia löytynyt (0 lisenssillä saatavilla).
 
-## Cytotoxicity
+## Sytotoksisuus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic combination component (fluoropyrimidine-class modulator; oteracil itself has no direct cytotoxic activity — it inhibits GI-tract OPRT to reduce toxicity from tegafur-derived 5-FU) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Low to moderate (based on fluoropyrimidine class, consistent with the S-1 combination) |
-| Monitoring Items | CBC with differential, liver and renal function, electrolytes |
-| Handling Protection | As a component of an antineoplastic combination product, cytotoxic drug handling regulations apply |
+| Sytotoksisuusluokitus | Perinteinen sytotoksinen yhdistelmän komponentti (fluoropyrimidiini-luokan modulaattori; oteracililla ei ole suoraa sytotoksista vaikutusta — se inhiboi oraattifosforiboosyylitransferaasia (OPRT) ruoansulatuskanavassa, mikä vähentää tegafuusta peräisin olevan 5-FU:n paikallista fosforylointia ja alentaa siten GI-toksisuutta — se ei itsessään ole antitumoraalinen) |
+| Myelosuppression-riski | Katso pakkausselosteen varoitukset ja varotoimet |
+| Emetogenisiteettiluokitus | Matala-kohtalainen (fluoropyrimidiini-luokan perusteella, johdonmukainen S-1 yhdistelmän kanssa) |
+| Seurannan kohteet | CBC differentiaaleineen, maksa- ja munuaisten toiminta, elektrolyytit |
+| Käsittelystandardit | Antineoplastisen yhdistelmätuotteen komponenttina sytotoksisen lääkkeen käsittelyä koskevat säännökset pätevät |
 
-## Safety Considerations
+## Turvallisuushuomiot
 
-Please refer to the package insert for safety information.
+Katso turvallisuustiedot pakkausselosteesta.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Proceed with Guardrails**
+**Päätös: Jatka varauksilla**
 
-**Rationale:**
-Three completed Phase 3 RCTs (ACTS-CC, ACTS-RC, SALTO) and multiple Phase 2 studies consistently support the efficacy of S-1 (containing oteracil) in colorectal cancer, giving this prediction L1 evidence strength. However, the product is not currently marketed in Finland and key safety/MOA data remain unavailable, so guardrails are warranted before any regulatory or clinical advancement.
+**Perustelut:**
+Kolme valmistunutta Phase 3 RCT-tutkimusta (ACTS-CC, ACTS-RC, SALTO) ja monet Phase 2 -tutkimukset tukevat johdonmukaisesti S-1:n (oteraciilin sisältämä) tehokkuutta kolorektaalisyövän hoidossa, jolloin tämä ennuste saa L1 näyttötason vahvuuden. Kuitenkin tuote ei ole tällä hetkellä markkinoilla Suomessa ja keskeisiä turvallisuus- ja MOA-tietoja ei ole saatavilla, joten varaukset ovat perusteltuja ennen mitään sääntelyä tai kliinistä kehitystä.
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert data (warnings, contraindications, drug interactions) — currently a Blocking data gap
-- Detailed mechanism of action documentation for oteracil specifically (DrugBank query pending)
-- Finland-specific regulatory pathway assessment, given current "not marketed" status
-- Confirmation of DDI profile (current query returned "not_found")
+**Jatkamisen edellytyksenä on seuraava:**
+- TFDA/Fimea-pakkausselosteen tiedot (varoitukset, vasta-aiheet, lääkkeiden väliset vuorovaikutukset) — tällä hetkellä kriittinen tietoaukko
+- Yksityiskohtainen vaikutusmekanismin dokumentaatio oteracilille (DrugBank-kysely odottaa)
+- Suomen kohtainen sääntelyreitin arviointi, ottaen huomioon nykyinen "ei markkinoilla" -tilanne
+- DDI-profiilin vahvistaminen (nykyinen kysely palautti `not_found`)
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

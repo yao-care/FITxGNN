@@ -29,70 +29,67 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-Using the drug-repurposing evaluation report template to generate this report from the supplied Evidence Pack.
+# Keenodesoksikoalahappo: Sappihappoaineenvaihdunnan häiriöistä homotsygotiseen familiaaliseen hyperkolesterolemiaan
 
----
+## Yksilauseen yhteenveto
 
-# Chenodeoxycholic Acid: From Bile Acid Metabolism Disorders to Homozygous Familial Hypercholesterolemia
+> Keenodesoksikoalahappo (CDCA) on luonnollisesti esiintyvä primaarinen sappihappo; todistustekapaketti ei kirjaa mitään erityistä Taiwanin/Suomen hyväksymää alkuperäistä indikaatiota tälle yhdisteelle, vaikka se on historiallisesti liitetty sappihapposynteesin ja kolesteroliaineenvaihdunnan häiriöihin (esim. saippalakivien liuotus, cerebrotendinoosinen ksantomatoosi).
+> TxGNN-malli ennustaa, että se voi olla tehokas **homotsygotisessa familiaalisessa hyperkolesterolemiassa**,
+> jolle on tällä hetkellä tunnistettu **0 kliinistä tutkimusta** ja **1 julkaisu**, ja kyseinen julkaisu käsittelee samankaltaista – ei samaa – sairautta.
 
-## One-Sentence Summary
+## Pikayleiskatsaus
 
-> Chenodeoxycholic acid (CDCA) is a naturally occurring primary bile acid; the evidence pack does not record a specific Taiwan/Finland-approved original indication for this compound, though it is historically associated with disorders of bile acid synthesis and cholesterol metabolism (e.g., gallstone dissolution, cerebrotendinous xanthomatosis).
-> The TxGNN model predicts it may be effective for **Homozygous Familial Hypercholesterolemia**,
-> with **0 clinical trials** and **1 publication** currently identified, and that publication addresses a related — not the same — disease.
+| Kohde | Sisältö |
+|-------|---------|
+| Alkuperäinen indikaatio | Ei saatavilla todistustekapaketeissa (`drug.original_indications` on tyhjä; `original_moa` on tiedon puute) |
+| Ennustettu uusi indikaatio | Homotsygotinen familiaali hyperkolesterolemia |
+| TxGNN-ennustepistemäärä | 99.57% |
+| Todisteen taso | L5 (vain mallin ennuste tälle indikaatiolle; ainoa liittyvä julkaisu käsittelee eri, mekanistisesti vierekkäistä sairautta) |
+| Suomen markkinoiden asema | Ei markkinoitu (Ei markkinoitu) |
+| Valtuuksien lukumäärä | 0 |
+| Suositeltu päätös | Odota |
 
-## Quick Overview
+## Miksi tämä ennuste on järkevä?
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available in evidence pack (drug.original_indications is empty; original_moa is a data gap) |
-| Predicted New Indication | Homozygous Familial Hypercholesterolemia |
-| TxGNN Prediction Score | 99.57% |
-| Evidence Level | L5 (model prediction only for this indication; the sole related publication concerns a different, mechanistically adjacent disease) |
-| Finland Market Status | Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja keenodesoksikoalahapon käytöstä ei ole saatavilla tässä todistustekapaketeissa (merkitty erittäin vakavaksi tiedon puutteeksi, DG002). Yleisen farmakologisen tiedon perusteella CDCA on primaarinen sappihappo, joka osallistuu sappihapposynteesin säätelyyn; sitä on käytetty kliinisesti sappihappoon liittyvillä ja kolesteroliaineenvaihduntaan liittyvillä häiriöillä, mikä tarjoaa uskottavan mekanistisen yhteyden lipidi/kolesterolikasvaintauteihin.
 
-## Why is This Prediction Reasonable?
+Ainoa haettu julkaisu (PMID 25424010) on katsaus cerebrotendinoosiseen ksantomatoosiin (CTX) – harvinaiseen autosomaalisen resessiiviseen lipidin varastointisairauteen, jonka aiheuttavat CYP27A1-mutaatiot, jotka häiritsevät sappihapposynteesin ja aiheuttavat kolesteroolin/kolestanolin kertymisen. CTX:ää hoidetaan CDCA:n korvaavalla hoidolla, ja taustalla oleva biologia (viallinen sappihappo/kolesterolinkäsittely) on käsitteellisesti samanlainen kuin homotsygotinen familiaali hyperkolesterolemia (HoFH), joka liittyy myös vakavaan kolesterolin sääntelyn häiriöön. Tämä päällekkäisyys kolesteroliradan biologiassa on järkevä perusta TxGNN-mallin yhdistämiselle, mutta sitä tulisi käsitellä mekanistisena hypoteesina pikemminkin kuin suorana todisteena, koska paketeissa oleva mikään tutkimus ei tutki CDKA:ta erityisesti HoFH-potilaissa.
 
-Currently, detailed mechanism of action data is not available for chenodeoxycholic acid in this evidence pack (flagged as a High-severity data gap, DG002). Based on general pharmacological knowledge, CDCA is a primary bile acid involved in bile acid synthesis regulation; it has been used clinically in bile acid–related and cholesterol-metabolism–related disorders, which provides a plausible mechanistic bridge to lipid/cholesterol disease states.
+Koska `original_moa` ja `original_indications` eivät täyty tässä todistustekapaketeissa, mekanistisen yhteyden vahvuutta ei voida täysin arvioida; tämä on kirjattu tiedon puutteeksi DG002 ja se tulisi ratkaista DrugBankin/tuotteen merkinnän avulla ennen kuin jatketaan arviointia.
 
-The single retrieved publication (PMID 25424010) is a review of cerebrotendinous xanthomatosis (CTX) — a rare autosomal-recessive lipid storage disease caused by CYP27A1 mutations that disrupts bile acid synthesis and causes cholesterol/cholestanol accumulation. CTX is treated with CDCA replacement, and the underlying biology (defective bile acid/cholesterol handling) is conceptually related to homozygous familial hypercholesterolemia (HoFH), which also involves severe disruption of cholesterol regulation. This overlap in cholesterol-pathway biology is a reasonable basis for the TxGNN model's association, but it should be treated as a mechanistic hypothesis rather than direct evidence, since no study in the pack examines CDCA specifically in HoFH patients.
+## Kliinisen tutkimuksen todisteet
 
-Because original_moa and original_indications are not populated in this evidence pack, mechanistic linkage strength cannot be fully assessed; this is recorded as data gap DG002 and should be resolved via DrugBank/product labeling before further evaluation.
+Tällä hetkellä ei ole liittyviä rekisteröityjä kliinisiä tutkimuksia
 
-## Clinical Trial Evidence
+## Kirjallisuuden todisteet
 
-Currently no related clinical trials registered
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset tulokset |
+|------|------|--------|------|---------|
+| [25424010](https://pubmed.ncbi.nlm.nih.gov/25424010/) | 2014 | Katsaus | Orphanet Journal of Rare Diseases | Kattava katsaus cerebrotendinoosiseen ksantomatoosiin (CTX), CYP27A1-mutaation aiheuttamaan sappihapposynteesin häiriöön, joka aiheuttaa kolestanolin kertymisen; CDCA on CTX:n vakiintunut korvaushoito. Sairaus on mekanistisesti samanlainen, mutta eri kuin homotsygotinen familiaali hyperkolesterolemia. |
 
-## Literature Evidence
+## Suomen markkinatiedot
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [25424010](https://pubmed.ncbi.nlm.nih.gov/25424010/) | 2014 | Review | Orphanet Journal of Rare Diseases | Comprehensive review of cerebrotendinous xanthomatosis (CTX), a CYP27A1-mutation bile acid synthesis disorder causing cholestanol accumulation; CDCA is the established replacement therapy for CTX. Disease is mechanistically related to, but distinct from, homozygous familial hypercholesterolemia. |
+Keenodesoksikoalahappo ei ole tällä hetkellä markkinoitu Suomessa — `taiwan_regulatory.market_status` on "Ei markkinoitu" (Not Marketed), 0 rekisteröidyllä valtuuksella, joten valtuus-/tuotetaulukkoa ei ole saatavilla.
 
-## Finland Market Information
+## Turvallisuusnäkökohdat
 
-Chenodeoxycholic acid is not currently marketed in Finland — `taiwan_regulatory.market_status` is "Not marketed" (Not Marketed) with 0 registered authorizations, so no authorization/product table is available.
+Katso pakkausselosteesta turvallisuustietoja.
 
-## Safety Considerations
+*(Keskeiset varoitukset, vasta-aiheet ja lääkkeiden väliset yhteisvaikutukset on kaikki kirjattu tiedon puutteiksi tässä todistustekapaketeissa – TFDA:n merkinnän tarkistelu, merkitty DG001, on esto-vakavuuden luokan puute.)*
 
-Please refer to the package insert for safety information.
+## Johtopäätös ja seuraavat vaiheet
 
-*(Key warnings, contraindications, and drug-interaction data are all recorded as data gaps in this evidence pack — TFDA labeling review, flagged DG001, is a Blocking-severity gap.)*
+**Päätös: Odota**
 
-## Conclusion and Next Steps
+**Perustelut:**
+Tälle ennustettulle indikaatiolle ei ole kliinisiä tutkimuksia, Taiwanin/Suomen markkinoita, ja ainoa tukeva julkaisu käsittelee samanlaista mutta eri sairautta (CTX, ei HoFH). Yhdessä TFDA:n merkinnöissä olevan esto-vakavuuden luokan tiedon puutteen kanssa, todistusten perusta on tällä hetkellä riittämätön siirtyäkseen mallin ennusteen ulkopuolelle.
 
-**Decision: Hold**
+**Edistämiseksi tarvitaan seuraavaa:**
+- TFDA/EMA pakkausseloste (varoitukset, vasta-aiheet) — ratkaisee esto-vakavuuden luokan puutteen DG001
+- DrugBank/MOA-yksityiskohdat CDCA:n mekanismista, joka liittyy lipidiaineenvaihduntaan — ratkaisee puutteen DG002
+- Omistautuneet kliiniset tai prekliiniset tutkimukset CDCA:sta erityisesti HoFH tai siihen liittyvillä dyslipidemiaväestöillä
+- Lääkeyhteisvaikutusten tietokyselyjen ratkaiseminen (nykyinen tila: ei löydetty)
 
-**Rationale:**
-There are no clinical trials for this predicted indication, no Taiwan/Finland market presence, and the single supporting publication addresses a related but distinct disease (CTX, not HoFH). Combined with a Blocking-severity data gap on TFDA labeling, the evidence base is currently insufficient to advance beyond model prediction.
-
-**To proceed, the following is needed:**
-- TFDA/EMA package insert (warnings, contraindications) — resolves blocking gap DG001
-- DrugBank/MOA detail on CDCA's mechanism relevant to lipid metabolism — resolves gap DG002
-- Dedicated clinical or preclinical studies of CDCA specifically in HoFH or related dyslipidemia populations
-- DDI data query resolution (current status: not found)
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

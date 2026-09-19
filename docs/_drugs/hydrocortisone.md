@@ -29,75 +29,76 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Hydrocortisone: From Corticosteroid Therapy to Alopecia Areata
+# Hydrocortisone: glukokortikoidihoidosta alopecia areataan
 
-## One-Sentence Summary
+## Yksirivinen yhteenveto
 
-Hydrocortisone is a corticosteroid (glucocorticoid) historically used across a broad range of anti-inflammatory, immunosuppressive, and hormone-replacement indications. The TxGNN model predicts it may be effective for **Alopecia Areata**, with **4 clinical trials** and **20 publications** currently supporting this direction — including a completed Phase 3 RCT directly comparing hydrocortisone against another topical steroid in this exact indication.
+Hydrocortisone on glukokortikoidilääke, jota on perinteisesti käytetty laajalla kirjolla tulehdusta estäviin, immuunijärjestelmää alentaviin ja hormonin korvaushoitoon liittyviin indikaatioihin. TxGNN-malli ennustaa, että se saattaa olla tehokas **Alopecia Areatassa**, ja **4 kliinistä tutkimusta** sekä **20 julkaisua** tukevat tämän suuntaa — mukaan lukien valmis Phase 3 RCT, joka vertasi suoraan hydrocortisonia toiseen paikalliseen steroidiin täsmälleen tässä indikaatiossa.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohde | Sisältö |
 |------|------|
-| Original Indication | Not specified in the regulatory data provided; hydrocortisone is broadly used as a systemic/topical corticosteroid for anti-inflammatory and adrenal hormone-replacement therapy |
-| Predicted New Indication | Alopecia Areata |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L1 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Alkuperäinen indikaatio | Ei määritelty toimittamassasi sääntelyaineistossa; hydrocortisonia käytetään laajasti systeemisenä/paikallisena glukokortikoidina tulehdusta estäviin ja sivukilpirauhaseen liittyviin hormonin korvaushoitoihin |
+| Ennustettu uusi indikaatio | Alopecia Areata |
+| TxGNN-ennusteen pistemäärä | 99.97% |
+| Näyttötaso | L1 |
+| Suomen markkinoiden status | ✗ Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Jatka varauksella |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, detailed mechanism of action data for hydrocortisone is not available in this evidence pack. Based on known pharmacology, hydrocortisone is a glucocorticoid receptor agonist; its anti-inflammatory and immunosuppressive efficacy in a wide range of inflammatory and autoimmune conditions is well established.
+Tällä hetkellä hydrocortisonin yksityiskohtaisia vaikutusmekanismitietoja ei ole saatavilla tässä todistusaineiston pakkauksessa. Tunnetun farmakologian perusteella hydrocortisone on glukokortikoidin reseptorin agonisti; sen tulehdusta estävä ja immuunijärjestelmää alentava teho laajalla kirjolla tulehduksellisia ja autoimmuunisairauksia on hyvin perusteltu.
 
-Alopecia areata is understood as an autoimmune process in which T-cells attack the hair follicle, triggering non-scarring hair loss. Suppressing this local inflammatory/immune attack via topical or intralesional corticosteroid administration is already a recognized, long-standing treatment approach for alopecia areata — meaning this prediction reflects an **established clinical use** rather than a wholly novel repurposing hypothesis. The TxGNN prediction is therefore corroborated both by mechanistic plausibility and by decades of documented clinical practice using hydrocortisone specifically (intracutaneous/intradermal injection and topical cream) for this condition.
+Alopecia areataa ymmärretään autoimmuuniksi prosessiksi, jossa T-solut hyökkäävät hiusrakkulaa vastaan ja laukaisevat ei-arpeuttavaa hiusten menetystä. Tämän paikallisen tulehdusvastauksen/immuunivasteen tukahduttaminen paikallisen tai intralesionaalisen glukokortikoidin annostelun kautta on jo tunnustettu, pitkäaikainen hoitolähestymistapa alopecia areataan — mikä tarkoittaa, että tämä ennuste heijastaa **vakiintunutta kliinistä käyttöä** pikemminkin kuin täysin uutta uudelleenkäyttötarkoitus-hypoteesia. TxGNN-ennuste on siksi vahvistettu sekä mekanistisen uskottavuuden että vuosikymmenten dokumentoitujen kliinisten käytäntöjen perusteella, joissa hydrocortisonia käytettiin erityisesti (intrakutaani/intraderaali injektio ja paikallinen voide) tälle tilalle.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen todisteet
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimuksen numero | Vaihe | Status | Osallistujat | Tärkeimmät löydökset |
 |---------|------|------|------|---------|
-| [NCT01453686](https://clinicaltrials.gov/study/NCT01453686) | Phase 3 | Completed | 41 | Randomized controlled trial in children comparing Clobetasol Propionate 0.05% Cream vs. Hydrocortisone 1% Cream for alopecia areata; direct head-to-head evidence for hydrocortisone in this indication |
-| [NCT00484679](https://clinicaltrials.gov/study/NCT00484679) | Phase 2 | Completed | 18 | Evaluated adrenal function effects of intralesional Triamcinolone (a related corticosteroid) in alopecia areata patients — mechanistically relevant but not hydrocortisone itself |
-| [NCT06551818](https://clinicaltrials.gov/study/NCT06551818) | N/A | Not Yet Recruiting | 72 | Four-arm dose-response study of hair growth products vs. placebo in androgenic alopecia (different alopecia subtype); no results available yet |
-| [NCT04343560](https://clinicaltrials.gov/study/NCT04343560) | N/A | Completed | 380 | Studied abnormal steroid metabolome and bone effects in mild autonomous cortisol secretion; low relevance — not an alopecia areata treatment trial |
+| [NCT01453686](https://clinicaltrials.gov/study/NCT01453686) | Phase 3 | Valmis | 41 | Satunnaistettu kontrolloitu tutkimus lapsilla, joka vertasi klobetasol-propionaattia 0,05 % voiteena hydrocortison 1 % voiteeseen alopecia areataa vastaan; suora vertailututkimus hydrocortisonin käytöstä tässä indikaatiossa |
+| [NCT00484679](https://clinicaltrials.gov/study/NCT00484679) | Phase 2 | Valmis | 18 | Arvioi intralesionaalisen triamsinolonin (liittyvä glukokortikoidilääke) sivukilpirauhastoimintoa koskevia vaikutuksia alopecia areata -potilaille — mekanistisesti relevantti, mutta ei itse hydrocortisoni |
+| [NCT06551818](https://clinicaltrials.gov/study/NCT06551818) | N/A | Ei vielä rekrytoitava | 72 | Neliosainen annos-vastesuhde-tutkimus hiusten kasvutuotteista verrattuna plaseboon androgenisessa alopecia -oireyhtymässä (erilainen alopecia -alatyyppi); ei vielä tuloksia saatavilla |
+| [NCT04343560](https://clinicaltrials.gov/study/NCT04343560) | N/A | Valmis | 380 | Tutki poikkeuksellista steroidin metabolomiaa ja luun vaikutuksia lievässä autonomisessa kortisolin erituksessa; alhainen relevanssi — ei alopecia areata -hoitotutkimus |
 
-## Literature Evidence
+## Kirjallisuuden todisteet
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät löydökset |
 |------|-----|------|------|---------|
-| [24226568](https://pubmed.ncbi.nlm.nih.gov/24226568/) | 2014 | RCT | JAMA Dermatology | Randomized clinical trial: clobetasol propionate 0.05% vs. hydrocortisone 1% for alopecia areata in children |
-| [36718837](https://pubmed.ncbi.nlm.nih.gov/36718837/) | 2023 | Review/Meta-analysis | Journal of Cosmetic Dermatology | Systematic review/meta-analysis of fractional laser (alone or combined) for alopecia areata |
-| [38501938](https://pubmed.ncbi.nlm.nih.gov/38501938/) | 2024 | Cohort/Clinical | Clinical and Experimental Dermatology | Retrospective analysis: topical corticosteroid under occlusion for severe pediatric alopecia areata (including totalis/universalis) |
-| [13368875](https://pubmed.ncbi.nlm.nih.gov/13368875/) | 1956 | Case series | Medical Times | Early case series treating alopecia areata, partialis, and totalis with cortisone, hydrocortisone, prednisone, and prednisolone |
-| [28516731](https://pubmed.ncbi.nlm.nih.gov/28516731/) | 2017 | Review | JEADV | Reviews the hypothesis of HPA-axis hyperactivity and cortisol production in alopecia areata patients |
-| [15692503](https://pubmed.ncbi.nlm.nih.gov/15692503/) | 2005 | Case report | Journal of the American Academy of Dermatology | Four cases of congenital alopecia areata treated with minoxidil and topical steroid therapy |
-| [13610145](https://pubmed.ncbi.nlm.nih.gov/13610145/) | 1958 | Case report | Der Hautarzt | Hair regrowth in alopecia areata and areata maligna following intracutaneous hydrocortisone injection |
-| [5989830](https://pubmed.ncbi.nlm.nih.gov/5989830/) | 1966 | Case report | Vestnik Dermatologii i Venerologii | Treatment of alopecia areata and total alopecia with intracutaneous hydrocortisone injections |
-| [14158891](https://pubmed.ncbi.nlm.nih.gov/14158891/) | 1963 | Case report | Actas Dermo-Sifiliográficas | Treatment of alopecia areata with intradermal hydrocortisone injections |
-| [5696522](https://pubmed.ncbi.nlm.nih.gov/5696522/) | 1968 | Case report | British Journal of Dermatology | Scalp blood vessel changes in alopecia areata patients before and after corticosteroid therapy |
+| [24226568](https://pubmed.ncbi.nlm.nih.gov/24226568/) | 2014 | RCT | JAMA Dermatology | Satunnaistettu kliininen tutkimus: klobetasol-propionaatti 0,05 % verrattuna hydrocortisoniin 1 % alopecia areataa sairastavissa lapsissa |
+| [36718837](https://pubmed.ncbi.nlm.nih.gov/36718837/) | 2023 | Katsaus/Meta-analyysi | Journal of Cosmetic Dermatology | Järjestelmällinen katsaus/meta-analyysi fraktionaalisesta laserista (yksin tai yhdistettynä) alopecia areataa vastaan |
+| [38501938](https://pubmed.ncbi.nlm.nih.gov/38501938/) | 2024 | Kohortti/Kliininen | Clinical and Experimental Dermatology | Retrospektiivinen analyysi: paikallinen glukokortikoidilääke okklusiolla vakavissa lapsen alopecia areata -tapauksissa (mukaan lukien totalis/universalis) |
+| [13368875](https://pubmed.ncbi.nlm.nih.gov/13368875/) | 1956 | Potilassarja | Medical Times | Aikainen potilassarja, joka hoiti alopecia areataa, partiaalista ja totaalista muotoa kortisonia, hydrocortisonia, prednisoonia ja prednisolonia käyttäen |
+| [28516731](https://pubmed.ncbi.nlm.nih.gov/28516731/) | 2017 | Katsaus | JEADV | Arvioi HPA-akselin hyperaktiivisuuden ja kortisolin tuotannon hypoteesia alopecia areata -potilaissa |
+| [15692503](https://pubmed.ncbi.nlm.nih.gov/15692503/) | 2005 | Tapauskuvaus | Journal of the American Academy of Dermatology | Neljä synnynnäisen alopecia areatan tapausta, joita hoidettiin minoxidililla ja paikallisella steroidilääkkeellä |
+| [13610145](https://pubmed.ncbi.nlm.nih.gov/13610145/) | 1958 | Tapauskuvaus | Der Hautarzt | Hiusten kasvu alopecia areata ja areata maligna -tapauksissa intrakutaani-hydrocortison-injektioiden jälkeen |
+| [5989830](https://pubmed.ncbi.nlm.nih.gov/5989830/) | 1966 | Tapauskuvaus | Vestnik Dermatologii i Venerologii | Alopecia areata ja täydellisen alopecia -muodon hoito intrakutaani-hydrocortison-injektioilla |
+| [14158891](https://pubmed.ncbi.nlm.nih.gov/14158891/) | 1963 | Tapauskuvaus | Actas Dermo-Sifiliográficas | Alopecia areatan hoito intraderaali-hydrocortison-injektioilla |
+| [5696522](https://pubmed.ncbi.nlm.nih.gov/5696522/) | 1968 | Tapauskuvaus | British Journal of Dermatology | Pään ihon verisuonten muutokset alopecia areata -potilaissa ennen ja jälkeen glukokortikoidihoidon |
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-No marketing authorization is currently registered for hydrocortisone in Finland (market status: **Not Marketed**, 0 authorizations on file).
+Hydrocortisonilla ei ole tällä hetkellä myyntilupaa rekisteröity Suomeen (markkinoiden status: **Ei markkinoilla**, 0 lupaa arkistoissa).
 
-## Safety Considerations
+## Turvallisuustarkastelu
 
-Please refer to the package insert for safety information.
+Turvallisuustiedot löytyvät pakkausselosteesta.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat toimenpiteet
 
-**Decision: Proceed with Guardrails**
+**Päätös: Jatka varauksella**
 
-**Rationale:**
-A completed Phase 3 RCT and decades of historical clinical literature directly support hydrocortisone's use in alopecia areata, and the underlying immunosuppressive mechanism is well established. However, the drug currently has no marketing authorization in Finland and key safety/MOA fields are unfilled, so full sign-off is not yet warranted.
+**Perustelut:**
+Valmis Phase 3 RCT ja vuosikymmenten historiallinen kliininen kirjallisuus tukevat suoraan hydrocortisonin käyttöä alopecia areatassa, ja taustalla oleva immuunijärjestelmää alentava mekanismi on hyvin perusteltu. Kuitenkin lääkkeellä ei ole tällä hetkellä myyntilupaa Suomessa ja tärkeät turvallisuus-/vaikutusmekanismi-kentät ovat täyttämättömiä, joten täysi hyväksyntä ei ole vielä perusteltu.
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert (warnings, contraindications) — currently blocking (DG001)
-- Detailed mechanism of action data from DrugBank (DG002)
-- Confirmation of Finland regulatory pathway given current "Not Marketed" status
-- Additional confirmatory RCT data beyond the single completed Phase 3 trial
-- Drug interaction (DDI) data, currently unavailable (query returned not_found)
+**Jatkaakseen tarvitaan seuraavaa:**
+- TFDA/Fimea-pakkausseloste (varoitukset, vasta-aiheet) — tällä hetkellä estävä (DG001)
+- Yksityiskohtaiset vaikutusmekanismitiedot DrugBankista (DG002)
+- Vahvistus Suomen sääntelyreitistä nykyisen "Ei markkinoilla" -statuksen perusteella
+- Lisää vahvistavia RCT-tietoja valmiin Phase 3 -tutkimuksen lisäksi
+- Lääkkeen vuorovaikutus (DDI) -tiedot, tällä hetkellä saatavilla ei ole (haku palautti not_found)
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

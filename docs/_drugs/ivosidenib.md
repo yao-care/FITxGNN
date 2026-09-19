@@ -29,93 +29,94 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Ivosidenib: From IDH1-Mutant AML (External Reference) to Bulbar Polio — A Low-Confidence TxGNN Signal
+# Ivosidenib: IDH1-mutanttisesta AML:sta (ulkoinen viite) bulbaariseen polioon — matalan luottamuksen TxGNN-signaali
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Ivosidenib (DB14568) has no original-indication or Finnish licensing record in this evidence pack; based on external background knowledge it is a targeted inhibitor of mutant IDH1, used in IDH1-mutant acute myeloid leukemia (AML) — this is not sourced from the dataset itself. The TxGNN model's top-ranked prediction, **Bulbar Polio**, has **0 clinical trials** and **0 publications**, and the rationale field explicitly flags it as having no plausible mechanistic link — most likely model noise. Two lower-ranked but mechanistically more coherent signals — **treatment-related AML/MDS** (alkylating-agent- and radiation-related) — remain at "Research Question" status pending dedicated evidence.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not on file (no `original_indications`, no Finnish licenses); externally known as IDH1-mutant AML |
-| Predicted New Indication | Bulbar Polio (rank 1) |
-| TxGNN Prediction Score | 99.31% |
-| Evidence Level | L5 (model prediction only, no studies) |
-| Finland Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+Ivosidenib (DB14568) ei ole alkuperäisen indikaation eikä Suomen myyntiluvan tietoja tässä näyttöpaketissa; ulkoisesti tunnetuista tiedoista ivosidenib on mutantin IDH1:n kohdistettu pieni molekyyli-estäjä, entsyymiä, joka liittyy AML:ään — tämä on taustatieto, ei aineistosta peräisin oleva tieto. TxGNN-mallin parhaiten sijoitettu ennuste, **bulbaari polio**, ei ole tuettu kliinisillä tutkimuksilla eikä julkaisuilla, ja perustelut-kentässä nimenomaisesti mainitaan, että sillä ei ole tunnistettavissa olevaa mekanistista yhteyttä — todennäköisesti mallin kohina. Kaksi alemmin sijoitettua mutta mekanistisesti johdonmukaisempaa signaalia — **hoitoon liittyvä AML/MDS** (alkylointi-aine- ja säteily-aiheuttama) — pysyvät "Tutkimuskysymys"-tilassa dedikoidun näytön odotuksella.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Detailed mechanism-of-action data is not available in this evidence pack (`original_moa: [Data Gap]`). Based on externally known information, ivosidenib is a targeted small-molecule inhibitor of mutant IDH1, an enzyme implicated in AML — this is background context, not data drawn from the dataset.
-
-For the top-ranked prediction, **bulbar polio**, the rationale field in the evidence pack itself states there is **no identifiable mechanistic connection**: bulbar polio is an acute neurological disease caused by poliovirus infection of brainstem motor neurons, with no known pathological relationship to IDH1 metabolic-enzyme inhibition. With zero clinical trials, zero literature, and no mechanistic rationale, this signal is best interpreted as model noise or an atypical association rather than a genuine repurposing hypothesis.
-
-By contrast, the two lower-ranked predictions — treatment-related AML/MDS following alkylating agents or radiation therapy — are mechanistically more coherent: both are recognized subtypes of the broader AML/MDS disease category, and a subset of cases can carry IDH1 R132 mutations, which would overlap with ivosidenib's known mechanism. However, the evidence pack contains no subtype-specific trials, literature, or IDH1-mutation-prevalence data for these subtypes, so this remains an indirect, unconfirmed inference (see below).
-
----
-
-## Additional Predicted Indications (Lower Rank, Higher Mechanistic Plausibility)
-
-| Rank | Disease | TxGNN Score | Evidence Level | Decision Stage | Recommendation |
-|------|---------|-------------|-----------------|-----------------|-----------------|
-| 2 | AML/MDS related to alkylating agent | 99.26% | L4 | S1 | Research Question |
-| 3 | AML/MDS related to radiation | 99.26% | L4 | S1 | Research Question |
-
-Both are treatment-related AML/MDS subtypes with a plausible (though unconfirmed) overlap with ivosidenib's known IDH1-mutant AML mechanism. No clinical trials or literature specific to these subtypes were found in the queried sources (ClinicalTrials.gov, ICTRP, PubMed — all returned 0 results).
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Ei tiedossa (ei `original_indications`, ei Suomen lisenssejä); ulkoisesti tunnettu IDH1-mutantin AML:nä |
+| Ennustettu uusi indikaatio | Bulbaari polio (sijoitus 1) |
+| TxGNN-ennusteen pistemäärä | 99.31% |
+| Näyttötaso | L5 (vain mallin ennuste, ei tutkimuksia) |
+| Suomen markkinoiden asema | Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | **Odota** |
 
 ---
 
-## Clinical Trial Evidence
+## Miksi tämä ennuste on järkevä?
 
-Currently no related clinical trials registered for any of the three TxGNN-predicted indications (bulbar polio; treatment-related AML/MDS – alkylating agent; treatment-related AML/MDS – radiation).
+Yksityiskohtaiset vaikutusmekanismi-tiedot eivät ole saatavilla tässä näyttöpaketissa (`original_moa: [Data Gap]`). Ulkoisesti tunnetuista tiedoista ivosidenib on mutantin IDH1:n kohdistettu pieni molekyyli-estäjä, entsyymiä, joka liittyy AML:ään — tämä on taustatieto, ei aineistosta peräisin oleva tieto.
 
-## Literature Evidence
+Parhaiten sijoitetun ennusteen, **bulbaarin polion**, osalta näyttöpaketin perustelut-kenttä toteaa, että sillä **ei ole tunnistettavissa olevaa mekanistista yhteyttä**: bulbaari polio on akuutti neurologinen sairaus, joka aiheutuu poliovirus-infektiosta aivovarren motoneuronissa, eikä sillä ole tunnettua patologista suhdetta IDH1-entsyymin estoon. Nolla klinisten tutkimusten, nolla kirjallisuuden ja ilman mekanistista perustelua, tämä signaali on parhaiten tulkittavissa mallin kohinaksi tai atypilliseksi assosiaatioksi, ei aidoksi uudelleenkäytön hypoteesiksi.
 
-Currently no related literature available for any of the three TxGNN-predicted indications.
-
-## Finland Market Information
-
-Ivosidenib is currently **not marketed in Finland**. No marketing authorizations are on file (0 licenses).
+Sitä vastoin kaksi alemmin sijoitettua ennustetta — hoitoon liittyvä AML/MDS alkylointi-aineiden jälkeen tai säteily-terapian jälkeen — ovat mekanistisesti johdonmukaisempia: molemmat ovat tunnettuja AML/MDS-sairauden luokan alatyppejä, ja osassa tapauksista voi olla IDH1 R132 mutaatioita, jotka olisivat päällekkäisiä ivosidenib:n tunnetun IDH1-mutantin AML-mekanismin kanssa. Näyttöpaketti ei kuitenkaan sisällä alatyyppi-spesifejä tutkimuksia, kirjallisuutta tai IDH1-mutaatio-esiintyvyyden tietoja näille alatyypeille, joten tämä pysyy epäsuorana, vahvistamattomana johtopäätöksenä (ks. alla).
 
 ---
 
-## Cytotoxicity
+## Muut ennustetut indikaatiot (alempi sijoitus, korkeampi mekanistinen uskottavuus)
 
-Ivosidenib's predicted and externally known indications are oncologic/hematologic (AML/MDS), so this section is included for completeness. Classification below is based on the drug's known identity as an IDH1 inhibitor (external reference); specific toxicity data are not present in this evidence pack.
+| Sijoitus | Sairaus | TxGNN-pistemäärä | Näyttötaso | Päätösvaihe | Suositus |
+|----------|---------|-------------------|-----------|-----------|----------|
+| 2 | Alkylointi-aineeseen liittyvä AML/MDS | 99.26% | L4 | S1 | Tutkimuskysymys |
+| 3 | Säteilyyn liittyvä AML/MDS | 99.26% | L4 | S1 | Tutkimuskysymys |
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (mutant IDH1 enzyme inhibitor), not a conventional cytotoxic agent |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+Molemmat ovat hoitoon liittyvät AML/MDS-alatyypyt, joilla on uskottava (vaikkakin vahvistamaton) päällekkäisyys ivosidenib:n tunnetun IDH1-mutantin AML-mekanismin kanssa. Näille alatyypeille ei löydetty klinisiä tutkimuksia tai kirjallisuutta kyseisten lähteiden (ClinicalTrials.gov, ICTRP, PubMed — kaikki palautui 0 tulosta) perusteella.
 
 ---
 
-## Conclusion and Next Steps
+## Klinisten tutkimusten näyttö
 
-**Decision: Hold**
+Tällä hetkellä ei ole rekisteröityjä klinisiä tutkimuksia millekään kolmesta TxGNN:n ennustamasta indikaatiosta (bulbaari polio; hoitoon liittyvä AML/MDS – alkylointi-aine; hoitoon liittyvä AML/MDS – säteily).
 
-**Rationale:**
-The top-ranked TxGNN prediction (bulbar polio) has no supporting clinical trials, no literature, and no plausible mechanistic link — the evidence pack's own rationale identifies it as likely model noise. The two mechanistically more plausible predictions (treatment-related AML/MDS) remain at an early "Research Question" stage with no dedicated supporting evidence.
+## Kirjallisuuden näyttö
 
-**To proceed, the following is needed:**
-- TFDA package insert / warnings and contraindications data (blocking gap, DG001)
-- Confirmed mechanism-of-action data via DrugBank API (DG002)
-- If pursuing the treatment-related AML/MDS signals: subtype-specific IDH1 mutation prevalence data and dedicated clinical trial or case-series evidence
-- DDI data source resolution (current query returned "not found")
+Tällä hetkellä ei ole saatavilla kirjallisuutta millekään kolmesta TxGNN:n ennustamasta indikaatiosta.
+
+## Suomen markkinatiedot
+
+Ivosidenib ei ole tällä hetkellä **markkinoilla Suomessa**. Hyväksynnät eivät ole tiedossa (0 lisenssiä).
+
+---
+
+## Sytotoksisuus
+
+Ivosidenib:n ennustetut ja ulkoisesti tunnetut indikaatiot ovat onkologisia/hematologisia (AML/MDS), joten tämä osio on sisällytetty täydellisyyden vuoksi. Luokittelu alla perustuu lääkkeen tunnettuun identiteettiin IDH1-estäjänä (ulkoinen viite); spesifejä toksititeetti-tietoja ei ole tässä näyttöpaketissa.
+
+| Kohta | Sisältö |
+|------|---------|
+| Sytotoksisuuden luokitus | Kohdistettu lääkitys (mutantin IDH1-entsyymin estäjä), ei tavallinen sytotoksinen aine |
+| Luuytimen tukahdutusriski | Katso pakkausselosteen varoitukset ja varotoimet |
+| Pahoinvoin-potentiaalin luokitus | Katso pakkausselosteen varoitukset ja varotoimet |
+| Seurannan kohteet | Katso pakkausselosteen varoitukset ja varotoimet |
+| Käsittelyyn liittyvä suojaus | Katso pakkausselosteen varoitukset ja varotoimet |
+
+## Turvallisuusnäkökohdat
+
+Katso pakkausselosteen turvallisuustiedot.
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Odota**
+
+**Perustelut:**
+Parhaiten sijoitetulla TxGNN-ennusteella (bulbaari polio) ei ole tukevia klinisiä tutkimuksia, ei kirjallisuutta eikä uskottavaa mekanistista yhteyttä — näyttöpaketin omat perustelut tunnistavat sen todennäköisesti mallin kohinaksi. Kaksi mekanistisesti uskottavampaa ennustetta (hoitoon liittyvä AML/MDS) pysyvät varhaisessa "Tutkimuskysymys"-tilassa, jossa ei ole dedikoidusta näytöstä.
+
+**Jatkaakseen tarvitaan seuraavaa:**
+- TFDA:n pakkausseloste / varoitukset ja vastaiheet (estävä aukko, DG001)
+- Vahvistetut vaikutusmekanismi-tiedot DrugBank API:n kautta (DG002)
+- Jos jatketaan hoitoon liittyvien AML/MDS-signaalien kanssa: alatyyppi-spesifejä IDH1-mutaatio-esiintyvyyden tietoja ja dedikoitua klinistä tutkimusta tai tapaussarjan näyttöä
+- DDI-tiedon lähteen ratkaisu (nykyinen kysely palautti "not found")
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

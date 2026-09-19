@@ -29,60 +29,61 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 
 </div>
 
-# Vestronidase Alfa：從 Mucopolysaccharidosis VII（Sly 症候群）到 Scheie 症候群
+# Vestronidase alfa: Mukopolysaccharidoosista VII (Sly-oireyhtymä) Scheie-oireyhtymään
 
-## 摘要
+## Yhteenveto
 
-Vestronidase alfa（重組人類 β-glucuronidase, GUS）為第七型黏多醣症（MPS VII, Sly 症候群）之酵素替代療法，目前於美國、歐盟已核准上市。TxGNN 模型預測其可能對 **Scheie 症候群**（MPS I 最輕型亞型）有效，預測分數 **99.90%**，但目前**沒有任何臨床試驗或文獻證據**支持此連結，且兩病致病酵素完全不同。
+Vestronidase alfa (rekombinantti ihmisen β-glukuronidasii, GUS) on seitsemännen tyypin mukopolysaccharidoosin (MPS VII, Sly-oireyhtymä) entsyymikorvaushoidon valmiste, joka on tällä hetkellä hyväksytty markkinoille Yhdysvalloissa ja Euroopan unionissa. TxGNN-malli ennustaa, että se voisi olla tehokas **Scheie-oireyhtymässä** (MPS I:n lievin alatyypi), ennustuspistemäärä **99.90%**, mutta tällä hetkellä **ei ole yhtään kliinistä tutkimusta tai kirjallisuustietoa**, joka tukisi tätä yhteyttä, ja nämä kaksi sairautta johtuvat täysin eri entsyymeistä.
 
-## 總覽
+## Yleiskatsaus
 
-| 項目 | 內容 |
+| Kohta | Sisältö |
 |------|------|
-| 原始適應症 | Mucopolysaccharidosis VII（MPS VII, Sly 症候群）※台灣法規資料庫無正式許可證紀錄，此項出自佐證文獻，非 TFDA 仿單原文 |
-| 預測新適應症 | Scheie 症候群（MPS I 輕型） |
-| TxGNN 預測分數 | 99.90%（排名 1529） |
-| 證據等級 | L5（僅模型預測，無臨床試驗或文獻支持） |
-| 台灣上市狀態 | Not marketed |
-| 許可證數量 | 0 |
-| 建議決策 | **Hold（不建議推進）** |
+| Alkuperäinen käyttöaihe | Mukopolysaccharidoosi VII (MPS VII, Sly-oireyhtymä) ※Taiwan'in sääntelytietokannassa ei ole virallista hyväksynnän merkintää. Tämä on peräisin vahvistetusta kirjallisuudesta, ei TFDA:n pakkausselosteesta |
+| Ennustettu uusi käyttöaihe | Scheie-oireyhtymä (MPS I:n lievä muoto) |
+| TxGNN-ennustuspistemäärä | 99.90% (sijoitus 1529) |
+| Näyttötaso | L5 (vain mallin ennuste, ei kliinisiä tutkimuksia tai kirjallisuutta) |
+| Taiwan'in markkinointi-asema | Ei markkinoitu |
+| Lupamerkintöjen määrä | 0 |
+| Suositeltu päätös | **Hold (ei suositella eteenpäin viemistä)** |
 
-## 這個預測合理嗎？
+## Onko tämä ennuste perusteltu?
 
-本證據包中正式的作用機轉欄位標示為資料缺口（DG002），但佐證文獻（PMID 30467742）明確指出：vestronidase alfa 是重組人類 β-glucuronidase（GUS），用於補充 MPS VII 患者因 GUS 缺陷而無法分解的 glycosaminoglycans（GAGs），已於美國與歐盟核准用於 MPS VII 治療。
+Tässä todistepaketissa virallisen vaikutusmekanismin kenttä on merkitty tietovajeeksi (DG002), mutta vahvistettu kirjallisuus (PMID 30467742) selvästi osoittaa: vestronidase alfa on rekombinantti ihmisen β-glukuronidasii (GUS), jota käytetään MPS VII -potilaiden täydentämiseen, koska heidän GUS-puutteen vuoksi he eivät pysty hajottamaan glykosamino-glykaaneja (GAGs). Se on hyväksytty Yhdysvalloissa ja EU:ssa MPS VII:n hoitoon.
 
-Scheie 症候群屬於 MPS I 的最輕型亞型，其致病酵素缺陷為 **α-L-iduronidase（IDUA）**，而非 GUS。兩者雖同屬黏多醣症家族、臨床表現上都有骨骼與結締組織受累的相似性，但致病酵素路徑完全不同——補充 GUS 無法代償 IDUA 缺陷，機轉上不成立。
+Scheie-oireyhtymä on MPS I:n lievin alatyypi, jonka sairauden aiheuttava entsyymipuute on **α-L-iduronidaasi (IDUA)**, ei GUS. Vaikka molemmat kuuluvat mukopolysaccharidoosin perheeseen ja niillä on kliinisesti samankaltaisia piirteitä luuston ja sidekudoksen osalta, niiden patogeneettisen entsyymin reitit ovat täysin erilaiset – GUS:n lisääminen ei voi korvata IDUA:n puutosta, mekanistisesti se ei ole järkevää.
 
-TxGNN 的高分很可能反映的是知識圖譜中「MPS 疾病群組」表型相似性造成的模型偏誤，而非真正藥理學上的合理性。此預測目前無任何臨床試驗或文獻直接支持，應視為純模型假說。
+TxGNN:n korkea pistemäärä heijastaa todennäköisesti "MPS-tautiryhmä" -tietokannassa olevaa fenotyyppisimilaarisuutta, joka johtaa mallin virheeseen, eikä se ole todellisen farmakologisen järkevyyden tulos. Tälle ennusteelle puuttuvat kaikki kliiniset tutkimukset ja kirjallisuustodisteet, ja sitä tulisi pitää puhtaasti mallipohjaisena hypoteesinä.
 
-## 臨床試驗證據
+## Kliinisten tutkimusten todisteet
 
-目前無相關已註冊之臨床試驗。
+Ei ole saatavilla olevia rekisteröityjä kliinisiä tutkimuksia.
 
-## 文獻證據
+## Kirjallisuustodisteet
 
-目前無相關文獻。
+Ei ole saatavilla olevia kirjallisuustietoja.
 
-## 台灣市場資訊
+## Taiwan'in markkinatiedot
 
-Vestronidase alfa 在台灣Not marketed，無許可證紀錄可列示。
+Vestronidase alfa ei ole markkinoitu Taiwan'issa, joten hyväksyntämerkintöjä ei ole saatavilla.
 
-## 安全性考量
+## Turvallisuushuomiot
 
-請參閱藥品仿單以獲取安全性資訊（Fimea package insert warnings/contraindications屬關鍵資料缺口 DG001，Blocking 等級，尚未取得）。
+Tutustu lääkkeen pakkausselosteeseen turvallisuustietojen osalta (Fimea pakkausselosteen varoitukset ja vasta-aiheet ovat tärkeitä tietovajeitä DG001, estävä taso, ei vielä saatu).
 
-## 結論與後續建議
+## Johtopäätökset ja jatkosuositukset
 
-**決策：Hold（不建議推進）**
+**Päätös: Hold (ei suositella eteenpäin viemistä)**
 
-**理由：**
-此預測缺乏任何臨床試驗或文獻證據（證據等級 L5、決策階段 S0），且致病酵素機轉與原藥物補充酵素不對應，判斷為知識圖譜相似性雜訊，不具備推進至下一階段的證據基礎。
+**Perustelu:**
+Tälle ennusteelle puuttuvat kliiniset tutkimukset ja kirjallisuustodisteet (näyttötaso L5, päätösvaihe S0), ja sairauden aiheuttavan entsyymin mekanismi ei vastaa alkuperäisen lääkkeen korvaavaa entsyymiä. Johtopäätös on, että kyseessä on tietokanta-samankaltaisuuden aiheuttama kohina, eikä siinä ole riittävää näyttöä seuraavaan vaiheeseen siirtymiseen.
 
-**若欲繼續推進，需補充：**
-- TFDA 仿單警語與禁忌症資料（DG001，Blocking，須先完成才能進行 S1 安全性初評）
-- 正式作用機轉（MOA）文件（DG002，High）
-- Scheie 症候群相關體外/體內機轉驗證研究，確認 GUS 補充對 IDUA 缺陷是否存在任何代償路徑
-- 建議優先評估本證據包中證據等級較高的候選適應症——**Hurler syndrome**（rank 3，L3，decision_stage S1，已有 1 篇 Phase 1 試驗 NCT04532047），其證據基礎明顯優於 Scheie 症候群
+**Mikäli jatko-tutkimusta halutaan suorittaa, on täydennettävä seuraavalla:**
+- TFDA:n pakkausselosteen varoitukset ja vasta-aiheet (DG001, estävä taso, on suoritettava ensin S1 turvallisuusarvioinnin tekemiseksi)
+- Virallinen vaikutusmekanismi (MOA) -dokumentaatio (DG002, korkea prioriteetti)
+- Scheie-oireyhtymään liittyvä in vitro/in vivo mekanistinen validointitutkimus, joka varmistaa, onko GUS:n täydentämisellä mahdollista jonkin kompensaatiomekanismin kautta korvata IDUA-puutos
+- Suositus arviointijärjestyksen muuttamisesta: priorisoi tämän todistepakin korkeamman näyttötason ehdokkaita — **Hurler-oireyhtymä** (sijoitus 3, L3, decision_stage S1, jo 1 Phase 1 tutkimus NCT04532047), jonka todistepohjaisuus on selvästi parempi kuin Scheie-oireyhtymässä
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

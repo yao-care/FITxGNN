@@ -29,108 +29,109 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Pemetrexed: From Pleural Mesothelioma to Malignant Peritoneal Mesothelioma
+# Pemetreksi: Pleuraalisesta pahanlaatuisesta mesotelioomasta pahanlaatuiseen peritoneaaliseen mesotelioomaan
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Pemetrexed (DrugBank DB00642) is a multi-targeted antifolate whose core registered use is malignant pleural mesothelioma in combination with cisplatin. The TxGNN model additionally predicts efficacy in **Malignant Peritoneal Mesothelioma**, a related but anatomically distinct mesothelial malignancy, with **11 clinical trials** and **20 publications** currently supporting this direction — though none is yet a completed randomized trial specific to this indication.
+Pemetreksi (DrugBank DB00642) on monikohteinen folaatin antagonisti, jonka perusrekisteröity käyttöaihe on pahanlaatuinen pleuraali mesotelioma yhdistelmässä sisplatiinin kanssa. TxGNN-malli ennustaa lisäksi tehoa **pahanlaatuisessa peritoneaalisessa mesotelioomassa**, sukulaisessa mutta anatomiallisesti erillisessä seroosissa pahanlaatuisessa kasvaimessa, jonka tukena on **11 kliinistä tutkimusta** ja **20 julkaisua** – vaikka yhtään valmistunutta satunnaistettuatutkimusta tähän indikaatioon ei vielä ole.
 
 ---
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Malignant pleural mesothelioma (in combination with cisplatin) — the drug's core registered indication per the underlying evidence base |
-| Predicted New Indication | Malignant Peritoneal Mesothelioma |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L3 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Alkuperäinen indikaatio | Pahanlaatuinen pleuraali mesotelioma (yhdistelmässä sisplatiinin kanssa) – lääkkeen perusrekisteröity indikaatio olemassa olevaan näyttöpohjaan perustuen |
+| Ennustettu uusi indikaatio | Pahanlaatuinen peritoneaali mesotelioma |
+| TxGNN-ennustepisteet | 99.99% |
+| Näyttötaso | L3 |
+| Suomen markkinatilanne | ✗ Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Jatka varauksellisesti |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on perusteltu?
 
-Formal DrugBank mechanism-of-action text is currently a data gap (flagged as DG002, High severity, in the evidence pack). However, the repurposing rationale attached to every predicted indication independently and consistently describes pemetrexed as a **multi-targeted antifolate** that inhibits thymidylate synthase (TS), dihydrofolate reductase (DHFR), and glycinamide ribonucleotide formyltransferase (GARFT) — key enzymes in de novo purine and pyrimidine biosynthesis. Blocking these pathways starves rapidly dividing tumour cells of nucleotides needed for DNA replication.
+Virallinen DrugBank-mekanismin teksti on tällä hetkellä tietokatkoksia (merkitty DG002, korkea vakavuus, näyttöpakkauksessa). Kuitenkin jokaisen ennustetun indikaation kanssa liitetty repurposing-perustelutausta kuvaavat pemetreksiä johdonmukaisesti **monikohteiseksi folaatin antagonistiksi**, joka estää timidylaatti-syntaasia (TS), dihidrofolaatti-reduktaasia (DHFR) ja glysiiniamidi-ribonukleotidi-formyylitransferaasia (GARFT) – keskeisiä entsyymejä de novo puriini- ja pyrimidiini-biosynteesissa. Näiden polkujen esto riistää nopeasti jakautuvista syöpäsoluista nukleotidit, joita ne tarvitsevat DNA:n replikaatioon.
 
-Malignant pleural mesothelioma and malignant peritoneal mesothelioma both arise from **mesothelial cells**, sharing histology, immunohistochemical markers, and molecular biology despite originating from different serosal cavities (pleura vs. peritoneum). Because pemetrexed's antifolate mechanism targets a cellular replication pathway rather than a tissue-specific target, the biological rationale for extending its established pleural-mesothelioma activity to the peritoneal counterpart is mechanistically sound.
+Pahanlaatuinen pleuraali mesotelioma ja pahanlaatuinen peritoneaali mesotelioma molemmat nousevat **mesoteliaalisista soluista**, jakavat histologian, immunohistokemiallisia markkereita ja molekyylibiologiaa huolimatta siitä, että ne lähtöisin eri seroosista onteloista (pleura vs. peritoneum). Koska pemetreksin folaatin antagonismi kohdituu solutason replikaatioreitille pikemminkin kuin kudostyyppikohtaiseen kohteeseen, biologinen perusteellisuus sen vahvistaman pleuraali-mesoteliooma-aktiivisuuden laajentamiselle peritoneaalisen vastineeseen on mekanistisesti vakaa.
 
-This is reflected in real-world practice: cisplatin plus pemetrexed is already commonly used off-label as first-line systemic therapy for peritoneal mesothelioma, extrapolated from the pleural mesothelioma standard of care, and several prospective trials (including an ongoing randomized Phase 2, ICARuS II) are now formally testing this regimen in the peritoneal setting.
+Tämä näkyy käytännön hoitokäytännössä: sisplatini plus pemetreksi on jo yleisesti käytössä off-label-käyttöä ensimmäisen linjan systeemisenä hoitona peritoneaali mesotelioomassa, ekstrapoloituna pleuraali-mesoteliooman hoitojen standardista, ja useat prospektiiviset tutkimukset (mukaan lukien käynnissä oleva satunnaistettu Phase 2, ICARuS II) testaavat nyt muodollisesti tätä hoitoregiimiä peritoneaalin kontekstissa.
 
 ---
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset tulokset |
 |---------|------|------|------|---------|
-| [NCT06057935](https://clinicaltrials.gov/study/NCT06057935) | Phase 2 | Recruiting | 64 | ICARuS II — randomized trial comparing intraperitoneal vs. intravenous chemotherapy after cytoreductive surgery + HIPEC for malignant peritoneal mesothelioma |
-| [NCT05001880](https://clinicaltrials.gov/study/NCT05001880) | Phase 2 | Recruiting | 66 | Randomized trial of carboplatin/pemetrexed/bevacizumab ± atezolizumab in neoadjuvant/palliative treatment of peritoneal mesothelioma |
-| [NCT00402766](https://clinicaltrials.gov/study/NCT00402766) | Phase 1 | Completed | 19 | Cisplatin + pemetrexed + imatinib mesylate in unresectable/metastatic malignant mesothelioma, including peritoneal disease |
-| [NCT03875144](https://clinicaltrials.gov/study/NCT03875144) | Phase 2 | Suspended | 66 | MESOTIP — PIPAC plus systemic chemotherapy (alternating cisplatin/pemetrexed) vs. systemic chemotherapy alone as first-line treatment |
-| [NCT06543069](https://clinicaltrials.gov/study/NCT06543069) | Phase 2 | Recruiting | 28 | Single-arm study of sintilimab + bevacizumab + pemetrexed/cisplatin in unresectable malignant peritoneal mesothelioma |
-| [NCT04462809](https://clinicaltrials.gov/study/NCT04462809) | Phase 2 | Unknown | 40 | Three-cohort trial of talazoparib maintenance following first-line platinum-based chemotherapy in pleural or peritoneal mesothelioma |
-| [NCT02535312](https://clinicaltrials.gov/study/NCT02535312) | Phase 1/2 | Active, not recruiting | 30 | TRC102 combined with cisplatin/pemetrexed in advanced solid tumors and pemetrexed/cisplatin-refractory mesothelioma |
-| [NCT02029690](https://clinicaltrials.gov/study/NCT02029690) | Phase 1 | Terminated | 85 | ADI-PEG 20 (arginine-depleting enzyme) with pemetrexed/cisplatin in arginine-dependent tumors, including peritoneal mesothelioma |
-| [NCT01353482](https://clinicaltrials.gov/study/NCT01353482) | Phase 1/2 | Withdrawn | 0 | Vorinostat with pemetrexed-cisplatin as first-line therapy in malignant mesothelioma |
-| [NCT00061477](https://clinicaltrials.gov/study/NCT00061477) | Phase 2 | Completed | 48 | ALIMTA (pemetrexed) plus gemcitabine as front-line chemotherapy for malignant pleural or peritoneal mesothelioma |
+| [NCT06057935](https://clinicaltrials.gov/study/NCT06057935) | Phase 2 | Rekrytointivaiheessa | 64 | ICARuS II – satunnaistettu tutkimus vertaa intraperitonaalista vs. intravenöösää kemoterapiaa sytoreduktiivisen leikkauksen ja HIPEC:n jälkeen pahanlaatuisen peritoneaali mesotelioman hoitoon |
+| [NCT05001880](https://clinicaltrials.gov/study/NCT05001880) | Phase 2 | Rekrytointivaiheessa | 66 | Satunnaistettu tutkimus karboplaatiini/pemetreksi/bevatsumabi ± atseolizumabi neoadjuvantissa/palliatiivisessa hoidossa peritoneaali mesoteliomassa |
+| [NCT00402766](https://clinicaltrials.gov/study/NCT00402766) | Phase 1 | Valmistunut | 19 | Sisplatini + pemetreksi + imatinitsi-mesylaatti resektoimattomassa/metastaattisessa pahanlaatuisessa mesotelioomassa, mukaan lukien peritoneaalin sairaus |
+| [NCT03875144](https://clinicaltrials.gov/study/NCT03875144) | Phase 2 | Keskeytetty | 66 | MESOTIP – PIPAC plus systeeminen kemoterapia (vuorotellen sisplatini/pemetreksi) vs. pelkkä systeeminen kemoterapia ensimmäisen linjan hoitona |
+| [NCT06543069](https://clinicaltrials.gov/study/NCT06543069) | Phase 2 | Rekrytointivaiheessa | 28 | Yksisarjainen tutkimus sintilimiabista + bevatsumabista + pemetreksi/sisplatiinista resektoimattomassa pahanlaatuisessa peritoneaali mesotelioomassa |
+| [NCT04462809](https://clinicaltrials.gov/study/NCT04462809) | Phase 2 | Tuntematon | 40 | Kolmisarjainen tutkimus talazopariibista ylläpitohoitona ensimmäisen linjan platina-pohjaisen kemoterapian jälkeen pleuraali tai peritoneaali mesotelioomassa |
+| [NCT02535312](https://clinicaltrials.gov/study/NCT02535312) | Phase 1/2 | Aktiivinen, ei rekrytoitava | 30 | TRC102 yhdessä sisplatini/pemetreksin kanssa edistyneissä kiinteissä kasvaaimissa ja pemetreksi/sisplatini-resistentissa mesotelioomassa |
+| [NCT02029690](https://clinicaltrials.gov/study/NCT02029690) | Phase 1 | Lopetettu | 85 | ADI-PEG 20 (arginiinia-ehtyvä entsyymi) pemetreksin/sisplatiinin kanssa arginiinia-riippuvaisissa kasvaaimissa, mukaan lukien peritoneaali mesotelioma |
+| [NCT01353482](https://clinicaltrials.gov/study/NCT01353482) | Phase 1/2 | Peruutettu | 0 | Vorinostati pemetreksi-sisplatiinin kanssa ensimmäisen linjan hoitona pahanlaatuisessa mesotelioomassa |
+| [NCT00061477](https://clinicaltrials.gov/study/NCT00061477) | Phase 2 | Valmistunut | 48 | ALIMTA (pemetreksi) plus gemitsitiini etulinjassa kemoterapiana pahanlaatuisessa pleuraali tai peritoneaali mesotelioomassa |
 
 ---
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Julkaisu | Keskeiset tulokset |
 |------|-----|------|------|---------|
-| [35407498](https://pubmed.ncbi.nlm.nih.gov/35407498/) | 2022 | Review | Journal of Clinical Medicine | Comprehensive review of treatment approaches for malignant peritoneal mesothelioma, including systemic pemetrexed-based chemotherapy |
-| [26941986](https://pubmed.ncbi.nlm.nih.gov/26941986/) | 2016 | Review | Journal of Gastrointestinal Oncology | Diagnosis and management overview of malignant peritoneal mesothelioma |
-| [31417959](https://pubmed.ncbi.nlm.nih.gov/31417959/) | 2019 | Cohort | Pleura and Peritoneum | Bidirectional chemotherapy enabling surgery and HIPEC in initially unresectable peritoneal mesothelioma |
-| [41133016](https://pubmed.ncbi.nlm.nih.gov/41133016/) | 2025 | Retrospective study | Clinical Medicine Insights. Oncology | Compares first-line pemetrexed-platinum vs. gemcitabine-platinum regimens in malignant peritoneal mesothelioma |
-| [31287877](https://pubmed.ncbi.nlm.nih.gov/31287877/) | 2019 | Retrospective study | Japanese Journal of Clinical Oncology | Efficacy and safety of pemetrexed plus cisplatin as first-line chemotherapy in advanced peritoneal mesothelioma |
-| [28594258](https://pubmed.ncbi.nlm.nih.gov/28594258/) | 2017 | Retrospective study | Expert Review of Anticancer Therapy | First-line pemetrexed plus cisplatin chemotherapy outcomes in peritoneal mesothelioma |
-| [33743636](https://pubmed.ncbi.nlm.nih.gov/33743636/) | 2021 | Retrospective study | BMC Cancer | Efficacy of second-line treatment and prognostic factors after first-line pemetrexed/cisplatin in advanced peritoneal mesothelioma |
-| [38806763](https://pubmed.ncbi.nlm.nih.gov/38806763/) | 2024 | Multi-center retrospective study | Annals of Surgical Oncology | Treatment strategies and outcomes across a multi-center peritoneal mesothelioma population |
-| [23291819](https://pubmed.ncbi.nlm.nih.gov/23291819/) | 2013 | Case report | BMJ Case Reports | Response to rechallenge with cisplatin and pemetrexed in peritoneal mesothelioma |
-| [33257382](https://pubmed.ncbi.nlm.nih.gov/33257382/) | 2020 | Case report | BMJ Case Reports | Nivolumab following pemetrexed-based chemotherapy in peritoneal mesothelioma |
+| [35407498](https://pubmed.ncbi.nlm.nih.gov/35407498/) | 2022 | Katsausartikkeli | Journal of Clinical Medicine | Kattava katsaus pahanlaatuisen peritoneaali mesotelioman hoitomenetelmiin, mukaan lukien systeeminen pemetreksi-pohjainen kemoterapia |
+| [26941986](https://pubmed.ncbi.nlm.nih.gov/26941986/) | 2016 | Katsausartikkeli | Journal of Gastrointestinal Oncology | Pahanlaatuisen peritoneaali mesotelioman diagnoosin ja hoidon yleiskatsaus |
+| [31417959](https://pubmed.ncbi.nlm.nih.gov/31417959/) | 2019 | Kohorttitutkimus | Pleura and Peritoneum | Kaksisuuntainen kemoterapia mahdollistaa leikkauksen ja HIPEC:n aluksi resektoimattomassa peritoneaali mesotelioomassa |
+| [41133016](https://pubmed.ncbi.nlm.nih.gov/41133016/) | 2025 | Takautuva tutkimus | Clinical Medicine Insights. Oncology | Vertailee ensimmäisen linjan pemetreksi-platinaa vs. gemitsitiini-platinaa pahanlaatuisessa peritoneaali mesotelioomassa |
+| [31287877](https://pubmed.ncbi.nlm.nih.gov/31287877/) | 2019 | Takautuva tutkimus | Japanese Journal of Clinical Oncology | Pemetreksin plus sisplatiinin teho ja turvallisuus ensimmäisen linjan kemoterapiana edistyneessä peritoneaali mesotelioomassa |
+| [28594258](https://pubmed.ncbi.nlm.nih.gov/28594258/) | 2017 | Takautuva tutkimus | Expert Review of Anticancer Therapy | Ensimmäisen linjan pemetreksi plus sisplatini kemoterapian tulokset peritoneaali mesotelioomassa |
+| [33743636](https://pubmed.ncbi.nlm.nih.gov/33743636/) | 2021 | Takautuva tutkimus | BMC Cancer | Toisen linjan hoidon teho ja prognostiset tekijät ensimmäisen linjan pemetreksi/sisplatiinin jälkeen edistyneessä peritoneaali mesotelioomassa |
+| [38806763](https://pubmed.ncbi.nlm.nih.gov/38806763/) | 2024 | Usean keskuksen takautuva tutkimus | Annals of Surgical Oncology | Hoitostrategiat ja tulokset usean keskuksen peritoneaali mesotelioma-väestössä |
+| [23291819](https://pubmed.ncbi.nlm.nih.gov/23291819/) | 2013 | Tapausraportti | BMJ Case Reports | Vastaus uusintahaasteeseen sisplatiinilla ja pemetreksiilla peritoneaali mesotelioomassa |
+| [33257382](https://pubmed.ncbi.nlm.nih.gov/33257382/) | 2020 | Tapausraportti | BMJ Case Reports | Nivolumabi pemetreksi-pohjaisen kemoterapian jälkeen peritoneaali mesotelioomassa |
 
 ---
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Pemetrexed is not currently marketed in Finland — the evidence pack records 0 authorizations on file. No product/dosage-form data is available to summarize.
+Pemetreksi ei ole tällä hetkellä markkinoilla Suomessa – näyttöpakkaus sisältää 0 hyväksyntää. Tuotteen/annostemuodon tietoja ei ole saatavilla yhteenvedosta.
 
 ---
 
-## Cytotoxicity
+## Sytoroksisuus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (fluoropyrimidine-adjacent multi-targeted antifolate) |
-| Myelosuppression Risk | High — antifolate chemotherapeutics of this class are well known to cause neutropenia, thrombocytopenia, and anemia; standard practice mandates folic acid and vitamin B12 supplementation to mitigate this risk. Formal package-insert-level toxicity figures are not available in this evidence pack (see DG001, Blocking) and should be confirmed before clinical use |
-| Emetogenicity Classification | Low–moderate as monotherapy; the standard cisplatin-containing combination regimen is highly emetogenic due to the cisplatin component |
-| Monitoring Items | CBC with differential, renal function (creatinine clearance), folate/vitamin B12 status, liver function |
-| Handling Protection | Requires standard cytotoxic drug handling precautions (PPE, closed-system transfer devices, spill protocols) |
+| Sytoroksisuuden luokitus | Tavanomainen sytoroksisuus (fluoropyrimidiini-läheinen monikohteinen folaatin antagonisti) |
+| Luuydinsorvin riski | Korkea – folaatin antagonistit tässä luokassa tunnetaan neutropenian, verihiutalepenian ja anemia aiheuttajiksi; normaali käytäntö velvoittaa foolihapon ja B12-vitamiinin täydennyshoitoon tämän riskin lieventämiseksi. Viralliset pakkausselosteen tasoiset toksisuusluvut eivät ole saatavilla tässä näyttöpakkauksessa (katso DG001, Estävä), ja ne on vahvistettava ennen kliinistä käyttöä |
+| Emetogenisuuden luokitus | Matala–kohtalainen monoterapiana; tavallinen sisplatini-pohjainen yhdistelmäregimen on erittäin emetogeniikka sisplatiinin komponentin vuoksi |
+| Valvontakohteet | Täydellinen verikuva differentiaalilla, munuaisten toiminta (kreatiniinin puhdistuma), foolihapon/B12-vitamiinin tila, maksan toiminta |
+| Käsittelysuoja | Vaatii tavanomaisia sytoroksilääkkeiden käsittelyn varotoimia (PPE, suljetun järjestelmän siirtölaitteet, vuototilanteiden ohjeistus) |
 
 ---
 
-## Safety Considerations
+## Turvallisuushuomiot
 
-Please refer to the package insert for safety information. Key warnings, contraindications, and drug-interaction data were not available in this evidence pack — this is flagged as a **Blocking** data gap (DG001) that currently prevents a full S1 safety pre-assessment and must be resolved before clinical guardrails can be finalized.
+Tutustu pakkausselosteeseen turvallisuustiedoissa. Keskeiset varoitukset, vasta-aiheet ja lääkevuorovaikutustiedot eivät olleet saatavilla tässä näyttöpakkauksessa – tämä on merkitty **estäväksi** tietokatkoksi (DG001), joka estää tällä hetkellä täyden S1 turvallisuusarvioinnin ja se on ratkaistava ennen kliinisten varauksellisten ehtojen lopullistamista.
 
 ---
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat toimenpiteet
 
-**Decision: Proceed with Guardrails**
+**Päätös: Jatka varauksellisesti**
 
-**Rationale:**
-The mechanistic case is strong (shared mesothelial origin with the drug's core pleural mesothelioma indication) and is supported by 11 clinical trials — including two actively recruiting randomized Phase 2 studies (ICARuS II, NCT05001880) — plus 20 publications, several of which report retrospective first-line efficacy of pemetrexed/cisplatin specifically in peritoneal mesothelioma. However, no completed randomized trial with peritoneal mesothelioma as the primary indication yet exists, keeping the evidence level at L3.
+**Perustelutausta:**
+Mekanistinen perustelutausta on vahva (jaotuva mesoteliaali-alkuperä lääkkeen perus pleuraali mesotelioma-indikaatiosta) ja sitä tukee 11 kliinistä tutkimusta – mukaan lukien kaksi aktiivisesti rekrytoivaa satunnaistettuaa Phase 2 tutkimusta (ICARuS II, NCT05001880) – plus 20 julkaisua, joista useat raportoivat takautuvan ensimmäisen linjan tehoa pemetreksi/sisplatiinista erityisesti peritoneaali mesotelioomassa. Kuitenkaan yhtään valmistunutta satunnaistettuatutkimusta peritoneaali mesotelioman pääindikaatiolla ei vielä ole, mikä pitää näyttötason L3:ssa.
 
-**To proceed, the following is needed:**
-- TFDA/Finland package insert warnings, contraindications, and DDI data (DG001, Blocking — required for S1 safety clearance)
-- Confirmed formal mechanism-of-action documentation from DrugBank (DG002)
-- Mature results from the ongoing Phase 2 RCTs (ICARuS II, expected completion 2028; NCT05001880, expected completion 2026)
-- A Finland/EU regulatory pathway assessment, since the drug is not currently marketed in Finland
+**Jatkaakseen tarvitaan seuraavaa:**
+- TFDA/Suomen pakkausseloste varoitukset, vasta-aiheet ja DDI-tiedot (DG001, Estävä – vaaditaan S1 turvallisuushyväksynnälle)
+- Vahvistettu virallinen vaikutusmekanismin dokumentaatio DrugBankista (DG002)
+- Kypsät tulokset käynnissä olevista Phase 2 RCT:ista (ICARuS II, odotettu valmistuminen 2028; NCT05001880, odotettu valmistuminen 2026)
+- Suomen/EU:n sääntely-arviointipolku, koska lääkettä ei ole tällä hetkellä markkinoilla Suomessa
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

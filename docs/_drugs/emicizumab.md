@@ -29,95 +29,92 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-Using the drug repurposing evaluation report template (v5) as instructed by the prompt, here is the report generated from the Evidence Pack.
+# Emicizumab: Hemofiliasta A pseudo-von Willebrandin tautiin
+
+## Yhden lauseen yhteenveto
+
+Emicizumab on biokaksinkertainen monoklonaalinen vasta-aine, jonka vakiintunut kliininen käyttö (tämän evidenssipaketin kirjallisuuden perusteella) on verenvuotojen profylaksia synnynnäisessä ja hankitussa hemofiliassa A. TxGNN-mallin parhaiten sijoittava ennuste on **pseudo-von Willebrandin tauti**, mutta tätä ehdokasta tukee **0 kliinistä tutkimusta** ja **0 julkaisua**, ja evidenssipaketin oma mekanistinen katsaus toteaa, että **mekanistista yhteyttä emicizumabiin ja tähän tautiin ei ole**. Viralliset Suomen/TFDA:n sääntelytiedot (alkuperäinen käyttöaihe, pakkausselosteen varoitukset, vaikutusmekanismi) eivät ole tällä hetkellä saatavissa ja ne on merkitty tietovajeiksi.
 
 ---
 
-# Emicizumab: From Hemophilia A to Pseudo-von Willebrand Disease
+## Nopea yleiskatsaus
 
-## One-Sentence Summary
-
-Emicizumab is a bispecific monoclonal antibody whose established clinical use (per the literature contained in this evidence pack) is bleeding prophylaxis in congenital and acquired hemophilia A. The TxGNN model's top-ranked prediction is **Pseudo-von Willebrand Disease**, but this candidate is supported by **0 clinical trials** and **0 publications**, and the evidence pack's own mechanistic review states there is **no plausible mechanistic link** between emicizumab and this disease. Formal Finland/TFDA regulatory data (original indication, package-insert warnings, mechanism of action) are currently unavailable and are flagged as data gaps.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not present in regulatory data (data gap). Literature context in this pack indicates congenital/acquired Hemophilia A (FVIII-mimetic prophylaxis) |
-| Predicted New Indication | Pseudo-von Willebrand Disease |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L5 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohde | Sisältö |
+|------|---------|
+| Alkuperäinen käyttöaihe | Ei saatavissa sääntelytiedoissa (tietovaje). Tämän paketin kirjallisuuskonteksti osoittaa synnynnäistä/hankittua hemofiliaa A (FVIII-mimeettinen profylaksia) |
+| Ennustettu uusi käyttöaihe | Pseudo-von Willebrandin tauti |
+| TxGNN-ennustepisteet | 99.99% |
+| Näyttötaso | L5 |
+| Suomen markkina-asema | ✗ Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Odota |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on perusteltu?
 
-Currently, detailed mechanism of action (MOA) data is not available from DrugBank in this evidence pack (Data Gap DG002, severity: High). Based on information found elsewhere in this same evidence pack (literature abstracts collected under the "acquired coagulation factor deficiency" candidate), emicizumab is a bispecific antibody that mimics the cofactor function of activated coagulation Factor VIII by bridging Factor IXa and Factor X, restoring thrombin generation. It is used clinically for bleeding prophylaxis in both congenital hemophilia A (with or without FVIII inhibitors) and, increasingly, acquired hemophilia A.
+Tällä hetkellä yksityiskohtaisia vaikutusmekanismin (MOA) tietoja ei ole saatavissa DrugBankista tässä evidenssipakettissa (tietovaje DG002, vakavuus: Korkea). Tämän evidenssipaketin muista kohdista löydetyn tiedon perusteella (kirjallisuuden abstraktit kerätty "hankittu koagulaatiotekijän puutos" -ehdokkaan alle) emicizumab on biokaksinkertainen vasta-aine, joka jäljittelee aktivoidun koagulaatiotekijä VIII:n yhteistekijän toimintoa silloittamalla tekijät IXa ja X, palauttaen trombiitin tuotantoa. Sitä käytetään kliinisesti verenvuotojen profylaksiin sekä synnynnäisessä hemofiliassa A (FVIII-estäjien kanssa tai ilman) että yhä enemmän hankitussa hemofiliassa A.
 
-The top-ranked TxGNN candidate, Pseudo-von Willebrand Disease, is a gain-of-function disorder of platelet membrane glycoprotein Ib (GPIbα) that causes abnormal spontaneous binding between platelets and von Willebrand factor. This is a **platelet-receptor defect**, not a coagulation-factor-cascade defect — mechanistically distinct from emicizumab's FIXa–FX bridging activity. The evidence pack's own repurposing rationale for this candidate explicitly concludes there is "no mechanistic plausibility support" (無機轉合理性支持) for this pairing.
+TxGNN:n parhaiten sijoitettu ehdokas, pseudo-von Willebrandin tauti, on trombosyyttien kalvon glykoproteiini Ib:n (GPIbα) toiminnon vahvistuma-häiriö, joka aiheuttaa epänormaalin spontaanin sitoutumisen trombosyyttien ja von Willebrand-tekijän välillä. Tämä on **trombosyytin reseptoridefekti**, ei koagulaatiotekijän kaskadi -defekti – mekanistisesti eroaa emicizumabiin liittyvästä FIXa–FX-silloituksesta. Evidenssipaketin oma repurposing-perustelu tälle ehdokkaalle päättelee eksplisiittisesti, että "mekanistinen uskottavuus ei ole tuettu" (無機轉合理性支持) tälle yhdistelmälle.
 
-This is an important caveat for interpreting the 99.99% TxGNN score: despite being the single highest-scoring prediction among the ten candidates in this pack, it carries the weakest possible evidence tier (L5 — model prediction only, no trials, no literature) and a mechanistic rationale that argues *against* biological plausibility. A high similarity score from the model should be read as a network-topology signal, not as evidence of mechanistic fit — the two must be evaluated separately, as they are in this pack.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
-
-## Literature Evidence
-
-Currently no related literature available
+Tämä on tärkeä varoitus tulkittaessa 99.99%:n TxGNN-pistemäärää: vaikka se on yksittäin korkeimmin sijoitettu ennuste näiden kymmenen ehdokkaan joukossa tässä paketissa, se kantaa heikoimman mahdollisen näyttötason (L5 – vain mallin ennuste, ei tutkimuksia, ei kirjallisuutta) ja mekanistisen perustelun, joka väittää *vastaan* biologista uskottavuutta. Mallin korkea samankaltaisuuspisteet tulisi lukea verkkotopologian signaaliksi, ei mekanistisen sopivuuden näytöksi – nämä kaksi on arvioitava erikseen, kuten tässä paketissa tehdään.
 
 ---
 
-## Other Candidates in This Evidence Pack (Supplementary)
+## Kliinisen tutkimuksen näyttö
 
-Because the top-ranked candidate has essentially no direct evidence, it is worth noting that two lower-ranked candidates in the same evidence pack carry meaningfully stronger support and may be better targets for follow-up evaluation:
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia
 
-| Rank | Disease | TxGNN Score | Evidence Level | Supporting Evidence |
+## Kirjallisuuden näyttö
+
+Tällä hetkellä ei ole saatavissa asiaan liittyvää kirjallisuutta
+
+---
+
+## Muut tämän evidenssipaketin ehdokkaat (täydentävät)
+
+Koska parhaiten sijoitetulla ehdokkaalla on pohjimmiltaan nolla suoraa näyttöä, on arvokasta huomata, että kaksi alemmin sijoitettua ehdokasta samassa evidenssipakettissa kantaa merkittävästi vahvempaa tukea ja voivat olla parempia seuranta-arviointikohteita:
+
+| Sijoitus | Tauti | TxGNN-pisteet | Näyttötaso | Tukeva näyttö |
 |------|---------|-------------|-----------------|----------------------|
-| 3 | Glanzmann thrombasthenia | 99.98% | L4 | 1 registry-type trial ([NCT04398628](https://clinicaltrials.gov/study/NCT04398628), non-interventional, relevance grade C) + 1 review article (PMID [37391649](https://pubmed.ncbi.nlm.nih.gov/37391649/), focused on rFVIIa, not emicizumab-specific). Mechanistic link is indirect — Glanzmann's is a GPIIb/IIIa platelet-aggregation defect, not a FVIII/IX/X-pathway defect. |
-| 5 | Acquired coagulation factor deficiency | 99.90% | Not yet finalized in this pack ("pending"), but data suggests it should score well above L4 | 1 registry trial + **20 PubMed publications**, including a completed Phase 3 study (AGEHA, PMID [39134043](https://pubmed.ncbi.nlm.nih.gov/39134043/)) and a published Phase 2 trial directly testing emicizumab in acquired hemophilia A (GTH-AHA-EMI, *Lancet Haematology*, PMID [37858328](https://pubmed.ncbi.nlm.nih.gov/37858328/)). Mechanism directly matches emicizumab's known FVIII-mimetic activity. |
+| 3 | Glanzmannin trombastenia | 99.98% | L4 | 1 rekisteri-tyyppinen tutkimus ([NCT04398628](https://clinicaltrials.gov/study/NCT04398628), ei-interventionaalinen, relevanssusaste C) + 1 katsausartikkeli (PMID [37391649](https://pubmed.ncbi.nlm.nih.gov/37391649/), keskittyy rFVIIa:han, ei emicizumab-spesifinen). Mekanistinen yhteys on epäsuora – Glanzmannin trombastenia on GPIIb/IIIa-trombosyytin aggregaatiodefekti, ei FVIII/IX/X-polku-defekti. |
+| 5 | Hankittu koagulaatiotekijän puutos | 99.90% | Ei vielä lopullista tässä paketissa ("odottava"), mutta tiedot viittaavat siihen, että sen pitäisi sijoittua hyvin L4:n yläpuolelle | 1 rekisteri-tutkimus + **20 PubMed-julkaisua**, mukaan lukien valmis vaiheen 3 tutkimus (AGEHA, PMID [39134043](https://pubmed.ncbi.nlm.nih.gov/39134043/)) ja julkaistu vaiheen 2 tutkimus, joka testasi suoraan emicizumab-hoitoa hankitussa hemofiliassa A (GTH-AHA-EMI, *Lancet Haematology*, PMID [37858328](https://pubmed.ncbi.nlm.nih.gov/37858328/)). Mekanismi vastaa suoraan emicizumabiin tunnetun FVIII-mimeettisen toiminnan kanssa. |
 
-**Risk flags identified elsewhere in this pack that should not proceed further:**
-- **Rank 8 – Thrombotic thrombocytopenic purpura**: mechanistically contraindicated. TTP is a pro-thrombotic, ADAMTS13-deficiency disorder; administering a pro-coagulant (emicizumab) is directionally opposite to the treatment goal and raises a safety concern, not just an evidence gap.
-- **Rank 10 – "flood factor deficiency"**: the evidence pack itself flags this as a likely OCR/data-mapping error with no resolvable disease-ontology match; it should be corrected at the source before any further evaluation.
-
----
-
-## Finland Market Information
-
-Emicizumab is not currently marketed in Finland — `taiwan_regulatory.market_status` reports "Not Marketed" with 0 registered marketing authorizations. No license records are available to summarize.
+**Riskiliput, jotka on tunnistettu muualla tässä paketissa ja joita ei pitäisi jatkaa eteenpäin:**
+- **Sijoitus 8 – Trombotinen trombosytopenia**: mekanistisesti kontraindiseroitu. TTP on pro-trombotinen, ADAMTS13-puutoshäiriö; pro-koagulantsin (emicizumab) antaminen on suuntaa vastaan hoitotavoitteelle ja aiheuttaa turvallisuushuolen, ei vain näyttövajeelle.
+- **Sijoitus 10 – "tulva tekijän puutos"**: evidenssipaketti itse merkitsee tämän todennäköiseksi OCR/tiedonmäärityshäväksi ilman ratkaistavaa taudin ontologia -vastaavuutta; se pitäisi korjata lähteessä ennen jatkoarvioita.
 
 ---
 
-## Safety Considerations
+## Suomen markkina-tiedot
 
-Please refer to the package insert for safety information.
-
-*(Key warnings, contraindications, and drug-interaction data are all flagged as data gaps in this evidence pack — including a Blocking-severity gap for TFDA package-insert warnings/contraindications, DG001 — so no S1 safety pre-screen can be completed at this time.)*
+Emicizumab ei ole tällä hetkellä markkinoilla Suomessa – `taiwan_regulatory.market_status` ilmoittaa "Not Marketed" (ei markkinoilla) 0 rekisteröidyllä markkinointiluvan myönnöllä. Yhteenvetoon saatavilla olevia lisenssitietueita ei ole.
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuuteen liittyvät näkökohdat
 
-**Decision: Hold**
+Tutustu pakkausselosteeseen turvallisuustietojen osalta.
 
-**Rationale:**
-The top-ranked TxGNN prediction (Pseudo-von Willebrand Disease) has L5 evidence — no clinical trials, no literature — and its own mechanistic rationale explicitly rules out biological plausibility. Combined with a Blocking-severity data gap on TFDA package-insert safety data (DG001), this candidate cannot proceed past S0/S1 in its current form.
+*(Tärkeät varoitukset, vasta-aiheet ja lääkkeiden vuorovaikutustiedot kaikki merkitään tietovajeiksi tässä evidenssipakettissa – mukaan lukien estävän vakavuuden vaje TFDA:n pakkausselosteen varoituksille/vasta-aiheille, DG001 – joten S1 turvallisuuden esiseulonta ei voi olla valmis tällä hetkellä.)*
 
-**To proceed, the following is needed:**
-- TFDA/EU package-insert warnings and contraindications (DG001, Blocking) — required before any S1 safety pre-screen
-- Confirmed mechanism of action data from DrugBank (DG002, High)
-- Confirmed original indication and Finland licensing history (currently absent from `taiwan_regulatory`)
-- If pursuing this evidence pack further, **redirect evaluation priority to rank 5 (acquired coagulation factor deficiency)**, which already has a completed Phase 3 trial (AGEHA) and a published Phase 2 RCT (GTH-AHA-EMI) directly supporting emicizumab use — this candidate likely merits an L1/L2 evidence-level reassessment rather than the "pending" status currently shown
-- Correct the disease-ontology mapping for rank 10 ("flood factor deficiency") before further use
-- Exclude rank 8 (TTP) from further repurposing consideration on mechanistic/safety grounds
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Odota**
+
+**Perustelut:**
+TxGNN:n parhaiten sijoitetulla ennusteella (pseudo-von Willebrandin tauti) on L5-näyttö – ei kliinisiä tutkimuksia, ei kirjallisuutta – ja sen oman mekanistisen perustelun mukaan biologinen uskottavuus on selvästi suljettu pois. Yhdessä estävän vakavuuden tietovajeen kanssa TFDA:n pakkausselosteen turvallisuustiedoissa ja vasta-aiheissa (DG001), tätä ehdokasta ei voi edistyä S0/S1:n pidemmälle nykysessä muodossaan.
+
+**Jatkamiseksi seuraavat ovat tarpeen:**
+- TFDA/EU-pakkausselosteen varoitukset ja vasta-aiheet (DG001, estävä) – vaaditaan ennen mitään S1 turvallisuuden esiseulontaa
+- Vahvistettu vaikutusmekanismin tieto DrugBankista (DG002, korkea)
+- Vahvistettu alkuperäinen käyttöaihe ja Suomen lisensointihistoria (tällä hetkellä puuttuu `taiwan_regulatory`-lähteestä)
+- Jos jatketaan tämän evidenssipaketin evaluointia, **ohjaa arvioinnin prioriteetti rank 5:lle (hankittu koagulaatiotekijän puutos)**, jolla on jo valmis vaiheen 3 tutkimus (AGEHA) ja julkaistu vaiheen 2 RCT (GTH-AHA-EMI), joka tukee suoraan emicizumab-hoitoa – tämä ehdokas todennäköisesti ansaitsee L1/L2 näyttötason uudelleen arvioinnin pikemminkin kuin "odottava" -status, joka on tällä hetkellä näytetty
+- Korjaa taudin ontologia -määritys rank 10:lle ("tulva tekijän puutos") ennen jatkokäyttöä
+- Sulkea pois rank 8 (TTP) repurposing-harkinnasta mekanistisista/turvallisuusperusteista
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -29,62 +29,63 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Linaclotide: From an Undocumented Original Indication to Cauda Equina Syndrome
+# Linaclotide: dokumentoimattomasta alkuperäisestä indikaatiosta Cauda Equina -oireyhtymään
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Linaclotide's original indication and mechanism of action are not documented in the current evidence pack.
-The TxGNN model predicts a possible association with **Cauda Equina Syndrome**, with a **99.96%** prediction score,
-but **no clinical trials** and **no literature** currently support this direction — the prediction rests on the model alone.
+Linaclotidin alkuperäinen indikaatio ja vaikutusmekanismi eivät ole dokumentoituja nykyisessä näytöpaketissa.
+TxGNN-malli ennustaa mahdollista yhteyttä **Cauda Equina -oireyhtymään**, pistemäärällä **99.96%**,
+mutta **yksikään kliininen tutkimus** ja **yksikään kirjallisuusviite** eivät tällä hetkellä tue tätä suuntaa — ennuste perustuu pelkästään malliin.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available in evidence pack |
-| Predicted New Indication | Cauda Equina Syndrome |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L5 |
-| Finland Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|-------|---------|
+| Alkuperäinen indikaatio | Ei saatavilla näytöpaketissa |
+| Ennustettu uusi indikaatio | Cauda Equina -oireyhtymä |
+| TxGNN-ennustteen pistemäärä | 99.96% |
+| Näytön taso | L5 |
+| Suomen markkina-asema | Ei markkinoilla (Ei markkinoilla) |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Odota |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, detailed mechanism of action data is not available for linaclotide in this evidence pack, and the original indication field is also empty. Without either data point, it is not possible to assess mechanistic plausibility between linaclotide's known pharmacology and cauda equina syndrome.
+Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja linaclotidista ei ole saatavilla tässä näytöpaketissa, ja alkuperäinen indikaatiokenttä on myös tyhjä. Ilman kumpaakaan näistä tietopisteistä ei ole mahdollista arvioida mekanistista uskottavuutta linaclotidin tunnetun farmakologian ja Cauda Equina -oireyhtymän välillä.
 
-The TxGNN model assigns a high confidence score (99.96%, rank 696) to this association, but the model output is currently unsupported by any external evidence — no registered clinical trials, no ICTRP records, and no published literature were found for this drug-disease pair. The other two model-flagged candidates (obsolete neurogenic bladder, score 99.89%; insomnia, score 99.51%) show the same pattern: high model confidence with zero corroborating trials or publications.
+TxGNN-malli antaa tälle assosiaatiolle korkean luottamuspisteet (99.96%, sijoitus 696), mutta mallin tulos ei tällä hetkellä ole tuettu millään ulkoisella näytöllä — mitään rekisteröityjä kliinisiä tutkimuksia, ICTRP-tietueita eikä julkaistua kirjallisuutta ei löytynyt tälle lääke-taudin yhdistelmälle. Muut kaksi mallin merkitsemää ehdokasta (vanhentuneet neurologiset virtsan pidätyshäiriöt, pistemäärä 99.89%; unettomuus, pistemäärä 99.51%) osoittavat saman kuvion: korkea mallin luottamus nolla tukevien tutkimusten tai julkaisujen kanssa.
 
-Given this, the prediction should be treated as a hypothesis-generation signal only, pending retrieval of the drug's actual original indication, MOA, and any supporting mechanistic or clinical literature.
+Näin ollen ennuste on käsiteltävä vain hypoteesiluontisignaalina, odottaen lääkkeen todellisen alkuperäisen indikaation, vaikutusmekanismin ja mahdollisen tukevan mekanistisen tai kliinisen kirjallisuuden hakemista.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-Currently no related clinical trials registered
+Tällä hetkellä ei ole liittyvää kliinistä tutkimusta rekisteröitynä
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-Currently no related literature available
+Tällä hetkellä ei ole liittyvää kirjallisuutta saatavilla
 
-## Finland Market Information
+## Suomen markkina-informaatio
 
-Linaclotide currently has no marketing authorization in Finland (0 licenses on record; market status: Not marketed).
+Linaclotidilla ei ole tällä hetkellä myyntilupaa Suomessa (0 lupaa tietueessa; markkina-asema: Ei markkinoilla).
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information.
+Turvallisustiedot löytyvät pakkausselosteesta.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Odota**
 
-**Rationale:**
-The prediction is supported only by the TxGNN model score (evidence level L5) with no clinical trial or literature corroboration, and key drug-level data — original indication, MOA, and TFDA/Fimea label warnings and contraindications — are missing, one of them flagged as a **Blocking** data gap that prevents initial safety screening (S1).
+**Perustelut:**
+Ennuste on tuettu vain TxGNN-mallin pistemäärällä (näytön taso L5), eikä sillä ole kliinisen tutkimuksen tai kirjallisuuden vahvistusta, ja kriittiset lääke-tasoiset tiedot — alkuperäinen indikaatio, vaikutusmekanismi, ja TFDA/Fimea-merkinnän varoitukset ja vasta-aiheet — puuttuvat, yksi niistä merkitty **Estävä** tietovajeena, joka estää alkuperäisen turvallisuusseulonnan (S1).
 
-**To proceed, the following is needed:**
-- Official label/package insert data (warnings, contraindications, DDI) — currently a Blocking gap
-- Mechanism of action (MOA) confirmation via DrugBank or equivalent source
-- Documentation of linaclotide's original approved indication(s)
-- Ongoing monitoring for new clinical trials or literature on cauda equina syndrome, neurogenic bladder, or insomnia
+**Jatkamista varten tarvitaan seuraavaa:**
+- Virallisen merkinnän/pakkauselosteen tiedot (varoitukset, vasta-aiheet, lääkeinteraktiot) — tällä hetkellä estävä vaje
+- Vaikutusmekanismin (MOA) vahvistus DrugBankin tai vastaavan lähteen kautta
+- Linaclotidin alkuperäisen hyväksytyn indikaation/indikaatioiden dokumentaatio
+- Jatkuva seuranta uusille kliinisille tutkimuksille tai kirjallisuudelle Cauda Equina -oireyhtymän, neurologisten virtsan pidätysháiriöiden tai unettomuuden osalta
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

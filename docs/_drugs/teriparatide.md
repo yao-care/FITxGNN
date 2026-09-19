@@ -29,91 +29,92 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Teriparatide: From Osteoporosis to Pregnancy and Lactation-Associated Osteoporosis
+# Teriparatidi: Osteoporoosista raskauteen ja maidontuotantoon liittyvään osteoporoosiin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Teriparatide (rhPTH 1-34, brand FORTEO) is an established bone-anabolic agent for osteoporosis. Among 10 TxGNN-predicted indications screened for this drug, **Pregnancy and Lactation-Associated Osteoporosis (PLO)** is the only one supported by real clinical evidence — **2 clinical trials** and **20 publications**, including several teriparatide-specific case series and two systematic reviews. The other 9 candidates (e.g. duodenal ulcer, Worth syndrome, esophageal disease) returned no or only incidental/adverse-event literature and are classified L4–L5 "Hold" — they are noted but not the focus of this report.
+Teriparatidi (rhPTH 1-34, tuotemerkki FORTEO) on vakiintunut luun anabolinen aine osteoporoosin hoitoon. Kymmenestä TxGNN-ennustetusta indikaatiosta, joita tähän lääkkeeseen seulottiin, **raskauteen ja maidontuotantoon liittyvä osteoporoosi (PLO)** on ainoa, jota tukee todellinen kliininen näyttö — **2 kliinistä tutkimusta** ja **20 julkaisua**, mukaan lukien useita teriparatidi-spesifisiä tapaussarjoja ja kaksi järjestelmällistä katsausta. Yhdeksän muuta kandidaattia (esim. pohjukaishaava, Worth-oireyhtymä, ruokatorven sairaudet) palautti joko ei mitään tai vain satunnaisia/haittavaikutuksiin liittyviä julkaisuja ja ne on luokiteltu L4–L5 "Hold" — ne on huomioitu, mutta ne eivät ole tämän raportin painopiste.
 
 ---
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohde | Sisältö |
 |------|------|
-| Original Indication | Osteoporosis (bone-anabolic agent; approved as FORTEO) |
-| Predicted New Indication | Pregnancy and Lactation-Associated Osteoporosis (PLO) |
-| TxGNN Prediction Score | 99.55% |
-| Evidence Level | L3 |
-| TFDA Market Status | Not marketed (Not marketed / no license on file) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Alkuperäinen indikaatio | Osteoporoosi (luun anabolinen aine; hyväksytty tuotteella FORTEO) |
+| Ennustettu uusi indikaatio | Raskauteen ja maidontuotantoon liittyvä osteoporoosi (PLO) |
+| TxGNN-ennustepisteet | 99.55% |
+| Näytön taso | L3 |
+| TFDA-markkinatila | Ei markkinoilla (Ei markkinoilla / ei lisenssiä rekisterissä) |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Jatka varauksilla |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on perusteltu?
 
-Currently, detailed mechanism of action data is not available (data gap, high severity). Based on known information from the underlying trial evidence, teriparatide is a recombinant human parathyroid hormone [PTH(1-34)] with bone-forming (anabolic) activity, and "has been approved for the treatment of osteoporosis as FORTEO by Eli Lilly & Co." with "numerous studies [verifying] its effectiveness in increasing bone mass" (NCT00277706).
+Yksityiskohtaisia vaikutusmekanismin tietoja ei tällä hetkellä ole saatavissa (tietovaje, korkea vakavuus). Taustalla olevan tutkimusnäytön perusteella teriparatidi on rekombinantti ihmisen paratiroidihormoni [PTH(1-34)], jolla on luun muodostavaa (anabolista) aktiviteettia, ja se "on hyväksytty osteoporoosin hoitoon tuotteella FORTEO Eli Lilly & Co." sillä "useat tutkimukset [vahvistavat] sen tehokkuuden luumassan lisäämisessä" (NCT00277706).
 
-PLO is not a mechanistically distinct disease — it is a rare, premenopausal phenotype of osteoporosis triggered by the calcium/bone-turnover demands of late pregnancy and lactation, presenting with vertebral fragility fractures. Because the underlying pathology (low bone mass, fracture risk) is the same as in the approved indication, the pharmacological rationale for using an anabolic bone agent is direct rather than speculative — this is best understood as a **population extension** of the existing mechanism (postmenopausal osteoporosis → premenopausal, pregnancy/lactation-related osteoporosis) rather than a novel mechanistic repurposing.
+PLO ei ole mekanistisesti erilainen sairaus — se on harvinainen, ennen vaihdevuosia esiintyvä osteoporoosin fenotyyppi, jota aiheuttavat raskauden myöhäisvaiheen ja maidontuotannon aiheuttamat kalsium-/luun-aineenvaihdunnan vaatimukset, ja se ilmentyy selkärankaisen haurastumismurtumien avulla. Koska taustalla oleva patologia (alhainen luumassa, murtumarisikki) on sama kuin hyväksytyssä indikaatiossa, farmakologinen perustelu teriparatiidin käytölle anabolisena luun aineena on suora eikä spekulatiivinen — tämä ymmärretään parhaiten **populaation laajennukseksi** olemassa olevassa mekanismissa (postmenopausaalinen osteoporoosi → ennen vaihdevuosia, raskauden/maidontuotantoon liittyvä osteoporoosi) eikä uudella mekanistisella uudelleenkäytöllä.
 
-This is corroborated by the literature: teriparatide is already described in multiple reviews as one of the preferred off-label treatment options for PLO (PMID 28084543), and dedicated case series/systematic reviews document its use and outcomes in this population (PMID 34132853, 35903718, 37708365).
+Tätä tukee kirjallisuus: teriparatidi on jo kuvattu useissa katsauksissa yhtenä parhaista off-label-hoitovaihtoehdoista PLO:n hoitoon (PMID 28084543), ja sille omistetut tapaussarjat/järjestelmälliset katsaukset dokumentoivat sen käyttöä ja tuloksia tässä väestöryhmässä (PMID 34132853, 35903718, 37708365).
 
 ---
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimusnumero | Vaihe | Tila | Koehenkilöt | Keskeiset tulokset |
 |---------|------|------|------|---------|
-| [NCT02440581](https://clinicaltrials.gov/study/NCT02440581) | N/A | Completed | 141 | "Renal Osteodystrophy: A Fresh Approach" — studies bone loss/CKD-associated osteoporosis; population is renal osteodystrophy, not PLO specifically; provides indirect PTH-pathway/bone-metabolism overlap only (relevance grade C) |
-| [NCT00277706](https://clinicaltrials.gov/study/NCT00277706) | Phase 1 | Completed | 40 | Impact of PTH(1-34) on osseous regeneration in the oral cavity; confirms FORTEO's approved bone-anabolic mechanism but studies periodontal bone regeneration, not PLO (relevance grade C) |
+| [NCT02440581](https://clinicaltrials.gov/study/NCT02440581) | N/A | Valmistunut | 141 | "Munuaisen osteoystrofia: Uusi lähestymistapa" — tutkii luumenetystä ja munuais-liittyvää osteoporosia; väestö on munuaisen osteoystrofia, ei erityisesti PLO; tarjoaa vain epäsuoraa PTH-reitin ja luun aineenvaihdunnan päällekkäisyyttä (merkityksellisyysluokitus C) |
+| [NCT00277706](https://clinicaltrials.gov/study/NCT00277706) | Vaihe 1 | Valmistunut | 40 | PTH(1-34):n vaikutus luisen uudismuodostuksen regeneraatiolle suussa; vahvistaa FORTEO:n hyväksytyn luun anabolisen mekanismin, mutta tutkii periodontaalisen luun uudismuodostusta, ei PLO:ta (merkityksellisyysluokitus C) |
 
-No trial in this evidence pack was designed specifically for PLO; the two identified trials contribute only background pharmacology/safety context for PTH(1-34), consistent with PLO's rarity and the lack of dedicated RCTs noted throughout the literature below.
+Mikään tämän näyttöpaketin tutkimus ei ole suunniteltu erityisesti PLO:lle; kaksi tunnistettua tutkimusta osallistuvat vain PTH(1-34):n taustafarmakologiaan/turvallisuusyhteydessä, joka on yhdenmukainen PLO:n harvinaisuuden kanssa ja alla olevassa kirjallisuudessa mainittujen omistettujen RCT-tutkimusten puutteen kanssa.
 
 ---
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset tulokset |
 |------|-----|------|------|---------|
-| [37708365](https://pubmed.ncbi.nlm.nih.gov/37708365/) | 2024 | Systematic Review & Meta-analysis | J Clin Endocrinol Metab | Comparative effectiveness of therapeutic interventions (incl. teriparatide) in PLO; notes optimal management remains undefined |
-| [40205203](https://pubmed.ncbi.nlm.nih.gov/40205203/) | 2025 | Systematic Review & Meta-analysis | Osteoporos Int | 35 studies / 943 patients; vertebral fractures and back pain common; treatment-response analysis inconclusive due to limited data |
-| [34132853](https://pubmed.ncbi.nlm.nih.gov/34132853/) | 2021 | Case series (multicenter retrospective cohort) | Calcif Tissue Int | 19 women with PLO treated with teriparatide (20 μg/day) + calcium vs. conventional management — assessed BMD and trabecular bone score |
-| [35903718](https://pubmed.ncbi.nlm.nih.gov/35903718/) | 2022 | Case series | Geburtshilfe Frauenheilkd | 47 women with PLO and vertebral fractures treated with teriparatide; effect on subsequent fracture and BMD |
-| [34037833](https://pubmed.ncbi.nlm.nih.gov/34037833/) | 2021 | Retrospective cohort | Calcif Tissue Int | BMD outcomes after teriparatide discontinuation, with vs. without sequential antiresorptive therapy in PLO |
-| [39008200](https://pubmed.ncbi.nlm.nih.gov/39008200/) | 2024 | Review (teriparatide-focused) | Endocrine | Effective strategies for PLO with specific focus on teriparatide use; notes lack of RCTs and poorly defined treatment strategies |
-| [36764958](https://pubmed.ncbi.nlm.nih.gov/36764958/) | 2023 | Case report | Calcif Tissue Int | Bone microarchitecture/strength changes during combined teriparatide + zoledronic acid treatment in severe PLO |
-| [33620518](https://pubmed.ncbi.nlm.nih.gov/33620518/) | 2022 | Review | Calcif Tissue Int | General PLO overview — pathophysiology, presentation, vertebral fracture risk |
-| [37175006](https://pubmed.ncbi.nlm.nih.gov/37175006/) | 2023 | Narrative Review | Diagnostics (Basel) | Diagnostic/management gaps in PLO; individualized strategy needed |
-| [28084543](https://pubmed.ncbi.nlm.nih.gov/28084543/) | 2017 | Review | Z Rheumatol | States teriparatide and bisphosphonates "seem to be the best option" for PLO |
+| [37708365](https://pubmed.ncbi.nlm.nih.gov/37708365/) | 2024 | Järjestelmällinen katsaus ja meta-analyysi | J Clin Endocrinol Metab | Hoitointervention suhteellinen tehokkuus (ml. teriparatidi) PLO:ssa; huomautukset siitä, että optimaalinen hallinto jää epäselvään |
+| [40205203](https://pubmed.ncbi.nlm.nih.gov/40205203/) | 2025 | Järjestelmällinen katsaus ja meta-analyysi | Osteoporos Int | 35 tutkimusta / 943 potilasta; selkärangamurtumia ja selkäkipua yleisiä; hoitovaste-analyysi epäselvä rajoitetun tiedon vuoksi |
+| [34132853](https://pubmed.ncbi.nlm.nih.gov/34132853/) | 2021 | Tapaussarja (monipaikkainen retrospektiivinen kohortti) | Calcif Tissue Int | 19 naista PLO:lla, joille annettiin teriparatidi (20 μg/vrk) + kalsium vs. perinteinen hoito — arvioitiin luumassan tiheys ja trabekulaarisen luun pisteet |
+| [35903718](https://pubmed.ncbi.nlm.nih.gov/35903718/) | 2022 | Tapaussarja | Geburtshilfe Frauenheilkd | 47 naista PLO:lla ja selkärangamurtumilla, joille annettiin teriparatidi; vaikutus seuraavien murtumien ja luumassan tiheyden esiintymiseen |
+| [34037833](https://pubmed.ncbi.nlm.nih.gov/34037833/) | 2021 | Retrospektiivinen kohortti | Calcif Tissue Int | Luumassan tiheyden tulokset teriparatiidin lopettamisen jälkeen, peräkkäisellä resorptiota estävällä hoidolla ja ilman sitä PLO:ssa |
+| [39008200](https://pubmed.ncbi.nlm.nih.gov/39008200/) | 2024 | Katsaus (teriparatidi-keskittynyt) | Endocrine | Tehokkaat strategiat PLO:n hoitoon teriparatiidin käytön erityisen huomion kanssa; huomautukset RCT-tutkimusten puutteesta ja huonosti määritellyistä hoitostrategioista |
+| [36764958](https://pubmed.ncbi.nlm.nih.gov/36764958/) | 2023 | Tapausraportti | Calcif Tissue Int | Luun mikroarkkitehtuurin ja lujuuden muutokset yhdistetyn teriparatidi + zoledronaatti-hoidon aikana vaikeassa PLO:ssa |
+| [33620518](https://pubmed.ncbi.nlm.nih.gov/33620518/) | 2022 | Katsaus | Calcif Tissue Int | PLO:n yleiskatsaus — patofysiologia, kliininen esitys, selkärankaisen murtumarisikki |
+| [37175006](https://pubmed.ncbi.nlm.nih.gov/37175006/) | 2023 | Narratiivinen katsaus | Diagnostics (Basel) | Diagnostiset ja hoitoon liittyvät puutteet PLO:ssa; yksilöllinen strategia tarpeellinen |
+| [28084543](https://pubmed.ncbi.nlm.nih.gov/28084543/) | 2017 | Katsaus | Z Rheumatol | Toteaa teriparatiidin ja bisfosfonaattien olevan "paras vaihtoehto" PLO:n hoitoon |
 
 ---
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-No TFDA marketing authorization is currently on file for teriparatide in this dataset (0 licenses, status: Not marketed / not marketed). This is itself a blocking data gap (DG001) for full safety evaluation and should be resolved via TFDA package-insert retrieval before proceeding further.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. No structured warnings, contraindications, or drug-interaction data were returned for this drug in the current evidence pack (DDI query status: not found).
+Tähän tietojoukoon ei ole tällä hetkellä kirjattu TFDA-markkinointilupia teriparatidille (0 lupaa, tila: Ei markkinoilla / ei markkinoilla). Tämä itsessään on estävä tietovaje (DG001) koko turvallisuuden arvioimiselle ja se olisi ratkaistava TFDA-pakkaustiedosteiden noutamisen kautta ennen kuin jatketaan eteenpäin.
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuusnäkökohdat
 
-**Decision: Proceed with Guardrails**
+Turvallisuustietoja varten katso pakkaustiedostoa. Tähän lääkkeeseen nykyisessä näyttöpaketissa ei ole palautettu mitään strukturoituja varoituksia, vasta-aiheita tai lääke-vuorovaikutustietoja (DDI-kyselyn tila: ei löytynyt).
 
-**Rationale:**
-PLO shares direct pathophysiology and mechanism with teriparatide's approved osteoporosis indication, and off-label use is already documented across two systematic reviews and multiple teriparatide-specific case series (up to 47 patients). However, no RCT exists (PLO is rare and difficult to randomize), and TFDA safety/label data for this drug is entirely missing.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings, contraindications) — currently a **blocking** data gap
-- Confirmed mechanism of action detail from DrugBank
-- Drug-drug interaction profile (currently not found)
-- A pregnancy/lactation-specific safety and monitoring plan, given the target population
-- Ongoing surveillance of the 9 other TxGNN-flagged candidates (L4–L5, Hold) is not warranted at this time — none returned supportive evidence, and one (esophageal disease) surfaced only adverse-event literature (e.g. calcinosis cutis worsening, PMID 26992073) rather than efficacy signal.
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Jatka varauksilla**
+
+**Perustelut:**
+PLO jakaa suoran patofysiologian ja mekanismin teriparatiidin hyväksytyn osteoporoosin indikaation kanssa, ja off-label-käyttö on jo dokumentoitu kahden järjestelmällisen katsauksen ja useiden teriparatidi-spesifisten tapaussarjojen (jopa 47 potilasta) poikki. Kuitenkaan mitään RCT:tä ei ole olemassa (PLO on harvinainen ja vaikeasti satunnaistettu), ja TFDA:n turvallisuus-/merkintätiedot tälle lääkkeelle ovat kokonaan puuttuvat.
+
+**Jatkaakseen, seuraava on tarpeen:**
+- TFDA-pakkaustiedosto (varoitukset, vasta-aiheet) — tällä hetkellä **estävä** tietovaje
+- Vahvistetut vaikutusmekanismin yksityiskohdat DrugBankista
+- Lääke-vuorovaikutusprofiili (tällä hetkellä ei löytynyt)
+- Raskauden/maidontuotantoon liittyvä turvallisuus- ja seurantasuunnitelma, ottaen huomioon kohdeväestö
+- Yhdeksän muun TxGNN-merkitsemän kandidaatin jatkuva seuranta (L4–L5, Hold) ei ole tämän hetken kannalta perusteltua — yksikään ei palauttanut tukevaa näyttöä, ja yksi (ruokatorven sairaus) nousi esiin vain haittavaikutuskirjallisuudesta (esim. kalsinoosin pahentuminen, PMID 26992073) pikemminkin kuin tehokkuussignaali.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

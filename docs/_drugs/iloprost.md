@@ -29,61 +29,62 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 
 </div>
 
-# Iloprost: From Pulmonary Arterial Hypertension to Hypotrichosis Simplex of the Scalp
+# Iloprost: keuhkojen arteriaalin hypertensosta päänahkan yksinkertaiseen hypotrikosiin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Iloprost is a synthetic prostacyclin (PGI2) analogue, a drug class clinically established for treating pulmonary arterial hypertension (PAH) through pulmonary vasodilation and platelet inhibition. The TxGNN model's top-ranked prediction is **Hypotrichosis Simplex of the Scalp**, but this candidate currently has **no supporting clinical trials or literature** — it is a pure model-derived hypothesis at this stage.
+Iloprost on synteettinen prostaglandiini (PGI2) -analogi, lääkeklassi, joka on kliinisesti vahvistettu keuhkojen arteriaalin hypertension (PAH) hoitoon keuhkojen verisuonten laajentumisen ja verihiutaleiden ehkäisyn kautta. TxGNN-mallin parhaiten sijoitettu ennuste on **päänahkan yksinkertainen hypotrikoosi**, mutta tällä ehdokkaalla ei ole tällä hetkellä tukevia kliinisiä tutkimuksia tai kirjallisuutta — se on puhtaasti mallista johdettu hypoteesi tässä vaiheessa.
 
-## Quick Overview
+## Pikakatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Pulmonary Arterial Hypertension (PAH) — based on known drug class; structured original-indication data was not available in this evidence pack |
-| Predicted New Indication | Hypotrichosis Simplex of the Scalp |
-| TxGNN Prediction Score | 99.45% |
-| Evidence Level | L5 |
-| Finland Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohde | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Keuhkojen arteriaalin hypertensio (PAH) — perustuu tunnettuun lääkeklassiin; strukturoituja alkuperäisen indikaation tietoja ei ollut saatavilla tässä todistusaineiston paketissa |
+| Ennustettu uusi indikaatio | Päänahkan yksinkertainen hypotrikoosi |
+| TxGNN-ennusteen pistemäärä | 99.45% |
+| Todistusaineiston taso | L5 |
+| Suomen markkinatilanne | Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Pidä |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known information, iloprost is a synthetic prostacyclin (PGI2) analogue that activates the IP receptor/cAMP pathway, producing pulmonary vasodilation and platelet aggregation inhibition — the core pharmacological mechanism underlying its established use in PAH.
+Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla tässä todistusaineiston paketissa. Tunnettujen tietojen perusteella iloprost on synteettinen prostaglandiini (PGI2) -analogi, joka aktivoi IP-reseptori/cAMP-reitin tuottaen keuhkojen verisuonten laajentumista ja verihiutaleiden aggregaation ehkäisyä — perusfarmakoloogisen mekanismin, joka muodostaa perustan sen vakiintuneelle käytölle PAH:ssa.
 
-The mechanistic rationale supplied for this candidate is speculative and drawn from a different drug class by analogy: prostaglandin analogues such as bimatoprost and latanoprost are known to promote eyelash/hair growth, and it is theorized that prostacyclin receptor pathways might have some overlapping activity with prostaglandin receptor pathways. However, this is a class-level inference, not iloprost-specific evidence, and no trial or publication data currently supports it.
+Tälle ehdokkaalle toimitettu mekanistinen perustelu on spekulatiivinen ja johdettu eri lääkeklassista analogialla: prostaglandiinianalogit kuten bimatoprost ja latanoprost tiedetään edistävän silmäripsi-/hiuskasvua, ja teoriassa prostasykliini-reseptorireitit saattavat jakaa jonkin verran toimintaa prostaglandiini-reseptorireittien kanssa. Tämä on kuitenkin luokkatasoinen päätelmä, ei iloprostiin liittyvää erityistä näyttöä, ja mikään tutkimus tai julkaisutiedot ei tällä hetkellä tue sitä.
 
-Because hypotrichosis simplex of the scalp is a genetically driven hair-follicle disorder with no established link to vasodilatory/antiplatelet pharmacology, this prediction should be treated as an early-stage hypothesis requiring dedicated mechanistic and preclinical validation before further evaluation.
+Koska päänahkan yksinkertainen hypotrikoosi on peritty hiusfollikkelien häiriö, jolla ei ole vahvistettua yhteyttä vasodilatorisen/verihiutaleiden estävän farmakologian kanssa, tätä ennustetta tulisi pitää varhaisvaiheen hypoteesina, joka vaatii omistautunutta mekanistista ja prekliinistä validointia ennen jatkovaluointia.
 
-## Clinical Trial Evidence
+## Kliinisten tutkimusten näyttö
 
-Currently no related clinical trials registered
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-Currently no related literature available
+Tällä hetkellä asiaan liittyvää kirjallisuutta ei ole saatavilla
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Iloprost is not marketed in Finland; no marketing authorization records are available in this evidence pack.
+Iloprost ei ole markkinoilla Suomessa; markkinointilupia ei ole saatavilla tässä todistusaineiston paketissa.
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information.
+Katso turvallisuustiedot pakkausselosteen sisältöä.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidä**
 
-**Rationale:**
-The top-ranked prediction (Hypotrichosis Simplex of the Scalp) has a high TxGNN score but zero supporting clinical trials or literature, and its mechanistic rationale is only a cross-class analogy rather than iloprost-specific evidence — insufficient to advance past S0.
+**Perustelut:**
+Parhaiten sijoitetulla ennusteella (Päänahkan yksinkertainen hypotrikoosi) on korkea TxGNN-pistemäärä, mutta nolla tukevia kliinisiä tutkimuksia tai kirjallisuutta, ja sen mekanistinen perustelu on vain luokkien välinen analogia iloprostiin liittyvän erityisen näytön sijaan — riittämätön edetä S0:n yli.
 
-**To proceed, the following is needed:**
-- Preclinical/mechanistic studies directly linking iloprost's PGI2/IP-receptor pathway to hair follicle biology
-- Confirmed original indication and MOA data (currently a data gap despite a successful DrugBank query)
-- TFDA/Fimea package insert warnings and contraindications (currently blocking per data gap DG001)
+**Edetäkseen tarvitaan seuraavaa:**
+- Prekliiniset/mekanistiset tutkimukset, jotka yhdistävät suoraan iloprostin PGI2/IP-reseptorireitin hiusfollikkelien biologiaan
+- Vahvistettu alkuperäinen indikaatio ja MOA-tiedot (tällä hetkellä tietoaukko onnistuneesta DrugBank-kyselystä huolimatta)
+- TFDA/Fimean pakkausselosteen varoitukset ja vasta-aiheet (tällä hetkellä estää tietoaukon DG001 mukaan)
 
-**Note:** Among the other TxGNN-predicted indications in this evidence pack, **Pulmonary Arterial Hypertension Associated with Congenital Heart Disease** (rank 3) has materially stronger evidence — 1 completed trial and 20 literature references, Evidence Level L2, recommendation "Proceed with Guardrails" — and PAH-associated with connective tissue disease (rank 5) and HIV infection (rank 6) also show moderate evidence (L2–L3). These PAH-subtype candidates are mechanistically consistent with iloprost's known pharmacology and warrant prioritized evaluation ahead of the hypotrichosis candidate.
+**Huomautus:** Tämän todistusaineiston paketin muiden TxGNN-ennustettujen indikaatioiden joukossa **Synnynnäisen sydänvian liittyvä keuhkojen arteriaalin hypertensio** (sija 3) sisältää olennaisesti vahvempaa näyttöä — 1 valmis tutkimus ja 20 kirjallisuusviitettä, todistusaineiston taso L2, suositus "Jatka varovaisuudella" — ja sidekudossairauteen liittyvä PAH (sija 5) ja HIV-infektio (sija 6) osoittavat myös kohtalaista näyttöä (L2–L3). Nämä PAH-alityypin ehdokkaat ovat mekanistisesti yhdenmukaisia iloprostin tunnetun farmakologian kanssa ja perustelevat priorisoidun arvioinnin päänahkan hypotrikoosin ehdokkaan sijaan.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

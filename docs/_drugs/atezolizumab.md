@@ -29,78 +29,79 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# ATEZOLIZUMAB: Repurposing Evaluation — Insufficient Data to Proceed
+# ATEZOLIZUMAB: Uudelleenkäytön arviointi — riittämätön tietopohja jatkamista varten
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-ATEZOLIZUMAB (DrugBank ID: DB11595) is a drug for which no original indication or mechanism of action data is available in the current Evidence Pack.
-No TxGNN predicted indications have been generated, and the drug is not currently marketed in Finland.
-This evaluation cannot be completed without further data collection.
+ATEZOLIZUMAB (DrugBank ID: DB11595) on lääke, josta ei ole saatavilla alkuperäistä indikaatiota tai toimintamekanismin tietoja nykyisessä Evidence Pack -kokoelmassa.
+Mitään TxGNN-ennustettuja indikaatioita ei ole luotu, ja lääkettä ei tällä hetkellä markkinoida Suomessa.
+Tätä arviointia ei voida suorittaa loppuun ilman lisää tiedonkeruuta.
 
 ---
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|---------|
-| Original Indication | Not available |
-| Predicted New Indication | No predictions available |
-| TxGNN Prediction Score | Not available |
-| Evidence Level | N/A — no predictions generated |
-| Finland Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+| Alkuperäinen indikaatio | Ei saatavilla |
+| Ennustettu uusi indikaatio | Ennusteita ei ole saatavilla |
+| TxGNN-ennusteen pistemäärä | Ei saatavilla |
+| Näytön taso | N/A — ennusteita ei ole luotu |
+| Suomen markkinatilanne | Ei markkinoinnissa |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | **Pidätetään** |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-No TxGNN predicted indications are available for ATEZOLIZUMAB in this Evidence Pack. The `predicted_indications` field is empty, meaning no repurposing candidates have been generated for evaluation. Without a predicted indication, the central question of this report — whether the drug can be repositioned — cannot be addressed.
+ATEZOLIZUMAB:lle ei ole saatavilla TxGNN-ennustettuja indikaatioita tässä Evidence Pack -kokoelmassa. `predicted_indications` -kenttä on tyhjä, mikä tarkoittaa, että arviointia varten ei ole luotu uudelleenkäytön ehdokkaita. Ilman ennustetusta indikaatiota tämän raportin keskeistä kysymystä — voiko lääkettä sijoittaa uudelleen — ei voida käsitellä.
 
-Mechanism of action data is also absent. MOA information is required to establish any mechanistic rationale linking a known pharmacological action to a new therapeutic target. Without it, even qualitative plausibility arguments cannot be formed.
+Toimintamekanismin tiedot puuttuvat myös. MOA-tietoja vaaditaan, jotta voidaan muodostaa mekaaninen perustelu, joka linkittää tunnetun farmakologisen toiminnan uuteen terapeuttiseen kohteeseen. Ilman sitä ei voida muodostaa edes laadullisia uskottavuusväitteitä.
 
-Finally, ATEZOLIZUMAB has no approved product in Finland (0 authorizations, market status: not marketed), which means there is no local regulatory baseline against which to assess a repurposing extension.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for this evaluation.
+Lopuksi ATEZOLIZUMAB:lla ei ole hyväksyttävää tuotetta Suomessa (0 hyväksyntää, markkinatilanne: ei markkinoinnissa), mikä tarkoittaa, että uudelleenkäytön laajentamisen arviointiin ei ole paikallista sääntelyyn liittyvää vertailupohjaa.
 
 ---
 
-## Literature Evidence
+## Kliiniset tutkimustodisteet
 
-Currently no related literature available for this evaluation.
-
----
-
-## Finland Market Information
-
-ATEZOLIZUMAB is not currently marketed in Finland. No product authorizations are on file.
+Tällä hetkellä tähän arviointiin liittyviä kliinisiä tutkimuksia ei ole rekisteröity.
 
 ---
 
-## Safety Considerations
+## Kirjallisuustodisteet
 
-Please refer to the package insert for safety information.
+Tällä hetkellä tähän arviointiin liittyvää kirjallisuutta ei ole saatavilla.
 
 ---
 
-## Conclusion and Next Steps
+## Suomen markkinatiedot
 
-**Decision: Hold**
+ATEZOLIZUMAB:ia ei tällä hetkellä markkinoida Suomessa. Tuotehyväksynnät eivät ole tallessa.
 
-**Rationale:**
-The Evidence Pack for ATEZOLIZUMAB is critically incomplete across all evaluation dimensions — predicted indications, mechanism of action, original indication, and safety data are all missing. A meaningful repurposing assessment cannot be conducted in the current state.
+---
 
-**To proceed, the following is needed:**
+## Turvallisuushuomiot
 
-- **TxGNN prediction results**: `predicted_indications` must be populated before any repurposing direction can be evaluated
-- **Mechanism of action (MOA)**: Query DrugBank API (DB11595) to retrieve pharmacological action and drug class data
-- **Original indication**: Retrieve from Fimea product registry or reference labelling from EMA/FDA
-- **Safety information**: Download and parse the package insert PDF to extract warnings, contraindications, and special population precautions
-- **Drug-drug interaction data**: Re-query DDI database; current result is `not_found` with 0 interactions returned
+Turvallisuustietojen osalta viittaa pakkausselosteeseen.
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidätetään**
+
+**Perustelut:**
+ATEZOLIZUMAB:n Evidence Pack -kokoelma on kriittisesti epätäydellinen kaikissa arviointimitoissa — ennustetut indikaatiot, toimintamekanismi, alkuperäinen indikaatio ja turvallisuustiedot puuttuvat kaikki. Merkityksellinen uudelleenkäytön arviointi ei ole mahdollista nykyisessä tilassa.
+
+**Jatkaakseen seuraavaa tarvitaan:**
+
+- **TxGNN-ennusteen tulokset**: `predicted_indications` -kenttä on täytettävä, ennen kuin mitään uudelleenkäytön suuntaa voidaan arvioida
+- **Toimintamekanismi (MOA)**: Kysy DrugBank API:a (DB11595) hakemaan farmakologisen toiminnan ja lääkkeen luokan tiedot
+- **Alkuperäinen indikaatio**: Hae Fimean tuoterekisteristä tai viitteellisistä merkinnöistä EMA:lta tai FDA:lta
+- **Turvallisuustiedot**: Lataa ja jäsennä pakkausselose-PDF saadaksesi varoitukset, vasta-aiheet ja erityisväestöjen varotoimet
+- **Lääke-lääke-vuorovaikutustiedot**: Kysy uudelleen DDI-tietokantaa; nykyinen tulos on `not_found` (0 vuorovaikutusta palautettu)
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

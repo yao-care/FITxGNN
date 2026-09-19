@@ -29,63 +29,62 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-Using the evidence pack directly (no external lookups) since `original_indications` is empty and MOA/safety fields are explicit data gaps — I'm not filling those in from outside knowledge.
+# Diroximel Fumarate: Dokumentoimattomasta alkuperäisestä käyttöaiheesta diabeettiseen kataraktaan
 
-# Diroximel Fumarate: From Undocumented Original Indication to Diabetic Cataract
+## Yhden lauseen yhteenveto
 
-## One-Sentence Summary
+Evidenssipaketti ei dokumentoi diroximel-fumaraatin alkuperäistä hyväksyttyä käyttöaihetta tai yksityiskohtaista vaikutusmekanismia (molemmat merkitty tietovajeiksi), ja lääkettä ei ole tällä hetkellä markkinoilla Suomessa. TxGNN-malli ennustaa mahdollista tehokkuutta **Diabeettiseen kataraktaan**, mutta tämä ja kaikki yhdeksän muuta listalla olevaa oftalmologista käyttöaihetta ovat tällä hetkellä tuettu **nollalla kliinisellä tutkimuksella** ja **nollalla julkaisulla** — ennustus on puhtaasti mallipisteisiin perustuva hypoteesi ilman ulkoista validointia.
 
-The evidence pack does not document diroximel fumarate's original approved indication or detailed mechanism of action (both flagged as data gaps), and the drug is not currently marketed in Finland. The TxGNN model predicts potential effectiveness for **Diabetic Cataract**, but this and all nine other ranked ocular indications are currently supported by **zero clinical trials** and **zero publications** — the prediction is a pure model-score hypothesis with no external validation.
+## Nopea yleiskatsaus
 
-## Quick Overview
+| Kohde | Sisältö |
+|------|---------|
+| Alkuperäinen käyttöaihde | Ei saatavilla nykyisessä evidenssipakettissa |
+| Ennustettu uusi käyttöaihde | Diabeettinen katarakta |
+| TxGNN-ennustuspisteet | 99.9993% |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Odota |
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available in current evidence pack |
-| Predicted New Indication | Diabetic Cataract |
-| TxGNN Prediction Score | 99.9993% |
-| Evidence Level | L5 |
-| Finland Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+## Miksi tämä ennustus on järkevä?
 
-## Why is This Prediction Reasonable?
+Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla (DrugBank ei palauttanut MOA-tekstiä tälle lääkkeelle). Tämän evidenssipaketin sisältämien mekanististen perusteluiden perusteella diroximel-fumaraatin aktiivinen metaboliitti, monomethyyli-fumaaraatti (MMF), aktivoi Nrf2-ARE-antioksidanttireittä. Sama reitti on ehdotettu teoreettisena linkkinä kaikkien kymmenen TxGNN-ennustetun käyttöaiheen yli, jotka klusteroituvat lähes kokonaan kataraktan alityyppien ja diabeettisen retinopatian ympärille.
 
-Currently, detailed mechanism of action data is not available (DrugBank returned no MOA text for this drug). Based on the mechanistic rationale included in this evidence pack, diroximel fumarate's active metabolite, monomethyl fumarate (MMF), is understood to activate the Nrf2-ARE antioxidant pathway. This same pathway is proposed as the theoretical link across all ten TxGNN-predicted indications, which cluster almost entirely around cataract subtypes and diabetic retinopathy.
+Koska `original_indications` on tyhjä evidenssipaketin osalta, lääkkeen alkuperäisen hyväksynnän ja diabeettisen kataraktan välistä yhteyttä ei voida arvioida täältä saatavien tietojen perusteella.
 
-Because `original_indications` is empty in the evidence pack, the relationship between the drug's original approved use and diabetic cataract cannot be assessed from the data available here.
+Mekanistisesti kataraktan muodostuminen diabeetikolla liittyy linssin kristalliiniproteiinien hapettavaan aggregaatioon hyperglykemisen stressin olosuhteissa. Nrf2-reitin aktivaatio voisi teoreettisesti vähentää tätä hapettavaa vahinkoa, minkä vuoksi malli esittää tätä uskottavaksi signaaliksi. Rationaalilta itseltään kuitenkin nimenomaisesti todetaan, että kyseessä on epäsuora, osoittamaton mekanistinen hypoteesi — ei ole olemassa oftalmologista prekliinistä tai kliinistä näyttöä, joka vahvistaa, että systeemisesti annettu diroximel-fumaaraatti saavuttaa terapeuttisia pitoisuuksia linssissa tai verkkokalvotudoksessa.
 
-Mechanistically, diabetic cataract formation is associated with oxidative aggregation of lens crystallin proteins under hyperglycemic stress. Nrf2 pathway activation could theoretically reduce this oxidative damage, which is why the model surfaces this as a plausible signal. However, the rationale itself explicitly notes this is an indirect, unproven mechanistic hypothesis — there is no ophthalmic preclinical or clinical evidence confirming that systemically administered diroximel fumarate reaches therapeutic concentrations in lens or retinal tissue.
+## Kliinisen tutkimuksen näyttö
 
-## Clinical Trial Evidence
+Tällä hetkellä ei ole liittyvää rekisteröityä kliinistä tutkimusta
 
-Currently no related clinical trials registered
+## Kirjallisuuden näyttö
 
-## Literature Evidence
+Tällä hetkellä kirjallisuutta ei ole saatavilla
 
-Currently no related literature available
+## Markkinatilanne Suomessa
 
-## Finland Market Information
+Diroximel-fumaaraattia ei ole tällä hetkellä markkinoilla Suomessa (0 rekisteröityä hyväksyntää); lisenssitietoja ei ole saatavilla taulukoitavaksi.
 
-Diroximel fumarate is not currently marketed in Finland (0 authorizations on record); no license data is available to tabulate.
+## Turvallisuusnäkökohdat
 
-## Safety Considerations
+Katso turvallisuustiedot pakkausselosteesta.
 
-Please refer to the package insert for safety information.
+## Johtopäätös ja seuraavat vaiheet
 
-## Conclusion and Next Steps
+**Päätös: Odota**
 
-**Decision: Hold**
+**Perustelut:**
+Ennustus perustuu kokonaan TxGNN-mallipisteisiin (L5), joilla ei ole tukemassa kliinisiä tutkimuksia, kirjallisuutta tai prekliinistä oftalmologista aineistoa, ja lääkettä ei ole markkinoilla Suomessa. Lääkkeen ydin-tasoiset faktat — alkuperäinen käyttöaihde, vahvistettu vaikutusmekanismi ja TFDA:n turvallisuus- ja merkintätiedot — ovat kaikki ratkaisemattomia tietovajeita (DG001 on merkitty Esto, DG002 Korkea), joten kandidaatti ei voi vielä siirtyä turvallisuuden esiseulontaan (S1).
 
-**Rationale:**
-The prediction rests entirely on a TxGNN model score (L5) with no supporting clinical trials, literature, or preclinical ocular data, and the drug is not marketed in Finland. Core drug-level facts — original indication, confirmed MOA, and TFDA safety/label data — are all unresolved data gaps (DG001 is flagged Blocking, DG002 High), so the candidate cannot yet enter safety pre-screening (S1).
+**Jotta voidaan edetä, tarvitaan seuraavaa:**
+- TFDA:n/valmistajan pakkausseloste (varoitukset, vasta-aiheet, lääkkeiden väliset yhteisvaikutukset) — tällä hetkellä Esto per DG001
+- Vahvistettu alkuperäinen käyttöaihde ja vaikutusmekanismi DrugBankista tai sääntelylähteestä — DG002
+- Prekliininen näyttö siitä, että systeeminen annos saavuttaa Nrf2-reitin aktivaation linssissa tai verkkokalvotudoksessa
+- Kaikki in vitro- tai eläinkokeista saadut tiedot antioksidantin vaikutuksesta diabeettisen kataraktan tai retinopatian malleissa
+- Antoreitin toteutettavuusarviointi oftalmologisen kohteen saavuttamiselle
 
-**To proceed, the following is needed:**
-- TFDA/manufacturer package insert (warnings, contraindications, DDI) — currently Blocking per DG001
-- Confirmed original indication and mechanism of action from DrugBank or regulatory source — DG002
-- Preclinical evidence that systemic dosing achieves Nrf2-pathway activation in lens/retinal tissue
-- Any in vitro or animal data on antioxidant effect in diabetic cataract or retinopathy models
-- Route-of-administration feasibility assessment for ocular target engagement
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

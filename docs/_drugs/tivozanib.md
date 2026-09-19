@@ -29,73 +29,74 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Tivozanib: From Renal Cell Carcinoma to Endocervical Carcinoma
+# Tivozanib: munuaissolucytokarsinoomasta endoservikaaliseen karsinoomaan
 
-> **Note on data completeness**: This Evidence Pack does not populate `original_indications` or `original_moa` (both flagged as data gaps DG001/DG002, with DG001 rated *Blocking*). The original indication below is based on general pharmacological knowledge of tivozanib (a marketed VEGFR TKI for renal cell carcinoma) and requires confirmation against the TFDA/Fimea package insert before this report can be used for decision-making.
+> **Huomio tietojen täydellisyydestä**: Tämä todistusaineisto ei täydennä kohteita `original_indications` tai `original_moa` (molemmat merkitty tietokuiluiksi DG001/DG002, DG001 arviointitasolla *Kriittinen*). Alla oleva alkuperäinen indikaatio perustuu tivozanibin yleiseen farmakologiseen tietoon (markkinoilla oleva VEGFR TKI munuaissolucytokarsinoomaa varten) ja vaatii vahvistusta TFDA/Fimea pakkausselvitystä vastaan ennen kuin tätä raporttia voidaan käyttää päätöksentekoon.
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Tivozanib is a highly selective VEGFR-1/2/3 tyrosine kinase inhibitor originally developed for renal cell carcinoma. The TxGNN model predicts it may be effective for **Endocervical Carcinoma**, but currently **0 clinical trials** and **0 publications** support this specific direction — the signal is a pure graph-based prediction.
+Tivozanib on erittäin selektiivinen VEGFR-1/2/3-tyrosiinikinaasin estäjä, joka kehitettiin alun perin munuaissolucytokarsinoomaa varten. TxGNN-malli ennustaa, että se saattaa olla tehokas **endoservikaaliseen karsinoomaan**, mutta tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua** tukee tätä erityistä suuntaa — signaali on puhtaasti verkkopohjainen ennustus.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Renal cell carcinoma (general knowledge; not present in evidence pack — data gap) |
-| Predicted New Indication | Endocervical carcinoma |
-| TxGNN Prediction Score | 99.81% |
-| Evidence Level | L5 |
-| Finland Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohde | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Munuaissolucytokarsinooma (yleinen tieto; ei ole olemassa todistusaineistossa — tietokuilu) |
+| Ennustettu uusi indikaatio | Endoservikaali karsinooma |
+| TxGNN:n ennustepistemäärä | 99.81% |
+| Todisteiden taso | L5 |
+| Suomen markkinatila | Ei markkinoinnissa (Ei markkinoinnissa) |
+| Valtuutuksien lukumäärä | 0 |
+| Suositeltu päätös | Pidättäytyminen |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennustus on järkevä?
 
-Detailed original mechanism-of-action data is marked as a data gap in this evidence pack. However, according to the repurposing rationale attached to the prediction, tivozanib is a highly selective VEGFR-1/2/3 tyrosine kinase inhibitor that suppresses tumor angiogenesis.
+Yksityiskohtainen alkuperäisen toimintamekanismin tieto on merkitty tietokuiluksi tässä todistusaineistossa. Kuitenkin ennusteeseen liittyvän siirtokäyttöperusteen mukaan tivozanib on erittäin selektiivinen VEGFR-1/2/3-tyrosiinikinaasin estäjä, joka tukahduttaa kasvainten angiogeneesiä.
 
-Endocervical carcinoma, like renal cell carcinoma, can be angiogenesis-dependent, and other anti-angiogenic agents (e.g., bevacizumab) are already approved for advanced cervical cancer. This gives the prediction a plausible mechanistic analogy at the drug-class level.
+Endoservikaali karsinooma voi, kuten munuaissolucytokarsinooma, olla angiogeneesistä riippuvainen, ja muut anti-angiogeneettisen aineet (esim. bevatsumabi) ovat jo hyväksytty edistyneen kohdunkaulan syövän hoitoon. Tämä antaa ennusteelle uskottavan mekanistisen analogian lääkeluokkatasolla.
 
-That said, the link is derived purely from TxGNN's knowledge-graph similarity — there is no tivozanib-specific study, case report, or preclinical data in endocervical carcinoma to confirm the mechanism actually translates to clinical benefit in this tumor type.
+Silti linkki on johdettu puhtaasti TxGNN:n tietokaavion samankaltaisuudesta — tivozanibin erityistä tutkimusta, tapausraporttia tai prekliinistä dataa endoservikaalisessa karsinoomassa ei ole olemassa vahvistamaan, että mekanismi todella siirtyy kliiniseksi hyödyksi tässä kasvaintyypissä.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen todisteet
 
-Currently no related clinical trials registered.
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
 
-## Literature Evidence
+## Kirjallisuuden todisteet
 
-Currently no related literature available.
+Tällä hetkellä ei ole saatavilla asiaan liittyviä kirjallisuustietoja.
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Tivozanib currently has no marketing authorization in Finland (0 licenses on record); no product table is available.
+Tivozanibilla ei ole tällä hetkellä markkinointilupia Suomessa (0 lisenssejä tietueissa); tuotetaulukkoa ei ole saatavilla.
 
-## Cytotoxicity
+## Sytotoksisuus
 
-Tivozanib is an antineoplastic agent (VEGFR tyrosine kinase inhibitor).
+Tivozanib on syöpälääke (VEGFR-tyrosiinikinaasin estäjä).
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (VEGFR-1/2/3 tyrosine kinase inhibitor / anti-angiogenic agent) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| Kohde | Sisältö |
+|------|---------|
+| Sytotoksisuuden luokitus | Kohdennettu hoito (VEGFR-1/2/3-tyrosiinikinaasin estäjä / anti-angiogeneettinen aine) |
+| Ydinsolun tukahduttamisen riski | Katso pakkausselvityksestä varoitukset ja varotoimet |
+| Emetogenisuuden luokitus | Katso pakkausselvityksestä varoitukset ja varotoimet |
+| Valvontakohdat | Katso pakkausselvityksestä varoitukset ja varotoimet |
+| Käsittelysuojaus | Katso pakkausselvityksestä varoitukset ja varotoimet |
 
-## Safety Considerations
+## Turvallisuushuomiot
 
-Please refer to the package insert for safety information.
+Katso turvallisuustiedoista pakkausselvityksestä.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidättäytyminen**
 
-**Rationale:**
-The prediction rests solely on a TxGNN graph score (L5, decision stage S0) with zero supporting clinical trials or literature across all 10 candidate gynecological indications queried, and the drug's own TFDA/Fimea label data is unresolved (a Blocking-severity gap).
+**Perustelut:**
+Ennustus perustuu yksinomaan TxGNN:n graafin pisteeseen (L5, päätösvaihe S0), joilla ei ole lainkaan tukevaa kliinistä tutkimusta tai kirjallisuutta kaikista 10 kysetyistä gynekologisista indikaatoista, ja lääkkeen oman TFDA/Fimea-merkinnän tiedot ovat ratkaisemattomia (kriittisen vakavuuden kuilu DG001).
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert (warnings, contraindications, DDI) — currently Blocking gap DG001
-- Confirmed original MOA and approved indication from DrugBank/regulatory source — DG002
-- Preclinical or case-level evidence of VEGFR pathway relevance specifically in endocervical carcinoma before any trial-stage investment
+**Jatkaakseen, seuraavat ovat tarpeen:**
+- TFDA/Fimea pakkausselvitys (varoitukset, vasta-aiheet, DDI) — tällä hetkellä kriittinen kuilu DG001
+- Vahvistettu alkuperäinen MOA ja hyväksytty indikaatio DrugBankista/sääntelylähteestä — DG002
+- Prekliinisiä tai tapaustason todisteita VEGFR-reitin merkityksellisyydestä erityisesti endoservikaalisessa karsinoomassa ennen mitään kliinisen tutkimuksen vaiheen investointia
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

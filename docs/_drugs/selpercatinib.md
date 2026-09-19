@@ -29,90 +29,91 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Selpercatinib: From RET-Altered Cancer to Pulmonary Hypertension
+# Selpercatinib: RET-muuttuneista syövistä keuhkojen hypertoniaan
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Selpercatinib is a selective RET kinase inhibitor used in RET fusion/mutation-positive cancers (based on literature context; formal original-indication data is not yet populated). The TxGNN model predicts a possible effect in **pulmonary hypertension**, but a review of the **3 supporting publications** found none actually address pulmonary vascular disease — the top prediction currently has no real mechanistic or clinical support.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available in structured data (data gap); literature context suggests RET fusion/mutation-positive cancers (e.g., NSCLC, medullary thyroid carcinoma) |
-| Predicted New Indication | Pulmonary Hypertension |
-| TxGNN Prediction Score | 99.18% (rank 8099) |
-| Evidence Level | L5 (model prediction only) |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Selpercatinib on selektiivinen RET-kinaasi-inhibiittori, jota käytetään RET-fuusio/mutaatio-positiivisissa syövissä (perustuu kirjallisuuden kontekstiin; muodollisia alkuperäisen indikaation tietoja ei ole vielä täytetty). TxGNN-malli ennustaa mahdollista vaikutusta **keuhkojen hypertoniassa**, mutta **3 tukevan julkaisun** katsauksen perusteella mikään niistä ei käsittele keuhkovaltimosairasta — suurimmalla ennusteella ei tällä hetkellä ole todellista mekanistista tai kliinistä tukea.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Lyhyt yleiskatsaus
 
-Detailed mechanism-of-action data is not currently available for selpercatinib (data gap). Based on the literature retrieved for this candidate, selpercatinib is a selective RET tyrosine kinase inhibitor developed for RET fusion-positive NSCLC and RET-mutant medullary thyroid carcinoma — it blocks, rather than activates, RET/GDNF signaling.
-
-There is no established biological rationale linking RET inhibition to pulmonary hypertension. A check of the three cited publications shows none support this connection: the FAERS real-world study (PMID 39372206) reports selpercatinib-associated cardiopulmonary adverse events as pulmonary embolism, deep vein thrombosis, pericardial effusion, and systemic hypertension — not pulmonary hypertension. The other two papers (a retrospective NSCLC analysis and a medullary thyroid carcinoma case report) are unrelated to pulmonary vascular disease and appear to have matched on keyword overlap (RET / hypertension) rather than clinical relevance.
-
-No clinical trials, preclinical studies, or mechanistic literature currently link the GDNF-RET axis to pulmonary vascular remodeling in a therapeutically actionable way. The high TxGNN score therefore reflects a purely data-driven association without corroborating biological or clinical evidence.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Ei saatavilla strukturoiduissa tiedoissa (tietoaukkio); kirjallisuuden konteksti viittaa RET-fuusio/mutaatio-positiivisiin syöpiin (esim. NSCLC, markkiperäinen kilpirauhasyöpä) |
+| Ennustettu uusi indikaatio | Keuhkojen hypertonia |
+| TxGNN-ennusteen pistemäärä | 99.18% (ranking 8099) |
+| Näyttötaso | L5 (vain mallin ennuste) |
+| Suomen markkinatilanne | ✗ Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Keskeytä |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennuste on järkevä?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [39372206](https://pubmed.ncbi.nlm.nih.gov/39372206/) | 2024 | Cohort (FAERS real-world AE analysis) | Frontiers in Pharmacology | Compares adverse-event profiles of pralsetinib vs. selpercatinib; reported cardiopulmonary AEs are pulmonary embolism, DVT, pericardial effusion, and systemic hypertension — not pulmonary hypertension |
-| [34178121](https://pubmed.ncbi.nlm.nih.gov/34178121/) | 2021 | Retrospective (SIREN) | Therapeutic Advances in Medical Oncology | Real-world efficacy of selpercatinib in RET fusion-positive NSCLC through an access program; no relevance to pulmonary vascular disease |
-| [41918669](https://pubmed.ncbi.nlm.nih.gov/41918669/) | 2026 | Case report | Cureus | Case of MEN2B-associated medullary thyroid carcinoma with RET M918T mutation on targeted therapy; unrelated to pulmonary hypertension |
+Yksityiskohtaiset mekanismin tiedot eivät ole tällä hetkellä saatavilla selpercatinibille (tietoaukkio). Tälle ehdokkaalle kerätyn kirjallisuuden perusteella selpercatinib on selektiivinen RET-tyrosiinikinaasin inhibiittori, joka on kehitetty RET-fuusio-positiiviseen keuhkosyöpään ja RET-mutaatio-positiiviseen markkiperäiseen kilpirauhasyöpään — se estää pikemminkin kuin aktivoi RET/GDNF-signalointia.
 
----
+Ei ole vakiintunutta biologista perustelua, joka yhdistäisi RET-inhibitiota keuhkojen hypertoniaan. Kolmen siteeratun julkaisun tarkistus osoittaa, että mikään niistä ei tue tätä yhteyttä: FAERS-tutkimus (PMID 39372206) raportoi selpercatinibiin liittyviä kardiopulmonaalisia haittavaikutuksia: keuhkoaltisarttumia, syvän laskimon trombooseja, perikardiaalisia efuusioita ja systeemistä hypertoniaa — ei keuhkojen hypertoniaa. Muut kaksi artikkelia (retrospektiivinen NSCLC-analyysi ja markkiperäisen kilpirauhasyövän tapauskertomus) eivät liity keuhkovaltimosairaan ja näyttävät valitun perustuen asiasanojen päällekkäisyyteen (RET / hypertonia) pikemminkin kuin kliiniseen relevanssiin.
 
-## Finland Market Information
-
-Selpercatinib currently holds no marketing authorization in Finland (0 licenses on record).
+Mikään kliininen tutkimus, prekliininen tutkimus tai mekanistinen kirjallisuus ei tällä hetkellä yhdistä GDNF-RET-akselia keuhkovaltimotaudin uudelleenmuotouluun terapeuttisesti toimintokelpoisella tavalla. Korkea TxGNN-pistemäärä heijastaa siis puhtaasti data-ohjattua assosiaatiota ilman vahvistavaa biologista tai kliinistä näyttöä.
 
 ---
 
-## Cytotoxicity
+## Kliinisen tutkimuksen näyttö
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (selective RET kinase inhibitor) — inferred from literature context; formal DrugBank/MOA classification is a data gap |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
 
 ---
 
-## Safety Considerations
+## Kirjallisuuden näyttö
 
-Please refer to the package insert for safety information. TFDA labeling data (warnings/contraindications) could not be retrieved, which blocks formal safety pre-screening (S1) for this candidate.
+| PMID | Vuosi | Tyyppi | Julkaisu | Tärkeimmät tulokset |
+|------|-------|--------|----------|---------------------|
+| [39372206](https://pubmed.ncbi.nlm.nih.gov/39372206/) | 2024 | Kohortti (FAERS todellisen maailman haittavaikutusten analyysi) | Frontiers in Pharmacology | Vertailee pralsetinibin ja selpercatinibin haittavaikutusprofiilia; raportoidut kardiopulmonaalit haittavaikutukset ovat keuhkoaltisarttuma, syvä laskimon tromboosia, perikardiaaliseksi efuusiota ja systeemistä hypertoniaa — ei keuhkojen hypertoniaa |
+| [34178121](https://pubmed.ncbi.nlm.nih.gov/34178121/) | 2021 | Retrospektiivinen (SIREN) | Therapeutic Advances in Medical Oncology | Selpercatinibin todellisen maailman tehokkuus RET-fuusio-positiivisessa keuhkosyövässä pääsyohjelman kautta; ei relevansseja keuhkovaltimosairaan |
+| [41918669](https://pubmed.ncbi.nlm.nih.gov/41918669/) | 2026 | Tapauskertomus | Cureus | MEN2B-assosiaatioon liittyvä markkiperäinen kilpirauhasyöpä, jossa RET M918T -mutaatio kohdennetulla terapialla; ei liity keuhkojen hypertoniaan |
 
 ---
 
-## Conclusion and Next Steps
+## Suomen markkinatiedot
 
-**Decision: Hold**
+Selpercatinibillä ei ole tällä hetkellä markkinointilupaa Suomessa (0 lisenssiä tietueissa).
 
-**Rationale:**
-The TxGNN score is high, but verification of the cited literature shows no actual mechanistic or clinical evidence connecting RET inhibition to pulmonary hypertension, and no clinical trials exist for this indication. Combined with the missing TFDA safety data, this candidate cannot advance past initial screening.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings/contraindications) to unblock safety pre-screening
-- Confirmed original indication and mechanism-of-action data from DrugBank
-- Preclinical or mechanistic evidence specifically linking RET/GDNF signaling to pulmonary vascular remodeling before further pursuing this indication
-- If migraine-related predictions (rank 2/3) are of interest, dedicated literature and trial searches, as none currently exist
+## Sytotoksisuus
+
+| Kohta | Sisältö |
+|------|---------|
+| Sytotoksisuuden luokitus | Kohdennettu terapia (selektiivinen RET-kinaasi-inhibiittori) — päättelty kirjallisuuden kontekstista; muodollinen DrugBank/mekanismin luokitus on tietoaukkio |
+| Luuydinsupressioriski | Kts. pakkausselosteen varoituksista ja varotoimista |
+| Pahoinvointiluokitus | Kts. pakkausselosteen varoituksista ja varotoimista |
+| Seurantakohteet | Kts. pakkausselosteen varoituksista ja varotoimista |
+| Käsittelysuojaus | Kts. pakkausselosteen varoituksista ja varotoimista |
+
+---
+
+## Turvallisuushuomiot
+
+Katso turvallisuustietoja pakkausselosteesta. TFDA-merkintätietoja (varoitukset/vasta-aiheet) ei saatu hakea, mikä estää muodollisen turvallisuuden esikarsintaa (S1) tälle ehdokkaalle.
+
+---
+
+## Johtopäätökset ja seuraavat vaiheet
+
+**Päätös: Keskeytä**
+
+**Perustelut:**
+TxGNN-pistemäärä on korkea, mutta siteeratun kirjallisuuden vahvistaminen osoittaa, että todellista mekanistista tai kliinistä näyttöä ei ole RET-inhibitiota ja keuhkojen hypertoniaa yhdistävissä tekijöissä, eikä kliinisiä tutkimuksia ole tähän indikaatioon. Yhdistettynä puuttuviin TFDA-turvallisuustietoihin, tämä ehdokas ei voi edetä alkuperäisen seulonnan jälkeen.
+
+**Jotta voitaisiin edetä, tarvitaan seuraavaa:**
+- TFDA-pakkausseloste (varoitukset/vasta-aiheet) turvallisuuden esikarsintaa (S1) varten
+- Vahvistetut alkuperäisen indikaation ja mekanismin tiedot DrugBankista
+- Prekliininen tai mekanistinen näyttö, joka erityisesti yhdistää RET/GDNF-signaloinnin keuhkovaltimotaudin uudelleenmuotouluun ennen kuin jatketaan tätä indikaatiota
+- Jos migreeni-liittyiset ennusteet (ranking 2/3) ovat kiinnostavia, omistetut kirjallisuus- ja tutkimushaut, koska niitä ei tällä hetkellä ole olemassa
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

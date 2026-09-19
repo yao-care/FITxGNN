@@ -29,76 +29,77 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Tipranavir: From HIV-1 Infection to Feline Acquired Immunodeficiency Syndrome
+# Tipranavir: HIV-1-infektiosta kissojen hankkittuun immuunivajaavaisuusoireyhtymään
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-> Tipranavir (DB00932) is a non-peptidic HIV-1 protease inhibitor; this evidence pack does not carry a documented original indication or MOA (both flagged as data gaps), but the drug is broadly known as an antiretroviral for treatment-experienced HIV-1 infection.
-> The TxGNN model's top-ranked prediction is **Feline Acquired Immunodeficiency Syndrome (FIV)**, scored at **99.99%**,
-> but there are **0 clinical trials** and **0 publications** supporting this specific link, and the evidence pack itself notes that FIV protease differs structurally enough from HIV-1 protease that cross-inhibition is biologically unlikely — this is best read as a TxGNN embedding artifact, not a credible repurposing signal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in this dataset (drug-level `original_indications`/`original_moa` are data gaps); publicly known pharmacology: HIV-1 infection, treatment-experienced adults |
-| Predicted New Indication | Feline Acquired Immunodeficiency Syndrome |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L5 |
-| Finland Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Tipranavir (DB00932) on ei-peptidinen HIV-1-proteinaasi-inhibiittori; tämä näyttöpaketti ei sisällä dokumentoitua alkuperäistä indikaatiota tai vaikutusmekanismia (molemmat merkitty tietovajeiksi), mutta lääke tunnetaan laajalti antiretroviraalisena hoitovaihtoehtona hoitoon tutuille HIV-1-infektiopotilaille.
+> TxGNN-mallin parhaaksi sijoittunut ennuste on **kissojen hankittu immuunivajaavaisuusoireyhtymä (FIV)**, pisteytetty arvolla **99.99%**,
+> mutta tukevia kliinisiä tutkimuksia on **0** ja julkaisuja **0**, ja näyttöpaketti itse huomauttaa, että FIV-proteinaasi eroaa rakenteellisesti riittävästi HIV-1-proteinaasista, jotta ristiinestäytyminen on biologisesti epätodennäköistä — tämä tulisi lukea TxGNN-upotusartefaktina, ei uskottavaksi uudelleentarkoituskandidaatiksi.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Pikayhteenveto
 
-Detailed mechanism of action data for tipranavir is marked as a data gap at the drug level in this evidence pack (DG002, High severity). Based on the mechanistic notes attached to the lower-ranked candidates in this same pack, tipranavir is a non-peptidic HIV-1 protease inhibitor that blocks viral replication by inhibiting protease-mediated cleavage of Gag-Pol polyproteins — but this is external/general knowledge, not something this dataset's drug-level fields actually support.
-
-For the rank-1 prediction, FIV and HIV are both lentiviruses, which is presumably what drives the TxGNN embedding similarity. However, the evidence pack's own rationale explicitly flags that FIV protease and HIV-1 protease differ substantially in structure, and HIV protease inhibitors generally lack cross-species inhibitory activity against FIV protease. Combined with zero clinical trials, zero literature, and an evidence level of L5 (model prediction only), this specific top-ranked link should be treated as a low-confidence, likely spurious association rather than a genuine repurposing candidate.
-
-Two lower-ranked candidates in this pack are mechanistically more coherent — "AIDS related complex" (rank 5) and "congenital human immunodeficiency virus" (rank 6) — since both sit within the HIV disease spectrum where protease inhibitors are an established drug class. Even so, the 9 trials retrieved for congenital HIV were graded "C" relevance because none actually studied tipranavir (they studied cabotegravir, dolutegravir, or general antiretroviral pharmacokinetics), so tipranavir-specific clinical evidence remains absent from this dataset for those indications too.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Kohde | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Ei dokumentoitu tässä aineistossa (lääke-tason `original_indications`/`original_moa` ovat tietovajeita); julkisesti tunnettu farmakologia: HIV-1-infektio, hoitoon tutuille aikuisille |
+| Ennustettu uusi indikaatio | Kissojen hankittu immuunivajaavaisuusoireyhtymä |
+| TxGNN-ennusteen pisteet | 99.99% |
+| Näytön taso | L5 |
+| Suomen markkinoiden asema | Ei markkinoitu (Not marketed) |
+| Myyntilupien lukumäärä | 0 |
+| Suositeltu päätös | Pidätä |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennuste on perusteltu?
 
-Currently no related literature available.
+Yksityiskohtainen tipranavirin vaikutusmekanismi-tieto on merkitty tietovajeeksi lääke-tasolla tässä näyttöpaketissa (DG002, korkea vakavuus). Perustuen mekanistisiin muistiinpanoihin, jotka on liitetty tämän saman paketin alemman sijoituksen saaneisiin kandidaatteihin, tipranavir on ei-peptidinen HIV-1-proteinaasi-inhibiittori, joka estää viruksen lisäämisen estämällä proteinaasivälitteistä Gag-Pol-polyproteiinin pilkkoutumista — mutta tämä on ulkoista/yleistä tietoa, eikä mitään, mitä tämän aineiston lääke-tason kentät itse asiassa tukevat.
 
----
+Rankkaukseltaan ensimmäiselle ennusteelle FIV ja HIV ovat molemmat lentivirukset, mikä on oletettavasti syy TxGNN-upotuksen samankaltaisuudelle. Kuitenkin näyttöpaketin oma mekanistinen katsaus nimenomaan huomauttaa, että FIV-proteinaasi ja HIV-1-proteinaasi eroavat huomattavasti rakenteeltaan, ja HIV-proteinaasi-inhibiittorit yleensä puuttuvat ristiinestävästä aktiivisuudesta FIV-proteinaasia vastaan. Yhdistettynä nollaan kliinisiin tutkimuksiin, nollaan kirjallisuuteen ja näytön tasoon L5 (vain mallin ennuste), tämä erityinen korkein sijoittunut linkki tulisi käsitellä matalan luottamuksen suhteen, todennäköisesti valeellisena assosiasiona pikemminkin kuin todellisena uudelleentarkoitus-kandidaattina.
 
-## Finland Market Information
-
-Tipranavir has 0 registered marketing authorizations in Finland (market status: Not marketed / not marketed), so no product-level table is available.
+Kaksi alemman sijoituksen kandidaattia tässä paketissa ovat mekanistisesti johdonmukaisempia — "AIDS-liittyvä kompleksi" (sijoitus 5) ja "synnynnäinen ihmisen immuunivajaavaisuusinfektio" (sijoitus 6) — koska molemmat sijaitsevat HIV-tautispektrissä, missä proteinaasi-inhibiittorit ovat vakiintuneet lääkekategoria. Silti synnynnäiselle immuunivajaavaisuusinfektiolle haetuista 9 tutkimuksesta arvioitiin olevan "C"-relevanssi, koska mikään niistä ei itse asiassa tutkinut tipranaviiria (ne tutkivat cabotegravia, dolutegraviria tai yleistä antiretroviraalien farmakokinetiikkaa), joten tipranavir-spesifinen kliininen näyttö puuttuu tästä aineistosta myös näille indikaatioille.
 
 ---
 
-## Safety Considerations
+## Kliinisen tutkimuksen näyttö
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and DDI data are all marked as data gaps in this evidence pack; DG001 — TFDA/Fimea package insert — is flagged as a **Blocking** gap that prevents S1 safety screening.)
+Tällä hetkellä ei ole asiaan liittyviä rekisteröityjä kliinisiä tutkimuksia.
 
 ---
 
-## Conclusion and Next Steps
+## Kirjallisuuden näyttö
 
-**Decision: Hold**
+Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta.
 
-**Rationale:**
-- The top-ranked prediction (FIV, 99.99% score) has no supporting trials or literature, and the pack's own mechanistic review flags it as a likely cross-species embedding artifact rather than a real pharmacological link — evidence level L5 does not clear even preliminary screening.
+---
 
-**To proceed, the following is needed:**
-- Resolve DG001 (Blocking): obtain the TFDA/Fimea package insert to establish warnings/contraindications before any S1 safety evaluation.
-- Resolve DG002 (High): confirm tipranavir's MOA via DrugBank API to properly assess mechanistic linkage.
-- If pursuing HIV-spectrum indications instead of FIV, source tipranavir-specific trials/literature for "AIDS related complex" and "congenital HIV" (rank 5–6) — the trials currently attached to congenital HIV all involve other agents (cabotegravir, dolutegravir), not tipranavir itself.
-- Treat rank 4 ("familial combined hyperlipidemia") as a candidate to exclude rather than pursue — the pack notes this likely reflects tipranavir's known dyslipidemia adverse-effect signal being mislearned as an indication.
+## Suomen markkinatiedot
+
+Tipranavir:lla on 0 rekisteröityä myyntilupaa Suomessa (markkinoiden asema: Ei markkinoitu / not marketed), joten tuote-tason taulukko ei ole saatavilla.
+
+---
+
+## Turvallisuusnäkökohdat
+
+Katso pakkausselosteesta turvallisuustiedot. (Tärkeimmät varoitukset, vasta-aiheet ja DDI-tiedot on kaikki merkitty tietovajeiksi tässä näyttöpaketissa; DG001 — TFDA/Fimea pakkausseloste — on merkitty **estäväksi** vajeeksi, joka estää S1-turvallisuusseulonnan.)
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidätä**
+
+**Perustelut:**
+- Korkein sijoittunut ennuste (FIV, 99.99% pisteet) ei ole tukevia tutkimuksia tai kirjallisuutta, ja paketin oma mekanistinen katsaus merkitsee sitä todennäköisenä lajien välisen upotusartefaktina pikemminkin kuin todellisena farmakologisena yhteyksenä — näytön taso L5 ei läpäise edes alustavaa seulontaa.
+
+**Jatkaakseen tarvitaan seuraavaa:**
+- Ratkaise DG001 (estävä): hanki TFDA/Fimea pakkausseloste vakiintuaksesi varoituksista/vasta-aiheista ennen mitään S1-turvallisuusarviointia.
+- Ratkaise DG002 (korkea): vahvista tipranavirin MOA DrugBank API:n kautta asianmukaisen mekanistisen kytkennän arvioimiseksi.
+- Jos tavoitteena ovat HIV-spektrin indikaatiot FIV:n sijaan, hanki tipranavir-spesifisiä tutkimuksia/kirjallisuutta "AIDS-liittyvälle kompleksille" ja "synnynnäiselle immuunivajaavaisuusinfektiolle" (sijoitus 5–6) — tutkimukset, jotka on tällä hetkellä liitetty synnynnäiseen immuunivajaavaisuusinfektioon, sisältävät kaikki muita aineita (cabotegravir, dolutegravir), ei tipranaviiria.
+- Käsittele sijoitus 4:tä ("perinnöllinen yhdistetty hyperlipidemia") poissulkemisen kandidaattina pikemminkin kuin jatkaa — paketti huomauttaa, että tämä todennäköisesti heijastaa tipranavirin tunnettua dyslipidemia-haittavaikutussignaalin virheellisen oppimisen indikaationa.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

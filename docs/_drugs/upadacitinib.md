@@ -29,62 +29,63 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Upadacitinib: Indication Data Not Yet Available → Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome
+# Upadacitinib: indikaatiotiedot eivät vielä saatavilla → kolobomatoosinen mikroftalmiaa-rhizomeelisen dysplasia-oireyhtymä
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Upadacitinib's original approved indication and mechanism-of-action details are not yet available in this evidence pack (data gap). The TxGNN model predicts potential activity against **colobomatous microphthalmia-rhizomelic dysplasia syndrome**, a rare congenital developmental disorder, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a model-only signal.
+Upadacitinibin alkuperäisen hyväksytyn indikaation ja toimintamekanismin tiedot eivät ole vielä saatavilla tässä evidenssipaketin osassa (tietoaukko). TxGNN-malli ennustaa mahdollista aktiivisuutta **kolobomatoosisen mikroftalmiaa-rhizomeelisen dysplasia-oireyhtymän** kohdalla, harvinaista synnynnäistä kehityshäiriötä, mutta tämä ennuste on tällä hetkellä tuettu **0 kliinisellä tutkimuksella** ja **0 julkaisulla** — se on vain mallin antama signaali.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available (no license/indication data on file) |
-| Predicted New Indication | Colobomatous microphthalmia-rhizomelic dysplasia syndrome |
-| TxGNN Prediction Score | 99.61% (rank 4612) |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Taiwan Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Ei saatavilla (lisenssi-/indikaatiotietoja ei arkistossa) |
+| Ennustettu uusi indikaatio | Kolobomatoosinen mikroftalmiaa-rhizomeelisen dysplasia-oireyhtymä |
+| TxGNN-ennustepistemäärä | 99.61% (sija 4612) |
+| Evidenssitaso | L5 (mallin ennuste vain, ei tukevia tutkimuksia) |
+| Taiwanin markkinatilanne | Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Odota |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on perusteltu?
 
-Detailed mechanism-of-action data for upadacitinib is not currently available in this evidence pack, and no original indication is on file, so a direct mechanistic bridge cannot be constructed from the input data alone. Based on the model's own rationale output, upadacitinib is a JAK1-selective inhibitor acting on cytokine signaling (IL-6, IL-4/13, IFN pathways).
+Upadacitinibin yksityiskohtainen toimintamekanismin data ei ole tällä hetkellä saatavilla tässä evidenssipaketin osassa, eikä alkuperäinen indikaatio ole arkistossa, joten suoraa mekaanista yhteyttä ei voida rakentaa vain syöttötiedoista. Mallin omien tulosten perusteella upadacitinib on JAK1-selektiivinen inhibiittori, joka vaikuttaa sytokiinin signalointiin (IL-6, IL-4/13, IFN-polut).
 
-Colobomatous microphthalmia-rhizomelic dysplasia syndrome, however, is a structural/developmental disorder — congenital ocular malformation combined with proximal limb skeletal dysplasia — typically linked to ciliopathy or peroxisomal gene defects (e.g., PEX7-related rhizomelic chondrodysplasia punctata), not to inflammatory or autoimmune signaling. There is no established link between JAK-STAT cytokine signaling and the ocular/skeletal embryonic developmental pathways implicated in this syndrome.
+Kolobomatoosinen mikroftalmiaa-rhizomeelinen dysplasia-oireyhtymä on kuitenkin rakenteellinen/kehityshäiriö — synnynnäinen silmän väärinkehitys yhdistettynä proksimaalien raajojen luuston dysplasiaan — tyypillisesti linkitetty siliopatioihin tai peroksisomaalien geenivikoihin (esim. PEX7-liittyvä rhizomeelinen kondrodysplasia punctata), ei tulehdukselliseen tai autoimmuuniseen signalointiin. Ei ole vakiintunutta yhteyttä JAK-STAT-sytokiinin signaloinnin ja silmän/luuston alkion kehityspoluille osallistuvien oireyhtymien välillä.
 
-The model's own repurposing rationale concludes that the high TxGNN score most likely reflects **knowledge-graph node proximity** (e.g., clustering with other rare/developmental disease nodes) rather than genuine mechanistic plausibility. No mechanistic, preclinical, or clinical evidence currently supports this pairing — this is consistent with the L5 evidence level and Hold recommendation.
+Mallin oma uudelleenkäyttöperustelus päättelee, että korkea TxGNN-pistemäärä heijastaa todennäköisesti **tietokantakuvaajien solmujen läheisyyttä** (esim. klusterointia muiden harvinaistoimisen/kehityshäiriöiden solmujen kanssa) eikä todellista mekaanista uskottavuutta. Mikään mekaaninen, prekliininen tai kliininen näyttö ei tällä hetkellä tue tätä yhdistelmää — tämä on yhdenmukainen L5-evidenssitason ja Odota-suosituksen kanssa.
 
-A second candidate, brachydactyly-syndactyly syndrome (score 99.58%, rank 4924), shows the same pattern: a skeletal/limb-development disorder (HOX, BMP/GDF, GLI3 pathways) with no direct overlap to JAK1 inhibition, and likewise zero supporting trials or literature.
+Toinen ehdokas, brachydactyly-syndactyly-oireyhtymä (pistemäärä 99.58%, sija 4924), osoittaa saman kuvion: luurankoksi/raajojen kehityshäiriöksi (HOX, BMP/GDF, GLI3-polut) luokiteltu häiriö, jolla ei ole suoraa yhteyttä JAK1-inhibitioon, ja samoin nolla tukevia tutkimuksia tai kirjallisuutta.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-Currently no related clinical trials registered.
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-Currently no related literature available.
+Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta.
 
-## Taiwan Market Information
+## Taiwanin markkinatiedot
 
-Upadacitinib is not currently marketed in Taiwan (0 authorizations on file), so no local product/authorization data is available.
+Upadacitinib ei ole tällä hetkellä markkinoilla Taiwanissa (arkistossa 0 hyväksyntää), joten paikallisia tuotanto-/hyväksyntätietoja ei ole saatavilla.
 
-## Safety Considerations
+## Turvallisuushuomiot
 
-Please refer to the package insert for safety information. (Note: TFDA label warnings/contraindications and MOA data are flagged as unresolved data gaps — see Conclusion below.)
+Viitaa pakkausselosteeseen turvallisuustiedoista. (Huomio: TFDA-merkinnän varoitukset/vasta-aiheet ja toimintamekanismin tiedot on merkitty ratkaisemattomiksi tietoaukoiksi — katso Johtopäätös alla.)
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Odota**
 
-**Rationale:**
-Both predicted indications are algorithm-only (L5) signals with no supporting clinical trials, literature, or plausible mechanistic link — the model's own rationale suggests the high scores likely reflect knowledge-graph proximity rather than biological relevance. The drug is also not marketed in Taiwan, and core drug-level data (MOA, TFDA label) remain unresolved.
+**Perustelut:**
+Molemmat ennustetut indikaatiot ovat algoritmin ainoastaan (L5) antamia signaaleja, joilla ei ole tukevia kliinisiä tutkimuksia, kirjallisuutta tai uskottavaa mekaanista yhteyttä — mallin omasta perustelusta käy ilmi, että korkeat pistemäärät todennäköisesti kuvastavat tietokantakuvaajan läheisyyttä eikä biologista merkityksellisyyttä. Lääkettä ei myöskään markkinoida Taiwanissa, ja lääkkeen tason perusdata (toimintamekanismi, TFDA-merkintä) pysyy ratkaisemattomina.
 
-**To proceed, the following is needed:**
-- TFDA package insert data (warnings/contraindications) — currently a **Blocking** data gap
-- Mechanism-of-action confirmation from DrugBank — currently a **High**-severity data gap
-- Original approved-indication data for upadacitinib
-- Preclinical or mechanistic studies directly linking JAK1 inhibition to either candidate disease before any further evaluation stage is considered
+**Jatkaaksemme tarvitaan seuraavaa:**
+- TFDA-pakkausseloste (varoitukset/vasta-aiheet) — tällä hetkellä **estoava** tietoaukko
+- JAK1-inhibition toimintamekanismin vahvistus DrugBankista — tällä hetkellä **korkea**-vakavuuden tietoaukko
+- Upadacitinibin alkuperäisen hyväksytyn indikaation tiedot
+- Prekliiniset tai mekaaniset tutkimukset, jotka yhdistävät suoraan JAK1-inhibition jompaan kumpaan ehdokkaisairauksista ennen kuin mitään lisäarviointivaiheesta harkitaan
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

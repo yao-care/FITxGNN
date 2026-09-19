@@ -29,89 +29,90 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Panitumumab: From Metastatic Colorectal Cancer to Drug-Induced Osteoporosis
+# Panitumumab: Metastaattisista paksusuolisyövistä lääkkeiden aiheuttamaan osteoporoosiaan
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Panitumumab is a fully human IgG2 monoclonal antibody targeting EGFR, historically used in metastatic colorectal cancer. TxGNN predicts two novel indications — **Drug-Induced Osteoporosis** (top-ranked) and **Severe Nonproliferative Diabetic Retinopathy** — but neither is currently supported by any registered clinical trials or published literature, so both remain purely model-driven hypotheses.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Metastatic colorectal cancer (based on known EGFR-inhibitor pharmacology; structured original-indication data not available) |
-| Predicted New Indication | Drug-Induced Osteoporosis (primary candidate); Severe Nonproliferative Diabetic Retinopathy (secondary candidate) |
-| TxGNN Prediction Score | 99.13% (Drug-Induced Osteoporosis); 99.05% (Severe Nonproliferative Diabetic Retinopathy) |
-| Evidence Level | L5 (both candidates) |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Panitumumab on täysin ihmisen peräisin oleva IgG2-monoklonaalinen vasta-aine, joka kohdistuu EGFR:ään, ja jota on historiallisesti käytetty metastaattisissa paksusuolisyövissä. TxGNN ennustaa kahta uutta indikaatiota — **Lääkkeiden aiheuttama osteoporoosi** (parhaiten sijoitettu) ja **Vaikea ei-proliferatiivinen diabeettinen retinopatia** — mutta kumpikaan niistä ei ole tällä hetkellä tuettu rekisteröidyillä kliinisillä tutkimuksilla tai julkaistulla kirjallisuudella, joten molemmat säilyvät puhtaasti mallin ohjaamina hypoteeseina.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Pikainen yleiskatsaus
 
-Currently, detailed mechanism of action data for panitumumab is not available in the structured evidence pack. Based on known pharmacological information, panitumumab is a fully human IgG2 monoclonal antibody directed against the epidermal growth factor receptor (EGFR), and its efficacy in metastatic colorectal cancer is well established in clinical practice.
-
-For **Drug-Induced Osteoporosis**, the rationale rests on a theoretical, indirect signaling link — EGFR pathway activity has been discussed in some basic research on osteoclast/osteoblast differentiation. However, this connection has not been demonstrated for EGFR-targeted monoclonal antibodies specifically, and "drug-induced osteoporosis" as a clinical entity is typically associated with agents like corticosteroids rather than EGFR inhibitors. Whether panitumumab would act as a causative factor or a therapeutic candidate for this condition is itself unclear, making the mechanistic link weak and directionally ambiguous.
-
-For **Severe Nonproliferative Diabetic Retinopathy**, the rationale draws on theoretical crosstalk between EGFR and VEGF signaling in angiogenesis regulation, suggesting EGFR inhibition could plausibly modulate pre-proliferative retinal vascular changes. This too is a pathway-level inference only — a high TxGNN score does not equate to mechanistic validation — and there is no animal, case-report, or clinical data addressing intraocular pharmacokinetics or the immune-related/ocular safety profile of systemic panitumumab in this context.
-
-Both candidates should be treated as early-stage, hypothesis-generating signals rather than mechanistically validated leads.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered (for either Drug-Induced Osteoporosis or Severe Nonproliferative Diabetic Retinopathy).
+| Kohde | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Metastaattinen paksusuolisyöpä (perustuu tunnettuun EGFR-estäjän farmakologiaan; strukturoitua alkuperäisen indikaation tietoa ei ole saatavilla) |
+| Ennustettu uusi indikaatio | Lääkkeiden aiheuttama osteoporoosi (ensisijainen kandidaatti); Vaikea ei-proliferatiivinen diabeettinen retinopatia (toissijainen kandidaatti) |
+| TxGNN-ennustepisteet | 99.13% (Lääkkeiden aiheuttama osteoporoosi); 99.05% (Vaikea ei-proliferatiivinen diabeettinen retinopatia) |
+| Näyttötaso | L5 (molemmat kandidaatit) |
+| Suomen markkinoiden tila | ✗ Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Pidä |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennuste on järkevä?
 
-Currently no related literature available (for either Drug-Induced Osteoporosis or Severe Nonproliferative Diabetic Retinopathy).
+Tällä hetkellä panitumumabin yksityiskohtaista vaikutusmekanismia koskevia tietoja ei ole saatavilla strukturoidussa näyttöpaketissa. Tunnettujen farmakologisten tietojen perusteella panitumumab on täysin ihmisen peräisin oleva IgG2-monoklonaalinen vasta-aine, joka kohdistuu epidermaalisen kasvutekijän reseptoriin (EGFR), ja sen teho metastaattisissa paksusuolisyövissä on hyvin vakiintunut kliinisessä käytännössä.
 
----
+**Lääkkeiden aiheuttaman osteoporoosin** osalta perustelut nojautuvat teoreettiseen, epäsuoraan signaloinnin yhteyteen — EGFR-signaloinnin aktiivisuudesta on keskusteltu joissain perustutkimuksissa, joissa käsitellään osteoklaastin ja osteoblastin erotumistapahtumaa. Tätä yhteyttä ei kuitenkaan ole osoitettu EGFR-kohdistuville monoklonaalisille vasta-aineille, ja "lääkkeiden aiheuttama osteoporoosi" kliinisenä kokonaisuutena liittyy tyypillisesti pikemminkin kortikosteroideihin kuin EGFR-estäjiin. Se, toimisiko panitumumab aiheuttavana tekijänä vai terapeuttisena kandidaattina tälle tilalle, on itsessään epäselvää, mikä tekee mekanistisesta yhteydestä heikon ja suunnaltaan ambivalentin.
 
-## Finland Market Information
+**Vaikean ei-proliferatiivisen diabeettisen retinopatiaan** osalta perustelut perustuvat teoreettiseen EGFR:n ja VEGF-signaloinnin väliseen yhteistoimintaan angiogeneesissä, mikä viittaa siihen, että EGFR-esto voisi teoreettisesti muokata pre-proliferatiivisia verkkokalvon verisuonimuutoksia. Tämäkään ei ole muuta kuin polkutason päättelyä — korkea TxGNN-pistemäärä ei vastaa mekanistista validaatiota — eikä ole olemassa eläin-, tapausselostus- tai kliinisiä tutkimuksia, jotka käsittelevät intraokulaarista farmakokinetiikkaa tai järjestelmällisen panitumumabin immuuniteettiin liittyvää/silmää koskevaa turvallisuusprofiilia tässä yhteydessä.
 
-Panitumumab currently has no marketing authorizations recorded in Finland (0 licenses on file; market status: not marketed).
-
----
-
-## Cytotoxicity
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (anti-EGFR monoclonal antibody) |
-| Myelosuppression Risk | Low (mAb-targeted therapies generally carry lower myelosuppression risk than conventional cytotoxic chemotherapy; specific hematologic toxicity data not available) |
-| Emetogenicity Classification | Low (typical of monoclonal antibody infusions) |
-| Monitoring Items | Serum magnesium and electrolytes (EGFR inhibitors are associated with hypomagnesemia), skin toxicity/dermatologic assessment, infusion-related reaction monitoring |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+Molempia kandidaatteja tulisi käsitellä varhaisvaiheen, hypoteesia tuottavina signaaleina eikä mekanistisesti validoituina ehdokkaina.
 
 ---
 
-## Safety Considerations
+## Kliinisten tutkimusten näyttö
 
-Please refer to the package insert for safety information.
+Tällä hetkellä ei ole rekisteröityjä kliinisiä tutkimuksia kummallekkaan indikaatiolle (lääkkeiden aiheuttama osteoporoosi tai vaikea ei-proliferatiivinen diabeettinen retinopatia).
 
 ---
 
-## Conclusion and Next Steps
+## Kirjallisuuden näyttö
 
-**Decision: Hold**
+Tällä hetkellä ei ole saatavilla kirjallisuuden näyttöä kummallekkaan indikaatiolle (lääkkeiden aiheuttama osteoporoosi tai vaikea ei-proliferatiivinen diabeettinen retinopatia).
 
-**Rationale:**
-Both predicted indications are supported only by TxGNN model scores (L5 evidence) with no clinical trials, no published literature, and mechanistic rationales that are speculative and, in the case of osteoporosis, directionally ambiguous. There is currently no basis for advancing either candidate beyond exploratory research.
+---
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert data (warnings, contraindications) — currently a **Blocking** data gap
-- Confirmed mechanism-of-action data from DrugBank or primary literature — currently a **High**-severity data gap
-- Preclinical or mechanistic studies directly linking EGFR inhibition to bone metabolism (for the osteoporosis candidate) or retinal vascular outcomes (for the diabetic retinopathy candidate)
-- Drug-drug interaction (DDI) profile, which is currently unavailable ("not_found")
-- Reassessment once any clinical trial or literature signal emerges for either indication
+## Suomen markkinoiden tiedot
+
+Panitumumabilla ei ole tällä hetkellä rekisteröityjä markkinointivaltuuksia Suomessa (0 lisenssejä; markkinoiden tila: ei markkinoilla).
+
+---
+
+## Sytotoksisuus
+
+| Kohde | Sisältö |
+|------|---------|
+| Sytotoksisuusluokitus | Kohdistettu hoito (anti-EGFR-monoklonaalinen vasta-aine) |
+| Luuytimen tuotantohäiriön riski | Alhainen (monoklonaalisen vasta-aineen kohdistetut terapiat kantavat yleensä alhaisemman luuytimen tuotantohäiriöriskin kuin perinteinen sytotoksinen kemoterapia; spesifisiä hematologisen toksisuuden tietoja ei ole saatavilla) |
+| Pahoinvointitaipumusluokitus | Alhainen (tyypillinen monoklonaalisen vasta-aineen infuusioille) |
+| Seurantakohdat | Serumin magnesiumin ja elektrolyyttien seuranta (EGFR-estäjät liittyvät hypomagnesiemiaan), ihototoksisuus/dermatologinen arviointi, infuusioon liittyvien reaktioiden seuranta |
+| Käsittelysuoja | Katso pakkausselosteen varoitukset ja varotoimet |
+
+---
+
+## Turvallisuusnäkökohdat
+
+Katso turvallisuustiedot pakkaustekstistä.
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidä**
+
+**Perustelut:**
+Molemmat ennustetut indikaatiot ovat tuettuja vain TxGNN-mallin pisteillä (L5-näyttö) ilman kliinisiä tutkimuksia, julkaistua kirjallisuutta, ja mekanistiset perustelut ovat spekulatiivisia ja osteoporoosin tapauksessa suunnassaan ambivalentit. Tällä hetkellä ei ole perusteita edetä kummankaan kandidaatin kanssa tutkivaa tutkimusta pidemmälle.
+
+**Jatkamista varten tarvitaan seuraavaa:**
+- TFDA/Fimea-pakkaustekstin tiedot (varoitukset, vasta-aiheet) — tällä hetkellä **estävä** tietoaukko
+- Vahvistettu vaikutusmekanismin data DrugBankista tai alkuperäislähdekirjallisuudesta — tällä hetkellä **korkean vakavuuden** tietoaukko
+- Perustutkimukset tai mekanistiset tutkimukset, jotka suoraan yhdistävät EGFR-estolle luuaineen aineenvaihduntaan (osteoporoosin kandidaatin osalta) tai verkkokalvon verisuonimuutoksiin (diabeettisen retinopatiaan kandidaatin osalta)
+- Lääkkeiden välisen vuorovaikutuksen (DDI) profiili, joka on tällä hetkellä saatavilla olematon ("not_found")
+- Uudelleenarviointi, kun joko kliininen tutkimus tai kirjallisuuden signaali ilmaantuu kummallekin indikaatiolle
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

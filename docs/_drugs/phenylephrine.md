@@ -29,79 +29,79 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Phenylephrine: From Decongestant/Vasoconstrictor Use to Nasal Cavity Disease
+# Fenylefrini: nenän ja silmien dekongertantti-/vasokonstriktorikäytöstä nenäontelo-sairauden hoitoon
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Phenylephrine is an α1-adrenergic receptor agonist already used pharmacologically as a nasal and ocular decongestant/vasoconstrictor, though no formal original-indication or Finland market-authorization record is present in this evidence pack.
-The TxGNN model predicts it may be effective for **Nasal Cavity Disease**, with **8 clinical trials** and **8 publications** currently identified — but most of this evidence concerns phenylephrine-containing combination products (e.g., co-phenylcaine, Polydexa) or comparator decongestants (oxymetazoline, xylometazoline, cocaine) rather than phenylephrine monotherapy tested directly against this indication.
+Fenylefrini on α1-adrenergisen reseptorin agonisti, jota käytetään jo farmakologisesti nenän ja silmien dekongertanttina/vasokonstriktorina, vaikka tässä näyttöpaketissa ei ole saatavilla virallista alkuperäisen indikaation tai Suomen markkinalupa-tietoja. TxGNN-malli ennustaa, että se saattaa olla tehokas **nenäontelo-sairauden** hoidossa, ja tällä hetkellä on tunnistettu **8 kliinistä tutkimusta** ja **8 julkaisua** — mutta suurin osa näistä todistusaineista koskee fenylefriiniä sisältäviä yhdistelmävalmisteita (esim. fenylefrini–lidokaiini-kombinaatio, Polydexa) tai vertailun dekongertantteja (oksimetatsoleeni, ksilometatsoleeni, kokaiini) pikemminkin kuin fenylefriinin monoterapiaa, jota on testattu suoraan tätä indikaatiota vastaan.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Not available — phenylephrine holds no license record in this dataset (0 Finland authorizations); pharmacologically known as a nasal/ocular decongestant and vasoconstrictor |
-| Predicted New Indication | Nasal Cavity Disease |
-| TxGNN Prediction Score | 99.97% (rank 534) |
-| Evidence Level | L3 |
-| Finland Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Alkuperäinen indikaatio | Ei saatavilla — fenylefriinillä ei ole lisenssitietuetta tässä tietoaineistossa (0 Suomen lupaa); farmakologisesti tunnettu nenän/silmien dekongertanttina ja vasokonstriktorina |
+| Ennustettu uusi indikaatio | Nenäontelo-sairaus |
+| TxGNN-ennuste pistemäärä | 99.97% (sijoitus 534) |
+| Näytön taso | L3 |
+| Suomen markkinoiden asema | Ei markkinoilla (Ei markkinoilla) |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Jatka varauksilla |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennustus on perusteltu?
 
-Detailed original mechanism-of-action data was not supplied for this drug (flagged as a High-severity data gap, DG002). However, the evidence pack's own rationale confirms phenylephrine is an α1-adrenergic receptor agonist whose classic pharmacology is nasal mucosal vasoconstriction and decongestion — this is an established mechanism, not a novel repurposing hypothesis.
+Yksityiskohtaista alkuperäisen toimintamekanismin tietoa ei toimitettu tälle lääkkeelle (merkitty korkean vakavuuden tietoaukoksi, DG002). Näyttöpaketin oma perustelus kuitenkin vahvistaa, että fenylefrini on α1-adrenergisen reseptorin agonisti, jonka klassinen farmakologia on nenän limakalvon vasokonstriktio ja dekongertio — tämä on vakiintunut mekanismi, ei uuden käytön hypoteesi.
 
-Because this mechanism is already the textbook basis for nasal decongestant use, the TxGNN prediction of "Nasal Cavity Disease" largely reconfirms known pharmacology rather than surfacing an unexpected new indication. Supporting evidence mostly comes from phenylephrine-containing combination products used peri-procedurally (co-phenylcaine, Polydexa with phenylephrine) or from trials comparing alternative decongestants (oxymetazoline, xylometazoline, epinephrine, cocaine) for nasal mucosal shrinkage before endoscopy or sinus surgery — supporting the mechanistic class effect, though direct phenylephrine-monotherapy RCTs against a defined nasal cavity disease endpoint are limited.
+Koska tämä mekanismi on jo oppikirjojen mukainen perusta nenän dekongertanttikäytölle, TxGNN:n ennuste "nenäontelo-sairauden" hoidosta vahvistaa pääosin tunnettua farmakologiaa eikä paljasta odottamatonta uutta indikaatiota. Tukevia todisteita tulevat pääosin fenylefriiniä sisältävistä yhdistelmävalmisteista, joita käytetään perioperatiivisesti (fenylefrini–lidokaiini-kombinaatio, Polydexa fenylefriinillä), tai tutkimuksista, joissa vertaillaan vaihtoehtoisia dekongertantteja (oksimetatsoleeni, ksilometatsoleeni, adrenaliini, kokaiini) nenän limakalvon kutistumiselle endoskopian tai sivuonteloiden leikkauksen edellä — tämä tukee mekanistisen luokan vaikutusta, vaikka suora fenylefriinin monoterapia RCT määritellylle nenäontelo-sairauden päätepisteelle on rajoitettu.
 
-Given the absence of both a documented original indication and TFDA/national package-insert safety data (DG001, Blocking severity), the mechanistic plausibility should be treated as reinforcing rather than establishing a new therapeutic claim.
+Sekä dokumentoidun alkuperäisen indikaation että TFDA/kansallisen pakkausselosteen turvallisuustietojen puuttumisen vuoksi (DG001, esto-vakavuus), mekanistinen toteutettavuus tulisi käsitellä vahvistavana pikemminkin kuin uuden terapeuttisen väitteen perustana.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimustunnus | Vaihe | Tila | Osallistujien määrä | Tärkeimmät tulokset |
 |---------|------|------|------|---------|
-| [NCT03380715](https://clinicaltrials.gov/study/NCT03380715) | NA | Completed | 106 | Co-phenylcaine (phenylephrine + lidocaine) nasal spray vs. nasal nebulization for decongestion/local anesthesia before rigid nasoendoscopy |
-| [NCT03228914](https://clinicaltrials.gov/study/NCT03228914) | Phase 4 | Completed | 20 | Compared 0.05% oxymetazoline vs. 1:1000 epinephrine (not phenylephrine) for blood loss/visualization before endoscopic sinus surgery |
-| [NCT02993770](https://clinicaltrials.gov/study/NCT02993770) | NA | Unknown | 120 | Endonasal-endoscopic vs. external dacryocystorhinostomy for nasolacrimal duct obstruction; no phenylephrine arm specified |
-| [NCT00562120](https://clinicaltrials.gov/study/NCT00562120) | Phase 2 | Completed | 21 | Double-blind crossover RCT of an H3-antagonist on nasal congestion after allergen challenge in seasonal allergic rhinitis |
-| [NCT06457100](https://clinicaltrials.gov/study/NCT06457100) | Phase 1/2 | Active, not recruiting | 60 | IV esmolol vs. lidocaine for postoperative recovery quality after functional endoscopic sinus surgery |
-| [NCT04104789](https://clinicaltrials.gov/study/NCT04104789) | Phase 2 | Withdrawn | 0 | Kovanaze (tetracaine + oxymetazoline) nasal mist vs. articaine for maxillary pulpal anesthesia; withdrawn, no enrollment |
-| [NCT06443255](https://clinicaltrials.gov/study/NCT06443255) | Phase 3 | Completed | 16 | Cocaine vs. lidocaine/xylometazoline vs. saline for intranasal analgesia before awake nasotracheal intubation; no phenylephrine arm |
-| [NCT03962634](https://clinicaltrials.gov/study/NCT03962634) | Phase 2 | Terminated | 3 | Same Kovanaze vs. articaine design as NCT04104789; terminated early, minimal enrollment |
+| [NCT03380715](https://clinicaltrials.gov/study/NCT03380715) | NA | Valmis | 106 | Fenylefrini–lidokaiini-nenäsuihke vs. nenäuutelu dekongerjointia ja paikallispuudutusta varten jäykän nenäendoskopian edellä |
+| [NCT03228914](https://clinicaltrials.gov/study/NCT03228914) | Vaihe 4 | Valmis | 20 | Vertailu 0,05% oksimetatsoleeni vs. 1:1000 adrenaliini (ei fenylefrini) verenvuodolle ja näkyväisyydelle endoskooppisessa sivuonteloiden leikkauksessa |
+| [NCT02993770](https://clinicaltrials.gov/study/NCT02993770) | NA | Tuntematon | 120 | Endonasaalinen endoskooppinen vs. ulkoinen dakryosystorinosto nenäkyynelikanavan tukkeutumiselle; fenylefrini-ryhmää ei eritelty |
+| [NCT00562120](https://clinicaltrials.gov/study/NCT00562120) | Vaihe 2 | Valmis | 21 | Kaksoissokkoutettu crossover RCT H3-antagonistista nenän tukkeutuneesuden osalta allergeeni-haasteen jälkeen kausiluonteisessa allergisessa rinitiisissä |
+| [NCT06457100](https://clinicaltrials.gov/study/NCT06457100) | Vaihe 1/2 | Aktiivinen, ei rekrytointia | 60 | IV esmololi vs. lidokaiini postoperatiivisen toipumisen laadusta funktionaalisessa endoskooppisessa sivuonteloiden leikkauksessa |
+| [NCT04104789](https://clinicaltrials.gov/study/NCT04104789) | Vaihe 2 | Peruutettu | 0 | Kovanaze (tetrakaiini + oksimetatsoleeni) nenäsuihke vs. artikaiini maksillaarin pulpan anestesiaa varten; peruutettu ilman osallistujia |
+| [NCT06443255](https://clinicaltrials.gov/study/NCT06443255) | Vaihe 3 | Valmis | 16 | Kokaiini vs. lidokaiini/ksilometatsoleeni vs. keittosuola intranasaaliseen analgesiaan herää nasotrakseaalisen intubaation edellä; fenylefrini-ryhmää ei ollut |
+| [NCT03962634](https://clinicaltrials.gov/study/NCT03962634) | Vaihe 2 | Lopetettu | 3 | Sama Kovanaze vs. artikaiini muotoilu kuin NCT04104789; lopetettu varhain, minimaaliset osallistujat |
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät tulokset |
 |------|-----|------|------|---------|
-| [15854186](https://pubmed.ncbi.nlm.nih.gov/15854186/) | 2005 | RCT | International Journal of Clinical Practice | Double-blind RCT: cophenylcaine spray vs. placebo before flexible nasendoscopy — no significant difference in pain/discomfort |
-| [25133491](https://pubmed.ncbi.nlm.nih.gov/25133491/) | 2014 | RCT (indirect comparator) | PLoS ONE | Triple-blind RCT of topical tranexamic acid on bleeding/surgical field quality during FESS |
-| [40899890](https://pubmed.ncbi.nlm.nih.gov/40899890/) | 2025 | Experimental + Clinical | Vestnik Otorinolaringologii | Safety/efficacy evaluation of Polydexa spray with phenylephrine in acute rhinosinusitis |
-| [37184554](https://pubmed.ncbi.nlm.nih.gov/37184554/) | 2023 | Review | Vestnik Otorinolaringologii | Differential diagnosis of chronic nasal disease after surgery and topical antibiotic therapy, including Polydexa with phenylephrine |
-| [37970776](https://pubmed.ncbi.nlm.nih.gov/37970776/) | 2023 | Review | Vestnik Otorinolaringologii | Pathogenetic approach to treating inflammatory diseases of the nose and paranasal sinuses |
-| [9780066](https://pubmed.ncbi.nlm.nih.gov/9780066/) | 1998 | Cohort | International Journal of Pediatric Otorhinolaryngology | Acoustic rhinometry of nasal cavity/nasopharynx geometry after adenotonsillectomy |
-| [7378007](https://pubmed.ncbi.nlm.nih.gov/7378007/) | 1980 | Case Report | Archives of Ophthalmology | Cocaine toxicity during dacryocystorhinostomy; one patient also reacted to intranasal phenylephrine |
-| [1375136](https://pubmed.ncbi.nlm.nih.gov/1375136/) | 1992 | In Vitro | Clinical Otolaryngology and Allied Sciences | Preliminary in vitro study of drug effects on nasal ciliary beat frequency |
+| [15854186](https://pubmed.ncbi.nlm.nih.gov/15854186/) | 2005 | RCT | International Journal of Clinical Practice | Kaksoissokkoutettu RCT: fenylefrini–lidokaiini-suihke vs. lumelääke joustavaa nenäendoskopias varten — ei merkittävää eroa kivussa/epämukavuudessa |
+| [25133491](https://pubmed.ncbi.nlm.nih.gov/25133491/) | 2014 | RCT (epäsuora vertailija) | PLoS ONE | Kolminkertainen sokkotettu RCT topikaalista traneksaamihappoa verenvuotojen ja kirurgisen kentän laadun osalta FESS:ssa |
+| [40899890](https://pubmed.ncbi.nlm.nih.gov/40899890/) | 2025 | Kokeellinen + kliininen | Vestnik Otorinolaringologii | Polydexa-suihkun turvallisuuden ja tehokkuuden arvioiminen fenylefriinillä akuutissa rinosinusiitissa |
+| [37184554](https://pubmed.ncbi.nlm.nih.gov/37184554/) | 2023 | Katsaus | Vestnik Otorinolaringologii | Kroonisen nenäsairauden differentiaalidiagnoosi leikkauksen ja topikaalisen antibioottihoidon jälkeen, mukaan lukien Polydexa fenylefriinillä |
+| [37970776](https://pubmed.ncbi.nlm.nih.gov/37970776/) | 2023 | Katsaus | Vestnik Otorinolaringologii | Patogenetinen lähestymistapa nenän ja sivuonteloiden tulehduksellisten sairauksien hoitoon |
+| [9780066](https://pubmed.ncbi.nlm.nih.gov/9780066/) | 1998 | Kohortti | International Journal of Pediatric Otorhinolaryngology | Akustinen riinometria nenäonteloiden ja nasofaryksgeometriasta adenotonsillektomian jälkeen |
+| [7378007](https://pubmed.ncbi.nlm.nih.gov/7378007/) | 1980 | Tapausraportti | Archives of Ophthalmology | Kokaiinitoksisuus dakryosystorinon aikana; yksi potilas reagoi myös intranasaaliseen fenylefriiniin |
+| [1375136](https://pubmed.ncbi.nlm.nih.gov/1375136/) | 1992 | In vitro | Clinical Otolaryngology and Allied Sciences | Alustavaa in vitro -tutkimusta lääkkeiden vaikutuksesta nenän silyjen lyönnin taajuuteen |
 
-## Finland Market Information
+## Suomen markkinoiden tiedot
 
-Phenylephrine currently has no marketing authorization on record in Finland (market status: Not marketed / Not marketed; 0 authorizations). No product-level license data is available to summarize.
+Fenylefriinillä ei tällä hetkellä ole markkinalupaa Suomessa (markkinoiden asema: Ei markkinoilla / Ei markkinoilla; 0 lupaa). Tuotetason lisenssitietoja ei ole saatavilla yhteenvetoa varten.
 
-## Safety Considerations
+## Turvallisuusnäkökulmat
 
-Please refer to the package insert for safety information.
+Katso turvallisuustietoja pakkausselosteesta.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat askeleet
 
-**Decision: Proceed with Guardrails**
+**Päätös: Jatka varauksilla**
 
-**Rationale:**
-The predicted indication is consistent with phenylephrine's established α1-agonist decongestant pharmacology and is corroborated by several trials/publications, but nearly all of this evidence involves combination products or comparator decongestants rather than phenylephrine monotherapy tested directly for a defined nasal cavity disease endpoint — evidence level L3. Combined with the Blocking-severity absence of package-insert warnings/contraindications, a cautious, guardrailed path is warranted rather than a full Go.
+**Perustelut:**
+Ennustettu indikaatio vastaa fenylefriinin vakiintunutta α1-agonisti-dekongertantti-farmakologiaa ja sitä tukevat useat tutkimukset/julkaisut, mutta lähes kaikki nämä todistusaineet koskevat yhdistelmävalmisteita tai vertailun dekongertantteja eikä fenylefriinin monoterapiaa, jota on testattu suoraan määritellylle nenäontelo-sairauden päätepisteelle — näytön taso L3. Yhdessä esto-vakavuuden kanssa pakkausselosteen varoituksista/kontraindikaatioista, varovainen, varauksilla varustettu lähestymistapa on perusteltu täyden Jatka-päätöksen sijasta.
 
-**To proceed, the following is needed:**
-- TFDA/national package insert (warnings, contraindications) — currently a Blocking data gap (DG001)
-- Confirmed drug mechanism-of-action documentation from DrugBank (DG002)
-- A direct phenylephrine-monotherapy trial or systematic review against a defined nasal cavity disease endpoint (current evidence is mostly indirect/comparator-based)
-- Confirmation of Finland marketing-authorization status, since none currently exists
+**Jatkaakseen seuraavaa tarvitaan:**
+- TFDA/kansallinen pakkausseloste (varoitukset, kontraindikaatiot) — tällä hetkellä esto-tietoaukko (DG001)
+- Vahvistettu lääkkeen toimintamekanismin dokumentaatio DrugBankista (DG002)
+- Suora fenylefriinin monoterapia-tutkimus tai systemaattinen katsaus määritellylle nenäontelo-sairauden päätepisteelle (nykyinen näyttö on pääosin epäsuora/vertailu-pohjainen)
+- Suomen markkinalupatilanteen vahvistaminen, koska sitä ei tällä hetkellä ole olemassa
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -29,60 +29,61 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Ravulizumab: From Complement-Mediated Diseases (PNH/aHUS) to G6PC3-Deficient Congenital Neutropenia
+# Ravulizumab: Komplementti-välitteisistä sairauksista (PNH/aHUS) G6PC3-defisienssin aiheuttamaan synnynnäiseen neutropeniaan
 
-## One-Sentence Summary
+## Yksirivinen yhteenveto
 
-Ravulizumab is a long-acting anti-complement C5 monoclonal antibody, with established use in complement-mediated diseases such as paroxysmal nocturnal hemoglobinuria (PNH) and atypical hemolytic uremic syndrome (aHUS). The TxGNN model predicts it may be effective for **autosomal recessive severe congenital neutropenia due to G6PC3 deficiency**, but this is currently a **model prediction only** — no clinical trials or published literature support this direction, and the evidence pack's own mechanistic review flags the biological rationale as weak.
+Ravulizumab on pitkävaikutteinen anti-komplementti C5 monoklonaalinen vasta-aine, jolla on vakiintunut käyttö komplementti-välitteisiin sairauksiin, kuten parokysmaaliseen yölliseen hemoglobiinuriaan (PNH) ja atyyppiseen hemolyyttiseen uremiseen oireyhtymään (aHUS). TxGNN-malli ennustaa, että se saattaa olla tehokas **G6PC3-defisienssin aiheuttamaan autosomaalisen resessiivisen vakavaan synnynnäiseen neutropeniaan**, mutta tämä on tällä hetkellä vain **mallin ennuste** — kliinisiä tutkimuksia tai julkaistua kirjallisuutta tämän suunnan tueksi ei ole, ja todistuspaketin oma mekanistinen katsaus merkitsee biologisen perustelun heikoksi.
 
-## Quick Overview
+## Pika-yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Not on file in Taiwan regulatory data; per the mechanistic rationale, ravulizumab's established use is in complement-mediated diseases (PNH, aHUS) |
-| Predicted New Indication | Autosomal recessive severe congenital neutropenia due to G6PC3 deficiency |
-| TxGNN Prediction Score | 99.96% (model rank 731) |
-| Evidence Level | L5 |
-| Taiwan Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohde | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Ei saatavilla Taiwanin sääntelyn tiedoissa; mekanistisen perustelun mukaan ravulizumabin vakiintunut käyttö on komplementti-välitteisiin sairauksiin (PNH, aHUS) |
+| Ennustettu uusi indikaatio | Autosomaalinen resessiivinen vakava synnynnäinen neutropenia G6PC3-defisienssin vuoksi |
+| TxGNN-ennustepisteet | 99.96% (mallin sijoitus 731) |
+| Evidenssiaste | L5 |
+| Taiwanin markkina-asema | Ei markkinoilla (Not marketed) |
+| Myyntilupien lukumäärä | 0 |
+| Suositeltu päätös | Pidä |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, detailed mechanism of action data for ravulizumab is not available in this evidence pack (flagged as a High-severity data gap). Based on known information referenced in the model's own rationale, ravulizumab is a long-acting anti-C5 monoclonal antibody that blocks the terminal complement pathway (membrane attack complex formation); its efficacy in complement-driven diseases such as PNH and aHUS is well established.
+Ravulizumabin yksityiskohtaiset vaikutusmekanismin tiedot eivät ole tällä hetkellä saatavilla tässä todistuspaketissa (merkitty korkean vakavuusasteen tietokuiluksi). Mallin perustelossa viitattujen tunnettujen tietojen perusteella ravulizumab on pitkävaikutteinen anti-C5 monoklonaalinen vasta-aine, joka estää terminaalisen komplementti-reitin aktivaatiota (kalvohyökkäysmonimääritteen muodostumisen); sen tehokkuus komplementti-välitteisissa sairauksissa, kuten PNH ja aHUS, on hyvin vakiintunut.
 
-G6PC3-deficient congenital neutropenia, however, is caused by glucose-6-phosphatase catalytic subunit 3 deficiency, which increases endoplasmic reticulum stress and apoptosis in neutrophil precursors through a glucose/glycosylation metabolic defect — a pathway that does not intersect with terminal complement activation. The evidence pack explicitly notes there is **no direct mechanistic link** between the two conditions, and characterizes this prediction as a similarity-based extrapolation by TxGNN across a broad "rare hematologic/immune disease" category rather than a validated pathophysiological connection.
+G6PC3-defisienssin aiheuttama synnynnäinen neutropenia aiheutuu kuitenkin glukoosi-6-fosfataasi-katalyyttisen yksikön 3 puutteesta, joka lisää endoplasmaverkon stressiä ja apoptoossia neutrofiili-ennakkosoluissa glukoosi/glykosolaation metabolisen vian kautta — reitti, joka ei leikkaannu terminaalisen komplementti-aktivaation kanssa. Todistuspaketti nimenomaisesti huomauttaa, että kahden ehdon välillä ei ole suoraa mekanistista yhteyttä, ja luonnehtii tätä ennustetta samankaltaisuuspohjaiseksi ekstrapolaatioksi TxGNN:n tekemäksi laajalla "harvinaisen hematologisen/immunologisen sairauden" kategorialla pikemminkin kuin validoidulla patofysiologisella yhteydellä.
 
-Given this, the prediction should be read as a hypothesis-generating signal rather than a mechanistically grounded repurposing candidate.
+Näillä perusteilla ennustetta tulisi lukea hypoteesin tuottavana signaalina pikemminkin kuin mekanistisesti perustetusta uudelleenkäyttösoveltuvuuden ehdokkaasta.
 
-## Clinical Trial Evidence
+## Kliiniset tutkimukset
 
-Currently no related clinical trials registered.
+Tällä hetkellä ei ole liittyvää rekisteröityä kliinistä tutkimusta.
 
-## Literature Evidence
+## Kirjallisuuden todisteet
 
-Currently no related literature available.
+Tällä hetkellä ei ole saatavilla liittyvää kirjallisuutta.
 
-## Finland Market Information
+## Suomen markkina-tiedot
 
-Ravulizumab currently holds no marketing authorization on file for this region (0 licenses; market status: Not marketed / not marketed), so no product-level licensing details are available.
+Ravulizumabilla ei ole tällä hetkellä tiedostoon merkittyä myyntilupaa tällä alueella (0 lupaa; markkina-asema: Ei markkinoilla / Ei markkinoilla), joten tuotteen tason lisensoinnin yksityiskohdat eivät ole saatavilla.
 
-## Safety Considerations
+## Turvallisuuden huomioinnit
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug interaction data are not currently available in this evidence pack; a TFDA package insert lookup is flagged as a Blocking data gap.)
+Katso turvallisuustietoja pakkaustiedosta. (Keskeiset varoitukset, vasta-aiheet ja lääkevuorovaikutustiedot eivät ole tällä hetkellä saatavilla tässä todistuspaketissa; TFDA:n pakkaustiedon haku on merkitty estäväksi tietokuiluksi.)
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidä**
 
-**Rationale:**
-There is no clinical, preclinical, or literature evidence for this indication, and the model's own mechanistic review found no direct pathway linking C5/complement inhibition to G6PC3-deficient neutropenia — the association is a category-level similarity extrapolation, not a validated hypothesis.
+**Perustelu:**
+Tälle indikaatiolle ei ole kliinisiä, prekliinisiä tai kirjallisuuden todistuksia, ja mallin oma mekanistinen katsaus ei löytänyt suoraa reittiä C5/komplementti-estelyn ja G6PC3-defisienssin neutropenian välillä — assosiaatio on kategoriatason samankaltaisuusekstrapolaatio, ei validoitu hypoteesi.
 
-**To proceed, the following is needed:**
-- TFDA/regulatory package insert (warnings, contraindications) — currently a Blocking gap
-- Confirmed mechanism of action data from DrugBank or primary literature
-- Preclinical or mechanistic studies directly testing complement pathway involvement in G6PC3-deficient neutropenia
-- Real-world or trial-registry evidence (ClinicalTrials.gov, ICTRP) before advancing past S0
+**Jotta voitaisiin edetä, seuraavaa tarvitaan:**
+- TFDA/sääntelyn pakkaustiedot (varoitukset, vasta-aiheet) — tällä hetkellä estävä tietokui
+- Vahvistetut vaikutusmekanismin tiedot DrugBankista tai ensisijaisesta kirjallisuudesta
+- Prekliiniset tai mekanistiset tutkimukset, joissa suoraan testataan komplementti-reitin osallisuutta G6PC3-defisienssin neutropeniassa
+- Todellisen maailman tai tutkimusrekisteritodisteet (ClinicalTrials.gov, ICTRP) ennen kuin edetään S0:n yli
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

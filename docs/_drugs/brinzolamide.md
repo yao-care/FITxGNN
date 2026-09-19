@@ -29,79 +29,80 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Brinzolamide: From Elevated Intraocular Pressure to Primary Hereditary Glaucoma
+# Briinsoolamiidi: kohonneesta silmänpaineesta primaariseen perinnölliseen glaukoornaan
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Brinzolamide is a topical carbonic anhydrase (CA-II) inhibitor pharmacologically used to lower intraocular pressure (IOP) in glaucoma-spectrum conditions.
-The TxGNN model predicts it may be effective for **Primary Hereditary Glaucoma**,
-but this prediction is currently **model-only**, with **0 clinical trials** and **0 publications** supporting this specific indication.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not formally on record (no approved licenses in dataset); based on known pharmacology, used to reduce intraocular pressure in ocular hypertension/glaucoma |
-| Predicted New Indication | Primary Hereditary Glaucoma |
-| TxGNN Prediction Score | 99.48% (rank 5640) |
-| Evidence Level | L5 |
-| Finland Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Briinsoolamiidi on paikallinen hiilihappoanhydraasin (CA-II) estäjä, jota käytetään farmakologisesti silmänpaineen (IOP) laskemiseen glaukooman kaltaisissa sairauksissa.
+TxGNN-malli ennustaa, että se voi olla tehokas **primaarisen perinnöllisen glaukooman** hoidossa,
+mutta tämä ennuste on tällä hetkellä **vain malli-pohjainen**, ja sille **ei ole olemassa yhtään kliinistä tutkimusta** tai **julkaisua**, jotka tukisivat tätä spesifistä käyttöindikaatiota.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Pika-yleiskatsaus
 
-Detailed mechanism of action data is formally marked as a data gap in this record. However, the underlying repurposing rationale identifies brinzolamide as a topical carbonic anhydrase (CA-II) inhibitor: it inhibits carbonic anhydrase in the ciliary body epithelium, reducing aqueous humor production and thereby lowering intraocular pressure (IOP).
-
-Primary hereditary glaucoma and the conditions brinzolamide is pharmacologically associated with (ocular hypertension and open-angle glaucoma) share the same core pathological feature — elevated IOP. This gives the TxGNN prediction a plausible mechanistic basis: any glaucoma subtype driven by elevated IOP, including hereditary/congenital forms, is theoretically responsive to aqueous humor suppression.
-
-That said, mechanistic plausibility alone does not establish clinical evidence. Primary hereditary glaucoma often presents in pediatric or congenital contexts with distinct pathophysiology (e.g., anatomical outflow abnormalities), efficacy, dosing, and safety profile (including systemic absorption risk in children) that cannot be assumed from adult ocular hypertension data. No clinical trials or literature specific to this indication currently exist to confirm the link.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Kohde | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Ei virallisesti kirjattu (ei hyväksyttyjä lupia tietojoukossa); tunnetun farmakologian perusteella käytetään silmänpaineen laskemiseen okulaarisen hypertensioon/glaukooman yhteydessä |
+| Ennustettu uusi indikaatio | Primaarinen perinnöllinen glaukooma |
+| TxGNN-ennustepistemäärä | 99.48% (ranking 5640) |
+| Todistustasokas | L5 |
+| Markkinastatus Suomessa | ✗ Ei markkinoilla |
+| Hyväksymisten lukumäärä | 0 |
+| Suositeltu päätös | Pidätys |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennuste on järkevä?
 
-Currently no related literature available.
+Yksityiskohtainen toimintamekanismin data on virallisesti merkitty tietoaukoksi tässä kirjauksessa. Kuitenkin taustalla oleva uudelleenkäytöstä koskeva perusteltu identifioi briinsoolamidin paikallisena hiilihappoanhydraasin (CA-II) estäjänä: se estää hiilihappoanhydraasin silmärippikapseelin epiteeliössä, mikä vähentää huumorin akvoosuksen tuotantoa ja alentaa siten silmänpainetta (IOP).
 
----
+Primaarinen perinnöllinen glaukooma ja sairaudet, joihin briinsoolamiidi on farmakologisesti liittynyt (okkulaarinen hypertensio ja avoin kulmaglaukooma), jakavat saman ydinpatologisen piirteen — kohonneen silmänpaineen. Tämä antaa TxGNN-ennusteelle uskottavan mekanistisen perustan: mikä tahansa glaukooman alatyyppi, jota ajavat kohonneet silmänpaine, mukaan lukien perinnölliset/kongenitaalit muodot, ovat teoriassa herkkiä vesihuumorin tuottamisen vähenemiselle.
 
-## Finland Market Information
-
-Brinzolamide currently holds no marketing authorization in Finland (0 licenses on record); market status is "not marketed."
+Kuitenkin pelkkä mekanistinen uskottavuus ei vahvista kliinistä näyttöä. Primaarinen perinnöllinen glaukooma ilmenee usein lapsuus- tai synnynnäisissä olosuhteissa, joissa on erilaiset patofysiologia (esim. anatomiaset ulosvirtauspoikkeavuudet), tehokkuus, annostus ja turvallisuusprofiili (mukaan lukien systeminen absorptiorisiko lapsissa), joita ei voida olettaa aikuisten okulaarisen hypertension datasta. Yhtään kliinistä tutkimusta tai kirjallisuutta, joka on spesifinen tämän indikaation osalta, ei tällä hetkellä ole, jotta yhteys vahvistettaisiin.
 
 ---
 
-## Safety Considerations
+## Kliinisen tutkimuksen näyttö
 
-Please refer to the package insert for safety information.
-
-*(Note: TFDA/Fimea package insert warnings and contraindications, and drug interaction data, are flagged as a Blocking data gap (DG001) — this must be resolved before any S1 safety assessment can proceed.)*
+Tällä hetkellä ei ole liittyviä kliinisiä tutkimuksia rekisteröityinä.
 
 ---
 
-## Conclusion and Next Steps
+## Kirjallisuuden näyttö
 
-**Decision: Hold**
+Tällä hetkellä ei ole saatavilla liittyvää kirjallisuutta.
 
-**Rationale:**
-The prediction rests on mechanistic plausibility alone (L5, model-only), with no clinical trials, literature, or safety data (package insert) available for primary hereditary glaucoma specifically. A Blocking data gap on TFDA/Fimea package insert safety information (DG001) also prevents any S1 safety evaluation at this stage.
+---
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert (warnings, contraindications) to resolve Blocking gap DG001
-- Confirmed mechanism of action documentation from DrugBank (High-priority gap DG002)
-- Preclinical or clinical evidence specific to primary hereditary glaucoma, particularly in pediatric/congenital populations
-- Drug-drug interaction data
-- Route/dosage-form compatibility assessment for the ophthalmic route in this population
+## Markkinatiedot Suomessa
+
+Briinsoolamiidilla ei ole tällä hetkellä myyntilupaa Suomessa (0 lupaa kirjauksessa); markkinastatus on "ei markkinoilla".
+
+---
+
+## Turvallisuuden näkökohdat
+
+Turvalllisuustiedot on katso pakkauksessa olevasta selosteesta.
+
+*(Huomio: TFDA/Fimea pakkausseloste varoituksista ja vasta-aiheista sekä lääkkeen yhteisvaikutustiedot on merkitty estävänä tietoaukoksi (DG001) — tämä on ratkaistava ennen kuin mikä tahansa S1 turvallisuuden arviointi voi edetä.)*
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidätys**
+
+**Perustelut:**
+Ennuste perustuu vain mekanistiseen uskottavuuteen (L5, vain malli), jolle ei ole olemassa kliinisiä tutkimuksia, kirjallisuutta tai turvallisuustietoja (pakkausseloste) primaarisesta perinnöllisestä glaukoormasta erityisesti. Estävä tietoaukko TFDA/Fimea pakkauselosteesta (DG001) estää myös minkä tahansa S1 turvallisuuden arvioinnin tässä vaiheessa.
+
+**Edistyäkseen seuraavaa tarvitaan:**
+- TFDA/Fimea pakkausseloste (varoitukset, vasta-aiheet) estävän aukon DG001 ratkaisemiseksi
+- Vahvistettu toimintamekanismin dokumentaatio DrugBankista (korkean prioriteetin aukko DG002)
+- Prekliininen tai kliininen näyttö, joka on spesifinen primaariselle perinnölliselle glaukoormalle, erityisesti lapsuus/synnynnäisissä populaatioissa
+- Lääkkeiden välisten yhteisvaikutuksien data
+- Reitin/annostelulomakkeen yhteensopivuuden arviointi oftalmologiselle reitille tässä populaatiossa
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

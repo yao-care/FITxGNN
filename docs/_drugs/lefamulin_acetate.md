@@ -29,78 +29,80 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 
 </div>
 
-# Lefamulin Acetate: Evaluation Report — Insufficient Data for Repurposing Assessment
+# Lefamulin asetaatti: Arviointiraportti — Riittämätön tieto uudelleenosittamisen arviointiin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Lefamulin Acetate is a drug with no active Taiwan market authorization found in this dataset.
-The TxGNN model returned **no predicted new indications** for this compound in the current pipeline run,
-and critical data including original indication, mechanism of action, and safety profile are all missing — making a full repurposing evaluation impossible at this stage.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not available in current dataset |
-| Predicted New Indication | None (TxGNN returned no predictions) |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | L5 — Model prediction only (no predictions generated) |
-| Taiwan Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+Lefamulin asetaatti on lääke, jolla ei ole löytynyt aktiivista Taiwanin markkinavaltuutusta tässä aineistossa.
+TxGNN-malli ei palauttanut **yhtään ennustettua uutta indikaatiota** tälle yhdisteelle nykyisessä putkilinjan ajossa,
+ja kriittinen tieto, mukaan lukien alkuperäinen indikaatio, toimintamekanismi ja turvallisuusprofiili, puuttuvat kokonaan — mikä tekee täydellisen uudelleenosittamisen arvioinnin mahdottomaksi tässä vaiheessa.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-No TxGNN predictions were returned for Lefamulin Acetate in this pipeline run. Without a predicted indication, a mechanistic rationale analysis cannot be constructed.
-
-Additionally, the mechanism of action (MOA) data is currently unavailable. Without knowing how this drug works at the molecular level, it is not possible to establish a plausible biological link between any original and new indication.
-
-To unblock this section, the following data must be retrieved first: DrugBank MOA entry, original approved indication text (from TFDA package insert or global regulatory databases), and a re-run of the TxGNN pipeline after confirming the drug's graph node mapping is correct.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered (no predicted indication available to query against).
+| Kohde | Sisältö |
+|-------|---------|
+| Alkuperäinen indikaatio | Ei saatavilla nykyisessä aineistossa |
+| Ennustettu uusi indikaatio | Ei mitään (TxGNN ei palauttanut ennusteita) |
+| TxGNN-ennustepisteet | N/A |
+| Näyttötaso | L5 — Vain mallin ennuste (ennusteita ei luotu) |
+| Taiwanin markkinatila | ✗ Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | **Odota** |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennuste on järkevä?
 
-Currently no related literature available (no predicted indication available to query against).
+Lefamulin asetaatille ei palautettu TxGNN-ennusteita tässä putkilinjan ajossa. Ilman ennustettua indikaatiota mekanistisen perustelun analyysiä ei voida rakentaa.
 
----
+Lisäksi toimintamekanismin (MOA) tiedot eivät ole tällä hetkellä saatavilla. Ilman tietoa siitä, miten tämä lääke toimii molekyylitasolla, ei ole mahdollista luoda uskottavaa biologista yhteyttä minkään alkuperäisen ja uuden indikaation välille.
 
-## Taiwan Market Information
-
-No authorizations found. Lefamulin Acetate has **0** active licenses in the Taiwan TFDA database as of the data cutoff (2026-04-20).
+Tämän osan avaamiseksi seuraavat tiedot on haettava ensin: DrugBank MOA -merkintä, alkuperäisen hyväksytyn indikaation teksti (TFDA:n pakkausselosteesta tai maailmanlaajuisista sääntelykannoista) ja TxGNN-putkilinjan uudelleenjuoksu sen jälkeen, kun lääkkeen graafin solmukuvaus on vahvistettu oikeaksi.
 
 ---
 
-## Safety Considerations
+## Kliinisen tutkimuksen näyttö
 
-Please refer to the package insert for safety information. All safety fields (key warnings, contraindications, drug-drug interactions) returned no usable data in this pipeline run.
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia (ei ennustettua indikaatiota saatavilla kyselyä varten).
 
 ---
 
-## Conclusion and Next Steps
+## Kirjallisuuden näyttö
 
-**Decision: Hold**
+Tällä hetkellä kirjallisuutta ei ole saatavilla (ei ennustettua indikaatiota saatavilla kyselyä varten).
 
-**Rationale:**
-The current Evidence Pack contains no TxGNN-predicted indications, no original indication text, no MOA, and no safety data — there is no evaluable basis for a repurposing recommendation at this time.
+---
 
-**To proceed, the following is needed:**
+## Taiwanin markkinatiedot
 
-- **[Blocking — DG001]** Retrieve TFDA package insert (仿單) to extract approved indication text, key warnings, and contraindications; the TFDA official website has a confirmed result (query ID 4 returned success, result count 1 — the PDF needs to be parsed)
-- **[High — DG002]** Query DrugBank API to obtain the mechanism of action; query ID 3 also returned success with 1 result — this data needs to be extracted and populated
-- **[Pipeline]** Confirm that Lefamulin Acetate has a valid node mapping in the TxGNN knowledge graph; the empty `predicted_indications` array suggests the compound may not be mapped or scored — verify node ID and re-run the prediction step
-- **[Regulatory]** Check international regulatory status (FDA, EMA) to establish original indication baseline if TFDA data remains sparse
-- Once the above gaps are resolved, re-generate the Evidence Pack and re-evaluate
+Hyväksyntöjä ei löytynyt. Lefamulin asetaatilla on **0** aktiivista lisenssiä Taiwanin TFDA-tietokannassa (2026-04-20).
+
+---
+
+## Turvallisuusnäkökulmat
+
+Katso turvallisuustiedot pakkausselosteesta. Kaikki turvallisuuskentät (tärkeimmät varoitukset, vasta-aiheet, lääkkeiden väliset vuorovaikutukset) eivät palauttaneet käyttökelpoista tietoa tässä putkilinjan ajossa.
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Odota**
+
+**Perustelut:**
+Nykyinen Evidence Pack ei sisällä TxGNN-ennustettuja indikaatioita, ei alkuperäisen indikaation tekstiä, ei MOA:ta ja ei turvallisuustietoja — yhtään arvioideltavissa olevaa perustaa uudelleenosittamisen suositukselle ei ole tässä vaiheessa.
+
+**Jatkamiseksi tarvitaan seuraava:**
+
+- **[Blocking — DG001]** Nouda TFDA:n pakkausseloste (仿單) hyväksytyn indikaation tekstin, tärkeimpien varoitusten ja vasta-aiheisten poimimiseksi; TFDA:n virallisella verkkosivustolla on vahvistettu tulos (kysely 4 onnistui, 1 tulos — PDF on jäsennettävä)
+- **[High — DG002]** Kysy DrugBank API:sta saadaksesi toimintamekanismin; kysely 3 onnistui 1 tuloksella — nämä tiedot on poimittava ja täydennettävä
+- **[Pipeline]** Vahvista, että Lefamulin asetaatilla on kelvollinen solmun mappaus TxGNN-tietokaaviosssa; tyhjä `predicted_indications`-taulukko ehdottaa, että yhdiste ei ehkä ole kartoitettu tai pisteytetty — vahvista solmun tunnus ja käynnistä ennuste uudelleen
+- **[Regulatory]** Tarkista kansainvälinen sääntelystatus (FDA, EMA) alkuperäisen indikaation määrittämiseksi, jos TFDA-tiedot pysyvät harvakseltaan
+
+Kun yllä olevat puutteet on ratkaistu, luodaan Evidence Pack uudelleen ja arvioidaan uudelleen.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

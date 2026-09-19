@@ -29,88 +29,89 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Temoporfin: From Head and Neck Squamous Cell Carcinoma (PDT) to Benign Neoplasm of Tongue
+# Temoporfin: Pään ja kaulan levyepiteelisyövästä (fotodynaaminen terapia) kielen hyvänlaatuiseen kasvaimukseen
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Temoporfin (mTHPC/Foscan) is a second-generation photosensitizer with an established clinical literature base in photodynamic therapy (PDT) for head and neck squamous cell carcinoma. The TxGNN model predicts it may also be effective for **Benign Neoplasm of Tongue**, currently supported by **11 publications** (mostly cohort/case series studies) but **no registered clinical trials**. The drug is not yet marketed in Finland.
+Temoporfin (mTHPC/Foscan) on toisen sukupolven valosensitisoija, jonka kliininen kirjallisuuspohja on vakiintunut pään ja kaulan levyepiteelisyövän fotodynamiisessa terapiassa (PDT). TxGNN-malli ennustaa, että se voisi myös olla tehokas **kielen hyvänlaatuiselle kasvaimukselle**, mitä tukee tällä hetkellä **11 julkaisua** (enimmäkseen kohortti-/tapaussarja-tutkimukset), mutta **ei yhtään rekisteröityä kliinistä tutkimusta**. Lääke ei ole vielä markkinoilla Suomessa.
 
-*Note: This evidence pack scored 10 candidate indications for temoporfin. Benign Neoplasm of Tongue was selected as the featured candidate here because it has the strongest evidence tier (L3, decision stage S2) among all 10 — the raw #1-ranked prediction by TxGNN score alone (nasopharyngeal teratoma) has zero supporting literature/trials and was flagged by the model's own rationale as likely graph-prediction noise (Hold, L5).*
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available in evidence pack (no Finland license text on file); literature consistently documents established use in PDT for head and neck squamous cell carcinoma, including oral cavity and tongue base tumors |
-| Predicted New Indication | Benign Neoplasm of Tongue |
-| TxGNN Prediction Score | 99.76% |
-| Evidence Level | L3 |
-| Finland Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+*Huomautus: Tämä evidenssipaketti arvioi 10 temoporfinin hakijaindikaatiota. Kielen hyvänlaatuinen kasvain valittiin esiteltäväksi hakijaindikaatioksi, koska sillä on vahvin evidenssitaso (L3, päätösvaihe S2) kaikista 10:stä – pelkästään TxGNN-pisteen perusteella korkein sijoitus (nasofarykssin teratooma) ei nauti tukea kirjallisuudesta/tutkimuksista, ja se on merkitty mallin omilla perusteluilla todennäköisesti graafi-ennusteen kohinaksi (Hold, L5).*
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Currently, DrugBank-sourced mechanism of action data is not available for temoporfin ([Data Gap] in the drug record). However, the evidence pack's own literature base provides consistent mechanistic detail: temoporfin (mTHPC) is a second-generation photosensitizer that selectively accumulates in tumor tissue and, upon activation with 652 nm red light, generates singlet oxygen that induces tumor cell apoptosis/necrosis and local vascular damage.
-
-The tongue and oral cavity are the anatomical sites with the deepest published PDT experience for this drug. Multiple cohort and case-series studies (early-stage oral cavity/oropharynx neoplasms, oral dysplasia, tongue base carcinoma, field cancerization of the oral cavity) directly apply mTHPC-PDT to tongue and adjacent oral tissue, including a pharmacokinetic/fluorescence-microscopy study confirming selective mTHPC localization in squamous cell carcinomas of the upper aerodigestive tract versus healthy tissue.
-
-Mechanistically, this supports extension from established malignant head-and-neck indications to benign/early neoplastic lesions of the tongue: the same tumor-selective photosensitizer uptake and localized phototoxic ablation mechanism that clears malignant oral lesions is plausible for benign or early-stage tongue neoplasms, which is consistent with the convergent (though separately scored) evidence for the closely related "benign neoplasm of floor of mouth" indication (also L3/S2) in this same evidence pack.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Kohde | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Ei saatavilla evidenssipakettissa (Suomen lisensointiteksti ei ole tiedostossa); kirjallisuus dokumentoi johdonmukaisesti vakiintuneen käytön fotodynamiisessa terapiassa (PDT) pään ja kaulan levyepiteelisyövälle, mukaan lukien suuontelo ja kielenpohjan kasvaimet |
+| Ennustettu uusi indikaatio | Kielen hyvänlaatuinen kasvain |
+| TxGNN-ennustepistemäärä | 99.76% |
+| Evidenssitaso | L3 |
+| Suomen markkinoiden tila | Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Jatka varautuvin ehdoin |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennuste on järkevä?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [23775429](https://pubmed.ncbi.nlm.nih.gov/23775429/) | 2013 | Review | Lasers in Surgery and Medicine | Airway management strategies for head and neck PDT; post-operative swelling is a well-documented risk, tracheostomy often needed for tongue base tumors |
-| [21412802](https://pubmed.ncbi.nlm.nih.gov/21412802/) | 2011 | Cohort | Lasers in Surgery and Medicine | PDT outcomes for oral dysplasia; minimally invasive intervention usable before/after conventional modalities |
-| [20706842](https://pubmed.ncbi.nlm.nih.gov/20706842/) | 2011 | Cohort | Eur Arch Otorhinolaryngol | Outcome analysis of 170 patients (226 lesions) with early-stage oral cavity/oropharynx neoplasms treated with PDT |
-| [9612194](https://pubmed.ncbi.nlm.nih.gov/9612194/) | 1996 | Cohort/Case Series | J Clin Laser Med Surg | Early PDT trial in upper aerodigestive tract using mTHPC in 27 patients with early lesions |
-| [11485842](https://pubmed.ncbi.nlm.nih.gov/11485842/) | 2001 | Pharmacokinetic Study | J Photochem Photobiol B | Fluorescence microscopy confirms selective mTHPC localization in SCC of upper aerodigestive tract vs. healthy tissue |
-| [24037957](https://pubmed.ncbi.nlm.nih.gov/24037957/) | 2013 | Technical/Planning Study | Lasers in Surgery and Medicine | MR/CT-based treatment planning method for mTHPC-mediated interstitial PDT of head and neck cancer |
-| [26179387](https://pubmed.ncbi.nlm.nih.gov/26179387/) | 2015 | Case Series | World J Surg Oncol | Postoperative temoporfin-PDT as adjuvant treatment after robot-assisted salvage surgery for recurrent tongue base SCC with involved margins |
-| [9334805](https://pubmed.ncbi.nlm.nih.gov/9334805/) | 1997 | Case Series | International Journal of Cancer | mTHPC-PDT in 19 patients with oral cancer, including field cancerization cases |
-| [22152039](https://pubmed.ncbi.nlm.nih.gov/22152039/) | 2011 | Case Report | Head & Neck Oncology | mTHPC-PDT in end-stage/recurrent tongue base carcinoma; reduced tumor-associated symptoms with lower morbidity/mortality than alternatives |
-| [9788423](https://pubmed.ncbi.nlm.nih.gov/9788423/) | 1998 | Preclinical | Int J Radiat Oncol Biol Phys | Interstitial mTHPC-PDT dosimetry study distinguishing tumor damage from striated muscle damage |
+Tällä hetkellä temoporfiinil ei ole saatavilla DrugBankista peräisin olevaa vaikutusmekanismin dataa ([Data Gap] lääketietueessa). Evidenssipaketti kuitenkin tarjoaa johdonmukaisia mekanistisia yksityiskohtia: temoporfiin (mTHPC) on toisen sukupolven valosensitisoija, joka kertyy valikoivasti syöpäkudokseen ja aktivoituessaan 652 nm:n punaisella valolla tuottaa singlettioksidi, joka aiheuttaa syöpäsolujen apoptoosia/nekroosia ja paikallista verisuonivaurioita.
+
+Kieli ja suuontelo ovat anatomiset paikat, joissa on laajin julkaistu PDT-kokemus tälle lääkkeelle. Useat kohortti- ja tapaussarja-tutkimukset (varhaisen vaiheen suuontelo-/orofaryngeiset neoplasmat, suuontelo-dysplasia, kielenpohjan karsinooma, suuontelo kenttäkarsinoomatisointi) soveltavat suoraan mTHPC-PDT:tä kieleen ja viereisiin suuontelokudoksiin, mukaan lukien farmakokineettinen/fluoresenssimikroskopia-tutkimus, joka vahvistaa valikoivan mTHPC:n lokalisaation yläruoansulatuskanavan levyepiteelisyöpiin verrattuna terveeseen kudokseen.
+
+Mekanistisesti tämä tukee laajentamista vakiintuneiden pahanlaatuisten pään- ja kaulaindikaatioiden kielen hyvänlaatuisiin/varhaisen vaiheen neoplastisiin vaurioihin: sama tumorivalikoiva valosensitisoijan ottaminen ja paikallinen fototoksinen ablatiotoimintamekanismi, joka poistaa pahanlaatuisia suuontelohairioita, on uskottava hyvänlaatuisiin tai varhaisen vaiheen kielen neoplasmoihin, mikä on yhdenmukainen läheisesti liittyvän "suun pohjan hyvänlaatuinen kasvain" -indikaation (myös L3/S2) yhtenevien tulosten kanssa samassa evidenssipakettissa, vaikka pisteytys tehdään erillisesti.
 
 ---
 
-## Finland Market Information
+## Kliinisen tutkimuksen näyttö
 
-Currently not marketed in Finland. No product licenses are on file (0 authorizations).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+Tällä hetkellä ei ole rekisteröityjä niihin liittyviä kliinisiä tutkimuksia.
 
 ---
 
-## Conclusion and Next Steps
+## Kirjallisuuden näyttö
 
-**Decision: Proceed with Guardrails**
+| PMID | Vuosi | Tyyppi | Lehti | Pääkohdat |
+|------|-------|--------|-------|-----------|
+| [23775429](https://pubmed.ncbi.nlm.nih.gov/23775429/) | 2013 | Katsaus | Lasers in Surgery and Medicine | Ilmateiden hallintastrategiat pään ja kaulan PDT-hoitojen osalta; postoperatiivinen turvotus on hyvin dokumentoitu riski, tracheostomia usein tarpeen kielenpohjan kasvaimissa |
+| [21412802](https://pubmed.ncbi.nlm.nih.gov/21412802/) | 2011 | Kohortti | Lasers in Surgery and Medicine | PDT-tulokset suuontelo-dysplasian osalta; minimaalisen invasiivisen intervention käyttömahdollisuus ennen/jälkeen tavanomaisia hoitomuotoja |
+| [20706842](https://pubmed.ncbi.nlm.nih.gov/20706842/) | 2011 | Kohortti | Eur Arch Otorhinolaryngol | Tulosanalyysi 170 potilaan (226 lesioita) varhaisen vaiheen suuontelo-/orofaryngeialojen neoplasmoista PDT-hoidolla |
+| [9612194](https://pubmed.ncbi.nlm.nih.gov/9612194/) | 1996 | Kohortti/Tapaussarja | J Clin Laser Med Surg | Varhainen PDT-tutkimus yläruoansulatuskanavassa käyttäen mTHPC:tä 27 potilaassa varhaisissa lesioissa |
+| [11485842](https://pubmed.ncbi.nlm.nih.gov/11485842/) | 2001 | Farmakokineettinen tutkimus | J Photochem Photobiol B | Fluoresenssimikroskopia vahvistaa valikoivan mTHPC:n lokalisaation yläruoansulatuskanavan levyepiteelisyöpiin verrattuna terveeseen kudokseen |
+| [24037957](https://pubmed.ncbi.nlm.nih.gov/24037957/) | 2013 | Tekniikka/Suunnittelun tutkimus | Lasers in Surgery and Medicine | MR/CT-pohjainen hoitosuunnittelumenetelmä mTHPC-välitteiselle interstisiaaliselle PDT-hoitolle pään ja kaulan syöpään |
+| [26179387](https://pubmed.ncbi.nlm.nih.gov/26179387/) | 2015 | Tapaussarja | World J Surg Oncol | Postoperatiivinen temoporfiin-PDT ylimääräisenä hoitona robottivälitteisen pelastusleikkauksen jälkeen uusiutuvassa kielenpohjan levyepiteelisyövälle osallistuneilla reunoilla |
+| [9334805](https://pubmed.ncbi.nlm.nih.gov/9334805/) | 1997 | Tapaussarja | International Journal of Cancer | mTHPC-PDT 19 potilaassa suuontelo-syövästä, mukaan lukien kenttäkarsinoomatisoinnin tapaukset |
+| [22152039](https://pubmed.ncbi.nlm.nih.gov/22152039/) | 2011 | Tapausraportti | Head & Neck Oncology | mTHPC-PDT loppuvaiheen/uusiutuneessa kielenpohjan karsinoomassa; vähennetyt kasvainniin liittyvät oireet sekä alhaisempi morbiditeetti/mortaliteetti kuin vaihtoehdoissa |
+| [9788423](https://pubmed.ncbi.nlm.nih.gov/9788423/) | 1998 | Prekliininen | Int J Radiat Oncol Biol Phys | Interstissiaalisen mTHPC-PDT:n annoskalibrointi-tutkimus, joka erottaa kasvaimen vaurion raidollisen lihasksen vaurioista |
 
-**Rationale:**
-Multiple cohort and case-series studies (spanning 1996–2015) consistently support mTHPC-PDT activity in tongue and oral cavity neoplasms, giving this candidate the highest evidence tier (L3) among the 10 indications scored for temoporfin. However, evidence is limited to observational/case-series designs with no randomized controlled trials, and the drug currently has no Finland market authorization.
+---
 
-**To proceed, the following is needed:**
-- Detailed mechanism of action (MOA) and DrugBank toxicity/category data (currently [Data Gap])
-- TFDA/Fimea package insert warnings and contraindications (currently [Data Gap], flagged Blocking in data gaps)
-- Confirmation of the drug's formally approved original indication text (not present in this evidence pack)
-- A prospective or randomized trial specifically evaluating mTHPC-PDT for benign tongue neoplasms
-- Photosensitivity/light-avoidance and airway-monitoring protocol, given procedural risks noted in the literature (post-operative swelling, airway compromise)
+## Suomen markkinatiedot
+
+Ei tällä hetkellä markkinoilla Suomessa. Tuotelisensseistä ei ole tiedoissa (0 hyväksyntää).
+
+---
+
+## Turvallisuuden huomiot
+
+Turvallisuustiedot löytyvät pakkausselosteesta.
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Jatka varautuvin ehdoin**
+
+**Perustelut:**
+Useat kohortti- ja tapaussarja-tutkimukset (vuosilta 1996–2015) tukevat johdonmukaisesti mTHPC-PDT:n aktiivisuutta kielen ja suuontelo-neoplasmoiden osalta, mikä antaa tälle ehdokkaalle korkeimman evidenssitason (L3) 10:stä temoporfiinil pisteytettävästä indikaatiosta. Näyttö rajoittuu kuitenkin havainnollisiin/tapaussarja-malleihin ilman satunnaistettuja kontrolloituja tutkimuksia, eikä lääkkeellä ole tällä hetkellä Suomen markkinointilupaa.
+
+**Jatkaakseen seuraavaa tarvitaan:**
+- Yksityiskohtainen vaikutusmekanismi (MOA) ja DrugBank-myrkyllisyys-/kategoriatiedot (tällä hetkellä [Data Gap])
+- TFDA/Fimea-pakkausselosteen varoitukset ja kontraindikaatiot (tällä hetkellä [Data Gap], merkitty Blocking tietoaukoissa)
+- Lääkkeen muodollisesti hyväksytyn alkuperäisen indikaatiotekstin vahvistus (ei ole tässä evidenssipakettissa)
+- Prospektiivinen tai satunnaistettu tutkimus, joka erityisesti arvioi mTHPC-PDT:tä kielen hyvänlaatuisten kasvainten osalta
+- Valoherkkyys-/valon välttämis- ja ilmateiden seurantaprotokolla proseduuriin liittyvien kirjallisuudessa mainittujen riskien vuoksi (postoperatiivinen turvotus, ilmateiden vaarantuminen)
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

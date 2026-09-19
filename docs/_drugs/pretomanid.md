@@ -29,62 +29,63 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Pretomanid: From Multidrug-Resistant Tuberculosis to Candidiasis
+# Pretomanidi: Moniresistentista tuberkuloosista kandidiasisiin
 
-## One-Sentence Summary
+## Yhden lauseen tiivistelmä
 
-Pretomanid (PA-824) is a nitroimidazooxazine antimycobacterial approved internationally as part of the BPaL/BPaLM regimen for extensively drug-resistant (XDR) and treatment-intolerant/non-responsive multidrug-resistant (MDR) pulmonary tuberculosis. The TxGNN model predicts it may be effective for **Candidiasis**, with a prediction score of **99.69%**, but currently **0 clinical trials** and **0 publications** support this direction, and the evidence pack's own mechanistic analysis explicitly finds no biological rationale for the link.
+Pretomanidi (PA-824) on nitroimidazoksatiini-antimykobakteeriaine, joka on hyväksytty kansainvälisesti osana BPaL/BPaLM-yhdistelmää laajasti lääkeresistentin (XDR) ja hoitokelvottoman/hoitoon vastaamattoman moniresistentin (MDR) keuhkotuberkuloosin hoitoon. TxGNN-malli ennustaa, että se saattaa olla tehokas **kandidiaasin** hoitoon ennustepisteinä **99.69%**, mutta tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua** tukee tätä suuntaa, eikä näyttöpaketin oma mekanistinen analyysi löydä biologista perustelua tälle yhteydelle.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Multidrug-resistant / extensively drug-resistant pulmonary tuberculosis (BPaL/BPaLM regimen) — no local license record exists; this is derived from the literature entries in the evidence pack, not from a formal indication field |
-| Predicted New Indication | Candidiasis |
-| TxGNN Prediction Score | 99.69% |
-| Evidence Level | L5 |
-| Finland Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen indikaatio | Monilääkeresistentti / laajasti lääkeresistentti keuhkotuberkuloosi (BPaL/BPaLM-yhdistelmä) — paikallista lääkehyväksyntää ei ole; tämä on johdettu näyttöpaketin kirjallisuusviitatuksista, ei muodollisesta indikaatiokentästä |
+| Ennustettu uusi indikaatio | Kandidiaasi |
+| TxGNN-ennustepiste | 99.69% |
+| Näytön taso | L5 |
+| Suomen markkinatilanne | ✗ Ei markkinoilla |
+| Hyväksyntöjen määrä | 0 |
+| Suositeltu päätös | Pidätys |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on kohtuullinen?
 
-Currently, detailed mechanism of action data is not available in the structured drug record (`original_moa` is a data gap). However, the evidence pack's own supporting text describes pretomanid's known pharmacology: it is a bicyclic nitroimidazole prodrug that is activated by the mycobacterium-specific Ddn nitroreductase, which inhibits mycolic acid synthesis and releases nitric oxide to produce bactericidal activity against *Mycobacterium* species.
+Tällä hetkellä yksityiskohtaista vaikutusmekanismin tietoa ei ole saatavilla jäsennelyssä lääkkeen tietueessa (`original_moa` on tieto-aukko). Kuitenkin näyttöpaketin tueksi ottama teksti kuvaa pretomaniidin tunnetun farmakologian: se on syklinen nitroimidatsoli-esisyy, joka aktivoidaan mykobakteeri-spesifisen Ddn-nitroredukentsin avulla, joka estää mykoliinihapon synteesiä ja vapauttaa typpimonioksidia, jolloin syntyy bakteereja tuhoava aktiivisuus *Mycobacterium*-lajeja vastaan.
 
-This mechanism is specific to mycobacterial cell wall biosynthesis and has no known counterpart in fungal biology. Candidiasis is caused by *Candida* species (fungi), which do not share the Ddn-nitroreductase activation pathway or mycolic acid synthesis machinery that pretomanid targets. The evidence pack's own rationale for this prediction states explicitly: *"無。Pretomanid 作用標的為分枝桿菌特有的 Ddn 硝基還原酶活化路徑與分枝菌酸合成抑制，Candida 為真菌，無同源標的，亦無已知抗真菌活性機轉"* — i.e., no mechanistic link exists.
+Tämä mekanismi on spesifinen mykobakteerisen seinäbiosynteesin osalta ja sillä ei ole tunnettua vastaavaa sieni-biologiassa. Kandidiaasin aiheuttavat *Candida*-lajit (sieni), joilla ei ole Ddn-nitroredukentsin aktivaatioreittiä eikä mykoliinihapon synteesiä, joihin pretomanidi kohdistuu. Näyttöpaketin omat perustelut tälle ennusteelle sanovat selvästi: *"無。Pretomanid 作用標的為分枝桿菌特有的 Ddn 硝基還原酶活化路徑與分枝菌酸合成抑制，Candida 為真菌，無同源標的，亦無已知抗真菌活性機轉"* — toisin sanoen mekanistista yhteyttä ei ole olemassa.
 
-Given the absence of any supporting mechanism, clinical trial, or literature evidence, this prediction should be treated as a likely model artifact rather than a genuine repurposing signal.
+Koska mekanistista yhteyttä ei ole, kliinistä tutkimusta tai kirjallisuustodistetta ei ole, tätä ennustetta tulee käsitellä todennäköisesti mallin artefaktina eikä aitoina lääkkeen uudelleenkäytön signaalina.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-Currently no related clinical trials registered
+Ei tällä hetkellä liittyviä rekisteröityjä kliinisiä tutkimuksia
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-Currently no related literature available
+Ei tällä hetkellä saatavilla olevaa kirjallisuutta
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Pretomanid holds no local marketing authorization in this market (`market_status: Not marketed`, `total_licenses: 0`), so no authorization records are available to list.
+Pretomanidilla ei ole paikallista markkinahyväksyntää tällä markkinalla (`market_status: Not marketed`, `total_licenses: 0`), joten mitään hyväksyntätietueita ei ole saatavilla luetteloitavaksi.
 
-## Safety Considerations
+## Turvallisuuteen liittyvät näkökohdat
 
-Please refer to the package insert for safety information.
+Turvalllisuustietoja varten katso pakkausesitettä.
 
-**Note:** the underlying data pack flags this drug's local package-insert warnings/contraindications as a **blocking data gap (DG001)** — meaning no formal S1 safety assessment can be completed yet. Separately, the pack's own analysis of a different candidate indication (myocardial ischemia) notes that pretomanid carries a **known QT-prolongation risk**, particularly when used in the BPaL regimen with bedaquiline. This is not formal safety data extracted from a label, but it is a documented signal worth carrying forward into any future evaluation.
+**Huomio:** Pohjalla oleva tietopaketti merkitsee tämän lääkkeen paikallisten pakkausesitteen varoitukset/vasta-aiheet **estäväksi tieto-aukoksi (DG001)** — mikä tarkoittaa, että muodollista S1-turvallisuusarviointia ei voi suorittaa vielä. Lisäksi paketin oma analyysi eri ehdokkaan indikaation (myokardin iskemia) osalta huomauttaa, että pretomanidilla on **tunnettu QT-pidentymisriski**, erityisesti käytettäessä BPaL-yhdistelmässä bedakviiniinin kanssa. Tämä ei ole virallista turvallisuustietoa, joka on poimittu merkinnöistä, mutta se on dokumentoitu signaali, joka kannattaa kuljettaa eteenpäin tuleviin arviointeihin.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidätys**
 
-**Rationale:**
-The TxGNN score is high, but there is zero clinical or literature evidence for candidiasis, and the evidence pack's own mechanistic review concludes there is no plausible biological link (antimycobacterial vs. antifungal target mismatch). A blocking data gap on the local package insert (DG001) also prevents any formal safety review from proceeding.
+**Perustelut:**
+TxGNN-pistemäärä on korkea, mutta kandidiaasin kohdalla ei ole kliinistä tai kirjallisuustodistetta, ja näyttöpaketin oma mekanistinen katsaus päättelee, että biologista linkkiä ei ole (antimykobakteeri vs. antisieni-kohderistiriita). Tieto-aukko paikallisissa pakkausesitteen varoituksissa/vasta-aiheissa (DG001) estää myös muodollisen turvallisuusarvioinnin aloittamisen.
 
-**To proceed, the following is needed:**
-- Local regulatory package insert (warnings/contraindications) to resolve DG001 before any S1 safety assessment
-- Confirmed MOA data via DrugBank API to resolve DG002
-- In vitro/in vivo antifungal activity data for pretomanid against *Candida*, since none currently exists
-- For reference, the next-ranked prediction (leprosy, L4) has actual trial/literature coverage but is also contradicted by direct in vitro evidence (PMID 17005816) showing *M. leprae* is naturally resistant to PA-824 — so it is not a stronger candidate either. Ranks 3–5 (coronary artery disease, myocardial ischemia, anomalous coronary artery) have no mechanistic basis and no evidence, and should be treated as low-priority model noise.
+**Jatkamista varten tarvitaan seuraava:**
+- Paikallisen sääntelyviranomaisen pakkausesite (varoitukset/vasta-aiheet) DG001:n ratkaisemiseksi ennen mitään S1-turvallisuusarviointia
+- Vahvistetut MOA-tiedot DrugBank API:n kautta DG002:n ratkaisemiseksi
+- In vitro/in vivo -antisieni-aktiivisuustiedot pretomanidista *Candida*-lajeja vastaan, koska sellaisia ei tällä hetkellä ole
+- Viitteeksi, seuraavaksi sijoittunut ennuste (lepra, L4) sisältää todellista tutkimus-/kirjallisuuskatetta, mutta sitä kumoaa myös suora in vitro -todiste (PMID 17005816), joka osoittaa, että *M. leprae* on luontaisesti resistentti PA-824:lle — joten se ei ole vahvempi ehdokas sekään. Sijoitukset 3–5 (sepelvaltimon tauti, myokardin iskemia, epänormaali sepelvaltimo) eivät ole mekanistista perustaa eivätkä todistetta, ja niitä tulee käsitellä matalan prioriteetin mallin kohinana.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

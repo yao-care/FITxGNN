@@ -29,82 +29,83 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Pibrentasvir: From Chronic Hepatitis C Virus Infection to Hepatitis B Virus Infection
+# Pibrentasvir: kroonisesta hepatitis C -infektiosta hepatitis B -infektioon
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Pibrentasvir is an NS5A inhibitor marketed only as part of the glecaprevir/pibrentasvir combination (Maviret/Mavyret) for chronic Hepatitis C virus (HCV) infection. The TxGNN model predicts it may be effective for **Hepatitis B Virus Infection**, with **14 clinical trials** and **20 publications** nominally attached to this candidate — but on inspection, every one of them studies HCV (or HCV co-infection), not HBV. This appears to be a label-confusion artifact rather than a genuine repurposing signal.
+Pibrentasvir on NS5A-inhibiittori, joka markkinoidaan vain glekapereviirin/pibrentsavirin yhdistelmän (Maviret/Mavyret) osana kroonisen hepatitis C -infektion (HCV) hoitoon. TxGNN-malli ennustaa, että se saattaa olla tehokas **hepatitis B -infektiolle**, jonka yhteydessä on **14 kliinistä tutkimusta** ja **20 julkaisua** — mutta tarkemmalla tarkastelulla jokainen niistä tutkii HCV:tä (tai HCV-rinnakkaisinfektiota), ei HBV:tä. Tämä näyttää olevan merkintöjen sekaannusartefakti pikemminkin kuin todellinen uudelleenkäytön signaali.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohde | Sisältö |
 |------|------|
-| Original Indication | Not available from Finland regulatory data (drug not marketed); per known pharmacology, pibrentasvir is a component of glecaprevir/pibrentasvir, used for chronic Hepatitis C virus (HCV) infection |
-| Predicted New Indication | Hepatitis B Virus Infection |
-| TxGNN Prediction Score | 99.84% |
-| Evidence Level | L4 (as labeled by the evidence pack — see caveat below) |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen indikaatio | Ei saatavilla Suomen sääntelytiedoista (lääke ei ole markkinoilla); tunnetun farmakologian perusteella pibrentasvir on glekapereviirin/pibrentsavirin kiinteän yhdistelmän komponentti, jota käytetään kroonisen hepatitis C -infektion (HCV) hoitoon |
+| Ennustettu uusi indikaatio | Hepatitis B -infektio |
+| TxGNN-ennuste-pisteet | 99,84% |
+| Näytön taso | L4 (kuten näyttöpaketti ilmoittaa — katso varoitus alla) |
+| Markkinatilanne Suomessa | ✗ Ei markkinoilla |
+| Lupahyväksyntöjen määrä | 0 |
+| Suositeltu päätös | Pidä |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on kohtuullinen?
 
-Currently, detailed mechanism-of-action data is not available in this evidence pack (flagged as a High-severity data gap). Based on known information, pibrentasvir is part of the glecaprevir/pibrentasvir fixed-dose combination, an NS5A protein inhibitor that binds the highly variable region of HCV NS5A. Its established efficacy is specifically against chronic HCV infection (genotypes 1–6).
+Tällä hetkellä tämä näyttöpaketti ei sisällä yksityiskohtaisia vaikutusmekanismin tietoja (merkitty korkean vakavuuden tietoaukoksi). Tunnettujen tietojen perusteella pibrentasvir on osa glekapereviirin/pibrentsavirin kiinteää yhdistelmää, NS5A-proteiinin inhibiitoria, joka sitoutuu HCV:n NS5A:n erittäin muuttuvalle alueelle. Sen vakiintunut teho kohdistuu erityisesti krooniseen hepatitis C -infektioon (genotyypit 1–6).
 
-The prediction that this profile extends to Hepatitis B does **not** hold up mechanistically. HBV belongs to the Hepadnaviridae family and replicates via reverse transcription and a cccDNA reservoir — a completely different biology from HCV's NS5A-dependent replication complex. There is no known HBV homolog of the HCV NS5A binding site, and no preclinical or clinical data in this evidence pack shows anti-HBV activity for pibrentasvir.
+Ennustus, että tämä profiili ulottuu hepatitis B:hen, **ei** kestä mekanistisen analyysin tarkastelun. HBV kuuluu Hepadnaviridae-perheeseen ja replikoidaan käänteiskirjauksen ja cccDNA-varaston kautta — täysin erilainen biologia kuin HCV:n NS5A-riippuvainen replikaatiokompleksi. HBV:llä ei ole tunnettua HCV:n NS5A-sitoutumissivustin homologiaa, eikä tämä näyttöpaketti sisällä prekliinisiä tai kliinisiä tietoja, jotka osoittaisivat pibrentsavirin anti-HBV-aktiviteettiä.
 
-Reviewing the underlying evidence confirms this: all 14 clinical trials and 20 publications linked to this candidate involve HCV (including HCV/HBV or HCV/HIV co-infected populations), with sustained virologic response to HCV (SVR12) as the endpoint — not HBV DNA suppression or HBsAg clearance. Only one publication (PMID 29485084) even mentions HBV, and it addresses HBV *vaccination* after HCV treatment — a co-management topic, not a drug-efficacy signal. This pattern is consistent with a TxGNN embedding-space artifact confusing "viral hepatitis" concepts (HCV vs. HBV) rather than a real pharmacological relationship. The evidence pack's own rationale field reaches the same conclusion.
+Pohjatiedon tarkastelu vahvistaa tämän: kaikki 14 kliinistä tutkimusta ja 20 julkaisua, jotka on linkitetty tähän ehdokkaaseen, käsittelevät HCV:tä (mukaan lukien HCV/HBV- tai HCV/HIV-rinnakkaisinfektiot), ja päätepisteenä on hepatitis C:n kestävä virologinen vastaus (SVR12) — ei HBV-DNA:n tukahduttaminen tai HBsAg-eliminaatio. Vain yksi julkaisu (PMID 29485084) mainitsee HBV:n, ja se käsittelee HBV:n *rokotusta* hepatitis C -hoidon jälkeen — yhteishoidon aihetta, ei lääkkeen tehokkuuden merkkiä. Tämä kuvio vastaa TxGNN-upotusavaruuden artefaktia, joka sekoittaa "viraalisen hepatiitin" käsitteitä (HCV vs. HBV) pikemminkin kuin todellista farmakologista yhteyttä. Näyttöpaketin oma perusteluteksti johtaa samaan johtopäätökseen.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimuksen numero | Vaihe | Tilanne | Osallistujamäärä | Tärkeimmät löydökset |
 |---------|------|------|------|---------|
-| [NCT01995071](https://clinicaltrials.gov/study/NCT01995071) | Phase 2 | Completed | 89 | Dose-ranging safety/antiviral activity of ABT-493+ABT-530 in genotype 1 chronic **HCV** — not HBV |
-| [NCT02640157](https://clinicaltrials.gov/study/NCT02640157) | Phase 3 | Completed | 506 | ABT-493/ABT-530 vs. sofosbuvir+daclatasvir in genotype 3 **HCV** (ENDURANCE-3) |
-| [NCT03823911](https://clinicaltrials.gov/study/NCT03823911) | Phase 4 | Completed | 87 | Cardiovascular risk outcomes after **HCV** eradication in HIV/HCV co-infected patients |
-| [NCT02707952](https://clinicaltrials.gov/study/NCT02707952) | Phase 3 | Completed | 295 | G/P efficacy/safety in Japanese adults with chronic **HCV** (CERTAIN-1) |
-| [NCT03092375](https://clinicaltrials.gov/study/NCT03092375) | Phase 3 | Completed | 177 | G/P ± ribavirin in genotype 1 **HCV** patients previously treated with an NS5A inhibitor + sofosbuvir |
-| [NCT03219216](https://clinicaltrials.gov/study/NCT03219216) | Phase 3 | Completed | 100 | G/P in treatment-naïve Brazilian adults with **HCV** genotype 1–6 |
-| [NCT02441283](https://clinicaltrials.gov/study/NCT02441283) | Phase 2/3 | Completed | 384 | Long-term follow-up of DAA resistance/durability of response in **HCV** patients |
-| [NCT02446717](https://clinicaltrials.gov/study/NCT02446717) | Phase 2/3 | Completed | 141 | G/P ± ribavirin in **HCV** patients who failed prior DAA therapy |
-| [NCT02243280](https://clinicaltrials.gov/study/NCT02243280) | Phase 2 | Completed | 174 | G/P ± ribavirin in **HCV** genotype 1, 4, 5, 6 (SURVEYOR-I) |
-| [NCT02640482](https://clinicaltrials.gov/study/NCT02640482) | Phase 3 | Completed | 304 | G/P vs. placebo in genotype 2 **HCV** (ENDURANCE-2) |
+| [NCT01995071](https://clinicaltrials.gov/study/NCT01995071) | Vaihe 2 | Saatu päätökseen | 89 | Annoksen porrastamisen turvallisuus/antiviraalinen aktiivisuus ABT-493+ABT-530:lle genotyypin 1 kroonisen **hepatitis C**:n hoidossa — ei HBV:tä |
+| [NCT02640157](https://clinicaltrials.gov/study/NCT02640157) | Vaihe 3 | Saatu päätökseen | 506 | ABT-493/ABT-530 vs. sofosbuviiri+daklatasviiria genotyypin 3 **hepatitis C**:ssa (ENDURANCE-3) |
+| [NCT03823911](https://clinicaltrials.gov/study/NCT03823911) | Vaihe 4 | Saatu päätökseen | 87 | Kardiovaskulaarisen riskin tulokset **hepatitis C**:n eliminaation jälkeen HIV/hepatitis C -rinnakkaisinfektoituneilla potilailla |
+| [NCT02707952](https://clinicaltrials.gov/study/NCT02707952) | Vaihe 3 | Saatu päätökseen | 295 | G/P:n tehokkuus/turvallisuus japanilaisilla aikuisilla, joilla on krooninen **hepatitis C** (CERTAIN-1) |
+| [NCT03092375](https://clinicaltrials.gov/study/NCT03092375) | Vaihe 3 | Saatu päätökseen | 177 | G/P ± ribaviriinieä genotyypin 1 **hepatitis C** -potilailla, joilla on aiempi NS5A-inhibiittorin + sofosbuviirin hoito |
+| [NCT03219216](https://clinicaltrials.gov/study/NCT03219216) | Vaihe 3 | Saatu päätökseen | 100 | G/P brasilialaisten hoitoon naivien aikuisten **hepatitis C** -genotyypin 1–6 kanssa |
+| [NCT02441283](https://clinicaltrials.gov/study/NCT02441283) | Vaihe 2/3 | Saatu päätökseen | 384 | Pitkäaikainen seuranta DAA-resistanssista ja **hepatitis C** -potilaiden vastuvasteen kestävyydestä |
+| [NCT02446717](https://clinicaltrials.gov/study/NCT02446717) | Vaihe 2/3 | Saatu päätökseen | 141 | G/P ± ribaviriinieä **hepatitis C** -potilailla, joilla epäonnistui aiempi DAA-hoito |
+| [NCT02243280](https://clinicaltrials.gov/study/NCT02243280) | Vaihe 2 | Saatu päätökseen | 174 | G/P ± ribaviriinieä **hepatitis C** -genotyypin 1, 4, 5, 6 kanssa (SURVEYOR-I) |
+| [NCT02640482](https://clinicaltrials.gov/study/NCT02640482) | Vaihe 3 | Saatu päätökseen | 304 | G/P vs. lumelääke genotyypin 2 **hepatitis C**:ssa (ENDURANCE-2) |
 
-*None of the 14 registered trials for this candidate enroll HBV-infected patients or use an HBV endpoint.*
+*Yksikään 14 rekisteröidystä tutkimuksesta tälle ehdokkaalle ei rekryto HBV-infektoituneita potilaita eikä käytä HBV:n päätepisteenä.*
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät löydökset |
 |------|-----|------|------|---------|
-| [31981264](https://pubmed.ncbi.nlm.nih.gov/31981264/) | 2020 | Cohort | J Viral Hepat | Real-world GLE/PIB effectiveness/safety in **HCV** patients with severe renal impairment (Taiwan) |
-| [31041789](https://pubmed.ncbi.nlm.nih.gov/31041789/) | 2019 | Cohort | Semin Liver Dis | Retreatment strategies for **HCV** patients who fail DAA therapy |
-| [35431505](https://pubmed.ncbi.nlm.nih.gov/35431505/) | 2022 | Cohort | World J Gastroenterol | Real-world DAA effectiveness in HIV/**HCV** genotype 6 co-infection |
-| [29485084](https://pubmed.ncbi.nlm.nih.gov/29485084/) | 2018 | Review | Lancet Infect Dis | HBV vaccination strategy after completing **HCV** treatment — a co-management topic, not evidence of anti-HBV drug activity |
-| [34298832](https://pubmed.ncbi.nlm.nih.gov/34298832/) | 2021 | Review | Cancers | Hepatocellular carcinoma in chronic kidney disease; general liver-cancer epidemiology, not HBV-specific drug evidence |
-| [30982721](https://pubmed.ncbi.nlm.nih.gov/30982721/) | 2019 | Not classified | Lancet Gastroenterol Hepatol | Overview of **HCV** infection in children/adolescents |
-| [34092970](https://pubmed.ncbi.nlm.nih.gov/34092970/) | 2021 | Not classified | World J Gastroenterol | Pediatric viral hepatitis management (HBV and HCV); discusses available DAAs for HCV, not HBV activity of pibrentasvir |
-| [35579223](https://pubmed.ncbi.nlm.nih.gov/35579223/) | 2022 | Not classified | Eur J Gen Pract | Primary-care overview of chronic **HCV** diagnosis and treatment |
-| [29369303](https://pubmed.ncbi.nlm.nih.gov/29369303/) | 2018 | Not classified | AIDS Rev | Conference report covering global HBV and **HCV** burden and elimination roadmap; not a drug-efficacy study |
-| [31114957](https://pubmed.ncbi.nlm.nih.gov/31114957/) | 2019 | Not classified | Clin Pharmacokinet | Pharmacokinetic/pharmacodynamic update on **HCV** DAA regimens including glecaprevir/pibrentasvir |
+| [31981264](https://pubmed.ncbi.nlm.nih.gov/31981264/) | 2020 | Kohortti | J Viral Hepat | Tosimaailman GLE/PIB:n tehokkuus/turvallisuus **hepatitis C** -potilailla, joilla on vakava munuaisenpuutteellisuus (Taiwan) |
+| [31041789](https://pubmed.ncbi.nlm.nih.gov/31041789/) | 2019 | Kohortti | Semin Liver Dis | Uudelleenhoitostrategiat **hepatitis C** -potilaille, jotka epäonnistuvat DAA-hoidossa |
+| [35431505](https://pubmed.ncbi.nlm.nih.gov/35431505/) | 2022 | Kohortti | World J Gastroenterol | Tosimaailman DAA:n tehokkuus HIV/**hepatitis C** -genotyypin 6 rinnakkaisinfektiossa |
+| [29485084](https://pubmed.ncbi.nlm.nih.gov/29485084/) | 2018 | Katsaus | Lancet Infect Dis | HBV-rokotusstrategia **hepatitis C** -hoidon saattamisesta — yhteishoidon aihe, ei näyttöä anti-HBV-lääkkeen aktiivisuudesta |
+| [34298832](https://pubmed.ncbi.nlm.nih.gov/34298832/) | 2021 | Katsaus | Cancers | Maksasyöpä kroonisessa munuaisenpuutteellisuudessa; yleinen maksan syöpäepidemiologia, ei HBV-spesifinen lääkkeen näyttö |
+| [30982721](https://pubmed.ncbi.nlm.nih.gov/30982721/) | 2019 | Ei luokiteltu | Lancet Gastroenterol Hepatol | **Hepatitis C**-infektion yleiskatsaus lapsilla ja nuorilla |
+| [34092970](https://pubmed.ncbi.nlm.nih.gov/34092970/) | 2021 | Ei luokiteltu | World J Gastroenterol | Pediatrisen virushepatiitin hoito (HBV ja HCV); käsittelee saatavilla olevia DAA:ita hepatitis C:lle, ei pibrentsavirin HBV-aktiivisuutta |
+| [35579223](https://pubmed.ncbi.nlm.nih.gov/35579223/) | 2022 | Ei luokiteltu | Eur J Gen Pract | Perusterveydenhuollon yleiskatsaus kroonisen **hepatitis C**:n diagnoosista ja hoidosta |
+| [29369303](https://pubmed.ncbi.nlm.nih.gov/29369303/) | 2018 | Ei luokiteltu | AIDS Rev | Konferenssikertomus, joka käsittelee hepatitis B:n ja **hepatitis C**:n globaalia taakkaa ja eliminaation tiekarttaa; ei lääkkeen tehokkuustutkimus |
+| [31114957](https://pubmed.ncbi.nlm.nih.gov/31114957/) | 2019 | Ei luokiteltu | Clin Pharmacokinet | Farmakokineettinen/farmakodynaamiseen päivitys **hepatitis C**:n DAA-skeemoista, mukaan lukien glekapereviiri/pibrentasviri |
 
-*None of the 20 publications report pibrentasvir activity against HBV.*
+*Yksikään 20 julkaisusta ei raportoi pibrentsavirin aktiivisuudesta HBV:tä vastaan.*
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information (TFDA/Fimea warnings, contraindications, and drug-interaction data are not available in this evidence pack).
+Lisätietoja turvallisuudesta saat pakkausselosteesta (TFDA/Fimea-varoitukset, vasta-aiheet ja lääkkeiden yhteisvaikutustiedot eivät ole saatavilla tässä näyttöpaketissa).
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidä**
 
-**Rationale:**
-The predicted HBV indication lacks any supporting mechanistic, preclinical, or clinical evidence — all 14 trials and 20 publications attached to this candidate concern HCV, not HBV, and the evidence pack's own rationale identifies this as a likely TxGNN label-confusion artifact between related "viral hepatitis" concepts rather than a real repurposing signal. Pibrentasvir is also not marketed in Finland, and core safety data (TFDA warnings/contraindications) is a Blocking-severity gap that independently prevents any S1 safety evaluation.
+**Perustelut:**
+Ennustettu HBV-indikaatio vailla mitään tukevia mekanistisia, prekliinisiä tai kliinisiä näyttöjä — kaikki 14 tutkimusta ja 20 julkaisua, jotka on linkitetty tähän ehdokkaaseen, käsittelevät HCV:tä, ei HBV:tä, ja näyttöpaketin oma perusteluteksti tunnistaa tämän todennäköisesti TxGNN:n merkintöjen sekaannusartefaktiksi "virushepatiitin" käsitteiden (HCV vs. HBV) välillä pikemminkin kuin todelliseksi uudelleenkäytön signaaliksi. Pibrentasvir ei myöskään ole markkinoilla Suomessa, ja ytimen turvallisuustiedot (TFDA-varoitukset/vasta-aiheet) ovat esto-vakavuuden aukko, joka itsenäisesti estää S1-turvallisuuden arviointiin siirtymisen.
 
-**To proceed, the following is needed:**
-- Confirmed mechanism-of-action data from DrugBank to formally rule out (or in) any HBV-relevant activity
-- TFDA/Fimea package insert (warnings, contraindications) to close the Blocking data gap
-- If this candidate is retained for tracking, a dedicated PubMed/ClinicalTrials.gov search specifically filtered for HBV (not general "viral hepatitis") to confirm the absence of genuine evidence
-- Given the consistent false-positive pattern across all 10 predicted indications for this drug (HBV, HIV, HEV, HAV, animal hepatitis, Omsk/Kyasanur fever, SIV, FIV, and an unrelated neurodevelopmental disorder), consider deprioritizing or excluding this drug-candidate pair from further repurposing review
+**Edetäksemme seuraavaa tarvitaan:**
+- Vahvistetut vaikutusmekanismin tiedot DrugBankista muodollisesti sulkeaksemme pois (tai sisällyttääksemme) mikä tahansa HBV:n kannalta relevantti aktiivisuus
+- TFDA/Fimea:n pakkausseloste (varoitukset, vasta-aiheet) esto-vakavuuden aukkon sulkemiseksi
+- Jos tämä ehdokas säilytetään seurannassa, erityinen PubMed/ClinicalTrials.gov -haku, joka on suodatettu erityisesti HBV:lle (ei yleiselle "virushepatiitille"), vahvistaaksemme todellisen näytön puuttumisen
+- Koska johdonmukainen väärän positiivisen kuvio esiintyy kaikissa 10 tämän lääkkeen ennustetussa indikaatiossa (HBV, HIV, HEV, HAV, eläinhepatiitin, Omsk/Kyasanur-kuumeen, SIV:n, FIV:n ja asiaan liittymättömässä neuroevoluutionaalisessa häiriössä), harkitse tämän lääkkeen ja ehdokkaan parin vähentämistä tai poistamista jatkotarkastelusta uudelleenkäytön kannalta
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

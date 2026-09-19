@@ -29,99 +29,100 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **8** kpl
 
 </div>
 
-# Regorafenib: From Colorectal Cancer/GIST/Hepatocellular Carcinoma to Liposarcoma
+# Regorafenib: paksusuolisyövän/GIST/maksasyövästä liposarkooman hoitoon
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Regorafenib is an oral multi-kinase inhibitor originally approved for metastatic colorectal cancer, gastrointestinal stromal tumour (GIST), and hepatocellular carcinoma. The TxGNN model ranks **Liposarcoma** as its top predicted new indication (score 99.76%), but the **2 dedicated clinical trials** and **9 publications** currently available actually report that regorafenib **failed to show efficacy specifically in liposarcoma**, even though it worked in other soft tissue sarcoma subtypes.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Metastatic colorectal cancer, GIST, hepatocellular carcinoma (established global approvals cited in literature; no Finland-specific label text available) |
-| Predicted New Indication | Liposarcoma |
-| TxGNN Prediction Score | 99.76% |
-| Evidence Level | L2 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Regorafenib on suun kautta otettava moni-kinaasi-inhibiittori, joka on alun perin hyväksytty metastaattisen paksusuolisyövän, gastrointestinaalisen strooman eli GIST:n ja maksasyövän hoitoon. TxGNN-malli asettaa **liposarkooman** huipulla olevaksi ennustetuksi uudeksi käyttöindikaatioksi (pisteet 99.76%), mutta **2 omistautunutta kliinista tutkimusta** ja **9 julkaisua**, jotka ovat tällä hetkellä saatavilla, raportoivat itse asiassa, että regorafenib **ei kyennyt osoittamaan tehokkuutta erityisesti liposarkooman osalta**, vaikka se osoitti hyötyä muissa ei-rasvaisten pehmytkudoksen sarkooman alatyypeissä.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Regorafenib is an oral multi-kinase inhibitor targeting VEGFR1-3, TIE2, PDGFR-β, FGFR, KIT, RET, and RAF-1/BRAF. This anti-angiogenic and anti-stromal mechanism is biologically plausible for soft tissue sarcomas, which are typically highly vascularized tumours, and overlaps with pazopanib, a multi-kinase inhibitor already approved for non-adipocytic soft tissue sarcoma.
-
-However, the mechanistic plausibility does not hold up in the liposarcoma-specific data. The REGOSARC trial (NCT01900743) enrolled a dedicated liposarcoma cohort and its published results (PMID 29902612) state explicitly that regorafenib demonstrated efficacy in leiomyosarcoma, synovial sarcoma, and other non-adipocytic sarcomas **but not in liposarcoma**. The SARC024 liposarcoma cohort (NCT02048371, reported in PMID 32701199) independently confirmed this: results "do not support the routine use of regorafenib in this patient population." In other words, two separate Phase 2 trials specifically designed to test this hypothesis returned negative results for liposarcoma, even though the drug's general kinase-inhibition rationale looks sound on paper.
-
-This is a case where the TxGNN network-based score (99.76%, rank 3120) and the raw evidence-level metric (L2, based on trial count/phase) do not capture treatment failure — both qualifying trials were completed and well-designed, but their outcome was negative for this specific tumour subtype.
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen käyttöindikaatio | Metastaattinen paksusuolisyöpä, GIST, maksasyöpä (kirjallisuudessa mainitut vakiintuneet globaalit hyväksynnät; Suomen-spesifistä merkintätekstiä ei saatavilla) |
+| Ennustettu uusi käyttöindikaatio | Liposarcoma |
+| TxGNN-ennustepisteet | 99.76% |
+| Näyttöjen taso | L2 |
+| Suomen markkinatilanne | ✗ Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Pidätys |
 
 ---
 
-## Clinical Trial Evidence
+## Miksi tämä ennuste on järkevä?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Regorafenib on suun kautta otettava moni-kinaasi-inhibiittori, joka kohdistuu VEGFR1-3:een, TIE2:een, PDGFR-β:ään, FGFR:ään, KIT:iin, RET:iin ja RAF-1/BRAF:iin. Tämä antiangiogeniikka- ja antistroomamekanismi on biologisesti uskottava pehmytkudoksen sarkoomeille, jotka ovat tyypillisesti erittäin verisuoni-rikkaita kasvaimia, ja se on päällekkäin pazopanibin kanssa, moni-kinaasi-inhibiittorin kanssa, joka on jo hyväksytty ei-rasvaisten pehmytkudoksen sarkoomeille.
+
+Mekanistinen uskottavuus ei kuitenkaan pidä paikkaansa liposarcoma-spesifiseissä tiedoissa. REGOSARC-tutkimus (NCT01900743) rekrytoi omistautuneen liposarcoma-kohortin ja sen julkaistut tulokset (PMID 29902612) sanovat selvästi, että regorafenib osoitti tehokkuutta leiomyosarkooman, synoviaalisen sarkooman ja muiden ei-rasvaisten sarkoomeissa **mutta ei liposarkooman hoitoon**. SARC024 liposarcoma-kohortti (NCT02048371, raportoitu PMID 32701199:ssä) vahvisti tämän itsenäisesti: tulokset "eivät tue regorafeniibin rutiininkäyttöä tässä potilaspopulaatiossa." Toisin sanoen kaksi erillistä vaihe 2 -tutkimusta, joiden tarkoitus oli nimenomaisesti testata tätä hypoteesia, palauttivat negatiivisia tuloksia liposarkooman osalta, vaikka lääkkeen yleinen kinaasi-esto-perustelu näyttää järkevältä paperilla.
+
+Tämä on tilanne, jossa TxGNN-verkkopohjainen pistemäärä (99.76%, sijoitus 3120) ja raa'an näyttötason metriikka (L2, tutkimusmäärän/vaiheen perusteella) eivät kuvaa hoitoepäonnistumista — molemmat pätevät tutkimukset toteutettiin ja olivat hyvin suunniteltuja, mutta niiden tulos oli negatiivinen tässä erityisessä syöpäalatyyppissä.
+
+---
+
+## Kliinisen tutkimuksen näyttö
+
+| Tutkimusnumero | Vaihe | Tila | Rekrytointi | Keskeiset löydökset |
 |---------|------|------|------|---------|
-| [NCT01900743](https://clinicaltrials.gov/study/NCT01900743) | Phase 2 | Completed | 219 | REGOSARC trial; randomized, placebo-controlled study across 5 sarcoma cohorts including a dedicated Liposarcoma cohort (Cohort A), in patients previously treated with anthracycline-based chemotherapy |
-| [NCT02048371](https://clinicaltrials.gov/study/NCT02048371) | Phase 2 | Completed | 131 | SARC024 basket study of oral regorafenib across selected sarcoma subtypes, including a liposarcoma-specific cohort |
+| [NCT01900743](https://clinicaltrials.gov/study/NCT01900743) | Vaihe 2 | Valmis | 219 | REGOSARC-tutkimus; satunnaistettu, lumekontrolloitu tutkimus 5 sarkooma-kohortin yli, mukaan lukien omistautunut Liposarcoma-kohortti (Kohortti A), potilaissa, joille oli aiemmin annettu antrasykliini-pohjaista kemoterapiaa |
+| [NCT02048371](https://clinicaltrials.gov/study/NCT02048371) | Vaihe 2 | Valmis | 131 | SARC024 basket-tutkimus suun kautta otettavasta regorafeniibista valituissa sarkooma-alatyypeissä, mukaan lukien liposarcoma-spesifinen kohortti |
 
 ---
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
 |------|-----|------|------|---------|
-| [27751846](https://pubmed.ncbi.nlm.nih.gov/27751846/) | 2016 | RCT | Lancet Oncology | REGOSARC primary results: regorafenib efficacy/safety assessed across STS subtypes in patients previously treated with anthracycline |
-| [32701199](https://pubmed.ncbi.nlm.nih.gov/32701199/) | 2020 | RCT | The Oncologist | SARC024 liposarcoma cohort: results confirm prior data and **do not support routine use of regorafenib** in treatment-refractory liposarcoma |
-| [29902612](https://pubmed.ncbi.nlm.nih.gov/29902612/) | 2018 | RCT | European Journal of Cancer | Updated REGOSARC analysis with cross-over data: efficacy shown in leiomyosarcoma/synovial/other non-adipocytic sarcoma **but not liposarcoma** |
-| [28295221](https://pubmed.ncbi.nlm.nih.gov/28295221/) | 2017 | RCT (post-hoc) | Cancer | Q-TWiST analysis of REGOSARC trial (NCT01900743): quality-adjusted PFS benefit in doxorubicin-pretreated advanced non-adipocytic sarcoma |
-| [25884155](https://pubmed.ncbi.nlm.nih.gov/25884155/) | 2015 | Trial Protocol | BMC Cancer | REGOSARC study protocol; rationale based on angiogenesis signaling in sarcoma biology |
-| [29931504](https://pubmed.ncbi.nlm.nih.gov/29931504/) | 2018 | Review | Targeted Oncology | Overview of regorafenib's evolving role across STS subtypes including liposarcoma |
-| [40975452](https://pubmed.ncbi.nlm.nih.gov/40975452/) | 2025 | Review | Critical Reviews in Oncology/Hematology | Review of maintenance therapy strategies after first-line treatment for advanced STS |
-| [33290314](https://pubmed.ncbi.nlm.nih.gov/33290314/) | 2021 | RCT (different drug, anlotinib — indirect) | Anti-Cancer Drugs | Retrospective study of anlotinib in WDLS/DDLS; notes regorafenib/pazopanib as approved TKIs in non-adipocytic STS only |
-| [26266019](https://pubmed.ncbi.nlm.nih.gov/26266019/) | 2015 | Cohort (different drug, pazopanib — indirect) | Rare Tumors | Case report providing rationale for adding a Ewing sarcoma arm to SARC024 |
+| [27751846](https://pubmed.ncbi.nlm.nih.gov/27751846/) | 2016 | RCT | Lancet Oncology | REGOSARC:n ensisijaiset tulokset: regorafeniibin tehokkuus/turvallisuus arvioitiin STS-alatyypeissä potilaissa, joille oli aiemmin annettu antrasykliini-pohjaista kemoterapiaa |
+| [32701199](https://pubmed.ncbi.nlm.nih.gov/32701199/) | 2020 | RCT | The Oncologist | SARC024 liposarcoma-kohortti: tulokset vahvistavat aiemmat tiedot ja **eivät tue regorafeniibin rutiininkäyttöä** hoitoon-kestävässä liposarkoomassa |
+| [29902612](https://pubmed.ncbi.nlm.nih.gov/29902612/) | 2018 | RCT | European Journal of Cancer | Päivitetty REGOSARC-analyysi cross-over-tiedoilla: tehokkuus näytetty leiomyosarkooman/synviaalisen/muiden ei-rasvaisten sarkoomeissa **mutta ei liposarkoomassa** |
+| [28295221](https://pubmed.ncbi.nlm.nih.gov/28295221/) | 2017 | RCT (jälkikäteen) | Cancer | Q-TWiST-analyysi REGOSARC-tutkimuksesta (NCT01900743): laatuun oikaistu PFS-hyöty doksyrubisiini-esihoidetussa edistyneessä ei-rasvaisten sarkooman hoitoon |
+| [25884155](https://pubmed.ncbi.nlm.nih.gov/25884155/) | 2015 | Tutkimusprotokolla | BMC Cancer | REGOSARC-tutkimusprotokolla; perustelut angiogeneesin signaloinnista sarkooman biologiassa |
+| [29931504](https://pubmed.ncbi.nlm.nih.gov/29931504/) | 2018 | Katsaus | Targeted Oncology | Yleiskatsaus regorafeniibin kehittyvästä roolista STS-alatyypeissä, mukaan lukien liposarcoma |
+| [40975452](https://pubmed.ncbi.nlm.nih.gov/40975452/) | 2025 | Katsaus | Critical Reviews in Oncology/Hematology | Katsaus ylläpitohoitostrategioista ensimmäisen linjan hoidon jälkeen edistyneessä STS:n hoitoon |
+| [33290314](https://pubmed.ncbi.nlm.nih.gov/33290314/) | 2021 | RCT (eri lääke, anlotinibi — epäsuora) | Anti-Cancer Drugs | Anlotinibin retrospektiivinen tutkimus WDLS/DDLS:ssä; mainitsee regorafeniibin/pazopaniibin hyväksyttyjä TKI:ita ei-rasvaisten STS-alatyypeissä |
+| [26266019](https://pubmed.ncbi.nlm.nih.gov/26266019/) | 2015 | Kohortti (eri lääke, pazopanibi — epäsuora) | Rare Tumors | Tapausraportti pazopaniibin käyttöoikeuden tarjoamisen perusteluista Ewings-sarkooman varren lisäämiseen SARC024-tutkimukseen |
 
 ---
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Regorafenib currently has no marketing authorization on record in Finland (0 authorizations; market status: not marketed).
-
----
-
-## Cytotoxicity
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (multi-target tyrosine kinase inhibitor: VEGFR1-3, TIE2, PDGFR-β, FGFR, KIT, RET, RAF-1/BRAF) |
-| Myelosuppression Risk | Low — literature on regorafenib and related TKIs highlights hand-foot skin reaction, hypertension, hepatotoxicity, and proteinuria as the dominant toxicities rather than bone marrow suppression |
-| Emetogenicity Classification | Low (typical of small-molecule multi-kinase inhibitors) |
-| Monitoring Items | Blood pressure, liver function tests, renal function/proteinuria, CBC, skin examination for hand-foot skin reaction |
-| Handling Protection | Standard oral oncolytic handling precautions apply; not a conventional cytotoxic agent requiring cytotoxic-drug reconstitution/handling protocols |
+Regorafenibillä ei ole tällä hetkellä markkinointikelpoisuuden hyväksyntää Suomessa (0 hyväksyntää; markkinatilanne: ei markkinoilla).
 
 ---
 
-## Safety Considerations
+## Sytotoksisuus
 
-Please refer to the package insert for safety information. (TFDA/Fimea package insert warnings and contraindications are flagged as a Blocking data gap and are not yet available for this candidate.)
+| Kohta | Sisältö |
+|------|---------|
+| Sytotoksisuuden luokitus | Kohdistettu terapia (moni-kohteen tyrosiini-kinaasi-inhibiittori: VEGFR1-3, TIE2, PDGFR-β, FGFR, KIT, RET, RAF-1/BRAF) |
+| Luuydinsuppression riski | Alhainen — regorafeniibin ja siihen liittyvien TKI:iden kirjallisuudessa korostuvat käsi-jalka-ihoreaktio, hypertensio, hepatotoksisuus ja proteinuria hallitsevina sivuvaikutuksina luuydinsuppression sijaan |
+| Pahoinvointiriskin luokitus | Alhainen (tyypillistä pienille molekyyleille moni-kinaasi-inhibiittorien joukossa) |
+| Seurantakohdat | Verenpaine, maksan toiminta, munuaisten toiminta/proteinuria, kokonaisverenkuva (CBC), ihotutkimus käsi-jalka-ihoreaktioon |
+| Käsittelysuojaus | Standardit suun kautta otettavan sytostaatin käsittelyvarotoimenpiteet; ei tavanomainen sytotoksinen aine, joka vaatisi sytostaatin valmistelua/käsittelyprotokollaa |
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuushuomiot
 
-**Decision: Hold**
+Katso turvallisuustiedoista pakkausseloste. (TFDA/Fimea:n pakkausselosteen varoitukset ja vasta-aiheet on merkitty estäväksi tietoaukoksi eikä niitä ole vielä saatavilla tälle lääkeehdokkaalle.)
 
-**Rationale:**
-Although TxGNN ranks liposarcoma as the top predicted indication with a high score, the two dedicated Phase 2 trials that directly tested this hypothesis (REGOSARC and SARC024) both reported that regorafenib **failed to demonstrate efficacy specifically in liposarcoma**, even while showing benefit in other non-adipocytic soft tissue sarcoma subtypes. Evidence quantity (L2) is not evidence of benefit here — the qualifying data are negative.
+---
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert warnings and contraindications (currently a Blocking data gap, DG001)
-- Confirmed DrugBank mechanism of action record (currently a data gap, DG002)
-- If this indication is to be reconsidered, a mechanistic explanation for why liposarcoma specifically does not respond, and whether a biomarker-selected subpopulation might still benefit
-- Given the negative liposarcoma signal, evaluate whether **clear cell renal carcinoma** (rank 3, L2, "Proceed with Guardrails," with a positive single-arm Phase 2 trial in RCC) is a more promising candidate from this same evidence pack
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidätys**
+
+**Perustelut:**
+Vaikka TxGNN asettaa liposarkooman huipulla olevaksi ennustetuksi indikaatioksi korkean pistemäärän kanssa, kaksi omistautunutta vaihe 2 -tutkimusta, jotka testasivat tätä hypoteesia suoraan (REGOSARC ja SARC024), molemmat raportoivat, että regorafenib **ei kyennyt osoittamaan tehokkuutta erityisesti liposarkooman osalta**, vaikka se osoitti hyötyä muissa ei-rasvaisten pehmytkudoksen sarkooman alatyypeissä. Näyttöjen määrä (L2) ei ole todiste hyödystä tässä — pätevät tiedot ovat negatiivisia.
+
+**Edetäksemme seuraavaa tarvitaan:**
+- TFDA/Fimea:n pakkausselosteen varoitukset ja vasta-aiheet (tällä hetkellä estävä tietoaukko, DG001)
+- Vahvistettu DrugBank-toimintamekanismin tietue (tällä hetkellä tietoaukko, DG002)
+- Jos tätä indikaatiota harkittaisiin uudelleen, mekanistinen selitys sille, miksi liposarcoma erityisesti ei vastaa hoitoon, ja selvitys siitä, hyötyisikö biomarkkerilla valittu potilasryhmä
+- Negatiivisen liposarcoma-signaalin perusteella, arvioi, onko **selkeäsoluinen munuaiskarsinooma** (sijoitus 3, L2, "Edisty varauksilla", positiivisen yksivarteisen vaihe 2 -tutkimuksen kanssa RCC:ssä) lupaavampi ehdokas tästä samasta näyttöpaketista
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

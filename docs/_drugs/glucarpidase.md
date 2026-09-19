@@ -29,60 +29,61 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Glucarpidase: From Methotrexate Toxicity Rescue to Diabetic Cataract
+# Glukarpidaasi: Metotreksaatin myrkyllisyyden pelastamisesta diabeettiseen kataraktaan
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Glucarpidase (DrugBank DB08898) is a recombinant bacterial carboxypeptidase G2 clinically used to rapidly inactivate methotrexate in patients with impaired renal clearance and toxic plasma methotrexate concentrations. The TxGNN model predicts potential efficacy in **Diabetic Cataract**, but this candidate currently has **0 clinical trials** and **0 publications** supporting it, and the evidence pack's own mechanistic review flags the prediction as biologically implausible.
+Glukarpidaasi (DrugBank DB08898) on rekombinanttu bakteerinen karboksypeptidaasi G2, jota käytetään kliinisesti metotreksaatin nopeaan inaktivointiin potilailla, joilla on heikentynyt munuaisten eritys ja myrkylliset metotreksaatin plasmapitoisuudet. TxGNN-malli ennustaa mahdollista tehokkuutta **diabeettisessa kataraktassa**, mutta tällä ehdokkaalla on tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua** sen tukemiseksi, ja näyttöpaketin oma mekanistinen katsaus merkitsee ennusteen biologisesti epäuskottavaksi.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Toxic methotrexate concentrations (folate-antagonist rescue therapy) — not captured in the structured `original_indications` field; derived from the mechanistic description in the evidence pack |
-| Predicted New Indication | Diabetic Cataract |
-| TxGNN Prediction Score | 99.85% (rank 2057) |
-| Evidence Level | L5 |
-| Finland Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Myrkylliset metotreksaatin pitoisuudet (folaatin antagonistin pelastushoito) — ei sijaita jäsennellyssä `original_indications`-kentässä; johdettu näyttöpaketin mekanistisesta kuvauksesta |
+| Ennustettu uusi indikaatio | Diabeettinen katarakta |
+| TxGNN-ennusteen pistemäärä | 99.85% (sijoitus 2057) |
+| Näyttöaste | L5 |
+| Markkinatilanne Suomessa | Ei markkinoilla |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Pidätä |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Detailed mechanism of action data is not available in the structured record (`original_moa` is a data gap). However, the evidence pack's own rationale notes that glucarpidase is a recombinant carboxypeptidase G2 whose sole established pharmacological role is hydrolyzing methotrexate into inactive metabolites, used to rescue patients from toxic methotrexate exposure in the setting of renal impairment.
+Yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla jäsennellyssä tietueessa (`original_moa` on tietoaukko). Näyttöpaketin perustelut kuitenkin toteavat, että glukarpidaasi on rekombinanttu karboksypeptidaasi G2, jonka ainoa vakiintunut farmakologinen rooli on metotreksaatin hydrolyysi inaktiivisiksi aineenvaihduntuotteiksi, jota käytetään potilaiden pelastamiseen metotreksaatin myrkyllisestä altistuksesta munuaisten vajaatoiminnan yhteydessä.
 
-Diabetic cataract pathophysiology is driven by non-enzymatic glycation of lens crystallins, activation of the polyol/sorbitol pathway, and oxidative stress — none of which intersect with folate-analog metabolism. The evidence pack's mechanistic analysis explicitly states there is no known biological overlap between glucarpidase's enzymatic activity and lens pathology, and glucarpidase has no established pharmacokinetic basis for ocular tissue exposure.
+Diabeettisen kataraktan patofysiologia johtuu linssin kristalliinien ei-entsymaattisesta glykosylaatiosta, polyoli/sorbitoli-raidan aktivaatiosta ja oksidatiivisesta stressistä — mikään näistä ei ylitä folaattianalogin aineenvaihduntaa. Näyttöpaketin mekanistinen analyysi selvästi toteaa, että glukarpidaasin entsyymiaktiivisuuden ja linssin patologian välillä ei ole tunnettu biologinen yhteys, ja glukarpidaasilla ei ole vakiintunutta farmakokineettistä perustelua silmäkudoksen altistumiselle.
 
-Notably, all 10 of this drug's top-ranked TxGNN predictions are cataract subtypes or diabetic retinopathy, with near-identical scores (99.82–99.85%) clustered tightly together. This pattern is more consistent with a statistical artifact of embedding-space proximity than a genuine pharmacological signal, and should be weighed accordingly when interpreting the score.
+Merkittävää on, että kaikki 10 tämän lääkkeen TxGNN:n korkeimmin sijoittuneita ennusteita ovat kataraktan alityyppejä tai diabeettista retinopattiaa, lähes samoin pistemääryin (99.82–99.85%) tiiviisti ryhmittyneenä. Tämä kuvio on yhtenevämpi tilastollisen artefaktin kanssa upotusavaruuden läheisyydessä kuin aito farmakologinen signaali, ja se tulisi painottaa vastaavasti kun tulkitaan pistemäärää.
 
-## Clinical Trial Evidence
+## Kliinisten tutkimusten näyttö
 
-Currently no related clinical trials registered.
+Tällä hetkellä ei ole rekisteröity asiaan liittyviä kliinisiä tutkimuksia.
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-Currently no related literature available.
+Tällä hetkellä kirjallisuuden näyttöä ei ole saatavilla.
 
-## Finland Market Information
+## Markkinatilanne Suomessa
 
-Glucarpidase is not marketed in Finland; no marketing authorizations are on record (0 licenses).
+Glukarpidaasi ei ole markkinoilla Suomessa; markkinoinnin lupia ei ole rekisteröity (0 lupaa).
 
-## Safety Considerations
+## Turvallisuusnäkökulmat
 
-Please refer to the package insert for safety information.
+Katso pakkausseloste turvallisuustiedoista.
 
-## Conclusion and Next Steps
+## Johtopäätökset ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidätä**
 
-**Rationale:**
-There is zero clinical trial or literature evidence for glucarpidase in diabetic cataract (or any of the other 9 predicted cataract/retinopathy indications), the evidence level is L5 (model prediction only), and the evidence pack's own mechanistic review finds no plausible biological link between methotrexate-inactivation and lens/retinal pathology. The drug is also not marketed in Finland.
+**Perustelut:**
+Glukarpidaasin diabeettiselle kataraktalle (tai muille 9 ennustetulle kataraktan/retinopatian indikaatiolle) ei ole nolla kliinisen tutkimuksen eikä kirjallisuuden näyttöä, näyttöaste on L5 (vain mallin ennuste), ja näyttöpaketin oma mekanistinen katsaus ei löydä uskottavaa biologista yhteyttä metotreksaatin inaktivoinnin ja silmän linssin/verkon patologian välille. Lääkettä ei myöskään markkinoida Suomessa.
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert data to resolve the blocking safety data gap (DG001)
-- Confirmed structured original-indication and MOA data from DrugBank or regulatory labeling (DG002)
-- Independent literature/preclinical search specifically probing any lens or retinal exposure/pharmacokinetic data for glucarpidase
-- Re-evaluation of the TxGNN signal given the suspicious clustering of near-identical scores across 10 cataract/retinopathy terms, which suggests possible embedding-space artifact rather than a true repurposing signal
+**Jatkaaksemme tarvitaan seuraavaa:**
+- TFDA/Fimea pakkausseloste-tiedot turvallisuuden tietoa estävän aukon ratkaisemiseksi (DG001)
+- Vahvistetut jäsennellyt alkuperäisen indikaation ja vaikutusmekanismin tiedot DrugBankista tai sääntelyhyväksynnän merkinnöistä (DG002)
+- Riippumaton kirjallisuus-/prekliininen haku erityisesti tutkien mahdollisia silmän linssin tai verkon altistumis-/farmakokineettisiä tietoja glukarpidaasille
+- TxGNN-signaalin uudelleenarviointi, kun otetaan huomioon epäilyttävä lähes samoin pistemääryin (99.82–99.85%) 10 katarakta-/retinopatia-termissä klusteroitu ryhmittymä, mikä viittaa mahdolliseen upotusavaruuden artefaktiin todellisen uuden käyttöindikaation signaalin sijasta
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

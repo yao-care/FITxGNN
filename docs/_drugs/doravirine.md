@@ -29,76 +29,77 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Doravirine: From HIV-1 Infection to Feline Acquired Immunodeficiency Syndrome
+# Doravirine: HIV-1-infektiosta Feliiniksi hankittuihin immuunivajaavuussyndroomiin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Doravirine is a non-nucleoside reverse transcriptase inhibitor (NNRTI) used to treat HIV-1 infection. The TxGNN model predicts it may be effective for **Feline Acquired Immunodeficiency Syndrome (FIV)**, but this prediction is currently supported by **0 clinical trials** and **0 publications** — evidence level L5, model prediction only.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | HIV-1 infection (NNRTI; derived from model rationale notes — official Taiwan label text not yet available) |
-| Predicted New Indication | Feline Acquired Immunodeficiency Syndrome (FIV) |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L5 |
-| Taiwan Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Doravirine on non-nukleosidinen käänteiskopioijaininhibiittori (NNRTI), jota käytetään HIV-1-infektioiden hoitoon. TxGNN-malli ennustaa, että se saattaa olla tehokas **feliiniksi hankittuun immuunivajaavuussyndrooman (FIV)** hoitoon, mutta tätä ennustetta tukee tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua** — näyttötaso L5, pelkästään mallin ennuste.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Currently, detailed mechanism of action data is not available in the structured DrugBank field (blocking data gap). Based on the model's own rationale notes, doravirine is an NNRTI that binds an allosteric pocket unique to HIV-1 reverse transcriptase (RT), and its efficacy in HIV-1 infection is well established.
-
-The predicted new indication, FIV, is caused by a different lentivirus whose RT sequence diverges substantially from HIV-1's, and the NNRTI binding pocket is not conserved across species — NNRTIs are typically highly species/virus-specific with no cross-reactivity to FIV RT. TxGNN's high score for this pairing most likely reflects a superficial "same enzyme class, same viral family" association in the knowledge graph rather than a validated cross-species mechanism; this is exactly what the model's own generated rationale flags as unsupported.
-
-Two other candidates were generated for doravirine at similarly high scores: simian immunodeficiency virus (SIV) infection — whose only associated literature (PMID 31658118) actually discusses islatravir, a different drug with a different mechanism (nucleoside RT translocation inhibitor, not NNRTI) — and a rare genetic neurodevelopmental disorder with no plausible mechanistic link to reverse transcriptase inhibition at all. None of the three candidates have clinical trial, preclinical, or case-report support, and all three are scored L5 / Hold in the source data.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Kohta | Sisältö |
+|-------|---------|
+| Alkuperäinen indikaatio | HIV-1-infektio (NNRTI; johdettu mallin perustelutiedoista — virallinen Taiwanin pakkausteksti ei vielä saatavilla) |
+| Ennustettu uusi indikaatio | Feliiniksi hankittu immuunivajaavuussyndrooma (FIV) |
+| TxGNN:n ennustepisteet | 99.93% |
+| Näyttötaso | L5 |
+| Taiwanin markkinatilanne | Ei markkinoilla |
+| Lupien lukumäärä | 0 |
+| Suositeltava päätös | Pidä |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennuste on perusteltu?
 
-Currently no related literature available.
+Yksityiskohtaisia toimintamekanismin tietoja ei tällä hetkellä ole saatavilla rakenteisessa DrugBank-kentässä (estävä tietovajavuus). Mallin omien perustelutietojen perusteella doravirine on NNRTI, joka sitoutuu HIV-1:n käänteiskopioijainresinaasille (RT) ainutlaatuiseen allosteeriiseen taskuun, ja sen teho HIV-1-infektioissa on hyvin todettu.
 
----
+Ennustettu uusi indikaatio FIV johtuu eri lentiviruksesta, jonka RT-sekvenssi eroaa merkittävästi HIV-1:stä, ja NNRTI-sitoutumistakku ei ole säilynyt lajien välillä — NNRTI:t ovat tyypillisesti erittäin laji- ja viruspesäkohtaisia ilman ristireaktion kykyä FIV RT:hen. TxGNN:n korkea pistemäärä tälle parille heijastaa todennäköisesti pinnallista "sama entsyymiluokka, sama virusperhe" -assosiaatiota tietoverkossa eikä vahvistettua lajien välistä mekanismia; tämä on täsmälleen sitä, mitä mallin omaksi luodut perustelut merkitsevät kuin tukemattomaksi.
 
-## Taiwan Market Information
-
-Doravirine currently holds no marketing authorization in Taiwan (0 licenses on file; market status: Not marketed).
+Kahdelle muulle ehdokkaalle doraviriinille tuotettiin samankaltaisesti korkeat pisteet: simianin immuunivajaavuusvirusinfektio (SIV) — jonka ainoa liittyvä kirjallisuus (PMID 31658118) käsittelee itse asiassa islataviria, eri lääkettä eri mekanismilla (nukleosidisen RT-translokaatioestin, ei NNRTI) — ja harvinaista geneettistä neurokehityksellistä häiriötä, jolla ei ole uskottavaa mekanistista yhteyttä käänteiskopioijainestäjäheytykseen ollenkaan. Mikään kolmesta ehdokkaasta ei ole kliinisen tutkimuksen, prekliinisen tutkimuksen tai tapausraportin tukema, ja kaikki kolme ovat L5 / Pidä -luokituksessa lähdetiedoissa.
 
 ---
 
-## Safety Considerations
+## Kliinisen tutkimuksen näyttö
 
-Please refer to the package insert for safety information.
+Tällä hetkellä ei ole liittyviä kliinisiä tutkimuksia rekisteröity.
 
 ---
 
-## Conclusion and Next Steps
+## Kirjallisuuden näyttö
 
-**Decision: Hold**
+Tällä hetkellä ei ole liittyviä julkaisuja saatavilla.
 
-**Rationale:**
-- All three TxGNN-predicted indications for doravirine sit at evidence level L5 (model prediction only), with no clinical trials and no directly relevant literature.
-- The top prediction, FIV, has a flagged cross-species mechanistic gap (NNRTI binding pocket not conserved between HIV-1 and FIV RT); it is also a veterinary rather than human indication.
-- A blocking data gap exists: the TFDA package insert (warnings/contraindications) is unavailable, which by itself prevents S1 safety pre-screening regardless of efficacy evidence.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert / product label — blocking gap (DG001)
-- Confirmed original MOA and approved indication from a structured DrugBank record (DG002)
-- Preclinical evidence of doravirine activity against FIV or SIV reverse transcriptase, if this line is to be pursued further
-- Resolution of the outstanding DDI query (currently `not_found`)
+## Taiwanin markkinatiedot
+
+Doraviriinillä ei tällä hetkellä ole markkinoinnin lupaa Taiwanissa (0 lupaa rekisterissä; markkinatilanne: Ei markkinoilla).
+
+---
+
+## Turvallisuusnäkökohdat
+
+Katso turvallisuustiedoista pakkaustekstiä.
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidä**
+
+**Perustelut:**
+- Kaikki kolme TxGNN:n ennustamaa doraviriiinin indikaatiota ovat näyttötasolla L5 (pelkästään mallin ennuste), ilman kliinisiä tutkimuksia ja ilman suoraan liittyvää kirjallisuutta.
+- Parhain ennuste FIV:llä on merkitty lajien välinen mekanistinen kuilu (NNRTI-sitoutumistakku ei ole säilynyt HIV-1:n ja FIV RT:n välillä); se on myös eläinlääketieteellinen eikä inhimillinen indikaatio.
+- Estävä tietovajavuus on olemassa: TFDA-pakkausteksti (varoitukset/vasta-aiheet) ei ole saatavilla, mikä yksinään estää S1-turvallisuuden ennakkoseulonnan riippumatta tehonäytöstä.
+
+**Jatkaakseen seuraavaa tarvitaan:**
+- TFDA pakkausteksti / tuotteen etiketti — estävä vajavuus (DG001)
+- Vahvistettu alkuperäinen MOA ja hyväksytty indikaatio rakenteisesta DrugBank-tietueesta (DG002)
+- Prekliiniset näyttöt doraviriiinin aktiivisuudesta FIV:n tai SIV:n käänteiskopioijainresinaasia vastaan, jos tätä linjaa halutaan jatkaa edelleen
+- Makaamisen ulkopuolisen DDI-kyselyn ratkaiseminen (tällä hetkellä `not_found`)
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

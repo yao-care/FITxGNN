@@ -29,106 +29,107 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Agomelatine: From Major Depressive Disorder to Depressive/Neurotic-Spectrum Disorders
+# Agomelatine: suuresta masennushäiriöstä depressiivisen/neuroottisen spektrin häiriöihin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Agomelatine is a melatonergic antidepressant whose approved use — confirmed only through literature in this evidence pack, since structured DrugBank/Fimea fields are data gaps — is major depressive disorder (MDD) in adults. TxGNN surfaced ten candidate indications for this drug; the five that carry any supporting evidence (agoraphobia, neurotic disorder, melancholia, neurotic depression, dysthymic disorder) all fall inside the depression/neurotic-disorder spectrum and are backed by **0 clinical trials** and **28 unique publications** (mostly class-level antidepressant evidence rather than indication-specific trials). The other five top-ranked predictions — including benign paroxysmal torticollis of infancy and four ultra-rare genetic syndromes — have **zero supporting evidence** and are almost certainly graph-embedding noise.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Major depressive disorder (MDD) — inferred from literature in this pack; not confirmed via DrugBank or Fimea structured records (data gap) |
-| Predicted New Indication | Melancholia (lead candidate within a 5-indication depressive/neurotic-spectrum cluster — see full ranking below) |
-| TxGNN Prediction Score | 99.88% (melancholia, model rank #1740 among all disease pairs; graph rank #4 among this drug's top-10 candidates) |
-| Evidence Level | L2 |
-| Finland Market Status | ✗ Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
-
-### Full Candidate Ranking (all 10 TxGNN predictions)
-
-| Rank | Disease | TxGNN Score | Evidence Level | Decision Stage | Recommendation |
-|------|---------|------------|-----------------|-----------------|-----------------|
-| 1 | Benign paroxysmal torticollis of infancy | 99.96% | L5 | S0 | Hold (no biological or literature link) |
-| 2 | Agoraphobia | 99.95% | L4 | S0 | Hold |
-| 3 | Neurotic disorder | 99.90% | L4 | S0 | Hold |
-| 4 | **Melancholia** | 99.88% | L2 | S2 | Research Question |
-| 5 | Neurotic depression | 99.88% | L2 | S2 | Research Question |
-| 6 | Ohdo syndrome and variants | 99.87% | L5 | S0 | Hold (genetic syndrome, unrelated mechanism) |
-| 7 | Dysthymic disorder | 99.86% | L3 | S1 | Research Question |
-| 8 | Ligneous conjunctivitis | 99.83% | L5 | S0 | Hold (unrelated mechanism) |
-| 9 | Blepharophimosis–intellectual disability syndrome, Ohdo type | 99.82% | L5 | S0 | Hold (genetic syndrome) |
-| 10 | Keppen-Lubinsky syndrome | 99.81% | L5 | S0 | Hold (genetic syndrome) |
-
-Only ranks 4, 5, and 7 (melancholia, neurotic depression, dysthymic disorder) — plus, more weakly, ranks 2 and 3 (agoraphobia, neurotic disorder) — have any literature support at all. Ranks 1, 6, 8, 9, and 10 have no clinical trials, no ICTRP records, and no literature hits in this evidence pack; they are treated here as low-confidence model artifacts rather than genuine repurposing signals.
+Agomelatine on melatoniinerginen masennuslääke, jonka hyväksytty käyttöindikaatio — vahvistettu vain tämän todistepaketin kirjallisuudessa, koska rakenteelliset DrugBank/Fimea-kentät ovat tietovajeet — on masennushäiriö (major depressive disorder, MDD) aikuisilla. TxGNN löysi kymmenen kandidaatti-indikaatiota tälle lääkeaineelle; viisi, joilla on jonkinlainen todisteiden tuki (agorafoobia, neuroottinen häiriö, melankoolia, neuroottinen masennus, dystyminen häiriö), kuuluvat kaikki masennushäiriön/neuroottisen häiriön spektriin ja niihin liittyy **0 kliinistä tutkimusta** ja **28 ainutlaatuista julkaisua** (enimmäkseen luokkatasoisen masennuslääkkeen todisteet pikemminkin kuin indikaatiokohtaiset tutkimukset). Muut viisi parhaiten rangattujen ennusteiden joukossa — mukaan lukien vauvojen hyvänlaatuinen paroksysmaalinen torticollis ja neljä erittäin harvinaista geneettistä oireyhtymää — joilla on **nolla tukitodisteet** ja jotka ovat todennäköisesti graafi-upotuksen kohinaa.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Detailed structured mechanism-of-action data from DrugBank is a documented data gap (DG002) in this pack. Based on the literature retrieved, agomelatine is described consistently as a melatonergic MT1/MT2 receptor agonist combined with 5-HT2C (and 5-HT2B) serotonin receptor antagonism — a mechanism that normalizes disrupted circadian rhythms while also enhancing dopamine and noradrenaline release in the prefrontal cortex, distinguishing it from classic monoaminergic antidepressants (PMID 19777735, 23484857, 32568567, 30759026).
+| Kohde | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Masennushäiriö (MDD) — päätelmä tämän paketin kirjallisuudesta; ei vahvistettu DrugBank- tai Fimea-rakenteellisten tietueiden kautta (tietovaaje) |
+| Ennustettu uusi indikaatio | Melankoolia (johtava kandidaatti masennushäiriön/neuroottisen spektrin 5-indikaatioisen klusterin sisällä — katso täydellinen sijoitus alla) |
+| TxGNN-ennustepiste | 99.88% (melankoolia, mallisijoitus #1740 kaikkien taudiparimuotojen joukossa; graafin sijoitus #4 tämän lääkkeen top-10 kandidaattien joukossa) |
+| Todisteiden taso | L2 |
+| Suomen markkinoiden asema | ✗ Ei markkinoitu (Ei markkinoitu) |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Odota |
 
-Melancholia, neurotic depression, and dysthymic disorder are not truly distinct diseases from a mechanistic standpoint — they are historical or nosological subtypes and near-synonyms sitting within the same depressive-disorder spectrum as agomelatine's own approved indication. Their mechanistic plausibility is therefore high, but this also means the "repurposing" signal here is largely a naming/ontology overlap rather than a genuine extension into an unrelated disease area. Agoraphobia and neurotic disorder are more indirect: they are often comorbid with depression, so a benefit could plausibly arise from agomelatine's antidepressant/anxiolytic-adjacent effect, but neither has literature that studies the drug in that population directly — the single citation for agoraphobia (PMID 21183900) actually studies valdoxan's response predictors in moderate-to-severe depression, not agoraphobia itself.
+### Täydellinen kandidaattien sijoitus (kaikki 10 TxGNN-ennustetta)
 
-By contrast, the five rare-disease/genetic-syndrome predictions (benign paroxysmal torticollis of infancy, Ohdo syndrome and its variants, ligneous conjunctivitis, Keppen-Lubinsky syndrome) have no identifiable mechanistic link to melatonergic/serotonergic pharmacology and no supporting literature or trials at all — these are best interpreted as knowledge-graph proximity artifacts rather than credible repurposing candidates.
+| Sijoitus | Sairaus | TxGNN-piste | Todisteiden taso | Päätösvaihe | Suositus |
+|----------|---------|------------|-----------------|-------------|----------|
+| 1 | Vauvojen hyvänlaatuinen paroksysmaalinen torticollis | 99.96% | L5 | S0 | Odota (ei biologista tai kirjallisuuslinkkiä) |
+| 2 | Agorafoobia | 99.95% | L4 | S0 | Odota |
+| 3 | Neuroottinen häiriö | 99.90% | L4 | S0 | Odota |
+| 4 | **Melankoolia** | 99.88% | L2 | S2 | Tutkimuskysymys |
+| 5 | Neuroottinen masennus | 99.88% | L2 | S2 | Tutkimuskysymys |
+| 6 | Ohdoon oireyhtymä ja variantit | 99.87% | L5 | S0 | Odota (geneettinen oireyhtymä, liittymätön mekanismi) |
+| 7 | Dystyminen häiriö | 99.86% | L3 | S1 | Tutkimuskysymys |
+| 8 | Ligneosus konjunktivitis | 99.83% | L5 | S0 | Odota (liittymätön mekanismi) |
+| 9 | Blefarofimoosin–älyllisen vamman oireyhtymä, Ohdoon tyyppi | 99.82% | L5 | S0 | Odota (geneettinen oireyhtymä) |
+| 10 | Keppen-Lubinsky-oireyhtymä | 99.81% | L5 | S0 | Odota (geneettinen oireyhtymä) |
 
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered. Across all 10 predicted indications, both ClinicalTrials.gov and ICTRP queries returned zero results (confirmed in the query log for every disease pair tested).
-
----
-
-## Literature Evidence
-
-The table below consolidates and deduplicates literature across the five evidenced indications (agoraphobia, neurotic disorder, melancholia, neurotic depression, dysthymic disorder), prioritizing meta-analyses/RCT-level and agomelatine-specific evidence, and showing the top 10 of 28 unique publications identified.
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/) | 2018 | Network Meta-analysis (RCTs) | Lancet | Compares efficacy/acceptability of 21 antidepressants (including agomelatine) for acute MDD treatment; class-level evidence relevant to melancholia/neurotic depression |
-| [39684343](https://pubmed.ncbi.nlm.nih.gov/39684343/) | 2024 | Systematic Review/Meta-analysis (agomelatine-specific) | Int J Mol Sci | Efficacy and safety of agomelatine specifically in depressed patients with comorbid diabetes |
-| [21527126](https://pubmed.ncbi.nlm.nih.gov/21527126/) | 2011 | Meta-analysis (placebo-controlled RCTs, class-level) | J Clin Psychiatry | Antidepressant efficacy specifically in dysthymic disorder vs. MDD — most disease-specific evidence in the set |
-| [36253442](https://pubmed.ncbi.nlm.nih.gov/36253442/) | 2023 | Systematic Review/NMA | Molecular Psychiatry | Antidepressant efficacy/safety in the MDD maintenance phase |
-| [25911132](https://pubmed.ncbi.nlm.nih.gov/25911132/) | 2015 | Systematic Review (RCT dose-equivalence) | J Affect Disord | Dose-equivalence of antidepressants from randomized trials |
-| [32568567](https://pubmed.ncbi.nlm.nih.gov/32568567/) | 2020 | Review (agomelatine-specific) | Expert Opin Drug Discov | Preclinical discovery and development of agomelatine for depression |
-| [21183900](https://pubmed.ncbi.nlm.nih.gov/21183900/) | 2010 | Cohort/Observational (post-hoc predictor analysis) | Zh Nevrol Psikhiatr | Clinical predictors of response to valdoxan (agomelatine) in moderate/severe depression — cited as agoraphobia evidence but not disease-specific |
-| [41135546](https://pubmed.ncbi.nlm.nih.gov/41135546/) | 2025 | Systematic Review/NMA | Lancet | Cardiometabolic and physiological effects across antidepressants |
-| [39072578](https://pubmed.ncbi.nlm.nih.gov/39072578/) | 2024 | Review | Zh Nevrol Psikhiatr | General antidepressant selection guidance, explicitly mentions "neurotic disorder" as a treatment target |
-| [23484857](https://pubmed.ncbi.nlm.nih.gov/23484857/) | 2013 | Review | Expert Opin Investig Drugs | Mechanistic review linking melatonin/circadian disruption to depressive disorder |
+Vain sijoitukset 4, 5 ja 7 (melankoolia, neuroottinen masennus, dystyminen häiriö) — sekä heikompien perusteella sijoitukset 2 ja 3 (agorafoobia, neuroottinen häiriö) — joilla on mitään kirjallisuustukea lainkaan. Sijoituksilla 1, 6, 8, 9 ja 10 ei ole kliinisiä tutkimuksia, ei ICTRP-tietoja, eikä kirjallisuusosumia tässä todistepaketeissa; niitä käsitellään tässä heikkona mallin artefakteina pikemminkin kuin aidoina lääkkeiden uudelleenkäyttöehdokkaina.
 
 ---
 
-## Finland Market Information
+## Miksi tämä ennuste on järkevä?
 
-Agomelatine is **not currently marketed in Finland** (0 authorizations recorded). No Fimea license records are available in this evidence pack, so authorization numbers, product names, dosage forms, and approved indication text cannot be presented.
+Yksityiskohtaiset rakenteelliset toimintamekanismin tiedot DrugBankista ovat dokumentoituja tietovajeet (DG002) tässä paketeissa. Hakemuksissa saatujen kirjallisuuden perusteella agomelataina kuvataan jatkuvasti melatoniinergisena MT1/MT2-reseptorin agonistina yhdistettynä 5-HT2C:n (ja 5-HT2B:n) serotoniini-reseptorin antagonismiin — mekanismi, joka normalisoi häiriintyneitä sirkadian rytmejä samalla tehostamalla dopamiiinin ja noradrenaliinin vapautumista aivojen otsalohkon aivokuoressa, mikä erottaa sen klassisista monoamiinergisista masennuslääkkeistä (PMID 19777735, 23484857, 32568567, 30759026).
 
----
+Melankoolia, neuroottinen masennus ja dystyminen häiriö eivät ole mekaanisesti todellisia eri sairauksia — ne ovat historiallisia tai nosologisia alatyyppejä ja lähes synonyymejä, jotka sijaitsevat samassa masennushäiriön spektrissa kuin agomelatiiniksen oma hyväksytty indikaatio. Heidän mekaaninen uskottavuus on siten korkea, mutta tämä tarkoittaa myös, että "lääkkeen uudelleenkäyttö" -signaali tässä on suurelta osin nimeämisen/ontologian päällekkäisyys pikemminkin kuin todellinen laajeneminen liittymättömälle sairauden alueelle. Agorafoobia ja neuroottinen häiriö ovat epäsuoremmissa: niitä esiintyy usein yhdessä masennuksen kanssa, joten hyöty voisi uskottavasti syntyä agomelatiiniksen masennuslääkkeen/ahdistuksenvähentäjän läheisen vaikutuksesta, mutta kummallakaan ei ole kirjallisuutta, joka tutkisi lääkettä kyseisessä populaatiossa suoraan — yksittäinen agorafoobiaan liittyvä sitaatti (PMID 21183900) itse asiassa tutkii valdoksanin vastauksen ennustajia keskivaikeassa masennuksessa, ei agorafoobiassa.
 
-## Safety Considerations
-
-Please refer to the package insert for safety information. All safety fields in this evidence pack (key warnings, contraindications, drug interactions) are data gaps — no Fimea/TFDA package insert data was retrievable. Note that this gap (DG001) is flagged as **Blocking** severity in the source data, meaning this candidate cannot yet proceed to a formal S1 safety review.
+Sitä vastoin viisi harvinaisen sairauden/geneettisen oireyhtymän ennustetta (vauvojen hyvänlaatuinen paroksysmaalinen torticollis, Ohdoon oireyhtymä ja sen variantit, ligneosus konjunktivitis, Keppen-Lubinsky-oireyhtymä), joilla ei ole tunnistettavaa mekanistista linkkiä melatoniinergiseen/serotoniinergiseen farmakologiaan ja joilla ei ole mitään tukevaa kirjallisuutta tai tutkimuksia lainkaan — nämä tulkitaan parhaiten tietokannan läheisyyden artefakteiksi pikemminkin kuin uskottaviksi lääkkeiden uudelleenkäyttöehdokkaiksi.
 
 ---
 
-## Conclusion and Next Steps
+## Kliinisen tutkimuksen todisteet
 
-**Decision: Hold**
+Tällä hetkellä ei ole liittyneitä kliinisiä tutkimuksia rekisteröitynä. Kaikissa 10 ennustetusta indikaatiosta sekä ClinicalTrials.gov että ICTRP-kyselyt antoivat nolla tuloksia (vahvistettu jokaisen testatun taudiparin kyselylokeissa).
 
-**Rationale:**
-- A blocking data gap (DG001: no Fimea/TFDA package insert or safety data) prevents even an initial S1 safety screen, regardless of how promising the efficacy signal looks.
-- The best-supported candidates (melancholia, neurotic depression, dysthymic disorder) reach only L2–L3 evidence and Research Question status — they rely on class-level antidepressant literature rather than indication-specific trials, and largely overlap in nomenclature with agomelatine's existing depression indication rather than representing a genuinely novel disease area.
-- Five of the ten top-ranked predictions have no supporting evidence whatsoever and should be deprioritized as likely model noise.
+---
 
-**To proceed, the following is needed:**
-- Resolve DG001 (Fimea/TFDA package insert — warnings, contraindications, DDI) before any safety-stage review can begin.
-- Resolve DG002 (formal DrugBank mechanism-of-action record) to properly validate the mechanistic rationale currently based only on literature.
-- If pursuing the depressive/neurotic-spectrum cluster, clarify with clinical/regulatory experts whether melancholia, neurotic depression, and dysthymic disorder represent a genuinely distinct labeling opportunity versus overlap with the existing MDD indication.
-- Drop or deprioritize the five zero-evidence predictions (benign paroxysmal torticollis of infancy, Ohdo syndrome and variants, ligneous conjunctivitis, blepharophimosis–ID syndrome Ohdo type, Keppen-Lubinsky syndrome) pending any future contradicting evidence.
+## Kirjallisuuden todisteet
+
+Alla oleva taulukko konsolidoi ja deduplikoi kirjallisuuden viiden todistetun indikaation poikki (agorafoobia, neuroottinen häiriö, melankoolia, neuroottinen masennus, dystyminen häiriö), prioritisoimalla meta-analyysit/RCT-tasoiset ja agomelatiiniksikohtaiset todisteet sekä näyttämällä top 10 tunnistetusta 28 ainutlaatuisesta julkaisusta.
+
+| PMID | Vuosi | Tyyppi | Julkaisu | Tärkeimmät löydökset |
+|------|-------|--------|----------|----------------------|
+| [29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/) | 2018 | Verkon meta-analyysi (RCT:t) | Lancet | Vertaa 21 masennuslääkkeen (mukaan lukien agomelatiin) tehokkuutta ja hyväksyttävyyttä akuutissa MDD-hoidossa; luokkatasoinen todistusaineisto, jotka ovat merkityksellisiä melankoolialle/neuroottiselle masennukselle |
+| [39684343](https://pubmed.ncbi.nlm.nih.gov/39684343/) | 2024 | Systemaattinen katsaus/Meta-analyysi (agomelatiiniksikohtainen) | Int J Mol Sci | Agomelatiiniksen tehokkuus ja turvallisuus masennusilla potilailla, joilla on samanaikainen diabetes |
+| [21527126](https://pubmed.ncbi.nlm.nih.gov/21527126/) | 2011 | Meta-analyysi (plaseboon verratut RCT:t, luokkatasoisesti) | J Clin Psychiatry | Masennuslääkkeen tehokkuus erityisesti dystymisissa häiriöissä vs. MDD — eniten sairauskohtaisia todistusteita sarjassa |
+| [36253442](https://pubmed.ncbi.nlm.nih.gov/36253442/) | 2023 | Systemaattinen katsaus/NMA | Molecular Psychiatry | Masennuslääkkeen tehokkuus/turvallisuus MDD-ylläpitovaiheessa |
+| [25911132](https://pubmed.ncbi.nlm.nih.gov/25911132/) | 2015 | Systemaattinen katsaus (RCT-annosekvivalenssi) | J Affect Disord | Masennuslääkkeiden annosekvivalenssi satunnaistetuista tutkimuksista |
+| [32568567](https://pubmed.ncbi.nlm.nih.gov/32568567/) | 2020 | Katsaus (agomelatiiniksikohtainen) | Expert Opin Drug Discov | Agomelatiiniksen prekliininen löytö ja kehitys masennusta varten |
+| [21183900](https://pubmed.ncbi.nlm.nih.gov/21183900/) | 2010 | Kohortti/Observatiivinen (post hoc ennusteanalyysi) | Zh Nevrol Psikhiatr | Kliiniset vastauksen ennustajat valdoksanille (agomelatiin) keskivaikeassa/vakavassa masennuksessa — siteerattu agorafoobia-todistusaineistona, mutta ei sairauskohteinen |
+| [41135546](https://pubmed.ncbi.nlm.nih.gov/41135546/) | 2025 | Systemaattinen katsaus/NMA | Lancet | Kardiometaboliset ja fysiologiset vaikutukset masennuslääkkeiden poikki |
+| [39072578](https://pubmed.ncbi.nlm.nih.gov/39072578/) | 2024 | Katsaus | Zh Nevrol Psikhiatr | Yleinen masennuslääkkeiden valinnan opas, mainitsee erityisesti "neuroottisen häiriön" hoitokohteena |
+| [23484857](https://pubmed.ncbi.nlm.nih.gov/23484857/) | 2013 | Katsaus | Expert Opin Investig Drugs | Mekaaninen katsaus, joka yhdistää melatoniinin/sirkadianisen häiriön masennushäiriöihin |
+
+---
+
+## Suomen markkinatiedot
+
+Agomelatiin **ei tällä hetkellä markkinoida Suomessa** (0 lupaa tallennettu). Mitään Fimea-lisenssin tietueita ei ole saatavilla tässä todistepaketeissa, joten luvitusnumerot, tuotenimikkeet, annosmuodot ja hyväksytyn indikaation teksti eivät ole esitettävissä.
+
+---
+
+## Turvallisuushuomiot
+
+Tutustu pakkausselosteeseen turvallisuustiedoista. Kaikki turvallisuuskentät tässä todistepaketeissa (päävaroitukset, vasta-aiheet, lääkeinteraktiot) ovat tietovajeet — mitään Fimea/TFDA-pakkausselosteen tai turvallisuustietoja ei ollut haettavissa. Huomaa, että tämä vaaje (DG001) on merkitty **blokkavaksi** vakavuustasoksi lähdetiedoissa, mikä tarkoittaa, että tämä kandidaatti ei voi vielä siirtyä muodolliseen S1-turvallisuusseulontaan.
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Odota**
+
+**Perustelut:**
+- Blokkausosana tietovaaje (DG001: ei Fimea/TFDA-pakkausselosetta tai turvallisuustietoja) estää jopa alkuperäisen S1-turvallisuusseulonnan riippumatta siitä, kuinka lupaava tehokkuussignaali näyttää.
+- Parhaiten tuetut kandidaatit (melankoolia, neuroottinen masennus, dystyminen häiriö) saavuttavat vain L2–L3-todisteet ja tutkimuskysymys-aseman — ne perustuvat luokkatasoisen masennuslääkkeen kirjallisuuteen pikemminkin kuin indikaatiokohtaisiin tutkimuksiin, ja suurelta osin päällekkäisiä agomelatiiniksen olemassa olevan masennusindikation kanssa pikemminkin kuin edustamalla todellisesti uutta sairauden aluetta.
+- Viisi kymmenestä parhaiten rangatuista ennusteista ei ole mitään tukitodistetta ja niihin olisi puututtava heikkona mallin kohinana.
+
+**Edetäkseen tarvitaan seuraavaa:**
+- Ratkaise DG001 (Fimea/TFDA-pakkausseloste — varoitukset, vasta-aiheet, lääkeinteraktiot) ennen kuin mikään turvallisuusvaihe arviointia voidaan aloittaa.
+- Ratkaise DG002 (muodollinen DrugBank-toimintamekanismin tietue) validoidakseen mekaanisen perustelun, joka tällä hetkellä perustuu vain kirjallisuuteen.
+- Mikäli tavoitteena on depressiivisen/neuroottisen spektrin klusterin tarkasteleminen, selkeytetään kliinisten/sääntelyllisten asiantuntijoiden kanssa, edustavatko melankoolia, neuroottinen masennus ja dystyminen häiriö todellisesti eri merkintämahdollisuutta vai päällekkäisyyttä olemassa olevan MDD-indikation kanssa.
+- Pudota tai vähennä priorisointia viidestä nolla-todiste-ennusteesta (vauvojen hyvänlaatuinen paroksysmaalinen torticollis, Ohdoon oireyhtymä ja variantit, ligneosus konjunktivitis, blefarofimoosin–älyllisen vamman oireyhtymä Ohdoon tyyppi, Keppen-Lubinsky-oireyhtymä) kunnes tulevaisuudessa esiintyy mitään ristiriitaisia todistusteita vastaan.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -29,88 +29,89 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Alirocumab: From Hypercholesterolemia to Cholesterol Catabolic Process Disease
+# Alirokumabi: Hyperkolesterolemiaasta kolesterolin kataboliseen prosessin sairauteen
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Alirocumab is a PCSK9-inhibitor monoclonal antibody originally used to lower LDL cholesterol and reduce cardiovascular risk in patients with hypercholesterolemia. The TxGNN model predicts it may also be effective for **Cholesterol Catabolic Process Disease** (a category that includes homozygous familial hypercholesterolemia, HoFH), with **1 completed Phase 3-related clinical trial** and **19 publications** currently supporting this direction. This candidate is essentially an extension of alirocumab's core mechanism rather than a mechanistic leap, which is reflected in its unusually strong evidence base compared with the drug's other predicted indications.
+Alirokumabi on PCSK9-inhibiittori monoklonaalinen vasta-aine, jota alun perin käytetään LDL-kolesteriinin alentamiseen ja sydän- ja verisuonisairauksien riskin vähentämiseen hyperkolesterolemian potilailla. TxGNN-malli ennustaa, että se saattaa olla tehokas myös **Cholesterol Catabolic Process Disease** -sairaudelle (kategoria, joka sisältää homozygottisen familiarisen hyperkolesterolemian, HoFH), ja sille on saatavilla **1 valmistunut Phase 3 -suhteinen kliininen tutkimus** sekä **19 julkaisua**, jotka tukevat tätä suuntaa. Tämä kandidaatti on pohjimmiltaan alirokumabbin ydinmekanismin jatke eikä mekanistinen harppaus, mikä näkyy sen poikkeuksellisen vahvasta näyttöpohjasta verrattuna lääkkeen muihin ennustettuihin indikaatioihin.
 
 ---
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Hypercholesterolemia / ASCVD risk reduction (PCSK9 inhibition) — *official approved-label text unavailable; see Data Gap note below* |
-| Predicted New Indication | Cholesterol Catabolic Process Disease (incl. homozygous familial hypercholesterolemia) |
-| TxGNN Prediction Score | 99.36% |
-| Evidence Level | L1 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Alkuperäinen indikaatio | Hyperkolesterolemia / sydän- ja verisuonisairauksien riskin vähentäminen (PCSK9:n esto) — *virallisen hyväksynnän teksti ei ole saatavilla; katso tietoaukko-huomio alla* |
+| Ennustettu uusi indikaatio | Cholesterol Catabolic Process Disease (sisältää homozygottisen familiarisen hyperkolesterolemian) |
+| TxGNN-ennusteen pistemäärä | 99.36% |
+| Näytön taso | L1 |
+| Suomen markkina-asema | ✗ Ei markkinoilla |
+| Lupamääräysten lukumäärä | 0 |
+| Suositeltu päätös | Jatka varauksilla |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on perusteltu?
 
-Formal DrugBank mechanism-of-action text is currently a data gap for this record. Based on the literature evidence collected in this pack, alirocumab is a human monoclonal antibody that binds circulating PCSK9 (proprotein convertase subtilisin/kexin type 9), preventing it from binding to the hepatic LDL receptor (LDLR). By blocking PCSK9-mediated LDLR degradation, more LDLR is recycled to the hepatocyte surface, increasing clearance of LDL cholesterol from the blood (PMID 39947256, 38185721).
+Virallinen DrugBank vaikutusmekanismi -teksti on tällä hetkellä tietoaukko tälle tietueelle. Tässä paketissa kerätyn kirjallisuuden näytön perusteella alirokumabi on ihmisen monoklonaalinen vasta-aine, joka sitoutuu verenkierron PCSK9:ään (proproteinaasi konvertaasi subtilisiiniksi/keksinimuotoiseksi tyypiksi 9) ja estää sen sitoutumisen maksaan LDLR:ään (LDL-reseptori). Estämällä PCSK9:n välittämää LDLR:n hajoamista enemmän LDLR:ää kierrätetään hepatosyytin pinnalle, mikä lisää veresta LDL-kolesteriinin selvittämistä (PMID 39947256, 38185721).
 
-The predicted new indication, "cholesterol catabolic process disease," is not a distant or speculative target — it describes disorders of cholesterol handling and clearance, including homozygous familial hypercholesterolemia (HoFH), a condition defined by severely impaired LDLR function. Since alirocumab's entire pharmacology is built around enhancing LDLR-mediated clearance, this indication sits directly on-mechanism rather than requiring a novel biological hypothesis. This is consistent with why the evidence level here (L1) is far stronger than for the drug's other TxGNN-ranked candidates (e.g., ichthyosis, xanthomatosis, or diaphyseal dysplasia), which involve mechanistically unrelated or indirect graph connections.
+Ennustettu uusi indikaatio, "kolesterolin katabolisen prosessin sairaus", ei ole kaukaa haettu tai spekulatiivinen kohde — se kuvaa kolesteriinin käsittelyn ja selvittämisen häiriöitä, mukaan lukien homozygottinen familiaarinen hyperkolesterolemia (HoFH), sairaus, jota määrittelee vaikeasti heikentynyt LDLR:n toiminta. Koska alirokumabbin koko farmakologia perustuu LDLR:n välittämän selvittämisen parantamiseen, tämä indikaatio sijaitsee suoraan mekanismilla eikä vaadi uutta biologista hypoteesia. Tämä on johdonmukainen sen kanssa, miksi näytön taso täällä (L1) on paljon vahvempi kuin lääkkeen muille TxGNN-ennustetuille indikaatioille (esim. ihtyyoosi, ksantomatoosi tai diafyysinen dyspasia), jotka sisältävät mekanistisesti liittymättömiä tai epäsuoria graafisen yhteyden.
 
-Supporting this, the literature base includes both dedicated HoFH treatment reviews (PMID 39751968) and large-scale, long-term safety data from the ODYSSEY OUTCOMES program (47,296 patient-years, PMID 38658193), indicating that the drug-disease relationship is already well characterized in real-world and controlled settings, even though it has not been evaluated here as a de novo "new indication" trial.
+Tämä tukee, että kirjallisuusperusta sisältää sekä dedikoidut HoFH-hoito-arviot (PMID 39751968) että suuret, pitkäaikaiset turvallisuustiedot ODYSSEY OUTCOMES -ohjelmasta (47,296 potilaan-vuotta, PMID 38658193), mikä osoittaa, että lääke-sairaus -suhde on jo hyvin karakterisoitu todellisen maailman ja kontrolloiduissa asetuksissa, vaikka sitä ei ole arvioitu täällä de novo "uuden indikaation" tutkimuksena.
 
 ---
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimusnumero | Vaihe | Tila | Rekrytointi | Keskeisiä löydöksiä |
 |---------|------|------|------|---------|
-| [NCT03207945](https://clinicaltrials.gov/study/NCT03207945) | Phase 3 | Completed | 118 | EPIC-HIV study: evaluated PCSK9 inhibition's effect on cardiovascular risk and atherosclerotic plaque in HIV-infected patients with dyslipidemia; directly tests PCSK9 inhibition's impact on cholesterol-metabolism-related cardiovascular outcomes. |
+| [NCT03207945](https://clinicaltrials.gov/study/NCT03207945) | Phase 3 | Valmistunut | 118 | EPIC-HIV -tutkimus: arvioi PCSK9:n estotyön vaikutusta sydän- ja verisuonisairauksien riskiin ja aterosklerootiseen plaakkiin HIV-positiivisilla dyslipideemiapotilailla; testaa suoraan PCSK9:n estotyön vaikutusta kolesteriinin metaboliaan liittyviin kardiovaskularisiin tuloksiin. |
 
 ---
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeisiä löydöksiä |
 |------|-----|------|------|---------|
-| [39751968](https://pubmed.ncbi.nlm.nih.gov/39751968/) | 2025 | Review | Current Atherosclerosis Reports | Reviews novel pharmacological therapies, including PCSK9 inhibitors, for homozygous familial hypercholesterolemia (HoFH). |
-| [36739653](https://pubmed.ncbi.nlm.nih.gov/36739653/) | 2023 | Review (RCT synthesis) | Kardiologia Polska | Synthesizes evidence on PCSK9 inhibitors' impact on lipid parameters and cardiovascular event reduction. |
-| [38658193](https://pubmed.ncbi.nlm.nih.gov/38658193/) | 2024 | Safety/Observational | European Heart Journal - Cardiovascular Pharmacotherapy | Alirocumab safety analysis from ODYSSEY OUTCOMES, covering 47,296 patient-years of observation. |
-| [39913634](https://pubmed.ncbi.nlm.nih.gov/39913634/) | 2025 | Post hoc RCT analysis | Diabetes Care | ODYSSEY OUTCOMES post hoc analysis of alirocumab's effect on lipoprotein(a), LDL-C, and diabetes risk. |
-| [38185721](https://pubmed.ncbi.nlm.nih.gov/38185721/) | 2024 | Review | Signal Transduction and Targeted Therapy | Comprehensive review of PCSK9 biology and its therapeutic targeting across lipid and non-lipid diseases. |
-| [38277255](https://pubmed.ncbi.nlm.nih.gov/38277255/) | 2024 | Review | Current Opinion in Lipidology | Update on PCSK9-directed therapies and their differing mechanisms of action. |
-| [36422206](https://pubmed.ncbi.nlm.nih.gov/36422206/) | 2022 | Review | Medicina (Kaunas) | Reviews diagnostics and treatment of familial hypercholesterolemia, including PCSK9-targeted options. |
-| [39679827](https://pubmed.ncbi.nlm.nih.gov/39679827/) | 2025 | Review | Pharmacotherapy | State-of-the-art review of current and emerging PCSK9-directed therapies for ASCVD risk reduction. |
-| [39947256](https://pubmed.ncbi.nlm.nih.gov/39947256/) | 2025 | Review (mechanism) | Pharmacology & Therapeutics | Compares intracellular vs. extracellular PCSK9-targeting strategies, discussing alirocumab specifically. |
-| [37686091](https://pubmed.ncbi.nlm.nih.gov/37686091/) | 2023 | Review | International Journal of Molecular Sciences | Reviews current dyslipidemia treatment approaches, including PCSK9 inhibition. |
+| [39751968](https://pubmed.ncbi.nlm.nih.gov/39751968/) | 2025 | Katsaus | Current Atherosclerosis Reports | Tarkastelee uusia farmakologisia hoitoja, mukaan lukien PCSK9-inhibiittorit, homozygottiseen familiariseen hyperkolesterolemiaan (HoFH). |
+| [36739653](https://pubmed.ncbi.nlm.nih.gov/36739653/) | 2023 | Katsaus (RCT-synteesi) | Kardiologia Polska | Syntetisoi näyttöä PCSK9-inhibiittorien vaikutuksesta lipidiparametreihin ja kardiovaskulaaristen tapahtumien vähentämiseen. |
+| [38658193](https://pubmed.ncbi.nlm.nih.gov/38658193/) | 2024 | Turvallisuus/Observaatiotutkimus | European Heart Journal - Cardiovascular Pharmacotherapy | Alirokumabbin turvallisuusanalyysi ODYSSEY OUTCOMES -ohjelmasta, kattaen 47,296 potilaan-vuotta havainnointia. |
+| [39913634](https://pubmed.ncbi.nlm.nih.gov/39913634/) | 2025 | Post hoc RCT-analyysi | Diabetes Care | ODYSSEY OUTCOMES post hoc -analyysi alirokumabbin vaikutuksesta lipoproteini(a):lle, LDL-C:lle ja diabeteksen riskille. |
+| [38185721](https://pubmed.ncbi.nlm.nih.gov/38185721/) | 2024 | Katsaus | Signal Transduction and Targeted Therapy | Kattava katsaus PCSK9-biologiasta ja sen terapeuttisesta kohdentamisesta lipidi- ja ei-lipidisairauksissa. |
+| [38277255](https://pubmed.ncbi.nlm.nih.gov/38277255/) | 2024 | Katsaus | Current Opinion in Lipidology | Päivitys PCSK9:n suhteen kohdennetuista terapioista ja niiden erilaisista vaikutusmekanismeista. |
+| [36422206](https://pubmed.ncbi.nlm.nih.gov/36422206/) | 2022 | Katsaus | Medicina (Kaunas) | Tarkastelee familiarisen hyperkolesterolemian diagnostiikkaa ja hoitoa, mukaan lukien PCSK9:n kohdentavat vaihtoehdot. |
+| [39679827](https://pubmed.ncbi.nlm.nih.gov/39679827/) | 2025 | Katsaus | Pharmacotherapy | Tämänhetkinen katsaus nykyisistä ja nousevista PCSK9:n suhteen kohdennetuista terapioista sydän- ja verisuonisairauksien riskin vähentämiseksi. |
+| [39947256](https://pubmed.ncbi.nlm.nih.gov/39947256/) | 2025 | Katsaus (mekanismi) | Pharmacology & Therapeutics | Vertaa solunsisäisen vs. solunulkoisen PCSK9:n kohdentamisstrategioita, käsittelee alirokumabbia erityisesti. |
+| [37686091](https://pubmed.ncbi.nlm.nih.gov/37686091/) | 2023 | Katsaus | International Journal of Molecular Sciences | Tarkastelee nykyisiä dyslipideemian hoitomenetelmiä, mukaan lukien PCSK9-esto. |
 
 ---
 
-## Finland Market Information
+## Suomen markkina-informaatio
 
-Currently no marketing authorization records are available for Alirocumab in Finland (market status: **Not Marketed**, 0 authorizations on file).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. No structured warnings, contraindications, or drug-interaction data are currently available for this record — notably, the official TFDA/Fimea package insert (warnings and contraindications) has not yet been retrieved, which is flagged as a **Blocking** data gap and prevents this candidate from completing formal safety pre-assessment (S1) at the drug level.
+Tällä hetkellä alirokumabille ei ole saatavilla myyntilupaa koskevaa tietoa Suomessa (markkina-asema: **Ei markkinoilla**, tiedostossa on 0 valtuutusta).
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuusnäkökohdat
 
-**Decision: Proceed with Guardrails**
+Turvallisuustietoja saatavilla pakkausselosteesta. Tälle tietueelle ei ole tällä hetkellä saatavilla jäsenneltyjä varoituksia, vasta-aiheita tai lääkkeen yhteisvaikutustietoja — erityisesti virallista TFDA/Fimea-pakkausselostetta (varoitukset ja vasta-aiheet) ei ole vielä haettu, mikä on merkitty Estäviksi tietoaukoksi ja estää tätä ehdokasta saattamasta loppuun lääkintöturvallisuuden esiarviointia (S1) lääkkeen tasolla.
 
-**Rationale:**
-The predicted indication is mechanistically well-aligned with alirocumab's established pharmacology (PCSK9 inhibition → LDLR-mediated cholesterol clearance), and is supported by a completed Phase 3-related trial plus a substantial literature base, including long-term safety data from ODYSSEY OUTCOMES. However, the drug-level safety review remains blocked by a missing official package insert, so guardrails are required before any further action.
+---
 
-**To proceed, the following is needed:**
-- Retrieve the official TFDA/Fimea package insert (warnings, contraindications) — currently a Blocking data gap (DG001)
-- Obtain formal DrugBank mechanism-of-action documentation to replace the current data gap (DG002)
-- Clarify whether "cholesterol catabolic process disease" as scored by TxGNN maps to a genuinely new indication or substantially overlaps with alirocumab's existing approved use in HoFH/hypercholesterolemia
-- Confirm route-of-administration compatibility for the target population (currently marked "pending")
-- Note: other TxGNN-predicted indications for this drug (e.g., xanthomatosis, ichthyosis, diaphyseal dysplasia) carry only L4–L5 evidence and remain on **Hold** pending stronger mechanistic or clinical support; they are not part of this recommendation.
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Jatka varauksilla**
+
+**Perustelut:**
+Ennustettu indikaatio on mekanistisesti hyvin sopusoinnussa alirokumabbin vakiintuneen farmakologian kanssa (PCSK9:n esto → LDLR:n välittämä kolesteriinin selvittäminen), ja sitä tukevat valmistunut Phase 3 -suhteinen tutkimus sekä merkittävä kirjallisuusperusta, mukaan lukien pitkäaikaiset turvallisuustiedot ODYSSEY OUTCOMES -ohjelmasta. Lääkkeen turvallisuusarvio jää kuitenkin estoon puuttuvan virallisen pakkausselosteen vuoksi, joten varauksilla on oltava ennen jatkotoimia.
+
+**Edistymiseksi tarvitaan seuraavaa:**
+- Hae virallinen TFDA/Fimea-pakkausseloste (varoitukset, vasta-aiheet) — tällä hetkellä estävä tietoaukko (DG001)
+- Hanki virallinen DrugBank vaikutusmekanismi -dokumentaatio korvaamaan nykyisen tietoaukon (DG002)
+- Selvitä, vastaako "kolesterolin katabolisen prosessin sairaus" TxGNN:n arvioimana todella uutta indikaatiota vai päällekkäin merkittävästi alirokumabbin nykyisen hyväksynnän kanssa HoFH/hyperkolesterolemialle
+- Vahvista antoreitin yhteensopivuus kohdeväestölle (tällä hetkellä merkitty "vireillä")
+- Huomio: muut tämän lääkkeen TxGNN-ennustamat indikaatiot (esim. ksantomatoosi, ihtyyoosi, diafyysinen dyspasia) sisältävät vain L4–L5 -näyttöä ja jäävät **Odotukseen** vahvemman mekanistisen tai kliinisen tuen odotuksella; ne eivät ole osa tätä suositusta.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

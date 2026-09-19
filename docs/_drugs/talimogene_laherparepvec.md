@@ -29,68 +29,69 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **7** kpl
 
 </div>
 
-# Talimogene Laherparepvec: From Unresectable Cutaneous Melanoma to CMM7 (Cutaneous Malignant Melanoma Locus)
+# Talimogene laherparepvec: Resektoimattomasta kutaanisesta melanoomasta CMM7:ään (Kutaaninen pahanlaatuinen melanooma -lokus)
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Talimogene laherparepvec (T-VEC) is a GM-CSF-armed, ICP34.5/ICP47-deleted HSV-1 oncolytic virus originally developed for unresectable cutaneous, subcutaneous and nodal melanoma lesions. The TxGNN model's top prediction, **CMM7** (a cutaneous malignant melanoma susceptibility locus), scores **99.20%** but is currently backed by **0 clinical trials** and **0 publications** in this evidence pack. Because "CMM7" essentially names the same disease class the drug is already known to be approved for elsewhere, this candidate reads more as a data-gap artifact than a genuine new indication — the registry shows the drug as "not marketed" and lists no original indication, which conflicts with T-VEC's known real-world approval (Imlygic) and should be reconciled before any decision is finalized.
+Talimogene laherparepvec (T-VEC) on GM-CSF-aseistettu, ICP34.5/ICP47-deleetio-HSV-1-onkolyyttinen virus, joka on alun perin kehitetty resektoimattomiin kutaanisiin, subkutaanisiin ja solmukkeiden melanoomaalesioihin. TxGNN-mallin parhaan ennusteen, **CMM7**:n (kutaaninen pahanlaatuinen melanooma-alttiuden lokus), pistemäärä on **99.20%**, mutta sitä tukee tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua** tässä näyttöpaketissa. Koska "CMM7" on pohjimmiltaan sama tautikategoria, jolle lääke tunnetaan jo hyväksynnytyksi muualla, tämä ehdokas näyttää enemmän data-aukko-artefaktilta kuin todelliselta uudelta indikaatiolta — rekisteri osoittaa lääkkeen olevan "ei markkinoilla" eikä luettele alkuperäistä indikaatiota, mikä on ristiriidassa T-VEC:n tunnetun todellisen maailman hyväksynnän (Imlygic) kanssa ja tulisi ratkaista ennen lopullisen päätöksen tekemistä.
 
-## Quick Overview
+## Pikanäkymä
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available in this registry (market status shows "not marketed," no license text) — known global approved use is unresectable cutaneous/subcutaneous/nodal melanoma; this is a data gap needing reconciliation |
-| Predicted New Indication | CMM7 (Cutaneous Malignant Melanoma, locus nomenclature) |
-| TxGNN Prediction Score | 99.20% |
-| Evidence Level | L4 (mechanism-based reasoning only; no supporting trials or literature) |
-| Finland Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Ei saatavilla tässä rekisterissä (markkinatilanne osoittaa "ei markkinoilla", ei lisenssitekstiä) — tunnettu maailmanlaajuinen hyväksytty käyttö on resektoimaton kutaaninen/subkutaaninen/solmuke-melanooma; tämä on data-aukko, joka vaatii selvitystä |
+| Ennustettu uusi indikaatio | CMM7 (kutaaninen pahanlaatuinen melanooma, lokus-nimikkeistö) |
+| TxGNN:n ennustepistemäärä | 99.20% |
+| Näyttötaso | L4 (vain mekanismi-pohjainen päättely; ei tukevia tutkimuksia tai kirjallisuutta) |
+| Suomen markkinatilanne | ✗ Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Odotus |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Detailed mechanism-of-action data is not populated in this record, but the repurposing rationale supplied with the prediction describes it: T-VEC is a GM-CSF-modified HSV-1 oncolytic virus (ICP34.5/ICP47-deleted) that, upon intratumoral injection, selectively lyses tumor cells and triggers a systemic anti-tumor immune response.
+Yksityiskohtaisia vaikutusmekanismi-dataa ei ole täytetty tähän tietueeseen, mutta ennusteen mukana toimitettu uudelleenkäyttöperustelu kuvailee sitä: T-VEC on GM-CSF-muokattu, HSV-1-onkolyyttinen virus (ICP34.5/ICP47-deleetio), joka tumorin sisäisellä injektiolla selektiivisesti hajottaa syöpäsoluja ja laukaisee systeemisen vasta-syöpä-immuunivasteen.
 
-CMM ("Cutaneous Malignant Melanoma") is a gene-locus naming convention for melanoma susceptibility, and it overlaps almost completely with T-VEC's known approved indication — unresectable cutaneous, subcutaneous, and lymph-node melanoma lesions. In other words, the model is not proposing a mechanistically novel indication so much as re-identifying the drug's existing disease class under a different name.
+CMM ("Cutaneous Malignant Melanoma" - kutaaninen pahanlaatuinen melanooma) on geenilokkoon perustuva nimeämiskonventio melanooma-alttiudelle, ja se vastaa lähes täydellisesti T-VEC:n tunnetun hyväksytyn indikaation kanssa — resektoimattomat kutaaniset, subkutaaniset ja imusolmuke-melanoomaalesiot. Toisin sanoen malli ei ehdota mekanistisesti uutta indikaatiota, vaan pikemminkin tunnistaa lääkkeen olemassa olevan tautikategorian uudella nimellä.
 
-The evidence pack itself flags this: `original_indications` is empty and market status is "not marketed," which contradicts the well-established approval of Imlygic (T-VEC) for melanoma. This is judged to be a data-completeness gap in the source registry rather than a mechanistic failure — the underlying biology strongly supports the link, but the administrative record needs correction before this can be treated as an actionable "new" indication.
+Näyttöpaketti itse mainitsee tämän: `original_indications` on tyhjä ja markkinatilanne on "ei markkinoilla", mikä on ristiriidassa Imlygicin (T-VEC) hyvin vakiintuneen hyväksynnän kanssa melanooman hoitoon. Tämä katsotaan olevan lähderekisterin data-täydellisyyden aukko pikemminkin kuin mekanistinen epäonnistuminen — taustalla oleva biologia vahvasti tukee yhteyttä, mutta hallinnollinen tietue vaatii korjausta ennen kuin sitä voidaan käsitellä käytäntöön otettavaksi "uudeksi" indikaatioksi.
 
-## Clinical Trial Evidence
+## Kliiniset tutkimusnäytteet
 
-Currently no related clinical trials registered.
+Tällä hetkellä ei ole rekisteröityjä siihen liittyviä kliinisiä tutkimuksia.
 
-## Literature Evidence
+## Kirjallisuusnäytteet
 
-Currently no related literature available.
+Tällä hetkellä ei ole saatavilla siihen liittyvää kirjallisuutta.
 
-## Safety Considerations
+## Turvallisuusseikat
 
-Please refer to the package insert for safety information.
+Katso turvallisuustiedot pakkausselosteesta.
 
-## Cytotoxicity
+## Sytostaattinen vaikutus
 
-*(Included because T-VEC targets melanoma and is administered as an oncolytic viral immunotherapy for cancer.)*
+*(Sisällytetty, koska T-VEC kohdistuu melanoomaan ja sitä annetaan onkolyyttisena viraalisen immunoterapiana syövän hoitoon.)*
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Immunotherapy (oncolytic virus therapy) — not a conventional cytotoxic chemotherapeutic |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions (live, replication-competent virus — biosafety handling precautions for injection preparation and disposal are typically required for this drug class) |
+| Kohta | Sisältö |
+|------|---------|
+| Sytostaattinen luokitus | Immunoterapia (onkolyyttinen virusterapia) — ei tavanomainen sytostaattinen kemoterapia |
+| Luuydinsuppression riski | Katso pakkausseloste varoituksista ja varotoimista |
+| Emetogenisuusluokitus | Katso pakkausseloste varoituksista ja varotoimista |
+| Seurantakohteet | Katso pakkausseloste varoituksista ja varotoimista |
+| Käsittelysuojaus | Katso pakkausseloste varoituksista ja varotoimista (elävä, replikointikykyinen virus — bioturvallisuus-käsittelyvarotoimet injektiovalmistukselle ja jätehuoltoon vaaditaan tyypillisesti tälle lääkeryhmälle) |
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Odotus**
 
-**Rationale:**
-The predicted indication (CMM7) has zero supporting clinical trials or literature and the drug's own regulatory record (original indication, MOA, TFDA labeling) is incomplete — including a blocking gap on package-insert warnings/contraindications needed for any safety review. The lower-ranked candidates (pediatric leptomeningeal melanoma, uveal melanoma, and several non-melanoma carcinomas) score similarly high but were already assessed as Hold due to blood-brain-barrier, tissue-accessibility, or histology mismatches — reinforcing that TxGNN's score here is driven by lexical/knowledge-graph similarity to "melanoma" rather than validated new biology.
+**Perustelut:**
+Ennustetulla indikaatiolla (CMM7) ei ole tukevia kliinisiä tutkimuksia tai kirjallisuutta, ja lääkkeen oman sääntelytiedon (alkuperäinen indikaatio, vaikutusmekanismi, TFDA-merkintä) on epätäydellinen — mukaan lukien pakkauselosteen varoituksiin ja vasta-indikaatioihin liittyvä este-aukko, jota tarvitaan turvallisuuskatsaukseen. Alemman sijoituksen ehdokkaat (pediatrinen leptomeningaalinen melanooma, uvea-melanooma ja useita ei-melanoomasyöpiä) saavat samankaltaiset korkeat pisteet, mutta ne oli jo arvioitu Odotukseksi veri-aivoesteen, kudoksen saavutettavuuden tai histologian epäsopivuuden vuoksi — mikä vahvistaa, että TxGNN:n pistemäärä tässä johtuu leksikaalisesta tai tietoverkko-samankaltaisuudesta "melanooma"-termin kanssa pikemminkin kuin vahvistetusta uudesta biologiasta.
 
-**To proceed, the following is needed:**
-- Resolve the original-indication/market-status discrepancy by pulling the actual Imlygic (T-VEC) approval record (Fimea/EMA) to correct `original_indications` and `market_status`
-- Obtain the TFDA/EMA package insert for key warnings, contraindications, and DDI data (currently blocking safety review)
-- Retrieve confirmed mechanism-of-action documentation from DrugBank or the manufacturer label
-- If CMM7 is intended as a genuinely distinct target population, define it precisely and search for dedicated trials/literature under that specific term rather than relying on melanoma-adjacent scoring
+**Jotta voitaisiin edetä, seuraavaa vaaditaan:**
+- Ratkaise alkuperäisen indikaation ja markkinatilanteen ristiriita noutamalla todellinen Imlygicin (T-VEC) hyväksyntätietue (Fimea/EMA) `original_indications` ja `market_status` korjaamiseksi
+- Hanki TFDA/EMA:n pakkausseloste keskeisten varoitusten, vasta-indikaatioiden ja lääkkeiden välisten vuorovaikutusten (DDI) tietojen osalta (tällä hetkellä este turvallisuuskatsaukselle)
+- Hanki vahvistetut vaikutusmekanismi-dokumentit DrugBankista tai valmistajan selosteesta
+- Jos CMM7 on tarkoitettu todella erilliseksi tavoitepopulaatioksi, määritä se tarkasti ja etsi siihen liittyviä tutkimuksia ja kirjallisuutta kyseisen spesifisen termin perusteella eikä luottamalla melanoomaan perustuviin pisteisiin
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

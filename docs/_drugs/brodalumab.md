@@ -29,76 +29,77 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Brodalumab: From [Original Indication Not on File] to Strongyloidiasis (Flagged as a Safety Signal, Not a Confirmed Opportunity)
+# Brodalumab: kohteesta [Original Indication Not on File] Strongyloidiaasiin (merkitty turvavaroitukseksi, ei vahvistetuksi mahdollisuudeksi)
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Brodalumab is an anti-IL-17RA monoclonal antibody; the Evidence Pack contains no populated `original_indications` field, so its originally approved use cannot be sourced from this dataset. The TxGNN model's top-ranked "new indication," **Strongyloidiasis**, is supported by **0 clinical trials** and **0 publications**, and the model's own repurposing rationale states this association is *mechanistically inverted* — IL-17 signaling is protective against intestinal helminth infection, so blocking IL-17RA would be expected to **worsen**, not treat, strongyloidiasis. This candidate should be read as a possible pharmacovigilance signal, not a repurposing lead.
+Brodalumab on anti-IL-17RA-monoklonaalinen vasta-aine; Evidence Pack -paketti ei sisällä täytettyjä `original_indications`-kenttiä, joten sen alkuperäisen hyväksynnän käyttöindikaatiota ei voida jäljittää tässä tietojoukossa. TxGNN-mallin parhaiten sijoitettu "uusi indikaatio", **Strongyloidiasis**, on tuettu **0 kliinisellä tutkimuksella** ja **0 julkaisulla**, ja mallin omassa uudelleenkäyttöperustelossa todetaan, että tämä assosiaatio on *mekanistisesti käänteinen* — IL-17-signaalointi on suojaava ruoansulatuskanavan helminttiinfektioita vastaan, joten IL-17RA:n estämisen odotetaan **pahentavan**, ei parantavan, strongyloidiaasia. Tämä kandidaatti tulee lukea mahdolliseksi farmakovigilanssi-signaaleiksi, ei uudelleenkäyttömahdollisuudeksi.
 
 ---
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohde | Sisältö |
 |------|------|
-| Original Indication | Not documented in this Evidence Pack (`original_indications` empty, `original_moa` = Data Gap; drug is not marketed in Finland) |
-| Predicted New Indication | Strongyloidiasis |
-| TxGNN Prediction Score | 99.84% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Finland Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen indikaatio | Ei dokumentoitu tässä Evidence Pack -paketissa (`original_indications` tyhjä, `original_moa` = Data Gap; lääkettä ei ole markkinoitu Suomessa) |
+| Ennustettu uusi indikaatio | Strongyloidiasis |
+| TxGNN-ennusteen pistemäärä | 99.84% |
+| Todistusaste | L5 (vain mallin ennuste, ei tukevia tutkimuksia) |
+| Suomen markkinatilanne | Ei markkinoitu (Ei markkinoitu) |
+| Hyväksynnän määrä | 0 |
+| Suositeltu päätös | Odottava |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, detailed mechanism of action data for brodalumab is not available in this Evidence Pack (`original_moa` = Data Gap). Based on information embedded in the repurposing rationale fields, brodalumab is described as an anti-IL-17RA monoclonal antibody, i.e., a full blocker of IL-17 receptor signaling — the same class as secukinumab and ixekizumab, which target IL-17-driven inflammatory diseases such as plaque psoriasis and psoriatic arthritis.
+Tällä hetkellä yksityiskohtaisia vaikutusmekanismitietoja brodalumaabille ei ole saatavilla tässä Evidence Pack -paketissa (`original_moa` = Data Gap). Uudelleenkäyttöperustelun kenttiin upotettujen tietojen perusteella brodalumaabi on kuvattu anti-IL-17RA-monoklonaaliksi vasta-aineeksi, eli IL-17-reseptorisignaloinnin täydelliseksi estäjäksi — samaa luokkaa kuin secukinumab ja ixekizumab, jotka kohdistuvat IL-17-välitteisiin tulehduksellisiin sairauksiin, kuten plakeksi psoriasisiin ja psoriaasiniveliöihin.
 
-For the top-ranked prediction, **strongyloidiasis**, the mechanistic direction runs the opposite way from a therapeutic hypothesis. IL-17 is a key host-defense cytokine against extracellular parasites, including *Strongyloides stercoralis*. Blocking IL-17RA would be expected to impair anti-helminth immunity and could plausibly *increase* the risk of infection or hyperinfection syndrome in susceptible patients — a known class-level concern for IL-17 inhibitors — rather than provide a treatment benefit. The Evidence Pack's own rationale explicitly flags this as "likely a reverse or confounded association in the TxGNN knowledge graph" rather than a genuine treatment signal, and no clinical trials, ICTRP records, or literature exist to counter that interpretation.
+Parhaiten sijoitetun ennusteen, **strongyloidiaasian**, osalta mekanistinen suunta kulkee vastakkaiseen suuntaan terapeuttiseen hypoteesiin verrattuna. IL-17 on keskeinen isäntäpuolustuksen sytokiini ekstrasellulaarisia loisia vastaan, mukaan lukien *Strongyloides stercoralis*. IL-17RA:n estämisen odotetaan heikentävän helminti-vastustusta ja voisi uskottavasti *lisätä* infektioriski tai hyperinfektiosyndrooma alttiille potilaille — tunnettu IL-17-estäjien luokkakohtainen huolenaihe — sen sijaan että se antaisi terapeuttisen hyödyn. Evidence Pack -paketin oma perustelu merkitsee eksplisiittisesti tämän olevan "todennäköisesti käänteinen tai sekaantunut assosiaatio TxGNN-tietokannassa" todellisen hoitosignaalin sijaan, eikä mitään kliinisiä tutkimuksia, ICTRP-tietueita tai kirjallisuutta ole, joka vastustautuisi tälle tulkinnalle.
 
-The remaining candidates in the top-10 list follow a similar pattern: most are rare ophthalmic/optic-nerve conditions (e.g., von Hippel anomaly, optic perineuritis, episcleritis subtypes) with no clinical or literature evidence (L5), and several carry the same directional caution — IL-17 inhibitors as a class have documented case reports of triggering or worsening demyelinating/optic neuritis-type events, making those associations candidate safety signals rather than repurposing opportunities. Rank 2, "eye disease," has one linked trial and one publication, but the trial is a general immune-mediated skin disease registry (SKINERGY) unrelated to ophthalmology, and the literature is a general IL-17-blockade review — neither constitutes disease-specific evidence.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Jäljellä olevat ehdokkaat top-10-listalla noudattavat samankaltaista mallia: useimmat ovat harvinaisia oftalmologisia/optisen hermon sairauksia (esim. von Hippel anomaly, optinen perineuriitti, episkleriitin alatyyppi) ilman kliinisiä tai kirjallisuustodisteita (L5), ja useissa on sama suunnanmukainen varoitus — IL-17-estäjillä luokkana on dokumentoidut tapausraportit, jotka laukaisevat tai pahentavat demyelinisaatio-/optisen neuriitti-tyyppisiä tapahtumia, jotka tekevät näistä assosiaatioista turvatutkimussignaaliehdokkaita pikemminkin kuin uudelleenkäyttömahdollisuuksia. Sijoitus 2, "silmäsairaus", sisältää yhden linkitetyn tutkimuksen ja yhden julkaisun, mutta tutkimus on yleinen immuuni-välitteisen ihosairauden rekisteri (SKINERGY), joka ei liity oftalmologiaan, ja kirjallisuus on yleinen IL-17-esto-katsaus — kumpikaan ei muodosta tautikohtaisia todisteita.
 
 ---
 
-## Literature Evidence
+## Kliinisten tutkimusten evidenssi
 
-Currently no related literature available.
-
----
-
-## Finland Market Information
-
-Brodalumab has 0 registered authorizations and is not currently marketed in Finland (`total_licenses: 0`, `licenses: []`). No product-level authorization data is available.
+Tällä hetkellä ei ole liittyviä kliinisiä tutkimuksia rekisteröityinä.
 
 ---
 
-## Safety Considerations
+## Kirjallisuuden evidenssi
 
-Please refer to the package insert for safety information.
-
-Note: this Evidence Pack flags TFDA label warnings/contraindications as a **Blocking** data gap (DG001) — safety pre-assessment (S1) cannot proceed until the package insert is retrieved and parsed. Drug interaction lookup also returned no results (`query_status: not_found`).
+Tällä hetkellä liittyvää kirjallisuutta ei ole saatavilla.
 
 ---
 
-## Conclusion and Next Steps
+## Suomen markkinatiedot
 
-**Decision: Hold**
+Brodalumaabilla on 0 rekisteröityä hyväksyntää, eikä sitä ole tällä hetkellä markkinoitu Suomessa (`total_licenses: 0`, `licenses: []`). Tuotetason hyväksynnän tietoja ei ole saatavilla.
 
-**Rationale:**
-The top-ranked prediction (strongyloidiasis) has no supporting clinical or literature evidence (L5) and its own mechanistic rationale points in the opposite direction — toward a safety risk rather than a therapeutic benefit. No candidate in the top 10 reaches an evidence level beyond L4, and the one candidate with any linked evidence ("eye disease," L4) is not disease-specific and appears to reflect a database mapping mismatch.
+---
 
-**To proceed, the following is needed:**
-- Retrieve and parse the TFDA/Fimea package insert to close the Blocking safety data gap (DG001) before any S1 assessment
-- Obtain verified mechanism-of-action data from DrugBank (DG002) to properly evaluate mechanistic plausibility
-- If "eye disease" is pursued further, first narrow it to a specific IL-17-linked ocular diagnosis (e.g., uveitis) and re-query trials/literature against that specific term
-- Route the strongyloidiasis association to pharmacovigilance/signal-detection review rather than the repurposing pipeline, given its mechanistically inverted direction
+## Turvallisuushuomiot
+
+Turvallisuu­stiedoista katso pakkauksessa olevaa selosteesta.
+
+Huomio: tämä Evidence Pack -paketti merkitsee TFDA-merkinnän varoituksia/kontraindikaatioita **estäviksi** tietovajiksi (DG001) — turvallisuuden esiarviointi (S1) ei voi edetä, kunnes pakkauksen seloste on haettu ja jäsennetty. Lääkkeen interaktioiden haku ei myöskään palauttanut tuloksia (`query_status: not_found`).
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Odottava**
+
+**Perustelu:**
+Parhaiten sijoitetulla ennusteella (strongyloidiasis) ei ole tukevia kliinisiä tai kirjallisuustodisteita (L5) ja sen oma mekanistinen perustelu osoittaa vastakkaiseen suuntaan — turvariskiin pikemminkin kuin terapeuttiseen hyötyyn. Mikään ehdokas top-10-listalla ei saavuta todistusastetta L4:ää korkeammaksi, ja ainoa ehdokas, jolla on liittyviä todisteita ("silmäsairaus", L4), ei ole tautikohtainen ja näyttää heijastavan tietokantavastaavuuden epäsuhta.
+
+**Jatkaakseen tarvitaan seuraavaa:**
+- Hae ja jäsennä TFDA/Fimea-pakkauksen seloste sulkeaksesi estävän turvatietovajeen (DG001) ennen S1-arviointia
+- Hanki vahvistetut vaikutusmekanismitiedot DrugBankista (DG002) arvioidaksesi mekanistista uskottavuutta kunnolla
+- Jos "silmäsairaus" jatketaan, supista ensin se tiettyyn IL-17-linkitettyyn silmädiagnoosiin (esim. uveiitti) ja kysy uudelleen tutkimuksia/kirjallisuutta tätä spesifiiä termia vastaan
+- Ohjaa strongyloidiaasian assosiaatio farmakovigilanssi-/signaali-ilmaisun tarkistukseen pikemminkin kuin uudelleenkäyttöputkeen sen mekanistisesti käänteisen suunnan vuoksi
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

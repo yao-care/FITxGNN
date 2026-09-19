@@ -29,112 +29,111 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-Using the drug-repurposing-report format directly (this is a single deterministic formatting task, no ambiguity requiring brainstorming/other skills).
+# Olaparib: Munasarjasyövästä rintasyöpään
 
-# Olaparib: From Ovarian Cancer to Breast Cancer
+## Yksi lause yhteenveto
 
-## One-Sentence Summary
-
-> Olaparib is an oral PARP1/2 inhibitor originally developed for BRCA-mutated, platinum-sensitive ovarian cancer.
-> The TxGNN model predicts it may also be effective for **female breast carcinoma**,
-> with **50 clinical trials** and **20 publications** currently supporting this direction, including two pivotal completed Phase 3 RCTs (OlympiAD, OlympiA).
+> Olaparib on suun kautta otettava PARP1/2-estäjä, joka on alun perin kehitetty BRCA-mutaatiosta kärsiviin, platina-herkkiin munasarjasyöpäpotilaisiin.
+> TxGNN-malli ennustaa, että se saattaa olla tehokas myös **naisten rintasyövässä**,
+> ja tätä suuntaa tukee tällä hetkellä **50 kliinistä tutkimusta** ja **20 julkaisua**, mukaan lukien kaksi keskeistä valmistunutta vaiheen 3 satunnaistetua kontrolloitua tutkimusta (OlympiAD, OlympiA).
 
 ---
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohde | Sisältö |
 |------|------|
-| Original Indication | Ovarian cancer, BRCA-mutated (per international approval; not confirmed in Finnish labeling — see Data Gap below) |
-| Predicted New Indication | Female Breast Carcinoma |
-| TxGNN Prediction Score | 99.09% |
-| Evidence Level | L1 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Alkuperäinen indikaatio | Munasarjasyöpä, BRCA-mutaatiosta kärsivät (kansainvälisten hyväksyntöjen mukaan; ei vahvistettu suomalaisessa selosteessa — katso tietovaje alla) |
+| Ennustettu uusi indikaatio | Naisten rintasyöpä |
+| TxGNN-ennusteen pistemäärä | 99.09% |
+| Näyttötaso | L1 |
+| Suomen markkinatilanne | ✗ Ei markkinoitu |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Jatka varauksellisesti |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on perusteltu?
 
-Currently, detailed mechanism of action data from the drug label is not available (data gap). Based on the evidence pack's repurposing rationale, olaparib is a PARP1/2 (poly ADP-ribose polymerase) inhibitor that acts through **synthetic lethality**: in tumor cells with BRCA1/BRCA2 mutations or other homologous recombination deficiency (HRD), blocking PARP-mediated single-strand DNA repair leads to accumulation of unrepaired double-strand breaks and cell death.
+Tällä hetkellä lääkkeen pakkausselosteesta yksityiskohtaista vaikutusmekanismin tietoa ei ole saatavilla (tietovaje). Uudelleenkäytön perusteella olaparib on PARP1/2-estäjä (poly-ADP-riboosipolymeeraasin estäjä), joka vaikuttaa **synteettisen letaalisuuden** mekanismin kautta: syöpäsoluissa, joissa on BRCA1/BRCA2-mutaatioita tai muita homologisen rekombinuution vajauksesta johtuvia häiriöitä (HRD), PARP:n estäminen yksijuosteisten DNA-korjausten kautta johtaa korjaamatonta kaksijuosteisten murtumien keräytymiseen ja solukuolemaan.
 
-Olaparib's original use was in BRCA-mutated, platinum-sensitive ovarian cancer, where this synthetic-lethality mechanism is well established. BRCA1/2 mutations drive both ovarian and breast cancer through the same defective homologous-recombination-repair biology, so the mechanistic link between the two indications is direct rather than speculative — it is not an analogy across unrelated tumor types but the same molecular vulnerability expressed in a different tissue.
+Olapariibin alkuperäinen käyttö oli BRCA-mutaatiosta kärsivässä, platina-herkässä munasarjasyövässä, jossa tämä synteettisen letaalisuuden mekanismi on hyvin vahvistettu. BRCA1/2-mutaatiot aiheuttavat sekä munasarjasyöpää että rintasyöpää saman viallisen homologisen rekombinuution korjauksen biologian kautta, joten mekanistinen yhteys näiden kahden indikaation välillä on suora eikä spekulatiivinen – se ei ole analogia eri tuumorityyppien välillä vaan sama molekyylinen haavoittuvuus, joka ilmenee eri kudoksessa.
 
-This is reflected in the maturity of the evidence: olaparib is already internationally approved (FDA/EMA) for gBRCA-mutated, HER2-negative breast cancer (both adjuvant and metastatic settings), supported by two independent, completed Phase 3 RCTs — OlympiAD (metastatic setting) and OlympiA (adjuvant, early-stage, high-risk setting). This substantially strengthens confidence in the TxGNN prediction beyond a purely model-driven signal.
+Tämä näkyy todisteiden kypsyydessä: olaparib on jo kansainvälisesti hyväksytty (FDA/EMA) gBRCA-mutaatiosta kärsiviin, HER2-negatiivisiin rintasyöpäpotilaisiin (sekä adjuvantissa että metastaattisessa tilanteessa), ja kahden itsenäisen, valmistuneen vaiheen 3 satunnaistetun kontroloidun tutkimuksen tuella – OlympiAD (metastaattinen tilanne) ja OlympiA (adjuvantti, varhain vaihe, korkea riski). Tämä vahvistaa merkittävästi luottamusta TxGNN-ennusteen oikeellisuuteen puhtaasti mallin johtaman signaalin yli.
 
 ---
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen todisteet
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimusnumero | Vaihe | Tila | Rekrytointi | Tärkeimmät tulokset |
 |---------|------|------|------|---------|
-| [NCT02282020](https://clinicaltrials.gov/study/NCT02282020) | Phase 3 | Completed | 266 | OlympiAD: olaparib vs. physician's-choice chemotherapy in gBRCA-mutated, HER2-negative metastatic breast cancer — pivotal registration trial |
-| [NCT02418624](https://clinicaltrials.gov/study/NCT02418624) | Phase 1/2 | Completed | 25 | Carboplatin-olaparib sequential therapy vs. capecitabine as first-line treatment in BRCA1/2-mutated, HER2-negative advanced breast cancer |
-| [NCT03402841](https://clinicaltrials.gov/study/NCT03402841) | Phase 3b | Completed | 279 | Single-arm maintenance olaparib in platinum-sensitive relapsed non-gBRCA ovarian cancer; supportive real-world efficacy/safety data |
-| [NCT02503436](https://clinicaltrials.gov/study/NCT02503436) | N/A | Completed | 276 | C-PATROL: prospective non-interventional study collecting real-world effectiveness/safety data in BRCA-mutated ovarian cancer |
-| [NCT00679783](https://clinicaltrials.gov/study/NCT00679783) | Phase 2 | Completed | 99 | AZD2281 (olaparib) in BRCA-mutated/recurrent ovarian cancer and BRCA-mutated/triple-negative breast cancer; early proof-of-concept for later Phase 3 trials |
-| [NCT03162627](https://clinicaltrials.gov/study/NCT03162627) | Phase 1 | Active, not recruiting | 90 | Selumetinib + olaparib combination in Ras-altered/PARP-resistant solid tumors including breast cancer; early dose-finding, not breast-specific |
-| [NCT04421963](https://clinicaltrials.gov/study/NCT04421963) | Phase 3 | Active, not recruiting | 185 | ROSY-O rollover study providing continued olaparib access and long-term safety follow-up, not an efficacy endpoint trial |
-| [NCT06545942](https://clinicaltrials.gov/study/NCT06545942) | Phase 1 | Active, not recruiting | 220 | MOMA-313 alone or combined with a PARP inhibitor in HRD-positive advanced/metastatic solid tumors |
-| [NCT05564377](https://clinicaltrials.gov/study/NCT05564377) | Phase 2 | Recruiting | 2900 | ComboMATCH: genomically-directed basket trial platform; breast cancer is one of multiple sub-cohorts |
-| [NCT04330040](https://clinicaltrials.gov/study/NCT04330040) | Phase 4 | Completed | 202 | Phase IV trial in Indian patients with platinum-sensitive ovarian cancer and gBRCA1/2-mutated metastatic breast cancer |
+| [NCT02282020](https://clinicaltrials.gov/study/NCT02282020) | Vaihe 3 | Valmistunut | 266 | OlympiAD: olaparib vs. lääkärin valitsema kemoterapia gBRCA-mutaatiosta kärsivissä, HER2-negatiivisissa metastaattisissa rintasyövän potilailla – keskeinen rekisteröintitutkimus |
+| [NCT02418624](https://clinicaltrials.gov/study/NCT02418624) | Vaihe 1/2 | Valmistunut | 25 | Karboplaatini-olaparib peräkkäinen hoito vs. kapesitabiini ensimmäisen linjan hoitona BRCA1/2-mutaatiosta kärsivissä, HER2-negatiivisissa edenneiden rintasyövän potilaissa |
+| [NCT03402841](https://clinicaltrials.gov/study/NCT03402841) | Vaihe 3b | Valmistunut | 279 | Yhden varren olapariibin ylläpitohoito platina-herkissä uusiutuneissa ei-gBRCA-mutaation munasarjasyövän potilaissa; todellisen maailman tehokkuus/turvallisuustiedot |
+| [NCT02503436](https://clinicaltrials.gov/study/NCT02503436) | N/A | Valmistunut | 276 | C-PATROL: prospektiivinen ei-interventionaali-tutkimus kerää todellisen maailman tehokkuus/turvallisuustietoja BRCA-mutaatiosta kärsivissä munasarjasyövän potilaissa |
+| [NCT00679783](https://clinicaltrials.gov/study/NCT00679783) | Vaihe 2 | Valmistunut | 99 | AZD2281 (olaparib) BRCA-mutaatiosta kärsivissä/uusiutuneissa munasarjasyövän potilaissa ja BRCA-mutaatiosta kärsivissä/kolminkertaisen negatiivisen rintasyövän potilaissa; varhain käsitteen todistus myöhemmille vaiheen 3 tutkimuksille |
+| [NCT03162627](https://clinicaltrials.gov/study/NCT03162627) | Vaihe 1 | Aktiivinen, ei rekrytoinut | 90 | Selumetinibi + olaparib yhdistelmä Ras-muunoksissa/PARP-resistenteissä kiinteissä kasvaimissa, mukaan lukien rintasyöpä; varhainen annosmuodostus, ei rintasyövän spesifinen |
+| [NCT04421963](https://clinicaltrials.gov/study/NCT04421963) | Vaihe 3 | Aktiivinen, ei rekrytoinut | 185 | ROSY-O rollover-tutkimus jatkaa olapariibin saatavuutta ja pitkän aikavälin turvallisuuden seurantaa, ei tehokkuuden päätepistetutkimus |
+| [NCT06545942](https://clinicaltrials.gov/study/NCT06545942) | Vaihe 1 | Aktiivinen, ei rekrytoinut | 220 | MOMA-313 yksin tai yhdistelmässä PARP-estäjän kanssa HRD-positiivisissa edenneiden/metastaattisissa kiinteissä kasvaimissa |
+| [NCT05564377](https://clinicaltrials.gov/study/NCT05564377) | Vaihe 2 | Rekrytointi käynnissä | 2900 | ComboMATCH: genomisesti ohjattu kori-tutkimusalusta; rintasyöpä on yksi useista alikohortiteista |
+| [NCT04330040](https://clinicaltrials.gov/study/NCT04330040) | Vaihe 4 | Valmistunut | 202 | Vaiheen IV tutkimus Intian potilaissa, joilla on platina-herkkä munasarjasyöpä ja gBRCA1/2-mutaatiosta kärsivä metastaattinen rintasyöpä |
 
 ---
 
-## Literature Evidence
+## Kirjallisuuden todisteet
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät tulokset |
 |------|-----|------|------|---------|
-| [34081848](https://pubmed.ncbi.nlm.nih.gov/34081848/) | 2021 | RCT | N Engl J Med | OlympiA: adjuvant olaparib significantly improves invasive disease-free survival in gBRCA1/2-mutated, high-risk early breast cancer |
-| [36228963](https://pubmed.ncbi.nlm.nih.gov/36228963/) | 2022 | RCT | Ann Oncol | OlympiA overall survival follow-up confirming durable benefit of adjuvant olaparib in gBRCA1/2-mutated early breast cancer |
-| [28578601](https://pubmed.ncbi.nlm.nih.gov/28578601/) | 2017 | RCT | N Engl J Med | OlympiAD: olaparib shows antitumor activity in gBRCA-mutated metastatic breast cancer, establishing the pivotal efficacy signal |
-| [30689707](https://pubmed.ncbi.nlm.nih.gov/30689707/) | 2019 | RCT | Ann Oncol | OlympiAD final overall survival and tolerability results vs. chemotherapy in gBRCA-mutated HER2-negative metastatic breast cancer |
-| [36893711](https://pubmed.ncbi.nlm.nih.gov/36893711/) | 2023 | RCT | Eur J Cancer | OlympiAD extended follow-up: median OS 19.3 vs. 17.1 months for olaparib vs. chemotherapy, reaffirming safety profile |
-| [33119476](https://pubmed.ncbi.nlm.nih.gov/33119476/) | 2020 | RCT | J Clin Oncol | TBCRC 048 Phase 2: olaparib activity in metastatic breast cancer with somatic BRCA or other HR-related gene mutations beyond germline BRCA |
-| [34143979](https://pubmed.ncbi.nlm.nih.gov/34143979/) | 2021 | RCT | Cancer Cell | I-SPY2: durvalumab + olaparib + paclitaxel increases pathologic complete response in high-risk HER2-negative stage II/III breast cancer |
-| [39520738](https://pubmed.ncbi.nlm.nih.gov/39520738/) | 2024 | Phase 2 study | Breast (Edinburgh) | NOBROLA: olaparib monotherapy activity in advanced triple-negative breast cancer with HRD but no germline BRCA1/2 mutation |
-| [38112922](https://pubmed.ncbi.nlm.nih.gov/38112922/) | 2024 | Real-world study | Breast Cancer Res Treat | LUCY final analysis: real-world effectiveness and safety of olaparib in gBRCA-mutated, HER2-negative metastatic breast cancer |
-| [33710534](https://pubmed.ncbi.nlm.nih.gov/33710534/) | 2021 | Review | Targeted Oncology | Overview of PARP inhibitors (olaparib, talazoparib) approved as monotherapy for deleterious/suspected germline BRCA-mutated, HER2-negative breast cancer |
+| [34081848](https://pubmed.ncbi.nlm.nih.gov/34081848/) | 2021 | RCT | N Engl J Med | OlympiA: adjuvantti olaparib parantaa merkitsevästi invasiivin taudin vapaata eloonjäämisen aikaa gBRCA1/2-mutaatiosta kärsivissä, korkeamman riskin varhaisissa rintasyövän potilaissa |
+| [36228963](https://pubmed.ncbi.nlm.nih.gov/36228963/) | 2022 | RCT | Ann Oncol | OlympiA kokonaisselviytymisen seurantatutkimus vahvistaa adjuvantin olapariibin kestävää hyötyä gBRCA1/2-mutaatiosta kärsivissä varhaisissa rintasyövän potilaissa |
+| [28578601](https://pubmed.ncbi.nlm.nih.gov/28578601/) | 2017 | RCT | N Engl J Med | OlympiAD: olaparib osoittaa syöpää vastustava aktiivisuutta gBRCA-mutaatiosta kärsivissä metastaattisissa rintasyövän potilaissa, vahvistaa keskeisen tehokkuuden signaalin |
+| [30689707](https://pubmed.ncbi.nlm.nih.gov/30689707/) | 2019 | RCT | Ann Oncol | OlympiAD lopulliset kokonaisselviytymis- ja siedettävyystulokset vs. kemoterapia gBRCA-mutaatiosta kärsivissä HER2-negatiivisissa metastaattisissa rintasyövän potilaissa |
+| [36893711](https://pubmed.ncbi.nlm.nih.gov/36893711/) | 2023 | RCT | Eur J Cancer | OlympiAD jatkettu seurantatutkimus: mediaani OS 19.3 vs. 17.1 kuukautta olaparibille vs. kemoterapia, vahvistaa turvallisuusprofiilin |
+| [33119476](https://pubmed.ncbi.nlm.nih.gov/33119476/) | 2020 | RCT | J Clin Oncol | TBCRC 048 Vaihe 2: olapariibin aktiivisuus metastaattisessa rintasyövässä somaattisten BRCA- tai muiden HR-liittyvien geenimutaatioiden kanssa pelkän kiinteän BRCA:n lisäksi |
+| [34143979](https://pubmed.ncbi.nlm.nih.gov/34143979/) | 2021 | RCT | Cancer Cell | I-SPY2: durvalumabi + olaparib + paklitakseli lisää patologista täydellisen vastetta korkeamman riskin HER2-negatiivisissa vaiheissa II/III rintasyövän potilaissa |
+| [39520738](https://pubmed.ncbi.nlm.nih.gov/39520738/) | 2024 | Vaihe 2 tutkimus | Breast (Edinburgh) | NOBROLA: olapariibin monoteerapian aktiivisuus edenneiden kolminkertaisen negatiivisen rintasyövän potilaissa HRD:llä mutta ilman kiinteän BRCA1/2-mutaatiota |
+| [38112922](https://pubmed.ncbi.nlm.nih.gov/38112922/) | 2024 | Todellisen maailman tutkimus | Breast Cancer Res Treat | LUCY loppuanalyysi: olapariibin todellisen maailman tehokkuus ja turvallisuus gBRCA-mutaatiosta kärsivissä, HER2-negatiivisissa metastaattisissa rintasyövän potilaissa |
+| [33710534](https://pubmed.ncbi.nlm.nih.gov/33710534/) | 2021 | Katsaus | Targeted Oncology | Yleiskatsaus PARP-estäjiin (olaparib, talazoparib), jotka hyväksytty monoteraapiana vaarallisten/epäiltyjen kiinteän BRCA-mutaatioiden kanssa, HER2-negatiivisissa rintasyövän potilaissa |
 
 ---
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Olaparib currently has no marketing authorization on record in Finland (0 authorizations; market status: not marketed).
+Olaparibilla ei ole tällä hetkellä markkinointikäyttöoikeutta Suomessa (0 hyväksyntää; markkinatilanne: ei markkinoitu).
 
 ---
 
-## Cytotoxicity
+## Sytotoksisuus
 
-| Item | Content |
+| Kohde | Sisältö |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (PARP inhibitor, synthetic lethality mechanism — not a conventional cytotoxic chemotherapeutic) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| Sytotoksisuuden luokitus | Kohdennettu hoito (PARP-estäjä, synteettisen letaalisuuden mekanismi – ei perinteinen solunsalpaajahoidot) |
+| Luuydintukahduttamisen riski | Katso pakkausselosteesta varoitukset ja varotoimenpiteet |
+| Pahoinvointisuuden luokitus | Katso pakkausselosteesta varoitukset ja varotoimenpiteet |
+| Seurantakohteet | Katso pakkausselosteesta varoitukset ja varotoimenpiteet |
+| Käsittelysuojaus | Katso pakkausselosteesta varoitukset ja varotoimenpiteet |
 
 ---
 
-## Safety Considerations
+## Turvallisuushuomioita
 
-Please refer to the package insert for safety information.
+Katso pakkausselosteesta turvallisuustiedot.
 
 ---
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Proceed with Guardrails**
+**Päätös: Jatka varauksellisesti**
 
-**Rationale:**
-The mechanistic and clinical evidence is strong — two independent, completed Phase 3 RCTs (OlympiAD, OlympiA) support olaparib's efficacy in BRCA-mutated breast cancer, meeting L1 evidence criteria. However, the drug is not currently marketed in Finland, and Blocking/High-severity data gaps (TFDA-equivalent label warnings/contraindications, detailed MOA) prevent a full safety review, so guardrails are required before advancing.
+**Perustelut:**
+Mekaaninen ja kliininen näyttö on vahva – kaksi itsenäistä, valmistunutta vaiheen 3 satunnaistetua kontroloitua tutkimusta (OlympiAD, OlympiA) tukevat olapariibin tehokkuutta BRCA-mutaatiosta kärsivissä rintasyövän potilaissa, täyttävät L1-näyttötason kriteerit. Kuitenkin lääkettä ei ole tällä hetkellä markkinoitu Suomessa, ja kriittiset tietovajeet (TFDA-vastaavat pakkausselosteen varoitukset/vasta-aiheet, yksityiskohtainen MOA) estävät täydellisen turvallisuusarvioinnin, joten varauksellisia ehtoja tarvitaan ennen etenemistä.
 
-**To proceed, the following is needed:**
-- Finnish package insert (warnings, contraindications, DDI) to clear the Blocking data gap (DG001)
-- Confirmed original approved indication and detailed MOA from DrugBank (DG002)
-- Confirmation of Finland market authorization pathway, since the drug is currently unmarketed
-- DDI database query (current status: not_found) to complete the S1 safety pre-assessment
+**Etenemisen edellytykset:**
+- Suomalaisessa pakkausselosteessa olevat varoitukset, vasta-aiheet, DDI kriittiset tietovajeet (DG001) ratkaistakseen
+- Vahvistettu alkuperäinen hyväksytty indikaatio ja yksityiskohtainen MOA DrugBankista (DG002)
+- Vahvistus Suomen markkinointikäyttöoikeuksien polusta, koska lääkettä ei ole tällä hetkellä markkinoitu
+- DDI-tietokantakysely (nykyinen tila: not_found) S1-turvallisuuden esiarviointiin
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

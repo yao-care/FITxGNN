@@ -29,58 +29,59 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 
 </div>
 
-# Glimepiride: From Type 2 Diabetes Mellitus to Focal Stiff Limb Syndrome
+# Glimepiride: tyypin 2 diabeteksesta fokaalisen jäykän raajan oireyhtymään
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Glimepiride is a sulfonylurea antidiabetic drug used to manage Type 2 Diabetes Mellitus by stimulating pancreatic insulin secretion.
-The TxGNN model predicts it may be effective for **Focal Stiff Limb Syndrome**, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a pure graph-embedding signal with no pharmacological or clinical evidence behind it.
+Glimepiride on sulfonyyliurea-antidiabeettinen lääke, jota käytetään tyypin 2 diabeteksen hoitoon stimuloimalla haiman insuliinin erittymistä.
+TxGNN-malli ennustaa, että se saattaa olla tehokas **fokaalisen jäykän raajan oireyhtymän** hoidossa, mutta tätä ennustusta tukee tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua** — se on puhdas graafi-upotussignaali, jonka takana ei ole farmakologista tai kliinistä näyttöä.
 
-## Quick Overview
+## Pikayhteenveto
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Type 2 Diabetes Mellitus (inferred from sulfonylurea drug class; not present in the evidence pack's license records) |
-| Predicted New Indication | Focal Stiff Limb Syndrome |
-| TxGNN Prediction Score | 99.75% |
-| Evidence Level | L5 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen indikaatio | Tyypin 2 diabetes (päätelty sulfonyyliurea-lääkeluokasta; ei ole läsnä näyttöaineiston lupatiedoissa) |
+| Ennustettu uusi indikaatio | Fokaalinen jäykkä raaja -oireyhtymä |
+| TxGNN-ennustuspisteet | 99.75% |
+| Näyttöjen taso | L5 |
+| Suomen markkinatilanne | ✗ Ei markkinoitu |
+| Myyntilupia yhteensä | 0 |
+| Suositeltu päätös | Odota |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennustus on perusteltu?
 
-Currently, detailed mechanism of action data is not available for this candidate (flagged as a blocking-severity data gap). Based on known pharmacology, glimepiride is a sulfonylurea that binds SUR1 on the pancreatic β-cell KATP channel to trigger insulin release, and its efficacy in Type 2 Diabetes Mellitus is well established.
+Tällä hetkellä yksityiskohtaista vaikutusmekanismin tietoa ei ole saatavilla tälle ehdokkaalle (merkitty estäväksi tietoaukoksi). Tunnetun farmakologian perusteella glimepiride on sulfonyyliurea, joka sitoutuu SUR1:lle haiman β-solun KATP-kanavalla laukaisemaan insuliinin vapautumisen, ja sen teho tyypin 2 diabeteksen hoidossa on hyvin vakiintunut.
 
-Focal stiff limb syndrome is a localized variant of stiff person syndrome, a rare autoimmune neurological disorder in which anti-GAD65 antibodies attack GABAergic neurons, causing muscle rigidity and spasm. There is no established pharmacological or clinical relationship between insulin-secretagogue activity and this autoimmune neuromuscular condition.
+Fokaalinen jäykkä raaja -oireyhtymä on harvinaisen jäykkyysoireyhtymän lokalisoitunut muoto, autoimmuuni-neurologinen häiriö, jossa anti-GAD65-vasta-aineet hyökkäävät GABAergiä hermoja vastaan, aiheuttaen lihasten jäykkyyden ja lihasvärinät. Insuliinin erittävien lääkkeiden vaikutuksen ja tämän autoimmuuni-neuromuskulaarisen sairauden välillä ei ole vakiintunutta farmakologista tai kliinistä yhteyttä.
 
-The evidence pack's own rationale for this prediction is explicit that the link is not mechanistically grounded: it states that no sulfonylurea pharmacological mechanism supports the connection, and that the high TxGNN score likely reflects an indirect statistical association in the knowledge graph (possibly via GAD/insulin-pathway gene overlap with adjacent predictions) rather than biological plausibility. No clinical or molecular evidence currently exists to support this indication.
+Näyttöaineiston oman perustelun mukaan tälle ennustukselle yhteys ei ole mekanistisesti perusteltu: se toteaa, että mikään sulfonyyliuran farmakologinen mekanismi ei tue yhteyttä, ja että korkea TxGNN-pistemäärä todennäköisesti heijastaa epäsuoraa tilastollista assosiaatiota tietoverkossa (mahdollisesti GAD/insuliinireitin geenikäyttäytymisen kautta viereisten ennusteiden kanssa) eikä biologista uskottavuutta. Tämän indikaation tueksi ei tällä hetkellä ole kliinistä tai molekyylitason näyttöä.
 
-## Clinical Trial Evidence
+## Kliinisten tutkimusten näyttö
 
-Currently no related clinical trials registered
+Tällä hetkellä ei ole asiaan liittyviä rekisteröityjä kliinisiä tutkimuksia
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-Currently no related literature available
+Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information.
+Katso turvallisuustiedot pakkausselosteesta.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Odota**
 
-**Rationale:**
-This is an L5 prediction (model output only) with no clinical trials, no supporting literature, and no plausible pharmacological mechanism connecting glimepiride's insulin-secretagogue action to the autoimmune pathophysiology of focal stiff limb syndrome — the evidence pack's own rationale flags the mechanistic link as absent.
+**Perustelut:**
+Tämä on L5-ennustus (vain mallin tuloste) ilman kliinisiä tutkimuksia, ilman tukevia julkaisuja ja ilman uskottavaa farmakologista mekanismia, joka yhdistäisi glimepiridien insuliinin erittävän toiminnan fokaalisen jäykän raajan oireyhtymän autoimmuuni-patofysiologiaan — näyttöaineiston oman perustelun mukaan mekanistinen yhteys puuttuu.
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert data (warnings, contraindications) — currently a blocking data gap
-- Verified mechanism of action (MOA) data from DrugBank — currently a high-severity data gap
-- Preclinical or mechanistic studies establishing biological plausibility for this indication
-- Drug interaction (DDI) data, currently unavailable
-- If pursued, note that other predicted indications for glimepiride (e.g., pancreatic agenesis, rank 9) carry a marginally stronger — though still weak — mechanistic rationale via monogenic neonatal diabetes and may warrant comparative prioritization
+**Edetäkseen seuraavaa tarvitaan:**
+- TFDA/Fimean pakkausseloste-tiedot (varoitukset, vasta-aiheet) — tällä hetkellä estävä tietoaukko
+- Vahvistetut vaikutusmekanismin (MOA) -tiedot DrugBankista — tällä hetkellä korkean vakavuuden tietoaukko
+- Prekliiniset tai mekanistiset tutkimukset, jotka osoittavat biologista uskottavuutta tälle indikaatiolle
+- Lääkkeen vuorovaikutustieto (DDI), joka ei ole tällä hetkellä saatavilla
+- Jos jatkuu, huomaa, että muut glimepiridille ennustetut indikaatiot (esim. haiman agenesia, sijoitus 9) kantavat marginaalisesti vahvempaa — vaikka silti heikkoa — mekanistista perustelua monigenisen neonataalisen diabeteksen kautta ja saattaisivat vaatia vertailevaa tarkastelua
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

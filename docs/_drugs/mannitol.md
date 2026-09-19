@@ -29,78 +29,79 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Mannitol: From Osmotic Diuretic Use to Nephrogenic Syndrome of Inappropriate Antidiuresis
+# Mannitoli: Osmoottisesta diureettisesta käytöstä nefrogeenisen sopimattoman antidiureesi-oireyhtymän hoitoon
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Mannitol's original indication cannot be confirmed from this evidence pack — no Finland market licenses and no mechanism-of-action record are currently available. The TxGNN model predicts a possible link to **Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD)**, but this is currently supported by **0 clinical trials** and only **1 general review article** that does not specifically evaluate mannitol for this condition.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available — no approved indication text found in the evidence pack (0 Finland licenses on record) |
-| Predicted New Indication | Nephrogenic Syndrome of Inappropriate Antidiuresis |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L5 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Mannitolin alkuperäistä indikaatiota ei voida vahvistaa tästä todistusaineistosta — Suomen markkinavaltuutuksia ei ole saatavilla ja mekanismin tiedot puuttuvat. TxGNN-malli ennustaa mahdollisen yhteyden **nefrogeeniseen sopimattoman antidiureesi-oireyhtymään (NSIAD)**, mutta tätä tukevat tällä hetkellä **0 kliinistä tutkimusta** ja vain **1 yleinen katsausartikkeli**, joka ei erityisesti arvioi mannitolia tälle indikaatiolle.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Detailed mechanism-of-action data for mannitol is not currently available in this evidence pack (flagged as a High-severity data gap). Based on general pharmacological knowledge, mannitol is an osmotic diuretic that draws free water into the vascular space and promotes renal excretion of water; this general property is the basis for the model's mechanistic link to NSIAD.
-
-NSIAD is a rare congenital disorder caused by gain-of-function mutation of the V2 vasopressin receptor, producing hyponatremia that mimics SIADH. The repurposing rationale notes that mannitol's osmotic diuresis could theoretically raise serum sodium acutely, but this is **not** the standard-of-care treatment for NSIAD (fluid restriction or urea are standard). The single supporting publication (PMID 26706473) is a general review on pitfalls in evaluating hyponatremia — it does not report any actual mannitol efficacy data for NSIAD specifically.
-
-Given this, the mechanistic plausibility is theoretical rather than evidence-based. It is also worth noting that all 10 TxGNN-predicted indications for mannitol in this evidence pack were rated "Hold," and several carry specific caveats worth flagging: the malignant-hyperthermia-related predictions (ranks 3–4, 7, 8, 10) may reflect confounding with dantrolene (mannitol is a common excipient/co-administered diluent for IV dantrolene, not an active MH therapy), and the nephrogenic diabetes insipidus prediction (rank 9) may reflect the *opposite* causal direction — mannitol is a recognized cause of nephrogenic diabetes insipidus symptoms rather than a treatment for it. This overall pattern suggests the model score alone is not yet a reliable signal for this drug.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Ei saatavilla — hyväksyttyä indikaatiotekstiä ei löydetty todistusaineistosta (0 Suomen valtuutusta kirjattu) |
+| Ennustettu uusi indikaatio | Nefrogeeninen sopimattoman antidiureesi-oireyhtymä |
+| TxGNN-ennustepistemäärä | 99.97% |
+| Näyttötaso | L5 |
+| Suomen markkinatilanne | ✗ Ei markkinoilla |
+| Valtuuksien lukumäärä | 0 |
+| Suositeltu päätös | Pidätä |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennuste on perusteltu?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [26706473](https://pubmed.ncbi.nlm.nih.gov/26706473/) | 2016 | Review | European Journal of Internal Medicine | General review of common diagnostic pitfalls in hyponatremia evaluation; does not evaluate mannitol therapy specifically for NSIAD |
+Mannitolin mekanismin yksityiskohtaisia tietoja ei ole tällä hetkellä saatavilla todistusaineistosta (merkitty korkean vakavuuden tietovajeeksi). Yleisen farmakologisen tiedon perusteella mannitoli on osmoottinen diureetti, joka vetää vapaata vettä verisuonistoon ja edistää veden munuaisissa tapahtuvaa erittymistä; tämä yleinen ominaisuus on mallin mekanistisen yhteyden perusta NSIAD:iin.
 
----
+NSIAD on harvinainen synnynnäinen häiriö, jonka aiheuttaa V2-vasopressiini-reseptorin voitontoiminnallinen mutaatio, joka tuottaa hyponatremian, joka jäljittelee SIADH:ta. Uusien käyttötarkoitusten perusteluteksti huomioi, että mannitolin osmoottinen diureesi voisi teoriassa nostaa seerumin natriumia akuutisti, mutta tämä **ei ole** NSIAD:n tavanomainen hoito (nesterajoitus tai urea ovat tavanomaiset). Ainoa tukeva julkaisu (PMID 26706473) on yleinen katsaus hyponatremian arvioinnin yleisiin sudenkuoppiin — se ei arvioi mannitolin tehoa NSIAD:ssa erityisesti.
 
-## Finland Market Information
-
-No marketing authorizations are on record for mannitol in Finland (0 licenses; market status: not marketed).
+Näiden perusteella mekaaninen uskottavuus on teoreettinen eikä näyttöön perustuva. On huomionarvoista myös, että kaikki 10 TxGNN:n mannitolille ennustamaa indikaatiota tässä todistusaineistossa arvioitiin "Pidätä"-kategoriaan, ja useissa on erityisiä huomautuksia, joita kannattaa merkitä: pahanlaatuisen hypertermian liittyvät ennusteet (sijoitukset 3–4, 7, 8, 10) voivat heijastaa sekaannusta dantroleenin kanssa (mannitoli on yleinen täytne/yhdessä annettu laimentaja IV-dantroleenille, ei aktiivinen MH-hoito), ja nefrogeenisen diabetes insipiduksen ennuste (sijoitus 9) voi heijastaa *vastakkaista* kausaalista suuntaa — mannitoli on tunnettu nefrogeenisen diabetes insipiduksen oireiden aiheuttaja eikä hoito sille. Tämä yleinen kuvio viittaa siihen, että mallin pistemäärä yksin ei ole vielä luotettava signaali tälle lääkkeelle.
 
 ---
 
-## Safety Considerations
+## Kliinisen tutkimuksen todisteet
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-interaction data are not currently available in this evidence pack — the TFDA/Fimea label data gap is flagged as Blocking, and the DDI query returned no results.)
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
 
 ---
 
-## Conclusion and Next Steps
+## Kirjallisuuden todisteet
 
-**Decision: Hold**
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset tulokset |
+|------|-------|--------|-------|---------|
+| [26706473](https://pubmed.ncbi.nlm.nih.gov/26706473/) | 2016 | Katsaus | European Journal of Internal Medicine | Yleinen katsaus hyponatremian arvioinnin yleisiin diagnostisiin sudenkuoppiin; ei arvioi mannitolin hoitoa NSIAD:ssa erityisesti |
 
-**Rationale:**
-The top prediction (NSIAD) rests on a theoretical mechanistic argument, not standard-of-care use, and is backed by a single non-specific review article with no clinical trials. Combined with the blocking gap in label/safety data and the drug's unconfirmed original-indication and non-marketed status in Finland, there is not yet sufficient evidence to advance past initial screening (S0).
+---
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert (warnings, contraindications) — currently a Blocking data gap
-- Confirmed mechanism of action from DrugBank — currently a High-severity data gap
-- Confirmed original indication / licensing history for mannitol in Finland
-- Dedicated clinical or mechanistic studies directly evaluating mannitol in NSIAD (not general hyponatremia reviews)
-- Drug interaction (DDI) dataset — current query returned no results
-- Manual review to rule out confounding for the malignant-hyperthermia-related and nephrogenic-diabetes-insipidus predictions noted above
+## Suomen markkinatiedot
+
+Mannitolista ei ole kirjattu Suomen markkinavaltuutuksia (0 valtuutusta; markkinatilanne: ei markkinoilla).
+
+---
+
+## Turvallisuushuomiot
+
+Katso pakkausseloste turvallisuustiedoista. (Tärkeät varoitukset, vasta-aiheet ja lääkevuorovaikutustiedot eivät ole tällä hetkellä saatavilla tässä todistusaineistosta — TFDA/Fimea-merkinnän tietovajeeksi on merkitty Estävä, ja DDI-kysely ei palauttanut tuloksia.)
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidätä**
+
+**Perustelu:**
+Pääennuste (NSIAD) perustuu teoreettiseen mekanistiseen argumenttiin, ei tavanomaisen hoidon käyttöön, ja sitä tukee ainoastaan yksi epäspesifinen katsausartikkeli ilman kliinisiä tutkimuksia. Yhdessä merkinnän/turvallisuustietojen estävän vajeen kanssa ja lääkkeen vahvistamattoman alkuperäisen indikaation ja ei-markkinoilla-olevuuden kanssa Suomessa, ei ole vielä riittävästi näyttöä edistyä alkuseulonnan jälkeen (S0).
+
+**Edistymiseksi seuraavat kohdat ovat tarpeellisia:**
+- TFDA/Fimea pakkausseloste (varoitukset, vasta-aiheet) — tällä hetkellä Estävä tietovajeeksi
+- Vahvistettu mekanismi DrugBankista — tällä hetkellä korkean vakavuuden tietovajeeksi
+- Vahvistettu alkuperäinen indikaatio / mannitolin lisensointihistoria Suomessa
+- Erityisiä kliinisiä tai mekanistisia tutkimuksia, joissa suoraan arvioidaan mannitolia NSIAD:ssa (ei yleisiä hyponatremian katsauksia)
+- Lääkevuorovaikutus (DDI) -tietojoukko — nykyinen kysely ei palauttanut tuloksia
+- Manuaalinen tarkistus, jotta voidaan sulkea pois sekaannus pahanlaatuisen hypertermian liittyvistä ja nefrogeenisen diabetes insipiduksen ennusteista, joita edellä mainittiin
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

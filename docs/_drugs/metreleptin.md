@@ -29,75 +29,76 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# METRELEPTIN: From an Undocumented Original Indication to Familial Generalized Lentiginosis
+# METRELEPTIN: dokumentoimattomasta alkuperäisestä indikaatiosta perinnölliseen yleiseen lentiginoosin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Metreleptin (DrugBank DB09046) is a recombinant human leptin analog; its original approved indication and mechanism of action are not documented in the current data pack. TxGNN predicts a possible link to **Familial Generalized Lentiginosis**, but this prediction is supported by **zero clinical trials** and **zero publications**, and the model's own rationale flags it as a likely false-positive artifact rather than a genuine mechanistic signal.
+Metreleptin (DrugBank DB09046) on rekombinantti ihmisen leptiini-analogi; sen alkuperäinen hyväksytty indikaatio ja toimintamekanismi eivät ole dokumentoituja nykyisessä tietopaketissa. TxGNN ennustaa mahdollista yhteyttä **perinnölliseen yleiseen lentiginoosin**, mutta tätä ennustusta tuetaan **nolla kliinisen tutkimuksen** ja **nolla julkaisun** avulla, ja mallin omat perustelut merkitsevät sitä todennäköisesti väärä positiiviseksi artefaktiksi pikemminkin kuin aidoksi mekanistiseksi signaaliksi.
 
 ---
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Not documented in current dataset (no approved indications on file; MOA marked as a High-severity data gap) |
-| Predicted New Indication | Familial Generalized Lentiginosis |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Finland Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen indikaatio | Ei dokumentoitu nykyisessä tietojoukossa (hyväksyttyjä indikaatioita ei ole tiedossa; toimintamekanismi merkitty korkea-asteen tietoaukoksi) |
+| Ennakoitu uusi indikaatio | Perinnöllinen yleinen lentignoos |
+| TxGNN-ennuste-pistemäärä | 99,71 % |
+| Todistusvoimakkuusaste | L5 (vain mallin ennuste, ei tukevia tutkimuksia) |
+| Markkinatilanne Suomessa | ✗ Ei markkinoilla |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Pidä odotuksessa |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on kohtuullinen?
 
-Currently, detailed mechanism of action data is not available (Blocking/High data gaps DG001 and DG002 — TFDA package insert and MOA are both unresolved). Based on general pharmacology, metreleptin is a recombinant leptin analog acting on hypothalamic leptin receptors to regulate energy metabolism and adipose-related endocrine function.
+Tällä hetkellä yksityiskohtaiset toimintamekanismin tiedot eivät ole saatavilla (estävät/korkea-asteen tietoaukot DG001 ja DG002 — TFDA-pakkausseloste ja toimintamekanismi ovat molemmat ratkaisemattomia). Yleisen farmakologian perusteella metreleptin on rekombinantti leptiini-analogi, joka vaikuttaa hypotalamuksen leptiini-reseptoreihin säädellen energiaaineenvaihduntaa ja rasvakudokseen liittyvää endokriinista toimintaa.
 
-The top-ranked predicted indication, Familial Generalized Lentiginosis, is a pigmentary/melanocytic disorder generally associated with genes such as PTPN11 and the RAS-MAPK pathway — a biological system with no established connection to leptin/JAK2-STAT3 signaling. The evidence pack's own mechanistic assessment for this candidate explicitly states that no known mechanistic link exists, and characterizes the prediction as most likely a false-positive artifact arising from embedding similarity between rare-syndrome nodes in the TxGNN knowledge graph, rather than a genuine biological signal.
+Korkeimmaksi arvostellun ennakoitu indikaation, perinnöllisen yleisen lentignoosin, biologiaa liittyy pigmentaatio-/melanosyyttihäiriö, joka on yleensä liitetty geeneihin, kuten PTPN11 ja RAS-MAPK-polkuun — biologiseen järjestelmään, jolla ei ole tunnettua yhteyttä leptiini/JAK2-STAT3-signalointiin. Todistepaketin oma mekanistinen arviointi tälle ehdokkaalle ilmoittaa nimenomaisesti, että tunnettu mekanistinen yhteys puuttuu, ja luonnehtii ennustetta todennäköisimmin väärä positiiviseksi artefaktiksi, joka johtuu mallin upotuksien samankaltaisuudesta harvinaisten oireyhtymien solmujen välillä TxGNN-tietograafissa, pikemminkin kuin aidoksi biologiseksi signaaliksi.
 
-The remaining nine ranked candidates (ranks 2–10, all rare genetic syndromes or oncologic conditions such as Moynahan syndrome, rhabdoid tumor, and peripheral nerve schwannoma) show the same pattern: no mechanistic rationale, no trials, and no literature. In two cases (rhabdoid tumor, peripheral nerve schwannoma) the rationale even notes that leptin signaling is more plausibly tumor-promoting than tumor-suppressive, meaning a leptin agonist could theoretically work against the therapeutic goal. Taken together, this indication cluster should be treated as a low-confidence signal requiring independent validation before any further evaluation.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Jäljellä olevat yhdeksän arvostellut ehdokkaat (sijoitukset 2–10, kaikki harvinaiset geneettiset oireyhtymät tai syöpätaudit kuten Moynahan-oireyhtymä, rabdoidi tuumori ja periferisen hermon schwannoma) osoittavat saman kuvion: ei mekanistisia perusteluja, ei tutkimuksia ja ei kirjallisuutta. Kahdessa tapauksessa (rabdoidi tuumori, periferisen hermon schwannoma) perustelut jopa toteavat, että leptiini-signalointi on todennäköisemmin syöpää edistävää kuin syöpää estävää, mikä tarkoittaa, että leptiini-agoniisti voisi teoriassa toimia vastoin terapeuttista tavoitetta. Kokonaisuutena tarkasteltuna tämä indikaatioklasteri tulisi käsitellä matalan luottamuksen signaalina, joka vaatii riippumatonta validointia ennen kuin siihen voidaan siirtyä lisätutkimuksiin.
 
 ---
 
-## Literature Evidence
+## Kliinisten tutkimusten todisteet
 
-Currently no related literature available.
-
----
-
-## Finland Market Information
-
-Metreleptin is not currently marketed in Finland — no marketing authorizations are on file (0 licenses).
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
 
 ---
 
-## Safety Considerations
+## Kirjallisuuden todisteet
 
-Please refer to the package insert for safety information.
+Tällä hetkellä kirjallisuustietoa ei ole saatavilla.
 
 ---
 
-## Conclusion and Next Steps
+## Markkinatilanne Suomessa
 
-**Decision: Hold**
+Metreleptyniä ei ole tällä hetkellä markkinoilla Suomessa — markkinointilupia ei ole tiedossa (0 lupaa).
 
-**Rationale:**
-The predicted indication rests on evidence level L5 (model prediction only) with no clinical trials or literature support, and the mechanistic rationale itself questions the biological plausibility of the link. Combined with a Blocking data gap on the TFDA package insert (needed for any safety assessment) and an unresolved MOA, this candidate cannot proceed past initial screening (decision_stage S0).
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert / warnings and contraindications (DG001, Blocking)
-- Confirmed mechanism of action data via DrugBank API (DG002, High)
-- Confirmation of metreleptin's original approved indication(s), currently absent from the dataset
-- Independent mechanistic or preclinical evidence linking leptin signaling to familial generalized lentiginosis before any further investment in this candidate
-- If pursuing other ranked candidates (rhabdoid tumor, peripheral nerve schwannoma), directional risk should be clarified first, since leptin agonism may plausibly promote rather than inhibit tumor growth in these contexts
+## Turvallisuushuomiot
+
+Turvallisustiedot löytyvät pakkausselosteesta.
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidä odotuksessa**
+
+**Perustelut:**
+Ennakoitu indikaatio perustuu todistusvoimakkuusasteeseen L5 (vain mallin ennuste) ilman kliinisiä tutkimuksia tai kirjallisuustukea, ja itse mekanistinen perustelut kyseenalaistavat biologisen uskottavuuden yhteydelle. Yhdessä TFDA-pakkauselosteeseen liittyvän estävän tietoaukon (vaaditaan kaikelle turvallisuusarviolle) ja ratkaisemattoman toimintamekanismin kanssa tämä ehdokas ei voi edistyä alkuarvioinnin pidemmälle (päätösvaihe S0).
+
+**Jatkamiseksi tarvitaan seuraavaa:**
+- TFDA-pakkausseloste / varoitukset ja vasta-aiheet (DG001, estävä)
+- Vahvistetut toimintamekanismin tiedot DrugBank API:n kautta (DG002, korkea)
+- Metreleptiinin alkuperäisten hyväksyttyjen indikaatioiden vahvistus, jotka puuttuvat tällä hetkellä tietojoukosta
+- Riippumaton mekanistinen tai prekliininen todiste, joka yhdistää leptiini-signaloinnin perinnölliseen yleiseen lentiginoosin ennen kuin tehdään lisätutkimuksia tähän ehdokkaaseen
+- Jos muita arvostelluja ehdokkaita halutaan tutkia (rabdoidi tuumori, periferisen hermon schwannoma), riskin suunta tulisi ensin selventää, sillä leptiini-agoniismi voi todennäköisesti edistää syöpäkasvua pikemminkin kuin estää sitä näissä yhteyksissä
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

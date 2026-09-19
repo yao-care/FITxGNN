@@ -29,95 +29,96 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Perampanel: From Epilepsy to Visual Epilepsy
+# Perampanel: Epilepsiasta Visual Epilepsiaan
 
-## One-Sentence Summary
+## Yhden virkkeen yhteenveto
 
-> Perampanel is a selective, non-competitive AMPA-receptor antagonist originally developed and marketed worldwide as an adjunctive (and later monotherapy) treatment for partial-onset seizures and primary generalized tonic-clonic seizures.
-> The TxGNN model predicts it may also be effective for **Visual Epilepsy** (a photosensitive/reflex seizure subtype),
-> with **3 clinical trials** and **20 publications** currently associated with this direction — though none directly enrolled visual-epilepsy patients, so the supporting evidence remains indirect.
+> Perampanel on selektiivinen, ei-kilpaileva AMPA-reseptori-antagonisti, joka on alun perin kehitetty ja markkinoitu maailmanlaajuisesti osittain alkavien kohtausten ja primaarin yleistyneen toonis-kloonisen kohtauksen (epilepsia) lisähoitona ja myöhemmin monoterapiaksi.
+> TxGNN-malli ennustaa, että se voi olla tehokas myös **Visual Epilepsiaan** (valoherkän/refleksi-kohtauksen alatyyppi),
+> joihin liittyy tällä hetkellä **3 kliinistä tutkimusta** ja **20 julkaisua** — vaikka mikään niistä ei ole rekrytoinut visual-epilepsia-potilaita suoraan, joten tukeva todiste pysyy epäsuorana.
 
 ---
 
-## Quick Overview
+## Nopea katsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Partial-onset seizures (adjunctive/monotherapy) and primary generalized tonic-clonic seizures (epilepsy), per published literature — no Finland-specific approved indication text on file |
-| Predicted New Indication | Visual Epilepsy |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L4 |
-| Finland Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen indikaatio | Osittain alkavat kohtaukset (lisähoito/monoterapia) ja primaarinen yleistetty toonis-klooninen kohtaus (epilepsia), julkaistun kirjallisuuden mukaan — Suomessa hyväksytystä indikaatiosta ei ole saatavilla strukturoituja tietoja |
+| Ennustettu uusi indikaatio | Visual Epilepsia |
+| TxGNN-ennuste-pistemäärä | 99.92% |
+| Todiste-taso | L4 |
+| Suomen markkina-asema | Ei markkinoitu (Ei markkinoitu) |
+| Valtuuksien lukumäärä | 0 |
+| Suositeltu päätös | Pidättyä |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Detailed mechanism-of-action data is not available in the structured drug record (`original_moa` = Data Gap). Based on the supporting literature in this evidence pack, perampanel is a first-in-class, selective, non-competitive antagonist of AMPA-type glutamate receptors, which mediate the fast excitatory synaptic transmission that drives cortical hyperexcitability in seizures. It has been approved in over 35 countries as an adjunctive and later monotherapy treatment for focal (partial-onset) seizures and primary generalized tonic-clonic seizures.
+Yksityiskohtaisia vaikutusmekanismi-tietoja ei ole saatavilla strukturoidussa lääkitietussa (`original_moa` = Tietoaukko). Tämän todistepaketin tukevien julkaisujen perusteella perampanel on ensimmäisen sukupolven selektiivinen, ei-kilpaileva AMPA-tyypin glutamaatti-reseptorin antagonisti, joka estää nopeaa herkkää synapsiyhteyden siirtoa, joka ohjaa kortikaalista yliaktiivisuutta kohtauksissa. Se on hyväksytty yli 35 maassa osittain alkavien kohtausten ja primaarin yleistetyn toonis-kloonisen kohtauksen lisä- ja myöhemmin monoterapiaksi.
 
-Visual epilepsy (photosensitive/visually-induced reflex epilepsy) is a seizure subtype in which flickering light or patterned visual stimuli trigger cortical hypersynchronous discharge, a phenomenon mechanistically tied to excessive AMPA-receptor-mediated excitation in the occipital and adjacent cortex. Because perampanel's broad-spectrum action targets this same excitatory pathway, the TxGNN prediction has plausible mechanistic grounding.
+Visual epilepsia (valoherkät/visuaalisesti indusoitavat refleksi-epilepsiat) on kohtausalatyyppi, jossa vilkkuva valo tai kuvioitu visuaalinen ärsyke laukaisee kortikaalisen hypersynchronisen purkauksen, ilmiö, joka on mekanistisesti sidottu liialliseen AMPA-reseptori-välitteiseen eksitaatioon occipitaalissa ja viereisillä alueilla. Koska perampanelin laaja-spektrinen toiminta kohdistuu samaan eksitatiiviseen polkuun, TxGNN-ennusteella on uskottava mekanistinen perusta.
 
-However, this is a rationale by mechanistic extrapolation rather than direct evidence: none of the identified trials or publications specifically enrolled or studied visual/photosensitive epilepsy patients. The clinical trials found relate to perampanel's general safety, pharmacokinetics, and neurophysiological effects (EEG/VEP/SEP/BAEP) in mixed epilepsy populations, and the literature largely covers perampanel's broad-spectrum efficacy in focal and generalized epilepsies rather than reflex seizure subtypes.
+Tämä on kuitenkin perusteluja mekanistisen ekstrapoloinnin, eikä suoran todisteen pohjalta: yksikään identifioiduista tutkimuksista tai julkaisuista ei ole erityisesti rekrytoinut tai tutkinut visuaalisen/valoherkän epilepsian potilaita. Löydetyt kliiniset tutkimukset liittyvät perampanelin yleiseen turvallisuuteen, farmakokinetiikkaan ja neuronfysiologisiin vaikutuksiin (EEG/VEP/SEP/BAEP) sekaepilepsian väestöissä, ja kirjallisuus käsittelee pääasiassa perampanelin laaja-spektrisen tehokkuuden osittain ja yleistetyissä epilepsioissa pikemmin kuin refleksi-kohtauksen alatyypeissä.
 
 ---
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen todisteet
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimusnumero | Vaihe | Tila | Rekrytointi | Keskeiset tulokset |
 |---------|------|------|------|---------|
-| [NCT03780907](https://clinicaltrials.gov/study/NCT03780907) | Phase 2 | Completed | 18 | Tolerability, safety, and pharmacokinetics of perampanel (E2007) in patients with refractory partial or generalised seizures; general epilepsy population, not visual-epilepsy specific (Relevance C) |
-| [NCT03653741](https://clinicaltrials.gov/study/NCT03653741) | Phase 4 | Completed | 12 | Evaluated whether perampanel affects neurophysiology tests including visual evoked potential (VEP), EEG, SEP, and BAEP; assesses testing parameters, not seizure control in visual epilepsy (Relevance C) |
-| [NCT02900755](https://clinicaltrials.gov/study/NCT02900755) | Phase 4 | Completed | 30 | Evaluated perampanel's effects on cognition and EEG in general epilepsy patients receiving adjunctive treatment (Relevance C) |
+| [NCT03780907](https://clinicaltrials.gov/study/NCT03780907) | Vaihe 2 | Valmis | 18 | Perampanelin (E2007) siedettävyys, turvallisuus ja farmakokinetiikka potilailla, joilla on refraktorisia osittain tai yleistyneitä kohtauksia; yleisen epilepsian väestö, ei visual-epilepsia-spesifinen (Relevanssus C) |
+| [NCT03653741](https://clinicaltrials.gov/study/NCT03653741) | Vaihe 4 | Valmis | 12 | Arvioitiin, vaikuttaako perampanel neuronfysiologian testeihin, mukaan lukien visuaali-heräte-potentiaali (VEP), EEG, SEP ja BAEP; arvioi testitietoja, ei kohtausten hallintaa visual epilepsiassa (Relevanssus C) |
+| [NCT02900755](https://clinicaltrials.gov/study/NCT02900755) | Vaihe 4 | Valmis | 30 | Arvioi perampanelin vaikutusta kognitioon ja EEG:hen yleisen epilepsian potilailla, jotka saivat lisähoitoa (Relevanssus C) |
 
-No trial directly enrolled or tested efficacy in visual/photosensitive epilepsy patients.
+Yksikään tutkimus ei ole suoraan rekrytoinut tai testannut tehokkuutta visual/valoherkän epilepsian potilaissa.
 
 ---
 
-## Literature Evidence
+## Kirjallisuuden todisteet
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset tulokset |
 |------|-----|------|------|---------|
-| [37378757](https://pubmed.ncbi.nlm.nih.gov/37378757/) | 2023 | Systematic Review/NMA | Journal of Neurology | Network meta-analysis comparing ASM efficacy/safety for idiopathic generalized epilepsies, a category that includes photosensitive seizure phenotypes |
-| [37059702](https://pubmed.ncbi.nlm.nih.gov/37059702/) | 2023 | Cochrane Systematic Review | Cochrane Database of Systematic Reviews | Reviews perampanel add-on therapy for drug-resistant focal epilepsy |
-| [36206645](https://pubmed.ncbi.nlm.nih.gov/36206645/) | 2022 | Systematic Review/Meta-analysis | Seizure | Pooled RCT data on perampanel efficacy and safety across focal and generalized seizure types |
-| [36878742](https://pubmed.ncbi.nlm.nih.gov/36878742/) | 2023 | Systematic Review/Meta-analysis | Brain & Development | Efficacy, tolerability, and safety of perampanel in children and adolescents with epilepsy |
-| [35061214](https://pubmed.ncbi.nlm.nih.gov/35061214/) | 2022 | Systematic Review/NMA | Drugs | Network meta-analysis of third-generation ASMs (including perampanel) as adjunctive treatment for focal-onset seizures |
-| [36150304](https://pubmed.ncbi.nlm.nih.gov/36150304/) | 2022 | Cohort/Real-world | Epilepsy & Behavior | Reviews clinical trial and real-world evidence for perampanel monotherapy across FOS and GTCS |
-| [29898971](https://pubmed.ncbi.nlm.nih.gov/29898971/) | 2018 | Guideline Review | Neurology | AAN/AES practice guideline update on efficacy/tolerability of new AEDs, including perampanel, for new-onset epilepsy |
-| [24559052](https://pubmed.ncbi.nlm.nih.gov/24559052/) | 2014 | Review | Expert Opinion on Drug Discovery | History of perampanel's discovery and development as an AMPA-receptor antagonist |
-| [26111428](https://pubmed.ncbi.nlm.nih.gov/26111428/) | 2015 | Review | Expert Opinion on Drug Metabolism & Toxicology | Pharmacokinetic/pharmacodynamic evaluation of perampanel for partial-onset seizures |
-| [38602656](https://pubmed.ncbi.nlm.nih.gov/38602656/) | 2024 | Preclinical/Mechanism study | Molecular Neurobiology | Investigates perampanel's effect on autophagy-mediated regulation of AMPA-receptor subunit GluA2 and PSD95 in epilepsy — mechanistic support for the AMPA-pathway rationale |
+| [37378757](https://pubmed.ncbi.nlm.nih.gov/37378757/) | 2023 | Systemaattinen katsaus/NMA | Journal of Neurology | Verkon meta-analyysi, joka vertaa ASM:n tehokkuutta/turvallisuutta idiopaattisille yleistetyille epilepsioille, luokka, joka sisältää valoherkän kohtaus-fenotyypin |
+| [37059702](https://pubmed.ncbi.nlm.nih.gov/37059702/) | 2023 | Cochrane systemaattinen katsaus | Cochrane Database of Systematic Reviews | Käsittelee perampanelin lisähoitoa resistenteille osittaisille epilepsioille |
+| [36206645](https://pubmed.ncbi.nlm.nih.gov/36206645/) | 2022 | Systemaattinen katsaus/Meta-analyysi | Seizure | Kerätyistä RCT-tiedoista perampanelin tehokkuudesta ja turvallisuudesta osittaisten ja yleistyneiden kohtaus-tyyppien välillä |
+| [36878742](https://pubmed.ncbi.nlm.nih.gov/36878742/) | 2023 | Systemaattinen katsaus/Meta-analyysi | Brain & Development | Perampanelin tehokkuus, siedettävyys ja turvallisuus lapsilla ja nuorilla epilepsian kanssa |
+| [35061214](https://pubmed.ncbi.nlm.nih.gov/35061214/) | 2022 | Systemaattinen katsaus/NMA | Drugs | Verkon meta-analyysi kolmannen sukupolven ASM:ista (mukaan lukien perampanel) lisähoitona osittain alkavien kohtausten osalta |
+| [36150304](https://pubmed.ncbi.nlm.nih.gov/36150304/) | 2022 | Kohortti/Todellisen maailman tutkimus | Epilepsy & Behavior | Käsittelee kliinisen tutkimuksen ja todellisen maailman todistetta perampanelin monoterapiasta FOS:n ja GTCS:n osalta |
+| [29898971](https://pubmed.ncbi.nlm.nih.gov/29898971/) | 2018 | Ohjearviointinen | Neurology | AAN/AES käytäntöohjeen päivitys uusien AED:ien, mukaan lukien perampanel, tehokkuudesta/siedettävyydestä uuden epilepsian osalta |
+| [24559052](https://pubmed.ncbi.nlm.nih.gov/24559052/) | 2014 | Katsaus | Expert Opinion on Drug Discovery | Perampanelin löytämisen ja kehityksen historia AMPA-reseptori-antagonistina |
+| [26111428](https://pubmed.ncbi.nlm.nih.gov/26111428/) | 2015 | Katsaus | Expert Opinion on Drug Metabolism & Toxicology | Perampanelin farmakokineettinen/farmakodynaamminen arviointi osittain alkavien kohtausten osalta |
+| [38602656](https://pubmed.ncbi.nlm.nih.gov/38602656/) | 2024 | Prekliininen/Mekanismin tutkimus | Molecular Neurobiology | Tutkii perampanelin vaikutusta autophagia-välitteiseen AMPA-reseptori-alayksikkö GluA2:n ja PSD95:n sääntelyyn epilepsiassa — mekanistinen tuki AMPA-polun perusteluille |
 
-None of the identified publications specifically study visual/photosensitive epilepsy; all pertain to perampanel's general efficacy in focal or generalized epilepsy, or to its underlying AMPA-receptor mechanism.
-
----
-
-## Finland Market Information
-
-Perampanel is currently **not marketed in Finland** — no product authorizations are on file (0 authorizations).
+Yksikään tunnistettu julkaisu ei erityisesti tutki visual/valoherkän epilepsiaa; kaikki koskevat perampanelin yleistä tehokkuutta osittain tai yleistetyissä epilepsioissa tai sen taustalla olevaa AMPA-reseptori-mekanismia.
 
 ---
 
-## Safety Considerations
+## Suomen markkinatiedot
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-interaction data are currently unavailable — see Data Gap DG001, which is flagged as Blocking for safety pre-assessment.)
+Perampanelia ei tällä hetkellä markkinoida Suomessa — tutkimuksissa ei ole yhtään hyväksyntää (0 valtuutta).
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuusasiat
 
-**Decision: Hold**
+Viitatkaa pakkausselosteeseen turvallisuustiedoista. (Keskeiset varoitukset, vasta-aiheet ja lääkkeen vuorovaikutustiedot eivät ole tällä hetkellä saatavilla — katso Tietoaukko DG001, joka on merkitty turvallisuus-esiarviointia estäväksi.)
 
-**Rationale:**
-Evidence for the visual-epilepsy indication is limited to mechanistic plausibility (AMPA-receptor antagonism counteracting light-induced cortical hyperexcitability) supported only by trials and literature on perampanel's general epilepsy efficacy — none address visual/photosensitive epilepsy directly, and the strongest cited trials are graded "C" relevance. This corresponds to evidence level L4 / decision stage S1 ("Research Question"), insufficient to proceed even with guardrails.
+---
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert data (warnings, contraindications) — currently a Blocking data gap (DG001)
-- Structured mechanism-of-action data from DrugBank (DG002)
-- A dedicated trial or case series enrolling patients with visual/photosensitive reflex epilepsy
-- For context: among the other TxGNN-predicted indications for perampanel in this evidence pack, **status epilepticus** (rank 10) has materially stronger evidence — an ongoing Phase 3 add-on trial, a Phase 2 prophylaxis trial, and a systematic review — reaching evidence level L3 / "Proceed with Guardrails." This may be a more promising near-term repurposing candidate than visual epilepsy.
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidättyä**
+
+**Perustelut:**
+Visual-indikaation todisteet rajoittuvat mekanistiseen uskottavuuteen (AMPA-reseptori-antagonismi, joka vastustaa valosta aiheuttamaa kortikaalista yliaktiivisuutta) tuettuna vain perampanelin yleisen epilepsian tehokkuuden tutkimuksilla ja kirjallisuudella — mikään ei käsittele visual/valoherkän epilepsiaa suoraan, ja vahvimmat mainitut tutkimukset arvioidaan "C" relevanssiksi. Tämä vastaa todiste-tasoa L4 / päätösvaiheessa S1 ("Tutkimuskysymys"), riittämätöntä edetä edes suojatoimiksi.
+
+**Edetä, seuraavaa tarvitaan:**
+- TFDA/Fimea pakkausseloste tiedot (varoitukset, vasta-aiheet) — tällä hetkellä estävä tietoaukko (DG001)
+- Strukturoitu vaikutusmekanismi-tieto DrugBankista (DG002)
+- Omistettu tutkimus tai tapaussarja, joka rekrytoi potilaita visual/valoherkän refleksi-epilepsian kanssa
+- Kontekstin kannalta: tämän todistepaketin perampanelin muista TxGNN-ennustetuista indikaatioista **status epilepticus** (sijoitus 10) on aineellisesti vahvempia todistuksia — käynnissä oleva Vaihe 3 lisähoito-tutkimus, Vaihe 2 profylaksin tutkimus ja systemaattinen katsaus — saavuttavat todiste-tasoa L3 / "Edetä suojatoimiksi." Tämä voi olla lupaavampi lähiaikaisen uudelleenkäytön kandidaatti kuin visual epilepsia.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

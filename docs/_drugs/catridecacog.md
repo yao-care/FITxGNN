@@ -29,72 +29,73 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Catridecacog: From Unspecified Original Indication to Primary Release Disorder of Platelets
+# Catridecacog: määrittämättömästä alkuperäisestä käyttöaiheesta verihiutaleiden primaarisen vapautumishäiriöön
 
-## One-Sentence Summary
+## Yhden lauseen tiivistelmä
 
-Catridecacog (DrugBank DB09310, recombinant coagulation Factor XIII A-subunit) has no original indication or mechanism-of-action data available in the current evidence pack. The TxGNN model predicts a possible link to **Primary Release Disorder of Platelets**, with a prediction score of **99.29%**, but currently **0 clinical trials** and **0 publications** support this direction.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available in evidence pack (no Finland license data, `original_indications` empty) |
-| Predicted New Indication | Primary release disorder of platelets |
-| TxGNN Prediction Score | 99.29% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Catridecacog (DrugBank DB09310, rekombinantti-koagulaatiotekijä XIII A-yksikkö) on nykyisessä näyttöpaketissa ilman alkuperäisen käyttöaiheiston ja vaikutusmekanismin tietoja. TxGNN-malli ennustaa mahdollisen yhteyden **verihiutaleiden primaarisen vapautumishäiriöön**, ennuste-pistemäärällä **99,29 %**, mutta tätä suuntaa tukee tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua**.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Currently, detailed mechanism of action data is not available for catridecacog in this evidence pack, and no original indication is documented either (DrugBank query returned no `original_moa`, and no Taiwan/Finland licenses exist to infer approved use from).
-
-Based on the drug's identity as a recombinant Factor XIII A-subunit, and the mechanistic rationale supplied alongside the TxGNN prediction, the biological link to the predicted indication is weak rather than strong:
-
-Primary release disorder of platelets is caused by a defect in platelet granule (dense granule/alpha granule) release, which impairs the secondary amplification of platelet activation signaling — a primary hemostasis defect. Factor XIII, by contrast, acts at the terminal step of the coagulation cascade, cross-linking fibrin monomers to stabilize an already-formed clot. It has no direct biochemical relationship to the platelet granule-release mechanism; at most it could exert an indirect effect through overall clot stabilization. **The mechanistic linkage between the drug and the predicted indication is explicitly assessed as low.**
-
-This means the prediction should be read as a hypothesis-generating signal from the model rather than a mechanistically well-supported repurposing candidate.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Kohta | Sisältö |
+|------|--------|
+| Alkuperäinen käyttöaihe | Ei saatavilla näyttöpaketista (ei Suomen myyntilupa-tietoja, `original_indications` tyhjä) |
+| Ennustettu uusi käyttöaihe | Verihiutaleiden primaarinen vapautumishäiriö |
+| TxGNN ennuste-pistemäärä | 99,29 % |
+| Todistusaineiston taso | L5 (vain mallin ennuste, ei tukevia tutkimuksia) |
+| Suomen markkinatilanne | ✗ Ei markkinoilla |
+| Myyntilupien lukumäärä | 0 |
+| Suositeltu päätös | Pidätä |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennuste on perusteltu?
 
-Currently no related literature available
+Tällä hetkellä catridecacogin yksityiskohtaista vaikutusmekanismin tietoa ei ole saatavilla nykyisessä näyttöpaketissa, eikä alkuperäistäkään käyttöaihetta ole dokumentoitu (DrugBank-haku ei palauttanut `original_moa`-tietoja, eikä Taiwan/Suomen myyntilupaa ole käytettävissä hyväksytyn käytön päättelemiseen).
 
----
+Lääkkeen identiteetin perusteella rekombinantti-koagulaatiotekijä XIII A-yksiköstä ja TxGNN-ennusteen mukaan toimitetusta mekanistisesta perustelusta biologinen yhteys ennustettuun käyttöaiheseen on heikko eikä vahva:
 
-## Safety Considerations
+Verihiutaleiden primaarinen vapautumishäiriö johtuu verihiutaleiden granuulien (tiheät granuulit/alfa-granuulit) vapautumisen häiriöstä, joka heikentää verihiutaleen aktivaation signaloinnin toisioamplifikaatiota — primaarisen hemostaasin häiriö. Koagulaatiotekijä XIII puolestaan vaikuttaa koagulaatiokaskadin viimeisessä vaiheessa, ristiinkytkien fibriinin monomeereita jo muodostuneen hyytymen stabilisoimiseksi. Sillä ei ole suoraa biokemiallista suhdetta verihiutaleiden granuulien vapautumismekanismiin; enintään se voisi vaikuttaa epäsuorasti hyytymen yleisellä stabilisaatiolla. **Lääkkeen ja ennustetun käyttöaiheeseen välinen mekanistinen yhteys on eksplisiittisesti arvioitu heikoksi.**
 
-Please refer to the package insert for safety information.
-
-*(Note: TFDA package insert warnings/contraindications are flagged as a **Blocking** data gap (DG001) in this evidence pack — this must be resolved before any S1 safety assessment can proceed.)*
+Tämä tarkoittaa, että ennustetta tulisi lukea mallin hypoteesin generoivana signaalina pikemminkin kuin mekanistisesti hyvin tuetuksi uusien käyttöaiheisiin ehdotukseksi.
 
 ---
 
-## Conclusion and Next Steps
+## Kliinisten tutkimusten todistusaineisto
 
-**Decision: Hold**
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia
 
-**Rationale:**
-The prediction relies solely on a TxGNN model score (L5 evidence level) with zero clinical trials and zero literature support. The supplied mechanistic rationale itself rates the biological linkage as low — Factor XIII's fibrin cross-linking role does not directly address the platelet granule-release defect underlying this indication.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings/contraindications) — currently blocking (DG001)
-- Mechanism of action (MOA) data via DrugBank API — currently high-severity gap (DG002)
-- Preclinical or case-level evidence specifically linking Factor XIII supplementation to platelet release disorders, pseudo-von Willebrand disease, or Glanzmann thrombasthenia (the other two candidates in this pack carry the same L5/Hold status and equally weak mechanistic links)
-- Confirmation of original approved indication(s) for catridecacog, since none are currently on file
+## Kirjallisuustodistusaineisto
+
+Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta
+
+---
+
+## Turvallisuusasiat
+
+Katso pakkausselosteen turvallisuustiedot.
+
+*(Huomio: TFDA-pakkausselosteen varoitukset/vasta-aiheet on merkitty **estäväksi** tietovajeeksi (DG001) tässä näyttöpaketissa — tämä on ratkaistava ennen S1-turvallisuusarviointia.)*
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidätä**
+
+**Perustelut:**
+Ennuste perustuu yksinomaan TxGNN-mallin pistemäärään (L5-todistusaineiston taso) ilman kliinisten tutkimusten tai kirjallisuuden tukea. Toimitettu mekanistinen perustelu arvioi biologisen yhteyden heikoksi — koagulaatiotekijä XIII:n fibriinin ristiinkytkentärooli ei suoraan käsittele verihiutaleiden granuulien vapautumisen häiriötä, joka on tämän käyttöaiheeseen taustalla.
+
+**Etenemiseksi tarvitaan seuraavaa:**
+- TFDA-pakkausseloste (varoitukset/vasta-aiheet) — estää tällä hetkellä (DG001)
+- Vaikutusmekanismin tieto (MOA) DrugBank API:n kautta — korkean vakavuusasteen tietovajeessa (DG002)
+- Prekliiniset tai tapaus-tasoisen todistusaineistot, jotka erityisesti linkittävät koagulaatiotekijä XIII:n lisäämisen verihiutaleiden vapautumishäiriöihin, pseudo-von Willebrandi-tautiin tai Glanzmannin trombasteniaan (tämän näyttöpakkauksen kaksi muuta kandidaattia sisältävät saman L5/Pidätä-statuksen ja yhtä heikkoja mekanistisia linkkejä)
+- Vahvistus koagulaatiotekijä XIII:n alkuperäisestä hyväksytystä käyttöaihesesta, koska mitään ei ole tällä hetkellä tiedostossa
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

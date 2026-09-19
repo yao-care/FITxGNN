@@ -29,102 +29,103 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **7** kpl
 
 </div>
 
-# Icatibant: From Hereditary Angioedema (HAE) to C1 Inhibitor Deficiency
+# Ikatibantti: Perinnöllisestä angioödeemasta (HAE) C1-inhibiittorin puutokseen
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-> Icatibant (DrugBank DB06196) is a bradykinin B2 receptor antagonist already used globally (brand name Firazyr) for acute attacks of hereditary angioedema (HAE) caused by C1 inhibitor deficiency, though it is currently **not marketed in Finland**.
-> The TxGNN model predicts it is effective for **C1 inhibitor deficiency**, the very condition underlying HAE, with **23 clinical trials** and **20 publications** currently supporting this direction.
-> This is less a novel repurposing signal than a confirmation of icatibant's already-established global indication — the open question here is Finland market entry and local safety documentation, not efficacy.
+> Ikatibantti (DrugBank DB06196) on bradykiniini-B2-reseptorin antagonisti, jota käytetään maailmanlaajuisesti (tuotenimi Firazyr) perinnöllisen angioödeeman (HAE) äkillisten kohtausten hoitoon, kun kyseessä on C1-inhibiittorin puutos, vaikka sitä **ei ole tällä hetkellä markkinoilla Suomessa**.
+> TxGNN-malli ennustaa sen olevan tehokas **C1-inhibiittorin puutokseen**, tilalle, joka on HAE:n taustalla, ja sillä on tukena **23 kliinistä tutkimusta** ja **20 julkaisua**.
+> Tämä on enemmän vahvistus ikatibantin jo vakiintuneen maailmanlaajuisen indikaation osalta kuin uuden käyttöindikaation tunnistaminen — avoin kysymys on Suomen markkinoille pääsy ja paikallinen merkintä, ei tehokkuus.
 
 ---
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohde | Sisältö |
 |------|------|
-| Original Indication | Hereditary Angioedema (HAE) due to C1 inhibitor deficiency *(inferred from clinical trial/literature evidence; no formal license text on file for Finland)* |
-| Predicted New Indication | C1 inhibitor deficiency |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L1 |
-| Finland Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Alkuperäinen indikaatio | Perinnöllinen angioödeema (HAE), jonka aiheuttaa C1-inhibiittorin puutos *(pääteltävissä kliinisistä tutkimuksista/kirjallisuustodisteista; virallista lisenssitekstiä Suomesta ei ole saatavilla)* |
+| Ennustettu uusi indikaatio | C1-inhibiittorin puutos |
+| TxGNN-ennustepisteet | 99,99 % |
+| Todistusaineiston taso | L1 |
+| Suomen markkinatilanne | ✗ Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Jatka varauksilla |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Detailed mechanism-of-action data is not available directly from DrugBank for this pack (data gap DG002). However, the literature evidence collected here documents icatibant as a **selective bradykinin B2 receptor antagonist**: it competitively blocks bradykinin from binding its B2 receptor, preventing the vascular permeability increase and edema formation that bradykinin otherwise triggers (PMID 34965883, PMID 24925394).
+Yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla suoraan tästä paketista DrugBankista (tietoaukko DG002). Kuitenkin tässä kerätty kirjallisuustodiste dokumentoi ikatibantin **selektiivisenä bradykiniini-B2-reseptorin antagonistina**: se kilpailevasti estää bradykiniinia sitoutumasta sen B2-reseptoriin, mikä estää verisuonipermeabiliteettia lisäävää ja turvotusta aiheuttavaa vaikutusta, jonka bradykiniini muuten aiheuttaa (PMID 34965883, PMID 24925394).
 
-C1 inhibitor (C1-INH) normally restrains the kallikrein-kinin cascade; when it is deficient or dysfunctional (hereditary or acquired), uncontrolled bradykinin generation drives the swelling attacks that define hereditary and acquired angioedema. Icatibant does not correct the enzyme deficiency itself, but blocks the final common downstream effector (the B2 receptor), which is why it is already the standard on-demand treatment for HAE attacks in multiple markets (Japan, UK, Spain, Taiwan, China, per the trial and registry evidence in this pack).
+C1-inhibiittorin (C1-INH) tehtävänä on tavallisesti hillitä kallikreiiini-kiniini-kaskaadia; kun sitä puuttuu tai se toimii väärin (perinnöllinen tai hankittu), hallitsematon bradykiniinin tuotanto ajaa turvotuskohtauksia, jotka määrittelevät perinnöllistä ja hankittua angioödeemaa. Ikatibantti ei korjaa entsyymin puutosta itsessään, vaan estää viimeisen yhteisen loppupään effetorin (B2-reseptorin), mikä on syy siihen, että se on jo vakio tarpeen mukaan annettava hoito HAE-kohtauksille useilla markkinoilla (Japani, Iso-Britannia, Espanja, Taiwan, Kiina tämän paketin tutkimus- ja rekisteritodisteen mukaan).
 
-Because "C1 inhibitor deficiency" is the pathophysiological label for the same disease process icatibant already treats clinically, the TxGNN prediction should be read as the model correctly recovering an existing, well-validated indication rather than surfacing a genuinely new therapeutic hypothesis. The practical question for this jurisdiction is therefore registration and local labeling, not proof of concept.
+Koska "C1-inhibiittorin puutos" on patofysiologinen merkintä samalle sairausprosessille, jonka ikatibantti jo hoitaa kliinisesti, TxGNN-ennuste tulisi lukea siten, että malli palauttaa oikein olemassa olevan, hyvin vahvistetun indikaation sen sijaan että se paljastaisi genuinisti uuden terapeuttisen hypoteesin. Tämän lainkäyttöalueen käytännön kysymys on siis rekisteröinti ja paikallinen merkintä, ei käsitteen todiste.
 
 ---
 
-## Clinical Trial Evidence
+## Kliinisten tutkimusten todisteet
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimuksen numero | Vaihe | Tila | Osallistujamäärä | Keskeiset tulokset |
 |---------|------|------|------|---------|
-| [NCT00912093](https://clinicaltrials.gov/study/NCT00912093) | Phase 3 | Completed | 98 | Randomized, double-blind, placebo-controlled trial of subcutaneous icatibant for acute HAE attacks |
-| [NCT00097695](https://clinicaltrials.gov/study/NCT00097695) | Phase 3 | Completed | 84 | Randomized, double-blind, placebo-controlled trial of subcutaneous icatibant for cutaneous/abdominal HAE attacks |
-| [NCT00500656](https://clinicaltrials.gov/study/NCT00500656) | Phase 3 | Completed | 85 | Randomized, double-blind head-to-head trial: icatibant vs. oral tranexamic acid for HAE |
-| [NCT01034969](https://clinicaltrials.gov/study/NCT01034969) | N/A | Completed | 1761 | Icatibant Outcome Survey (IOS) — large multinational prospective registry of real-world safety/outcomes |
-| [NCT00997204](https://clinicaltrials.gov/study/NCT00997204) | Phase 3 | Completed | 151 | Open-label study of self-administered subcutaneous icatibant for HAE attacks |
-| [NCT04057131](https://clinicaltrials.gov/study/NCT04057131) | N/A | Completed | 179 | FIRAZYR post-marketing drug-use survey in Japan |
-| [NCT01386658](https://clinicaltrials.gov/study/NCT01386658) | Phase 3 | Completed | 32 | Pharmacokinetics, tolerability and safety of single-dose icatibant in pediatric/adolescent HAE patients |
-| [NCT03888755](https://clinicaltrials.gov/study/NCT03888755) | Phase 3 | Completed | 8 | Open-label efficacy, PK and safety study of icatibant in Japanese HAE patients |
-| [NCT07290855](https://clinicaltrials.gov/study/NCT07290855) | Phase 4 | Completed | 5 | Safety/efficacy of icatibant injection (Icanticure®) in bradykinin-induced angioedema, Taiwan NHI-reimbursed setting |
-| [NCT05489640](https://clinicaltrials.gov/study/NCT05489640) | N/A | Completed | 85 | Real-world UK homecare self-administration study — treatment patterns and patient-reported outcomes |
+| [NCT00912093](https://clinicaltrials.gov/study/NCT00912093) | Vaihe 3 | Päättynyt | 98 | Satunnaistettu, kaksoissokkouttu, lumekontrolloitu tutkimus ihonalaisesti annetusta ikatibantin injektiosta äkillisiin HAE-kohtauksiin |
+| [NCT00097695](https://clinicaltrials.gov/study/NCT00097695) | Vaihe 3 | Päättynyt | 84 | Satunnaistettu, kaksoissokkouttu, lumekontrolloitu tutkimus ihonalaisesti annetusta ikatibantin injektiosta ihon- ja vatsaontelon HAE-kohtauksiin |
+| [NCT00500656](https://clinicaltrials.gov/study/NCT00500656) | Vaihe 3 | Päättynyt | 85 | Satunnaistettu, kaksoissokkouttu pää-päävertailututkimus: ikatibantti vs. suun kautta otettava traneksamiinihappo HAE:ssa |
+| [NCT01034969](https://clinicaltrials.gov/study/NCT01034969) | N/A | Päättynyt | 1761 | Ikatibantin tulostutkimus (IOS) — suuri monikansallinen prospektiivinen rekisteri reaalimaailman turvallisuudesta ja tuloksista |
+| [NCT00997204](https://clinicaltrials.gov/study/NCT00997204) | Vaihe 3 | Päättynyt | 151 | Avoin tutkimus itse antamasta ihonalaisesta ikatibantin injektiosta HAE-kohtauksiin |
+| [NCT04057131](https://clinicaltrials.gov/study/NCT04057131) | N/A | Päättynyt | 179 | FIRAZYR-jälkimarkkinoinnin lääkkeiden käyttötutkimus Japanissa |
+| [NCT01386658](https://clinicaltrials.gov/study/NCT01386658) | Vaihe 3 | Päättynyt | 32 | Yksittäisen annoksen ikatibantin farmakokinetiikka, siedettävyys ja turvallisuus lapsille ja nuorille HAE-potilaille |
+| [NCT03888755](https://clinicaltrials.gov/study/NCT03888755) | Vaihe 3 | Päättynyt | 8 | Avoin ikatibantin tehokkuus-, PK- ja turvallisuustutkimus japanilaisissa HAE-potilaissa |
+| [NCT07290855](https://clinicaltrials.gov/study/NCT07290855) | Vaihe 4 | Päättynyt | 5 | Ikatibantin injektio (Icanticure®) bradykiniini-indusoidussa angioödeemassa, Taiwanin NHI-korvattu hoitoympäristö |
+| [NCT05489640](https://clinicaltrials.gov/study/NCT05489640) | N/A | Päättynyt | 85 | Reaalimaailman UK-tutkimus kotihoitopotilaan omakseen antamasta hoitosta — hoitokäytännöt ja potilaan raportoitavat tulokset |
 
 ---
 
-## Literature Evidence
+## Kirjallisuustodisteet
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset tulokset |
 |------|-----|------|------|---------|
-| [37898409](https://pubmed.ncbi.nlm.nih.gov/37898409/) | 2024 | Review | J Allergy Clin Immunol | Disease burden of C1-INH-deficiency HAE in the Asia-Pacific region |
-| [37716525](https://pubmed.ncbi.nlm.nih.gov/37716525/) | 2023 | Retrospective study | JACI In Practice | Bicenter review of diagnosis, course and therapy of acquired C1-INH deficiency |
-| [37146882](https://pubmed.ncbi.nlm.nih.gov/37146882/) | 2023 | Observational survey | JACI In Practice | National UK survey of HAE and acquired C1 inhibitor deficiency demographics |
-| [35871284](https://pubmed.ncbi.nlm.nih.gov/35871284/) | 2023 | Retrospective study | J Clin Pharmacol | Real-life off-label prescribing patterns of C1-INH concentrates and icatibant |
-| [35662289](https://pubmed.ncbi.nlm.nih.gov/35662289/) | 2022 | Registry analysis | Clin Exp Allergy | Icatibant and C1-inhibitor use in treatment of laryngeal HAE attacks |
-| [34965883](https://pubmed.ncbi.nlm.nih.gov/34965883/) | 2021 | Registry (IOS) | Allergy Asthma Clin Immunol | Real-world icatibant treatment outcomes in Spanish HAE-1/2 patients |
-| [33602658](https://pubmed.ncbi.nlm.nih.gov/33602658/) | 2021 | Review | J Investig Allergol Clin Immunol | Overview of current and emerging HAE therapies including icatibant |
-| [33472202](https://pubmed.ncbi.nlm.nih.gov/33472202/) | 2021 | Nationwide retrospective study | Int Arch Allergy Immunol | Occurrence, features and management of acquired C1-INH deficiency in the Czech Republic |
-| [32753245](https://pubmed.ncbi.nlm.nih.gov/32753245/) | 2020 | Clinical recommendations | Rev Med Interne | CREAK diagnosis/treatment recommendations for acquired C1-INH-deficiency angioedema |
-| [30280305](https://pubmed.ncbi.nlm.nih.gov/30280305/) | 2018 | Case series | J Clin Immunol | Icatibant and recombinant C1 inhibitor use for HAE attacks during pregnancy |
+| [37898409](https://pubmed.ncbi.nlm.nih.gov/37898409/) | 2024 | Katsaus | J Allergy Clin Immunol | C1-INH-puutosta aiheuttavan HAE:n tautitaakka Aasian ja Tyynenmeren alueella |
+| [37716525](https://pubmed.ncbi.nlm.nih.gov/37716525/) | 2023 | Retrospektiivinen tutkimus | JACI In Practice | Kahden keskuksen analyysi diagnoosista, kulusta ja hoidosta hankkineessa C1-INH-puutoksessa |
+| [37146882](https://pubmed.ncbi.nlm.nih.gov/37146882/) | 2023 | Havainnoiva tutkimus | JACI In Practice | Kansallinen UK-tutkimus HAE:n ja hankitun C1-inhibiittorin puutoksen väestörakenteesta |
+| [35871284](https://pubmed.ncbi.nlm.nih.gov/35871284/) | 2023 | Retrospektiivinen tutkimus | J Clin Pharmacol | Reaalimaailman epävirallisen käytön reseptiinkirjoituskäytännöt C1-INH-väkevyyksille ja ikatibanttille |
+| [35662289](https://pubmed.ncbi.nlm.nih.gov/35662289/) | 2022 | Rekisterianalyysi | Clin Exp Allergy | Ikatibantin ja C1-inhibiittorin käyttö kurkunpään HAE-kohtausten hoidossa |
+| [34965883](https://pubmed.ncbi.nlm.nih.gov/34965883/) | 2021 | Rekisteri (IOS) | Allergy Asthma Clin Immunol | Reaalimaailman ikatibantin hoitotulokset espanjalaisissa HAE-1/2-potilaissa |
+| [33602658](https://pubmed.ncbi.nlm.nih.gov/33602658/) | 2021 | Katsaus | J Investig Allergol Clin Immunol | Yleiskatsaus nykyisistä ja nousevista HAE-terapioista, mukaan lukien ikatibantti |
+| [33472202](https://pubmed.ncbi.nlm.nih.gov/33472202/) | 2021 | Valtakunnallinen retrospektiivinen tutkimus | Int Arch Allergy Immunol | Hankitun C1-INH-puutoksen esiintyminen, ominaisuudet ja hallinta Tšekin tasavallassa |
+| [32753245](https://pubmed.ncbi.nlm.nih.gov/32753245/) | 2020 | Kliiniset suositukset | Rev Med Interne | CREAK-diagnoosin ja -hoito-ohjeet hankitulle C1-INH-puutoksesta aiheutuneelle angioödeemalle |
+| [30280305](https://pubmed.ncbi.nlm.nih.gov/30280305/) | 2018 | Tapaussarja | J Clin Immunol | Ikatibantin ja uudelleenyhdistelmä-C1-inhibiittorin käyttö HAE-kohtauksissa raskauden aikana |
 
 ---
 
-## Finland Market Information
+## Suomen markkinatieto
 
-Icatibant currently holds **no marketing authorization in Finland** (`market_status: Not marketed`, `total_licenses: 0`). No product-level licensing data is available to summarize.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Note: no Finland-specific package insert, key warnings, contraindications, or DDI data are currently on file — see DG001/DG002 below. Prescribing information from jurisdictions where icatibant/Firazyr is already approved, e.g. the EU SmPC, should be reviewed as an interim reference.)*
+Ikatibantti ei tällä hetkellä pidä mitään myyntilupaa Suomessa (`market_status: Not marketed`, `total_licenses: 0`). Tuotetasoa koskevia lisensointitietoja ei ole saatavilla yhteenvetoa varten.
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuushuomioon otettavat asiat
 
-**Decision: Proceed with Guardrails**
+Katso turvallisuustiedoista pakkausesite.
 
-**Rationale:**
-Efficacy evidence is strong and consistent — three completed Phase 3 RCTs plus a large multinational real-world registry (IOS, n=1761) already support icatibant for HAE/C1 inhibitor deficiency (Evidence Level L1). The blocker is not clinical evidence but local regulatory readiness: icatibant is not yet marketed in Finland, and the Finland-specific package insert/safety data is a **Blocking** data gap (DG001) that must be resolved before a formal S1 safety review can proceed.
+*(Huomautus: Suomeen ominaisuuksien pakkausesite, keskeiset varoitukset, vasta-aiheet tai lääke-lääke-vuorovaikutustiedot eivät ole tällä hetkellä saatavilla — katso DG001/DG002 alla. Reseptintiedot lainkäyttöalueista, joissa ikatibantti/Firazyr on jo hyväksytty, esimerkiksi EU SmPC, tulisi tarkistaa väliaikaisena viitteenä.)*
 
-**To proceed, the following is needed:**
-- Obtain the Fimea-approved package insert (warnings and contraindications) — Blocking gap, DG001
-- Confirm mechanism of action and drug classification directly via DrugBank API — DG002
-- Complete a formal drug-drug interaction (DDI) review (current automated query returned "not found")
-- Assess the Finland regulatory pathway (e.g., mutual recognition/decentralized procedure) given icatibant is already approved elsewhere in the EU and Asia-Pacific for this same indication
+---
 
-*Note: Ranks 2–7 in this evidence pack (serpinopathy, pseudo-von Willebrand disease, primary platelet release disorder, immune-mediated necrotizing myopathy, antisynthetase syndrome, Glanzmann thrombasthenia) all scored L5/S0/Hold — no clinical trials, no literature, and weak-to-absent mechanistic links per the model's own rationale — and are not recommended for further evaluation.*
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Jatka varauksilla**
+
+**Perustelut:**
+Tehokkuustodiste on vahva ja johdonmukainen — kolme päättynyttä Vaihe 3 RCT:tä sekä suuri monikansallinen reaalimaailman rekisteri (IOS, n=1761) tukevat jo ikatibanttia HAE:ssa/C1-inhibiittorin puutoksessa (Todistusaineiston taso L1). Esto ei ole kliininen todiste vaan paikallisen sääntelyvalmiuden tila: ikatibanttia ei ole vielä markkinoilla Suomessa, ja Suomeen ominaisuuksien pakkausesite/turvallisuustiedot ovat **estävä** tietoaukko (DG001), joka on ratkaistava ennen kuin muodollinen S1-turvallisuustarkistus voidaan aloittaa.
+
+**Jatkaakseen tarvitaan seuraavaa:**
+- Hanki Fimean-hyväksytty pakkausesite (varoitukset ja vasta-aiheet) — Estävä aukko, DG001
+- Vahvista vaikutusmekanismi ja lääkkeen luokittelu suoraan DrugBank API:n kautta — DG002
+- Suorita muodollinen lääke-lääke-vuorovaikutus (DDI) -tarkistus (nykyinen automaattinen kysely palautti "not found")
+- Arvioi Suomen sääntelytapa (esim. keskinäinen tunnustaminen/hajautettu menettely) ottaen huomioon, että ikatibantti on jo hyväksytty muualla EU:ssa ja Aasia-Tyynenmeren alueella tälle samalle indikaatiolle
+
+*Huomautus: Ennusteet sijoituksilla 2–7 tässä todistusaineistopaketeissa (serpinopathy, pseudo-von Willebrand-tauti, primaarinen trombosyyttien vapautushäiriö, immuunivälitteinen nekrotisoiva myopatia, antisynthetaasi-oireyhtymä, Glanzmannin trombastenias) saivat kaikki L5/S0/Pidä — ei kliinisiä tutkimuksia, ei kirjallisuutta ja heikko-poissaoleva mekaaninen linkitys mallin omien perustelujen mukaan — eikä ole suositeltavaa jatkaa evaluointia näille.*
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

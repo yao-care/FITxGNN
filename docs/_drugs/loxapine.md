@@ -29,87 +29,88 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Loxapine: From Schizophrenia to Manic Bipolar Affective Disorder
+# Loksapiini: skitsofreniasta maanisen bipolaarisen affektiivisen häiriön hoitoon
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Loxapine is a first-generation (typical) antipsychotic historically used for **schizophrenia**; it is not currently marketed in Finland and has no Fimea license on file. The TxGNN model predicts it may also be effective for **Manic Bipolar Affective Disorder**, and this is not a purely speculative prediction — an inhaled formulation of loxapine (Adasuve) is already approved in the US/EU for acute agitation in bipolar I disorder. **20 publications**, including a systematic review/meta-analysis and Phase III RCT reports, currently support this direction, though no trials are registered in the structured clinical-trials feed.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Schizophrenia (per literature; no Finland regulatory license on file — drug is unmarketed) |
-| Predicted New Indication | Manic Bipolar Affective Disorder |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L2 |
-| Finland Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+Loksapiini on ensimmäisen sukupolven (tyypillinen) antipsykoottinen lääke, jota on historiallisesti käytetty skitsofreniaan; sitä ei tällä hetkellä markkinoida Suomessa eikä sille ole Fimean myyntilupaa. TxGNN-malli ennustaa, että se saattaa olla tehokas myös maanisen bipolaarisen affektiivisen häiriön hoitoon, ja tämä ei ole puhtaasti spekulatiivinen ennustus – loksapiiinin sisäänhengitettävä muoto (Adasuve) on jo hyväksytty Yhdysvalloissa ja EU:ssa bipolaarisen I-häiriön akuutin levottomuuden hoitoon. **20 julkaisua**, joista systemaattinen katsaus/meta-analyysi ja III-vaiheen satunnaistettujen kontrollittutkimusten raportit, tukevat tällä hetkellä tätä suuntaa, vaikka yhtään tutkimusta ei ole rekisteröity strukturoidussa kliinisten tutkimusten syötteessä.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Currently, detailed mechanism of action data is not available from DrugBank for this candidate. Based on known pharmacology, Loxapine is a dibenzoxazepine-class first-generation antipsychotic acting primarily via D2 dopamine and 5-HT2A serotonin receptor antagonism, with additional sedating (antihistaminic) properties. Its efficacy in schizophrenia, particularly for psychotic and agitated symptoms, has been established through decades of clinical use.
-
-Manic episodes in bipolar disorder and acute psychotic exacerbations in schizophrenia share substantial symptomatic and neurochemical overlap — both frequently present with agitation, hyperarousal, and impaired reality testing that respond to D2/5-HT2A blockade. This is not a purely mechanistic extrapolation: an inhaled powder formulation of loxapine (Adasuve®, using the Staccato® delivery system) has already been approved in the United States and European Union specifically for the acute treatment of agitation associated with **both** schizophrenia and bipolar I disorder, reaching peak plasma concentrations within minutes. Two Phase III randomized, double-blind, placebo-controlled trials (registered as NCT00628589 and NCT00721955, referenced within the literature evidence below) enrolled agitated patients with bipolar I disorder specifically, and demonstrated efficacy using the PANSS-Excited Component scale.
-
-Given this existing regulatory precedent for the agitation/mania indication in bipolar disorder, the TxGNN prediction is well-supported by real-world clinical development rather than being an unvalidated model artifact.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered in the structured trials feed. (Note: the literature evidence below references two Phase III RCTs — NCT00628589 and NCT00721955 — and the PLACID trial, but these were not returned by the structured ClinicalTrials.gov/ICTRP query for this candidate.)
+| Kohta | Sisältö |
+|-------|---------|
+| Alkuperäinen indikaatio | Skitsofrenia (kirjallisuuden mukaan; Fimean myyntilupaa ei ole saatavilla – lääke ei ole markkinoilla) |
+| Ennustettu uusi indikaatio | Maaninen bipolaarinen affektiivinen häiriö |
+| TxGNN-ennusteen pistemäärä | 99.99% |
+| Näytön taso | L2 |
+| Markkinatilanne Suomessa | Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Jatka varauksilla |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennustus on perusteltu?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [27151529](https://pubmed.ncbi.nlm.nih.gov/27151529/) | 2016 | Systematic Review & Meta-analysis | Human Psychopharmacology | Systematic review of short-term pharmacological interventions for agitation associated with schizophrenia or bipolar disorder. |
-| [29724638](https://pubmed.ncbi.nlm.nih.gov/29724638/) | 2018 | RCT | European Neuropsychopharmacology | PLACID study: assessor-blind, parallel-group RCT (23 centres, 4 countries) comparing inhaled loxapine vs IM aripiprazole in acutely agitated schizophrenia/bipolar I patients. |
-| [29163985](https://pubmed.ncbi.nlm.nih.gov/29163985/) | 2017 | RCT (post-hoc analysis) | BJPsych Open | PANSS-EC responder analysis of two Phase III RCTs (NCT00628589, NCT00721955) in 344 schizophrenia and 314 bipolar I agitated patients. |
-| [28376877](https://pubmed.ncbi.nlm.nih.gov/28376877/) | 2017 | RCT (study design) | BMC Psychiatry | Rationale and design of the PLACID RCT comparing inhaled loxapine vs IM aripiprazole for acute agitation in schizophrenia/bipolar disorder. |
-| [22226343](https://pubmed.ncbi.nlm.nih.gov/22226343/) | 2012 | Review (RCT effect sizes) | International Journal of Clinical Practice | Analysis of effect sizes from 2 Phase III RCTs of inhaled loxapine in schizophrenia/bipolar agitation. |
-| [23740380](https://pubmed.ncbi.nlm.nih.gov/23740380/) | 2013 | Review | CNS Drugs | Review of inhaled loxapine powder (Adasuve) approval and use in acute agitation in bipolar disorder/schizophrenia. |
-| [30721526](https://pubmed.ncbi.nlm.nih.gov/30721526/) | 2019 | Expert Review/Commentary | Drugs in R&D | Expert review of inhaled loxapine for acute agitation management in bipolar disorder and schizophrenia. |
-| [31496709](https://pubmed.ncbi.nlm.nih.gov/31496709/) | 2019 | Review | Neuropsychiatric Disease and Treatment | Safety, efficacy, and patient acceptability of inhaled loxapine for acute agitation in schizophrenia/bipolar I disorder. |
-| [28208695](https://pubmed.ncbi.nlm.nih.gov/28208695/) | 2017 | Clinical Review | International Journal of Molecular Sciences | Clinical review of inhaled loxapine's role in treating acute agitation in psychiatric disorders. |
-| [27121764](https://pubmed.ncbi.nlm.nih.gov/27121764/) | 2016 | Review (drug profile) | Current Medical Research and Opinion | Review of inhaled loxapine for urgent treatment of acute agitation in schizophrenia/bipolar disorder. |
+Tällä hetkellä DrugBankista ei ole saatavilla yksityiskohtaisia vaikutusmekanismin tietoja tälle kandidaatille. Tunnetun farmakologian perusteella loksapiini on dibentsoksatsepiiniksiluokkaan kuuluva ensimmäisen sukupolven antipsykoottinen lääke, joka vaikuttaa pääasiassa D2-dopamiini- ja 5-HT2A-serotoniinireseptorin antagonismin kautta ja jolla on lisäksi rauhoittava (antihistamiininen) vaikutus. Sen tehokkuus skitsofreniassa, erityisesti psykoottisiin ja levottomuusoireisiin, on vakiintunut vuosikymmenten kliinisen käytön kautta.
+
+Bipolaarisen häiriön maaniset vaiheet ja skitsofreniassa esiintyvät akuutit psykootiset pahenemistilanteet jakavat merkittävän oirekuvan ja neurochemillisen päällekkäisyyden – molemmat esitetään usein levottomuutena, yliaktivoitumisena ja heikentyneen realiteetin arvioinnin kanssa, jotka reagoivat D2/5-HT2A-salpaukseen. Tämä ei ole puhtaasti mekanistinen ekstrapolointi: loksapiiinin sisäänhengitettävä jauhemuoto (Adasuve®, käyttäen Staccato®-toimitusjärjestelmää) on jo hyväksytty Yhdysvalloissa ja Euroopan unionissa erityisesti skitsofreniaan ja bipolaariseen I-häiriöön liittyvän akuutin levottomuuden hoitoon, ja se saavuttaa huippuplasmakonsentraatiot minuuteissa. Kaksi III-vaiheen satunnaistettua, kaksoissokkoutettua, lumelääkeillä kontrolloitua tutkimusta (rekisteröity koodeilla NCT00628589 ja NCT00721955, viitattu alla olevassa kirjallisuustodisteessa) rekrytoivat erityisesti levottomia bipolaarisen I-häiriön potilaita, ja ne osoittivat tehokkuuden käyttäen PANSS-Excited Component -asteikkoa.
+
+Ottaen huomioon olemassa olevan sääntelyllisen ennakkotapauksen levottomuus/mania-indikaatiolle bipolaarisessa häiriössä, TxGNN-ennuste on hyvin tuettu tosielämän kliinisen kehityksen avulla, ei validoimaton mallin artefakti.
 
 ---
 
-## Finland Market Information
+## Kliinisen tutkimuksen todisteet
 
-Loxapine is currently **not marketed** in Finland — no Fimea marketing authorizations are on file (0 licenses).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (No structured warnings, contraindications, or drug-interaction data were returned for this candidate; a Fimea package-insert review is required before any S1 safety assessment can proceed — see Data Gap DG001.)
+Tällä hetkellä yhtään asiaan liittyvää kliinistä tutkimusta ei ole rekisteröity strukturoidussa tutkimusten syötteessä. (Huomaa: alla oleva kirjallisuustodiste viittaa kahteen III-vaiheen satunnaistettuun kontrollittutkimukseen — NCT00628589 ja NCT00721955 — ja PLACID-tutkimukseen, mutta näitä ei palautettu strukturoidussa ClinicalTrials.gov/ICTRP-kyselyssä tälle kandidaatille.)
 
 ---
 
-## Conclusion and Next Steps
+## Kirjallisuustodisteet
 
-**Decision: Proceed with Guardrails**
+| PMID | Vuosi | Tyyppi | Lehti | Pääasiallisia löydöksiä |
+|------|-------|--------|-------|----------------------|
+| [27151529](https://pubmed.ncbi.nlm.nih.gov/27151529/) | 2016 | Systemaattinen katsaus ja meta-analyysi | Human Psychopharmacology | Systemaattinen katsaus lyhytaikaisista farmakologisista interventioista skitsofreniaan tai bipolaariseen häiriöön liittyvän levottomuuden hoitoon. |
+| [29724638](https://pubmed.ncbi.nlm.nih.gov/29724638/) | 2018 | Satunnaistettu kontrolloitu tutkimus | European Neuropsychopharmacology | PLACID-tutkimus: arvioija-sokeutettu, rinnakkaisen ryhmän satunnaistettu kontrolloitu tutkimus (23 keskusta, 4 maata) vertailemassa sisäänhengitettävää loksapiiinia vs IM-aripipratsolia akuutin levottomien skitsofrenia/bipolaarisen I-potilaiden kanssa. |
+| [29163985](https://pubmed.ncbi.nlm.nih.gov/29163985/) | 2017 | Satunnaistettu kontrolloitu tutkimus (post-hoc analyysi) | BJPsych Open | PANSS-EC-vastaajien analyysi kahdesta III-vaiheen satunnaistutkimuksesta (NCT00628589, NCT00721955) 344 skitsofrenia- ja 314 bipolaarisen I-potilaan levottomuuksien kanssa. |
+| [28376877](https://pubmed.ncbi.nlm.nih.gov/28376877/) | 2017 | Satunnaistettu kontrolloitu tutkimus (tutkimuskuvaus) | BMC Psychiatry | PLACID-satunnaistutkimuksen perustelut ja suunnittelu vertailemassa sisäänhengitettävää loksapiiinia vs IM-aripipratsolia akuutin levottomuuden hoitoon skitsofrenia/bipolaarisessa häiriössä. |
+| [22226343](https://pubmed.ncbi.nlm.nih.gov/22226343/) | 2012 | Katsaus (satunnaistutkimusten vaikutusten suuruus) | International Journal of Clinical Practice | Kahden III-vaiheen sisäänhengitettävän loksapiiinin satunnaistutkimuksen vaikutusten suuruuden analyysi skitsofrenia/bipolaarisessa levottomuudessa. |
+| [23740380](https://pubmed.ncbi.nlm.nih.gov/23740380/) | 2013 | Katsaus | CNS Drugs | Katsaus sisäänhengitettävän loksapiiinin jauhemuodon (Adasuve) hyväksyntään ja käyttöön akuutin levottomuuden hoitoon bipolaarisessa häiriössä/skitsofreniassa. |
+| [30721526](https://pubmed.ncbi.nlm.nih.gov/30721526/) | 2019 | Asiantuntija-arvio/kommentaari | Drugs in R&D | Asiantuntija-arvio sisäänhengitettävästä loksapiiinista akuutin levottomuuden hallinnasta bipolaarisessa häiriössä ja skitsofreniassa. |
+| [31496709](https://pubmed.ncbi.nlm.nih.gov/31496709/) | 2019 | Katsaus | Neuropsychiatric Disease and Treatment | Sisäänhengitettävän loksapiiinin turvallisuus, tehokkuus ja potilaan hyväksyntä akuutin levottomuuden hoitoon skitsofrenia/bipolaarisessa I-häiriössä. |
+| [28208695](https://pubmed.ncbi.nlm.nih.gov/28208695/) | 2017 | Kliininen katsaus | International Journal of Molecular Sciences | Kliininen katsaus sisäänhengitettävän loksapiiinin roolista akuutin levottomuuden hoitoon psykiatrisissa häiriöissä. |
+| [27121764](https://pubmed.ncbi.nlm.nih.gov/27121764/) | 2016 | Katsaus (lääkkeen profiili) | Current Medical Research and Opinion | Katsaus sisäänhengitettävästä loksapiiinista akuutin levottomuuden kiireelliseen hoitoon skitsofrenia/bipolaarisessa häiriössä. |
 
-**Rationale:**
-Loxapine's applicability to acute agitation in bipolar mania is corroborated by an existing approved indication (inhaled loxapine/Adasuve, US/EU) and by two Phase III RCTs plus a systematic review — this is meaningfully stronger than a pure model prediction (L2). However, no Finland licensing, package-insert safety data, or DrugBank MOA record currently exist, so the candidate cannot yet clear a formal S1 safety gate.
+---
 
-**To proceed, the following is needed:**
-- Fimea/TFDA package insert (warnings, contraindications) — currently a Blocking data gap (DG001)
-- DrugBank-confirmed mechanism of action — currently a High-severity data gap (DG002)
-- Confirmation of route compatibility (oral vs. inhaled loxapine) against the RCT evidence base, since the strongest supporting trials used the inhaled Adasuve formulation
-- Drug-drug interaction data (current DDI query returned no results)
+## Markkinatilanne Suomessa
 
-**Note on other predicted indications:** Nine additional TxGNN-predicted indications (ranks 2–10, e.g., retinal dystrophy, hydranencephaly, X-linked myopia variants, Charcot-Marie-Tooth type 1G) were also screened. All were rated **L5 / Hold** — no clinical trials, no relevant literature, and no plausible mechanistic link to loxapine's D2/5-HT2A pharmacology. These appear to be TxGNN link-prediction noise rather than genuine repurposing signals and are not recommended for further evaluation.
+Loksapiiinia ei tällä hetkellä markkinoida Suomessa – Fimean myyntilupia ei ole saatavilla (0 lupaa).
+
+---
+
+## Turvallisuushuomioon otettavat asiat
+
+Katso pakkaustiedote turvallisuustiedoista. (Tälle kandidaatille ei palautettu jäsenneltyjä varoituksia, vasta-aiheita tai lääkkeiden yhteisvaikutustietoja; Fimean pakkaustiedotteen tarkistus vaaditaan ennen kuin mitään S1-turvallisuusarviointia voidaan jatkaa – katso Data Gap DG001.)
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Jatka varauksilla**
+
+**Perustelut:**
+Loksapiiinin soveltuvuus bipolaarisen häiriön akuutin levottomuuden hoitoon on vahvistettu olemassa olevan hyväksytyn indikaation (sisäänhengitettävä loksapiini/Adasuve, USA/EU) ja kahden III-vaiheen satunnaistutkimuksen sekä systemaattisen katsauksen avulla – tämä on merkittävästi vahvempi kuin puhdas mallin ennustus (L2). Kuitenkin Suomen lupaa, pakkaustiedotteen turvallisuustietoja tai DrugBank MOA -rekisteröintiä ei tällä hetkellä ole, joten kandidaatti ei voi vielä ylittää muodollista S1-turvallisuusporttia.
+
+**Jatkamiseksi tarvitaan seuraavaa:**
+- Fimean/TFDA:n pakkaustiedote (varoitukset, vasta-aiheet) – tällä hetkellä esto-tietokuilua (DG001)
+- DrugBank-vahvistettu vaikutusmekanismi – tällä hetkellä korkean vakavuuden tietokuilua (DG002)
+- Antoreitin yhteensopivuuden vahvistaminen (suun kautta vs. sisäänhengitettävä loksapiini) satunnaistutkimusten todistuspohjaa vastaan, koska vahvimmat tukevat tutkimukset käyttivät sisäänhengitettävää Adasuve-muotoa
+- Lääkkeiden yhteisvaikutustieto (nykyinen DDI-kysely ei palauttanut tuloksia)
+
+**Huomautus muista ennustetuista indikaatioista:** Yhdeksän muuta TxGNN-ennustettua indikaatiota (sijoitukset 2–10, esim. verkkokalvon dystrofia, hydranensefalia, X-linkitetty myopia-variantit, Charcot-Marie-Tooth tyypin 1G) seulottiin myös. Kaikille annettiin arvio L5 / Pidä – ei kliinisiä tutkimuksia, ei relevanttia kirjallisuutta ja ei uskottavaa mekanistista yhteyttä loksapiiinin D2/5-HT2A-farmakologiaan. Nämä näyttävät olevan TxGNN-linkiennustamisen hälyä pikemminkin kuin aito uudelleenkäyttösignaaleja ja niitä ei suositella jatkotutkimukseen.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

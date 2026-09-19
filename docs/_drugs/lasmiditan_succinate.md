@@ -29,44 +29,45 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 
 </div>
 
-# Lasmiditan Succinate: Evaluation on Hold — Insufficient Data
+# Lasmiditan sukkinaatti: Arviointi pidätetty — riittämättömät tiedot
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Lasmiditan Succinate is a drug currently with no registered authorizations in Finland.
-This Evidence Pack contains **no TxGNN predicted indications**, and critical data gaps — including mechanism of action, original approved indications, and safety information — prevent any substantive repurposing evaluation at this stage.
-Without predicted indication data, evidence level assessment and clinical trial review cannot be conducted.
+Lasmiditan sukkinaatti on lääke, jolla ei tällä hetkellä ole rekisteröityjä hyväksyntöjä Suomessa.
+Tämä näyttöpaketti sisältää **ei TxGNN-ennustettuja indikaatioita**, ja kriittiset tietojen puutteet — mukaan lukien vaikutusmekanismi, alkuperäiset hyväksytyt indikaatiot ja turvallisuustiedot — estävät merkittävän lääkkeen uudelleenkäytön arviointia tässä vaiheessa.
+Ilman ennustettujen indikaatioiden tietoja, näytön tason arviointia ja kliinisten tutkimusten tarkastelua ei voida suorittaa.
 
-## Quick Overview
+## Pikayleiskatsaus
 
-| Item | Content |
-|------|---------|
-| Original Indication | Not available in this Evidence Pack |
-| Predicted New Indication | None returned by TxGNN |
-| TxGNN Prediction Score | Not available |
-| Evidence Level | L5 — model prediction data absent |
-| Finland Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|-------|---------|
+| Alkuperäinen indikaatio | Ei saatavilla tässä näyttöpaketissa |
+| Ennustettu uusi indikaatio | Ei mitään palautettu TxGNN:ltä |
+| TxGNN-ennusteen pistemäärä | Ei saatavilla |
+| Näytön taso | L5 — mallin ennustetiedot puuttuvat |
+| Suomen markkinoiden asema | Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Pidätä |
 
-## Safety Considerations
+## Turvallisuutta koskevat näkökohdat
 
-Please refer to the package insert for safety information.
+Katso valmisteyhteenvedosta turvallisuustietoja.
 
-## Conclusion and Next Steps
+## Johtopäätökset ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidätä**
 
-**Rationale:**
-This Evidence Pack contains no TxGNN predicted indications and is missing all foundational drug data required for evaluation; no repurposing candidate analysis can be performed until these gaps are resolved.
+**Perustelut:**
+Tämä näyttöpaketti ei sisällä TxGNN-ennustettuja indikaatioita ja siitä puuttuvat kaikki arvioinnin edellyttämät lääkkeen perustiedot; uudelleenkäyttöehdokkaan analyysia ei voida suorittaa ennen näiden puutteiden ratkaisemista.
 
-**To proceed, the following is needed:**
+**Jatkaaksemme tarvitaan seuraavaa:**
 
-- **TxGNN prediction results** — the `predicted_indications` array is empty; re-run the TxGNN pipeline for this drug to obtain candidate indications with scores and evidence links
-- **Mechanism of action (MOA)** — query DrugBank API (DrugBank record was found per query log ID 3, but MOA was not extracted into the Evidence Pack)
-- **Original approved indication(s)** — `original_indications` is empty; retrieve from the package insert (query log ID 4 indicates a successful fetch — extract and populate)
-- **Safety warnings and contraindications** — package insert was successfully retrieved (query log ID 4); parse and populate `key_warnings` and `contraindications`
-- **Drug interaction data** — DDI query returned not_found; consider querying alternative sources (e.g., DrugBank interaction API, SFINX)
+- **TxGNN-ennusteen tulokset** — `predicted_indications` taulukko on tyhjä; suorita TxGNN-prosessi uudelleen tälle lääkkeelle saadaksesi ehdokas-indikaatiot pisteillä ja näyttölinkeillä
+- **Vaikutusmekanismi (MOA)** — kysele DrugBank-rajapintaa (DrugBank-tietue löydettiin kyselylokin ID 3:n mukaan, mutta MOA:ta ei purettu näyttöpakettiin)
+- **Alkuperäinen(et) hyväksytty(t) indikaatio(t)** — `original_indications` on tyhjä; hae valmisteyhteenvedosta (kyselylokin ID 4 osoittaa onnistuneen hakemisen — jäsennä ja täytä)
+- **Turvallisuusvaroitukset ja vasta-aiheet** — valmisteyhteenveto haettiin onnistuneesti (kyselylokin ID 4); jäsennä ja täytä `key_warnings` ja `contraindications`
+- **Lääkeinteraktioiden tiedot** — DDI-kysely palautti not_found; harkitse vaihtoehtoisten lähteiden kyselyä (esim. DrugBank-interaktio-API, SFINX)
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -29,97 +29,99 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 
 </div>
 
-# Larotrectinib Sulfate: From NTRK Fusion-Positive Solid Tumors — No TxGNN Predictions Available
+# Larotrectinib-sulfaatti: NTRK-fuusiota kantavista kiinteistä kasvaimista — TxGNN-ennusteet eivät saatavilla
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Larotrectinib sulfate (Vitrakvi) is a first-in-class selective TRK inhibitor approved in the US and EU for adult and paediatric patients with NTRK gene fusion-positive solid tumours, regardless of tumour histology.
-However, the current Evidence Pack contains **no TxGNN-predicted new indications** and is missing critical fields including original indication records, mechanism of action details, and all safety data.
-A **Hold** decision is recommended until the data gaps are resolved and the prediction pipeline is re-run.
+Larotrectinib-sulfaatti (Vitrakvi) on ensimmäisen polven selektiivinen TRK-inhibiittori, joka on hyväksytty USA:ssa ja EU:ssa sekä aikuisille että pediatrisille potilaille, joilla on NTRK-geenin fuusiota kantavia kiinteitä kasvaimia, riippumatta kasvaimen histologiasta.
+Nykyisessä todistepakettissa ei kuitenkaan ole **TxGNN-ennustetuja uusia indikaatioita** ja sieltä puuttuvat kriittiset kentät, mukaan lukien alkuperäisen indikaation rekisterit, vaikutusmekanismin yksityiskohdat ja kaikki turvallisuustiedot.
+**Hold**-päätös suositellaan, kunnes tietoaukot on ratkaistu ja ennuste-putkilinja ajetaan uudelleen.
 
 ---
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohde | Sisältö |
 |------|---------|
-| Original Indication | No regulatory records found (not marketed in Taiwan; approved in US/EU outside this system's scope) |
-| Predicted New Indication | Not available — TxGNN returned no predictions |
-| TxGNN Prediction Score | Not available |
-| Evidence Level | Not assessable |
-| Taiwan Market Status | ✗ Not marketed (0 licenses) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+| Alkuperäinen indikaatio | Sääntelyrekistereitä ei löytynyt (ei markkinoitu Taiwanissa; hyväksytty USA:ssa/EU:ssa tämän järjestelmän ulkopuolella) |
+| Ennustettu uusi indikaatio | Ei saatavilla — TxGNN ei palauttanut ennustuksia |
+| TxGNN-ennusteen pistemäärä | Ei saatavilla |
+| Todistusten taso | Ei arvioitavissa |
+| Taiwanin markkinoiden asema | ✗ Ei markkinoitu (0 lupaa) |
+| Valtuuksien lukumäärä | 0 |
+| Suositeltu päätös | **Hold** |
 
 ---
 
-## Why is No Prediction Available?
+## Miksi ennustusta ei ole saatavilla?
 
-Larotrectinib sulfate is a highly selective, pan-TRK inhibitor that targets TRKA, TRKB, and TRKC — the protein products encoded by the *NTRK1*, *NTRK2*, and *NTRK3* genes. Its unique tumour-agnostic approval (FDA 2018, EMA 2019) means it is indicated for any solid tumour harbouring an NTRK gene fusion, irrespective of the tissue of origin. This mechanism is fundamentally different from most small-molecule oncology drugs whose activity is histology-bound.
+Larotrectinib-sulfaatti on erittäin selektiivinen, pan-TRK-inhibiittori, joka kohdistuu TRKA:han, TRKB:hen ja TRKC:hen — *NTRK1*-, *NTRK2*- ja *NTRK3*-geenien koodaamien proteiinien tuotteisiin. Sen ainutlaatuinen kasvaimen tyyppiin sitoutumaton hyväksyntä (FDA 2018, EMA 2019) tarkoittaa, että sitä indikoituu käyttää minkä tahansa NTRK-geenin fuusiota kantavan kiinteän kasvaimen hoitoon, alkuperäisestä kudoksesta riippumatta. Tämä mekanismi eroaa olennaisesti useimmista pienimolekyylisistä onkologialääkkeistä, joiden aktiivisuus on sidottu histologiaan.
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on known information, Larotrectinib sulfate belongs to the kinase inhibitor class; its efficacy in NTRK fusion-positive solid tumours has been proven in multiple basket trials (LOXO-TRK-14001, SCOUT, NAVIGATE), and mechanistically it may be applicable to any tumour type where aberrant TRK signalling is the driver oncogenic event.
+Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla todistepakettissa. Tunnettujen tietojen perusteella larotrectinib-sulfaatti kuuluu kiinaasi-inhibiittorien luokkaan; sen teho NTRK-fuusiota kantavissa kiinteissä kasvaimissa on osoitettu useissa kori-tutkimuksissa (LOXO-TRK-14001, SCOUT, NAVIGATE), ja mekanismiltaan sitä voidaan soveltaa mihin tahansa kasvaimen tyyppiin, jossa poikkeava TRK-signalointi on kuljettava onkogeeninen tapahtuma.
 
-The absence of TxGNN predictions in this pack most likely reflects a data pipeline issue — either the drug was not matched to a node in the Knowledge Graph, or the NTRK fusion-positive biomarker-gated indication could not be encoded as a standard disease node. This should be investigated before drawing any conclusion about the drug's repurposing potential.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trial evidence is available in this Evidence Pack.
-
-> **Note:** This reflects missing data in the pipeline, not an absence of trials. Larotrectinib has been studied in multiple Phase 1/2 basket trials (NCT02122913, NCT02637687, NCT02576431). The evidence collection step should be re-run once the TxGNN prediction pipeline produces output.
+TxGNN-ennusteiden puuttuminen tästä paketista johtuu todennäköisesti tietoputkilinjan ongelmasta — joko lääkettä ei vastaavuustettu tietoverkko-solmuun, tai NTRK-fuusiota kantavaa biomerkkiga ohjattua indikaatiota ei voitu koodata vakio-sairauden solmuksi. Tämä tulisi tutkia ennen kuin tehdään johtopäätöksiä lääkkeen uudelleenkäytön potentiaalista.
 
 ---
 
-## Literature Evidence
+## Kliiniset tutkimustodisteet
 
-Currently no related literature is available in this Evidence Pack.
+Tällä hetkellä todistepakettissa ei ole saatavilla asiaan liittyviä kliinisen tutkimuksen todisteita.
 
----
-
-## Taiwan Market Information
-
-No Taiwan regulatory authorizations found for Larotrectinib Sulfate.
+> **Huomautus:** Tämä osoittaa puuttuvia tietoja putkilinjassa, ei tutkimusten puuttumista. Larotrectinib-sulfaattia on tutkittu useissa Phase 1/2 kori-tutkimuksissa (NCT02122913, NCT02637687, NCT02576431). Todistusten keräysvaihe tulisi ajaa uudelleen, kun TxGNN-ennuste-putkilinja tuottaa tuloksia.
 
 ---
 
-## Cytotoxicity
+## Kirjallisuuden todisteet
 
-Larotrectinib sulfate is an antineoplastic targeted therapy (TRK inhibitor). Because no safety data was returned in this Evidence Pack, the following is a general assessment based on the drug class:
+Tällä hetkellä todistepakettissa ei ole saatavilla asiaan liittyvää kirjallisuutta.
 
-| Item | Content |
+---
+
+## Taiwanin markkinatiedot
+
+Larotrectinib-sulfaatille ei löytynyt Taiwanin sääntelyhyväksynnöistä.
+
+---
+
+## Sytostaattisuus
+
+Larotrectinib-sulfaatti on antineoplastinen kohdennettu hoito (TRK-inhibiittori). Koska todistepakettissa ei palautettu turvallisuustietoja, seuraavassa on yleinen arviointi lääkkeen luokan perusteella:
+
+| Kohde | Sisältö |
 |------|---------|
-| Cytotoxicity Classification | Targeted therapy (Selective TRK kinase inhibitor) |
-| Myelosuppression Risk | Low to moderate — please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Low (oral targeted agent) |
-| Monitoring Items | Liver function tests (ALT/AST), neurological assessment (dizziness, paraesthesia), weight and nutritional status in paediatric patients |
-| Handling Protection | Standard oral antineoplastic handling precautions apply |
+| Sytostaattisuusluokitus | Kohdennettu hoito (selektiivinen TRK-kiinaasi-inhibiittori) |
+| Myelosupression-riski | Matala–kohtalainen — katso pakkausselosteesta varoitukset ja varotoimenpiteet |
+| Emetogenisiteettiluokitus | Matala (suun kautta otettava kohdennettu lääke) |
+| Seurannan kohteita | Maksan toimintotestit (ALT/AST), neurologinen arviointi (huimaus, parestesia), paino ja ravitsemusasema pediatrisilla potilailla |
+| Käsittelysuoja | Vakiintuneet suun kautta otettujen antineoplastisten hoitojen käsittelyvarotoimenpiteet soveltuvat |
 
 ---
 
-## Safety Considerations
+## Turvallisuusarviot
 
-Please refer to the package insert for safety information. All safety fields in this Evidence Pack are currently flagged as data gaps:
+Katso turvallisuustiedoista pakkauselosteen. Kaikki turvallisuuskentät todistepakettissa on merkitty tällä hetkellä tietoaukoiksi:
 
-- TFDA package insert warnings and contraindications were not successfully parsed (Data Gap DG001 — **Blocking severity**)
-- Drug–drug interaction data: no interactions found in the DDI database query
+- TFDA-pakkauselosteen varoituksia ja vasta-aiheita ei jäsennelty onnistuneesti (Tietoaukko DG001 — **Estävä vakavuus**)
+- Lääke–lääke-vuorovaikutustiedot: DDI-tietokantahaussa ei löytynyt vuorovaikutuksia
 
 ---
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Hold**
 
-**Rationale:**
-This Evidence Pack is incomplete — there are no TxGNN-predicted indications, no original indication records, no MOA data, and no safety data. No repurposing evaluation can be performed in the current state.
+**Perustelut:**
 
-**To proceed, the following is needed:**
+Tämä todistepaketti on epätäydellinen — TxGNN-ennustetuja indikaatioita ei ole, alkuperäisen indikaation tietueita ei ole, MOA-tietoja ei ole, eikä turvallisuustietoja. Uudelleenkäyttöarviointia ei voida suorittaa nykyisessä tilassa.
 
-- [ ] **Resolve DG001 (Blocking):** Download and parse the TFDA package insert PDF to extract warnings and contraindications
-- [ ] **Resolve DG002 (High):** Retrieve MOA data from DrugBank API using the DrugBank ID for Larotrectinib (DB12703)
-- [ ] **Investigate TxGNN pipeline failure:** Confirm whether Larotrectinib is mapped to a node in the Knowledge Graph; if not, add NTRK-pathway mappings and re-run the prediction step
-- [ ] **Re-run evidence collection:** Once TxGNN produces `predicted_indications`, trigger the ClinicalTrials.gov and PubMed evidence collection steps
-- [ ] **Consider scope clarification:** Larotrectinib's approved indication is biomarker-gated (NTRK fusion-positive); the repurposing question may need to be reframed as "which additional NTRK fusion-positive tumour types?" rather than a standard disease-level prediction
+**Jatkaakseen, seuraavaa tarvitaan:**
+
+- [ ] **Ratkaise DG001 (Blocking):** Lataa ja jäsennä TFDA-pakkauselosteen PDF varroitusten ja vasta-aiheita varten
+- [ ] **Ratkaise DG002 (High):** Hae MOA-tiedot DrugBank API:sta käyttämällä larotrectinib-sulfaatin DrugBank ID:tä (DB12703)
+- [ ] **Tutki TxGNN-putkilinjan vika:** Vahvista, onko larotrectinib-sulfaatti kartoitettu tietoverkko-solmuun; jos ei, lisää NTRK-polun kartoitukset ja aja ennuste-vaihe uudelleen
+- [ ] **Aja todistusten keruu uudelleen:** Kun TxGNN tuottaa `predicted_indications`, käynnistä ClinicalTrials.gov ja PubMed todistusten keruuvaiheet
+- [ ] **Harkitse soveltamisalan selventämistä:** Larotrectinib-sulfaatin hyväksytty indikaatio on biomerkkiohjattu (NTRK-fuusiota kantava); uudelleenkäyttökysymys saattaa tarvita uudelleensanamuotoilua "mitkä muut NTRK-fuusiota kantavat kasvaimen tyypit?" standardin sairaustason ennusteen sijaan.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -29,78 +29,77 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Rotigotine: From Parkinson's Disease/Restless Legs Syndrome to Attention-Deficit/Hyperactivity Disorder
+# Rotigotiini: Parkinsonin taudista/kiihtymättömien jalkojen oireyhtymästä ADHD:hen
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Rotigotine is a non-ergot, broad-spectrum (D1–D5) dopamine agonist with highest affinity for D3 receptors, referenced in the literature as being used to treat Parkinson's disease and restless legs syndrome. The TxGNN model predicts it may be effective for **Attention-Deficit/Hyperactivity Disorder (ADHD)**, but currently **0 clinical trials** and only **3 tangentially related publications** (none specific to rotigotine-ADHD) support this direction.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available in structured regulatory data (Taiwan/Finland licensing fields are empty); literature within this pack (PMID 37221270) references Parkinson's disease and restless legs syndrome as rotigotine's established uses |
-| Predicted New Indication | Attention-Deficit/Hyperactivity Disorder (ADHD) |
-| TxGNN Prediction Score | 99.997% (rank 49) |
-| Evidence Level | L4 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Rotigotiini on ei-ergotiinipohjainen, laaja-spektrinen (D1–D5) dopamiinitasoitteinen, jolla on korkein affiniteetti D3-reseptoreille, ja kirjallisuudessa sitä kuvataan käytettävän Parkinsonin taudin ja kiihtymättömien jalkojen oireyhtymän hoitoon. TxGNN-malli ennustaa, että se saattaisi olla tehokas **Attention-Deficit/Hyperactivity Disorder (ADHD)** -häiriössä, mutta tällä hetkellä **0 kliinistä tutkimusta** ja vain **3 epäsuorasti liittyvää julkaisua** (joista ei yhtään rotigotiini–ADHD:tä koskevaa) tukevat tätä suuntaa.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Pikaopas
 
-Detailed mechanism-of-action data for rotigotine is currently a flagged data gap (DG002, High severity, pending DrugBank API query). Based on information available within this evidence pack, rotigotine is described in the literature as a "pan-agonist" acting across all five dopamine receptor subtypes (D1–D5), with preferential affinity for D3, and is used to treat Parkinson's disease and restless legs syndrome (PMID 37221270). No formal `original_indications` record was returned, and no Taiwan/Finland marketing authorizations exist to cross-check against an approved indication label — this drug is not currently marketed in Finland.
-
-The predicted link to ADHD is mechanistically weak. ADHD's dopamine hypothesis centers on D4 receptor polymorphisms and reduced prefrontal cortical dopamine signaling; first-line stimulant therapy works by increasing synaptic dopamine availability rather than direct receptor agonism. Rotigotine, as a D3-preferential direct agonist, has limited pathway overlap with the D4/prefrontal circuitry implicated in ADHD, and direct full agonism could theoretically disrupt normal phasic dopamine signaling — a mechanism not typically leveraged in ADHD pharmacotherapy. None of the three supporting publications directly studies rotigotine in ADHD populations; they concern restless legs syndrome reviews and receptor-heteromerization pharmacology.
-
-Given the absence of disease-specific clinical or literature evidence and a mechanistically speculative rationale, this candidate should be treated as hypothesis-generating only at this stage.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Kohde | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Ei saatavilla rakenteisessa sääntelyaineistossa (Taiwan/Suomen myyntilupa-kentät ovat tyhjät); tämän todistepaketin kirjallisuudessa (PMID 37221270) viitataan Parkinsonin tautiin ja kiihtymättömien jalkojen oireyhtymään rotigotiinin vakiintuneiden käyttöaikojen osalta |
+| Ennustettu uusi indikaatio | Attention-Deficit/Hyperactivity Disorder (ADHD) |
+| TxGNN-ennuste-pistemäärä | 99.997% (sijoitus 49) |
+| Näytön taso | L4 |
+| Suomen markkinatilanne | ✗ Ei markkinoilla |
+| Myyntilupien lukumäärä | 0 |
+| Suositeltu päätös | Pidätä |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennuste on järkevä?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [34182128](https://pubmed.ncbi.nlm.nih.gov/34182128/) | 2021 | Basic Science/Receptor Pharmacology | Pharmacological research | D4 receptor–α2A adrenoceptor heteromerization affects pharmacology relevant to impulsive-control disorders including ADHD; does not study rotigotine directly in ADHD |
-| [21476956](https://pubmed.ncbi.nlm.nih.gov/21476956/) | 2011 | Review | Current pharmaceutical design | Review of pharmacological options for restless legs syndrome in children; not ADHD-focused |
-| [18656214](https://pubmed.ncbi.nlm.nih.gov/18656214/) | 2008 | Review | Revue neurologique | General review of restless-legs syndrome; not ADHD-focused |
+Rotigotiinin yksityiskohtaiset vaikutusmekanismin tiedot on tällä hetkellä merkitty tietovajeeksi (DG002, korkea vakavuus, odottaa DrugBank API -kyselyä). Tässä todistepakettissa saatavilla olevien tietojen perusteella rotigotiinia kuvataan kirjallisuudessa "pan-agonistiksi", joka vaikuttaa kaikkiin viiteen dopamiinitasoittimen reseptorin alaryhmään (D1–D5), D3-preferenssillä, ja sitä käytetään Parkinsonin taudin ja kiihtymättömien jalkojen oireyhtymän hoitoon (PMID 37221270). Virallista `original_indications` -rekisteriä ei palautettu, ja Taiwan/Suomen myyntilupia ei ole hyväksytyn indikaatiomerkinnän tarkistukselle — tämä lääke ei ole tällä hetkellä markkinoilla Suomessa.
+
+Ennustettu yhteys ADHD:hen on mekanistisesti heikko. ADHD:n dopamiinahypoteesi keskittyy D4-reseptoripolymorfismeihin ja vähentyneeseen dopamiinier signaaloitiin prefrontaalisessa aivokuoressa; ensilinjan stimulanttiterapia toimii korottamalla synapttista dopamiinier saatavuutta pikemminkin kuin suoraa reseptoriagonismia. Rotigotiini, D3-preferenssillä varustettu suora agoni, jolla on rajallinen päällekkäisyys ADHD:hen liittyvissä D4/prefrontaalisissa signalointireiteissä, ja jonka täysi suora agonismi voisi teoreettisesti häiritä normaalia faasista dopamiinier signaaloita — mekanismia, jota ei tyypillisesti hyödynnetä ADHD:n farmakoterapiassa. Yksikään kolmesta tukevasta julkaisusta ei suoraan tutki rotigotiinia ADHD-potilailla; ne koskevat kiihtymättömien jalkojen oireyhtymän katsauksia ja reseptorin heteroimerisaation farmakologiaa.
 
 ---
 
-## Finland Market Information
+## Kliinisen tutkimuksen näyttö
 
-Currently no marketing authorizations in Finland (market status: Not Marketed; 0 licenses on record).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-drug interaction data are all currently flagged as data gaps — TFDA package insert retrieval, DG001, is a Blocking-severity gap.)
+Tällä hetkellä ei ole rekisteröityjä liittyviä kliinisiä tutkimuksia.
 
 ---
 
-## Conclusion and Next Steps
+## Kirjallisuuden näyttö
 
-**Decision: Hold**
+| PMID | Vuosi | Tyyppi | Julkaisu | Tärkeimmät löydökset |
+|------|------|--------|---------|---------|
+| [34182128](https://pubmed.ncbi.nlm.nih.gov/34182128/) | 2021 | Perustiede/Reseptorifarmakologia | Pharmacological research | D4-reseptori–α2A-adrenoreseptorin heteroimerisaatio vaikuttaa impulssikontrollihäiriöihin liittyvään farmakologiaan, mukaan lukien ADHD; ei tutki rotigotiinia suoraan ADHD:n yhteydessä |
+| [21476956](https://pubmed.ncbi.nlm.nih.gov/21476956/) | 2011 | Katsaus | Current pharmaceutical design | Katsaus farmakologisista vaihtoehdoista kiihtymättömien jalkojen oireyhtymään lapsilla; ei ADHD-keskeinen |
+| [18656214](https://pubmed.ncbi.nlm.nih.gov/18656214/) | 2008 | Katsaus | Revue neurologique | Yleinen katsaus kiihtymättömien jalkojen oireyhtymään; ei ADHD-keskeinen |
 
-**Rationale:**
-No clinical trials or ADHD-specific literature support rotigotine repurposing for ADHD, and the proposed mechanistic link (D3-preferential agonism vs. ADHD's D4/prefrontal pathway) is speculative. Combined with a Blocking-severity safety data gap (no TFDA label available), this candidate does not meet the bar to advance past initial screening.
+---
 
-**To proceed, the following is needed:**
-- TFDA/EU package insert retrieval to resolve DG001 (Blocking) before any safety review can begin
-- DrugBank MOA confirmation to resolve DG002
-- Targeted literature/trial search specifically combining "rotigotine" and "ADHD" (current hits are RLS/receptor-pharmacology reviews only)
-- Note: within this same evidence pack, the rank-2 candidate (schizophrenia, L3/S1, "Research Question") has stronger supporting literature but carries a distinct safety concern — theoretical risk of psychotic symptom exacerbation given rotigotine's known association with psychosis in Parkinson's disease patients — and would need independent evaluation if pursued
+## Suomen markkinatilanne
+
+Suomessa ei ole tällä hetkellä myyntilupaa (markkinatilanne: Ei markkinoilla; 0 myyntilupaa rekisterissä).
+
+---
+
+## Turvallisuusnäkökohdat
+
+Turvallisuustiedot löytyvät pakkausselosteesta. (Keskeisiä varoituksia, vasta-aiheita ja lääkkeiden välisten vuorovaikutusten tiedot on kaikki merkitty tietovajeiksi — TFDA-pakkausselosteen haku (DG001) on esto-tason vakavuuden tietovaje.)
+
+---
+
+## Johtopäätös ja seuraavat toimet
+
+**Päätös: Pidätä**
+
+**Perustelut:**
+Yksikään kliininen tutkimus tai ADHD-spesifinen kirjallisuus ei tue rotigotiinin uudelleenkäyttöä ADHD:ssä, ja ehdotettu mekanistinen yhteys (D3-preferenssillä varustettu agonismi vs. ADHD:n D4/prefrontaalinen signalointireitti) on spekulatiivinen. Yhdessä esto-tason turvallisuustietovajeen kanssa (TFDA-merkintää ei saatavilla), tämä ehdokas ei täytä vaatimuksia edetä alkuperäisen seulonnan jälkeen.
+
+**Jatkamista varten tarvitaan seuraavat:**
+- TFDA/EU-pakkausselosteen haku DG001:n (esto) ratkaisemiseksi ennen kuin turvallisuuden tarkastelu voidaan aloittaa
+- DrugBank MOA -vahvistus DG002:n ratkaisemiseksi
+- Kohdennettu kirjallisuus-/tutkimushaku, joka yhdistää erityisesti "rotigotiini" ja "ADHD" (nykyiset tulokset ovat vain RLS/reseptorifarmakologia-katsauksia)
+- Huomautus: tässä samassa todistepakettissa sijoitus-2 ehdokas (skitsofrenia, L3/S1, "Tutkimuskysymys") sisältää vahvempaa tukevaa kirjallisuutta, mutta siihen liittyy erillinen turvallisuushuoli — teoreettinen riski psykoosioireiden pahenemisesta rotigotiinin tunnetun yhteyden vuoksi psykoosiin Parkinsonin taudin potilaissa — ja se vaatii riippumatonta arviointia, jos sitä tutkitaan
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

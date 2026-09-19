@@ -29,63 +29,62 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-Using the report structure directly (this is a document-generation task with a fully specified template — no additional skill applies).
+# Reteplase: Akuutista mykardiainfarktista posteroinferioriseen mykardiainfarktiin
 
-# Reteplase: From Acute Myocardial Infarction to Posteroinferior Myocardial Infarction
+## Yhden lauseen yhteenveto
 
-## One-Sentence Summary
+Reteplase on rekombinantti trombolitikum (plasminogeeniaktivaattori), jota on alun perin käytetty koronaarisen verenvirtauksen palauttamiseen akuutissa mykardiainfarktissa. TxGNN-mallin ylin ennuste on **posteroinferiorinen mykardiainfarktio**, mutta sitä tukee tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua** — pistemäärä heijastaa reteplaksen olemassa olevan trombolitisen käytön mekanistista päällekkäisyyttä, ei uutta kliinistä näyttöä.
 
-Reteplase is a recombinant thrombolytic (plasminogen activator) originally used to restore coronary blood flow in acute myocardial infarction. The TxGNN model's top prediction is **Posteroinferior Myocardial Infarction**, but this is currently supported by **0 clinical trials** and **0 publications** — the score reflects mechanistic overlap with reteplase's existing thrombolytic use, not new clinical evidence.
+## Nopea yleiskatsaus
 
-## Quick Overview
+| Kohta | Sisältö |
+|-------|---------|
+| Alkuperäinen indikaatio | Akuutti mykardiainfarktio (trombolitinen reperfuusiohoito) — ei dokumentoitu erikseen Suomen sääntelytiedoissa, koska reteplasia ei ole tällä hetkellä markkinoilla Suomessa |
+| Ennustettu uusi indikaatio | Posteroinferiorinen mykardiainfarktio |
+| TxGNN-ennusteen pistemäärä | 99.90% |
+| Näytön taso | L4 (lähteisiin perustuva pisteytysjärjestelmä); raakojen tutkimusten ja kirjallisuuden määrän perusteella tämä ehdokas sijoittuisi tasoon L5 |
+| Suomen markkina-asema | Ei markkinoilla |
+| Myyntilupien määrä | 0 |
+| Suositeltu päätös | Odota |
 
-| Item | Content |
-|------|------|
-| Original Indication | Acute myocardial infarction (thrombolytic reperfusion therapy) — not separately documented in the Finland regulatory record, since reteplase is not currently marketed there |
-| Predicted New Indication | Posteroinferior Myocardial Infarction |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L4 (per source scoring); by raw trial/literature count this candidate has zero supporting studies, which would place it at L5 |
-| Finland Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+## Miksi tämä ennuste on järkevä?
 
-## Why is This Prediction Reasonable?
+Reteplaksen strukturoitua mekanismin toimintamerkintöjen tietoa ei ole saatavilla tässä näytöpaketissa. Pakettiin kuuluvien muiden tietojen perusteella reteplase on toisen sukupolven rekombinantti kudostyypin plasminogeeniaktivaattori (r-PA, yhdiste BM 06.022), joka katalysoi plasminogeenin muuntumista plasmiinaksi ja liuottaa koronaarisia trombia palauttaen perfuusion tukittuihin valtimosiipoihin. Tämä mekanismi on farmakologinen perusta sen vakiintuneen käytön taustalla akuutissa mykardiainfarktissa.
 
-A structured mechanism-of-action record is not available for reteplase in this evidence pack. Based on information surfaced elsewhere in the pack, reteplase is a second-generation recombinant tissue-type plasminogen activator (r-PA, compound BM 06.022) that catalyzes conversion of plasminogen to plasmin, dissolving coronary thrombi and restoring perfusion in occluded coronary arteries. This mechanism is the pharmacological basis for its established use in acute myocardial infarction.
+"Posteroinferiorinen mykardiainfarktio" ei ole erillinen tauti — se on akuutin infarktin anatominen alatyyppi, joka kuvaa infarktoituneen sydänlihaksen sijaintia pikemmin kuin erilaista patologiaa. Koska reteplaksen trombolitinen vaikutus palauttaa virtauksen infarktiin liittyvässä valtimossa anatomisesta alueesta riippumatta, on mekanistisesti uskottavaa, että lääke toimisi myös täällä — itse asiassa tämän alatyypin voidaan todennäköisesti katsoa kuuluvan jo reteplaksen olemassa olevaan AMI-indikaatioon pikemmin kuin todella uuteen käyttöön.
 
-"Posteroinferior myocardial infarction" is not a distinct disease — it is an anatomical subtype of acute MI, describing the location of the infarcted myocardium rather than a different pathology. Since reteplase's thrombolytic action restores flow in the infarct-related artery regardless of anatomical territory, it is mechanistically plausible that the drug would work here too — in fact, this subtype likely already falls within reteplase's existing AMI indication rather than representing a genuinely new use.
+Tämä on juuri syy, miksi näyttöpaketti itse merkitsee ennusteen heikoksi: mikään tässä aineistossa oleva kliininen tutkimus tai julkaisu ei tutki posteroinferiorista infarktiota erillisenä väestönä, joten TxGNN:n korkea pistemäärä johtuu mekanistisesta/anatomisesta läheisyydestä tietoverkon sisällä pikemmin kuin suorasta kliinisestä vahvistuksesta.
 
-This is precisely why the evidence pack itself flags the prediction as weak: no clinical trial or publication in this dataset specifically studies posteroinferior MI as a distinct population, so the high TxGNN score is driven by mechanistic/anatomical proximity in the knowledge graph rather than by direct clinical validation.
+## Kliinisten tutkimusten näyttö
 
-## Clinical Trial Evidence
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
 
-Currently no related clinical trials registered.
+## Kirjallisuuden näyttö
 
-## Literature Evidence
+Tällä hetkellä kirjallisuuden näyttöä ei ole saatavilla.
 
-Currently no related literature available.
+## Suomen markkina-asema
 
-## Finland Market Information
+Reteplase ei ole tällä hetkellä markkinoilla Suomessa (0 lupaa rekisterissä; markkina-asema: Ei markkinoilla).
 
-Reteplase currently holds no marketing authorization in Finland (0 licenses on record; market status: Not Marketed).
+## Turvallisuushuomiot
 
-## Safety Considerations
+Katso turvallisuustiedot tuotetiedotteesta. Huomaa, että **turvallisuustiedon puutos** on olemassa: reteplaksen Fimean/TFDA-tuotetiedotteen varoitukset ja vasta-aiheet eivät ole vielä haettu, mikä tällä hetkellä estää muodollisen alkuperäisen turvallisuusseulonnan (S1) tälle ehdokkaalle.
 
-Please refer to the package insert for safety information. Note that a **blocking data gap** exists: the Fimea/label warnings and contraindications for reteplase have not yet been retrieved, which currently prevents a formal initial safety screening (S1) for this candidate.
+## Johtopäätös ja seuraavat vaiheet
 
-## Conclusion and Next Steps
+**Päätös: Odota**
 
-**Decision: Hold**
+**Perustelu:**
+Korkeimmin sijoittunut ennuste (posteroinferiorinen MI) ei ole tuettu suorilla kliinisillä tutkimuksilla tai kirjallisuudella ja se päällekkäistyy suurelta osin reteplaksen olemassa olevan yleisen AMI-indikaation kanssa pikemmin kuin edustaa uutta uudelleenkäyttömahdollisuutta. Turvallisuustiedon puutos (sääntelylliset tuotetiedot/varoitukset) estää myös alkuperäisen turvallisuusseulonnan.
 
-**Rationale:**
-The top-ranked prediction (posteroinferior MI) has no direct clinical trial or literature support and largely overlaps with reteplase's existing general AMI indication rather than representing a novel repurposing opportunity. A blocking safety data gap (regulatory label/warnings) also prevents initial safety screening.
+**Jatkaaksesi seuraavaa tarvitaan:**
+- Fimean/TFDA-tuotetiedote (varoitukset, vasta-aiheet) — tällä hetkellä este (DG001)
+- Vahvistettu mekanismin toimintaa koskeva dokumentaatio DrugBankista (DG002)
+- Selkeytys siitä, pitäisikö "posteroinferiorista MI:tä" arvioida erillisenä uudelleenkäyttöehdokkaana vai sisällyttää se reteplaksen olemassa olevaan AMI-indikaatioon
 
-**To proceed, the following is needed:**
-- Fimea/TFDA package insert (warnings, contraindications) — currently a blocking gap (DG001)
-- Confirmed mechanism-of-action documentation from DrugBank (DG002)
-- Clarification on whether "posteroinferior MI" should be evaluated as a distinct repurposing candidate or folded into reteplase's existing AMI indication
+**Huomio vahvemmasta vaihtoehtoisehdokkaasta:** kymmenen ennusteen joukossa tässä näytöpaketissa **koronaarinen stenoosi** (sijoitus 5, TxGNN-pistemäärä 99.62%) on huomattavasti paremmin tuettu — näytön taso L3, päätösvaihe S2, 6 kirjallisuusviitetta (mukaan lukien RCT/kohorttitietoja, kuten SPEED/GUSTO-4-tutkimus ja GUSTO-V-tulosanalyysi), ja lähteen suositus on "Jatka varauksilla." Tämä ehdokas saattaa vaatia priorisointia korkeimmin sijoitetun mutta näytöltään heikon posteroinferiorisen MI-ennusteen edelle.
 
-**Note on a stronger alternate candidate:** among the 10 predictions in this evidence pack, **coronary stenosis** (rank 5, TxGNN score 99.62%) has materially stronger support — evidence level L3, decision stage S2, 6 literature references (including RCT/cohort data such as the SPEED/GUSTO-4 trial and GUSTO-V outcomes analysis), and a source recommendation of "Proceed with Guardrails." This candidate may warrant prioritization over the top-ranked but evidence-poor posteroinferior MI prediction.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

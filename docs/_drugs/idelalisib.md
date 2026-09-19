@@ -29,110 +29,111 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Idelalisib: From Chronic Lymphocytic Leukemia/Follicular Lymphoma to Mantle Cell Lymphoma
+# Idelalisib: Kroonisesta lymfosyyttileukemiasta/follikulaarista lymfooma Mantle Cell Lymfooman hoitoon
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Idelalisib is a first-in-class, oral PI3Kδ inhibitor originally developed for relapsed chronic lymphocytic leukemia (CLL), follicular lymphoma (FL), and small lymphocytic lymphoma (SLL). The TxGNN model predicts it may also be effective for **Mantle Cell Lymphoma (MCL)**, with **9 clinical trials** and **20 publications** currently touching on this direction — though the evidence remains early-stage and MCL is not an approved indication for this drug.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Relapsed CLL, relapsed follicular lymphoma, relapsed small lymphocytic lymphoma (per literature, e.g. PMID 25187123, 25637459) |
-| Predicted New Indication | Mantle Cell Lymphoma (MCL) |
-| TxGNN Prediction Score | 99.84% |
-| Evidence Level | L2 |
-| Finland Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold (internally staged as "Research Question", decision stage S2) |
+Idelalisib on ensimmäisen sukupolven, suun kautta otettava PI3Kδ-inhibiitteri, joka alun perin kehitettiin relapsoidun kroonisen lymfosyyttileukemian (CLL), follikulaarisen lymfooman (FL) ja pienen lymfosyyttisen lymfooman (SLL) hoitoon. TxGNN-malli ennustaa, että se voisi olla tehokas myös **Mantle Cell Lymfooman (MCL)** hoitoon, ja tällä hetkellä **9 kliinistä tutkimusta** ja **20 julkaisua** käsittelevät tätä suuntaa — vaikka näytöt ovat vielä varhaisvaiheen näyttöä ja MCL ei ole hyväksytty indikaatio tälle lääkkeelle.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Formal DrugBank mechanism-of-action data was not retrieved for this candidate (data gap DG002). Based on the literature captured in this evidence pack, idelalisib is described as a first-in-class, orally administered, selective inhibitor of the delta isoform of phosphatidylinositol 3-kinase (PI3Kδ) — an enzyme expressed predominantly in hematopoietic cells that plays a non-redundant role in B-cell receptor (BCR) signaling, a pathway that drives survival, proliferation, and microenvironment retention of malignant B cells.
-
-Idelalisib's original approved population (CLL, FL, SLL) shares this BCR/PI3Kδ dependency with MCL, which is also a B-cell non-Hodgkin lymphoma. This shared pathway is the basis of the TxGNN prediction, and it is reflected in real-world trial design: several early idelalisib studies enrolled MCL patients alongside CLL/FL/iNHL cohorts under a common "B-cell malignancy" umbrella (e.g., NCT01088048, NCT01796470).
-
-However, the mechanistic rationale is only partially borne out clinically. A dedicated Phase 1 study of idelalisib monotherapy in relapsed/refractory MCL (PMID 24615778) and an early cohort report (PMID 24795031) showed some single-agent activity, but subsequent preclinical work (PMID 33850273, PMID 40466505) identified **intrinsic resistance** of MCL cells to idelalisib, requiring combination strategies (e.g., p300/CBP inhibition, CBX5-mediated ferroptosis induction) to restore sensitivity. As the internal repurposing rationale notes: mechanistically plausible, but single-agent clinical activity is limited and MCL is not a currently approved indication.
+| Kohde | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Relapsoidun CLL:n, relapsoidun follikulaarisen lymfooman, relapsoitu pienen lymfosyyttisen lymfooman hoito (kirjallisuuden mukaan, esim. PMID 25187123, 25637459) |
+| Ennustettu uusi indikaatio | Mantle Cell Lymfooma (MCL) |
+| TxGNN-ennusteen pistemäärä | 99.84% |
+| Näytön taso | L2 |
+| Suomen markkina-asema | ✗ Ei markkinoitu |
+| Lupapäätösten määrä | 0 |
+| Suositeltu päätös | Odottava (sisäisesti vaiheistettu "Tutkimuskysymys", päätösvaihe S2) |
 
 ---
 
-## Clinical Trial Evidence
+## Miksi tämä ennuste on perusteltu?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Muodollisia DrugBank-mekanismi-vaikutus-tietoja ei haettu tälle ehdokkaalle (tietoaukko DG002). Tässä näytöpaketissa kaapatun kirjallisuuden perusteella idelalisib kuvataan ensimmäisen sukupolven, suun kautta annetavaksi, selevtiiviseksi fosfatidyyliinositoli-3-kinaasi (PI3Kδ) delta-isoformin inhibiittoriksi — entsyymiksi, joka ilmaantuu enimmäkseen hematopoieettisissa soluissa ja jolla on korvaamaton rooli B-solun reseptori (BCR) signaloinnissa, reitissä joka ohjaa pahanlaatuisten B-solujen selviytymistä, proliferaatiota ja mikro-ympäristössä säilymistä.
+
+Idelalisiibin alkuperäinen hyväksytty potilaspopulaatio (CLL, FL, SLL) jakaa tämän BCR/PI3Kδ-riippuvuuden MCL:n kanssa, joka on myös B-solun non-Hodgkin lymfooma. Tämä jaettu reitti on TxGNN-ennusteen perusta, ja se heijastuu todellisen maailman tutkimussuunnittelussa: useat varhaiset idelalisib-tutkimukset ottivat MCL-potilaita CLL/FL/iNHL-kohortin rinnalle yhteisen "B-solun pahanlaatuisuus" -kategorian alle (esim. NCT01088048, NCT01796470).
+
+Mekanistinen perustelu on kuitenkin vain osittain vahvistettu kliinisesti. Idelalisiibin yksittäislääkehoidon omistautunut Phase 1 -tutkimus relapsoidussa/refraktaarissa MCL:ssä (PMID 24615778) ja varhainen kohorttiraportti (PMID 24795031) osoittivat jonkinlaista yksittäislääkkeen tehoa, mutta myöhemmät prekliiniset työt (PMID 33850273, PMID 40466505) tunnistivat **sisäisen resistanssin** MCL-soluissa idelalisiibia vastaan, mikä vaatii yhdistelmästrategioita (esim. p300/CBP-inhibitiota, CBX5-välitteistä ferropitoosin induktiota) herkkyyden palauttamiseksi. Kuten sisäinen uudenkäyttöönotto-perustelu huomauttaa: mekanistisesti uskottava, mutta yksittäislääkkeen kliininen teho on rajoitettua ja MCL ei ole tällä hetkellä hyväksytty indikaatio.
+
+---
+
+## Kliininen tutkimusnäyttö
+
+| Tutkimuksen numero | Vaihe | Tila | Rekrytointi | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT01796470](https://clinicaltrials.gov/study/NCT01796470) | Phase 2 | Terminated | 66 | Entospletinib (GS-9973) + idelalisib in relapsed/refractory hematologic malignancies incl. MCL, CLL, DLBCL, iNHL; direct MCL evaluation but terminated early — Grade A relevance, underpowered |
-| [NCT01838434](https://clinicaltrials.gov/study/NCT01838434) | Phase 1 | Completed | 106 | Idelalisib + lenalidomide in relapsed/refractory MCL; completed combination-therapy exploratory study — Grade B |
-| [NCT03151057](https://clinicaltrials.gov/study/NCT03151057) | Phase 1 | Terminated | 16 | Idelalisib as post-allogeneic HSCT maintenance in B-cell malignancies incl. MCL; terminated, small sample — Grade C |
-| [NCT02824159](https://clinicaltrials.gov/study/NCT02824159) | N/A | Completed | 121 | Real-life PK/side-effect correlation study of ibrutinib and idelalisib in hematological malignancies incl. MCL |
-| [NCT02457598](https://clinicaltrials.gov/study/NCT02457598) | Phase 1 | Terminated | 203 | Tirabrutinib combined with targeted anti-cancer therapies in B-cell malignancies incl. MCL; terminated |
-| [NCT03740529](https://clinicaltrials.gov/study/NCT03740529) | Phase 1/2 | Completed | 803 | Pirtobrutinib (LOXO-305) in CLL/SLL/NHL populations, including MCL as comparator/reference group |
-| [NCT04985214](https://clinicaltrials.gov/study/NCT04985214) | N/A | Unknown | 464 | Quality-of-life assessment of oral lymphoma therapies (incl. idelalisib) in patients incl. MCL |
-| [NCT01088048](https://clinicaltrials.gov/study/NCT01088048) | Phase 1 | Completed | 241 | Idelalisib + chemo/immunomodulatory/anti-CD20 agents in relapsed/refractory iNHL, MCL, or CLL |
-| [NCT02603445](https://clinicaltrials.gov/study/NCT02603445) | Phase 1 | Completed | 20 | BCL201 + idelalisib dose-escalation safety study in FL and MCL patients |
+| [NCT01796470](https://clinicaltrials.gov/study/NCT01796470) | Vaihe 2 | Lopetettu | 66 | Entospletinibi (GS-9973) + idelalisib relapsoiduissa/refraktaarissa hematologisissa pahanlaatuisuuksissa (mukaan lukien MCL, CLL, DLBCL, iNHL); suora MCL-arviointi, mutta lopetettu aikaisesti — A-luokan relevanssi, alivoimallisettu |
+| [NCT01838434](https://clinicaltrials.gov/study/NCT01838434) | Vaihe 1 | Valmistunut | 106 | Idelalisib + lenalidomidi relapsoidussa/refraktaarissa MCL:ssä; valmistunut yhdistelmälääkehoidon exploratiivinen tutkimus — B-luokka |
+| [NCT03151057](https://clinicaltrials.gov/study/NCT03151057) | Vaihe 1 | Lopetettu | 16 | Idelalisib allo-HSCT:n jälkeisen kunnossapitohoitona B-solun pahanlaatuisuuksissa (mukaan lukien MCL); lopetettu, pieni otoskoko — C-luokka |
+| [NCT02824159](https://clinicaltrials.gov/study/NCT02824159) | N/A | Valmistunut | 121 | Käytännön farmakokinetiikka/sivuvaikutus-korrelaatiotutkimus ibrutiniibistä ja idelalisiibeista hematologisissa pahanlaatuisuuksissa (mukaan lukien MCL) |
+| [NCT02457598](https://clinicaltrials.gov/study/NCT02457598) | Vaihe 1 | Lopetettu | 203 | Tirabrutinibi yhdistetty kohdennettuihin syöpää vastaan vaikuttaviin hoitoihin B-solun pahanlaatuisuuksissa (mukaan lukien MCL); lopetettu |
+| [NCT03740529](https://clinicaltrials.gov/study/NCT03740529) | Vaihe 1/2 | Valmistunut | 803 | Pirtobrutinibi (LOXO-305) CLL/SLL/NHL-populaatioissa, sisältäen MCL:n vertailuryhmänä/referenssiryhmänä |
+| [NCT04985214](https://clinicaltrials.gov/study/NCT04985214) | N/A | Tuntematon | 464 | Elämänlaadun arviointi suun kautta otettavista lymfoomahoitoista (mukaan lukien idelalisib) potilaissa (mukaan lukien MCL) |
+| [NCT01088048](https://clinicaltrials.gov/study/NCT01088048) | Vaihe 1 | Valmistunut | 241 | Idelalisib + kemo/immunomodulaattorit/anti-CD20-agentit relapsoidussa/refraktaarissa iNHL:ssä, MCL:ssä tai CLL:ssä |
+| [NCT02603445](https://clinicaltrials.gov/study/NCT02603445) | Vaihe 1 | Valmistunut | 20 | BCL201 + idelalisib annosten nousemisen turvallisuustutkimus FL- ja MCL-potilaissa |
 
 ---
 
-## Literature Evidence
+## Kirjallisuusnäyttö
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Aikakauslehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [24615778](https://pubmed.ncbi.nlm.nih.gov/24615778/) | 2014 | Phase 1 clinical study | Blood | First dedicated Phase 1 study of idelalisib monotherapy in R/R MCL (n=40); defined dosing, evaluated ORR/PFS/DOR |
-| [24795031](https://pubmed.ncbi.nlm.nih.gov/24795031/) | 2014 | Cohort | Cancer Discovery | Idelalisib showed single-agent activity in heavily pretreated MCL patients |
-| [33850273](https://pubmed.ncbi.nlm.nih.gov/33850273/) | 2022 | Preclinical | Acta Pharmacol Sin | MCL shows intrinsic resistance to idelalisib; p300/CBP inhibitor A-485 restores sensitivity in vitro/in vivo |
-| [40466505](https://pubmed.ncbi.nlm.nih.gov/40466505/) | 2025 | Preclinical | Phytomedicine | CBX5 loss drives PI3Kδ-inhibitor resistance in MCL; propolis restores sensitivity via ferroptosis induction |
-| [27342398](https://pubmed.ncbi.nlm.nih.gov/27342398/) | 2017 | Preclinical | Clin Cancer Res | Idelalisib inhibits MCL cell growth via disruption of translation-regulatory mechanisms |
-| [38815797](https://pubmed.ncbi.nlm.nih.gov/38815797/) | 2024 | Preclinical | Cancer Letters | Idelalisib enhances anti-tumor effect of CDK4/6 inhibitor palbociclib via PLK1 in MCL/DLBCL |
-| [24974852](https://pubmed.ncbi.nlm.nih.gov/24974852/) | 2014 | Review | Br J Haematol | Overview of current regimens and novel agents (incl. PI3K inhibitors) for MCL |
-| [26360791](https://pubmed.ncbi.nlm.nih.gov/26360791/) | 2015 | Review | Expert Opin Pharmacother | Review of treatment options for MCL, including novel targeted agents |
-| [23512567](https://pubmed.ncbi.nlm.nih.gov/23512567/) | 2013 | Review | Curr Treat Options Oncol | Review of current and emerging therapies in MCL |
-| [24273091](https://pubmed.ncbi.nlm.nih.gov/24273091/) | 2013 | Review | Am J Hematol | 2013 update on MCL diagnosis, risk-stratification, and clinical management |
+| [24615778](https://pubmed.ncbi.nlm.nih.gov/24615778/) | 2014 | Phase 1 kliininen tutkimus | Blood | Ensimmäinen omistautunut Phase 1 -tutkimus idelalisiibin yksittäislääkehoidosta R/R MCL:ssä (n=40); määritetty annostus, arvioitu ORR/PFS/DOR |
+| [24795031](https://pubmed.ncbi.nlm.nih.gov/24795031/) | 2014 | Kohortti | Cancer Discovery | Idelalisib osoitti yksittäislääkkeen aktiivisuutta raskaasti esikäsitellyissä MCL-potilaissa |
+| [33850273](https://pubmed.ncbi.nlm.nih.gov/33850273/) | 2022 | Prekliininen | Acta Pharmacol Sin | MCL osoittaa sisäisen resistanssin idelalisiibia vastaan; p300/CBP-inhibiittorin A-485 palauttaa herkkyyden in vitro/in vivo |
+| [40466505](https://pubmed.ncbi.nlm.nih.gov/40466505/) | 2025 | Prekliininen | Phytomedicine | CBX5:n puute johtaa PI3Kδ-inhibiittorin resistanssiin MCL:ssä; propoliiksi palauttaa herkkyyden ferropitoosin induktion kautta |
+| [27342398](https://pubmed.ncbi.nlm.nih.gov/27342398/) | 2017 | Prekliininen | Clin Cancer Res | Idelalisib estää MCL-solujen kasvua häiritsemällä translaatiota säätäviä mekanismeja |
+| [38815797](https://pubmed.ncbi.nlm.nih.gov/38815797/) | 2024 | Prekliininen | Cancer Letters | Idelalisib parantaa CDK4/6-inhibiittorin palbosiklibin syöpänvastaista vaikutusta PLK1:n välityksellä MCL/DLBCL:ssä |
+| [24974852](https://pubmed.ncbi.nlm.nih.gov/24974852/) | 2014 | Katsaus | Br J Haematol | Katsaus MCL:n nykyisiin hoitokaavioihin ja uusiin agentteihin (mukaan lukien PI3K-inhibiittorit) |
+| [26360791](https://pubmed.ncbi.nlm.nih.gov/26360791/) | 2015 | Katsaus | Expert Opin Pharmacother | Katsaus MCL:n hoitovaihtoehdoista, mukaan lukien uudet kohdennetut agentit |
+| [23512567](https://pubmed.ncbi.nlm.nih.gov/23512567/) | 2013 | Katsaus | Curr Treat Options Oncol | Katsaus MCL:n nykyisiin ja nouseviin hoitoihin |
+| [24273091](https://pubmed.ncbi.nlm.nih.gov/24273091/) | 2013 | Katsaus | Am J Hematol | 2013 päivitys MCL:n diagnoosista, riskin stratifioinnista ja kliinisestä hallinnasta |
 
 ---
 
-## Finland Market Information
+## Suomen markkina-informaatio
 
-Idelalisib is not currently marketed in Finland — 0 authorizations are on file, and the drug's Finnish regulatory status is recorded as "Not marketed" (not marketed).
-
----
-
-## Cytotoxicity
-
-Idelalisib is an antineoplastic agent (targeted small-molecule kinase inhibitor used for hematologic malignancies), so this section applies.
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (PI3Kδ inhibitor) — not a conventional cytotoxic chemotherapeutic |
-| Myelosuppression Risk | Formal hematologic toxicity data was not retrieved in this evidence pack (DDI/warnings query returned no results); literature associated with idelalisib in B-cell malignancies notes neutropenia among reported adverse events (PMID 27054023) |
-| Emetogenicity Classification | Not established in the retrieved data; please refer to the package insert |
-| Monitoring Items | CBC with differential (cytopenias), liver function tests (hepatotoxicity), pulmonary symptom monitoring (pneumonitis), GI symptom monitoring (idelalisib-associated colitis/diarrhea, per NCT02928510 and PMID 28775119) |
-| Handling Protection | Yes — as an oral targeted antineoplastic agent, standard cytotoxic/hazardous drug handling precautions should be followed pending confirmation against the local package insert |
+Idelalisib ei ole tällä hetkellä markkinoitu Suomessa — lupapäätöksistä ei ole merkintöjä (0), ja lääkkeen suomalainen sääntelystatus on "Ei markkinoitu".
 
 ---
 
-## Safety Considerations
+## Sytotoksisuus
 
-Please refer to the package insert for safety information.
+Idelalisib on antineoplastinen aine (kohdennettu pienimolekyylinen kinaasi-inhibiitteri, jota käytetään hematologisten pahanlaatuisuuksien hoitoon), joten tämä osio on sovellettava.
+
+| Kohde | Sisältö |
+|------|---------|
+| Sytotoksisuuden luokitus | Kohdennettu hoito (PI3Kδ-inhibiitteri) — ei tavanomainen sytotoksinen kemoterapia |
+| Myelosuppression-riski | Muodollisia hematologisen toksisuuden tietoja ei haettu tässä näytöpaketissa (DDI/varoituskysely ei palauttanut tuloksia); idelalisibiin liittyvä kirjallisuus B-solun pahanlaatuisuuksissa mainitsee neutropeniaa ilmoitettujen haittavaikutusten joukossa (PMID 27054023) |
+| Emetogeniteetin luokitus | Ei vahvistettu haetun datan perusteella; katso pakkausseloste |
+| Seurantakohde | CBC differentiaalilla (sytopeniat), maksan toimintotestit (hepatotoksisuus), keuhko-oireiden seuranta (pneumoniitti), GI-oireiden seuranta (idelalisib-liittyvä koliitti/ripuli, NCT02928510 ja PMID 28775119 mukaan) |
+| Käsittelysuoja | Kyllä — koska se on suun kautta otettava kohdennettu antineoplastinen aine, on noudatettava tavanomaisia sytotoksisten/vaarallisten lääkkeiden käsittelyn varotoimia paikallisen pakkausselosteen vahvistusta odottaen |
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuusnäkökohdat
 
-**Decision: Hold**
+Turvallisuustiedoista katso pakkausseloste.
 
-**Rationale:**
-Evidence for idelalisib in MCL is limited to a single dedicated Phase 1 monotherapy study (n=40) and several early-phase or prematurely terminated combination trials (L2 evidence, decision stage S2). Preclinical literature further indicates intrinsic MCL resistance to idelalisib, and MCL is not an approved indication for this drug — mechanistic plausibility exists, but confirmatory efficacy is lacking.
+---
 
-**To proceed, the following is needed:**
-- Confirmatory randomized (Phase 2/3) efficacy data specifically in MCL
-- Resistance-informed combination strategy data (e.g., epigenetic co-inhibition) given reported intrinsic MCL resistance
-- TFDA/Finland package insert warnings and contraindications (currently a Blocking data gap, DG001) before any S1 safety assessment can proceed
-- Formal DrugBank-sourced mechanism-of-action documentation (currently a data gap, DG002)
-- Confirmation of Finland market entry pathway, since the drug is not currently marketed there
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Odottava**
+
+**Perustelu:**
+Näyttö idelalisiibin käytöstä MCL:ssä rajoittuu yksittäiseen omistautuneeseen Phase 1 -yksittäislääkkeen tutkimukseen (n=40) ja useisiin varhaisvaiheen tai ennenaikaisesti lopetettuihin yhdistelmähoidon tutkimuksiin (L2-näyttö, päätösvaihe S2). Prekliininen kirjallisuus osoittaa edelleen MCL-solujen sisäistä resistanssia idelalisiibia vastaan, eikä MCL ole hyväksytty indikaatio tälle lääkkeelle — mekanistinen uskottavuus on olemassa, mutta vahvistava teho puuttuu.
+
+**Jatkaakseen seuraavat ovat tarpeen:**
+- Vahvistava satunnaistettu (Phase 2/3) tehokkuusdata erityisesti MCL:ssä
+- Resistanssiin perustuvien yhdistelmästrategioiden data (esim. epigeneettinen rinnakkaisinhibitiomenetelmä), jotka ottavat huomioon raportoitu MCL-sisäisen resistanssin
+- TFDA/Suomen pakkausselosteen varoitukset ja vasta-aiheet (tällä hetkellä estävä tietoaukko, DG001) ennen kuin S1-turvallisuusarviointi voidaan jatkaa
+- Muodollinen DrugBank-lähteinen mekanismi-vaikutus-dokumentaatio (tällä hetkellä tietoaukko, DG002)
+- Suomen markkinoille tulon reitin vahvistaminen, koska lääke ei ole tällä hetkellä markkinoitu siellä
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

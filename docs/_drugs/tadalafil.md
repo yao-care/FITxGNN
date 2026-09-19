@@ -29,71 +29,72 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **8** kpl
 
 </div>
 
-# Tadalafil: From an Undocumented Original Indication to Ambras Type Hypertrichosis Universalis Congenita
+# Tadalafil: tuntemattomasta alkuperäisestä indikaatiosta Ambras-tyypin hypertrikoosioon universalis congenita
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-> Tadalafil is a PDE5 inhibitor (per the evidence pack's own rationale text, already approved for WHO Group 1 pulmonary arterial hypertension); its original indication record for this evaluation is not documented.
-> The TxGNN model's top-ranked prediction is **Ambras type hypertrichosis universalis congenita**, a rare congenital multi-hair syndrome,
-> but this prediction is currently supported by **0 clinical trials** and **0 publications** — the model's own rationale flags it as a likely embedding-space artifact rather than a mechanistic signal.
+> Tadalafii on PDE5-inhibiittori (näyttöpaketin omassa perustelutekstissä jo todettu, hyväksytty WHO-ryhmän 1 keuhkojen valtimohypertensioon); tätä arviointia varten käytettävää alkuperäisen indikaation tietoa ei ole dokumentoitu.
+> TxGNN-mallin paras ennuste on **Ambras-tyypin hypertrikoosi universalis congenita**, harvinainen synnynnäinen monihiuksinen oireyhtymä,
+> mutta tätä ennustusta tukee tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua** — mallin oma perusteluteksti kuvailee sitä todennäköisesti upotusfunktiotilaavaruuden artefaktiksi pikemminkin kuin mekanistiseksi signaaliksi.
 
-## Quick Overview
+## Pika-yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in this evidence pack (Finland licensing data absent) |
-| Predicted New Indication | Ambras type hypertrichosis universalis congenita |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Finland Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Ei dokumentoitu tässä näyttöpaketissa (Suomen lupaustiedot puuttuvat) |
+| Ennustettu uusi indikaatio | Ambras-tyypin hypertrikoosi universalis congenita |
+| TxGNN-ennusteen pistemäärä | 99.98% |
+| Näyttötaso | L5 (vain mallin ennuste, ei tukevia tutkimuksia) |
+| Suomen markkinatilanne | Ei markkinoilla (Ei markkinoilla) |
+| Lupapäätösten lukumäärä | 0 |
+| Suositeltu päätös | Varaus |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on perusteltu?
 
-Detailed mechanism-of-action data for tadalafil is flagged as a gap in this evidence pack (DG002). The only mechanistic context available comes from the model's own rationale text across the eight candidate indications: tadalafil is described there as a PDE5 inhibitor that raises cGMP levels and relaxes vascular smooth muscle, and is already an approved therapy for WHO Group 1 pulmonary arterial hypertension.
+Tadalafiilin mekanismi-vaikutus-tiedot on merkitty puutteeksi tässä näyttöpaketissa (DG002). Ainoa mekanistinen konteksti, joka on saatavilla, tulee mallin omista perusteluteksteistä kahdeksalla ehdokkaan indikaatiolla: tadalafii kuvataan siellä PDE5-inhibiittoriksi, joka nostaa cGMP-tasoja ja rentouttaa verisuonten sileitä lihaksia, ja se on jo hyväksytty lääkehoito WHO-ryhmän 1 keuhkojen valtimohypertensioon.
 
-For the top-ranked candidate — Ambras type hypertrichosis universalis congenita, a rare genetic syndrome typically linked to chromosome 8q rearrangements — the evidence pack's rationale explicitly states there is **no known pathological connection** to PDE5 inhibition, cGMP signaling, or vascular smooth muscle relaxation. It characterizes the high TxGNN score as most likely an artifact of embedding-space similarity rather than a genuine mechanistic inference.
+Paremman sijaluvun omaavalle ehdokkaalle — Ambras-tyypin hypertrikoosi universalis congenita, harvinaiselle perimälliselle oireyhtymälle, joka tyypillisesti liittyy kromosomi 8q:n uudelleenjärjestelmiin — näyttöpaketin perusteluteksti nimenomaisesti toteaa, että ei ole **tunnettu patologinen yhteys** PDE5-estoamiselle, cGMP-signaloinnille tai verisuonten sileiden lihasten rentouttamiselle. Se kuvailee korkeaa TxGNN-pistemäärää todennäköisesti upotusfunktiotilaavaruuden samankaltaisuuden artefaktiksi pikemminkin kuin todellisen mekanistisen johtopäätöksen.
 
-A weaker, secondary hypothesis appears for the related rank-2 prediction (hypertrichosis, general): topical vasodilators such as minoxidil can promote follicular growth, and PDE5 inhibitors share vasodilatory pharmacology in principle. However, this remains speculative extrapolation with no clinical or case-report support in the current evidence, and does not apply to the rank-1 Ambras-syndrome prediction, which is a distinct and much rarer genetic entity.
+Heikompaa, toisijaista hypoteesia ilmaantuu siihen liittyvälle rank-2-ennusteelle (hypertrikoosi, yleinen): paikallisesti käytettävät vasodilattorit, kuten minoksidiili, voivat edistää hiusrakkeiden kasvua, ja PDE5-inhibiittorit jakavat vasodilatoivaa farmakologiaa periaatteessa. Kuitenkin tämä pysyy spekulatiivisena ekstrapolaationa ilman kliinistä tai tapauskertomusten tukea nykyisille näytöille, eikä se päde rank-1-Ambras-oireyhtymän ennusteeseen, joka on erillinen ja paljon harvinaisempi perimällinen entiteetti.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-Currently no related clinical trials registered.
+Tällä hetkellä ei ole rekisteröityjä liittyviä kliinisiä tutkimuksia.
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-Currently no related literature available.
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Tadalafil is currently **not marketed** in Finland per this evidence pack (0 authorizations recorded), so no product/license table can be generated.
+Tadalafiilin markkinointia ei tällä hetkellä tapahdu Suomessa tämän näyttöpaketin mukaan (0 lupapäätöstä rekisteröity), joten mitään tuote-/lupätaulukkoa ei voida luoda.
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug interaction data are all currently unavailable — obtaining the TFDA/Fimea package insert is flagged as a **blocking** data gap, DG001, required before any safety pre-screening can proceed.)
+Katso pakkauselosteen turvallisustiedot. (Tärkeät varoitukset, vasta-aiheet ja lääkkeiden yhteisvaikutukset eivät ole tällä hetkellä saatavilla — TFDA/Fimean pakkauselosteen hankkiminen on merkitty **estäväksi** tietovajeeksi, DG001, jota vaaditaan ennen kuin turvallisuuden esitarkastus voidaan aloittaa.)
 
-## Other Predicted Signals & Safety Note
+## Muut ennustetut signaalit ja turvallisuushuomautus
 
-The evidence pack screened 8 TxGNN predictions for tadalafil; all scored in a similarly high but narrow range (99.42%–99.98%), and all but two returned zero supporting literature/trials:
+Näyttöpaketti tutki 8 TxGNN-ennustusta tadalafiilin osalta; kaikki saivat samankaltaisen korkean mutta kapeasti sijoittuneet tulokset (99.42%–99.98%), ja kaikki paitsi kaksi tuottivat nolla tukevaa kirjallisuutta/tutkimuksia:
 
-- **Kyphoscoliotic heart disease** (rank 7, L4, stage S1 "Research Question") is the most mechanistically plausible of the set: severe kyphoscoliosis can cause restrictive lung disease with Group 3 pulmonary hypertension, and tadalafil is an approved Group 1 PAH therapy. However, PDE5 inhibitors in hypoxia/lung-disease-related (Group 3) PH are controversial — they can worsen ventilation-perfusion mismatch — and no direct trial evidence exists for this population.
-- **Migraine with brainstem aura** (rank 8, L4) surfaced one case report (PMID [17059442](https://pubmed.ncbi.nlm.nih.gov/17059442/)) describing tadalafil-**associated/induced** typical aura without headache — this is an **adverse-effect signal, not therapeutic evidence**, and the rationale explicitly warns TxGNN may have inverted the drug–disease relationship direction. This should be read as a caution, not a repurposing lead.
-- The "malformation syndrome with odontal/periodontal component" candidate returned 20 literature hits, but all are general periodontitis pathophysiology reviews with no tadalafil-specific content — a keyword co-occurrence artifact, not real evidence.
-- The remaining candidates (hair-shaft abnormality, Dandy-Walker syndrome, familial trichomegaly) have no known mechanistic link and no supporting data.
+- **Kyfooskolioottinen sydänsairaus** (rank 7, L4, vaihe S1 "Research Question") on asetettujen joukossa mekanistisesti uskottavin: vakava kyfooskoliosi voi aiheuttaa restriktiiviisen keuhkosairauden ja ryhmän 3 keuhkojen hypertension, ja tadalafii on hyväksytty ryhmän 1 PAH-lääkehoito. Kuitenkin PDE5-inhibiittorit hypoksiassa/keuhkosairauksiin liittyvässä (ryhmän 3) PH:ssa ovat kiistanalaisia — ne voivat pahentaa ventillaation-perfuusion epäsuhdetta — eikä näille väestöille ole olemassa suoraa tutkimusnäyttöä.
+- **Aivovarren auran migreeni** (rank 8, L4) paljasti yhden tapauskertomus (PMID [17059442](https://pubmed.ncbi.nlm.nih.gov/17059442/)) jossa kuvataan tadalafiilin **aiheuttama/liittyvä** tyypillinen aura ilman päänsärkyä — tämä on **haittavaikutussignaali, ei hoitotodiste**, ja perusteluteksti nimenomaisesti varoittaa, että TxGNN on saattanut kääntää lääkkeen–sairauden suhteen suunnan. Tämä olisi luettava varotuksena, ei uudelleenkäyttömahdollisuutena.
+- "Epämuodostumaoireyhtymä hammas-/parodontaalisella komponentilla" -ehdokas tuotti 20 kirjallisuusosumaa, mutta kaikki ovat yleisiä periodontiitin patofysiologian katsauksia, joissa ei ole tadalafiilin-kohtaista sisältöä — avainsanojen rinnakkaisesiintymisen artefakti, ei todellinen näyttö.
+- Jäljellä olevilla ehdokkailla (hiuksien varren poikkeavuus, Dandy-Walker-oireyhtymä, perinnöllinen trikoumegalia) ei ole tunnettua mekanistista linkkiä eikä tukevaa dataa.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Varaus**
 
-**Rationale:**
-The top-ranked prediction (Ambras type hypertrichosis) has zero clinical trials, zero literature, and no plausible mechanistic link per the model's own rationale — this is a model-score-only signal (L5) with a strong internal warning that it is a statistical artifact. No candidate among the 8 screened reaches even L2/L3 evidence.
+**Perustelu:**
+Korkeimman sijaluvun ennuste (Ambras-tyypin hypertrikoosi) sisältää nolla kliinistä tutkimusta, nolla kirjallisuutta ja ei uskottavaa mekanistista linkkiä mallin omien perusteluiden mukaan — tämä on vain mallin pistemäärää sisältävä signaali (L5), jossa on vahva sisäinen varoitus, että se on tilastollinen artefakti. Mikään 8 seulotusta ehdokkaasta ei saavuta edes L2/L3-näyttötasoa.
 
-**To proceed, the following is needed:**
-- Resolve the blocking gap (DG001): obtain the TFDA/Fimea package insert for warnings, contraindications, and DDI before any safety pre-screening (S1) can begin
-- Obtain confirmed original MOA and original indication data from DrugBank (DG002) to properly ground any repurposing rationale
-- If pursuing further, redirect evaluation toward the more mechanistically defensible candidate — kyphoscoliotic heart disease / Group 3 PH — rather than the top TxGNN-ranked but unsupported hypertrichosis prediction
-- Treat the migraine-aura literature signal as a pharmacovigilance flag for existing tadalafil use, not a repurposing opportunity
+**Jatkamiseksi tarvitaan seuraavaa:**
+- Ratkaise estävä aukko (DG001): hanki TFDA/Fimean pakkausseloste varoituksille, vasta-aiheille ja lääkkeiden yhteisvaikutuksille ennen kuin turvallisuuden esitarkastus (S1) voidaan aloittaa
+- Hanki vahvistetut alkuperäiset MOA- ja alkuperäisen indikaation tiedot DrugBankista (DG002) perusteellisesti perustamaan mille tahansa uudelleenkäyttöperusteluille
+- Jos jatkossa edetään, ohjaa arviointi mekanistisesti puolustettavampaan ehdokkaaseen — kyfooskolioottinen sydänsairaus / ryhmän 3 PH — pikemminkin kuin TxGNN:n korkeimpaan sijalukuun ja tukemattomaan hypertrikoosin ennusteeseen
+- Käsittele migrenin-auran kirjallisuussignaalia farmakovigilanssivaroitukseksi olemassa olevalle tadalafiilin käytölle, ei uudelleenkäyttömahdollisuutena
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -29,61 +29,62 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Maraviroc: From HIV-1 Infection to Multiple Endocrine Neoplasia
+# Maraviroc: HIV-1-infektiosta useaan endokriiniin neoplasiaan
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Maraviroc is a CCR5 chemokine receptor antagonist originally developed to block CCR5-tropic HIV-1 entry into host cells. The TxGNN model predicts it may be effective for **Multiple Endocrine Neoplasia (MEN)**, with a very high similarity score (99.82%), but currently **0 clinical trials** and **0 publications** support this specific direction, and the underlying mechanistic rationale is explicitly assessed as unsubstantiated.
+Maraviroc on CCR5-kemokiinireseptoriantagonisti, joka alun perin kehitettiin estämään CCR5-troopisen HIV-1:n pääsyä isännän soluihin. TxGNN-malli ennustaa, että se saattaa olla tehokas **useaan endokriiniin neoplasiaan (MEN)**, erittäin korkealla samankaltaisuuspisteellä (99.82 %), mutta tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua** tukevat tätä erityistä suuntaa, ja taustalla oleva mekanistinen perusteltu arvioidaan nimenomaisesti perusteettomaksi.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | HIV-1 infection (CCR5-tropic strains) — evidence pack contains no `original_indications` entries; based on the drug's known pharmacological classification |
-| Predicted New Indication | Multiple Endocrine Neoplasia |
-| TxGNN Prediction Score | 99.82% |
-| Evidence Level | L5 |
-| Finland Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | HIV-1-infektio (CCR5-trooppiset kannat) — näytöpaketti ei sisällä `original_indications`-merkintöjä; perustuu lääkkeen tunnettuun farmakologiseen luokitteluun |
+| Ennustettu uusi indikaatio | Useaan endokriiniin neoplasia |
+| TxGNN-ennustepisteet | 99.82 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Ei markkinoilla |
+| Hyväksyntöjen määrä | 0 |
+| Suositeltu päätös | Pidätä |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on perusteltu?
 
-Currently, detailed mechanism of action data is not available in this evidence pack (flagged as a High-severity data gap). Based on known pharmacological classification, maraviroc is a CCR5 chemokine receptor antagonist; its established clinical use is blocking CCR5-mediated HIV-1 cell entry.
+Tällä hetkellä yksityiskohtaisia mekanismin tietoja ei ole saatavilla tässä näytöpaketissa (merkitty korkean vakavuusasteen tietovajeeksi). Tunnetun farmakologisen luokittelun perusteella maraviroc on CCR5-kemokiinireseptoriantagonisti; sen vakiintunut kliininen käyttö on CCR5-välitteisen HIV-1-solunsisääntulon estäminen.
 
-Multiple Endocrine Neoplasia is a hereditary endocrine tumour syndrome driven by germline mutations in genes such as *RET* and *MEN1*, with no established connection to CCR5 chemokine signalling. The repurposing rationale attached to this prediction states directly that "no known association exists between MEN and the CCR5 chemokine signalling pathway, and the mechanistic basis does not hold" (機轉不成立).
+Useaan endokriiniin neoplasia on perinnöllinen endokriininen kasvainsyndromi, jota aiheuttavat germinaalivikaiset geeneissä, kuten *RET* ja *MEN1*, ja sillä ei ole vakiintunutta yhteyttä CCR5-kemokiinisignaloinnissa. Tähän ennusteeseen liitetty uudelleenkäyttöindikaation perustelusta todetaan suoraan, että "tunnetusta yhteyttä MEN:n ja CCR5-kemokiinisignaloinnin välillä ei ole, eikä mekanistinen peruste ole pätevä" (機轉不成立).
 
-Despite the high TxGNN similarity score, the model's output here should be treated as a statistical association from the knowledge graph rather than a mechanistically grounded hypothesis. No clinical trials, literature, or preclinical data currently support this specific drug-disease pairing.
+Huolimatta korkeasta TxGNN-samankaltaisuuspisteestä mallin tuotosta tässä on käsiteltävä tilastollisena assosiaationa tietokannasta pikemminkin kuin mekanistisesti perustelluna hypoteesinä. Tällä hetkellä mikään kliininen tutkimus, kirjallisuus tai prekliininen tieto ei tue tätä erityistä lääkkeen-sairauden yhdistelmää.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-Currently no related clinical trials registered.
+Tällä hetkellä ei ole rekisteröityjä siihen liittyviä kliinisiä tutkimuksia.
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-Currently no related literature available.
+Tällä hetkellä ei ole saatavilla siihen liittyvää kirjallisuutta.
 
-## Finland Market Information
+## Markkinatiedot Suomesta
 
-Maraviroc is not currently marketed in Finland (0 authorizations on record), so no product/license table can be produced from this evidence pack.
+Maraviroc ei ole tällä hetkellä markkinoilla Suomessa (0 hyväksyntää), joten tuote-/lisenssi-taulukkoa ei voida tuottaa tästä näytöpaketista.
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information.
+Katso turvallisuustiedot pakkausselosteesta.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidätä**
 
-**Rationale:**
-- The prediction carries a high TxGNN score but is assessed at Evidence Level L5 (model prediction only) with zero supporting clinical trials or publications, and the repurposing rationale explicitly states no plausible mechanistic link between CCR5 antagonism and MEN pathogenesis.
+**Perustelut:**
+- Ennusteeseen liittyy korkea TxGNN-piste, mutta se arvioidaan näytön tasolla L5 (vain mallin ennuste) nolla tukevalla kliinisellä tutkimuksella tai julkaisulla, ja uudelleenkäyttöindikaation perustelusta ilmenee nimenomaisesti, että CCR5-antagonismin ja MEN-patogeenisen mekanismin välillä ei ole uskottavaa yhteyttä.
 
-**To proceed, the following is needed:**
-- Confirmed mechanism of action documentation for maraviroc (currently a blocking/high-severity data gap)
-- TFDA/regulatory package insert data covering warnings, contraindications, and DDI (currently a blocking data gap)
-- Preclinical or mechanistic studies specifically linking CCR5 signalling to endocrine neoplasia pathways before any further evaluation of this indication
+**Jatkamisen edellytyksenä tarvitaan seuraavaa:**
+- Vahvistettu mekanismin toiminnan dokumentaatio maraviroc-lääkkeelle (tällä hetkellä este/korkean vakavuusasteen tietovaje)
+- TFDA/sääntelyviranomaisen pakkausseloste, joka kattaa varoitukset, vasta-aiheet ja lääkeyhteisvaikutukset (tällä hetkellä este/tietovaje)
+- Prekliinisiä tai mekanistisia tutkimuksia, jotka nimenomaisesti yhdistävät CCR5-signaloinnin endokriinisen neoplasian polkuihin ennen tämän indikaation lisäarviointia
 
-**Note on portfolio prioritization:** Among the 10 TxGNN-predicted indications for maraviroc in this evidence pack, **HER2-positive breast carcinoma** (rank 10, decision stage S1, "Research Question") has the strongest mechanistic support — a published preclinical study (PMID [32404410](https://pubmed.ncbi.nlm.nih.gov/32404410/)) shows autocrine CCL5-CCR5 signalling drives trastuzumab resistance via ERK pathway activation, suggesting CCR5 blockade could restore trastuzumab sensitivity. This candidate, rather than MEN, may warrant a dedicated follow-up evaluation.
+**Huomautus portfoliopriorisoinista:** Maraviroc-lääkkeen 10 TxGNN-ennustetusta indikaatiosta tässä näytöpaketissa **HER2-positiivinen rintasyöpä** (sijoitus 10, päätösvaihe S1, "Research Question") on mekanistisesti vahvimmin tuettu — julkaistu prekliininen tutkimus (PMID [32404410](https://pubmed.ncbi.nlm.nih.gov/32404410/)) osoittaa, että autokriininen CCL5-CCR5-signalointi ajaa trastuzumabi-vastustusta ERK-polun aktivoinnin kautta, mikä viittaa siihen, että CCR5-esto voisi palauttaa trastuzumabin herkkyyden. Tämä ehdokas pikemminkin kuin MEN saattaa vaatia omaa seurantaarviointia.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

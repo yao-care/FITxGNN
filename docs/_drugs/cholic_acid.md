@@ -29,84 +29,85 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Cholic Acid：從膽酸合成障礙（未確認）到 HIV 感染症的探索性訊號
+# Cholic Acid: Eksploratiivinen signaali sappihapposynteesin häiriöstä (vahvistamaton) HIV-infektiotautiin
 
-## 一句話摘要
+## Yhden lauseen yhteenveto
 
-Cholic acid（DrugBank ID: DB02659）在本證據包中未提供正式的原始適應症與作用機轉（MOA）資料；但由 rank 5 預測項目所附文獻與試驗（如 Cholbam® 患者登錄研究 NCT03115086）可推知其於臨床上實際用於**膽酸合成障礙（Bile Acid Synthesis Disorder）**。TxGNN 模型將本藥物排名第一的預測適應症指向 **HIV 感染症**，預測分數達 **99.79%**，但支持證據僅有 **9 篇文獻**、**無任何登記中的臨床試驗**，且其中一篇研究顯示其衍生物反而**促進** HIV-1 病毒複製，證據方向並不一致。
-
----
-
-## 快速總覽
-
-| 項目 | 內容 |
-|------|------|
-| 原始適應症 | 膽酸合成障礙（依文獻脈絡推得，非結構化藥物資料中之正式記載） |
-| 預測新適應症 | HIV infectious disease |
-| TxGNN 預測分數 | 99.79% |
-| 證據等級 | L4 |
-| 芬蘭市場狀態 | Not marketed |
-| 授權證號數量 | 0 |
-| 建議決策 | Hold |
+Cholic acid (DrugBank ID: DB02659) ei sisälly tähän näytöpakettioon virallisina alkuperäisen indikaation ja toimintamekanismin (MOA) tietoina; kuitenkin rank 5 -ennusteeseen liitetyn kirjallisuuden ja tutkimusten perusteella (kuten Cholbam® -potilasrekisteri NCT03115086) voidaan päätellä sen todellisen kliinisen käytön kohdentuvan **sappihapposynteesin häiriöihin (Bile Acid Synthesis Disorder)**. TxGNN-malli asettaa tämän lääkkeen parhaiten ennustetuksi indikaatioksi **HIV-infektiotaudin**, ennustepisteet saavuttaen **99,79 %**, mutta tukevaa näyttöä on vain **9 julkaisua**, **ei yhtään rekisteröityä kliinistä tutkimusta**, ja yksi tutkimus osoittaa sen johdannaisaineen **edistävän** HIV-1-viruksen lisääntymistä, eikä näyttö ole johdonmukaista.
 
 ---
 
-## 為什麼這個預測有其道理？
+## Pika-yleiskatsaus
 
-目前無法取得 cholic acid 詳細作用機轉（MOA）資料。根據本證據包內可查得的脈絡，cholic acid 是一種初級膽酸，已知用於膽酸合成障礙（如市售品 Cholbam®，見 rank 5 預測項目所附之 NCT03115086 患者登錄研究與 PMID 35392794），其在體內主要透過負回饋調節 CYP7A1 影響膽固醇/膽酸代謝路徑。這與本次排名第一的預測適應症「HIV 感染症」在生理機轉上並無直接關聯。
-
-支持 HIV 感染症此一預測的文獻，主要來自 1990 年代針對含 sodium cholate 之陰道殺精/抗菌海綿（如 Protectaid）的體外研究，顯示 cholic acid 對 HIV-1 逆轉錄酶有劑量依賴性抑制效果（PMID 7688380）。然而，另一篇 2006 年研究（PMID 16610808）發現 cholic acid 胺基衍生物**誘發** HIV-1 複製與合胞體形成，方向與治療假說相反。其餘文獻多為愛滋病患使用蛋白酶抑制劑後血漿膽酸濃度改變的觀察性研究，屬相關性資料而非治療性證據。整體而言，此預測目前僅屬模型分數驅動的探索性訊號，缺乏一致的機轉支持與臨床驗證。
-
----
-
-## 臨床試驗證據
-
-目前無相關臨床試驗登記。
-
----
-
-## 文獻證據
-
-| PMID | 年份 | 類型 | 期刊 | 重點發現 |
-|------|-----|------|------|---------|
-| [9238301](https://pubmed.ncbi.nlm.nih.gov/9238301/) | 1997 | Review | Annals of the New York Academy of Sciences | 討論含 cholic acid 之陰道殺菌海綿作為抗性病屏障法，屬綜述性質，無 HIV 治療原始數據 |
-| [16610808](https://pubmed.ncbi.nlm.nih.gov/16610808/) | 2006 | In vitro（負向結果） | Journal of Medicinal Chemistry | Cholic acid 胺基衍生物意外**誘發** HIV-1 複製與 T 細胞合胞體形成，與抗病毒假說方向相反 |
-| [7688380](https://pubmed.ncbi.nlm.nih.gov/7688380/) | 1993 | In vitro/Preclinical | Human Reproduction | Sodium cholate 展現劑量依賴性殺精及 HIV-1 逆轉錄酶體外抑制效果，為 Protectaid 海綿設計基礎 |
-| [7848210](https://pubmed.ncbi.nlm.nih.gov/7848210/) | 1994 | Review | Aust N Z J Obstet Gynaecol | 綜述各類避孕/性病防護方法，未針對 cholic acid 提供臨床數據 |
-| [8849197](https://pubmed.ncbi.nlm.nih.gov/8849197/) | 1995 | Review | Ann Acad Med Singapore | 綜述屏障式避孕法對性病/HIV 防護效果，保險套證據最充分，未涉及 cholic acid 臨床數據 |
-| [32052857](https://pubmed.ncbi.nlm.nih.gov/32052857/) | 2020 | Review | Hepatology | 討論 HIV 患者因抗反轉錄病毒藥物交互作用被排除於 NASH 新藥試驗，非探討 cholic acid 對 HIV 之療效 |
-| [20030469](https://pubmed.ncbi.nlm.nih.gov/20030469/) | 2010 | Observational Cohort | Pharmacotherapy | HIV 患者接受蛋白酶抑制劑治療時血漿膽酸濃度改變，探討與肝毒性關聯，屬相關性而非治療性證據 |
-| [2870224](https://pubmed.ncbi.nlm.nih.gov/2870224/) | 1986 | In vitro（病毒滅活） | Lancet | TNBP/sodium cholate 用於血液製劑之病毒滅活（HBV/HTLV-III），非全身性抗病毒治療 |
-| [28745428](https://pubmed.ncbi.nlm.nih.gov/28745428/) | 2017 | Methodology/Assay artifact | ChemMedChem | 顯示界面活性劑 Triton X-100 會扭曲 HIV-1 蛋白酶抑制劑結合力測定，屬方法學提醒，與 cholic acid 本身療效無關 |
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Sappihapposynteesin häiriö (johdettu kirjallisuuden perusteella, ei muodollisesti rakennetun lääkintödata-aineistossa) |
+| Ennustettu uusi indikaatio | HIV infectious disease |
+| TxGNN-ennustepistemäärä | 99,79 % |
+| Näyttöjen taso | L4 |
+| Suomen markkinatilanne | Not marketed |
+| Myyntilupien lukumäärä | 0 |
+| Suositeltu päätös | Hold |
 
 ---
 
-## 芬蘭市場資訊
+## Miksi tämä ennuste on järkevä?
 
-Cholic acid 目前在芬蘭**未取得任何上市授權**（授權證號數量：0），市場狀態為「Not marketed」。
+Tällä hetkellä ei ole saatavilla yksityiskohtaisia cholic acid -toimintamekanismin (MOA) tietoja. Tämän näytöpaketin saatavilla olevan kontekstin perusteella cholic acid on primäärinen sappihapon muoto, jonka tiedetään käytettävän sappihapposynteesin häiriöissä (kuten kaupallisesti saatavassa Cholbam®:ssa, katso rank 5 -ennusteen liitteessä NCT03115086 -potilasrekisteri ja PMID 35392794), joka vaikuttaa elimistössä pääasiassa CYP7A1:n negatiivisen takaisinkytkennän kautta kolesteroli-/sappihapon aineenvaihdunnan reitillä. Tällä ei ole suoraa fysiologista yhteyttä ensimmäisenä rankattuun "HIV-infektiotaudin" ennusteeseen.
 
----
-
-## 安全性考量
-
-請參閱藥品仿單以取得安全性資訊。
-
-（本證據包之關鍵警語、禁忌症與藥物交互作用查詢均為「[Data Gap]」或「not_found」，且 meta.data_gaps 中 DG001「Fimea package insert warnings/contraindications」被標註為 **Blocking** 等級，直接影響安全性初評可否進行。）
+HIV-infektiotaudin ennustetta tukevan kirjallisuuden pääasiallinen lähde on 1990-luvun tutkimuksista, jotka käsittelevät sodium cholate -sisältäviä vaginaalisia spermitsidejä/antibakteerisia käämiä (kuten Protectaid), ja niissä näytettiin cholic acid -vaikutus HIV-1 käänteiskääntäjään annoksesta riippuvaisesti (PMID 7688380). Kuitenkin toinen vuonna 2006 julkaistu tutkimus (PMID 16610808) osoitti, että cholic acid -aminojohdannainen **indusoivat** HIV-1 -lisääntymisen ja synsiitiumin muodostumisen, mikä on vastoin hoitohypoteesia. Muut julkaisut ovat suurimmaksi osaksi havaintotutkimuksia, joissa AIDS-potilailla käytettiin proteiaasin estäjiä ja niiden seurauksena plasman sappihapon pitoisuudet muuttuivat, ja nämä ovat suhteellisia tietoja eikä hoitollista näyttöä. Kokonaisuudessaan tämä ennuste on tällä hetkellä vain mallin pistemäärän ohjaamaa eksploratiivista signaalia, ja sille puuttuu johdonmukainen mekanistinen tuki ja kliininen validointi.
 
 ---
 
-## 結論與下一步
+## Kliinisen tutkimuksen näyttö
 
-**決策：Hold**
+Yhtään asiaankuuluvaa kliinistä tutkimusta ei ole tällä hetkellä rekisteröity.
 
-**理由：**
-排名第一的預測適應症（HIV 感染症）證據等級僅為 L4，且無任何臨床試驗支持，現有文獻方向不一致（甚至有一篇顯示促進病毒複製的負向結果），不足以支持推進。此外，安全性初評所需的仿單警語/禁忌資料（DG001）為 Blocking 等級缺口，在補齊前無法進行任何後續決策。
+---
 
-**若要推進，需要補齊：**
-- TFDA／原廠仿單之警語與禁忌症資料（解決 DG001，Blocking 等級）
-- DrugBank 作用機轉（MOA）資料（解決 DG002）
-- 針對 HIV 感染症之直接體內/臨床藥效證據，以釐清 PMID 16610808 之負向發現是否具代表性
-- 補充建議：本證據包 rank 5（vitamin deficiency disorder）項目所附文獻與試驗（NCT03115086、PMID 35392794 等）實際指向 cholic acid 既有臨床用途「膽酸合成障礙」，其證據強度與相關性顯著優於 rank 1 之 HIV 適應症，建議評估團隊優先確認此適應症是否應納入正式老藥新用/新適應症擴充路徑評估
+## Kirjallisuuden näyttö
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
+|------|-------|--------|-------|-------------------|
+| [9238301](https://pubmed.ncbi.nlm.nih.gov/9238301/) | 1997 | Katsaus | Annals of the New York Academy of Sciences | Käsittelee cholic acid -sisältäviä vaginaalisia spermitsidikäämiä sukupuolitautien estämisen estoinä, luonteeltaan kirjallisuuskatsaus, ei alkuperäistä HIV-hoitotietoa |
+| [16610808](https://pubmed.ncbi.nlm.nih.gov/16610808/) | 2006 | In vitro (negatiivinen tulos) | Journal of Medicinal Chemistry | Cholic acid -aminojohdannainen **indusoivat** odottamatta HIV-1 -lisääntymisen ja T-solun synsiitiumin muodostumisen, mikä on vastoin antiviraalista hypoteesia |
+| [7688380](https://pubmed.ncbi.nlm.nih.gov/7688380/) | 1993 | In vitro/esikliininen | Human Reproduction | Natrium kolaat osoitti annoksesta riippuvaisen spermitsidisen ja HIV-1 käänteiskääntäjän estovaikutuksen in vitro, muodosti perustan Protectaid-käämin suunnittelulle |
+| [7848210](https://pubmed.ncbi.nlm.nih.gov/7848210/) | 1994 | Katsaus | Aust N Z J Obstet Gynaecol | Katsaa erilaisia ehkäisy- ja sukupuolitautien estomenetelmiä, ei tarjoa cholic acidista kliinistä tietoa |
+| [8849197](https://pubmed.ncbi.nlm.nih.gov/8849197/) | 1995 | Katsaus | Ann Acad Med Singapore | Katsaa estemuotoisen ehkäisyn vaikutusta sukupuolitautien/HIV-suojaukseen, kondomi-näyttö on kattavin, ei liity cholic acid -kliiniseen tietoon |
+| [32052857](https://pubmed.ncbi.nlm.nih.gov/32052857/) | 2020 | Katsaus | Hepatology | Käsittelee HIV-potilaita, jotka on suljettu pois NASH-uusista lääketutkimuksista antiretroviraalisista lääkkeiden vuorovaikutuksista johtuen, ei käsittele cholic acidin tehokkuutta HIV:lla |
+| [20030469](https://pubmed.ncbi.nlm.nih.gov/20030469/) | 2010 | Havainnoiva kohortti | Pharmacotherapy | HIV-potilaiden plasmanappihappojen pitoisuuksien muuttuminen proteiaasin estäjien käytön aikana, tutkii yhteyttä maksan myrkyllisyyteen, on suhteellista tietoa eikä hoitollista näyttöä |
+| [2870224](https://pubmed.ncbi.nlm.nih.gov/2870224/) | 1986 | In vitro (viruksen inaktivaatio) | Lancet | TNBP/natrium kolaat käytettiin verituotteiden viruksen inaktivaatioon (HBV/HTLV-III), ei systeeminen antiviraalihoito |
+| [28745428](https://pubmed.ncbi.nlm.nih.gov/28745428/) | 2017 | Metodologia/assayteartefakti | ChemMedChem | Osoittaa, että pinta-aktiivinen aine Triton X-100 vääristää HIV-1-proteiaasin estäjien sitoutumismittauksia, on metodologinen varoitus, ei liity cholic acidin itsensä tehokkuuteen |
+
+---
+
+## Suomen markkinatiedot
+
+Cholic acid ei ole tällä hetkellä saanut mitään myyntilupaa Suomessa (myyntilupien lukumäärä: 0), markkinatilanne on "Not marketed".
+
+---
+
+## Turvallisuusnäkökohdat
+
+Katso turvallisuustietoja lääkkeen pakettiselosteesta.
+
+(Tämän näytöpaketin keskeiset varoitukset, vasta-aiheet ja lääkkeen yhteisvaikutukset ovat kaikki "[Data Gap]" tai "not_found", ja meta.data_gaps -kohdassa DG001 "Fimea package insert warnings/contraindications" on merkitty **Blocking**-tasoksi, mikä vaikuttaa suoraan turvallisuuden alkuperäisen arvioinnin etenemiseen.)
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Hold**
+
+**Perustelut:**
+Parhaiten rankatun ennustetun indikaation (HIV-infektiotauti) näyttötaso on vain L4, eikä se ole tuettu millään kliinisillä tutkimuksilla, ja nykyisen kirjallisuuden suunta on epäjohdonmukainen (jopa yksi tutkimus osoittaa negatiivisen tuloksen viruksen lisääntymisen edistämisestä), mikä ei ole riittävää edistymiselle. Lisäksi turvallisuuden alkuperäisen arvioinnin edellyttämät paketin selosteen varoitukset/vasta-aiheet (DG001) ovat Blocking-tason aukkoja, eikä mitään jatkovaiheita voida tehdä ennen niiden täyttämistä.
+
+**Jos halutaan edetä, on täytettävä:**
+- TFDA/alkuperäisen valmistajan paketin selosteen varoitukset ja vasta-aiheet (DG001 ratkaisemiseksi, Blocking-taso)
+- DrugBank-toimintomekanismi (MOA) -tiedot (DG002 ratkaisemiseksi)
+- Suora in vivo/kliininen farmakologinen näyttö HIV-infektiotaudin osalta selvittääkseen, ovatko PMID 16610808:n negatiiviset löydökset edustavia
+- Lisäsuositus: tämän näytöpaketin rank 5 (vitamiinin puutossairaus) -kohdan liitteenä olevat kirjallisuus ja tutkimukset (NCT03115086, PMID 35392794 jne.) viittaavat itse asiassa cholic acidin nykyiseen kliiniseen käyttöön "sappihapposynteesin häiriössä", jonka näyttövoima ja asiaankuuluvuus ovat huomattavasti parempia kuin rank 1:n HIV-indikaatio. Arviointatiimi suositellaan vahvistamaan etusijaisesti, pitäisikö tämä indikaatio sisällyttää viralliseen vanhojen lääkkeiden uudelleenkäyttöön/uusien indikaatioiden laajennus-polun arviointiin
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

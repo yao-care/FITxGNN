@@ -29,75 +29,75 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-# Brolucizumab: From Wet Age-Related Macular Degeneration to Mitochondrial Oxidative Phosphorylation Disorder
+# Brolucizumabi: kostean ikääntymisen myötä ilmenevän makuukohjuksen rappeutumisesta mitokondriaalisen oksidatiivisen fosforylaation häiriöön
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Brolucizumab (brand name Beovu) is an anti-VEGF-A antibody fragment originally used via intravitreal injection for wet age-related macular degeneration (AMD).
-The TxGNN model predicts it may be effective for **mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies**, but this is a **model-score-only prediction (L5)** with **0 clinical trials** and **0 publications**, and the evidence pack itself flags the mechanistic link as biologically implausible — likely an embedding-similarity false positive.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Wet age-related macular degeneration (AMD) — based on known drug profile; not documented in the Finland regulatory dataset provided |
-| Predicted New Indication | Mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies |
-| TxGNN Prediction Score | 99.67% |
-| Evidence Level | L5 |
-| Finland Market Status | ✗ Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Brolucizumabi (kauppanimi Beovu) on anti-VEGF-A-vasta-aine-fragmentti, jota käytetään alun perin silmän sisäisellä injektiolla kostean ikääntymisen myötä ilmenevän makuukohjuksen rappeutumisen (AMD) hoitoon. TxGNN-malli ennustaa, että se saattaa olla tehokas mitokondriaalisen oksidatiivisen fosforylaation häiriössä, joka johtuu ydinperimän poikkeavuuksista, mutta tämä on vain mallipistemäärään perustuva ennuste (L5), jonka tueksi ei ole kliinisiä tutkimuksia eikä julkaisuja, ja todistuspaketti itse merkitsee mekanistisen yhteyden biologisesti epätodennäköiseksi — todennäköisesti upotuksiin perustuva väärä positiivinen tulos.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Pikayleiskatsaus
 
-Currently, detailed mechanism of action data for brolucizumab is not available from DrugBank (blocking data gap). Based on known drug information, brolucizumab is a humanized single-chain antibody fragment (scFv) that inhibits VEGF-A, administered by intravitreal injection for wet AMD — its efficacy in that indication is well established.
-
-The predicted new indication, however, is a nuclear-DNA-related mitochondrial oxidative phosphorylation disorder. There is no known biological pathway overlap between VEGF-A/angiogenesis signaling and mitochondrial energy metabolism. The evidence pack's own mechanistic analysis explicitly flags this: despite the high TxGNN score (99.67%), the rationale states the mechanistic relevance is "extremely low" and that this is likely a high-scoring but biologically unexplainable prediction — possibly a false positive driven by embedding similarity rather than genuine pharmacology.
-
-Three lower-ranked candidates (esophageal varices with/without bleeding, exocrine pancreatic insufficiency) were also predicted with similarly high scores (~99.1%), but each carries its own weakness: brolucizumab's intravitreal-only route of administration is incompatible with systemic or GI exposure needed for those indications, and anti-VEGF agents carry a known bleeding-risk signal that runs counter to a "with bleeding" varices indication. None of the four candidates currently has a defensible mechanistic case.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Kostea ikääntymisen myötä ilmenevä makuukohjuksen rappeutuminen (AMD) — tunnetun lääkkeen profiilin perusteella; ei dokumentoitu toimitetussa Suomen sääntelydatajoukossa |
+| Ennustettu uusi indikaatio | Mitokondriaalisen oksidatiivisen fosforylaation häiriö, joka johtuu ydinperimän poikkeavuuksista |
+| TxGNN-ennusteen pistemäärä | 99.67% |
+| Todistustaso | L5 |
+| Suomen markkinatilanne | ✗ Ei markkinoilla (Ei markkinoilla) |
+| Myyntilupien lukumäärä | 0 |
+| Suositeltu päätös | Pidätä |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennuste on järkevä?
 
-Currently no related literature available
+Tällä hetkellä yksityiskohtaisia brolucizumabin vaikutusmekanismitietoja ei ole saatavilla DrugBankista (estävä tietoaukko). Tunnettujen lääkkeen tietojen perusteella brolucizumabi on humanisoidtu yksiketjuinen vasta-aine-fragmentti (scFv), joka estää VEGF-A:n ja jota annetaan silmän sisäisellä injektiolla kostean AMD:n hoitoon — sen tehokkuus kyseisessä indikaatiossa on hyvin dokumentoitu.
 
----
+Ennustettu uusi indikaatio on kuitenkin ydinperimään liittyvä mitokondriaalisen oksidatiivisen fosforylaation häiriö. VEGF-A/angiogeneesi-signaloinnin ja mitokondriaalisen energiametabolismin välillä ei ole tunnetulla biologisella reitillä päällekkäisyyttä. Todistuspaketti merkitsee tätä nimenomaisesti mekanistisen analyysissa: huolimatta korkeasta TxGNN-pistemäärästä (99.67%), perustelusta todetaan, että mekanistinen relevanssi on "äärimmäisen alhainen" ja että kyse on todennäköisesti korkeasta pistemäärästä, mutta biologisesti selittämättömästä ennusteesta — mahdollisesti upotuksiin perustuva väärä positiivinen tulos eikä todellinen farmakologia.
 
-## Finland Market Information
-
-No marketing authorizations are currently registered for brolucizumab in Finland (market status: Not marketed / not marketed; total_licenses = 0).
+Kolme alhaisemman sijoituksen saaneet kandidaatit (ruokatorven varikositeetti verenvuodolla/ilman verenvuotoa, eksokriinisen haiman vajaatoiminta) ennustettiin myös samankaltaisilla korkeilla pistemäärillä (~99.1%), mutta jokaisella on omat heikkoutensa: brolucizumabin pelkkä silmän sisäinen antoreitti on yhteensopimaton systeemisen tai GI-altistumisen kanssa, joita nämä indikaatiot vaativat, ja anti-VEGF-lääkkeet sisältävät tunnetun verenvuotoriskin, joka on ristiriidassa niiden käytön kanssa verenvuoto-varikositeetissa. Yhdessäkään neljästä kandidaatista ei ole tällä hetkellä mekanistisesti puolustettava peruste.
 
 ---
 
-## Safety Considerations
+## Kliinisen tutkimuksen todistusaineisto
 
-Please refer to the package insert for safety information.
+Tällä hetkellä ei ole rekisteröity asiaan liittyviä kliinisiä tutkimuksia
 
 ---
 
-## Conclusion and Next Steps
+## Kirjallisuuden todistusaineisto
 
-**Decision: Hold**
+Tällä hetkellä asiaan liittyviä kirjallisia lähteitä ei ole saatavilla
 
-**Rationale:**
-The top-ranked TxGNN prediction has no known mechanistic pathway overlap with brolucizumab's anti-VEGF-A activity, zero supporting clinical trials or literature, and is explicitly flagged in the evidence pack as a likely embedding-driven false positive. Combined with the drug's non-marketed status in Finland, there is currently no basis to advance this candidate.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings, contraindications) — currently a blocking data gap (DG001)
-- DrugBank mechanism-of-action detail (DG002)
-- An independent biological-plausibility review of the mitochondrial-disorder prediction, or re-evaluation of lower-score but mechanistically coherent candidates
-- If the esophageal-varices signal is pursued instead, a feasibility assessment of systemic/GI drug exposure given brolucizumab's intravitreal-only administration route
+## Suomen markkinatiedot
+
+Suomeen ei ole tällä hetkellä rekisteröity myyntilupaa brolucizumabille (markkinatilanne: Ei markkinoilla / ei markkinoilla; total_licenses = 0).
+
+---
+
+## Turvallisuusnäkökohdat
+
+Turvallisustiedoista tulee viitata pakkausselosteeseen.
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidätä**
+
+**Perustelut:**
+Korkeimman sijoituksen saanut TxGNN-ennuste ei ole tunnetulla mekanistisella reitillä päällekkäinen brolucizumabin anti-VEGF-A-vaikutukseen, sillä on nolla tukevaa kliinisiä tutkimuksia tai kirjallisuutta, ja se on nimenomaisesti merkitty todistuspaketissa todennäköiseksi upotuksiin perustuvaksi väärän positiiviseksi tulokseksi. Yhdessä lääkkeen myymättömyyden kanssa Suomessa ei ole tällä hetkellä perusteita edetä tämän kandidaatin kanssa.
+
+**Jotta voitaisiin edetä, tarvitaan seuraava:**
+- TFDA:n pakkausseloste (varoitukset, vasta-aiheet) — tällä hetkellä estävä tietoaukko (DG001)
+- DrugBank-vaikutusmekanismin yksityiskohdat (DG002)
+- Riippumaton mitokondriaalisen häiriön ennusteen biologisen uskottavuuden tarkistus tai alemmalla pistemäärällä olevien mutta mekanistisesti johdonmukaisten kandidaattien uudelleenarviointi
+- Jos esofageaalisen varikositeetin signaali tutkitaan sen sijaan, järjestelmällisen/ruoansulatuskanavan lääkkeen altistumisen toteutettavuuden arviointi kun otetaan huomioon brolucizumabin ainoastaan silmän sisäinen antoreitti
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

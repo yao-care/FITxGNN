@@ -29,68 +29,69 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Spironolactone: From Hypertension/Oedema to Hypotrichosis Simplex of the Scalp
+# Spironolaktoni: Hypertensio- ja ödeemasta Hypotrichosis Simplex of the Scalp -tilaan
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Spironolactone is a mineralocorticoid receptor antagonist widely used for hypertension, oedema, heart failure and primary hyperaldosteronism, and is already used off-label for androgen-driven hair conditions such as female pattern hair loss and hirsutism. The TxGNN model predicts it may be effective for **Hypotrichosis Simplex of the Scalp**, but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the disease itself is a genetic/structural hair-follicle disorder with no known link to the drug's mechanism.
+Spironolaktoni on mineralokortikoidireceptorin antagonisti, jota käytetään laajasti hypertensioon, ödeemaan, sydämen vajaatoimintaan ja pääasialliseen hyperaldosteronismiin, ja sitä käytetään jo off-label androgeenikäytöissä aiheutuville hiusten häiriöille, kuten naisilla esiintyvälle hiusten katoamiselle ja hirsutismille. TxGNN-malli ennustaa, että se voi olla tehokas **Hypotrichosis Simplex of the Scalp** -tilassa, mutta tämä ennuste on tällä hetkellä tuettu **0 kliinisellä tutkimuksella** ja **0 julkaisulla**, ja tauti itsessään on geneettinen/rakenteellinen hiusrakkuloiden häiriö, jolla ei ole tunnettua yhteyttä lääkkeen toimintamekanismiin.
 
 ---
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Hypertension, oedema, primary hyperaldosteronism (general clinical knowledge; not captured in this evidence pack — `original_indications` and Taiwan license data are both empty) |
-| Predicted New Indication | Hypotrichosis Simplex of the Scalp |
-| TxGNN Prediction Score | 99.26% (rank 7,390) |
-| Evidence Level | L5 (model prediction only, no clinical trials or literature found) |
-| Taiwan Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen indikaatio | Hypertensio, ödeema, pääasiallinen hyperaldosteronismi (yleinen lääketieteellinen tieto; ei sisälly tähän todistusjoukkoon — `original_indications` ja Taiwanin lisensointitiedot ovat molemmat tyhjät) |
+| Ennustettu uusi indikaatio | Hypotrichosis Simplex of the Scalp |
+| TxGNN-ennustepisteet | 99.26% (sijoitus 7,390) |
+| Todistusten taso | L5 (vain mallin ennuste, ei kliinisiä tutkimuksia tai kirjallisuutta löydetty) |
+| Taiwanin markkinatilanne | Ei markkinoilla (ei markkinoilla) |
+| Hyväksyntöjen määrä | 0 |
+| Suositeltu päätös | Odottava |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Detailed mechanism of action data is currently unavailable in the evidence pack (marked as a data gap, DG002 — High severity). Based on general pharmacological knowledge, spironolactone is a mineralocorticoid receptor antagonist that also blocks the androgen receptor and inhibits steroidogenesis, which is why it is used off-label for androgenetic alopecia and hirsutism in women.
+Yksityiskohtainen toimintamekanismin data ei ole tällä hetkellä saatavilla todistusjoukkossa (merkitty tietovajeeksi, DG002 — Korkea vakavuusaste). Yleisen farmakologisen tiedon perusteella spironolaktoni on mineralokortikoidireceptorin antagonisti, joka myös estää androgeenireseptoria ja estää steroidigeneesiä, minkä vuoksi sitä käytetään off-label naisten androgeenisen alopesian ja hirsutismin hoitoon.
 
-However, **hypotrichosis simplex of the scalp** is an autosomal dominant hair follicle developmental disorder, mainly associated with *APCDD1* mutations. It is a structural/developmental condition, not an androgen- or mineralocorticoid-driven process, and there is no established pathological link to spironolactone's mechanism.
+Kuitenkin **hypotrichosis simplex of the scalp** on autosomaalisesti dominant hiusrakkuloiden kehityshäiriö, joka liittyy pääasiassa *APCDD1*-mutaatioihin. Se on rakenteellinen/kehitysperäinen häiriö, ei androgeeniksi tai mineralokortikoidiksi ohjattu prosessi, ja spironolaktonin toimintamekanismiin ei ole tunnettua patologista yhteyttä.
 
-The second predicted indication in this pack, **congenital hypotrichosis with milia** (score 99.04%, rank 9,158), shows the same pattern — another rare genetic hair/skin disorder (associated with genes such as *LIPH*) with no known androgen or mineralocorticoid pathway involvement. The fact that both top predictions fall into the same "hair loss/hypotrichosis" disease cluster suggests the TxGNN score is likely driven by embedding proximity between "drug ↔ hair loss" concepts generally, rather than by a specific, verified mechanistic connection to these particular genetic disorders. This is a plausible but unverified hypothesis, and should be treated as speculative rather than confirmed.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Toinen ennustettu indikaatio tässä paketissa, **congenital hypotrichosis with milia** (pisteet 99.04%, sijoitus 9,158), osoittaa saman kaavan — toinen harvinainen geneettinen hiusten/ihon häiriö (liittyvät geeneihin, kuten *LIPH*) ilman tunnettua androgeeniksi tai mineralokortikoidiksi liittyvää signaaliväylää. Se, että molemmat parhaat ennusteet osuvat samaan "hiusten katoaminen/hypotrikhiasis" -tautiklusteriin, viittaa siihen, että TxGNN-pisteet ovat todennäköisesti ohjattuja lääkkeen ↔ hiusten katoamisen käsitteiden yleisestä upottamisen läheisyydestä, eikä spesifisestä, tarkistetusta mekanistisesta yhteydestä näihin tiettyihin geneettisiin häiriöihin. Tämä on uskottava mutta tarkistamaton hypoteesi, ja sitä tulee käsitellä spekulatiivisena eikä vahvistettuna.
 
 ---
 
-## Literature Evidence
+## Kliinisen tutkimuksen todisteet
 
-Currently no related literature available.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+Tällä hetkellä ei ole rekisteröityjä siihen liittyviä kliinisiä tutkimuksia.
 
 ---
 
-## Conclusion and Next Steps
+## Kirjallisuuden todisteet
 
-**Decision: Hold**
+Tällä hetkellä ei ole saatavilla asiaankuuluvaa kirjallisuutta.
 
-**Rationale:**
-The prediction is based solely on the TxGNN model score (L5, no supporting clinical trials or literature), and the target disease is a genetic/structural hair follicle disorder with no established mechanistic link to spironolactone's antimineralocorticoid/antiandrogen activity. The apparent similarity to a second, unrelated hypotrichosis prediction further suggests the score may reflect disease-cluster proximity in the model's embedding space rather than a real pharmacological signal.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings/contraindications) — currently blocking (DG001)
-- Confirmed mechanism of action data from DrugBank (DG002)
-- Targeted literature/preclinical search on *APCDD1*-related hypotrichosis and any androgen/mineralocorticoid pathway involvement
-- Dermatology/genetics expert review of biological plausibility before advancing past S0
+## Turvallisuusnäkökulmat
+
+Katso pakkausselosteesta turvallisuustietoja.
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Odottava**
+
+**Perustelut:**
+Ennuste perustuu yksinomaan TxGNN-mallin pisteisiin (L5, ei tukevaa kliinisiä tutkimuksia tai kirjallisuutta), ja kohdetauti on geneettinen/rakenteellinen hiusrakkuloiden häiriö, jolla ei ole tunnettua mekanistista yhteyttä spironolaktonin antimineralokortikoidiseen/antiandrogeeniseen aktiivisuuteen. Näennäinen samankaltaisuus toiseen, liittymättömään hypotrikhiaasin ennusteeseen viittaa edelleen siihen, että pisteet voivat heijastaa tautiklusterin läheisyyttä mallin upottamisen tilassa eikä todellista farmakologista signaalia.
+
+**Edetäkseen seuraava on tarpeen:**
+- TFDA-pakkausseloste (varoitukset/vasta-aiheet) — tällä hetkellä estää (DG001)
+- Vahvistettu toimintamekanismin data DrugBankista (DG002)
+- Kohdennettu kirjallisuuden/prekliininen haku *APCDD1*-liittyvästä hypotrikhiaasista ja mahdollisesta androgeeniksi/mineralokortikoidiksi osallistuvasta signaaliväylästä
+- Dermatologin/genetiikan asiantuntijan katsaus biologiseen uskottavuuteen ennen siirtymistä S0:n yli
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

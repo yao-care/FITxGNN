@@ -29,62 +29,63 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Lomitapide: From Homozygous Familial Hypercholesterolemia to Macrothrombocytopenia With Mitral Valve Insufficiency
+# Lomitapide: Homotsygoottisesta perinnöllisestä hyperkolesterolemiasta makrotrombotsytopeniaan sydämen mitraaliventtiilien puudutuksella
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Lomitapide is a microsomal triglyceride transfer protein (MTP) inhibitor originally approved (as Juxtapid/Lojuxta) for homozygous familial hypercholesterolemia (HoFH). TxGNN's top-ranked new-indication prediction, **macrothrombocytopenia with mitral valve insufficiency**, carries a **99.92% model score** but is currently backed by **zero clinical trials and zero publications** — the signal exists only inside the model.
+Lomitapide on mikrosomaalisen trigliseridinsiirtoproteiinin (MTP) estäjä, joka on alkuperäisesti hyväksytty (tuoteniminä Juxtapid/Lojuxta) homotsygoottisen perinnöllisen hyperkolesterolemia (HoFH) hoitoon. TxGNN:n korkeimmalla sijalla oleva uuden käyttöaiheen ennuste, **makrotrombotsytopenia sydämen mitraaliventtiilien puudutuksella**, saavuttaa **99,92 % mallin pistemäärän**, mutta sitä tukee tällä hetkellä **nolla kliinistä tutkimusta ja nolla julkaisua** — signaali on olemassa vain mallin sisällä.
 
-## Quick Overview
+## Pikakatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Homozygous Familial Hypercholesterolemia (HoFH) — inferred from trial/literature evidence (Juxtapid/Lojuxta); not present in structured `taiwan_regulatory` licensing data |
-| Predicted New Indication | Macrothrombocytopenia with Mitral Valve Insufficiency |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L5 (model prediction only) |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen käyttöaihe | Homotsygoottinen perinnöllinen hyperkolesterolemia (HoFH) — johdettu tutkimus- ja kirjallisuusnäytöstä (Juxtapid/Lojuxta); ei ole olemassa strukturoidussa `taiwan_regulatory`-lupausdatassa |
+| Ennustettu uusi käyttöaihe | Makrotrombotsytopenia sydämen mitraaliventtiilien puudutuksella |
+| TxGNN:n ennustepisteet | 99,92 % |
+| Näyttötaso | L5 (vain mallin ennuste) |
+| Suomen markkinatilanne | ✗ Ei markkinoilla |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Odota |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on perusteltu?
 
-Lomitapide's mechanism is well characterized in the underlying trial/literature evidence even though the structured `original_moa` field is a data gap: it inhibits MTP in the liver and intestine, blocking assembly and secretion of apoB-containing lipoproteins (VLDL, chylomicrons), which lowers LDL‑C, apoB and total cholesterol. This is the basis for its approval in HoFH.
+Lomitapiden mekanismi on hyvin karakterisoitu taustalla olevassa tutkimus- ja kirjallisuusnäytössä, vaikka strukturoidussa `original_moa`-kentässä on tietoaukko: se estää MTP:tä maksassa ja ohutsuolessa, estäen apoB-sisältävien lipoproteiinien (VLDL, kylomikronit) kokoamisen ja erityksen, mikä laskee LDL-C:n, apoB:n ja kokonaiskolesterolin. Tämä on perusta sen hyväksynnälle HoFH:n hoitoon.
 
-Macrothrombocytopenia with mitral valve insufficiency is a rare, largely genetic platelet/connective-tissue disorder. There is no established biological pathway linking MTP-mediated lipoprotein assembly to platelet size regulation or mitral valve structure, and the evidence pack's own rationale explicitly flags this: "無機轉證據。屬罕見遺傳性巨大血小板症候群，與 MTP 抑制無已知關聯，零試驗零文獻，純模型預測" (no mechanistic evidence; a rare hereditary macrothrombocytopenia syndrome with no known relationship to MTP inhibition; zero trials, zero literature, pure model prediction).
+Makrotrombotsytopenia sydämen mitraaliventtiilien puudutuksella on harvinainen, pääosin geneettinen verihiutaleiden ja sidekudoksen häiriö. Ei ole vakiintunutta biologista polkua, joka yhdistäisi MTP:n välityksellistä lipoproteiinien kokoamisen verihiutaleiden koon säätelyyn tai mitraaliventtiilin rakenteeseen, ja näyttöpaketin omissa perusteluissa tämä on nimenomaisesti merkitty: "無機轉證據。屬罕見遺傳性巨大血小板症候群，與 MTP 抑制無已知關聯，零試驗零文獻，純模型預測" (ei mekanismin näyttöä; harvinainen perinnöllinen makrotrombotsytopenia-oireyhtymä, jolla ei ole tunnettu yhteyttä MTP-estoihin; nolla tutkimusta, nolla kirjallisuutta, puhdas mallin ennuste).
 
-This pattern repeats across ranks 1–8 and 10 in this evidence pack — all platelet/coagulation disorders (hereditary thrombocytopenia, dense granule disease, pseudo-von Willebrand disease, Glanzmann thrombasthenia, platelet storage pool deficiency, etc.) score extremely high (>99.5%) with no supporting mechanism, trials, or literature. This clustering, combined with the fact that a mechanistically *sensible* indication (hyperlipoproteinemia — rank 9, which is actually lomitapide's own original approval territory) scores *lower* than these implausible candidates, suggests a knowledge-graph embedding artifact — likely driven by co-occurrence of lipid and hematologic parameters in shared patient records — rather than a genuine pharmacological signal.
+Tämä kuvio toistuu rankingin 1–8 ja 10 sisällä — kaikki verihiutaleiden/hyytymisen häiriöt (perinnölliset trombotsytopeniat, tiheän granulan tautia, pseudon von Willebrandt-tauti, Glantzmannin trombasteniaani, verihiutaleiden varastointialttiuden puutos jne.) saavuttavat erittäin korkeat pisteet (>99,5 %) ilman tukevia mekanismeja, tutkimuksia tai kirjallisuutta. Tämä klusteri, yhdistettynä siihen, että mekanistisesti *järkevä* käyttöaihe (hyperlipoproteinemia — sijoitus 9, joka on itse asiassa lomitapiden oma alkuperäinen hyväksyntä-alue) saa *pienemmät* pisteet kuin nämä epäuskottavat ehdokkaat, viittaa tietograafin embedding-artefaktiin — jota puolustaa todennäköisesti lipidi- ja hematologisten parametrien rinnakkaisesiintyminen jaetuissa potilastietueissa — todellisen farmakologisen signaalin sijaan.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-Currently no related clinical trials registered.
+Tällä hetkellä ei ole liittyvien kliinisten tutkimusten rekisteröityä.
 
-## Literature Evidence
+## Kirjallisuusnäyttö
 
-Currently no related literature available.
+Tällä hetkellä kirjallisuusnäyttö ei ole saatavilla.
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Lomitapide has no marketing authorizations on file for Finland (0 licenses recorded; market status: not marketed).
+Lomitapidella ei ole kirjattuja markkinointilupia Suomelle (0 rekisteröityä lisenssiä; markkinatilanne: ei markkinoilla).
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Formal safety fields (key warnings, contraindications, drug interactions) are marked as data gaps in the source evidence pack (DG001, Blocking severity) — please refer to the package insert for detailed safety information.
+Muodolliset turvallisuuskentät (päävaroitukset, vasta-aiheet, lääkeyhteisvaikutukset) on merkitty tietovajeiksi lähdenäyttöpaketissa (DG001, Blocking severity) — katso yksityiskohtaisia turvallisuustietoja pakkaustiedotteesta.
 
-**Note:** Although not captured in the structured `safety` fields, the repurposing-rationale text for a related predicted indication explicitly notes that lomitapide carries a known hepatotoxicity risk and is contraindicated in pregnant and neonatal populations — relevant context for any future evaluation.
+**Huomio:** Vaikka strukturoiduissa `safety`-kentissä ei ole kuvattu, niihin liittyvien ennustettujen käyttöaiheiden uudelleenkäytön perusteluteksti nimenomaisesti huomauttaa, että lomitapidella on tunnettu maksatoksisuusriski ja se on vasta-aiheinen raskaana olevilla ja vastasyntyneiden väestöllä — oleellista yhteydessä olevia tietoja tulevaisuuden arvioinnissa.
 
-## Conclusion and Next Steps
+## Johtopäätökset ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Odota**
 
-**Rationale:**
-The top-ranked predicted indication (macrothrombocytopenia with mitral valve insufficiency) has no mechanistic plausibility, no clinical trials, and no literature support — evidence level L5, decision stage S0. The same holds for 8 of the other 9 ranked candidates in this pack. The only candidate with strong evidence, hyperlipoproteinemia (L1, 12 trials including pivotal Phase 3 studies, 19 publications), is not a genuine repurposing opportunity — it reflects lomitapide's *existing* approved indication (HoFH) resurfacing under a broader disease-ontology term, not a novel use.
+**Perustelut:**
+Korkeimmalla sijalla oleva ennustettu käyttöaihe (makrotrombotsytopenia sydämen mitraaliventtiilien puudutuksella) ei ole mekanistisesti uskottava, sillä ei ole kliinisiä tutkimuksia eikä kirjallisuustukea — näyttötaso L5, päätösvaihe S0. Sama koskee 8:sta muusta 9:stä rankitusta ehdokkaasta tässä paketissa. Ainoa ehdokas, jolla on vahva näyttö, hyperlipoproteinemia (L1, 12 tutkimusta, mukaan lukien pivotaaliset 3. vaiheen tutkimukset, 19 julkaisua), ei ole aidon uudelleenkäytön mahdollisuus — se heijastaa lomitapiden *olemassa olevan* hyväksynnän aiheen (HoFH) nousemista uuden tautien ontologia-termin alla, ei todellista uutta käyttöä.
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert data (DG001, Blocking) before any safety evaluation can begin
-- Verified DrugBank MOA record (DG002) to properly ground mechanistic-link analysis
-- A model/embedding-level audit of why TxGNN concentrates high scores on unrelated platelet/coagulation-disorder nodes for an MTP inhibitor
-- If pursuing lipid-adjacent extensions is of interest, evaluate label-adjacent conditions such as familial chylomicronemia syndrome (PMID 36152419) as an off-label extension review — not as a novel repurposing candidate from this prediction set
+**Jatkaakseen seuraavaa tarvitaan:**
+- TFDA/Fimea:n pakkaustiedotteen tiedot (DG001, Blocking) ennen kuin turvallisuuden arviointi voidaan aloittaa
+- Vahvistettu DrugBank MOA -tietue (DG002) mekanismin yhdistämisanalyysin asianmukaiseksi perustamiseksi
+- Mallin/embedding-tason tarkastus siitä, miksi TxGNN keskittää korkeat pisteet MTP-estäjää varten liittymättömiin verihiutaleiden/hyytymisen häiriö-solmuihin
+- Jos lipidi-vierekkäisten laajennusten tutkiminen on kiinnostavaa, arvioi sellaisia leimansa lähellä olevia olosuhteita kuin perheellinen ksantuuri-syndromi (PMID 36152419) off-label-laajennusarvioksi — ei uuden uudelleenkäytön ehdokkaaksi tästä ennustejoukosta
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

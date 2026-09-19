@@ -29,87 +29,88 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **8** kpl
 
 </div>
 
-# Fluticasone Furoate: From Allergic Airway Inflammation to Atopic Eczema
+# Flutikasooni furoaatti: allergiasta johtuvasta ilmateiden tulehduksesta atooppiselle dermaatitille
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Fluticasone furoate is an inhaled/intranasal corticosteroid whose original indication data is not documented in this evidence pack, though its pharmacological class is established for allergic airway inflammation. The TxGNN model predicts it may be effective for **Atopic Eczema**, with **13 clinical trials** and **2 publications** currently supporting this direction — though most direct trial evidence comes from the propionate ester rather than furoate specifically.
+Flutikasooni furoaatti on sisäänhengitys-/nenän kautta annettava kortikosteroidi, jonka alkuperäisiä soveltamisaiheita ei ole dokumentoitu tässä näytöpaketissa, vaikka sen farmakologinen luokka on vahvistettu allergiasta johtuvalle ilmateiden tulehdukselle. TxGNN-malli ennustaa, että se voi olla tehokas **atooppiselle dermaatitille**, ja tällä hetkellä **13 kliinistä tutkimusta** ja **2 julkaisua** tukevat tätä suuntaa — vaikka useimmat suorat tutkimustodisteet tulevat propionaattiesteri-muodosta eikä spesifisesti furoaatista.
 
 ---
 
-## Quick Overview
+## Pika-yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Not documented in evidence pack (drug class: inhaled/intranasal corticosteroid) |
-| Predicted New Indication | Atopic Eczema |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L1 |
-| Finland Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Alkuperäinen soveltamisaihe | Ei dokumentoitu näytöpaketissa (lääkeryhmä: sisäänhengitys-/nenän kautta annettava kortikosteroidi) |
+| Ennustettu uusi soveltamisaihe | Atooppinen dermaatitis |
+| TxGNN-ennusteen pistemäärä | 99.98% |
+| Näyttöjen taso | L1 |
+| Suomen markkinatilanne | Ei markkinoitu |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Jatka varauksella |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on perusteltu?
 
-Currently, detailed mechanism of action data for fluticasone furoate is not available in this evidence pack (flagged as a High-severity data gap). Based on known pharmacology, fluticasone furoate is a trifluorinated synthetic corticosteroid and part of the inhaled/intranasal corticosteroid (ICS) class — its role in suppressing airway and mucosal inflammation via glucocorticoid receptor-mediated cytokine suppression is well established in allergic respiratory disease (supported within this evidence pack by literature such as PMID 21977941, which describes it as "a novel long-acting inhaled corticosteroid").
+Tällä hetkellä flutikasooni furoaatin yksityiskohtaisia mekanismin tietoja ei ole saatavana tässä näytöpaketissa (merkitty erittäin vakavaksi tietovajeeksi). Tunnetun farmakologian perusteella flutikasooni furoaatti on trifluorinoitu synteettinen kortikosteroidi ja osa sisäänhengitys-/nenän kautta annettavien kortikosteroidien (ICS) luokkaa — sen rooli ilmateiden ja limakalvojen tulehduksen vaimentamisessa glukokortikoidireceptoreiden välittämällä sytokiinien vaientamisella on hyvin vahvistettu allergiasta johtuvassa hengitystiesairauksissa (tuettu tässä näytöpaketissa kirjallisuudella, kuten PMID 21977941, joka kuvaa sitä "uutena pitkävaikutteisena sisäänhengityskortikosteroidina").
 
-Atopic eczema and allergic airway disease share a common Th2-driven inflammatory pathway, and topical corticosteroids are a standard-of-care class-effect treatment for atopic dermatitis. The bulk of direct clinical evidence in this pack, however, comes from **fluticasone propionate** (a related but distinct ester) rather than furoate — meaning the mechanistic rationale is sound, but cross-ester extrapolation (propionate → furoate) should be treated as an assumption requiring confirmation, particularly given differences in skin penetration and potency between the two esters.
+Atooppisella dermaatitilla ja allergiasta johtuvalla ilmateiden taudilla on yhteinen Th2-ohjattu tulehdustie, ja paikalliset kortikosteroidit ovat vakiintuneet luokkavaikutushoito atooppisen dermatiitin hoidossa. Suurin osa suorista kliinisistä näytöistä tässä paketissa tulee kuitenkin **flutikasooni propionaatista** (siihen liittyvä mutta erillinen esteriksi) eikä furoaatista — mikä tarkoittaa, että mekaaninen perustelua on hyvä, mutta esterien välinen ekstrapolaatio (propionaatti → furoaatti) tulisi käsitellä oletusoletuksena, joka vaatii vahvistusta, erityisesti kun otetaan huomioon erot ihon penetraatiossa ja tehokkuudessa näiden kahden esterin välillä.
 
 ---
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimuksen numero | Vaihe | Tila | Osallistujien määrä | Tärkeimmät löydökset |
 |---------|------|------|------|---------|
-| [NCT00546000](https://clinicaltrials.gov/study/NCT00546000) | Phase 4 | Completed | 56 | Open-label study of Cutivate (fluticasone propionate) lotion 0.05% and its effect on the HPA axis in pediatric atopic dermatitis |
-| [NCT01915914](https://clinicaltrials.gov/study/NCT01915914) | Phase 4 | Completed | 107 | Randomized comparative study of intermittent fluticasone propionate 0.05% cream to reduce relapse risk in stabilized atopic dermatitis |
-| [NCT01772056](https://clinicaltrials.gov/study/NCT01772056) | Phase 3 | Terminated | 54 | RCT of twice-weekly fluticasone propionate maintenance therapy to reduce relapse in mild/moderate pediatric AD |
-| [NCT00689832](https://clinicaltrials.gov/study/NCT00689832) | Phase 4 | Completed | 487 | Randomized double-blind comparison of tacrolimus 0.03% vs. fluticasone 0.005% ointment in children with moderate-to-severe AD |
-| [NCT03742414](https://clinicaltrials.gov/study/NCT03742414) | Phase 2 | Active, not recruiting | 398 | SEAL study: proactive skin barrier care plus fluticasone propionate cream to prevent AD progression and food allergy in infants |
-| [NCT04706559](https://clinicaltrials.gov/study/NCT04706559) | NA | Completed | 98 | Oral probiotic supplementation in children with AD (low mechanistic relevance to fluticasone) |
-| [NCT00119158](https://clinicaltrials.gov/study/NCT00119158) | Phase 4 | Completed | 90 | Combined pimecrolimus (Elidel) and fluticasone (Cutivate) cream in patients with severe AD lesions |
-| [NCT00690105](https://clinicaltrials.gov/study/NCT00690105) | Phase 4 | Completed | 577 | Randomized double-blind comparison of tacrolimus 0.1% vs. fluticasone 0.005% ointment in adults with facial AD |
-| [NCT00616538](https://clinicaltrials.gov/study/NCT00616538) | Phase 4 | Completed | 121 | Pilot RCT comparing EpiCeram device vs. fluticasone propionate 0.05% in pediatric AD |
-| [NCT07537751](https://clinicaltrials.gov/study/NCT07537751) | NA | Completed | 40 | RCT comparing topical crisaborole 2% vs. fluticasone propionate 0.05% in mild-to-moderate pediatric AD |
+| [NCT00546000](https://clinicaltrials.gov/study/NCT00546000) | Vaihe 4 | Päättynyt | 56 | Avoin tutkimus Cutivate-voiteesta (flutikasooni propionaatti) 0,05% ja sen vaikutuksesta HPA-akseliin atooppisessa dermaatitissa lapsipotilailla |
+| [NCT01915914](https://clinicaltrials.gov/study/NCT01915914) | Vaihe 4 | Päättynyt | 107 | Satunnaistava vertailututkimus jaksottaisesta flutikasooni propionaatin 0,05% kermasta vakiintuneen atooppisen dermatiitin relapsien riskin vähentämiseksi |
+| [NCT01772056](https://clinicaltrials.gov/study/NCT01772056) | Vaihe 3 | Keskeytetty | 54 | RCT flutikasooni propionaatin kahdesti viikossa annettavasta ylläpitohoitosta relapsien vähentämiseksi lievässä tai keskivaikeassa atooppisessa dermaatitissa lapsipotilailla |
+| [NCT00689832](https://clinicaltrials.gov/study/NCT00689832) | Vaihe 4 | Päättynyt | 487 | Satunnaistava sokkoava vertailu takrolimusti 0,03% vs. flutikasooni 0,005% voiteesta lapsissa, joilla on keskivaikea tai vaikea AD |
+| [NCT03742414](https://clinicaltrials.gov/study/NCT03742414) | Vaihe 2 | Käynnissä, ei rekrytointia | 398 | SEAL-tutkimus: ennakoiva ihon estehoito sekä flutikasooni propionaatti-kerma AD:n etenemisen ja ruoka-allergiakehityksen estämiseksi vauvoilla |
+| [NCT04706559](https://clinicaltrials.gov/study/NCT04706559) | N/A | Päättynyt | 98 | Suun kautta annettava probiootti-lisä lapsilla, joilla on AD (vähäinen mekaaninen merkitys flutikasooniille) |
+| [NCT00119158](https://clinicaltrials.gov/study/NCT00119158) | Vaihe 4 | Päättynyt | 90 | Yhdistetty pimekolimusti (Elidel) ja flutikasooni (Cutivate) -kerma potilailla, joilla on vakavat AD-muutokset |
+| [NCT00690105](https://clinicaltrials.gov/study/NCT00690105) | Vaihe 4 | Päättynyt | 577 | Satunnaistava sokkoava vertailu takrolimusti 0,1% vs. flutikasooni 0,005% voiteesta aikuisilla kasvojen AD:lla |
+| [NCT00616538](https://clinicaltrials.gov/study/NCT00616538) | Vaihe 4 | Päättynyt | 121 | Pilotti-RCT EpiCeram-laitteen ja flutikasooni propionaatin 0,05% vertailemiseksi pediatrisissa AD-potilaissa |
+| [NCT07537751](https://clinicaltrials.gov/study/NCT07537751) | N/A | Päättynyt | 40 | RCT topikaalisen krisaborolin 2% ja flutikasooni propionaatin 0,05% vertailemiseksi lievässä tai keskivaikeassa pediatrisissa AD-potilaissa |
 
 ---
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät löydökset |
 |------|-----|------|------|---------|
-| [19571596](https://pubmed.ncbi.nlm.nih.gov/19571596/) | 2009 | Review | Neuroimmunomodulation | Reviews intranasal corticosteroid use across allergic conditions including atopic dermatitis, focusing on HPA axis suppression risk |
-| [40066386](https://pubmed.ncbi.nlm.nih.gov/40066386/) | 2025 | Case Report | Indian J Otolaryngol Head Neck Surg | Case study on allergen immunotherapy in an autoimmune-terrain patient, noting extended application to atopic dermatitis |
+| [19571596](https://pubmed.ncbi.nlm.nih.gov/19571596/) | 2009 | Katsaus | Neuroimmunomodulation | Katsaus nenän kautta annettavien kortikosteroidien käyttöön eri allergiasairauksissa, mukaan lukien atooppinen dermaatitis, painottaen HPA-akselin vaimentamisriskin |
+| [40066386](https://pubmed.ncbi.nlm.nih.gov/40066386/) | 2025 | Tapausraportti | Indian J Otolaryngol Head Neck Surg | Tapaustutkimus allergeeni-immunoterapiasta potilaalla, jolla on autoimmuuni-pohjainen tausta, ja sen laajennetusta soveltamisesta atooppiseen dermaatitiin |
 
 ---
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Fluticasone furoate is currently **not marketed** in Finland — no marketing authorizations are on record in this evidence pack.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+Flutikasooni furoaattia ei ole tällä hetkellä markkinoitu Suomessa — markkinointilupia ei ole merkitty tähän näytöpakettiin.
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuusnäkökohdat
 
-**Decision: Proceed with Guardrails**
+Katso valmisteselosteita turvallisuustiedoista.
 
-**Rationale:**
-Fluticasone (propionate) has multiple Phase 3/4 trials with grade-A relevance directly supporting efficacy in atopic dermatitis, giving an L1 evidence level. However, the drug is not currently marketed in Finland, direct evidence for the furoate ester (vs. propionate) is limited, and a Blocking-severity data gap on the Finnish/TFDA package insert (warnings and contraindications) prevents a safety initial assessment (S1) — so this cannot yet advance to unconditional Go.
+---
 
-**To proceed, the following is needed:**
-- Finnish/TFDA package insert — warnings, contraindications (Blocking gap, required before S1 safety evaluation)
-- Fluticasone furoate-specific mechanism of action data (High-priority gap)
-- Direct efficacy/safety data for the furoate ester in atopic dermatitis, to confirm cross-ester extrapolation from propionate-based trials
-- Route/formulation feasibility assessment (topical dermatologic formulation vs. currently available nasal/inhaled forms)
-- Drug-drug interaction data (current DDI query returned no results)
+## Johtopäätökset ja seuraavat vaiheet
+
+**Päätös: Jatka varauksella**
+
+**Perustelut:**
+Flutikasooni propionaatille on useita vaiheen 3/4 tutkimuksia, joilla on A-luokan merkitys ja jotka suoraan tukevat tehokkuutta atooppisessa dermaatitissa, mikä antaa L1-näyttötason. Kuitenkin lääke ei ole tällä hetkellä markkinoitu Suomessa, furoaattiesteri-muodon (vs. propionaatti) suora näyttö on rajallinen, ja Blocking-vakavuuden tietovajeesta (varoitukset ja vasta-aiheet) Suomen/TFDA-valmisteselosteessa estää turvallisuuden alustavan arvioinnin (S1) — joten tämä ei voi vielä edetä ehdottomaan etenemispäätökseen.
+
+**Seuraavien vaiheiden jatkamiseksi tarvitaan:**
+- Suomen/TFDA-valmisteseloste — varoitukset, vasta-aiheet (Blocking-vaatimus, vaaditaan ennen S1-turvallisuuden arviointia)
+- Flutikasooni furoaatin spesifinen vaikutusmekanismin tieto (High-priority-aukko)
+- Suora tehokkuus-/turvallisuustieto furoaattiesteri-muodolle atooppisessa dermaatitissa, jotta voidaan vahvistaa esterien välinen ekstrapolaatio (propionaatti → furoaatti) propionaattiin perustuvista tutkimuksista
+- Antotien/formulaation toteutettavuusarviointi (paikalleen levitettävä dermatologinen formulaatio vs. tällä hetkellä saatavilla olevat nenä-/sisäänhengitysmuodot)
+- Lääke-lääke-vuorovaikutustieto (nykyinen DDI-kysely ei palautunut tuloksia)
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

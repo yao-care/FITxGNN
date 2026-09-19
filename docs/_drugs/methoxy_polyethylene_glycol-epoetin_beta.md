@@ -29,76 +29,77 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **7** kpl
 
 </div>
 
-# Methoxy Polyethylene Glycol-Epoetin Beta: From Anemia (CKD) to Primary Release Disorder of Platelets
+# Methoxy Polyethylene Glycol-Epoetin Beta: Anemiasta (CKD) verihiutaleiden primaariseen vapautumishäiriöön
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Methoxy polyethylene glycol-epoetin beta (DrugBank DB09107, marketed elsewhere as Mircera) is a long-acting erythropoiesis-stimulating agent (ESA) whose established use is anemia management. The TxGNN model predicts it may be effective for **primary release disorder of platelets**, but this direction is currently supported by **0 clinical trials** and **0 publications** — the signal comes from the model alone.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Anemia (ESA class; not confirmed by any record in this dataset — see note below) |
-| Predicted New Indication | Primary release disorder of platelets |
-| TxGNN Prediction Score | 99.36% |
-| Evidence Level | L5 |
-| Finland Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Methoxy polyethylene glycol-epoetin beta (DrugBank DB09107, jota myydään muualla nimellä Mircera) on pitkävaikutteinen erytropoeesi-stimuloiva aine (ESA), jonka vakiintunut käyttötarkoitus on anemiahoidon hallinta. TxGNN-malli ennustaa, että se voi olla tehokas **verihiutaleiden primaarisen vapautumishäiriön** kannalta, mutta tätä suuntaa tukee tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua** — signaali tulee pelkästään mallista.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Currently, detailed mechanism of action data is not available (DG002). Based on known information, this drug is a long-acting erythropoietin receptor (EPOR) agonist in the ESA class; its efficacy in anemia has been established through its clinical use, and the repurposing rationale supplied with this evidence pack proposes that EPOR expression on megakaryocyte precursor cells could theoretically create an indirect link to platelet release pathways.
-
-That link, however, is explicitly flagged in the evidence pack as speculative rather than causal: EPOR agonism has no established direct role in the specific defect underlying primary platelet release disorder, and the TxGNN score is more plausibly explained by shared hematologic/co-morbidity nodes in the knowledge graph than by a specific mechanistic relationship. No clinical trial or literature evidence exists to corroborate the hypothesis in either direction.
-
-Across the full top-7 prediction list, the same pattern holds: ranks 2, 3, 5, 6, and 7 (Glanzmann thrombasthenia, pseudo-von Willebrand disease, heparin cofactor II deficiency, antithrombin deficiency type 2, factor V excess with spontaneous thrombosis) all involve platelet-receptor or coagulation-factor structural defects with no known EPOR/JAK2 pathway overlap — several are noted in the rationale as more consistent with a **relative contraindication** (ESA-associated thrombosis risk) than a treatment opportunity. Rank 4 (severe nonproliferative diabetic retinopathy) has the most biologically plausible mechanism (EPO/EPOR neuroprotective, anti-apoptotic signaling in retina, with precedent exploratory use in diabetic retinopathy), but is likewise unsupported by any retrieved trial or literature record, and carries its own safety concern around EPO-driven angiogenesis in a near-proliferative disease state.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Kohde | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Anemia (ESA-luokka; ei vahvistettu millään tämän tietojoukon tietueella — katso huomautus alla) |
+| Ennustettu uusi indikaatio | Verihiutaleiden primaarinen vapautumishäiriö |
+| TxGNN-ennustepisteet | 99.36% |
+| Näyttötaso | L5 |
+| Suomen markkinatilanne | Ei markkinoilla |
+| Hyväksyntöjen määrä | 0 |
+| Suositeltu päätös | Jäädytä |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennuste on kohtuullinen?
 
-Currently no related literature available
+Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla (DG002). Tunnettujen tietojen perusteella tämä lääke on pitkävaikutteinen erytropoetiini-reseptori (EPOR) agonisti ESA-luokassa; sen tehokkuus anemiassa on vakiintunut kliinisen käytön kautta, ja tässä näyttöpakettiin toimitettu uudelleenkäyttöresepti ehdottaa, että EPOR-ilmentymä megakaryosyyttien esiastesoluissa voisi teoriassa luoda epäsuoran yhteyden verihiutaleiden vapautumisen reitteihin.
 
----
+Tämä yhteys on kuitenkin näyttöpaketissa selvästi merkitty spekulatiiviseksi pikemminkin kuin kausaaliseksi: EPOR-agonismilla ei ole vakiintunutta suoraa roolia verihiutaleiden primaarisen vapautumishäiriön taustalla olevassa spesifissä vihassa, ja TxGNN-pisteet selittyvät todennäköisemmin jaetuilla hematologisilla/komorbiditeettisolmuilla tietoverkossa kuin spesifisellä mekanistisella suhteella. Mitään kliinistä tutkimusta tai kirjallisuustodistetta ei ole olemassa hypoteesin vahvistamiseksi kumpaankaan suuntaan.
 
-## Finland Market Information
-
-No marketing authorizations currently registered (market status: Not Marketed; total licenses: 0).
+Top-7-ennusteluettelon sijoituksissa 2, 3, 5, 6 ja 7 esiintyy sama kuvio: (Glanzmannin trombastenian, pseudo-von Willebrandin taudin, hepariini-kofaktori II:n puutoksen, antitrombiin-puutoksen tyypin 2, V-tekijän ylimäärä spontaanin tromboosin kanssa) kaikki sisältävät verihiutaleiden-reseptori- tai hyytymistekijä-rakenteellisia vioita ilman tunnettua EPOR/JAK2-reittiyhteyttä — useita on merkitty perustelussa olevan **suhteellisen kontraindikaaation** (ESA-liittyvä tromboosin riski) kanssa johdonmukaisempia kuin hoitohyödykkeen kannalta. Sijoitus 4 (vakava ei-proliferatiivinen diabeettinen retinopatia) on biologisesti uskottavin mekanismi (EPO/EPOR-neuroprotektiivinen, anti-apoptootinen signalointi verkkokalvolla, aiempaa tutkimusarviota diabeettisessa retinopatiassa), mutta sitä ei myöskään tueta millään haetulla tutkimuksella tai kirjallisuustietueella, ja siihen liittyy oma turvallisuuskysymys EPO-ohjatun angiogeneesin ympärillä lähes proliferatiivisessa sairauden tilassa.
 
 ---
 
-## Safety Considerations
+## Kliinisten tutkimusten näyttö
 
-Please refer to the package insert for safety information.
-
-*(Note: TFDA/regulatory package insert data — warnings and contraindications — is currently a blocking data gap (DG001) and has not been retrieved. This prevents any S1 safety pre-screening for this candidate.)*
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia
 
 ---
 
-## Conclusion and Next Steps
+## Kirjallisuuden näyttö
 
-**Decision: Hold**
+Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta
 
-**Rationale:**
-All seven predicted indications are model-only (L5), with zero corroborating clinical trials or literature across every disease queried. Combined with a blocking gap in TFDA package insert data (DG001), the candidate cannot yet proceed to safety pre-screening (S1), let alone a repurposing feasibility assessment.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert / warnings & contraindications (DG001 — blocking, required before any S1 safety review)
-- Confirmed mechanism of action and original approved indication(s) from DrugBank or another primary source (DG002)
-- Independent literature/mechanistic review specifically for severe nonproliferative diabetic retinopathy (rank 4), given its comparatively stronger biological rationale but unresolved angiogenesis safety signal
-- If platelet-release-disorder hypothesis (rank 1) is pursued, dedicated mechanistic validation of EPOR's role in megakaryocyte/platelet release, since current support is knowledge-graph co-occurrence rather than pathway evidence
+## Suomen markkinatiedot
+
+Markkinoinnin hyväksyntöjä ei ole tällä hetkellä rekisteröity (markkinatilanne: Ei markkinoilla; lisenssejä yhteensä: 0).
+
+---
+
+## Turvallisuushuomiot
+
+Turvallisia tietoja varten katso pakkausselosteesta.
+
+*(Huomautus: TFDA/sääntelyyn liittyvä pakkausselosteen tieto — varoitukset ja kontraindikaatiot — on tällä hetkellä estävä tietoaukko (DG001) eikä sitä ole haettu. Tämä estää minkään S1-turvallisuuden esiseulonnan tälle kandidaatille.)*
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Jäädytä**
+
+**Perustelut:**
+Kaikki seitsemän ennustettua indikaatiota ovat pelkästään mallipohjaiset (L5), ja niiden jokaisen sairauden osalta ei ole yhtään vahvistavaa kliinistä tutkimusta tai kirjallisuutta. TFDA:n pakkausselosteen tiedon estävän tietoaukon (DG001) kanssa yhdistettynä kandidaatti ei voi vielä edetä turvallisuuden esiseulontaan (S1), puhumattakaan lääkkeen uudelleenkäyttöä koskevan toteutettavuusarvioinnista.
+
+**Edistämiseksi tarvitaan seuraavat:**
+- TFDA pakkausseloste / varoitukset ja kontraindikaatiot (DG001 — estävä, vaaditaan ennen mitään S1-turvallisuuden arviointia)
+- Vahvistettu vaikutusmekanismi ja alkuperäinen hyväksytty indikaatio(t) DrugBankista tai muusta ensisijaisesta lähteestä (DG002)
+- Itsenäinen kirjallisuuspohjaisesti/mekanistinen arviointi erityisesti vakavaa ei-proliferatiivista diabeettista retinopatiaa varten (sijoitus 4), sillä sillä on verrattain vahvempi biologinen perustelu, mutta ratkaisematon angiogeneesin turvallisuussignaali
+- Jos verihiutaleiden vapautumishäiriön hypoteesia (sijoitus 1) jatketaan, omistettu mekanistinen validointi EPOR:n roolista megakaryosyyttien/verihiutaleiden vapautumisessa, koska nykyinen tuki on tietoverkko-yhteensattuma pikemminkin kuin reitin näyttö
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -29,85 +29,86 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Micafungin: From Invasive Candidiasis to Urinary Tract Infection
+# Micafungin: invasiivisesta kandidiasista virtsatietulehdukseen
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-> Micafungin is an echinocandin antifungal established for invasive candidiasis and candidemia. The TxGNN model predicts it may be effective for **Urinary Tract Infection (Candida UTI/candiduria)**, with **0 clinical trials** but **13 supporting publications** — mostly case reports and small case series — currently available.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Invasive candidiasis / candidemia (echinocandin antifungal; not captured in this evidence pack's license data) |
-| Predicted New Indication | Urinary Tract Infection (Candida UTI) |
-| TxGNN Prediction Score | 99.03% |
-| Evidence Level | L3 (observational/retrospective cohort + case series, no RCTs) |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Micafungin on echinokandiini-antimykootinen lääke, joka on vahvistettu invasiiviseen kandidiasiin ja kandidemiaan. TxGNN-malli ennustaa, että se saattaa olla tehokas **virtsatieinfektioille (Candida UTI/kandiduria)**, ja saatavilla on **0 kliinistä tutkimusta** mutta **13 tukevaa julkaisua** — pääasiassa potilastapauksia ja pieniä tapaussarjoja.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Currently, detailed mechanism of action data is not available in this evidence pack (data gap). Based on general pharmacological knowledge, micafungin belongs to the **echinocandin** antifungal class, which inhibits 1,3-β-D-glucan synthase, disrupting fungal cell wall synthesis. It is fungicidal against most *Candida* species, including azole-resistant strains, and its efficacy in invasive candidiasis/candidemia is well established.
-
-The predicted new indication — Candida urinary tract infection (candiduria) — is mechanistically plausible because the causative organisms overlap heavily with micafungin's established spectrum (*C. albicans*, *C. glabrata*, *C. krusei*, *C. auris*). However, echinocandins have historically been considered a poor fit for UTIs due to **low urinary excretion** — most of the drug is metabolized hepatically with minimal unchanged renal clearance. The literature evidence base largely consists of case reports demonstrating that measurable urinary drug levels and clinical eradication *can* still occur, particularly when standard options (fluconazole, amphotericin B) are contraindicated or the organism is resistant.
-
-Because this repurposing hypothesis runs counter to conventional PK teaching, the supporting evidence is important but currently limited to real-world case experience rather than controlled trials — this tempers confidence despite the very high TxGNN score.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Kohde | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Invasiivinen kandidiaasi / kandidemia (echinokandiini-antimykootinen; ei sisälly tämän todistuspaketin lisenssitietoihin) |
+| Ennustettu uusi indikaatio | Virtsatieinfektio (Candida UTI) |
+| TxGNN-ennustepisteet | 99.03% |
+| Todisteiden tasо | L3 (havainnollinen/retrospektiivinen kohortti + tapaussarjat, ei RCT:itä) |
+| Suomen markkinatilanne | ✗ Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Odota |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennuste on perusteltu?
 
-| PMID | Year | Type | Journal | Key Findings |
+Tällä hetkellä tarkemmat vaikutusmekanismin tiedot eivät ole saatavilla tässä todistuspaketissa (tietovaje). Yleisen farmakologisen tiedon perusteella micafungin kuuluu **echinokandiini**-antimykootisten aineiden luokkaan, joka estää 1,3-β-D-glukaanisyntaasia ja häiritsee sienisolukalvon synteesin. Se on fungisidinen useimmilla *Candida*-lajeilla, mukaan lukien asoli-resistentit kannat, ja sen teho invasiivisessa kandidiasissa/kandidemiassa on hyvin vakiintunut.
+
+Ennustettu uusi indikaatio — Candida-virtsatieinfektio (kandiduria) — on mekanistisesti perusteltu, koska aiheuttavat mikroorganismit ovat suurelta osin samat kuin micafunginin vakiintuneella lääkitysalueella (*C. albicans*, *C. glabrata*, *C. krusei*, *C. auris*). Echinokandiineja on kuitenkin historiallisesti pidetty huonona soveltuvina virtsatieinfektioihin **matalan virtsainerityksen** vuoksi — suurin osa lääkkeestä metaboloituu maksassa hyvin vähäisellä muuttumattomalla munuaisiin erityksellä. Kirjallisuuden todistustepo koostuu pääosin potilastapausista, jotka osoittavat, että mitattavia virtsalääkkeen tasoja ja kliinistä eradikointia *voi* silti tapahtua, erityisesti silloin, kun vakiohoitovaihtoehdot (flukonatsoli, amfoteritiini B) ovat kontraindisoituja tai organismi on resistentti.
+
+Koska tämä uudelleenkäyttöhypoteesi vastustaa tavanomaista PK-opetusta, tukeva todistustepo on tärkeä mutta tällä hetkellä rajoittuu todellisen maailman potilaskokemukseen kontrolloitujen tutkimusten sijaan — tämä heikentää luottamusta huolimatta erittäin korkeasta TxGNN-pisteestä.
+
+---
+
+## Kliinisen tutkimuksen todisteet
+
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
+
+---
+
+## Kirjallisuuden todisteet
+
+| PMID | Vuosi | Tyyppi | Julkaisu | Keskeiset löydökset |
 |------|-----|------|------|---------|
-| [27587066](https://pubmed.ncbi.nlm.nih.gov/27587066/) | 2016 | Retrospective cohort | Int Urol Nephrol | Examined candiduria elimination rates among hospitalized patients treated with micafungin |
-| [26937340](https://pubmed.ncbi.nlm.nih.gov/26937340/) | 2016 | Case series | Med Mycol Case Rep | 5 patients received parenteral micafungin ≥6 days; fungal clearance within 30 days in all cases |
-| [27424599](https://pubmed.ncbi.nlm.nih.gov/27424599/) | 2016 | Case series | Int J Antimicrob Agents | 6 cases of UTI (4 fluconazole-resistant) successfully treated; urinary drug monitoring aided dosing |
-| [35146837](https://pubmed.ncbi.nlm.nih.gov/35146837/) | 2022 | Case series | Pediatr Int | Outcomes of critically ill PICU patients treated with micafungin for hospital-acquired Candida UTI |
-| [38827222](https://pubmed.ncbi.nlm.nih.gov/38827222/) | 2024 | Case report | Front Pediatr | Micafungin used to treat *C. glabrata* urinary infection in a premature neonate |
-| [31111613](https://pubmed.ncbi.nlm.nih.gov/31111613/) | 2019 | Case report + literature review | Transpl Infect Dis | Increased-dose micafungin eradicated chronic *C. krusei* UTI in a liver/kidney transplant recipient |
-| [40765059](https://pubmed.ncbi.nlm.nih.gov/40765059/) | 2025 | Case report | J Pharm Health Care Sci | *C. glabrata* pyelonephritis/bacteremia in an SGLT2-inhibitor patient successfully treated with micafungin |
-| [38681664](https://pubmed.ncbi.nlm.nih.gov/38681664/) | 2024 | Case report | Med Mycol Case Rep | Unilateral renal fungus ball (*C. glabrata*, micafungin-sensitive) managed with antifungal therapy + endoscopic extraction |
-| [33520520](https://pubmed.ncbi.nlm.nih.gov/33520520/) | 2020 | Case report | Cureus | *Candida auris* UTI in a multi-comorbid nursing home patient |
-| [40405904](https://pubmed.ncbi.nlm.nih.gov/40405904/) | 2025 | Case report | Cureus | Urosepsis from *C. glabrata* nephrolithiasis in an immunocompetent patient |
+| [27587066](https://pubmed.ncbi.nlm.nih.gov/27587066/) | 2016 | Retrospektiivinen kohortti | Int Urol Nephrol | Tutki kandidurian eliminaatioasteita sairaalahoitopotilaissa, joille annettiin micafungiinia |
+| [26937340](https://pubmed.ncbi.nlm.nih.gov/26937340/) | 2016 | Tapaussarja | Med Mycol Case Rep | 5 potilasta sai parenteraalista micafungiinia ≥6 päivää; sienierradikointia kaikkien tapausten osalta 30 päivän sisällä |
+| [27424599](https://pubmed.ncbi.nlm.nih.gov/27424599/) | 2016 | Tapaussarja | Int J Antimicrob Agents | 6 virtsatieinfektiotapausta (4 flukonatsoli-resistenttiä) hoitettiin onnistuneesti; virtsalääkkeiden seuranta auttoi annoksen määrittelyä |
+| [35146837](https://pubmed.ncbi.nlm.nih.gov/35146837/) | 2022 | Tapaussarja | Pediatr Int | Kriittisesti sairaiden PICU-potilaiden, joille annettiin micafungiinia sairaalainfektio-Candida UTI:n vuoksi, tulokset |
+| [38827222](https://pubmed.ncbi.nlm.nih.gov/38827222/) | 2024 | Potilastapaus | Front Pediatr | Micafungiinia käytettiin *C. glabrata* virtsatieinfektio hoitoon ennenaikaisesti syntyneellä vastasyntyneellä |
+| [31111613](https://pubmed.ncbi.nlm.nih.gov/31111613/) | 2019 | Potilastapaus + kirjallisuuskatsaus | Transpl Infect Dis | Lisäännetyn annoksen micafungin poisti krooniset *C. krusei* UTI maksaan/munuaisen siirron saaneen potilaan osalta |
+| [40765059](https://pubmed.ncbi.nlm.nih.gov/40765059/) | 2025 | Potilastapaus | J Pharm Health Care Sci | *C. glabrata* pyelonefriitti/bakteeremia SGLT2-estäjä potilaalla hoidettiin onnistuneesti micafungilla |
+| [38681664](https://pubmed.ncbi.nlm.nih.gov/38681664/) | 2024 | Potilastapaus | Med Mycol Case Rep | Yksipuoleinen munuaisiin muodostunut sienipallo (*C. glabrata*, micafungin-herkkä) hoidettiin antimykootisella hoitolla + endoskooppisella poistolla |
+| [33520520](https://pubmed.ncbi.nlm.nih.gov/33520520/) | 2020 | Potilastapaus | Cureus | *Candida auris* UTI monisairaalla hoitokodissa olevalla potilaalla |
+| [40405904](https://pubmed.ncbi.nlm.nih.gov/40405904/) | 2025 | Potilastapaus | Cureus | Urosepsis *C. glabrata* nefroliittisyydestä immuunikompetentilla potilaalla |
 
 ---
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Micafungin is currently **not marketed** in Finland — no authorization records are available in this evidence pack (0 licenses).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. Key warnings, contraindications, and drug-drug interaction data were not available in this evidence pack (query status: not found).
+Micafungin ei tällä hetkellä ole markkinoilla Suomessa — tässä todistuspaketissa ei ole käytettävissä hyväksyntätietoja (0 lisenssiä).
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuusnäkökulmat
 
-**Decision: Hold**
+Turvallisuustiedot löytyvät pakkausselosteesta. Keskeiset varoitukset, vasta-aiheet ja lääkkeiden väliset yhteisvaikutustiedot eivät olleet saatavilla tässä todistuspaketissa (kyselyiden tila: ei löytynyt).
 
-**Rationale:**
-The prediction is supported only by case reports and one retrospective cohort study (L3), with no clinical trials evaluating micafungin for UTI. More critically, safety data (TFDA/Fimea package insert warnings and contraindications) are flagged as a **Blocking** data gap, which by itself prevents entry into the S1 safety pre-assessment stage regardless of efficacy evidence strength.
+---
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert data (warnings, contraindications) — blocking gap, required before any S1 safety review
-- Confirmed mechanism of action and original approved indication (currently data gap)
-- Drug-drug interaction (DDI) profile
-- Prospective or controlled studies specifically evaluating micafungin urinary pharmacokinetics and clinical outcomes in candiduria, given the drug's historically low unchanged renal excretion
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Odota**
+
+**Perustelut:**
+Ennuste on tuettu vain potilastapausilla ja yhdellä retrospektiivisellä kohorttitutkimuksella (L3), eikä kliinisiä tutkimuksia, jotka arvioisivat micafungiinia virtsatieinfektiolle. Kriittisemmäksi asiaksi turvallisuustiedot (TFDA/Fimea-pakkausseloste varoitukset ja vasta-aiheet) on merkitty **blokkaajaksi** tietovajeeksi, joka yksinään estää sisäänpääsyn S1-turvallisuuden ennakkoarviointivaiheeseen riippumatta tehokkuustodisteiden vahvuudesta.
+
+**Jatkamiseksi tarvitaan seuraavaa:**
+- TFDA/Fimea-pakkausseloste tiedot (varoitukset, vasta-aiheet) — blokkaa väli, vaaditaan ennen S1-turvallisuusarviointia
+- Vahvistettu vaikutusmekanismi ja alkuperäinen hyväksytty indikaatio (tällä hetkellä tietovaje)
+- Lääkkeiden väliset yhteisvaikutukset (DDI) profiili
+- Prospektiiviset tai kontrolloidut tutkimukset, joissa erityisesti arvioidaan micafunginin virtsalääkkeiden farmakokinetiikkaa ja kliinisiä tuloksia kandiduriassa, ottaen huomioon lääkkeen historiallisesti matala muuttumaton munuaisiin erittyminen
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

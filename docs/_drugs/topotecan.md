@@ -29,105 +29,106 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Topotecan: From Ovarian/Cervical Cancer and SCLC to Female Breast Carcinoma
+# Topotekan: Munasarjasyövästä/kohdunkaulan syövästä ja pienisoluisesta keuhkosyövästä naisten rintojen karsinoomaan
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Topotecan is a topoisomerase I inhibitor with established efficacy in ovarian cancer, cervical cancer, and small-cell lung cancer. The TxGNN model predicts it may also be effective for **Female Breast Carcinoma**, with **5 clinical trials** and **20 publications** currently identified in support of this direction, though most are small, combination-therapy, or terminated studies rather than confirmatory Phase 3 evidence.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in this evidence pack (drug unmarketed in Finland); mechanistic rationale cites established use in ovarian cancer, cervical cancer, and small-cell lung cancer (SCLC) |
-| Predicted New Indication | Female Breast Carcinoma |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L2 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+Topotekan on topoisomeraasi I:n inhibiittori, jonka teho on vakiintunut munasarjasyövässä, kohdunkaulan syövässä ja pienisoluisessa keuhkosyövässä. TxGNN-malli ennustaa, että se voi olla tehokas myös **naisten rintojen karsinoomaan**, ja tähän suuntaan on tällä hetkellä tunnistettu **5 kliinistä tutkimusta** ja **20 julkaisua**, vaikka useimmat ovat pieniä, yhdistelmähoitoon liittyviä tai päättyneitä tutkimuksia eikä vahvistavia vaiheen 3 tutkimuksia.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Pikayleiskatsaus
 
-Currently, detailed mechanism of action data is not available in the evidence pack (drug-level MOA field is flagged as a High-severity data gap). Based on the supporting rationale within this pack, topotecan is a topoisomerase I inhibitor that stabilizes the Topo1–DNA cleavage complex, causing replication-fork collapse and double-strand DNA breaks, producing cytotoxicity in highly proliferative cancer cells.
-
-This mechanism is already clinically validated in ovarian cancer, cervical cancer, and small-cell lung cancer — all solid tumours with proliferation biology comparable to breast carcinoma. Topotecan's CNS penetration further supports a plausible role in breast cancer with brain metastases, a well-recognized clinical challenge.
-
-However, breast carcinoma is not an approved indication for topotecan. The supporting evidence is a mix of small Phase II trials, terminated studies, and combination regimens rather than confirmatory large-scale RCTs, so mechanistic plausibility currently outweighs direct clinical proof.
+| Kohde | Sisältö |
+|------|--------|
+| Alkuperäinen käyttöaihe | Ei dokumentoitu tässä todistusaineistossa (lääke ei ole markkinoilla Suomessa); mekanistinen perusteltu viittaa vakiintuneeseen käyttöön munasarjasyövässä, kohdunkaulan syövässä ja pienisoluisessa keuhkosyövässä (PSKK) |
+| Ennustettu uusi käyttöaihe | Naisten rintojen karsinooma |
+| TxGNN-ennustepisteet | 99.92% |
+| Todistusaineiston taso | L2 |
+| Markkina-asema Suomessa | ✗ Ei markkinoilla |
+| Kelpoistusten lukumäärä | 0 |
+| Suositeltu päätös | Jatka varauksilla |
 
 ---
 
-## Clinical Trial Evidence
+## Miksi tämä ennuste on perusteltu?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Tällä hetkellä yksityiskohtaisia toimintamekanismin tietoja ei ole käytettävissä tässä todistusaineistossa (lääkkeen mekanismin kenttä on merkitty korkean vakavuusasteen tietokuiluna). Tässä pakkauksessa esitetyn tukemattoman perustelun perusteella topotekan on topoisomeraasi I:n inhibiittori, joka vakauttaa Topo1–DNA-katkaisukomplementin, aiheuttaa replikaatiohaaran romahtamisen ja kaksoisketjuisen DNA:n katkot, mikä tuottaa sytotoksisuutta nopeasti jakautuville syöpäsoluille.
+
+Tämä mekanismi on jo kliinisesti validoitu munasarjasyövässä, kohdunkaulan syövässä ja pienisoluisessa keuhkosyövässä – kaikilla kiinteillä kasvaimilla, joiden proliferaatiobiologia on verrattavissa rintasyövän biologiaan. Topotekanin keskushermoston läpäisykyky tukee lisäksi sen mahdollista roolia rintasyövässä, johon liittyy aivometastaaseja, mikä on hyvin tunnettu kliininen haaste.
+
+Kuitenkin rintasyöpä ei ole hyväksytty käyttöaihe topotekaniille. Tukematon aineisto on yhdistelmä pieniä vaiheen II tutkimuksia, päättyneitä tutkimuksia ja yhdistelmähoitoja eikä vahvistavia suurimittakaavaisia satunnaistettuja kontrollitutkimuksia, joten mekanistinen uskottavuus ylittää tällä hetkellä suoran kliinisen todisteen.
+
+---
+
+## Kliinisen tutkimuksen todistusaineisto
+
+| Tutkimusnumero | Vaihe | Tila | Rekrytointi | Keskeiset löydökset |
 |---------|------|------|------|---------|
-| [NCT00006032](https://clinicaltrials.gov/study/NCT00006032) | Phase 2 | Terminated | N/A | High-dose TIME regimen (topotecan + ifosfamide/mesna + etoposide) followed by autologous stem cell rescue in metastatic breast cancer; study terminated. |
-| [NCT02282020](https://clinicaltrials.gov/study/NCT02282020) | Phase 3 | Completed | 266 | Olaparib vs. physician's-choice single-agent chemotherapy in platinum-sensitive relapsed gBRCA-mutated ovarian cancer; topotecan's specific role as a comparator arm could not be confirmed from the available summary. |
-| [NCT04739800](https://clinicaltrials.gov/study/NCT04739800) | Phase 2 | Active, not recruiting | 120 | Durvalumab + olaparib + cediranib vs. standard-of-care chemotherapy in platinum-resistant ovarian/peritoneal/fallopian cancer; topotecan-specific arm relevance unclear from summary. |
-| [NCT02419495](https://clinicaltrials.gov/study/NCT02419495) | Phase 1 | Terminated | 221 | Selinexor combined with multiple standard chemotherapy/immunotherapy regimens in advanced malignancies; topotecan appears only as one of several comparator combinations. |
-| [NCT04279509](https://clinicaltrials.gov/study/NCT04279509) | N/A | Unknown | 35 | Organoid-based high-throughput drug-screen assay to select chemotherapy in refractory solid tumours; exploratory, not a direct efficacy trial. |
+| [NCT00006032](https://clinicaltrials.gov/study/NCT00006032) | Vaihe 2 | Päättynyt | Ei saatavilla | Korkean annoksen TIME-järjestelmä (topotekan + ifosfamidi/mesna + etoposidi), jota seurasi autologinen kantasolujen pelastus metastaattisessa rintasyövässä; tutkimus päättyi. |
+| [NCT02282020](https://clinicaltrials.gov/study/NCT02282020) | Vaihe 3 | Valmis | 266 | Olaparidi vs. lääkärin valitsema yksittäinen kemoterapia platinalle herkkiin relapseihin gBRCA-mutantti munasarjasyövässä; topotekanin erityisen tutkimushaaran roolia ei voitu vahvistaa saatavilla olevasta yhteenvedosta. |
+| [NCT04739800](https://clinicaltrials.gov/study/NCT04739800) | Vaihe 2 | Aktiivinen, ei rekrytoida | 120 | Durvalumabi + olaparidi + sediraniibi vs. vakiintuneet kemoterapiat platinalle resistenteissä munasarja/peritoneum/munanjohtajasyövissä; topotekanin erityisen haaran merkitys on epäselvä yhteenvedosta. |
+| [NCT02419495](https://clinicaltrials.gov/study/NCT02419495) | Vaihe 1 | Päättynyt | 221 | Selineksori yhdistettynä useisiin vakiintuneisiin kemoterapia/immunoterapiaregimeihin edistyneissä pahoissa sairauksissa; topotekan esiintyy vain yhtenä useista vertailukelpoisen yhdistelmien joukossa. |
+| [NCT04279509](https://clinicaltrials.gov/study/NCT04279509) | Ei tietoa | Tuntematon | 35 | Organoidipohjainen korkean läpäisyn lääkkeen seulontakoe refrakterisilla kiinteillä kasvaimilla kemoterapian valintaa varten; tutkimusluontoisesti, ei suora tehokkuustutkimus. |
 
 ---
 
-## Literature Evidence
+## Kirjallisuuden todistusaineisto
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [10362325](https://pubmed.ncbi.nlm.nih.gov/10362325/) | 1999 | Phase II Clinical Trial | American Journal of Clinical Oncology | CALGB Phase II trial of single-agent topotecan in 47 evaluable patients with previously treated advanced breast cancer. |
-| [11455218](https://pubmed.ncbi.nlm.nih.gov/11455218/) | 2001 | Cohort/Pilot | Onkologie | Pilot study of topotecan as primary chemotherapy for symptomatic brain metastases in metastatic breast cancer. |
-| [9413954](https://pubmed.ncbi.nlm.nih.gov/9413954/) | 1997 | Phase II Clinical Trial | British Journal of Cancer | Continuous infusional topotecan in chemo-naïve advanced breast cancer and NSCLC; no evidence of increased efficacy over standard dosing. |
-| [21514634](https://pubmed.ncbi.nlm.nih.gov/21514634/) | 2011 | RCT (Phase II, ovarian) | Gynecologic Oncology | Phase II trial of lapatinib + topotecan targeting BCRP/P-gp-mediated topotecan resistance in platinum-refractory ovarian/peritoneal carcinoma; mechanistic relevance to breast cancer resistance biology. |
-| [40300683](https://pubmed.ncbi.nlm.nih.gov/40300683/) | 2025 | Preclinical/Mechanistic | International Journal of Biological Macromolecules | TFDP1 identified as a therapeutic target for topotecan in triple-negative breast cancer (TNBC) via senescence suppression. |
-| [9445630](https://pubmed.ncbi.nlm.nih.gov/9445630/) | 1997 | Review | Gynäkologisch-geburtshilfliche Rundschau | Review of new cytotoxic agents (including topotecan) in breast carcinoma therapy. |
-| [26623560](https://pubmed.ncbi.nlm.nih.gov/26623560/) | 2015 | Preclinical | Oncotarget | Metronomic topotecan + pazopanib combination shows potent efficacy in preclinical models of primary/metastatic triple-negative breast cancer. |
-| [27444351](https://pubmed.ncbi.nlm.nih.gov/27444351/) | 2016 | Preclinical | Phytomedicine | MHP-1 restores topotecan sensitivity and inhibits metastasis via EMT/TGF-β signaling regulation in breast cancer cells. |
-| [31408695](https://pubmed.ncbi.nlm.nih.gov/31408695/) | 2019 | Preclinical | Pharmacological Research | Daidzein enhances topotecan's anticancer effect and reverses BCRP-mediated drug resistance in breast cancer. |
-| [37987734](https://pubmed.ncbi.nlm.nih.gov/37987734/) | 2023 | Preclinical/Mechanistic | Cancer Research | CRISPR screen identifies topoisomerase I inhibition as inducing synthetic-lethal R-loop accumulation in MYC-driven breast cancer. |
-
----
-
-## Finland Market Information
-
-Topotecan is not currently marketed in Finland — no marketing authorizations are on file in this evidence pack (`total_licenses = 0`).
+| PMID | Vuosi | Tyyppi | Julkaisu | Keskeiset löydökset |
+|------|------|------|------|---------|
+| [10362325](https://pubmed.ncbi.nlm.nih.gov/10362325/) | 1999 | Vaiheen II kliininen tutkimus | American Journal of Clinical Oncology | CALGB vaiheen II tutkimus yksittäisen topotekanin tehosta 47 arvioitavassa potilaassa, joilla oli aiemmin käsitelty edistynyt rintasyöpä. |
+| [11455218](https://pubmed.ncbi.nlm.nih.gov/11455218/) | 2001 | Kohortti/pilotti | Onkologie | Topotekanin pilottitutkimus ensisijaisena kemoterapiana oireellisissa aivometastaasiissa metastaattisessa rintasyövässä. |
+| [9413954](https://pubmed.ncbi.nlm.nih.gov/9413954/) | 1997 | Vaiheen II kliininen tutkimus | British Journal of Cancer | Jatkuva infuusio topotekaniista kemoterapialle naiivilta potilailta edistyneessä rintasyövässä ja NSCC:ssa; ei näyttöä lisääntyneestä tehosta vakiintuneen annosteluun verrattuna. |
+| [21514634](https://pubmed.ncbi.nlm.nih.gov/21514634/) | 2011 | RCT (vaihe II, munasarja) | Gynecologic Oncology | Lapatinibi + topotekan vaiheen II tutkimus, joka kohdennetaan BCRP/P-gp-välitteiseen topotekanin resistenssiin platinalle resistenteissä munasarja/peritoneumsyövissä; mekanistinen merkitys rintasyövän resistenssibiologiaan. |
+| [40300683](https://pubmed.ncbi.nlm.nih.gov/40300683/) | 2025 | Prekliininen/mekanistinen | International Journal of Biological Macromolecules | TFDP1 tunnistettu terapeuttiseksi kohteeksi topotekaniille kolminegatiivisessa rintasyövässä (KNSS) senesenssin tukahduttamisen kautta. |
+| [9445630](https://pubmed.ncbi.nlm.nih.gov/9445630/) | 1997 | Katsaus | Gynäkologisch-geburtshilfliche Rundschau | Katsaus uusista sytostaattisista aineita (mukaan lukien topotekan) rintasyövän hoidossa. |
+| [26623560](https://pubmed.ncbi.nlm.nih.gov/26623560/) | 2015 | Prekliininen | Oncotarget | Metronominen topotekan + pazopanibi yhdistelmä osoittaa tehokkuutta prekliinisissä malleissa pääasiassa/metastaattisessa kolminegatiivisessa rintasyövässä. |
+| [27444351](https://pubmed.ncbi.nlm.nih.gov/27444351/) | 2016 | Prekliininen | Phytomedicine | MHP-1 palauttaa topotekanin herkkyyttä ja estää metastaaseja EMT/TGF-β-signaloinnin säätelyn kautta rintasyöpäsoluissa. |
+| [31408695](https://pubmed.ncbi.nlm.nih.gov/31408695/) | 2019 | Prekliininen | Pharmacological Research | Daidzeiin vahvistaa topotekanin syöpävaikutusta ja peruuttaa BCRP-välitteisen lääkkeiden resistenssia rintasyövässä. |
+| [37987734](https://pubmed.ncbi.nlm.nih.gov/37987734/) | 2023 | Prekliininen/mekanistinen | Cancer Research | CRISPR-seulonta tunnistaa topoisomeraasi I:n inhibition indusoivan synteettisesti letaalin R-loop-kertymän MYC-ohjautuneessa rintasyövässä. |
 
 ---
 
-## Cytotoxicity
+## Suomen markkina-asema
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (Topoisomerase I inhibitor / camptothecin derivative class) |
-| Myelosuppression Risk | High — literature on topotecan in related indications reports myelosuppression as the dose-limiting toxicity (e.g., median nadir leukocyte count 1.75 cells/mm³, neutrophil count 1.55 cells/mm³, platelet count 20,500 cells/mm³) |
-| Emetogenicity Classification | Low to moderate (consistent with camptothecin-class agents) |
-| Monitoring Items | CBC with differential, liver and renal function |
-| Handling Protection | Requires handling per institutional cytotoxic drug handling protocols (PPE, closed-system transfer where available) |
+Topotekan ei ole tällä hetkellä markkinoilla Suomessa – tässä todistusaineistossa ei ole markkinointikieltoja tiedossa (`total_licenses = 0`).
 
 ---
 
-## Safety Considerations
+## Sytotoksisuus
 
-Please refer to the package insert for safety information. Key warnings, contraindications, and drug interaction data are not currently available for topotecan in this evidence pack (TFDA package insert retrieval is flagged as a Blocking data gap).
+| Kohde | Sisältö |
+|------|--------|
+| Sytotoksisuuden luokittelu | Tavanomainen sytotoksinen (topoisomeraasi I:n inhibiittori / kamptotesiini-johdannainen luokka) |
+| Luuytimen tukahduttamisen riski | Korkea – topotekanin kirjallisuus siihen liittyvissä indikaatioissa raportoi luuytimen tukahduttamisen annoksen rajoittavana toksisuutena (esim. mediaani leukosyyttien nadir 1,75 solua/mm³, neutrofiilien laskut 1,55 solua/mm³, trombosyytit 20 500 solua/mm³) |
+| Pahoinvoinnin aiheuttamisen luokittelu | Alhainen kunnes kohtalainen (vakiintuneet kamptotesiini-luokan lääkkeiden kanssa) |
+| Seurantakohdat | Täydellinen verenkuva differentiaaliolla, maksa- ja munuaisten toiminta |
+| Käsittelysuojaus | Vaatii käsittelyä laitoksen sytostaattisen lääkkeen käsittelyprotokollien mukaisesti (henkilökohtainen suojavarustus, suljetun järjestelmän siirto, kun saatavilla) |
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuuden huomioon ottaminen
 
-**Decision: Proceed with Guardrails**
+Turvalllisuustieto löydät pakkauseestä. Tärkeät varoitukset, vasta-aiheet ja lääkkeiden vuorovaikutusten tiedot eivät ole tällä hetkellä käytettävissä tässä todistusaineistossa (TFDA pakkausesite-haun on merkitty estävä tietokuilu).
 
-**Rationale:**
-Topotecan's topoisomerase I inhibition mechanism is well-validated in related solid tumours, and multiple small Phase II trials and a growing body of preclinical/mechanistic literature (including TNBC-specific targets) support biological plausibility in breast carcinoma. However, direct clinical evidence remains limited to older, small, or terminated trials rather than confirmatory large RCTs, and breast carcinoma is not an approved indication.
+---
 
-**To proceed, the following is needed:**
-- TFDA/Finland package insert data (warnings, contraindications, DDI) — currently a Blocking gap
-- Confirmed mechanism of action documentation from DrugBank
-- Clarification of topotecan's actual study-arm role in NCT02282020 and NCT04739800 (both appear olaparib-centric)
-- Updated search for any completed Phase II/III breast cancer trials post-2020
+## Johtopäätös ja seuraavat vaiheet
 
-*Note: This evidence pack also flags a secondary, lower-confidence signal for adult germ cell tumor (Evidence Level L2, Decision Stage "Research Question"), based largely on pediatric neuroblastoma and retinoblastoma data rather than adult germ cell tumors directly; this was not evaluated in the current report and would require separate assessment.*
+**Päätös: Jatka varauksilla**
+
+**Perusteltu:**
+Topotekanin topoisomeraasi I:n inhibition mekanismi on hyvin validoitu siihen liittyvissä kiinteissä kasvaimissa, ja useita pieniä vaiheen II tutkimuksia sekä kasvavaa prekliinisen/mekanistisen kirjallisuuden joukkoa (mukaan lukien KNSS-erityiset kohteet) tukeaa biologista uskottavuutta rintasyövässä. Kuitenkin suora kliininen näyttö pysyy rajallisesti vanhempiin, pieniin tai päätettyihin tutkimuksiin eikä vahvistavia suurimittakaavaisia satunnaistettuja kontrollitutkimuksia, ja rintasyöpä ei ole hyväksytty käyttöaihe.
+
+**Jatkaakseen tarvitaan seuraavat:**
+- TFDA/Suomen pakkausesite tiedot (varoitukset, vasta-aiheet, lääkkeiden vuorovaikutus) – tällä hetkellä estävä kuilu
+- Vahvistettu toimintamekanismin dokumentaatio DrugBankista
+- Topotekanin todellisen tutkimushaaran roolin selventäminen NCT02282020 ja NCT04739800:ssa (molemmat näyttävät olaparidi-keskeisiltä)
+- Päivitetty haku kaikista valmistuneista vaiheen II/III rintasyövän tutkimuksista vuoden 2020 jälkeen
+
+*Huomio: Tämä todistusaineisto myös liputtaa toissijaisen, pienempivarmuusasteen signaalin aikuisten germinaalisolun kasvaimiin (todistusaineiston taso L2, päätösvaihe "tutkimuskysymys"), pääosin pediatrisen neuroblastooman ja silmän verkkokalvosyövän tietojen perusteella eikä suoraan aikuisten germinaalisolun kasvaimista; tätä ei arvioitu nykyisessä raportissa ja se vaatisi erillisen arvioinnin.*
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

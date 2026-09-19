@@ -29,60 +29,61 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Hydroxocobalamin: From Vitamin B12 Deficiency / Cyanide Poisoning to Esophageal Varices without Bleeding
+# Hydroxokobalami: B12-vitamiinin puutoksesta / sianidin myrkytyksen hoidosta esofagealisten variikoiden hoitoon ilman verenvuotoa
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Hydroxocobalamin is clinically known for treating vitamin B12 deficiency and as an antidote for cyanide poisoning, though this specific approved-indication data was not captured in the current evidence pack. The TxGNN model predicts it may be effective for **Esophageal Varices (without bleeding)** — and, at an identical score, for esophageal varices *with* bleeding — but currently **zero clinical trials** and **zero publications** support either direction, and no plausible pharmacological mechanism has been identified.
+Hydroxokobalami on kliinisesti tunnettu B12-vitamiinin puutoksen ja sianidin myrkytyksen antidoottina käytettävänä lääkkeenä, vaikka tämä erityinen hyväksytyn indikaation tieto ei ole otettu mukaan nykyiseen näytöpakettiin. TxGNN-malli ennustaa, että se voi olla tehokas **esofagealisten variikoiden hoidossa (ilman verenvuotoa)** — ja samalla pistemäärällä esofagealisten variikoiden hoidossa *verenvuodon kanssa* — mutta tällä hetkellä **nolla kliinistä tutkimusta** ja **nolla julkaisua** eivät tue kumpaa tahansa suuntaa, ja yhtään uskottavaa farmakologista mekanismia ei ole tunnistettu.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Vitamin B12 deficiency; cyanide poisoning antidote (from known drug class information — not confirmed via a Finnish regulatory source in this evidence pack) |
-| Predicted New Indication | Esophageal Varices without Bleeding (a second, identically-scored prediction exists for esophageal varices *with* bleeding) |
-| TxGNN Prediction Score | 99.23% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Finland Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|---|---|
+| Alkuperäinen indikaatio | B12-vitamiinin puutos; sianidin myrkytyksen antidootti (tunnetusta lääkeryhmästä saatava tieto — ei vahvistettu suomalaisesta sääntelylähteestä tässä näytöpaketissa) |
+| Ennustettu uusi indikaatio | Esofageaaliset variikit ilman verenvuotoa (toinen, identtisesti arvostellu ennustus on olemassa esofagealisten variikoiden kohdalla verenvuodon kanssa) |
+| TxGNN-ennustuspistemäärä | 99.23% |
+| Näytön taso | L5 (mallin ennustus ainoastaan, ei tue tutkimuksia) |
+| Suomen markkinatila | Ei markkinoilla |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Pidätä |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennustus on järkevä?
 
-Detailed mechanism of action data is not available for hydroxocobalamin in this evidence pack (flagged as a High-severity data gap). Based on known clinical use, hydroxocobalamin acts as a vitamin B12 precursor for deficiency replacement and, at high doses, as a cyanide antidote (it binds cyanide ions to form cyanocobalamin, which is renally excreted).
+Hydroxokobalamin vaikutusmekanismin yksityiskohtaista tietoa ei ole saatavilla tässä näytöpaketissa (merkitty korkeaprioriteetiksi tietojen puutteeksi). Tunnetun kliinisen käytön perusteella hydroxokobalami toimii B12-vitamiinin esiaineena puutoksen hoitoon ja korkean annoksen sianidin antidoottina (se sitoutuu sianidiionihin muodostaen kyanokobalamin, joka eritetään munuaisten kautta).
 
-Neither of these established mechanisms offers a pharmacological rationale for a role in esophageal varices, which are a manifestation of portal hypertension typically managed with agents that modulate splanchnic blood flow or portal pressure (e.g., octreotide, terlipressin, vasopressin, non-selective beta-blockers). There is no known hemodynamic, vasoactive, or vascular-remodeling effect of hydroxocobalamin that would connect it to this indication.
+Kumpikaan näistä tunnetuista mekanismeista ei tarjoa farmakologista perustelua hydroxokobalamin käytölle esofagealisten variikoiden hoidossa, joiden taustalla on portaalin hypertensio ja joita käsitellään yleensä tekijöillä, jotka muokkaavat splanknikaalista verenkiertoa tai portaalipainetta (esim. oktreotiidi, terlipressiini, vasopressiini, ei-selektiiviset beetasalpaajat). Hydroxokobalaminilla ei ole tunnettuja hemodynamiikan-, vasoaktiivisia- tai verisuonten uudelleenmuokkaavia vaikutuksia, jotka yhdistäisivät sen tähän indikaatioon.
 
-Given this, the TxGNN score of 99.23% should be interpreted strictly as a knowledge-graph correlation, not as evidence of biological plausibility. With no clinical trials, no literature, and no identifiable mechanistic link, this prediction currently lacks a testable scientific hypothesis and sits at the lowest confidence tier (L5).
+Tämän perusteella TxGNN-pistemäärää 99.23 % tulisi tulkita tiukasti tietoverkkojen väliseksi korrelaatioksi, ei biologisen uskottavuuden näytöksi. Ilman kliinisiä tutkimuksia, ilman kirjallisuusviitteitä ja ilman tunnistettavaa mekanistista yhteyttä tämä ennustus ei perustu mihinkään testattavaan tieteelliseen hypoteesiin ja sijaitsee matalimmalla luottamustasolla (L5).
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-Currently no related clinical trials registered.
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-Currently no related literature available.
+Tällä hetkellä asiaan liittyvää kirjallisuutta ei ole saatavilla.
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Hydroxocobalamin is not currently marketed in Finland (0 authorizations on record), so no product/authorization table is available.
+Hydroxokobalami ei ole markkinoilla Suomessa (0 hyväksyntää), joten tuote-/hyväksyntätaulukkoa ei ole saatavilla.
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information.
+Turvallisuustiedoista katso valmisteen seloste.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidätä**
 
-**Rationale:**
-The prediction is supported only by a raw TxGNN model score, with no clinical trials, no literature, and no identifiable mechanistic rationale connecting hydroxocobalamin to esophageal varices. This is an L5 / S0 candidate and does not meet the bar to advance to safety or clinical evaluation.
+**Perustelut:**
+Ennustus on tuettu ainoastaan raakalla TxGNN-mallin pistemäärällä, ilman kliinisiä tutkimuksia, ilman kirjallisuutta ja ilman tunnistettavaa mekanistista perustelua hydroxokobalamin ja esofagealisten variikoiden välillä. Tämä on L5 / S0 -kandidaatti ja ei täytä vaatimuksia edetä turvallisuus- tai kliiniseen arviointiin.
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert warnings and contraindications (currently blocking — safety profile cannot be assessed)
-- Confirmed mechanism of action (DrugBank query)
-- A plausible biological hypothesis linking hydroxocobalamin to portal hypertension/variceal pathophysiology before further evidence search is warranted
-- Ongoing monitoring for any new trials or literature on this drug-disease pair
+**Jotta voitaisiin edetä, seuraavaa tarvitaan:**
+- TFDA/Fimea-valmisteen seloste varoituksista ja vasta-aiheista (tällä hetkellä esto — turvallisuusprofiilia ei voida arvioida)
+- Vahvistettu vaikutusmekanismi (DrugBank-kysely)
+- Uskottava biologinen hypoteesi, joka yhdistää hydroxokobalamin portaalihypertensio/variikoiden patofysiologiaan, ennen kuin laajempi näyttöjen haku on perusteltua
+- Jatkuva seuranta kaikista uusista tutkimuksista tai kirjallisuudesta tästä lääke-sairausparin suhteen
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

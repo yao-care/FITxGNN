@@ -29,97 +29,98 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Insulin Detemir: From Diabetes Mellitus to Type 1 Diabetes Mellitus
+# Insuliini detemir: diabeteksesta tyypin 1 diabetekseen
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Insulin detemir is a long-acting basal insulin analogue with an established history of use in insulin-dependent diabetes mellitus. The TxGNN model's top prediction is **Type 1 Diabetes Mellitus** — but this is not a genuinely novel indication, since it falls within the drug's already-approved use. It is nonetheless the best-evidenced candidate in this pack, supported by **50 clinical trials** and **19 publications**, several of them completed Phase 3 RCTs directly comparing insulin detemir to NPH insulin in T1DM.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Diabetes mellitus (Type 1 and Type 2), long-acting basal insulin therapy |
-| Predicted New Indication | Type 1 Diabetes Mellitus |
-| TxGNN Prediction Score | 99.77% |
-| Evidence Level | L1 |
-| Finland Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+Insuliini detemir on pitkävaikutteinen perusinsuliini-analogi, jolla on vakiintunut käyttöhistoria insuliiniterapiaa vaativassa diabeteksessa. TxGNN-mallin parhain ennuste on **Tyypin 1 diabetes** — mutta tämä ei ole todellinen uusi indikaatio, koska se sisältyy lääkkeen jo hyväksyttyyn käyttöön. Se on kuitenkin parhaiten osoitettu ehdokas tässä joukossa, ja sillä on tukena **50 kliinistä tutkimusta** ja **19 julkaisua**, joista useat ovat valmistuneet vaiheen 3 satunnaistetut kontrolloitavat tutkimukset, joissa vertailtiin insuliini detemiria NPH-insuliiniin T1DM:ssä.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Detailed, structured mechanism-of-action data for insulin detemir was not available in the source evidence pack (DrugBank MOA field is flagged as a data gap). Based on established pharmacological knowledge, insulin detemir is a long-acting basal insulin analogue that reversibly binds circulating albumin via a C14 fatty-acid side chain, which slows its absorption and produces a smooth, prolonged (up to 24-hour) glucose-lowering effect through direct activation of the insulin receptor.
-
-Unlike a typical repurposing candidate, the top prediction here — type 1 diabetes mellitus — is not a novel indication. Insulin detemir (Levemir) already has a decades-long clinical history in T1DM, and the underlying rationale explicitly notes that this represents the drug's original, already-approved indication rather than a new hypothesis. In T1DM, autoimmune destruction of pancreatic β-cells causes an absolute deficiency of endogenous insulin, so exogenous basal insulin replacement is a direct, mechanism-based causal treatment rather than a speculative association.
-
-This candidate is surfaced here because it is, by a wide margin, the best-evidenced prediction in the pack. The next nine ranked indications — autoimmune oophoritis, opsismodysplasia, thiamine-responsive dysfunction syndrome, the stiff-person-syndrome spectrum, pancreatic agenesis, and three lipodystrophy/lipoatrophy phenotypes — all sit at Evidence Level L5 with zero supporting trials or literature. Several of the lipodystrophy predictions in particular likely reflect a **reversed causal direction** in the knowledge graph (insulin injection as a known *cause* of localized lipoatrophy, not a treatment for it), and should not be advanced without independent mechanistic validation.
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Diabetes mellitus (tyypin 1 ja 2), pitkävaikutteinen perusinsuliini-hoito |
+| Ennustettu uusi indikaatio | Tyypin 1 diabetes |
+| TxGNN-ennuste-pistemäärä | 99.77% |
+| Näyttötaso | L1 |
+| Suomen markkina-asema | ✗ Ei markkinoilla |
+| Myyntilupien lukumäärä | 0 |
+| Suositeltu päätös | Edistä varauksella |
 
 ---
 
-## Clinical Trial Evidence
+## Miksi tämä ennuste on järkevä?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Yksityiskohtainen, strukturoitu toimintamekanismi-data insuliini detemialle ei ollut saatavilla lähteissä (DrugBank MOA -kenttä on merkitty tietovajeeksi). Vakiintuneen farmakologisen tiedon perusteella insuliini detemir on pitkävaikutteinen perusinsuliini-analogi, joka palautuvasti sitoutuu verenkierrössä olevaan albumiiniin C14-rasvahapposivuketjunsa kautta, mikä hidastaa sen imeytymistä ja tuottaa tasaisen, pitkittyneen (jopa 24 tunnin) veren glukoositasoa alentavan vaikutuksen insuliinitehoreseptorin suoralla aktivoinnilla.
+
+Toisin kuin tyypillisellä uudelleenkäyttöä tarkoittavalla ehdokkaalla, parhain ennuste tässä — tyypin 1 diabetes — ei ole uusi indikaatio. Insuliini detemiirilla (Levemir) on jo vuosikymmenten kestävä kliininen historia T1DM:ssä, ja taustalla oleva perusteltu huomio tarkasti osoittaa, että tämä edustaa lääkkeen alkuperäistä, jo hyväksyttyä indikaatiota sen sijaan, että se olisi uusi hypoteesi. T1DM:ssä autoimmuuni-ilmiö tuhoaa haiman β-soluja, mikä aiheuttaa täydellisen endogeenisen insuliinitehon puutteen, joten eksogeen perusinsuliini-korvaus on suora, mekanismi-pohjainen kausaalinen hoito eikä spekulatiivinen yhteys.
+
+Tämä ehdokas nousee esiin, koska se on selkeästi parhaiten dokumentoitu ennuste paketissa. Seuraavat yhdeksän sijoitettu indikaatiota — autoimmuuni-ooforiitti, opsismodysplasia, tiamiini-vasteinen toimintahäiriö, jäykkä-henkilö-oireyhtymän spektri, haiman agenesia ja kolme rasvajakautuma/rasvan kulumisen fenotyyppiä — istuvat kaikki näyttötasolla L5 ilman tukevia tutkimuksia tai kirjallisuutta. Erityisesti useat rasvajakautumaliittyväisen ennusteen osalta todennäköisesti heijastuvat **käännettyä kausaalista suuntaa** tietoverkossa (insuliinikäyttö tunnetuksi *syyksi* paikalliseen rasvan kulumiseen, ei hoitoksi siihen), ja niitä ei tulisi edistää ilman riippumatonta mekanistista validointia.
+
+---
+
+## Kliinisen tutkimuksen näyttö
+
+| Tutkimusnumero | Vaihe | Tila | Rekrytointimäärä | Pääasialliset havainnot |
 |---------|------|------|------|---------|
-| [NCT00655200](https://clinicaltrials.gov/study/NCT00655200) | N/A (Observational) | Completed | 2286 | Safety and tolerability of Levemir® FlexPen® (insulin detemir) in Filipino patients with Type 1 and Type 2 diabetes. |
-| [NCT00474045](https://clinicaltrials.gov/study/NCT00474045) | Phase 3 | Completed | 470 | Multinational RCT comparing insulin detemir vs. NPH insulin (both with insulin aspart bolus) in pregnant women with T1DM. |
-| [NCT00312156](https://clinicaltrials.gov/study/NCT00312156) | Phase 3 | Completed | 347 | Compares insulin detemir vs. NPH insulin (with aspart) in children and adolescents with T1DM. |
-| [NCT03220425](https://clinicaltrials.gov/study/NCT03220425) | Phase 3 | Completed | 752 | Six-month efficacy/safety comparison of insulin detemir (2400 nmol/mL formulation) vs. NPH insulin in a basal-bolus regimen for T1DM. |
-| [NCT01486940](https://clinicaltrials.gov/study/NCT01486940) | Phase 3 | Completed | 598 | Multinational RCT comparing insulin detemir + aspart vs. NPH + human soluble insulin on glycaemic control in T1DM. |
-| [NCT01835431](https://clinicaltrials.gov/study/NCT01835431) | Phase 3 | Completed | 362 | Efficacy/safety of insulin degludec/aspart once daily vs. insulin detemir once/twice daily plus mealtime aspart in children/adolescents with T1DM. |
-| [NCT00117780](https://clinicaltrials.gov/study/NCT00117780) | Phase 4 | Completed | 520 | Compares once-daily vs. twice-daily insulin detemir in a basal-bolus regimen with aspart for T1DM, evaluating HbA1c reduction and hypoglycaemia risk. |
-| [NCT00595374](https://clinicaltrials.gov/study/NCT00595374) | Phase 3 | Completed | 114 | Efficacy and safety of insulin detemir + aspart vs. NPH + aspart in adults with T1DM. |
-| [NCT02518945](https://clinicaltrials.gov/study/NCT02518945) | Phase 3 | Completed | 26 | Dapagliflozin added to liraglutide and insulin (detemir as background basal insulin) in T1DM; evaluates glycaemic variability and insulin dose reduction. |
-| [NCT00322257](https://clinicaltrials.gov/study/NCT00322257) | Phase 3 | Terminated | 596 | 104-week trial comparing inhaled mealtime insulin vs. subcutaneous insulin aspart, both combined with insulin detemir, in T1DM. |
+| [NCT00655200](https://clinicaltrials.gov/study/NCT00655200) | N/A (Observationaalinen) | Valmistunut | 2286 | Levemir® FlexPen® (insuliini detemir) -lääkkeen turvallisuus ja siedettävyys filippiiniläisillä potilailla tyypin 1 ja 2 diabeteksessa. |
+| [NCT00474045](https://clinicaltrials.gov/study/NCT00474045) | Vaihe 3 | Valmistunut | 470 | Kansainvälinen RCT, joka vertaa insuliini demitiria ja NPH-insuliinia (molemmat insuliini aspart -boluksella) raskaana oleville naisille T1DM:ssä. |
+| [NCT00312156](https://clinicaltrials.gov/study/NCT00312156) | Vaihe 3 | Valmistunut | 347 | Vertaa insuliini detemiria ja NPH-insuliinia (aspartin kanssa) lapsille ja nuorille, joilla on T1DM. |
+| [NCT03220425](https://clinicaltrials.gov/study/NCT03220425) | Vaihe 3 | Valmistunut | 752 | Kuuden kuukauden tehokkuus/turvallisuus-vertailu insuliini detemir (2400 nmol/mL formulaatio) ja NPH-insuliiinin välillä perustava-bolusohjelmoinnissa T1DM:ssä. |
+| [NCT01486940](https://clinicaltrials.gov/study/NCT01486940) | Vaihe 3 | Valmistunut | 598 | Kansainvälinen RCT, joka vertaa insuliini detemiria + aspartia ja NPH + ihmisen liukoista insuliinia verensokeritason hallintaan T1DM:ssä. |
+| [NCT01835431](https://clinicaltrials.gov/study/NCT01835431) | Vaihe 3 | Valmistunut | 362 | Insuliini degludec/aspart kerran päivässä verrattuna insuliini detemiiriin kerran/kahdesti päivässä sekä ateriainsuliini aspartiin lapsilla/nuorilla T1DM:ssä. |
+| [NCT00117780](https://clinicaltrials.gov/study/NCT00117780) | Vaihe 4 | Valmistunut | 520 | Vertaa kerran päivässä annettavaa insuliini detemiria kahteen kertaan päivässä annettavaan insuliiniin perustava-bolusohjelmoinnissa aspartin kanssa T1DM:ssä, arvioimalla HbA1c-reduktion ja hypoglykemian riskin. |
+| [NCT00595374](https://clinicaltrials.gov/study/NCT00595374) | Vaihe 3 | Valmistunut | 114 | Insuliini detemir + aspart vs. NPH + aspart tehokkuus ja turvallisuus aikuisilla T1DM:ssä. |
+| [NCT02518945](https://clinicaltrials.gov/study/NCT02518945) | Vaihe 3 | Valmistunut | 26 | Dapagliflotsiini lisätty liraglutidiin ja insuliiniin (detemir perustava-insuliinina) T1DM:ssä; arvioi verensokerin vaihtelua ja insuliinitehon annosvähenystä. |
+| [NCT00322257](https://clinicaltrials.gov/study/NCT00322257) | Vaihe 3 | Keskeytetty | 596 | 104 viikon tutkimus, jossa vertailtiin sisäänhengitettävää ateriainsuliinitehoa ja ihonsisäistä insuliini aspartia, molemmat yhdessä insuliini detemir kanssa, T1DM:ssä. |
 
 ---
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Pääasialliset havainnot |
 |------|-----|------|------|---------|
-| [36623517](https://pubmed.ncbi.nlm.nih.gov/36623517/) | 2023 | RCT | Lancet Diabetes & Endocrinology | EXPECT trial: insulin degludec non-inferior to insulin detemir (both + aspart) in pregnant women with T1DM. |
-| [29477399](https://pubmed.ncbi.nlm.nih.gov/29477399/) | 2018 | Systematic Review / Network Meta-analysis | Value in Health | Compares relative efficacy and safety of basal insulin regimens, including detemir, in adults with T1DM. |
-| [21878861](https://pubmed.ncbi.nlm.nih.gov/21878861/) | 2011 | Systematic Review / Meta-analysis | Polskie Archiwum Medycyny Wewnetrznej | Insulin detemir vs. NPH insulin in T1DM — glycaemic control outcomes not uniformly confirmed across studies. |
-| [33662147](https://pubmed.ncbi.nlm.nih.gov/33662147/) | 2021 | Cochrane Systematic Review | Cochrane Database of Systematic Reviews | Reviews (ultra-)long-acting insulin analogues, including detemir, for people with T1DM. |
-| [20539842](https://pubmed.ncbi.nlm.nih.gov/20539842/) | 2010 | Review | Vascular Health and Risk Management | Update on T1DM/T2DM treatment focused on insulin detemir; lower hypoglycaemia rates vs. NPH insulin. |
-| [17326333](https://pubmed.ncbi.nlm.nih.gov/17326333/) | 2006 | Review | Vascular Health and Risk Management | Reviews insulin detemir's unique albumin-binding mechanism and reduced hypoglycaemia risk in T1DM/T2DM. |
-| [15516157](https://pubmed.ncbi.nlm.nih.gov/15516157/) | 2004 | Review | Drugs | Review of insulin detemir's pharmacology and clinical use in T1DM and T2DM management. |
-| [15691219](https://pubmed.ncbi.nlm.nih.gov/15691219/) | 2005 | Review | BioDrugs | Spotlight review on insulin detemir's predictable, protracted glucose-lowering effect in T1DM/T2DM. |
-| [18454569](https://pubmed.ncbi.nlm.nih.gov/18454569/) | 2008 | Review | Paediatric Drugs | Reviews insulin analogue preparations, including detemir, in children/adolescents with T1DM. |
-| [30666772](https://pubmed.ncbi.nlm.nih.gov/30666772/) | 2019 | Analysis of RCT data | Pediatric Diabetes | Compares hyperglycaemia/ketosis rates between degludec-based treatment and insulin detemir in pediatric T1DM across two RCTs. |
+| [36623517](https://pubmed.ncbi.nlm.nih.gov/36623517/) | 2023 | RCT | Lancet Diabetes & Endocrinology | EXPECT-tutkimus: insuliini degludec ei ole alempi insuliini detemiiriin nähden (molemmat + aspart) raskaana oleville naisille T1DM:ssä. |
+| [29477399](https://pubmed.ncbi.nlm.nih.gov/29477399/) | 2018 | Systemaattinen katsaus / Verkon meta-analyysi | Value in Health | Vertaa perusinsuliini-yhdistelmien suhteellista tehokkuutta ja turvallisuutta, mukaan lukien detemir, aikuisilla T1DM:ssä. |
+| [21878861](https://pubmed.ncbi.nlm.nih.gov/21878861/) | 2011 | Systemaattinen katsaus / Meta-analyysi | Polskie Archiwum Medycyny Wewnetrznej | Insuliini detemir vs. NPH-insuliini T1DM:ssä — verensokeritason hallintotulokset eivät ole kaikissa tutkimuksissa johdonmukaisesti vahvistuneet. |
+| [33662147](https://pubmed.ncbi.nlm.nih.gov/33662147/) | 2021 | Cochrane-systemaattinen katsaus | Cochrane Database of Systematic Reviews | Tarkastelee (ultra-)pitkävaikutteisia insuliini-analogeja, mukaan lukien detemir, henkilöillä, joilla on T1DM. |
+| [20539842](https://pubmed.ncbi.nlm.nih.gov/20539842/) | 2010 | Katsaus | Vascular Health and Risk Management | Päivitys T1DM/T2DM-hoitoon, joka keskittyy insuliini detemiiriin; alhaisemmat hypoglykemia-nopeudet vs. NPH-insuliini. |
+| [17326333](https://pubmed.ncbi.nlm.nih.gov/17326333/) | 2006 | Katsaus | Vascular Health and Risk Management | Arvioi insuliini detemir -lääkkeen ainutlaatuista albumiini-sitoutumis-mekanismiaa ja vähentynyttä hypoglykemian riskiä T1DM/T2DM:ssä. |
+| [15516157](https://pubmed.ncbi.nlm.nih.gov/15516157/) | 2004 | Katsaus | Drugs | Insuliini detemir -lääkkeen farmakologian ja kliinisen käytön katsaus T1DM- ja T2DM-hoidossa. |
+| [15691219](https://pubmed.ncbi.nlm.nih.gov/15691219/) | 2005 | Katsaus | BioDrugs | Spotlight-katsaus insuliini detemir -lääkkeen ennakoitaviin, pitkittyneisiin veren glukoositasoa alentaviin vaikutuksiin T1DM/T2DM:ssä. |
+| [18454569](https://pubmed.ncbi.nlm.nih.gov/18454569/) | 2008 | Katsaus | Paediatric Drugs | Arvioi insuliini-analogisäätöjä, mukaan lukien detemir, lapsilla/nuorilla T1DM:ssä. |
+| [30666772](https://pubmed.ncbi.nlm.nih.gov/30666772/) | 2019 | RCT-tietojen analyysi | Pediatric Diabetes | Vertaa hyperglykemian/ketoosiin liittyviä korkotuksia degludec-pohjaisen hoidon ja insuliini detemir -lääkkeen välillä pediatrisissa T1DM:ssä kahden RCT:n poikki. |
 
 ---
 
-## Finland Market Information
+## Suomen markkina-asema
 
-Insulin detemir currently holds **no marketing authorization in Finland** — the evidence pack records 0 licenses and a market status of "Not marketed." No Finland-specific product, dosage form, or approved-indication text is available for this drug.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+Insuliini detemiirilla ei ole tällä hetkellä **myyntilupaa Suomessa** — näyttöpaketti ilmoittaa 0 lisenssistä ja markkina-asemasta "Ei markkinoilla." Suomelle spesifisiä tuote-, annoslomake- tai hyväksytyn indikaation tekstejä ei ole saatavilla tälle lääkkeelle.
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuusnäkökohdat
 
-**Decision: Proceed with Guardrails**
+Katso turvallisuustiedot pakkausselosteesta.
 
-**Rationale:**
-The T1DM indication reaches Evidence Level L1, backed by multiple completed Phase 3 RCTs and systematic reviews directly evaluating insulin detemir. However, this validates an existing, already-approved indication rather than establishing a new one, and the drug currently has zero marketing authorizations in Finland, with a Blocking-severity gap in local package-insert safety data (warnings/contraindications).
+---
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert data (warnings, contraindications) — currently a Blocking data gap (DG001)
-- Structured DrugBank mechanism-of-action data (DG002, High severity)
-- Confirmation of regulatory/reimbursement pathway for market entry in Finland (currently 0 authorizations)
-- Since this is not a novel indication, reclassify this candidate as "existing indication confirmation" rather than a repurposing opportunity in the pipeline
-- Ranks 2–10 (all L5, Hold) should be deprioritized pending real trial or literature evidence; the lipodystrophy-related predictions in particular warrant a knowledge-graph causal-direction review before any further work
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Edistä varauksella**
+
+**Perustelut:**
+T1DM-indikaatio saavuttaa näyttötason L1, jota tukevat useat valmistuneet vaiheen 3 RCT:t ja systemaattiset katsaukset, jotka arvioivat suoraan insuliini detemiria. Tämä kuitenkin vahvistaa olemassa olevaa, jo hyväksyttyä indikaatiota sen sijaan, että se vahvistaisi uutta, ja lääkkeellä ei tällä hetkellä ole myyntilupaa Suomessa, ja siinä on Blocking-vakavuusaste paikallisen pakkausselosteen turvallisuustiedoissa (varoitukset/vasta-aiheet).
+
+**Jatkaaksesi seuraava on tarpeen:**
+- TFDA/Fimea pakkausselosteen tiedot (varoitukset, vasta-aiheet) — tällä hetkellä Blocking-tietovaje (DG001)
+- Strukturoitu DrugBank toimintamekanismi-tieto (DG002, korkea vakavuusaste)
+- Regulatory/korvauksellisuus-polun vahvistus markkina-sisäänpääsyyn Suomessa (tällä hetkellä 0 myyntilupaa)
+- Koska tämä ei ole uusi indikaatio, luokittele tämä ehdokas uudelleen "olemassa olevan indikaation vahvistukseksi" eikä uudelleenkäyttömahdollisuudeksi putkessa
+- Sijoitukset 2–10 (kaikki L5, Pidä) tulisi asettaa pienempiarvoisiksi ennen todellisten tutkimus- tai kirjallisuustodisteiden saamista; erityisesti rasvajakautumaliittyvät ennusteet vaativat tietoverkko-kausaalisuunta-tarkistuksen ennen lisätyötä
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

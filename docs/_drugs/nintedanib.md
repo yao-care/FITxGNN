@@ -29,64 +29,65 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Nintedanib: From Idiopathic Pulmonary Fibrosis to Dermatofibrosarcoma Protuberans
+# Nintedanibi: idiopaattisesta keuhkojen fibroosista dermatofibrosarkooma protuberansiin
 
-> **Note on data provenance:** The evidence pack does not include sourced original-indication or MOA data (`original_indications: []`, `original_moa: "[Data Gap]"`, flagged as DG001/DG002). The original indication cited here (idiopathic pulmonary fibrosis) reflects nintedanib's well-established public drug classification and requires confirmation against a primary source (DrugBank/Fimea label) before use in a formal safety review.
+> **Huomautus tietojen alkuperästä:** Todistenippu ei sisällä lähdettyjä alkuperäisen indikaation tai MOA-tietoja (`original_indications: []`, `original_moa: "[Data Gap]"`, merkitty DG001/DG002. Tässä mainittu alkuperäinen indikaatio (idiopaattinen keuhkojen fibrooosi) heijastaa nintedanibin hyvin vakiintunutta julkista lääkkeen luokittelua ja vaatii vahvistamisen ensisijaisesta lähteestä (DrugBank/Fimean merkintä) ennen käyttöä muodollisessa turvallisuusarvioinnissa.
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Nintedanib is a multi-target tyrosine kinase inhibitor generally known for its use in fibrotic lung disease. The TxGNN model predicts it may be effective for **dermatofibrosarcoma protuberans**, but this direction is currently supported by only **1 mechanism-related publication** and **no registered clinical trials**.
+Nintedanibi on moneksi kohteeksi vaikuttava tyrosiinkinaasin estäjä, joka tunnetaan yleisesti sen käytöstä fibroottisissa keuhkosairauksissa. TxGNN-malli ennustaa, että se saattaa olla tehokas **dermatofibrosarkooma protuberansiin**, mutta tätä suuntaa tukee tällä hetkellä vain **yksi mekanismiin liittyvä julkaisu** ja **ei rekisteröityjä kliinisiä tutkimuksia**.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in current evidence pack (blocking data gap — see DG001) |
-| Predicted New Indication | Dermatofibrosarcoma protuberans |
-| TxGNN Prediction Score | 99.15% |
-| Evidence Level | L4 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Ei dokumentoitu nykyisessä todistenipussa (estävä tietovaje — katso DG001) |
+| Ennustettu uusi indikaatio | Dermatofibrosarcoma protuberans |
+| TxGNN-ennustepistemäärä | 99.15% |
+| Todisteen taso | L4 |
+| Suomen markkinatilanne | ✗ Ei markkinoilla |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Odota |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, detailed mechanism of action data for nintedanib is not available in this evidence pack (DG002). Based on generally known pharmacology, nintedanib is a triple angiokinase inhibitor targeting VEGFR, FGFR, and PDGFR, and its efficacy in fibrotic lung disease has been established in the broader literature — but this has not been confirmed against a sourced document in this pack.
+Tällä hetkellä yksityiskohtaisia nintedanibin vaikutusmekanismin tietoja ei ole saatavilla tässä todistenipussa (DG002). Yleisesti tunnetun farmakologian perusteella nintedanibi on kolmoiskulmakiinaasi-estäjä, joka kohdennetaan VEGFR:ään, FGFR:ään ja PDGFR:ään, ja sen tehokkuus fibroottisissa keuhkosairauksissa on vakiintunut laajemmassa kirjallisuudessa — mutta tätä ei ole vahvistettu tässä nippussa lähteellä tuetulla asiakirjalla.
 
-The single supporting publication (PMID 29408302) is a pharmacological review of small-molecule PDGFR inhibitors in neoplastic disease. Dermatofibrosarcoma protuberans is a tumour characteristically driven by a COL1A1–PDGFB gene fusion, which causes constitutive PDGFR pathway activation. If nintedanib's PDGFR-inhibitory activity is confirmed, there is a plausible mechanistic rationale for activity in PDGFR-driven sarcomas such as DFSP and liposarcoma — consistent with all three of TxGNN's top-ranked predictions being soft-tissue sarcomas.
+Ainoa tukeva julkaisu (PMID 29408302) on pienimolekyylisten PDGFR-estäjien farmakologinen katsaus pahanlaatuisissa taudeissa. Dermatofibrosarcoma protuberans on kasvain, jota luonnehtii COL1A1–PDGFB-geenifuusio, joka aiheuttaa jatkuvan PDGFR-signalointireitin aktivaation. Jos nintedanibin PDGFR-inhibiittinen aktiivisuus vahvistetaan, on uskottava mekanistinen perustelu PDGFR-ohjautuvissa sarkoomeissa, kuten DFSP:ssa ja liposarkooomassa olevan aktiivisuuden kannalta — mikä on johdonmukainen sen kanssa, että kaikki kolme TxGNN:n eniten sijoitettua ennustetta ovat pehmeän kudoksen sarkoomat.
 
-This mechanistic link is presently supported by class-level literature only, not by drug-specific or disease-specific studies, and should be treated as hypothesis-generating rather than confirmatory.
+Tätä mekanistista yhteyttä tukee tällä hetkellä vain luokan tason kirjallisuus, ei lääkekohtaiset tai tautikohtaiset tutkimukset, ja sitä tulee käsitellä hypoteesin tuottavana pikemminkin kuin vahvistavana.
 
-## Clinical Trial Evidence
+## Kliinisten tutkimusten todisteet
 
-Currently no related clinical trials registered
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia
 
-## Literature Evidence
+## Kirjallisuuden todisteet
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [29408302](https://pubmed.ncbi.nlm.nih.gov/29408302/) | 2018 | Review | Pharmacological Research | Reviews small-molecule PDGFR inhibitors in neoplastic disease; describes the PDGF/PDGFR signalling axis relevant to PDGFR-driven tumours such as DFSP, supporting a class-level mechanistic rationale rather than drug-specific efficacy data |
+| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät löydökset |
+|------|------|--------|---------|---------|
+| [29408302](https://pubmed.ncbi.nlm.nih.gov/29408302/) | 2018 | Katsaus | Pharmacological Research | Arvioi pienimolekyylisiä PDGFR-estäjiä pahanlaatuisissa taudeissa; kuvailee PDGF/PDGFR-signalointireittiä, joka on merkityksellinen PDGFR-ohjautuville kasvaimille, kuten DFSP:lle, mikä tukee luokan tasoisilla mekanistisia perusteluja pikemminkin kuin lääkekohtaisia tehokkuustietoja |
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Nintedanib is not currently marketed in Finland; no authorization records are available in the evidence pack (`total_licenses: 0`).
+Nintedanibia ei ole tällä hetkellä markkinoilla Suomessa; todistenipussa ei ole saatavilla lupamerkintöjä (`total_licenses: 0`).
 
-## Safety Considerations
+## Turvallisuutta koskevat huomiot
 
-Please refer to the package insert for safety information.
+Katso turvallisuustietoja pakkausselosteesta.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Odota**
 
-**Rationale:**
-The prediction rests on a single class-level mechanism review with no drug-specific or disease-specific clinical or preclinical data, no registered trials for any of the three predicted sarcoma indications, and no Finland market presence to draw on for real-world safety experience. The blocking data gap (DG001 — TFDA/Fimea package insert warnings and contraindications) also prevents entry into the S1 safety pre-screening stage.
+**Perustelu:**
+Ennuste perustuu yksittäiseen luokan tasoiseen mekanismin katsaukseen ilman lääkekohtaisia tai tautikohtaisia kliinisiä tai prekliinisiä tietoja, ilman rekisteröityjä tutkimuksia mille tahansa kolmesta ennustetusta sarkooma-indikaatiosta, ja ilman Suomen markkinoiden läsnäoloa, johon vedota todellisen maailman turvallisuuskokemukseen. Estävä tietovaje (DG001 — TFDA/Fimean pakkausseloste varoitukset ja vasta-aiheet) estää myös pääsyn S1-turvallisuuden esiseulonnan vaiheeseen.
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert data (warnings, contraindications) to resolve DG001 and unblock S1 safety pre-screening
-- Confirmed original indication and MOA from DrugBank or the approved label (DG002)
-- Drug-specific preclinical or case-level evidence (e.g., PDGFR-inhibitor activity confirmed for nintedanib in DFSP or liposarcoma models)
-- Continued literature/trial monitoring, as liposarcoma and ovarian myxoid liposarcoma currently have zero supporting evidence beyond the TxGNN score
+**Jotta voidaan edetä, tarvitaan seuraavaa:**
+- TFDA/Fimean pakkausseloste tiedot (varoitukset, vasta-aiheet) DG001:n ratkaisemiseksi ja S1-turvallisuuden esiseulonnan avauksi
+- Vahvistettu alkuperäinen indikaatio ja MOA DrugBankista tai hyväksytystä merkinnästä (DG002)
+- Lääkekohtaiset prekliiniset tai tapauskohtaiset todisteet (esim. PDGFR-inhibiittinen aktiivisuus vahvistettu nintedanibille DFSP- tai liposarkooma-malleissa)
+- Jatkuva kirjallisuuden/tutkimusten seuranta, koska liposarkooomalla ja ovaarisen myksoidisen liposarkooomalla ei ole tällä hetkellä muuta tukea kuin TxGNN-pistemäärä
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -29,102 +29,103 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Entecavir: From Chronic Hepatitis B to Chronic Hepatitis C Virus Infection
+# Entecavir: Kroonisesta hepatiitti B -infektiosta krooniseen hepatiitti C -viruksen infektioon
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Entecavir is a guanosine nucleoside analogue originally developed and approved for chronic hepatitis B virus (HBV) infection, where it inhibits the HBV reverse transcriptase. The TxGNN model's top-ranked prediction is **chronic hepatitis C virus infection**, supported by **40 clinical trials** and **20 publications** in the evidence pack — however, on closer inspection, none of this evidence demonstrates direct anti-HCV efficacy; the trials and literature almost entirely concern entecavir's real, established use in HBV (including HBV/HCV co-infection management), and the evidence pack itself grades this HCV signal as low-confidence (**Evidence Level L4, Recommendation: Hold**).
+Entecavir on guanosiininukleosidianalogiikka, joka on alun perin kehitetty ja hyväksytty kroonisen hepatiitti B -viruksen (HBV) infektion hoitoon, jossa se estää HBV:n käänteistranskriptaasia. TxGNN-mallin korkeimmin sijoitettu ennuste on **krooninen hepatiitti C -viruksen infektio**, johota tukevat **40 kliinistä tutkimusta** ja **20 julkaisua** näyttöpaketissa — mutta tarkemmassa tarkastelussa mikään näistä näytöistä ei osoita suoraa HCV:ta vastaan vaikuttavuutta; tutkimukset ja kirjallisuus käsittelevät lähes kokonaan entecavirin todellista, vakiintunutta käyttöä HBV:ssä (mukaan lukien HBV/HCV-yhtäaikaisen infektion hallinta), ja näyttöpakkaus itse arvostelee tämän HCV-signaalin heikkovarmuudeksi (**Näyttötaso L4, Suositus: Odota**).
 
-> ⚠️ **Important caveat:** This evidence pack's rank-2 prediction, "hepatitis B virus infection" (score 99.85%, **Evidence Level L1**), is explicitly annotated in the source data as entecavir's **original, already-approved indication**, not a new repurposing candidate. The rank-1 "hepatitis C" signal appears to be a TxGNN knowledge-graph artifact arising from HBV/HCV co-infection studies and shared "viral hepatitis" ontology terms, rather than a genuine mechanistic repurposing opportunity.
+> ⚠️ **Tärkeä varoitus:** Tämän näyttöpakkauksen rank-2-ennuste, "hepatiitti B -viruksen infektio" (pistemäärä 99.85%, **Näyttötaso L1**), on nimenomaisesti merkitty lähdetiedoissa entecavirin **alkuperäiseksi, jo hyväksytyksi indikaatioksi**, ei uudeksi uudelleenkäyttöehdokkaaksi. Rank-1 "hepatiitti C" -signaali näyttää olevan TxGNN-tietokantaartefakti, joka aiheutuu HBV/HCV-yhtäaikaisten infektioiden tutkimuksista ja jaetuista "viral hepatitis" -ontologiatermeistä, pikemminkin kuin aito mekanistinen uudelleenkäyttömahdollisuus.
 
 ---
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Chronic hepatitis B virus (HBV) infection *(inferred from evidence-pack rationale; no Finland/Taiwan regulatory license record available — drug is not marketed there)* |
-| Predicted New Indication | Chronic Hepatitis C Virus Infection |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L4 |
-| Finland Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen indikaatio | Krooninen hepatiitti B -viruksen (HBV) infektio *(päättelty näyttöpakkauksen perustelusta; ei saatavilla olevia Suomen/Taiwanin sääntelylupia — lääkettä ei ole markkinoitu näissä maissa)* |
+| Ennustettu uusi indikaatio | Krooninen hepatiitti C -viruksen infektio |
+| TxGNN-ennusteen pistemäärä | 99.98% |
+| Näyttötaso | L4 |
+| Markkina-asema Suomessa | Ei markkinoitu (Ei markkinoitu) |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Odota |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Detailed mechanism-of-action data for entecavir is not available in this evidence pack (Data Gap DG002, High severity). Based on known pharmacology, entecavir is a deoxyguanosine nucleoside analogue that is phosphorylated intracellularly to its active triphosphate form, which competitively inhibits the HBV reverse transcriptase — blocking priming, negative-strand DNA synthesis, and positive-strand DNA synthesis. This is a highly specific, well-established mechanism for suppressing HBV replication.
+Yksityiskohtaista entecavirin vaikutusmekanismin tietoja ei ole saatavilla tässä näyttöpaketissa (Data Gap DG002, Korkea vakavuus). Tunnetun farmakologian perusteella entecavir on deoksiguanosiinin nukleosidianalogiikka, joka fosforyloituu solun sisällä sen aktiiviseksi trifosfattimuodoksi, joka kilpailevasti estää HBV:n käänteistranskriptaasia — estäen alustamisen, negatiivisen juosteen DNA-synteesin ja positiivisen juosteen DNA-synteesin. Tämä on erittäin spesifi, hyvin vakiintunut mekanismi HBV:n replikaation tukahduttamiseen.
 
-Hepatitis C virus, by contrast, is a positive-strand RNA flavivirus whose replication depends on the NS5B RNA-dependent RNA polymerase — a structurally and catalytically distinct enzyme with no known cross-reactivity to entecavir's reverse-transcriptase-inhibiting mechanism. The evidence pack's own repurposing rationale for this prediction states directly: *"缺乏直接生物學合理性"* (lacks direct biological plausibility), and notes that essentially all of the listed clinical trials either (a) study direct-acting antivirals (DAAs) for HCV while entecavir is used only to control the HBV side of HBV/HCV co-infection, or (b) study entecavir's real target — HBV — with no HCV efficacy endpoint at all.
+Hepatiitti C -virus puolestaan on positiivisen juosteen RNA-flavivirus, jonka replikaatio riippuu NS5B RNA-riippuvaisesta RNA-polymeraasista — rakenteellisesti ja katalyyttisesti erillisestä entsyymistä, jolla ei ole tunnettua ristireaktion entecavirin käänteistranskriptaasia estävään mekanismiin. Näyttöpakkauksen oman uudelleenkäyttöperustelun mukaan tämän ennusteen osalta todetaan suoraan: *"缺乏直接生物學合理性"* (puuttuu suora biologinen järkevyys), ja huomautetaan, että olennaisesti kaikki luetelluista kliinisista tutkimuksista joko (a) tutkivat suoria HCV-vaikuttavia lääkkeitä (DAA) entecavirin ollessa käytössä HBV/HCV-yhtäaikaisen infektion HBV-puolen hallinnassa, tai (b) tutkivat entecavirin todellista kohdetta — HBV:tä — ilman mitään HCV-tehokkuuspäätepisteita.
 
-In short, this prediction most likely reflects a TxGNN knowledge-graph artifact: entecavir and HCV co-occur frequently in the literature because of shared "viral hepatitis" disease-ontology proximity and HBV/HCV co-infection management studies, not because of a genuine antiviral mechanism against HCV. No trial or publication in this pack reports an HCV virologic-response endpoint attributable to entecavir itself.
+Lyhyesti sanottuna tämä ennuste todennäköisesti heijastaa TxGNN-tietokantaartefaktia: entecavir ja HCV esiintyvät usein yhdessä kirjallisuudessa jaetun "viral hepatitis" taudin ontologian läheisyyden ja HBV/HCV-yhtäaikaisen infektion hallintatutkimusten vuoksi, eivät koska olisi aito antiviraalinen mekanismi HCV:ta vastaan. Yksikään tutkimus tai julkaisu tässä paketissa ei raportoi HCV-virologista vastetta, joka olisi entecavirin itsensä aiheuttama.
 
 ---
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimusnumero | Vaihe | Tila | Osallistujamäärä | Keskeiset löydökset |
 |---------|------|------|------|---------|
-| [NCT02555943](https://clinicaltrials.gov/study/NCT02555943) | Phase 2/3 | Completed | 23 | Studied HBV reactivation during direct-acting antiviral (DAA) treatment of HCV/HBV co-infection; entecavir addressed only the HBV component, not HCV. |
-| [NCT03662568](https://clinicaltrials.gov/study/NCT03662568) | Phase 1 | Completed | 56 | Drug-drug interaction/PK study of entecavir or TDF with morphothiadine mesilate/ritonavir in healthy subjects; not an HCV efficacy trial. |
-| [NCT00065507](https://clinicaltrials.gov/study/NCT00065507) | Phase 3 | Completed | 195 | Entecavir vs. adefovir in HBV patients with hepatic decompensation; unrelated to HCV. |
-| [NCT00371150](https://clinicaltrials.gov/study/NCT00371150) | Phase 4 | Completed | 131 | Observational antiviral-effect study of entecavir in Black/Hispanic patients with chronic HBV; unrelated to HCV. |
-| [NCT01848743](https://clinicaltrials.gov/study/NCT01848743) | Phase 3 | Unknown | 120 | Tenofovir vs. lamivudine for HBV with severe acute exacerbation; does not involve entecavir or HCV. |
-| [NCT01354652](https://clinicaltrials.gov/study/NCT01354652) | Phase 4 | Terminated | 5 | Investigated lactic acidosis incidence during entecavir treatment in HBV cirrhosis/hepatic failure; safety study, unrelated to HCV. |
-| [NCT03272009](https://clinicaltrials.gov/study/NCT03272009) | Phase 1 | Completed | 73 | Safety/PK/PD study of FXR-agonist EYP001a in chronic HBV; drug/target unclear, not HCV-related. |
-| [NCT05416008](https://clinicaltrials.gov/study/NCT05416008) | N/A | Unknown | 150 | Observational study of long-term nucleos(t)ide analogue use and hepatic steatosis in chronic HBV; unrelated to HCV. |
-| [NCT01020565](https://clinicaltrials.gov/study/NCT01020565) | Phase 2 | Completed | 60 | Japanese Phase 2 safety/antiviral-activity study of entecavir in chronic HBV; unrelated to HCV. |
-| [NCT01270178](https://clinicaltrials.gov/study/NCT01270178) | N/A | Unknown | 420 | Prospective entecavir study in HBV-related HCC patients post-radiofrequency ablation; unrelated to HCV. |
+| [NCT02555943](https://clinicaltrials.gov/study/NCT02555943) | Vaihe 2/3 | Päättynyt | 23 | Tutki HBV:n reaktivointia suoran vaikuttavuuden omaavan antiviraalisen (DAA) hoidon aikana HCV/HBV-yhtäaikaisessa infektiossa; entecavir hallitsi vain HBV-komponenttia, ei HCV:tä. |
+| [NCT03662568](https://clinicaltrials.gov/study/NCT03662568) | Vaihe 1 | Päättynyt | 56 | Lääkkeiden väliset vuorovaikutukset/PK-tutkimus entecavir- tai TDF-hoidolla morfotiaadiini-mesylaatti/ritonaviirin kanssa terveillä vapaaehtoisilla; ei HCV:n tehokkuustutkimus. |
+| [NCT00065507](https://clinicaltrials.gov/study/NCT00065507) | Vaihe 3 | Päättynyt | 195 | Entecavir vs. adefovir HBV-potilailla, joilla on hepatiivinen dekompensoituminen; ei liity HCV:hen. |
+| [NCT00371150](https://clinicaltrials.gov/study/NCT00371150) | Vaihe 4 | Päättynyt | 131 | Havainnoiva antiviraalisen vaikutuksen tutkimus entecavir-hoidolla mustilla/latinoamericanalaisilla potilailla kroonisen HBV:n kanssa; ei liity HCV:hen. |
+| [NCT01848743](https://clinicaltrials.gov/study/NCT01848743) | Vaihe 3 | Tuntematon | 120 | Tenofovir vs. lamivudiini HBV:ssä vaikealla akuutilla pahentumisvaiheella; ei sisällä entecaveria tai HCV:tä. |
+| [NCT01354652](https://clinicaltrials.gov/study/NCT01354652) | Vaihe 4 | Lopetettu | 5 | Tutki maitohappoasidoosin ilmaantuvuutta entecavir-hoidon aikana HBV-sirroosissa/maksan vajaatoiminnassa; turvallisuustutkimus, ei liity HCV:hen. |
+| [NCT03272009](https://clinicaltrials.gov/study/NCT03272009) | Vaihe 1 | Päättynyt | 73 | Turvallisuus-/PK-/PD-tutkimus FXR-agoniisti EYP001a:sta kroonisen HBV:n kanssa; lääke/kohde epäselvä, ei liity HCV:hen. |
+| [NCT05416008](https://clinicaltrials.gov/study/NCT05416008) | Ei sovellettavissa | Tuntematon | 150 | Pitkäaikaisen nukleosidi(t)di-analoogi-käytön havainnoiva tutkimus ja hepatiivinen steatoosi kroonisessa HBV:ssä; ei liity HCV:hen. |
+| [NCT01020565](https://clinicaltrials.gov/study/NCT01020565) | Vaihe 2 | Päättynyt | 60 | Japanilainen vaihe 2 -turvallisuus-/antiviraalisen-aktiivisuuden tutkimus entecavirista kroonisen HBV:n kanssa; ei liity HCV:hen. |
+| [NCT01270178](https://clinicaltrials.gov/study/NCT01270178) | Ei sovellettavissa | Tuntematon | 420 | Havainnoiva entecavir-tutkimus HBV-liittyvillä HCC-potilailla radiofrekvenssiablaaation jälkeen; ei liity HCV:hen. |
 
-**Note:** All 10 trials above were internally graded "C" (low relevance) in the evidence pack — none provides direct evidence of anti-HCV efficacy for entecavir.
+**Huomautus:** Kaikki yllä olevat 10 tutkimusta arvioitiin sisäisesti arvosanaksi "C" (alhainen relevanssi) näyttöpaketissa — mikään ei tarjoa suoraa näyttöä entecavirin anti-HCV-tehokkuudesta.
 
 ---
 
-## Literature Evidence
+## Kirjallisuusnäyttö
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
 |------|-----|------|------|---------|
-| [36146665](https://pubmed.ncbi.nlm.nih.gov/36146665/) | 2022 | Cohort | Viruses | HCV RNA dynamics in anti-HCV-antibody-positive chronic HBV patients undergoing nucleos(t)ide analogue (including entecavir) therapy — describes HCV virologic behavior during HBV-directed treatment, not HCV treatment efficacy. |
-| [16937041](https://pubmed.ncbi.nlm.nih.gov/16937041/) | 2006 | Review | Wiener medizinische Wochenschrift | Overview of chronic hepatitis B and C treatment landscape; entecavir discussed only in the HBV context. |
-| [24773464](https://pubmed.ncbi.nlm.nih.gov/24773464/) | 2014 | Review | Expert Opinion on Pharmacotherapy | Reviews management of HBV/HCV coinfection; highlights therapeutic challenge but does not attribute anti-HCV activity to entecavir. |
-| [32527114](https://pubmed.ncbi.nlm.nih.gov/32527114/) | 2021 | Review | Chinese Clinical Oncology | Discusses optimal timing of HBV/HCV antiviral therapy in hepatocellular carcinoma; general background, not entecavir-specific HCV data. |
-| [25027705](https://pubmed.ncbi.nlm.nih.gov/25027705/) | 2014 | Review | Minerva Gastroenterologica e Dietologica | Reviews HBV and HCV antiviral medications and renal effects; entecavir listed among HBV nucleoside analogues only. |
-| [28487602](https://pubmed.ncbi.nlm.nih.gov/28487602/) | 2017 | Review | World Journal of Gastroenterology | Background review on HBV/HCV/alcohol-related hepatocellular carcinoma; no direct entecavir-HCV data. |
-| [32173307](https://pubmed.ncbi.nlm.nih.gov/32173307/) | 2020 | Review | Clinics and Research in Hepatology and Gastroenterology | Pediatric HBV/HCV management overview; entecavir mentioned in HBV context only. |
-| [21497740](https://pubmed.ncbi.nlm.nih.gov/21497740/) | 2011 | Review | Best Practice & Research Clinical Gastroenterology | Fibrosis progression in chronic viral hepatitis; entecavir referenced for HBV fibrosis regression, not HCV. |
-| [38631661](https://pubmed.ncbi.nlm.nih.gov/38631661/) | 2024 | In vitro mechanistic | Antiviral Research | USP7's role in HBV replication and entecavir's antiviral efficacy — HBV-specific mechanistic study, not HCV. |
-| [22959099](https://pubmed.ncbi.nlm.nih.gov/22959099/) | 2013 | Case report | Clinics and Research in Hepatology and Gastroenterology | Case report of an HBV/HCV co-infected patient; illustrates treatment complexity but not entecavir efficacy against HCV. |
+| [36146665](https://pubmed.ncbi.nlm.nih.gov/36146665/) | 2022 | Kohorttitutkimus | Viruses | HCV RNA -dynamiikka HCV-antrapaa-positiivisissa kroonisen HBV:n potilaissa, jotka saavat nukleosidi(t)di-analoogi-hoitoa (mukaan lukien entecavir) — kuvaa HCV:n virologista käyttäytymistä HBV-suunnatun hoidon aikana, ei HCV-hoidon tehokkuutta. |
+| [16937041](https://pubmed.ncbi.nlm.nih.gov/16937041/) | 2006 | Katsaus | Wiener medizinische Wochenschrift | Yleiskatsaus kroonisen hepatiitti B:n ja C:n hoitomaiseemaan; entecavir käsitellään vain HBV:n kontekstissa. |
+| [24773464](https://pubmed.ncbi.nlm.nih.gov/24773464/) | 2014 | Katsaus | Expert Opinion on Pharmacotherapy | Arvioi HBV/HCV-yhtäaikaisen infektion hallintaa; korostaa terapeuttista haasteita, mutta ei liitä anti-HCV-aktiivisuutta entecaviriin. |
+| [32527114](https://pubmed.ncbi.nlm.nih.gov/32527114/) | 2021 | Katsaus | Chinese Clinical Oncology | Käsittelee HBV/HCV-antiviraalisen hoidon optimaalista ajoitusta hepatosellulaarisyövässä; yleinen tausta, ei entecavir-spesifisiä HCV-tietoja. |
+| [25027705](https://pubmed.ncbi.nlm.nih.gov/25027705/) | 2014 | Katsaus | Minerva Gastroenterologica e Dietologica | Arvioi HBV:n ja HCV:n antiviraalisia lääkkeitä ja munuaisten vaikutuksia; entecavir lueteltu vain HBV-nukleosidianalogujen joukossa. |
+| [28487602](https://pubmed.ncbi.nlm.nih.gov/28487602/) | 2017 | Katsaus | World Journal of Gastroenterology | Taustan katsaus HBV/HCV/alkoholi-liittyvään hepatosellulaarisyöpään; ei suoraa entecavir-HCV-tietoja. |
+| [32173307](https://pubmed.ncbi.nlm.nih.gov/32173307/) | 2020 | Katsaus | Clinics and Research in Hepatology and Gastroenterology | Pediatrisen HBV/HCV-hallinnan yleiskatsaus; entecavir mainitaan vain HBV-kontekstissa. |
+| [21497740](https://pubmed.ncbi.nlm.nih.gov/21497740/) | 2011 | Katsaus | Best Practice & Research Clinical Gastroenterology | Fibroosin eteneminen kroonisissa viraaalisissa hepatiitiissa; entecavir viitattu HBV-fibroosin regression yhteydessä, ei HCV:n. |
+| [38631661](https://pubmed.ncbi.nlm.nih.gov/38631661/) | 2024 | In vitro mekanistinen | Antiviral Research | USP7:n rooli HBV:n replikaatiossa ja entecavirin antiviraalisen tehokkuuden — HBV-spesifinen mekanistinen tutkimus, ei HCV. |
+| [22959099](https://pubmed.ncbi.nlm.nih.gov/22959099/) | 2013 | Tapausraportti | Clinics and Research in Hepatology and Gastroenterology | Tapausraportti HBV/HCV-yhtäaikaisesti infektoidusta potilaasta; havainnollistaa hoidon monimutkaisuutta, mutta ei entecavirin tehokkuutta HCV:ta vastaan. |
 
-**Note:** No RCT or systematic review in this pack reports entecavir efficacy against HCV; all identified literature relates to HBV treatment or HBV/HCV co-infection management context.
-
----
-
-## Finland Market Information
-
-Entecavir is currently **not marketed in Finland** (0 authorizations on record in this evidence pack). No product license, brand name, or dosage-form data is available for extraction.
+**Huomautus:** Ei satunnaistettua kontrolloitua koketta tai systemaattisen katsauksen tässä paketissa, joka raportoisi entecavirin tehokkuudesta HCV:ta vastaan; kaikki tunnistettu kirjallisuus liittyy HBV:n hoitoon tai HBV/HCV-yhtäaikaisen infektion hallintakontekstiin.
 
 ---
 
-## Safety Considerations
+## Suomen markkinatiedot
 
-Please refer to the package insert for safety information. *(This evidence pack's warnings, contraindications, and drug-interaction fields are marked as data gaps — DG001, Blocking severity — meaning no formal safety assessment for this indication is currently possible from the available data.)*
+Entecavir ei ole tällä hetkellä **markkinoitu Suomessa** (0 lupaa rekisterissä tässä näyttöpaketissa). Tuotteen lupa, tuotenimi tai annosteluvun tietoja ei ole saatavilla.
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuutta koskevat näkökohdat
 
-**Decision: Hold**
+Viitataan pakkausselosteeseen turvallisuustietojen osalta. *(Tämän näyttöpakkauksen varoitukset, vasta-aiheet ja lääkkeiden vuorovaikutuskentät on merkitty tietoväleiksi — DG001, Blocking-vakavuus — mikä tarkoittaa, että virallista turvallisuusarviota tälle indikaatiolle ei ole tällä hetkellä mahdollista tehdä saatavilla olevista tiedoista.)*
 
-**Rationale:**
-The top-ranked TxGNN prediction (chronic hepatitis C virus infection) lacks direct mechanistic plausibility — entecavir targets the HBV reverse transcriptase, which has no known activity against the HCV NS5B RNA polymerase — and none of the 40 associated trials or 20 publications demonstrate an anti-HCV efficacy endpoint attributable to entecavir. This pattern is consistent with a knowledge-graph artifact driven by HBV/HCV co-infection literature rather than a genuine repurposing signal.
+---
 
-**To proceed, the following is needed:**
-- Formal TFDA/Fimea package-insert data (warnings, contraindications, drug interactions) — currently a Blocking data gap (DG001)
-- Confirmed mechanism-of-action documentation from DrugBank (DG002)
-- In vitro confirmation (or refutation) of any entecavir activity against HCV NS5B polymerase, if this indication is to be pursued further
-- Note: if repurposing analysis is desired for entecavir, the rank-2 signal in this pack (hepatitis B virus infection, Evidence Level L1, "Proceed with Guardrails") should instead be treated as documentation of its **existing, approved use** — with guardrails around lamivudine-resistant patients, renal-impairment dose adjustment, and lactic acidosis monitoring — rather than as a novel repurposing candidate.
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Odota**
+
+**Perustelut:**
+Korkeimman sijoituksen TxGNN-ennuste (krooninen hepatiitti C -viruksen infektio) puuttuu suora mekanistinen järkevyys — entecavir kohdennetaan HBV:n käänteistranskriptaasiin, jolla ei ole tunnettu aktiivisuutta HCV:n NS5B RNA-polymeraasia vastaan — ja mikään 40:stä liittyvästä tutkimuksesta tai 20:sta julkaisusta ei osoita HCV:n tehokkuuspäätepisteenä, joka aiheutuisi entecavirin itsensä vaikutuksesta. Tämä kuvio vastaa TxGNN-tietokantaartefaktia, jota ohjaa HBV/HCV-yhtäaikaisen infektion kirjallisuus pikemminkin kuin aito uudelleenkäyttösignaali.
+
+**Jatkamisen edellytyksenä tarvitaan:**
+- Muodollisia TFDA/Fimea-pakkausselosteen tietoja (varoitukset, vasta-aiheet, lääkkeiden vuorovaikutukset) — tällä hetkellä Blocking-tasolla oleva tietoväli (DG001)
+- Vahvistettu vaikutusmekanismin dokumentointi DrugBankista (DG002)
+- In vitro -vahvistus (tai kumoaminen) entecavirin mahdollisesta aktiivisuudesta HCV:n NS5B-polymeraasia vastaan, jos tätä indikaatiota aiotaan jatkaa edelleen
+- Huomautus: jos uudelleenkäyttöanalyysi halutaan entecavirille, tämän pakkauksen rank-2-signaali (hepatiitti B -viruksen infektio, Näyttötaso L1, "Jatka varauksilla") tulee sen sijaan käsitellä **olemassa olevan, hyväksytyn käytön** dokumentointina — varauksilla liittyen lamivudiini-resistenteihin potilaisiin, munuaisten vajaatoiminnan annoksen säätöön ja maitohappoasidoosin seurantaan — pikemminkin kuin uutena uudelleenkäyttöehdokkaana.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

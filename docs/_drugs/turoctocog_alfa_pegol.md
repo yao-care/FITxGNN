@@ -29,58 +29,59 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Turoctocog Alfa Pegol: From Hemophilia A (Congenital Factor VIII Deficiency) to Primary Release Disorder of Platelets
+# Turoctocog alfa pegol: Hemofiliasta A (synnynnäinen tekijä VIII puutos) primääriseen verihiutaleiden vapautumishäiriöön
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Turoctocog alfa pegol (DB14738) is a PEGylated recombinant Factor VIII (rFVIII) product; its established clinical role is factor replacement in congenital FVIII deficiency (Hemophilia A). The TxGNN model's top-ranked prediction is **Primary Release Disorder of Platelets**, but no clinical trials or literature currently support this direction, and the model's own mechanistic annotation flags the biological link as weak.
+Turoctocog alfa pegol (DB14738) on PEGyloidattu rekombinantti tekijä VIII (rFVIII) valmiste; sen vakiintunut kliininen käyttötarkoitus on tekijä VIII korvaaminen synnynnäisessä tekijä VIII puutoksessa (hemofilia A). TxGNN-mallin korkeimmin sijoitettu ennuste on **primäärinen verihiutaleiden vapautumishäiriö**, mutta tällä hetkellä mikään kliininen tutkimus tai kirjallisuus ei tue tätä suuntaa, ja mallin oma mekanistinen annotointi osoittaa biologisen yhteyden olevan heikko.
 
-## Quick Overview
+## Pikakatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Congenital Factor VIII deficiency (Hemophilia A) — inferred from evidence pack rationale text; not directly recorded in `original_indications` |
-| Predicted New Indication | Primary release disorder of platelets |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L5 (model prediction only) |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|-------|---------|
+| Alkuperäinen käyttötarkoitus | Synnynnäinen tekijä VIII puutos (hemofilia A) — peräisin evidenssiasiakirjan perustelutekstistä; ei suoraan merkitty `original_indications`-kenttään |
+| Ennustettu uusi käyttötarkoitus | Primäärinen verihiutaleiden vapautumishäiriö |
+| TxGNN-ennusteen pistemäärä | 99.97% |
+| Todistusaineiston tasolla | L5 (pelkkä mallin ennuste) |
+| Suomen markkinatilanne | ✗ Ei markkinoitu |
+| Hyväksyntöjen määrä | 0 |
+| Suositeltu päätös | Pidättäytyminen |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on perusteltu?
 
-Currently, detailed mechanism of action data for turoctocog alfa pegol is not available (Data Gap). Based on known information, this drug is a PEGylated recombinant Factor VIII replacement therapy, and its efficacy in congenital FVIII deficiency (Hemophilia A) is well established through the FVIII replacement mechanism.
+Turoctocog alfa pegol -lääkkeen yksityiskohtainen vaikutusmekanismin tieto ei ole tällä hetkellä käytettävissä (tietokuilun puute). Saatavilla olevan tiedon perusteella tämä lääke on PEGyloidattu rekombinantti tekijä VIII korvaushoito, ja sen teho synnynnäisessä tekijä VIII puutoksessa (hemofilia A) on hyvin vakiintunut tekijä VIII korvausmekanismin kautta.
 
-However, for the top-ranked predicted indication, primary release disorder of platelets, the evidence pack's own mechanistic annotation is explicitly cautionary: this condition reflects a defect in platelet granule release — an intrinsic platelet functional disorder — which has **no direct mechanistic relationship** to coagulation factor replacement. The TxGNN score is very high (99.97%, rank 64), but a high similarity score in the knowledge graph does not by itself establish biological plausibility.
+Kuitenkin korkeimmin sijoitetulla ennustetulla käyttötarkoituksella, primaarisella verihiutaleiden vapautumishäiriöllä, evidenssiasiakirjan oma mekanistinen annotointi on selvästi varoittava: tämä häiriö kuvastaa verihiutaleiden granulaarisen vapautumisen vikaa — synnynnäisen verihiutaleiden toimintahäiriön — joilla **ei ole suoraa mekanistista yhteyttä** koagulaatiotekijän korvaamiseen. TxGNN-pistemäärä on erittäin korkea (99.97%, sijoitus 64), mutta korkea samankaltaisuuspistemäärä tietokaaviossa ei itsessään vahvista biologista uskottavuutta.
 
-Notably, among the other predictions in this evidence pack, rank 4 — "acquired coagulation factor deficiency" — has a mechanistically coherent rationale, since it sits on the same replacement-therapy logic as the approved indication. That candidate carries a "Research Question" recommendation rather than "Hold," and may warrant separate follow-up (see Conclusion).
+On huomattavaa, että muista tässä evidenssiasiakirjassa olevista ennusteista sijoitus 4 — "hankittu koagulaatiotekijän puutos" — on mekanistisesti johdonmukainen, koska se perustuu samaan korvaushoitologiikkaan kuin hyväksytty käyttötarkoitus. Tämä kandidaatti sisältää "Tutkimuskysymys"-suosituksen "Pidättäytymisen" sijasta, ja se saattaa vaatia erillistä seurantaa (katso Johtopäätös).
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen todisteet
 
-Currently no related clinical trials registered
+Tällä hetkellä ei ole rekisteröityjä vastaavia kliinisiä tutkimuksia
 
-## Literature Evidence
+## Kirjallisuuden todisteet
 
-Currently no related literature available
+Tällä hetkellä saatavilla ei ole vastaavaa kirjallisuutta
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information.
+Turvallisustiedot löytyvät pakkausselosteesta.
 
-(Key warnings, contraindications, and drug-interaction data are all marked as Data Gap or "not found" in the current evidence pack.)
+(Merkittävät varoitukset, vasta-aiheet ja lääke-interaktioiden tieto on kaikki merkitty tietokuilun puutteeksi tai "ei löytynyt" nykyisessä evidenssiasiakirjassa.)
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat askeleet
 
-**Decision: Hold**
+**Päätös: Pidättäytyminen**
 
-**Rationale:**
-The predicted indication (primary release disorder of platelets) has no clinical trial or literature support, and the model's own mechanistic rationale indicates weak biological plausibility for a coagulation-factor replacement product. Evidence level is L5 (model prediction only), which does not meet the threshold to advance.
+**Perustelut:**
+Ennustetulla käyttötarkoituksella (primäärinen verihiutaleiden vapautumishäiriö) ei ole kliinisen tutkimuksen eikä kirjallisuuden tukea, ja mallin oma mekanistinen perustelut osoittavat heikkoa biologista uskottavuutta koagulaatiotekijän korvaustuotteelle. Todistusaineiston tasolla on L5 (pelkkä mallin ennuste), mikä ei täytä edellytyksiä edetä.
 
-**To proceed, the following is needed:**
-- TFDA package insert data (warnings, contraindications) — currently a Blocking data gap preventing S1 safety review
-- Confirmed mechanism of action (MOA) via DrugBank API — currently a High-severity gap
-- Independent mechanistic/preclinical evaluation of platelet granule-release physiology relative to FVIII pharmacology, before any further investment
-- Consider evaluating rank 4 ("acquired coagulation factor deficiency") as a mechanistically stronger alternative candidate for a dedicated research-question track, given its direct overlap with the approved replacement-therapy logic
+**Jatkaakseen tarvitaan seuraava:**
+- TFDA-pakkausseloste (varoitukset, vasta-aiheet) — tällä hetkellä estävä tietokuilun puute, joka estää S1-turvallisuuskatselmuksen
+- Vahvistettu vaikutusmekanismi (MOA) DrugBank API:n kautta — tällä hetkellä korkean vakavuuden puute
+- Riippumaton mekanistinen/prekliininen arvio verihiutaleiden granulaarisen vapautumisen fysiologiasta suhteessa FVIII-farmakologiaan, ennen kuin investoidaan lisää
+- Harkitse sijoituksen 4 ("hankittu koagulaatiotekijän puutos") arviointia mekanistisesti vahvempana vaihtoehtokandidaattina erilliselle tutkimuskysymys-seurannalle, koska sillä on suora päällekkäisyys hyväksytyn korvaushoitologiikan kanssa
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

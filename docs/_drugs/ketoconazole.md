@@ -29,74 +29,75 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Ketoconazole: From Fungal Infections to Acne
+# Ketokonatsoli: Sienitartunnoista akneen
 
-## One-Sentence Summary
+## Yksi lause yhteenveto
 
-Ketoconazole is an imidazole-class antifungal agent, originally developed and marketed for the treatment of fungal infections. The TxGNN model predicts it may be effective for **Acne (Acne Vulgaris)**, with **1 clinical trial** and **15 publications** currently identified, though most of this evidence remains mechanistic, in vitro, or drawn from tangential indications rather than confirmatory acne trials.
+Ketokonatsoli on imidatsoli-luokan sienitartuntaa vastustava aine, joka on alun perin kehitetty ja markkinoitu sienitartuntojen hoitoon. TxGNN-malli ennustaa, että se saattaisi olla tehokas **akneen (akne vulgaris)**, ja tällä hetkellä on tunnistettu **1 kliininen tutkimus** ja **15 julkaisua**, vaikka suurin osa tästä näytöstä on mekanistista, in vitro -näyttöä tai peräisin sivututkimuksista pikemminkin kuin vahvistavista aknetutkimuksista.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Fungal infections (imidazole antifungal agent; specific licensed indication text not available in current dataset) |
-| Predicted New Indication | Acne (Acne Vulgaris) |
-| TxGNN Prediction Score | 99.80% |
-| Evidence Level | L3 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohde | Sisältö |
+|------|--------|
+| Alkuperäinen indikaatio | Sienitartunnat (imidatsoli-luokan sienitartuntaa vastustava aine; spesifinen hyväksytty indikaatioteksti ei ole saatavilla nykyisessä aineistossa) |
+| Ennustettu uusi indikaatio | Akne (akne vulgaris) |
+| TxGNN-ennustepistemäärä | 99.80% |
+| Näytön taso | L3 |
+| Suomen markkinatilanne | ✗ Ei markkinoitu |
+| Hyväksyntöjen määrä | 0 |
+| Suositeltu päätös | Pidätä |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, detailed mechanism of action data is not available. Based on known information, ketoconazole is an imidazole antifungal agent that inhibits fungal cytochrome P450-dependent 14α-demethylase, disrupting ergosterol synthesis in fungal cell membranes; its efficacy in fungal infections is well established, and mechanistically it may be applicable to acne through a distinct, non-antifungal pathway.
+Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla. Tunnettujen tietojen perusteella ketokonatsoli on imidatsoli-luokan sienitartuntaa vastustava aine, joka estää sienien sytokkromi P450 -riippuvaisen 14α-demetylaasin ja häiritsee ergosterolin synteesiä sienen solun kalvossa; sen teho sienitartuntoja vastaan on hyvin vakiintunut, ja mekanistisesti se saattaisi soveltua akneen erillisen, ei-antifungaalisen vaikutusmekanismin kautta.
 
-Acne vulgaris pathophysiology involves *Cutibacterium acnes* (formerly *Propionibacterium acnes*), a bacterium whose secreted lipase breaks down sebum triglycerides into free fatty acids that trigger follicular inflammation. In vitro evidence (PMID 28111792) demonstrates that ketoconazole directly inhibits this *C. acnes* lipase activity and also suppresses bacterial growth, offering a mechanistic link to acne that is independent of its antifungal properties. This is reinforced by a related in vitro study (PMID 20045949) showing azole antifungals have activity against *P. acnes* isolates from acne patients.
+Akne vulgariksen patofysiologia liittyy *Cutibacterium acnes* -bakteeriin (entinen nimi *Propionibacterium acnes*), bakteeriin, jonka eritettävä lipaasi hajottaa sebumin triglyserideja vapaiksi rasvahapoiksi, jotka laukaisevat karvantukkiosta aiheutuvan tulehduksen. In vitro -näyttö (PMID 28111792) osoittaa, että ketokonatsoli estää suoraan tämän *C. acnes* -lipaasi aktiivisuuden ja myös estää bakteerien kasvua, mikä tarjoaa mekanistisen yhteyden akneen, joka on riippumaton sen sienitartuntaa vastustavan vaikutuksesta. Tätä vahvistaa siihen liittyvä in vitro -tutkimus (PMID 20045949), joka osoittaa azoli-sienitartuntaa vastustava aineet olevan aktiivisia *P. acnes* -isolaatteja vastaan akneesta kärsivillä potilailla.
 
-A secondary, weaker rationale comes from ketoconazole's anti-androgenic activity, which has been studied in the context of Cushing's syndrome (via levoketoconazole) and could theoretically reduce sebum production. However, this evidence is derived from a different patient population and indication, not from acne trials directly, so it should be considered supportive rather than confirmatory.
+Toissijaisemmaksi, heikommaksi perusteluksi tulee ketokonatsolin anti-androgeeninen aktiivisuus, jota on tutkittu Cushingin oireyhtymän yhteydessä (levoketokonatsolin kautta) ja joka voisi teoriassa vähentää sebumin tuotantoa. Kuitenkin tämä näyttö on peräisin eri potilasryhmästä ja indikaatiosta, ei suoraan aknetutkimuksista, joten sitä tulisi pitää tukevana pikemminkin kuin vahvistavana.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimuksen numero | Vaihe | Tila | Osallistujien lukumäärä | Keskeisiä tuloksia |
 |---------|------|------|------|---------|
-| [NCT07237763](https://clinicaltrials.gov/study/NCT07237763) | Phase NA | Active, not recruiting | 52 | Randomized comparison of topical ketoconazole 2% cream vs. topical adapalene 2% cream in mild comedonal and papulopustular acne, assessing whether ketoconazole is a viable alternative to retinoids with fewer side effects; results not yet published. |
+| [NCT07237763](https://clinicaltrials.gov/study/NCT07237763) | Phase NA | Aktiivinen, ei rekrytointia | 52 | Satunnaistettu vertailu paikallisen ketokonatsolin 2% voiteen ja paikallisen adapaleenin 2% voiteen välillä lievässä komedonaalisessa ja papulopustularisessa aknessa, arvioimassa onko ketokonatsoli elinkelpoisesti vaihtoehto retinoideille, joilla on vähemmän sivuvaikutuksia; tuloksia ei vielä julkaistu. |
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [28111792](https://pubmed.ncbi.nlm.nih.gov/28111792/) | 2017 | Mechanistic/In vitro | Microbiology and Immunology | Ketoconazole inhibits *P. acnes* lipase activity, a key enzyme in acne-related inflammation; proposed as a potential alternative acne treatment. |
-| [20045949](https://pubmed.ncbi.nlm.nih.gov/20045949/) | 2010 | In vitro study | Biological & Pharmaceutical Bulletin | Azole antifungals, including ketoconazole, show in vitro activity against *P. acnes* isolated from acne vulgaris patients. |
-| [12566804](https://pubmed.ncbi.nlm.nih.gov/12566804/) | 2003 | Review | Dermatology (Basel) | Overview of systemic acne treatments; contextualizes antimicrobial approaches for papulopustular acne amid rising antibiotic resistance. |
-| [8593718](https://pubmed.ncbi.nlm.nih.gov/8593718/) | 1995 | Clinical/diagnostic study | Clinical and Experimental Dermatology | Pityrosporum (Malassezia) folliculitis is frequently misdiagnosed as acne vulgaris, highlighting a differential diagnosis relevant to antifungal therapy. |
-| [8629828](https://pubmed.ncbi.nlm.nih.gov/8629828/) | 1996 | Case report | Archives of Dermatology | Neonatal Malassezia furfur pustulosis associated with papulopustular facial eruptions resembling neonatal acne. |
-| [8255067](https://pubmed.ncbi.nlm.nih.gov/8255067/) | 1993 | Review | The Keio Journal of Medicine | Reviews Pityrosporum ovale-associated skin diseases, including folliculitis often confused with acne. |
-| [23600337](https://pubmed.ncbi.nlm.nih.gov/23600337/) | 2013 | Review | FP Essentials | Reviews common infant skin rashes including neonatal and infantile acne. |
-| [39622522](https://pubmed.ncbi.nlm.nih.gov/39622522/) | 2024 | Formulary survey | Southern Medical Journal | Analyzes dermatologic diagnosis and medication distribution patterns, including acne management, at a free clinic. |
-| [32872149](https://pubmed.ncbi.nlm.nih.gov/32872149/) | 2020 | Review | Pharmaceuticals (Basel) | Reviews adapalene, the comparator drug in NCT07237763, and its established role as first-line acne therapy. |
-| [19445767](https://pubmed.ncbi.nlm.nih.gov/19445767/) | 2009 | Review | BMJ Clinical Evidence | Reviews PCOS, noting acne as an associated hyperandrogenic symptom; not directly about ketoconazole treatment. |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeisiä tuloksia |
+|------|------|------|------|---------|
+| [28111792](https://pubmed.ncbi.nlm.nih.gov/28111792/) | 2017 | Mekanistinen/In vitro | Microbiology and Immunology | Ketokonatsoli estää *P. acnes* -lipaasi aktiivisuutta, akneeseen liittyvän tulehduksen keskeistä entsyymiä; ehdotettu potentiaaliseksi hoitovaihtoehdoksi akneen. |
+| [20045949](https://pubmed.ncbi.nlm.nih.gov/20045949/) | 2010 | In vitro -tutkimus | Biological & Pharmaceutical Bulletin | Azoli-sienitartuntaa vastustava aineet, kuten ketokonatsoli, osoittavat in vitro -aktiivisuutta akneesta eristettyä *P. acnes* -bakteeria vastaan. |
+| [12566804](https://pubmed.ncbi.nlm.nih.gov/12566804/) | 2003 | Katsaus | Dermatology (Basel) | Yleiskatsaus järjestelmällisiin aknehoitoihin; asettaa antimikrobiset lähestymistavat kontekstiin papulopustularisen aknen hoidon yhteydessä nousevan antibioottiresistenssin valossa. |
+| [8593718](https://pubmed.ncbi.nlm.nih.gov/8593718/) | 1995 | Kliininen/diagnostinen tutkimus | Clinical and Experimental Dermatology | Pityrosporum (Malassezia) -follikuliitti sekoitetaan usein akne vulgariin, mikä korostaa differentiaalidiagnoosin merkitystä sienitartuntaa vastustavan hoidon kannalta. |
+| [8629828](https://pubmed.ncbi.nlm.nih.gov/8629828/) | 1996 | Tapauskertomus | Archives of Dermatology | Vastasyntyneen Malassezia furfur -pusteloosi, joka liittyy papulopustulariseen kasvojen ihottumaan, joka muistuttaa vastasyntyneen aknea. |
+| [8255067](https://pubmed.ncbi.nlm.nih.gov/8255067/) | 1993 | Katsaus | The Keio Journal of Medicine | Käsittelee Pityrosporum ovale -liittyviä ihosairauksia, mukaan lukien follikuliitti, joka sekoitetaan usein akneen. |
+| [23600337](https://pubmed.ncbi.nlm.nih.gov/23600337/) | 2013 | Katsaus | FP Essentials | Käsittelee yleisiä vastasyntyneiden ja vauvojen ihottumia, mukaan lukien vastasyntyneen ja vauvan aknea. |
+| [39622522](https://pubmed.ncbi.nlm.nih.gov/39622522/) | 2024 | Tutkimus | Southern Medical Journal | Analysoi dermatologisten diagnoosien ja lääkehoitojen jakelumalleja, mukaan lukien aknen hallintaa, vapaassa kliinikassa. |
+| [32872149](https://pubmed.ncbi.nlm.nih.gov/32872149/) | 2020 | Katsaus | Pharmaceuticals (Basel) | Käsittelee adapaleenia, NCT07237763:n vertailuainetta, ja sen vakiintunutta roolia ensimmäisen linjan aknehoitona. |
+| [19445767](https://pubmed.ncbi.nlm.nih.gov/19445767/) | 2009 | Katsaus | BMJ Clinical Evidence | Käsittelee PCOS:ia ja huomioiden aknen liittyvänä hyperandrogeenisena oireena; ei käsittele suoraan ketokonatsolin käyttöä akneen. |
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Ketoconazole is currently not marketed in Finland — no marketing authorization records are available in this dataset (0 authorizations).
+Ketokonatsolia ei ole tällä hetkellä markkinoitu Suomessa — tämä aineisto ei sisällä myyntilupien kirjauksia (0 myyntilupaa).
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information.
+Tutustu pakkausselosteeseen turvallisuustietoja varten.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidätä**
 
-**Rationale:**
-Evidence for ketoconazole in acne currently rests on in vitro/mechanistic studies and a single small, non-phased, still-ongoing trial (L3) — there is no completed RCT directly evaluating ketoconazole for acne. Critical safety data (warnings, contraindications, drug interactions) are entirely unavailable, which blocks even a preliminary safety assessment.
+**Perustelut:**
+Ketokonatsolin näyttö akneen liittyen perustuu tällä hetkellä in vitro/mekanistisiin tutkimuksiin ja yhteen pieneen, vaiheistamattomaan, vielä käynnissä olevaan tutkimukseen (L3) — akneen ketokonatsolia suoraan arvioinutta valmistunutta satunnaistettuaa vertailututkimusta ei ole. Kriittisiä turvallisuustietoja (varoitukset, vastaindikaatiot, lääkkeiden väliset yhteisvaikutukset) ei ole lainkaan saatavilla, mikä estää jopa alustavan turvallisuusarvioinnin.
 
-**To proceed, the following is needed:**
-- Package insert warnings/contraindications and DDI data (currently a blocking data gap)
-- Confirmed mechanism-of-action documentation from DrugBank
-- Completed results from NCT07237763 (expected completion 2025-12)
-- Additional RCT-level evidence directly evaluating ketoconazole (not levoketoconazole or Cushing's-population data) in acne vulgaris
-- Formal DDI review, given known CYP3A4 interaction potential of imidazole antifungals
+**Edistämisen edellytyksenä tarvitaan:**
+- Pakkausselosteen varoitukset/vastaindikaatiot ja lääkkeiden väliset yhteisvaikutustiedot (tällä hetkellä estävä tietoaukko)
+- Vahvistettu vaikutusmekanismin dokumentaatio DrugBankista
+- Tutkimuksen NCT07237763 valmistuneet tulokset (odotettu valmistuminen 2025-12)
+- Satunnaistetun vertailututkimuksen tasolla oleva lisänäyttö, joka arvioi suoraan ketokonatsolia (ei levoketokonatsolia tai Cushingin potilasryhmän tietoja) akne vulgariksen hoidossa
+- Muodollinen lääkkeiden välistä yhteisvaikutusta koskeva arvio, koska imidatsoli-luokan antimykoottisilla aineilla on tunnetusti CYP3A4-yhteisvaikutuspotentiaalia
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

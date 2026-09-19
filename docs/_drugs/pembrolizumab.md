@@ -29,88 +29,89 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Pembrolizumab: From Anti-PD-1 Cancer Immunotherapy to Gingival Fibromatosis
+# Pembrolizumab: Anti-PD-1-syöpäimmunotherapiasta gingivaaliseen fibromattosiin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Pembrolizumab is a PD-1 immune checkpoint inhibitor whose established use — per the literature captured across this evidence pack — is in advanced malignancies such as non-small cell lung cancer, melanoma, and other solid tumors. TxGNN's top-ranked prediction for this drug is **Gingival Fibromatosis**, a benign fibroproliferative condition, but this signal is currently supported by **0 clinical trials** and **0 publications**, with the model's own mechanistic annotation noting no known biological pathway connecting PD-1 blockade to this disease.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented via Finland regulatory data (no marketing authorization on file); literature evidence in this pack characterizes pembrolizumab as an anti-PD-1 antibody used in advanced NSCLC, melanoma, and other solid tumors |
-| Predicted New Indication | Gingival Fibromatosis |
-| TxGNN Prediction Score | 99.40% (rank 6326 of all candidates) |
-| Evidence Level | L5 |
-| Finland Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Pembrolizumab on PD-1-immuunikontrollipiste-estoaine, jonka vakiintunut käyttötarkoitus — tämän todistepaketin kirjallisuuden mukaan — on edistyneet pahanlaatuiset kasvaimet, kuten ei-pienisoluinen keuhkosyöpä, melanoma ja muut kiinteät kasvaimet. TxGNN:n tälle lääkeaineelle korkeimmalle sijoittunut ennuste on **gingivaaliset fibromattosi**, hyvänlaatuinen fibroproliferatiivinen sairaus, mutta tätä signaalia tuetaan tällä hetkellä **0 kliinisellä tutkimuksella** ja **0 julkaisulla**, ja mallin oma mekanistinen merkintä huomauttaa, ettei ole tunnettua biologista reittiä, joka yhdistäisi PD-1-estämisen tähän sairauteen.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-A structured mechanism-of-action record for pembrolizumab is currently a data gap in this evidence pack (flagged as a High-severity gap, DG002). Based on the literature evidence gathered elsewhere in this pack, pembrolizumab is a humanized monoclonal IgG4 antibody that blocks the PD-1/PD-L1 checkpoint, restoring T-cell–mediated anti-tumor immune activity — a mechanism validated across numerous Phase 3 trials in NSCLC (KEYNOTE-024, KEYNOTE-010) and other cancers.
-
-Gingival fibromatosis, however, is a benign disorder driven by fibroblast proliferation and excess collagen deposition in gingival tissue — it is not a malignancy and has no described dependence on tumor immune evasion or PD-1/PD-L1 signaling. The evidence pack's own mechanistic annotation for this candidate states there is no known pathway overlap between checkpoint blockade and this condition, and the TxGNN score is not corroborated by any registered trial or publication.
-
-Taken together, this ranks as a **model-generated signal without biological or empirical support**, most plausibly reflecting network-level prediction noise rather than a genuine repurposing opportunity.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Kohde | Sisältö |
+|-------|---------|
+| Alkuperäinen käyttötarkoitus | Ei dokumentoitu Suomen sääntelyaineiston perusteella (markkinointilupaa ei ole tiedostoissa); tässä pakettiin sisältyvä kirjallisuusaineisto kuvaa pembrolizumabia anti-PD-1-vasta-aineena, jota käytetään edistyneissä NSCLC:issa, melanoomassa ja muissa kiinteissä kasvaimissa |
+| Ennustettu uusi käyttötarkoitus | Gingivaaliset fibromattosi |
+| TxGNN-ennusteen pistemäärä | 99.40% (sijoitus 6326 kaikista ehdokkaista) |
+| Todisteiden taso | L5 |
+| Suomen markkinatilanne | Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Pidätä |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennuste on järkevä?
 
-Currently no related literature available.
+Pembrolizumaabin vaikutusmekanismin tietue on tällä hetkellä tietoaukko tässä todistepakettissa (merkitty korkean vakavuuden aukoksi, DG002). Tässä pakettiin sisältyvän kirjallisuustodisteen perusteella pembrolizumab on humanisoidussa monoklonaalinen IgG4-vasta-aine, joka estää PD-1/PD-L1-kontrollipistettä ja palauttaa T-solujen välittämän anti-syöpäimmuunivasteen — mekanismi, joka on varmennettu lukuisissa vaiheen 3 tutkimuksissa NSCLC:issa (KEYNOTE-024, KEYNOTE-010) ja muissa syöpätyypeissä.
 
----
+Gingivaaliset fibromattosi on kuitenkin hyvänlaatuinen häiriö, jota ajaa fibroblastien lisääntyminen ja liika kollageenin kertyminen gingivaalisessa kudoksessa — se ei ole pahanlaatuinen kasvain, eikä sillä ole kuvattu riippuvuutta tuumorin immuunivältymisestä tai PD-1/PD-L1-signaloinnista. Todistepaketin oma mekanistinen merkintä tälle ehdokkaalle toteaa, että ei ole tunnettua biologista reittiä PD-1-estämisen ja tämän kunnon välillä, ja TxGNN-pistemäärää ei ole tuettu mihinkään rekisteröityyn tutkimukseen tai julkaisuun.
 
-## Finland Market Information
-
-Pembrolizumab is **not marketed in Finland** — the evidence pack lists 0 authorizations, so no product/authorization table can be generated.
+Yhteensä tämä kuvaa **mallin tuottamaa signaalia ilman biologista tai empiiristä tukea**, joka todennäköisesti kuvastaa verkon tason ennustusmelung pikemmin kuin todellista uudelleenkäyttömahdollisuutta.
 
 ---
 
-## Cytotoxicity
+## Kliinisen tutkimuksen todisteet
 
-Pembrolizumab is an antineoplastic agent (immune checkpoint inhibitor), based on the extensive oncology literature attached to other candidates in this evidence pack (e.g., KEYNOTE-024, KEYNOTE-010 in NSCLC).
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Immunotherapy (anti-PD-1 checkpoint inhibitor) — not a conventional cytotoxic agent |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | As a monoclonal antibody biologic, standard cytotoxic drug handling protocols (spill/PPE for small-molecule chemotherapy) do not directly apply; follow institutional biologic-handling and infusion-monitoring procedures per package insert |
+Tällä hetkellä ei ole rekisteröityjä siihen liittyviä kliinisiä tutkimuksia.
 
 ---
 
-## Safety Considerations
+## Kirjallisuustodisteet
 
-Please refer to the package insert for safety information.
+Tällä hetkellä kirjallisuusaineistoa ei ole saatavilla.
 
 ---
 
-## Conclusion and Next Steps
+## Suomen markkinatiedot
 
-**Decision: Hold**
+Pembrolizumab **ei ole markkinoilla Suomessa** — todistepaketti listaa 0 hyväksyntää, joten tuote-/hyväksyntätaulukkoa ei voi luoda.
 
-**Rationale:**
-The top-ranked TxGNN prediction (Gingival Fibromatosis) has no supporting clinical trials or literature (L5 — model prediction only), and the pack's own rationale identifies no plausible mechanistic link between PD-1 blockade and this benign condition. Combined with the unresolved Blocking-severity safety data gap (DG001: TFDA label/warnings) and High-severity MOA gap (DG002), this candidate cannot proceed past initial screening.
+---
 
-**To proceed, the following is needed:**
-- Resolve DG001 (TFDA/Finland package insert warnings and contraindications) before any safety pre-assessment
-- Resolve DG002 (formal DrugBank MOA record) to support mechanistic review
-- If repurposing pembrolizumab remains of interest, redirect evaluation toward the two candidates in this batch with actual signal — **lung hilum carcinoma** (rank 4, L4, decision stage S1, "Research Question," though one supporting case report shows a hyperprogression signal requiring caution) and **lung germ cell tumor** (rank 8, L3, S1, "Research Question," 50 trials/20 publications, though none disease-specific) — rather than this rank-1 candidate
-- Independent review of the TxGNN batch output is advisable, since several of the top-10 ranked candidates in this evidence pack were flagged by the model's own annotations as mechanistically implausible or as label/evidence mismatches
+## Sytotoksisuus
+
+Pembrolizumab on anti-kasvainlääke (immuunikontrollipiste-estoaine), perustuen laajaan onkologian kirjallisuuteen, joka on liitetty muihin ehdokkaisiin tässä todistepakettissa (esim. KEYNOTE-024, KEYNOTE-010 NSCLC:issa).
+
+| Kohde | Sisältö |
+|-------|---------|
+| Sytotoksisuuden luokittelu | Immunoterapia (anti-PD-1-kontrollipiste-estoaine) — ei perinteinen sytotoksinen aine |
+| Luuydinpuutosriskin | Katso pakkausliitteen varoitukset ja varotoimenpiteet |
+| Pahoinvointiriskin luokittelu | Katso pakkausliitteen varoitukset ja varotoimenpiteet |
+| Valvontakohdat | Katso pakkausliitteen varoitukset ja varotoimenpiteet |
+| Käsittelysuojaus | Monoklonaalisen vasta-aineen biologisena tuotteena tavallista sytotoksisen lääkkeen käsittelymenettelyä (kemikaalivuoto/henkilösuojaus pienille molekyyleille) ei sovelleta suoraan; noudata laitoksesi biologisen käsittelyn ja infuusionvalvonnan menettelyjä pakkausliitteen mukaisesti |
+
+---
+
+## Turvallisuusnäkökohdat
+
+Katso turvallisuustiedot pakkausliitteestä.
+
+---
+
+## Johtopäätökset ja seuraavat vaiheet
+
+**Päätös: Pidätä**
+
+**Perustelut:**
+TxGNN:n tälle lääkeaineelle korkeimmalle sijoittunut ennuste (Gingivaaliset fibromattosi) ei ole tuettu kliinisillä tutkimuksilla tai kirjallisuudella (L5 — pelkkä malliennuste), ja paketin omat merkinnät eivät tunnista yhtään plausiblia mekanistista yhteyttä PD-1-estämisen ja tämän hyvänlaatuisen sairauden välillä. Yhdessä ratkaisemattoman esto-tason turvallisuusaineisto-aukon kanssa (DG001: TFDA-merkinnät/varoitukset) ja korkean vakavuuden vaikutusmekanismi-aukon kanssa (DG002), tämä ehdokas ei voi edetä alkuvaiheen seulonnan yli.
+
+**Jotta edetään, tarvitaan seuraavaa:**
+- Ratkaise DG001 (TFDA/Suomen pakkausliite varoitukset ja vasta-aiheet) ennen turvallisuuden ennakkohyväksyntää
+- Ratkaise DG002 (virallinen DrugBank vaikutusmekanismi-tietue) mekanistisen tarkistuksen tueksi
+- Jos pembrolizumaabin uudelleenkäyttö pysyy kiinnostavana, ohjaa arviointi kahdelle ehdokkaalle, joilla on todellinen signaali tässä sarjassa — **keuhkojen hiluskarsinooma** (sijoitus 4, L4, päätösvaihe S1, "Tutkimuskysymys", vaikka yksi tukeva tapausraportti näyttää hyperprogression signaaliin, joka vaatii varovaisuutta) ja **keuhkojen germinaalisolukasvain** (sijoitus 8, L3, S1, "Tutkimuskysymys", 50 tutkimusta/20 julkaisua, vaikka mikään ei ole sairauden spesifistä) — pikemmin kuin tämä korkeimmalle sijoitettu ehdokas
+- Itsenäinen tarkistus TxGNN-sarjan tuloksista on suositeltavaa, koska useat tämän todistepaketin kymmenen parhaimman sijoituksen ehdokkaista merkittiin mallin omien merkintöjen perusteella mekanistisesti epäuskottaviksi tai nimike-/todiste-epätasapainoiksi
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

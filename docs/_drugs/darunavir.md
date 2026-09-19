@@ -29,79 +29,80 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-# Darunavir: From HIV-1 Infection to Simian Immunodeficiency Virus Infection
+# Darunavir: HIV-1-infektiosta simiaanin immuunivajaatuntaudin infektioon
 
-## One-Sentence Summary
+## Yhteenveto yhdessä lauseessa
 
-Darunavir is a HIV-1 protease inhibitor, best known as part of antiretroviral combination therapy for human HIV-1 infection.
-The TxGNN model's top prediction is **Simian Immunodeficiency Virus (SIV) Infection** — a lentiviral disease of non-human primates, not a human condition — supported only by **4 preclinical/animal-study publications**, none of which specifically test darunavir. No clinical trials, no Fimea market presence, and no safety documentation are currently available, so this candidate is not actionable without substantial additional data.
+Darunavir on HIV-1-proteinaasi-inhibiittori, joka tunnetaan parhaiten osana antiretroviraalisen yhdistelmähoidon käyttöä ihmisten HIV-1-infektioissa.
+TxGNN-mallin paras ennustus on **Simiaanin immuunivajaatuntaudin (SIV) -infektio** — ei-ihmisprimaattien lentiviraalihoitainen tauti, ei ihmisille tarkoitettu sairaus — tuettu ainoastaan **4 prekliinisellä/eläintutkimuksella**, joista yksikään ei erityisesti testaa darunaviriä. Tällä hetkellä ei ole saatavilla kliinisiä tutkimuksia, Fimean markkinaläsnäoloa tai turvallisuusasiakirjoja, joten tämä kandidaatti ei ole toimikelpoinen ilman merkittävää lisätietoa.
 
-## Quick Overview
+## Pikayleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | HIV-1 infection (inferred from mechanistic rationale within this evidence pack; official indication text and MOA are marked as data gaps — see Rationale below) |
-| Predicted New Indication | Simian immunodeficiency virus infection |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L4 (preclinical/animal studies only) |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohde | Sisältö |
+|-------|---------|
+| Alkuperäinen indikaatio | HIV-1-infektio (johdettu mekanistisesta perustelusta tässä todistuspaketissa; virallinen indikaatioteksti ja MOA on merkitty tietovajeiksi — katso Perustelut alla) |
+| Ennustettu uusi indikaatio | Simiaanin immuunivajaatuntaudin infektio |
+| TxGNN-ennusteen pistemäärä | 99.97% |
+| Todisteiden taso | L4 (prekliiniset/eläintutkimukset vain) |
+| Suomen markkinoiden asema | ✗ Ei markkinoilla |
+| Lupien lukumäärä | 0 |
+| Suositeltava päätös | Pidätä |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, detailed mechanism of action data is not available in the structured `original_moa` field (marked as a data gap, DG002). However, the evidence pack's own repurposing rationale identifies darunavir as a **HIV-1 protease inhibitor**, acting on the retroviral Gag-Pol polyprotein cleavage step required for viral maturation.
+Tällä hetkellä yksityiskohtainen toimintamekanismin tietoa ei ole saatavilla strukturoidussa `original_moa` -kentässä (merkitty tietovajeksi, DG002). Kuitenkin todistuspaketin omassa uudelleenkäyttöperustelussa darunavir tunnistetaan **HIV-1-proteinaasi-inhibiittoriksi**, joka vaikuttaa retroviraalisen Gag-Pol-polyproteiinin yhdisteltäviin vaiheisiin, joita vaaditaan viruksen kypsymiseen.
 
-SIV and HIV are both members of the *Lentivirus* genus and share substantial structural homology in their protease enzymes. This gives the prediction a plausible mechanistic basis in principle: a HIV-1 protease inhibitor could theoretically retain activity against SIV protease in non-human primate models.
+SIV ja HIV ovat molemmat *Lentivirus*-suvun jäseniä ja jakavat merkittävää rakenteellista samankaltaisuutta niiden proteinaasi-entsyymeissä. Tämä antaa ennusteelle periaatteessa uskottavan mekanistisen perustan: HIV-1-proteinaasi-inhibiittori voisi teoriassa säilyttää aktiivisuuden SIV-proteinaasia vastaan ei-ihmisprimaattien malleissa.
 
-That said, the mechanistic link is indirect. None of the four literature records specifically studied darunavir — two describe multi-drug cART regimens (emtricitabine, tenofovir, etc.) in SIV-infected macaques, and the other two describe entirely different agents (the HDAC inhibitor SAHA and the gold compound auranofin) tested in the same animal model for viral reservoir research. These are tangential, model-system references rather than direct darunavir efficacy data. Furthermore, SIV infection is a veterinary/research-animal disease, not a human indication, which limits the direct clinical translatability of this candidate for human drug repurposing purposes.
+Siitä huolimatta mekanistinen linkki on epäsuora. Yksikään neljästä kirjallisuusennätyksestä ei tutkinut erityisesti darunaviriä — kaksi kuvaavat monilääkkeiden cART-rejiimiä (emtrisitiabini, tenofovir jne.) SIV-infektoiduissa makakeissa, ja kaksi muuta kuvaavat täysin erilaisia aineita (HDAC-inhibiittori SAHA ja kullanyhdiste auranofiin) testattuna samassa eläinmallissa viruksen säiliön tutkimukselle. Nämä ovat sivukohtaisia, mallijärjestelmää koskevia viittauksia eikä suoraa darunavirin tehokkuuden tietoa. Lisäksi SIV-infektio on eläinlääketieteellinen/tutkimuksellisen eläimen tauti, ei ihmisille tarkoitettu indikaatio, mikä rajoittaa tämän kandidaatin relevansssia ihmisille tarkoitetussa lääkkeiden uudelleenkäytössä.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen todisteet
 
-Currently no related clinical trials registered.
+Tällä hetkellä ei ole rekisteröityjä niihin liittyviä kliinisiä tutkimuksia.
 
-## Literature Evidence
+## Kirjallisuustodisteet
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [26150024](https://pubmed.ncbi.nlm.nih.gov/26150024/) | 2016 | Animal Study | AIDS Research and Human Retroviruses | Evaluated two novel injectable cART regimens (not darunavir-specific) for suppressing SIV replication in SIVmac239-infected rhesus macaques |
-| [25033210](https://pubmed.ncbi.nlm.nih.gov/25033210/) | 2014 | Animal Study | PLoS One | Combined suppressive cART with the HDAC inhibitor SAHA in SIV-infected Chinese rhesus macaques to probe viral reservoirs |
-| [22737073](https://pubmed.ncbi.nlm.nih.gov/22737073/) | 2012 | Animal Study | PLoS Pathogens | A highly intensified multi-drug ART regimen achieved long-term viral suppression and reservoir restriction in SIVmac251-infected macaques |
-| [21505294](https://pubmed.ncbi.nlm.nih.gov/21505294/) | 2011 | Animal Study | AIDS (London, England) | Gold compound auranofin (non-darunavir agent) restricted the viral reservoir in the monkey AIDS model |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset tulokset |
+|------|-------|--------|-------|---------|
+| [26150024](https://pubmed.ncbi.nlm.nih.gov/26150024/) | 2016 | Eläintutkimus | AIDS Research and Human Retroviruses | Arvioi kahta uutta injektoitavaa cART-rejiimiä (ei darunavir-spesifisiä) SIV-replikaation tukahduttamiseksi SIVmac239-infektoiduissa rhesus-makakeissa |
+| [25033210](https://pubmed.ncbi.nlm.nih.gov/25033210/) | 2014 | Eläintutkimus | PLoS One | Yhdisti suppressiivisen cART:n HDAC-inhibiittorin SAHA:n kanssa SIV-infektoiduissa kiinalaisissa rhesus-makakeissa viruksen säiliöiden tutkimiseksi |
+| [22737073](https://pubmed.ncbi.nlm.nih.gov/22737073/) | 2012 | Eläintutkimus | PLoS Pathogens | Erittäin tehostettu monilääkkeinen ART-rejiimi saavutti pitkäaikaisen viruksen suppressin ja säiliön rajoituksen SIVmac251-infektoiduissa makakeissa |
+| [21505294](https://pubmed.ncbi.nlm.nih.gov/21505294/) | 2011 | Eläintutkimus | AIDS (London, England) | Kullanyhdiste auranofiin (ei-darunavir-aine) rajoitti virussäiliötä apinantaudin mallissa |
 
-Note: none of the above studies test darunavir directly; all are SIV/macaque model studies of other agents or combination regimens.
+Huomautus: yksikään edellä mainituista tutkimuksista ei testaa darunaviriä suoraan; kaikki ovat muiden aineiden tai yhdistelmärejiimien SIV/makakki-mallin tutkimuksia.
 
-## Other TxGNN-Predicted Indications (Not Prioritized)
+## Muut TxGNN-ennustetut indikaatiot (ei priorisoituja)
 
-This evidence pack contains three additional candidates beyond the top-ranked prediction, worth noting for completeness:
+Tämä todistuspaketti sisältää kolme muuta kandidaattia parhaan ennusteen lisäksi, joita kannattaa mainita täydellisyyden vuoksi:
 
-| Rank | Disease | Score | Evidence Level | Decision | Key Note |
-|------|---------|-------|----------------|----------|----------|
-| 2 | Feline acquired immunodeficiency syndrome (FIV) | 99.97% | L2 | Research Question | One completed Phase 4 veterinary RCT ([NCT02770508](https://clinicaltrials.gov/study/NCT02770508), n=145) directly tested boosted darunavir + lamivudine in cats — but the subjects are non-human, limiting relevance to human repurposing |
-| 3 | Rare neurodevelopmental disorder (ataxic gait, absent speech, decreased white matter) | 99.97% | L5 | Hold | No mechanistic or clinical link identified; prediction-only |
-| 4 | Familial combined hyperlipidemia (obsolete term) | 99.19% | L5 | Hold | Mechanistically contradictory — HIV protease inhibitors are known to *cause* dyslipidemia as an adverse effect, not treat it |
+| Sijoitus | Sairaus | Pistemäärä | Todisteiden taso | Päätös | Keskeinen huomautus |
+|----------|---------|-----------|------------------|--------|-------------------|
+| 2 | Kissan hankkima immuunivajaatuntatauti (FIV) | 99.97% | L2 | Tutkimuskysymys | Yksi päättynyt vaihe 4 eläinlääketieteellinen RCT ([NCT02770508](https://clinicaltrials.gov/study/NCT02770508), n=145) testasi suoraan boostattua darunaviriä + lamivudiiniä kissoissa — mutta tutkittavat eivät ole ihmisiä, mikä rajoittaa relevansssia ihmisille tarkoitetussa lääkkeiden uudelleenkäytössä |
+| 3 | Harvinainen hermoston kehityshäiriö (ataktinen kävely, puuttuva puhe, vähentyneempi valkoaine) | 99.97% | L5 | Pidätä | Ei tunnistettua mekanistista tai kliinistä linkkiä; vain ennuste |
+| 4 | Perinnöllinen yhdistetty hyperlipidemiaemia (vanhentunut termi) | 99.19% | L5 | Pidätä | Mekanistisesti ristiriitainen — HIV-proteinaasi-inhibiittorit tunnetaan *aiheuttavan* dyslipidemian haittavaikutuksena, ei hoitavan sitä |
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Darunavir is currently **not marketed** in Finland (0 authorizations on record), so no product/license table is available.
+Darunavir ei ole tällä hetkellä **markkinoilla** Suomessa (0 lupaa), joten tuote-/lupa-taulukko ei ole saatavilla.
 
-## Safety Considerations
+## Turvallisuusnäkökohtia
 
-Please refer to the package insert for safety information. (Note: TFDA/Fimea package insert warnings and contraindications are marked as a **Blocking** data gap in this evidence pack — see Conclusion below.)
+Katso turvallisustiedot pakkausselosteesta. (Huomautus: TFDA/Fimean pakkausselosteen varoitukset ja vasta-aiheet on merkitty **estäväksi** tietovajeksi tässä todistuspaketissa — katso Johtopäätös alla.)
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidätä**
 
-**Rationale:**
-The top-ranked predicted indication is a non-human veterinary disease (SIV), supported only by preclinical animal-model literature that does not directly test darunavir, with zero clinical trials and no market presence in Finland. Combined with a Blocking-severity gap in safety/label data, there is insufficient evidence to proceed to formal safety review (S1).
+**Perustelut:**
+Korkeimmin sijoitettu ennustettu indikaatio on eläinlääketieteellinen tauti (SIV, ei-ihmissairaus), tuettu ainoastaan prekliinisen eläinmallin kirjallisuudella, joka ei suoraan testaa darunaviriä, nolla kliinisellä tutkimuksella ja ilman markkinaläsnäoloa Suomessa. Turvallisuus-/merkintätietojen estävän vakavuuden tietovajeen yhdessä kanssa on riittämätöntä näyttöä edetä muodolliseen turvallisuustarkastukseen (S1).
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert (warnings, contraindications) — currently a Blocking data gap (DG001)
-- Confirmed mechanism of action from DrugBank — currently a High-severity data gap (DG002)
-- Darunavir-specific (not combination-regimen) preclinical data in the SIV model
-- Clarification of translational relevance, since the top two predictions (SIV, FIV) are veterinary rather than human indications
-- If pursuing the FIV signal instead (rank 2, L2, Research Question), veterinary-to-human translational justification would be required given its stronger trial evidence (NCT02770508)
+**Edetäkseen seuraavaa vaaditaan:**
+- TFDA/Fimean pakkausseloste (varoitukset, vasta-aiheet) — tällä hetkellä estävä tieto-vaje (DG001)
+- Vahvistettu toimintamekanismi DrugBankista — tällä hetkellä korkean vakavuuden tieto-vaje (DG002)
+- Darunavir-spesifinen (ei yhdistelmärejiimi) prekliininen aineisto SIV-mallissa
+- Translaatiomahdollisuuksien selventäminen, koska kaksi parhainta ennustetta (SIV, FIV) ovat eläinlääketieteellisiä pikemminkin kuin ihmisille tarkoitettuja indikaatioita
+- Jos tavoitteena on sen sijaan FIV-signaali (sijoitus 2, L2, Tutkimuskysymys), eläinlääketieteellisen-ihmisten välistä translaatioperustelua vaaditaan sen vahvemman tutkimustodistuksen vuoksi (NCT02770508)
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

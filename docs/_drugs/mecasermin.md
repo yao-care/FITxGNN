@@ -29,62 +29,63 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Mecasermin: From Growth Hormone Insensitivity to Monosomy X (Turner Syndrome)
+# Mecasermin: kasvuhormonin resistanssista monosomiaan X (Turnerin oireyhtymä)
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Mecasermin is a recombinant human IGF-1 analogue whose established mechanism is to bypass the growth hormone receptor and directly supply downstream IGF-1 in patients with GH insensitivity (e.g. Laron syndrome). The TxGNN model predicts a possible new application in **monosomy X (Turner syndrome)**, but this candidate currently has **no supporting clinical trials or literature**, and the evidence pack itself flags the mechanistic link as likely a co-occurrence artifact rather than a direct pathological connection.
+Mecasermin on rekombinantti ihmisen IGF-1 analogu, jonka todettu vaikutusmekanismi on ohittaa kasvuhormonin reseptori ja toimittaa suoraan loppupään IGF-1:tä potilaille, joilla on kasvuhormonin resistanssi (esim. Laronin oireyhtymä). TxGNN-malli ennustaa mahdollista uutta käyttöaihetta **monosomiassa X (Turnerin oireyhtymeessä)**, mutta tällä kandidaatilla ei tällä hetkellä ole **tukevia kliinisiä tutkimuksia tai kirjallisuutta**, ja todistustepaketissa itse huomautetaan, että mekanistinen yhteys on todennäköisesti rinnakkaisesiintymisen artefakti pikemmin kuin suora patologinen yhteys.
 
-## Quick Overview
+## Pika-yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available — no Fimea-approved indication text on file (drug not marketed in Finland); known use per DrugBank-derived rationale is growth failure due to GH insensitivity |
-| Predicted New Indication | Monosomy X (Turner syndrome) |
-| TxGNN Prediction Score | 99.58% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohde | Sisältö |
+|------|---------|
+| Alkuperäinen käyttöaihe | Ei saatavilla — Fimealla hyväksyttyä käyttöaiheen kuvausta ei ole tiedostossa (lääkettä ei markkinoida Suomessa); tunnettu käyttö DrugBank-johdetun perustelun mukaan on kasvun viivästyminen kasvuhormonin resistanssin vuoksi |
+| Ennustettu uusi käyttöaihe | Monosomia X (Turnerin oireyhtymä) |
+| TxGNN:n ennusteen pistemäärä | 99.58% |
+| Todisteen taso | L5 (vain mallin ennuste, ei tukevia tutkimuksia) |
+| Suomen markkinatilanne | ✗ Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Pidättyä |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Detailed mechanism of action data is not available in this evidence pack (flagged as a High-severity data gap). Based on the mechanistic rationale attached to a related prediction in this same batch, mecasermin's known pharmacology is to act as a recombinant IGF-1 that bypasses the GH receptor, directly supplying downstream IGF-1 signalling — the basis for its use in GH-insensitivity-related growth failure.
+Yksityiskohtaista vaikutusmekanismin tietoja ei ole saatavilla tässä todistustepaketissa (merkitty vakavaksi tietovajeeksi). Samaan erään liittyvään ennusteeseen liittyvän mekanistisen perustelun perusteella mecaserminin tunnettu farmakologia on toimia rekombinanttina IGF-1:nä, joka ohittaa GH-reseptorin, toimittaen suoraan loppupään IGF-1-signaloinnin — pohja sen käytölle kasvuhormonin resistanssiin liittyvässä kasvun viivästymisessä.
 
-For monosomy X (Turner syndrome), the proposed link is that affected patients commonly present with growth delay and sometimes respond poorly to GH therapy, so IGF-1 supplementation is theoretically plausible as a downstream growth-stimulating adjunct. However, the growth delay in Turner syndrome is primarily attributed to SHOX gene haploinsufficiency, not classical IGF-1 deficiency — making the mechanistic overlap indirect and non-specific.
+Monosomiassa X (Turnerin oireyhtymeessä) ehdotettu yhteys on, että sairastuneet potilaat esittävät yleensä kasvun viivästymistä ja joskus reagoivat huonosti GH-terapiaan, joten IGF-1-täydennys on teoreettisesti uskottava loppupään kasvua stimuloivana lisähoitona. Turnerin oireyhtymen kasvun viivästyminen johtuu kuitenkin ensisijaisesti SHOX-geenin haploinsuffienssista, ei klassisesta IGF-1-puutoksesta — mikä tekee mekanistisesta päällekkäisyydestä epäsuoraa ja epäspesifistä.
 
-Notably, the evidence pack's own rationale cautions that the high TxGNN score may reflect a "growth-related disease" co-occurrence pattern in the knowledge graph rather than a direct pathological mechanism. This should be treated as a hypothesis-generating signal only, not a validated mechanistic link.
+Huomattavasti, todistustepaketissa itsessään varoitetaan, että korkea TxGNN-pistemäärä voi heijastaa tietograafissa esiintyvää "kasvuun liittyviä sairauksia" rinnakkaisesiintymisen mallia pikemmin kuin suoraa patologista mekanismia. Tätä on käsiteltävä vain hypoteesin muodostavana signaalina, ei validoituna mekanistisena yhteyksenä.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen todisteet
 
-Currently no related clinical trials registered.
+Tällä hetkellä yhtään liittyvää kliinistä tutkimusta ei ole rekisteröity.
 
-## Literature Evidence
+## Kirjallisuustodisteet
 
-Currently no related literature available.
+Tällä hetkellä yhtään liittyvää kirjallisuutta ei ole saatavilla.
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-No authorized products on file — mecasermin is not currently marketed in Finland (0 licenses recorded).
+Tiedostossa ei ole valtuutettuja tuotteita — mecaserminia ei tällä hetkellä markkinoida Suomessa (0 lisenssiä kirjattu).
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information.
+Turvallisuustiedot löytyvät pakkausselosteesta.
 
-*(Note: TFDA/Fimea package insert warnings and contraindications are marked as a Blocking data gap (DG001) in this evidence pack and could not be extracted for this report.)*
+*(Huomautus: TFDA/Fimean pakkausseloste varoitukset ja vasta-aiheet on merkitty estyväksi tietovajeeksi (DG001) tässä todistustepaketissa, eikä niitä voitu poimia tätä raporttia varten.)*
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidättyä**
 
-**Rationale:**
-This candidate has L5 evidence (model prediction only), zero clinical trials or literature support, and the evidence pack itself notes the mechanistic link is likely an indirect/spurious knowledge-graph co-occurrence rather than a validated pathological connection. Combined with the absence of safety data, there is no basis to advance beyond hypothesis stage.
+**Perustelut:**
+Tällä kandidaatilla on L5-todiste (vain mallin ennuste), nolla kliinisiä tutkimuksia tai kirjallisuustukea, ja todistustepaketissa huomautetaan, että mekanistinen yhteys on todennäköisesti epäsuora/harhaanjohtava tietograafin rinnakkaisesiintyminen pikemmin kuin validoitu patologinen yhteys. Yhdessä turvallisuustietojen puutteen kanssa ei ole perusteita edetä hypoteesin vaiheen yli.
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert data (warnings, contraindications) — currently blocking (DG001)
-- Confirmed mechanism of action data from DrugBank (DG002)
-- Targeted literature search for IGF-1 use in Turner syndrome / SHOX-related growth delay to test the mechanistic hypothesis
-- Confirmation of Finland regulatory/market status before any further evaluation
+**Jatkaakseen seuraavaa tarvitaan:**
+- TFDA/Fimean pakkausseloste tiedot (varoitukset, vasta-aiheet) — tällä hetkellä estävä (DG001)
+- Vahvistetut vaikutusmekanismin tiedot DrugBankista (DG002)
+- Kohdistettu kirjallisuushaku IGF-1:n käytölle Turnerin oireyhtymeessä / SHOX-liittyneessä kasvun viivästymisessä mekanistisen hypoteesin testaamiseksi
+- Suomen sääntely-/markkinatilan vahvistaminen ennen mitään lisäarviointia
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

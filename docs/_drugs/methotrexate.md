@@ -29,99 +29,100 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Methotrexate: From Antifolate Chemotherapy to Rhabdomyosarcoma
+# Metotreksaatti: antifoliaattikemoterapiasta rabdomyosarkooman hoitoon
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-> Methotrexate is a well-established antifolate (dihydrofolate reductase inhibitor) agent; this evidence pack's TFDA/Finland regulatory data on its original approved indication is currently a documented gap.
-> The TxGNN model predicts it may be effective for **Rhabdomyosarcoma**, and — unlike most of the other candidates in this evidence pack — this direction is supported by **4 registered clinical trials** and **20 publications**, including a directly matching published Phase II pediatric trial.
-> Among the 10 TxGNN-ranked candidates for this drug, Rhabdomyosarcoma is the highest evidence-tier indication (L2), which is why it was selected as the focus of this report rather than the top-ranked but evidence-free candidates (pulmonary blastoma, well-differentiated fetal lung adenocarcinoma).
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not documented in this evidence pack (methotrexate is not currently marketed in Finland; approved-indication license text unavailable) |
-| Predicted New Indication | Rhabdomyosarcoma |
-| TxGNN Prediction Score | 99.25% |
-| Evidence Level | L2 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+> Metotreksaatti on vakiintunut antifoliaatti (dihydrofolaattiredukataasiestin) lääkeaine; tämän evidenssipaketin TFDA/Suomen sääntelytiedot sen alkuperäisestä hyväksytystä indikatiosta ovat tällä hetkellä dokumentoinnin puuttuva aukko.
+> TxGNN-malli ennustaa, että se saattaisi olla tehokas **rabdomyosarkooman** hoitoon, ja – toisin kuin useimmat muut tämän evidenssipaketin kandidaatit – tämä suunta on tuettu **4 rekisteröidyllä kliinisellä tutkimuksella** ja **20 julkaisulla**, mukaan lukien suoraan vastaava julkaistu II vaiheen pediatrinen tutkimus.
+> TxGNN:n kymmenen paremmuusjärjestyksessä arvotetusta kandidaatista rabdomyosarkooma on korkein evidenssitason indikaatio (L2), minkä vuoksi se valittiin tämän raportin painopisteeksi paremmin sijoittuneiden mutta evidenssivapaiden kandidaattien sijaan (kuten keuhkojen blastooma ja hyvin differentoitunut sikiökeuhkoadenokarsinooma).
 
 ---
 
-## Why is This Prediction Reasonable?
+## Pikayleiskatsaus
 
-Currently, detailed mechanism of action data is not available for this candidate (flagged as a Blocking data gap). Based on known pharmacology, methotrexate is a dihydrofolate reductase (DHFR) inhibitor — an antifolate that blocks purine and thymidylate synthesis and is directly cytotoxic to rapidly dividing cells. This mechanism underlies its long-standing use across multiple pediatric and adult malignancies as part of combination chemotherapy regimens.
-
-Rhabdomyosarcoma is a rapidly proliferating pediatric soft-tissue sarcoma, and antifolate-class cytotoxicity has direct, published clinical precedent in this disease: a Phase II trial specifically tested high-dose methotrexate monotherapy in previously untreated children with high-risk unresectable or metastatic rhabdomyosarcoma (PMID 9329466), and methotrexate has also been studied in combination regimens (e.g., with doxorubicin, and within the BOMP-EPI platinum-based regimen) for sarcomas broadly.
-
-One important caveat: among the four registered trials returned for this indication, only one (NCT00357084) was auto-graded "highly relevant," but its actual content concerns methotrexate + glucocorticoids for **graft-versus-host disease prophylaxis**, not rhabdomyosarcoma treatment — this appears to be a relevance-grading mismatch in the source data and should not be counted as direct trial support. The genuine clinical basis for this indication therefore rests primarily on the published literature rather than the ClinicalTrials.gov registry.
+| Kohde | Sisältö |
+|------|--------|
+| Alkuperäinen indikaatio | Ei dokumentoitu tässä evidenssipakettissa (metotreksaattia ei tällä hetkellä markkinoida Suomessa; hyväksytyn indikaation pakkausseloste ei saatavilla) |
+| Ennustettu uusi indikaatio | Rabdomyosarkooma |
+| TxGNN-ennustepisteet | 99.25% |
+| Evidenssitaso | L2 |
+| Suomen markkina-asema | ✗ Ei markkinoilta |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Etene turvarajoitteilla |
 
 ---
 
-## Clinical Trial Evidence
+## Miksi tämä ennuste on järkevä?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Tällä hetkellä yksityiskohtaista farmakologista toimintamekanismin tietoa ei ole saatavilla tälle kandidaatille (merkitty estävän tietoaukoksi). Tunnetun farmakologian perusteella metotreksaatti on dihydrofolaattiredukataasiestin (DHFR) – antifoliaatti, joka estää puriinietyiden ja tymidylaatin synteesiä ja on suoraan sytotoksinen nopeasti jakautuvissa soluissa. Tämä mekanismi perustuu sen pitkäaikaiseen käyttöön useiden pediatristen ja aikuisten pahojen kasvainten yhdistelmäkemoterapian osana.
+
+Rabdomyosarkooma on nopeasti proliferoituva pediatrinen pehmytkudossarkooma, ja antifoliaattiluokan sytotoksisuus on suoraan dokumentoitu kliininen ennakkotapaus tässä sairaudessa: II vaiheen tutkimus testasi erityisesti korkean annoksen metotreksaattia monoterapiana aiemmin hoitamattomissa lapsissa ja nuorissa, joilla oli korkean riskin resektoimaton tai etäpesäkkeitä sisältävä rabdomyosarkooma (PMID 9329466), ja metotreksaattia on myös tutkittu yhdistelmäsäännöissä (esim. doksirubisiinin kanssa ja BOMP-EPI platinaa sisältävässä säännössä) sarkoomeissa laajemmin.
+
+Yksi tärkeä huomio: neljästä rekisteröidystä tutkimuksesta, jotka palautettiin tälle indikatinolle, vain yksi (NCT00357084) oli automaattisesti luokiteltu "erittäin relevanttiseksi", mutta sen todellinen sisältö käsittelee metotreksaattia + glukokortikoideja **istutuksen vastaan vastaanottajaa -reaktion profylaksiana** eikä rabdomyosarkooman hoidossa – tämä näyttää olevan relevanssigradeerauksen ristiriita lähdetiedoissa eikä sitä pitäisi laskea suoraksi tutkimukselliseksi tueksi. Tämän indikaation todellinen kliininen perusta perustuu siten ensisijaisesti julkaistuihin kirjallisuuteen pikemminkin kuin ClinicalTrials.gov -rekisteriin.
+
+---
+
+## Kliiniset tutkimusevidenssi
+
+| Tutkimusnumero | Vaihe | Tila | Osallistujamäärä | Keskeiset tulokset |
 |---------|------|------|------|---------|
-| [NCT00357084](https://clinicaltrials.gov/study/NCT00357084) | Phase 2 | Completed | 53 | Evaluates methotrexate + glucocorticoids for newly diagnosed **acute graft-versus-host disease** after nonmyeloablative transplant — despite being flagged as highly relevant, the trial content addresses GVHD, not rhabdomyosarcoma; treat as indirect/mismatched evidence |
-| [NCT00112645](https://clinicaltrials.gov/study/NCT00112645) | Phase 1 | Completed | 10 | Toxicity study of allogeneic stem cell transplant (busulfan/melphalan conditioning, methotrexate-containing GVHD prophylaxis) in relapsed/refractory pediatric solid tumors; not RMS-specific |
-| [NCT00003273](https://clinicaltrials.gov/study/NCT00003273) | Phase 2 | Withdrawn | 0 | Dose-intensive induction chemotherapy plus stem cell rescue for pediatric malignant brain tumors; withdrawn, not RMS-specific |
-| [NCT00253552](https://clinicaltrials.gov/study/NCT00253552) | N/A | Terminated | 4 | Filgrastim-primed bone marrow allogeneic transplant pilot for hematologic malignancies/non-malignancies; unrelated to RMS treatment |
+| [NCT00357084](https://clinicaltrials.gov/study/NCT00357084) | Vaihe 2 | Valmis | 53 | Arvioi metotreksaattia + glukokortikoideja uudiagnostisesti todetun akuutin istutuksen vastaan vastaanottajaa -reaktion osalta ei-myeloablatiivin siirron jälkeen – huolimatta siitä, että se on merkitty erittäin relevanttiseksi, tutkimuksen sisältö käsittelee istutuksen vastaan vastaanottajaa -reaktiota, ei rabdomyosarkooman hoitoa; käsittele epäsuorana/epäsopivana evidenssinä |
+| [NCT00112645](https://clinicaltrials.gov/study/NCT00112645) | Vaihe 1 | Valmis | 10 | Allogenisen kantasolusiirron toksisuustutkimus (busulfaani/melfalaani esikäsittely, metotreksaattia sisältävä istutuksen vastaan vastaanottajaa -reaktion profilaksia) relapsoineiden/hoitokestävien pediatristen kiinteiden kasvainten osalta; ei rabdomyosarkooma-spesifi |
+| [NCT00003273](https://clinicaltrials.gov/study/NCT00003273) | Vaihe 2 | Peruutettu | 0 | Doseiintensiivinen induktion kemoterapia plus kantasolien tuki pediatristen pahanlaatuisten aivokasvainten osalta; peruutettu, ei rabdomyosarkooma-spesifi |
+| [NCT00253552](https://clinicaltrials.gov/study/NCT00253552) | N/A | Lopetettu | 4 | Filgrastiinilla primaavalla luuydintransplantaatiolla allogeninen pilot-tutkimus verihäiriöiden/ei-pahanlaatuisten sairauksien osalta; rabdomyosarkooman hoitoon liittymätön |
 
-*Note: None of the registered trials directly test methotrexate as treatment for rhabdomyosarcoma; the strongest supporting evidence for this indication comes from the published literature below.*
+*Huomio: Mikään rekisteröidyistä tutkimuksista ei suoraan testaa metotreksaattia rabdomyosarkooman hoitona; vahvin tukeva evidenssi tälle indikatinolle tulee alla olevista julkaistuista lähteistä.*
 
 ---
 
-## Literature Evidence
+## Kirjallisuusevidenssi
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset tulokset |
 |------|-----|------|------|---------|
-| [9329466](https://pubmed.ncbi.nlm.nih.gov/9329466/) | 1997 | Phase 2 trial | Journal of Pediatric Hematology/Oncology | Phase II trial of high-dose methotrexate in previously untreated children/adolescents with high-risk unresectable or metastatic rhabdomyosarcoma; direct efficacy/safety evaluation of MTX in this exact indication |
-| [36614297](https://pubmed.ncbi.nlm.nih.gov/36614297/) | 2023 | Retrospective cohort | International Journal of Molecular Sciences | BOMP-EPI regimen (bleomycin, vincristine, **methotrexate**, cisplatin alternating with etoposide/cisplatin/ifosfamide) active in adult relapsed/metastatic rhabdomyosarcoma; activity linked to HMGB1 expression |
-| [3475644](https://pubmed.ncbi.nlm.nih.gov/3475644/) | 1987 | Cohort | Oncology | Weekly doxorubicin + methotrexate in 55 sarcoma patients (including RMS); objective responses in 11/39 patients at higher dose levels |
-| [3884137](https://pubmed.ncbi.nlm.nih.gov/3884137/) | 1985 | Review/Cohort | Cancer | Review of adjuvant chemotherapy (including methotrexate-containing regimens) in childhood sarcomas, ~50% of which are rhabdomyosarcoma |
-| [19223736](https://pubmed.ncbi.nlm.nih.gov/19223736/) | 2009 | Review | Gan To Kagaku Ryoho | Chemotherapy indications by histological subtype of musculoskeletal sarcoma; confirms rhabdomyosarcoma is chemosensitive and benefits from adjuvant chemotherapy |
-| [9039735](https://pubmed.ncbi.nlm.nih.gov/9039735/) | 1996 | Review | British Medical Bulletin | Overview of management controversies in childhood sarcomas, including chemotherapy approaches for rhabdomyosarcoma |
+| [9329466](https://pubmed.ncbi.nlm.nih.gov/9329466/) | 1997 | II vaiheen tutkimus | Journal of Pediatric Hematology/Oncology | II vaiheen tutkimus korkean annoksen metotreksaatista aiemmin hoitamattomissa lapsissa ja nuorissa, joilla oli korkean riskin resektoimaton tai etäpesäkkeitä sisältävä rabdomyosarkooma; metotreksaatin tehokkuuden/turvallisuuden suora arviointi tässä täsmällisessä indikatiossa |
+| [36614297](https://pubmed.ncbi.nlm.nih.gov/36614297/) | 2023 | Retrospektiivinen kohortti | International Journal of Molecular Sciences | BOMP-EPI-säännös (bleoministiini, vinkristiini, **metotreksaatti**, cisplatiina vuorotellen etopisiidi/cisplatiina/ifosfamidin kanssa) aktiivinen aikuisten relapsoineiden/metastaattisten rabdomyosarkooman osalta; aktiivisuus liittyy HMGB1-ilmentymiseen |
+| [3475644](https://pubmed.ncbi.nlm.nih.gov/3475644/) | 1987 | Kohortti | Oncology | Viikoittainen doksirubisiini + metotreksaatti 55 sarkooma-potilaalla (mukaan lukien rabdomyosarkooma); objektiiviset vasteet 11/39 potilaalla korkeammilla annoksilla |
+| [3884137](https://pubmed.ncbi.nlm.nih.gov/3884137/) | 1985 | Katsaus/Kohortti | Cancer | Katsaus adjuvantti kemoterapiaan (mukaan lukien metotreksaattia sisältävät säännöt) lapsuuden sarkoomeissa, joista noin 50 % on rabdomyosarkooma |
+| [19223736](https://pubmed.ncbi.nlm.nih.gov/19223736/) | 2009 | Katsaus | Gan To Kagaku Ryoho | Kemoterapian indikaatiot tuki- ja liikuntaelinsarkooman histologisen alatypin mukaan; vahvistaa, että rabdomyosarkooma on kemoherkä ja hyötyy adjuvantista kemoterapiasta |
+| [9039735](https://pubmed.ncbi.nlm.nih.gov/9039735/) | 1996 | Katsaus | British Medical Bulletin | Yleiskatsaus hallintaan liittyviin kiistoihin lapsuuden sarkoomeissa, mukaan lukien kemoterapiakäytänteet rabdomyosarkooman osalta |
 
 ---
 
-## Cytotoxicity
+## Sytotoksisuus
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (Antifolate / DHFR-inhibitor class) |
-| Myelosuppression Risk | High — antifolate mechanism directly suppresses marrow precursor proliferation; risk is dose-dependent and pronounced with high-dose regimens such as those studied in RMS (e.g., PMID 9329466) |
-| Emetogenicity Classification | Low to Moderate — dose-dependent; high-dose IV regimens carry materially higher emetogenic risk than low-dose weekly regimens |
-| Monitoring Items | CBC with differential, renal function (creatinine clearance, critical for MTX clearance), hepatic function, MTX serum levels with leucovorin rescue for high-dose protocols, mucositis assessment |
-| Handling Protection | Yes — methotrexate must be prepared and administered under standard cytotoxic/hazardous drug handling protocols |
+| Kohde | Sisältö |
+|------|--------|
+| Sytotoksisuuden luokitus | Perinteinen sytotoksinen (Antifoliaatti / DHFR-estin-luokka) |
+| Luuydinsuppression riski | Korkea – antifoliaattimekanismi suoraan estää luuydinnesiintymien proliferaatiota; riski on annoksesta riippuvainen ja merkittävä korkean annoksen säännöissä kuten rabdomyosarkooman tutkimuksissa tutkitut (esim. PMID 9329466) |
+| Pahoinvoinnin aiheuttavuus | Alhainen–kohtalainen – annoksesta riippuvainen; korkean annoksen IV-säännöt sisältävät oleellisesti korkeamman pahoinvointi-riskin kuin matalan annoksen viikoittaiset säännöt |
+| Seurantakohteet | Täydellinen verenkuva erilaistuksella, munuaisten toiminta (kreatiniini-selvitys, kriittinen metotreksaatin selvitykselle), maksan toiminta, metotreksaatin seerumitasot levukovooriinin pelastuksella korkealla annoksella, limakalvontulehduksen arviointi |
+| Käsittelysuoja | Kyllä – metotreksaatti on valmistettava ja annosteltava vakio-/vaarallisten lääkkeiden käsittelyprotokollien mukaisesti |
 
-*No TFDA-specific toxicity or package-insert data is available for this drug in this evidence pack (Blocking data gap); the above reflects the established pharmacological profile of the antifolate class and should be confirmed against the package insert once available.*
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+*Tälle lääkkeelle ei ole saatavilla TFDA-spesifistä toksisuus- tai pakkausseloste-tietoja tässä evidenssipakettissa (merkitty estävän tietoaukoksi); yllä oleva kuvastaa antifoliaattiluokan vakiintunutta farmakologista profiilia ja se on vahvistettava pakkauselosteen perusteella, kun se tulee saataville.*
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuusnäkökohdat
 
-**Decision: Proceed with Guardrails**
+Katso turvallisuustiedot pakkauselosteen perusteella.
 
-**Rationale:**
-A published Phase II trial directly evaluated high-dose methotrexate in high-risk pediatric rhabdomyosarcoma, supported by additional cohort-level combination-regimen data — meeting the L2 evidence bar (1 completed Phase 2 study). However, this evidence is decades old, current-era registered trials specific to this indication are lacking, and one purportedly high-relevance registered trial (NCT00357084) was found to be mismatched (GVHD, not RMS) on inspection — evidence should therefore be treated as supportive but dated rather than confirmatory.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert / mechanism of action data (currently Blocking data gap)
-- Confirmation of current pediatric oncology guideline status for methotrexate in rhabdomyosarcoma, given that platinum-based regimens are now more commonly used in relapsed/metastatic disease (PMID 36614297, 2023)
-- Correction/re-verification of the NCT00357084 relevance grading in the underlying trial database
-- Finland/Taiwan regulatory pathway assessment, since methotrexate currently has 0 marketing authorizations on file
-- A dosing and myelosuppression/renal-function monitoring plan specific to the pediatric RMS population
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Etene turvarajoitteilla**
+
+**Perustelut:**
+Julkaistu II vaiheen tutkimus arvioi suoraan korkean annoksen metotreksaattia korkean riskin pediatrisessa rabdomyosarkoomassa, tuettuna lisäkohortti-tasoisella yhdistelmäsäännön-tiedoilla – täyttäen L2-evidenssirajan (1 valmis II vaiheen tutkimus). Kuitenkin tämä evidenssi on vuosikymmeniä vanhaa, nykyisen aikakauden rekisteröidyt tutkimukset tälle spesifiselle indikatinolle puuttuvat, ja yksi väitteellisesti korkean relevanssin rekisteröity tutkimus (NCT00357084) todettiin epäsopivaksi tarkastuksessa (istutuksen vastaan vastaanottajaa -reaktio, ei rabdomyosarkooma) – evidenssi tulisi siten käsitellä tukevana mutta vanhana pikemminkin kuin vahvistavana.
+
+**Jatkaakseen seuraavat asiat vaaditaan:**
+- TFDA:n pakkausseloste / toimintamekanismin tiedot (tällä hetkellä estävä tietoaukko)
+- Vahvistus nykyisen pediatrisen onkologian ohjeiden asemasta metotreksaatille rabdomyosarkooman osalta, koska platinaan perustuvat säännöt ovat nyt yleisempiä relapsoineiden/metastaattisten rabdomyosarkooman hoidossa (PMID 36614297, 2023)
+- Korjaus/uudelleentarkistus NCT00357084 relevanssiluokituksesta lähde-tietokannassa
+- Suomen/Taiwanin sääntelyreittiarviointi, koska metotreksaatilla ei ole tällä hetkellä mitään markkinalupauksia tiedostossa
+- Annos- ja luuydinsuppression/munuaisten toimintaseurannan suunnitelma, joka on spesifi pediatrisen rabdomyosarkooma-populaation osalta
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

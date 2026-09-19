@@ -29,76 +29,77 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Decitabine: From Myelodysplastic Syndrome to Refractory Cytopenia of Childhood
+# Decitabine: Myelodysplastisesta oireyhtymästä lapsuuden refraktooriin sytopeniaan
 
-> **Note on original indication**: The evidence pack contains no `original_indications`, `original_moa`, or Finland licensing data for decitabine (drug not marketed in Finland, 0 authorizations). The original-indication context below (MDS/AML, DNA hypomethylating agent) reflects decitabine's well-established international drug identity, not a sourced field from this evidence pack — flagged here for transparency rather than presented as verified data.
+> **Huomautus alkuperäisestä indikaatiosta**: Näyttöpaketti ei sisällä decitabinen `original_indications`, `original_moa` tai Suomen lisensointitietoja (lääkettä ei ole markkinoilla Suomessa, 0 valtuutusta). Alla esitetty alkuperäisen indikaation konteksti (MDS/AML, DNA-hypometylointiaine) kuvastaa decitabinen kansainvälistä hyväksyttyä identiteettiä, ei näyttöpaketin tarkasteltua kenttää – tämä on flagattu tässä avoimuuden vuoksi eikä esitetä vahvistettuina tietona.
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Decitabine is a DNA hypomethylating agent internationally used for myelodysplastic syndrome (MDS) and acute myeloid leukemia in adults, but it is not currently marketed in Finland and no TFDA/local package-insert safety data is available. The TxGNN model predicts it may be effective for **Refractory Cytopenia of Childhood** (a pediatric MDS subtype), with a TxGNN score of **99.03%**, currently supported by **0 clinical trials** and **1 publication**.
+Decitabine on DNA-hypometylointiaine, jota käytetään kansainvälisesti aikuisten myelodysplastisen oireyhtymän (MDS) ja akuutin myelooisen leukemian hoidossa, mutta sitä ei markkinoida Suomessa eikä TFDA/paikallisia pakkausseloste-turvallisuustietoja ole saatavilla. TxGNN-malli ennustaa, että se saattaa olla tehokas **lapsuuden refraktoorissa sytopeniassa** (pediatrinen MDS-alatyyppi), TxGNN-pistemäärällä **99.03%**, tuettuna tällä hetkellä **0 kliinisellä tutkimuksella** ja **1 julkaisulla**.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Not confirmed in evidence pack (no licenses on file); decitabine is internationally known as an MDS/AML hypomethylating agent |
-| Predicted New Indication | Refractory Cytopenia of Childhood |
-| TxGNN Prediction Score | 99.03% |
-| Evidence Level | L3 (single retrospective observational study, no RCTs) |
-| Finland Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Ei vahvistettu näyttöpaketissa (lisensointitietoa ei löydy); decitabine tunnetaan kansainvälisesti MDS/AML-hypometylointiaineen |
+| Ennustettu uusi indikaatio | Lapsuuden refaktorinen sytopenia |
+| TxGNN-ennustepisteet | 99.03% |
+| Näyttötaso | L3 (yksi takautuva observationaalinen tutkimus, ei RCT:itä) |
+| Suomen markkinatilanne | Ei markkinoilla |
+| Valtuutusten määrä | 0 |
+| Suositeltu päätös | Pidätetään |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, detailed mechanism of action data is not available in the evidence pack (flagged as data gap DG002). Based on generally known pharmacology, decitabine is a DNA methyltransferase inhibitor (hypomethylating agent) whose efficacy in adult myelodysplastic syndrome and AML is well established internationally, though this has not been independently confirmed via the sourced evidence pack for this drug.
+Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla näyttöpaketissa (flagattu tietovajeeksi DG002). Yleisesti tunnetun farmakologian perusteella decitabine on DNA-metyylitransferaasi-inhibiittori (hypometylointiaine), jonka teho aikuisten myelodysplastisen oireyhtymän ja AML:n hoidossa on kansainvälisesti hyvin vahvistettu, vaikka tätä ei ole itsenäisesti vahvistettu tämän lääkkeen näyttöpaketin lähteistä.
 
-Refractory cytopenia of childhood is classified as a pediatric subtype of myelodysplastic syndrome, sharing the same underlying clonal bone marrow pathology as adult MDS. Mechanistically, a hypomethylating agent effective in adult MDS would be expected to have biological plausibility in a pediatric MDS variant, which is consistent with the direction of the TxGNN prediction.
+Lapsuuden refaktorinen sytopenia on luokiteltu myelodysplastisen oireyhtymän pediatriseksi alatyypiksi, jolla on sama taustalla oleva klonaalinen luuydinpatologia kuin aikuisten MDS:ssä. Mekanistisesti hypometylointiaine, joka on tehokas aikuisten MDS:ssä, odotettaisiin olevan biologisesti perusteltu pediatrisessa MDS-variantissa, mikä on johdonmukainen TxGNN-ennusteen suunnan kanssa.
 
-This mechanistic plausibility is further supported by the one available literature record: a single-center retrospective study of decitabine combined with a minimally myelosuppressive regimen, used as a bridge to allogeneic HSCT in pediatric MDS patients — a clinical population that overlaps with refractory cytopenia of childhood.
+Tätä mekanistista perustelua tukee edelleen yksi saatavilla oleva kirjallisuusrekisteri: yksittäisen keskuksen takautuva tutkimus decitabinin yhdistelmästä minimaalisen myelosuppressiivisen regimen kanssa (DAC + MMR), käytetty siltana allogeniseen kantasolun siirtämiseen pediatrisissa MDS-potilaissa – kliininen populaatio, joka osittain vastaa lapsuuden refaktorista sytopeniaa.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-Currently no related clinical trials registered.
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [35624441](https://pubmed.ncbi.nlm.nih.gov/35624441/) | 2022 | Retrospective cohort study | BMC Pediatrics | Single-center 10-year experience using decitabine combined with a minimally myelosuppressive regimen (DAC + MMR) as a bridge to allogeneic HSCT in pediatric MDS; reports on outcomes of this approach prior to transplant. |
+| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät löydökset |
+|------|--------|--------|--------|---------|
+| [35624441](https://pubmed.ncbi.nlm.nih.gov/35624441/) | 2022 | Takautuva kohorttitutkimus | BMC Pediatrics | Yksittäisen keskuksen 10 vuoden kokemus decitabinin käytöstä minimaalisen myelosuppressiivisen regimen kanssa (DAC + MMR) siltana allogeniseen kantasolun siirtämiseen pediatrisissa MDS-potilaissa; raportointi tämän lähestymistavan tuloksista ennen siirtämistä. |
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Decitabine is not currently marketed in Finland; no authorization records are available.
+Decitabine ei ole tällä hetkellä markkinoilla Suomessa; valtuutusten rekisteritietoja ei ole saatavilla.
 
-## Cytotoxicity
+## Sytotoksisyys
 
-Decitabine is an antineoplastic agent (DNA hypomethylating agent / antimetabolite class), so this section applies.
+Decitabine on antineoplastinen aine (DNA-hypometylointiaine / antimetaboliittiluokka), joten tämä osio koskee.
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (hypomethylating agent / antimetabolite class) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| Kohta | Sisältö |
+|---------|---------|
+| Sytotoksisyysluokitus | Perinteinen sytostaattinen aine (hypometylointiaine / antimetaboliittiluokka) |
+| Luuytimen suppressio -riski | Katso pakkausseloste varoituksista ja varotoimista |
+| Pahoinvoinnintuottavuusluokitus | Katso pakkausseloste varoituksista ja varotoimista |
+| Seurantakohdat | Katso pakkausseloste varoituksista ja varotoimista |
+| Käsittelyn suojaus | Katso pakkausseloste varoituksista ja varotoimista |
 
-## Safety Considerations
+## Turvallisuusnäkökulmat
 
-Please refer to the package insert for safety information. (TFDA/local package insert data is currently unavailable — flagged as a **Blocking** data gap, DG001, which prevents completion of the S1 safety pre-assessment.)
+Katso pakkausseloste turvallisuustiedoista. (TFDA/paikallisen pakkausselosteen tietoja ei ole tällä hetkellä saatavilla – flagattu **esteenä olevaksi** tietovajeeksi, DG001, joka estää S1-turvallisuuden esiarviointiksi.)
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidätetään**
 
-**Rationale:**
-The high TxGNN score is supported by only a single observational (non-RCT) publication and zero registered clinical trials for this specific indication, and a Blocking safety data gap (no package-insert warnings/contraindications) currently prevents even an initial safety assessment.
+**Perustelut:**
+Korkea TxGNN-pistemäärä on tuettu vain yhdellä observationaalisella (ei-RCT) julkaisulla ja nollalla rekisteröidyillä kliinisillä tutkimuksilla tälle erityiselle indikaatiolle, ja esteenä oleva turvallisuuden tietovahe (pakkausseloste varoituksia/vasta-aiheita ei saatavilla) estää tällä hetkellä jopa S1-turvallisuusarvioinnin.
 
-**To proceed, the following is needed:**
-- TFDA/local package insert warnings and contraindications (resolves DG001, Blocking)
-- Verified mechanism of action data from DrugBank (resolves DG002)
-- Confirmation of decitabine's original approved indication(s) and licensing status from a sourced regulatory database
-- Any additional clinical trials or controlled studies specifically evaluating decitabine in refractory cytopenia of childhood / pediatric MDS
+**Jatkaakseen tarvitaan seuraavaa:**
+- TFDA/paikallisen pakkausselosteen varoitukset ja vasta-aiheet (ratkaisee DG001, esteenä oleva)
+- Vahvistettu vaikutusmekanismin tieto DrugBankista (ratkaisee DG002)
+- Decitabinen alkuperäisten hyväksyttyjen indikaatioiden ja lisensointitilan vahvistaminen säätelijän tietokannasta
+- Kaikki muut kliiniset tutkimukset tai kontrolloidut tutkimukset, jotka arvioivat decitabineä erityisesti lapsuuden refaktorisessa sytopeniassa / pediatrisessa MDS:ssä
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

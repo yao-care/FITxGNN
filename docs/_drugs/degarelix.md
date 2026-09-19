@@ -29,78 +29,79 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Degarelix: From Advanced Prostate Cancer to Hypertrichosis
+# Degarelix: Edistyneestä eturauhassyövästä hypertrikoosiin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-> Degarelix is a gonadotropin-releasing hormone (GnRH) receptor antagonist generally used in advanced, hormone-dependent prostate cancer.
-> The TxGNN model predicts it may be effective for **Hypertrichosis (disease)**,
-> but this ranks as the top of a broader list of low-plausibility predictions, with **0 clinical trials** and **0 publications** currently supporting this specific indication.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Advanced hormone-dependent prostate cancer (based on general drug class knowledge; not present in this evidence pack — see Data Gaps) |
-| Predicted New Indication | Hypertrichosis (disease) |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L5 |
-| Finland Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Degarelix on gonadotropin-vapautushormoni (GnRH) -reseptoriantagonisti, jota käytetään yleensä edistyneessä, hormoniherkkässä eturauhassyövässä.
+> TxGNN-malli ennustaa, että se voi olla tehokas **hypertrikoosin (sairaus)** -hoidossa,
+> mutta tämä sijoittuu laajemman matalan uskottavuuden ennusteiden listan huipulle, ja tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua** ei tue tätä spesifistä indikaatiota.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Pika-yleiskatsaus
 
-Currently, detailed mechanism of action data is not available in this evidence pack (flagged as a High-severity data gap, DG002). Based on general known information, Degarelix is a GnRH receptor antagonist that suppresses luteinizing hormone and testosterone release, an effect well established in advanced prostate cancer.
-
-The top-ranked predicted indication, hypertrichosis, is mechanistically linked only in a narrow subset of cases: some androgen-dependent hypertrichosis subtypes could theoretically respond to testosterone suppression. However, the majority of hypertrichosis presentations (including the congenital and hair-shaft-structural subtypes also predicted at lower ranks) are not androgen-driven and have no known relationship to the HPG axis.
-
-No clinical trials, ICTRP registrations, or PubMed literature specific to degarelix and hypertrichosis were found. Notably, the 20 literature records retrieved under rank 4 ("malformation syndrome with odontal/periodontal component") were reviewed and found to concern periodontitis pathology and treatment generally — they do not mention degarelix or GnRH antagonists and appear to be a keyword-matching artifact rather than genuine supporting evidence. This prediction should be treated as a model-score-only hypothesis (L5) pending mechanistic and clinical validation.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Kohde | Sisältö |
+|-------|---------|
+| Alkuperäinen indikaatio | Edistynyt hormoniherkkä eturauhassyöpä (perustuu yleiseen lääkeluokan tuntemukseen; ei ole olemassa tässä näyttöpaketissa — katso Tietoaukot) |
+| Ennustettu uusi indikaatio | Hypertrikoosi (sairaus) |
+| TxGNN-ennusteen pistesyys | 99.99% |
+| Näyttötaso | L5 |
+| Suomen markkinoiden tila | Ei markkinoilla |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Lykkää |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennuste on järkevä?
 
-Currently no related literature available.
+Tällä hetkellä yksityiskohtaisia vaikutusmekanismiin liittyviä tietoja ei ole saatavilla tässä näyttöpaketissa (merkitty korkeatasoiseksi tietoaukoksi DG002). Yleisen tunnetun tiedon perusteella Degarelix on GnRH-reseptoriantagonisti, joka estää luteinoivan hormonin ja testosteronin vapautumista – vaikutus, joka on hyvin vakiintunut edistyneessä eturauhassyövässä.
 
----
+Parhaiten sijoittautunut ennustettu indikaatio, hypertrikoosi, on mekanistisesti yhteydessä vain kapeaan alikohoryhmään: jotkut androgeenieherkkiä hypertrikoosin alatyyppiä voisivat teoreettisesti vastata testosteronin vaikutuksen laskuun. Kuitenkin suurin osa hypertrikoosin ilmenemismuodoista (kuten synnynnäiset ja hiusvarren rakenteeseen liittyvät alatyypistä, joilla on myös alhaisemmat ennusteen sijoitukset) eivät ole androgeeniksi johtuvia eivätkä ole yhteydessä HPG-akseliin.
 
-## Finland Market Information
-
-Degarelix is currently **not marketed** in Finland (0 marketing authorizations found in the queried registry).
+Mitään kliinisiä tutkimuksia, ICTRP-rekisteröintejä tai PubMed-kirjallisuutta, joka koskee degareliksia ja hypertrikoossia, ei löytynyt. Huomattavaa on, että sijoituksella 4 haetut 20 kirjallisuustietuetta ("epämuodostuma-syndrooma hammas-/parodontaalisen komponentin kanssa") käsittelevät periodontiitti-patologiaa ja -hoitoa yleisesti — ne eivät mainitse degareliksia tai GnRH-antagonisteja ja näyttävät olevan pikemminkin avainsanahaun artefakti kuin todellinen tukeva näyttö. Tätä ennustetta tulee käsitellä mallin pisteytyksen perusteella tehtynä hypoteesina (L5), odottaen mekanistista ja kliinistä validointia.
 
 ---
 
-## Safety Considerations
+## Kliinisten tutkimusten näyttö
 
-Please refer to the package insert for safety information.
-
-*Note: TFDA/Fimea package insert warnings and contraindications data could not be retrieved (Blocking data gap DG001) and are required before any S1 safety pre-assessment can proceed.*
+Tällä hetkellä ei ole liittyviä rekisteröityjä kliinisiä tutkimuksia.
 
 ---
 
-## Conclusion and Next Steps
+## Kirjallisuuden näyttö
 
-**Decision: Hold**
+Tällä hetkellä ei ole liittyviä kirjallisuustietoja saatavilla.
 
-**Rationale:**
-The prediction is supported only by TxGNN model score with no corroborating clinical trials or literature (Evidence Level L5), and the mechanistic rationale applies to only a narrow, androgen-dependent subset of hypertrichosis. A Blocking-severity gap in regulatory safety data (TFDA/Fimea package insert) also prevents any safety pre-assessment.
+---
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert (warnings, contraindications) — Blocking gap DG001
-- Confirmed mechanism of action data from DrugBank — High-priority gap DG002
-- Targeted literature/clinical search specifically for "degarelix AND hypertrichosis" (current 20-record literature match under rank 4 is unrelated noise and should be excluded)
-- Preclinical or case-level evidence establishing a causal link between androgen suppression and the specific hypertrichosis subtype targeted
+## Suomen markkinoilla olevat tiedot
+
+Degarelix **ei ole markkinoilla** Suomessa (kyselyissä ei löytynyt markkinointivaltuutuksia).
+
+---
+
+## Turvallisuusasiat
+
+Katso pakettselosteen turvallisuustiedot.
+
+*Huomautus: TFDA/Fimean pakettiselosteen varoituksia ja vasta-aiheita koskevia tietoja ei voitu hakea (Estävä tietoaukko DG001) ja ne ovat välttämättömiä, ennen kuin mikä tahansa S1-turvallisuuden esihyväksyntä voidaan jatkaa.*
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Lykkää**
+
+**Perustelut:**
+Ennustetta tuetaan vain TxGNN-mallin pisteytyksen perusteella, eikä siinä ole kliinisiä tutkimuksia tai kirjallisuutta (Näyttötaso L5), ja mekanistinen perustelus koskee vain pientä, androgeenieherkkien hypertrikoosin osajoukkoa. Estävän tason tietoaukko viranomaisen turvallisuustiedoissa (TFDA/Fimean pakettiseloste) estää myös minkä tahansa turvallisuuden esihyväksyntä-arviointia.
+
+**Etenemisen edellytykset:**
+- TFDA/Fimean pakettiseloste (varoitukset, vasta-aiheet) — Estävä tietoaukko DG001
+- Vahvistetut vaikutusmekanismin tiedot DrugBankista — Korkean prioriteetin tietoaukko DG002
+- Kohdennettu kirjallisuus-/kliininen haku erityisesti termeille "degareliksi JA hypertrikoosi" (nykyinen 20-tietueen kirjallisuus-osuma sijoituksella 4 on asiaton kohina ja se tulisi sulkea pois)
+- Prekliininen tai tapaus-tasolla perustuva näyttö, joka osoittaa syy-seuraus-suhteen androgenivaikutuksen laskemisen ja kohdennetun hypertrikoosin erityisen alatyyppin välillä
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

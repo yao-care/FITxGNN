@@ -29,72 +29,73 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Telmisartan: From Hypertension to Prinzmetal Angina
+# Telmisartaani: hypertensioista Prinzmetal-angiinaan
 
-## One-Sentence Summary
+## Yhteenvedolause
 
-Telmisartan is an angiotensin II receptor blocker (ARB), an established antihypertensive drug class. TxGNN's highest-scoring prediction for this drug is **Prinzmetal angina**, but currently **no clinical trials and no literature** support this specific drug-disease link, and the drug's own mechanism does not align with the accepted treatment pathway for this condition.
+Telmisartaani on angiotensiini II -reseptorin salpaaja (ARB), vakiintunut verenpainelääkkeiden luokka. TxGNN:n korkein-pisteytetty ennuste tälle lääkkeelle on **Prinzmetal-angiina**, mutta tällä hetkellä **ei kliinisiä tutkimuksia eikä kirjallisuustodisteita** ole tukeakseen tätä spesifistä lääke-taudin yhteyttä, ja lääkkeen oma mekanismi ei ole sopusoinnussa hyväksytyn hoitokäytännön kanssa tälle tilalle.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Hypertension (ARB class; no formal marketing authorization or licensed indication text on file in this market) |
-| Predicted New Indication | Prinzmetal angina |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L5 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen indikaatio | Hypertensio (ARB-luokka; muodollista myyntilupaa tai rekisteröityä indikaation tekstiä ei ole saatavilla tällä markkinalla) |
+| Ennustettu uusi indikaatio | Prinzmetal-angiina |
+| TxGNN-ennusteen pistemäärä | 99.98% |
+| Evidenssitaso | L5 |
+| Suomen markkinatilanne | ✗ Ei markkinoilla |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Keskeytä |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, detailed mechanism-of-action data for telmisartan is not available in this evidence pack. Based on known information, telmisartan is an angiotensin II type 1 (AT1) receptor blocker within the ARB class, and its efficacy in hypertension management is well established in general clinical practice.
+Tällä hetkellä telmisartaanin yksityiskohtaisia toimintamekanismin tietoja ei ole saatavilla tässä aineistopaketissa. Tunnettujen tietojen perusteella telmisartaani on angiotensiini II tyypin 1 (AT1) -reseptorin salpaaja ARB-luokassa, ja sen teho verenpaineen hallinnassa on hyvin vakiintunut yleisessä kliinisessä käytännössä.
 
-Prinzmetal (variant) angina, however, is caused by coronary artery vasospasm, and its first-line treatment is calcium channel blockers, not RAAS-pathway agents. According to the evidence pack's own mechanistic assessment, ARB blockade has no established direct pharmacological pathway to coronary vasospasm, and this candidate is supported by neither trials nor literature — the mechanistic link is explicitly rated as weak.
+Prinzmetal (muuntuva) angiina on kuitenkin sepelvaltimon spasmin aiheuttama, ja sen ensimmäisen linjan hoito on kalsiumkanavansalpaat, ei RAAS-polun lääkkeet. Aineistopaketin omien mekanististen arvioiden mukaan ARB-salpaus ei ole vakiintunutta suoraa farmakologista mekanismia sepelvaltimon spasmin hoitoon, ja tämä ehdokas ei ole tuettu tutkimuksilla eikä kirjallisuustodisteilla — mekanistinen yhteys on nimenomaisesti arvioitu heikoksi.
 
-In other words, this is a case where TxGNN's network-similarity score is high, but the underlying pharmacology and the evidence base do not yet corroborate it. The prediction should be treated as a hypothesis-generating signal only, not as a validated repurposing lead.
+Toisin sanoen, tämä on tapaus, jossa TxGNN:n verkon samankaltaisuuspistemäärä on korkea, mutta taustalla oleva farmakologia ja aineistokanta eivät vielä tue sitä. Ennustetta tulisi käsitellä vain hypoteesin tuottavana signaalina, ei vahvistettuna uudelleenkäyttöjohdatteena.
 
-## Clinical Trial Evidence
+## Kliinisiä tutkimuksia koskevat todisteet
 
-Currently no related clinical trials registered
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia
 
-## Literature Evidence
+## Kirjallisuustodisteita
 
-Currently no related literature available
+Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuustodisteita
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Telmisartan currently has no active marketing authorizations on file in this jurisdiction (market status: not marketed; 0 licenses). No approved product/indication text is available to summarize.
+Telmisartaanilla ei tällä hetkellä ole aktiivisia myyntilupahakemuksia tässä lainkäyttöalueella (markkinatilanne: ei markkinoilla; 0 lupaa). Yhtään hyväksyttyä tuotetta/indikaation tekstiä ei ole saatavilla tiivistelmän tekemiseen.
 
-## Safety Considerations
+## Turvallisuusnäkökohtia
 
-Please refer to the package insert for safety information.
+Viittaa pakkausselosteen turvallisuustietoihin.
 
-*(Note: TFDA/Fimea package insert data for warnings and contraindications is flagged as a Blocking data gap (DG001) in this evidence pack — this should be resolved before any safety-based decision-making.)*
+*(Huomio: TFDA/Fimea pakkausselosteen varoituksista ja vasta-aiheista koskevat tiedot on merkitty estäväksi tietokuiluksi (DG001) tässä aineistopaketissa — tämä tulisi ratkaista ennen kuin tehdään turvallisuusperusteisia päätöksiä.)*
 
-## Conclusion and Next Steps
+## Johtopäätökset ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Keskeytä**
 
-**Rationale:**
-The TxGNN score for Prinzmetal angina is high, but there is no clinical trial or literature evidence, and the drug's ARB mechanism does not plausibly explain efficacy in a coronary-vasospasm-driven condition whose standard therapy operates through a different pathway (calcium channel blockade). Evidence Level L5 (model prediction only) does not support progression.
+**Perustelut:**
+TxGNN:n Prinzmetal-angiinaan liittyvä pistemäärä on korkea, mutta ei ole kliinisiä tutkimuksia tai kirjallisuustodisteita, ja lääkkeen ARB-mekanismi ei realistisesti selitä tehokkuutta sepelvaltimon-spasmin aiheuttamassa tilassa, jonka vakiohoito toimii eri polulla (kalsiumkanavansalpaus). Evidenssitaso L5 (vain mallin ennuste) ei tue etenemistä.
 
-**To proceed, the following is needed:**
-- Detailed mechanism-of-action (MOA) data for telmisartan (High-severity gap, DG002)
-- TFDA/Fimea package insert — warnings and contraindications (Blocking gap, DG001)
-- Preclinical or mechanistic studies linking AT1 blockade to coronary vasospasm, to establish biological plausibility before further investment
+**Etenemiseksi tarvitaan seuraavaa:**
+- Telmisartaanin yksityiskohtaiset toimintamekanismin (MOA) tiedot (korkean vakavuuden tietokuilu, DG002)
+- TFDA/Fimea pakkausseloste — varoitukset ja vasta-aiheet (estävä tietokuilu, DG001)
+- Esikliiniset tai mekanistiset tutkimukset AT1-salpauksesta sepelvaltimon spasmiin, biologisen uskottavuuden vakiinnuttamiseksi ennen lisäinvestointeja
 
 ---
 
-### Other Candidate Indications in This Evidence Pack
+### Muut ehdokkaat indikatiota tässä aineistopaketissa
 
-This evidence pack is a multi-indication candidate set; two other TxGNN-predicted indications carry substantially stronger evidence than Prinzmetal angina and may warrant separate evaluation:
+Tämä aineistopaketti sisältää ehdokkaita useille indikatioll; kaksi muuta TxGNN-ennustettua indikatiota kantavat huomattavasti vahvempia todisteita kuin Prinzmetal-angiina ja saattavat vaatia erillistä arviointia:
 
-- **Cerebral artery occlusion** (rank 4, score 99.95%) — Evidence Level L2, recommendation "Research Question." Supported by 1 completed Phase 4 RCT (n=1,228) and 17 preclinical publications showing neuroprotective effects in stroke models, though human causal evidence remains indirect.
-- **Intracerebral hemorrhage** (rank 9, score 99.93%) — Evidence Level L2, recommendation "Research Question." Supported by the completed Phase 3 TRIDENT trial (n=1,671) for recurrence prevention, though telmisartan was one component of a triple-pill combination rather than an independently tested agent.
+- **Aivovaltimon tukos** (sijoitus 4, pistemäärä 99.95%) — Evidenssitaso L2, suositus "Tutkimuskysymys." Tuettu 1 suoritetulla Phase 4 RCT:llä (n=1,228) ja 17 esikliinisellä julkaisulla, jotka osoittavat neuroprotektiivisia vaikutuksia aivohalvauksessa, vaikka ihmisen syy-suhde jää epäsuoraksi.
+- **Aivokudosverenvuoto** (sijoitus 9, pistemäärä 99.93%) — Evidenssitaso L2, suositus "Tutkimuskysymys." Tuettu suoritetulla Phase 3 TRIDENT-tutkimuksella (n=1,671) uusiintumisen ehkäisyyn, vaikka telmisartaani oli yksi komponentti kolmen lääkkeen yhdistelmässä eikä itsenäisesti testattu aine.
 
-These would be better candidates for a dedicated evaluation report than Prinzmetal angina.
+Nämä olisivat parempia ehdokkaita erilliselle arviointiraportille kuin Prinzmetal-angiina.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

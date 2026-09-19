@@ -29,70 +29,71 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# ABACAVIR: Antiretroviral Agent — Drug Repurposing Evaluation
+# ABACAVIR: antiviraalinen aine — Lääkkeen uudelleenkäytön arviointi
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Abacavir is a nucleoside analogue reverse transcriptase inhibitor (NRTI) used in the treatment of HIV infection. The TxGNN model has **not generated any predicted new indications** for this drug at the current data cutoff, and **no clinical trials or literature** supporting repurposing directions are available in this evidence pack.
+Abacavir on nukleosidianaloginen käänteistranskriptaasi-inhibiittori (NRTI), jota käytetään HIV-infektioiden hoidossa. TxGNN-malli ei ole tuottanut **mitään ennustettuja uusia indikaatioita** tälle lääkkeelle nykyisen tietokatkaisun hetkellä, ja **mitään kliinisiä tutkimuksia tai kirjallisuutta**, joka tukee uudelleenkäytön suuntia, ei ole saatavilla tässä näyttöpaketissa.
 
-## Quick Overview
+## Pikakatsaus
 
-| Item | Content |
+| Kohde | Sisältö |
 |------|------|
-| Original Indication | HIV infection (known from drug class; no Taiwan label available) |
-| Predicted New Indication | — None predicted |
-| TxGNN Prediction Score | — N/A |
-| Evidence Level | L5 (No predictions or supporting studies) |
-| Taiwan Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+| Alkuperäinen indikaatio | HIV-infektio (tiedetään lääkeluokasta; ei Taiwanin pakkausselosteessa merkittyä) |
+| Ennustettu uusi indikaatio | — Mitään ei ole ennustettu |
+| TxGNN-ennustepistemäärä | — Ei saatavilla |
+| Näyttötaso | L5 (Ei ennusteita eikä tukevia tutkimuksia) |
+| Taiwanin markkinatilanne | ✗ Ei markkinoilla |
+| Hyväksymisten lukumäärä | 0 |
+| Suositeltu päätös | **Pidä** |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on perusteltu?
 
-There is currently **no TxGNN prediction** available for Abacavir. The model did not return any candidate new indications, so a mechanistic plausibility assessment cannot be performed at this time.
+Abacavirin osalta ei ole tällä hetkellä **TxGNN-ennustetta** saatavilla. Malli ei palauttanut mitään uusia ehdokasindikaatioita, joten mekanistisen uskottavuuden arviointia ei voida suorittaa tällä hetkellä.
 
-For reference, Abacavir is a carbocyclic synthetic nucleoside analogue. It is intracellularly converted to its active metabolite, carbovir triphosphate (CBV-TP), which competitively inhibits HIV-1 reverse transcriptase and terminates viral DNA chain elongation. However, detailed mechanism of action data was not included in this evidence pack (marked as a data gap).
+Viitteeksi: abacavir on karbosyklinen synteettinen nukleosidianalogi. Se muutetaan solunsisäisesti sen aktiiviseksi metaboliitiksi, karboviiri-trifosfaatiksi (CBV-TP), joka kilpailevasti estää HIV-1:n käänteistranskriptaasin ja keskeyttää viral-DNA-ketjun pidentämisen. Yksityiskohtaiset vaikutusmekanismin tiedot eivät kuitenkaan sisältyneet tähän näyttöpakettiin (merkitty tietoaukoksi).
 
-Without a predicted indication, there is no basis to evaluate whether Abacavir's mechanism could be leveraged for a novel therapeutic use.
+Ilman ennustettua indikaatiota ei ole perustaa arvioida, voitaisiinko abacavirin mekanismia hyödyntää uudelle terapeuttiselle käytölle.
 
-## Clinical Trial Evidence
+## Kliinisten tutkimusten näyttö
 
-Currently no related clinical trials registered for any repurposing indication.
+Tällä hetkellä mitään asiaan liittyviä kliinisiä tutkimuksia ei ole rekisteröity millekään uudelleenkäytön indikaatiolle.
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-Currently no related literature available for any repurposing indication.
+Tällä hetkellä mitään asiaan liittyvää kirjallisuutta ei ole saatavilla millekään uudelleenkäytön indikaatiolle.
 
-## Taiwan Market Information
+## Taiwanin markkinatiedot
 
-Abacavir currently holds **no marketing authorizations** in Taiwan (TFDA). No licensed products were identified during the query (2026-03-29).
+Abacavir ei tällä hetkellä pidä **markkinointilupaa** Taiwanissa (TFDA). Mitään lisensoituja tuotteita ei löydetty kyselyn aikana (2026-03-29).
 
-## Safety Considerations
+## Turvallisuushuomioon otettavat asiat
 
-> Please refer to the package insert for safety information.
+> Katso turvallisuustiedot pakkausselosteesta.
 >
-> Note: Key warnings, contraindications, and drug-drug interaction data were not available in this evidence pack. These represent **blocking data gaps** that must be resolved before any safety evaluation can proceed.
+> Huomio: Olennaiset varoitukset, vasta-aiheet ja lääkkeiden väliset yhteisvaikutustiedot eivät olleet saatavilla tässä näyttöpaketissa. Nämä edustavat **estäviä tietoaukkoja**, jotka on ratkaistava ennen kuin turvallisuusarviointi voi jatkua.
 
-## Data Gaps Identified
+## Tunnistetut tietoaukot
 
-| Gap ID | Category | Item | Severity | Impact | Remediation |
+| Aukon tunniste | Luokka | Kohde | Vakavuus | Vaikutus | Korjaus |
 |--------|----------|------|----------|--------|-------------|
-| DG001 | Drug Level | TFDA Package Insert Warnings / Contraindications | **Blocking** | Cannot enter S1 safety preliminary assessment | Download and parse package insert PDF from TFDA website |
-| DG002 | Drug Level | Mechanism of Action (MOA) | **High** | Impacts mechanistic relevance analysis | Query DrugBank API |
+| DG001 | Lääkkeen tasolla | TFDA:n pakkausselosteen varoitukset / Vasta-aiheet | **Estävä** | Ei voida siirtyä S1-turvallisuusarvioinnin alustavaiheeseen | Lataa ja analysoi pakkausselosteen PDF-tiedosto TFDA:n verkkosivustolta |
+| DG002 | Lääkkeen tasolla | Vaikutusmekanismi (MOA) | **Korkea** | Vaikuttaa mekanistisen relevanssin analyysiin | Hae tiedot DrugBank API:sta |
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidä**
 
-**Rationale:**
-The TxGNN model has not generated any predicted new indications for Abacavir. Combined with the absence of Taiwan marketing authorization, missing safety data (blocking-level gap), and no supporting clinical or literature evidence, there is insufficient basis to advance this candidate through the repurposing pipeline.
+**Perustelu:**
+TxGNN-malli ei ole tuottanut mitään ennustettuja uusia indikaatioita abacavirin osalta. Yhdessä Taiwanin markkinointilupien puuttumisen, puuttuvien turvallisuustietojen (estävä tason aukko) ja tukevien kliinisten tutkimusten tai kirjallisuuden näyttöjen puuttumisen kanssa, perusta on riittämätön edistämään tätä kandidaattia uudelleenkäytön prosessissa.
 
-**To proceed, the following is needed:**
-- Re-run TxGNN prediction pipeline to confirm absence of candidate indications (or update to a newer model version)
-- Resolve DG001: Obtain TFDA package insert warnings and contraindications (blocking for safety assessment)
-- Resolve DG002: Retrieve detailed mechanism of action data from DrugBank API
-- If a future prediction is generated, gather clinical trial and literature evidence for the predicted indication
-- Assess Taiwan regulatory pathway feasibility given the drug's current unlicensed status
+**Edistämiseksi tarvitaan seuraavaa:**
+- Suorita uudelleen TxGNN-ennuste prosessi vahvistaaksesi, ettei ole ehdokasindikaatioita (tai päivitä uudempaan mallin versioon)
+- Ratkaise DG001: Hanki TFDA:n pakkausselosteen varoitukset ja vasta-aiheet (esto turvallisuusarviointiin)
+- Ratkaise DG002: Hae yksityiskohtaiset vaikutusmekanismin tiedot DrugBank API:sta
+- Jos tulevaisuudessa tuotetaan ennuste, kerää kliinisten tutkimusten ja kirjallisuuden näyttö ennustetun indikaation osalta
+- Arvioi Taiwanin sääntelyregulaation toteutettavuus ottaen huomioon lääkkeen nykyinen luvaton asema
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

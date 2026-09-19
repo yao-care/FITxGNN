@@ -29,70 +29,71 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Aprepitant: Evaluation Halted — Critical Data Gaps Identified
+# Aprepitant: Arviointi keskeytetty — kriittiset tietoaukot tunnistettu
 
-## Summary
+## Yhteenveto
 
-Aprepitant (DrugBank: DB00673) is an NK1 (neurokinin-1) receptor antagonist approved internationally for prevention of chemotherapy-induced nausea and vomiting (CINV).
-This Evidence Pack (v4, 2026-04-20) is **incomplete**: the TxGNN prediction pipeline has returned **no predicted indications**, and two critical data gaps remain unresolved.
-No meaningful repurposing evaluation can proceed until these gaps are remediated.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | NK1 receptor antagonist / antiemetic (CINV prevention) |
-| Predicted New Indication | Pending — TxGNN predictions not yet available |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | N/A |
-| Taiwan Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+Aprepitant (DrugBank: DB00673) on NK1 (neurokiini-1) -reseptoriagonisti, joka on hyväksytty kansainvälisesti kemoterapian aiheuttaman pahoinvoinnin ja oksentelun (CINV) ehkäisyyn.
+Tämä näyttöpaketti (v4, 2026-04-20) on **puutteellinen**: TxGNN-ennusteputkilinja on palauttanut **ei yhtään ennustettua indikaatiota**, ja kaksi kriittistä tietoaukoa jää ratkaisematta.
+Mitään merkityksellistä uudelleenkäyttöarviointia ei voida suorittaa, kunnes nämä aukot on korjattu.
 
 ---
 
-## Why No Evaluation Is Possible Yet
+## Pikayleiskatsaus
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack (Data Gap DG002, severity: High). Based on publicly known information, Aprepitant is an NK1 receptor antagonist approved by FDA and EMA for prevention of CINV and postoperative nausea and vomiting (PONV). It is commonly co-administered with corticosteroids and 5-HT₃ antagonists as part of antiemetic prophylaxis regimens.
-
-More critically, **TxGNN has not produced any predicted indications** for Aprepitant in this Evidence Pack (`predicted_indications` array is empty). Without a TxGNN prediction score and a target indication, the core repurposing hypothesis cannot be evaluated.
-
-Two data gaps must be resolved before this candidate can advance:
-
-| Gap ID | Item | Severity | Impact | Remediation |
-|--------|------|----------|--------|-------------|
-| DG001 | TFDA package insert warnings / contraindications | **Blocking** | Cannot complete S1 safety screening | Download TFDA insert PDF and parse |
-| DG002 | Mechanism of action (MOA) | **High** | Cannot perform mechanism-relevance analysis | Query DrugBank API for DB00673 |
-
----
-
-## Taiwan Market Information
-
-Aprepitant has **zero** authorized licenses in Taiwan. It is not currently marketed domestically.
+| Kohde | Sisältö |
+|-------|---------|
+| Alkuperäinen indikaatio | NK1-reseptoriagonisti / antiemetikum (CINV-profylaksia) |
+| Ennustettu uusi indikaatio | Odottaa — TxGNN-ennusteet eivät ole vielä käytettävissä |
+| TxGNN-ennustepistemäärä | N/A |
+| Näyttötaso | N/A |
+| Taiwanin markkinoiden tila | ✗ Ei markkinoitu |
+| Hyväksyntöjen määrä | 0 |
+| Suositeltu päätös | **Keskeytä** |
 
 ---
 
-## Safety Considerations
+## Miksi arviointia ei voida vielä suorittaa
 
-Please refer to the package insert for safety information.
+Tällä hetkellä tämän näyttöpaketin yksityiskohtaisia vaikutusmekanismitietoja ei ole saatavilla (tietoaukko DG002, vakavuus: Korkea). Julkisesti saatavilla olevien tietojen perusteella aprepitantti on NK1-reseptoriagonisti, jonka FDA ja EMA ovat hyväksyneet CINV:n ja leikkauksen jälkeisen pahoinvoinnin ja oksentelun (PONV) ehkäisyyn. Sitä käytetään yleisesti yhdessä kortikosteroidien ja 5-HT₃-antagonistien kanssa antiemetisen profylaksin osana.
+
+Kriittisempää on, että **TxGNN ei ole tuottanut yhtään ennustettua indikaatiota** aprepitantille tässä näyttöpaketissa (`predicted_indications`-taulukko on tyhjä). Ilman TxGNN-ennustepistemäärää ja kohdeindikaatiota uudelleenkäyttöhypoteesia ei voida arvioida.
+
+Kaksi tietoaukoa on ratkaistava, ennen kuin tämä kandidaatti voi edetä:
+
+| Aukon tunnus | Kohde | Vakavuus | Vaikutus | Korjaus |
+|--------------|-------|----------|---------|--------|
+| DG001 | TFDA-pakkausseloste varoitukset / vasta-aiheet | **Estävä** | Ei voida suorittaa S1-turvallisuustarkastusta | Lataa TFDA-seloste PDF ja jäsennä |
+| DG002 | Vaikutusmekanismi (MOA) | **Korkea** | Ei voida suorittaa mekanismin relevanssianalyysia | Kysy DrugBank API:sta DB00673 |
 
 ---
 
-## Conclusion and Next Steps
+## Taiwanin markkinatiedot
 
-**Decision: Hold**
+Aprepitantilla on **nolla** hyväksyttyä lisenssiä Taiwanissa. Sitä ei ole tällä hetkellä markkinoitu kotimaassa.
 
-**Rationale:**
-The Evidence Pack contains no TxGNN predictions and two unresolved data gaps of Blocking/High severity; a repurposing evaluation report cannot be meaningfully generated at this stage.
+---
 
-**To proceed, the following is needed:**
+## Turvallisuusnäkökohdat
 
-1. **Run TxGNN prediction pipeline** — generate ranked indication predictions for Aprepitant and populate `predicted_indications`
-2. **Resolve DG001** — download and parse the TFDA (or EMA/FDA) package insert PDF to extract key warnings and contraindications
-3. **Resolve DG002** — query DrugBank API for Aprepitant's mechanism of action data
-4. **Re-generate Evidence Pack** — once all gaps are resolved, produce a v5 Evidence Pack with complete data and resubmit for full report generation
+Turvallisuustiedot löytyvät pakkausselosteesta.
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Keskeytä**
+
+**Perustelut:**
+Näyttöpaketti ei sisällä TxGNN-ennusteita ja kaksi ratkaisematonta tietoaukkoa, joiden vakavuus on Estävä/Korkea; uudelleenkäyttöarviointiraporttia ei voida luoda mielekkäällä tavalla tässä vaiheessa.
+
+**Jotta voidaan edetä, seuraava on tarpeen:**
+
+1. **Suorita TxGNN-ennusteputkilinja** — luo rankatut indikaatioennusteet aprepitantille ja täytä `predicted_indications`
+2. **Ratkaise DG001** — lataa ja jäsennä TFDA:n (tai EMA:n/FDA:n) pakkausseloste PDF:ää avainvaroitusten ja vasta-aiheita varten
+3. **Ratkaise DG002** — kysy DrugBank API:sta aprepitantin vaikutusmekanismitiedot
+4. **Luo uudelleen näyttöpaketti** — kun kaikki aukot on ratkaistu, tuota v5-näyttöpaketti täydellisenä tietona ja lähetä uudelleen täyden raportin luomista varten
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

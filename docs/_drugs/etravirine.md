@@ -29,71 +29,72 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# ETRAVIRINE: From HIV-1 Infection to Simian Immunodeficiency Virus Infection
+# ETRAVIRINE: HIV-1-infektiosta Simian Immunodeficiency Virus -infektioon
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Etravirine is a second-generation non-nucleoside reverse transcriptase inhibitor (NNRTI) originally developed for HIV-1 infection treatment. The TxGNN model's top prediction is **Simian Immunodeficiency Virus (SIV) infection**, but this is currently supported only by **0 clinical trials** and **1 preclinical/in-vitro publication**, and the evidence pack itself flags the mechanistic rationale as weak and directionally uncertain.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | HIV-1 infection (per repurposing rationale notes in the evidence pack; no formal Finland license record exists) |
-| Predicted New Indication | Simian Immunodeficiency Virus (SIV) infection |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L4 |
-| Finland Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Etravirine on toisen sukupolven ei-nukleosidinen käänteistranskriptaasi-inhibiittori (NNRTI), joka on alun perin kehitetty HIV-1-infektion hoitoon. TxGNN-mallin huippuennuste on **Simian Immunodeficiency Virus (SIV) -infektio**, mutta sitä tukee tällä hetkellä vain **0 kliinistä tutkimusta** ja **1 prekliininen/in vitro -julkaisu**, ja todistusten paketti itse merkitsee mekanistisen perustelun olevan heikko ja suuntasuhteeltaan epävarma.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Detailed mechanism of action data is not available in this evidence pack (MOA is flagged as a data gap, DG002). Based on known information, etravirine belongs to the NNRTI class and is well established for HIV-1 treatment by binding the reverse transcriptase (RT) enzyme's non-nucleoside binding pocket to block viral replication.
-
-SIV and HIV-1 are both lentiviruses with structurally related reverse transcriptases, which is presumably why the TxGNN embedding model links them. However, the evidence pack's own rationale explicitly cautions that SIV reverse transcriptase differs meaningfully from HIV-1 RT within the NNRTI binding pocket sequence, and that most NNRTIs — including etravirine — show markedly reduced activity against SIV compared to HIV-1. This means the mechanistic extrapolation underlying this prediction is weak and its directionality is uncertain, rather than a confirmed cross-species mechanism.
-
-Supporting this caution, the only literature retrieved for this indication is a single 2015 in vitro/preclinical nanoparticle drug-delivery paper that does not directly test etravirine activity against SIV. No clinical trials, ICTRP records, or dedicated antiviral-activity studies against SIV exist. Overall, this prediction should be read as a model-generated hypothesis requiring wet-lab confirmation, not an evidence-backed repurposing signal.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | HIV-1-infektio (uudelleenkäyttöä koskevan perustelun mukaan; virallista Suomen lupaa ei ole) |
+| Ennustettu uusi indikaatio | Simian Immunodeficiency Virus (SIV) -infektio |
+| TxGNN-ennustepisteet | 99.98% |
+| Todisteen taso | L4 |
+| Suomen markkinatilanne | ✗ Ei markkinoitu |
+| Lupahakemusten lukumäärä | 0 |
+| Suositeltu päätös | Odotus |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennuste on perusteltu?
 
-| PMID | Year | Type | Journal | Key Findings |
+Yksityiskohtaisia tietoja vaikutusmekanismista (MOA) ei ole saatavilla tässä todistusten paketissa (MOA on merkitty tietovajeeksi, DG002). Saatavilla olevan tiedon perusteella etravirine kuuluu NNRTI-luokkaan ja on vakiintunut HIV-1-hoidon perustoimijana sitomalla käänteistranskriptaasin (RT) ei-nukleosidiseen siteeseen viruksen replikaation estämiseksi.
+
+SIV ja HIV-1 ovat molemmat lentivirukset, joilla on rakenteellisesti siihen liittyvät käänteistranskriptaasit, mikä selittää oletettavasti TxGNN-upotintamallin tekemän yhteyden näiden välille. Todistusten paketin oma perusteluteksti kuitenkin nimenomaisesti varoittaa, että SIV:n käänteistranskriptaasi eroaa merkittävästi HIV-1:n RT:stä NNRTI-sitteen sekvenssitasolla, ja että useimmat NNRTI:t – mukaan lukien etravirine – osoittavat huomattavasti heikentynyttä aktiivisuutta SIV:a vastaan verrattuna HIV-1:een. Tämä tarkoittaa, että tämän ennusteen taustalla oleva mekanistinen ekstrapolointi on heikko ja sen suuntasuhde epävarma, vakiintuneen lajienvälistä mekanismia vastoin.
+
+Tätä varoitusta tukee se tosiasia, että ainoa tätä indikaatiota varten hankittu kirjallisuusviite on yksittäinen vuodelta 2015 peräisin oleva in vitro-/prekliininen nanopartikkelivetoinen lääkeannostelujärjestelmä käsittelevä tutkimus, joka ei suoraan tutki etravirinin aktiivisuutta SIV:a vastaan. Kliinisiä tutkimuksia, ICTRP-merkintöjä tai SIV:lle spesifisiä antiviraalisen aktiivisuuden tutkimuksia ei ole olemassa. Yhteenvetona tämä ennuste tulisi tulkita mallin tuottamaksi hypoteesiksi, joka vaatii kokeellisen laboratoriovahvistuksen, ei todistusten perusteella tuetuksi uudelleenkäyttösignaaliksi.
+
+---
+
+## Kliinisen tutkimuksen näyttö
+
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
+
+---
+
+## Kirjallisuuden näyttö
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
 |------|-----|------|------|---------|
-| [26529558](https://pubmed.ncbi.nlm.nih.gov/26529558/) | 2015 | Preclinical (in vitro) | Molecular Pharmaceutics | Nanocarrier-based combination delivery of antiretroviral drugs (including NNRTIs) evaluated for synergistic inhibition of cell-free and cell-cell HIV transmission; does not directly test SIV activity. |
+| [26529558](https://pubmed.ncbi.nlm.nih.gov/26529558/) | 2015 | Prekliininen (in vitro) | Molecular Pharmaceutics | Nanopartikkelijärjestelmään perustuva antiretroviruslääkkeiden yhdistelmäannostelu (mukaan lukien NNRTI:t) arvioitiin vapaan ja solu-solun välisen HIV-siirtymisen synergistiselle estämiselle; ei suoraan tutki etravirinin aktiivisuutta SIV:a vastaan. |
 
 ---
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information.
+Turvallisuustiedot löytyvät pakkausselosteesta.
 
 ---
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Odotus**
 
-**Rationale:**
-The top-ranked prediction (SIV infection) rests on a single indirect preclinical paper with no dedicated antiviral evidence against SIV, and the evidence pack itself flags the RT-sequence mechanistic link as weak and directionally uncertain (L4, S0). Critical drug-level data — TFDA/Fimea package insert warnings and contraindications (blocking, DG001) and detailed MOA (DG002) — are also missing, so this candidate cannot yet clear a basic safety pre-screen.
+**Perustelut:**
+Huippusijoituksella oleva ennuste (SIV-infektio) perustuu yksittäiseen epäsuoraan prekliiniseen tutkimukseen, jolla ei ole SIV:a vastaan kohdistuvaa suoraa antiviraalisen aktiivisuuden näyttöä, ja todistusten paketti itse merkitsee RT-sekvenssisen mekanistisen yhteyden olevan heikko ja suuntasuhteeltaan epävarma (L4, S0). Kriittiset lääkkeeseen liittyvät tiedot – TFDA/Fimea-pakkausseloste varoitukset ja vasta-aiheet (esto, DG001) sekä yksityiskohtainen MOA (DG002) – puuttuvat myös, joten tämä ehdokas ei vielä läpäise perustason turvallisuusarvioita.
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert data (warnings, contraindications) — currently blocking (DG001)
-- Confirmed mechanism of action detail from DrugBank (DG002)
-- In vitro or in vivo antiviral activity data for etravirine specifically against SIV reverse transcriptase
-- Data-quality cleanup of the linked evidence set: several trials attached to lower-ranked predictions (e.g., rank 4, "congenital HIV") actually study other ARV agents (cabotegravir, rilpivirine, fosdevirine, darunavir) rather than etravirine itself, and one trial (NCT04273165, etravirine in Friedreich Ataxia) appears misclassified under an unrelated neurodevelopmental disorder prediction (rank 3) — these should be corrected before further scoring
-- Note: ranks 4–5 ("congenital HIV," "AIDS related complex") largely restate etravirine's existing approved HIV-1 mechanism rather than representing a novel repurposing signal; ranks 6–10 have no supporting evidence (L5) and should remain Hold
+**Jatkaakseen seuraavat tiedot ovat tarpeen:**
+- TFDA/Fimea-pakkausseloste tiedot (varoitukset, vasta-aiheet) – tällä hetkellä esto (DG001)
+- Vahvistettu mekanismin yksityiskohdat DrugBankista (DG002)
+- Etravirinin in vitro- tai in vivo -antiviraalisen aktiivisuuden tiedot erityisesti SIV-käänteistranskriptaasia vastaan
+- Linkitetyn todistusjoukon tietojen puhdistaminen: useat alemmille sijoille sijoittuneisiin ennusteisiin liitetyt tutkimukset (esim. sijoitus 4, "synnynnäinen HIV") tutkivat itse asiassa muita antiretrovirusaineita (cabotegravir, rilpivirine, fosdevirine, darunavir) etravirinin sijasta, ja yksi tutkimus (NCT04273165, etravirine Friedreichin ataksian yhteydessä) näyttää väärin luokitelluksi liittyen liittymättömään neuroevolutionaariseen häiriöön (sijoitus 3) – nämä tulisi korjata ennen uudelleenpisteitystä
+- Huomio: sijoitukset 4–5 ("synnynnäinen HIV", "AIDSiin liittyvä kompleksi") toistavat suurelta osin etravirinin olemassa olevaa hyväksyttyä HIV-1-mekanismia uudelleenkäyttösignaalin sijasta; sijoitukset 6–10 joilla ei ole tukevaa näyttöä (L5) ja niiden tulisi jäädä Odotukseen
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -29,74 +29,75 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-# Trastuzumab Emtansine: From HER2-Positive Breast Cancer to Normal Breast-like Subtype of Breast Carcinoma
+# Trastuzumab emtansine: HER2-positiivisesta rintasyövästä normal breast-like -alityyppiin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Trastuzumab emtansine (T-DM1, marketed as Kadcyla) is an antibody-drug conjugate approved internationally for HER2-positive breast cancer.
-The TxGNN model predicts it may be effective for **normal breast-like subtype of breast carcinoma**,
-but this direction is currently supported by only **1 clinical trial** and **no published literature**, and the mechanistic link to this specific molecular subtype is weak.
+Trastuzumab emtansine (T-DM1, kaupallinen nimi Kadcyla) on vasta-aine-lääkekonjugaatti, joka on kansainvälisesti hyväksytty HER2-positiiviseen rintasyöpään.
+TxGNN-malli ennustaa, että se saattaa olla tehokas **normal breast-like -alityyppisen rintasyövän** kannalta,
+mutta tämä indikaatio on tällä hetkellä tuettu vain **1 kliinisellä tutkimuksella** ja **millään julkaistulla kirjallisuudella**, ja mekanistinen yhteys tähän spesifiin molekyylialityyppiin on heikko.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | HER2-positive (HER2+) breast cancer (Kadcyla) |
-| Predicted New Indication | Normal breast-like subtype of breast carcinoma |
-| TxGNN Prediction Score | 99.82% |
-| Evidence Level | L4 |
-| Finland Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen indikaatio | HER2-positiivinen (HER2+) rintasyöpä (Kadcyla) |
+| Ennustettu uusi indikaatio | Normal breast-like -alityyppi rintasyövässä |
+| TxGNN-ennustuspistemäärä | 99.82% |
+| Näyttötaso | L4 |
+| Suomen markkinoinnin tila | Ei markkinoilla (Ei markkinoilla) |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Odota |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennustus on kohtuullinen?
 
-Currently, detailed mechanism of action data is not available from DrugBank. Based on known information, trastuzumab emtansine is an antibody-drug conjugate (ADC) that links trastuzumab, a monoclonal antibody targeting HER2, to DM1, a maytansinoid microtubule inhibitor. Its efficacy depends on HER2 overexpression (IHC3+/FISH+) in tumor cells, and it is currently used under the brand Kadcyla for HER2-positive breast cancer.
+Tällä hetkellä yksityiskohtaisia mekanismin vaikutusta koskevia tietoja ei ole saatavilla DrugBankista. Tunnettujen tietojen perusteella trastuzumab emtansine on vasta-aine-lääkekonjugaatti (ADC), joka yhdistää trastuzumabin – HER2:ta kohdistavaa monoklonaalista vasta-ainetta – DM1:een, maytansinoidiseen mikrotubuli-inhibiittoriin. Sen teho riippuu HER2-yleilektolkaisusta (IHC3+/FISH+) syöpäsoluissa, ja sitä käytetään tällä hetkellä Kadcyla-tuotenimellä HER2-positiivisessa rintasyövässä.
 
-"Normal breast-like" is a PAM50 intrinsic molecular subtype classification, defined by gene-expression profiling rather than HER2 receptor status. This is a different classification axis from HER2 positivity, which is the actual determinant of T-DM1 activity. According to the evidence pack's own mechanistic assessment, the link between T-DM1 and the normal-like subtype is "indirect and unclear," since normal-like tumors are not defined by, and do not reliably correlate with, HER2 overexpression.
+"Normal breast-like" on PAM50-sisäinen molekyylinen alityyppiluokitus, joka määritellään geeni-ekspressio-profilointiin perustuen, ei HER2-reseptorin tilan mukaan. Tämä on eri luokitusakseli kuin HER2-positiivisuus, joka on T-DM1-aktiivisuuden todellinen määräävä tekijä. Todiste-osastojen omaan mekanistiseen arviointiin perustuen, yhteys T-DM1:n ja normal-like -alityypin välillä on "epäsuora ja epäselvä", koska normal-like -kasvaimet eivät ole määritellyt, eivätkä korreloivat luotettavasti HER2-yleilektoinnin kanssa.
 
-As a result, while the TxGNN prediction score is very high (99.82%), the underlying biological rationale is weaker than for HER2-status-based predictions. This is reflected in the low evidence level (L4) and the single supporting trial, which only broadly addresses anti-HER2 therapy in HER2+ breast cancer without specifically confirming a T-DM1 arm or normal-like subtype enrollment.
+Seurauksena on, että vaikka TxGNN-ennustuspistemäärä on erittäin korkea (99.82%), taustalla oleva biologinen perusteltu on heikompi kuin HER2-tilaan perustuvissa ennusteissa. Tämä heijastuu alhaisessa näyttötasossa (L4) ja yksittäisessä tukevassa tutkimuksessa, joka käsittelee laajasti anti-HER2-hoitoa HER2+-rintasyövässä ilman, että se erityisesti vahvistaa T-DM1-kättä tai normal-like -alityypin painopistettä.
 
-## Clinical Trial Evidence
+## Kliiniset tutkimukset
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimuksen numero | Vaihe | Tila | Osallistujamäärä | Tärkeimmät havainnot |
 |---------|------|------|------|---------|
-| [NCT06348134](https://clinicaltrials.gov/study/NCT06348134) | Phase 2 | Recruiting | 74 | Evaluates efficacy and safety of anti-HER2-based therapy (neoadjuvant to adjuvant) in Nigerian women with HER2+ breast cancer; does not confirm a specific T-DM1 arm or normal-like subtype focus (relevance grade B). |
+| [NCT06348134](https://clinicaltrials.gov/study/NCT06348134) | Vaihe 2 | Rekrytoimassa | 74 | Arvioi anti-HER2-pohjaisen terapian (neoadjuvantti adjuvanttiin) tehokkuutta ja turvallisuutta nigerialaisten naisten HER2+-rintasyövässä; ei vahvista erityisiä T-DM1-kättä tai normal-like -alityypin painopistettä (asiallisuusaste B). |
 
-## Literature Evidence
+## Kirjallisuusnäyttö
 
-Currently no related literature available
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-This drug is currently not marketed in Finland (Not marketed), and no market authorization records are available.
+Lääke ei ole tällä hetkellä markkinoilla Suomessa (Ei markkinoilla), eikä markkinoinnin hyväksyntätietueita ole saatavilla.
 
-## Cytotoxicity
+## Sytotoksisuus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (antibody-drug conjugate with a cytotoxic maytansinoid payload, DM1) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| Sytotoksisuuden luokitus | Kohdistettu terapia (vasta-aine-lääkekonjugaatti sytotoksisella maytansinoidisella kuormalla, DM1) |
+| Luuydintukahdutusriski | Katso pakkausselosteesta varoitukset ja varotoimet |
+| Pahoinvoinnin luokitus | Katso pakkausselosteesta varoitukset ja varotoimet |
+| Valvontakohdat | Katso pakkausselosteesta varoitukset ja varotoimet |
+| Käsittelysuoja | Katso pakkausselosteesta varoitukset ja varotoimet |
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information.
+Katso pakkausselosteesta turvallisuustiedoista.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Odota**
 
-**Rationale:**
-The top-ranked prediction (normal breast-like subtype) has a very high TxGNN score but a weak and indirect mechanistic basis, minimal clinical trial support (1 trial, relevance grade B), and no supporting literature — insufficient to advance. Notably, other predicted indications for this drug (PR-positive and PR-negative breast cancer) show much stronger evidence (L1–L2, multiple direct T-DM1 trials and literature) but largely overlap with the drug's existing HER2-positive breast cancer indication rather than representing genuine repurposing.
+**Perustelut:**
+Parhaaksi rankattu ennustus (normal breast-like -alityyppi) on erittäin korkea TxGNN-pistemäärä, mutta heikko ja epäsuora mekanistinen perusta, minimaalinen kliinisen tutkimuksen tuki (1 tutkimus, asiallisuusaste B) ja ei tukevaa kirjallisuutta – riittämätön edetä. Huomionarvoista on, että muut ennustetut indikaatiot tälle lääkkeelle (PR-positiivinen ja PR-negatiivinen rintasyöpä) osoittavat paljon vahvempaa näyttöä (L1–L2, monet suorat T-DM1-tutkimukset ja kirjallisuus), mutta suurelta osin päällekkäin lääkkeen olemassa olevan HER2-positiivisen rintasyövän indikaation kanssa eivätkä edusta todellista uudelleentarkoitusta.
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert data (warnings, contraindications) — currently a blocking data gap
-- DrugBank mechanism of action (MOA) data to strengthen mechanistic-relevance analysis
-- Confirmation of whether any T-DM1 trials specifically enroll or stratify by PAM50 normal-like subtype
-- Additional literature search specific to T-DM1 and normal-like/basal molecular subtypes
+**Edetäkseen seuraavat tarvitaan:**
+- TFDA/Fimea-pakkausseloste tiedot (varoitukset, vasta-indikaatiot) – tällä hetkellä tietovaje, joka estää etenemisen
+- DrugBank-mekanismin vaikutus (MOA) -tiedot mekanistisen asiallisuuden analyysin vahvistamiseksi
+- Vahvistus siitä, ovatko T-DM1-tutkimuksissa erityisesti rekrytoitu tai ositetusti PAM50 normal-like -alityypin mukaan
+- Lisäkirjallisuushaku erityisesti T-DM1:lle ja normal-like/basaalisten molekyylisten alityyppien osalta
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

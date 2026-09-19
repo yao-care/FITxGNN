@@ -29,56 +29,57 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Elafibranor: From Primary Biliary Cholangitis (in development) to Amenorrhea
+# Elafibranor: Primaarisesta sappitiehyiden kirrooosista (kehitysvaiheessa) amenorreaan
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Elafibranor is a PPARα/δ dual agonist being developed for **primary biliary cholangitis (PBC)**; it is not yet marketed in Taiwan. The TxGNN model predicts a possible link to **Amenorrhea**, but this direction currently has **no clinical trials and no supporting literature** — the prediction rests on the model score alone.
+Elafibranor on PPARα/δ-kaksoiagonisti, joka on kehitteillä **primaarisen sappitiehyiden kirroosin (PBC)** hoitoon; sitä ei ole vielä markkinoitu Taiwanissa. TxGNN-malli ennustaa mahdollisen yhteyden **amenorreaan**, mutta tällä suunnalla ei tällä hetkellä ole **kliinisiä tutkimuksia eikä tukevaa kirjallisuutta** — ennuste perustuu pelkästään mallin pistemäärään.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Primary biliary cholangitis (PBC) — per repurposing rationale; drug is under indication development, not yet TFDA-approved |
-| Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.86% (rank 1953) |
-| Evidence Level | L5 |
-| Taiwan Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohde | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Primaarinen sappitiehyiden kirroosin (PBC) — uusiotukintaperustelun mukaan; lääke on indikaation kehitysvaiheessa, ei vielä TFDA:n hyväksymä |
+| Ennustettu uusi indikaatio | Amenorrea |
+| TxGNN-ennusteen pistemäärä | 99.86% (sijoitus 1953) |
+| Todistusaineiston taso | L5 |
+| Taiwanin markkinatilanne | Ei markkinoitu (ei markkinoitu) |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Pidätä |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Detailed mechanism of action data (`original_moa`) is not available in DrugBank for this record. Based on the repurposing rationale provided, elafibranor is a PPARα/δ dual agonist under development for primary biliary cholangitis, acting mainly on hepatic lipid and bile acid metabolism pathways.
+Yksityiskohtaisia mekanismin tietoja (`original_moa`) ei ole saatavilla DrugBankissa tälle tietueelle. Toimitetun uusiotukintaperustelun perusteella elafibranor on PPARα/δ-kaksoiagonisti, joka on kehitteillä primaarisen sappitiehyiden kirroosin hoitoon ja vaikuttaa pääasiassa maksan rasvametabolismin ja sappelihapon metabolismin reiteille.
 
-There is no established mechanistic link between this pathway and amenorrhea. The PPAR receptor family has some indirect literature association with adipose tissue and certain steroidogenesis processes, but this connection has not been validated for elafibranor or its drug class, and there is no known direct interaction with the hypothalamic-pituitary-ovarian axis or gonadotropin regulation.
+Tämän reitin ja amenorreen välillä ei ole tunnettua mekanistista yhteyttä. PPAR-reseptoriperheellä on jonkin verran epäsuoraa kirjallisuusyhteyttä rasvakudokseen ja tiettyihin steroidogeneesin prosesseihin, mutta tätä yhteyttä ei ole vahvistettu elafibranorille tai sen lääkeryhmälle, eikä ole tunnettu suoraa vuorovaikutusta hypotalamus-hypofyysi-munasarjaakseliin tai gonadotropiinierityksen säätöön.
 
-In short, the mechanistic connection between PBC and amenorrhea is speculative rather than established, and on its own is insufficient to support a causal hypothesis for repurposing.
+Lyhyesti sanoen, PBC:n ja amenorreen välinen mekanistinen yhteys on spekulatiivinen pikemminkin kuin vakiintunut, ja se ei yksinään riitä kausaalihypoteesin tukemiseksi uusiotutkinnalle.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen todistusaineisto
 
-Currently no related clinical trials registered.
+Tällä hetkellä ei ole olemassa vastaavia rekisteröityjä kliinisiä tutkimuksia.
 
-## Literature Evidence
+## Kirjallisuusperusteiset todisteet
 
-Currently no related literature available.
+Tällä hetkellä ei ole saatavilla olennaista kirjallisuutta.
 
-## Safety Considerations
+## Turvallisuusasiat
 
-Please refer to the package insert for safety information.
+Turvallisuustiedot löytyvät pakkausselosteesta.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidätä**
 
-**Rationale:**
-The prediction is supported only by a TxGNN model score (L5), with zero clinical trials, zero literature, and no validated mechanistic link between PPARα/δ agonism and amenorrhea. Combined with a Blocking data gap on TFDA labeling (DG001), this is not ready to advance.
+**Perustelut:**
+Ennuste perustuu vain TxGNN-mallin pistemäärään (L5), nolla kliinistä tutkimusta, nolla kirjallisuutta ja ei validoitua mekanistista yhteyttä PPARα/δ-agonismin ja amenorreen välillä. Yhdessä TFDA-merkinnän aineiston puutteen kanssa (DG001), tämä ei ole valmis etenemään.
 
-**To proceed, the following is needed:**
-- TFDA package insert / warnings & contraindications (DG001, Blocking — required before any S1 safety evaluation)
-- Confirmed mechanism of action data from DrugBank (DG002, High)
-- Preclinical or mechanistic evidence connecting PPAR pathway activity to menstrual/reproductive endocrine function
-- Any emerging clinical trial or case-report signal for amenorrhea/reproductive effects (including as an adverse event in existing PBC trials)
+**Jatkamista varten tarvitaan seuraavaa:**
+- TFDA:n pakkausseloste / varoitukset ja vasta-aiheet (DG001, Blocking — vaadittu ennen mitään S1-turvallisuusarviointia)
+- Vahvistetut mekanismin tiedot DrugBankista (DG002, High)
+- Prekliininen tai mekanistinen todiste, joka yhdistää PPAR-reityn aktiivisuuden menstruaatio-/reproduktiivisen endokriinisen toiminnan kanssa
+- Ilmaantuvaa signaalia kliinisistä tutkimuksista tai tapausraporteista amenorrea- tai reproduktiivisista vaikutuksista (mukaan lukien haittavaikutuksena olemassa olevissa PBC-tutkimuksissa)
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

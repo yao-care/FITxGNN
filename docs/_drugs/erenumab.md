@@ -29,75 +29,76 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Erenumab: From Migraine Prevention to Migraine with Brainstem Aura
+# Erenumab: Migreeniä ennaltaehkäisystä aivosillan auraa omaavaan migreeniä
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Erenumab is a CGRP-receptor monoclonal antibody already used for migraine prevention (episodic and chronic, with or without aura).
-The TxGNN model predicts it may also be effective for **Migraine with Brainstem Aura**, a distinct ICHD-3 subtype,
-with **0 clinical trials** and **20 publications** currently available, most of which are indirect (mechanistic, safety, or general-aura subgroup) rather than trials conducted specifically in this subtype.
+Erenumab on CGRP-reseptorin monoklonaalinen vasta-aine, jota käytetään jo migreeniä ennaltaehkäisyyn (episodinen ja krooninen, auran kanssa tai ilman).
+TxGNN-malli ennustaa, että se voi olla tehokas myös **migreeniä aivosillan auralla**, joka on erillinen ICHD-3-alatyyppi,
+sillä tällä hetkellä on saatavilla **0 kliinistä tutkimusta** ja **20 julkaisua**, joista suurin osa on epäsuoria (mekanistisia, turvallisuus- tai yleisiä aura-alaryhmiä koskevia) pikemminkin kuin suoraan tälle alityypille tehtyjä tutkimuksia.
 
-## Quick Overview
+## Nopea katsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Migraine prevention (episodic/chronic, with or without aura)* |
-| Predicted New Indication | Migraine with Brainstem Aura |
-| TxGNN Prediction Score | 99.89% |
-| Evidence Level | L4 |
-| Finland Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|-------|---------|
+| Alkuperäinen käyttöaihe | Migreeniä ennaltaehkäisyy (episodinen/krooninen, auran kanssa tai ilman)* |
+| Ennustettu uusi käyttöaihe | Migreeni aivosillan auralla |
+| TxGNN-ennustepisteet | 99.89% |
+| Todistusastetta | L4 |
+| Suomen markkinatilanne | Ei markkinoilla |
+| Hyväksyntöjen määrä | 0 |
+| Suositeltu päätös | Pidätä |
 
-\*No formal Fimea license text is on file (0 authorizations); this reflects erenumab's internationally known approved use, cited in the repurposing rationale rather than a Finnish product label.
+\*Fimean virallista pakkausselosteita ei ole saatavilla (0 hyväksyntää); tämä heijastaa erenumabin kansainvälisesti tunnettua hyväksyttyä käyttöä, jota on mainittu uudelleenkäyttöperustelun yhteydessä suomalaisen tuotteen merkinnän sijaan.
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Structured mechanism-of-action data is not available for this drug in the evidence pack. Based on the repurposing rationale, erenumab is a CGRP (calcitonin gene-related peptide) receptor monoclonal antibody, already established for migraine prevention. CGRP release in the trigeminovascular system is a well-supported driver of migraine pain, which is the pharmacological basis for erenumab's approved use.
+Strukturoidut vaikutusmekanismin tiedot eivät ole saatavilla tälle lääkkeelle todistuspaketissa. Uudelleenkäyttöperustelun perusteella erenumab on CGRP-reseptorin (kalsitoniiniksi liittyvä peptidi) monoklonaalinen vasta-aine, joka on jo vakiintunut migreeniä ennaltaehkäisyyn. CGRP:n vapautuminen trigeminovaskulaarisessa järjestelmässä on hyvin tuettu migreenin kipujen ajava mekanismi, mikä muodostaa farmakologisen perustan erenumabin hyväksytylle käytölle.
 
-Migraine with brainstem aura (formerly "basilar-type migraine," ICHD-3 code 1.2.2) is a specific subtype whose aura symptoms are thought to originate from brainstem dysfunction, and it is not established that this shares the same trigeminovascular mechanism as typical migraine. Extending erenumab's effect to this subtype is biologically plausible but mechanistically unconfirmed.
+Migreeni aivosillan auralla (aiemmin "basilar-type migraine", ICHD-3-koodi 1.2.2) on erityinen alatyyppi, jonka aura-oireiden uskotaan olevan peräisin aivosillan toimintahäiriöstä, mutta ei ole selvää, ovatko ne samassa trigeminovaskulaarisessa mekanismissa kuin tyypillinen migreeni. Erenumabin vaikutuksen laajentaminen tähän alityyppiä on biologisesti uskottavaa, mutta mekanistisesti vahvistamaton.
 
-Notably, this subtype is commonly an **exclusion criterion** in pivotal CGRP monoclonal antibody trials, due to a theoretical concern about cerebral vasoconstriction risk in a population whose aura already implicates brainstem/vascular involvement. This is why the current evidence base consists of general-aura subgroup analyses and mechanistic/safety studies rather than trials enrolling this subtype directly — a real, not merely a reporting, gap.
+Huomattavaa on, että tämä alatyyppi on tavallisesti **poissulkemisen kriteeri** pivotaaleissa CGRP-monoklonaalisten vasta-aineiden tutkimuksissa teoreettisten aivovaltimoiden vasokonstriktion huolien vuoksi populaatiossa, jonka aura jo liittyy aivosillan tai verisuoniston toimintahäiriöihin. Tämä selittää, miksi nykyinen todistuspohja koostuu yleisten aura-alaryhmiä analyyseistä ja mekanistisista tai turvallisuustutkimuksista pikemminkin kuin tutkimuksista, jotka rekrytoivat tämän alityypin potilaita suoraan – todellinen, ei vain raportointikertymä, väli.
 
-## Clinical Trial Evidence
+## Kliiniset tutkimukset
 
-Currently no related clinical trials registered
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
 
-## Literature Evidence
+## Kirjallisuustodisteet
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [30360965](https://pubmed.ncbi.nlm.nih.gov/30360965/) | 2018 | RCT (Phase 3b) | Lancet | Randomized, double-blind, placebo-controlled trial of erenumab in episodic migraine after 2–4 prior preventives failed |
-| [34928306](https://pubmed.ncbi.nlm.nih.gov/34928306/) | 2022 | RCT (post-hoc analysis) | JAMA Neurology | Secondary analysis of RCTs assessing erenumab safety/efficacy in migraine with vs. without aura |
-| [37012858](https://pubmed.ncbi.nlm.nih.gov/37012858/) | 2023 | Systematic Review | Int Immunopharmacol | Systematic review of erenumab efficacy in episodic/chronic migraine prophylaxis |
-| [30725283](https://pubmed.ncbi.nlm.nih.gov/30725283/) | 2019 | Review | Handb Exp Pharmacol | Review of CGRP's role in migraine pathophysiology, underpinning erenumab's mechanism |
-| [41888647](https://pubmed.ncbi.nlm.nih.gov/41888647/) | 2026 | Cohort (REFORM) | J Headache Pain | Longitudinal changes in migraine aura frequency during/after erenumab treatment |
-| [36942409](https://pubmed.ncbi.nlm.nih.gov/36942409/) | 2023 | Cohort (pooled trial data) | Headache | Post-hoc cardiovascular risk analysis of erenumab in patients with vs. without aura |
-| [40275185](https://pubmed.ncbi.nlm.nih.gov/40275185/) | 2025 | Cohort (biomarker, REFORM) | J Headache Pain | Plasma suPAR (inflammation biomarker, elevated in aura) associated with erenumab response |
-| [35151970](https://pubmed.ncbi.nlm.nih.gov/35151970/) | 2022 | Cohort (real-world) | Clin Neurol Neurosurg | Real-world effectiveness/safety of erenumab in treatment-resistant chronic migraine |
-| [35538414](https://pubmed.ncbi.nlm.nih.gov/35538414/) | 2022 | Cohort (real-world) | J Headache Pain | 12-month real-world safety/tolerability and adverse event predictors for erenumab |
-| [32867533](https://pubmed.ncbi.nlm.nih.gov/32867533/) | 2021 | Mechanistic/Safety | Cephalalgia | Erenumab does not alter cerebral hemodynamics or endothelial function in migraine without aura |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
+|------|-------|--------|-------|---------|
+| [30360965](https://pubmed.ncbi.nlm.nih.gov/30360965/) | 2018 | RCT (Phase 3b) | Lancet | Satunnaistettu, kaksoissokkoutettu, lumelääkekontrollittu tutkimus erenumabista episodisessa migreeniä potilaissa, joille 2–4 ennaltaehkäisylääkkeet olivat epäonnistuneet |
+| [34928306](https://pubmed.ncbi.nlm.nih.gov/34928306/) | 2022 | RCT (jälkianalyysi) | JAMA Neurology | Satunnaistettujen tutkimusten jälkianalyysi erenumabin turvallisuudesta ja tehokkuudesta migreeniä auran kanssa ja ilman potilaissa |
+| [37012858](https://pubmed.ncbi.nlm.nih.gov/37012858/) | 2023 | Systemaattinen katsaus | Int Immunopharmacol | Systemaattinen katsaus erenumabin tehokkuudesta episodisen ja kroonisen migreeniä ennaltaehkäisyssä |
+| [30725283](https://pubmed.ncbi.nlm.nih.gov/30725283/) | 2019 | Katsaus | Handb Exp Pharmacol | Katsaus CGRP:n roolista migreenipatofysiologiassa, joka tukee erenumabin vaikutusmekanismia |
+| [41888647](https://pubmed.ncbi.nlm.nih.gov/41888647/) | 2026 | Kohorttitutkimus (REFORM) | J Headache Pain | Pitkittäismuutokset migreeniauran esiintymistiheydessä erenumabin hoidon aikana ja jälkeen |
+| [36942409](https://pubmed.ncbi.nlm.nih.gov/36942409/) | 2023 | Kohorttitutkimus (yhdistetyt tutkimustiedot) | Headache | Jälkianalyysi sydän- ja verisuonitapahtumien riskistä erenumabilla potilaissa, joilla on aura ja ilman auraa |
+| [40275185](https://pubmed.ncbi.nlm.nih.gov/40275185/) | 2025 | Kohorttitutkimus (biomarkeri, REFORM) | J Headache Pain | Plasma suPAR (tulehduksen biomarkeri, koholla aurassa) erenumabin vastauksen yhteydessä |
+| [35151970](https://pubmed.ncbi.nlm.nih.gov/35151970/) | 2022 | Kohorttitutkimus (todellisen maailman) | Clin Neurol Neurosurg | Erenumabin todellisen maailman tehokkuus ja turvallisuus hoito-resistentissa kroonisessa migreeniä |
+| [35538414](https://pubmed.ncbi.nlm.nih.gov/35538414/) | 2022 | Kohorttitutkimus (todellisen maailman) | J Headache Pain | 12 kuukauden todellisen maailman turvallisuus ja siedettävyys sekä haittavaikutusten ennustajamuuttujat erenumabilla |
+| [32867533](https://pubmed.ncbi.nlm.nih.gov/32867533/) | 2021 | Mekanistinen/turvallisuus | Cephalalgia | Erenumab ei muuta aivojen hemodynamiikkaa tai endoteelifunktiota potilaissa, joilla on migreeni ilman auraa |
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Erenumab is not currently marketed in Finland — no marketing authorizations are on file (0 licenses).
+Erenumab ei ole tällä hetkellä markkinoilla Suomessa – markkinoinnin hyväksynnästä ei ole tietoja saatavilla (0 lupaa).
 
-## Safety Considerations
+## Turvallisuushuomiot
 
-Please refer to the package insert for safety information.
+Turvallisen tiedon saamiseksi katso pakkausselosteesta.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidätä**
 
-**Rationale:**
-Evidence is limited to general-aura subgroup data, mechanistic/safety studies, and cohort data rather than trials enrolling migraine-with-brainstem-aura patients directly — this subtype is typically excluded from pivotal CGRP antibody trials over theoretical cerebrovascular risk, and the evidence level is only L4. The drug is also not currently marketed in Finland, and TFDA/Fimea label warnings and contraindications are a blocking data gap (DG001).
+**Perustelu:**
+Todisteet rajoittuvat yleisten aura-alaryhmiä koskeviin tietoihin, mekanistisiin tai turvallisuustutkimuksiin ja kohorttiaineistoihin pikemminkin kuin tutkimuksiin, joissa migreeni-aivosillan-aura-potilaita olisi rekrytoitu suoraan – tämä alatyyppi suljetaan tavallisesti pois pivotaaleista CGRP-monoklonaalisten vasta-aineiden tutkimuksista teoreettisen sydän- ja verisuonitapahtumien vasokonstriktion riskin vuoksi, ja todistusaste on vain L4. Lääke ei myöskään ole tällä hetkellä markkinoilla Suomessa, ja TFDA/Fimean pakkausselosteen varoitukset ja kontraindikaatiot ovat puuttuva kriittinen tieto (DG001).
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert (warnings, contraindications) — currently a blocking data gap
-- Structured mechanism-of-action documentation from DrugBank
-- Dedicated safety/efficacy data in confirmed migraine-with-brainstem-aura patients, given their theoretical cerebrovascular risk and routine exclusion from erenumab pivotal trials
-- Clarification of Fimea regulatory pathway status, since the drug currently has zero Finnish authorizations
+**Jatkaakseen tarvitaan seuraavaa:**
+- TFDA/Fimean pakkausseloste (varoitukset, kontraindikaatiot) – tällä hetkellä puuttuva kriittinen tieto
+- Strukturoidut vaikutusmekanismin tiedot DrugBankista
+- Erityiset turvallisuus- ja tehokkuustiedot vahvistetuista migreeni-aivosillan-aura-potilaista, ottaen huomioon heidän teoreettisen sydän- ja verisuonitapahtumariskin ja heidän tavanomaisen poissulkemisen erenumabin pivotaaleista tutkimuksista
+- Fimean sääntelytariffin tila-arvion selventäminen, koska lääkkeellä ei ole tällä hetkellä Suomen hyväksynnän
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

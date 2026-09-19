@@ -29,80 +29,81 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Givosiran: From Acute Hepatic Porphyria to ALA Dehydratase Deficiency Porphyria
+# Givosiran: Akuutista hepatisesta porfyriasta ALA-dehydrataasin puutosporfyriaan
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Givosiran is a hepatic-targeted siRNA therapeutic originally used to prevent attacks in Acute Hepatic Porphyria (AHP), primarily in Acute Intermittent Porphyria (AIP), by silencing ALAS1 in the heme biosynthesis pathway. The TxGNN model additionally predicts efficacy for **ALA Dehydratase Deficiency Porphyria (ALADP)** — the rarest AHP subtype — supported by **8 publications** (including a pivotal Phase 3 RCT and one case report), though **no dedicated clinical trials** currently exist for this specific subtype.
+Givosiran on hepatiaaliksi kohdennettu siRNA-lääke, jota käytetään alun perin AHP:n (Acute Hepatic Porphyria) hyökkäysten estämiseen, ensisijaisesti AIP:ssa (Acute Intermittent Porphyria), silentoimalla ALAS1-geeniä hemosynteesin reitillä. TxGNN-malli ennustaa lisäksi tehokkuutta **ALA-dehydrataasin puutosporfyriassa (ALADP)** — AHP:n harvinaisimmassa alatyypissä — tuettuna **8 julkaisulla** (sisältäen keskeisen vaiheen 3 RCT:n ja yhden tapausraportin), vaikka **yhtään omaa kliinistä tutkimusta** ei tällä hetkellä ole tälle spesifiselle alatyypille.
 
 ---
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Acute Hepatic Porphyria (documented in evidence-pack literature, e.g. PMID 36028858, 35734365) |
-| Predicted New Indication | ALA Dehydratase Deficiency Porphyria (ALADP) |
-| TxGNN Prediction Score | 99.91% |
-| Evidence Level | L2 |
-| Finland Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Alkuperäinen indikaatio | Akuutti hepatinen porfyria (dokumentoitu todisteen sisältävässä kirjallisuudessa, esim. PMID 36028858, 35734365) |
+| Ennustettu uusi indikaatio | ALA-dehydrataasin puutosporfyria (ALADP) |
+| TxGNN-ennuste-pistemäärä | 99,91% |
+| Todisteen taso | L2 |
+| Suomen markkinointi | Ei markkinoilla (Ei markkinoilla) |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Jatka varaustein |
 
-*Note: This drug has 10 TxGNN-predicted indications in total. Nine of them (rank 1–8, 10) are model-prediction-only (L5, no supporting evidence) with recommendation "Hold" and are not discussed further in this report. This report focuses on rank 9 — the only candidate with an actionable evidence level.*
-
----
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data from DrugBank is not available (`original_moa: [Data Gap]`). Based on known information from the evidence-pack literature, Givosiran is a small interfering RNA (siRNA) that silences hepatic ALAS1 (5-aminolevulinic acid synthase 1), the rate-limiting enzyme of the heme biosynthesis pathway. Its efficacy in Acute Hepatic Porphyria has been demonstrated in the Phase 3 ENVISION trial (PMID 36028858) and subsequent cohort studies (PMID 35067977, 40312531).
-
-ALA Dehydratase Deficiency Porphyria (ALADP) is caused by a deficiency in ALA dehydratase, the enzyme immediately **downstream** of ALAS1 in the same heme biosynthesis pathway. Because ALAS1 inhibition reduces production of the neurotoxic precursors ALA and PBG regardless of which downstream enzyme is deficient, there is a plausible mechanistic rationale for givosiran's applicability to ALADP — this is explicitly noted in the pack's own rationale ("抑制 ALAS1 仍可降低 ALA 堆積，機轉關聯強").
-
-However, this mechanistic plausibility is tempered by conflicting real-world evidence: a published case report (PMID 35991568) documented a **lack of clinical response** to givosiran in a confirmed ALADP patient, despite biochemical rationale. ALADP's pathophysiology also involves erythropoietic contributions not fully captured by the hepatic-ALAS1 model used in AIP, which may explain heterogeneous response. Given the extreme rarity of ALADP (fewer than 10 cases reported worldwide), no dedicated RCTs exist, and current support relies on class-level AHP trial data plus a single, discordant case report.
+*Huomautus: Tällä lääkkeellä on yhteensä 10 TxGNN-ennustettua indikaatiota. Yhdeksän niistä (sijoitus 1–8, 10) ovat pelkästään mallin ennusteita (L5, ilman tutkimusnäyttöä) suosituksella "Hold" (Pidätä), eikä niistä keskustella tarkemmin tässä raportissa. Tämä raportti keskittyy sijoitukseen 9 — ainoaan kandidaattiin, jolla on toimeenpantava todisteen taso.*
 
 ---
 
-## Clinical Trial Evidence
+## Miksi tämä ennuste on järkevä?
 
-Currently no related clinical trials registered.
+Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja DrugBankista ei ole saatavilla (`original_moa: [Data Gap]`). Todisteen sisältävän kirjallisuuden tunnettujen tietojen perusteella givosiran on pieni interferoiva RNA (siRNA), joka vaientaa hepatista ALAS1:tä (5-aminolevuliinihapon syntetaasi 1), hemosynteesin reitin rajoittavaa entsyymiä. Sen tehokkuus akuutissa hepatisessa porfyriassa on osoitettu vaiheen 3 ENVISION-tutkimuksessa (PMID 36028858) ja myöhemmissä kohorttitutkimuksissa (PMID 35067977, 40312531).
 
----
+ALA-dehydrataasin puutosporfyria (ALADP) johtuu ALA-dehydrataasin puutoksesta, entsyymistä, joka on välittömästi **alavirtaan** ALAS1:stä samalla hemosynteesin reitillä. Koska ALAS1:n estäminen vähentää neurotoksisten edeltäjäaineiden ALA:n ja PBG:n tuotantoa riippumatta siitä, mikä alavirtaan oleva entsyymi on puuttuva, givosiraainin soveltuvuudelle ALADP:lle on löydettävissä plausibli mekanistinen perustelu — tämä on nimenomaisesti huomioitu pakkauksen omassa perustelussa ("抑制 ALAS1 仍可降低 ALA 堆積，機轉關聯強").
 
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [36028858](https://pubmed.ncbi.nlm.nih.gov/36028858/) | 2022 | RCT (Phase 3, post hoc) | Orphanet Journal of Rare Diseases | ENVISION trial post hoc analysis: givosiran reduces AHP disease burden and attack rates; pivotal efficacy evidence for the AHP drug class (not ALADP-specific) |
-| [35067977](https://pubmed.ncbi.nlm.nih.gov/35067977/) | 2022 | Cohort | Journal of Internal Medicine | RNAi therapy with givosiran significantly reduces attack rates in acute intermittent porphyria |
-| [40312531](https://pubmed.ncbi.nlm.nih.gov/40312531/) | 2025 | Cohort | Scientific Reports | Expanded-access study in 10 Japanese AHP patients on monthly SC givosiran 2.5 mg/kg; supports efficacy/safety in a real-world Asian cohort |
-| [39313028](https://pubmed.ncbi.nlm.nih.gov/39313028/) | 2024 | Review | Revista clinica espanola | Therapeutic approach to acute hepatic porphyria crises; identifies ALA dehydratase deficiency as one of four AHP subtypes sharing the ALAS1-driven mechanism |
-| [35734365](https://pubmed.ncbi.nlm.nih.gov/35734365/) | 2022 | Review | Drug Design, Development and Therapy | Overview of givosiran's design, development, and place in therapy for adults with AHP |
-| [37027823](https://pubmed.ncbi.nlm.nih.gov/37027823/) | 2023 | Review | Blood | RNA interference therapy in AHP; confirms ALAS1 induction as the shared upstream driver across AHP subtypes |
-| [36883675](https://pubmed.ncbi.nlm.nih.gov/36883675/) | 2023 | PK/PD | CPT: Pharmacometrics & Systems Pharmacology | PK/PD model of urinary ALA reduction after givosiran across pooled Phase I–III trial data |
-| [35991568](https://pubmed.ncbi.nlm.nih.gov/35991568/) | 2022 | Case Report | Frontiers in Genetics | **Directly relevant to ALADP**: reports lack of clinical response to givosiran in a confirmed ALAD porphyria patient, despite biochemical rationale — key contradicting signal |
+Kuitenkin tämä mekanistinen plausibiliteetti lieventyy ristiriitaisesta todellisen maailman näytöstä: julkaistu tapausraportti (PMID 35991568) dokumentoi givosiraaniin **kliinisen vasteen puutteen** vahvistetussa ALADP-potilaalla mekanistisesta perustelusta huolimatta. ALADP:n patofysiologia sisältää myös erytropoieettisia tekijöitä, joita AIP:ssa käytetty hepatinen ALAS1-malli ei täysin ota huomioon, mikä saattaa selittää epähomogeenisen vasteen. Ottaen huomioon ALADP:n äärimmäisen harvinaisuuden (alle 10 tapausta raportoitu maailmanlaajuisesti), omia RCT:itä ei ole, ja nykyinen tuki perustuu luokkatasoisiin AHP-tutkimuksiin sekä yhteen ristiriitaiseen tapausraporttiin.
 
 ---
 
-## Safety Considerations
+## Kliinisen tutkimuksen näyttö
 
-Please refer to the package insert for safety information.
+Tällä hetkellä ei ole rekisteröity siihen liittyviä kliinisiä tutkimuksia.
 
 ---
 
-## Conclusion and Next Steps
+## Kirjallisuuden näyttö
 
-**Decision: Proceed with Guardrails**
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
+|------|------|--------|-------|---------|
+| [36028858](https://pubmed.ncbi.nlm.nih.gov/36028858/) | 2022 | RCT (vaihe 3, jälkikäteinen) | Orphanet Journal of Rare Diseases | ENVISION-tutkimuksen jälkikäteinen analyysi: givosiran vähentää AHP:n sairauskuormaa ja hyökkäysten esiintymistiheyttä; keskeinen tehokkuuden näyttö AHP-lääkkeiden luokalle (ei ALADP-spesifinen) |
+| [35067977](https://pubmed.ncbi.nlm.nih.gov/35067977/) | 2022 | Kohortti | Journal of Internal Medicine | RNAi-terapia givosiraanilla vähentää merkittävästi hyökkäysten esiintymistiheyttä akuutissa intermitentissa porfyriassa |
+| [40312531](https://pubmed.ncbi.nlm.nih.gov/40312531/) | 2025 | Kohortti | Scientific Reports | Laajennetun käytön tutkimus 10 japanilaisessa AHP-potilaassa kuukausittaisella SC-givosiraanilla 2,5 mg/kg; tukee tehokkuutta/turvallisuutta todellisen maailman Aasialaisten kohorteissa |
+| [39313028](https://pubmed.ncbi.nlm.nih.gov/39313028/) | 2024 | Katsaus | Revista clinica espanola | Akuutin hepatisen porfyrian kriisien hoitolähestymistapa; tunnistaa ALA-dehydrataasin puutoksen yhdeksi neljästä AHP:n alatyypistä, jotka jakavat ALAS1-ohjatun mekanismin |
+| [35734365](https://pubmed.ncbi.nlm.nih.gov/35734365/) | 2022 | Katsaus | Drug Design, Development and Therapy | Givosiraanin suunnittelun, kehityksen ja aseman yleiskatsaus AHP:n hoidossa aikuisilla |
+| [37027823](https://pubmed.ncbi.nlm.nih.gov/37027823/) | 2023 | Katsaus | Blood | RNA-interferenssiterapia AHP:ssa; vahvistaa ALAS1-induktion AHP:n alatyypeissä jaettuna ylävirtaan sijaitsevana ajavana tekijänä |
+| [36883675](https://pubmed.ncbi.nlm.nih.gov/36883675/) | 2023 | PK/PD | CPT: Pharmacometrics & Systems Pharmacology | PK/PD-malli virtsaperäisen ALA:n vähenemisestä givosiraanin jälkeen koottujen vaiheen I–III tutkimustietojen poikki |
+| [35991568](https://pubmed.ncbi.nlm.nih.gov/35991568/) | 2022 | Tapausraportti | Frontiers in Genetics | **Suoraan liittyvä ALADP:hen**: raportoi kliinisen vasteen puutosta givosiraaniin vahvistetussa ALAD-porfyria-potilaassa mekanistisesta perustelusta huolimatta — keskeinen ristiriitainen signaali |
 
-**Rationale:**
-The mechanistic rationale (ALAS1 acting upstream of ALA dehydratase in the same heme biosynthesis pathway) is well supported by AHP-class RCT and cohort evidence, but the only ALADP-specific data point — a case report — showed lack of response, and no dedicated trials exist for this ultra-rare subtype. Evidence is directionally supportive but not yet sufficient for unconditional advancement.
+---
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert warnings and contraindications (currently Blocking data gap, DG001)
-- Confirmed DrugBank mechanism of action detail (currently High-severity data gap, DG002)
-- Additional ALADP case series or registry data to reconcile the conflicting case report
-- Drug interaction (DDI) profile (currently `not_found`)
-- Regulatory pathway assessment, given the drug is not currently marketed in Finland (0 authorizations)
+## Turvallisuuden näkökohdat
+
+Katso tuotepakkauksen liitettä turvallisuustietojen osalta.
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Jatka varaustein**
+
+**Perustelu:**
+Mekanistinen perustelu (ALAS1 toimii ALA-dehydrataasin ylävirtaan samalla hemosynteesin reitillä) on hyvin tuettu AHP-luokan RCT- ja kohorttinäytöillä, mutta ainoa ALADP-spesifinen datapiste — tapausraportti — osoitti vasteen puutteen, ja yhtään omaa tutkimusta ei ole tähän äärimmäisen harvinaiseen alatyypille. Näyttö on suuntaa-antava mutta ei vielä riittävä ehdottomalle etenemiselle.
+
+**Jatkamiseksi tarvitaan seuraavaa:**
+- TFDA/Fimea-tuotepakkauksen varoitukset ja vasta-aiheet (tällä hetkellä estävä tietoaukko, DG001)
+- Vahvistettu DrugBank-vaikutusmekanismin yksityiskohdat (tällä hetkellä korkean vakavuuden tietoaukko, DG002)
+- Lisää ALADP-tapaussarjaa tai rekisteritietoja ristiriitaisen tapausraportin selvittämiseksi
+- Lääkkeiden vuorovaikutusprofiilit (DDI) (tällä hetkellä `not_found`)
+- Sääntelyyn perustuva reittiarviointi, koska lääke ei ole tällä hetkellä markkinoilla Suomessa (0 hyväksyntää)
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

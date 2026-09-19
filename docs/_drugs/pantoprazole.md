@@ -29,90 +29,91 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Pantoprazole: From Undocumented Original Indication to Active Peptic Ulcer Disease
+# Pantoprazoli: dokumentoimattomasta alkuperäisestä indikaatiosta aktiiviseen peptiseen haavaan
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Pantoprazole is a proton pump inhibitor (PPI); its formally recorded original indication is missing from this evidence pack (`original_indications` is empty and `original_moa` is flagged as a data gap). TxGNN's top prediction is **Active Peptic Ulcer Disease** (score **99.69%**), supported by **3 clinical trials** and **20 publications** — but the evidence pack's own rationale flags this as likely an artifact of the missing baseline indication data rather than a genuine novel repurposing signal, since peptic ulcer disease is already a well-established, on-label PPI use.
+Pantoprazoli on protonienpumppuinhibiittori (PPI); sen virallisesti rekisteröity alkuperäinen indikaatio puuttuu tästä näytöstä (`original_indications` on tyhjä ja `original_moa` on merkitty tietovajeeksi). TxGNN:n paras ennuste on **aktiivinen peptinen haava** (pistemäärä **99,69%**), jota tukee **3 kliinistä tutkimusta** ja **20 julkaisua** — mutta näytön oman analyysin mukaan tämä johtuu todennäköisesti puuttuvan alkuperäisen indikaation tiedon aiheuttamasta virheestä, ei todellisesta uudesta käyttötarkoituksesta, sillä peptinen haava on jo vakiintunut ja PPI:lle merkittyyn indikaatioon kuuluva käyttötarkoitus.
 
 ---
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Not on file (0 Finland licenses on record); PPI-class drugs are generally indicated for GERD/erosive esophagitis and peptic ulcer disease |
-| Predicted New Indication | Active Peptic Ulcer Disease |
-| TxGNN Prediction Score | 99.69% |
-| Evidence Level | L1 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Alkuperäinen indikaatio | Ei tietueissa (0 Suomen lupaa); PPI-luokan lääkkeet ovat yleensä indikoituja refluksitaudissa/eroosiivisessa ruokatorvtulehduksessa ja peptisessä haavassa |
+| Ennustettu uusi indikaatio | Aktiivinen peptinen haava |
+| TxGNN-ennusteen pistemäärä | 99,69% |
+| Näyttöaste | L1 |
+| Suomen markkinatila | ✗ Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Jatka varauksilla |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on perusteltu?
 
-`original_moa` in this evidence pack is explicitly marked as a data gap (DG002, severity: High). However, the repurposing rationale attached to this candidate does contain mechanistic detail: Pantoprazole is a proton pump inhibitor that irreversibly and specifically binds the gastric parietal-cell H+/K+-ATPase, blocking the final common step of gastric acid secretion — the standard first-line mechanism for healing acid-peptic disease.
+`original_moa` on tässä näytössa nimenomaisesti merkitty tietovajeeksi (DG002, vakavuusaste: Korkea). Kuitenkin tälle ehdokkaalle liitetty uudelleentarkoitusperustelu sisältää mekanistisia yksityiskohtia: Pantoprazoli on protonienpumppuinhibiittori, joka sitoutuu peruuttamattomasti ja spesifisesti mahassa olevan paretallisolun H+/K+-ATPaasiin, estäen gastrin hapon eritytykseen liittyvän viimeisen yhteisen vaiheen — vakiintuneen ensimmäisen linjan mekanismin happopeptisairauksien paranemiseksi.
 
-Active peptic ulcer disease sits squarely within this core pharmacological action. Importantly, the evidence pack's own analysis flags this specific prediction as likely **not** a genuine novel repurposing signal: because `drug.original_indications` is empty in the underlying knowledge graph, TxGNN appears to be "rediscovering" a use that is already on-label for pantoprazole, rather than surfacing new therapeutic territory. The very high score (99.69%) is consistent with this — it looks more like a data-completeness artifact than a repurposing insight.
+Aktiivinen peptinen haava sijaitsee suoraan tämän ydinpharmakoloogisen vaikutuksen alueella. On tärkeää huomata, että näytön oma analyysi merkitsee tätä spesifistä ennustetta todennäköisesti **ei**-aidoksi uuden uudelleentarkoitussignaaliksi: koska taustalla olevan tietokannan `drug.original_indications` on tyhjä, TxGNN näyttää "löytävän uudelleen" käyttötarkoituksen, joka on jo pantoprazolille merkittyyn indikaatioon kuuluva, sen sijaan että paljastaisi uutta terapeuttista aluetta. Erittäin korkea pistemäärä (99,69%) on yhdenmukainen tämän kanssa — se näyttää enemmän tietojen täydellisyyden ongelmalta kuin todelliselta uudelleentarkoitusintuitiolta.
 
-This caveat also applies to rank 6 in the same evidence pack ("duodenal ulcer disease," also L1), which shares the identical mechanistic rationale. The remaining ranked candidates in this pack (gastrojejunal ulcer, peptic ulcer perforation, duodenogastric reflux, duodenal obstruction) carry progressively weaker and more indirect mechanistic links (L2–L5), and are more plausible candidates for genuine site-specific or adjuvant-use exploration. Before treating any of the six predictions in this pack as a true "new" indication, the underlying `original_indications` field should be backfilled so TxGNN scores can be interpreted against an accurate baseline.
+Sama huomautus pätee myös tämän näytön kuudennelle ehdokkaalle ("kaksitostasormisuolen haava", myös L1), joilla on identtinen mekanistinen peustelu. Loput tämän pakkauksen ehdokkaat (gastrojejunaalinen haava, peptisen haavan perforaatio, duodenogastrinen refluksi, kaksitostasormisuolen obstruksio) kantavat asteittain heikompeneita ja epäsuorempia mekanistisia yhteyksiä (L2–L5), ja ovat todenmukaisempia ehdokkaita todellisen sijainnispesifisen tai lisäyhdistelmähoidon tutkimiselle. Ennen kuin käsitellään mitään näistä kuudesta ennusteesta todellisena "uutena" indikaationa, taustalla oleva `drug.original_indications` -kenttä tulisi täyttää, jotta TxGNN-pistemäärät voidaan oikein tulkita suhteessa tarkkoihin alkuperäisiin arvoihin.
 
 ---
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimusnumero | Vaihe | Tila | Osallistujamäärä | Keskeiset löydökset |
 |---------|------|------|------|---------|
-| [NCT02084420](https://clinicaltrials.gov/study/NCT02084420) | Phase 3 | Completed | 323 | Multicenter, randomized, double-blind, active-controlled trial comparing Ilaprazole vs. Pantoprazole triple therapy (7 days) for H. pylori eradication in gastric/duodenal ulcer patients — direct efficacy evidence (relevance grade A). |
-| [NCT00930670](https://clinicaltrials.gov/study/NCT00930670) | Phase 4 | Completed | 320 | Evaluated the effect of PPIs and statins on clopidogrel antiplatelet activity in PCI patients on dual antiplatelet therapy — a drug-interaction study, not an ulcer-healing endpoint (relevance grade B). |
-| [NCT02197039](https://clinicaltrials.gov/study/NCT02197039) | N/A | Completed | 316 | Identified risk factors predicting poor SRH fading or early rebleeding after endoscopic hemostasis plus high-dose PPI in peptic ulcer hemorrhage, to guide selection for second-look endoscopy — a clinical-process study, only indirectly tied to pantoprazole efficacy (relevance grade C). |
+| [NCT02084420](https://clinicaltrials.gov/study/NCT02084420) | Vaihe 3 | Valmistunut | 323 | Monitapauksinen satunnaistettu kaksisokkoutettu aktiivista kontrollia käyttävä tutkimus, jossa verrattiin ilaprasoolia ja pantoprasoolia sisältävää kolmoishoitoa (7 päivää) H. pylori -eliminaatiossa mahan ja kaksitostasuolen haavapotilailla — suora tehokkuustieto (merkitsevyysaste A). |
+| [NCT00930670](https://clinicaltrials.gov/study/NCT00930670) | Vaihe 4 | Valmistunut | 320 | Arvioi PPI:n ja statiinien vaikutusta klopidogreeliin liittyvään verihiutaleiden estoon PCI-potilailla, joilla käytetään kaksoisantiplatelet-hoitoa — lääkkeiden vuorovaikutustutkimus, ei haavan paranemisen päätetulosmuuttuja (merkitsevyysaste B). |
+| [NCT02197039](https://clinicaltrials.gov/study/NCT02197039) | N/A | Valmistunut | 316 | Selvitti riskitekijöitä, jotka ennustavat huonoa vastetta tai varhaisen uusiintumisen verenvuodossa endoskooppisen hemostaasin ja korkean annoksen PPI:n jälkeen peptisessä haavaverenvuodossa, ohjaamaan valintaa uusintaendoskopiaa varten — kliinisen prosessin tutkimus, vain epäsuorasti liittyvä pantoprazolin tehokkuuteen (merkitsevyysaste C). |
 
 ---
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Aikakauslehti | Keskeiset löydökset |
 |------|-----|------|------|---------|
-| [18824852](https://pubmed.ncbi.nlm.nih.gov/18824852/) | 2008 | RCT | Digestion | Prospective randomized study comparing intermittent vs. continuous pantoprazole infusion for prevention of peptic ulcer rebleeding after endoscopic therapy. |
-| [16677158](https://pubmed.ncbi.nlm.nih.gov/16677158/) | 2006 | RCT | Journal of Gastroenterology and Hepatology | Prospective RCT: pantoprazole infusion as adjuvant to endoscopic treatment reduces rebleeding in peptic ulcer bleeding. |
-| [12752349](https://pubmed.ncbi.nlm.nih.gov/12752349/) | 2003 | RCT | Alimentary Pharmacology & Therapeutics | Compared three pantoprazole-based triple therapy regimens for H. pylori eradication and gastric ulcer healing. |
-| [15244210](https://pubmed.ncbi.nlm.nih.gov/15244210/) | 2003 | Comparative clinical study | Hepato-gastroenterology | Compared lansoprazole vs. pantoprazole in treatment of active duodenal ulcer and H. pylori eradication. |
-| [9678814](https://pubmed.ncbi.nlm.nih.gov/9678814/) | 1998 | RCT | Alimentary Pharmacology & Therapeutics | Two-week pantoprazole course combined with 1-week amoxicillin/clarithromycin was effective for H. pylori eradication and duodenal ulcer healing. |
-| [38384180](https://pubmed.ncbi.nlm.nih.gov/38384180/) | 2024 | RCT | Gut and Liver | Multicenter, randomized, active-controlled study of tegoprazan (a P-CAB) vs. PPI-class comparator for healing endoscopic-resection-induced artificial ulcers. |
-| [22919877](https://pubmed.ncbi.nlm.nih.gov/22919877/) | 2012 | Clinical study | Medical Archives (Sarajevo) | Assessed PPI efficacy after endoscopic hemostasis in bleeding peptic ulcer, including the role of H. pylori. |
-| [19938880](https://pubmed.ncbi.nlm.nih.gov/19938880/) | 2009 | Review | Clinical Drug Investigation | Overview of pantoprazole pharmacology: irreversible H+/K+-ATPase inhibition; notes no clinically significant drug-drug interactions identified to date. |
-| [9017763](https://pubmed.ncbi.nlm.nih.gov/9017763/) | 1997 | Review | Pharmacotherapy | Reviews PPI mechanism (H+/K+-ATPase inhibition) and superiority over H2-receptor antagonists in controlling acid secretion. |
-| [38345252](https://pubmed.ncbi.nlm.nih.gov/38345252/) | 2024 | Systematic Review / Network Meta-analysis | American Journal of Gastroenterology | Compares P-CAB vs. PPI efficacy/safety for healing severe (Los Angeles grade C/D) reflux esophagitis. |
+| [18824852](https://pubmed.ncbi.nlm.nih.gov/18824852/) | 2008 | RCT | Digestion | Prospektiivinen satunnaistettu tutkimus, jossa verrattiin pantoprazolin jatkuvaa ja jaksoittaista infuusiota peptisen haavaverenvuodon uusiintumisen ehkäisyssä endoskooppisen hoidon jälkeen. |
+| [16677158](https://pubmed.ncbi.nlm.nih.gov/16677158/) | 2006 | RCT | Journal of Gastroenterology and Hepatology | Prospektiivinen RCT: pantoprazolin infuusio endoskooppisen hoidon lisähoidoksi vähentää uusiintumista peptisen haavaverenvuodossa. |
+| [12752349](https://pubmed.ncbi.nlm.nih.gov/12752349/) | 2003 | RCT | Alimentary Pharmacology & Therapeutics | Vertaili kolmea pantoprasoolia sisältävää kolmoishoitoskeemaa H. pylori -elinaineiston ja mahan haavan paranemisessa. |
+| [15244210](https://pubmed.ncbi.nlm.nih.gov/15244210/) | 2003 | Vertaileva kliininen tutkimus | Hepato-gastroenterology | Vertaili lansoprasoolia ja pantoprasoolia aktiivisen kaksitostasuolen haavan ja H. pylori -elinaineiston hoidossa. |
+| [9678814](https://pubmed.ncbi.nlm.nih.gov/9678814/) | 1998 | RCT | Alimentary Pharmacology & Therapeutics | Kahden viikon pantoprazolihoidon yhdistelmä yksiviikoisen amoksisiiliini/klaritromysiini-hoidon kanssa oli tehokas H. pylori -elinaineistoon ja kaksitostasuolen haavan paranemiseen. |
+| [38384180](https://pubmed.ncbi.nlm.nih.gov/38384180/) | 2024 | RCT | Gut and Liver | Monitapauksinen satunnaistettu aktiivisen kontrollin tutkimus tegoprazoista (P-CAB) verrattuna PPI-luokan vertailuaineeseen keinotekoisen endoskooppisen resektion aiheuttaman haavan paranemisessa. |
+| [22919877](https://pubmed.ncbi.nlm.nih.gov/22919877/) | 2012 | Kliininen tutkimus | Medical Archives (Sarajevo) | Arvioi PPI:n tehokkuutta endoskooppisen hemostaasin jälkeen verenvuotavassa peptisessä haavassa, mukaan lukien H. pylori -infektioon liittyvä rooli. |
+| [19938880](https://pubmed.ncbi.nlm.nih.gov/19938880/) | 2009 | Katsaus | Clinical Drug Investigation | Yleiskatsaus pantoprazolin farmakologiaan: peruuttamaton H+/K+-ATPaasin inhibiitio; todetaan, että kliinisesti merkittäviä lääkkeiden välisiä vuorovaikutuksia ei ole havaittu. |
+| [9017763](https://pubmed.ncbi.nlm.nih.gov/9017763/) | 1997 | Katsaus | Pharmacotherapy | Tarkastelee PPI-mekanismia (H+/K+-ATPaasin inhibiitio) ja sen ylivertaisuutta H2-reseptoriantagonisteille magnan hapon eritytyksessä. |
+| [38345252](https://pubmed.ncbi.nlm.nih.gov/38345252/) | 2024 | Systemaattinen katsaus / Verkko-metaanalyysi | American Journal of Gastroenterology | Vertailee P-CAB:n ja PPI:n tehokkuutta ja turvallisuutta vaikean (Los Angelesin luokka C/D) refluksiesofagiitin paranemisessa. |
 
 ---
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Pantoprazole is currently **not marketed in Finland** (`market_status: Not marketed`, 0 authorizations on record). No product license, dosage form, or approved-indication data are available in this evidence pack.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+Pantoprazoli **ei ole tällä hetkellä markkinoilla Suomessa** (`market_status: Not marketed`, 0 lupaa tietueissa). Tässä näytössa ei ole saatavilla tuotteen lupaa, annosmuotoa tai hyväksytyn indikaation tietoja.
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuuden huomioitavat asiat
 
-**Decision: Proceed with Guardrails**
+Katso turvallisuustiedot pakkausselosteesta.
 
-**Rationale:**
-The mechanistic and clinical-trial evidence for pantoprazole in active peptic ulcer disease is strong (L1, including a direct Phase 3 RCT and multiple supporting RCTs on ulcer healing/rebleeding prevention), but the evidence pack itself flags this prediction as likely reflecting a gap in the original-indication baseline rather than a genuinely novel repurposing signal — so it should be treated as a data-quality finding first, and a repurposing candidate second, until the baseline is corrected.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings/contraindications) — currently a **Blocking** data gap (DG001); required before any S1 safety screening
-- DrugBank-sourced mechanism of action (MOA) — currently a **High**-severity data gap (DG002)
-- Backfill of `drug.original_indications` so TxGNN scores for this and the other five ranked candidates in this pack (gastrojejunal ulcer, peptic ulcer perforation, duodenogastric reflux, duodenal obstruction, duodenal ulcer) can be correctly distinguished from label-relearning artifacts
-- Finland/Taiwan regulatory and licensing data, given the drug is currently unmarketed (0 licenses)
-- Drug-drug interaction (DDI) data — current query status is "not_found"
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Jatka varauksilla**
+
+**Perustelut:**
+Pantoprazolin mekaaninen ja kliinisen tutkimuksen näyttö aktiivisesta peptisestä haavasta on vahva (L1, sisältäen suoran vaiheen 3 RCT:n ja useita tukevia RCT:tä haavan paranemisesta/verenvuodon uusiintumisen ehkäisystä), mutta näytön itse merkitsee tätä ennustetta todennäköisesti heijastavan puutteen alkuperäisen indikaation lähtötiedon sijaan kuin todellisen uuden uudelleentarkoitussignaalin — joten sitä tulisi käsitellä tietojen laadun havaintona ensin ja uudelleentarkoituskandidaattina toiseksi, kunnes lähtötiedot on korjattu.
+
+**Jatkamista varten tarvitaan seuraavat tiedot:**
+- TFDA:n pakkausseloste (varoitukset/vasta-aiheet) — tällä hetkellä **estävä** tietovahe (DG001); vaaditaan ennen mitään S1-turvallisuusseulontaa
+- DrugBank-peräinen vaikutusmekanismi (MOA) — tällä hetkellä **korkea**-vakavuuden tietovahe (DG002)
+- `drug.original_indications` -kentän täyttö, jotta tämän ja muiden viiden tämän näytön ehdokkaan (gastrojejunaalinen haava, peptisen haavan perforaatio, duodenogastrinen refluksi, kaksitostasormisuolen obstruksio, kaksitostasormisuolen haava) TxGNN-pistemäärät voidaan oikein erottaa merkityn uudelleenoppimisen virheistä
+- Suomen/Taiwanin sääntelyä ja lupaa koskevat tiedot, koska lääkettä ei ole tällä hetkellä markkinoilla (0 lupaa)
+- Lääkkeiden väliset vuorovaikutukset (DDI) — nykyinen kyselystatus on "not_found"
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

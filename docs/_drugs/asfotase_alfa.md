@@ -29,78 +29,79 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Asfotase Alfa: Evaluation Pending — Insufficient Evidence Pack Data
+# Asfotase alfa: Arviointi odottaa – riittämätön näyttöpaketti
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Asfotase alfa is a recombinant tissue-nonspecific alkaline phosphatase (TNSALP) enzyme replacement therapy, approved internationally for hypophosphatasia (HPP) — a rare, life-threatening inherited metabolic bone disorder.
-The current Evidence Pack contains **no TxGNN-predicted repurposing indications**, and two critical data gaps (mechanism of action and safety warnings) remain unresolved.
-A full repurposing evaluation **cannot proceed** until these gaps are remediated.
+Asfotase alfa on rekombinantti kudosspesifioitumaton alkalinen fosfataasi (TNSALP) -entsyymin korvaushoito, joka on hyväksytty kansainvälisesti hypofosfolatasiaan (HPP) — harvinaiseen, potentiaalisesti henkeä uhkaavaan perittyyn aineenvaihdunnan ja luuston häiriöön.
+Nykyinen näyttöpaketti sisältää **ei TxGNN:n ennustamia uudelleenhyödyntöindikaatioita**, ja kaksi kriittistä tietoaukoa (vaikutusmekanismi ja turvallisuusvaroitukset) jäävät ratkaisematta.
+Täydellinen uudelleenhyödyntöarviointi **ei voi edetä**, kunnes nämä aukot on korjattu.
 
 ---
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohde | Sisältö |
 |------|---------|
-| Original Indication | Hypophosphatasia (HPP) — perinatal/infantile/juvenile-onset (international approval; absent from Taiwan regulatory records) |
-| Predicted New Indication | Not available |
-| TxGNN Prediction Score | Not available |
-| Evidence Level | N/A — no TxGNN predictions present |
-| Taiwan Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+| Alkuperäinen indikaatio | Hypofosfolataasia (HPP) — perinataalinen/lapsuusikäinen/nuoruusikäinen alkaminen (kansainvälinen hyväksyntä; puuttuu Taiwanin sääntelyrekistereistä) |
+| Ennustettu uusi indikaatio | Ei saatavilla |
+| TxGNN-ennustepisteet | Ei saatavilla |
+| Näytön taso | N/A — ei TxGNN-ennusteita olemassa |
+| Taiwanin markkinatilanne | ✗ Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | **Pidä varalla** |
 
 ---
 
-## Why Are No Predictions Available?
+## Miksi ennusteita ei ole saatavilla?
 
-Asfotase alfa is a large-molecule recombinant enzyme replacement therapy — a class that differs substantially from the small-molecule drugs on which TxGNN knowledge graph embeddings are primarily trained.
+Asfotase alfa on suurimolekyylinen rekombinantti entsyymin korvaushoito — lääkeryhmä, joka eroaa merkittävästi pienimolekyylisistä lääkkeistä, joiden perusteella TxGNN:n tietokaavioupotuksia pääasiassa opetetaan.
 
-Three factors likely explain the absence of predictions:
+Kolme tekijää selittävät todennäköisesti ennusteiden puuttumisen:
 
-1. **Biologic / ERT class**: Enzyme replacement therapies act by directly replenishing a deficient endogenous enzyme (TNSALP). Their mechanism is substrate-specific, leaving limited scope for cross-indication repurposing compared to receptor-targeting small molecules. The TxGNN model may not have sufficient graph edges for this compound to generate repurposing hypotheses.
+1. **Biologi / ERT-luokka**: Entsyymin korvaushoitot toimivat täyttämällä puuttuvan endogeenisen entsyymin (TNSALP). Niiden mekanismi on substraattikohtainen, mikä jättää rajoitetun toiminta-alan eri indikaatioiden välisille uudelleenhyödyntöille verrattuna reseptorikohteisiin suuntautuneisiin pienimolekyylisiin lääkkeisiin. TxGNN-mallissa ei välttämättä ole riittävästi kaaviokytkentöjä tälle yhdisteelle uudelleenhyödyntöhypoteesien muodostamiseksi.
 
-2. **Ultra-rare disease signal**: HPP has an estimated prevalence of approximately 1 in 300,000. Knowledge graph training data for this drug is sparse, reducing the model's ability to infer novel indication links through disease-disease or gene-disease co-occurrence pathways.
+2. **Ultra-harvinaisen sairauden signaali**: HPP:n arvioidaan esiintyvän noin 1 henellä 300 000:sta. Tämän lääkkeen tietokaavion koulutustiedot ovat harvat, mikä vähentää mallin kykyä päätellä uusia indikaatiokytkentöjä sairauksien välisten tai geeni-sairaus-rinnakkaisesiintymisen reittien kautta.
 
-3. **MOA data gap**: The Evidence Pack carries no mechanism of action entry for DB09105 (flagged as DG002, severity: High). Without an MOA node in the knowledge graph, mechanistic similarity analysis cannot be performed, and the repurposing engine has no anchor from which to project candidate indications.
+3. **MOA:n tietoaukko**: Näyttöpaketti ei sisällä vaikutusmekanismin merkintää lääkkeelle DB09105 (merkitty DG002, vakavuus: High). Ilman MOA-solmua tietokaavioissa, mekanistista samankaltaisuusanalyysiä ei voida suorittaa, ja uudelleenhyödyntömoottorilla ei ole ankkurikohtaa, josta ehdokasindikaa ionit voitaisiin projisioida.
 
-Until TxGNN returns prediction candidates for this compound, no repurposing recommendation can be made.
+Kunnes TxGNN palauttaa ennusteehdokkaat tälle yhdisteelle, uudelleenhyödyntösuositusta ei voida tehdä.
 
 ---
 
-## Taiwan Market Information
+## Taiwanin markkinatiedot
 
-Asfotase alfa is **not currently approved or marketed in Taiwan**.
+Asfotase alfa **ei ole tällä hetkellä hyväksytty eikä markkinoilla Taiwanissa**.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
+| Hyväksynnän numero | Tuotteen nimi | Antomuoto | Hyväksytty indikaatio |
 |---------------------|--------------|-------------|---------------------|
-| — | — | — | No authorizations on record |
+| — | — | — | Ei hyväksynnöistä rekistereissä |
 
 ---
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information.
+Katso turvallisuustiedoista pakkausselosteesta.
 
-All safety fields in the current Evidence Pack are unresolved data gaps: key warnings (DG001, severity: Blocking), contraindications (DG001, severity: Blocking), and drug interaction data are unavailable. No safety assessment can be performed at this stage.
+Kaikki turvallisuuskentät nykyisessä näyttöpaketissa ovat ratkaisemattomia tietoaukkoja: kriittiset varoitukset (DG001, vakavuus: Blocking), vasta-aiheet (DG001, vakavuus: Blocking) ja lääkkeiden vuorovaikutustiedot eivät ole saatavilla. Turvallisuusarviointia ei voida suorittaa tässä vaiheessa.
 
 ---
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidä varalla**
 
-**Rationale:**
-The Evidence Pack for asfotase alfa is critically incomplete — no TxGNN predictions, no Taiwan regulatory records, and no usable safety data are present. The compound cannot be evaluated for repurposing potential until the blocking data gaps are resolved.
+**Perustelut:**
+Asfotase alfan näyttöpaketti on kriittisesti epätäydellinen — ei TxGNN-ennusteita, ei Taiwanin sääntelyrekistereita ja ei hyödynnettävää turvallisuustietoa. Yhdistettä ei voida arvioida uudelleenhyödyntöpotentiaalin osalta ennen kuin estävät tietoaukot on ratkaistu.
 
-**To proceed, the following is needed:**
+**Jatkamiseksi tarvitaan seuraavaa:**
 
-- **Confirm TxGNN pipeline coverage**: Verify whether DB09105 was included in the prediction run. Biologics and enzyme replacement therapies may require a dedicated graph augmentation step or exclusion flag to be documented.
-- **Retrieve MOA from DrugBank** (DG002): Query DrugBank API for the mechanism of action entry for DB09105. This is required for all downstream mechanistic analysis.
-- **Parse Taiwan package insert from TFDA** (DG001, Blocking): Download and extract the 仿單 PDF to obtain official warnings, contraindications, and precautions before any clinical safety evaluation.
-- **Verify international approval status**: Asfotase alfa holds FDA and EMA approvals for HPP. Confirm whether Finland's Fimea has granted equivalent authorization, as this would establish a baseline regulatory precedent for any new indication filing.
-- **Assess rare disease framework applicability**: HPP carries orphan drug designation in multiple jurisdictions. Any repurposing candidate should be assessed within the rare disease regulatory pathway, which may affect evidence thresholds and approval timelines.
+- **Vahvista TxGNN-putkilinjan kattavuus**: Tarkista, sisältyikö DB09105 ennusteiden suoritukseen. Biologit ja entsyymin korvaushoitot saattavat vaatia omistettua kaaviosidonnaislisäysvaihetta tai poissulkemislipun dokumentointia.
+- **Nouda MOA DrugBankista** (DG002): Kysy DrugBank API:ta vaikutusmekanismimerkinnälle DB09105:lle. Tämä vaaditaan kaikille myöhemmille mekanistisille analyyseille.
+- **Jäsennä Taiwanin pakkausseloste TFDA:sta** (DG001, Blocking): Lataa ja poimi 仿單 PDF saadaksesi viralliset varoitukset, vasta-aiheet ja varotoimet ennen kliinistä turvallisuusarviointia.
+- **Vahvista kansainvälinen hyväksyntätilanne**: Asfotase alfalla on FDA:n ja EMA:n hyväksynnät HPP:lle. Vahvista, onko Suomen Fimea myöntänyt vastaavan hyväksynnän, sillä se vahvistaisi perustavanlaatuisen sääntelyllisen ennakkotapauksen kaikelle uuden indikaation hakemukselle.
+- **Arvioi harvinaisen sairauden kehikon soveltuvuutta**: HPP:llä on harvinaisen lääkkeen nimitys useissa lainkäyttöalueissa. Kaikki uudelleenhyödyntöehdokkaat tulisi arvioida harvinaisen sairauden sääntelypolussa, mikä voi vaikuttaa näytön kynnysarvoihin ja hyväksyntäaikatauluihin.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

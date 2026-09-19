@@ -29,60 +29,61 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Rasburicase: From Tumor Lysis Syndrome–Associated Hyperuricemia to Renal Hypouricemia
+# Rasburikaasi: syöpäsolujen hajoamiseen liittyvästä hyperurikemiasta munuaisten hypourikemiaan
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Rasburicase is a recombinant urate oxidase established for treating hyperuricemia associated with tumor lysis syndrome in cancer patients. The TxGNN model's top-ranked prediction is **Renal Hypouricemia**, but this prediction is mechanistically implausible — rasburicase *lowers* uric acid, while renal hypouricemia is a condition of *abnormally low* uric acid — and it is supported by **zero clinical trials and zero publications**. A stronger mechanistic candidate exists further down the ranked list (HPRT partial deficiency), also without any supporting studies.
+Rasburikaasi on rekombinantti urataattioksidaasi, jonka vakiintunut käyttötarkoitus on hoitaa syöpäsolujen hajoamiseen liittyvää hyperurikemiaa syöpäpotilailla. TxGNN-mallin huipulle sijoittuva ennuste on **Munuaisten hypourukemia**, mutta tämä ennuste on mekanistisesti epätodennäköinen — rasburikaasi *alentaa* virtsahappoa, kun taas munuaisten hypourukemia on sairaus, jolle on ominaista *poikkeuksellisen alhainen* virtsahappo — ja sitä tukevat **nolla kliinistä tutkimusta ja nolla julkaisuja**. Vahvempi mekanistinen kandidaatti on olemassa alemmas rankatussa listassa (HPRT osittainen puutos), jolle ei myöskään ole tukitutkimuksia.
 
-## Quick Overview
+## Pikayleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Tumor lysis syndrome–associated hyperuricemia (per pharmacological context in the evidence pack; not sourced from a formal license, as none exists) |
-| Predicted New Indication | Renal Hypouricemia |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Taiwan Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen käyttötarkoitus | Syöpäsolujen hajoamiseen liittyvä hyperurukemia (farmakologisen kontekstin perusteella todistusmateriaalipaketissa; ei virallisesta luvasta, koska sellaista ei ole olemassa) |
+| Ennustettu uusi käyttötarkoitus | Munuaisten hypourukemia |
+| TxGNN-ennustepisteet | 99,99 % |
+| Todistusaineiston taso | L5 (vain malliennuste, ei tukevia tutkimuksia) |
+| Taiwan-markkinoiden tila | ✗ Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltava päätös | Pidätys |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Detailed formal mechanism-of-action data is flagged as a data gap (DG002) in this evidence pack. However, the pack's own rationale text confirms rasburicase's known pharmacology: it is a recombinant urate oxidase that oxidizes uric acid into allantoin, used to *reduce* uric acid levels in oncology patients at risk of tumor lysis syndrome.
+Yksityiskohtaista virallista vaikutusmekanismin tietoa merkitään tämän todistusmateriaalipaketissa tietovajeeksi (DG002). Paketin omasta perustelutekstistä kuitenkin käy ilmi rasburikaasin tunnettu farmakologia: se on rekombinantti urataattioksidaasi, joka hapettaa virtsahappoa allantoiinissa, ja sitä käytetään syöpäpotilaiden virtsahappolukujen *alentamiseen* syöpäsolujen hajoamisen riskissä.
 
-**The top-ranked prediction, Renal Hypouricemia, should be treated with significant caution.** Renal hypouricemia is a disorder of *abnormally low* uric acid, typically caused by defective renal tubular urate transporters. Administering a uric acid–lowering agent to a patient who already has too little uric acid runs directionally opposite to the disease and would be expected to worsen rather than improve the condition. The evidence pack itself explicitly characterizes this as a likely high-score false positive of the TxGNN model, not a biologically coherent hypothesis.
+**Paremmalle sijoitukselle nousevaa ennustetta, Munuaisten hypourukemiaa, olisi käsiteltävä huomattavalla varovaisuudella.** Munuaisten hypourukemia on sairaus, jolle on ominaista *poikkeuksellisen alhainen* virtsahappo, jonka aiheuttavat yleensä vialliset munuaisten tubulaarisen uridin kuljettimet. Virtsahappoa alentavan valmisteen antaminen potilaalle, jolla on jo liian vähän virtsahappoa, toimii suunnassa, joka on vastakkainen sairauden kanssa, ja sen voidaan odottaa pahentavan sairauden sijasta parantavan sitä. Todistusmateriaalipaketissa itsessään tämä on selvästi kuvattu TxGNN-mallin todennäköisesti korkeaksi pistemäärät saaneeksi vääräpositiiviseksi, ei biologisesti johdonmukaiseksi hypoteesiksi.
 
-A more mechanistically defensible candidate appears at rank 2: **HPRT partial deficiency** (e.g., Kelley-Seegmiller syndrome), where a blocked purine salvage pathway causes uric acid overproduction and urate nephropathy. Here, rasburicase's uric-acid-oxidizing action has a direct, logical connection to the underlying metabolic abnormality. However, this candidate carries no clinical trial or literature support either, and was not selected as the model's top hit.
+Mekanistisesti puolustettavampi kandidaatti esiintyy sijoilla 2: **HPRT osittainen puutos** (esim. Kelley-Seegmiller-oireyhtymä), jossa tukkeutunut puriinin pelastusreitti aiheuttaa virtsahappoylimuodostusta ja uraattinefropatia. Tässä rasburikaasin virtsahappoa alentava vaikutus on suora, looginen yhteys taustalla olevaan aineenvaihdunnan häiriöön. Tällä kandidaatilla ei kuitenkaan ole kliinisen kokeen tai kirjallisuuden tukea, ja se ei ollut mallin valitsema huippusijoitus.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen todisteet
 
-Currently no related clinical trials registered.
+Tällä hetkellä ei ole rekisteröityjä siihen liittyviä kliinisiä tutkimuksia.
 
-## Literature Evidence
+## Kirjallisuuden todisteet
 
-Currently no related literature available.
+Tällä hetkellä kirjallisuutta ei ole saatavilla.
 
-## Taiwan Market Information
+## Taiwan-markkinoiden tiedot
 
-Rasburicase is not currently marketed in Taiwan (0 authorizations on record), so no product/authorization data is available.
+Rasburikaasia ei tällä hetkellä myydä Taiwanissa (0 hyväksyntää saatavilla), joten tuote- tai hyväksyntätietoja ei ole saatavilla.
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug interaction data are all currently unavailable — TFDA package insert retrieval is a blocking data gap, DG001.)
+Katso turvallisuustiedot pakkausselosteesta. (Keskeiset varoitukset, vasta-aiheet ja lääkkeiden vuorovaikutustiedot eivät ole tällä hetkellä saatavilla — TFDA:n pakkausselosteen haku on estävä tietovaje, DG001.)
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidätys**
 
-**Rationale:**
-The top-ranked prediction (renal hypouricemia) is mechanistically contradictory to rasburicase's known pharmacology and is best treated as a probable model artifact rather than a genuine repurposing signal. The mechanistically more plausible candidate (HPRT partial deficiency) has no clinical or literature evidence at all. With evidence level L5 across all ten predictions and no real-world use, marketing, or safety documentation, none of these candidates are ready for further evaluation stages.
+**Perustelut:**
+Huipulle sijoittuva ennuste (munuaisten hypourukemia) on mekanistisesti ristiriitainen rasburikaasin tunnetun farmakologian kanssa ja on parasta käsitellä todennäköisenä mallin virheenä pikemminkin kuin aito uudelleenkäytön signaalina. Mekanistisesti todennäköisempi kandidaatti (HPRT osittainen puutos) ei ole lainkaan kliinisen tai kirjallisuuden todisteen varassa. Koska todistusaineiston taso on L5 kaikkien kymmenen ennusteen osalta ja todellista käyttöä, markkinointia tai turvallisuusdokumentaatiota ei ole, yksikään näistä kandidaateista ei ole valmiina edelleen arvioitavaksi.
 
-**To proceed, the following is needed:**
-- TFDA/manufacturer package insert (warnings, contraindications) — currently blocking (DG001)
-- Confirmed original indication and formal MOA documentation (DG002)
-- Preclinical or case-level evidence specifically testing rasburicase in HPRT partial deficiency–related urate nephropathy, if this candidate is to be pursued instead of the top-ranked (implausible) hit
-- Re-scoring or manual override review of the renal hypouricemia prediction, given the directional mechanistic conflict identified above
+**Jatkamiseksi tarvitaan seuraavaa:**
+- TFDA:n/valmistajan pakkausseloste (varoitukset, vasta-aiheet) — tällä hetkellä estävä (DG001)
+- Vahvistettu alkuperäinen käyttötarkoitus ja virallinen vaikutusmekanismin dokumentaatio (DG002)
+- Prekliininen tai tapaustutkimukseen perustuva todiste, joka testaa rasburikaasia erityisesti HPRT osittaiseen puutokseen liittyvässä uraattinefropatiassa, jos tätä kandidaattia aiotaan jatkaa huipulle sijoittuneen (epätodennäköisen) osuman sijasta
+- Uudelleenpisteytyson tai manuaalisen tarkistusarvioinnin suorittaminen munuaisten hypourukemia-ennusteelle, koska edellä määritelty suuntaava mekanistinen ristiriita on tunnistettu
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

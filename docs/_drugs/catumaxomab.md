@@ -29,87 +29,88 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Catumaxomab: From Malignant Ascites to Severe Nonproliferative Diabetic Retinopathy
+# Katumaksomabi: Pahanlaatuisesta vatsantäytteestä vakavaan ei-proliferatiiviseen diabeettiseen retinopatia-sairauteen
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Catumaxomab (DrugBank ID: DB06607) is a trifunctional anti-EpCAM × anti-CD3 bispecific antibody originally developed for **malignant ascites** caused by EpCAM-positive carcinomas. The TxGNN model predicts it may be effective for **severe nonproliferative diabetic retinopathy**, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it rests on the model score alone.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Malignant Ascites (EpCAM-positive carcinoma) |
-| Predicted New Indication | Severe Nonproliferative Diabetic Retinopathy |
-| TxGNN Prediction Score | 99.64% (rank 4336) |
-| Evidence Level | L5 |
-| Finland Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Katumaksomabi (DrugBank ID: DB06607) on kolmitoiminen anti-EpCAM × anti-CD3 kaksi-spesifinen vasta-aine, joka on alun perin kehitetty EpCAM-positiivisten karsinoomien aiheuttaman **pahanlaatuisen vatsantäytteen** hoitoon. TxGNN-malli ennustaa, että se saattaisi olla tehokas **vakavaan ei-proliferatiiviseen diabeettiseen retinopatia-sairauteen**, mutta tämä ennustus perustuu tällä hetkellä **0 kliiniseen tutkimukseen** ja **0 julkaisuun** — se perustuu pelkästään mallin pisteeseen.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Currently, detailed mechanism of action data (`original_moa`) is flagged as a data gap in the source records. Based on the repurposing rationale available in the evidence pack, catumaxomab is known to be a trifunctional bispecific antibody that simultaneously binds EpCAM on tumor cells and CD3 on T-cells, recruiting cytotoxic T-cells and accessory immune cells (via its intact Fc region) to destroy EpCAM-positive tumor cells. Its original approved use was for malignant ascites in EpCAM-positive carcinomas.
-
-Diabetic retinopathy — including the severe nonproliferative stage — is driven by a fundamentally different pathology: chronic hyperglycemia, VEGF-driven microvascular damage, retinal ischemia, and low-grade inflammation. There is no known overlap between T-cell-mediated tumor cytotoxicity and the metabolic/vascular processes underlying diabetic retinopathy.
-
-The evidence pack's own mechanistic assessment explicitly flags this as a low-plausibility, speculative link: the prediction is driven entirely by the TxGNN graph model's score, with no supporting literature, clinical trials, or biological rationale identified. The same caveat applies to the two lower-ranked candidates (drug-induced osteoporosis, rank 2; diabetic retinopathy, rank 3), both of which also lack any mechanistic or clinical support.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Pahanlaatuinen vatsantäyte (EpCAM-positiivinen karsinooma) |
+| Ennustettu uusi indikaatio | Vakava ei-proliferatiivinen diabeettinen retinopatia |
+| TxGNN-ennustuskeskiarvo | 99.64% (sija 4336) |
+| Todistetaso | L5 |
+| Suomen markkinoiden tila | Ei saatavana (Ei markkinoilla) |
+| Hyväksynnän määrä | 0 |
+| Suositeltu päätös | Pidä |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennustus on järkevä?
 
-Currently no related literature available.
+Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja (`original_moa`) merkitään tietoryhmän puutteeksi lähdetiedoissa. Todisteiden pakettiin perustuvan uuden käyttötarkoituksen perusteella katumaksomabi tunnetaan kolmitoimisena kaksi-spesifisenä vasta-aineena, joka sitoutuu samanaikaisesti EpCAM:iin syöpäsoluissa ja CD3:een T-soluissa ja rekrytoi sytotoksisia T-soluja ja apuimmunologisia soluja (sen ehjän Fc-alueen kautta) EpCAM-positiivisten syöpäsolujen tuhoamiseksi. Sen alkuperäinen hyväksytty käyttö oli pahanlaatuisen vatsantäytteen hoito EpCAM-positiivisissa karsinoomissa.
 
----
+Diabeettinen retinopatia — mukaan lukien vakava ei-proliferatiivinen vaihe — johtuu perustavanlaatuisesti erilaisesta patologiasta: kroonisesta hyperglykemiasta, VEGF-välikeskeisestä mikrovaskularisesta vauriosta, verkkokalvon iskemiasta ja matalaasteisenesta tulehdustilasta. T-solujen välittämän syöpäsolun sytotoksisuuden ja diabeettisen retinopatian taustalla olevien aineenvaihdunta-/vaskularisten prosessien välillä ei tunnetusti ole päällekkäisyyttä.
 
-## Finland Market Information
-
-Catumaxomab is currently **not marketed** in Finland (0 approved authorizations on record); no license or product information is available for this candidate.
+Todisteiden paketin oma mekanistinen arviointi merkitsee tämän nimenomaisesti matalan uskottavuuden, spekulatiiviseksi linkiksi: ennustus johtuu kokonaan TxGNN-graafimallin pisteestä, eikä mitään tukevaa kirjallisuutta, kliinisiä tutkimuksia tai biologista perustelua ole tunnistettu. Sama varoitus koskee kahta alemmassa sijalukussa olevaa kandidaattia (lääkkeen aiheuttama osteoporoosi, sija 2; diabeettinen retinopatia, sija 3), joista kumpikaan vailla mekanistista tai kliinistä tukea.
 
 ---
 
-## Cytotoxicity
+## Kliinisen tutkimuksen todisteet
 
-Catumaxomab's original approved use (malignant ascites in EpCAM-positive **carcinoma**) qualifies it as an antineoplastic/immuno-oncology agent, so this section applies.
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Immunotherapy (T-cell-engaging trifunctional bispecific antibody), not a conventional cytotoxic agent |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
 
 ---
 
-## Safety Considerations
+## Kirjallisuuden todisteet
 
-Please refer to the package insert for safety information.
+Tällä hetkellä ei ole saatavana asiaan liittyvää kirjallisuutta.
 
 ---
 
-## Conclusion and Next Steps
+## Suomen markkinatiedot
 
-**Decision: Hold**
+Katumaksomabi **ei ole tällä hetkellä markkinoilla** Suomessa (0 hyväksyttyjä hyväksynnöistä tiedoissa); tälle kandidaatille ei ole saatavana lisenssitietoja tai tuotetietoja.
 
-**Rationale:**
-This candidate has evidence level L5 — model prediction only, with zero supporting clinical trials or literature, and the evidence pack's own mechanistic analysis rates the biological plausibility as very low. Critical safety data (TFDA/Fimea package insert warnings and contraindications) is also flagged as a **Blocking** data gap, meaning no S1 safety pre-assessment can be performed yet.
+---
 
-**To proceed, the following is needed:**
-- Package insert / regulatory label data (warnings, contraindications) to clear the Blocking safety gap (DG001)
-- Confirmed mechanism of action from DrugBank to properly assess mechanistic plausibility (DG002)
-- Emergence of preclinical, mechanistic, or clinical evidence specifically linking EpCAM×CD3-directed T-cell engagement to diabetic retinopathy pathology before this candidate can be re-scored above L5
+## Sytotoksisuus
+
+Katumaksomabi alkuperäisen hyväksytyn käytön (pahanlaatuinen vatsantäyte EpCAM-positiivisissa **karsinoomissa**) oikeuttaa sen antineoplaastiseksi/immuno-onkologiseksi aineeksi, joten tämä osio koskee.
+
+| Kohta | Sisältö |
+|------|---------|
+| Sytotoksisuuden luokitus | Immunoterapia (T-soluja sitouttava kolmitoiminen kaksi-spesifinen vasta-aine), ei perinteinen sytotoksinen aine |
+| Luuytimen tukahduttamisen riski | Katso pakkausseloste varoituksista ja varotoimista |
+| Pahoinvointisuuden luokitus | Katso pakkausseloste varoituksista ja varotoimista |
+| Seurantakohteet | Katso pakkausseloste varoituksista ja varotoimista |
+| Käsittelysuojaus | Katso pakkausseloste varoituksista ja varotoimista |
+
+---
+
+## Turvallisuushuomiot
+
+Katso pakkausseloste turvallisuustiedoista.
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidä**
+
+**Perustelut:**
+Tällä kandidaatilla on todistetasolla L5 — pelkkä mallin ennustus, nolla tukevaa kliinistä tutkimusta tai kirjallisuutta, ja todisteiden paketin oma mekanistinen analyysi arvioi biologisen uskottavuuden erittäin matalaksi. Kriittiset turvallisuustiedot (TFDA/Fimea-pakkausseloste varoitukset ja vasta-aiheet) merkitään myös **estäväksi** tietoryhmän puutteeksi, mikä tarkoittaa, että S1-turvallisuuden ennakko-arviointia ei vielä voida suorittaa.
+
+**Jatkaakseen seuraavaa tarvitaan:**
+- Pakkausseloste / sääntelytekstit (varoitukset, vasta-aiheet) estävän tietoryhmän puutteen poistamiseksi (DG001)
+- Vahvistettu vaikutusmekanismi DrugBankista mekanistisen uskottavuuden asianmukaiseksi arvioimiseksi (DG002)
+- Prekliinisten, mekanististen tai kliinisten näyttöjen ilmaantuminen, jotka erityisesti yhdistävät EpCAM×CD3-ohjaamaan T-solujen sitouttamiseen diabeettisen retinopatian patologiaa, ennen kuin tämä kandidaatti voidaan uudelleen pisteyttää L5:tä korkeammaksi
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

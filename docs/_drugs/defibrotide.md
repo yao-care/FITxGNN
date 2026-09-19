@@ -29,77 +29,78 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Defibrotide: From Hepatic Veno-Occlusive Disease (VOD/SOS) Prevention to Thrombotic Thrombocytopenic Purpura
+# Defibrotidi: Maksan laskimovaltaisesta tukkeutumisoireyhtymästä (VOD/SOS) ehkäisystä trombottiseen trombosytpeniseen purpuraan
 
-> **Methodology note:** TxGNN's raw #1–#3 and #5–#9 ranked predictions (pseudo-von Willebrand disease, Glanzmann thrombasthenia, Scott syndrome, congenital Factor V deficiency, etc.) are all **congenital bleeding disorders**. The evidence pack's own rationale flags these as mechanistically backwards — defibrotide is an antithrombotic/profibrinolytic agent, and using it for diseases that already impair clotting could worsen bleeding rather than help. None of these six have any supporting trial or literature evidence (all L5/Hold). This report instead focuses on **Thrombotic Thrombocytopenic Purpura (rank 4)**, the only candidate with real clinical evidence and a mechanistically coherent rationale (the near-identical "thrombocytopenic purpura" at rank 10 shares the same literature set and conclusion).
+> **Metodologinen huomio:** TxGNN:n raakatulokset #1–#3 ja #5–#9 sijoitukselle (näennäinen von Willebrandi -tauti, Glanzmannin trombastenia, Scottin oireyhtymä, synnynnäinen Factor V -puute jne.) ovat kaikki **synnynnäiset verenvuototisairaudet**. Todistusten kokoelmalla olevan perustelun mukaan nämä on merkitty mekanistisesti vääriksi — defibrotidi on antitrombottinen/profibrinolyttinen lääke, ja sen käyttö sairauksissa, jotka jo heikentävät hyytymistä, voisi pahentaa verenvuotoa parantamisen sijaan. Näillä kuudella ei ole mitään tukevia tutkimuksia tai kirjallisuustodistusteita (kaikki L5/Hold). Tämä raportti keskittyy sen sijaan **trombottiseen trombosytpeniseen purpuraan (rank 4)**, ainoaan kandidaattiin, jolla on todellisia kliinisiä todistusteita ja mekanistisesti johdonmukainen perustelu (lähes identtinen "trombosyytpeninen purpura" sijoituksessa 10 jakaa saman kirjallisuusaineiston ja johtopäätökset).
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Defibrotide's established clinical use — visible in this evidence pack via trial NCT02851407 — is prevention of hepatic veno-occlusive disease/sinusoidal obstruction syndrome (VOD/SOS) in patients undergoing hematopoietic stem cell transplant (HSCT). The TxGNN model's best-supported new-indication signal is **Thrombotic Thrombocytopenic Purpura (TTP)**, backed by **11 publications** (cohort studies, reviews, and case reports/series spanning 1984–2023) but **no completed clinical trials**. Critically, one of those publications reports TTP developing *after* defibrotide therapy, so this remains an open safety question rather than a settled efficacy signal.
+Defibrotiidin vakiintunut kliininen käyttö — näkyvissä tässä todistusten kokoelmassa tutkimuksen NCT02851407 kautta — on maksan laskimovaltaisen tukkeutumisoireyhtymän/sinusoidisen tukkeutumisoireyhtymän (VOD/SOS) ehkäisy potilailla, jotka saavat kantasolujen siirtoa (HSCT). TxGNN-mallin parhaiten tuettu uusien indikaatioiden signaali on **trombottinen trombosytpeninen purpura (TTP)**, jota tukeaa **11 julkaisua** (kohorttitutkimuksia, katsauksia ja tapausraportteja/sarjoja, jotka kattavat vuodet 1984–2023), mutta **ei yhtään valmistunutta kliinistä tutkimusta**. Kriittisesti, yksi näistä julkaisuista raportoi TTP:n kehittyvän *jälkeen* defibrotiidin hoitoa, joten tämä jää avoimeksi turvallisuuskysymykseksi pikemminkin kuin ratkaistuksi tehokkuussignaaliksi.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Not formally captured in this evidence pack (original indication/MOA fields are data gaps); trial evidence (NCT02851407) indicates defibrotide's established use is VOD/SOS prophylaxis in HSCT patients |
-| Predicted New Indication | Thrombotic Thrombocytopenic Purpura |
-| TxGNN Prediction Score | 99.71% (rank 3,665 of scored pairs) |
-| Evidence Level | L3 |
-| Finland Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Research Question |
+| Alkuperäinen indikaatio | Ei virallisesti kuvattu tässä todistusten kokoelmassa (alkuperäisen indikaation/MOA-kentät ovat tietopuutteita); tutkimuksen todisteet (NCT02851407) osoittavat, että defibrotiidin vakiintunut käyttö on VOD/SOS:n ehkäisy HSCT-potilailla |
+| Ennustettu uusi indikaatio | Trombottinen trombosytpeninen purpura |
+| TxGNN-ennusteen pistemäärä | 99.71% (sijoitus 3,665/pisteytettävistä pareista) |
+| Todisteiden taso | L3 |
+| Markkinoinnin kanta Suomessa | ✗ Ei markkinoitu |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Tutkimuskysymys |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennustus on perusteltu?
 
-Formal mechanism-of-action data for defibrotide is flagged as a data gap in this pack (DG002, High severity). However, the repurposing rationale attached to the evidence itself describes defibrotide as having **endothelial-protective and antithrombotic/profibrinolytic activity** — consistent with its known role in preventing microvascular thrombosis and endothelial injury in VOD/SOS after HSCT.
+Defibrotiidin muodollinen vaikutusmekanismin tieto on merkitty tietopuutteeksi tässä kokoelmassa (DG002, korkea vakavuus). Kuitenkin todistusten itsensä yhteyteen liitetty uudelleenkäytön perustelu kuvaa defibrotiidia sillä olevan **endoteeliin suojaava ja antitrombottinen/profibrinolyttinen aktiivisuus** — sopusoinnussa sen tunnetun roolin kanssa mikroverisuonien tromboosi ja endotelian vaurioiden ehkäisyssä VOD/SOS:ssa HSCT:n jälkeen.
 
-TTP and transplant-associated thrombotic microangiopathy (TA-TMA) share the same underlying pathophysiology as VOD/SOS: endothelial injury and microvascular thrombus formation. This mechanistic overlap is why multiple independent case series and cohort reports from 1984–2002 explored defibrotide in TTP/TA-TMA/HUS, and why a 2023 in-vitro study found defibrotide mitigates endothelial cell injury induced by plasma from TMA-related conditions (including COVID-19 vasculopathy).
+TTP ja siirtoon liittyvä trombotinen mikroangiopatia (TA-TMA) jakavat saman taustalla olevan patofysiologian kuin VOD/SOS: endotelian vaurio ja mikroverisuonien tromboosi muodostuminen. Tämä mekanistinen päällekkäisyys on syy siihen, miksi useita riippumattomia tapaussarjoja ja kohorttiraportteja vuosilta 1984–2002 tutki defibrotiidia TTP/TA-TMA/HUS:ssa, ja miksi 2023-vuotinen in vitro -tutkimus osoitti, että defibrotidi lieventää TMA-liittyvistä olosuhteista aiheutuvaa endoteelisolun vaurioita plasmasäiliösta (mukaan lukien COVID-19-verisuonivauriot).
 
-That said, the evidence is entirely observational — no RCTs exist for this indication — and one 1994 case report describes the opposite causal direction (TTP occurring *after* defibrotide treatment), which must be weighed against the treatment-oriented reports before any clinical hypothesis is pursued.
+Tästä huolimatta todistusteaineisto on täysin havainnoiva — RCT:itä ei ole tästä indikaatiosta — ja yksi 1994-vuotinen tapausraportti kuvailee päinvastaisen syy-seuraus-suunnan (TTP esiintyvän *jälkeen* defibrotiidin hoitoa), joka on punnittava hoitoon suuntautuvien raporttien vastaan ennen kliinisen hypoteesin edistämistä.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen todisteet
 
-Currently no related clinical trials registered for Thrombotic Thrombocytopenic Purpura.
+Tällä hetkellä ei ole rekisteröitynyt aiheeseen liittyviä kliinisiä tutkimuksia trombottiselle trombosytpeniselle purpuralle.
 
-*(Note: trial NCT02851407 — a completed Phase 3 HARMONY study of defibrotide for VOD/SOS prophylaxis — appears elsewhere in this evidence pack under "primary release disorder of platelets," but was graded Relevance "C": its actual indication is VOD/SOS, not a platelet-release disorder, and its primary endpoint was negative. It is not counted as supporting evidence for TTP.)*
+*(Huomautus: tutkimus NCT02851407 — päättynyt HARMONY-vaiheen 3 -tutkimus defibrotiidin VOD/SOS-ehkäisystä — esiintyy muualla tässä todistusten kokoelmassa "veriplateelien ensisijaisen vapautumisen häiriön" alla, mutta arvioitiin Relevanssi "C": sen todellinen indikaatio on VOD/SOS, ei veriplateelien vapautumishäiriö, ja sen ensisijainen päätetapaus oli negatiivinen. Sitä ei lasketa TTP:n tukevan todisteena.)*
 
-## Literature Evidence
+## Kirjallisuustodisteet
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [30305540](https://pubmed.ncbi.nlm.nih.gov/30305540/) | 2018 | Review | Rinsho Ketsueki | Management of transplant-associated thrombotic microangiopathy (TA-TMA) |
-| [17603513](https://pubmed.ncbi.nlm.nih.gov/17603513/) | 2007 | Review | Bone Marrow Transplant | Diagnosis/treatment progress in transplantation-associated TMA |
-| [19228075](https://pubmed.ncbi.nlm.nih.gov/19228075/) | 2009 | Review | Drugs | TMA in HSCT: diagnosis and treatment, incidence 0.5–76%, mortality 60–90% despite treatment |
-| [11100281](https://pubmed.ncbi.nlm.nih.gov/11100281/) | 2000 | Cohort | Bone Marrow Transplant | TTP incidence/risk factors in 131 leukemic children after BMT |
-| [11960280](https://pubmed.ncbi.nlm.nih.gov/11960280/) | 2002 | Cohort | Bone Marrow Transplant | "Defibrotide as a promising treatment for TTP in patients undergoing BMT" |
-| [10775024](https://pubmed.ncbi.nlm.nih.gov/10775024/) | 2000 | Case Report | Clin Appl Thromb Hemost | Defibrotide used in recurrent/relapsed TTP |
-| [7896218](https://pubmed.ncbi.nlm.nih.gov/7896218/) | 1994 | Case Report (adverse) | Haematologica | **TTP occurring after defibrotide therapy** — opposite-direction safety signal |
-| [8317470](https://pubmed.ncbi.nlm.nih.gov/8317470/) | 1993 | Case Series | Am J Hematol | Treatment of TTP with defibrotide |
-| [6547211](https://pubmed.ncbi.nlm.nih.gov/6547211/) | 1984 | Case Series | Nephron | Defibrotide as antithrombotic agent in acute renal failure due to HUS/TTP |
-| [37001283](https://pubmed.ncbi.nlm.nih.gov/37001283/) | 2023 | Basic Science (in vitro) | Thrombosis Research | Defibrotide mitigates endothelial injury from COVID-19/TMA patient plasma |
+| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät löydökset |
+|------|------|------|------|---------|
+| [30305540](https://pubmed.ncbi.nlm.nih.gov/30305540/) | 2018 | Katsaus | Rinsho Ketsueki | Siirtoon liittyvän trombotisen mikroangiopatian (TA-TMA) hallinta |
+| [17603513](https://pubmed.ncbi.nlm.nih.gov/17603513/) | 2007 | Katsaus | Bone Marrow Transplant | Diagnoosi ja hoitokehitys siirtoon liittyvässä TMA:ssa |
+| [19228075](https://pubmed.ncbi.nlm.nih.gov/19228075/) | 2009 | Katsaus | Drugs | TMA HSCT:ssa: diagnoosi ja hoito, ilmaantuvuus 0,5–76 %, kuolleisuus 60–90 % hoidosta huolimatta |
+| [11100281](https://pubmed.ncbi.nlm.nih.gov/11100281/) | 2000 | Kohortti | Bone Marrow Transplant | TTP:n ilmaantuvuus ja riskitekijät 131 leukemian sairastaneella lapsella BMT:n jälkeen |
+| [11960280](https://pubmed.ncbi.nlm.nih.gov/11960280/) | 2002 | Kohortti | Bone Marrow Transplant | "Defibrotidi lupaavana hoitona TTP:lle potilailla, jotka saavat BMT:tä" |
+| [10775024](https://pubmed.ncbi.nlm.nih.gov/10775024/) | 2000 | Tapausraportti | Clin Appl Thromb Hemost | Defibrotidi käytetty toistuvassa ja uusiutuvassa TTP:ssa |
+| [7896218](https://pubmed.ncbi.nlm.nih.gov/7896218/) | 1994 | Tapausraportti (haitallinen) | Haematologica | **TTP esiintyvän jälkeen defibrotiidin hoitoa** — päinvastaisen suunnan turvallisuussignaali |
+| [8317470](https://pubmed.ncbi.nlm.nih.gov/8317470/) | 1993 | Tapaussarja | Am J Hematol | TTP:n hoito defibrotidilla |
+| [6547211](https://pubmed.ncbi.nlm.nih.gov/6547211/) | 1984 | Tapaussarja | Nephron | Defibrotidi antitrombottisena aineena akuutissa munuaisvauriossa HUS/TTP:n vuoksi |
+| [37001283](https://pubmed.ncbi.nlm.nih.gov/37001283/) | 2023 | Perustiede (in vitro) | Thrombosis Research | Defibrotidi lieventää endotelian vaurioita COVID-19/TMA-potilaan plasmasta |
 
-## Finland Market Information
+## Markkinoinnin kanta Suomessa
 
-Defibrotide is **not currently marketed in Finland** — 0 authorizations are on file in this evidence pack.
+Defibrotidi **ei ole tällä hetkellä markkinoitu Suomessa** — 0 hyväksyntää on tiedostossa tässä todistusten kokoelmassa.
 
-## Safety Considerations
+## Turvallisuushuomiot
 
-No structured safety data (key warnings, contraindications, DDI) are available for defibrotide in this evidence pack — please refer to the package insert for safety information.
+Strukturoidut turvallisuustiedot (tärkeät varoitukset, vasta-aiheet, LLY) eivät ole saatavilla defibrotidille tässä todistusten kokoelmassa — tutustu pakkausselosteeseen turvallisuustietoja varten.
 
-One evidence-derived signal worth flagging separately: PMID 7896218 (Haematologica, 1994) reports a case of TTP developing **after** defibrotide administration, indicating the drug–disease relationship for this indication may run in either direction and needs dedicated causality assessment before any clinical hypothesis is advanced.
+Yksi todistusten perusteella saatu signaali, joka kannattaa merkitä erikseen: PMID 7896218 (Haematologica, 1994) raportoi TTP:n kehittyvän **jälkeen** defibrotiidin antoa, mikä osoittaa, että lääkkeen ja sairauden suhde tästä indikaatiosta voi olla molempiin suuntiin ja vaatii omistautuneen kausaalisuuden arvioinnin ennen kliinisen hypoteesin edistämistä.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Research Question**
+**Päätös: Tutkimuskysymys**
 
-**Rationale:**
-The TTP signal is mechanistically plausible and has multi-decade observational support, but rests entirely on cohort/case-level evidence with no RCTs, and includes at least one report of the opposite causal direction. Formal safety data (TFDA/package-insert warnings, DDI) and MOA confirmation are both outstanding blocking/high-severity gaps (DG001, DG002), so this cannot yet clear even an initial safety screen.
+**Perustelu:**
+TTP-signaali on mekanistisesti uskottava ja sillä on monivuosikymmenen havainnoiva tuki, mutta se perustuu täysin kohortti- ja tapaus-tasoisiin todistusteisiin ilman RCT:itä, ja sisältää ainakin yhden raportin päinvastaisesta syy-seuraus-suhteesta. Muodolliset turvallisuustiedot (TFDA/pakkausselosteen varoitukset, LLY) ja MOA-vahvistus ovat molemmat jääneet estäviksi/korkean vakavuuden puutteiksi (DG001, DG002), joten tämä ei voi vielä läpäistä edes alkuperäistä turvallisuus-seulontaa.
 
-**To proceed, the following is needed:**
-- TFDA/EMA package insert data (warnings, contraindications) — currently blocking (DG001)
-- Confirmed mechanism of action from DrugBank or primary literature (DG002)
-- Adjudication of the causality conflict between defibrotide-as-treatment (PMID 11960280, 10775024, 8317470) vs. defibrotide-as-trigger (PMID 7896218) for TTP
-- A prospective or registry-based study, since no RCT currently exists for this indication
+**Jatkaakseen tarvitaan seuraavaa:**
+- TFDA/EMA:n pakkausselosteen tiedot (varoitukset, vasta-aiheet) — tällä hetkellä estävä (DG001)
+- Vahvistettu vaikutusmekanismi DrugBankista tai alkuperäisestä kirjallisuudesta (DG002)
+- Kausaalisuuden ristiriidan arviointi: defibrotidi hoitona (PMID 11960280, 10775024, 8317470) vs. laukaisijana (PMID 7896218) TTP:n osalta
+- Prospektiivinen tai rekisteripohjainen tutkimus, koska RCT:tä ei tällä hetkellä ole tästä indikaatiosta
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

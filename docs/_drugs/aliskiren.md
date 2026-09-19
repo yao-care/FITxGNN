@@ -29,108 +29,109 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **7** kpl
 
 </div>
 
-# Aliskiren: From Hypertension to Pulmonary Hypertension Due to Lung Disease and/or Hypoxia
+# Aliskiren: verenpainetaudista keuhkojen sairauksien tai/ja hapenpuutteen aiheuttamaan keuhkojen verenpainetaudin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Aliskiren is a direct renin inhibitor (DRI), a drug class originally developed to treat essential hypertension by blocking the rate-limiting step of the renin-angiotensin-aldosterone system (RAAS). The TxGNN model's top-ranked prediction suggests it may be effective for **Pulmonary Hypertension Owing to Lung Disease and/or Hypoxia**, but this direction is currently supported by **0 clinical trials** and **20 publications that, on review, do not actually address Aliskiren or this indication** — the evidence is essentially a keyword coincidence around "hypoxia" rather than substantive mechanistic or clinical support.
+Aliskiren on suora reniiniestaasi (DRI), lääkepääryhmä, joka kehitettiin alun perin olennaisen verenpainetaudin hoitoon renin-angiotensiini-aldosteroni-järjestelmän (RAAS) nopeutta rajoittavan vaiheen estämällä. TxGNN-mallin parhaiten sijoittuva ennuste viittaa siihen, että se voi olla tehokas **Keuhkojen verenpainetaudissa, joka johtuu keuhkosairauksista ja/tai hapenpuutteesta**, mutta tätä suuntaa tukevat tällä hetkellä **0 kliinistä tutkimusta** ja **20 julkaisua, jotka tarkastuksessa eivät itse asiassa käsittele aliskireenia tai tätä indikaatiota** — todisteet ovat pohjimmiltaan sanaston sattuma "hapenpuutteen" ympärillä pikemminkin kuin aineellinen mekanistinen tai kliininen tuki.
 
 ---
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Hypertension (based on general drug-class knowledge; not confirmed by TFDA/Fimea license data in this evidence pack — see Data Gap DG001) |
-| Predicted New Indication | Pulmonary Hypertension Owing to Lung Disease and/or Hypoxia |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L5 |
-| Finland Market Status | ❌ Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen indikaatio | Verenpainetauti (yleiseen lääkepääryhmän tietoon perustuen; ei vahvistettu TFDA/Fimean luvanantotiedoilla tässä todiste-aineistossa — katso Data Gap DG001) |
+| Ennustettu uusi indikaatio | Keuhkojen verenpainetauti, joka johtuu keuhkosairauksista ja/tai hapenpuutteesta |
+| TxGNN-ennusteen pistemäärä | 99.98% |
+| Todisteiden taso | L5 |
+| Suomen markkinatilanne | ❌ Ei markkinoitu |
+| Luvan saaneiden lääkkeiden lukumäärä | 0 |
+| Suositeltu päätös | Odottaminen |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, detailed mechanism of action data is not available from DrugBank in this evidence pack (Data Gap DG002). Based on known public drug information, Aliskiren is a first-in-class direct renin inhibitor (DRI). Unlike ACE inhibitors or ARBs, which act downstream, Aliskiren blocks the rate-limiting step of the RAAS cascade at the point of renin activity, and its efficacy in essential hypertension is well established.
+Tällä hetkellä yksityiskohtaisia toimintamekanismin tietoja ei ole saatavilla DrugBankista tässä todiste-aineistossa (Data Gap DG002). Tunnettuihin julkisiin lääketietoihin perustuen Aliskiren on luokkansa ensimmäinen suora reniiniestaasi (DRI). Toisin kuin ACE-estäjät tai ARB:t, jotka vaikuttavat alajuoksulla, Aliskiren estää RAAS-kaskadin nopeutta rajoittavan vaiheen reniinitoiminnan kohdalla, ja sen teho olennaisen verenpainetaudin hoidossa on hyvin todettu.
 
-Mechanistically, one could argue that upstream RAAS blockade might extend to Group 3 pulmonary hypertension (pulmonary hypertension due to lung disease and/or hypoxia), since RAAS activation has been implicated in some models of pulmonary vascular remodeling. However, **this evidence pack does not actually support that link**. All 20 retrieved publications discuss "hypoxia" in unrelated contexts — brain aging, cognitive impairment, gastric cancer glycolysis, tumor biology, multiple sclerosis, headache — and none mention Aliskiren, renin inhibition, or the renin-angiotensin system in relation to hypoxic/lung-disease-associated pulmonary hypertension. This is best characterized as a **keyword co-occurrence artifact** ("hypoxia") rather than genuine mechanistic evidence. Furthermore, the pathophysiology of Group 3 pulmonary hypertension is primarily driven by hypoxic pulmonary vasoconstriction and vascular remodeling, not RAAS activation, so the mechanistic rationale itself is weak even before considering the absence of supporting literature.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Mekanistisesti voitaisiin väittää, että ylävirtaan tapahtuva RAAS-esto voisi laajentua Ryhmän 3 keuhkojen verenpainetautiin (keuhkojen verenpainetauti, joka johtuu keuhkosairauksista ja/tai hapenpuutteesta), koska RAAS-aktivaation on ajateltu olevan mukana joissakin verisuonten uudelleenmuodostumisen malleissa. Kuitenkin **tämä todiste-aineisto ei itse asiassa tue sitä yhteyttä**. Kaikki 20 haettua julkaisua käsittelevät "hapenpuutetta" liittymättömissä konteksteissa — aivojen ikääntyminen, kognitiivinen heikkeneminen, mahalaukun syöpän glykolyysi, kasvaimen biologia, multippeli skleroosi, päänsärky — eikä yksikään mainitse aliskireenia, reniin-estoa tai renin-angiotensiini-järjestelmää suhteessa hypoksiseen tai keuhkosairauteen liittyvään keuhkojen verenpainetautiin. Tämä on parhaiten karakterisoitavissa **avainsanojen yhteesiintymän artefaktina** ("hapenpuute") pikemminkin kuin aitoina mekanistisina todisteina. Lisäksi Ryhmän 3 keuhkojen verenpainetaudin patofysiologia johtuu ensisijaisesti hypoksisen keuhkojen vasokonstrikstiosta ja verisuonten uudelleenmuodostumisesta, ei RAAS-aktivaatiosta, joten mekanistinen perusteluki itsessään on heikko jo ennen kuin otetaan huomioon tukevien julkaisujen puute.
 
 ---
 
-## Literature Evidence
+## Kliinisen tutkimuksen todisteet
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [33862277](https://pubmed.ncbi.nlm.nih.gov/33862277/) | 2021 | Review (unrelated topic) | Ageing Research Reviews | Discusses hypoxia and brain aging/neurodegeneration; no mention of Aliskiren, RAAS, or pulmonary hypertension |
-| [34618295](https://pubmed.ncbi.nlm.nih.gov/34618295/) | 2022 | Review (unrelated topic) | Metabolic Brain Disease | Reviews hypoxia-induced cognitive impairment mechanisms; not related to renin inhibition or lung disease |
-| [37328448](https://pubmed.ncbi.nlm.nih.gov/37328448/) | 2023 | Basic research (unrelated) | Advanced Science | Gastric cancer glycolysis via NAT10/SEPT9/HIF-1α pathway under hypoxia; unrelated to Aliskiren |
-| [21328446](https://pubmed.ncbi.nlm.nih.gov/21328446/) | 2011 | Review (unrelated topic) | J Cellular Biochemistry | General hypoxia biology across disease states; no drug-specific content |
-| [31706510](https://pubmed.ncbi.nlm.nih.gov/31706510/) | 2019 | Review (unrelated topic) | Trends in Cancer | Deubiquitinases and hypoxia in cancer; unrelated to pulmonary hypertension |
-| [11172576](https://pubmed.ncbi.nlm.nih.gov/11172576/) | 2000 | Review (unrelated topic) | Respiratory Care Clinics of N. America | Mechanisms of hypoxemia (physiology review); no drug relevance |
-| [34535359](https://pubmed.ncbi.nlm.nih.gov/34535359/) | 2021 | Review (unrelated topic) | Clinical Oncology | Hypoxia and radiotherapy/cancer treatment resistance; unrelated |
-| [40815459](https://pubmed.ncbi.nlm.nih.gov/40815459/) | 2025 | Review (unrelated topic) | Rev Med Inst Mex Seguro Soc | High-altitude hypoxia and human acclimatization; no drug relevance |
-| [40347693](https://pubmed.ncbi.nlm.nih.gov/40347693/) | 2025 | Review (unrelated topic) | Redox Biology | Hypoxia in multiple sclerosis pathology; unrelated to Aliskiren |
-| [27146279](https://pubmed.ncbi.nlm.nih.gov/27146279/) | 2017 | Review (unrelated topic) | Cephalalgia | Hypoxic mechanisms in migraine/cluster headache; unrelated |
-
-**Note:** All 20 retrieved papers were reviewed and classified as unrelated to Aliskiren or to pulmonary hypertension due to lung disease/hypoxia specifically — they surfaced purely due to shared use of the word "hypoxia." No literature-based support for this indication currently exists.
+Tällä hetkellä ei ole rekisteröity asiaan liittyviä kliinisiä tutkimuksia.
 
 ---
 
-## Finland Market Information
+## Kirjallisuuden todisteet
 
-No marketing authorizations are on record for Aliskiren in Finland (`total_licenses = 0`, `market_status = Not marketed / Not Marketed`). No product/dosage-form/indication data is available to tabulate.
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|------|--------|--------|---------|
+| [33862277](https://pubmed.ncbi.nlm.nih.gov/33862277/) | 2021 | Katsaus (asiaan liittymätön aihe) | Ageing Research Reviews | Käsittelee hapenpuutetta ja aivojen ikääntymistä/neurodegeneraatiota; ei mainintaa aliskireeinista, RAAS:sta tai keuhkojen verenpainetaudista |
+| [34618295](https://pubmed.ncbi.nlm.nih.gov/34618295/) | 2022 | Katsaus (asiaan liittymätön aihe) | Metabolic Brain Disease | Tutkii hapenpuutteen aiheuttamaa kognitiivista heikkenemistä; ei liity reniin-estoon tai keuhkosairauksiin |
+| [37328448](https://pubmed.ncbi.nlm.nih.gov/37328448/) | 2023 | Perustava tutkimus (asiaan liittymätön) | Advanced Science | Mahalaukun syövän glykolysi NAT10/SEPT9/HIF-1α-polkua kautta hapenpuutteen olosuhteissa; ei liity aliskireeiniin |
+| [21328446](https://pubmed.ncbi.nlm.nih.gov/21328446/) | 2011 | Katsaus (asiaan liittymätön aihe) | J Cellular Biochemistry | Yleinen hapenpuutteen biologia eri sairauksissa; ei lääkekohtaista sisältöä |
+| [31706510](https://pubmed.ncbi.nlm.nih.gov/31706510/) | 2019 | Katsaus (asiaan liittymätön aihe) | Trends in Cancer | Deubikvitinaasit ja hapenpuute syövässä; ei liity keuhkojen verenpainetautiin |
+| [11172576](https://pubmed.ncbi.nlm.nih.gov/11172576/) | 2000 | Katsaus (asiaan liittymätön aihe) | Respiratory Care Clinics of N. America | Hypoksemian mekanismit (fysiologian katsaus); ei lääkerelevanssia |
+| [34535359](https://pubmed.ncbi.nlm.nih.gov/34535359/) | 2021 | Katsaus (asiaan liittymätön aihe) | Clinical Oncology | Hapenpuute ja sädehoito/syöpähoitoresistenssi; asiaan liittymätön |
+| [40815459](https://pubmed.ncbi.nlm.nih.gov/40815459/) | 2025 | Katsaus (asiaan liittymätön aihe) | Rev Med Inst Mex Seguro Soc | Korkea-altitudi hapenpuute ja ihmisen akklimatisoituminen; ei lääkerelevanssia |
+| [40347693](https://pubmed.ncbi.nlm.nih.gov/40347693/) | 2025 | Katsaus (asiaan liittymätön aihe) | Redox Biology | Hapenpuute multippelin skleroosissa patologia; asiaan liittymätön aliskireeiniin |
+| [27146279](https://pubmed.ncbi.nlm.nih.gov/27146279/) | 2017 | Katsaus (asiaan liittymätön aihe) | Cephalalgia | Hypoksisen mekanismit migreeni/sarjapäänsärkyissä; asiaan liittymätön |
 
----
-
-## Other Predicted Indications (Additional Context)
-
-The evidence pack contains 6 additional TxGNN-predicted indications for Aliskiren beyond the top-ranked one. For a complete picture of this candidate's overall repurposing potential, they are summarized below:
-
-| Rank | Disease | Evidence Level | Recommendation | Key Note |
-|------|---------|----------------|-----------------|----------|
-| 2 | Pulmonary hypertension, unclear multifactorial mechanism | L5 | Hold | No trials/literature; near-identical score to rank 1 suggests knowledge-graph score propagation, not independent evidence |
-| 3 | Malignant hypertensive renal disease | L4 | Hold | Only supporting literature is an unrelated C3aR/renin-fibrosis mechanistic study; **ALTITUDE trial safety signal applies (see Safety Considerations)** |
-| 4 | Malignant renovascular hypertension | L5 | Hold | No trials/literature; likely graph-neighbor score bleed from rank 3 |
-| 5 | Braddock syndrome (KAT6B-related) | L5 | Hold | No plausible biological link to RAAS/renin; likely a spurious model prediction — recommend excluding from further work |
-| 6 | Chronic pulmonary heart disease (cor pulmonale) | L4 | **Research Question** | ALOFT Phase 2 RCT (Aliskiren add-on in heart failure) showed BNP/NT-proBNP reduction, but in systolic HF populations, not lung-disease-driven right heart failure — indirect extrapolation only |
-| 7 | Cerebrovascular disorder | **L1** | Hold | Highest evidence tier in the pack, but the direction is **harmful**: the ALTITUDE Phase 3 RCT showed Aliskiren + ACEI/ARB in diabetic/renally-impaired patients *increased* ischemic stroke risk |
-
-None of the seven predicted indications currently support a "Go" decision; the strongest-evidence finding (rank 7) is a safety signal against combination use, not a repurposing opportunity.
+**Huomautus:** Kaikki 20 haettua julkaisua tarkastettiin ja luokiteltiin asiaan liittymättömiksi aliskireeiniin tai erityisesti keuhkojen verenpainetautiin keuhkosairauksien/hapenpuutteen johdosta — ne ilmestyivät puhtaasti sanaston "hapenpuute" yhteesiintymisen vuoksi. Kirjallisuusperustusta tälle indikaatiolle ei ole tällä hetkellä olemassa.
 
 ---
 
-## Safety Considerations
+## Suomen markkinatiedot
 
-Please refer to the package insert for safety information — no key warnings, contraindications, or drug-drug interaction data are recorded for Aliskiren in this evidence pack (TFDA/Fimea package insert not yet retrieved; see Data Gap DG001, severity: Blocking).
-
-**Important safety signal identified during evidence review (not part of the core safety fields, but material to this candidate):**
-- The **ALTITUDE trial** (Aliskiren Trial in Type 2 Diabetes Using Cardio-Renal Endpoints), a Phase 3 RCT, was stopped early and showed that Aliskiren combined with ACE inhibitors or ARBs in patients with type 2 diabetes and renal impairment significantly increased the risk of **non-fatal stroke, hyperkalemia, hypotension, and renal complications** (PMID [23418282](https://pubmed.ncbi.nlm.nih.gov/23418282/), [26188211](https://pubmed.ncbi.nlm.nih.gov/26188211/)).
-- This is directly relevant to two of the higher-scoring predicted indications above (malignant hypertensive renal disease, cerebrovascular disorder), both of which involve renally-impaired or high-cardiovascular-risk populations — the same population in which ALTITUDE showed harm.
-- Any further work on this candidate must formally incorporate this known dual-RAAS-blockade risk before any clinical exploration proceeds.
+Aliskireille ei ole markkinointilupia Suomessa (`total_licenses = 0`, `market_status = Not marketed / Not Marketed`). Tuote-/annoskotelo-/indikaatiotietoa ei ole saatavilla taulukoitavaksi.
 
 ---
 
-## Conclusion and Next Steps
+## Muut ennustetut indikaatiot (Lisäkonteksti)
 
-**Decision: Hold**
+Todiste-aineisto sisältää 6 muuta TxGNN-ennustettua indikaatiota aliskireeinille parhaiten sijoittuvan lisäksi. Tämän kandidaatin yleiskuvan saamiseksi uudelleenkäyttöpotentiaalista ne on tiivistetty alla:
 
-**Rationale:**
-The top-ranked predicted indication (pulmonary hypertension due to lung disease/hypoxia) has no clinical trial support and its literature evidence is a keyword-coincidence artifact rather than genuine mechanistic or clinical evidence (Evidence Level L5). Across all seven predicted indications, only one (chronic pulmonary heart disease) has evidence trending supportive, and it is only strong enough to be framed as a research question, not an actionable candidate. The single highest-evidence-tier finding (cerebrovascular disorder, L1) is actually a **safety signal against** repurposing in RAAS-combination contexts, based on a completed Phase 3 RCT (ALTITUDE).
+| Sija | Sairaus | Todisteiden taso | Suositus | Keskeinen huomautus |
+|------|---------|----------------|---------|----------|
+| 2 | Keuhkojen verenpainetauti, epäselvä monitekijäinen mekanismi | L5 | Odottaminen | Ei tutkimuksia/kirjallisuutta; lähes identtinen pistemäärä sijoitukselle 1 viittaa tietokanta-kuvaajan pistemäärän leviämiseen, ei itsenäiseen todisteeseen |
+| 3 | Pahanlaatuinen hyperteniivinen munuaisensairaus | L4 | Odottaminen | Ainoa tukeva kirjallisuus on asiaan liittymätön C3aR/reniin-fibroosin mekanistinen tutkimus; **ALTITUDE-tutkimuksen turvallisuussignaali pätee (katso Turvallisuuteen liittyvät näkökohdat)** |
+| 4 | Pahanlaatuinen renovaskulaarinen verenpainetauti | L5 | Odottaminen | Ei tutkimuksia/kirjallisuutta; todennäköisesti kuvaajan naapurin pistemäärän vuotaminen sijoitukselta 3 |
+| 5 | Braddock-oireyhtymä (KAT6B-liittyvä) | L5 | Odottaminen | Ei viivaa biologista yhteyttä RAAS/reniin; todennäköisesti harhaanjohtava mallin ennuste — suositellaan poissulkemista jatkotyöstä |
+| 6 | Krooninen keuhkojen sydänsairaus (sydämen oikeapuolinen vajaatoiminta) | L4 | **Tutkimuskysymys** | ALOFT Vaihe 2 satunnaistettu kontrolloitu tutkimus (Aliskiren lisäannos sydämen vajaatoiminnassa) osoitti BNP/NT-proBNP-vähenemistä, mutta systolisen sydämen vajaatoiminnan populaatioissa, ei keuhkosairaus-johtavassa oikeapuoleisen sydämen vajaatoiminnassa — epäsuora ekstrapolaatio vain |
+| 7 | Aivoverenkiertohäiriö | **L1** | Odottaminen | Korkein todistustaso paketissa, mutta suunta on **haitallinen**: ALTITUDE Vaihe 3 satunnaistettu kontrolloitu tutkimus osoitti Aliskiren + ACE-estäjä/ARB diabeettisissa/munuaiskompromisoituissa potilaissa *lisäävän* iskeemisen aivohalvauksen riskiä |
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert data (warnings, contraindications) — currently a Blocking data gap (DG001)
-- Confirmed DrugBank mechanism-of-action and pharmacological category data (DG002)
-- If pursuing the "chronic pulmonary heart disease" research question, dedicated trials or literature evaluating Aliskiren specifically in lung-disease-driven right heart failure (cor pulmonale), not extrapolated from systolic heart failure data (ALOFT)
-- A formal safety review addressing the ALTITUDE trial's stroke/hyperkalemia/renal signal before considering any indication involving renal impairment, diabetes, or combination RAAS blockade
-- Independent confirmation (or exclusion) of the Braddock syndrome and other L5 predictions, which currently show no biological plausibility and may be model artifacts
+Mikään seitsemästä ennustetusta indikaatiosta ei tällä hetkellä tue "Jatka"-päätöstä; vahvimman todistustason löydös (sija 7) on turvallisuussignaali yhdistelmäkäyttöä vastaan, ei uudelleenkäyttömahdollisuus.
+
+---
+
+## Turvallisuuteen liittyvät näkökohdat
+
+Turvallisuustietoja varten katso pakkausseloste — tässä todiste-aineistossa ei ole kirjattu aliskireinin keskeisiä varoituksia, vasta-aiheita tai lääkkeiden välisiä vuorovaikutustietoja (TFDA/Fimean pakkausseloste ei ole vielä haettu; katso Data Gap DG001, vakavuus: Estävä).
+
+**Tärkeä turvallisuussignaali, joka tunnistettiin todisteiden tarkastuksessa (ei osaa ydinturvallisuuskentistä, mutta aineellinen tässä kandidaatissa):**
+- **ALTITUDE-tutkimus** (Aliskiren Trial in Type 2 Diabetes Using Cardio-Renal Endpoints), Vaihe 3 satunnaistettu kontrolloitu tutkimus, pysäytettiin ennenaikaisesti ja osoitti, että Aliskiren yhdessä ACE-estäjien tai ARB:ien kanssa potilailla, joilla on tyypin 2 diabetes ja munuaisten vajaatoiminta, merkitsevästi *lisäänsi* ei-kuolettavan aivohalvauksen, hyperkalemia-, hypotension ja munuaiskomplikaatioiden riskiä (PMID [23418282](https://pubmed.ncbi.nlm.nih.gov/23418282/), [26188211](https://pubmed.ncbi.nlm.nih.gov/26188211/)).
+- Tämä on suoraan merkityksellinen kahdelle korkeammin sijoitetusta ennustetusta indikaatiosta (pahanlaatuinen hyperteniivinen munuaisensairaus, aivoverenkiertohäiriö), joissa molemmissa on munuaiskompromisoituneet tai korkean sydän- ja verisuoniriskisen potilaat — sama populaatio, jossa ALTITUDE osoitti haittaa.
+- Kaikki jatkotyö tästä kandidaatista tulee muodollisesti sisällyttää tämä tunnettu kaksois-RAAS-esto-riski ennen kuin mitään kliinistä tutkimusta jatketaan.
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Odottaminen**
+
+**Perustelut:**
+Parhaiten sijoittuneella ennustetulla indikaatiolla (keuhkojen verenpainetauti keuhkosairauksien/hapenpuutteen johdosta) ei ole kliinisen tutkimuksen tukea ja sen kirjallisuustodisteet ovat sanaston sattuma pikemminkin kuin aitoina mekanistisina tai kliinisinä todisteina (Todisteiden taso L5). Kaikilla seitsemällä ennustetulla indikaatiolla vain yksi (krooninen keuhkojen sydänsairaus) on tukea viittavaa todisteita, ja se on riittävä vain tutkimuskysymykseksi kehystettäväksi, ei toimintakelpoiseksi kandidaatiksi. Ainoa korkein todistustaso (aivoverenkiertohäiriö, L1) on itse asiassa **turvallisuussignaali uudelleenkäyttöä vastaan** RAAS-yhdistelmäkonteksteissa, joka perustuu loppuun saatettuun Vaihe 3 satunnaistettuun kontrolloituun tutkimukseen (ALTITUDE).
+
+**Jatkaakseen tarvitaan seuraavaa:**
+- TFDA/Fimean pakkausseloste tiedot (varoitukset, vasta-aiheet) — tällä hetkellä Estävä tietorakko (DG001)
+- Vahvistettu DrugBank toimintamekanismi ja farmakologisen kategorian tiedot (DG002)
+- Jos jatketaan "krooninen keuhkojen sydänsairaus" -tutkimuskysymystä, omistetut tutkimukset tai kirjallisuus, joka arvioi Aliskireenia erityisesti keuhkosairauteen johtavassa oikeapuoleisen sydämen vajaatoiminnassa (sydämen oikeapuolinen ylikuormitus), ei ekstrapoloitua systolisen sydämen vajaatoiminnan tiedoista (ALOFT)
+- Muodollinen turvallisuuskatsaus, joka käsittelee ALTITUDE-tutkimuksen aivohalvaus-/hyperkalemia-/munuaissignaalin ennen kuin harkitaan mitään indikaatiota, johon liittyy munuaisten vajaatoiminta, diabetes tai yhdistelmä RAAS-esto
+- Itsenäinen vahvistus (tai poissulkeminen) Braddock-oireyhtymästä ja muista L5-ennusteista, joilla on tällä hetkellä näyttö biologisen uskottavuuden puuttumisesta ja ne voivat olla mallin artefakteja
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -29,69 +29,70 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Rimegepant: From Migraine to Migraine with Brainstem Aura
+# Rimegepantti: Migreenihoitojen indikaatiosta aivovartalon aura-migreenihoitoon
 
-## One-Sentence Summary
+## Yhden lauseen tiivistelmä
 
-Rimegepant is a small-molecule CGRP receptor antagonist (gepant class) originally developed and approved for the acute treatment of migraine (with or without aura) and preventive treatment of episodic migraine.
-The TxGNN model predicts it may be effective for **Migraine with Brainstem Aura**, a migraine subtype where triptans are typically contraindicated,
-with **0 dedicated clinical trials** but **14 supporting publications** on rimegepant's general migraine efficacy and vascular safety profile.
+Rimegepantti on pienimolekyylinen kalsitoniigeeni-sukulaispeptidi (CGRP) reseptorin antagonisti (gepantti-luokka), joka kehitettiin alun perin ja joka on hyväksytty migreenin akuuttiin hoitoon (auroilla tai ilman auroja) ja episodisen migreenin ehkäisyyn.
+TxGNN-malli ennustaa sen voivan olla tehokas **aivovartalon aura-migreenin** hoidossa, migreenin alatyypissä, jossa tripitaanit ovat tyypillisesti kontraindisoituja,
+sisältäen **0 omistettua kliinistä tutkimusta** mutta **14 tukevan julkaisun** rimegepantin yleisestä migreenihoitojen tehokkuudesta ja verisuoniston turvallisuusprofiilista.
 
-## Quick Overview
+## Pikakatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Migraine (acute treatment with/without aura; preventive treatment of episodic migraine) — not from Finland licensing data, as the drug is not currently marketed there |
-| Predicted New Indication | Migraine with Brainstem Aura |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L1 (based on robust general rimegepant/migraine evidence base; no trials specific to the brainstem-aura subtype) |
-| Finland Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Migreeni (akuutti hoito ilman auroja tai auroilla; episodisen migreeni ehkäisy) — ei Suomen lisensointitiedoista, koska lääke ei ole tällä hetkellä markkinoilla siellä |
+| Ennustettu uusi indikaatio | Aivovartalon aura-migreeni |
+| TxGNN ennustuspistemäärä | 99.94% |
+| Todistusvoimakkuus | L1 (perustuu kattavaan rimegepantin/migreenin todistusbääriin; ei tutkimuksiin, jotka olisivat erityisiä aivovartalon aura alatyypille) |
+| Suomen markkinatilanne | Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Jatka varauksilla |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Detailed mechanism-of-action data for rimegepant is currently marked as a data gap in this evidence pack. Based on the supporting literature, rimegepant is a highly selective, small-molecule calcitonin gene-related peptide (CGRP) receptor antagonist — CGRP is a central mediator of migraine pathophysiology, and rimegepant blocks its signaling without the vasoconstrictive activity seen in triptans.
+Rimegepantin yksityiskohtainen vaikutusmekanismi on tällä hetkellä merkitty tietovajeeksi tässä todistuspakkauksessa. Tukevan kirjallisuuden perusteella rimegepantti on erittäin selektiivinen, pienimolekyylinen kalsitoniigeeni-sukulaispeptidi (CGRP) reseptorin antagonisti — CGRP on migreeni patofysiologian keskeinen välittäjä, ja rimegepantti estää sen signaloinnin ilman tripitaaneissa nähtävää vasokonstriktiiivistä aktiivisuutta.
 
-Migraine with brainstem aura (formerly "basilar-type migraine") is a migraine subtype in which triptans are typically avoided or contraindicated because their vasoconstrictive mechanism carries theoretical risk in the vertebrobasilar circulation. Since rimegepant's mechanism does not rely on vasoconstriction — a point reinforced by a longitudinal MRA study (PMID 41574090) showing it does not induce cerebral/extracerebral artery constriction during migraine attacks — it is mechanistically plausible that rimegepant could be used safely in this subtype where triptans cannot.
+Aivovartalon aura-migreeni (aiemmin "basilaarityyppin migreeni") on migreenin alatyyppi, jossa tripitaaneja tyypillisesti vältetään tai joissa ne ovat kontraindisoituja, koska niiden vasokonstriktiiivinen mekanismi sisältää teoreettisen riskin vertebrobaasilaarisen verenkierron osalta. Koska rimegepantin mekanismi ei perustu vasokonstriktion — piste, jonka vahvistaa pituussuuntainen magneettiresonanssiangiografiaa (MRA) tutkimus (PMID 41574090), joka osoittaa, että se ei aiheuta aivoja koskevien tai aivon ulkoisten valtimoiden supistumista migreeni-iskujen aikana — on mekanistisesti uskottavaa, että rimegepanttia voitaisiin käyttää turvallisesti tässä alatyypissä, jossa tripitaanit eivät ole käyttökelpoisia.
 
-This is therefore best understood as an indication-refinement prediction rather than a novel therapeutic hypothesis: rimegepant is already approved for migraine broadly, and the model is flagging a specific, mechanistically well-supported subgroup (brainstem aura) that would benefit from a non-vasoconstrictive acute treatment option. No trials have yet directly enrolled or reported outcomes specifically in patients with brainstem aura.
+Tämä tulisi ymmärtää indikaation tarkennusennusteena pikemmin kuin uutena terapeuttisena hypoteesina: rimegepantti on jo hyväksytty laajasti migreeniin, ja malli korostaa spesifistä, mekanistisesti hyvin tuettua alaryhmää (aivovartalon aura), joka hyötyisi ei-vasokonstriktiiivisen akuuttihoidon vaihtoehdosta. Yksikään tutkimus ei ole vielä suoraan ottanut tätä erityistä alaryhmää osallistujiksi tai raportoinut tuloksia aivovartalon aura-potilaille.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen todisteet
 
-Currently no related clinical trials registered specific to migraine with brainstem aura.
+Tällä hetkellä ei ole rekisteröitynä kliinisiä tutkimuksia, jotka koskisivat erityisesti aivovartalon aura-migreeniä.
 
-## Literature Evidence
+## Kirjallisuuden todisteet
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
 |------|-----|------|------|---------|
-| [32270407](https://pubmed.ncbi.nlm.nih.gov/32270407/) | 2020 | Review/Regulatory (First Approval) | Drugs | Establishes rimegepant's initial FDA approval as a CGRP antagonist for acute migraine treatment, with tablet formulation under investigation for prevention and refractory trigeminal neuralgia |
-| [41066271](https://pubmed.ncbi.nlm.nih.gov/41066271/) | 2025 | Phase 3 open-label long-term safety | Cephalalgia | Long-term safety, tolerability, and effectiveness of rimegepant 75mg ODT for acute migraine treatment in Chinese adults |
-| [36808268](https://pubmed.ncbi.nlm.nih.gov/36808268/) | 2023 | Randomized placebo-controlled trial (Phase 1 PK/safety) | Clin Pharmacol Drug Dev | Confirms pharmacokinetics and safety of single/multiple 75mg rimegepant ODT dosing in healthy Chinese adults |
-| [35790906](https://pubmed.ncbi.nlm.nih.gov/35790906/) | 2022 | Network meta-analysis | J Headache Pain | Indirect comparison of onset of efficacy between lasmiditan, rimegepant, and ubrogepant for acute migraine treatment |
-| [41366286](https://pubmed.ncbi.nlm.nih.gov/41366286/) | 2025 | Phase 4 open-label safety | J Headache Pain | 24-week study of once-daily 75mg rimegepant dosing for episodic migraine prevention shows good long-term tolerability |
-| [41574090](https://pubmed.ncbi.nlm.nih.gov/41574090/) | 2026 | Longitudinal MR angiography study | Brain Communications | Directly examines rimegepant's effect on cerebral/extracerebral arteries during migraine attacks, supporting it as a non-vasoconstrictive alternative to triptans — most mechanistically relevant to the brainstem-aura hypothesis |
-| [41652664](https://pubmed.ncbi.nlm.nih.gov/41652664/) | 2026 | Retrospective cohort | Headache | Evaluates tolerability and effectiveness of off-label rimegepant use for acute migraine treatment in adolescents |
-| [36739335](https://pubmed.ncbi.nlm.nih.gov/36739335/) | 2023 | Review | CNS Drugs | Comprehensive review of rimegepant in acute and preventive migraine treatment, noting superiority to placebo in Phase 3 trials |
-| [38307667](https://pubmed.ncbi.nlm.nih.gov/38307667/) | 2024 | Review | Handbook of Clinical Neurology | Reviews the pharmacology of second-generation gepants (rimegepant, ubrogepant), contrasting with first-generation hepatotoxicity concerns |
-| [33550872](https://pubmed.ncbi.nlm.nih.gov/33550872/) | 2021 | Review | Pain Management | Reviews rimegepant's role among new acute migraine treatment options (lasmiditan, rimegepant, ubrogepant) |
+| [32270407](https://pubmed.ncbi.nlm.nih.gov/32270407/) | 2020 | Katsaus/Sääntelytieto (ensimmäinen hyväksyntä) | Drugs | Vahvistaa rimegepantin ensimmäisen FDA:n hyväksynnän CGRP-reseptorin antagonistina akuutin migreenin hoitoon, tablettilääkkeella tutkitaan ehkäisyä ja refraktaarista trigeminaali hermosärkyä |
+| [41066271](https://pubmed.ncbi.nlm.nih.gov/41066271/) | 2025 | Vaiheen 3 avoin pitkäaikaisen turvallisuuden tutkimus | Cephalalgia | Pitkäaikainen turvallisuus, siedettävyys ja rimegepantin 75 mg ODT:n tehokkuus akuutin migreenin hoitoon kiinalaisilla aikuisilla |
+| [36808268](https://pubmed.ncbi.nlm.nih.gov/36808268/) | 2023 | Satunnaistettu lumelääke-kontrolloitu tutkimus (vaiheen 1 PK/turvallisuus) | Clin Pharmacol Drug Dev | Vahvistaa rimegepantin 75 mg ODT:n yksittäisen ja toistetun annoksen farmakokinetiikan ja turvallisuuden terveillä kiinalaisilla aikuisilla |
+| [35790906](https://pubmed.ncbi.nlm.nih.gov/35790906/) | 2022 | Verkon meta-analyysi | J Headache Pain | Epäsuora vertailu lasmiditaanin, rimegepantin ja ubrogepantin akuutin migreenin hoidon vaikuttavuuden alkamisnopeudesta |
+| [41366286](https://pubmed.ncbi.nlm.nih.gov/41366286/) | 2025 | Vaiheen 4 avoin turvallisuustutkimus | J Headache Pain | 24 viikon tutkimus kerran päivässä annettavasta 75 mg rimegepantista episodisen migreenin ehkäisyyn osoittaa hyvää pitkäaikaisiedettävyyttä |
+| [41574090](https://pubmed.ncbi.nlm.nih.gov/41574090/) | 2026 | Pituussuuntainen magneettiresonanssiangiografia-tutkimus | Brain Communications | Tutkii suoraan rimegepantin vaikutusta aivoja koskeviin ja aivon ulkoisiin valtimoihin migreeni-iskujen aikana, tukien sitä ei-vasokonstriktiiivisena vaihtoehtona tripitaaneille — mekanistisesti merkityksellisimmät aivovartalon aura-hypoteesia |
+| [41652664](https://pubmed.ncbi.nlm.nih.gov/41652664/) | 2026 | Retrospektiivinen kohortti | Headache | Arvioi rimegepantin off-label käytön siedettävyyttä ja tehokkuutta akuutin migreenin hoitoon nuorilla aikuisilla |
+| [36739335](https://pubmed.ncbi.nlm.nih.gov/36739335/) | 2023 | Katsaus | CNS Drugs | Kattava katsaus rimegepantista akuutin ja ehkäisevän migreenin hoidossa, huomioiden sen ylivoiman lumelääkkeeseen nähden vaiheen 3 tutkimuksissa |
+| [38307667](https://pubmed.ncbi.nlm.nih.gov/38307667/) | 2024 | Katsaus | Handbook of Clinical Neurology | Arvioi toisen sukupolven gepanttien (rimegepantti, ubrogepantti) farmakologiaa vertaisten ensimmäisen sukupolven hepatotoksisuushuoliin |
+| [33550872](https://pubmed.ncbi.nlm.nih.gov/33550872/) | 2021 | Katsaus | Pain Management | Arvioi rimegepantin roolia uusien akuutin migreenin hoitovaihtoehtojen (lasmiditaani, rimegepantti, ubrogepantti) joukossa |
 
-## Safety Considerations
+## Turvallisuushuomioon ottamisen
 
-Please refer to the package insert for safety information. TFDA/Finland-specific warnings, contraindications, and drug-drug interaction data were not available in this evidence pack.
+Viitaa pakkausselosteeseen turvallisuustiedoista. TFDA/EMA:n erityisiä varoituksia, kontraindikaatioita ja lääke-lääke-yhteisvaikutusten tietoja ei ollut saatavilla tässä todistuspakkauksessa.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Proceed with Guardrails**
+**Päätös: Jatka varauksilla**
 
-**Rationale:**
-The mechanistic rationale is strong — rimegepant's non-vasoconstrictive CGRP antagonism plausibly addresses the specific safety limitation of triptans in brainstem-aura migraine, and this is backed by a broad general evidence base (14 publications, including direct vascular-effect data). However, no trial has enrolled this specific subgroup, and the drug is not yet marketed in Finland, so real-world regulatory and safety data are absent.
+**Perustelut:**
+Mekanistinen perusteltu on vahva — rimegepantin ei-vasokonstriktiiivinen CGRP-reseptorin antagonismi osoittaa uskottavasti tripitaanien erityisen turvallisuusrajoituksen aivovartalon aura-migreenin osalta, ja tätä tukee laaja yleinen todistusbääri (14 julkaisua, sisältäen suorat verisuoniston vaikutusta koskevat tiedot). Kuitenkaan yksikään tutkimus ei ole vielä ottanut tätä erityistä alaryhmää osallistujiksi, eikä lääke ole vielä markkinoilla Suomessa, joten todellisen maailman sääntelyä ja turvallisuustietoja ei ole saatavilla.
 
-**To proceed, the following is needed:**
-- TFDA/EMA package insert data on warnings and contraindications (currently a Blocking data gap — required before any S1 safety assessment)
-- Confirmed mechanism-of-action documentation from DrugBank (currently a data gap)
-- A dedicated trial or subgroup analysis in patients with migraine with brainstem aura, rather than relying on general migraine trial extrapolation
-- Finland/EU market authorization and licensing status for rimegepant
+**Jatkamiseksi seuraava on välttämätöntä:**
+- TFDA/EMA pakkausseloste-tiedot varoituksista ja kontraindikaatioista (tällä hetkellä este-merkinnyn tietoväli — vaaditaan ennen mitään S1-turvallisuuden arviointia)
+- Vahvistettu vaikutusmekanismi-dokumentaatio DrugBankista (tällä hetkellä tietoväli)
+- Omistettu tutkimus tai alaryhmäanalyysi potilaissa, joilla on aivovartalon aura-migreeni, pikemmin kuin yleisen migreenin tutkimustietojen ekstrapolointiin perustuva
+- Suomen/EU markkinoiden hyväksyntä ja rimegepantin lisensointistatus
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

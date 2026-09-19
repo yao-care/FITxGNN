@@ -29,44 +29,45 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Avibactam: Drug Repurposing Evaluation — No TxGNN Predictions Available
+# Avibaktaami: Lääkkeen uudelleenkäytön arviointi — TxGNN-ennusteita ei ole saatavilla
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Avibactam (DB09060) is a β-lactamase inhibitor typically used in combination antibiotic therapies for resistant gram-negative bacterial infections.
-The TxGNN model has **not generated any predicted indications** for this compound in the current Evidence Pack,
-and no supporting clinical trial or literature evidence is available for evaluation at this time.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Not recorded in current dataset |
-| Predicted New Indication | None |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | N/A |
-| Finland Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Avibaktaami (DB09060) on β-laktamaasi-inhibiittori, jota käytetään tyypillisesti yhdistelmäantibioottihoidoissa resistenteille gram-negatiivisille bakteeri-infektioille.
+TxGNN-malli **ei ole tuottanut ennusteita uusista indikaatioista** tälle yhdisteelle nykyisessä Evidence Pack -paketissa,
+eikä arviointia varten ole saatavilla tukevia kliinisiä tutkimuksia tai kirjallisuustodisteita tässä vaiheessa.
 
 ---
 
-## Conclusion and Next Steps
+## Pikayleiskatsaus
 
-**Decision: Hold**
+| Kohta | Sisältö |
+|-------|---------|
+| Alkuperäinen indikaatio | Ei kirjattu nykyiseen aineistoon |
+| Ennustettu uusi indikaatio | Ei mitään |
+| TxGNN-ennusteen pistemäärä | N/A |
+| Todisteen taso | N/A |
+| Suomen markkinatilanne | Ei markkinoitu |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Odotustilassa |
 
-**Rationale:**
-The current Evidence Pack contains no TxGNN predicted indications for Avibactam, and critical foundational data — including mechanism of action, original approved indication, and safety warnings — are all absent. A repurposing evaluation cannot meaningfully proceed without these elements.
+---
 
-**To proceed, the following is needed:**
+## Johtopäätös ja seuraavat vaiheet
 
-- **TxGNN predictions**: Run the prediction pipeline for Avibactam (DB09060) to generate candidate new indications
-- **Mechanism of action (MOA)**: Retrieve from DrugBank API to enable mechanistic plausibility analysis
-- **Safety data**: Download and parse the package insert PDF from TFDA official website to obtain warnings and contraindications
-- **Original approved indication**: Confirm from TFDA or EMA/FDA regulatory sources
-- **DDI data**: Query drug interaction database (current query returned no results)
+**Päätös: Odotustilassa**
+
+**Perustelut:**
+Nykyisessä Evidence Pack -paketissa ei ole avibaktaamin osalta TxGNN-ennustettuja indikaatioita, ja kriittiset perustiedot — mekanismi, alkuperäinen hyväksytty indikaatio ja turvallisuusvaroitukset — puuttuvat kokonaan. Lääkkeen uudelleenkäytön arviointia ei voida mielekkäällä tavalla jatkaa ilman näitä tekijöitä.
+
+**Jatkon edellytyksenä tarvitaan seuraavat:**
+
+- **TxGNN-ennusteet**: Suorita ennusteintiohjelma avibaktaamin (DB09060) osalta uusien indikaatiokandidaattien luomiseksi
+- **Vaikutusmekanismi (MOA)**: Hae DrugBank-ohjelmointirajapinnasta mekanistisen uskottavuuden arvioimiseksi
+- **Turvallisuustiedot**: Lataa ja jäsennä pakkausseloste-PDF TFDA:n viralliselta verkkosivustolta varoitusten ja vastaindikaatioiden saamiseksi
+- **Alkuperäinen hyväksytty indikaatio**: Vahvista TFDA:lta tai EMA/FDA:n sääntelylähteistä
+- **Lääkkeiden vuorovaikutustiedot**: Kysy lääkkeiden vuorovaikutustietokannasta (nykyinen kysely palautti nollatuloksia)
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

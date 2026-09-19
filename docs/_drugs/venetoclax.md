@@ -29,144 +29,145 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Venetoclax: From Hematologic Malignancy Standard-of-Care to Acute Myeloid Leukemia (Taiwan Repurposing Candidate)
+# Venetoclax: hematologisesta pahanlaatuisesta kasvaimesta akuuttiin myeloidiseen leukemiaan (Taiwanin uudelleenkäytön ehdokas)
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-> Venetoclax (DB11581) is a selective BCL-2 inhibitor already used internationally across several B-cell and myeloid malignancies, but it is **not currently marketed in Taiwan** (0 authorizations on file).
-> Among the 10 candidate indications TxGNN surfaced for this drug, **Acute Myeloid Leukemia (myeloid leukemia)** stands out as the only one backed by a genuinely mature evidence base — **50+ clinical trials** and **20 publications**, including combination regimens already treated as standard of care internationally — while most of the other 9 candidates are thin, mislabeled, or purely score-driven.
+> Venetoclax (DB11581) on selektiivinen BCL-2-inhibiittori, jota käytetään kansainvälisesti useissa B-solujen ja myeloidisten pahanlaatuisten kasvainten hoitoon, mutta sitä **ei tällä hetkellä markkinoida Taiwanissa** (0 hyväksyntää hakemuksessa).
+> Kymmenen ehdokkaan indikaatioista, joita TxGNN on ehdottanut tälle lääkkeelle, **Akuutti myeloidiläinen leukemia (myeloidiläinen leukemia)** nousee esiin ainoana, joka on tuettu todella kypsällä näytöpohjalla — **50+ kliininen tutkimus** ja **20 julkaisua**, mukaan lukien yhdistelmähoitojärjestelmät, joita käsitellään jo kansainvälisesti vakiohoidoksi — kun taas loput 9 ehdokasta ovat ohuita, väärin merkittyjä tai puhtaasti pistelaskennasta peräisin.
 
 ---
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Not documented in this evidence pack — venetoclax is not yet marketed in Taiwan, so no locally approved indication text exists |
-| Predicted New Indication (headline) | Myeloid Leukemia (Acute Myeloid Leukemia) |
-| TxGNN Prediction Score | 99.47% (global model rank 5,697) |
-| Evidence Level | L1 |
-| Taiwan Market Status | ✗ Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** (regulatory/safety gate) — see rationale below |
+| Alkuperäinen indikaatio | Ei dokumentoitu tässä näytösarjassa — venetoclax ei ole vielä markkinoilla Taiwanissa, joten paikallista hyväksyttyä indikaatiotekstiä ei ole olemassa |
+| Ennustettu uusi indikaatio (otsikko) | Myeloidiläinen leukemia (Akuutti myeloidiläinen leukemia) |
+| TxGNN-ennustepisteet | 99,47% (maailmanlaajuisen mallin sijoitus 5 697) |
+| Todistusvoimataso | L1 |
+| Taiwanin markkinatila | ✗ Ei markkinoilla (Ei markkinoilla) |
+| Hyväksyntojen lukumäärä | 0 |
+| Suositeltu päätös | **Pidätä** (sääntelyyn/turvallisuuteen liittyvä este) — katso perustelut alla |
 
-**Note on scope:** this evidence pack is a multi-indication candidate bundle (`TW-DB11581-multi`) containing 10 ranked predictions. The single highest-scoring prediction by raw TxGNN rank (a specific pre-germinal-center CLL/SLL subtype) has almost no supporting evidence, so this report leads with the candidate that has the strongest, most decision-relevant evidence instead of the raw #1 score. All 10 are summarized below for completeness.
+**Huomautus soveltamisalasta:** tämä näytösarja on monihintaisen ehdokkaan kokonaisuus (`TW-DB11581-multi`) joka sisältää 10 luokiteltua ennustetta. Korkein pistelaskennalla mitattu yksittäinen ennuste (tietty pre-germinaaliset CLL/SLL-alaryhmä) on lähes ilman tukea, joten tämä raportti aloitetaan ehdokkaalla, jolla on vahvin, eniten päätökseen liittyvä näyttö sen sijaan, että lähtisimme raa'ista #1-pistelaskennasta. Kaikki 10 on yhteenveto alla kokonaisuuden vuoksi.
 
-### Overview of All Predicted Indications
+### Yleiskatsaus kaikkiin ennustettuihin indikaatioihin
 
-| Rank | Disease | TxGNN Score | Evidence Level | Decision Stage | Recommendation |
+| Sijoitus | Sairaus | TxGNN-pisteet | Todistusvoimataso | Päätösvaihe | Suositus |
 |------|---------|--------------|-----------------|-----------------|-----------------|
-| 1 | Pregerminal center CLL/SLL | 99.55% | L4 | S1 | Research Question |
-| 2 | CLL/SLL (IGHV-mutated subtype) | 99.55% | L5 | S0 | Hold |
-| 3 | Hodgkin lymphoma ⚠ | 99.51% | L3 | S1 | Research Question |
-| 4 | **Myeloid leukemia (AML)** | 99.47% | **L1** | **S3** | **Proceed with Guardrails** |
-| 5 | Chronic myelogenous leukemia (CML), BCR-ABL1+ | 99.36% | L2 | S2 | Research Question |
-| 6 | Ewing sarcoma | 99.21% | L4 | S0 | Hold |
-| 7 | Follicular lymphoma | 99.15% | L2 | S2 | Research Question |
-| 8 | Metastatic neoplasm (generic) | 99.14% | L3 | S0 | Hold |
-| 9 | Malignant spiradenoma | 99.12% | L5 | S0 | Hold |
-| 10 | AML with t(8;21) translocation | 99.08% | L4 | S1 | Research Question |
+| 1 | Pre-germinaaliset CLL/SLL | 99,55% | L4 | S1 | Tutkimuskysymys |
+| 2 | CLL/SLL (IGHV-mutatoitu alaryhmä) | 99,55% | L5 | S0 | Pidätä |
+| 3 | Hodgkinin lymfooma ⚠ | 99,51% | L3 | S1 | Tutkimuskysymys |
+| 4 | **Myeloidiläinen leukemia (AML)** | 99,47% | **L1** | **S3** | **Jatka varauksellisesti** |
+| 5 | Krooninen myeloidiläinen leukemia (CML), BCR-ABL1+ | 99,36% | L2 | S2 | Tutkimuskysymys |
+| 6 | Ewingin sarkooma | 99,21% | L4 | S0 | Pidätä |
+| 7 | Follikulaarinen lymfooma | 99,15% | L2 | S2 | Tutkimuskysymys |
+| 8 | Metastaattinen neoplasma (yleinen) | 99,14% | L3 | S0 | Pidätä |
+| 9 | Pahanlaatuinen spiradenoma | 99,12% | L5 | S0 | Pidätä |
+| 10 | AML translokaatiolla t(8;21) | 99,08% | L4 | S1 | Tutkimuskysymys |
 
-⚠ **Data quality flag (Rank 3, Hodgkin lymphoma):** the 50 attached trials and 20 publications are overwhelmingly CLL, DLBCL, mantle cell lymphoma, and follicular lymphoma studies — **not one title explicitly references classic Hodgkin lymphoma**. This strongly suggests a label/classification mismatch (a broad "B-cell lymphoma" evidence set was attached to the Hodgkin lymphoma node). This indication should not be advanced without manual re-verification of the underlying disease mapping.
-
----
-
-## Why is This Prediction Reasonable?
-
-The structured `original_moa` field for this bundle is empty (data gap), and no Taiwan-approved original indication text exists because the drug is not yet marketed locally. However, the mechanism is consistently documented across the evidence pack's own rationale fields: venetoclax is a **selective, orally available BCL-2 (B-cell lymphoma-2) inhibitor** that restores the intrinsic apoptotic pathway in cells that have become abnormally dependent on BCL-2 for survival.
-
-This mechanism directly explains the strength of the AML signal: leukemic blasts and leukemic stem cells frequently rely on BCL-2-mediated apoptosis evasion, and venetoclax combined with hypomethylating agents (azacitidine/decitabine) or low-dose cytarabine has become a well-established regimen for patients — particularly older or unfit patients — with newly diagnosed or relapsed/refractory AML. Unlike most of the other 9 candidates in this pack, the AML prediction is supported by a deep, multi-decade trial and publication record spanning Phase 1 through Phase 3, including maintenance-therapy and post-transplant settings.
-
-By contrast, several other candidates in this pack (CLL/SLL molecular subtypes, Ewing sarcoma, malignant spiradenoma) share the same underlying BCL-2 rationale in principle, but have no disease-specific trials or only preclinical/mechanistic literature — meaning the mechanistic plausibility is real, but clinical validation is essentially absent.
+⚠ **Tiedon laatukeino (Sijoitus 3, Hodgkinin lymfooma):** 50 liitettyä tutkimusta ja 20 julkaisua käsittelevät ylivoimaisesti CLL-, DLBCL-, manttelisolulymfoomaa ja follikulaarista lymfoomaa — **ei yksikään otsikko viittaa nimenomaisen klassisen Hodgkinin lymfoomaan**. Tämä viittaa vahvasti nimikkeen/luokittelun epäsopivuuteen (laaja "B-solulymfooma"-näyttösarja liitettiin Hodgkinin lymfoomasolmuun). Tätä indikaatiota ei pitäisi edetä ilman perusteellista uudelleentarkistusta taustalla olevasta sairausmäärityksestä.
 
 ---
 
-## Clinical Trial Evidence (Myeloid Leukemia / AML)
+## Miksi tämä ennuste on järkevä?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Jäsennelty `original_moa`-kenttä tälle pakettisarjalle on tyhjä (tiedon puute), ja mitään Taiwanin hyväksymää alkuperäisen indikaation tekstiä ei ole, koska lääkettä ei ole vielä markkinoilla paikallisesti. Mekanismi on kuitenkin johdonmukaisesti dokumentoitu näytösarjan omissa perustelusissa: venetoclax on **selektiivinen, suun kautta otettava BCL-2 (B-solulymfooma-2)-inhibiittori**, joka palauttaa sisäisen apoptoottipolun toiminnan soluissa, jotka ovat tulleet epänormaalisti riippuvaisiksi BCL-2-välitteisestä selviämisestä.
+
+Tämä mekanismi selittää suoraan AML-signaalin vahvuuden: leukemian blast-solut ja leukemian kantasolut usein luottavat BCL-2-välitteiseen apoptoosin välttämiseen, ja venetoclax yhdessä hypometylaintiaineiden (asatsitidin/desitabiinin) tai matalan annoksen sytoaranosin kanssa on tullut hyvin perustetuksi hoitojärjestelmäksi potilaille — erityisesti vanhemmille tai heikossa kunnossa oleville potilaille — joilla on äskettäin diagnosoitu tai relaps/resistentti AML. Toisin kuin useimmat muista 9 ehdokkaasta tässä paketissa, AML-ennuste on tuettu syvällä, useiden vuosikymmen mittaisella tutkimus- ja julkaisutietueella, joka ulottuu 1. vaiheen tutkimuksista 3. vaiheen tutkimuksiin, mukaan lukien kunnossapitorapian ja leikkausta seuraavan istutuksen asetukset.
+
+Sitä vastoin useat muut ehdokkaat tässä paketissa (CLL/SLL-molekyyliset alaryhmät, Ewingin sarkooma, pahanlaatuinen spiradenoma) jakavat saman taustalla olevan BCL-2-perustelun periaatteessa, mutta heillä ei ole sairauskohtaisia tutkimuksia tai vain preklinistä/mekanistista kirjallisuutta — eli mekanistinen uskottavuus on todellinen, mutta kliininen vahvistus on olennaisesti puuttuu.
+
+---
+
+## Kliinisen tutkimuksen näyttö (Myeloidiläinen leukemia / AML)
+
+| Tutkimusnumero | Vaihe | Tila | Osallistujamäärä | Keskeiset löydökset |
 |---------|------|------|------|---------|
-| [NCT06713837](https://clinicaltrials.gov/study/NCT06713837) | Phase 3 | Recruiting | 339 | IMPACT-AML: randomized pragmatic trial comparing high- vs low-intensity reinduction therapy in 1st/2nd relapse AML |
-| [NCT03404193](https://clinicaltrials.gov/study/NCT03404193) | Phase 2 | Terminated | 235 | Venetoclax + 10-day decitabine in newly diagnosed elderly or R/R AML and high-risk MDS |
-| [NCT03941964](https://clinicaltrials.gov/study/NCT03941964) | Phase 3 | Completed | 60 | Outpatient venetoclax + azacitidine/decitabine in treatment-naïve AML ineligible for intensive chemotherapy — reflects the regulatory standard-of-care regimen |
-| [NCT04161885](https://clinicaltrials.gov/study/NCT04161885) | Phase 3 | Terminated | 465 | VIALE-T: venetoclax + azacitidine as post-allogeneic transplant maintenance to improve overall survival |
-| [NCT05404906](https://clinicaltrials.gov/study/NCT05404906) | Phase 2/3 | Recruiting | 124 | Azacitidine + venetoclax maintenance in favorable-risk AML after first remission |
-| [NCT02287233](https://clinicaltrials.gov/study/NCT02287233) | Phase 1/2 | Completed | 94 | Foundational study: venetoclax + low-dose cytarabine in treatment-naïve AML patients ≥60 years ineligible for anthracycline induction |
-| [NCT07007312](https://clinicaltrials.gov/study/NCT07007312) | Phase 3 | Recruiting | 1,300 | Ziftomenib added to standard-of-care venetoclax+azacitidine (or intensive 7+3) in NPM1-mutated/KMT2A-rearranged AML |
-| [NCT07469046](https://clinicaltrials.gov/study/NCT07469046) | Phase 3 | Not yet recruiting | 308 | Venetoclax+azacitidine+homoharringtonine vs venetoclax+azacitidine alone in elderly newly diagnosed AML |
-| [NCT06611839](https://clinicaltrials.gov/study/NCT06611839) | Phase 1/2 | Recruiting | 29 | Venetoclax + ivosidenib + azacitidine triple regimen in IDH1-mutated AML |
-| [NCT04146038](https://clinicaltrials.gov/study/NCT04146038) | Phase 2 | Completed | 5 | Salsalate added to venetoclax + decitabine/azacitidine in AML or advanced MDS/MPN |
+| [NCT06713837](https://clinicaltrials.gov/study/NCT06713837) | Vaihe 3 | Rekrytoi | 339 | IMPACT-AML: satunnaistettu pragmaattinen tutkimus korkea- vs matala-intensiteetin uudelleen induktiohoidosta 1. / 2. relapsi-AML:ssä |
+| [NCT03404193](https://clinicaltrials.gov/study/NCT03404193) | Vaihe 2 | Lopetettiin | 235 | Venetoclax + 10 päivän desitabiini äskettäin diagnosoidussa iäkkäillä tai resistentissä AML:ssä ja korkean riskin MDS:ssä |
+| [NCT03941964](https://clinicaltrials.gov/study/NCT03941964) | Vaihe 3 | Valmis | 60 | Poliklininen venetoclax + asatsitidin/desitabiini hoitamattomassa AML:ssä, joka ei kelpaa intensiiviselle kemoterapialle — heijastaa sääntelyarvioitua vakiohoidon hoitojärjestelmää |
+| [NCT04161885](https://clinicaltrials.gov/study/NCT04161885) | Vaihe 3 | Lopetettiin | 465 | VIALE-T: venetoclax + asatsitidin allogeenisen istutuksen jälkeisenä kunnossapitona yleisen selviämisen parantamiseksi |
+| [NCT05404906](https://clinicaltrials.gov/study/NCT05404906) | Vaihe 2/3 | Rekrytoi | 124 | Asatsitidin + venetoclax kunnossakunto suotuisa-riski-AML:ssä ensimmäisen remission jälkeen |
+| [NCT02287233](https://clinicaltrials.gov/study/NCT02287233) | Vaihe 1/2 | Valmis | 94 | Perustutkimus: venetoclax + matalan annoksen sytoaranoosi hoitamattomissa AML-potilaissa ≥60 vuotta, joille antrasiokliini-induktio ei kelpaa |
+| [NCT07007312](https://clinicaltrials.gov/study/NCT07007312) | Vaihe 3 | Rekrytoi | 1 300 | Ziftomenibi lisätty vakiohoidon venetoclax+asatsitidiin (tai intensiiviseen 7+3) NPM1-mutatuneessa/KMT2A-uudelleenmuodostaneessa AML:ssä |
+| [NCT07469046](https://clinicaltrials.gov/study/NCT07469046) | Vaihe 3 | Ei vielä rekrytointivaiheessa | 308 | Venetoclax+asatsitidin+homoharringtoviini vs venetoclax+asatsitidin yksinään iäkkäillä äskettäin diagnosoiduilla AML:llä |
+| [NCT06611839](https://clinicaltrials.gov/study/NCT06611839) | Vaihe 1/2 | Rekrytoi | 29 | Venetoclax + ivosidenib + asatsitidin kolmoishoidon yhdistelmä IDH1-mutatuneessa AML:ssä |
+| [NCT04146038](https://clinicaltrials.gov/study/NCT04146038) | Vaihe 2 | Valmis | 5 | Salsalaatti lisätty venetoclax + desitabiini/asatsitidiin AML:ssä tai edistynyt MDS/MPN |
 
-*10 of 50+ available trials shown, prioritized by phase, sample size, and direct relevance to standard-of-care regimens.*
+*10 yli 50 käytettävissä olevasta tutkimuksesta, priorisoitu vaiheen, otoskoon ja suoran olevan olevuuden vakiohoidon hoitojärjestelmän mukaan.*
 
 ---
 
-## Literature Evidence (Myeloid Leukemia / AML)
+## Kirjallisuuden näyttö (Myeloidiläinen leukemia / AML)
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
 |------|-----|------|------|---------|
-| [37925935](https://pubmed.ncbi.nlm.nih.gov/37925935/) | 2023 | Review | Biomedicine & Pharmacotherapy | Overview of venetoclax's antileukemic activity in preclinical AML models and clinical trials, alone and in combination |
-| [31203996](https://pubmed.ncbi.nlm.nih.gov/31203996/) | 2019 | Review | Best Practice & Research Clin Haematology | Venetoclax-based therapies contextualized among 8 new AML drugs approved since 2017 |
-| [34329576](https://pubmed.ncbi.nlm.nih.gov/34329576/) | 2021 | Phase 2 cohort | The Lancet Haematology | Venetoclax + cladribine/idarubicin/cytarabine (CLIA) in newly diagnosed AML/high-risk MDS, patients ≤65 years |
-| [35046058](https://pubmed.ncbi.nlm.nih.gov/35046058/) | 2022 | Cohort | Clinical Cancer Research | Venetoclax + azacitidine efficacy/safety in treatment-naïve IDH1/2-mutant AML |
-| [38866760](https://pubmed.ncbi.nlm.nih.gov/38866760/) | 2024 | Review | Cell Death & Disease | Venetoclax therapy and emerging resistance mechanisms in AML |
-| [39303729](https://pubmed.ncbi.nlm.nih.gov/39303729/) | 2024 | Phase 2 cohort | The Lancet Haematology | Decitabine + venetoclax + ponatinib in advanced-phase Ph+ myeloid disease and Ph+ AML |
-| [37599456](https://pubmed.ncbi.nlm.nih.gov/37599456/) | 2024 | Network meta-analysis | J Chemotherapy | Venetoclax+azacitidine vs ivosidenib/enasidenib in unfit newly diagnosed IDH1/2-mutant AML — favors venetoclax combination on OS |
-| [34966123](https://pubmed.ncbi.nlm.nih.gov/34966123/) | 2022 | Review | Current Opinion in Hematology | Survey of venetoclax combination regimens in AML and MDS |
-| [32031033](https://pubmed.ncbi.nlm.nih.gov/32031033/) | 2020 | Review | Leukemia & Lymphoma | Venetoclax + HMA/LDAC established as new standard of care for frontline unfit/elderly AML |
-| [39246164](https://pubmed.ncbi.nlm.nih.gov/39246164/) | 2024 | Review | Expert Review of Hematology | Relapse and resistance patterns after frontline venetoclax-based AML therapy, and second-line strategies |
+| [37925935](https://pubmed.ncbi.nlm.nih.gov/37925935/) | 2023 | Katsaus | Biomedicine & Pharmacotherapy | Yleiskatsaus venetoclaxin antileukemisesta aktiivisuudesta prekliinisissä AML-malleissa ja kliinisissa tutkimuksissa, yksinään ja yhdessä |
+| [31203996](https://pubmed.ncbi.nlm.nih.gov/31203996/) | 2019 | Katsaus | Best Practice & Research Clin Haematology | Venetoclax-pohjaisten hoitojen kontekstualisointi 8:n uuden AML-lääkkeen joukossa, jotka hyväksyttiin vuodesta 2017 lähtien |
+| [34329576](https://pubmed.ncbi.nlm.nih.gov/34329576/) | 2021 | Vaihe 2 kohortti | The Lancet Haematology | Venetoclax + kladribiini/idarubisin/sytoaranoosi (CLIA) äskettäin diagnosoidussa AML/korkean riskin MDS:ssä, potilaat ≤65 vuotta |
+| [35046058](https://pubmed.ncbi.nlm.nih.gov/35046058/) | 2022 | Kohortti | Clinical Cancer Research | Venetoclax + asatsitidiin teho/turvallisuus hoitamattomissa IDH1/2-mutatuneissa AML:ssä |
+| [38866760](https://pubmed.ncbi.nlm.nih.gov/38866760/) | 2024 | Katsaus | Cell Death & Disease | Venetoclax hoito ja nousevat resistenssimekanismit AML:ssä |
+| [39303729](https://pubmed.ncbi.nlm.nih.gov/39303729/) | 2024 | Vaihe 2 kohortti | The Lancet Haematology | Desitabiini + venetoclax + ponatinibi edistynyt vaihe Ph+ myeloidinen sairaus ja Ph+ AML |
+| [37599456](https://pubmed.ncbi.nlm.nih.gov/37599456/) | 2024 | Verkkometaanalyysi | J Chemotherapy | Venetoclax+asatsitidin vs ivosidenib/enasidenib soveltumattomissa äskettäin diagnosoiduissa IDH1/2-mutatuneissa AML:ssä — suosii venetoclax yhdistelmää yleisessä selviämisessä |
+| [34966123](https://pubmed.ncbi.nlm.nih.gov/34966123/) | 2022 | Katsaus | Current Opinion in Hematology | Tutkimus venetoclax-yhdistelmähoidoista AML:ssä ja MDS:ssä |
+| [32031033](https://pubmed.ncbi.nlm.nih.gov/32031033/) | 2020 | Katsaus | Leukemia & Lymphoma | Venetoclax + HMA/LDAC perustettu uudeksi vakiohoidoksi etulinjassa soveltumattomissa/iäkkäillä AML:ssa |
+| [39246164](https://pubmed.ncbi.nlm.nih.gov/39246164/) | 2024 | Katsaus | Expert Review of Hematology | Relaps ja resistenssi mallit etulinjassa venetoclax-pohjaisesti AML-hoitoa seuraten ja toissijainen strategiat |
 
 ---
 
-## Other Notable Predicted Indications (Secondary Candidates)
+## Muut huomattavat ennustetut indikaatiot (Toissijaiset ehdokkaat)
 
-- **CML, BCR-ABL1 positive (Rank 5, L2, Research Question):** Multiple Phase 2 trials pair venetoclax with TKIs (dasatinib, ponatinib) to eradicate TKI-persistent leukemic stem cells — an active research line, not yet standard of care (e.g., [NCT02689440](https://clinicaltrials.gov/study/NCT02689440), [NCT04188405](https://clinicaltrials.gov/study/NCT04188405)).
-- **Follicular lymphoma (Rank 7, L2, Research Question):** Directly aligned with the t(14;18) BCL-2 overexpression that defines FL. A dedicated Phase 2 (venetoclax+obinutuzumab+bendamustine, PrE0403, [PMID 40355425](https://pubmed.ncbi.nlm.nih.gov/40355425/)) reported in 2025, but efficacy has been inconsistent enough that FL is not yet a registered indication.
-- **Ranks 1, 2, 6, 8, 9, 10 (Hold / low priority):** Either extremely narrow molecular subtypes with no dedicated trials, a generic multi-cancer label ("metastatic neoplasm") that mixes unrelated solid tumors, or (malignant spiradenoma) a rare tumor with zero supporting trials or literature. None should be advanced without new dedicated evidence.
-
----
-
-## Taiwan Market Information
-
-Venetoclax currently holds **0 marketing authorizations in Taiwan** (market status: Not marketed / not marketed). No product licenses, dosage forms, or approved indication text are available in this evidence pack.
+- **CML, BCR-ABL1 positiivinen (Sijoitus 5, L2, Tutkimuskysymys):** Useat vaihe 2 tutkimukset yhdistävät venetoclaxin TKI:ihin (dasatinibi, ponatinibi) TKI-kestävien leukemian kantasolujen poistamiseksi — aktiivinen tutkimussuunta, ei vielä vakiohoidon (esim. [NCT02689440](https://clinicaltrials.gov/study/NCT02689440), [NCT04188405](https://clinicaltrials.gov/study/NCT04188405)).
+- **Follikulaarinen lymfooma (Sijoitus 7, L2, Tutkimuskysymys):** Suoraan yhdenmukainen t(14;18) BCL-2 ylientoitumisen kanssa, joka määrittelee FL:n. Omistettu vaihe 2 (venetoclax+obinutusumabi+bendamusti, PrE0403, [PMID 40355425](https://pubmed.ncbi.nlm.nih.gov/40355425/)) raportoitu 2025, mutta teho on ollut epäjohdonmukaista riittävän paljon, ettei FL ole vielä rekisteröity indikaatio.
+- **Sijoitukset 1, 2, 6, 8, 9, 10 (Pidätä / matala prioriteetti):** Joko erittäin kapeat molekyylialaryhmät ilman omistettuja tutkimuksia, yleinen monisairaus-etiketti ("metastaattinen neoplasma") joka sekoittaa toisiinsa liittymättömiä kiinteitä kasvaimia tai (pahanlaatuinen spiradenoma) harvinainen kasvain, jolla ei ole nolla tutkimusta tai kirjallisuutta. Mitään ei pitäisi edetä ilman uutta omistettua näyttöä.
 
 ---
 
-## Cytotoxicity
+## Taiwanin markkinatiedot
 
-Venetoclax is an antineoplastic agent (BCL-2 inhibitor used across CLL/SLL, AML, and other B-cell malignancies), so this section applies.
+Venetoclaxilla on tällä hetkellä **0 markkinointilupaa Taiwanissa** (markkinatila: Ei markkinoilla / ei markkinoilla). Tuotelisensejä, annosmuotoja tai hyväksyttyjä indikaatiotekstejä ei ole saatavissa tässä näytösarjassa.
 
-| Item | Content |
+---
+
+## Sytostaattisuus
+
+Venetoclax on antineoplastinen aine (BCL-2-inhibiittori, jota käytetään CLL/SLL:n, AML:n ja muiden B-solulymfoomien hoidossa), joten tämä osio koskee sitä.
+
+| Kohta | Sisältö |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (selective BCL-2 inhibitor) — consistently identified as such across this evidence pack's rationale entries |
-| Myelosuppression Risk | Not available in this evidence pack |
-| Emetogenicity Classification | Not available in this evidence pack |
-| Monitoring Items | Not available in this evidence pack |
-| Handling Protection | Not available in this evidence pack |
+| Sytostaattisuuden luokittelu | Kohdennettu hoito (selektiivinen BCL-2-inhibiittori) — johdonmukaisesti tunnistettu sellaiseksi näytösarjan omissa perusteluissa |
+| Ydintuotannon vähentymisen riski | Ei saatavissa tässä näytösarjassa |
+| Pahoinvointiriskin luokittelu | Ei saatavissa tässä näytösarjassa |
+| Valvonnan kohteet | Ei saatavissa tässä näytösarjassa |
+| Käsittelysuoja | Ei saatavissa tässä näytösarjassa |
 
-Myelosuppression risk, emetogenicity, monitoring, and handling-protection details are not available in this evidence pack — please refer to the package insert warnings and precautions once the TFDA label (see Data Gap DG001 below) is obtained.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-drug interaction data are all currently unavailable in this evidence pack — DDI query status: not found.)
+Ydintuotannon vähentymisen riski, pahoinvointiriskin, valvonnan ja käsittelysuojan yksityiskohdat eivät ole saatavissa tässä näytösarjassa — katso pakkausselosteen varoituksia ja varotoimenpiteitä, kun TFDA-merkintä (katso tiedon puute DG001 alla) on saatu.
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuusharkinnat
 
-**Decision: Hold** (regulatory/safety gate), with the underlying AML efficacy case otherwise meeting **Proceed with Guardrails** criteria.
+Katso pakkausselosteen turvallisuustietoja. (Keskeiset varoitukset, vasta-aiheet ja lääkkeiden välisen yhteisvaikutuksen tiedot ovat kaikki tällä hetkellä saatavissa tässä näytösarjassa — DDI-kysely tila: ei löydetty.)
 
-**Rationale:**
-- The myeloid leukemia (AML) indication has strong, mature clinical evidence (L1, 50+ trials, 20 publications) and reflects a therapy already treated as standard of care internationally.
-- However, a **Blocking-severity data gap (DG001)** means TFDA package-insert warnings/contraindications have not yet been obtained, which by this pipeline's own criteria prevents completion of the S1 safety pre-assessment — so no advancement decision can be finalized until that gap is closed, regardless of efficacy strength.
-- Venetoclax is not currently marketed in Taiwan (0 authorizations), so there is no local regulatory precedent to lean on; any repurposing pathway would likely require a full new registration route rather than a label-extension route.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings, contraindications) — remediation: download and parse from the TFDA website (DG001, Blocking).
-- Structured mechanism-of-action confirmation from DrugBank to replace the current data gap (DG002, High).
-- Manual re-verification of the Hodgkin lymphoma (Rank 3) evidence set, which appears mismatched to the disease label.
-- A formal DDI query, since the current query returned "not_found" rather than a populated result.
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidätä** (sääntelyyn/turvallisuuteen liittyvä este), kun taustalla oleva AML-tehokkuus tapaus muuten täyttää **Jatka varauksellisesti** kriteerit.
+
+**Perustelut:**
+- Myeloidiläisen leukemian (AML) indikaatiolla on vahva, kypsä kliininen näyttö (L1, 50+ tutkimusta, 20 julkaisua) ja se heijastaa hoitoa, jota käsitellään jo vakiohoidoksi kansainvälisesti.
+- Kuitenkin **kriittinen tiedon puute (DG001)** tarkoittaa, että TFDA-pakkausselosteen varoitukset/vasta-aiheet eivät ole vielä saatavissa, mikä tämän putkilinjan omien kriteerien mukaan estää S1-turvallisuuden ennakkohyväksynnän suorittamisen — joten mikään etenemispäätös ei voi valmistua ennen kuin tämä kuilu on suljettu, riippumatta tehokkuuden vahvuudesta.
+- Venetoclax ei ole tällä hetkellä markkinoilla Taiwanissa (0 lupaa), joten mitään paikallisen sääntelyyn kuuluvaa ennakkotapausta ei ole olemassa; mikä tahansa uudelleenkäytön polku vaatisi todennäköisesti täyden uuden rekisteröitimisen reitin pikemminkin kuin etiketin laajennusreitin.
+
+**Jatkaakseen, seuraavat tiedot ovat tarpeen:**
+- TFDA-pakkausseloste (varoitukset, vasta-aiheet) — oikaisu: lataa ja jäsennä TFDA:n verkkosivustolta (DG001, Kriittinen).
+- Rakennettu vaikutusmekanismi -vahvistus DrugBankista korvaamaan nykyisen tiedon puutetta (DG002, Korkea).
+- Hodgkinin lymfoomaetiketti (Sijoitus 3) näytösarjan manuaalinen uudelleentarkistus, joka näyttää epäsopivan sairauden etiketille.
+- Muodollinen DDI-kysely, koska nykyinen kysely palautti "not_found" täytetyn tuloksen sijaan.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

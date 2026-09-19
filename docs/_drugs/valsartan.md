@@ -29,62 +29,63 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **7** kpl
 
 </div>
 
-# Valsartan: From Hypertension to Malignant Hypertensive Renal Disease
+# Valsartan: Verenpainetaudista malignissa hypertensiiviseen munuaisitautiin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Valsartan is an angiotensin II receptor blocker (ARB), originally used to treat hypertension. The TxGNN model predicts it may be effective for **Malignant Hypertensive Renal Disease**, but this direction is currently supported by only **1 publication** (which actually studied a different drug, Avosentan) and **no clinical trials**.
+Valsartan on angiotensiini II -reseptorin salpaaja (ARB), jota alun perin käytettiin verenpainetaudin hoitoon. TxGNN-malli ennustaa, että se saattaa olla tehokas **malignissa hypertensiivisessa munuaisitaudissa**, mutta tätä käyttösuuntaa tukevia vasta **1 julkaisu** (joka tosiasiassa tutki eri lääkettä, Avosentania) ja **yhtään kliinistä tutkimusta**.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Hypertension (ARB class — no Finland-specific license text on file) |
-| Predicted New Indication | Malignant Hypertensive Renal Disease |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L4 |
-| Finland Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|------|--------|
+| Alkuperäinen indikaatio | Verenpainetauti (ARB-luokka — Suomalaista lisensoidun tekstiä ei ole saatavilla) |
+| Ennustettu uusi indikaatio | Malignissa hypertensiivinen munuaistauti |
+| TxGNN-ennustepistemäärä | 99.97% |
+| Näyttötaso | L4 |
+| Suomen markkinatilanne | Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Pidättäytyminen |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, detailed mechanism of action data is not available. Based on known information, Valsartan is an angiotensin II type 1 (AT1) receptor blocker (ARB), whose efficacy in hypertension is well established, and mechanistically it may be applicable to malignant hypertensive renal disease.
+Tällä hetkellä yksityiskohtaisia toimintamekanismin tietoja ei ole saatavilla. Tunnettujen tietojen perusteella Valsartan on angiotensiini II -tyypin 1 (AT1) -reseptorin salpaaja (ARB), jonka teho verenpainetaudissa on hyvin selvitetty, ja mekanistisesti se saattaa soveltua malignissa hypertensiiviseen munuaisitautiin.
 
-Both the original and new indications sit on the same pathophysiological axis: malignant hypertension drives fibrinoid necrosis of the renal microvasculature largely through excessive renin-angiotensin-aldosterone system (RAAS) activation. AT1 blockade is the same mechanism used to control blood pressure in essential hypertension, so extending it to a RAAS-driven renal complication of severe hypertension is mechanistically coherent.
+Sekä alkuperäinen että uusi indikaatio sijaitsevat samalla patofysiologisella akselilla: maligninen hypertensio aiheuttaa fibrinipitoisen nekroosin munuaisten mikrovaskulatuurissa pitkälti liiallisen reniini-angiotensiini-aldosteroni-järjestelmän (RAAS) aktivoitumisen kautta. AT1-salpaaja on sama mekanismi, jota käytetään verenpaineen hallintaan primaarissa verenpainetaudissa, joten sen laajentaminen RAAS-ohjautuvaan vakavan verenpainetaudin munuaisen komplikaatioon on mekanistisesti johdonmukaista.
 
-However, the only supporting literature (PMID 24368192) does not study Valsartan — it studies avosentan, an endothelin receptor antagonist, in a transgenic rat model of hypertensive nephropathy. This is class-level/analogous evidence at best, not drug-specific evidence, and should be weighted accordingly.
+Ainoa tukeva kirjallisuus (PMID 24368192) ei kuitenkaan tutki Valsartania — se tutkii Avosentania, endoteleenireseptorin antagonistia, transgeniikan rotamallissa hypertensiivisestä nefropatiasta. Tämä on parhaimmillaan luokkatasolla/analoginen näyttö, ei lääkekohtainen näyttö, ja se tulee painottaa vastaavasti.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-Currently no related clinical trials registered.
+Tällä hetkellä yhtään siihen liittyvää kliinistä tutkimusta ei ole rekisteröity.
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [24368192](https://pubmed.ncbi.nlm.nih.gov/24368192/) | 2014 | RCT (non-Valsartan; avosentan) | Pharmacological Research | In double-transgenic rats overexpressing human renin/angiotensinogen, avosentan (an endothelin receptor antagonist, not Valsartan) protected against hypertensive nephropathy at doses below those causing fluid retention. |
+| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät tulokset |
+|------|------|--------|-------|-----------------|
+| [24368192](https://pubmed.ncbi.nlm.nih.gov/24368192/) | 2014 | RCT (non-Valsartan; Avosentan) | Pharmacological Research | Kaksoisgeneettisissä rotakannoissa, joissa on yliilmennetty ihmisen renin/angiotensinogeenieä, Avosentan (endoteleenireseptorin antagonisti, ei Valsartan) suojasi hypertensiivisestä nefropatiasta pienemmillä annoksilla kuin nuo jotka aiheuttavat nesteiden kertymystä. |
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Valsartan is currently not marketed in Finland under this evidence pack — 0 product authorizations on file.
+Valsartania ei tällä hetkellä markkinoida Suomessa tämän näyttöaineiston puitteissa — 0 tuotehyväksyntää tiedostoissa.
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information. (No structured warnings, contraindications, or drug interaction data are currently on file; TFDA/Fimea package insert retrieval is flagged as a **Blocking** data gap — see below.)
+Katso turvallisuustiedoista pakkausselosteesta. (Tällä hetkellä strukturoituja varoituksia, vasta-aiheita tai lääkeyhteisvaikutusten tietoja ei ole tiedostoissa; TFDA/Fimea-pakkausselosteen hakeminen on merkitty este-näyttökuiluksi — katso alla.)
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidättäytyminen**
 
-**Rationale:**
-Evidence level is L4 (mechanism/analogous evidence only), there are no clinical trials, and the single literature reference studies a different drug class (endothelin antagonist), not Valsartan itself. Mechanistic plausibility via RAAS inhibition exists but is not yet substantiated by drug-specific data.
+**Perustelut:**
+Näyttötaso on L4 (vain mekanismi/analoginen näyttö), kliinisiä tutkimuksia ei ole, ja ainoa kirjallisuusviite tutkii eri lääkeluokkaa (endoteleenireseptorin antagonistia), ei itse Valsartania. Mekanistinen uskottavuus RAAS-inhibition kautta on olemassa, mutta sitä ei ole vielä tuettu lääkekohtaisella datalla.
 
-**To proceed, the following is needed:**
-- Valsartan-specific (not analog-drug) preclinical or clinical studies in hypertensive nephropathy/malignant hypertensive renal disease
-- Official mechanism of action (MOA) data from DrugBank
-- Package insert-derived warnings/contraindications — this is currently a **Blocking** data gap (DG001) that must be resolved before any S1 safety review
-- Note: within this same evidence pack, a lower-ranked candidate — **chronic pulmonary heart disease** (rank 6, score 99.58%) — carries substantially stronger evidence (L1, multiple completed Phase 3/4 RCTs of sacubitril/valsartan in heart failure populations) and may warrant separate, higher-priority evaluation.
+**Jotta voidaan edetä, seuraava on tarpeen:**
+- Valsartan-kohtaiset (ei analogialääke-) prekliiniset tai kliiniset tutkimukset hypertensiivisessä nefropatiassa/malignissa hypertensiivisessa munuaisitaudissa
+- Virallinen toimintamekanismin (MOA) -tieto DrugBankista
+- Pakkausselosteen perusteella johdetut varoitukset/vasta-aiheet — tämä on tällä hetkellä este-näyttökuilku (DG001), joka on ratkaistava ennen mitään S1-turvallisuusarviointia
+- Huomio: samassa näyttöaineistossa alemman sijoittuva kandidaatti — krooninen keuhkojen sydänsairaus (sijoitus 6, pistemäärä 99,58%) — sisältää huomattavasti vahvempia näyttöjä (L1, useita päättyneitä vaihe 3/4 RCT:ita Sacubitril/Valsartan-yhdistelmälle sydämen vajaatoimintapopulaatioissa) ja se saattaa vaatia erillisen, korkeamman prioriteetin arvioinnin.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

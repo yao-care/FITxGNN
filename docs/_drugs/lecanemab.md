@@ -29,75 +29,76 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 
 </div>
 
-# Lecanemab：阿茲海默症 — 老藥新用預測資料待補
+# Lecanemab: Alzheimerin tauti — TxGNN-ennusteiden puuttuvia tietoja
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Lecanemab（品牌名 Leqembi）是一種人源化抗類澱粉蛋白 β（Aβ）單株抗體，目前核准適應症為早期阿茲海默症（輕度認知障礙／輕度癡呆）。
-本次 Evidence Pack 中 **TxGNN 預測結果為空**，且監管安全性資料尚未完整擷取，無法進行標準的老藥新用潛力評估。
+Lecanemab (kauppanimi Leqembi) on humanisoidun anti-Aβ (amyloidibeta) -yksikköantikorpi, jonka nykyinen hyväksytty käyttöaihe on varhaisen Alzheimerin taudin lievä kognitiivinen heikkeneminen / lievä dementia.
+Tässä todiste-paketissa **TxGNN-ennustetulos on tyhjä**, ja sääntelyturvallisuustiedot eivät ole vielä täysin kerätty, joten standardoitua lääkkeen uudelleenkäyttöön liittyvän potentiaalin arviointia ei voida suorittaa.
 
 ---
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|---------|
-| Original Indication | 早期阿茲海默症（Mild Cognitive Impairment / Mild Alzheimer's Dementia） |
-| Predicted New Indication | 尚無 — 本 Evidence Pack 未含 TxGNN 預測 |
-| TxGNN Prediction Score | 不適用 |
-| Evidence Level | 無法評估 |
-| Taiwan Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+| Alkuperäinen käyttöaihe | Varhainen Alzheimerin tauti (Mild Cognitive Impairment / Mild Alzheimer's Dementia) |
+| Ennustettu uusi käyttöaihe | Ei sisällytetty — tämä todiste-paketti ei sisällä TxGNN-ennusteita |
+| TxGNN-ennusteen pistemäärä | Ei sovellettavissa |
+| Todisteen taso | Ei voida arvioida |
+| Taiwanin markkina-asema | Ei markkinoilla |
+| Hyväksyttyjen lupien lukumäärä | 0 |
+| Suositeltu päätös | **Odota** |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on perusteltu?
 
-目前 Evidence Pack 中 MOA 欄位未填入，但根據已公開的藥理文獻，Lecanemab 的作用機轉已相當明確：
+MOA-kenttä on tällä hetkellä täyttämätön todiste-paketissa, mutta julkaistun farmakalitteratuurin perusteella Lecanemabin toimintamekanismi on jo melko selvä:
 
-Lecanemab 優先結合可溶性 Aβ **原纖維（protofibrils）**，透過促進免疫清除減少腦內類澱粉斑塊負荷，進而減緩阿茲海默症神經退行性進程。此機轉不同於過去以 Aβ 單體或不可溶性斑塊為標靶的抗體（如 aducanumab），使其在 CLARITY AD Phase 3 試驗中顯示出統計學上顯著的認知功能延緩效果（CDR-SB 減緩 27%）。
+Lecanemab sitoutuu etusijaisesti liukoisen Aβ **protofibrileihin**, edistää immuunijärjestelmän puhdistusta ja vähentää aivosairauden amioidipelaaggien kuormitusta, mikä hidastaa Alzheimerin taudin neurodegeneratiivista etenemistä. Tämä mekanismi poikkeaa aiemmista Aβ-monomeereihin tai liukenemattomiin pelaggeihin kohdistuvista vasta-aineista (kuten adukanumaabi), mikä antoi sille tilastollisesti merkitsevän kognitiivisen toimintakyvyn hidastumisen CLARITY AD Phase 3 -tutkimuksessa (CDR-SB vähentyi 27 %).
 
-由於 **predicted_indications 陣列為空**，本報告無法對新適應症進行機轉關聯性分析。在 TxGNN 知識圖譜補齊 Lecanemab 節點資料之前，任何「從阿茲海默症到 X 疾病」的預測均不具備資料基礎，不應進行推斷。
-
----
-
-## Taiwan Market Information
-
-台灣目前無任何 Lecanemab 核准授權紀錄（查詢日期 2026-03-29）。
-
-美國 FDA 已於 2023 年 7 月給予 Leqembi 完全核准（Biologics License Application），適應症為早期症狀性阿茲海默症。台灣審查進度尚待 Fimea website最新公告。
+Koska **predicted_indications**-matriisi on tyhjä, tämä raportti ei voi analysoida mekanismin yhteyttä uusiin käyttöaiheisiin. Kunnes TxGNN-tietokaavio täydentää Lecanemabin solmujen tiedot, kaikki "Alzheimerin taudista X-tautiin" -ennusteet vailla tietopohjaa, eikä niitä pitäisi tehdä.
 
 ---
 
-## Safety Considerations
+## Taiwan markkina-tiedot
 
-TFDA 仿單安全性資料擷取作業尚未完成（見資料缺口 DG001）。根據 FDA 核准仿單及已發表臨床資料，以下為已知關鍵安全警示，供評估參考：
+Taiwanissa ei ole tällä hetkellä Lecanemabin hyväksymisluvituksia (kyselyaika 2026-03-29).
 
-- **關鍵警告：ARIA（Amyloid-Related Imaging Abnormalities）**
-  - ARIA-E（腦水腫 / 腦溝積液）及 ARIA-H（腦微出血 / 含鐵血黃素沉積）為最重要安全訊號，CLARITY AD 試驗中 ARIA-E 發生率約 12.6%，ARIA-H 約 17.3%。
-  - ApoE ε4 純合子攜帶者風險顯著升高，建議治療前進行基因型篩查。
-  - 需定期以 MRI 監測。
-- **抗凝血劑合併使用**：出血風險增加，應謹慎評估。
-- **嚴重過敏 / 輸注相關反應**：約 26% 患者在靜脈輸注時發生，多為輕中度。
-
-> 完整禁忌症與警語請待 TFDA 仿單 PDF 解析完成後補充。
+Yhdysvallat FDA on myöntänyt Leqembille täyden hyväksynnän heinäkuussa 2023 (Biologics License Application), jonka käyttöaihe on varhaisen oireellisen Alzheimerin tauti. Taiwan-tarkastuksen edistyminen odottaa Fimean verkkosivuston uusimpia ilmoituksia.
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuusnäkökohdat
 
-**Decision: Hold**
+TFDA-valmisteen turvallisuustietojen poimintaprojekti on vielä kesken (ks. tietoaukko DG001). FDA-hyväksytyn valmisteen pakkausselosteen ja julkaistun kliinisen aineiston perusteella seuraavat ovat tiedossa olevia keskeisiä turvallisuusvaroituksia, arviointia varten:
 
-**Rationale:**
-Evidence Pack 缺少 TxGNN 預測輸出（`predicted_indications` 為空），且兩項關鍵資料缺口（DG001 安全性仿單、DG002 MOA）尚未解除，目前無法對任何新適應症進行有效評估。
+- **Kriittiset varoitukset: ARIA (amyloidiin liittyvät imagoingin poikkeavuudet)**
+  - ARIA-E (aivojen turvotus / aivojen sulkuonteloiden nestekerääntyminen) ja ARIA-H (aivon mikroverenvuoto / rautanvetoinen hematoidiini-deposiitti) ovat tärkeimmät turvallisuussignaalit, CLARITY AD -tutkimuksessa ARIA-E:n esiintymisaste oli noin 12,6 %, ARIA-H noin 17,3 %.
+  - ApoE ε4 -homotsygootti -kantajien riski on merkittävästi kohonnut, hoidon ennen suositellaan genotyyppiä.
+  - Säännöllinen MRI-seuranta on tarpeen.
+- **Antikoagulantien yhdessä käyttö**: verenvuodon riski kasvaa, vaatii varovaista arviointia.
+- **Vakavat allergiset reaktiot / infuusioihin liittyvät reaktiot**: noin 26 % potilaista kokee laskimoinfuusiota, useimmiten lieviä tai keskivaikeita.
 
-**To proceed, the following is needed:**
+> Täydelliset vasta-aiheet ja varoitukset lisätään TFDA-valmisteen pakkausselosteen analysoinnin jälkeen.
 
-- **\[DG001 — Blocking\]** 從 Fimea website下載 Lecanemab 仿單 PDF 並解析警語／禁忌症，以完成 S1 安全初評
-- **\[DG002 — High\]** 補齊 DrugBank MOA 資料（DB14580），確認 Aβ protofibrils 結合機轉在知識圖譜中的節點連結
-- **\[Pipeline\]** 確認 TxGNN 預測管線是否已納入 Lecanemab 節點；若 KG 中缺乏足夠邊（edges），需先補充疾病–靶點–藥物三元組後重新執行預測
-- **\[Regulatory\]** 追蹤 TFDA 審查進度；若台灣尚無 Lecanemab 核准，需確認資料引用是否改以 FDA／EMA 仿單為準
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Odota**
+
+**Perustelut:**
+Todiste-paketti puuttuu TxGNN-ennustetulos (`predicted_indications` on tyhjä), ja kaksi kriittistä tietoaukkoa (DG001 turvallisuus valmiste, DG002 MOA) eivät ole vielä poistuneet, tällä hetkellä ei voida suorittaa tehokasta arviointia mistään uudesta käyttöaiheesta.
+
+**Etenemiseksi tarvitaan seuraavaa:**
+
+- **\[DG001 — Blocking\]** Lataa Lecanemabin valmisteen pakkausseloste PDF-muodossa Fimean verkkosivustolta ja jäsennä varoitukset / vasta-aiheet, jotta S1-turvallisuuden alustava arviointi voidaan suorittaa
+- **\[DG002 — High\]** Täydennä DrugBank MOA -tiedot (DB14580), vahvista Aβ-protofibrileiden sitoutumismekanismi tietokaavion solmuyhteydessä
+- **\[Pipeline\]** Varmista, ovatko TxGNN-ennustelinja ottaneet Lecanemabin solmun käyttöön; jos tietokaavion puuttuu riittävästi reunoja (edges), on ensin lisättävä tauti–kohde–lääke-kolmiyhdistelmät ennen kuin ennuste ajetaan uudelleen
+- **\[Regulatory\]** Seuraa TFDA-tarkastuksen etenemistä; jos Taiwanissa ei ole vielä Lecanemabin hyväksyntää, vahvista, muutetaanko data-viitteet FDA/EMA-valmisteen perusteiseksi
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

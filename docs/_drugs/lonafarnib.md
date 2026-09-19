@@ -29,76 +29,77 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Lonafarnib: From Progeria/Hepatitis D to Leprosy
+# Lonafarnib: Progerian oireyhtymästä/hepatiitti D:stä lepraaseen
 
-## One-Sentence Summary
+## Yhden lauseen tiivistelmä
 
-Lonafarnib is a farnesyltransferase inhibitor whose known clinical/investigational use centers on Hutchinson-Gilford Progeria Syndrome and chronic Hepatitis D; no TFDA/Finland-approved indication is recorded in this evidence pack.
-The TxGNN model predicts it may be effective for **Leprosy**, but this prediction is currently supported by **0 clinical trials** and **0 publications**.
-This is a pure knowledge-graph correlation with no mechanistic or empirical backing to date.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available (no approved indication on record; known investigational use in Progeria/Hepatitis D per rationale notes) |
-| Predicted New Indication | Leprosy |
-| TxGNN Prediction Score | 99.14% (rank 8442) |
-| Evidence Level | L5 |
-| Finland Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Lonafarnib on farnesylyytransferaasin estäjä, jonka tunnettu kliininen/tutkittava käyttö keskittyy Hutchinson-Gilfordin progerian oireyhtymään ja krooniseen hepatiittiin D; tässä näyttöpaketissa ei ole kirjattu mitään TFDA:n tai Suomen hyväksymää indikaatiota.
+TxGNN-malli ennustaa, että se saattaa olla tehokas **lepran** hoidossa, mutta tätä ennustusta tukee tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua**.
+Tämä on puhdas tietoverkkojen korrelaatio, jolla ei ole mekanistista tai empiiristä tukea tähän mennessä.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Pikayleiskatsaus
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap). Based on the rationale notes accompanying this prediction, Lonafarnib's known pharmacology is farnesyltransferase inhibition — blocking farnesylation of proteins such as Ras and the Hepatitis D virus large delta antigen — which underlies its use in Progeria and investigational use in chronic Hepatitis D.
-
-Leprosy is caused by *Mycobacterium leprae* and is treated with antibiotics (dapsone, rifampicin, clofazimine) that act on bacterial cell-wall synthesis and metabolic pathways. There is no known biological overlap between host protein farnesylation inhibition and antimycobacterial activity. The rationale data explicitly states this prediction has no supporting mechanistic hypothesis — it is a computational association from the knowledge graph only, compounded by the fact that the drug's own MOA record is itself a data gap.
-
-Given the absence of any mechanistic plausibility and zero corroborating studies, this prediction should be treated as exploratory/hypothesis-generating only, not as a candidate ready for further evaluation.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Kohde | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Ei saatavilla (indikaatiota ei ole kirjattu; tunnetusta tutkittavasta käytöstä Progerian oireyhtymässä/hepatiitti D:ssä katso perustelutiedot) |
+| Ennustettu uusi indikaatio | Lepra |
+| TxGNN-ennustuspistemäärä | 99.14% (sijoitus 8442) |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | ✗ Ei markkinoilla |
+| Myyntilupien lukumäärä | 0 |
+| Suositeltu päätös | Pysäytä |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennustus on järkevä?
 
-Currently no related literature available.
+Yksityiskohtaista mekanismin vaikuttotietoa ei ole tällä hetkellä saatavilla (merkitty korkeana vakavuutena olevaksi tietorako). Tämän ennustuksen perustelutietojen perusteella Lonafarnib'in tunnettu farmakologia on farnesylyytransferaasin estäminen — se estää sellaisten proteiinien kuin Ras ja hepatiitti D:n viruksen suuren delta-antigenin farnesylointia — mikä on taustalla sen käytölle Progerian oireyhtymässä ja tutkittavalle käytölle kroonisessa hepatiitissa D.
 
----
+Lepra on *Mycobacterium leprae* -bakteerin aiheuttama sairaus, ja sitä hoidetaan antibiootteilla (dapson, rifampisiini, klofasimiini), jotka vaikuttavat bakteerin soluseinnän synteesiin ja aineenvaihduntareitteihin. Isäntäproteiinin farnesyloinnin estämisen ja antimykobakteeri-aktiviteetin välillä ei ole tunnettua biologista yhteyttä. Perustelutiedot ilmoittavat eksplisiittisesti, että tämä ennustus ei perustu millään mekanistisella hypoteesilla — se on vain laskennallinen assosiaatio tietoverkosta, pahentaen sitä, että itse lääkkeen mekanismin vaikutustieto (MOA) on itsessään tietorako.
 
-## Finland Market Information
-
-Lonafarnib has no marketing authorization on record (0 licenses; market status: not marketed).
+Koska mekanistiselle uskottavuudelle ei ole pohjaa ja tutkimuksia ei ole, tämä ennustus tulee käsitellä vain tutkivaksi eikä valmiiksi jatkoarviointiin lähtevää ehdokasta.
 
 ---
 
-## Safety Considerations
+## Kliinisen tutkimuksen näyttö
 
-Please refer to the package insert for safety information.
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisia tutkimuksia.
 
 ---
 
-## Conclusion and Next Steps
+## Kirjallisuuden näyttö
 
-**Decision: Hold**
+Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta.
 
-**Rationale:**
-The prediction is supported only by a TxGNN model score (L5, S0) with no clinical trials, no literature, and no plausible mechanistic link between farnesyltransferase inhibition and leprosy treatment — this does not meet the bar to advance to safety screening.
+---
 
-**To proceed, the following is needed:**
-- TFDA/EMA package insert (warnings, contraindications) — currently a Blocking data gap (DG001)
-- Confirmed mechanism of action data from DrugBank or primary literature — High-severity gap (DG002)
-- At minimum, preclinical or mechanistic evidence establishing biological plausibility for an antimycobacterial effect
-- Re-query clinical trial registries (ClinicalTrials.gov, ICTRP) and PubMed periodically for emerging evidence
+## Suomen markkinatiedot
+
+Lonafarnibilla ei ole rekisteröity markkinoille saattamisen lupaa (0 lupaa; markkinatilanne: ei markkinoilla).
+
+---
+
+## Turvallisuusnäkökohdat
+
+Turvakysymysten osalta katso pakkauselosteesta.
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pysäytä**
+
+**Perustelut:**
+Ennustusta tukee vain TxGNN-mallin pistemäärä (L5, S0), ilman kliinisiä tutkimuksia, kirjallisuutta tai uskottavaa mekanistista yhteyttä farnesylyytransferaasin estämisen ja lepran hoidon välillä — tämä ei täytä vaatimuksia turvallisuusseulonnan edistämiselle.
+
+**Jatkaakseen tarvitaan seuraavaa:**
+- TFDA:n/EMA:n pakkausialoste (varoitukset, vasta-aiheet) — tällä hetkellä esto-aineiston rako (DG001)
+- Vahvistettu mekanismin vaikutustieto DrugBankista tai alkuperäisistä lähteistä — korkean vakavuuden rako (DG002)
+- Vähintään prekliiniset tai mekanistiset näytöt, jotka vahvistaisivat antimykobakteeri-vaikutuksen biologisen uskottavuuden
+- Kliinisen tutkimuksen rekistereihin (ClinicalTrials.gov, ICTRP) ja PubMediin tulee palata säännöllisesti uusien näyttöjen seuraamiseksi
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

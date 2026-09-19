@@ -29,60 +29,61 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Levodopa: From Parkinsonism (Movement Disorders) to Rasmussen Subacute Encephalitis
+# Levodopa: parkinsonismista (liikehäiriöistä) Rasmussenin subakuuttiin enkefaliittiin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Levodopa is a dopamine precursor whose clinical use centers on Parkinson's disease and related movement disorders. The TxGNN model predicts a possible link to **Rasmussen subacute encephalitis**, a rare pediatric autoimmune/inflammatory brain condition, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it rests on model output alone.
+Levodopa on dopamiinin esiaste, jonka kliininen käyttö keskittyy Parkinsonin tautiin ja siihen liittyviin liikehäiriöihin. TxGNN-malli ennustaa mahdollisen yhteyden **Rasmussenin subakuuttiin enkefaliittiin**, harvinaiseen pediatriseen autoimmuuni-/tulehdukselliseen aivotahtiin, mutta tätä ennustusta tukee tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua** — se perustuu pelkästään mallin tulokseen.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohde | Sisältö |
 |------|------|
-| Original Indication | Not documented in the Finland regulatory dataset (no licenses on file); known clinical use is Parkinson's disease / movement disorders per the drug's mechanism description |
-| Predicted New Indication | Rasmussen Subacute Encephalitis |
-| TxGNN Prediction Score | 99.06% (rank 9079) |
-| Evidence Level | L5 |
-| Finland Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen indikaatio | Ei dokumentoitu Suomen sääntelytietokannassa (lisenssejä ei ole); tunnettu kliininen käyttö on Parkinsonin tauti / liikehäiriöt lääkkeen mekanismin kuvauksen mukaan |
+| Ennustettu uusi indikaatio | Rasmussenin subakuutti enkefaliitti |
+| TxGNN-ennusteen pistemäärä | 99.06% (sijoitus 9079) |
+| Näyttötaso | L5 |
+| Suomen markkinatilanne | Ei markkinoilla |
+| Lupahakemusten lukumäärä | 0 |
+| Suositeltava päätös | Pidätetään |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on perusteltu?
 
-Currently, detailed mechanism of action data is not available for this drug in the evidence pack ([Data Gap] DG002). Based on known pharmacology, levodopa is converted centrally to dopamine to replenish nigrostriatal dopamine deficits, and its efficacy in Parkinsonian movement disorders is well established.
+Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla tämän lääkkeen osalta näyttöpaketissa ([Data Gap] DG002). Tunnetun farmakologian perusteella levodopa muuttuu keskushermostossa dopamiiniksi nigrostritaalisen dopamiinitason palauttamiseksi, ja sen teho Parkinsonin liikehäiriöissä on hyvin todistettu.
 
-Rasmussen subacute encephalitis, however, is a rare pediatric chronic inflammatory encephalitis driven by T-cell–mediated cortical inflammation and neuronal loss, causing intractable seizures and progressive hemiparesis. Standard treatment relies on immunomodulation (IVIG, corticosteroids, plasma exchange) or hemispherectomy — a pathophysiology (autoimmune neuroinflammation) that does not overlap with levodopa's dopaminergic mechanism.
+Rasmussenin subakuutti enkefaliitti on kuitenkin harvinainen pediatrinen krooninen tulehduksellinen aivotulehdus, jonka taustalla on T-solujen välittämä aivokuoren tulehdus ja neuronien kuolema, joka aiheuttaa hoitoresistenttejä kohtauksia ja progressiivista hemipareesia. Vakiohoito perustuu immunomodulaatioon (IVIG, kortikosteroidit, plasmaytimen vaihtoon) tai hemisfäärektomiaan — patofysiologia (autoimmuuni-neuroinflammaatio), joka ei ole yhteydessä levodopan dopamiinergiseen mekanismiin.
 
-No established mechanistic link connects dopamine replacement therapy to autoimmune encephalitis. The high TxGNN score (0.99) most likely reflects graph-topological proximity between nodes in the knowledge graph rather than validated biological plausibility, and should be interpreted with caution given the absence of any supporting trial or literature evidence.
+Mitään vakiintunutta mekanistista yhteyttä ei ole dopamiinin korvaavien hoitojen ja autoimmuuni-aivotulehduksen välillä. Korkea TxGNN-pistemäärä (0.99) johtuu todennäköisesti tietokaavion solmujen topologisesta läheisyydestä eikä validoidusta biologisesta uskottavuudesta, ja sitä tulisi tulkita varauksella, kun otetaan huomioon kliinisen tutkimus- ja kirjallisuustodistuksen puuttuminen.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-Currently no related clinical trials registered.
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-Currently no related literature available.
+Tällä hetkellä asiaan liittyvää kirjallisuutta ei ole saatavilla.
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Levodopa currently has no active marketing authorizations on file in Finland (0 licenses; market status: Not Marketed).
+Levodopalla ei ole tällä hetkellä voimassa olevia markkinointilupahakemuksia Suomessa (0 lupaa; markkinatilanne: Ei markkinoilla).
 
-## Safety Considerations
+## Turvallisuusharkinta
 
-Please refer to the package insert for safety information. Note: TFDA/label warnings and contraindications are currently unavailable (Blocking data gap, DG001), which prevents a full S1 safety pre-assessment.
+Katso turvallisuustiedoista pakkausselosteesta. Huomio: TFDA:n/merkintöjen varoitukset ja vasta-aiheet eivät ole tällä hetkellä saatavilla (estävä tietoaukko, DG001), mikä estää täydellisen S1-turvallisuuden esiarviointia.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidätetään**
 
-**Rationale:**
-The prediction is supported only by TxGNN model output (L5, no clinical trials or literature), and no plausible mechanistic link exists between levodopa's dopaminergic action and Rasmussen encephalitis's autoimmune-inflammatory pathology. A blocking safety data gap (TFDA label unavailable) also prevents safety review.
+**Perustelu:**
+Ennustusta tukee vain TxGNN-mallin tulos (L5, ei kliinisiä tutkimuksia tai kirjallisuutta), eikä levodopan dopamiinergisen vaikutuksen ja Rasmussenin enkefaliittin autoimmuuni-tulehduksellisen patologian välillä ole olemassa uskottavaa mekanistista yhteyttä. Myös estävä turvallisuustietoaukko (TFDA-merkintö ei saatavilla) estää turvallisuuden tarkastelun.
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert data (warnings, contraindications) — DG001, blocking
-- Levodopa mechanism of action detail from DrugBank — DG002
-- Preclinical or mechanistic studies establishing biological plausibility for a dopaminergic–neuroinflammatory link
-- Ongoing surveillance for emerging trials or literature on this indication pair
+**Jatkaakseen tarvitaan seuraavaa:**
+- TFDA/Fimean pakkausselostetieto (varoitukset, vasta-aiheet) — DG001, estävä
+- Levodopan vaikutusmekanismin yksityiskohdat DrugBankista — DG002
+- Prekliiniset tai mekanistiset tutkimukset, jotka osoittavat biologisen uskottavuuden dopamiinergin-neuroinflammaation yhteyden osalta
+- Jatkuva seuranta nousevista tutkimuksista tai kirjallisuudesta tämän indikaatioparin osalta
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

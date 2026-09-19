@@ -29,86 +29,87 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **7** kpl
 
 </div>
 
-# Cladribine: From Hairy Cell Leukemia to Parameningeal Embryonal Rhabdomyosarcoma
+## Cladribine: Hiirten silmäleukaemiasta parameningiaaliseen embryonaaliseen rabdomyosarkooomaan
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Cladribine is a purine nucleoside (deoxyadenosine) analog historically used to treat hairy cell leukemia, acting through selective cytotoxicity to lymphocytes and monocytes via DNA double-strand breaks.
-The TxGNN model predicts possible activity against **Parameningeal Embryonal Rhabdomyosarcoma** (score **99.77%**), but this is currently a **pure graph-based association** — **0 clinical trials** and **0 publications** support this specific prediction, and no mechanistic link between cladribine's known biology and rhabdomyosarcoma has been identified.
+Cladribine on puriinanukleosidia (deoksiadenosiini) analogni, jota on perinteisesti käytetty hiirten silmäleukaemian hoitoon ja joka vaikuttaa lymfosyyttien ja monosyyttien valikoivaan sytotoksisuuteen DNA-kaksoisjärkäisyyden katkeamisen kautta.
+TxGNN-malli ennustaa mahdollista aktiivisuutta **parameningiaaliseen embryonaaliseen rabdomyosarkooomaan** (pistemäärä **99.77%**), mutta tämä on tällä hetkellä puhtaasti **graafipohjainen assosiaatio** — **0 kliinistä tutkimusta** ja **0 julkaisua** tukee tätä erityistä ennustusta, eikä mitään mekanistista yhteyttä cladribiinin tunnetun biologian ja rabdomyosarkooman patogeneesin välillä ole tunnistettu.
 
 ---
 
-## Quick Overview
+## Pikakatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Hairy cell leukemia *(general drug knowledge; no license/indication record present in evidence pack)* |
-| Predicted New Indication | Parameningeal Embryonal Rhabdomyosarcoma |
-| TxGNN Prediction Score | 99.77% (rank 2900) |
-| Evidence Level | L5 — model prediction only, no clinical or literature support |
-| Finland Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen indikaatio | Hiirten silmäleukaemia *(yleinen lääketieteellinen tieto; lisenssiin/indikatioon liittyviä tietoja ei ole olemassa näytön paketissa)* |
+| Ennustettu uusi indikaatio | Parameningiaaliset embryonaaliset rabdomyosarkooma |
+| TxGNN-ennustepistemäärä | 99.77% (sijoitus 2900) |
+| Todisteen taso | L5 — vain mallin ennuste, ei kliinistä tai kirjallisuustukea |
+| Suomen markkinatilanne | ✗ Ei markkinoilla |
+| Myyntilupien lukumäärä | 0 |
+| Suositeltu päätös | Pidä |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on perusteltavissa?
 
-Structured MOA data was not available in the evidence pack (`original_moa: [Data Gap]`). However, the model's own rationale field describes cladribine as a lymphocyte/monocyte-selective cytotoxic deoxyadenosine analog, working through DCK-mediated phosphorylation and induction of DNA double-strand breaks — this is consistent with its established clinical role in hairy cell leukemia, a lymphoid/monocytic hematologic malignancy.
+Strukturoituja MOA-tietoja ei ollut saatavilla näytön paketissa (`original_moa: [Data Gap]`). Kuitenkin mallin oman perustelun mukaan cladribine on deoksiadenosiinin lymfosyytti/monosyytti-selektiivinen sytotoksinen analogni, joka toimii DCK-välitteisen fosforylaation ja DNA-kaksoisjärkäisyyden katkeamisen induktion kautta — tämä on johdonmukaista sen vakiintuneen kliinisen roolin kanssa hiirten silmäleukaemiassa, immuunijärjestelmän/monosyyttien hematologisen pahanlaatuuden yhteydessä.
 
-Parameningeal embryonal rhabdomyosarcoma, in contrast, is a skeletal-myoblast-lineage solid tumor with a fundamentally different cell of origin and proliferative biology. The evidence pack's own repurposing rationale explicitly states there is **no known direct mechanistic connection** between cladribine's lymphocyte-targeted cytotoxicity and rhabdomyosarcoma pathogenesis — the high TxGNN score reflects a graph-relationship prediction, not a validated pharmacological hypothesis.
+Parameningiaaliset embryonaaliset rabdomyosarkooma sen sijaan on luuranko-myoblastin lineaagin kiinteä kasvain, jolla on perustavanlaatuisesti erilainen lähtösolutyyppi ja proliferatiivinen biologia. Näytön paketin omassa repurposing-perustelussa todetaan selvästi, että **ei ole olemassa tunnettua suoraa mekanistista yhteyttä** cladribiinin lymfosyytteihin kohdistuvan sytotoksisuuden ja rabdomyosarkooman patogeneesin välillä — korkea TxGNN-pistemäärä heijastaa graafisuhteen ennustetta, ei vahvistettua farmakologista hypoteesia.
 
-This pattern is consistent across all 7 ranked predictions in this evidence pack (5 rhabdomyosarcoma subtypes, rhabdomyosarcoma as a general category, and liver sarcoma) — all are scored L5/Hold, and none have supporting mechanistic rationale. The single literature hit found anywhere in this evidence pack (PMID 15241520, under rank 7 "liver sarcoma") concerns cladribine's use in smoldering systemic mastocytosis — a hematologic mast-cell disorder, not a sarcoma — and does not constitute relevant supporting evidence.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+Tämä malli on johdonmukaista kaikissa 7 rankatussa ennusteessa tässä näytön paketissa (5 rabdomyosarkooman alatyyppiä, rabdomyosarkooma yleisenä kategoriana ja maksasarkooma) — kaikille annetaan L5/Pidä-status, eikä mikään niistä ole tuettu mekanistisella perustelulla. Ainoa tässä näytön paketissa löydetty kirjallisuusosuma (PMID 15241520, sijoitus 7 "maksasarkooma") käsittelee cladribiinin käyttöä pehmeässä systeemisessä mastoosytoosissa — immuunijärjestelmän mastoosyytti-häiriössä, ei sarkooman — eikä muodosta asiaankuuluvaa tukevaa näyttöä.
 
 ---
 
-## Literature Evidence
+## Kliinisen tutkimuksen näyttö
 
-Currently no related literature available
+Tällä hetkellä ei ole asiaan liittyviä rekisteröityjä kliinisiä tutkimuksia
 
 ---
 
-## Cytotoxicity
+## Kirjallisuuden näyttö
 
-Cladribine is a conventional cytotoxic antineoplastic (purine nucleoside/deoxyadenosine analog, antimetabolite class), currently used in hematologic malignancy treatment.
+Tällä hetkellä asiaan liittyviä kirjallisuustietoja ei ole saatavilla
 
-| Item | Content |
+---
+
+## Sytotoksisuus
+
+Cladribine on perinteinen syöpälääke (puriinanukleosidia/deoksiadenosiini-analogni, antimetaboliittiluokka), jota käytetään tällä hetkellä hematologisten pahanlaatuuksien hoidossa.
+
+| Kohta | Sisältö |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic — purine nucleoside (deoxyadenosine) analog / antimetabolite |
-| Myelosuppression Risk | Mechanistically expected to be significant, as the drug's activity depends on selective lymphocyte/monocyte depletion via DNA double-strand breaks; no quantified hematologic toxicity data available in this evidence pack — please refer to the package insert |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | CBC with differential (particularly lymphocyte count), liver and renal function |
-| Handling Protection | Antineoplastic — cytotoxic drug handling precautions apply |
+| Sytotoksisuuden luokitus | Perinteinen sytotoksinen — puriinanukleosidia (deoksiadenosiini) analogni / antimetaboliitti |
+| Myelosupressio-riski | Mekanistisesti oletetaan olevan merkittävä, sillä lääkkeen aktiivisuus riippuu valikoivasta lymfosyytin/monosyytin poistumisesta DNA-kaksoisjärkäisyyden katkeamisen kautta; kvantitatiivisia hematologisen myrkyllisyyden tietoja ei ole saatavilla tässä näytön paketissa — katso pakkausseloste |
+| Emetogeniteettien luokitus | Katso pakkausselostetta varoituksista ja varotoimista |
+| Seurantakohteet | Täydellinen verilaskenta eri muotojen kanssa (erityisesti lymfosyyttiluku), maksa- ja munuaistoiminta |
+| Käsittelysuojaus | Antineoplastinen — sytotoksisen lääkkeen käsittelysuojaukset soveltuvat |
 
 ---
 
-## Safety Considerations
+## Turvallisuusnäkökohtia
 
-Please refer to the package insert for safety information.
+Katso turvallisuustiedot pakkausselosteesta.
 
-*(Note: TFDA/Fimea package insert warnings and contraindications are recorded as a **Blocking** data gap (DG001) in this evidence pack — this must be resolved before any safety evaluation can proceed.)*
+*(Huomautus: TFDA/Fimea-pakkausselosteiden varoitukset ja vasta-aiheet on merkitty **Blocking**-tietoaukoksi (DG001) tässä näytön paketissa — tämä on ratkaistava ennen kuin mitään turvallisuusarviointia voidaan jatkaa.)*
 
 ---
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidä**
 
-**Rationale:**
-This candidate has L5 evidence only — a TxGNN association score with zero supporting clinical trials or literature, and no identified mechanistic link between cladribine's known lymphocyte/monocyte-selective cytotoxicity and rhabdomyosarcoma biology. All 7 predicted indications in this evidence pack share the same Hold status for the same reason. The drug is also not currently marketed in Finland, and safety/label data required for even a preliminary safety assessment (S1) is missing.
+**Perustelu:**
+Tällä ehdokkaalla on vain L5-näyttö — TxGNN-assosiaatio ilman tukevaa kliinistä tutkimusta tai kirjallisuutta, eikä mitään tunnistettua mekanistista yhteyttä cladribiinin tunnetun lymfosyytti/monosyytti-selektiivisen sytotoksisuuden ja rabdomyosarkooman biologian välillä. Kaikilla 7 ennustetulla indikatiolla tässä näytön paketissa on sama Pidä-status samasta syystä. Lääke ei myöskään ole tällä hetkellä markkinoilla Suomessa, ja turvallisuus- ja merkintätiedot, joita tarvitaan jopa alustavan turvallisuusarvioinnin (S1) tekemiseen, puuttuvat.
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert (warnings, contraindications) — currently a Blocking gap (DG001)
-- Verified original indication and MOA data from DrugBank (DG002)
-- Preclinical or mechanistic studies specifically linking cladribine to rhabdomyosarcoma or sarcoma biology
-- Drug-drug interaction data
-- Re-screening of lower-ranked candidates as new trial/literature evidence accumulates
+**Etenemisen edellytyksenä tarvitaan seuraavat tiedot:**
+- TFDA/Fimea-pakkausseloste (varoitukset, vasta-aiheet) — tällä hetkellä Blocking-aukko (DG001)
+- Vahvistetut alkuperäisen indikaation ja MOA-tiedot DrugBankista (DG002)
+- Prekliiniset tai mekanistiset tutkimukset, jotka erityisesti yhdistävät cladribiinin rabdomyosarkooomaan tai sarkoomabiologiaan
+- Lääkkeiden väliset vuorovaikutustiedot
+- Matalarankisten ehdokkaiden uudelleenseulonta uuden tutkimus- ja kirjallisuustodisteen kerääntyessä
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

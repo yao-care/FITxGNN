@@ -29,107 +29,108 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Clofarabine: From Acute Lymphoblastic Leukemia to Myeloid Leukemia
+# Kloofarabiini: Akuutista lymfoblastisesta leukemiasta myeloidiin leukemiaan
 
-## One-Sentence Summary
+## Yksisäntöinen yhteenveto
 
-Clofarabine is a second-generation purine nucleoside analog originally developed and FDA-approved for relapsed/refractory acute lymphoblastic leukemia (ALL) in pediatric patients (this approval history is documented within the trial records in this evidence pack, as Taiwan/Finland regulatory licensing data is unavailable). The TxGNN model predicts it may also be effective for **Myeloid Leukemia**, with **50 clinical trials** and **20 publications** currently supporting this direction.
+Kloofarabiini on toisen sukupolven puriininukleosidianalogia, joka on alun perin kehitetty ja FDA:n hyväksymä lastenpotilaiden relapsoineet/refraktaarille akuutille lymfoblastiselle leukemialle (ALL) (tämä hyväksyntähistoria on dokumentoitu tämän todistusjoukon kliinisten tutkimusten tietuissa; Suomen/Taiwanin sääntelylisenssin tiedot eivät ole käytettävissä). TxGNN-malli ennustaa, että se saattaa myös olla tehokas **myeloidiselle leukemialle**, ja tätä suuntaa tukee tällä hetkellä **50 kliinistä tutkimusta** ja **20 julkaisua**.
 
 ---
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Relapsed/refractory acute lymphoblastic leukemia (ALL) in pediatric patients (FDA-approved; per clinical trial records — no Finland/Taiwan regulatory license on file) |
-| Predicted New Indication | Myeloid Leukemia |
-| TxGNN Prediction Score | 99.88% |
-| Evidence Level | L2 |
-| Finland Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Alkuperäinen indikaatio | Relapsoineet/refraktaarinen akuutti lymfoblastinen leukemia (ALL) lastenpotilailla (FDA:n hyväksymä; kliinisten tutkimusten asiakirjojen mukaan — Suomen/Taiwanin sääntelylisenssi ei ole saatavilla) |
+| Ennustettu uusi indikaatio | Myeloidinen leukemia |
+| TxGNN-ennustepisteet | 99.88% |
+| Näytön taso | L2 |
+| Suomen markkinoiden tila | Ei markkinoilla |
+| Myyntilupien lukumäärä | 0 |
+| Suositeltu päätös | Jatka varauksella |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Detailed regulatory-grade mechanism of action data is not yet available (DrugBank query pending confirmation). Based on the mechanistic rationale captured in this evidence pack, clofarabine is a second-generation purine (deoxyadenosine) nucleoside analog that inhibits DNA polymerase α/ε and ribonucleotide reductase, depleting the intracellular deoxynucleotide pool and triggering the mitochondrial apoptosis pathway. This gives it direct cytotoxic activity against rapidly dividing cells — a mechanism well suited to hematologic malignancies with high proliferative fractions.
+Yksityiskohtaisia sääntelytason vaikutusmekanismin tietoja ei ole vielä saatavilla (DrugBank-kysely odottaa vahvistusta). Tässä todistusjoukon perusteella kloofarabiini on toisen sukupolven puriini (deoksiadesiini) nukleosidianalogia, joka estää DNA-polymeraasin α/ε ja ribonukleotidiredduktaasin, kuluttaa solun sisäisen deoksunukleotidin varaston ja käynnistää mitokondrion apoptoosin reitin. Tämä antaa sille suoran sytotoksisen aktiivisuuden nopeasti jakautuvia soluja vastaan — mekanismi, joka sopii hyvin hematologisille pahanlaatuisille kasvaimille, joilla on korkea proliferatiivinen osuus.
 
-Clofarabine's original approved indication, pediatric relapsed/refractory ALL, and the predicted new indication, myeloid leukemia (AML/CML), are both hematologic malignancies driven by highly proliferative blast populations in the bone marrow. Because the drug's antileukemic mechanism is not lineage-restricted (it targets DNA synthesis machinery common to both lymphoid and myeloid blasts), extensive off-label and investigational use in adult and pediatric AML has already accumulated over two decades, including single-agent Phase II studies and multiple combination regimens (clofarabine + cytarabine, + idarubicin, + busulfan-based transplant conditioning). This existing body of AML-directed research is the mechanistic and clinical bridge supporting the TxGNN prediction.
+Kloofarabiinin alkuperäinen hyväksytty indikaatio, lastenpotilaiden relapsoineet/refraktaarinen ALL, ja ennustettu uusi indikaatio, myeloidinen leukemia (AML/CML), ovat molemmat hematologisia pahanlaatuisia kasvaimia, joita ohjaa korkean proliferatiivin blast-populaatio luuytimessä. Koska lääkkeen antileukeminen mekanismi ei ole sukuun rajoittunut (se kohdistuu DNA-synteesimekanismiin, joka on yhteinen sekä lymfoidisille että myeloidiisille blasteille), laajalle levinnyt etikettien ulkopuolinen ja tutkimuksellinen käyttö AML:ssa on jo kertynyt kahden vuosikymmenen aikana. Tähän sisältyvät yksittäisen lääkkeen II vaiheen tutkimukset ja useat yhdistelmäregimentiit (kloofarabiini + sytarabiini, + idarubisiini, + busulfani-pohjainen siirtämisen valmisteluhoito). Tämä olemassa oleva AML-suuntainen tutkimusjoukko on mekanistinen ja kliininen silta, joka tukee TxGNN-ennustusta.
 
 ---
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimuksen numero | Vaihe | Tila | Osallistujien määrä | Tärkeimmät löydökset |
 |---------|------|------|------|---------|
-| [NCT01423175](https://clinicaltrials.gov/study/NCT01423175) | Phase 2 | Unknown | 60 | Randomized comparison of ClAraC (clofarabine + Ara-C) vs. FLAMSA conditioning in high-risk AML/advanced MDS prior to allogeneic SCT |
-| [NCT01794702](https://clinicaltrials.gov/study/NCT01794702) | Phase 1/2 | Completed | 65 | Decitabine followed by clofarabine + idarubicin + cytarabine (CIA) in acute leukemia; dose-finding and disease control |
-| [NCT00044889](https://clinicaltrials.gov/study/NCT00044889) | Phase 2 | Completed | 40 | Single-arm, open-label clofarabine monotherapy in adult refractory/relapsed AML |
-| [NCT00852709](https://clinicaltrials.gov/study/NCT00852709) | Phase 1 | Terminated | 35 | Dose-escalation of clofarabine followed by fractionated cyclophosphamide in relapsed/refractory pediatric acute leukemias |
-| [NCT00908167](https://clinicaltrials.gov/study/NCT00908167) | Phase 1 | Completed | 44 | Sorafenib sequenced with cytarabine and clofarabine in relapsed/refractory AML, APL, ALL and infantile leukemia |
-| [NCT00454480](https://clinicaltrials.gov/study/NCT00454480) | Phase 2/3 | Completed | 2000 | Large treatment-development program for older AML/high-risk MDS patients, incorporating clofarabine-containing arms |
-| [NCT00932412](https://clinicaltrials.gov/study/NCT00932412) | Phase 2 | Completed | 735 | Randomized CLARA (clofarabine/intermediate-dose cytarabine) vs. high-dose cytarabine as AML consolidation in younger patients |
-| [NCT02665065](https://clinicaltrials.gov/study/NCT02665065) | Phase 3 | Active, not recruiting | 153 | Iomab-B plus reduced-intensity conditioning (clofarabine-containing regimens common in this population) vs. conventional care in relapsed/refractory AML |
-| [NCT00373529](https://clinicaltrials.gov/study/NCT00373529) | Phase 2 | Completed | 116 | Single-agent clofarabine in previously untreated older AML patients unlikely to benefit from intensive induction |
-| [NCT01295307](https://clinicaltrials.gov/study/NCT01295307) | Phase 2 | Completed | 86 | Clofarabine-based salvage therapy in relapsed/refractory AML as a bridge to allogeneic HCT |
+| [NCT01423175](https://clinicaltrials.gov/study/NCT01423175) | Vaihe 2 | Tuntematon | 60 | Satunnaistettu vertailu ClAraC:sta (kloofarabiini + Ara-C) ja FLAMSA-valmisteluhoitoon korkean riskin AML/edistyneen MDS:n osalta ennen allogenista SCT:tä |
+| [NCT01794702](https://clinicaltrials.gov/study/NCT01794702) | Vaihe 1/2 | Valmistunut | 65 | Desitabiini jota seuraa kloofarabiini + idarubisiini + sytarabiini (CIA) akuutissa leukemiassa; annoksen määritys ja taudin hallinta |
+| [NCT00044889](https://clinicaltrials.gov/study/NCT00044889) | Vaihe 2 | Valmistunut | 40 | Yksisäikeinen, avoin kloofarabiinin monoterapia refraktaarissa/relapsoinutta aikuisten AML:ssa |
+| [NCT00852709](https://clinicaltrials.gov/study/NCT00852709) | Vaihe 1 | Lopetettu | 35 | Kloofarabiinin annostason korotus ja sen jälkeinen jaksotettu syklofosforamidi relapsoineet/refraktaarissa lastenpotilaiden akuutissa leukemiassa |
+| [NCT00908167](https://clinicaltrials.gov/study/NCT00908167) | Vaihe 1 | Valmistunut | 44 | Sorafenibi järjestettynä sytarabiinin ja kloofarabiinin kanssa relapsoineet/refraktaarissa AML:ssa, APL:ssa, ALL:ssa ja vauvainfantti-leukemiassa |
+| [NCT00454480](https://clinicaltrials.gov/study/NCT00454480) | Vaihe 2/3 | Valmistunut | 2000 | Suuri hoito-kehitysohjelma vanhusten AML/korkean riskin MDS-potilaille, mukaan lukien kloofarabiini-sisältävät varret |
+| [NCT00932412](https://clinicaltrials.gov/study/NCT00932412) | Vaihe 2 | Valmistunut | 735 | Satunnaistettu CLARA (kloofarabiini/välitason sytarabiini) vs. korkean annoksen sytarabiini AML:n konsolidaationa nuoremmilla potilailla |
+| [NCT02665065](https://clinicaltrials.gov/study/NCT02665065) | Vaihe 3 | Aktiivinen, ei rekrytointia | 153 | Iomab-B ja alennetun intensiteetin valmisteluhoito (kloofarabiini-sisältävät regimentiit yleiset tässä väestössä) vs. tavanomainen hoito relapsoineet/refraktaarissa AML:ssa |
+| [NCT00373529](https://clinicaltrials.gov/study/NCT00373529) | Vaihe 2 | Valmistunut | 116 | Yksittäisen lääkkeen kloofarabiini aiemmin hoitamattomilla vanhemmilla AML-potilailla, joille intensiivinen induktio on epätodennäköisesti hyödyllinen |
+| [NCT01295307](https://clinicaltrials.gov/study/NCT01295307) | Vaihe 2 | Valmistunut | 86 | Kloofarabiini-pohjainen pelastushoito relapsoineet/refraktaarissa AML:ssa sillaksi allogenisen HCT:n edelle |
 
 ---
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät löydökset |
 |------|-----|------|------|---------|
-| [31246522](https://pubmed.ncbi.nlm.nih.gov/31246522/) | 2019 | Phase III RCT | J Clin Oncol | AML08 multicenter randomized trial: clofarabine can replace anthracyclines/etoposide in remission induction for childhood AML |
-| [32187883](https://pubmed.ncbi.nlm.nih.gov/32187883/) | 2020 | Phase 2 Cohort | Cancer Medicine | Clofarabine + cytarabine + mitoxantrone (CLAM) in refractory/relapsed AML: high response rates, effective bridge to allo-HCT |
-| [36336258](https://pubmed.ncbi.nlm.nih.gov/36336258/) | 2023 | Cohort | Transplant Cell Ther | Clofarabine + busulfan myeloablative conditioning for allogeneic HCT in active myeloid malignancies |
-| [27621503](https://pubmed.ncbi.nlm.nih.gov/27621503/) | 2015 | Review/Cohort | Hospital Pharmacy | Practical review of clofarabine + cytarabine regimen preparation and administration for AML |
-| [31281098](https://pubmed.ncbi.nlm.nih.gov/31281098/) | 2019 | Review | Lancet Oncology | Summary of clofarabine and cytarabine combination data in AML |
-| [25457773](https://pubmed.ncbi.nlm.nih.gov/25457773/) | 2015 | Review | Crit Rev Oncol Hematol | Role of clofarabine in adult AML across monotherapy and combination strategies |
-| [22957815](https://pubmed.ncbi.nlm.nih.gov/22957815/) | 2013 | Review | Leukemia & Lymphoma | Clofarabine's mechanism (ribonucleotide reductase/DNA polymerase inhibition) and role in AML |
-| [23526416](https://pubmed.ncbi.nlm.nih.gov/23526416/) | 2013 | Review | Am J Hematol | AML risk-stratification and management update, contextualizing nucleoside-analog therapy |
-| [18433953](https://pubmed.ncbi.nlm.nih.gov/18433953/) | 2008 | Review | Blood Reviews | Conventional and novel treatment approaches for AML in the elderly |
-| [17852710](https://pubmed.ncbi.nlm.nih.gov/17852710/) | 2007 | Review | Leukemia & Lymphoma | "Clofarabine: past, present, and future" — mechanism and development history in leukemia |
+| [31246522](https://pubmed.ncbi.nlm.nih.gov/31246522/) | 2019 | III vaiheen RCT | J Clin Oncol | AML08 monikeskuksinen satunnaistettu tutkimus: kloofarabiini voi korvata antrasiykliinejä/etopisidia induktiohoitona lapsuuden AML:ssa |
+| [32187883](https://pubmed.ncbi.nlm.nih.gov/32187883/) | 2020 | II vaiheen kohortti | Cancer Medicine | Kloofarabiini + sytarabiini + mitoksantroni (CLAM) refraktaarissa/relapsoinutta AML:ssa: korkeat vastausprosentit, tehokas silta allo-HCT:hen |
+| [36336258](https://pubmed.ncbi.nlm.nih.gov/36336258/) | 2023 | Kohortti | Transplant Cell Ther | Kloofarabiini + busulfani myeloablatiivinen valmisteluhoito allogeniselle HCT:lle aktiivisissa myeloidi pahanlaatuisissa kasvaimissa |
+| [27621503](https://pubmed.ncbi.nlm.nih.gov/27621503/) | 2015 | Katsaus/kohortti | Hospital Pharmacy | Käytännöllinen katsaus kloofarabiini + sytarabiini-regimentin valmistukseen ja antamiseen AML:ssa |
+| [31281098](https://pubmed.ncbi.nlm.nih.gov/31281098/) | 2019 | Katsaus | Lancet Oncology | Yhteenveto kloofarabiini- ja sytarabiini-yhdistelmätiedoista AML:ssa |
+| [25457773](https://pubmed.ncbi.nlm.nih.gov/25457773/) | 2015 | Katsaus | Crit Rev Oncol Hematol | Kloofarabiinin rooli aikuisten AML:ssa monoterapiana ja yhdistelmästrategioissa |
+| [22957815](https://pubmed.ncbi.nlm.nih.gov/22957815/) | 2013 | Katsaus | Leukemia & Lymphoma | Kloofarabiinin mekanismi (ribonukleotidiredduktaasin/DNA-polymeraasi-inhibitio) ja rooli AML:ssa |
+| [23526416](https://pubmed.ncbi.nlm.nih.gov/23526416/) | 2013 | Katsaus | Am J Hematol | AML-riskikerronta ja hoitopäivitys, joka kontekstualisoi nukleosidianalogin hoitoa |
+| [18433953](https://pubmed.ncbi.nlm.nih.gov/18433953/) | 2008 | Katsaus | Blood Reviews | Perinteiset ja uudet hoitomuodot AML:lle vanhemmilla ihmisillä |
+| [17852710](https://pubmed.ncbi.nlm.nih.gov/17852710/) | 2007 | Katsaus | Leukemia & Lymphoma | "Clofarabine: past, present, and future" — mekanismi ja kehityshistoria leukemian hoidossa |
 
 ---
 
-## Finland Market Information
+## Suomen markkinoiden tiedot
 
-Clofarabine is currently **not marketed in Finland** (0 marketing authorizations on file). No product listings are available to summarize.
+Kloofarabiinia ei ole tällä hetkellä markkinoilla Suomessa (0 myyntilupaa tiedostossa). Tuoteluetteloita ei ole saatavilla yhteenvedoksi.
 
 ---
 
-## Cytotoxicity
+## Sytotoksisus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (purine nucleoside analog / antimetabolite) |
-| Myelosuppression Risk | High — nucleoside analogs that inhibit DNA synthesis are expected to cause profound myelosuppression (neutropenia, thrombocytopenia, anemia); drug-specific incidence figures are pending package-insert confirmation |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | CBC with differential, liver and renal function, electrolytes, signs of infection |
-| Handling Protection | Must follow institutional cytotoxic drug handling and disposal regulations |
+| Sytotoksisuden luokitus | Perinteinen sytotoksinen (puriininukleosidianalogia / antimetabollitti) |
+| Luuydintukahdutuksen riski | Korkea — nukleosidianalogeista, jotka estävät DNA-synteesiä, odotetaan syvää luuydintukahdutusta (neutropenia, trombosytopenia, anemia). Lääke-spesifiset esiintymisluvut odottavat pakkausesitteen vahvistusta |
+| Pahoinvointiriski-luokitus | Katso pakkausesitteen varoituksista ja varotoimista |
+| Seurannan kohteet | Veren kokonaislaskenta erottelulla, maksan ja munuaisten toiminta, elektrolyytit, infektioiden merkit |
+| Käsittelysuojaus | Tulee noudattaa laitoksen sytotoksisten lääkkeiden käsittely- ja hävittämissäännöksiä |
 
 ---
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-interaction data are currently unavailable — TFDA package insert retrieval is a blocking data gap for this candidate.)
+Katso turvallisuustiedoista pakkausesitteestä. (Keskeiset varoitukset, vasta-aiheet ja lääkkeiden välisen vuorovaikutuksen tiedot eivät ole tällä hetkellä saatavilla — TFDA:n pakkausesitteen hakeminen on este-puutos tälle ehdokkaalle.)
 
 ---
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Proceed with Guardrails**
+**Päätös: Jatka varauksella**
 
-**Rationale:**
-Clofarabine's mechanism of action against high-proliferation blast cells, combined with a substantial body of Phase I–III clinical evidence in AML (including a randomized Phase III pediatric trial and a large randomized Phase II consolidation study), supports an L2 evidence level for the myeloid leukemia indication. However, the drug is not currently marketed in Finland and core safety documentation is missing.
+**Perustelut:**
+Kloofarabiinin vaikutusmekanismi korkean proliferatiivin blast-soluja vastaan yhdessä huomattavan määrän vaiheen I–III kliinisiä näyttöä AML:ssa (mukaan lukien satunnaistettu III vaiheen lastenlääketieteellinen tutkimus ja suuri satunnaistettu II vaiheen konsolidointitutkimus) tukee L2-näyttötasoa myeloidisen leukemian indikaaatiolle. Lääkettä ei kuitenkaan ole tällä hetkellä markkinoilla Suomessa ja keskeinen turvallisuusasiakirjat puuttuvat.
 
-**To proceed, the following is needed:**
-- TFDA/EMA package insert with warnings, precautions, and contraindications (blocking gap — DG001)
-- Confirmed mechanism of action data from DrugBank (DG002)
-- Formal drug-drug interaction (DDI) review, currently unresolved (query status: not found)
-- Route-of-administration compatibility assessment between required IV administration and any future local formulation
-- Regulatory pathway evaluation given the current "not marketed" status in Finland
+**Jatkaaksemme, seuraavaa tarvitaan:**
+- TFDA/EMA:n pakkausesite varoituksilla, varotoimilla ja vasta-aiheilla (este-puutos — DG001)
+- Vahvistetut vaikutusmekanismin tiedot DrugBankista (este-puutos — DG002)
+- Muodollinen lääkkeiden välisen vuorovaikutuksen (DDI) katsaus, tällä hetkellä ratkaisematta (kyselyn tila: ei löytynyt)
+- Antoreitin yhteensopivuuden arviointi vaaditun IV-antamisen ja tulevien paikallisten valmisteiden välillä
+- Sääntelyreitin arviointi nykyisen "ei markkinoilla" -aseman vuoksi Suomessa
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

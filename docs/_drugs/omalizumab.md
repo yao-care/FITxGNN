@@ -29,87 +29,88 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Omalizumab: From Allergic Asthma to Bronchitis
+# Omalizumab: Allergiasta astmasta keuhkoputkentulehdukseen
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Omalizumab (anti-IgE monoclonal antibody) has established use in moderate-to-severe allergic asthma and chronic spontaneous urticaria, based on the trial and literature evidence contained in this pack (formal Finland licensing records show **0 authorizations** — a data gap, not a pharmacological fact, as the evidence itself notes). The TxGNN model predicts potential efficacy in **Bronchitis**, supported by **2 clinical trials** and **8 publications** — but evidence review shows these actually enrolled allergic-asthma / eosinophilic-bronchitis-with-asthma / CSU populations rather than classic bronchitis, pointing to a likely disease-label mismatch that warrants caution before acting on this specific prediction.
+Omalizumabilla (anti-IgE-monoklonaalinen vasta-aine) on vakiintunut käyttö kohtalaisen-vaikean allergiasta astman ja kroonisen spontaanin nettirakkouden hoidossa tämän pakkauksessa olevan tutkimus- ja kirjallisuusaineiston perusteella (Suomen viralliset hyväksynnät osoittavat **0 lupaa** — tiedon puuttuminen, ei farmakologinen tosiasia, sillä todisteet itse huomauttavat tästä). TxGNN-malli ennustaa mahdollista tehokkuutta **keuhkoputkentulehduksessa**, jota tukevat **2 kliinistä tutkimusta** ja **8 julkaisua** — mutta näyttöarviointi osoittaa, että nämä todellisuudessa rekrytoivat allergiasta astma / eosinofiilit keuhkoputkentulehdus-astma / nettirakkous -populaatioita klassisen keuhkoputkentulehduksen sijaan, mikä viittaa mahdolliseen sairauden diagnoosin virhepoikkeamaan, joka vaatii varovaisuutta ennen tämän erityisen ennusteen perusteella toimimista.
 
 ---
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohde | Sisältö |
 |------|------|
-| Original Indication | Moderate-to-severe allergic asthma / chronic spontaneous urticaria (per literature evidence in this pack; no Finland license record on file) |
-| Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.9992% |
-| Evidence Level | L3 |
-| Finland Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen indikaatio | Kohtalaisen-vaikea allergiasta astma / krooninen spontaani nettirakkous (kirjallisuusaineiston perusteella; Suomen luvasta tietoja ei saatavilla) |
+| Ennustettu uusi indikaatio | Keuhkoputkentulehdus |
+| TxGNN-ennustepisteet | 99.9992% |
+| Näyttötaso | L3 |
+| Suomen markkinatila | Ei markkinoilla (Ei markkinoilla) |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Odota |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, detailed mechanism of action data is not available from DrugBank/TFDA sources (Data Gap DG002). Based on information recurring throughout this pack's own trial and literature records, Omalizumab is a recombinant humanized monoclonal antibody that binds free IgE and blocks its interaction with the high-affinity IgE receptor (FcεRI) on mast cells, basophils, and dendritic cells, thereby reducing IgE-mediated allergic inflammation. Its efficacy in moderate-to-severe persistent allergic asthma and chronic spontaneous urticaria is repeatedly documented across trials cited in this pack (e.g., NCT00046748, n=484; NCT01202903, n=616), and mechanistically the drug is expected to be relevant to other IgE/type-2-inflammation-driven airway conditions.
+Tällä hetkellä yksityiskohtaista vaikutusmekanismin tietoa ei ole saatavilla DrugBank/TFDA-lähteistä (Tiedon puuttuminen DG002). Tämän pakkauksen omissa tutkimus- ja kirjallisuustietueissa toistuvien tietojen perusteella omalizumab on ihmisen humanisoidun monoklonaalisen vasta-aineen rekombinantti, joka sitoutuu vapaaseen IgE:hen ja estää sen vuorovaikutuksen korkea-affiniteetin IgE-reseptorin (FcεRI) kanssa mastosoluissa, basofiileissa ja dendriittisoluissa, mikä vähentää IgE-välitteistä allergiasta tulehdusta. Sen tehokkuus kohtalaisen-vaikeassa jatkuvassa allergiasta astmassa ja kroonisessa spontaanissa nettirakkoudessa on dokumentoitu toistuvasti tämän pakkauksen lainaamissa tutkimuksissa (esim. NCT00046748, n=484; NCT01202903, n=616), ja mekanistisesti lääkkeen odotetaan olevan relevantti muihin IgE/tyypin-2-tulehduksen aiheuttamiin ilmatieinfektioihin.
 
-The link to "Bronchitis" specifically is weaker than the TxGNN score (99.9992%) suggests. Both supporting trials are, on closer inspection, studies of adjacent but distinct populations: NCT02477332 is a Phase 2b dose-finding trial of QGE031 (a related anti-IgE biologic, not omalizumab) in Chronic Spontaneous Urticaria, not bronchitis; NCT02049294 is a small (n=11) steroid-sparing trial in patients with **asthma and eosinophilic bronchitis**, not classic infectious/chronic bronchitis. The pack's own repurposing rationale flags this directly: the trial populations represent "類緣疾病外推" (extrapolation from a related disease), and the IgE-mediated mechanism has no established direct support for typical (non-eosinophilic, non-atopic) bronchitis. This is most plausibly a TxGNN ontology-adjacency artifact (bronchitis sharing embedding space with asthma/airway inflammation terms) rather than a validated new indication.
+Linkki "keuhkoputkentulehdukseen" erityisesti on heikompi kuin TxGNN-pisteet (99.9992%) viittaavat. Molemmat tukevat tutkimukset ovat lähemmässä tarkastelussa populaatioita, jotka ovat lähellä mutta erillisiä: NCT02477332 on vaiheen 2b annosselitystutkimus QGE031:stä (siihen liittyvä anti-IgE-biologinen, ei omalizumab) kroonisen spontaanin nettirakkouden suhteen, ei keuhkoputkentulehduksen; NCT02049294 on pieni (n=11) kortikosteroidiä säästävä tutkimus potilaissa **astma ja eosinofiilit keuhkoputkentulehdus**, ei klassisen tartunnan tai kroonisen keuhkoputkentulehduksen. Pakkauksen oma vanhuuden tarkoitus merkitsee tätä suoraan: tutkimuspopulaatiot edustavat "類緣疾病外推" (ekstrapolointi samankaltaisesta sairaudesta), ja IgE-välitteinen mekanismi ei ole vakiintuneesti tuettu tyypilliselle (ei-eosinofiilit, ei-atopinen) keuhkoputkentulehdukselle. Tämä on todennäköisimmin TxGNN ontologia-viereisyyden artefakti (keuhkoputkentulehdus jakaa upotuksen tilan astma/ilmateiden tulehduksen termien kanssa) eikä validoitu uusi indikaatio.
 
-Notably, rank 3 in this same evidence pack — "obstructive lung disease" (TxGNN score 99.97%, evidence level **L1**, decision stage **S3**, recommendation **Proceed with Guardrails**) — is a substantially stronger repurposing signal for the identical drug, backed by multiple completed Phase 3 RCTs (e.g., NCT00046748 n=484, NCT01202903 n=616) directly targeting allergic asthma, which is IgE's core validated indication. This may be a more actionable candidate than the rank-1 "Bronchitis" label reviewed here.
+Huomattavasti tämän saman näyttöpakkauksen 3. sijoitus — "obstruktiivinen keuhkosairaus" (TxGNN pisteet 99.97%, näyttötaso **L1**, päätösvaihe **S3**, suositus **Jatka varaustein**) — on huomattavasti vahvempi vanhuuden signaalin samalle lääkkeelle, tuettuna useilla valmiilla vaiheen 3 RCT-tutkimuksilla (esim. NCT00046748 n=484, NCT01202903 n=616) jotka kohdistavat suoraan allergiasta astmaa, joka on IgE:n ydinvalidoitu indikaatio. Tämä saattaa olla toiminnallisempi ehdokas kuin tässä tarkistettu 1. sijoituksen "keuhkoputkentulehdus" merkintä.
 
 ---
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen todisteet
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimuksen numero | Vaihe | Tila | Rekrytointi | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT02477332](https://clinicaltrials.gov/study/NCT02477332) | Phase 2 | Completed | 382 | Phase 2b dose-finding study of QGE031 (anti-IgE, related to omalizumab) as add-on therapy in Chronic Spontaneous Urticaria — not a bronchitis trial; included here as cross-disease extrapolation (Relevance Grade B). |
-| [NCT02049294](https://clinicaltrials.gov/study/NCT02049294) | Phase 2/3 | Completed | 11 | Double-blind, placebo-controlled trial testing whether add-on Omalizumab allows prednisone dose reduction in patients with asthma and eosinophilic bronchitis; very small sample, steroid-sparing endpoint rather than direct bronchitis efficacy (Relevance Grade C). |
+| [NCT02477332](https://clinicaltrials.gov/study/NCT02477332) | Vaihe 2 | Valmis | 382 | Vaiheen 2b annosselitystutkimus QGE031:stä (anti-IgE, omalizumabiin liittyvä) lisäterapiana kroonisen spontaanin nettirakkouden hoitoon — ei keuhkoputkentulehdustutkimus; sisällytetty tähän sairauksien välisenä ekstrapolointina (Relevanssusijoitus B). |
+| [NCT02049294](https://clinicaltrials.gov/study/NCT02049294) | Vaihe 2/3 | Valmis | 11 | Kaksoissokea, lumekontrolloitu tutkimus testattaessa, voiko lisäterapiana annettu omalizumab mahdollistaa prednisooniannoksen vähentämisen potilaissa, joilla on astma ja eosinofiilit keuhkoputkentulehdus; hyvin pieni näyte, kortikosteroideja säästävä päätepiste eikä suora keuhkoputkentulehduksen tehokkuus (Relevanssusijoitus C). |
 
 ---
 
-## Literature Evidence
+## Kirjallisuuden todisteet
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [21121874](https://pubmed.ncbi.nlm.nih.gov/21121874/) | 2011 | Safety study | Current medical research and opinion | Pooled safety analysis of omalizumab in children with IgE-mediated allergic asthma; not bronchitis-specific. |
-| [16222080](https://pubmed.ncbi.nlm.nih.gov/16222080/) | 2005 | Review | Clinical reviews in allergy & immunology | Review of omalizumab's approval and postapproval experience in moderate-to-severe persistent asthma; demonstrates decreased airway inflammation via IgE/FcεRI reduction. |
-| [31478531](https://pubmed.ncbi.nlm.nih.gov/31478531/) | 2019 | Case report | Journal of investigational allergology & clinical immunology | Rare case of plastic bronchitis following bronchial thermoplasty; tangential to omalizumab efficacy. |
-| [35369622](https://pubmed.ncbi.nlm.nih.gov/35369622/) | 2022 | pending | Postepy dermatologii i alergologii | Omalizumab in older patients with severe allergic asthma–COPD overlap; suggests possible benefit in the ACO phenotype. |
-| [30196731](https://pubmed.ncbi.nlm.nih.gov/30196731/) | 2018 | pending | Expert opinion on pharmacotherapy | Discusses treatment challenges in smoking-induced airway disease (chronic bronchitis, emphysema, ACO) among asthma patients, noting these patients are typically excluded from trials. |
-| [26466493](https://pubmed.ncbi.nlm.nih.gov/26466493/) | 2015 | pending | Masui (Japanese journal of anesthesiology) | Japanese perioperative management guideline for bronchial asthma/chronic bronchitis; lists omalizumab as an option per JGL2012 for severe allergic asthma. |
-| [21163396](https://pubmed.ncbi.nlm.nih.gov/21163396/) | 2010 | pending | Revue des maladies respiratoires | French expert review on definitions and management of adult asthma exacerbations; general context, not bronchitis-specific. |
-| [17663923](https://pubmed.ncbi.nlm.nih.gov/17663923/) | 2007 | pending | Allergologia et immunopathologia | General review of monoclonal antibodies in pediatrics, including omalizumab for allergic disease. |
+| [21121874](https://pubmed.ncbi.nlm.nih.gov/21121874/) | 2011 | Turvallisuustutkimus | Current medical research and opinion | Omalizumabbin turvallisuuden yhdistetty analyysi lapsilla, joilla on IgE-välitteinen allergiasta astma; ei keuhkoputkentulehdukseen spesifinen. |
+| [16222080](https://pubmed.ncbi.nlm.nih.gov/16222080/) | 2005 | Katsaus | Clinical reviews in allergy & immunology | Omalizumabbin hyväksynnän ja hyväksynnän jälkeisen kokemuksen katsaus kohtalaisen-vaikeassa jatkuvassa astmassa; osoittaa ilmateiden tulehduksen vähenemistä IgE/FcεRI-vähenemisen kautta. |
+| [31478531](https://pubmed.ncbi.nlm.nih.gov/31478531/) | 2019 | Tapauskertomus | Journal of investigational allergology & clinical immunology | Harvinainen plastisen keuhkoputkentulehduksen tapaus bronkiaalilämpökirurgian jälkeen; tangentiaalinen omalizumabbin tehokkuuteen. |
+| [35369622](https://pubmed.ncbi.nlm.nih.gov/35369622/) | 2022 | odottaa | Postepy dermatologii i alergologii | Omalizumab iäkkäillä potilailla, joilla on vakava allergiasta astma–COPD päällekkäisyys; ehdottaa mahdollista hyötyä ACO-fenotyypissä. |
+| [30196731](https://pubmed.ncbi.nlm.nih.gov/30196731/) | 2018 | odottaa | Expert opinion on pharmacotherapy | Keskustelee tutkimushaasteista tupakoinnin aiheuttamassa ilmatiesairaudessa (krooninen keuhkoputkentulehdus, emfyseema, ACO) astmapotilaissa, huomaten että nämä potilaat tyypillisesti jätetään tutkimusten ulkopuolelle. |
+| [26466493](https://pubmed.ncbi.nlm.nih.gov/26466493/) | 2015 | odottaa | Masui (Japanese journal of anesthesiology) | Japanilainen perioperatiivinen hoito-ohje keuhkoputkeen astmassa/krooninen keuhkoputkentulehdus; luettelee omalizumabbin vaihtoehdoksi JGL2012:n mukaan vakavassa allergiasta astmassa. |
+| [21163396](https://pubmed.ncbi.nlm.nih.gov/21163396/) | 2010 | odottaa | Revue des maladies respiratoires | Ranskalainen asiantuntija-arvio aikuisten astman ekskasaatioiden määritelmistä ja hoidosta; yleinen konteksti, ei keuhkoputkentulehdukseen spesifinen. |
+| [17663923](https://pubmed.ncbi.nlm.nih.gov/17663923/) | 2007 | odottaa | Allergologia et immunopathologia | Yleinen katsaus monoklonaalisten vasta-aineiden osalta pediatriassa, mukaan lukien omalizumab allergiasta sairaudesta. |
 
 ---
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Omalizumab currently has no marketing authorization on record in Finland (0 licenses; market status: Not marketed/Not marketed). No product, dosage form, or approved-indication data is available from this evidence pack.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+Omalizumabilla ei ole tällä hetkellä markkinointilupia Suomessa (0 lupaa; markkinatila: Ei markkinoilla/Ei markkinoilla). Mitään tuotetta, annosmuotoa tai hyväksytyn indikaation tietoja ei ole saatavilla tästä näyttöpaketista.
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuusnäkökohdat
 
-**Decision: Hold**
+Ks. pakkausselosteen turvallisuustietoja.
 
-**Rationale:**
-The rank-1 predicted indication ("Bronchitis") is not well supported by its own cited evidence — both trials actually studied allergic asthma/CSU or eosinophilic-bronchitis-with-asthma populations, with small samples and B/C relevance grades, consistent with a TxGNN disease-embedding adjacency artifact rather than a validated mechanistic link to classic bronchitis. Formal safety and Finland licensing data are also entirely absent (Blocking Data Gap DG001), so the candidate cannot pass an S1 safety screen even before efficacy is considered.
+---
 
-**To proceed, the following is needed:**
-- TFDA/Finland package insert (warnings, contraindications) — currently blocking (DG001)
-- Confirmed DrugBank mechanism of action data (DG002)
-- Disease-ontology clarification on whether "Bronchitis" here specifically means eosinophilic bronchitis (a recognized asthma-overlap phenotype) vs. classic infectious/chronic bronchitis
-- Dedicated trials or literature in a confirmed, non-atopic bronchitis population before advancing beyond Research Question stage
-- For comparison: this same evidence pack shows "obstructive lung disease" (rank 3, evidence level L1, "Proceed with Guardrails") as a substantially better-supported repurposing candidate for this drug and may warrant separate evaluation.
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Odota**
+
+**Perustelut:**
+Sijoituksen 1 ennustettu indikaatio ("keuhkoputkentulehdus") ei saa riittävää tukea omista lainatuista tiedoistaan — molemmat tutkimukset tutkivat todellisuudessa allergiasta astma/nettirakkous tai eosinofiilit-keuhkoputkentulehdus-astma -populaatioita klassisen keuhkoputkentulehduksen sijaan, joilla on pienet näytteet ja B/C relevanssisijat, yhdenmukainen TxGNN-sairauden upotuksen viereisyyden artefaktin kanssa eikä validoitu mekanistinen linkki klassiseen keuhkoputkentulehdukseen. Muodollista turvallisuus- ja Suomen lisensointitietoja puuttuvat myös kokonaan (Estävä tiedon puuttuminen DG001), joten ehdokas ei voi läpäistä S1-turvallisuusseulontaa edes ennen tehokkuuden harkintaa.
+
+**Jotta voisimme edetä, seuraava vaaditaan:**
+- TFDA/Suomen pakkausseloste (varoitukset, vasta-aiheet) — tällä hetkellä estävä (DG001)
+- Vahvistetut DrugBank-vaikutusmekanismin tiedot (DG002)
+- Sairauden ontologia -selkeytys siitä, tarkoittaako "keuhkoputkentulehdus" tässä erityisesti eosinofiilit keuhkoputkentulehdusta (tunnustettu astman päällekkäisyys-fenotyyppi) vs. klassisen tartunnan/kroonisen keuhkoputkentulehduksen
+- Omistautuneet tutkimukset tai kirjallisuus vahvistetulla, ei-atooppisella keuhkoputkentulehdus populaatiolla ennen kuin edetään tutkimuskysymyksen vaiheen yli
+- Vertailulle: tämä sama näyttöpakkaus osoittaa "obstruktiivinen keuhkosairaus" (sijoitus 3, näyttötaso L1, "Jatka varaustein") huomattavasti paremmin tuetuksi vanhuuden ehdokkaaksi tälle lääkkeelle ja saattaa vaatia erillisen arvioinnin.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -29,97 +29,96 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Lenalidomide: From Multiple Myeloma / MDS with del(5q) to Myeloid Leukemia
+# Lenalidomidi: Multippelista myeloomasta / MDS with del(5q) -taudista myeloidileukemiaan
 
-## One-Sentence Summary
+## Yksirivinen yhteenveto
 
-Lenalidomide is a thalidomide-derived immunomodulatory drug (IMiD), established in the treatment of multiple myeloma and transfusion-dependent myelodysplastic syndrome (MDS) with isolated del(5q).
-The TxGNN model predicts it may also be effective for **Myeloid Leukemia** (AML/higher-risk MDS spectrum),
-with **50 clinical trials** and **20 publications** currently retrieved in support of this direction, though evidence quality is mixed (many trials terminated or of unknown status).
+Lenalidomidi on thalidomidista johdettu immunomodulatoryinen lääke (IMiD), jonka käyttö on vakiintunutta multippelin myelooman ja transfuusio-riippuvaisen myelodysplastisen oireyhtymän (MDS with isolated del(5q)) hoidossa. TxGNN-malli ennustaa, että se voi olla tehokas myös **myeloidileukemiassa** (AML/korkeamman riskin MDS-spektri), ja sen puolesta on tällä hetkellä saatavilla **50 kliinistä tutkimusta** ja **20 julkaisua**, vaikka näyttöjen laatu on sekalaista (monet tutkimukset päättyneet tai tuntemattomassa tilassa).
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Multiple myeloma; MDS with del(5q) (based on well-established drug information — not captured in this evidence pack, see Data Gap DG002) |
-| Predicted New Indication | Myeloid Leukemia |
-| TxGNN Prediction Score | 99.49% (rank 5525) |
-| Evidence Level | L2 (1 completed Phase 2 RCT identified; no completed Phase 3 RCT) |
-| Taiwan Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohde | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Multippeli myelooma; MDS with del(5q) (perustuu vakiintuneen lääketiedon perusteella — ei sisälly tähän näyttöpakettiin, katso Data Gap DG002) |
+| Ennustettu uusi indikaatio | Myeloidileukemia |
+| TxGNN-ennustepisteet | 99.49% (sijaluku 5525) |
+| Näyttöjen taso | L2 (1 valmistunut Vaihe 2 -satunnaistettu tutkimus tunnistettu; ei valmiintunut Vaihe 3 -satunnaistettu tutkimus) |
+| Taiwanin markkinointi status | Ei markkinoitu (Not marketed) |
+| Lupien määrä | 0 |
+| Suositeltu päätös | Pidä |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on kohtuullinen?
 
-Currently, detailed mechanism of action data is not available in this evidence pack (flagged as Data Gap DG002, High severity). Based on well-established pharmacological knowledge, lenalidomide is a second-generation IMiD (immunomodulatory imide drug) derived from thalidomide. It acts via cereblon (CRBN)-mediated ubiquitination and degradation of the transcription factors IKZF1/IKZF3, producing direct cytotoxic/anti-proliferative effects on malignant clones as well as immune-stimulatory effects (enhanced T-cell and NK-cell activity). It is already established for multiple myeloma and for red-blood-cell-transfusion-dependent MDS associated with a del(5q) cytogenetic abnormality.
+Yksityiskohtaiset vaikutusmekanismin tiedot eivät tällä hetkellä ole saatavilla tässä näyttöpaketissa (merkitty Data Gap DG002, korkea vakavuus). Vakiintuneen farmakologisen tiedon perusteella lenalidomidi on toisessa sukupolvessa oleva IMiD (immunomodulatoryinen imidi-lääke), joka on johdettu thalidomidista. Se toimii cereblon (CRBN) -välitteisen transkripsio tekijöiden IKZF1/IKZF3 ubikitinaation ja hajoamisen kautta, mikä tuottaa sekä suoraa sytotoksista/anti-proliferatiivista vaikutusta pahanlaatuisiin klooneihin että immuunia vahvistavia vaikutuksia (parantuneet T-solujen ja NK-solujen aktiviteetti). Se on jo vakiintuneet multippelin myelooman ja punasolujen transfuusioon riippuvaisen MDS:n hoidossa, joka liittyy del(5q) -karyo-tyyppi poikkeavuuteen.
 
-MDS and AML exist on a biological continuum — MDS is a pre-leukemic clonal stem-cell disorder that frequently transforms into AML, and higher-risk MDS/CMML/AML are often studied together in the same trial programs. This is reflected in the evidence pack: the majority of the 50 retrieved trials and several review articles (e.g. PMID 37288607, PMID 24656536) explicitly discuss MDS, AML and CMML as a shared disease spectrum, frequently using lenalidomide in combination with hypomethylating agents (azacitidine) or conventional chemotherapy (cytarabine, idarubicin, mitoxantrone).
+MDS ja AML ovat biologisessa jatkumossa — MDS on pre-leukeminen klonaalinen kantasolujen häiriö, joka usein muuntuu AML:ksi, ja korkeamman riskin MDS/CMML/AML tutkitaan usein samoissa tutkimusohjelmissa. Tämä heijastuu näyttöpaketissa: suurin osa 50 haetusta tutkimuksesta ja useista katsausartikkeleista (esim. PMID 37288607, PMID 24656536) käsittelevät MDS:ää, AML:aa ja CMML:aa jaetuina tautispektrina, ja käyttävät usein lenalidomiidia yhdessä hypometylointiaineiden (asatsitidin) tai tavanomaisen kemoterapian (sytorabiini, idarubisini, mitoksantroni) kanssa.
 
-Mechanistically, lenalidomide's anti-clonal and immune-potentiating activity in del(5q) MDS plausibly extends to broader myeloid malignancies, particularly AML/MDS carrying chromosome 5 abnormalities or monosomy 5, which is the most consistent efficacy signal across the retrieved trials. However, results in non-del(5q) AML/MDS populations are more heterogeneous, with numerous Phase 1/2 studies terminated early (frequently for toxicity, slow accrual, or lack of efficacy rather than confirmed benefit), and no completed randomized Phase 3 trial confirms efficacy specifically for "myeloid leukemia" as a standalone indication.
+Mekanistisesti lenalidomiidin anti-klonaalinen ja immuunia vahvistava aktiivisuus del(5q) MDS:ssä voidaan perustellusti laajentaa laajemmille myeloidihäiriöille, erityisesti AML/MDS:lle, joilla on kromosomin 5 poikkeavuuksia tai monosomia 5, joka on yhtenäisin tehokkuussignaali kerätyissä tutkimuksissa. Tulokset ei-del(5q) AML/MDS-populaatioissa ovat kuitenkin heterogeenisempia, monissa Vaihe 1/2 -tutkimuksissa lopetettiin ennenaikaisesti (usein myrkyllisyyden, hitaan rekrytoinnin tai tehokkuuden puuttumisen vuoksi pikemminkin kuin vahvistetun hyödyn vuoksi), ja mikään valmistunut satunnaistettu Vaihe 3 -tutkimus ei vahvista tehokkuutta erityisesti "myeloidileukemia" itsenäisenä indikaationa.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimusnumero | Vaihe | Tila | Osallistujamäärä | Tärkeimmät tulokset |
 |---------|------|------|------|---------|
-| [NCT00843882](https://clinicaltrials.gov/study/NCT00843882) | Phase 3 | Active, not recruiting | 247 | Randomized trial of lenalidomide alone vs. + epoetin alfa for major erythroid response in low-/int-1-risk MDS with symptomatic anemia |
-| [NCT01301820](https://clinicaltrials.gov/study/NCT01301820) | Phase 2 | Completed | 120 | Randomized, multicenter maintenance therapy alternating lenalidomide and azacitidine cycles in elderly AML patients in first CR |
-| [NCT00065156](https://clinicaltrials.gov/study/NCT00065156) | Phase 2 | Completed | 148 | Pivotal single-arm trial of lenalidomide monotherapy in RBC-transfusion-dependent del(5q) MDS (basis of original regulatory approval) |
-| [NCT01522976](https://clinicaltrials.gov/study/NCT01522976) | Phase 2/3 | Active, not recruiting | 282 | Randomized trial: azacitidine ± lenalidomide vs. azacitidine + vorinostat in higher-risk MDS/CMML |
-| [NCT02472691](https://clinicaltrials.gov/study/NCT02472691) | Phase 2 | Completed | 50 | Lenalidomide added to azacitidine + donor lymphocyte infusion for MDS/CMML/AML relapse after allo-SCT |
-| [NCT02126553](https://clinicaltrials.gov/study/NCT02126553) | Phase 2 | Completed | 29 | Lenalidomide maintenance in high-risk AML patients in remission |
-| [NCT00546897](https://clinicaltrials.gov/study/NCT00546897) | Phase 2 | Completed | 48 | Lenalidomide safety/efficacy in untreated AML (≥60y) without 5q abnormalities |
-| [NCT02538965](https://clinicaltrials.gov/study/NCT02538965) | Phase 2 | Completed | 17 | Lenalidomide activity/safety/PK in pediatric relapsed/refractory AML |
-| [NCT02921802](https://clinicaltrials.gov/study/NCT02921802) | N/A (post-marketing surveillance) | Completed | 4,626 | Large all-case surveillance of Revlimid 5mg capsules real-world safety/efficacy |
-| [NCT01016600](https://clinicaltrials.gov/study/NCT01016600) | Phase 1/2 | Completed | 31 | Azacitidine + lenalidomide toxicity and remission rate in AML |
+| [NCT00843882](https://clinicaltrials.gov/study/NCT00843882) | Vaihe 3 | Aktiivinen, ei rekrytoida | 247 | Satunnaistettu tutkimus lenalidomidista yksin vs. + epoetin alfa suuressa punasolujen vasteessa matalan-/väli-1-riskin MDS:ssä oireellisen anemia kanssa |
+| [NCT01301820](https://clinicaltrials.gov/study/NCT01301820) | Vaihe 2 | Valmistunut | 120 | Satunnaistettu, monikeeskuksinen ylläpitohoito vuorotellen lenalidomidi ja asatsitidin syklit iäkkäissä AML-potilaissa ensimmäisen täydellisen remission aikana |
+| [NCT00065156](https://clinicaltrials.gov/study/NCT00065156) | Vaihe 2 | Valmistunut | 148 | Keskeinen yhden haaran tutkimus lenalidomidi monoterapiasta punasolujen transfuusioon riippuvaisessa del(5q) MDS:ssä (alkuperäisen sääntelyvaatimuksen hyväksynnän perusta) |
+| [NCT01522976](https://clinicaltrials.gov/study/NCT01522976) | Vaihe 2/3 | Aktiivinen, ei rekrytoida | 282 | Satunnaistettu tutkimus: asatsitidin ± lenalidomidi vs. asatsitidin + vorinostat korkeamman riskin MDS/CMML:ssä |
+| [NCT02472691](https://clinicaltrials.gov/study/NCT02472691) | Vaihe 2 | Valmistunut | 50 | Lenalidomidi lisätty asatsitidiiniin + luovuttajan lymfosyytien infuusioon MDS/CMML/AML uusiutumiseen allo-siirron jälkeen |
+| [NCT02126553](https://clinicaltrials.gov/study/NCT02126553) | Vaihe 2 | Valmistunut | 29 | Lenalidomidi ylläpitohoito korkean riskin AML-potilaissa remissiossa |
+| [NCT00546897](https://clinicaltrials.gov/study/NCT00546897) | Vaihe 2 | Valmistunut | 48 | Lenalidomidi turvallisuus/tehokkuus hoitamattomassa AML:ssä (≥60v) ilman 5q-poikkeavuuksia |
+| [NCT02538965](https://clinicaltrials.gov/study/NCT02538965) | Vaihe 2 | Valmistunut | 17 | Lenalidomidi aktiivisuus/turvallisuus/PK pediatrisessa uusiutuneessa/hoitoresistentissä AML:ssä |
+| [NCT02921802](https://clinicaltrials.gov/study/NCT02921802) | N/A (jälkimarkkinoinnin valvonta) | Valmistunut | 4,626 | Laaja kaikkien tapausten valvonta Revlimid 5 mg -kapseleista todellisen maailman turvallisuus/tehokkuus |
+| [NCT01016600](https://clinicaltrials.gov/study/NCT01016600) | Vaihe 1/2 | Valmistunut | 31 | Asatsitidin + lenalidomidi myrkyllisyys ja remission nopeus AML:ssä |
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät tulokset |
 |------|-----|------|------|---------|
-| [30653424](https://pubmed.ncbi.nlm.nih.gov/30653424/) | 2019 | Prospective clinical trial (JCO) | J Clin Oncol | Combination lenalidomide + azacitidine as salvage therapy for AML/MDS relapse after allo-SCT |
-| [31221030](https://pubmed.ncbi.nlm.nih.gov/31221030/) | 2019 | Systematic review & meta-analysis | Hematology (Amsterdam) | Efficacy and adverse events of azacitidine + lenalidomide across AML, MDS and CMML |
-| [37259567](https://pubmed.ncbi.nlm.nih.gov/37259567/) | 2023 | Prospective clinical trial (Azalena) | Haematologica | Azacitidine + lenalidomide + DLI for relapsed MDS/AML/CMML after allogeneic transplant |
-| [37288607](https://pubmed.ncbi.nlm.nih.gov/37288607/) | 2023 | Review | American Journal of Hematology | 2023 update on MDS diagnosis, risk-stratification and management |
-| [37874917](https://pubmed.ncbi.nlm.nih.gov/37874917/) | 2023 | Review | Blood | Clinical decision-making and treatment framework for MDS |
-| [24656536](https://pubmed.ncbi.nlm.nih.gov/24656536/) | 2014 | Review | Lancet | Overview of MDS pathophysiology, clinical course and progression to AML |
-| [23644421](https://pubmed.ncbi.nlm.nih.gov/23644421/) | 2013 | Review/Editorial | Leukemia | Rationale for combining azacitidine and lenalidomide in MDS/AML |
-| [23316859](https://pubmed.ncbi.nlm.nih.gov/23316859/) | 2013 | Review | Expert Opin Investig Drugs | Lenalidomide as a novel treatment approach in AML |
-| [34955443](https://pubmed.ncbi.nlm.nih.gov/34955443/) | 2022 | Phase Ib clinical trial | J Geriatr Oncol | Safety of lenalidomide as post-remission therapy in older AML patients |
-| [39881283](https://pubmed.ncbi.nlm.nih.gov/39881283/) | 2025 | Mechanism study | Cell Mol Biol Lett | KDM5C enhances AML sensitivity to lenalidomide by stabilizing cereblon (CRBN) |
+| [30653424](https://pubmed.ncbi.nlm.nih.gov/30653424/) | 2019 | Prospektiivinen kliininen tutkimus (JCO) | J Clin Oncol | Lenalidomidi + asatsitidin yhdistelmä pelastushoitona AML/MDS uusiutumiseen allo-siirron jälkeen |
+| [31221030](https://pubmed.ncbi.nlm.nih.gov/31221030/) | 2019 | Järjestelmällinen katsaus & meta-analyysi | Hematology (Amsterdam) | Asatsitidin + lenalidomidi tehokkuus ja haittavaikutukset AML:ssä, MDS:ssä ja CMML:ssä |
+| [37259567](https://pubmed.ncbi.nlm.nih.gov/37259567/) | 2023 | Prospektiivinen kliininen tutkimus (Azalena) | Haematologica | Asatsitidin + lenalidomidi + DLI uusiutuneeseen MDS/AML/CMML allogeneettisen siirron jälkeen |
+| [37288607](https://pubmed.ncbi.nlm.nih.gov/37288607/) | 2023 | Katsaus | American Journal of Hematology | 2023 päivitys MDS:n diagnoosiin, riskistratifikaatioon ja hoitoon |
+| [37874917](https://pubmed.ncbi.nlm.nih.gov/37874917/) | 2023 | Katsaus | Blood | Kliinisen päätöksenteon ja hoitosuunnitelman kehys MDS:ssä |
+| [24656536](https://pubmed.ncbi.nlm.nih.gov/24656536/) | 2014 | Katsaus | Lancet | MDS:n patofysiologian, kliinisen kulun ja etenemisen yleiskatsaus AML:ksi |
+| [23644421](https://pubmed.ncbi.nlm.nih.gov/23644421/) | 2013 | Katsaus/Pääkirjoitus | Leukemia | Perustelut asatsitidiinin ja lenalidomiidin yhdistämiselle MDS/AML:ssä |
+| [23316859](https://pubmed.ncbi.nlm.nih.gov/23316859/) | 2013 | Katsaus | Expert Opin Investig Drugs | Lenalidomidi uutena hoitolähestymistapana AML:ssä |
+| [34955443](https://pubmed.ncbi.nlm.nih.gov/34955443/) | 2022 | Vaihe Ib -kliininen tutkimus | J Geriatr Oncol | Lenalidomiidin turvallisuus jälkiremission hoitona vanhemmissa AML-potilaissa |
+| [39881283](https://pubmed.ncbi.nlm.nih.gov/39881283/) | 2025 | Mekanismin tutkimus | Cell Mol Biol Lett | KDM5C lisää AML:n herkkyyttä lenalidomidille stabiloimalla cereblonia (CRBN) |
 
-## Taiwan Market Information
+## Taiwanin markkinatieto
 
-Lenalidomide currently has no marketing authorization record in this evidence pack — market status is "Not marketed" (not marketed) with 0 licenses on file. No authorization number, product name, dosage form, or approved indication text is available for tabulation.
+Lenalidomidilla ei tällä hetkellä ole markkinointiluvan merkintää tässä näyttöpaketissa — markkinointi status on "Ei markkinoitu" (Not marketed), ja rekisterissä ei ole lupaa. Lupanumero, tuotteiden nimi, annostemuoto tai hyväksytyn indikaation teksti eivät ole saatavilla taulukkoon.
 
-## Cytotoxicity
+## Sytotoksisuus
 
-Lenalidomide's original approved indications (multiple myeloma; MDS/leukemia-spectrum disorders) meet the antineoplastic criteria, so this section applies. Note: no DrugBank toxicity data or TFDA label data is present in this evidence pack (Data Gap DG001, Blocking; DG002, High) — the following reflects well-established pharmacological knowledge, not pack-sourced data, and must be confirmed against the actual package insert once obtained.
+Lenalidomiidin alkuperäiset hyväksytyt indikaatiot (multippeli myelooma; MDS/leukemia-spektrin häiriöt) täyttävät antineoplastisen kriteerin, joten tämä osio pätee. Huomio: DrugBank:n myrkyllisyystietoja tai TFDA:n pakkausselosteita ei ole saatavilla tässä näyttöpaketissa (Data Gap DG001, estävä; DG002, korkea) — seuraavat tiedot heijastavat vakiintunutta farmakologista tietoa, ei pakettiperäisiä tietoja, ja ne on vahvistettava vastaan todellista pakkausselostetta, kun se on saatu.
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted/immunomodulatory therapy (IMiD; cereblon-mediated — not a conventional cytotoxic chemotherapy agent) |
-| Myelosuppression Risk | High — neutropenia and thrombocytopenia are well documented dose-limiting toxicities requiring dose modification |
-| Emetogenicity Classification | Low (typical of IMiDs, in contrast to conventional cytotoxic chemotherapy) |
-| Monitoring Items | CBC with differential (weekly during early cycles), renal function (dose adjustment required — renally cleared), VTE risk assessment, pregnancy testing given teratogenicity |
-| Handling Protection | Yes — lenalidomide is teratogenic (thalidomide analog); handling and dispensing require controlled-distribution/REMS-equivalent safeguards in addition to standard cytotoxic handling precautions |
+| Kohde | Sisältö |
+|------|---------|
+| Sytotoksisuuden luokitus | Kohdistettu/immunomodulatoryinen hoito (IMiD; cereblon-välitteinen — ei tavanomainen sytostaattinen kemoterapialääke) |
+| Ydinaineiston tukahduttamisriski | Korkea — neutropenia ja trombosytopenia ovat vakiintuneet annoksen rajoittavat myrkyllisyydet, jotka vaativat annoksen muuttamista |
+| Pahoinvointisuuden luokitus | Matala (tyypillistä IMiD:lle, vastoin tavanomaista sytostaattista kemoterapiaa) |
+| Valvonnan kohdat | Täydellinen verenkuva differentiaalin kanssa (viikoittain varhaisten syklien aikana), munuaisten toiminta (annoksen säätö vaaditaan — munuaisissa erittyvä), VTE-riskin arviointi, raskauden testaus teratogenisuuden vuoksi |
+| Käsittelyn suojaus | Kyllä — lenalidomidi on teratogeeninen (thalidomidi-analogi); käsittely ja toimitus vaativat valvotun jakelun/REMS-vastaavia turvatoimia tavanomaisten sytostaattisen käsittelyn varotoimien lisäksi |
 
-## Safety Considerations
+## Turvallisuuden huomioitavat seikat
 
-Please refer to the package insert for safety information. No key warnings, contraindications, or drug-interaction data are available in this evidence pack — the TFDA package insert query (DG001) is flagged as a **Blocking** data gap that must be resolved before a safety initial evaluation (S1) can proceed.
+Katso pakkausselostetta turvallisuustiedoista. Tärkeimmät varoitukset, vasta-aiheet tai lääkkeen vuorovaikutustiedot eivät ole saatavilla tässä näyttöpaketissa — TFDA-pakkausseloste kysely (DG001) on merkitty **estäväksi** tietoaukoksi, joka on ratkaistava ennen turvallisuuden alkuarvioinnin (S1) suorittamista.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidä**
 
-**Rationale:**
-While TxGNN assigns a high prediction score (99.49%) and a substantial volume of supporting trials (50) and literature (20) exists, the trial evidence is heterogeneous — many studies are Phase 1, terminated, or of unknown status, and no completed randomized Phase 3 trial confirms efficacy specifically for myeloid leukemia. Critically, the safety data gap (DG001, Blocking) prevents completion of even the initial safety evaluation (S1), so a Go or Guardrails decision cannot be responsibly made at this time.
+**Perustelut:**
+Vaikka TxGNN antaa korkean ennustepisteet (99.49%) ja huomattava määrä tutkimusta (50) ja kirjallisuutta (20) on saatavilla, tutkimusnäyttö on heterogeeninen — monet tutkimukset ovat Vaihe 1, lopetettu tai tuntemattomasta tilasta, eikä mikään valmistunut satunnaistettu Vaihe 3 -tutkimus vahvista tehokkuutta erityisesti myeloidileukemiaa varten. Kriittiset turvallisuuden tietoaukko (DG001, estävä) estää jopa alkuarvioinnin (S1) suorittamisen, joten vastuullisesti Go tai Guardrails -päätöstä ei voida tehdä tällä hetkellä.
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings, contraindications) — resolve Blocking gap DG001
-- DrugBank/verified mechanism-of-action data — resolve High-severity gap DG002
-- Confirmation of original approved indications and licensing status (original_indications field is currently empty)
-- Manual review of trial relevance grading (most trials/literature are still marked "pending" relevance in the evidence pack) to distinguish del(5q)-specific signal from general AML/MDS use
-- Drug interaction (DDI) data, currently unretrieved ("not_found")
+**Jatkamista varten tarvitaan seuraavaa:**
+- TFDA:n pakkausseloste (varoitukset, vasta-aiheet) — ratkaise estävä tietoaukko DG001
+- Varmennettu vaikutusmekanismin tieto — ratkaise korkea-prioriteettinen tietoaukko DG002
+- Alkuperäisten hyväksyttyjen indikaatioiden ja lupien tilan vahvistaminen (original_indications -kenttä on tällä hetkellä tyhjä)
+- Käsitteinen tutkimuksen relevanssiluokittelun tarkistaminen (suurin osa tutkimuksista/kirjallisuudesta on edelleen merkitty "vireillä" relevanssiluokittelulla näyttöpaketissa) del(5q)-spesifisen signaalin erottamiseksi yleisestä AML/MDS-käytöstä
+- Lääkkeen vuorovaikutus (DDI) tieto, tällä hetkellä ei hankittu ("not_found")
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

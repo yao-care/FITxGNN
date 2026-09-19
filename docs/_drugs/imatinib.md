@@ -29,96 +29,75 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-Using the report as directly instructed by the user's template (this is a document-formatting task per explicit user-supplied spec, not a coding/build task — no other skill fits better).
+# Imatinibi: Kroonisesta myelooista leukemiasta sydämen fibroosarkoomain
 
-Two structural notes before the report: (1) per template, "Predicted New Indication" must be taken from `predicted_indications[0]`, which here is **heart fibrosarcoma** (L4, Hold) — not the much better-evidenced rank-2 candidate (fibroblastic neoplasm/DFSP, L2). I flag that discrepancy inline since it matters for interpretation. (2) `original_indications` and `taiwan_regulatory.licenses` are both empty in this pack, so the "Original Indication" cell uses imatinib's well-established public-record indications (CML/GIST), explicitly labeled as such rather than sourced from this evidence pack.
+## Yhden lauseen yhteenveto
 
----
+> Imatinibi on tyrosiinikinaasin estäjä, joka on alun perin kehitetty kroonisen myeloisen leukemian (CML) ja gastrointestinaalisten stroomeaalisten tumorien (GIST) hoitoon.
+> TxGNN-mallin huipulla oleva ennuste tälle lääkkeelle on **sydämen fibroosarkooma**,
+> mutta tätä spesifistä kandidaattia tukee tällä hetkellä vain **1 julkaisu** ja **ei kliinisiä tutkimuksia** — näyttö perustuu oleellisesti vain malliin.
 
-# Imatinib: From Chronic Myeloid Leukaemia to Heart Fibrosarcoma
+## Nopea yleiskatsaus
 
-## One-Sentence Summary
-
-> Imatinib is a tyrosine kinase inhibitor originally developed for chronic myeloid leukaemia (CML) and gastrointestinal stromal tumours (GIST).
-> The TxGNN model's top-ranked prediction for this drug is **Heart Fibrosarcoma**,
-> but this specific candidate is currently supported by only **1 publication** and **no clinical trials** — evidence is essentially model-only.
-
----
-
-## Quick Overview
-
-| Item | Content |
+| Kohde | Sisältö |
 |------|------|
-| Original Indication | Chronic myeloid leukaemia (CML) / GIST *(general knowledge — not sourced from this evidence pack; no Fimea label text available)* |
-| Predicted New Indication | Heart Fibrosarcoma |
-| TxGNN Prediction Score | 99.94% (rank 952) |
-| Evidence Level | L4 |
-| Finland Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen käyttöaihe | Krooninen myeloinen leukemia (CML) / GIST *(yleinen tieto — ei peräisin tästä näyttöpaketista; Fimean pakkausesite-tekstiä ei ole saatavilla)* |
+| Ennustettu uusi käyttöaihe | Sydämen fibroosarkooma |
+| TxGNN-ennustuspistemäärä | 99.94% (rank 952) |
+| Näyttötaso | L4 |
+| Suomen markkinatilanne | Ei markkinoilla |
+| Hyväksyntöjen määrä | 0 |
+| Suositeltu päätös | Hold |
 
----
+## Miksi tämä ennuste on kohtuullinen?
 
-## Why is This Prediction Reasonable?
+Yksityiskohtaista vaikutusmekanismin tietoa ei ole saatavilla tässä näyttöpaketissa (vaikutusmekanismi merkitty tietovajeena). Yleisen tiedon perusteella imatinibi on pieni-molekyylinen tyrosiinikinaasin estäjä, joka kohdistuu BCR-ABL:lle, KIT:ille ja PDGFR/PDGFRB:lle — mekanismi, joka on hyvin vakiintunut CML:n ja GIST:n yhteydessä, ja mekanistisesti se voi laajentua PDGFRB-fuusion ohjaamiin tumoreihin.
 
-Detailed mechanism-of-action data is not available in this evidence pack (MOA marked as a data gap). Based on general knowledge, imatinib is a small-molecule tyrosine kinase inhibitor targeting BCR-ABL, KIT, and PDGFR/PDGFRB — a mechanism well-proven in CML and GIST, and mechanistically it may extend to tumours driven by PDGFRB fusion signalling.
+Kuitenkin spesifinen yhteys **sydämen fibroosarkoomain** on heikko. Näyttöpaketin omien perusteluiden mukaan: *"PDGFRB-fuusion ohjaamaan fibroosarkooma-perheeseen on teoreettinen laajennus, mutta primaarinen sydämen fibroosarkooma on äärimmäisen harvinainen, eikä eliminiin-spesifinen mekanistinen näyttö tue tätä yhteyttä."* Tumorin genotyypin määritystiedot eivät vahvista PDGFRB:n osallisuutta tässä spesifissä, äärimmäisen harvinaisessa sydämen tumorin alaryhmässä.
 
-However, the specific link to **heart fibrosarcoma** is weak. Per the evidence pack's own rationale: *"There is a theoretical extension to the PDGFRB-fusion-driven fibrosarcoma family, but primary cardiac fibrosarcoma is extremely rare, and no organ-specific mechanistic data support this link."* No tumour-genotyping data confirms PDGFRB involvement in this specific, ultra-rare cardiac tumour subtype.
+Huomionarvoista on, että muut TxGNN:n ennustamat ehdokkaat samassa fibroosarkooma/fibroblastinen-neoplaasia-perheessä osoittavat huomattavasti vahvempia näyttöä — erityisesti "fibroblastinen neoplaasia" (rank 2, vastaa suurelta osin dermatofibrosarcoma protuberansia), jossa COL1A1-PDGFB-fuusio on oppikirjaesimerkki imatinibin kohteesta L2-näytöllä ja "Proceed with Guardrails" -suosituksella. Tämä antaa epäsuoraa, luokka-tasolla uskottavuutta PDGFR-ohjaamalle mekanismille, mutta se ei korvaa suoraa näyttöä sydämen fibroosarkooman tapauksessa.
 
-Notably, other TxGNN-predicted candidates in the same fibrosarcoma/fibroblastic-neoplasm family show substantially stronger evidence — in particular "fibroblastic neoplasm" (rank 2, corresponding largely to dermatofibrosarcoma protuberans), where the COL1A1-PDGFB fusion is a textbook imatinib target with L2 evidence and a "Proceed with Guardrails" recommendation. This lends indirect, class-level plausibility to the PDGFR-driven mechanism, but does not substitute for direct evidence in heart fibrosarcoma specifically.
+## Kliinisten tutkimusten näyttö
 
----
+Tällä hetkellä ei ole rekisteröity vastaavia kliinisiä tutkimuksia.
 
-## Clinical Trial Evidence
+## Kirjallisuuden näyttö
 
-Currently no related clinical trials registered.
+| PMID | Vuosi | Tyyppi | Julkaisu | Keskeiset havainnot |
+|------|------|------|------|---------|
+| [18623899](https://pubmed.ncbi.nlm.nih.gov/18623899/) | 2008 | Kommentti | Prescrire international | Arvioi imatinibin asteittain laajenevaa käyttöaiheita CML:n ja GIST:n ulkopuolella (esim. Ph+ ALL); päättelee näyttöä uusille käyttöaiheille olevan "ei vahva". Ei käsittele sydämen fibroosarkooomaa erityisesti. |
 
----
+## Suomen markkinatiedot
 
-## Literature Evidence
+Imatinibi:lla ei ole tällä hetkellä myyntilupien tietoja Suomessa tässä tietojoukossa (markkinatilanne: ei markkinoilla; 0 hyväksyntää).
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [18623899](https://pubmed.ncbi.nlm.nih.gov/18623899/) | 2008 | Commentary | Prescrire international | Reviews imatinib's gradually expanding indications beyond CML/GIST (e.g., Ph+ ALL); concludes evidence for newer indications is "not robust." Does not address cardiac fibrosarcoma specifically. |
+## Sytotoksisuus
 
----
-
-## Finland Market Information
-
-Imatinib currently has no marketing authorization records in Finland in this dataset (market status: not marketed; 0 authorizations).
-
----
-
-## Cytotoxicity
-
-| Item | Content |
+| Kohde | Sisältö |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (tyrosine kinase inhibitor; not a conventional cytotoxic agent) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| Sytotoksisuuden luokittelu | Kohdistettu lääkitys (tyrosiinikinaasin estäjä; ei perinteinen sytotoksinen aine) |
+| Boniytimen tukahduttamisen riski | Katso pakkausesite varoitukset ja varotoimet |
+| Emetogeniteetin luokittelu | Katso pakkausesite varoitukset ja varotoimet |
+| Seurantakohdat | Katso pakkausesite varoitukset ja varotoimet |
+| Käsittelysuojaus | Katso pakkausesite varoitukset ja varotoimet |
 
----
+## Turvallisuusnäkökohdat
 
-## Safety Considerations
+Katso turvallisuustiedot pakkausesitteestä.
 
-Please refer to the package insert for safety information.
+## Johtopäätös ja seuraavat vaiheet
 
----
+**Päätös: Hold**
 
-## Conclusion and Next Steps
+**Perustelut:**
+TxGNN-pistemäärä on korkea, mutta tälle spesifiselle käyttöaiheelle (sydämen fibroosarkooma) on vain yksi ei-spesifinen kommenttiartikel ja nolla kliinisiä tutkimuksia. Primaarinen sydämen fibroosarkooma on äärimmäisen harvinainen, eikä mikään eliminiin- tai tumoriin-spesifinen mekanistinen näyttö (esim. PDGFRB-fuusion tila) tue yhteyttä — tämä on tällä hetkellä vain mallin ennustussignaali (johdonmukainen paketin omien L4/Hold-pisteytysten kanssa).
 
-**Decision: Hold**
+**Jatkamista varten tarvitaan seuraavaa:**
+- TFDA/Fimean pakkausesite-tiedot (tällä hetkellä esto — DG001)
+- Yksityiskohtainen vaikutustavan vahvistus (tällä hetkellä vakava puute — DG002)
+- Tapausraportteja tai prekliinisiä tietoja, jotka vahvistavat PDGFR/KIT/BCR-ABL-polun aktiviteetin erityisesti sydämen fibroosarkooman tapauksessa
+- Harkitse saman ennustusjoukon korkeamman näyttötason ehdokkaan ("fibroblastinen neoplaasia"/DFSP, L2, Proceed with Guardrails) uudelleenarviointi toimintakelpoisempana lähiajan uudelleenkäyttötavoitteena
 
-**Rationale:**
-The TxGNN score is high, but for this specific indication (heart fibrosarcoma) there is only one non-specific commentary article and zero clinical trials. Primary cardiac fibrosarcoma is exceedingly rare, and no organ- or tumour-specific mechanistic data (e.g., PDGFRB fusion status) supports the link — this is currently a model-prediction-only signal (consistent with the pack's own L4/Hold scoring).
-
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert data (currently blocking — DG001)
-- Detailed mechanism-of-action confirmation (currently a high-severity gap — DG002)
-- Case reports or preclinical data confirming PDGFR/KIT/BCR-ABL pathway activity specifically in cardiac fibrosarcoma
-- Consider re-evaluating the higher-evidence candidate in this same prediction set ("fibroblastic neoplasm"/DFSP, L2, Proceed with Guardrails) as a more actionable near-term repurposing target
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

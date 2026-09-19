@@ -29,74 +29,75 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Caspofungin: From Antifungal Therapy to Gastrin Secretion Abnormality
+# Caspofungiini: antifungaalisesta hoidosta gastrin erityshäiriöön
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Caspofungin is an echinocandin-class antifungal agent; its confirmed original indication and detailed mechanism of action are currently not available in this evidence pack (data gap pending TFDA/DrugBank confirmation). The TxGNN model predicts a possible association with **Gastrin Secretion Abnormality**, but this prediction is currently supported by **0 clinical trials** and **0 publications**, and no biological mechanism linking the two has been established.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available — no confirmed indication data in this evidence pack (see Data Gap DG002) |
-| Predicted New Indication | Gastrin Secretion Abnormality |
-| TxGNN Prediction Score | 99.44% (model rank 5983) |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Taiwan Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Caspofungiini on echinokandiini-luokan antifungaalinen aine; sen vahvistettu alkuperäinen indikaatio ja yksityiskohtainen vaikutusmekanismi eivät ole tällä hetkellä saatavilla tässä näytöpaketissa (tietovaje odottaa TFDA:n/DrugBank-vahvistusta). TxGNN-malli ennustaa mahdollista yhteyttä **gastrin erityshäiriöön**, mutta tätä ennustusta tukee tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua**, eikä näiden kahden välillä ole osoitettu biologista mekanismia.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Detailed mechanism of action data for caspofungin is not confirmed in this evidence pack (Data Gap DG002, High severity). Based on general pharmacological class knowledge referenced in the model's own rationale, caspofungin is an echinocandin-class antifungal that inhibits fungal 1,3-β-D-glucan synthase — a cell-wall-synthesis target that does not exist in human cells.
-
-The repurposing rationale accompanying this prediction explicitly states that no known pharmacological or mechanistic pathway connects glucan synthase inhibition to gastrin secretion regulation (e.g., G-cell function, gastrin receptors, H⁺/K⁺-ATPase, or somatostatin signaling). Because both the original indication and MOA fields are marked as data gaps, no biological plausibility can currently be established for this candidate.
-
-**This prediction should be treated as a raw TxGNN model output without mechanistic support.** It requires independent pharmacological review before any further evaluation is warranted.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Kohde | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Ei saatavilla — tässä näytöpaketissa ei ole vahvistettua indikaatiodataa (katso Data Gap DG002) |
+| Ennustettu uusi indikaatio | Gastrin erityshäiriö |
+| TxGNN-ennustepisteet | 99.44% (mallin sijoitus 5983) |
+| Näyttötaso | L5 (vain mallin ennuste, ei tukevia tutkimuksia) |
+| Taiwanin markkinatilanne | Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltava päätös | Pidätys |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennuste on perusteltu?
 
-Currently no related literature available.
+Caspofungiinin yksityiskohtaista vaikutusmekanismidataa ei ole vahvistettu tässä näytöpaketissa (Data Gap DG002, korkea vakavuus). Mallin omaan perusteluun viitattujen yleisten farmakologisten luokkien tietojen perusteella caspofungiini on echinokandiini-luokan antifungaalinen aine, joka estää sienien 1,3-β-D-glucan synthase -entsyymiä — solun seinän synteesin kohdetta, jota ei ole ihmisen soluissa.
 
----
+Tähän ennusteeseen liittyvät uudelleenkäyttöperusteet todetaan nimenomaisesti, että yhtään tunnettua farmakologista tai mekanistista polkua ei yhdistä 1,3-β-D-glucan synthase -inhibisioita gastrin erityksensäätelyyn (esim. G-cell -toiminta, gastrinreseptorit, H⁺/K⁺-ATPase tai somatostatiinin signalointi). Koska sekä alkuperäinen indikaatio että MOA on merkitty tietovajeiksi, biologista uskottavuutta ei voida tällä hetkellä vahvistaa tälle ehdokkaalle.
 
-## Taiwan Market Information
-
-Caspofungin is not currently marketed in Taiwan (0 authorizations on record); no product license or approved-indication data is available.
+**Tätä ennustetta tulee käsitellä raakana TxGNN-mallin tuloksena ilman mekanistista tukea.** Se vaatii riippumatonta farmakologista arviointia ennen kuin muita arviointeja voidaan pitää perustelluina.
 
 ---
 
-## Safety Considerations
+## Kliinisen tutkimuksen näyttö
 
-Please refer to the package insert for safety information. Note: TFDA package insert warnings/contraindications are currently unavailable (Data Gap DG001, **Blocking** severity) — this gap prevents the candidate from proceeding to the S1 safety pre-assessment stage. Drug interaction (DDI) data was also queried with no results found.
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
 
 ---
 
-## Conclusion and Next Steps
+## Kirjallisuuden näyttö
 
-**Decision: Hold**
+Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta.
 
-**Rationale:**
-This candidate has only model-level (L5) evidence with no clinical trials or literature support, and no mechanistic link between caspofungin's known antifungal MOA and gastrin secretion abnormality has been established. In addition, a Blocking-severity data gap (missing TFDA package insert) prevents entry into safety pre-assessment.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings, contraindications) to unblock S1 safety review
-- Confirmed original indication and detailed MOA data (DrugBank/TFDA)
-- Preclinical or mechanistic studies establishing biological plausibility for the gastrin-related pathway
-- Any emerging clinical trial or literature evidence for this drug-disease pair
+## Taiwanin markkinatiedot
+
+Caspofungiinia ei ole tällä hetkellä markkinoilla Taiwanissa (0 hyväksyntää tallennettu); tuotelupaa tai hyväksyttyä indikaatiodataa ei ole saatavilla.
+
+---
+
+## Turvallisuutta koskevat näkökohdat
+
+Turvallisustietojen osalta katso pakkausseloste. Huomautus: TFDA:n pakkausselosteen varoitukset/vasta-aiheet eivät ole tällä hetkellä saatavilla (Data Gap DG001, **esto**-vakavuus) — tämä tietovaje estää ehdokkaan pääsyn S1-turvallisuuden esiarviointi-vaiheeseen. Lääkeyhteisvaikutuksen (DDI) dataa kysyttiin myös, mutta tuloksia ei löytynyt.
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidätys**
+
+**Perustelut:**
+Tällä ehdokkaalla on vain mallin tasolla (L5) näyttö ilman kliinisiä tutkimuksia tai kirjallisuuden tukea, eikä caspofungiinin tunnetun antifungaalisen MOA:n ja gastrin erityshäiriön välillä ole mekanistista yhteyttä. Lisäksi este-vakavuuden tietovaje (TFDA:n pakkausseloste puuttuu) estää pääsyn S1-turvallisuuden esiarviointiin.
+
+**Etenemiseksi tarvitaan seuraavaa:**
+- TFDA:n pakkausseloste (varoitukset, vasta-aiheet) S1-turvallisuuden esiarvioinnin esteiden poistamiseksi
+- Vahvistettu alkuperäinen indikaatio ja yksityiskohtainen MOA-data (DrugBank/TFDA)
+- Prekliiniset tai mekanistiset tutkimukset, joissa osoitetaan biologinen uskottavuus gastriin-liityvälle polulle
+- Kaikki nousevat kliiniset tutkimukset tai kirjallisuuden näyttö tälle lääke-tauti-parille
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

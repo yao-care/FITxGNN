@@ -29,77 +29,78 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Deferasirox: From Iron Overload to HIV Infectious Disease
+# Deferasirox: Raudanylimäärästä HIV-infektiotautiin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Deferasirox is an oral iron chelator originally used to manage chronic iron overload (e.g., transfusional iron overload in thalassemia and myelodysplastic syndromes). The TxGNN model predicts it may also be effective for **HIV infectious disease**, with a **99.40% prediction score**, though this direction is currently supported only by **2 mechanistic/preclinical publications** and **no registered clinical trials**.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Chronic iron overload (iron chelation therapy) — *inferred from drug class and repurposing rationale; not explicitly populated in `original_indications`* |
-| Predicted New Indication | HIV infectious disease |
-| TxGNN Prediction Score | 99.40% |
-| Evidence Level | L4 |
-| Taiwan Market Status | ✗ Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Deferasirox on suun kautta otettava raudankellaaja, jota käytetään alkuperäisesti kroonisen raudanylimäärän hoitamiseen (esim. transfuusioista johtuva raudanylimäärä talassemiassa ja myelodyplastisissa oireyhtymissä). TxGNN-malli ennustaa, että se voi myös olla tehokas **HIV-infektiotaudissa**, **99.40% ennustepisteellä**, vaikka tätä suuntaa tukee tällä hetkellä vain **2 mekanistista/prekliinistä julkaisua** ja **ei yhtään rekisteröityä kliinistä tutkimusta**.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap, DG002). Based on known information, deferasirox belongs to the iron chelator class, and its efficacy in reducing chronic iron overload is well established; mechanistically it may be applicable to HIV infectious disease through iron-restriction pathways.
-
-The proposed link is indirect but biologically plausible: free intracellular iron promotes oligomerization of the HIV-1 Tat protein and enhances LTR (long terminal repeat) transactivation, a step required for viral replication. In vitro work suggests that restricting endolysosomal/cytosolic iron — which is exactly what an iron chelator like deferasirox does — could dampen this Tat-driven transcriptional activation.
-
-Importantly, this evidence is mechanistic and in vitro only. There is no direct clinical or preclinical antiviral efficacy data for deferasirox in HIV infection, and no drug-specific pharmacokinetic or dosing rationale for this population has been established.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Kohde | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Krooninen raudanylimäärä (raudankellaatio) — *johdettu lääkeluokasta ja uudelleenkäyttöperustelusta; ei eksplisiittisesti täytetty kohtaan `original_indications`* |
+| Ennustettu uusi indikaatio | HIV-infektiotauti |
+| TxGNN-ennustepistemäärä | 99.40% |
+| Evidenssitaso | L4 |
+| Taiwan markkinatilanne | ✗ Ei markkinoilla (Ei markkinoilla) |
+| Valtuuksien lukumäärä | 0 |
+| Suositeltu päätös | Keskeytä |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennuste on järkevä?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [34550543](https://pubmed.ncbi.nlm.nih.gov/34550543/) | 2021 | Mechanistic/In vitro study | Journal of NeuroVirology | Endolysosomal iron restriction reduces HIV-1 Tat oligomerization and LTR transactivation, suggesting iron chelation could limit Tat-driven viral transcription |
-| [16529348](https://pubmed.ncbi.nlm.nih.gov/16529348/) | 2006 | Review (new drug bulletin) | Journal of the American Pharmacists Association | General "new drugs" bulletin covering deferasirox alongside unrelated agents (ramelteon, tipranavir, nepafenac); not a study of deferasirox in HIV specifically |
+Tällä hetkellä yksityiskohtaista toimintamekanismin tietoa ei ole saatavilla (merkitty korkean vakavuuden tietoaukoksi DG002). Tunnettujen tietojen perusteella deferasirox kuuluu raudankellajien luokkaan, ja sen tehokkuus kroonisen raudanylimäärän vähentämisessä on hyvin vakiintunut; mekanistisesti se voisi olla sovellettavissa HIV-infektiotautiin raudan rajoittamisen kautta.
 
----
+Ehdotettu yhteys on epäsuora mutta biologisesti uskottava: vapaa intrasolullinen rauta edistää HIV-1 Tat-proteiinin oligomeroitumista ja lisää LTR:n (long terminal repeat) transaktiviteettia, vaihetta, joka vaaditaan viraalin replikointiin. In vitro -tutkimukset viittaavat siihen, että endolysosomaalisen/sytosolin raudan rajoittaminen — mitä raudankellaaja kuten deferasirox tekee — voisi vaimentaa tätä Tat-ohjattua transaktiviteettia.
 
-## Taiwan Market Information
-
-Deferasirox is **not currently marketed in Taiwan** — 0 authorizations are on record in the evidence pack. TFDA package insert and license data have not yet been retrieved (see Blocking data gap DG001 below).
+Tärkeää on kuitenkin huomioida, että nämä todisteet ovat vain mekanistisia ja in vitro -tasolla saatuja. Deferasiroxista ei ole olemassa suoraa kliinistä tai prekliinistä antiviraalisen vaikuttavuuden tutkimusta HIV-infektiossa, eikä tähän potilasryhmään soveltuvan lääkekohtaisen farmakokinetiikan tai annosmääritysten perusteet ole määritetty.
 
 ---
 
-## Safety Considerations
+## Kliinisen tutkimuksen todisteet
 
-Please refer to the package insert for safety information. Key warnings, contraindications, and drug-drug interaction data have not yet been retrieved from TFDA sources (Blocking data gap DG001) — this must be resolved before any safety-stage (S1) evaluation can proceed.
+Tällä hetkellä ei ole rekisteröityjä liittyviä kliinisiä tutkimuksia.
 
 ---
 
-## Conclusion and Next Steps
+## Kirjallisuuden todisteet
 
-**Decision: Hold**
+| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät löydökset |
+|------|------|------|------|---------|
+| [34550543](https://pubmed.ncbi.nlm.nih.gov/34550543/) | 2021 | Mekanistinen/In vitro -tutkimus | Journal of NeuroVirology | Endolysosomaalisen raudan rajoittaminen vähentää sekä HIV-1 Tat-oligomeroitumista että LTR-transaktiviteettia, mikä viittaa siihen, että raudankellaatio voisi rajoittaa Tat-ohjattua viraalin transkriptiota |
+| [16529348](https://pubmed.ncbi.nlm.nih.gov/16529348/) | 2006 | Katsaus (uusien lääkkeiden tiedote) | Journal of the American Pharmacists Association | Yleinen "uudet lääkkeet" -tiedote, joka käsittelee deferasiroxia muiden liittymättömien vaikuttavien aineiden (ramelteon, tipranavir, nepafenac) kanssa; ei ole tutkimus deferasiroxin käytöstä HIV-infektiossa |
 
-**Rationale:**
-The HIV indication rests on a single indirect in vitro mechanistic study with no supporting clinical trials, preclinical antiviral data, or drug-specific safety information — consistent with the pack's own L4/S1 "Research Question" classification. The four other TxGNN-predicted indications for deferasirox (chronic hepatitis C, a rare neurodevelopmental disorder, an obsolete hyperlipidemia term, and dermatofibrosarcoma protuberans) are weaker still (L4–L5, S0–S1) and are already flagged Hold or Research Question internally.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings, contraindications, DDI) — Blocking gap DG001
-- Confirmed mechanism of action data for deferasirox — High-priority gap DG002
-- In vivo or clinical evidence that iron chelation affects HIV viral load/replication (current support is limited to one in vitro LTR-transactivation study)
-- A registered clinical trial or investigator-initiated study before advancing past the Research Question stage
+## Taiwanin markkinatiedot
+
+Deferasirox **ei ole tällä hetkellä markkinoilla Taiwanissa** — 0 markkinahyväksyntää on kirjattu todistusten pakettiin. TFDA:n pakkausseloste ja hyväksyntätiedot eivät ole vielä käytettävissä (ks. estävä tietoaukko DG001 alla).
+
+---
+
+## Turvallisuusnäkökohdat
+
+Turvallisuustiedoista tulee viitata pakkausselosteeseen. Tärkeimmät varoitukset, vasta-indikaatiot ja lääkkeiden välisen vuorovaikutuksen tiedot eivät ole vielä käytettävissä TFDA-lähteistä (Estävä tietoaukko DG001) — tämä on ratkaistava ennen kuin turvallisuusvaiheen (S1) arviointiin voidaan siirtymyä.
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Keskeytä**
+
+**Perustelut:**
+HIV-indikaatio perustuu yksittäiseen epäsuoraan in vitro -mekanistiseen tutkimukseen ilman tukevia kliinisiä tutkimuksia, prekliinisiä antiviraalisen vaikuttavuuden tietoja tai lääkekohtaisia turvallisuustietoja — mikä on yhdenmukainen todistusten paketin omien L4/S1 "Tutkimuskysymys"-luokituksen kanssa. Neljä muuta TxGNN-ennustamaata deferasiroxin indikaatiota (krooninen hepatiitti C, harvinainen neurokehityksellinen häiriö, vanhentunut hyperlipoproteinemian termi ja dermatofibrosarkooma protuberans) ovat entistäkin heikompia (L4–L5, S0–S1) ja ne on jo sisäisesti merkitty keskeytyksen tai tutkimuskysymyksen kohteeksi.
+
+**Jotta edistys olisi mahdollista, seuraavaa tarvitaan:**
+- TFDA:n pakkausseloste (varoitukset, vasta-indikaatiot, lääkevuorovaikutukset) — Estävä aukko DG001
+- Vahvistetut deferasiroxin toimintamekanismin tiedot — Korkea-prioriteettinen aukko DG002
+- In vivo tai kliininen todiste siitä, että raudankellaatio vaikuttaa HIV:n viraalikuormaan/replikointiin (nykyinen tuki rajoittuu yhteen in vitro LTR-transaktiviteettitutkimukseen)
+- Rekisteröity kliininen tutkimus tai tutkija-aloitteinen tutkimus ennen siirtymistä tutkimuskysymysvaiheen yli
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

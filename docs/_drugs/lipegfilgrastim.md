@@ -29,77 +29,78 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Lipegfilgrastim: From Neutropenia (G-CSF Analog) to Primary Release Disorder of Platelets
+# Lipegfilgrastim: Neutropeniasta (G-CSF-analogia) verihiutaleiden primaariseen vapautushäiriöön
 
-## One-Sentence Summary
+## Yhteenveto yhdessä lauseessa
 
-Lipegfilgrastim is a long-acting granulocyte colony-stimulating factor (G-CSF) analog; the evidence pack does not contain a confirmed original approved indication (regulatory license data is a data gap), but its known pharmacological class is used to stimulate neutrophil production. The TxGNN model's top prediction is **primary release disorder of platelets**, with a very high similarity score (**99.93%**) but **zero supporting clinical trials and zero publications**, and the model's own mechanistic rationale argues there is no known biological link between G-CSF activity and platelet-release pathology.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available from regulatory license data (data gap); pharmacological class is G-CSF analog, typically used for neutrophil stimulation |
-| Predicted New Indication | Primary release disorder of platelets |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L5 (model prediction only, no clinical or literature support) |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Lipegfilgrastim on pitkävaikutteinen granulosyyttien kasvua stimuloiva tekijä (G-CSF) -analogia; todistepakettiin ei sisälly vahvistettua alkuperäistä hyväksyttyä käyttöaiheita (sääntelyasiakirjojen tiedot ovat tietovaje), mutta sen tunnetun farmakologisen luokan avulla stimuloidaan neutroffilien tuotantoa. TxGNN-mallin pääennuste on **verihiutaleiden primaarinen vapautushäiriö**, erittäin korkealla samankaltaisuusarvolla (**99.93%**), mutta **ilman tukevia kliinisiä tutkimuksia ja ilman julkaisuja**, ja mallin oma mekanistinen perustelus väittää, että G-CSF-aktiivisuuden ja verihiutaleiden vapautumisen patologian välillä ei ole tunnettua biologista yhteyttä.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Currently, detailed mechanism of action data is not available (original_moa: Data Gap). Based on known pharmacological classification, lipegfilgrastim is a long-acting G-CSF analog, meaning its known target is the G-CSF receptor on neutrophil precursor cells, where it promotes neutrophil generation and release from the bone marrow.
-
-Primary release disorder of platelets is a pathology of platelet storage-pool defects or degranulation abnormalities — a mechanism that operates on a different cell lineage and different biological pathway than neutrophil-stimulating G-CSF activity. The evidence pack's own repurposing rationale states there is **no known direct biological link** between the two, and suggests the very high TxGNN score may instead reflect graph proximity between "bone marrow hematopoietic cell lineage" nodes in the knowledge graph, rather than a mechanism-specific relationship.
-
-The same caveat applies to the other four top-ranked predictions in this pack: two diabetic retinopathy indications (where G-CSF's angiogenic effects could theoretically run counter to, rather than support, treatment goals), and two platelet receptor disorders (pseudo-von Willebrand disease, Glanzmann thrombasthenia) that involve platelet membrane glycoproteins unrelated to the G-CSF pathway. All five should be treated as **model-score-only signals**, not mechanistically validated hypotheses.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Kohta | Sisältö |
+|------|--------|
+| Alkuperäinen käyttöaihe | Ei saatavilla sääntelyasiakirjoista (tietovaje); farmakologinen luokka on G-CSF-analogia, jota käytetään tyypillisesti neutroffilien stimulointiin |
+| Ennustettu uusi käyttöaihe | Verihiutaleiden primaarinen vapautushäiriö |
+| TxGNN-ennusteen pistemäärä | 99.93% |
+| Todisteiden taso | L5 (vain mallin ennuste, ei kliinistä tai kirjallisuustukea) |
+| Suomen markkinoille asema | ✗ Ei markkinoitu |
+| Myyntilupien lukumäärä | 0 |
+| Suositeltu päätös | Pidätä |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennuste on järkevä?
 
-Currently no related literature available.
+Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla (original_moa: tietovaje). Tunnetun farmakologisen luokituksen perusteella lipegfilgrastim on pitkävaikutteinen G-CSF-analogia, mikä tarkoittaa, että sen tunnettu kohde on G-CSF-reseptori neutroffilien esisoluissa, joissa se edistää neutroffilien muodostumista ja vapautumista luuytimestä.
 
----
+Verihiutaleiden primaarinen vapautushäiriö on verihiutaleiden varastopoolin defektien tai degranulatiohäiriöiden patologia — mekanismi, joka toimii eri solulinjalla ja eri biologisella polulla kuin neutroffilien stimuloiva G-CSF-aktiivisuus. Todistepaketin oma uudelleenkäyttöperustelus väittää, että näiden kahden välillä ei ole **tunnettua suoraa biologista yhteyttä**, ja ehdottaa, että erittäin korkea TxGNN-pistemäärä saattaa sen sijaan heijastaa "luuytimen hematopoieettinen solulinja" -solmujen välistä lähekkäisyyttä tietokaavissa, eikä mekanismikohtaista suhdetta.
 
-## Finland Market Information
-
-No marketing authorizations found. Lipegfilgrastim is currently **not marketed** in this jurisdiction (0 licenses on record), so no approved indication text is available to compare against the predicted new indication.
+Sama varoitus koskee tämän paketin muita neljää korkeimmin sijoittuneita ennusteita: kahta diabeettisen retinopatian käyttöaiheita (joissa G-CSF:n angiogeneettinen vaikutus voisi teoriassa vastustaa pikemminkin kuin tukea hoitotavoitteita) ja kahta verihiutaleiden reseptorihäiriötä (pseudo-von Willebrandin tautia, Glanzmannin trombasteniaa), jotka liittyvät G-CSF-polusta riippumattomiin verihiutaleiden kalvon glykoproteiineihin. Kaikkia viittä tulee käsitellä **vain mallin pistemäärään perustuvina signaaleina**, ei mekanistisesti validoituina hypoteeseina.
 
 ---
 
-## Safety Considerations
+## Kliinisen tutkimuksen todisteet
 
-Please refer to the package insert for safety information.
-
-*(Note: this pack flags TFDA/Fimea package-insert warnings and contraindications as a **Blocking** data gap — DG001 — meaning safety screening (S1) cannot currently proceed without sourcing the official label.)*
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
 
 ---
 
-## Conclusion and Next Steps
+## Kirjallisuuden todisteet
 
-**Decision: Hold**
+Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta.
 
-**Rationale:**
-All five predicted indications sit at evidence level L5 (model prediction only) with zero clinical trials and zero literature support, and the mechanistic rationale for the top candidate (and most others) actively argues against biological plausibility rather than supporting it. Combined with a Blocking data gap on safety labeling, this candidate is not ready to advance past preliminary screening.
+---
 
-**To proceed, the following is needed:**
-- Package insert / TFDA or Fimea safety label (resolves Blocking gap DG001) before any S1 safety evaluation
-- Confirmed mechanism of action documentation from DrugBank (resolves gap DG002)
-- Confirmed original approved indication(s) via regulatory license lookup
-- Targeted preclinical or mechanistic literature search specifically testing G-CSF activity against platelet-release disorders and diabetic retinopathy, to confirm or refute the knowledge-graph-driven hypothesis
-- If mechanistic plausibility is established, in vitro/in vivo proof-of-concept studies before any clinical trial design is considered
+## Suomen markkinoille koskevat tiedot
+
+Myyntilupoja ei löydy. Lipegfilgrastim ei ole tällä hetkellä **markkinoitu** tässä toimivaltaisessa alueessa (0 lupaa rekistereissä), joten hyväksyttyä käyttöaiheen tekstiä ei ole saatavilla vertailussa ennustetun uuden käyttöaiheelle.
+
+---
+
+## Turvallisuusnäkökohdat
+
+Turvallisuustiedot löydät pakkausselosteesta.
+
+*(Huom: tämä paketti merkitsee TFDA/Fimea pakkausselosteen varoituksia ja vasta-aiheita **estävänä** tietovajeena — DG001 — mikä tarkoittaa, että turvallisuusseulonta (S1) ei voi tällä hetkellä edetä ilman virallisen selosteen hankkimista.)*
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidätä**
+
+**Perustelus:**
+Kaikki viisi ennustettua käyttöaiheista ovat todisteiden tasolla L5 (vain mallin ennuste) ilman kliinisiä tutkimuksia ja kirjallisuustukea, ja pääehdokkaan (ja useimpien muiden) mekanistinen perustelus puoltaa aktiivisesti biologisen uskottavuuden vastaan sen sijaan, että tukisivat sitä. Yhdessä turvallisuustiedon estävän tietovajeen kanssa, tämä ehdokas ei ole valmis etenemään alustavaa seulontaa pidemmälle.
+
+**Jatkaakseen tarvitaan seuraavaa:**
+- Pakkausseloste / TFDA tai Fimea turvallisuustiedot (ratkaisee estävän tietovajeen DG001) ennen S1 turvallisuusarviointia
+- Vahvistettu vaikutusmekanismin dokumentaatio DrugBankista (ratkaisee tietovajeen DG002)
+- Vahvistetut alkuperäiset hyväksytyt käyttöaiheet sääntelyvaltuuksien hakemisen kautta
+- Kohdistettu prekliininen tai mekanistinen kirjallisuushaku, joka testaa erityisesti G-CSF-aktiivisuutta verihiutaleiden vapautumishäiriöitä ja diabeettista retinopatia vastaan, hypoteesin vahvistamiseksi tai kumoamiseksi
+- Jos mekanistinen uskottavuus vahvistetaan, in vitro/in vivo PoC-tutkimukset ennen kuin mitään kliinisen tutkimuksen suunnittelua harkitaan
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

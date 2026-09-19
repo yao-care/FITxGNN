@@ -29,86 +29,87 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Canakinumab: From Autoinflammatory Syndromes to Familial Mediterranean Fever
+# Kanakinnumabi: autoinflammatorisista oireyhtyymistä perinnölliseen keskuslämpöoireyhtyään
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Canakinumab is a human anti-IL-1β monoclonal antibody whose established use is in IL-1β–driven autoinflammatory diseases such as Cryopyrin-Associated Periodic Syndromes (CAPS). TxGNN generated 10 candidate indications for this drug; most (7 of 10) turn out to be low-confidence or entity-mismatched signals, but **Familial Mediterranean Fever (FMF)** stands out with **7 clinical trials** (5 completed Phase 3) and **20 publications**, and is already an approved indication for canakinumab in other jurisdictions (FDA/EMA) — while the product remains unmarketed locally (0 authorizations).
+Kanakinnumabi on ihmisen anti-IL-1β-monoklonaalinen vasta-aine, jonka vakiintunut käyttöalue on IL-1β:n aiheuttamissa autoinflammatorisissa sairauksissa, kuten kryopyriini-assosioituneissa jaksoittaisissa oireyhtyissä (CAPS). TxGNN tuotti tälle lääkkeelle 10 kandidaattivastaindikaatiota; suurin osa (7 10:stä) osoittautuu matalan luotettavuuden tai entiteetin väärinkäsityksen signaaleiksi, mutta **Familial Mediterranean Fever (FMF)** erottuu silmille **7 kliinisellä tutkimuksella** (5 valmistunutta 3. vaihetta) ja **20 julkaisulla**, ja se on jo hyväksytty vastainitaatio kanakinnumabille muilla lainkäyttöalueilla (FDA/EMA) — samalla kun tuote jää markkinoimatta paikallisesti (0 hyväksyntää).
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Autoinflammatory disease (Cryopyrin-Associated Periodic Syndromes / CAPS family) — no local approved-label text available; drawn from literature evidence (PMID 20065636) |
-| Predicted New Indication | Familial Mediterranean Fever (autosomal dominant) |
-| TxGNN Prediction Score | 99.41% |
-| Evidence Level | L1 |
-| Finland Market Status | ✗ Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Alkuperäinen vastainitaatio | Autoinflammatorinen sairaus (Kryopyriini-assosioituneet jaksoittaiset oireyhtymät / CAPS-perhe) — paikallista hyväksytyn teksti ei ole saatavilla; saatu kirjallisuuden todisteista (PMID 20065636) |
+| Ennustettu uusi vastainitaatio | Perinnöllinen keskuslämpöoireyhtymä (autosomaalinen dominantti) |
+| TxGNN ennustettu pistemäärä | 99.41% |
+| Todisteiden taso | L1 |
+| Suomen markkinatilanne | ✗ Ei markkinoilla (Not marketed) |
+| Hyväksyntöjen määrä | 0 |
+| Suositeltu päätös | Jatka varauksella |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Canakinumab is a fully human monoclonal antibody that binds and neutralizes interleukin-1β (IL-1β), the central cytokine driving inflammasome-mediated autoinflammatory disease (per literature evidence PMID 20065636, PMID 35874710). Its established efficacy is in the CAPS spectrum (FCAS, Muckle-Wells syndrome, NOMID/CINCA), where uncontrolled NLRP3-inflammasome activity leads to IL-1β overproduction.
+Kanakinnumabi on täysin ihmisen monoklonaalinen vasta-aine, joka sitoutuu ja neutraloi interleukiini-1β:aa (IL-1β), inflammasomin välityksellä aiheuttamia autoinflammatorisia sairauksia ajavaa ydinsitokiniiä (kirjallisuuden todisteen PMID 20065636, PMID 35874710 mukaan). Sen vakiintunut teho on CAPS-spektrissä (FCAS, Muckle-Wells-oireyhtymä, NOMID/CINCA), joissa kontrolloimaton NLRP3-inflammasomin aktivaatio johtaa IL-1β:n ylimuodostukseen.
 
-FMF shares the same downstream biology: gain-of-function MEFV mutations dysregulate the pyrin inflammasome, driving IL-1β overactivation and recurrent fever/serositis attacks. Because canakinumab's mechanism acts directly downstream of this shared IL-1β pathway, its extension from CAPS to FMF is mechanistically coherent rather than speculative — and in fact canakinumab already carries FMF as an approved indication in other jurisdictions, per the evidence pack's own rationale ("已獲多國（含 FDA/EMA）核准之適應症，非單純 TxGNN 預測").
+FMF jakaa saman lähtöisen biologian: MEFV-geenin voittava mutaatio dysreguloi pyriiini-inflammasomin, ajaa IL-1β:n yliaktivaatiota ja toistuvien kuumeiden/serosiittikohtauksia. Koska kanakinnumabin mekanismi vaikuttaa suoraan tämän jaetun IL-1β-reitin alajuoksulla, sen laajennus CAPS:ista FMF:ään on mekanistisesti johdonmukainen eikä spekulatiivinen — ja todellisuudessa kanakinnumabilla on jo FMF vastaindikaationa muilla lainkäyttöalueilla, todistepaketin omaa perustelua mukaan ("已獲多國（含 FDA/EMA）核准之適應症，非單純 TxGNN 預測").
 
-One caveat worth flagging: most of the pivotal trials captured under this candidate's evidence set are titled as CAPS/TRAPS/Muckle-Wells studies rather than FMF-specific studies. This likely reflects that these are the drug's foundational registrational trials for the broader hereditary periodic fever syndrome label (which was later extended to include FMF), rather than FMF being untested — the one explicitly FMF-inclusive study (NCT06838143, real-world REASSURE) is ongoing. This should be verified against the actual approved label text before final sign-off.
+Yksi varoituksella arvoinen huomio: suurin osa tämän kandidaatin todistepakettiin kuuluvista keskeisistä tutkimuksista on nimitetty CAPS/TRAPS/Muckle-Wells-tutkimuksiksi FMF-spesifisten tutkimusten sijaan. Tämä heijastaa todennäköisesti sitä, että nämä ovat lääkkeen perustava rekisteröintitutkimuksista laajemmalle perinnöllisten jaksoittaisten kuume-oireyhtymien etiketille (joka laajennettiin myöhemmin kattamaan FMF:n), ei sitä, että FMF olisi testaamaton — yksi eksplisiittisesti FMF-inkluusiivinen tutkimus (NCT06838143, todellisen maailman REASSURE) on käynnissä. Tämä on tarkistettava tosiasiallisen hyväksytyn etiketin tekstiä vastaan ennen lopullista sign-off:ia.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen todisteet
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimuksen numero | Vaihe | Tilanne | Rekrytointi | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT00465985](https://clinicaltrials.gov/study/NCT00465985) | Phase 3 | Completed | 35 | Pivotal 3-part randomized, double-blind, placebo-controlled withdrawal trial establishing efficacy/safety of canakinumab in Muckle-Wells syndrome (CAPS) |
-| [NCT00685373](https://clinicaltrials.gov/study/NCT00685373) | Phase 3 | Completed | 166 | Largest long-term (≥6 month) open-label safety/efficacy cohort across CAPS phenotypes (FCAS, MWS, NOMID) |
-| [NCT00991146](https://clinicaltrials.gov/study/NCT00991146) | Phase 3 | Completed | 19 | 6-month open-label efficacy/safety study in Japanese CAPS patients, extended pending Japan approval |
-| [NCT01302860](https://clinicaltrials.gov/study/NCT01302860) | Phase 3 | Completed | 17 | One-year open-label multicenter trial assessing efficacy, safety and tolerability in patients ≤4 years, including childhood vaccination safety |
-| [NCT01576367](https://clinicaltrials.gov/study/NCT01576367) | Phase 3 | Completed | 17 | Open-label extension providing long-term efficacy/safety/tolerability data in CAPS patients |
-| [NCT01242813](https://clinicaltrials.gov/study/NCT01242813) | Phase 2 | Completed | 20 | 4-month multicenter dose-finding study of canakinumab in active recurrent/chronic TRAPS |
-| [NCT06838143](https://clinicaltrials.gov/study/NCT06838143) | N/A | Recruiting | 25 | Real-world non-interventional safety/effectiveness study (REASSURE) explicitly covering colchicine-resistant FMF (crFMF), CAPS, TRAPS, HIDS/MKD, sJIA; ongoing through 2028 |
+| [NCT00465985](https://clinicaltrials.gov/study/NCT00465985) | Vaihe 3 | Valmistunut | 35 | Keskeinen 3-osainen satunnaistettu, kaksoissokkotutkimus, jossa verrataan lumetta ja määritettiin kanakinnumabin teho/turvallisuus Muckle-Wells-oireyhtyimessä (CAPS) |
+| [NCT00685373](https://clinicaltrials.gov/study/NCT00685373) | Vaihe 3 | Valmistunut | 166 | Suurin pitkäaikainen (≥6 kuukautta) avoin turvallisuus-/tehotutkimus CAPS-fenotyypeissä (FCAS, MWS, NOMID) |
+| [NCT00991146](https://clinicaltrials.gov/study/NCT00991146) | Vaihe 3 | Valmistunut | 19 | 6 kuukauden avoin tehotutkimus japanilaisissa CAPS-potilaissa, jatkoa odotellessa Japanin hyväksyntää |
+| [NCT01302860](https://clinicaltrials.gov/study/NCT01302860) | Vaihe 3 | Valmistunut | 17 | Vuoden mittainen avoin monikeskustutkimus, jossa tutkittiin tehoa, turvallisuutta ja siedettävyyttä potilailla ≤4 vuotta, mukaan lukien rokotusturvallisuus |
+| [NCT01576367](https://clinicaltrials.gov/study/NCT01576367) | Vaihe 3 | Valmistunut | 17 | Avoin jatkotutkimus, joka antoi pitkäaikaisia teho-/turvallisuus-/siedettävyystietoja CAPS-potilaissa |
+| [NCT01242813](https://clinicaltrials.gov/study/NCT01242813) | Vaihe 2 | Valmistunut | 20 | 4 kuukauden monikeskus annoksen määritykseen tarkoitettu tutkimus kanakinnumabista aktiivisessa toistuvassa/kroonisessa TRAPS:issa |
+| [NCT06838143](https://clinicaltrials.gov/study/NCT06838143) | N/A | Rekrytoidaan | 25 | Todellisen maailman ei-interventionaalinen turvallisuus-/tehokkuustutkimus (REASSURE) joka kattaa eksplisiittisesti kokkisiinin-resistenttejä FMF:ää (crFMF), CAPS, TRAPS, HIDS/MKD, sJIA; käynnissä vuoteen 2028 |
 
-## Literature Evidence
+## Kirjallisuuden todisteet
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [35874710](https://pubmed.ncbi.nlm.nih.gov/35874710/) | 2022 | Systematic Review | Frontiers in Immunology | Systematic review of safety/efficacy of IL-1-targeted biologics (anakinra, canakinumab, rilonacept) across immune-mediated autoinflammatory disorders |
-| [37769252](https://pubmed.ncbi.nlm.nih.gov/37769252/) | 2024 | Systematic Review / Meta-analysis | Rheumatology (Oxford) | Efficacy and safety of anti-IL-1 treatment specifically in FMF patients unresponsive/intolerant to colchicine |
-| [29768139](https://pubmed.ncbi.nlm.nih.gov/29768139/) | 2018 | Review | New England Journal of Medicine | Canakinumab evaluated across monogenic autoinflammatory recurrent fever syndromes including FMF, MKD/HIDS and TRAPS |
-| [40040547](https://pubmed.ncbi.nlm.nih.gov/40040547/) | 2025 | Cohort | Int J Rheum Dis | Compares attack characteristics, acute-phase reactants and renal outcomes in FMF patients on canakinumab with/without colchicine |
-| [32806879](https://pubmed.ncbi.nlm.nih.gov/32806879/) | 2020 | Review | Turkish J Med Sci | Contemporary review of FMF pathogenesis through treatment, including biologic options |
-| [30686512](https://pubmed.ncbi.nlm.nih.gov/30686512/) | 2019 | Review | Presse Médicale | Overview of FMF epidemiology, MEFV/pyrin pathophysiology and treatment |
-| [28362189](https://pubmed.ncbi.nlm.nih.gov/28362189/) | 2017 | Review | Expert Rev Clin Immunol | Focused review of canakinumab specifically for FMF treatment |
-| [36062765](https://pubmed.ncbi.nlm.nih.gov/36062765/) | 2022 | Review | Clin Exp Rheumatol | IL-1 inhibition in FMF: clinical outcomes and expectations |
-| [31205631](https://pubmed.ncbi.nlm.nih.gov/31205631/) | 2019 | Review | Mediterr J Hematol Infect Dis | FMF clinical impact and treatment plan formulation |
-| [34684086](https://pubmed.ncbi.nlm.nih.gov/34684086/) | 2021 | Review | Medicina (Kaunas) | Amyloidosis and glomerular disease as FMF complications, relevant to treatment goals |
+| [35874710](https://pubmed.ncbi.nlm.nih.gov/35874710/) | 2022 | Systemaattinen katsaus | Frontiers in Immunology | Systemaattinen katsaus IL-1:ään kohdistuneiden biologisten lääkkeiden (anakinra, kanakinnumabi, rilonasepti) turvallisuudesta/tehokkuudesta immuuni-välitteisissa autoinflammatorisissa häiriöissä |
+| [37769252](https://pubmed.ncbi.nlm.nih.gov/37769252/) | 2024 | Systemaattinen katsaus / Meta-analyysi | Rheumatology (Oxford) | Anti-IL-1-hoidon tehokkuus ja turvallisuus erityisesti FMF-potilaissa, jotka eivät ole reagoineet/sietäneet kokkisiiniä |
+| [29768139](https://pubmed.ncbi.nlm.nih.gov/29768139/) | 2018 | Katsaus | New England Journal of Medicine | Kanakinnumabi arvioitu monigeeninä autoinflammatorisissa toistuvissa kuume-oireyhtyissä, mukaan lukien FMF, MKD/HIDS ja TRAPS |
+| [40040547](https://pubmed.ncbi.nlm.nih.gov/40040547/) | 2025 | Kohortti | Int J Rheum Dis | Vertailee kohtaukseen liittyviä piirteitä, akuuttivaihe-reaktanteja ja munuaistuloksia FMF-potilaissa kanakinnumabilla tai ilman sitä kokkisiinin kanssa |
+| [32806879](https://pubmed.ncbi.nlm.nih.gov/32806879/) | 2020 | Katsaus | Turkish J Med Sci | Ajanmukainen katsaus FMF-patogeneesista hoitoon, mukaan lukien biologiset vaihtoehdot |
+| [30686512](https://pubmed.ncbi.nlm.nih.gov/30686512/) | 2019 | Katsaus | Presse Médicale | FMF:n epidemiologia, MEFV/pyriiinin patofysiologia ja hoito |
+| [28362189](https://pubmed.ncbi.nlm.nih.gov/28362189/) | 2017 | Katsaus | Expert Rev Clin Immunol | FMF-hoitoon kohdistettu kanakinnumabin katsaus |
+| [36062765](https://pubmed.ncbi.nlm.nih.gov/36062765/) | 2022 | Katsaus | Clin Exp Rheumatol | IL-1-esto FMF:ssä: kliiniset tulokset ja odotukset |
+| [31205631](https://pubmed.ncbi.nlm.nih.gov/31205631/) | 2019 | Katsaus | Mediterr J Hematol Infect Dis | FMF-kliininen vaikutus ja hoitosuunnitelman muodostus |
+| [34684086](https://pubmed.ncbi.nlm.nih.gov/34684086/) | 2021 | Katsaus | Medicina (Kaunas) | Amyloidoosi ja glomerulonefriitti FMF:n komplikaatioina, relevantti hoidon tavoitteisiin |
 
-## Other TxGNN-Predicted Indications (Screened, Not Pursued)
+## Muut TxGNN:n ennustamat vastaindikaatiot (seulottu, ei toteutettu)
 
-For transparency: this evidence pack scored 10 candidate indications for canakinumab. Beyond FMF, only two others showed genuine (if preliminary) mechanistic and literature support; the remaining seven were flagged internally as likely database entity-mismatches with no real supporting evidence.
+Avoimmuuden vuoksi: tämä todistepaketti pisteytti 10 kanakinnumabin kandidaattivastaindikaatiota. FMF:n lisäksi vain kahdella muulla oli aitoa (vaikkakin alustavaaa) mekanistista ja kirjallisuuden tukea; loput seitsemän lippuivat sisäisesti todennäköisinä tietokannan entiteetin väärinkäsityksiksi ilman todellista tukea.
 
-| Disease | Evidence Level | Recommendation | Note |
+| Sairaus | Todisteiden taso | Suositus | Huomautus |
 |---|---|---|---|
-| Periodic fever-infantile enterocolitis-autoinflammatory syndrome | L3 | Research Question | 19 publications, but concentrated on related-but-distinct CAPS/FMF/PFAPA syndromes rather than this specific entity |
-| Blau syndrome | L3 | Research Question | NOD2-driven granulomatous autoinflammation; small case series and a transcriptional-response cohort support IL-1β blockade, no controlled trials |
-| Hepatic infarction, hepatic veno-occlusive disease, peliosis hepatis, extracutaneous mastocytoma, liver angiosarcoma | L5 | Hold | No clinical trials; ≤1 unrelated literature hit each; judged as knowledge-graph association errors |
-| Syndrome with combined immunodeficiency, monosomy X | L4–L5 | Hold | Literature retrieved concerns unrelated drugs/diseases; disease-label mismatch |
+| Jaksoittainen kuume-enterokoliitti-autoinflammatorinen oireyhtymä | L3 | Tutkimuskysymys | 19 julkaisua, mutta keskittynyt siihen liittyviin mutta erillisiin CAPS/FMF/PFAPA-oireyhtyihin tämän spesifisen entiteetin sijaan |
+| Blau-oireyhtymä | L3 | Tutkimuskysymys | NOD2-ohjattu granulomaattinen autoinflammatio; pienet tapaussarjat ja transkriptionaalisesta vasteesta koostuva kohortti tukevat IL-1β:n estoa, ei kontrolloidut tutkimukset |
+| Maksaninfarkti, hepatinen veno-oklusiivinen sairaus, pelioos hepatis, ekstraossakutaaninen mastoosytooma, maksaan-giosakrkooma | L5 | Pidä | Ei kliinisiä tutkimuksia; ≤1 liittymätöntä kirjallisuuden osumaa kullekin; arvioitiin tietokaavio-assosioinnin virheiksi |
+| Oireyhtymä yhdistetyllä immuunivajauksella, monosomia X | L4–L5 | Pidä | Haettu kirjallisuus koskee liittymättömiä lääkkeitä/sairauksia; sairauden etiketin väärinkäsitys |
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information.
+Turvalisuustiedoista ja muista teknisistä tiedoista katso lääkkeen valmisteyhteenveto.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Proceed with Guardrails**
+**Päätös: Jatka varauksella**
 
-**Rationale:**
-FMF has L1-grade evidence — five completed Phase 3 trials across the CAPS/TRAPS/FMF autoinflammatory disease family plus an ongoing real-world FMF-inclusive study, and 10+ dedicated FMF publications — and canakinumab already holds this indication in other major markets (FDA/EMA). However, the drug is currently unmarketed locally (0 authorizations), and two Blocking/High-severity data gaps prevent a full safety sign-off.
+**Perustelut:**
+FMF:llä on L1-luokan todisteet — viisi valmistunutta 3. vaiheen tutkimusta CAPS/TRAPS/FMF autoinflammatorisen sairauden perheen poikki sekä käynnissä oleva todellisen maailman FMF-inkluusiivinen tutkimus, sekä 10+ omistautuneet FMF-julkaisut — ja kanakinnumabilla on jo tämä vastainitaatio muilla tärkeillä lainkäyttöalueilla (FDA/EMA). Kuitenkin lääke jää markkinoimatta paikallisesti (0 hyväksyntää), ja kaksi estävää/korkean vakavuusasteen tietoaukoa estävät täydellisen turvallisuuden hyväksymisen.
 
-**To proceed, the following is needed:**
-- Local package insert (warnings, contraindications) — currently a Blocking data gap (DG001)
-- Formal DrugBank/MOA documentation for the local regulatory dossier — currently a High-severity data gap (DG002)
-- Completion of the local drug-drug interaction (DDI) query, currently returning "not found"
-- Confirmation of local filing/registration status and pathway for canakinumab given its current unmarketed status
+**Jatkamisen edellytyksenä vaaditaan:**
+- Paikallinen valmisteyhteenveto (varoitukset, vasta-aiheet) — tällä hetkellä estävä tietoaukko (DG001)
+- Muodollinen DrugBank/MOA-dokumentaatio paikallista sääntelyä varten — tällä hetkellä korkean vakavuusasteen tietoaukko (DG002)
+- Paikallisen lääkintä-lääkkeistön vuorovaikutuksen (DDI) kyselyn valmistuminen, joka tällä hetkellä palauttaa "not found" -tuloksen
+- Kanakinnumabin paikallisen hakemuksen/rekisteröinnin tilan ja reitin vahvistus sen tämänhetkisen markkinoimattomuuden vuoksi
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

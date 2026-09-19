@@ -29,95 +29,94 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-Using the evidence pack's own annotations to select the reporting focus: TxGNN's #1-ranked hit (choroideremia, 99.31%) is explicitly flagged in its own `repurposing_rationale` as likely model noise (no mechanistic link, zero trials, zero literature, recommendation = Hold). Building the whole report around a self-identified false positive would be misleading, so I'm reporting on the highest-scoring prediction that actually carries mechanistic and evidentiary support: **non-cutaneous melanoma** (rank 2, L1/S3, Proceed with Guardrails).
+# Trametinibi: BRAF-mutaation omaavasta ihoperäisestä melanoomasta ei-ihoperäiseen melanoomaan
 
-# Trametinib: From BRAF-Mutant Cutaneous Melanoma to Non-Cutaneous Melanoma
+> **Huomio mallin tuotoksesta:** TxGNN:n yksittäin korkeimmin arvioidussa ennusteessa trametinibille oli *korioideeremia* (pistemäärä 99,31%). Todistusaineiston omassa analyysissä tätä pidettiin todennäköisesti malliperäisenä virheenä — ei mekanistista yhteyttä MEK-estolle, ei kliinisiä tutkimuksia, ei kirjallisuutta ja suositus = Pidättely. Tämä raportti käsittelee sen sijaan seuraavaksi korkeimmin arvioitua, todistusaineistolla tuettua ennustetta: **ei-ihoperäinen melanoma**.
 
-> **Note on model output:** TxGNN's single highest-scoring prediction for trametinib was *choroideremia* (score 99.31%). The evidence pack's own analysis judged this a likely false positive — no mechanistic link to MEK inhibition, no clinical trials, no literature, and a "Hold" recommendation. This report instead covers the next-ranked, evidence-backed prediction: **non-cutaneous melanoma**.
+## Yhden lauseen yhteenveto
 
-## One-Sentence Summary
+Trametinibi on MEK1/2-estäjä, joka on vakiintunut (yhdessä BRAF-estäjä dabrafenibin kanssa) **ihoperäisen** melanooman BRAF V600E/K-mutaatiolle. TxGNN-malli ennustaa lisäksi aktiivisuutta **ei-ihoperäisessä melanoomassa** (limakalvo-, akraalinen, uvea- ja silmä-/sidekalvoperäinen), jonka tueksi on tunnistettu **50 kliinistä tutkimusta** taustalla olevassa BRAF-mutaation sisältävässä melanooma-todistusaineistossa ja **3 tapauskertomusta**, jotka koskevat nimenomaan ei-ihoperäisiä (silmä-/limakalvo-) kohteita.
 
-Trametinib is a MEK1/2 inhibitor established (in combination with the BRAF inhibitor dabrafenib) for BRAF V600E/K-mutant **cutaneous** melanoma. The TxGNN model additionally predicts activity in **Non-Cutaneous Melanoma** (mucosal, acral, uveal, and ocular/conjunctival subtypes), with **50 clinical trials** identified in the underlying BRAF-mutant melanoma evidence base and **3 supporting case-level publications** specific to non-cutaneous (ocular/mucosal) sites.
+## Nopea yleiskatsaus
 
-## Quick Overview
-
-| Item | Content |
+| Kohde | Sisältö |
 |------|------|
-| Original Indication | BRAF V600E/K-mutant cutaneous melanoma (established combination use with dabrafenib; not derivable from Finland regulatory record, see below) |
-| Predicted New Indication | Non-Cutaneous Melanoma |
-| TxGNN Prediction Score | 99.30% |
-| Evidence Level | L1 |
-| Finland Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Alkuperäinen käyttöaihe | BRAF V600E/K-mutaation omaavan ihoperäisen melanooman (vakiintunut yhdistelmäkäyttö dabrafenibin kanssa; ei johdettavissa Suomen sääntelytiedoista, katso alla) |
+| Ennustettu uusi käyttöaihe | Ei-ihoperäinen melanoma |
+| TxGNN-ennusteen pistemäärä | 99,30% |
+| Todistusaineiston taso | L1 |
+| Markkinatilanne Suomessa | Ei markkinoilla (Ei markkinoilla) |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Jatka varoituksin |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on kohtuullinen?
 
-Trametinib is a MEK1/2 inhibitor acting downstream in the RAS-RAF-MEK-ERK signalling pathway. In combination with the BRAF inhibitor dabrafenib, it is an established treatment for BRAF V600E/K mutation-positive melanoma, and this combination has been studied and approved primarily in **cutaneous** melanoma populations.
+Trametinibi on MEK1/2-estäjä, joka vaikuttaa RAS-RAF-MEK-ERK-signalointipolun alajuoksulla. Yhdessä BRAF-estäjä dabrafenibin kanssa se on vakiintunut hoito BRAF V600E/K-mutaation positiivisen melanooman hoitoon, ja tätä yhdistelmää on tutkittu ja hyväksytty pääasiassa **ihoperäisen** melanooman potilasryhmillä.
 
-Non-cutaneous melanoma — encompassing mucosal, acral, uveal, and ocular/conjunctival subtypes — arises from the same melanocyte lineage but carries a lower BRAF V600 mutation prevalence (roughly 15–20% in acral melanoma, versus 50–60% in cutaneous superficial spreading melanoma). Critically, within the BRAF-mutant-positive subgroup of these non-cutaneous subtypes, the driving oncogenic mechanism is identical to cutaneous disease, so MEK inhibition remains mechanistically applicable.
+Ei-ihoperäinen melanoma — johon kuuluvat limakalvo-, akraalinen, uvea- ja silmä-/sidekalvoperäinen melanoma — kehittyy samasta melanosyytti-linjasta, mutta sillä on alempi BRAF V600 -mutaation prevalenssi (noin 15–20 % akraalisessa melanoomassa verrattuna 50–60 %:iin ihoperäisen laajalti leviävän pintamelanoomin tapauksessa). Ratkaisevasti, BRAF-mutaation positiivisen osajoukon sisällä näissä ei-ihoperäisissä alatyypeissä ajava onkogeeninen mekanismi on identtinen ihoperäisen taudin kanssa, joten MEK-esto pysyy mekanistisesti soveltuvana.
 
-Supporting this, case reports of BRAF-mutant conjunctival and lacrimal sac melanoma (ocular/mucosal, i.e. non-cutaneous) describe clinical responses to combined BRAF/MEK inhibition, and a dedicated Phase 2 trial (NCT02083354) specifically enrolled both acral and cutaneous BRAF V600-mutant melanoma patients under a shared dabrafenib + trametinib regimen. The prediction is therefore best framed as "effective in the BRAF-mutant-positive fraction of non-cutaneous melanoma," not the full non-cutaneous population indiscriminately.
+Tätä tukevat BRAF-mutaation positiivisen sidekalvo- ja kyynelrakkomelanoomin (silmä-/limakalvoperäinen, eli ei-ihoperäinen) kliinisiä vasteitä kuvaavat tapauskertomusset yhdistettyyn BRAF/MEK-estoon, sekä erityinen vaihe 2 -tutkimus (NCT02083354), joka rekrytoi nimenomaan sekä akraalisia että ihoperäisiä BRAF V600-mutaation positiivisen melanooman potilaita samalla dabrafenibi + trametinibi -hoitoskeemalla. Ennuste on siis parhaiten ymmärrettävä koskemaan BRAF-mutaation positiivista ei-ihoperäistä melanoomaa, ei ei-ihoperäisen melanooman koko potilasryhmää ilman erottelua.
 
-## Clinical Trial Evidence
+## Kliinisen kokeilun todistusaineisto
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimusnumero | Vaihe | Tilanne | Osallistujat | Keskeiset löydökset |
 |---------|------|------|------|---------|
-| [NCT04961619](https://clinicaltrials.gov/study/NCT04961619) | N/A | Completed | 39 | Real-world observational cohort of adjuvant dabrafenib + trametinib in completely resected high-risk Stage III melanoma (Turkey) |
-| [NCT02224781](https://clinicaltrials.gov/study/NCT02224781) | Phase 3 | Active, not recruiting | 267 | DREAMseq: sequencing of immunotherapy vs. dabrafenib+trametinib in unresectable/metastatic BRAF V600-mutant Stage III-IV melanoma |
-| [NCT02645149](https://clinicaltrials.gov/study/NCT02645149) | Phase 2 | Completed | 216 | Molecular profiling with matched targeted therapy in BRAF/NRAS wild-type and mutant advanced/metastatic melanoma |
-| [NCT02065063](https://clinicaltrials.gov/study/NCT02065063) | Phase 1 | Completed | 28 | Dose-escalation of trametinib + palbociclib (CDK4/6 inhibitor) in solid tumours including melanoma |
-| [NCT01940809](https://clinicaltrials.gov/study/NCT01940809) | Phase 1 | Terminated | 15 | Sequential BRAF-MEK inhibition with CTLA-4/PD-1 blockade, immune biomarker focus, in BRAF-mutant melanoma |
-| [NCT03979651](https://clinicaltrials.gov/study/NCT03979651) | N/A | Completed | 29 | Trametinib + hydroxychloroquine (autophagy inhibition) in NRAS-mutant melanoma |
-| [NCT04949113](https://clinicaltrials.gov/study/NCT04949113) | Phase 3 | Active, not recruiting | 423 | NADINA: neoadjuvant ipilimumab+nivolumab vs. standard adjuvant nivolumab in Stage III melanoma (dabrafenib+trametinib as reference standard arm) |
-| [NCT05668585](https://clinicaltrials.gov/study/NCT05668585) | Phase 1 | Completed | 89 | Safety/tolerability of CFT1946 alone and combined with trametinib in BRAF V600-mutant solid tumours |
-| [NCT05275374](https://clinicaltrials.gov/study/NCT05275374) | Phase 1/2 | Not yet recruiting | 221 | XP-102 ± trametinib in BRAF V600-mutant advanced solid tumours (melanoma, colorectal, NSCLC, thyroid) |
-| [NCT04547946](https://clinicaltrials.gov/study/NCT04547946) | N/A | Completed | 3 | Quality-of-life assessment of adjuvant dabrafenib+trametinib in melanoma (Portugal, real-world) |
+| [NCT04961619](https://clinicaltrials.gov/study/NCT04961619) | N/A | Valmistunut | 39 | Todellisen maailman havainnoiva kohortti adjuvanttina annetusta dabrafenibi + trametinibi -hoitosta täysin poistetun korkean riskin III. vaiheen melanoomasta (Turkki) |
+| [NCT02224781](https://clinicaltrials.gov/study/NCT02224781) | Vaihe 3 | Aktiivinen, ei rekrytointia | 267 | DREAMseq: immunoterapian ja dabrafenibi + trametinibi -hoitosarjan vertailu resektoimattomassa/etäpesäkkeisissä BRAF V600 -mutaation positiivisissa III–IV. vaiheen melanooman potilailla |
+| [NCT02645149](https://clinicaltrials.gov/study/NCT02645149) | Vaihe 2 | Valmistunut | 216 | Molekulaarinen profilointi vastaavalla kohdennetulla hoitokeinolla BRAF/NRAS villityyppi ja mutantti edennyt/etäpesäkkeet melanoomapotilaissa |
+| [NCT02065063](https://clinicaltrials.gov/study/NCT02065063) | Vaihe 1 | Valmistunut | 28 | Annoksen skaalaus trametinibille + palbociklibille (CDK4/6-estäjä) kiinteissä kasvaimissa mukaan lukien melanoma |
+| [NCT01940809](https://clinicaltrials.gov/study/NCT01940809) | Vaihe 1 | Lopetettu | 15 | Peräkkäinen BRAF-MEK-esto CTLA-4/PD-1-estäjillä, immuuni-biomarkkerit painopisteinä BRAF-mutaation positiivisessa melanoomassa |
+| [NCT03979651](https://clinicaltrials.gov/study/NCT03979651) | N/A | Valmistunut | 29 | Trametinibi + hydroksiklorokiini (autofagia-estoaine) NRAS-mutaation positiivisessa melanoomassa |
+| [NCT04949113](https://clinicaltrials.gov/study/NCT04949113) | Vaihe 3 | Aktiivinen, ei rekrytointia | 423 | NADINA: neoadjuvantti ipilimumaabi + nivolumabi vs. normaali adjuvantti nivolumabi III. vaiheen melanoomassa (dabrafenibi + trametinibi vertailustandardin hoitovaihtoehtona) |
+| [NCT05668585](https://clinicaltrials.gov/study/NCT05668585) | Vaihe 1 | Valmistunut | 89 | CFT1946:n turvallisuus/sietävyys yksinään ja yhdessä trametinibin kanssa BRAF V600 -mutaation positiivisissa kiinteissä kasvaimissa |
+| [NCT05275374](https://clinicaltrials.gov/study/NCT05275374) | Vaihe 1/2 | Ei vielä rekrytointia | 221 | XP-102 ± trametinibi BRAF V600 -mutaation positiivisissa edenneissä kiinteissä kasvaimissa (melanoma, paksusuoli, NSCLC, kilpirauhanen) |
+| [NCT04547946](https://clinicaltrials.gov/study/NCT04547946) | N/A | Valmistunut | 3 | Elämänlaadun arviointi adjuvanttina annetusta dabrafenibi + trametinibi -hoitosta melanoomapotilaissa (Portugali, todellisen maailman) |
 
-*Note: none of the above trials specifically restrict enrollment to non-cutaneous melanoma subtypes; NCT02083354 (see acral lentiginous melanoma sub-analysis) is the only identified trial explicitly including a non-cutaneous (acral) arm alongside cutaneous melanoma.*
+*Huomio: yksikään yllä olevista tutkimuksista ei rajoita rekrytointia ei-ihoperäisen melanooman alaryhmiin; NCT02083354 (katso akraalisen lentiginosan melanooman alianalyysi) on ainoa tunnistettu tutkimus, joka sisältää nimenomaan ei-ihoperäisen (akraalisen) ryhmän ihoperäisen melanooman rinnalla.*
 
-## Literature Evidence
+## Kirjallisuustodistusaineisto
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
 |------|-----|------|------|---------|
-| [27893585](https://pubmed.ncbi.nlm.nih.gov/27893585/) | 2017 | Case Report | Ophthalmic Plastic and Reconstructive Surgery | Conjunctival melanoma harbouring BRAF V600E mutation responsive to systemic BRAF/MEK inhibition |
-| [31361915](https://pubmed.ncbi.nlm.nih.gov/31361915/) | 2020 | Case Report | Clinical and Experimental Dermatology | Two cases of BRAF-mutated bulbar conjunctival (epithelioid-type) melanoma; one treated with a BRAF inhibitor for metastatic disease |
-| [31747798](https://pubmed.ncbi.nlm.nih.gov/31747798/) | 2019 | Case Report | Journal of Investigative Medicine High Impact Case Reports | Lacrimal sac malignant melanoma case and review of 15 Japanese patients |
+| [27893585](https://pubmed.ncbi.nlm.nih.gov/27893585/) | 2017 | Tapauskertomus | Ophthalmic Plastic and Reconstructive Surgery | Sidekalvomelanoma, jossa oli BRAF V600E -mutaatio, reagoi systeemiseen BRAF/MEK-estoon |
+| [31361915](https://pubmed.ncbi.nlm.nih.gov/31361915/) | 2020 | Tapauskertomus | Clinical and Experimental Dermatology | Kaksi tapausta BRAF-mutaation omaavasta silmämunan sidekalvomelanoomasta (epiteelioidityyppi); toinen hoidettu BRAF-estäjällä metastaattisen taudin yhteydessä |
+| [31747798](https://pubmed.ncbi.nlm.nih.gov/31747798/) | 2019 | Tapauskertomus | Journal of Investigative Medicine High Impact Case Reports | Kyynelrakkomelanoomin tapaus ja katsaus 15 japanilaiseen potilaaseen |
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Trametinib currently holds **no marketing authorizations on file** (`total_licenses: 0`, `market_status: Not marketed`). No dosage form or product-level data is available to summarize.
+Trametinibilla ei ole tällä hetkellä yhtään markkinointilupia arkistossa (`total_licenses: 0`, `market_status: Not marketed`). Lääkemuoto- tai tuotetietoja ei ole saatavilla yhteenvedettäväksi.
 
-## Cytotoxicity (Antineoplastic Drug)
+## Sytostaattinen vaikutus (syövänvastainen lääke)
 
-Trametinib is antineoplastic (MEK inhibitor used in BRAF-mutant melanoma), so this section applies.
+Trametinibi on sytostaattinen aine (MEK-estäjä käytössä BRAF-mutaation positiivisessa melanoomassa), joten tämä osio koskee sitä.
 
-| Item | Content |
+| Kohde | Sisältö |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (MEK1/2 inhibitor; not a conventional cytotoxic agent) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| Sytostaattisen vaikutuksen luokitus | Kohdennettu hoito (MEK1/2-estäjä; ei perinteinen sytostaattinen aine) |
+| Luuydintukahduksen riski | Katso pakkausseloste, varoitukset ja varotoimet |
+| Pahoinvointiherkkyyden luokitus | Katso pakkausseloste, varoitukset ja varotoimet |
+| Seurantakohteet | Katso pakkausseloste, varoitukset ja varotoimet |
+| Käsittelysuojaus | Katso pakkausseloste, varoitukset ja varotoimet |
 
-## Safety Considerations
+## Turvallisuushuomiot
 
-Please refer to the package insert for safety information. No key warnings, contraindications, or drug-drug interaction data were retrievable at this data cutoff (DDI query status: not found).
+Katso turvallisuustiedot pakkausselosteesta. Merkittävistä varoituksista, vasta-aiheista tai lääkkeiden välisistä yhteisvaikutuksista ei saatu tietoja tiedonkeräyshetkellä (DDI-kyselytila: ei löydetty).
 
-**Flag:** the evidence pack records a **Blocking**-severity data gap (DG001) — the TFDA/package-insert warnings and contraindications for trametinib have not yet been retrieved. This blocks completion of the S1 safety pre-assessment stage and should be resolved before any Go decision.
+**Huomio:** todistusaineiston arkisto dokumentoi **Blocking**-vakavuustason tietovajeen (DG001) — TFDA:n/pakkausselosteen varoitukset ja vasta-aiheet trametinibille eivät ole vielä haettu. Tämä estää S1-vaiheen turvallisuuden esiarviointivaiheen loppuunsaattamisen ja pitää ratkaista ennen Go-päätöstä.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Proceed with Guardrails**
+**Päätös: Jatka varoituksin**
 
-**Rationale:**
-The BRAF-MEK inhibition mechanism is well-validated in BRAF-mutant melanoma broadly (L1 evidence, multiple completed/active Phase 2-3 trials), and case-level evidence supports activity in BRAF-mutant non-cutaneous (ocular/mucosal) melanoma specifically. However, no trial in the evidence base enrolls non-cutaneous melanoma as a primary, subtype-defined population, and BRAF mutation prevalence is markedly lower in non-cutaneous subtypes, so efficacy should be assumed only in BRAF-mutant-positive patients pending dedicated confirmation.
+**Perustelut:**
+BRAF-MEK-esto mekanismi on hyvin validoitu BRAF-mutaation positiivisessa melanoomassa laajasti (L1-todistusaineisto, useita valmistuneita/aktiivisia vaihe 2-3 tutkimuksia), ja tapaskertomustutkimukset tukevat aktiivisuutta BRAF-mutaation positiivisessa ei-ihoperäisessä (silmä-/limakalvo-)melanoomassa nimenomaisesti. Kuitenkaan mikään tutkimus todistusaineistossa ei rekrytoi ei-ihoperäistä melanoomaa ensisijaisena, alaryhmä-määritellytynä potilasryhmänä, ja BRAF-mutaation prevalenssi on huomattavasti matalampi ei-ihoperäisissä alatyypeissä, joten tehokkuus pitää olettaa vain BRAF-mutaation positiivisissa potilaissa kunnes sitä on omistautuneesti vahvistettu.
 
-**To proceed, the following is needed:**
-- Resolve the Blocking data gap (DG001): TFDA/package-insert warnings, contraindications, and DDI profile
-- Confirm mechanism-of-action detail via DrugBank (DG002) to support a fuller mechanistic-relevance assessment
-- Subtype-specific (mucosal/acral/uveal) trial data with BRAF-mutation stratification, since current trials pool cutaneous and non-cutaneous patients
-- Finland/EU regulatory pathway assessment, given the drug currently holds no local marketing authorization
+**Jatkaakseen tarvitaan seuraavaa:**
+- Ratkaise Blocking-tietovahe (DG001): TFDA:n/pakkausselosteen varoitukset, vasta-aiheet ja DDI-profiili
+- Vahvista vaikutusmekanismin yksityiskohdat DrugBankin kautta (DG002) tukeakseen kokonaisvaltaisempaa mekanismin relevanttisuuden arviointia
+- Alaryhmä-spesifinen (limakalvo-/akraalinen-/uvea-) tutkimusdata BRAF-mutaation stratifikaatiolla, koska nykyvaiheessa olevissa tutkimuksissa yhdistetään ihoperäisiä ja ei-ihoperäisiä potilaita
+- Suomen/EU-sääntelyradan arviointi, koska lääkkeellä ei ole tällä hetkellä paikallista markkinointilupia
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

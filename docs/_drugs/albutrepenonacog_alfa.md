@@ -29,76 +29,77 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Albutrepenonacog Alfa: From Haemophilia B to Pseudo-von Willebrand Disease
+# Albutrepenonacog alfa: Hemofiliasta B pseudo-von Willebrandi tautiin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Albutrepenonacog alfa is a recombinant Factor IX–albumin fusion protein, originally developed to treat and prevent bleeding in Haemophilia B (congenital Factor IX deficiency). The TxGNN model predicts it may also be effective for **Pseudo-von Willebrand disease**, but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the evidence pack's own mechanistic review flags the biological rationale as weak.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Haemophilia B / congenital Factor IX deficiency *(inferred from drug identity — not present in evidence pack; `original_indications` and `taiwan_regulatory.licenses` are both empty)* |
-| Predicted New Indication | Pseudo-von Willebrand disease |
-| TxGNN Prediction Score | 99.94% (rank 878 among model predictions) |
-| Evidence Level | L5 |
-| Finland Market Status | ✗ Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+Albutrepenonacog alfa on rekombinantti IX tekijä–albumiini-fuusioproteiiini, joka on alun perin kehitetty verenvuodosta ehkäisemiseen ja hoitoon hemofiliassa B (synnynnäinen IX tekijän puutos). TxGNN-malli ennustaa, että se saattaa olla tehokas myös **pseudo-von Willebrandi taudissa**, mutta tämä ennuste on tällä hetkellä tuettu **0 kliinisellä tutkimuksella** ja **0 julkaisulla**, ja todistusten paketin oma mekanistinen arvio merkitsee biologista perustelua heikoksi.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap, DG002). Based on known drug classification, albutrepenonacog alfa is a recombinant Factor IX molecule fused to albumin to extend half-life, and its efficacy in Haemophilia B — a **coagulation factor deficiency** affecting the secondary (plasmatic) haemostasis pathway — is well established.
-
-However, the mechanistic plausibility for the top predicted indication is weak. Pseudo-von Willebrand disease is caused by a **gain-of-function mutation in the platelet GPIbα receptor**, which increases its affinity for von Willebrand factor. This is a **platelet receptor defect**, not a clotting factor deficiency — Factor IX supplementation does not correct abnormal receptor-ligand binding, and the evidence pack's own repurposing rationale explicitly characterizes the mechanistic link as sharing only a superficial "bleeding tendency" phenotype rather than a shared pathway.
-
-Notably, the evidence pack surfaces five additional TxGNN-ranked candidates in the same score band (0.9994–0.9928), all of which are **primary haemostasis / platelet disorders** rather than coagulation factor deficiencies: primary platelet release disorder, Glanzmann thrombasthenia, Scott syndrome, collagen receptor–related bleeding diathesis, and thrombocytopenia-related bleeding disorder. Each carries the same L5 evidence level and the same internally-documented caveat that Factor IX has no established mechanism to correct platelet-level defects. This consistent pattern suggests the model is clustering diseases by shared "bleeding disorder" phenotype embeddings rather than identifying a genuine, actionable pharmacological pathway — a pattern that warrants caution rather than immediate pursuit.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Hemofilia B / synnynnäinen IX tekijän puutos *(johdettu lääkkeen identiteetistä — ei läsnä todistusten paketissa; `original_indications` ja `taiwan_regulatory.licenses` ovat molemmat tyhjät)* |
+| Ennustettu uusi indikaatio | Pseudo-von Willebrandi tauti |
+| TxGNN-ennustepistemäärä | 99.94% (sijoitus 878 malliennusteiden joukossa) |
+| Todistustaso | L5 |
+| Suomen markkinatilanne | ✗ Ei markkinoitu (Ei markkinoitu) |
+| Lupien määrä | 0 |
+| Suositeltu päätös | **Odota** |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennuste on kohtuullinen?
 
-Currently no related literature available.
+Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla (merkitty korkean vakavuusasteen tietovajeeksi, DG002). Tunnetun lääkkeen luokituksen perusteella albutrepenonacog alfa on rekombinantti IX tekijä -molekyyli, joka on yhdistetty albumiiniin puoliintumisajan pidentämiseksi, ja sen tehokkuus hemofiliassa B — **koagulaatiotekijän puutoksesta johtuvassa** sekundaarisen (plasmaattisen) hemostaasin häiriössä — on hyvin vakiintunut.
 
----
+Kuitenkin mekanistinen uskottavuus parhaiten ennustetulle indikaatiolle on heikko. Pseudo-von Willebrandi tautia aiheuttaa **verihiuttaleen GPIbα-reseptorin kasvavuutta muunnos**, joka lisää sen affiniteettia von Willebrandi tekijää kohtaan. Tämä on **verihiuttaleen reseptorihäiriö**, ei veren hyytymistekijän puutos — IX tekijän lisääminen ei korjaa poikkeavaa reseptori-ligandi-sitoutumista, ja todistusten paketin oma uudelleenkäyttöperustelua selvästi karakterisoi mekanistisen yhteyden jakavaksi vain pinnallista "verenvuodotaipumusta" fenotyyppiä pelkkien oireiston saman reitin sijaan.
 
-## Finland Market Information
-
-The drug is currently **not marketed** in Finland (`market_status: Not marketed`, `total_licenses: 0`), and no authorization records are available in the evidence pack.
+Huomionarvoista on, että todistusten paketti nostaa esiin viisi muuta TxGNN-sijoituksella varustetua ehdokasta samassa pistemäärän kaistalessa (0.9994–0.9928), jotka kaikki ovat **primaarisen hemostaasin / verihiuttaleen häiriöitä** eikä koagulaatiotekijän puutoksia: primaarinen verihiuttaleiden vapautushäiriö, Glanzmannin trombasthenia, Scottin oireyhtymä, kollageenireseptoriin liittyvä verenvuodotahäiriö ja verihiuttalemäärään liittyvä verenvuodotahäiriö. Jokainen sisältää saman L5-todistustason ja saman sisäisesti dokumentoidun varoituksen, että IX tekijällä ei ole vakiintunutta mekanismia verihiuttaletason defektien korjaamiseksi. Tämä johdonmukainen kuvio viittaa siihen, että malli klusteroi sairauksia jaettujen "verenvuodotahäiriö" fenotyypin upotuksien perusteella eikä tunnista todellista, toimintakelpoista farmakologista reittiä — kuvio, joka vaatii varovaisuutta pikaisemman etenemisen sijaan.
 
 ---
 
-## Safety Considerations
+## Kliinisen tutkimuksen todisteet
 
-Please refer to the package insert for safety information.
-
-*(Note: `key_warnings`, `contraindications`, and drug-drug interaction data are all marked as data gaps in this evidence pack. TFDA package insert warnings/contraindications are flagged as a **Blocking**-severity gap (DG001), meaning this candidate cannot yet complete an S1 safety pre-assessment.)*
+Tällä hetkellä ei ole liittyviä klinisia tutkimuksia rekisteröitynä.
 
 ---
 
-## Conclusion and Next Steps
+## Kirjallisuuden todisteet
 
-**Decision: Hold**
+Tällä hetkellä ei ole liittyvää kirjallisuutta saatavilla.
 
-**Rationale:**
-The predicted indication is supported only by a TxGNN model score with no corroborating clinical trials or literature (Evidence Level L5), and the evidence pack's own mechanistic analysis concludes that Factor IX replacement has no established biological pathway to correct the underlying platelet receptor defect in pseudo-von Willebrand disease. Combined with a Blocking-severity gap in TFDA safety/label data, this candidate is not ready to advance past initial screening.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings, contraindications) — currently blocking S1 safety review
-- Confirmed mechanism of action data for albutrepenonacog alfa
-- Preclinical or translational studies directly testing Factor IX supplementation in platelet-receptor-defect bleeding disorders, to establish biological plausibility before further investment
-- Re-screening of TxGNN output to distinguish genuine mechanistic candidates from phenotype-clustering artifacts (given 6 similarly-scored, similarly-weak platelet-disorder predictions)
+## Suomen markkinatiedot
+
+Lääke ei ole tällä hetkellä **markkinoitu** Suomessa (`market_status: Not marketed`, `total_licenses: 0`), eikä todistusten paketissa ole saatavilla mitään lupahallintotietueita.
+
+---
+
+## Turvallisuusnäkökohdat
+
+Katso turvallisuustiedot pakkausselosteesta.
+
+*(Huomautus: `key_warnings`, `contraindications` ja lääkkeiden väliset yhteisvaikutuksien tiedot on kaikki merkitty tietovajeiksi tässä todistusten paketissa. TFDA:n pakkausselosteen varoitukset/vasta-aiheet on merkitty **estäväksi** vakavuuden vajeeksi (DG001), mikä tarkoittaa, että tätä ehdokasta ei voida vielä suorittaa S1-turvallisuus-esiarviointia.)*
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Odota**
+
+**Perustelut:**
+Ennustetulla indikaatiolla on tukenaan vain TxGNN-mallin pistemäärä, jolla ei ole tukevia klinisiä tutkimuksia tai kirjallisuutta (todistustaso L5), ja todistusten paketin oma mekanistinen analyysi päättelee, että IX tekijän korvaaminen ei ole vakiintuneet biologisen reitin korjaamaan pseudo-von Willebrandi taudin taustalla olevan verihiuttaleen reseptorin vika. TFDA-turvallisuus-/merkintätiedon estävän vakavuuden vajeeseen yhdessä ottaen, tämä ehdokas ei ole valmis etenemään alkuperäisen seulonnan yli.
+
+**Jotta voidaan edetä, tarvitaan seuraavaa:**
+- TFDA:n pakkausseloste (varoitukset, vasta-aiheet) — tällä hetkellä estävät S1-turvallisuusarvion
+- Albutrepenonacog-alfan vahvistetut vaikutusmekanismin tiedot
+- Prekliniikat tai translatiiviset tutkimukset, jotka suoraan testaavat IX tekijän lisäämistä verihiuttaleen-reseptori-vika-verenvuodotahäiriöissä, vakiinnuttaakseen biologisen uskottavuuden ennen lisäinvestointeja
+- TxGNN-lähdön uudelleenseulonta erottaakseen todelliset mekanistiset ehdokkaat fenotyyppi-klusteroinnin artefakteista (annettu 6 samalla tavalla pisteytettynä, samalla tavalla heikosti plateaalisesti häiriöiden ennusteina)
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

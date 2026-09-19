@@ -29,60 +29,61 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Cabotegravir: From HIV-1 Infection to Rheumatoid Arthritis
+# Cabotegravir: HIV-1-infektiosta reumatoidiartriittiin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Cabotegravir is an HIV-1 integrase strand transfer inhibitor (INSTI), with its established clinical use limited to HIV-1 prevention and treatment. The TxGNN model predicts it may be effective for **Rheumatoid Arthritis**, but this direction is currently supported by **0 clinical trials** and **0 publications**, and the model's own mechanistic review found no known biological pathway connecting HIV integrase inhibition to rheumatoid inflammation.
+Cabotegravir on HIV-1-integraasi-paikkasiirtoinhibiittori (INSTI), jonka vakiintunut kliininen käyttö rajoittuu HIV-1-ehkäisyyn ja -hoitoon. TxGNN-malli ennustaa, että se saattaa olla tehokas **reumatoidiartriitissa**, mutta tätä suuntaa tukee tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua**, ja mallin oman mekanismisen analyysin mukaan ei ole tunnettua biologista polkua, joka yhdistäisi HIV-integraasi-inhibiition reumaattiseen inflammaatioon.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohde | Sisältö |
 |------|------|
-| Original Indication | Not on file in the Finland registry (drug is unmarketed); known pharmacology is HIV-1 infection via integrase inhibition |
-| Predicted New Indication | Rheumatoid Arthritis |
-| TxGNN Prediction Score | 99.45% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Finland Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen käyttöaihe | Ei merkitty Suomen rekisteriin (lääke on markkinoimaton); tunnettu farmakologia on HIV-1-infektio integraasi-inhibiition kautta |
+| Ennustettu uusi käyttöaihe | Reumatoidiartriitti |
+| TxGNN-ennustepisteet | 99.45% |
+| Näytön taso | L5 (vain mallin ennuste, ei tukevia tutkimuksia) |
+| Suomen markkinatilanne | ✗ Markkinoimaton |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltava päätös | Pidättäminen |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Detailed mechanism-of-action data is not available in the structured drug record (marked as a data gap). What is known from the evidence pack's own mechanistic review is that cabotegravir is an INSTI — its only established pharmacological activity is inhibition of the HIV-1 integrase enzyme, which blocks viral DNA integration into the host genome.
+Yksityiskohtaisia vaikutusmekanismitietoja ei ole saatavilla strukturoidussa lääketietueessa (merkitty tietovajeeksi). Näytöpaketin omasta mekanismisesta arvioinnista tiedetään, että cabotegravir on INSTI — sen ainoa vahvistettu farmakologinen vaikutus on HIV-1-integraasi-entsyymin estäminen, joka estää viruksen DNA:n integroitumisen isäntägenoomiin.
 
-There is no structural or pathway overlap between this mechanism and the immune-inflammatory pathways implicated in rheumatoid arthritis (e.g., TNF-α, IL-6, JAK-STAT signaling). The evidence pack's repurposing rationale explicitly states this: the high TxGNN score reflects **knowledge-graph topological similarity only**, not a biologically grounded hypothesis.
+Tämän mekanismin ja reumatoidiartriittiin liittyvien immuuni-inflammatoristen polkujen (esim. TNF-α, IL-6, JAK-STAT-signalointi) välillä ei ole rakenteellista tai polkujen päällekkäisyyttä. Näytöpaketissa tämä ilmaistaan eksplisiittisesti: korkea TxGNN-pisteet heijastaa **ainoastaan tietokaavion topologista samankaltaisuutta**, ei biologisesti perusteltua hypoteesia.
 
-The same pattern holds across the other four TxGNN-ranked candidates for this drug (sclerosing cholangitis, bronchitis, a rare developmental syndrome, and diabetic retinopathy) — each carries a similarly high score but no corroborating mechanistic, trial, or literature evidence. This suggests the model's embedding space for cabotegravir may be sparse or noisy, and none of the five predictions currently rise above a pure model-score signal.
+Sama malli koskee muita neljää TxGNN-luokiteltua kandidaattia tälle lääkkeelle (sklerosoiva koleangitis, keuhkoputkentulehdus, harvinainen kehitysoireyhtymä ja diabeettinen retinopatia) — jokainen kantaa samankaltaisen korkean pisteen, mutta ilman tukevia mekanismisia, kokeellisia tai kirjallisuuden näyttöjä. Tämä viittaa siihen, että mallin upotusavaruus cabotegravirille saattaa olla harva tai meluisa, eikä mikään viidestä ennusteesta nouse tällä hetkellä puhtaan mallin pisteen signaalin yläpuolelle.
 
-## Clinical Trial Evidence
+## Kliinisen kokeen näyttö
 
-Currently no related clinical trials registered.
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-Currently no related literature available.
+Tällä hetkellä ei ole saatavilla asiaan liittyviä julkaisuja.
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Cabotegravir is not currently marketed in Finland — no marketing authorizations are on file (0 licenses registered).
+Cabotegravir ei ole tällä hetkellä markkinoitu Suomessa — mikään markkinointilupa ei ole rekisterissä (0 lupaa rekisteröity).
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information. Note: retrieval of the Finnish/EU package insert warnings and contraindications for cabotegravir is flagged as a **blocking data gap** in this evidence pack, meaning this candidate cannot yet proceed to a formal S1 safety pre-assessment.
+Katso turvallisuustiedot pakkausselosteesta. Huomautus: cabotegraviirin suomalaisen/EU:n pakkauseloste varoituksien ja vasta-aiheisten hankinta on merkitty tässä näytöpaketissa **estävän tietovajeeksi**, mikä tarkoittaa, että tämä kandidaatti ei voi vielä edetä viralliseen S1-turvallisuuden esiarviointiin.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidättäminen**
 
-**Rationale:**
-The prediction rests entirely on TxGNN's model score (L5, S0) with no clinical trials, no literature, and an explicit lack of mechanistic plausibility linking cabotegravir's INSTI activity to rheumatoid arthritis. Combined with the unmarketed status in Finland and a blocking gap in safety/label data, there is currently no basis to advance this candidate.
+**Perustelut:**
+Ennuste perustuu pelkästään TxGNN:n mallin pisteisiin (L5, S0), ilman kliinisiä tutkimuksia, ilman kirjallisuutta ja eksplisiittisen mekanismisen uskottavuuden puuttuessa, joka yhdistäisi cabotegraviirin INSTI-aktiviteetin reumatoidiartriittiin. Yhdessä markkinoimattoman aseman kanssa Suomessa ja estävän turvallisuus-/merkintätietojen puuttuessa ei ole tällä hetkellä perusteita edetä tämän kandidaatin kanssa.
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert warnings and contraindications (currently blocking — required before any S1 safety screening)
-- Confirmed mechanism-of-action documentation from DrugBank or an equivalent primary source
-- Preclinical or mechanistic studies establishing biological plausibility for an immune-inflammatory indication
-- Ongoing monitoring for any emerging trials or literature on cabotegravir outside HIV, given the current absence of both
+**Edetäkseen seuraavaa tarvitaan:**
+- TFDA:n/Fimean pakkauseloste varoitukset ja vasta-aiheet (tällä hetkellä estävä — vaaditaan ennen mitään S1-turvallisuuden seulontaa)
+- Vahvistettu vaikutusmekanismin dokumentaatio DrugBankista tai vastaavasta ensisijaisesta lähteestä
+- Prekliinisiä tai mekanismisia tutkimuksia, jotka osoittavat biologisen uskottavuuden immuuni-inflammatoriselle käyttöaiheelle
+- Jatkuva seuranta ilmaantuvista tutkimuksista ja julkaisuista cabotegravirista HIV:n ulkopuolella, koska molemmat puuttuvat tällä hetkellä
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

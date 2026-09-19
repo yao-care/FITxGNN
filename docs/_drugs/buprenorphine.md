@@ -29,78 +29,79 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Buprenorphine: From Opioid Dependence to Acute Intermittent Porphyria
+# Buprenorfiini: opioidiripppuvuudesta akuuttiin intermittenttiin porfyriaan
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Buprenorphine is a partial opioid receptor agonist established for opioid dependence and pain management. The TxGNN model predicts a possible link to **Acute Intermittent Porphyria (AIP)**, but this is currently supported by only **0 clinical trials** and **1 case report**, and that single report describes buprenorphine being chosen for its favorable safety profile during anesthesia in an AIP patient — not evidence that it treats AIP itself.
+Buprenorfiini on osittainen opioidireseptorin agonisti, joka on vakiintunut opioidiripppuvuuden ja kivun hoidon lääkeaine. TxGNN-malli ennustaa mahdollista yhteyttä **akuuttiin intermittenttiin porfyriaan (AIP)**, mutta tätä tukee tällä hetkellä vain **0 kliinistä tutkimusta** ja **1 potilastapaus**, ja kyseinen yksittäinen raportti kuvaa, kuinka buprenorfiini valittiin sen edullisen turvallisuusprofiilin perusteella AIP-potilaan anestesiassa — ei näyttöä siitä, että se hoitaisi itse AIP-tautia.
 
 ---
 
-## Quick Overview
+## Pikaisnäkymä
 
-| Item | Content |
+| Kohde | Sisältö |
 |------|------|
-| Original Indication | Opioid dependence / analgesia (general established use; no Finland-specific approved indication text available — drug is not marketed in Finland) |
-| Predicted New Indication | Acute Intermittent Porphyria |
-| TxGNN Prediction Score | 99.41% |
-| Evidence Level | L4 |
-| Finland Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen käyttöaihe | Opioidiripppuvuus / analgesia (yleinen vakiintunut käyttö; Suomi-spesifistä hyväksyttyä käyttöaihetta ei saatavilla — lääkettä ei markkinoida Suomessa) |
+| Ennustettu uusi käyttöaihe | Akuutti intermittentti porfyria |
+| TxGNN-ennustepisteet | 99.41% |
+| Evidenssitaso | L4 |
+| Suomen markkinatilanne | Ei markkinoilla |
+| Hyväksymisien lukumäärä | 0 |
+| Suositeltu päätös | Pidätä |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on perusteltu?
 
-Currently, detailed mechanism of action data is not available (DrugBank MOA query returned a data gap). Based on general pharmacological knowledge, buprenorphine is a partial μ-opioid receptor agonist / κ-antagonist used for opioid dependence and pain control; it is not established as a disease-modifying agent for porphyric conditions.
+Tällä hetkellä yksityiskohtaista vaikutusmekanismin tietoa ei ole saatavilla (DrugBank MOA -kysely paljasti tietoaukkon). Yleisen farmakologisen tiedon perusteella buprenorfiini on osittainen μ-opioidireseptorin agonisti / κ-antagonisti, jota käytetään opioidiripppuvuuden ja kivun hallintaan; sitä ei ole vakiintunut käyttämään porfyriatautien muokkaavana aineena.
 
-The single supporting publication (a 1993 Japanese anesthesiology case report) does not evaluate buprenorphine as a treatment for acute intermittent porphyria. Instead, it describes an anesthetic management decision: buprenorphine was selected as a comparatively "porphyrinogenic-safe" opioid for a patient with suspected AIP undergoing unrelated cancer surgery, because opioids metabolized outside the hepatic cytochrome pathways implicated in porphyric attacks are conventionally preferred in this setting.
+Ainoaa tukevaa julkaisua (1993 japanilainen anestesiologian potilastapaus) ei arvioida buprenorfiinin hoitona akuutille intermitentille porfyrialle. Sen sijaan siinä kuvataan anestesian hallintapäätös: buprenorfiini valittiin suhteellisen "porfyria-turvalliseksi" opioidiksi potilaan kohdalla, jolla oli epäilty AIP ja joka oli menossa sairauden kanssa liittymättömään syöpäleikkaukseen, koska perinteisesti suositaan opioideita, joita metaboloidaan muilla kuin hepatiikan kytokromi-reiteillä, sillä nämä reitit ovat kytköksissä porfyytritauksiin.
 
-Given this, the TxGNN prediction likely reflects a co-occurrence pattern — buprenorphine appearing on lists of "AIP-safe" perioperative drugs — rather than a genuine treatment-efficacy signal. There is no mechanistic rationale connecting opioid receptor activity to heme biosynthesis pathway modulation, which is the actual driver of AIP pathophysiology. This assessment is consistent with the lower-ranked predictions in this evidence pack (lingual-facial-buccal dyskinesia, chronic tic disorder, etc.), which similarly show literature describing incidental buprenorphine use in unrelated contexts rather than therapeutic evidence for those conditions.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+Tämän perusteella TxGNN-ennuste heijastaa todennäköisesti rinnakkaisuuskuviota — buprenorfiini esiintyy "AIP-turvallisten" perioperatiivisten lääkkeiden luetteloissa — pikemminkin kuin todellista hoitovaikuttavuussignaalia. Puuttuu mekanistinen selitys opioidireseptorin aktivaation ja heemin biosynteesin reitin modulaation väliselle yhteydelle, mikä on AIP-patofysiologian todellinen ajuri. Tämä arvio on yhdenmukainen tämän todistepaketin alemman sijoituksen saaneiden ennusteiden kanssa (kielellinen-kasvonaalinen-bukkaali dyskinesia, krooninen tic-häiriö jne.), joissa samoin kuvataan buprenorfiinin satunnaista käyttöä liittymättömissä yhteyksissä pikemminkin kuin terapeuttista näyttöä näille sairauksille.
 
 ---
 
-## Literature Evidence
+## Kliinisen tutkimuksen näyttö
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [8301837](https://pubmed.ncbi.nlm.nih.gov/8301837/) | 1993 | Case Report | Masui (The Japanese Journal of Anesthesiology) | Anesthetic management case of a patient with suspected acute intermittent porphyria undergoing gynecologic cancer surgery; buprenorphine was among agents used as part of a porphyria-safe anesthetic regimen. Not a treatment-efficacy study for AIP. |
+Tällä hetkellä ei ole liittyvää kliinistä tutkimusta rekisteröitynä
 
 ---
 
-## Finland Market Information
+## Kirjallisuuden näyttö
 
-Buprenorphine is not currently marketed in Finland; no marketing authorizations are on record in this evidence pack.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Note: TFDA/Fimea package insert warnings and contraindications are flagged as a **Blocking** data gap (DG001) — this must be resolved before any Stage 1 safety assessment can proceed.)*
+| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät havainnot |
+|------|------|--------|------|------------|
+| [8301837](https://pubmed.ncbi.nlm.nih.gov/8301837/) | 1993 | Potilastapaus | Masui (The Japanese Journal of Anesthesiology) | Anestesian hallintapotilastapausta potilaasta, jolla epäiltiin akuuttia intermittenttia porfyriaa ja joka oli menossa naistenleikkaukseen syövälle; buprenorfiini kuului porfyria-turvallisen anestesiointikäytännön lääkkeisiin. Ei ole hoitovaikuttavuustutkimus AIP:lle. |
 
 ---
 
-## Conclusion and Next Steps
+## Suomen markkinatiedot
 
-**Decision: Hold**
+Buprenorfiinia ei ole tällä hetkellä markkinoitu Suomessa; tässä todistepaketin lähteissä ei ole markkinointilupaa.
 
-**Rationale:**
-The top-ranked prediction (Acute Intermittent Porphyria) rests on a single 1993 case report describing a safety-motivated drug choice, not therapeutic evidence — evidence level L4 with zero clinical trials. All other predicted indications in this pack score even lower (L4–L5) and their supporting literature is explicitly assessed as incidental or noise-driven co-occurrence rather than mechanistic support.
+---
 
-**To proceed, the following is needed:**
-- DrugBank MOA data to properly evaluate mechanistic plausibility (DG002)
-- TFDA/Fimea package insert warnings and contraindications — currently a Blocking gap (DG001)
-- Dedicated preclinical or mechanistic studies linking opioid receptor activity to heme biosynthesis/porphyria pathophysiology
-- Any prospective clinical data (even observational) specifically evaluating buprenorphine as an AIP treatment, rather than as an incidental anesthetic choice
+## Turvallisuusnäkökohdat
+
+Katso pakkausselosteesta turvallisuustiedot.
+
+*(Huomio: TFDA/Fimea-pakkausseloste varoitukset ja vasta-aiheet on merkitty **blokkavaksi** tietoaukoksi (DG001) — tämä on ratkaistava ennen kuin voidaan edetä Stage 1 turvallisuusarvioinnissa.)*
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidätä**
+
+**Perustelut:**
+Korkein sijoittunut ennuste (Akuutti intermittentti porfyria) perustuu yksittäiseen 1993 potilastapauksen raporttiin, jossa kuvataan turvallisuusperusteltu lääkkeen valinta, ei terapeuttinen näyttö — evidenssitaso L4 ilman kliinisiä tutkimuksia. Kaikki muut tässä paketissa ennustetut käyttöaiheet saavat vielä pienemmät pisteet (L4–L5) ja niiden tukeva kirjallisuus on nimenomaisesti arvioitu satunnaiseksi tai häiriöihin perustuvaksi rinnakkaisuudeksi eikä mekanistiseksi tueksi.
+
+**Seuraavaa on tarpeen jatkon kannalta:**
+- DrugBank MOA -tiedot mekanistisen uskottavuuden oikeaksi arvioimiseksi (DG002)
+- TFDA/Fimea-pakkausseloste varoitukset ja vasta-aiheet — tällä hetkellä blokkava aukko (DG001)
+- Esikliiniset tai mekanistiset tutkimukset, jotka nimenomaisesti yhdistävät opioidireseptorin aktivaation heemin biosynteesin / porfyria-patofysiologiaan
+- Prospektiiviset kliiniset tiedot (myös havainnolliset), joissa nimenomaisesti arvioidaan buprenorfiinia AIP-hoitona — ei pelkästään satunnaisena anesteettisenä valintana
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -29,60 +29,61 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Ropeginterferon Alfa-2b: From Unspecified Indication to Laubry-Pezzi Syndrome (Low-Confidence Signal)
+# Ropeginterferon alfa-2b: määrittämättömästä indikaatiosta Laubry-Pezzi-syndroomaan (heikko luottamussignaali)
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Ropeginterferon alfa-2b's original approved indication and mechanism of action are not available in this evidence pack (blocking data gap), so the origin-to-new-indication link cannot be independently verified. TxGNN's top-ranked candidate, **Laubry-Pezzi syndrome** (a congenital cardiac structural defect), has **0 clinical trials** and **0 publications** supporting it, and the model's own rationale text flags it as mechanistically implausible. None of the top 10 predicted indications is backed by meaningful real-world evidence — the one candidate with literature support appears to be a disease-label mapping error rather than a genuine new signal (see note below).
+Ropeginterferon alfa-2b:n alkuperäinen hyväksytty indikaatio ja vaikutusmekanismi eivät ole saatavilla tässä todistusaineistossa (esto: tietovaje), joten alkuperän ja uuden indikaation välistä yhteyttä ei voida vahvistaa riippumattomasti. TxGNN:n korkeimmin sijoittunut kandidaatti, **Laubry-Pezzi-syndrooma** (synnynnäinen sydämen rakennevika), on saanut tukeensa **0 kliinistä tutkimusta** ja **0 julkaisua**, ja mallin oma perusteluteksti merkitsee sitä mekanistisesti epätodennäköiseksi. Mitään 10:stä korkeimmin ennustetusta indikaatiosta ei tueta merkittävällä todellisen maailman näytöllä — ainoa kirjallisuuden tuella oleva ehdokas näyttää olevan sairauden tunnisteen kartoitusvirhe pikemminkin kuin aito uusi signaali (katso huomautus alla).
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available — no approved indication data provided in this evidence pack |
-| Predicted New Indication | Laubry-Pezzi syndrome |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L5 |
-| Finland Market Status | ✗ Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Ei saatavilla — hyväksyttyä indikaatiota koskevia tietoja ei ole annettu tässä todistusaineistossa |
+| Ennustettu uusi indikaatio | Laubry-Pezzi-syndrooma |
+| TxGNN:n ennustepistemäärä | 99.93% |
+| Todistustasolle | L5 |
+| Suomen markkinatilanne | ✗ Ei markkinoilla (Ei markkinoilla) |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Odota |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on perusteltu?
 
-Detailed mechanism of action data is currently not available (`original_moa: [Data Gap]`), and no original indication was provided, so the mechanistic bridge between Ropeginterferon alfa-2b's known pharmacology and its original use cannot be confirmed from this pack.
+Yksityiskohtaisia vaikutusmekanismin tietoja ei tällä hetkellä ole saatavilla (`original_moa: [Data Gap]`), eikä alkuperäistä indikaatiota annettu, joten mekanistinen silta Ropeginterferon alfa-2b:n tunnetun farmakologian ja sen alkuperäisen käytön välillä ei voida vahvistaa tästä aineistosta.
 
-Based on the evidence pack's own rationale, this prediction is **not** biologically well-supported: Laubry-Pezzi syndrome is a congenital structural heart defect (ventricular septal defect with aortic valve prolapse/regurgitation). The model's mechanistic-link text explicitly states that Ropeginterferon alfa-2b acts through JAK-STAT signaling and immune modulation, with no known pathway affecting cardiac structural development or valve/septal repair — meaning there is no plausible biological rationale connecting drug and disease. This pattern (highest model score, zero evidence, zero plausibility) repeats across ranks 2–5 and 7–10, all of which are congenital/structural or chromosomal disorders with the same "no biological rationale, no evidence" profile.
+Todistusaineiston omaan perusteluun perustuen tämä ennuste **ei ole** biologisesti hyvin tuettu: Laubry-Pezzi-syndrooma on synnynnäinen sydämen rakennevika (kammiosepta-aukon kanssa aortan läppävian/vuodon kanssa). Mallin mekanistisen yhteyden teksti nimenomaisesti toteaa, että Ropeginterferon alfa-2b vaikuttaa JAK-STAT-signaloinnin ja immuunimodulaation kautta, eikä tunnetusta polusta vaikuta sydämen rakenteen kehitykseen tai läppä-/septa-korjaukseen — mikä tarkoittaa, että lääkkeen ja taudin välillä ei ole uskottavaa biologista rationaalia. Tämä kuvio (korkein mallin pistemäärä, nolla näyttöä, nolla uskottavuutta) toistuu sijoituksissa 2–5 ja 7–10, joiden kaikki ovat synnynnäisiä/rakenteellisia tai kromosomaalisia häiriöitä, joilla on sama "ei biologista rationaalia, ei näyttöä" profiili.
 
-**Important data-quality note:** the one candidate in this list with actual literature support — rank 6, "disorder of fucoglycosan synthesis" — is very likely a disease-ontology mapping error. All 4 attached publications discuss **polycythemia vera (PV)**, a real hematologic disorder for which interferon-α agents (including ropeginterferon alfa-2b) have established JAK2V617F-suppressing, cytoreductive activity — not a "glycan synthesis disorder," which is not a recognized clinical entity. This suggests the TxGNN disease node was mislabeled, and the actual signal worth investigating is Ropeginterferon alfa-2b in PV, not the label as printed.
+**Tärkeä tiedon laadun huomautus:** ainoa ehdokas tässä luettelossa, jolla on todellinen kirjallisuuden tuki — sijoitus 6, "fukoglykosaanin synteesiä koskevan häiriö" — on erittäin todennäköisesti sairauden ontologian kartoitusvirhe. Kaikki 4 liitettyä julkaisua käsittelevät **polycythemia vera (PV)** -tautia, todellista hematologista häiriötä, jolle interferoni-α-agentteja (mukaan lukien ropeginterferon alfa-2b) on perustettu JAK2V617F-estävä, sytoreduktiivinen aktiivisuus — ei "glykaanin synteesi-häiriötä", joka ei ole tunnustettu kliininen kokonaisuus. Tämä viittaa siihen, että TxGNN-tautisolmu oli virheellisesti merkitty, ja todellinen tutkimisen arvoinen signaali on Ropeginterferon alfa-2b PV:ssä, eikä tulostettua merkintää.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-Currently no related clinical trials registered.
+Tällä hetkellä ei ole rekisteröityjä asiaa koskevia kliinisiä tutkimuksia.
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-Currently no related literature available for Laubry-Pezzi syndrome.
+Tällä hetkellä ei ole saatavilla kirjallisuutta Laubry-Pezzi-syndroomasta.
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Ropeginterferon alfa-2b is currently not marketed in Finland; no marketing authorizations were found.
+Ropeginterferon alfa-2b ei ole tällä hetkellä markkinoilla Suomessa; markkinointivaltuuksia ei löytynyt.
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information.
+Lisätietoja turvallisuudesta löytyy pakkausselosteesta.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Odota**
 
-**Rationale:**
-All 10 top-ranked TxGNN predictions for this drug are Evidence Level L5 (model prediction only), with the top candidate (Laubry-Pezzi syndrome) explicitly flagged by the model's own rationale as mechanistically implausible and unsupported by any trial or literature evidence. No original indication or MOA data is available to assess plausibility independently, and the drug is not currently marketed in Finland.
+**Perustelut:**
+Kaikki 10 parhaiten TxGNN:n ennustamaa tämän lääkkeen indikaatiota ovat todistustasolle L5 (mallin ennuste ainoastaan), ja ylin ehdokas (Laubry-Pezzi-syndrooma) on nimenomaisesti merkitty mallin omalla perustelulla mekanistisesti epätodennäköiseksi ja tuettu ei millään tutkimuksella tai kirjallisuuden näytöllä. Alkuperäistä indikaatiota tai MOA-tietoja ei ole saatavilla riippumattomasti uskottavuuden arvioimiseen, ja lääke ei ole tällä hetkellä markkinoilla Suomessa.
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert (warnings, contraindications) — currently a blocking data gap (DG001)
-- DrugBank-confirmed mechanism of action and original indication (DG002)
-- Correction of the disease-ontology label for rank 6 ("disorder of fucoglycosan synthesis") and a re-run of clinical trial/literature search specifically against **polycythemia vera**, since the attached literature strongly suggests this is the real signal being surfaced
-- Re-evaluation of ranks 1–5 and 7–10 only if independent mechanistic evidence emerges; as presented, these do not warrant further investment
+**Eteenpäinmenon edellytyksenä tarvitaan seuraavat:**
+- TFDA/Fimea pakkausseloste (varoitukset, vasta-aiheet) — tällä hetkellä esto tietokuilulla (DG001)
+- DrugBankin vahvistama vaikutusmekanismi ja alkuperäinen indikaatio (DG002)
+- Sijoituksen 6 tautiontologian merkinnän korjaus ("fukoglykosaanin synteesiä koskevan häiriö") ja kliinisen tutkimuksen/kirjallisuushakujen uusinta nimenomaisesti **polycythemia veraa** vastaan, koska liitetty kirjallisuus vahvasti ehdottaa, että tämä on todellinen signaali, joka nousee esiin
+- Sijoitusten 1–5 ja 7–10 uudelleenarviointi vain, jos riippumaton mekanistinen näyttö ilmaantuu; sellaisena esitettynä nämä eivät ole ansainneet lisäinvestointia
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

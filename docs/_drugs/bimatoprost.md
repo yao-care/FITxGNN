@@ -29,93 +29,90 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-Using the evidence pack as given. One note up front: I did **not** follow `predicted_indications[0]` mechanically. Rank 1 ("malformation syndrome with odontal/periodontal component") has 0 clinical trials and 20 completely unrelated periodontitis papers that never mention bimatoprost — the evidence pack's own rationale field calls this "literature noise, not evidence." Ranks 2–7 and 10 are similarly unsupported (several are even mechanistically backwards, e.g. predicting a hair-growth drug for a *hypertrichosis* syndrome). The only candidate in this pack with real trial and literature support is rank 8, **alopecia** (L2, "Proceed with Guardrails"), so the report is built around that.
+# Bimatoprosti: Glaukoomasta alopeesiaan
 
----
+## Yhden lauseen yhteenveto
 
-# Bimatoprost: From Glaucoma to Alopecia
-
-## One-Sentence Summary
-
-> Bimatoprost is a synthetic prostamide F2α analog originally approved (per literature evidence in this pack) for glaucoma/ocular hypertension and, as an ophthalmic solution, for eyelash hypotrichosis (Latisse™).
-> The TxGNN model predicts it may also be effective for **Alopecia** (androgenetic alopecia, alopecia areata, and related hair-loss conditions),
-> with **11 clinical trials** and **20 publications** currently supporting this direction.
+> Bimatoprosti on synteettinen prostamidi F2α-analogi, joka alun perin hyväkyttiin (tämän aineistopaketin kirjallisuutodisteiden perusteella) glaukooman/silmän sisäisen paineen nousun hoitoon ja oftalmologisena liuoksena silmäripsen hypotrichosiksen hoitoon (Latisse™).
+> TxGNN-malli ennustaa, että se voi myös olla tehokas **alopsesiassa** (androgenoiva alopeesia, täpläalopeesia ja siihen liittyvät hiusten lähdöt),
+> ja tällä hetkellä on **11 kliinistä tutkimusta** ja **20 julkaisua**, jotka tukevat tätä suuntaa.
 >
-> Note: TxGNN's single highest-scoring prediction in this evidence pack (a periodontal malformation syndrome) and several others (Dandy-Walker syndrome, hair-shaft abnormality, hypertrichosis, pulmonary AV malformation) have no supporting evidence and in some cases are mechanistically implausible or backwards — they are excluded from this report and flagged "Hold" in the source data.
+> Huomio: TxGNN:n yksittäin korkeimmin arvotettu ennustus tässä aineistossa (periodonttinen kehityshäiriösyndrooma) ja useat muut (Dandy-Walker-syndrooma, hiusaineksen häiriö, hypertrichosis, keuhkojen AV-vika) vailla todistusaineistoa ja joissa joissa on mekanistisesti epäuskottavia tai käänteisiä piirteitä — ne poistetaan tästä raportista ja merkitään "Hold"-tilaksi lähdetiedoissa.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Glaucoma / ocular hypertension (ophthalmic); eyelash hypotrichosis (per literature evidence — not confirmed via Finland regulatory data, as the product is not marketed there) |
-| Predicted New Indication | Alopecia (androgenetic alopecia / alopecia areata) |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L2 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Alkuperäinen käyttöindikatio | Glaukooma / silmän sisäisen paineen nousu (oftalmologia); silmäripsen hypotrichosis (kirjallisuutodisteiden perusteella — ei vahvistettu Suomen sääntelyaineiston perusteella, koska tuotetta ei markkinoida siellä) |
+| Ennustettu uusi käyttöindikatio | Alopeesia (androgenoiva alopeesia / täpläalopeesia) |
+| TxGNN-ennusteen pistemäärä | 99,99 % |
+| Todistusten taso | L2 |
+| Suomen markkinoiden asema | ✗ Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Jatka varauksilla |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Detailed DrugBank MOA data is not available for bimatoprost in this evidence pack (flagged as a High-severity data gap). However, the clinical trial and literature evidence themselves describe bimatoprost as a synthetic **prostamide F2α analog**. In ophthalmology it lowers intraocular pressure by increasing aqueous humor outflow; as a well-documented side effect, it also prolongs the hair follicle anagen (growth) phase, which is the basis for its FDA-approved use (Latisse™) in treating eyelash hypotrichosis.
+Yksityiskohtaista DrugBank-mekanismitietoa bimatoprostille ei ole saatavilla tässä aineistossa (merkitty korkean vakavuuden tietovajeeksi). Kuitenkin itse kliiniset tutkimukset ja kirjallisuutodisteet kuvaavat bimatoprosti synteettiseksi **prostamidi F2α-analogiksi**. Oftalmologiassa se alentaa silmänsisäistä painetta lisäämällä vesivieriliuoksen ulosvirtausta; hyvin dokumentoituna sivuvaikutuksena se myös pidentää hiusfollikkeliaan anageeninvaihetta (kasvuvaihe), mikä muodostaa perustan sen FDA-hyväksyttyyn käyttöön (Latisse™) silmäripsen hypotrichosiksen hoidossa.
 
-This anagen-prolongation mechanism is not specific to eyelashes — hair follicle biology is broadly shared across eyelash, eyebrow, and scalp follicles. Multiple sponsor-run trials (Allergan) directly tested this hypothesis by applying bimatoprost topically to the scalp in androgenetic alopecia (AGA) and female pattern hair loss, and to eyebrows/eyelashes after chemotherapy-induced loss. A related, weaker-evidence entry in the same pack ("genetic alopecia," L4, case-report level) supports the same mechanistic direction.
+Tämä anageeninvaihe-pidentävä mekanismi ei ole spesifinen silmäripsille — hiusfollikkelibiologia on laajasti jaettu silmäripsen, silmäkulmuksen ja päänahkan follikkelien välillä. Useat sponsoreiden vetämät tutkimukset (Allergan) testasivat suoraan tätä hypoteesia käyttämällä bimatoprosti paikallisesti päänahkaan androgenoivalla alopsesialla (AGA) ja naisilla tapahtuvalla kuvioituneella hiustenlähdöllä sekä kemiasta johtuvan hiustenlähdön jälkeen silmäkulmuksilla/ripsissä. Siihen liittyvä, heikompi todistustasoinen merkintä samassa aineistossa ("genettinen alopeesia," L4, tapausraporttitaso) tukee samaa mekanistista suuntaa.
 
-In short, the prediction is reasonable because it is not a novel hypothesis inferred purely from the TxGNN graph — it is a mechanism that has already been prospectively tested in multiple completed Phase 1/2 trials, including two placebo/active-comparator RCTs with >300 participants each (against minoxidil).
+Lyhyesti sanottuna ennuste on järkevä, koska se ei ole puhtaasti TxGNN-kaaviosta päättelemällä saatu uusi hypoteesi — se on mekanismi, jota on jo prospektiivisesti testattu useissa voltetuissa vaiheen 1/2 tutkimuksissa, mukaan lukien kaksi plaseeboa/aktiivista vertailuainetta sisältävää satunnaistetuissa kontrolloitua tutkimusta >300 osallistujan kanssa (minoksiidilin vastaan).
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen todisteet
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimusnumero | Vaihe | Asema | Rekrytointi | Keskeiset löydökset |
 |---------|------|------|------|---------|
-| [NCT01325350](https://clinicaltrials.gov/study/NCT01325350) | Phase 2 | Completed | 306 | RCT of 3 bimatoprost doses vs. vehicle and OTC minoxidil 2% in women with female pattern hair loss |
-| [NCT01325337](https://clinicaltrials.gov/study/NCT01325337) | Phase 2 | Completed | 307 | RCT of 3 bimatoprost doses vs. vehicle and OTC minoxidil 5% in men with androgenic alopecia |
-| [NCT01904721](https://clinicaltrials.gov/study/NCT01904721) | Phase 2 | Completed | 244 | Safety and efficacy of bimatoprost in men with androgenic alopecia (AGA) |
-| [NCT02170662](https://clinicaltrials.gov/study/NCT02170662) | Phase 2 | Completed | 33 | Effect of bimatoprost 0.03% ophthalmic solution on androgen-dependent scalp hair follicles |
-| [NCT01189279](https://clinicaltrials.gov/study/NCT01189279) | Phase 1 | Completed | 42 | Safety, tolerability and pharmacokinetics of new topical bimatoprost formulations in alopecia patients |
-| [NCT02848300](https://clinicaltrials.gov/study/NCT02848300) | Phase 1 | Completed | 11 | Scalp pharmacokinetics and tolerability of two bimatoprost formulations after 14 days topical application in AGA |
-| [NCT01023841](https://clinicaltrials.gov/study/NCT01023841) | Phase 4 | Completed | 71 | Safety/efficacy of bimatoprost 0.03% for eyelash loss or hypotrichosis in children |
-| [NCT05600673](https://clinicaltrials.gov/study/NCT05600673) | Phase 1/2 | Completed | 30 | Combined CO2 fractional laser + bimatoprost 0.03% in alopecia areata |
-| [NCT00187577](https://clinicaltrials.gov/study/NCT00187577) | N/A | Completed | 14 | Latanoprost vs. bimatoprost ophthalmic solutions for eyelash regrowth in alopecia areata |
-| [NCT02676310](https://clinicaltrials.gov/study/NCT02676310) | Phase 1 | Terminated | 53 | Dose-escalation safety/tolerability/PK study of topical bimatoprost in men with AGA (terminated, incomplete) |
+| [NCT01325350](https://clinicaltrials.gov/study/NCT01325350) | Vaihe 2 | Valmistunut | 306 | Satunnaistettu kontrolloitu tutkimus 3 bimatoprost-annoksesta vs. ajoneuvo ja OTC minoksidiili 2 % naisilla naisilla tapahtuvalla kuvioituneella hiustenlähdöllä |
+| [NCT01325337](https://clinicaltrials.gov/study/NCT01325337) | Vaihe 2 | Valmistunut | 307 | Satunnaistettu kontrolloitu tutkimus 3 bimatoprost-annoksesta vs. ajoneuvo ja OTC minoksidiili 5 % miehillä androgenoivalla alopsesialla |
+| [NCT01904721](https://clinicaltrials.gov/study/NCT01904721) | Vaihe 2 | Valmistunut | 244 | Bimatoprosti turvallisuus ja teho miehillä, joilla on androgenoiva alopeesia (AGA) |
+| [NCT02170662](https://clinicaltrials.gov/study/NCT02170662) | Vaihe 2 | Valmistunut | 33 | Bimatoprosti 0,03 % oftalmologinen liuos androgeenille riippuvaisella päänahkan hiusfollikkelilla |
+| [NCT01189279](https://clinicaltrials.gov/study/NCT01189279) | Vaihe 1 | Valmistunut | 42 | Uusien topikaalisten bimatoprosti-muotojen turvallisuus, sietokyky ja farmakokinetiikka alopsesiapotilaissa |
+| [NCT02848300](https://clinicaltrials.gov/study/NCT02848300) | Vaihe 1 | Valmistunut | 11 | Päänahkan farmakokinetiikka ja kahden bimatoprosti-muodon sietokyky 14 päivän topikaalisen levityksen jälkeen AGA-potilaissa |
+| [NCT01023841](https://clinicaltrials.gov/study/NCT01023841) | Vaihe 4 | Valmistunut | 71 | Bimatoprosti 0,03 % turvallisuus/teho silmäripsen kasvun tai hypotrichosiksen osalta lapsilla |
+| [NCT05600673](https://clinicaltrials.gov/study/NCT05600673) | Vaihe 1/2 | Valmistunut | 30 | Yhdistetty CO2-fraktiofraktiolaseri + bimatoprosti 0,03 % täpläalopeesiassa |
+| [NCT00187577](https://clinicaltrials.gov/study/NCT00187577) | Ei saatavilla | Valmistunut | 14 | Latanoprost vs. bimatoprosti oftalmologiset liuokset silmäripsen uudelleenkasvulle täpläalopeesiassa |
+| [NCT02676310](https://clinicaltrials.gov/study/NCT02676310) | Vaihe 1 | Keskeytetty | 53 | Annoseskaloinnin turvallisuus/sietokyky/PK-tutkimus topikaalisen bimatoprosti miehillä, joilla on AGA (keskeytetty, epätäydellinen) |
 
-*(One additional trial, NCT00999557, was withdrawn with 0 enrollment and is omitted as uninformative.)*
+*(Yksi lisätutkimus, NCT00999557, vetäytyi ilman rekrytointia ja jätetään pois epäinformatiivisena.)*
 
-## Literature Evidence
+## Kirjallisuuden todisteet
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
 |------|-----|------|------|---------|
-| [32250713](https://pubmed.ncbi.nlm.nih.gov/32250713/) | 2022 | Systematic Review / Network Meta-analysis | J Dermatolog Treat | Compares relative efficacy of non-surgical AGA monotherapies in men and women |
-| [29863806](https://pubmed.ncbi.nlm.nih.gov/29863806/) | 2018 | Guideline | J Dermatol | Japanese clinical guideline for diagnosis and treatment of male/female pattern hair loss |
-| [28264599](https://pubmed.ncbi.nlm.nih.gov/28264599/) | 2017 | Review | Expert Opin Investig Drugs | Reviews bimatoprost for eyelash, eyebrow and scalp alopecia; notes FDA approval for eyelash hypotrichosis |
-| [40252129](https://pubmed.ncbi.nlm.nih.gov/40252129/) | 2025 | Clinical Study | Arch Dermatol Res | CO2 fractional laser + bimatoprost combination enhances hair regrowth in alopecia areata |
-| [35278027](https://pubmed.ncbi.nlm.nih.gov/35278027/) | 2022 | Prospective Open-Label Study | Dermatol Ther | Topical bimatoprost for eyelash loss in alopecia totalis/universalis; 16/1x responders |
-| [37089845](https://pubmed.ncbi.nlm.nih.gov/37089845/) | 2023 | Non-randomized Open-Label Clinical Trial | Indian Dermatol Online J | Bimatoprost vs. clobetasol propionate in scalp alopecia areata |
-| [37185388](https://pubmed.ncbi.nlm.nih.gov/37185388/) | 2023 | Review | Curr Oncol | Reviews chemotherapy-induced alopecia treatments including prostaglandin analogs |
-| [32642317](https://pubmed.ncbi.nlm.nih.gov/32642317/) | 2020 | Review | Dermatol Pract Concept | Prevention and treatment options for chemotherapy-induced alopecia |
-| [35040730](https://pubmed.ncbi.nlm.nih.gov/35040730/) | 2022 | Preclinical/Formulation | Drug Deliv | Enhanced-penetration topical bimatoprost formulation shows in vivo hair regrowth efficacy in androgenic alopecia |
-| [38577618](https://pubmed.ncbi.nlm.nih.gov/38577618/) | 2024 | Preclinical/Formulation | Int J Pharm X | Nanogel delivery system improves cutaneous bimatoprost deposition and hair regrowth in androgenic alopecia |
+| [32250713](https://pubmed.ncbi.nlm.nih.gov/32250713/) | 2022 | Järjestelmällinen katsaus / verkkovertailumetaanalyysi | J Dermatolog Treat | Vertaa ei-kirurgisen AGA-monoterapian suhteellista tehokkuutta miehillä ja naisilla |
+| [29863806](https://pubmed.ncbi.nlm.nih.gov/29863806/) | 2018 | Ohje | J Dermatol | Japanilainen kliininen ohje miesten/naisten kuvioituneen hiustenlähdön diagnoosille ja hoidolle |
+| [28264599](https://pubmed.ncbi.nlm.nih.gov/28264599/) | 2017 | Katsaus | Expert Opin Investig Drugs | Katsoo bimatoprosti silmäripsen, silmäkulman ja päänahkan alopsesiaan; huomaa FDA-hyväksyntä silmäripsen hypotrichosiksen osalta |
+| [40252129](https://pubmed.ncbi.nlm.nih.gov/40252129/) | 2025 | Kliininen tutkimus | Arch Dermatol Res | CO2-fraktiofraktiolaseri + bimatoprosti-yhdistelmä parantaa hiuskasvua täpläalopeesiassa |
+| [35278027](https://pubmed.ncbi.nlm.nih.gov/35278027/) | 2022 | Prospektiivinen avoimen kirjoituksen tutkimus | Dermatol Ther | Topikaalinen bimatoprosti silmäripsen kasvun puutteelle alopsesiakiinteässä/universaalisessa; 16/1x vastanneet |
+| [37089845](https://pubmed.ncbi.nlm.nih.gov/37089845/) | 2023 | Satunnaisittamaton avoimen kirjoituksen kliininen tutkimus | Indian Dermatol Online J | Bimatoprosti vs. klobinetasolipropionia päänahkan täpläalopeesiassa |
+| [37185388](https://pubmed.ncbi.nlm.nih.gov/37185388/) | 2023 | Katsaus | Curr Oncol | Katsoo kemoterapiasta johtuvaa alopeesiaa sisältäviä hoitoja, mukaan lukien prostaglandiini-analogit |
+| [32642317](https://pubmed.ncbi.nlm.nih.gov/32642317/) | 2020 | Katsaus | Dermatol Pract Concept | Kemoterapiasta johtuvien alopeesioiden ehkäisy ja hoitovaihtoehdot |
+| [35040730](https://pubmed.ncbi.nlm.nih.gov/35040730/) | 2022 | Prekliininen/muotoilu | Drug Deliv | Parannetun penetraation topikaalinen bimatoprosti-muotoilu osoittaa in vivo hiuskasvua androgenoivalla alopsesialla |
+| [38577618](https://pubmed.ncbi.nlm.nih.gov/38577618/) | 2024 | Prekliininen/muotoilu | Int J Pharm X | Nanogeelitoimitinsjärjestelmä parantaa ihonalaista bimatoprosti-sedimentaatiota ja hiuskasvua androgenoivalla alopsesialla |
 
-## Finland Market Information
+## Suomen markkinoiden tieto
 
-Bimatoprost is not currently marketed in Finland — no marketing authorizations are recorded (0 licenses).
+Bimatoprosti ei ole tällä hetkellä markkinoilla Suomessa — markkinointilupoja ei ole kirjattu (0 lisenssiä).
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information (no structured warnings, contraindications, or DDI data are available in this evidence pack; the TFDA/Fimea package insert lookup is flagged as a **Blocking** data gap). For context, the literature evidence in this pack (e.g. PMID 29854658) notes that prostaglandin-analog eye drops of this class are associated with eyelid pigmentation and localized hypertrichosis as known class effects — this is cited from the literature evidence, not from a validated safety data source, and should not substitute for the formal package insert.
+Katso pakkausseloste turvallisuustiedoista (rakenteisia varoituksia, vasta-aiheita tai lääkkeiden välisiä vuorovaikutuksia ei ole saatavilla tässä aineistossa; TFDA/Fimea-pakkausselosteen haku on merkitty **blokaavaksi** tietovajeeksi). Kontekstina kirjallisuutodisteet tässä aineistossa (esim. PMID 29854658) huomaavat, että tämän luokan prostaglandiini-analogit silmätipat liitetään silmäluomiin liittyvään pigmentaatioon ja paikalliseen hypertrichosisiin tunnettujen luokkavaikutuksina — tämä on lainattu kirjallisuustodistista, eikä sitä pidä käyttää validoidun turvallisuustietolähteen korvikkeena, ja sitä ei pidä korvata muodollisen pakkausselosteen korvikkeena.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Proceed with Guardrails**
+**Päätös: Jatka varauksilla**
 
-**Rationale:**
-Three completed Phase 2 RCTs (two with >300 participants, one against active minoxidil comparators) directly support bimatoprost's efficacy on scalp/eyebrow hair growth, consistent with its already-validated anagen-prolongation mechanism (FDA-approved for eyelash hypotrichosis). However, no completed Phase 3 trial exists, one AGA dose-escalation trial was terminated early, and the product is not currently marketed in Finland, so safety and regulatory data are incomplete.
+**Perustelut:**
+Kolme valmistunutta vaiheen 2 satunnaistetuista kontrolloiduista tutkimuksista (kaksi >300 osallistujan kanssa, yksi aktiivisen minoksidiili-vertailun kanssa) tukevat suoraan bimatoprosti tehokkuutta päänahkan/silmäkulman hiuskasvussa, mikä on yhdenmukaista sen jo validoidun anageeninvaihe-pidentävän mekanismin kanssa (FDA-hyväksytty silmäripsen hypotrichosiksen osalta). Kuitenkaan yksikään valmistunut vaiheen 3 tutkimus ei ole olemassa, yksi AGA-annoseskaloinnin tutkimus keskeytettiin varhain, ja tuote ei ole tällä hetkellä markkinoilla Suomessa, joten turvallisuus- ja sääntelyaineisto on epätäydellinen.
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert (warnings, contraindications) — currently a Blocking data gap
-- Confirmed DrugBank mechanism-of-action documentation
-- A completed Phase 3 confirmatory trial in the target alopecia population before any indication filing
-- Drug-drug interaction data (current query status: not found)
-- A defined regulatory pathway/strategy for Finland market entry given current "not marketed" status
+**Jatkaakseen seuraava on tarpeen:**
+- TFDA/Fimea-pakkausseloste (varoitukset, vasta-aiheet) — tällä hetkellä blokaava tietovahe
+- Vahvistettu DrugBank-vaikutusmekanismi-dokumentaatio
+- Valmistunut vaiheen 3 vahvistava tutkimus kohdepopulaatiossa ennen mitään indikaatioilmoitusta
+- Lääkkeiden väliset vuorovaikutustiedot (nykyinen kyselytila: ei löydetty)
+- Määritelty sääntelullinen tie/strategia Suomen markkinoille pääsyä varten, kun otetaan huomioon nykyinen "ei markkinoilla" -asema
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

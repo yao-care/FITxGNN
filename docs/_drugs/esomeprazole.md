@@ -29,62 +29,63 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Esomeprazole: From Acid-Related Gastrointestinal Disorders to Duodenogastric Reflux
+# Esomeprazoli: Happoon liittyvistä ruoansulatuskanavan häiriöistä duodenomahaisen refluksiin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Esomeprazole is a proton pump inhibitor (PPI), the S-isomer of omeprazole, established for treating acid-related gastrointestinal disorders such as peptic ulcer, H. pylori infection, GERD, and NSAID-induced GI lesions. The TxGNN model predicts it may be effective for **Duodenogastric Reflux**, but this direction is currently supported only by **1 general review article** and **no disease-specific clinical trials**.
+Esomeprazoli on protonienpumpun estäjä (PPI), omeprazoolin S-isomeeri, joka on vakiintuneesti käytössä happoperäisten ruoansulatuskanavan häiriöiden, kuten mahahaavan, H. pylori -infektio, refluksitaudin ja NSAID:n aiheuttamien ruoansulatuskanavan vaurioiden hoitoon. TxGNN-malli ennustaa, että se saattaa olla tehokas **duodenomahaisen refluksiin**, mutta tämä suunta on tällä hetkellä tuettu vain **yhdellä yleisellä katsausartikkelilla** eikä **sairauspesifisillä kliinisillä tutkimuksilla**.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available — no market authorization or approved indication text on file for this registry |
-| Predicted New Indication | Duodenogastric Reflux |
-| TxGNN Prediction Score | 99.53% |
-| Evidence Level | L4 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Ei saatavilla — tiedostoissa ei ole markkinoilta johtuvaa hyväksyntää tai hyväksyttyä indikaatiota tälle rekisterille |
+| Ennustettu uusi indikaatio | Duodenomahainen refluksi |
+| TxGNN-ennustepisteet | 99.53% |
+| Näyttötaso | L4 |
+| Suomen markkinoiden status | ✗ Ei markkinoilla |
+| Hyväksyntöjen määrä | 0 |
+| Suositeltu päätös | Pidätä |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, detailed mechanism of action data for this candidate is not available (Data Gap). Based on the supporting literature in this evidence pack, esomeprazole belongs to the proton pump inhibitor (PPI) class, which irreversibly inhibits the H+/K+-ATPase on gastric parietal cells to suppress acid secretion; its efficacy in acid-related disorders (peptic ulcer, H. pylori infection, GERD, NSAID-induced GI lesions, Zollinger-Ellison syndrome) is well established.
+Yksityiskohtaisia vaikutusmekanismin tietoja ei ole tällä hetkellä saatavilla (Tiedon puute). Tämän todistepaketin tukevan kirjallisuuden perusteella esomeprazoli kuuluu protonienpumpun estäjien (PPI) luokkaan, joka palautumattomasti estää mahakalvon parietaalisolulta H+/K+-ATPaasin happon erittymisen estämiseksi; sen tehokkuus happoon liittyvien häiriöiden (mahahaava, H. pylori -infektio, refluksitauti, NSAID:n aiheuttamat ruoansulatuskanavan vauriot, Zollinger-Ellison -oireyhtymä) hoidossa on hyvin vakiintunut.
 
-However, the mechanistic link to duodenogastric reflux is explicitly assessed as weak in this evidence pack. Duodenogastric reflux is primarily caused by bile and pancreatic enzyme reflux into the stomach — a non-acidic/alkaline injury mechanism. Esomeprazole only suppresses gastric acid secretion and has no direct pharmacological action on bile reflux itself; it can at most indirectly alleviate the acidic component of mucosal damage in mixed-type reflux. The high TxGNN score should therefore be interpreted as an indirect inference from the drug's broader acid-suppression profile, not evidence of a direct therapeutic target.
+Kuitenkin mekanistinen yhteys duodenomahaisen refluksiin on nimenomaisesti arvioitu heikoksi tässä todistepaketeissa. Duodenomahainen refluksi johtuu ensisijaisesti sapen ja haiman entsyymin refluksista mahaansa — ei-happaman/emäksisen vauriomekanismin. Esomeprazoli vain estää mahahapon erittymisen, eikä sillä ole suoraa farmakologista vaikutusta sapen refluksiin itseensä; se voi enintään epäsuorasti helpottaa limakalvon vaurioiden hapanta komponenttia sekavaikuttavan tyyppisten refluksien yhteydessä. Korkea TxGNN-pistemäärä tulisi siten tulkita epäsuoraksi päätelmäksi lääkkeen laajemmasta happo-esto-profiilista, ei todisteiksi suorasta terapeuttisesta kohteesta.
 
-## Clinical Trial Evidence
+## Kliininen tutkimusnäyttö
 
-Currently no related clinical trials registered.
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [18679668](https://pubmed.ncbi.nlm.nih.gov/18679668/) | 2008 | Review | European Journal of Clinical Pharmacology | General update on PPI clinical use (peptic ulcer, H. pylori infection, GERD, NSAID-induced GI lesions, Zollinger-Ellison syndrome); not specific to duodenogastric reflux |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|------|--------|--------|---------|
+| [18679668](https://pubmed.ncbi.nlm.nih.gov/18679668/) | 2008 | Katsaus | European Journal of Clinical Pharmacology | Yleinen päivitys PPI:n kliinisestä käytöstä (mahahaava, H. pylori -infektio, refluksitauti, NSAID:n aiheuttamat ruoansulatuskanavan vauriot, Zollinger-Ellison -oireyhtymä); ei kohdista spesifisesti duodenomahaisen refluksiin |
 
-## Finland Market Information
+## Suomen markkinoiden tiedot
 
-No market authorization on file — this drug is currently not marketed under this registry (0 authorizations).
+Tiedostoissa ei ole markkinoilta johtuvaa hyväksyntää — tämä lääke ei ole tällä hetkellä markkinoilla tämän rekisterin mukaisesti (0 hyväksyntää).
 
-## Safety Considerations
+## Turvallisuushuomiot
 
-Please refer to the package insert for safety information.
+Katso pakkausselosteesta turvallisuustiedot.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidätä**
 
-**Rationale:**
-The TxGNN prediction score is high, but the mechanistic link to duodenogastric reflux is indirect (acid suppression vs. bile-driven injury), and the evidence base consists of a single general PPI review with no disease-specific clinical trials — evidence level L4 does not meet the threshold to advance.
+**Perustelu:**
+TxGNN-ennustepiste on korkea, mutta mekanistinen yhteys duodenomahaisen refluksiin on epäsuora (happo-esto vs. sapesta peräisin oleva vaurio), ja todistepohja koostuu yhdestä yleisestä PPI-katsauksesta ilman sairauspesifisiä kliinisiä tutkimuksia — näyttötaso L4 ei täytä kynnystä edetä.
 
-**To proceed, the following is needed:**
-- Confirmed original indication and MOA data (currently Data Gap, blocking S1 safety pre-assessment)
-- TFDA/regulatory package insert (warnings, contraindications, DDI)
-- Preclinical or mechanistic studies specifically addressing bile/alkaline reflux modulation
-- Disease-specific clinical evidence for duodenogastric reflux before re-scoring
+**Jatkaakseen tarvitaan seuraavaa:**
+- Vahvistettu alkuperäinen indikaatio ja vaikutusmekanismin tiedot (tällä hetkellä tiedon puute, estää S1-turvallisuuden esiarviointia)
+- TFDA/sääntelyinen pakkausseloste (varoitukset, vasta-aiheet, DDI)
+- Prekliiniset tai mekanistiset tutkimukset, jotka erityisesti käsittelevät sapen/emäksisen refluksien modulaatiota
+- Sairauspesifinen kliininen näyttö duodenomahaisen refluksiin ennen uudelleenpisteyttämistä
 
-**Note on other candidates in this evidence pack:** Rank 3 ("duodenal ulcer") shows much stronger evidence (L1, 50 trials, 20 publications) but its own rationale flags that this is esomeprazole's well-established, already-approved PPI indication rather than a genuine repurposing candidate — the empty `original_indications` field is itself a data gap, not evidence of novelty. Rank 2 ("duodenal obstruction") has no supporting trials or literature and reflects a mechanistic mismatch (structural obstruction vs. pharmacological acid suppression); it should remain on Hold.
+**Huomautus muista tämän todistepaketin ehdokkaista:** Sijoitus 3 ("duodenaalinen haava") osoittaa paljon vahvempaa näyttöä (L1, 50 tutkimusta, 20 julkaisua), mutta sen oma perustelu osoittaa, että tämä on esomeprazoolin hyvin vakiintuneet, jo hyväksytyt PPI-indikaatiot pikemminkin kuin aito uudelleenkäytön ehdokas — tyhjä `original_indications`-kenttä on sinänsä tiedon puute, ei todiste uutuudesta. Sijoitus 2 ("duodenaalinen obstrukstio") ei ole tukevia tutkimuksia tai kirjallisuutta ja heijastaa mekanistista epäsopimattomuutta (rakenteellinen obstrukstio vs. farmakologinen happo-esto); sen tulee pysyä Pidätä-tilassa.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

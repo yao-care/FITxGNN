@@ -29,88 +29,89 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Pitolisant: From Narcolepsy to Insomnia
+# Pitolisant: narkolepsiastista unettomuuteen
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Pitolisant is a histamine H3 receptor inverse agonist originally developed and internationally approved for excessive daytime sleepiness in narcolepsy (with or without cataplexy) and residual sleepiness in OSA — it is not currently marketed in this jurisdiction. The TxGNN model predicts it may be effective for **Insomnia**, but this prediction is mechanistically counter-intuitive (a wake-promoting drug for a sleep-inducing indication) and is supported only by **1 withdrawn, zero-enrollment trial** and **8 publications**, none of which directly studied insomnia.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Narcolepsy with/without cataplexy, excessive daytime sleepiness in OSA (per international literature; no local registration data exists) |
-| Predicted New Indication | Insomnia |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L4 |
-| Taiwan Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Pitolisant on histaminin H3-reseptorin käänteinen agonisti, joka on alun perin kehitetty ja kansainvälisesti hyväksytty narkolepsian (kataplesian kanssa tai ilman) aiheuttaman liiallisen päiväväsymyksen ja uniapnean (OSA) jäännösväsymyksen hoitoon — sitä ei ole tällä hetkellä markkinoitu tässä lainkäyttöalueella. TxGNN-malli ennustaa, että se saattaa olla tehokas **unettomuuden** hoitoon, mutta tämä ennuste on mekanistisesti vastaintuitiivinen (heräämistä edistävä lääke uni-indikaatiolle) ja sitä tuetaan vain **1 vedetyllä pois olevalla, nolla osallistujalla olevalla tutkimuksella** ja **8 julkaisulla**, joista yksikään ei ole suoraan tutkinut unettomuutta.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Pikaluettelo
 
-Currently, detailed official mechanism of action data is not available (flagged as a High-severity data gap). Based on the literature collected in this evidence pack, pitolisant is a selective histamine H3 receptor inverse agonist/antagonist. By blocking H3 autoreceptors, it increases histamine, norepinephrine, and acetylcholine release in the brain, producing a wake-promoting effect. This mechanism underlies its approved use for excessive daytime sleepiness in narcolepsy and its investigational use for residual sleepiness in CPAP-treated OSA patients.
-
-This mechanistic direction runs **counter to** the proposed new indication. A drug designed to increase wakefulness is pharmacologically more likely to induce or worsen insomnia than to treat it — indeed, insomnia is a known adverse effect of H3 receptor antagonism in clinical use. The single registered trial in this evidence pack (NCT02800083) was not actually an insomnia trial; it targeted alcohol use disorder, was withdrawn, and enrolled zero patients, so it provides no usable signal for sleep-related endpoints. None of the 8 supporting publications studied pitolisant for insomnia — they cover narcolepsy pharmacology, OSA-related daytime sleepiness, and general H3 receptor biology.
-
-The TxGNN score most likely reflects a semantic proximity between "sleep disorder" concepts in the model's embedding space (narcolepsy, OSA, insomnia are all sleep-related nodes) rather than a genuine therapeutic relationship. This prediction should be treated as a candidate requiring mechanistic reassessment, not a validated repurposing lead.
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Narkolepsija kataplesian kanssa/ilman, liiallinen päiväväsymys uniapneassa (OSA) (kansainvälisen kirjallisuuden mukaan; paikallista rekisteröintitietoa ei ole saatavilla) |
+| Ennustettu uusi indikaatio | Unettomuus |
+| TxGNN-ennustuspistemäärä | 99.71% |
+| Todisteiden taso | L4 |
+| Markkinatila Taiwanissa | Ei markkinoinnissa |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Pidättyä |
 
 ---
 
-## Clinical Trial Evidence
+## Miksi tämä ennuste on perusteltu?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Virallista mekanistista vaikutustapaa koskevaa yksityiskohtaista tietoa ei ole tällä hetkellä saatavilla (merkitty korkean vakavuusasteen tietovajeeksi). Tässä todistepaketeissa kerätyn kirjallisuuden perusteella pitolisant on selektiivinen histaminin H3-reseptorin käänteinen agonisti/antagonisti. Estämällä H3-autoreseptoreita se lisää histaminin, noradrenaaliinin ja asetylkoliinin vapautumista aivoissa, mikä tuottaa heräämistä edistävän vaikutuksen. Tämä mekanismi pohjustaa sen hyväksyttyä käyttöä narkolepsian aiheuttamaan liialliseen päiväväsymykseen ja sen tutkimuksellista käyttöä CPAP-hoidettujen uniapnea-potilaiden jäännösväsymyksen hoitoon.
+
+Tämä mekanistinen suunta on **vastoin** ehdotettua uutta indikaatiota. Lääke, joka on suunniteltu lisäämään heräämistä, on farmakologisesti todennäköisemmin aiheuttamassa tai pahentamassa unettomuutta kuin hoitamassa sitä — todellakin, unettomuus on tunnettu haitta-aine H3-reseptorin antagonismin kliinisessä käytössä. Yksittäinen rekisteröity tutkimus tässä todistepaketeissa (NCT02800083) ei ollut todellisuudessa unettomuustutkimus; se kohdistui alkoholin käytön häiriöihin, vedettiin pois ja rekrytoi nolla potilaita, joten se ei tarjoa mitään käyttökelpoista signaalia unen liittyvistä tuloksista. Yksikään kahdeksasta tukijulkaisusta ei tutkinut pitolisantia unettomuuden hoitoon — ne kattavat narkolepsian farmakologian, uniapneaan liittyvän päiväväsymyksen ja yleisen H3-reseptorin biologian.
+
+TxGNN-pistemäärä heijastaa todennäköisesti semanttista läheisyyttä "unihäiriö"-käsitteissä mallin upotusavaruudessa (narkolepsija, uniapnea, unettomuus ovat kaikki uni-säätöjä koskevia solmuja) eikä todellista terapeuttista suhdetta. Tämä ennuste tulee käsitellä ehdokkaana, joka vaatii mekanistisen uudelleenarvioinnin, ei validoiduksi uuden käytön johtavaksi indikaatioksi.
+
+---
+
+## Kliinisen tutkimuksen näyttö
+
+| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset löydökset |
 |---------|------|------|------|---------|
-| [NCT02800083](https://clinicaltrials.gov/study/NCT02800083) | Phase 2 | Withdrawn | 0 | Designed to evaluate pitolisant for alcohol use disorder (reduction in heavy drinking days), with secondary endpoints touching on mental health/sleep improvement. Trial was withdrawn with zero enrollment, so no efficacy or safety data were generated. |
+| [NCT02800083](https://clinicaltrials.gov/study/NCT02800083) | Vaihe 2 | Vedetty pois | 0 | Suunniteltu arvioimaan pitolisantin vaikutusta alkoholin käytön häiriöihin (raskaisesti juomisen päivien vähentäminen) toissijaisin päätepistein, jotka koskevat mielenterveyden/unen parantamista. Tutkimus vedettiin pois nolla osallistujan kanssa, joten tehokkuus- tai turvallisuustietoja ei kertynyt. |
 
 ---
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
 |------|-----|------|------|---------|
-| [36931805](https://pubmed.ncbi.nlm.nih.gov/36931805/) | 2023 | RCT | The Lancet. Neurology | Phase 3 trial confirming safety/efficacy of pitolisant in pediatric narcolepsy with/without cataplexy — not an insomnia study. |
-| [33121980](https://pubmed.ncbi.nlm.nih.gov/33121980/) | 2021 | RCT | Chest | Pitolisant reduced residual excessive daytime sleepiness in CPAP-adherent OSA patients — a wake-promoting effect, opposite direction to insomnia treatment. |
-| [31917607](https://pubmed.ncbi.nlm.nih.gov/31917607/) | 2020 | RCT | Am J Respir Crit Care Med | Pitolisant improved daytime sleepiness in OSA patients refusing CPAP — again a wake-promoting outcome. |
-| [36169322](https://pubmed.ncbi.nlm.nih.gov/36169322/) | 2022 | Cohort | Revista de neurología | Real-world "WAKE study" on pitolisant effectiveness/safety in treatment-refractory type 1 narcolepsy. |
-| [34225942](https://pubmed.ncbi.nlm.nih.gov/34225942/) | 2021 | Review | Handbook of Clinical Neurology | General review of brain histamine receptors (H1–H4) in health and disease; no insomnia-specific data. |
-| [30214155](https://pubmed.ncbi.nlm.nih.gov/30214155/) | 2018 | Review | Drug Design, Development and Therapy | Review of pitolisant's development and therapeutic role in narcolepsy. |
-| [34521328](https://pubmed.ncbi.nlm.nih.gov/34521328/) | 2022 | Review | Current Neuropharmacology | Reviews histaminergic system changes in neuropsychiatric disorders; notes pitolisant is used for narcolepsy sleepiness, contrasted with H1-antagonist doxepin used for insomnia. |
-| [22356925](https://pubmed.ncbi.nlm.nih.gov/22356925/) | 2012 | Review | Clinical Neuropharmacology | Early report on pitolisant as a stimulant alternative for refractory sleepiness in narcolepsy-cataplexy. |
+| [36931805](https://pubmed.ncbi.nlm.nih.gov/36931805/) | 2023 | Satunnaistettu kontrolloitu tutkimus | The Lancet. Neurology | Vaihe 3 -tutkimus, joka vahvisti pitolisantin turvallisuuden/tehokkuuden lapsi-narkolepsissa kataplesian kanssa/ilman — ei unettomuustutkimus. |
+| [33121980](https://pubmed.ncbi.nlm.nih.gov/33121980/) | 2021 | Satunnaistettu kontrolloitu tutkimus | Chest | Pitolisant vähensi jäännös-liiallista päiväväsymystä CPAP-yhteensopivilla uniapnea-potilailla — heräämistä edistävä vaikutus, vastakkaiseen suuntaan unettomuuden hoitoon verrattuna. |
+| [31917607](https://pubmed.ncbi.nlm.nih.gov/31917607/) | 2020 | Satunnaistettu kontrolloitu tutkimus | Am J Respir Crit Care Med | Pitolisant paransi päiväväsymystä CPAP-hoitoa kieltäytyvissä uniapnea-potilaissa — taas heräämistä edistävä tulos. |
+| [36169322](https://pubmed.ncbi.nlm.nih.gov/36169322/) | 2022 | Kohortti | Revista de neurología | Todellisen maailman "WAKE-tutkimus" pitolisantin tehokkuudesta/turvallisuudesta hoito-vastustavassa tyypin 1 narkolepsissa. |
+| [34225942](https://pubmed.ncbi.nlm.nih.gov/34225942/) | 2021 | Katsaus | Handbook of Clinical Neurology | Yleinen katsaus aivojen histaminreseptoreihin (H1–H4) terveydessä ja sairauksissa; ei unettomuuskohtaisia tietoja. |
+| [30214155](https://pubmed.ncbi.nlm.nih.gov/30214155/) | 2018 | Katsaus | Drug Design, Development and Therapy | Pitolisantin kehityksen ja terapeuttisen roolin katsaus narkolepsissa. |
+| [34521328](https://pubmed.ncbi.nlm.nih.gov/34521328/) | 2022 | Katsaus | Current Neuropharmacology | Tarkastelee histaminergiisen järjestelmän muutoksia neuropsykiatrisissa häiriöissä; huomioi, että pitolisantia käytetään narkolepsian väsymykseen, vertailussa doksepiin, jota käytetään unettomuuden hoitoon. |
+| [22356925](https://pubmed.ncbi.nlm.nih.gov/22356925/) | 2012 | Katsaus | Clinical Neuropharmacology | Varhainen raportti pitolisantista stimulanttivaihtoehtona hoito-vastustavassa väsymyksessä narkolepsija-katapleksissa. |
 
-None of the eight publications evaluate pitolisant as a treatment for insomnia; several explicitly document its wake-promoting profile.
-
----
-
-## Other Predicted Indications (Lower Priority, Not Detailed Above)
-
-- **ADHD** (score 99.36%, Evidence Level L5): Plausible mechanistic rationale via H3-receptor-mediated cortical arousal/cognition pathways, but **zero registered clinical trials** and 7 supporting papers are all general H3-receptor pharmacology reviews with no direct ADHD trial data. Recommendation: Hold.
-- **Faciodigitogenital syndrome (Aarskog-Scott syndrome)** (score 99.29%, Evidence Level L5): No identifiable biological link — this is an FGD1 gene mutation-driven X-linked developmental disorder unrelated to histamine H3 signaling. Zero trials, zero literature. Assessed as likely model noise from sparse rare-disease ontology embeddings. Recommendation: Hold.
+Mikään kahdeksasta julkaisusta ei arvioi pitolisantia unettomuuden hoitona; useat kirjallisesti dokumentoivat sen heräämistä edistävän profiilin.
 
 ---
 
-## Safety Considerations
+## Muut ennustetut indikaatiot (alhaisempi prioriteetti, ei yksityiskohtaisesti yllä)
 
-Please refer to the package insert for safety information.
+- **ADHD** (pistemäärä 99.36%, Todisteiden taso L5): Mekanistisesti uskottava perusteltu H3-reseptorin välittelemälle aivokuoren heräämiselle/kognitioon liittyville poluille, mutta **nolla rekisteröityjä kliinisia tutkimuksia** ja 7 tukijulkaisua ovat kaikki yleisiä H3-reseptoria farmakologiakatsauksia, ilman suoraa ADHD-tutkimustietoja. Suositus: Pidättyä.
+- **Faciodigitogenitaalioireyhtymä (Aarskog-Scott-oireyhtymä)** (pistemäärä 99.29%, Todisteiden taso L5): Ei tunnistettavaa biologista yhteyttä — tämä on FGD1-geenin mutaatiosta johtuva X-siitoinen kehityssoireyhtymä, joka ei liity histaminin H3-signalointiin. Nolla tutkimuksia, nolla kirjallisuutta. Arvioitu todennäköisesti mallin meluksi harvoista harvinaisista sairaussanastoupotuksista. Suositus: Pidättyä.
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuusnäkökohdatset
 
-**Decision: Hold**
+Katso pakkausselosteesta turvallisuustietoja.
 
-**Rationale:**
-The top-ranked prediction (insomnia) is mechanistically implausible given pitolisant's wake-promoting pharmacology, and its only associated trial was withdrawn with zero enrollment. The two lower-ranked predictions (ADHD, faciodigitogenital syndrome) have even weaker evidentiary support (L5 — model prediction only, no clinical or, in the case of faciodigitogenital syndrome, mechanistic support). None of the three candidates meet the bar to advance past S0.
+---
 
-**To proceed, the following is needed:**
-- TFDA/local package insert warnings and contraindications (currently a Blocking data gap — cannot complete S1 safety screening without it)
-- Confirmed DrugBank mechanism of action record (currently a High-severity data gap)
-- If insomnia remains of interest, a mechanistic explanation for how an H3 inverse agonist could treat rather than induce insomnia, ideally with new preclinical or clinical data, before further evaluation
-- DDI dataset (current query returned no results) before any safety assessment
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidättyä**
+
+**Perustelut:**
+Korkeiten-sijoitettu ennuste (unettomuus) on mekanistisesti epätodennäköinen pitolisantin heräämistä edistävän farmakologian vuoksi, ja sen ainoa liittyvä tutkimus vedettiin pois nolla osallistujan kanssa. Kahdet alemmalla tasolla sijoitetut ennusteet (ADHD, faciodigitogenitaalioireyhtymä) omaaivat entistäkin heikompaa todistusaineistotukea (L5 — mallin ennuste vain, ei kliinistä tai faciodigitogenitaalioireyhtymän tapauksessa mekanistista tukea). Yksikään kolmesta ehdokkaasta ei täytä edellytyksiä edetä S0-vaiheen ohi.
+
+Jotta voitaisiin edetä, seuraava on tarpeen:
+- TFDA/paikallisen pakkausselosteen varoitukset ja vasta-aiheet (tällä hetkellä estävä tietovaie — ei voida suorittaa S1 turvallisuusseulontaa ilman sitä)
+- Vahvistettu DrugBank-mekanismin vaikutustapaa koskeva tietue (tällä hetkellä korkean vakavuusasteen tietovaie)
+- Jos unettomuus pysyy kiinnostuksen kohteena, mekanistinen selitys siitä, kuinka H3-käänteinen agonisti voisi hoitaa pikemminkin kuin aiheuttaa unettomuutta, mieluiten uuden prekliinisen tai kliinisen tiedon kanssa, ennen kuin jatketaan arviointia
+- DDI-tietojoukko (nykyinen kysely palautti ei tuloksia) ennen mitä tahansa turvallisuusarviointia
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -29,88 +29,89 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Lorlatinib: From ALK-Positive Non-Small Cell Lung Cancer to Fibromatosis, Gingival
+# Lorlatinib: ALK-positiivisesta ei-pienisoluisesta keuhkosyövästä gingiaaaliseen fibromatoosiin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Lorlatinib is a third-generation ALK/ROS1 tyrosine kinase inhibitor whose established use is ALK-positive non-small cell lung cancer (NSCLC), per the drug-safety literature included in this evidence pack. The TxGNN model's top-ranked prediction for this candidate is **Fibromatosis, Gingival**, but this association is currently supported by **0 clinical trials** and **0 publications**, and the accompanying rationale flags it as likely model noise rather than a genuine mechanistic signal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | ALK-positive Non-Small Cell Lung Cancer (NSCLC) — derived from literature context (e.g. PMID 38554546); not confirmed via Finland regulatory filing, as none exists |
-| Predicted New Indication | Fibromatosis, Gingival |
-| TxGNN Prediction Score | 99.81% |
-| Evidence Level | L5 |
-| Finland Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Lorlatinib on kolmannen sukupolven ALK/ROS1-tyrosiinikinaasin estäjä, jonka vakiintunut käyttöindikaatio on ALK-positiivinen ei-pienisoluinen keuhkosyöpä (NSCLC), kuten tässä evidenssipakkauksessa sisältyvä lääketurvallisuuskirjallisuus osoittaa. TxGNN-mallin parhaiten arvoitettu ennuste tälle kandidaatille on **gingiaalinen fibromatoosi**, mutta tätä assosiaatiota tukee tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua**, ja siihen liittyvä perusteltu viittaa siihen, että kyseessä on todennäköisesti mallin kohina eikä todellinen mekanistinen signaali.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Currently, detailed mechanism of action data is not available (DrugBank MOA field is a data gap for this record). Based on the literature retrieved for this candidate's broader evidence set, lorlatinib is a brain-penetrant, third-generation ALK/ROS1 tyrosine kinase inhibitor whose established clinical activity is in ALK-rearranged malignancies, principally NSCLC.
-
-Gingival fibromatosis, however, is a hereditary connective-tissue overgrowth condition most commonly linked to genes such as *SOS1* and *REST*. There is no known involvement of the ALK or ROS1 signalling pathways in its pathophysiology, and no oncogenic driver relationship connects it to lorlatinib's target profile.
-
-The repurposing rationale attached to this candidate explicitly states that the prediction has no supporting clinical trial or publication evidence and describes it as arising "purely from model prediction noise" (原文：純屬模型預測雜訊), with no plausible mechanistic bridge between lorlatinib's pharmacology and this disease. This candidate should therefore not be interpreted as a credible repurposing signal in its current form.
-
-*Note: this evidence pack ranked 10 candidate indications for lorlatinib; this report covers the top-ranked one by TxGNN score. Two other candidates in the same batch (lung hilum carcinoma; lung germ cell tumor) reached evidence level L3 with literature support, though both were also flagged for disease-label/ontology mapping concerns and would warrant separate evaluation.*
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | ALK-positiivinen ei-pienisoluinen keuhkosyöpä (NSCLC) — johdettu kirjallisuuskontekstista (esim. PMID 38554546); ei vahvistettu Suomen viranomaisten hakemuksella, koska sellaista ei ole |
+| Ennustettu uusi indikaatio | Gingiaalinen fibromatoosi |
+| TxGNN-ennusteen pistemäärä | 99.81% |
+| Evidenssitaso | L5 |
+| Suomen markkinoiden asema | Ei markkinoilla (Ei markkinoilla) |
+| Markkinointilupauksien lukumäärä | 0 |
+| Suositeltu päätös | Hold |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennuste on järkevä?
 
-Currently no related literature available
+Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla (DrugBank MOA -kenttä on tietorako tässä tietueessa). Tämän kandidaatin laajemman evidenssisarjan perusteella haetusta kirjallisuudesta lorlatinib on aivoihin tunkeutuva, kolmannen sukupolven ALK/ROS1-tyrosiinikinaasin estäjä, jonka vakiintunut kliininen aktiivisuus on ALK:n uudelleen järjestäytyneiden pahanlaatuisissa kasvaimissa, pääasiassa NSCLC:ssä.
 
----
+Gingiaalinen fibromatoosi on kuitenkin perinnöllinen sidekudoksen ylikasvun sairaus, joka on yleisimmin yhdistetty geeneihin, kuten *SOS1* ja *REST*. ALK- tai ROS1-signaloinnin osallisuutta sen patofysiologiassa ei tunneta, eikä onkogeeninä olevan ajurin suhdetta lorlatinibin kohdeprofiiliin ole.
 
-## Finland Market Information
+Tähän kandidaattiin liitetty siirtokäyttöindikaation perusteltu eksplisiittisesti osoittaa, että ennusteella ei ole tukevaa kliinisen tutkimuksen tai julkaisun näyttöä ja kuvailee sen syntyvän "puhtaasti mallin ennusteen kohinasta" (原文：純屬模型預測雜訊), eikä lorlatinibin farmakologian ja tämän sairauden välille ole olemassa uskottavaa mekanistista yhteyttä. Tätä kandidaattia ei siis tulisi nykymuodossaan tulkita uskottavaksi siirtokäyttöindikaation signaaliksi.
 
-Lorlatinib is not currently marketed in Finland (market status: Not marketed). No marketing authorizations are on file for this product.
-
----
-
-## Cytotoxicity
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (ALK/ROS1 tyrosine kinase inhibitor; non-cytotoxic mechanism) |
-| Myelosuppression Risk | Low — not a conventional cytotoxic agent; myelosuppression is not a prominent finding in the available literature |
-| Emetogenicity Classification | Low, consistent with other ALK inhibitors |
-| Monitoring Items | Lipid panel (hypercholesterolemia/hypertriglyceridemia reported in case literature), liver function, weight/BMI, mood and cognitive status, pulmonary symptoms (rare ARDS reported in case literature) |
-| Handling Protection | Oral targeted therapy; standard institutional oral-oncolytic handling precautions apply. No cytotoxic (hazardous drug) handling classification confirmed — please refer to the package insert for definitive guidance |
+*Huomautus: tämä evidenssipakkaus arvoitti 10 kandidaattindikaatiota lorlatinibille; tämä raportti kattaa parhaiten arvoitetun TxGNN-pisteytyksen mukaan. Kaksi muuta kandidaattia samassa erässä (keuhkojen juurikarsinooma; keuhkon sukusolun kasvain) saavuttivat evidenssitason L3 kirjallisuuden tuella, vaikka molempia merkittiin myös sairauden nimeämis-/ontologian kartoitusongelmista ja niiden tulisi ansaita erillistä arviointia.*
 
 ---
 
-## Safety Considerations
+## Kliinisen tutkimuksen näyttö
 
-Please refer to the package insert for safety information.
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia
 
 ---
 
-## Conclusion and Next Steps
+## Kirjallisuuden näyttö
 
-**Decision: Hold**
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta
 
-**Rationale:**
-This is TxGNN's highest-scoring prediction for lorlatinib, but it has zero clinical trial or literature support, and the disease's known genetic etiology (SOS1/REST-related) shows no mechanistic link to lorlatinib's ALK/ROS1 target. The evidence pack itself flags this as likely prediction noise, so it does not meet the threshold to proceed.
+---
 
-**To proceed, the following is needed:**
-- Confirmed original indication and mechanism-of-action data from DrugBank (currently a High-severity data gap, DG001)
-- TFDA-equivalent (Finland) package insert warnings/contraindications (currently a Blocking data gap)
-- Independent mechanistic or preclinical evidence linking ALK/ROS1 inhibition to gingival fibromatosis before any further investment
-- If repurposing research continues on this drug, prioritize re-evaluating the higher-evidence candidates in the same batch (e.g., lung hilum carcinoma, lung germ cell tumor) after resolving their noted disease-ontology mapping issues, rather than this candidate
+## Suomen markkinatiedot
+
+Lorlatinibia ei ole tällä hetkellä markkinoilla Suomessa (markkinaasema: Ei markkinoilla). Tälle tuotteelle ei ole tiedostoissa markkinointilupia.
+
+---
+
+## Sytostaattisyys
+
+| Kohta | Sisältö |
+|------|---------|
+| Sytostaattinen luokittelu | Kohdistettu lääkehoito (ALK/ROS1-tyrosiinikinaasin estäjä; ei-sytostaattinen mekanismi) |
+| Luuytimen tukahduttamisen riski | Matala — ei tavallinen sytostaattinen aine; luuytimen tukahduttaminen ei ole merkittävä löydös saatavilla olevassa kirjallisuudessa |
+| Pahoinvointiherkkyys | Matala, yhdenmukaisesti muiden ALK-estäjien kanssa |
+| Seurantakohdat | Rasva-arvojen paneeli (hyperkolesterolemia/hypertriglyserideemia raportoitu tapauskirjallisuudessa), maksatoiminta, paino/BMI, mieliala ja kognitiivinen tila, keuhkooireet (harvinainen ARDS raportoitu tapauskirjallisuudessa) |
+| Käsittelysuojaus | Suun kautta otettava kohdistettu lääkehoito; vakio-instituution suun kautta otettavat onkolyyttisen lääkehoidon varotoimet ovat voimassa. Ei vahvistettua sytostaattisen (vaarallisen lääkkeen) käsittelyluokitusta — katso lopullisen ohjauksen osalta pakkausselosteesta |
+
+---
+
+## Turvallisuusharkinnot
+
+Katso turvallisuustiedot pakkausselosteesta.
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Hold**
+
+**Perustelut:**
+Tämä on TxGNN:n korkeimmin arvoitettu ennuste lorlatinibille, mutta sillä ei ole kliinisen tutkimuksen tai kirjallisuuden näyttöä, ja sairauden tunnettu geneettiset alkuperä (SOS1/REST-liittyvä) ei osoita mekanistista yhteyttä lorlatinibin ALK/ROS1-kohteeseen. Evidenssipakkaus itse merkitsee tätä todennäköisesti ennusteen kohinaksi, joten se ei täytä edellytyksiä jatkaa.
+
+**Jatkamiseksi tarvitaan seuraavaa:**
+- Vahvistettu alkuperäinen indikaatio ja vaikutusmekanismin tiedot DrugBankista (tällä hetkellä korkean vakavuuden tietorako DG001)
+- TFDA:n vastaava (Suomi) pakkausseloste varoitukset/vasta-indikaatiot (tällä hetkellä estävä tietorako)
+- Itsenäinen mekanistinen tai prekliininen näyttö ALK/ROS1:n estämisen yhdistämisestä gingiaaaliseen fibromatoosiin ennen muuta investointia
+- Jos tämän lääkkeen siirtokäyttötutkimus jatkuu, aseta etusijalle korkeamman evidenssisen kandidaattien uudelleenarviointi samassa erässä (esim. keuhkojen juurikarsinooma, keuhkon sukusolun kasvain) niiden todettujen sairauden nimeämis-/ontologian kartoitusongelmien ratkaisemisen jälkeen tämän kandidaatin sijaan
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

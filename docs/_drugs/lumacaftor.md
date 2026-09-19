@@ -29,62 +29,63 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Lumacaftor: From Cystic Fibrosis to Leprosy
+# Lumacaftor: kystisestä fibroosista lepraahan
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-> Lumacaftor is a CFTR corrector, originally used to treat cystic fibrosis in patients with the F508del mutation.
-> The TxGNN model predicts a possible association with **Leprosy**, but this is a **model-prediction-only** signal —
-> **no clinical trials** and **no literature** currently support this direction, and the underlying mechanistic rationale is itself assessed as weak.
+> Lumacaftor on CFTR:in korjaaja, jota käytetään alun perin kystisen fibroosin hoitoon potilaissa, joilla on F508del-mutaatio.
+> TxGNN-malli ennustaa mahdollisen yhteyden **lepraahan**, mutta kyseessä on **vain mallienpusteen signaali** —
+> tällä hetkellä **ei ole kliinisiä tutkimuksia** eikä **kirjallisuutta**, joka tukee tätä suuntaa, ja taustalla oleva mekanistinen peruste on arvioitu heikoksi.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Cystic fibrosis (F508del CFTR mutation) — no formal Finland-approved indication text is on file |
-| Predicted New Indication | Leprosy |
-| TxGNN Prediction Score | 99.44% (rank 6001) |
-| Evidence Level | L5 (model prediction only) |
-| Finland Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|-------|---------|
+| Alkuperäinen indikaatio | Kystinen fibroosi (F508del CFTR -mutaatio) — virallista Suomessa hyväksyttyä indikaatiotekstiä ei ole tiedostossa |
+| Ennustettu uusi indikaatio | Lepra |
+| TxGNN-ennusteen pistemäärä | 99.44% (sijoitus 6001) |
+| Näyttötaso | L5 (vain mallienpuste) |
+| Suomen markkinatilanne | ✗ Ei saatavilla markkinoilla |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Pysäytys |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on perusteltu?
 
-Detailed mechanism of action data is flagged as a data gap in the drug record. Based on the information available, lumacaftor is a CFTR corrector — it helps the misfolded F508del CFTR protein fold correctly and traffic to the cell membrane, and its established use is in cystic fibrosis.
+Yksityiskohtaisia vaikutusmekanismin tietoja on merkitty tietovajeeksi lääkerekisterissä. Saatavilla olevan tiedon perusteella lumacaftor on CFTR:in korjaaja — se auttaa vääriin taittunutta F508del CFTR -proteiinia taittumaan oikein ja siirtymään solukalvolle, ja sen vakiintunut käyttö on kystisen fibroosin hoidossa.
 
-Leprosy is caused by *Mycobacterium leprae* infection and its treatment relies on antimycobacterial activity or host immune modulation — mechanistically distinct domains from CFTR protein folding/trafficking. The evidence pack's own mechanistic assessment concludes there is no known overlap between the CFTR-correction pathway and antimycobacterial or immune-modulation pathways, and no shared molecular pathway or supporting indirect evidence was identified.
+Lepra johtuu *Mycobacterium leprae* -infektiosta ja sen hoito perustuu antimykobakteeriaktiivisuuteen tai isäntäimuunijärjestelmän modulointiin — nämä ovat mekanistisesti erillään CFTR-proteiinin taittumisesta ja siirtymisestä. Näyttöaineiston oman mekanistisen arvioinnin mukaan CFTR-korjausreitin ja antimykobakteeri- tai immuunimoduloinnin reittien välillä ei ole tunnettua päällekkäisyyttä, eikä mitään yhteistä molekyylireittiä tai tukevia epäsuoria todisteita ole tunnistettu.
 
-Because of this, the mechanistic link should be treated as speculative rather than mechanistically grounded, and it is consistent with the L5 (prediction-only) evidence level and the "Hold" recommendation below.
+Tämän vuoksi mekanistinen yhteys tulee käsitellä spekulatiivisena pikemminkin kuin mekanistisesti perusteltuina, ja se on johdonmukainen L5 (vain ennuste) -näyttötason ja alla olevan "Pysäytys" -suosituksen kanssa.
 
-## Clinical Trial Evidence
+## Kliinisten tutkimusten näyttö
 
-Currently no related clinical trials registered.
+Tällä hetkellä ei ole siihen liittyviä rekisteröityjä kliinisiä tutkimuksia.
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-Currently no related literature available.
+Tällä hetkellä ei ole siihen liittyvää kirjallisuutta saatavilla.
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Lumacaftor is not marketed in Finland and has no marketing authorizations on file (0 licenses).
+Lumacafortoria ei myydä Suomessa eikä sillä ole markkinointilupia tiedostossa (0 lisenssejä).
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information.
+Katso pakkausselosteesta turvallisuustiedot.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pysäytys**
 
-**Rationale:**
-The prediction is supported only by the TxGNN model score (L5), with no clinical trials, no literature, and a mechanistic rationale that the evidence pack itself assesses as weak/speculative. There is also a blocking data gap on Fimea/TFDA package insert warnings and contraindications, which prevents even a baseline (S1) safety review.
+**Perustelu:**
+Ennuste on tuettu vain TxGNN-mallin pistemäärällä (L5), ilman kliinisiä tutkimuksia, ilman kirjallisuutta, ja mekanistisen perustelun kanssa, jonka näyttöaineisto itse arvioi heikoksi/spekulatiiviseksi. On myös estävä tietovaje Fimea/TFDA-pakkausselosteen varoituksista ja vasta-aiheista, joka estää jopa lähtötilanteen (S1) turvallisuusarvion.
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert data (warnings, contraindications) to clear the blocking data gap (DG001)
-- Confirmed mechanism of action detail from DrugBank (DG002)
-- Preclinical or mechanistic studies establishing a plausible link between CFTR correction and leprosy pathophysiology
-- Any real-world, case-report, or exploratory clinical evidence before advancing beyond S0
+**Edistymiseksi tarvitaan seuraavaa:**
+- TFDA/Fimea-pakkausselostetiedot (varoitukset, vasta-aiheet) estävän tietovajon poistamiseksi (`DG001`)
+- Vahvistetut vaikutusmekanismin yksityiskohdat DrugBankista (`DG002`)
+- Prekliiniset tai mekanistiset tutkimukset, jotka luovat uskottavan yhteyden CFTR-korjauksen ja lepran patofysiologian välille
+- Mitä tahansa todellisen käytännön todisteita, tapausraportteja tai alustavaa kliinistä todisteita ennen kuin edetään S0:n yli
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

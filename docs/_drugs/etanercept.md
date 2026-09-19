@@ -29,92 +29,93 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Etanercept: From Rheumatoid Arthritis to Rheumatoid Vasculitis
+# Etanersepti: reumatoidiisesta artriitista reumatoidiiseen vaskuliitin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Etanercept is a TNF-α receptor fusion protein originally developed for rheumatoid arthritis and related inflammatory joint diseases.
-The TxGNN model predicts it may be effective for **Rheumatoid Vasculitis**, but the **6 clinical trials** and **20 publications** currently available include a direct negative trial and multiple reports of etanercept-induced (paradoxical) vasculitis, making the supporting evidence contradictory rather than confirmatory.
+Etanersepti on TNF-α-reseptorin fuusioproteiiini, joka alun perin kehitettiin reumatoidiiseen artriitiin ja siihen liittyviin nivelten tulehdussairauksiin.
+TxGNN-malli ennustaa, että se voi olla tehokas **reumatoidiissa vaskuliitissa**, mutta **6 kliinistä tutkimusta** ja **20 julkaisua**, jotka tällä hetkellä ovat saatavilla, sisältävät suoran negatiivisen tutkimuksen ja useita raportteja etanerseptista indusoitavasta (paradoksaalisesta) vaskuliitista, mikä tekee näytöstä pikemminkin ristiriitaista kuin vahvistavaa.
 
 ---
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Rheumatoid Arthritis (based on known global approval history; structured original-indication data not available in this pack) |
-| Predicted New Indication | Rheumatoid Vasculitis |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L2 |
-| Taiwan Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen indikaatio | Reumatoidinen artriitti (perustuu tunnettuun globaaliin hyväksyntähistoriaan; strukturoituja alkuperäisen indikaation tietoja ei ole saatavilla tässä paketissa) |
+| Ennustettu uusi indikaatio | Reumatoidinen vaskuliitti |
+| TxGNN-ennustepistemäärä | 99.71% |
+| Näyttötaso | L2 |
+| Taiwanin markkinatilanne | ✗ Ei markkinoilla |
+| Hyväksyntöjen määrä | 0 |
+| Suositeltava päätös | Odota |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, detailed mechanism of action data is not available in the structured record. Based on known information, etanercept is a soluble p75 TNF-receptor–Fc fusion protein that binds and neutralizes TNF-α, thereby blocking a key pro-inflammatory cytokine implicated in rheumatoid arthritis and related autoimmune conditions. Its efficacy in rheumatoid arthritis has been proven in multiple pivotal trials, and mechanistically this TNF blockade could plausibly extend to other TNF-driven inflammatory conditions.
+Tällä hetkellä yksityiskohtaiset mekanismin toimintaa koskevat tiedot eivät ole saatavilla strukturoidussa tietueessa. Tunnettujen tietojen perusteella etanersepti on liukoinen p75 TNF-reseptor–Fc-fuusioproteiiini, joka sitoutuu TNF-α:hon ja neutralisoi sen, jolloin pääasialliset pro-inflammatoriset sytokiinit, jotka liittyvät reumatoidiiseen artriitiin ja siihen liittyviin autoimmuunisairauksiin, pystytään estämään. Sen tehokkuus reumatoidiissa artriitissa on osoitettu useissa keskeissä tutkimuksissa, ja mekanistisesti tämä TNF-salpausta voitaisiin laajentaa muihin TNF-ohjattuihin tulehdussairauksiin.
 
-Rheumatoid vasculitis (RV) is recognized in the literature as one of the most severe extra-articular manifestations of rheumatoid arthritis (PMID 33058033), which gives the RA→RV pairing biological plausibility — both conditions share an underlying inflammatory, TNF-associated pathophysiology, and RV typically arises in patients with long-standing, severe RA.
+Reumatoidinen vaskuliitti (RV) tunnustetaan kirjallisuudessa yhtenä reumatoidiisen artriitiin liittyvistä vakavimmista ekstraartkulaarisista ilmenemismuodoista (PMID 33058033), mikä antaa RA→RV-yhdistelmälle biologisen uskottavuuden — molemmat sairaudet jakavat taustalla olevan tulehduksellisen, TNF-assosiaatiovaskuliittisen patofysiologian, ja RV ilmenee tyypillisesti pitkäaikaisesta, vakavasta RA:sta kärsivissä potilaissa.
 
-However, the mechanism does not translate cleanly into supportive evidence. The only trial directly testing etanercept in an ANCA-associated vasculitis population (NCT00001901, Wegener's granulomatosis) was a negative/inconclusive study associated with safety concerns (the WGET research), not a positive efficacy signal. Compounding this, multiple case reports and case series describe etanercept **inducing** cutaneous or renal vasculitis as a paradoxical adverse event (e.g., PMID 31632872, 15853915, 12209493, 15801034), and a dedicated cohort study (PMID 28123776) quantifies TNF-inhibitor–associated risk of vasculitis-like events. This is a mechanistically coherent but evidentially contradictory signal — the drug's TNF blockade could theoretically help RV, but the accumulated clinical experience leans toward risk rather than benefit.
+Mekanismi ei kuitenkaan käänny puhtaaksi tutkevaksi näytöksi. Ainoa tutkimus, joka testasi etanerseptia suoraan ANCA-assosiaation vaskuliitti-populaatiossa (NCT00001901, Wegener-granulomatoosi) oli negatiivinen/epävarma tutkimus, johon liittyi turvallisuushuolia (WGET-tutkimus), ei positiivista tehokkuussignaalia. Tämän lisäksi useat tapausraportit ja tapaussarjat kuvaavat etanerseptia **indusoitavaksi** tekijäksi ihon tai munuaisen vaskuliitin osalta paradoksaalisen haittavaikutuksena (esim. PMID 31632872, 15853915, 12209493, 15801034), ja omistettu kohorttitutkimus (PMID 28123776) määrittää TNF-estäjäihin liittyvän vaskuliitin kaltaisten tapahtumien riskin. Tämä on mekanistisesti johdonmukainen mutta näyttöä vastaan oleva signaali — lääkkeen TNF-salpausta voitaisiin teoriassa auttaa RV:tä, mutta kertynyt kliininen kokemus kallistuu pikemminkin riskiin kuin hyötyyn.
 
 ---
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimuksen numero | Vaihe | Tila | Osallistujat | Keskeiset löydökset |
 |---------|------|------|------|---------|
-| [NCT00001901](https://clinicaltrials.gov/study/NCT00001901) | Phase 1/2 | Completed | 60 | Direct trial of etanercept in Wegener's granulomatosis (ANCA-associated vasculitis) — the only study testing the drug in a true vasculitis population; part of the WGET research and known to be a negative/safety-concern trial, not supportive of efficacy |
-| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | N/A | Unknown | 750,000 | Large real-world study on risk of developing additional immune-mediated inflammatory diseases in patients on biologics/immunosuppressants; indirect safety-relevant data only |
-| [NCT01579006](https://clinicaltrials.gov/study/NCT01579006) | N/A | Completed | 184 | Observational registry of tocilizumab (not etanercept) in RA patients with inadequate response to DMARDs/biologics; general RA context, not vasculitis-specific |
-| [NCT01557322](https://clinicaltrials.gov/study/NCT01557322) | N/A | Completed | 1,754 | Real-world treatment-pathway comparison of etanercept vs. non-biologic therapy in moderate RA; not vasculitis-specific |
-| [NCT02590562](https://clinicaltrials.gov/study/NCT02590562) | N/A | Completed | 808 | Cross-sectional study of biologic DMARD treatment patterns in Chinese RA patients; not vasculitis-specific |
-| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | Not Yet Recruiting | 80 | Evaluates perioperative immunosuppressant (including etanercept) management around shoulder arthroplasty in rheumatology patients; not vasculitis-specific |
+| [NCT00001901](https://clinicaltrials.gov/study/NCT00001901) | Vaihe 1/2 | Valmis | 60 | Suora etanerseptitutkimus Wegener-granulomatoosissa (ANCA-assosiaatiovaskuliitti) — ainoa tutkimus, joka testasi lääkkeen todellisissa vaskuliitti-populaatiossa; osa WGET-tutkimusta ja tunnettu negatiivinen/turvallisuushuolia aiheuttava tutkimus, ei tue tehokkuutta |
+| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | N/A | Tuntematon | 750,000 | Suuri todellisen maailman tutkimus riskin kehittää lisäimmunomedisoituja tulehdussairauksia potilaissa, joilla on biologiaa/immunosuppressantteja; epäsuora turvallisuutta koskevia tietoja vain |
+| [NCT01579006](https://clinicaltrials.gov/study/NCT01579006) | N/A | Valmis | 184 | Tosimaailman rekisteri toksilisumabista (ei etanerseptista) RA-potilaissa, joilla on riittämätön vastaus DMARD/biologiaan; yleinen RA-konteksti, ei vaskuliitin-spesifinen |
+| [NCT01557322](https://clinicaltrials.gov/study/NCT01557322) | N/A | Valmis | 1,754 | Tosimaailman hoitopolun vertailu etanerseptin ja ei-biologisen hoidon välillä keskivaikeassa RA:ssa; ei vaskuliitin-spesifinen |
+| [NCT02590562](https://clinicaltrials.gov/study/NCT02590562) | N/A | Valmis | 808 | Poikittaisleikkautuva tutkimus biologisen DMARD-hoitokäytännöistä kiinalaisissa RA-potilaissa; ei vaskuliitin-spesifinen |
+| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Vaihe 2 | Ei vielä rekrytoimassa | 80 | Arvioi perioperatiivisen immunosuppressantin (mukaan lukien etanersepti) hallintoa olkanivelen proteesityöskentelyn yhteydessä reumatologiapotilaissa; ei vaskuliitin-spesifinen |
 
 ---
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
 |------|-----|------|------|---------|
-| [33058033](https://pubmed.ncbi.nlm.nih.gov/33058033/) | 2021 | Systematic review | Clinical Rheumatology | Systematic review of biological therapy use in rheumatoid vasculitis, a severe extra-articular RA manifestation |
-| [28391344](https://pubmed.ncbi.nlm.nih.gov/28391344/) | 2017 | Review | Nephrology Dialysis Transplantation | Reviews the rationale and evidence for TNF-α blockade in ANCA-associated vasculitis and glomerulonephritis |
-| [28123776](https://pubmed.ncbi.nlm.nih.gov/28123776/) | 2017 | Cohort (BSRBR-RA) | RMD Open | Quantifies drug-specific risk of lupus- and vasculitis-like events in RA patients treated with TNF inhibitors, including etanercept |
-| [15468348](https://pubmed.ncbi.nlm.nih.gov/15468348/) | 2004 | Review/safety analysis | The Journal of Rheumatology | Analyzes the relationship between TNF-α blockade and risk of vasculitis |
-| [15801034](https://pubmed.ncbi.nlm.nih.gov/15801034/) | 2005 | Case report | The Journal of Rheumatology | Reports proliferative lupus nephritis and leukocytoclastic vasculitis developing during etanercept treatment |
-| [25544845](https://pubmed.ncbi.nlm.nih.gov/25544845/) | 2014 | Case report | Case Reports in Medicine | Large-vessel vasculitis occurring in an RA patient under anti-TNF therapy |
-| [15853915](https://pubmed.ncbi.nlm.nih.gov/15853915/) | 2005 | Case series | Scandinavian Journal of Immunology | Immunologic mechanisms of cutaneous vasculitis associated with both etanercept and infliximab |
-| [12209493](https://pubmed.ncbi.nlm.nih.gov/12209493/) | 2002 | Case report | Arthritis and Rheumatism | Accelerated nodulosis and vasculitis following etanercept therapy for RA (reverse/paradoxical signal) |
-| [31632872](https://pubmed.ncbi.nlm.nih.gov/31632872/) | 2019 | Case report | Cureus | Etanercept-associated nephropathy |
-| [11792895](https://pubmed.ncbi.nlm.nih.gov/11792895/) | 2002 | Case report | Rheumatology (Oxford) | Etanercept and infliximab associated with cutaneous vasculitis |
+| [33058033](https://pubmed.ncbi.nlm.nih.gov/33058033/) | 2021 | Systemaattinen katsaus | Clinical Rheumatology | Systemaattinen katsaus biologisen hoidon käytöstä reumatoidiissa vaskuliitissa, vakavassa ekstraartkulaarisissa RA:n ilmenemismuodossa |
+| [28391344](https://pubmed.ncbi.nlm.nih.gov/28391344/) | 2017 | Katsaus | Nephrology Dialysis Transplantation | Tarkastelee TNF-α-salpausta koskevan perustelun ja näyttöä ANCA-assosiaatiovaskuliitissa ja glomerulonefriitissa |
+| [28123776](https://pubmed.ncbi.nlm.nih.gov/28123776/) | 2017 | Kohortti (BSRBR-RA) | RMD Open | Määrittää lääkkeille ominaiset riskit lupus- ja vaskuliitin kaltaisista tapahtumista RA-potilaissa, joilla on TNF-estäjät, mukaan lukien etanersepti |
+| [15468348](https://pubmed.ncbi.nlm.nih.gov/15468348/) | 2004 | Katsaus/turvallisuusanalyysi | The Journal of Rheumatology | Analysoi TNF-α-salpausta ja vaskuliittiriskin välistä suhdetta |
+| [15801034](https://pubmed.ncbi.nlm.nih.gov/15801034/) | 2005 | Tapausraportti | The Journal of Rheumatology | Raportti proliferaatiivisen lupus-nefriitista ja leukositoklaastisesta vaskuliitista, joka kehittyy etanerseptin hoidon aikana |
+| [25544845](https://pubmed.ncbi.nlm.nih.gov/25544845/) | 2014 | Tapausraportti | Case Reports in Medicine | Suurten verisuonien vaskuliitti RA-potilaassa, jolla on anti-TNF-hoito |
+| [15853915](https://pubmed.ncbi.nlm.nih.gov/15853915/) | 2005 | Tapaussarja | Scandinavian Journal of Immunology | Immunologiset mekanismit ihon vaskuliitista, joka liittyy sekä etanerseptiin että infliksimabiin |
+| [12209493](https://pubmed.ncbi.nlm.nih.gov/12209493/) | 2002 | Tapausraportti | Arthritis and Rheumatism | Kiihtynyt noduloosia ja vaskuliitti etanerseptin jälkeen RA-hoidon yhteydessä (käänteinen/paradoksaalinen signaali) |
+| [31632872](https://pubmed.ncbi.nlm.nih.gov/31632872/) | 2019 | Tapausraportti | Cureus | Etanerseptiin liittyvä nefropatia |
+| [11792895](https://pubmed.ncbi.nlm.nih.gov/11792895/) | 2002 | Tapausraportti | Rheumatology (Oxford) | Etanersepti ja infliksimabi ihon vaskuliitin kanssa |
 
 ---
 
-## Finland Market Information
+## Taiwanin markkinatiedot
 
-Etanercept is currently **not marketed in Taiwan** — no product authorizations are on file (0 licenses), so no license table is available.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. (TFDA warnings and contraindications data is a currently unresolved data gap — see Conclusion below.)
+Etanerseptia ei ole tällä hetkellä markkinoilla Taiwanissa — yhtään tuotteen hyväksyntää ei ole tiedostossa (0 lisenssejä), joten lisenssin taulukkoa ei ole saatavilla.
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuusnäkökohdat
 
-**Decision: Hold**
+Katso tarkempia turvallisuustietoja pakkausselosteesta. (TFDA-varoitukset ja vasta-aiheet-tiedot ovat tällä hetkellä ratkaisematon tietojen puuttuessa — katso johtopäätös alla).
 
-**Rationale:**
-The only direct clinical trial in a vasculitis population (NCT00001901, Wegener's granulomatosis) was negative/inconclusive with safety concerns, and multiple case reports describe etanercept as a potential **cause** of cutaneous or renal vasculitis rather than a treatment — this is contradictory, not supportive, evidence for the rheumatoid vasculitis indication.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert warnings/contraindications (currently a Blocking data gap; required before any S1 safety screening)
-- Confirmed mechanism of action documentation from DrugBank
-- A dedicated, adequately powered trial or controlled observational study in rheumatoid vasculitis patients that directly weighs the paradoxical vasculitis risk signal against any therapeutic benefit
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Odota**
+
+**Perustelut:**
+Ainoa suora kliininen tutkimus vaskuliitti-populaatiossa (NCT00001901, Wegener-granulomatoosi) oli negatiivinen/epävarma turvallisuushuolineen, ja useat tapausraportit kuvaavat etanerseptia mahdollisena **aiheuttajana** ihon tai munuaisen vaskuliitin osalta pikemminkin kuin hoitona — tämä on ristiriitaista, ei tukevaa, näyttöä reumatoidiisen vaskuliitin indikaatiolle.
+
+**Etenemisvaihtoehdot, tarvitaan seuraavat:**
+- TFDA-pakkausseloste varoitukset/vasta-aiheet (tällä hetkellä estävä tietojen puuttuessa; vaaditaan ennen mitään S1-turvallisuuden seulontaa)
+- Vahvistettu mekanismin toiminta-asiakirja DrugBankista
+- Omistettu, riittävästi mitoitettu tutkimus tai kontrolloitu havainnollinen tutkimus reumatoidiissa vaskuliitti-potilaissa, joka suoraan punnitsee paradoksaalisen vaskuliitin-riskisignaalin mahdollista terapeuttista hyötyä vastaan
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -29,81 +29,82 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-# Regadenoson: From Cardiac Stress Test Agent to Anaphylaxis
+# Regadenoson: sydämen kuormitustestiagenteista anafilaaksian
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-> Regadenoson is a selective adenosine A2A receptor agonist used clinically as a pharmacologic cardiac stress agent for myocardial perfusion imaging, not as a disease-treating drug.
-> The TxGNN model predicts it may be effective for **Anaphylaxis**, with a score of **99.85%**,
-> but this is supported by only **1 loosely related clinical trial** and **0 publications** — and the mechanistic evidence points the opposite direction.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Pharmacologic cardiac stress agent (myocardial perfusion imaging) — not formally structured in source data; no Finland-approved indication text available |
-| Predicted New Indication | Anaphylaxis |
-| TxGNN Prediction Score | 99.85% |
-| Evidence Level | L5 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Regadenoson on valikoiva adrenaliini A2A -reseptorin agonisti, jota käytetään kliinisesti farmakologisena sydämen kuormitustestiagenttina myokardin perfuusiokuvantamiseen, ei tautia hoitavana lääkkeenä.
+> TxGNN-malli ennustaa sen olevan mahdollisesti tehokas **anafilaaksian** hoidossa, pisteillä **99,85 %**,
+> mutta tätä tukee vain **1 heikosti asiaan liittyvä kliininen tutkimus** ja **0 julkaisua** — ja mekanistinen näyttö viittaa vastakkaiseen suuntaan.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Pikayleiskatsaus
 
-Detailed mechanism-of-action data is marked as a data gap in the structured record, but the evidence pack's own mechanistic analysis identifies regadenoson as a selective adenosine A2A receptor agonist, used clinically to pharmacologically simulate exercise stress during cardiac perfusion imaging in patients who cannot exercise adequately.
-
-The predicted link to anaphylaxis does **not** follow a plausible treatment mechanism. Adenosine A2A receptor activation is mechanistically associated with mast cell degranulation and vasodilation — this is precisely why regadenoson's own label already carries a known risk of anaphylactoid/hypersensitivity reactions (flushing, dyspnea, hypotension) as an **adverse effect**, not a therapeutic one. The single clinical trial retrieved for this indication (NCT06854458) confirms this pattern: it is a cardiac stress-MRI perfusion study where regadenoson is used as the stress-inducing agent, and anaphylaxis appears only as a monitored adverse event, not a treatment endpoint (relevance grade **C**).
-
-This concern is reinforced by the broader prediction set: of the top 4 TxGNN candidates for this drug, three (anaphylaxis, food-dependent exercise-induced anaphylaxis, pseudoallergy) are all hypersensitivity/mast-cell-mediated conditions. This clustering strongly suggests the knowledge graph has encoded a drug→adverse-event relationship as a drug→indication relationship — i.e., a likely **direction-inverted signal** rather than a genuine repurposing opportunity.
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Farmakologinen sydämen kuormitustestiagentti (myokardin perfuusiokuvantaminen) — ei muodollisesti strukturoitu lähdetiedoissa; Suomessa hyväksyttyjä indikaatiotekstejä ei ole saatavilla |
+| Ennustettu uusi indikaatio | Anafilaaksia |
+| TxGNN-ennusteen pistemäärä | 99,85 % |
+| Näyttötaso | L5 |
+| Suomen markkinointitilanne | ✗ Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Pidätä |
 
 ---
 
-## Clinical Trial Evidence
+## Miksi tämä ennuste on järkevä?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Yksityiskohtainen vaikutusmekanismi on merkitty tietoaukoksi strukturoidussa tietueessa, mutta näyttöpaketin oma mekanistinen analyysi tunnistaa regadnosonia valikoivaksi adrenaliini A2A -reseptorin agonistiksi, jota käytetään kliinisesti sydämen perfuusiokuvantamisen farmakologiseen kuormitussimulaatioon potilailla, jotka eivät voi harjoittaa riittävää kuormitusta.
+
+Ennustettu yhteys anafilaaksiin **ei** noudata uskottavaa hoitomekanismia. Adrenaliini A2A -reseptorin aktivaatio on mekanistisesti yhteydessä mastosolun degrangoitumiseen ja verisuonten laajentumiseen — tämä on juuri syy siihen, että regadnosonia koskevan merkinnän tarroissa jo nyt ilmoitetaan tunnettu riski anafilaaktoid-/yliherkkyyskokemuksista (punoitus, hengityksen ahdistus, verenpaineen lasku) **haittavaikutuksena**, ei terapeuttisena vaikutuksena. Yksittäinen tähän indikaatioon haettu kliininen tutkimus (NCT06854458) vahvistaa tämän kaavan: se on sydämen kuormitusmagneettikuvaus-perfuusiitutkimus, jossa regadnosonia käytetään kuormitusta aiheuttavana agenttina, ja anafilaaksia esiintyy vain seurannan kohteena olevana haittavaikutuksena, ei hoitotavoitteena (relevanssiarvo **C**).
+
+Tämä huoli vahvistuu laajemmalla ennustejoukolla: neljän parhaan TxGNN-kandidaatin joukossa tälle lääkkeelle kolme (anafilaaksia, ruoka-riippuvainen rasituksen aiheuttama anafilaaksia, pseudoallergiat) ovat kaikki yliherkkyyteen/mastosolumediointiin liittyviä sairauksia. Tämä klusteroituminen viittaa voimakkaasti siihen, että tietoverkko on koodannut lääke→haittavaikutus-suhteen lääke→indikaatio-suhteeksi — eli todennäköisesti **suunta-invertoituun signaaliin** pikemminkin kuin todelliseen uudelleenkäyttömahdollisuuteen.
+
+---
+
+## Kliinisen tutkimuksen näyttö
+
+| Tutkimusnumero | Vaihe | Tila | Rekrytointi | Tärkeimmät löydökset |
 |---------|------|------|------|---------|
-| [NCT06854458](https://clinicaltrials.gov/study/NCT06854458) | N/A | Recruiting | 1000 | Multicenter stress cardiac MRI perfusion imaging study; regadenoson used as the pharmacologic stress agent. Anaphylaxis is not a treatment target — at most a monitored adverse event. Relevance graded **C** (low relevance to the treatment hypothesis). |
+| [NCT06854458](https://clinicaltrials.gov/study/NCT06854458) | N/A | Rekrytoi | 1000 | Monikeskuksinen sydämen kuormitus-magneettikuvaus-perfuusiitutkimus; regadnosonia käytetään farmakologisena kuormitusagenttina. Anafilaaksia ei ole hoitokohde — enintään seurannan kohteena oleva haittavaikutus. Relevanssiarvo **C** (alhainen relevanssiarvo hoitohypoteesiin). |
 
-*No clinical trials were found for the other predicted indications (food-dependent exercise-induced anaphylaxis, esotropia, pseudoallergy).*
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
+*Muille ennustetuille indikaatioille (ruoka-riippuvainen rasituksen aiheuttama anafilaaksia, esotropia, pseudoallergiat) ei löydetty kliinisiä tutkimuksia.*
 
 ---
 
-## Finland Market Information
+## Kirjallisuuden näyttö
 
-Regadenoson is not currently marketed in Finland (0 authorizations on record); no product/license data is available.
-
----
-
-## Safety Considerations
-
-Structured safety fields (key warnings, contraindications, DDI) are not populated in the source data. However, the evidence pack's mechanistic rationale flags that regadenoson has a **known risk of anaphylactoid/hypersensitivity reactions** (flushing, dyspnea, hypotension) as part of its established adverse-effect profile — directly relevant given that this is also the predicted "new indication." Full labeling data (TFDA/package insert warnings and contraindications) is currently a **blocking data gap** and has not yet been retrieved.
-
-Please refer to the package insert for complete safety information once available.
+Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta.
 
 ---
 
-## Conclusion and Next Steps
+## Suomen markkinointitiedot
 
-**Decision: Hold**
+Regadnosonia ei ole tällä hetkellä markkinoilla Suomessa (0 hyväksyntöä tietueessa); tuote-/lisenssiä koskevia tietoja ei ole saatavilla.
 
-**Rationale:**
-Evidence level is L5 (model prediction only) — the one retrieved clinical trial does not actually support treating anaphylaxis with regadenoson, and no literature exists. More importantly, the mechanistic pattern (adenosine A2A agonism triggering mast-cell-mediated reactions) and the clustering of hypersensitivity-related predictions across this drug's top candidates both suggest this is a safety signal misclassified as a treatment signal, not a genuine repurposing hypothesis.
+---
 
-**To proceed, the following is needed:**
-- Retrieve TFDA/package insert warnings and contraindications (currently a blocking gap for S1 safety evaluation)
-- Confirm mechanism-of-action data via DrugBank to formally rule in/out the signal-inversion hypothesis
-- If pursued further, obtain preclinical or mechanistic studies that directly link A2A receptor agonism to an anti-anaphylactic (rather than pro-anaphylactic) effect before advancing past S0
+## Turvallisuusnäkökohdat
+
+Strukturoidut turvallisuuskentät (tärkeimmät varoitukset, vasta-aiheet, lääkeinteraktiot) eivät ole täytettyjä lähdetiedoissa. Näyttöpaketin mekanistinen perusteltu kuitenkin korostaa, että regadnosella on **tunnettu riski anafilaaktoid-/yliherkkyyskokemuksista** (punoitus, hengityksen ahdistus, verenpaineen lasku) osana sen vakiintunutta haittavaikutusprofiiilia — suoraan asiaan liittyvä, koska tämä on myös ennustettu "uusi indikaatio". Täydellisiä merkintätietoja (TFDA/pakkausseloste varoitukset ja vasta-aiheet) on tällä hetkellä **este-tietoaukko** eikä sitä ole vielä haettu.
+
+Täydellisiä turvallisuustietoja varten katso pakkausseloste, kun se on saatavilla.
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidätä**
+
+**Perustelut:**
+Näyttötaso on L5 (vain mallin ennuste) — yksittäinen haettu kliininen tutkimus ei todellakaan tue anafilaaksian hoitamista regadnosella, eikä kirjallisuutta ole olemassa. Vielä tärkeämpää on se, että mekanistinen kaava (adrenaliini A2A -agonismi käynnistää mastosolumedioidut reaktiot) ja hypersensitiisuuteen liittyvien ennusteiden klusteroituminen tämän lääkkeen huippiehdokkaiden kesken sekä viittaa voimakkaasti siihen, että kyseessä on turvallisuussignaali, joka on luokiteltu väärin hoitosignaaliksi, ei todellinen uudelleenkäyttöhypoteesi.
+
+**Edistymiseksi seuraavat asiat ovat tarpeen:**
+- Nouda TFDA/pakkausseloste varoituksia ja vasta-aiheita (tällä hetkellä este S1-turvallisuusarvioinnille)
+- Vahvista vaikutusmekanismin tiedot DrugBankin kautta muodollisesti sulkeaksesi signaali-inversion hypoteesin pois tai sisään
+- Jos edetään edelleen, hanki prekliinisiä tai mekanistisia tutkimuksia, jotka suoraan yhdistävät A2A-reseptorin agonismin anti-anafilaaktiseen (sen sijaan pro-anafilaaksiseen) vaikutukseen ennen S0:n ylittämistä
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

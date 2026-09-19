@@ -29,66 +29,67 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 
 </div>
 
-# Avatrombopag Maleate: Repurposing Evaluation — No TxGNN Predictions Available
+# Avatrombopag maleate: Lääkkeen uusiokäytön arvio — TxGNN-ennusteita ei saatavilla
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Avatrombopag maleate is a thrombopoietin receptor agonist (TPO-RA) used to treat thrombocytopenia in adults.
-The TxGNN model returned **no predicted new indications** for this drug in the current Evidence Pack, and key data fields including mechanism of action and safety information were not successfully populated.
-This evaluation **cannot be completed** until the data pipeline gaps are resolved.
+Avatrombopag maleate on trombopoetiini-reseptoriagonisti (TPO-RA), jota käytetään aikuisten verihiutaleperääntymän hoitoon.
+TxGNN-malli ei palauttanut tämän lääkkeen ennustettuja uusia indikaatioita nykyisessä Evidence Pack -kokoelmassa, ja kriittiset tietomuodot, kuten vaikutusmekanismi ja turvallisuustiedot, eivät täyttyneet onnistuneesti.
+Tätä arviota ei voida saattaa loppuun, kunnes tietoputken puutteet korjataan.
 
 ---
 
-## Quick Overview
+## Pikayleiskatsaus
 
-| Item | Content |
+| Aihe | Sisältö |
 |------|---------|
-| Original Indication | Not retrieved in this Evidence Pack |
-| Predicted New Indication | None — TxGNN returned no predictions |
-| TxGNN Prediction Score | Not available |
-| Evidence Level | Not assessable |
-| Finland Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+| Alkuperäinen indikaatio | Ei haettu tästä Evidence Pack -kokoelmasta |
+| Ennustettu uusi indikaatio | Ei yhtään — TxGNN ei palauttanut ennusteita |
+| TxGNN-ennusteen pistemäärä | Ei saatavilla |
+| Todistusten taso | Ei arvioitavissa |
+| Suomen markkinatilanne | Ei markkinoilla |
+| Lupapäätösten lukumäärä | 0 |
+| Suositeltu päätös | **Odota** |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on perusteltu?
 
-No predicted indications were returned by TxGNN for avatrombopag maleate in this Evidence Pack. Without a target indication, mechanistic bridging analysis cannot be performed.
+TxGNN ei palauttanut avatrombopag maleatille ennustettuja indikaatioita tässä Evidence Pack -kokoelmassa. Ilman kohde-indikaatiota mekanistista silta-analyysia ei voida suorittaa.
 
-Mechanism of action data was flagged as a data gap (severity: High) and was not populated despite a successful DrugBank query being logged. This prevents any assessment of whether the drug's pharmacology could plausibly extend to a new disease area.
+Vaikutusmekanismin tiedot merkittiin tietojen puutteiksi (vakavuus: Korkea) eikä niitä täytetty huolimatta onnistuneesti kirjatusta DrugBank-kyselystä. Tämä estää arvioinnin, voiko lääkkeen farmakologia uskottavasti laajentua uudelle sairausalueelle.
 
-From publicly available knowledge, avatrombopag maleate belongs to the TPO receptor agonist class and stimulates platelet production — but without TxGNN's candidate output, there is no repurposing hypothesis to evaluate at this stage.
-
----
-
-## Finland Market Information
-
-Avatrombopag maleate is currently **not marketed in Finland**. No Fimea authorizations are on record (0 licenses).
+Julkisesti saatavilla olevien tietojen perusteella avatrombopag maleate kuuluu TPO-reseptoriagonistiluokkaan ja stimuloi verihiutaletuotantoa — mutta ilman TxGNN:n ehdokaslähtöä ei ole lääkkeen uusiokäyttöhypoteesia, jota voitaisiin arvioida tässä vaiheessa.
 
 ---
 
-## Safety Considerations
+## Suomen markkinatiedot
 
-Please refer to the package insert for safety information.
+Avatrombopag maleatia ei tällä hetkellä markkinoida Suomessa. Fimean hyväksyntöjä ei ole rekisteröity (0 lupapäätöstä).
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuusnäkökohdat
 
-**Decision: Hold**
+Katso turvallisuustiedot pakkausselosteesta.
 
-**Rationale:**
-The Evidence Pack is critically incomplete — TxGNN returned no predicted indications, mechanism of action is missing, and safety data (warnings, contraindications, DDI) was not retrieved. There is no repurposing hypothesis to evaluate.
+---
 
-**To proceed, the following is needed:**
+## Johtopäätös ja seuraavat vaiheet
 
-- **Re-run TxGNN prediction pipeline** for avatrombopag maleate and confirm candidate indications are written to `predicted_indications`
-- **Retrieve MOA from DrugBank** — a successful query was logged (result\_count: 1) but data was not propagated into the Evidence Pack; investigate the parsing step
-- **Parse package insert** — TFDA package insert query also returned 1 result (result\_count: 1) but warnings and contraindications remain empty; check PDF extraction logic
-- **Confirm original approved indication** from Fimea / EMA regulatory filings to establish the repurposing baseline
-- Once the above are resolved, re-generate the Evidence Pack (v5+) and resubmit for full evaluation
+**Päätös: Odota**
+
+**Perustelu:**
+Evidence Pack -kokoelma on kriittisesti epätäydellinen — TxGNN ei palauttanut ennustettuja indikaatioita, vaikutusmekanismi puuttuu ja turvallisuustiedot (varoitukset, vasta-aiheet, lääkeinteraktiot) ei haettu. Arviointiin ei ole lääkkeen uusiokäyttöhypoteesia.
+
+**Jatkamiseksi tarvitaan seuraavaa:**
+
+- **Suorita TxGNN-ennustusputki uudelleen** avatrombopag maleatille ja varmista, että ehdokasindikaatiot kirjoitetaan kohteeseen `predicted_indications`
+- **Hae vaikutusmekanismi (MOA) DrugBankista** — onnistunut kysely kirjattiin (result_count: 1), mutta tiedot ei välitetty Evidence Pack -kokoelmaan; tutkittava jäsentämisvaihetta
+- **Jäsennä pakkausseloste** — TFDA pakkausseloste -kysely palautti myös 1 tuloksen (result_count: 1), mutta varoitukset ja vasta-aiheet jäivät tyhjiksi; tarkista PDF-poimimislogiikka
+- **Varmista alkuperäinen hyväksytty indikaatio** Fimean / EMA:n sääntelytiedostoista lääkkeen uusiokäytön peruslinjan määrittämiseksi
+- **Kun yllä mainitut asiat on ratkaistu**, luo Evidence Pack uudelleen (v5+) ja lähetä uudelleen täydelliseen arviointiin
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

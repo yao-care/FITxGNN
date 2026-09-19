@@ -29,77 +29,78 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Palonosetron: From Chemotherapy-Induced Nausea and Vomiting to Migraine Disorder
+# Palonosetron: Sytostaattien aiheuttamasta pahoinvoinnista migreeni-häiriöön
 
-## One-Sentence Summary
+## Yksirivisummary
 
-> Palonosetron is a second-generation 5-HT3 receptor antagonist antiemetic, established for chemotherapy-induced nausea and vomiting (CINV) — this original-use context is general pharmacological knowledge and is **not** confirmed by the evidence pack itself, which contains no sourced original-indication text.
-> The TxGNN model predicts possible effectiveness for **Migraine Disorder** (score **99.74%**), but the only supporting literature currently on file is a single case report titled *"Palonosetron-induced migraine-type headache"* — i.e., a report of the drug **causing** migraine-like symptoms, not treating them — and **no clinical trials** are registered for this indication.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available in the evidence pack (no `original_indications` or Finland license text on file); generally known as an antiemetic for CINV, but unverified against this data source |
-| Predicted New Indication | Migraine Disorder |
-| TxGNN Prediction Score | 99.74% |
-| Evidence Level | L4 |
-| Finland Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Palonosetron on toisen sukupolven 5-HT3-reseptorin antagonisti, antiemeettinen lääke, joka on kliinisesti hyväksytty sytostaattien aiheuttaman pahoinvoinnin ja oksentamisen (CINV) ehkäisyyn — tämä alkuperäisen käyttöindikaation konteksti on yleistä farmakologista tietoa eikä sitä **vahvista** itse näytöaineisto, joka ei sisällä lähdetietoja alkuperäisestä indikaatiosta.
+> TxGNN-malli ennustaa mahdollista tehokkuutta **Migreeni-häiriölle** (pistemäärä **99.74%**), mutta ainoa tällä hetkellä käytettävissä oleva tutkimuslitteratuurin todiste on yksittäinen tapausraportti *"Palonosetronin aiheuttama migreenimainen päänsärky"* — eli raportti siitä, että lääke **aiheuttaa** migreenimaisia oireita, ei niitä hoida — ja **yhtään kliinistä tutkimusta** ei ole rekisteröity tälle indikaatiolle.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap, DG002). Based on general pharmacological knowledge, palonosetron is a highly selective 5-HT3 receptor antagonist, clinically established for preventing chemotherapy-induced nausea and vomiting.
-
-The mechanistic case for migraine, however, is weak and arguably contradictory rather than supportive. The pharmacological standard of care for migraine — triptans — acts on 5-HT1B/1D receptors, a distinct serotonin receptor subtype with no established positive interaction with 5-HT3 antagonism. There is no established mechanism by which 5-HT3 blockade would relieve migraine.
-
-More importantly, the single piece of literature evidence attached to this prediction is a case report describing palonosetron *inducing* migraine-type headache as an **adverse reaction**, not evidence of therapeutic benefit. This means the available real-world signal for this drug–disease pair points in the opposite direction from what the TxGNN score would suggest. The prediction should be read as a graph-based statistical association rather than a mechanistically or clinically supported hypothesis at this stage.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Kohde | Sisältö |
+|------|--------|
+| Alkuperäinen indikaatio | Ei saatavilla näytöaineistosta (ei `alkuperäisiä_indikaatioita` tai Suomen lupa-tekstejä arkistossa); yleisesti tiedetään antiemeettiseksi CINV:n ehkäisyyn, mutta vahvistamatonta tätä tietolähdettä vastaan |
+| Ennustettu uusi indikaatio | Migreeni-häiriö |
+| TxGNN-ennustepistemäärä | 99.74% |
+| Näytötaso | L4 |
+| Suomen markkinatilanne | ✗ Ei markkinoilla |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Pidättäytyminen |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennuste on järkevä?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [21132477](https://pubmed.ncbi.nlm.nih.gov/21132477/) | 2011 | Case Report | Canadian Journal of Anaesthesia | Describes a case of palonosetron **inducing** migraine-type headache — an adverse-event report, not evidence of efficacy against migraine |
+Tällä hetkellä toimintamekanismin yksityiskohtaisia tietoja ei ole saatavilla (merkitty korkean vakavuusasteen tietovajeeksi, DG002). Yleisen farmakologisen tiedon perusteella palonosetron on erittäin selektiivinen 5-HT3-reseptorin antagonisti, joka on kliinisesti hyväksytty sytostaattien aiheuttaman pahoinvoinnin ja oksentamisen ehkäisyyn.
 
----
+Mekanistinen perusteltu migreenille on kuitenkin heikko ja jopa ristiriitainen sen sijaan että tukisi sitä. Migreenia hoitavan farmakologisen standardin mukaisesti triptaanit vaikuttavat 5-HT1B/1D-reseptoreihin, jotka ovat erillinen serotoniinireseptorin alatyyppi ilman vakiintunutta positiivista vuorovaikutusta 5-HT3-antagonismiin. Ei ole vakiintunutta mekanismia, jolla 5-HT3:n esto helpottaisi migreeniä.
 
-## Finland Market Information
-
-Palonosetron is currently **not marketed** in Finland (0 authorizations on file); no product license data is available.
+Vielä tärkeämpää on, että tähän ennusteeseen liittyvä ainoa kirjallisuuden todiste on tapausraportti, joka kuvaa palonosetronin **aiheuttavan** migreenimaista päänsärkyä **haitallisena reaktiona**, ei todisteena terapeuttisesta hyödystä. Tämä tarkoittaa, että tämän lääke-sairaus-parin käytettävissä oleva todellisen maailman signaali osoittaa päinvastaiseen suuntaan kuin TxGNN-pistemäärä viittaisi. Ennuste tulisi lukea graafipohjaisen tilastollisen assosiaation kuin mekanistisesti tai kliinisesti tuetun hypoteesin sijaan tässä vaiheessa.
 
 ---
 
-## Safety Considerations
+## Kliinisen tutkimuksen todisteet
 
-Please refer to the package insert for safety information. No key warnings, contraindications, or drug-interaction data are available in the current evidence pack — TFDA/product-label safety data is flagged as a **Blocking** data gap (DG001), meaning safety cannot yet be assessed.
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
 
 ---
 
-## Conclusion and Next Steps
+## Kirjallisuuden todisteet
 
-**Decision: Hold**
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
+|------|------|--------|-------|-----------------|
+| [21132477](https://pubmed.ncbi.nlm.nih.gov/21132477/) | 2011 | Tapausraportti | Canadian Journal of Anaesthesia | Kuvaa tapausta, jossa palonosetron **aiheutti** migreenimaista päänsärkyä — haittatapahtuma-raportti, ei todiste tehokkuudesta migreenia vastaan |
 
-**Rationale:**
-Evidence for the migraine indication consists of a single case report of an **adverse effect** (drug-induced migraine-type headache), not a treatment signal, and no clinical trials exist. The proposed mechanism also lacks a positive pharmacological rationale (5-HT3 antagonism vs. the triptan/5-HT1B/1D pathway actually used in migraine). All five TxGNN-predicted indications for this candidate carry a "Hold" recommendation, and the two lower-ranked skin conditions (atrophoderma vermiculata, ulerythema ophryogenesis) have no literature or trial support at all.
+---
 
-**To proceed, the following is needed:**
-- TFDA/Finland package insert data (warnings, contraindications) — currently a Blocking gap (DG001)
-- Confirmed mechanism of action and verified original indication, sourced rather than inferred from general knowledge (DG002)
-- Independent evaluation of whether the "palonosetron-induced migraine" case report represents a class-level 5-HT3-antagonist safety signal, which would argue **against** rather than for this repurposing direction
-- Any additional clinical or preclinical data establishing a positive (not merely correlative) mechanistic link to migraine before advancing past S0
+## Suomen markkinatiedot
+
+Palonosetron **ei ole markkinoilla** Suomessa (0 lupaa arkistossa); tuotelupa-tietoja ei ole saatavilla.
+
+---
+
+## Turvallisuushuomiot
+
+Katso turvallisuusohjeet pakkausselosteesta. Yhtään keskeistä varoitusta, vasta-aiheita tai lääkkeen yhteisvaikutustietoja ei ole saatavilla nykyisessä näytöaineistossa — TFDA/pakkausselosteen turvallisuustiedot on merkitty **estäväksi** tietovajeksi (DG001), mikä tarkoittaa, että turvallisuutta ei vielä voi arvioida.
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidättäytyminen**
+
+**Perustelut:**
+Migreeni-indikaation todisteet koostuvat yksittäisestä tapausraportista **haitallisesta vaikutuksesta** (lääkkeen aiheuttama migreenimainen päänsärky), ei hoitosignaalista, eikä yhtään kliinistä tutkimusta ole olemassa. Ehdotettu mekanismi puuttuu myös positiivisesta farmakologisesta perustelusta (5-HT3-antagonismi vs. triptaanien/5-HT1B/1D-polun käyttö migreenin todellisessa hoitamisessa). Kaikki viisi TxGNN-ennustettu indikaatiota tälle ehdokkaalle suosittelevat pidättäytymistä, ja kahdella alemman sijoituksen ihosairauksilla (atrophoderma vermiculata, ulerythema ophryogenesis) ei ole lainkaan kirjallisuus- tai tutkimustukea.
+
+**Jotta voidaan edetä, seuraavaa tarvitaan:**
+- TFDA/Suomen pakkausselosteen tiedot (varoitukset, vasta-aiheet) — tällä hetkellä estävä tietovaje (DG001)
+- Vahvistettu toimintamekanismi ja varmennettu alkuperäinen indikaatio, lähdeviitteineen pääteltäväksi yleisestä tiedosta (DG002)
+- Riippumaton arviointi siitä, edustaako "palonosetronin aiheuttama migreeni" -tapausraportti luokkatasoisesti 5-HT3-antagonistin turvallisuussignaalia, joka argumentoisi **vastaan** sen sijaan että hyväksi tälle uudelleenkäyttöindikaatiolle
+- Mitään lisää kliinistä tai prekliinistä tietoa, joka osoittaa positiivisen (ei pelkän korreloivan) mekanistisen yhteyden migreeniin ennen edistymistä S0-vaiheen yli
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

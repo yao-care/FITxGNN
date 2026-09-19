@@ -29,92 +29,93 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Cabozantinib: From Renal Cell Carcinoma to Liposarcoma
+# Cabozantinib: nefrosellulaarikarsinoomasta lipoosarkooma
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Cabozantinib is a multi-target tyrosine kinase inhibitor (MET/VEGFR1-3/RET/AXL/KIT) already approved internationally for renal cell carcinoma and other cancers, though it is not yet marketed in Taiwan. The TxGNN model predicts potential efficacy in **Liposarcoma**, currently supported by **1 clinical trial** and **1 publication**.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Renal Cell Carcinoma (and other internationally approved oncology indications; not yet licensed in Taiwan) |
-| Predicted New Indication | Liposarcoma |
-| TxGNN Prediction Score | 99.83% |
-| Evidence Level | L2 |
-| Taiwan Market Status | ✗ Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold (Research Question) |
+Cabozantinib on monikinaasisen tyrosiinikinaasin inhibiitteri (MET/VEGFR1-3/RET/AXL/KIT), joka on jo kansainvälisesti hyväksytty nefrosellulaarikarsinoomaa ja muita syöpiä varten, vaikka sitä ei ole vielä markkinoitu Taiwanissa. TxGNN-malli ennustaa mahdollista tehokkuutta **lipoosarkooomassa**, mitä tukee tällä hetkellä **1 kliininen tutkimus** ja **1 julkaisu**.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Cabozantinib is a multi-target tyrosine kinase inhibitor that blocks MET, VEGFR1-3, RET, AXL and KIT, thereby suppressing tumour angiogenesis and invasive signalling. This mechanism underlies its established efficacy in renal cell carcinoma, where VEGF/MET-driven vascular signalling is a key oncogenic driver.
-
-Soft tissue sarcomas, including liposarcoma, are also highly dependent on tumour angiogenesis for growth. TxGNN's prediction is mechanistically plausible because cabozantinib's VEGFR2 inhibition can block the vascular supply these tumours rely on, and a subset of liposarcomas has been reported to show upregulated MET expression — providing a secondary mechanistic rationale.
-
-That said, liposarcoma is not a core indication in cabozantinib's original development programme, and current evidence comes from a broader soft-tissue-sarcoma trial rather than a liposarcoma-specific study, so the mechanistic link remains supportive rather than confirmatory.
+| Kohde | Sisältö |
+|------|--------|
+| Alkuperäinen indikaatio | Nefrosellulaarikarsinooma (ja muut kansainvälisesti hyväksytyt onkologian indikaatiot; ei vielä lisensoitu Taiwanissa) |
+| Ennustettu uusi indikaatio | Lipoosarkooma |
+| TxGNN-ennusteen pisteet | 99.83% |
+| Näyttötaso | L2 |
+| Taiwanin markkinatilanne | ✗ Ei markkinoitu (Not Marketed) |
+| Lupien määrä | 0 |
+| Suositeltu päätös | Pidätä (Research Question) |
 
 ---
 
-## Clinical Trial Evidence
+## Miksi tämä ennuste on järkevä?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Cabozantinib on monikinaasisen tyrosiinikinaasin inhibiitteri, joka estää MET-, VEGFR1-3-, RET-, AXL- ja KIT-signaloinnin, mikä tukahduttaa kasvainten angiogeneesia ja invasiivista signaalia. Tämä mekanismi selittää sen vakiintuneen tehokkuuden nefrosellulaarikarsinoomassa, jossa VEGF/MET-vetoinen verisuoniston signalointi on keskeinen onkogeeninen tekijä.
+
+Pehmytkudossarkomat, mukaan lukien lipoosarkooma, ovat myös erittäin riippuvaisia kasvainten angiogeneesista kasvun kannalta. TxGNN:n ennuste on mekanistisesti perusteltu, koska cabozantinibin VEGFR2-esto voi katkaista verisuoniston verkon, josta nämä kasvaimet riippuvat, ja on raportoitu, että osalla lipoosarkooomista on kohonneet MET-tasot — mikä tarjoaa toissijaisen mekanistisen perustelun.
+
+Siitä huolimatta lipoosarkooma ei ole cabozantinibin alkuperäisen kehitysohjelman ydinindikatio, ja nykyinen näyttö tulee laajemmasta pehmytkudossarkooma-tutkimuksesta eikä lipoosarkooma-spesifistä tutkimuksesta, joten mekanistinen yhteys on tukeva pikemmin kuin vahvistava.
+
+---
+
+## Kliinisen tutkimuksen näyttö
+
+| Tutkimusnumero | Vaihe | Tila | Osallistujamäärä | Keskeiset tulokset |
 |---------|------|------|------|---------|
-| [NCT05836571](https://clinicaltrials.gov/study/NCT05836571) | Phase 2 | Active, not recruiting | 66 | Randomized trial comparing ipilimumab + nivolumab alone vs. combined with cabozantinib in advanced soft tissue sarcoma; liposarcoma is among the eligible subtypes but not the sole focus, and results are not yet mature |
+| [NCT05836571](https://clinicaltrials.gov/study/NCT05836571) | Vaihe 2 | Aktiivinen, ei rekrytointia | 66 | Satunnaistettu tutkimus, jossa verrataan ipilimumabi + nivolumabi yksinään verrattuna yhdessä cabozantinibin kanssa edistyneen pehmytkudossarkooman yhteydessä; lipoosarkooma on mukana kelvollisissa alatyypeissä, mutta ei yksinomaan tutkimuksen painopiste, ja tulokset eivät ole vielä kypsät |
 
 ---
 
-## Literature Evidence
+## Kirjallisuusnalustoituja näyttö
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [41770651](https://pubmed.ncbi.nlm.nih.gov/41770651/) | 2026 | Phase 1 | American Journal of Clinical Oncology | Neoadjuvant cabozantinib combined with radiation therapy in extremity soft tissue sarcomas; establishes safety of the combination (prior concern was fistula/perforation risk with concurrent RT), supporting activity across multiple STS subtypes |
-
----
-
-## Taiwan Market Information
-
-Cabozantinib currently holds **no marketing authorizations in Taiwan** (0 licenses on record; market status: Not marketed). No product name, dosage form, or approved indication text is available from Taiwan regulatory data at this time.
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset tulokset |
+|------|-------|--------|-------|---------|
+| [41770651](https://pubmed.ncbi.nlm.nih.gov/41770651/) | 2026 | Vaihe 1 | American Journal of Clinical Oncology | Neoadjuvantti cabozantinib yhdessä sädehoitoon raajaisissa pehmytkudossarkooomissa; vahvistaa yhdistelmän turvallisuuden (aiempi huoli oli fistelin/perforaation riski yhtäaikaisessa sädehoidossa), mikä tukee aktiivisuutta useissa STS-alatyypeissä |
 
 ---
 
-## Cytotoxicity
+## Taiwanin markkinatiedot
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (multi-kinase inhibitor: MET/VEGFR1-3/RET/AXL/KIT) |
-| Myelosuppression Risk | Low to moderate — typical for VEGFR-targeted TKIs rather than classic cytotoxic chemotherapy; drug-specific haematologic toxicity data not yet available (see safety data gap below) |
-| Emetogenicity Classification | Low |
-| Monitoring Items | Blood pressure, liver and renal function, urinalysis (proteinuria), wound healing status, CBC |
-| Handling Protection | Oral targeted agent — standard institutional precautions for oral antineoplastic handling apply; drug-specific TFDA handling requirements are not yet confirmed |
+Cabozantibil ei ole tällä hetkellä markkinointilupaa Taiwanissa (0 lupaa rekisterissä; markkinatilanne: Not marketed). Tuotteen nimeä, annostelumuotoa tai hyväksyttyä indikaa tiota ei ole saatavilla Taiwan sääntelytiedoista tällä hetkellä.
 
 ---
 
-## Safety Considerations
+## Sytotoksisuus
 
-Detailed key warnings, contraindications, and drug interaction data are not yet available from TFDA sources (blocking data gap — see Conclusion). Based on the drug class and evidence referenced elsewhere in this evaluation, known class-level concerns for cabozantinib include hypertension, bleeding risk, and impaired wound healing, which should be verified against the official package insert once available.
-
-Please refer to the package insert for complete safety information.
+| Kohde | Sisältö |
+|------|--------|
+| Sytotoksisuusluokitus | Kohdennettu terapia (monikinaasisen inhibiitteri: MET/VEGFR1-3/RET/AXL/KIT) |
+| Ydinytimen sortumisvaaraa | Alhainen - kohtalainen — tyypillinen VEGFR-kohdennettujen TKI-lääkkeiden suhteen, ei klassisen sytostaattisen kemoterapian; lääkekohtaisia hematologisia toksisiteettitietoja ei ole vielä saatavilla (katso turvallisuusvajeista alla) |
+| Pahoinvointiriskin luokitus | Alhainen |
+| Valvontakohdat | Verenpaine, maksa- ja munuaistoiminta, virtsan analyysi (proteiinuria), haavan paranemisen tila, CBC |
+| Käsittelysuojaus | Suun kautta otettava kohdennettu lääke — vakiintuneet institutionaaliset edellytykset suun kautta otettavien syöpäinhibiit toreiden käsittelylle; lääkekohtaisia TFDA-käsittelyvaatimuksia ei ole vielä vahvistettu |
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuusnäkökohdat
 
-**Decision: Hold (Research Question)**
+Yksityiskohtaisia päävaroituksia, vasta-aiheita ja lääkeinteraktioiden tietoja ei ole vielä saatavilla TFDA-lähteistä (estävä tietovaje — katso johtopäätös). Lääkkeen luokkaan ja muualla tässä arvioinnissa viitattuihin näyttöihin perustuen cabozantinibin tunnetut luokan tasolla huolenaiheet sisältävät hypertension, verenvuotoriski ja heikentyneen haavan paranemisen, jotka tulee vahvistaa virallista pakkausselosteesta saatua tietoa vastaan.
 
-**Rationale:**
-Evidence for the liposarcoma indication currently consists of one ongoing, not-yet-mature Phase 2 trial (broader soft-tissue-sarcoma population, not liposarcoma-specific) and one Phase 1 safety study — corresponding to evidence level L2 and decision stage S1. This is preliminary rather than actionable evidence, and a blocking safety gap prevents a full initial safety assessment.
+Katso pakkausseloste kaikista turvallisuustiedoista.
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings/contraindications) — currently blocking, required before any S1 safety evaluation (DG001)
-- Confirmed mechanism-of-action data from DrugBank to strengthen the mechanistic rationale (DG002)
-- Mature, subtype-specific results from NCT05836571 or a liposarcoma-focused trial
-- Clarification of Taiwan regulatory/licensing pathway, since cabozantinib is not currently marketed in Taiwan
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidätä (Research Question)**
+
+**Perustelut:**
+Näyttö lipoosarkooma-indikatiosta koostuu tällä hetkellä yhdestä käynnissä olevasta, vielä kypsymättömästä vaihe 2 -tutkimuksesta (laajempi pehmytkudossarkooma-populaatio, ei lipoosarkooma-spesifinen) ja yhdestä vaihe 1 -turvallisuustutkimuksesta — vastaavat näyttötasoa L2 ja päätösvaiheita S1. Tämä on alustava näyttö, ei toiminnallinen, ja estävä turvallisuusvaje estää täydellisen alkuperäisen turvallisuusarvioinnin.
+
+**Jatkon edellytykset:**
+- TFDA-pakkausseloste (varoitukset/vasta-aiheet) — tällä hetkellä estävä, vaaditaan ennen mitään S1-turvallisuusarviointia (DG001)
+- Vahvistettu toimintamekanismin tieto DrugBankista mekanistisen perustelun vahvistamiseksi (DG002)
+- Kypsät, alatyyppi-spesifiset tulokset NCT05836571:stä tai lipoosarkooma-kohdennetusta tutkimuksesta
+- Taiwanin sääntelypolun ja lisensoimisen selkiyttäminen, koska cabozantinibia ei ole tällä hetkellä markkinoitu Taiwanissa
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

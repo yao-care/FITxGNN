@@ -29,83 +29,84 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Pegfilgrastim: From Chemotherapy-Induced Neutropenia to Severe Nonproliferative Diabetic Retinopathy
+# Pegfilgrastiimi: sytostaattikäsittelystä aiheutuvasta neutropeniasta vaikean ei-proliferatiivisen diabeettisen retinopatian hoitoon
 
-> **Note on localization:** The evidence pack for this candidate (`TW-DB00019-multi`) is Taiwan-scoped (`taiwan_regulatory`, TFDA data gaps in `meta.data_gaps`), so this report uses Taiwan/TFDA terminology rather than the Finland/Fimea labels in the report template.
+> **Huomautus lokalisaatiosta:** Tämän kandidaatin todistusaineisto (`TW-DB00019-multi`) on Taiwanin laajuinen (`taiwan_regulatory`, TFDA-tietoaukot `meta.data_gaps`-kentässä), joten tämä raportti käyttää Taiwan/TFDA-terminologiaa Suomen/Fimea-merkintöjen sijaan.
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Pegfilgrastim is a pegylated recombinant G-CSF used to support neutrophil recovery in patients receiving myelosuppressive chemotherapy. The TxGNN model predicts a possible link to **severe nonproliferative diabetic retinopathy (NPDR)**, but the supporting rationale itself flags a **mechanistically opposing, potentially harmful** direction (promotion rather than suppression of pathological neovascularization), and there are currently **zero clinical trials and zero publications** supporting this indication.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available in this evidence pack (`original_indications` is empty; TFDA package insert is a Blocking data gap — DG001). Pegfilgrastim's internationally recognized use is prophylaxis of chemotherapy-induced (febrile) neutropenia. |
-| Predicted New Indication | Severe Nonproliferative Diabetic Retinopathy |
-| TxGNN Prediction Score | 99.89% (rank 1638) |
-| Evidence Level | L5 |
-| Taiwan Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+Pegfilgrastiimi on pegyloidun rekombinantti G-CSF:n sisältävä lääke, jota käytetään neutrofiilin palautumisen tukemiseen potilailla, jotka saavat myelosuppressiivista solunsalpaajahoidon. TxGNN-malli ennustaa mahdollista yhteyttä **vakavaan ei-proliferatiiviseen diabeettiseen retinopatiaan (NPDR)**, mutta tukeva perustelun itsessään osoittaa **mekanistisesti vastakkaisen, mahdollisesti vahingollisen** suunnan (patologisen uusien verisuonten muodostumisen edistäminen sen sijaan että sitä estettäisiin), ja tällä hetkellä on **nolla kliinisiä tutkimuksia ja nolla julkaisuja**, jotka tukevat tätä indikaatiota.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Currently, detailed mechanism of action data is not available (`original_moa` = data gap, DG002). Based on the mechanistic notes accompanying this prediction, pegfilgrastim is a G-CSF receptor agonist whose primary pharmacological action is to mobilize bone-marrow granulocyte precursors and endothelial progenitor cells (EPCs) into systemic circulation.
-
-The relationship between the original use (supporting neutrophil counts during chemotherapy) and the predicted new indication (severe NPDR, a pre-proliferative stage of diabetic retinopathy) is not a straightforward "same mechanism, new disease" story. According to the rationale provided with this prediction, EPC/granulocyte mobilization is more commonly associated in the literature with **promoting** pathological retinal neovascularization — the exact process severe NPDR is at high risk of progressing toward — rather than treating it. In other words, the mechanistic link supports a plausible **safety concern (accelerating progression to proliferative disease)** rather than a therapeutic rationale.
-
-Given this, the high TxGNN score likely reflects an indirect disease–gene/receptor co-occurrence pattern in the knowledge graph rather than a causal or directionally supportive treatment relationship. This is explicitly noted as a case where the model's confidence should **not** be read as evidence of efficacy.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered (0 results from ClinicalTrials.gov and ICTRP for both "severe nonproliferative diabetic retinopathy" and "diabetic retinopathy" queries, dated 2026-04-20).
+| Kohta | Sisältö |
+|-------|---------|
+| Alkuperäinen indikaatio | Ei saatavilla tässä todistusaineistossa (`original_indications` on tyhjä; TFDA:n pakkausseloste on tietoaukko, joka estää etenemisen — DG001). Pegfilgrastiimin kansainvälisesti tunnustettu käyttö on sytostatiikan aiheuttavan (febriili) neutropenia. |
+| Ennustettu uusi indikaatio | Vakava ei-proliferatiivinen diabeettinen retinopatiaa |
+| TxGNN-ennustepisteet | 99.89% (sijoitus 1638) |
+| Todisteen taso | L5 |
+| Taiwanin markkina-asema | Ei markkinoilla (Not marketed) |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | **Odota** |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennustus on järkevä?
 
-Currently no related literature available (0 PubMed results for both associated disease terms, queried 2026-04-20).
+Tällä hetkellä yksityiskohtaista vaikutusmekanismin tietoa ei ole saatavilla (`original_moa` = tietoaukko, DG002). Tämän ennusteen yhteydessä olevien mekanististen muistiinpanojen perusteella pegfilgrastiimi on G-CSF-reseptorin agonisti, jonka pääasiallinen farmakologinen vaikutus on liikutella luuytimen granulosyytin edeltäjiä ja endoteelisen progenituurin soluja (EPC) järjestelmäkiertoon.
 
----
+Alkuperäisen käytön (neutrofiilin määrän tukeminen kemoterapian aikana) ja ennustetun uuden indikaation (vakava NPDR, diabeettisen retinopatian esiproliteratiivinen vaihe) välinen suhde ei ole suoraviivainen "sama mekanismi, uusi sairaus" -tarina. Tämän ennusteen yhteydessä annettujen perusteluiden mukaan EPC/granulosyytin liikuttaminen liittyy kirjallisuudessa useammin **edistämiseen** patologista retinaalista uusien verisuonten muodostusta — prosessia, johon vakava NPDR on suurella riskillä edetä kohti — eikä sen hoitoon. Toisin sanoen mekanistinen yhteys tukee mahdollista **turvallisuushuolta (edistämällä progressiota proliferatiivisen taudin suuntaan)** eikä terapeuttista perustelua.
 
-## Taiwan Market Information
-
-Pegfilgrastim currently has **no marketing authorization in Taiwan** (`market_status`: Not marketed; `total_licenses`: 0; `licenses`: none on file). No product name, dosage form, or approved indication text is available to extract.
+Näiden seikkojen perusteella korkea TxGNN-pistemäärä heijastaa todennäköisesti epäsuoraa sairauden–geeni/reseptorin yhteesiintymiskuviota tietoverkossa pikemminkin kuin kausaalia tai suunnallisesti tukevaa hoitosuhdetta. Tämä on eksplisiittisesti merkitty tapauksena, jossa mallin varmuutta **ei** pidä lukea tehokkuuden todisteeksi.
 
 ---
 
-## Safety Considerations
+## Kliinisen tutkimuksen todisteet
 
-Please refer to the package insert for safety information. (All safety fields in this evidence pack — key warnings, contraindications, and DDI — are currently data gaps; the TFDA package insert data gap (DG001) is flagged as **Blocking**, meaning a formal S1 safety pre-assessment cannot proceed until it is resolved.)
-
----
-
-## Additional Note: Related Predicted Indication
-
-A second, closely related prediction — **diabetic retinopathy** (general, unspecified severity) — scored 99.73% (rank 3482), also L5, also with no clinical trials or literature, and carries the same mechanistic caution as above (potential promotion rather than treatment of retinal neovascularization). It is not pursued separately here since it overlaps in disease category and evidence status with the primary candidate.
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia (0 tulosta ClinicalTrials.gov- ja ICTRP-palveluissa sekä "severe nonproliferative diabetic retinopathy" että "diabetic retinopathy" -kyselyillä, päivätty 2026-04-20).
 
 ---
 
-## Conclusion and Next Steps
+## Kirjallisuuden todisteet
 
-**Decision: Hold**
+Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta (0 PubMed-tulosta molemmille asiaan liittyville sairausehdoille, haku päivätty 2026-04-20).
 
-**Rationale:**
-This candidate has L5 evidence only (model prediction, no clinical trials, no literature), and the mechanistic rationale itself raises a plausible safety concern — that G-CSF-driven progenitor cell mobilization could **accelerate** rather than treat neovascular progression in diabetic retinopathy. Combined with the Blocking data gap on TFDA safety labeling, there is currently no basis to advance this candidate beyond a research hypothesis.
+---
 
-**To proceed, the following is needed:**
-- TFDA package insert data (warnings/contraindications) to resolve Blocking gap DG001, required before any S1 safety pre-assessment
-- Confirmed original mechanism of action from DrugBank to resolve gap DG002, and to properly assess directionality of the G-CSF/retinal-neovascularization relationship
-- Preclinical or mechanistic studies specifically examining pegfilgrastim's effect on diabetic retinopathy progression (both risk and potential benefit directions), since none currently exist
-- Confirmation of pegfilgrastim's original approved indication and Taiwan licensing status (currently absent from this evidence pack)
-- If this candidate is retained for monitoring, an explicit pharmacovigilance flag for retinal/ophthalmologic adverse events given the safety-concern hypothesis raised above
+## Taiwanin markkina-asema
+
+Pegfilgrastiimilla ei tällä hetkellä ole **myyntilupaa Taiwanissa** (`market_status`: Not marketed; `total_licenses`: 0; `licenses`: tiedostossa ei ole listaa). Tuotteen nimeä, lääkemuotoa tai hyväksyttyä indikaatiotekstiä ei ole saatavilla.
+
+---
+
+## Turvallisuushuomiot
+
+Katso pakkausselosteesta turvallisuustiedot. (Kaikki tämän todistusaineiston turvallisuuskentät — päävaroitukset, vasta-aiheet ja lääkeyhteisvaikutukset — ovat tällä hetkellä tietoaukkoja; TFDA:n pakkausseloste-tietoaukko (DG001) on merkitty **Estävä**, mikä tarkoittaa, että muodollinen S1-turvallisuuden esitarkastus ei voi edetä, kunnes se ratkaistaan.)
+
+---
+
+## Lisähuomautus: Asiaan liittyvä ennustettu indikaatio
+
+Toinen, läheisesti liittyvä ennustus — **diabeettinen retinopatiaa** (yleinen, määrittelemätön vakavuusaste) — sai pistemäärän 99.73% (sijoitus 3482), myös L5, myös ilman kliinisiä tutkimuksia tai kirjallisuutta, ja se sisältää saman mekanistisen varoituksen kuin edellä (mahdollisen retinaalisen uusien verisuonten muodostumisen edistämisen pikemminkin kuin sen hoitamisen). Sitä ei käsitellä erillään tässä, koska se päällekkäinen sairausluokan ja todisteen tilan kanssa ensisijaisen kandidaatin kanssa.
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Odota**
+
+**Perustelut:**
+Tällä kandidaatilla on vain L5-todisteet (mallin ennuste, ei kliinisiä tutkimuksia, ei kirjallisuutta), ja mekanistinen perustelun itsessään nostaa esiin mahdollisen turvallisuushuolen — että G-CSF:ään perustuva progenituurin solujen liikuttaminen voisi **kiihdyttää** pikemminkin kuin hoitaa diabeettisen retinopatian uusien verisuonten muodostumisen progressiota. Yhdessä TFDA-turvallissuusseloste-tietoaukon (DG001) kanssa ei ole tällä hetkellä perusteita edetä tämän kandidaatin tutkimushypoteesin ulkopuolella.
+
+**Edistymisen edellyttämät seikat:**
+- TFDA:n pakkausseloste tiedot (varoitukset/vasta-aiheet) Estävän tietoaukon DG001 ratkaisemiseksi, vaadittava ennen mitä tahansa S1-turvallisuuden esitarkastusta
+- Vahvistettu alkuperäinen vaikutusmekanismi DrugBankista tietoaukon DG002 ratkaisemiseksi ja G-CSF/retinaalisen uusien verisuonten muodostumisen suhteen suuntaisuuden asianmukaiseksi arvioinniksi
+- Preklin tai mekanistiset tutkimukset, jotka erityisesti tutkivat pegfilgrastiimin vaikutusta diabeettisen retinopatian progressioon (sekä riski että mahdollisen hyödyn suuntiin), koska niitä ei tällä hetkellä ole
+- Pegfilgrastiimin alkuperäisen hyväksytyn indikaation ja Taiwanin lisensointi-aseman vahvistaminen (tällä hetkellä puuttuu tästä todistusaineistosta)
+- Jos tämä kandidaatti säilytetään seurannan kohteena, selkeä farmakovalvonnan merkintä retinaalisten/oftalmologisten haittatapahtumatilaisuuksille turvallisuushuoli-hypoteesin perusteella, joka on nostettu esiin edellä
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

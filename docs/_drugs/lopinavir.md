@@ -29,74 +29,75 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Lopinavir: From HIV-1 Infection to Simian Immunodeficiency Virus Infection
+# Lopinaviiri: HIV-1-infektiosta simiaaniimmuunidefisienssiviruksen infektioon
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Lopinavir is an HIV-1 protease inhibitor, typically co-formulated with ritonavir (LPV/RTV) as part of antiretroviral therapy — this is confirmed only indirectly through the supporting literature in this evidence pack, since detailed original indication and mechanism-of-action data are not currently available. The TxGNN model predicts activity against **simian immunodeficiency virus (SIV) infection**, an HIV-related lentivirus that infects non-human primates, supported by **0 clinical trials** and **3 preclinical publications**. Because the predicted indication is an animal disease rather than a human condition, and core safety data are missing, this candidate requires substantial additional validation before any clinical consideration.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not available in evidence pack (inferred from literature context as HIV-1 antiretroviral therapy — see Data Gap DG002) |
-| Predicted New Indication | Simian immunodeficiency virus infection |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L4 (preclinical/mechanism studies only, non-human primate models) |
-| Finland Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Lopinaviiri on HIV-1-proteinaasihemmaaja, joka on yleensä muodostettu ritonaviirin kanssa (LPV/RTV) antiretroviirusterapian osana — tämä vahvistetaan vain epäsuorasti tämän todisteistopaketin oheisliteratuuria, koska yksityiskohtaisia alkuperäisen indikaation ja vaikutusmekanismin tietoja ei ole tällä hetkellä saatavilla. TxGNN-malli ennustaa aktiviteetin **simiaaniimmuunidefisienssiviruksen (SIV) infektiota** vastaan, joka on HIV:hen liittyvä lentivirus, joka infektoi ei-ihmisprimaatteja, tuettu **0 kliinisellä tutkimuksella** ja **3 prekliinisellä julkaisulla**. Koska ennustettu indikaatio on eläintauti pikemminkin kuin ihmisen tilanteen, ja keskeinen turvallisuustieto puuttuu, tämä kandidaatti vaatii huomattavaa lisävalidointia ennen kliinistä harkintaa.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Detailed mechanism-of-action data for lopinavir is not currently available in this evidence pack (Data Gap DG002, severity: High). Based on the supporting literature retrieved, lopinavir is used in combination with ritonavir (LPV/RTV) as an antiretroviral regimen "as recommended in humans" (per PMID 12951220), consistent with its known role as an HIV-1 protease inhibitor.
-
-SIV is the simian counterpart of HIV — both are primate lentiviruses with closely related viral protease structures, which is the mechanistic basis TxGNN likely used to link lopinavir to this indication. The three supporting publications describe LPV/RTV-containing antiretroviral regimens being tested in macaques experimentally infected with SIV or SHIV (chimeric SIV/HIV) as translational models for evaluating protease inhibitor efficacy — not as a proposed human therapy for a naturally occurring human disease.
-
-**Important caveat:** SIV infection is a disease of non-human primates, not a human condition. This prediction should be interpreted as validating lopinavir's established antiretroviral/protease-inhibitory mechanism within animal HIV-model research, rather than as a novel human repurposing opportunity. The same caution applies more strongly to the rank 2 prediction (feline acquired immunodeficiency syndrome, a cat-specific disease) and rank 3 (a human neurodevelopmental genetic disorder with no supporting evidence or clear mechanistic link to protease inhibition).
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Ei saatavilla todisteistossa (pääteltävissä kirjallisuuden kontekstista HIV-1-antiretroviirusterapiana — katso Data Gap DG002) |
+| Ennustettu uusi indikaatio | Simiaaniimmuunidefisienssiviruksen infektio |
+| TxGNN-ennuste-pistemäärä | 99.90% |
+| Näyttötaso | L4 (prekliiniset/mekanismitutkimukset vain, ei-ihmisprimaattimuodollit) |
+| Suomen markkina-asema | Ei markkinoilla (Ei markkinoilla) |
+| Lupakäytösten määrä | 0 |
+| Suositeltu päätös | Pidä |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennuste on järkevä?
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [16973590](https://pubmed.ncbi.nlm.nih.gov/16973590/) | 2006 | Preclinical (macaque model) | Journal of Virology | Studied viral decay kinetics in SIVmac251-infected cynomolgus macaques receiving a 7-day quadruple antiretroviral regimen |
-| [17350308](https://pubmed.ncbi.nlm.nih.gov/17350308/) | 2007 | Preclinical (macaque model) | Microbes and Infection | Constructed a chimeric SHIV bearing the HIV-1 protease gene to enable in vivo testing of protease inhibitors in rhesus macaques |
-| [12951220](https://pubmed.ncbi.nlm.nih.gov/12951220/) | 2003 | Preclinical (macaque model) | Journal of Virological Methods | Evaluated oral HAART (AZT + 3TC + Lopinavir/Ritonavir, human-recommended dosing) effects on CD8 subsets in SHIV(89.6P)-infected macaques |
+Lopinaviirin yksityiskohtaisia vaikutusmekanismitietoja ei ole tällä hetkellä saatavilla tässä todisteistossa (Data Gap DG002, vakavuus: Korkea). Haetun oheisliteratuuria perusteella lopinaviiri käytetään ritonaviirin kanssa yhdessä (LPV/RTV) antiretroviirus-regimenina "kuten ihmisille suositetaan" (PMID 12951220 mukaan), mikä on yhdenmukainen sen tunnetun roolin kanssa HIV-1-proteinaasihemmaajana.
 
----
+SIV on simiaanivertainen HIV:lle — molemmat ovat primaattien lentiviruksia, joilla on lähekkäin liittyvät virusproteïnaasirakenteen, mikä on mekanistinen perusta, jonka TxGNN todennäköisesti käytti yhdistämään lopinaviirin tähän indikaatioon. Kolme oheista julkaisua kuvaavat LPV/RTV-sisältäviä antiretroviirus-regimeneja, joita testattiin kokeellisesti SIV:llä tai SHIV:llä (kimeeriset SIV/HIV) infektoiduissa makakeissa proteinaasihemmaajien tehokkuuden arvioinnin translaatiomalleina — ei ehdotettuna ihmisen terapeiana luonnollisesti esiintyvän ihmisen taudin osalta.
 
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-*(Note: TFDA warning/contraindication data is flagged as a Blocking data gap (DG001) — this must be resolved before any safety-based decision can be made.)*
+**Tärkeä huomautus:** SIV-infektio on ei-ihmisprimaattien tauti, ei ihmisen tilanteen. Tämä ennuste tulisi tulkita vahvistukseksi lopinaviirin vakiintuneen antiretroviirus-/proteinaasihemmaaja-mekanismin osalta eläinhiv-malleissa, ei uutena ihmisen uudelleenosoitusmahdollisuutena. Sama varoitus koskee entisestään sijoitusta 2 (kissan immuunidefisienssiviruksen infektio, kissojen erityinen tauti) ja sijoitusta 3 (ihmisen neurokehityksellinen geneettinen häiriö, jolla ei ole oheista näyttöä tai selkeää mekanistista yhteyttä proteinaasihemmaukseeseen).
 
 ---
 
-## Conclusion and Next Steps
+## Kliinisen tutkimuksen näyttö
 
-**Decision: Hold**
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia
 
-**Rationale:**
-The predicted indication (SIV infection) is a disease of non-human primates rather than a human condition, so the current evidence — while mechanistically plausible given lopinavir's known protease-inhibitor class — does not translate into an actionable human repurposing opportunity. Combined with a Blocking safety data gap and the drug's unmarketed status in Finland, there is insufficient basis to proceed.
+---
 
-**To proceed, the following is needed:**
-- TFDA/regulatory package insert warnings and contraindications (Data Gap DG001, Blocking)
-- Confirmed original indication and mechanism-of-action data for lopinavir (Data Gap DG002)
-- Reassessment of whether any of the three predicted indications have a genuine human-relevant analog worth pursuing (SIV → HIV-related human indications, if any; FIV and the neurodevelopmental disorder currently show no mechanistic or evidentiary support)
-- If pursuing an HIV-adjacent human indication, dedicated clinical trial and literature search using human-relevant disease terms rather than the animal-model terms currently predicted
+## Kirjallisuusnäyttö
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
+|------|--------|--------|-------|---------|
+| [16973590](https://pubmed.ncbi.nlm.nih.gov/16973590/) | 2006 | Prekliininen (makakiihenkilömalli) | Journal of Virology | Tutki viruksen hajoamiskinetikaa SIVmac251-infektoiduissa kynomologus-makakeissa, jotka saivat 7 päivän mittaisen nelikertainen antiretroviirus-regimenin |
+| [17350308](https://pubmed.ncbi.nlm.nih.gov/17350308/) | 2007 | Prekliininen (makakiihenkilömalli) | Microbes and Infection | Rakensi kimeeriset SHIV:n, joka kantaa HIV-1-proteïnaasigeeninä, jotta proteinaasihemmaajien in vivo -testaus olisi mahdollista rhesus-makakeissa |
+| [12951220](https://pubmed.ncbi.nlm.nih.gov/12951220/) | 2003 | Prekliininen (makakiihenkilömalli) | Journal of Virological Methods | Arvioi suun kautta annettavaa HAART:ia (AZT + 3TC + Lopinaviiri/Ritonaviiri, ihmisille suositeltu annostelu) ja sen vaikutusta CD8-osajoukkoihin SHIV(89.6P)-infektoiduissa makakeissa |
+
+---
+
+## Turvallisuutta koskevia näkökohtia
+
+Katso pakkausliitteestä turvallisuustietoja.
+
+*(Huomio: TFDA-varoitus/kontraindikaation tiedot on merkitty estäväksi tietoaukoksi (DG001) — tämä on ratkaistava ennen kuin mitään turvallisuusperusteista päätöstä voidaan tehdä.)*
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidä**
+
+**Perustelut:**
+Ennustettu indikaatio (SIV-infektio) on ei-ihmisprimaattien tauti pikemminkin kuin ihmisen tilanteen, joten nykyinen näyttö — vaikka mekanistisesti uskottava lopinaviirin tunnetun proteinaasihemmaaja-luokan perusteella — ei käänny toimintakelpoiseksi ihmisen uudelleenosoitusmahdollisuudeksi. Yhdistettynä estävän turvallisuustiedon puuttumiseen ja lääkkeen markkinoimattomaan asemaan Suomessa, ei ole riittävää perustetta edetä.
+
+**Edetäkseen seuraavaa tarvitaan:**
+- TFDA/sääntelyalan pakkausliitteen varoitukset ja kontraindikaatiot (Data Gap DG001, estävä)
+- Vahvistettu lopinaviirin alkuperäinen indikaatio ja vaikutusmekanismin tiedot (Data Gap DG002)
+- Uudelleenarviointi siitä, onko jollakin kolmesta ennustetusta indikaatiosta aito ihmisen kannalta relevantti vastine (SIV → HIV:hen liittyvät ihmisen indikaatiot, jos mitään; FIV ja neurokehityksellinen häiriö eivät tällä hetkellä osoita mekanistista tai näyttöperusteista tukea)
+- Jos aiotaan vaalia HIV:hen liittyvää ihmisen indikaatiota, omistettu kliinisen tutkimuksen ja kirjallisuuden haku käyttämällä ihmisille relevantteja sairaustermejä pikemminkin kuin tällä hetkellä ennustettuja eläinmallin termejä
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

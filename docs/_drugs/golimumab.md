@@ -29,73 +29,74 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Golimumab: From TNF-α抑制的發炎性關節炎 到 Rheumatoid Vasculitis
+# Golimumab: TNF-α-inhibitiosta tulehduksellisista niveltaudeista Reumatasolujen vaskaliitiin
 
-## 一句話總結
+## Yhteenveto yhdellä lauseella
 
-Golimumab（DrugBank DB06674）是一種全人源抗TNF-α單株抗體，文獻資料顯示其原始核准適應症為類風濕性關節炎（RA）、乾癬性關節炎（PsA）與僵直性脊椎炎（AS）等發炎性關節疾病；台灣官方適應症全文因Not marketed而無資料。TxGNN模型預測其可能對**Rheumatoid Vasculitis（類風濕性血管炎）**有效，目前僅有**3項臨床試驗**與**6篇文獻**支持，且證據等級偏弱（L4），文獻中同時存在anti-TNF誘發血管炎的矛盾安全性訊號。
+Golimumab (DrugBank DB06674) on täysin ihmisen peräisin oleva anti-TNF-α-monoklonaalinen vasta-aine, jonka kirjallisuustiedot osoittavat alkuperäiseksi hyväksytyksi käyttöindikaatioksi olevan reumatoidi nivelrikko (RA), psoriaasisen nivelrikon (PsA) ja ankylosoiva spondyliitti (AS) sekä muut tulehdukselliset niveltaudit; Taiwan-virallinen käyttöindikaatio kokonaisuudessaan puuttuu koska lääkettä ei ole markkinoilla. TxGNN-malli ennustaa sen mahdollisen tehokkuuden **Reumatasolujen vaskaliitiin (Rheumatoid Vasculitis)**, mitä tukee tällä hetkellä vain **3 kliinistä tutkimusta** ja **6 julkaisua**, ja todistusasteikko on heikko (L4), kirjallisuudessa esiintyy samanaikaisesti anti-TNF:n aiheuttaman vaskaliitin ristiriitaisia turvallisuussignaaleja.
 
-> 補充說明：本Evidence Pack中TxGNN共預測5項適應症，其中排名第3（inflammatory spondylopathy）與第5（polyarticular juvenile rheumatoid arthritis）證據等級達L1，但這兩者實質上是golimumab既有核准適應症的延伸族群，而非真正意義上的老藥新用；排名第2、第4（尾骨過度活動、Kummell氏病）則缺乏任何機轉或臨床證據支持，判定為模型層級偽陽性。本報告依格式規範聚焦於排名第1之預測結果。
+> Lisätieto: Tässä Evidence Packissa TxGNN ennustaa yhteensä 5 käyttöindikaatiota, joista sijoitus 3 (inflammatory spondylopathy) ja 5 (polyarticular juvenile rheumatoid arthritis) saavuttavat L1-todistusasteen, mutta nämä ovat olennaisesti golimumabista jo hyväksyttyjen käyttöindikaatioiden laajennuksia eikä varsinaista vanhaa lääkettä uudessa käytössä; sijoitukset 2 ja 4 (häntäluun yliaktiivisuus, Kummel-tauti) puuttuvat minkä tahansa mekanismin tai kliinisen todisteen, määritelty mallin tasoiseksi vääräksi positiiviseksi. Raportti noudattaa muotoiluvaatimuksia ja keskittyy sijoitukseen 1 ennustetuista tuloksista.
 
-## 快速總覽
+## Pika-arvio
 
-| 項目 | 內容 |
-|------|------|
-| 原始適應症 | 資料缺口（台灣Not marketed，無官方適應症全文；依文獻，golimumab已知核准用於RA、PsA、AS） |
-| 預測新適應症 | Rheumatoid Vasculitis |
-| TxGNN預測分數 | 99.73%（rank 3425） |
-| 證據等級 | L4 |
-| 台灣市場狀態 | ✗ Not marketed |
-| 許可證數量 | 0 |
-| 建議決策 | Hold |
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen käyttöindikaatio | Tietovajaus (Taiwan ei markkinoi, virallista käyttöindikaatiota ei ole käytettävissä; kirjallisuuden mukaan golimumab on jo hyväksytty RA:lle, PsA:lle, AS:lle) |
+| Ennustettu uusi käyttöindikaatio | Rheumatoid Vasculitis |
+| TxGNN ennustepistemäärä | 99,73 % (rank 3425) |
+| Todistusaste | L4 |
+| Taiwan-markkinatilanne | ✗ Ei markkinoilla |
+| Lupakirjojen määrä | 0 |
+| Suositeltu päätös | Hold |
 
-## 為何此預測具有合理性？
+## Miksi tämä ennuste on kohtuullinen?
 
-目前缺乏詳細的作用機轉（MOA）資料。根據已知資訊，golimumab屬於抗TNF-α全人源單株抗體類別，其於RA、PsA、AS等發炎性關節疾病之療效已獲證實，機轉上理論上可延伸應用於rheumatoid vasculitis。
+Tällä hetkellä puuttuu yksityiskohtainen toimintamekanismi (MOA) -tieto. Olemassa olevien tietojen perusteella golimumab kuuluu anti-TNF-α täysin ihmisen peräisin olevien monoklonaalisten vasta-aineiden luokkaan, jonka tehokkuus RA:ssa, PsA:ssa, AS:ssa ja muissa tulehduksellisissa niveltaudeissa on jo todistettu, ja mekanistisesti sen käyttö voisi teoriassa laajentua reumatoidin vaskuliittin hoitoon.
 
-Rheumatoid vasculitis是RA的嚴重關節外併發症，好發於血清陽性（RF/anti-CCP陽性）病人，病理機轉牽涉TNF-α介導之血管壁發炎與免疫複合體沉積。由於golimumab抑制TNF-α訊號、已證實可改善RA關節破壞（PMID 31491879, 36項RCT網絡統合分析），理論上抑制TNF-α也可能減緩血管壁發炎程度，此為機轉延伸的合理性基礎。
+Reumatasoinen vaskaliitti on RA:n vakava extraartikulaarinen komplikaatio, joka esiintyy erityisesti seerumin positiivisilla (RF/anti-CCP-positiivisilla) potilailla, ja patologinen mekanismi sisältää TNF-α välittämää vaskulaarisen seinämän tulehdusta ja immuunimompleksien sedimentaatiota. Koska golimumab estää TNF-α-signalointia ja on jo todistettu vähentävän RA:n nivelten rikkoutumista (PMID 31491879, 36 RCT:n verkkoyhteenveto), TNF-α:n estäminen voisi teoriassa myös hidastaa vaskulaarisen seinämän tulehdusta, mikä on mekanistisen laajenemisen kohtuullinen perusta.
 
-然而，證據並非單向支持：文獻同時記錄anti-TNF治療與新發或惡化血管炎的矛盾訊號，例如Takayasu's arteritis在抗TNF治療下發生的案例報告（PMID 22999907），以及golimumab治療下併發嚴重感染性關節炎的個案（PMID 29075910）。此矛盾訊號屬已知的anti-TNF-induced vasculitis安全性議題，使機轉關聯方向不明確，且目前並無針對rheumatoid vasculitis此疾病本身設計的介入性療效試驗。
+Todistus ei kuitenkaan ole yksipuolisen tukevin: kirjallisuus dokumentoi samalla anti-TNF-hoidon ja uusien tai pahentuneiden vaskuliittien välisiä ristiriitaisia signaaleja, esimerkiksi Takayasun arteriitin tapauksia anti-TNF-hoidon aikana (PMID 22999907), sekä golimumab-hoidon aikana kehittyneitä vakavia infektiivisen artriitin tapauksia (PMID 29075910). Nämä ristiriitaiset signaalit liittyvät tunnettuun anti-TNF-aiheuttamaan vaskuliittiin liittyvään turvallisuuskysymykseen, mikä tekee mekanistisen yhteyden suunnasta epäselvää, eikä tällä hetkellä ole reumatoidivaskuliitin tälle taudeille erityisesti suunniteltuja interventiotutkimuksia.
 
-## 臨床試驗證據
+## Kliiniset tutkimukset
 
-| 試驗編號 | 期別 | 狀態 | 收案人數 | 主要發現 |
+| Tutkimusnumero | Vaihe | Tila | Osallistujamäärä | Pääasiallinen havainto |
 |---------|------|------|------|---------|
-| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | 尚未招募 | 80 | 評估風濕科病人肩關節置換術前免疫抑制劑（含TNF抑制劑）停藥時程對疾病復發、疼痛、傷口併發症之影響，非血管炎特異性療效試驗 |
-| [NCT01579006](https://clinicaltrials.gov/study/NCT01579006) | N/A | 已完成 | 184 | 多國非介入性研究，評估Tocilizumab於RA病人（對DMARD或一種生物製劑反應不佳者）的臨床實務模式、療效與安全性，對象為RA整體而非血管炎特異性 |
-| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | N/A | 狀態不明 | 750,000 | 大型資料庫研究評估biologics與免疫抑制劑治療下續發其他免疫介導發炎疾病（IMID）之風險，含血管炎類事件安全性訊號，屬觀察性研究非療效試驗 |
+| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | Rekrytointia ei ole vielä aloitettu | 80 | Arvioidaan reumaatikoiden olkapäännivelleikkauksen edeltävien immunosuppressiivisten lääkkeiden (mukaan lukien TNF-estäjät) lopettamisen aikaista palauttamisen vaikutusta taudin uusiutumiseen, kivuun ja haavakomplikaatioihin; ei ole vaskuliitin-spesifinen tehokkuustutkimus |
+| [NCT01579006](https://clinicaltrials.gov/study/NCT01579006) | N/A | Valmis | 184 | Monikansallinen ei-interventio tutkimus, arvioitava Tocilizumab:n käyttäminen RA-potilailla (joilla on huono reaktio DMARD:iin tai yhteen biologiseen lääkkeeseen) kliinisen käytännön malli, tehokkuus ja turvallisuus; kohderyhmä on RA kokonaisuudessaan eikä vaskuliitin-spesifinen |
+| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | N/A | Tila epäselvä | 750 000 | Suuri tietokantaosio tutkimus arvioi biologisten ja immunosuppressiivisten lääkkeiden hoidon jälkeiset muiden immuuni-välittämien tulehduksellisten sairauksien (IMID) riski, sisältää vaskuliitin kaltaiset turvallisuussignaalit, on havainnoiva tutkimus, ei tehokkuustutkimus |
 
-## 文獻證據
+## Kirjallisuustodisteet
 
-| PMID | 年份 | 類型 | 期刊 | 主要發現 |
-|------|-----|------|------|---------|
-| [31491879](https://pubmed.ncbi.nlm.nih.gov/31491879/) | 2019 | RCT/Cohort | International Journal of Molecular Sciences | 36項RCT網絡統合分析，比較5種TNF抑制劑（含golimumab）對RA關節破壞之抑制效果，證實其抗發炎療效基礎 |
-| [23557513](https://pubmed.ncbi.nlm.nih.gov/23557513/) | 2013 | Review | BMC Medicine | 回顧風濕疾病生物製劑治療現況與限制，包含TNF抑制劑類藥物的整體療效與安全性框架 |
-| [27591827](https://pubmed.ncbi.nlm.nih.gov/27591827/) | 2017 | Cohort | Seminars in Arthritis and Rheumatism | 探討RA病人併發末期腎病（ESRD）之發生率、成因與治療現況 |
-| [29075910](https://pubmed.ncbi.nlm.nih.gov/29075910/) | 2018 | Case report | Rheumatology International | RA病人接受golimumab治療期間併發壞疽性膿皮症與化膿性關節炎導致嚴重敗血症之個案 |
-| [22999907](https://pubmed.ncbi.nlm.nih.gov/22999907/) | 2013 | Case report | Joint Bone Spine | 2例在抗TNF治療下發生Takayasu's動脈炎之個案報告，提示anti-TNF誘發血管炎的矛盾安全性訊號 |
-| [23252659](https://pubmed.ncbi.nlm.nih.gov/23252659/) | 2013 | Case report | Ocular Immunology and Inflammation | Golimumab成功治療Behçet氏病相關葡萄膜炎之個案報告 |
+| PMID | Vuosi | Tyyppi | Lehti | Pääasiallinen havainto |
+|------|------|------|------|---------|
+| [31491879](https://pubmed.ncbi.nlm.nih.gov/31491879/) | 2019 | RCT/Cohort | International Journal of Molecular Sciences | 36 RCT:n verkkoyhteenveto, verrataan 5 TNF-estäjää (mukaan lukien golimumab) niiden vaikutukseen RA:n nivelten rikkoutumisen estämiseen, vahvistaa sen anti-inflammatorisen tehokkuuden perustan |
+| [23557513](https://pubmed.ncbi.nlm.nih.gov/23557513/) | 2013 | Review | BMC Medicine | Katsaus reumasairauksien biologisten lääkkeiden hoidon nykytilanteeseen ja rajoituksiin, sisältää TNF-estäjä-luokan lääkkeiden yleisen tehokkuuden ja turvallisuuden kehyksen |
+| [27591827](https://pubmed.ncbi.nlm.nih.gov/27591827/) | 2017 | Cohort | Seminars in Arthritis and Rheumatism | Tutkii RA-potilaiden terminaalisen munuaisen sairauden (ESRD) esiintymistä, etiologiaa ja hoitoa |
+| [29075910](https://pubmed.ncbi.nlm.nih.gov/29075910/) | 2018 | Case report | Rheumatology International | RA-potilaan, jolle annettiin golimumab-hoitoa, kehittämä gangreenous pyoderma ja purulent arthritis, jotka johtivat vakavaan sepsikseen |
+| [22999907](https://pubmed.ncbi.nlm.nih.gov/22999907/) | 2013 | Case report | Joint Bone Spine | 2 tapausta Takayasun arteriitin kehittymisestä anti-TNF-hoidon aikana, mikä viittaa anti-TNF aiheuttaman vaskuliitin ristiriitaisiin turvallisuussignaaleihin |
+| [23252659](https://pubmed.ncbi.nlm.nih.gov/23252659/) | 2013 | Case report | Ocular Immunology and Inflammation | Golimumab onnistuu hoitamaan Behçet-taudin liittyviä uveiiteja koskevassa tapausraportissa |
 
-## 台灣市場資訊
+## Taiwan markkinatiedot
 
-目前無許可證紀錄——golimumab未於台灣上市（總許可證數：0）。
+Tällä hetkellä ei ole lupakirjarekistereitä — golimumab ei ole markkinoilla Taiwanissa (lupakirjojen kokonaismäärä: 0).
 
-## 安全性考量
+## Turvallisuushuomiot
 
-請參閱仿單警語與注意事項。（key_warnings、contraindications、DDI查詢皆無可用資料；TFDA仿單原文尚待解析，列為DG001阻斷性資料缺口。）
+Tutustu pakkausselosteisiin varoituksiin ja varotoimiin. (key_warnings, contraindications, DDI kyselyt eivät ole saatavilla; TFDA pakkausseloste alkuperäisteksti on vielä analysoitava, merkitty DG001 estoavaksi tietovajeeksi.)
 
-## 結論與後續建議
+## Johtopäätös ja seuraavat suositukset
 
-**決策：Hold**
+**Päätös: Hold**
 
-**理由：**
-Rheumatoid vasculitis此適應症目前僅達L4證據等級（機轉/臨床前推論層級），無疾病特異性介入性試驗，且文獻同時存在anti-TNF誘發血管炎之矛盾安全訊號，機轉關聯方向不明確，尚不足以支持進入下一階段評估。
+**Perustelu:**
+Reumatoidin vaskuliitti näillä näkymin saavuttaa vain L4-todistusasteen (mekanismi/prekliiniset päätelmät tasolla), vailla taudin spesifistä interventiotutkimusta, ja kirjallisuudessa esiintyy anti-TNF aiheuttaman vaskuliitin ristiriitaisia turvallisuussignaaleja, mekanistisen yhteyden suunta on epäselvä, ei riittävä seuraavan vaiheen arviointiinsiirtymiselle.
 
-**要繼續進行，需要補充：**
-- TFDA仿單警語與禁忌全文（DG001，阻斷性缺口，影響S1安全性初評）
-- Golimumab詳細作用機轉資料（DG002，Limits mechanistic-link analysis）
-- 針對rheumatoid vasculitis之疾病特異性介入性試驗設計與結果
-- Anti-TNF誘發血管炎風險之系統性安全性評估，以釐清機轉方向的矛盾訊號
+**Jatkaaksesi sinun on täydennettävä:**
+- TFDA pakkausselosteen varoitukset ja kielto kokonaisuudessaan (DG001, estoava aukko, vaikuttaa S1 turvallisuuden alkuarviointiin)
+- Golimumab yksityiskohtaiset toimintamekanismi tiedot (DG002, rajoittaa mekanismi-linkki-analyysia)
+- Reumatoidin vaskuliitin taudin spesifinen interventiotutkimuksen suunnittelu ja tulokset
+- Anti-TNF aiheuttaman vaskuliitin riskien järjestelmällinen turvallisuusarviointi, selvittää mekanistisen suunnan ristiriitaiset signaalit
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

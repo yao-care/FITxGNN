@@ -29,72 +29,73 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Dolutegravir: From HIV-1 Infection to Simian Immunodeficiency Virus Infection
+# Dolutegravir: HIV-1-infektiosta apian immuunivajaatuneisuusviruksen infektioon
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Dolutegravir is an antiretroviral integrase strand transfer inhibitor established for treating HIV-1 infection. TxGNN predicts a strong association with **Simian Immunodeficiency Virus (SIV) Infection**, but the supporting evidence (1 clinical trial, 16 publications) is almost entirely preclinical macaque research rather than new human clinical evidence, since SIV is a non-human primate disease.
+Dolutegravir on vakiintunut antiretroviraali integraasi-ketjunsiirtohemmaava inhibiittori HIV-1-infektioiden hoitoon. TxGNN ennustaa voimakasta yhteyttä **apian immuunivajaatuneisuusviruksen (SIV) infektioon**, mutta tukevat näytöt (1 kliininen tutkimus, 16 julkaisua) ovat lähes kokonaan prekliinistä makakkitutkimusta, ei uusia ihmisten kliinisiä näyttöjä, koska SIV on ei-ihmisiin primaatteihin rajoittuva tauti.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | HIV-1 infection (established antiretroviral use; not confirmed via Taiwan license text — data gap DG001/DG002) |
-| Predicted New Indication | Simian Immunodeficiency Virus Infection |
-| TxGNN Prediction Score | 99.85% |
-| Evidence Level | L4 |
-| Taiwan Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen indikaatio | HIV-1-infektio (vakiintunut antiretroviraalinen käyttö; ei vahvistettu Taiwanin lääkelupaa-asiakirjoilla — data gap DG001/DG002) |
+| Ennustettu uusi indikaatio | Apian immuunivajaatuneisuusviruksen infektio |
+| TxGNN-ennustepistemäärä | 99.85% |
+| Näyttötaso | L4 |
+| Taiwanin markkinatilanne | Ei markkinoilla (Not Marketed) |
+| Hyväksyntojen lukumäärä | 0 |
+| Suositeltu päätös | Pidätä |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, detailed mechanism of action data is not available in this evidence pack (data gap DG002). Based on established pharmacological knowledge, dolutegravir is an integrase strand transfer inhibitor (INSTI); its efficacy against HIV-1 has been proven, and the same enzymatic target (retroviral integrase) is shared with SIV, which mechanistically explains the model's high confidence score.
+Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla tässä näyttöpakkauksessa (data gap DG002). Vakiintuneen farmakologisen tiedon perusteella dolutegravir on integraasi-ketjunsiirtohemmaava inhibiittori (INSTI); sen teho HIV-1-tautiin on osoitettu, ja sama entsymaattinen kohde (retrovirusintegraasi) on yhteinen SIV:n kanssa, mikä mekanistisesti selittää mallin korkean luottamuspistemäärän.
 
-SIV is the simian counterpart of HIV and is the standard non-human primate (NHP) model used to study HIV pathogenesis, latency, and antiretroviral drug resistance. Dolutegravir has already been extensively tested in SIV-infected macaques — not as a new indication under development, but as a research tool to characterize resistance mutations and treatment strategies that inform human HIV-1 care.
+SIV on HIV:n apian vastine ja vakioitu ei-ihmisiin primaattien (NHP) malli, jota käytetään HIV-patogeneesin, piilevyyden ja antiretroviraalisen lääkkeen resistenssin tutkimukseen. Dolutegraviiria on jo laajalti testattu SIV-infektoiduissa makakeissa — ei uutena kehitysvaiheessa olevana indikatiiona vaan tutkimusvälineenä, jolla karakterisoidaan resistenssimuutoksia ja hoitostrategioita, jotka informoivat ihmisten HIV-1-hoitoa.
 
-Because of this, the TxGNN prediction largely reflects an existing, well-documented research use of dolutegravir in animal models rather than a genuinely novel human therapeutic indication — SIV infection itself does not occur in humans and cannot be an approvable clinical indication. The same pattern appears in the model's next-ranked prediction (feline immunodeficiency-associated disease, rank 2), which is similarly an animal-model analog of HIV rather than a new human use case. A third prediction (a rare neurodevelopmental disorder, rank 3) had no supporting evidence at all and was already flagged for Hold.
+Tämän takia TxGNN-ennuste heijastaa pääasiassa olemassa olevaa, hyvin dokumentoitua dolutegraavin tutkimuskäyttöä eläinmalleissa eikä todella uutta ihmisten terapeuttista indikatiota — SIV-infektio itsessään ei esiinny ihmisillä eikä voi olla hyväksyttävä kliininen indikaatio. Sama kaava esiintyy mallin seuraavaksi korkeimmin sijoittuneessa ennusteessa (kissan immuunivajaatuneisuuteen liittyvä tauti, sija 2), joka on samoin eläinmallin analogi HIV:lle eikä uusi ihmisten käyttökohde. Kolmas ennuste (harvinainen neurokehityksen häiriö, sija 3) oli kokonaan ilman tukea ja oli jo merkitty Pidätä-päätökselle.
 
-## Clinical Trial Evidence
+## Kliiniset tutkimukset
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimusnumero | Vaihe | Status | Osallistujamäärä | Keskeiset tulokset |
 |---------|------|------|------|---------|
-| [NCT03577782](https://clinicaltrials.gov/study/NCT03577782) | Phase 1/2 | Unknown | 12 | Evaluates vedolizumab combined with antiretroviral therapy (ART) for virological remission in HIV-infected subjects; dolutegravir is not the primary study drug (likely part of background ART), so relevance to a specific SIV indication is limited. |
+| [NCT03577782](https://clinicaltrials.gov/study/NCT03577782) | Vaihe 1/2 | Tuntematon | 12 | Arvioi vedolizumabia yhdistettynä antiretroviraaliseen hoitoon (ART) viraalisen remission aikaansaamiseksi HIV-infektoiduissa potilailla; dolutegravir ei ole päätutkimuslääke (todennäköisesti osa taustalla olevaa ART-hoitoa), joten relevanssi tiettyyn SIV-indikatioon on rajallinen. |
 
-## Literature Evidence
+## Kirjallisuusnäyttö
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset tulokset |
 |------|-----|------|------|---------|
-| [30381490](https://pubmed.ncbi.nlm.nih.gov/30381490/) | 2019 | Preclinical | J Virology | Dolutegravir monotherapy in SIV-infected macaques selects multiple resistance mutation patterns with variable virological outcomes. |
-| [26378179](https://pubmed.ncbi.nlm.nih.gov/26378179/) | 2015 | Preclinical | J Virology | Characterizes INSTI drug-resistance profiles in SIVmac239, supporting SIV as a valid model for HIV integrase inhibitor research. |
-| [25583721](https://pubmed.ncbi.nlm.nih.gov/25583721/) | 2015 | Preclinical | Antimicrob Agents Chemother | Uses simian-tropic HIV to study integrase inhibitor drug resistance mechanisms. |
-| [24920794](https://pubmed.ncbi.nlm.nih.gov/24920794/) | 2014 | Preclinical | J Virology | HIV-1 integrase resistance mutations introduced into SIVmac239 alter susceptibility to INSTIs including dolutegravir. |
-| [28923862](https://pubmed.ncbi.nlm.nih.gov/28923862/) | 2017 | Preclinical | Antimicrob Agents Chemother | Evaluates bictegravir and cabotegravir activity against INSTI-resistant SIVmac239 and HIV-1, contextualizing dolutegravir cross-resistance. |
-| [32506843](https://pubmed.ncbi.nlm.nih.gov/32506843/) | 2021 | Review | FEBS Journal | Reviews HIV/SIV intasome crystal structures explaining INSTI (including dolutegravir) binding and resistance escape mechanisms. |
-| [36365101](https://pubmed.ncbi.nlm.nih.gov/36365101/) | 2022 | Preclinical | Pharmaceutics | Pharmacokinetic validation of long-term antiretroviral treatment (incl. dolutegravir) in SIV-infected non-human primates. |
-| [40093003](https://pubmed.ncbi.nlm.nih.gov/40093003/) | 2025 | Preclinical | Front Immunol | Assesses brain white-matter/free-water changes in rhesus macaques after initiating emtricitabine + tenofovir + dolutegravir treatment. |
-| [32166319](https://pubmed.ncbi.nlm.nih.gov/32166319/) | 2020 | Preclinical | Clin Infect Dis | Dolutegravir and raltegravir show proadipogenic/profibrotic effects and induce insulin resistance in human/simian adipose tissue models. |
-| [26150024](https://pubmed.ncbi.nlm.nih.gov/26150024/) | 2016 | Preclinical | AIDS Res Hum Retroviruses | Evaluates coformulated injectable combination ART regimens in SIV-infected rhesus macaques. |
+| [30381490](https://pubmed.ncbi.nlm.nih.gov/30381490/) | 2019 | Prekliininen | J Virology | Dolutegraavin monoterapia SIV-infektoiduissa makakeissa valitsee useita resistenssimuutoskuvioita vaihtelevine virologisin tuloksin. |
+| [26378179](https://pubmed.ncbi.nlm.nih.gov/26378179/) | 2015 | Prekliininen | J Virology | Karakterisoi INSTI-lääkkeen resistenssiprofiileja SIVmac239:ssä, tukien SIV:ää pätevänä mallina HIV-integraasi-inhibiittorin tutkimukselle. |
+| [25583721](https://pubmed.ncbi.nlm.nih.gov/25583721/) | 2015 | Prekliininen | Antimicrob Agents Chemother | Käyttää apian-tropista HIV:tä integraasi-inhibiittorin lääkkeen resistenssiomekanismien tutkimukseen. |
+| [24920794](https://pubmed.ncbi.nlm.nih.gov/24920794/) | 2014 | Prekliininen | J Virology | SIVmac239:ään tuodut HIV-1-integraasi resistenssimutaatiot muuttavat herkkyyden INSTI:ihin, myös dolutegraaviriin. |
+| [28923862](https://pubmed.ncbi.nlm.nih.gov/28923862/) | 2017 | Prekliininen | Antimicrob Agents Chemother | Arvioi bictegraavin ja cabotegraavin tehokkuutta INSTI-resistenssia omaavaa SIVmac239:tä ja HIV-1:tä vastaan, valaisee dolutegraavin ristiresistenssiä. |
+| [32506843](https://pubmed.ncbi.nlm.nih.gov/32506843/) | 2021 | Katsaus | FEBS Journal | Käsittelee HIV/SIV intasomien kiteisenrakenteita, jotka selittävät INSTI:n (myös dolutegraavin) sitoutumis- ja resistenssipakoilimekanismeja. |
+| [36365101](https://pubmed.ncbi.nlm.nih.gov/36365101/) | 2022 | Prekliininen | Pharmaceutics | Pitkäaikaisen antiretroviraalisen hoidon (myös dolutegravir) farmakokineetinen validointi SIV-infektoiduissa ei-ihmisiin primaateissa. |
+| [40093003](https://pubmed.ncbi.nlm.nih.gov/40093003/) | 2025 | Prekliininen | Front Immunol | Arvioi aivovalkoisen aineen/vapaan veden muutoksia makakeissa emtricitabiini + tenofovir + dolutegravir -hoidon aloituksen jälkeen. |
+| [32166319](https://pubmed.ncbi.nlm.nih.gov/32166319/) | 2020 | Prekliininen | Clin Infect Dis | Dolutegravir ja raltegravir osoittavat proadipogeenisia ja profibroottisia vaikutuksia sekä indusoivat insuliiniresistenssiä ihmisen/apian rasvakudosmalleissa. |
+| [26150024](https://pubmed.ncbi.nlm.nih.gov/26150024/) | 2016 | Prekliininen | AIDS Res Hum Retroviruses | Arvioi yhdessä formuloituja injektiokelpoisia ART-yhdistelmiä SIV-infektoiduissa silkkiapineissa. |
 
-## Finland/Taiwan Market Information
+## Suomen/Taiwanin markkinatiedot
 
-Currently not marketed in Taiwan — no authorization records available (0 licenses on file).
+Tällä hetkellä ei markkinoilla Taiwanissa — hyväksynnän tallenteita ei ole saatavilla (0 lupaa tiedostoissa).
 
-## Safety Considerations
+## Turvallisuushuomiot
 
-Please refer to the package insert for safety information.
+Turvallisuustiedot löytyvät pakkausselosteesta.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidätä**
 
-**Rationale:**
-The predicted "new indication" (SIV infection) is a non-human primate disease, not an approvable human indication — the underlying evidence is preclinical macaque resistance/PK research that already supports dolutegravir's known HIV-1 mechanism, not a novel human therapeutic opportunity. Combined with the complete absence of TFDA safety documentation (Blocking data gap), this candidate does not meet the bar to proceed.
+**Perustelu:**
+Ennustettu "uusi indikaatio" (SIV-infektio) on ei-ihmisiin primaatteihin rajoittuva tauti, ei hyväksyttävä ihmisten indikaatio — taustalla oleva näyttö on prekliinistä makakki-resistenssi-/PK-tutkimusta, joka jo tukee dolutegraavin tunnettua HIV-1-mekanismia, ei uutta ihmisten terapeuttista mahdollisuutta. Yhdessä TFDA:n turvallisuusasiakirjojen täydellisen puuttumisen kanssa (Blocking data gap), tämä kandidaatti ei täytä vaatimusta edetä.
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings/contraindications) — currently a Blocking data gap
-- Confirmed mechanism of action and original indication documentation via DrugBank API
-- Re-evaluation of TxGNN predictions restricted to clinically meaningful human indications, since the top-ranked candidates (SIV, feline immunodeficiency-associated disease) are animal-disease analogs of dolutegravir's existing HIV-1 use rather than genuine repurposing targets
+**Etenemiseksi tarvitaan seuraavaa:**
+- TFDA:n pakkausseloste (varoitukset/vasta-aiheet) — tällä hetkellä Blocking data gap
+- Vahvistettu vaikutusmekanismi ja alkuperäisen indikaation dokumentaatio DrugBank API:n kautta
+- TxGNN-ennusteiden uudelleenarviointi rajoitettuna kliinisesti merkityksellisiin ihmisten indikatiioihin, koska huippuluokan kandidaatit (SIV, kissan immuunivajaatuneisuuteen liittyvä tauti) ovat eläintautien analogeja dolutegraavin olemassa olevalle HIV-1-käytölle, ei todellisia uudelleenkäyttötavoitteita.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -29,115 +29,116 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Febuxostat: From Xanthine Oxidase Inhibition to Purine Metabolism Disorders
+# Febuksostaatti: Ksantiinioksidaasin estosta puriinin aineenvaihdunnanhäiriöihin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Febuxostat is a xanthine oxidase (XOR) inhibitor; the evidence pack does not record a confirmed original approved indication (flagged as a Blocking/High-severity data gap). TxGNN surfaces **three related purine-metabolism candidates** — Renal Hypouricemia, HPRT Partial Deficiency, and Lesch-Nyhan Syndrome — each scoring above **99.6%**, but the supporting evidence is limited to case reports, reviews, and one low-confidence trial rather than completed RCTs.
+Febuksostaatti on ksantiinioksidaasin (XOR) estoaine; evidenssipaketissa ei ole dokumentoitu varmennettua alkuperäistä hyväksyttyä indikaatiota (merkitty kriittiseksi tietovajeeksi). TxGNN nostaa esiin **kolme siihen liittyvää puriinin aineenvaihdunnan ehdokasta** — Renaalinen Hyperurikemia, HPRT Osittainen Puutos ja Lesch-Nyhan Oireyhtymä — joista jokainen saa pistemäärän yli **99,6 %**, mutta tukeva näyttö rajoittuu potilastapausten kuvauksiin, katsauksiin ja yhteen alhaisen luotettavuuden tutkimukseen pikemminkin kuin valmiisiin satunnaistettuihin kontrolloituihin tutkimuksiin.
 
 ---
 
-## Quick Overview
+## Pikaluonnos
 
-| Item | Content |
+| Erä | Sisältö |
 |------|------|
-| Original Indication | Not documented in evidence pack (data gap — DG001/DG002) |
-| Predicted New Indication (Top Score) | Hypouricemia, Renal |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L4 |
-| Taiwan Market Status | Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen indikaatio | Ei dokumentoitu evidenssipaketissa (tietovaje — DG001/DG002) |
+| Ennustettu uusi indikaatio (ylin pistemäärä) | Hyperurikemia, Renaalinen |
+| TxGNN-ennusteen pistemäärä | 99,99 % |
+| Näyttötaso | L4 |
+| Taiwanin markkinatilanne | Ei markkinoilla (Not marketed) |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Pidätys |
 
-**Other candidate indications in this evidence pack:**
+**Muut ehdokkaindikaatiot tässä evidenssipaketissa:**
 
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Decision Stage | Recommendation |
+| Sijoitus | Ennustettu indikaatio | TxGNN-pistemäärä | Näyttötaso | Päätösvaihe | Suositus |
 |------|----------------------|-------------|-----------------|-----------------|-----------------|
-| 2 | Hypoxanthine Guanine Phosphoribosyltransferase (HPRT) Partial Deficiency | 99.98% | L4 | S2 | Proceed with Guardrails |
-| 3 | Lesch-Nyhan Syndrome | 99.68% | L3 | S2 | Proceed with Guardrails |
+| 2 | Hypoksantiiniu guaniinifosforribosyylitransferaasi (HPRT) Osittainen Puutos | 99,98 % | L4 | S2 | Etene varauksilla |
+| 3 | Lesch-Nyhan Oireyhtymä | 99,68 % | L3 | S2 | Etene varauksilla |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on perusteltu?
 
-Detailed mechanism-of-action data is not populated in the drug record (`original_moa: [Data Gap]`), but the evidence pack's own literature consistently describes febuxostat as a **non-purine selective xanthine oxidoreductase (XOR) inhibitor** that blocks the terminal step of purine catabolism, lowering uric acid production.
+Yksityiskohtaista vaikutusmekanismin tietoa ei ole täytetty lääkkeen tietueeseen (`original_moa: [Data Gap]`), mutta evidenssipaketin oma kirjallisuus kuvailee jatkuvasti febuksostaattia **ei-puriiniksi selektiiviseksi ksantiinioksidoreduktaasin (XOR) estolääkkeeksi**, joka estää puriinin katabolismin viimeisen askeleen ja vähentää virtsahappoksen tuotantoa.
 
-For **Rank 1 (Hypouricemia, Renal)**, there is a direct mechanistic tension worth flagging: hypouricemia is a state of *abnormally low* serum urate, while febuxostat's pharmacology *lowers* urate further — the opposite direction. The literature clarifies the actual clinical logic is not "treating" hypouricemia itself, but using febuxostat in patients with **renal hypouricemia (URAT1/GLUT9 transporter defects)** to prevent **exercise-induced acute kidney injury (EIAKI)**, a distinct prophylactic use case. This nuance means the disease label matches the patient population, not the treatment goal, and should be reflected precisely in any downstream protocol.
+**Sijoitukselle 1 (Hyperurikemia, Renaalinen)** on olemassa suora mekanistinen jännite, joka kannattaa huomioida: hyperurikemia on tila, jossa seerumin uraatin taso on *epänormaalin matala*, kun taas febuksostaatin farmakologia *vähentää* uraattia entisestään — vastakkaiseen suuntaan. Kirjallisuus selventää, että todellinen kliininen logiikka ei ole itse hyperurikeemian "hoitaminen", vaan febuksostaatin käyttäminen **renaalisen hyperurikeemian potilailla (URAT1/GLUT9-kuljetusproteiinitoimintahäiriö)** **rasituksesta johtuvien akuuttien munuaisvahinkojen (EIAKI) ehkäisemiseksi**, mikä on erillinen profylaktinen käyttötapaus. Tämä vivahde tarkoittaa, että sairauden nimitys vastaa potilaspopulaatiota eikä hoitotavoitetta, ja sitä tulisi heijastaa tarkasti millä tahansa tulevassa protokollassa.
 
-For **Rank 2 (HPRT Partial Deficiency)** and **Rank 3 (Lesch-Nyhan Syndrome)**, the mechanistic story is coherent and consistent with febuxostat's core pharmacology: both conditions arise from defective purine salvage (HPRT enzyme), forcing compensatory overproduction of uric acid via the XOR pathway. Blocking XOR directly addresses the resulting hyperuricemia/gout, and is analogous to the established (though off-label in these rare diseases) use of allopurinol, a related XOR inhibitor. Febuxostat would only manage the metabolic/hyperuricemia component — it has no effect on the neurobehavioral features of Lesch-Nyhan syndrome.
+**Sijoituksille 2 (HPRT Osittainen Puutos)** ja **3 (Lesch-Nyhan Oireyhtymä)** mekanistinen tarina on johdonmukainen ja yhdenmukainen febuksostaatin ydinfarmakon kanssa: molemmat oireyhtymät syntyvät viallisesta puriinin pelastuksesta (HPRT-entsyymi), mikä pakottaa kompensatoriseen virtsahappoksen liikatuotantoon XOR-reitillä. XOR:n suora estäminen käsittelee suoraan seurauksena olevaa hyperurikeemiaa/podagraa, ja se on analoginen vakiintuneen (vaikka käytössä tuntemattomissa näissä harvoissa taudeissa) allopurinolin käytön kanssa, joka on sukua oleva XOR-estoaine. Febuksostaatti vain hallitsisi aineenvaihdunnan/hyperurikeemian komponenttia — sillä ei ole vaikutusta Lesch-Nyhan oireyhtymän neuropsykoosi-oireisiin.
 
 ---
 
-## Clinical Trial Evidence
+## Kliiniset tutkimukset
 
-### Hypouricemia, Renal (Rank 1)
+### Hyperurikemia, Renaalinen (sijoitus 1)
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimusnumero | Vaihe | Tila | Rekrytointi | Tärkeimmät löydökset |
 |---------|------|------|------|---------|
-| [NCT04398251](https://clinicaltrials.gov/study/NCT04398251) | Phase 4 | Unknown | 100 | Shanghai Xu-hui Central Hospital study on uric acid control and stone recurrence/renal function in hyperuricemia-related calculi; **relevance graded C (low confidence)** — no clear direct link to renal hypouricemia stated, no public results. |
+| [NCT04398251](https://clinicaltrials.gov/study/NCT04398251) | Vaihe 4 | Tuntematon | 100 | Shanghai Xu-hui Central Hospitalin tutkimus virtsahappotasapainosta ja kaliumpermanganaatin uusiutumisesta/munuaisten toiminnasta hyperurikemiaan liittyvissä kivissä; **relevanssi arvosteltu C (alhainen luotettavuus)** — ei selvää suoraa yhteyttä renaalisen hyperurikeemian kanssa mainittu, ei julkisia tuloksia. |
 
-### HPRT Partial Deficiency (Rank 2)
+### HPRT Osittainen Puutos (sijoitus 2)
 
-Currently no related clinical trials registered.
+Tällä hetkellä ei ole rekisteröityjä kliinisiä tutkimuksia.
 
-### Lesch-Nyhan Syndrome (Rank 3)
+### Lesch-Nyhan Oireyhtymä (sijoitus 3)
 
-Currently no related clinical trials registered.
+Tällä hetkellä ei ole rekisteröityjä kliinisiä tutkimuksia.
 
 ---
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-### Hypouricemia, Renal (Rank 1)
+### Hyperurikemia, Renaalinen (sijoitus 1)
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Julkaisu | Tärkeimmät löydökset |
 |------|-----|------|------|---------|
-| [31650389](https://pubmed.ncbi.nlm.nih.gov/31650389/) | 2020 | Review | Clinical rheumatology | Narrative review of hypouricemia etiology and clinical management for rheumatologists. |
-| [36754409](https://pubmed.ncbi.nlm.nih.gov/36754409/) | 2023 | Review | Internal Medicine (Tokyo) | Case-based discussion proposing non-purine selective XOR inhibitors (incl. febuxostat) to prevent exercise-induced AKI in renal hypouricemia patients. |
+| [31650389](https://pubmed.ncbi.nlm.nih.gov/31650389/) | 2020 | Katsaus | Clinical rheumatology | Hyperurikeemian etiologian ja kliinisen hoidon narratiivinen katsaus reumatologeille. |
+| [36754409](https://pubmed.ncbi.nlm.nih.gov/36754409/) | 2023 | Katsaus | Internal Medicine (Tokyo) | Tapaukseen perustuva keskustelu, joka ehdottaa ei-puriiniksi selektiivisiä XOR-estolääkkeitä (mukaan lukien febuksostaatti) rasituksesta johtuvien AKI:ien ehkäisemiseksi renaalisen hyperurikeemian potilailla. |
 
-### HPRT Partial Deficiency (Rank 2)
+### HPRT Osittainen Puutos (sijoitus 2)
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Julkaisu | Tärkeimmät löydökset |
 |------|-----|------|------|---------|
-| [32128695](https://pubmed.ncbi.nlm.nih.gov/32128695/) | 2020 | Case Report | CEN case reports | Novel HPRT1 p.V35M mutation causing HPRT-related hyperuricemia with familial juvenile gout, no neurological symptoms. |
-| [26073243](https://pubmed.ncbi.nlm.nih.gov/26073243/) | 2015 | Case Report | Internal Medicine (Tokyo) | Novel HPRT mutation combined with known variants, presenting as gout with reduced erythrocyte HPRT activity. |
+| [32128695](https://pubmed.ncbi.nlm.nih.gov/32128695/) | 2020 | Potilaan tapaus | CEN case reports | Uusi HPRT1 p.V35M -mutaatio, joka aiheuttaa HPRT:hen liittyvää hyperurikeemiaa perheen nuoren podogrraalla ilman neurologisia oireita. |
+| [26073243](https://pubmed.ncbi.nlm.nih.gov/26073243/) | 2015 | Potilaan tapaus | Internal Medicine (Tokyo) | Uusi HPRT-mutaatio yhdistettynä tunnettuihin variantteihin, esille tulee podan muodossa, jossa on alentunut punaisten verisolujen HPRT-aktiivisuus. |
 
-### Lesch-Nyhan Syndrome (Rank 3)
+### Lesch-Nyhan Oireyhtymä (sijoitus 3)
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Julkaisu | Tärkeimmät löydökset |
 |------|-----|------|------|---------|
-| [40763966](https://pubmed.ncbi.nlm.nih.gov/40763966/) | 2025 | Case Series | Zhonghua Yixue Yichuanxue Zazhi | Clinical, genetic, and treatment characteristics of two pediatric Lesch-Nyhan syndrome cases. |
-| [32128695](https://pubmed.ncbi.nlm.nih.gov/32128695/) | 2020 | Case Report | CEN case reports | Discusses HPRT partial vs. complete deficiency (Lesch-Nyhan) distinction and hyperuricemia presentation. |
+| [40763966](https://pubmed.ncbi.nlm.nih.gov/40763966/) | 2025 | Tapauksien sarja | Zhonghua Yixue Yichuanxue Zazhi | Kahden pediatrisen Lesch-Nyhan oireyhtymän tapauksen kliniset, geneettiset ja hoitoon liittyvät ominaisuudet. |
+| [32128695](https://pubmed.ncbi.nlm.nih.gov/32128695/) | 2020 | Potilaan tapaus | CEN case reports | Käsittelee HPRT-osittaisen vs. täydellisen puutoksen (Lesch-Nyhan) erottelua ja hyperurikeemian esille tuloa. |
 
 ---
 
-## Taiwan Market Information
+## Taiwanin markkinatieto
 
-Febuxostat currently has **no marketing authorization on record in Taiwan** (`market_status: Not marketed`, 0 licenses). No product name, dosage form, or approved indication data is available to report.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
-
-**Note:** The evidence pack flags a **Blocking-severity data gap (DG001)** — TFDA package insert warnings/contraindications have not yet been retrieved — which explicitly **prevents entry into S1 safety screening** for any of the above indications. Drug interaction data was also queried with `not_found` status (0 interactions). No safety evaluation should proceed until this gap is closed.
+Febuksostaatilla ei tällä hetkellä ole markkinointilupaa Taiwanissa (`market_status: Not marketed`, 0 lisenssiä). Tuotenimeä, annosmuotoa tai hyväksyttyä indikaatiota koskevia tietoja ei ole saatavilla raportointia varten.
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuusseikat
 
-**Decision: Hold**
+Katso turvallisuustietoja varten pakkausselosteesta.
 
-**Rationale:**
-- A Blocking-severity data gap (missing TFDA label/warnings, DG001) prevents S1 safety screening regardless of which indication is pursued, so no candidate can advance yet despite two of the three (Ranks 2–3) reaching a "Proceed with Guardrails" evidence stage internally.
-- All three candidates are currently supported only by case reports, narrative reviews, or a single low-confidence (Grade C), status-unknown trial — no completed RCT evidence exists for any of them.
+**Huomautus:** Evidenssipaketissa merkitään **kriittinen tietovajeeksi (DG001)** — TFDA-pakkausseloste varoitukset/vasta-aiheet eivät ole vielä noutuneet — joka nimenomaisesti **estää S1-turvallisuusseulonnan siirtymisen** mille tahansa edellä mainituista indikaatioista. Lääkkeiden vuorovaikutustiedot kyselivät myös `not_found`-tilalla (0 vuorovaikutusta). Mitään turvallisuuden arviointia ei tulisi jatkaa, kunnes tämä vaje suljetaan.
 
-**To proceed, the following is needed:**
-- Retrieve and parse the TFDA package insert (warnings, contraindications) — this is the blocking item (DG001).
-- Obtain formal DrugBank MOA and original-indication data (DG002) to properly frame the original-vs-new indication comparison.
-- Resolve the Rank 1 mechanistic ambiguity (prophylaxis of EIAKI in renal hypouricemia patients vs. "treating" hypouricemia) before writing any protocol referencing this indication.
-- If prioritizing Ranks 2–3 (HPRT partial deficiency / Lesch-Nyhan syndrome), seek case-series or registry-level data given the rarity of these conditions, since RCTs are unlikely to exist.
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidätys**
+
+**Perustelu:**
+- Kriittinen tietovajeeksi merkitty asia (puuttuva TFDA-merkintä/varoitukset, DG001) estää S1-turvallisuusseulonnan siitä riippumatta, mitä indikaatiota haetaan, joten mikään ehdokas ei voi edetä vielä, vaikka kaksi kolmesta (sijoitukset 2–3) pääsevät sisäisesti "Etene varauksilla" -näyttövaiheeseen.
+- Kaikki kolme ehdokasta ovat tällä hetkellä tuettu vain potilaiden tapausten kuvauksilla, narratiivisilla katsauksilla tai yhdellä alhaisen luotettavuuden (luokitus C), tilaltaan tuntemattomalla tutkimuksella — mitään valmista satunnaistetun kontrolloitua tutkimusta ei ole niistä muista.
+
+**Edetäkseen seuraavat asiat ovat tarpeen:**
+- Nouda ja jäsennä TFDA-pakkausseloste (varoitukset, vasta-aiheet) — tämä on kriittinen kohta (DG001).
+- Hanki muodolliset DrugBank-vaikutusmekanismi- ja alkuperäisen indikaation tiedot (DG002) alkuperäisen vs. uuden indikaation vertailun asianmukaiseksi kehittämiseksi.
+- Ratkaise sijoituksen 1 mekanistinen epätarkkuus (EIAKI:n profylaksiksi renaalisen hyperurikeemian potilaissa vs. "hyperurikeemian hoitaminen") ennen kuin kirjoitat mitään protokollaa, joka viittaa tähän indikaatioon.
+- Jos priorisoitiin sijoitukset 2–3 (HPRT osittainen puutos / Lesch-Nyhan oireyhtymä), etsi tapauksien sarja- tai rekisteritason tietoja näiden harvojen sairauksien vuoksi, sillä satunnaistettuja kontrolloituja tutkimuksia ei todennäköisesti ole olemassa.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

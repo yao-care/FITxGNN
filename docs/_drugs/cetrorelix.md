@@ -29,60 +29,61 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Cetrorelix: From Data-Gap Original Indication to Hypertrichosis (Disease)
+# Cetrorelix: puuttuvasta alkuperäisestä indikaatiosta hypertrikoosiin (sairaus)
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Cetrorelix (DrugBank DB00050) is a gonadotropin-releasing hormone (GnRH) antagonist that suppresses gonadotropin secretion; however, the evidence pack does not record its original approved indication or detailed mechanism of action. The TxGNN model predicts potential benefit for **Hypertrichosis (disease)** with a **99.98%** prediction score, but this ranks as the model's weakest evidence tier — **zero clinical trials and zero publications** currently support this specific drug-disease link.
+Cetrorelix (DrugBank DB00050) on gonadotropiinin-vapautusta-säätelevähormon (GnRH) antagonisti, joka alentaa gonadotropiinin eritystä; todistelupaketti ei kuitenkaan sisällä sen alkuperäistä hyväksyttyä indikaatiota eikä yksityiskohtaista vaikutusmekanismia. TxGNN-malli ennustaa mahdollista hyötyä **hypertrikoosille (sairaus)** ennustuspisteillä **99.98%**, mutta tämä sijoittuu mallin heikoimmin todistelun tasoon — **ei yhtään kliinistä tutkimusta ja ei yhtään julkaisua** tukevia tätä spesifistä lääke-taudin yhteyttä.
 
-## Quick Overview
+## Pikayleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Not available in evidence pack (flagged as data gap) |
-| Predicted New Indication | Hypertrichosis (disease) |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L5 (model prediction only) |
-| Finland Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen indikaatio | Ei saatavilla todistelupakettissa (merkitty tietovajeeksi) |
+| Ennustettu uusi indikaatio | Hypertrikoosi (sairaus) |
+| TxGNN-ennustuspiste | 99.98% |
+| Näytön taso | L5 (vain mallin ennuste) |
+| Suomen markkinatilanne | ✗ Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Pidätys |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on perusteltu?
 
-Currently, detailed mechanism of action data is not available in a structured form (`original_moa: [Data Gap]`), and the drug's original approved indication is also not recorded in this evidence pack. Based on the repurposing rationale generated for this candidate, Cetrorelix is characterized as an agent that suppresses gonadotropin (LH/FSH) secretion via GnRH receptor antagonism — a pharmacological class typically associated with reproductive endocrinology uses (e.g., controlled ovarian stimulation), though this is not confirmed by the structured `original_indications` field here.
+Tällä hetkellä yksityiskohtaisesti järjestelmällistetyt vaikutusmekanismin tiedot eivät ole saatavilla (`original_moa: [Data Gap]`), ja lääkkeen alkuperäinen hyväksytty indikaatio ei myöskään ole kirjattu tähän todistelupakettiin. Repurposing-perustelun perusteella, joka on luotu tälle ehdokkaalle, cetrorelix on karakterisoitu aineeksi, joka alentaa gonadotropiinin (LH/FSH) eritystä GnRH-reseptorin antagonismin kautta — farmakologinen luokka, joka tyypillisesti liittyy reproduktiivisen endokrinologian sovelluksiin (esim. ohjattu munasarjan stimulaatio), vaikka tätä ei ole vahvistettu jäsentyneen `original_indications`-kentän perusteella.
 
-The proposed link to hypertrichosis rests on the hypothesis that reduced gonadotropin output could indirectly lower androgen-driven hair growth. The evidence pack itself explicitly labels this as a **speculative connection with no direct literature or trial support** ("無明確機轉關聯...此為推測性連結,無直接文獻或試驗支持"). No clinical trials, ICTRP registrations, or PubMed literature specific to Cetrorelix and hypertrichosis were found in any query performed. This prediction should therefore be treated as an unvalidated model output rather than a mechanistically grounded hypothesis.
+Ehdotettu yhteys hypertrikoosiin perustuu hypoteesiin, jonka mukaan pienentynyt gonadotropiinin tuotanto voisi epäsuorasti alentaa androgeenien aiheuttamaa hiuksien kasvua. Todistelupaketti itse eksplisiittisesti merkitsee tämän **spekulatiiviseksi yhteydeksi, jolla ei ole suoraa kirjallisuus- eikä tutkimustukea** ("無明確機轉關聯...此為推測性連結,無直接文獻或試驗支持"). Yhtään cetroreliksin ja hypertrikoosiin liittyvää kliinistä tutkimusta, ICTRP-rekisteröintiä tai PubMed-kirjallisuutta ei löytynyt missään suoritetussa haussa. Tätä ennustetta tulisi siksi pitää vahvistamattomana mallin tuloksena, ei mekanistisesti perusteltu hypoteesi.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen todisteet
 
-Currently no related clinical trials registered.
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
 
-## Literature Evidence
+## Kirjallisuuden todisteet
 
-Currently no related literature available.
+Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta.
 
-*(Note: 20 PubMed records were retrieved for a lower-ranked candidate indication — "malformation syndrome with odontal and/or periodontal component" — but the evidence pack's own rationale identifies these as generic periodontitis research unrelated to Cetrorelix, i.e., keyword-matching noise rather than genuine supporting evidence, and they are excluded here as they do not pertain to the top-ranked indication.)*
+*(Huomautus: 20 PubMed-tietuetta haettiin alemman sijan mukaisen ehdokasindikaation — "malformation syndrome with odontal and/or periodontal component" — osalta, mutta todistelupaketin oma perustelut tunnistavat nämä yleisen periodontiitin tutkimukseksi, joka ei liity cetroreliksiin, eli avainsana-täsmäytyksen kohinaksi pikemminkin kuin aidoksi tukeväksi näytöksi, ja ne on jätetty pois tästä, koska ne eivät koske korkeimman sijan omaavaa indikaatiota.)*
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Cetrorelix currently holds no marketing authorizations in this jurisdiction (market status: **Not marketed / Not marketed**, 0 authorizations on file). No product/license table is available.
+Cetroreliksilla ei ole tällä hetkellä markkinoille laskemisen hyväksyntöjä tässä oikeudenkäyttöalueella (markkinatilanne: **Ei markkinoilla / Ei markkinoilla**, 0 hyväksyntöä arkistoissa). Tuote-/lisenssi-taulukko ei ole saatavilla.
 
-## Safety Considerations
+## Turvallisuusnäkökulmat
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-drug interaction data are all marked as data gaps in this evidence pack; TFDA package insert extraction is listed as a blocking data gap — DG001.)
+Lisätietoja turvallisuudesta on pakkausselosteesta. (Keskeiset varoitukset, vasta-aiheet ja lääkkeiden väliset vuorovaikutustiedot on kaikki merkitty tietovajeiksi tässä todistelupakettissa; TFDA:n pakkausseloste-tietojen poimiminen on lueteltu estävänä tietovajeena — DG001.)
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidätys**
 
-**Rationale:**
-This is an L5, model-prediction-only candidate with no supporting clinical trials or literature, and the evidence pack's own rationale flags the drug-disease mechanistic link as speculative. Combined with the absence of original indication, MOA, and safety data, there is insufficient basis to advance this candidate.
+**Perustelut:**
+Tämä on L5-tasoinen, vain mallin ennustukseen perustuva ehdokas, jolle ei ole tukevia kliinisiä tutkimuksia tai kirjallisuutta, ja todistelupaketin oma perustelut merkitsevät lääke-taudin mekanistisen yhteyden spekulatiiviseksi. Yhdessä alkuperäisen indikaation, vaikutusmekanismin ja turvallisuustietojen puutteen kanssa ei ole riittävää perustaa ehdokkaan etenemiselle.
 
-**To proceed, the following is needed:**
-- TFDA package insert data (warnings/contraindications) — currently a blocking gap (DG001)
-- Confirmed mechanism of action and original approved indication (DG002)
-- Preclinical or mechanistic studies linking GnRH antagonism to hair follicle/androgen pathways in hypertrichosis
-- Any real-world DDI dataset (current query returned "not_found")
+**Jatkamiseen tarvitaan seuraavaa:**
+- TFDA:n pakkausseloste-tiedot (varoitukset/vasta-aiheet) — tällä hetkellä estävä väli (DG001)
+- Vahvistettu vaikutusmekanismi ja alkuperäinen hyväksytty indikaatio (DG002)
+- Prekliiniset tai mekanistiset tutkimukset, jotka yhdistävät GnRH-antagonismin hiuksien follikkeli-/androgeenipolkuihin hypertrikoosissa
+- Mikä tahansa todellisen maailman DDI-tietojoukko (nykyinen kysely palautti "not_found")
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

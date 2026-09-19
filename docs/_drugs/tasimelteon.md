@@ -29,87 +29,88 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Tasimelteon: From Circadian Rhythm Sleep-Wake Regulation to Insomnia
+# Tasimelteon: Vuorokausirytmisen uni-valveilun säätelystä unettomuuteen
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Tasimelteon (DB09071) is a melatonin MT1/MT2 receptor agonist; this evidence pack scored it against 10 TxGNN-predicted indications, and **Insomnia** is the only one that reached actionable evidence (evidence level L1, decision stage S3), while the other 9 — including the highest raw TxGNN score (bilateral parasagittal parieto-occipital polymicrogyria) — remain at Hold with no clinical trials or literature support. For insomnia specifically, **4 clinical trials** (including one completed Phase 3 RCT, n=322) and **6 publications** currently support this direction.
+Tasimelteon (DB09071) on melatoniini MT1/MT2-reseptorin agonisti; tämä todistusaineisto arvioi sitä 10 TxGNN-ennustettuun indikaatioon nähden, ja **unettomuus** on ainoa, joka saavutti toimintakelpoisuuden tason (todistusaste L1, päätöksen vaihe S3), kun taas muut 9 — mukaan lukien korkein TxGNN-pisteet saaneet (kaksipuoleinen parasagittaalinen parietooccipitaalinen polymikrogyyria) — ovat pidätyksessä ilman kliinisiä tutkimuksia tai kirjallisuustukea. Unettomuuden osalta **4 kliinistä tutkimusta** (mukaan lukien valmistunut Phase 3 RCT, n=322) ja **6 julkaisua** tukevat tätä suuntaa.
 
 ---
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Not recorded in this data pack (drug not currently marketed in Finland; no license record to source an approved indication text) |
-| Predicted New Indication | Insomnia |
-| TxGNN Prediction Score | 99.47% |
-| Evidence Level | L1 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Alkuperäinen indikaatio | Ei kirjattu tähän tietopaketiin (lääkettä ei ole tällä hetkellä markkinoitu Suomessa; ei markkinointilupaa alkuperäisen indikaation tekstin lähteeksi) |
+| Ennustettu uusi indikaatio | Unettomuus |
+| TxGNN-ennustepistemäärä | 99.47% |
+| Todistusaste | L1 |
+| Suomen markkina-asema | ✗ Ei markkinoitu |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Jatka varauksilla |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-DrugBank's mechanism-of-action field is empty in this data pack, but the literature evidence collected alongside it is consistent: tasimelteon is a non-selective **MT1/MT2 melatonin receptor agonist** that acts on the suprachiasmatic nucleus (SCN), the brain's circadian pacemaker, to phase-shift circadian rhythms and promote sleep onset (PMID 19579175, 24228714, 25207602).
+DrugBank-vaikutusmekanismi-kenttä on tyhjä tässä tietopaketissa, mutta samalla kerätty kirjallisuustodistus on johdonmukainen: tasimelteon on ei-selektiivinen **MT1/MT2-melatoniini-reseptorin agonisti**, joka vaikuttaa suprakaismalliseen ytimeen (SCN), aivojen vuorokausirytmin tahdistajaan, siirtämään vuorokausirytmiä ja edistämään unen alkua (PMID 19579175, 24228714, 25207602).
 
-No formal "original indication" is captured in this pack's regulatory data — the drug has no marketing authorization on file in Finland. However, the trial evidence itself points to insomnia as part of tasimelteon's original clinical development scope: the drug's development code, VEC-162, was studied in a completed Phase 3, double-blind, placebo-controlled trial specifically for **primary insomnia** (NCT00548340, 2007–2008). This suggests the TxGNN prediction is not identifying a novel repurposing signal so much as recovering a well-established, mechanistically direct use of the compound.
+Mitään virallista "alkuperäistä indikaatiota" ei ole tallennettu tämän paketin sääntelytietoihin — lääkkeellä ei ole markkinointilupaa Suomessa. Kuitenkin kliininen todistusaineisto itsessään viittaa unettomuuteen tasimelteonin alkuperäisen kliinisen kehityksen osana: lääkkeen kehityskoodia VEC-162 tutkittiin valmistuneessa Phase 3:ssa, kaksoissokkotutkimuksessa, plasebokontrolloidussa tutkimuksessa erityisesti **primäärisen unettomuuden** osalta (NCT00548340, 2007–2008). Tämä viittaa siihen, että TxGNN-ennuste ei tunnista uutta uudelleenkäyttösignaalia vaan pikemminkin palauttaa hyvin vakiintuneen, mekanistisesti suoran yhdisteen käytön.
 
-Because MT1/MT2 agonism directly targets sleep-onset physiology, the mechanistic rationale for insomnia is strong and requires no cross-indication extrapolation — unlike most of the other 9 candidates in this pack (e.g., ALS, polymicrogyria, skeletal dysplasia), which have no identifiable pathophysiological link to melatonergic signaling and no supporting evidence.
+Koska MT1/MT2-agonismi kohdistuu suoraan unen alkua koskevaan fysiologiaan, mekanistinen peruste unettomuudelle on vahva eikä vaadi risteysindikatioon ekstrapolointia — toisin kuin useimpien muista 9 ehdokkaista tässä paketissa (esim. ALS, polymikrogyyria, luuston dysplasia), joilla ei ole tunnistettavaa patofysiologista yhteyttä melatoniinisignalointiin eikä tukevia todisteita.
 
 ---
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen todistusaineisto
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimusnumero | Vaihe | Asema | Osallistujat | Keskeiset löydökset |
 |---------|------|------|------|---------|
-| [NCT00548340](https://clinicaltrials.gov/study/NCT00548340) | Phase 3 | Completed | 322 | Randomized, double-blind, placebo-controlled 5-week trial of VEC-162 (tasimelteon) 20 mg/day and 50 mg/day for primary insomnia efficacy and safety |
-| [NCT06953869](https://clinicaltrials.gov/study/NCT06953869) | Phase 3 | Recruiting | 420 | Multicenter, double-blind, randomized trial of tasimelteon vs. placebo in pediatric insomnia disorder; ongoing, completion expected 2028-01 |
-| [NCT03291041](https://clinicaltrials.gov/study/NCT03291041) | Phase 2 | Completed | 25 | Proof-of-concept study of tasimelteon vs. placebo in travelers with jet lag disorder (circadian-related sleep disturbance, not classic insomnia) |
-| [NCT05922995](https://clinicaltrials.gov/study/NCT05922995) | Early Phase 1 | Terminated | 20 | Open-label pilot assessing 20 mg tasimelteon on dream enactment and insomnia symptoms (ISI, PSQI, ESS) in REM Behavior Disorder patients |
+| [NCT00548340](https://clinicaltrials.gov/study/NCT00548340) | Phase 3 | Valmistunut | 322 | Satunnaistettu, kaksoissokko, plasebokontrolloitu 5 viikon mittainen tutkimus VEC-162 (tasimelteon) 20 mg/vrk ja 50 mg/vrk annoksista primäärisen unettomuuden tehokkuudelle ja turvallisuudelle |
+| [NCT06953869](https://clinicaltrials.gov/study/NCT06953869) | Phase 3 | Rekrytoi | 420 | Monikesko, kaksoissokko, satunnaistettu tasimelteon vs. plasebo tutkimus pediatriselle unettomuushäiriölle; käynnissä, valmistumisen odotetaan 2028-01 |
+| [NCT03291041](https://clinicaltrials.gov/study/NCT03291041) | Phase 2 | Valmistunut | 25 | Proof-of-concept tutkimus tasimelteon vs. plasebo matkaajilla, joilla on aikaero-aiheuttama unisokeuden häiriö (vuorokausirytmistä johtuva unisokeuden häiriö, ei klassinen unettomuus) |
+| [NCT05922995](https://clinicaltrials.gov/study/NCT05922995) | Varhainen Phase 1 | Keskeytetty | 20 | Avoin pilootti, jossa arvioitiin 20 mg tasimelteonin vaikutusta unen toiminnan lavastukseen ja unettomuuden oireisiin (ISI, PSQI, ESS) REM-käyttäytymishäiriötä sairastavilla potilailla |
 
 ---
 
-## Literature Evidence
+## Kirjallisuuden todistusaineisto
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Julkaisu | Keskeiset löydökset |
 |------|-----|------|------|---------|
-| [25207602](https://pubmed.ncbi.nlm.nih.gov/25207602/) | 2014 | Review | International Journal of Molecular Sciences | Reviews therapeutic effects of melatonin receptor agonists (including tasimelteon) on insomnia and comorbid disorders |
-| [24228714](https://pubmed.ncbi.nlm.nih.gov/24228714/) | 2014 | Review | Journal of Medicinal Chemistry | Characterizes tasimelteon as a high-affinity non-selective MT1/MT2 agonist; reviews ligands and therapeutic potential |
-| [19557144](https://pubmed.ncbi.nlm.nih.gov/19557144/) | 2009 | Review | Neuropsychiatric Disease and Treatment | Discusses synthetic melatoninergic agonists as an approach to insomnia management |
-| [35585820](https://pubmed.ncbi.nlm.nih.gov/35585820/) | 2023 | Review | Current Drug Safety | Discusses melatonin and tasimelteon in the context of Alzheimer's disease-associated insomnia |
-| [22010042](https://pubmed.ncbi.nlm.nih.gov/22010042/) | 2011 | Review | Therapeutic Advances in Neurological Disorders | Reviews melatonin analogs for sleep disturbance and neuroprotection in Parkinson's disease |
-| [22167135](https://pubmed.ncbi.nlm.nih.gov/22167135/) | 2011 | Review | Neuro Endocrinology Letters | Reviews melatonin's role in chronobiology of sleep and cytoprotection in obesity |
+| [25207602](https://pubmed.ncbi.nlm.nih.gov/25207602/) | 2014 | Katsaus | International Journal of Molecular Sciences | Käsittelee melatoniini-reseptorin agonistien (mukaan lukien tasimelteon) terapeuttisia vaikutuksia unettomuudelle ja yhteisesiintyviin häiriöihin |
+| [24228714](https://pubmed.ncbi.nlm.nih.gov/24228714/) | 2014 | Katsaus | Journal of Medicinal Chemistry | Karakterisoi tasimelteonin korkeaaffiniteettiseksi ei-selektiiviseksi MT1/MT2-agonistiksi; käsittelee ligandeita ja terapeuttisia mahdollisuuksia |
+| [19557144](https://pubmed.ncbi.nlm.nih.gov/19557144/) | 2009 | Katsaus | Neuropsychiatric Disease and Treatment | Keskustelee synteettisistä melatoniiniergiikan agonisteista unettomuuden hoitoon |
+| [35585820](https://pubmed.ncbi.nlm.nih.gov/35585820/) | 2023 | Katsaus | Current Drug Safety | Käsittelee melatoniinia ja tasimelteonin Alzheimerin tautiin liittyvän unettomuuden yhteydessä |
+| [22010042](https://pubmed.ncbi.nlm.nih.gov/22010042/) | 2011 | Katsaus | Therapeutic Advances in Neurological Disorders | Käsittelee melatoniini-analogeja unisokeuden häiriöille ja neuroprotektiolla Parkinsonin taudissa |
+| [22167135](https://pubmed.ncbi.nlm.nih.gov/22167135/) | 2011 | Katsaus | Neuro Endocrinology Letters | Käsittelee melatoniinin roolia unen kronomierissä ja sytoprotektion kronomierissä liikalihavuudessa |
 
 ---
 
-## Finland Market Information
+## Suomen markkina-informaatio
 
-Tasimelteon is not currently marketed in Finland — no marketing authorizations are on file (0 licenses).
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+Tasimelteonilla ei ole tällä hetkellä markkinointilupaa Suomessa — mitään markkinointilupia ei ole kirjattu (0 lupaa).
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuusnäkökohdat
 
-**Decision: Proceed with Guardrails**
+Kts. pakkausseloste turvallisuusinformaation osalta.
 
-**Rationale:**
-A completed Phase 3, placebo-controlled RCT (n=322) directly supports efficacy for primary insomnia, reinforced by a consistent literature base on the MT1/MT2 mechanism and an actively recruiting pediatric Phase 3 trial. However, no Finnish/EU safety labeling (warnings, contraindications, DDI) or confirmed original indication is available in this data pack, so full risk assessment cannot yet proceed to S1 safety clearance.
+---
 
-**To proceed, the following is needed:**
-- Package insert / label data (warnings, contraindications, DDI) — currently marked as a Blocking data gap (DG001)
-- Confirmed original approved indication and regulatory history for tasimelteon
-- Formal DrugBank mechanism-of-action record to replace the literature-derived MOA used here
-- Results of the ongoing pediatric Phase 3 trial (NCT06953869, expected completion 2028-01)
-- Note: the other 9 TxGNN-predicted indications in this pack (including the top-scored polymicrogyria prediction) have no clinical trial or literature support and remain at Hold — no further action recommended on those without new evidence.
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Jatka varauksilla**
+
+**Perustelut:**
+Valmistunut Phase 3, plasebokontrolloitu RCT (n=322) tukee suoraan tehokkuutta primäärisen unettomuuden osalta, vahvistettuna johdonmukaisella kirjallisuuspohjalla MT1/MT2-mekanismista ja aktiivisesti rekrytoitavalla pediatrisella Phase 3 -tutkimuksella. Kuitenkaan Suomen/EU-turvallisuusmerkintöjä (varoituksia, vasta-aiheita, lääkeinteraktioita) tai vahvistettua alkuperäistä indikaatiota ei ole saatavilla tässä tietopaketissa, joten täydellinen riskiarviointi ei voi vielä siirtyä S1-turvallisuusselvitykseen.
+
+**Jatkamista varten tarvitaan seuraavaa:**
+- Pakkausseloste / merkintötiedot (varoitukset, vasta-aiheet, lääkeinteraktiot) — tällä hetkellä merkitty suojaavaksi tietovajeeksi (DG001)
+- Vahvistettu alkuperäinen hyväksytty indikaatio ja tasimelteonin sääntelyhistoria
+- Virallinen DrugBank vaikutusmekanismi-rekisteri korvaamaan tässä käytettyä kirjallisuudesta johdettu vaikutusmekanismi
+- Käynnissä olevan pediatrisen Phase 3 -tutkimuksen tulokset (NCT06953869, valmistumisen odotettavissa 2028-01)
+- Huomio: muilla 10 TxGNN-ennustetulla indikaatiolla tässä paketissa (mukaan lukien korkeimpaan arvoon pisteytetty polymikrogyyria-ennuste) ei ole kliinisiä tutkimuksia tai kirjallisuustukea ja ne pysyvät pidätyksessä — uutta näyttöä ilman ei suositella muita toimenpiteitä.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

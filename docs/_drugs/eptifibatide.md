@@ -29,112 +29,105 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-Using the **data-report** discipline (no fabrication, no reformatting/omitting of source data) to build this from the evidence pack as given. Before drafting I want to flag one judgment call I made explicit in the report itself:
+# Eptifibatide: akuutista koronaarisesta syndroomasta hemoglobinopaatiaan (sikilasölyjen sairaus)
 
-**Note on indication selection:** This evidence pack (`candidate_id: TW-DB00063-multi`) lists 10 TxGNN-predicted indications. Rank #1 by raw score (`rheumatoid arthritis`) has **zero** supporting trials/literature (L5/Hold). The indication with actual clinical trial + literature support is **hemoglobinopathy** (rank 7, L2, decision_stage S2) — a completed Phase I/II RCT plus 4 papers, all specifically studying eptifibatide in sickle cell disease. I used **hemoglobinopathy** as the report's headline indication (not literal `predicted_indications[0]`), since a report built on the zero-evidence top-score entry would be empty and non-actionable. I've also added a compact "Other TxGNN Signals" section so the remaining 9 predictions aren't lost.
+## Yhden lauseen yhteenveto
 
-Also: `original_indications` and `taiwan_regulatory.licenses` are both empty (data gap) — eptifibatide's ACS/unstable-angina use is stated only implicitly, inside the literature abstracts themselves (e.g. PMID 17916103, 24678072), not in a formal indication field. I've flagged this sourcing explicitly rather than presenting it as confirmed regulatory data.
-
----
-
-# Eptifibatide: From Acute Coronary Syndrome to Hemoglobinopathy (Sickle Cell Disease)
-
-## One-Sentence Summary
-
-Eptifibatide is a GPIIb/IIIa (platelet integrin αIIbβ3) antagonist whose established use — per the literature evidence collected in this pack — is acute coronary syndrome (ACS)/unstable angina; no formal original-indication or MOA field was available in this evidence pack. TxGNN predicts potential efficacy in **hemoglobinopathy (sickle cell disease spectrum)**, currently supported by **1 completed Phase I/II clinical trial** and **4 publications** directly studying eptifibatide in sickle cell disease patients. Evidence is early-stage: the only dedicated trial was terminated with just 13 patients enrolled.
+Eptifibatide on GPIIb/IIIa (verihiutalten integriini αIIbβ3) antagonisti, jonka vakiintuneet käyttötarkoitukset — tämän todistusnipun kirjallisuusnäyttöjen perusteella — ovat akuutti koronaarinen syndrooma (ACS) / epästabiili angina pectoris; muodollista alkuperäisen indikaation tai vaikutusmekanismin kenttää ei ollut saatavilla tässä todistusnipussa. TxGNN ennustaa mahdollista tehoa **hemoglobinopaatiassa (sikilasölyjen sairausspektri)**, jota tukevat tällä hetkellä **1 valmis I/II-vaiheen kliininen tutkimus** ja **4 julkaisua**, jotka tutkivat suoraan eptifibatidia sikilasölyjen sairauden potilaissa. Näyttö on varhaisessa vaiheessa: ainoa erityisesti tälle aiheelle omistettu tutkimus lopetettiin vain 13 potilaan ilmoittautumisen jälkeen.
 
 ---
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Acute Coronary Syndrome (ACS) / Unstable Angina — inferred from literature context only; no formal indication or local license data is available (drug is not marketed in this market) |
-| Predicted New Indication | Hemoglobinopathy (Sickle Cell Disease spectrum) |
-| TxGNN Prediction Score | 99.98% (0.9998089671134948) |
-| Evidence Level | L2 |
-| Finland Market Status | ✗ Not Marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
-
----
-
-## Why is This Prediction Reasonable?
-
-Detailed formal mechanism-of-action data (`original_moa`) is a **data gap** in this evidence pack (DG002, High severity). However, the literature evidence gathered under the hemoglobinopathy indication itself consistently and independently confirms the mechanism: eptifibatide is repeatedly described as a **synthetic peptide antagonist of the platelet integrin receptor GPIIb/IIIa (αIIbβ3)**, which blocks fibrinogen-mediated platelet aggregation (e.g., PMID 17916103, PMID 23973010). This receptor blockade is the pharmacological basis for its established use in acute coronary syndromes, where platelet aggregation drives thrombus formation.
-
-Sickle cell disease shares a related — though pathophysiologically distinct — final common pathway: acute painful crises and vaso-occlusive events are increasingly understood to involve **platelet activation and platelet–erythrocyte–endothelial cell interactions**, not just erythrocyte sickling alone (as directly discussed in PMID 17916103 and the in-vitro microfluidic model PMID 22156199). Inhibiting GPIIb/IIIa is therefore mechanistically plausible as a way to reduce microvascular thrombosis and downstream inflammatory signaling during vaso-occlusive crises, and this hypothesis has already been tested — not merely theorized — in a dedicated Phase I/II clinical trial (NCT00834899) and three supporting clinical/translational papers.
-
-It is important to note that this mechanistic link is specific to the broader "hemoglobinopathy/sickle cell disease" cluster. The TxGNN model also separately scored several narrower sickle-cell genotype variants (HbSD, HbS/β-thalassemia, HbSE, HbSC, HPFH-sickle cell) at comparable or higher scores, but **none of these genotype-specific predictions have any direct supporting trial or literature data** — the rationale for those is explicitly described in the evidence pack as an indirect extrapolation from the general sickle cell disease evidence base, not independent confirmation.
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Akuutti koronaarinen syndrooma (ACS) / epästabiili angina pectoris — päätelty ainoastaan kirjallisuuden kontekstista; muodollista indikaation tai paikallisen luvituksen tietoja ei ole saatavilla (lääkettä ei markkinoida tällä markkinalla) |
+| Ennustettu uusi indikaatio | Hemoglobinopatia (sikilasölyjen sairausspektri) |
+| TxGNN-ennustepisteet | 99,98% (0.9998089671134948) |
+| Näyttötaso | L2 |
+| Suomen markkinatilanne | ✗ Ei markkinoilla (Ei markkinoilla) |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Odottava |
 
 ---
 
-## Clinical Trial Evidence
+## Miksi tämä ennuste on järkevä?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Muodollisia vaikutusmekanismitietoja (`original_moa`) on **tietoaukko** tässä todistusnipussa (DG002, Korkea vakavuus). Kuitenkin hemoglobinopatia-indikaation alle kerätty kirjallisuusnäyttö vahvistaa mekanismin johdonmukaisesti ja riippumattomasti: eptifibatidia kuvataan toistuvasti **synteettiseksi peptidiantagonistiksi verihiutalten integriini-reseptorille GPIIb/IIIa (αIIbβ3)**, joka estää fibrinogeenejä välittävää verihiutalten aggregaatiota (esim. PMID 17916103, PMID 23973010). Tämä reseptorin esto on farmakologinen perusta sen vakiintuneelle käytölle akuuteissa koronaarisissa syndroomissa, joissa verihiutalten aggregaatio ajaa trombin muodostumista.
+
+Sikilasölyjen sairaudessa on samankaltainen — vaikka patofysiologisesti erilainen — loppuvaiheen yhteinen reitti: akuutit kivuliaat kriisit ja vaso-oklusiiviset tapahtumat ymmärretään yhä enemmän sisältävän **verihiutalten aktivaation ja verihiutalten-erytrosyyttien-endoteelisolun vuorovaikutukset**, ei pelkästään erytrosyyttien sirkkoutumista (kuten suoraan käsitellään PMID 17916103:ssa ja in-vitro-mikrofluidisessa mallissa PMID 22156199). GPIIb/IIIa:n esto on siis mekanistisesti uskottava keino vähentää mikroverisuonten tromboosia ja siihen liittyvää tulehduksellista signalointia vaso-oklusiivisien kriisien aikana, ja tämä hypoteesi on jo testattu — ei pelkästään teorisesti pohdittu — erityisessä I/II-vaiheen kliinisessä tutkimuksessa (NCT00834899) ja kolmessa tukevassa kliinisessä/translationaalisessa artikkelissa.
+
+On tärkeää huomata, että tämä mekanistinen yhteys koskee erityisesti laajempaa "hemoglobinopatia/sikilasölyjen sairaus" -klusteria. TxGNN-malli pisteitti myös useita kapeampia sikilasölyjen genotyyppivariantteja (HbSD, HbS/β-talassemia, HbSE, HbSC, HPFH-sikilasairaus) vertailukelpoisilla tai korkeammilla pisteillä, mutta **mikään näistä genotyyppikohtaisista ennusteista ei saa suoraa tutkimus- tai kirjallisuusaineistotukea** — näiden perustelut on nimenomaisesti kuvattu todistusnipussa epäsuorana ekstrapoloinnina yleisen sikilasölyjen sairauden todistuspohjasta, ei riippumattomana vahvistuksena.
+
+---
+
+## Kliinisen tutkimuksen näytteet
+
+| Tutkimusnumero | Vaihe | Tila | Osallistujamäärä | Tärkeimmät tulokset |
 |---------|------|------|------|---------|
-| [NCT00834899](https://clinicaltrials.gov/study/NCT00834899) | Phase 1, Phase 2 | Terminated | 13 | Randomized, double-blind, placebo-controlled study evaluating the safety of eptifibatide for acute pain episodes in sickle cell disease. Tested the hypothesis that platelet activation and resultant inflammation contribute to sickle cell painful crises. Enrollment stopped early (13 of planned target), limiting statistical power. |
+| [NCT00834899](https://clinicaltrials.gov/study/NCT00834899) | Vaihe 1, Vaihe 2 | Lopetettu | 13 | Satunnaistettu, kaksoissokkoinen, lumelääkekontrollitu tutkimus, joka tutki eptifibatidin turvallisuutta akuuttien kivuliaitten episodien aikana sikilasölyjen sairaudessa. Tutkimus testasi hypoteesia, jonka mukaan verihiutalten aktivaatio ja siitä johtuva tulehdus osallistuvat sikilasölyjen kivuliaiden kriisien syntyyn. Ilmoittautuminen lopetettiin aikaisin (13 suunnitellusta tavoitteesta), mikä rajoitti tilastollista voimaa. |
 
 ---
 
-## Literature Evidence
+## Kirjallisuusnäytteet
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät tulokset |
 |------|-----|------|------|---------|
-| [17916103](https://pubmed.ncbi.nlm.nih.gov/17916103/) | 2007 | Phase 1 clinical trial | British Journal of Haematology | First-in-disease Phase I study of eptifibatide in 4 sickle cell anaemia patients in steady state; established safety and pharmacodynamic (platelet inhibition) data, drawing an explicit analogy to its established ACS use. |
-| [23973010](https://pubmed.ncbi.nlm.nih.gov/23973010/) | 2013 | Pilot clinical study | Thrombosis Research | Pilot study evaluating safety and efficacy of eptifibatide during acute painful episodes in sickle cell disease patients. |
-| [29322543](https://pubmed.ncbi.nlm.nih.gov/29322543/) | 2018 | Clinical trial sub-analysis (inflammatory markers) | American Journal of Hematology | Sub-analysis of eptifibatide's effect on inflammation markers during acute pain episodes in sickle cell disease (likely derived from the same trial population as above). |
-| [22156199](https://pubmed.ncbi.nlm.nih.gov/22156199/) | 2012 | In vitro model study | The Journal of Clinical Investigation | Microfluidic "endothelialized" microvasculature model recapitulating microvascular occlusion/thrombosis in hematologic diseases including sickle cell disease; supports the platelet–endothelial mechanistic rationale but is not a clinical study of eptifibatide itself. |
+| [17916103](https://pubmed.ncbi.nlm.nih.gov/17916103/) | 2007 | I-vaiheen kliininen tutkimus | British Journal of Haematology | Ensimmäinen sairauden I-vaiheen tutkimus eptifibatidilla 4:lle sikilasölyjen anemiaa sairastavalle potilaalle tasaisen tilan aikana; vahvisti turvallisuus- ja farmakodynaamisia (verihiutalten esto) tietoja, vetäen nimenomaisen analogian sen vakiintuneen ACS-käytön kanssa. |
+| [23973010](https://pubmed.ncbi.nlm.nih.gov/23973010/) | 2013 | Pilotti-kliininen tutkimus | Thrombosis Research | Pilotti-tutkimus, joka arvioi eptifibatidin turvallisuutta ja tehoa akuuttien kivuliaitten episodien aikana sikilasölyjen sairauden potilaissa. |
+| [29322543](https://pubmed.ncbi.nlm.nih.gov/29322543/) | 2018 | Kliinisen tutkimuksen osa-analyysi (tulehdusmerkkiaineet) | American Journal of Hematology | Eptifibatidin vaikutuksen osa-analyysi tulehdusmerkkiaineisiin akuuttien kivuliaitten episodien aikana sikilasölyjen sairaudessa (todennäköisesti peräisin samasta tutkimuspopulaatiosta kuin edellä). |
+| [22156199](https://pubmed.ncbi.nlm.nih.gov/22156199/) | 2012 | In vitro -mallitutkimus | The Journal of Clinical Investigation | Mikrofluidinen "endotelisoitu" mikroverisuoniverkosto, joka jäljittelee verisuonten tukkeutumista/tromboosia hematologisissa sairauksissa, mukaan lukien sikilasölyjen sairaus; tukee verihiutalten-endoteelisolun mekanistista perustelua, mutta ei ole eptifibatidin kliininen tutkimus. |
 
-*Note: one additional literature hit was returned under the related "HbSC disease" entry (PMID 24678072) but was explicitly flagged in that entry's own rationale as being about eptifibatide in acute coronary syndrome patients generally, not hemoglobinopathy — it was excluded here as low relevance.*
-
----
-
-## Finland Market Information
-
-Eptifibatide is **not currently marketed** in this market (`market_status: Not marketed`), and there are **0 registered authorizations**. No product name, dosage form, or approved-indication license text is available to tabulate.
+*Huomautus: yksi lisäksi palautettu kirjallisuusosuma oli listattu asiaan liittyvässä "HbSC-sairaus" -merkinnässä (PMID 24678072), mutta se oli nimenomaisesti merkitty kyseisen merkinnän omassa perustelussaan koskemaan eptifibatidia akuutissa koronaarisessa syndroomassa yleensä, ei hemoglobinopaatiassa — se jätettiin pois täältä alhaisen relevanssin vuoksi.*
 
 ---
 
-## Other TxGNN Signals (Lower Evidence, for Completeness)
+## Suomen markkinatiedot
 
-Since this evidence pack scored 10 candidate indications for eptifibatide, the remaining 9 are summarized here rather than omitted:
+Eptifibatidia **ei tällä hetkellä markkinoida** tällä markkinalla (`market_status: Not marketed`), ja saatavilla on **0 rekisteröityä lupaa**. Tuotteen nimeä, annostelumuotoa tai hyväksytyn indikaation lupatekstejä ei ole saatavilla taulukointia varten.
 
-| Disease | TxGNN Score | Evidence Level | Recommendation | Note |
+---
+
+## Muut TxGNN-signaalit (Alhaisempi näyttöpohja, täydellisyyden vuoksi)
+
+Koska tämä todistusnippu pisteitti 10 ehdokasindikatiota eptifibatidille, loput 9 on tiivistetty tässä sen sijaan, että ne jätettäisiin pois:
+
+| Sairaus | TxGNN-pisteet | Näyttötaso | Suositus | Huomautus |
 |---|---|---|---|---|
-| Rheumatoid arthritis | 99.99% | L5 | Hold | Top score, but zero trials/literature — pure model prediction |
-| Sickle cell–hemoglobin D disease | 99.98% | L4 | Research Question | No direct data; extrapolated from sickle cell disease evidence |
-| Sickle cell–β-thalassemia disease | 99.98% | L4 | Research Question | Same extrapolation basis |
-| Sickle cell–hemoglobin E disease | 99.98% | L4 | Research Question | Same extrapolation basis |
-| HPFH–sickle cell disease | 99.98% | L4 | Research Question | Same extrapolation basis |
-| Sickle cell–hemoglobin C disease | 99.98% | L4 | Research Question | Only cited literature (PMID 24678072) is off-target (general ACS population) |
-| Female breast carcinoma | 99.97% | L4 | Hold | In vitro/organ-on-chip evidence only (e.g., PMID 25090985); no in vivo or clinical data |
-| β-thalassemia with other manifestations | 99.97% | L5 | Hold | No trials/literature; weak mechanistic rationale (no sickling pathology) |
-| Partial deletion of chromosome 16p | 99.96% | L5 | Hold | No biological link identified; likely a knowledge-graph co-occurrence artifact |
+| Reumatoidi artriitti | 99,99% | L5 | Odottava | Korkein pisteet, mutta nolla tutkimuksia/kirjallisuutta — puhtaasti mallin ennuste |
+| Sikilasölyjen-hemoglobiini D -sairaus | 99,98% | L4 | Tutkimuskysymys | Ei suoria tietoja; ekstrapoloitu sikilasölyjen sairauden näytöistä |
+| Sikilasölyjen-β-talassemia-sairaus | 99,98% | L4 | Tutkimuskysymys | Sama ekstrapolointiperusta |
+| Sikilasölyjen-hemoglobiini E -sairaus | 99,98% | L4 | Tutkimuskysymys | Sama ekstrapolointiperusta |
+| HPFH-sikilasairaus | 99,98% | L4 | Tutkimuskysymys | Sama ekstrapolointiperusta |
+| Sikilasölyjen-hemoglobiini C -sairaus | 99,98% | L4 | Tutkimuskysymys | Ainoa lainattu kirjallisuus (PMID 24678072) on epäolennainen (yleinen ACS-populaatio) |
+| Rintasyöpä | 99,97% | L4 | Odottava | In vitro- / organismi-sirulla -näytteet vain (esim. PMID 25090985); ei in vivo- tai kliinisiä tietoja |
+| β-talassemia muiden manifestaatioiden kanssa | 99,97% | L5 | Odottava | Ei tutkimuksia/kirjallisuutta; heikko mekanistinen perustelus (ei sirkkumisen patologiaa) |
+| Kromosomin 16p osittainen deletio | 99,96% | L5 | Odottava | Yhtään biologista yhteyttä ei tunnistettu; todennäköisesti tiedon verkon samanaikaisuuden artefakti |
 
 ---
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information.
+Viittaa pakkausselosteeseen turvallisuustiedoista.
 
-*(Key warnings, contraindications, and drug–drug interaction data are all recorded as data gaps in this evidence pack — DG001, Blocking severity, "TFDA package insert warnings/contraindications" — and DDI query returned no results.)*
+*(Tärkeimmät varoitukset, vasta-aiheet ja lääke-lääke-vuorovaikutus tiedot on kaikki merkitty tiedon puutteiksi tässä todistusnipussa — DG001, Esto-vakavuus, "TFDA-pakkausseloste varoitukset/vasta-aiheet" — ja DDI-kysely ei palauttanut tuloksia.)*
 
 ---
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Odottava**
 
-**Rationale:**
-The mechanistic rationale for eptifibatide in sickle cell disease/hemoglobinopathy is grounded in an actual dedicated Phase I/II RCT plus three supporting clinical/translational papers (L2 evidence) — clearly the strongest signal in this pack. However, that trial was **terminated early with only 13 of its planned participants enrolled**, and no larger confirmatory trial exists. Combined with a **Blocking** data gap on safety warnings/contraindications (DG001) and a **High**-severity gap on formal mechanism-of-action confirmation (DG002), the evidence is not yet sufficient to proceed to guardrail-based deployment.
+**Perustelut:**
+Mekanistinen perustelus eptifibatidille sikilasölyjen sairauden/hemoglobinopaatiassa perustuu omistettuun I/II-vaiheen satunnaistettuun kontrolloituun tutkimukseen sekä kolmeen tukevaan kliiniseen/translationaaliseen artikkeliin (L2-näyttö) — selkeästi vahvin signaali tässä nipussa. Kuitenkin tutkimus **lopetettiin aikaisin vain 13 osallistujalla suunnitelluista**, eikä suurempaa vahvistavaa tutkimusta ole olemassa. Yhdistettynä turvallisuusvaroituksiin/vasta-aiheisiin liittyvään **Esto-vakavuuden tietovajeeseen** (DG001) ja muodollisen mekanismin vahvistukseen liittyvään **Korkea-vakavuuden tietovajeeseen** (DG002), näyttö ei ole vielä riittävä etenemiseen.
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert data (warnings, contraindications) — currently a Blocking data gap (DG001)
-- Formal DrugBank-confirmed mechanism-of-action text (DG002)
-- A larger, adequately powered controlled trial in sickle cell disease (the only existing trial, NCT00834899, was terminated at n=13)
-- Drug–drug interaction (DDI) data, currently returning no results
-- Clarification of whether the narrower sickle-cell genotype predictions (HbSD, HbSC, etc.) warrant separate evaluation, or should remain bundled under the general hemoglobinopathy signal until genotype-specific data becomes available
+**Etenemiselle tarvitaan seuraava:**
+- TFDA/Fimea-pakkausseloste-tiedot (varoitukset, vasta-aiheet) — tällä hetkellä Esto-vakavuuden tietovajeella (DG001)
+- Muodollisesti DrugBank-vahvistettu vaikutusmekanismi-teksti (DG002)
+- Suurempi, asianmukaisesti johdettu kontrolloitu tutkimus sikilasölyjen sairaudessa (ainoa olemassa oleva tutkimus, NCT00834899, lopetettiin n=13:ssa)
+- Lääke-lääke-vuorovaikutus (DDI) -tiedot, tällä hetkellä hakutuloksia ei
+- Selvitys siitä, vaativatko kapeat sikilasölyjen genotyyppi-ennusteet (HbSD, HbSC jne.) erillisen arvioinnin vai pysytäänkö ne ryhmiteltyinä yleisen hemoglobinopatia-signaalin alle kunnes genotyyppi-spesifsit tiedot tulevat saataviksi
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

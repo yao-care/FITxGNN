@@ -29,60 +29,61 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Atazanavir: Drug Repurposing Evaluation — Insufficient Data for Prediction
+# Atazanavir: Lääkkeen uudelleenkäytön arviointi — Riittämätön data ennusteelle
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Atazanavir (DB01072) is an HIV-1 protease inhibitor used in antiretroviral therapy.
-The current Evidence Pack contains **no TxGNN predicted indications**, and critical data including mechanism of action, safety warnings, and contraindications are absent.
-This evaluation cannot proceed to clinical relevance assessment until the identified data gaps are resolved.
+Atazanavir (DB01072) on HIV-1-proteasin inhibiittori, jota käytetään antiretroviraalisessa hoidossa.
+Nykyinen Evidence Pack ei sisällä **yhtään TxGNN-ennustettuja indikaatioita**, ja kriittiset tiedot, mukaan lukien vaikutusmekanismi, turvallisuusvaroitukset ja vasta-aiheet, puuttuvat.
+Tämä arviointi ei voi edetä kliinisen merkitsevyyden arviointiin, kunnes tunnistetut tietoaukot ratkaistaan.
 
 ---
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|---------|
-| Original Indication | HIV-1 infection (general knowledge; not confirmed in Evidence Pack) |
-| Predicted New Indication | No prediction available |
-| TxGNN Prediction Score | Not available |
-| Evidence Level | L5 — No predictions generated |
-| Finland Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen indikaatio | HIV-1-infektio (yleinen tieto; ei vahvistettu Evidence Packissa) |
+| Ennustettu uusi indikaatio | Ei ennustetta saatavilla |
+| TxGNN-ennustusten pistemäärä | Ei saatavilla |
+| Todisteiden taso | L5 — Ennusteita ei luotu |
+| Suomen markkinatilanne | Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Pidätettävä |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-No TxGNN predicted indications are present in this Evidence Pack. The `predicted_indications` field is an empty array, meaning the drug repurposing model has not generated any candidate new indications for Atazanavir at this time. Without at least one prediction, the core purpose of this evaluation — assessing a novel repurposing hypothesis — cannot be fulfilled.
+Tässä Evidence Packissa ei ole yhtään TxGNN-ennustettuja indikaatioita. `predicted_indications`-kenttä on tyhjä taulukko, mikä tarkoittaa, ettei lääkkeen uudelleenkäytön malli ole luonut yhtään mahdollisia uusia indikaatioita atazavaniirille. Ilman vähintään yhtä ennustetta, tämän arvioinnin perustarkoitus — uuden uudelleenkäytön hypoteesin arviointi — ei voi toteutua.
 
-Mechanism of action data is also flagged as a high-severity data gap. Package insert warnings and contraindications from the regulatory source query returned a result but were not parsed into structured fields. Without a confirmed MOA and safety baseline, no mechanistic bridge between any original indication and a hypothetical new indication can be constructed.
+Vaikutusmekanismin tiedot on myös tunnistettu korkean vakavuuden tietoaukoksi. Pakkausselosteen varoituksista ja vasta-aiheista saaduissa tuloksissa oli tietoja sääntelylähteistä, mutta niitä ei jäsennetty strukturoiduiksi kentiksi. Ilman vahvistettua MOA:ta ja turvallisuuden perusarvoa, missään alkuperäisen indikaation ja hypoteettisen uuden indikaation välille ei voida rakentaa mekanistista siltaa.
 
-Atazanavir is broadly recognised as an HIV-1 protease inhibitor that prevents viral polyprotein maturation. This general knowledge is noted for context only and does not substitute for structured Evidence Pack data required by this evaluation framework.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+Atazanavir tunnetaan laajalti HIV-1-proteasin inhibiittorina, joka estää viruspolyproteiinin kypsymistä. Tämä yleistieto on esitetty vain kontekstin vuoksi eikä se korvaa strukturoituja Evidence Pack -tietoja, joita tämä arviointikehys edellyttää.
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuusnäkökohdat
 
-**Decision: Hold**
+Turvallisuustiedoista katso pakkausseloste.
 
-**Rationale:**
-The Evidence Pack contains no TxGNN predicted indications and three blocking or high-severity data gaps; there is no repurposing hypothesis to evaluate, and the safety baseline required for any further assessment is missing.
+---
 
-**To proceed, the following is needed:**
+## Johtopäätös ja seuraavat vaiheet
 
-- **TxGNN prediction run**: Re-execute the TxGNN pipeline for DB01072 to populate `predicted_indications`; the array is currently empty
-- **Mechanism of action (MOA)**: Query the DrugBank API for DB01072 to retrieve pharmacodynamic and target data
-- **Package insert warnings & contraindications**: Parse the TFDA/EMA package insert PDF (query log shows a successful fetch but no structured output) into `key_warnings` and `contraindications` fields
-- **Drug-drug interaction (DDI) data**: The DDI query returned `not_found`; re-query with alternate identifiers or a broader DDI database
-- **Finland market authorisation status**: Verify against the EMA/Fimea registry, as the current `market_status` of "Not marketed" may reflect a Taiwan-registry query rather than a Finnish-market query
+**Päätös: Pidätettävä**
+
+**Perustelut:**
+Evidence Pack ei sisällä TxGNN-ennustettuja indikaatioita ja siinä on kolme estävää tai korkean vakavuuden tietoaukkoa; uudelleenkäytön hypoteesia ei ole arvioitavana, ja lisäarviointiin tarvittava turvallisuuden perusarvio puuttuu.
+
+**Jatkamista varten tarvitaan seuraavaa:**
+
+- **TxGNN-ennuste**: Suorita TxGNN-putkilinja uudelleen DB01072:lle `predicted_indications`-kentän täyttämiseksi; taulukko on tällä hetkellä tyhjä
+- **Vaikutusmekanismi (MOA)**: Hae DrugBank-ohjelmointirajapinnasta DB01072:n farmakodynaamiset ja kohdetiedot
+- **Pakkausselosteen varoitukset ja vasta-aiheet**: Jäsennä TFDA/EMA-pakkausselosteen PDF (kyselylokit osoittavat onnistunutta hakua, mutta ei jäsenneltyä tulosta) `key_warnings` ja `contraindications` -kentiksi
+- **Lääke-lääke-vuorovaikutukset (DDI)**: DDI-kysely palautti `not_found`; suorita kysely uudelleen vaihtoehtoisilla tunnisteilla tai käytä laajempaa DDI-tietokantaa
+- **Markkinahyväksynnän tila Suomessa**: Tarkista EMA/Fimea-rekisteriä vasten; nykyinen `market_status` "Not marketed" saattaa heijastaa Taiwan-rekisteriin kohdistunutta kyselyä eikä Suomen markkinakyselyä
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

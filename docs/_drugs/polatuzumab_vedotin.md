@@ -29,86 +29,87 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Polatuzumab Vedotin: From B-Cell Lymphoma (DLBCL) to HER2-Positive Breast Carcinoma
+# Polatuzumab vedotin: B-solujen lymfoomasta (DLBCL) HER2-positiiviseen rintasyöpään
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Polatuzumab vedotin is an anti-CD79b antibody-drug conjugate (ADC) whose known drug class targets B-cell lymphomas such as DLBCL; confirmed original-indication and regulatory data for this evidence pack are not yet available. The TxGNN model predicts possible efficacy for **HER2-Positive Breast Carcinoma**, with a prediction score of **99.34%**, but **zero clinical trials** and **zero publications** currently support this direction — this is a model-only signal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not confirmed in this evidence pack (no license/indication text available); drug class background points to B-cell lymphomas (e.g., DLBCL) |
-| Predicted New Indication | HER2 Positive Breast Carcinoma |
-| TxGNN Prediction Score | 99.34% |
-| Evidence Level | L5 |
-| Finland Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Polatuzumab vedotin on anti-CD79b-vasta-aine-lääke-konjugaatti (ADC), jonka tunnettu lääkeryhmä kohdistuu B-solujen lymfoomiin, kuten DLBCL:hen; vahvistetut alkuperäisen indikaation ja sääntelytiedot tälle todistusaineistolle eivät ole vielä käytettävissä. TxGNN-malli ennustaa mahdollista tehokkuutta **HER2-positiiviseen rintasyöpään**, ennustepisteen ollessa **99.34%**, mutta **nolla kliinistä tutkimusta** ja **nolla julkaisua** tällä hetkellä tukee tätä suuntaa — tämä on pelkästään malli-pohjainen signaali.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Detailed mechanism of action data for polatuzumab vedotin is not available in this evidence pack. Based on the repurposing rationale provided, the drug is a CD79b-targeted antibody-drug conjugate (ADC) — CD79b is a component of the B-cell receptor complex, with expression physiologically restricted to the B-lymphocyte lineage (normal B cells and B-cell lymphomas such as DLBCL).
-
-HER2-positive breast carcinoma, by contrast, is an epithelial-derived tumor driven by HER2/ERBB2 gene amplification and downstream PI3K/MAPK signaling — a pathway with no known intersection with CD79b/B-cell receptor signaling. There is no literature reporting CD79b expression in breast cancer cells.
-
-The TxGNN score of 0.9934 reflects a graph neural network link-prediction output, which may capture a co-occurrence pattern between "cancer" and "ADC drug" node categories in the knowledge graph rather than genuine molecular mechanistic evidence. Combined with the absence of original MOA data, this prediction currently lacks a verifiable biological basis.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Kohde | Sisältö |
+|------|--------|
+| Alkuperäinen indikaatio | Ei vahvistettu tässä todistusaineistossa (lisenssiteksti tai indikaatiotiedot eivät saatavilla); lääkeryhmän tausta viittaa B-solujen lymfoomiin (esim. DLBCL) |
+| Ennustettu uusi indikaatio | HER2-positiivinen rintasyöpä |
+| TxGNN-ennustepiste | 99.34% |
+| Todistusaineiston taso | L5 |
+| Markkinatilanne Suomessa | Ei markkinoilla |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Pidätä |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennuste on järkevä?
 
-Currently no related literature available.
+Polatuzumab vedotinin yksityiskohtainen toimintamekanismia koskeva tieto ei ole saatavilla tässä todistusaineistossa. Tarjotun uudelleenkäyttöperustuksen perusteella lääke on CD79b:tä kohdistettu vasta-aine-lääke-konjugaatti (ADC) — CD79b on B-solujen reseptorikomplementin komponentti, jonka ilmaisu on fysiologisesti rajoittautunut B-lymfosyyttisarjaan (normaalit B-solut ja B-solujen lymfoomat, kuten DLBCL).
 
----
+HER2-positiivinen rintasyöpä sen sijaan on epiteelistä lähtöisin oleva kasvain, jota ajaa HER2/ERBB2-geeniamplifikaatio ja seuraava PI3K/MAPK-signalointi — signaaliväylä, jolla ei ole tunnettua leikkauspistettä CD79b/B-solujen reseptori-signaloinnin kanssa. Kirjallisuudessa ei ole raportoitu CD79b:n ilmaisusta rintasyöpäsoluissa.
 
-## Finland Market Information
-
-Polatuzumab vedotin currently holds no marketing authorizations in Finland (0 licenses on record; market status: Not Marketed).
+TxGNN-pistemäärä 0.9934 heijastaa graafisen neuroverkkolinkkiennusteen tulosta, joka saattaa siepata "syöpä"- ja "ADC-lääke"-solmuluokkien välistä samanesiintymiskuviota tietoverkossa mieluummin kuin aito molekyylitason mekanistinen todiste. Yhdistettynä alkuperäisten MOA-tietojen puuttumiseen, tällä ennusteella puuttuu tällä hetkellä varmennettava biologinen perusta.
 
 ---
 
-## Cytotoxicity
+## Kliinisen tutkimuksen todistusaineisto
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy — antibody-drug conjugate (ADC), per repurposing rationale (anti-CD79b ADC) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+Tällä hetkellä ei ole rekisteröityjä liittyviä kliinisiä tutkimuksia.
 
 ---
 
-## Safety Considerations
+## Kirjallisuuden todistusaineisto
 
-Please refer to the package insert for safety information.
+Tällä hetkellä liittyvää kirjallisuutta ei ole saatavilla.
 
 ---
 
-## Conclusion and Next Steps
+## Markkinatilanne Suomessa
 
-**Decision: Hold**
+Polatuzumab vedotinilla ei tällä hetkellä ole markkinointilupia Suomessa (0 lupaa rekisterissä; markkinatilanne: Ei markkinoilla).
 
-**Rationale:**
-The TxGNN score is high, but there are no supporting clinical trials or publications, and the drug's known mechanism (CD79b/B-cell receptor signaling) has no established link to HER2-driven breast carcinoma biology. This is an L5, model-prediction-only signal with an unfavorable mechanistic rationale, which does not meet the bar to advance past initial screening.
+---
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert (warnings, contraindications) — currently blocking (DG001)
-- Confirmed original indication and formal MOA documentation via DrugBank/regulatory source (DG002)
-- Drug interaction (DDI) data — current query returned not_found
-- Any emergent preclinical or clinical evidence specifically linking CD79b/ADC mechanism to HER2-positive breast carcinoma before reconsidering this indication
+## Sytotoksisuus
+
+| Kohde | Sisältö |
+|------|--------|
+| Sytotoksisuuden luokittelu | Kohdennettu lääkehoito — vasta-aine-lääke-konjugaatti (ADC), uudelleenkäyttöperustuksen mukaan (anti-CD79b ADC) |
+| Luuydinsupression riski | Katso pakkausselosteen varoitukset ja varotoimet |
+| Emetisuuden luokittelu | Katso pakkausselosteen varoitukset ja varotoimet |
+| Valvontakohteet | Katso pakkausselosteen varoitukset ja varotoimet |
+| Käsittelysuojaus | Katso pakkausselosteen varoitukset ja varotoimet |
+
+---
+
+## Turvallisuuteen liittyvät näkökohdat
+
+Katso pakkausselosteen turvallisuustietoja.
+
+---
+
+## Johtopäätökset ja seuraavat vaiheet
+
+**Päätös: Pidätä**
+
+**Perustelu:**
+TxGNN-pistemäärä on korkea, mutta mitään tukevaa kliinistä tutkimusta tai julkaisua ei ole, eikä lääkkeen tunnetulla mekanismilla (CD79b/B-solujen reseptori-signalointi) ole vakiintunutta yhteyttä HER2-ohjattuun rintasyöpäbiologiaan. Tämä on L5-luokituksinen, pelkästään mallipohjaisesti ennustettu signaali, jolla on epäsuotuisa mekanistinen perustelu, eikä se täytä kriteerejä edistyä alkuperäisen seulonnan ohi.
+
+**Jotta edistyminen olisi mahdollista, tarvitaan seuraavaa:**
+- TFDA/Fimean pakkausseloste (varoitukset, vasta-aiheet) — tällä hetkellä estää (DG001)
+- Vahvistettu alkuperäinen indikaatio ja muodollinen MOA-dokumentaatio DrugBank/sääntelylähteiden kautta (DG002)
+- Lääkkeen vuorovaikutus (DDI)-tiedot — nykyinen kysely palautti not_found
+- Mikä tahansa ilmaantuva prekliininen tai kliininen todiste, joka linkittää CD79b/ADC-mekanismin HER2-positiiviseen rintasyöpään, ennen kuin tätä indikaatiota uudelleen harkitaan
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

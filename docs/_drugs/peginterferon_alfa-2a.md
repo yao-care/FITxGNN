@@ -29,106 +29,107 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Peginterferon Alfa-2a: From Chronic Hepatitis C to Chronic Hepatitis B
+# Peginerfoni alfa-2a: Kroonisesta hepatiitista C krooniseen hepatiittiin B
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-> Peginterferon alfa-2a (DrugBank DB00008, brand name Pegasys) is a pegylated interferon originally developed for chronic hepatitis C treatment.
-> The TxGNN model predicts it may also be effective for **Chronic Hepatitis B (hepatitis B virus infection)**,
-> with **50 clinical trials** and **20 publications** currently supporting this direction — the strongest evidence base among all ten candidate indications in this evidence pack.
-> Notably, the accompanying rationale indicates this is not a purely novel signal: Peginterferon alfa-2a is already an internationally approved therapy for chronic hepatitis B, so TxGNN has effectively re-identified a known, clinically validated indication.
+> Peginerfoni alfa-2a (DrugBank DB00008, tuotenimi Pegasys) on pegyloidun interferonin muoto, jonka alkuperäinen käyttötarkoitus on kroonisen hepatiitin C hoito.
+> TxGNN-malli ennustaa sen voivan olla tehokas myös **kroonisen hepatiitin B (hepatiitti B -viruksen infektio)** hoidossa,
+> ja tätä puoltaa tällä hetkellä **50 kliinistä tutkimusta** ja **20 julkaisua** — vahvin todisteiden kanta kaikista kymmenen ehdokasindikraatiosta tässä todistelypakissa.
+> Huomionarvoista on, että mukaan liittyvä perusteluteksti osoittaa, ettei tämä ole puhtaasti uusi signaali: Peginerfoni alfa-2a on jo kansainvälisesti hyväksytty hoito krooniselle hepatiitille B, joten TxGNN on itse asiassa uudelleen tunnistanut tunnetun, kliinisesti validoidun indikraation.
 
 ---
 
-## Quick Overview
+## Pikayleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Chronic Hepatitis C *(well-established public drug information; not recorded in the structured evidence pack — see Data Gap DG002)* |
-| Predicted New Indication | Hepatitis B Virus Infection (Chronic Hepatitis B) |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L1 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Alkuperäinen indikraatio | Krooninen hepatiitti C *(vakiintunut julkinen lääketiedon lähde; ei kirjattu jäsennellyiksi todisteasteiksi — ks. tietoaukko DG002)* |
+| Ennustettu uusi indikraatio | Hepatiitti B -viruksen infektio (krooninen hepatiitti B) |
+| TxGNN-ennustuspistemäärä | 99,94 % |
+| Todisteasteen taso | L1 |
+| Suomen markkinoiden tila | ✗ Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Jatka varauksellisesti |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennustus on järkevä?
 
-Detailed mechanism-of-action data is not available in the evidence pack (Data Gap DG002, High severity). Based on generally known pharmacological information, Peginterferon alfa-2a is a pegylated form of recombinant interferon alfa-2a. It combines **direct antiviral activity** (induction of interferon-stimulated genes that suppress viral replication) with **immune-modulatory effects** (activation of NK cells and promotion of a Th1-skewed immune response that drives HBeAg seroconversion). According to the repurposing rationale supplied with this candidate: *"Peginterferon alfa-2a has a dual mechanism — direct antiviral suppression of HBV replication plus immune modulation — which is the core pharmacological basis for HBV treatment. This is an already-approved indication of the drug, not a purely novel prediction."*
+Yksityiskohtaista vaikutusmekanismia koskevaa tietoa ei ole saatavilla todistelypakissa (tietoaukko DG002, korkea vakavuus). Yleisesti tunnetun farmakologisen tiedon perusteella peginerfoni alfa-2a on pegyloidun muodon rekombinantti-interferoni alfa-2a. Se yhdistää **suoraa viruksen vastaista aktiivisuutta** (interferonin indusoimien geenien aktivaatio, jotka estävät viruksen replikaatiota) ja **immuuni-modulaatiovaikutuksiin** (NK-solujen aktivaatio ja Th1-vinoutuvan immuunivasteen edistäminen, joka ajaa HBeAg-serokäännöstä). Tämän ehdokkaan mukaan toimitetun uudelleenkäyttöperustelun mukaan: *"Peginerfoni alfa-2a:lla on kaksois-mekanismi — HBV-replikraation suora viruksen vastainen suppressio sekä immuuni-modulaatio — mikä on HBV-hoidon ytimen farmakologinen perusta. Tämä on jo hyväksytty lääkkeen indikraatio, ei puhtaasti uusi ennustus."*
 
-Chronic hepatitis B and chronic hepatitis C are both hepatotropic viral infections that share overlapping treatment paradigms built around interferon-based antiviral/immunomodulatory therapy. This mechanistic overlap explains why a model trained largely on the drug's hepatitis C evidence base would also surface hepatitis B with very high confidence.
+Krooninen hepatiitti B ja krooninen hepatiitti C ovat molemmat hepatotropiset virustartunnat, jotka jakavat interferoni-pohjaisille viruksen vastaisille/immuuni-moduloiville hoitokäytäntöille rakennetun päällekkäisen hoitoparadigman. Tämä mekanistinen päällekkäisyys selittää, miksi lääkkeen hepatiitin C todisteiden pohjalle pääasiassa koulutettu malli nostaisi myös hepatiitin B pintaan hyvin korkealla varmuudella.
 
-Consistent with this, Peginterferon alfa-2a (Pegasys) is approved for chronic hepatitis B in multiple markets worldwide, and the clinical trial record below shows a mature, decades-long body of Phase 3/4 evidence in HBeAg-positive and HBeAg-negative chronic hepatitis B populations — reinforcing that the TxGNN signal reflects genuine, clinically confirmed pharmacology rather than a speculative repurposing hypothesis.
+Yhdenmukainen tämän kanssa, peginerfoni alfa-2a (Pegasys) on hyväksytty kroonisen hepatiitin B hoitoon monilla maailmanlaajuisilla markkinoilla, ja alla oleva kliinisten tutkimusten rekisteri näyttää kypsää, vuosikymmeniä kestävää vaihe 3/4:n todistelua HBeAg-positiivisten ja HBeAg-negatiivisten kroonisen hepatiitin B väestöjen parissa — mikä vahvistaa, että TxGNN-signaali heijastaa aidon, kliinisesti vahvistetun farmakologian sijaan spekulatiivista uudelleenkäyttöhypoteesia.
 
 ---
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen todisteet
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimuksen numero | Vaihe | Tila | Osallistujamäärä | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT01011738](https://clinicaltrials.gov/study/NCT01011738) | N/A (Observational) | Completed | 1,842 | Large multicenter cohort evaluating on-treatment predictors of response to Pegasys in HBeAg-positive and HBeAg-negative CHB; also assessed efficacy and safety. |
-| [NCT00435825](https://clinicaltrials.gov/study/NCT00435825) | Phase 4 | Completed | 551 | 4-arm RCT comparing PEGASYS 90 vs. 180 mcg for 24 vs. 48 weeks; evaluated HBeAg seroconversion and safety in HBeAg-positive CHB. |
-| [NCT02604823](https://clinicaltrials.gov/study/NCT02604823) | Phase 4 | Completed | 307 | Efficacy and safety of Pegasys in treatment-naive, interferon- or lamivudine-pretreated HBeAg-positive CHB patients (48-week treatment + 24-week follow-up). |
-| [NCT01086085](https://clinicaltrials.gov/study/NCT01086085) | Phase 4 | Completed | 265 | Response-guided treatment study — rapid responders completed 48 weeks total; slow responders randomized to extended Pegasys monotherapy or Pegasys + adefovir. |
-| [NCT02822547](https://clinicaltrials.gov/study/NCT02822547) | Phase 4 | Unknown | 253 | Korean study identifying eligible subjects for a response-guided stopping rule for Pegasys therapy in CHB. |
-| [NCT00940485](https://clinicaltrials.gov/study/NCT00940485) | Phase 4 | Completed | 200 | Compared combination vs. sequential Pegasys + entecavir therapy in HBeAg-positive CHB patients pretreated with entecavir. |
-| [NCT02908763](https://clinicaltrials.gov/study/NCT02908763) | Phase 4 | Unknown | 200 | Investigated ability of peginterferon alpha to achieve HBsAg loss/seroconversion in low-replicative CHB with low HBsAg levels. |
-| [NCT00973219](https://clinicaltrials.gov/study/NCT00973219) | N/A | Completed | 151 | RCT of Peg-IFN + adefovir vs. Peg-IFN + tenofovir vs. no treatment in HBeAg-negative CHB with low viral load. |
-| [NCT01706575](https://clinicaltrials.gov/study/NCT01706575) | Phase 2b | Completed | 76 | Open-label study adding Pegasys to nucleos(t)ide analogue therapy in HBeAg-negative genotype D CHB with stable HBV DNA suppression; evaluated HBsAg decline. |
-| [NCT00436163](https://clinicaltrials.gov/study/NCT00436163) | Phase 4 | Completed | 39 | Baltic post-marketing program evaluating efficacy/safety of Pegasys 180 mcg weekly in treatment-naive HBeAg-positive and -negative CHB. |
+| [NCT01011738](https://clinicaltrials.gov/study/NCT01011738) | N/A (Havainnoiva) | Valmis | 1 842 | Suuri monipuolinen kohortti, joka arvioi hoidon aikaisia vastaindikaattoreita Pegasysin vasteelle HBeAg-positiivisissa ja HBeAg-negatiivisissa KHB-tapauksissa; arvioi myös tehokkuutta ja turvallisuutta. |
+| [NCT00435825](https://clinicaltrials.gov/study/NCT00435825) | Vaihe 4 | Valmis | 551 | 4-rinnakkainen satunnaistettu kontrolloitu tutkimus vertaamalla PEGASYS 90 vs. 180 mcg 24 vs. 48 viikolla; arvioi HBeAg-serokäännöstä ja turvallisuutta HBeAg-positiivisessa KHB:ssa. |
+| [NCT02604823](https://clinicaltrials.gov/study/NCT02604823) | Vaihe 4 | Valmis | 307 | Pegasysin tehokkuus ja turvallisuus hoitamattomilla, interferoni- tai lamividiinikäsitellyillä HBeAg-positiivisilla KHB-potilailla (48 viikon hoito + 24 viikon seuranta). |
+| [NCT01086085](https://clinicaltrials.gov/study/NCT01086085) | Vaihe 4 | Valmis | 265 | Vasteeseen perustuva hoitostutkimus — nopeat vastajat suorittivat 48 viikon kokonaishoito; hitaat vastajat satunnaistettiin joko pidennettyyn Pegasys-monoterapiaan tai Pegasys + adefovir-yhdistelmään. |
+| [NCT02822547](https://clinicaltrials.gov/study/NCT02822547) | Vaihe 4 | Tuntematon | 253 | Korean tutkimus tunnistamaan kelpoisia henkilöitä Pegasysin hoidon vastavasteeseen perustuvan keskeyttämisen säännölle KHB:ssa. |
+| [NCT00940485](https://clinicaltrials.gov/study/NCT00940485) | Vaihe 4 | Valmis | 200 | Vertasi yhdistelmä- vs. peräkkäistä Pegasys + entekaviiria-hoitoa HBeAg-positiivisilla KHB-potilailla, joita oli ennenkin käsitelty entekaviirillla. |
+| [NCT02908763](https://clinicaltrials.gov/study/NCT02908763) | Vaihe 4 | Tuntematon | 200 | Tutkittiin peginerfoni alfa-alfa-kyvyn saavuttaa HBsAg-häviö/serokäännös matalan replifikaation KHB:ssa, jolla on matalat HBsAg-tasot. |
+| [NCT00973219](https://clinicaltrials.gov/study/NCT00973219) | N/A | Valmis | 151 | Peg-IFN + adefovir vs. Peg-IFN + tenofovir vs. ei hoitoa -ryhmien satunnaistettu kontrolloitu tutkimus HBeAg-negatiivisessa KHB:ssa, jolla on matala viraalikuormitus. |
+| [NCT01706575](https://clinicaltrials.gov/study/NCT01706575) | Vaihe 2b | Valmis | 76 | Avoin tutkimus Pegasysin lisäämisestä nukleosidi(t)di-analogihoidon päälle HBeAg-negatiivisessa genotyyppi D KHB:ssa, jossa HBV-DNA oli pysyvästi suppressoitu; arvioi HBsAg-laskua. |
+| [NCT00436163](https://clinicaltrials.gov/study/NCT00436163) | Vaihe 4 | Valmis | 39 | Baltian jälkimarkkinointi-ohjelma Pegasysin 180 mcg viikoittaisen tehokkuuden/turvallisuuden arvioimiseksi, jota ei ollut ennen käsiteltyjen HBeAg-positiivisten ja -negatiivisten KHB-potilaiden parissa. |
 
-*Note: 50 trials were retrieved in total for this indication; the 10 most directly relevant, HBV-specific trials are shown above.*
+*Huomio: Yhteensä 50 tutkimusta haettiin tälle indikraatiolle; 10 suoraan asiaankuuluvinta, HBV-spesifistä tutkimusta esitetään edellä.*
 
 ---
 
-## Literature Evidence
+## Kirjallisuustieto
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Julkaisu | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [15987917](https://pubmed.ncbi.nlm.nih.gov/15987917/) | 2005 | RCT | The New England Journal of Medicine | Landmark trial comparing Peg-IFN alfa-2a alone, Peg-IFN alfa-2a + lamivudine, and lamivudine alone in HBeAg-positive CHB — established the efficacy and safety basis for Peg-IFN alfa-2a in CHB. |
-| [30865588](https://pubmed.ncbi.nlm.nih.gov/30865588/) | 2019 | Systematic Review / IPD Meta-analysis | Antiviral Therapy | Individual-participant-data meta-analysis identifying the most appropriate Peg-IFN alfa-2a stopping rules in chronic hepatitis B. |
-| [30318613](https://pubmed.ncbi.nlm.nih.gov/30318613/) | 2019 | RCT (Pediatric) | Hepatology | Entecavir + Peg-IFN alfa-2a combination in immune-tolerant, HBeAg-positive children with CHB. |
-| [30549279](https://pubmed.ncbi.nlm.nih.gov/30549279/) | 2019 | RCT | Hepatology | Entecavir + Peg-IFN alfa-2a combination in immune-tolerant adults with HBeAg-positive CHB. |
-| [18220290](https://pubmed.ncbi.nlm.nih.gov/18220290/) | 2008 | Phase III Registration Trial Analysis | Hepatology | Analysis from a large 271-patient Phase III trial evaluating quantitative HBeAg and HBV DNA as outcome predictors during Peg-IFN alfa-2a therapy. |
-| [29715359](https://pubmed.ncbi.nlm.nih.gov/29715359/) | 2018 | Review | JAMA | General review of chronic HBV infection covering epidemiology, natural history, and treatment options including Peg-IFN. |
-| [26700861](https://pubmed.ncbi.nlm.nih.gov/26700861/) | 2015 | RCT | Virology Journal | Double-blind trial investigating long-term effects of Peg-IFN alfa-2a therapy in Japanese CHB patients. |
-| [33339708](https://pubmed.ncbi.nlm.nih.gov/33339708/) | 2021 | Cohort | Journal of the Formosan Medical Association | Study of virological/immunological predictors of long-term outcomes after Peg-IFN alfa-2a therapy for HBeAg-negative CHB. |
-| [31064399](https://pubmed.ncbi.nlm.nih.gov/31064399/) | 2019 | Cohort | Virology Journal | Serum HBV RNA levels evaluated as a predictor of HBeAg seroconversion during Peg-IFN alfa-2a treatment. |
-| [21423260](https://pubmed.ncbi.nlm.nih.gov/21423260/) | 2011 | Review | Nature Reviews Gastroenterology & Hepatology | Review of hepatitis B therapy goals (viral suppression, HBeAg seroconversion, HBsAg loss) and treatment response monitoring. |
+| [15987917](https://pubmed.ncbi.nlm.nih.gov/15987917/) | 2005 | Satunnaistettu kontrolloitu tutkimus | The New England Journal of Medicine | Maamerkki-tutkimus vertaamalla Peg-IFN alfa-2a:ta yksinään, Peg-IFN alfa-2a:ta + lamividiiniksi ja lamividiiniksi yksinään HBeAg-positiivisessa KHB:ssa — totesi Peg-IFN alfa-2a:n tehokkuus- ja turvallisuuspohjan KHB:ssa. |
+| [30865588](https://pubmed.ncbi.nlm.nih.gov/30865588/) | 2019 | Systemaattinen katsaus / IPD-metaanalyysi | Antiviral Therapy | Yksilö-osallistuja-tiedon metaanalyysi, joka tunnistaa sopivimmat Peg-IFN alfa-2a:n keskeyttämissäännöt kroonisessa hepatiitissa B. |
+| [30318613](https://pubmed.ncbi.nlm.nih.gov/30318613/) | 2019 | Satunnaistettu kontrolloitu tutkimus (pediatrinen) | Hepatology | Entekaviiriksi + Peg-IFN alfa-2a-yhdistelmä immuunitorantilla, HBeAg-positiivisilla lapsilla, joilla on KHB. |
+| [30549279](https://pubmed.ncbi.nlm.nih.gov/30549279/) | 2019 | Satunnaistettu kontrolloitu tutkimus | Hepatology | Entekaviiriksi + Peg-IFN alfa-2a-yhdistelmä immuunitorantilla aikuisilla, HBeAg-positiivisilla KHB-potilailla. |
+| [18220290](https://pubmed.ncbi.nlm.nih.gov/18220290/) | 2008 | Vaihe III:n rekisteröinti-tutkimusanalyysi | Hepatology | Suuren 271-potilaan vaihe III -tutkimuksen analyysi, joka arvioi kvantitatiivista HBeAg:ta ja HBV-DNA:ta tulosten ennustajaina Peg-IFN alfa-2a-hoidon aikana. |
+| [29715359](https://pubmed.ncbi.nlm.nih.gov/29715359/) | 2018 | Katsaus | JAMA | Kroonisen HBV-infektiolle yleinen katsaus, joka kattaa epidemiologian, luonnollisen historian ja hoitovaihtoehdot mukaan lukien Peg-IFN. |
+| [26700861](https://pubmed.ncbi.nlm.nih.gov/26700861/) | 2015 | Satunnaistettu kontrolloitu tutkimus | Virology Journal | Kaksoissokkotutkimus, joka tutki Peg-IFN alfa-2a-hoidon pitkäaikaisia vaikutuksia japanilaisilla KHB-potilailla. |
+| [33339708](https://pubmed.ncbi.nlm.nih.gov/33339708/) | 2021 | Kohortti | Journal of the Formosan Medical Association | Tutkimus virologisista/immunologisista vastaindikaattoreista pitkäaikaisia tuloksia ennakoiden Peg-IFN alfa-2a-hoidon jälkeen HBeAg-negatiivisessa KHB:ssa. |
+| [31064399](https://pubmed.ncbi.nlm.nih.gov/31064399/) | 2019 | Kohortti | Virology Journal | Serumin HBV RNA -tasot arvioitiin HBeAg-serokäännöksen ennustajana Peg-IFN alfa-2a-hoidon aikana. |
+| [21423260](https://pubmed.ncbi.nlm.nih.gov/21423260/) | 2011 | Katsaus | Nature Reviews Gastroenterology & Hepatology | Hepatiitin B hoitotavoitteiden (viraalin suppressio, HBeAg-serokäännös, HBsAg-häviö) ja hoitovastaindikaattoreiden seurannan katsaus. |
 
-*Note: 20 publications were retrieved in total for this indication; the 10 most relevant (prioritizing RCTs and systematic reviews) are shown above.*
-
----
-
-## Finland Market Information
-
-This drug is currently **not marketed in Finland** — the evidence pack records **0 authorizations** and no license entries. No dosage form, product name, or approved-indication text is available for this jurisdiction.
+*Huomio: Yhteensä 20 julkaisua haettiin tälle indikraatiolle; 10 asiaankuuluvinta (satunnaistetut kontrolloitujen tutkimusten ja systemaattisten katsausten priorisoiminen) esitetään edellä.*
 
 ---
 
-## Safety Considerations
+## Suomen markkinatiedot
 
-Please refer to the package insert for safety information. No structured safety data (key warnings, contraindications, or drug-drug interactions) was retrievable for this candidate in the current evidence pack — this is flagged as a **Blocking** data gap (DG001: TFDA/local package insert warnings and contraindications) that must be resolved before any safety evaluation can proceed.
+Tätä lääkettä ei ole tällä hetkellä markkinoilla Suomessa — todistelypakissa kirjataan **0 hyväksyntöä** ja ei lisensointeja. Tälle lainkäyttöalueelle ei ole saatavilla dossimuotoa, tuotenimeä tai hyväksytyn indikraation tekstiä.
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuusnäkökohdat
 
-**Decision: Proceed with Guardrails**
+Turvakysymyksiä varten viitattava paketti-insert. Mitään jäsennettyä turvallisuustietoa (keskeiset varoitukset, vasta-aiheet tai lääke-lääke-interaktiot) ei ollut saatavilla tälle ehdokkaalle nykyisessä todistelypakissa — tämä on merkitty **Estäväksi** tietoaukoksi (DG001: TFDA/paikallisen pakkausliitteen varoitukset ja vasta-aiheet), joka on ratkaistava ennen kuin turvallisuuden arviointia voidaan jatkaa.
 
-**Rationale:**
-- The predicted indication (chronic hepatitis B) is supported by the highest evidence tier in this pack (L1), including a landmark NEJM RCT, multiple Phase 3/4 studies, and a 1,842-patient observational cohort — and per the repurposing rationale, this is already a clinically established, approved use of the drug rather than a speculative new signal.
-- However, the drug currently has **zero market authorizations in Finland**, and **critical safety documentation (package insert warnings/contraindications) is completely missing (Blocking Data Gap DG001)**, which prevents this candidate from clearing the initial safety screening stage (S1) in this jurisdiction.
+---
 
-**To proceed, the following is needed:**
-- Obtain the official Finland/EU Summary of Product Characteristics (SmPC) or equivalent package insert to resolve DG001 (Blocking) before any safety evaluation.
-- Obtain formal mechanism-of-action documentation from DrugBank or the manufacturer to resolve DG002 (High) and support a rigorous mechanistic-plausibility assessment.
-- Confirm drug-drug interaction (DDI) data, since the current DDI query returned no results.
-- Clarify the regulatory pathway for market authorization in Finland, given the drug is not currently registered there despite established international approval for this indication.
+## Johtopäätös ja seuraavat vaiheet
 
-*Note: Nine additional candidate indications (ranks 2–10) were also evaluated in this evidence pack — including hepatitis E and hepatitis A virus infection, animal viral hepatitis, and several cardiac conditions — but all scored L3–L5 with weak, indirect, or apparently mismatched evidence (several appear to be ontology-mapping artifacts, e.g., "heart neoplasm" trials that are actually polycythemia vera studies). These are recommended for **Hold** or, at most, **Research Question** status and are not detailed further in this report, which focuses on the top-ranked, well-supported candidate.*
+**Päätös: Jatka varauksellisesti**
+
+**Perustelu:**
+- Ennustettu indikraatio (krooninen hepatiitti B) on tuettu tämän pakkauksen korkeimmalla todisteasteen tasolla (L1), mukaan lukien maamerkki NEJM:n satunnaistettu kontrolloitu tutkimus, useat vaihe 3/4 -tutkimukset ja 1 842 potilaan havainnoiva kohortti — ja uudelleenkäyttöperustelun mukaan tämä on jo kliinisesti vahvistettu, hyväksytty lääkkeen käyttötarkoitus, eikä spekulatiivinen uusi signaali.
+- Lääkkeen markkinoilla ei kuitenkaan tällä hetkellä ole **nolla hyväksyntöjä Suomessa**, ja **kriittiset turvallisuusasiakirjat (pakkausliitteen varoitukset/vasta-aiheet) puuttuvat kokonaan (Estävä tietoaukko DG001)**, mikä estää tätä ehdokasta selviämästä alkuperäisestä turvallisuuden seulontavaiheesta (S1) tässä lainkäyttöalueella.
+
+**Jatkamiseksi tarvitaan seuraavaa:**
+- Hankkia virallinen Suomen/EU:n tuotteen ominaisuuksien yhteenveto (SmPC) tai vastaava pakkaus-insert DG001:n (Estävä) ratkaisemiseksi ennen turvallisuuden arviointia.
+- Hankkia virallinen vaikutusmekanismi-dokumentaatio DrugBankista tai valmistajalta DG002:n (Korkea) ratkaisemiseksi ja jäykkä mekanistisen uskottavuuden arvioinnin tueksi.
+- Vahvista lääke-lääke-interaktio (DDI) -tieto, koska nykyinen DDI-kysely palautti tuloksia.
+- Selventää sääntely-polkua markkinoiden valtuutukselle Suomessa, koska lääkettä ei ole tällä hetkellä rekisteröity siellä huolimatta vahvistetusta kansainvälisestä hyväksynnästä tälle indikraatiolle.
+
+*Huomio: Yhdeksän muuta ehdokkaan indikraatiota (sijoitukset 2–10) arvioitiin myös tässä todistelypakissa — mukaan lukien hepatiitti E ja hepatiitti A -viruksen infektio, eläimen viraalivirus-hepatiitti ja useat sydämen tilat — mutta kaikki saivat L3–L5-tasot heikon, epäsuoran tai näennäisen epäsopimattomin todistuksella (useampia näyttävät olevan ontologia-kartoitus-artefakteja, esim. "sydämen pahanlaatuisuus" -tutkimuksia, jotka ovat itse asiassa polysytemia vera -tutkimuksia). Nämä suositellaan **Hold** tai enintään **Research Question** -statukselle ja niitä ei käsitellä yksityiskohtaisesti tässä raportissa, joka keskittyy huipulle sijoittuneisiin, hyvin tuettuihin ehdokkaasiin.*
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

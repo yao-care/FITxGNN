@@ -29,95 +29,96 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Tocilizumab: From Rheumatoid Arthritis to Ankylosing Spondylitis
+# Tosiliitsumabi: reumaattisesta nivelreumasta ankylosoivaan spondyliittiiseen
 
-## One-Sentence Summary
+## Yksirivinen yhteenveto
 
-> Tocilizumab is a humanized anti-IL-6 receptor monoclonal antibody originally developed for rheumatoid arthritis and juvenile idiopathic arthritis.
-> TxGNN predicts it may also be effective for **Ankylosing Spondylitis**, but the supporting evidence — **9 clinical trials** and **19 publications**, including two dedicated Phase 3 trials — actually points toward a **negative** result rather than a positive signal.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Rheumatoid Arthritis (established from literature evidence; no TFDA/Fimea license record available) |
-| Predicted New Indication | Ankylosing Spondylitis |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L1 |
-| Finland Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+> Tosiliitsumabi on humanisoidulla monoklonaalinen vasta-aine, joka estää IL-6-reseptoria ja on alun perin kehitetty reumaattiseen nivelreumaan ja nuorten idiopaattiseen arthriittiiseen.
+> TxGNN ennustaa, että se voi olla tehokas myös **ankylosoivaan spondyliittiiseen**, mutta tukeva tutkimusnäyttö — **9 kliinistä tutkimusta** ja **19 julkaisua**, mukaan lukien kaksi omaa Phase 3 -tutkimusta — osoittaa itse asiassa **negatiiviseen** tulokseen eikä positiiviseen signaaliin.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack (flagged as a High-severity data gap). Based on the literature evidence collected, tocilizumab is a humanized monoclonal antibody that blocks both membrane-bound and soluble IL-6 receptors, and it is established for use in rheumatoid arthritis (RA), systemic and polyarticular juvenile idiopathic arthritis, and giant cell arteritis — all conditions where IL-6 plays a central pathogenic role.
-
-Rheumatoid arthritis and ankylosing spondylitis (AS) are both chronic inflammatory rheumatic diseases, which is likely why TxGNN's knowledge-graph model flagged AS as a high-scoring candidate (99.99%) — the two diseases share treatment classes (biologic DMARDs) and overlapping patient registries in the literature.
-
-However, the mechanistic rationale is weaker than the score suggests: AS and axial spondyloarthritis are primarily driven by the IL-17/TNF axis, not IL-6. This is not a theoretical concern — it has already been tested directly. Two purpose-built Phase 3 randomized, placebo-controlled trials in AS patients (NCT01209689, NCT01209702) were conducted and both were **terminated**, having failed to demonstrate superiority over placebo (per the repurposing rationale, ASAS20 response was not significantly better than placebo). This is a case of direct clinical evidence returning a **negative** result, not a case of insufficient data.
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Reumaattinen nivelurea (vakiintunut kirjallisuuskäytöstä; TFDA/Fimea-lupaa ei ole saatavilla) |
+| Ennustettu uusi indikaatio | Ankylosoiva spondyliitti |
+| TxGNN-ennustuspistemäärä | 99.99% |
+| Näyttötaso | L1 |
+| Suomen markkina-asema | Ei markkinoitu |
+| Lupien määrä | 0 |
+| Suositeltu päätös | Pidätä |
 
 ---
 
-## Clinical Trial Evidence
+## Miksi tämä ennustus on järkevä?
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+Tällä hetkellä tosiliitsumabiin liittyvät yksityiskohtaiset toimintamekanismin tiedot eivät ole saatavilla tässä Evidence Pack -asiakirjassa (merkitty korkean vakavuuden tietoaukoksi). Keräetyn kirjallisuusnäytön perusteella tosiliitsumabi on humanisoidulla monoklonaalinen vasta-aine, joka estää sekä kalvoon sitoutuneen että liukoisen IL-6-reseptorin, ja se on vakiintunut käyttöaine reumaattisen nivelreuman (RA), systeemisen ja polyartikulaarisen nuorten idiopaattisen arthriitinin sekä jättisoluarteriitin hoidolle — kaikissa näissä tiloissa IL-6:lla on keskeinen patogeneettinen rooli.
+
+Reumaattinen nivelurea ja ankylosoiva spondyliitti (AS) ovat molemmat krooniset tulehdelliset reumasairaudet, mikä johtanee siihen, että TxGNN:n tietoverkkomalli piti AS-tautia korkeasti pisteytettynä kandidaattina (99.99%) — nämä kaksi sairautta jakavat lääkkeiden luokat (biologisten DMARD:ien kanssa) ja päällekkäiset potilasrekisterit kirjallisuudessa.
+
+Kuitenkin mekanistinen perustelu on heikompi kuin pistemäärä ehdottaa: AS ja aksiaalinen spondylartriitti ovat ensisijaisesti IL-17/TNF-akselin ohjaamia, eivät IL-6:n ohjaamia. Tämä ei ole teoreettinen huoli — sitä on jo tutkittu suoraan. Kaksi tarkoituksellisesti rakennettua Phase 3 -satunnaistettututkimusta AS-potilaille (NCT01209689, NCT01209702) suoritettiin ja molemmat **lopetettiin**, koska ne eivät osoittaneet ylivertaisuutta plaseboon verrattuna (repurposing-perustelun mukaan ASAS20-vastaus ei ollut merkitsevästi parempi kuin plaseboa). Tämä on tapaus, jossa suora kliininen näyttö palauttaa **negatiivisen** tuloksen, ei puutteellisia tietoja — tämän indikaation jatkamista ei tueta nykyisellä näytöllä.
+
+---
+
+## Kliinisen tutkimuksen näyttö
+
+| Tutkimusnumero | Vaihe | Tila | Rekrytointi | Keskeisiä löydöksiä |
 |---------|------|------|------|---------|
-| [NCT01209689](https://clinicaltrials.gov/study/NCT01209689) | Phase 3 | Terminated | 113 | Pivotal placebo-controlled RCT in AS patients with inadequate response to prior anti-TNF therapy; trial terminated — negative pivotal result |
-| [NCT01209702](https://clinicaltrials.gov/study/NCT01209702) | Phase 2/3 | Terminated | 306 | Seamless Phase II/III RCT in NSAID-failure, TNF-naive AS patients; sister trial to NCT01209689, also terminated — negative result |
-| [NCT07477795](https://clinicaltrials.gov/study/NCT07477795) | Phase 2 | Not yet recruiting | 52 | Studies **secukinumab**, not tocilizumab, in Takayasu arteritis — drug mismatch, not directly applicable |
-| [NCT01965132](https://clinicaltrials.gov/study/NCT01965132) | N/A | Recruiting | 10,000 | Korean multi-disease biologics/tsDMARD registry covering RA, AS and PsA; observational safety data only, no AS-specific efficacy signal |
-| [NCT02569736](https://clinicaltrials.gov/study/NCT02569736) | N/A | Completed | 60 | Mechanistic study of tocilizumab's effect on T follicular helper cells — conducted in RA patients, not AS; indirect IL-6 biology reference only |
-| [NCT05670301](https://clinicaltrials.gov/study/NCT05670301) | N/A | Recruiting | 2,500 | Observational cytokine-profiling study across systemic inflammatory diseases; not AS-specific interventional evidence |
-| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | Not yet recruiting | 80 | Perioperative immunosuppressant management around shoulder arthroplasty in rheumatology patients; not an AS efficacy trial |
-| [NCT02925338](https://clinicaltrials.gov/study/NCT02925338) | N/A | Completed | 1,431 | Real-world registry of **Inflectra (infliximab)**, not tocilizumab — drug mismatch |
-| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | N/A | Unknown | 750,000 | Large-scale registry study on risk of developing additional immune-mediated inflammatory diseases; not an AS treatment trial |
+| [NCT01209689](https://clinicaltrials.gov/study/NCT01209689) | Vaihe 3 | Lopetettu | 113 | Pivotaali plaseboa-kontrolloitu RCT AS-potilailla, joilla oli riittämätön vastaus aiemmalle anti-TNF-terapeuttille; tutkimus lopetettiin — negatiivinen pivotaali tulos |
+| [NCT01209702](https://clinicaltrials.gov/study/NCT01209702) | Vaihe 2/3 | Lopetettu | 306 | Saumaton Vaihe II/III RCT NSAID-vastustuksisilla, TNF-naiiveilla AS-potilailla; sisartutkimus NCT01209689:lle, myös lopetettu — negatiivinen tulos |
+| [NCT07477795](https://clinicaltrials.gov/study/NCT07477795) | Vaihe 2 | Ei vielä rekrytoitavaa | 52 | Tutkii **sekukinumabia**, ei tosiliitsumabaa, Takayasun arteriitin hoitoon — lääkkeen epäsopivuus, ei suoraan sovellettavissa |
+| [NCT01965132](https://clinicaltrials.gov/study/NCT01965132) | N/A | Rekrytoitavaa | 10,000 | Korealainen usean sairauden biologisten tuotteiden/tsDMARD-rekisteri, joka kattaa RA:n, AS:n ja PsA:n; vain turvallisuustietoja, ei AS-spesifistä tehosignaalia |
+| [NCT02569736](https://clinicaltrials.gov/study/NCT02569736) | N/A | Valmis | 60 | Tosiliitsumabiin liittyvä mekanistinen tutkimus T follicular helper -soluista — suoritettu RA-potilailla, ei AS-potilailla; epäsuora IL-6-biologian viittaus |
+| [NCT05670301](https://clinicaltrials.gov/study/NCT05670301) | N/A | Rekrytoitavaa | 2,500 | Havainnollinen sytokiini-profilointitutkimus systeemisen tulehduksellisten sairauksien poikki; ei AS-spesifistä interventiotutkimusnäyttöä |
+| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Vaihe 2 | Ei vielä rekrytoitavaa | 80 | Perioperatiivisen immunosuppressiivisen hoidon hallinta olkapään arthroplastian yhteydessä reumasairauksista kärsivillä potilailla; ei AS-tehotutkimusta |
+| [NCT02925338](https://clinicaltrials.gov/study/NCT02925338) | N/A | Valmis | 1,431 | Todellisen maailman rekisteri **Inflexa (infliksimaabi)**, ei tosiliitsumabaa — lääkkeen epäsopivuus |
+| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | N/A | Tuntematon | 750,000 | Laaja rekisteritutkimus lisäimmuunivasteen välittäjiin liittyvien sairauksien kehittymisen riskistä; ei AS-hoitotutkimus |
 
 ---
 
-## Literature Evidence
+## Kirjallisuusnäyttö
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Journal | Keskeisiä löydöksiä |
 |------|-----|------|------|---------|
-| [23765873](https://pubmed.ncbi.nlm.nih.gov/23765873/) | 2014 | RCT (BUILDER-1/2) | Annals of the Rheumatic Diseases | Randomized, placebo-controlled trials assessing short-term symptomatic efficacy of tocilizumab in AS — the primary clinical efficacy data source for this indication |
-| [26986130](https://pubmed.ncbi.nlm.nih.gov/26986130/) | 2016 | Systematic Review / Network Meta-analysis | Medicine | Comparative effectiveness of biologic regimens for AS across RCTs; provides comparative context for tocilizumab vs. other biologics |
-| [22452603](https://pubmed.ncbi.nlm.nih.gov/22452603/) | 2012 | Review | Inflammation & Allergy Drug Targets | Reviews the rationale and evidence for IL-6 antagonism specifically in AS |
-| [29290076](https://pubmed.ncbi.nlm.nih.gov/29290076/) | 2018 | Meta-analysis (Cohort) | Clinical Rheumatology | Quantifies serious infection risk with biologics (including tocilizumab) in AS/nr-axSpA RCTs |
-| [20959960](https://pubmed.ncbi.nlm.nih.gov/20959960/) | 2011 | Cohort/Review | Osteoporosis International | Systemic bone effects of biologic therapies in RA and AS |
-| [21803631](https://pubmed.ncbi.nlm.nih.gov/21803631/) | 2011 | Review | Joint Bone Spine | Reviews biologic agents for AS beyond TNFα antagonists, including IL-6 blockade |
-| [19822066](https://pubmed.ncbi.nlm.nih.gov/19822066/) | 2009 | Review | Clinical and Experimental Rheumatology | Compares biologics in RA vs. AS and notes differing pathogenesis and treatment response |
-| [33981717](https://pubmed.ncbi.nlm.nih.gov/33981717/) | 2021 | Case Report | Frontiers in Medicine | Two cases of successful tocilizumab treatment for AA amyloidosis complicating AS |
-| [32872025](https://pubmed.ncbi.nlm.nih.gov/32872025/) | 2020 | Case Report | Medicine | AS complicating Turner syndrome; literature review context |
-| [31852268](https://pubmed.ncbi.nlm.nih.gov/31852268/) | 2020 | Cohort | Expert Review of Clinical Immunology | Compares infection risk between non-biologics and biologics (including tocilizumab) in inflammatory arthritis |
+| [23765873](https://pubmed.ncbi.nlm.nih.gov/23765873/) | 2014 | RCT (BUILDER-1/2) | Annals of the Rheumatic Diseases | Satunnaistetut, plaseboa-kontrolloidut tutkimukset tosiliitsumabiin lyhytaikaisesta symptomaattisesta tehokkuudesta AS:ssa — ensisijainen kliinisen tehokkuuden tietolähde tälle indikaatiolle |
+| [26986130](https://pubmed.ncbi.nlm.nih.gov/26986130/) | 2016 | Systemaattinen katsaus / Verkon meta-analyysi | Medicine | Biologisten hoitoregimensi vertaileva tehokkuus AS:ssa RCT-poikki; tarjoaa vertailukelpoista kontekstia tosiliitsumabille verrattuna muihin biologisiin aineisiin |
+| [22452603](https://pubmed.ncbi.nlm.nih.gov/22452603/) | 2012 | Katsaus | Inflammation & Allergy Drug Targets | Tarkastelee IL-6-antagonismin perustelua ja näyttöä erityisesti AS:ssa |
+| [29290076](https://pubmed.ncbi.nlm.nih.gov/29290076/) | 2018 | Meta-analyysi (Kohortti) | Clinical Rheumatology | Kvantifioi vakavien infektioiden riskin biologisissa aineissa (mukaan lukien tosiliitsumabi) AS/nr-axSpA RCT:issa |
+| [20959960](https://pubmed.ncbi.nlm.nih.gov/20959960/) | 2011 | Kohortti/Katsaus | Osteoporosis International | Biologisten terapeuttisten aineiden systeemiset luuvaikutukset RA:ssa ja AS:ssa |
+| [21803631](https://pubmed.ncbi.nlm.nih.gov/21803631/) | 2011 | Katsaus | Joint Bone Spine | Tarkastelee biologisia aineita AS:ssa TNFα-antagonistien ulkopuolella, mukaan lukien IL-6-esto |
+| [19822066](https://pubmed.ncbi.nlm.nih.gov/19822066/) | 2009 | Katsaus | Clinical and Experimental Rheumatology | Vertaa biologisia aineita RA vs. AS ja huomauttaa erilaisesta patogeneeistä ja hoitovasteesta |
+| [33981717](https://pubmed.ncbi.nlm.nih.gov/33981717/) | 2021 | Tapausraportti | Frontiers in Medicine | Kaksi tapausta tosiliitsumabiin onnistuneesta hoidosta AA-amyloidoosissa AS:n komplikaationa |
+| [32872025](https://pubmed.ncbi.nlm.nih.gov/32872025/) | 2020 | Tapausraportti | Medicine | AS, joka komplikoi Turnerin syndroomaa; kirjallisuus review -konteksti |
+| [31852268](https://pubmed.ncbi.nlm.nih.gov/31852268/) | 2020 | Kohortti | Expert Review of Clinical Immunology | Vertaa infektioriskiä ei-biologisten ja biologisten aineiden (mukaan lukien tosiliitsumabi) välillä tulehduksellisessa arthriitissa |
 
 ---
 
-## Finland Market Information
+## Suomen markkina-asema
 
-Tocilizumab currently has no market authorization in Finland (Fimea market status: **Not Marketed**, 0 licenses on record). No product/dosage-form data is available to tabulate.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+Tosiliitsumabilla ei ole tällä hetkellä markkinalupaa Suomessa (Fimean markkina-asema: **Ei markkinoitu**, 0 lupaa rekisterissä). Yhtään tuotedata/annoskorkoa ei ole saatavilla taulukoitavaksi.
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuusnäkökohdat
 
-**Decision: Hold**
+Turvallisuustiedot katso pakkausesite-lehtisestä.
 
-**Rationale:**
-- Two purpose-built Phase 3 RCTs in AS (NCT01209689, NCT01209702) were directly tested and terminated without demonstrating efficacy over placebo, indicating IL-6 blockade is likely insufficient for a disease primarily driven by the IL-17/TNF axis. This is a high-quality **negative** finding, not a data gap — pursuing this indication further is not supported by current evidence.
+---
 
-**To proceed, the following is needed:**
-- TFDA/local package insert data (warnings, contraindications) — currently a Blocking data gap (DG001)
-- Confirmed mechanism of action detail from DrugBank (DG002)
-- If repurposing tocilizumab remains a priority, consider redirecting resources toward candidates in this same Evidence Pack with materially stronger support — notably **polyarticular JIA** (rank 7, L1 evidence, decision stage S3, "Proceed with Guardrails," already an approved indication elsewhere) and **RF-positive polyarticular JIA** (rank 10, L2, "Proceed with Guardrails") — rather than Ankylosing Spondylitis
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidätä**
+
+**Perustelut:**
+- Kaksi tarkoituksellisesti rakennettua Phase 3 -RCT-tutkimusta AS:n potilailla (NCT01209689, NCT01209702) suoritettiin suoraan ja lopetettiin ilman, että osoitettaisiin ylivertaisuutta plaseboon verrattuna, mikä viittaa siihen, että IL-6-esto on todennäköisesti riittämätöntä sairaudelle, jonka pääasialliset ajajat ovat IL-17/TNF-akseli. Tämä on korkealaatuinen **negatiivinen** löydös, ei tietoaukko — tämän indikaation jatkamista ei tueta nykyisellä näytöllä.
+
+**Edetäkseen, seuraavaa tarvitaan:**
+- TFDA/paikallisen pakkausesite-tiedot (varoitukset, vasta-aiheet) — tällä hetkellä Blocking-tietoaukko (DG001)
+- Vahvistettu toimintamekanismin yksityiskohta DrugBankista (DG002)
+- Jos tosiliitsumabiin repurposing pysyy prioriteettinä, harkitse resurssien ohjaamista ehdokkaisiin tässä samassa Evidence Pack -asiakirjassa materiaalisesti vahvemmalla tuella — erityisesti **polyartikulaariseen JIA** (sijoitus 7, L1 näyttö, päätösvaihe S3, "Jatka varauksella", jo hyväksytty indikaatio muualla) ja **RF-positiiviseen polyartikulaariseen JIA** (sijoitus 10, L2, "Jatka varauksella") — eikä ankylosoivaan spondyliittiiseen
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

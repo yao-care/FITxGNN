@@ -29,90 +29,91 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Daptomycin: From Gram-Positive Bacterial Infections to Osteoarthritis
+# Daptomysiini: gram-positiivisista bakteeri-infektioista nivelrikkoihin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-> Daptomycin is a cyclic lipopeptide antibiotic originally used to treat serious Gram-positive bacterial infections (complicated skin/skin-structure infections, *S. aureus* bacteraemia, right-sided infective endocarditis).
-> The TxGNN model predicts it may be effective for **Osteoarthritis**, with **0 clinical trials** and **10 publications** currently associated with this signal — however, closer review shows the literature actually concerns treatment of *prosthetic joint/osteoarticular infections* in patients who happen to have osteoarthritis, not treatment of osteoarthritis itself. This appears to be a keyword-confusion artifact rather than a genuine repurposing signal.
+> Daptomysiini on syklinen lipopeptidiä antibioottiä, jota käytetään alun perin vakavien gram-positiivisten bakteeri-infektioiden hoitoon (monimutkainen ihon/ihonalaisen kudoksen infektiot, *S. aureus* -bakteeremia, oikean puoleinen endokardiitti).
+> TxGNN-malli ennustaa, että se saattaa olla tehokas **nivelrikkoihin**, ja tällä signaalilla on tällä hetkellä liitetty **0 kliinistä tutkimusta** ja **10 julkaisua** — kuitenkin tarkempi tarkastelu osoittaa, että kirjallisuus käsittelee itse asiassa *tekonivelten/nivelten infektioiden* hoitoa potilaissa, joilla sattuu olemaan nivel­rikat­ta, ei itse nivelrikoilla potilaan hoitoa. Tämä näyttää olevan avainsana-häiriöartefakti eikä aito uudelleenkäytön signaali.
 
 ---
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohde | Sisältö |
 |------|------|
-| Original Indication | Gram-positive bacterial infections (complicated skin/skin-structure infections, *S. aureus* bacteraemia, right-sided infective endocarditis) — Finland-specific label text unavailable (drug not marketed there) |
-| Predicted New Indication | Osteoarthritis |
-| TxGNN Prediction Score | 99.86% |
-| Evidence Level | L4 |
-| Finland Market Status | ✗ Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen indikaatio | Gram-positiiviset bakteeri-infektiot (monimutkainen ihon/ihonalaisen kudoksen infektio, *S. aureus* -bakteeremia, oikean puoleinen endokardiitti) — Suomen markkina-spesifinen pakkausseloste ei ole saatavilla (lääketta ei jaeta siellä) |
+| Ennustettu uusi indikaatio | Nivelrikko |
+| TxGNN-ennusteen pistemäärä | 99,86% |
+| Näytön taso | L4 |
+| Markkina-asema Suomessa | ✗ Ei ole markkinoilla |
+| Myyntilupien määrä | 0 |
+| Suositeltu päätös | Pidätä |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, detailed mechanism of action data is not available in this evidence pack (`original_moa: [Data Gap]`). Based on generally known pharmacology (and consistent with statements found within the literature retrieved for this pack, e.g. PMID 39571268), daptomycin is a calcium-dependent cyclic lipopeptide that disrupts the cell membrane of Gram-positive bacteria, causing rapid depolarization and cell death. It is not known to have a specific mechanistic link to degenerative joint disease.
+Tällä hetkellä yksityiskohtaista vaikutusmekanismin tietoa ei ole saatavilla tässä näyttöpaketissa (`original_moa: [Data Gap]`). Yleisesti tunnetun farmakologian perusteella (ja johdonmukaisesti kirjallisuudesta löydetyistä lausunnoista tässä paketissa, esim. PMID 39571268), daptomysiini on kalsiums­iippuvainen syklinen lipopeptidi, joka häiritsee gram-positiivisten bakteerien solukalvoa, aiheuttaen nopeaa depolarisaatiota ja solun kuolemaa. Sillä ei tiedetä olevan spesifistä mekaanista yhteyttä degeneratiiviseen niveisairauteen.
 
-The high TxGNN score for osteoarthritis does **not** appear to reflect a genuine pharmacological relationship. All ten retrieved publications describe daptomycin's use in treating **prosthetic joint infections (PJI)** or other **osteoarticular infections** — serious complications that can occur *after* joint replacement surgery, which patients often undergo *because of* osteoarthritis. In other words, the literature co-occurrence is driven by shared vocabulary ("joint," "osteoarticular," patients with an OA history) rather than any evidence that daptomycin treats osteoarthritis itself. None of the studies test daptomycin as a disease-modifying or symptomatic therapy for OA.
+Korkea TxGNN-pistemäärä nivelrikoille **ei näy heijastavan** aidon farmakologisen suhteen olemassaoloa. Kaikissa kymmenen haetusta julkaisusta kuvataan daptomysiinin käyttöä **tekonivelinfektioiden (PJI)** tai muiden **nivelten infektioiden** hoitoon — vakavat komplikaatiot, jotka voivat esiintyä *leikkayksen jälkeen*, ja joiden johdosta potilaat usein käyvät leikkauksessa, *koska heillä on* nivelrikko. Toisin sanoen, kirjallisuuden rinnakkaisesiintyminen johtuu jaetusta sanastosta ("nivel", "nivelten", potilaat, joilla on OA-historia) eikä mistään todisteesta, että daptomysiini hoitaa nivelrikkoa itseään. Mikään tutkimuksista ei testaa daptomysiinia taudin muokkaavaksi tai oireenhilintähoitona nivelrikolle.
 
-For context, the model's second-ranked prediction — **rheumatoid arthritis** (score 99.84%, rank 2176) — is supported by more mechanistically direct, if still early-stage, evidence: two 2025 preclinical studies (PMID 39571268, PMID 40923559) report that daptomycin and its lipopeptide derivatives suppress inflammatory cytokines and NF-κB signalling in a collagen-induced arthritis mouse model, suggesting a possible independent anti-inflammatory activity distinct from its antibacterial action. This is not yet human evidence, but it is a more biologically plausible lead than the osteoarthritis signal and may warrant separate tracking.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Kontekstiksi mallin toiseksi sijoittuva ennuste — **reumatoidi artriitti** (pistemäärä 99,84%, ranking 2176) — on tuettu mekaanisesti suoremmin, vaikkakin vielä varhaisen vaiheen näytöllä: kaksi vuoden 2025 prekliinistä tutkimusta (PMID 39571268, PMID 40923559) raportoivat, että daptomysiini ja sen lipopeptidijohdannaiset estävät tulehduksellisia sytokiineja ja NF-κB-signaloitia kollageenia indusoivassa artriitin hiire-mallissa, mikä viittaa mahdolliseen itsenäiseen anti-inflammatooriseen aktiivisuuteen, joka eroaa sen antibakteerisista vaikutuksista. Tämä ei ole vielä ihmisillä saatu näyttö, mutta se on biologisesti vihjattavampi johtolanka kuin nivelrikko-signaali ja saattaa vaatia erillisen seurannan.
 
 ---
 
-## Literature Evidence
+## Kliinisen tutkimuksen näyttö
 
-| PMID | Year | Type | Journal | Key Findings |
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
+
+---
+
+## Kirjallisuusnaytto
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
 |------|-----|------|------|---------|
-| [23519823](https://pubmed.ncbi.nlm.nih.gov/23519823/) | 2013 | Cohort | International Orthopaedics | High-dose daptomycin + rifampicin for Gram-positive osteoarticular infections — evaluated safety/efficacy of the combination, not OA treatment |
-| [22511636](https://pubmed.ncbi.nlm.nih.gov/22511636/) | 2012 | Cohort | J Antimicrob Chemother | Daptomycin for knee/hip periprosthetic joint infections (PJI) |
-| [26235888](https://pubmed.ncbi.nlm.nih.gov/26235888/) | 2015 | Cohort | Int J Antimicrob Agents | High-dose daptomycin (>6 mg/kg) for complicated bone/joint and implant-associated Gram-positive infections |
-| [17999973](https://pubmed.ncbi.nlm.nih.gov/17999973/) | 2008 | Cohort | J Antimicrob Chemother | Daptomycin vs. standard therapy for osteoarticular infections associated with *S. aureus* bacteraemia |
-| [21477701](https://pubmed.ncbi.nlm.nih.gov/21477701/) | 2010 | Registry/Cohort | Medicina Clínica | EU-CORE registry: daptomycin use experience across Spanish hospitals for Gram-positive infections |
-| [23312602](https://pubmed.ncbi.nlm.nih.gov/23312602/) | 2013 | Cohort/Survey | Int J Antimicrob Agents | Survey of current PJI management practices among infectious disease physicians |
-| [22854340](https://pubmed.ncbi.nlm.nih.gov/22854340/) | 2012 | In-vitro susceptibility | Journal of Antibiotics | *S. aureus*/*S. epidermidis* susceptibility testing in PJI isolates |
-| [25650692](https://pubmed.ncbi.nlm.nih.gov/25650692/) | 2015 | Microbiologic survey | Surgical Infections | 10-year evolution of Staphylococcal susceptibility profiles in osteoarticular infections |
-| [32206362](https://pubmed.ncbi.nlm.nih.gov/32206362/) | 2020 | Case Report | Case Reports in Orthopedics | *Corynebacterium striatum* septic arthritis in a patient originally referred for total knee arthroplasty for OA |
-| [41853106](https://pubmed.ncbi.nlm.nih.gov/41853106/) | 2026 | Case Report | ASM Case Reports | *Corynebacterium propinquum* septic arthritis, first synovial fluid isolation in a native joint |
+| [23519823](https://pubmed.ncbi.nlm.nih.gov/23519823/) | 2013 | Kohortti | International Orthopaedics | Korkea-annoksinen daptomysiini + rifampiini gram-positiivisille nivelten infektioille — arvioi yhdistelmän turvallisuutta/tehokkuutta, ei nivelrikko-hoitoa |
+| [22511636](https://pubmed.ncbi.nlm.nih.gov/22511636/) | 2012 | Kohortti | J Antimicrob Chemother | Daptomysiini polvi-/lonkka-periprosteteetin nivelinfektioihin (PJI) |
+| [26235888](https://pubmed.ncbi.nlm.nih.gov/26235888/) | 2015 | Kohortti | Int J Antimicrob Agents | Korkea-annoksinen daptomysiini (>6 mg/kg) monimutkaisiin luu-/nivel- ja implanttiin liittyviin gram-positiivisiin infektioihin |
+| [17999973](https://pubmed.ncbi.nlm.nih.gov/17999973/) | 2008 | Kohortti | J Antimicrob Chemother | Daptomysiini vs. tavanomainen hoito nivelten infektioihin liittyneillä *S. aureus* -bakteeremiapotilailla |
+| [21477701](https://pubmed.ncbi.nlm.nih.gov/21477701/) | 2010 | Rekisteri/Kohortti | Medicina Clínica | EU-CORE-rekisteri: daptomysiinin käytön kokemus eri Espanjan sairaaloissa gram-positiivisten infektioiden hoidossa |
+| [23312602](https://pubmed.ncbi.nlm.nih.gov/23312602/) | 2013 | Kohortti/Tutkimus | Int J Antimicrob Agents | Tutkimus nykyisistä PJI-hoidon käytännöistä infektiosairauksien lääkäreiden keskuudessa |
+| [22854340](https://pubmed.ncbi.nlm.nih.gov/22854340/) | 2012 | In-vitro herkkyystesti | Journal of Antibiotics | *S. aureus*/*S. epidermidis* -herkkyystestaus PJI-isolaateissa |
+| [25650692](https://pubmed.ncbi.nlm.nih.gov/25650692/) | 2015 | Mikrobiologinen tutkimus | Surgical Infections | Staphylokokkien herkkyysprofiilien 10 vuoden kehitys nivelten infektioissa |
+| [32206362](https://pubmed.ncbi.nlm.nih.gov/32206362/) | 2020 | Tapausraportti | Case Reports in Orthopedics | *Corynebacterium striatum* -niveltulehdus potilaalla, jolle alun perin oli lähete kokonaispolviniveleen tekonivelleikkaukseen nivelrikkoihin |
+| [41853106](https://pubmed.ncbi.nlm.nih.gov/41853106/) | 2026 | Tapausraportti | ASM Case Reports | *Corynebacterium propinquum* -niveltulehdus, ensimmäinen sinoviaalifluidun eriste syntyväisestä nivelistä |
 
-**Note:** None of these publications studies daptomycin as a treatment for osteoarthritis itself — all concern management of bacterial infections in or around joints (often in OA patients post-arthroplasty).
-
----
-
-## Finland Market Information
-
-Daptomycin is not marketed in Finland — no marketing authorizations are currently registered for this product in this dataset.
+**Huomautus:** Mikään näistä julkaisuista ei tutki daptomysiinia nivelrikkojen hoitona — kaikki koskevat bakteeri-infektioiden hoitoa nivelistä tai nivelten ympäriltä (usein nivelrikkoisia potilaita tekonivelleikkauksen jälkeen).
 
 ---
 
-## Safety Considerations
+## Markkina-asema Suomessa
 
-Please refer to the package insert for safety information.
-
-**Additional literature-derived safety signal (not from the structured safety dataset, but surfaced during evidence review):** one case report (PMID [36693494](https://pubmed.ncbi.nlm.nih.gov/36693494/), 2023) describes daptomycin-induced rhabdomyolysis complicated by acute gouty arthritis, consistent with daptomycin's known association with creatine kinase elevation/myopathy. This is a recognized class effect worth flagging for any future clinical use, independent of the repurposing question.
+Daptomysiinia ei jaeta Suomessa — tästä tuotteesta ei ole tällä hetkellä rekisteröityjä myyntilupajäteistä tässä aineistossa.
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuutta koskevat näkökohdat
 
-**Decision: Hold**
+Turvallisuu­desta tulee viitata pakkausselosteeseen.
 
-**Rationale:**
-The osteoarthritis signal is not supported by genuine mechanistic or clinical evidence — all ten retrieved publications concern treatment of bacterial osteoarticular/prosthetic joint infections, not osteoarthritis itself, and appear to be a keyword co-occurrence artifact rather than a real repurposing opportunity (evidence level L4, decision stage S0, per source scoring).
+**Kirjallisuudesta saatu turvallisuus­signaali (ei strukturoidusta turvallisuus­aineistosta, mutta esiin tuotu näytön tarkistamisen aikana):** yksi tapaus­raportti (PMID [36693494](https://pubmed.ncbi.nlm.nih.gov/36693494/), 2023) kuvaa daptomysiinin aiheuttamaa rabdomyolyysiä, jota komplisoi akuutti podagra (kihsi), mikä on johdonmukaista daptomysiinin tunnetun yhteyden kanssa kreatiinikinaasinarvojen nousuun/myopatia. Tämä on tunnustettu luokka-efekti, joka kannattaa mainita missä tahansa tulevassa kliinisessä käytössä, riippumatta uudelleenkäytön kysymyksestä.
 
-**To proceed, the following is needed:**
-- Confirm whether TxGNN's osteoarthritis prediction should be deprioritized/excluded given the confounded evidence base
-- If pursuing a joint-related signal at all, redirect attention to **rheumatoid arthritis** (rank 2), where 2025 preclinical data (PMID 39571268, PMID 40923559) show a plausible independent anti-inflammatory mechanism — though this still requires human-stage validation before advancing past S1
-- Daptomycin's mechanism of action (MOA) data and TFDA/EMA label warnings and contraindications (currently marked Blocking/High severity data gaps) must be obtained before any safety pre-assessment (S1) can proceed
-- Given the drug is not marketed in Finland, market-access and regulatory pathway feasibility would also need to be assessed separately
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidätä**
+
+**Perustelu:**
+Nivelrikko-signaali ei ole tuettu aidon mekaanisen tai kliinisen näytön — kaikissa kymmenen haetusta julkaisusta käsitellään bakteeri-nivelten/tekonivelinfektioiden hoitoa, ei itse nivelrikkoa, ja ne näyttävät olevan avainsana-rinnakkaisesiintymisen artefakti eikä oikea uudelleenkäytön mahdollisuus (näytön taso L4, päätöksen vaihe S0, lähdelaskennan mukaan).
+
+**Jatkaaksemme seuraava on tarpeen:**
+- Vahvista, pitäisikö TxGNN:n nivelrikko-ennuste priorisoida alas/jättää pois, kun näyttöpohja on sekava
+- Jos jaksotetaan yhtään niveleen liittyvää signaalia, ohjaa huomio **reumatoidi artriittiin** (ranking 2), jossa vuoden 2025 prekliininen aineisto (PMID 39571268, PMID 40923559) näyttää uskottavan itsenäisen anti-inflammaatoorisen mekanismin — vaikka tämä vaatii edelleen ihmisillä saadun validoinnin ennen kuin voidaan edetä S1:n yli
+- Daptomysiinin vaikutusmekanismin (MOA) tiedot ja TFDA/EMA-merkin varoitukset ja vasta-aiheet (tällä hetkellä merkitty Blocking/High severity -tietovajeiksi) on hankittava, ennen kuin mikään turvallisuus-esivalmistelu (S1) voi edetä
+- Koska lääkettä ei jaeta Suomessa, markkina-saatavuus ja sääntelytie-toteutettavuus olisi myös arvioitava erillisesti
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

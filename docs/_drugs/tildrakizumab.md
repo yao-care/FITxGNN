@@ -29,63 +29,64 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-# Tildrakizumab: From Immune-Mediated Inflammatory Disease (Original Indication Not on File) to Severe Nonproliferative Diabetic Retinopathy
+# Tildrakizumab: immuunivälitteisestä tulehduksellisesta sairaudesta (alkuperäinen indikaatio ei saatavilla) vakavaan ei-proliferatiiviseen diabeettiseen retinopatiaan
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Tildrakizumab (DrugBank DB14004) is an anti-IL-23p19 monoclonal antibody; its originally approved indication is not present in the current evidence pack. The TxGNN model predicts a possible effect on **Severe Nonproliferative Diabetic Retinopathy**, but this signal is currently supported by **0 clinical trials** and **0 publications** — it is a pure model prediction with no corroborating evidence.
+Tildrakizumab (DrugBank DB14004) on anti-IL-23p19-monoklonaalinen vasta-aine; sen alkuperäinen hyväksytty indikaatio ei ole saatavilla nykyisessä todistusaineistossa. TxGNN-malli ennustaa mahdollisen vaikutuksen **vakavaan ei-proliferatiiviseen diabeettiseen retinopatiaan**, mutta tätä signaalia tukee tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua** — se on puhdas mallin ennuste ilman vahvistavia todisteita.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Not available (original_indications empty, no marketed license on file) |
-| Predicted New Indication | Severe Nonproliferative Diabetic Retinopathy |
-| TxGNN Prediction Score | 99.63% |
-| Evidence Level | L5 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|------|--------|
+| Alkuperäinen indikaatio | Ei saatavilla (original_indications tyhjä, ei markkinoitua lupaa saatavilla) |
+| Ennustettu uusi indikaatio | Vakava ei-proliferatiivinen diabeettinen retinopatia |
+| TxGNN-ennusteen pistemäärä | 99.63% |
+| Todistusten taso | L5 |
+| Suomen markkinatilanne | ✗ Ei markkinoitu |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Odotusasema |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, a structured mechanism-of-action record is not available for tildrakizumab (`original_moa` is flagged as a data gap). Based on the mechanistic notes embedded in the prediction rationale, tildrakizumab is an anti-IL-23p19 monoclonal antibody that blocks the Th17 signaling axis — the same target class used in IL-23/Th17-driven immune-mediated inflammatory conditions.
+Tildrakizumabin osalta ei ole tällä hetkellä saatavilla strukturoitua vaikutusmekanismin tietoa (`original_moa` on merkitty tiedon puutteeksi). Ennusteen perusteluihin sisältyneistä mekanistisista muistiinpanoista käy ilmi, että tildrakizumab on anti-IL-23p19-monoklonaalinen vasta-aine, joka estää Th17-signalointireittiä — sama kohderyhmä, jota käytetään IL-23/Th17-vetoisissa immuunivälitteissä tulehduksellisissa sairauksissa.
 
-The proposed link to diabetic retinopathy rests on an indirect inflammatory hypothesis: elevated vitreous IL-17A has been observationally associated with diabetic retinopathy activity, and the reasoning is that upstream IL-23 blockade could theoretically dampen this downstream inflammatory and neovascular response. For the top-ranked candidate, "severe" nonproliferative diabetic retinopathy is treated as a late-stage subtype of the broader disease, but the evidence pack explicitly notes there is no subtype-specific mechanistic data — the link is inferred from the general diabetic-retinopathy hypothesis, not validated independently.
+Ehdotettu yhteys diabeettiseen retinopatiaan perustuu epäsuoraan tulehdukselliseen hypoteesiin: kohonnut lasiaisen IL-17A on tutkimuksissa havaittu olevan yhteydessä diabeettisen retinopatian aktiivisuuteen, ja perusteluna on, että ylävirran IL-23-salpaaja voisi teoriassa vaimentaa tätä alavirran tulehduksellista ja neovaskulaarista vastausta. Parhaiten sijoittuvassa ehdokkaassa "vakava" ei-proliferatiivinen diabeettinen retinopatia käsitellään laajemman sairauden myöhäisenä alatyypinä, mutta todistusaineisto huomauttaa selvästi, että alatyyppikohtaisia mekanistisia tietoja ei ole — yhteys johdetaan yleisestä diabeettisen retinopatian hypoteesista, ei vahvistettu itsenäisesti.
 
-Three related but lower-confidence signals appear in the same prediction set — diabetic retinopathy (general), diabetic cataract, and drug-induced osteoporosis — each also rated L5/Hold. The diabetic cataract link is explicitly flagged by the evidence pack as having no known mechanistic bridge to IL-23/IL-17 biology (its pathophysiology is polyol-pathway and glycation-driven), and the osteoporosis link relies only on the general IL-17/osteoclast literature rather than any tildrakizumab-specific data. None of these four predictions currently have any clinical trial or literature support — they are network-prediction outputs only.
+Kolme siihen liittyvää mutta luotettavuusastaltaan alhaisempaa signaalia ilmestyy samassa ennustejoukkoon — diabeettinen retinopatia (yleinen), diabeettinen katarakta ja lääkkeen aiheuttama osteoporoosi — kukin myös arvioitu L5/Odotusasema. Diabeettisen kataraktan yhteys on todistusaineiston taholta selvästi merkitty sillä, että tunnettu mekanistinen silta IL-23/IL-17-biologiaan puuttuu (sen patofysiologia on polyoli-rata- ja glykosylaatiovetoinen), ja osteoporoosin yhteys perustuu vain yleiseen IL-17/osteoklasti-kirjallisuuteen eikä tildrakizumabin spesifisiin tietoihin. Mikään näistä neljästä ennusteesta ei tällä hetkellä saa kliinisten tutkimusten tai kirjallisuuden tukea — ne ovat pelkästään verkkoennausteiden tuloksia.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen todisteet
 
-Currently no related clinical trials registered.
+Tällä hetkellä ei ole kirjattuja aiheeseen liittyviä kliinisiä tutkimuksia.
 
-## Literature Evidence
+## Kirjallisuuden todisteet
 
-Currently no related literature available.
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Tildrakizumab is not marketed in Finland (0 marketing authorizations on file). No licensed product/dosage-form/indication data is currently available for this candidate.
+Tildrakizumab ei ole markkinoitu Suomessa (0 markkinointilupia saatavilla). Tätä ehdokasta varten ei ole tällä hetkellä saatavilla hyväksyttyjen tuotteiden, annostelumuotojen tai indikaatioiden tietoja.
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information.
+Turvallisuustiedot löytyvät pakkausselosteesta.
 
-*(Note: the evidence pack flags the absence of Fimea/label-level warnings and contraindications as a Blocking data gap — see Conclusion below.)*
+*(Huomautus: todistusaineisto merkitsee Fimea/pakkaustason varoitusten ja vasta-aiheisten puuttumisen estäväksi tiedon puutteeksi — katso Johtopäätös alla.)*
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Odotusasema**
 
-**Rationale:**
-This is a purely computational (L5) signal with zero supporting clinical trials or literature, no confirmed mechanistic bridge specific to the proposed indication, and the drug is not currently marketed in Finland. There is no basis yet to advance this candidate past initial screening.
+**Perustelut:**
+Tämä on puhtaasti laskennallinen (L5) signaali ilman tukevia kliinisiä tutkimuksia tai kirjallisuutta, ilman vahvistettua mekanistista siltaa ehdotettuun indikaatioon, ja lääke ei ole tällä hetkellä markkinoitu Suomessa. Ei ole vielä perusteita siirtää tätä ehdokasta alkuperäisen seulonnan ohi.
 
-**To proceed, the following is needed:**
-- Official package insert / label warnings and contraindications (currently a Blocking data gap — required before any safety pre-screening)
-- Structured mechanism-of-action confirmation from DrugBank or equivalent source (currently a High-severity data gap)
-- Original approved indication and regulatory history for tildrakizumab
-- Preclinical or translational data specifically linking IL-23/Th17 inhibition to diabetic retinopathy pathophysiology (subtype-specific, not inferred from general DR hypotheses)
-- Any emerging clinical trial or case-report evidence in this indication space, to re-evaluate evidence level above L5
+**Jatkaminen edellyttää seuraavaa:**
+- Virallinen pakkauseloste / pakkaustason varoitukset ja vasta-aiheet (tällä hetkellä estävä tiedon puute — vaaditaan ennen mitään turvallisuuden esiseulontaa)
+- Strukturoitu vaikutusmekanismin vahvistus DrugBankista tai vastaavasta lähteestä (tällä hetkellä korkean vakavuuden tiedon puute)
+- Tildrakizumabin alkuperäinen hyväksytty indikaatio ja sääntelyhistoria
+- Prekliininen tai translatoriaalinen data, joka erityisesti yhdistää IL-23/Th17-inhibition diabeettisen retinopatian patofysiologiaan (alatyyppikohtainen, ei johdettu yleisistä DR-hypoteeseista)
+- Kaikki nousevat kliiniset tutkimukset tai tapausraporttien todisteet tässä indikaatiotilassa, evidence level L5:n yläpuolelle arviointiin
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

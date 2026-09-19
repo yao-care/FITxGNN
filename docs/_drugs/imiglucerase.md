@@ -29,65 +29,66 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Imiglucerase: From Gaucher Disease to Hurler Syndrome
+# Imiglucerase: Gaucherin taudista Hurlerin oireyhtymään
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Imiglucerase is a recombinant glucocerebrosidase enzyme replacement therapy, historically used to treat Gaucher disease.
-The TxGNN model predicts it may be effective for **Hurler syndrome**,
-but this direction is currently supported by **0 clinical trials** and only **2 general (non-disease-specific) review publications**, and the underlying mechanistic rationale appears weak.
+Imiglucerase on rekombinantti glukoserebrosidasientsyymiaineenvaihtohoidon valmiste, jota on historiallisesti käytetty Gaucherin taudin hoitoon.
+TxGNN-malli ennustaa sen saattavan olla tehokas **Hurlerin oireyhtymään**,
+mutta tämä suunta on tällä hetkellä tuettu **0 kliinisellä tutkimuksella** ja vain **2 yleisellä (ei tautikohtaisella) katsauksella**, ja taustalla oleva mekanistinen perustelu näyttää heikolta.
 
-## Quick Overview
+## Pikayleiskatsaus
 
-| Item | Content |
+| Kohde | Sisältö |
 |------|------|
-| Original Indication | Gaucher disease (per literature evidence in this pack; no structured regulatory indication text available) |
-| Predicted New Indication | Hurler syndrome |
-| TxGNN Prediction Score | 99.52% |
-| Evidence Level | L4 |
-| Finland Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen indikaatio | Gaucherin tauti (kirjallisuusnäytön perusteella tässä paketissa; strukturoitua sääntelyllä hyväksytyn indikaation tekstiä ei ole saatavilla) |
+| Ennustettu uusi indikaatio | Hurlerin oireyhtymä |
+| TxGNN-ennustepistemäärä | 99.52% |
+| Näyttötaso | L4 |
+| Suomen markkinatilanne | Ei markkinoitu |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Pidätä |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, detailed mechanism of action data is not available (DG002, data gap). Based on the information present in this evidence pack, imiglucerase is a recombinant form of glucocerebrosidase (acid β-glucosidase), used as enzyme replacement therapy (ERT) to break down glucocerebroside accumulated in Gaucher disease.
+Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla (DG002, tietoaukko). Tässä näyttöpaketissa olevan tiedon perusteella imiglucerase on rekombinantti muoto glukoserebrosidasientsyymistä (hapan β-glukosidaasi), jota käytetään entsyymiaineenvaihtohoidossa (ERT) glukoserebrosidin kertymän hajottamiseen Gaucherin taudissa.
 
-Hurler syndrome, however, is Mucopolysaccharidosis type I (MPS I), caused by deficiency of α-L-iduronidase (IDUA), an entirely different lysosomal enzyme acting on a different substrate class (heparan/dermatan sulfate, not glucocerebroside). The standard enzyme replacement for Hurler syndrome is laronidase (recombinant IDUA), not imiglucerase.
+Hurlerin oireyhtymä on kuitenkin mukopolysakkariidoosi tyypi I (MPS I), joka aiheutuu α-L-iduronidaasin (IDUA) puutteesta, täysin eroavasta lysosomaalista entsyymistä, joka vaikuttaa eri substraattiluokkaan (heparaani/dermataanisulfaatti, ei glukoserebroisidi). Hurlerin oireyhtymän vakioentsyymiaineenvaihtohoidon valmiste on laronidaasi (rekombinantti IDUA), ei imiglucerase.
 
-Given this, the mechanistic link between imiglucerase and Hurler syndrome is weak to absent. The high TxGNN score most likely reflects the model generalizing across the broader "lysosomal storage disease + enzyme replacement therapy" category rather than capturing a substrate-specific pharmacological relationship. This assessment is consistent across the model's other top predictions in this evidence pack (Scheie syndrome, cholesteryl ester storage disease), which show the same pattern — different causal enzymes/substrates, no disease-specific evidence, and a "Hold" recommendation.
+Tämän perusteella imiglucerasin ja Hurlerin oireyhtymän välinen mekanistinen yhteys on heikko tai olematon. Korkea TxGNN-pistemäärä todennäköisesti heijastavat sitä, että malli yleistää laajemmin "lysosomaalinen varastointisairaus + entsyymiaineenvaihtohoidot" -kategoriaa sen sijaan, että se kuvaisi substraattikohtaista farmakologista suhdetta. Tämä arvio on johdonmukainen mallin muiden huippuennusteiden kanssa tässä näyttöpaketissa (Scheien oireyhtymä, kolesteryyliesterien varastointisairaus), joista näkyy sama kaava — eri aiheuttavat entsyymit/substraatit, ei tautikohtaista näyttöä ja "Pidätä"-suositus.
 
-## Clinical Trial Evidence
+## Kliinisten tutkimusten näyttö
 
-Currently no related clinical trials registered
+Tällä hetkellä ei liittyviä kliinisiä tutkimuksia rekisteröity
 
-## Literature Evidence
+## Kirjallisuusnäyttö
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Pääasialliset havainnot |
 |------|-----|------|------|---------|
-| [20534487](https://pubmed.ncbi.nlm.nih.gov/20534487/) | 2010 | Review | Proceedings of the National Academy of Sciences of the United States of America | Describes PET imaging of enzyme replacement therapy; notes ERT (including imiglucerase-class recombinant lysosomal enzymes) has shown efficacy across Gaucher, Fabry, Hurler, Hunter, Maroteaux-Lamy, and Pompe diseases, but does not present imiglucerase-specific data for Hurler syndrome |
-| [21211680](https://pubmed.ncbi.nlm.nih.gov/21211680/) | 2010 | Review | La Revue de medecine interne | General overview of ERT for lysosomal storage diseases; describes the historical development of imiglucerase (Cerezyme) for Gaucher disease and other disease-specific ERTs (e.g., agalsidase for Fabry disease); does not address Hurler syndrome specifically |
+| [20534487](https://pubmed.ncbi.nlm.nih.gov/20534487/) | 2010 | Katsaus | Proceedings of the National Academy of Sciences of the United States of America | Kuvailee entsyymiaineenvaihtohoitoa PET-kuvauksella; huomioi, että ERT (mukaan lukien imiglucerase-luokkaisten rekombinanttien lysosomaalisten entsyymien) on osoittautunut tehokkaaksi Gaucherin, Fabryn, Hurlerin, Hunterin, Maroteaux-Lamyn ja Pompen taudeissa, mutta ei esitä imiglucerase-kohtaista tietoa Hurlerin oireyhtymästä |
+| [21211680](https://pubmed.ncbi.nlm.nih.gov/21211680/) | 2010 | Katsaus | La Revue de medecine interne | Yleiskatsaus entsyymiaineenvaihtohoidosta lysosomaalisten varastointisairauksien osalta; kuvaa imiglucerasin (Cerezyme) historiallista kehitystä Gaucherin taudissa ja muita tautikohtaisia ERT-hoitoja (esim. agalsidaasi Fabryn taudissa); ei käsittele Hurlerin oireyhtymää erikseen |
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Imiglucerase currently has no marketing authorization on record in Finland (market status: Not Marketed; 0 authorizations).
+Imiglucerasella ei ole tällä hetkellä rekisteröityä myyntilupaa Suomessa (markkinatilanne: Ei markkinoitu; 0 hyväksyntää).
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information.
+Turvallisuustietoja varten katso pakkausseloste.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidätä**
 
-**Rationale:**
-The predicted Hurler syndrome indication lacks any disease-specific clinical or literature evidence, and the proposed mechanism does not hold up — imiglucerase targets glucocerebrosidase deficiency (Gaucher disease pathway), while Hurler syndrome is driven by a distinct enzyme deficiency (IDUA) with an established, different standard-of-care (laronidase). Evidence level is L4 (mechanism/model-level only), and the drug is not currently marketed in Finland.
+**Perustelu:**
+Ennustetulla Hurlerin oireyhtymän indikaatiolla ei ole minkäänlaista tautikohtaista kliinistä tai kirjallisuusnäyttöä, ja ehdotettu mekanismi ei kestä tarkastelua — imiglucerase kohdistuu glukoserebrosidasin puutteeseen (Gaucherin taudin reitti), kun taas Hurlerin oireyhtymä aiheutuu eri entsyymin puutteesta (IDUA), jolla on vakiintunut, erilainen hoitostandardi (laronidaasi). Näyttötaso on L4 (vain mekanismi/malli-tasolla), eikä lääkettä ole tällä hetkellä markkinoitu Suomessa.
 
-**To proceed, the following is needed:**
-- TFDA/official package insert data on warnings and contraindications (DG001, blocking — currently prevents entry into S1 safety review)
-- Confirmed mechanism of action data (DG002)
-- Disease-specific preclinical or clinical evidence directly linking the glucocerebrosidase pathway to MPS I pathophysiology, if this candidate is to be reconsidered
-- Note: all 5 TxGNN-predicted indications in this evidence pack (Hurler syndrome, Scheie syndrome, adrenal adenoma, fatal ichthyosis syndrome, cholesteryl ester storage disease) are currently rated Hold due to similar mechanistic mismatches or absence of supporting evidence
+**Jatkamisen kannalta seuraavat tiedot ovat tarpeen:**
+- TFDA/viralliset pakkausseloste-tiedot varoituksista ja vasta-aiheista (DG001, esto — estää tällä hetkellä pääsyn S1 turvallisuuskatsaukseen)
+- Vahvistetut vaikutusmekanismin tiedot (DG002)
+- Tautikohtainen esikliininen tai kliininen näyttö, joka yhdistää glukoserebrosidasin reitin suoraan MPS I -patofysiologiaan, jos tätä kandidaattia halutaan harkita uudelleen
+- Huomio: kaikki 5 TxGNN-ennustettua indikaatiota tässä näyttöpaketissa (Hurlerin oireyhtymä, Scheien oireyhtymä, lisämunuaisen adenooma, kuolettava iktyoosi-oireyhtymä, kolesteryyliesterien varastointisairaus) on tällä hetkellä luokiteltu Pidätä-kategoriaan samanlaisten mekanististen ristiriitaisuuksien tai tukevan näytön puutteen vuoksi.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

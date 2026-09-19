@@ -29,58 +29,59 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Reslizumab: From Severe Eosinophilic Asthma to Thrombocytopenia due to Immune Destruction
+# Reslizumaabi: raskaasta eosinofiiliksi astmasta immuuniperäiseen verihiutalepeniaan
 
-## One-Sentence Summary
+## Yksisäntöinen yhteenveto
 
-> Reslizumab is an anti-IL-5 monoclonal antibody used to treat severe eosinophilic asthma.
-> The TxGNN model predicts it may be effective for **Thrombocytopenia due to Immune Destruction**,
-> but currently **no clinical trials** and **no supporting literature** back this prediction — it is a pure model-derived signal.
+> Reslizumaabi on anti-IL-5-monoklonaalinen vasta-aine, jota käytetään raskaiden eosinofiiliksi astman hoitoon.
+> TxGNN-malli ennustaa, että se saattaa olla tehokas **immuuniperäiseen verihiutalepeniaan**,
+> mutta tällä hetkellä **kliinisiä tutkimuksia** ja **tukevaa kirjallisuutta** ei ole näiden ennustuksien tueksi — kyseessä on puhdas mallista johdettu signaali.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Severe eosinophilic asthma (from repurposing-rationale narrative only; no formal indication/license record available) |
-| Predicted New Indication | Thrombocytopenia due to Immune Destruction |
-| TxGNN Prediction Score | 99.53% |
-| Evidence Level | L5 |
-| Market Status | Not Marketed (0 authorizations on record) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|-------|----------|
+| Alkuperäinen indikaatio | Raskas eosinofiiliksi astma (vain uudelleenkäyttöperusteesta saadut tiedot; ei muodollisia indikaatioita/hyväksyntöjä saatavilla) |
+| Ennustettu uusi indikaatio | Immuuniperäinen verihiutalepenia |
+| TxGNN ennustuspistemäärä | 99,53 % |
+| Todistusten taso | L5 |
+| Markkinoiden asema | Ei markkinoilla (0 hyväksyntöä rekisterissä) |
+| Hyväksyntöjen määrä | 0 |
+| Suositeltu päätös | Pidätä |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennustus on järkevä?
 
-Detailed mechanism-of-action data for reslizumab is not available in this evidence pack. Based on the repurposing rationale that is available, reslizumab is an anti-IL-5 monoclonal antibody that blocks IL-5 from binding its receptor on eosinophils, and is used clinically for severe eosinophilic asthma.
+Reslizumaabin yksityiskohtaiset toimimismekanismin tiedot eivät ole saatavilla tässä todistusten pakkauksessa. Saatavilla olevan uudelleenkäyttöperusteen mukaan reslizumaabi on anti-IL-5-monoklonaalinen vasta-aine, joka estää IL-5:n sitoutumisen sen reseptoriin eosinofiijeissa, ja sitä käytetään kliinisesti raskaiden eosinofiiliksi astman hoitoon.
 
-The predicted new indication, immune thrombocytopenia, arises from a fundamentally different pathology — autoantibody-mediated platelet clearance involving B cells, Fc receptors, and splenic macrophages. There is no known direct mechanistic overlap between IL-5/eosinophil biology and this platelet-clearance pathway.
+Ennustettu uusi indikaatio, immuuniperäinen verihiutalepenia, johtuu pohjimmiltaan erilaisesta patologiasta — autovasta-aineiden välittämästä verihiutaleiden tuhoutumisesta, johon osallistuvat B-solut, Fc-reseptorit ja pernassa olevat makrofagit. Ei tunneta suoraa mekanistista yhteyttä IL-5/eosinofiiliksi biologian ja tämän verihiutaleiden tuhoamispolun välillä.
 
-The TxGNN score (99.53%) reflects a graph neural network association only, with no literature or clinical evidence currently connecting reslizumab — or the anti-IL-5 drug class — to immune thrombocytopenia. A related but distinct candidate in this evidence pack, "primary release disorder of platelets" (score 99.25%), is supported by a single review article, but that article discusses mepolizumab (a different anti-IL-5 antibody) in hypereosinophilic syndrome, not reslizumab or platelet disease specifically — offering only a weak class-level analogy rather than direct support.
+TxGNN-pistemäärä (99,53 %) kuvastaa ainoastaan graafisen neuroverkkoyhteyttä, eikä tällä hetkellä ole kirjallisuutta tai kliinistä näyttöä, joka yhdistäisi reslizumabia — tai anti-IL-5-lääkeryhmää — immuuniperäiseen verihiutalepeniaan. Tässä todistusten pakkauksessa oleva asiaan liittyvä mutta erilainen kandidaatti, "primaarinen verihiutaleiden vapautumishäiriö" (pistemäärä 99,25 %), tuetaan yhdellä katsausartikkelilla, mutta kyseinen artikkeli käsittelee mepolizumabia (erilaista anti-IL-5-vasta-ainetta) hypereosinofiiliksi oireyhtymässä, ei reslizumabia tai verihiutaleiden sairautta erityisesti — se tarjoaa vain luokkatasoisen analogian pikemminkin kuin suoraa tukea.
 
-## Clinical Trial Evidence
+## Kliinisten tutkimusten todisteet
 
-Currently no related clinical trials registered.
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
 
-## Literature Evidence
+## Kirjallisuuden todisteet
 
-Currently no related literature available.
+Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta.
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information.
+Katso turvallisuustiedot valmisteen pakkausselosteesta.
 
-## Conclusion and Next Steps
+## Johtopäätökset ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidätä**
 
-**Rationale:**
-The prediction rests entirely on a TxGNN model score (Evidence Level L5, decision stage S0) with no clinical trials, no supporting literature, and no established mechanistic link between the IL-5 pathway and immune-mediated platelet destruction. Core safety data (package insert warnings and contraindications) is also missing, which blocks even a preliminary safety assessment.
+**Perustelut:**
+Ennustus perustuu täysin TxGNN-mallin pistemäärään (Todistusten taso L5, päätösvaihe S0), eikä siinä ole kliinisiä tutkimuksia, tukevaa kirjallisuutta tai vahvistettua mekanistista yhteyttä IL-5-polun ja immuuniperäisten verihiutaleiden tuhoamisen välillä. Ydinturvallisuustiedot (valmisteen pakkausselosteen varoitukset ja kontraindikaatiot) puuttuvat myös, mikä estää jopa alustavaa turvallisuusarviointia.
 
-**To proceed, the following is needed:**
-- Package insert warnings/contraindications for reslizumab (currently blocking this evaluation)
-- Verified mechanism-of-action data for reslizumab
-- Preclinical or mechanistic studies linking the IL-5/eosinophil pathway to immune thrombocytopenia
-- Any emerging clinical trial or case-report evidence in ITP or related platelet disorders
+**Jatkamiseksi tarvitaan seuraavaa:**
+- Reslizumaabin valmisteen pakkausselosteen varoitukset/kontraindikaatiot (tällä hetkellä estää tämän arvioinnin)
+- Vahvistetut reslizumaabin toimimismekanismin tiedot
+- Prekliiniset tai mekanistiset tutkimukset, jotka yhdistävät IL-5/eosinofiiliksi polun immuuniperäiseen verihiutalepeniaan
+- Kaikki ilmenevät kliinit tutkimukset tai tapausraportit immuuniperäisessä verihiutalepeniassa tai siihen liittyvissä verihiutaleiden sairauksissa
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

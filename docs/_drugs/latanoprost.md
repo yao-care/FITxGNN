@@ -29,68 +29,69 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# LATANOPROST: Evaluation on Hold — No TxGNN Predictions Available
+# LATANOPROST: Arviointi pidossa — TxGNN-ennustuksia ei ole saatavilla
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-LATANOPROST (DB00654) is a prostaglandin analogue with established clinical use in lowering intraocular pressure, though its original indication data was not retrieved in this Evidence Pack.
-The current Evidence Pack contains **no TxGNN prediction results**, meaning there is no repurposing hypothesis to evaluate.
-This report documents the data gaps and outlines the remediation steps required before a full evaluation can proceed.
+LATANOPROST (DB00654) on prostaglandiinianalogni, jolla on vakiintunut kliininen käyttö silmänpaineen alentamiseen, vaikka sen alkuperäisiä indikaatiotietoja ei saatu tässä todistusten paketissa. Nykyinen todistusten paketti sisältää **nolla TxGNN-ennustustuloksia**, mikä tarkoittaa, että uudelleenkäytön hypoteesia ei ole arvioitavana. Tämä raportti dokumentoi tietojen puutteet ja hahmottelee korjaavat toimenpiteet, jotka vaaditaan ennen kuin täysimittainen arviointi voidaan jatkaa.
 
 ---
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohde | Sisältö |
 |------|---------|
-| Original Indication | Not retrieved (empty in Evidence Pack) |
-| Predicted New Indication | No predictions generated |
-| TxGNN Prediction Score | — |
-| Evidence Level | N/A — predictions not yet run |
-| Taiwan Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen indikaatio | Ei haettu (tyhjä todistusten paketissa) |
+| Ennustettu uusi indikaatio | Ennustuksia ei generoitu |
+| TxGNN-ennustuspistemäärä | — |
+| Todistuksen taso | N/A — ennustuksia ei ole vielä ajettu |
+| Taiwanin markkinatilanne | Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltava päätös | Pidossa |
 
 ---
 
-## Why This Evaluation Cannot Proceed
+## Miksi tätä arviointia ei voida jatkaa
 
-The Evidence Pack for LATANOPROST is missing two critical inputs required to run a repurposing evaluation:
+LATANOPROST-todistusten paketti puuttuu kahta kriittistä syöttöä, joita vaaditaan uudelleenkäyttöarvioinnin suorittamiseen:
 
-**1. No TxGNN predictions available.**
-The `predicted_indications` array in the Evidence Pack is empty. Without a predicted indication target, there is no repurposing hypothesis to score, no clinical trials to surface, and no mechanistic bridge to explain. The entire downstream evaluation framework depends on at least one TxGNN candidate indication.
+**1. TxGNN-ennustuksia ei ole saatavilla.**
 
-**2. Mechanism of action data is absent.**
-MOA data was flagged as a High-severity data gap (DG002). While latanoprost is broadly understood to be a prostaglandin F2α analogue that reduces intraocular pressure via increased aqueous humour outflow, the structured DrugBank MOA record needed for mechanistic cross-indication analysis was not retrieved. Without this, it is not possible to assess whether the mechanism is plausibly applicable to any new indication.
+Todistusten paketin `predicted_indications`-taulukko on tyhjä. Ilman ennustetun indikaation tavoitetta ei ole uudelleenkäyttöhypoteesia pistemääritykselle, ei kliinisiä tutkimuksia esille tuotaviksi ja ei mekanistista siltaa selittämiseksi. Koko seuraavien vaiheiden arviointikehys riippuu vähintään yhdestä TxGNN-ehdokkasindikaatiosta.
 
-Additionally, TFDA package insert warnings and contraindications were flagged as a Blocking data gap (DG001), which would prevent a proper safety screening even if a predicted indication were available.
+**2. Toimintamekanismin tiedot puuttuvat.**
 
----
+Toimintamekanismin (MOA) tiedot merkittiin suuriksi tietovajeiksi (DG002). Vaikka latanoprosti tunnetaan yleisesti prostaglandiini F2α-analogiksi, joka pienentää silmänpainetta lisäämällä silmänesteen ulosvirtausta, strukturoidut DrugBank MOA -tiedot, joita tarvitaan mekanistiseen ristiin-indikaatioanalyysiin, ei saatu. Ilman tätä ei ole mahdollista arvioida, onko mekanismi sovellettavissa mihin tahansa uuteen indikaatioon.
 
-## Taiwan Market Information
-
-Latanoprost is **not currently marketed in Taiwan**. No authorized products were found in the TFDA database (0 licenses). There is no local regulatory reference point for dosage form, approved indication text, or package insert.
+Lisäksi TFDA-pakkauslisäkkeen varoitukset ja vasta-aiheet merkittiin estäviksi tietovajeiksi (DG001), mikä estäisi asianmukaisen turvallisuusseulonnan, vaikka ennustettu indikaatio olisi saatavilla.
 
 ---
 
-## Safety Considerations
+## Taiwanin markkinatiedot
 
-Please refer to the package insert for safety information.
+Latanoprosti **ei ole tällä hetkellä markkinoilla Taiwanissa**. TFDA-tietokannasta ei löytynyt hyväksyttyjä tuotteita (0 lupia). Paikallista sääntelyreferenssipistettä annostusmuodosta, hyväksytystä indikaatiotekstistä tai pakkauslisäkkeestä ei ole.
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuusnäkökulmat
 
-**Decision: Hold**
+Turvallisuustietoja varten katso pakkauslisäkettä.
 
-**Rationale:**
-No TxGNN repurposing predictions have been generated for LATANOPROST, and two blocking data gaps (regulatory safety data and MOA) remain unresolved. A meaningful repurposing evaluation cannot be produced from the current Evidence Pack.
+---
 
-**To proceed, the following is needed:**
-- Run the TxGNN prediction pipeline for LATANOPROST (DB00654) to generate at least one candidate indication
-- Retrieve MOA data from DrugBank API (remediation for DG002)
-- Download and parse the TFDA package insert PDF to extract warnings and contraindications (remediation for DG001)
-- Re-submit the completed Evidence Pack for a full evaluation
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidossa**
+
+**Perustelut:**
+LATANOPROSTILLE ei ole generoitu TxGNN-uudelleenkäyttöennustuksia, ja kaksi estävää tietovajetta (sääntelyllinen turvallisuustieto ja toimintamekanismi) jäävät ratkaisematta. Mielekästä uudelleenkäyttöarviointia ei voida tuottaa nykyisestä todistusten paketista.
+
+**Jatkamiseksi tarvitaan seuraavaa:**
+- Suorita TxGNN-ennustusputki LATANOPROSTILLE (DB00654) tuottamaan vähintään yksi ehdokkasindikaatio
+- Hae toimintamekanismin (MOA) tiedot DrugBank API:sta (korjaus DG002:lle)
+- Lataa ja jäsennä TFDA-pakkauslisäkkeen PDF varoitusten ja vasta-aiheisten esille ottamiseksi (korjaus DG001:lle)
+- Lähetä uudelleen täytetty todistusten paketti täysimittaisen arvioinnin varten
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

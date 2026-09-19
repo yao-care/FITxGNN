@@ -29,60 +29,61 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Rufinamide: From Refractory Epilepsy (Lennox-Gastaut Syndrome) to Febrile Infection-Related Epilepsy Syndrome (FIRES)
+# Rufinamidi: Opioidista epilepsiasta (Lennouxin-Gastauti-syndroomasta) infektioihin liittyvään epilepsiasyndromaaan (FIRES)
 
-## One-Sentence Summary
+## Yhteenveto yhdessä lauseessa
 
-Rufinamide is a sodium-channel modulating anticonvulsant with established clinical use in refractory epilepsy syndromes such as Lennox-Gastaut syndrome. The TxGNN model predicts it may be effective for **febrile infection-related epilepsy syndrome (FIRES)**, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a pure model-derived signal.
+Rufinamidi on natrium-kanavan moduloiva antikonvulsantti, joka on kliinisesti käytössä opioidien epilepsiasyndroomeissa, kuten Lennouxin-Gastauti-syndroomassa. TxGNN-malli ennustaa, että se voi olla tehokas **infektioihin liittyvässä epilepsiasyndromaassa (FIRES)**, mutta tätä ennustetta tukee tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua** — se on puhtaasti mallin johtama signaali.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Refractory epilepsy (Lennox-Gastaut syndrome and related syndromes) — based on known clinical use; no local licensing record available |
-| Predicted New Indication | Febrile infection-related epilepsy syndrome (FIRES) |
-| TxGNN Prediction Score | 99.57% (rank 4939) |
-| Evidence Level | L5 (model prediction only, no supporting trials or literature) |
-| Finland Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Opioidit epilepsiasyndromat (Lennouxin-Gastauti-syndroomaa ja vastaavat syndromat) — tunnetun kliinisen käytön perusteella; paikallista myyntilupaa ei ole saatavilla |
+| Ennustettu uusi indikaatio | Infektioihin liittyvä epilepsiasyndrooma (FIRES) |
+| TxGNN:n ennustepisteet | 99,57 % (ranking 4939) |
+| Näytön taso | L5 (pelkästään mallin ennuste, ei tukevia tutkimuksia tai kirjallisuutta) |
+| Markkinatilanne Suomessa | Ei markkinoilla |
+| Myyntilupien lukumäärä | 0 |
+| Suositeltu päätös | Odota |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on perusteltu?
 
-Detailed formal mechanism-of-action data for rufinamide is currently a data gap. Based on available information, rufinamide acts as a voltage-gated sodium channel modulator that prolongs the channel's inactive state, and it is clinically used for Lennox-Gastaut syndrome and other refractory epilepsies.
+Rufinamidin yksityiskohtaiset virallisten vaikutusmekanismin tiedot ovat tällä hetkellä tietojen puutteen alue. Saatavilla olevien tietojen perusteella rufinamidi toimii jänniteherkän natrium-kanavan modulaattorina, joka pidentää kanavan passiivista tilaa, ja sitä käytetään kliinisesti Lennouxin-Gastauti-syndrooman ja muiden opioidien epilepsiasyndromoiden hoidossa.
 
-FIRES is an acute, severely refractory status epilepticus syndrome mechanistically associated with excessive sodium-channel-mediated cortical excitability. Since rufinamide's established mechanism targets exactly this pathway, there is a theoretical rationale for extending its use to FIRES, paralleling its existing role in other treatment-resistant epilepsy syndromes.
+FIRES on akuutti, vakavasti opioidinen status epilepticus -syndrooma, joka on mekanistisesti yhteydessä liialliseen natrium-kanava-välitteiseen aivokuoren yliärsytykseen. Koska rufinamidin tunnistettu mekanismi kohdistuu täsmälleen tähän reititykseen, on teoreettinen perustelu sen käytön laajentamiselle FIRES:iin, mikä on samansuuntainen sen nykyisen roolin kanssa muissa hoitoresistentin epilepsian syndroomaissa.
 
-However, this rationale currently rests entirely on mechanistic plausibility and the TxGNN prediction score (0.996). No clinical trials, ICTRP records, or peer-reviewed literature currently support use of rufinamide specifically in FIRES.
+Kuitenkin tämä perustelu perustuu tällä hetkellä vain mekanistiseen uskottavuuteen ja TxGNN-ennuste pisteisiin (0,996). Mikään kliininen tutkimus, ICTRP-tietueet tai vertaisarvioitu kirjallisuus ei tällä hetkellä tue rufinamidin käyttöä erityisesti FIRES:issa.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-Currently no related clinical trials registered.
+Ei tällä hetkellä rekisteröityjä tutkimuksia.
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-Currently no related literature available.
+Ei tällä hetkellä saatavilla olevaa kirjallisuutta.
 
-## Finland Market Information
+## Markkinatiedot Suomesta
 
-Rufinamide is not currently marketed in Finland (0 authorizations on record), so no product/dosage-form details are available.
+Rufinamidi ei ole tällä hetkellä markkinoilla Suomessa (0 myyntilupaa), joten tuote-/annoksimuodon yksityiskohtia ei ole saatavilla.
 
-## Safety Considerations
+## Turvallisuusnäkökohtia
 
-Please refer to the package insert for safety information.
+Turvallisuustiedot löytyvät pakkausselosteesta.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Odota**
 
-**Rationale:**
-The prediction is mechanistically plausible but has zero clinical trial or literature support (Evidence Level L5), and a Blocking data gap exists for package insert warnings/contraindications, which prevents any initial safety assessment (S1).
+**Perustelu:**
+Ennuste on mekanistisesti uskottava, mutta siitä puuttuu täysin kliinisen tutkimuksen tai kirjallisuuden tuki (Näytön taso L5), ja estävä tietojen puute on olemassa pakkausselosteen varoituksista/vasta-aiheista, mikä estää alkuvaiheen turvallisuusarvioinnin (S1).
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert data (warnings, contraindications) — currently Blocking
-- Confirmed mechanism-of-action documentation from DrugBank
-- Clinical trial or case-report evidence specifically in FIRES
-- Drug-drug interaction data (currently not found)
+**Jatkamista varten tarvitaan seuraavaa:**
+- TFDA/Fimean pakkausseloste (varoitukset, vasta-aiheet) — tällä hetkellä estävä
+- Vahvistettu vaikutusmekanismin dokumentaatio DrugBankista
+- Kliininen tutkimus tai tapausraportti erityisesti FIRES:issa
+- Lääkkeiden välisen vuorovaikutuksen tiedot (ei tällä hetkellä löytyneet)
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

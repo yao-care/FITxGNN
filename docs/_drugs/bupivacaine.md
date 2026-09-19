@@ -29,62 +29,63 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-# Bupivacaine: From Local Anesthesia to Acrodermatitis Chronica Atrophicans
+# Bupivakaiini: paikallispuudutuksesta akrodermatitis chronica atrophicansiin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Bupivacaine is an amide-type local anesthetic that blocks voltage-gated sodium channels to suppress nerve conduction, used clinically for local and regional anesthesia. The TxGNN model predicts it may be effective for **Acrodermatitis Chronica Atrophicans**, a chronic skin condition caused by *Borrelia burgdorferi* infection, but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the model's own mechanistic assessment finds no plausible biological link.
+Bupivakaiini on amidiluokan paikallispuudutusaine, joka estää jänniteherkkiä natriumkanavia vaientaakseen hermojohtumista, ja sitä käytetään kliinisesti paikalliseen ja alueelliseen puudutukseen. TxGNN-malli ennustaa, että se saattaa olla tehokas **akrodermatitis chronica atrophicansissa**, kroonisessa ihomuutoksessa, jonka aiheuttaa *Borrelia burgdorferi* -infektio, mutta tämän ennusteen tueksi on tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua**, ja mallin oman mekanistisen arvioinnin mukaan biologinen yhteys ei ole uskottava.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Local anesthesia (amide-type local anesthetic; specific approved indication text not available) |
-| Predicted New Indication | Acrodermatitis Chronica Atrophicans |
-| TxGNN Prediction Score | 99.23% |
-| Evidence Level | L5 |
-| Finland Market Status | Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Osio | Sisältö |
+|------|--------|
+| Alkuperäinen indikaatio | Paikallispuudutus (amidiluokan paikallispuudutusaine; erityistä hyväksyttyä indikaatiotekstiä ei ole saatavilla) |
+| Ennustettu uusi indikaatio | Akrodermatitis chronica atrophicans |
+| TxGNN-ennusteen pistemäärä | 99.23% |
+| Todisteen taso | L5 |
+| Suomen markkinoiden tila | Ei markkinoilla |
+| Lupa-autorisaatioiden lukumäärä | 0 |
+| Suositeltu päätös | Pidä varauksissa |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on kohtuullinen?
 
-Detailed mechanism of action data is not available in structured form for this candidate. Based on the mechanistic assessment included with the prediction, bupivacaine is an amide-type local anesthetic whose established pharmacology is blockade of voltage-dependent sodium channels, suppressing neural conduction for local/regional anesthesia.
+Yksityiskohtaisia mekanistisen vaikutuksen tietoja ei ole saatavilla strukturoidussa muodossa tälle kandidaatille. Ennusteeseen sisältyvän mekanistisen arvioinnin perusteella bupivakaiini on amidiluokan paikallispuudutusaine, jonka vakiintunut farmakologia on jänniteherkkien natriumkanavien esto, mikä vaimentaa hermostojen johtumista paikalliseen ja alueelliseen puudutukseen.
 
-Acrodermatitis chronica atrophicans, by contrast, is a late-stage cutaneous manifestation of chronic *Borrelia burgdorferi* infection, driven by chronic inflammation and abnormal collagen metabolism leading to skin fibrosis and atrophy. There is no established pharmacological pathway connecting sodium-channel blockade to the inflammatory/fibrotic processes underlying this disease.
+Akrodermatitis chronica atrophicans on sitä vastoin kroonisen *Borrelia burgdorferi* -infektoin myöhäisen vaiheen ihomuutos, jota ohjaavat krooniset tulehdus ja poikkeava kollageenin aineenvaihdunta, jotka johtavat ihon fibroosin ja atrofian. Natriumkanavien esto ja tätä sairautta taustalla olevia tulehduksellisia tai fibroottisia prosesseja yhdistävää vakiintunutta farmakologista polkua ei ole.
 
-The evidence pack's own rationale for this prediction explicitly states that no credible mechanistic pathway can be established given the absence of original MOA documentation, and that the score should be treated as a pure TxGNN embedding-similarity output rather than a biologically grounded hypothesis. Three additional candidate indications (neonatal dermatomyositis, childhood interstitial lung disease secondary to connective tissue disease, and amyopathic dermatomyositis) were also evaluated for bupivacaine at similarly high TxGNN scores (99.0–99.15%), and each carries the same conclusion — no known immunomodulatory, antifibrotic, or disease-relevant pharmacology, and no supporting trials or literature. Two of these (neonatal and childhood-onset conditions) additionally raise safety concerns given bupivacaine's known cardiotoxicity and reduced clearance in neonates/infants.
+Todiste-aineiston oma perustelu tälle ennusteelle toteaa eksplisiittisesti, että uskottavaa mekanistista polkua ei voida muodostaa alkuperäisen MOA-dokumentaation puuttuessa, ja että pistemäärää tulisi käsitellä puhtaana TxGNN-upotussamankaltaisuustuotoksena eikä biologisesti perusteltuna hypoteesina. Kolme muuta kandidaatin indikaatiota (vastasyntyneiden dermatomyosiitti, lapsuusiän interstissiaalinen keuhkosairaus sidekudossairauden seurauksena ja amyopaattinen dermatomyosiitti) arvioitiin myös bupivakaiinille samankaltaisilla korkeilla TxGNN-pisteillä (99,0–99,15%), ja jokainen johtaa samaan johtopäätökseen — tunnetusta immunomodulaattori-, antifibroottisesta tai sairauteen liittyvästä farmakologiasta puuttuu, eikä tutkimuksia tai kirjallisuutta ole. Kaksi näistä (vastasyntyneiden ja lapsuusiän alkamisvaiheessa olevan olosuhteen) herättävät lisäksi turvallisuushuolia bupivakaiinin tunnetun sydäntoksisuuden ja vähennetyn erittymisen vuoksi vastasyntynöissä tai imisiä.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen todisteet
 
-Currently no related clinical trials registered
+Tällä hetkellä ei ole asiaan liittyviä rekisteröityjä kliinisiä tutkimuksia
 
-## Literature Evidence
+## Kirjallisuuden todisteet
 
-Currently no related literature available
+Tällä hetkellä ei ole asiaan liittyvää saatavilla olevaa kirjallisuutta
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-No marketing authorizations for bupivacaine were found in this market (total authorizations: 0; market status: Not Marketed).
+Tälle markkinalle ei löydetty bupivakaiinin markkinointilupaa (yhteensä lupa-autorisaatioita: 0; markkinoiden tila: Ei markkinoilla).
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information.
+Turvallisustietoja löydät pakkausselosteesta.
 
-*Note: Package insert warnings/contraindications and drug interaction data for this candidate are flagged as a Blocking data gap (DG001) and have not yet been retrieved — this must be resolved before any S1 safety review can proceed.*
+*Huomio: Pakkausselosteen varoitukset/vasta-aiheet ja lääkkeen vuorovaikutusdata tälle kandidaatille on merkitty estäväksi tietovajeeksi (DG001) ja niitä ei ole vielä haettu — tämä on ratkaistava, ennen kuin S1-turvallisuustarkistus voidaan jatkaa.*
 
-## Conclusion and Next Steps
+## Johtopäätökset ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Pidä varauksissa**
 
-**Rationale:**
-This candidate has evidence level L5 (model prediction only) with zero supporting clinical trials or literature, and the mechanistic rationale itself finds no biologically plausible link between bupivacaine's sodium-channel-blocking activity and the fibrotic/inflammatory pathology of acrodermatitis chronica atrophicans. Combined with the drug's non-marketed status and missing safety documentation, there is currently no basis to advance this candidate beyond model prediction.
+**Perustelu:**
+Tällä kandidaatilla on todisteen taso L5 (vain mallin ennuste) nollan tukevan kliinisen tutkimuksen tai kirjallisuuden kanssa, ja mekanistinen perustelu ei itsessään löydä biologisesti uskottavaa yhteyttä bupivakaiinin natriumkanavien blokkausaktiviteetin ja akrodermatitis chronica atrophicansin fibrotiikin tai tulehduksellisen patologian välillä. Lääkkeen markkinoimattoman aseman ja puuttuvan turvallisuusdokumentaation ohella tällä hetkellä ei ole perusteita edetä tämän kandidaatin yli malliennusteen.
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert data on warnings, contraindications, and drug interactions (DG001, Blocking)
-- Confirmed original MOA and approved indication text from DrugBank (DG002, High)
-- A biologically grounded mechanistic hypothesis linking bupivacaine to the target disease before further evidence collection is warranted
-- Re-screening of the other three co-predicted candidates (neonatal dermatomyositis, childhood ILD-CTD, amyopathic dermatomyositis) is not recommended given their similarly unsupported rationale and, for the pediatric indications, added safety risk
+**Edetäkseen tarvitaan seuraava:**
+- TFDA/Fimean pakkausselostedata varoituksista, vasta-aiheista ja lääkkeen vuorovaikutuksista (DG001, Estävä)
+- Vahvistettu alkuperäinen MOA ja hyväksytty indikaatioteksti DrugBankista (DG002, Korkea)
+- Biologisesti perusteltu mekanistinen hypoteesi, joka yhdistää bupivakaiinin kohdistautuneeseen sairaauteen, ennen kuin lisätodisteita on perusteltu kerätä
+- Muiden kolmen yhdessä ennustetun kandidaatin (vastasyntyneiden dermatomyosiitti, lapsuusiän ILD-CTD, amyopaattinen dermatomyosiitti) uudelleenseulonta ei ole suositeltavaa niiden samankaltaisesti tukemattoman perustelun ja pediatristen indikaatioiden vuoksi aiheutuneen turvallisuusriskin vuoksi
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

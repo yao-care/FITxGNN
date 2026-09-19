@@ -29,61 +29,62 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Verteporfin: From Photodynamic Therapy for Neovascular AMD to Mitochondrial Oxidative Phosphorylation Disorder
+# Verteporfini: neovaskularisaation valokuvallisesta hoidosta mitokondriaalisen oksidatiivisen fosforylaation häiriöihin
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Verteporfin (DrugBank DB00460) is a benzoporphyrin-derivative photosensitizer established in photodynamic therapy for choroidal neovascularization. The TxGNN model predicts it may be relevant to **mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies**, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a model-only signal with no independent evidence yet.
+Verteporfini (DrugBank DB00460) on bentsoporfyriinijohdannainen valoherkkä aine, joka on vakiintunut valokuvallisen hoidon käytössä korioideaalisen neovaskularisaation hoitoon. TxGNN-malli ennustaa, että se voi olla merkityksellinen **ydingenomiin liittyvien poikkeavuuksien aiheuttamille mitokondriaalisen oksidatiivisen fosforylaation häiriöille**, mutta tätä ennustetta tukevat tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua** — se on pelkästään mallin antama signaali, jolla ei vielä ole riippumatonta näyttöä.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Photodynamic therapy for choroidal neovascularization (e.g. age-related macular degeneration) — based on established pharmacological knowledge; not present in this evidence pack, which has no `original_indications` data |
-| Predicted New Indication | Mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies |
-| TxGNN Prediction Score | 99.49% (global rank 5558) |
-| Evidence Level | L5 |
-| Taiwan Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Valokuvallinenhoidon käyttö korioideaalisen neovaskularisaation hoitoon (esim. ikään liittyvä makularappeuma) — perustuu vakiintuneisiin farmakologisiin tietoihin; ei sisälly tähän näyttöpakettiin, jossa puuttuvat `original_indications`-tiedot |
+| Ennustettu uusi indikaatio | Ydingenomiin liittyvien poikkeavuuksien aiheuttama mitokondriaalinen oksidatiivisen fosforylaation häiriö |
+| TxGNN-ennusteen pistemäärä | 99.49% (maailmanlaajuinen sijoitus 5558) |
+| Näytön taso | L5 |
+| Taiwanin markkinatilanne | Ei markkinoilla (ei markkinoitu) |
+| Valtuuksien lukumäärä | 0 |
+| Suositeltu päätös | Odottaa |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on perusteltu?
 
-Detailed mechanism-of-action data is not available in this evidence pack (flagged as data gap **DG002**, High severity). Based on established pharmacological knowledge, verteporfin accumulates preferentially in proliferating/neovascular tissue and, once activated by non-thermal red light, generates reactive oxygen species that selectively damage the target endothelium — its established clinical role is ophthalmic photodynamic therapy.
+Yksityiskohtaisia toimintamekanismin tietoja ei ole saatavilla tässä näyttöpaketissa (merkitty tietojen puutteeksi **DG002**, korkea vakavuus). Vakiintuneiden farmakologisten tietojen perusteella verteporfini kertyy mieluiten nopeasti jakautuviin ja neovaskularisoiduissa kudoksissa, ja kun se aktivoidaan ei-lämpimällä punavalolla, se tuottaa reaktiivisia happiyhdisteitä, jotka valikoidusti vahingoittavat kohteen endoteelia — sen vakiintunut kliininen rooli on oftalmologinen valokuvallinenhoidon soveltaminen.
 
-The predicted indication — a nuclear-DNA-related mitochondrial OXPHOS disorder — has no obvious mechanistic overlap with this photoactivation pathway. TxGNN's score reflects a knowledge-graph association rather than a validated pharmacological link, and the pack's own `repurposing_rationale` fields (`mechanistic_link`, `similarity_to_original`) are both marked **pending**, meaning expert mechanistic review has not yet been done.
+Ennustetulla indikaatiolla — ydingenomiin liittyvälla mitokondriaalisen oksidatiivisen fosforylaation häiriöllä — ei ole ilmeistä mekanistista yhteneväisyyttä tämän fotoaktivaatioprosessin kanssa. TxGNN:n pistemäärä heijastaa tietoverkkojen assosiaatiota pikemminkin kuin vahvistettua farmakologista yhteyttä, ja paketin omat `repurposing_rationale`-kentät (`mechanistic_link`, `similarity_to_original`) on molemmat merkitty **odottaviksi**, mikä tarkoittaa, että asiantuntijapohjaista mekanistista tarkistusta ei ole vielä suoritettu.
 
-Because the original indication itself is also missing from this evidence pack (empty `original_indications`), the comparison between original and predicted indications cannot be substantiated from the data provided. This prediction should be treated as hypothesis-generating only, pending mechanistic review and confirmation of TFDA/regulatory labeling (data gap **DG001**, Blocking severity).
+Koska alkuperäinen indikaatio puuttuu myös tästä näyttöpaketista (tyhjä `original_indications`), alkuperäisen ja ennustetun indikaation välinen vertailu ei voi perustua annettuihin tietoihin. Tämä ennuste tulisi käsitellä vain hypoteesia herättävänä, kunnes mekanistinen tarkistus on suoritettu ja TFDA/viranomaislaajennus on vahvistettu (tietojen puute **DG001**, esto-vakavuus).
 
-## Clinical Trial Evidence
+## Kliiniset tutkimusnäytöt
 
-Currently no related clinical trials registered.
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
 
-## Literature Evidence
+## Kirjallisuusnäytöt
 
-Currently no related literature available.
+Tällä hetkellä asiaan liittyvää kirjallisuutta ei ole saatavilla.
 
-## Taiwan Market Information
+## Taiwanin markkinatiedot
 
-Verteporfin is not marketed in Taiwan (market status: Not marketed), with 0 active authorizations recorded — no license table available.
+Verteporfini ei ole markkinoilla Taiwanissa (markkinatilanne: ei markkinoitu), jossa on 0 aktiivista valtuutta kirjattuna — lisensitaulukkoa ei ole saatavilla.
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information.
+Turvallisuustiedot löytyvät pakkausselosteesta.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Odottaa**
 
-**Rationale:**
-This is an L5, model-prediction-only signal with no clinical trials, no literature, and no mechanistic analysis completed, combined with a Blocking data gap on TFDA labeling. There is currently insufficient evidence to proceed even under guardrails.
+**Perustelut:**
+Tämä on L5, pelkästään mallin antama ennustesignaali, jolla ei ole kliinisiä tutkimuksia, kirjallisuutta eikä suoritettua mekanistista analyysia, yhdistettynä estävään tietojen puutteeseen TFDA-laajennuksesta. Tällä hetkellä ei ole riittäviä näyttöjä edetäkseen edes turvavalvonnan alaisina.
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings/contraindications) — Blocking gap DG001
-- Verified mechanism of action (DrugBank/primary literature) — High gap DG002
-- Confirmed original indication data (currently empty in this pack)
-- Completion of `mechanistic_link` and `similarity_to_original` rationale analysis
-- Ongoing monitoring for emerging clinical trials or literature on this indication
+**Edetäkseen tarvitaan seuraava:**
+- TFDA:n pakkausseloste (varoitukset/vasta-aiheet) — esto-puute DG001
+- Vahvistettu toimintamekanismi (DrugBank/alkuperäinen kirjallisuus) — korkea puute DG002
+- Vahvistetut alkuperäisen indikaation tiedot (tällä hetkellä tyhjät tässä paketissa)
+- `mechanistic_link`- ja `similarity_to_original`-perustelun analyysin saattaminen loppuun
+- Jatkuva seuranta nousevan kliinisen tutkimuksen tai kirjallisuuden osalta tästä indikaatiosta
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -29,58 +29,59 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Ferric Maltol: From Iron Deficiency Anemia to Plummer-Vinson Syndrome
+# Ferric Maltol: Raudanpuutosanemiatsta Plummer-Vinson syndrooman
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Ferric maltol is an oral trivalent iron complex established for treating iron deficiency anemia. The TxGNN model predicts it may also be effective for **Plummer-Vinson syndrome**, a rare iron-deficiency-driven dysphagia disorder, but this direction is currently supported only by mechanistic reasoning — **no clinical trials or published literature** exist for this specific indication.
+Ferric maltol on peroraalinen trivalentin raudan kompleksi, joka on vakiintunut raudanpuutosanemiaan. TxGNN-malli ennustaa, että sillä voisi olla teho myös **Plummer-Vinson syndroomassa**, harvinaisessa raudanpuutokseen liittyvässä nielemisvaikeuksien häiriössä, mutta tämä indikaatio perustuu tällä hetkellä vain mekanistiseen perusteluun — **kliinisiä tutkimuksia tai julkaistua kirjallisuutta** tästä spesifistä indikaatiosta ei ole olemassa.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Iron deficiency anemia (per drug mechanism data; no formal indication record in this evidence pack) |
-| Predicted New Indication | Plummer-Vinson syndrome |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L4 |
-| Taiwan Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen indikaatio | Raudanpuutosanemias (perustuu lääkkeen mekanismidataan; ei virallista indikaatiokirjausta tässä näyttöpakeissa) |
+| Ennustettu uusi indikaatio | Plummer-Vinson syndrooma |
+| TxGNN-ennustustepistemäärä | 99.98% |
+| Todistusaste | L4 |
+| Taiwanin markkinointi-status | Ei markkinoilla (Not Marketed) |
+| Lupahyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Odottava |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on kohtuullinen?
 
-Detailed mechanism of action data for ferric maltol is not available in this evidence pack (flagged as a High-severity data gap). Based on known pharmacology, ferric maltol is an oral Fe³⁺-maltol complex used to treat iron deficiency anemia; its efficacy in that original indication is well established, and mechanistically it may extend to Plummer-Vinson syndrome.
+Ferric maltolin yksityiskohtainen vaikutusmekanismin data ei ole saatavilla tässä näyttöpaketissa (merkitty korkean vakavuuden tietoaukoksi). Tunnetun farmakologian perusteella ferric maltol on peroraalinen Fe³⁺-maltoli-kompleksi, jota käytetään raudanpuutosanemiaan; sen teho alkuperäisessä indikaatiossa on vakiintunut, ja mekanistisesti se saattaa laajentua Plummer-Vinson syndrooman.
 
-Plummer-Vinson syndrome (iron-deficiency dysphagia syndrome) has chronic iron deficiency anemia as its core etiology, and standard treatment is iron repletion. On this basis, ferric maltol's known efficacy in correcting iron deficiency provides physiological plausibility for benefit in this syndrome.
+Plummer-Vinson syndroomassa (raudanpuutokseen liittyvä nielemisvaikeuksien syndrooma) krooninen raudanpuutosanemias on sen keskeinen etiologia, ja tavallinen hoito on raudan korvaus. Tämän perusteella ferric maltolin tunnettu teho raudanpuutoksen korjaamisessa antaa fysiologisen perusteen olettaa hyötyä tässä syndroomassa.
 
-However, the mechanistic link is indirect: ferric maltol would treat the underlying anemia rather than act directly on the esophageal web/mucosal pathology that defines the syndrome. No drug-specific clinical or literature evidence currently exists to confirm this translates into symptomatic or structural benefit.
+Mekanistinen yhteys on kuitenkin epäsuora: ferric maltol hoitaisi taustalla olevaa anemiaa sen sijaan, että se vaikuttaisi suoraan ruokatorven verkkohäiriöihin/limakalvon patologiaan, joka määrittelee syndrooman. Lääkkeen spesifistä kliinistä tai kirjallisuusaineistoa ei tällä hetkellä ole olemassa vahvistamaan, että tämä johtaa oireisiin tai rakenteellisesti mitattaviin hyötyihin.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-Currently no related clinical trials registered
+Ei tällä hetkellä liittyviä rekisteröityjä kliinisia tutkimuksia
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-Currently no related literature available
+Ei tällä hetkellä saatavilla liittyvää kirjallisuutta
 
-## Safety Considerations
+## Turvallisuushuomiot
 
-Please refer to the package insert for safety information.
+Katso pakkausselostetta turvallisuustiedoista.
 
-*Note: TFDA package insert warnings/contraindications (Blocking data gap) and full MOA data (High-severity data gap) are not yet available, which prevents completion of the standard S1 safety pre-assessment.*
+*Huomio: TFDA pakkausseloste varoitukset/vasta-aiheet (Blocking tietoaukko) ja täysi vaikutusmekanismi-data (korkean vakavuuden tietoaukko) eivät ole vielä saatavilla, mikä estää vakiomuotoisen S1-turvallisuusennakkoarvioinnin loppuunsaattamisen.*
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Odottava**
 
-**Rationale:**
-The prediction rests solely on mechanistic plausibility (L4, TxGNN score only) with zero clinical trials or literature support, and a Blocking-severity safety data gap (missing TFDA package insert) currently prevents any safety pre-assessment. The drug is also not marketed in Taiwan.
+**Perustelu:**
+Ennuste perustuu yksinomaan mekanistiseen uskottavuuteen (L4, vain TxGNN-pisteet) ilman mitään kliinisiä tutkimuksia tai kirjallisuuden tukea, ja Blocking-vakavuuden turvallisuustietoaukko (puuttuva TFDA-pakkausseloste) estää tällä hetkellä turvallisuusennakkoarvioinnin suorittamisen. Lääkettä ei myöskään markkinoida Taiwanissa.
 
-**To proceed, the following is needed:**
-- TFDA package insert / warnings and contraindications data (Blocking gap, DG001)
-- Confirmed mechanism of action from DrugBank or primary literature (High-priority gap, DG002)
-- Targeted literature search for iron therapy in Plummer-Vinson syndrome (even for iron formulations other than ferric maltol, as supportive class-level evidence)
-- Assessment of route/formulation compatibility given the syndrome typically involves dysphagia
+**Jatkon edellytyksillä tarvitaan:**
+- TFDA pakkausseloste / varoitukset ja vasta-aiheet (Blocking tietoaukko, DG001)
+- Vahvistettu vaikutusmekanismi DrugBankista tai pääkirjallisuudesta (korkean prioriteetin tietoaukko, DG002)
+- Kohdennettu kirjallisuushaku rautahoidosta Plummer-Vinson syndroomassa (jopa muille rautavalmisille kuin ferric maltol, luokkatasoisena tukevana näyttönä)
+- Antamisreitin ja muotoilun sopivuuden arviointi ottaen huomioon, että syndrooma sisältää tyypillisesti nielemisvaikeuksia
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

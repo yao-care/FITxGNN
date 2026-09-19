@@ -29,74 +29,75 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Efmoroctocog Alfa: From Hemophilia A to Pseudo-von Willebrand Disease
+# Efmoroctocog alfa: Hemofiliasta A pseudo-von Willebrand -sairauteen
 
-## One-Sentence Summary
+## Yksirivinen yhteenveto
 
-Efmoroctocog alfa (recombinant Factor VIII Fc fusion protein) is known as a Factor VIII replacement therapy for Hemophilia A, though this evidence pack itself contains no confirmed original-indication data (data gap). The TxGNN model predicts it may be effective for **pseudo-von Willebrand disease**, but the model's own mechanistic rationale flags this link as biologically weak, and **no clinical trials or literature** currently support the direction.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not captured in this evidence pack (original_indications is empty). Based on general drug knowledge, efmoroctocog alfa is a Factor VIII replacement therapy for Hemophilia A — see note below. |
-| Predicted New Indication | Pseudo-von Willebrand disease |
-| TxGNN Prediction Score | 99.997% (rank 54 among all predictions) |
-| Evidence Level | L5 (model prediction only, no supporting trials or literature) |
-| Finland Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Efmoroctocog alfa (rekombinantti Faktori VIII Fc -fuusioproteini) tunnetaan Hemofilian A Faktori VIII -korvaavana hoitona, vaikka tämä näyttöpaketti itsessään ei sisällä varmennetun alkuperäisen indikaation tietoja (tietoaukko). TxGNN-malli ennustaa, että se voi olla tehokas **pseudo-von Willebrand -sairaudessa**, mutta mallin oma mekanistinen perusteltu liputtaa tämän yhteyden biologisesti heikoksi, ja **yhtään kliinistä tutkimusta tai kirjallisuutta** ei tällä hetkellä tue suuntaa.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Currently, detailed mechanism of action data is not available in this evidence pack (data gap). Based on known information, efmoroctocog alfa is a recombinant Factor VIII Fc fusion protein whose established role is replacing deficient Factor VIII in Hemophilia A; mechanistically it acts purely on the coagulation cascade, not on platelet function.
-
-Pseudo-von Willebrand disease, however, is caused by a gain-of-function mutation in platelet glycoprotein Ibα that leads to abnormal platelet–von Willebrand factor binding — it is a platelet-receptor disorder, not a Factor VIII deficiency. The evidence pack's own repurposing rationale for this candidate states the mechanistic link is weak: "Efmoroctocog alfa 僅補充 FVIII，並不修正血小板-vWF 交互作用異常，機轉關聯薄弱，TxGNN 高分可能反映 FVIII/vWF 複合體共現特徵的嵌入偏誤" (the drug only supplements FVIII and does not correct the platelet–vWF interaction abnormality; the high TxGNN score likely reflects an embedding bias from FVIII/vWF complex co-occurrence in the knowledge graph rather than a genuine therapeutic mechanism).
-
-Given this explicit self-flagged mechanistic weakness, and the complete absence of clinical trial or literature support, the top-ranked prediction should be treated as a hypothesis-generation artifact rather than a credible repurposing candidate at this stage.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Kohta | Sisältö |
+|-------|---------|
+| Alkuperäinen indikaatio | Ei tallennettu tähän näyttöpakettiin (original_indications on tyhjä). Yleisen lääkkeen tiedon perusteella efmoroctocog alfa on Faktori VIII -korvaavaa hoitoa Hemofiliaan A — katso huomautus alla. |
+| Ennustettu uusi indikaatio | Pseudo-von Willebrand -sairaus |
+| TxGNN-ennusteen pistemäärä | 99.997% (sijoitus 54 kaikista ennusteista) |
+| Näyttötaso | L5 (vain mallin ennuste, ei tukevia tutkimuksia tai kirjallisuutta) |
+| Markkinatilanne Suomessa | Ei markkinoilla |
+| Myyntilupien lukumäärä | 0 |
+| Suositeltu päätös | Pidätä |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennuste on perusteltu?
 
-Currently no related literature available.
+Tällä hetkellä tarkemmat vaikutusmekanismin tiedot eivät ole saatavilla tässä näyttöpaketissa (tietoaukko). Tunnetun tiedon perusteella efmoroctocog alfa on rekombinantti Faktori VIII Fc -fuusioproteini, jonka vakiintunut rooli on korvata puutteellinen Faktori VIII hemofiliassa A; mekanistisesti se toimii puhtaasti hyytymiskaskadissa, ei verihiutale-toiminnassa.
 
----
+Pseudo-von Willebrand -sairaus sen sijaan johtuu verihiutaleen glykoproteini Ibα:n gain-of-function-mutaatiosta, joka johtaa epänormaaliin verihiutale-von Willebrand -tekijä -sitoutumiseen — se on verihiutale-reseptorisairaus, ei Faktori VIII -puutos. Näyttöpaketin oma uudelleenkäytön perustelut tälle kandidaatille kuvaavat mekanistisen yhteyden olevan heikko: "Efmoroctocog alfa 僅補充 FVIII，並不修正血小板-vWF 交互作用異常，機轉關聯薄弱，TxGNN 高分可能反映 FVIII/vWF 複合體共現特徵的嵌入偏誤" (lääke vain korvaa FVIII:n eikä korjaa verihiutale-vWF -vuorovaikutuksen poikkeavuutta; korkea TxGNN-pistemäärä heijastaa todennäköisesti upotusviherharhaa FVIII/vWF-kompleksin rinnakkaisesiintymisestä tietoverkossa, ei aidon terapeuttisen mekanismin perusteella).
 
-## Finland Market Information
-
-Efmoroctocog alfa currently has no marketing authorization in Finland (market status: not marketed; 0 authorizations on file).
+Ottaen huomioon tämän eksplisiittisesti merkityn mekanistisen heikkouden ja kliinisten tutkimusten ja kirjallisuuden täydellistä puutetta, tärkeimmäksi sijoitettu ennuste tulisi käsitellä hypoteesin luomisen artefaktina sen sijaan, että se olisi uskottava uudelleenkäytön kandidaatti tässä vaiheessa.
 
 ---
 
-## Safety Considerations
+## Kliinisen tutkimuksen näyttö
 
-Please refer to the package insert for safety information. (Note: TFDA/Fimea label warnings and contraindications are marked as a **Blocking** data gap in this evidence pack — this must be resolved before any safety assessment can proceed; see Conclusion below.)
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
 
 ---
 
-## Conclusion and Next Steps
+## Kirjallisuuden näyttö
 
-**Decision: Hold**
+Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta.
 
-**Rationale:**
-The top-ranked prediction (pseudo-von Willebrand disease) has a high TxGNN score but is explicitly flagged by the model's own rationale as mechanistically weak and likely a knowledge-graph embedding artifact, with zero supporting clinical trials or literature (Evidence Level L5). Combined with the drug's non-marketed status in Finland and a blocking data gap on package-insert safety information, there is no basis to advance this candidate beyond hypothesis stage.
+---
 
-**To proceed, the following is needed:**
-- Resolve blocking data gap DG001 (TFDA/Fimea package insert warnings and contraindications) before any S1 safety review
-- Resolve high-priority data gap DG002 (confirmed mechanism of action) to properly assess mechanistic plausibility
-- Confirm the drug's original approved indication(s), which are currently absent from this evidence pack
-- If pursuing repurposing further, consider prioritizing the two L4 candidates instead — **acquired coagulation factor deficiency** (rank 5) and **hemophilia A with vascular abnormality** (rank 9) — both flagged in this pack as "Research Question" with a direct, plausible mechanistic link to Factor VIII replacement, unlike the current top-ranked candidate
+## Markkinatilanne Suomessa
+
+Efmoroctocog alfalla ei tällä hetkellä ole myyntilupaa Suomessa (markkinatilanne: ei markkinoilla; 0 myyntilupaa arkistossa).
+
+---
+
+## Turvallisuusnäkökohdat
+
+Katso turvallisuustiedot pakkausselosteesta. (Huomautus: TFDA/Fimea-pakkausselosteen varoitukset ja vasta-aiheet on merkitty **estäväksi** tietoaukoksi tässä näyttöpaketissa — tämä on ratkaistava ennen kuin mikään turvallisuusarviointi voidaan suorittaa; katso Johtopäätös alla.)
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidätä**
+
+**Perustelut:**
+Korkeimmaksi sijoitetulla ennusteella (pseudo-von Willebrand -sairaus) on korkea TxGNN-pistemäärä, mutta mallin oma perusteltu liputtaa sen mekanistisesti heikoksi ja todennäköisesti tietoverkko-upotusviherharhaksi, nolla tukevia kliinisiä tutkimuksia tai kirjallisuutta (Näyttötaso L5). Yhdessä lääkkeen markkinoimattoman aseman Suomessa ja estävän tietoaukon kanssa pakkausselosteen turvallisuustiedoissa, ei ole perustaa edistää tätä kandidaattia hypoteesin vaiheen jälkeen.
+
+**Jatkamiseksi tarvitaan seuraavaa:**
+- Ratkaise estävä tietoaukko DG001 (TFDA/Fimea pakkausselosteen varoitukset ja vasta-aiheet) ennen mitään S1-turvallisuustarkastelua
+- Ratkaise korkean prioriteetin tietoaukko DG002 (vahvistettu vaikutusmekanismi) mekanistisen uskottavuuden asianmukaiseksi arvioimiseksi
+- Vahvista lääkkeen alkuperäiset hyväksytyt indikaatiot, jotka puuttuvat tällä hetkellä tästä näyttöpaketista
+- Jos haluat jatkaa uudelleenkäyttöä, harkitse kahden L4-kandidaatin priorisointia sen sijaan — **hankittu hyytymistekijän puutos** (sijoitus 5) ja **hemofilia A verisuonapoikkeamalla** (sijoitus 9) — molemmat merkitty tässä paketissa "tutkimuskysymykseksi" suoraviivaisella, uskottavalla mekanistisella linkillä Faktori VIII -korvaukseen, toisin kuin nykyisen korkeimmaksi sijoitetun kandidaatin kohdalla
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

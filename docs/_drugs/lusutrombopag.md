@@ -29,58 +29,59 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Lusutrombopag: From Chronic Liver Disease-Associated Thrombocytopenia to Hereditary Thrombocytopenia with Normal Platelets
+# Lusutrombopag: kroonisen maksasairauden liittyvästä trombosytopeniasta periytyvään normaalien verihiutaleiden trombosytopeniaan
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Lusutrombopag is an oral TPO receptor agonist originally used to raise platelet counts before scheduled invasive procedures in patients with chronic liver disease. The TxGNN model predicts it may be relevant to **Hereditary Thrombocytopenia with Normal Platelets**, but this signal is currently supported by **0 clinical trials** and **0 publications** — it is a computational prediction only.
+Lusutrombopag on suun kautta otettava TPO-reseptorin agonisti, jota alun perin käytettiin verihiutaleiden määrän nostamiseen ennen suunniteltuja invasiivisia toimenpiteitä potilaille, joilla on krooninen maksasairaus. TxGNN-malli ennustaa, että sillä voi olla merkitystä **periytyvään normaalien verihiutaleiden trombosytopeniaan**, mutta tätä signaalia ei tällä hetkellä tueta millään **kliinisellä tutkimuksella** tai **julkaisulla** — kyse on puhtaasti laskennallisesta ennusteesta.
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohde | Sisältö |
 |------|------|
-| Original Indication | Preoperative thrombocytopenia in chronic liver disease patients (per evidence-pack rationale text; not independently confirmed by a formal indication record) |
-| Predicted New Indication | Hereditary Thrombocytopenia with Normal Platelets |
-| TxGNN Prediction Score | 99.995% (rank 88 overall) |
-| Evidence Level | L5 (model prediction only) |
-| Finland Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen käyttöaihe | Preoperatiivinen trombosytopenia kroonisen maksasairauden potilaille (näyttöpaketin perustelutekstin mukaan; ei itsenäisesti vahvistettu muodollisen käyttöaiherekisteröinnin perusteella) |
+| Ennustettu uusi käyttöaihe | Periytyvä normaalien verihiutaleiden trombosytopenia |
+| TxGNN-ennustepisteytys | 99.995% (sijaluku 88 kaikkiaan) |
+| Näyttötaso | L5 (vain malli-ennuste) |
+| Markkinatilanne Suomessa | Ei markkinoilla |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Odota |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on perusteltu?
 
-Detailed mechanism of action data is flagged as a data gap in the structured record (DG002). Based on the information available in the evidence pack, lusutrombopag is an oral TPO receptor agonist (TPO-RA) that stimulates megakaryocyte proliferation and differentiation to increase platelet production; its approved use is for thrombocytopenia prior to invasive procedures in chronic liver disease.
+Yksityiskohtaista vaikutusmekanismin tietoa on merkitty tietovajeeksi strukturoidussa rekisterissä (DG002). Näyttöpakettiin saatavilla olevan tiedon perusteella lusutrombopag on suun kautta otettava TPO-reseptorin agonisti (TPO-RA), joka stimuloi megakaryosyytin proliferaatiota ja differensiaatiota verihiutaleiden tuotannon lisäämiseksi; sen hyväksytty käyttöaihe on trombosytopenia ennen suunniteltuja invasiivisia toimenpiteitä kroonisen maksasairauden potilaille.
 
-Hereditary thrombocytopenia with normal platelets is a disorder of platelet production regulation rather than a platelet functional defect, so directionally the TPO-RA mechanism (increasing platelet output) is biologically plausible for this indication. However, this link is inferred purely from TxGNN embedding similarity — there is no clinical trial, registry, or published case evidence connecting lusutrombopag to this condition to date.
+Periytyvä normaalien verihiutaleiden trombosytopenia on verihiutaleiden tuotannon säätelyyn liittyvä häiriö eikä verihiutaleiden toiminnallinen vika, joten TPO-RA-mekanismi (verihiutaleiden tuotannon lisääminen) on periaatteessa biologisesti uskottava tälle käyttöaihelle. Tämä yhteys päätellään kuitenkin puhtaasti TxGNN-embedding-samankaltaisuudesta — tähän mennessä ei ole olemassa kliinisiä tutkimuksia, rekisteritietoja tai julkaistuja tapausselostuksia, jotka yhdistäisivät lusutrombopagiin tässä sairaudessa.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-Currently no related clinical trials registered
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-Currently no related literature available
+Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta
 
-## Finland Market Information
+## Markkinatiedot Suomesta
 
-Lusutrombopag is not currently marketed in Finland — no marketing authorizations are on record, so no product/dosage-form/indication information is available.
+Lusutrombopag-lääkettä ei tällä hetkellä markkinoida Suomessa — rekisterissä ei ole hyväksyntöjä, joten tuotteen/antomuodon/käyttöaihetietoja ei ole saatavilla.
 
-## Safety Considerations
+## Turvallisuusnäkökohdat
 
-Please refer to the package insert for safety information. Note: TFDA package insert warnings/contraindications data is currently a **blocking data gap (DG001)** — a formal S1 safety screening cannot be completed until this is resolved.
+Katso turvallisuustietoja pakkausselosteesta. Huomio: TFDA-pakkausselosteen varoitukset ja vasta-aiheet ovat tällä hetkellä estävä tietovajeeksi (DG001) — muodollista S1-turvallisuusseulontaa ei voi suorittaa, kunnes tämä on ratkaistu.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Odota**
 
-**Rationale:**
-The top-ranked prediction is itself scored as a "Research Question" (S0), with no clinical trial or literature support, and the drug's safety data (TFDA insert) is a blocking gap that prevents even a preliminary safety screen. The other 9 predicted indications in this evidence pack (rank 2–10, including two ALS-spectrum diseases likely reflecting embedding-level false positives) were independently assessed as Hold, reinforcing that this candidate is not yet actionable.
+**Perustelut:**
+Parhaiten sijoittunut ennuste on sinällään luokiteltu "Tutkimuskysymykseksi" (S0), ilman kliinisen tutkimuksen tai kirjallisuuden tukea, ja lääkkeen turvallisuustiedot (TFDA-seloste) ovat estävä vajeeksi, joka estää jopa alustavan turvallisuusseulonnan. Tämän näyttöpaketin muut 9 ennustettua käyttöaihetta (sijaluku 2–10, mukaan lukien kaksi ALS-spektrin sairautta, jotka todennäköisesti heijastavat embedding-tason vääriä positiivisia tuloksia) arvioitiin itsenäisesti Odota-päätökseksi, mikä vahvistaa, että tämä ehdokas ei vielä ole käyttökelpoinen.
 
-**To proceed, the following is needed:**
-- TFDA/manufacturer package insert (resolves DG001 — required before any safety screening)
-- Confirmed mechanism of action detail (resolves DG002)
-- Preclinical or mechanistic evidence directly linking TPO-RA pathway activity to hereditary thrombocytopenia with normal platelets
-- Ongoing literature/trial monitoring, since current PubMed/ClinicalTrials.gov/ICTRP searches all returned zero results
+**Jotta voitaisiin edetä, tarvitaan seuraavaa:**
+- TFDA/valmistajan pakkausseloste (ratkaisee DG001 — vaaditaan ennen mitään turvallisuusseulontaa)
+- Vahvistettu vaikutusmekanismin yksityiskohta (ratkaisee DG002)
+- Prekliininen tai mekanistinen näyttö, joka suoraan yhdistää TPO-RA-signalointireitin aktiivisuuden periytyvään normaalien verihiutaleiden trombosytopeniaan
+- Jatkuva kirjallisuus- ja tutkimusseuranta, sillä nykyiset PubMed/ClinicalTrials.gov/ICTRP-haut eivät tuottaneet tuloksia
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

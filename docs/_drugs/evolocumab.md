@@ -29,74 +29,75 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Evolocumab: From Hypercholesterolemia to Symptomatic Hemophilia in Female Carriers
+# Evolocumab: hyperkolesterolemiastä oireiseen hemofiliaan naiskantajissa
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Evolocumab is a PCSK9-inhibiting monoclonal antibody used to lower LDL cholesterol in hypercholesterolemia/dyslipidemia. The TxGNN model's top prediction suggests possible relevance to **symptomatic hemophilia in female carriers**, but this direction is currently supported by **0 clinical trials** and **0 publications**, and the evidence pack's own mechanistic analysis flags it as a likely graph-topology artifact rather than a genuine biological link.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Not on file — Finland market status is "not marketed," so no approved-indication text exists in the license registry. (General MOA context from the evidence pack: lipid metabolism / LDL-C lowering.) |
-| Predicted New Indication | Symptomatic Form of Hemophilia in Female Carriers |
-| TxGNN Prediction Score | 99.82% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Evolocumab on PCSK9:tä estävä monoklonaalinen vasta-aine, jota käytetään LDL-kolesterolin alentamiseen hyperkolesterolemian/dyslipidemiassa. TxGNN-mallin parhaan ennusteen mukaan lääke voisi mahdollisesti liittyä **oireiseen hemofiliaan naiskantajissa**, mutta tätä suuntaa tuetaan tällä hetkellä **0 kliinisellä tutkimuksella** ja **0 julkaisulla**, ja todiste-paketin oma mekanistinen analyysi merkitsee sen todennäköiseksi graafitopologian artefaktiksi eikä todelliseksi biologiseksi linkiksi.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Pikayhteenveto
 
-Detailed mechanism-of-action data (`original_moa`) is not available in this evidence pack. Based on the rationale text attached to the ranked predictions, evolocumab is an anti-PCSK9 monoclonal antibody that inhibits PCSK9-mediated degradation of the LDL receptor, thereby increasing LDL-C clearance — i.e., it acts on the lipid-metabolism / LDL-receptor pathway.
-
-Symptomatic hemophilia in female carriers is a coagulation-factor disorder (Factor VIII/IX deficiency linked to X-chromosome carrier status), which operates through an entirely different biological axis than LDL receptor regulation. The evidence pack's own repurposing rationale explicitly states there is **no known mechanistic link** between PCSK9 inhibition and coagulation factor VIII/IX expression, and suggests the high TxGNN score likely reflects the graph model's proximity to a "rare hereditary disease" node cluster rather than a real pharmacological relationship.
-
-This pattern repeats across all six ranked predictions in this pack (familial ApoC-II deficiency, thrombocytopenic purpura, factor XI deficiency, hemophilia A with vascular abnormality, and the non-specific ontology node "disease of catalytic activity") — each rationale independently concludes the mechanistic basis is weak or absent, and none currently have any clinical trial or literature support. This is a low-confidence prediction set that requires substantial additional evidence before any repurposing action is warranted.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Kohde | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Ei saatavilla — Suomessa lääke ei ole markkinoitu, joten hyväksyttyä indikaatiotekstiä ei ole olemassa rekisterissä. (Yleinen toimintamekanismin konteksti todiste-paketista: lipidien aineenvaihdunta / LDL-C:n alentaminen.) |
+| Ennustettu uusi indikaatio | Oireinen hemofilia naiskantajissa |
+| TxGNN-ennustepistemäärä | 99.82% |
+| Näyttöjen taso | L5 (vain mallin ennuste, ei tukevia tutkimuksia) |
+| Suomen markkinointistatus | ✗ Ei markkinoitu |
+| Hyväksyntöjen määrä | 0 |
+| Suositeltu päätös | Pidätä |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennuste on järkevä?
 
-Currently no related literature available.
+Yksityiskohtaista toimintamekanismin tietoa (`original_moa`) ei ole saatavissa tässä todiste-paketissa. Ennusteisiin liitetyn perustelutekstin perusteella evolocumab on anti-PCSK9-monoklonaalinen vasta-aine, joka estää PCSK9-välitteisen LDL-reseptorin hajoamisen, mikä lisää LDL-C:n klirensia — toisin sanoen se vaikuttaa lipidien aineenvaihdanta- / LDL-reseptorisignaalointitielle.
 
----
+Oireinen hemofilia naiskantajissa on verihyytymistekijän häiriö (faktori VIII/IX-puutos, joka liittyy X-kromosomaaliseen kantajuuteen), joka toimii täysin eri biologisella akselilla kuin LDL-reseptorin säätely. Todiste-paketin oma uudelleenkäyttöperustelu eksplisiittisesti toteaa, että **ei ole tunnettua mekanistista yhteyttä** PCSK9-eston ja verihyytymistekijöiden VIII/IX ilmentymisen välillä, ja ehdottaa, että korkea TxGNN-pistemäärä todennäköisesti heijastaa graafimallin läheisyyttä "harvinaisen perinnöllisen sairauden" solmuryppään eikä todellista farmakologista suhdetta.
 
-## Finland Market Information
-
-No marketing authorizations are on file — evolocumab is currently **not marketed** in Finland (0 licenses registered), so no approved-indication text is available for comparison.
+Tämä kuvio toistuu kaikissa kuudessa arvoitussa ennusteessa tässä paketeissa (perinnöllinen ApoC-II-puutos, trombosytopeninen purpura, faktori XI-puutos, hemofilia A verisuonien poikkeavuuksilla ja ei-spesifinen ontologia-solmu "katalyyttisen aktiivisuuden sairaus") — jokainen perusteluteksti itsenäisesti päättelee, että mekanistinen perusta on heikko tai olematon, eikä millään näistä ole tällä hetkellä kliinisiä tutkimuksia tai kirjallisuustukea. Tämä on matalan luotettavuuden ennuste-joukko, joka vaatii huomattavaa lisätutkimusta ennen kuin uudelleenkäyttötoiminnalle on perustetta.
 
 ---
 
-## Safety Considerations
+## Kliinisen tutkimuksen näyttö
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-drug interaction data are all currently unavailable in this evidence pack — TFDA/Fimea package-insert retrieval is flagged as a **blocking** data gap in `meta.data_gaps` (DG001).)
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
 
 ---
 
-## Conclusion and Next Steps
+## Kirjallisuuden näyttö
 
-**Decision: Hold**
+Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta.
 
-**Rationale:**
-All six TxGNN-predicted indications sit at evidence level L5 (model prediction only) with zero supporting clinical trials or literature, and the pack's own mechanistic-link analysis assesses the top candidates as probable graph-topology artifacts rather than genuine pharmacological relationships. Combined with the drug's unlicensed status in Finland, there is currently no basis to advance this candidate.
+---
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert (warnings, contraindications, DDI) — currently a blocking data gap (DG001)
-- Confirmed mechanism of action from DrugBank or primary literature — currently a high-severity gap (DG002)
-- Independent mechanistic or preclinical evidence connecting PCSK9 inhibition to coagulation-factor or hematologic pathways, beyond TxGNN embedding proximity
-- Ongoing monitoring for any new clinical trial or publication signal on this drug–disease pair, given the current complete absence of real-world evidence
+## Suomen markkinatiedot
+
+Markkinointihyväksynnät eivät ole arkistossa — evolocumab ei ole tällä hetkellä **markkinoitu** Suomessa (0 lupaa rekisteröity), joten vertailtavaa hyväksytyn indikaation tekstiä ei ole saatavissa.
+
+---
+
+## Turvallisuusnäkökohdat
+
+Turvallisuustiedot löytyvät pakkausselosteesta. (Tärkeät varoitukset, vasta-aiheet ja lääkkeiden välisen vuorovaikutuksen tiedot eivät ole tällä hetkellä saatavissa tässä todiste-paketissa — TFDA/Fimea-pakkausselosteen haku on merkitty **estäväksi** tietovajeeksi `meta.data_gaps`:issa (DG001).)
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Pidätä**
+
+**Perustelut:**
+Kaikki kuusi TxGNN-ennustettua indikaatiota sijaitsevat näyttötason L5 tasolla (vain mallin ennuste) ilman tukevia kliinisiä tutkimuksia tai kirjallisuutta, ja paketin oma mekanistisen yhteyden analyysi arvioi parhaimmat ehdokkaat todennäköisiksi graafitopologian artefakteiksi eikä todellisiksi farmakologisiksi suhteiksi. Yhdessä lääkkeen luvittamattoman aseman kanssa Suomessa, ei ole tällä hetkellä perustetta tämän ehdokkaan edistämiselle.
+
+**Etenemiseksi tarvitaan seuraavaa:**
+- TFDA/Fimea-pakkausseloste (varoitukset, vasta-aiheet, lääkkeiden välinen vuorovaikutus) — tällä hetkellä estävä tietoaukko (DG001)
+- Vahvistettu toimintamekanismi DrugBankista tai peruskirjallisuudesta — tällä hetkellä vakava tietoaukko (DG002)
+- Itsenäinen mekanistinen tai prekliininen näyttö PCSK9-eston ja verihyytymis- tai hematologisten polkujen välisestä yhteydestä TxGNN-upotuksen läheisyyden lisäksi
+- Jatkuva seuranta uusille kliinisen tutkimuksen tai julkaisun signaaleille tässä lääke–tauti-parissa, kun otetaan huomioon tämän hetkinen todellisen maailman näytön täydellinen puute
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

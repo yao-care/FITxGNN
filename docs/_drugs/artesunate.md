@@ -29,60 +29,61 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 
 </div>
 
-# Artesunate: Insufficient Data for Repurposing Evaluation
+# Artesunaatti: Riittämättömät tiedot uudelleenkäyttöarvioinnissa
 
-## One-Sentence Summary
+## Yhteenveto yhdessä lauseessa
 
-Artesunate is a semi-synthetic artemisinin derivative widely recognized as a frontline antimalarial agent.
-The current Evidence Pack contains **no TxGNN predicted indications**, making a standard repurposing evaluation impossible at this stage.
-Before proceeding, critical data gaps — including MOA, safety profile, and model predictions — must be resolved.
+Artesunaatti on artemisiinin puolisynteetinen johdannais, joka on laajalti tunnettu ensimmäisen linjan antimalaaria-aineena.
+Nykyinen näyttöpaketti ei sisällä **yhtään TxGNN:n ennustamaa indikaatiota**, mikä tekee standardin uudelleenkäyttöarvioinnin mahdottomaksi tässä vaiheessa.
+Ennen kuin jatketaan, kriittisten tietojen puutteet — mukaan lukien vaikutusmekanismi, turvallisuusprofiili ja malliennusteet — on ratkaistava.
 
 ---
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Osio | Sisältö |
 |------|---------|
-| Original Indication | Not recorded in Evidence Pack |
-| Predicted New Indication | No predictions available |
-| TxGNN Prediction Score | N/A |
-| Evidence Level | L5 — model prediction data absent |
-| Finland Market Status | Not marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Alkuperäinen indikaatio | Ei kirjattu näyttöpakettiin |
+| Ennustettu uusi indikaatio | Ennusteet eivät ole saatavilla |
+| TxGNN:n ennustuspistemäärä | Ei saatavilla |
+| Todisteiden taso | L5 — mallin ennustetiedot puuttuvat |
+| Suomen markkinoiden asema | Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | Pidä odotuksessa |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on järkevä?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack, and the TxGNN pipeline has not returned any predicted indications for artesunate. As a result, no mechanistic or evidence-based repurposing argument can be constructed at this time.
+Yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla tässä näyttöpaketissa, ja TxGNN-putkilinja ei ole palauttanut yhtään ennustettuja indikaatioita artesunaatille. Tuloksena mitään mekanistista tai näyttöön perustuvaa uudelleenkäyttöargumenttia ei voida rakentaa tässä vaiheessa.
 
-Artesunate belongs to the artemisinin class of antimalarials. It is publicly recognized for its role in treating severe and uncomplicated malaria, including multidrug-resistant *Plasmodium falciparum* infections. There is emerging research interest in its potential anticancer and anti-inflammatory properties — however, without TxGNN scoring and a complete input knowledge graph, any such direction remains speculative and cannot be formally evaluated here.
+Artesunaatti kuuluu artemisiinin antimalaaria-aineiden ryhmään. Se on laajalti tunnettu vakavan ja yksinkertaisen malarian hoidosta, mukaan lukien monilääkereistenttien *Plasmodium falciparum* -infektioiden hoito. Tutkimuksessa on nousevaa kiinnostusta sen mahdollisiin antineoplastisiin ja tulehdusta ehkäiseviin ominaisuuksiin — ilman TxGNN-pisteytysta ja täydellista tietoverkkograafia mikä tahansa tällainen suunta pysyy kuitenkin spekulatiivisena eikä sitä voida muodollisesti arvioida tässä.
 
-Re-running the TxGNN model with complete DrugBank MOA data and a properly linked disease knowledge graph is the necessary prerequisite for generating credible repurposing candidates.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information.
+TxGNN-mallin uudelleenajo täydellisillä DrugBank vaikutusmekanismin tiedoilla ja oikein linkitetyllä sairaustietoverkkograafilla on välttämätön edellytys uskottavien uudelleenkäyttöehdokkaiden luomiselle.
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuusnäkökohdat
 
-**Decision: Hold**
+Turvaohjeet löytyvät pakkausselosteesta.
 
-**Rationale:**
-The Evidence Pack contains no TxGNN predicted indications and no original indication records, making it impossible to evaluate repurposing potential or assess benefit-risk balance at this stage. This is a data completeness issue, not a negative signal about the drug itself.
+---
 
-**To proceed, the following is needed:**
+## Johtopäätös ja seuraavat vaiheet
 
-- **Re-run TxGNN model** with complete input data to generate predicted indication scores
-- **Retrieve MOA data** from DrugBank (DB09274) — flagged as a High-severity gap (DG002)
-- **Parse Finland package insert PDF** to obtain approved indications, key warnings, and contraindications — flagged as a Blocking gap (DG001)
-- **Verify knowledge graph linkage** for artesunate to ensure disease–drug edges are correctly populated before re-prediction
-- **Re-run DDI query** once the drug profile is complete
+**Päätös: Pidä odotuksessa**
+
+**Perustelut:**
+Näyttöpaketti ei sisällä TxGNN:n ennustamia indikaatioita eikä alkuperäisiä indikaatiotietoja, mikä tekee mahdottomaksi arvioida uudelleenkäyttöpotentiaalia tai arvioida hyöty-riskin tasapainoa tässä vaiheessa. Tämä on tietojen täydellisyyden ongelma, ei negatiivinen signaali itse lääkkeestä.
+
+**Jotta voidaan jatkaa, seuraavat asiat ovat tarpeen:**
+
+- **Aja TxGNN-malli uudelleen** täydellisillä tulostiedoilla ennustettujen indikaatioiden pistemäärien luomiseksi
+- **Hae vaikutusmekanismin tiedot** DrugBankista (DB09274) — merkitty korkean vakavuuden puutteeksi (DG002)
+- **Jäsennä Suomen pakkausselosteen PDF** hyväksyttyjen indikaatioiden, tärkeimpien varoitusten ja vasta-aiheisiin saamiseksi — merkitty estäviksi puutteeksi (DG001)
+- **Varmista artesunaatin tietoverkkograafin linkitys** varmistaaksesi, että tauti-lääke-reunat on täytetty oikein ennen uudelleenennustusta
+- **Suorita DDI-kysely uudelleen** kun lääkkeen profiili on valmis
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

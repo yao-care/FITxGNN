@@ -29,62 +29,62 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Pirfenidone: From Idiopathic Pulmonary Fibrosis to Extracutaneous Mastocytoma
+# Pirfenidone: Idiopaattisesta keuhkojen fibrosista ekstrakutaaniseen mastoytoomaan
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Pirfenidone is an oral antifibrotic agent whose established use is idiopathic pulmonary fibrosis (IPF), acting via inhibition of TGF-β1, PDGF, and collagen synthesis pathways.
-The TxGNN model predicts it may be effective for **Extracutaneous Mastocytoma**, with a prediction score of **99.71%**, but currently **0 clinical trials** and **0 publications** directly support this specific pairing — the signal is model-only at this stage.
+Pirfenidone on suun kautta otettava antifibrostinen aine, jonka vakiintunut käyttöaihe on idiopaattinen keuhkojen fibroos (IPF). Se vaikuttaa TGF-β1:n, verihiutaleista peräisin olevan kasvutekijän ja epidermaalisen/fibroblastin kasvutekijän signaloinnin estämisen kautta. TxGNN-malli ennustaa, että se voi olla tehokas **ekstrakutaanisen mastoytooman** hoitoon **99.71%**:n ennusteosuudella, mutta tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua** eivät suoraan tue tätä yhdistelmää — signaali on tässä vaiheessa pelkästään malli-pohjainen.
 
-## Quick Overview
+## Pika-yleiskatsaus
 
-| Item | Content |
-|------|------|
-| Original Indication | Idiopathic Pulmonary Fibrosis (IPF) — not confirmed via Finland licensing data (drug is unmarketed there); inferred from literature within this evidence pack |
-| Predicted New Indication | Extracutaneous Mastocytoma |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L5 |
-| Finland Market Status | Not marketed (Not marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+| Kohta | Sisältö |
+|-------|---------|
+| Alkuperäinen käyttöaihe | Idiopaattinen keuhkojen fibroos (IPF) — ei vahvistettu Suomen markkinointilupien perusteella (lääkkeen markkinointi on keskeytetty); päätelmä tämän näyttöpaketin kirjallisuudesta |
+| Ennustettu uusi käyttöaihe | Ekstrakutaaninen mastoytooma |
+| TxGNN-ennusteosuus | 99.71% |
+| Näyttötaso | L5 |
+| Suomen markkinatilanne | Markkinoilla ei saatavana (Markkinoilla ei saatavana) |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Odottaa |
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennuste on perusteltu?
 
-Currently, detailed mechanism of action data is not available (blocking gap DG002). Based on known information, pirfenidone is an antifibrotic small molecule reported to inhibit TGF-β1, platelet-derived growth factor, and epidermal/fibroblast growth factor signaling, reducing fibroblast proliferation and collagen deposition — the mechanism underlying its efficacy in idiopathic pulmonary fibrosis.
+Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla (estävä puute DG002). Tunnetun tiedon mukaan pirfenidone on antifibrostinen pieni molekyyli, jonka raportoitiin estävän TGF-β1:n, verihiutaleista peräisin olevan kasvutekijän ja epidermaalisen/fibroblastin kasvutekijän signaaliketjua, mikä vähentää fibroblastien lisääntymistä ja kollageenin kertymistä — mekanismi, joka on taustalla sen tehossa idiopaattisen keuhkojen fibroosin hoitoon.
 
-Extracutaneous mastocytoma is a mast cell neoplastic process, biologically distinct from the fibrotic pathology pirfenidone targets. There is no established mechanistic bridge between anti-TGF-β/anti-fibrotic activity and mast cell proliferation control. The TxGNN score most likely reflects an indirect knowledge-graph association (e.g., shared inflammatory or fibrosis-adjacent pathways) rather than a direct causal mechanism, and no clinical, preclinical, or case-level evidence currently exists to support or refute this pairing.
+Ekstrakutaaninen mastoytooma on mastosolun neoplastinen prosessi, joka on biologisesti erillään pirfenidonen kohteista olevasta fibroosin patologiasta. Ei ole vakiintunutta mekanistista yhteyttä anti-TGF-β/anti-fibrostisen aktiivisuuden ja mastosolun lisääntymisen hallinnan välillä. TxGNN-pistemäärä heijastaa todennäköisesti epäsuoraa tietoverkko-assosiaatiota (esim. yhteisiä tulehduksellisia tai fibroosin läheisiä polkuja) suoran kausaalisen mekanismin sijaan, eikä kliinistä, prekliinistä tai tapaus-tason näyttöä ole tällä hetkellä olemassa tukeakseen tai kumotakseen tätä yhdistelmää.
 
-Notably, other lower-ranked predictions in this evidence pack for structurally related "fibroblastic neoplasm" indications carry an important caution: literature evidence includes case reports of tumor progression (undifferentiated pleomorphic sarcoma, aggravated dermatofibromas) following pirfenidone exposure. This raises the possibility that pirfenidone's effect on neoplastic (as opposed to benign) fibrous/connective tissue proliferation could be direction-uncertain — a consideration that should be carried into evaluation of any tumor-related repurposing candidate, including mast cell neoplasms.
+Huomattavasti tässä näyttöpaketissa olevat muut alemmat ennusteet rakenteellisesti siihen liittyville "fibroblastisen neoplasian" käyttöaiheille sisältävät tärkeän varoituksen: kirjallisuuden näyttö sisältää tapausraportteja kasvaimen etenemisestä (differentoimaton pleomorfinen sarkooma, puhkeavan dermatiofibromian pahentuminen) pirfenidoni-altistumisen jälkeen. Tämä herättää mahdollisuuden, että pirfenidonen vaikutus neoplastiseen (vastoin hyvänlaatuista) kuituisen/sidekudoksen lisääntymiseen voisi olla suunnaltaan epävarma — huomio, joka tulisi ottaa huomioon minkä tahansa kasvaimen uudelleenkäytöehdokkaan arvioinnissa, mukaan lukien mastosolun neoplasiat.
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-Currently no related clinical trials registered
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia
 
-## Literature Evidence
+## Kirjallisuusaineiston näyttö
 
-Currently no related literature available
+Tällä hetkellä kirjallisuusaineistoa ei ole saatavilla
 
-## Finland Market Information
+## Suomen markkinatiedot
 
-Pirfenidone is currently **not marketed in Finland** (0 authorizations on record). No product licenses, dosage forms, or approved-indication text are available for this drug in the Fimea dataset.
+Pirfenidone ei ole tällä hetkellä markkinoilla Suomessa (0 lupaa rekistereissä). Tämän lääkkeen tuotelupien, antomuotojen tai hyväksyttyjen käyttöaihejen tekstejä ei ole saatavilla Fimean tietokannassa.
 
-## Safety Considerations
+## Turvallisuushuomiot
 
-- **Data Gaps**: TFDA/Fimea package insert warnings, contraindications, and DDI data are not currently available for pirfenidone (blocking gap DG001) — a formal safety review cannot proceed until this is resolved.
-- **Emerging Literature Signal (context, not indication-specific)**: Case reports elsewhere in the evidence pack (PMID [29702057](https://pubmed.ncbi.nlm.nih.gov/29702057/): undifferentiated pleomorphic sarcoma after pirfenidone use; PMID [32572469](https://pubmed.ncbi.nlm.nih.gov/32572469/): aggravation of eruptive dermatofibromas) suggest a possible tumor-promoting risk in fibrous/connective-tissue neoplastic contexts. This is not proven causality, but it is a relevant flag when evaluating pirfenidone against any neoplastic indication, including mastocytoma.
+- **Tietoaukot**: Pakkausselosteen varoitukset, vasta-aiheet ja lääkkeen yhteisvaikutustiedot eivät ole tällä hetkellä saatavilla pirfenidoonille (estävä puute DG001) — muodollinen turvallisuusarvio ei voi edetä ennen kuin tämä on ratkaistu.
+- **Ilmenevä kirjallisuussignaali (konteksti, ei käyttöaihe-spesifi)**: Tapausraportteja muualla näyttöpaketissa (PMID [29702057](https://pubmed.ncbi.nlm.nih.gov/29702057/): differentoimaton pleomorfinen sarkooma pirfenidoni-käytön jälkeen; PMID [32572469](https://pubmed.ncbi.nlm.nih.gov/32572469/): puhkeavan dermatiofibromian pahentuminen) viittaavat mahdolliseen kasvainta edistävään riskiin kuituisen/sidekudoksen neoplastisissa konteksteissa. Tämä ei ole todistettu kausaalisuus, mutta se on asiaankuuluva merkintä arvioitaessa pirfenidonia minkä tahansa neoplastisen käyttöaiheen osalta, mukaan lukien mastoytooma.
 
-## Conclusion and Next Steps
+## Johtopäätös ja seuraavat vaiheet
 
-**Decision: Hold**
+**Päätös: Odottaa**
 
-**Rationale:**
-The extracutaneous mastocytoma prediction is supported only by a TxGNN model score, with no clinical trials, no literature, and no mechanistic rationale connecting pirfenidone's antifibrotic activity to mast cell tumor biology (L5, S0). Combined with an unresolved blocking safety data gap and a literature signal elsewhere in this drug's profile suggesting possible tumor-promoting risk in neoplastic fibrous tissue, there is currently insufficient basis to advance this candidate.
+**Perustelut:**
+Ekstrakutaanisen mastoytooman ennustusta tukee vain TxGNN-mallin pistemäärä, ilman kliinisiä tutkimuksia, ilman kirjallisuutta, eikä mekanistista perustelua, joka yhdistäisi pirfenidonen antifibrostisen toiminnan mastosolun kasvaimen biologiaan (L5, S0). Yhdistettynä ratkaisemattomaan estävään turvallisuuden tietovajeeseen ja kirjallisuuden signaaliin muualla tämän lääkkeen profiilissa, joka viittaa mahdolliseen kasvainta edistävään riskiin neoplastisessa kuituisessa kudoksessa, on tällä hetkellä riittämätön perusta edetä tämän ehdokkaan kanssa.
 
-**To proceed, the following is needed:**
-- TFDA/Fimea package insert data (warnings, contraindications, DDI) to clear the blocking safety gap (DG001)
-- Confirmed mechanism of action data (DG002) to assess biological plausibility against mast cell pathways
-- Preclinical or in vitro evidence specifically evaluating pirfenidone in mast cell proliferative disease
-- Targeted investigation of the tumor-progression signal seen in other fibroblastic neoplasm case reports, to rule out a class-level promotive risk before pursuing any oncologic repurposing indication for this drug
+**Edetäkseen seuraavaa tarvitaan:**
+- Pakkausselosteen tiedot (varoitukset, vasta-aiheet, lääkkeen yhteisvaikutukset) estävän turvallisuusvaon poistamiseksi (DG001)
+- Vahvistettu vaikutusmekanismin tieto (DG002) biologisen uskottavuuden arvioimiseksi mastosolun polkuja vastaan
+- Prekliininen tai in vitro-näyttö, joka arvioi erityisesti pirfenidonia mastosolun proliferatiivisessa sairaudessa
+- Kohdennettu tutkinta kasvaimen etenemisen signaalin osalta muissa fibroblastisen neoplasian tapausraporteissa, jotta voidaan sulkea pois luokkatasolla kasvainta edistävä riski ennen minkään syöpään liittyvän uudelleenkäytön käyttöaiheen tavoittelua tähän lääkkeeseen
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

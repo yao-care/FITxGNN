@@ -29,50 +29,51 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 
 </div>
 
-# Angiotensin II Acetate: Drug Repurposing Evaluation Report
+# Angiotensiini II-asetaatti: Lääkkeen uudelleenkäyttöarvioinnin raportti
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Angiotensin II Acetate is a synthetic vasopressor peptide, primarily used in clinical practice to manage distributive (vasodilatory) shock. The TxGNN model did not return any predicted new indications for this drug in this evidence pack, and no Taiwan market authorizations were identified. A complete repurposing evaluation **cannot be generated** at this stage due to critical data gaps across prediction, safety, and regulatory dimensions.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|---------|
-| Original Indication | Distributive shock / vasodilatory shock (vasopressor support) |
-| Predicted New Indication | None — TxGNN prediction output not available |
-| TxGNN Prediction Score | Not available |
-| Evidence Level | L5 — No model prediction output generated |
-| Taiwan Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | **Hold** |
+Angiotensiini II-asetaatti on synteettinen vasopressorinen peptidi, jota käytetään kliinisessä käytännössä jakautuvan (vasodilatatorisen) sokin hoitoon. TxGNN-malli ei palauttanut tälle lääkkeelle mitään ennustettuja uusia indikaatioita tässä todistusnippussa, ja Taiwanin markkinoilla olevia hyväksyntöjä ei löydetty. Täydellisen uudelleenkäyttöarvioinnin **ei voida muodostaa** tässä vaiheessa kriittisten tietoaukkojen vuoksi ennustus-, turvallisuus- ja sääntelyulottuvuuksissa.
 
 ---
 
-## Safety Considerations
+## Pikainen yleiskatsaus
 
-Please refer to the package insert for safety information.
-
-> Note: The TFDA package insert query returned 1 result (see query log entry #4), but the structured safety fields — including key warnings, contraindications, and drug interactions — were not populated in this evidence pack. The package insert data requires manual extraction before safety screening can proceed.
+| Kohta | Sisältö |
+|-------|---------|
+| Alkuperäinen indikaatio | Jakautuva sokki / vasodilatatorinen sokki (vasopressorituki) |
+| Ennustettu uusi indikaatio | Ei – TxGNN-ennusteen lähtötietoja ei ole saatavilla |
+| TxGNN-ennustepisteet | Ei saatavilla |
+| Todistusaineiston taso | L5 – Mallin ennusteen lähtötietoja ei luotu |
+| Taiwanin markkinoiden asema | ✗ Ei markkinoilla |
+| Hyväksyntöjen lukumäärä | 0 |
+| Suositeltu päätös | **Keskeytys** |
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuusnäkökulmat
 
-**Decision: Hold**
+Katso pakkausselosteesta turvallisuustiedot.
 
-**Rationale:**
-The TxGNN model produced no predicted indications for Angiotensin II Acetate, and critical drug-level data (MOA, safety warnings, contraindications) remain unresolved data gaps. Without a prediction output, there is no repurposing candidate to evaluate.
+> Huomautus: TFDA:n pakkausselosteen kysely palautti 1 tuloksen (katso kyselylokin merkintä #4), mutta rakenteiset turvallisuuskentät – mukaan lukien keskeiset varoitukset, vasta-aiheet ja lääkkeiden väliset vuorovaikutukset – eivät täyttyneet tässä todistusnippussa. Pakkausselosteen tiedot edellyttävät manuaalista poimimista ennen kuin turvallisuuden arviointia voidaan jatkaa.
 
-**To proceed, the following is needed:**
+---
 
-- **TxGNN prediction output**: Re-run the TxGNN pipeline with the correct DrugBank entity ID for Angiotensin II Acetate to obtain ranked indication predictions and confidence scores
-- **DrugBank ID**: The DrugBank query returned 1 result but `drugbank_id` was not captured; confirm the mapped ID (likely DB09280 — Angiotensin II) and populate the evidence pack
-- **MOA data**: Extract mechanism of action from DrugBank (AT1 receptor agonist → vasoconstriction) to enable mechanistic plausibility analysis
-- **Safety data**: Parse the TFDA package insert PDF retrieved in query log entry #4 to populate key warnings and contraindications
-- **Original indications**: Confirm the approved indication(s) from the package insert to complete the regulatory profile
+## Johtopäätös ja seuraavat toimet
+
+**Päätös: Keskeytys**
+
+**Perustelut:**
+TxGNN-malli ei tuottanut angiotensiini II-asetaatille mitään ennustettuja indikaatioita, ja kriittiset lääkkeisiin liittyvät tiedot (toimintamekanismi, turvallisuusvaroitukset, vasta-aiheet) pysyvät ratkaisemattomina tietoaukkoina. Ilman ennusteen lähtötietoja ei ole olemassa uudelleenkäyttökandidaatteja, joita arvioida.
+
+**Jatkamista varten tarvitaan seuraavaa:**
+
+- **TxGNN-ennusteen lähtötiedot**: Suorita TxGNN-putkisto uudelleen angiotensiini II-asetaatin oikealla DrugBank-entiteetin tunnuksella saadaksesi sijoitetut indikaatioennusteet ja luottamuspisteet
+- **DrugBank-tunnus**: DrugBank-kysely palautti 1 tuloksen, mutta `drugbank_id` ei tallentunut; vahvista kartoitettu tunnus (todennäköisesti DB09280 – Angiotensiini II) ja täytä todistusnippu
+- **MOA-tiedot**: Pura toimintamekanismi DrugBankista (AT1-reseptoriagonisti → vasokonstriktio) mahdollistaaksesi mekanistisen uskottavuusanalyysin
+- **Turvallisuustiedot**: Jäsennä TFDA:n pakkausseloste, joka haettiin kyselylokin merkinnässä #4, ja täytä keskeiset varoitukset ja vasta-aiheet
+- **Alkuperäiset indikaatiot**: Vahvista hyväksytty(t) indikaatio(t) pakkausselosteen pohjalta sääntelyprofiili täydentääksesi
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -29,89 +29,90 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Carfilzomib: From Multiple Myeloma to CMM7
+# Carfilzomib: useiden myelooman hoidosta CMM7:ään
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Carfilzomib is a second-generation proteasome inhibitor; literature within this evidence pack identifies it as a frontline anti-myeloma agent, though no structured original-indication data was returned for this drug.
-The TxGNN model predicts it may be effective for **CMM7** (familial cutaneous malignant melanoma type 7), but this is currently a **pure model prediction with 0 clinical trials and 0 publications** specifically supporting it.
-Given the complete absence of direct evidence, this candidate sits at evidence level **L5** and the recommended decision is **Hold**.
-
----
-
-## Quick Overview
-
-| Item | Content |
-|------|------|
-| Original Indication | Multiple Myeloma *(inferred from literature context in this pack; not present in structured indication/license fields)* |
-| Predicted New Indication | CMM7 (familial cutaneous malignant melanoma type 7) |
-| TxGNN Prediction Score | 99.37% |
-| Evidence Level | L5 |
-| Finland Market Status | ✗ Not Marketed |
-| Number of Authorizations | 0 |
-| Recommended Decision | Hold |
+Carfilzomib on toisen sukupolven proteasomin estäjä; tämän näyttöpaketin kirjallisuus tunnistaa sen ensimmäisen linjan anti-myelooma-aineeksi, vaikka tälle lääkeelle ei palautettu strukturoitua alkuperäisen indikaation tietoja.
+TxGNN-malli ennustaa, että se voi olla tehokas **CMM7**:lle (perinnöllinen ihon pahanlaatuinen melanooma tyypin 7), mutta kyseessä on tällä hetkellä **puhdas malliennuste ilman kliinisiä tutkimuksia ja ilman julkaisuja**, jotka tukisivat sitä.
+Näytön täysin puuttuessa tämä ehdokas istuu näyttötasolla **L5** ja suositeltu päätös on **Hold**.
 
 ---
 
-## Why is This Prediction Reasonable?
+## Nopea yleiskatsaus
 
-Currently, no structured mechanism-of-action data is recorded for carfilzomib in this evidence pack (`original_moa: [Data Gap]`). However, contextual information elsewhere in the pack describes carfilzomib as a second-generation, irreversible proteasome inhibitor that blocks the chymotrypsin-like activity of the 26S proteasome, causing accumulation of misfolded proteins, NF-κB pathway dysregulation, and apoptosis — a mechanism established in the treatment of multiple myeloma.
-
-For the CMM7 prediction specifically, the model's own rationale states there is **no known direct mechanistic link** between carfilzomib's proteasome-inhibition pathway and CMM7, a familial melanoma subtype most associated with germline POT1 and other telomere/DNA-repair gene variants. This prediction appears to be a broad extrapolation from the general "melanoma" disease category rather than a CMM7-specific signal.
-
-Separately (not part of this specific candidate), this evidence pack does contain preclinical literature on carfilzomib in melanoma more generally — five papers, mostly cell-line and in-silico studies, showing pro-apoptotic effects in B16-F1 melanoma cells and molecular-docking activity against melanoma-relevant kinases. None of this literature addresses CMM7 or its POT1-driven biology, so it does not directly strengthen the present prediction, but it does indicate the broader "melanoma" category is not entirely mechanistically unexplored for this drug.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+| Kohta | Sisältö |
+|------|---------|
+| Alkuperäinen indikaatio | Useiden myelooma *(pääteltävissä tämän paketin kirjallisuuskontekstista; ei läsnä strukturoiduissa indikaatio-/lupakenttien tiedoissa)* |
+| Ennustettu uusi indikaatio | CMM7 (perinnöllinen ihon pahanlaatuinen melanooma tyypin 7) |
+| TxGNN-ennusteen pistemäärä | 99.37% |
+| Näyttötaso | L5 |
+| Suomen markkinoiden tila | ✗ Ei markkinoilla |
+| Lupahyväksyntöjen määrä | 0 |
+| Suositeltu päätös | Hold |
 
 ---
 
-## Literature Evidence
+## Miksi tämä ennuste on perusteltu?
 
-Currently no related literature available.
+Tällä hetkellä tälle lääkeelle ei ole kirjattu strukturoituja toimintamekanismin tietoja tässä näyttöpaketissa (`original_moa: [Data Gap]`). Kuitenkin asiaan liittyvät tiedot paketin muualla kuvaavat carfilzomibia toisen sukupolven, peruuttamattomaksi proteasomin estäjäksi, joka estää 26S-proteasomin kymotripsiinitapaisen aktiivisuuden, aiheuttaa väärin taittuneiden proteiinien kertymisen, NF-κB-väylän säätelyn häiriintymisen ja apoptoosin — mekanismin, joka on vakiintunut useiden myelooman hoidossa.
 
----
+CMM7-ennusteen osalta mallin oma perusteluteksti toteaa, että **ei ole tunnettu suoraa mekanistista yhteyttä** carfilzomibin proteasomin esto-väylän ja CMM7:n välillä, joka on perinnöllinen melanooman alatyyppi, johon liittyy eniten germinaalia POT1- ja muita telomeereihin ja DNA-korjaukseen liittyviä geenivariasioita. Tämä ennuste näyttää olevan laaja ekstrapolaatio yleisemmästä "melanooma"-tautiluokasta eikä CMM7-spesifinen signaali.
 
-## Finland Market Information
-
-Carfilzomib is currently not marketed in Finland; no authorization records exist in the evidence pack.
+Erikseen (ei osa tätä erityistä ehdokasta) tämä näyttöpaketti sisältää prekliinisen kirjallisuuden carfilzomibista melanoomassa yleisemmin — viisi artikkelia, enimmäkseen solulinja- ja in-silico-tutkimuksia, jotka osoittavat pro-apoptoottiset vaikutukset B16-F1-melanoomasoluissa ja molekyylisen dokkauksen aktiivisuuden melanooman kannalta relevanteille kinaaseille. Mikään tästä kirjallisuudesta ei käsittele CMM7:ää tai sen POT1-perustuvaa biologiaa, joten se ei suoraan vahvista nykyistä ennustetta, mutta se osoittaa, että laajempi "melanooma"-luokka ei ole kokonaan mekanistisesti tutkimaton tälle lääkkeelle.
 
 ---
 
-## Cytotoxicity
+## Kliinisen tutkimuksen näyttö
 
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Targeted therapy (proteasome inhibitor) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
 
 ---
 
-## Safety Considerations
+## Kirjallisuuden näyttö
 
-Please refer to the package insert for safety information.
+Tällä hetkellä asiaan liittyvää kirjallisuutta ei ole saatavilla.
 
 ---
 
-## Conclusion and Next Steps
+## Suomen markkinatiedot
 
-**Decision: Hold**
+Carfilzomib ei ole tällä hetkellä markkinoilla Suomessa; näyttöpaketissa ei ole lupahyväksyntätietueita.
 
-**Rationale:**
-The CMM7 prediction is supported only by a TxGNN model score (L5, S0) with zero clinical trials and zero publications, and the mechanistic rationale itself confirms no known link between carfilzomib's proteasome-inhibition pathway and CMM7's POT1/telomere-driven biology. There is no evidence basis to advance this candidate at this time.
+---
 
-**To proceed, the following is needed:**
-- TFDA/manufacturer package insert (warnings, contraindications) — currently a Blocking data gap (DG001)
-- Formal, structured mechanism-of-action data from DrugBank or equivalent (DG002)
-- Preclinical or mechanistic studies directly linking proteasome inhibition to POT1-mutant/CMM7 melanoma biology
-- Any real-world or observational signal (even off-label) connecting carfilzomib to familial melanoma subtypes
-- Finland market/regulatory pathway assessment, given the drug is not currently marketed there
+## Sytostaattinen vaikutus
+
+| Kohta | Sisältö |
+|------|---------|
+| Sytostaattisen vaikutuksen luokittelu | Kohdennettu lääkitys (proteasomin estäjä) |
+| Mylosupressionin riski | Katso pakkausselosteesta varoitukset ja varotoimet |
+| Pahoinvointiluokittelu | Katso pakkausselosteesta varoitukset ja varotoimet |
+| Seurantakohteet | Katso pakkausselosteesta varoitukset ja varotoimet |
+| Käsittelysuojaus | Katso pakkausselosteesta varoitukset ja varotoimet |
+
+---
+
+## Turvallisuushuomiot
+
+Katso pakkausselosteesta turvallisuustiedot.
+
+---
+
+## Johtopäätökset ja seuraavat vaiheet
+
+**Päätös: Hold**
+
+**Perustelut:**
+CMM7-ennuste perustuu ainoastaan TxGNN-mallipistemäärään (L5, S0), jolle ei ole kliinisiä tutkimuksia eikä julkaisuja, ja mekanistinen perusteluteksti vahvistaa tunnetun yhteyden puuttumisen carfilzomibin proteasomin esto-väylän ja CMM7:n POT1/telomeereihin perustuvan biologian välillä. Tällä hetkellä ei ole näyttöpohjaa edistää tätä ehdokasta.
+
+**Jatkaakseen tarvitaan seuraavaa:**
+- TFDA/valmistajan pakkausseloste (varoitukset, vasta-aiheet) — tällä hetkellä esto-tietoaukko (DG001)
+- Muodollinen, strukturoitu toimintamekanismin data DrugBankista tai vastaavasta (DG002)
+- Prekliiniset tai mekanistiset tutkimukset, jotka suoraan yhdistävät proteasomin eston POT1-mutantin/CMM7-melanooman biologiaan
+- Mikä tahansa todellisen maailman tai havainnointisignaali (jopa off-label-käytöstä), joka yhdistää carfilzomibin perinnöllisiin melanooman alatyypeihin
+- Suomen markkinoiden ja sääntelyväylän arviointi, koska lääke ei ole tällä hetkellä markkinoilla siellä
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

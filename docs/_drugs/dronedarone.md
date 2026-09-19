@@ -29,99 +29,100 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Dronedarone: From Atrial Fibrillation/Atrial Flutter to Stroke
+# Dronedariini: eteisvärinästä/eteislepatyksesta aivohalvaukseen
 
-## One-Sentence Summary
+## Yhden lauseen yhteenveto
 
-Dronedarone is a Class III antiarrhythmic agent originally used to treat atrial fibrillation and atrial flutter. The TxGNN model predicts it may also reduce the risk of **stroke**, with **19 clinical trials** and **20 publications** currently available as supporting context — though only a subset directly studies dronedarone itself. The drug is currently **not marketed in Taiwan**, and key safety documentation (TFDA package insert, DDI data) is still missing.
+Dronedariini on III luokan antiarytmiikkalääke, jota käytetään eteisvärinän ja eteislepatyksen hoitoon. TxGNN-malli ennustaa, että se saattaa myös vähentää **aivohalvausriskiä**, ja käytössä on **19 kliinistä tutkimusta** ja **20 julkaisua** tukemassa — vaikka vain osa niistä tutkii suoraan dronedariinia itseään. Lääkettä **ei markkinoida Taiwanissa**, ja tärkeitä turvallisuusasiakirjoja (TFDA-pakkausseloste, lääke-lääke-yhteisvaikutustiedot) puuttuu edelleen.
 
 ---
 
-## Quick Overview
+## Nopea yleiskatsaus
 
-| Item | Content |
+| Kohta | Sisältö |
 |------|------|
-| Original Indication | Atrial Fibrillation / Atrial Flutter |
-| Predicted New Indication | Stroke disorder |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L2 |
-| Taiwan Market Status | Not marketed (Not Marketed) |
-| Number of Authorizations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Alkuperäinen käyttöaihe | Eteisvärinä / Eteislepatys |
+| Ennustettu uusi käyttöaihe | Aivohalvaus |
+| TxGNN-ennustuskeskiarvo | 99.97% |
+| Näyttötaso | L2 |
+| Taiwan-markkinatila | Ei markkinoitu (Not Marketed) |
+| Lupien lukumäärä | 0 |
+| Suositeltu päätös | Jatka varauksilla |
 
 ---
 
-## Why is This Prediction Reasonable?
+## Miksi tämä ennustus on järkevä?
 
-Detailed mechanism of action data is not yet available in this evidence pack (DrugBank MOA field is a data gap). Based on the clinical evidence collected, dronedarone is a non-iodinated, multichannel-blocking Class III antiarrhythmic (a structural analogue of amiodarone) used to maintain sinus rhythm in patients with atrial fibrillation or atrial flutter.
+Yksityiskohtaisia vaikutusmekanismin tietoja ei ole vielä saatavilla tässä näyttöpakettissa (DrugBank MOA -kenttä on tietokuilutapaus). Kerätyjen kliinisten näyttöjen perusteella dronedariini on jodi-vapaaton, monikanavisesti estävä III luokan antiarytmiikkalääke (amiodaronin rakenteellinen analoginen), jota käytetään sinusrytmin ylläpitoon potilailla, joilla on eteisvärinä tai eteislepatys.
 
-Atrial fibrillation itself is a major, well-established risk factor for ischemic stroke — the arrhythmia promotes atrial stasis and thrombus formation, particularly in the left atrial appendage. By restoring and maintaining sinus rhythm ("rhythm control"), dronedarone may indirectly reduce thromboembolic events. This link is not a novel discovery: it was already flagged as a secondary/post-hoc finding in the pivotal Phase 3 **ATHENA trial**, where dronedarone reduced first cardiovascular hospitalization or death, with post-hoc analyses (PMID 22149318, 20396635) suggesting a reduction in stroke incidence specifically. One mechanistic study (PMID 28992468) further suggests dronedarone may have direct anticoagulant/antiplatelet effects independent of its antiarrhythmic action, offering a possible pharmacological explanation beyond rhythm control alone.
+Eteisvärinä itsessään on suuri, hyvin tunnistettu iskeemisen aivohalvauksen riskitekijä — arytmia edistää eteisen verenpysähtymistä ja verihyytymien muodostusta, erityisesti vasemman eteisen korvakkeessa. Sinusrytmin palauttamalla ja sitä ylläpitämällä ("rytmin hallinta") dronedariini voi epäsuorasti vähentää tromboembolisia tapahtumia. Tämä yhteys ei ole uusi löydös: se nousi esiin merkittävänä sivulöytönä pivotaalissa Phase 3 **ATHENA-tutkimuksessa**, jossa dronedariini vähensi ensimmäisen sydän- ja verenkiertoelimistön sairaalahoitoa tai kuolemaa, ja jälkikäteisen analyysin (PMID 22149318, 20396635) perusteella aivohalvaustapahtumien ilmaantuvuus vähenee. Yksi mekanistinen tutkimus (PMID 28992468) ehdottaa lisäksi, että dronedariinilla saattaa olla suoria antikoagulantti- ja verihiutaleita estäviä vaikutuksia antiarytmiikkatoiminnastaan riippumatta, mikä tarjoaa mahdollisen farmakologisen selityksen pelkän rytmin hallinnan lisäksi.
 
-Importantly, this mechanistic link is indirect (via arrhythmia control) rather than a direct antithrombotic mechanism, and dronedarone carries a black-box warning for use in permanent AF and heart failure populations (per PALLAS trial findings, PMID 22082198) — meaning the therapeutic window for this repurposing hypothesis is narrower than for its original indication.
+Tärkeää on, että tämä mekanistinen yhteys on epäsuora (arytmian hallinnan kautta) eikä suora antitrombottinen mekanismi, ja dronedariiniin liittyy mustan laatikon varoitus käytöstä pysyvässä eteisvärinässä ja sydämen vajaatoimintapotilaissa (PALLAS-tutkimuksen tulosten mukaan, PMID 22082198) — mikä tarkoittaa, että terapiaikkuna tämän uusiokäytön hypoteesille on kapeampi kuin sen alkuperäisen käyttöaiheensa osalta.
 
 ---
 
-## Clinical Trial Evidence
+## Kliinisen tutkimuksen näyttö
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
+| Tutkimuksen numero | Vaihe | Tila | Rekrytointi | Tärkeimmät löydökset |
 |---------|------|------|------|---------|
-| [NCT01856075](https://clinicaltrials.gov/study/NCT01856075) | N/A | Completed | 1,015 | International observational cohort directly comparing dronedarone's real-world effectiveness vs. other antiarrhythmic agents in AF |
-| [NCT05279833](https://clinicaltrials.gov/study/NCT05279833) | N/A | Completed | 87,810 | Systematic literature review/network meta-analysis of Multaq® (dronedarone) vs. sotalol safety in AF, including stroke risk |
-| [NCT05130268](https://clinicaltrials.gov/study/NCT05130268) | Phase 4 | Completed | 339 | Pragmatic RCT of early dronedarone vs. usual care in first-detected AF, evaluating improved outcomes including thromboembolic events |
-| [NCT01151137](https://clinicaltrials.gov/study/NCT01151137) | Phase 3 | Terminated | 3,236 | RCT assessing dronedarone 400mg BID for preventing stroke, systemic embolism, MI, or CV death in permanent AF with risk factors (PALLAS trial) |
-| [NCT04704050](https://clinicaltrials.gov/study/NCT04704050) | Phase 4 | Terminated | 22 | EDORA trial: dronedarone vs. placebo post-ablation for AF recurrence and atrial fibrosis progression |
-| [NCT01288352](https://clinicaltrials.gov/study/NCT01288352) | Phase 4 | Completed | 2,789 | EAST trial: early structured rhythm control (incl. antiarrhythmics) vs. usual care to prevent AF-related complications, including stroke |
-| [NCT02618577](https://clinicaltrials.gov/study/NCT02618577) | Phase 3 | Terminated | 2,608 | NOAH-AFNET trial: NOAC (edoxaban) vs. current therapy for stroke prevention in atrial high-rate episodes (drug class differs from dronedarone) |
-| [NCT07270848](https://clinicaltrials.gov/study/NCT07270848) | Phase 4 | Not yet recruiting | 1,898 | Multicenter prospective study of dronedarone's efficacy, safety, and quality-of-life impact for early rhythm control in AF |
-| [NCT01266681](https://clinicaltrials.gov/study/NCT01266681) | N/A | Unknown | 100 | Amiodarone vs. dronedarone for maintenance of sinus rhythm post-cardioversion |
-| [NCT03993119](https://clinicaltrials.gov/study/NCT03993119) | N/A | Completed | 500 | Observational study describing NOAC management for stroke prevention in elderly NVAF patients in Spain (indirect, non-dronedarone) |
+| [NCT01856075](https://clinicaltrials.gov/study/NCT01856075) | N/A | Valmistunut | 1,015 | Kansainvälinen havaintokohortti, joka vertaa suoraan dronedariinin todellisen maailman tehokkuutta muihin antiarytmiikkalääkkeisiin eteisvärinässä |
+| [NCT05279833](https://clinicaltrials.gov/study/NCT05279833) | N/A | Valmistunut | 87,810 | Systemaattinen kirjallisuuskatsaus/verkon meta-analyysi Multaq®:sta (dronedariini) vs. solatoli turvallisuudesta eteisvärinässä, mukaan lukien aivohalvausriski |
+| [NCT05130268](https://clinicaltrials.gov/study/NCT05130268) | Phase 4 | Valmistunut | 339 | Pragmaattinen satunnaistettu kontrolloitu tutkimus varhaisesta dronedariinista vs. tavallisesta hoidosta ensimmäisen kerran diagnosoidussa eteisvärinässä, parannettujen tulosten arvioimiseksi mukaan lukien tromboemboliset tapahtumat |
+| [NCT01151137](https://clinicaltrials.gov/study/NCT01151137) | Phase 3 | Lopetettu | 3,236 | Satunnaistettu kontrolloitu tutkimus dronedariinin 400 mg kahdesti päivässä aivohalvauksen, systeemisen embolismin, sydäninfarktin tai sydän- ja verenkiertoelimistön kuoleman ehkäisyyn pysyvässä eteisvärinässä riskitekijöillä (PALLAS-tutkimus) |
+| [NCT04704050](https://clinicaltrials.gov/study/NCT04704050) | Phase 4 | Lopetettu | 22 | EDORA-tutkimus: dronedariini vs. lumelääke ablation jälkeen eteisvärinän uusiutumisen ja eteisen fibroosin etenemisen osalta |
+| [NCT01288352](https://clinicaltrials.gov/study/NCT01288352) | Phase 4 | Valmistunut | 2,789 | EAST-tutkimus: varhainen jäsentynyt rytmin hallinta (sisältää antiarytmiikkalääkkeet) vs. tavallinen hoito eteisvärinään liittyvien komplikaatioiden ehkäisemiseksi, mukaan lukien aivohalvaus |
+| [NCT02618577](https://clinicaltrials.gov/study/NCT02618577) | Phase 3 | Lopetettu | 2,608 | NOAH-AFNET-tutkimus: NOAC (edoksabaani) vs. nykyinen hoito aivohalvauksen ehkäisyyn eteisen korkean nopeuuden episodeissa (lääkeryhmä poikkeaa dronedariinista) |
+| [NCT07270848](https://clinicaltrials.gov/study/NCT07270848) | Phase 4 | Rekrytointi ei vielä alkanut | 1,898 | Monisairaalainen prospektiivinen tutkimus dronedariinin tehokkuudesta, turvallisuudesta ja elämänlaadun vaikutuksista varhaiselle rytmin hallinnalle eteisvärinässä |
+| [NCT01266681](https://clinicaltrials.gov/study/NCT01266681) | N/A | Tuntematon | 100 | Amiodaroni vs. dronedariini sinusrytmin ylläpitämiseksi kardioversion jälkeen |
+| [NCT03993119](https://clinicaltrials.gov/study/NCT03993119) | N/A | Valmistunut | 500 | Havainnollinen tutkimus NOAC-hallinnasta aivohalvauksen ehkäisyyn iäkkäillä NVAF-potilailla Espanjassa (epäsuora, ei-dronedariini) |
 
 ---
 
-## Literature Evidence
+## Kirjallisuuden näyttö
 
-| PMID | Year | Type | Journal | Key Findings |
+| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät löydökset |
 |------|-----|------|------|---------|
-| [22082198](https://pubmed.ncbi.nlm.nih.gov/22082198/) | 2011 | RCT (PALLAS) | New England Journal of Medicine | Tested whether dronedarone reduces major vascular events in high-risk permanent AF; trial was stopped early for safety concerns |
-| [40387892](https://pubmed.ncbi.nlm.nih.gov/40387892/) | 2025 | RCT sub-analysis | Clinical Research in Cardiology | Long-term safety/efficacy of amiodarone and dronedarone for early rhythm control in the EAST-AFNET 4 trial |
-| [35293087](https://pubmed.ncbi.nlm.nih.gov/35293087/) | 2022 | Post-hoc RCT analysis (ATHENA) | European Journal of Heart Failure | Dronedarone reduces CV events in AF/AFL patients with concomitant HFpEF/HFmrEF |
-| [37485722](https://pubmed.ncbi.nlm.nih.gov/37485722/) | 2023 | Retrospective cohort | Circulation: Arrhythmia and Electrophysiology | Head-to-head comparison of dronedarone vs. sotalol effectiveness and safety in AF-naive veterans |
-| [28496906](https://pubmed.ncbi.nlm.nih.gov/28496906/) | 2013 | Retrospective cohort | Journal of Atrial Fibrillation | Real-world risk of CV events, stroke, CHF, interstitial lung disease, and liver injury: dronedarone vs. amiodarone and other antiarrhythmics |
-| [33888353](https://pubmed.ncbi.nlm.nih.gov/33888353/) | 2021 | Real-world cohort | Clinical Therapeutics | Evaluated digitalis intoxication risk with concomitant dronedarone + digoxin use |
-| [28992468](https://pubmed.ncbi.nlm.nih.gov/28992468/) | 2017 | Mechanistic/basic science | Atherosclerosis | Dronedarone exerts anticoagulant and antiplatelet effects independent of its antiarrhythmic action |
-| [20730068](https://pubmed.ncbi.nlm.nih.gov/20730068/) | 2010 | Review | Vascular Health and Risk Management | Overview of dronedarone approval and efficacy; post-hoc ATHENA analysis suggests decreased stroke risk |
-| [22920480](https://pubmed.ncbi.nlm.nih.gov/22920480/) | 2012 | Review | Current Cardiology Reviews | Stroke prevention in atrial fibrillation: concepts and controversies |
-| [24469871](https://pubmed.ncbi.nlm.nih.gov/24469871/) | 2013 | Review | Cardiology Journal | Efficacy and tolerability of dronedarone for AF patients in clinical practice |
+| [22082198](https://pubmed.ncbi.nlm.nih.gov/22082198/) | 2011 | Satunnaistettu kontrolloitu tutkimus (PALLAS) | New England Journal of Medicine | Testattiin, vähentääkö dronedariini suuria verisuonitapahtumia korkean riskin pysyvässä eteisvärinässä; tutkimus keskeytettiin aikaisimmin turvallisuushuolista johtuen |
+| [40387892](https://pubmed.ncbi.nlm.nih.gov/40387892/) | 2025 | Satunnaistetun kontrolloitun tutkimuksen alianalyysi | Clinical Research in Cardiology | Amiodaronin ja dronedariinin pitkän aikavälin turvallisuus/tehokkuus varhaiselle rytmin hallinnalle EAST-AFNET 4:ssä |
+| [35293087](https://pubmed.ncbi.nlm.nih.gov/35293087/) | 2022 | Jälkikäteinen satunnaistetun kontrolloitun tutkimuksen analyysi (ATHENA) | European Journal of Heart Failure | Dronedariini vähentää sydän- ja verenkiertoelimistötapahtumia eteisvärinä/lepatys-potilailla, joilla on samanaikainen HFpEF/HFmrEF |
+| [37485722](https://pubmed.ncbi.nlm.nih.gov/37485722/) | 2023 | Retrospektiivinen kohortti | Circulation: Arrhythmia and Electrophysiology | Rinta-rinnan vertailu dronedariinin vs. solatoli tehokkuudesta ja turvallisuudesta eteisvärinä-naiiveilla veteraaneilla |
+| [28496906](https://pubmed.ncbi.nlm.nih.gov/28496906/) | 2013 | Retrospektiivinen kohortti | Journal of Atrial Fibrillation | Todellisen maailman sydän- ja verenkiertoelimistötapahtumien, aivohalvauksen, sydämen vajaatoiminnan, sidekudosvaikutuksen keuhkoissa ja maksan vaurion riski: dronedariini vs. amiodaroni ja muut antiarytmiikkalääkkeet |
+| [33888353](https://pubmed.ncbi.nlm.nih.gov/33888353/) | 2021 | Todellisen maailman kohortti | Clinical Therapeutics | Digitalisintoksikaation riski samanaikaisessa dronedariinin ja digitaalisin käytössä |
+| [28992468](https://pubmed.ncbi.nlm.nih.gov/28992468/) | 2017 | Mekanistinen/perustutkimus | Atherosclerosis | Dronedariinilla on antikoagulantti- ja verihiutaleita estävät vaikutukset antiarytmiikkatoiminnastaan riippumatta |
+| [20730068](https://pubmed.ncbi.nlm.nih.gov/20730068/) | 2010 | Katsaus | Vascular Health and Risk Management | Yleiskatsaus dronedariinin hyväksynnästä ja tehokkuudesta; jälkikäteinen ATHENA-analyysi viittaa alentuneeseen aivohalvausriskiin |
+| [22920480](https://pubmed.ncbi.nlm.nih.gov/22920480/) | 2012 | Katsaus | Current Cardiology Reviews | Aivohalvauksen ehkäisy eteisvärinässä: käsitteet ja kiistakysymykset |
+| [24469871](https://pubmed.ncbi.nlm.nih.gov/24469871/) | 2013 | Katsaus | Cardiology Journal | Dronedariinin tehokkuus ja siedettävyys eteisvärinäpotilaille kliinisessä käytännössä |
 
 ---
 
-## Taiwan Market Information
+## Taiwan-markkinatiedot
 
-Dronedarone currently holds **no TFDA marketing authorization** and is **not marketed** in Taiwan (0 licenses on record). No product/dosage-form data is available for this drug.
-
----
-
-## Safety Considerations
-
-Please refer to the package insert for safety information. No TFDA warnings, contraindications, or drug-drug interaction data are currently on file for dronedarone in this evidence pack — this is flagged as a **Blocking** data gap (DG001: TFDA package insert), meaning a formal S1 safety pre-assessment cannot yet be completed.
-
-Note from the literature evidence above: dronedarone carries a known black-box warning for use in **permanent AF** and **heart failure** (PALLAS trial, PMID 22082198), and has documented pharmacokinetic interaction risk with digoxin via P-glycoprotein inhibition (PMID 33888353). These should be prioritized once formal TFDA labeling data is obtained.
+Dronedariinilla on tällä hetkellä **nolla TFDA-markkinointilupaa** ja se **ei ole markkinoilla** Taiwanissa (0 lupaa arkistossa). Tälle lääkkeelle ei ole saatavilla tuote-/annosmuototietoja.
 
 ---
 
-## Conclusion and Next Steps
+## Turvallisuusnäkökohdat
 
-**Decision: Proceed with Guardrails**
+Tutustu pakkausselosteeseen turvallisuustiedoille. Tässä näyttöpakettissa ei ole tällä hetkellä saatavilla TFDA:n varoituksia, vasta-aiheita tai lääke-lääke-yhteisvaikutustietoja dronedariinille — tämä on merkitty **Estävä** tietokuiluksi (DG001: TFDA-pakkausseloste), mikä tarkoittaa, että muodollista S1-turvallisuuden esiarviointia ei voida vielä suorittaa.
 
-**Rationale:**
-Multiple trials and post-hoc analyses (ATHENA, EAST-AFNET 4) support an indirect stroke-risk-reduction signal via AF rhythm control, but this evidence is largely secondary/post-hoc rather than a dedicated stroke-endpoint trial, and the PALLAS trial shows a narrow safety margin in permanent AF populations — consistent with the L2 evidence level and guarded recommendation.
+Huomautus kirjallisuuden näytöstä edellä: dronedariiniin liittyy tunnettu mustan laatikon varoitus käytöstä **pysyvässä eteisvärinässä** ja **sydämen vajaatoiminnassa** (PALLAS-tutkimus, PMID 22082198), ja dokumentoitu farmakokineettinen yhteisvaikutusriski digitaalisin kanssa P-glykoproteiinin inhiboinnin kautta (PMID 33888353). Nämä tulisi priorisoida, kun muodolliset TFDA-merkintätiedot saadaan käyttöön.
 
-**To proceed, the following is needed:**
-- TFDA package insert (warnings, contraindications) — currently a **Blocking** data gap
-- Detailed mechanism of action data from DrugBank
-- Formal drug-drug interaction (DDI) data, particularly for digoxin and P-glycoprotein/CYP3A4 substrates
-- Assessment of Taiwan market access pathway, since dronedarone is not currently marketed locally
-- A dedicated safety monitoring plan given the black-box warning in permanent AF/heart failure populations
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Jatka varauksilla**
+
+**Perustelu:**
+Useat tutkimukset ja jälkikäteisen analyysin tulokset (ATHENA, EAST-AFNET 4) tukevat epäsuoraa aivohalvausriskin vähennyssignaalia eteisvärinän rytmin hallinnan kautta, mutta tämä näyttö on suurelta osin sekundaarinen/jälkikäteinen eikä omistettu aivohalvaustutkimus, ja PALLAS-tutkimus osoittaa kapeaa turvallisuusmarginaalia pysyvän eteisvärinän populaatioissa — yhdenmukainen L2-näyttötason kanssa ja varovaisen suosituksen kanssa.
+
+**Jatkamiseksi seuraavat ovat välttämättömiä:**
+- TFDA-pakkausseloste (varoitukset, vasta-aiheet) — tällä hetkellä **Estävä** tietokuilu
+- Yksityiskohtaiset vaikutusmekanismin tiedot DrugBankista
+- Muodolliset lääke-lääke-yhteisvaikutukset (DDI) -tiedot, erityisesti digitaalisin ja P-glykoproteiinin/CYP3A4-substraattien osalta
+- Taiwan-markkinoille pääsypolun arviointi, koska dronedariinia ei markkinoida tällä hetkellä paikallisesti
+- Omistettu turvallisuusseurantasuunnitelma mustan laatikon varoituksen vuoksi pysyvässä eteisvärinässä/sydämen vajaatoimintapopulaatioissa
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

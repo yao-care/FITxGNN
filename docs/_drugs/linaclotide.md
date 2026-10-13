@@ -2,7 +2,7 @@
 layout: default
 title: Linaclotide
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 229
+nav_order: 265
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,63 +29,88 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Linaclotide: dokumentoimattomasta alkuperäisestä indikaatiosta Cauda Equina -oireyhtymään
+# Linaklotidi: Ärtyvän suolen oireyhtymästä cauda equina -oireyhtymään
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Linaclotidin alkuperäinen indikaatio ja vaikutusmekanismi eivät ole dokumentoituja nykyisessä näytöpaketissa.
-TxGNN-malli ennustaa mahdollista yhteyttä **Cauda Equina -oireyhtymään**, pistemäärällä **99.96%**,
-mutta **yksikään kliininen tutkimus** ja **yksikään kirjallisuusviite** eivät tällä hetkellä tue tätä suuntaa — ennuste perustuu pelkästään malliin.
+Linaklotidi on guanylaattisyklaasi-C:n (GC-C) agonisti, jota on alun perin käytetty ärtyvän suolen oireyhtymän hoitoon.
+TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **cauda equina -oireyhtymän**, mutta ennusteen tueksi ei ole löytynyt **yhtään kliinistä tutkimusta eikä julkaisua**. Ennuste perustuu pelkästään mallilaskentaan.
 
-## Nopea yleiskatsaus
+---
+
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|-------|---------|
-| Alkuperäinen indikaatio | Ei saatavilla näytöpaketissa |
-| Ennustettu uusi indikaatio | Cauda Equina -oireyhtymä |
-| TxGNN-ennustteen pistemäärä | 99.96% |
+|------|------|
+| Alkuperäinen käyttöaihe | Ärtyvän suolen oireyhtymä |
+| Ennustettu uusi käyttöaihe | Cauda equina -oireyhtymä |
+| TxGNN-ennusteen pistemäärä | 99,96 % |
 | Näytön taso | L5 |
-| Suomen markkina-asema | Ei markkinoilla (Ei markkinoilla) |
-| Lupien lukumäärä | 0 |
-| Suositeltu päätös | Odota |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odotetaan) |
 
-## Miksi tämä ennuste on järkevä?
+---
 
-Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja linaclotidista ei ole saatavilla tässä näytöpaketissa, ja alkuperäinen indikaatiokenttä on myös tyhjä. Ilman kumpaakaan näistä tietopisteistä ei ole mahdollista arvioida mekanistista uskottavuutta linaclotidin tunnetun farmakologian ja Cauda Equina -oireyhtymän välillä.
+## Miksi ennuste voisi olla perusteltu?
 
-TxGNN-malli antaa tälle assosiaatiolle korkean luottamuspisteet (99.96%, sijoitus 696), mutta mallin tulos ei tällä hetkellä ole tuettu millään ulkoisella näytöllä — mitään rekisteröityjä kliinisiä tutkimuksia, ICTRP-tietueita eikä julkaistua kirjallisuutta ei löytynyt tälle lääke-taudin yhdistelmälle. Muut kaksi mallin merkitsemää ehdokasta (vanhentuneet neurologiset virtsan pidätyshäiriöt, pistemäärä 99.89%; unettomuus, pistemäärä 99.51%) osoittavat saman kuvion: korkea mallin luottamus nolla tukevien tutkimusten tai julkaisujen kanssa.
+Linaklotidi on GC-C-agonisti, joka vaikuttaa paikallisesti suolen epiteelissä. Se nostaa solunsisäistä cGMP-pitoisuutta, lisää nesteen eritystä ja nopeuttaa suolen läpikulkua. Lisäksi se vähentää viskeraalista kipua koolonin afferenttien hermojen kautta. Systeeminen imeytyminen on hyvin vähäistä.
 
-Näin ollen ennuste on käsiteltävä vain hypoteesiluontisignaalina, odottaen lääkkeen todellisen alkuperäisen indikaation, vaikutusmekanismin ja mahdollisen tukevan mekanistisen tai kliinisen kirjallisuuden hakemista.
+Suoraa mekanistista yhteyttä cauda equina -oireyhtymään ei ole osoitettu. Tila on lannerangan hermojuurten puristusvamma, joka vaatii neurokirurgista hoitoa. Ainoa uskottava päällekkäisyys on neurogeenisen suolen toimintahäiriön (ummetuksen) oireenmukainen lievitys, ei taustalla olevan sairauden hoito. Korkea pistemäärä (0,9996) johtuu todennäköisesti siitä, että tietämysgraafissa suolen ja virtsarakon oireet ovat yhteisiä naapureita.
 
-## Kliinisen tutkimuksen näyttö
+Muut ennustetut käyttöaiheet ovat samalla tavoin heikosti perusteltuja:
+- **Neurogeeninen virtsarakko** (pistemäärä 99,89 %): linaklotidin vaikutus rajoittuu pääosin suolen luumeniin, eikä suoraa vaikutusta rakon toimintaan odoteta. Tautitermi on lisäksi merkitty ontologiassa vanhentuneeksi, mikä heikentää ennusteen tulkittavuutta.
+- **Unettomuus** (pistemäärä 99,51 %): linaklotidi ei vaikuta merkittävästi keskushermostoon. Ainoa epäsuora yhteys on, että ärtyvän suolen oireiden lievittyminen voisi parantaa unen laatua.
 
-Tällä hetkellä ei ole liittyvää kliinistä tutkimusta rekisteröitynä
+---
 
-## Kirjallisuuden näyttö
+## Kliininen tutkimusnäyttö
 
-Tällä hetkellä ei ole liittyvää kirjallisuutta saatavilla
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
-## Suomen markkina-informaatio
+---
 
-Linaclotidilla ei ole tällä hetkellä myyntilupaa Suomessa (0 lupaa tietueessa; markkina-asema: Ei markkinoilla).
+## Kirjallisuusnäyttö
 
-## Turvallisuusnäkökohdat
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
-Turvallisustiedot löytyvät pakkausselosteesta.
+---
 
-## Johtopäätös ja seuraavat vaiheet
+## Markkinatiedot Suomessa
 
-**Päätös: Odota**
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/002490 | Constella (peruutettu) | – | Ärtyvän suolen oireyhtymä |
+
+---
+
+## Turvallisuushuomiot
+
+Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla tähän raporttiin koottujen tietojen perusteella. Tietoa on täydennettävä Fimean valmisteyhteenvedosta.
+
+**Yhteisvaikutukset**: Yhteisvaikutuksia on kirjattu yhteensä 56. Suurin osa niistä on luokiteltu lieviksi. Keskeisimmät kohtalaiset yhteisvaikutukset:
+- Levonorgestreeli
+- Etinyyliestradioli
+- Noretisteroni
+- Levotyroksiini
+- Kilpirauhasuute (porsas)
+
+Lieviä yhteisvaikutuksia on mm. protonipumpun estäjien (esim. rabepratsoli, esomepratsoli, deksilansopratsoli), tulehduskipulääkkeiden (esim. ibuprofeeni, diklofenaakki, ketorolaakki) sekä muiden ummetuslääkkeiden ja laksatiivien (esim. bisakodyyli, dokusaatti, risiiniöljy) kanssa.
+
+---
+
+## Johtopäätös ja jatkotoimet
+
+**Päätös: Hold (odotetaan)**
 
 **Perustelut:**
-Ennuste on tuettu vain TxGNN-mallin pistemäärällä (näytön taso L5), eikä sillä ole kliinisen tutkimuksen tai kirjallisuuden vahvistusta, ja kriittiset lääke-tasoiset tiedot — alkuperäinen indikaatio, vaikutusmekanismi, ja TFDA/Fimea-merkinnän varoitukset ja vasta-aiheet — puuttuvat, yksi niistä merkitty **Estävä** tietovajeena, joka estää alkuperäisen turvallisuusseulonnan (S1).
+- Kaikki kolme ennustetta ovat tasolla L5: pelkkää mallin ennustetta ilman kliinisiä tutkimuksia tai julkaisuja. Mekanistinen yhteys on heikko tai epäsuora, ja mahdollinen hyöty rajoittuisi neurogeenisen suolen oireisiin. Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa.
 
-**Jatkamista varten tarvitaan seuraavaa:**
-- Virallisen merkinnän/pakkauselosteen tiedot (varoitukset, vasta-aiheet, lääkeinteraktiot) — tällä hetkellä estävä vaje
-- Vaikutusmekanismin (MOA) vahvistus DrugBankin tai vastaavan lähteen kautta
-- Linaclotidin alkuperäisen hyväksytyn indikaation/indikaatioiden dokumentaatio
-- Jatkuva seuranta uusille kliinisille tutkimuksille tai kirjallisuudelle Cauda Equina -oireyhtymän, neurologisten virtsan pidätysháiriöiden tai unettomuuden osalta
-
+**Edetäkseen tarvitaan seuraavat:**
+- Valmisteyhteenvedon turvallisuustiedot (varoitukset ja vasta-aiheet) Fimean sivuilta. Tämä on estävä tietoaukko.
+- Yksityiskohtaiset vaikutusmekanismitiedot DrugBankista.
+- Systemaattinen kirjallisuushaku neurogeenisen suolen toimintahäiriön hoidosta linaklotidilla selkäydin- ja cauda equina -vammapotilailla.
+- Arvio markkinatilanteesta: nykyisen myyntiluvan peruutuksen syyt ja mahdolliset muut linaklotidivalmisteet EU:ssa.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

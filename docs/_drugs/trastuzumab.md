@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Trastuzumab
-parent: Kohtalainen näyttö (L3-L4)
-nav_order: 387
-evidence_level: L4
+parent: Pelkkä mallin ennuste (L5)
+nav_order: 450
+evidence_level: L5
 indication_count: 10
 ---
 
 # Trastuzumab
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,82 +29,139 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Trastuzumabi: HER2-positiivisesta rintasyövästä rintasyövän normaalimaisen alatyyppiä kohti
+# Trastutsumabi: Rintasyövästä ja mahalaukun syövästä ennustettuun uuteen käyttöaiheeseen (progesteronireseptorinegatiivinen rintasyöpä)
 
 ## Yhden lauseen yhteenveto
 
-Trastuzumabi on anti-HER2-humanisoidutu monoklonaalinen vasta-aine, joka on alun perin kehitetty HER2-yliilmentävään rintasyöpään ja mahalaukun syöpään. TxGNN-mallin eniten ennustettu indikaatio tälle lääkeaineelle on **rintasyövän normaalimainen alatyyppi**, mutta tämä alatyyppi määritellään molekyylitasolla hallitsevan HER2-ohjatun fenotyypin puuttumisella, ja sitä tukeva näyttö (**12 kliinistä tutkimusta, 1 julkaisu**) on kerätty yleisistä HER2-positiivisista rintasyöpätutkimuksista pikemminkin kuin alatyyppikohtaisista tutkimuksista.
+Trastutsumabi on HER2-reseptoriin kohdistuva monoklonaalinen vasta-aine, jota on alun perin käytetty rintasyövän ja mahalaukun syövän hoitoon. TxGNN-malli ennustaa sen tehoavan myös **progesteronireseptorinegatiiviseen rintasyöpään** (ennusteen pistemäärä 99,90 %). Tämän suunnan tueksi on koottu **16 kliinistä tutkimusta** ja **20 julkaisua**. Käytännössä kyseessä on jo vakiintunut käyttö HER2-positiivisessa rintasyövässä, ei varsinainen uudelleenkäyttö.
 
-## Nopea yleiskatsaus
+*Huom. ennustelistan ensimmäinen kohde (rank 1) on "normal breast-like" -alatyyppi, jonka näyttö on heikko (L4, Hold). Tässä raportissa pääasiallisena tarkasteltavana käyttöaiheena on rank 3, jolla on vahvin ja tulkinnallisesti selkein näyttö HER2-positiivisessa populaatiossa. Muut ennustetut käyttöaiheet on koottu loppuun.*
 
-| Kohde | Sisältö |
+---
+
+## Pikakatsaus
+
+| Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | HER2-yliilmentävä rintasyöpä (vakiintunut julkinen merkintä; ei TFDA/paikallisia lisenssitekstiä saatavilla tässä näyttöpaketissa) |
-| Ennustettu uusi indikaatio | Rintasyövän normaalimainen alatyyppi |
-| TxGNN-ennustepistemäärä | 99.90% |
-| Näytön taso | L4 |
-| Suomen markkina-asema | ✗ Ei markkinoilla |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Odota |
+| Alkuperäinen käyttöaihe | Mahalaukun syöpä ja rintasyöpä |
+| Ennustettu uusi käyttöaihe | Progesteronireseptorinegatiivinen rintasyöpä |
+| TxGNN-ennusteen pistemäärä | 99,90 % |
+| Näytön taso | L1 (useita valmistuneita vaiheen 3 satunnaistettuja tutkimuksia HER2-positiivisessa rintasyövässä) |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 11 (kaikki peruutettuja) |
+| Suositeltu päätös | Proceed with Guardrails (eteneminen suojatoimin) |
 
-## Miksi tämä ennuste on järkevä?
+---
 
-Tällä hetkellä yksityiskohtaisia mekanismin tietoja ei ole saatavilla tässä näyttöpaketissa (merkitty tietovajeksi DG002, korkea vakavuus). Tunnetun julkisen tiedon perusteella trastuzumabi sitoutuu HER2/ERBB2:n ekstrasellulaaridomääniin, estää myötäsuuntaisen proliferatiivisen signaloinnin ja välittää vasta-aine-riippuvaista solutoksisyyttä (ADCC) HER2-yliilmentäviä syöpäsoluja vastaan. Tämä mekanismi on todistettu tehokkaaksi HER2-positiivisessa rinnan ja mahalaukun syövässä.
+## Miksi ennuste on perusteltu?
 
-Kuitenkin geeniilmaisuprofiloinnilla tunnistettu "normaalimainen" alatyyppi on määritelmän mukaan luonnehdittava matalan proliferaation ja normaalia rintarauhasepiteeliä muistuttavan geeniilmaisuprofiilin perusteella eikä HER2-yliilmennyksen perusteella. Kuten mallin oma perustelunsa toteaa, tällä alatyypillä ei ole suoraa mekaanista yhteyttä trastuzumabin HER2-kohdentavaan vaikutukseen.
+Tässä raportissa käytettävissä olevassa aineistossa ei ole yksityiskohtaista vaikutusmekanismitietoa. Tunnetun farmakologian perusteella trastutsumabi sitoutuu HER2-reseptorin solunulkoiseen osaan, estää HER2-signalointia ja välittää vasta-aineriippuvaista soluvälitteistä sytotoksisuutta.
 
-Näissä ennustuksissa haetut kliiniset tutkimukset ovat kaikki yleisiä HER2-positiivisia neoadjuvanttia/metastaattista rintasyöpätutkimuksia — mikään niistä ei ole suunniteltu erityisesti rekrytoimaan tai stratifioimaan potilasta normaalimaisen molekyylisen alatyyppin perusteella. Ainoa tukeva julkaisu on morfologinen katsaus basiilisen karsinooman piirteistä, joka viittaa vain sivuseikassa viiden sisäisen rintasyövän alatyyppiluokitukseen. Yhteensä ennuste näyttää olevan mallin tason assosiaatio, jota ohjaa laajempi "rintasyöpä"-tautiluokka eikä alatyyppikohtainen mekaaninen signaali.
+Trastutsumabin teho riippuu kasvaimen HER2-statuksesta, ei progesteronireseptorin (PR) statuksesta. HER2-positiiviset mutta PR-negatiiviset kasvaimet (mm. HR-/HER2+ ja HER2-rikastettu alatyyppi) kuuluvat hoidolle herkimpiin. Siksi TxGNN-ennuste on biologisesti uskottava, ja kyse on vakiintuneesta käytöstä alkuperäisen rintasyöpäkäyttöaiheen sisällä.
+
+Kolmoisnegatiivinen (HER2-negatiivinen) rintasyöpä ei ole odotettavasti hyötyjä trastutsumabista. Siksi HER2-status on varmistettava ennen hoitoa.
+
+---
 
 ## Kliininen tutkimusnäyttö
 
-| Tutkimusnumero | Vaihe | Tila | Osallistujamäärä | Keskeiset löydökset |
+| Tutkimusnumero | Vaihe | Tila | Osallistujia | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT04329065](https://clinicaltrials.gov/study/NCT04329065) | Vaihe 2 | Aktiivinen rekrytointi | 25 | WOKVAC-rokote + kemoterapia + HER2-kohdattu monoklonaalinen vasta-aine neoadjuvanttina rintasyöpähoidossa |
-| [NCT04759248](https://clinicaltrials.gov/study/NCT04759248) | Vaihe 2 | Aktiivinen, ei rekrytointia | 55 | Atezolizumabi + trastuzumabi + vinorelbiini HER2-positiivisessa edistyneessä/metastaattisessa rintasyövässä, keskittyen ER-negatiivisiin/ei-luminaalisiin potilasryhmiin |
-| [NCT04750122](https://clinicaltrials.gov/study/NCT04750122) | Vaihe 1/2 | Aktiivinen rekrytointi | 46 | Lääkkeen valinnan ohjaama neoadjuvantti-hoitostrategia HER2-positiivisessa varhaisessa rintasyövässä |
-| [NCT03168880](https://clinicaltrials.gov/study/NCT03168880) | Vaihe 3 | Aktiivinen, ei rekrytointia | 720 | Neoadjuvantti paklitakseli ± karboplatiini kolmoisnegatiivisessa (pääosin basiilisessa) rintasyövässä; ei ole spesifinen normaalimaisen alatyypille |
-| [NCT06585969](https://clinicaltrials.gov/study/NCT06585969) | Vaihe 3 | Peruutettu | 0 | T-DXd vs CDK4/6-inhibiittorit ei-Luminal A -alaryhmässä, ER-positiivisessa/HER2-matalassa metastaattisessa rintasyövässä |
-| [NCT06328387](https://clinicaltrials.gov/study/NCT06328387) | Vaihe 1/2 | Tuntematon | 120 | Hydroksiklorokiini yhdistettynä vasta-aine-lääkekonjugaattiin vs ADC itsenäisenä käyttönä edistyneessä rintasyövässä |
-| [NCT01796197](https://clinicaltrials.gov/study/NCT01796197) | Vaihe 2 | Valmistunut | 23 | Paklitakseli + trastuzumabi + pertuzumabi preoperatiivisena hoitona tulehtuneessa rintasyövässä |
-| [NCT05900206](https://clinicaltrials.gov/study/NCT05900206) | Vaihe 2 | Aktiivinen rekrytointi | 370 | T-DXd vs standardi preoperatiivinen hoito biologisesti ohjatulla neoadjuvantti-valinnalla HER2+ rintasyövässä |
-| [NCT01670877](https://clinicaltrials.gov/study/NCT01670877) | Vaihe 2 | Valmistunut | 56 | Neratinibi ± fulvestranti HER2-mutantti-kantaisessa, ei-amplifioidussa metastaattisessa rintasyövässä |
-| [NCT06348134](https://clinicaltrials.gov/study/NCT06348134) | Vaihe 2 | Aktiivinen rekrytointi | 74 | Optimaalisen neoadjuvantti-adjuvantti anti-HER2-hoidon tehokkuus ja turvallisuus nigerialaisten naisten HER2+ rintasyövässä |
+| [NCT01275677](https://clinicaltrials.gov/study/NCT01275677) | Vaihe 3 | Valmistunut | 3270 | Adjuvanttikemoterapia ± trastutsumabi solmupositiivisessa tai korkean riskin rintasyövässä; suuri tutkimus, jossa suora näyttö |
+| [NCT05985187](https://clinicaltrials.gov/study/NCT05985187) | Vaihe 3 | Tuntematon | 412 | TQB2440/Perjeta + trastutsumabi + dosetakseli ER/PR-negatiivisessa HER2-positiivisessa rintasyövässä |
+| [NCT04629846](https://clinicaltrials.gov/study/NCT04629846) | Vaihe 3 | Valmistunut | 517 | QL1209/pertutsumabi + trastutsumabi + dosetakseli HER2-positiivisessa, ER/PR-negatiivisessa rintasyövässä |
+| [NCT01750073](https://clinicaltrials.gov/study/NCT01750073) | Vaihe 2 | Valmistunut | 92 | Neoadjuvanttikemoterapia ± trastutsumabi |
+| [NCT00194779](https://clinicaltrials.gov/study/NCT00194779) | Vaihe 2 | Valmistunut | 50 | Viikoittainen kemoterapia neoadjuvanttina HER2-positiivisessa rintasyövässä |
+| [NCT04675827](https://clinicaltrials.gov/study/NCT04675827) | Vaihe 2 | Päättynyt ennenaikaisesti | 139 | DECRESCENDO: kemoterapian kevennys HER2-positiivisessa, ER-negatiivisessa varhaisessa rintasyövässä kaksoisHER2-salvauksella |
+| [NCT00134680](https://clinicaltrials.gov/study/NCT00134680) | Vaihe 2 | Valmistunut | 33 | Letrotsoli + trastutsumabi ErbB2-positiivisessa, hormonireseptoripositiivisessa etenevässä rintasyövässä |
+| [NCT04334330](https://clinicaltrials.gov/study/NCT04334330) | Vaihe 2 | Tuntematon | 34 | Palbosiklibi, trastutsumabi, pyrotinibi ja fulvestrantti aivometastaasseissa |
+| [NCT02260531](https://clinicaltrials.gov/study/NCT02260531) | Vaihe 2 | Valmistunut | 36 | Kabotsantinibi ± trastutsumabi aivometastaasseissa; päähuomio toisessa lääkeaineessa |
+| [NCT03742102](https://clinicaltrials.gov/study/NCT03742102) | Vaihe 1/2 | Aktiivinen, ei rekrytoi | 243 | Durvalumabiyhdistelmät kolmoisnegatiivisessa rintasyövässä; trastutsumabin rooli rajallinen |
+
+Taulukossa on 10 relevanteimpaa tutkimusta, mutta tälle käyttöaiheelle on kaikkiaan koottu 16 tutkimusta.
+
+---
 
 ## Kirjallisuusnäyttö
 
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
-|------|-----|------|------|---------|
-| [19466513](https://pubmed.ncbi.nlm.nih.gov/19466513/) | 2009 | Katsaus | Breast Cancer (Tokyo, Japan) | Käsittelee morfologisia/sytologisia ominaisuuksia basiilisen alatyyppin osalta viiden sisäisen rintasyövän alatyyppiluokituksen joukossa (mukaan lukien normaalimainen); ei käsittele trastuzumabin hoitoa normaalimaisen alatyypille erityisesti |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|---------|------|------|------|---------|
+| [26874901](https://pubmed.ncbi.nlm.nih.gov/26874901/) | 2016 | RCT (vaihe 3) | Lancet Oncol | ExteNET: neratinibi trastutsumabipohjaisen adjuvanttihoidon jälkeen HER2-positiivisessa rintasyövässä |
+| [38906970](https://pubmed.ncbi.nlm.nih.gov/38906970/) | 2024 | RCT (vaihe 3) | Br J Cancer | Pertutsumabin biosimilaari + trastutsumabi + dosetakseli HER2-positiivisessa, ER/PR-negatiivisessa rintasyövässä |
+| [37609714](https://pubmed.ncbi.nlm.nih.gov/37609714/) | 2023 | Tutkimusprotokolla | Future Oncol | DECRESCENDO: kemoterapian kevennys HER2-positiivisessa, ER-negatiivisessa varhaisessa rintasyövässä |
+| [28135148](https://pubmed.ncbi.nlm.nih.gov/28135148/) | 2017 | Kohorttianalyysi | J Clin Oncol | Neoadjuvanttihoidon jälkeisen jäännöstautitaakan (RCB) ennustearvo alatyypeittäin |
+| [26321480](https://pubmed.ncbi.nlm.nih.gov/26321480/) | 2015 | Katsaus | Breast | Luminaalisen ja HER2-rikastetun HER2-alatyypin biologia ja hoitoimplikaatiot |
+| [41224416](https://pubmed.ncbi.nlm.nih.gov/41224416/) | 2025 | Katsaus | Surg Pathol Clin | Hormonireseptori- ja HER2-testauksen ajankohtaiset kysymykset |
+| [26253814](https://pubmed.ncbi.nlm.nih.gov/26253814/) | 2015 | Katsaus | Breast | Rintasyövän sisäisten molekyylialatyyppien kliiniset implikaatiot |
+| [39631485](https://pubmed.ncbi.nlm.nih.gov/39631485/) | 2024 | Katsaus | Pharmacol Res | Rintasyövän kohdennetut ja sytotoksiset lääkkeet |
+| [19640211](https://pubmed.ncbi.nlm.nih.gov/19640211/) | 2009 | Katsaus | Expert Opin Pharmacother | Kolmoisnegatiivisen rintasyövän lääkehoito; trastutsumabista ei hyötyä |
+| [27765921](https://pubmed.ncbi.nlm.nih.gov/27765921/) | 2017 | Katsaus | Oncotarget | Kolmoisnegatiivinen rintasyöpä: potilaat eivät hyödy trastutsumabipohjaisesta hoidosta |
 
-## Sytotoksisyys
+---
 
-| Kohde | Sisältö |
+## Suomen markkinatiedot
+
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000278 | Herceptin | – | Mahalaukun syöpä; rintasyöpä |
+| EMEA/H/C/002575 | Herzuma | – | Mahalaukun syöpä; rintasyöpä |
+| EMEA/H/C/004361 | Kanjinti | – | Mahalaukun syöpä; rintasyöpä |
+| EMEA/H/C/004916 | Ogivri | – | Mahalaukun syöpä; rintasyöpä |
+| EMEA/H/C/004463 | Trazimera | – | Mahalaukun syöpä; rintasyöpä |
+
+Kaikki 11 myyntilupaa on peruutettu, eikä voimassa olevia valmisteita ole. Taulukossa on viisi esimerkkiä.
+
+---
+
+## Sytotoksisuus
+
+Trastutsumabi on kohdennettu syöpälääke (monoklonaalinen vasta-aine), ei perinteinen sytotoksinen solunsalpaaja.
+
+| Kohta | Sisältö |
 |------|------|
-| Sytotoksisyysluokittelu | Kohdennettu lääkitys (anti-HER2 monoklonaalinen vasta-aine; ADCC-välitteinen, ei kemoterapiaan perustuva sytotoksinen mekanismi) |
-| Verellisen tuotannon häiriön riski | Tutustu pakkausselosteeseen varoituksista ja varotoimista |
-| Pahoinvointiriskin luokittelu | Tutustu pakkausselosteeseen varoituksista ja varotoimista |
-| Seurantakohteet | Tutustu pakkausselosteeseen varoituksista ja varotoimista |
-| Käsittelysuojaus | Tutustu pakkausselosteeseen varoituksista ja varotoimista |
+| Sytotoksisuusluokitus | Kohdennettu hoito (HER2-vasta-aine) |
+| Luuytimen suppressioriski | Pieni yksinään; kemoterapiayhdistelmissä riski määräytyy kemoterapian mukaan |
+| Oksentelua aiheuttava vaikutus | Pieni |
+| Seurattavat parametrit | Sydämen toiminta (LVEF), verenkuva ja maksa- ja munuaisarvot yhdistelmähoidoissa |
+| Käsittelysuojaus | Noudatettava paikallisia syöpälääkkeiden käsittelyohjeita; tarkemmat tiedot valmisteyhteenvedosta |
 
-## Turvallisuushuomioon otettavat asiat
+---
 
-Katso pakkausseloste turvallisuustiedoista.
+## Turvallisuusnäkökohdat
 
-## Johtopäätökset ja seuraavat vaiheet
+- **Lääkeyhteisvaikutukset:** Yhteisvaikutuksia on kirjattu yhteensä 94. Merkittäviksi (Major) luokiteltuja ovat mm. deferipronin, adalimumabin, barisitinibin ja samarium-153-leksidronaamin kanssa. Kohtalaisia (Moderate) ovat mm. varfariinin, dikumarolin, paklitakselin, tsidovudiinin, alemtutsumabin ja atsatiopriinin kanssa.
+- **Sydäntoksisuus:** Kirjallisuudessa trastutsumabiin liittyvä sydäntoksisuus on tunnistettu (PMID 17687157), joten sydämen toiminnan seuranta on tarpeen.
 
-**Päätös: Odota**
+Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
+
+---
+
+## Muut ennustetut käyttöaiheet
+
+| Käyttöaihe | Pistemäärä | Näytön taso | Suositus |
+|------|------|------|------|
+| Normal breast-like -alatyypin rintasyöpä | 99,90 % | L4 | Hold |
+| Progesteronireseptoripositiivinen rintasyöpä | 99,90 % | L1 | Proceed with Guardrails |
+| Luminaalinen A- tai B-rintakasvain | 99,90 % | L1 | Proceed with Guardrails (vain HER2-positiivinen luminaalinen B) |
+| Maligni ihon granulaarisolukasvain, ektomesenkymoomi, HHV-8-liitännäinen kasvain, välikorvan neuroendokriininen kasvain, munuaisaltaan sarkomatoidi siirtymäsolusyöpä, eturauhasen virtsaputken urotelikarsinooma | 99,0–99,5 % | L5 | Hold (ei tutkimus- eikä kirjallisuusnäyttöä) |
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Proceed with Guardrails**
 
 **Perustelut:**
-Eniten ennustetulla indikaatiolla (normaalimainen alatyyppi) on ainoastaan L4-näyttö — kaikki tukevat tutkimukset kohdennetaan yleisille HER2-positiivisille rintasyöpäpotilaille eikä tälle spesifiselle molekyyliselle alatyypille, ja alatyyppin biologia (matala proliferaatio, ei HER2-ohjattu) on suoraan ristiriidassa trastuzumabin mekanismin kanssa. Lisäksi TFDA:n turvallisuustiedot (varoitukset/vasta-aiheet) ovat kriittisen vakavuuden tietovaje, joka estää tämän kandidaatin etenemisen S1-turvallisuuden esiarviointivaiheeseen riippumatta tehokkuuden näytöstä.
+- Trastutsumabin teho HER2-positiivisessa rintasyövässä on vahvasti osoitettu suurilla vaiheen 3 tutkimuksilla, ja teho määräytyy HER2-statuksen, ei PR-statuksen mukaan. Kyseessä on pikemminkin vakiintunut käyttö kuin uusi käyttöaihe.
+- Suomessa kaikki myyntiluvat on peruutettu, joten saatavuus on selvitettävä.
 
-**Edetäkseen, seuraavaa tarvitaan:**
-- TFDA:n pakkausseloste varoituksista ja vasta-aiheista (kriittinen tietovaje, DG001)
-- Vahvistettu mekanismin tieto DrugBankista (korkean prioriteetin tietovaje, DG002)
-- Molekyylinen/HER2-statuksen karakterisointi, joka vahvistaa, kantavatko "normaalimaisen" potilaat siteeratuissa tutkimuksissa todella HER2-amplifikaatiota
-- Terävät tutkimukset tai alajoukkoanalyysit, jotka ovat spesifiset normaalimaisen sisäisen alatyypille
-
-**Huomio:** Samassa näyttöpaketissa kaksi muuta ennustettua indikaatiota osoittavat huomattavasti vahvemman tuen ja saattavat olla lupaavampia uudelleenkäyttöhakemuksia: *progesteronin reseptorin negatiivinen rintasyöpä* (sija 3, L1-näyttö — sisältää valmistuneen Vaihe 3 RCT:n, n=3,270 — "Etene varauksella") ja *progesteronin reseptorin positiivinen rintasyöpä* (sija 2, L2-näyttö, "Etene varauksella"), joista molemmat kohtaavat mekanistisesti trastuzumabin hyväksytyn HER2-positiivisen rintasyövän indikaation kanssa.
-
+**Eteneminen edellyttää:**
+- HER2-statuksen varmistamista ennen hoitoa ja HER2-negatiivisen (kolmoisnegatiivisen) taudin rajaamista pois
+- Sydämen toiminnan (LVEF) seurantasuunnitelmaa
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittämistä (tiedot puuttuvat koottua aineistoa)
+- Yksityiskohtaisten vaikutusmekanismitietojen täydentämistä
+- Suomen markkinatilanteen ja valmisteiden saatavuuden selvittämistä
+- Yhteensovittamista hormonihoidon kanssa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

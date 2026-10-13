@@ -2,7 +2,7 @@
 layout: default
 title: Doravirine
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 127
+nav_order: 145
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,77 +29,91 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Doravirine: HIV-1-infektiosta Feliiniksi hankittuihin immuunivajaavuussyndroomiin
+# Doravirini: HIV-infektiosta kissan immuunipuutosoireyhtymään
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Doravirine on non-nukleosidinen käänteiskopioijaininhibiittori (NNRTI), jota käytetään HIV-1-infektioiden hoitoon. TxGNN-malli ennustaa, että se saattaa olla tehokas **feliiniksi hankittuun immuunivajaavuussyndrooman (FIV)** hoitoon, mutta tätä ennustetta tukee tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua** — näyttötaso L5, pelkästään mallin ennuste.
+Doravirini on HIV-1-infektion hoitoon tarkoitettu ei-nukleosidinen käänteiskopioijaentsyymin estäjä (NNRTI). TxGNN-malli ennustaa sen mahdollisesti tehoavan **kissan hankinnaiseen immuunipuutosoireyhtymään**, mutta ennusteelle ei ole kliinisiä tutkimuksia eikä suoraa kirjallisuutta (**0 kliinistä tutkimusta**, **0 suoraan doravirinia koskevaa julkaisua**). Ennuste perustuu toistaiseksi vain mallin laskemaan pisteytykseen.
 
 ---
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|-------|---------|
-| Alkuperäinen indikaatio | HIV-1-infektio (NNRTI; johdettu mallin perustelutiedoista — virallinen Taiwanin pakkausteksti ei vielä saatavilla) |
-| Ennustettu uusi indikaatio | Feliiniksi hankittu immuunivajaavuussyndrooma (FIV) |
-| TxGNN:n ennustepisteet | 99.93% |
-| Näyttötaso | L5 |
-| Taiwanin markkinatilanne | Ei markkinoilla |
-| Lupien lukumäärä | 0 |
-| Suositeltava päätös | Pidä |
+|------|------|
+| Alkuperäinen käyttöaihe | HIV-infektiot |
+| Ennustettu uusi käyttöaihe | Kissan hankinnainen immuunipuutosoireyhtymä (feline acquired immunodeficiency syndrome) |
+| TxGNN-ennustepisteet | 99,93 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 2 (kaikki peruutettu) |
+| Suositeltu päätös | Hold (odotetaan) |
 
 ---
 
-## Miksi tämä ennuste on perusteltu?
+## Miksi ennuste voisi olla perusteltu?
 
-Yksityiskohtaisia toimintamekanismin tietoja ei tällä hetkellä ole saatavilla rakenteisessa DrugBank-kentässä (estävä tietovajavuus). Mallin omien perustelutietojen perusteella doravirine on NNRTI, joka sitoutuu HIV-1:n käänteiskopioijainresinaasille (RT) ainutlaatuiseen allosteeriiseen taskuun, ja sen teho HIV-1-infektioissa on hyvin todettu.
+Tässä raportissa käytetyissä tiedoissa doravirinin tarkkaa vaikutusmekanismia ei ole saatavilla. Tunnetun luokituksen mukaan doravirini on HIV-1:n NNRTI-lääke, joka estää viruksen käänteiskopioijaentsyymiä. Sen teho HIV-infektiossa on osoitettu, ja kissan immuunipuutosvirus (FIV) on HIV:n kanssa sukua oleva lentivirus, joten käsitteellinen yhteys käänteiskopioijaentsyymin kautta on olemassa.
 
-Ennustettu uusi indikaatio FIV johtuu eri lentiviruksesta, jonka RT-sekvenssi eroaa merkittävästi HIV-1:stä, ja NNRTI-sitoutumistakku ei ole säilynyt lajien välillä — NNRTI:t ovat tyypillisesti erittäin laji- ja viruspesäkohtaisia ilman ristireaktion kykyä FIV RT:hen. TxGNN:n korkea pistemäärä tälle parille heijastaa todennäköisesti pinnallista "sama entsyymiluokka, sama virusperhe" -assosiaatiota tietoverkossa eikä vahvistettua lajien välistä mekanismia; tämä on täsmälleen sitä, mitä mallin omaksi luodut perustelut merkitsevät kuin tukemattomaksi.
+Yhteys on kuitenkin heikko. NNRTI-lääkkeet tehoavat yleensä huonosti FIV:hen, koska FIV:n käänteiskopioijaentsyymi eroaa rakenteellisesti HIV-1:n entsyymistä eikä NNRTI-sitoutumistasku ole säilynyt. Korkea TxGNN-pistemäärä näyttää kuvastavan tietoverkon läheisyyttä HIV:hen, ei osoitettua tehoa.
 
-Kahdelle muulle ehdokkaalle doraviriinille tuotettiin samankaltaisesti korkeat pisteet: simianin immuunivajaavuusvirusinfektio (SIV) — jonka ainoa liittyvä kirjallisuus (PMID 31658118) käsittelee itse asiassa islataviria, eri lääkettä eri mekanismilla (nukleosidisen RT-translokaatioestin, ei NNRTI) — ja harvinaista geneettistä neurokehityksellistä häiriötä, jolla ei ole uskottavaa mekanistista yhteyttä käänteiskopioijainestäjäheytykseen ollenkaan. Mikään kolmesta ehdokkaasta ei ole kliinisen tutkimuksen, prekliinisen tutkimuksen tai tapausraportin tukema, ja kaikki kolme ovat L5 / Pidä -luokituksessa lähdetiedoissa.
+### Muut ennustetut käyttöaiheet
 
----
-
-## Kliinisen tutkimuksen näyttö
-
-Tällä hetkellä ei ole liittyviä kliinisiä tutkimuksia rekisteröity.
+- **Apinoiden immuunipuutosvirusinfektio (SIV)**, pisteet 99,93 %: SIV on HIV:n läheinen sukulainen, ja SIV/makaki-malleja käytetään antiretroviraalisessa tutkimuksessa. SIV (erityisesti SIVmac) on kuitenkin luontaisesti resistentti monille NNRTI-lääkkeille, mikä heikentää perustetta. Ainoa liitetty julkaisu koskee islatravirii, ei doravirinia, joten se antaa vain epäsuoraa, lääkeluokan tasoista taustaa.
+- **Neurokehityshäiriö, johon liittyy ataksinen kävely, puheen puuttuminen ja aivokuoren valkoisen aineen väheneminen**, pisteet 99,91 %: HIV-1-NNRTI-vaikutuksen ja tämän harvinaisen perinnöllisen sairauden välillä ei havaittu uskottavaa mekanistista yhteyttä. Korkea pistemäärä on todennäköisesti tietoverkon artefakti.
 
 ---
 
-## Kirjallisuuden näyttö
+## Kliininen tutkimusnäyttö
 
-Tällä hetkellä ei ole liittyviä julkaisuja saatavilla.
+Ei tällä hetkellä rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
 ---
 
-## Taiwanin markkinatiedot
+## Kirjallisuusnäyttö
 
-Doraviriinillä ei tällä hetkellä ole markkinoinnin lupaa Taiwanissa (0 lupaa rekisterissä; markkinatilanne: Ei markkinoilla).
+Ensisijaiseen ennusteeseen (kissan immuunipuutosoireyhtymä) ei ole saatavilla kirjallisuutta. Toiseksi sijoittuneeseen SIV-ennusteeseen liitetty julkaisu on esitetty alla; se ei koske doravirinia.
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [31658118](https://pubmed.ncbi.nlm.nih.gov/31658118/) | 2020 | Katsaus | Current Opinion in HIV and AIDS | Islatravirin (käänteiskopioijaentsyymin translokaation estäjä) mahdollinen rooli HIV-1-infektion hoidossa ja ehkäisyssä; ei suoraa näyttöä doravirinista |
+
+---
+
+## Tiedot Suomen markkinoilta
+
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004747 | Pifeltro (peruutettu) | – | HIV-infektiot |
+| EMEA/H/C/004746 | Delstrigo (peruutettu) | – | HIV-infektiot |
+
+Molemmat myyntiluvat on peruutettu, eikä voimassa olevia myyntilupia ole.
 
 ---
 
 ## Turvallisuusnäkökohdat
 
-Katso turvallisuustiedoista pakkaustekstiä.
+- **Lääkeyhteisvaikutukset**: Yhteisvaikutuksia löytyi yhteensä 59. Esimerkkeinä tärkeimmistä:
+  - **Merkittävät (Major)**: deksametasoni, lumakaftori
+  - **Kohtalaiset (Moderate)**: glyserolifenyylibutyraatti, metreleptiini, troglitatsoni, deferasiroksi, prasikvanteeli, griseofulviini
+  - **Lievät (Minor)**: mm. aprepitantti, simetidiini, klaritromysiini, klotrimatsoli, mikonatsoli, kobisistaatti, tikagrelori, ivakaftori, tsafirlukasti, kloramfenikoli, erytromysiini, flukonatsoli
+
+Muita turvallisuustietoja (varoitukset, vasta-aiheet) ei ollut saatavilla; niiden osalta on tarkistettava valmisteyhteenveto.
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Johtopäätös ja seuraavat askeleet
 
-**Päätös: Pidä**
+**Päätös: Hold**
 
 **Perustelut:**
-- Kaikki kolme TxGNN:n ennustamaa doraviriiinin indikaatiota ovat näyttötasolla L5 (pelkästään mallin ennuste), ilman kliinisiä tutkimuksia ja ilman suoraan liittyvää kirjallisuutta.
-- Parhain ennuste FIV:llä on merkitty lajien välinen mekanistinen kuilu (NNRTI-sitoutumistakku ei ole säilynyt HIV-1:n ja FIV RT:n välillä); se on myös eläinlääketieteellinen eikä inhimillinen indikaatio.
-- Estävä tietovajavuus on olemassa: TFDA-pakkausteksti (varoitukset/vasta-aiheet) ei ole saatavilla, mikä yksinään estää S1-turvallisuuden ennakkoseulonnan riippumatta tehonäytöstä.
+- Ennuste perustuu vain mallin pisteytykseen (L5). Kliinisiä tutkimuksia ei ole, eikä doravirinia koskevaa kirjallisuutta ole. Biologinen perustelu on heikko, koska NNRTI-lääkkeet tehoavat huonosti FIV:hen ja SIV:hen. Lisäksi lääkkeen kaikki myyntiluvat Suomessa on peruutettu.
 
-**Jatkaakseen seuraavaa tarvitaan:**
-- TFDA pakkausteksti / tuotteen etiketti — estävä vajavuus (DG001)
-- Vahvistettu alkuperäinen MOA ja hyväksytty indikaatio rakenteisesta DrugBank-tietueesta (DG002)
-- Prekliiniset näyttöt doraviriiinin aktiivisuudesta FIV:n tai SIV:n käänteiskopioijainresinaasia vastaan, jos tätä linjaa halutaan jatkaa edelleen
-- Makaamisen ulkopuolisen DDI-kyselyn ratkaiseminen (tällä hetkellä `not_found`)
-
+**Eteneminen edellyttää seuraavaa:**
+- Vaikutusmekanismitietojen täydentäminen (DrugBank)
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen ja läpikäynti (Fimea), mikä estää tällä hetkellä turvallisuusseulonnan
+- In vitro -tutkimus doravirinin tehosta FIV:tä ja SIV:tä vastaan (rakenteellinen NNRTI-sitoutumistaskun vertailu)
+- Käyttöaiheen ja kohdelajin (eläinlääkinnällinen vs. ihmislääkinnällinen käyttö) selkeyttäminen ennen jatkotoimia
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

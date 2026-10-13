@@ -2,7 +2,7 @@
 layout: default
 title: Irbesartan
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 205
+nav_order: 238
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,71 +29,116 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-# Irbesartan: hypertensioista pahanlaatuiseen renovaskulariseen hypertensioihin
+# Irbesartaani: Verenpainetaudista pahanlaatuiseen renovaskulaariseen hypertensioon
 
-## Yhden lauseen yhteenveto
+## Yhden lauseen tiivistelmä
 
-Irbesartan on angiotensiini II -reseptorin salpaaja (ARB), lääkeluokka, jonka vakiintunut käyttö on hypertension hoitaminen. TxGNN-malli ennustaa sen voivan olla tehokas **pahanlaatuiseen renovaskulariseen hypertensioihin**, mutta tätä suuntaa tukevat tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua** — signaali perustuu ainoastaan mallin mekanistiseen pisteeseen.
+Irbesartaani on angiotensiini II -reseptorin (AT1) salpaaja, jota on alun perin käytetty verenpainetaudin hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **pahanlaatuiseen renovaskulaariseen hypertensioon**, mutta ennusteen tueksi ei ole toistaiseksi **yhtään kliinistä tutkimusta eikä julkaisua**. Ennuste perustuu pelkästään laskennalliseen mallinnukseen.
 
-## Nopea yleiskatsaus
+---
+
+## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Hypertensio (ARB-luokka; lääkettä ei markkinoida Suomessa, joten hyväksytyn merkinnän indikaatioteksti ei ole saatavilla) |
-| Ennustettu uusi indikaatio | Pahanlaatuinen renovaskularinen hypertensio |
-| TxGNN-ennustepistemäärä | 99.31% |
-| Todistusaineiston taso | L5 |
-| Suomen markkinatilanne | Ei markkinoitu |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Pidä |
+| Alkuperäinen käyttöaihe | Verenpainetauti |
+| Ennustettu uusi käyttöaihe | Pahanlaatuinen renovaskulaarinen hypertensio |
+| TxGNN-ennustepistemäärä | 99,31 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 10 (kaikki peruutettuja, voimassa olevia 0) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennuste on kohtuullinen?
+---
 
-Yksityiskohtaiset vaikutusmekanismin tiedot eivät ole saatavilla tässä Evidence Packissa (MOA-kenttä on tietoaukko). Tunnettujen lääkeluokan tietojen perusteella irbesartan on AT1-reseptorin antagonisti (ARB), joka estää reniini-angiotensiini-aldosteronivälineistöä (RAAS) verenpaineen laskemiseksi — tämä on mainittu suoraan mallin omassa uudelleenkäyttöindikaation perustelussa tälle ehdokkaalle.
+## Miksi ennuste on perusteltu?
 
-ARB-farmakologian ja pahanlaatuisen renovaskulaarisen hypertension välistä mekanistista yhteyttä koskeva logiikka on todella kaksijakoinen, ei yksinkertainen positiivinen signaali. Yhtäältä RAAS-esto on vakiomuotoinen farmakologinen lähestymistapa vaikeaan hypertensioihin. Toisaalta pahanlaatuinen renovaskularinen hypertensio sisältää usein yksipuolisen tai kaksipuolisen munuaisen valtimostenoosin, ja ARB:t laajentavat eferenttä arteriolia ja vähentävät intraglomerulaarista painetta — hyvin tunnettu mekanismi, joka voi aiheuttaa akuutin munuaisvammaa erityisesti kaksipuolisen munuaisen valtimostenoosin yhteydessä. Sama varoitus koskee läheisesti liittyvää sijoitus-2-ehdokasta (pahanlaatuinen hypertensiivinen munuaissairaus), jossa munuaisten toiminta on usein jo heikentynyt ja ARB:n aloitukseen vaaditaan kreatiniinin ja kaliumin tarkka seuranta.
+Irbesartaani salpaa AT1-reseptoria ja estää angiotensiini II:n verisuonia supistavan ja verenpainetta nostavan vaikutuksen. Tarkempaa mekanismikuvausta ei tämän raportin aineistossa ole saatavilla. Tunnetun lääkeryhmän perusteella mekanismi on kuitenkin biologisesti uskottava tilanteessa, jossa reniini-angiotensiinijärjestelmä on aktivoitunut.
 
-Kaksi muuta ehdokasta tässä paketissa (keuhkohypertensio keuhkosairauden ja/tai hypoksian seurauksena sekä keuhkohypertensio epäselvällä monitekijäisellä mekanismilla — WHO:n ryhmät 3 ja 5) ovat mekanistisesti heikompia: näitä tiloja ohjaa ensisijaisesti hypoksinen keuhkohypertension vasokonstriktio ja vaskularinen uudelleenmuodostuminen systeemisen RAAS-aktivaation sijasta, joten ARB:n merkitys on rajoitettu. Tärkeää on, että ryhmän 3 ehdokkaalle haetut 20 kirjallisuustietuetta ovat kaikki perustutkimuksia hypoksian biologiasta, neurodegeneratiivisista sairauksista tai syöpä-hypoksia mekanismeista — mikään niistä ei käsittele irbesartaania tai ARB:ita keuhkohypertension yhteydessä, joten ne eivät muodosta tukevia kliinisiä näyttöjä huolimatta siitä, että ne näkyvät hakutuloksissa.
+Renovaskulaarisessa hypertensiossa munuaisvaltimon ahtauma aktivoi reniini-angiotensiinijärjestelmää, joten yhteys alkuperäiseen käyttöaiheeseen on ilmeinen. Kyse on pikemminkin alkuperäisen verenpainelääkityksen laajennuksesta kuin aidosta uudelleenkäytöstä. Huomionarvoista on, että AT1-salpaajiin liittyy varoitus molemminpuolisessa munuaisvaltimon ahtaumassa, jossa ne voivat johtaa akuuttiin munuaisten vajaatoimintaan.
 
-## Kliinisen tutkimuksen todistusaineisto
+Toinen korkeimman pistemäärän ennuste, **pahanlaatuinen hypertensiivinen munuaissairaus**, on pistemäärältään identtinen (99,31 %). Tämä viittaa siihen, että ennusteet johtuvat todennäköisesti samasta tietoverkon naapurustosta eivätkä ole toisistaan riippumatonta näyttöä. Angiotensiini II:n aiheuttama verisuonivaurio ja glomerulaarinen hypertensio tekevät yhteydestä uskottavan, mutta pahanlaatuisen (kiihtyneen) hypertension tilannetta ei tue yksikään tutkimus.
 
-Tällä hetkellä ei ole rekisteröityjä siihen liittyviä kliinisiä tutkimuksia.
+Muita ennustettuja käyttöaiheita ovat keuhkoverenpainetaudin muodot (pistemäärä 99,25 %). Hypoksiaan liittyvää keuhkoverenpainetautia tukee vain prekliininen aineisto (ks. alla), ja epäselvän monitekijäisen keuhkoverenpainetaudin kohdalla näyttöä ei ole lainkaan.
 
-## Kirjallisuuden todistusaineisto
+---
 
-Tällä hetkellä ei ole saatavilla siihen liittyvää kirjallisuutta.
+## Kliininen tutkimusnäyttö
 
-## Muut TxGNN-ennustetut indikaatiot (sijoitukset 2–4)
+Ensisijaiseen ennusteeseen (pahanlaatuinen renovaskulaarinen hypertensio) liittyviä kliinisiä tutkimuksia ei ole rekisteröity. Myöskään muihin ennustettuihin käyttöaiheisiin ei ole löytynyt kliinisiä tutkimuksia.
 
-| Sijoitus | Sairaus | Pistemäärä | Todistusaineiston taso | Huomautus |
-|------|---------|-------|-----------------|------|
-| 2 | Pahanlaatuinen hypertensiivinen munuaissairaus | 99.31% | L5 | Sama mekanistinen varoitus kuin sijoitus 1 (aikaisempi munuaisvajaavuus); ei tutkimuksia tai kirjallisuutta |
-| 3 | Keuhkohypertensio keuhkosairauden ja/tai hypoksian seurauksena | 99.25% | L5 | 20 kirjallisuusosumaa, kaikki asiaan kuulumaton hypoksian biologian/onkologian papereista — ei ARB-spesifistä kliinistä näyttöä |
-| 4 | Keuhkohypertensio epäselvällä monitekijäisellä mekanismilla | 99.25% | L5 | Ei mekanistista polkua selvästi linkitettynä ARB:n toimintaan; ei tutkimuksia tai kirjallisuutta |
+---
 
-Kaikki neljä ehdokasta saavat L5-pistemäärän (vain mallin ennuste) ja "Pidä"-suosituksen päätösvaiheessa S0.
+## Kirjallisuusnäyttö
 
-## Suomen markkinatiedot
+Ensisijaiseen ennusteeseen ei ole saatavilla kirjallisuutta. Alla on kolmanneksi sijoittuneen ennusteen (hypoksiaan liittyvä keuhkoverenpainetauti) tärkeimmät julkaisut. Ne ovat lähes kaikki prekliinisiä, eikä niissä ole keuhkovaltimopaineeseen tai keuhkoverisuonten uudelleenmuovautumiseen liittyviä mittareita lukuun ottamatta kahta rottatutkimusta.
 
-Irbesartaanilla ei tällä hetkellä ole **myyntilupaa Suomessa** (markkinatilanne: Ei markkinoitu; 0 lisenssejä tiedostossa). Hyväksyttyä indikaatiotekstiä ei ole saatavilla tältä lainkäyttöalueelta.
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
+|------|-----|------|------|---------|
+| [34147903](https://pubmed.ncbi.nlm.nih.gov/34147903/) | 2021 | Prekliininen (eläin) | Biomed Pharmacother | Irbesartaani lievitti krooniseen vuoristotautiin liittyviä keuhkovaltimomuutoksia rottamallissa kolesterolin aineenvaihdunnan kautta |
+| [34286497](https://pubmed.ncbi.nlm.nih.gov/34286497/) | 2021 | Ei luokiteltu | Eur Rev Med Pharmacol Sci | Irbesartaani vähensi oksidatiivista stressiä korkean vuoristoilman keuhkoverenpainetaudin rottamallissa suoliston bakteeriston kautta |
+| [30356256](https://pubmed.ncbi.nlm.nih.gov/30356256/) | 2018 | Prekliininen (in vitro) | PLoS One | Irbesartaani suojasi sydänlihassoluja hypoksiastressiltä |
+| [34626328](https://pubmed.ncbi.nlm.nih.gov/34626328/) | 2022 | Prekliininen (eläin) | Sleep Breath | Irbesartaani vähensi uniapneaan liittyvää sydänlihaksen apoptoosia |
+| [17142340](https://pubmed.ncbi.nlm.nih.gov/17142340/) | 2007 | Prekliininen (eläin) | Am J Physiol Heart Circ Physiol | Irbesartaani esti kroonisen hypoksian stimuloimaa sepelvaltimoiden uudisverisuonten muodostusta vastasyntyneillä rotilla |
+| [35288835](https://pubmed.ncbi.nlm.nih.gov/35288835/) | 2022 | Katsaus | Inflammopharmacology | AT1-reseptorin salpaajien monivaikutteiset suojavaikutukset sydänkudoksen hypoksiassa |
+| [15526904](https://pubmed.ncbi.nlm.nih.gov/15526904/) | 2004 | Prekliininen (eläin) | Ren Fail | Irbesartaani lievitti siklosporiinin munuaistoksisuutta (ei suoraan relevantti) |
+
+Osa haetuista julkaisuista ei liity irbesartaaniin (yrttiuutteita koskevat tutkimukset sekä roksadustaatin yliannostapaus), joten ne on jätetty pois.
+
+---
+
+## Markkinatiedot Suomessa
+
+Kaikki kymmenen myyntilupaa on peruutettu, eikä voimassa olevia lupia ole.
+
+| Myyntilupanumero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/001093 | Irbesartan Teva | – | Verenpainetauti |
+| EMEA/H/C/000142 | Karvea | – | Verenpainetauti |
+| EMEA/H/C/000141 | Aprovel | – | Verenpainetauti |
+| EMEA/H/C/000785 | Irbesartan Zentiva | – | Verenpainetauti |
+| EMEA/H/C/000962 | Ifirmasta | – | Verenpainetauti |
+
+---
 
 ## Turvallisuusnäkökohdat
 
-Turvallisustiedot löytyvät pakkausselosteesta. (Keskeiset varoitukset, vasta-aiheet ja lääkevuorovaikutustiedot eivät ole saatavilla tässä Evidence Packissa — DDI-kysely ei myöskään tuottanut tuloksia.)
+Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole tämän raportin aineistossa saatavilla, joten niihin tulee tutustua valmisteyhteenvedosta.
 
-## Johtopäätös ja seuraavat vaiheet
+Tietämysverkosta (PrimeKG) johdetut vasta-aiheisiin viittaavat yhteydet (eivät valmisteyhteenvedon tekstiä) liittyvät muun muassa seuraaviin tiloihin:
+- angioedeema (myös ACE:n/reniini-angiotensiinijärjestelmän salpaajien aiheuttama)
+- haimatulehdus
+- systeeminen lupus erythematosus
+- diabetes ja diabeettinen ketoasidoosi
+- kihti ja hyperurikemia
+- hypotensio
+- maksakooma ja maksaenkefalopatia
+- anuria
+- munuaisvaltimon tukos
+- hyperkalsemia, hyperparatyreoosi ja nefrokalsinoosi
+- lihassairaudet ja rabdomyolyysi
 
-**Päätös: Pidä**
+**Lääkeyhteisvaikutukset** (100 löydöstä; esimerkit):
+- **Merkittävät (Major):** kaliumsitraatti, kaliumbikarbonaatti (hyperkalemian riski)
+- **Kohtalaiset (Moderate):** kortikosteroidit (hydrokortisoni, deksametasoni, betametasoni, triamsinoloni, budesonidi), asetyylisalisyylihappo, SGLT2-estäjät (kanagliflotsiini, dapagliflotsiini, empagliflotsiini), insuliinit (aspart, degludek), morfiini, bupropioni, aprepitantti, dronabinoli sekä suolenpuhdistusvalmisteet
+
+---
+
+## Johtopäätös ja jatkotoimet
+
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Millään ehdokasta indikaatiolla tässä paketissa ei ole kliinisen tutkimuksen tai kirjallisuuden tukea, ja korkeimmin sijoitetulla ehdokkaalla on tunnettu mekanistinen riski (mahdollinen akuutti munuaisvamma kaksipuolisen munuaisen valtimostenoosin yhteydessä) puhtaan positiivisen signaalin sijasta. Tätä pahentaa puuttuva TFDA/Fimea-pakkausselosteen turvallisuustieto (vasta-aiheet ja varoitukset), joka on merkitty **estäväksi** aukoksi, joka itsessään estää tätä ehdokasta siirtymisen S1-turvallisuuskatselmukseen.
+- Ennuste on uskottava mekanistisesti, mutta se on lähinnä alkuperäisen verenpainekäyttöaiheen laajennus. Näyttö on tasoa L5 (pelkkä mallin ennuste), eikä kliinisiä tutkimuksia tai julkaisuja ole. Lisäksi kaikki Suomen myyntiluvat on peruutettu ja valmisteyhteenvedon turvallisuustiedot puuttuvat.
+- Hypoksiaan liittyvä keuhkoverenpainetauti (L4) voidaan kirjata tutkimuskysymykseksi, mutta sen näyttö on pelkästään prekliinistä.
 
-**Etenemistä varten tarvitaan seuraavaa:**
-- Pakkausselosteen varoitukset ja vasta-aiheet (Estävä aukko — vaaditaan ennen mitään S1-turvallisuusarviointia)
-- Yksityiskohtaiset vaikutusmekanismin tiedot munuaisiin liittyvien hypertension indikaatioiden mekanistisen soveltuvuuden asianmukaiseen arviointiin
-- Kliinisiä tai todellisen maailman näyttöä ARB:n käytöstä pahanlaatuisessa renovaskularisessa hypertensioissa / pahanlaatuisissa hypertensiivisissä munuaissairauksissa, mukaan lukien munuaisen valtimostenoosin seulontaprotokollat
-- Reitti- ja annosmuototietojen yhteensopivuus, koska Suomessa ei ole olemassa markkinointilupaa viitata
-
+**Jatkotoimenpiteet:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankinta ja läpikäynti (Fimea), koska puute estää turvallisuusseulonnan
+- Yksityiskohtaiset vaikutusmekanismitiedot (esim. DrugBankista)
+- Kirjallisuushaku ja kliinisten tutkimusten rekisterihaku renovaskulaariselle ja pahanlaatuiselle hypertensiolle
+- Arvio munuaisvaltimon ahtauman aiheuttamasta munuaisten vajaatoiminnan riskistä
+- Myyntilupatilanteen selvittäminen, jos valmistetta harkitaan käyttöön Suomessa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

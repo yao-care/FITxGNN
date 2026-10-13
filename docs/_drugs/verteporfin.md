@@ -2,7 +2,7 @@
 layout: default
 title: Verteporfin
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 401
+nav_order: 468
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,62 +29,86 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Verteporfini: neovaskularisaation valokuvallisesta hoidosta mitokondriaalisen oksidatiivisen fosforylaation häiriöihin
+# Verteporfiini: Rappeutuneesta silmänpohjan ja likinäköisyyden hoidosta mitokondriaaliseen oksidatiivisen fosforylaation häiriöön
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Verteporfini (DrugBank DB00460) on bentsoporfyriinijohdannainen valoherkkä aine, joka on vakiintunut valokuvallisen hoidon käytössä korioideaalisen neovaskularisaation hoitoon. TxGNN-malli ennustaa, että se voi olla merkityksellinen **ydingenomiin liittyvien poikkeavuuksien aiheuttamille mitokondriaalisen oksidatiivisen fosforylaation häiriöille**, mutta tätä ennustetta tukevat tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua** — se on pelkästään mallin antama signaali, jolla ei vielä ole riippumatonta näyttöä.
+Verteporfiini on valoherkistäjä, jota on alun perin käytetty rappeuttavan likinäköisyyden ja silmänpohjan rappeuman (makuladegeneraation) hoitoon. TxGNN-malli ennustaa sen voivan tehota **tumaperäisten DNA-poikkeavuuksien aiheuttamaan mitokondriaaliseen oksidatiivisen fosforylaation häiriöön**. Ennusteen tueksi ei ole **yhtään kliinistä tutkimusta eikä julkaisua**, joten näyttö perustuu vain laskennalliseen ennusteeseen.
 
-## Nopea yleiskatsaus
+---
+
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Valokuvallinenhoidon käyttö korioideaalisen neovaskularisaation hoitoon (esim. ikään liittyvä makularappeuma) — perustuu vakiintuneisiin farmakologisiin tietoihin; ei sisälly tähän näyttöpakettiin, jossa puuttuvat `original_indications`-tiedot |
-| Ennustettu uusi indikaatio | Ydingenomiin liittyvien poikkeavuuksien aiheuttama mitokondriaalinen oksidatiivisen fosforylaation häiriö |
-| TxGNN-ennusteen pistemäärä | 99.49% (maailmanlaajuinen sijoitus 5558) |
+|------|------|
+| Alkuperäinen käyttöaihe | Rappeuttava likinäköisyys, silmänpohjan rappeuma |
+| Ennustettu uusi käyttöaihe | Tumaperäisten DNA-poikkeavuuksien aiheuttama mitokondriaalinen oksidatiivisen fosforylaation häiriö |
+| TxGNN-ennustepisteet | 99,49 % |
 | Näytön taso | L5 |
-| Taiwanin markkinatilanne | Ei markkinoilla (ei markkinoitu) |
-| Valtuuksien lukumäärä | 0 |
-| Suositeltu päätös | Odottaa |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennuste on perusteltu?
+---
 
-Yksityiskohtaisia toimintamekanismin tietoja ei ole saatavilla tässä näyttöpaketissa (merkitty tietojen puutteeksi **DG002**, korkea vakavuus). Vakiintuneiden farmakologisten tietojen perusteella verteporfini kertyy mieluiten nopeasti jakautuviin ja neovaskularisoiduissa kudoksissa, ja kun se aktivoidaan ei-lämpimällä punavalolla, se tuottaa reaktiivisia happiyhdisteitä, jotka valikoidusti vahingoittavat kohteen endoteelia — sen vakiintunut kliininen rooli on oftalmologinen valokuvallinenhoidon soveltaminen.
+## Miksi ennuste voi olla perusteltu?
 
-Ennustetulla indikaatiolla — ydingenomiin liittyvälla mitokondriaalisen oksidatiivisen fosforylaation häiriöllä — ei ole ilmeistä mekanistista yhteneväisyyttä tämän fotoaktivaatioprosessin kanssa. TxGNN:n pistemäärä heijastaa tietoverkkojen assosiaatiota pikemminkin kuin vahvistettua farmakologista yhteyttä, ja paketin omat `repurposing_rationale`-kentät (`mechanistic_link`, `similarity_to_original`) on molemmat merkitty **odottaviksi**, mikä tarkoittaa, että asiantuntijapohjaista mekanistista tarkistusta ei ole vielä suoritettu.
+Lääkkeen alkuperäisestä vaikutusmekanismista ei ole tässä raportissa käytettävissä tietoa. Tiedossa on, että verteporfiini on valoherkistäjä, jota käytetään fotodynaamisessa hoidossa (PDT) kasvaimenkaltaisten uudisverisuonten aiheuttamassa silmänpohjan rappeumassa. Prekliinisissä tutkimuksissa sen on raportoitu myös estävän YAP-TEAD-vuorovaikutusta.
 
-Koska alkuperäinen indikaatio puuttuu myös tästä näyttöpaketista (tyhjä `original_indications`), alkuperäisen ja ennustetun indikaation välinen vertailu ei voi perustua annettuihin tietoihin. Tämä ennuste tulisi käsitellä vain hypoteesia herättävänä, kunnes mekanistinen tarkistus on suoritettu ja TFDA/viranomaislaajennus on vahvistettu (tietojen puute **DG001**, esto-vakavuus).
+Mahdollinen yhteys mitokondriotautiin voisi liittyä mitokondrioihin ja oksidatiiviseen stressiin: valoaktivoitu verteporfiini tuottaa reaktiivisia happilajeja ja voi kertyä mitokondrioihin. Tämä on vain hypoteesitasoinen ajatus. Valoherkistäjän tuottamat happiradikaalit voisivat myös **pahentaa** oksidatiivisen fosforylaation toimintahäiriötä, joten vaikutuksen suunta on epäselvä ja se voi olla haitallinen.
 
-## Kliiniset tutkimusnäytöt
+Alkuperäisen käyttöaiheen (silmänpohjan sairaus) ja ennustetun käyttöaiheen (systeeminen aineenvaihduntasairaus) välinen samankaltaisuus on toistaiseksi arvioimatta, eikä antoreittien yhteensopivuutta ole selvitetty.
 
-Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
+---
 
-## Kirjallisuusnäytöt
+## Kliininen tutkimusnäyttö
 
-Tällä hetkellä asiaan liittyvää kirjallisuutta ei ole saatavilla.
+Ennustettuun käyttöaiheeseen ei ole tällä hetkellä rekisteröityjä kliinisiä tutkimuksia.
 
-## Taiwanin markkinatiedot
+---
 
-Verteporfini ei ole markkinoilla Taiwanissa (markkinatilanne: ei markkinoitu), jossa on 0 aktiivista valtuutta kirjattuna — lisensitaulukkoa ei ole saatavilla.
+## Kirjallisuusnäyttö
 
-## Turvallisuusnäkökohdat
+Aiheesta ei ole tällä hetkellä saatavilla asiaan liittyvää kirjallisuutta.
 
-Turvallisuustiedot löytyvät pakkausselosteesta.
+---
 
-## Johtopäätös ja seuraavat vaiheet
+## Markkinatiedot Suomessa
 
-**Päätös: Odottaa**
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000305 | Visudyne | – | Rappeuttava likinäköisyys, silmänpohjan rappeuma (tila: peruutettu) |
 
-**Perustelut:**
-Tämä on L5, pelkästään mallin antama ennustesignaali, jolla ei ole kliinisiä tutkimuksia, kirjallisuutta eikä suoritettua mekanistista analyysia, yhdistettynä estävään tietojen puutteeseen TFDA-laajennuksesta. Tällä hetkellä ei ole riittäviä näyttöjä edetäkseen edes turvavalvonnan alaisina.
+---
 
-**Edetäkseen tarvitaan seuraava:**
-- TFDA:n pakkausseloste (varoitukset/vasta-aiheet) — esto-puute DG001
-- Vahvistettu toimintamekanismi (DrugBank/alkuperäinen kirjallisuus) — korkea puute DG002
-- Vahvistetut alkuperäisen indikaation tiedot (tällä hetkellä tyhjät tässä paketissa)
-- `mechanistic_link`- ja `similarity_to_original`-perustelun analyysin saattaminen loppuun
-- Jatkuva seuranta nousevan kliinisen tutkimuksen tai kirjallisuuden osalta tästä indikaatiosta
+## Turvallisuushuomioita
 
+- **Tietämysgraafiin perustuvat vasta-aiheet** (TxGNN/PrimeKG, ei valmisteyhteenvedon teksti): perinnöllinen porfyria, porfyriinien aineenvaihduntasairaus, porfyria, maksasairaus ja sappirakon sairaus.
+- **Lääkeyhteisvaikutukset:** yhteensä 100 kirjattua yhteisvaikutusta. Esimerkkejä keskivaikeista (Moderate) yhteisvaikutuksista:
+  - tetrasykliinit: doksisykliini, tetrasykliini, minosykliini
+  - sulfonyyliureat: klooripropamidi, glimepiridi, glipitsidi, glibenklamidi, tolbutamidi, tolatsamidi, asetoheksamidi
+  - muut: asetyylisalisyylihappo, levofloksasiini, mannitoli, sulfasalatsiini, beetakaroteeni, papaveriini
+  - lievä (Minor): polymyksiini B
+
+  Monet näistä (esim. tetrasykliinit ja sulfonyyliureat) liittyvät valoherkkyyden lisääntymiseen, mikä on olennaista valoherkistäjän käytössä.
+
+Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole koottu tähän raporttiin, joten ne on tarkistettava valmisteyhteenvedosta.
+
+---
+
+## Johtopäätös ja jatkotoimet
+
+**Päätös: Hold (odota)**
+
+**Perustelu:**
+- Ennuste perustuu pelkästään korkeaan TxGNN-pisteeseen ilman kliinistä tai kirjallista tukea (L5). Vaikutuksen suunta on epäselvä ja voi olla haitallinen, koska valoherkistäjä tuottaa reaktiivisia happilajeja. Lisäksi Suomessa on vain peruutettu myyntilupa ja yhteisvaikutuksia on runsaasti.
+
+**Eteneminen edellyttää seuraavaa:**
+- Vaikutusmekanismin tarkka selvitys (MOA), erityisesti vaikutukset mitokondrioihin ja oksidatiiviseen stressiin
+- Prekliiniset tutkimukset mitokondriotautimalleissa, joissa arvioidaan myös haitallisen vaikutuksen mahdollisuus
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden kokoaminen ja turvallisuusarvio (ml. porfyria, maksa- ja sappirakon sairaudet sekä valoherkkyys)
+- Antoreittien ja annostelun yhteensopivuuden arviointi systeemiselle sairaudelle
+- Myyntiluvan ja saatavuuden selvitys Suomessa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

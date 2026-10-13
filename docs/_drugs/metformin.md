@@ -2,7 +2,7 @@
 layout: default
 title: Metformin
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 245
+nav_order: 284
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,58 +29,108 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Metformiini: Tyypin 2 diabeteksesta fokaaliseen jäykkään raajasyndromaan
+# Metformiini: Tyypin 2 diabeteksesta fokaaliseen jäykän raajan oireyhtymään
 
-## Yhden lauseen yhteenveto
+## Yhden lauseen tiivistelmä
 
-Metformiini on biguaniidipohjainen antidiabeettinen lääke, joka on hyvin vakiintunut tyypin 2 diabeteksen hoitoon (tätä erityistä seikkaa ei ole tallennettu näyttöpakettiin, joka ei luettele alkuperäisiä indikaatioita).
-TxGNN-malli ennustaa, että se saattaa olla tehokas **fokaalisessa jäykässä raajasyndromassa**, mutta tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua** tukee tätä suuntaa — ennustus perustuu kokonaan graafin upotusten samankaltaisuuteen.
+Metformiini on suun kautta otettava lääke, jota on alun perin käytetty tyypin 2 diabeteksen hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **fokaaliseen jäykän raajan oireyhtymään** (focal stiff limb syndrome).
+Ennusteen tueksi ei ole tällä hetkellä **yhtään kliinistä tutkimusta eikä julkaisua**, joten ennuste perustuu pelkästään mallilaskentaan.
 
-## Pika-yleiskatsaus
+---
+
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|--------|
-| Alkuperäinen indikaatio | Ei tallennettu näyttöpakettiin (Metformiini tunnetaan yleisesti tyypin 2 diabeteksen hoidosta) |
-| Ennustettu uusi indikaatio | Fokaali jäykkä raajasyndrooma |
-| TxGNN-ennuste-pistemäärä | 99.45% |
-| Näyttötaso | L5 |
-| Suomen markkinatilanne | ✗ Ei markkinoitu |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Odota |
+|------|------|
+| Alkuperäinen käyttöaihe | Tyypin 2 diabetes |
+| Ennustettu uusi käyttöaihe | Fokaalinen jäykän raajan oireyhtymä |
+| TxGNN-ennustepistemäärä | 99,45 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 19 (kaikki peruutettuja, voimassa 0) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennustus on järkevä?
+---
 
-Tällä hetkellä metformiinin yksityiskohtainen toimintamekanismi ei ole saatavilla tässä näyttöpakettissa ([Data Gap]). Yleisen farmakologisen tiedon perusteella metformiinin tunnettu mekanismi sisältää AMPK:n aktivoinnin ja mitokondrion kompleksin I:n estämisen — mekanismit, jotka ovat keskeisiä sen glukoosia alentavaan vaikutukseen.
+## Miksi ennuste on perusteltu?
 
-Fokaali jäykkä raajasyndrooma ja klassinen jäykkä henkilö -syndrooma sijaitsevat sairauskirjossa, jota ohjaavat ensisijaisesti GABAergisen neurotransmission puutteet ja anti-GAD65-autoimmuunipathologia. AMPK:n ja mitokondrion reittien sekä tämän neuro-autoimmuuniprosessin välillä ei ole vakiintunutta mekanistista yhteyttä. TxGNN:n paljastama yhteys näyttää olevan pelkkä graafin upotukseen perustuva yhteys pikemminkin kuin biologisesti perustettu hypoteesi, ja sitä tulisi käsitellä vain tutkimuksellisena.
+Tämän lääkkeen yksityiskohtaisia vaikutusmekanismitietoja ei ole tällä hetkellä saatavilla. Tunnetun tiedon perusteella metformiini on tyypin 2 diabeteksen hoidossa todettu lääke, jonka tiedetään aktivoivan AMPK-entsyymiä ja vähentävän maksan glukoosintuotantoa. Mekanistista yhteyttä fokaaliseen jäykän raajan oireyhtymään ei kuitenkaan ole osoitettu.
 
-Huomionarvoista on, että neljä muuta TxGNN:n rankaamaa metformiinin kandidaattia (klassinen jäykkä henkilö -syndrooma, opsismodysplasia, tiamiinille herkkä häiriöoireyhtymä ja lääkkeen aiheuttama paikallinen lipodystrofia) osoittavat vastaavasti heikkoa tai jopa ristiriitaista mekanistista perustelua — erityisesti tiamiinille herkkä kandidaatti on ristiriidassa metformiinin tunnetun tiamiinin/B12-imeytymisen häiriön kanssa, ja sitä tulisi merkitä mahdolliseksi mekanistiseksi kontraindikaatioksi eikä hoitomahdollisuudeksi.
+Fokaalinen jäykän raajan oireyhtymä kuuluu jäykän ihmisen oireyhtymän (stiff-person) kirjoon. Sen taustalla on autoimmuuni-, GABAergisen tai glysinergisen järjestelmän häiriö. Selvää yhteyttä metformiinin vaikutukseen ei ole, joten mekanistinen perustelu on spekulatiivinen.
 
-## Kliinisten tutkimusten näyttö
+Korkea pistemäärä voi heijastaa graafipohjaista yhteyttä: jäykän ihmisen oireyhtymä esiintyy usein yhdessä tyypin 1 diabeteksen ja muiden autoimmuunisairauksien kanssa. Tämä yhteisesiintyvyys ei kuitenkaan tue metformiinin hoitovaikutusta.
 
-Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia
+Muita ennustettuja käyttöaiheita (kaikilla näytön taso L5 ja suositus Hold):
+- klassinen jäykän ihmisen oireyhtymä (pistemäärä 99,45 %)
+- opsismodysplasia (99,40 %)
+- tiamiinille vastaava toimintahäiriöoireyhtymä (99,40 %)
+- lääkeaineen aiheuttama paikallinen lipodystrofia (99,06 %)
 
-## Kirjallisuuden näyttö
+---
 
-Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta
+## Kliiniset tutkimukset
 
-## Turvallisuusnäkökohdat
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
-Turvallisuustietoja varten katso pakkausseloste.
+---
+
+## Kirjallisuusnäyttö
+
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
+
+---
+
+## Suomen markkinatiedot
+
+Kaikki myyntiluvat on peruutettu. Alla on viisi esimerkkiä (kaikki yhdistelmävalmisteita, joissa metformiini on yhtenä vaikuttavana aineena):
+
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/002059 | Komboglyze | – | Tyypin 2 diabetes |
+| EMEA/H/C/005738 | Vildagliptin / Metformin hydrochloride Accord | – | Tyypin 2 diabetes |
+| EMEA/H/C/003770 | Synjardy | – | Tyypin 2 diabetes |
+| EMEA/H/C/005778 | Sitagliptin / Metformin hydrochloride Sun | – | Tyypin 2 diabetes |
+| EMEA/H/C/000861 | Janumet | – | Tyypin 2 diabetes |
+
+---
+
+## Turvallisuushuomiot
+
+**Tietämysgraafin (PrimeKG) perusteella tunnistetut vasta-aiheisiin liittyvät sairaudet** (eivät ole valmisteyhteenvedon tekstiä, vaan graafin lääke–sairaus-yhteyksiä):
+- maksan vajaatoiminta ja maksasairaus
+- munuaissairaus
+- haimatulehdus
+- sappirakon sairaus
+- sydämen vajaatoiminta
+- aivolisäkkeen vajaatoiminta ja siihen liittyvät hormonipuutokset (mm. kasvuhormonin puutos, hypogonadotrooppinen hypogonadismi, Kallmannin oireyhtymä, Sheehanin oireyhtymä)
+- lisämunuaiskuoren vajaatoiminta
+- kateenkorvan sairaus
+- märkävirtsanjohdin (pyoureter)
+
+**Lääkeyhteisvaikutukset:** Yhteisvaikutuksia on tunnistettu yhteensä 100. Tärkeimpiä ovat:
+- **Vakavat (Major):** asetratsoliamidi, etanoli
+- **Kohtalaiset (Moderate):** esim. dolutegraviiri, abemasiklibi, ranitidiini, nifedipiini, ibuprofeeni, ketorolaakki, hydrokortisoni, hydroklooritiatsidi, epinefriini, salbutamoli, formoteroli, etinyyliestradioli, fenyylefriini, pseudoefedriini, asetoheksamidi
+- **Lievät (Minor):** akarboosi, paikallinen hydrokortisoni, paikallinen alklometasoni
+
+Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat tästä aineistosta, joten ne tulee tarkistaa pakkausselosteesta ja valmisteyhteenvedosta.
+
+---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Odota**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Ennustusta tukee vain TxGNN-upotusten pistemäärä (L5, S0) nolla kliinisen tutkimuksen ja nolla kirjallisuuden kanssa kaikkien viiden ennustetun indikaation osalta, ja TFDA:n pakkausselosteen varoituksista ja kontraindikaatioista puuttuva tieto estää tällä hetkellä jopa alkuvaiheen (S1) turvallisuustarkastelun.
+- Ennuste on pelkkä mallilaskenta (L5): kliinisiä tutkimuksia ja julkaisuja ei ole, eikä mekanistinen yhteys metformiinin vaikutukseen ole uskottava. Lisäksi Suomessa ei ole voimassa olevia metformiinia sisältäviä myyntilupia.
 
-**Jatkamiseksi tarvitaan seuraavaa:**
-- TFDA:n pakkausselosteen tieto (varoitukset, kontraindikaatiot) — tällä hetkellä esto
-- Metformiinin alkuperäisen toimintamekanismin (MOA) vahvistaminen
-- Prekliininen tai mekanistinen kirjallisuus, joka spesifisesti yhdistää AMPK/mitokondrion reittejä GABAergisiin/anti-GAD65-patologioihin
-- Suomen/Taiwanin markkinoiden ja lisensointitilanteen uudelleenarviointi (tällä hetkellä tallennettu tilanne: ei markkinoitu, 0 hyväksyntää)
-
+**Jatkaminen edellyttää seuraavaa:**
+- Vaikutusmekanismitietojen (MOA) täydentäminen
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean aineistosta (turvallisuusarvion edellytys)
+- Prekliinisen tai mekanistisen näytön kartoittaminen metformiinin vaikutuksesta jäykän ihmisen oireyhtymän kirjoon (esim. AMPK/mTOR-vaikutukset T-soluihin)
+- Systemaattinen kirjallisuushaku ja kliinisten tutkimusten rekisterihaku
+- Tarkistus, onko Suomessa voimassa olevia metformiinivalmisteita (nykyisessä aineistossa kaikki 19 myyntilupaa on peruutettu)
+- Muiden ennustettujen käyttöaiheiden (erityisesti lipodystrofia ja tiamiinille vastaava oireyhtymä) vertailu, sillä niillä on epäsuora biologinen perustelu
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

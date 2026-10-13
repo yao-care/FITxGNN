@@ -2,7 +2,7 @@
 layout: default
 title: Upadacitinib
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 394
+nav_order: 460
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,63 +29,75 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Upadacitinib: indikaatiotiedot eivät vielä saatavilla → kolobomatoosinen mikroftalmiaa-rhizomeelisen dysplasia-oireyhtymä
+# Upadasitinibi: reumatoidiniveltulehduksesta kohti kolobomatoottisen mikroftalmia-rhizomeelisen dysplasiaoireyhtymän ennustetta
 
 ## Yhden lauseen yhteenveto
 
-Upadacitinibin alkuperäisen hyväksytyn indikaation ja toimintamekanismin tiedot eivät ole vielä saatavilla tässä evidenssipaketin osassa (tietoaukko). TxGNN-malli ennustaa mahdollista aktiivisuutta **kolobomatoosisen mikroftalmiaa-rhizomeelisen dysplasia-oireyhtymän** kohdalla, harvinaista synnynnäistä kehityshäiriötä, mutta tämä ennuste on tällä hetkellä tuettu **0 kliinisellä tutkimuksella** ja **0 julkaisulla** — se on vain mallin antama signaali.
+Upadasitinibi on lääke, jota on alun perin käytetty nivelreuman hoitoon. TxGNN-malli ennustaa sen voivan tehota **kolobomatoottiseen mikroftalmia-rhizomeelisen dysplasiaoireyhtymään** (ennustepisteet 99,6 %), mutta ennusteen tukena ei ole yhtään kliinistä tutkimusta eikä julkaisua. Näyttö on pelkkää mallin ennustetta (taso L5).
 
-## Nopea yleiskatsaus
+## Pikayhteenveto
 
 | Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Ei saatavilla (lisenssi-/indikaatiotietoja ei arkistossa) |
-| Ennustettu uusi indikaatio | Kolobomatoosinen mikroftalmiaa-rhizomeelisen dysplasia-oireyhtymä |
-| TxGNN-ennustepistemäärä | 99.61% (sija 4612) |
-| Evidenssitaso | L5 (mallin ennuste vain, ei tukevia tutkimuksia) |
-| Taiwanin markkinatilanne | Ei markkinoilla |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Odota |
+|------|------|
+| Alkuperäinen käyttöaihe | Nivelreuma |
+| Ennustettu uusi käyttöaihe | Kolobomatoottinen mikroftalmia-rhizomeelinen dysplasiaoireyhtymä |
+| TxGNN-ennustepisteet | 99,6 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennuste on perusteltu?
+## Miksi ennuste on (tai ei ole) perusteltu?
 
-Upadacitinibin yksityiskohtainen toimintamekanismin data ei ole tällä hetkellä saatavilla tässä evidenssipaketin osassa, eikä alkuperäinen indikaatio ole arkistossa, joten suoraa mekaanista yhteyttä ei voida rakentaa vain syöttötiedoista. Mallin omien tulosten perusteella upadacitinib on JAK1-selektiivinen inhibiittori, joka vaikuttaa sytokiinin signalointiin (IL-6, IL-4/13, IFN-polut).
+Tämän raportin laatimiseen koottu aineisto ei sisällä tietoa upadasitinibin vaikutusmekanismista. Yleisesti upadasitinibin tiedetään olevan selektiivinen JAK1-estäjä, joka vaimentaa tulehdusta ja immuunivastetta JAK-STAT-signalointireitin kautta. Nivelreumassa tämä mekanismi on selkeästi perusteltu.
 
-Kolobomatoosinen mikroftalmiaa-rhizomeelinen dysplasia-oireyhtymä on kuitenkin rakenteellinen/kehityshäiriö — synnynnäinen silmän väärinkehitys yhdistettynä proksimaalien raajojen luuston dysplasiaan — tyypillisesti linkitetty siliopatioihin tai peroksisomaalien geenivikoihin (esim. PEX7-liittyvä rhizomeelinen kondrodysplasia punctata), ei tulehdukselliseen tai autoimmuuniseen signalointiin. Ei ole vakiintunutta yhteyttä JAK-STAT-sytokiinin signaloinnin ja silmän/luuston alkion kehityspoluille osallistuvien oireyhtymien välillä.
+Ennustettu uusi käyttöaihe on harvinainen kehityshäiriöoireyhtymä, johon liittyy silmän rakenteellisia poikkeavuuksia ja luuston kehityshäiriöitä. Tällaiset tilat ovat tyypillisesti geneettisiä ja kehityksellisiä, eikä immuunivälitteisen tulehduksen estolla ole ilmeistä yhteyttä niiden patofysiologiaan. Aineiston perusteella uskottavaa mekanistista yhteyttä JAK-STAT-estoon ei voida osoittaa.
 
-Mallin oma uudelleenkäyttöperustelus päättelee, että korkea TxGNN-pistemäärä heijastaa todennäköisesti **tietokantakuvaajien solmujen läheisyyttä** (esim. klusterointia muiden harvinaistoimisen/kehityshäiriöiden solmujen kanssa) eikä todellista mekaanista uskottavuutta. Mikään mekaaninen, prekliininen tai kliininen näyttö ei tällä hetkellä tue tätä yhdistelmää — tämä on yhdenmukainen L5-evidenssitason ja Odota-suosituksen kanssa.
+Korkea ennustepiste voi heijastaa tietämysgraafin rakennetta (esimerkiksi yhteisiä geeni- tai reittinaapureita) eikä todellista hoitovaikutusta. Pisteet ovat vain hypoteesia tuottava signaali, eikä niitä tule pitää kliinisenä näyttönä.
 
-Toinen ehdokas, brachydactyly-syndactyly-oireyhtymä (pistemäärä 99.58%, sija 4924), osoittaa saman kuvion: luurankoksi/raajojen kehityshäiriöksi (HOX, BMP/GDF, GLI3-polut) luokiteltu häiriö, jolla ei ole suoraa yhteyttä JAK1-inhibitioon, ja samoin nolla tukevia tutkimuksia tai kirjallisuutta.
+Toinen ennustettu käyttöaihe, **brachydactyly-syndactyly-oireyhtymä** (pisteet 99,6 %), on synnynnäinen raajojen epämuodostumaoireyhtymä. Sama arvio pätee siihen: tukena ei ole tutkimuksia, eikä synnynnäisen rakenteellisen tilan odoteta reagoivan syntymän jälkeen annettavaan immuunivasteen muokkaajaan.
 
-## Kliinisen tutkimuksen näyttö
+## Kliininen tutkimusnäyttö
 
-Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
-## Kirjallisuuden näyttö
+## Kirjallisuusnäyttö
 
-Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta.
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
-## Taiwanin markkinatiedot
+## Myyntilupatiedot Suomessa
 
-Upadacitinib ei ole tällä hetkellä markkinoilla Taiwanissa (arkistossa 0 hyväksyntää), joten paikallisia tuotanto-/hyväksyntätietoja ei ole saatavilla.
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004760 | Rinvoq | – | Nivelreuma |
 
-## Turvallisuushuomiot
+Kyseinen myyntilupa on tilassa "peruutettu", eikä voimassa olevia myyntilupia ole.
 
-Viitaa pakkausselosteeseen turvallisuustiedoista. (Huomio: TFDA-merkinnän varoitukset/vasta-aiheet ja toimintamekanismin tiedot on merkitty ratkaisemattomiksi tietoaukoiksi — katso Johtopäätös alla.)
+## Turvallisuusnäkökohdat
 
-## Johtopäätös ja seuraavat vaiheet
+Varoituksista ja vasta-aiheista ei ole saatavilla tietoa tässä aineistossa. Tarkista turvallisuustiedot valmisteyhteenvedosta.
 
-**Päätös: Odota**
+**Lääkeyhteisvaikutukset:** Yhteisvaikutushaku tuotti yhteensä 100 yhteisvaikutusta. Alla on luettelo aineiston ensimmäisistä 20 yhteisvaikutuksesta.
+
+- **Merkittävä (Major):** hydrokortisoni, triamsinoloni (myös silmälääkemuoto), deksametasoni, beklometasonidipropionaatti, betametasoni, budesonidi, prednisoni, prednisolooni, klaritromysiini, kobisistaatti, deferipooni, jobenguaani (I-131)
+- **Kohtalainen (Moderate):** aprepitantti, simetidiini, mikonatsoli, deferasiroksi
+- **Vähäinen (Minor):** sinkkisulfaatti, sinkkiasetaatti, sinkkiglukonaatti
+
+Huomionarvoista on, että useat kortikosteroidit on luokiteltu merkittäviksi yhteisvaikutuksiksi.
+
+## Johtopäätös ja jatkotoimet
+
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Molemmat ennustetut indikaatiot ovat algoritmin ainoastaan (L5) antamia signaaleja, joilla ei ole tukevia kliinisiä tutkimuksia, kirjallisuutta tai uskottavaa mekaanista yhteyttä — mallin omasta perustelusta käy ilmi, että korkeat pistemäärät todennäköisesti kuvastavat tietokantakuvaajan läheisyyttä eikä biologista merkityksellisyyttä. Lääkettä ei myöskään markkinoida Taiwanissa, ja lääkkeen tason perusdata (toimintamekanismi, TFDA-merkintä) pysyy ratkaisemattomina.
+- Ennusteen ainoa tuki on korkea TxGNN-pistemäärä. Kliinisiä tutkimuksia ja julkaisuja ei ole, eikä JAK1-eston ja kohdesairauden synnynnäisen kehityksellisen patologian välille voida osoittaa uskottavaa mekanistista yhteyttä. Lisäksi Suomessa on vain peruutettu myyntilupa.
 
-**Jatkaaksemme tarvitaan seuraavaa:**
-- TFDA-pakkausseloste (varoitukset/vasta-aiheet) — tällä hetkellä **estoava** tietoaukko
-- JAK1-inhibition toimintamekanismin vahvistus DrugBankista — tällä hetkellä **korkea**-vakavuuden tietoaukko
-- Upadacitinibin alkuperäisen hyväksytyn indikaation tiedot
-- Prekliiniset tai mekaaniset tutkimukset, jotka yhdistävät suoraan JAK1-inhibition jompaan kumpaan ehdokkaisairauksista ennen kuin mitään lisäarviointivaiheesta harkitaan
-
+**Jatkoon siirtyminen edellyttää seuraavaa:**
+- Vaikutusmekanismin (MOA) tietojen täydentäminen DrugBankista
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean verkkosivuilta (turvallisuusseulonnan estävä tietoaukko)
+- Mekanistisen perustelun selvittäminen: onko JAK-STAT-reitillä tosiasiallista yhteyttä kohdesairauden patogeneesiin
+- Prekliinisen tai kirjallisuusnäytön kartoitus ennen mahdollisia jatkotoimia
+- Myyntilupatilanteen selvittäminen (peruutettu myyntilupa Suomessa)
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

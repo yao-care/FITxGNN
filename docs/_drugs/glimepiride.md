@@ -2,7 +2,7 @@
 layout: default
 title: Glimepiride
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 177
+nav_order: 205
 evidence_level: L5
 indication_count: 9
 ---
@@ -29,59 +29,75 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 
 </div>
 
-# Glimepiride: tyypin 2 diabeteksesta fokaalisen jäykän raajan oireyhtymään
+# Glimepiridi: Tyypin 2 diabeteksesta fokaaliseen jäykän raajan oireyhtymään
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Glimepiride on sulfonyyliurea-antidiabeettinen lääke, jota käytetään tyypin 2 diabeteksen hoitoon stimuloimalla haiman insuliinin erittymistä.
-TxGNN-malli ennustaa, että se saattaa olla tehokas **fokaalisen jäykän raajan oireyhtymän** hoidossa, mutta tätä ennustusta tukee tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua** — se on puhdas graafi-upotussignaali, jonka takana ei ole farmakologista tai kliinistä näyttöä.
+Glimepiridi on sulfonyyliurearyhmän lääke, jota käytetään tyypin 2 diabeteksen hoitoon. TxGNN-malli ennustaa sen voivan tehota **fokaaliseen jäykän raajan oireyhtymään** (focal stiff limb syndrome). Ennusteen tueksi ei kuitenkaan ole **yhtään kliinistä tutkimusta eikä julkaisua**, joten kyseessä on pelkkä mallipohjainen ennuste.
 
-## Pikayhteenveto
+## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Tyypin 2 diabetes (päätelty sulfonyyliurea-lääkeluokasta; ei ole läsnä näyttöaineiston lupatiedoissa) |
-| Ennustettu uusi indikaatio | Fokaalinen jäykkä raaja -oireyhtymä |
-| TxGNN-ennustuspisteet | 99.75% |
-| Näyttöjen taso | L5 |
-| Suomen markkinatilanne | ✗ Ei markkinoitu |
-| Myyntilupia yhteensä | 0 |
-| Suositeltu päätös | Odota |
+| Alkuperäinen käyttöaihe | Tyypin 2 diabetes |
+| Ennustettu uusi käyttöaihe | Fokaalinen jäykän raajan oireyhtymä |
+| TxGNN-ennustepistemäärä | 99,75 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennustus on perusteltu?
+## Miksi ennuste voisi vaikuttaa uskottavalta?
 
-Tällä hetkellä yksityiskohtaista vaikutusmekanismin tietoa ei ole saatavilla tälle ehdokkaalle (merkitty estäväksi tietoaukoksi). Tunnetun farmakologian perusteella glimepiride on sulfonyyliurea, joka sitoutuu SUR1:lle haiman β-solun KATP-kanavalla laukaisemaan insuliinin vapautumisen, ja sen teho tyypin 2 diabeteksen hoidossa on hyvin vakiintunut.
+Glimepiridin vaikutusmekanismitietoja ei ole tässä raportissa käytettävissä. Tunnetusti glimepiridi on sulfonyyliurea, joka sulkee haiman beetasolujen KATP-kanavia ja lisää insuliinin eritystä. Teho tyypin 2 diabeteksessa on osoitettu.
 
-Fokaalinen jäykkä raaja -oireyhtymä on harvinaisen jäykkyysoireyhtymän lokalisoitunut muoto, autoimmuuni-neurologinen häiriö, jossa anti-GAD65-vasta-aineet hyökkäävät GABAergiä hermoja vastaan, aiheuttaen lihasten jäykkyyden ja lihasvärinät. Insuliinin erittävien lääkkeiden vaikutuksen ja tämän autoimmuuni-neuromuskulaarisen sairauden välillä ei ole vakiintunutta farmakologista tai kliinistä yhteyttä.
+Ennuste perustuu todennäköisesti tiedon verkostoon (graafiin) liittyvään yhteyteen: jäykän raajan oireyhtymät ovat usein autoimmuunitaustaisia (anti-GAD65) ja esiintyvät yhdessä diabeteksen kanssa. Diabetekseen liittyvät solmut voivat siten paisuttaa pistemäärää.
 
-Näyttöaineiston oman perustelun mukaan tälle ennustukselle yhteys ei ole mekanistisesti perusteltu: se toteaa, että mikään sulfonyyliuran farmakologinen mekanismi ei tue yhteyttä, ja että korkea TxGNN-pistemäärä todennäköisesti heijastaa epäsuoraa tilastollista assosiaatiota tietoverkossa (mahdollisesti GAD/insuliinireitin geenikäyttäytymisen kautta viereisten ennusteiden kanssa) eikä biologista uskottavuutta. Tämän indikaation tueksi ei tällä hetkellä ole kliinistä tai molekyylitason näyttöä.
+Mekanistista perustetta ei kuitenkaan ole. Glimepiridillä ei ole tunnettua vaikutusta GABAergiseen toimintaan tai selkäytimen välineuronien yliärtyvyyteen. Ennuste on siis spekulatiivinen eikä sitä tue kliininen tieto.
 
-## Kliinisten tutkimusten näyttö
+## Kliininen tutkimusnäyttö
 
-Tällä hetkellä ei ole asiaan liittyviä rekisteröityjä kliinisiä tutkimuksia
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
-## Kirjallisuuden näyttö
+## Kirjallisuusnäyttö
 
-Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
-## Turvallisuusnäkökohdat
+## Tiedot Suomen markkinoilta
 
-Katso turvallisuustiedot pakkausselosteesta.
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000680 | Tandemact | – | Tyypin 2 diabetes (peruutettu) |
 
-## Johtopäätös ja seuraavat vaiheet
+## Turvallisuushuomiot
 
-**Päätös: Odota**
+- **Muut mahdolliset sairausyhteydet (tietämysgraafista, ei valmisteyhteenvedosta):** Tietämysgraafin lääke–tauti-vasta-aihe-yhteyksiin kuuluvat mm. munuaissairaus, maksasairaus, sappirakon sairaus, kongestiivinen sydämen vajaatoiminta, aivolisäkkeen vajaatoiminta (hypopituitarismi), kasvuhormonin puutos, Kallmannin oireyhtymä, Sheehanin oireyhtymä, kateenkorvan sairaus, osteoporoosi ja infektiosairaudet. Nämä ovat mallin tuottamia yhteyksiä, eivät valmisteyhteenvedon tekstiä.
+- **Yhteisvaikutukset:** Yhteisvaikutushaussa löytyi 100 yhteisvaikutusta. Esimerkkejä keskivaikeista (Moderate) yhteisvaikutuksista: fenyylefriini, asebutololi, asetatsoliamidi, famotidiini, ranitidiini, asitretiini, formoteroli, pseudoefedriini, ketorolaakki, adrenaliini, ibuprofeeni, etinyyliestradioli, hydrokortisoni, albiglutidi, salbutamoli, etanoli, nitatsoksanidi ja hydroklooritiatsidi. Lieviä (Minor) yhteisvaikutuksia ovat mm. paikallisesti käytettävä hydrokortisoni ja alklometasoni.
+
+Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat, joten ne on tarkistettava valmisteyhteenvedosta.
+
+## Muut ennustetut käyttöaiheet (lyhyesti)
+
+Muut ennusteet ovat myös tasolla L5 ja suositus on Hold:
+
+- Klassinen jäykän ihmisen oireyhtymä (99,75 %): mekanistinen yhteys epätodennäköinen, vakiohoidot ovat bentsodiatsepiinit, baklofeeni ja IVIG.
+- Opsismodysplasia (99,74 %): teoreettinen yhteys insuliinisignalointiin, ei kliinistä näyttöä.
+- Tiamiinille vasteinen oireyhtymä (99,73 %): mahdollinen hyöty koskisi vain diabeteskomponenttia.
+- Lääkeaineen aiheuttama paikallinen lipodystrofia sekä sentrifugaalinen, paineen aiheuttama ja idiopaattinen paikallinen lipodystrofia (99,56–99,62 %): ei uskottavaa farmakologista perustetta.
+- Haiman agenesia (99,55 %): sulfonyyliurea vaatii toimivia beetasoluja, joten teho on mekanistisesti epätodennäköinen. Ainoa löytynyt julkaisu (PMID 12720536) koskee insulinoomien endosonografiakuvantamista eikä tue glimepiridin käyttöä.
+
+## Johtopäätös ja seuraavat askeleet
+
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Tämä on L5-ennustus (vain mallin tuloste) ilman kliinisiä tutkimuksia, ilman tukevia julkaisuja ja ilman uskottavaa farmakologista mekanismia, joka yhdistäisi glimepiridien insuliinin erittävän toiminnan fokaalisen jäykän raajan oireyhtymän autoimmuuni-patofysiologiaan — näyttöaineiston oman perustelun mukaan mekanistinen yhteys puuttuu.
+- Ennuste perustuu vain graafipohjaiseen malliin ilman kliinistä tai kirjallista näyttöä, eikä uskottavaa vaikutusmekanismia ole. Lisäksi Suomessa on vain peruutettu myyntilupa.
 
-**Edetäkseen seuraavaa tarvitaan:**
-- TFDA/Fimean pakkausseloste-tiedot (varoitukset, vasta-aiheet) — tällä hetkellä estävä tietoaukko
-- Vahvistetut vaikutusmekanismin (MOA) -tiedot DrugBankista — tällä hetkellä korkean vakavuuden tietoaukko
-- Prekliiniset tai mekanistiset tutkimukset, jotka osoittavat biologista uskottavuutta tälle indikaatiolle
-- Lääkkeen vuorovaikutustieto (DDI), joka ei ole tällä hetkellä saatavilla
-- Jos jatkuu, huomaa, että muut glimepiridille ennustetut indikaatiot (esim. haiman agenesia, sijoitus 9) kantavat marginaalisesti vahvempaa — vaikka silti heikkoa — mekanistista perustelua monigenisen neonataalisen diabeteksen kautta ja saattaisivat vaatia vertailevaa tarkastelua
-
+**Etenemiseksi tarvitaan:**
+- Valmisteyhteenvedon turvallisuustiedot Fimean sivustolta (estävä tietoaukko)
+- Vaikutusmekanismin tiedot (esim. DrugBankista)
+- Prekliininen tai kliininen näyttö glimepiridin vaikutuksesta jäykän raajan oireyhtymään
+- Selvitys valmisteen saatavuudesta Suomessa, koska voimassa olevaa myyntilupaa ei ole
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

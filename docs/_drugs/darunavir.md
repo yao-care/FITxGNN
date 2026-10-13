@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Darunavir
-parent: Pelkkä mallin ennuste (L5)
-nav_order: 111
-evidence_level: L5
+parent: Kohtalainen näyttö (L3-L4)
+nav_order: 128
+evidence_level: L4
 indication_count: 4
 ---
 
 # Darunavir
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **4** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,80 +29,98 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-# Darunavir: HIV-1-infektiosta simiaanin immuunivajaatuntaudin infektioon
+# Darunaviiri: HIV-infektiosta apinoiden immuunikatovirusinfektioon
 
-## Yhteenveto yhdessä lauseessa
+## Yhden virkkeen yhteenveto
 
-Darunavir on HIV-1-proteinaasi-inhibiittori, joka tunnetaan parhaiten osana antiretroviraalisen yhdistelmähoidon käyttöä ihmisten HIV-1-infektioissa.
-TxGNN-mallin paras ennustus on **Simiaanin immuunivajaatuntaudin (SIV) -infektio** — ei-ihmisprimaattien lentiviraalihoitainen tauti, ei ihmisille tarkoitettu sairaus — tuettu ainoastaan **4 prekliinisellä/eläintutkimuksella**, joista yksikään ei erityisesti testaa darunaviriä. Tällä hetkellä ei ole saatavilla kliinisiä tutkimuksia, Fimean markkinaläsnäoloa tai turvallisuusasiakirjoja, joten tämä kandidaatti ei ole toimikelpoinen ilman merkittävää lisätietoa.
+Darunaviiri on HIV-proteaasin estäjä, jota on alun perin käytetty HIV-infektion hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **apinoiden immuunikatovirusinfektioon (SIV)**.
+Ennustetta tukee tällä hetkellä **0 kliinistä tutkimusta** ja **4 julkaisua**, jotka ovat kaikki ei-ihmisprimaattien prekliinisiä tutkimuksia.
 
-## Pikayleiskatsaus
+---
+
+## Pikakatsaus
 
 | Kohde | Sisältö |
-|-------|---------|
-| Alkuperäinen indikaatio | HIV-1-infektio (johdettu mekanistisesta perustelusta tässä todistuspaketissa; virallinen indikaatioteksti ja MOA on merkitty tietovajeiksi — katso Perustelut alla) |
-| Ennustettu uusi indikaatio | Simiaanin immuunivajaatuntaudin infektio |
-| TxGNN-ennusteen pistemäärä | 99.97% |
-| Todisteiden taso | L4 (prekliiniset/eläintutkimukset vain) |
-| Suomen markkinoiden asema | ✗ Ei markkinoilla |
-| Lupien lukumäärä | 0 |
-| Suositeltava päätös | Pidätä |
+|------|------|
+| Alkuperäinen käyttöaihe | HIV-infektio |
+| Ennustettu uusi käyttöaihe | Apinoiden immuunikatovirusinfektio (SIV) |
+| TxGNN-ennusteen pistemäärä | 99,97 % |
+| Näytön taso | L4 |
+| Markkinatilanne Suomessa | Vain peruutetut myyntiluvat |
+| Myyntilupien määrä | 5 (kaikki peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennuste on järkevä?
+---
 
-Tällä hetkellä yksityiskohtainen toimintamekanismin tietoa ei ole saatavilla strukturoidussa `original_moa` -kentässä (merkitty tietovajeksi, DG002). Kuitenkin todistuspaketin omassa uudelleenkäyttöperustelussa darunavir tunnistetaan **HIV-1-proteinaasi-inhibiittoriksi**, joka vaikuttaa retroviraalisen Gag-Pol-polyproteiinin yhdisteltäviin vaiheisiin, joita vaaditaan viruksen kypsymiseen.
+## Miksi ennuste on perusteltu?
 
-SIV ja HIV ovat molemmat *Lentivirus*-suvun jäseniä ja jakavat merkittävää rakenteellista samankaltaisuutta niiden proteinaasi-entsyymeissä. Tämä antaa ennusteelle periaatteessa uskottavan mekanistisen perustan: HIV-1-proteinaasi-inhibiittori voisi teoriassa säilyttää aktiivisuuden SIV-proteinaasia vastaan ei-ihmisprimaattien malleissa.
+Darunaviirin tarkkaa vaikutusmekanismia koskevia tietoja ei ole tällä hetkellä saatavilla tähän raporttiin koottuna. Tunnetun tiedon mukaan darunaviiri on HIV-1-proteaasin estäjä, sen teho HIV-infektiossa on osoitettu, ja mekanistisesti se voi soveltua myös lähisukuisen SIV-viruksen aiheuttamaan infektioon.
 
-Siitä huolimatta mekanistinen linkki on epäsuora. Yksikään neljästä kirjallisuusennätyksestä ei tutkinut erityisesti darunaviriä — kaksi kuvaavat monilääkkeiden cART-rejiimiä (emtrisitiabini, tenofovir jne.) SIV-infektoiduissa makakeissa, ja kaksi muuta kuvaavat täysin erilaisia aineita (HDAC-inhibiittori SAHA ja kullanyhdiste auranofiin) testattuna samassa eläinmallissa viruksen säiliön tutkimukselle. Nämä ovat sivukohtaisia, mallijärjestelmää koskevia viittauksia eikä suoraa darunavirin tehokkuuden tietoa. Lisäksi SIV-infektio on eläinlääketieteellinen/tutkimuksellisen eläimen tauti, ei ihmisille tarkoitettu indikaatio, mikä rajoittaa tämän kandidaatin relevansssia ihmisille tarkoitetussa lääkkeiden uudelleenkäytössä.
+SIV on HIV:n kanssa läheistä sukua oleva lentivirus. Proteaasin estäminen on todennäköisesti säilynyt toimintatapa eri lentivirusten välillä, joten mekanistinen perustelu on vahva. Korkea ennustepistemäärä heijastaa todennäköisesti SIV:n ja HIV:n rakenteellista samankaltaisuutta tietograafissa.
 
-## Kliinisen tutkimuksen todisteet
+Tämä ei kuitenkaan ole varsinaista lääkkeen uudelleenkäyttöä uuteen ihmisten sairauteen. Kyse on olennaisesti samasta lääkeryhmän vaikutuksesta kuin hyväksytyssä HIV-käyttöaiheessa, laajennettuna ei-ihmisprimaattimalliin. Löydetyt tutkimukset koskevat SIV-infektoituja makakeja, joita on hoidettu yhdistelmähoidoilla (cART) ja lisälääkkeillä. Otsikoiden perusteella darunaviirin oma osuus ei ole varmistettavissa, ja se voi olla vain yksi monilääkehoidon osa.
 
-Tällä hetkellä ei ole rekisteröityjä niihin liittyviä kliinisiä tutkimuksia.
+Muut ennustetut käyttöaiheet ovat heikommin perusteltuja:
+- **Kissan immuunikatooireyhtymä (FIV):** eläinlääketieteellinen käyttöaihe, jolla ei ole merkitystä ihmisen hoidossa. FIV-proteaasi eroaa HIV-1-proteaasista, joten tehoa ei voi olettaa. Tutkimuksia ei löytynyt.
+- **Harvinainen neurokehityshäiriö (ataksinen kävely, puheen puuttuminen):** uskottavaa mekanistista yhteyttä ei ole, ja ennuste on todennäköisesti tietograafin artefakti.
+- **Vanhentunut familiaalinen yhdistetty hyperlipidemia:** tauti on merkitty ontologiassa vanhentuneeksi. Proteaasin estäjät voivat pahentaa rasva-arvoja, joten vaikutussuunta voi olla hoidolle päinvastainen.
 
-## Kirjallisuustodisteet
+---
 
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset tulokset |
-|------|-------|--------|-------|---------|
-| [26150024](https://pubmed.ncbi.nlm.nih.gov/26150024/) | 2016 | Eläintutkimus | AIDS Research and Human Retroviruses | Arvioi kahta uutta injektoitavaa cART-rejiimiä (ei darunavir-spesifisiä) SIV-replikaation tukahduttamiseksi SIVmac239-infektoiduissa rhesus-makakeissa |
-| [25033210](https://pubmed.ncbi.nlm.nih.gov/25033210/) | 2014 | Eläintutkimus | PLoS One | Yhdisti suppressiivisen cART:n HDAC-inhibiittorin SAHA:n kanssa SIV-infektoiduissa kiinalaisissa rhesus-makakeissa viruksen säiliöiden tutkimiseksi |
-| [22737073](https://pubmed.ncbi.nlm.nih.gov/22737073/) | 2012 | Eläintutkimus | PLoS Pathogens | Erittäin tehostettu monilääkkeinen ART-rejiimi saavutti pitkäaikaisen viruksen suppressin ja säiliön rajoituksen SIVmac251-infektoiduissa makakeissa |
-| [21505294](https://pubmed.ncbi.nlm.nih.gov/21505294/) | 2011 | Eläintutkimus | AIDS (London, England) | Kullanyhdiste auranofiin (ei-darunavir-aine) rajoitti virussäiliötä apinantaudin mallissa |
+## Kliininen tutkimusnäyttö
 
-Huomautus: yksikään edellä mainituista tutkimuksista ei testaa darunaviriä suoraan; kaikki ovat muiden aineiden tai yhdistelmärejiimien SIV/makakki-mallin tutkimuksia.
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
-## Muut TxGNN-ennustetut indikaatiot (ei priorisoituja)
+---
 
-Tämä todistuspaketti sisältää kolme muuta kandidaattia parhaan ennusteen lisäksi, joita kannattaa mainita täydellisyyden vuoksi:
+## Kirjallisuusnäyttö
 
-| Sijoitus | Sairaus | Pistemäärä | Todisteiden taso | Päätös | Keskeinen huomautus |
-|----------|---------|-----------|------------------|--------|-------------------|
-| 2 | Kissan hankkima immuunivajaatuntatauti (FIV) | 99.97% | L2 | Tutkimuskysymys | Yksi päättynyt vaihe 4 eläinlääketieteellinen RCT ([NCT02770508](https://clinicaltrials.gov/study/NCT02770508), n=145) testasi suoraan boostattua darunaviriä + lamivudiiniä kissoissa — mutta tutkittavat eivät ole ihmisiä, mikä rajoittaa relevansssia ihmisille tarkoitetussa lääkkeiden uudelleenkäytössä |
-| 3 | Harvinainen hermoston kehityshäiriö (ataktinen kävely, puuttuva puhe, vähentyneempi valkoaine) | 99.97% | L5 | Pidätä | Ei tunnistettua mekanistista tai kliinistä linkkiä; vain ennuste |
-| 4 | Perinnöllinen yhdistetty hyperlipidemiaemia (vanhentunut termi) | 99.19% | L5 | Pidätä | Mekanistisesti ristiriitainen — HIV-proteinaasi-inhibiittorit tunnetaan *aiheuttavan* dyslipidemian haittavaikutuksena, ei hoitavan sitä |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [25033210](https://pubmed.ncbi.nlm.nih.gov/25033210/) | 2014 | Prekliininen (ei-ihmisprimaatti) | PloS one | Tehostettu yhdistelmähoito (cART) ja histonideasetylaasin estäjä SAHA SIV-infektoiduilla kiinalaisperäisillä reesusmakakeilla; virusvarastojen tutkiminen |
+| [26150024](https://pubmed.ncbi.nlm.nih.gov/26150024/) | 2016 | Prekliininen (ei-ihmisprimaatti), hoito-ohjelmien vertailu | AIDS Res Hum Retroviruses | Kahden uuden yhdistelmähoito-ohjelman vertailu SIVmac239-infektoiduilla reesusmakakeilla |
+| [21505294](https://pubmed.ncbi.nlm.nih.gov/21505294/) | 2011 | Prekliininen (ei-ihmisprimaatti) | AIDS | Kultayhdiste auranofiini rajoitti virusvarastoa apinoiden AIDS-mallissa ja auttoi hallitsemaan viruskuormaa hoidon keskeytyksen jälkeen |
+| [22737073](https://pubmed.ncbi.nlm.nih.gov/22737073/) | 2012 | Prekliininen (ei-ihmisprimaatti), tehostettu ART | PLoS Pathog | Vahvasti tehostettu monilääkehoito johti pitkäaikaiseen viruksen vaimenemiseen ja virusvaraston rajoittumiseen SIV-mallissa |
 
-## Suomen markkinatiedot
+---
 
-Darunavir ei ole tällä hetkellä **markkinoilla** Suomessa (0 lupaa), joten tuote-/lupa-taulukko ei ole saatavilla.
+## Tiedot Suomen markkinoista
 
-## Turvallisuusnäkökohtia
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004273 | Darunavir Krka | – | HIV-infektio |
+| EMEA/H/C/004068 | Darunavir Viatris (aiemmin Darunavir Mylan) | – | HIV-infektio |
+| EMEA/H/C/000707 | Prezista | – | HIV-infektio |
+| EMEA/H/C/002819 | Rezolsta | – | HIV-infektio |
+| EMEA/H/C/004391 | Symtuza | – | HIV-infektio |
 
-Katso turvallisustiedot pakkausselosteesta. (Huomautus: TFDA/Fimean pakkausselosteen varoitukset ja vasta-aiheet on merkitty **estäväksi** tietovajeksi tässä todistuspaketissa — katso Johtopäätös alla.)
+Kaikki viisi myyntilupaa on merkitty peruutetuiksi.
 
-## Johtopäätös ja seuraavat vaiheet
+---
 
-**Päätös: Pidätä**
+## Turvallisuushuomiot
+
+Tietograafissa (PrimeKG) darunaviiriin liittyy vasta-aiheita seuraavissa tiloissa (ei valmisteyhteenvedon tekstiä): maksan vajaatoiminta, maksasairaus, sappirakon sairaus, hyperglykemia, maksakirroosi, diabetes, diabeettinen ketoasidoosi, krooninen hepatiitti C- ja B-infektio, hypertriglyseridemia sekä hemofilia.
+
+**Lääkeyhteisvaikutukset:** Yhteisvaikutuksia löytyi yhteensä 100. Merkittävin on **vakava (Major)** yhteisvaikutus sisapridin kanssa. Useita **kohtalaisia (Moderate)** yhteisvaikutuksia on mm. diabeteslääkkeiden (asarboosi, metformiini, pioglitatsoni, alogliptiini, kanagliflotsiini, dapagliflotsiini, saksagliptiini, klooripropamidi, asetoheksamidi, albiglutidi), kortikosteroidien (hydrokortisoni, deksametasoni, triamsinoloni, betametasoni, budesonidi), aprepitantin ja klaritromysiinin kanssa.
+
+Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
+
+---
+
+## Johtopäätös ja seuraavat askeleet
+
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Korkeimmin sijoitettu ennustettu indikaatio on eläinlääketieteellinen tauti (SIV, ei-ihmissairaus), tuettu ainoastaan prekliinisen eläinmallin kirjallisuudella, joka ei suoraan testaa darunaviriä, nolla kliinisellä tutkimuksella ja ilman markkinaläsnäoloa Suomessa. Turvallisuus-/merkintätietojen estävän vakavuuden tietovajeen yhdessä kanssa on riittämätöntä näyttöä edetä muodolliseen turvallisuustarkastukseen (S1).
+- Ennuste on mekanistisesti uskottava, mutta se koskee apinoiden SIV-infektiota eikä uutta ihmisen sairautta. Näyttö on vain prekliinistä, eikä darunaviirin omaa osuutta voi erottaa yhdistelmähoidoista. Lisäksi kaikki Suomen myyntiluvat on peruutettu.
 
-**Edetäkseen seuraavaa vaaditaan:**
-- TFDA/Fimean pakkausseloste (varoitukset, vasta-aiheet) — tällä hetkellä estävä tieto-vaje (DG001)
-- Vahvistettu toimintamekanismi DrugBankista — tällä hetkellä korkean vakavuuden tieto-vaje (DG002)
-- Darunavir-spesifinen (ei yhdistelmärejiimi) prekliininen aineisto SIV-mallissa
-- Translaatiomahdollisuuksien selventäminen, koska kaksi parhainta ennustetta (SIV, FIV) ovat eläinlääketieteellisiä pikemminkin kuin ihmisille tarkoitettuja indikaatioita
-- Jos tavoitteena on sen sijaan FIV-signaali (sijoitus 2, L2, Tutkimuskysymys), eläinlääketieteellisen-ihmisten välistä translaatioperustelua vaaditaan sen vahvemman tutkimustodistuksen vuoksi (NCT02770508)
-
+**Eteenpäin siirtyminen edellyttää:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista (Fimea) turvallisuusarviointia varten
+- Vaikutusmekanismitietojen täydentämistä (esim. DrugBank)
+- SIV-tutkimusten täystekstien tarkistamista sen selvittämiseksi, sisälsivätkö hoito-ohjelmat darunaviiria
+- Arviota siitä, onko ennusteella tutkimuksellista arvoa (esim. tutkimuskysymyksenä), koska uutta ihmisen käyttöaihetta ei ole tunnistettu
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

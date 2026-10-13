@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Sofosbuvir
-parent: Kohtalainen näyttö (L3-L4)
-nav_order: 348
-evidence_level: L3
+parent: Vahva näyttö (L1-L2)
+nav_order: 407
+evidence_level: L2
 indication_count: 8
 ---
 
 # Sofosbuvir
 {: .fs-9 }
 
-Näytön taso: **L3** | Ennustetut käyttöaiheet: **8** kpl
+Näytön taso: **L2** | Ennustetut käyttöaiheet: **8** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,80 +29,118 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **8** kpl
 
 </div>
 
-# Sofosbuvir: Kroonisesta hepatitis C -viruksen infektiosta hepatitis B -viruksen infektioon
+# Sofosbuviiri: Krooninen C-hepatiitti → hepatiitti E -virusinfektio
 
-## Yhden lauseen yhteenveto
+## Yhden virkkeen yhteenveto
 
-Sofosbuvir on NS5B RNA:ta riippuvaisen RNA-polymeraasin inhibiittori, joka kehitettiin alun perin kroonisen hepatitis C -viruksen (HCV) yhdistelmähoitojen nukleotidianalogien selkärankoksi (esim. ledipasviirin, velpatasviirin kanssa). TxGNN-malli ennustaa, että se saattaa olla tehokas **hepatitis B -viruksen infektiolle**, mutta tälle ehdokkaalle koottu kliininen näyttö on suurelta osin epäsuotuisa: ainoa tarkoitukseen tehty HBV-monoinfektio-tutkimus (APOSTLE) ei löytänyt merkittävää antiviraalista vaikutusta, joka olisi sofosbuviiristä johtuva, ja useat raportit kuvaavat sen sijaan HBV:n reaktivoitumisen riskiä sofosbuviiripohjaisen HCV-hoidon aikana.
+Sofosbuviiri on C-hepatiittiviruksen (HCV) RNA-polymeraasia estävä nukleotidianalogi, jota on alun perin käytetty kroonisen C-hepatiitin hoitoon. TxGNN-malli ennustaa lääkkeen voivan tehota ensisijaisesti **hepatiitti E -virusinfektioon** (HEV), jota tukee **2 kliinistä tutkimusta** ja **20 julkaisua**. Näyttö on kuitenkin vielä alustavaa: kliininen aineisto on pieni, yhden haaran pilottitutkimus.
 
-## Nopea yleiskatsaus
+> Huomio: Ennusteiden listalla ensimmäisenä on hepatiitti B -virusinfektio (pistemäärä 99,77 %), mutta sen mekanistinen perusta on heikko (ks. alla). Tässä raportissa pääindikaatioksi on valittu hepatiitti E, koska sen biologinen perustelu ja suora kliininen näyttö ovat vahvimmat. Muut ennustetut indikaatiot käsitellään lyhyesti omassa kohdassaan.
+
+---
+
+## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Krooninen hepatitis C -viruksen infektio (päätelty tämän näyttöpaketin kliinisten tutkimusten/kirjallisuuskorpuksesta — TFDA:n spesifinen hyväksynnän indikaatio ei ole saatavilla) |
-| Ennustettu uusi indikaatio | Hepatitis B -viruksen infektio |
-| TxGNN-ennustepisteet | 99.77% |
-| Näyttötaso | L3 |
-| Taiwanin markkinatilanne | Ei markkinoilla (Ei markkinoilla) |
-| Lupien lukumäärä | 0 |
-| Suositeltu päätös | Pidätä |
+| Alkuperäinen käyttöaihe | Krooninen C-hepatiitti |
+| Ennustettu uusi käyttöaihe | Hepatiitti E -virusinfektio |
+| TxGNN-ennustepisteet | 99,49 % |
+| Näytön taso | L2 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 4 (kaikki peruutettu) |
+| Suositeltu päätös | Proceed with Guardrails (etene suojatoimin) |
 
-## Miksi tämä ennuste on järkevä?
+---
 
-Formal mechanism-of-action -tiedot DrugBankista/TFDA:sta on vahvistettu tietoaukkona tälle ehdokkaalle. Tässä näyttöpaketissa esillä tuleva kirjallisuus kuitenkin johdonmukaisesti ja toistuvasti tunnistaa sofosbuviirin nukleotidianalogien prodynaukseksi, joka metaboloituu solunsisäisesti aktiiviseen triphosphate-muotoonsa (GS-331007-TP), joka kilpailevasti estää HCV:n NS5B RNA:ta riippuvaista RNA-polymeraasia (RdRp) ja lopettaa viraalisen RNA:n ketjun synteesin. Tämä mekanismi oli se, joka teki siitä pohjimmiltaan jokaisen tämän paketin tutkimuksen ja tapausraportin selkärangan, joista lähes kaikki koskevat kroonista HCV:n hoitoa.
+## Miksi ennuste on perusteltu?
 
-HBV, toisin kuin HCV, toistuu käänteisen transkriptaasin väliaineen kautta eikä RdRp:n kautta, joka vaikuttaa genomiseen RNA:han — joten sofosbuviivin mekanismin ja HBV:n replikaation välillä ei ole suoraa enzymaattista päällekkäisyyttä. TxGNN-ennuste heijastaa todennäköisimmin lääkkeen kliinistä rinnakkaista esiintymistä HBV:n kanssa kirjallisuudessa (HCV/HBV-rinnakkaisinfektio on yleinen ja laajasti tutkittu) pikemminkin kuin vahvistettua antiviraalista mekanismia HBV:ää vastaan.
+Yksityiskohtaista vaikutusmekanismitietoa ei ole tähän raporttiin saatavilla. Tunnetun tiedon perusteella sofosbuviiri on HCV:n NS5B-RNA-riippuvaisen RNA-polymeraasin (RdRp) nukleotidianalogi-inhibiittori. Sen teho kroonisessa C-hepatiitissa on osoitettu, ja mekanistisesti se voi soveltua myös hepatiitti E:hen.
 
-Tämä näkyy suorassa näytössä: ainoa HBV-monoinfektio-tutkimus (APOSTLE, NCT03312023/PMID 36045503) testasi ledipasviiriä/sofosbuviiriä, koska retrospektiiviset tiedot ehdottivat vaatimattomaa HBsAg-laskua HCV/HBV-rinnakkaisinfektiopotilaissa — mutta tämä lasku on liitetty NS5A-inhibiittorin ledipasviiriin, ei sofosbuviiriin. Erikseen useat rinnakkaisinfektio-tutkimukset ja tapausraportit (NCT02613871 ja useat alla olevat kirjallisuusraportit) kuvaavat HBV-DNA:n **nousevan** — eli reaktivoitumisen — sofosbuviiripohjaisen HCV-hoidon aikana, mikä on terapeuttisen vaikutuksen vastakohta. Sofosbuviiristä ei tunnetaan mitään enzymaattista aktiviteettiä HBV:n polymeraasiä vastaan.
+HEV on positiivisäikeinen RNA-virus, jonka replikaatio on riippuvainen RdRp-entsyymistä. Kohdeluokka on siis samankaltainen kuin HCV:llä. Laboratoriotutkimukset osoittavat, että sofosbuviiri estää HEV:n replikaatiota soluviljelmässä ja että sen vaikutus on additiivinen ribaviriinin kanssa (PMID 26408347). Kaniinimallissa suuriannoksinen sofosbuviiri ja sofosbuviiri-ribaviriiniyhdistelmä esti HEV:n replikaatiota (PMID 35247472).
 
-## Kliiniset tutkimustodisteet
+Kliiniset signaalit ovat kuitenkin ristiriitaisia. Pilottitutkimuksessa virusmäärä laski aluksi, mutta pysyvää virologista vastetta ei saavutettu, ja hoidon aikana havaittiin resistenssiin liittyviä variantteja (PMID 37334496). Elinsiirtopotilailla sofosbuviirin lisääminen ribaviriiniin ei poistanut virusta (PMID 31404927), mutta yksittäisessä ribaviriinille reagoimattoman pitkittyneen HEV-infektion tapauksessa ledipasviiri/sofosbuviiri yhdessä ribaviriinin kanssa tuotti vasteen (PMID 36942308).
 
-| Tutkimusnumero | Vaihe | Tila | Rekrytointi | Keskeiset havainnot |
+---
+
+## Kliiniset tutkimukset
+
+| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT03312023](https://clinicaltrials.gov/study/NCT03312023) | Vaihe 2 | Valmis | 21 | APOSTLE-tutkimus: ledipasviiri/sofosbuviri 12 viikkoa HBV-monoinfektiopotilaissa; pääasiallinen ja toissijainen pääteosio olivat HBsAg- ja HBV DNA -lasku. Julkaistut tulokset (PMID 36045503) eivät löytäneet merkittävää antiviraalista vaikutusta, joka olisi sofosbuviiriin liittyvä. |
-| [NCT02613871](https://clinicaltrials.gov/study/NCT02613871) | Vaihe 3 | Valmis | 111 | LDV/SOF FDC HCV/HBV-genotyyppi 1/2 rinnakkaisinfektiopotilaissa (Taiwan); pääasiallinen pääteosio oli HCV SVR, ei HBV:n estäminen — HBV-DNA nousi useimmissa potilaissa, reaktivoitumissignaali eikä tehokkuussignaali. |
-| [NCT02555943](https://clinicaltrials.gov/study/NCT02555943) | Vaihe 2/3 | Valmis | 23 | Prospektiivinen tutkimus HBV:n reaktivoitumisen ilmaantuvuudesta, sairastavuudesta ja predisponoivista tekijöistä suoran anti-HCV-hoidon aikana HCV/HBV-rinnakkaisinfektiopotilailla — turvallisuus-/reaktivoitumistutkimus, ei HBV-tehokkuustutkimus. |
-| [NCT04997564](https://clinicaltrials.gov/study/NCT04997564) | Vaihe 4 | Tuntematon | 120 | 12 viikon SOF/VEL-skeema yhdistettynä ennakoivaan TAF-profylaksiin HBV:n reaktivoitumisen estämiseksi HCV/HBV-rinnakkaisinfektiopotilailla — tukee reaktivoitumisriskin hallintaa, ei sofosbuviivin tehokkuutta HBV:ää vastaan. |
+| [NCT03282474](https://clinicaltrials.gov/study/NCT03282474) | Vaihe 2 | Päättynyt | 10 | HepNet-pilotti: sofosbuviiri kroonisessa hepatiitti E:ssä; yhden haaran tutkimus, hyvin pieni otos, tehoa ei voida osoittaa |
+| [NCT03549312](https://clinicaltrials.gov/study/NCT03549312) | Vaihe 4 | Tuntematon | 25 | HIV/HCV-yhteisinfektion hoidon vaihtotutkimus (sofosbuviiri/velpatasviiri); ei suora HEV-tutkimus, yhteys HEV:hen epäselvä |
 
-*Huomautus: loput ~45 tutkimusta, jotka saatiin tälle indikaatiolle näyttöpaketista, ovat kroonisen HCV:n tehokkuustutkimuksia, joissa HBV mainitaan vain rinnakkaisinfektiona/poissulkemiskriteerinä; ne jätettiin pois tästä, koska ne eivät ole suoraan merkitseviä HBV-indikaatiolle.*
+---
 
-## Kirjallisuusneuvottelut
+## Kirjallisuusnäyttö
 
 | PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [36045503](https://pubmed.ncbi.nlm.nih.gov/36045503/) | 2023 | RCT (vaihe 2 pilotti) | Journal of Medical Virology | APOSTLE-tutkimuksen pääjulkaisu: LDV/SOF HBV-monoinfektiopotilaissa; HBsAg/HBV DNA -laskun pääteosiot ei saavutettu tavalla, joka olisi sofosbuviiriin liittyvä. |
-| [29334502](https://pubmed.ncbi.nlm.nih.gov/29334502/) | 2018 | Kohorttitutkimus | Journal of Clinical Gastroenterology | Tutki HBV:n reaktivoitumisen riskiä aktiivisesti/aiemmin infektoiduissa potilaissa, jotka saivat LDV/SOF:ia HCV:lle — reaktivoitumisen ilmaantuvuus ja tulokset säilyvät epäselvät, mutta dokumentoituina. |
-| [33523503](https://pubmed.ncbi.nlm.nih.gov/33523503/) | 2021 | Prospektiivinen havainnointi | Journal of Viral Hepatitis | HBV:n reaktivoituminen syöpäpotilaissa, jotka saivat DAA:ita (mukaan lukien sofosbuviiripohjaisia skeemoja) HCV/HBV-rinnakkaisinfektiolle. |
-| [31632097](https://pubmed.ncbi.nlm.nih.gov/31632097/) | 2019 | Kohorttitutkimus | Infection and Drug Resistance | HBV:n reaktivoitumisen hallinta DAA-hoidon jälkeen HCV/HBV-rinnakkaisinfektiopotilailla HBeAg-serokonversion esikäsittelyllä. |
-| [33031326](https://pubmed.ncbi.nlm.nih.gov/33031326/) | 2020 | Tapausraportti | Medicine | HBV:n reaktivoituminen sofosbuviiriksi ja ribaviriiniksi onnistuneen HCV-hoidon jälkeen. |
-| [31542053](https://pubmed.ncbi.nlm.nih.gov/31542053/) | 2019 | Tapausraportti | Journal of Medical Case Reports | HBV:n reaktivoituminen pinta-antigeenin immuunipakenemisen välityksellä HBcAb-positiivisessa potilaassa sofosbuviiriksi/velpatasvirraksi hoidon aikana HCV:lle. |
-| [27621502](https://pubmed.ncbi.nlm.nih.gov/27621502/) | 2015 | Tapausraportti / ADR-hälytys | Hospital Pharmacy | FDA MedWatch-tyyppinen raportti hepatitis B:n reaktivoitumisesta, joka liittyy simepreviiriin ja sofosbuviiriin hoidon aikana HCV:lle. |
-| [37517414](https://pubmed.ncbi.nlm.nih.gov/37517414/) | 2023 | Mallintamistutkimus | The Lancet Gastroenterology & Hepatology | Globaalin HBV:n prevalenssin/hoitokaskadin mallintaminen (taustaepidemiolagia; ei sofosbuviiripohjainen). |
+| [35814503](https://pubmed.ncbi.nlm.nih.gov/35814503/) | 2022 | Katsaus | J Clin Exp Hepatol | Katsaus sofosbuviirin in vitro- ja in vivo -näyttöön HEV-infektiossa |
+| [26408347](https://pubmed.ncbi.nlm.nih.gov/26408347/) | 2016 | In vitro | Gastroenterology | Sofosbuviiri estää HEV genotyyppi 3:n replikaatiota; additiivinen vaikutus ribaviriinin kanssa |
+| [35247472](https://pubmed.ncbi.nlm.nih.gov/35247472/) | 2022 | Eläinkoe/in vitro | Antiviral Res | Suuriannoksinen sofosbuviiri ja sofosbuviiri+ribaviriini estävät HEV:tä kaniinimallissa |
+| [37334496](https://pubmed.ncbi.nlm.nih.gov/37334496/) | 2023 | Kliininen analyysi | Hepatology | HepNet-pilotin potilailla virusmäärä laski aluksi, mutta pysyvää vastetta ei saavutettu; resistenssivariantteja ilmaantui |
+| [31404927](https://pubmed.ncbi.nlm.nih.gov/31404927/) | 2019 | Tapaussarja | Open Forum Infect Dis | Kolmella elinsiirtopotilaalla sofosbuviiri ribaviriinin lisänä ei johtanut pysyvään vasteeseen |
+| [36942308](https://pubmed.ncbi.nlm.nih.gov/36942308/) | 2023 | Tapausselostus | IDCases | Ledipasviiri/sofosbuviiri + ribaviriini tehosi ribaviriinille reagoimattomaan pitkittyneeseen HEV-infektioon |
+| [29946850](https://pubmed.ncbi.nlm.nih.gov/29946850/) | 2018 | Tapausselostus | Infection | Autoktoninen akuutti hepatiitti E hoidettuna sofosbuviirilla ja ribaviriinilla |
+| [31141919](https://pubmed.ncbi.nlm.nih.gov/31141919/) | 2019 | Katsaus | Viruses | HEV-lääkekehityksen katsaus; nykyhoito rajoittuu ribaviriiniin ja pegyloituun interferoniin |
+| [30885901](https://pubmed.ncbi.nlm.nih.gov/30885901/) | 2019 | Katsaus | Antimicrob Agents Chemother | Antiviraaliehdokkaat HEV-infektion hoitoon |
+| [38825018](https://pubmed.ncbi.nlm.nih.gov/38825018/) | 2024 | In vitro | Antiviral Res | Sofosbuviirin ja NITD008:n teho HEV:tä vastaan maksan ulkopuolisissa hermosoluissa |
 
-## Taiwanin markkinatiedot
+---
 
-Sofosbuviiristä on tällä hetkellä **ei markkinointivaltuutuksia Taiwanissa** (`taiwan_regulatory.total_licenses = 0`, markkinatilanne Ei markkinoilla). Mitään tuotteen nimeä, annosmuotoa tai hyväksynnän indikaatiotietoja ei ole saatavilla sääntelyosassa tälle ehdokkaalle.
+## Muut ennustetut indikaatiot lyhyesti
 
-## Turvallisuusnäkökohdat
+| Indikaatio | Pisteet | Näytön taso | Arvio |
+|------|------|------|------|
+| Hepatiitti B -virusinfektio (ml. krooninen) | 99,77 % / 99,46 % | L2 | Sofosbuviirilla ei tunneta suoraa vaikutusta HBV:n käänteiskopioijaentsyymiin. Tutkimukset koskevat HCV/HBV-yhteisinfektiota, jossa HBV:n uudelleenaktivoituminen on tunnistettu riski. Kyse on turvallisuudesta, ei uudelleenkäytöstä. Pieni vaiheen 2 tutkimus (ledipasviiri/sofosbuviiri, n=21; PMID 36045503) on yhden haaran eikä osoita HBV-tehoa. |
+| Hepatiitti A -virusinfektio | 99,48 % | L4 | Vain yksi soluviljelmäkoe (PMID 29653132); kliinistä näyttöä ei ole. Luetellut tutkimukset ovat HCV-tutkimuksia. |
+| Hepatiitti, virus, eläin | 99,48 % | L4 | Laaja, epäspesifinen luokka ilman ihmistutkimuksia; näyttö epäsuoraa. |
+| Omskin hemorraginen kuume | 99,47 % | L5 | Vain mallin ennuste; ei tutkimuksia eikä julkaisuja. |
+| Kyasanur-metsätauti | 99,45 % | L5 | Yksi biokemiallinen koe (PMID 36521285); ei solu-, eläin- tai kliinistä dataa. |
+| HIV-infektio | 99,23 % | L4 | Ei HIV-vaikutusta; tutkimukset koskevat HCV:n hoitoa HIV-yhteisinfektiopotilailla. Hyödyllinen lähinnä yhteisinfektion turvallisuus- ja yhteisvaikutusarvioinnissa. |
 
-Sofosbuviirien viralliset tärkeimmät varoitukset, vasta-aiheet ja lääkkeiden välisen vuorovaikutuksen tiedot ovat tällä hetkellä tietolähdeissa oleva tietoaukko (TFDA-pakkauksen lisäosa ei ole vielä otettu käyttöön; DDI-kysely ei palauttanut tuloksia). Katso pakkauksen lisäosa täydellisistä turvallisuustiedoista, kun se on saatavilla.
+---
 
-Yksi turvallisuussignaali, joka on spesifinen tälle uudelleenkäyttöehdokkaalle, nousee kirjallisuusnäytöstä itsestään ja se olisi merkittävä: useat tapausraportit ja kohorttitutkimukset (PMID 29334502, 33523503, 31632097, 33031326, 31542053, 27621502) kuvaavat **HBV:n reaktivoitumista** — joskus vakavien hepatiitti-pahentusten kanssa — jotka ilmaantuvat sofosbuviiripohjaisen DAA-hoidon aikana tai jälkeen HCV:lle HBV-rinnakkaisinfektio- tai aiemmin HBV-altistuneissa potilaissa. Tämä on turvallisuushuoli, jota on seurattava, ei terapeuttinen vaikutus, ja sitä pitää painaa raskaasti minkä tahansa HBV-uudelleenkäyttötarkoituksen vastaan.
+## Tiedot Suomen markkinoilta
 
-## Johtopäätös ja seuraavat vaiheet
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/002798 | Sovaldi | – | Krooninen C-hepatiitti (peruutettu) |
+| EMEA/H/C/003850 | Harvoni | – | Krooninen C-hepatiitti (peruutettu) |
+| EMEA/H/C/004210 | Epclusa | – | Krooninen C-hepatiitti (peruutettu) |
+| EMEA/H/C/004350 | Vosevi | – | Krooninen C-hepatiitti (peruutettu) |
 
-**Päätös: Pidätä**
+---
 
-**Perustelu:**
-- Ainoa HBV-erityinen tutkimusnäyttö (APOSTLE, NCT03312023/PMID 36045503) ei löytänyt sofosbuviiriin liittyvää antiviraalista vaikutusta HBV-monoinfektiossa, ja rinnakkaisinfektiotiedot osoittavat sen sijaan reaktivoitumisen riskin terapeuttisen hyödyn sijaan — näyttösuunta vastustaa uudelleenkäyttöhypoteesia. Sofosbuviivin tunnetulla mekanismilla (HCV NS5B RdRp -esto) ei myöskään ole enzymaattista perustaa aktiviteetille HBV:n käänteisen transkriptaasin vastaan.
+## Turvallisuushuomiot
 
-**Jatkaakseen seuraavaa tarvitaan:**
-- TFDA-pakkauksen lisäosa / DrugBank MOA -tiedot muodollisen S1-turvallisuuden esiseulonnan suorittamiseksi (tällä hetkellä estävä tekijä, DG001/DG002)
-- Mekanistinen tai enzymaattinen tutkimus, joka erityisesti testaa sofosbuviiriä HBV-polymeraasiä vastaan, jos tätä ehdokasta halutaan jatkaa edelleen
-- Järjestelmällinen katsaus HBV:n reaktivoitumissignaalista (ilmaantuvuus, riskitekijät) ennen sofosbuviiria koskevaa harkintaa missään HBV-rinnakkaisinfektiopotilaassa
+**Lääkkeiden yhteisvaikutukset** (8 havaittua):
 
-**Huomautus aiheeseen liittyvistä ehdokkaista tässä näyttöpaketissa:** sama TxGNN-ajo pisteytti myös sofosbuviiria hepatitis E -viruksen infektiota vastaan (sijoitus 2, L3, in vitro RdRp -esto sekä valmis piloittutkimus NCT03282474 — suositeltu **Research Question** -arvoksi pidätyksen sijaan) ja Kyasanur-metsän sairautta vastaan (sijoitus 7, L4, suoran enzymaattisen estämisen homologisen flavaviraalisen RdRp:n in vitro — myös **Research Question**). Molemmat osoittavat vahvempaa mekanistista uskottavuutta kuin huipulle asetettu HBV-ennuste ja saattavat vaatia erillistä arviointia.
+- **Merkittävät (Major):** apalutamidi, enzalutamidi, lorlatinibi
+- **Kohtalaiset (Moderate):** fostamatinibi, varfariini, dikumaroli, enkorafenibi
+- **Vähäiset (Minor):** siklosporiini
 
+Lisäksi kirjallisuudessa on kuvattu HBV:n uudelleenaktivoitumista HCV:n suoravaikutteisen viruslääkehoidon aikana HBV/HCV-yhteisinfektiopotilailla, mikä on huomioitava, jos potilaalla on HBV-infektio tai sen sairastettu.
+
+Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
+
+---
+
+## Johtopäätös ja seuraavat askeleet
+
+**Päätös: Proceed with Guardrails (etene suojatoimin)**
+
+**Perustelut:**
+- Hepatiitti E:llä on ennustetuista indikaatioista vahvin biologinen perustelu (RdRp-kohde, in vitro- ja eläinkoenäyttö) ja ainoa suora kliininen pilottitutkimus. Kliininen teho on kuitenkin vahvistamatta: pysyvää vastetta ei saavutettu ja resistenssiä ilmaantui.
+- Sofosbuviirilla ei ole tällä hetkellä voimassa olevaa myyntilupaa Suomessa, mikä vaikeuttaa käyttöönottoa.
+
+**Etenemiseksi tarvitaan:**
+- Suurempi, mieluiten satunnaistettu ja kontrolloitu tutkimus kroonisessa HEV-infektiossa, erityisesti ribaviriinille reagoimattomilla immuunipuutteisilla potilailla (esim. yhdistelmähoidot ja resistenssin seuranta)
+- Yksityiskohtaiset vaikutusmekanismitiedot ja valmisteyhteenvedon varoitukset ja vasta-aiheet (Fimea)
+- Arvio saatavuudesta ja myyntiluvan tilasta Suomessa
+- Yhteisvaikutusten hallintasuunnitelma ja HBV-seulonta ennen hoitoa
+- Muiden ennustettujen indikaatioiden (HBV, HIV, HAV jne.) osalta ei suositella jatkoa uudelleenkäyttönä ilman uutta näyttöä
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

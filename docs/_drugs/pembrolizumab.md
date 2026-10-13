@@ -2,7 +2,7 @@
 layout: default
 title: Pembrolizumab
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 291
+nav_order: 337
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,89 +29,77 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Pembrolizumab: Anti-PD-1-syöpäimmunotherapiasta gingivaaliseen fibromattosiin
+# Pembrolitsumabi: Melanoomasta ja muista syövistä ienfibromatoosiin
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Pembrolizumab on PD-1-immuunikontrollipiste-estoaine, jonka vakiintunut käyttötarkoitus — tämän todistepaketin kirjallisuuden mukaan — on edistyneet pahanlaatuiset kasvaimet, kuten ei-pienisoluinen keuhkosyöpä, melanoma ja muut kiinteät kasvaimet. TxGNN:n tälle lääkeaineelle korkeimmalle sijoittunut ennuste on **gingivaaliset fibromattosi**, hyvänlaatuinen fibroproliferatiivinen sairaus, mutta tätä signaalia tuetaan tällä hetkellä **0 kliinisellä tutkimuksella** ja **0 julkaisulla**, ja mallin oma mekanistinen merkintä huomauttaa, ettei ole tunnettua biologista reittiä, joka yhdistäisi PD-1-estämisen tähän sairauteen.
+Pembrolitsumabi on PD-1-vasta-aine, jota on alun perin käytetty melanooman, Hodgkinin taudin, munuaissolusyövän, ei-pienisoluisen keuhkosyövän, virtsatiesyöpien, pään ja kaulan levyepiteelisyövän sekä kohdun limakalvon syövän hoitoon.
+TxGNN-malli ennustaa sen mahdolliseksi uudeksi käyttöaiheeksi **ientenfibromatoosin (fibromatosis, gingival)**.
+Ennustetta ei tue yksikään kliininen tutkimus eikä julkaisu, joten näyttö on pelkästään mallipohjaista.
 
----
+## Pikakatsaus
 
-## Nopea yleiskatsaus
+| Kohta | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | Melanooma; Hodgkinin tauti; munuaissolusyöpä; ei-pienisoluinen keuhkosyöpä; siirtymäsoluinen syöpä; pään ja kaulan levyepiteelisyöpä; urologiset kasvaimet; kohdun limakalvon kasvaimet |
+| Ennustettu uusi käyttöaihe | Ientenfibromatoosi (fibromatosis, gingival) |
+| TxGNN-ennustepistemäärä | 99,40 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-| Kohde | Sisältö |
-|-------|---------|
-| Alkuperäinen käyttötarkoitus | Ei dokumentoitu Suomen sääntelyaineiston perusteella (markkinointilupaa ei ole tiedostoissa); tässä pakettiin sisältyvä kirjallisuusaineisto kuvaa pembrolizumabia anti-PD-1-vasta-aineena, jota käytetään edistyneissä NSCLC:issa, melanoomassa ja muissa kiinteissä kasvaimissa |
-| Ennustettu uusi käyttötarkoitus | Gingivaaliset fibromattosi |
-| TxGNN-ennusteen pistemäärä | 99.40% (sijoitus 6326 kaikista ehdokkaista) |
-| Todisteiden taso | L5 |
-| Suomen markkinatilanne | Ei markkinoilla |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Pidätä |
+## Miksi ennuste voisi olla perusteltu?
 
----
+Pembrolitsumabin vaikutusmekanismitietoja ei ole tässä aineistossa saatavilla. Farmakologiatietojen mukaan se on vasta-aine, joka kohdistuu PD-1-reseptoriin (PDCD1, CD279). PD-1:n estäminen vapauttaa T-solujen aktiivisuuden, jota kasvaimet muuten jarruttavat.
 
-## Miksi tämä ennuste on järkevä?
+Alkuperäiset käyttöaiheet ovat pahanlaatuisia syöpiä, joissa immuunijärjestelmän ohittaminen on keskeinen mekanismi. Ientenfibromatoosi on sen sijaan hyvänlaatuinen, usein perinnöllinen ienkasvun häiriö. Sen ja PD-1-reitin välille ei ole osoitettu uskottavaa yhteyttä. Korkea pistemäärä perustuu todennäköisesti tietämysgraafin rakenteeseen, ei biologiseen perusteeseen.
 
-Pembrolizumaabin vaikutusmekanismin tietue on tällä hetkellä tietoaukko tässä todistepakettissa (merkitty korkean vakavuuden aukoksi, DG002). Tässä pakettiin sisältyvän kirjallisuustodisteen perusteella pembrolizumab on humanisoidussa monoklonaalinen IgG4-vasta-aine, joka estää PD-1/PD-L1-kontrollipistettä ja palauttaa T-solujen välittämän anti-syöpäimmuunivasteen — mekanismi, joka on varmennettu lukuisissa vaiheen 3 tutkimuksissa NSCLC:issa (KEYNOTE-024, KEYNOTE-010) ja muissa syöpätyypeissä.
+## Kliininen näyttö
 
-Gingivaaliset fibromattosi on kuitenkin hyvänlaatuinen häiriö, jota ajaa fibroblastien lisääntyminen ja liika kollageenin kertyminen gingivaalisessa kudoksessa — se ei ole pahanlaatuinen kasvain, eikä sillä ole kuvattu riippuvuutta tuumorin immuunivältymisestä tai PD-1/PD-L1-signaloinnista. Todistepaketin oma mekanistinen merkintä tälle ehdokkaalle toteaa, että ei ole tunnettua biologista reittiä PD-1-estämisen ja tämän kunnon välillä, ja TxGNN-pistemäärää ei ole tuettu mihinkään rekisteröityyn tutkimukseen tai julkaisuun.
+Tälle käyttöaiheelle ei ole rekisteröityjä kliinisiä tutkimuksia.
 
-Yhteensä tämä kuvaa **mallin tuottamaa signaalia ilman biologista tai empiiristä tukea**, joka todennäköisesti kuvastaa verkon tason ennustusmelung pikemmin kuin todellista uudelleenkäyttömahdollisuutta.
+## Kirjallisuusnäyttö
 
----
+Tälle käyttöaiheelle ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
-## Kliinisen tutkimuksen todisteet
+## Tiedot Suomen markkinoilta
 
-Tällä hetkellä ei ole rekisteröityjä siihen liittyviä kliinisiä tutkimuksia.
-
----
-
-## Kirjallisuustodisteet
-
-Tällä hetkellä kirjallisuusaineistoa ei ole saatavilla.
-
----
-
-## Suomen markkinatiedot
-
-Pembrolizumab **ei ole markkinoilla Suomessa** — todistepaketti listaa 0 hyväksyntää, joten tuote-/hyväksyntätaulukkoa ei voi luoda.
-
----
+| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/003820 | Keytruda (peruutettu) | – | Melanooma; Hodgkinin tauti; munuaissolusyöpä; ei-pienisoluinen keuhkosyöpä; siirtymäsoluinen syöpä; pään ja kaulan levyepiteelisyöpä... |
 
 ## Sytotoksisuus
 
-Pembrolizumab on anti-kasvainlääke (immuunikontrollipiste-estoaine), perustuen laajaan onkologian kirjallisuuteen, joka on liitetty muihin ehdokkaisiin tässä todistepakettissa (esim. KEYNOTE-024, KEYNOTE-010 NSCLC:issa).
+| Kohta | Sisältö |
+|------|------|
+| Sytotoksisuusluokitus | Immunoterapia (PD-1-estäjä), ei tavanomainen sytotoksinen solunsalpaaja |
+| Luuydinsuppression riski | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Oksentelua aiheuttava vaikutus | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Seurattavat parametrit | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Käsittelysuojaus | Katso valmisteyhteenvedon varoitukset ja varotoimet |
 
-| Kohde | Sisältö |
-|-------|---------|
-| Sytotoksisuuden luokittelu | Immunoterapia (anti-PD-1-kontrollipiste-estoaine) — ei perinteinen sytotoksinen aine |
-| Luuydinpuutosriskin | Katso pakkausliitteen varoitukset ja varotoimenpiteet |
-| Pahoinvointiriskin luokittelu | Katso pakkausliitteen varoitukset ja varotoimenpiteet |
-| Valvontakohdat | Katso pakkausliitteen varoitukset ja varotoimenpiteet |
-| Käsittelysuojaus | Monoklonaalisen vasta-aineen biologisena tuotteena tavallista sytotoksisen lääkkeen käsittelymenettelyä (kemikaalivuoto/henkilösuojaus pienille molekyyleille) ei sovelleta suoraan; noudata laitoksesi biologisen käsittelyn ja infuusionvalvonnan menettelyjä pakkausliitteen mukaisesti |
+## Turvallisuushuomiot
 
----
+**Lääkeyhteisvaikutukset** (yhteensä 13 tunnistettua):
+- **Merkittävät (Major):** lenalidomidi, pomalidomidi, talidomidi.
+- **Kohtalaiset (Moderate):** kortikosteroidit, mukaan lukien hydrokortisoni, triamsinoloni, deksametasoni, betametasoni, budesonidi, prednisolooni, prednisoni, metyyliprednisolooni ja deflatsakorti.
+- Lisäksi mainitaan farmakologinen kohde PD-1 (PDCD1).
 
-## Turvallisuusnäkökohdat
+Muuten turvallisuustietoja varten tulee tutustua valmisteyhteenvetoon.
 
-Katso turvallisuustiedot pakkausliitteestä.
+## Johtopäätös ja seuraavat vaiheet
 
----
-
-## Johtopäätökset ja seuraavat vaiheet
-
-**Päätös: Pidätä**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-TxGNN:n tälle lääkeaineelle korkeimmalle sijoittunut ennuste (Gingivaaliset fibromattosi) ei ole tuettu kliinisillä tutkimuksilla tai kirjallisuudella (L5 — pelkkä malliennuste), ja paketin omat merkinnät eivät tunnista yhtään plausiblia mekanistista yhteyttä PD-1-estämisen ja tämän hyvänlaatuisen sairauden välillä. Yhdessä ratkaisemattoman esto-tason turvallisuusaineisto-aukon kanssa (DG001: TFDA-merkinnät/varoitukset) ja korkean vakavuuden vaikutusmekanismi-aukon kanssa (DG002), tämä ehdokas ei voi edetä alkuvaiheen seulonnan yli.
+- Ennuste perustuu pelkästään mallilaskentaan: kliinisiä tutkimuksia ja julkaisuja ei ole, eikä PD-1-estolle ole uskottavaa biologista perustetta hyvänlaatuisessa ienkasvun häiriössä. Lisäksi Suomessa on vain peruutettu myyntilupa.
 
-**Jotta edetään, tarvitaan seuraavaa:**
-- Ratkaise DG001 (TFDA/Suomen pakkausliite varoitukset ja vasta-aiheet) ennen turvallisuuden ennakkohyväksyntää
-- Ratkaise DG002 (virallinen DrugBank vaikutusmekanismi-tietue) mekanistisen tarkistuksen tueksi
-- Jos pembrolizumaabin uudelleenkäyttö pysyy kiinnostavana, ohjaa arviointi kahdelle ehdokkaalle, joilla on todellinen signaali tässä sarjassa — **keuhkojen hiluskarsinooma** (sijoitus 4, L4, päätösvaihe S1, "Tutkimuskysymys", vaikka yksi tukeva tapausraportti näyttää hyperprogression signaaliin, joka vaatii varovaisuutta) ja **keuhkojen germinaalisolukasvain** (sijoitus 8, L3, S1, "Tutkimuskysymys", 50 tutkimusta/20 julkaisua, vaikka mikään ei ole sairauden spesifistä) — pikemmin kuin tämä korkeimmalle sijoitettu ehdokas
-- Itsenäinen tarkistus TxGNN-sarjan tuloksista on suositeltavaa, koska useat tämän todistepaketin kymmenen parhaimman sijoituksen ehdokkaista merkittiin mallin omien merkintöjen perusteella mekanistisesti epäuskottaviksi tai nimike-/todiste-epätasapainoiksi
-
+**Etenemiseksi tarvitaan:**
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet (Fimea) sekä vaikutusmekanismitiedot (DrugBank).
+- Prekliininen tai mekanistinen näyttö PD-1-reitin roolista ientenfibromatoosissa.
+- Selvitys, voisiko hoito tulla kyseeseen lainkaan, kun otetaan huomioon pembrolitsumabin immuunivälitteiset haittavaikutukset hyvänlaatuisessa sairaudessa.
+- Myyntilupatilanteen selvitys Suomessa.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

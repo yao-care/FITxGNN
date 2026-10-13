@@ -2,7 +2,7 @@
 layout: default
 title: Prasterone
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 305
+nav_order: 353
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,71 +29,94 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Prasterone: hyväksytystä indikaatiosta puuttumisesta hepariinin kofaktori 2 -puutokseen
+# Prasteroni: Postmenopaussasta hepariinikofaktori 2:n puutokseen
 
-## Yhden lauseen yhteenveto
+## Yhden virkkeen yhteenveto
 
-Prasterone (DHEA, DrugBank DB01708) ei ole tällä hetkellä markkinoitu tässä lainkäyttöalueella eikä sillä ole rekisterissä olevaa hyväksyttyä indikaatiota, joten sen alkuperäistä kliinistä käyttöä ei voida määrittää saatavilla olevista tiedoista. TxGNN-mallin korkein sijoitettu ennustus osoittaa **hepariinin kofaktori 2:n puutokseen**, mutta tätä signaalia tukee **0 kliinistä tutkimusta** ja **0 julkaisua**, ja ehdotettu mekanismi kulkee uskottavasti *väärään suuntaan* — androgeeniset steroidit yhdistetään yleensä prokoagulantti-profiiliin, ei antikoagulantti-profiiliin. Tämän kandidaatin tulisi käsitellä spekulatiivisena, kunnes riippumaton mekanistinen tai kliininen näyttö ilmaantuu.
+Prasteroni (DHEA) on hormoni, jota on käytetty postmenopausaalisen tilan hoitoon (Intrarosa). TxGNN-malli ennustaa sen voivan tehota **hepariinikofaktori 2:n puutokseen**, mutta ennusteen tueksi ei ole **yhtään kliinistä tutkimusta eikä julkaisua**. Ennuste perustuu vain tietoverkkoon (graafipohjainen laskennallinen ennuste).
 
 ---
 
-## Pika-yhteenveto
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|--------|
-| Alkuperäinen indikaatio | Ei rekisterissä — lääke ei ole markkinoitu tällä markkinalla, hyväksyttyä indikaatiotekstiä ei ole saatavilla |
-| Ennustettu uusi indikaatio | Hepariinin kofaktori 2:n puutos |
-| TxGNN-ennustepisteet | 99.99% |
-| Näyttötaso | L5 (vain malliennuste, ei tukevia tutkimuksia tai kirjallisuutta) |
-| Markkinatila Suomessa | ✗ Ei markkinoitu |
-| Hyväksyntojen lukumäärä | 0 |
-| Suositeltu päätös | Pidä |
+|------|------|
+| Alkuperäinen käyttöaihe | Postmenopaussi |
+| Ennustettu uusi käyttöaihe | Hepariinikofaktori 2:n puutos |
+| TxGNN-ennustepistemäärä | 99,99 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Miksi tämä ennuste on järkevä?
+## Miksi ennuste voisi olla perusteltu?
 
-Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla prasteronelle. Tunnettujen tietojen perusteella prasterone on luonnollisesti esiintyvä adrenaalisen steroidiesiaine, joka metaboloituu androgeeneiksi ja estrogeeneiksi; sitä ei ole hyväksytty hoitona tällä markkinalla, joten sen kliininen tehokkuusprofiili on dokumentoimaton.
+Yksityiskohtaisia vaikutusmekanismitietoja ei ole tällä hetkellä saatavilla. Prasteroni on DHEA:n synteettinen vastine, joka muuntuu elimistössä androgeeneiksi ja estrogeeneiksi. Sen teho postmenopaussiin liittyvissä oireissa on osoitettu, mutta mekanistista yhteyttä uuteen käyttöaiheeseen ei tunneta.
 
-Hepariinin kofaktori 2:n (HCII) puutos on harvinainen perinnöllinen sairaus, jossa antikoagulanttisesti vaikuttavan plasmavalkuaisaineen aktiivisuuden väheneminen lisää laskimotromboosin riskiä. Terapeuttisesti hyödyllinen aine tälle sairaudelle tarvitsisi tukea antikoagulanttiaktiviteettiä tai muuten vähentää verenhyytymisen taipumusta. Näyttöpaketin oma mekanistinen arviointi korostaa suuntaongelmaa: androgeeni-/DHEA-siihen liittyvät yhdisteet raportoidaan yleisemmin kirjallisuudessa *prokoagulantti*-assosiaatioon kuin suojaaviin vaikutuksiin (esim. kohonneet verenhyytymisen riskit korkean androgeenin tiloissa kuten PCOS, mainittu liittyvässä ennustetussa indikaatiossa samassa paketissa).
+Hepariinikofaktori 2:n puutos on perinnöllinen seriiniproteaasi-inhibiittorin (serpiinin) puutos. Ei ole tunnettua mekanismia, jolla prasteroni korjaisi geneettisesti aiheutuvaa proteiinin puutosta. DHEA:n on raportoitu vaikuttavan hyytymiseen tai fibrinolyysiin vain heikosti ja epäsuorasti. Korkea pistemäärä heijastaa todennäköisesti tietoverkon läheisyyttä (hyytymiseen liittyvät geenit ja lääkkeet), ei validoitua farmakologista yhteyttä.
 
-Kokonaisuutena TxGNN-pisteet heijastuvat todennäköisesti läheisyyttä DHEA-siihen liittyvien solmujen ja verenhyytymisväylän solmujen välillä tietokaaviosssa, pikemminkin kuin validoitua terapeuttista suhdetta. Ilman kliinisten tutkimusten tai kirjallisuuden vahvistusta ja mekanistisen ristiriidan ollessa uskottava, tämä ennuste tulisi käsitellä ainoastaan hypoteesinmuodostava signaalina, ei uudelleenkäyttökandidaatiksi, joka olisi valmis arviointiin.
+### Muut ennustetut käyttöaiheet
+
+Kaikilla alla olevilla ennusteilla on näytön taso L5, eikä niistä ole tutkimus- tai kirjallisuusnäyttöä. Suositus on kaikissa Hold.
+
+| Sija | Sairaus | TxGNN-pistemäärä | Huomio |
+|------|------|------|------|
+| 2 | Tekijä 5:n ylimäärä ja spontaani tromboosi | 99,98 % | Estrogeenia ja androgeenia muodostavan hormonin käyttö protromboottisessa tilassa on pikemminkin turvallisuushuoli |
+| 3 | Antitrombiinin puutos, tyyppi 2 | 99,98 % | Perinnöllinen proteiinivika, ei tunnettua mekanismia |
+| 4 | Trombofilia | 99,91 % | Vaatii huolellisen turvallisuusarvion |
+| 5 | Vaikea ei-proliferatiivinen diabeettinen retinopatia | 99,25 % | Löyhä biologinen perustelu (tulehdusta lievittävät, antioksidatiiviset ja insuliiniherkkyyteen liittyvät vaikutukset); uskottavin mutta tukematon |
+| 6 | Proteiini S:n puutoksen aiheuttama trombofilia (resessiivinen) | 99,13 % | Vain graafietäisyyteen perustuva |
+| 7 | Skleroderma | 99,11 % | Heikko immuunimodulaatiohypoteesi; kirjallisuushaku suositeltava |
+| 8 | Komplementtikomponentti 4A:n puutos | 99,05 % | Ei tunnettua mekanismia |
+| 9 | Pseudo-von Willebrandin tauti | 99,01 % | Ei tunnettua mekanismia |
+| 10 | Verihiutaleiden primaarinen vapautumishäiriö | 99,01 % | Ei mekanistista tai kliinistä tukea |
 
 ---
 
-## Kliinisten tutkimusten näyttö
+## Kliininen tutkimusnäyttö
 
-Tällä hetkellä asiaa käsittelevät rekisteröidyt kliiniset tutkimukset puuttuvat.
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
 ---
 
 ## Kirjallisuusnäyttö
 
-Tällä hetkellä asiaan liittyvää kirjallisuutta ei ole saatavilla.
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
+
+---
+
+## Tiedot Suomen markkinoilta
+
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004138 | Intrarosa (Endoceutics S.A.) | – | Postmenopaussi (tila: peruutettu) |
 
 ---
 
 ## Turvallisuusnäkökohdat
 
-Katso turvallisuustiedot pakkausselosteesta.
+- **Lääkeaineyhteisvaikutukset ja farmakologia**: Tietokannassa on yksi farmakologinen kohdemerkintä: DHEA on glysiinireseptorin (kaikki alatyypit) ligandi. Tasoa ei ole määritetty.
+- **Hormonaalinen huomio**: DHEA muuntuu androgeeneiksi ja estrogeeneiksi. Käyttö suurentuneen tromboosiriskin potilailla (esim. trombofilia, tekijä 5:n ylimäärä) edellyttäisi huolellista turvallisuusarviota ennen tehokkuuden pohtimista.
 
-*(Huomio: taustalla oleva data-paketti merkitsee TFDA:n/sääntelyviranomaisen pakkausselosteen Blocking-tietokuiluksi — tämä on ratkaistava ennen turvallisuuteen perustuvaa jatko/ei-jatko -päätöstä.)*
+Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Johtopäätös ja jatkotoimet
 
-**Päätös: Pidä**
+**Päätös: Hold**
 
-**Perustelu:**
-Parhaiten sijoitettu ennustus (hepariinin kofaktori 2:n puutos) ei ole tuettu kliinisillä tutkimuksilla tai kirjallisuudella (L5, puhtaasti mallista johtuva), ja ehdotettu mekanismi voi olla ristiriidassa terapeuttisen tarpeen kanssa — androgeeninen aktiivisuus yhdistetään useammin kohonneeseen verenhyytymisen riskiin kuin antikoagulantti-puutoksen korjaamiseen. Yhdessä MOA-tiedon ja TFDA/Fimean merkintätiedon puuttumisen kanssa on riittämätön perusta tämän kandidaatin edistämiselle.
+**Perustelut:**
+- Ennuste on puhtaasti laskennallinen (L5): kliinistä tutkimusta tai julkaisua ei ole, eikä uskottavaa mekanismia hepariinikofaktori 2:n puutoksen korjaamiseksi tunneta. Lisäksi valmisteen myyntilupa Suomessa on peruutettu.
 
-**Jatkon edellyttävät seuraavat:**
-- Prasteronen vaikutusmekanismin (MOA) vahvistaminen DrugBankista tai pääasiallisista farmakologian lähteistä
-- Sääntelyviranomaisen pakkausseloste (varoitukset, vasta-aiheet, lääkkeelliset vuorovaikutukset) Blocking-tietokuilun sulkemiseksi (DG001)
-- Prekliininen tai farmakodynaaminen tieto DHEA:n vaikutuksesta HCII-aktiivisuuteen/verenhyytymisen riskiin, suuntamekanistisen ongelman ratkaisemiseksi
-- Jos tämä ohjelma jatkuu, harkitse uudelleensuuntausta **sklerodermaahaan** (sijoitus 7, sama näyttöpaketti), joka saavutti päätösvaiheen S1 L4-näytöllä — kuusi kohortti/tapaus-vertailututkimusta osoittavat johdonmukaisesti alentunutta seerumin DHEA-S -tasoa järjestelmällisen skleroosipotilailta, jotka korreloivat sairauden vakavuuden kanssa, tarjoten yhtenäisemmän (puutoksentäyttöisen) mekanistisen perustelun kuin parhaiten sijoitettu kandidaatti täällä
-
+**Eteenpäin siirtyminen edellyttää:**
+- Vaikutusmekanismitietojen täydentämistä (DrugBank)
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivustolta (estää tällä hetkellä turvallisuusseulonnan)
+- Systemaattista kirjallisuushakua ennusteista, joilla on löyhä biologinen perustelu (diabeettinen retinopatia, skleroderma)
+- Tromboosiriskin turvallisuusarviota ennen mitään trombofiliaan liittyvää jatkoa
+- Antoreittien yhteensopivuuden ja uuden myyntiluvan tarpeen arviointia
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

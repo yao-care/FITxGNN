@@ -2,7 +2,7 @@
 layout: default
 title: Pemigatinib
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 293
+nav_order: 339
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,91 +29,101 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Pemigatinib: tuntemattomasta alkuperäisestä osoitteesta monien endokriinisten neoplasioiden osoitteeseen
+# Pemigatinibi: Sappitiehyiden syövästä (kolangiokarsinooma) monirauhasten neoplasiaan (multiple endocrine neoplasia)
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-> Pemigatiniibin näyttöpaketti ei sisällä alkuperäisen osoitteen tietoja, vaikka lääkettä kuvataan muualla tässä paketissa selektiiiviseksi FGFR1/2/3-kinaasin estäjäksi.
-> TxGNN-malli ennustaa, että se voi olla tehokas **monien endokriinisten neoplasioiden** hoidossa,
-> mutta tämä suunta on tällä hetkellä tuettu **0 kliinisellä tutkimuksella** ja **0 julkaisulla**, ja mallin oma perustelut viittaa mekanistisen uskottavuuden puutteeseen.
+Pemigatinibi on FGFR-estäjä (fibroblastikasvutekijäreseptorin estäjä), jota on alun perin käytetty sappitiesyövän (kolangiokarsinooman) hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **monirauhasten neoplasiaan (MEN)**, mutta ennusteen tueksi ei tässä aineistossa ole yhtään kliinistä tutkimusta eikä julkaisua (**0 kliinistä tutkimusta**, **0 julkaisua**). Ennuste on toistaiseksi pelkkä laskennallinen malliennuste.
 
 ---
 
-## Pikayleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|--------|
-| Alkuperäinen osoite | Ei dokumentoitu tässä näyttöpaketissa (tietoaukko) |
-| Ennustettu uusi osoite | Monet endokriiniset neoplasiat |
-| TxGNN-ennustteen pistemäärä | 99.71% |
-| Näyttötaso | L5 |
-| Suomen markkinatilanne | Ei markkinoilla |
-| Hyväksyntöjen määrä | 0 |
-| Suositeltu päätös | Odota |
+|------|------|
+| Alkuperäinen käyttöaihe | Kolangiokarsinooma (sappitiesyöpä) |
+| Ennustettu uusi käyttöaihe | Monirauhasten neoplasia (multiple endocrine neoplasia) |
+| TxGNN-ennusteen pistemäärä | 99,71 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Miksi tämä ennuste on järkevä?
+## Miksi ennuste voisi olla perusteltu?
 
-Yksityiskohtaiset pemigatiniibin vaikutusmekanismin tiedot eivät ole tällä hetkellä saatavilla tässä näyttöpaketissa (merkitty vakavuusasteella varustetuksi tietoaukoksi). Pakettiin muualla sisältyvissä uudelleenkäyttöjen perusteluissa pemigatinibia kuvataan johdonmukaisesti **selektiiiviseksi FGFR1/2/3-kinaasin estäjäksi**, mikä on yhdenmukainen sen luokittelun kanssa (itsenäisesti noudettavasta arvostelussa) FDA:n hyväksymien pienimolekyylisten proteiinikinaasin estäjien joukossa.
+Tälle raportille koottu aineisto ei sisällä yksityiskohtaista tietoa vaikutusmekanismista. Tiedossa on, että pemigatinibi on selektiivinen FGFR1–3-estäjä, ja sen teho kolangiokarsinoomassa liittyy FGFR2-fuusioihin tai -uudelleenjärjestymiin. Mekanistinen yhteys monirauhasten neoplasiaan (esim. RET- ja meniinireitit, FGF-signalointi endokriinisissä kasvaimissa) on kuitenkin spekulatiivinen, eikä käytettävissä oleva aineisto tue sitä.
 
-Huippuluokitellun ennusteen osalta – monet endokriiniset neoplasiat – mallin oma tuottama perustelut on selvästi skeptinen: MEN:iä ajaa ensisijaisesti *RET*-, *MEN1*- ja *CDKN1B*-mutaatiot, joista millään ei ole vakiintunutta yhteyttä FGFR-signalointi. Perusteluista todetaan, että tämä korkea pistemäärä johtuu todennäköisesti taustalla olevan mekanistisen tuen puutteesta pikemminkin kuin aidoista biologisista signaaleista.
+Alkuperäinen käyttöaihe (sappitiesyöpä) ja ennustettu käyttöaihe (perinnöllinen endokriinisten kasvainten oireyhtymä) ovat biologialtaan ja hoitotavoitteiltaan eri tyyppisiä. Korkea pistemäärä ei yksin riitä perusteeksi etenemiselle.
 
-Sitä vastoin matalasijoitettu ennuste samasta paketista – HER2-positiivinen rinnansyöpä (sijoitus 3, L4, "Tutkimuskysymys") – sisältää johdonmukaisemman mekanistisen selityksen (FGFR1-amplifikaatio tunnetussa trastuzumabi-resistanssin polkussa) ja vähintään yhden tukevan kirjallisuusviitteen, vaikka sille silti puuttuu tautikohtaisesti tietoa ja tutkimuksia. Tämä viittaa siihen, että huippuluokitellun ennusteen ei välttämättä ole biologisesti uskottavin ehdokas tässä paketissa, ja sijoitus 3 voi vaatia erillistä seurantaa.
-
----
-
-## Kliinisen tutkimuksen näyttö
-
-Tällä hetkellä ei ole asiaan liittyviä kliinisiä tutkimuksia rekisteröity
+Muut TxGNN:n ennustamat kohteet (10 parasta) ovat myös ilman kliinistä näyttöä:
+- HER2-positiivinen rintasyöpä: FGFR-signalointi on kytketty HER2-hoidon resistenssiin, joten biologinen peruste on uskottava, mutta ainoa aineiston julkaisu on yleinen kinaasinestäjien katsaus.
+- Muut kohteet (mm. amenorrea, CMV-infektio, ALS-muodot, aksiaalinen spondylometafyseaalinen dysplasia) ovat mekanistisesti heikosti perusteltuja. Naudan infektioinen rinotrakeiitti ja malignin katarraalikuumeen ennusteet ovat eläinlääketieteellisiä ja todennäköisesti tietämysgraafin artefakteja.
 
 ---
 
-## Kirjallisuuden näyttö
+## Kliininen tutkimusnäyttö
 
-Tällä hetkellä ei ole asiaan liittyvää kirjallisuutta saatavilla
-
----
-
-## Suomen markkinatiedot
-
-Pemigatiniibi ei tällä hetkellä ole minkään markkinoinnin hyväksynnän piirissä Suomessa (markkinatilanne: Ei markkinoilla; 0 rekisteröityä hyväksyntää).
+Ennustetulle käyttöaiheelle ei ole tällä hetkellä rekisteröityjä kliinisiä tutkimuksia.
 
 ---
 
-## Sytoitoksisuus
+## Kirjallisuusnäyttö
+
+Ennustetulle käyttöaiheelle ei ole tällä hetkellä saatavilla kirjallisuutta.
+
+---
+
+## Tiedot Suomen markkinoista
+
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/005266 | Pemazyre | – | Kolangiokarsinooma (tila: peruutettu) |
+
+---
+
+## Sytotoksisuus
+
+Pemigatinibi on kohdennettu syöpälääke (FGFR-estäjä), ei perinteinen sytotoksinen solunsalpaaja.
 
 | Kohta | Sisältö |
-|------|--------|
-| Sytoitoksisuuden luokittelu | Kohdennettu lääkehoito (FGFR1/2/3-selektiivinen kinaasin estäjä) |
-| Luuydinmasennuksen riski | Katso pakkausseloste varoitukset ja varotoimet |
-| Emetogeenisuuden luokittelu | Katso pakkausseloste varoitukset ja varotoimet |
-| Seurantakohteet | Katso pakkausseloste varoitukset ja varotoimet |
-| Käsittelysuojaus | Katso pakkausseloste varoitukset ja varotoimet |
+|------|------|
+| Sytotoksisuusluokitus | Kohdennettu hoito (FGFR1–3-kinaasinestäjä) |
+| Luuydinlama | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Pahoinvointia aiheuttavuus | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Seurantakohteet | Katso valmisteyhteenvedon varoitukset ja varotoimet. FGFR-estäjille tyypillinen hyperfosfatemia on huomioitava (seerumin fosfaatti) |
+| Käsittelysuojaus | Katso valmisteyhteenvedon varoitukset ja varotoimet |
 
 ---
 
 ## Turvallisuusnäkökohdat
 
-Katso pakkausseloste turvallisuustiedoista.
+**Lääkeyhteisvaikutukset:** Yhteisvaikutushaussa löytyi yhteensä 50 yhteisvaikutusta. Seuraavassa on esimerkkejä aineiston 20 ensimmäisestä:
 
-*(Huomio: TFDA-pakkausselosteen varoitukset/vasta-aiheet on merkitty tämän näyttöpaketin estäväksi tietoaukoksi – tämä kohta on ratkaistava ennen kuin S1-turvallisuusarvio voidaan suorittaa.)*
+- **Merkittävät (Major):** aprepitantti, deksametasoni, klaritromysiini, kobisistaatti, lumakaftori, kloramfenikoli, erytromysiini, ketokonatsoli, flukonatsoli
+- **Kohtalaiset (Moderate):** simetidiini, metreleptiini, klotrimatsoli, glyserolifenyylibutyraatti, troglitatsoni, deferasiroksi, ivakaftori, tsafirlukasti, griseofulviini, elagolix, osilodrostaatti
+
+Useat näistä ovat CYP3A4-reittiin vaikuttavia lääkkeitä, joten samanaikaisessa käytössä on oltava erityisen varovainen.
+
+Varoituksia ja vasta-aiheita koskevia tietoja ei ole saatavilla; katso turvallisuustiedot valmisteyhteenvedosta.
 
 ---
 
-## Johtopäätökset ja seuraavat vaiheet
+## Johtopäätös ja seuraavat askeleet
 
-**Päätös: Odota**
+**Päätös: Hold (odota)**
 
-**Perustelut:**
-Huippuluokitellun ennusteen (monet endokriiniset neoplasiat) taustalla ei ole kliinisiä tutkimuksia, kirjallisuutta, eikä mallin itse tuottama perustelut aseta kysymysmerkkejä pistemäärän mekanistisesta perusteesta. Yhdistettynä lääkkeen markkinoimattomaan asemaan Suomessa ja TFDA-turvallisuustietojen estävään tietoaukkoon, ei ole tällä hetkellä perusteita tämän erityisen osoitteen edistämiselle.
+**Perustelu:**
+- Ennuste perustuu pelkästään TxGNN-mallin pistemäärään (L5), eikä tukevia kliinisiä tutkimuksia tai julkaisuja ole. Lisäksi valmisteen kaikki Suomen myyntiluvat on peruutettu, ja turvallisuustiedot puuttuvat.
 
-**Jatkamiseksi tarvitaan seuraavaa:**
-- TFDA/EMA-pakkausselosteen louhinta (varoitukset, vasta-aiheet, lääkeyhteisvaikutukset) – tällä hetkellä estävä tietoaukko
-- Vahvistetut pemigatiniibin alkuperäiset osoitteet ja vaikutusmekanismin tiedot
-- Kaikki prekliiniset tai mekanistiset todisteet, jotka suoraan yhdistävät FGFR1/2/3-signaloinnin MEN-patofysiologiaan
-- Harkitse tutkimushuomion ohjaamista HER2-positiivisen rinnansyövän signaaliin (sijoitus 3, L4), jolla on uskottavampi mekanistinen perustelut ja ainakin alustava kirjallisuuden tuki
-
+**Eteneminen edellyttää seuraavaa:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean verkkosivuilta (estävä tietoaukko turvallisuusarvioinnille)
+- Vaikutusmekanismitiedon täydentäminen DrugBankista
+- Systemaattinen kirjallisuushaku FGFR-estäjistä MEN-oireyhtymissä sekä prekliiniset mekanismitutkimukset
+- Harkittava ensisijaisena kohteena HER2-positiivista rintasyöpää, jolla on uskottavampi biologinen peruste, sekä tämän kohteen kohdennettu kirjallisuusarvio
+- Myyntilupatilanteen selvittäminen (peruutuksen syy ja saatavuus Suomessa)
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

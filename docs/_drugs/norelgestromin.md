@@ -2,7 +2,7 @@
 layout: default
 title: Norelgestromin
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 267
+nav_order: 308
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,57 +29,72 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Norelgestromiin: Raskauden ehkäisystä amenoreaan
+# Norelgestromiini: Ehkäisystä kohti amenorreaa
 
 ## Yhden lauseen yhteenveto
 
-Norelgestromiin on norgestimatin aktiivinen metaboliitti ja transdermaalisten ehkäisyvälineiden (Ortho Evra/Xulane) pääasiallinen aktiivinen aine, jota käytettiin alun perin hormonaaliseen raskauden ehkäisyyn. TxGNN-malli ennustaa, että se saattaa olla relevantti **amenoreaa** varten, mutta tämä suunta on tällä hetkellä tuettu **0 kliinisellä tutkimuksella** ja **0 julkaisulla** — ennustus perustuu vain mekanistiseen uskottavuuteen.
+Norelgestromiini on progestiini, jota on käytetty ehkäisyyn ehkäisylaastarissa (Evra) yhdessä etinyyliestradiolin kanssa. TxGNN-malli ennustaa sen voivan olla hyödyllinen **amenorrean** hoidossa, mutta ennuste perustuu pelkästään malliin: **kliinisiä tutkimuksia ei ole** eikä **julkaisuja** ole löytynyt.
 
-## Nopea yleiskatsaus
+---
 
-| Kohde | Sisältö |
+## Pikakatsaus
+
+| Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Raskauden ehkäisy (transdermaalisen ehkäisyvälineen pääasiallinen aktiivinen aine) |
-| Ennustettu uusi indikaatio | Amenorea |
-| TxGNN-ennusteen pistemäärä | 99.51% |
+| Alkuperäinen käyttöaihe | Ehkäisy |
+| Ennustettu uusi käyttöaihe | Amenorrea |
+| TxGNN-ennustepistemäärä | 99,51 % |
 | Näytön taso | L5 |
-| Suomen markkinatilanne | ✗ Ei markkinoilla |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Odota |
+| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
+| Myyntilupien määrä | 1 |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennustus on järkevä?
+---
 
-Tällä hetkellä yksityiskohtaista vaikutusmekanismin tietoa DrugBankista ei ole saatavilla (merkitty tietoaukoksi). Tässä näyttöpaketissa saatavilla olevan tiedon perusteella norelgestromiin on norgestimatin aktiivinen metaboliitti, joka on luokiteltu kolmannen sukupolven progestiiniksi, ja se toimii Ortho Evra/Xulane-ehkäisyvälineen pääasiallisena aktiivisena aineena. Sen vakiintunut farmakologinen vaikutus on progesteronireseptorin agonismi, joka estää ovulaation ja muuttaa endometriumia.
+## Miksi ennuste on perusteltu?
 
-Progesteroniluokan lääkkeet tunnetaan kliinisesti yleisesti aiheuttavan amenoreaa sivuvaikutuksena, ja jatkuvia progesteroni-regiimiä käytetään joskus tarkoituksellisesti amenorean aiheuttamiseen menorraagian kaltaisten sairauksien hallitsemiseksi. Tämä antaa norelgestromille uskottavan mekanistisen yhteyden amenoreaan. Kuitenkin TxGNN-ennustus ei erotu "amenorean aiheuttamisen" ja "amenorean hoitamisen" välillä, joten tämän assosiaation suuntaavuus on epäselvä.
+Norelgestromiini on progestiini ja norgestimaatin aktiivinen metaboliitti. Ehkäisylaastarissa sitä annetaan yhdessä etinyyliestradiolin kanssa. Progestiinit voivat estää hypotalamus–aivolisäke–munasarja-akselin toimintaa ja aiheuttaa kohdun limakalvon surkastumista. Progestiinihoitoa käytetään joissakin sekundaarisen amenorrean muodoissa, esimerkiksi tyhjennysvuodon käynnistämiseen tai kohdun limakalvon suojaamiseen. Korkea pistemäärä (0,995) heijastaa todennäköisesti tätä lääkeryhmätason yhteyttä muihin progestiineihin.
 
-Koska alkuperäinen vaikutusmekanismi-kenttä on vahvistettu tietoaukko, tämä mekanistinen perustelu tulisi pitää väliaikaisena, kunnes se on varmistettu ulkoisia farmakologian lähteitä vastaan (esim. DrugBank, DailyMed) ennen kuin se voi tukea mitään kausaalista väitettä.
+Ennusteeseen liittyy kuitenkin merkittäviä varauksia. Amenorrea on hormonaalisten ehkäisyvalmisteiden tunnettu vaikutus eikä vakiintunut hoidon kohde. Lisäksi lääkkeen vaikutusmekanismitietoja ei ole saatavilla tähän raporttiin koottujen tietojen perusteella. Ennustetta ei siis tue lääkekohtainen näyttö. Hypotalamisessa tai hypoestrogeenisessa amenorreassa pelkkä progestiinivalmiste tai yhdistelmäehkäisy ei välttämättä palauta fysiologista kiertoa ja voi peittää taustalla olevan syyn.
 
-## Kliinisen tutkimuksen näyttö
+---
 
-Tällä hetkellä ei ole rekisteröity aiheeseen liittyviä kliinisia tutkimuksia.
+## Suomen markkinatiedot
 
-## Kirjallisuuden näyttö
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000410 | Evra | – | Ehkäisy |
 
-Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
+Myyntilupa on tilassa "peruutettu", eikä Suomessa ole voimassa olevia myyntilupia.
+
+---
 
 ## Turvallisuusnäkökohdat
 
-Katso turvallisuustiedot pakkausselosteesta.
+Valmistetekstin varoitus- ja vasta-aihetietoja ei ollut saatavilla tähän raporttiin koottujen tietojen joukossa. Tarkista ne valmisteyhteenvedosta.
+
+- **Lääkeyhteisvaikutukset**: Tunnistettu yksi merkittävä (Major) yhteisvaikutus: **sugammadeksi** (lähde: DDInter).
+- **Tietämysgraafin perusteella ennustetut vasta-aiheet** (nämä eivät perustu valmisteyhteenvedon tekstiin vaan TxGNN-tietämysgraafin lääke–sairaus-yhteyksiin, ja ne vaativat varmennuksen):
+  - Sydän- ja verisuonitaudit sekä aineenvaihdunta: verenpainetauti, sepelvaltimotauti, tromboflebiitti, hyperlipidemia (myös familiaalinen), hypertriglyseridemia, diabetes, diabeettinen ketoasidoosi, hyperglykemia
+  - Maksa, munuaiset ja sappi: maksasairaus, munuaissairaus, sappirakon sairaus, pyoureteri
+  - Hermosto ja mieliala: epilepsia, migreeni (myös aurallinen), ahdistuneisuushäiriö, neuroottinen häiriö, dystymia
+  - Muut: porfyria (perinnöllinen porfyria, porfyriinin aineenvaihduntasairaus), systeeminen lupus erythematosus (myös lasten), astma (sisäsyntyinen ja allerginen), naisen rintasyöpä, toiminnallinen näönmenetys (vanhentunut luokitus)
+
+---
 
 ## Johtopäätös ja seuraavat askeleet
 
-**Päätös: Odota**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Tämä ennustus on tuettu vain mekanistisella päättelyllä (L5, vain mallin ennuste) ilman kliinisiä tutkimuksia tai julkaistuja kirjallisuuslähteitä, jotka vahvistaisivat terapeuttisen vaikutuksen amenoreassa, ja suuntaavuus (aiheuttaa vs. hoitaa) on ratkaisematon. Ydinlääkkeen tiedot — TFDA/Fimea-pakkausselosteen varoitukset ja vasta-aiheet sekä vahvistettu vaikutusmekanismi — ovat myös estävät tietoaukot.
+- Ennuste perustuu vain malliin (L5): kliinisiä tutkimuksia tai julkaisuja ei ole, ja amenorrea on ehkäisyvalmisteiden tunnettu vaikutus, ei validoitu hoidon kohde. Lisäksi valmisteella ei ole voimassa olevaa myyntilupaa Suomessa, ja turvallisuustiedot ovat puutteelliset.
 
-**Jatkamiseksi tarvitaan seuraavaa:**
-- TFDA/Fimea-pakkausseloste (varoitukset, vasta-aiheet) — tällä hetkellä estävä tietoaukko
-- Vahvistettu vaikutusmekanismi DrugBankista — tällä hetkellä korkean vakavuuden tietoaukko
-- Kliininen tai kirjallisuustutkimus, joka spesifisesti arvioi norelgestromia (tai siihen liittyviä progestiineja) amenorean hoitoon, eikä vain raskauden ehkäisyn sivuvaikutuksena
-- Selvennys siitä, onko aiotettu soveltaminen amenorean aiheuttaminen vai hoitaminen
-
+**Jatkoa varten tarvitaan:**
+- Valmisteyhteenvedon varoitus- ja vasta-aihetiedot (estää turvallisuusseulonnan jatkamisen)
+- Vaikutusmekanismin tiedot
+- Lääkekohtainen kliininen ja kirjallisuusnäyttö amenorrean eri alatyypeistä
+- Arvio reittien ja lääkemuodon yhteensopivuudesta sekä ennustetun käyttöaiheen ja alkuperäisen käyttöaiheen samankaltaisuudesta
+- Arvio siitä, voisiko hoito peittää amenorrean taustalla olevan syyn
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

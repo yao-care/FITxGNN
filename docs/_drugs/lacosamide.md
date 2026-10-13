@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Lacosamide
-parent: Kohtalainen näyttö (L3-L4)
-nav_order: 210
-evidence_level: L3
+parent: Pelkkä mallin ennuste (L5)
+nav_order: 243
+evidence_level: L5
 indication_count: 10
 ---
 
 # Lacosamide
 {: .fs-9 }
 
-Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,79 +29,117 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Lakosamidi: Epilepsiasta maanis-bipolaariseen affektiiviseen häiriöön
+# Lakosamidi: Epilepsiasta migreeniin
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Lakosamidi on antiepilepsiakään (AED), joka toimii natriumkanavamodulaattorina ja sitä käytetään osittaisten kohtauksien hoitoon. TxGNN-malli ennustaa, että se saattaa olla tehokas **maanisen bipolaarisen affektiivisen häiriön** hoitoon, mutta vahvin saatavilla oleva todistusaineisto (1 rekrytointivaiheessa oleva vaiheen 3 tutkimus ja useita retrospektiivisiä/tapausraportteja) koskee bipolaarisen häiriön **depressiivisiä** eikä maanisia vaiheita — polariteetin epäsuhta heikentää luottamusta tähän spesifiin ennustukseen.
-
-*Huomautus: `original_indications` ja `original_moa` eivät täyttyneet todistusaineistossa (tietoaukko DG002). "Epilepsia (osittaiset kohtaukset)" on päätelty tukevasta kirjallisuudesta/tutkimuskuvailuista (esim. "FDA-hyväksynnässä osittaisiin kohtauksiin," "apukäyttö epilepsian osittaisissa kohtauksissa"), ei muodollisesta indikaatiokentästä.*
+Lakosamidi on epilepsialääke, jota on käytetty osittaisalkuisten epilepsiakohtausten hoitoon. TxGNN-malli ennustaa sen voivan tehota **migreenihäiriöön**. Tätä suuntaa tukee tällä hetkellä **4 kliinistä tutkimusta** ja **useita julkaisuja**, joihin kuuluu yksi julkaistu satunnaistettu kontrolloitu tutkimus (RCT). Raportissa arvioidaan ensisijaisesti migreeniä, koska sillä on vahvin näyttö ennustetuista käyttöaiheista.
 
 ---
 
-## Pikayleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Epilepsia (osittaiset kohtaukset) — päätelty kirjallisuudesta, ei muodollisen merkinnän perusteella |
-| Ennustettu uusi indikaatio | Maanis-bipolaarinen affektiivinen häiriö |
-| TxGNN-ennustuspistemäärä | 99,96% (sijoitus 711) |
-| Todistusaineiston taso | L3 |
-| Suomen markkinatilanne | Ei markkinoilla |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Tutkimuskysymys (Odotus vahvistavan aineiston saamiseen) |
+| Alkuperäinen käyttöaihe | Osittaisalkuinen epilepsia (epilepsia) |
+| Ennustettu uusi käyttöaihe | Migreenihäiriö |
+| TxGNN-ennustepisteet | 99,87 % |
+| Näytön taso | L1 (varauksin, ks. alla) |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 4 (kaikki peruutettuja) |
+| Suositeltu päätös | Hold (pidätetään, kunnes tulokset on varmennettu) |
 
 ---
 
-## Miksi tämä ennustus on kohtuullinen?
+## Miksi ennuste on perusteltu?
 
-Tällä hetkellä yksityiskohtaista vaikutusmekanismia koskeva tieto ei ole saatavilla (tietoaukko DG002). Tunnetun tiedon perusteella lakosamidi vahvistaa selektiivisesti jännitteestä riippuvien natriumkanavien hidasta inaktivaatiota — farmakologisesti mekanismi liittyy vahvistettuihin mielialan stabilisaattoreihin kuten lamotrigiiniin, jota käytetään kliinisesti bipolaariseen häiriöön. Tämä jaettu luokkatasoinen mekanismi on biologinen perustelu TxGNN-ennustukselle.
+Yksityiskohtaista vaikutusmekanismitietoa ei ole tähän raporttiin koottu aineistossa saatavilla. Kirjallisuuden perusteella lakosamidi tehostaa jännitteestä riippuvien natriumkanavien hidasta inaktivaatiota ja vaikuttaa CRMP2-proteiiniin (collapsin response mediator protein 2).
 
-Alkuperäisen indikaation (epilepsia) ja ennustetun uuden indikaation (bipolaarinen **mania**) välinen suhde on kuitenkin epäsuora. Olemassa olevat kliiniset ja tapaustasoisen todisteet lakosamidista bipolaarisessa häiriössä keskittyvät jatkuvasti **depressiivisiin** ja sekaviin/ahdistusoireisiin — esim. avoin paranetus depressiivisistä oireista, ja ainoa käynnissä oleva vaiheen 3 tutkimus (NCT07412132) kohdistuu spesifisesti suuriin depressiivisiin jaksokausiin Bipolaarisen I/II häiriön yhteydessä. Mikään tämän todistusaineiston tutkimus tai julkaisu ei suoraan osoita antiimanista tehokkuutta, joten mekanistinen selitys (natriumkanavastabilisaatio → mielialan stabilisaatio) on uskottava mutta sitä ei ole osoitettu ulottuvan spesifisesti maaniselle navalle.
+Epilepsia ja migreeni liittyvät molemmat hermosolujen yliärtyvyyteen. Hiirillä tehty tutkimus osoitti lakosamidin vaikuttavan kortikaaliseen leviävään depolarisaatioon, joka on migreenin aurankin taustamekanismi. Lisäksi CRMP2:n eston on esitetty vähentävän CGRP-peptidin (kalsitoniinigeeniin liittyvä peptidi) vapautumista kolmoishermojärjestelmässä, mikä on migreenin keskeinen mekanismi.
 
-## Kliinisen tutkimuksen todisteet
+Mekanistinen yhteys on siis uskottava, mutta kliinisten tulosten varmentaminen on välttämätöntä.
 
-| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset löydökset |
+---
+
+## Kliiniset tutkimukset
+
+| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT07412132](https://clinicaltrials.gov/study/NCT07412132) | Vaihe 3 | Rekrytointivaiheessa | 40 | Arvioi lakosamidia lisähoitona **suurissa depressiivisissä jaksoissa** bipolaarisessa I/II häiriössä (ei mania); perustuu edeltäviin havaintoihin/avoimiin oireista paranettavuuden signaaleista epilepsia- ja bipolaaripotilailta. Polariteetin epäsuhta "maanisen" ennustuksen kanssa — tuloksia ei vielä. |
-
-## Kirjallisuuden todisteet
-
-| PMID | Vuosi | Tyyppi | Julkaisu | Keskeiset löydökset |
-|------|-----|------|------|---------|
-| [30251375](https://pubmed.ncbi.nlm.nih.gov/30251375/) | 2018 | Retrospektiivinen kohortti | Psychiatry Clin Neurosci | 30 päivän vertailu lakosamidista vs. muut AED:t bipolaarisissa häiriöissä ilman epilepsiaa — ensimmäinen lakosamidin omistautunut tarkastelu bipolaarisessa häiriössä. |
-| [33666402](https://pubmed.ncbi.nlm.nih.gov/33666402/) | 2021 | Avoin piilotutkimus | J Clin Psychopharmacol | 12 viikon avoin piilotutkimus osoittaa tehokkuus/turvallisuussignaali spesifisesti **bipolaarisessa masennuksessa**. |
-| [29253680](https://pubmed.ncbi.nlm.nih.gov/29253680/) | 2018 | Prospektiivinen monitupakeskustutkimus | Epilepsy Behav | Lakosamidi liittyy parantuneisiin depressio/ahdistus-oireisiin paikallisen epilepsian potilailla — edeltävä signaali psykiatriseen käyttöön. |
-| [28845834](https://pubmed.ncbi.nlm.nih.gov/28845834/) | 2017 | Tapausraportti | Acta Biomed | Mielialan stabilisaatio saavutettiin lakosamidilla potilaalla, jolla oli mielialan häiriö, PTSD ja otsalohkon epilepsia. |
-| [30275630](https://pubmed.ncbi.nlm.nih.gov/30275630/) | 2018 | Tapausraportti (haittavaikutus) | Indian J Psychol Med | Neutropenia, jonka laukaisi lakosamidi bipolaarisessa häiriössä ja epilepsiassa olevan potilaan yhteydessä — turvallisuussignaali. |
-| [38304661](https://pubmed.ncbi.nlm.nih.gov/38304661/) | 2024 | Tapausraportti | Cureus | Monimutkainen Bipolaarisen I häiriön tapaus useilla komorbiditeetteilla mukaan lukien kohtauksenkaltainen aktiviteetti; havainnollistava pikemminkin kuin tehokkuuden todiste. |
-| [29957667](https://pubmed.ncbi.nlm.nih.gov/29957667/) | 2018 | Katsaus | Ther Drug Monit | Huomioi AED:t, mukaan lukien lakosamidi-luokka, jota käytetään off-label-käytössä bipolaarisen häiriön hoidossa. |
-| [22210279](https://pubmed.ncbi.nlm.nih.gov/22210279/) | 2012 | Katsaus | Adv Drug Deliv Rev | Tausta lakosamidin kemiallisista/farmakokineetisista ominaisuuksista uudempien AED:ien joukossa. |
-| [32693579](https://pubmed.ncbi.nlm.nih.gov/32693579/) | 2020 | Katsaus | ACS Chem Neurosci | Käsittelee CRMP2:a lääkeaineen kohteena, joka liittyy lakosamidin vaikutusmekanismiin. |
-| [37782796](https://pubmed.ncbi.nlm.nih.gov/37782796/) | 2023 | Mekanistinen | PNAS | Lamotrigiinin kryo-EM-rakenteen mekanismi Nav-kanavan inhibitiosta, siihen liittyvä mielialan stabilisaattori AED — tukee jaetun mekanismin perustelu. |
+| [NCT05851781](https://clinicaltrials.gov/study/NCT05851781) | Vaihe 3 | Päättynyt | 600 | Lakosamidi vs. propranololi migreenin ehkäisyssä; päätetapahtumina kuukausittaisten päänsärkypäivien väheneminen ja ≥50 %:n vaste |
+| [NCT05632133](https://clinicaltrials.gov/study/NCT05632133) | Vaihe 3 | Päättynyt | 200 | Satunnaistettu pilottitutkimus: lakosamidin vaikutus seerumin CGRP-pitoisuuteen episodisessa migreenissä (biomarkkeripainotteinen) |
+| [NCT00440518](https://clinicaltrials.gov/study/NCT00440518) | Vaihe 2 | Päättynyt | 218 | Kaksoissokkoutettu, lumekontrolloitu tutkimus: lakosamidi 100 mg ja 300 mg vuorokaudessa migreenin ehkäisyssä |
+| [NCT06243692](https://clinicaltrials.gov/study/NCT06243692) | Vaihe 3 | Tuntematon | 600 | Lakosamidi vs. topiramaatti migreenin ehkäisyssä; tuloksia ei ole saatavilla |
 
 ---
 
-## Turvallisuusnäkökohdat
+## Kirjallisuusnäyttö
 
-Katso pakkausselosteesta turvallisuustietoja. *(Keskeiset varoitukset, vasta-aiheet ja DDI-tiedot eivät olleet saatavilla tässä todistusaineistossa — DG001, luokiteltu Estäviksi, estää täydellisen S1-turvallisuuden esiarviointia.)*
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|---------|-----|------|------|---------|
+| [41863672](https://pubmed.ncbi.nlm.nih.gov/41863672/) | 2026 | RCT | Molecular Neurobiology | Lakosamidi vs. propranololi episodisen migreenin ehkäisyssä; kaksoissokkoutettu tutkimus, jossa arvioitiin tehoa ja turvallisuutta |
+| [38502425](https://pubmed.ncbi.nlm.nih.gov/38502425/) | 2024 | RCT | Acta Neurologica Belgica | Lakosamidin vaikutus seerumin CGRP-pitoisuuteen episodisessa migreenissä |
+| [22779776](https://pubmed.ncbi.nlm.nih.gov/22779776/) | 2013 | Systemaattinen katsaus ja meta-analyysi | Epilepsia | Lakosamidin haittavaikutusprofiili satunnaistetuissa tutkimuksissa |
+| [40670944](https://pubmed.ncbi.nlm.nih.gov/40670944/) | 2025 | Prekliininen (hiiri) | J Headache Pain | Lakosamidin vaikutus kortikaaliseen leviävään depolarisaatioon |
+| [27917413](https://pubmed.ncbi.nlm.nih.gov/27917413/) | 2016 | Prekliininen | Pain Reports | (S)-lakosamidin teho päänsäryn prekliinisissä malleissa; CRMP2 ja CGRP:n vapautuminen |
+| [22862686](https://pubmed.ncbi.nlm.nih.gov/22862686/) | 2012 | Katsaus | Expert Opin Emerg Drugs | Kroonisen ja hoitoresistentin migreenin uudet hoidot |
+| [38870050](https://pubmed.ncbi.nlm.nih.gov/38870050/) | 2024 | Katsaus | Expert Rev Neurother | Kolmoishermosäryn lääkehoito; aiheen ulkopuolinen |
+| [35696452](https://pubmed.ncbi.nlm.nih.gov/35696452/) | 2022 | Katsaus | Brain | SCN1A-toiminnanlisäysvariantit ja familiaalinen hemipleginen migreeni |
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Markkinatiedot Suomessa
 
-**Päätös: Tutkimuskysymys (Odotus vahvistavan aineiston saamiseen)**
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000863 | Vimpat | – | Epilepsia (peruutettu) |
+| EMEA/H/C/005243 | Lacosamide UCB | – | Osittaisalkuinen epilepsia (peruutettu) |
+| EMEA/H/C/004443 | Lacosamide Accord | – | Epilepsia (peruutettu) |
+| EMEA/H/C/006047 | Lacosamide Adroiq | – | Epilepsia (peruutettu) |
+
+---
+
+## Turvallisuushuomiot
+
+- **Lääkeyhteisvaikutukset:** Yhteensä 25 yhteisvaikutusta, joista tässä esitetyistä vakavia (Major) ovat dolasetroni, ketsitinibi eli ceritinibi ja siponimodi. Merkittäviä keskivaikeita (Moderate) ovat mm. klaritromysiini, etanoli, kobisistaatti, klorokiini, hydroksiklorokiini, meflokiini, lidokaiini, ketokonatsoli, pasireotidi, alektinibi, brigatinibi, krisotinibi, fingolimodi, idelalisibi, imatinibi, tsanimodi (ozanimodi) ja sunitinibi. Monet näistä liittyvät sydämen rytmi- ja johtumishäiriöiden riskiin.
+- **Tietämysgraafiin perustuvat vasta-aihesignaalit** (ei valmisteyhteenvedon tekstiä): monisysteeminen atrofia, posturaalinen ortostaattinen takykardiaoireyhtymä, ortostaattinen hypotensio, maksasairaus, sappirakon sairaus, eteisvärinä, sepelvaltimotauti, sydänlihaksen iskemia, AV-katkos, sinussolmukkeen heikkouden oireyhtymä ja eteislepatus.
+- **Muut signaalit:** Yksittäisessä tapausselostuksessa lakosamidin yhteydessä raportoitiin neutropeniaa kaksisuuntaista mielialahäiriötä sairastavalla potilaalla.
+
+Varoitukset ja vasta-aiheet on tarkistettava valmisteyhteenvedosta.
+
+---
+
+## Johtopäätös ja jatkotoimet
+
+**Päätös: Hold (pidätetään)**
 
 **Perustelut:**
-Mekanistinen perustelu (natriumkanavan hidasta inaktivaatiota, luokkaekvivalenssi lamotrigiiniin) on uskottava, mutta kaikki saatavilla oleva lakosamidin kliininen todistusaineisto bipolaarisessa häiriössä käsittelee **depressiivistä** napaa (avoin piilotutkimus, retrospektiivinen kohortti, yksi rekrytointivaiheessa oleva vaiheen 3 tutkimus), ei ennustetulla tavalla maanista napaa — suora polariteetin epäsuhta, joka on merkitty todistusaineiston omassa relevanssiarvioinnissa (Luokka B). Mikään valmis tutkimus tai kirjallisuus ei tällä hetkellä tue antiimanista tehokkuutta.
+- Migreenistä on valmistuneita vaiheen 3 tutkimuksia ja julkaistu RCT, joten muodollinen näytön taso on L1. Tulosten sisältöä ei kuitenkaan ole varmennettu tässä aineistossa: vaiheen 2 lumekontrolloidun tutkimuksen ja CGRP-pilotin tulokset ovat epäselviä, ja topiramaattivertailun tila on tuntematon. Siksi suositus on odottaa tulosten tarkistamista.
+- Suomessa kaikki lakosamidin myyntiluvat on peruutettu, mikä vaikuttaa käytännön toteutettavuuteen.
 
-**Edistymiseen vaaditaan seuraavaa:**
-- TFDA/EMA-pakkausseloste sulkemaan blokkivan turvallisuusaukko (DG001) ennen S1-edistymistä
-- Muodollinen MOA-dokumentaatio (DG002) natriumkanavaistaan mielialan stabilisaatioon mekanistisen linkin perustella
-- Tulokset NCT07412132:sta (depressiivisten jaksojen tutkimus) saatavilla ollessa siirtokelpoisuuden arvioimiseksi maanisiin esityksiin
-- Harkitse ehdokkaan indikaatiota "bipolaariseen masennukseen" spesifisesti, jossa todistusaineisto on materiaalisesti vahvempi kuin "maanis-bipolaarisessa affektiivisessa häiriössä"
-- Huomio: samassa todistusaineistossa **migreeni** (sijoitus 5) osoittaa huomattavasti vahvemman todistusaineiston (L1, pää-pää vaihe 3 RCT:t vs. propranololi, päätösvaihe S3, "Jatka varauksilla") ja saattaa vaatia erillisen, korkeamman prioriteetin arvioinnin
+**Jatkotoimiin tarvitaan:**
+- Julkaisun PMID 41863672 sekä tutkimusten NCT05851781 ja NCT00440518 tulosten tarkistaminen (teho, turvallisuus, keskeyttämiset)
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean verkkosivuilta
+- Yksityiskohtaisen vaikutusmekanismitiedon täydentäminen DrugBankista
+- Sydän- ja rytmihäiriöriskin arviointi, koska tietämysgraafi ja yhteisvaikutukset viittaavat johtumishäiriöihin
+- Myyntilupatilanteen selvittäminen Suomessa
 
+---
+
+## Muut ennustetut käyttöaiheet (lyhyt yhteenveto)
+
+Seuraavat ennusteet perustuvat enimmäkseen pelkkään malliin:
+
+| Käyttöaihe | Näytön taso | Suositus |
+|------|------|------|
+| Maaninen kaksisuuntainen mielialahäiriö (ennustepisteet 99,96 %) | L3 | Tutkimuskysymys; vain retrospektiivinen 30 päivän vertailu, pieni avoin pilotti ja tapausselostuksia |
+| Tourette-oireyhtymä | L5 | Hold; epilepsialääkkeiden aiheuttamia tikkejä käsittelevä katsaus viittaa pikemminkin haittaan |
+| Trikotillomania | L5 | Hold; ei näyttöä |
+| Nefrogeeninen antidiureesioireyhtymä | L5 | Hold; ei uskottavaa mekanismia |
+| Insomnia | L5 | Hold; ei asiaan liittyvää näyttöä |
+| Migreeni ja aivorunkoaura | L4 | Hold; vain epäsuora mekanistinen yhteys |
+| Myofaskiaalinen kipuoireyhtymä | L2 | Tutkimuskysymys; päättynyt vaiheen 2 tutkimus ([NCT00401830](https://clinicaltrials.gov/study/NCT00401830), n=159, fibromyalgia), tuloksia ei ole saatavilla |
+| Pakko-oireinen häiriö | L5 | Hold; ainoa tutkimus koskee alkoholin käyttöä |
+| Papillaarinen konjunktiviitti | L5 | Hold; ei näyttöä |
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

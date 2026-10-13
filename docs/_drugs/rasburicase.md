@@ -2,7 +2,7 @@
 layout: default
 title: Rasburicase
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 316
+nav_order: 368
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,61 +29,70 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Rasburikaasi: syöpäsolujen hajoamiseen liittyvästä hyperurikemiasta munuaisten hypourikemiaan
+# Rasburikaasi: Hyperurikemian hoidosta munuaisperäiseen hypourikemiaan
 
 ## Yhden lauseen yhteenveto
 
-Rasburikaasi on rekombinantti urataattioksidaasi, jonka vakiintunut käyttötarkoitus on hoitaa syöpäsolujen hajoamiseen liittyvää hyperurikemiaa syöpäpotilailla. TxGNN-mallin huipulle sijoittuva ennuste on **Munuaisten hypourukemia**, mutta tämä ennuste on mekanistisesti epätodennäköinen — rasburikaasi *alentaa* virtsahappoa, kun taas munuaisten hypourukemia on sairaus, jolle on ominaista *poikkeuksellisen alhainen* virtsahappo — ja sitä tukevat **nolla kliinistä tutkimusta ja nolla julkaisuja**. Vahvempi mekanistinen kandidaatti on olemassa alemmas rankatussa listassa (HPRT osittainen puutos), jolle ei myöskään ole tukitutkimuksia.
+Rasburikaasi on rekombinantti urikaasientsyymi, jota on alun perin käytetty **hyperurikemian** hoitoon. TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **munuaisperäisen hypourikemian** (pistemäärä 99,99 %), mutta ennusteen tueksi ei ole **yhtään kliinistä tutkimusta eikä julkaisua**, ja mekanistinen perustelu on vastakkainen: lääke laskee virtsahappoa, joka on tässä sairaudessa jo valmiiksi matala.
 
 ## Pikayleiskatsaus
 
 | Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen käyttötarkoitus | Syöpäsolujen hajoamiseen liittyvä hyperurukemia (farmakologisen kontekstin perusteella todistusmateriaalipaketissa; ei virallisesta luvasta, koska sellaista ei ole olemassa) |
-| Ennustettu uusi käyttötarkoitus | Munuaisten hypourukemia |
-| TxGNN-ennustepisteet | 99,99 % |
-| Todistusaineiston taso | L5 (vain malliennuste, ei tukevia tutkimuksia) |
-| Taiwan-markkinoiden tila | ✗ Ei markkinoilla |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltava päätös | Pidätys |
+|------|------|
+| Alkuperäinen käyttöaihe | Hyperurikemia |
+| Ennustettu uusi käyttöaihe | Munuaisperäinen hypourikemia (hypouricemia, renal) |
+| TxGNN-ennustepistemäärä | 99,99 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennuste on järkevä?
+## Miksi ennuste on (tai ei ole) perusteltu?
 
-Yksityiskohtaista virallista vaikutusmekanismin tietoa merkitään tämän todistusmateriaalipaketissa tietovajeeksi (DG002). Paketin omasta perustelutekstistä kuitenkin käy ilmi rasburikaasin tunnettu farmakologia: se on rekombinantti urataattioksidaasi, joka hapettaa virtsahappoa allantoiinissa, ja sitä käytetään syöpäpotilaiden virtsahappolukujen *alentamiseen* syöpäsolujen hajoamisen riskissä.
+Rasburikaasi on rekombinantti urikaasi, joka muuntaa virtsahapon allantoiiniksi ja laskee siten seerumin virtsahappopitoisuutta. Yksityiskohtaista vaikutusmekanismitietoa ei ole tässä aineistossa saatavilla. Tunnetun entsyymitoiminnan perusteella lääkkeen vaikutus on kuitenkin selvä.
 
-**Paremmalle sijoitukselle nousevaa ennustetta, Munuaisten hypourukemiaa, olisi käsiteltävä huomattavalla varovaisuudella.** Munuaisten hypourukemia on sairaus, jolle on ominaista *poikkeuksellisen alhainen* virtsahappo, jonka aiheuttavat yleensä vialliset munuaisten tubulaarisen uridin kuljettimet. Virtsahappoa alentavan valmisteen antaminen potilaalle, jolla on jo liian vähän virtsahappoa, toimii suunnassa, joka on vastakkainen sairauden kanssa, ja sen voidaan odottaa pahentavan sairauden sijasta parantavan sitä. Todistusmateriaalipaketissa itsessään tämä on selvästi kuvattu TxGNN-mallin todennäköisesti korkeaksi pistemäärät saaneeksi vääräpositiiviseksi, ei biologisesti johdonmukaiseksi hypoteesiksi.
+Munuaisperäisessä hypourikemiassa seerumin virtsahappo on jo matala URAT1- tai GLUT9-kuljettajan toimintaa heikentävien mutaatioiden vuoksi. Virtsahapon lisälasku olisi mekanistisesti epätarkoituksenmukaista ja voisi lisätä liikunnan aiheuttaman akuutin munuaisvaurion riskiä. Korkea TxGNN-pistemäärä johtuu todennäköisesti tietämysverkon yhteydestä virtsahappoaineenvaihduntaan, ei järkevästä hoidollisesta yhteydestä.
 
-Mekanistisesti puolustettavampi kandidaatti esiintyy sijoilla 2: **HPRT osittainen puutos** (esim. Kelley-Seegmiller-oireyhtymä), jossa tukkeutunut puriinin pelastusreitti aiheuttaa virtsahappoylimuodostusta ja uraattinefropatia. Tässä rasburikaasin virtsahappoa alentava vaikutus on suora, looginen yhteys taustalla olevaan aineenvaihdunnan häiriöön. Tällä kandidaatilla ei kuitenkaan ole kliinisen kokeen tai kirjallisuuden tukea, ja se ei ollut mallin valitsema huippusijoitus.
+Muut ennusteet (sijat 2–10) ovat samankaltaisia: 
+- **HGPRT-vajaus (osittainen):** virtsahapon ylituotanto antaisi teoriassa epäsuoran perustelun akuuttiin laskuun, mutta kyseessä on laskimoon annettava, immunogeeninen entsyymi lyhytaikaiseen käyttöön. Pitkäaikaishoitoon sopivat ksantiinioksidaasin estäjät, eikä lääke korjaa puriinien kierrätyksen vikaa.
+- **Maksan porfyria:** mekanistista yhteyttä ei löydy. Rasburikaasi voi lisäksi aiheuttaa hemolyysiä ja methemoglobinemiaa, mikä on turvallisuusriski G6PD-puutoksessa.
+- **Maksa- ja porttilaskimosairaudet** (hepatoportaaliskleroosi, primaari porttilaskimotromboosi, varhain alkava familiaalinen ei-kirroottinen portaalihypertensio, hepatopulmonaalinen oireyhtymä, idiopaattinen kupariin liittyvä kirroosi): ei mekanistista yhteyttä, ennusteet ovat todennäköisesti verkon artefakteja.
+- **Munuaistubulusten asidoosi:** vain heikko yhteys virtsahapon ja munuaiskäsittelyn kautta. Lääke tuottaa sivutuotteena vetyperoksidia, mikä ei ole hyödyllistä.
+- **Fenyylialaniiniaineenvaihdunnan häiriöt:** ainoa pinnallinen yhtäläisyys on entsyymihoidon luokka, ei mekanistinen yhteys.
 
-## Kliinisen tutkimuksen todisteet
+## Kliinisen tutkimusnäytön tilanne
 
-Tällä hetkellä ei ole rekisteröityjä siihen liittyviä kliinisiä tutkimuksia.
+Aiheeseen liittyviä kliinisiä tutkimuksia ei ole tällä hetkellä rekisteröity.
 
-## Kirjallisuuden todisteet
+## Kirjallisuusnäyttö
 
-Tällä hetkellä kirjallisuutta ei ole saatavilla.
+Aiheeseen liittyvää kirjallisuutta ei ole tällä hetkellä saatavilla.
 
-## Taiwan-markkinoiden tiedot
+## Suomen markkinatiedot
 
-Rasburikaasia ei tällä hetkellä myydä Taiwanissa (0 hyväksyntää saatavilla), joten tuote- tai hyväksyntätietoja ei ole saatavilla.
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000331 | Fasturtec | – | Hyperurikemia (myyntilupa peruutettu) |
 
 ## Turvallisuusnäkökohdat
 
-Katso turvallisuustiedot pakkausselosteesta. (Keskeiset varoitukset, vasta-aiheet ja lääkkeiden vuorovaikutustiedot eivät ole tällä hetkellä saatavilla — TFDA:n pakkausselosteen haku on estävä tietovaje, DG001.)
+- **Lääkkeiden yhteisvaikutukset:** Tietokannasta löytyi yhteensä 13 yhteisvaikutusta.
+  - **Merkittävät (Major):** prilokaiini ja nitriittihappo (nitrous acid).
+  - **Kohtalaiset (Moderate):** paikallispuudutteet ja vastaavat valmisteet (tetrakaiini, lidokaiini, bentsokaiini, kokaiini, proparakaiini, oksibuprokaiini, sinkokaiini eri antoreiteillä) sekä idelalisibi.
+- Myyntiluvan valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole tässä aineistossa saatavilla, joten niiden osalta on tarkistettava valmisteyhteenveto. Lisäksi on huomioitava edellä mainittu hemolyysin ja methemoglobinemian riski G6PD-puutoksessa.
 
-## Johtopäätös ja seuraavat vaiheet
+## Johtopäätös ja seuraavat askeleet
 
-**Päätös: Pidätys**
+**Päätös: Hold (odota)**
 
-**Perustelut:**
-Huipulle sijoittuva ennuste (munuaisten hypourukemia) on mekanistisesti ristiriitainen rasburikaasin tunnetun farmakologian kanssa ja on parasta käsitellä todennäköisenä mallin virheenä pikemminkin kuin aito uudelleenkäytön signaalina. Mekanistisesti todennäköisempi kandidaatti (HPRT osittainen puutos) ei ole lainkaan kliinisen tai kirjallisuuden todisteen varassa. Koska todistusaineiston taso on L5 kaikkien kymmenen ennusteen osalta ja todellista käyttöä, markkinointia tai turvallisuusdokumentaatiota ei ole, yksikään näistä kandidaateista ei ole valmiina edelleen arvioitavaksi.
+**Perustelu:**
+- Ennusteiden tueksi ei ole kliinistä tai kirjallista näyttöä (taso L5), ja ykkösennusteen mekanismi on lääkkeen vaikutukselle vastakkainen. Suomessa ainoa myyntilupa on peruutettu.
 
-**Jatkamiseksi tarvitaan seuraavaa:**
-- TFDA:n/valmistajan pakkausseloste (varoitukset, vasta-aiheet) — tällä hetkellä estävä (DG001)
-- Vahvistettu alkuperäinen käyttötarkoitus ja virallinen vaikutusmekanismin dokumentaatio (DG002)
-- Prekliininen tai tapaustutkimukseen perustuva todiste, joka testaa rasburikaasia erityisesti HPRT osittaiseen puutokseen liittyvässä uraattinefropatiassa, jos tätä kandidaattia aiotaan jatkaa huipulle sijoittuneen (epätodennäköisen) osuman sijasta
-- Uudelleenpisteytyson tai manuaalisen tarkistusarvioinnin suorittaminen munuaisten hypourukemia-ennusteelle, koska edellä määritelty suuntaava mekanistinen ristiriita on tunnistettu
-
+**Jatkoa varten tarvitaan:**
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet (turvallisuusseulonnan estävä aukko)
+- Yksityiskohtainen vaikutusmekanismitieto
+- Prekliininen tai mekanistinen näyttö ennen mitään jatkokehitystä
+- Mahdollisen jatkotarkastelun osalta rajoittaminen lyhytaikaiseen akuuttiin hyperurikemiaan liittyviin tilanteisiin (esim. HGPRT-vajaus), vasta kun kliinistä tukea on olemassa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

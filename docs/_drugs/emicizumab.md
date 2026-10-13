@@ -2,7 +2,7 @@
 layout: default
 title: Emicizumab
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 142
+nav_order: 161
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,92 +29,123 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Emicizumab: Hemofiliasta A pseudo-von Willebrandin tautiin
+# Emisitsumabi: Hemofilia A:sta hankinnaiseen hemofilia A:han (ennustettu uusi käyttöaihe: hankinnainen hyytymistekijän puutos)
 
-## Yhden lauseen yhteenveto
+## Yhden lauseen tiivistelmä
 
-Emicizumab on biokaksinkertainen monoklonaalinen vasta-aine, jonka vakiintunut kliininen käyttö (tämän evidenssipaketin kirjallisuuden perusteella) on verenvuotojen profylaksia synnynnäisessä ja hankitussa hemofiliassa A. TxGNN-mallin parhaiten sijoittava ennuste on **pseudo-von Willebrandin tauti**, mutta tätä ehdokasta tukee **0 kliinistä tutkimusta** ja **0 julkaisua**, ja evidenssipaketin oma mekanistinen katsaus toteaa, että **mekanistista yhteyttä emicizumabiin ja tähän tautiin ei ole**. Viralliset Suomen/TFDA:n sääntelytiedot (alkuperäinen käyttöaihe, pakkausselosteen varoitukset, vaikutusmekanismi) eivät ole tällä hetkellä saatavissa ja ne on merkitty tietovajeiksi.
+Emisitsumabi on bispesifinen vasta-aine, jota on alun perin käytetty hemofilia A:n hoitoon. TxGNN-malli ennustaa sen voivan olla tehokas **pseudo-von Willebrandin taudissa** (korkein pistemäärä), mutta ennusteelle ei ole kliinistä tukea. Parhaiten tuettu ennustettu käyttöaihe on **hankinnainen hyytymistekijän puutos** (käytännössä hankinnainen hemofilia A): siitä on **20 julkaisua**, mutta ei rekisteröityjä kliinisiä tutkimuksia tähän aineistoon koottuna.
 
----
-
-## Nopea yleiskatsaus
-
-| Kohde | Sisältö |
-|------|---------|
-| Alkuperäinen käyttöaihe | Ei saatavissa sääntelytiedoissa (tietovaje). Tämän paketin kirjallisuuskonteksti osoittaa synnynnäistä/hankittua hemofiliaa A (FVIII-mimeettinen profylaksia) |
-| Ennustettu uusi käyttöaihe | Pseudo-von Willebrandin tauti |
-| TxGNN-ennustepisteet | 99.99% |
-| Näyttötaso | L5 |
-| Suomen markkina-asema | ✗ Ei markkinoilla |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Odota |
+Huom. raportin otsikko ja yksityiskohtainen arviointi keskittyvät kliinisesti parhaiten tuettuun ennusteeseen. Muut ennusteet esitetään lyhyesti loppuosassa.
 
 ---
 
-## Miksi tämä ennuste on perusteltu?
+## Pikakatsaus
 
-Tällä hetkellä yksityiskohtaisia vaikutusmekanismin (MOA) tietoja ei ole saatavissa DrugBankista tässä evidenssipakettissa (tietovaje DG002, vakavuus: Korkea). Tämän evidenssipaketin muista kohdista löydetyn tiedon perusteella (kirjallisuuden abstraktit kerätty "hankittu koagulaatiotekijän puutos" -ehdokkaan alle) emicizumab on biokaksinkertainen vasta-aine, joka jäljittelee aktivoidun koagulaatiotekijä VIII:n yhteistekijän toimintoa silloittamalla tekijät IXa ja X, palauttaen trombiitin tuotantoa. Sitä käytetään kliinisesti verenvuotojen profylaksiin sekä synnynnäisessä hemofiliassa A (FVIII-estäjien kanssa tai ilman) että yhä enemmän hankitussa hemofiliassa A.
-
-TxGNN:n parhaiten sijoitettu ehdokas, pseudo-von Willebrandin tauti, on trombosyyttien kalvon glykoproteiini Ib:n (GPIbα) toiminnon vahvistuma-häiriö, joka aiheuttaa epänormaalin spontaanin sitoutumisen trombosyyttien ja von Willebrand-tekijän välillä. Tämä on **trombosyytin reseptoridefekti**, ei koagulaatiotekijän kaskadi -defekti – mekanistisesti eroaa emicizumabiin liittyvästä FIXa–FX-silloituksesta. Evidenssipaketin oma repurposing-perustelu tälle ehdokkaalle päättelee eksplisiittisesti, että "mekanistinen uskottavuus ei ole tuettu" (無機轉合理性支持) tälle yhdistelmälle.
-
-Tämä on tärkeä varoitus tulkittaessa 99.99%:n TxGNN-pistemäärää: vaikka se on yksittäin korkeimmin sijoitettu ennuste näiden kymmenen ehdokkaan joukossa tässä paketissa, se kantaa heikoimman mahdollisen näyttötason (L5 – vain mallin ennuste, ei tutkimuksia, ei kirjallisuutta) ja mekanistisen perustelun, joka väittää *vastaan* biologista uskottavuutta. Mallin korkea samankaltaisuuspisteet tulisi lukea verkkotopologian signaaliksi, ei mekanistisen sopivuuden näytöksi – nämä kaksi on arvioitava erikseen, kuten tässä paketissa tehdään.
-
----
-
-## Kliinisen tutkimuksen näyttö
-
-Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia
-
-## Kirjallisuuden näyttö
-
-Tällä hetkellä ei ole saatavissa asiaan liittyvää kirjallisuutta
+| Kohta | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | Hemofilia A |
+| Ennustettu uusi käyttöaihe (korkein TxGNN-pistemäärä) | Pseudo-von Willebrandin tauti |
+| Ennustettu uusi käyttöaihe (paras näyttö) | Hankinnainen hyytymistekijän puutos (hankinnainen hemofilia A) |
+| TxGNN-ennustepistemäärä | 99,99 % (pseudo-von Willebrand); 99,90 % (hankinnainen hyytymistekijän puutos) |
+| Näytön taso | L5 (pseudo-von Willebrand); L2 (hankinnainen hyytymistekijän puutos) |
+| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (pseudo-von Willebrand); tutkimuskysymys (hankinnainen hyytymistekijän puutos) |
 
 ---
 
-## Muut tämän evidenssipaketin ehdokkaat (täydentävät)
+## Miksi ennuste on perusteltu?
 
-Koska parhaiten sijoitetulla ehdokkaalla on pohjimmiltaan nolla suoraa näyttöä, on arvokasta huomata, että kaksi alemmin sijoitettua ehdokasta samassa evidenssipakettissa kantaa merkittävästi vahvempaa tukea ja voivat olla parempia seuranta-arviointikohteita:
+Yksityiskohtaista vaikutusmekanismitietoa ei ole tässä aineistossa saatavilla. Tunnetun farmakologian perusteella emisitsumabi on bispesifinen vasta-aine, joka sitoo aktivoituneen tekijä IX:n ja tekijä X:n ja jäljittelee siten tekijä VIII:n kofaktoritoimintaa.
 
-| Sijoitus | Tauti | TxGNN-pisteet | Näyttötaso | Tukeva näyttö |
-|------|---------|-------------|-----------------|----------------------|
-| 3 | Glanzmannin trombastenia | 99.98% | L4 | 1 rekisteri-tyyppinen tutkimus ([NCT04398628](https://clinicaltrials.gov/study/NCT04398628), ei-interventionaalinen, relevanssusaste C) + 1 katsausartikkeli (PMID [37391649](https://pubmed.ncbi.nlm.nih.gov/37391649/), keskittyy rFVIIa:han, ei emicizumab-spesifinen). Mekanistinen yhteys on epäsuora – Glanzmannin trombastenia on GPIIb/IIIa-trombosyytin aggregaatiodefekti, ei FVIII/IX/X-polku-defekti. |
-| 5 | Hankittu koagulaatiotekijän puutos | 99.90% | Ei vielä lopullista tässä paketissa ("odottava"), mutta tiedot viittaavat siihen, että sen pitäisi sijoittua hyvin L4:n yläpuolelle | 1 rekisteri-tutkimus + **20 PubMed-julkaisua**, mukaan lukien valmis vaiheen 3 tutkimus (AGEHA, PMID [39134043](https://pubmed.ncbi.nlm.nih.gov/39134043/)) ja julkaistu vaiheen 2 tutkimus, joka testasi suoraan emicizumab-hoitoa hankitussa hemofiliassa A (GTH-AHA-EMI, *Lancet Haematology*, PMID [37858328](https://pubmed.ncbi.nlm.nih.gov/37858328/)). Mekanismi vastaa suoraan emicizumabiin tunnetun FVIII-mimeettisen toiminnan kanssa. |
+**Hankinnainen hemofilia A (paras tuettu ennuste).** Taudissa autovasta-aineet neutraloivat elimistön oman tekijä VIII:n. Emisitsumabi ohittaa tekijä VIII:n sitomalla tekijät IXa ja X, eikä anti-FVIII-autovasta-aineet neutraloi sitä. Mekanistinen peruste on siksi vahva. Käyttöaihe rajoittuu hankinnaiseen hemofilia A:han, ei muihin hankinnaisiin hyytymistekijöiden puutoksiin.
 
-**Riskiliput, jotka on tunnistettu muualla tässä paketissa ja joita ei pitäisi jatkaa eteenpäin:**
-- **Sijoitus 8 – Trombotinen trombosytopenia**: mekanistisesti kontraindiseroitu. TTP on pro-trombotinen, ADAMTS13-puutoshäiriö; pro-koagulantsin (emicizumab) antaminen on suuntaa vastaan hoitotavoitteelle ja aiheuttaa turvallisuushuolen, ei vain näyttövajeelle.
-- **Sijoitus 10 – "tulva tekijän puutos"**: evidenssipaketti itse merkitsee tämän todennäköiseksi OCR/tiedonmäärityshäväksi ilman ratkaistavaa taudin ontologia -vastaavuutta; se pitäisi korjata lähteessä ennen jatkoarvioita.
+**Pseudo-von Willebrandin tauti (korkein pistemäärä).** Tauti on verihiutaletyyppinen häiriö, jonka aiheuttaa GP1BA-geenin toiminnan lisäysmutaatio. Tekijä VIII:aa jäljittelevä mekanismi ei korjaa tätä ensisijaista verihiutaledefektiä. Korkea pistemäärä on pelkkä mallin ennuste, eikä sille ole tutkimus- tai kirjallisuustukea.
 
 ---
 
-## Suomen markkina-tiedot
+## Kliiniset tutkimukset
 
-Emicizumab ei ole tällä hetkellä markkinoilla Suomessa – `taiwan_regulatory.market_status` ilmoittaa "Not Marketed" (ei markkinoilla) 0 rekisteröidyllä markkinointiluvan myönnöllä. Yhteenvetoon saatavilla olevia lisenssitietueita ei ole.
-
----
-
-## Turvallisuuteen liittyvät näkökohdat
-
-Tutustu pakkausselosteeseen turvallisuustietojen osalta.
-
-*(Tärkeät varoitukset, vasta-aiheet ja lääkkeiden vuorovaikutustiedot kaikki merkitään tietovajeiksi tässä evidenssipakettissa – mukaan lukien estävän vakavuuden vaje TFDA:n pakkausselosteen varoituksille/vasta-aiheille, DG001 – joten S1 turvallisuuden esiseulonta ei voi olla valmis tällä hetkellä.)*
+Tähän aineistoon ei ole koottu aiheeseen liittyviä rekisteröityjä kliinisiä tutkimuksia. Hankinnaisen hemofilia A:n osalta rekisteröinnit tulee tarkistaa erikseen (aineiston mukaan Japanissa on ollut vaiheen 3 tutkimus).
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Kirjallisuusnäyttö
 
-**Päätös: Odota**
+Hankinnainen hyytymistekijän puutos (hankinnainen hemofilia A), valikoima keskeisiä julkaisuja:
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
+|------|-----|------|------|---------|
+| [36696195](https://pubmed.ncbi.nlm.nih.gov/36696195/) | 2023 | Prospektiivinen avoin vaiheen III tutkimus (AGEHA) | J Thromb Haemost | Emisitsumabiprofylaksia hankinnaisessa hemofilia A:ssa; ensimmäinen prospektiivinen tutkimus |
+| [39134043](https://pubmed.ncbi.nlm.nih.gov/39134043/) | 2025 | Prospektiivinen tutkimus (loppuanalyysi) | Thromb Haemost | AGEHA-tutkimuksen loppuanalyysi, mukana immunosuppressioon sopimattomat potilaat ja pitkäaikainen profylaksia |
+| [37858328](https://pubmed.ncbi.nlm.nih.gov/37858328/) | 2023 | Vaiheen 2 yhden haaran avoin tutkimus (GTH-AHA-EMI) | Lancet Haematol | Emisitsumabi suojaa verenvuodoilta ja mahdollistaa immunosuppression lykkäämisen ensimmäisten 12 viikon ajan |
+| [40795229](https://pubmed.ncbi.nlm.nih.gov/40795229/) | 2025 | Kohorttitutkimus | Blood Adv | Kahden vuoden seuranta: kestävä eloonjäämishyöty ja lykätty immunosuppressio |
+| [38936699](https://pubmed.ncbi.nlm.nih.gov/38936699/) | 2024 | Vertaileva kohorttitutkimus | J Thromb Haemost | Emisitsumabi vs. immunosuppressiivinen hoito |
+| [38049124](https://pubmed.ncbi.nlm.nih.gov/38049124/) | 2024 | Konsensussuositus | Hamostaseologie | GTH-AHA-työryhmän suositukset emisitsumabin käytöstä |
+| [39361769](https://pubmed.ncbi.nlm.nih.gov/39361769/) | 2024 | Takautuva monikeskuskohortti | Blood Adv | 62 potilasta, off-label-käyttö 12 yhdysvaltalaisessa keskuksessa |
+| [39536818](https://pubmed.ncbi.nlm.nih.gov/39536818/) | 2025 | Katsaus | J Thromb Haemost | Hankinnaisen hemofilia A:n hoito emisitsumabin aikakaudella |
+| [40683780](https://pubmed.ncbi.nlm.nih.gov/40683780/) | 2025 | Katsaus | Blood Rev | Hankinnaisen hemofilia A:n hoidon nykysuuntaukset |
+| [37276345](https://pubmed.ncbi.nlm.nih.gov/37276345/) | 2023 | Tapaussarja | Haemophilia | Emisitsumabi hankinnaisessa hemofilia A:ssa |
+
+Glanzmannin trombasteniasta on löytynyt vain yksi julkaisu (PMID [37391649](https://pubmed.ncbi.nlm.nih.gov/37391649/), 2024, katsaus rFVIIa:sta eli NovoSevenistä). Se ei koske emisitsumabia eikä ole sen näyttöä.
+
+---
+
+## Suomen markkinatiedot
+
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004406 | Hemlibra (Roche Registration Limited) | Ei tietoa | Hemofilia A (tila: peruutettu) |
+
+---
+
+## Turvallisuushuomioita
+
+**Lääkeyhteisvaikutukset** (5 kirjattua):
+- **Anti-inhibitor coagulant complex (aPCC): vakava (Major).** Yhdistelmään on raportoitu liittyvän trombroottista mikroangiopatiaa hemofilia A:ssa.
+- Rekombinantti ihmisen antihemofiilinen tekijä (FVIII): kohtalainen.
+- Rekombinantti ihmisen hyytymistekijä VIIa: kohtalainen.
+- Farmakologiset kohteet: hyytymistekijä X ja hyytymistekijä IX (emisitsumabin sitoutumiskohteet).
+
+**Kohdekohtainen huomio:** trombroottisessa trombosytopeenisessa purppurassa (TTP) emisitsumabi on prokoagulanttinen ja sen käyttö on tämän ennusteen osalta turvallisuusriski. Ennuste on todennäköisesti virheellinen positiivinen, eikä käyttöä tule harkita ilman vahvaa näyttöä.
+
+Muilta osin tarkemmat varoitukset ja vasta-aiheet: katso valmisteyhteenveto.
+
+---
+
+## Muut ennustetut käyttöaiheet (lyhyesti)
+
+Seuraavissa ennusteissa on vain mallin pistemäärä (näytön taso L5, päätös Hold), eikä niistä ole tutkimuksia tai kirjallisuutta:
+
+| Käyttöaihe | TxGNN-pistemäärä | Arvio |
+|------|------|------|
+| Pseudo-von Willebrandin tauti | 99,99 % | Mekanismi ei korjaa verihiutaledefektiä |
+| Verihiutaleiden primaarinen vapautumishäiriö | 99,99 % | Spekulatiivinen; ei vaikuta eritysvikaan |
+| Glanzmannin trombastenia | 99,98 % | Teoreettinen, testaamaton |
+| Scottin oireyhtymä | 99,92 % | Toimisi huonosti, koska vaikutus vaatii prokoagulanttipinnan |
+| Kollageenireseptoridefektin aiheuttama vuotoalttius | 99,86 % | Mekanismi ei tue |
+| Synnynnäiseen trombosytopeniaan liittyvä verenvuototauti | 99,85 % | Ei vaikuta verihiutaleiden määrään |
+| Trombroottinen trombosytopeeninen purppura | 99,61 % | Turvallisuusriski |
+| Sikiön ja vastasyntyneen alloimmuunitrombosytopenia | 99,52 % | Ei mekanistista perustetta |
+| "Flood factor deficiency" | 99,40 % | Epäselvä nimike, ontologiakartoitus tarkistettava |
+
+---
+
+## Johtopäätökset ja seuraavat vaiheet
+
+**Päätös: Hold** (korkeimman pistemäärän ennuste, pseudo-von Willebrandin tauti) ja **tutkimuskysymys** (hankinnainen hemofilia A).
 
 **Perustelut:**
-TxGNN:n parhaiten sijoitetulla ennusteella (pseudo-von Willebrandin tauti) on L5-näyttö – ei kliinisiä tutkimuksia, ei kirjallisuutta – ja sen oman mekanistisen perustelun mukaan biologinen uskottavuus on selvästi suljettu pois. Yhdessä estävän vakavuuden tietovajeen kanssa TFDA:n pakkausselosteen turvallisuustiedoissa ja vasta-aiheissa (DG001), tätä ehdokasta ei voi edistyä S0/S1:n pidemmälle nykysessä muodossaan.
+- Pseudo-von Willebrandin taudin ennusteelle ei ole kliinistä eikä kirjallisuusnäyttöä, ja mekanismi ei tue sitä.
+- Hankinnaisessa hemofilia A:ssa on vahva mekanistinen peruste sekä prospektiivisia ei-satunnaistettuja tutkimuksia (AGEHA, GTH-AHA-EMI), joten näytön taso on L2 (ei L1, koska satunnaistettuja vaiheen 3 tutkimuksia ei ole).
 
-**Jatkamiseksi seuraavat ovat tarpeen:**
-- TFDA/EU-pakkausselosteen varoitukset ja vasta-aiheet (DG001, estävä) – vaaditaan ennen mitään S1 turvallisuuden esiseulontaa
-- Vahvistettu vaikutusmekanismin tieto DrugBankista (DG002, korkea)
-- Vahvistettu alkuperäinen käyttöaihe ja Suomen lisensointihistoria (tällä hetkellä puuttuu `taiwan_regulatory`-lähteestä)
-- Jos jatketaan tämän evidenssipaketin evaluointia, **ohjaa arvioinnin prioriteetti rank 5:lle (hankittu koagulaatiotekijän puutos)**, jolla on jo valmis vaiheen 3 tutkimus (AGEHA) ja julkaistu vaiheen 2 RCT (GTH-AHA-EMI), joka tukee suoraan emicizumab-hoitoa – tämä ehdokas todennäköisesti ansaitsee L1/L2 näyttötason uudelleen arvioinnin pikemminkin kuin "odottava" -status, joka on tällä hetkellä näytetty
-- Korjaa taudin ontologia -määritys rank 10:lle ("tulva tekijän puutos") ennen jatkokäyttöä
-- Sulkea pois rank 8 (TTP) repurposing-harkinnasta mekanistisista/turvallisuusperusteista
-
+**Edetäkseen tarvitaan:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden haku Fimeasta (estävä tietoaukko)
+- Vaikutusmekanismitietojen täydentäminen DrugBankista
+- Hankinnaisen hemofilia A:n kliinisten tutkimusten rekisteröinnin tarkistus
+- Myyntiluvan tilan selvittäminen (nykyinen merkintä: vain peruutettu) ja sääntelyaseman vahvistus
+- aPCC-yhteiskäytön riskien ja trombroottisen mikroangiopatian seurantasuunnitelman laatiminen
+- "Flood factor deficiency" -ennusteen ontologiakartoituksen tarkistus
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

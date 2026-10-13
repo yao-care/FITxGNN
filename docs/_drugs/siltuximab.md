@@ -2,7 +2,7 @@
 layout: default
 title: Siltuximab
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 343
+nav_order: 402
 evidence_level: L5
 indication_count: 8
 ---
@@ -29,65 +29,95 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **8** kpl
 
 </div>
 
-# Siltuximab: monikeskisestä Castlemanin taudista ekstraküutaaniseen mastokaytoomaan
+# Siltuksimabi: Giant Lymph Node Hyperplasiasta (Castlemanin tauti) ekstrakutaaniseen mastosytoomaan
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Siltuximab on kimeera-anti-IL-6-monoklonaalinen vasta-aine, joka on yleisesti tunnettu sen käytöstä monikeskisessä Castlemanin taudissa (tämä lääke ei ole vielä markkinoilla Suomessa, joten paikallista indikaatiorekisteriä ei ole tässä näytöpaketissa).
-TxGNN-malli ennustaa sen voivan olla tehokas **ekstraküutaaniselle mastokaytoomalle**,
-mutta tällä hetkellä **mikään kliininen tutkimus** ja **mikään julkaisu** eivät tue tätä erityistä yhteyttä — se on vain mallin ennustus.
+Siltuksimabi on anti-IL-6-kimeerinen monoklonaalinen vasta-aine, jota on käytetty jättimäisen imusolmukehyperplasian (Castlemanin tauti) hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **ekstrakutaaniseen mastosytoomaan**, mutta ennusteen tueksi ei ole **yhtään kliinistä tutkimusta eikä julkaisua**. Ennuste perustuu pelkästään laskennalliseen malliin.
 
-## Pikaselostus
+---
+
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|--------|
-| Alkuperäinen indikaatio | Ei merkitty Suomen rekisteriin (lääke ei ole markkinoilla); yleisesti tunnettu monikeskisestä Castlemanin taudista |
-| Ennustettu uusi indikaatio | Ekstraküutaaninen mastokytooma |
-| TxGNN-ennustepisteet | 99.64% |
-| Näyttötaso | L5 |
-| Suomen markkinatilanne | Ei markkinoilla |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Odota |
+|------|------|
+| Alkuperäinen käyttöaihe | Jättimäinen imusolmukehyperplasia (Castlemanin tauti) |
+| Ennustettu uusi käyttöaihe | Ekstrakutaaninen mastosytooma |
+| TxGNN-ennustepistemäärä | 99,64 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennuste on perusteltu?
+---
 
-Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla (merkitty vakavaksi tietovajeeksi). Yleisesti tunnetun tiedon perusteella siltuximab on rekombinantti-kimeera (ihminen-hiiri) anti-interleukiini-6 (IL-6) -monoklonaalinen vasta-aine, jota annostellaan suonensisäisesti, ja sen tehokkuus IL-6-välitteisessä lymfoproliferatiivisessa taudissa on osoitettu.
+## Miksi ennuste voisi olla perusteltu?
 
-Tälle erityiselle ennusteelle näytöpaketti ilmaisee selvästi, että mekanistinen yhteys on todistamaton: "Ei ole selkeää kirjallista mekanistista näyttöä, joka suoraan yhdistäisi IL-6-estoa mastokaytoomapatologiaan — vain TxGNN-ennustepisteet tukevat tätä suuntaa, ilman kliinistä tai kirjallista näyttöä." Mastosolujen tiedetään erittävän IL-6:ta joissakin yhteyksissä, mikä tarjoaa teoreettisen perustelun, mutta tätä ei ole osoitettu siltuximabille erityisesti ekstraküutaanisessa mastokaytoomassa.
+Tarkkaa vaikutusmekanismia koskevia tietoja ei ole tällä hetkellä saatavilla. Siltuksimabi on kuitenkin tunnetusti IL-6:ta estävä vasta-aine, ja sen teho Castlemanin taudissa, jossa IL-6 on keskeinen taudin ajuri, on osoitettu.
 
-Koska tukevaa tutkimus- tai julkaisutietoa ei ole, tätä ennustetta tulee käsitellä mallin hypoteesin generoivana signaalina pikemminkin kuin kliinisesti tai mekanistisesti perustelulla lääkkeen uudelleenkäytön kandidaattina tässä vaiheessa.
+IL-6:lla voi olla rooli syöttösolubiologiassa, mutta tämä on spekulatiivista, eikä toimitettu aineisto tue sitä. Alkuperäisen ja ennustetun käyttöaiheen välistä yhteyttä ei ole vahvistettu.
 
-## Kliinisen tutkimuksen näyttö
+Ennustelistalla on myös muita kohteita, joista yksi on poikkeuksellisesti hieman tuettu:
 
-Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
+- **Kaposin sarkooma** (pistemäärä 99,28 %, näytön taso L4): Kaposin sarkoomaan ja multisentriseen Castlemanin tautiin liittyy molempiin HHV-8-viruksen osallisuus, ja virus-IL-6 sekä ihmisen IL-6 ajavat HHV-8-liitännäistä tautia. Tämä antaa biologisesti uskottavan, mutta epäsuoran yhteyden siltuksimabiin. Ainoa julkaisu (PMID 39970477) on katsaus Castlemanin taudin etiologioista, ei siltuksimabitutkimus Kaposin sarkoomassa.
+- Muut ennusteet (maksainfarkti, maksan veno-okklusiivinen tauti, peliosis hepatis, familiaalinen Välimeren kuume, aggressiivinen systeeminen mastosytoosi, autosomaalisesti dominantti familiaalinen jaksoittainen kuume) perustuvat pelkästään malliin, eikä niille ole toimitettu tutkimus- tai kirjallisuusnäyttöä.
 
-## Kirjallisuuden näyttö
+---
 
-Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta.
+## Kliininen tutkimusnäyttö
+
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
+
+---
+
+## Kirjallisuusnäyttö
+
+Ensisijaisesta ennusteesta (ekstrakutaaninen mastosytooma) ei ole saatavilla kirjallisuutta. Ainoa koko ennustelistalla tunnistettu julkaisu liittyy Kaposin sarkoomaan:
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [39970477](https://pubmed.ncbi.nlm.nih.gov/39970477/) | 2024 | Katsaus | AIDS Reviews | Castlemanin taudin etiologiat: heterogeeninen harvinaisten lymfoproliferatiivisten sairauksien ryhmä; multisentrisen Castlemanin taudin neljää alatyyppiä ja virusinfektioiden roolia on tutkittu laajasti. Ei suoraa tietoa siltuksimabista Kaposin sarkoomassa. |
+
+---
 
 ## Suomen markkinatiedot
 
-Siltuximabilla ei ole Suomen markkinoille hyväksyntää rekisterissä — markkinatilanne on "ei markkinoilla" yhteensä 0 luvalla.
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/003708 | Sylvant (Recordati Netherlands B.V.) | – | Jättimäinen imusolmukehyperplasia (Castlemanin tauti) |
 
-## Turvallisuushuomiot
+Myyntilupa on tilassa "peruutettu", eikä voimassa olevia myyntilupia ole.
 
-Turvallisuustiedoista katso pakkausseloste.
+---
+
+## Turvallisuusnäkökohdat
+
+Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla tässä aineistossa, joten turvallisuustiedot tulee tarkistaa valmisteyhteenvedosta.
+
+**Lääkeyhteisvaikutukset:** Yhteisvaikutushaku on tehty, ja yhteensä 100 yhteisvaikutusta löytyi. Alla on esimerkkejä toimitetusta otoksesta (20 ensimmäistä):
+
+- **Merkittävä (Major):** deferipronі
+- **Kohtalainen (Moderate):** simvastatiini, apiksabaani, varfariini, rivaroksabaani, dikumaroli, lidokaiini, hydrokodoni, teofylliini, roflumilasti, aminofylliini, oksitrofylliini, takrolimuusi, fentanyyli, tetanustoksoidirokote, nifedipiini
+- **Vähäinen (Minor):** sinkkisulfaatti, sinkkiasetaatti, sinkkiglukonaatti, sinkkikloridi
+
+Huomionarvoista on, että IL-6:n esto voi palauttaa tiettyjen CYP450-entsyymien aktiivisuutta, mikä selittää todennäköisesti monia kohtalaisia yhteisvaikutuksia kapean terapeuttisen alueen lääkkeiden (esim. varfariini, takrolimuusi, teofylliini) kanssa.
+
+---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Odota**
+**Päätös: Hold (odota)**
 
-**Perustelu:**
-Tämä on L5-luokan, vain malliennusteeseen perustuva kandidaatti, jolla ei ole kliinisiä tutkimuksia, kirjallisuutta eikä osoitettua mekanistista yhteyttä ekstraküutaaniseen mastokaytoomaan. Lääke ei myöskään ole markkinoilla Suomessa, joten paikallista sääntelyperustelua tai turvallisuusperustaa ei ole olemassa.
+**Perustelut:**
+- Ennustetta tukee vain korkea TxGNN-pistemäärä (99,64 %). Kliinisiä tutkimuksia ja kirjallisuutta ei ole, joten näytön taso on L5. Lisäksi lääkkeen Suomen myyntilupa on peruutettu.
+- Kaposin sarkooma on ennustelistan ainoa kohde, jolla on epäsuora biologinen perustelu (HHV-8 ja IL-6), ja se voisi olla jatkoselvityksen tutkimuskysymys (L4).
 
-**Jatkamiseksi tarvitaan seuraavaa:**
-- TFDA:n/valmistajan pakkausseloste (varoitukset, vasta-aiheet) — tällä hetkellä estävä vaje, joka estää S1-turvallisuusarvioinnin
-- Vahvistettu vaikutusmekanismin tieto DrugBankin kautta — tällä hetkellä vakava vaje
-- Prekliiniset tai mekanistiset tutkimukset, jotka yhdistävät IL-6-estoa mastokaytoomapatologiaan
-- Mahdolliset todellisen maailman potilastapaukset tai exploratiiviset tutkimukset, mikäli ne ilmaantuvat, joiden avulla tämä kandidaatti voitaisiin siirtää pelkän malliennusteen ulkopuolelle
-
-*Huomio: Muista seitsemästä tämän näytöpaketin kandidaatista vain Kaposin sarkooma (ranking 5) saavutti L4/S1-tilan kirjallisuudella tuetulla mekanistisella perustelulla (KSHV-välitteinen IL-6-signalointi, yhdistetty siltuximabin vakiintuneeseen käyttöön KSHV-assosioituneissa Castlemanin taudissa) — tämä saattaa vaatia erillistä arviointia "tutkimuskysymys"-kandidaattina "Odota"-vaihtoehdon sijaan.*
-
+**Eteenpäin siirtyminen edellyttää:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivustolta (turvallisuusseulonnan estävä tietoaukko)
+- Vaikutusmekanismitietojen täydentämistä (esim. DrugBank)
+- Kirjallisuushakua IL-6:n eston ja syöttösolusairauksien yhteydestä sekä siltuksimabista HHV-8-liitännäisissä sairauksissa
+- Reittiyhteensopivuuden ja saatavuuden selvittämistä, koska voimassa olevaa myyntilupaa ei ole
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Loxapine
-parent: Vahva näyttö (L1-L2)
-nav_order: 236
-evidence_level: L2
+parent: Kohtalainen näyttö (L3-L4)
+nav_order: 272
+evidence_level: L3
 indication_count: 10
 ---
 
 # Loxapine
 {: .fs-9 }
 
-Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,88 +29,103 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Loksapiini: skitsofreniasta maanisen bipolaarisen affektiivisen häiriön hoitoon
+# Loksapiini: Skitsofreniasta ja kaksisuuntaisesta mielialahäiriöstä maaniseen kaksisuuntaiseen mielialahäiriöön
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Loksapiini on ensimmäisen sukupolven (tyypillinen) antipsykoottinen lääke, jota on historiallisesti käytetty skitsofreniaan; sitä ei tällä hetkellä markkinoida Suomessa eikä sille ole Fimean myyntilupaa. TxGNN-malli ennustaa, että se saattaa olla tehokas myös maanisen bipolaarisen affektiivisen häiriön hoitoon, ja tämä ei ole puhtaasti spekulatiivinen ennustus – loksapiiinin sisäänhengitettävä muoto (Adasuve) on jo hyväksytty Yhdysvalloissa ja EU:ssa bipolaarisen I-häiriön akuutin levottomuuden hoitoon. **20 julkaisua**, joista systemaattinen katsaus/meta-analyysi ja III-vaiheen satunnaistettujen kontrollittutkimusten raportit, tukevat tällä hetkellä tätä suuntaa, vaikka yhtään tutkimusta ei ole rekisteröity strukturoidussa kliinisten tutkimusten syötteessä.
+Loksapiini on ensimmäisen sukupolven antipsykootti, jota on alun perin käytetty skitsofrenian ja kaksisuuntaisen mielialahäiriön hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **maaniseen kaksisuuntaiseen mielialahäiriöön**.
+Tätä tukee **20 julkaisua** (pääosin katsauksia), mutta **ei yhtään rekisteröityä kliinistä tutkimusta** tässä aineistossa.
 
 ---
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|-------|---------|
-| Alkuperäinen indikaatio | Skitsofrenia (kirjallisuuden mukaan; Fimean myyntilupaa ei ole saatavilla – lääke ei ole markkinoilla) |
-| Ennustettu uusi indikaatio | Maaninen bipolaarinen affektiivinen häiriö |
-| TxGNN-ennusteen pistemäärä | 99.99% |
-| Näytön taso | L2 |
-| Markkinatilanne Suomessa | Ei markkinoilla |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Jatka varauksilla |
+|------|------|
+| Alkuperäinen käyttöaihe | Skitsofrenia; kaksisuuntainen mielialahäiriö |
+| Ennustettu uusi käyttöaihe | Maaninen kaksisuuntainen mielialahäiriö |
+| TxGNN-ennustepistemäärä | 99,99 % |
+| Näytön taso | L3 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 |
+| Suositeltu päätös | Etene suojatoimin (Proceed with Guardrails) |
 
 ---
 
-## Miksi tämä ennustus on perusteltu?
+## Miksi ennuste on perusteltu?
 
-Tällä hetkellä DrugBankista ei ole saatavilla yksityiskohtaisia vaikutusmekanismin tietoja tälle kandidaatille. Tunnetun farmakologian perusteella loksapiini on dibentsoksatsepiiniksiluokkaan kuuluva ensimmäisen sukupolven antipsykoottinen lääke, joka vaikuttaa pääasiassa D2-dopamiini- ja 5-HT2A-serotoniinireseptorin antagonismin kautta ja jolla on lisäksi rauhoittava (antihistamiininen) vaikutus. Sen tehokkuus skitsofreniassa, erityisesti psykoottisiin ja levottomuusoireisiin, on vakiintunut vuosikymmenten kliinisen käytön kautta.
+Loksapiini on dibentsoksatsepiiniluokan antipsykootti, jonka vaikutus perustuu dopamiini D2- ja serotoniini 5-HT2A -reseptorien salpaukseen. Tämä mekanismi sopii yhteen maniaa ja agitaatiota lievittävän vaikutuksen kanssa. Aineistossa ei ole erillistä mekanismikuvausta, joten tämä perustuu lääkeluokan tunnettuun farmakologiaan.
 
-Bipolaarisen häiriön maaniset vaiheet ja skitsofreniassa esiintyvät akuutit psykootiset pahenemistilanteet jakavat merkittävän oirekuvan ja neurochemillisen päällekkäisyyden – molemmat esitetään usein levottomuutena, yliaktivoitumisena ja heikentyneen realiteetin arvioinnin kanssa, jotka reagoivat D2/5-HT2A-salpaukseen. Tämä ei ole puhtaasti mekanistinen ekstrapolointi: loksapiiinin sisäänhengitettävä jauhemuoto (Adasuve®, käyttäen Staccato®-toimitusjärjestelmää) on jo hyväksytty Yhdysvalloissa ja Euroopan unionissa erityisesti skitsofreniaan ja bipolaariseen I-häiriöön liittyvän akuutin levottomuuden hoitoon, ja se saavuttaa huippuplasmakonsentraatiot minuuteissa. Kaksi III-vaiheen satunnaistettua, kaksoissokkoutettua, lumelääkeillä kontrolloitua tutkimusta (rekisteröity koodeilla NCT00628589 ja NCT00721955, viitattu alla olevassa kirjallisuustodisteessa) rekrytoivat erityisesti levottomia bipolaarisen I-häiriön potilaita, ja ne osoittivat tehokkuuden käyttäen PANSS-Excited Component -asteikkoa.
+Alkuperäinen käyttöaihe sisältää jo kaksisuuntaisen mielialahäiriön, joten kyse on pikemminkin käyttöaiheen läheisestä laajentamisesta kuin aidosta uudelleenkäytöstä. Kirjallisuus käsittelee pääosin inhaloitavaa loksapiinia (Adasuve) skitsofrenian ja kaksisuuntaisen mielialahäiriön yhteydessä esiintyvän **akuutin agitaation** hoidossa. Se ei ole sama asia kuin itse maanisen oireyhtymän hoito.
 
-Ottaen huomioon olemassa olevan sääntelyllisen ennakkotapauksen levottomuus/mania-indikaatiolle bipolaarisessa häiriössä, TxGNN-ennuste on hyvin tuettu tosielämän kliinisen kehityksen avulla, ei validoimaton mallin artefakti.
-
----
-
-## Kliinisen tutkimuksen todisteet
-
-Tällä hetkellä yhtään asiaan liittyvää kliinistä tutkimusta ei ole rekisteröity strukturoidussa tutkimusten syötteessä. (Huomaa: alla oleva kirjallisuustodiste viittaa kahteen III-vaiheen satunnaistettuun kontrollittutkimukseen — NCT00628589 ja NCT00721955 — ja PLACID-tutkimukseen, mutta näitä ei palautettu strukturoidussa ClinicalTrials.gov/ICTRP-kyselyssä tälle kandidaatille.)
+Muut yhdeksän ennustetta (mm. verkkokalvon rappeumat, likinäköisyyden muodot, hydranenkefalia, Charcot-Marie-Tooth -tauti) perustuvat pelkkään mallilaskentaan. Niille ei ole tutkimus- tai kirjallisuusnäyttöä eikä uskottavaa mekanismia, joten ne jätettiin tämän raportin ulkopuolelle ja ne ovat tilassa "Hold".
 
 ---
 
-## Kirjallisuustodisteet
+## Kliinisen tutkimuksen näyttö
 
-| PMID | Vuosi | Tyyppi | Lehti | Pääasiallisia löydöksiä |
-|------|-------|--------|-------|----------------------|
-| [27151529](https://pubmed.ncbi.nlm.nih.gov/27151529/) | 2016 | Systemaattinen katsaus ja meta-analyysi | Human Psychopharmacology | Systemaattinen katsaus lyhytaikaisista farmakologisista interventioista skitsofreniaan tai bipolaariseen häiriöön liittyvän levottomuuden hoitoon. |
-| [29724638](https://pubmed.ncbi.nlm.nih.gov/29724638/) | 2018 | Satunnaistettu kontrolloitu tutkimus | European Neuropsychopharmacology | PLACID-tutkimus: arvioija-sokeutettu, rinnakkaisen ryhmän satunnaistettu kontrolloitu tutkimus (23 keskusta, 4 maata) vertailemassa sisäänhengitettävää loksapiiinia vs IM-aripipratsolia akuutin levottomien skitsofrenia/bipolaarisen I-potilaiden kanssa. |
-| [29163985](https://pubmed.ncbi.nlm.nih.gov/29163985/) | 2017 | Satunnaistettu kontrolloitu tutkimus (post-hoc analyysi) | BJPsych Open | PANSS-EC-vastaajien analyysi kahdesta III-vaiheen satunnaistutkimuksesta (NCT00628589, NCT00721955) 344 skitsofrenia- ja 314 bipolaarisen I-potilaan levottomuuksien kanssa. |
-| [28376877](https://pubmed.ncbi.nlm.nih.gov/28376877/) | 2017 | Satunnaistettu kontrolloitu tutkimus (tutkimuskuvaus) | BMC Psychiatry | PLACID-satunnaistutkimuksen perustelut ja suunnittelu vertailemassa sisäänhengitettävää loksapiiinia vs IM-aripipratsolia akuutin levottomuuden hoitoon skitsofrenia/bipolaarisessa häiriössä. |
-| [22226343](https://pubmed.ncbi.nlm.nih.gov/22226343/) | 2012 | Katsaus (satunnaistutkimusten vaikutusten suuruus) | International Journal of Clinical Practice | Kahden III-vaiheen sisäänhengitettävän loksapiiinin satunnaistutkimuksen vaikutusten suuruuden analyysi skitsofrenia/bipolaarisessa levottomuudessa. |
-| [23740380](https://pubmed.ncbi.nlm.nih.gov/23740380/) | 2013 | Katsaus | CNS Drugs | Katsaus sisäänhengitettävän loksapiiinin jauhemuodon (Adasuve) hyväksyntään ja käyttöön akuutin levottomuuden hoitoon bipolaarisessa häiriössä/skitsofreniassa. |
-| [30721526](https://pubmed.ncbi.nlm.nih.gov/30721526/) | 2019 | Asiantuntija-arvio/kommentaari | Drugs in R&D | Asiantuntija-arvio sisäänhengitettävästä loksapiiinista akuutin levottomuuden hallinnasta bipolaarisessa häiriössä ja skitsofreniassa. |
-| [31496709](https://pubmed.ncbi.nlm.nih.gov/31496709/) | 2019 | Katsaus | Neuropsychiatric Disease and Treatment | Sisäänhengitettävän loksapiiinin turvallisuus, tehokkuus ja potilaan hyväksyntä akuutin levottomuuden hoitoon skitsofrenia/bipolaarisessa I-häiriössä. |
-| [28208695](https://pubmed.ncbi.nlm.nih.gov/28208695/) | 2017 | Kliininen katsaus | International Journal of Molecular Sciences | Kliininen katsaus sisäänhengitettävän loksapiiinin roolista akuutin levottomuuden hoitoon psykiatrisissa häiriöissä. |
-| [27121764](https://pubmed.ncbi.nlm.nih.gov/27121764/) | 2016 | Katsaus (lääkkeen profiili) | Current Medical Research and Opinion | Katsaus sisäänhengitettävästä loksapiiinista akuutin levottomuuden kiireelliseen hoitoon skitsofrenia/bipolaarisessa häiriössä. |
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
 ---
 
-## Markkinatilanne Suomessa
+## Kirjallisuusnäyttö
 
-Loksapiiinia ei tällä hetkellä markkinoida Suomessa – Fimean myyntilupia ei ole saatavilla (0 lupaa).
+| PMID | Vuosi | Tyyppi | Julkaisu | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [27151529](https://pubmed.ncbi.nlm.nih.gov/27151529/) | 2016 | Systemaattinen katsaus ja meta-analyysi | Hum Psychopharmacol | Akuutin agitaation lääkehoidot skitsofreniassa ja kaksisuuntaisessa mielialahäiriössä |
+| [31496709](https://pubmed.ncbi.nlm.nih.gov/31496709/) | 2019 | Katsaus | Neuropsychiatr Dis Treat | Inhaloidun loksapiinin turvallisuus, teho ja potilaiden hyväksyntä agitaatiossa |
+| [23740380](https://pubmed.ncbi.nlm.nih.gov/23740380/) | 2013 | Katsaus | CNS Drugs | Inhalaatiojauheen käyttö akuutissa agitaatiossa; kaksi satunnaistettua, kaksoissokkoutettua, lumekontrolloitua tutkimusta |
+| [22226343](https://pubmed.ncbi.nlm.nih.gov/22226343/) | 2012 | Katsaus | Int J Clin Pract | Kahden vaiheen 3 satunnaistetun tutkimuksen vaikutuskoot |
+| [33460070](https://pubmed.ncbi.nlm.nih.gov/33460070/) | 2020 | Katsaus | Acta Psychiatr Scand | Maanisen jakson hoidon näyttöön perustuvat vaihtoehdot |
+| [37581475](https://pubmed.ncbi.nlm.nih.gov/37581475/) | 2023 | Katsaus | Expert Opin Pharmacother | Kaksisuuntaiseen mielialahäiriöön liittyvän agitaation lääkehoidon parantaminen |
+| [38301034](https://pubmed.ncbi.nlm.nih.gov/38301034/) | 2024 | Katsaus | Prim Care Companion CNS Disord | Vaihtoehtoiset lähestymistavat akuuttiin agitaatioon |
+| [35913401](https://pubmed.ncbi.nlm.nih.gov/35913401/) | 2022 | Katsaus | Expert Rev Neurother | Viidenkymmenen vuoden kokemus loksapiinista akuuttien käytöshäiriöiden rauhoittamisessa |
+| [28208695](https://pubmed.ncbi.nlm.nih.gov/28208695/) | 2017 | Katsaus | Int J Mol Sci | Inhaloidun loksapiinin rooli akuutissa agitaatiossa |
+| [15568205](https://pubmed.ncbi.nlm.nih.gov/15568205/) | 2005 | Katsaus | Hum Psychopharmacol | Akuutin manian hoito kliinisistä tutkimuksista käytännön suosituksiin |
+
+Julkaisut ovat pääosin katsauksia ja asiantuntijakommentteja. Satunnaistettuja tutkimuksia on viitattu vain katsausten kautta.
 
 ---
 
-## Turvallisuushuomioon otettavat asiat
+## Suomen markkinatiedot
 
-Katso pakkaustiedote turvallisuustiedoista. (Tälle kandidaatille ei palautettu jäsenneltyjä varoituksia, vasta-aiheita tai lääkkeiden yhteisvaikutustietoja; Fimean pakkaustiedotteen tarkistus vaaditaan ennen kuin mitään S1-turvallisuusarviointia voidaan jatkaa – katso Data Gap DG001.)
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/002400 | Adasuve | – | Skitsofrenia; kaksisuuntainen mielialahäiriö |
+
+Tämä myyntilupa on peruutettu.
+
+---
+
+## Turvallisuushuomiot
+
+Pakkausselosteen varoitus- ja vasta-aihetietoja ei ollut käytettävissä. Lue turvallisuustiedot valmisteyhteenvedosta.
+
+- **Vasta-aiheet ja riskit tietämysgraafin mukaan** (ei myyntiluvan tekstistä): epilepsia, hyvänlaatuinen eturauhasen liikakasvu, päihderiippuvuus, rintasyöpä, sydän- ja verisuonisairaudet, glaukooma, pahanlaatuinen neuroleptioireyhtymä, Alzheimerin tauti, tardiivi dyskinesia, kasvojen ja suun alueen dyskinesia sekä hyperprolaktinemia (myös familiaalinen, hankinnainen ja prolaktiinia tuottava aivolisäkekasvain).
+- **Lääkeyhteisvaikutukset**: tietokannasta löytyi 100 yhteisvaikutusta. Merkittäviä (Major) ovat:
+  - bupropioni
+  - morfiini
+  - kaliumsitraatti
+
+  Kohtalaisia (Moderate) ovat mm. epinefriini, antikolinergit (atropiini, hyoskyamiini, glykopyrronium, disyklomiini, trospium), loperamidi, lorkaseriini, dronabinoli, nabiloni ja eluksadoliini sekä suolenpuhdistusvalmisteet (pikosulfaatti, natriumsulfaatti, polyetyleeniglykoli).
 
 ---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Jatka varauksilla**
+**Päätös: Etene suojatoimin (Proceed with Guardrails)**
 
 **Perustelut:**
-Loksapiiinin soveltuvuus bipolaarisen häiriön akuutin levottomuuden hoitoon on vahvistettu olemassa olevan hyväksytyn indikaation (sisäänhengitettävä loksapiini/Adasuve, USA/EU) ja kahden III-vaiheen satunnaistutkimuksen sekä systemaattisen katsauksen avulla – tämä on merkittävästi vahvempi kuin puhdas mallin ennustus (L2). Kuitenkin Suomen lupaa, pakkaustiedotteen turvallisuustietoja tai DrugBank MOA -rekisteröintiä ei tällä hetkellä ole, joten kandidaatti ei voi vielä ylittää muodollista S1-turvallisuusporttia.
+- Mekanismi sopii manian ja agitaation hoitoon, ja kaksisuuntainen mielialahäiriö kuuluu jo alkuperäisiin käyttöaiheisiin. Näyttö koskee kuitenkin pääosin akuuttia agitaatiota inhaloitavalla valmisteella, ei maanisen oireyhtymän hoitoa sinänsä, eikä aineistossa ole rekisteröityjä kliinisiä tutkimuksia. Näytön taso on siksi L3.
+- Ainoa myyntilupa on peruutettu, joten valmisteen saatavuus on epävarma.
 
-**Jatkamiseksi tarvitaan seuraavaa:**
-- Fimean/TFDA:n pakkaustiedote (varoitukset, vasta-aiheet) – tällä hetkellä esto-tietokuilua (DG001)
-- DrugBank-vahvistettu vaikutusmekanismi – tällä hetkellä korkean vakavuuden tietokuilua (DG002)
-- Antoreitin yhteensopivuuden vahvistaminen (suun kautta vs. sisäänhengitettävä loksapiini) satunnaistutkimusten todistuspohjaa vastaan, koska vahvimmat tukevat tutkimukset käyttivät sisäänhengitettävää Adasuve-muotoa
-- Lääkkeiden yhteisvaikutustieto (nykyinen DDI-kysely ei palauttanut tuloksia)
-
-**Huomautus muista ennustetuista indikaatioista:** Yhdeksän muuta TxGNN-ennustettua indikaatiota (sijoitukset 2–10, esim. verkkokalvon dystrofia, hydranensefalia, X-linkitetty myopia-variantit, Charcot-Marie-Tooth tyypin 1G) seulottiin myös. Kaikille annettiin arvio L5 / Pidä – ei kliinisiä tutkimuksia, ei relevanttia kirjallisuutta ja ei uskottavaa mekanistista yhteyttä loksapiiinin D2/5-HT2A-farmakologiaan. Nämä näyttävät olevan TxGNN-linkiennustamisen hälyä pikemminkin kuin aito uudelleenkäyttösignaaleja ja niitä ei suositella jatkotutkimukseen.
-
+**Etenemiseksi tarvitaan:**
+- Valmisteyhteenvedon varoitus- ja vasta-aihetietojen hankinta (Fimean verkkosivut), koska turvallisuusseulonta ei muuten voi edetä
+- Mekanismitietojen täydentäminen DrugBankista
+- Inhaloitavan loksapiinin keskeisten vaiheen 3 tutkimusten hankinta ja arviointi, koska niitä ei ollut käytettävissä
+- Saatavuuden selvitys Suomessa (peruutettu myyntilupa, mahdolliset muut valmisteet tai erityislupamenettely)
+- Turvallisuusseurantasuunnitelma erityisesti sydän- ja verisuonisairauksille, kouristusalttiudelle, muistisairauksille sekä antikolinergien ja keskushermostoa lamaavien lääkkeiden yhteiskäytölle
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

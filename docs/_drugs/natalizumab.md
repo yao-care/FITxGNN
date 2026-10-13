@@ -2,7 +2,7 @@
 layout: default
 title: Natalizumab
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 256
+nav_order: 297
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,61 +29,85 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Natalizumab: Multippelskeloosista keuhkoputkentulehdukseen
+# Natalitsumabi: Multippeliskleroosista keuhkoputkentulehdukseen
 
 ## Yhden lauseen yhteenveto
 
-Natalizumab on humanisoidtu monoklonaalinen vasta-aine, jota käytetään relapsoiva-remittentti multippelskleroosiin (RRMS) hoitoon estämällä α4-integriinivälitteistä valkosolun siirtymistä. TxGNN-malli ennustaa sen saattavan olla tehokas **keuhkoputkentulehduksessa**, mutta tämä ennuste ei tällä hetkellä ole tuettu kliinisillä tutkimuksilla eikä kirjallisuudella — se on vain mallin signaali, joka on ristiriidassa lääkkeen tunnetun immunosuppressiivisen riskiprofiilin kanssa.
+Natalitsumabi on monoklonaalinen vasta-aine, jota on alun perin käytetty aaltoilevaoireisen multippeliskleroosin (MS-taudin) hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **keuhkoputkentulehdukseen**, mutta ennusteen tueksi ei ole **yhtään kliinistä tutkimusta eikä julkaisua**.
+Ennuste perustuu pelkästään mallilaskentaan, ja sitä on pidettävä todennäköisenä tietoverkon artefaktina.
 
-## Nopea yleiskatsaus
+---
+
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|-------|---------|
-| Alkuperäinen käyttöaihe | Multippelskleroosi (relapsoiva-remittentti) — päätelmä kirjallisuuskontekstista; ei ole läsnä Suomen markkinatiedoissa |
-| Ennustettu uusi käyttöaihe | Keuhkoputkentulehdus |
-| TxGNN-ennusteen pistemäärä | 99.46% |
-| Näyttöastee | L5 |
-| Suomen markkinatieto | ✗ Ei markkinoilla |
-| Lupien lukumäärä | 0 |
-| Suositeltu päätös | Odota |
+|------|------|
+| Alkuperäinen käyttöaihe | Aaltoileva multippeliskleroosi (relapsoiva-remittoiva MS) ja multippeliskleroosi |
+| Ennustettu uusi käyttöaihe | Keuhkoputkentulehdus (bronchitis) |
+| TxGNN-ennusteen pistemäärä | 99,46 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 2 (molemmat peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennuste on järkevä?
+---
 
-Tällä hetkellä yksityiskohtaista vaikutusmekanismia koskevaa tietoa ei ole saatavilla (DrugBank-haku palautti Data Gap -ilmoituksen). Todistusjoukon kirjallisuuskontekstista saatavilla olevien tietojen perusteella natalizumab on monoklonaalinen vasta-aine, joka kohdistuu α4-integriiniin ja jota käytetään relapsoiva-remittentti multippelskleroosiin; sen tehokkuus MS:ssä on hyvin vakiintunut siteeratussa kirjallisuudessa, joka toistuvasti viittaa sen käyttöön RRMS-potilaiden kohorteissa.
+## Miksi ennuste voisi olla perusteltu?
 
-Keuhkoputkentulehdusta koskevan ennusteen osalta pisteytyksen yhteydessä annettu mekanistinen perustelu on selvästi skeptinen: α4-integriinisalpaaja voisi teoriassa vähentää valkosolun tunkeutumista ilmateiden limakalvoille, mutta keuhkoputkentulehdus on pääosin infektioperäinen tai ärsytyksestä johtuva. Natalizumabin määrittävä turvallisuushuoli on *lisääntynyt* infektioriskiä (erityisesti progressiivinen multifokaalinen leukoenkefalopatiia, PML, JC virus reaktivaation seurauksena) — suunta, joka on vastakkainen siihen, mitä tarvittaisiin infektioperäisen hengitystieinfektiota turvallisesti hoidettaessa. Mikään tässä todistusjoukon kliininen tutkimus tai julkaisu ei yhdistä natalizumabaa keuhkoputkentulehdukseen kumpaankaan suuntaan.
+Natalitsumabi salpaa alfa4-integriinin välittämää valkosolujen kulkeutumista tulehduskohtiin. MS-taudissa tämä estää tulehdussolujen pääsyn keskushermostoon. Teoriassa sama mekanismi voisi vaikuttaa myös hengitysteiden tulehdukseen.
 
-Lisäyhteydessä: tämän lääkkeen muista ennustetuista käyttöaiheista korkein todistusteho omaava kandidaatti (psoriasis, L4, 19 julkaisua) osoittaa *vastakkaisen* suhteen — useat tapausraportit ja kohorttitutkimus dokumentoivat natalizumabia **indusoivan tai pahentavan** psoriasia (paradoksaalinen reaktio), ei sen hoitamisen. Tämä kuvio vahvistaa, että korkea TxGNN-pistemäärä yksinään ei tulisi tulkita hoitosignaaliksi ilman suuntaa-antavaa kirjallisuustuella.
+Yksityiskohtaista vaikutusmekanismitietoa ei kuitenkaan ole tämän raportin aineistossa saatavilla. Keuhkoputkentulehdus on useimmiten infektioperäinen tai itsestään paraneva, ja systeeminen immuunivaste-estävä hoito lisäisi infektioriskiä. Ennuste on siksi todennäköisesti verkkopohjainen artefakti eikä aidosti hoidollinen löydös.
+
+---
 
 ## Kliininen tutkimusnäyttö
 
-Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia
+Ei tällä hetkellä rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
+
+---
 
 ## Kirjallisuusnäyttö
 
-Tällä hetkellä asiaan liittyvää kirjallisuutta ei ole saatavilla
+Ei tällä hetkellä aiheeseen liittyvää kirjallisuutta.
 
-## Suomen markkinatieto
+---
 
-Natalizumabaa ei tällä hetkellä markkinoida Suomessa (markkinatila: Ei markkinoilla, 0 lupaa kirjatuissa tiedoissa). Tälle ehdokkaalle ei ole saatavilla tuotteen lupa-aineistoja.
+## Tietoa Suomen markkinoista
 
-## Turvallisuushuomiot
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/005752 | Tyruko (Sandoz GmbH), peruutettu | – | Aaltoileva multippeliskleroosi; multippeliskleroosi |
+| EMEA/H/C/000603 | Tysabri (Biogen Netherlands B.V.), peruutettu | – | Multippeliskleroosi |
 
-Turvallisuustietoja varten, ks. pakkausseloste. (TFDA/pakkausselosteen varoitukset, vasta-aiheet ja lääkkeiden väliset yhteisvaikutustiedot ovat kaikki odottamassa — ks. Data Gap DG001, Blocking severity.)
+---
+
+## Turvallisuushuomioita
+
+- **Tietoverkon vasta-aiheet:** Tietämysverkon (PrimeKG) mukaan natalitsumabiin liittyy vasta-aihemerkintä **progressiiviselle multifokaaliselle leukoenkefalopatialle (PML)**. Tämä ei perustu valmisteyhteenvedon tekstiin.
+- **Lääkeyhteisvaikutukset:** Yhteisvaikutuksia löytyi yhteensä 100. Merkittäviä (Major) ovat mm.:
+  - kortikosteroidit: hydrokortisoni, triamsinoloni, deksametasoni, betametasoni, budesonidi, prednisoloni ja prednisoni
+  - radiofarmaseuttiset ja vasta-ainevalmisteet: jobenguaani (I-131), ibritumomabitiuksetaani, tositumomabi (myös I-131)
+  - muut: levamisoli, trimetreksaatti, merkaptopuriini
+  - Kohtalainen (Moderate): naltreksoni
+  - Vähäisiä (Minor): sinkkiyhdisteet (sulfaatti, asetaatti, glukonaatti, kloridi)
+
+Muiden ennustettujen käyttöaiheiden kirjallisuus (psoriaasi, parapsoriaasi, akuutti lichenoidi pityriaasi) viittaa lisäksi siihen, että natalitsumabi voi aiheuttaa tai pahentaa ihomuutoksia. Psoriaasista on raportoitu sekä paranemista (PMID 33589543) että natalitsumabin aiheuttamia tai pahentamia tapauksia.
+
+---
 
 ## Johtopäätös ja seuraavat askeleet
 
-**Päätös: Odota**
+**Päätös: Hold (odota)**
 
 **Perustelu:**
-Keuhkoputkentulehdusta koskevalla ennusteella ei ole kliinistä tutkimusnäyttöä eikä kirjallisuustuella (L5, vain mallin ennuste), ja ehdotettu mekanismi on ristiriidassa natalizumabin tunnetun immunosuppressiivisen/infektioriskin profiilin kanssa (mukaan lukien PML), mikä tekee siitä biologisesti epätodennäköisen nykyisen näytön perusteella.
+- Korkeasta TxGNN-pistemäärästä (0,995) huolimatta ennusteelle ei ole kliinistä eikä kirjallista tukea (taso L5). Lääkkeen PML-riski ja infektioalttiuden lisääntyminen tekevät riski-hyötysuhteesta epäedullisen keuhkoputkentulehduksessa. Lisäksi Suomessa kaikki myyntiluvat on peruutettu.
 
-**Jatkaakseen tarvitaan seuraavaa:**
-- TFDA/Suomen pakkausseloste-tiedot (turvallisuusvaroitukset, vasta-aiheet) — DG001, tällä hetkellä estää S1 turvallisuustarkistusta
-- Varmistettu vaikutusmekanismi DrugBankista — DG002
-- Esikliininen tai in vitro -näyttö, joka yhdistää α4-integriinisalpauksen keuhkoputkentulehduksen patofysiologiaan, koska sitä ei tällä hetkellä ole
-- Jos tämän saman lääkkeen muita ehdokkaita jatketaan, aseta psoriasis (L4, 19 julkaisua) tarkistuksen etusijalle — huomaa kuitenkin, että nykyinen kirjallisuus viittaa siellä pikemminkin negatiiviseen (sairauden aiheuttavaan) suhteeseen kuin terapeuttiseen suhteeseen, joten se vaatisi myös huolellista uudelleenmuotoilua ennen eteenpäinmenemistä
-
+**Eteneminen edellyttäisi seuraavaa:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankinta ja läpikäynti Fimeasta (estää tällä hetkellä turvallisuusseulonnan)
+- Vaikutusmekanismitietojen täydentäminen (esim. DrugBankista)
+- Prekliinisen tai kliinisen näytön löytäminen keuhkoputkentulehduksesta
+- Arvio siitä, onko tarkasteltavaksi järkevämpää valita jokin muu ennustettu käyttöaihe, jolle löytyy kirjallisuutta
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

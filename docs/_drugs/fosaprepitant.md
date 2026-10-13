@@ -2,7 +2,7 @@
 layout: default
 title: Fosaprepitant
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 168
+nav_order: 194
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,61 +29,93 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Fosaprepitant: Kemoterapiaan liittyvän pahoinvoinnin ja oksentamisen hoidosta Neprogeneettiseen sopimattoman antidiureettisen hormonin oireyhtymään
+# Fosaprepitantti: Oksentelun ja syövän hoidosta nefrogeeniseen antidiureesisyndroomaan (NSIAD)
 
 ## Yhden lauseen yhteenveto
 
-Fosaprepitant on aprepitanin intravenöösä farmakko, NK1 (Substance P) -reseptoriantagonisti, joka on vakiintunut käytettäväksi kemoterapiaan liittyvän pahoinvoinnin ja oksentamisen (CINV) ehkäisyyn. TxGNN-malli ennustaa, että se voisi olla tehokas **Neprogeneettiseen sopimattoman antidiureettisen hormonin oireyhtymään (NSIAD)**, mutta tämä ennustus ei tällä hetkellä ole tuettu **millään kliinisillä tutkimuksilla eikä kirjallisuudella** — se on puhtaasti mallin pistemäärien ennustus, ja todistuspaketin oma mekanistinen arviointi merkitsee biologisen yhteyden olevan heikko.
+Fosaprepitantti on aprepitantin esilääke ja NK1-reseptorin salpaaja, jota on alun perin käytetty oksentelun (syöpähoitoihin liittyvä pahoinvointi) ehkäisyyn. TxGNN-malli ennustaa sen mahdollisesti tehoavan ensisijaisesti **nefrogeeniseen antidiureesisyndroomaan (NSIAD)**, mutta ennustetta tukevat vain mallin laskennalliset tulokset: **0 kliinistä tutkimusta** ja **0 julkaisua** tälle indikaatiolle.
 
-## Nopea yleiskatsaus
+---
 
-| Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Kemoterapiaan liittyvän pahoinvoinnin ja oksentamisen (CINV) ehkäisy (päätelty tukevasta tutkimus-/kirjallisuuskontekstista; ei ole strukturoidussa `original_indications`-kentässä) |
-| Ennustettu uusi indikaatio | Neprogeneettisen sopimattoman antidiureettisen hormonin oireyhtymä (NSIAD) |
-| TxGNN-ennusteen pistemäärä | 99.92% |
-| Näyttötaso | L5 |
-| Suomen markkinatilanne | Ei markkinoilla |
-| Lupien lukumäärä | 0 |
-| Suositeltu päätös | Pidä varauksella |
+## Pikakatsaus
 
-## Miksi tämä ennustus on järkevä?
+| Kohde | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | Oksentelu; syöpä |
+| Ennustettu uusi käyttöaihe | Nefrogeeninen antidiureesisyndrooma (NSIAD) |
+| TxGNN-ennustepistemäärä | 99,92 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-Yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla DrugBankissa tälle merkinnälle (merkitty korkeaksi tietojen puutokseksi). Todistuspaketin muualla olevien tietojen perusteella fosaprepitant on aprepitanin fosforyloitu farmakko, ja sen vakiintunut farmakologia on NK1-reseptoriantagonismi (Substance P), jota käytetään kliinisesti antiemeettinä yhdessä 5-HT3-antagonistien ja deksametasonin kanssa CINV-ehkäisyyn.
+---
 
-NSIAD on erillinen kliininen kokonaisuus, jonka aiheuttavat AVPR2-reseptorin (vasopressiini V2) toimintaa lisäävät mutaatiot, jotka tuottavat nestepidätys/hyponatremia-fenotyypin vasopressiinitasoista riippumatta. NK1/Substance P -signaloinnin ja NSIAD:ta ohjaavan AVPR2-polun välillä ei ole vakiintunutta farmakologista yhteyttä.
+## Miksi ennuste on (tai ei ole) perusteltu?
 
-Näin ollen mallin oma lääkkeen uudelleenkäyttöä koskevassa perustelussa mekanistinen yhteys luonnehtitaan selvästi heikoksi ("與AVPR2功能增益型突變...無已知交互作用，機轉關聯薄弱"), ja siinä suositellaan tämän ehdokkaan sulkemista pois prioriteettitutkimusjonosta. 99.92 %:n TxGNN-pistemäärää olisi luettava vain graafisen embedding-samankaltaisuussignaalina, ei biologisena uskottavuutena — sitä ei tue mikään tutkimus tai julkaisu.
+Yksityiskohtaista vaikutusmekanismitietoa (MOA) ei ole tällä hetkellä saatavilla. Tunnetun tiedon perusteella fosaprepitantti on aprepitantin esilääke, ja se salpaa NK1-reseptoria (substanssi P:n reseptori). Sen teho oksentelun ehkäisyssä on osoitettu.
 
-## Kliinisen tutkimuksen todisteet
+NSIAD johtuu vasopressiinin V2-reseptorin (AVPR2) toimintaa lisäävistä muutoksista. Substanssi P/NK1-signalointi ei tunnetusti osallistu tähän reaktioketjuun, joten mekanistista yhteyttä alkuperäiseen käyttöaiheeseen ei voida osoittaa. Korkea pistemäärä on pelkästään graafipohjainen ennuste, eikä sitä tue kliininen tai kirjallisuusnäyttö.
 
-Tällä hetkellä ei ole rekisteröity yhtään siihen liittyvää kliinistä tutkimusta.
+Muut korkeimmin pisteytetyt ennusteet (pneumokystoosi, lepra, kryptokokkimeningiitti, multippeli endokriininen neoplasia, aivojen sisäinen paise, malaria, echinokokkoosi, hyperargininemia) ovat samoin ilman tukevaa näyttöä ja ilman uskottavaa mekanismia. Ainoa poikkeus on **retiniitti** (sijalla 7, pistemäärä 99,68 %), jossa on yksi prekliininen julkaisu (ks. alla). Sen näyttötaso on L4 ja luokitus "tutkimuskysymys".
 
-## Kirjallisuuden todisteet
+---
 
-Tällä hetkellä ei ole saatavilla yhtään siihen liittyvää kirjallisuutta.
+## Kliiniset tutkimukset
 
-## Suomen markkinatiedot
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia (ei NSIAD:lle eikä muille kymmenelle ennustetulle käyttöaiheelle).
 
-Fosaprepitant-lääkettä ei tällä hetkellä markkinoida Suomessa (markkinatilanne: Ei markkinoilla; rekisteröityjen lupien kokonaismäärä: 0). Tuotteiden tason lisensointi- ja lupadata ei ole saatavilla yhteenvetoon.
+---
+
+## Kirjallisuusnäyttö
+
+NSIAD:lle ei ole saatavilla aiheeseen liittyvää kirjallisuutta. Ainoa löydetty julkaisu koskee sijalla 7 olevaa retiniittiä:
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [32058829](https://pubmed.ncbi.nlm.nih.gov/32058829/) | 2021 | Prekliininen (hiirimalli) | Ocular Immunology and Inflammation | UVR-B-säteilyn aiheuttama NK1-reseptorin ilmentyminen silmäkudoksissa estyi fosaprepitantilla sekä altistetussa että altistamattomassa silmässä. Näyttö on epäsuoraa: tutkimus koskee UV-vauriota, ei retiniittiä, eikä ihmistutkimuksia ole. |
+
+---
+
+## Myyntilupatiedot Suomessa
+
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000743 | Ivemend | – | Oksentelu; syöpä (tila: peruutettu) |
+
+---
+
+## Sytotoksisuus
+
+Fosaprepitantti on syöpähoitoihin liittyvän pahoinvoinnin ehkäisyyn käytettävä tukihoito eikä sytotoksinen syöpälääke, joten tätä osiota ei sovelleta.
+
+---
 
 ## Turvallisuusnäkökohdat
 
-Katso turvallisuustietoja pakkausselosteesta.
+- **Tietämysgraafin mukaiset vasta-aiheet:** maksan vajaatoiminta (peräisin TxGNN-tietämysgraafista, ei valmisteyhteenvedosta).
+- **Lääkeyhteisvaikutukset:** tarkistettuja yhteisvaikutuksia on yhteensä 100. Merkittäviä (Major) ovat:
+  - eliglustaatti
+  - naloksegoli
+
+  Kohtalaisia (Moderate) ovat mm. deksametasoni, hydrokortisoni, betametasoni, budesonidi, triamsinoloni, klaritromysiini, simetidiini, mikonatsoli, pioglitatsoni, glimepiridi, nateglinidi, saksagliptiini, lansopratsoli, rabepratsoli, alosetroni, dronabinoli ja naldemedini.
+
+Muilta osin tarkista turvallisuustiedot valmisteyhteenvedosta.
+
+---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Pidä varauksella**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Parhaiten sijoitetulla ennustuksella (NSIAD) ei ole tukevia kliinisiä tutkimuksia tai kirjallisuutta, ja sen oma mekanistinen perustelunsa kuvaa biologisen yhteyden heikoksi, joten se ei täytä kynnystä edetä mallin seulonnan ohitse (S0). Tätä pahentaa kriittisen vakavuuden tietojen puutos (Fimea/TFDA-vastaava pakkausseloste ei ole vielä haettu), mikä estää jopa alustavaa turvallisuusarviointia.
+- Ennuste on pelkkä graafipohjainen laskennallinen tulos (L5). Kliinisiä tutkimuksia ja kirjallisuutta ei ole, eikä NK1-salpauksen ja NSIAD:n (V2-reseptorin aktivoituminen) välillä ole uskottavaa mekanistista yhteyttä. Lisäksi ainoa Suomen myyntilupa on peruutettu.
 
-**Edetäkseen, seuraavaa tarvitaan:**
-- Virallisen pakkausselosteen hakeminen ja jäsentäminen (merkinnät, varoitukset, vasta-aiheet) — tällä hetkellä kriittinen puutos
-- Strukturoidut vaikutusmekanismin tiedot DrugBankista oikean mekanistisen uskottavuuden arvioimiseksi
-- Jos tutkitaan tämän lääkkeen uudelleenkäyttöä, harkitse sijoituksen 7 (retiniitti, L4 — tuettu prekliinisellä mekanistisella tutkimuksella, joka osoittaa fosaprepitantin estävän NK1/Substance P -vetoisesti silmän tulehusta) priorisointia nykyisen parhaiten sijoitetun NSIAD-ehdokkaan sijaan, jolla ei ole mitään tukevaa näyttöä
-- Vahvista itsenäisesti uudelleen kolme "useita endokriinisiä neoplasioita" varten ilmennyttä kliinistä tutkimusta (sijoitus 5): kaikki kolme ovat CINV-antiemeettisen tuen tutkimuksia potilailla, joilla on sukusolu-/hematologisia pahanlaatuisuuksia, eivät MEN-hoidon tutkimuksia — tämä yhdistelmä näyttää olevan lääkkeen ja sairauden väärä täsmäys oikean näytön sijaan
-
+**Jatkoa varten tarvitaan:**
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet Fimeasta (estävä tietoaukko turvallisuusseulonnalle)
+- Vaikutusmekanismitiedot (MOA) DrugBankista
+- Mekanistinen arviointi NK1/substanssi P -reitin ja AVPR2-välitteisen NSIAD:n yhteydestä
+- Retiniitti voidaan harkita jatkotutkimuskysymyksenä: tarvitaan lisää prekliinistä näyttöä ja sopivuusarvio antoreiteille (silmään vai systeemisesti)
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

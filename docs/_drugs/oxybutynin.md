@@ -2,7 +2,7 @@
 layout: default
 title: Oxybutynin
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 277
+nav_order: 321
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,90 +29,101 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Oxybutynin: määrittelemättömästä alkuperäisestä indikaatiosta Levottomien jalkojen oireyhtymään
+# Oksibutyniini: Ylivilkkaan virtsarakon oireista levottomien jalkojen oireyhtymään
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-> Oxybutynin (DrugBank DB01062) on antimuskariininen/antispasmodinen aine; sen alkuperäinen hyväksytty indikaatio ei ole dokumentoitu nykyisessä todistusaineistopakkauksessa.
-> TxGNN-malli ennustaa, että se voi olla tehokas **levottomien jalkojen oireyhtymään**,
-> mutta **kliinisiä tutkimuksia ei ole** ja **kirjallisuutta ei ole** tukevia — kyseessä on **puhtaasti algoritminen ennustus**.
-
----
-
-## Pikaluettelo
-
-| Kohde | Sisältö |
-|------|--------|
-| Alkuperäinen indikaatio | Ei dokumentoitu tässä todistusaineistopakkauksessa |
-| Ennustettu uusi indikaatio | Levottomien jalkojen oireyhtymä |
-| TxGNN-ennusteen pistemäärä | 99.74% (mallin sijaluku 3291) |
-| Todistusaste | L5 |
-| Suomen markkina-asema | ✗ Ei markkinoilla |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Odota |
+Oksibutyniini on antikolinergisesti vaikuttava lääke, jota on alun perin käytetty pakkotihentymisinkontinenssin (urge-inkontinenssin) hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **levottomien jalkojen oireyhtymään** (pistemäärä 99,7 %), mutta ennusteelle ei ole kliinisiä tutkimuksia eikä kirjallisuutta, joten näyttö on **pelkkää mallin ennustetta**.
+Muista ennustetuista käyttöaiheista mahdollinen vatsa-pohjukaissuolitulehdus (gastroduodeniitti) ja ruokatorven/mahalaukun haavatauti (peptinen haavauma) on myös arvioitu, mutta niidenkin näyttö on heikkoa.
 
 ---
 
-## Miksi tämä ennustus on järkevä?
+## Pikakatsaus
 
-Yksityiskohtaiset lääkkeen vaikutusmekanismin tiedot eivät ole saatavilla tässä todistusaineistopakkauksessa, ja alkuperäinen indikaatio ei ole kirjattu, joten lääkkeen vakiintunutta farmakologiaa ei voida vertailla täällä. Yleisen DrugBank-luokituksen perusteella oxybutynin tunnetaan muskulaarisena antispasmodiinina, jolla on kohtalainen antimuskariininen (M3-hallitseva) aktiivisuus.
-
-Mallin omien mekaanisten arvioiden mukaan levottomien jalkojen oireyhtymää ohjaa ensisijaisesti dopaminergisen järjestelmän toimintahäiriö ja raudan aineenvaihdunnan häiriöt — reiteille, joilla **ei ole tunnettu yhteyttä** oxybutyninin antikolinergiseen/sileiden lihasten rentoutumis-mekanismiin. Mitään uskottavaa mekaanista hypoteesia, joka yhdistäisi nämä kaksi, ei ole, ja oxybutyninin ja RLS:n välillä ei ole yhtään kliinistä tutkimusta tai julkaisua.
-
-Lyhyesti sanottuna, tämä ennustus perustuu kokonaan TxGNN-mallin tilastolliseen assosiaatiotulokseen ilman mekaanista, kliinistä tai kirjallisuuden tukea tällä hetkellä.
-
----
-
-## Kliinisen tutkimuksen todisteet
-
-Tällä hetkellä ei ole rekisteröityjä liittyviä kliinisiä tutkimuksia
+| Kohta | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | Pakkotihentymisinkontinenssi (urge-inkontinenssi) |
+| Ennustettu uusi käyttöaihe | Levottomien jalkojen oireyhtymä (restless legs syndrome) |
+| TxGNN-ennusteen pistemäärä | 99,74 % |
+| Näytön taso | L5 (pelkkä mallin ennuste) |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Kirjallisuuden todisteet
+## Miksi ennuste on perusteltu – vai onko?
 
-Tällä hetkellä ei ole saatavilla liittyvää kirjallisuutta
+Oksibutyniini on muskariinireseptoreita salpaava lääke, jolla on spasmolyyttistä (kouristuksia lievittävää) vaikutusta. Tarkempaa vaikutusmekanismitietoa ei ole tämän raportin aineistossa saatavilla, joten mekanistista yhteyttä ei voida varmentaa.
 
----
+Levottomien jalkojen oireyhtymä liittyy pääasiassa dopamiinivälitteisen toiminnan ja raudan aineenvaihdunnan häiriöihin. Oksibutyniinin antikolinergisen vaikutuksen ja tämän sairauden välillä ei ole aineiston perusteella uskottavaa mekanistista reittiä. Antikolinergit voivat lisäksi joillakin potilailla jopa pahentaa oireita. Korkea pistemäärä on siis mallin laskema ennuste, jota ei tue biologinen perustelu.
 
-## Suomen markkina-asematiedot
-
-Oxybutynin ei ole tällä hetkellä markkinoilla Suomessa tässä todistusaineistopakkauksessa (0 hyväksyntää kirjattu).
+Toisena ja kolmantena ennustettuina käyttöaiheina ovat gastroduodeniitti (pistemäärä 99,6 %) ja peptinen haavauma (99,3 %). Antikolinergiset lääkkeet vähentävät teoriassa mahalaukun eritystä ja liikkuvuutta, ja niitä on historiallisesti käytetty haavataudin hoidossa. Nykyään ne on kuitenkin korvattu protonipumpun estäjillä ja H2-salpaajilla. Lisäksi oksibutyniini voi heikentää ruokatorven alasulkijalihaksen jännitystä ja aiheuttaa refluksiesofagiittia, mikä puhuu käyttöä vastaan happoperäisissä ylävatsan sairauksissa.
 
 ---
 
-## Muut arvioidut ennustetut indikaatiot
+## Kliininen tutkimusnäyttö
 
-Tämä todistusaineistopakka ("multi" ehdokas) arvioi kahta muuta TxGNN-ennustusta levottomien jalkojen oireyhtymän lisäksi, molemmat myös odotta-statuksessa:
-
-| Sijaluku | Sairaus | TxGNN-pistemäärä | Todistusaste | Huomautukset |
-|----------|---------|-----------------|--------------|-------------|
-| 2 | Gastroduodeniitti | 99.62% | L5 | Ei kliinisiä tutkimuksia tai kirjallisuutta; perustelut perustuvat ainoastaan yleiseen antispasmodiseen vaikutukseen GI-sileiden lihasten tasolla |
-| 3 | Mahahaavauma | 99.31% | L4 | 3 vanhempaa julkaisua (1964–1990) löytyi; yksi ([PMID 2360335](https://pubmed.ncbi.nlm.nih.gov/2360335/)) kuvailee oxybutyninin **aiheuttavan** refluksiesofagiitin alentamalla alaosillisen ruokatorven sulkijakalvon tonusta — signaali, joka toimii *tätä* indikaatiota vastaan pikemminkin kuin sitä tukee. Nykyaikainen mahahaavauman patologia (H. pylori, NSAIDs) ei ole oxybutyninin antimuskariinisen mekanismin kattama |
-
-Mikään näistä kolmesta ehdokkaasta ei ylitä odottamisen tasoa.
+Ennustetuille käyttöaiheille ei ole tällä hetkellä rekisteröityjä kliinisiä tutkimuksia.
 
 ---
 
-## Turvallisuushuomiot
+## Kirjallisuusnäyttö
 
-Katso turvallisuustietoja varten pakkaussisältöä.
+Kirjallisuutta löytyi vain kolmannelle ennustetulle käyttöaiheelle (peptinen haavauma). Levottomien jalkojen oireyhtymälle ja gastroduodeniitille ei ole kirjallisuutta.
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [2360335](https://pubmed.ncbi.nlm.nih.gov/2360335/) | 1990 | Tapausselostus | DICP: the annals of pharmacotherapy | Oksibutyniinin aiheuttama refluksiesofagiitti, todennäköisesti alemman ruokatorven sulkijalihaksen jännityksen laskun vuoksi; turvallisuushavainto |
+| [4380481](https://pubmed.ncbi.nlm.nih.gov/4380481/) | 1965 | Farmakologinen katsaus | Archives internationales de pharmacodynamie et de therapie | Oksibutyniini on lihasperäinen (musculotropic) spasmolyytti, jolla on kohtalainen antikolinerginen vaikutus |
+| [14173506](https://pubmed.ncbi.nlm.nih.gov/14173506/) | 1964 | Kliininen arviointi (kontrolloimaton, historiallinen) | Current therapeutic research | Oksibutyniinin kliininen arviointi maha-suolikanavan sairauksien hoidossa |
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Tiedot Suomen markkinoilta
 
-**Päätös: Odota**
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000532 | Kentera (aiemmin Oxybutynin Nicobrand) | Ei tietoa | Pakkotihentymisinkontinenssi (urge-inkontinenssi) – tila: peruutettu |
+
+---
+
+## Turvallisuushuomioita
+
+Pakkausselosteen varoitus- ja vasta-aihetietoja ei ollut käytettävissä, joten niihin on tutustuttava valmisteyhteenvedosta.
+
+Tietämyskuvaajaan (PrimeKG) perustuvat vasta-aihesuhteet (eivät valmisteteksti) viittaavat seuraaviin sairauksiin tai tiloihin:
+- **Sydän- ja verisuonisairaudet:** hypertensio, sepelvaltimotauti, äkillinen sydänpysähdys, sydämen johtumishäiriöt
+- **Silmät:** ahdaskulmaglaukooma
+- **Hermo-lihasliitos:** myasthenia gravis
+- **Maha-suolikanava:** haavainen paksusuolitulehdus, tulehdukselliset suolistosairaudet, paralyyttinen ileus, suolitukos, toksinen megakoolon, palautusrefluksitauti, ruokatulehdus, palleatyrä
+- **Virtsatiet ja eturauhanen:** hyvänlaatuinen eturauhasen liikakasvu, virtsarakon kaulan tukos
+- **Muut:** munuais-, maksa- ja sappirakkosairaudet, kilpirauhasen liikatoiminta
+
+Huomionarvoista on, että monet maha-suolikanavan sairaudet ovat listalla vasta-aiheina, mikä on ristiriidassa ennustettujen ruoansulatuskanavan käyttöaiheiden kanssa.
+
+**Lääkeyhteisvaikutukset:** Yhteisvaikutuksia löytyi yhteensä 100, joista aineistossa oli esillä 20. Merkittävimmät (vaikeusaste Major):
+- Kaliumsitraatti
+- Kaliumkloridi
+
+Kohtalaisia (Moderate) yhteisvaikutuksia on mm. muiden antikolinergisten tai antispasmodisten lääkkeiden kanssa (esim. atropiini, hyoskyamiini, glykopyrronium, propanteliini, trospium, disyklomiini), opioidien (morfiini, oopium) ja loperamidin kanssa sekä metoklopramidin, aprepitantin, eluksadoliinin ja pramlintidin kanssa.
+
+---
+
+## Johtopäätös ja jatkotoimet
+
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Korkein sijaluettelossa oleva ennustus (levottomat jalat) ei ole mekaanisesti uskottava, sillä ei ole kliinisiä tutkimuksia, eikä kirjallisuuden tukea (L5/S0). Kaksi seuraavaa ehdokasta ovat samoin tuettamattomat tai sisältävät vastakkaisen turvallisuussignaalin (refluksiesofagitis-riski mainittu mahahaavauman reitille). Lääkettä ei myöskään markkinoida tällä hetkellä Suomessa.
+- Levottomien jalkojen oireyhtymän ennuste perustuu pelkästään mallin pistemäärään: kliinisiä tutkimuksia ja kirjallisuutta ei ole, uskottavaa mekanismia ei tunnistettu ja antikolinergit voivat jopa pahentaa oireita.
+- Peptisen haavauman osalta kirjallisuus on vanhaa ja epäsuoraa, ja oksibutyniinin aiheuttama refluksiesofagiitti on turvallisuussignaali käyttöä vastaan. Lisäksi Suomessa ainoa myyntilupa on peruutettu.
 
-**Jotta voitaisiin edetä, seuraavaa tarvitaan:**
-- Fimea/TFDA pakkaussisältö (varoitukset, vasta-aiheet) — tällä hetkellä estää turvallisuusarvion
-- Vahvistettu lääkkeen vaikutusmekanismi (MOA) tiedot DrugBankista
-- Vahvistettu alkuperäinen hyväksytty indikaatio/indikaatiot lääkkeelle
-- Mekaaninen tai prekliininen perusteluja, jotka yhdistävät oxybutyninin levottomien jalkojen oireyhtymään, ennen kuin lisäarviointi on perusteltu
-
+**Jatkotoimien edellytyksenä on:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean sivuilta (turvallisuusarvioinnin estävä tietoaukko)
+- Vaikutusmekanismin (MOA) tiedot esimerkiksi DrugBankista
+- Prekliininen tai kliininen näyttö, joka tukee yhteyttä oksibutyniinin ja ennustetun käyttöaiheen välillä
+- Lääkemuotojen ja antoreittien yhteensopivuuden selvitys sekä myyntiluvan tilanteen tarkistus
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

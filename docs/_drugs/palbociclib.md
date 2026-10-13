@@ -2,7 +2,7 @@
 layout: default
 title: Palbociclib
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 279
+nav_order: 324
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,92 +29,93 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-# Palbociclib: Rintasyövästä hypertyreositukseen
+# Palbosiklibi: Rintasyövästä nivelreumaan
 
 ## Yhden lauseen yhteenveto
 
-Palbociclib on CDK4/6-estäjä, joka tämän näytepaketin kirjallisuuden mukaan on pääasiassa kehitetty hormonieostin-positiiviseen, HER2-negatiiviseen etäpesäkkeiden rintasyöpään. TxGNN-mallin tämän lääkkeen korkeimman sijoituksen mukainen ennuste on **Hypertyreoosia**, mutta tällä hetkellä **nolla kliinistä tutkimusta ja nolla julkaisua** ei tue tätä spesifistä yhdistelmää — se on vain laskennallinen ennuste.
+Palbosiklibi on CDK4/6-estäjä, jota on alun perin käytetty rintasyövän hoitoon. TxGNN-malli ennustaa sen voivan olla tehokas **kilpirauhasen liikatoimintaan** (korkein pistemäärä), mutta tälle ei löydy tukevaa näyttöä. Tutkimuksellisesti kiinnostavin ehdotus on **nivelreuma**, jonka tueksi on koottu **4 julkaisua** (yksi tapausselostus, yksi havainnoiva kohorttitutkimus ja kaksi prekliinistä tutkimusta) mutta **ei yhtään kliinistä tutkimusta**.
 
----
+> Huomio: raportin otsikko ja taulukot noudattavat ennustelistan ensimmäistä kohtaa (kilpirauhasen liikatoiminta), mutta kohdassa "Miksi ennuste on perusteltu?" ja todistusaineistossa käsitellään myös muita ennusteita, koska liikatoiminnalle ei ole lainkaan näyttöä.
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
-| Kohde | Sisältö |
-|-------|---------|
-| Alkuperäinen indikaatio | Rintasyöpä (HR+/HER2-) — päätelty tämän näytepaketin kirjallisuuden kontekstista; ei vahvistettu Taiwanin/TFDA-hyväksyntädatalla (ei saatavilla) |
-| Ennustettu uusi indikaatio | Hypertyreoosia |
-| TxGNN:n ennustepistemäärä | 99.44% |
-| Näyttötaso | L5 |
-| Taiwanin markkinatilanne | Ei markkinoilla (Ei markkinoilla) |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Pidätä |
+| Kohta | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | Rintasyöpä (Breast Neoplasms) |
+| Ennustettu uusi käyttöaihe (sijalla 1) | Kilpirauhasen liikatoiminta |
+| TxGNN-ennustepistemäärä | 99,44 % |
+| Näyttötaso | L5 (sijalla 1); nivelreuma L4 |
+| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
----
+Muut ennusteet: nivelreuma (99,36 %, L4, tutkimuskysymys), tromboottinen sairaus (99,32 %, L4, Hold) ja kilpirauhashormonin reseptori beetan mutaatiosta johtuva kilpirauhashormoniresistenssi (99,30 %, L5, Hold).
 
-## Miksi tämä ennuste on järkevä?
+## Miksi ennuste on perusteltu?
 
-Tällä hetkellä yksityiskohtaista toimintamekanismia koskevaa tietoa ei ole saatavilla tässä näytepakettissa (merkitty korkean vakavuuden tietovajeksi, DG002). Tämän paketin kirjallisuuden perusteella palbociclib on CDK4/6-estäjä (sykliiniriippuvainen kinaasi 4/6), joka estää solujakson etenemisen G1-vaiheesta S-vaiheeseen, ja se on vakiintunut HR+/HER2-negatiivisen etäpesäkkeiden rintasyövän hoitoon.
+Palbosiklibin yksityiskohtaisia vaikutusmekanismitietoja ei ole tässä aineistossa saatavilla. Tunnetun tiedon mukaan palbosiklibi on CDK4/6-estäjä, jonka teho rintasyövässä on osoitettu ja joka estää solusyklin etenemistä G1-vaiheessa.
 
-CDK4/6-välitteisen solujakson pysäyttämisen ja hypertyreosiin (kilpirauhashormonin ylituotanto, jota aiheuttaa kilpirauhanen/hypofyysi-akselin häiriö, ei solujakson kontrolli) välillä ei ole tunnettu patofysiologista yhteyttä. Tämän kandidaatin kanssa toimitetut uudelleenkäyttöperustelut nimenomaisesti toteavat, että mekanistista yhteyttä ei ole tunnistettu.
+**Kilpirauhasen liikatoiminta ja kilpirauhashormoniresistenssi:** Kummallekaan ei löydy mekanistista yhteyttä, kliinisiä tutkimuksia eikä kirjallisuutta. Ennuste perustuu pelkästään verkkomallin laskennalliseen assosiaatioon. CDK4/6-riippuvainen jakautuminen voisi teoriassa liittyä kilpirauhassolujen kasvuun, mutta tästä ei ole näyttöä.
 
-Mitään kliinisiä tutkimuksia, julkaistua kirjallisuutta tai prekliinisiä tutkimuksia, jotka yhdistävät palbociclbin hypertyreositukseen, ei löydetty (katso kyselylokin merkinnät 5–7, kaikki nolla tuloksia). Tätä ennustetta tulee käsitellä testaamattomana TxGNN:n verkko-tasoisena hypoteesina, ei mekanistisesti tai kliinisesti tuetuna signaalina.
+**Nivelreuma:** Uskottavin mekanismi. CDK4/6:n esto voi hillitä nivelkalvon fibroblastien ja immuunisolujen lisääntymistä. Prekliiniset tutkimukset viittaavat CDK6-riippuvaiseen nivelkalvon liikakasvuun sekä parempaan niveltulehdusta lievittävään vaikutukseen, kun solusyklin säätely yhdistetään sytokiinien salpaukseen.
 
----
+**Tromboottinen sairaus:** Kirjallisuus käsittelee tromboosia CDK4/6-estäjien **haittavaikutuksena**, ei hoitohyötynä. Korkea pistemäärä heijastaa todennäköisesti graafin assosiaatiota, ei hoitosignaalia. Käyttöä tromboosin hoitoon ei tue mikään, ja siihen liittyy turvallisuusriski.
 
-## Kliiniset tutkimukset
+## Kliinisen tutkimuksen näyttö
 
-Tällä hetkellä mitään liittyviä rekisteröityjä kliinisiä tutkimuksia ei ole.
-
----
+Ei tällä hetkellä rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia (mikään ennustetuista käyttöaiheista).
 
 ## Kirjallisuusnäyttö
 
-Tällä hetkellä mitään liittyviä kirjallisuusmateriaaleja ei ole saatavilla.
+Kilpirauhasen liikatoiminnasta (sija 1) ei ole kirjallisuutta. Alla nivelreumaa koskeva kirjallisuus (sija 2), joka on ainoa merkittävä ennustettu käyttöaihe, jolla on tukea.
 
----
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [33587021](https://pubmed.ncbi.nlm.nih.gov/33587021/) | 2021 | Tapausselostus | Modern Rheumatology Case Reports | Nivelreumaa sairastavan rintasyöpäpotilaan nivelreuma lieventyi palbosiklibihoidon aikana |
+| [40504547](https://pubmed.ncbi.nlm.nih.gov/40504547/) | 2025 | Kohortti/havainnoiva | The Oncologist | Aiempien ja uusien autoimmuunisairauksien esiintyvyys CDK4/6-estäjiä ja hormonihoitoa saavilla rintasyöpäpotilailla |
+| [25165034](https://pubmed.ncbi.nlm.nih.gov/25165034/) | 2016 | Prekliininen (eläinmalli) | Annals of the Rheumatic Diseases | CDK-estäjät lievensivät niveltulehdusta eläinmalleissa heikentämättä hankinnaista immuniteettia; yhdistelmä sytokiinisalpaajan kanssa tehosi paremmin |
+| [39940918](https://pubmed.ncbi.nlm.nih.gov/39940918/) | 2025 | Prekliininen (eläinmalli) | Int J Mol Sci | Nivelkalvon liikakasvu oli CDK6-riippuvaista ja CDK4:stä riippumatonta niveltulehdusmalleissa |
 
-## Taiwanin markkinatiedot
+Tromboosiin liittyvä kirjallisuus (esim. [36794339](https://pubmed.ncbi.nlm.nih.gov/36794339/), [39123221](https://pubmed.ncbi.nlm.nih.gov/39123221/)) koskee lähinnä haittavaikutuksia, ei hoitohyötyä.
 
-Palbociclib:llä on tällä hetkellä **0 hyväksyntöä** Taiwanissa (markkinatilanne: Ei markkinoilla / ei markkinoilla). Tässä näytepakettissa ei ole saatavilla mitään lisensointitietoja, ja TFDA:n pakkausseloste on merkitty estäväksi tietovajeksi (DG001).
+## Suomen markkinatiedot
 
----
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/003853 | Ibrance (Pfizer Europe MA EEIG) | Ei tietoa | Rintasyöpä (tila: peruutettu) |
 
-## Sytotoksisuus
+## Solunsalpaajaominaisuudet
 
-Palbociclib on onkologinen lääke (CDK4/6-estäjä-luokka, vakiintunut rintasyövän hoidossa tämän paketin kirjallisuuden mukaan), joten tämä osa on sovellettavissa.
+| Kohta | Sisältö |
+|------|------|
+| Luokitus | Kohdennettu hoito (CDK4/6-kinaasin estäjä) |
+| Luuydinsuppression riski | Korkea (neutropenia on tyypillinen haittavaikutus; myelosuppressiota raportoitu myös prekliinisissä tutkimuksissa) |
+| Pahoinvointia aiheuttava vaikutus | Ei tietoa tässä aineistossa; katso valmisteyhteenveto |
+| Seurattavat parametrit | Verenkuva erittelylaskennalla, maksa- ja munuaisarvot |
+| Käsittelysuojaus | Katso valmisteyhteenvedon varoitukset ja varotoimet sekä sytostaattien käsittelyohjeet |
 
-| Kohde | Sisältö |
-|-------|---------|
-| Sytotoksisuuden luokittelu | Kohdennettu hoito (CDK4/6-estäjä) |
-| Verituotannon heikkenemisen riski | Korkea — tämän näytepaketin kirjallisuus dokumentoi palbociclbin aiheuttaman verituotannon heikkenemisen (neutropenia/trombosytopenia) tunnistettuna luokan vaikutuksena (PMID [39940918](https://pubmed.ncbi.nlm.nih.gov/39940918/), PMID [37994878](https://pubmed.ncbi.nlm.nih.gov/37994878/)) |
-| Oksettavuuden luokittelu | Katso pakkausselosteen varoituksista ja varotoimista |
-| Seurannan kohteet | Verenkuva erottelussa (neutrofiilien lukumäärä); maksan toiminta; interstitiaalisen keuhkosairauden oireiden seuranta PMID [37994878](https://pubmed.ncbi.nlm.nih.gov/37994878/) mukaisesti |
-| Käsittelysuojaus | Katso pakkausselosteen varoituksista ja varotoimista |
+## Turvallisuushuomiot
 
----
+- **Lääkeyhteisvaikutukset:** Yhteisvaikutuksia on kirjattu yhteensä 100. Merkittävimmät (vaikeusaste *Major*): **klaritromysiini**, **kobisistaatti**, **deferipooni** ja **samarium (153Sm) leksidronaami**. Kohtalaisia (*Moderate*) ovat mm. aprepitantti, deksametasoni, simetidiini, simvastatiini, mikonatsoli, klotrimatsoli, silostatsoli ja deferasiroksi.
+- **Tromboembolia:** Farmakovigilanssitutkimukset liittävät CDK4/6-estäjät tromboembolisiin tapahtumiin, mikä on erityisen tärkeää, jos käyttöä harkittaisiin tromboosiin tai muihin tromboosiriskipotilaisiin.
+- **Keuhkotoksisuus:** Interstitiaalinen keuhkosairaus on harvinainen mutta vakava CDK4/6-estäjien haittavaikutus.
 
-## Turvallisuusnäkökohdat
+Lisäksi valmisteyhteenvedon varoitukset ja vasta-aiheet tulee tarkistaa pakkausselosteesta.
 
-Katso pakkausselosteesta turvallisuustietoja (keskeiset varoitukset, vasta-aiheet ja lääkkeiden välisen yhteisvaikutuksen tiedot eivät ole saatavilla — merkitty estäväksi tietovajeksi, DG001).
+## Johtopäätös ja seuraavat askeleet
 
-**Täydentävä huomio (kirjallisuudesta, ei muodollisista turvallisuustiedoista):** muut kandidaattindikaatiot tässä samassa näytepakettissa nousivat esiin lääkitystä turvallisuusvalvontasignaaleja, joita kannattaa seurata erikseen — verituotannon heikkeneminen (PMID 39940918, 37994878) ja tromboemboliset tapahtumat (PMID 35300061, 36794339, 39123221) liittyvät CDK4/6-estäjiin luokkana.
-
----
-
-## Johtopäätös ja seuraavat vaiheet
-
-**Päätös: Pidätä**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Huolimatta korkeasta TxGNN-samankaltaisuuspisteestä, ei ole kliinisiä tutkimuksia, kirjallisuutta tai mekanistisia todisteita, jotka yhdistävät palbociclbin hypertyreositukseen — näyttötaso on L5 (mallin ennuste vain), mikä ei täytä kriteeria edetä tämän spesifisen kandidaatin kanssa.
+- Ensisijaisella ennusteella (kilpirauhasen liikatoiminta) ei ole kliinisiä tutkimuksia, kirjallisuutta eikä mekanistista perustetta, ja näyttö on tasoa L5. Myyntilupa Suomessa on peruutettu. Nivelreuma on kiinnostavin jatkotutkimuksen kohde (L4: tapausselostus ja prekliininen näyttö), mutta se on vielä tutkimuskysymys, ei valmis siirtymään kliiniseen käyttöön.
 
-**Jatkaakseen tarvitaan seuraavaa:**
-- TFDA:n pakkausseloste (varoitukset/vasta-aiheet) — tällä hetkellä estävä tietovaje
-- DrugBankissa vahvistettu toimintamekanismi (MOA) — tällä hetkellä korkean vakavuuden tietovaje
-- Mikä tahansa prekliininen/translationaalinen tieto, joka vahvistaa viitattavissa olevan yhteyden CDK4/6-inhibition ja kilpirastushormoniregulation välillä ennen kuin lisäevaluointia kannattaa harkita
-
-**Huomio:** tämä näytepaketti sisältää myös toisen kandidaatin, **reumatoidi artriitti** (sijoitus 2, pistemäärä 99.36%), jolla on huomattavasti vahvempi tuki — ihmisen tapausraportti RA-remissiosta palbociclbin hoidon aikana, 2025 katsaus CDK4/6-estäjistä ja immuunijärjestelmän väliintulosta saatuista sairauksista, ja kaksi prekliinistä tutkimusta CDK6:n aiheuttamasta synoviaalin hyperplasiasta (Näyttötaso L4, "Tutkimuskysymys"-suositus). Jos tutkitaan tämän lääkkeen uudelleenkäyttösuuntia, tuo kandidaatti ansaitsee erillisen, omistautuneen arvioinnin.
-
+**Jatkoa varten tarvitaan:**
+- Valmisteyhteenvedon vasta-aiheet ja varoitukset (estävä tietoaukko turvallisuusarvioinnin etenemiselle)
+- Yksityiskohtaiset vaikutusmekanismitiedot (MOA) DrugBankista
+- Nivelreuman osalta: eläinmallivahvistus ja pieni varhaisen vaiheen kliininen tutkimus, jossa huomioidaan luuydinsuppressio ja infektioriski
+- Tromboosin osalta: ei jatkotutkimusta hoitokäyttöön; huomioitava vain turvallisuusriskinä
+- Arvio lääkeyhteisvaikutuksista (erityisesti CYP3A4-estäjät, kuten klaritromysiini ja kobisistaatti)
+- Selvitys peruutetun myyntiluvan syystä ja nykyisestä saatavuudesta Suomessa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

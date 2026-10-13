@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Nitisinone
-parent: Kohtalainen näyttö (L3-L4)
-nav_order: 265
-evidence_level: L3
+parent: Pelkkä mallin ennuste (L5)
+nav_order: 306
+evidence_level: L5
 indication_count: 10
 ---
 
 # Nitisinone
 {: .fs-9 }
 
-Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,65 +29,97 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Nitisinoni: periytyvästä tyrosinemiasta tyypin 1 renaalisen tubulaarin asidoosin hoitoon
+# Nitisinoni: Tyrosinemiasta munatuubulusten asidoosiin
 
 ## Yhden lauseen yhteenveto
 
-Nitisinoni (NTBC) on HPPD-inhibiittori, jota käytetään periytyvän tyrosinemia tyypin 1 (HT-1) -sairauden vakiohoidossa. TxGNN-malli ennustaa sen voivan olla tehokas myös **renaalisen tubulaarin asidoosin** hoitoon, ja sitä tukee tällä hetkellä **0 kliinistä tutkimusta** ja **2 julkaisua** — todistusaineisto on alustava ja rajoittuu HT-1-liittyviin tapauksiin.
+Nitisinoni on lääke, jota on alun perin käytetty tyrosinemioiden hoitoon. TxGNN-malli ennustaa sen voivan olla tehokas **munuaisten tubulusasidoosiin (renal tubular acidosis)**. Ennusteen tueksi ei ole tällä hetkellä **yhtään kliinistä tutkimusta eikä julkaisua**, joten ennuste perustuu pelkästään malliin.
 
-## Nopea yleiskatsaus
+---
+
+## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Periytyvä tyrosinemia tyypin 1 (HT-1) — mainittu uudelleenkäyttöperustelun yhteydessä; ei vahvistettu rakenteisella MOA/indikaation kentällä (tietoaukko) |
-| Ennustettu uusi indikaatio | Renaalinen tubulaari asidoosi |
-| TxGNN-ennustuspistemäärä | 99.96% |
-| Todistusten taso | L3 |
-| Suomen markkinatilanne | ✗ Ei markkinoilla |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Jatka varauksellisesti |
+| Alkuperäinen käyttöaihe | Tyrosinemiat |
+| Ennustettu uusi käyttöaihe | Munuaisten tubulusasidoosi (renal tubular acidosis) |
+| TxGNN-ennustepistemäärä | 99,96 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 2 (molemmat peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennuste on järkevä?
+---
 
-Tällä hetkellä yksityiskohtaisia toimintamekanismin tietoja ei ole vahvistettu rakenteisessa kentässä (DrugBank MOA -haku on merkitty tietoaukoksi). Tunnetun farmakologian perusteella nitisinoni on HPPD (4-hydroksifenyylipyruvaaattioksidaasi) -inhibiittori ja se on periytyvän tyrosinemia tyypin 1 (HT-1) vakiohoito — harvinaisessa periytyvässä tyrosiinin metabolian häiriössä.
+## Miksi ennuste voisi olla perusteltu?
 
-Munuaisten putkijärjestelmän toimintahäiriö — joka voi ilmetä proksimaalina renaalisen tubulaarin asidoosina tai Fanconi-oireyhtymänä — on hyvin tunnettu hoitamattoman HT-1:n komplikaatio, johon liittyy myrkyllisen metaboliitin sukkinyyliasetonin kertyminen. Julkaistut kohorttitutkimukset osoittavat, että nitisinonihoito parantaa munuaisten putkijärjestelmän toimintaa HT-1-potilailla, mikä on mekanistisesti yhdenmukainen TxGNN-ennusteen kanssa.
+Nitisinoni estää tyrosiinin hajotuksessa toimivaa 4-hydroksifenyylipyruvaattidioksigenaasi (HPPD) -entsyymiä. Yksityiskohtaista vaikutusmekanismitietoa ei ole tällä hetkellä saatavilla tämän raportin aineistossa, joten mekanismianalyysi on rajallinen.
 
-Tärkeää on, että tämä todistusaineisto tukee nitisinoniavun hyötyä renaalisen tubulaarin asidoosiin **HT-1-sekundaarina**, ei renaalisen tubulaarin asidoosiin yleisestä tai asiaan liittymättömästä etiologiasta. Kaikki jatkoevälykäyttöindikaatiot tulisi rajata erityisesti "HT-1-liittyvään" munuaisten putkijärjestelmän toimintahäiriöön sen sijaan että käytettäisiin laajaa renaalisen tubulaarin asidoosin leimaa.
+Munuaisten tubulusten toimintahäiriö (Fanconin tyyppinen) esiintyy perinnöllisessä tyrosinemia tyypin 1 taudissa, jota nitisinoni hoitaa. TxGNN-signaali voi heijastaa tätä päällekkäisyyttä. Tämä ei yksinään tue käyttöä primaarisessa munuaisten tubulusasidoosissa, eikä suoraa mekanistista yhteyttä ole osoitettu.
 
-## Kliinisen tutkimuksen todistusaineisto
+### Muut mallin ennustamat käyttöaiheet
 
-Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia
+Seuraavissa ennusteissa näyttö on yhtä heikkoa tai heikompaa:
 
-## Kirjallisuuden todistusaineisto
+| Sija | Sairaus | Pistemäärä | Näytön taso | Huomio |
+|------|------|------|------|------|
+| 2 | Galaktosemia | 99,95 % | L4 | Vain katsausartikkeleita, joissa sairaudet mainitaan samassa yhteydessä (maksavaikutukset); ei yhteistä kohdetta |
+| 3 | Serpinopatia (toksinen serpiinipolymerisaatio) | 99,90 % | L5 | Vain mallin ennuste |
+| 4 | C1-estäjän puutos | 99,90 % | L5 | Vain mallin ennuste |
+| 5 | Glykogeenin varastosairaus | 99,89 % | L4 | Vain yksi lasten maksasairauksia käsittelevä katsaus |
+| 6–10 | Aikuisten polyglukosaanikehotauti, GSD tyyppi I, Griscellin oireyhtymä, X-kromosomaalinen krooninen granulomatoottinen tauti, ermine-fenotyyppi | 99,86–99,88 % | L5 | Vain mallin ennuste, ei näyttöä |
 
-| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät löydökset |
+---
+
+## Kliininen tutkimusnäyttö
+
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
+
+---
+
+## Kirjallisuusnäyttö
+
+Ensisijaiselle ennusteelle (munuaisten tubulusasidoosi) ei ole saatavilla kirjallisuutta. Toiseksi sijoittuneelle ennusteelle (galaktosemia) on löytynyt seuraavat katsaukset, jotka antavat vain epäsuoraa näyttöä:
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [25172236](https://pubmed.ncbi.nlm.nih.gov/25172236/) | 2014 | Kohorttitutkimus | Molecular Genetics and Metabolism | Kuvaa NTBC:n varhaisvaiheen vaikutusta renaalisen tubulaarin toimintahäiriöön HT-1-potilailla; renaalinen tubulaari tauti on tunnustettu HT-1:n komplikaatio, jota on tutkittu huonosti ennen tätä työtä |
-| [27109516](https://pubmed.ncbi.nlm.nih.gov/27109516/) | 2016 | Tapaussarja | Indian Journal of Gastroenterology | Neljän NTBC:llä hoidetun tyrosinemiapotilaan tapaussarja; 3 potilasta säilytti normaalin maksan toiminnan ja havaitsemattoman virtsassa olevan sukkinyyliasetonin määrän ilman renaalisen tubulaarin komplikaatioita pitkäaikaisen NTBC-hoidon aikana |
+| [31843253](https://pubmed.ncbi.nlm.nih.gov/31843253/) | 2020 | Katsaus | Digestive and Liver Disease | Lasten maksasairauksiin liittyvät silmämuutokset; kaihi on tärkeä galaktosemian diagnostinen löydös |
+| [29502917](https://pubmed.ncbi.nlm.nih.gov/29502917/) | 2018 | Katsaus | Pediatric Clinics of North America | Galaktoosin, fruktoosin ja tyrosiinin aineenvaihduntahäiriöt, joihin liittyy maksasairaus |
+| [21999649](https://pubmed.ncbi.nlm.nih.gov/21999649/) | 2011 | Katsaus | Paediatric Drugs | Lasten kroonisten maksasairauksien lääkehoito, mukaan lukien parannettavissa olevat aineenvaihduntasairaudet |
+
+---
 
 ## Suomen markkinatiedot
 
-Nitisinonia ei ole tällä hetkellä **markkinoilla** Suomessa (0 rekisteröityä hyväksyntää), joten markkinointihyväksyntätietoja ei ole saatavilla.
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004582 | Nityr (peruutettu) | – | Tyrosinemiat |
+| EMEA/H/C/000555 | Orfadin (peruutettu) | – | Tyrosinemiat |
 
-## Turvallisuusnäkökulmat
+---
 
-Katso turvallisuustiedot pakkausselosteesta.
+## Turvallisuushuomioita
+
+- **Lääkeaineyhteisvaikutukset:** Tietokannasta löytyi yhteensä 100 yhteisvaikutusta, joista pääosa on luokiteltu keskivaikeiksi (Moderate). Esimerkkejä: abirateroni, isotretinoiini, nifedipiini, ibuprofeeni, aldesleukiini, pioglitatsoni, amiodaroni, amlodipiini, deksametasoni, bikalutamidi. Armodafiniili on luokiteltu lieväksi (Minor).
+- **Tietämysgraafin mukaiset vasta-aiheet** (TxGNN/PrimeKG-graafin lääke–sairaus-yhteydet, ei valmisteyhteenvedon teksti): munuaissairaus, märkärakko virtsanjohtimessa (pyoureter), trombosytopenia, leukopenia, hypofosfatemia ja tyrosinemia.
+
+Valmisteyhteenvedon varoitukset ja vasta-aiheet tulee tarkistaa pakkausselosteesta ja valmisteyhteenvedosta.
+
+---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Jatka varauksellisesti**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Mekanistinen uskottavuus on vahva (HT-1-liittyvä renaalisen tubulaarin toimintahäiriö on hyvin dokumentoitu komplikaatio, joka paranee NTBC-hoidolla), mutta tukeva todistusaineisto rajoittuu yhteen kohorttitutkimukseen ja yhteen tapaussarjaan — tätä spesifistä indikaatiota varten ei ole RCT:itä eikä rekisteröityjä kliinisiä tutkimuksia, ja lääkettä ei ole tällä hetkellä markkinoilla Suomessa.
+- Ennuste perustuu pelkästään malliin (L5), eikä kliinisiä tutkimuksia tai suoraa kirjallisuutta ole. Mekanistinen yhteys on epäsuora ja voi johtua siitä, että munuaistubulusten toimintahäiriö kuuluu tyrosinemia tyypin 1 kuvaan. Lisäksi Suomessa ei ole voimassa olevia myyntilupia ja tietämysgraafi liittää munuaissairauden vasta-aiheeksi.
 
-**Jatkaaksemme tarvitaan seuraavaa:**
-- TFDA/Fimea pakkausselosteen tiedot (varoitukset, vasta-aiheet) — tällä hetkellä estävä tietoaukko
-- Rakenteinen DrugBank MOA -vahvistus
-- Lääkkeiden väliset yhteisvaikutukset (nykyinen DDI-kysely palautti nolla tuloksia)
-- Selkeytys, että tavoiteindikaatio on rajattu HT-1-liittyvään renaalisen tubulaarin asidoosiin, ei yleiseen etiologiaan perustuviin tapauksiin
-- Suomen markkinointihyväksynnän / tuontireitin arviointi nykytilassa "ei markkinoilla" olevan lääkkeen osalta
-
+**Jatkoon etenemiseksi tarvitaan:**
+- Tarkka vaikutusmekanismitieto (MOA) esimerkiksi DrugBankista
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet Fimean sivustolta (turvallisuusseulonnan edellytys)
+- Prekliiniset tai kliiniset tutkimukset, jotka osoittavat nitisinonin vaikutuksen primaarisessa munuaisten tubulusasidoosissa
+- Arvio siitä, ovatko ennusteet erotettavissa tyrosinemia tyypin 1 aiheuttamasta tubulopatiasta
+- Selvitys valmisteen saatavuudesta Suomessa, koska kaikki myyntiluvat on peruutettu
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

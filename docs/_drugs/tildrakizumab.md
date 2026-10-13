@@ -2,7 +2,7 @@
 layout: default
 title: Tildrakizumab
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 375
+nav_order: 437
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,64 +29,95 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-# Tildrakizumab: immuunivälitteisestä tulehduksellisesta sairaudesta (alkuperäinen indikaatio ei saatavilla) vakavaan ei-proliferatiiviseen diabeettiseen retinopatiaan
+# Tildrakitsumabi: Psoriaasista vaikeaan proliferatiivista edeltävään diabeettiseen retinopatiaan
 
 ## Yhden lauseen yhteenveto
 
-Tildrakizumab (DrugBank DB14004) on anti-IL-23p19-monoklonaalinen vasta-aine; sen alkuperäinen hyväksytty indikaatio ei ole saatavilla nykyisessä todistusaineistossa. TxGNN-malli ennustaa mahdollisen vaikutuksen **vakavaan ei-proliferatiiviseen diabeettiseen retinopatiaan**, mutta tätä signaalia tukee tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua** — se on puhdas mallin ennuste ilman vahvistavia todisteita.
+Tildrakitsumabi on anti-IL-23 p19 -monoklonaalinen vasta-aine, jota on alun perin käytetty **psoriaasin** hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **vaikeaan ei-proliferatiiviseen diabeettiseen retinopatiaan**, mutta ennusteen tueksi ei ole **yhtään kliinistä tutkimusta eikä julkaisua**. Näyttö perustuu pelkästään mallin ennusteeseen.
 
-## Nopea yleiskatsaus
+---
 
-| Kohta | Sisältö |
-|------|--------|
-| Alkuperäinen indikaatio | Ei saatavilla (original_indications tyhjä, ei markkinoitua lupaa saatavilla) |
-| Ennustettu uusi indikaatio | Vakava ei-proliferatiivinen diabeettinen retinopatia |
-| TxGNN-ennusteen pistemäärä | 99.63% |
-| Todistusten taso | L5 |
-| Suomen markkinatilanne | ✗ Ei markkinoitu |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Odotusasema |
+## Pikakatsaus
 
-## Miksi tämä ennuste on järkevä?
+| Kohde | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | Psoriaasi |
+| Ennustettu uusi käyttöaihe | Vaikea ei-proliferatiivinen diabeettinen retinopatia |
+| TxGNN-ennustepistemäärä | 99,63 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-Tildrakizumabin osalta ei ole tällä hetkellä saatavilla strukturoitua vaikutusmekanismin tietoa (`original_moa` on merkitty tiedon puutteeksi). Ennusteen perusteluihin sisältyneistä mekanistisista muistiinpanoista käy ilmi, että tildrakizumab on anti-IL-23p19-monoklonaalinen vasta-aine, joka estää Th17-signalointireittiä — sama kohderyhmä, jota käytetään IL-23/Th17-vetoisissa immuunivälitteissä tulehduksellisissa sairauksissa.
+---
 
-Ehdotettu yhteys diabeettiseen retinopatiaan perustuu epäsuoraan tulehdukselliseen hypoteesiin: kohonnut lasiaisen IL-17A on tutkimuksissa havaittu olevan yhteydessä diabeettisen retinopatian aktiivisuuteen, ja perusteluna on, että ylävirran IL-23-salpaaja voisi teoriassa vaimentaa tätä alavirran tulehduksellista ja neovaskulaarista vastausta. Parhaiten sijoittuvassa ehdokkaassa "vakava" ei-proliferatiivinen diabeettinen retinopatia käsitellään laajemman sairauden myöhäisenä alatyypinä, mutta todistusaineisto huomauttaa selvästi, että alatyyppikohtaisia mekanistisia tietoja ei ole — yhteys johdetaan yleisestä diabeettisen retinopatian hypoteesista, ei vahvistettu itsenäisesti.
+## Miksi ennuste on perusteltu?
 
-Kolme siihen liittyvää mutta luotettavuusastaltaan alhaisempaa signaalia ilmestyy samassa ennustejoukkoon — diabeettinen retinopatia (yleinen), diabeettinen katarakta ja lääkkeen aiheuttama osteoporoosi — kukin myös arvioitu L5/Odotusasema. Diabeettisen kataraktan yhteys on todistusaineiston taholta selvästi merkitty sillä, että tunnettu mekanistinen silta IL-23/IL-17-biologiaan puuttuu (sen patofysiologia on polyoli-rata- ja glykosylaatiovetoinen), ja osteoporoosin yhteys perustuu vain yleiseen IL-17/osteoklasti-kirjallisuuteen eikä tildrakizumabin spesifisiin tietoihin. Mikään näistä neljästä ennusteesta ei tällä hetkellä saa kliinisten tutkimusten tai kirjallisuuden tukea — ne ovat pelkästään verkkoennausteiden tuloksia.
+Tämän raportin tietoihin ei sisälly tildrakitsumabin tarkkaa vaikutusmekanismitietoa. Tiedossa on, että tildrakitsumabi on anti-IL-23 p19 -vasta-aine, jonka teho psoriaasissa on osoitettu. Mekanistisesti sen voidaan ajatella soveltuvan myös tulehdusvälitteisiin sairauksiin.
 
-## Kliinisen tutkimuksen todisteet
+Ehdotettu yhteys on epäsuora. IL-23/IL-17-akselin tulehdussytokiinien on esitetty osallistuvan diabeettiseen mikrovaskulaariseen sairauteen ja verkkokalvon tulehdukseen. Tämä on kuitenkin vain TxGNN-tietämysgraafin ennuste, eikä sitä tue yksikään haettu tutkimus tai julkaisu.
 
-Tällä hetkellä ei ole kirjattuja aiheeseen liittyviä kliinisiä tutkimuksia.
+Lisäksi suuri vasta-ainemolekyyli läpäisee silmän kudokset huonosti systeemisen annostelun jälkeen. Mahdollinen vaikutus verkkokalvoon vaatisi lasiaisensisäisen tai muun annostelutavan validoinnin. Vakiintuneet anti-VEGF- ja kortikosteroidihoidot asettavat uudelle ehdokkaalle korkean rimman.
 
-## Kirjallisuuden todisteet
+### Muut ennustetut käyttöaiheet
 
-Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
+| Sija | Käyttöaihe | TxGNN-pistemäärä | Näytön taso | Huomio |
+|---|---|---|---|---|
+| 2 | Diabeettinen retinopatia | 99,53 % | L5 | Sama perustelu kuin sijalla 1; ei tutkimuksia eikä julkaisuja |
+| 3 | Diabeettinen kaihi | 99,21 % | L5 | Selvää mekanistista yhteyttä ei ole; todennäköisesti graafin läheisyydestä johtuva artefakti. Leikkaus on ratkaiseva hoito |
+| 4 | Lääkkeiden aiheuttama osteoporoosi | 99,20 % | L5 | IL-23/IL-17 vaikuttaa luun uudelleenmuodostukseen, joten yhteys on uskottava mutta epäsuora; vain hypoteesi prekliiniseen tutkimukseen |
 
-## Suomen markkinatiedot
+---
 
-Tildrakizumab ei ole markkinoitu Suomessa (0 markkinointilupia saatavilla). Tätä ehdokasta varten ei ole tällä hetkellä saatavilla hyväksyttyjen tuotteiden, annostelumuotojen tai indikaatioiden tietoja.
+## Kliiniset tutkimukset
+
+Ei tällä hetkellä aiheeseen liittyviä rekisteröityjä kliinisiä tutkimuksia.
+
+---
+
+## Kirjallisuusnäyttö
+
+Ei tällä hetkellä aiheeseen liittyvää kirjallisuutta.
+
+---
+
+## Tiedot Suomen markkinoista
+
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004514 | Ilumetri | – | Psoriaasi |
+
+Myyntilupa on tilassa "peruutettu", eikä voimassa olevia myyntilupia ole.
+
+---
 
 ## Turvallisuusnäkökohdat
 
-Turvallisuustiedot löytyvät pakkausselosteesta.
+**Lääkeyhteisvaikutukset** (kyselyn perusteella yhteensä 78 yhteisvaikutusta; alla esimerkkejä saaduista tuloksista):
 
-*(Huomautus: todistusaineisto merkitsee Fimea/pakkaustason varoitusten ja vasta-aiheisten puuttumisen estäväksi tiedon puutteeksi — katso Johtopäätös alla.)*
+- **Merkittävät (Major):** adalimumabi, barisitinibi, sertolitsumabipegoli, kladribiini. Näihin liittyy lähinnä immunosuppression additiivinen riski.
+- **Kohtalaiset (Moderate):** esim. roflumilasti, takrolimuusi, atsatiopriini, siklosporiini, anakinra, kanakinumabi, alemtutsumabi, denosumabi, alefasepti sekä tietyt rokotteet (mm. jäykkäkouristustoksoidi, pernaruttorokote, elävä koleravasta-ainerokote).
+- **Vähäiset (Minor):** sinkkivalmisteet (sulfaatti, asetaatti, glukonaatti, kloridi).
+
+Pakkausselosteen varoituksia ja vasta-aiheita ei ollut käytettävissä. Tarkista turvallisuustiedot valmisteyhteenvedosta.
+
+---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Odotusasema**
+**Päätös: Hold (odota)**
 
-**Perustelut:**
-Tämä on puhtaasti laskennallinen (L5) signaali ilman tukevia kliinisiä tutkimuksia tai kirjallisuutta, ilman vahvistettua mekanistista siltaa ehdotettuun indikaatioon, ja lääke ei ole tällä hetkellä markkinoitu Suomessa. Ei ole vielä perusteita siirtää tätä ehdokasta alkuperäisen seulonnan ohi.
+**Perustelu:**
+- Ennusteen pistemäärä on korkea (99,63 %), mutta näyttö on tasoa L5: ei kliinisiä tutkimuksia, ei julkaisuja eikä prekliinistä aineistoa. Lisäksi systeemisen vasta-aineen silmäpenetraatio on rajallinen ja vakiintuneet hoidot ovat vahvoja. Myyntilupakin on Suomessa peruutettu.
 
 **Jatkaminen edellyttää seuraavaa:**
-- Virallinen pakkauseloste / pakkaustason varoitukset ja vasta-aiheet (tällä hetkellä estävä tiedon puute — vaaditaan ennen mitään turvallisuuden esiseulontaa)
-- Strukturoitu vaikutusmekanismin vahvistus DrugBankista tai vastaavasta lähteestä (tällä hetkellä korkean vakavuuden tiedon puute)
-- Tildrakizumabin alkuperäinen hyväksytty indikaatio ja sääntelyhistoria
-- Prekliininen tai translatoriaalinen data, joka erityisesti yhdistää IL-23/Th17-inhibition diabeettisen retinopatian patofysiologiaan (alatyyppikohtainen, ei johdettu yleisistä DR-hypoteeseista)
-- Kaikki nousevat kliiniset tutkimukset tai tapausraporttien todisteet tässä indikaatiotilassa, evidence level L5:n yläpuolelle arviointiin
-
+- Vaikutusmekanismin (MOA) tietojen täydentäminen
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden kerääminen turvallisuusseulontaa varten (estävä tietopuute)
+- Prekliiniset tiedot IL-23/IL-17-akselin roolista diabeettisessa retinopatiassa
+- Annostelureitin ja silmäpenetraation arviointi (esim. lasiaisensisäinen anto)
+- Kirjallisuushaku ja kliinisten tutkimusten rekisterihaku uudelleen
+- Arvio lääkkeen markkinatilanteesta ja saatavuudesta Suomessa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -2,7 +2,7 @@
 layout: default
 title: Imiglucerase
 parent: Kohtalainen näyttö (L3-L4)
-nav_order: 192
+nav_order: 224
 evidence_level: L4
 indication_count: 5
 ---
@@ -29,66 +29,80 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Imiglucerase: Gaucherin taudista Hurlerin oireyhtymään
+# Imiglusidaasi: Gaucherin taudista Hurlerin oireyhtymään
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Imiglucerase on rekombinantti glukoserebrosidasientsyymiaineenvaihtohoidon valmiste, jota on historiallisesti käytetty Gaucherin taudin hoitoon.
-TxGNN-malli ennustaa sen saattavan olla tehokas **Hurlerin oireyhtymään**,
-mutta tämä suunta on tällä hetkellä tuettu **0 kliinisellä tutkimuksella** ja vain **2 yleisellä (ei tautikohtaisella) katsauksella**, ja taustalla oleva mekanistinen perustelu näyttää heikolta.
+Imiglusidaasi on rekombinantti glukoserebrosidaasientsyymi, jota on alun perin käytetty **Gaucherin taudin** hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **Hurlerin oireyhtymään** (MPS I), mutta ennuste perustuu vain mallilaskentaan: kliinisiä tutkimuksia ei ole, ja aiheeseen liittyy vain **1 yleiskatsaus** entsyymikorvaushoidoista, jossa ei ole imiglusidaasikohtaista tietoa MPS I:stä.
 
-## Pikayleiskatsaus
+## Pikakatsaus
 
-| Kohde | Sisältö |
+| Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Gaucherin tauti (kirjallisuusnäytön perusteella tässä paketissa; strukturoitua sääntelyllä hyväksytyn indikaation tekstiä ei ole saatavilla) |
-| Ennustettu uusi indikaatio | Hurlerin oireyhtymä |
-| TxGNN-ennustepistemäärä | 99.52% |
-| Näyttötaso | L4 |
-| Suomen markkinatilanne | Ei markkinoitu |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Pidätä |
+| Alkuperäinen käyttöaihe | Gaucherin tauti |
+| Ennustettu uusi käyttöaihe | Hurlerin oireyhtymä |
+| TxGNN-ennustepisteet | 99,52 % |
+| Näytön taso | L4 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennuste on järkevä?
+## Miksi ennuste voi vaikuttaa uskottavalta?
 
-Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla (DG002, tietoaukko). Tässä näyttöpaketissa olevan tiedon perusteella imiglucerase on rekombinantti muoto glukoserebrosidasientsyymistä (hapan β-glukosidaasi), jota käytetään entsyymiaineenvaihtohoidossa (ERT) glukoserebrosidin kertymän hajottamiseen Gaucherin taudissa.
+Imiglusidaasi on rekombinantti glukoserebrosidaasi (beetaglukosidaasi), joka hydrolysoi glukosyyliseramidia ja korvaa puuttuvaa entsyymiä Gaucherin taudissa. Tästä lääkkeestä ei ole tässä aineistossa erillistä, yksityiskohtaista vaikutusmekanismitietoa, joten mekanistinen arvio perustuu entsyymin tunnettuun toimintaan.
 
-Hurlerin oireyhtymä on kuitenkin mukopolysakkariidoosi tyypi I (MPS I), joka aiheutuu α-L-iduronidaasin (IDUA) puutteesta, täysin eroavasta lysosomaalista entsyymistä, joka vaikuttaa eri substraattiluokkaan (heparaani/dermataanisulfaatti, ei glukoserebroisidi). Hurlerin oireyhtymän vakioentsyymiaineenvaihtohoidon valmiste on laronidaasi (rekombinantti IDUA), ei imiglucerase.
+Hurlerin oireyhtymä (MPS I) johtuu alfa-L-iduronidaasin puutteesta, mikä johtaa glykosaminoglykaanien (dermataani- ja heparaanisulfaatti) kertymiseen. Sekä Gaucherin tauti että MPS I ovat lysosomaalisia kertymäsairauksia, joita hoidetaan entsyymikorvauksella. Yhteys on kuitenkin vain tasolla "entsyymikorvaushoidon periaate".
 
-Tämän perusteella imiglucerasin ja Hurlerin oireyhtymän välinen mekanistinen yhteys on heikko tai olematon. Korkea TxGNN-pistemäärä todennäköisesti heijastavat sitä, että malli yleistää laajemmin "lysosomaalinen varastointisairaus + entsyymiaineenvaihtohoidot" -kategoriaa sen sijaan, että se kuvaisi substraattikohtaista farmakologista suhdetta. Tämä arvio on johdonmukainen mallin muiden huippuennusteiden kanssa tässä näyttöpaketissa (Scheien oireyhtymä, kolesteryyliesterien varastointisairaus), joista näkyy sama kaava — eri aiheuttavat entsyymit/substraatit, ei tautikohtaista näyttöä ja "Pidätä"-suositus.
+Mekanistisesti ennuste on heikko: entsyymi ja substraatti ovat eri, joten imiglusidaasin ei voida odottaa korjaavan MPS I:n perusvikaa. Korkea pistemäärä heijastaa todennäköisesti lysosomaalisten kertymäsairauksien läheisyyttä tietoverkossa, ei todellista entsymaattista päällekkäisyyttä. MPS I:n hyväksytty hoito on laronidaasi.
 
-## Kliinisten tutkimusten näyttö
+## Muut ennustetut käyttöaiheet
 
-Tällä hetkellä ei liittyviä kliinisiä tutkimuksia rekisteröity
+| Sija | Sairaus | Pisteet | Näytön taso | Arvio |
+|---|---|---|---|---|
+| 2 | Scheien oireyhtymä | 99,29 % | L4 | MPS I:n lievä muoto; sama puute kuin Hurlerin oireyhtymässä, ei suoraa näyttöä |
+| 3 | Lisämunuaisen hyvänlaatuinen kasvain | 99,28 % | L5 | Uskottavaa mekanistista yhteyttä ei tunnistettu |
+| 4 | Autosomaalinen ikytoosioireyhtymä, kuolemaan johtava kulku | 99,24 % | L5 | Heikko, spekulatiivinen yhteys ihon seramidiaineenvaihdunnan kautta; suonensisäinen hoito tuskin tavoittaa orvaskettä |
+| 5 | Kolesterolinestereiden kertymätauti | 99,12 % | L5 | Aiheuttaja on lysosomaalisen happaman lipaasin puute; erityishoito on sebelipaasi alfa |
+
+Kaikkien suositus on toistaiseksi Hold.
+
+## Kliininen tutkimusnäyttö
+
+Hurlerin oireyhtymään liittyviä kliinisiä tutkimuksia ei ole tällä hetkellä rekisteröity.
 
 ## Kirjallisuusnäyttö
 
-| PMID | Vuosi | Tyyppi | Lehti | Pääasialliset havainnot |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [20534487](https://pubmed.ncbi.nlm.nih.gov/20534487/) | 2010 | Katsaus | Proceedings of the National Academy of Sciences of the United States of America | Kuvailee entsyymiaineenvaihtohoitoa PET-kuvauksella; huomioi, että ERT (mukaan lukien imiglucerase-luokkaisten rekombinanttien lysosomaalisten entsyymien) on osoittautunut tehokkaaksi Gaucherin, Fabryn, Hurlerin, Hunterin, Maroteaux-Lamyn ja Pompen taudeissa, mutta ei esitä imiglucerase-kohtaista tietoa Hurlerin oireyhtymästä |
-| [21211680](https://pubmed.ncbi.nlm.nih.gov/21211680/) | 2010 | Katsaus | La Revue de medecine interne | Yleiskatsaus entsyymiaineenvaihtohoidosta lysosomaalisten varastointisairauksien osalta; kuvaa imiglucerasin (Cerezyme) historiallista kehitystä Gaucherin taudissa ja muita tautikohtaisia ERT-hoitoja (esim. agalsidaasi Fabryn taudissa); ei käsittele Hurlerin oireyhtymää erikseen |
+| [21211680](https://pubmed.ncbi.nlm.nih.gov/21211680/) | 2010 | Katsaus | La Revue de médecine interne | Yleiskatsaus lysosomaalisten kertymäsairauksien entsyymikorvaushoidosta. Kuvaa, kuinka istukasta eristetty alglukeraasi ja sittemmin rekombinantti imiglusidaasi avasivat tien entsyymikorvaushoidoille. Ei imiglusidaasikohtaista tietoa MPS I:stä. |
 
-## Suomen markkinatiedot
+## Markkinatiedot Suomessa
 
-Imiglucerasella ei ole tällä hetkellä rekisteröityä myyntilupaa Suomessa (markkinatilanne: Ei markkinoitu; 0 hyväksyntää).
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000157 | Cerezyme (Sanofi B.V.) | – | Gaucherin tauti |
+
+Tämä myyntilupa on tilassa "peruutettu", eikä voimassa olevia myyntilupia ole.
 
 ## Turvallisuusnäkökohdat
 
-Turvallisuustietoja varten katso pakkausseloste.
+- **Lääkeyhteisvaikutukset:** Yksi kohtalaisen tason yhteisvaikutus on tunnistettu miglustaatin kanssa (lähde: DDInter).
 
-## Johtopäätös ja seuraavat vaiheet
+Muuten turvallisuustiedot on luettava valmisteyhteenvedosta.
 
-**Päätös: Pidätä**
+## Johtopäätös ja seuraavat askeleet
 
-**Perustelu:**
-Ennustetulla Hurlerin oireyhtymän indikaatiolla ei ole minkäänlaista tautikohtaista kliinistä tai kirjallisuusnäyttöä, ja ehdotettu mekanismi ei kestä tarkastelua — imiglucerase kohdistuu glukoserebrosidasin puutteeseen (Gaucherin taudin reitti), kun taas Hurlerin oireyhtymä aiheutuu eri entsyymin puutteesta (IDUA), jolla on vakiintunut, erilainen hoitostandardi (laronidaasi). Näyttötaso on L4 (vain mekanismi/malli-tasolla), eikä lääkettä ole tällä hetkellä markkinoitu Suomessa.
+**Päätös: Hold (odota)**
 
-**Jatkamisen kannalta seuraavat tiedot ovat tarpeen:**
-- TFDA/viralliset pakkausseloste-tiedot varoituksista ja vasta-aiheista (DG001, esto — estää tällä hetkellä pääsyn S1 turvallisuuskatsaukseen)
-- Vahvistetut vaikutusmekanismin tiedot (DG002)
-- Tautikohtainen esikliininen tai kliininen näyttö, joka yhdistää glukoserebrosidasin reitin suoraan MPS I -patofysiologiaan, jos tätä kandidaattia halutaan harkita uudelleen
-- Huomio: kaikki 5 TxGNN-ennustettua indikaatiota tässä näyttöpaketissa (Hurlerin oireyhtymä, Scheien oireyhtymä, lisämunuaisen adenooma, kuolettava iktyoosi-oireyhtymä, kolesteryyliesterien varastointisairaus) on tällä hetkellä luokiteltu Pidätä-kategoriaan samanlaisten mekanististen ristiriitaisuuksien tai tukevan näytön puutteen vuoksi.
+**Perustelut:**
+- Ennuste perustuu vain tietoverkon läheisyyteen. Imiglusidaasi ei korvaa MPS I:ssä puuttuvaa alfa-L-iduronidaasia, kliinisiä tutkimuksia ei ole, ainoa kirjallisuuslähde on yleinen katsaus ja MPS I:lle on jo olemassa spesifinen hoito (laronidaasi). Myös Suomen myyntilupa on peruutettu.
 
+**Jatkoa varten tarvitaan:**
+- Yksityiskohtainen vaikutusmekanismitieto (esim. DrugBankista)
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet (Fimea), jotta turvallisuusarvio voidaan tehdä
+- Prekliininen näyttö siitä, onko imiglusidaasilla mitään vaikutusta glykosaminoglykaanien kertymiseen
+- Vertailu laronidaasiin hoitovaihtoehtona
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

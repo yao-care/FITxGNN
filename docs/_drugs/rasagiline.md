@@ -2,7 +2,7 @@
 layout: default
 title: Rasagiline
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 315
+nav_order: 367
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,64 +29,73 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Rasagiliini: Parkinsonin taudista PLA2G6-assosioituneeseen neurorappeumaan
+# Rasagiliini: Parkinsonin taudista PLA2G6-liitännäiseen neurodegeneraatioon
 
 ## Yhden lauseen yhteenveto
 
-Rasagiliini on selektiivinen, peruuttamaton MAO-B-estäjä, joka on vakiintunut Parkinsonin taudin hoitoon.
-TxGNN-malli ennustaa, että se voi olla tehokas **PLA2G6-assosioituneessa neurorappeumassa**,
-mutta tätä ennustetta ei tällä hetkellä tue **kliinisiä tutkimuksia** eikä **julkaistua kirjallisuutta** — se perustuu yksinomaan mallin pistemäärään.
+Rasagiliini on MAO-B:n estäjä, jota on käytetty Parkinsonin taudin hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **PLA2G6-liitännäiseen neurodegeneraatioon** (pistemäärä 99,7 %), mutta ennusteen tueksi ei ole toistaiseksi **yhtään kliinistä tutkimusta eikä julkaisua**. Näyttö perustuu pelkkään mallin ennusteeseen.
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
-| Kohde | Sisältö |
+| Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Parkinsonin tauti (tunnetun farmakologisen luokittelun perusteella; ei dokumentoitu Suomen sääntelytiedoissa, koska lääkettä ei ole markkinoilla siellä) |
-| Ennustettu uusi käyttöaihe | PLA2G6-assosioitunut neurorappeuma |
-| TxGNN-ennustepisteys | 99.71% |
+| Alkuperäinen käyttöaihe | Parkinsonin tauti |
+| Ennustettu uusi käyttöaihe | PLA2G6-liitännäinen neurodegeneraatio |
+| TxGNN-ennusteen pistemäärä | 99,71 % |
 | Näytön taso | L5 |
-| Suomen markkinatilanne | ✗ Ei markkinoilla |
-| Lupakäyttöoikeuksien lukumäärä | 0 |
-| Suositeltu päätös | Odota |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 3 (kaikki peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennuste on perusteltu?
+## Miksi ennuste on perusteltu?
 
-Toistaiseksi yksityiskohtaista toimintamekanismin tietoa ei ole saatavilla näyttöaineistosta. Tunnettujen farmakologisten tietojen perusteella rasagiliini on selektiivinen, peruuttamaton monoamiinioksidaasi tyypin B (MAO-B) -estäjä, jota käytetään Parkinsonin taudin hoidossa. Se vähentää dopamiinin hajoamista keskushermostossa ja sitä on tutkittu mahdollisesti neurosuojaavien ja antioksidatiivisten vaikutusten osalta, jotka menevät yksinkertaisen oireiden hallinnan pidemmälle.
+Rasagiliini on peruuttamaton MAO-B:n estäjä. Se lisää dopamiinin saatavuutta synapseissa ja lievittää Parkinsonin taudin oireita. Sen on myös esitetty voivan suojata hermosoluja, mutta tämä on epävarmaa. Yksityiskohtaiset vaikutusmekanismitiedot eivät ole tässä aineistossa saatavilla.
 
-PLA2G6-assosioitunut neurorappeuma (osa NBIA/INAD-tautikirjoa, jonka aiheuttavat PLA2G6-geenimutaatiot) osoittaa kliinistä päällekkäisyyttä Parkinsonin taudin kanssa: tietyt aikuisiällä alkavat muodot osoittavat dystonia-parkinsonismi-fenotyypin, ja taustalla olevan patologian olennaisia piirteitä ovat raudan kertymä, mitokondrioiden toimintahäiriö ja kalvon fosfatidyylilipidien aineenvaihdunnan häiriöt.
+PLA2G6-liitännäiseen neurodegeneraatioon kuuluu muun muassa PLA2G6:een liittyvä dystonia-parkinsonismi, jossa esiintyy dopaminergisten hermosolujen menetystä ja alfa-synukleiinipatologiaa. Tämä muistuttaa Parkinsonin taudin patologiaa, joten parkinsonismin osalta yhteys on uskottava.
 
-Tämän ennusteen perustelut ovat siksi mekanistisesti uskottavat mutta erittäin epäsuorat — rasagiliinin MAO-B-esto ja teoreettinen neurosuoja vaikutukset voisivat ajateltavasti hidastaa neurorappeuman prosesseja, mutta PLA2G6-patologiaan ei ole suoraa molekyylisiteen, ja yhteys johdetaan puhtaasti fenotyyppisten (parkinsonismi) samankaltaisuuksien perusteella eikä vahvistetusta yhteisestä mekanismista.
+Yhteys perustuu kuitenkin vain TxGNN-ennusteeseen ja yhteiseen patologiaan. Päättely ei päde infantiiliin neuroaksonaaliseen dystrofiaan. Muut aineiston ennustetut käyttöaiheet (Rasmussenin enkefaliitti, myeliitti, transaldolaasipuutos, polymikrogyria) ovat mekanistisesti vielä heikommin perusteltuja. Lähimpänä alkuperäistä käyttöaihetta on nuorten parkinsonismi (Huntin tyyppi, pistemäärä 99,25 %), joka on mahdollinen tutkimuskysymys esimerkiksi retrospektiivisen kohortti- tai rekisteritutkimuksen muodossa.
 
-## Kliinisten tutkimusten todiste
+## Kliininen näyttö
 
-Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia
+Ei toistaiseksi rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
-## Kirjallisuuden todiste
+## Kirjallisuusnäyttö
 
-Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta
+Ei toistaiseksi aiheeseen liittyvää kirjallisuutta.
 
-## Suomen markkinatiedot
+## Tiedot Suomen markkinoilta
 
-Markkinointilupakäyttöoikeuksia ei ole tällä hetkellä Suomessa — rasagiliini ei ole markkinoilla tässä markkinassa (yhteensä lupakäyttöoikeudet: 0).
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004064 | Rasagiline Viatris (aiemmin Rasagiline Mylan) | – | Parkinsonin tauti |
+| EMEA/H/C/003957 | Rasagiline ratiopharm | – | Parkinsonin tauti |
+| EMEA/H/C/000574 | Azilect | – | Parkinsonin tauti |
+
+Kaikki kolme myyntilupaa on peruutettu.
 
 ## Turvallisuusnäkökohdat
 
-Turvallista tietoja varten katso pakkausseloste.
+Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut saatavilla tätä raporttia varten. Katso turvallisuustiedot valmisteyhteenvedosta.
+
+- **Tietämysgraafin mukaiset mahdolliset vasta-aiheet** (TxGNN/PrimeKG, ei valmisteyhteenvedon teksti): verenpainetauti, multippeliatrofia, posturaalinen ortostaattinen takykardiaoireyhtymä, ortostaattinen hypotensio, lääkkeen aiheuttama dyskinesia, epilepsia, kaksisuuntainen mielialahäiriö, maksasairaus, sappirakon sairaus, melanooma, feokromosytooma ja sympaattinen paraganglioomaa sekä eräät syövät (pohjukaissuoli, ohutsuoli, sydän, lisämunuainen).
+- **Yhteisvaikutukset** (100 löydöstä, joista osa esitetty):
+  - Merkittävät (Major): bupropioni, morfiini.
+  - Kohtalaiset (Moderate): epinefriini, simetidiini, klooripropamidi, glimepiridi, fentermiini, dietyylipropioni, dronabinoli, obetikolihappo, difenoksiini, difenoksylaatti sekä useat insuliinit (aspart, degludec, detemir, glargiini, glulisiini, human).
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Odota**
+**Päätös: Hold (odota)**
 
-**Perustelut:**
-Ennustetta tukee vain TxGNN-mallin pistemäärä (näytön taso L5), jossa ei ole kliinisiä tutkimuksia, ei kirjallisuutta ja ei vahvistettua mekanistista yhteyttä PLA2G6-assosioituneeseen neurorappeumaan — näyttö on riittämätön edetä tutkitavan seulonnan ulkopuolelle.
+**Perustelu:**
+- Ennuste perustuu pelkkään mallipisteeseen ilman kliinistä tai kirjallista näyttöä (L5). Lisäksi Suomen myyntiluvat on peruutettu ja turvallisuustiedot puuttuvat.
 
-**Edetäkseen seuraavaa tarvitaan:**
-- Vahvistetut toimintamekanismin (MOA) tiedot DrugBankista tai alkuperäiskirjallisuudesta
-- TFDA/sääntelyselosteen tiedot (varoitukset, vasta-aiheet) — tällä hetkellä turvallisuuden esiarviointia estävä tietoaukko
-- Prekliinistä tai mekanistista tutkimusta, joka suoraan yhdistää MAO-B-eston PLA2G6-liittyvään neurorappeuman patologiaan
-- Tapausselostukset tai havainnointitiedot NBIA/INAD-spektrin potilaissa, jos niitä on olemassa
-- Lääkeinteraktio (DDI) -profiili, koska sitä ei ole tällä hetkellä dokumentoitu
-
+**Eteenpäin siirtyminen edellyttää:**
+- Valmisteyhteenvedon varoitus- ja vasta-aihetietojen hankintaa (Fimea).
+- Vaikutusmekanismitietojen täydentämistä (DrugBank).
+- Kirjallisuushakua PLA2G6-liitännäisestä neurodegeneraatiosta ja MAO-B:n estäjistä.
+- Nuorten parkinsonismin (Huntin tyyppi) tutkimuskysymyksen muotoilua, esimerkiksi rekisteri- tai retrospektiivisenä selvityksenä.
+- Selvitystä rasagiliinin saatavuudesta Suomessa, koska kaikki myyntiluvat on peruutettu.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

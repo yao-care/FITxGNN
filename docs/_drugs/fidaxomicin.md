@@ -2,7 +2,7 @@
 layout: default
 title: Fidaxomicin
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 165
+nav_order: 190
 evidence_level: L5
 indication_count: 9
 ---
@@ -29,75 +29,88 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 
 </div>
 
-# Fidaksomisiini: Clostridioides difficile -infektiosta stafilokokkin aiheuttamaan ihottuma-oireyhtymään (SSSS)
+# Fidaksomisiini: Clostridium-infektioista stafylokokin aiheuttamaan kuoriutuvaan ihosyndroomaan
 
 ## Yhden lauseen yhteenveto
 
-Fidaksomisiini on kapea-spektrinen makrosyklinen antibiootti, jonka vakiintunut käyttö on *Clostridioides difficile* -infektioiden hoito suoleen rajoittuneen (ei-systeemisen) antibakteerisen toiminnan kautta. TxGNN-malli ennustaa mahdollista tehokkuutta **stafilokokkin aiheuttamaa ihottuma-oireyhtymää (SSSS)** vastaan, mutta tällä suunnalla ei ole tällä hetkellä **mitään tukevia kliinisiä tutkimuksia eikä julkaisuja** (L5, vain mallin ennuste), ja tähän näyttöpakettiin liittyvä mekanistinen analyysi itse asiassa puoltaa *epäuskottavuutta*, koska fidaksomisiinilla on merkityksetön systeeminen absorptio.
+Fidaksomisiini on makrosyklinen, kapeakirjoinen antibiootti, jota on alun perin käytetty Clostridium-infektioiden hoitoon. TxGNN-malli ennustaa sen voivan tehota **stafylokokin aiheuttamaan kuoriutuvaan ihosyndroomaan (SSSS)**, mutta ennusteelle ei ole toistaiseksi **yhtään kliinistä tutkimusta eikä kirjallisuuslähdettä**. Näyttö perustuu pelkästään mallin laskennalliseen pisteytykseen.
 
----
-
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | *Clostridioides difficile* -infektio (CDI) — tunnetun lääkeluokan/mekanismin perusteella; Suomen markkinoiden hyväksyntää ei ole olemassa tämän vahvistamiseksi muodollisesti |
-| Ennustettu uusi indikaatio | Stafilokokkin aiheuttama ihottuma-oireyhtymä (SSSS) |
-| TxGNN-ennusteen pistemäärä | 99,71% |
+|------|------|
+| Alkuperäinen käyttöaihe | Clostridium-infektiot |
+| Ennustettu uusi käyttöaihe | Stafylokokin aiheuttama kuoriutuva ihosyndrooma (staphylococcal scalded skin syndrome) |
+| TxGNN-ennustepisteet | 99,71 % |
 | Näytön taso | L5 |
-| Suomen markkinoiden tila | Ei myyntilupia |
-| Myyntilupien lukumäärä | 0 |
-| Suositeltu päätös | Odota |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
----
+## Miksi ennuste on järkevä – tai ei?
 
-## Miksi tämä ennuste on järkevä?
+Fidaksomisiini estää bakteerin RNA-polymeraasia, ja sen vaikutus kohdistuu pääosin gram-positiivisiin bakteereihin, kuten *Clostridioides difficile* -bakteeriin. Yksityiskohtaista vaikutusmekanismitietoa ei ole tällä hetkellä saatavilla tähän raporttiin koottujen tietojen perusteella. Tunnetun lääkeluokan perusteella mekanistinen yhteys on kuitenkin mahdollinen: laboratoriokokeissa on raportoitu jonkin verran *Staphylococcus aureus* -tehoa, ja tämä bakteeri tuottaa SSSS:n aiheuttavia eksfoliatiivisia toksiineja.
 
-Yksityiskohtaista, lähdettyä tietoa fidaksomisiinin toimintamekanismista ei ole saatavilla lääketason tasolla (DrugBank MOA -kenttä: tietojen puute). Näyttöpaketin omat mekanistiset perustelut osoittavat kuitenkin, että fidaksomisiini on kapea-spektrinen makrosyklinen antibiootti, joka estää bakteerien RNA-polymeraasia (σ-alayksikkö), ja sen toiminta on keskittynyt *Clostridium*-sukuisiin organismeihin, mukaan lukien *C. difficile*. Kriittisesti, suun kautta annetun biokäytettävyyden raportoitu arvo on **<0,5%**, mikä tarkoittaa, että lääke vaikuttaa lähes kokonaan suolen sisällökseen eikä saavuta merkityksellistä systeemistä verenkiertoa.
+Ennusteessa on kuitenkin vakavia heikkouksia. Suun kautta annettu fidaksomisiini imeytyy hyvin vähän, joten systeeminen altistus on mitätön. Tämä tekee lääkkeestä epätodennäköisen valinnan systeemiseen, toksiinivälitteiseen sairauteen. Korkea pistemäärä on siis laskennallinen ennuste, jota mikään kliininen tieto ei tue.
 
-SSSS:n aiheuttaa eksfoliatiiviä myrkkyä tuottava *Staphylococcus aureus* ja se vaatii **systeemisen** anti-stafilokokkisen antibiootin taustalla olevan infektion hallitsemiseksi. Koska fidaksomisiinilla on lähes täydellinen systeemisen absorption puute, se ei voi saavuttaa ihon stafilokokki-infektiota terapeuttisissa pitoisuuksissa — farmakokineettinen profiili on perustavanlaatuisesti ristiriidassa tämän indikaation vaatimusten kanssa. Tähän ennusteeseen liittyvä perusteluteksti toteaa nimenomaisesti, että "mekanismi ja PK-ominaisuudet eivät tue tätä indikaatiota."
+### Muut ennustetut käyttöaiheet
 
-Kontekstiksi, sama TxGNN-erä merkitsee 9 ehdokkaan indikaatiota fidaksomisiinille, ja suurimman osan heistä sisäiset perustelut (bulloosinen impetigo, impetigo, hordeolum, vulvovaginaalinen kandidiaasiinfektio, pistemainen epiteelisen keratokonjunktiviitti) huomaavat samoin mekanistisen epäsoveltuvuuden — joko väärä patogeenikanta (esim. vulvovaginaalinen kandidiaasiinfektio on sieniperäinen; fidaksomisiinilla ei ole antisieni-toimintaa) tai väärä kompartmentti (ihon/silmän infektiot, jotka vaativat systeemistä tai paikallista eksponoitumista, jota fidaksomisiini ei voi tarjota). Ainoa poikkeus, joka merkitään vertailukelpoisen uskottavammaksi, on **toksiinimediioitu infektiivinen botulismi** (sijoitus 5), jossa ehdotettu mekanismi — ruumensisäisen *Clostridium botulinum* -kasvun estäminen — vastaa fidaksomisiinin vakiintuneen suolen sisäisen anti-*Clostridium* -toiminnan kanssa *C. difficile* vastaan. Silti senkin indikaatiolla ei ole kliinisen tutkimuksen tai kirjallisuuden tukea. Kaiken kaikkiaan tätä erää tulee käsitellä matalan luottamustason mallin tuotoksena, joka vaatii huomattavaa riippumatonta validointia ennen kuin mitään indikaatiota jatketaan.
+Mallin muut ennusteet ovat samansuuntaisia: kaikilla on näytön taso L5 ja suositus Hold.
 
----
+| Sija | Käyttöaihe | Pisteet | Keskeinen huomio |
+|------|------|------|------|
+| 2 | Rakkulainen impetigo | 99,70 % | Suun kautta annettu lääke ei saavuta ihokudosta; paikallista valmistetta ei ole; vaihtoehtoja on |
+| 3 | Inhalaatiobotulismi | 99,69 % | Toksiinivälitteinen; hoito on antitoksiini ja tukihoito; heikko mekanistinen peruste |
+| 4 | Impetigo | 99,68 % | Ei ihoon tarkoitettua valmistetta; tehokkaita paikallislääkkeitä on (mm. mupirosiini, retapamuliini) |
+| 5 | Toksiinivälitteinen infektiivinen botulismi | 99,66 % | Teoreettinen peruste suolistoon rajoittuvalle kolonisaatiolle, mutta spekulatiivinen |
+| 6 | Vulvovaginaalinen kandidiaasi | 99,65 % | Sieni-infektio; ei tunnettua sienivaikutusta; todennäköisesti mallin artefakti |
+| 7 | Rapykkä (hordeolum) | 99,64 % | Ei silmä- tai paikallisvalmistetta; imeytyminen mitätöntä |
+| 8 | *Staphylococcus aureus* -keuhkokuume | 99,21 % | Keuhkokudoksen pitoisuudet jäisivät riittämättömiksi; vakiintuneita lääkkeitä on |
+| 9 | Pistemäinen epiteliaalinen keratokonjunktiviitti | 99,02 % | Usein virus- tai tulehdusperäinen; ei selvää kohdetta; todennäköisesti mallin artefakti |
 
-## Kliinisen tutkimuksen näyttö
+## Kliininen tutkimusnäyttö
 
-Tällä hetkellä ei ole rekisteröityjä vastaavia kliinisiä tutkimuksia.
+Tällä hetkellä ei ole aiheeseen liittyviä rekisteröityjä kliinisiä tutkimuksia.
 
----
+## Kirjallisuusnäyttö
 
-## Kirjallisuuden näyttö
+Ensisijaiselle ennusteelle (SSSS) ei ole saatavilla aiheeseen liittyvää kirjallisuutta. Ainoa kirjallisuusviite löytyi sijalla 8 olevalle *S. aureus* -keuhkokuumeelle:
 
-Tällä hetkellä kirjallisuutta ei ole saatavilla.
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [31634096](https://pubmed.ncbi.nlm.nih.gov/31634096/) | 2019 | Katsaus | Journal of Hospital Medicine | Yleinen sairaalalääketieteen kirjallisuuskatsaus, jossa todetaan mm. vankomysiinin tai fidaksomisiinin olevan ensilinjan hoito *C. difficile* -infektiossa. Ei näyttöä fidaksomisiinin tehosta keuhkokuumeessa. |
 
----
+## Myyntiluvat Suomessa
 
-## Suomen markkinoiden tiedot
+| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/002087 | Dificlir | – | Clostridium-infektiot (tila: peruutettu) |
 
-Fidaksomisiinia ei ole tällä hetkellä hyväksytty myyntiin Suomessa; Fimean markkinatarkastuksesta ei ole tämän tuotteen hyväksyntätietoja (hyväksyntöjen kokonaismäärä: 0).
+## Turvallisuusnäkökohdat
 
----
+### Lääkeyhteisvaikutukset
 
-## Turvallisuutta koskevat huomiot
+Tähän raporttiin koottujen tietojen mukaan yhteisvaikutuksia on kirjattu yhteensä 79. Esimerkkejä:
 
-Katso pakkausselosteesta turvallisuustietoja. (Fidaksomisiinin keskeisiä varoituksia, vasta-aiheita tai lääkkeiden välisiä vuorovaikutustietoja ei ollut saatavilla tällä hetkellä; TFDA/Fimean pakkausselosteen haku on merkitty tämän näyttöpaketin estäväksi tietojen puutteeksi.)
+- **Merkittävä (Major):** elävä koleraroksote (*Vibrio cholerae* CVD 103-HgR)
+- **Kohtalainen (Moderate):** alpelisibi, apalutamidi, binimetinibi, pikosulfaatti
+- **Lievä (Minor):** mm. nifedipiini, amiodaroni, diltiatseemi, verapamiili, siklosporiini, klaritromysiini, erytromysiini, spironolaktoni
 
----
+Muuta turvallisuustietoa (varoitukset, vasta-aiheet) ei ole saatavilla; tarkista ne valmisteyhteenvedosta.
 
-## Johtopäätös ja seuraavat vaiheet
+## Johtopäätös ja seuraavat askeleet
 
-**Päätös: Odota**
+**Päätös: Hold**
 
 **Perustelut:**
-Parhaiten sijoitetulla ennusteella (SSSS) ei ole kliinistä tai kirjallisuuden tukea (L5) ja sen oman mekanistisen arvioinnin mukaan se vastustaa farmakologisen uskottavuuden perusta, koska fidaksomisiinilla on merkityksetön systeeminen absorptio. Yhdessä lääkkeen puuttuvan myyntiluvan kanssa Suomessa ja puuttuvan MOA/turvallisuuden dokumentoinnin kanssa, edistämisen perusta on riittämätön.
+- Ennuste perustuu pelkkään mallipisteytykseen (L5), eikä sille ole kliinistä tutkimusta tai kirjallisuutta. Lääkkeen vähäinen imeytyminen heikentää uskottavuutta systeemisissä ja kudoskohteissa, ja vakiintuneita hoitoja on olemassa. Lisäksi Suomen myyntilupa on peruutettu.
 
-**Jatkon kannalta tarvitaan seuraavaa:**
-- TFDA/Fimean pakkausseloste (varoitukset, vasta-aiheet) — tällä hetkellä estävä puute (DG001)
-- Vahvistettu alkuperäisen toimintamekanismin dokumentointi DrugBankista — korkea-asteinen puute (DG002)
-- Mikäli jatketaan edelleen, in vitro/in vivo näyttö systeemisestä tai paikallisesta anti-stafilokokkisesta tehokkuudesta SSSS:lle, koska nykyiset PK-tiedot ovat ristiriidassa ennusteen kanssa
-- Harkitse arviointien ohjaamista uudelleen toksiinimediioituun infektiiviseen botulismiin (sijoitus 5), jonka mekanistiset perustelut ovat johdonmukaisemmat (jaettu *Clostridium*-suku, suolen sisäinen toiminta), mutta se vaatii kuitenkin de novo prekliinisen/kliinisen näyttöjen luomista, koska mitään ei ole tällä hetkellä olemassa
-
+**Etenemiseksi tarvitaan seuraavat tiedot tai toimet:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittäminen (estää turvallisuusarvioinnin jatkamisen)
+- Vaikutusmekanismin (MOA) tiedot
+- Prekliiniset tiedot fidaksomisiinin tehosta SSSS:n aiheuttajaa (*S. aureus*) vastaan sekä kudosaltistuksesta
+- Arvio mahdollisista antoreiteistä (esim. paikallinen valmiste), sillä nykyinen suun kautta annettava muoto ei sovellu systeemiseen tai ihokohteeseen
+- Ennusteiden uudelleenarviointi vasta, kun ensimmäistä tukevaa kliinistä tai kirjallista näyttöä on saatavilla
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

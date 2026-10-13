@@ -2,7 +2,7 @@
 layout: default
 title: Esomeprazole
 parent: Kohtalainen näyttö (L3-L4)
-nav_order: 155
+nav_order: 177
 evidence_level: L4
 indication_count: 3
 ---
@@ -29,63 +29,106 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Esomeprazoli: Happoon liittyvistä ruoansulatuskanavan häiriöistä duodenomahaisen refluksiin
+# Esomepratsoli: Refluksitaudista duodenogastriseen refluksiin
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Esomeprazoli on protonienpumpun estäjä (PPI), omeprazoolin S-isomeeri, joka on vakiintuneesti käytössä happoperäisten ruoansulatuskanavan häiriöiden, kuten mahahaavan, H. pylori -infektio, refluksitaudin ja NSAID:n aiheuttamien ruoansulatuskanavan vaurioiden hoitoon. TxGNN-malli ennustaa, että se saattaa olla tehokas **duodenomahaisen refluksiin**, mutta tämä suunta on tällä hetkellä tuettu vain **yhdellä yleisellä katsausartikkelilla** eikä **sairauspesifisillä kliinisillä tutkimuksilla**.
+Esomepratsoli on protonipumpun estäjä, jota käytetään alun perin ruokatorven refluksitaudin (gastroesofageaalinen refluksi) hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **duodenogastriseen refluksiin** (sappi- tai pohjukaissuolen refluksi mahaan).
+Ennusteen tueksi ei ole yhtään kliinistä tutkimusta, ja kirjallisuutta on vain **yksi yleinen katsaus**. Näyttö on siis heikkoa.
 
-## Nopea yleiskatsaus
+---
+
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Ei saatavilla — tiedostoissa ei ole markkinoilta johtuvaa hyväksyntää tai hyväksyttyä indikaatiota tälle rekisterille |
-| Ennustettu uusi indikaatio | Duodenomahainen refluksi |
-| TxGNN-ennustepisteet | 99.53% |
-| Näyttötaso | L4 |
-| Suomen markkinoiden status | ✗ Ei markkinoilla |
-| Hyväksyntöjen määrä | 0 |
-| Suositeltu päätös | Pidätä |
+|------|------|
+| Alkuperäinen käyttöaihe | Gastroesofageaalinen refluksi |
+| Ennustettu uusi käyttöaihe | Duodenogastrinen refluksi |
+| TxGNN-ennustepisteet | 99,53 % |
+| Näytön taso | L4 |
+| Markkinatilanne Suomessa | Vain peruttu myyntilupa (ei aktiivista valmistetta) |
+| Myyntilupien määrä | 1 (peruttu) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennuste on järkevä?
+---
 
-Yksityiskohtaisia vaikutusmekanismin tietoja ei ole tällä hetkellä saatavilla (Tiedon puute). Tämän todistepaketin tukevan kirjallisuuden perusteella esomeprazoli kuuluu protonienpumpun estäjien (PPI) luokkaan, joka palautumattomasti estää mahakalvon parietaalisolulta H+/K+-ATPaasin happon erittymisen estämiseksi; sen tehokkuus happoon liittyvien häiriöiden (mahahaava, H. pylori -infektio, refluksitauti, NSAID:n aiheuttamat ruoansulatuskanavan vauriot, Zollinger-Ellison -oireyhtymä) hoidossa on hyvin vakiintunut.
+## Miksi ennuste on perusteltu?
 
-Kuitenkin mekanistinen yhteys duodenomahaisen refluksiin on nimenomaisesti arvioitu heikoksi tässä todistepaketeissa. Duodenomahainen refluksi johtuu ensisijaisesti sapen ja haiman entsyymin refluksista mahaansa — ei-happaman/emäksisen vauriomekanismin. Esomeprazoli vain estää mahahapon erittymisen, eikä sillä ole suoraa farmakologista vaikutusta sapen refluksiin itseensä; se voi enintään epäsuorasti helpottaa limakalvon vaurioiden hapanta komponenttia sekavaikuttavan tyyppisten refluksien yhteydessä. Korkea TxGNN-pistemäärä tulisi siten tulkita epäsuoraksi päätelmäksi lääkkeen laajemmasta happo-esto-profiilista, ei todisteiksi suorasta terapeuttisesta kohteesta.
+Yksityiskohtaista vaikutusmekanismitietoa ei ole tällä hetkellä saatavilla. Tunnetun tiedon perusteella esomepratsoli kuuluu protonipumpun estäjiin, sen teho happoperäisessä refluksitaudissa on osoitettu, ja mekanistisesti se voi soveltua myös duodenogastrisen refluksin hoitoon.
+
+Esomepratsoli vähentää mahahapon eritystä, mikä voi lievittää oireita tai limakalvovauriota, kun refluksi sisältää sekä happoa että sappea. Duodenogastrinen (sappi-) refluksi on kuitenkin patofysiologialtaan eri tila kuin happoperäinen refluksi. Lääke ei estä sapen paluuvirtausta sinänsä.
+
+Korkea ennustepistemäärä johtuu todennäköisesti siitä, että lääkkeen tunnettu käyttöaihe (happorefluksi) on tiedonsiirtoverkostossa hyvin lähellä tätä sairautta. Pistemäärä on pelkkä ennuste, ei kliininen todiste tehosta.
+
+---
 
 ## Kliininen tutkimusnäyttö
 
-Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
+Tähän ennustettuun käyttöaiheeseen ei ole tällä hetkellä rekisteröityjä kliinisiä tutkimuksia.
 
-## Kirjallisuuden näyttö
+---
+
+## Kirjallisuusnäyttö
 
 | PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
-|------|------|--------|--------|---------|
-| [18679668](https://pubmed.ncbi.nlm.nih.gov/18679668/) | 2008 | Katsaus | European Journal of Clinical Pharmacology | Yleinen päivitys PPI:n kliinisestä käytöstä (mahahaava, H. pylori -infektio, refluksitauti, NSAID:n aiheuttamat ruoansulatuskanavan vauriot, Zollinger-Ellison -oireyhtymä); ei kohdista spesifisesti duodenomahaisen refluksiin |
+|------|-----|------|------|---------|
+| [18679668](https://pubmed.ncbi.nlm.nih.gov/18679668/) | 2008 | Katsaus | European Journal of Clinical Pharmacology | Yleiskatsaus protonipumpun estäjien kliiniseen käyttöön ja farmakokinetiikkaan. Ne ovat ensisijaisia lääkkeitä mahahaavan, H. pylori -infektion, refluksitaudin, tulehduskipulääkkeiden aiheuttamien ruoansulatuskanavan vaurioiden ja Zollinger-Ellisonin oireyhtymän hoidossa. Katsaus ei käsittele duodenogastrista refluksia erikseen. |
 
-## Suomen markkinoiden tiedot
+---
 
-Tiedostoissa ei ole markkinoilta johtuvaa hyväksyntää — tämä lääke ei ole tällä hetkellä markkinoilla tämän rekisterin mukaisesti (0 hyväksyntää).
+## Myyntiluvat Suomessa
 
-## Turvallisuushuomiot
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/002618 (peruttu) | Nexium Control | Ei ilmoitettu | Gastroesofageaalinen refluksi |
 
-Katso pakkausselosteesta turvallisuustiedot.
+---
+
+## Turvallisuusnäkökohdat
+
+- **Vasta-aiheet (tietämysverkostosta, ei valmisteyhteenvedosta):** TxGNN-tietämysverkosto yhdistää esomepratsolin seuraaviin tiloihin: maksan vajaatoiminta, osteoporoosi, postmenopausaalinen osteoporoosi, luunmurtuma ja krooninen atrofinen gastriitti. Nämä on tarkistettava valmisteyhteenvedosta.
+- **Lääkeyhteisvaikutukset:** Kirjattuja yhteisvaikutuksia on yhteensä 100. Vakavaksi (Major) luokiteltuja ovat esimerkiksi:
+  - asalabrutinibi
+  - atsanaviiri
+
+  Kohtalaisia (Moderate) ovat esimerkiksi:
+  - hydroklooritiatsidi
+  - amfoterisiini B
+  - amikasiini
+  - amfetamiini
+  - fenofibraatti
+  - apalutamidi
+  - atorvastatiini
+  - bendamustiini
+  - bosutinibi
+  - bumetanidi
+
+  Lieviä (Minor) ovat esimerkiksi:
+  - asetyylisalisyylihappo
+  - aksitinibi
+  - bortetsomibi
+  - brivarasetaami
+  - syanokobalamiini
+
+Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta. Sen varoitus- ja vasta-aihetietoja ei ole vielä saatu käyttöön.
+
+---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Pidätä**
+**Päätös: Hold (odota)**
 
-**Perustelu:**
-TxGNN-ennustepiste on korkea, mutta mekanistinen yhteys duodenomahaisen refluksiin on epäsuora (happo-esto vs. sapesta peräisin oleva vaurio), ja todistepohja koostuu yhdestä yleisestä PPI-katsauksesta ilman sairauspesifisiä kliinisiä tutkimuksia — näyttötaso L4 ei täytä kynnystä edetä.
+**Perustelut:**
+- Duodenogastriselle refluksille ei ole kliinisiä tutkimuksia eikä kohdennettua kirjallisuutta. Mekanistinen yhteys on vain osittainen: lääke vähentää happoa mutta ei pysäytä sappirefluksia. Lisäksi suomalaista aktiivista markkinavalmistetta ei ole (myyntilupa peruttu).
+- Samassa ennustelistassa kolmantena oleva **pohjukaissuolihaava** on huomattavasti paremmin tuettu: aineistossa on useita valmistuneita vaiheen 3 tutkimuksia (esim. NCT00633932, NCT00633672, NCT00542789) ja satunnaistettuja tutkimuksia H. pylori -hoidoista. Se on kuitenkin läheistä sukua jo hyväksytyille happoperäisille käyttöaiheille, joten kyse on pikemminkin käyttöaiheen laajentamisesta kuin uudesta uudelleenkäytöstä. Sitä kannattaa arvioida erikseen.
 
-**Jatkaakseen tarvitaan seuraavaa:**
-- Vahvistettu alkuperäinen indikaatio ja vaikutusmekanismin tiedot (tällä hetkellä tiedon puute, estää S1-turvallisuuden esiarviointia)
-- TFDA/sääntelyinen pakkausseloste (varoitukset, vasta-aiheet, DDI)
-- Prekliiniset tai mekanistiset tutkimukset, jotka erityisesti käsittelevät sapen/emäksisen refluksien modulaatiota
-- Sairauspesifinen kliininen näyttö duodenomahaisen refluksiin ennen uudelleenpisteyttämistä
-
-**Huomautus muista tämän todistepaketin ehdokkaista:** Sijoitus 3 ("duodenaalinen haava") osoittaa paljon vahvempaa näyttöä (L1, 50 tutkimusta, 20 julkaisua), mutta sen oma perustelu osoittaa, että tämä on esomeprazoolin hyvin vakiintuneet, jo hyväksytyt PPI-indikaatiot pikemminkin kuin aito uudelleenkäytön ehdokas — tyhjä `original_indications`-kenttä on sinänsä tiedon puute, ei todiste uutuudesta. Sijoitus 2 ("duodenaalinen obstrukstio") ei ole tukevia tutkimuksia tai kirjallisuutta ja heijastaa mekanistista epäsopimattomuutta (rakenteellinen obstrukstio vs. farmakologinen happo-esto); sen tulee pysyä Pidätä-tilassa.
-
+**Eteenpäin siirtyminen edellyttää:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista (esim. Fimean sivustolta), jotta turvallisuusarviointi voidaan tehdä.
+- Vaikutusmekanismitietojen täydentämistä (esim. DrugBankista).
+- Kliinistä tai prekliinistä näyttöä esomepratsolin tehosta duodenogastrisessa refluksissa.
+- Vahvistusta siitä, että aktiivinen esomepratsolivalmiste on markkinoilla Suomessa.
+- Samanaikaisten lääkkeiden (erityisesti klopidogreeli, CYP2C19) ja pitkäaikaiskäytön riskien (hypomagnesemia, murtumat, C. difficile -infektio) arviointia.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

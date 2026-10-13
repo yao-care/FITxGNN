@@ -2,7 +2,7 @@
 layout: default
 title: Darolutamide
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 110
+nav_order: 127
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,87 +29,98 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Darolutamide: eturauhassyövästä homotsygootiseen perinnölliseen hyperkolesterolemeiaan
+# Darolutamidi: Eturauhassyövän hoidosta ennustettuun uuteen käyttöaiheeseen (homotsygoottinen familiaalinen hyperkolesterolemia)
 
 ## Yhden lauseen yhteenveto
 
-Darolutamide on androgeeninreseptori (AR) -antagonisti, joka on vakiintuneesti käytössä kastraation kestävään eturauhassyöpään. TxGNN-malli ennustaa, että se voisi olla tehokas **homotsygootiseen perinnölliseen hyperkolesterolemeiaan (HoFH)**, mutta tätä ennustusta tuetaan tällä hetkellä vain **0 kliinisellä tutkimuksella** ja **0 julkaisulla**, ja mallin omat perustelut osoittavat sen olevan todennäköisesti embedding-samankaltaisuuden artefakti mekanistisesti perustellun hypoteesin sijaan.
+Darolutamidi on ei-steroidinen androgeenireseptorin salpaaja, jota on alun perin käytetty kastraatiorefraktaarisen eturauhassyövän hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **homotsygoottiseen familiaaliseen hyperkolesterolemiaan**, mutta ennusteen tueksi ei ole tällä hetkellä **yhtään kliinistä tutkimusta eikä julkaisua**. Ennuste perustuu pelkästään laskennalliseen malliin.
 
 ---
 
-## Pikayleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Eturauhassyöpä (kastraation kestävä eturauhassyöpä) — virallista indikaatiotekstiä ei ole saatavilla tässä tietojen noudosta |
-| Ennustettu uusi indikaatio | Homotsygootinen perinnöllinen hyperkolesterolemie |
-| TxGNN-ennusteen pistemäärä | 99.11% |
-| Todistusten taso | L5 |
-| Taiwan-markkinoiden asema | Ei markkinoilla |
-| Lupien lukumäärä | 0 |
-| Suositeltu päätös | Pidätä |
+|------|------|
+| Alkuperäinen käyttöaihe | Kastraatiorefraktaarinen eturauhassyöpä |
+| Ennustettu uusi käyttöaihe | Homotsygoottinen familiaalinen hyperkolesterolemia |
+| TxGNN-ennustepistemäärä | 99,11 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Miksi tämä ennuste on perusteltu?
+## Miksi ennuste voisi olla perusteltu?
 
-Tällä hetkellä yksityiskohtaisia toimintamekanismin tietoja ei ole saatavilla (merkitty kriittiseksi tietovajeen osaksi tässä paketissa). Tunnettujen tietojen perusteella darolutamide on toisen sukupolven androgeeninreseptori-antagonisti, jota käytetään kastraation kestävään eturauhassyöpään; sen teho tuossa yhteydessä on hyvin todistettu, mutta mitään MOA-tietoja ei ole täällä yhdistämään sitä rasva-aineenvaihduntaan.
+Tällä hetkellä yksityiskohtaiset tiedot vaikutusmekanismista eivät ole saatavilla. Tiedossa on, että darolutamidi on ei-steroidinen androgeenireseptorin salpaaja, jonka teho kastraatiorefraktaarisessa eturauhassyövässä on osoitettu.
 
-Homotsygootinen perinnöllinen hyperkolesterolemie on geneettinen sairaus, jonka aiheuttavat LDLR/APOB/PCSK9-puutokset, jotka heikentävät LDL-reseptorin toimintaa ja aiheuttavat äärimmäisen LDL-C-nousun. Tämä on reitti, jolla ei ole tunnettua mekanistista päällekkäisyyttä AR-signaloinnin kanssa. Todisteen paketin omat perustelut ovat selkeitä tässä asiassa: se kuvaa linkin olevan ilman "suoraa tai tunnettua epäsuoraa mekanistista yhteyttä" ja toteaa, että tämä on "ennustus, joka perustuu puhtaasti TxGNN-pisteisiin vahvistavia todisteita."
+Aineistossa ei ole mitään, mikä yhdistäisi androgeenireseptorin salpauksen LDL-reseptorin toimintahäiriöön tai tämän sairauden rasva-aineenvaihduntaan. Alkuperäinen käyttöaihe (hormoniriippuvainen syöpä) ja ennustettu käyttöaihe (perinnöllinen rasva-aineenvaihduntahäiriö) ovat lääketieteellisesti hyvin kaukana toisistaan. Korkea pistemäärä (0,991) on laskennallinen ennuste, jota mikään kliininen tieto ei tue.
 
-Toisin sanoen tätä ehdokasta tulisi lukea matalan luottamustason mallin tuotoksena eikä biologisesti motivoituna hypoteesinä. Kaksi muuta ennustettua indikaatiota tässä paketissa (moninaisendokriininen neoplasia, HIV-infektio) osoittavat saman kaavan — uskottavan kuuloisia sairauksien nimiä ilman mekanistista tai empiiristä tukea — mikä viittaa siihen, että järjestysalue, josta nämä ennusteet tulevat (rank ~8,600–9,200), saattaa sijaita TxGNN:n korkean luottamustason alueen ulkopuolella.
-
----
-
-## Kliinisten tutkimusten todisteet
-
-Tällä hetkellä ei ole rekisteröityjä kliinisiä tutkimuksia.
+Muut mallin ennustamat käyttöaiheet olivat moninainen endokriininen neoplasia (pistemäärä 99,06 %, näytön taso L4) ja HIV-infektio (99,04 %, L5). Kumpaankaan ei löydy uskottavaa mekanistista yhteyttä: kaksi moninaiseen endokriiniseen neoplasiaan liitettyä tutkimusta koskevat todennäköisesti eturauhassyöpää, eivätkä ne ole kohdennettuja kyseiseen oireyhtymään.
 
 ---
 
-## Kirjallisuuden todisteet
+## Kliininen tutkimusnäyttö
 
-Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta.
-
----
-
-## Taiwan-markkinoiden tiedot
-
-Darolutamide ei ole tällä hetkellä markkinoilla Taiwanissa (0 lupaa, käytettävissä olevia lisenssitietueita ei ole tässä tietojen noudosta).
+Tällä hetkellä ei ole rekisteröityjä kliinisiä tutkimuksia, jotka liittyisivät homotsygoottiseen familiaaliseen hyperkolesterolemiaan.
 
 ---
 
-## Syytoksisyys
+## Kirjallisuusnäyttö
+
+Tällä hetkellä aiheeseen liittyvää kirjallisuutta ei ole saatavilla.
+
+---
+
+## Markkinatiedot Suomessa
+
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004790 | Nubeqa | – | Kastraatiorefraktaarinen eturauhassyöpä (tila: peruutettu) |
+
+---
+
+## Sytotoksisuus
 
 | Kohta | Sisältö |
-|------|---------|
-| Syytoksisyyden luokitus | Kohdennettu hoito — androgeeninreseptori-antagonisti (hormonihoitoinen antineoplastinen aine, ei tavanomainen syytoksinen kemikaalihoito) |
-| Ydinrihmaston suppressio -riski | Katso pakettiselosteen varoituksia ja varotoimenpiteitä |
-| Pahoinvoinnin aiheuttavuuden luokitus | Katso pakettiselosteen varoituksia ja varotoimenpiteitä |
-| Valvottavat tekijät | Katso pakettiselosteen varoituksia ja varotoimenpiteitä |
-| Käsittelysuojaus | Katso pakettiselosteen varoituksia ja varotoimenpiteitä |
+|------|------|
+| Sytotoksisuusluokitus | Kohdennettu hoito (ei-steroidinen androgeenireseptorin salpaaja), ei tavanomainen solunsalpaaja |
+| Luuydinsuppression riski | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Oksentelua aiheuttava vaikutus | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Seurattavat parametrit | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Käsittelysuojaus | Katso valmisteyhteenvedon varoitukset ja varotoimet |
 
 ---
 
-## Turvallisuushuomiot
+## Turvallisuushuomioita
 
-Turvallisuustiedot löytyvät pakettiselosteesta.
+- **Lääkeyhteisvaikutukset:** Tietokannassa on kirjattu yhteensä 100 yhteisvaikutusta. Merkittäviä (Major) yhteisvaikutuksia on raportoitu muun muassa seuraavien lääkeaineiden kanssa:
+  - deksametasoni
+  - eluksadoliini
+  - rosuvastatiini
+- Kohtalaisia (Moderate) yhteisvaikutuksia on mm. klaritromysiinin, empagliflotsiinin, glyburidin, repaglinidin, simvastatiinin, sulfasalatsiinin, kobisistaatin, deferasiroksin ja eltrombopagin kanssa.
+- Lieviä (Minor) yhteisvaikutuksia on mm. aprepitantin, simetidiinin ja mikonatsolin kanssa.
+- Huomionarvoista on, että kolesterolia alentavat statiinit (rosuvastatiini: merkittävä, simvastatiini: kohtalainen) ovat yhteisvaikutuksia, mikä olisi käytännössä oleellista ennustetussa käyttöaiheessa.
+
+Varoitukset ja vasta-aiheet: ks. valmisteyhteenveto.
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Johtopäätös ja jatkotoimet
 
-**Päätös: Pidätä**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Ennustetulla indikaatiolla (HoFH) ei ole tukevia kliinisiä tutkimuksia tai kirjallisuutta, eikä sillä ole uskottavasti mekanistista yhteyttä darolutamiden tunnettuun farmakologiaan — todisteen paketti itse kuvailee tämän pisteisiin perustuvaksi artefaktiksi (L5, päätösvaihe S0). Kaksi vaihtoehtoista ehdokasta (moninaisendokriininen neoplasia, HIV-infektio) ovat samoin tuettuja; yksi niistä perustuu yksittäiseen lopetettuun 2 potilaan basket-tutkimukseen, jolla ei ole sairauskohtaista relevanssia.
+- Ennuste perustuu ainoastaan TxGNN-mallin pistemäärään (L5). Kliinisiä tutkimuksia ja julkaisuja ei ole, eikä androgeenireseptorin salpauksen ja LDL-reseptorin toimintahäiriön välille löydy mekanistista yhteyttä. Lisäksi Suomen myyntilupa on peruutettu, ja valmisteyhteenvedon turvallisuustiedot puuttuvat.
 
-**Jatkamiseksi tarvitaan seuraavaa:**
-- TFDA-pakettiseloste (varoitukset/vasta-aiheet) — tällä hetkellä kriittinen tietovaje
-- Vahvistettu toimintamekanismin (MOA) tieto DrugBankista — tällä hetkellä korkean vakavuuden tietovaje
-- Vahvistettu alkuperäinen indikaatioteksti (virallinen lähde, ei vain perusteluihin sulautetut maininnat)
-- Kaikki prekliiniset tai mekanistiset perustelut, jotka yhdistävät AR-antagonismin rasva-aineenvaihduntaan, ennen kuin tätä ehdokasta voidaan harkita uudelleen S0:n yläpuolella
-
+**Jatkaminen edellyttää seuraavaa:**
+- Vaikutusmekanismin (MOA) tietojen täydentäminen, esimerkiksi DrugBankista
+- Fimean valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen ja läpikäynti (turvallisuusseulonnan estävä puute)
+- Prekliiniset tai mekanistiset tutkimukset, jotka selvittävät mahdollisen yhteyden androgeenireseptorin signalointiin ja lipidiaineenvaihduntaan
+- Myyntilupatilanteen selvittäminen (nykyinen lupa peruutettu)
+- Yhteisvaikutusten arviointi, erityisesti statiinien kanssa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

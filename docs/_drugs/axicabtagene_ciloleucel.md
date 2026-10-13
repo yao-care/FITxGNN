@@ -2,7 +2,7 @@
 layout: default
 title: Axicabtagene Ciloleucel
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 55
+nav_order: 61
 evidence_level: L5
 indication_count: 0
 ---

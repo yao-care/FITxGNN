@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Rilpivirine
-parent: Vahva näyttö (L1-L2)
-nav_order: 323
-evidence_level: L1
+parent: Kohtalainen näyttö (L3-L4)
+nav_order: 377
+evidence_level: L4
 indication_count: 5
 ---
 
 # Rilpivirine
 {: .fs-9 }
 
-Näytön taso: **L1** | Ennustetut käyttöaiheet: **5** kpl
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **5** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,89 +29,105 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Rilpivirine: HIV-1-infektiosta synnynnäiseen HIV-tartuntaan (äidistä lapselle -siirtymisen ehkäisy)
+# Rilpiviriini: HIV-infektiosta felinin immuunikatoon (ennustettu uusi käyttöaihe)
 
 ## Yhden lauseen yhteenveto
 
-Rilpivirine (DB08864) on ei-nukleosidinen käänteisen transriptaasin inhibiittori (NNRTI), jota käytetään jo osana suun kautta otettavia ja pitkävaikutteisia injektiomuotoisia (CAB LA/RPV LA) antiretroviraalisia hoitolinjoja **HIV-1-infektiolle**. Tämän todistepaketin vahvin TxGNN-ennustettu signaali osoittaa **synnynnäiseen HIV-tartuntaan (perinataalinen/äidistä lapselle -siirtymisen ehkäisy)**, mitä tukevat **28 kliinistä tutkimusta** (mukaan lukien useita valmistuneita vaiheen 3 satunnaistettuja kontrolloituja tutkimuksia) ja **5 julkaisua**, jotka koskevat raskauden farmakokinettiikkaa ja turvallisuutta. TxGNN tunnisti neljä muuta ehdokasindikatiota myös tässä paketissa, mutta niillä on huomattavasti heikommat tai ei-ihmisillä tehdyt todisteet (katso huomautus alla).
+Rilpiviriini on ei-nukleosidirakenteinen käänteiskopioijaentsyymin estäjä (NNRTI), jota on käytetty HIV-infektion hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **kissan hankinnaiseen immuunikatoon (FIV)** erittäin korkealla pistemäärällä, mutta ennuste perustuu lähinnä malliin: kliinisiä kokeita on **0** ja suoraan aiheeseen liittyviä julkaisuja **1** (in vitro -tutkimus).
 
----
-
-## Pikayleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|--------|
-| Alkuperäinen indikaatio | HIV-1-infektio (NNRTI-pohjainen antiretroviraalinen hoito) — poimittu tämän todistepaketin tutkimuskuvailusta; virallista MOA/indikaatiota ei ole tiedossa |
-| Ennustettu uusi indikaatio | Synnynnäinen ihmisen immuunikatoviruksen tartunta (perinataalinen/pystysuora siirtymisen ehkäisy) |
-| TxGNN-ennusteyhtälö | 99.56% |
-| Todistusaste | L1 |
-| Markkinointiasema | Ei markkinoitu (0 valtuutusta tiedossa) |
-| Valtuuksien lukumäärä | 0 |
-| Suositeltu päätös | Jatka varautumisjärjestelmillä |
+|------|------|
+| Alkuperäinen käyttöaihe | HIV-infektiot |
+| Ennustettu uusi käyttöaihe | Kissan hankinnainen immuunikato (FIV) |
+| TxGNN-ennustepisteet | 99,97 % |
+| Näytön taso | L4 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 6 (kaikki peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
----
+## Miksi ennuste on perusteltu?
 
-## Miksi tämä ennuste on järkevä?
+Rilpiviriini estää HIV-1:n käänteiskopioijaentsyymiä (NNRTI). Yksityiskohtaista vaikutusmekanismitietoa ei ole tässä aineistossa saatavilla. Tunnetun tiedon perusteella FIV:n käänteiskopioijaentsyymi on sukua HIV:n entsyymille, joten vaikutus on mekanistisesti mahdollinen.
 
-Tällä hetkellä lääkkeen tasolla ei ole muodollista vaikutusmekanismin kirjausta rilpivirinille (merkitty tietovajaeeksi tässä paketissa). Kuitenkin tässä koottu kliininen tutkimus- ja kirjallisuusaineisto kuvaa johdonmukaisesti rilpivirinia NNRTI:na, joka estää HIV-1:n käänteisen transriptaasin, ja se on komponentti sekä suun kautta otettavissa hoitolinjissa että pitkävaikutteisessa cabotegravir/rilpivirine (CAB LA/RPV LA) hoitolinjassa, joka on hyväksytty HIV-1-infektioon.
+NNRTI-yhdisteiden sitoutumistaskut kuitenkin eroavat lentivirusten välillä, joten tehoa ei voi olettaa. Ainoa löydetty julkaisu (2023) vertaa NNRTI-lääkkeitä biokemiallisesti ja rakenteellisesti FIV:n ja HIV:n entsyymeihin. Se on epäsuoraa, in vitro -tasoista näyttöä. Korkea TxGNN-pistemäärä heijastaa todennäköisesti samankaltaisuutta HIV-mekanismin kanssa eikä riippumatonta validointia.
 
-Perinataaliselle/vertikaaliselle HIV-siirtymisen ehkäisystrategialle oleellista on äidin viruskuorman suppressio. Koska rilpivirine estää suoraan käänteistä transriptaasia ja keskeyttää viraalisen replikaation, sen mekanismi kartoittaa suoraan synnynnäisen HIV:n ehkäisyyn — tämä on vähemmän uusi uudelleenkäyttöhypoteesi kuin looginen jatke sen olemassa olevasta antiviraalista toiminnasta raskauden/perinataalisen väestön pariin. Pääkysymykset ovat farmakokineettisiä: tämän paketin kirjallisuus osoittaa rilpivirinin plasman konsentraatioiden laskevan 70–75 % raskauden aikana pitkävaikutteisen injektiotoimitumuodon kanssa, ja sikiön/imeväisen turvallisuusdata kertyvät edelleen, jonka vuoksi varautumisjärjestelmät eikä ehdoton "Jatka" ovat perusteltuja.
+Kyseessä on eläinlääkinnällinen käyttöaihe, joten se ei ole ihmisille suunnattu uudelleenkäyttömahdollisuus.
 
-**Huomautus muista TxGNN:n tunnistetuista ehdokkaista tässä paketissa:** TxGNN arvioi myös kissalle hankitun immuunikatolaukaisen, apinoiden immuunikatolaukaisen infektioiden ja harvinaiseen neuroevolutionaariseen häiriöön liittyen korkean todennäköisyyden osumiksi. Nämä arvioitiin matalaksi luotettavuudeksi: kissojen AIDS ja SIV ovat ei-ihmisiin veterinaarisia/primaattimallintutkimuksia, jotka eivät kuulu ihmisten uudelleenkäyttöohjelmaan (Pidä kiinni / Tutkimuskysymys), ja neuroevoluutionaarisen häiriön taakse ei ole kliinisiä tutkimuksia tai kirjallisuustutkimuksia, ja se on merkitty lähteen perusteluna todennäköiseksi väärä-positiiviseksi ehdokkaaksi (Pidä kiinni). "AIDS-siihen liittyvä kompleksi" (sijoitus 4) arvioi samanlaisen todennäköisyyden kuin synnynnäinen HIV mutta on oleellisesti sama taustalla oleva HIV-1-indikaatio vanhemmalla nimen antamisen termillä, joten sitä ei käsitellä erillisenä uudelleenkäyttömahdollisuutena tässä.
+## Muut ennustetut käyttöaiheet (lyhyesti)
 
----
+| Ennuste | Pisteet | Näytön taso | Huomio |
+|------|------|------|------|
+| Apinoiden immuunikatovirusinfektio (SIV) | 99,97 % | L4 | Prekliinistä makakitutkimusta (pitkävaikutteinen rilpiviriini, usein kabotegraviirin kanssa). Ei ihmisen kliininen kohde. |
+| Neurokehityshäiriö (ataksinen kävely, puheen puuttuminen) | 99,97 % | L5 | Ei uskottavaa mekanistista yhteyttä, ei tutkimuksia. Mahdollinen graafiartefakti. |
+| AIDS-related complex | 99,56 % | L4 | Historiallinen termi oireiselle HIV:lle, päällekkäinen nykyisen käyttöaiheen kanssa. |
+| Synnynnäinen HIV | 99,56 % | L3 | Havaintotutkimuksia ja tapauskertomuksia raskauden aikaisesta käytöstä, lähinnä kabotegraviiri/rilpiviriini-yhdistelmästä. |
 
-## Kliinisen tutkimuksen todisteet
+## Kliininen tutkimusnäyttö
 
-| Tutkimusnumero | Vaihe | Tila | Rekrytointi | Tärkeimmät havainnot |
+Ensisijaiselle ennusteelle (FIV) ei ole rekisteröityjä kliinisiä kokeita.
+
+Synnynnäistä HIV:tä koskevassa ennusteessa löytyi yksi koe, jonka relevanssi on matala:
+
+| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT02951052](https://clinicaltrials.gov/study/NCT02951052) | Vaihe 3 | Aktiivinen, ei rekrytoida | 618 | ATLAS-tutkimus — virologisesti suppressoidut HIV-1-aikuiset siirtyvät pitkävaikutteiseen IM cabotegravir + rilpivirineen |
-| [NCT05896748](https://clinicaltrials.gov/study/NCT05896748) | Vaihe 3 | Valmis | 94 | FLAIR-alatutkimus, jossa verrataan CAB/RPV pitkävaikutteisten injektioiden subkutaanista vs. intramuskulaarista antamista |
-| [NCT01266902](https://clinicaltrials.gov/study/NCT01266902) | Vaihe 3 | Valmis | 482 | TMC278 (rilpivirine) 25 mg qd jatkuva pääsy -tutkimus — keskeinen rekisteröintiä tukeva tutkimus |
-| [NCT00855335](https://clinicaltrials.gov/study/NCT00855335) | Vaihe 3 | Valmis | 77 | Darunaviirin, etraivirinin ja rilpivirinin farmakokinetiikka HIV-1-infektoiduissa **raskaissa naisissa** |
-| [NCT00042289](https://clinicaltrials.gov/study/NCT00042289) | N/A (Vaihe 4) | Valmis | 1578 | IMPAACT P1026s — antiretroviraalisen ja TB-lääkkeen farmakokinetiikka **raskauden ja synnytyksen jälkeisen ajan** aikana |
-| [NCT03497676](https://clinicaltrials.gov/study/NCT03497676) | Vaihe 1/2 | Valmis | 168 | Suun kautta otettavan ja pitkävaikutteisen CAB:n ja pitkävaikutteisen rilpivirinin turvallisuus, siedettävyys ja PK HIV-infektoiduissa **lapsissa ja nuorissa** |
-| [NCT02494986](https://clinicaltrials.gov/study/NCT02494986) | Vaihe 2 | Aktiivinen, ei rekrytoida | 48 | Jatkuva pääsy -rollover tutkimus rilpiviriniin osallistujista **pediatrisista** rilpiviriinan tutkimuksista |
-| [NCT07412977](https://clinicaltrials.gov/study/NCT07412977) | N/A | Ei vielä rekrytoida | 5160 | VIROPREG — ranskalainen prospektiivinen kohortti, joka arvioi virusinfektioita (mukaan lukien HIV) ja antiviraalisen hoidon vaikutusta **raskauden** aikana äidin/lapsen terveydentilaan |
-| [NCT02938520](https://clinicaltrials.gov/study/NCT02938520) | Vaihe 3 | Aktiivinen, ei rekrytoida | 631 | FLAIR — pitkävaikutteinen IM cabotegravir + rilpivirine ylläpitohoito siirtymisen jälkeen integraasin inhibiittori -hoitolinjasta |
-| [NCT03299049](https://clinicaltrials.gov/study/NCT03299049) | Vaihe 3 | Aktiivinen, ei rekrytoida | 1049 | ATLAS-2M — pitkävaikutteinen CAB + RPV annettava 8 vs. 4 viikon välein |
+| [NCT04340388](https://clinicaltrials.gov/study/NCT04340388) | Vaihe 4 | Valmistunut | 10 | Dolutegraviiriin siirtymisen vaikutus lihavuuteen ja sydän- ja verisuonitautiriskiin HIV-potilailla. Eri lääke ja eri tulosmuuttuja, joten merkitys on vähäinen. |
 
-*Tässä paketissa oli 18 muuta tutkimusta, joita ei ole sisällytetty edellä; täydellinen luettelo saatavilla lähteen todistepakettisessa.*
+## Kirjallisuusnäyttö
 
----
+Ensisijainen ennuste (FIV):
 
-## Kirjallisuuden todisteet
-
-| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät havainnot |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [41225339](https://pubmed.ncbi.nlm.nih.gov/41225339/) | 2025 | Järjestelmällinen katsaus/meta-analyysi | BMC Infectious Diseases | Cabotegrravirin turvallisuus (yhdessä rilpivirinin kanssa) raskauden aikana |
-| [36411596](https://pubmed.ncbi.nlm.nih.gov/36411596/) | 2023 | Kohortti/PK tutkimus | HIV Medicine | Raskauden tulokset ja PK naisilla, jotka olivat altistuneet pitkävaikutteiselle cabotegravir + rilpivirinelle kliinisissä tutkimuksissa |
-| [38864586](https://pubmed.ncbi.nlm.nih.gov/38864586/) | 2024 | Kohortti | AIDS (London, England) | Ensimmäisen kolmanneksen altistuminen uudempia antiretroviraalisia (mukaan lukien rilpivirine) ja synnynnäisten epämuodostumien kanssa Yhdysvaltojen kohortissa |
-| [38703388](https://pubmed.ncbi.nlm.nih.gov/38703388/) | 2024 | Tapausselostus | Clinical Infectious Diseases | Pitkävaikutteinen CAB/RPV raskaassa olevassa HIV-infektoidussa naisessa — RPV-tasot 70–75 % alhaisemmat raskauden aikana, ei pystysuoraa siirtymää tai epämuodostumaa |
-| [41268510](https://pubmed.ncbi.nlm.nih.gov/41268510/) | 2025 | Tapausselostus | Case Reports in Infectious Diseases | Pitkävaikutteinen CAB/RPV säilytti viruksettoman suppressio koko raskauden ajan; kirjallisuuskatsaus |
+| [38031646](https://pubmed.ncbi.nlm.nih.gov/38031646/) | 2023 | In vitro -rakennetutkimus | Journal of Veterinary Science | Nevirapiinin, efavirentsin ja rilpiviriinin biokemiallinen ja rakenteellinen vertailu FIV:n ja HIV:n käänteiskopioijaentsyymiä vastaan. |
 
----
+Muiden ennusteiden tukena olevaa kirjallisuutta (valikoima):
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [41225339](https://pubmed.ncbi.nlm.nih.gov/41225339/) | 2025 | Systemaattinen katsaus ja meta-analyysi | BMC Infectious Diseases | Kabotegraviirin turvallisuus raskauden aikana. |
+| [36411596](https://pubmed.ncbi.nlm.nih.gov/36411596/) | 2023 | Kohortti/farmakokinetiikka | HIV Medicine | Raskaustulokset ja farmakokinetiikka pitkävaikutteisella kabotegraviiri/rilpiviriinilla altistuneilla. |
+| [38864586](https://pubmed.ncbi.nlm.nih.gov/38864586/) | 2024 | Kohortti | AIDS | Uusien antiretroviraalilääkkeiden ensimmäisen raskauskolmanneksen altistus ja synnynnäiset poikkeavuudet. |
+| [26438501](https://pubmed.ncbi.nlm.nih.gov/26438501/) | 2015 | Prekliininen eläinkoe (makaki) | Antimicrobial Agents and Chemotherapy | Pitkävaikutteisen rilpiviriinin valikoimien resistenttien varianttien vähäinen esiintyvyys SIV-makakeilla. |
+| [41370971](https://pubmed.ncbi.nlm.nih.gov/41370971/) | 2026 | Prekliininen eläinkoe (makaki) | EBioMedicine | Pitkävaikutteisen kabotegraviiri/rilpiviriinin arviointi altistuksen jälkeisenä ehkäisynä. |
+| [39632836](https://pubmed.ncbi.nlm.nih.gov/39632836/) | 2024 | Prekliininen eläinkoe (SHIV-makaki) | Nature Communications | SHIV-remissio makakeilla varhaisella hoidon aloituksella ja pitkävaikutteisella hoidolla. |
+| [38703388](https://pubmed.ncbi.nlm.nih.gov/38703388/) | 2024 | Tapauskertomus | Clinical Infectious Diseases | Pitkävaikutteinen kabotegraviiri/rilpiviriini raskaana olevalla: rilpiviriinipitoisuudet 70–75 % matalammat, ei virologista epäonnistumista. |
+| [41268510](https://pubmed.ncbi.nlm.nih.gov/41268510/) | 2025 | Tapauskertomus ja katsaus | Case Reports in Infectious Diseases | Virussuppressio säilyi koko raskauden ajan pitkävaikutteisella kabotegraviiri/rilpiviriinilla. |
+| [37568163](https://pubmed.ncbi.nlm.nih.gov/37568163/) | 2023 | Tapauskertomus | AIDS Research and Therapy | Sydämensiirto HIV-potilaalla ja lääkeyhteisvaikutusten hallinta. |
+
+## Suomen markkinatiedot
+
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/002264 | Edurant | – | HIV-infektiot (peruutettu) |
+| EMEA/H/C/005060 | Rekambys | – | HIV-infektiot (peruutettu) |
+| EMEA/H/C/004427 | Juluca | – | HIV-infektiot (peruutettu) |
+| EMEA/H/C/006491 | Emtricitabine / Rilpivirine / Tenofovir Alafenamide Viatris | – | HIV-infektiot (peruutettu) |
+| EMEA/H/C/004156 | Odefsey | – | HIV-infektiot (peruutettu) |
+
+Yhteensä myyntilupia on 6, ja kaikki on peruutettu. Kuudes lupa (Eviplera, EMEA/H/C/002312) on myös peruutettu.
 
 ## Turvallisuusnäkökohdat
 
-Katso pakkausesite turvallisuusohjeita varten.
+Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ollut tämän raportin aineistossa saatavilla, joten niihin tulee perehtyä valmisteyhteenvedosta.
 
----
+- **Tietämyskannan (TxGNN/PrimeKG) vasta-aiheet** (eivät ole valmisteyhteenvedon tekstiä): pitkä QT -oireyhtymä (myös synnynnäinen), torsades de pointes, maksan vajaatoiminta ja maksasairaus, munuaissairaus, krooninen hepatiitti B, rasvamaksa ja NASH, laktaattiasidoosi, Fanconin oireyhtymä, hypofosfatemia, osteomalasia, riisitauti, lihavuus ja sappirakon sairaus.
+- **Lääkeyhteisvaikutukset:** haettu 100 yhteisvaikutusta. Merkittävimpiä (Major) ovat mm. famotidiini, ranitidiini, simetidiini, omepratsoli, esomepratsoli, rabepratsoli, deksalansopratsoli (mahahapon eritystä vähentävät lääkkeet), deksametasoni, disapridi ja dolasetroni. Kohtalaisia (Moderate) ovat mm. loperamidi, aprepitantti, klaritromysiini, klotrimatsoli, magnesiumoksidi, alumiinihydroksidi ja kalsiumkarbonaatti.
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Jatka varautumisjärjestelmillä**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Useita valmistuneita vaiheen 3 satunnaistettuja kontrolloituja tutkimuksia osoittavat rilpivirinin tehokkuuden ja turvallisuuden osana suun kautta otettavia ja pitkävaikutteisia antiretroviraalisia hoitolinjoja (L1-todiste), ja nouseva joukko raskauden-spesifisiä PK-, kohortti- ja tapausselostustietoja tukee sen mekanistista soveltuvuutta synnynnäisen HIV:n ehkäisyyn. Kuitenkin pitkävaikutteinen rilpivirine osoittaa huomattavasti pienentyneet plasman ekspositiot raskauden aikana ja pysyy off-label käyttönä tässä väestössä, joten varautumisjärjestelmät seurannan ja annostelun ympärillä ovat perusteltuja kuin ehdoton jatka.
+- Ennuste perustuu pääosin malliin. Tukena on vain yksi in vitro -tutkimus, kliinisiä kokeita ei ole ja käyttöaihe on eläinlääkinnällinen. Rilpiviriinin myyntiluvat Suomessa on lisäksi peruutettu.
 
-**Jatkaaksesi, seuraavaa tarvitaan:**
-- TFDA/paikallinen pakkausesite varoitukset ja vasta-aiheet (tällä hetkellä estävä tietoväli, DG001)
-- Muodollinen vaikutusmekanismin dokumentointi lääkkeiden tasolla (DG002)
-- Lääkkeiden väliset yhteisvaikutukset -profiili (nykyinen DDI-kysely ei palauttanut tuloksia)
-- 18 jäljellä olevan, tällä hetkellä arvioimattoman kliinisen tutkimuksen suorittaminen ja arvioiminen tässä todistejoukoissa
-- Omistettu äitiyden/sikiön turvallisuuden ja annostelun arvioiminen ennen pitkävaikutteisen RPV suosittelua raskaassa olevilla väestöillä
-
+**Eteenpäin siirtyminen edellyttää:**
+- Rilpiviriinin vaikutusmekanismitietojen täydentämistä
+- Valmisteyhteenvedon turvallisuustietojen hankkimista (Fimea)
+- Rilpiviriinin tehon vahvistamista FIV-käänteiskopioijaentsyymiä vastaan (in vitro ja eläinkokeet) sekä eläinlääkinnällisen kehityspolun ja annosmuodon arviointia
+- Synnynnäisen HIV:n osalta rilpiviriinispesifistä tietoa vastasyntyneistä ja imeväisistä, sillä nykyinen näyttö koskee pääosin kabotegraviiri/rilpiviriini-yhdistelmää raskauden aikana
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -2,7 +2,7 @@
 layout: default
 title: Avelumab
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 52
+nav_order: 58
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,79 +29,101 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Avelumab: Arviointiraportti — Riittämätön tieto täydellisen uudelleenkäyttötarkoituksen analysointiin
+# Avelumabi: Neuroendokriinisista kasvaimista HHV-8-liitännäiseen kasvaimeen
 
 ## Yhden lauseen yhteenveto
 
-Avelumab (DrugBank: DB11945) on täysin ihmisperäinen anti-PD-L1-monoklonaalinen vasta-aine, joka toimii tarkastuspiste-inhibiittorina, eikä sitä ole tällä hetkellä hyväksytty Taiwanissa.
-Tämä todistusnippu ei sisällä TxGNN-ennustettuja indikaatioita, ja kriittiset tietokentät – mukaan lukien alkuperäinen indikaatio, toimintamekanismi ja turvallisuusprofiili – puuttuvat.
-Suositellaan pidätys-päätöstä kunnes alla tunnistetut tietoaukot on ratkaistu.
+Avelumabi on PD-L1-vasta-aine, jonka Fimea-lupatiedoissa alkuperäiseksi käyttöaiheeksi on merkitty neuroendokriiniset kasvaimet. TxGNN-malli ennustaa sen voivan tehota ensisijaisesti **ihmisen herpesvirus 8:aan liittyvään kasvaimeen** (pistemäärä 99,97 %). Tälle suunnalle ei kuitenkaan ole **yhtään kliinistä koetta eikä julkaisua** tässä aineistossa, joten näyttö perustuu vain mallin ennusteeseen.
 
 ---
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
-| Kohde | Sisältö |
-|-------|---------|
-| Alkuperäinen indikaatio | Ei kirjattu tähän todistusnippuun |
-| Ennustettu uusi indikaatio | Ei TxGNN-ennustuksia saatavilla |
-| TxGNN-ennustepisteet | N/A |
-| Näyttötaso | L5 — Mallin ennustus ei ole saatavilla; tukiarvioita ei ole haettavissa |
-| Taiwan-markkinoiden tila | ✗ Ei markkinoilla (0 hyväksyntää) |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltava päätös | **Pidätys** |
-
----
-
-## Miksi tämä ennuste on perusteltu?
-
-Tällä hetkellä tätä osiota ei voida saattaa loppuun. Todistusnippu ei sisällä alkuperäisen indikaation tietoja (`original_indications: []`) tai toimintamekanismin tietoja (`original_moa: [Data Gap]`), ja `predicted_indications`-joukko on tyhjä.
-
-DrugBank-kysely (Kyselylokin tunnus 3) vahvisti, että yksi Avelumab-tietue on olemassa DrugBankissa, mutta jäsenneltyä sisältöä ei välitetty todistusnippuun. Täydellisen DrugBank-merkinnän hakeminen – mukaan lukien farmakologia, kohdemolekyylit ja kategoriat – on edellytys ennen kuin mekanistista perustelua voidaan rakentaa.
+| Kohta | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | Neuroendokriiniset kasvaimet |
+| Ennustettu uusi käyttöaihe | Ihmisen herpesvirus 8:aan liittyvä kasvain |
+| TxGNN-ennusteen pistemäärä | 99,97 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettu lupa |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Kliinisen tutkimuksen näyttö
+## Miksi ennuste on perusteltu?
 
-Tällä hetkellä yhtään ennustettua indikaatiota ei ole saatavilla, jotta kliinisiä tutkimuksia voitaisiin liittää siihen. Kliinisen tutkimuksen näyttöjen hakeminen lykätään kunnes TxGNN-ennuste tuottaa tuloksia.
+Tässä aineistossa ei ole saatavilla yksityiskohtaista vaikutusmekanismitietoa. Avelumabi on tunnetusti PD-L1:tä estävä vasta-aine (immuunitarkistuspisteen estäjä), ja tämä luokkatieto on ennusteen biologisen perustelun pohjana.
+
+HHV-8:aan liittyvät kasvaimet, kuten Kaposin sarkooma ja primaarinen effuusiolymfooma, voivat hyödyntää PD-1/PD-L1-reittiä immuunijärjestelmän väistämiseen. Siksi tarkistuspisteen esto on biologisesti uskottavaa, ja muiden PD-1/PD-L1-lääkkeiden on raportoitu tehonneen Kaposin sarkoomassa. Avelumabista itsestään ei kuitenkaan ole tässä aineistossa tutkimusnäyttöä, joten yhteys perustuu vain TxGNN-ennusteeseen ja yleiseen luokkatietoon.
+
+### Muut ennustetut käyttöaiheet
+
+Kaikki kymmenen ennustetta ovat tasolla L5, eikä yhdellekään ole kliinisiä kokeita tai kirjallisuutta. Ne jakautuvat seuraavasti:
+
+| Sija | Ennustettu käyttöaihe | Pistemäärä | Uskottavuus | Suositus |
+|---|---|---|---|---|
+| 1 | HHV-8:aan liittyvä kasvain | 99,97 % | Biologisesti uskottava (luokkatieto) | Hold |
+| 2 | Välikorvan neuroendokriininen kasvain | 99,97 % | Läheinen alkuperäiseen käyttöaiheeseen; erittäin harvinainen | Hold |
+| 3 | Pahanlaatuinen ihon rakeissolukasvain | 99,97 % | Selvää PD-L1-mekanismia ei ole | Hold |
+| 4 | Ektomesenkymoomi | 99,97 % | Ei tunnettua perustetta | Hold |
+| 5 | Adenosiinideaminaasin puutos | 99,95 % | Hyvin epätodennäköinen | Hold |
+| 6 | Retikulaarinen dysgeneesi | 99,94 % | Todennäköisesti virheellinen positiivinen | Hold |
+| 7 | Immuuni-erytromyeloidinen hypoplasia | 99,94 % | Todennäköisesti virheellinen positiivinen | Hold |
+| 8 | Ei-vaikea yhdistetty immuunipuutos | 99,92 % | Ei rationaalinen kohde | Hold |
+| 9 | Eturauhasen virtsaputken uroteelikarsinooma | 99,92 % | Uroteelisyövän vaiheen 3 näyttö (JAVELIN Bladder 100) tukee epäsuorasti | Tutkimuskysymys |
+| 10 | Munuaisaltaan sarkomatoidi siirtymäsolusyöpä | 99,91 % | Uroteelisyöpä, sarkomatoidivariantit ilmentävät usein PD-L1:tä | Tutkimuskysymys |
+
+Sijat 9 ja 10 ovat käytännössä lupaavimpia jatkotutkimuksen kannalta, koska avelumabille on hyväksytty ylläpitohoito levinneessä uroteelisyövässä. Aineistossa ei kuitenkaan ole näille alatyypeille spesifejä tutkimuksia, joten taso pysyy L5:nä. Sijoilla 5–8 olevat immuunipuutokset eivät ole mekanistisesti järkeviä kohteita immuunitarkistuspisteen estäjälle.
 
 ---
 
-## Kirjallisuuden näyttö
+## Kliininen näyttö
 
-Tällä hetkellä yhtään ennustettua indikaatiota ei ole saatavilla, jotta kirjallisuutta voitaisiin liittää siihen. Kirjallisuuden hakeminen lykätään kunnes TxGNN-ennuste tuottaa tuloksia.
-
----
-
-## Taiwan-markkinoiden tiedot
-
-Avelumabilla ei ole hyväksyttyjä valtuuksia Taiwanissa. TFDA-kysely (Kyselylokin tunnus 1) palautti nolla tuloksia.
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä kokeita.
 
 ---
 
-## Turvallisuuskysymykset
+## Kirjallisuusnäyttö
 
-Viitaa pakkausselosteeseen turvallisuustiedoista.
-
-> Huomautus: TFDA-pakkausselosteen kysely (Kyselylokin tunnus 4) palautti 1 tuloksen, mikä osoittaa, että pakkausselostedokumentti saattaa olla olemassa. Jäsenneltyä turvallisuussisältöä – varoituksia, vasta-aiheita ja lääkkeiden välisiä vuorovaikutuksia – ei lisätty tähän todistusnippuun. Lääkkeiden välisen vuorovaikutuksen kysely (Kyselylokin tunnus 2) ei palauttanut tuloksia.
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Markkinatiedot Suomessa
 
-**Päätös: Pidätys**
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004338 | Bavencio | – | Neuroendokriiniset kasvaimet (lupa peruutettu) |
+
+---
+
+## Turvallisuusnäkökohdat
+
+- **Lääkkeiden yhteisvaikutukset:** Aineistosta löytyi kolme merkittävää (Major) yhteisvaikutusta:
+  - lenalidomidi
+  - pomalidomidi
+  - talidomidi
+
+Muita turvallisuustietoja (varoitukset, vasta-aiheet) ei ole saatavilla. Katso lisätiedot valmisteyhteenvedosta.
+
+---
+
+## Johtopäätös ja jatkotoimet
+
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Tämä todistusnippu on rakenteellisesti epätäydellinen – ei ennustettuja indikaatioita, ei alkuperäisen indikaation tietoja, ei mekanismia (MOA) eikä turvallisuustietoja. Uudelleenkäyttötarkoituksen arviointia ei voida suorittaa ilman näitä tuloja.
+- Ennusteet perustuvat pelkästään mallin pistemääriin ilman kliinisiä kokeita tai julkaisuja (L5). Lisäksi Suomen myyntilupa on peruutettu, eikä turvallisuustietoja ole saatavilla.
+- Uroteelisyövän alatyypit (sijat 9–10) ovat lupaavimpia jatkoselvityksen kohteita, mutta ne vaativat ensin ulkoisen varmennuksen.
 
-**Jatkamista varten tarvitaan seuraavaa:**
-
-- **[Blocking — DG001]** Jäsentele TFDA-pakkausseloste ottaaksesi vasta-aiheet ja päävaroitukset; tämä vaaditaan ennen mitään turvallisuuden seulontaa (S1-portti)
-- **[High — DG002]** Hae täysi Avelumab-merkintä DrugBank API:sta toimintamekanismin, farmakologisten kohteiden ja lääkkeen kategorioiden täyttämiseksi
-- **[Required]** Suorita TxGNN-ennusteprosessi Avelumabille (DB11945) luodaksesi `predicted_indications` tautipisteet, kliinisen tutkimuksen linkit ja kirjallisuusviitteet
-- **[Required]** Vahvista alkuperäinen/-et hyväksytty/-yt indikaatio(t) DrugBankista tai TFDA-pakettiselosteesta ankkuroidaksesi uudelleenkäyttötarkoituksen vertailun
-- **[Recommended]** Kun mekanismi on vahvistettu, tarkista täyttääkö Avelumab antineoplastiset/sytotoksiset kriteerit määrittääksesi, vaaditaanko Sytotoksisuus-osio lopullisessa raportissa
-
+**Eteenpäin siirtyminen edellyttää seuraavaa:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankinta Fimean sivustolta (estää turvallisuusseulonnan)
+- Vaikutusmekanismitietojen täydentäminen DrugBankista
+- Kirjallisuus- ja koehaku HHV-8:aan liittyvistä kasvaimista (esim. Kaposin sarkooma) avelumabin osalta
+- Tarkistus, sisälsikö JAVELIN Bladder 100 -tutkimus eturauhasen virtsaputken ja ylempien virtsateiden uroteelikarsinoomia
+- Myyntiluvan peruutuksen syyn ja nykyisen markkinatilanteen selvittäminen
+- Reittien yhteensopivuuden ja alkuperäiseen käyttöaiheeseen liittyvän samankaltaisuuden arviointi (kumpikin vielä kesken)
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -2,7 +2,7 @@
 layout: default
 title: Imatinib
 parent: Kohtalainen näyttö (L3-L4)
-nav_order: 191
+nav_order: 223
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,75 +29,97 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Imatinibi: Kroonisesta myelooista leukemiasta sydämen fibroosarkoomain
+# Imatinibi: Kroonisesta myelooisesta leukemiasta sydämen fibrosarkoomaan
 
 ## Yhden lauseen yhteenveto
 
-> Imatinibi on tyrosiinikinaasin estäjä, joka on alun perin kehitetty kroonisen myeloisen leukemian (CML) ja gastrointestinaalisten stroomeaalisten tumorien (GIST) hoitoon.
-> TxGNN-mallin huipulla oleva ennuste tälle lääkkeelle on **sydämen fibroosarkooma**,
-> mutta tätä spesifistä kandidaattia tukee tällä hetkellä vain **1 julkaisu** ja **ei kliinisiä tutkimuksia** — näyttö perustuu oleellisesti vain malliin.
+Imatinibi on tyrosiinikinaasin estäjä, jota käytetään alun perin muun muassa kroonisen myelooisen leukemian (BCR-ABL-positiivinen), Philadelphia-kromosomipositiivisen akuutin lymfoblastileukemian, ruoansulatuskanavan stroomakasvainten (GIST) ja dermatofibrosarcoma protuberansin hoitoon.
+TxGNN-malli ennustaa, että se voi tehota **sydämen fibrosarkoomaan**, mutta tätä ennustetta tukee vain **yksi kirjallisuusviite** (katsaus) eikä yhtään kliinistä koetta.
+Vahvempaa tukea saavat muut ennustetut kohteet, kuten liposarkooma (3 vaiheen 1/2 tai 2 koetta) ja fibroblastinen kasvain (DFSP-painotteinen kirjallisuus).
 
-## Nopea yleiskatsaus
+## Pikayhteenveto
 
-| Kohde | Sisältö |
+| Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Krooninen myeloinen leukemia (CML) / GIST *(yleinen tieto — ei peräisin tästä näyttöpaketista; Fimean pakkausesite-tekstiä ei ole saatavilla)* |
-| Ennustettu uusi käyttöaihe | Sydämen fibroosarkooma |
-| TxGNN-ennustuspistemäärä | 99.94% (rank 952) |
-| Näyttötaso | L4 |
-| Suomen markkinatilanne | Ei markkinoilla |
-| Hyväksyntöjen määrä | 0 |
-| Suositeltu päätös | Hold |
+| Alkuperäinen käyttöaihe | Prekursorisolu-lymfoblastileukemia/lymfooma, dermatofibrosarcoma protuberans, myelodysplastiset/myeloproliferatiiviset sairaudet, krooninen myelooinen leukemia (BCR-ABL-positiivinen), hypereosinofiilinen oireyhtymä (Glivec-valmisteella lisäksi GIST) |
+| Ennustettu uusi käyttöaihe | Sydämen fibrosarkooma (heart fibrosarcoma) |
+| TxGNN-ennustepistemäärä | 99,94 % |
+| Näytön taso | L4 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 3 (kaikki peruutettuja) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennuste on kohtuullinen?
+## Miksi ennuste on järkevä?
 
-Yksityiskohtaista vaikutusmekanismin tietoa ei ole saatavilla tässä näyttöpaketissa (vaikutusmekanismi merkitty tietovajeena). Yleisen tiedon perusteella imatinibi on pieni-molekyylinen tyrosiinikinaasin estäjä, joka kohdistuu BCR-ABL:lle, KIT:ille ja PDGFR/PDGFRB:lle — mekanismi, joka on hyvin vakiintunut CML:n ja GIST:n yhteydessä, ja mekanistisesti se voi laajentua PDGFRB-fuusion ohjaamiin tumoreihin.
+Tähän raporttiin koottujen tietojen mukaan yksityiskohtaista vaikutusmekanismia (MOA) ei ole saatavilla. Tunnetun tiedon perusteella imatinibi estää PDGFR-, KIT- ja ABL-kinaaseja. Sen teho on osoitettu alkuperäisissä käyttöaiheissa, ja mekanistisesti se voi soveltua myös fibrosarkoomatyyppisiin kasvaimiin.
 
-Kuitenkin spesifinen yhteys **sydämen fibroosarkoomain** on heikko. Näyttöpaketin omien perusteluiden mukaan: *"PDGFRB-fuusion ohjaamaan fibroosarkooma-perheeseen on teoreettinen laajennus, mutta primaarinen sydämen fibroosarkooma on äärimmäisen harvinainen, eikä eliminiin-spesifinen mekanistinen näyttö tue tätä yhteyttä."* Tumorin genotyypin määritystiedot eivät vahvista PDGFRB:n osallisuutta tässä spesifissä, äärimmäisen harvinaisessa sydämen tumorin alaryhmässä.
+Fibrosarkoomatyyppiset kasvaimet, erityisesti COL1A1-PDGFB-fuusion ajamat kasvaimet (kuten dermatofibrosarcoma protuberans, DFSP), voivat olla PDGFB/PDGFR-riippuvaisia. DFSP kuuluu jo imatinibin alkuperäisiin käyttöaiheisiin, joten mekanistinen perustelu on uskottava.
 
-Huomionarvoista on, että muut TxGNN:n ennustamat ehdokkaat samassa fibroosarkooma/fibroblastinen-neoplaasia-perheessä osoittavat huomattavasti vahvempia näyttöä — erityisesti "fibroblastinen neoplaasia" (rank 2, vastaa suurelta osin dermatofibrosarcoma protuberansia), jossa COL1A1-PDGFB-fuusio on oppikirjaesimerkki imatinibin kohteesta L2-näytöllä ja "Proceed with Guardrails" -suosituksella. Tämä antaa epäsuoraa, luokka-tasolla uskottavuutta PDGFR-ohjaamalle mekanismille, mutta se ei korvaa suoraa näyttöä sydämen fibroosarkooman tapauksessa.
+Yhteys sydämen primaarikasvaimeen perustuu kuitenkin vain DFSP:stä tehtyyn ekstrapolaatioon. Sydämen fibrosarkoomaa koskevaa paikkakohtaista tietoa ei ole. Ennuste on siksi hypoteesitasoinen.
 
-## Kliinisten tutkimusten näyttö
+## Kliininen koenäyttö
 
-Tällä hetkellä ei ole rekisteröity vastaavia kliinisiä tutkimuksia.
+Tälle ennustetulle käyttöaiheelle (sydämen fibrosarkooma) ei ole tällä hetkellä rekisteröityjä kliinisiä kokeita.
 
-## Kirjallisuuden näyttö
+Muiden ennustettujen kohteiden osalta tiedoissa on mainittu seuraavat kokeet (ei sydämen fibrosarkoomaa koskevia):
 
-| PMID | Vuosi | Tyyppi | Julkaisu | Keskeiset havainnot |
-|------|------|------|------|---------|
-| [18623899](https://pubmed.ncbi.nlm.nih.gov/18623899/) | 2008 | Kommentti | Prescrire international | Arvioi imatinibin asteittain laajenevaa käyttöaiheita CML:n ja GIST:n ulkopuolella (esim. Ph+ ALL); päättelee näyttöä uusille käyttöaiheille olevan "ei vahva". Ei käsittele sydämen fibroosarkooomaa erityisesti. |
+| Koetunnus | Vaihe | Tila | Osallistujamäärä | Keskeiset havainnot |
+|---------|------|------|------|---------|
+| [NCT00031915](https://clinicaltrials.gov/study/NCT00031915) | Vaihe 2 | Päättynyt | Ei tiedossa | Imatinibi metastasoituneessa tai leikkaamattomassa pehmytkudos- ja luusarkoomassa (sisältää liposarkooman) |
+| [NCT00154388](https://clinicaltrials.gov/study/NCT00154388) | Vaihe 2 | Päättynyt | 185 | Tutkiva koe henkeä uhkaavissa harvinaisissa pahanlaatuisissa sairauksissa, ei kohdekohtainen |
+| [NCT00006357](https://clinicaltrials.gov/study/NCT00006357) | Vaihe 1/2 | Päättynyt | 91 | Annoksen määritys ja teho edenneessä pehmytkudossarkoomassa |
 
-## Suomen markkinatiedot
+## Kirjallisuusnäyttö
 
-Imatinibi:lla ei ole tällä hetkellä myyntilupien tietoja Suomessa tässä tietojoukossa (markkinatilanne: ei markkinoilla; 0 hyväksyntää).
+Sydämen fibrosarkoomalle on yksi viite:
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [18623899](https://pubmed.ncbi.nlm.nih.gov/18623899/) | 2008 | Katsaus | Prescrire international | Imatinibin uudet käyttöaiheet laajenivat, mutta näyttö ei ole vankkaa. Ph+ ALL:ssa 55 potilaan vertailussa hematologinen vaste oli parempi imatinibilla kuin solunsalpaajahoidolla |
+
+Viite ei käsittele sydämen fibrosarkoomaa suoraan.
+
+## Myyntiluvat Suomessa
+
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/002681 | Imatinib Accord | Ei tiedossa | Prekursorisolu-lymfoblastileukemia/lymfooma, dermatofibrosarkooma, myelodysplastiset/myeloproliferatiiviset sairaudet, krooninen myelooinen leukemia... |
+| EMEA/H/C/002585 | Imatinib Teva | Ei tiedossa | Krooninen myelooinen leukemia (BCR-ABL-positiivinen), prekursorisolu-lymfoblastileukemia/lymfooma, myelodysplastiset... |
+| EMEA/H/C/000406 | Glivec | Ei tiedossa | Prekursorisolu-lymfoblastileukemia/lymfooma, ruoansulatuskanavan stroomakasvaimet, dermatofibrosarkooma... |
+
+Kaikki kolme myyntilupaa on peruutettu.
 
 ## Sytotoksisuus
 
-| Kohde | Sisältö |
+| Kohta | Sisältö |
 |------|------|
-| Sytotoksisuuden luokittelu | Kohdistettu lääkitys (tyrosiinikinaasin estäjä; ei perinteinen sytotoksinen aine) |
-| Boniytimen tukahduttamisen riski | Katso pakkausesite varoitukset ja varotoimet |
-| Emetogeniteetin luokittelu | Katso pakkausesite varoitukset ja varotoimet |
-| Seurantakohdat | Katso pakkausesite varoitukset ja varotoimet |
-| Käsittelysuojaus | Katso pakkausesite varoitukset ja varotoimet |
+| Sytotoksisuusluokitus | Kohdennettu hoito (tyrosiinikinaasin estäjä) |
+| Myelosuppression riski | Neutropenia, trombosytopenia ja anemia ovat tunnettuja riskejä (ks. vasta-aiheet alla). Tarkempaa tietoa ei ole saatavilla |
+| Oksentelua aiheuttava vaikutus | Ks. valmisteyhteenvedon varoitukset ja varotoimet |
+| Seurantakohteet | Verenkuva (erittelylaskennalla), maksa- ja munuaisarvot, nesteretentio ja sydämen toiminta |
+| Käsittelysuojaus | Ks. valmisteyhteenvedon varoitukset ja varotoimet |
 
-## Turvallisuusnäkökohdat
+## Turvallisuushuomiot
 
-Katso turvallisuustiedot pakkausesitteestä.
+- **Vasta-aiheet ja varovaisuutta vaativat tilat (tietämyskaaviosta, ei valmisteyhteenvedosta):** TxGNN-tietämyskaavion (PrimeKG) lääke–sairaus-yhteyksien mukaan huomioitavia tiloja ovat muun muassa maksan vajaatoiminta ja maksasairaus, munuaissairaus, sydämen vajaatoiminta, sepelvaltimotauti, sydänläppäsairaus, perikardiaalineste, keuhkopöhö, aivopöhö, verenpainetauti, trombosytopenia, neutropenia, agranulosytoosi, anemia, diabetes ja diabeettinen ketoasidoosi, hyperbilirubinemia (myös Gilbertin oireyhtymä), aktiivinen peptinen haava, hypofosfatemia ja lihavuus. Tämä lista ei perustu valmisteyhteenvedon tekstiin.
+- **Lääkeinteraktiot:** Tiedoissa on 100 interaktiota. Merkittävät (Major): **eliglustaatti** ja **naloksegoli**. Keskivaikeita (Moderate) ovat mm. hydrokortisoni, deksametasoni, betametasoni, triamsinoloni, budesonidi, pioglitatsoni, glimepiridi, sakagliptiini, aprepitantti, morfiini, simetidiini, klaritromysiini, lansopratsoli, dekslansopratsoli, naltreksoni, naldemedini ja metreleptiini.
+
+Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat aineistosta. Tarkista ne valmisteyhteenvedosta.
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Hold**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-TxGNN-pistemäärä on korkea, mutta tälle spesifiselle käyttöaiheelle (sydämen fibroosarkooma) on vain yksi ei-spesifinen kommenttiartikel ja nolla kliinisiä tutkimuksia. Primaarinen sydämen fibroosarkooma on äärimmäisen harvinainen, eikä mikään eliminiin- tai tumoriin-spesifinen mekanistinen näyttö (esim. PDGFRB-fuusion tila) tue yhteyttä — tämä on tällä hetkellä vain mallin ennustussignaali (johdonmukainen paketin omien L4/Hold-pisteytysten kanssa).
+- Sydämen fibrosarkoomalle ei ole kliinisiä kokeita eikä kohdekohtaista näyttöä, vain yksi yleinen katsaus. Mekanistinen yhteys on ekstrapolaatio DFSP:stä.
+- Lisäksi Suomen myyntiluvat on kaikki peruutettu ja turvallisuustiedoista puuttuu valmisteyhteenveto, joten etenemistä ei voi tässä vaiheessa perustella.
 
-**Jatkamista varten tarvitaan seuraavaa:**
-- TFDA/Fimean pakkausesite-tiedot (tällä hetkellä esto — DG001)
-- Yksityiskohtainen vaikutustavan vahvistus (tällä hetkellä vakava puute — DG002)
-- Tapausraportteja tai prekliinisiä tietoja, jotka vahvistavat PDGFR/KIT/BCR-ABL-polun aktiviteetin erityisesti sydämen fibroosarkooman tapauksessa
-- Harkitse saman ennustusjoukon korkeamman näyttötason ehdokkaan ("fibroblastinen neoplaasia"/DFSP, L2, Proceed with Guardrails) uudelleenarviointi toimintakelpoisempana lähiajan uudelleenkäyttötavoitteena
-
+**Etenemiseksi tarvitaan:**
+- Fimean valmisteyhteenvedon varoitukset ja vasta-aiheet (estävä tietopuute turvallisuusseulonnalle)
+- Yksityiskohtainen vaikutusmekanismitieto (esim. DrugBankista)
+- Kohdekohtaista näyttöä sydämen fibrosarkoomasta (tapausraportit, prekliiniset mallit, PDGFR/KIT-tila)
+- Arvio myyntiluvan peruutusten vaikutuksesta saatavuuteen Suomessa
+- Vertailu muihin ennustettuihin kohteisiin: liposarkooma (näytön taso L2, vaikka mekanistinen sopivuus on heikko) ja fibroblastinen kasvain/DFSP-alatyypit ovat todennäköisesti tutkimuskysymyksinä vahvempia kuin sydämen fibrosarkooma
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

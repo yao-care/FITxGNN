@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Budesonide
-parent: Vahva näyttö (L1-L2)
-nav_order: 80
-evidence_level: L1
+parent: Kohtalainen näyttö (L3-L4)
+nav_order: 87
+evidence_level: L4
 indication_count: 10
 ---
 
 # Budesonide
 {: .fs-9 }
 
-Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,99 +29,107 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Budesonidi: Kortikosteroidien tulehduksenvastaisesta hoidosta keuhkoputkentulehdukseen
+# Budesoni: Esofagiitista ja keuhkosairauksista kohti ennustettua uutta käyttöaihetta – atooppinen ekseema
 
 ## Yhden lauseen yhteenveto
 
-> Budesonidi on vakiintunut inhaloitava/paikallinen kortikosteroidivalmiste; näyttöpaketissa ei ole kirjattu sen erityistä alkuperäistä käyttöaihetta tai yksityiskohtaista vaikutusmekanismin kuvausta, mutta lääkeryhmän yleinen mekanismi (paikallinen tulehduksenvastaisuus, glukokortikoidivaikutus) on hyvin dokumentoitu.
-> Kymmenen TxGNN-ennustetusta käyttöaiheesta **keuhkoputkentulehdus** on ainoa, jonka näyttöarviointi on täysin valmis (näytön taso **L1**, päätösvaihe **S3**), ja sitä tukee **17 kliinistä tutkimusta** sekä **22 julkaisua**.
-> Huomautus: "Atopinen eksseema" saa TxGNN-mittarin raakapisteissä hieman korkeamman pistemäärän, mutta sen kliininen/kirjallisuuksiin perustuva merkitysten arviointi on edelleen merkitty "käsittelyssä olevaksi" tässä näyttöpaketissa, joten se ei ole vielä soveltamiskelpoinen – tämä raportti keskittyy keuhkoputkentulehdukseen kypsimpänä ehdokkaana.
+Budesoni on glukokortikoidi, jota on käytetty Suomessa (EU-myyntiluvilla) ruokatorven sairauksien sekä keuhkoahtaumataudin (COPD) ja astman hoitoon.
+TxGNN-malli ennustaa sen voivan tehoa **atooppiseen ekseemaan**, mutta tälle käyttöaiheelle ei ole yhtään kliinistä tutkimusta ja **19 julkaisusta** vain yksi on suoraan aiheeseen liittyvä, ja sekin on prekliininen lääkemuotoilututkimus.
 
 ---
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|--------|
-| Alkuperäinen käyttöaihe | Ei määritelty näyttöpaketissa – `original_indications` ja Suomen myyntilupa-arkistot ovat tyhjät (katso DG001/DG002 tietoaukot) |
-| Ennustettu uusi käyttöaihe | Keuhkoputkentulehdus |
-| TxGNN-ennusteen pistemäärä | 99,81% (sijaluku 2 511 kaikkiaan) |
-| Näytön taso | L1 |
-| Suomen markkinoinnin asema | ✗ Ei markkinoitu |
-| Myyntilupien määrä | 0 |
-| Suositeltu päätös | Jatka varauksilla |
+|------|------|
+| Alkuperäinen käyttöaihe | Ruokatorven sairaudet (muut luvat: COPD ja astma) |
+| Ennustettu uusi käyttöaihe | Atooppinen ekseema |
+| TxGNN-ennustepistemäärä | 99,96 % |
+| Näytön taso | L4 |
+| Markkinatilanne Suomessa | Vain peruutettuja lupia |
+| Lupien lukumäärä | 6 (kaikki peruutettuja) |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Miksi tämä ennuste on perusteltu?
+## Miksi ennuste on perusteltu?
 
-Budesonidille ei ole tällä hetkellä saatavilla yksityiskohtaisia vaikutusmekanismin tietoja tässä näyttöpaketissa (DG002, korkea vakavuusaste). Tunnettujen tietojen perusteella budesonidi on kortikosteroidivalmiste, jota käytetään inhaloitavassa ja paikallisessa muodossa, ja sen mekanistinen tulehduksenvastaisuus on suoraan sovellettavissa ilmatiehyiden tulehduksellisiin sairauksiin.
+Tämän raportin laatimiseen koottu aineisto ei sisällä yksityiskohtaista vaikutusmekanismitietoa. Tunnetun tiedon perusteella budesoni on paikallisesti vaikuttava glukokortikoidi, jonka teho tulehduksellisissa sairauksissa (ruokatorvi, hengitystiet) on osoitettu, ja mekanistisesti se voisi soveltua myös atooppiseen ekseemaan.
 
-Inhaloitavana kortikosteroidina (ICS) budesonidi vaimentaa ilmatiehyiden tulehdusta, vähentää eosinifiilien infiltraatiota ja pienentää limakalvojen turvotusta. Tämä on jo vakiintuneet mekanismi sen käytössä astman, COPD:n ja kroonisen keuhkoputkentulehduksen hoidossa (esim. budesonidi/formoterolin kaltaisissa yhdistelmävalmisteissa). Mekanistinen yhteys keuhkoputkentulehdukseen on siten suora ja kliinisesti vakiintunut, eikä spekulatiivinen poikkisairauksien ekstrapolointi.
+Glukokortikoidina budesoni estää tulehdusta edistävien sytokiinien ja kemokiinien ilmentymistä sekä immuunisolujen kulkeutumista tulehtuneeseen kudokseen. Atooppinen ekseema on tyypin 2 tulehdussairaus, joten vaikutus on uskottava. Alkuperäiset käyttöaiheet (eosinofiilinen ruokatorvitulehdus, astma, COPD) ovat myös limakalvojen tulehdussairauksia, mikä tukee yhteyttä.
 
-Kliinisen tutkimuksen tietue vahvistaa tämän: useat tutkimukset käyttävät budesonidiä (usein yhdessä formoterolin kanssa) nimenomaan eosinifiilisessä keuhkoputkentulehduksessa, kroonisessa keuhkoputkentulehduksessa ilman obstruktiota ja bronkiolitis obliteransissa – olosuhteet, jotka sijaitsevat samalla tulehduksellisen ilmatiehyiden spektrillä kuin ennustettu käyttöaihe. Tämä vakiintuneen mekanismin ja sairauden kannalta merkityksellisen tutkimustoiminnan yhteensopivuus on se, mikä tukee L1-näyttötasoa.
+Korkea ennustepistemäärä ei kuitenkaan ole kliinisen näytön korvike. Haetussa kirjallisuudessa korostuvat kontaktiallergia ja kortikosteroidien yliherkkyys, mikä on pikemminkin varoitus kuin tuki.
 
----
-
-## Kliinisen tutkimuksen näyttö
-
-| Tutkimuksen numero | Vaihe | Tila | Osallistujamäärä | Keskeiset tulokset |
-|---------|------|------|------|---------|
-| [NCT02002715](https://clinicaltrials.gov/study/NCT02002715) | Vaihe 4 | Valmis | 106 | Satunnaistettu, avoin vertailu eri inhaloitujen kortikosteroidien hoitokestoista eosinifiilisen keuhkoputkentulehduksen potilailla; arvioi yskänpistemäärää ja sputumin eosinifiliirien palautumista |
-| [NCT00202189](https://clinicaltrials.gov/study/NCT00202189) | Vaihe 4 | Valmis | 4 | Inhaloitujen kortikosteroidien akuutit vaikutukset dynaamisen ilmatiehyiden toimintoon (verenvirtaus, vastus, yliinflataatio) levossa ja kuormituksessa COPD-potilailla |
-| [NCT00624754](https://clinicaltrials.gov/study/NCT00624754) | Vaihe 2 | Valmis | 32 | Budesonidi/formoterolin (Symbicort) teho-arviointitutkimus bronkiolitis obliteransissa allogeneisen kantasolusiirtelyn jälkeen |
-| [NCT01560689](https://clinicaltrials.gov/study/NCT01560689) | Vaihe 2 | Valmis | 32 | Avoin tutkimus inhaloitavasta budesonidi/formoteroleista bronkiolitis obliteransissa allogeneisen kantasolusiirtelyn jälkeen |
-| [NCT01121016](https://clinicaltrials.gov/study/NCT01121016) | Vaihe 4 | Tuntematon | 63 | Satunnaistettu kaksoissokkotutkimus, jossa montelukasti lisätään inhaloituun budesonidiin ei-astmaattisessa eosinifiilisessä keuhkoputkentulehduksessa |
-| [NCT01023516](https://clinicaltrials.gov/study/NCT01023516) | Vaihe 2 | Valmis | 615 | Vaihe IIb -tutkimus suun kautta annettavasta AZD9668-valmiskeesta vs. lumekoe budesonidi/formoterolin taustahoidon päälle COPD-potilailla |
-| [NCT00483743](https://clinicaltrials.gov/study/NCT00483743) | Vaihe 2 | Valmis | 62 | Monitasotutkimus, jossa verrattiin inhaloitavaa TPI 1020 -valmistetta vs. inhaloitua budesonidiä vs. lumetta turvallisuuden, siedettävyyden ja farmakodynamiikan osalta COPD-potilailla |
-| [NCT02526758](https://clinicaltrials.gov/study/NCT02526758) | Vaihe 4 | Tuntematon | 90 | Pienten ilmatiehyiden sairauksien (obstruktiivinen/krooninen keuhkoputkentulehdus) arviointia ja hoitoa COPD:ssä impulssivärähtelyn järjestelmää käyttäen |
-| [NCT06571942](https://clinicaltrials.gov/study/NCT06571942) | Vaihe 4 | Rekrytoi | 128 | Satunnaistettu kontrolloitu tutkimus inhaloitujen kolminkertaisten/kaksinkertaisten hoitojen vaikutuksesta pienten ilmatiehyiden toimintaan COPD:ssä ja kroonisessa keuhkoputkentulehduksessa ilman obstruktiota biomassa-altistuksesta johtuen |
-| [NCT03436225](https://clinicaltrials.gov/study/NCT03436225) | Vaihe 1 | Tuntematon | 80 | Steroidihoidon tehokkuuden ja sairaalassaoloajan arviointitutkimus akuutissa bronkiolitis |
+Huomionarvoista on myös, että tietoaineiston toiseksi sijoittuva ennuste, **bronkiitti** (pistemäärä 99,81 %), on näytöltään vahvempi: siitä on Vaiheen 2 tutkimuksia ja tason L2 näyttö. Se voisi olla jatkoarvioinnissa kiinnostavampi kohde.
 
 ---
 
-## Kirjallisuuden näyttö
+## Kliininen tutkimusnäyttö
 
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset tulokset |
+Atooppisesta ekseemasta ei ole tällä hetkellä rekisteröityjä kliinisiä tutkimuksia.
+
+---
+
+## Kirjallisuusnäyttö
+
+Näytön laatu on heikko; suurin osa julkaisuista käsittelee kontaktiallergiaa tai muita sairauksia. Valikoima tärkeimmistä:
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [10780759](https://pubmed.ncbi.nlm.nih.gov/10780759/) | 2000 | RCT | European Respiratory Journal | Inhaloitu budesonidi vähentää ilmatiehyiden tulehdusta, reagointikykyä ja yskää eosinifiilisen keuhkoputkentulehduksen potilailla |
-| [37696312](https://pubmed.ncbi.nlm.nih.gov/37696312/) | 2023 | RCT | Respiratory Medicine | Tiotropiinin lisääminen budesonidi/formoteroleille parantaa keuhkotoimintoa ja CAT-pisteitä bronkiolitis obliteransissa HSCT:n jälkeen |
-| [37954384](https://pubmed.ncbi.nlm.nih.gov/37954384/) | 2023 | Meta-analyysi | Heliyon | Systematiikkaarvio budesonidi + ambroksoli -inhalaatoista lapsuuden keuhkokuumeessa/keuhkoputkentulehduksessa ja sen vaikutuksesta tulehdukselliseen vasteeseen |
-| [31015757](https://pubmed.ncbi.nlm.nih.gov/31015757/) | 2019 | Meta-analyysi | Int J Chronic Obstr Pulm Dis | Vertaileva riskianalyysi budesonidi/formoteroleista vs. lumelääkkeestä/yksittäisestä hoidosta vakaassa COPD:ssä |
-| [11129126](https://pubmed.ncbi.nlm.nih.gov/11129126/) | 2000 | Katsaus | Drugs | Katsaus inhaloituun budesonidi-suspensioon imeväisten, lasten ja aikuisten tulehduksellisissa hengitystiesairauksissa |
-| [40284499](https://pubmed.ncbi.nlm.nih.gov/40284499/) | 2025 | Katsaus | Pharmaceutics | Katsaus budesonidiin sen tulehduksenvastaisista ja solujen plastisiteetin vaikutuksista limakalvojen tulehduksellisissa sairauksissa, mukaan lukien keuhkoputkentulehdus |
-| [28810628](https://pubmed.ncbi.nlm.nih.gov/28810628/) | 2017 | Kohortti | Experimental and Therapeutic Medicine | Hapella ohjattu aerosoli budesonidi + terbutaliinisula parantaa tuloksia lapsuuden astmaattisessa keuhkoputkentulehduksessa |
-| [35432356](https://pubmed.ncbi.nlm.nih.gov/35432356/) | 2022 | Kohortti | Frontiers in Immunology | Eosinifiliirien progenittorikellun eriytymisen vertailu ei-astmaattisessa eosinifiilisessä keuhkoputkentulehduksessa, eosinifilisessä astmassa ja kontrollissa |
-| [30471087](https://pubmed.ncbi.nlm.nih.gov/30471087/) | 2018 | Prekliininen | Medical Science Monitor | Budesonidi yhdessä Astragaloside IV:n kanssa vähentää keuhkoputkentulehduksen vakavuutta rotilla Nrf2/Keap1-polun säätelyä kautta |
-| [40761058](https://pubmed.ncbi.nlm.nih.gov/40761058/) | 2025 | Kohortti | Pakistan Journal of Pharmaceutical Sciences | Mukolyytin, bronkodilataattorin ja budesonidi-tulehduksenvastaisuushoitoyhdistelmä parantaa sekretion hallintaa ja toipumisaikaa lapsuuden keuhkoputkentulehduksessa |
+| [38275852](https://pubmed.ncbi.nlm.nih.gov/38275852/) | 2024 | Prekliininen lääkemuotoilu | Gels | Budesonidia sisältävät nanopartikkelit hydrogeelissä lasten atooppisen ihottuman paikallishoitoon; ainoa suoraan relevantti julkaisu |
+| [9496795](https://pubmed.ncbi.nlm.nih.gov/9496795/) | 1998 | Avoin kliininen tutkimus (14 lasta) | Pediatric Dermatology | Paikallisen budesonin vaikutus lasten lyhytaikaiseen kasvuun atooppisessa ihottumassa (knemometria) |
+| [16428071](https://pubmed.ncbi.nlm.nih.gov/16428071/) | 2006 | Laboratoriotutkimus | Int Immunopharmacol | Budesoni, mutta ei takrolimuusi, vaikuttaa ihmisen keratinosyyttien immuunitoimintoihin |
+| [8864369](https://pubmed.ncbi.nlm.nih.gov/8864369/) | 1996 | Kliininen tutkimus | Dermatology | Paikallisten kortikosteroidien vaikutus luun ja kollageenin vaihtuvuuteen atooppista ihottumaa sairastavilla lapsilla |
+| [21062310](https://pubmed.ncbi.nlm.nih.gov/21062310/) | 2010 | Satunnaistettu, lumekontrolloitu (koirat) | J Vet Pharmacol Ther | Budesonidihoitoaine vähensi ihottumaa ja kutinaa koirien atooppisessa ihottumassa (eläintutkimus) |
+| [14616123](https://pubmed.ncbi.nlm.nih.gov/14616123/) | 2003 | Katsaus | Allergy | Kortikosteroidiallergia astmapotilailla |
+| [33931866](https://pubmed.ncbi.nlm.nih.gov/33931866/) | 2021 | Epikutaanitestitutkimus | Contact Dermatitis | Budesoni on kortikosteroidiyliherkkyyden merkkiaine; allergia on vähentynyt |
+| [37927648](https://pubmed.ncbi.nlm.nih.gov/37927648/) | 2023 | Tapausselostus | Cureus | Steroidin aiheuttama angioedeema ja urtikaria potilaalla, jolla on atooppinen ihottuma |
+| [31705907](https://pubmed.ncbi.nlm.nih.gov/31705907/) | 2020 | Katsaus | J Allergy Clin Immunol | Eosinofiilisen esofagiitin uudet hoidot (liittyy alkuperäiseen käyttöaiheeseen) |
 
 ---
 
-## Suomen markkinatiedot
+## Markkinatiedot Suomessa
 
-Budesonidilla ei ole tällä hetkellä myyntilupaa Suomessa (`market_status`: Not marketed / Ei markkinoitu, `total_licenses`: 0). Mitään tuotekohtaista lisenssitietoa ei ole saatavilla.
+| Lupanumero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004655 | Jorveza | – | Ruokatorven sairaudet |
+| EMEA/H/C/002348 | DuoResp Spiromax | – | COPD, astma |
+| EMEA/H/C/004882 | GoResp Digihaler | – | Astma, COPD |
+| EMEA/H/C/003890 | BiResp Spiromax | – | COPD, astma |
+| EMEA/H/C/004983 | Trixeo Aerosphere | – | COPD |
+
+Kaikki kuusi lupaa on tilaltaan peruutettuja; voimassa olevia lupia ei ole. (Kuudes lupa, Riltrava Aerosphere, COPD, on jätetty taulukosta pois enimmäismäärän 5 vuoksi.)
 
 ---
 
 ## Turvallisuusnäkökohdat
 
-Turvallisuustietoja löytyy pakkausselosteesta. Tässä näyttöpaketissa ei ole saatavilla keskeisissä varoituksissa, vasta-aiheissa tai lääkkeiden välisissä vuorovaikutuksissa koskevia tietoja (TFDA:n pakkauselosteiden haku on merkitty **estäväksi** tietoaukoksi, DG001).
+**Lääkeyhteisvaikutukset** (yhteensä 100 tunnistettua; esimerkkejä):
+- **Merkittävät (Major):** adalimumabi, fosamprenaviiri
+- **Kohtalaiset (Moderate):** mm. tsidovudiini, isotretinoiini, asebutololi, ketorolaakki, nifedipiini, ibuprofeeni, etinyyliestradioli, aldesleukiini, alemtutsumabi, fluvoksamiini
+- **Vähäiset (Minor):** formoteroli, salbutamoli
+
+**Tietämysgraafiin perustuvat vasta-aiheet** (ei lääkevalmisteyhteenvedon teksti, vaan mallin tietämysgraafin yhteydet): mm. verenpainetauti, epilepsia, maksasairaus, sappirakon sairaus, hyperglykemia, sydämen vajaatoiminta, herpes simplex -silmätulehdus (keratiitti), tuhkarokko sekä useat aivolisäkkeen vajaatoimintaan ja kasvuhormonipuutokseen liittyvät tilat.
+
+**Kirjallisuudesta nousevat huomiot:** kortikosteroidien kontaktiallergia, paikallisten steroidien mahdollinen systeeminen vaikutus ja kasvun hidastuminen lapsilla sekä lisämunuaisen suppressio.
+
+Täydelliset varoitukset ja vasta-aiheet on tarkistettava valmisteyhteenvedosta.
 
 ---
 
-## Johtopäätökset ja seuraavat vaiheet
+## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Jatka varauksilla**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-- Budesonidini mekanismi (ICS-tulehduksenvastaisuus) on suoraan merkityksellinen keuhkoputkentulehdukselle, ja näytön taso L1 on tuettu useilla valmiilla vaihe 4 -tutkimuksilla ja RCT:illä/meta-analyyseillä lähellä olevissa olosuhteissa (eosinifiilinen keuhkoputkentulehdus, krooninen keuhkoputkentulehdus, bronkiolitis obliterans). Kuitenkin suurin osa tutkimuksista kohdistuu vierekkäisiin diagnooseihin pikemminkin kuin "keuhkoputkentulehdus"-etiketille sinänsä, eikä lääke ole tällä hetkellä markkinoitu Suomessa ilman paikallisia turvallisuusasiakirjoja.
+- Atooppiselle ekseemalle ei ole yhtään kliinistä tutkimusta, ja ainoa suoraan relevantti julkaisu on prekliininen lääkemuotoilututkimus. Korkea TxGNN-pistemäärä ei ole kliinisen näytön tukema. Budesonilla ei lisäksi ole Suomessa voimassa olevaa myyntilupaa.
 
-**Jatkon edellytykset:**
-- TFDA/Suomen pakkauselosteiden haku – varoitukset, vasta-aiheet, lääkkeiden väliset vuorovaikutukset (Estävä, DG001)
-- Vahvistettu alkuperäinen käyttöaihe ja MOA-teksti DrugBankista tai sääntelylähdettä (Korkea prioriteetti, DG002)
-- Suomen markkinoille tulon erillistä toteutettavuusarviointi, koska nykyinen "Ei markkinoitu" -asema
-- Sairauden erityinen tutkimukseen perustuva kartoitus, jotta voidaan vahvistaa, onko "keuhkoputkentulehdus" (vs. tutkimusnäytössä nähtävät yksityiskohtaisemmat eosinifiilinen keuhkoputkentulehdus / COPD-aiheinen krooninen keuhkoputkentulehdus -alatyypitv) oikea kohde-etiketti sääntelytarkoituksiin
-
+**Jatkoon edettäessä tarvitaan:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden haku Fimeasta (puute estää turvallisuusseulonnan)
+- Vaikutusmekanismitietojen täydentäminen DrugBankista
+- Selvitys antoreitistä ja lääkemuodosta (paikallinen iholle sopiva valmiste vs. nykyiset inhalaatio- ja suun kautta otettavat valmisteet)
+- Kontrolloidut kliiniset tutkimukset ekseemassa, huomioiden kontaktiallergian ja systeemisen imeytymisen riski lapsilla
+- Harkittava ennusteen **bronkiitti** (L2, Vaiheen 2 tutkimukset) priorisointia jatkoarvioinnissa, sillä sen näyttö on selvästi vahvempi kuin ekseemalla
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

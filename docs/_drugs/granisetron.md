@@ -2,7 +2,7 @@
 layout: default
 title: Granisetron
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 181
+nav_order: 211
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,63 +29,102 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Granisetron: Antiemeettisestä käytöstä maniakaalisen kaksisuuntaisen affektiivisen häiriön hoitoon
+# Granisetroni: Pahoinvoinnin ja oksentelun hoidosta maaniseen kaksisuuntaiseen mielialahäiriöön
 
 ## Yhden lauseen yhteenveto
 
-Granisetron on selektiivinen 5-HT3-reseptoriantagonisti, joka tunnetaan antiemeettisestä käytöstään (kemoterapian/sädehoidon aiheuttama pahoinvointi ja oksentelu sekä postoperatiivinen pahoinvointi ja oksentelu). TxGNN-malli ennustaa, että se voi olla tehokas **maniakaalisen kaksisuuntaisen affektiivisen häiriön** hoidossa, mutta tätä ennustusta tukee tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua** — kyseessä on puhtaasti mallista johdettu hypoteesi, jolla ei ole vahvistavia näyttöjä.
+Granisetroni on selektiivinen 5-HT3-reseptorin salpaaja, jota on alun perin käytetty oksentelun ja syöpähoitoihin liittyvän pahoinvoinnin hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **maaniseen kaksisuuntaiseen mielialahäiriöön** (ennustepiste 99,62 %), mutta ennusteen tueksi ei ole tällä hetkellä **yhtään kliinistä tutkimusta eikä julkaisua**. Ennuste perustuu siis pelkkään mallilaskentaan.
 
-## Nopea yleiskatsaus
+---
+
+## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Antiemeettinen käyttö (CINV/PONV) — perustuu 5-HT3-antagonistien tunnettuun farmakologiaan; ei vahvistettu näyttöpaketissa (Suomen lupaa koskevaa tekstiä ei ole saatavilla) |
-| Ennustettu uusi indikaatio | Maniakaalinen kaksisuuntainen affektiivinen häiriö |
-| TxGNN-ennustepisteet | 99.62% |
-| Näyttöjen taso | L5 |
-| Suomen markkinoiden asema | Ei markkinoilla (Ei markkinoilla) |
-| Lupien määrä | 0 |
-| Suositeltu päätös | Odota |
+| Alkuperäinen käyttöaihe | Oksentelu; syöpä |
+| Ennustettu uusi käyttöaihe | Maaninen kaksisuuntainen mielialahäiriö |
+| TxGNN-ennustepiste | 99,62 % |
+| Näytön taso | L5 (vain mallin ennuste) |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennuste on kohtuullinen?
+---
 
-Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla. Tunnettujen tietojen perusteella granisetron on selektiivinen 5-HT3 (serotoniini) -reseptoriantagonisti, sen teho antiemeettisessä käytössä on todistettu, ja mekanistisesti se voi teoriassa ulottua serotoniergisen säätöhäiriöön liittyviin tiloihin.
+## Miksi ennuste on perusteltu?
 
-Tälle ehdokkaalle toimitetun uudelleenkäyttöperustelun mukaan 5-HT3-reseptoreiden signalointi liittyy epäsuorasti ja teoriassa mielialan säätelyyn — se viittaa saman luokan lääkkeen ondansetronia koskeviin pieniin alkututkimuksiin lisähoitona maniassa. Tämä on kuitenkin selvästi merkitty spekulatiiviseksi: ei ole suoraa mekanistista tai kliinistä näyttöä siitä, että granisetronilla olisi mitään vaikutusta maniakaalisen kaksisuuntaisen affektiivisen häiriön hoitoon.
+Tämän raportin pohjana olevassa aineistossa ei ole saatavilla yksityiskohtaista vaikutusmekanismitietoa. Tiedossa on, että granisetroni on selektiivinen 5-HT3-reseptorin salpaaja ja sen teho oksentelun ja pahoinvoinnin hoidossa on osoitettu. Mekanistisesti se voi mahdollisesti soveltua myös muihin tiloihin, joissa serotoniinivälitteinen säätely on osallisena.
 
-Koska kliinisiä tutkimuksia, rekisteri-ilmoituksia tai kirjallisuutta yhdistämään granisetonia tähän indikaatioon ei ole, TxGNN-pisteet tulisi tulkita tietoverkosta johdetuksi hypoteesiksi pikemminkin kuin näyttöön perustuvaksi signaaliksi. Se on kohtuullinen tutkimuskohde, jota kannattaa seurata, mutta ei perusta kliiniselle toiminnalle tällä hetkellä.
+Maanisen kaksisuuntaisen mielialahäiriön osalta mahdollinen yhteys on se, että serotonerginen ja 5-HT3-välitteinen dopamiinin vapautumisen säätely voisi vaikuttaa maanisiin oireisiin. Yhteys on uskottava mutta todistamaton. Alkuperäisen vaikutusmekanismin tiedot puuttuvat, joten mekanistista perustelua ei voida varmentaa toimitetusta aineistosta.
 
-## Kliiniset tutkimusnäytöt
+Korkea ennustepiste (0,996) kuvaa mallin tunnistamaa läheisyyttä tietoverkossa, ei osoitettua kliinistä tehoa.
 
-Tällä hetkellä yhtään asiaankuuluvaa rekisteröityä kliinistä tutkimusta ei ole.
+### Muut ennustetut käyttöaiheet
 
-## Kirjallisuuden näyttö
+Mallin muut kärkiennusteet ovat samalla tavalla pelkkiä ennusteita ilman tutkimusnäyttöä:
 
-Tällä hetkellä ei ole saatavilla asiaankuuluvaa kirjallisuutta.
+| Sija | Sairaus | Pisteet | Mekanistinen uskottavuus |
+|---|---|---|---|
+| 2 | Touretten oireyhtymä | 99,52 % | Mahdollinen epäsuora vaikutus dopaminergisiin piireihin; vain ennuste |
+| 3 | Akuutti tarttuva sidekalvotulehdus | 99,49 % | Ei selvää yhteyttä; todennäköisesti verkkoläheisyyttä |
+| 4 | Angioedeema | 99,36 % | Spekulatiivinen; mekanismit vaihtelevat muodoittain |
+| 5 | Allerginen nokkosihottuma | 99,32 % | Heikko teoreettinen yhteys |
+| 6 | Nefrogeeninen antidiureesin epäasianmukaisen erityksen oireyhtymä | 99,32 % | Ei mekanistista yhteyttä |
+| 7 | Trikotillomania | 99,23 % | Hypoteettinen yhteys pakko-oireisten häiriöiden kautta |
+| 8 | Keuhkoputkitulehdus | 99,18 % | Ei uskottavaa yhteyttä |
+| 9 | Kylmänokkosihottuma | 99,10 % | Heikko teoreettinen yhteys |
+| 10 | Sidekalvotulehdus | 99,09 % | Ei selvää yhteyttä |
 
-## Suomen markkinatiedot
+---
 
-Granisetron ei ole tällä hetkellä markkinoilla Suomessa (0 lupaa saatavilla); tuotekohtaista lupaa koskevaa aineistoa ei ole saatavilla taulukointiin.
+## Kliinisen tutkimuksen näyttö
 
-## Turvallisuushuomioon
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
-Katso pakkausselosteesta turvallisuustiedot.
+---
 
-*Huomautus: TFDA-pakkausselosteen varoitukset/vasta-aiheet (DG001) on merkitty estäviksi aineiston puutteiksi — tämä on ratkaistava ennen kuin S1-turvallisuuden esiarviointia voidaan jatkaa.*
+## Kirjallisuusnäyttö
+
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
+
+---
+
+## Tiedot Suomen markkinoilta
+
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/002296 | Sancuso | – | Oksentelu; syöpä (peruutettu) |
+
+---
+
+## Turvallisuusnäkökohdat
+
+Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ole tämän raportin aineistossa, joten niihin on perehdyttävä valmisteyhteenvedosta.
+
+- **Tietämysgraafin mukaiset vasta-aiheet** (eivät ole peräisin valmisteyhteenvedosta): pitkä QT-oireyhtymä, familiaalinen pitkä QT-oireyhtymä, kaliumin puutossairaus, äkillinen sydänpysähdys ja sydämen johtumishäiriö. Tämä viittaa sydämen rytmiin ja QT-aikaan liittyvään varovaisuuteen.
+
+- **Lääkkeiden yhteisvaikutukset** (haku tehty, yhteensä 100 yhteisvaikutusta; alla esimerkkejä ensimmäisistä 20):
+  - **Merkittävät (Major):** fentanyyli, dekstrometorfaani, tramadoli, alfentaniili, almotriptaani, sumatriptaani, amiodaroni, amisulpridi, amitriptyliini, anagrelidi
+  - **Kohtalaiset (Moderate):** abametapiiri (paikallinen), abirateroni, dihydrokodeiini, kodeiini, famotidiini, formoteroli, adenosiini, salbutamoli, alfutsosiini, propofoli
+
+  Useat merkittävistä yhteisvaikutuksista liittyvät joko QT-ajan pidentymiseen (esim. amiodaroni, amisulpridi, amitriptyliini, anagrelidi) tai serotonergiseen vaikutukseen (esim. tramadoli, triptaanit, fentanyyli).
+
+---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Odota**
+**Päätös: Hold (odota)**
 
-**Perustelut:**
-Ennuste perustuu pelkästään TxGNN-mallin pisteisiin (L5), joita ei tueta kliinisillä tutkimuksilla, rekisteri-ilmoituksilla tai kirjallisuudella, ja ehdotettu mekanistinen yhteys 5-HT3-antagonismin ja kaksisuuntaisen manian välillä on spekulatiivinen ja lääkeluokasta johdettu pikemminkin kuin granisetronille ominainen.
+**Perustelu:**
+Ennuste perustuu pelkästään malliin (näytön taso L5), eikä siitä ole kliinisiä tutkimuksia tai julkaisuja. Lisäksi vaikutusmekanismin tiedot ja valmisteyhteenvedon turvallisuustiedot puuttuvat, ja ainoa Suomen myyntilupa on peruutettu. Tietämysgraafi liittää lääkkeeseen sydämen rytmiin liittyviä vasta-aiheita.
 
-**Jatkamista varten tarvitaan seuraavaa:**
-- Vahvistetut granisetronin vaikutusmekanismin tiedot (MOA) (DG002)
-- TFDA/Fimea-pakkausselosteen varoitukset ja vasta-aiheet (DG001, este)
-- Tutkimustutkimukset tai prekliiniset tutkimukset, jotka arvoivat suoraan 5-HT3-antagonismia kaksisuuntaisissa/maniakaalissa tiloissa
-- Alkuperäisen hyväksytyn indikaation ja lupien aseman vahvistaminen, koska Suomen markkinoilla ei ole tällä hetkellä markkinoitavaa tuotetta
-
+**Eteenpäin siirtyminen edellyttää:**
+- Valmisteyhteenvedon varoitus- ja vasta-aihetietojen hankkimista Fimean sivustolta (ratkaiseva puute turvallisuusseulonnan kannalta)
+- Vaikutusmekanismin tietojen täydentämistä DrugBankista
+- Prekliinisen ja kliinisen kirjallisuuden systemaattista hakua maanisesta kaksisuuntaisesta mielialahäiriöstä ja granisetronista
+- QT-aikaan ja sydänturvallisuuteen sekä serotonergisiin yhteisvaikutuksiin liittyvän riskiarvion laatimista
+- Antoreittien yhteensopivuuden ja saatavuuden selvittämistä, koska nykyinen myyntilupa on peruutettu
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

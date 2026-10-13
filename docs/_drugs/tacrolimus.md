@@ -2,7 +2,7 @@
 layout: default
 title: Tacrolimus
 parent: Vahva näyttö (L1-L2)
-nav_order: 354
+nav_order: 414
 evidence_level: L1
 indication_count: 3
 ---
@@ -29,77 +29,87 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Takrolimus: atopisen dermatiitin hoidosta seborroosisen dermatiitin hoitoon
+# Takrolimuusi: Elinsiirteiden hyljinnän estosta ja atooppisesta ihottumasta seborrooiseen ihottumaan
 
 ## Yhden lauseen yhteenveto
 
-Takrolimus on topikaalinen kalsineumiinin inhibiittori, joka tunnetaan parhaiten atopisen dermatiitin (ekseema) hoidosta tuotteiden, kuten Protopicin, alla.
-TxGNN-malli ennustaa, että se saattaa olla myös tehokas **seborroosisen dermatiitin** hoidossa,
-ja tällä hetkellä **2 kliinistä tutkimusta** ja **20 julkaisua** tukevat tätä suuntaa.
+Takrolimuusi on kalsineuriinin estäjä, jota on alun perin käytetty maksan ja munuaisen elinsiirteiden hyljinnän estoon sekä atooppisen ihottuman hoitoon. TxGNN-malli ennustaa sen voivan tehota **seborrooiseen ihottumaan**. Aiheesta on koottu **2 suoraan kohdesairauteen liittyvää kliinistä tutkimusta** (yksi vaiheen 3 ja yksi vaiheen 4 tutkimus, molemmat valmistuneet) ja **20 julkaisua**, joihin kuuluu myös satunnaistettu, kaksoissokkoutettu tutkimus.
 
-## Nopea yleiskatsaus
+## Pikayhteenveto
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Atopinen dermatiitti (topikaalinen kalsineumiinin inhibiittori) – tässä aineistossa ei ole virallista indikaatiotekstiä |
-| Ennustettu uusi indikaatio | Seborroosinen dermatiitti |
-| TxGNN:n ennustuspistemäärä | 99.26% |
-| Näyttötaso | L1 |
-| Suomen markkinatilanne | ✗ Ei markkinoilla |
-| Valtuuksien määrä | 0 |
-| Suositeltu päätös | Jatka varainnein |
+| Alkuperäinen käyttöaihe | Maksan ja munuaisen siirto; elinsiirteen hyljintä; atooppinen ihottuma |
+| Ennustettu uusi käyttöaihe | Seborrooinen ihottuma |
+| TxGNN-ennustepisteet | 99,26 % |
+| Näytön taso | L1 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 5 (kaikki peruutettuja) |
+| Suositeltu päätös | Etene suojatoimin (Proceed with Guardrails) |
 
-## Miksi tämä ennuste on järkevä?
+## Miksi ennuste on perusteltu?
 
-Tällä hetkellä yksityiskohtaista vaikutusmekanismin tietoa ei ole saatavilla tässä näyttöpaketissa. Tunnetun farmakologian perusteella takrolimus on kalsineumiinin inhibiittori, joka alun perin kehitettiin topikaalisen immunomodulaattorin rooliin (Protopic-voide) atopisen dermatiitin hoitoon; se estää T-solujen aktivaatiota ja sitä seuraavaa tulehdustekijöiden vapautumista ilman pitkäaikaisen topikaalisen kortikosteroidin käyttöön liittyvän ihon atrofian riskiä.
+Takrolimuusi estää kalsineuriinia ja siten T-solujen aktivaatiota sekä tulehdusta ylläpitävien sytokiinien (IL-2, IL-4, IFN-gamma) vapautumista. Tämä mekanismi selittää sen tehon elinsiirteen hyljinnän estossa ja atooppisessa ihottumassa. Tähän raporttiin koottu tieto ei sisällä yksityiskohtaista vaikutusmekanismikuvausta lääketietokannasta, joten mekanismikuvaus perustuu yleisesti tunnettuun kalsineuriinin estoon.
 
-Seborroosinen dermatiitti ja atopinen dermatiitti ovat molemmat kroonisia, oireiltaan toistuvia ihosairauksia, jotka aiheutuvat T-solujen ja sytokinien välityksellä tapahtuvasta tulehduksesta. Lisäksi seborroosinen dermatiitti liittyy *Malassezia*-yhdistykseen ja ihon estefunktion heikkenemiseen. Koska kalsineumiinin inhibitio vaimentaa jaetun tulehduskaskaadin, takrolimuksen vahvistettu anti-inflammatorinen teho atopisen dermatiitin hoidossa on mekanistisesti järkevää myös seborroosisen dermatiitin hoidossa.
+Seborrooisessa ihottumassa ihon Malassezia-hiivalle antama tulehdusvaste on keskeisessä roolissa, ja sillä on T-soluvälitteinen tulehdusreitti, joka on yhteinen atooppisen ihottuman kanssa. Koska paikallinen takrolimuusi on jo hyväksytty atooppiseen ihottumaan, mekanismi on uskottava myös seborrooisessa ihottumassa. Lisäksi takrolimuusilla voi olla suoraa sienilääkevaikutusta Malassezia-hiivaan, mutta tämä on vielä alustavaa.
 
-Tätä mekanistista perustelua vahvistaa todellinen kliininen käyttö: takrolimus-voide on toistuvasti tutkittu nimenomaan kasvojen seborroosisen dermatiitin ylläpitohoidossa (steroidisäästävä, turvallinen kasvojen pitkäaikaiseen soveltamiseen), mikä on täsmälleen käyttötapaus, jota tuetaan alla esitettävällä vaihe 3 ja vaihe 4 tutkimuksen näytöllä.
+Muut ennustetut käyttöaiheet ovat heikommin tuettuja. Parapsoriaasista on vain tapausselostuksia samankaltaisesta tilasta (pityriasis lichenoides), joten näyttö on L4 ja suositus "Hold". Yleinen "ihottuma"-ennuste (L1) on lähinnä vahvistava, koska näyttö koskee pääosin atooppista ihottumaa, joka on jo hyväksytty käyttöaihe.
 
-## Kliinisen tutkimuksen näyttö
+## Kliininen tutkimusnäyttö
 
-| Tutkimusnumero | Vaihe | Tila | Osallistujamäärä | Keskeiset löydökset |
+| Tutkimusnumero | Vaihe | Tila | Osallistujia | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT02004860](https://clinicaltrials.gov/study/NCT02004860) | Vaihe 3 | Valmistunut | 120 | Ylläpitohoito takrolimus-voidella (Protopic) vakavalle kasvojen seborroosiselle dermatitille aikuisilla, jonka tavoitteena on pidentää remissiota ja vähentää topikaalisen steroidin käyttöä |
-| [NCT01591070](https://clinicaltrials.gov/study/NCT01591070) | Vaihe 4 | Valmistunut | 104 | Ennaltaehkäisevä kerran/kahdesti viikossa annettu 0.1% takrolimus-voide remission ylläpitoon ja oireiden uusiutumisen vähentämiseen aikuisten kasvojen seborroosisessa dermatitissa |
+| [NCT02004860](https://clinicaltrials.gov/study/NCT02004860) | Vaihe 3 | Valmistunut | 120 | Takrolimuusivoiteen (Protopic) ylläpitohoito aikuisten vaikean kasvojen seborrooisen ihottuman uusiutumisten vähentämiseksi |
+| [NCT01591070](https://clinicaltrials.gov/study/NCT01591070) | Vaihe 4 | Valmistunut | 104 | 0,1 % takrolimuusivoiteen ennakoiva käyttö kerran tai kahdesti viikossa aikuisten kasvojen seborrooisen ihottuman remission ylläpitoon |
 
-## Kirjallisuuden näyttö
+## Kirjallisuusnäyttö
 
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
+| PMID | Vuosi | Tyyppi | Julkaisu | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [26512166](https://pubmed.ncbi.nlm.nih.gov/26512166/) | 2015 | RCT | Annals of Dermatology | 0.1% takrolimus-voidella annettava kasvojen seborroosisen dermatiitin ylläpitohoito vähentää oireiden uusiutumisia samalla tavoin kuin epäjatkuva TCI-käyttö atopisen dermatiitin hoidossa |
-| [33010323](https://pubmed.ncbi.nlm.nih.gov/33010323/) | 2021 | RCT | J Am Acad Dermatol | Monisairaalan kaksoissokkoutettu RCT: takrolimus 0.1% vs. siklöpiroksoliamiini 1% vakavan kasvojen seborroosisen dermatiitin ylläpitohoidossa |
-| [22101215](https://pubmed.ncbi.nlm.nih.gov/22101215/) | 2012 | RCT | J Am Acad Dermatol | Yksittäisesti sokkoitettu RCT, jossa verrattiin hydrokortisonin 1% voitoa takrolimus 0.1% voiteeseen kasvojen seborroosisen dermatiitin hoidossa aikuisilla |
-| [24171300](https://pubmed.ncbi.nlm.nih.gov/24171300/) | 2013 | Kliininen tutkimus | Annals of Parasitology | Verrattiin sertakonatsolikremiä (2%) ja takrolimus-kremiiä (0.03%) seborroosisen dermatiitin hoidon tehokkuudessa |
-| [27804089](https://pubmed.ncbi.nlm.nih.gov/27804089/) | 2017 | Systemaattinen katsaus | Am J Clin Dermatol | Systemaattinen katsaus topikaalisten hoitomuotojen (sienilääkkeet, keratolyytit, kortikosteroidit, TCI:t) käyttöön kasvojen seborroosisen dermatiitin hoidossa |
-| [19222250](https://pubmed.ncbi.nlm.nih.gov/19222250/) | 2009 | Katsaus | Am J Clin Dermatol | Katsaus topikaalisten kalsineumiinin inhibiittoreiden patofysiologiaan, turvallisuuteen ja tehokkuuteen steroidisäästävänä vaihtoehtona seborroosisen dermatiitin hoidossa |
-| [19213227](https://pubmed.ncbi.nlm.nih.gov/19213227/) | 2009 | Katsaus | J Drugs Dermatol | Yleiskatsaus kasvojen seborroosisen dermatiitin patofysiologiaan ja terapeuttisiin näkymiin, mukaan lukien kalsineumiinin inhibiittorit |
-| [15663338](https://pubmed.ncbi.nlm.nih.gov/15663338/) | 2004 | Katsaus | Am J Clin Dermatol | Katsaus sienilääkkeiden rooliin seborroosisen dermatiitin hoidossa, antaen kontekstia kalsineumiinin inhibiittoreiden käytölle |
-| [28685715](https://pubmed.ncbi.nlm.nih.gov/28685715/) | 2017 | Kohortti | Chinese Medical Journal | Löydettiin korkea *Staphylococcus epidermidis* -kolonisaatio ja ihon estefunktion heikkeneminen kasvojen seborroosisessa dermatitissa, mikä tukee TCI-hoidon ihon estefunktion ja tulehdukseen liittyviä perusteita |
-| [12833030](https://pubmed.ncbi.nlm.nih.gov/12833030/) | 2003 | Avoin pilottitutkimus | J Am Acad Dermatol | Avoin pilottitutkimus: 0.1% takrolimus poisti seborroosisen dermatiitin kokonaan 61%:ssa 18 potilasta 28 päivän aikana |
+| [23388687](https://pubmed.ncbi.nlm.nih.gov/23388687/) | 2013 | RCT | Acta Derm Venereol | Satunnaistettu, kaksoissokkoutettu, vehikkelikontrolloitu monikeskustutkimus: 0,1 % takrolimuusivoiteen ennakoiva käyttö kasvojen seborrooisessa ihottumassa (75 potilasta) |
+| [26512166](https://pubmed.ncbi.nlm.nih.gov/26512166/) | 2015 | Kliininen tutkimus | Ann Dermatol | Kasvojen seborrooisen ihottuman ylläpitohoito 0,1 % takrolimuusivoiteella |
+| [19222250](https://pubmed.ncbi.nlm.nih.gov/19222250/) | 2009 | Katsaus | Am J Clin Dermatol | Paikallisten kalsineuriinin estäjien rooli seborrooisen ihottuman hoidossa: patofysiologia, turvallisuus ja teho |
+| [27804089](https://pubmed.ncbi.nlm.nih.gov/27804089/) | 2017 | Systemaattinen katsaus | Am J Clin Dermatol | Kasvojen seborrooisen ihottuman paikallishoidot |
+| [19213227](https://pubmed.ncbi.nlm.nih.gov/19213227/) | 2009 | Katsaus | J Drugs Dermatol | Kasvojen seborrooisen ihottuman nykytila ja hoidon näkymät |
+| [24171300](https://pubmed.ncbi.nlm.nih.gov/24171300/) | 2013 | Kliininen tutkimus | Ann Parasitol | Sertakonatsolikreemi 2 % verrattuna takrolimuusikreemiin 0,03 % seborrooisessa ihottumassa (60 potilasta) |
+| [31476936](https://pubmed.ncbi.nlm.nih.gov/31476936/) | 2019 | Katsaus | J Cutan Med Surg | Paikallisten kalsineuriinin estäjien off-label-käyttö ihosairauksissa |
+| [39219446](https://pubmed.ncbi.nlm.nih.gov/39219446/) | 2024 | Systemaattinen katsaus / verkostometa-analyysi | Clin Exp Allergy | Ekseeman paikalliset tulehdusta estävät hoidot (epäsuora näyttö) |
+| [15461548](https://pubmed.ncbi.nlm.nih.gov/15461548/) | 2004 | Katsaus | Expert Opin Pharmacother | Takrolimuusivoide atooppisen ja muiden tulehduksellisten ihosairauksien hoidossa |
+| [17685874](https://pubmed.ncbi.nlm.nih.gov/17685874/) | 2007 | Katsaus | Expert Opin Investig Drugs | Paikallisen takrolimuusin uudet käyttöalueet |
 
-## Suomen markkinatiedot
+## Markkinatiedot Suomessa
 
-Takrolimuksella ei ole tällä hetkellä markkinointilupaa tässä aineistossa (markkinatilanne: Ei markkinoilla, 0 lupaa). Tuote-/lupattietoja ei ole saatavilla taulukoitavaksi.
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004435 | Tacforius | – | Maksan ja munuaisen siirto |
+| EMEA/H/C/002655 | Envarsus | – | Elinsiirteen hyljintä |
+| EMEA/H/C/000712 | Advagraf | – | Elinsiirteen hyljintä |
+| EMEA/H/C/000374 | Protopic | – | Atooppinen ihottuma |
+| EMEA/H/C/000954 | Modigraf | – | Elinsiirteen hyljintä |
 
-## Turvallisuusnäkökohdat
+Kaikki viisi myyntilupaa on merkitty peruutetuiksi, joten voimassa olevia myyntilupia ei tähän raporttiin koottujen tietojen mukaan ole.
 
-Katso turvallisuustiedoista pakkausselosteesta. Tällä hetkellä ei ole saatavilla strukturoituja turvallisuusvaroituksia, vasta-aiheita tai lääkkeiden välisiä vuorovaikutuksia tälle kandidaatille (TFDA/Fimea pakkausselosteen tiedot on merkitty tietopuuttoksi).
+## Turvallisuushuomiot
+
+- **Tietokannan vasta-aiheet (tietämysgraafi, ei valmisteyhteenvedon teksti):** Tietämysgraafi liittää takrolimuusiin mm. seuraavia sairauksia: kohonnut verenpaine, pitkä QT-oireyhtymä ja kääntyvien kärkien takykardia, maksan vajaatoiminta, munuaissairaus, epilepsia, hyperglykemia ja diabetes (mukaan lukien ketoasidoosi), infektiot (mm. herpes simplex, vyöruusu, Epstein–Barr-virusinfektiot), syöpä ja lymfooma (mm. primaarinen keskushermoston lymfooma), progressiivinen multifokaalinen leukoenkefalopatia, posteriorinen leukoenkefalopatiaoireyhtymä sekä aplastiset anemiat. Nämä ovat pääosin systeemiseen käyttöön liittyviä huomioita, eikä niitä ole vahvistettu valmisteyhteenvedosta.
+- **Lääkeyhteisvaikutukset:** Yhteisvaikutuksia on kirjattu yhteensä 100. Vakavia (Major) ovat mm. amfoterisiini B (myös lipidikompleksi), loperamidi, mesalatsiini, balsalatsidi ja omepratsoli. Keskivaikeita (Moderate) ovat mm. famotidiini, rabepratsoli, hydrokortisoni, deksametasoni, betametasoni, triamsinoloni, budesonidi, metformiini, pioglitatsoni, akarboosi, alogliptiini, albiglutidi, metronidatsoli ja aprepitantti.
+- **Syöpäriski:** Paikallisiin kalsineuriinin estäjiin liittyy varoitus pahanlaatuisten kasvainten riskistä. Vuoden 2023 systemaattinen katsaus ja meta-analyysi (Lancet Child & Adolescent Health) tarkasteli tätä huolta atooppisessa ihottumassa.
+
+Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut saatavilla, joten niiden osalta on tutustuttava valmisteyhteenvetoon.
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Jatka varainnein**
+**Päätös: Etene suojatoimin (Proceed with Guardrails)**
 
-**Perustelut:**
-Kaksi valmistunutta tutkimusta (yksi vaihe 3, yksi vaihe 4) sekä useita RCT-tutkimuksia ja katsauksia tukevat suoraan takrolimus-voiteiden käyttöä kasvojen seborroosisen dermatiitin ylläpitohoidossa, mikä antaa L1-näyttötason. Kuitenkin lääkettä ei ole tällä hetkellä markkinoilla tässä lainkäyttöalueella ja muodollista turvallisuus-/merkintätietoa puuttuu, joten varainnit ovat perusteltuja ennen etenemistä.
+**Perustelu:**
+- Seborrooisesta ihottumasta on valmistunut vaiheen 3 tutkimus (n=120), vaiheen 4 tutkimus (n=104) ja satunnaistettu, kaksoissokkoutettu, vehikkelikontrolloitu tutkimus (n=75). Mekanismi on uskottava ja TxGNN-pistemäärä korkea. Näyttö on kuitenkin pääosin ylläpitohoidosta kasvoilla, ja Suomessa ei ole voimassa olevaa myyntilupaa.
 
-**Etenemiseen vaaditaan seuraavaa:**
-- TFDA/Fimea pakkausselosteen varoitukset ja vasta-aiheet (kriittinen tietopuutte, DG001)
-- Vahvistettu vaikutusmekanismin dokumentaatio DrugBankista (korkean prioriteetin tietopuutte, DG002)
-- Paikalisen markkinointi-/sääntelypolun tilan vahvistaminen ennen mitään uudelleenkäyttöhakemuksia
-- Lääkkeiden väliset vuorovaikutukset (DDI), ei tällä hetkellä saatavilla (kysely palautti `not_found`)
-
+**Eteneminen edellyttää:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittämistä (tämä on estävä tietoaukko).
+- Yksityiskohtaisten vaikutusmekanismitietojen täydentämistä.
+- Suomen myyntilupatilanteen selvittämistä, koska kaikki lupatiedot ovat peruutettuja, sekä paikallisen lääkemuodon saatavuuden varmistamista.
+- Pitkäaikaisen turvallisuuden seurantasuunnitelmaa (mm. pahanlaatuisten kasvainten riski) ja käytön rajaamista paikalliseen antoon.
+- Vaiheen 3 tulosten ja satunnaistettujen tutkimusten tarkempaa arviointia sekä ihottuman alatyyppikohtaista validointia.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

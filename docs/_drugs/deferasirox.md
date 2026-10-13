@@ -2,7 +2,7 @@
 layout: default
 title: Deferasirox
 parent: Kohtalainen näyttö (L3-L4)
-nav_order: 114
+nav_order: 132
 evidence_level: L4
 indication_count: 5
 ---
@@ -29,78 +29,90 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Deferasirox: Raudanylimäärästä HIV-infektiotautiin
+# Deferasiroksi: Raudan ylikuormituksesta HIV-infektioon
 
 ## Yhden lauseen yhteenveto
 
-Deferasirox on suun kautta otettava raudankellaaja, jota käytetään alkuperäisesti kroonisen raudanylimäärän hoitamiseen (esim. transfuusioista johtuva raudanylimäärä talassemiassa ja myelodyplastisissa oireyhtymissä). TxGNN-malli ennustaa, että se voi myös olla tehokas **HIV-infektiotaudissa**, **99.40% ennustepisteellä**, vaikka tätä suuntaa tukee tällä hetkellä vain **2 mekanistista/prekliinistä julkaisua** ja **ei yhtään rekisteröityä kliinistä tutkimusta**.
+Deferasiroksi on rautaa sitova kelaattori, jota on alun perin käytetty raudan ylikuormituksen ja beetatalassemian hoitoon. TxGNN-malli ennustaa sen voivan olla tehokas **HIV-infektion** hoidossa, mutta tuki on heikko: **kliinisiä tutkimuksia ei ole lainkaan** ja **2 julkaisua**, joista vain toinen on prekliininen mekanistinen tutkimus.
 
 ---
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
-| Kohde | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Krooninen raudanylimäärä (raudankellaatio) — *johdettu lääkeluokasta ja uudelleenkäyttöperustelusta; ei eksplisiittisesti täytetty kohtaan `original_indications`* |
-| Ennustettu uusi indikaatio | HIV-infektiotauti |
-| TxGNN-ennustepistemäärä | 99.40% |
-| Evidenssitaso | L4 |
-| Taiwan markkinatilanne | ✗ Ei markkinoilla (Ei markkinoilla) |
-| Valtuuksien lukumäärä | 0 |
-| Suositeltu päätös | Keskeytä |
-
----
-
-## Miksi tämä ennuste on järkevä?
-
-Tällä hetkellä yksityiskohtaista toimintamekanismin tietoa ei ole saatavilla (merkitty korkean vakavuuden tietoaukoksi DG002). Tunnettujen tietojen perusteella deferasirox kuuluu raudankellajien luokkaan, ja sen tehokkuus kroonisen raudanylimäärän vähentämisessä on hyvin vakiintunut; mekanistisesti se voisi olla sovellettavissa HIV-infektiotautiin raudan rajoittamisen kautta.
-
-Ehdotettu yhteys on epäsuora mutta biologisesti uskottava: vapaa intrasolullinen rauta edistää HIV-1 Tat-proteiinin oligomeroitumista ja lisää LTR:n (long terminal repeat) transaktiviteettia, vaihetta, joka vaaditaan viraalin replikointiin. In vitro -tutkimukset viittaavat siihen, että endolysosomaalisen/sytosolin raudan rajoittaminen — mitä raudankellaaja kuten deferasirox tekee — voisi vaimentaa tätä Tat-ohjattua transaktiviteettia.
-
-Tärkeää on kuitenkin huomioida, että nämä todisteet ovat vain mekanistisia ja in vitro -tasolla saatuja. Deferasiroxista ei ole olemassa suoraa kliinistä tai prekliinistä antiviraalisen vaikuttavuuden tutkimusta HIV-infektiossa, eikä tähän potilasryhmään soveltuvan lääkekohtaisen farmakokinetiikan tai annosmääritysten perusteet ole määritetty.
+| Kohta | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | Raudan ylikuormitus; beetatalassemia |
+| Ennustettu uusi käyttöaihe | HIV-infektio |
+| TxGNN-ennustepistemäärä | 99,40 % |
+| Näytön taso | L4 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 3 (kaikki peruutettu, voimassa 0) |
+| Suositeltu päätös | Hold (tutkimuskysymys) |
 
 ---
 
-## Kliinisen tutkimuksen todisteet
+## Miksi ennuste on perusteltu?
 
-Tällä hetkellä ei ole rekisteröityjä liittyviä kliinisiä tutkimuksia.
+Tämän raportin aineistossa ei ole saatavilla yksityiskohtaista vaikutusmekanismitietoa. Tunnetun tiedon perusteella deferasiroksi on rautakelaattori, jonka teho raudan ylikuormituksessa on osoitettu. Mekanistisesti raudan saatavuuden muokkaaminen voisi olla merkityksellistä myös HIV-infektiossa.
 
----
+Julkaistun prekliinisen tutkimuksen (PMID 34550543) mukaan endolysosomien rauta vaikuttaa HIV-1 Tat -proteiinin välittämään LTR-transaktivaatioon. Tämä antaa uskottavan prekliinisen yhteyden raudan säätelyn ja HIV-1:n transkription välille. Yhteys on kuitenkin vasta soluvaiheen havainto, eikä se osoita deferasiroksin kliinistä tehoa potilailla.
 
-## Kirjallisuuden todisteet
-
-| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät löydökset |
-|------|------|------|------|---------|
-| [34550543](https://pubmed.ncbi.nlm.nih.gov/34550543/) | 2021 | Mekanistinen/In vitro -tutkimus | Journal of NeuroVirology | Endolysosomaalisen raudan rajoittaminen vähentää sekä HIV-1 Tat-oligomeroitumista että LTR-transaktiviteettia, mikä viittaa siihen, että raudankellaatio voisi rajoittaa Tat-ohjattua viraalin transkriptiota |
-| [16529348](https://pubmed.ncbi.nlm.nih.gov/16529348/) | 2006 | Katsaus (uusien lääkkeiden tiedote) | Journal of the American Pharmacists Association | Yleinen "uudet lääkkeet" -tiedote, joka käsittelee deferasiroxia muiden liittymättömien vaikuttavien aineiden (ramelteon, tipranavir, nepafenac) kanssa; ei ole tutkimus deferasiroxin käytöstä HIV-infektiossa |
+Toinen lähde (PMID 16529348) on yleinen uuslääkekatsaus, eikä se sisällä HIV-spesifistä näyttöä. Erittäin korkea TxGNN-pistemäärä on pelkkä mallin ennuste, jota kliiniset tiedot eivät tue.
 
 ---
 
-## Taiwanin markkinatiedot
+## Kliininen tutkimusnäyttö
 
-Deferasirox **ei ole tällä hetkellä markkinoilla Taiwanissa** — 0 markkinahyväksyntää on kirjattu todistusten pakettiin. TFDA:n pakkausseloste ja hyväksyntätiedot eivät ole vielä käytettävissä (ks. estävä tietoaukko DG001 alla).
-
----
-
-## Turvallisuusnäkökohdat
-
-Turvallisuustiedoista tulee viitata pakkausselosteeseen. Tärkeimmät varoitukset, vasta-indikaatiot ja lääkkeiden välisen vuorovaikutuksen tiedot eivät ole vielä käytettävissä TFDA-lähteistä (Estävä tietoaukko DG001) — tämä on ratkaistava ennen kuin turvallisuusvaiheen (S1) arviointiin voidaan siirtymyä.
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Kirjallisuusnäyttö
 
-**Päätös: Keskeytä**
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [34550543](https://pubmed.ncbi.nlm.nih.gov/34550543/) | 2021 | Prekliininen / in vitro | J Neurovirol | Endolysosomien rauta rajoittaa Tat-välitteistä HIV-1 LTR -transaktivaatiota lisäämällä Tat-oligomerisaatiota ja β-kateniinin ilmentymistä |
+| [16529348](https://pubmed.ncbi.nlm.nih.gov/16529348/) | 2006 | Katsaus (uuslääkeyhteenveto) | J Am Pharm Assoc | Yleiskatsaus uusiin lääkkeisiin, deferasiroksi mukaan lukien; ei HIV-spesifistä näyttöä |
+
+---
+
+## Markkinatiedot Suomessa
+
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/005014 | Deferasirox Mylan (peruutettu) | – | Raudan ylikuormitus; beetatalassemia |
+| EMEA/H/C/005156 | Deferasirox Accord (peruutettu) | – | Raudan ylikuormitus; beetatalassemia |
+| EMEA/H/C/000670 | Exjade (peruutettu) | – | Beetatalassemia; raudan ylikuormitus |
+
+---
+
+## Turvallisuushuomioita
+
+Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut saatavilla tätä raporttia varten, joten ne tulee tarkistaa valmisteyhteenvedosta.
+
+**Tietämysgraafiin (PrimeKG) perustuvat mahdolliset vasta-aiheet** (eivät perustu valmisteyhteenvetoon): maksan vajaatoiminta, maksasairaus, kirroosi, munuaissairaus ja munuaisten vajaatoiminta, trombosytopenia, neutropenia (myös synnynnäiset muodot), agranulosytoosi, anemia, hyperbilirubinemia ja Gilbertin oireyhtymä, sappirakon sairaus, aktiivinen peptinen haavauma, silmän hypertensio, monielinvaurio-oireyhtymä sekä syöpä.
+
+**Lääkkeiden yhteisvaikutukset** (yhteensä 100 kirjattua, esimerkkejä):
+- **Merkittävät (Major):** hydrokortisoni, deksametasoni, betametasoni, triamsinoloni, asetyylisalisyylihappo, mesalatsiini, balsalatsidi sekä amfoterisiini B:n eri muodot
+- **Kohtalaiset (Moderate):** rabepratsoli, pioglitatsoni, alosetroni, aprepitantti, klaritromysiini, saksagliptiini, alumiinihydroksidi, sisapridi, deksfenfluramiini
+
+---
+
+## Johtopäätös ja seuraavat askeleet
+
+**Päätös: Hold (tutkimuskysymys)**
 
 **Perustelut:**
-HIV-indikaatio perustuu yksittäiseen epäsuoraan in vitro -mekanistiseen tutkimukseen ilman tukevia kliinisiä tutkimuksia, prekliinisiä antiviraalisen vaikuttavuuden tietoja tai lääkekohtaisia turvallisuustietoja — mikä on yhdenmukainen todistusten paketin omien L4/S1 "Tutkimuskysymys"-luokituksen kanssa. Neljä muuta TxGNN-ennustamaata deferasiroxin indikaatiota (krooninen hepatiitti C, harvinainen neurokehityksellinen häiriö, vanhentunut hyperlipoproteinemian termi ja dermatofibrosarkooma protuberans) ovat entistäkin heikompia (L4–L5, S0–S1) ja ne on jo sisäisesti merkitty keskeytyksen tai tutkimuskysymyksen kohteeksi.
+- Ennuste perustuu mallipisteeseen ja yhteen prekliiniseen mekanistiseen tutkimukseen. Kliinistä näyttöä HIV-käytöstä ei ole, ja kaikki suomalaiset myyntiluvat on peruutettu.
 
-**Jotta edistys olisi mahdollista, seuraavaa tarvitaan:**
-- TFDA:n pakkausseloste (varoitukset, vasta-indikaatiot, lääkevuorovaikutukset) — Estävä aukko DG001
-- Vahvistetut deferasiroxin toimintamekanismin tiedot — Korkea-prioriteettinen aukko DG002
-- In vivo tai kliininen todiste siitä, että raudankellaatio vaikuttaa HIV:n viraalikuormaan/replikointiin (nykyinen tuki rajoittuu yhteen in vitro LTR-transaktiviteettitutkimukseen)
-- Rekisteröity kliininen tutkimus tai tutkija-aloitteinen tutkimus ennen siirtymistä tutkimuskysymysvaiheen yli
+**Eteenpäin siirtymiseksi tarvitaan:**
+- Vaikutusmekanismitiedot (MOA)
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet turvallisuusarviointia varten
+- Lisää prekliinistä näyttöä (esim. solu- ja eläinmallit) deferasiroksin vaikutuksesta HIV:hen
+- Kliinisen tutkimuksen suunnitelma ja arvio hyöty–haitta-suhteesta, erityisesti maksan, munuaisten ja veriarvojen turvallisuuden osalta
+- Selvitys valmisteen saatavuudesta Suomessa, koska kaikki myyntiluvat on peruutettu
 
+**Muut ennustetut käyttöaiheet (kaikki tasolla L5, ei tukevaa näyttöä):** krooninen hepatiitti C -infektio (Hold; mekanistinen yhteys vain pääteltävissä), harvinainen neurokehityshäiriö, vanhentunut perinnöllisen yhdistetyn hyperlipidemian termi sekä dermatofibrosarcoma protuberans.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

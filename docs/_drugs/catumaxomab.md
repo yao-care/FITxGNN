@@ -2,7 +2,7 @@
 layout: default
 title: Catumaxomab
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 93
+nav_order: 102
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,88 +29,103 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Katumaksomabi: Pahanlaatuisesta vatsantäytteestä vakavaan ei-proliferatiiviseen diabeettiseen retinopatia-sairauteen
+# Catumaxomabi: Askiteksesta vaikeaan ei-proliferatiiviseen diabeettiseen retinopatiaan
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Katumaksomabi (DrugBank ID: DB06607) on kolmitoiminen anti-EpCAM × anti-CD3 kaksi-spesifinen vasta-aine, joka on alun perin kehitetty EpCAM-positiivisten karsinoomien aiheuttaman **pahanlaatuisen vatsantäytteen** hoitoon. TxGNN-malli ennustaa, että se saattaisi olla tehokas **vakavaan ei-proliferatiiviseen diabeettiseen retinopatia-sairauteen**, mutta tämä ennustus perustuu tällä hetkellä **0 kliiniseen tutkimukseen** ja **0 julkaisuun** — se perustuu pelkästään mallin pisteeseen.
+Catumaxomabi on trifunktionaalinen bispesifinen vasta-aine (EpCAM x CD3), jota on käytetty pahanlaatuisen askiteksen (vatsaontelon nestekertymän) hoitoon.
+TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **vaikean ei-proliferatiivisen diabeettisen retinopatian**,
+mutta ennusteen tueksi ei ole **yhtään kliinistä tutkimusta eikä julkaisua**. Ennuste perustuu pelkästään tietämysgraafin laskennalliseen malliin.
 
 ---
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Pahanlaatuinen vatsantäyte (EpCAM-positiivinen karsinooma) |
-| Ennustettu uusi indikaatio | Vakava ei-proliferatiivinen diabeettinen retinopatia |
-| TxGNN-ennustuskeskiarvo | 99.64% (sija 4336) |
-| Todistetaso | L5 |
-| Suomen markkinoiden tila | Ei saatavana (Ei markkinoilla) |
-| Hyväksynnän määrä | 0 |
-| Suositeltu päätös | Pidä |
+|------|------|
+| Alkuperäinen käyttöaihe | Askites |
+| Ennustettu uusi käyttöaihe | Vaikea ei-proliferatiivinen diabeettinen retinopatia |
+| TxGNN-ennusteen pistemäärä | 99,64 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Miksi tämä ennustus on järkevä?
+## Miksi ennuste on (tai ei ole) perusteltu?
 
-Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja (`original_moa`) merkitään tietoryhmän puutteeksi lähdetiedoissa. Todisteiden pakettiin perustuvan uuden käyttötarkoituksen perusteella katumaksomabi tunnetaan kolmitoimisena kaksi-spesifisenä vasta-aineena, joka sitoutuu samanaikaisesti EpCAM:iin syöpäsoluissa ja CD3:een T-soluissa ja rekrytoi sytotoksisia T-soluja ja apuimmunologisia soluja (sen ehjän Fc-alueen kautta) EpCAM-positiivisten syöpäsolujen tuhoamiseksi. Sen alkuperäinen hyväksytty käyttö oli pahanlaatuisen vatsantäytteen hoito EpCAM-positiivisissa karsinoomissa.
+Catumaxomabin vaikutusmekanismitietoja ei ole tällä hetkellä saatavilla kattavasti. Farmakologiatietojen perusteella lääkkeen ensisijainen kohde on CD3E (T-solujen CD3-ε-ketju). Lääke sitoo toisella haaralla EpCAM-proteiinia ilmentäviä kasvainsoluja ja kolmannella (Fc-osa) rekrytoi apusoluja, jolloin T-solut ja muut immuunisolut tuhoavat kasvainsoluja.
 
-Diabeettinen retinopatia — mukaan lukien vakava ei-proliferatiivinen vaihe — johtuu perustavanlaatuisesti erilaisesta patologiasta: kroonisesta hyperglykemiasta, VEGF-välikeskeisestä mikrovaskularisesta vauriosta, verkkokalvon iskemiasta ja matalaasteisenesta tulehdustilasta. T-solujen välittämän syöpäsolun sytotoksisuuden ja diabeettisen retinopatian taustalla olevien aineenvaihdunta-/vaskularisten prosessien välillä ei tunnetusti ole päällekkäisyyttä.
-
-Todisteiden paketin oma mekanistinen arviointi merkitsee tämän nimenomaisesti matalan uskottavuuden, spekulatiiviseksi linkiksi: ennustus johtuu kokonaan TxGNN-graafimallin pisteestä, eikä mitään tukevaa kirjallisuutta, kliinisiä tutkimuksia tai biologista perustelua ole tunnistettu. Sama varoitus koskee kahta alemmassa sijalukussa olevaa kandidaattia (lääkkeen aiheuttama osteoporoosi, sija 2; diabeettinen retinopatia, sija 3), joista kumpikaan vailla mekanistista tai kliinistä tukea.
+Alkuperäinen käyttöaihe, syöpään liittyvä askites, perustuu EpCAM-positiivisten syöpäsolujen tuhoamiseen. Diabeettinen retinopatia sen sijaan johtuu pääasiassa VEGF-välitteisestä verisuonten vuotavuudesta, tulehduksesta ja mikroverisuonivauriosta, eikä se ole EpCAM-ohjautuva sairaus. Uskottavaa mekanistista yhteyttä ei ole havaittavissa. Immuunijärjestelmän aktivaatio ja sytokiinien vapautuminen voisivat lisäksi olla haitallisia verkkokalvolla. Ennuste on todennäköisesti tietämysgraafin yhteyksistä johtuva artefakti.
 
 ---
 
-## Kliinisen tutkimuksen todisteet
+## Kliininen tutkimusnäyttö
 
-Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
-
----
-
-## Kirjallisuuden todisteet
-
-Tällä hetkellä ei ole saatavana asiaan liittyvää kirjallisuutta.
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
 ---
 
-## Suomen markkinatiedot
+## Kirjallisuusnäyttö
 
-Katumaksomabi **ei ole tällä hetkellä markkinoilla** Suomessa (0 hyväksyttyjä hyväksynnöistä tiedoissa); tälle kandidaatille ei ole saatavana lisenssitietoja tai tuotetietoja.
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
+
+---
+
+## Markkinatiedot Suomessa
+
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/005697 | Korjuny | – | Askites (tila: peruutettu) |
+
+Valmisteen EU-myyntilupa peruutettiin aiemmin valmistajan pyynnöstä kaupallisista syistä (2017), ja farmakologiatietojen mukaan pahanlaatuisen askiteksen myyntilupa on myönnetty uudelleen vuoden 2025 alussa. Fimean tietojen mukaan myyntilupa on kuitenkin tällä hetkellä merkitty vain peruutetuksi, mikä rajoittaa kehityksen käytännön toteutettavuutta.
 
 ---
 
 ## Sytotoksisuus
 
-Katumaksomabi alkuperäisen hyväksytyn käytön (pahanlaatuinen vatsantäyte EpCAM-positiivisissa **karsinoomissa**) oikeuttaa sen antineoplaastiseksi/immuno-onkologiseksi aineeksi, joten tämä osio koskee.
-
 | Kohta | Sisältö |
-|------|---------|
-| Sytotoksisuuden luokitus | Immunoterapia (T-soluja sitouttava kolmitoiminen kaksi-spesifinen vasta-aine), ei perinteinen sytotoksinen aine |
-| Luuytimen tukahduttamisen riski | Katso pakkausseloste varoituksista ja varotoimista |
-| Pahoinvointisuuden luokitus | Katso pakkausseloste varoituksista ja varotoimista |
-| Seurantakohteet | Katso pakkausseloste varoituksista ja varotoimista |
-| Käsittelysuojaus | Katso pakkausseloste varoituksista ja varotoimista |
+|------|------|
+| Sytotoksisuusluokitus | Immunoterapia (bispesifinen vasta-aine, EpCAM x CD3) |
+| Myelosuppression riski | Tarkempia tietoja ei ole; katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Oksettavuusluokitus | Tarkempia tietoja ei ole; katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Seurattavat parametrit | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Käsittelysuojaus | Katso valmisteyhteenvedon varoitukset ja varotoimet |
 
 ---
 
-## Turvallisuushuomiot
+## Turvallisuusnäkökohdat
 
-Katso pakkausseloste turvallisuustiedoista.
+- **Lääkeyhteisvaikutukset**: Yhteisvaikutushaussa löytyi yksi farmakologinen merkintä: lääkkeen ensisijainen molekyylikohde on CD3E. Kyseessä on kohdetieto, ei kliinisesti luokiteltu yhteisvaikutus.
+
+Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Johtopäätös ja jatkotoimet
 
-**Päätös: Pidä**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Tällä kandidaatilla on todistetasolla L5 — pelkkä mallin ennustus, nolla tukevaa kliinistä tutkimusta tai kirjallisuutta, ja todisteiden paketin oma mekanistinen analyysi arvioi biologisen uskottavuuden erittäin matalaksi. Kriittiset turvallisuustiedot (TFDA/Fimea-pakkausseloste varoitukset ja vasta-aiheet) merkitään myös **estäväksi** tietoryhmän puutteeksi, mikä tarkoittaa, että S1-turvallisuuden ennakko-arviointia ei vielä voida suorittaa.
+- Ennuste perustuu pelkästään laskennalliseen malliin (L5), eikä sen tueksi ole kliinisiä tutkimuksia tai julkaisuja. Mekanistista yhteyttä EpCAM/CD3-välitteisen vaikutuksen ja diabeettisen retinopatian välillä ei ole, ja immuuniaktivaatio voisi olla verkkokalvolle haitallista. Myyntilupa on lisäksi peruutettu.
 
-**Jatkaakseen seuraavaa tarvitaan:**
-- Pakkausseloste / sääntelytekstit (varoitukset, vasta-aiheet) estävän tietoryhmän puutteen poistamiseksi (DG001)
-- Vahvistettu vaikutusmekanismi DrugBankista mekanistisen uskottavuuden asianmukaiseksi arvioimiseksi (DG002)
-- Prekliinisten, mekanististen tai kliinisten näyttöjen ilmaantuminen, jotka erityisesti yhdistävät EpCAM×CD3-ohjaamaan T-solujen sitouttamiseen diabeettisen retinopatian patologiaa, ennen kuin tämä kandidaatti voidaan uudelleen pisteyttää L5:tä korkeammaksi
+**Jatkaminen edellyttäisi:**
+- Vaikutusmekanismitietojen täydentämistä (esim. DrugBankista)
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivustolta turvallisuusarvioinnin mahdollistamiseksi
+- Prekliinistä näyttöä, joka tukisi yhteyttä verkkokalvon sairauteen
+- Myyntiluvan ja saatavuuden selvittämistä Suomessa
 
+---
+
+## Muut ennustetut käyttöaiheet
+
+Samalla ennustelistalla olivat myös seuraavat, joilla on sama heikko näyttötaso (L5, päätös Hold):
+
+| Sija | Käyttöaihe | TxGNN-pistemäärä | Huomio |
+|------|------|------|------|
+| 2 | Lääkeaineen aiheuttama osteoporoosi | 99,58 % | Yhteyttä EpCAM/CD3-välitteisen T-solutuhon ja luuston uudistumisen (RANKL/OPG) välillä ei ole; sytokiinien vapautuminen voisi vaikuttaa luun vaihduntaan haitallisesti. |
+| 3 | Diabeettinen retinopatia | 99,47 % | Edellisen laajempi yläluokka; ennusteet perustuvat samaan signaaliin, joten ne eivät vahvista toisiaan. |
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

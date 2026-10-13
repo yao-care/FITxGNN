@@ -2,7 +2,7 @@
 layout: default
 title: Bezlotoxumab
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 70
+nav_order: 77
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,61 +29,77 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Bezlotoxumab: *Clostridioides difficile* -infektioiden uusiutumisen ehkäisystä akuuttiin naiselliseen lantion peritonitiin
+# Bezlotoksumabi: Pseudomembranoottisesta enterokoliitista akuuttiin naisen lantion peritoniittiin
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Bezlotoxumab on monoklonaalinen vasta-aine, joka neutralisoi *C. difficile* -toksiini B:tä ja sitä käytetään *C. difficile* -infektioiden (CDI) uusiutumisen ehkäisyyn. TxGNN-mallin huippuennuste tälle lääkkeelle on **akuutti naisellinen lantion peritonitis** (pistemäärä 99.89 %), mutta tällä ehdokkaalla – ja kaikilla yhdeksällä muulla kymmenen parhaan joukossa – ei ole **lainkaan tukevia klinkkisia tutkimuksia tai kirjallisuusviitteitä**, ja mallin oma mekanistinen perustelu merkitsee biologisen yhteyden heikoksi.
+Bezlotoksumabi on monoklonaalinen vasta-aine, jota käytettiin alun perin pseudomembranoottisen enterokoliitin (*Clostridioides difficile* -infektion) hoidossa.
+TxGNN-malli ennustaa sen voivan tehota **akuuttiin naisen lantion peritoniittiin**, mutta ennusteelle ei ole tällä hetkellä **yhtään kliinistä tutkimusta eikä julkaisua**. Ennuste perustuu pelkästään graafipohjaiseen mallinnukseen.
 
-## Pikainen yleiskatsaus
+---
+
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | *Clostridioides difficile* -infektioiden (CDI) uusiutumisen ehkäisy *(johdettu tämän todistuspackagin uudelleenkäyttöargumentin tekstistä; ei vielä vahvistettu TFDA/DrugBank-rakenteisista tietueista — katso tietokuilusta DG002)* |
-| Ennustettu uusi indikaatio | Akuutti naisellinen lantion peritonitis |
-| TxGNN-ennusteen pistemäärä | 99.89% |
-| Todisteen taso | L5 |
-| Suomen markkinatilanne | ✗ Ei markkinoilla |
-| Lupien lukumäärä | 0 |
-| Suositeltu päätös | Odota |
+|------|------|
+| Alkuperäinen käyttöaihe | Pseudomembranoottinen enterokoliitti |
+| Ennustettu uusi käyttöaihe | Akuutti naisen lantion peritoniitti |
+| TxGNN-ennusteen pistemäärä | 99,89 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odottaa) |
 
-## Miksi tämä ennuste on järkevä?
+---
 
-Tällä hetkellä yksityiskohtaisia tietoja vaikutusmekanismista ei ole saatavilla rakenteisessa lääketietueessa (DrugBank-kenttä on merkitty tietokuiluksi). Tämän ennusteen mukana olevien mekanististen huomautusten perusteella bezlotoxumab on monoklonaalinen vasta-aine, joka sitoutuu *C. difficile* -toksiini B:hen ja neutralisoi sen suolistossa, mikä estää toksiinin välittämän kudosvaurion, joka johtaa CDI:n uusiutumiseen. Sillä ei ole tunnettua antimikrobista tai laajempaa tulehdusta vaimentavaa mekanismia.
+## Miksi ennuste on (tai ei ole) perusteltu?
 
-Akuutti naisellinen lantion peritonitis johtuu tyypillisesti genitaaliratojen nousevista polymikrobisista infektioista (sekoitetusta aerobisesta/anaerobisesta floraasta), ja sen taudin fysiologia on erillään *C. difficile* -toksiinin aktiviteetista. Todistuspackagin uudelleenkäyttöargumentti karakterisoi tätä mekanistista yhteyttä eksplisiittisesti heikoksi, eikä ole tunnettu biologista yhteyttä toksiini-B:n neutralisaation ja lantion infektiopatofysiologian välillä.
+Tällä hetkellä yksityiskohtaista vaikutusmekanismitietoa ei ole saatavilla tähän raporttiin koottujen tietojen perusteella. Yleisesti tiedetään, että bezlotoksumabi on monoklonaalinen vasta-aine, joka neutraloi *C. difficile* -bakteerin toksiini B:n. Sen teho on osoitettu *C. difficile* -infektion uusiutumisen ehkäisyssä, mutta mekanistista yhteyttä lantion peritoniittiin ei ole tunnistettu.
 
-Huomionarvoista on, että tämä ei ole eristetty tapaus: kaikki 10 bezlotoxumabille korkeimmiten sijoitettua ehdokasta (lantion peritonitis, munatorven kysta, tubaaliinen raskaus, salpingitis isthmica nodosa, laajasiteen sairaus, lannerangasta johtuva spinaalistenoosi, vatsaontelon kystinen lymfangioma, vatsan ulkoinen raskaus, keliakaalisen rungon puristussyndrooma, lantion varices) kattavat rakenteellisia, vaskkulaarisia ja anatomisia tiloja, joilla ei ole uskottavaa yhteyttä toksiinin neutralisaatioon. Useiden ehdokkaiden perusteluteksti merkitsee ne eksplisiittisesti todennäköisiksi "mallin kohinnaksi". Tämä kuvio ehdottaa, että TxGNN-pistejoukko tässä heijastaa upotusavaruuden artefaktia eikä todellista farmakologista signaalia, ja sitä tulisi painottaa sen mukaisesti.
+Lantion peritoniitti on tyypillisesti polymikrobinen, sukupuolielimistä ylöspäin leviävä tulehdus, eikä sen taustalla ole toksiini B -välitteistä mekanismia. Korkea TxGNN-pistemäärä (0,9989) heijastaa todennäköisesti tietämysgraafin läheisyyttä liittyvien termien välillä, ei biologista relevanssia.
 
-## Kliiniset tutkimustodisteet
+Samoin muut kymmenen parhaan ennusteen joukossa olevat käyttöaiheet (mm. munanjohtimen alkionaiset kystat, munanjohdinraskaus, kapean nodulaarinen salpingiitti, leveän kohtusiteen sairaudet, lannerangan ahtauma, vatsan kystinen lymfangiooma, vatsaontelon ulkopuolinen raskaus, keliakiatyvin kompressio-oireyhtymä ja lantion suonikohjut) eivät saa mekanistista tukea. Kaikkien näiden näytön taso on L5 ja suositus Hold.
 
-Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä klinkkisia tutkimuksia
+---
 
-## Kirjallisuustodisteet
+## Kliiniset tutkimukset
 
-Tällä hetkellä ei ole saatavilla asiaan liittyviä kirjallisuusviitteitä
+Ennustettuun käyttöaiheeseen ei ole tällä hetkellä rekisteröityjä kliinisiä tutkimuksia.
+
+---
+
+## Kirjallisuusnäyttö
+
+Aiheeseen ei ole tällä hetkellä saatavilla liittyvää kirjallisuutta.
+
+---
 
 ## Suomen markkinatiedot
 
-Bezlotoxumab ei ole tällä hetkellä markkinoilla Suomessa (markkinatilanne: ei markkinoilla), eikä siitä ole tietueissa myyntilupaa (0 yhteensä).
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004136 | Zinplava (Merck Sharp & Dohme B.V.) | – | Pseudomembranoottinen enterokoliitti (tila: peruutettu) |
 
-## Turvallisuushuomiot
+---
 
-Turvaa koskevan tiedon osalta katso pakkausselosteesta.
+## Turvallisuushuomioita
 
-## Johtopäätös ja seuraavat vaiheet
+Turvallisuustiedot on tarkistettava valmisteyhteenvedosta. Lääkeinteraktioita ei löytynyt tähän raporttiin koottujen tietojen perusteella.
 
-**Päätös: Odota**
+---
 
-**Perustelu:**
-Huolimatta korkeasta TxGNN-pistemäärästä, todisteen taso on L5 (vain mallin ennuste) ilman klinkkisia tutkimuksia, ilman kirjallisuutta ja ilman markkinoilla olevaa läsnäoloa Suomessa. Mekanistinen perustelu itse arvioi lääke-sairauden yhteyden heikoksi, ja tämä kuvio toistuu kaikilla 10 bezlotoxumabille korkeimmiten sijoitetulla ehdokkaalla, mikä viittaa siihen, että signaalijoukko on todennäköisemmin mallin kohina kuin todellista uudelleenkäyttömahdollisuutta.
+## Johtopäätös ja jatkotoimet
 
-**Jotta voidaan edetä, seuraavaa tarvitaan:**
-- TFDA:n pakkausseloste (varoitukset/vasta-aiheet) — tällä hetkellä estävä tietokuilu (DG001), vaaditaan ennen mitään S1 turvallisuusseulontaa
-- Vahvistettu alkuperäinen vaikutusmekanismi ja indikaatio luotettavasta lähteestä (DrugBank-rajapinta / sääntelyasiakirja) — tällä hetkellä korkean vakavuuden tietokuilu (DG002)
-- Riippumaton mekanistinen tai prekliininen todiste, joka yhdistää toksiini-B:n neutralisaation lantion infektiopatofysiologiaan
-- Kaikki kliiniset tutkimukset, tapausraportit tai havainnointitiedot, ennen kuin tämä ehdokas voi edetä S0:n yli
+**Päätös: Hold (odottaa)**
 
+**Perustelut:**
+- Ennuste perustuu ainoastaan laskennalliseen malliin, eikä sille ole kliinistä tai kirjallista näyttöä eikä uskottavaa mekanistista yhteyttä. Lisäksi valmisteen myyntilupa Suomessa on peruutettu.
+
+**Jatkaminen edellyttäisi seuraavaa:**
+- Vaikutusmekanismitietojen täydentäminen (esim. DrugBankista)
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean sivustolta
+- Biologisen perustelun ja prekliinisen näytön selvittäminen ennen mitään jatkoarviointia
+- Valmisteen saatavuuden selvittäminen, koska myyntilupa on peruutettu
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

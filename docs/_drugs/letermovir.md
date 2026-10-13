@@ -2,7 +2,7 @@
 layout: default
 title: Letermovir
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 224
+nav_order: 260
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,61 +29,68 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Letermovir: Sytomegaloviruksen (CMV) infektiosta vulvovaginaaliseen kandidiaasiin
+# Letermoviiri: Sytomegalovirusinfektiosta vulvovaginaaliseen kandidiaasiin
 
-## Yksirivinen yhteenveto
+## Yhteenveto
 
-Letermovir on antiviraalilääke, joka on erittäin spesifinen sytomegalovirusille (CMV) ja toimii terminaasikompleeksin inhibiittorina; tämä näytepaketti ei sisällä kirjattua alkuperäistä indikaatiota tai hyväksyttyä käyttöä. TxGNN ennustaa, että se saattaa olla tehokas **vulvovaginaalista kandidiaasia** vastaan, mutta tätä suuntaa tukee tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua**, ja lääkkeen oma mekanistinen profiili puhuu farmakologisen uskottavuuden vastaan — tämä on todennäköisesti mallin tason väärä positiivinen.
+Letermoviiri on sytomegalovirusinfektioiden (CMV) hoitoon kehitetty viruslääke. TxGNN-malli ennustaa sen mahdollisesti tehoavan **vulvovaginaaliseen kandidiaasiin**. Ennusteen tueksi ei ole löytynyt **yhtään kliinistä tutkimusta eikä julkaisua**, joten ennuste perustuu pelkästään mallin laskentaan.
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Ei ole määritetty näytepaketissa |
-| Ennustettu uusi indikaatio | Vulvovaginaalinen kandidiaasi |
-| TxGNN:n ennustepisteet | 99.88% |
-| Näyttöjen taso | L5 (vain mallin ennuste) |
-| Taiwan-markkinoiden asema | Ei markkinoilla |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Odota |
+|------|------|
+| Alkuperäinen käyttöaihe | Sytomegalovirusinfektiot |
+| Ennustettu uusi käyttöaihe | Vulvovaginaalinen kandidiaasi |
+| TxGNN-ennustepistemäärä | 99,88 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennuste on järkevä?
+## Miksi ennuste voisi olla perusteltu?
 
-`original_moa`-kenttä letermovirin osalta ei ole täytetty tässä näytepaketissa, mutta mallin oma perustelut kuvaavat sen mekanismia: letermovir on CMV:n DNA-terminaasikompleeksin (UL56/UL89/UL51) erittäin spesifinen inhibiittori. Sen antiviraalinen aktiivisuus rajoittuu Herpesviridae-perheeseen, erityisesti CMV:hen, eikä se vaikuta mihinkään tunnettuun sieni-infektiosta merkitykselliseen kohteeseen — kuten ergosteroolin synteesiin tai glukaaninsyntetaasiin — joka olisi relevantti *Candida*-lajeille.
+Letermoviirin yksityiskohtaista vaikutusmekanismia ei ole saatavilla tämän raportin aineistossa. Tunnetun farmakologian mukaan letermoviiri on CMV-spesifinen antiviraali, joka estää viruksen terminaasikompleksia (pUL56/UL89/UL51).
 
-Vulvovaginaalinen kandidiaasi on sieniinfektio, jonka biologia on täysin liittymätön viraalisen DNA-pakkaamisen kanssa. Ei ole tunnettua farmakologista polkua, joka yhdistäisi CMV-terminaasin inhibiittorin antiviraalifunktioihin, eikä tässä pakettissa ole kliinisiä tai prekliinisiä todisteiden, jotka yhdistäisivät letermovirin mihinkään sieni-indikaatioon.
+Ennusteen biologinen perustelu on heikko. Vulvovaginaalisen kandidiaasin aiheuttavat Candida-hiivasienet, joilla ei ole vastaavaa terminaasikompleksia. Letermoviirin kohdetta ei siis esiinny sienissä, eikä mekanistista yhteyttä alkuperäisen ja ennustetun käyttöaiheen välillä voida osoittaa.
 
-Tämän epäsuhdan vuoksi korkea TxGNN:n luottamuspistemäärä (99.88%) heijastaa todennäköisesti harhaanjohtavaa assosiaatiota tietokaavion upotusavaruudessa pikemminkin kuin aitoa farmakologista signaalia. Lääkkeen alkuperäisen indikaation ja vahvistetun mekanismin puuttuminen strukturoidussa muodossa (merkitty aukoiksi DG001/DG002) rajoittaa edelleen kykyä validoida tai kumota tämä yhteys varmuudella.
+TxGNN-pistemäärä (0,9988) on tietämysgraafipohjainen ennuste, joka ei yksin kerro biologisesta mekanismista. Se voi johtua graafin rakenteen artefakteista, kuten yhteisistä naapurisolmuista tai yhteisvaikutuskuvioista, eikä todellisesta sienilääkevaikutuksesta. Mahdollinen yhteys vaatisi riippumattoman validoinnin, esimerkiksi Candida-herkkyysmäärityksiä laboratoriossa (in vitro).
 
-## Kliinisen tutkimuksen näytteet
+## Kliininen tutkimusnäyttö
 
-Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia
+Ennustettuun käyttöaiheeseen liittyviä kliinisiä tutkimuksia ei ole tällä hetkellä rekisteröity.
 
-## Kirjallisuuden näytteet
+## Kirjallisuusnäyttö
 
-Tällä hetkellä ei ole saatavilla asiaan liittyviä kirjallisuuslähteitä
+Aiheeseen liittyvää kirjallisuutta ei ole tällä hetkellä saatavilla.
 
-## Taiwan-markkinoiden tiedot
+## Suomen markkinatiedot
 
-Letermovir ei ole tällä hetkellä markkinoilla Taiwanissa, eikä tälle tuotteelle ole löydetty mitään lääkemääräyksiä (0 hyväksyntää kirjanpidossa).
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004536 | Prevymis | – | Sytomegalovirusinfektiot (myyntilupa peruutettu) |
 
-## Turvallisuusnäkökohtien huomiointi
+## Turvallisuusnäkökohdat
 
-Viitatkaa pakkausselosteeseen turvallisuustietoja varten.
+Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole tämän raportin aineistossa. Niistä on tarkistettava tiedot valmisteyhteenvedosta.
 
-## Johtopäätös ja seuraavat vaiheet
+**Lääkeyhteisvaikutukset:** Yhteisvaikutushaku tehtiin, ja se tuotti yhteensä 100 yhteisvaikutusta. Raportin aineistossa on näistä 20. Tärkeimmät:
 
-**Päätös: Odota**
+- **Merkittävät (Major):** eliglustaatti, naloksegoli, sisapridi
+- **Kohtalaiset (Moderate):** mm. hydrokortisoni, deksametasoni, betametasoni, budesonidi, triamsinoloni, omepratsoli, lansopratsoli, klaritromysiini, aprepitantti, pioglitatsoni, glimepiridi, klooripropamidi, asetoheksamidi, saksagliptiini, naldemediini ja nitisinoni
 
-**Perustelut:**
-Näyttöjen taso on L5 (vain mallin ennuste) ilman tukevia kliinisiä tutkimuksia tai kirjallisuutta, ja lääkkeen oma vaikutusmekanismi — CMV-spesifinen antiviraalisen terminaasin inhibiittori — ei ole farmakologisesti yhteensopiva antifungiaalisen indikaation kanssa. Tämä malli on yhteensopiva tietokaavion väärän positiivisen kanssa pikemminkin kuin uskottavan uudelleenkäytön signaalin kanssa.
+## Johtopäätös ja jatkotoimet
 
-**Jatkaaksesi seuraavaa tarvitaan:**
-- TFDA:n pakkausseloste (varoitukset/vasta-aiheet) — tällä hetkellä estävä tietoaukko (DG001)
-- Vahvistettu vaikutusmekanismi DrugBankista (DG002)
-- Letermovirin alkuperäinen indikaatio ja sääntelyn historia
-- Kaikki prekliiniset tai in vitro -tiedot, joissa testataan antifungiaalista aktiivisuutta, jos tällaisia tietoja on, joko tämän signaalin tukemiseksi tai sulkemiseksi
+**Päätös: Hold (odota)**
 
+**Perustelu:**
+Ennuste perustuu vain tietämysgraafimalliin (L5), eikä sille ole kliinistä tai kirjallisuusnäyttöä. Lisäksi letermoviirin kohde puuttuu Candida-sienistä, joten mekanistinen perustelu on heikko. Suomessa ainoa myyntilupa on peruutettu.
+
+**Eteenpäin siirtyminen edellyttää:**
+- Candida-lajien in vitro -herkkyystestejä letermoviirille
+- Letermoviirin vaikutusmekanismitietojen täydentämistä (DrugBank)
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivustolta (estää turvallisuusarvioinnin jatkamisen)
+- Lääkemuotojen ja antoreittien yhteensopivuuden selvittämistä paikalliseen käyttöön
+- Myyntiluvan tilanteen selvittämistä Suomessa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

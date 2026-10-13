@@ -2,7 +2,7 @@
 layout: default
 title: Nintedanib
 parent: Kohtalainen näyttö (L3-L4)
-nav_order: 263
+nav_order: 304
 evidence_level: L4
 indication_count: 3
 ---
@@ -29,65 +29,109 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Nintedanibi: idiopaattisesta keuhkojen fibroosista dermatofibrosarkooma protuberansiin
+# Nintedanib: Idiopaattisesta keuhkofibroosista dermatofibrosarcoma protuberansiin
 
-> **Huomautus tietojen alkuperästä:** Todistenippu ei sisällä lähdettyjä alkuperäisen indikaation tai MOA-tietoja (`original_indications: []`, `original_moa: "[Data Gap]"`, merkitty DG001/DG002. Tässä mainittu alkuperäinen indikaatio (idiopaattinen keuhkojen fibrooosi) heijastaa nintedanibin hyvin vakiintunutta julkista lääkkeen luokittelua ja vaatii vahvistamisen ensisijaisesta lähteestä (DrugBank/Fimean merkintä) ennen käyttöä muodollisessa turvallisuusarvioinnissa.
+## Yhden virkkeen yhteenveto
 
-## Yhden lauseen yhteenveto
+Nintedanibi on tyrosiinikinaasin estäjä, jota on käytetty idiopaattisen keuhkofibroosin, muiden fibrosoivien interstitiaalisten keuhkosairauksien ja ei-pienisoluisen keuhkosyövän hoitoon. TxGNN-malli ennustaa sen voivan tehota **dermatofibrosarcoma protuberans -kasvaimeen (DFSP)**, mutta ennusteen tukena on vain **1 katsausartikkeli** eikä yhtään kliinistä tutkimusta. Näyttö on siten ennen kaikkea laskennallista.
 
-Nintedanibi on moneksi kohteeksi vaikuttava tyrosiinkinaasin estäjä, joka tunnetaan yleisesti sen käytöstä fibroottisissa keuhkosairauksissa. TxGNN-malli ennustaa, että se saattaa olla tehokas **dermatofibrosarkooma protuberansiin**, mutta tätä suuntaa tukee tällä hetkellä vain **yksi mekanismiin liittyvä julkaisu** ja **ei rekisteröityjä kliinisiä tutkimuksia**.
+---
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Ei dokumentoitu nykyisessä todistenipussa (estävä tietovaje — katso DG001) |
-| Ennustettu uusi indikaatio | Dermatofibrosarcoma protuberans |
-| TxGNN-ennustepistemäärä | 99.15% |
-| Todisteen taso | L4 |
-| Suomen markkinatilanne | ✗ Ei markkinoilla |
-| Lupien lukumäärä | 0 |
-| Suositeltu päätös | Odota |
+|------|------|
+| Alkuperäinen käyttöaihe | Idiopaattinen keuhkofibroosi (sekä interstitiaaliset keuhkosairaudet, systeeminen skleroosi ja ei-pienisoluinen keuhkosyöpä) |
+| Ennustettu uusi käyttöaihe | Dermatofibrosarcoma protuberans |
+| TxGNN-ennusteen pistemäärä | 99,15 % |
+| Näytön taso | L4 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 4 (kaikki peruutettuja) |
+| Suositeltu päätös | Hold (odotus) |
 
-## Miksi tämä ennuste on järkevä?
+---
 
-Tällä hetkellä yksityiskohtaisia nintedanibin vaikutusmekanismin tietoja ei ole saatavilla tässä todistenipussa (DG002). Yleisesti tunnetun farmakologian perusteella nintedanibi on kolmoiskulmakiinaasi-estäjä, joka kohdennetaan VEGFR:ään, FGFR:ään ja PDGFR:ään, ja sen tehokkuus fibroottisissa keuhkosairauksissa on vakiintunut laajemmassa kirjallisuudessa — mutta tätä ei ole vahvistettu tässä nippussa lähteellä tuetulla asiakirjalla.
+## Miksi ennuste on perusteltu?
 
-Ainoa tukeva julkaisu (PMID 29408302) on pienimolekyylisten PDGFR-estäjien farmakologinen katsaus pahanlaatuisissa taudeissa. Dermatofibrosarcoma protuberans on kasvain, jota luonnehtii COL1A1–PDGFB-geenifuusio, joka aiheuttaa jatkuvan PDGFR-signalointireitin aktivaation. Jos nintedanibin PDGFR-inhibiittinen aktiivisuus vahvistetaan, on uskottava mekanistinen perustelu PDGFR-ohjautuvissa sarkoomeissa, kuten DFSP:ssa ja liposarkooomassa olevan aktiivisuuden kannalta — mikä on johdonmukainen sen kanssa, että kaikki kolme TxGNN:n eniten sijoitettua ennustetta ovat pehmeän kudoksen sarkoomat.
+Nintedanibi on usean kohteen tyrosiinikinaasin estäjä, joka salpaa PDGFR-α/β-, FGFR 1–3- ja VEGFR 1–3 -reseptoreita. Tämän reseptorikohtaisen vaikutuksen tiedot perustuvat ennusteen mekanistiseen perusteluun; erillistä vaikutusmekanismitietoa ei ollut tämän raportin aineistossa saatavilla.
 
-Tätä mekanistista yhteyttä tukee tällä hetkellä vain luokan tason kirjallisuus, ei lääkekohtaiset tai tautikohtaiset tutkimukset, ja sitä tulee käsitellä hypoteesin tuottavana pikemminkin kuin vahvistavana.
+DFSP:n taustalla on tyypillisesti COL1A1-PDGFB-fuusio, joka aiheuttaa PDGFR-beetan jatkuvan autokriinisen aktivaation. Koska nintedanibi estää PDGFR-signalointia, mekanistinen yhteys on uskottava. Keuhkofibroosin ja DFSP:n yhteinen nimittäjä on PDGF-, FGF- ja VEGF-reittien rooli fibroblastien kasvussa.
 
-## Kliinisten tutkimusten todisteet
+Varauksia on kuitenkin selkeästi. Ainoa tukeva lähde on yleiskatsaus PDGFR-estäjistä, jossa pääosassa on imatinibi, joka on vakiintunut hoito leikkaamattomassa tai metastasoituneessa DFSP:ssa. Nintedanibia koskevia kliinisiä tai prekliinisiä DFSP-tietoja ei ollut. Korkea TxGNN-pistemäärä on laskennallinen ennuste, ei kliininen näyttö.
 
-Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia
+---
 
-## Kirjallisuuden todisteet
+## Kliininen tutkimusnäyttö
 
-| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät löydökset |
-|------|------|--------|---------|---------|
-| [29408302](https://pubmed.ncbi.nlm.nih.gov/29408302/) | 2018 | Katsaus | Pharmacological Research | Arvioi pienimolekyylisiä PDGFR-estäjiä pahanlaatuisissa taudeissa; kuvailee PDGF/PDGFR-signalointireittiä, joka on merkityksellinen PDGFR-ohjautuville kasvaimille, kuten DFSP:lle, mikä tukee luokan tasoisilla mekanistisia perusteluja pikemminkin kuin lääkekohtaisia tehokkuustietoja |
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
-## Suomen markkinatiedot
+---
 
-Nintedanibia ei ole tällä hetkellä markkinoilla Suomessa; todistenipussa ei ole saatavilla lupamerkintöjä (`total_licenses: 0`).
+## Kirjallisuusnäyttö
 
-## Turvallisuutta koskevat huomiot
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [29408302](https://pubmed.ncbi.nlm.nih.gov/29408302/) | 2018 | Katsaus | Pharmacological Research | Katsaus pienmolekyylisiin PDGFR-estäjiin kasvainsairauksien hoidossa; PDGF-kasvutekijäperhe ja sen reseptorien rooli solujen kasvussa |
 
-Katso turvallisuustietoja pakkausselosteesta.
+---
+
+## Tiedot Suomen markkinoilta
+
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/006486 | Nintedanib Viatris | – | Idiopaattinen keuhkofibroosi, interstitiaaliset keuhkosairaudet, keuhkofibroosi (peruutettu) |
+| EMEA/H/C/003821 | Ofev | – | Idiopaattinen keuhkofibroosi, interstitiaaliset keuhkosairaudet, keuhkofibroosi, systeeminen skleroosi (peruutettu) |
+| EMEA/H/C/006179 | Nintedanib Accord | – | Idiopaattinen keuhkofibroosi, interstitiaaliset keuhkosairaudet, systeeminen skleroosi, keuhkofibroosi (peruutettu) |
+| EMEA/H/C/002569 | Vargatef | – | Ei-pienisoluinen keuhkosyöpä (peruutettu) |
+
+---
+
+## Sytotoksisuus
+
+| Kohta | Sisältö |
+|------|------|
+| Sytotoksisuusluokitus | Kohdennettu hoito (tyrosiinikinaasin estäjä) |
+| Luuydinsuppression riski | Katso valmisteyhteenvedon varoitukset ja huomautukset |
+| Oksennusta aiheuttavuus | Katso valmisteyhteenvedon varoitukset ja huomautukset |
+| Seurantakohteet | Katso valmisteyhteenvedon varoitukset ja huomautukset |
+| Käsittelysuojaus | Katso valmisteyhteenvedon varoitukset ja huomautukset |
+
+---
+
+## Turvallisuushuomioita
+
+- **Lääkeaineiden yhteisvaikutukset**: Yhteisvaikutuksia on tunnistettu yhteensä 100. Merkittävin (vaikeusaste "merkittävä") on **deksametasoni**. Keskivaikeita yhteisvaikutuksia on mm. seuraavien kanssa:
+  - Verenvuotoriskiin liittyvät lääkkeet: asetyylisalisyylihappo, klopidogreeli, apiksabaani, dalteapariini, alteplaasi, abksimabi, bivalirudiini, kangrelori, silostatsoli, dipyridamoli, betriksabaani, desirudiini, defibrotidi, kaplasitsumabi ja antitrombiini III
+  - Muut: klaritromysiini, naltreksoni, rolapitantti ja kobisistaatti
+
+Varoituksia ja vasta-aiheita koskevat tiedot eivät olleet saatavilla; niiden osalta on tutustuttava valmisteyhteenvetoon.
+
+---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Odota**
+**Päätös: Hold (odotus)**
 
-**Perustelu:**
-Ennuste perustuu yksittäiseen luokan tasoiseen mekanismin katsaukseen ilman lääkekohtaisia tai tautikohtaisia kliinisiä tai prekliinisiä tietoja, ilman rekisteröityjä tutkimuksia mille tahansa kolmesta ennustetusta sarkooma-indikaatiosta, ja ilman Suomen markkinoiden läsnäoloa, johon vedota todellisen maailman turvallisuuskokemukseen. Estävä tietovaje (DG001 — TFDA/Fimean pakkausseloste varoitukset ja vasta-aiheet) estää myös pääsyn S1-turvallisuuden esiseulonnan vaiheeseen.
+**Perustelut:**
+- Ennuste perustuu mekanistisesti uskottavaan PDGFR-yhteyteen, mutta tukena on vain yksi yleiskatsaus eikä yhtään kliinistä tai nintedanibia koskevaa prekliinistä tutkimusta. Imatinibi on DFSP:ssa jo vakiintunut hoito, joten nintedanibin lisäarvo on epäselvä. Lisäksi kaikki nintedanibin myyntiluvat Suomessa on peruutettu.
 
-**Jotta voidaan edetä, tarvitaan seuraavaa:**
-- TFDA/Fimean pakkausseloste tiedot (varoitukset, vasta-aiheet) DG001:n ratkaisemiseksi ja S1-turvallisuuden esiseulonnan avauksi
-- Vahvistettu alkuperäinen indikaatio ja MOA DrugBankista tai hyväksytystä merkinnästä (DG002)
-- Lääkekohtaiset prekliiniset tai tapauskohtaiset todisteet (esim. PDGFR-inhibiittinen aktiivisuus vahvistettu nintedanibille DFSP- tai liposarkooma-malleissa)
-- Jatkuva kirjallisuuden/tutkimusten seuranta, koska liposarkooomalla ja ovaarisen myksoidisen liposarkooomalla ei ole tällä hetkellä muuta tukea kuin TxGNN-pistemäärä
+**Jatkoa varten tarvitaan:**
+- Nintedanibia koskevat prekliiniset tiedot (esim. DFSP-solulinjat ja eläinmallit)
+- Vertailu imatinibiin sekä resistenssin tai imatinibi-intoleranssin tilanteen arviointi
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet (Fimean tiedot), jotta turvallisuusarviointi voidaan tehdä
+- Vaikutusmekanismitietojen täydentäminen DrugBankista
+- Selvitys valmisteen saatavuudesta Suomessa, koska voimassa olevia myyntilupia ei ole
 
+---
+
+### Liitteenä: muut ennustetut käyttöaiheet
+
+| Sijoitus | Käyttöaihe | TxGNN-pistemäärä | Näytön taso | Suositus |
+|------|------|------|------|------|
+| 2 | Liposarkooma | 99,13 % | L5 | Hold |
+| 3 | Munasarjan myksoidi liposarkooma | 99,12 % | L5 | Hold |
+
+Kummallekaan ei löytynyt kliinisiä tutkimuksia eikä kirjallisuutta, ja ennusteet ovat pelkästään laskennallisia.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

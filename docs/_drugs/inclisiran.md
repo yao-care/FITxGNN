@@ -2,7 +2,7 @@
 layout: default
 title: Inclisiran
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 194
+nav_order: 227
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,69 +29,85 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Inclisiran: määrittelemättömästä alkuperäisestä indikaatiosta kaliumin puutostautiin
+# Inklisirani: Hypokolesterolemian hoidosta ennustettuun uuteen käyttöaiheeseen (kaliumin puutostila)
 
-## Yhden lauseen tiivistelmä
+## Yhden lauseen yhteenveto
 
-Inclisiran alkuperäinen hyväksytty indikaatio ja virallinen vaikutusmekanismi eivät ole dokumentoituja tässä evidenssipakkauksessa (merkitty estäväksi/korkean vakavuuden tietokuiluksi). TxGNN-mallin paras ennuste on **Kaliumin puutostautti**, mutta tämä on puhdas mallin artefakti — **0 klinistä tutkimusta** ja **0 julkaisua** tukevat sitä, eikä malli itse tunnista tunnettu mekanistista yhteyttä lääkkeen signalointireitin ja kaliumin homeostaasin välillä.
+Inklisirani on PCSK9:ää kohdistava siRNA-lääke, jota käytetään alun perin hyperkolesterolemian ja dyslipidemioiden hoitoon. TxGNN-malli ennustaa sen sopivan parhaiten käyttöaiheeseen **kaliumin puutostila** (pistemäärä 99,93 %), mutta ennusteen tueksi ei ole **yhtään kliinistä tutkimusta eikä julkaisua**. Ennuste perustuu pelkästään malliin.
 
 ---
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|-------|---------|
-| Alkuperäinen indikaatio | Ei saatavilla — `original_indications` on tyhjä tässä evidenssipakkauksessa |
-| Ennustettu uusi indikaatio | Kaliumin puutostautti |
-| TxGNN-ennusteen pistemäärä | 99.93% |
-| Evidenssitaso | L5 (vain mallin ennuste, ei tukevia tutkimuksia tai kirjallisuutta) |
-| Suomen markkinatilanne | Ei markkinoilla |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Pidä |
+|------|------|
+| Alkuperäinen käyttöaihe | Hyperkolesterolemia; dyslipidemiat |
+| Ennustettu uusi käyttöaihe | Kaliumin puutostila (potassium deficiency disease) |
+| TxGNN-ennustepistemäärä | 99,93 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Miksi tämä ennuste on järkevä?
+## Miksi ennuste on (tai ei ole) perusteltu?
 
-Muodollinen vaikutusmekanismi-data lääkeprofiilin tasolla on merkitty tietokuiluksi (DG002, korkea vakavuus). Kuitenkin evidenssipaketin oma indikaatiokohtainen perusteluteksti (liitettynä rank-8-merkintään "aortan epämuodostuma") kuvaa inclisirania pieneksi interferenssi-RNA:ksi (siRNA), joka kohdentuu maksassa olevaan PCSK9-mRNA:han, estää PCSK9-synteesiä ja lisää hepatisten LDL-reseptorien kierrätystä LDL-kolesterolin alentamiseksi — eli lipidiaineenvaihdunnan väylän lääkkeeksi, mikä on yhteensopivaa kyseisessä merkinnässä löydettyjen kahden todellisen tutkimuksen kanssa (NCT06597006, NCT06597019), jotka todellisuudessa tutkivat lapsuusiän familaarista hyperkolesterolemiaa eikä merkittyä sairautta.
+Inklisirani on siRNA-lääke, joka ssitoutuu maksasolujen PCSK9-lähetti-RNA:han ja vaimentaa sitä. Tämä lisää LDL-reseptorien määrää maksassa ja alentaa LDL-kolesterolia. Yksityiskohtaista vaikutusmekanismitietoa ei tähän raporttiin koottu aineistosta saatu, mutta yllä kuvattu mekanismi on lääkkeen tunnettu vaikutustapa.
 
-Parhaiten sijoittuvassa ennusteessa, Kaliumin puutostaudissa, evidenssipakkaus nimenomaisesti toteaa, ettei PCSK9/LDL-väylän ja kaliumin homeostaasin välillä ole tunnettu mekanistista yhteyttä. Pistemäärä 99.93% on graafimallin korkean varmuuden tuloste, mutta sitä ei tue mikään tutkimus, tapausraportti tai mekanistinen kirjallisuus — malli, joka on yhteensopiva pisteytysartefaktin kanssa pikemminkin kuin biologisesti perustetun hypoteesin kanssa.
+Alkuperäisen käyttöaiheen (lipidihäiriöt) ja ennustetun käyttöaiheen (kaliumin puutostila) välillä ei ole tunnistettavaa mekanistista yhteyttä. Inklisiranilla ei tunneta roolia kaliumin tasapainon säätelyssä. Korkea TxGNN-pistemäärä on todennäköisesti mallin verkkorakenteesta johtuva artefakti, eikä sitä tue kliininen tai kirjallisuusnäyttö.
 
-Tämä malli toistuu kaikissa kymmenen paremmuusjärjestyksessä sijoittuvassa ennusteessa: millään ei ole kirjallisuutta tai tutkimuksia, jotka suoraan ja pätevällä tavalla yhdistäisivät inclisirania ennustettuun tautiin. Rank 8 ("aortan epämuodostuma") palautti kaksi tutkimushittiä, mutta evidenssipaketin oma vahvistus löysi nämä ontologia-kartoitusvirheiksi (tutkimukset tutkivat HoFH/HeFH:tä, eivät aortan epämuodostumaa). Rank 7 ("migreeni ilman aurataa tai ilman, herkkyyteen") palautti 20 PubMed-osumaa, mutta kaikki koskevat epilepsia/migreeni-yhteisen genetiikan (esim. SCN1A, MTHFR) eikä mainita inclisirania, PCSK9:ää tai lipidireittejä.
-
----
-
-## Klinisten tutkimusten evidenssi
-
-Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä klinisiä tutkimuksia.
+Samoin muilla kärkiennusteilla ei havaittu uskottavaa mekanismia: ruokatorven sairaus (sija 2), aortan koarktaation epätyypillinen muoto (3), migreeni ja sen alatyypit (4, 6, 7), ruokatorven epämuodostuma (5), ruokatorven haavauma (9) ja Raynaud'n tauti (10). Kaikki ovat pelkkiä mallin ennusteita, joiden näyttötaso on L5.
 
 ---
 
-## Kirjallisuuden evidenssi
+## Kliinisen tutkimuksen näyttö
 
-Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta.
+Ensisijaiselle ennusteelle (kaliumin puutostila) ei ole rekisteröityjä kliinisiä tutkimuksia.
+
+Aortan epämuodostumaan (sija 8) kytkeytyi aineistossa kaksi tutkimusta, mutta ne eivät koske tätä käyttöaihetta. Ne ovat lasten familiaalista hyperkolesterolemiaa koskevia tutkimuksia, ja yhteys vaikuttaa indeksointi- tai hakusana-artefaktilta:
+
+| Tutkimusnumero | Vaihe | Tila | Osallistujamäärä | Keskeiset havainnot |
+|---------|------|------|------|---------|
+| [NCT06597019](https://clinicaltrials.gov/study/NCT06597019) | Vaihe 3 | Rekrytoi | 60 | Inklisirani vs. lumelääke, sen jälkeen avoin jakso, 6–<12-vuotiailla lapsilla, joilla heterotsygoottinen familiaalinen hyperkolesterolemia; ei liity aortan epämuodostumaan |
+| [NCT06597006](https://clinicaltrials.gov/study/NCT06597006) | Vaihe 3 | Rekrytoi | 9 | Sama kaksiosainen asetelma 2–<12-vuotiailla lapsilla, joilla homotsygoottinen familiaalinen hyperkolesterolemia; ei liity aortan epämuodostumaan |
+
+---
+
+## Kirjallisuusnäyttö
+
+Tällä hetkellä aiheeseen liittyvää kirjallisuutta ei ole saatavilla.
+
+---
+
+## Suomen markkinatiedot
+
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/005333 | Leqvio | – | Hyperkolesterolemia; dyslipidemiat |
+
+Huomaa: tämä myyntilupa on tilaltaan peruutettu, eikä voimassa olevia myyntilupia ole.
 
 ---
 
 ## Turvallisuushuomiot
 
-Viitatkaa pakkausselosteeseen turvallisuustiedoista.
+Tämän raportin tietojen perusteella ei ole saatavilla vahvistettuja varoituksia, vasta-aiheita tai yhteisvaikutustietoja. Turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 ---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Pidä**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Kaikki kymmenen paremmuusjärjestyksessä sijoittuvaa ennustetta sijaitsevat evidenssitasolla L5 (vain mallin pistemäärä). Parhaiten sijoittuvalla ennusteella on nimenomaisesti tunnustettu mekanistisen uskottavuuden puute, ja ainoa paikka, jossa todellisia tutkimusaineistoja esiintyi muualla luettelossa (rank 8), osoittautui sairauden-merkinnän kartoitusvirheeksi, joka ei liity ennustettuun tilaan. Ei ole perusteita edistää mitään ehdokasta S0:n yli.
+- Ennuste perustuu pelkästään malliin (L5), eikä sille ole kliinistä tai kirjallisuusnäyttöä. Uskottavaa mekanistista yhteyttä PCSK9-vaimennuksen ja kaliumin puutostilan välillä ei ole, ja ainoat toiseen ennusteeseen liitetyt tutkimukset ovat aiheeseen liittymättömiä lasten lipiditutkimuksia.
 
-**Jatkamista varten tarvitaan seuraavaa:**
-- TFDA/Fimea-pakkausseloste (DG001, estävä) — vaaditaan ennen S1-turvallisuusseulontaa
-- Vahvistettu alkuperäinen indikaatio ja vaikutusmekanismi DrugBankista (DG002)
-- Tautikohtainen tutkimus- tai kirjallisuustodiste mille tahansa paremmuusjärjestyksen ennusteelle, saatu oikaistun taudin ontologia-kartoituksen kautta (aorta-epämuodostuma-ristiriita viittaa siihen, että myös muut tämän erän merkinnät voivat olla väärin kartalla)
-- TxGNN-evidenssien hakemisen uusinta kerran ontologia-kartoitus on vahvistettu, ennen kuin arvioidaan uudelleen mitään ehdokasta tässä joukossa
-
+**Eteneminen edellyttäisi seuraavaa:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean sivuilta (estää turvallisuusseulonnan)
+- Vaikutusmekanismitietojen täydentäminen (esim. DrugBankista)
+- Biologisen perustelun ja prekliinisen näytön kartoitus ennustetulle käyttöaiheelle
+- Peruutetun myyntilupatilanteen selvittäminen Suomessa ennen jatkoarviointia
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -2,7 +2,7 @@
 layout: default
 title: Sodium Oxybate
 parent: Vahva näyttö (L1-L2)
-nav_order: 347
+nav_order: 406
 evidence_level: L2
 indication_count: 6
 ---
@@ -29,103 +29,109 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Natrium-oksibutaatti: narkolepsian katapleksiasta unettomuuteen
+# Natriumoksibaatti: narkolepsiasta ja kataplexiasta unettomuuteen
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Natrium-oksibutaatti (Xyrem) on GABA-B/GHB-reseptorin agonisti, joka on vakiintunut narkolepsian katapleksian hoitoon EU:ssa ja USA:ssa. TxGNN-malli ennustaa, että se saattaa olla tehokas myös **unettomuuden** hoidossa, ja tällä hetkellä on tunnistettu **13 kliinistä tutkimusta** ja **13 julkaisua**, vaikka lääkettä ei ole markkinoitu Suomessa ja siihen liittyy valvotun aineen (luokka III) riski.
+Natriumoksibaattia (Xyrem) on alun perin käytetty narkolepsian ja siihen liittyvän kataplexian hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **unettomuuteen (insomnia)**.
+Tätä suuntaa tukee tällä hetkellä **3 kliinistä tutkimusta** (joista yksi on suoraan asiaan liittyvä vaiheen 2 satunnaistettu tutkimus) ja **kirjallisuutta**, joka koostuu pääosin katsauksista ja pienistä tutkimuksista.
 
 ---
 
-## Pika-yleiskatsaus
+## Pikakatsaus
 
-| Kohde | Sisältö |
+| Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Narkolepsia katapleksian kanssa (kansainvälisen kirjallisuuden mukaan; ei johdettavissa Suomen lääkevalvontadatasta — lääkettä ei ole markkinoitu) |
-| Ennustettu uusi käyttöaihe | Unettomuus |
-| TxGNN-ennuste-pistemäärä | 99.997% |
-| Näyttötaso | L2 |
-| Suomen markkinatilanne | ✗ Ei markkinoitu |
-| Lupien lukumäärä | 0 |
-| Suositeltu päätös | Pidä odotuksissa |
+| Alkuperäinen käyttöaihe | Kataplexia; narkolepsia |
+| Ennustettu uusi käyttöaihe | Unettomuus (insomnia) |
+| TxGNN-ennustepistemäärä | 99,997 % |
+| Näytön taso | L2 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Miksi tämä ennuste on järkevä?
+## Miksi ennuste on perusteltu?
 
-DrugBank-lähteen mekanistisen vaikutuksen yksityiskohtaiset tiedot ovat tällä hetkellä tiedon puutokohta (DG002). Saatavilla olevan mekanistisen perustelun mukaan natrium-oksibutaatti (gamma-hydroksibutyraaatin natriumsuola, GHB) toimii GABA-B/GHB-reseptorin agonistina, joka aiheuttaa ja vahvistaa hitaan aallon unia (SWS). Tämä vaikutus on kliinisesti vahvistettu narkolepsiassa, jossa se parantaa unen jatkuvuutta ja vähentää katapleksiakohtauksia.
+Tämän raportin tietojen mukaan yksityiskohtaista vaikutusmekanismitietoa ei ole saatavilla. Tunnetun tiedon perusteella natriumoksibaatti (GHB) vaikuttaa GABA-B- ja GHB-reseptoreihin, lisää hidasaaltounta (N3) ja yhdistää yöunta. Tämä on uskottava mekanismi unessa pysymisen ongelmiin liittyvässä unettomuudessa.
 
-Narkolepsia ja unettomuus ovat molemmat primäärisiä univaiheen häiriöitä, joten farmakologinen logiikka – SWS:n tehostaminen unen jatkuvuuden parantamiseksi – on mekanistisesti siirrettävissä. Tätä tukee suoraan valmis fase 2 -satunnaistettu, kaksoissokkotettu, kaksoisummikkomenetelmää käyttävä, lumekontrolloitu tutkimus (NCT00383643), jossa verrattiin natrium-oksibutaattia (Xyrem) ja zolpidemia (Ambien) erityisesti kroonisen unettomuuden potilaissa, mikä on vahvin saatavilla oleva näyttö tälle kandidaatille.
+Alkuperäinen käyttöaihe, narkolepsia, liittyy yöunen pirstaloitumiseen, ja lääkkeen unirakennetta parantava vaikutus on osoitettu narkolepsiassa (pilottitutkimus, PMID 15586785). Siksi sen vaikutus voi olla sovellettavissa myös kroonisessa unettomuudessa. Parkinsonin taudissa tehty avoin polysomnografiatutkimus (PMID 18852348) tukee unirakenteeseen kohdistuvaa hyötyä.
 
-Mekanismi ei kuitenkaan ole unettomuuden spesifinen: se on yleistetty keskushermostolle (CNS) ja univaiheelle kohdistuva vaikutus eikä kohdennettu unettomuuden polku, ja useat tunnistetut tutkimukset samankaltaisista univaiheen häiriöistä (PTSD, krooninen väsymysoireyhtymä) keskeytettiin tai pysäytettiin, mikä viittaa käytännöllisiin tai siedettävyyden esteisiin laajempaan käyttöön. Lääkkeen luokka III -valvotun aineen asema, riippuvuus-/väärinkäyttöpotentiaali ja hengityslamaa heikentävä riski (mainittu uudelleenkäyttöperustelun yhteydessä) vähentävät myös muuten uskottavan mekanismin houkuttelevuutta.
+Käyttöä laajassa unettomuuspotilasjoukossa rajoittavat kuitenkin väärinkäytön riski, hengityslamaa aiheuttava keskushermostoa lamaava vaikutus, lukuisat yhteisvaikutukset (48 tunnettua) sekä käytön rajoitukset (REMS).
 
 ---
 
-## Kliinisen tutkimuksen näyttö
+## Kliininen tutkimusnäyttö
 
-| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset tulokset |
+| Tutkimustunnus | Vaihe | Tila | Osallistujia | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT00383643](https://clinicaltrials.gov/study/NCT00383643) | Vaihe 2 | Päätötetty | 48 | Satunnaistettu, kaksoissokkotettu, kaksoisummikkomenetelmää käyttävä, lumekontrolloitu tutkimus, jossa verrattiin natrium-oksibutaattia (Xyrem) ja zolpidemia (Ambien) kroonisen unettomuuden hoidossa – suoraan soveltuvin ja vahvin tutkimus tälle käyttöaiheelle |
-| [NCT02637648](https://clinicaltrials.gov/study/NCT02637648) | Vaihe 3 | Tuntematon | 60 | Natrium-oksibutaatti päänsäryn ja univaiheen häiriöiden ennaltaehkäisyyn ryppykepallon puuskittaissa päänsärkykohduissa; unen laatu oli toissijainen tulosmuuttuja, tila tuntematon |
-| [NCT00330291](https://clinicaltrials.gov/study/NCT00330291) | Vaihe 2 | Peruutettu | 0 | Suunniteltu tutkimus Xyremia hoitoon-resistenteille unettomuuksille PTSD:n vuoksi; peruutettu ilman osallistujia |
-| [NCT00641186](https://clinicaltrials.gov/study/NCT00641186) | Vaihe 2 | Päätötetty | 30 | Avoin tutkimus Xyremia liialliselle päiväväsymykselle ja yölliselle univaiheen häiriölle lievässä tai kohtalaisessa Parkinsonin taudissa |
-| [NCT04803786](https://clinicaltrials.gov/study/NCT04803786) | N/A | Päätötetty | 110 | Havainnollinen tutkimus (TENOR) narkolepsian potilaiden siirtymiskokemuksesta Xyremiasta Xywaviin todellisissa olosuhteissa |
-| [NCT04508166](https://clinicaltrials.gov/study/NCT04508166) | N/A | Päätötetty | 27 | Terveellisten vapaaehtoissijoiden tutkimus testaamaan, pienentääkö syvän unen lisääminen (mukaan lukien GHB-luokan aine) traumaattisen jälkeen jäävien häiritsevämpien muistojen esiintymistä |
-| [NCT00594256](https://clinicaltrials.gov/study/NCT00594256) | Vaihe 2 | Päätötetty | 8 | Avoin pilottitutkimus täydentävää Xyremea pysyviin skizofrenia-oireisiin ja niihin liittyviin univaiheen häiriöihin |
-| [NCT01584934](https://clinicaltrials.gov/study/NCT01584934) | Vaihe 4 | Peruutettu | 0 | Suunniteltu sokkotettu, satunnaistettu ristikkeittäinen tutkimus natrium-oksibutaatista kroonisen väsymysoireyhtymän aiheuttamaan univaiheen häiriöön; peruutettu |
-| [NCT07077278](https://clinicaltrials.gov/study/NCT07077278) | Vaihe 4 | Ei vielä rekrytoida | 25 | Satunnaistettu poistumistutkimus matalan natriumoksibutaatin autonomisista oireista idiopaattisissa hypersomnian potilaissa POTS:n kanssa |
-| [NCT03626727](https://clinicaltrials.gov/study/NCT03626727) | Varhainen vaihe 1 | Peruutettu | 0 | Suunniteltu avoin tutkimus Xyremiaa traumaattiseen narkolepsiaan ja hypersomniiaan TBI-potilaissa; peruutettu |
+| [NCT00383643](https://clinicaltrials.gov/study/NCT00383643) | Vaihe 2 | Valmistunut | 48 | Satunnaistettu, kaksoissokkoutettu vertailu: natriumoksibaatti vs. tsolpideemi vs. lumelääke kroonisessa unettomuudessa. Suorin näyttö, mutta pieni otos. |
+| [NCT00594256](https://clinicaltrials.gov/study/NCT00594256) | Vaihe 2 | Valmistunut | 8 | Avoin pilottitutkimus: natriumoksibaatti lisälääkkeenä skitsofreniassa ja siihen liittyvissä unihäiriöissä. Vain epäsuora tuki. |
+| [NCT01584934](https://clinicaltrials.gov/study/NCT01584934) | Vaihe 4 | Peruttu | 0 | Krooninen väsymysoireyhtymä. Tutkimus peruttiin ilman osallistujia, joten tuloksia ei ole. |
 
 ---
 
-## Kirjallisuuden näyttö
+## Kirjallisuusnäyttö
 
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset tulokset |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [40120323](https://pubmed.ncbi.nlm.nih.gov/40120323/) | 2025 | Kohortti | J Clin Neurosci | Taipumuksella painotettu kohortti, joka luonnehtii narkolepsian välittömiä vapautumisen natriumoksibutaattia saaneiden potilaiden hoitokäytäntöjä |
-| [18852348](https://pubmed.ncbi.nlm.nih.gov/18852348/) | 2008 | Kohortti | Archives of Neurology | Avoin polysomnografinen tutkimus natriumoksibutaatista liialliselle päiväväsymykselle Parkinsonin taudissa |
-| [11174231](https://pubmed.ncbi.nlm.nih.gov/11174231/) | 2001 | Katsaus | Annals of Emergency Medicine | Kuvailee GHB (gamma-hydroksibutyraaatin) vieroitusoireyhtymää – tärkeä riippuvuusriskin turvallisuussignaali |
-| [20166851](https://pubmed.ncbi.nlm.nih.gov/20166851/) | 2010 | Katsaus | Expert Opin Emerging Drugs | Katsaus nousevista narkolepsian hoitomenetelmistä, mukaan lukien natrium-oksibutaatin rooli yöllisen univaiheen häiriöiden häiriössä |
-| [26171909](https://pubmed.ncbi.nlm.nih.gov/26171909/) | 2015 | Katsaus (Cochrane) | Cochrane Database Syst Rev | Systemaattinen katsaus opioidi-, hypnootti- ja sedatiivisten lääkkeiden vaikutuksista univaiheen häiriöisiin, liittyy keskushermostoa tukahduttaviin riskeihin |
-| [31526967](https://pubmed.ncbi.nlm.nih.gov/31526967/) | 2019 | Tapausraportti | Sleep Medicine | Natrium-oksibutaattia käytettiin ankaran unenpuutteen hallintaan lapsella, jonka EBV-enkefaliitti vaikutti uni-heräämis-sääntelyjärjestelmään |
-| [18805301](https://pubmed.ncbi.nlm.nih.gov/18805301/) | 2008 | Katsaus | Revue Neurologique | Katsaus narkolepsiaan katapleksian kanssa, mukaan lukien unenpitäväisen unettomuuden puolustelu sairauden piirteinä |
-| [21815499](https://pubmed.ncbi.nlm.nih.gov/21815499/) | 2011 | Katsaus | Revue Medicale Suisse | Katsaus kahdensuuntaisesta suhteesta kroonisen kivun ja univaiheen häiriön välillä, käsittelee univaiheen lääkityksen lähestymistapoja |
-| [37590830](https://pubmed.ncbi.nlm.nih.gov/37590830/) | 2023 | Katsaus | Continuum (Minneap Minn) | Kattava katsaus lasten univaiheen häiriöistä, mukaan lukien unettomuus ja narkolepsia |
-| [20082966](https://pubmed.ncbi.nlm.nih.gov/20082966/) | 2009 | Katsaus | Parkinsonism Relat Disord | Katsaus väsymykseen ja univaiheen häiriöihin Parkinsonin taudissa |
+| [18852348](https://pubmed.ncbi.nlm.nih.gov/18852348/) | 2008 | Avoin polysomnografiatutkimus | Archives of Neurology | Natriumoksibaatti ja päiväaikainen uneliaisuus Parkinsonin taudissa; unirakenteeseen liittyvää dataa. |
+| [15586785](https://pubmed.ncbi.nlm.nih.gov/15586785/) | 2004 | Pilottitutkimus | Sleep | Yöllisen natriumoksibaatin vaikutus unirakenteeseen ja päiväaikaiseen vireyteen narkolepsiassa. |
+| [19116896](https://pubmed.ncbi.nlm.nih.gov/19116896/) | 2009 | Satunnaistettu, lumekontrolloitu | Arthritis and Rheumatism | Natriumoksibaatti lievitti kipua ja paransi toimintakykyä fibromyalgiassa. |
+| [21476957](https://pubmed.ncbi.nlm.nih.gov/21476957/) | 2011 | Katsaus | Current Pharmaceutical Design | Natriumoksibaatin ja baklofeenin vaikutukset uneen: lyhyempi nukahtamisaika, yöunen yhtenäisyys ja hidasaaltouni. |
+| [19698899](https://pubmed.ncbi.nlm.nih.gov/19698899/) | 2009 | Katsaus | Clinical Therapeutics | GHB:n siedettävyys ja väärinkäyttöriski skitsofreniapotilaiden unettomuudessa. |
+| [31526967](https://pubmed.ncbi.nlm.nih.gov/31526967/) | 2019 | Tapausselostus | Sleep Medicine | Natriumoksibaatti vaikeasti univajeisella lapsella, jolla oli EBV-enkefaliitti. |
+| [40120323](https://pubmed.ncbi.nlm.nih.gov/40120323/) | 2025 | Kohorttitutkimus | J Clin Neurosci | Pikavapautteisella natriumoksibaatilla hoidettujen narkolepsiapotilaiden hoitokäytännöt. |
+| [26171909](https://pubmed.ncbi.nlm.nih.gov/26171909/) | 2015 | Katsaus (Cochrane) | Cochrane Database Syst Rev | Opioidien, unilääkkeiden ja rauhoittavien lääkkeiden vaikutus uniapneaan; liittyy hengityslamariskiin. |
+| [18805301](https://pubmed.ncbi.nlm.nih.gov/18805301/) | 2008 | Katsaus | Revue Neurologique | Narkolepsia ja kataplexia: yleiskatsaus. |
+
+Huomattavaa: unettomuudesta ei ole satunnaistettua isoa tutkimusta, ja suurin osa kirjallisuudesta koskee narkolepsiaa tai muita potilasryhmiä.
 
 ---
 
 ## Suomen markkinatiedot
 
-Natrium-oksibutaatilla ei ole tällä hetkellä rekisteröityjä markkinointi-lupia Suomessa (0 lupaa; markkinatilanne: ei markkinoitu).
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000593 | Xyrem | – | Kataplexia; narkolepsia |
+
+Tämä myyntilupa on peruutettu, eikä Suomessa ole voimassa olevaa myyntilupaa.
 
 ---
 
 ## Turvallisuusnäkökohdat
 
-Fimean virallinen pakkausseloste-varoitukset ja vasta-aiheet ovat tällä hetkellä saatavilla (Esto-aineisto-puute, DG001) – tämä estää muodollisen S1-turvallisuusarvioinnin. Näytössä olevien tietojen perusteella (mekanistinen perustelu ja kirjallisuus), seuraavat riskit ovat merkityksellisiä ja ne on varmistettava, kun pakkausseloste on saatavilla:
+- **Lääkkeiden yhteisvaikutukset:** Tunnettuja yhteisvaikutuksia on yhteensä 48. Merkittäviä (Major) ovat mm.:
+  - opioidit: morfiini, kodeiini, hydrokodoni, oopium
+  - alkoholi (etanoli)
+  - antihistamiinit: prometatsiini, klorfeniramiini, bromfeniramiini, akrivastiini, karbinoksamiini
+  - kannabinoidit: dronabinoli, nabiloni
+  - bupropioni, fenfluramiini, metoklopramidi, sibutramiini
 
-- **Valvotun aineen riski**: Natrium-oksibutaatti (GHB) on luokka III -valvottu aine, jossa on tunnettu riippuvuus-, väärinkäyttö- ja anastaspotentiaali (tuettu kirjallisuudella GHB-vieroitusoireyhtymästä ja siedettävyys-/väärinkäyttövastuusta).
-- **CNS/hengityslama-depressio**: Lisääntyvä sedatiivinen ja hengityslamaa heikentävä riski yhdessä alkoholin tai muiden keskushermostoa tukahduttavien aineiden kanssa.
-- **Liikunta-/univaiheen sivuvaikutukset**: Tapauskirjallisuus yhdistää natrium-oksibutaatin levottomien jalkojen oireyhtymän tai jaksottaisten raajaliikkeiden indusoitumiseen tai pahentumiseen narkolepsian potilaissa – paradoksaalinen univaiheen häiriön vaikutus, jonka seuranta on tärkeää, jos lääkettä käytetään unettomuuden uudelleen käyttöön.
+  Kohtalaisia (Moderate) ovat mm. diatsoksidi, amyylinitriitti ja fentolamiini. Monet näistä liittyvät keskushermostoa lamaavan vaikutuksen voimistumiseen.
+- **Tietämyspohjaan perustuvat vasta-aiheet** (TxGNN-tietämyskaavio, ei valmisteyhteenvetoteksti): korkea verenpaine, epilepsia, ahdistuneisuus- ja neuroottiset häiriöt, dysthymia, maksasairaus, sappirakon sairaus, päihteiden väärinkäyttö ja riippuvuus, obstruktiivinen uniapnea, synnynnäinen keskushermostoperäinen hypoventilaatio, hengitysvajaus, sukkinaattisemialdehydidehydrogenaasin puutos sekä parasomniat.
+- **Muita huomioita kirjallisuudesta:** Unenaikaista syömishäiriötä on raportoitu annoksen nostamisen jälkeen (PMID 42621108), ja levottomat jalat -oireyhtymää on kuvattu mahdollisena haittavaikutuksena (PMID 17275405).
 
-Täydellisiä turvallisuustietoja koskevan pakkausselosteen saatavilla olemisen jälkeen.
+Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 ---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Pidä odotuksissa**
+**Päätös: Hold (odota)**
 
-**Perustelu:**
-Unettomuussignaali on merkityksellistä näyttöä tukevan (L2: yksi valmis fase 2 RCT, joka vertaa suoraan natrium-oksibutaattia ja zolpidemia kroonisessa unettomuudessa), mutta Fimean varoituksista ja vasta-aiheista johtuva esto-aineiston puute (DG001) estää vaaditun S1-turvallisuusarvioinnin, ja lääkkeen valvotun aineen/väärinkäyttöriskin profiili yhdessä sen ei-markkinoidun tilan kanssa Suomessa vaatii varovaisuutta ennen etenemistä.
+**Perustelut:**
+- Unettomuudesta on yksi pieni vaiheen 2 satunnaistettu tutkimus (n = 48), joten näyttö on rajallista. Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa, ja valmisteen väärinkäyttöriski, hengityslama ja runsaat keskushermostoa lamaavat yhteisvaikutukset rajoittavat laajaa käyttöä unettomuuspotilailla.
 
-**Jatkamiseksi tarvitaan seuraavaa:**
-- Fimean pakkausseloste (varoitukset, vasta-aiheet, valvotun aineen luokittelu Suomessa) – DG001
-- DrugBank-mekanismin yksityiskohdat – DG002
-- Muodollinen lääkkeiden väliset yhteisvaikutukset (DDI) -tietokannan kysely (nykyinen kysely ei tuottanut tuloksia)
-- Valvotun aineen tuonnin/määräämisen toteutettavuuden arviointi Suomessa markkinoimattomalle tuotteelle
+**Jatkaminen edellyttää seuraavaa:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen (tällä hetkellä aukko, joka estää turvallisuusseulonnan).
+- Yksityiskohtaiset vaikutusmekanismitiedot.
+- Suurempi, satunnaistettu vaiheen 3 tutkimus kroonisesta unettomuudesta, jossa tulokset arvioidaan tsolpideemiin nähden.
+- Riskienhallintasuunnitelma väärinkäytölle, riippuvuudelle ja hengityslamalle sekä arvio markkinoille paluun mahdollisuudesta Suomessa.
 
+**Muut ennusteet (lyhyesti):** Unen aloittamisen ja ylläpidon häiriö (L3) on päällekkäinen unettomuuden kanssa ja perustuu pääosin narkolepsiasta ekstrapoloituun näyttöön. Levottomat jalat (L4) -ennusteessa kirjallisuus viittaa mahdolliseen haittavaikutukseen, ei hyötyyn. Virtsarakon neurogeeninen häiriö (vanhentunut termi), cauda equina -oireyhtymä ja Wernicke-Korsakoffin oireyhtymä (kaikki L5) ovat pelkkiä malliennusteita ilman tutkimus- tai kirjallisuusnäyttöä, eikä niille ole uskottavaa mekanistista perustetta.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

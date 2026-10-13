@@ -2,7 +2,7 @@
 layout: default
 title: Baloxavir Marboxil
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 61
+nav_order: 67
 evidence_level: L5
 indication_count: 0
 ---

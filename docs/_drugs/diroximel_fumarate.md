@@ -2,7 +2,7 @@
 layout: default
 title: Diroximel Fumarate
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 124
+nav_order: 142
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,62 +29,74 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Diroximel Fumarate: Dokumentoimattomasta alkuperäisestä käyttöaiheesta diabeettiseen kataraktaan
+# Diroksimeelifumaraatti: Relapsoivasta MS-taudista ennustettuun diabeettiseen kaihiin
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Evidenssipaketti ei dokumentoi diroximel-fumaraatin alkuperäistä hyväksyttyä käyttöaihetta tai yksityiskohtaista vaikutusmekanismia (molemmat merkitty tietovajeiksi), ja lääkettä ei ole tällä hetkellä markkinoilla Suomessa. TxGNN-malli ennustaa mahdollista tehokkuutta **Diabeettiseen kataraktaan**, mutta tämä ja kaikki yhdeksän muuta listalla olevaa oftalmologista käyttöaihetta ovat tällä hetkellä tuettu **nollalla kliinisellä tutkimuksella** ja **nollalla julkaisulla** — ennustus on puhtaasti mallipisteisiin perustuva hypoteesi ilman ulkoista validointia.
+Diroksimeelifumaraatti on monomeetyylifumaraatin (MMF) esilääke, jota on käytetty aaltoilevan MS-taudin (relapsoiva-remittoiva multippeliskleroosi) hoitoon.
+TxGNN-malli ennustaa sen voivan tehota ensisijaisesti **diabeettiseen kaihiin** ja **diabeettiseen retinopatiaan**,
+mutta ennusteen tueksi ei ole toistaiseksi **yhtään kliinistä tutkimusta eikä julkaisua**.
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
-| Kohde | Sisältö |
-|------|---------|
-| Alkuperäinen käyttöaihde | Ei saatavilla nykyisessä evidenssipakettissa |
-| Ennustettu uusi käyttöaihde | Diabeettinen katarakta |
-| TxGNN-ennustuspisteet | 99.9993% |
+| Kohta | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | Relapsoiva-remittoiva multippeliskleroosi |
+| Ennustettu uusi käyttöaihe | Diabeettinen kaihi |
+| TxGNN-ennustepistemäärä | 99,999 % |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Ei markkinoilla |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Odota |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennustus on järkevä?
+## Miksi ennuste on perusteltu?
 
-Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla (DrugBank ei palauttanut MOA-tekstiä tälle lääkkeelle). Tämän evidenssipaketin sisältämien mekanististen perusteluiden perusteella diroximel-fumaraatin aktiivinen metaboliitti, monomethyyli-fumaaraatti (MMF), aktivoi Nrf2-ARE-antioksidanttireittä. Sama reitti on ehdotettu teoreettisena linkkinä kaikkien kymmenen TxGNN-ennustetun käyttöaiheen yli, jotka klusteroituvat lähes kokonaan kataraktan alityyppien ja diabeettisen retinopatian ympärille.
+Käytettävissä olevassa aineistossa vaikutusmekanismitietoa ei ole. Tunnetun tiedon perusteella diroksimeelifumaraatti on MMF:n esilääke, ja MMF aktivoi Nrf2-antioksidanttireitin. Tämä reitti vaikuttaa oksidatiivista stressiä ja tulehdusta vastaan, mikä on keskeistä MS-taudissa.
 
-Koska `original_indications` on tyhjä evidenssipaketin osalta, lääkkeen alkuperäisen hyväksynnän ja diabeettisen kataraktan välistä yhteyttä ei voida arvioida täältä saatavien tietojen perusteella.
+Oksidatiivinen stressi ja polyolireitin aiheuttama vaurio edistävät diabeettista linssin samentumaa ja verkkokalvon vaurioita. Nrf2:n aktivointi on siksi teoriassa uskottava, mutta testaamaton yhteys. Diabeettisen retinopatian osalta fumaraateilla on laajemmassa kirjallisuudessa prekliinistä työtä verkkokalvomalleissa, mutta sitä ei toimitettu tähän raporttiin, joten sitä ei voi arvioida.
 
-Mekanistisesti kataraktan muodostuminen diabeetikolla liittyy linssin kristalliiniproteiinien hapettavaan aggregaatioon hyperglykemisen stressin olosuhteissa. Nrf2-reitin aktivaatio voisi teoreettisesti vähentää tätä hapettavaa vahinkoa, minkä vuoksi malli esittää tätä uskottavaksi signaaliksi. Rationaalilta itseltään kuitenkin nimenomaisesti todetaan, että kyseessä on epäsuora, osoittamaton mekanistinen hypoteesi — ei ole olemassa oftalmologista prekliinistä tai kliinistä näyttöä, joka vahvistaa, että systeemisesti annettu diroximel-fumaaraatti saavuttaa terapeuttisia pitoisuuksia linssissa tai verkkokalvotudoksessa.
+Kaikkien ennustettujen käyttöaiheiden yhteys on heikosti perusteltu. Esimerkiksi tetaniakaihi liittyy hypokalsemiaan, eikä Nrf2-aktivaatiolla ole uskottavaa yhteyttä kalsiumin aiheuttamaan linssin samentumaan. Kraniosynostoosiin liittyvä kaihi on harvinainen synnynnäinen tila, ja korkea pistemäärä johtuu todennäköisesti verkoston rakenteesta. Kypsä kaihi on rakenteellisesti vakiintunut, eikä systeeminen antioksidantti todennäköisesti korjaa sitä; leikkaus on edelleen ratkaiseva hoito.
 
-## Kliinisen tutkimuksen näyttö
+## Kliininen tutkimusnäyttö
 
-Tällä hetkellä ei ole liittyvää rekisteröityä kliinistä tutkimusta
+Toistaiseksi ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
-## Kirjallisuuden näyttö
+## Kirjallisuusnäyttö
 
-Tällä hetkellä kirjallisuutta ei ole saatavilla
+Toistaiseksi ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
-## Markkinatilanne Suomessa
+## Tiedot Suomen markkinoilta
 
-Diroximel-fumaaraattia ei ole tällä hetkellä markkinoilla Suomessa (0 rekisteröityä hyväksyntää); lisenssitietoja ei ole saatavilla taulukoitavaksi.
+| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/005437 | Vumerity | – | Relapsoiva-remittoiva multippeliskleroosi (tila: peruutettu) |
 
 ## Turvallisuusnäkökohdat
 
-Katso turvallisuustiedot pakkausselosteesta.
+- **Lääkeyhteisvaikutukset:** Yhteisvaikutushaussa löytyi yhteensä 100 yhteisvaikutusta. Luetelluista, kohtalaisiksi (Moderate) luokitelluista yhteisvaikutuksista keskeisimpiä ovat:
+  - Kortikosteroidit: hydrokortisoni, triamsinoloni, deksametasoni, betametasoni, budesonidi, prednisolooni ja prednisoni
+  - Naltreksoni ja etanoli
+  - Deksratsoksaani
+  - Radioaktiiviset ja immunologiset syöpälääkkeet: ibritumomabitiuksetaani, jobenguaani (I-131), tositumomabi (I-131) ja tositumomabi
+  - Levamisoli, trimetreksaatti ja merkaptopuriini
+  - Roflumilasti ja dupilumabi
+
+Muuta turvallisuustietoa, kuten varoituksia ja vasta-aiheita, ei ole tässä raportissa saatavilla. Tarkista ne valmisteyhteenvedosta.
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Odota**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Ennustus perustuu kokonaan TxGNN-mallipisteisiin (L5), joilla ei ole tukemassa kliinisiä tutkimuksia, kirjallisuutta tai prekliinistä oftalmologista aineistoa, ja lääkettä ei ole markkinoilla Suomessa. Lääkkeen ydin-tasoiset faktat — alkuperäinen käyttöaihde, vahvistettu vaikutusmekanismi ja TFDA:n turvallisuus- ja merkintätiedot — ovat kaikki ratkaisemattomia tietovajeita (DG001 on merkitty Esto, DG002 Korkea), joten kandidaatti ei voi vielä siirtyä turvallisuuden esiseulontaan (S1).
+- Ennuste perustuu pelkästään TxGNN-mallin pisteytykseen (L5). Tukevia kliinisiä tutkimuksia tai julkaisuja ei ole, ja valmisteen ainoa Suomen myyntilupa on peruutettu.
+- Turvallisuuden arvioinnin estävä tietoaukko (valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat) estää etenemisen turvallisuusseulontaan.
 
-**Jotta voidaan edetä, tarvitaan seuraavaa:**
-- TFDA:n/valmistajan pakkausseloste (varoitukset, vasta-aiheet, lääkkeiden väliset yhteisvaikutukset) — tällä hetkellä Esto per DG001
-- Vahvistettu alkuperäinen käyttöaihde ja vaikutusmekanismi DrugBankista tai sääntelylähteestä — DG002
-- Prekliininen näyttö siitä, että systeeminen annos saavuttaa Nrf2-reitin aktivaation linssissa tai verkkokalvotudoksessa
-- Kaikki in vitro- tai eläinkokeista saadut tiedot antioksidantin vaikutuksesta diabeettisen kataraktan tai retinopatian malleissa
-- Antoreitin toteutettavuusarviointi oftalmologisen kohteen saavuttamiselle
-
+**Jatkaminen edellyttää seuraavaa:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean sivustolta
+- Vaikutusmekanismitietojen täydentäminen DrugBankista
+- Prekliinisen näytön kartoitus Nrf2-aktivaatiosta diabeettisen kaihin ja retinopatian malleissa
+- Antoreitin ja silmäkudoksen altistuksen arviointi, koska systeemisen suun kautta annettavan lääkkeen riittävä altistus linssille on epävarma
+- Painopisteen rajaaminen diabeettisiin käyttöaiheisiin (diabeettinen retinopatia ja kaihi), koska muiden kaihityyppien yhteys on heikko, sekä vertailu nykyhoitoihin (anti-VEGF ja laserhoito)
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

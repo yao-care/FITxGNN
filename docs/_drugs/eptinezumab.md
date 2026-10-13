@@ -2,7 +2,7 @@
 layout: default
 title: Eptinezumab
 parent: Kohtalainen näyttö (L3-L4)
-nav_order: 151
+nav_order: 171
 evidence_level: L4
 indication_count: 1
 ---
@@ -29,72 +29,76 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Eptinezumabi: Migreenipreventioista migreeniin aivovartaloauran kanssa
+# Eptinezumabi: Migreenistä aivorunkoauraan liittyvään migreeniin
 
-## Yhden lauseen yhteenveto
+## Yhden virkkeen yhteenveto
 
-Eptinezumabi on anti-CGRP-monoklonaalinen vasta-aine, jota käytetään migreenipreventioissa (episodinen ja krooninen).
-TxGNN-malli ennustaa sen olevan tehokas **migreeniin aivovartaloauran kanssa**, tietyn ICHD-3-migreenivaihtelun osalta,
-jota tukee tällä hetkellä **0 kliinistä tutkimusta** ja **8 julkaisua**, joista suurin osa käsittelee laajempaa "migreeniä auran kanssa" -populaatiota kuin tätä erityistä alaryhmiä.
+Eptinezumabi on CGRP-vasta-aine, jota käytetään alun perin migreenin ehkäisyyn.
+TxGNN-malli ennustaa sen voivan tehota **aivorunkoauraan liittyvään migreeniin**, mutta aiheesta ei ole suoria kliinisiä tutkimuksia. Tukena on **0 kliinistä tutkimusta** ja **10 julkaisua**, jotka tukevat suuntaa vain epäsuorasti.
 
-## Nopea yleiskatsaus
+## Pikayhteenveto
 
 | Kohta | Sisältö |
-|------|--------|
-| Alkuperäinen indikaatio | Migreenipreventio (episodinen/krooninen) – yleinen farmakologinen käyttö; Suomesta ei ole lisenssitietoja saatavilla |
-| Ennustettu uusi indikaatio | Migreeni aivovartaloauran kanssa |
-| TxGNN-ennusteen pistemäärä | 99.94% (sijoitus 917) |
-| Todisteen taso | L4 |
-| Suomen markkinatilanne | ✗ Ei markkinoilla |
-| Lupien lukumäärä | 0 |
-| Suositeltu päätös | Pidätys |
+|------|------|
+| Alkuperäinen käyttöaihe | Migreeni |
+| Ennustettu uusi käyttöaihe | Aivorunkoauraan liittyvä migreeni |
+| TxGNN-ennustepistemäärä | 99,94 % |
+| Näytön taso | L4 |
+| Markkinatilanne Suomessa | Vain peruttuja myyntilupia |
+| Myyntilupien määrä | 1 |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennuste on järkevä?
+## Miksi ennuste on perusteltu?
 
-Tällä hetkellä yksityiskohtaista vaikutusmekanismin tietoa ei ole saatavilla tässä todisteen paketissa. Tunnettujen tietojen perusteella eptinezumabi on anti-CGRP (kalsitoniin-genille sukua oleva peptidi) -monoklonaalinen vasta-aine, joka annetaan IV-infuusiona ja joka on hyväksytty episodisen ja krooniisen migreeni ehkäisyyn; sen tehokkuus migreeniesiintymisyyden vähentämisessä on vakiintunut vaiheessa 3 olevissa tutkimuksissa (PROMISE-1, PROMISE-2).
+Tässä raportissa käytetyissä tiedoissa ei ole saatavilla yksityiskohtaista vaikutusmekanismia. Lääkeaineluokan perusteella eptinezumabi on CGRP:tä (calcitonin gene-related peptide) estävä monoklonaalinen vasta-aine. CGRP-reitin tiedetään osallistuvan migreenin patofysiologiaan yleisesti (PMID 30725283, 32699706).
 
-Ehdotettu uusi indikaatio, "migreeni aivovartaloauran kanssa" (entinen basilaarinen migreeni), on tietty ICHD-3-alaryhmiä, jonka aura-oireet (diplopia, dysartria, vertigo jne.) liittyvät enemmän kortikaalisen leviävän depolarisaation ja takajohtomekaniisiin kuin itse CGRP-signalointiin. CGRP:n rooli migreeni päänsärkyvaiheen aikana on hyvin vakiintunut, mutta sen syy-rooli auravaiheessa jää keskustelujen kohteeksi.
+Aivorunkoauraan liittyvä migreeni on migreenin alatyyppi, jossa CGRP-signalointi on todennäköisesti mukana. Kyse on siis pikemminkin alatyypin laajennuksesta kuin aidosta uudesta käyttöaiheesta, koska lääke on jo hyväksytty yläkategorialle (migreeni).
 
-Merkittävästi, yksi RCT tässä todisteen joukossa (PMID 40229719) osoitti, että PACAP38-indusoituneet migreenihyökkäykset tapahtuvat riippumatta CGRP-signaaliosta, mikä viittaa siihen, että CGRP-riippumaton reitti voi ohjata tiettyjä aura- ja laukaisomekanismeja – tämä heikentää suoraa mekanistista ekstrapolointia aivovartaloaura-alaryhmiään. Loput kirjallisuus kattaa suurelta osin laajempaa "migreeniä auran kanssa" -populaatiota, joten tämä ennuste edustaa tällä hetkellä epäsuoraa, mekanismiin perustuvaa ekstrapolointia sen sijaan että se olisi validoitu terapeuttinen vaikutus tälle tietylle alaryhmialle.
+Epäsuoraa tukea antavat eptinezumabin PROMISE-1- ja PROMISE-2-tutkimusten jälkianalyysi potilailla, joilla on itse raportoitu aura (PMID 35302389), anti-CGRP-vasta-aineita koskevat tapausselostukset auran hoidossa (PMID 35268319) sekä katsaus CGRP-salpaajien vasteesta geneettisissä migreenihäiriöissä (PMID 40341526). Tutkimusta, jossa eptinezumabia olisi testattu nimenomaan aivorunkoauraan, ei löytynyt. Erittäin korkea TxGNN-pistemäärä on laskennallinen ennuste, ei kliininen näyttö.
 
-## Kliinisen tutkimuksen todisteet
+## Kliiniset tutkimukset
 
-Tällä hetkellä asiaan liittyviä rekisteröityjä kliinisiä tutkimuksia ei ole
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
-## Kirjallisuuden todisteet
+## Kirjallisuusnäyttö
 
-| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät tulokset |
-|------|------|--------|-------|--------|
-| [40229719](https://pubmed.ncbi.nlm.nih.gov/40229719/) | 2025 | RCT (mekanistinen) | J Headache Pain | PACAP38-indusoituneet migreenihyökkäykset ovat riippumattomia CGRP-signaaliosta, mikä viittaa siihen, että CGRP-riippumaton reitti voi olla olemassa CGRP-välitteisten mekanismien rinnalla |
-| [35302389](https://pubmed.ncbi.nlm.nih.gov/35302389/) | 2022 | Vaiheen 3 RCT:n post hoc -analyysi | Cephalalgia | PROMISE-1/PROMISE-2-tutkimusten post hoc -analyysi arvioimassa eptinezumabin tehokkuutta ja turvallisuutta potilailla, joilla on migreeni ja itseraportoidut aura |
-| [30725283](https://pubmed.ncbi.nlm.nih.gov/30725283/) | 2019 | Katsaus | Handbook Exp Pharmacol | Yleiskatsaus CGRP:n keskeisestä roolista migreeni patofysiologiassa, mukaan lukien trigeminal-järjestelmän osallisuus |
-| [40341526](https://pubmed.ncbi.nlm.nih.gov/40341526/) | 2025 | Katsaus | Headache | Geneettisten migreeni häiriöiden tapaustutkimus, jotka reagoivat CGRP-antagonisti-hoitoon |
-| [33550872](https://pubmed.ncbi.nlm.nih.gov/33550872/) | 2021 | Katsaus | Pain Management | Yleiskatsaus uusiin äkillisiin ja ennaltaehkäiseviin migreeni hoitoihin, mukaan lukien eptinezumabi |
-| [32699706](https://pubmed.ncbi.nlm.nih.gov/32699706/) | 2020 | Katsaus | Cureus | Katsaus CGRP-antagonisteista episodisen ja krooniisen migreeni hallinnassa |
-| [40191903](https://pubmed.ncbi.nlm.nih.gov/40191903/) | 2025 | Tapausraportti | Rev Neurol | Tapaus eptinezumabin onnistuneesta käytöstä "väsytys-ilmiön" hallinnassa kroonisissa migreeneissa, jotka eivät vastanneet kahteen subkutaaniseen CGRP-vasta-aineeseen |
-| [35268319](https://pubmed.ncbi.nlm.nih.gov/35268319/) | 2022 | Tapaustulokset + kirjallisuuskatsaus | J Clin Med | Tapaustulokset ja kirjallisuuskatsaus anti-CGRP-monoklonaalisten vasta-aineiden (mukaan lukien eptinezumabi) tehokkuudesta erityisesti migreeni aurassa |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [40229719](https://pubmed.ncbi.nlm.nih.gov/40229719/) | 2025 | RCT | J Headache Pain | PACAP38 voi laukaista migreenikohtauksia CGRP-signaloinnista riippumatta |
+| [35302389](https://pubmed.ncbi.nlm.nih.gov/35302389/) | 2022 | RCT:iden jälkianalyysi | Cephalalgia | Eptinezumabin teho ja turvallisuus migreenin ehkäisyssä potilailla, joilla on itse raportoitu aura (PROMISE-1 ja -2) |
+| [35268319](https://pubmed.ncbi.nlm.nih.gov/35268319/) | 2022 | Tapausselostus ja katsaus | J Clin Med | Anti-CGRP-vasta-aineet voivat mahdollisesti tehota migreeniauraan, mutta näyttö on niukkaa |
+| [40341526](https://pubmed.ncbi.nlm.nih.gov/40341526/) | 2025 | Katsaus (tapaussarja) | Headache | Kaksi geneettistä migreenihäiriötä reagoi CGRP-antagonistihoitoon |
+| [30725283](https://pubmed.ncbi.nlm.nih.gov/30725283/) | 2019 | Katsaus | Handb Exp Pharmacol | CGRP:n rooli migreenin patofysiologiassa |
+| [32699706](https://pubmed.ncbi.nlm.nih.gov/32699706/) | 2020 | Katsaus | Cureus | CGRP-antagonistit episodisen ja kroonisen migreenin hoidossa |
+| [33550872](https://pubmed.ncbi.nlm.nih.gov/33550872/) | 2021 | Katsaus | Pain Manag | Uudet akuutti- ja ehkäisyhoidot migreenissä, mukaan lukien eptinezumabi |
+| [42090640](https://pubmed.ncbi.nlm.nih.gov/42090640/) | 2026 | Kohorttitutkimus | Neurology | CGRP-estäjien käytön ja glaukoomariskin yhteys migreenipotilailla |
+| [42390441](https://pubmed.ncbi.nlm.nih.gov/42390441/) | 2026 | Kohorttitutkimus | Cephalalgia | CGRP-vasta-aineiden ja onabotulinumtoksiini A:n aivoverenkierron riskien vertailu migreenipotilailla |
+| [40191903](https://pubmed.ncbi.nlm.nih.gov/40191903/) | 2025 | Tapausselostus | Rev Neurol | Eptinezumab auttoi lopullisen tehon heikkenemiseen (wearing-off) kroonisessa migreenissä, joka ei vastannut kahteen ihonalaiseen CGRP-vasta-aineeseen |
 
-## Suomen markkinatiedot
+## Tiedot Suomen markkinoilta
 
-Eptinezumabi ei ole tällä hetkellä markkinoilla Suomessa; tässä todisteen paketissa ei ole saatavilla markkinointi-lupahakemustietoja.
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/005287 | Vyepti | – | Migreeni (tila: peruttu) |
 
-## Turvallisuusnäkökohdat
+## Turvallisuushuomiot
 
-Turvallisuustiedoista katso pakkausselosetta.
+Turvallisuustietoja ei ole saatavilla tämän raportin aineistossa. Katso turvallisuustiedot valmisteyhteenvedosta. Lääkkeiden yhteisvaikutuksia ei löytynyt aineistosta.
 
-## Johtopäätös ja seuraavat vaiheet
+Julkaisuissa on nostettu esiin seuraavat seurantaa vaativat aiheet, jotka eivät ole varsinaisia varoituksia: CGRP-estäjien mahdollinen yhteys glaukoomariskiin (PMID 42090640) sekä aivoverenkierron tapahtumien vertailu onabotulinumtoksiini A:han (PMID 42390441).
 
-**Päätös: Pidätys**
+## Johtopäätös ja jatkotoimet
+
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Todisteen taso on L4 (vain mekanismi/prekliinisen tason ekstrapolointi) – ei ole olemassa kliinisiä tutkimuksia erityisesti migreeniin aivovartaloauran kanssa, ja yksi RCT todisteen joukossa (PMID 40229719) viittaa siihen, että CGRP-riippumaton reitti voi olla taustalla tietyissä migreenihyökkäys-/auravaiheissa, mikä heikentää mekanistista tapausta. Lisäksi Suomen/TFDA turvallisuusmerkintöjen tieto on merkitty **estäväksi** tietoaukoksi (DG001), mikä estää jopa alkuvaiheen S1 turvallisuusarvioinnin.
+- Ennuste perustuu pääosin laskennalliseen malliin ja epäsuoraan näyttöön. Aivorunkoauraa koskevaa suoraa kliinistä näyttöä ei ole. Lisäksi Suomen myyntilupa on peruttu, eikä valmisteen turvallisuustietoja ole saatu käyttöön.
 
-**Jatkaakseen tarvitaan seuraavaa:**
-- Pakkausselostteen turvallisuustiedot (varoitukset, vasta-aiheet) – tällä hetkellä estävä aukko (DG001)
-- Vahvistettu vaikutusmekanismin tieto DrugBankista (tällä hetkellä korkean vakavuuden aukko, DG002)
-- Kliininen tai havainnollinen todiste erityisesti migreeni-aivovartaloauran-kanssa -alaryhmiälle, ei laajemmalle migreeni-auran-kanssa -populaatiolle
-- Suomen markkinoille tulon statuksen/aikataulun selventäminen, koska lääkettä ei ole tällä hetkellä markkinoilla siellä
-
+**Eteneminen edellyttää seuraavaa:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean sivustolta (estävä tietoaukko)
+- Yksityiskohtaisen vaikutusmekanismin tiedon täydentäminen DrugBankista
+- Aivorunkoauraan liittyvän migreenin alaryhmäanalyysi tai kohdennettu kliininen tutkimus
+- Myyntiluvan peruuntumisen syyn ja nykyisen saatavuuden selvittäminen Suomessa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

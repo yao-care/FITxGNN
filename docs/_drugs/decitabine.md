@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Decitabine
-parent: Pelkkä mallin ennuste (L5)
-nav_order: 113
-evidence_level: L5
+parent: Kohtalainen näyttö (L3-L4)
+nav_order: 131
+evidence_level: L4
 indication_count: 1
 ---
 
 # Decitabine
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **1** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,77 +29,80 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Decitabine: Myelodysplastisesta oireyhtymästä lapsuuden refraktooriin sytopeniaan
+# Decitabiini: Myeloisesta leukemiasta lasten refraktaariseen sytopeniaan
 
-> **Huomautus alkuperäisestä indikaatiosta**: Näyttöpaketti ei sisällä decitabinen `original_indications`, `original_moa` tai Suomen lisensointitietoja (lääkettä ei ole markkinoilla Suomessa, 0 valtuutusta). Alla esitetty alkuperäisen indikaation konteksti (MDS/AML, DNA-hypometylointiaine) kuvastaa decitabinen kansainvälistä hyväksyttyä identiteettiä, ei näyttöpaketin tarkasteltua kenttää – tämä on flagattu tässä avoimuuden vuoksi eikä esitetä vahvistettuina tietona.
+## Yhteenveto
 
-## Yhden lauseen yhteenveto
+Decitabiini on hypometyloiva nukleosidianalogi, jota on alun perin käytetty myeloisen leukemian hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **lapsuusiän refraktaariseen sytopeniaan** (refractory cytopenia of childhood, RCC).
+Tätä suuntaa tukee tällä hetkellä **0 kliinistä tutkimusta** ja **2 julkaisua** (yksi kohorttitutkimus ja yksi tapausselostus).
 
-Decitabine on DNA-hypometylointiaine, jota käytetään kansainvälisesti aikuisten myelodysplastisen oireyhtymän (MDS) ja akuutin myelooisen leukemian hoidossa, mutta sitä ei markkinoida Suomessa eikä TFDA/paikallisia pakkausseloste-turvallisuustietoja ole saatavilla. TxGNN-malli ennustaa, että se saattaa olla tehokas **lapsuuden refraktoorissa sytopeniassa** (pediatrinen MDS-alatyyppi), TxGNN-pistemäärällä **99.03%**, tuettuna tällä hetkellä **0 kliinisellä tutkimuksella** ja **1 julkaisulla**.
-
-## Nopea yleiskatsaus
-
-| Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Ei vahvistettu näyttöpaketissa (lisensointitietoa ei löydy); decitabine tunnetaan kansainvälisesti MDS/AML-hypometylointiaineen |
-| Ennustettu uusi indikaatio | Lapsuuden refaktorinen sytopenia |
-| TxGNN-ennustepisteet | 99.03% |
-| Näyttötaso | L3 (yksi takautuva observationaalinen tutkimus, ei RCT:itä) |
-| Suomen markkinatilanne | Ei markkinoilla |
-| Valtuutusten määrä | 0 |
-| Suositeltu päätös | Pidätetään |
-
-## Miksi tämä ennuste on järkevä?
-
-Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla näyttöpaketissa (flagattu tietovajeeksi DG002). Yleisesti tunnetun farmakologian perusteella decitabine on DNA-metyylitransferaasi-inhibiittori (hypometylointiaine), jonka teho aikuisten myelodysplastisen oireyhtymän ja AML:n hoidossa on kansainvälisesti hyvin vahvistettu, vaikka tätä ei ole itsenäisesti vahvistettu tämän lääkkeen näyttöpaketin lähteistä.
-
-Lapsuuden refaktorinen sytopenia on luokiteltu myelodysplastisen oireyhtymän pediatriseksi alatyypiksi, jolla on sama taustalla oleva klonaalinen luuydinpatologia kuin aikuisten MDS:ssä. Mekanistisesti hypometylointiaine, joka on tehokas aikuisten MDS:ssä, odotettaisiin olevan biologisesti perusteltu pediatrisessa MDS-variantissa, mikä on johdonmukainen TxGNN-ennusteen suunnan kanssa.
-
-Tätä mekanistista perustelua tukee edelleen yksi saatavilla oleva kirjallisuusrekisteri: yksittäisen keskuksen takautuva tutkimus decitabinin yhdistelmästä minimaalisen myelosuppressiivisen regimen kanssa (DAC + MMR), käytetty siltana allogeniseen kantasolun siirtämiseen pediatrisissa MDS-potilaissa – kliininen populaatio, joka osittain vastaa lapsuuden refaktorista sytopeniaa.
-
-## Kliinisen tutkimuksen näyttö
-
-Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
-
-## Kirjallisuuden näyttö
-
-| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät löydökset |
-|------|--------|--------|--------|---------|
-| [35624441](https://pubmed.ncbi.nlm.nih.gov/35624441/) | 2022 | Takautuva kohorttitutkimus | BMC Pediatrics | Yksittäisen keskuksen 10 vuoden kokemus decitabinin käytöstä minimaalisen myelosuppressiivisen regimen kanssa (DAC + MMR) siltana allogeniseen kantasolun siirtämiseen pediatrisissa MDS-potilaissa; raportointi tämän lähestymistavan tuloksista ennen siirtämistä. |
-
-## Suomen markkinatiedot
-
-Decitabine ei ole tällä hetkellä markkinoilla Suomessa; valtuutusten rekisteritietoja ei ole saatavilla.
-
-## Sytotoksisyys
-
-Decitabine on antineoplastinen aine (DNA-hypometylointiaine / antimetaboliittiluokka), joten tämä osio koskee.
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|---------|---------|
-| Sytotoksisyysluokitus | Perinteinen sytostaattinen aine (hypometylointiaine / antimetaboliittiluokka) |
-| Luuytimen suppressio -riski | Katso pakkausseloste varoituksista ja varotoimista |
-| Pahoinvoinnintuottavuusluokitus | Katso pakkausseloste varoituksista ja varotoimista |
-| Seurantakohdat | Katso pakkausseloste varoituksista ja varotoimista |
-| Käsittelyn suojaus | Katso pakkausseloste varoituksista ja varotoimista |
+|------|------|
+| Alkuperäinen käyttöaihe | Myeloinen leukemia |
+| Ennustettu uusi käyttöaihe | Lapsuusiän refraktaarinen sytopenia (RCC) |
+| TxGNN-ennustepistemäärä | 99,03 % |
+| Näytön taso | L4 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 2 (molemmat peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-## Turvallisuusnäkökulmat
+## Miksi ennuste on perusteltu?
 
-Katso pakkausseloste turvallisuustiedoista. (TFDA/paikallisen pakkausselosteen tietoja ei ole tällä hetkellä saatavilla – flagattu **esteenä olevaksi** tietovajeeksi, DG001, joka estää S1-turvallisuuden esiarviointiksi.)
+Detsitabiini estää DNA-metyylitransferaasia, ja sitä käytetään jo myeloisissa kasvaimissa, kuten myelodysplastisissa oireyhtymissä (MDS). Yksityiskohtaista vaikutusmekanismitietoa ei tällä hetkellä ole saatavilla tähän raporttiin koottujen tietojen perusteella, joten alla oleva päättely perustuu yleiseen farmakologiaan eikä toimitettuun dataan.
+
+RCC on lasten MDS:n pääasiallinen ehdotettu alatyyppi. Myeloinen kloonaalinen ja epigeneettisesti poikkeava biologia on näille sairauksille yhteistä, minkä vuoksi yhteys on uskottava. TxGNN-pistemäärä on hyvin korkea, mutta se on pelkkä laskennallinen ennuste eikä kliinistä näyttöä.
+
+## Kliininen tutkimusnäyttö
+
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
+
+## Kirjallisuusnäyttö
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [35624441](https://pubmed.ncbi.nlm.nih.gov/35624441/) | 2022 | Kohorttitutkimus (todennäköisesti retrospektiivinen) | BMC Pediatrics | Yhden keskuksen 10 vuoden kokemus: decitabiinin ja minimaalisesti myelosuppressiivisen hoito-ohjelman yhdistelmä siltahoitona ennen allogeenista kantasolusiirtoa lasten MDS:ssä |
+| [42125547](https://pubmed.ncbi.nlm.nih.gov/42125547/) | 2026 | Tapausselostus | Experimental and Therapeutic Medicine | Decitabiini-monoterapia 8-vuotiaalla RCC-potilaalla, joka ei sopinut kantasolusiirtoon eikä immunosuppressiiviseen hoitoon |
+
+## Myyntiluvat Suomessa
+
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/002221 | Dacogen | – | Myeloinen leukemia (peruutettu) |
+| EMEA/H/C/005823 | Inaqovi | – | Myeloinen leukemia (peruutettu) |
+
+## Sytotoksisuus
+
+| Kohta | Sisältö |
+|------|------|
+| Sytotoksisuusluokitus | Perinteinen sytotoksinen lääke (hypometyloiva aine, nukleosidianalogi) |
+| Luuytimen suppression riski | Korkea (tietograafin vasta-aiheissa mainitaan neutropenia, trombosytopenia ja agranulosytoosi) |
+| Antiemeettinen luokitus | Katso valmisteyhteenvedon varoitukset ja huomautukset |
+| Seurattavat parametrit | Täydellinen verenkuva erittelyineen, maksa- ja munuaisarvot |
+| Käsittelysuojaus | Noudatettava sytotoksisten lääkkeiden käsittelyohjeita |
+
+## Turvallisuusnäkökohdat
+
+- **Tietograafin perusteella tunnistetut sairaudet, joihin lääkkeen käyttöön voi liittyä vasta-aihe** (PrimeKG-tietograafi, ei valmisteyhteenvedon teksti): munuaissairaus, märkäinen virtsanjohtimen tulehdus (pyoureter), maksasairaus, sappirakkosairaus, trombosytopenia, diabetes, diabeettinen ketoasidoosi, neutropenia ja agranulosytoosi.
+- **Lääkeyhteisvaikutukset:** Yhteisvaikutuksia on tunnistettu yhteensä 100. Merkittäviä (Major) ovat muun muassa deferiproni, samarium (153Sm) leksidronaami, adalimumabi ja barisitinibi. Kohtalaisia (Moderate) ovat muun muassa merkaptopuriini, tsidovudiini, gemsitabiini, atsatiopriini, gansikloviiri, alemtutsumabi ja aldesleukiini.
+
+Lisätietoja turvallisuudesta on valmisteyhteenvedossa.
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Pidätetään**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Korkea TxGNN-pistemäärä on tuettu vain yhdellä observationaalisella (ei-RCT) julkaisulla ja nollalla rekisteröidyillä kliinisillä tutkimuksilla tälle erityiselle indikaatiolle, ja esteenä oleva turvallisuuden tietovahe (pakkausseloste varoituksia/vasta-aiheita ei saatavilla) estää tällä hetkellä jopa S1-turvallisuusarvioinnin.
+- Ennuste perustuu pääosin laskennalliseen malliin. Tukena on vain yksi retrospektiivinen kohorttitutkimus ja yksi tapausselostus, eikä kliinisiä tutkimuksia ole rekisteröity. Lisäksi molemmat Suomen myyntiluvat on peruutettu.
 
-**Jatkaakseen tarvitaan seuraavaa:**
-- TFDA/paikallisen pakkausselosteen varoitukset ja vasta-aiheet (ratkaisee DG001, esteenä oleva)
-- Vahvistettu vaikutusmekanismin tieto DrugBankista (ratkaisee DG002)
-- Decitabinen alkuperäisten hyväksyttyjen indikaatioiden ja lisensointitilan vahvistaminen säätelijän tietokannasta
-- Kaikki muut kliiniset tutkimukset tai kontrolloidut tutkimukset, jotka arvioivat decitabineä erityisesti lapsuuden refaktorisessa sytopeniassa / pediatrisessa MDS:ssä
-
+**Eteneminen edellyttää seuraavaa:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean sivuilta (estää tällä hetkellä turvallisuusarvioinnin)
+- Vaikutusmekanismitietojen täydentäminen DrugBankista
+- Kohorttitutkimuksen (PMID 35624441) täystekstin arviointi sekä hypometyloivien aineiden lisänäytön kartoitus lasten MDS/RCC:ssä
+- Myyntilupatilanteen selvittäminen, koska voimassa olevaa myyntilupaa ei ole
+- Lasten annostelua ja turvallisuutta koskeva arvio, erityisesti luuydinsuppression osalta
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

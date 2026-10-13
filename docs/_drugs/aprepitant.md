@@ -2,7 +2,7 @@
 layout: default
 title: Aprepitant
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 38
+nav_order: 41
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,71 +29,108 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Aprepitant: Arviointi keskeytetty — kriittiset tietoaukot tunnistettu
+# Aprepitantti: Pahoinvoinnin ja oksentelun hoidosta nefrogeeniseen antidiureesin epäasianmukaisen erityksen oireyhtymään (NSIAD)
 
-## Yhteenveto
+## Yhden lauseen yhteenveto
 
-Aprepitant (DrugBank: DB00673) on NK1 (neurokiini-1) -reseptoriagonisti, joka on hyväksytty kansainvälisesti kemoterapian aiheuttaman pahoinvoinnin ja oksentelun (CINV) ehkäisyyn.
-Tämä näyttöpaketti (v4, 2026-04-20) on **puutteellinen**: TxGNN-ennusteputkilinja on palauttanut **ei yhtään ennustettua indikaatiota**, ja kaksi kriittistä tietoaukoa jää ratkaisematta.
-Mitään merkityksellistä uudelleenkäyttöarviointia ei voida suorittaa, kunnes nämä aukot on korjattu.
-
----
-
-## Pikayleiskatsaus
-
-| Kohde | Sisältö |
-|-------|---------|
-| Alkuperäinen indikaatio | NK1-reseptoriagonisti / antiemetikum (CINV-profylaksia) |
-| Ennustettu uusi indikaatio | Odottaa — TxGNN-ennusteet eivät ole vielä käytettävissä |
-| TxGNN-ennustepistemäärä | N/A |
-| Näyttötaso | N/A |
-| Taiwanin markkinoiden tila | ✗ Ei markkinoitu |
-| Hyväksyntöjen määrä | 0 |
-| Suositeltu päätös | **Keskeytä** |
+Aprepitantti on NK1-reseptorin salpaaja, jota on alun perin käytetty oksentelun, leikkauksen jälkeisen pahoinvoinnin ja oksentelun sekä syöpään liittyvän pahoinvoinnin hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **nefrogeeniseen antidiureesin epäasianmukaisen erityksen oireyhtymään (NSIAD)**, mutta ennusteen tueksi ei ole **yhtään kliinistä tutkimusta eikä yhtään asiaan liittyvää julkaisua**. Ennuste perustuu pelkästään tietämysgraafiin.
 
 ---
 
-## Miksi arviointia ei voida vielä suorittaa
+## Pikakatsaus
 
-Tällä hetkellä tämän näyttöpaketin yksityiskohtaisia vaikutusmekanismitietoja ei ole saatavilla (tietoaukko DG002, vakavuus: Korkea). Julkisesti saatavilla olevien tietojen perusteella aprepitantti on NK1-reseptoriagonisti, jonka FDA ja EMA ovat hyväksyneet CINV:n ja leikkauksen jälkeisen pahoinvoinnin ja oksentelun (PONV) ehkäisyyn. Sitä käytetään yleisesti yhdessä kortikosteroidien ja 5-HT₃-antagonistien kanssa antiemetisen profylaksin osana.
-
-Kriittisempää on, että **TxGNN ei ole tuottanut yhtään ennustettua indikaatiota** aprepitantille tässä näyttöpaketissa (`predicted_indications`-taulukko on tyhjä). Ilman TxGNN-ennustepistemäärää ja kohdeindikaatiota uudelleenkäyttöhypoteesia ei voida arvioida.
-
-Kaksi tietoaukoa on ratkaistava, ennen kuin tämä kandidaatti voi edetä:
-
-| Aukon tunnus | Kohde | Vakavuus | Vaikutus | Korjaus |
-|--------------|-------|----------|---------|--------|
-| DG001 | TFDA-pakkausseloste varoitukset / vasta-aiheet | **Estävä** | Ei voida suorittaa S1-turvallisuustarkastusta | Lataa TFDA-seloste PDF ja jäsennä |
-| DG002 | Vaikutusmekanismi (MOA) | **Korkea** | Ei voida suorittaa mekanismin relevanssianalyysia | Kysy DrugBank API:sta DB00673 |
+| Kohta | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | Oksentelu, leikkauksen jälkeinen pahoinvointi ja oksentelu, syöpä |
+| Ennustettu uusi käyttöaihe | Nefrogeeninen antidiureesin epäasianmukaisen erityksen oireyhtymä (NSIAD) |
+| TxGNN-ennusteen pistemäärä | 99,97 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Taiwanin markkinatiedot
+## Miksi ennuste on perusteltu?
 
-Aprepitantilla on **nolla** hyväksyttyä lisenssiä Taiwanissa. Sitä ei ole tällä hetkellä markkinoitu kotimaassa.
+Yksityiskohtaista vaikutusmekanismitietoa ei ole tämän raportin aineistossa saatavilla. Tunnetun tiedon mukaan aprepitantti on NK1-reseptorin (tachykiniinireseptori) salpaaja, ja sen teho oksentelun hoidossa on osoitettu. Aine- P/NK1-signalointi on yhdistetty myös vasopressiiniin liittyviin ja nestetasapainoa säätelyihin mekanismeihin, mikä antaa heikon biologisen perusteen ennusteelle.
+
+NSIAD johtuu kuitenkin V2-reseptorin (AVPR2) toimintaa lisäävistä mutaatioista. NK1-salpauksen ja tämän taudin välillä ei tunneta suoraa mekanistista eikä kliinistä yhteyttä. Alkuperäisen käyttöaiheen (pahoinvointi ja oksentelu) ja ennustetun käyttöaiheen samankaltaisuutta ei ole arvioitu. Erittäin korkea pistemäärä (0,9997) kuvaa vain graafiperusteista läheisyyttä, ei näyttöä tehosta.
+
+---
+
+## Muut ennustetut käyttöaiheet
+
+Aineistossa oli yhteensä 10 ennustetta. Kaikilla on näytön taso L5 ja suositus Hold. Muiden ennusteiden perusteet on tiivistetty alla.
+
+| Sija | Sairaus | Pistemäärä | Huomio |
+|------|------|------|------|
+| 2 | Hypertrikoosi | 99,91 % | Ei selvää mekanistista yhteyttä |
+| 3 | Keuhkoverenpainetauti | 99,90 % | Heikko biologinen peruste (substanssi P:n vaikutus keuhkoverisuonten jänteyteen); ei kliinisiä tutkimuksia |
+| 4 | Lepra | 99,90 % | Spekulatiivinen neuroimmuunilinkki |
+| 5 | Ambras-tyypin synnynnäinen yleistynyt hypertrikoosi | 99,87 % | Harvinainen geneettinen sairaus, ei uskottavaa mekanismia |
+| 6 | Hammas- ja/tai parodontaalikomponentin sisältävä epämuodostumaoireyhtymä | 99,86 % | Ei mekanistista perustetta |
+| 7 | Kyfoskolioottinen sydänsairaus | 99,86 % | Ei NK1-yhteyttä |
+| 8 | Dandy–Walker-epämuodostumaoireyhtymä | 99,86 % | Rakenteellista kehityshäiriötä ei voi odottaa korjautuvan |
+| 9 | Subaraknoidaalivuoto | 99,85 % | Prekliininen peruste (veri-aivoesteen häiriö, neurogeeninen tulehdus); aprepitantin keskushermostoon pääsy teoreettinen etu |
+| 10 | Eristetty geneettinen hiusvarsihäiriö | 99,85 % | Ei NK1-mekanismia |
+
+---
+
+## Kliiniset tutkimukset
+
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
+
+---
+
+## Kirjallisuusnäyttö
+
+Ensisijaiselle ennusteelle (NSIAD) ei löytynyt kirjallisuutta.
+
+Kolmanneksi sijoittuneen ennusteen (keuhkoverenpainetauti) yhteydessä haettu ainoa julkaisu on sattumanvarainen osuma:
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [28261651](https://pubmed.ncbi.nlm.nih.gov/28261651/) | 2016 | Vaiheen I tutkimus | Oncology and therapy | Patsopanibin ja sisplatiinin annoseskalaatiotutkimus pitkälle edenneissä kiinteissä kasvaimissa. Ei koske aprepitanttia eikä keuhkoverenpainetautia. |
+
+---
+
+## Markkinatiedot Suomessa
+
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000527 (peruutettu) | Emend | – | Oksentelu; leikkauksen jälkeinen pahoinvointi ja oksentelu; syöpä |
 
 ---
 
 ## Turvallisuusnäkökohdat
 
-Turvallisuustiedot löytyvät pakkausselosteesta.
+- **Vasta-aiheet (tietämysgraafi):** Tietämysgraafin (PrimeKG) mukaan aprepitantilla on vasta-aihereitti **maksan vajaatoimintaan**. Tämä ei perustu valmisteyhteenvedon tekstiin.
+- **Lääkeinteraktiot:** Interaktiohaku tuotti 100 mahdollista interaktiota. Esimerkkejä aineistosta:
+  - **Merkittävä (Major):** fentanyyli, alfentaniili, akalabrutinibi
+  - **Kohtalainen (Moderate):** paklitakseli, abemasiklibi, nifedipiini, ibuprofeeni, hydrokortisoni, levonorgestreeli, lidokaiini, dihydrokodeiini, rabepratsoli, fluvoksamiini, fosamprenaviiri, fosfenytoiini, fostamatinibi, gefitinibi, albendatsoli, abametapiiri (paikallinen)
+  - **Vähäinen (Minor):** dolutegraviiri
+
+  Monet interaktioista liittyvät todennäköisesti CYP3A4-välitteiseen metaboliaan, mutta tätä ei ole aineistossa vahvistettu.
+
+Muuten turvallisuustietoja varten tulee tutustua valmisteyhteenvetoon.
 
 ---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Keskeytä**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Näyttöpaketti ei sisällä TxGNN-ennusteita ja kaksi ratkaisematonta tietoaukkoa, joiden vakavuus on Estävä/Korkea; uudelleenkäyttöarviointiraporttia ei voida luoda mielekkäällä tavalla tässä vaiheessa.
+- Ennusteelle ei ole kliinistä eikä kirjallisuusnäyttöä (L5), ja NSIAD:n tunnettu syy (V2-reseptorin aktivoiva mutaatio) ei viittaa NK1-salpauksen hyötyyn. Myös Suomen myyntilupa on peruutettu.
 
-**Jotta voidaan edetä, seuraava on tarpeen:**
-
-1. **Suorita TxGNN-ennusteputkilinja** — luo rankatut indikaatioennusteet aprepitantille ja täytä `predicted_indications`
-2. **Ratkaise DG001** — lataa ja jäsennä TFDA:n (tai EMA:n/FDA:n) pakkausseloste PDF:ää avainvaroitusten ja vasta-aiheita varten
-3. **Ratkaise DG002** — kysy DrugBank API:sta aprepitantin vaikutusmekanismitiedot
-4. **Luo uudelleen näyttöpaketti** — kun kaikki aukot on ratkaistu, tuota v5-näyttöpaketti täydellisenä tietona ja lähetä uudelleen täyden raportin luomista varten
-
+**Jatkotoimiin ryhtyminen edellyttää:**
+- Vaikutusmekanismitietojen täydentämistä (esim. DrugBankista)
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivustolta
+- Prekliinistä näyttöä NK1-salpauksen vaikutuksesta AVPR2-välitteiseen signalointiin
+- Kirjallisuushaun uusimista kohdennetusti aprepitantille ja NSIAD:lle
+- Mahdollisesti lupaavampien ehdokkaiden, kuten subaraknoidaalivuodon (prekliininen peruste), arviointia ensisijaisena kohteena
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

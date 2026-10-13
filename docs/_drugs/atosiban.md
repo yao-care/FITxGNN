@@ -2,7 +2,7 @@
 layout: default
 title: Atosiban
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 47
+nav_order: 52
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,72 +29,86 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Atosiban: Uudelleenkäytön arviointi — riittämättömät tiedot jatkamiselle
+# Atosibaani: Ennenaikaisesta synnytyksestä primaariin perinnölliseen glaukoomaan
 
 ## Yhden lauseen yhteenveto
 
-Atosiban (DrugBank ID: DB09059) on oksitosiini/vasopressiini-reseptori-antagonisti, joka tunnetaan laajasti tokolitiikkana ennenaikaisen synnytyksen hoitossa (hyväksytty EU:ssa tuotenimellä Tractocile).
-Nykyinen näyttöpaketti sisältää **ei yhtään TxGNN-ennustettua uutta indikaatiota**, ja kriittiset tietoaukot toimintamekanismissa ja turvallisuustiedoissa estävät perusteellisen uudelleenkäytön arviointin.
-**Suositeltu päätös on odottaa** kunnes tiedonkeruu on valmis.
+Atosibaani on oksitosiini- ja vasopressiinireseptorien salpaaja, jota on käytetty ennenaikaisen synnytyksen viivästyttämiseen. TxGNN-malli ennustaa sen voivan tehota **primaariseen perinnölliseen glaukoomaan**, mutta ennustetta tukevat vain laskennallinen pistemäärä: **0 kliinistä tutkimusta** ja **0 julkaisua** tälle indikaatiolle.
 
 ---
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
-| Kohde | Sisältö |
-|-------|---------|
-| Alkuperäinen indikaatio | Tunnettu tokolitiikka ennenaikaisen synnytyksen hoitoon (ei rekisteröity Taiwanissa) |
-| Ennustettu uusi indikaatio | Ei ennusteita saatavilla |
-| TxGNN-ennusteen pistemäärä | N/A |
-| Näytön taso | L5 — mallin ennustetta ei luotu; ei tukevia tutkimuksia |
-| Taiwanin markkinoiden tila | ✗ Ei markkinoilla (0 lupaa) |
-| Lupien lukumäärä | 0 |
-| Suositeltu päätös | **Odottaa** |
-
----
-
-## Miksi tämä ennuste on järkevä?
-
-Yksityiskohtaisia toimintamekanismia koskevia tietoja ei ole saatavilla tässä näyttöpaketissa. Vakiintuneen farmakologisen tiedon perusteella, Atosiban on oksitosiini- ja vasopressiini V1a-reseptorien kilpailullinen antagonisti. Estämällä oksitosiinin aiheuttamia kohdukon supistuksia, sitä käytetään kliinisesti uhkaavan ennenaikaisen synnytyksen viivyttämiseen raskauden viikolla 24–33. Se on hyväksytty Euroopan unionissa, mutta ei ole rekisteröity Taiwanissa.
-
-TxGNN-ennusteita uusille indikaatioille ei luotu tälle ehdokkaalle. Tämä voi johtua puuttuvista molekyylitiedoista, mallille syötetystä riittämättömästä datasta, tai lääkkeen kapeasta reseptoriprofiilistä, joka rajoittaa soveltuvuutta eri sairauksiin. Ilman ennustettuja indikaatioita, mekaanista siltaa mihinkään uuteen sairauteen ei voida arvioida.
-
-Täydellinen uudelleenkäytön perustelu tulee mahdolliseksi, kun TxGNN-putki ajetaan uudelleen täydellisillä lääkkeen ominaisuuksilla, ja toimintamekanismin tiedot noudetaan DrugBankista.
+| Kohta | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | Ennenaikainen synnytys |
+| Ennustettu uusi käyttöaihe | Primaarinen perinnöllinen glaukooma |
+| TxGNN-ennusteen pistemäärä | 99,92 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 2 (molemmat peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Kliinisen tutkimuksen näyttö
+## Miksi ennuste on (tai ei ole) perusteltu?
 
-Tällä hetkellä ei ole liittyvää kliinistä tutkimusta rekisteröity uusille indikaatioille.
+Atosibaani on peptidi, joka salpaa oksitosiinireseptoria (OXTR) sekä vasopressiinin V1A-, V1B- ja V2-reseptoreita. Lääkkeen tarkka vaikutusmekanismi ei ole tämän raportin aineistossa kuvattuna, mutta reseptorikohteet tunnetaan. Alkuperäisessä käyttöaiheessa se rentouttaa kohdun supistuksia estämällä oksitosiinin vaikutusta.
 
----
+Yhteyttä ennustettuun glaukoomaan ei pysty perustelemaan kerätyn aineiston pohjalta. Perinnöllisen glaukooman taustalla ovat tyypillisesti kammiovesin ulosvirtauksen häiriöt ja geenimuutokset (esim. CYP1B1, MYOC), eikä oksitosiini- tai vasopressiinireseptorien salpauksen yhteyttä näihin ole osoitettu. Korkea pistemäärä on todennäköisesti seurausta tietämysgraafin rakenteesta, ei biologisesta tai kliinisestä näytöstä.
 
-## Kirjallisuuden näyttö
-
-Tällä hetkellä ei ole liittyvää kirjallisuutta saatavilla uusille indikaatioille.
+Samoin muut kymmenestä parhaasta ennusteesta (avokulmaglaukooma, hiustenlähtöön liittyvät sairaudet, verisuonisairaus, thoracic outlet -oireyhtymät ja viskeraalinen kalsifylaksia) perustuvat pelkkään mallin ennusteeseen. Poikkeuksena on verisuonisairaus, jonka osalta löytyi epäsuoraa prekliinistä kirjallisuutta (ks. alla).
 
 ---
 
-## Turvallisuusasiat
+## Kliiniset tutkimukset
 
-Turvallisustiedot löytyvät pakkausselosteesta.
+Tällä hetkellä ei ole rekisteröityjä kliinisiä tutkimuksia, jotka liittyisivät atosibaanin käyttöön primaarisessa perinnöllisessä glaukoomassa.
+
+---
+
+## Kirjallisuusnäyttö
+
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta primaarisen perinnöllisen glaukooman osalta.
+
+Sivuhuomio: toiseksi viimeisenä luetellun ennusteen "verisuonisairaus" osalta aineistossa oli 14 julkaisua. Ne koskevat pääosin oksitosiinin (atosibaanin kohdeligandin) sydänsuojaavaa vaikutusta rottamalleissa, eivät atosibaania itseään. Yksi kohorttitutkimus (PMID 30646165, 2018, JAMA Network Open) liitti tokolyyttialtistuksen ennenaikaisten vauvojen aivoverenvuotoon ja kuolemaan, mikä on turvallisuussignaali eikä hyötynäyttöä. Verisuonisairauden näyttötaso on L4 ja suositus "tutkimuskysymys".
+
+---
+
+## Markkinatiedot Suomessa
+
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/002329 | Atosiban SUN (peruutettu) | – | Ennenaikainen synnytys |
+| EMEA/H/C/000253 | Tractocile (peruutettu) | – | Ennenaikainen synnytys |
+
+Kumpikaan myyntilupa ei ole voimassa.
+
+---
+
+## Turvallisuusnäkökohdat
+
+Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ollut saatavilla tätä raporttia varten, joten niihin on tutustuttava valmisteyhteenvedosta.
+
+- **Reseptorivaikutukset**: Atosibaani sitoutuu ihmisen oksitosiinireseptoriin (OXTR) sekä vasopressiinireseptoreihin V1A (AVPR1A), V1B (AVPR1B) ja V2 (AVPR2). Nämä farmakologiset vuorovaikutukset ovat olennaisia arvioitaessa uusia käyttöaiheita.
+- **Muu turvallisuussignaali**: Tokolyyttialtistuksen on havaittu liittyvän aivoverenvuotoon ja kuolemaan ennenaikaisilla vauvoilla (PMID 30646165). Tämä koskee alkuperäistä käyttöä raskauden aikana.
 
 ---
 
 ## Johtopäätös ja seuraavat askeleet
 
-**Päätös: Odottaa**
+**Päätös: Hold (odota)**
 
-**Perustelu:**
-Atosibania koskeva näyttöpaketti ei sisällä yhtään TxGNN-ennustettua uutta indikaatiota ja siinä on estävän vakavuustason tietoaukot turvallisuustiedoissa ja toimintamekanismissa; vastuullinen uudelleenkäytön arviointi ei ole mahdollinen tässä vaiheessa.
+**Perustelut:**
+- Ennuste perustuu pelkästään laskennalliseen malliin (L5). Kliinisiä tutkimuksia tai kirjallisuutta ei ole, eikä uskottavaa mekanistista yhteyttä glaukoomaan ole osoitettu. Lisäksi lääkkeen kaikki Suomen myyntiluvat on peruutettu, ja peptidinä sen antoreitti (infuusio) ei sovellu silmäsairauden pitkäaikaishoitoon ilman uutta lääkemuotoa.
 
-**Jatkamiseksi tarvitaan seuraavaa:**
-
-- **TxGNN-mallin uudelleenajo**: Luo ennustetut indikaatiot käyttämällä täydellisiä lääkkeen ominaisuuksien tietoja (DrugBank molekyyliprofiilit, kohde-annotaatiot)
-- **Toimintamekanismi (MOA)**: Nouda DrugBank API:stä (DB09059) — merkitty korkean vakavuustason tietoaukoksi
-- **Turvallisuustiedot**: Lataa ja jäsennä TFDA tai EMA/EU pakkausseloste, jotta voit poimia keskeiset varoitukset, vasta-aiheet ja lääke-lääke-interaktiot — merkitty estävän vakavuustason tietoaukoksi
-- **Näytön keruu**: Kun ennustettu indikaatio on saatavilla, suorita kliinisen tutkimuksen ja kirjallisuushaut uuden kohdesairauden osalta (ClinicalTrials.gov, PubMed)
-
+**Eteenpäin siirtyminen edellyttää:**
+- Mekanistista selvitystä oksitosiini- ja vasopressiinireseptoreiden roolista silmänsisäisessä paineessa ja kammiovesidynamiikassa
+- Prekliinisiä kokeita (esim. soluviljelmät tai eläinmallit glaukoomassa)
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden kokoamista turvallisuusarviointia varten
+- Vaikutusmekanismitietojen täydentämistä (esim. DrugBankista)
+- Antoreitin ja lääkemuodon (esim. paikallinen silmälääke) soveltuvuuden arviointia
+- Myyntilupatilanteen selvittämistä, koska voimassa olevia lupia ei ole
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

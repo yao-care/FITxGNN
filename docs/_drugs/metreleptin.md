@@ -2,7 +2,7 @@
 layout: default
 title: Metreleptin
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 248
+nav_order: 289
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,76 +29,80 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# METRELEPTIN: dokumentoimattomasta alkuperäisestä indikaatiosta perinnölliseen yleiseen lentiginoosin
+# Metreleptiini: Familiaalisesta osittaisesta lipodystrofiasta familiaaliseen yleistyneeseen lentiginoosiin
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Metreleptin (DrugBank DB09046) on rekombinantti ihmisen leptiini-analogi; sen alkuperäinen hyväksytty indikaatio ja toimintamekanismi eivät ole dokumentoituja nykyisessä tietopaketissa. TxGNN ennustaa mahdollista yhteyttä **perinnölliseen yleiseen lentiginoosin**, mutta tätä ennustusta tuetaan **nolla kliinisen tutkimuksen** ja **nolla julkaisun** avulla, ja mallin omat perustelut merkitsevät sitä todennäköisesti väärä positiiviseksi artefaktiksi pikemminkin kuin aidoksi mekanistiseksi signaaliksi.
+Metreleptiini on yhdistelmä-leptiinin kaltainen yhdiste (rekombinantti leptiinianalogi), jota on alun perin käytetty familiaalisen osittaisen lipodystrofian hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **familiaaliseen yleistyneeseen lentiginoosiin**, mutta ennusteen tueksi ei ole löytynyt **yhtään kliinistä tutkimusta eikä julkaisua**. Ennuste perustuu pelkästään mallin laskennalliseen tulokseen.
 
 ---
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
-| Kohta | Sisältö |
+| Kohde | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Ei dokumentoitu nykyisessä tietojoukossa (hyväksyttyjä indikaatioita ei ole tiedossa; toimintamekanismi merkitty korkea-asteen tietoaukoksi) |
-| Ennakoitu uusi indikaatio | Perinnöllinen yleinen lentignoos |
-| TxGNN-ennuste-pistemäärä | 99,71 % |
-| Todistusvoimakkuusaste | L5 (vain mallin ennuste, ei tukevia tutkimuksia) |
-| Markkinatilanne Suomessa | ✗ Ei markkinoilla |
-| Lupien lukumäärä | 0 |
-| Suositeltu päätös | Pidä odotuksessa |
+| Alkuperäinen käyttöaihe | Familiaalinen osittainen lipodystrofia |
+| Ennustettu uusi käyttöaihe | Familiaalinen yleistynyt lentiginoosi |
+| TxGNN-ennustepisteet | 99,71 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Miksi tämä ennuste on kohtuullinen?
+## Miksi ennuste on (tai ei ole) perusteltu?
 
-Tällä hetkellä yksityiskohtaiset toimintamekanismin tiedot eivät ole saatavilla (estävät/korkea-asteen tietoaukot DG001 ja DG002 — TFDA-pakkausseloste ja toimintamekanismi ovat molemmat ratkaisemattomia). Yleisen farmakologian perusteella metreleptin on rekombinantti leptiini-analogi, joka vaikuttaa hypotalamuksen leptiini-reseptoreihin säädellen energiaaineenvaihduntaa ja rasvakudokseen liittyvää endokriinista toimintaa.
+Tämän lääkkeen yksityiskohtaista vaikutusmekanismia koskevia tietoja ei tällä hetkellä ole saatavilla. Tunnetun tiedon perusteella metreleptiini on rekombinantti leptiinianalogi, joka vaikuttaa leptiinireseptoreihin ja säätelee energiatasapainoa ja aineenvaihduntaa. Sen teho lipodystrofiassa perustuu leptiinin puutteen korjaamiseen.
 
-Korkeimmaksi arvostellun ennakoitu indikaation, perinnöllisen yleisen lentignoosin, biologiaa liittyy pigmentaatio-/melanosyyttihäiriö, joka on yleensä liitetty geeneihin, kuten PTPN11 ja RAS-MAPK-polkuun — biologiseen järjestelmään, jolla ei ole tunnettua yhteyttä leptiini/JAK2-STAT3-signalointiin. Todistepaketin oma mekanistinen arviointi tälle ehdokkaalle ilmoittaa nimenomaisesti, että tunnettu mekanistinen yhteys puuttuu, ja luonnehtii ennustetta todennäköisimmin väärä positiiviseksi artefaktiksi, joka johtuu mallin upotuksien samankaltaisuudesta harvinaisten oireyhtymien solmujen välillä TxGNN-tietograafissa, pikemminkin kuin aidoksi biologiseksi signaaliksi.
+Familiaalinen yleistynyt lentiginoosi on pigmenttihäiriö, eikä sen yhteydessä tunneta leptiiniin liittyvää signalointireittiä. Selkeää mekanistista yhteyttä alkuperäiseen käyttöaiheeseen ei siis ole. Korkea TxGNN-pistemäärä (0,997) on graafipohjainen ennuste, jota ei tue kliininen tai kirjallisuusnäyttö. Se heijastelee todennäköisesti verkoston läheisyyttä harvinaisten tautien tai fenotyyppien solmujen kautta, ei biologista perustetta.
 
-Jäljellä olevat yhdeksän arvostellut ehdokkaat (sijoitukset 2–10, kaikki harvinaiset geneettiset oireyhtymät tai syöpätaudit kuten Moynahan-oireyhtymä, rabdoidi tuumori ja periferisen hermon schwannoma) osoittavat saman kuvion: ei mekanistisia perusteluja, ei tutkimuksia ja ei kirjallisuutta. Kahdessa tapauksessa (rabdoidi tuumori, periferisen hermon schwannoma) perustelut jopa toteavat, että leptiini-signalointi on todennäköisemmin syöpää edistävää kuin syöpää estävää, mikä tarkoittaa, että leptiini-agoniisti voisi teoriassa toimia vastoin terapeuttista tavoitetta. Kokonaisuutena tarkasteltuna tämä indikaatioklasteri tulisi käsitellä matalan luottamuksen signaalina, joka vaatii riippumatonta validointia ennen kuin siihen voidaan siirtyä lisätutkimuksiin.
-
----
-
-## Kliinisten tutkimusten todisteet
-
-Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
+Muut korkeimman pistemäärän ennusteet (esim. gastrokutaaninen oireyhtymä, Moynahanin oireyhtymä, rabdoidituumori, hyvänlaatuinen lisämunuaiskasvain ja perifeerisen hermon schwannooma) ovat samalla tavalla ilman tukevaa näyttöä. Kasvaimissa leptiinisignalointi voi lisäksi edistää solujen jakautumista (JAK/STAT-, PI3K- ja MAPK-reitit), joten leptiinianalogin antaminen syöpäpotilaille herättää teoreettisen turvallisuushuolen.
 
 ---
 
-## Kirjallisuuden todisteet
+## Kliininen tutkimusnäyttö
 
-Tällä hetkellä kirjallisuustietoa ei ole saatavilla.
-
----
-
-## Markkinatilanne Suomessa
-
-Metreleptyniä ei ole tällä hetkellä markkinoilla Suomessa — markkinointilupia ei ole tiedossa (0 lupaa).
+Tällä hetkellä aiheeseen liittyviä kliinisiä tutkimuksia ei ole rekisteröity.
 
 ---
 
-## Turvallisuushuomiot
+## Kirjallisuusnäyttö
 
-Turvallisustiedot löytyvät pakkausselosteesta.
+Tällä hetkellä aiheeseen liittyvää kirjallisuutta ei ole saatavilla.
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Suomen markkinatiedot
 
-**Päätös: Pidä odotuksessa**
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004218 | Myalepta (Chiesi Farmaceutici S.p.A.) | – | Familiaalinen osittainen lipodystrofia (peruutettu) |
 
-**Perustelut:**
-Ennakoitu indikaatio perustuu todistusvoimakkuusasteeseen L5 (vain mallin ennuste) ilman kliinisiä tutkimuksia tai kirjallisuustukea, ja itse mekanistinen perustelut kyseenalaistavat biologisen uskottavuuden yhteydelle. Yhdessä TFDA-pakkauselosteeseen liittyvän estävän tietoaukon (vaaditaan kaikelle turvallisuusarviolle) ja ratkaisemattoman toimintamekanismin kanssa tämä ehdokas ei voi edistyä alkuarvioinnin pidemmälle (päätösvaihe S0).
+---
 
-**Jatkamiseksi tarvitaan seuraavaa:**
-- TFDA-pakkausseloste / varoitukset ja vasta-aiheet (DG001, estävä)
-- Vahvistetut toimintamekanismin tiedot DrugBank API:n kautta (DG002, korkea)
-- Metreleptiinin alkuperäisten hyväksyttyjen indikaatioiden vahvistus, jotka puuttuvat tällä hetkellä tietojoukosta
-- Riippumaton mekanistinen tai prekliininen todiste, joka yhdistää leptiini-signaloinnin perinnölliseen yleiseen lentiginoosin ennen kuin tehdään lisätutkimuksia tähän ehdokkaaseen
-- Jos muita arvostelluja ehdokkaita halutaan tutkia (rabdoidi tuumori, periferisen hermon schwannoma), riskin suunta tulisi ensin selventää, sillä leptiini-agoniismi voi todennäköisesti edistää syöpäkasvua pikemminkin kuin estää sitä näissä yhteyksissä
+## Turvallisuusnäkökohdat
 
+- **Lääkeaineyhteisvaikutukset**: Tietokannasta löytyi yhteensä 100 yhteisvaikutusta. Useimmat niistä ovat luokaltaan kohtalaisia (Moderate), ja yksi on lievä (Minor). Esimerkkejä kohtalaisista yhteisvaikutuksista: abemasiklibi, fentanyyli, akalabrutinibi, etinyyliestradioli, alfentaniili, alpelisibi, noretisteroni, desogestreeli, avapritinibi, bikegraviiri, brigatinibi, buspironi, kabotsantinibi, kapmatinibi, kariprpatsiini, keritinibi ja klooripropamidi. Lievä yhteisvaikutus on bortetsomibin kanssa.
+- **Teoreettinen huoli kasvaimissa**: Leptiinin proliferatiivinen signalointi voi olla haitallista kasvainpotilailla.
+
+Muista turvallisuustiedoista (varoitukset ja vasta-aiheet) katso valmisteyhteenveto.
+
+---
+
+## Johtopäätös ja jatkotoimet
+
+**Päätös: Hold (odota)**
+
+**Perustelu:**
+- Ennuste perustuu vain graafimalliin (näytön taso L5), eikä sen tueksi ole kliinisiä tutkimuksia, kirjallisuutta eikä uskottavaa mekanistista yhteyttä. Lisäksi Suomessa ainoa myyntilupa on peruutettu.
+
+**Jatkoon siirtyminen edellyttää seuraavaa:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean sivustolta (estää turvallisuusseulonnan tässä vaiheessa)
+- Yksityiskohtaiset vaikutusmekanismitiedot (esim. DrugBankista)
+- Prekliininen tai mekanistinen näyttö leptiinireitin roolista kohdesairaudessa
+- Selvitys peruutetun myyntiluvan syistä ja lääkkeen saatavuudesta Suomessa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

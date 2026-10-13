@@ -2,7 +2,7 @@
 layout: default
 title: Ponatinib
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 303
+nav_order: 351
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,91 +29,105 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Ponatinibi: kroonisesta myeloisesta leukemiasta gingivaalisen fibromatoosin hoitoon
+# Ponatinibi: Leukemiasta ienkasvun fibromatoosiin
 
-## Yksisäikeinen yhteenveto
+## Yhteenveto
 
-Ponatinibi on moniaineinen tyrosiinkinaasin estäjä, joka tunnetaan parhaiten kroonisen myeloisen leukemian (CML) ja Philadelphia-kromosomin positiivisen akuutin lymfoblastisen leukemian (Ph+ ALL) hoidosta. TxGNN-malli ennustaa, että se saattaa olla tehokas **gingivaalisen fibromatoosin** hoidossa, mutta tätä ennustusta tukee tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua** — se perustuu pelkästään mallin pistemäärään.
+Ponatinibi on tyrosiinikinaasin estäjä, jota on alun perin käytetty myeloisen ja lymfaattisen leukemian hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **ienkasvun fibromatoosiin (fibromatosis, gingival)**, mutta ennusteen tueksi ei ole **yhtään kliinistä tutkimusta eikä julkaisua**.
+Toissijainen ennuste, **liposarkooma**, perustuu yhteen prekliiniseen tutkimukseen.
 
 ---
 
 ## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|--------|
-| Alkuperäinen indikaatio | Krooninen myeloinen leukemia (CML) / Ph+ akuutti lymfoblastinen leukemia (yleinen lääketieto; ei vahvistettu paikallisen hyväksynnän perusteella) |
-| Ennustettu uusi indikaatio | Gingivaalinen fibromatoosi |
-| TxGNN-ennustepistemäärä | 99.04% |
-| Näyttötaso | L5 |
-| Markkinoinnin tila | Ei saatavilla markkinoilla |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Pidätä |
+|------|------|
+| Alkuperäinen käyttöaihe | Myeloinen leukemia ja lymfaattinen leukemia |
+| Ennustettu uusi käyttöaihe | Ienkasvun fibromatoosi (fibromatosis, gingival) |
+| TxGNN-ennusteen pistemäärä | 99,04 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettu (ei markkinoilla) |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Miksi tämä ennuste on järkevä?
+## Miksi ennuste on perusteltu?
 
-Tällä hetkellä yksityiskohtaisia toimintamekanismia koskevia tietoja ei ole saatavilla (merkitty aineistovajiksi tässä näyttöpaketissa). Tunnettujen tietojen perusteella ponatinibi on kolmannen sukupolven moniaineinen tyrosiinkinaasin estäjä (BCR-ABL, mukaan lukien T315I-resistentti mutantti, sekä VEGFR, FGFR, PDGFR ja SRC-perheen kinaasit), ja sen tehokkuus CML/Ph+ ALL:n hoidossa on todistettu; mekanismiltaan jotkut näistä samoista kinaaseista (erityisesti PDGFR ja niihin liittyvät fibroblaastien proliferaatiota edistävät signalointireitit) osallistuvat ienien fibroblaastisen liikakasvamisen syntyyn, mikä on todennäköisesti se teoreettinen perusta, johon TxGNN:n tietoverkko perustui.
+Lääkkeen alkuperäistä vaikutusmekanismia koskevia tietoja ei ole tämän raportin aineistossa saatavilla. Tunnetun tiedon perusteella ponatinibi on monikohteinen tyrosiinikinaasin estäjä (BCR-ABL, FGFR, PDGFR, VEGFR, SRC, KIT). Sen teho leukemiassa on osoitettu, ja mekanistisesti se voisi olla sovellettavissa myös muihin tiloihin, joissa nämä signaalitiet ovat aktiivisia.
 
-Krooninen myeloinen leukemia ja gingivaalinen fibromatoosi ovat biologisesti toisiaan liittymättömiä sairauksia — toinen on verisolujen malignanssi, jonka ajaa BCR-ABL-fuusiokinaasi, toinen on hyvänlaatuinen, usein perinnöllinen ientulehdusta aiheuttava fibroblaastien proliferatiosairaus. Mekanistinen yhteys on siis epäsuora: se riippuu ponatinibin vaiotarkoitteisesta PDGFR/kinaasireiteille kohdituvasta estämisestä, jotka edistävät sekä fibroblaastien proliferaatiota että solunulkoisen matriisin kertymistä, pikemminkin kuin siitä, että CML ja gingivaalinen fibromatoosi jakaisisivat yhteisen tautibiologian. Koska tällä ennustuksella ei ole mitään kliinisen tutkimuksen tai kirjallisuuden tukea, sitä tulisi käsitellä hypoteesina, joka on muodostunut puhtaasti mallin opittujen assosiaatioiden perusteella, eikä näyttöpohjaisen signaalin perusteella.
+Fibroottisiin ja proliferatiivisiin sairauksiin voi liittyä PDGFR- ja FGFR-signalointia, joten yhteys on teoriassa mahdollinen. Yhteys on kuitenkin spekulatiivinen, eikä mikään käytettävissä oleva aineisto tue sitä. Ienkasvun fibromatoosi on harvinainen ja enimmäkseen hyvänlaatuinen tila, joten ponatinibin sydän- ja verisuoni- sekä tromboosiriskit painaisivat todennäköisesti enemmän kuin mahdollinen hyöty.
 
----
-
-## Kliinisen tutkimuksen näyttö
-
-Tällä hetkellä ei ole kirjattuja asiaan liittyviä kliinisiä tutkimuksia.
+Toiseksi sijoittuneen ennusteen, liposarkooman, osalta yksi prekliininen kinaasiprofilointitutkimus viittaa siihen, että liposarkoomassa on lääkittävissä olevia kinaasiriippuvuuksia. Mahdollisia ponatinibin kohteita olisivat FGFR ja PDGFR, mutta tämä yhteys pitäisi vahvistaa lukemalla koko artikkeli.
 
 ---
 
-## Kirjallisuustutkimuksen näyttö
+## Kliiniset tutkimukset
 
-Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta.
-
----
-
-## Markkinatiedot
-
-Ponatinibilla ei tällä hetkellä ole myyntilupaa tässä kotimaassa (tila: **Ei saatavilla markkinoilla**, 0 lupaa rekisterissä), joten hyväksyttyä indikaatiotekstiä ei ole saatavilla vertailua varten.
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia (ei ienkasvun fibromatoosille eikä liposarkoomalle).
 
 ---
 
-## Sytotoksiksuus
+## Kirjallisuusnäyttö
+
+Ensisijaiselle ennusteelle (ienkasvun fibromatoosi) ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
+
+Toissijaiselle ennusteelle (liposarkooma) on saatavilla yksi julkaisu:
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [29132397](https://pubmed.ncbi.nlm.nih.gov/29132397/) | 2017 | Prekliininen | Journal of hematology & oncology | Kinaasiprofilointi RNAi- ja lääkeseulontamenetelmillä tunnisti liposarkoomasta lääkittävissä olevia kinaasikohteita. Tutkimus ei vahvista ponatinibin tehoa. |
+
+---
+
+## Markkinatiedot Suomessa
+
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/002695 | Iclusig | – | Myeloinen leukemia; lymfaattinen leukemia (tila: peruutettu) |
+
+---
+
+## Sytotoksisuus
 
 | Kohta | Sisältö |
-|------|--------|
-| Sytotoksiksuusluokitus | Kohdennettu lääkitys (moniaineinen tyrosiinkinaasin estäjä: BCR-ABL, VEGFR, FGFR, PDGFR, SRC-perhe) |
-| Luuydinsortumusriski | Viitattava pakkauselosteeseen |
-| Pahoinvointipotentiaalin luokitus | Viitattava pakkauselosteeseen |
-| Seurattavat asiat | Viitattava pakkauselosteeseen |
-| Käsittelyturvallisuus | Viitattava pakkauselosteeseen |
+|------|------|
+| Sytotoksisuusluokitus | Kohdennettu hoito (tyrosiinikinaasin estäjä) |
+| Myelosuppressioriski | Tarkemmat tiedot puuttuvat; katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Oksentelua aiheuttava vaikutus | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Seurantakohteet | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Käsittelysuojaus | Katso valmisteyhteenvedon varoitukset ja varotoimet |
 
 ---
 
 ## Turvallisuusnäkökohdat
 
-Katso pakkausseloste turvallisuustietojen osalta.
+Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla, joten niihin on tutustuttava valmisteyhteenvedosta.
+
+**Lääkeinteraktiot**: aineiston haussa löytyi yhteensä 100 interaktiota, joista alla tärkeimmät (näytetty otos 20 interaktiosta):
+
+- **Merkittävät (Major)**: asetyylisalisyylihappo, klaritromysiini
+- **Kohtalaiset (Moderate)**: loperamidi, aprepitantti, deksametasoni, naldemedini, naltreksoni, metronidatsoli, mikonatsoli
+- **Lievät (Minor)**: famotidiini, ranitidiini, simetidiini, nitsatidiini, magnesiumoksidi sekä protonipumpun estäjät (omepratsoli, lansopratsoli, pantopratsoli, rabepratsoli, deksilansopratsoli), naloksegoli
+
+Sydän- ja verisuoni- sekä tromboosiriskeistä on huomattava, että ne ovat tässä aineistossa vain asiantuntija-arvio, eivät valmisteyhteenvedosta poimittua tietoa.
 
 ---
 
-## Lisähuomautus: 2. Sijan ennustettu indikaatio
+## Johtopäätös ja seuraavat askeleet
 
-Toinen ennustettu indikaatio, **liposarkooma**, sai lähes yhtä korkean pistemäärän (99.00%, TxGNN-ranking 9484) ja toisin kuin gingivaalinen fibromatoosi, sillä on yksi tukeva prekliininen julkaisu: [29132397](https://pubmed.ncbi.nlm.nih.gov/29132397/) (2017, *Journal of Hematology & Oncology*), kinaasien profilointi-/RNAi-lääkkeiden seulontatutkimus, joka tunnisti lääkkeettäviä kinaasikohteita liposarkoomassa. Tämä on prekliininen, ei kliininen, näyttö, mutta se antaa liposarkooman osalta vahvemman (vaikka silti varhaisen) näyttöperustan kuin etusijalla oleva indikaatio ja voi vaatia erillistä tutkimista.
-
----
-
-## Johtopäätös ja seuraavat vaiheet
-
-**Päätös: Pidätä**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Korkeimman sijoituksen saaneen indikaation (gingivaalinen fibromatoosi) tukeina ei ole mitään kliinisiä tutkimuksia tai kirjallisuusviitteitä — vain mallin pistemäärä, mikä asettaa sen näyttötasolle L5. Kriittisen aineistovajeen (pakkausseloste/turvallisuustiedot, DG001) ja lääkkeen markkinointiluvattoman aseman vuoksi ei ole riittävää perustetta edetä alkuseulonnasta eteenpäin.
+- Ennuste perustuu vain korkeaan TxGNN-pistemäärään (99,04 %), eikä sen tueksi ole kliinisiä tutkimuksia tai kirjallisuutta (näyttötaso L5). Lisäksi lääke ei ole tällä hetkellä markkinoilla Suomessa (ainoa myyntilupa peruutettu), ja turvallisuustiedot puuttuvat.
 
-**Jotta voidaan edetä, tarvitaan seuraavaa:**
-- TFDA/Fimea-pakkauselosteen tiedot (varoitukset, vasta-aiheet, lääkkeiden yhteisvaikutukset) — tällä hetkellä kriittinen aineistovaje
-- Vahvistettu toimintamekanismi DrugBankista — tällä hetkellä korkean vakavuuden aineistovaje
-- Kohdennettu kirjallisuus-/prekliininen haku, joka on spesifinen gingivaalisen fibromatoosin osalta, mekanistisen hypoteesin testaamiseksi
-- Harkitse rinnakkaista liposarkooma-signaalin (ranking 2) arviointia, jolla on vähintään yksi tukeva prekliininen julkaisu
-
+**Eteenpäin siirtymiseksi tarvitaan:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankinta ja läpikäynti (estää nykyisellään turvallisuusseulonnan)
+- Yksityiskohtaiset vaikutusmekanismitiedot (MOA)
+- Prekliininen validointi ponatinibilla kohdesairauden malleissa (erityisesti liposarkooma) ennen kliinistä harkintaa
+- Koko artikkelin (PMID 29132397) läpikäynti ponatinibin kohteiden vahvistamiseksi
+- Hyöty–riskiarvio, jossa otetaan huomioon sydän- ja verisuoni- sekä tromboosiriskit suhteessa sairauden vakavuuteen
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

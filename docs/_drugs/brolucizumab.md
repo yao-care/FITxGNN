@@ -2,7 +2,7 @@
 layout: default
 title: Brolucizumab
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 79
+nav_order: 86
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,75 +29,89 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-# Brolucizumabi: kostean ikääntymisen myötä ilmenevän makuukohjuksen rappeutumisesta mitokondriaalisen oksidatiivisen fosforylaation häiriöön
+# Brolutsitsumabi: Silmänpohjan kosteasta ikärappeumasta ennustettuun mitokondriaaliseen oksidatiiviseen fosforylaatiohäiriöön
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Brolucizumabi (kauppanimi Beovu) on anti-VEGF-A-vasta-aine-fragmentti, jota käytetään alun perin silmän sisäisellä injektiolla kostean ikääntymisen myötä ilmenevän makuukohjuksen rappeutumisen (AMD) hoitoon. TxGNN-malli ennustaa, että se saattaa olla tehokas mitokondriaalisen oksidatiivisen fosforylaation häiriössä, joka johtuu ydinperimän poikkeavuuksista, mutta tämä on vain mallipistemäärään perustuva ennuste (L5), jonka tueksi ei ole kliinisiä tutkimuksia eikä julkaisuja, ja todistuspaketti itse merkitsee mekanistisen yhteyden biologisesti epätodennäköiseksi — todennäköisesti upotuksiin perustuva väärä positiivinen tulos.
+Brolutsitsumabi on VEGF-A:ta estävä vasta-ainefragmentti (scFv), jota on käytetty kostean silmänpohjan ikärappeuman hoitoon.
+TxGNN-malli ennustaa sen voivan vaikuttaa **tumaperäisistä DNA-poikkeavuuksista johtuvaan mitokondriaaliseen oksidatiiviseen fosforylaatiohäiriöön**.
+Ennusteelle ei kuitenkaan ole **yhtään kliinistä tutkimusta eikä julkaisua**, joten näyttö perustuu pelkästään mallin laskennalliseen ennusteeseen.
 
 ---
 
-## Pikayleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Kostea ikääntymisen myötä ilmenevä makuukohjuksen rappeutuminen (AMD) — tunnetun lääkkeen profiilin perusteella; ei dokumentoitu toimitetussa Suomen sääntelydatajoukossa |
-| Ennustettu uusi indikaatio | Mitokondriaalisen oksidatiivisen fosforylaation häiriö, joka johtuu ydinperimän poikkeavuuksista |
-| TxGNN-ennusteen pistemäärä | 99.67% |
-| Todistustaso | L5 |
-| Suomen markkinatilanne | ✗ Ei markkinoilla (Ei markkinoilla) |
-| Myyntilupien lukumäärä | 0 |
-| Suositeltu päätös | Pidätä |
+|------|------|
+| Alkuperäinen käyttöaihe | Kostea silmänpohjan ikärappeuma |
+| Ennustettu uusi käyttöaihe | Tumaperäisistä DNA-poikkeavuuksista johtuva mitokondriaalinen oksidatiivisen fosforylaation häiriö |
+| TxGNN-ennustepisteet | 99,67 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Miksi tämä ennuste on järkevä?
+## Miksi ennuste on (tai ei ole) perusteltu?
 
-Tällä hetkellä yksityiskohtaisia brolucizumabin vaikutusmekanismitietoja ei ole saatavilla DrugBankista (estävä tietoaukko). Tunnettujen lääkkeen tietojen perusteella brolucizumabi on humanisoidtu yksiketjuinen vasta-aine-fragmentti (scFv), joka estää VEGF-A:n ja jota annetaan silmän sisäisellä injektiolla kostean AMD:n hoitoon — sen tehokkuus kyseisessä indikaatiossa on hyvin dokumentoitu.
+Brolutsitsumabi on VEGF-A:ta estävä yksiketjuinen vasta-ainefragmentti, joka on hyväksytty kosteaan silmänpohjan ikärappeumaan. Tarkkaa vaikutusmekanismia koskevaa tietoa ei ole tämän raportin aineistossa saatavilla.
 
-Ennustettu uusi indikaatio on kuitenkin ydinperimään liittyvä mitokondriaalisen oksidatiivisen fosforylaation häiriö. VEGF-A/angiogeneesi-signaloinnin ja mitokondriaalisen energiametabolismin välillä ei ole tunnetulla biologisella reitillä päällekkäisyyttä. Todistuspaketti merkitsee tätä nimenomaisesti mekanistisen analyysissa: huolimatta korkeasta TxGNN-pistemäärästä (99.67%), perustelusta todetaan, että mekanistinen relevanssi on "äärimmäisen alhainen" ja että kyse on todennäköisesti korkeasta pistemäärästä, mutta biologisesti selittämättömästä ennusteesta — mahdollisesti upotuksiin perustuva väärä positiivinen tulos eikä todellinen farmakologia.
+Aineiston perusteella ei ole osoitettavissa selvää mekanistista yhteyttä VEGF-A:n estoon ja tumaperäisiin oksidatiivisen fosforylaation häiriöihin. Korkea pistemäärä (0,997) on verkkopohjainen ennuste, joka voi heijastaa epäsuoria yhteyksiä, kuten hypoksiaan tai angiogeneesiin liittyviä reittejä. Sille ei ole kliinistä tai kirjallisuuteen perustuvaa tukea.
 
-Kolme alhaisemman sijoituksen saaneet kandidaatit (ruokatorven varikositeetti verenvuodolla/ilman verenvuotoa, eksokriinisen haiman vajaatoiminta) ennustettiin myös samankaltaisilla korkeilla pistemäärillä (~99.1%), mutta jokaisella on omat heikkoutensa: brolucizumabin pelkkä silmän sisäinen antoreitti on yhteensopimaton systeemisen tai GI-altistumisen kanssa, joita nämä indikaatiot vaativat, ja anti-VEGF-lääkkeet sisältävät tunnetun verenvuotoriskin, joka on ristiriidassa niiden käytön kanssa verenvuoto-varikositeetissa. Yhdessäkään neljästä kandidaatista ei ole tällä hetkellä mekanistisesti puolustettava peruste.
-
----
-
-## Kliinisen tutkimuksen todistusaineisto
-
-Tällä hetkellä ei ole rekisteröity asiaan liittyviä kliinisiä tutkimuksia
+Lisäksi mitokondriaalinen sairaus on systeeminen ja geneettisesti heterogeeninen tila. Silmänsisäisesti annettavalla anti-VEGF-lääkkeellä ei ole uskottavaa perustetta systeemiselle altistukselle, joten ennustetta on pidettävä erittäin epävarmana.
 
 ---
 
-## Kirjallisuuden todistusaineisto
+## Muut mallin ennustamat käyttöaiheet
 
-Tällä hetkellä asiaan liittyviä kirjallisia lähteitä ei ole saatavilla
+Aineistossa on lisäksi kolme muuta ennustetta, joilla ei ole kliinistä tutkimusta eikä kirjallisuutta (kaikilla näytön taso L5, suositus Hold):
+
+| Ennustettu käyttöaihe | TxGNN-pisteet | Huomio |
+|------|------|------|
+| Ruokatorven suonikohjut ilman verenvuotoa | 99,12 % | VEGF-välitteinen kollateraalisuonten muodostus antaa vain löyhän teoreettisen perustelun. Systeeminen anti-VEGF-hoito voi lisätä verenvuoto- ja tromboembolia-riskiä. |
+| Ruokatorven suonikohjut verenvuodon kanssa | 99,12 % | Anti-VEGF-lääkkeisiin liittyy verenvuotoriski, joten käyttö aktiivisessa vuodossa on merkittävä turvallisuushuoli. |
+| Haiman ulkoeritystoiminnan vajaus | 99,07 % | VEGF-A:n eston ja haimatoiminnan välillä ei ole ilmeistä mekanistista yhteyttä. Hoitona on tyypillisesti entsyymikorvaus. |
 
 ---
 
 ## Suomen markkinatiedot
 
-Suomeen ei ole tällä hetkellä rekisteröity myyntilupaa brolucizumabille (markkinatilanne: Ei markkinoilla / ei markkinoilla; total_licenses = 0).
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004913 | Beovu | – | Kostea silmänpohjan ikärappeuma (myyntilupa peruutettu) |
 
 ---
 
 ## Turvallisuusnäkökohdat
 
-Turvallisustiedoista tulee viitata pakkausselosteeseen.
+Tälle valmisteelle ei ole saatavilla pakkausselosteen varoituksia tai vasta-aiheita. Katso turvallisuustiedot valmisteyhteenvedosta.
+
+Lääketietämysverkosta (PrimeKG) johdetut lääkkeen ja sairauden väliset vasta-aihesuhteet, jotka eivät perustu valmisteen myyntiluvan tekstiin, liittyvät seuraaviin sairauksiin:
+- uveiitti
+- värikalvon sairaus
+- sädekehän sairaus
+- panuveiitti
+- silmän infektiosairaus
+- sidekalvotulehdus
+
+Lääkeinteraktioita ei löytynyt aineistosta.
 
 ---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Pidätä**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Korkeimman sijoituksen saanut TxGNN-ennuste ei ole tunnetulla mekanistisella reitillä päällekkäinen brolucizumabin anti-VEGF-A-vaikutukseen, sillä on nolla tukevaa kliinisiä tutkimuksia tai kirjallisuutta, ja se on nimenomaisesti merkitty todistuspaketissa todennäköiseksi upotuksiin perustuvaksi väärän positiiviseksi tulokseksi. Yhdessä lääkkeen myymättömyyden kanssa Suomessa ei ole tällä hetkellä perusteita edetä tämän kandidaatin kanssa.
+- Ennusteilla ei ole kliinistä tutkimusnäyttöä eikä kirjallisuutta (L5), ja mekanistinen yhteys on heikko tai puuttuu. Lääke on lisäksi suunniteltu silmänsisäiseen käyttöön, ja Suomessa sen ainoa myyntilupa on peruutettu.
 
-**Jotta voitaisiin edetä, tarvitaan seuraava:**
-- TFDA:n pakkausseloste (varoitukset, vasta-aiheet) — tällä hetkellä estävä tietoaukko (DG001)
-- DrugBank-vaikutusmekanismin yksityiskohdat (DG002)
-- Riippumaton mitokondriaalisen häiriön ennusteen biologisen uskottavuuden tarkistus tai alemmalla pistemäärällä olevien mutta mekanistisesti johdonmukaisten kandidaattien uudelleenarviointi
-- Jos esofageaalisen varikositeetin signaali tutkitaan sen sijaan, järjestelmällisen/ruoansulatuskanavan lääkkeen altistumisen toteutettavuuden arviointi kun otetaan huomioon brolucizumabin ainoastaan silmän sisäinen antoreitti
-
+**Etenemiseksi tarvitaan:**
+- Vaikutusmekanismia koskevat tiedot (MOA)
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet, joita ilman turvallisuusseulontaan ei voida edetä
+- Prekliinistä tai mekanistista näyttöä jostakin ennustetusta käyttöaiheesta
+- Arvio antoreitin soveltuvuudesta (silmänsisäinen vs. systeeminen anto)
+- Systeemisen anti-VEGF-altistuksen verenvuoto- ja tromboembolia-riskien arviointi
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

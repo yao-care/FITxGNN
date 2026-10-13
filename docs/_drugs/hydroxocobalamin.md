@@ -2,7 +2,7 @@
 layout: default
 title: Hydroxocobalamin
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 184
+nav_order: 216
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,61 +29,68 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Hydroxokobalami: B12-vitamiinin puutoksesta / sianidin myrkytyksen hoidosta esofagealisten variikoiden hoitoon ilman verenvuotoa
+# Hydroksokobalamiini: Myrkytyksen hoidosta ruokatorven suonikohjuihin
 
-## Yhden lauseen yhteenveto
+## Yhden lauseen tiivistelmä
 
-Hydroxokobalami on kliinisesti tunnettu B12-vitamiinin puutoksen ja sianidin myrkytyksen antidoottina käytettävänä lääkkeenä, vaikka tämä erityinen hyväksytyn indikaation tieto ei ole otettu mukaan nykyiseen näytöpakettiin. TxGNN-malli ennustaa, että se voi olla tehokas **esofagealisten variikoiden hoidossa (ilman verenvuotoa)** — ja samalla pistemäärällä esofagealisten variikoiden hoidossa *verenvuodon kanssa* — mutta tällä hetkellä **nolla kliinistä tutkimusta** ja **nolla julkaisua** eivät tue kumpaa tahansa suuntaa, ja yhtään uskottavaa farmakologista mekanismia ei ole tunnistettu.
+Hydroksokobalamiini on lääke, jota on alun perin käytetty **myrkytysten** hoitoon (Cyanokit). TxGNN-malli ennustaa sen voivan tehota **ruokatorven suonikohjuihin** (ilman verenvuotoa ja verenvuodon kanssa). Ennustetta tukevaa näyttöä ei ole: tähän raporttiin koottujen tietojen mukaan kliinisiä tutkimuksia tai julkaisuja ei löytynyt.
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|---|---|
-| Alkuperäinen indikaatio | B12-vitamiinin puutos; sianidin myrkytyksen antidootti (tunnetusta lääkeryhmästä saatava tieto — ei vahvistettu suomalaisesta sääntelylähteestä tässä näytöpaketissa) |
-| Ennustettu uusi indikaatio | Esofageaaliset variikit ilman verenvuotoa (toinen, identtisesti arvostellu ennustus on olemassa esofagealisten variikoiden kohdalla verenvuodon kanssa) |
-| TxGNN-ennustuspistemäärä | 99.23% |
-| Näytön taso | L5 (mallin ennustus ainoastaan, ei tue tutkimuksia) |
-| Suomen markkinatila | Ei markkinoilla |
-| Lupien lukumäärä | 0 |
-| Suositeltu päätös | Pidätä |
+|------|------|
+| Alkuperäinen käyttöaihe | Myrkytys |
+| Ennustettu uusi käyttöaihe | Ruokatorven suonikohjut ilman verenvuotoa (toinen ennuste: suonikohjut verenvuodon kanssa) |
+| TxGNN-ennustepisteet | 99,2 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennustus on järkevä?
+## Miksi ennuste voisi olla perusteltu?
 
-Hydroxokobalamin vaikutusmekanismin yksityiskohtaista tietoa ei ole saatavilla tässä näytöpaketissa (merkitty korkeaprioriteetiksi tietojen puutteeksi). Tunnetun kliinisen käytön perusteella hydroxokobalami toimii B12-vitamiinin esiaineena puutoksen hoitoon ja korkean annoksen sianidin antidoottina (se sitoutuu sianidiionihin muodostaen kyanokobalamin, joka eritetään munuaisten kautta).
+Tällä hetkellä yksityiskohtaista vaikutusmekanismitietoa ei ole saatavilla. Hydroksokobalamiinin tunnetut tehtävät ovat syanidin sitominen (myrkytysindikaatio) ja B12-vitamiinin korvaaminen. Kumpikaan ei kohdistu suonikohjujen taustalla olevaan portaalihypertensioon, suonenseinän jännitykseen tai verenvuodon tyrehdyttämiseen.
 
-Kumpikaan näistä tunnetuista mekanismeista ei tarjoa farmakologista perustelua hydroxokobalamin käytölle esofagealisten variikoiden hoidossa, joiden taustalla on portaalin hypertensio ja joita käsitellään yleensä tekijöillä, jotka muokkaavat splanknikaalista verenkiertoa tai portaalipainetta (esim. oktreotiidi, terlipressiini, vasopressiini, ei-selektiiviset beetasalpaajat). Hydroxokobalaminilla ei ole tunnettuja hemodynamiikan-, vasoaktiivisia- tai verisuonten uudelleenmuokkaavia vaikutuksia, jotka yhdistäisivät sen tähän indikaatioon.
+Ennusteen ainoa tuki on korkea TxGNN-pistemäärä (0,992). Pistemäärä voi johtua tietämysgraafin yhteyksistä, esimerkiksi maksasairauksiin tai ravitsemuspuutoksiin, eikä syy-yhteydestä. Molemmilla ennusteilla on täsmälleen sama pistemäärä, mikä viittaa siihen, ettei malli erottele tilanteita toisistaan. Verenvuotoa sisältävän suonikohjun nykyhoito (verisuonia supistavat lääkkeet, kuminauhasidonta, antibioottiprofylaksia) vaikuttaa portaalipaineeseen tai hemostaasiin, ei kobalamiinin tai syanidin sidonnan kautta.
 
-Tämän perusteella TxGNN-pistemäärää 99.23 % tulisi tulkita tiukasti tietoverkkojen väliseksi korrelaatioksi, ei biologisen uskottavuuden näytöksi. Ilman kliinisiä tutkimuksia, ilman kirjallisuusviitteitä ja ilman tunnistettavaa mekanistista yhteyttä tämä ennustus ei perustu mihinkään testattavaan tieteelliseen hypoteesiin ja sijaitsee matalimmalla luottamustasolla (L5).
+Alkuperäisen ja uuden käyttöaiheen mekanistinen samankaltaisuus on toistaiseksi arvioimatta.
 
-## Kliinisen tutkimuksen näyttö
+## Kliiniset tutkimukset
 
-Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
-## Kirjallisuuden näyttö
+## Kirjallisuusnäyttö
 
-Tällä hetkellä asiaan liittyvää kirjallisuutta ei ole saatavilla.
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
 ## Suomen markkinatiedot
 
-Hydroxokobalami ei ole markkinoilla Suomessa (0 hyväksyntää), joten tuote-/hyväksyntätaulukkoa ei ole saatavilla.
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000806 | Cyanokit (SERB SA) | Ei ilmoitettu | Myrkytys (myyntilupa peruutettu) |
 
 ## Turvallisuusnäkökohdat
 
-Turvallisuustiedoista katso valmisteen seloste.
+- **Tietämysgraafin mukaiset vasta-aiheet** (ei valmisteyhteenvedon tekstiä): verenpainetauti (hypertensiivinen häiriö). Tämä on huomioitava erityisesti, koska suonikohjujen taustalla on usein portaalihypertensio ja potilaiden verenpainetta hoidetaan tarkasti.
+- **Lääkeyhteisvaikutukset:** Yhteensä 32 yhteisvaikutusta löytyi. Tässä esitetyistä merkittävimmät:
+  - Keskivaikeat (Moderate): arseenitrioksidi, kloramfenikoli, jodi-131, jodi-123
+  - Vaikeusastetta ei ole määritetty: mm. omepratsoli, lansopratsoli, simvastatiini, loperamidi, prednisolon, ranitidiini, asetyylisalisyylihappo, budesonidi, foolihappo, valsartaani, ramipriili, lortsepaami, sitalopraami, parasetamoli, mirtatsapiini, levotyroksiini
 
-## Johtopäätös ja seuraavat vaiheet
+Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
-**Päätös: Pidätä**
+## Johtopäätös ja seuraavat askeleet
+
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Ennustus on tuettu ainoastaan raakalla TxGNN-mallin pistemäärällä, ilman kliinisiä tutkimuksia, ilman kirjallisuutta ja ilman tunnistettavaa mekanistista perustelua hydroxokobalamin ja esofagealisten variikoiden välillä. Tämä on L5 / S0 -kandidaatti ja ei täytä vaatimuksia edetä turvallisuus- tai kliiniseen arviointiin.
+- Ennuste perustuu pelkästään mallin pistemäärään (näytön taso L5). Kliinisiä tutkimuksia ja julkaisuja ei ole, eikä uskottavaa vaikutusmekanismia ruokatorven suonikohjuihin ole tunnistettu. Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa.
 
-**Jotta voitaisiin edetä, seuraavaa tarvitaan:**
-- TFDA/Fimea-valmisteen seloste varoituksista ja vasta-aiheista (tällä hetkellä esto — turvallisuusprofiilia ei voida arvioida)
-- Vahvistettu vaikutusmekanismi (DrugBank-kysely)
-- Uskottava biologinen hypoteesi, joka yhdistää hydroxokobalamin portaalihypertensio/variikoiden patofysiologiaan, ennen kuin laajempi näyttöjen haku on perusteltua
-- Jatkuva seuranta kaikista uusista tutkimuksista tai kirjallisuudesta tästä lääke-sairausparin suhteen
-
+**Jatkoa varten tarvitaan:**
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet Fimean sivustolta (estävä tietoaukko)
+- Vaikutusmekanismitiedot (esim. DrugBankista)
+- Biologisesti perusteltu mekanistinen hypoteesi sekä prekliiniset tai kirjallisuusperustaiset tutkimukset
+- Selvitys antoreiteistä ja yhteensopivuudesta uuden käyttöaiheen kanssa
+- Arvio verenpainetautiin liittyvästä vasta-aiheesta
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

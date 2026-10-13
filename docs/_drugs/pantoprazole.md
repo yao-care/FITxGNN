@@ -2,7 +2,7 @@
 layout: default
 title: Pantoprazole
 parent: Vahva näyttö (L1-L2)
-nav_order: 284
+nav_order: 330
 evidence_level: L1
 indication_count: 6
 ---
@@ -29,91 +29,117 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Pantoprazoli: dokumentoimattomasta alkuperäisestä indikaatiosta aktiiviseen peptiseen haavaan
+# Pantopratsoli: Refluksitaudista aktiiviseen peptiseen haavatautiin
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Pantoprazoli on protonienpumppuinhibiittori (PPI); sen virallisesti rekisteröity alkuperäinen indikaatio puuttuu tästä näytöstä (`original_indications` on tyhjä ja `original_moa` on merkitty tietovajeeksi). TxGNN:n paras ennuste on **aktiivinen peptinen haava** (pistemäärä **99,69%**), jota tukee **3 kliinistä tutkimusta** ja **20 julkaisua** — mutta näytön oman analyysin mukaan tämä johtuu todennäköisesti puuttuvan alkuperäisen indikaation tiedon aiheuttamasta virheestä, ei todellisesta uudesta käyttötarkoituksesta, sillä peptinen haava on jo vakiintunut ja PPI:lle merkittyyn indikaatioon kuuluva käyttötarkoitus.
+Pantopratsoli on protonipumpun estäjä, jota on alun perin käytetty mahalaukun happamaan refluksitautiin (gastroesofageaalinen refluksi). TxGNN-malli ennustaa sen voivan tehota **aktiiviseen peptiseen haavatautiin**. Suunnan tukena on **1 kliininen tutkimus** (vaiheen 3, päättynyt) ja **20 julkaisua** ennustetulle ensisijaiselle käyttöaiheelle. Samalla ennustelistalla on viisi muuta käyttöaihetta, joista kaksi (pohjukaissuolihaava ja aktiivinen peptinen haavatauti) saavuttaa evidenssitason L1.
 
----
-
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Ei tietueissa (0 Suomen lupaa); PPI-luokan lääkkeet ovat yleensä indikoituja refluksitaudissa/eroosiivisessa ruokatorvtulehduksessa ja peptisessä haavassa |
-| Ennustettu uusi indikaatio | Aktiivinen peptinen haava |
-| TxGNN-ennusteen pistemäärä | 99,69% |
-| Näyttöaste | L1 |
-| Suomen markkinatila | ✗ Ei markkinoilla |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Jatka varauksilla |
+| Alkuperäinen käyttöaihe | Gastroesofageaalinen refluksi |
+| Ennustettu uusi käyttöaihe | Aktiivinen peptinen haavatauti |
+| TxGNN-ennustepistemäärä | 99,69 % |
+| Evidenssitaso | L1 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 3 (kaikki peruutettuja) |
+| Suositeltu päätös | Etene suojatoimin (Proceed with Guardrails) |
 
----
+## Miksi ennuste on perusteltu?
 
-## Miksi tämä ennuste on perusteltu?
+Pantopratsoli estää peruuttamattomasti mahalaukun parietaalisolujen H+/K+-ATPaasia eli protonipumppua. Tämä vähentää mahahapon eritystä. Kyseessä on kirjallisuuteen perustuva kuvaus (mm. PMID 19938880 ja 8882382), sillä tämän raportin pohjana olevassa aineistossa mekanismitieto ei ollut saatavilla.
 
-`original_moa` on tässä näytössa nimenomaisesti merkitty tietovajeeksi (DG002, vakavuusaste: Korkea). Kuitenkin tälle ehdokkaalle liitetty uudelleentarkoitusperustelu sisältää mekanistisia yksityiskohtia: Pantoprazoli on protonienpumppuinhibiittori, joka sitoutuu peruuttamattomasti ja spesifisesti mahassa olevan paretallisolun H+/K+-ATPaasiin, estäen gastrin hapon eritytykseen liittyvän viimeisen yhteisen vaiheen — vakiintuneen ensimmäisen linjan mekanismin happopeptisairauksien paranemiseksi.
+Refluksitauti ja peptinen haavatauti ovat molemmat happovälitteisiä sairauksia. Sama happoeston mekanismi, joka lievittää refluksia, edistää myös haavojen paranemista ja ehkäisee uusiutumista. Peptinen haavatauti on siksi mekanistisesti suora jatke alkuperäiselle käyttöaiheelle.
 
-Aktiivinen peptinen haava sijaitsee suoraan tämän ydinpharmakoloogisen vaikutuksen alueella. On tärkeää huomata, että näytön oma analyysi merkitsee tätä spesifistä ennustetta todennäköisesti **ei**-aidoksi uuden uudelleentarkoitussignaaliksi: koska taustalla olevan tietokannan `drug.original_indications` on tyhjä, TxGNN näyttää "löytävän uudelleen" käyttötarkoituksen, joka on jo pantoprazolille merkittyyn indikaatioon kuuluva, sen sijaan että paljastaisi uutta terapeuttista aluetta. Erittäin korkea pistemäärä (99,69%) on yhdenmukainen tämän kanssa — se näyttää enemmän tietojen täydellisyyden ongelmalta kuin todelliselta uudelleentarkoitusintuitiolta.
+Muiden ennustettujen käyttöaiheiden mekanistinen yhteys vaihtelee. Gastrojejunaalihaava ja haavan puhkeaman jälkihoito ovat happovälitteisiä, mutta näyttö on epäsuoraa. Duodenogastrinen refluksi on pääosin sapen aiheuttamaa, joten happoesto ei ratkaise sen ydinsyytä. Pohjukaissuolen tukos on mekaaninen tila, eikä pantopratsolin tehosta siihen ole näyttöä.
 
-Sama huomautus pätee myös tämän näytön kuudennelle ehdokkaalle ("kaksitostasormisuolen haava", myös L1), joilla on identtinen mekanistinen peustelu. Loput tämän pakkauksen ehdokkaat (gastrojejunaalinen haava, peptisen haavan perforaatio, duodenogastrinen refluksi, kaksitostasormisuolen obstruksio) kantavat asteittain heikompeneita ja epäsuorempia mekanistisia yhteyksiä (L2–L5), ja ovat todenmukaisempia ehdokkaita todellisen sijainnispesifisen tai lisäyhdistelmähoidon tutkimiselle. Ennen kuin käsitellään mitään näistä kuudesta ennusteesta todellisena "uutena" indikaationa, taustalla oleva `drug.original_indications` -kenttä tulisi täyttää, jotta TxGNN-pistemäärät voidaan oikein tulkita suhteessa tarkkoihin alkuperäisiin arvoihin.
+## Kliininen tutkimusnäyttö
 
----
+Ensisijaiselle ennustetulle käyttöaiheelle (aktiivinen peptinen haavatauti):
 
-## Kliinisen tutkimuksen näyttö
-
-| Tutkimusnumero | Vaihe | Tila | Osallistujamäärä | Keskeiset löydökset |
+| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT02084420](https://clinicaltrials.gov/study/NCT02084420) | Vaihe 3 | Valmistunut | 323 | Monitapauksinen satunnaistettu kaksisokkoutettu aktiivista kontrollia käyttävä tutkimus, jossa verrattiin ilaprasoolia ja pantoprasoolia sisältävää kolmoishoitoa (7 päivää) H. pylori -eliminaatiossa mahan ja kaksitostasuolen haavapotilailla — suora tehokkuustieto (merkitsevyysaste A). |
-| [NCT00930670](https://clinicaltrials.gov/study/NCT00930670) | Vaihe 4 | Valmistunut | 320 | Arvioi PPI:n ja statiinien vaikutusta klopidogreeliin liittyvään verihiutaleiden estoon PCI-potilailla, joilla käytetään kaksoisantiplatelet-hoitoa — lääkkeiden vuorovaikutustutkimus, ei haavan paranemisen päätetulosmuuttuja (merkitsevyysaste B). |
-| [NCT02197039](https://clinicaltrials.gov/study/NCT02197039) | N/A | Valmistunut | 316 | Selvitti riskitekijöitä, jotka ennustavat huonoa vastetta tai varhaisen uusiintumisen verenvuodossa endoskooppisen hemostaasin ja korkean annoksen PPI:n jälkeen peptisessä haavaverenvuodossa, ohjaamaan valintaa uusintaendoskopiaa varten — kliinisen prosessin tutkimus, vain epäsuorasti liittyvä pantoprazolin tehokkuuteen (merkitsevyysaste C). |
+| [NCT02084420](https://clinicaltrials.gov/study/NCT02084420) | Vaihe 3 | Päättynyt | 323 | Satunnaistettu, kaksoissokkoutettu, aktiivikontrolloitu monikeskustutkimus: Helicobacter pylori -eradikaatio ilapratsoli- ja pantopratsolipohjaisella kolmoishoidolla (7 vrk) mahan ja/tai pohjukaissuolen haavapotilailla. Tutkimuksen otsikko on aineistossa katkaistu, joten vertailuasetelma ja päätetapahtuma tulee tarkistaa. |
 
----
+Lähin vahvempi näyttö on pohjukaissuolihaavan (duodenal ulcer) osalta, jossa on useita tutkimuksia:
 
-## Kirjallisuuden näyttö
+| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset havainnot |
+|---------|------|------|------|---------|
+| [NCT02084420](https://clinicaltrials.gov/study/NCT02084420) | Vaihe 3 | Päättynyt | 323 | Ilapratsoli vs. pantopratsoli H. pylori -eradikaatiossa haavapotilailla |
+| [NCT00374101](https://clinicaltrials.gov/study/NCT00374101) | Vaihe 3 | Päättynyt | 450 | Suuri vs. tavanomainen PPI-annos verenvuotavan peptisen haavan endoskooppisen hoidon yhteydessä |
+| [NCT00843063](https://clinicaltrials.gov/study/NCT00843063) | Vaihe 4 | Päättynyt | 161 | Famotidiini vs. pantopratsoli aspiriinin aiheuttaman haavan uusiutumisen ehkäisyssä |
+| [NCT02467621](https://clinicaltrials.gov/study/NCT02467621) | Vaihe 4 | Päättynyt | 3350 | SUP-ICU: stressihaavan ehkäisy tehohoitopotilailla PPI:llä |
+| [NCT02551744](https://clinicaltrials.gov/study/NCT02551744) | Ei sovellu | Päättynyt | 101 | Pantopratsoli vs. famotidiini haavan uusiutumisen ehkäisyssä tienopyridiinien käyttäjillä |
+| [NCT00261300](https://clinicaltrials.gov/study/NCT00261300) | Vaihe 3 | Päättynyt | 100 | Pitkäaikainen pantopratsolihoito kroonisissa happoperäisissä oireissa; pieni, ei spesifinen pohjukaissuolihaavalle |
+| [NCT01182597](https://clinicaltrials.gov/study/NCT01182597) | Vaihe 3 | Tuntematon | 190 | Suun kautta vs. suonensisäinen PPI korkean riskin verenvuotohaavoissa |
+| [NCT00161096](https://clinicaltrials.gov/study/NCT00161096) | Vaihe 3 | Tuntematon | 276 | Pantopratsoli 20 mg tarvittaessa vs. päivittäin kroonisessa happolääkityksessä |
 
-| PMID | Vuosi | Tyyppi | Aikakauslehti | Keskeiset löydökset |
-|------|-----|------|------|---------|
-| [18824852](https://pubmed.ncbi.nlm.nih.gov/18824852/) | 2008 | RCT | Digestion | Prospektiivinen satunnaistettu tutkimus, jossa verrattiin pantoprazolin jatkuvaa ja jaksoittaista infuusiota peptisen haavaverenvuodon uusiintumisen ehkäisyssä endoskooppisen hoidon jälkeen. |
-| [16677158](https://pubmed.ncbi.nlm.nih.gov/16677158/) | 2006 | RCT | Journal of Gastroenterology and Hepatology | Prospektiivinen RCT: pantoprazolin infuusio endoskooppisen hoidon lisähoidoksi vähentää uusiintumista peptisen haavaverenvuodossa. |
-| [12752349](https://pubmed.ncbi.nlm.nih.gov/12752349/) | 2003 | RCT | Alimentary Pharmacology & Therapeutics | Vertaili kolmea pantoprasoolia sisältävää kolmoishoitoskeemaa H. pylori -elinaineiston ja mahan haavan paranemisessa. |
-| [15244210](https://pubmed.ncbi.nlm.nih.gov/15244210/) | 2003 | Vertaileva kliininen tutkimus | Hepato-gastroenterology | Vertaili lansoprasoolia ja pantoprasoolia aktiivisen kaksitostasuolen haavan ja H. pylori -elinaineiston hoidossa. |
-| [9678814](https://pubmed.ncbi.nlm.nih.gov/9678814/) | 1998 | RCT | Alimentary Pharmacology & Therapeutics | Kahden viikon pantoprazolihoidon yhdistelmä yksiviikoisen amoksisiiliini/klaritromysiini-hoidon kanssa oli tehokas H. pylori -elinaineistoon ja kaksitostasuolen haavan paranemiseen. |
-| [38384180](https://pubmed.ncbi.nlm.nih.gov/38384180/) | 2024 | RCT | Gut and Liver | Monitapauksinen satunnaistettu aktiivisen kontrollin tutkimus tegoprazoista (P-CAB) verrattuna PPI-luokan vertailuaineeseen keinotekoisen endoskooppisen resektion aiheuttaman haavan paranemisessa. |
-| [22919877](https://pubmed.ncbi.nlm.nih.gov/22919877/) | 2012 | Kliininen tutkimus | Medical Archives (Sarajevo) | Arvioi PPI:n tehokkuutta endoskooppisen hemostaasin jälkeen verenvuotavassa peptisessä haavassa, mukaan lukien H. pylori -infektioon liittyvä rooli. |
-| [19938880](https://pubmed.ncbi.nlm.nih.gov/19938880/) | 2009 | Katsaus | Clinical Drug Investigation | Yleiskatsaus pantoprazolin farmakologiaan: peruuttamaton H+/K+-ATPaasin inhibiitio; todetaan, että kliinisesti merkittäviä lääkkeiden välisiä vuorovaikutuksia ei ole havaittu. |
-| [9017763](https://pubmed.ncbi.nlm.nih.gov/9017763/) | 1997 | Katsaus | Pharmacotherapy | Tarkastelee PPI-mekanismia (H+/K+-ATPaasin inhibiitio) ja sen ylivertaisuutta H2-reseptoriantagonisteille magnan hapon eritytyksessä. |
-| [38345252](https://pubmed.ncbi.nlm.nih.gov/38345252/) | 2024 | Systemaattinen katsaus / Verkko-metaanalyysi | American Journal of Gastroenterology | Vertailee P-CAB:n ja PPI:n tehokkuutta ja turvallisuutta vaikean (Los Angelesin luokka C/D) refluksiesofagiitin paranemisessa. |
+Joukossa on myös peruttuja tai ennenaikaisesti päättyneitä tutkimuksia (NCT00881413, NCT00839488, NCT03038009), jotka eivät tuota käyttökelpoista näyttöä.
 
----
+Muille ennustetuille käyttöaiheille (gastrojejunaalihaava, haavan puhkeama, duodenogastrinen refluksi, pohjukaissuolen tukos) ei ole rekisteröityjä kliinisiä tutkimuksia.
 
-## Suomen markkinatiedot
+## Kirjallisuusnäyttö
 
-Pantoprazoli **ei ole tällä hetkellä markkinoilla Suomessa** (`market_status: Not marketed`, 0 lupaa tietueissa). Tässä näytössa ei ole saatavilla tuotteen lupaa, annosmuotoa tai hyväksytyn indikaation tietoja.
+Ensisijaiselle käyttöaiheelle löytyneestä kirjallisuudesta merkittävimmät kohteet:
 
----
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|---------|-----|------|------|---------|
+| [38345252](https://pubmed.ncbi.nlm.nih.gov/38345252/) | 2024 | Systemaattinen katsaus ja meta-analyysi | Am J Gastroenterol | P-CAB-lääkkeet vs. PPI vaikean (C/D) ruokatorvitulehduksen paranemisessa |
+| [38384180](https://pubmed.ncbi.nlm.nih.gov/38384180/) | 2024 | RCT | Gut Liver | Tegopratsoni endoskooppisen resektion aiheuttamien haavojen hoidossa |
+| [10638560](https://pubmed.ncbi.nlm.nih.gov/10638560/) | 2000 | Kliininen tutkimus | Am J Gastroenterol | Pantopratsoli vs. ranitidiini pohjukaissuolihaavan hoidossa (Brasilia) |
+| [15244210](https://pubmed.ncbi.nlm.nih.gov/15244210/) | 2003 | Kliininen tutkimus | Hepatogastroenterology | Lansopratsoli vs. pantopratsoli aktiivisessa pohjukaissuolihaavassa ja H. pylori -eradikaatiossa |
+| [19938880](https://pubmed.ncbi.nlm.nih.gov/19938880/) | 2009 | Katsaus | Clin Drug Investig | Pantopratsolin farmakologia ja kliininen käyttö |
+| [21534455](https://pubmed.ncbi.nlm.nih.gov/21534455/) | 2011 | Katsaus | Med Arh | PPI-lääkkeet refluksitaudin hoidossa |
+| [11060758](https://pubmed.ncbi.nlm.nih.gov/11060758/) | 2000 | Katsaus | Expert Opin Investig Drugs | Uudet hoitomenetelmät mahalaukun ja pohjukaissuolen haavoihin |
+| [38652367](https://pubmed.ncbi.nlm.nih.gov/38652367/) | 2024 | Eläinkoe | Inflammopharmacology | Pantopratsolin ja mesenkymaalisten kantasolujen yhdistelmä rotan mahahaavassa |
 
-## Turvallisuuden huomioitavat asiat
+Pohjukaissuolihaavan osalta vahvimmat suorat tutkimukset ovat satunnaistetut vertailut:
 
-Katso turvallisuustiedot pakkausselosteesta.
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|---------|-----|------|------|---------|
+| [7569755](https://pubmed.ncbi.nlm.nih.gov/7569755/) | 1995 | RCT | Scand J Gastroenterol | Pantopratsoli vs. ranitidiini akuutissa pohjukaissuolihaavassa |
+| [7614102](https://pubmed.ncbi.nlm.nih.gov/7614102/) | 1995 | RCT | Eur J Gastroenterol Hepatol | Pantopratsoli 40 mg vs. omepratsoli 20 mg akuutissa pohjukaissuolihaavassa |
+| [7781461](https://pubmed.ncbi.nlm.nih.gov/7781461/) | 1995 | RCT | Dig Dis Sci | Pantopratsoli vs. ranitidiini 276 potilaalla |
+| [8882382](https://pubmed.ncbi.nlm.nih.gov/8882382/) | 1996 | Katsaus | Drugs | Pantopratsoli oli ranitidiinia parempi ja omepratsolin veroinen lyhytaikaishoidossa |
 
----
+## Markkinatiedot Suomessa
 
-## Johtopäätös ja seuraavat vaiheet
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/001097 | Controloc Control | – | Gastroesofageaalinen refluksi |
+| EMEA/H/C/001098 | Somac Control | – | Gastroesofageaalinen refluksi |
+| EMEA/H/C/001013 | Pantozol Control | – | Gastroesofageaalinen refluksi |
 
-**Päätös: Jatka varauksilla**
+Kaikki kolme myyntilupaa (valmistaja Takeda GmbH) on peruutettu, eikä voimassa olevia lupia ole.
+
+## Turvallisuushuomiot
+
+- **Tietokannan vasta-aiheet (tietämysgraafiin perustuvat, eivät valmisteyhteenvedosta):** osteoporoosi, postmenopausaalinen osteoporoosi, luunmurtuma ja pernisiöösi anemia.
+- **Lääkeyhteisvaikutukset:** yhteisvaikutuksia on kirjattu yhteensä 100. Näytteessä merkittäviä (Major) ovat:
+  - asalabrutinibi
+  - atsanaviiri
+
+  Keskivaikeita (Moderate) ovat mm. hydroklooritiatsidi, alpelisibi, amfoterisiini B, amikasiini, amfetamiini, fenofibraatti, apalutamidi, armodafiniili, atorvastatiini, bosutinibi ja bumetanidi. Vähäisiä (Minor) ovat mm. asetyylisalisyylihappo, aksitinibi, bortetsomibi, brivarasetaami ja syanokobalamiini.
+
+Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat, joten ne tulee tarkistaa valmisteyhteenvedosta.
+
+## Johtopäätös ja jatkotoimet
+
+**Päätös: Etene suojatoimin (Proceed with Guardrails)**
 
 **Perustelut:**
-Pantoprazolin mekaaninen ja kliinisen tutkimuksen näyttö aktiivisesta peptisestä haavasta on vahva (L1, sisältäen suoran vaiheen 3 RCT:n ja useita tukevia RCT:tä haavan paranemisesta/verenvuodon uusiintumisen ehkäisystä), mutta näytön itse merkitsee tätä ennustetta todennäköisesti heijastavan puutteen alkuperäisen indikaation lähtötiedon sijaan kuin todellisen uuden uudelleentarkoitussignaalin — joten sitä tulisi käsitellä tietojen laadun havaintona ensin ja uudelleentarkoituskandidaattina toiseksi, kunnes lähtötiedot on korjattu.
+- Pantopratsolin happoestomekanismi sopii suoraan peptisen haavataudin ja pohjukaissuolihaavan hoitoon, ja näille on useita vaiheen 3 tutkimuksia sekä satunnaistettuja vertailuja ranitidiiniin ja omepratsoliin. Peptisen haavataudin ensisijaisessa ennusteessa suoraa tukea antaa kuitenkin vain yksi päättynyt vaiheen 3 tutkimus, jonka otsikko on katkaistu.
+- Muiden ennustettujen käyttöaiheiden päätökset: gastrojejunaalihaava, haavan puhkeama ja duodenogastrinen refluksi ovat tutkimuskysymystasolla (L3), ja pohjukaissuolen tukos on pidossa (Hold; L5), koska tila on mekaaninen eikä happoesto ratkaise sitä.
+- Suomessa kaikki myyntiluvat on peruutettu, mikä rajoittaa suoraa käyttöönottoa.
 
-**Jatkamista varten tarvitaan seuraavat tiedot:**
-- TFDA:n pakkausseloste (varoitukset/vasta-aiheet) — tällä hetkellä **estävä** tietovahe (DG001); vaaditaan ennen mitään S1-turvallisuusseulontaa
-- DrugBank-peräinen vaikutusmekanismi (MOA) — tällä hetkellä **korkea**-vakavuuden tietovahe (DG002)
-- `drug.original_indications` -kentän täyttö, jotta tämän ja muiden viiden tämän näytön ehdokkaan (gastrojejunaalinen haava, peptisen haavan perforaatio, duodenogastrinen refluksi, kaksitostasormisuolen obstruksio, kaksitostasormisuolen haava) TxGNN-pistemäärät voidaan oikein erottaa merkityn uudelleenoppimisen virheistä
-- Suomen/Taiwanin sääntelyä ja lupaa koskevat tiedot, koska lääkettä ei ole tällä hetkellä markkinoilla (0 lupaa)
-- Lääkkeiden väliset vuorovaikutukset (DDI) — nykyinen kyselystatus on "not_found"
-
+**Etenemiseksi tarvitaan:**
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet (turvallisuusseulonnan estävä aineistopuute)
+- Tutkimuksen NCT02084420 vertailuasetelman ja päätetapahtuman varmistus
+- Virallinen mekanismitieto (DrugBank)
+- Myyntilupatilanteen selvitys Suomessa, koska voimassa olevia lupia ei ole
+- Luustoon liittyvien vasta-aiheiden (osteoporoosi, murtumat) ja B12-puutteen arviointi pitkäaikaiskäytössä
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

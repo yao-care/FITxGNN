@@ -2,7 +2,7 @@
 layout: default
 title: Cholic Acid
 parent: Kohtalainen näyttö (L3-L4)
-nav_order: 101
+nav_order: 112
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,85 +29,86 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Cholic Acid: Eksploratiivinen signaali sappihapposynteesin häiriöstä (vahvistamaton) HIV-infektiotautiin
+# Kolihappo: Ruoansulatuselinten sairauksista ja synnynnäisistä aineenvaihduntahäiriöistä HIV-infektioon
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Cholic acid (DrugBank ID: DB02659) ei sisälly tähän näytöpakettioon virallisina alkuperäisen indikaation ja toimintamekanismin (MOA) tietoina; kuitenkin rank 5 -ennusteeseen liitetyn kirjallisuuden ja tutkimusten perusteella (kuten Cholbam® -potilasrekisteri NCT03115086) voidaan päätellä sen todellisen kliinisen käytön kohdentuvan **sappihapposynteesin häiriöihin (Bile Acid Synthesis Disorder)**. TxGNN-malli asettaa tämän lääkkeen parhaiten ennustetuksi indikaatioksi **HIV-infektiotaudin**, ennustepisteet saavuttaen **99,79 %**, mutta tukevaa näyttöä on vain **9 julkaisua**, **ei yhtään rekisteröityä kliinistä tutkimusta**, ja yksi tutkimus osoittaa sen johdannaisaineen **edistävän** HIV-1-viruksen lisääntymistä, eikä näyttö ole johdonmukaista.
+Kolihappo (kolaatti) on sappihappo, jota on käytetty ruoansulatuselinten sairauksien ja synnynnäisten aineenvaihduntahäiriöiden, erityisesti sappihappojen synteesihäiriöiden, hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **HIV-infektioon**, mutta ennusteen tukena on vain **0 kliinistä tutkimusta** ja **5 julkaisua**, jotka ovat pääosin prekliinisiä tai epäsuoria. Osa aineistosta viittaa jopa päinvastaiseen suuntaan.
 
 ---
 
-## Pika-yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Sappihapposynteesin häiriö (johdettu kirjallisuuden perusteella, ei muodollisesti rakennetun lääkintödata-aineistossa) |
-| Ennustettu uusi indikaatio | HIV infectious disease |
+|------|------|
+| Alkuperäinen käyttöaihe | Ruoansulatuselinten sairaudet; synnynnäiset aineenvaihduntahäiriöt |
+| Ennustettu uusi käyttöaihe | HIV-infektio |
 | TxGNN-ennustepistemäärä | 99,79 % |
-| Näyttöjen taso | L4 |
-| Suomen markkinatilanne | Not marketed |
-| Myyntilupien lukumäärä | 0 |
-| Suositeltu päätös | Hold |
+| Näytön taso | L4 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien lukumäärä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Miksi tämä ennuste on järkevä?
+## Miksi ennuste voisi olla perusteltu?
 
-Tällä hetkellä ei ole saatavilla yksityiskohtaisia cholic acid -toimintamekanismin (MOA) tietoja. Tämän näytöpaketin saatavilla olevan kontekstin perusteella cholic acid on primäärinen sappihapon muoto, jonka tiedetään käytettävän sappihapposynteesin häiriöissä (kuten kaupallisesti saatavassa Cholbam®:ssa, katso rank 5 -ennusteen liitteessä NCT03115086 -potilasrekisteri ja PMID 35392794), joka vaikuttaa elimistössä pääasiassa CYP7A1:n negatiivisen takaisinkytkennän kautta kolesteroli-/sappihapon aineenvaihdunnan reitillä. Tällä ei ole suoraa fysiologista yhteyttä ensimmäisenä rankattuun "HIV-infektiotaudin" ennusteeseen.
+Kolihappo on ihmisen elimistön oma ensisijainen sappihappo. Se toimii farnesoidi X -reseptorin (FXR) ja sappihapporeseptori GPBA:n (GPBAR1) ligandina. Tutkimuksissa on kuvattu sen käyttöä sappihappojen synteesihäiriöiden hoidossa, joissa se korvaa puuttuvaa sappihappoa ja vähentää myrkyllisten välituotteiden muodostumista. Yksityiskohtaista vaikutusmekanismitietoa ei ole tässä aineistossa saatavilla.
 
-HIV-infektiotaudin ennustetta tukevan kirjallisuuden pääasiallinen lähde on 1990-luvun tutkimuksista, jotka käsittelevät sodium cholate -sisältäviä vaginaalisia spermitsidejä/antibakteerisia käämiä (kuten Protectaid), ja niissä näytettiin cholic acid -vaikutus HIV-1 käänteiskääntäjään annoksesta riippuvaisesti (PMID 7688380). Kuitenkin toinen vuonna 2006 julkaistu tutkimus (PMID 16610808) osoitti, että cholic acid -aminojohdannainen **indusoivat** HIV-1 -lisääntymisen ja synsiitiumin muodostumisen, mikä on vastoin hoitohypoteesia. Muut julkaisut ovat suurimmaksi osaksi havaintotutkimuksia, joissa AIDS-potilailla käytettiin proteiaasin estäjiä ja niiden seurauksena plasman sappihapon pitoisuudet muuttuivat, ja nämä ovat suhteellisia tietoja eikä hoitollista näyttöä. Kokonaisuudessaan tämä ennuste on tällä hetkellä vain mallin pistemäärän ohjaamaa eksploratiivista signaalia, ja sille puuttuu johdonmukainen mekanistinen tuki ja kliininen validointi.
+Yhteys HIV-infektioon on heikko. Varhaiset laboratoriotutkimukset (1993) osoittivat natriumkolaatin spermisidisen ja in vitro -antiviraalisen vaikutuksen osana emättimeen asetettavaa ehkäisysientä, mutta kyse oli paikallisesta, prekliinisestä vaikutuksesta. Toisaalta kolihappojohdannaisten raportoitiin vuonna 2006 lisäävän HIV-1:n replikaatiota ja synsytioiden muodostusta T-soluissa, mikä viittaa vastakkaiseen suuntaan. Proteaasinestäjähoitoa saavien HIV-potilaiden sappihappopitoisuuksia käsittelevä tutkimus on havaintotutkimus eikä osoita hoitohyötyä.
 
----
-
-## Kliinisen tutkimuksen näyttö
-
-Yhtään asiaankuuluvaa kliinistä tutkimusta ei ole tällä hetkellä rekisteröity.
+Erittäin korkea TxGNN-pistemäärä ei siis saa tukea kliinisestä näytöstä.
 
 ---
 
-## Kirjallisuuden näyttö
+## Kliininen tutkimusnäyttö
 
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
-|------|-------|--------|-------|-------------------|
-| [9238301](https://pubmed.ncbi.nlm.nih.gov/9238301/) | 1997 | Katsaus | Annals of the New York Academy of Sciences | Käsittelee cholic acid -sisältäviä vaginaalisia spermitsidikäämiä sukupuolitautien estämisen estoinä, luonteeltaan kirjallisuuskatsaus, ei alkuperäistä HIV-hoitotietoa |
-| [16610808](https://pubmed.ncbi.nlm.nih.gov/16610808/) | 2006 | In vitro (negatiivinen tulos) | Journal of Medicinal Chemistry | Cholic acid -aminojohdannainen **indusoivat** odottamatta HIV-1 -lisääntymisen ja T-solun synsiitiumin muodostumisen, mikä on vastoin antiviraalista hypoteesia |
-| [7688380](https://pubmed.ncbi.nlm.nih.gov/7688380/) | 1993 | In vitro/esikliininen | Human Reproduction | Natrium kolaat osoitti annoksesta riippuvaisen spermitsidisen ja HIV-1 käänteiskääntäjän estovaikutuksen in vitro, muodosti perustan Protectaid-käämin suunnittelulle |
-| [7848210](https://pubmed.ncbi.nlm.nih.gov/7848210/) | 1994 | Katsaus | Aust N Z J Obstet Gynaecol | Katsaa erilaisia ehkäisy- ja sukupuolitautien estomenetelmiä, ei tarjoa cholic acidista kliinistä tietoa |
-| [8849197](https://pubmed.ncbi.nlm.nih.gov/8849197/) | 1995 | Katsaus | Ann Acad Med Singapore | Katsaa estemuotoisen ehkäisyn vaikutusta sukupuolitautien/HIV-suojaukseen, kondomi-näyttö on kattavin, ei liity cholic acid -kliiniseen tietoon |
-| [32052857](https://pubmed.ncbi.nlm.nih.gov/32052857/) | 2020 | Katsaus | Hepatology | Käsittelee HIV-potilaita, jotka on suljettu pois NASH-uusista lääketutkimuksista antiretroviraalisista lääkkeiden vuorovaikutuksista johtuen, ei käsittele cholic acidin tehokkuutta HIV:lla |
-| [20030469](https://pubmed.ncbi.nlm.nih.gov/20030469/) | 2010 | Havainnoiva kohortti | Pharmacotherapy | HIV-potilaiden plasmanappihappojen pitoisuuksien muuttuminen proteiaasin estäjien käytön aikana, tutkii yhteyttä maksan myrkyllisyyteen, on suhteellista tietoa eikä hoitollista näyttöä |
-| [2870224](https://pubmed.ncbi.nlm.nih.gov/2870224/) | 1986 | In vitro (viruksen inaktivaatio) | Lancet | TNBP/natrium kolaat käytettiin verituotteiden viruksen inaktivaatioon (HBV/HTLV-III), ei systeeminen antiviraalihoito |
-| [28745428](https://pubmed.ncbi.nlm.nih.gov/28745428/) | 2017 | Metodologia/assayteartefakti | ChemMedChem | Osoittaa, että pinta-aktiivinen aine Triton X-100 vääristää HIV-1-proteiaasin estäjien sitoutumismittauksia, on metodologinen varoitus, ei liity cholic acidin itsensä tehokkuuteen |
+Ei tällä hetkellä rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
 ---
 
-## Suomen markkinatiedot
+## Kirjallisuusnäyttö
 
-Cholic acid ei ole tällä hetkellä saanut mitään myyntilupaa Suomessa (myyntilupien lukumäärä: 0), markkinatilanne on "Not marketed".
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [7688380](https://pubmed.ncbi.nlm.nih.gov/7688380/) | 1993 | Prekliininen / varhainen laitetutkimus | Hum Reprod | Natriumkolaatilla on spermisidinen ja in vitro HIV-1:tä estävä vaikutus; ehkäisysieni (Protectaid) |
+| [16610808](https://pubmed.ncbi.nlm.nih.gov/16610808/) | 2006 | In vitro | J Med Chem | Aminofunktionalisoidut kolihappojohdannaiset lisäsivät HIV-1:n replikaatiota ja synsytioiden muodostusta |
+| [20030469](https://pubmed.ncbi.nlm.nih.gov/20030469/) | 2010 | Kohortti | Pharmacotherapy | Plasman sappihappopitoisuudet proteaasinestäjiä saavilla HIV-potilailla; mahdollinen yhteys maksatoksisuuteen |
+| [7848210](https://pubmed.ncbi.nlm.nih.gov/7848210/) | 1994 | Katsaus | Aust N Z J Obstet Gynaecol | Tulevaisuuden ehkäisymenetelmät HIV-infektion valossa |
+| [8849197](https://pubmed.ncbi.nlm.nih.gov/8849197/) | 1995 | Katsaus | Ann Acad Med Singapore | Ehkäisyesteet ja sukupuolitaudit |
+
+---
+
+## Myyntiluvat Suomessa
+
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/001250 | Orphacol (Theravia) | – | Ruoansulatuselinten sairaudet; synnynnäiset aineenvaihduntahäiriöt (peruutettu) |
 
 ---
 
 ## Turvallisuusnäkökohdat
 
-Katso turvallisuustietoja lääkkeen pakettiselosteesta.
+- **Tietämysgraafin vasta-aiheet** (ei valmisteyhteenvedon teksti): maksasairaus, sappirakon sairaus, ripulisairaudet, kolestaasi, hyvänlaatuinen toistuva intrahepaattinen kolestaasi, familiaalinen intrahepaattinen kolestaasi, umpilisäketulehdus, sklerosoiva kolangiitti, primaarinen biliaarinen kolangiitti ja Reynoldsin oireyhtymä.
+- **Lääkeyhteisvaikutukset:** Yhteensä 12 kirjattua yhteisvaikutusta tai kohdetta. Kymmenen on merkitykseltään kohtalaisia: kolestyramiini, alumiinihydroksidi, kolesevelaami, kolestipoli, siklosporiini, fenobarbitaali, ribosiklibi, sorafenibi, sukralfaatti ja tipranaviiri. Sappihappoja sitovat lääkkeet (kolestyramiini, kolesevelaami, kolestipoli) voivat todennäköisesti heikentää imeytymistä. Lisäksi lääkkeen farmakologisina kohteina on kirjattu GPBA-reseptori ja farnesoidi X -reseptori.
 
-(Tämän näytöpaketin keskeiset varoitukset, vasta-aiheet ja lääkkeen yhteisvaikutukset ovat kaikki "[Data Gap]" tai "not_found", ja meta.data_gaps -kohdassa DG001 "Fimea package insert warnings/contraindications" on merkitty **Blocking**-tasoksi, mikä vaikuttaa suoraan turvallisuuden alkuperäisen arvioinnin etenemiseen.)
+Muiden turvallisuustietojen osalta katso valmisteyhteenveto.
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Johtopäätös ja jatkotoimet
 
-**Päätös: Hold**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Parhaiten rankatun ennustetun indikaation (HIV-infektiotauti) näyttötaso on vain L4, eikä se ole tuettu millään kliinisillä tutkimuksilla, ja nykyisen kirjallisuuden suunta on epäjohdonmukainen (jopa yksi tutkimus osoittaa negatiivisen tuloksen viruksen lisääntymisen edistämisestä), mikä ei ole riittävää edistymiselle. Lisäksi turvallisuuden alkuperäisen arvioinnin edellyttämät paketin selosteen varoitukset/vasta-aiheet (DG001) ovat Blocking-tason aukkoja, eikä mitään jatkovaiheita voida tehdä ennen niiden täyttämistä.
+- Ennuste perustuu lähinnä malliin. Kliinisiä tutkimuksia ei ole, prekliininen näyttö on ristiriitaista ja osa viittaa HIV:n replikaation lisääntymiseen. Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa.
 
-**Jos halutaan edetä, on täytettävä:**
-- TFDA/alkuperäisen valmistajan paketin selosteen varoitukset ja vasta-aiheet (DG001 ratkaisemiseksi, Blocking-taso)
-- DrugBank-toimintomekanismi (MOA) -tiedot (DG002 ratkaisemiseksi)
-- Suora in vivo/kliininen farmakologinen näyttö HIV-infektiotaudin osalta selvittääkseen, ovatko PMID 16610808:n negatiiviset löydökset edustavia
-- Lisäsuositus: tämän näytöpaketin rank 5 (vitamiinin puutossairaus) -kohdan liitteenä olevat kirjallisuus ja tutkimukset (NCT03115086, PMID 35392794 jne.) viittaavat itse asiassa cholic acidin nykyiseen kliiniseen käyttöön "sappihapposynteesin häiriössä", jonka näyttövoima ja asiaankuuluvuus ovat huomattavasti parempia kuin rank 1:n HIV-indikaatio. Arviointatiimi suositellaan vahvistamaan etusijaisesti, pitäisikö tämä indikaatio sisällyttää viralliseen vanhojen lääkkeiden uudelleenkäyttöön/uusien indikaatioiden laajennus-polun arviointiin
-
+**Eteenpäin siirtyminen edellyttää:**
+- Vaikutusmekanismin tarkempaa kuvausta.
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittämistä.
+- Uusia in vitro- ja eläinkokeita, joissa selvitetään kolihapon vaikutus HIV:n replikaatioon (ristiriitainen aiempi näyttö).
+- Tarvittaessa toisen, paremmin tuetun ennustetun käyttöaiheen tarkastelua. Esimerkiksi rasvaliukoisten vitamiinien puutos sappihappojen synteesihäiriöissä on epäsuorasti tuettu, mutta se on pikemminkin alkuperäisen käyttöaiheen sivuhyöty kuin uusi käyttöaihe.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

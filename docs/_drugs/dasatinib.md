@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Dasatinib
-parent: Kohtalainen näyttö (L3-L4)
-nav_order: 112
-evidence_level: L3
+parent: Vahva näyttö (L1-L2)
+nav_order: 129
+evidence_level: L2
 indication_count: 10
 ---
 
 # Dasatinib
 {: .fs-9 }
 
-Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,85 +29,108 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Dasatinibi: Kroonisesta myeloidileukemiasta Ewingin sarkooma
+# Dasatinibi: Kroonisesta myelooisesta leukemiasta Ewingin sarkoomaan
 
 ## Yhden lauseen yhteenveto
 
-Dasatinibi on toisen sukupolven tyrosiinikinaasi-inhibiittori, joka on hyväksytty kroonisen myeloidileukemian (CML) ja Philadelphian-kromosomin positiivisen akuutin lymfoblastisen leukemian (Ph+ ALL) hoitoon. TxGNN-mallin pääennuste on, että se saattaa olla tehokas myös **Ewingin sarkooma**ssa, ja siitä on tunnistettu tällä hetkellä **3 kliinistä tutkimusta** ja **9 julkaisua**, vaikka mekanistinen perustelu (SRC/FAK-signalointipolun estäminen) on vahvempi kuin kliininen näyttö, joka pysyy suurelta osin prekliinisenä ja ei-tautikohtaisena.
+Dasatinibi on tyrosiinikinaasin estäjä, jota käytetään alun perin Philadelphia-kromosomipositiivisen kroonisen myelooisen leukemian (KML) ja akuutin lymfoblastileukemian hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **Ewingin sarkoomaan**,
+mutta ennusteen tukena on vain **2 kliinistä tutkimusta** ja **useita enimmäkseen prekliinisiä julkaisuja**. Yksittäislääkkeenä teho sarkoomissa on jäänyt vaatimattomaksi.
 
-> **Huomio mallin validoinnista:** TxGNN:n rank-2-ennuste dasatiinille on "myeloidileukemia" — mikä ei ole uusi indikaatio vaan dasatinibin *alkuperäinen*, jo hyväksytty käyttötarkoitus (vahvistettu DASISION-tutkimuksella, PMID 27217448, tässä samassa näyttöpaketissa). Tämä on hyödyllinen järkevyyden tarkistus: malli palauttaa oikein tunnetun todellisen positiivisen tuloksen, mikä antaa epäsuorasti uskottavuutta sen Ewingin sarkooman rankaukselle, mutta ei korvaa tautikohtaista validointia.
+---
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
-| Kohde | Sisältö |
+| Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Krooninen myeloidileukemia (CML) / Ph+ ALL *(ei ole läsnä Taiwan/Suomen sääntelyaineistossa — lääke ei ole markkinoilla siellä; perustuu globaalisti vahvistettuihin hyväksyttyihin käyttötarkoituksiin, joita tämän näyttöpaketin kirjallisuus tukee)* |
-| Ennustettu uusi indikaatio | Ewingin sarkooma |
-| TxGNN-ennusteen pistemäärä | 99.90% (rank 1502) |
-| Näytön taso | L3 |
-| Suomen markkinatilanne | ✗ Ei markkinoilla |
-| Hyväksynnän määrä | 0 |
-| Suositeltu päätös | Odota |
+| Alkuperäinen käyttöaihe | Prekursorisolu-lymfoblastileukemia/lymfooma; krooninen myelooinen leukemia, BCR-ABL-positiivinen |
+| Ennustettu uusi käyttöaihe | Ewingin sarkoomaa (Ewing sarcoma) |
+| TxGNN-ennusteen pistemäärä | 99,90 % |
+| Näytön taso | L2 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 2 (molemmat peruutettu) |
+| Suositeltu päätös | Hold (odottamaan; ennuste on tutkimuskysymys, ei vielä siirtokelpoinen) |
 
-## Miksi tämä ennuste on järkevä?
+---
 
-Tällä hetkellä yksityiskohtaista toimintamekanismin tietoa ei ole saatavilla (tietoaukko, korkea vakavuus). Tunnetun tiedon perusteella dasatinibi on monikohteinen kinaasi-inhibiittori, joka alun perin kehitettiin BCR-ABL-ohjattujen leukemioiden hoitoon, ja sen teho kroonisessa myeloidileukemiassa ja Ph+ ALL:ssa on hyvin vakiintunut ja mekanistisesti se saattaa olla tehokas myös hematopoieettisten kasvainten ulkopuolella sen aktiivisuuden vuoksi SRC-perhekinaasin, c-KIT:n ja PDGFR-β:n vastaisesti.
+## Miksi ennuste on perusteltu?
 
-Ewingin sarkooma on biologisesti selvästi erillään CML:stä — se on luun/pehmeän kudoksen sarkoomia neuroektodermaalista alkuperää, jota ohjaa EWSR1-FLI1-fuusiogeeni, ei BCR-ABL. Siksi sillä ei ole jaettu sairauden perimää dasatinibin alkuperäisen indikaation kanssa; perustelu sen sijaan perustuu kokonaan jaettuun alasvirran molekyylikohteeseen eikä jaettuun tumorin alkuperään.
+Tämän raportin varten koottu aineisto ei sisällä yksityiskohtaista vaikutusmekanismitietoa. Tunnetun tiedon perusteella dasatinibi estää BCR-ABL:ia sekä SRC-perheen kinaaseja, KIT:iä ja PDGFR:ää. Sen teho BCR-ABL-ohjatuissa leukemioissa on osoitettu, ja mekanistisesti SRC-estoa voidaan pitää relevanttina myös Ewingin sarkoomassa.
 
-Mekanistisesti Ewingin sarkooman solujen invaasiota ja metastaasiota ohjaa vahvasti SRC/FAK-signalointi. Dasatinibi, voimakkaana SRC-perhekinaasin estäjänä, on osoitettu in vitro -kokeissa tukahduttavan migraatiota/invaasiota ja aiheuttavan apoptoosia Ewingin sarkooman solulinjoissa. Tämä on kuitenkin epäsuora mekanistinen yhteys (alavirtaan signaloinnin solmun estäminen) eikä suora osuma taudin ohjaajageeniin, ja yksittäin annettu dasatinibi on aiemmin alitoiminut Phase 2:n korisarja-tutkimuksessa, joka sisälsi Ewingin sarkooman — mikä viittaa siihen, että mahdollinen tulevaisuuden kliininen hyöty vaatisi todennäköisesti yhdistelmästrategioita yksittäisagenttihoidon sijasta.
+Prekliiniset tutkimukset osoittavat, että SRC- ja FAK-SRC-signalointi edistää Ewingin sarkoomasolujen invadopodioiden muodostumista, migraatiota ja invaasiota. Dasatinibi esti solulinjoissa sarkoomasolujen proliferaatiota ja migraatiota.
+
+Kliininen teho on kuitenkin epävarma. Vaiheen 2 tutkimuksessa edenneissä sarkoomissa dasatinibi yksittäislääkkeenä epäonnistui Ewingin sarkooman ja rabdomyosarkooman alaryhmissä. Hyöty rajoittuu todennäköisesti yhdistelmähoitoihin tai biomarkkerien perusteella valittuihin potilaisiin.
+
+---
 
 ## Kliinisen tutkimuksen näyttö
 
-| Tutkimusnumero | Vaihe | Tilanne | Osallistujamäärä | Tärkeimmät löydökset |
+| Tutkimusnumero | Vaihe | Tila | Osallistujia | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT00788125](https://clinicaltrials.gov/study/NCT00788125) | Phase 1/2 | Lopetettu | 7 | Ewingin sarkooman ja siihen liittyvien kasvainten hoitoon tarkoitettu dasatinibin ja ifosfamidi-, karboplatiini- ja etopositiidiyhdistelmällä toteutettu pediatrinen tutkimus; tutkimus lopetettiin, ja pieni otoskoko (n=7) rajoittaa johtopäätöksien tekemistä merkittävästi. |
-| [NCT00464620](https://clinicaltrials.gov/study/NCT00464620) | Phase 2 | Valmistunut | 366 | Yksittäisen dasatinibin korisarja-tutkimus edistyneissä sarkoomeissa (vasteen esiintyminen, 6 kuukauden PFS); Ewingin sarkooma oli yksi useista sisällytetyistä alatyypeistä, ei tautispesifinen suunnittelu — Ewingin sarkooman erityisiä alaotostuloksia ei raportoitu täällä. |
-| [NCT06500819](https://clinicaltrials.gov/study/NCT06500819) | Phase 1 | Rekrytoi | 41 | B7-H3 CAR-T-soluterapiatutkimus (ei dasatinibi) pediatrisissa/nuoren aikuisuuden uusiutuneissa/refraktaarisissa kiinteissä kasvaimissa; päällekkäinen vain sairauspopulaation osalta, ei tutkimuslääkkeen osalta. |
+| [NCT00788125](https://clinicaltrials.gov/study/NCT00788125) | Vaihe 1/2 | Keskeytetty | 7 | Lasten tutkimus: dasatinibi + ifosfamidi, karboplatiini ja etoposidi. Vain 7 potilasta, joten tehotietoa on hyvin vähän. |
+| [NCT00464620](https://clinicaltrials.gov/study/NCT00464620) | Vaihe 2 | Päättynyt | 366 | Dasatinibi edenneissä sarkoomissa (vasteosuus ja 6 kk:n etenemisvapaa elossaolo). Ei spesifi Ewingin sarkoomalle. |
 
-## Kirjallisuuden näyttö
+---
 
-| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät löydökset |
+## Kirjallisuusnäyttö
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [35190971](https://pubmed.ncbi.nlm.nih.gov/35190971/) | 2022 | Katsaus | Curr Treat Options Oncol | Kondrosarkooman systeemisen hoidon katsaus; sivuava suhteessa Ewingin sarkoomaan, todennäköisesti löydetty sarkoomatyyppien välisen haun päällekkäisyyden kautta. |
-| [26170970](https://pubmed.ncbi.nlm.nih.gov/26170970/) | 2015 | Katsaus | Oncology Letters | Src-signaloinnin rooli sarkooman biologiassa; tukee Src:ia mahdollisena terapeuttisen kohdeluokkana. |
-| [17363602](https://pubmed.ncbi.nlm.nih.gov/17363602/) | 2007 | Prekliininen (in vitro) | Cancer Research | Dasatinibi estää migraatiota/invaasiota useissa sarkooman solulinjoissa ja aiheuttaa apoptoosia Src-riippuvaisissa luusarkooman soluissa. |
-| [35655525](https://pubmed.ncbi.nlm.nih.gov/35655525/) | 2022 | Prekliininen | Sarcoma | Tutkii FAK-Src-kompleksin kohdintamista DSRCT:ssa, Ewingin sarkoomassa ja rabdomyosarkoomassa; huomioidaan, että yksittäinen dasatinibi epäonnistui aiemmin Phase 2 -tutkimuksessa näille alatyypeille, mikä motivoi yhdistelmälähestymistapoja. |
-| [18202781](https://pubmed.ncbi.nlm.nih.gov/18202781/) | 2008 | Prekliininen (in vitro) | Oncology Reports | Dasatinibi osoittaa antiproliferatiivista ja antimimigratiivista aktiviteettiä neuroblastoomassa ja Ewingin sarkoomassa solulinjoissa, yhdistetty c-KIT/PDGFR-estoon. |
-| [31521948](https://pubmed.ncbi.nlm.nih.gov/31521948/) | 2019 | Prekliininen | Neoplasia | Tenaskiini C ja Src yhteistoiminnassa ajavat invadopodian muodostumista ja metastaattista invaasiota Ewingin sarkoomassa. |
-| [27566104](https://pubmed.ncbi.nlm.nih.gov/27566104/) | 2016 | Prekliininen (in vitro) | Neoplasia | Mikro-ympäristön stressi indusoi Src-riippuvaista invadopodian aktivoitumista ja solun migraatiota Ewingin sarkoomassa. |
-| [29776413](https://pubmed.ncbi.nlm.nih.gov/29776413/) | 2018 | Prekliininen (eri aine: plerixafor) | Cell Commun Signal | CXCR4-antagonisti plerixafor (ei dasatinibi) edistää Ewingin sarkooman proliferaatiota reseptori-tyrosiinikinaasi-signaloinnin kautta; sisällytetty taudin päällekkäiseen hakuun, ei dasatinibi-tutkimus. |
-| [32999666](https://pubmed.ncbi.nlm.nih.gov/32999666/) | 2020 | Potilastapauskertomus | Case Reports in Oncology | Kuvaa harvinaista kromosomaalipoikkeavuutta CML:n blastikriisissä; ei liity Ewingin sarkoomaan — todennäköisesti hakuvirhe. |
+| [35655525](https://pubmed.ncbi.nlm.nih.gov/35655525/) | 2022 | Katsaus | Sarcoma | FAK-SRC-kompleksin kohdentaminen DSRCT:ssä, Ewingin sarkoomassa ja rabdomyosarkoomassa; dasatinibi yksittäislääkkeenä ei tehonnut näissä. |
+| [42804591](https://pubmed.ncbi.nlm.nih.gov/42804591/) | 2026 | Tapaussarja | J Pediatr Hematol Oncol | RIST-hoito (rapamysiini, irinotekaani, dasatinibi, temotsolomidi) uusiutuneessa Ewingin sarkoomassa. |
+| [26170970](https://pubmed.ncbi.nlm.nih.gov/26170970/) | 2015 | Katsaus | Oncol Lett | Srcin merkitys sarkoomissa mahdollisena lääkekohteena. |
+| [35190971](https://pubmed.ncbi.nlm.nih.gov/35190971/) | 2022 | Katsaus | Curr Treat Options Oncol | Kondrosarkooman systeeminen hoito. Epäsuora yhteys. |
+| [18202781](https://pubmed.ncbi.nlm.nih.gov/18202781/) | 2008 | Prekliininen (in vitro) | Oncol Rep | Dasatinibi esti neuroblastooma- ja Ewing-solulinjojen proliferaatiota ja migraatiota. |
+| [17363602](https://pubmed.ncbi.nlm.nih.gov/17363602/) | 2007 | Prekliininen (in vitro) | Cancer Res | Dasatinibi esti sarkoomasolujen migraatiota ja invaasiota sekä indusoi apoptoosia SRC-riippuvaisissa luusarkoomasoluissa. |
+| [27566104](https://pubmed.ncbi.nlm.nih.gov/27566104/) | 2016 | Prekliininen (in vitro) | Neoplasia | Mikroympäristön stressi aktivoi Src-riippuvaisesti invadopodioita ja solumigraatiota Ewingin sarkoomassa. |
+| [31521948](https://pubmed.ncbi.nlm.nih.gov/31521948/) | 2019 | Prekliininen (in vitro) | Neoplasia | Tenaskiini C ja Src edistävät yhdessä invadopodioiden muodostumista Ewingin sarkoomassa. |
 
-## Sytoktoksisuus
+---
 
-Dasatinibi on antineoplasminen aine (tyrosiinikinaasi-inhibiittoriluokka), joten tämä osio pätee. Huomio: TFDA:n/sääntelyasetuksen pakkausselostetiedot dasatiinille ovat **estävä** tietoaukko tässä näyttöpaketissa (pakkausselosteita ei ole saatavilla), joten alla olevat tiedot perustuvat lääkeluokkaan ja tässä näyttöpaketissa oleviin turvallisuussignaaleihin eikä viralliseen merkintään — ne eivät korvaa merkinnän tarkistamista.
+## Markkinatiedot Suomessa
 
-| Kohde | Sisältö |
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000709 | Sprycel (peruutettu) | – | Prekursorisolu-lymfoblastileukemia/lymfooma; krooninen myelooinen leukemia, BCR-ABL-positiivinen |
+| EMEA/H/C/006251 | Dasatinib Accord Healthcare (peruutettu) | – | Prekursorisolu-lymfoblastileukemia/lymfooma; krooninen myelooinen leukemia, BCR-ABL-positiivinen |
+
+---
+
+## Sytotoksisuus
+
+| Kohta | Sisältö |
 |------|------|
-| Sytoktoksisuuden luokitus | Kohdennettu terapia — toisen sukupolven monikohteinen tyrosiinikinaasi-inhibiittori (BCR-ABL, SRC-perhe, c-KIT, PDGFR-β) |
-| Luuydinsuppression riski | Kohtalainen–Korkea — sytopeniat (mukaan lukien trombosytopenia) ovat dasatinibin ja muiden BCR-ABL TKI:iden tunnettu luokkavaikutus (esim. erityinen tutkimus tutki IL-11:ää TKI-liittyvään trombosytopeniaan, NCT00493181); säännöllinen hematologlinen seuranta on perusteltua |
-| Pahoinvointiherkkyyden luokitus | Matala (suun kautta annettava kohdennettu terapia, ei tavanomainen sytotoksinen kemikaali) |
-| Seuranta-asiat | Täydellinen verenkuva erottelulla, maksan toiminta ja keuhko-/pleurastatukselle — tämän näyttöpaketin kirjallisuus dokumentoi dasatinibiin liittyvää pleuraefuusiota/kylotraksea ja interstiisin pneumoniittia luokkarelevantteina haittavaikutuksina |
-| Käsittelysuoja | Suun kautta otettava vaarallinen/antineoplasminen aine — laitoksen vaarallisten lääkkeiden käsittelystandardit pätevät; virallinen TFDA-merkinnän varoitus on vireillä (estävä tietoaukko) |
+| Sytotoksisuusluokitus | Kohdennettu hoito (tyrosiinikinaasin estäjä) |
+| Myelosuppressioriski | Korkea tai kohtalainen; tietoaineiston mukaan lääkkeeseen liitetään trombosytopenia, neutropenia ja agranulosytoosi |
+| Emetogeenisuusluokitus | Pieni; tarkista valmisteyhteenvedosta |
+| Seurattavat parametrit | Verenkuva (erittelylaskenta), maksa- ja munuaisarvot, QT-aika, nestekertymät (pleura- ja perikardiaaliefuusio) |
+| Käsittelysuojaus | Noudatettava sytostaattien käsittelyohjeita; tarkista valmisteyhteenvedosta |
 
-## Turvallisuusnäkökulmat
+---
 
-Ole hyvä ja katso pakkausselosteesta turvallisuustiedot. TFDA:n merkinnän varoitukset, kontraindikaatiot ja lääkeaineiden väliset vuorovaikutusdata eivät ole saatavilla (Estävä tietoaukko — DG001), joten yhtään strukturoitua turvallisuustietoa tästä näyttöpaketista ei voida siteerata täällä.
+## Turvallisuusnäkökohdat
 
-## Johtopäätös ja seuraavat vaiheet
+- **Vasta-aiheet ja riskitilat (tietämyskaaviosta, ei valmisteyhteenvedosta):** pitkä QT-oireyhtymä, torsades de pointes, maksasairaus, sappirakon sairaus, trombosytopenia, neutropenia, agranulosytoosi, sydämen vajaatoiminta, sydäninfarkti, anemia, aktiivinen mahahaava, aivoverenvuoto, perikardiaalinen effuusio.
+- **Lääkeinteraktiot:** tietoja löytyi yhteensä 100 interaktiosta. Merkittäviä (Major) ovat mm. famotidiini, ranitidiini, rabepratsoli, omepratsoli, simetidiini (happamuutta vähentävät lääkkeet), deksametasoni, asetyylisalisyylihappo ja klaritromysiini. Kohtalaisia (Moderate) ovat mm. hydrokortisoni, loperamidi, aprepitantti, budesonidi, magnesiumoksidi, alumiinihydroksidi ja kalsiumkarbonaatti.
 
-**Päätös: Odota**
+Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat aineistosta, joten tarkista ne valmisteyhteenvedosta.
+
+---
+
+## Johtopäätös ja jatkotoimet
+
+**Päätös: Hold**
 
 **Perustelut:**
-Mekanistinen perustelu (SRC/FAK-signalointipolkuriippuvuus Ewingin sarkoomassa) on uskottava, mutta kliininen tuki on heikko — ainoa merkityksellisen ilmoittautumismäärän omaava tautispesifinen tutkimus (NCT00464620) on ei-tautispesifinen sarcoma-korisarja-tutkimus, ja ainoa Ewingin sarkooman-kohdistettu tutkimus lopetettiin n=7:llä. Yhdessä estävän tietoaukon kanssa TFDA:n turvallisuus/merkintätiedoista (mikä estää jopa alkuperäisen S1-turvallisuusarvioinnin) ja lääkkeen ollessa markkinoimatta Suomessa, tälle ei ole riittävää perustaa jatkaa tällä hetkellä.
+- Ewingin sarkoomaa tukee prekliininen SRC-mekanismi, mutta kliininen teho yksittäislääkkeenä on jäänyt heikoksi: ainoa merkittävä tutkimus oli ei-spesifi sarkoomatutkimus ja Ewing-spesifinen lastentutkimus keskeytettiin 7 potilaalla. Lisäksi Suomessa ei ole voimassa olevia myyntilupia. Ennuste kannattaa käsitellä tutkimuskysymyksenä.
+- Muista ennusteista myeloidinen leukemia on tuettu parhaiten (L1), mutta valtaosa näytöstä koskee jo hyväksyttyä KML-käyttöaihetta, joten kyse ei ole varsinaisesta uudelleenkäytöstä. Todellista uutta suuntaa edustaa vaiheen 3 tutkimus ydinsitojatekijä-AML:ssä (PMID 41490515), jossa hyödynnetään KIT-mutaatioita.
 
-**Jatkamista varten tarvitaan seuraavat asiat:**
-- TFDA:n/sääntelyasetuksen pakkausseloste (varoitukset, kontraindikaatiot, DDI) estävän turvallisuusaukon ratkaisemiseksi
-- Vahvistettu toimintamekanismidata DrugBankista
-- Ewingin sarkooman-spesifeistä alaotostulokset NCT00464620:stä (valmistunut Phase 2 -korisarja-tutkimus)
-- Kaikki päivitetyt yhdistelmähoitotutkimukset, koska yksittäinen dasatinibi on aiemmin alitoiminut sarkoomatutkimuksissa
-
+**Jatkoon tarvitaan:**
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet (Fimean sivusto)
+- Yksityiskohtainen vaikutusmekanismitieto (DrugBank)
+- Ewing-spesifiset, yhdistelmähoitoja tai biomarkkerivalintaa koskevat tutkimukset (esim. RIST-hoito)
+- Selvitys myyntilupien peruuttamisen syistä ja valmisteen saatavuudesta Suomessa
+- Turvallisuuden seurantasuunnitelma, erityisesti QT-aika, sydän- ja nestekertymäriskit sekä interaktiot happamuutta vähentävien lääkkeiden kanssa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

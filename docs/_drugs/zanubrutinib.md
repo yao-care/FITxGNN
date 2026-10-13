@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Zanubrutinib
-parent: Kohtalainen näyttö (L3-L4)
-nav_order: 409
-evidence_level: L4
+parent: Pelkkä mallin ennuste (L5)
+nav_order: 477
+evidence_level: L5
 indication_count: 6
 ---
 
 # Zanubrutinib
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **6** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,106 +29,119 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Zanubrutinib: B-solujen pahanlaatuisista kasvaimista myelooisen leukemian tutkimukseen
+# Zanubrutinibi: Waldenströmin makroglobulinemiasta myeloidiseen leukemiaan
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Zanubrutinib on toisen sukupolven BTK (Bruton's tyrosine kinase) -inhibiittori, jonka tunnettu farmakologinen käyttö on **B-lymfosyytin** pahanlaatuisten kasvaimien (CLL/SLL, MCL, Waldenströmin makroglobulinemian) hoito. TxGNN-malli ennustaa sen olevan mahdollisesti tehokas **myelooisen leukemian (Myeloid Leukemia)** hoidossa, ennustuspistemäärä saavuttaa 99,65 %, mutta tällä hetkellä tukena on ainoastaan **2 kliinistä tutkimusta** (kumpikin ilman suoria zanubrutinib-todistusaineita) ja **epäsuora kirjallisuustieto**, mekanistinen yhteys on heikko, todistusten tasoksi L4.
+Zanubrutinibi on BTK:n (Brutonin tyrosiinikinaasin) estäjä, jota on alun perin käytetty Waldenströmin makroglobulinemian hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **myeloidiseen leukemiaan**, mutta ennuste perustuu lähinnä laskennalliseen pisteytykseen: tätä käyttöaihetta koskevaa suoraa kliinistä näyttöä ei ole (**1 kliininen tutkimus**, jonka relevanssi on heikko, ja **11 julkaisua**, jotka koskevat pääosin lymfaattisia B-solusyöpiä).
 
 ---
 
 ## Pikakatsaus
 
-| Erä | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | B-lymfosyytin pahanlaatuiset kasvaimet (CLL/SLL jne.; tämä Evidence Pack ei sisällä virallista hyväksyttyjen indikaatioiden luetteloa) |
-| Ennustettu uusi indikaatio | Myeloosi leukemia (Myeloid Leukemia) |
-| TxGNN-ennustuspistemäärä | 99,65 % (rank 4274) |
-| Todistusten taso | L4 |
-| Suomen markkinoiden tila | Markkinoimaton |
-| Lupien määrä | 0 |
-| Päätössuositus | Hold |
-
----
-
-## Miksi tämä ennuste on huomion arvoinen (tai kyseenalainen)?
-
-DrugBank ei tällä hetkellä tarjoa virallista rakenteista mekanismin kuvausta (MOA-kenttä on tiedon puutekohta). Tunnetun julkisen tiedon perusteella zanubrutinib on toisen sukupolven BTK-inhibiittori, jonka farmakologinen vaikutus perustuu B-solujen reseptorin (BCR) signaaliradan estoon, ja se on todistettu tehokkaiksi CLL/SLL-, MCL-, Waldenströmin makroglobulinemian sekä muiden B-lymfosyytin pahanlaatuisten kasvaimien hoidossa. Verrattuna ensimmäisen sukupolven ibrutinibiin sillä on parempi kinaasispesifisyys ja vähemmän pois-kohdistuneiden vaikutusten riski.
-
-Myeloosi leukemia (AML) on **ydin**- eikä lymfosyytti-alkuperäinen kasvain. Sen patogeneettisesti keskeisiä mutaatioita (esim. FLT3-ITD, NPM1, IDH1/2) ja BTK-signalointia ei ole kuvattu selvästi samana tai päällekkäisenä. BTK:n rooli ydinsoluperäisissä soluissa on heikosti dokumentoitu ja rajoittuu makrofagien ja mastosolujend toissijaisiin signaalireitteihin, eikä se ole AML:n keskeinen patogeneettinen kinaasi. Tämän todistusten paketin kaksi kliinistä tutkimusta (NCT05665530, NCT04477291) käyttivät tutkimuslääkkeitä PRT2527 (CDK9-inhibiittori) ja CG-806 (monikinaasisen inhibiittori), **kumpikin ei ole zanubrutinib itse**, vaan ne kuuluvat vain "kinaasi-inhibiittorit verituumoreissa" -kategoriaan, ja molempien relevanssi-arvio on Grade C.
-
-Näin ollen TxGNN:n korkea pistemäärä heijastaa todennäköisesti "kinaasi-inhibiittorit" -lääkkeen luokan ja AML-solmujen topologista läheisyyttä tietotaidokaaviossa, ei zanubrutinib-molekyylin omaa erityisyyttä. Tämä johtopäätös vastaa myös muita 5 alemmalla sijoituksella olevia ennusteita (harvinaiset perinnölliset syndroomat, neuroblastooma, Ewingin sarkooma) – nämä ennusteet ovat ilman kliinisiä tutkimuksia tai kirjallisuustodistetta ja ne on luokiteltu Hold-tasoksi, mikä osoittaa, että TxGNN:n kokonaistodistusten taso tälle lääkkeelle ydin- ja kiinteiden kasvaimien suunnalla on heikko.
-
----
-
-## Kliinisten tutkimusten todistusaineisto
-
-| Tutkimuksen numero | Vaihe | Tila | Potilasrekrytoinni | Pääkohdat |
-|---------|------|------|------|---------|
-| [NCT05665530](https://clinicaltrials.gov/study/NCT05665530) | Vaihe 1 | Valmis | 86 | PRT2527 (CDK9-inhibiittori) arvioitiin yksinään tai yhdessä zanubrutinib/venetoclaksin kanssa tekijänä tutkittaessa turvaa ja alustavaa tehoa uusiutuvissa/hoitoresistenteissa hematologisissa maligniteeteissa; **tutkimuslääke ei ole zanubrutinib itse**, vain yksi yhdisteltyjen käsittelyjen käsi, relevanssi-luokitus Grade C |
-| [NCT04477291](https://clinicaltrials.gov/study/NCT04477291) | Vaihe 1a/1b | Keskeytetty | 45 | Suun kautta annettavaa CG-806:aa (luxeptinib, monikinaasinen inhibiittori) tutkittiin turvallisuuden ja syöpävastustavan aktiivisuuden osalta uusiutuvien/hoitoresistenttien AML- tai korkean riskin MDS-potilaiden hoitoon; **zanubrutinibilla ei ole käytetty**, tutkimus on keskeytetty, vain samankaltaisen mekanismin hypoteesin viittaus, relevanssi-luokitus Grade C |
-
-> Molemmat tutkimukset eivät ole suoria zanubrutinib-hoidon todistusaineita myelooisen leukemian tapauksessa, vain mekanismin vertailun viitteiksi.
-
----
-
-## Kirjallisuuden todistusaineisto
-
-| PMID | Vuosi | Tyyppi | Lehti | Pääkohdat |
-|------|------|------|------|---------|
-| [39647999](https://pubmed.ncbi.nlm.nih.gov/39647999/) | 2025 | RCT | J Clin Oncol | SEQUOIA-tutkimus (vaihe 3) 5 vuoden seurannan päivitys: zanubrutinib verrattuna BR-skeemaan alkuvaiheen CLL/SLL-hoidossa |
-| [40334067](https://pubmed.ncbi.nlm.nih.gov/40334067/) | 2025 | Kohortti | Blood Advances | BGB-3111-215-tutkimuksen päivitys: zanubrutinib on turvallinen ja tehokas ibrutinib/acalabrutinib-intoleranteissa CLL/SLL-potilaissa |
-| [36400069](https://pubmed.ncbi.nlm.nih.gov/36400069/) | 2023 | Kohortti | Lancet Haematol | Vaihe 2 -yksivartaloinen tutkimus: zanubrutinib aiemmin BTK-inhibiittoreille intoleranteissa B-lymfosyytin pahanlaatuisissa kasvaimissa |
-| [40829104](https://pubmed.ncbi.nlm.nih.gov/40829104/) | 2026 | Katsaus | Blood Advances | Useiden kliinisten tutkimusten välinen analyysi zanubrutinibista del(17p)/TP53-mutaatiolla varustettujen CLL/SLL-potilaiden hoitossa |
-| [34959482](https://pubmed.ncbi.nlm.nih.gov/34959482/) | 2021 | Katsaus | Pharmaceutics | Kroonisen leukemian (CML, CLL) tirosiinikinaasin estäjien aikakauden katsaus |
-| [36402930](https://pubmed.ncbi.nlm.nih.gov/36402930/) | 2023 | Katsaus | Leukemia | BTK-inhibiittorit Waldenströmin makroglobulinemian hoitojohtamisessa |
-| [37150651](https://pubmed.ncbi.nlm.nih.gov/37150651/) | 2023 | Katsaus | Clin Lymphoma Myeloma Leuk | BTK-inhibiittorit (sisältäen zanubrutinib) -potilaiden B-hepatiitin reaktivaatioriskiä koskevia tutkimuksia |
-| [38288815](https://pubmed.ncbi.nlm.nih.gov/38288815/) | 2024 | Katsaus | Anticancer Agents Med Chem | FDA:n hyväksymät syöpälääkkeet -synteesimenetelmän katsaus, joka mainitsee vain zanubrutinibiin kemiallisen synteesin |
-| [36325357](https://pubmed.ncbi.nlm.nih.gov/36325357/) | 2022 | Tapausraportti | Front Immunol | Waldenströmin makroglobulinemian harvinainen tapaus B-ALL:n kanssa (KMT2D/MECOM-mutaatio) |
-
-> Kaikki edellä mainitut kirjallisuuslähteet keskittyvät zanubrutinibiin **B-lymfosyytin** pahanlaatuisissa kasvaimissa (CLL/SLL, WM) teholla ja turvallisuudella, **mikään lähde ei käsittele myeloosista leukemiaa (AML)**, vain lääkkeen taustan ja turvallisuuden viitteiksi.
-
----
-
-## Suomen markkinoiden tiedot
-
-Zanubrutinib ei ole tällä hetkellä saanut markkinointilupaa Suomessa (Markkinoimaton, lupien määrä 0), hyväksyttyjä lääkekohteita ei voida luetella.
-
----
-
-## Sytotoksisuuden tiedot (kohdistetun hoidon lääkkeiden viite)
-
-Zanubrutinib kuuluu B-lymfosyytin pahanlaatuisten kasvaimien hoitolääkkeisiin ja on tunnetun farmakologisen luokittelun perusteella kohdistetun hoidon lääke, joten seuraavat viitetiedot luetelaan:
-
-| Erä | Sisältö |
+| Kohta | Sisältö |
 |------|------|
-| Sytotoksisuusluokitus | Kohdistettu hoito (BTK-inhibiittori), ei perinteinen sytotoksinen kemoterapialääke |
-| Luuytimen tukahduttamisen riski | Katso valmisteen yhteenveto ja varoitukset |
-| Pahoinvointiluokitus | Katso valmisteen yhteenveto ja varoitukset |
-| Seurantakohteet | Katso valmisteen yhteenvedon ehdottamat seurantakohteet |
-| Käsittelysuojaus | Katso valmisteen yhteenveto ja varoitukset |
+| Alkuperäinen käyttöaihe | Waldenströmin makroglobulinemia |
+| Ennustettu uusi käyttöaihe | Myeloidinen leukemia |
+| TxGNN-ennustepisteet | 99,65 % |
+| Näytön taso | L4 (suora näyttö puuttuu; epäsuora, lymfaattisia syöpiä koskeva näyttö) |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Turvallisuusnäkökohtia
+## Miksi ennuste on perusteltu?
 
-Katso valmisteen yhteenvetoa turvallisuustiedoista.
+Yksityiskohtaista vaikutusmekanismia koskevia tietoja ei ole tällä hetkellä saatavilla. Tunnetun tiedon perusteella zanubrutinibi on seuraavan sukupolven BTK:n estäjä, jonka teho Waldenströmin makroglobulinemiassa ja muissa B-solusyövissä (esim. CLL/SLL) on osoitettu. Mekanistisesti se voisi olla sovellettavissa myeloidiseen leukemiaan, koska BTK-signalointia esiintyy myös myeloidisoluissa ja sitä on tutkittu akuutissa myeloidisessa leukemiassa.
+
+Yhteys on kuitenkin vain epäsuora. Alkuperäinen käyttöaihe ja CLL/SLL ovat lymfaattisia, B-soluperäisiä sairauksia, kun taas ennustettu käyttöaihe on myeloidinen. Nykyinen näyttö ei ylitä tätä eroa, eikä zanubrutinibin käytöstä myeloidisessa leukemiassa ole suoria tietoja.
 
 ---
 
-## Johtopäätökset ja seuraavat vaiheet
+## Kliininen tutkimusnäyttö
 
-**Päätös: Hold**
+| Tutkimusnumero | Vaihe | Tila | Osallistujamäärä | Keskeiset havainnot |
+|---------|------|------|------|---------|
+| [NCT05665530](https://clinicaltrials.gov/study/NCT05665530) | Vaihe 1 | Päättynyt | 86 | CDK9-estäjä PRT2527 yksin ja yhdessä zanubrutinibin tai venetoklaksin kanssa uusiutuneissa/hoitoresistenteissä hematologisissa syövissä. Zanubrutinibi on todennäköisesti vain yhdistelmäkumppani B-solusyöpäkohorteissa, joten tutkimus ei anna suoraa näyttöä myeloidisesta leukemiasta (relevanssi: C). |
+
+---
+
+## Kirjallisuusnäyttö
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [39647999](https://pubmed.ncbi.nlm.nih.gov/39647999/) | 2025 | RCT (vaihe 3) | J Clin Oncol | SEQUOIA: zanubrutinibi vs. bendamustiini + rituksimabi hoitamattomassa CLL/SLL:ssä, 5 vuoden seuranta |
+| [36400069](https://pubmed.ncbi.nlm.nih.gov/36400069/) | 2023 | Vaihe 2, yksihaarainen | Lancet Haematol | Zanubrutinibi potilailla, jotka eivät sietäneet aiempia BTK-estäjiä |
+| [40334067](https://pubmed.ncbi.nlm.nih.gov/40334067/) | 2025 | Yhdistetty kliininen analyysi | Blood Adv | Zanubrutinibi on hyvin siedetty ja tehokas ibrutinibi-/akalabrutinibi-intoleranteilla CLL/SLL-potilailla |
+| [40829104](https://pubmed.ncbi.nlm.nih.gov/40829104/) | 2026 | Yhdistetty kliininen analyysi | Blood Adv | Zanubrutinibin teho ja turvallisuus del(17p)/TP53-CLL/SLL:ssä |
+| [36402930](https://pubmed.ncbi.nlm.nih.gov/36402930/) | 2023 | Katsaus | Leukemia | BTK-estäjät Waldenströmin makroglobulinemian hoidossa |
+| [34959482](https://pubmed.ncbi.nlm.nih.gov/34959482/) | 2021 | Katsaus | Pharmaceutics | Tyrosiinikinaasi-inhibiittorit kroonisissa leukemioissa (CML ja CLL) |
+| [42192981](https://pubmed.ncbi.nlm.nih.gov/42192981/) | 2026 | Katsaus | Cancers | BTK-estäjien aiheuttama hypogammaglobulinemia ja infektioriski CLL:ssä |
+| [37150651](https://pubmed.ncbi.nlm.nih.gov/37150651/) | 2023 | Kohortti/katsaus (turvallisuus) | Clin Lymphoma Myeloma Leuk | Hepatiitti B -viruksen reaktivaatio BTK-estäjähoidon aikana |
+| [36325357](https://pubmed.ncbi.nlm.nih.gov/36325357/) | 2022 | Tapausselostus | Front Immunol | Waldenströmin makroglobulinemian ja B-solu-ALL:n samanaikainen esiintyminen |
+| [42259539](https://pubmed.ncbi.nlm.nih.gov/42259539/) | 2026 | Tapausselostus | Ann Clin Lab Sci | Yhdistelmälymfooma (CLL/SLL ja lymfoplasmasyyttinen lymfooma), johon liittyi IgM-anti-MAG-neuropatia |
+
+Huomio: yksikään julkaisu ei tutki zanubrutinibia myeloidisessa leukemiassa. Ne koskevat lymfaattisia B-solusyöpiä ja BTK-estäjien turvallisuutta.
+
+---
+
+## Myyntilupatiedot Suomessa
+
+| Myyntilupanumero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe | Tila |
+|---------|------|------|-----------|------|
+| EMEA/H/C/004978 | Brukinsa | – | Waldenströmin makroglobulinemia | Peruutettu |
+
+---
+
+## Sytotoksisuus
+
+| Kohta | Sisältö |
+|------|------|
+| Sytotoksisuusluokka | Kohdennettu hoito (BTK-estäjä), ei perinteinen sytotoksinen solunsalpaaja |
+| Myelosuppression riski | Tarkempia tietoja ei ole saatavilla; katso valmisteyhteenvedon varoitukset ja käyttöön liittyvät varotoimet |
+| Oksentelua aiheuttavuus | Katso valmisteyhteenvedon varoitukset ja käyttöön liittyvät varotoimet |
+| Seurattavat parametrit | Verenkuva (CBC) sekä maksa- ja munuaisarvot; muuten katso valmisteyhteenveto |
+| Käsittelysuojaus | Katso valmisteyhteenvedon varoitukset ja käyttöön liittyvät varotoimet |
+
+---
+
+## Turvallisuushuomiot
+
+Valmisteyhteenvedon varoituksia ja vasta-aiheita koskevia tietoja ei ole saatavilla, joten niiden osalta tulee tutustua valmisteyhteenvetoon.
+
+**Lääkeyhteisvaikutukset:** Tietokannasta löytyi yhteensä 100 yhteisvaikutusta. Merkittäviksi (Major) luokiteltuja ovat mm.:
+- Aprepitantti
+- Asetyylisalisyylihappo
+- Deksametasoni
+- Klaritromysiini
+- Kobisistaatti
+- Deferasiroksi
+- DeferipronI
+- Samarium (153Sm) leksidronaami
+- Ibritumomabi tiuksetaani
+- Tositumomabi (I-131)
+
+Kohtalaisia (Moderate) yhteisvaikutuksia on mm. simetidiinin, mikonatsolin, klotrimatsolin ja strontiumkloridi Sr-89:n kanssa.
+
+Kirjallisuudessa on lisäksi nostettu esiin BTK-estäjiin liittyvä hepatiitti B -viruksen reaktivaation riski sekä hypogammaglobulinemian ja infektioiden riski.
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Vaikka TxGNN:n ennustuspistemäärä on korkea (99,65 %), kaikki tukevat todistusaineistot eivät ole suoria zanubrutinib-hoidon todistusaineita myelooisen leukemian kohdalla – molemmat kliiniset tutkimukset käyttivät tutkimuslääkkeitä, jotka eivät ole zanubrutinib, ja kirjallisuustodisteet keskittyvät kokonaan B-lymfosyytin pahanlaatuisiin kasvaimiin, ei ydin-kasvaimiin; mekanismin osalta BTK ei ole AML:n keskeinen patogeneettinen kinaasi. Samalla Suomen markkinoilla lääkettä ei ole markkinoitu ja virallisia turvallisuustietoja ei ole saatavilla, eikä nykyinen aineisto riitä seuraavan arviointivaiheeseen.
+- Korkeasta TxGNN-pisteestä (99,65 %) huolimatta myeloidista leukemiaa koskevaa suoraa kliinistä tai prekliinistä näyttöä ei ole. Ainoa liittyvä tutkimus on vaiheen 1 tutkimus, jossa zanubrutinibi on vain yhdistelmäkumppani, ja kirjallisuus koskee lymfaattisia syöpiä. Lisäksi lääkkeellä ei ole Suomessa voimassa olevaa myyntilupaa.
 
-**Jos työtä jatketaan, tarvitaan seuraavat lisätiedot:**
-- Zanubrutinibbin virallinen toimintamekanismi (MOA) strukturoituina DrugBank-tiedoina
-- TFDA/Fimea:n virallisen valmisteen yhteenvedon varoitukset ja vasta-indikaatiot
-- Zanubrutinibille suorat prekliiniset tai kliiniset todistusaineistot ydin-kasvaimissa (AML/MDS)
-- Lääkkeiden keskinäisvaikutukset (DDI) täydellisina tietoina
-
+**Jatkotoimiin tarvitaan:**
+- Vaikutusmekanismia koskevat tiedot (MOA) ja BTK-signaloinnin merkityksen arviointi myeloidisessa leukemiassa
+- Prekliiniset tutkimukset (solulinjat, eläinmallit) zanubrutinibista myeloidisessa leukemiassa
+- Valmisteyhteenvedon (Fimea) varoitus- ja vasta-aihetiedot turvallisuusseulontaa varten
+- Selvitys Brukinsan myyntiluvan peruutuksen syistä ja nykyisestä saatavuudesta Suomessa
+- Yhteisvaikutusten arviointi, erityisesti CYP3A:n estäjien ja induktorien osalta
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Chenodeoxycholic Acid
-parent: Pelkkä mallin ennuste (L5)
-nav_order: 100
-evidence_level: L5
+parent: Kohtalainen näyttö (L3-L4)
+nav_order: 110
+evidence_level: L4
 indication_count: 5
 ---
 
 # Chenodeoxycholic Acid
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **5** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,67 +29,83 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Keenodesoksikoalahappo: Sappihappoaineenvaihdunnan häiriöistä homotsygotiseen familiaaliseen hyperkolesterolemiaan
+# Kenodeoksikolihappo: Aivojen jännekeltakasvaimesta (CTX) perinnölliseen homotsygoottiseen hyperkolesterolemiaan
 
-## Yksilauseen yhteenveto
+## Yhden lauseen yhteenveto
 
-> Keenodesoksikoalahappo (CDCA) on luonnollisesti esiintyvä primaarinen sappihappo; todistustekapaketti ei kirjaa mitään erityistä Taiwanin/Suomen hyväksymää alkuperäistä indikaatiota tälle yhdisteelle, vaikka se on historiallisesti liitetty sappihapposynteesin ja kolesteroliaineenvaihdunnan häiriöihin (esim. saippalakivien liuotus, cerebrotendinoosinen ksantomatoosi).
-> TxGNN-malli ennustaa, että se voi olla tehokas **homotsygotisessa familiaalisessa hyperkolesterolemiassa**,
-> jolle on tällä hetkellä tunnistettu **0 kliinistä tutkimusta** ja **1 julkaisu**, ja kyseinen julkaisu käsittelee samankaltaista – ei samaa – sairautta.
+Kenodeoksikolihappo (CDCA) on primaarinen sappihappo, jota on käytetty aivojen jännekeltakasvaimen (cerebrotendinous xanthomatosis, CTX) ja synnynnäisten aineenvaihduntasairauksien hoitoon. TxGNN-malli ennustaa sen voivan tehota **homotsygoottiseen familiaaliseen hyperkolesterolemiaan**, mutta ennusteen tueksi ei ole yhtään kliinistä tutkimusta ja vain **1 epäsuora kirjallisuusviite** (CTX-katsaus).
 
-## Pikayleiskatsaus
+## Pikakatsaus
 
-| Kohde | Sisältö |
-|-------|---------|
-| Alkuperäinen indikaatio | Ei saatavilla todistustekapaketeissa (`drug.original_indications` on tyhjä; `original_moa` on tiedon puute) |
-| Ennustettu uusi indikaatio | Homotsygotinen familiaali hyperkolesterolemia |
-| TxGNN-ennustepistemäärä | 99.57% |
-| Todisteen taso | L5 (vain mallin ennuste tälle indikaatiolle; ainoa liittyvä julkaisu käsittelee eri, mekanistisesti vierekkäistä sairautta) |
-| Suomen markkinoiden asema | Ei markkinoitu (Ei markkinoitu) |
-| Valtuuksien lukumäärä | 0 |
-| Suositeltu päätös | Odota |
+| Kohta | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | Aivojen jännekeltakasvaimet (CTX); synnynnäiset aineenvaihduntasairaudet |
+| Ennustettu uusi käyttöaihe | Homotsygoottinen familiaalinen hyperkolesterolemia |
+| TxGNN-ennustepistemäärä | 99,57 % |
+| Näytön taso | L4 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennuste on järkevä?
+## Miksi ennuste on perusteltu?
 
-Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja keenodesoksikoalahapon käytöstä ei ole saatavilla tässä todistustekapaketeissa (merkitty erittäin vakavaksi tiedon puutteeksi, DG002). Yleisen farmakologisen tiedon perusteella CDCA on primaarinen sappihappo, joka osallistuu sappihapposynteesin säätelyyn; sitä on käytetty kliinisesti sappihappoon liittyvillä ja kolesteroliaineenvaihduntaan liittyvillä häiriöillä, mikä tarjoaa uskottavan mekanistisen yhteyden lipidi/kolesterolikasvaintauteihin.
+Yksityiskohtaista vaikutusmekanismitietoa ei ole tässä raportissa saatavilla. CDCA tunnetaan sappihappona, joka estää maksan sappihapposynteesiä FXR-reseptorin aktivaation ja CYP7A1-entsyymin takaisinkytkentäestyksen kautta.
 
-Ainoa haettu julkaisu (PMID 25424010) on katsaus cerebrotendinoosiseen ksantomatoosiin (CTX) – harvinaiseen autosomaalisen resessiiviseen lipidin varastointisairauteen, jonka aiheuttavat CYP27A1-mutaatiot, jotka häiritsevät sappihapposynteesin ja aiheuttavat kolesteroolin/kolestanolin kertymisen. CTX:ää hoidetaan CDCA:n korvaavalla hoidolla, ja taustalla oleva biologia (viallinen sappihappo/kolesterolinkäsittely) on käsitteellisesti samanlainen kuin homotsygotinen familiaali hyperkolesterolemia (HoFH), joka liittyy myös vakavaan kolesterolin sääntelyn häiriöön. Tämä päällekkäisyys kolesteroliradan biologiassa on järkevä perusta TxGNN-mallin yhdistämiselle, mutta sitä tulisi käsitellä mekanistisena hypoteesina pikemminkin kuin suorana todisteena, koska paketeissa oleva mikään tutkimus ei tutki CDKA:ta erityisesti HoFH-potilaissa.
+CTX johtuu sterolin 27-hydroksylaasin (CYP27A1) puutoksesta, jolloin kolestanoli ja kolesteroli kertyvät kudoksiin. Tämä antaa uskottavan yhteyden rasva-aineenvaihdunnan häiriöihin, ja molemmille sairauksille on tyypillisiä jännekeltakasvaimet (ksantoomat).
 
-Koska `original_moa` ja `original_indications` eivät täyty tässä todistustekapaketeissa, mekanistisen yhteyden vahvuutta ei voida täysin arvioida; tämä on kirjattu tiedon puutteeksi DG002 ja se tulisi ratkaista DrugBankin/tuotteen merkinnän avulla ennen kuin jatketaan arviointia.
+Mekanistinen peruste on kuitenkin heikko. Homotsygoottinen familiaalinen hyperkolesterolemia johtuu LDL-reseptorin toimintahäiriöstä, eikä sappihapposynteesin esto korjaa tätä perimmäistä vikaa. Korkea pistemäärä heijastaa todennäköisesti yhteisiä rasva- ja ksantoomafenotyyppejä, ei validoitua hoitomekanismia. CDCA voi lisäksi nostaa LDL-kolesterolia.
 
-## Kliinisen tutkimuksen todisteet
+## Kliinisen tutkimuksen näyttö
 
-Tällä hetkellä ei ole liittyviä rekisteröityjä kliinisiä tutkimuksia
+Kyseiselle käyttöaiheelle ei ole tällä hetkellä rekisteröityjä kliinisiä tutkimuksia.
 
-## Kirjallisuuden todisteet
+## Kirjallisuusnäyttö
 
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset tulokset |
-|------|------|--------|------|---------|
-| [25424010](https://pubmed.ncbi.nlm.nih.gov/25424010/) | 2014 | Katsaus | Orphanet Journal of Rare Diseases | Kattava katsaus cerebrotendinoosiseen ksantomatoosiin (CTX), CYP27A1-mutaation aiheuttamaan sappihapposynteesin häiriöön, joka aiheuttaa kolestanolin kertymisen; CDCA on CTX:n vakiintunut korvaushoito. Sairaus on mekanistisesti samanlainen, mutta eri kuin homotsygotinen familiaali hyperkolesterolemia. |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [25424010](https://pubmed.ncbi.nlm.nih.gov/25424010/) | 2014 | Katsaus | Orphanet journal of rare diseases | Kattava katsaus CTX:n patogeneesiin, oirekuvaan, diagnostiikkaan ja hoitoon. CTX on harvinainen CYP27A1-mutaation aiheuttama rasvojen varastoitumissairaus, jossa sappihapposynteesi heikkenee ja kolestanoli kertyy kudoksiin. Epäsuora näyttö: ei arvioi CDCA:ta HoFH:ssa. |
 
 ## Suomen markkinatiedot
 
-Keenodesoksikoalahappo ei ole tällä hetkellä markkinoitu Suomessa — `taiwan_regulatory.market_status` on "Ei markkinoitu" (Not Marketed), 0 rekisteröidyllä valtuuksella, joten valtuus-/tuotetaulukkoa ei ole saatavilla.
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004061 | Chenodeoxycholic acid Leadiant (aiemmin Chenodeoxycholic acid sigma-tau) | – | Aivojen jännekeltakasvaimet (CTX); synnynnäiset aineenvaihduntasairaudet (peruutettu) |
 
-## Turvallisuusnäkökohdat
+## Turvallisuushuomiot
 
-Katso pakkausselosteesta turvallisuustietoja.
+**Vasta-aiheet (tietämyskuvaajan perusteella, ei valmisteyhteenvedosta):**
+Tietämyskuvaajassa (PrimeKG) lääkkeelle on merkitty vasta-ainesuhteita seuraaviin sairauksiin: maksasairaus, sappirakon sairaus, ripulitaudit, kolestaasi, hyvänlaatuinen toistuva intrahepaattinen kolestaasi, familiaalinen intrahepaattinen kolestaasi, sklerosoiva kolangiitti, primaarinen biliaarinen kolangiitti ja Reynoldsin oireyhtymä.
 
-*(Keskeiset varoitukset, vasta-aiheet ja lääkkeiden väliset yhteisvaikutukset on kaikki kirjattu tiedon puutteiksi tässä todistustekapaketeissa – TFDA:n merkinnän tarkistelu, merkitty DG001, on esto-vakavuuden luokan puute.)*
+**Lääkeyhteisvaikutukset:** Yhteisvaikutuksia on kirjattu yhteensä 56, ja niistä esimerkkeinä keskivaikeita (Moderate) ovat:
+- Estrogeenit: etinyyliestradioli, estradioli, konjugoidut estrogeenit
+- Lipidilääkkeet: gemfibrotsiili, fenofibraatti, klofibraatti, etsetimibi
+- Sappihappoja sitovat aineet: kolestyramiini, kolesevelaami, kolestipoli
+- Asparaginaasivalmisteet (E. coli, Erwinia chrysanthemi), kalaspargaasipegoli
+- Muut: alumiinihydroksidi, anisindioni, bedakiliini, brentuksimabivedotiini, klofarabiini, kannabidioli
+
+Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat, joten niitä ei voitu arvioida. Katso turvallisuustiedot valmisteyhteenvedosta.
+
+## Muut ennustetut käyttöaiheet (lyhyesti)
+
+Kaikki muut sijat 2–5 ovat näytön tasolla L5 ilman kliinisiä tutkimuksia tai kirjallisuutta, ja niiden suositus on Hold:
+- Aivojen pienten verisuonten tauti 1 (COL4A1): ei tunnistettua mekanistista yhteyttä CDCA:han (pistemäärä 99,43 %).
+- Familiaalinen hematuria–verkkokalvon valtimoiden mutkaisuus –kontraktuurat -oireyhtymä: laskennallinen artefakti (99,40 %).
+- Familiaalinen yhdistetty hyperlipidemia (vanhentunut termi): CDCA voi laskea triglyseridejä mutta nostaa LDL:ää, nettohyöty epävarma (99,34 %).
+- Hyperurikemia (vanhentunut termi): ei tunnettua mekanismia (99,27 %).
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Odota**
+**Päätös: Hold (odota)**
 
-**Perustelut:**
-Tälle ennustettulle indikaatiolle ei ole kliinisiä tutkimuksia, Taiwanin/Suomen markkinoita, ja ainoa tukeva julkaisu käsittelee samanlaista mutta eri sairautta (CTX, ei HoFH). Yhdessä TFDA:n merkinnöissä olevan esto-vakavuuden luokan tiedon puutteen kanssa, todistusten perusta on tällä hetkellä riittämätön siirtyäkseen mallin ennusteen ulkopuolelle.
+**Perustelu:**
+- Ennusteen tueksi ei ole kliinisiä tutkimuksia eikä suoraa kirjallisuutta, ja ainoa löydetty julkaisu on epäsuora CTX-katsaus. Mekanistisesti CDCA ei korjaa HoFH:n perimmäistä LDL-reseptorivikaa, ja se voi nostaa LDL-kolesterolia. Lisäksi Suomessa ainoa myyntilupa on peruutettu ja turvallisuustietojen puute estää etenemisen turvallisuusseulontaan.
 
-**Edistämiseksi tarvitaan seuraavaa:**
-- TFDA/EMA pakkausseloste (varoitukset, vasta-aiheet) — ratkaisee esto-vakavuuden luokan puutteen DG001
-- DrugBank/MOA-yksityiskohdat CDCA:n mekanismista, joka liittyy lipidiaineenvaihduntaan — ratkaisee puutteen DG002
-- Omistautuneet kliiniset tai prekliiniset tutkimukset CDCA:sta erityisesti HoFH tai siihen liittyvillä dyslipidemiaväestöillä
-- Lääkeyhteisvaikutusten tietokyselyjen ratkaiseminen (nykyinen tila: ei löydetty)
-
+**Eteenpäin siirtyminen edellyttää:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean verkkosivuilta (estävä tietoaukko).
+- Vaikutusmekanismitietojen täydentäminen DrugBankista.
+- Prekliiniset tai kliiniset tiedot CDCA:n vaikutuksesta LDL-kolesteroliin HoFH:ssa.
+- Selvitys myyntiluvan peruutuksen syistä ja lääkkeen saatavuudesta Suomessa.
+- Arvio vasta-aiheiden (esim. maksa- ja sappitiesairaudet) merkityksestä kohdepotilasryhmässä.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

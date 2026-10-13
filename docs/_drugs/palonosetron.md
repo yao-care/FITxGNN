@@ -2,7 +2,7 @@
 layout: default
 title: Palonosetron
 parent: Kohtalainen näyttö (L3-L4)
-nav_order: 282
+nav_order: 327
 evidence_level: L4
 indication_count: 5
 ---
@@ -29,78 +29,89 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Palonosetron: Sytostaattien aiheuttamasta pahoinvoinnista migreeni-häiriöön
+# Palonosetroni: Pahoinvoinnin ja oksentelun hoidosta migreeniin
 
-## Yksirivisummary
+## Yhteenveto
 
-> Palonosetron on toisen sukupolven 5-HT3-reseptorin antagonisti, antiemeettinen lääke, joka on kliinisesti hyväksytty sytostaattien aiheuttaman pahoinvoinnin ja oksentamisen (CINV) ehkäisyyn — tämä alkuperäisen käyttöindikaation konteksti on yleistä farmakologista tietoa eikä sitä **vahvista** itse näytöaineisto, joka ei sisällä lähdetietoja alkuperäisestä indikaatiosta.
-> TxGNN-malli ennustaa mahdollista tehokkuutta **Migreeni-häiriölle** (pistemäärä **99.74%**), mutta ainoa tällä hetkellä käytettävissä oleva tutkimuslitteratuurin todiste on yksittäinen tapausraportti *"Palonosetronin aiheuttama migreenimainen päänsärky"* — eli raportti siitä, että lääke **aiheuttaa** migreenimaisia oireita, ei niitä hoida — ja **yhtään kliinistä tutkimusta** ei ole rekisteröity tälle indikaatiolle.
-
----
-
-## Nopea yleiskatsaus
-
-| Kohde | Sisältö |
-|------|--------|
-| Alkuperäinen indikaatio | Ei saatavilla näytöaineistosta (ei `alkuperäisiä_indikaatioita` tai Suomen lupa-tekstejä arkistossa); yleisesti tiedetään antiemeettiseksi CINV:n ehkäisyyn, mutta vahvistamatonta tätä tietolähdettä vastaan |
-| Ennustettu uusi indikaatio | Migreeni-häiriö |
-| TxGNN-ennustepistemäärä | 99.74% |
-| Näytötaso | L4 |
-| Suomen markkinatilanne | ✗ Ei markkinoilla |
-| Lupien lukumäärä | 0 |
-| Suositeltu päätös | Pidättäytyminen |
+Palonosetroni on 5-HT3-reseptorin salpaaja, jota on alun perin käytetty syöpähoitoihin liittyvän pahoinvoinnin ja oksentelun hoitoon. TxGNN-malli ennustaa sen mahdollisesti tehoavan **migreeniin** (migraine disorder), mutta ennusteen tueksi ei ole **yhtään kliinistä tutkimusta** ja ainoa löydetty julkaisu on **tapausselostus**, jossa palonosetroni aiheutti migreenityyppisen päänsäryn. Näyttö viittaa siis pikemminkin haittavaikutussignaaliin kuin hyötyyn.
 
 ---
 
-## Miksi tämä ennuste on järkevä?
+## Pikakatsaus
 
-Tällä hetkellä toimintamekanismin yksityiskohtaisia tietoja ei ole saatavilla (merkitty korkean vakavuusasteen tietovajeeksi, DG002). Yleisen farmakologisen tiedon perusteella palonosetron on erittäin selektiivinen 5-HT3-reseptorin antagonisti, joka on kliinisesti hyväksytty sytostaattien aiheuttaman pahoinvoinnin ja oksentamisen ehkäisyyn.
-
-Mekanistinen perusteltu migreenille on kuitenkin heikko ja jopa ristiriitainen sen sijaan että tukisi sitä. Migreenia hoitavan farmakologisen standardin mukaisesti triptaanit vaikuttavat 5-HT1B/1D-reseptoreihin, jotka ovat erillinen serotoniinireseptorin alatyyppi ilman vakiintunutta positiivista vuorovaikutusta 5-HT3-antagonismiin. Ei ole vakiintunutta mekanismia, jolla 5-HT3:n esto helpottaisi migreeniä.
-
-Vielä tärkeämpää on, että tähän ennusteeseen liittyvä ainoa kirjallisuuden todiste on tapausraportti, joka kuvaa palonosetronin **aiheuttavan** migreenimaista päänsärkyä **haitallisena reaktiona**, ei todisteena terapeuttisesta hyödystä. Tämä tarkoittaa, että tämän lääke-sairaus-parin käytettävissä oleva todellisen maailman signaali osoittaa päinvastaiseen suuntaan kuin TxGNN-pistemäärä viittaisi. Ennuste tulisi lukea graafipohjaisen tilastollisen assosiaation kuin mekanistisesti tai kliinisesti tuetun hypoteesin sijaan tässä vaiheessa.
-
----
-
-## Kliinisen tutkimuksen todisteet
-
-Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
+| Kohta | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | Oksentelu, pahoinvointi (syöpähoitoihin liittyvä) |
+| Ennustettu uusi käyttöaihe | Migreeni (migraine disorder) |
+| TxGNN-ennusteen pistemäärä | 99,74 % |
+| Näytön taso | L4 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 3 (kaikki peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Kirjallisuuden todisteet
+## Miksi ennuste voi olla perusteltu?
 
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
-|------|------|--------|-------|-----------------|
-| [21132477](https://pubmed.ncbi.nlm.nih.gov/21132477/) | 2011 | Tapausraportti | Canadian Journal of Anaesthesia | Kuvaa tapausta, jossa palonosetron **aiheutti** migreenimaista päänsärkyä — haittatapahtuma-raportti, ei todiste tehokkuudesta migreenia vastaan |
+Palonosetroni on 5-HT3-reseptorin salpaaja. Yksityiskohtaista vaikutusmekanismia koskevia tietoja ei ole tällä hetkellä saatavilla. Tunnetun lääkeluokan perusteella serotoniinisignalointi liittyy migreenin patofysiologiaan, mikä antaa uskottavan mutta heikon mekanistisen perustelun korkealle pistemäärälle.
 
----
+Alkuperäinen käyttöaihe (pahoinvointi ja oksentelu) ja migreeni ovat kuitenkin kliinisesti kaukana toisistaan, vaikka pahoinvointi on migreenin yleinen oireyhtymän osa. Ennuste perustunee ennen kaikkea tietograafin migreeniryhmään ja lääkeluokan ominaisuuksiin.
 
-## Suomen markkinatiedot
-
-Palonosetron **ei ole markkinoilla** Suomessa (0 lupaa arkistossa); tuotelupa-tietoja ei ole saatavilla.
+Saatavilla oleva kirjallisuus ei tue hyötyä: ainoa migreeniin liittyvä julkaisu kuvaa palonosetronin aiheuttamaa migreenityyppistä päänsärkyä. Ennustetta ei siis tue kliininen aineisto, ja käytettävissä oleva näyttö viittaa hyötyä vastaan.
 
 ---
 
-## Turvallisuushuomiot
+## Kliininen tutkimusnäyttö
 
-Katso turvallisuusohjeet pakkausselosteesta. Yhtään keskeistä varoitusta, vasta-aiheita tai lääkkeen yhteisvaikutustietoja ei ole saatavilla nykyisessä näytöaineistossa — TFDA/pakkausselosteen turvallisuustiedot on merkitty **estäväksi** tietovajeksi (DG001), mikä tarkoittaa, että turvallisuutta ei vielä voi arvioida.
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Kirjallisuusnäyttö
 
-**Päätös: Pidättäytyminen**
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [21132477](https://pubmed.ncbi.nlm.nih.gov/21132477/) | 2011 | Tapausselostus | Canadian Journal of Anaesthesia | Palonosetronin aiheuttama migreenityyppinen päänsärky (haittavaikutus, ei hoitohyötyä) |
+| [42748473](https://pubmed.ncbi.nlm.nih.gov/42748473/) | 2026 | Katsaus | European Heart Journal – Cardiovascular Pharmacotherapy | Antiemeettien aiheuttama QT-ajan pidentyminen ja riskiluokitteluun perustuva määräämiskehys; ei tehoa koskevaa migreenidataa |
+
+---
+
+## Markkinatiedot Suomessa
+
+| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004129 | Palonosetron Accord | – | Oksentelu, pahoinvointi, syöpä |
+| EMEA/H/C/000563 | Aloxi | – | Oksentelu, syöpä |
+| EMEA/H/C/003728 | Akynzeo | – | Oksentelu, kasvaimet, pahoinvointi, syöpä |
+
+Kaikki kolme myyntilupaa on peruutettu.
+
+---
+
+## Turvallisuusnäkökohdat
+
+- **Lääkeaineyhteisvaikutukset:** Tietokannasta löytyi 100 yhteisvaikutusta. Merkittäviksi (Major) luokiteltuja ovat mm. fentanyyli, dekstrometorfaani, tramadoli, alfentaniili, almotriptaani, sumatriptaani, amiodaroni, amisulpridi, amitriptyliini ja anagrelidi. Näistä erityisesti triptaanit (migreenilääkkeitä), QT-aikaa pidentävät lääkkeet sekä serotonergiset lääkkeet ovat oleellisia mahdollisessa migreenikäytössä. Kohtalaisia (Moderate) ovat mm. abirateroni, dihydrokodeiini, kodeiini, famotidiini, formoteroli, adenosiini, salbutamoli, alfutsosiini, propofoli ja loperamidi.
+- **QT-ajan pidentyminen:** Julkaistu katsaus nostaa antiemeettien QT-riskin keskeiseksi turvallisuuskysymykseksi.
+- **Päänsärky:** Tapausselostuksessa palonosetroni laukaisi migreenityyppisen päänsäryn.
+
+Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole tässä aineistossa saatavilla; tarkista ne valmisteyhteenvedosta.
+
+---
+
+## Johtopäätös ja jatkotoimet
+
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Migreeni-indikaation todisteet koostuvat yksittäisestä tapausraportista **haitallisesta vaikutuksesta** (lääkkeen aiheuttama migreenimainen päänsärky), ei hoitosignaalista, eikä yhtään kliinistä tutkimusta ole olemassa. Ehdotettu mekanismi puuttuu myös positiivisesta farmakologisesta perustelusta (5-HT3-antagonismi vs. triptaanien/5-HT1B/1D-polun käyttö migreenin todellisessa hoitamisessa). Kaikki viisi TxGNN-ennustettu indikaatiota tälle ehdokkaalle suosittelevat pidättäytymistä, ja kahdella alemman sijoituksen ihosairauksilla (atrophoderma vermiculata, ulerythema ophryogenesis) ei ole lainkaan kirjallisuus- tai tutkimustukea.
+- Ennuste perustuu pelkkään laskennalliseen malliin (korkea pistemäärä), eikä kliinisiä tutkimuksia ole. Ainoa asiaan liittyvä julkaisu osoittaa palonosetronin voivan aiheuttaa migreenityyppistä päänsärkyä, ja lääkkeellä ei ole voimassa olevia myyntilupia Suomessa.
+- Muut ennustetut käyttöaiheet (migreeni aivorunko-oireilla, migreenialttius, atrophoderma vermiculata, ulerythema ophryogenes) ovat joko samaa migreeniryhmää ilman omaa näyttöä tai mekanistisesti perusteettomia, ja ne ovat todennäköisesti tietograafin artefakteja.
 
-**Jotta voidaan edetä, seuraavaa tarvitaan:**
-- TFDA/Suomen pakkausselosteen tiedot (varoitukset, vasta-aiheet) — tällä hetkellä estävä tietovaje (DG001)
-- Vahvistettu toimintamekanismi ja varmennettu alkuperäinen indikaatio, lähdeviitteineen pääteltäväksi yleisestä tiedosta (DG002)
-- Riippumaton arviointi siitä, edustaako "palonosetronin aiheuttama migreeni" -tapausraportti luokkatasoisesti 5-HT3-antagonistin turvallisuussignaalia, joka argumentoisi **vastaan** sen sijaan että hyväksi tälle uudelleenkäyttöindikaatiolle
-- Mitään lisää kliinistä tai prekliinistä tietoa, joka osoittaa positiivisen (ei pelkän korreloivan) mekanistisen yhteyden migreeniin ennen edistymistä S0-vaiheen yli
-
+**Jatkotoimet:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankinta (Fimea) turvallisuusarviointia varten
+- Yksityiskohtaisen vaikutusmekanismin tiedot (DrugBank)
+- Systemaattinen kirjallisuushaku palonosetronin tai muiden 5-HT3-salpaajien vaikutuksesta migreeniin (prekliiniset ja kliiniset tutkimukset)
+- QT-riskin ja yhteisvaikutusten (erityisesti triptaanit) arviointi mahdollista migreenikäyttöä varten
+- Selvitys myyntilupien peruuttamisen syistä ja valmisteen saatavuudesta Suomessa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

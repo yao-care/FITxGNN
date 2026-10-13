@@ -2,7 +2,7 @@
 layout: default
 title: Teriflunomide
 parent: Vahva näyttö (L1-L2)
-nav_order: 370
+nav_order: 431
 evidence_level: L1
 indication_count: 1
 ---
@@ -29,85 +29,102 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Terflunomidi: Suomessa rekisteröimättömästä indikaatiosta uusiutuvaan-remissioon muotoiseen MS:ään
+# Teriflunomidi: Relapsoivasta-remittoivasta MS-taudista relapsoivaan-remittoivaan MS-tautiin
 
-## Yhteenveto yhdessä lauseessa
+## Yhden lauseen yhteenveto
 
-Terflunomidi (DrugBank DB08880) ei ole tällä hetkellä markkinoilla Suomessa, joten alkuperäistä hyväksyttyä indikaatiota ei ole saatavilla paikallisesta sääntelyrekisteristä.
-TxGNN-malli ennustaa, että se saattaa olla tehokas **uusiutuvaan-remissioon muotoiselle MS:lle (RRMS)** -
-tällä hetkellä **28 kliinistä tutkimusta** ja **19 julkaisua** tukevat tätä suuntaa — huomattavasti, tämä on myös terflunomidin vakiintunut indikaatio muilla markkinoilla (markkinoitu muualla nimellä Aubagio), joten malli on pääasiassa palauttamassa tunnettua, laajasti vahvistettua indikaatiota eikä ehdottamassa uutta.
+Teriflunomidi on suun kautta otettava immuunivastetta muokkaava lääke, jota käytetään alun perin relapsoivan-remittoivan multippeliskleroosin (MS-taudin) hoitoon. TxGNN-malli ennustaa sen tehoavan **relapsoivaan-remittoivaan MS-tautiin**, mikä vastaa lääkkeen alkuperäistä käyttöaihetta eli kyse ei ole varsinaisesta uudelleenkäytöstä. Ennustetta tukee **13 kliinistä tutkimusta** ja **20 julkaisua**, joihin kuuluu useita satunnaistettuja vaiheen 3 tutkimuksia.
 
-## Nopea yleiskatsaus
+---
+
+## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Ei saatavilla — Suomessa ei ole lupia tai rekisteröityjä indikaatioita |
-| Ennustettu uusi indikaatio | Uusiutuvaan-remissioon muotoinen MS |
-| TxGNN-ennustepistemäärä | 99.24% |
-| Todisteiden taso | L1 |
-| Suomen markkinatilanne | ✗ Ei markkinoilla |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Pidättäydy |
+| Alkuperäinen käyttöaihe | Relapsoiva-remittoiva multippeliskleroosi |
+| Ennustettu uusi käyttöaihe | Relapsoiva-remittoiva multippeliskleroosi |
+| TxGNN-ennustepistemäärä | 99,24 % |
+| Näytön taso | L1 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 3 (kaikki peruutettu) |
+| Suositeltu päätös | Etene suojatoimin (Proceed with Guardrails) |
 
-## Miksi tämä ennuste on järkevä?
+---
 
-Rakenteinen `original_moa` -kenttä tälle lääkkeelle on tietoaukko. Kuitenkin tämän paketin kirjallisuustodisteet kuvaavat terflunomidin mekanismia: se on mitokondrion entsyymin dihydroorotaattidehydrogenaasi (DHODH) selektiivinen, palautuva estäjä, joka estää uuden pyrimidiinisynteesiä ja vähentää aktivoituneiden T- ja B-lymfosyyttien lisääntymistä (PMID 31098896). Tämä immunomodulaattori mekanismi on suoraan merkityksellinen autoimmuunisairauksille, T/B-solu-keskittyneille demyelinoiville sairauksille, kuten MS:lle.
+## Miksi ennuste on perusteltu?
 
-Toisin kuin tyypillisen uudelleenkäytön ehdokas, täällä ei ole erillistä "alkuperäistä indikaatiota" vertailuun — todistuspaketti osoittaa nolla Suomen lisenssejä ja tyhjää `original_indications` -kenttää, mikä tarkoittaa, että terflunomidi on yksinkertaisesti koskaan ollut rekisteröity tälle markkinalle. Suomen ulkopuolella terflunomidi on kuitenkin vakiintunut, ohjeistuksiin sisältyvä ensimmäisen linjan suun kautta annettava tautia muokkaava lääke (DMT) RRMS:lle, tosiasia, jota vahvasti tukevat alla olevat kokeilu- ja kirjallisuustodisteet (mukaan lukien pivot-tutkimukset TEMSO ja TENERE vaiheessa 3 sekä sen käyttö aktiivisena vertailuarvona vähintään viidessä seuraavassa vaihe 3 tutkimuksessa uusia MS-lääkkeitä vastaan).
+Tälle raporttia varten koottu aineisto ei sisällä yksityiskohtaista vaikutusmekanismitietoa. Tunnetun tiedon perusteella teriflunomidin vaikuttava metaboliitti estää mitokondrion dihydroorotaattidehydrogenaasi-entsyymiä (DHODH). Tämä estää pyrimidiinien de novo -synteesiä ja rajoittaa aktivoituneiden T- ja B-lymfosyyttien lisääntymistä. Tämä mekanismi sopii hyvin autoimmuunivälitteiseen, tulehdukselliseen MS-tautiin.
 
-Tämän vuoksi tämän "ehdokkaan" käytännöllinen tulkinta on vähemmän tieteellinen löytö ja enemmän **markkinoiden rekisteröintikuilu**: terflunomidin mekanistinen ja kliininen todiste RRMS:lle on jo kypsä ja laajasti dokumentoitu; mitä puuttuu, on Suomen-kohtaiset sääntelyä ja turvallisuutta koskevat asiakirjat (katso tietoaukot alla), ei mekanistisen uskottavuuden todiste.
+Koska ennustettu käyttöaihe on sama kuin alkuperäinen, TxGNN-mallin erittäin korkea pistemäärä on johdonmukainen: malli tunnistaa lääkkeen vakiintuneen käytön. Ennuste ei siis tuo uutta terapeuttista suuntaa, vaan vahvistaa tunnetun käyttöaiheen.
 
-## Kliinisen kokeilun todisteet
+Huomionarvoista on, että Suomen markkinatilanne ("vain peruutettuja") heijastaa todennäköisesti yksittäisten valmisteiden myyntilupatilannetta eikä välttämättä vetäytymistä turvallisuus- tai tehosyistä. Tämä tulee varmistaa ajantasaisista viranomaistiedoista.
 
-| Kokeilunumero | Vaihe | Tila | Rekrytointi | Tärkeimmät havainnot |
+---
+
+## Kliininen tutkimusnäyttö
+
+| Tutkimusnumero | Vaihe | Tila | Osallistujamäärä | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT00134563](https://clinicaltrials.gov/study/NCT00134563) | Vaihe 3 | Valmistunut | 1,088 | Pivot-tutkimus kontrolloitu RCT (TEMSO): terflunomidi vähensi uusiutumistiheyttä ja viivytti vammautumisen kertymistä uusiutuvassa MS:ssä |
-| [NCT00883337](https://clinicaltrials.gov/study/NCT00883337) | Vaihe 3 | Valmistunut | 324 | TENERE: sokkotettu arvioija-vertailu terflunomidista vs interferoni beeta-1a hoidon epäonnistumisaikaan, uusiutumisasteeseen, väsymykseen ja turvallisuuteen |
-| [NCT00803049](https://clinicaltrials.gov/study/NCT00803049) | Vaihe 3 | Valmistunut | 742 | Pitkäaikainen jatkotutkimus EFC6049:lle dokumentoiden pitkäaikaista turvallisuutta/sietokykyä ja tehokkuuden kestävyyttä vammautumisen ja MRI-tulosten osalta |
-| [NCT04788615](https://clinicaltrials.gov/study/NCT04788615) | Vaihe 3 | Valmistunut | 185 | Vertaili ofatumumumabia vs ensimmäisen linjan DMT:tä (mukaan lukien terflunomidi) äskettäin diagnosoidussa uusiutuvassa MS:ssä |
-| [NCT07189325](https://clinicaltrials.gov/study/NCT07189325) | Vaihe 3 | Ei vielä rekrytoinnissa | 250 | Anti-CD20 ylläpidon ei-alemmuustutkimus vs de-eskaloinnin strategia RRMS:ssä |
-| [NCT06663189](https://clinicaltrials.gov/study/NCT06663189) | Vaihe 3 | Ei vielä rekrytoinnissa | 200 | TWINS: satunnaistettu DMT:ien lopettaminen (mukaan lukien terflunomidi) passiivisissa RRMS-potilaissa ≥55 |
-| [NCT00273364](https://clinicaltrials.gov/study/NCT00273364) | Vaihe 2 | Valmistunut | 110 | Hematopoieettisen kantasolujen hoito vs muun hyväksytyn hoidon vertailu inflammatorisessa MS:ssä, joka ei vastaa hoitoon |
-| [NCT00228163](https://clinicaltrials.gov/study/NCT00228163) | Vaihe 2 | Valmistunut | 147 | Jatkotutkimus, joka arvioi terflunomidin pitkäaikaista turvallisuutta ja tehokkuutta uusiutuvassa MS:ssä |
-| [NCT04129736](https://clinicaltrials.gov/study/NCT04129736) | Vaihe 4 | Valmistunut | 12 | Määritti terflunomidin seerumin ja aivo-selkäydinnesteen pitoisuudet 14 mg päivittäisen annoksen ollessa |
-| [NCT03464448](https://clinicaltrials.gov/study/NCT03464448) | N/A | Valmistunut | 30 | Mekanistinen tutkimus säätelevistä B-lymfosyyteistä terflunomidin terapeuttisen vaikutuksen välittäjinä |
+| [NCT00134563](https://clinicaltrials.gov/study/NCT00134563) | Vaihe 3 | Päättynyt | 1088 | Satunnaistettu, kaksoissokkoutettu, lumekontrolloitu tutkimus: teriflunomidin vaikutus relapsien esiintyvyyteen ja vammautumisen etenemiseen relapsoivassa MS-taudissa |
+| [NCT00883337](https://clinicaltrials.gov/study/NCT00883337) | Vaihe 3 | Päättynyt | 324 | Teriflunomidi vs. interferoni beeta-1a relapsoivassa MS-taudissa (arvioijasokkoutettu) |
+| [NCT00803049](https://clinicaltrials.gov/study/NCT00803049) | Vaihe 3 | Päättynyt | 742 | Pitkäaikaisjatkotutkimus: teriflunomidin 7 mg ja 14 mg annosten pitkäaikaisturvallisuus |
+| [NCT00228163](https://clinicaltrials.gov/study/NCT00228163) | Vaihe 2 | Päättynyt | 147 | Vaiheen 2 jatkotutkimus: pitkäaikaisturvallisuus ja -teho |
+| [NCT02490982](https://clinicaltrials.gov/study/NCT02490982) | Ei sovellettavissa | Päättynyt | 106 | Havainnoiva tutkimus teriflunomidin tehosta rutiinihoidossa vähintään kahden vuoden ajan |
+| [NCT03464448](https://clinicaltrials.gov/study/NCT03464448) | Ei sovellettavissa | Päättynyt | 30 | Mekanistinen tutkimus: säätelijä-B-lymfosyyttien merkitys teriflunomidin vaikutuksessa |
+| [NCT03561402](https://clinicaltrials.gov/study/NCT03561402) | Ei sovellettavissa | Päättynyt | 24 | Mahdollisten biomarkkereiden yhteys taudin aktiivisuuteen teriflunomidihoidossa |
+| [NCT04788615](https://clinicaltrials.gov/study/NCT04788615) | Vaihe 3 | Päättynyt | 185 | Ofatumumabi vs. ensilinjan MS-lääkkeet vastikään diagnosoiduilla; teriflunomidi epäsuorasti vertailuryhmässä |
+| [NCT03535298](https://clinicaltrials.gov/study/NCT03535298) | Vaihe 4 | Aktiivinen, ei rekrytoi | 800 | Varhaisen tehokkaan hoidon ja porrastetun hoidon vertailu; epäsuora yhteys |
+| [NCT03500328](https://clinicaltrials.gov/study/NCT03500328) | Ei sovellettavissa | Päättynyt | 900 | Pragmaattinen tutkimus varhaisesta aggressiivisesta vs. porrastetusta hoidosta; epäsuora yhteys |
 
-## Kirjallisuuden todisteet
+---
 
-| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät havainnot |
+## Kirjallisuusnäyttö
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [32757523](https://pubmed.ncbi.nlm.nih.gov/32757523/) | 2020 | RCT | NEJM | ASCLEPIOS: ofatumumumab vs terflunomidi kasvokkain vertailu uusiutuvassa MS:ssä |
-| [40202623](https://pubmed.ncbi.nlm.nih.gov/40202623/) | 2025 | RCT | NEJM | Tolebrutiinibi (BTK-estäjä) vs terflunomidi uusiutuvassa MS:ssä |
-| [36001711](https://pubmed.ncbi.nlm.nih.gov/36001711/) | 2022 | RCT | NEJM | Ublituksimaabi vs terflunomidi uusiutuvassa MS:ssä |
-| [39307151](https://pubmed.ncbi.nlm.nih.gov/39307151/) | 2024 | RCT | Lancet Neurology | evolutionRMS1/2: evobrutinibi vs terflunomidi aktiivisen vertailun vaihe 3 tutkimukset |
-| [33779698](https://pubmed.ncbi.nlm.nih.gov/33779698/) | 2021 | RCT | JAMA Neurology | OPTIMUM: ponesomod vs terflunomidi uusiutuvassa MS:ssä |
-| [37691530](https://pubmed.ncbi.nlm.nih.gov/37691530/) | 2023 | RCT (OLE) | Multiple Sclerosis Journal | ALITHIOS avoimen merkinnän jatko: 4 vuoden ofatumumumab vs terflunomidi tehokkuus/turvallisuus |
-| [33620411](https://pubmed.ncbi.nlm.nih.gov/33620411/) | 2021 | Katsaus | JAMA | MS:n diagnoosin ja hoidon yleiskatsaus, mukaan lukien tautia muokkaavat hoidot |
-| [38174776](https://pubmed.ncbi.nlm.nih.gov/38174776/) | 2024 | Systemaattinen katsaus | Cochrane Database Syst Rev | Immunomodulaattoreiden/immunosuppressiivisten lääkkeiden verkon meta-analyysi RRMS:lle |
-| [31098896](https://pubmed.ncbi.nlm.nih.gov/31098896/) | 2019 | Katsaus | Drugs | Kattava katsaus terflunomidin mekanismiin, tehokkuuteen ja turvallisuuteen RRMS:ssä |
-| [37382446](https://pubmed.ncbi.nlm.nih.gov/37382446/) | 2023 | Katsaus | Expert Rev Neurotherapeutics | Terflunomidi ensimmäisen linjan suun kautta annettavana hoitona pediatrisessa uusiutuvassa-remissioon muotoisessa MS:ssä |
+| [32757523](https://pubmed.ncbi.nlm.nih.gov/32757523/) | 2020 | RCT | N Engl J Med | Ofatumumabi vs. teriflunomidi MS-taudissa |
+| [36001711](https://pubmed.ncbi.nlm.nih.gov/36001711/) | 2022 | RCT | N Engl J Med | Ublituksimabi vs. teriflunomidi relapsoivassa MS-taudissa |
+| [40202623](https://pubmed.ncbi.nlm.nih.gov/40202623/) | 2025 | RCT | N Engl J Med | Tolebrutinibi vs. teriflunomidi relapsoivassa MS-taudissa |
+| [39307151](https://pubmed.ncbi.nlm.nih.gov/39307151/) | 2024 | RCT | Lancet Neurol | Evobrutinibi vs. teriflunomidi (evolutionRMS1 ja 2, vaihe 3) |
+| [33779698](https://pubmed.ncbi.nlm.nih.gov/33779698/) | 2021 | RCT | JAMA Neurol | Ponesimodi vs. teriflunomidi (OPTIMUM, vaihe 3) |
+| [38174776](https://pubmed.ncbi.nlm.nih.gov/38174776/) | 2024 | Verkostometa-analyysi | Cochrane Database Syst Rev | Immuunivastetta muokkaavien ja immunosuppressiivisten lääkkeiden vertailu RRMS:ssä |
+| [38032059](https://pubmed.ncbi.nlm.nih.gov/38032059/) | 2023 | Verkostometa-analyysi | Cochrane Database Syst Rev | MS-taudin immunoterapioiden haittavaikutukset |
+| [31098896](https://pubmed.ncbi.nlm.nih.gov/31098896/) | 2019 | Katsaus | Drugs | Teriflunomidi RRMS:ssä: DHODH:n esto, satunnaistettujen tutkimusten ja tosielämän näytön perusteella tehokas ja yleensä hyvin siedetty |
+| [26758290](https://pubmed.ncbi.nlm.nih.gov/26758290/) | 2016 | Katsaus | CNS Drugs | EU:n valmisteyhteenvedon tärkeimmät teho- ja turvallisuustulokset |
+| [37578431](https://pubmed.ncbi.nlm.nih.gov/37578431/) | 2023 | Havainnoiva | Eur J Neurol | Dimetyylifumaraatin ja teriflunomidin tosielämän vertailu RRMS:ssä |
 
-## Suomen markkinatiedot
+---
 
-Terflunomidi ei ole tällä hetkellä markkinoilla Suomessa — todistuspaketti tallentaa **0 hyväksyntää** ja mitään lisenssi-merkintöjä. Mitään Suomen-kohtaista tuotetta, antomuotoa tai hyväksyttyä indikaatiotekstiä ei ole saatavilla.
+## Markkinatiedot Suomessa
+
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/005962 | Teriflunomide Viatris (aiemmin Teriflunomide Mylan) | – | Relapsoiva-remittoiva multippeliskleroosi (peruutettu) |
+| EMEA/H/C/005960 | Teriflunomide Accord | – | Relapsoiva-remittoiva multippeliskleroosi (peruutettu) |
+| EMEA/H/C/002514 | Aubagio | – | Multippeliskleroosi (peruutettu) |
+
+---
 
 ## Turvallisuusnäkökohdat
 
-Lue turvallisuustiedot pakkausselosteesta. (Tärkeimmät varoitukset, vasta-aiheet ja lääke-yhdysvaikutustiedot eivät ole saatavilla nykyisessä todistuspaketissa — DDI-kysely ei palauttanut yhtään tietuetta.)
+- **Lääkeyhteisvaikutukset:** Tietokannassa on 100 yhteisvaikutusta. Merkittäviksi (Major) luokiteltuja ovat mm. asetyylisalisyylihappo, deksametasoni, hydrokortisoni, triamsinoloni, betametasoni, budesonidi, klaritromysiini, minosykliini, bupropioni, pioglitatsoni, akarboosi, kenodeoksikoolihappo, oksandrolonI ja oksimetoloni. Kohtalaisia (Moderate) ovat mm. alosetroni, simetidiini, empagliflotsiini ja sitagliptiini.
+
+Varoitusten ja vasta-aiheiden osalta katso valmisteyhteenveto.
+
+---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Pidättäydy**
+**Päätös: Etene suojatoimin (Proceed with Guardrails)**
 
 **Perustelut:**
-Tehokkuustodisteet ovat poikkeuksellisen vahvat (L1) — kaksi valmistunutta pivot-tutkimusta vaiheessa 3 (TEMSO, TENERE) sekä pitkäaikainen vaihe 3 jatko ja viisi muuta vaihe 3 kasvokkain tutkimusta vahvistavat terflunomidin validoiduksi ensimmäisen linjan RRMS:n hoitojaksoksi muualla. Tämä ehdokas ei kuitenkaan voi edetä turvallisuuden arviointiin: TFDA/Fimea pakkausseloste (varoitukset ja vasta-aiheet) on **(este)** tietoaukko, DDI-tiedot puuttuvat, ja lääkkeellä ei ole nykyisiä hyväksyntöjä tai markkinahistoriaa Suomessa.
+- Teriflunomidin teho relapsoivassa MS-taudissa on osoitettu useissa satunnaistetuissa vaiheen 3 tutkimuksissa (mm. lumekontrolloitu tutkimus, n=1088, ja interferonivertailu), joten näytön taso on L1. Lääke on kuitenkin jo alun perin tähän käyttöaiheeseen hyväksytty, ja Suomen myyntilupatilanne on epäselvä (kaikki myyntiluvat peruutettu).
 
-**Jatkamiseen vaaditaan seuraavat:**
-- TFDA/Fimea pakkausseloste — varoitukset ja vasta-aiheet ((este) tietoaukko, vaaditaan ennen S1 turvallisuuskatselmusta)
-- Rakenteinen DrugBank MOA -tietue (Korkea prioriteetti tietoaukko)
-- Lääke-lääke-yhdysvaikutustietojoukko (nykyinen kysely ei palauttanut yhtään tuloksia)
-- Vahvistus Suomen/EU-sääntelyreitistä ja markkinoille saattamisen aikataulusta
-
+**Jatkotoimiin tarvitaan:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden kokoaminen (tämä on estävä tietoaukko, joka tulee ratkaista ennen turvallisuusarviointia)
+- Yksityiskohtaiset vaikutusmekanismitiedot DrugBankista
+- Suomen myyntilupatilanteen varmistaminen ajantasaisista viranomaisrekistereistä (peruutuksen syyt)
+- Yhteisvaikutusten kliinisen merkityksen arviointi, erityisesti kortikosteroidien ja muiden Major-tason yhteisvaikutusten osalta
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

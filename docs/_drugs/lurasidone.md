@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Lurasidone
-parent: Vahva näyttö (L1-L2)
-nav_order: 238
-evidence_level: L1
+parent: Kohtalainen näyttö (L3-L4)
+nav_order: 274
+evidence_level: L3
 indication_count: 10
 ---
 
 # Lurasidone
 {: .fs-9 }
 
-Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,99 +29,83 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Lurasidoni: Bipolaarisesta depressiosta Bipolaarisen mielialahäiriön maaniaiseen muotoon
+# Lurasidoni: Skitsofreniasta maaniseen kaksisuuntaiseen mielialahäiriöön
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Lurasidoni on toisen sukupolven antipsykoottinen lääke, jolla on FDA-hyväksytyt indikaatiot skitsofreniaan ja bipolaarisen häiriön I depressioon (monoterapiana tai liitännäishoitona litiumin/valproaatin kanssa). TxGNN-malli ennustaa, että se voi olla tehokas myös **Bipolaarisen mielialahäiriön maaniaisessa muodossa**, ja tunnistettu on **15 kliinistä tutkimusta** ja **19 julkaisua**, vaikka vahvin suora näyttö koskee bipolaarisen häiriön depressiota ja ylläpitohoitoa ennemmin kuin akuuttia mania.
+Lurasidoni on atyyppinen psykoosilääke, jota on alun perin käytetty **skitsofrenian** hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **maaniseen kaksisuuntaiseen mielialahäiriöön**.
+Suoraa näyttöä on vähän: ainoa aiheeseen liittyvä kliininen tutkimus **peruttiin ilman yhtään osallistujaa**, ja kirjallisuus tukee lurasidonia lähinnä kaksisuuntaisen mielialahäiriön **masennusvaiheessa**, ei akuutissa maniassa.
 
----
+## Pikakatsaus
 
-## Pika-arvio
-
-| Aihe | Sisältö |
+| Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Skitsofrenia; bipolaarisen häiriön I depressio (monoterapiana tai liitännäishoitona litiumin/valproaatin kanssa) — FDA-merkinnän mukaan; Suomen sääntelytietoa ei ole saatavilla |
-| Ennustettu uusi indikaatio | Bipolaarisen mielialahäiriön maaniaine muoto |
-| TxGNN-ennustepisteet | 99.98% |
-| Näytön taso | L1 |
-| Suomen markkinoiden tila | ✗ Ei markkinoilla |
-| Lupien lukumäärä | 0 |
-| Suositeltu päätös | Jatka varauksilla |
+| Alkuperäinen käyttöaihe | Skitsofrenia |
+| Ennustettu uusi käyttöaihe | Maaninen kaksisuuntainen mielialahäiriö |
+| TxGNN-ennustepistemäärä | 99,98 % |
+| Näytön taso | L3 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
----
+## Miksi ennuste on järkevä?
 
-## Miksi tämä ennuste on perusteltu?
+Lurasidoni on atyyppinen psykoosilääke, jonka tiedetään salpaavan D2- ja 5-HT2A-reseptoreita ja toimivan 5-HT1A-reseptorin osittaisena agonistina. Tämä profiili on yhteinen muiden kaksisuuntaisen mielialahäiriön hoidossa käytettyjen psykoosilääkkeiden kanssa. Yksityiskohtaista vaikutusmekanismitietoa ei ole tässä raportissa käytetyssä aineistossa, joten yhteys perustuu yleisesti tunnettuun farmakologiaan.
 
-Yksityiskohtaista TFDA-muotoista toimimisen mekanismin dokumentaatiota ei ole tällä hetkellä saatavilla (tietoaukko, DG002). Tunnettujen farmakologisten tietojen perusteella lurasidoni toimii D2/5-HT2A/5-HT7-reseptorin antagonistina 5-HT1A-osittaisena agonistin aktiivisuudella — standardi toisen sukupolven antipsykoottinen reseptoriprofiili, jota käytetään koko bipolaarisen häiriön hoitospektrillä.
+Skitsofrenia ja kaksisuuntainen mielialahäiriö ovat psykiatrisia sairauksia, joissa dopamiini- ja serotoniinivälitteisen signaloinnin häiriöillä arvellaan olevan merkitystä, ja monet psykoosilääkkeet tehoavat molempiin.
 
-Lurasidonisuuden FDA-hyväksynyt teho bipolaarisen häiriön I depressioon (monoterapiana ja liitännäishoitona litiumin tai valproaatin kanssa ylläpitoon ja uusintumisen ehkäisyyn) vahvistaa vankka farmakologinen perustelu käytölle bipolaarisen häiriön eri vaiheissa, mukaan lukien mania, koska molemmat mielialat kuuluvat samaan taustalla olevaan sairauteen ja niitä yleensä hoidetaan samalla antipsykoottisella lääkeryhmällä.
+Tärkeä rajoitus: CANMAT/ISBD-ohjeistot ja meta-analyysit tukevat lurasidonia pääasiassa **kaksisuuntaisen mielialahäiriön masennusvaiheessa**. Näyttö maniavaiheesta on epäsuoraa ja perustuu masennusvaiheen tuloksiin sekä lääkeryhmän yhteisiin vaikutuksiin.
 
-Tämä ekstrapolointi on kuitenkin soveltaa varovaisesti: ainoa tutkimus, joka oli erityisesti suunniteltu testaamaan lurasidonia akuutissa maniassa (NCT01932541, lapset/nuoret mania), peruutettiin nolla ilmoittautumisella, mikä tarkoittaa, että tällä hetkellä ei ole valmistunutta dediksoitua tehokkuustutkimusta itselle maniaaliselle puolelle. Sen sijaan suurin osa vahvasta (Grade A) näytöstä tukee bipolaarisen häiriön depression hoitoa ja pitkäaikaista ylläpitoa/relapsien ehkäisyä, mikä on vierekkäinen mutta erillinen kliininen käyttötapaus akuutista maniasta.
+## Kliininen tutkimusnäyttö
 
----
-
-## Kliinisten tutkimusten näyttö
-
-| Tutkimusnumero | Vaihe | Tila | Osallistujamäärä | Keskeiset löydökset |
+| Tutkimustunnus | Vaihe | Tila | Osallistujamäärä | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT01358357](https://clinicaltrials.gov/study/NCT01358357) | Vaihe 3 | Valmistunut | 965 | Lurasidoni liitännäishoitona litiumille tai divalproeeksille verrattuna lumekontrolliin uusintumisen ehkäisemiseksi bipolaarisen häiriön I:ssä (PREVAIL 2); suora tuki pitkäaikaisen tehokkuuden osoittamiselle |
-| [NCT01986114](https://clinicaltrials.gov/study/NCT01986114) | Vaihe 3 | Valmistunut | 495 | Lurasidonisuuden (SM-13496) pitkäaikaisen tehokkuuden ja turvallisuuden tutkimus bipolaarisen häiriön I:ssä |
-| [NCT01914393](https://clinicaltrials.gov/study/NCT01914393) | Vaihe 3 | Valmistunut | 702 | 104 viikon avoin jatko-osuus, joka arvioi joustavasti doseerattavan lurasidonisuuden pitkäaikaista turvallisuutta/siedettävyyttä lapsipotilailla |
-| [NCT06433635](https://clinicaltrials.gov/study/NCT06433635) | Vaihe 4 | Aktiivinen, ei rekrytointia | 2726 | SMART-pragmaattinen tutkimus, jossa verrataan neljää hoitoa (mukaan lukien lurasidoni) bipolaarisen häiriön depressioon |
-| [NCT01986101](https://clinicaltrials.gov/study/NCT01986101) | Vaihe 3 | Valmistunut | 525 | Satunnaistettu, kaksoissokkoutettu, lumekontrolloitu tutkimus lurasidonisuudesta (SM-13496) bipolaarisen häiriön I depressioon |
-| [NCT01575561](https://clinicaltrials.gov/study/NCT01575561) | Vaihe 3 | Valmistunut | 377 | Avoin jatko-osuus, joka arvioi lurasidonisuuden liitännäishoitona litiumille/divalproeeksille pidemmän aikavälin turvallisuutta/tehokkuutta |
-| [NCT02046369](https://clinicaltrials.gov/study/NCT02046369) | Vaihe 3 | Valmistunut | 350 | Lurasidonisuuden tehokkuus ja turvallisuus lapsilla/nuorilla, joilla on bipolaarisen häiriön I depressio |
-| [NCT02731612](https://clinicaltrials.gov/study/NCT02731612) | Vaihe 3 | Valmistunut | 100 | Lurasidoni liitännäishoitona kognitiivisen toiminnan parantamiseen eustymiassa olevilla bipolaarisen häiriön I/II potilailla (ELICE-BD) |
-| [NCT02147379](https://clinicaltrials.gov/study/NCT02147379) | Vaihe 3 | Valmistunut | 53 | Satunnaistettu avoin tutkimus kognitiivisista muutoksista eustymiassa olevilla bipolaarisen häiriön potilailla, joita hoidettiin lurasidonisuudella vs. tavanomainen hoito |
-| [NCT02974010](https://clinicaltrials.gov/study/NCT02974010) | Vaihe 2 | Valmistunut | 22 | Peräkkäinen hoito (ketamiini/NRX-100 seurattuna d-sykloserinilla + lurasidoni/NRX-101) akuutille itsemurha-ajatuksille bipolaarisen häiriön depressiossa |
+| [NCT01932541](https://clinicaltrials.gov/study/NCT01932541) | Vaihe 4 | Peruttu | 0 | Avoin 8 viikon tutkimus lurasidonista (Latuda) maniassa 6–17-vuotiailla lapsilla ja nuorilla, joilla on kaksisuuntainen mielialahäiriö. Tutkimus peruttiin eikä tuottanut tehoa tai turvallisuutta koskevaa tietoa. |
 
----
+## Kirjallisuusnäyttö
 
-## Kirjallisuusviitteiden näyttö
-
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [39557452](https://pubmed.ncbi.nlm.nih.gov/39557452/) | 2024 | Meta-analyysi (Tier 1) | BMJ Mental Health | Lurasidonisuuden tehokkuuden ja hyväksyttävyyden annos-vastemetaanalyysi erityisesti bipolaarisen häiriön depressiossa |
-| [31957501](https://pubmed.ncbi.nlm.nih.gov/31957501/) | 2020 | Katsaus | Expert Opin Pharmacother | Arvioi lurasidonia bipolaarisessa häiriössä; nimenomaisesti huomioiden, että lurasidonia ei ole tutkittu suoraan maniassa/bipolaarisen häiriön psykoosissa |
-| [29536616](https://pubmed.ncbi.nlm.nih.gov/29536616/) | 2018 | Ohjeistus (Tier 1) | Bipolar Disorders | CANMAT/ISBD 2018 bipolaarisen häiriön hoito-ohjeet |
-| [34599629](https://pubmed.ncbi.nlm.nih.gov/34599629/) | 2021 | Ohjeistus (Tier 1) | Bipolar Disorders | CANMAT/ISBD suositukset bipolaariselle häiriölle, jossa on sekaoireet |
-| [37595997](https://pubmed.ncbi.nlm.nih.gov/37595997/) | 2023 | Verkon metaanalyysi (Tier 1) | Lancet Psychiatry | Farmakologisten hoitojen vertaileva tehokkuus/siedettävyys akuutissa bipolaarisen häiriön depressiossa |
-| [37815563](https://pubmed.ncbi.nlm.nih.gov/37815563/) | 2023 | Katsaus (Tier 2) | JAMA | Bipolaarisen häiriön diagnoosin ja hoidon yleiskatsaus |
-| [33177610](https://pubmed.ncbi.nlm.nih.gov/33177610/) | 2021 | Verkon metaanalyysi (Tier 2) | Molecular Psychiatry | Mielialaa säätelevät lääkkeet ja/tai antipsykootit bipolaarisen häiriön ylläpitovaiheelle |
-| [24170243](https://pubmed.ncbi.nlm.nih.gov/24170243/) | 2014 | Pääkirjoitus | American Journal of Psychiatry | Kommentaari lurasidonisuudesta ja bipolaarisesta häiriöstä |
-| [36472471](https://pubmed.ncbi.nlm.nih.gov/36472471/) | 2022 | Katsaus (Tier 2) | J Child Adolesc Psychopharmacol | Psykofarmakologiset hoitoalgoritmit lapsipotilaiden bipolaarisen häiriön maaniaisissa/sekamuotoisissa ja depressiivisissä jaksoissa |
-| [25963405](https://pubmed.ncbi.nlm.nih.gov/25963405/) | 2016 | Katsaus | Asia-Pacific Psychiatry | Käsittelee antipsykootteja, joita käytetään masennuslääkkeinä, huomioiden lurasidonisuuden hyväksynnän bipolaarisen häiriön depressioon |
-
----
+| [39557452](https://pubmed.ncbi.nlm.nih.gov/39557452/) | 2024 | Järjestelmällinen katsaus ja annos-vaste-meta-analyysi | BMJ Mental Health | Lurasidonin teho ja hyväksyttävyys kaksisuuntaisen mielialahäiriön masennuksessa sekä annos-vastesuhde |
+| [37595997](https://pubmed.ncbi.nlm.nih.gov/37595997/) | 2023 | Verkosto-meta-analyysi | Lancet Psychiatry | Akuutin kaksisuuntaisen masennuksen lääkehoitojen vertailu aikuisilla |
+| [38487836](https://pubmed.ncbi.nlm.nih.gov/38487836/) | 2024 | Verkosto-meta-analyysi | European Psychiatry | FDA:n hyväksymien atyyppisten psykoosilääkkeiden (mm. lurasidoni) teho ja siedettävyys kaksisuuntaisessa masennuksessa |
+| [33177610](https://pubmed.ncbi.nlm.nih.gov/33177610/) | 2021 | Järjestelmällinen katsaus / verkosto-meta-analyysi | Molecular Psychiatry | Mielialaa tasaavat lääkkeet ja psykoosilääkkeet kaksisuuntaisen mielialahäiriön ylläpitohoidossa |
+| [29536616](https://pubmed.ncbi.nlm.nih.gov/29536616/) | 2018 | Hoitosuositus | Bipolar Disorders | CANMAT/ISBD 2018 -ohjeistus kaksisuuntaisen mielialahäiriön hoitoon |
+| [34599629](https://pubmed.ncbi.nlm.nih.gov/34599629/) | 2021 | Hoitosuositus | Bipolar Disorders | CANMAT/ISBD-suositukset sekamuotoisten oireiden hoitoon |
+| [37815563](https://pubmed.ncbi.nlm.nih.gov/37815563/) | 2023 | Katsaus | JAMA | Kaksisuuntaisen mielialahäiriön diagnostiikka ja hoito |
+| [38618207](https://pubmed.ncbi.nlm.nih.gov/38618207/) | 2024 | Verkosto-meta-analyysi | EClinicalMedicine | Psykoosilääkkeiden ja mielialaa tasaavien lääkkeiden vaikutus aineenvaihduntaan kaksisuuntaisessa mielialahäiriössä |
+| [31298818](https://pubmed.ncbi.nlm.nih.gov/31298818/) | 2019 | Tapausselostus | Prim Care Companion CNS Disord | Lurasidonin aiheuttama mania, mikä on huomionarvoinen turvallisuushuomio |
+| [36472471](https://pubmed.ncbi.nlm.nih.gov/36472471/) | 2022 | Katsaus | J Child Adolesc Psychopharmacol | Lasten kaksisuuntaisen mielialahäiriön maanisten/sekamuotoisten ja masennusjaksojen lääkehoitoalgoritmit |
 
 ## Suomen markkinatiedot
 
-Suomessa ei ole tällä hetkellä rekisteröityjä markkinointilupeja (0 lupaa; markkinoiden tila: Ei markkinoilla). Sääntelytietolähdkeestä ei ole saatavilla lupanumeroa, tuotenimeä tai hyväkstyn indikaation tekstiä.
-
----
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/002713 | Latuda | – | Skitsofrenia (myyntilupa peruutettu) |
 
 ## Turvallisuusnäkökohdat
 
-Katso turvallisuustiedot pakkausselosteesta.
+**Lääkeyhteisvaikutukset:** Yhteisvaikutuksia on tunnistettu yhteensä 100. Vakavaksi (Major) luokiteltuja ovat mm. bupropioni, aprepitantti, morfiini ja klaritromysiini. Kohtalaisia yhteisvaikutuksia on mm. diabeteslääkkeiden (metformiini, pioglitatsoni, akarboosi, alogliptiini, kanagliflotsiini, klooripropamidi), epinefriinin, deksametasonin, simetidiinin sekä antikolinergisten lääkkeiden (atropiini, hyoskyamiini, glykopyrronium) kanssa.
 
-*(Huomautus: TFDA-pakkausselosteen varoitukset/vasta-aiheet ja yhteisvaikutustiedot eivät ole tällä hetkellä saatavilla — merkitty estäväksi tietoaukoksi, DG001, estäen täydellisen S1-turvallisuuden esi-arvioinnin.)*
-
----
+**Tietämysgraafiin perustuvat vasta-aihesignaalit:** TxGNN-tietämysgraafi liittää lurasidoniin mm. seuraavia sairauksia: ortostaattinen hypotensio, maksan vajaatoiminta ja maksasairaudet, epilepsia, hyperglykemia ja diabetes, diabeettinen ketoasidoosi, neutropenia, agranulosytoosi, leukopenia, hyperlipidemia, aivohalvaus ja muut aivoverenkiertohäiriöt, TIA, munuaisten vajaatoiminta, pahanlaatuinen neuroleptioireyhtymä, tardiivi dyskinesia sekä hyperprolaktinemia ja prolaktiinia erittävä aivolisäkkeen kasvain. Nämä eivät ole valmisteyhteenvedon tekstiä, vaan graafipohjaisia signaaleja, jotka on varmistettava valmisteyhteenvedosta.
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Jatka varauksilla**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Useat valmistuneet vaiheen 3 satunnaistetut kontrolloidut tutkimukset (L1-näyttö) tukevat lurasidonisuuden tehokkuutta bipolaarisen häiriön spektrillä, erityisesti bipolaarisen häiriön depressiossa ja pitkäaikaisessa ylläpidossa/relapsien ehkäisyssä. Mikään valmistunut tutkimus ei ole kuitenkin suoraan testannut lurasidonia akuutissa maniassa — ainoa mania-spesifinen tutkimus peruutettiin — joten "bipolaarisen mielialahäiriön maaniaine muoto" -ennuste tulisi käsitellä samalla sairaudella tehtävänä ekstrapolointina ennemmin kuin suoraan todistetuna indikaationa.
+- Ainoa maniaa koskeva tutkimus peruttiin ilman osallistujia, ja kirjallisuus tukee lurasidonia lähinnä masennusvaiheessa, joten näyttö maniasta on epäsuoraa. Lisäksi lääkkeellä ei ole voimassa olevaa myyntilupaa Suomessa.
 
-**Jatkamista varten tarvitaan seuraavaa:**
-- TFDA-pakkausseloste (varoitukset, vasta-aiheet, yhteisvaikutukset) — tällä hetkellä estävä tietoaukko (DG001)
-- Muodollinen toimimisen mekanismin dokumentaatio DrugBankista (DG002)
-- Dediksoitu lumekoettu tehokkuustutkimus (tai jälkianalyysi) erityisesti akuutissa maniassa, koska nykyinen näyttö keskittyy depression/ylläpito-vaiheeseen
-- Vahvistus Suomen markkinoille tulo -suunnitelmista, ottaen huomioon nolla nykyisiä markkinointilupeja
+**Etenemiseen tarvitaan:**
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet (Fimea), jotta turvallisuusarviointi voidaan tehdä
+- Vaikutusmekanismin tarkka dokumentaatio (esim. DrugBankista)
+- Satunnaistetut kontrolloidut tutkimukset lurasidonista akuutissa maniassa, tai uudelleenarviointi, jos tavoitteeksi otetaan kaksisuuntaisen mielialahäiriön masennusvaihe
+- Arvio myyntiluvan puuttumisen vaikutuksesta Suomessa
 
+## Muut ennustetut käyttöaiheet
+
+Muut yhdeksän ennustetta (verkkokalvon rappeumat, hydranenkefalia, glykosylaatiohäiriö, polymikrogyria, lähinäköisyyden muodot, Charcot-Marie-Tooth 1G ja epätyypillinen glysiini-enkefalopatia) ovat TxGNN-pistemäärältään korkeita (yli 99,9 %), mutta niillä ei ole kliinisiä tutkimuksia eikä kirjallisuutta, eikä uskottavaa vaikutusmekanismia. Näyttötaso on L5 ja suositus Hold.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

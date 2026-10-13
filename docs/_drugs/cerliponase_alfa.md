@@ -2,7 +2,7 @@
 layout: default
 title: Cerliponase Alfa
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 96
+nav_order: 106
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,59 +29,85 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Cerliponase alfa: CLN2-taudista Scheien syndroomaan
+# Serliponaasialfa: Neuronaalisesta seroidilipofuskinoosista Scheien oireyhtymään
 
 ## Yhden lauseen yhteenveto
 
-Cerliponase alfa on rekombinantti ihmisen TPP1-entsyymin korvaava hoito, joka on alun perin kehitetty CLN2-tautia (Neuronal Ceroid Lipofuscinosis Type 2) varten, joka on lysosomin varastointisairaus. TxGNN-malli ennustaa, että se saattaa olla tehokas Scheien syndroomaan (MPS I:n lievä alatyyppi), mutta tämä suunta on tällä hetkellä tuettu 0 kliinisellä tutkimuksella ja 0 julkaisulla — ennuste perustuu yksinomaan mallin pistemäärään.
+Serliponaasialfa on entsyymikorvaushoito, jota on alun perin käytetty **neuronaalisten seroidilipofuskinoosien** (CLN2-tauti) hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **Scheien oireyhtymään**, mutta ennusteen tueksi ei ole **yhtään kliinistä tutkimusta eikä julkaisua**. Ennuste perustuu pelkästään mallin graafipohjaiseen päättelyyn.
 
-## Pika-arviointitaulukko
+---
 
-| Kohde | Sisältö |
+## Pikakatsaus
+
+| Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | CLN2-tauti (Neuronal Ceroid Lipofuscinosis Type 2) |
-| Ennustettu uusi indikaatio | Scheien syndrooma |
-| TxGNN-mallin ennustuspistemäärä | 99.98% |
-| Todistetaso | L5 |
-| Suomen markkinatilanne | ✗ Ei markkinoilla |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Pidätä |
+| Alkuperäinen käyttöaihe | Neuronaaliset seroidilipofuskinoosit |
+| Ennustettu uusi käyttöaihe | Scheien oireyhtymä |
+| TxGNN-ennustepisteet | 99,98 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennuste on järkevä?
+---
 
-Tällä hetkellä yksityiskohtaista vaikutusmekanismin tietoa ei ole saatavilla (merkitty tietoaukoksi lähdepaketissa). Tunnettujen tietojen perusteella cerliponase alfa on entsyymin korvaava hoito, joka toimittaa rekombinanttista tripeptidyyli-peptidaasi 1:tä (TPP1) CLN2-taudin hoitoon, joka on neurodegeneratiivinen lysosomin varastointisairaus.
+## Miksi ennuste on (tai ei ole) perusteltu?
 
-Scheien syndrooma on kuitenkin erillinen ehto — MPS I -kirjon lievä pää, joka johtuu α-L-iduronidaasin puutteesta, ei TPP1:stä. Todistusp akettiin oman uudelleenkäyttöpyrkimyksen perustelut ovat nimenomaisesti, että näiden kahden ehdon välillä ei ole **suoraa entsyymi- tai biokemiallista päällekkäisyyttä**; ainoa yhteys on, että molemmat kuuluvat laajaan "lysosomin varastointisairaus" -kategoriaan. Ei ole näyttöä siitä, että TPP1:n korvaus voisi korvata tai kompensoida α-L-iduronidaasin puutetta.
+Tämän lääkkeen yksityiskohtaisia vaikutusmekanismitietoja ei ole tällä hetkellä saatavilla. Tunnetun tiedon perusteella serliponaasialfa on yhdistelmä-DNA-tekniikalla valmistettu tripeptidyylipeptidaasi 1 (TPP1) -entsyymi. Sitä annetaan aivokammioihin (intraventrikulaarisesti) CLN2-taudin hoitoon.
 
-Lyhyesti sanottuna, tämä ennuste heijastaa sairauksien samankaltaisuussignaalia TxGNN-mallista pikemminkin kuin mekanistisesti perustuvaa hypoteesia. Sitä tulisi käsitellä ainoastaan hypoteesin muodostavan signaalin tasolla, ei terapeuttisen uskottavuuden näyttönä.
+Scheien oireyhtymä (lievä MPS I -muoto) johtuu alfa-L-iduronidaasin puutteesta, joka on eri lysosomaalinen entsyymi kuin TPP1. Yhteys rajoittuu yleiseen lysosomaalisten kertymätautien ja entsyymikorvaushoidon käsitteeseen. TPP1 ei voi korvata iduronidaasia, joten suoraa mekanistista perustetta ei ole. Korkea TxGNN-pistemäärä on vain graafipohjainen ennuste.
 
-## Kliiniset tutkimukset
+Samanlainen päätelmä pätee myös muihin ennustettuihin käyttöaiheisiin. Esimerkiksi Hurlerin oireyhtymässä (vaikea MPS I) vika on samassa iduronidaasientsyymissä, ja siihen on jo olemassa kohdennettuja hoitoja (laronidaasi, kantasolusiirto). Kolesterolinesterien kertymätaudissa ja Wolmanin taudissa vika on lysosomaalisessa happamassa lipaasissa, johon on entsyymikohtainen hoito (sebelipaasialfa). Gaucherin taudissa puuttuu glukoserebrosidaasi, ja siihenkin on jo entsyymikorvaus- ja substraatinestohoitoja.
 
-Tällä hetkellä ei ole rekisteröityjä liittyviä kliinisiä tutkimuksia
+---
 
-## Kirjallisuustodisteet
+## Kliininen tutkimusnäyttö
 
-Tällä hetkellä liittyviä kirjallisuusviitteitä ei ole saatavilla
+Tällä hetkellä ei ole rekisteröityjä kliinisiä tutkimuksia, jotka liittyisivät serliponaasialfan käyttöön Scheien oireyhtymässä.
 
-## Turvallisuuden huomiot
+---
 
-Katso turvallisuustiedot pakkausselosteesta.
+## Kirjallisuusnäyttö
 
-*Huomautus: Tärkeät TFDA/Fimea-pakkauselosteeseen liittyvät varoitukset ja vasta-aiheet ovat tällä hetkellä estävä tietoaukko (DG001) eikä niitä ole haettu; DDI-tiedot eivät ole myöskään saatavilla (kysely palautti not_found).*
+Scheien oireyhtymän osalta ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
-## Johtopäätös ja seuraavat vaiheet
+Muiden ennustettujen käyttöaiheiden osalta löytyi vain yksi julkaisu (Gaucherin tauti, sijalla 5):
 
-**Päätös: Pidätä**
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [41527340](https://pubmed.ncbi.nlm.nih.gov/41527340/) | 2026 | Katsaus | Journal of inherited metabolic disease | Lysosomaalisten kertymätautien luonnollisen taudinkulun kartoitus Gaucherin tautia mallina käyttäen. Julkaisu ei arvioi serliponaasialfaa, vaan antaa vain taustatietoa. |
+
+---
+
+## Markkinatiedot Suomessa
+
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004065 | Brineura | – | Neuronaaliset seroidilipofuskinoosit (tila: peruutettu) |
+
+---
+
+## Turvallisuushuomiot
+
+Turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
+
+---
+
+## Johtopäätös ja jatkotoimet
+
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Ennustettu yhteys cerliponase alfan ja Scheien oireyhtymän välillä on tuettu vain TxGNN-mallin pistemäärällä (L5-todistetaso), ilman kliinisiä tutkimuksia, ilman kirjallisuutta ja nimenomaisesti heikolla mekanistisella perustelulla (eri aiheuttava entsyymi, ei biokemiallista päällekkäisyyttä). Tämä ei täytä edellytyksiä edetä mallin ennusteen pidemmälle.
+- Ennusteelle ei ole kliinistä tai kirjallista tukea (näytön taso L5), eikä ole mekanistista perustetta, koska TPP1 ei korvaa iduronidaasia. Kaikki kymmenen ennustettua käyttöaihetta on arvioitu tasolla Hold.
+- Lisäksi Suomessa on vain yksi peruutettu myyntilupa, ja turvallisuustiedot puuttuvat, joten edetä ei voi.
 
-**Seuraavaa varten tarvitaan:**
-- TFDA/Fimea-pakkauseloste-tiedot (varoitukset, vasta-aiheet) — tällä hetkellä estävä tietoaukko
-- Vahvistetut vaikutusmekanismin (MOA) tiedot DrugBankista
-- Prekliiniset tai mekanistiset tutkimukset, jotka osoittavat TPP1-aktiivisuuden biologisen uskottavuuden MPS I:ssa/Scheien syndroomassa
-- Kaikki nousevat kliiniset tutkimukset tai tapauskertomusten todisteet, koska mitään ei ole tällä hetkellä olemassa
-
+**Eteneminen edellyttäisi seuraavaa:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimeasta (estävä tietoaukko)
+- Vaikutusmekanismitietojen täydentäminen DrugBankista
+- Prekliinistä tai mekanistista näyttöä siitä, että TPP1 voisi vaikuttaa Scheien oireyhtymän patologiaan
+- Antoreittien yhteensopivuuden arviointi (nykyinen reitti on intraventrikulaarinen)
+- Vaihtoehtoisesti sellaisen ennustetun käyttöaiheen valinta, jolla on vahvempi biologinen peruste
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -2,7 +2,7 @@
 layout: default
 title: Lipegfilgrastim
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 230
+nav_order: 266
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,78 +29,84 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Lipegfilgrastim: Neutropeniasta (G-CSF-analogia) verihiutaleiden primaariseen vapautushäiriöön
+# Lipegfilgrastiimi: Neutropenian hoidosta primaariseen verihiutaleiden vapautumishäiriöön
 
-## Yhteenveto yhdessä lauseessa
+## Yhden lauseen yhteenveto
 
-Lipegfilgrastim on pitkävaikutteinen granulosyyttien kasvua stimuloiva tekijä (G-CSF) -analogia; todistepakettiin ei sisälly vahvistettua alkuperäistä hyväksyttyä käyttöaiheita (sääntelyasiakirjojen tiedot ovat tietovaje), mutta sen tunnetun farmakologisen luokan avulla stimuloidaan neutroffilien tuotantoa. TxGNN-mallin pääennuste on **verihiutaleiden primaarinen vapautushäiriö**, erittäin korkealla samankaltaisuusarvolla (**99.93%**), mutta **ilman tukevia kliinisiä tutkimuksia ja ilman julkaisuja**, ja mallin oma mekanistinen perustelus väittää, että G-CSF-aktiivisuuden ja verihiutaleiden vapautumisen patologian välillä ei ole tunnettua biologista yhteyttä.
+Lipegfilgrastiimi on pegyloitu G-CSF-kasvutekijän analogi, jota käytetään neutrofiilien määrän lisäämiseen. Tarkka alkuperäinen käyttöaihe ei sisälly tähän raportin varten koottuihin tietoihin. TxGNN-malli ennustaa lääkkeelle mahdollista tehoa **primaariseen verihiutaleiden vapautumishäiriöön**, mutta ennusteen tueksi ei ole **yhtään kliinistä tutkimusta eikä julkaisua**.
 
 ---
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|--------|
-| Alkuperäinen käyttöaihe | Ei saatavilla sääntelyasiakirjoista (tietovaje); farmakologinen luokka on G-CSF-analogia, jota käytetään tyypillisesti neutroffilien stimulointiin |
-| Ennustettu uusi käyttöaihe | Verihiutaleiden primaarinen vapautushäiriö |
-| TxGNN-ennusteen pistemäärä | 99.93% |
-| Todisteiden taso | L5 (vain mallin ennuste, ei kliinistä tai kirjallisuustukea) |
-| Suomen markkinoille asema | ✗ Ei markkinoitu |
-| Myyntilupien lukumäärä | 0 |
-| Suositeltu päätös | Pidätä |
+|------|------|
+| Alkuperäinen käyttöaihe | Ei saatavilla koottujen tietojen perusteella (lääkkeen tiedetään olevan G-CSF-analogi, jota käytetään neutropenian hoidossa) |
+| Ennustettu uusi käyttöaihe | Primaarinen verihiutaleiden vapautumishäiriö |
+| TxGNN-ennusteen pistemäärä | 99,93 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Miksi tämä ennuste on järkevä?
+## Miksi ennuste on (tai ei ole) perusteltu?
 
-Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla (original_moa: tietovaje). Tunnetun farmakologisen luokituksen perusteella lipegfilgrastim on pitkävaikutteinen G-CSF-analogia, mikä tarkoittaa, että sen tunnettu kohde on G-CSF-reseptori neutroffilien esisoluissa, joissa se edistää neutroffilien muodostumista ja vapautumista luuytimestä.
+Tälle raportille koottujen tietojen mukaan lääkkeen vaikutusmekanismia koskevia yksityiskohtaisia tietoja ei ole saatavilla. Tunnetun luokituksen perusteella lipegfilgrastiimi on pegyloitu G-CSF-analogi, joka stimuloi neutrofiilien kehitysliinan jakautumista ja erilaistumista myeloisten solujen G-CSF-reseptorin kautta.
 
-Verihiutaleiden primaarinen vapautushäiriö on verihiutaleiden varastopoolin defektien tai degranulatiohäiriöiden patologia — mekanismi, joka toimii eri solulinjalla ja eri biologisella polulla kuin neutroffilien stimuloiva G-CSF-aktiivisuus. Todistepaketin oma uudelleenkäyttöperustelus väittää, että näiden kahden välillä ei ole **tunnettua suoraa biologista yhteyttä**, ja ehdottaa, että erittäin korkea TxGNN-pistemäärä saattaa sen sijaan heijastaa "luuytimen hematopoieettinen solulinja" -solmujen välistä lähekkäisyyttä tietokaavissa, eikä mekanismikohtaista suhdetta.
+Primaariset verihiutaleiden vapautumishäiriöt ovat verihiutaleiden omia toimintahäiriöitä (rakeiden eritys). Selvää mekanistista yhteyttä neutrofiilikohtaisen vaikutuksen ja näiden häiriöiden välillä ei ole tunnistettu. Korkea pistemäärä on todennäköisesti verkostopohjaisen ennusteen tulos, ei biologisen perustelun.
 
-Sama varoitus koskee tämän paketin muita neljää korkeimmin sijoittuneita ennusteita: kahta diabeettisen retinopatian käyttöaiheita (joissa G-CSF:n angiogeneettinen vaikutus voisi teoriassa vastustaa pikemminkin kuin tukea hoitotavoitteita) ja kahta verihiutaleiden reseptorihäiriötä (pseudo-von Willebrandin tautia, Glanzmannin trombasteniaa), jotka liittyvät G-CSF-polusta riippumattomiin verihiutaleiden kalvon glykoproteiineihin. Kaikkia viittä tulee käsitellä **vain mallin pistemäärään perustuvina signaaleina**, ei mekanistisesti validoituina hypoteeseina.
+Muut ennustetut käyttöaiheet ovat samalla tavalla heikosti perusteltuja:
 
----
-
-## Kliinisen tutkimuksen todisteet
-
-Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
-
----
-
-## Kirjallisuuden todisteet
-
-Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta.
+| Sija | Ennustettu käyttöaihe | TxGNN-pistemäärä | Näytön taso | Huomio |
+|------|------|------|------|------|
+| 2 | Vaikea ei-proliferatiivinen diabeettinen retinopatia | 99,91 % | L5 | Vain spekulatiivinen yhteys progenitorisolujen mobilisaation kautta; voi myös edistää patologista uudisverisuonten muodostusta |
+| 3 | Pseudo-von Willebrandin tauti | 99,91 % | L5 | Johtuu verihiutaleiden GPIbα-geenin toiminnanvahvistumisvarianteista; uskottavaa mekanistista yhteyttä ei ole |
+| 4 | Glanzmannin trombasteenia | 99,91 % | L5 | Johtuu integriini αIIbβ3:n puutteesta tai toimintahäiriöstä; G-CSF:llä ei tunnettua vaikutusta |
+| 5 | Diabeettinen retinopatia | 99,75 % | L5 | Spekulatiivinen yhteys; verkkokalvon uudisverisuonten pahenemisen riski on selvitettävä |
 
 ---
 
-## Suomen markkinoille koskevat tiedot
+## Kliininen tutkimusnäyttö
 
-Myyntilupoja ei löydy. Lipegfilgrastim ei ole tällä hetkellä **markkinoitu** tässä toimivaltaisessa alueessa (0 lupaa rekistereissä), joten hyväksyttyä käyttöaiheen tekstiä ei ole saatavilla vertailussa ennustetun uuden käyttöaiheelle.
+Ei tällä hetkellä rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
+
+---
+
+## Kirjallisuusnäyttö
+
+Ei tällä hetkellä aiheeseen liittyvää kirjallisuutta.
+
+---
+
+## Tiedot Suomen markkinoilta
+
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/002556 | Lonquex (Teva B.V.) | – | – (tila: peruutettu) |
 
 ---
 
 ## Turvallisuusnäkökohdat
 
-Turvallisuustiedot löydät pakkausselosteesta.
-
-*(Huom: tämä paketti merkitsee TFDA/Fimea pakkausselosteen varoituksia ja vasta-aiheita **estävänä** tietovajeena — DG001 — mikä tarkoittaa, että turvallisuusseulonta (S1) ei voi tällä hetkellä edetä ilman virallisen selosteen hankkimista.)*
+Turvallisuustiedot on tarkistettava valmisteyhteenvedosta ja pakkausselosteesta. Lääkkeiden yhteisvaikutuksia koskevia tietoja ei löytynyt.
 
 ---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Pidätä**
+**Päätös: Hold (odota)**
 
-**Perustelus:**
-Kaikki viisi ennustettua käyttöaiheista ovat todisteiden tasolla L5 (vain mallin ennuste) ilman kliinisiä tutkimuksia ja kirjallisuustukea, ja pääehdokkaan (ja useimpien muiden) mekanistinen perustelus puoltaa aktiivisesti biologisen uskottavuuden vastaan sen sijaan, että tukisivat sitä. Yhdessä turvallisuustiedon estävän tietovajeen kanssa, tämä ehdokas ei ole valmis etenemään alustavaa seulontaa pidemmälle.
+**Perustelut:**
+- Ennuste perustuu pelkästään graafipohjaiseen malliin: kliinisiä tutkimuksia ja julkaisuja ei ole, eikä uskottavaa mekanistista yhteyttä ole tunnistettu. Lisäksi valmisteen myyntilupa Suomessa on peruutettu, mikä heikentää käytännön toteutettavuutta.
 
-**Jatkaakseen tarvitaan seuraavaa:**
-- Pakkausseloste / TFDA tai Fimea turvallisuustiedot (ratkaisee estävän tietovajeen DG001) ennen S1 turvallisuusarviointia
-- Vahvistettu vaikutusmekanismin dokumentaatio DrugBankista (ratkaisee tietovajeen DG002)
-- Vahvistetut alkuperäiset hyväksytyt käyttöaiheet sääntelyvaltuuksien hakemisen kautta
-- Kohdistettu prekliininen tai mekanistinen kirjallisuushaku, joka testaa erityisesti G-CSF-aktiivisuutta verihiutaleiden vapautumishäiriöitä ja diabeettista retinopatia vastaan, hypoteesin vahvistamiseksi tai kumoamiseksi
-- Jos mekanistinen uskottavuus vahvistetaan, in vitro/in vivo PoC-tutkimukset ennen kuin mitään kliinisen tutkimuksen suunnittelua harkitaan
-
+**Eteenpäin siirtyminen edellyttää seuraavaa:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankinta ja läpikäynti (estävä tietoaukko turvallisuusseulonnalle)
+- Vaikutusmekanismin (MOA) tietojen täydentäminen esimerkiksi DrugBankista
+- Alkuperäisen hyväksytyn käyttöaiheen vahvistaminen
+- Prekliiniset tai mekanistiset tutkimukset, jotka tukisivat yhteyttä verihiutaleiden toimintahäiriöihin
+- Diabeettisen retinopatian osalta uudisverisuonten muodostumisen riskin arviointi ennen jatkotutkimuksia
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

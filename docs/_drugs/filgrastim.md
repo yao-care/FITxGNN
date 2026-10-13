@@ -2,7 +2,7 @@
 layout: default
 title: Filgrastim
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 166
+nav_order: 191
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,92 +29,99 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Filgrastiimi: Neutropeniasta/kantasolujen mobilisaatiosta trombosyyttien primaarisen vapautumishäiriön hoitoon
+# Filgrastiimi: Neutropenian ja kantasolusiirron tukihoidosta trombosyyttien toimintahäiriöihin (platelet-type bleeding disorder)
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-> Filgrastiimi (ihmisen rekombinantti G-CSF) on hematopoieettinen kasvutekijä, jonka vakiintunut kliininen käyttö on kemoterapian aiheuttaman neutropenia-hoito ja perifeerisen veren kantasolujen mobilisaatio ennen keräämistä.
-> TxGNN-malli ennustaa, että se saattaa olla tehokas **trombosyyttien primaarisen vapautumishäiriön** hoitoon,
-> mutta tukeva näyttö on heikko: 14:stä löydetystä kliinisestä tutkimuksesta useimmat on luokitettu *ei suoraan asiaan liittyviksi* (kohdentamattomat kantasolujen siirtotukimukset), ja vain **1 julkaisu** (havainnollinen kohorttitutkimus, relevanssin arviointi on vielä kesken) käsittelee aihetta.
+Filgrastiimi on kasvutekijä (G-CSF), jota on alun perin käytetty neutropenian hoitoon sekä syövän ja hematopoieettisen kantasolusiirron yhteydessä.
+TxGNN-malli ennustaa sen voivan tehota ensisijaisesti sairauteen **primary release disorder of platelets** (trombosyyttien granulaatioiden vapautumishäiriö).
+Ennusteen tueksi ei ole kliinisiä tutkimuksia eikä julkaisuja. Ainoa muuhun ennustettuun sairauteen (platelet-type bleeding disorder) liittyvä aineisto koostuu **7 epäsuorasta kantasolusiirtotutkimuksesta**.
 
 ---
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Neutropenia (kemoterapian aiheuttama) / perifeerisen veren kantasolujen mobilisaatio — *perustuu lääkkeen tunnettuun G-CSF-mekanismiin, joka on kuvattu näyttöpaketin perustelukentässä; ei virallisesti hyväksytty Taiwan-indikaatio (katso Markkinatilanne)* |
-| Ennustettu uusi indikaatio | Trombosyyttien primaarinen vapautumishäiriö |
-| TxGNN-ennustepisteet | 99.998% (sijoitus 48) |
-| Näyttötaso | L4 (mekanistinen/epäsuora vain — yksikään kliininen tutkimus tai tutkielma ei kohdista suoraan tähän indikaatioon) |
-| Taiwanin markkinatilanne | Ei markkinoilla (Ei markkinoilla) |
-| Hyväksyntöjen määrä | 0 |
-| Suositeltu päätös | **Pidätetään** |
+| Alkuperäinen käyttöaihe | Hematopoieettinen kantasolusiirto; syöpä |
+| Ennustettu uusi käyttöaihe | Primary release disorder of platelets |
+| TxGNN-ennusteen pistemäärä | 99,998 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 7 (kaikki peruutettu, voimassa 0) |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Miksi tämä ennuste on kohtuullinen?
+## Miksi ennuste voisi olla perusteltu?
 
-Filgrastiimi on ihmisen rekombinantti granulosyytti-koloniastimulointikerroin (G-CSF). Se vaikuttaa granulosyytin ennakkosoluihin edistääkseen proliferaatiota ja differentiaatiota, ja se mobilisoi hematopoieettisia kantasoluja luuydinnestä perifeerisen veren kiertokulkuun — tämä muodostaa perustan sen vakiintuneille käyttötarkoituksille neutropenia-hoidossa ja kantasolujen keräämisessä siirtoa ennen.
+Lääkkeen tarkkaa vaikutusmekanismia ei ole tässä aineistossa saatavilla. Yleisesti tiedetään, että filgrastiimi on G-CSF, joka lisää neutrofiilien tuotantoa, erilaistumista ja vapautumista luuytimestä. Siksi sitä käytetään neutropeniassa sekä kantasolujen mobilisaatiossa ja kantasolusiirron jälkeisessä toipumisessa.
 
-Trombosyyttien primaarinen vapautumishäiriö (δ-varastoinnin sairaus, joka vaikuttaa trombosyytin granulaarisen aineen vapautumiseen) ei ole vakiintunutta farmakologista yhteyttä G-CSF-signalointiin. Näyttöpaketin oma mekanistinen arviointi on tässä asiassa selkeä: "ei tunnettua suoraa farmakologista mekanismia", joka yhdistäisi filgrastiimin trombosyytin granulaarin vapautumistoimintoon. Ainoa asiaan liittyvä julkaisu kuvaa *epäsuoraa havaintoa* — että G-CSF-mobilisaatio terveillä kantasolujen lahjoittajilla vaikuttaa mieluummin lymfosyytin osajoukkoihin — mikä ei ole hoitomekanismin tutkimus trombosyyttien vapautumishäiriöille.
+Alkuperäinen käyttöaihe (neutrofiililinjan palautuminen) ja ennustettu käyttöaihe (verihiutaleiden toimintahäiriö) ovat mekanistisesti kaukana toisistaan. Filgrastiimilla ei ole tunnettua vaikutusta verihiutaleiden granulaatioiden vapautumiseen eikä verihiutaleiden toimintaan. Korkea pistemäärä on laskennallinen ennuste, eikä sille ole biologista tai kliinistä vahvistusta.
 
-Lyhyesti sanottuna, korkea TxGNN-pistemäärä näyttää olevan semanttisen/graafi-klusteroinnin ohjaamaa "hematopoieettisen" ja "verenvuotohäiriön" käsitteiden ympärillä pikemminkin kuin validoitu farmakologinen polku. Tämä on yhteneväinen mallin muiden filgrastiimin huippiehdokkaiden kanssa (pseudo-von Willebrand-tauti, Glanzmann-trombastenia, Scottin oireyhtymä ja muut), joiden kaikki näyttöpaketti itse merkitsee olevan **ei mekanistista päällekkäisyyttä** G-CSF-signaloinnin kanssa ja **ei tukevaa tutkimus- tai kirjallisuusnäyttöä** (Näyttötaso L5, Pidätetään-suositus jokaisen niistä kohdalla).
+Muut ennustelistan sairaudet (esim. pseudo-von Willebrandin tauti, Glanzmannin trombasteenia, Scottin oireyhtymä, C1-estäjän puutos) kärsivät samasta ongelmasta: yhteys G-CSF-signalointiin on heikko tai puuttuu, eikä tukevaa näyttöä ole.
 
 ---
 
-## Kliinisen tutkimuksen näyttö
+## Kliininen tutkimusnäyttö
 
-| Tutkimusnumero | Vaihe | Tila | Osallistujat | Tärkeimmät löydökset |
+Ensisijaiselle ennusteelle (primary release disorder of platelets) ei ole rekisteröityjä kliinisiä tutkimuksia.
+
+Alla olevat tutkimukset liittyvät listan 10. ennusteeseen (platelet-type bleeding disorder). Ne ovat kantasolusiirtotutkimuksia hematologisissa syövissä, joissa filgrastiimi toimii tukihoitona tai mobilisaatiossa. Kaikki on arvioitu heikosti relevanteiksi (luokka C), eivätkä ne testaa filgrastiimia verihiutaleiden toimintahäiriöissä.
+
+| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT00281879](https://clinicaltrials.gov/study/NCT00281879) | Vaihe 2 | Keskeytetty | 200 | Sukulaisella olevan lahjoittajan kantasolujen siirto hematologisten syöpien hoitoon — *ei asiaa* (luokka C: väestö ja päätetapahtumat ovat hematologinen syöpä, ei trombosyyttien vapautumishäiriö) |
-| [NCT00043979](https://clinicaltrials.gov/study/NCT00043979) | Vaihe 2 | Valmistunut | 60 | Allogeeninen/syngeeninen kantasolujen siirto lapsuusajan sarkoomeissa — *ei asiaa* (luokka C) |
-| [NCT00354172](https://clinicaltrials.gov/study/NCT00354172) | Vaihe 2 | Keskeytetty | 16 | Napanuoran veren siirto myeloidiin leukemiaan — *ei asiaa* (luokka C) |
-| [NCT00923364](https://clinicaltrials.gov/study/NCT00923364) | Vaihe 2 | Valmistunut | 19 | Vähennetyn intensiteetin kantasolujen siirto GATA2-mutaatioiden potilaille — relevanssia ei ole vielä arvioitu |
-| [NCT02646098](https://clinicaltrials.gov/study/NCT02646098) | Vaihe 2 | Valmistunut | 64 | CD34+ valittu vs valitsematon autologinen siirto lymfoomassa — *ei asiaa* (luokka C) |
-| [NCT05436418](https://clinicaltrials.gov/study/NCT05436418) | Vaihe 1/2 | Rekrytoi | 260 | Siirtojälkeisen syklofosforamidi-doseerauksen GVHD-profylaksia — *ei asiaa* (luokka C) |
-| [NCT05170828](https://clinicaltrials.gov/study/NCT05170828) | Vaihe 1 | Peruutettu | 0 | Kryopreservoidun sukulaisella olevan lahjoittajan luuydin siirto — relevanssia ei ole vielä arvioitu |
-| [NCT00076752](https://clinicaltrials.gov/study/NCT00076752) | Vaihe 2 | Valmistunut | 9 | Autologinen kantasolujen siirto vakavaan lupukseen (SLE) — relevanssia ei ole vielä arvioitu |
-| [NCT04540120](https://clinicaltrials.gov/study/NCT04540120) | Vaihe 2 | Keskeytetty | 49 | Dapansutrilli COVID-19 sytokinien vapautumisen oireyhtymään — relevanssia ei ole vielä arvioitu |
-| [NCT06859424](https://clinicaltrials.gov/study/NCT06859424) | Vaihe 2 | Rekrytoi | 358 | Siirtojälkeisen syklofosforamidi GVHD-profylaksian alustava tutkimus — relevanssia ei ole vielä arvioitu |
-
-*Huomio: 4 muuta tutkimusta palautettiin, mutta jätettiin pois niiden lyhyyden vuoksi; yksikään niistä ei ole luokiteltu suoraan asiaa olevaksi tähän indikaatioon. Kaikissa 14 haetulla tutkimuksella filgrastiimia ei tutkita trombosyyttien vapautumishäiriön hoitona — kaikissa on kyse hematopoieettisten kantasolujen siirrosta liittymättömille hematologisille syöpiin tai autoimmuunitaudeille.*
+| [NCT00296023](https://clinicaltrials.gov/study/NCT00296023) | Ei vaihetta (NA) | Päättynyt | 25 | Pieniannoksinen allogeeninen kantasolusiirto korkean riskin hitaasti etenevissä hematologisissa syövissä |
+| [NCT00004232](https://clinicaltrials.gov/study/NCT00004232) | Vaihe 1 | Päättynyt | Ei tiedossa | CD34-rikastettujen kantasolujen käyttö luuytimen tukena allogeenisessa siirrossa |
+| [NCT00054236](https://clinicaltrials.gov/study/NCT00054236) | Vaihe 1 | Päättynyt | 55 | Useiden napaveriyksiköiden siirto ei-myeloablatiivisen esihoidon jälkeen |
+| [NCT00301912](https://clinicaltrials.gov/study/NCT00301912) | Vaihe 2 | Peruttu (withdrawn) | 0 | Busulfaani-fludarabiini-esihoito; ei potilaita, ei tuloksia |
+| [NCT00295997](https://clinicaltrials.gov/study/NCT00295997) | Ei vaihetta (NA) | Tila tuntematon | 35 | Ei-myeloablatiivinen allogeeninen siirto sopivalta ei-sukulaisluovuttajalta |
+| [NCT00080925](https://clinicaltrials.gov/study/NCT00080925) | Vaihe 1 | Päättynyt | 20 | T-soludeplektoitu, vähennetyn intensiteetin haploidenttinen siirto |
+| [NCT00004904](https://clinicaltrials.gov/study/NCT00004904) | Vaihe 1 | Päättynyt | Ei tiedossa | T-soludeplektoitu osittain sopivan sukulaisluovuttajan kantasolusiirto |
 
 ---
 
-## Kirjallisuusnäyttö
+## Myyntiluvat Suomessa
 
-| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät löydökset |
-|------|-----|------|------|---------|
-| [29770133](https://pubmed.ncbi.nlm.nih.gov/29770133/) | 2018 | Kohortti/Havainnollinen | Frontiers in Immunology | G-CSF-mobilisaatio terveillä kantasolujen lahjoittajilla mobilisoi mieluummin lymfosyytin osajoukkoja; epäsuora immunologinen havainto, ei tutkimus trombosyytin vapautumisen toiminnasta tai hoitotehokkuudesta (relevanssin luokitus on vielä kesken) |
+Kaikki seitsemän myyntilupaa on peruutettu. Valmisteista ei ole tässä aineistossa annettu lääkemuotoa.
 
----
-
-## Taiwanin markkinatiedot
-
-Filgrastiimia **ei tällä hetkellä markkinoida Taiwanissa** — näyttöpaketissa ei ole saatavilla hyväksyntätietoja (0 lisenssejä).
+| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000918 | Filgrastim Hexal | – | Hematopoieettinen kantasolusiirto; syöpä |
+| EMEA/H/C/000827 | Tevagrastim | – | Hematopoieettinen kantasolusiirto; syöpä |
+| EMEA/H/C/001142 | Nivestim | – | Hematopoieettinen kantasolusiirto; syöpä |
+| EMEA/H/C/000825 | Ratiograstim | – | Hematopoieettinen kantasolusiirto; syöpä |
+| EMEA/H/C/006400 | Zefylti | – | Neutropenia; hematopoieettinen kantasolusiirto; syöpä |
 
 ---
 
 ## Turvallisuusnäkökohdat
 
-Katso pakkausselosteesta turvallisuustietoja. *(Tärkeimmät varoitukset, vasta-aiheet ja lääkkeiden vuorovaikutustiedot on kaikki merkitty tietojen puutteiksi tässä näyttöpaketissa — myös niin vakavaksi kuin Blocking-vakavuuden TFDA-pakkausseloste, joka estää alustavaa turvallisuuden arviointia.)*
+Pakkausselosteen varoitus- ja vasta-aihetietoja ei ollut käytettävissä. Turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
+
+**Lääkeyhteisvaikutukset:** Tietokannasta löytyi yhteensä 100 yhteisvaikutusta. Esimerkkeinä keskivaikeiksi luokitellut yhteisvaikutukset:
+- Sytostaatit ja kohdennetut syöpälääkkeet, kuten paklitakseli, merkaptopuriini, atsasitidiini, bendamustiini, arseenitrioksidi ja abemasiklibi
+- Radioaktiiviset ja radioimmunoterapeuttiset valmisteet, kuten jobenguaani (I-131), ibritumomabi tiuksetaani ja tositumomabi
+- Muut: aldesleukiini, alemtutsumabi, levamisoli, asaltsabrutinibi
+
+Suuri osa näistä liittyy syöpähoitoihin, joissa filgrastiimia yleensä käytetäänkin. Siksi luokitus on tulkittava kliinisessä yhteydessä.
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Johtopäätös ja seuraavat askeleet
 
-**Päätös: Pidätetään**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-G-CSF-signaloinnin ja trombosyyttien vapautumisen/granulaarin häiriöiden välinen mekanistinen yhteys on vakiintumaton — näyttöpaketin oma perustelu toteaa, ettei ole tunnettua suoraa farmakologiaa, joka yhdistäisi nämä kaksi. Yksikään kliininen tutkimus tai julkaisu ei tutkimus filgrastiimia tähän indikaatioon; haetut tutkimukset ovat lähes kokonaan kohdentamattomia hematopoieettisia kantasolujen siirtotukimuksia, ja ainoa kirjallisuuden osuma on epäsuora havainnollinen löydös. Tämä sama heikko-näytön kuvio (Näyttötaso L5, Pidätetään) koskee kaikkia yhdeksää muuta TxGNN-ennustettua filgrastiimin indikaatiota tässä paketissa (pseudo-von Willebrand-tauti, Glanzmann-trombastenia, Scottin oireyhtymä, C1-inhibiittorin puutos ja muut), joista yksikään ei ole millään tutkimus- tai kirjallisuusnäytöllä.
+- Ennuste perustuu pelkästään laskennalliseen malliin (L5). Mekanistinen yhteys verihiutaleiden toimintahäiriöihin on heikko, eikä suoria kliinisiä tai kirjallisuusnäyttöjä ole. Ainoa löytynyt tutkimusaineisto (7 kantasolusiirtotutkimusta) on epäsuoraa eikä testaa tätä käyttöaihetta.
+- Lisäksi kaikki Suomen myyntiluvat on peruutettu, joten valmisteen saatavuus on epävarma.
 
-**Jotta voitaisiin edetä, seuraavaa tarvitaan:**
-- TFDA-pakkausseloste varoitukset/vasta-aiheet (Blocking-tietojen puute — vaaditaan ennen kuin mikään S1 turvallisuuden arviointi voidaan aloittaa)
-- Toimintamekanismin dokumentaatio (Korkea vakavuuden tietojen puute — vaaditaan mekanistisen uskottavuuden asianmukaiseen arviointiin)
-- Omistettu prekliininen tai mekanistinen tutkimus, joka yhdistää suoraan G-CSF/granulosyytin polut trombosyytin granulaarin vapautumisen toimintoon
-- Jos sitä jatketaan, hematologian/hyytymisen asiantuntijan arviointi biologisen uskottavuuden osalta ennen mitään tutkimussuunnittelua
-
+**Jatkoa varten tarvitaan:**
+- Valmisteyhteenvedon varoitus- ja vasta-aihetiedot (Fimean sivustolta), jotta turvallisuusarviointi voidaan tehdä
+- Vaikutusmekanismitiedot (esim. DrugBankista) mekanistisen yhteyden arviointia varten
+- Systemaattinen kirjallisuushaku filgrastiimista ja verihiutaleiden toimintahäiriöistä (prekliiniset ja kliiniset tutkimukset)
+- Selvitys myyntilupien peruuttamisen syistä ja nykyisestä saatavuudesta Suomessa
+- Reittien ja lääkemuotojen yhteensopivuuden arviointi, jos hanketta jatketaan
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -2,15 +2,15 @@
 layout: default
 title: Tocilizumab
 parent: Vahva näyttö (L1-L2)
-nav_order: 379
-evidence_level: L1
+nav_order: 442
+evidence_level: L2
 indication_count: 10
 ---
 
 # Tocilizumab
 {: .fs-9 }
 
-Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,96 +29,119 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Tosiliitsumabi: reumaattisesta nivelreumasta ankylosoivaan spondyliittiiseen
+# Tosilitsumabi: Nivelreumasta selkärankareumaan
 
-## Yksirivinen yhteenveto
+## Yhden lauseen yhteenveto
 
-> Tosiliitsumabi on humanisoidulla monoklonaalinen vasta-aine, joka estää IL-6-reseptoria ja on alun perin kehitetty reumaattiseen nivelreumaan ja nuorten idiopaattiseen arthriittiiseen.
-> TxGNN ennustaa, että se voi olla tehokas myös **ankylosoivaan spondyliittiiseen**, mutta tukeva tutkimusnäyttö — **9 kliinistä tutkimusta** ja **19 julkaisua**, mukaan lukien kaksi omaa Phase 3 -tutkimusta — osoittaa itse asiassa **negatiiviseen** tulokseen eikä positiiviseen signaaliin.
+Tosilitsumabi on interleukiini-6-reseptorin (IL-6R) salpaaja, jota käytetään alun perin nivelreuman, lastenreuman, sytokiinipäästöoireyhtymän, jättisoluarteriitin ja COVID-19:n hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **selkärankareumaan (ankyloiva spondyliitti)**.
+Tätä tukee **4 kliinistä tutkimusta** (joista 2 vaiheen 3 satunnaistettua tutkimusta, kumpikin keskeytetty) ja **20 julkaisua**, mutta tehoa ei ole osoitettu.
 
 ---
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Reumaattinen nivelurea (vakiintunut kirjallisuuskäytöstä; TFDA/Fimea-lupaa ei ole saatavilla) |
-| Ennustettu uusi indikaatio | Ankylosoiva spondyliitti |
-| TxGNN-ennustuspistemäärä | 99.99% |
-| Näyttötaso | L1 |
-| Suomen markkina-asema | Ei markkinoitu |
-| Lupien määrä | 0 |
-| Suositeltu päätös | Pidätä |
+|------|------|
+| Alkuperäinen käyttöaihe | Nivelreuma, lastenreuma (nuorten idiopaattinen artriitti), sytokiinipäästöoireyhtymä, jättisoluarteriitti, COVID-19 |
+| Ennustettu uusi käyttöaihe | Selkärankareuma (ankyloiva spondyliitti) |
+| TxGNN-ennustepisteet | 99,99 % |
+| Näytön taso | L2 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 4 (kaikki peruutettu) |
+| Suositeltu päätös | Hold (odota; tutkimuskysymys, ei vielä etenemistä) |
+
+Huomio: näytön taso L2 on määritetty muodollisesti tutkimusasetelman perusteella. Molemmat tutkimukset keskeytettiin, joten käytännössä näyttö tehosta on heikko.
 
 ---
 
-## Miksi tämä ennustus on järkevä?
+## Miksi ennuste on perusteltu?
 
-Tällä hetkellä tosiliitsumabiin liittyvät yksityiskohtaiset toimintamekanismin tiedot eivät ole saatavilla tässä Evidence Pack -asiakirjassa (merkitty korkean vakavuuden tietoaukoksi). Keräetyn kirjallisuusnäytön perusteella tosiliitsumabi on humanisoidulla monoklonaalinen vasta-aine, joka estää sekä kalvoon sitoutuneen että liukoisen IL-6-reseptorin, ja se on vakiintunut käyttöaine reumaattisen nivelreuman (RA), systeemisen ja polyartikulaarisen nuorten idiopaattisen arthriitinin sekä jättisoluarteriitin hoidolle — kaikissa näissä tiloissa IL-6:lla on keskeinen patogeneettinen rooli.
+Tosilitsumabi on humanisoitu monoklonaalinen vasta-aine, joka salpaa IL-6-reseptorin. IL-6 on keskeinen tulehdusta ylläpitävä sytokiini nivelreumassa, ja sen salpaus on vakiintunut hoitomuoto. Yksityiskohtaista vaikutusmekanismitietoa (MOA) ei ole tässä aineistossa saatavilla, mutta IL-6R-salpaus tunnetaan lääkeaineen luokkaominaisuutena.
 
-Reumaattinen nivelurea ja ankylosoiva spondyliitti (AS) ovat molemmat krooniset tulehdelliset reumasairaudet, mikä johtanee siihen, että TxGNN:n tietoverkkomalli piti AS-tautia korkeasti pisteytettynä kandidaattina (99.99%) — nämä kaksi sairautta jakavat lääkkeiden luokat (biologisten DMARD:ien kanssa) ja päällekkäiset potilasrekisterit kirjallisuudessa.
+Selkärankareuma on krooninen tulehduksellinen aksiaalinen sairaus, ja IL-6-reitin salpauksen on arveltu voivan vähentää tulehdusta myös siinä. Tämä on mekanistisesti uskottava, mutta kliininen näyttö ei toistaiseksi tue sitä: kaksi vaiheen 3 tutkimusta (NCT01209689, NCT01209702) keskeytettiin, eikä toimitetuista tiedoista käy ilmi kliinistä tehoa. Katsausartikkelit sijoittavat IL-6-salpauksen TNF- ja IL-17-estäjien jälkeiseksi toissijaiseksi vaihtoehdoksi. Tapausselostukset (esim. AA-amyloidoosi selkärankareumassa) ovat kannustavia, mutta anekdoottisia.
 
-Kuitenkin mekanistinen perustelu on heikompi kuin pistemäärä ehdottaa: AS ja aksiaalinen spondylartriitti ovat ensisijaisesti IL-17/TNF-akselin ohjaamia, eivät IL-6:n ohjaamia. Tämä ei ole teoreettinen huoli — sitä on jo tutkittu suoraan. Kaksi tarkoituksellisesti rakennettua Phase 3 -satunnaistettututkimusta AS-potilaille (NCT01209689, NCT01209702) suoritettiin ja molemmat **lopetettiin**, koska ne eivät osoittaneet ylivertaisuutta plaseboon verrattuna (repurposing-perustelun mukaan ASAS20-vastaus ei ollut merkitsevästi parempi kuin plaseboa). Tämä on tapaus, jossa suora kliininen näyttö palauttaa **negatiivisen** tuloksen, ei puutteellisia tietoja — tämän indikaation jatkamista ei tueta nykyisellä näytöllä.
+Muista ennusteista vahvin on monen nivelen lastenreuma (polyartikulaarinen JIA), jossa on L1-tason näyttö. Se on kuitenkin jo hyväksytty käyttöaihe monilla alueilla, joten kyse on olemassa olevan käytön vahvistamisesta, ei uudesta uudelleenkäytöstä.
 
 ---
 
-## Kliinisen tutkimuksen näyttö
+## Kliininen tutkimusnäyttö
 
-| Tutkimusnumero | Vaihe | Tila | Rekrytointi | Keskeisiä löydöksiä |
+| Tutkimusnumero | Vaihe | Tila | Osallistujia | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT01209689](https://clinicaltrials.gov/study/NCT01209689) | Vaihe 3 | Lopetettu | 113 | Pivotaali plaseboa-kontrolloitu RCT AS-potilailla, joilla oli riittämätön vastaus aiemmalle anti-TNF-terapeuttille; tutkimus lopetettiin — negatiivinen pivotaali tulos |
-| [NCT01209702](https://clinicaltrials.gov/study/NCT01209702) | Vaihe 2/3 | Lopetettu | 306 | Saumaton Vaihe II/III RCT NSAID-vastustuksisilla, TNF-naiiveilla AS-potilailla; sisartutkimus NCT01209689:lle, myös lopetettu — negatiivinen tulos |
-| [NCT07477795](https://clinicaltrials.gov/study/NCT07477795) | Vaihe 2 | Ei vielä rekrytoitavaa | 52 | Tutkii **sekukinumabia**, ei tosiliitsumabaa, Takayasun arteriitin hoitoon — lääkkeen epäsopivuus, ei suoraan sovellettavissa |
-| [NCT01965132](https://clinicaltrials.gov/study/NCT01965132) | N/A | Rekrytoitavaa | 10,000 | Korealainen usean sairauden biologisten tuotteiden/tsDMARD-rekisteri, joka kattaa RA:n, AS:n ja PsA:n; vain turvallisuustietoja, ei AS-spesifistä tehosignaalia |
-| [NCT02569736](https://clinicaltrials.gov/study/NCT02569736) | N/A | Valmis | 60 | Tosiliitsumabiin liittyvä mekanistinen tutkimus T follicular helper -soluista — suoritettu RA-potilailla, ei AS-potilailla; epäsuora IL-6-biologian viittaus |
-| [NCT05670301](https://clinicaltrials.gov/study/NCT05670301) | N/A | Rekrytoitavaa | 2,500 | Havainnollinen sytokiini-profilointitutkimus systeemisen tulehduksellisten sairauksien poikki; ei AS-spesifistä interventiotutkimusnäyttöä |
-| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Vaihe 2 | Ei vielä rekrytoitavaa | 80 | Perioperatiivisen immunosuppressiivisen hoidon hallinta olkapään arthroplastian yhteydessä reumasairauksista kärsivillä potilailla; ei AS-tehotutkimusta |
-| [NCT02925338](https://clinicaltrials.gov/study/NCT02925338) | N/A | Valmis | 1,431 | Todellisen maailman rekisteri **Inflexa (infliksimaabi)**, ei tosiliitsumabaa — lääkkeen epäsopivuus |
-| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | N/A | Tuntematon | 750,000 | Laaja rekisteritutkimus lisäimmuunivasteen välittäjiin liittyvien sairauksien kehittymisen riskistä; ei AS-hoitotutkimus |
+| [NCT01209689](https://clinicaltrials.gov/study/NCT01209689) | Vaihe 3 | Keskeytetty | 113 | Satunnaistettu, kaksoissokkoutettu, lumekontrolloitu; tosilitsumabi vs. lume TNF-estäjille riittämättömästi vastanneilla selkärankareumapotilailla |
+| [NCT01209702](https://clinicaltrials.gov/study/NCT01209702) | Vaihe 2/3 | Keskeytetty | 306 | Satunnaistettu, lumekontrolloitu; NSAID-lääkkeille riittämättömästi vastanneet, TNF-estäjää käyttämättömät potilaat |
+| [NCT01965132](https://clinicaltrials.gov/study/NCT01965132) | Ei määritelty | Rekrytoi | 10 000 | Korealainen biologisten lääkkeiden rekisteri; havainnoiva, ei tosilitsumabispesifinen tehotutkimus |
+| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Vaihe 2 | Rekrytoi | 80 | Immunosuppressanttien hallinta olkanivelen tekonivelleikkauksessa; ei koske selkärankareuman tehoa |
 
 ---
 
 ## Kirjallisuusnäyttö
 
-| PMID | Vuosi | Tyyppi | Journal | Keskeisiä löydöksiä |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [23765873](https://pubmed.ncbi.nlm.nih.gov/23765873/) | 2014 | RCT (BUILDER-1/2) | Annals of the Rheumatic Diseases | Satunnaistetut, plaseboa-kontrolloidut tutkimukset tosiliitsumabiin lyhytaikaisesta symptomaattisesta tehokkuudesta AS:ssa — ensisijainen kliinisen tehokkuuden tietolähde tälle indikaatiolle |
-| [26986130](https://pubmed.ncbi.nlm.nih.gov/26986130/) | 2016 | Systemaattinen katsaus / Verkon meta-analyysi | Medicine | Biologisten hoitoregimensi vertaileva tehokkuus AS:ssa RCT-poikki; tarjoaa vertailukelpoista kontekstia tosiliitsumabille verrattuna muihin biologisiin aineisiin |
-| [22452603](https://pubmed.ncbi.nlm.nih.gov/22452603/) | 2012 | Katsaus | Inflammation & Allergy Drug Targets | Tarkastelee IL-6-antagonismin perustelua ja näyttöä erityisesti AS:ssa |
-| [29290076](https://pubmed.ncbi.nlm.nih.gov/29290076/) | 2018 | Meta-analyysi (Kohortti) | Clinical Rheumatology | Kvantifioi vakavien infektioiden riskin biologisissa aineissa (mukaan lukien tosiliitsumabi) AS/nr-axSpA RCT:issa |
-| [20959960](https://pubmed.ncbi.nlm.nih.gov/20959960/) | 2011 | Kohortti/Katsaus | Osteoporosis International | Biologisten terapeuttisten aineiden systeemiset luuvaikutukset RA:ssa ja AS:ssa |
-| [21803631](https://pubmed.ncbi.nlm.nih.gov/21803631/) | 2011 | Katsaus | Joint Bone Spine | Tarkastelee biologisia aineita AS:ssa TNFα-antagonistien ulkopuolella, mukaan lukien IL-6-esto |
-| [19822066](https://pubmed.ncbi.nlm.nih.gov/19822066/) | 2009 | Katsaus | Clinical and Experimental Rheumatology | Vertaa biologisia aineita RA vs. AS ja huomauttaa erilaisesta patogeneeistä ja hoitovasteesta |
-| [33981717](https://pubmed.ncbi.nlm.nih.gov/33981717/) | 2021 | Tapausraportti | Frontiers in Medicine | Kaksi tapausta tosiliitsumabiin onnistuneesta hoidosta AA-amyloidoosissa AS:n komplikaationa |
-| [32872025](https://pubmed.ncbi.nlm.nih.gov/32872025/) | 2020 | Tapausraportti | Medicine | AS, joka komplikoi Turnerin syndroomaa; kirjallisuus review -konteksti |
-| [31852268](https://pubmed.ncbi.nlm.nih.gov/31852268/) | 2020 | Kohortti | Expert Review of Clinical Immunology | Vertaa infektioriskiä ei-biologisten ja biologisten aineiden (mukaan lukien tosiliitsumabi) välillä tulehduksellisessa arthriitissa |
+| [23765873](https://pubmed.ncbi.nlm.nih.gov/23765873/) | 2014 | Satunnaistetut tutkimukset (BUILDER-1 ja -2) | Ann Rheum Dis | Tosilitsumabin lyhytaikaisen oireita lievittävän tehon arviointi selkärankareumassa |
+| [26986130](https://pubmed.ncbi.nlm.nih.gov/26986130/) | 2016 | Systemaattinen katsaus ja verkostometa-analyysi | Medicine | Biologisten hoitojen vertailu selkärankareumassa |
+| [31852268](https://pubmed.ncbi.nlm.nih.gov/31852268/) | 2020 | Systemaattinen katsaus | Expert Rev Clin Immunol | Infektioriski tulehduksellisen artriitin hoidossa: perinteiset vs. biologiset lääkkeet |
+| [36260501](https://pubmed.ncbi.nlm.nih.gov/36260501/) | 2022 | Systemaattinen katsaus | RMD Open | IL-6-reitin estäjien teho ja turvallisuus immuunivälitteisissä tulehdussairauksissa |
+| [25488787](https://pubmed.ncbi.nlm.nih.gov/25488787/) | 2014 | Katsaus | Best Pract Res Clin Rheumatol | Spondyloartriitin hoito TNF-salpauksen jälkeen |
+| [22450391](https://pubmed.ncbi.nlm.nih.gov/22450391/) | 2012 | Katsaus | Curr Opin Rheumatol | Vaihtoehdot TNF-estäjille reagoimattomassa selkärankareumassa |
+| [33981717](https://pubmed.ncbi.nlm.nih.gov/33981717/) | 2021 | Tapausselostus | Front Med | AA-amyloidoosin onnistunut hoito tosilitsumabilla selkärankareumassa (kaksi tapausta) |
+| [28413099](https://pubmed.ncbi.nlm.nih.gov/28413099/) | 2017 | Katsaus | Semin Arthritis Rheum | Toisen linjan biologisen hoidon optimointi |
+| [29290076](https://pubmed.ncbi.nlm.nih.gov/29290076/) | 2018 | Meta-analyysi | Clin Rheumatol | Vakavien infektioiden riski biologisessa hoidossa selkärankareumassa |
+| [39963138](https://pubmed.ncbi.nlm.nih.gov/39963138/) | 2025 | Ohje/katsaus | Front Immunol | Tuberkuloosiriskin hallinta biologisten lääkkeiden käyttäjillä |
 
 ---
 
-## Suomen markkina-asema
+## Markkinatiedot Suomessa
 
-Tosiliitsumabilla ei ole tällä hetkellä markkinalupaa Suomessa (Fimean markkina-asema: **Ei markkinoitu**, 0 lupaa rekisterissä). Yhtään tuotedata/annoskorkoa ei ole saatavilla taulukoitavaksi.
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000955 | RoActemra | – | Nivelreuma, lastenreuma, sytokiinipäästöoireyhtymä, jättisoluarteriitti, COVID-19 (peruutettu) |
+| EMEA/H/C/006196 | Avtozma | – | Nivelreuma, lastenreuma, sytokiinipäästöoireyhtymä, COVID-19 (peruutettu) |
+| EMEA/H/C/005781 | Tyenne | – | Nivelreuma, sytokiinipäästöoireyhtymä, lastenreuma, COVID-19, jättisoluarteriitti (peruutettu) |
+| EMEA/H/C/005984 | Tocilizumab STADA (aiemmin Tofidence) | – | Nivelreuma, COVID-19, lastenreuma (peruutettu) |
+
+Kaikki neljä myyntilupaa on merkitty peruutetuiksi, joten voimassa olevia lupia ei ole.
 
 ---
 
 ## Turvallisuusnäkökohdat
 
-Turvallisuustiedot katso pakkausesite-lehtisestä.
+**Lääkeinteraktiot:** Tietoja on yhteensä 100 interaktiosta. Esimerkkejä:
+- **Merkittävä (Major):** deferipronin kanssa
+- **Kohtalainen (Moderate):** naltreksoni, metronidatsoli, tinidatsoli, rosuvastatiini, simvastatiini, apiksabaani, rivaroksabaani, varfariini, dikumaroli, klorokiini, hydroksiklorokiini, disulfiraami, lidokaiini
+- **Lievä (Minor):** sinkkisuolat (sulfaatti, asetaatti, glukonaatti, kloridi)
+
+**Ennustekohtaisia turvallisuushuomioita:**
+- Tosilitsumabi on immunosuppressiivinen ja lisää infektioriskiä, myös tuberkuloosia. Tämän vuoksi ennuste mykobakteeri-infektioille alttiilla (IL12B-puutos) on vakava turvallisuusongelma.
+- Kirjallisuudessa on raportoitu tosilitsumabin aiheuttamia vaskuliitin kaltaisia reaktioita ja vakava maksavaurio hoidon aloituksen jälkeen.
+- Lastenreumassa hoidossa seurataan infektioita, rasva-arvoja ja maksa-arvoja, ja annostus on painoperusteinen.
+
+Muilta osin turvallisuustiedot on luettava valmisteyhteenvedosta.
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Johtopäätös ja jatkotoimet
 
-**Päätös: Pidätä**
+**Päätös: Hold**
 
 **Perustelut:**
-- Kaksi tarkoituksellisesti rakennettua Phase 3 -RCT-tutkimusta AS:n potilailla (NCT01209689, NCT01209702) suoritettiin suoraan ja lopetettiin ilman, että osoitettaisiin ylivertaisuutta plaseboon verrattuna, mikä viittaa siihen, että IL-6-esto on todennäköisesti riittämätöntä sairaudelle, jonka pääasialliset ajajat ovat IL-17/TNF-akseli. Tämä on korkealaatuinen **negatiivinen** löydös, ei tietoaukko — tämän indikaation jatkamista ei tueta nykyisellä näytöllä.
+- Selkärankareuman osalta molemmat vaiheen 3 tutkimukset keskeytettiin, eikä aineistosta käy ilmi osoitettua kliinistä tehoa. IL-6-salpaus on mekanistisesti uskottava, mutta TNF- ja IL-17-estäjät ovat vakiintuneempia vaihtoehtoja, joten tämä on toistaiseksi tutkimuskysymys. Lisäksi Suomessa ei ole voimassa olevia myyntilupia.
 
-**Edetäkseen, seuraavaa tarvitaan:**
-- TFDA/paikallisen pakkausesite-tiedot (varoitukset, vasta-aiheet) — tällä hetkellä Blocking-tietoaukko (DG001)
-- Vahvistettu toimintamekanismin yksityiskohta DrugBankista (DG002)
-- Jos tosiliitsumabiin repurposing pysyy prioriteettinä, harkitse resurssien ohjaamista ehdokkaisiin tässä samassa Evidence Pack -asiakirjassa materiaalisesti vahvemmalla tuella — erityisesti **polyartikulaariseen JIA** (sijoitus 7, L1 näyttö, päätösvaihe S3, "Jatka varauksella", jo hyväksytty indikaatio muualla) ja **RF-positiiviseen polyartikulaariseen JIA** (sijoitus 10, L2, "Jatka varauksella") — eikä ankylosoivaan spondyliittiiseen
+**Eteneminen edellyttää:**
+- Keskeytettyjen tutkimusten (NCT01209689, NCT01209702) tulosten ja keskeyttämissyiden tarkistamista sekä BUILDER-1/2-julkaisun (PMID 23765873) arviointia
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivuilta (tällä hetkellä puuttuvat ja estävät turvallisuusseulonnan)
+- Yksityiskohtaisia vaikutusmekanismitietoja (MOA) DrugBankista
+- Reittien ja lääkemuotojen yhteensopivuuden arviointia sekä infektio-, TB- ja maksaseurantasuunnitelmaa
 
+**Muut ennusteet lyhyesti:**
+- Monen nivelen lastenreuma ja reumatekijäpositiivinen monen nivelen lastenreuma: L1, Proceed with Guardrails (vahvistaa olemassa olevaa käyttöä, ei uutta uudelleenkäyttöä)
+- Reumatoidivaskuliitti: L4, Hold (vain tapausselostuksia ja turvallisuushuoli)
+- Tulehduksellinen selkärankasairaus (inflammatory spondylopathy): L2, tutkimuskysymys (sama näyttö kuin selkärankareumassa)
+- Selkärankasairaus (vertebral disease): L4, Hold (näyttö epäsuoraa)
+- Spondyloartropatia-alttius: L5, Hold
+- Häntäluun liikkuvuuslisä, Kümmellin tauti, IL12B-puutoksen mykobakteerialttius: L5, Hold (pelkkä mallin ennuste; viimeisessä lisäksi vakava turvallisuushuoli)
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

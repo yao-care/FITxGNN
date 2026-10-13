@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ofatumumab
-parent: Kohtalainen näyttö (L3-L4)
-nav_order: 270
-evidence_level: L4
+parent: Pelkkä mallin ennuste (L5)
+nav_order: 313
+evidence_level: L5
 indication_count: 8
 ---
 
 # Ofatumumab
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **8** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **8** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,85 +29,121 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **8** kpl
 
 </div>
 
-# Ofatumumab: kroonisesta lymfosyyttileukemiasta/piensolulympfoomasta pregeerminalikeskuksen CLL/SLL:ään
+# Ofatumumabi: Multippeliskleroosista krooniseen lymfosyyttileukemiaan / pieneen lymfosyyttilymfoomaan (CLL/SLL)
 
 ## Yhden lauseen yhteenveto
 
-Ofatumumab on täysin ihmisen monoklonaalinen vasta-aine, joka kohdistuu CD20-antigeeniin (anti-CD20-monoklonaalinen vasta-aine), ja se on alkuperäisesti hyväksytty (nimellä Arzerra) kroonisen lymfosyyttileukemian/piensolulympfoooman (CLL/SLL) hoitoon. TxGNN-mallin korkeimmaksi sijoitettu ennuste osoittaa **pregeerminalikeskuksen CLL/SLL:ään** — tiettyyn IGHV-mutoimattomaan molekyyliseen alaryhmään samasta sairaudesta — ennustepistemäärän **99.77%**, mutta tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua** tukevat suoraan tätä alaryhmäkohtaista ekstrapolaatiota.
+Ofatumumabi on CD20-vasta-aine, jota käytetään alun perin aaltomaisesti etenevän multippeliskleroosin (relapsoiva-remittoiva MS) hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **krooniseen lymfosyyttileukemiaan / pieneen lymfosyyttilymfoomaan (CLL/SLL)**.
+Tätä suuntaa tukee tällä hetkellä **20 kliinistä tutkimusta** (mukana kolme vaiheen 3 tutkimusta) ja **20 julkaisua**.
 
 ---
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
-| Kohde | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Krooninen lymfosyyttileukemia (CLL) / piensolulympfooma (SLL) — lääkkeen alkuperäinen pääindikaatio (nimellä Arzerra); virallinen Suomen pakkausteksti ei ole saatavilla nykyisissä tiedoissa |
-| Ennustettu uusi indikaatio | Pregeerminalikeskuksen CLL/SLL (IGHV-mutoimaton molekyylinen alaryhmä) |
-| TxGNN-ennustepistemäärä | 99.77% |
-| Näytön taso | L4 |
-| Suomen markkinatilanne | ✗ Ei markkinoilla (Ei markkinoilla) |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Odota (Tutkimuskysymys-vaihe) |
-
----
-
-## Miksi tämä ennuste on perusteltu?
-
-Tällä hetkellä yksityiskohtaista vaikutusmekanismin tietoa ei ole saatavilla. Tunnettujen tietojen perusteella ofatumumab on täysin ihmisen IgG1κ-monoklonaalinen vasta-aine, joka kohdistuu CD20-antigeeniin, samassa lääkeryhmässä kuin rituximab ja obinutuzumab. Sen tehokkuus kroonisessa lymfosyyttileukemiassa/piensolulympfoomassa on osoitettu, ja se muodostaa lääkkeen alkuperäisen hyväksytyn indikaation.
-
-"Pregeerminalikeskuksen CLL/SLL" ei ole erillinen sairaus, vaan kroonisen lymfosyyttileukemian/piensolulympfoooman molekyylinen alaryhmä, jolle on ominaista mutoimaton IGHV-geenin asema (pregeerminalikeskuksen alkuperä), joka tyypillisesti liittyy aggressiivisempaan kliiniseen kulkuun. Kasvainsolut tässä alaryhmässä jatkavat CD20-antigeenin ilmentämistä, joten ofatumumabin ydinmekanismi — komplementista riippuvainen sytotoksisuus (CDC) ja vasta-aineriippuvainen soluvälitteinen sytotoksisuus (ADCC) CD20+ B-soluja vastaan — pysyy mekanistisesti soveltuvaksi.
-
-Tämä ennuste on kuitenkin **epäsuora ekstrapolaatio** lääkkeen pääasiallisesta CLL/SLL-näytöpohjasta eikä alaryhmäkohtainen löydös: mikään kliininen tutkimus tai julkaisu tässä näytöpaketissa ei ole nimenomaisesti ottanut mukaan tai analysoinut IGHV-mutoimattomia/pregeerminalikeskuksen CLL/SLL-potilaita määriteltyinä alaryhmänä ofatumumabin hoitoa varten.
+| Kohta | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | Relapsoiva-remittoiva multippeliskleroosi |
+| Ennustettu uusi käyttöaihe | Krooninen lymfosyyttileukemia / pieni lymfosyyttilymfooma (CLL/SLL); sijalla 1 ennusteluettelossa oli CLL/SLL:n molekulaarinen alatyyppi (pistemäärä 99,77 %), jolle ei löytynyt tutkimuksia. Tässä raportissa arvioidaan pääasiassa CLL/SLL-kokonaisuutta (sija 5) |
+| TxGNN-ennustepistemäärä | 99,55 % (CLL/SLL) |
+| Näytön taso | L1 (huomautus: vaiheen 3 tutkimuksissa ofatumumabi oli vertailuhoito, ks. alla) |
+| Suomen markkinatilanne | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Proceed with Guardrails (jatka suojatoimin) |
 
 ---
 
-## Kliinisen tutkimuksen näyttö
+## Miksi ennuste on perusteltu?
 
-Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
+Tämän raportin käyttöön kootuissa tiedoissa ei ole tällä hetkellä yksityiskohtaista vaikutusmekanismitietoa. Tunnetun tiedon perusteella ofatumumabi on täysin ihmisperäinen anti-CD20-monoklonaalinen vasta-aine. Sen teho B-solujen tuhoamisessa on osoitettu, ja mekanistisesti se voi soveltua CLL/SLL:n hoitoon.
+
+Ofatumumabi sitoutuu CD20-molekyylin kalvon lähellä olevaan epitooppiin ja aiheuttaa komplementtivälitteistä sytotoksisuutta sekä vasta-aineriippuvaista soluvälitteistä sytotoksisuutta. MS:ssa hoidon tavoitteena on vähentää autoreaktiivisia B-soluja. CLL/SLL:ssä taas pahanlaatuiset B-solut ilmentävät CD20:tä, joten sama kohde on hyödynnettävissä.
+
+Ofatumumabilla on vakiintunut kehityshistoria CLL:ssä: vaiheen 3 tutkimus (duvelisibi vs. ofatumumabi, n=319), lukuisia vaiheen 2 tutkimuksia sekä meta-analyysejä. Huomionarvoista on, että vaiheen 3 tutkimuksissa ofatumumabi toimi **vertailuhaarana**, joten ne tukevat sen aktiivisuutta mutta eivät osoita sen ylivertaisuutta. Lisäksi CLL-hoidon nykystandardi (BTK- ja BCL2-estäjät) kilpailee ofatumumabin kanssa.
 
 ---
 
-## Kirjallisuuden näyttö
+## Kliininen tutkimusnäyttö
 
-Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta.
+Alla on valikoima CLL/SLL:n tutkimuksista (enintään 10 olennaisinta).
+
+| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset havainnot |
+|---------|------|------|------|---------|
+| [NCT01578707](https://clinicaltrials.gov/study/NCT01578707) | Vaihe 3 | Päättynyt | 391 | Ibrutinibi vs. ofatumumabi uusiutuneessa/refraktaarisessa CLL/SLL:ssä (ofatumumabi vertailuhoitona) |
+| [NCT02004522](https://clinicaltrials.gov/study/NCT02004522) | Vaihe 3 | Päättynyt | 319 | Duvelisibi vs. ofatumumabi uusiutuneessa/refraktaarisessa CLL/SLL:ssä (DUO); ofatumumabi vertailuhoitona |
+| [NCT02049515](https://clinicaltrials.gov/study/NCT02049515) | Vaihe 3 | Päättynyt | 99 | DUO-tutkimuksen jatko: duvelisibi tai ofatumumabi etenemisen jälkeen |
+| [NCT01024010](https://clinicaltrials.gov/study/NCT01024010) | Vaihe 2 | Päättynyt | 82 | Pentostatiini, syklofosfamidi ja ofatumumabi aiemmin hoitamattomassa CLL:ssä |
+| [NCT03280160](https://clinicaltrials.gov/study/NCT03280160) | Vaihe 2 | Tuntematon | 84 | Ibrutinibi ja sen jälkeinen ofatumumabikonsolidaatio hoitamattomassa CLL/SLL:ssä |
+| [NCT01113632](https://clinicaltrials.gov/study/NCT01113632) | Vaihe 2 | Päättynyt | 77 | Ofatumumabi iäkkäille ja fludarabiinia kieltäytyville hoitamattomille potilaille |
+| [NCT01496976](https://clinicaltrials.gov/study/NCT01496976) | Vaihe 2 | Päättynyt | 45 | Ofatumumabi + suuriannoksinen metyyliprednisoloni, sitten ofatumumabi + lenalidomidi (HiLOG), hoitamaton CLL/SLL |
+| [NCT01243190](https://clinicaltrials.gov/study/NCT01243190) | Vaihe 2 | Päättynyt | 44 | Ofatumumabi varhaisvaiheen suuren riskin CLL/SLL:ssä |
+| [NCT01217749](https://clinicaltrials.gov/study/NCT01217749) | Vaihe 1/2 | Päättynyt | 71 | Ibrutinibi + ofatumumabi uusiutuneessa/refraktaarisessa CLL/SLL:ssä |
+| [NCT02135133](https://clinicaltrials.gov/study/NCT02135133) | Vaihe 2 | Päättynyt | 27 | Idelalisibi + ofatumumabi hoitamattomassa CLL/SLL:ssä |
+
+Lisäksi follikulaarisessa lymfoomassa (ennusteluettelon sija 3, pistemäärä 99,70 %) on useita päättyneitä vaiheen 2 tutkimuksia (mm. NCT01286272, n=135; NCT00494780, n=59; NCT01190449, n=51; NCT00394836, n=116) ja yksi päättynyt vaiheen 3 tutkimus (NCT01077518, n=346, päättyi ennenaikaisesti), mutta vaiheen 3 -tulokset eivät ole tässä aineistossa arvioitavissa.
+
+---
+
+## Kirjallisuusnäyttö
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|---------|-----|------|------|---------|
+| [37138022](https://pubmed.ncbi.nlm.nih.gov/37138022/) | 2023 | Meta-analyysi | Annals of Hematology | Ofatumumabipohjaisten hoito-ohjelmien teho CLL:ssä verrattuna muihin hoitoihin |
+| [28580841](https://pubmed.ncbi.nlm.nih.gov/28580841/) | 2017 | Systemaattinen katsaus ja meta-analyysi | Hematology | 13 kliinisen tutkimuksen yhdistetty arvio ofatumumabin tehosta ja turvallisuudesta CLL:ssä |
+| [24925211](https://pubmed.ncbi.nlm.nih.gov/24925211/) | 2015 | Vaiheen 2 tutkimus | Leukemia & Lymphoma | Ofatumumabi + bendamustiini aiemmin hoidetussa CLL/SLL:ssä |
+| [25736010](https://pubmed.ncbi.nlm.nih.gov/25736010/) | 2015 | Kliininen hoitosuositus (NCCN) | JNCCN | Uudet anti-CD20-vasta-aineet (ofatumumabi, obinututsumabi) mahdollistivat tehokkaat kemoimmunoterapiat |
+| [25828085](https://pubmed.ncbi.nlm.nih.gov/25828085/) | 2015 | Katsaus | Haematologica | Ofatumumabin rooli immunoterapiana CLL:ssä |
+| [26566719](https://pubmed.ncbi.nlm.nih.gov/26566719/) | 2015 | Katsaus | Expert Opin Drug Saf | Ofatumumabin turvallisuusprofiili CLL:ssä; suotuisa toksisuusprofiili |
+| [20481657](https://pubmed.ncbi.nlm.nih.gov/20481657/) | 2010 | Lääkekatsaus | Drugs | Ofatumumabi indusoi ADCC:n ja CDC:n; pivotaalitutkimus fludarabiini- ja alemtutsumabirefraktaarisessa CLL:ssä |
+| [20068404](https://pubmed.ncbi.nlm.nih.gov/20068404/) | 2009 | Lääkekatsaus | mAbs | Ofatumumabi sitoutuu uuteen kalvon lähellä olevaan epitooppiin ja irtoaa kohteesta hitaammin kuin rituksimabi |
+| [32482755](https://pubmed.ncbi.nlm.nih.gov/32482755/) | 2020 | Katsaus | Haematologica | CD20:n säätely ja toiminta; ilmentyminen vaihtelee B-solusyöpien välillä |
+| [38174814](https://pubmed.ncbi.nlm.nih.gov/38174814/) | 2024 | Systemaattinen katsaus (Cochrane) | Cochrane Database Syst Rev | Ylläpitohoito kroonisessa lymfosyyttileukemiassa |
+
+Follikulaarisesta lymfoomasta on lisäksi satunnaistettuja ja vaiheen 2 julkaisuja, esim. [31174236](https://pubmed.ncbi.nlm.nih.gov/31174236/) (CALGB 50904, 2019) ja [22389254](https://pubmed.ncbi.nlm.nih.gov/22389254/) (rituksimabirefraktaarinen FL, 2012; vasteosuus 13 % / 10 %).
+
+---
+
+## Suomen markkinatiedot
+
+| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/005410 | Kesimpta | Ei tietoa | Relapsoiva-remittoiva multippeliskleroosi (myyntilupa peruutettu) |
 
 ---
 
 ## Sytotoksisuus
 
-Ofatumumab on antineoplastinen biologinen lääke (anti-CD20-monoklonaalinen vasta-aine, jota käytetään CD20+ B-solupahanlaatuisuuksissa mukaan lukien CLL/SLL ja follikkelimainen lymfooma), joten tämä osio pätee.
-
-| Kohde | Sisältö |
-|------|---------|
-| Sytotoksisuuden luokittelu | Kohdennettu immunoterapia (anti-CD20-monoklonaalinen vasta-aine), ei tavanomainen sytotoksinen kemoterapia |
-| Luuytimen tukahduttamisen riski | Katso pakkausselosteen varoitukset ja varotoimet. Kirjallisuus (PMID [26566719](https://pubmed.ncbi.nlm.nih.gov/26566719/)) kuvaa "suotuisaa toksisuusprofiilia" kroonisen lymfosyyttileukemian potilailla, mutta nykyisessä aineistossa ei ole saatavilla määrällistä hematologista toksisuustietoa |
-| Pahoinvoinnin aiheuttamisen luokittelu | Matala (monoklonaalisia vasta-aineita pidetään yleisesti vähän pahoinvointia aiheuttavina; infuusioihin liittyvät reaktiot ovat tämän lääkeryhmän merkittävämpi akuutti toksisuus) |
-| Seurannan kohteet | Täydellinen verenkuva differentiaalin kanssa, infuusioihin liittyvien reaktioiden seuranta, hepatiitti B:n seulonta (lääkeryhmän suositus anti-CD20-valmisteiden osalta), immunoglobuliinin tasot |
-| Käsittelysuojaus | Standardi biologisen infuusion käsittelyvarotoimet; ei kuulu sytotoksisen kemoterapian käsittelysäädöksiin, koska se on monoklonaalinen vasta-aine eikä sytotoksinen pienimolekyylinen aine |
+| Kohta | Sisältö |
+|------|------|
+| Sytotoksisuusluokitus | Kohdennettu hoito / immunoterapia (anti-CD20-monoklonaalinen vasta-aine) |
+| Myelosuppression riski | Katso valmisteyhteenvedon varoitukset ja käyttöön liittyvät varotoimet |
+| Oksettavuusluokitus | Katso valmisteyhteenvedon varoitukset ja käyttöön liittyvät varotoimet |
+| Seurattavat parametrit | Verenkuva (erittelylaskenta), maksa-arvot, immunoglobuliinitasot ja infektioiden seuranta |
+| Käsittelysuojaus | Katso valmisteyhteenvedon varoitukset ja käyttöön liittyvät varotoimet |
 
 ---
 
-## Turvallisuusnäkökohdat
+## Turvallisuushuomiot
 
-Katso turvallisuustiedot pakkausselosteesta.
+- **Lääkeyhteisvaikutukset:** Yhteisvaikutuskyselyssä löytyi yhteensä 80 yhteisvaikutusta. Merkittäviksi (Major) luokiteltuja ovat mm. deferipronin, samarium-153-leksidronaamin, adalimumabin, barisitinibin, sertolitsumabipegolin, kladribiinin ja klotsapiinin kanssa. Kohtalaisia (Moderate) ovat mm. atsatiopriinin, alemtutsumabin, anakinran, kanakinumabin, tsidovudiinin, klooramfenikolin ja roflumilastin kanssa sekä useiden rokotteiden (mm. jäykkäkouristustoksoidi, pernaruttorokote, elävä koleraroke) kanssa. Yhteisvaikutukset liittyvät pääosin päällekkäiseen immuunisuppressioon tai luuydinsuppressioon.
+
+Muuten turvallisuustiedot: katso valmisteyhteenveto.
 
 ---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Odota**
+**Päätös: Proceed with Guardrails (jatka suojatoimin)**
 
 **Perustelut:**
-TxGNN-pistemäärä tälle erityiselle molekyyliselle alaryhmälle on korkea, mutta se ei ole tuettu millään suoralla kliinisellä tutkimuksella tai julkaisulla — mekanistinen perustelu on kokonaan ekstrapoloitu ofatumumabin laajemmasta CLL/SLL-näytöpohjasta pikemminkin kuin alaryhmäkohtaisista tiedoista. Tämä ei täytä vaatimuksia edetä S1 (Tutkimuskysymys) -vaiheen yli.
+- CLL/SLL:ssä on useita päättyneitä vaiheen 2 tutkimuksia, kolme päättynyttä vaiheen 3 tutkimusta (ofatumumabi vertailuhoitona) sekä meta-analyyseja, ja CD20 on perusteltu hoitokohde. Näyttö on kuitenkin epäsuoraa ofatumumabin ylivertaisuuden osalta, ja nykystandardi (BTK- ja BCL2-estäjät) sekä onkologisen valmisteen kaupallinen poisto rajoittavat soveltuvuutta.
+- Follikulaarinen lymfooma on toissijainen tutkimuskysymys (vain vaiheen 2 näyttö, useita keskeytettyjä tutkimuksia). Muut ennusteet (CLL/SLL:n alatyypit, alttiusnimike, metastaattinen kasvain, pahanlaatuinen spiradenooma, Langerhansin solujen histiosytoosi) ovat Hold-tasolla, koska itsenäistä näyttöä ei ole tai se on hyvin vähäistä.
 
-**Jatkaaksemme, seuraava on tarpeen:**
-- Alaryhmäkohtainen kliininen tutkimus tai kirjallisuuden näyttö IGHV-mutoimattomille/pregeerminalikeskuksen CLL/SLL:lle
-- TFDA/Fimea-pakkausselosteen varoitukset ja vasta-aiheet (tällä hetkellä estävä tietojen puute, DG001) — vaaditaan ennen mitään S1-turvallisuusseulontaa
-- Vahvistetut vaikutusmekanismin tiedot DrugBankista (korkean vakavuuden tietojen puute, DG002)
-- Suomen sääntelyyn ja markkinatilanteen päivitys, kun lääkettä ei tällä hetkellä myydä siellä
-
-**Huomio kontekstissa:** samassa näytöpaketissa muilla TxGNN-ennustetuilla ofatumumabin indikaatioilla on huomattavasti vahvempi näyttö — krooninen lymfosyyttileukemia/piensolulympfooma kokonaisuudessaan (sijoitus 5, L1, "Jatka turvavälinein", sisältäen valmiit Phase 3 -tutkimukset) ja follikkelimainen lymfooma (sijoitus 3, L2, useita valmiita Phase 2/3 -tutkimuksia). Nämä ehdokkaat saattavat vaatia erillistä, korkeamman prioriteetin arviointia.
-
+**Jatkaminen edellyttää seuraavaa:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden kerääminen (Fimean aineisto puuttuu) ennen turvallisuusseulontaa
+- Yksityiskohtaiset vaikutusmekanismitiedot
+- Saatavuuden selvitys, koska Suomessa on vain peruutettu myyntilupa, sekä vertailu nykyisiin standardihoitoihin (BTK- ja BCL2-estäjät)
+- Turvallisuuden seurantasuunnitelma erityisryhmille (iäkkäät potilaat, infektioriski, immunosuppressiivisten lääkkeiden yhteiskäyttö)
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

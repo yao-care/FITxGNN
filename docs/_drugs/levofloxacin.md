@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Levofloxacin
-parent: Vahva näyttö (L1-L2)
-nav_order: 227
-evidence_level: L1
+parent: Pelkkä mallin ennuste (L5)
+nav_order: 263
+evidence_level: L5
 indication_count: 10
 ---
 
 # Levofloxacin
 {: .fs-9 }
 
-Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,106 +29,98 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Levofloxasiini: Bakteeri-infektioista monoklonaalisiin gampaatioihin (Infektioprofylaksia)
+# Levofloksasiini: Hengitystieinfektioista ja kystisestä fibroosista monoklonaaliseen gammopatiaan
 
-## Yhteenveto
+## Yhden lauseen yhteenveto
 
-Levofloxasiini on fluorikinoloni-antibiootti, jota alun perin käytetään bakteeri-infektioiden hoitoon. Tämän todistelupaketin 10 TxGNN-ennustetussa indikaatiossa seulottujen joukossa useimpilla ei ole tukevia kliinisiä tai kirjallisuustodisteita (Hold), mutta mallin ennuste **monoklonaalisille gampaatioille** — erityisesti **infektioprofylaksiana äskettäin diagnosoidussa useassa myeloomassa** — on tuettu suoritetulla Phase 3 RCT:llä (TEAMM) ja **20 tukevalla julkaisulla**, mikä tekee siitä vahvimman kandidaatin tässä erässä.
+Levofloksasiini on fluorokinoloniryhmän laajakirjoinen antibiootti, jota on käytetty kystisen fibroosin yhteydessä esiintyvien hengitystieinfektioiden hoitoon.
+TxGNN-malli ennustaa sen voivan olla hyödyllinen **monoklonaalisessa gammopatiassa** (rank 7), mutta tuki perustuu infektioiden ehkäisyyn myeloomapotilailla, ei itse sairauden hoitoon.
+Aineistossa on **0 kliinistä tutkimusrekisteröintiä** ja **20 julkaisua** tälle indikaatiolle, joiden joukossa on yksi vaiheen 3 RCT (TEAMM).
 
----
+Huomio: ennusteluettelon ensimmäinen kohde, pistemäisen epiteliaalisen keratokonjunktiviitin ennuste (pistemäärä 99,92 %), perustuu vain yhteen mikrosporidiaepidemiaa kuvaavaan julkaisuun, jota ei voida pitää tukena. Tässä raportissa on siksi arvioitu tarkemmin kolmea kohdetta: ensimmäistä ennustetta, monoklonaalista gammopatiaa (vahvin kliininen aineisto) ja septistä paiseruttoa (vahvin mekanistinen peruste).
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Bakteeri-infektiot (fluorikinoloni-antibiootti); Taiwanissa hyväksyttyjä indikaatiotekstiä ei ole saatavilla — lääke ei tällä hetkellä ole markkinoilla Taiwanissa |
-| Ennustettu uusi indikaatio | Monoklonaaliset gampaatiat (infektioprofylaksia myelooman hoidon aikana) |
-| TxGNN-ennusteen pistemäärä | 99.81% |
-| Todistetaso | L1 |
-| Taiwanin markkinatilanne | Ei markkinoilla (Ei markkinoilla) |
-| Myyntilupien lukumäärä | 0 |
-| Suositeltu päätös | Etene varauksilla |
+|------|------|
+| Alkuperäinen indikaatio | Kystinen fibroosi; hengitystieinfektiot |
+| Ennustettu uusi indikaatio (ensimmäinen) | Pistemäinen epiteliaalinen keratokonjunktiviitti |
+| TxGNN-ennustepistemäärä (ensimmäinen) | 99,92 % |
+| Lupaavin jatkotarkasteltava ennuste | Monoklonaalinen gammopatia (99,81 %) |
+| Näytön taso | L5 (ensimmäinen ennuste); L4 (monoklonaalinen gammopatia, septinen paiseruttto) |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota); monoklonaalinen gammopatia ja septinen paiserutto: tutkimuskysymys |
 
----
+## Miksi ennuste on perusteltu?
 
-## Miksi tämä ennuste on järkevä?
+Yksityiskohtaista vaikutusmekanismitietoa ei ole tällä hetkellä saatavilla aineistosta. Tunnetun tiedon perusteella levofloksasiini on fluorokinoloni, joka estää bakteerin DNA-gyraasia ja topoisomeraasi IV:ää, ja sen teho bakteeri-infektioissa on osoitettu. Mekanistisesti se voi soveltua uusiin indikaatioihin vain, jos taustalla on bakteeriperäinen tai infektioon liittyvä tekijä.
 
-Tällä hetkellä strukturoitu DrugBank-mekanismi-toiminta-tietue ei ole saatavilla (tietoaukko). Tämän todistelupaketin omissa uudelleenkäyttöperusteluissa jo viitattavien farmakologian perusteella levofloxasiini on laajaspektrin **fluorikinoloni**, joka estää bakteerin DNA-gyraasia ja topoisomeraasia IV, mikä antaa sille bakteerin tappavaa vaikutusta laajaa valikoimaa gram-negatiivisia ja gram-positiivisia organismeja vastaan.
+**Pistemäinen epiteliaalinen keratokonjunktiviitti:** ainoa löydetty julkaisu kuvaa mikrosporidien aiheuttamaa silmätulehdusepidemiaa uima-allasveden saastumisen yhteydessä. Fluorokinoloneilla ei ole vakiintunutta tehoa mikrosporidioihin, joten yhteys on heikko. Korkea pistemäärä ei saa tukea kliinisestä näytöstä.
 
-Potilailla, joilla on monoklonaaliset gampaatiat (erityisesti äskettäin diagnosoitu useampi myelooma), on syvä humoraalinen immunovaje, joka johtuu normaalin immunoglobuliinin tuotannon tukahduttamisesta ja yhdistyy kemoterapiasta aiheutuvaan neutropeniaan. Noin neljännes äskettäin diagnosoiduista myelooma-potilaista kehittää vakavaa infektiota kolmen kuukauden sisällä diagnoosista. Levofloxasiinin rooli tässä on **infektioprofylaksia induktiokäsittelyn ja siirtohoidon aikana**, eikä taudin mukaavaa hoitoa gampaatioille itselleen — TEAMM-tutkimus ja sitä seuraava kirjallisuus tukevat tätä tukihoitointerventioksi pikemminkin kuin hoitoksi, joka kohdistuu taustalla olevaan plasmasolujen häiriöön.
+**Monoklonaalinen gammopatia:** näyttö liittyy infektioiden ehkäisyyn multippelia myeloomaa sairastavilla. TEAMM-tutkimuksessa (satunnaistettu, kaksoissokkoutettu, lumekontrolloitu vaiheen 3 koe, äskettäin diagnosoitu myelooma) levofloksasiini vähensi kuumeisia jaksoja ja kuolemia ensimmäisten 12 hoitoviikon aikana. Väestö (oireinen myelooma) poikkeaa esiasteesta (MGUS), eikä näyttö osoita vaikutusta itse plasmasolusairauteen. Kyse on siis tukihoidosta, ei sairauden hoidosta.
 
-Tämä ero on tärkeä soveltamisalan kannalta: mekanistinen yhteys on epäsuora (anti-infektiivinen tuki immunokomprometoidussa populaatiossa) pikemminkin kuin suora vasta-aine/plasmasolu-polku vaikutus, joten kaikissa suosituksissa on oltava selvää, että "infektioprofylaksia monoklonaalisissa gampaatioissa", eikä "monoklonaalisien gampaatioiden hoito".
+**Septinen paiserutto:** levofloksasiini estää Yersinia pestis -bakteerin kasvua, joten mekanismi on suora. Eläinmalleissa (afrikkalainen vihermarakatti) levofloksasiini paransi keuhkopaiseruton, ja tämä on ollut perusteena FDA:n hyväksynnälle eläintehosäännön (Animal Rule) nojalla. Hiirillä tulokset ovat vaihtelevia. Ihmisillä tehtyjä kliinisiä tutkimuksia ei löytynyt.
 
----
+## Kliininen tutkimusnäyttö
 
-## Kliinisen tutkimuksen todisteet
+Tällä hetkellä ei ole rekisteröityjä kliinisiä tutkimuksia, jotka liittyisivät ennustettuihin indikaatioihin.
 
-Tällä hetkellä ei löydetty liittyvää kliinistä tutkimusta rekisteröityä (ei ClinicalTrials.gov- tai ICTRP-tietueita löydetty tässä todistelupaketeista tälle indikaatiolle; keskeinen TEAMM-tutkimus on dokumentoitu kirjallisuuden/HTA-raportin kautta alla pikemminkin kuin rekisteröintikirjaus).
+## Kirjallisuusnäyttö
 
----
+Alla on monoklonaalisen gammopatian vahvimmat julkaisut (RCT ja kohorttitutkimukset ensin) sekä septisen paiseruton keskeiset eläinkokeet.
 
-## Kirjallisuustodisteet
+**Monoklonaalinen gammopatia (myeloomapotilaat)**
 
-| PMID | Vuosi | Tyyppi | Lehti | Avaintulokset |
-|------|------|--------|-------|---------|
-| [31668592](https://pubmed.ncbi.nlm.nih.gov/31668592/) | 2019 | RCT (Phase 3) | Lancet Oncology | TEAMM-tutkimus: levofloxasiinin profylaksia äskettäin diagnosoidussa myeloomassa vähensi kuumeisia jaksoja ja infektioita lumelääkkeeseen verrattuna ilman merkittävää C. difficilen tai vastustuskykyisten mikro-organismien kantaajuuden lisääntymistä |
-| [31690402](https://pubmed.ncbi.nlm.nih.gov/31690402/) | 2019 | RCT (HTA-monografia) | Health Technol Assess | Täydellinen teknologian arviointiraportti TEAMM-tutkimuksesta, joka arvioi antibioottiprofylaksian infektioiden ehkäisemiseksi äskettäin diagnosoidussa oireilevassa myeloomassa |
-| [25212681](https://pubmed.ncbi.nlm.nih.gov/25212681/) | 2014 | RCT | Int J Hematol | Profylaktinen suun kautta annettava levofloxasiini vähensi vakavia infektioita myelooma-potilailla, joilla oli bortezomibiin perustuvia hoitoja ja korkea riski lymfosytopeniasta |
-| [26150022](https://pubmed.ncbi.nlm.nih.gov/26150022/) | 2015 | RCT/Vertaileva kohortti | Biol Blood Marrow Transplant | Levofloxasiinin profylaksia ennen ja jälkeen soveltamisen vähensi verenvirtausinfektioita ja kuumeen/neutropeniajaksoja autologisen HSCT:n aikana myelooma-potilailla |
-| [32172361](https://pubmed.ncbi.nlm.nih.gov/32172361/) | 2020 | Katsaus | Curr Hematol Malig Rep | Tukihoidon katsaus useassa myeloomassa, joka kattaa infektioiden ehkäisyn muiden hallintotoimenpiteiden joukossa |
-| [37573150](https://pubmed.ncbi.nlm.nih.gov/37573150/) | 2023 | Kohorttitutkimus | Transpl Infect Dis | Karakterisoi infektiokomplikaatioita autologisen HSCT:n jälkeen myelooma-potilailla, vertaillen tuloksia levofloxasiinin profylaksian kanssa ja ilman |
-| [29080369](https://pubmed.ncbi.nlm.nih.gov/29080369/) | 2018 | Vertaileva kohortti | Clin Transplant | Siprofloksasiinin ja levofloxasiinin profylaksian retrospektiivinen vertailu autologisessa HSCT:ssä myelooma-potilailla; vertaili läpimurtoinfektioita |
-| [32304873](https://pubmed.ncbi.nlm.nih.gov/32304873/) | 2020 | Retrospektiivinen katsaus | Biol Blood Marrow Transplant | Arvioi uudelleen fluorikinoloniprofylaksian arvoa autologisen kantasolujen siirron yhteydessä, vertaillen myeloomaa (profylaksia) ja lymfoomaa (ei profylaksia) kohortteita |
-| [15791505](https://pubmed.ncbi.nlm.nih.gov/15791505/) | 2005 | Kohorttitutkimus | Clin Infect Dis | Perustutkimus osoittaa, että fluorikinoloniprofylaksia vähentää infektioihin liittyvää kuolleisuutta neutropenisissa potilaissa, joilla on hematologisia pahanlaatuisia kasvaimia |
-| [25591868](https://pubmed.ncbi.nlm.nih.gov/25591868/) | 2016 | Tapausraportti (turvallisuus) | J Oncol Pharm Pract | Raportoi akuuttia munuaisten vajaatoimintaa kidepostneumoniana myelooma-potilaalla, jolla on samanaikainen pomalidomidi ja levofloxasiini — olennainen turvallisuussignaali tälle väestölle |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
+|------|-----|------|------|---------|
+| [31668592](https://pubmed.ncbi.nlm.nih.gov/31668592/) | 2019 | RCT (vaihe 3) | Lancet Oncol | TEAMM: levofloksasiiniprofylaksi vvasta diagnosoidussa myeloomassa, monikeskus, kaksoissokkoutettu, lumekontrolloitu |
+| [31690402](https://pubmed.ncbi.nlm.nih.gov/31690402/) | 2019 | RCT-yhteenveto | Health Technol Assess | TEAMM-tutkimuksen laajempi raportti infektioiden ehkäisystä |
+| [29080369](https://pubmed.ncbi.nlm.nih.gov/29080369/) | 2018 | Kohortti | Clin Transplant | Siprofloksasiinin ja levofloksasiinin vertailu autologisessa kantasolusiirrossa myeloomapotilailla (297 potilasta) |
+| [26150022](https://pubmed.ncbi.nlm.nih.gov/26150022/) | 2015 | Kohortti | Biol Blood Marrow Transplant | Levofloksasiiniprofylaksin vaikutus verenmyrkytyksiin ja kuumeeseen neutropeniassa |
+| [37573150](https://pubmed.ncbi.nlm.nih.gov/37573150/) | 2023 | Kohortti | Transpl Infect Dis | Infektiokomplikaatiot autologisen kantasolusiirron jälkeen myeloomapotilailla |
+| [32172361](https://pubmed.ncbi.nlm.nih.gov/32172361/) | 2020 | Katsaus | Curr Hematol Malig Rep | Myeloomapotilaiden tukihoito, mukaan lukien infektiot |
+| [32304873](https://pubmed.ncbi.nlm.nih.gov/32304873/) | 2020 | Katsaus/kommentti | Biol Blood Marrow Transplant | Fluorokinoloniprofylaksi autologisessa kantasolusiirrossa on edelleen kiistanalaista |
+| [25212681](https://pubmed.ncbi.nlm.nih.gov/25212681/) | 2014 | Havainnointitutkimus | Int J Hematol | Levofloksasiiniprofylaksi bortetsomibia saavilla myeloomapotilailla (80 potilasta) |
 
----
+**Septinen paiserutto**
 
-## Taiwanin markkinatiedot
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
+|------|-----|------|------|---------|
+| [32435805](https://pubmed.ncbi.nlm.nih.gov/32435805/) | 2020 | Eläinkoe (kädellinen) | Clin Infect Dis | Hoidon viivästymisen vaikutus siprofloksasiinin ja levofloksasiinin tehoon keuhkopaiseruttomallissa |
+| [21347450](https://pubmed.ncbi.nlm.nih.gov/21347450/) | 2011 | Eläinkoe (kädellinen) | PLoS Negl Trop Dis | Levofloksasiini paransi kokeellisen keuhkopaiseruton |
+| [17517837](https://pubmed.ncbi.nlm.nih.gov/17517837/) | 2007 | Eläinkoe (in vitro -malli) | Antimicrob Agents Chemother | Streptomysiinin ja levofloksasiinin vertailu, resistenssin kehittyminen |
+| [32435803](https://pubmed.ncbi.nlm.nih.gov/32435803/) | 2020 | Katsaus | Clin Infect Dis | Kädellismalli ja antimikrobien hyväksyntä FDA:n eläintehosäännön nojalla |
 
-Levofloxasiinilla ei tällä hetkellä ole myyntilupaa Taiwanissa (0 lupaa arkistossa, markkinatilanne: Ei markkinoilla). Mitään tuotetta- tai annosmuodontietoja ei ole saatavilla taulukkoon.
+## Myyntiluvat Suomessa
 
----
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/002789 | Quinsair | – | Kystinen fibroosi; hengitystieinfektiot (peruutettu) |
 
 ## Turvallisuusnäkökohdat
 
-Viittaa pakkaukseen sisältyviin tietoihin turvallisuustiedoista. (Tällä hetkellä tässä todistelupaketeissa ei ole saatavilla strukturoituja avainvaroituksia, kontraindikaatioita tai lääkkeiden välisen vuorovaikutuksien tietoja — Taiwan-pakkausselosteita ei ole vielä haettu.)
+- **Mahdolliset vasta-aiheet ja riskitilat (tietämysgraafista, ei valmisteyhteenvedosta):** pitkä QT-oireyhtymä ja torsades de pointes, epilepsia, maksasairaus ja lääkeaiheuttama maksavaurio, trombosytopenia, leukopenia ja pansytopenia, kaliumin puutos, jännetulehdus, diabetes ja diabeettinen ketoasidoosi, perifeerinen neuropatia, rabdomyolyysi, Clostridium difficile -koliitti, munuaisten vajaatoiminta, myasthenia gravis, sydänlihaksen iskemia ja sepelvaltimotauti.
+- **Lääkeyhteisvaikutukset:** tietokannassa on yhteensä 100 yhteisvaikutusta. Merkittäviksi (Major) luokiteltuja ovat muun muassa tramadoli ja hydrokortisoni. Kohtalaisia (Moderate) ovat muun muassa abirateroni, asarbosi, famotidiini, formoteroli, ketorolaakki, adenosiini, ibuprofeeni, etinyyliestradioli, metformiini, pioglitatsoni ja alfutsosiini. Lieviä (Minor) ovat muun muassa paklitakseli ja aldesleukiini.
 
----
+Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole tässä aineistossa saatavilla, joten ne tulee tarkistaa Fimean valmisteyhteenvedosta.
 
-## Muut seulotut ennustetut indikaatiot (Tämä erä)
+Myeloomahoidoissa on lisäksi otettava huomioon fluorokinoloniresistenssi, C. difficile -riski sekä jänne-, QT- ja keskushermostohaitat.
 
-Läpinäkyvyyden vuoksi tämä todistelupaketti seuloi 10 TxGNN-ennustettua levofloxasiinin indikaatiota. Vain kaksi saavutti toiminnallisen todistetason; loput kahdeksan eivät saaneet kliinisen tutkimuksen tai kirjallisuuden tukea ja ne ovat pidossa.
+## Johtopäätös ja seuraavat askeleet
 
-| Sijoitus | Sairaus | TxGNN-pistemäärä | Todistetaso | Suositus |
-|----------|---------|-----------------|------------|----------|
-| 1 | Pistemiäinen pintakeratokunjunktiviitti | 99.92% | L4 | Hold (ainoa kirjallisuuslähde kuvaa mikrosporidian, ei bakteerin, etiologiaa — mekanistinen epäsuhta) |
-| 7 | **Monoklonaaliset gampaatiat** (esitelty edellä) | 99.81% | L1 | Etene varauksilla |
-| 9 | Septinen rutto | 99.80% | L2 | Etene varauksilla — todisteet FDA:n eläinmallisäännön primaatti- ja jyrsijätutkimuksista; jo hyväksytty Yhdysvaltojen indikaatio ruttoon, vaikka ihmisten RCT:t eivät ole eettisesti toteuttavissa |
-| 5 | Veriryhmien epäyhteensopivuus | 99.85% | L4 | Hold (ainoa kirjallisuus on satunnainen tapausraportti infektiosta ABO-yhteensopivuuden tutkimuksen aikana, ei kausaalista yhteyttä) |
-| 2 | Hyperamylaasemia | 99.90% | L5 | Hold (ei todisteita) |
-| 3 | Polyallonaaliset hyperviskoosisyndrooma | 99.90% | L5 | Hold (ei todisteita) |
-| 4 | Synnynnäinen analbuminemia | 99.89% | L5 | Hold (ei mekanistista uskottavuutta) |
-| 6 | Ennakkomaligni hematologinen sairaus | 99.83% | L5 | Hold (liian epäspesifinen etiketti) |
-| 8 | Hematologinen sairaus hankkitulla perifeerisella neuropatialla | 99.80% | L5 | Hold (fluorikinolonit kantavat tunnetun perifeerisen neuropatian riskin — suunta vastustaa ennustusta) |
-| 10 | Synnynnäinen hematologinen häiriö | 99.72% | L5 | Hold (liian epäspesifinen etiketti) |
-
----
-
-## Johtopäätös ja seuraavat vaiheet
-
-**Päätös: Etene varauksilla**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Monoklonaalisille gampaatioille tehtävä ennuste on tuettu suoritetulla Phase 3 RCT:llä (TEAMM) sekä useilla tukevilla kohorttitutkimuksilla, mikä vahvistaa levofloxasiinin arvon **infektioprofylaksiana myelooman induktiokäsittelyn ja siirtohoidon aikana**, eikä taudille mukaavana hoitona. Tämä on huomattavasti vahvempia todisteita kuin mikään muu kandidaatti tässä erässä, mutta lääke ei tällä hetkellä ole markkinoilla Taiwanissa ja **estävä** tietoaukko (DG001: TFDA-pakkausseloste ei saatavilla) estää jopa alkuperäisen S1-turvallisuuskatselmuksen tekemisen.
+- Ensimmäisen ennusteen (pistemäinen epiteliaalinen keratokonjunktiviitti) näyttö on olematon, ja mekanistinen yhteys on heikko. Monoklonaalisen gammopatian näyttö koskee infektioiden ehkäisyä oireisessa myeloomassa, ei esiastetilan tai sairauden hoitoa. Septisen paiseruton näyttö on eläinmalleissa, ja sen vahvuutena on suora mekanismi. Molemmat voidaan merkitä tutkimuskysymyksiksi (Research Question), mutta ei etenemiseksi sellaisenaan.
+- Fimean valmisteyhteenvedon turvallisuustiedot puuttuvat, mikä estää etenemisen turvallisuusseulontaan. Lisäksi markkinatilanne (vain peruutettu lupa) voi vaikuttaa saatavuuteen.
 
-**Jotta voidaan edetä, seuraava on tarpeen:**
-- Hae Taiwan/TFDA-pakkausseloste (DG001, Estävä) — vaadittu ennen mitään S1-turvallisuusarviointia
-- Hanki strukturoitu DrugBank MOA -tietue (DG002)
-- Määritä indikaatio tarkasti muotoon "infektioprofylaksia monoklonaalisissa gampaatioissa olevien potilaiden kemoterapian/HSCT:n aikana", eikä gampaatioiden hoitona itselleen
-- Arvioi Taiwan-rekisteröinti- ja tuontireitti, koska lääkkeellä ei tällä hetkellä ole paikallisia myyntilupoja
-- Seuraa septista ruttoa (L2, Yhdysvaltojen eläinmallisäännön ennakkotapaus) rinnakkaisena kandidaattina, koska sen sääntelypolku ja bioenargian merkitys ovat erilaiset
-
+**Eteenpäin siirtyminen edellyttää:**
+- Fimean valmisteyhteenvedon varoitusten ja vasta-aiheiden hakeminen ja jäsentäminen
+- Vaikutusmekanismitietojen täydentäminen DrugBankista
+- Monoklonaalinen gammopatia: arvio TEAMM-tutkimuksen soveltuvuudesta MGUS-potilaisiin sekä riski-hyötyarvio resistenssin, C. difficile -riskin ja yhteisvaikutusten kannalta
+- Septinen paiserutto: ihmisaineiston ja nykyisten hoitosuositusten selvittäminen sekä valmisteen saatavuuden varmistaminen
+- Muut ennusteet (hyperamylasemia, polyklonaalinen hyperviskositeettioireyhtymä, synnynnäinen analbuminemia, veriryhmäyhteensopimattomuus, esiasteiset hematologiset sairaudet, hematologiseen sairauteen liittyvä neuropatia, synnynnäiset hematologiset häiriöt): ei perusteltua jatkotutkimusta nykyisen aineiston perusteella
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

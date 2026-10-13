@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Micafungin
-parent: Pelkkä mallin ennuste (L5)
-nav_order: 249
-evidence_level: L5
+parent: Kohtalainen näyttö (L3-L4)
+nav_order: 290
+evidence_level: L3
 indication_count: 1
 ---
 
 # Micafungin
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
+Näytön taso: **L3** | Ennustetut käyttöaiheet: **1** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,86 +29,84 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Micafungin: invasiivisesta kandidiasista virtsatietulehdukseen
+# Mikafungiini: Kandidoosista virtsatieinfektioon
 
-## Yhden lauseen yhteenveto
+## Yhden lauseen tiivistelmä
 
-> Micafungin on echinokandiini-antimykootinen lääke, joka on vahvistettu invasiiviseen kandidiasiin ja kandidemiaan. TxGNN-malli ennustaa, että se saattaa olla tehokas **virtsatieinfektioille (Candida UTI/kandiduria)**, ja saatavilla on **0 kliinistä tutkimusta** mutta **13 tukevaa julkaisua** — pääasiassa potilastapauksia ja pieniä tapaussarjoja.
+Mikafungiini on kandidiaasin hoitoon tarkoitettu ekinokandiiniryhmän sienilääke. TxGNN-malli ennustaa sen voivan tehota **virtsatieinfektioon** (erityisesti Candida-lajien aiheuttamaan kandiduriaan). Tätä suuntaa tukee tällä hetkellä **12 julkaisua**, mutta ei yhtään rekisteröityä kliinistä tutkimusta.
 
----
+## Pikakatsaus
 
-## Nopea yleiskatsaus
+| Kohta | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | Kandidiaasi |
+| Ennustettu uusi käyttöaihe | Virtsatieinfektio |
+| TxGNN-ennusteen pistemäärä | 99,03 % |
+| Näytön taso | L3 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 |
+| Suositeltu päätös | Hold (odota) |
 
-| Kohde | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Invasiivinen kandidiaasi / kandidemia (echinokandiini-antimykootinen; ei sisälly tämän todistuspaketin lisenssitietoihin) |
-| Ennustettu uusi indikaatio | Virtsatieinfektio (Candida UTI) |
-| TxGNN-ennustepisteet | 99.03% |
-| Todisteiden tasо | L3 (havainnollinen/retrospektiivinen kohortti + tapaussarjat, ei RCT:itä) |
-| Suomen markkinatilanne | ✗ Ei markkinoilla |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Odota |
+## Miksi ennuste on perusteltu?
 
----
+Tämän raportin tietoihin ei sisälly yksityiskohtaista vaikutusmekanismitietoa, joten seuraava perustuu lääkeryhmän yleiseen tietoon. Mikafungiini on ekinokandiini, joka estää 1,3-beeta-D-glukaanisyntaasia ja häiritsee siten sienen soluseinän synteesiä Candida-lajeilla.
 
-## Miksi tämä ennuste on perusteltu?
+Candida-virtsatieinfektio (kandiduria) on saman lääkkeen hyväksytyn Candida-kirjon sisällä. Kyse on siis infektiokohdan laajentamisesta, ei uudesta mekanismista. Korkea TxGNN-pistemäärä (0,99) sopii tähän mekanistiseen yhteyteen.
 
-Tällä hetkellä tarkemmat vaikutusmekanismin tiedot eivät ole saatavilla tässä todistuspaketissa (tietovaje). Yleisen farmakologisen tiedon perusteella micafungin kuuluu **echinokandiini**-antimykootisten aineiden luokkaan, joka estää 1,3-β-D-glukaanisyntaasia ja häiritsee sienisolukalvon synteesin. Se on fungisidinen useimmilla *Candida*-lajeilla, mukaan lukien asoli-resistentit kannat, ja sen teho invasiivisessa kandidiasissa/kandidemiassa on hyvin vakiintunut.
+Keskeinen farmakologinen varauma on, että ekinokandiinien aktiivisen lääkeaineen erittyminen virtsaan on vähäistä, mikä on perinteisesti rajoittanut niiden käyttöä virtsatieinfektioissa. Yksi tutkimus (PMID 27424599) kuitenkin raportoi virtsan mikafungiinipitoisuuksien riittävän Candida-virtsatieinfektioiden hoitoon. Lisäksi useat tapaussarjat ja -kuvaukset kuvaavat kandiduriasta paranemista myös lajeilla *C. glabrata* ja *C. krusei*, jotka ovat usein flukonatsoliresistenttejä.
 
-Ennustettu uusi indikaatio — Candida-virtsatieinfektio (kandiduria) — on mekanistisesti perusteltu, koska aiheuttavat mikroorganismit ovat suurelta osin samat kuin micafunginin vakiintuneella lääkitysalueella (*C. albicans*, *C. glabrata*, *C. krusei*, *C. auris*). Echinokandiineja on kuitenkin historiallisesti pidetty huonona soveltuvina virtsatieinfektioihin **matalan virtsainerityksen** vuoksi — suurin osa lääkkeestä metaboloituu maksassa hyvin vähäisellä muuttumattomalla munuaisiin erityksellä. Kirjallisuuden todistustepo koostuu pääosin potilastapausista, jotka osoittavat, että mitattavia virtsalääkkeen tasoja ja kliinistä eradikointia *voi* silti tapahtua, erityisesti silloin, kun vakiohoitovaihtoehdot (flukonatsoli, amfoteritiini B) ovat kontraindisoituja tai organismi on resistentti.
+## Kliininen tutkimusnäyttö
 
-Koska tämä uudelleenkäyttöhypoteesi vastustaa tavanomaista PK-opetusta, tukeva todistustepo on tärkeä mutta tällä hetkellä rajoittuu todellisen maailman potilaskokemukseen kontrolloitujen tutkimusten sijaan — tämä heikentää luottamusta huolimatta erittäin korkeasta TxGNN-pisteestä.
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
----
+## Kirjallisuusnäyttö
 
-## Kliinisen tutkimuksen todisteet
-
-Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
-
----
-
-## Kirjallisuuden todisteet
-
-| PMID | Vuosi | Tyyppi | Julkaisu | Keskeiset löydökset |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [27587066](https://pubmed.ncbi.nlm.nih.gov/27587066/) | 2016 | Retrospektiivinen kohortti | Int Urol Nephrol | Tutki kandidurian eliminaatioasteita sairaalahoitopotilaissa, joille annettiin micafungiinia |
-| [26937340](https://pubmed.ncbi.nlm.nih.gov/26937340/) | 2016 | Tapaussarja | Med Mycol Case Rep | 5 potilasta sai parenteraalista micafungiinia ≥6 päivää; sienierradikointia kaikkien tapausten osalta 30 päivän sisällä |
-| [27424599](https://pubmed.ncbi.nlm.nih.gov/27424599/) | 2016 | Tapaussarja | Int J Antimicrob Agents | 6 virtsatieinfektiotapausta (4 flukonatsoli-resistenttiä) hoitettiin onnistuneesti; virtsalääkkeiden seuranta auttoi annoksen määrittelyä |
-| [35146837](https://pubmed.ncbi.nlm.nih.gov/35146837/) | 2022 | Tapaussarja | Pediatr Int | Kriittisesti sairaiden PICU-potilaiden, joille annettiin micafungiinia sairaalainfektio-Candida UTI:n vuoksi, tulokset |
-| [38827222](https://pubmed.ncbi.nlm.nih.gov/38827222/) | 2024 | Potilastapaus | Front Pediatr | Micafungiinia käytettiin *C. glabrata* virtsatieinfektio hoitoon ennenaikaisesti syntyneellä vastasyntyneellä |
-| [31111613](https://pubmed.ncbi.nlm.nih.gov/31111613/) | 2019 | Potilastapaus + kirjallisuuskatsaus | Transpl Infect Dis | Lisäännetyn annoksen micafungin poisti krooniset *C. krusei* UTI maksaan/munuaisen siirron saaneen potilaan osalta |
-| [40765059](https://pubmed.ncbi.nlm.nih.gov/40765059/) | 2025 | Potilastapaus | J Pharm Health Care Sci | *C. glabrata* pyelonefriitti/bakteeremia SGLT2-estäjä potilaalla hoidettiin onnistuneesti micafungilla |
-| [38681664](https://pubmed.ncbi.nlm.nih.gov/38681664/) | 2024 | Potilastapaus | Med Mycol Case Rep | Yksipuoleinen munuaisiin muodostunut sienipallo (*C. glabrata*, micafungin-herkkä) hoidettiin antimykootisella hoitolla + endoskooppisella poistolla |
-| [33520520](https://pubmed.ncbi.nlm.nih.gov/33520520/) | 2020 | Potilastapaus | Cureus | *Candida auris* UTI monisairaalla hoitokodissa olevalla potilaalla |
-| [40405904](https://pubmed.ncbi.nlm.nih.gov/40405904/) | 2025 | Potilastapaus | Cureus | Urosepsis *C. glabrata* nefroliittisyydestä immuunikompetentilla potilaalla |
-
----
+| [35146837](https://pubmed.ncbi.nlm.nih.gov/35146837/) | 2022 | Kohorttitutkimus | Pediatr Int | Mikafungiinin hoitotulokset sairaalahoitoon liittyvissä Candida-virtsatieinfektioissa teho-osastolla hoidetuilla lapsilla |
+| [27587066](https://pubmed.ncbi.nlm.nih.gov/27587066/) | 2016 | Kohorttitutkimus | Int Urol Nephrol | Kandiduria hävisi mikafungiinilla hoidetuilla sairaalapotilailla |
+| [27424599](https://pubmed.ncbi.nlm.nih.gov/27424599/) | 2016 | Farmakokineettinen tutkimus | Int J Antimicrob Agents | Virtsan mikafungiinipitoisuudet riittäviä Candida-virtsatieinfektioiden hoitoon; kuusi onnistuneesti hoidettua potilasta |
+| [26937340](https://pubmed.ncbi.nlm.nih.gov/26937340/) | 2016 | Tapaussarja | Med Mycol Case Rep | Viidellä potilaalla kandiduria hävisi 30 päivän sisällä hoidon päättymisestä |
+| [31111613](https://pubmed.ncbi.nlm.nih.gov/31111613/) | 2019 | Tapauskuvaus ja katsaus | Transpl Infect Dis | Krooninen *C. krusei* -virtsatieinfektio hävisi suurennetulla mikafungiiniannoksella maksa- ja munuaissiirtopotilaalla |
+| [38827222](https://pubmed.ncbi.nlm.nih.gov/38827222/) | 2024 | Tapauskuvaus | Front Pediatr | *C. glabrata* -virtsatieinfektion hoito mikafungiinilla keskoslapsella |
+| [38681664](https://pubmed.ncbi.nlm.nih.gov/38681664/) | 2024 | Tapauskuvaus | Med Mycol Case Rep | Yksipuolinen munuaisen sienipallo (*C. glabrata*), hoidettu antifungaalihoidolla ja toimenpiteellä |
+| [40765059](https://pubmed.ncbi.nlm.nih.gov/40765059/) | 2025 | Tapauskuvaus | J Pharm Health Care Sci | *C. glabrata* -pyelonefriitti ja bakteremia SGLT2-estäjää käyttävällä potilaalla, onnistunut hoito mikafungiinilla |
+| [29109159](https://pubmed.ncbi.nlm.nih.gov/29109159/) | 2018 | Kohorttitutkimus | Antimicrob Agents Chemother | Oireettoman kandiduurian liikahoito sairaalapotilailla |
+| [39781278](https://pubmed.ncbi.nlm.nih.gov/39781278/) | 2025 | Epidemiologinen tutkimus | Ther Adv Infect Dis | Candida-lajien jakauma ja herkkyys virtsatieinfektioissa Vietnamissa |
 
 ## Suomen markkinatiedot
 
-Micafungin ei tällä hetkellä ole markkinoilla Suomessa — tässä todistuspaketissa ei ole käytettävissä hyväksyntätietoja (0 lisenssiä).
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000734 (peruutettu) | Mycamine | – | Kandidiaasi |
 
----
+## Turvallisuushuomiot
 
-## Turvallisuusnäkökulmat
+**Lääkeyhteisvaikutukset** (5 kohtalaista yhteisvaikutusta):
+- Amfoterisiini B
+- Nitisinoni
+- Everolimuusi
+- Ribosiklibi
+- Sirolimuusi
 
-Turvallisuustiedot löytyvät pakkausselosteesta. Keskeiset varoitukset, vasta-aiheet ja lääkkeiden väliset yhteisvaikutustiedot eivät olleet saatavilla tässä todistuspaketissa (kyselyiden tila: ei löytynyt).
+**Tietämysgraafiin perustuvat mahdolliset vasta-aiheet** (ei myyntiluvan valmisteyhteenvedosta): munuaissairaus ja virtsanjohtimen märkäinen tulehdus (pyoureter). Nämä ovat mallin tietämysgraafin yhteyksiä, eivät virallista valmistetekstiä, ja niiden merkitys on arvioitava erikseen. Erityisesti munuaissairauden esiintyminen on huomioitava virtsatieinfektiokäytössä.
 
----
+Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Odota**
+**Päätös: Hold (odota)**
 
-**Perustelut:**
-Ennuste on tuettu vain potilastapausilla ja yhdellä retrospektiivisellä kohorttitutkimuksella (L3), eikä kliinisiä tutkimuksia, jotka arvioisivat micafungiinia virtsatieinfektiolle. Kriittisemmäksi asiaksi turvallisuustiedot (TFDA/Fimea-pakkausseloste varoitukset ja vasta-aiheet) on merkitty **blokkaajaksi** tietovajeeksi, joka yksinään estää sisäänpääsyn S1-turvallisuuden ennakkoarviointivaiheeseen riippumatta tehokkuustodisteiden vahvuudesta.
+**Perustelu:**
+Näyttö koostuu pääosin kohorttitutkimuksista, tapaussarjoista ja tapauskuvauksista (taso L3), eikä rekisteröityjä kliinisiä tutkimuksia ole. Valmisteyhteenvedon turvallisuustiedot puuttuvat, ja Suomessa ainoa myyntilupa on peruutettu. Ennuste on mekanistisesti uskottava, mutta se on toistaiseksi tutkimuskysymys.
 
-**Jatkamiseksi tarvitaan seuraavaa:**
-- TFDA/Fimea-pakkausseloste tiedot (varoitukset, vasta-aiheet) — blokkaa väli, vaaditaan ennen S1-turvallisuusarviointia
-- Vahvistettu vaikutusmekanismi ja alkuperäinen hyväksytty indikaatio (tällä hetkellä tietovaje)
-- Lääkkeiden väliset yhteisvaikutukset (DDI) profiili
-- Prospektiiviset tai kontrolloidut tutkimukset, joissa erityisesti arvioidaan micafunginin virtsalääkkeiden farmakokinetiikkaa ja kliinisiä tuloksia kandiduriassa, ottaen huomioon lääkkeen historiallisesti matala muuttumaton munuaisiin erittyminen
-
+**Eteenpäin siirtyminen edellyttää:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimeasta (estää turvallisuusarvioinnin jatkamisen)
+- Vaikutusmekanismitietojen täydentämistä DrugBankista
+- Kontrolloitujen tutkimusten tai järjestelmällisen katsauksen kartoittamista kandiduriasta
+- Virtsan lääkepitoisuuksia ja kliinistä vastetta koskevan lisänäytön arviointia
+- Myyntiluvan ja saatavuuden selvittämistä Suomessa, koska voimassa olevaa myyntilupaa ei ole
+- Munuaisten vajaatoimintaa sairastavien potilaiden turvallisuussuunnitelmaa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

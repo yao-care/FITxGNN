@@ -2,7 +2,7 @@
 layout: default
 title: Remdesivir
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 320
+nav_order: 373
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,79 +29,113 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Remdesivir: COVID-19:stä monisisäisen endokrinisen neoplasian hoitoon
+# Remdesiviiri: COVID-19-infektiosta moniin endokriiniseen neoplasiaan
 
 ## Yhden lauseen yhteenveto
 
-> Remdesivir on nukleotidin esiainemuoto, joka on alun perin kehitetty COVID-19:n (SARS-CoV-2-infektio) hoitoon ja jolla on myös kliininen tutkimushistoria Ebola-virustaudissa.
-> TxGNN-malli ennustaa sen olevan tehokas **monisisäiseen endokriseen neoplasiaan**, **99.50% ennustuspistemäärällä**,
-> mutta tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua** eivät tue tätä suuntaa — itse todisteistopaketti merkitsee ennusteen todennäköiseksi tiedon graafin artefaktiksi.
+Remdesiviiri on antiviraalinen lääke, jota on alun perin käytetty COVID-19-virusinfektion hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **moniin endokriiniseen neoplasiaan** (korkein pistemäärä), mutta tälle ennusteelle ei löydy **yhtään kliinistä tutkimusta eikä julkaisua**.
+Ennuste perustuu pelkästään tietoverkkoon pohjautuvaan mallinnukseen.
 
 ---
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|--------|
-| Alkuperäinen indikaatio | COVID-19 / Ebola-virustauti (päätelty tässä paketissa olevasta kliinisen tutkimuksen todisteesta; ei erikseen vahvistettu `drug.original_indications`-kentän kautta, joka on tyhjä) |
-| Ennustettu uusi indikaatio | Monisisäinen endokrininen neoplasia |
-| TxGNN-ennustuspistemäärä | 99.50% (sijoitus #5453) |
-| Todisteiden taso | L5 (vain mallin ennuste, ei tukevia tutkimuksia) |
-| Suomen markkinoiden asema | Ei markkinoilla |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Pidossa |
+|------|------|
+| Alkuperäinen käyttöaihe | COVID-19-virusinfektio |
+| Ennustettu uusi käyttöaihe | Multippeli endokriininen neoplasia |
+| TxGNN-ennustepistemäärä | 99,50 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Miksi tämä ennuste on kohtuullinen?
+## Miksi ennuste on perusteltu?
 
-Tällä hetkellä remdesiviriä koskevia yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla strukturoidussa `original_moa`-kentässä (merkitty korkean vakavuusasteen tietovajeeksi DG002). Kuitenkin todisteistopaketin omat perustelukentät kuvaavat remdesiviriä adenosiinin nukleotidin esiainemuotona, joka kohdistuu viraalisen RNA-riippuvaisen RNA-polymeraasiin (RdRp) ja aiheuttaa viivästyneen ketjun päättynnyksen — tehokas RNA-viruksia, kuten Ebola-virusta ja SARS-CoV-2:ta, vastaan.
+Tällä hetkellä yksityiskohtaisia tietoja vaikutusmekanismista ei ole saatavilla. Tunnetun tiedon mukaan remdesiviiri on nukleotidianalogin esilääke, joka estää viruksen RNA-riippuvaista RNA-polymeraasia. Sen teho COVID-19:ssä on osoitettu.
 
-Monisisäinen endokrininen neoplasia (MEN) on perinnöllinen syöpäoireyhtymä, jota aiheuttavat sikiölinjan mutaatiot geeneissä, kuten *RET* ja *MEN1*, ja jonka patofysiologia keskittyy endokrinisten solujen proliferaatioon — mekanismiin, jolla ei ole tunnettua yhteyttä viraalisen RdRp-estoon. Todisteistopaketin oman perustelun mukaan tälle korkeimmalle sijoitetulle ennusteelle todetaan nimenomaisesti: *"無已知機轉關聯...高分應屬圖嵌入雜訊"* ("no known mechanistic link... the high score is likely graph-embedding noise").
+Multippeli endokriininen neoplasia on perinnöllinen kasvainoireyhtymä (esim. MEN1- ja RET-mutaatiot), jolla ei ole virusten RNA-polymeraasiin liittyvää kohdetta. Tunnistettavaa mekanistista yhteyttä alkuperäisen ja ennustetun käyttöaiheen välillä ei siis ole. Korkea pistemäärä (0,995) on vain verkkopohjainen ennuste, jolta puuttuu biologinen tuki.
 
-Yhdenmukaista tämän kanssa, remdesiviri–MEN-parille ei haettu kliinisiä tutkimuksia, ICTRP-tietoja tai PubMed-kirjallisuutta (kyselyiden tunnukset 5–7 kyselyiden lokissa kaikki palauttivat nolla tulosta). Tämä ennuste tulee käsitellä varmentamattomana laskennallisena signaalina eikä mekaanisesti tai kliinisesti tuettuna hypoteesina. Kontekstiksi: paketin toiselle sijoitetulla ennusteella (HIV-infektio, pistemäärä 99.32%) on 23 tutkimusta ja 20 julkaisua, mutta näiden tietueiden tarkastelu osoittaa, että ne ovat pääosin COVID-19/Ebola-tutkimuksia, jotka on virheellisesti yhdistetty "HIV"-taudin nimikkeeseen, ja paketin oman mekaanisen arvioinnin mukaan ei myöskään löydy antiretroviirivaikutuksen perustaa — mikä vahvistaa, että mikään paketin korkeimmalle sijoitetuista TxGNN-ennusteista ei ole tällä hetkellä uskottavasti tuettu.
+**Muut ennustetut käyttöaiheet** (kaikki suositus Hold):
 
----
-
-## Kliinisten tutkimusten todisteet
-
-Tällä hetkellä ei ole liittyviä rekisteröityjä kliinisiä tutkimuksia.
-
----
-
-## Kirjallisuustodisteet
-
-Tällä hetkellä ei ole saatavilla liittyvää kirjallisuutta.
+| Sija | Käyttöaihe | Pistemäärä | Näytön taso | Huomio |
+|---|---|---|---|---|
+| 2 | HIV-infektio | 99,32 % | L4 | Käsitteellinen yhteys (RNA-virus, nukleotidianalogi), mutta HIV-spesifistä vaikutusta ei ole osoitettu |
+| 3 | Kissan hankinnainen immuunikatooireyhtymä | 99,07 % | L5 | Eläinlääketieteellinen käyttöaihe, ei tukea |
+| 4 | Apinan immuunikatovirusinfektio (SIV) | 99,07 % | L5 | Lähinnä eläinmalli, ei kliininen käyttöaihe |
+| 5 | Neurokehityshäiriö (ataksinen kävely, puheen puuttuminen) | 99,03 % | L5 | Ei uskottavaa mekanistista yhteyttä |
+| 6 | Homotsygoottinen familiaalinen hyperkolesterolemia | 99,03 % | L5 | Ei uskottavaa mekanistista yhteyttä |
 
 ---
 
-## Suomen markkinatiedot
+## Kliinisen tutkimuksen näyttö
 
-Remdesiviri ei ole tällä hetkellä markkinoilla Suomessa (0 markkinointihyväksyntöä tietueissa).
+Ensisijaiselle ennusteelle (multippeli endokriininen neoplasia) ei ole rekisteröityjä kliinisiä tutkimuksia.
+
+Toiseksi sijoittuneelle HIV-ennusteelle löytyi yksi tutkimus, jonka relevanssi on heikko (luokka C):
+
+| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset havainnot |
+|---------|------|------|------|---------|
+| [NCT04385719](https://clinicaltrials.gov/study/NCT04385719) | Vaihe 2 | Päättynyt | 24 | Avoin satunnaistettu kerta-annostutkimus terveillä ugandalaisilla vapaaehtoisilla: tenofoviiri/lamivudiini- tai atatsanaviiri/ritonaviiri-yhdistelmien vaikutus remdesiviirin farmakokinetiikkaan. Kyse on lääkeinteraktio-/farmakokinetiikkatutkimuksesta, ei remdesiviirin tehosta HIV:n hoidossa. |
+
+---
+
+## Kirjallisuusnäyttö
+
+Ensisijaiselle ennusteelle ei ole kirjallisuutta. Alla on tärkeimmät HIV-ennusteeseen liittyvät julkaisut. Ne käsittelevät lähes yksinomaan COVID-19:ää, eivät remdesiviirin HIV-tehoa.
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [33264556](https://pubmed.ncbi.nlm.nih.gov/33264556/) | 2021 | RCT | N Engl J Med | WHO:n Solidarity-tutkimuksen väliraportti: uudelleenkäytettyjen viruslääkkeiden (mm. remdesiviiri) vaikutus sairaalahoidettujen COVID-19-potilaiden kuolleisuuteen |
+| [35817072](https://pubmed.ncbi.nlm.nih.gov/35817072/) | 2022 | RCT | Lancet Respir Med | Tiksagevimabi-silgavimabi sairaalahoidetuilla COVID-19-potilailla, jotka saivat remdesiviiriä ja tavanomaista hoitoa |
+| [42017206](https://pubmed.ncbi.nlm.nih.gov/42017206/) | 2026 | RCT | Clin Infect Dis | Ensitrelviiri sairaalahoidetuilla aikuisilla COVID-19-potilailla, vaiheen 3 tutkimus |
+| [41136410](https://pubmed.ncbi.nlm.nih.gov/41136410/) | 2025 | Katsaus | Nat Rev Dis Primers | Akuutin SARS-CoV-2-infektion yleiskatsaus |
+| [34696838](https://pubmed.ncbi.nlm.nih.gov/34696838/) | 2021 | Katsaus | The Enzymes | Nukleotidianalogien RNA-replikaation estomekanismit; vertailu SARS-CoV-2:n RdRp:hen, HIV:n käänteiskopioijaentsyymiin ja hepatiitti C:n RdRp:hen |
+| [38675889](https://pubmed.ncbi.nlm.nih.gov/38675889/) | 2024 | Kohortti | Viruses | Remdesiviiriresistenssiä ei havaittu vaiheen 3 SIMPLE-tutkimuksissa (COVID-19) |
+| [34859557](https://pubmed.ncbi.nlm.nih.gov/34859557/) | 2022 | Kohortti | HIV Med | HIV-positiivisten COVID-19-potilaiden mahdolliset lääkeinteraktiot antiretroviraalisten ja COVID-19-lääkkeiden välillä |
+| [35229634](https://pubmed.ncbi.nlm.nih.gov/35229634/) | 2022 | Prekliininen | mBio | Kobisistaatti tehostaa remdesiviirin vaikutusta SARS-CoV-2:ta vastaan soluissa ja hamstereilla |
+| [36097825](https://pubmed.ncbi.nlm.nih.gov/36097825/) | 2023 | Kohortti | Clin Infect Dis | Subgenomisen RNA:n seuranta remdesiviirihoidon vasteen arvioinnissa COVID-19-potilailla |
+| [33002954](https://pubmed.ncbi.nlm.nih.gov/33002954/) | 2020 | Katsaus | Curr Opin HIV AIDS | Uudelleenkäytettyjen lääkkeiden katsaus COVID-19:n hoidossa |
+
+---
+
+## Markkinatiedot Suomessa
+
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/005622 | Veklury | – | COVID-19-virusinfektio |
+
+Myyntilupa (valmistaja Gilead Sciences Ireland UC) on tilassa peruutettu. Voimassa olevia myyntilupia ei ole.
 
 ---
 
 ## Turvallisuusnäkökohdat
 
-Viitatkaa tuotepakettiin turvallisuustietojen osalta.
+**Lääkeyhteisvaikutukset:** Tietokannasta löytyi yhteensä 100 mahdollista yhteisvaikutusta. Ensimmäiset 20 ovat kaikki tasoa "kohtalainen" (Moderate), mm.:
+- Antibiootit: doksisykliini, minosykliini, tetrasykliini, klaritromysiini, levofloksasiini, vankomysiini, kanamysiini, neomysiini
+- Amfoterisiini B (myös lipidikompleksi)
+- Diabeteslääkkeet: akarboosi, pioglitatsoni
+- Muut: bupropioni, naltreksoni, mesalatsiini, balsalatsidi, olsalatsiini, kenodeoksikoolihappo, oksandroloni, oksymetoloni
 
-*(Huomautus: TFDA-tuotepakettiohjeiden varoitukset/vasta-aiheet ovat estävän vakavuusasteen tietovajeita (DG001), jotka on ratkaistava, ennen kuin voidaan aloittaa mikä tahansa S1-turvallisuustarkastelu.)*
+Muista varoituksista ja vasta-aiheista katso valmisteyhteenveto.
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Johtopäätös ja seuraavat askeleet
 
-**Päätös: Pidossa**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Korkeimmalle sijoitetulla ennusteella (monisisäinen endokrininen neoplasia) ei ole tukevia kliinisiä tutkimuksia tai kirjallisuutta, ja todisteistopaketin oman mekaanisen analyysin mukaan biologista uskottavuutta ei ole — ennuste on todennäköisesti tiedon graafin artefakti. Yhdistettynä Suomen markkinoiden puuttumiseen ja turvallisuus-/merkintätietojen estävän vakavuusasteen vajeeseen, tämä ehdokas ei täytä vaatimuksia S0-vaiheesta etenemiseksi.
+- Ensisijaiselle ennusteelle (multippeli endokriininen neoplasia) ei ole kliinistä tai kirjallista näyttöä eikä uskottavaa mekanistista yhteyttä, joten ennuste on vain mallipohjainen (L5). Lisäksi Suomen myyntilupa on peruutettu.
 
-**Jatkamiseksi seuraava on tarpeen:**
-- TFDA/Fimea-vastaavat tuotepakettiohjeiden tiedot (varoitukset, vasta-aiheet) — tällä hetkellä estävä vajeeksi (DG001)
-- Vahvistettu vaikutusmekanismi DrugBankista — tällä hetkellä korkean vakavuusasteen vajeeksi (DG002)
-- Kaikki prekliiniset tai mekaaniset todisteet, jotka yhdistävät RdRp-kohdistuvat nukleotidin analogit MEN-liittyviin signalointireitteihin (*RET*, *MEN1*), ennen kuin tämä ehdokas voidaan ottaa uudelleen tarkasteluun
-- Jos sen sijaan päätetään tutkia muita TxGNN-sijoitettuja ehdokkaita (esim. HIV-infektio), haettujen tutkimusten/kirjallisuuden uudelleentarkastelu on tarpeen, koska nykyiset tietueet näyttävät olevan COVID-19/Ebola-tutkimuksia, jotka on virheellisesti yhdistetty taudin nimikkeeseen pikemminkin kuin aito HIV-spesifinen todiste
-
+**Jatkamiseksi tarvitaan:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvitys (Fimean sivusto), sillä turvallisuusseulonta ei ole mahdollista ilman niitä
+- Vaikutusmekanismitiedot (esim. DrugBank-kyselyllä) mekanistisen yhteyden arviointiin
+- Prekliininen näyttö, joka tukisi ennustettua käyttöaihetta, ennen kuin kliinisiä tutkimuksia harkitaan
+- Mahdollisesti uusi arvio HIV-ennusteesta (L4), jos remdesiviirin HIV-spesifistä aktiivisuutta voidaan osoittaa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

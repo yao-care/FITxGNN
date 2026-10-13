@@ -2,7 +2,7 @@
 layout: default
 title: Tivozanib
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 377
+nav_order: 440
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,74 +29,80 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Tivozanib: munuaissolucytokarsinoomasta endoservikaaliseen karsinoomaan
+# Tivozanibi: Munuaissolusyövästä endocervikaaliseen karsinoomaan
 
-> **Huomio tietojen täydellisyydestä**: Tämä todistusaineisto ei täydennä kohteita `original_indications` tai `original_moa` (molemmat merkitty tietokuiluiksi DG001/DG002, DG001 arviointitasolla *Kriittinen*). Alla oleva alkuperäinen indikaatio perustuu tivozanibin yleiseen farmakologiseen tietoon (markkinoilla oleva VEGFR TKI munuaissolucytokarsinoomaa varten) ja vaatii vahvistusta TFDA/Fimea pakkausselvitystä vastaan ennen kuin tätä raporttia voidaan käyttää päätöksentekoon.
+## Yhteenveto
 
-## Yhden lauseen yhteenveto
+Tivozanibi on VEGF-reseptorin tyrosiinikinaasin estäjä, jota on alun perin käytetty pitkälle edenneen munuaissolusyövän hoitoon. TxGNN-malli ennustaa sen voivan tehota **endocervikaaliseen karsinoomaan** erittäin korkealla pistemäärällä. Ennusteen tueksi ei kuitenkaan ole **yhtään kliinistä tutkimusta eikä julkaisua**, joten näyttö perustuu pelkästään laskennalliseen ennusteeseen.
 
-Tivozanib on erittäin selektiivinen VEGFR-1/2/3-tyrosiinikinaasin estäjä, joka kehitettiin alun perin munuaissolucytokarsinoomaa varten. TxGNN-malli ennustaa, että se saattaa olla tehokas **endoservikaaliseen karsinoomaan**, mutta tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua** tukee tätä erityistä suuntaa — signaali on puhtaasti verkkopohjainen ennustus.
-
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohde | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Munuaissolucytokarsinooma (yleinen tieto; ei ole olemassa todistusaineistossa — tietokuilu) |
-| Ennustettu uusi indikaatio | Endoservikaali karsinooma |
-| TxGNN:n ennustepistemäärä | 99.81% |
-| Todisteiden taso | L5 |
-| Suomen markkinatila | Ei markkinoinnissa (Ei markkinoinnissa) |
-| Valtuutuksien lukumäärä | 0 |
-| Suositeltu päätös | Pidättäytyminen |
+|------|------|
+| Alkuperäinen käyttöaihe | Munuaissolusyöpä (Carcinoma, Renal Cell) |
+| Ennustettu uusi käyttöaihe | Endocervikaalinen karsinooma |
+| TxGNN-ennustepisteet | 99,81 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennustus on järkevä?
+## Miksi ennuste on perusteltu?
 
-Yksityiskohtainen alkuperäisen toimintamekanismin tieto on merkitty tietokuiluksi tässä todistusaineistossa. Kuitenkin ennusteeseen liittyvän siirtokäyttöperusteen mukaan tivozanib on erittäin selektiivinen VEGFR-1/2/3-tyrosiinikinaasin estäjä, joka tukahduttaa kasvainten angiogeneesiä.
+Tämän raportin aineistossa lääkkeen vaikutusmekanismitietoa ei ole saatavilla. Yleisen farmakologisen tiedon perusteella tivozanibi estää kaikkia kolmea VEGF-reseptoria (VEGFR-1, -2 ja -3; geenit FLT1, KDR ja FLT4) samalla teholla. Estämällä VEGF-signalointia se heikentää kasvaimen verisuonten muodostumista (angiogeneesiä).
 
-Endoservikaali karsinooma voi, kuten munuaissolucytokarsinooma, olla angiogeneesistä riippuvainen, ja muut anti-angiogeneettisen aineet (esim. bevatsumabi) ovat jo hyväksytty edistyneen kohdunkaulan syövän hoitoon. Tämä antaa ennusteelle uskottavan mekanistisen analogian lääkeluokkatasolla.
+Angiogeneesillä on merkitystä myös kohdunkaulansyövässä, ja VEGF:ää estävällä bevasitsumabilla on vakiintunut asema pitkälle edenneen taudin hoidossa. Siksi biologinen perustelu on uskottava. Munuaissolusyöpä ja kohdunkaulan syöpä ovat kuitenkin hyvin erilaisia kasvaimia, eikä aineistossa ole tutkimustietoa, joka osoittaisi tivozanibin tehoavan kohdunkaulan syöpään.
 
-Silti linkki on johdettu puhtaasti TxGNN:n tietokaavion samankaltaisuudesta — tivozanibin erityistä tutkimusta, tapausraporttia tai prekliinistä dataa endoservikaalisessa karsinoomassa ei ole olemassa vahvistamaan, että mekanismi todella siirtyy kliiniseksi hyödyksi tässä kasvaintyypissä.
+Ennuste on vahvasti laskennallinen. Se voi heijastaa tautien välisiä suhteita tietograafissa eikä välttämättä taudin omaa biologiaa. Muut korkealle sijoittuneet ennusteet (esim. kohdunkaulan adenoidikystinen karsinooma ja kohdunkaulan limaa tuottavat adenokarsinoomat sekä kohdun nivelsiteen adenokarsinoomat) ovat hyvin harvinaisia alatyyppejä, joille ei myöskään ole omaa näyttöä.
 
-## Kliinisen tutkimuksen todisteet
+## Kliininen tutkimusnäyttö
 
-Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
-## Kirjallisuuden todisteet
+## Kirjallisuusnäyttö
 
-Tällä hetkellä ei ole saatavilla asiaan liittyviä kirjallisuustietoja.
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
-## Suomen markkinatiedot
+## Tiedot Suomen markkinoilta
 
-Tivozanibilla ei ole tällä hetkellä markkinointilupia Suomessa (0 lisenssejä tietueissa); tuotetaulukkoa ei ole saatavilla.
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004131 | Fotivda | – | Munuaissolusyöpä (Carcinoma, Renal Cell) – tila: peruutettu |
 
 ## Sytotoksisuus
 
-Tivozanib on syöpälääke (VEGFR-tyrosiinikinaasin estäjä).
-
 | Kohde | Sisältö |
-|------|---------|
-| Sytotoksisuuden luokitus | Kohdennettu hoito (VEGFR-1/2/3-tyrosiinikinaasin estäjä / anti-angiogeneettinen aine) |
-| Ydinsolun tukahduttamisen riski | Katso pakkausselvityksestä varoitukset ja varotoimet |
-| Emetogenisuuden luokitus | Katso pakkausselvityksestä varoitukset ja varotoimet |
-| Valvontakohdat | Katso pakkausselvityksestä varoitukset ja varotoimet |
-| Käsittelysuojaus | Katso pakkausselvityksestä varoitukset ja varotoimet |
+|------|------|
+| Sytotoksisuusluokitus | Kohdennettu hoito (VEGFR-tyrosiinikinaasin estäjä) |
+| Myelosuppression riski | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Oksettavuusluokitus | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Seurantakohteet | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Käsittelysuojaus | Katso valmisteyhteenvedon varoitukset ja varotoimet |
 
-## Turvallisuushuomiot
+## Turvallisuushuomioita
 
-Katso turvallisuustiedoista pakkausselvityksestä.
+**Lääkkeiden yhteisvaikutukset** (yhteensä 7 tietuetta, joista 4 lääkeyhteisvaikutusta):
 
-## Johtopäätös ja seuraavat vaiheet
+- **Vakavat (Major):** fenobarbitaali ja mäkikuisma. Molemmat voivat todennäköisesti heikentää tivozanibin pitoisuutta ja tehoa.
+- **Kohtalaiset (Moderate):** riosiguaatti ja medroksiprogesteroniasetaatti.
 
-**Päätös: Pidättäytyminen**
+Loput kolme tietuetta kuvaavat tivozanibin kohdereseptoreita (FLT1, KDR ja FLT4) eivätkä ole yhteisvaikutuksia.
+
+Muiden turvallisuustietojen osalta, kuten varoitukset ja vasta-aiheet, katso valmisteyhteenveto.
+
+## Johtopäätös ja seuraavat askeleet
+
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Ennustus perustuu yksinomaan TxGNN:n graafin pisteeseen (L5, päätösvaihe S0), joilla ei ole lainkaan tukevaa kliinistä tutkimusta tai kirjallisuutta kaikista 10 kysetyistä gynekologisista indikaatoista, ja lääkkeen oman TFDA/Fimea-merkinnän tiedot ovat ratkaisemattomia (kriittisen vakavuuden kuilu DG001).
+- Ennuste perustuu pelkästään TxGNN-mallin laskennalliseen pistemäärään (näytön taso L5), eikä siihen ole kliinistä tai kirjallista tukea. Lisäksi lääkkeen myyntilupa Suomessa on peruutettu ja kohdetaudit ovat hyvin harvinaisia.
 
-**Jatkaakseen, seuraavat ovat tarpeen:**
-- TFDA/Fimea pakkausselvitys (varoitukset, vasta-aiheet, DDI) — tällä hetkellä kriittinen kuilu DG001
-- Vahvistettu alkuperäinen MOA ja hyväksytty indikaatio DrugBankista/sääntelylähteestä — DG002
-- Prekliinisiä tai tapaustason todisteita VEGFR-reitin merkityksellisyydestä erityisesti endoservikaalisessa karsinoomassa ennen mitään kliinisen tutkimuksen vaiheen investointia
-
+**Jatkoa varten tarvitaan:**
+- Vaikutusmekanismitiedot (MOA) DrugBankista
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet Fimean sivustolta (nykyinen puute estää turvallisuusarvioinnin)
+- Prekliiniset tai kliiniset tutkimukset tivozanibista kohdunkaulan syövässä
+- Selvitys siitä, voidaanko näyttöä ekstrapoloida laajemmasta kohdunkaulansyöpäaineistosta harvinaisiin alatyyppeihin
+- Selvitys valmisteen saatavuudesta Suomessa myyntiluvan peruutuksen jälkeen
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

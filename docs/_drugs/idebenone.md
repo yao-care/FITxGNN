@@ -2,7 +2,7 @@
 layout: default
 title: Idebenone
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 188
+nav_order: 220
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,71 +29,78 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Idebenone: Mitokondriosuojauksesta maksan porfiryriaan
+# Idebenoni: Leberin perinnöllisestä näköhermon surkastumasta maksaporfyriaan
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Idebenone on synteettinen CoQ10-analogi, joka tunnetaan parhaiten sen mitokondrion elektroninsiirto- ja antioksidanttitoiminnasta; tässä aineistossa ei ole dokumentoitu vahvistettua alkuperäistä hyväksyttyä indikaatiota, ja lääkettä ei ole tällä hetkellä markkinoilla Suomessa. TxGNN-malli ennustaa, että se voi olla tehokas **maksan porfiryriassa**, mutta tätä ennustetta tuetaan tällä hetkellä **0 kliinisellä tutkimuksella** ja **0 julkaisulla** — se on puhdas graafi-pohjainen päätelmä ilman suoraa kokeellista tukea.
+Idebenoni on koentsyymi Q10:n synteettinen analogi, jota on käytetty Leberin perinnöllisen näköhermon surkastuman hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **maksaporfyriaan**, mutta ennusteen tueksi ei ole tällä hetkellä **yhtään kliinistä tutkimusta eikä julkaisua**. Ennuste perustuu pelkästään mallilaskentaan.
 
 ---
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|-------|---------|
-| Alkuperäinen indikaatio | Ei dokumentoitu nykyisessä aineistossa (0 Suomen hyväksyntää); Idebenone tunnetaan yleensä mitokondriotuki- ja antioksidanttilääkkeeksi CoQ10-analogina |
-| Ennustettu uusi indikaatio | Maksan porfyria |
-| TxGNN-ennustepisteet | 99.92% |
-| Näyttötaso | L5 |
-| Suomen markkinatilanne | ✗ Ei markkinoilla |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Pidätä |
+|------|------|
+| Alkuperäinen käyttöaihe | Leberin perinnöllinen näköhermon surkastuma |
+| Ennustettu uusi käyttöaihe | Maksaporfyria |
+| TxGNN-ennusteen pistemäärä | 99,92 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Miksi tämä ennuste on kohtuullinen?
+## Miksi ennuste on perusteltu?
 
-Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla tälle ehdokastietueelle. Yleisen farmakologisen tiedon perusteella idebenone on lyhytketjuinen bentsokinoni, joka vaikuttaa mitokondrion elektroninsiirtoketjuun ja toimii antioksidanttina; sillä ei ole virallisesti dokumentoitua hyväksyttyä indikaatiota nykyisessä aineistossa, ja idebenone ei ole tällä hetkellä markkinoilla Suomessa (0 hyväksyntää).
+Tämän lääkkeen alkuperäisestä vaikutusmekanismista ei ole tällä hetkellä saatavilla yksityiskohtaista tietoa. Tiedetään, että idebenoni on koentsyymi Q10:n lyhytketjuinen synteettinen bentsokinonianalogi, jolla on antioksidanttisia ominaisuuksia ja joka tukee elektroninsiirtoketjun toimintaa. Sen teho Leberin perinnöllisessä näköhermon surkastumassa liittyy mitokondrioiden toimintahäiriöön.
 
-TxGNN:n perustelut maksan porfiryriassa nimenomaisen merkitsevät heikon mekanistisen yhteyden: idebenonen mitokondriotoiminta ja antioksidanttitoiminta eivät suoraan osu heemin biosynteesipolun kanssa päällekkäin, joka on porfyrian ytimellinen patologia. Esitetty hypoteesi on, että hapettava stressi voisi olla jaettu sivuava tekijä näiden kahden sairauden välillä, mutta tämä on enemmän spekulatiivista kuin näyttöön perustuvaa.
+Oksidatiivinen stressi ja mitokondrioiden toimintahäiriö voivat olla yksi porfyriaan liittyvän maksavaurion taustatekijä, mutta tätä ei ole todennettu. Yhteys perustuu yksinomaan tietograafipohjaiseen TxGNN-ennusteeseen, eikä suoraa mekanistista näyttöä ole.
 
-Ottaen huomioon, että kliinisiä tutkimuksia tai kirjallisuutta ei ole, tätä ennustetta tulisi käsitellä pikemminkin tietokaaviosta tulevana hypoteesinmuodostamisen signaalina kuin mekanistisesti perustelluna uusiokäyttöehdokkaana tällä hetkellä.
+Muut ennustetut käyttöaiheet (esim. idiopaattinen kupariin liittyvä kirroosi, hepatopulmonaalinen oireyhtymä, immuunivälitteinen nekrotisoiva myopatia) ovat samalla tavoin L5-tasoisia. Joidenkin kohdalla (porttilaskimotromboosi, hepatoportaalinen skleroosi, perheellinen ei-kirrottinen portaalihypertensio) mekanistista yhteyttä ei ole lainkaan, ja korkea pistemäärä heijastaa todennäköisesti tietograafin maksasairausklusterin samankaltaisuutta, ei biologiaa.
 
 ---
 
 ## Kliinisen tutkimuksen näyttö
 
-Tällä hetkellä ei ole asiaan liittyviä rekisteröityjä kliinisiä tutkimuksia
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
 ---
 
-## Kirjallisuuden näyttö
+## Kirjallisuusnäyttö
 
-Tällä hetkellä ei ole asiaan liittyvää kirjallisuutta saatavilla
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
+
+---
+
+## Suomen markkinatiedot
+
+| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/003834 | Raxone | – | Leberin perinnöllinen näköhermon surkastuma (peruutettu) |
 
 ---
 
 ## Turvallisuusnäkökohdat
 
-Katso pakkausselosteesta turvallisuustiedot.
-
-*Huomautus: Tiedon puute on este — TFDA/Fimean pakkausselosteen varoituksia ja vasta-aiheita ei ole vielä haettu (DG001), joten mikään turvallisuuteen liittyvä päätös ei voi tällä hetkellä olla tuettu tällä todistuspaketilla.*
+Turvallisuustiedot on tarkistettava valmisteyhteenvedosta. Lääkeyhteisvaikutuksia ei löytynyt kyselyssä.
 
 ---
 
-## Johtopäätökset ja seuraavat vaiheet
+## Johtopäätös ja seuraavat askeleet
 
-**Päätös: Pidätä**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Ennuste on päätöksenteon vaiheessa S0 ja näyttötasolla L5 — tuettu vain tietokaaviosta, jossa on nolla kliinistä tutkimusta, nolla kirjallisuutta ja mekanistinen perustelu, jota malli itse kuvailee heikoksi. Idebenone ei myöskään ole markkinoilla Suomessa, ja ydinturvallisuustiedot (varoitukset/vasta-aiheet) puuttuvat (este DG001).
+- Ennuste perustuu pelkästään TxGNN-malliin (L5), eikä kliinisiä tutkimuksia, kirjallisuutta tai suoraa mekanistista näyttöä ole. Lisäksi Suomessa ainoa myyntilupa on peruutettu.
 
-**Jotta voitaisiin edetä, seuraava on tarpeen:**
-- Idebenone pakkausseloste / TFDA:n vastaava turvallisuustieto (varoitukset, vasta-aiheet) — tällä hetkellä este (DG001)
-- Vahvistettu vaikutusmekanismi ja alkuperäisen hyväksynnän indikaatiotiedot (DG002)
-- Esikliiniset tai mekanistiset tutkimukset, jotka suoraan yhdistävät mitokondriotoimintaa ja antioksidanttitoimintaa heemin biosynteesiin tai porfyrian patofysiologiaan
-- Kaikki ilmaantuvat kliiniset tutkimukset tai tapausraporttinäyttöä maksan porfiryriassa ennen siirtymistä S0:sta eteenpäin
-
+**Eteenpäin siirtyminen edellyttää:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimeasta (estää tällä hetkellä turvallisuusseulonnan)
+- Vaikutusmekanismin (MOA) tietojen täydentämistä DrugBankista
+- Prekliinistä tai mekanistista näyttöä idebenonin vaikutuksesta porfyriaan liittyvään maksavaurioon
+- Kirjallisuushakua ja tutkimusrekisterien tarkistusta
+- Selvitystä siitä, miksi myyntilupa on peruutettu, sekä reittien ja lääkemuotojen soveltuvuuden arviointia
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

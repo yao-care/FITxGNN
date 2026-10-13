@@ -2,7 +2,7 @@
 layout: default
 title: Fentanyl
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 163
+nav_order: 188
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,64 +29,89 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Fentanyyli: dokumentoimattomasta alkuperäisestä indikaatiosta nephrogenic syndrome of inappropriate antidiuresis -oireyhtymään
+# Fentanyyli: Kivusta ja syövästä nefrogeeniseen antidiureesioireyhtymään (SIADH-tyyppinen tila)
 
 ## Yhden lauseen yhteenveto
 
-Fentanyilin alkuperäisen indikaation tiedot eivät sisälly tähän näyttöpakettiin, ja lääkettä ei ole tällä hetkellä markkinoitu Suomessa. TxGNN-malli ennustaa, että fentanyyli voi olla merkityksellinen **Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD)** -oireyhtymälle, ja mallin pistemäärä on korkea (**99.46%**), mutta tueksi ei ole löydetty yhtään kliinistä tutkimusta tai kirjallisuutta.
+Fentanyyli on voimakas opioidi, jota on alun perin käytetty kivun ja syöpäkivun hoitoon.
+TxGNN-malli ennustaa sen mahdollisesti tehoavan **nefrogeeniseen antidiureesioireyhtymään** (ennustepisteet 99,5 %), mutta ennusteen tueksi ei ole **yhtään kliinistä tutkimusta eikä julkaisua**.
+Ennuste perustuu yksinomaan mallin tuottamaan tietoon, joten näyttö on heikkoa.
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Ei dokumentoitu tässä näyttöpaketissa (lisenssejä tai alkuperäisiä indikaatioita ei saatavilla) |
-| Ennustettu uusi indikaatio | Nephrogenic Syndrome of Inappropriate Antidiuresis |
-| TxGNN-ennusteen pistemäärä | 99.46% (upottamisen sijoitus 5778) |
-| Näyttötaso | L5 — vain mallin ennuste, ei tukevia tutkimuksia |
-| Suomen markkinatilanne | ✗ Ei markkinoitu |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Pidätä |
+|------|------|
+| Alkuperäinen käyttöaihe | Kipu; syöpä |
+| Ennustettu uusi käyttöaihe | Nefrogeeninen antidiureesioireyhtymä (nephrogenic syndrome of inappropriate antidiuresis) |
+| TxGNN-ennustepisteet | 99,46 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 3 (kaikki peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennuste on järkevä?
+## Miksi ennuste voisi olla perusteltu?
 
-Fentanyilin vaikutusmekanismin tietoja ei ole saatavilla tässä näyttöpaketissa (`original_moa: [Data Gap]`), ja lääkkeen alkuperäinen indikaatio/indikaatiot ovat myös dokumentoimattomat tässä, joten fentanyilin tunnetun farmakologian ja NSIAD:n välinen suhde ei ole todistettavissa käytössä olevista tiedoista.
+Fentanyylin tarkka vaikutusmekanismi ei ole tässä aineistossa saatavilla. Yleistiedon mukaan fentanyyli on mu-opioidireseptorin agonisti, ja sen teho kivun hoidossa on osoitettu. Alkuperäinen käyttöaihe (kipu ja syöpäkipu) ei kuitenkaan liity läheisesti ennustettuun uuteen käyttöaiheeseen.
 
-Mallin omat uudelleenkäyttöperustelu-kentät tälle kandidaatille (`mechanistic_link`, `similarity_to_original`) on merkitty **odottavaksi** — mikä tarkoittaa, että mekanistista tai samankaltaisuusanalyysiä ei ole vielä suoritettu tälle ennusteelle. Tämä on puhtaasti upottamiseen perustuva assosiaatio TxGNN:stä, jolla ei ole tukevia kliinisiä tutkimuksia, kirjallisuutta eikä asiantuntijoiden tarkistamaa perustelua tällä hetkellä.
+Nefrogeeninen antidiureesioireyhtymä johtuu vasopressiini V2 -reseptorin (AVPR2) tai harvemmin GNAS-geenin toimintaa lisäävistä muutoksista. Opioidit voivat vaikuttaa vasopressiinin eritykseen keskushermoston kautta ja aiheuttaa SIADH:n kaltaisia vaikutuksia. Tämä vaikutus kohdistuu kuitenkin reseptorin yläpuolelle, eikä sen odottaisi korjaavan jatkuvasti aktiivista munuaisen V2-reseptoria. Opioidien aiheuttama antidiureesi olisi pikemminkin haittavaikutus kuin hyöty. Aineiston perusteella uskottavaa hoidollista perustetta ei voida esittää.
 
-Ilman vaikutusmekanismin tietoja, alkuperäisen indikaation kontekstia tai tukevia tutkimuksia, tätä ennustetta tulee käsitellä validoimattomana mallin tuloksena eikä mekanistisesti perustelluna hypoteesina.
+**Toinen ennuste: Touretten oireyhtymä** (pisteet 99,05 %, näytön taso L5, suositus Hold). Endogeeninen opioidijärjestelmä muokkaa tässä taudissa merkityksellisiä aivopiirejä, ja pienissä tutkimuksissa on selvitetty opioidireseptorien muokkaajia tic-häiriöissä. Tämä on vain spekulatiivinen ja epäsuora peruste. Fentanyylin riippuvuus-, hengityslama- ja väärinkäyttöriskit ovat suuret, ja krooniseen kehityshäiriöön on olemassa vakiintuneita hoitoja (alfa-2-agonistit, antipsykootit, käyttäytymisterapia CBIT).
 
-## Kliinisten tutkimusten näyttö
+## Kliininen tutkimusnäyttö
 
-Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
+Ei tällä hetkellä aiheeseen liittyviä rekisteröityjä kliinisiä tutkimuksia.
 
 ## Kirjallisuusnäyttö
 
-Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta.
+Ei tällä hetkellä aiheeseen liittyvää kirjallisuutta.
 
-## Suomen markkinatiedot
+## Markkinatiedot Suomessa
 
-Fentanyylilla ei ole tällä hetkellä Fimean markkinointihyväksyntöjä arkistossa (`total_licenses: 0`), joten tuote-/hyväksyntätaulukkoa ei voida tuottaa.
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/001164 | PecFent | – | Kipu; syöpä (peruutettu) |
+| EMEA/H/C/000833 | Effentora | – | Kipu; syöpä (peruutettu) |
+| EMEA/H/C/000959 | Instanyl | – | Kipu; syöpä (peruutettu) |
+
+Kaikki kolme myyntilupaa on peruutettu, eikä voimassa olevia lupia ole.
+
+## Solunsalpaajaominaisuudet
+
+Fentanyyli on opioidikipulääke, ei syöpälääke, joten tämä osio ei koske sitä.
 
 ## Turvallisuushuomiot
 
-Kaikki turvallisuustiedot löydät pakkausselosteesta.
+**Tietämyskuvaajaan (TxGNN/PrimeKG) perustuvat vasta-aiheet** (eivät perustu valmisteyhteenvetoon): mm. verenpainetauti, ortostaattinen hypotensio, pitkä QT -oireyhtymä, torsades de pointes, maksan vajaatoiminta ja maksasairaus, munuaissairaus, keuhkoahtaumatauti, astma, haimatulehdus, tulehduksellinen suolistosairaus, ahdistuneisuushäiriöt, hyvänlaatuinen eturauhasen liikakasvu sekä päihteiden väärinkäyttö ja riippuvuus.
 
-*(Huomio: TFDA/Fimea-selostetiedot on merkitty **estäväksi** tietovajeeksi — sen puuttuminen estää alkuperäisen S1-turvallisuusarvioinnin loppuunsaattamisen tälle kandidaatille.)*
+**Lääkeyhteisvaikutukset:** aineistossa on yhteensä 100 yhteisvaikutusta. Merkittäviä (Major) ovat mm.:
+- alvimopaani
+- aprepitantti
+- bupropioni
+- klaritromysiini
+- klotrimatsoli
+- deksametasoni
+- deksfenfluramiini ja fenfluramiini
+- dolasetroni
+- granisetroni
+- lorkaseriini
 
-## Johtopäätökset ja seuraavat vaiheet
+Kohtalaisia (Moderate) ovat mm. atropiini, simetidiini, klidiini, disyklomiini, dronabinoli, eluksadoliini, glykopyrronium ja hyoskyamiini.
 
-**Päätös: Pidätä**
+Tarkemmat varoitukset ja vasta-aiheet on tarkistettava valmisteyhteenvedosta.
+
+## Johtopäätös ja seuraavat askeleet
+
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Tätä ennustetta tuetaan vain TxGNN-mallin pistemäärällä, eikä sillä ole kliinisiä tutkimuksia, kirjallisuutta eikä suoritettua mekanistista perustelua (näyttötaso L5). Lääke on myös markkinoimaton Suomessa, ja **estävän** vakavuuden tietovahe (puuttuva TFDA/Fimea-seloste) estää jopa alkuperäisen turvallisuusarvioinnin.
+- Molemmat ennusteet perustuvat vain graafimallin tulokseen (L5), eikä tueksi ole kliinisiä tutkimuksia, kirjallisuutta eikä uskottavaa mekanismia. Nefrogeenisessa antidiureesioireyhtymässä opioidin vaikutus olisi todennäköisesti haitallinen, ja Touretten oireyhtymässä riski–hyötysuhde on huono.
+- Valmisteilla ei ole voimassa olevia myyntilupia Suomessa, ja yhteisvaikutuksia on runsaasti.
 
-**Etenemiseksi tarvitaan seuraavaa:**
-- TFDA/Fimea-seloste (varoitukset, vasta-aiheet) — estävä vahe, vaaditaan ennen S1-turvallisuusarviointia
-- Drugbank-lähteinen vaikutusmekanismin (MOA) tieto fentanyylille
-- Fentanyilin alkuperäisen indikaation historia mekanistisen samankaltaisuuden arvioimiseksi NSIAD:lle
-- Odottavien mekanistisen linkin ja samankaltaisuus-alkuperäiseen-nähden -analyysin loppuunsaattaminen tälle kandidaatille
-- Kohdennettu kirjallisuuden ja klinisten tutkimusten haku erityisesti fentanyyli–NSIAD-assosiaatiolle, koska nykyiset PubMed/ClinicalTrials.gov/ICTRP-kyselyt palautuivat nollilla tuloksilla
-
+**Jatkoa varten tarvitaan:**
+- Fentanyylin vaikutusmekanismin tiedot (esim. DrugBankista)
+- Fimean valmisteyhteenvedon varoitukset ja vasta-aiheet (turvallisuusseulonnan estävä tietoaukko)
+- Prekliininen tai mekanistinen näyttö ennustetuista käyttöaiheista
+- Arvio antoreittien soveltuvuudesta ja riski–hyötyanalyysi ennen jatkotoimia
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

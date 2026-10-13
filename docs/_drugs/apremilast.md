@@ -2,7 +2,7 @@
 layout: default
 title: Apremilast
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 37
+nav_order: 40
 evidence_level: L5
 indication_count: 0
 ---

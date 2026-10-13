@@ -2,7 +2,7 @@
 layout: default
 title: Tadalafil
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 355
+nav_order: 415
 evidence_level: L5
 indication_count: 8
 ---
@@ -29,72 +29,91 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **8** kpl
 
 </div>
 
-# Tadalafil: tuntemattomasta alkuperäisestä indikaatiosta Ambras-tyypin hypertrikoosioon universalis congenita
+# Tadalafiili: Erektiohäiriöstä ja keuhkovaltimoverenpaineesta ennustettuun uuteen käyttöaiheeseen (Ambras-tyypin yleistynyt synnynnäinen liikakarvoitus)
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-> Tadalafii on PDE5-inhibiittori (näyttöpaketin omassa perustelutekstissä jo todettu, hyväksytty WHO-ryhmän 1 keuhkojen valtimohypertensioon); tätä arviointia varten käytettävää alkuperäisen indikaation tietoa ei ole dokumentoitu.
-> TxGNN-mallin paras ennuste on **Ambras-tyypin hypertrikoosi universalis congenita**, harvinainen synnynnäinen monihiuksinen oireyhtymä,
-> mutta tätä ennustusta tukee tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua** — mallin oma perusteluteksti kuvailee sitä todennäköisesti upotusfunktiotilaavaruuden artefaktiksi pikemminkin kuin mekanistiseksi signaaliksi.
+Tadalafiili on PDE5:n estäjä, jota on käytetty erektiohäiriön ja keuhkovaltimoverenpaineen hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **Ambras-tyypin yleistyneeseen synnynnäiseen liikakarvoitukseen**, mutta ennusteen tueksi ei ole **yhtään kliinistä tutkimusta eikä julkaisua**. Ennuste perustuu pelkästään mallin laskentaan, ja biologisesti uskottavaa mekanismia ei ole tunnistettu.
 
-## Pika-yleiskatsaus
+---
+
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Ei dokumentoitu tässä näyttöpaketissa (Suomen lupaustiedot puuttuvat) |
-| Ennustettu uusi indikaatio | Ambras-tyypin hypertrikoosi universalis congenita |
-| TxGNN-ennusteen pistemäärä | 99.98% |
-| Näyttötaso | L5 (vain mallin ennuste, ei tukevia tutkimuksia) |
-| Suomen markkinatilanne | Ei markkinoilla (Ei markkinoilla) |
-| Lupapäätösten lukumäärä | 0 |
-| Suositeltu päätös | Varaus |
+|------|------|
+| Alkuperäinen käyttöaihe | Erektiohäiriö |
+| Ennustettu uusi käyttöaihe | Ambras-tyypin yleistynyt synnynnäinen liikakarvoitus (Ambras type hypertrichosis universalis congenita) |
+| TxGNN-ennusteen pistemäärä | 99,98 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 6 (kaikki peruutettuja) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennuste on perusteltu?
+---
 
-Tadalafiilin mekanismi-vaikutus-tiedot on merkitty puutteeksi tässä näyttöpaketissa (DG002). Ainoa mekanistinen konteksti, joka on saatavilla, tulee mallin omista perusteluteksteistä kahdeksalla ehdokkaan indikaatiolla: tadalafii kuvataan siellä PDE5-inhibiittoriksi, joka nostaa cGMP-tasoja ja rentouttaa verisuonten sileitä lihaksia, ja se on jo hyväksytty lääkehoito WHO-ryhmän 1 keuhkojen valtimohypertensioon.
+## Miksi ennuste on (tai ei ole) perusteltu?
 
-Paremman sijaluvun omaavalle ehdokkaalle — Ambras-tyypin hypertrikoosi universalis congenita, harvinaiselle perimälliselle oireyhtymälle, joka tyypillisesti liittyy kromosomi 8q:n uudelleenjärjestelmiin — näyttöpaketin perusteluteksti nimenomaisesti toteaa, että ei ole **tunnettu patologinen yhteys** PDE5-estoamiselle, cGMP-signaloinnille tai verisuonten sileiden lihasten rentouttamiselle. Se kuvailee korkeaa TxGNN-pistemäärää todennäköisesti upotusfunktiotilaavaruuden samankaltaisuuden artefaktiksi pikemminkin kuin todellisen mekanistisen johtopäätöksen.
+Tadalafiilin yksityiskohtaisia vaikutusmekanismitietoja ei ole tällä hetkellä saatavilla. Tunnetun tiedon mukaan tadalafiili on PDE5:n estäjä, joka nostaa solunsisäistä cGMP-pitoisuutta ja aiheuttaa verisuonten laajenemista. Sen teho erektiohäiriössä ja keuhkovaltimoverenpaineessa on osoitettu.
 
-Heikompaa, toisijaista hypoteesia ilmaantuu siihen liittyvälle rank-2-ennusteelle (hypertrikoosi, yleinen): paikallisesti käytettävät vasodilattorit, kuten minoksidiili, voivat edistää hiusrakkeiden kasvua, ja PDE5-inhibiittorit jakavat vasodilatoivaa farmakologiaa periaatteessa. Kuitenkin tämä pysyy spekulatiivisena ekstrapolaationa ilman kliinistä tai tapauskertomusten tukea nykyisille näytöille, eikä se päde rank-1-Ambras-oireyhtymän ennusteeseen, joka on erillinen ja paljon harvinaisempi perimällinen entiteetti.
+Ambras-oireyhtymä on harvinainen perinnöllinen karvankasvun häiriö, jossa kromosomipoikkeamat vaikuttavat TRPS1-geenin säätelyyn. Selkeää mekanistista yhteyttä PDE5:n estoon ei ole. Korkea pistemäärä näyttää olevan tietämysgraafin sivuvaikutus, joka johtuu yhteisistä karvoitukseen liittyvistä fenotyyppisolmuista, eikä biologisesti uskottavasta kohdesuhteesta.
+
+Myös muut ennustetut käyttöaiheet ovat heikosti perusteltuja. Liikakarvoitus (hypertrichosis) on tunnettu eräiden verisuonia laajentavien lääkkeiden (esim. minoksidiili) haittavaikutus, joten yhteys voi heijastaa lääkkeen aiheuttamaa ilmiötä eikä hoitomahdollisuutta. Ainoa poikkeus on kyfoskolioottinen sydänsairaus, jossa on löyhä perustelu keuhkoverenkierron vastuksen kautta, mutta PDE5:n estäjät voivat huonontaa ventilaatio-perfuusiosuhdetta hypoksisessa tai restriktiivisessä keuhkosairaudessa.
+
+---
 
 ## Kliinisen tutkimuksen näyttö
 
-Tällä hetkellä ei ole rekisteröityjä liittyviä kliinisiä tutkimuksia.
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
-## Kirjallisuuden näyttö
+---
 
-Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
+## Kirjallisuusnäyttö
 
-## Suomen markkinatiedot
+Ensisijaiselle ennusteelle (Ambras-tyypin liikakarvoitus) ei ole saatavilla kirjallisuutta. Ainoa löytynyt julkaisu liittyy ennusteeseen sijalta 8 (migreeni aivorunkoauralla):
 
-Tadalafiilin markkinointia ei tällä hetkellä tapahdu Suomessa tämän näyttöpaketin mukaan (0 lupapäätöstä rekisteröity), joten mitään tuote-/lupätaulukkoa ei voida luoda.
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [17059442](https://pubmed.ncbi.nlm.nih.gov/17059442/) | 2006 | Tapausselostus | Cephalalgia | Tadalafiiliin liittyi tyypillinen migreeniaura ilman päänsärkyä. Viittaa siihen, että lääke voi laukaista migreenioireita, ei hoitaa niitä. |
+
+---
+
+## Myyntiluvat Suomessa
+
+| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004666 | Tadalafil Lilly | – | Erektiohäiriö (peruutettu) |
+| EMEA/H/C/004297 | Talmanco | – | Keuhkovaltimoverenpaine (peruutettu) |
+| EMEA/H/C/001021 | Adcirca | – | Keuhkovaltimoverenpaine (peruutettu) |
+| EMEA/H/C/003787 | Tadalafil Mylan | – | Erektiohäiriö (peruutettu) |
+| EMEA/H/C/000436 | Cialis | – | Erektiohäiriö (peruutettu) |
+
+Lisäksi yksi peruutettu myyntilupa (Yuvanci, EMEA/H/C/005001, keuhkovaltimoverenpaine).
+
+---
 
 ## Turvallisuusnäkökohdat
 
-Katso pakkauselosteen turvallisustiedot. (Tärkeät varoitukset, vasta-aiheet ja lääkkeiden yhteisvaikutukset eivät ole tällä hetkellä saatavilla — TFDA/Fimean pakkauselosteen hankkiminen on merkitty **estäväksi** tietovajeeksi, DG001, jota vaaditaan ennen kuin turvallisuuden esitarkastus voidaan aloittaa.)
+Pakkausselosteen varoitus- ja vasta-aihetietoja ei ollut käytettävissä, joten niihin on tutustuttava valmisteyhteenvedosta.
 
-## Muut ennustetut signaalit ja turvallisuushuomautus
+- **Tietämysgraafiin perustuvat mahdolliset vasta-aiheet** (eivät perustu valmisteen etikettitekstiin): maksan vajaatoiminta, epilepsia, aorttastenoosi ja aorttaläpän sairaudet, matala verenpaine, veren hyytymishäiriöt, akuutti sepelvaltimo-oireyhtymä, sirppisoluanemia, aivoverenkiertohäiriöt ja aivoinfarkti, sydäninfarkti, hemoglobinopatiat, multippeli myelooma, priapismi, Peyronien tauti, kuulonmenetys, leukemia sekä hypertrofinen kardiomyopatia.
+- **Lääkeyhteisvaikutukset:** tietoja löytyi yhteensä 100 kappaletta. Esimerkkejä kohtalaisista yhteisvaikutuksista: aprepitantti, deksametasoni, lorkaseriini, kanagliflotsiini, simetidiini, klaritromysiini, dapagliflotsiini, empagliflotsiini, sapropteriini, mikonatsoli, klotrimatsoli, ertugliflotsiini ja troglitatsoni. Lievä yhteisvaikutus: papaveriini.
+- **Migreeni:** tapausselostus viittaa siihen, että tadalafiili voi laukaista migreeniauran. Tämä on turvallisuushuomio, ei hoitomahdollisuus.
 
-Näyttöpaketti tutki 8 TxGNN-ennustusta tadalafiilin osalta; kaikki saivat samankaltaisen korkean mutta kapeasti sijoittuneet tulokset (99.42%–99.98%), ja kaikki paitsi kaksi tuottivat nolla tukevaa kirjallisuutta/tutkimuksia:
+---
 
-- **Kyfooskolioottinen sydänsairaus** (rank 7, L4, vaihe S1 "Research Question") on asetettujen joukossa mekanistisesti uskottavin: vakava kyfooskoliosi voi aiheuttaa restriktiiviisen keuhkosairauden ja ryhmän 3 keuhkojen hypertension, ja tadalafii on hyväksytty ryhmän 1 PAH-lääkehoito. Kuitenkin PDE5-inhibiittorit hypoksiassa/keuhkosairauksiin liittyvässä (ryhmän 3) PH:ssa ovat kiistanalaisia — ne voivat pahentaa ventillaation-perfuusion epäsuhdetta — eikä näille väestöille ole olemassa suoraa tutkimusnäyttöä.
-- **Aivovarren auran migreeni** (rank 8, L4) paljasti yhden tapauskertomus (PMID [17059442](https://pubmed.ncbi.nlm.nih.gov/17059442/)) jossa kuvataan tadalafiilin **aiheuttama/liittyvä** tyypillinen aura ilman päänsärkyä — tämä on **haittavaikutussignaali, ei hoitotodiste**, ja perusteluteksti nimenomaisesti varoittaa, että TxGNN on saattanut kääntää lääkkeen–sairauden suhteen suunnan. Tämä olisi luettava varotuksena, ei uudelleenkäyttömahdollisuutena.
-- "Epämuodostumaoireyhtymä hammas-/parodontaalisella komponentilla" -ehdokas tuotti 20 kirjallisuusosumaa, mutta kaikki ovat yleisiä periodontiitin patofysiologian katsauksia, joissa ei ole tadalafiilin-kohtaista sisältöä — avainsanojen rinnakkaisesiintymisen artefakti, ei todellinen näyttö.
-- Jäljellä olevilla ehdokkailla (hiuksien varren poikkeavuus, Dandy-Walker-oireyhtymä, perinnöllinen trikoumegalia) ei ole tunnettua mekanistista linkkiä eikä tukevaa dataa.
+## Johtopäätös ja jatkotoimet
 
-## Johtopäätös ja seuraavat vaiheet
+**Päätös: Hold (odota)**
 
-**Päätös: Varaus**
+**Perustelut:**
+- Ennusteen tueksi ei ole kliinisiä tutkimuksia eikä kirjallisuutta, eikä uskottavaa mekanismia ole tunnistettu. Korkea pistemäärä näyttää johtuvan tietämysgraafin rakenteesta. Lisäksi kaikki tadalafiilin myyntiluvat Suomessa on peruutettu.
 
-**Perustelu:**
-Korkeimman sijaluvun ennuste (Ambras-tyypin hypertrikoosi) sisältää nolla kliinistä tutkimusta, nolla kirjallisuutta ja ei uskottavaa mekanistista linkkiä mallin omien perusteluiden mukaan — tämä on vain mallin pistemäärää sisältävä signaali (L5), jossa on vahva sisäinen varoitus, että se on tilastollinen artefakti. Mikään 8 seulotusta ehdokkaasta ei saavuta edes L2/L3-näyttötasoa.
-
-**Jatkamiseksi tarvitaan seuraavaa:**
-- Ratkaise estävä aukko (DG001): hanki TFDA/Fimean pakkausseloste varoituksille, vasta-aiheille ja lääkkeiden yhteisvaikutuksille ennen kuin turvallisuuden esitarkastus (S1) voidaan aloittaa
-- Hanki vahvistetut alkuperäiset MOA- ja alkuperäisen indikaation tiedot DrugBankista (DG002) perusteellisesti perustamaan mille tahansa uudelleenkäyttöperusteluille
-- Jos jatkossa edetään, ohjaa arviointi mekanistisesti puolustettavampaan ehdokkaaseen — kyfooskolioottinen sydänsairaus / ryhmän 3 PH — pikemminkin kuin TxGNN:n korkeimpaan sijalukuun ja tukemattomaan hypertrikoosin ennusteeseen
-- Käsittele migrenin-auran kirjallisuussignaalia farmakovigilanssivaroitukseksi olemassa olevalle tadalafiilin käytölle, ei uudelleenkäyttömahdollisuutena
-
+**Jatkoon tarvitaan:**
+- Tadalafiilin vaikutusmekanismia koskevat tiedot (esim. DrugBankista)
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet Fimean sivustolta
+- Biologisen mekanismin selvitys ennen mitään prekliinistä tai kliinistä työtä
+- Myyntilupatilanteen selvitys, jos jokin käyttöaihe halutaan viedä eteenpäin
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

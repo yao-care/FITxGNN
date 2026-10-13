@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Nepafenac
-parent: Vahva näyttö (L1-L2)
-nav_order: 258
-evidence_level: L1
+parent: Pelkkä mallin ennuste (L5)
+nav_order: 299
+evidence_level: L5
 indication_count: 10
 ---
 
 # Nepafenac
 {: .fs-9 }
 
-Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,108 +29,118 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Nepafenac: Katarakan leikkaukseen liittyvän silmän tulehduksen ehkäisystä silmäsairauteen (Laajempi ennustettu indikaatio)
+# Nepafenaakki: Leikkauksen jälkeisestä kivusta silmäsairauksiin
 
 ## Yhden lauseen yhteenveto
 
-Nepafenac on topikaalinen oftalminen NSAID-esiainetuote; tämä näyttöpaketti ei sisällä virallisesti dokumentoitua alkuperäistä indikaatiota (tietorako), mutta taustalla oleva kliinisen tutkimuksen ja kirjallisuuden näyttö osoittaa laajaa ja pitkäaikaista käyttöä tulehduksen/kivun ehkäisemiseen katarakan poistoleikkauksen jälkeen sekä diabeettisen makulaödeeman riskin vähentämiseen. TxGNN:n pääennuste on laaja kategoria **silmäsairaus**, jota tukevat **41 kliinistä tutkimusta** ja **20 julkaisua** jo tässä paketissa — mikä tarkoittaa, että "uusi indikaatio" -signaali vahvistaa pitkälti lääkkeen tunnetun silmäkäytön eikä osoita todella uutta sairausaluetta.
+Nepafenaakki on paikallisesti silmään annettava tulehduskipulääke, jota on alun perin käytetty leikkauksen jälkeisen kivun ja silmäkirurgian yhteydessä esiintyvän tulehduksen hoitoon.
+TxGNN-malli ennustaa sen voivan olla tehokas **silmäsairauksien** hoidossa, ja tätä suuntaa tukee tällä hetkellä **41 kliinistä tutkimusta** ja **20 julkaisua**.
+Ennuste on lähellä lääkkeen nykyistä käyttöä, joten kyse on pikemminkin laajennuksesta samalla hoitoalueella kuin kaukaisesta uudelleenkäytöstä.
 
 ---
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Ei virallisesti dokumentoitu tässä näyttöpaketissa (tietorako, katso DG002). Pakettiin sisältyvä kliinisen tutkimuksen ja kirjallisuuden näyttö viittaa vakiintuneeseen käyttöön katarakan poistoleikkaukseen liittyvän silmän tulehduksen ja kivun ehkäisyyn sekä makulaödeeman ehkäisyyn. |
-| Ennustettu uusi indikaatio | Silmäsairaus (laaja oftalminen kategoria) |
-| TxGNN-ennustepisteet | 99.85% |
-| Näytön taso | L1 |
-| Suomen markkinatilanne | ✗ Ei kaupallistettu |
-| Lupien lukumäärä | 0 |
-| Suositeltu päätös | Jatka varauksilla |
+| Alkuperäinen käyttöaihe | Leikkauksen jälkeinen kipu; silmäkirurgiset toimenpiteet |
+| Ennustettu uusi käyttöaihe | Silmäsairaus (eye disease) |
+| TxGNN-ennustepistemäärä | 99,85 % |
+| Näytön taso | L1 (ks. huomautus alla) |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Etene suojatoimin (Proceed with Guardrails) |
+
+*Huomautus:* L1-luokitus perustuu laajoihin satunnaistettuihin vaiheen 2 tutkimuksiin, vaiheen 3 tutkimuksiin sekä järjestelmälliseen katsaukseen. Tiukempi arvioija voisi pitää tasoa varovaisemmin L2:na, mikäli vaaditaan vahvistettuja vaiheen 3 tuloksia juuri tästä käyttöaiheesta.
 
 ---
 
-## Miksi tämä ennuste on perusteltu?
+## Miksi ennuste on perusteltu?
 
-Yksityiskohtaisia vaikutusmekanismin tietoja ei ole `drug.original_moa`-kentässä (tietorako DG002). Kuitenkin tässä paketissa kerätyt kliiniset näyttöaineistot ovat itseään informatiivisia: nepafenac on esiainetuote, joka paikallisesti silmään pistettyä muotoa instilloitaessa muuttuu silmän sisällä aktiiviiseksi aineeksi amfenapiksi, joka estää COX-1:n ja COX-2:n toimintaa ja vähentää prostaglandiinin synteesiä. Tämä on farmakologinen perusta sen vakiintuneen roolin selittämiselle silmän tulehduksen ja kivun ehkäisemisessä ja hoidossa katarakan poistoleikkauksen jälkeen sekä postoperatiivisen makulaödeeman riskin vähentämisessä diabeettikoilla.
+Nepafenaakki on esilääke (prodrug), jonka silmäkudoksen hydrolaasientsyymit muuttavat aktiiviseksi amfenaakiksi. Amfenaakki estää syklo-oksigenaasientsyymejä COX-1 ja COX-2, mikä vähentää prostaglandiinien synteesiä ja siten silmän tulehdusta, kipua ja makulaturvotusta. Tutkimusten mukaan amfenaakki jakautuu paikallisen annon jälkeen myös silmän takaosaan.
 
-Koska "silmäsairaus" on laaja kategoria tietyn uuden sairauden sijaan, tämä ennuste on pitkälti päällekkäinen nepafenacin tunnetun kliinisen käytön kanssa eikä tunnista täyttämätöntä, aiemmin testaamatonta indikaatiota. `original_indications`-kentän tyhjyys näyttää olevan tiedonkeräysväli eikä kliinisen perustan puute — paketin omat tutkimukset (41 tutkimusta, useat suuret vaiheen 3 pivotutkimukset n>800–2 000) jo dokumentoivat tätä aktiviteettia. Todella uudet signaalit tässä paketissa ovat heikompia: ehdokkaat, kuten optisen hermon papilliitti (ranking 2) ja lasiaisen irtoaminen (ranking 10), mekanistisen perustelun ovat uskottava (anti-inflammatoorinen/COX-inhibitiivinen vaikutus verkkokalvon tai näköhermon tulehdukseen), mutta niillä on vain niukkaa, epäsuoraa tai preklinistä näyttöä (L3–L4), ja useilla alemman sijan ennusteilla (hypotrikoosi, seborroinen keratoosi, synnynnäiset syndroomat) ei ole lainkaan kliinistä tai mekanistista yhteyttä, ja ne on parasta käsitellä mallin kohinana.
+Alkuperäinen käyttöaihe (kipu ja tulehdus kaihileikkauksen jälkeen) ja ennustettu laaja "silmäsairaus"-luokka ovat pitkälti päällekkäisiä. Vahvin näyttö koskee kaihileikkauksen jälkeistä tulehdusta ja kipua, ja sen lisäksi tutkimuksia on makulaturvotuksen ehkäisystä, diabeettisesta makulaturvotuksesta, verkkokalvon laserhoidon (panretinaalinen fotokoagulaatio) kivusta sekä laserirdotomian jälkeisestä tulehduksesta.
+
+Tässä yhteydessä on huomattava, että mekanistista vaikutustapaa (MOA) koskevia yksityiskohtaisia tietoja ei ole tällä hetkellä saatavilla lääketietokannasta. Edellä kuvattu mekanismi perustuu julkaistuun kirjallisuuteen.
+
+### Muut ennustetut käyttöaiheet
+
+Muiden ennusteiden näyttö on selvästi heikompaa:
+
+- **Optinen papilliitti:** vain prekliininen kaniinitutkimus ja yksi epäsuora tutkimus; näyttö hermon tulehduksen hyödystä puuttuu (taso L4, Hold).
+- **Lasiaisirtauma:** yksi vaiheen 4 biomarkkeritutkimus verkkokalvon irtauman yhteydessä (taso L3, tutkimuskysymys).
+- **Muut (esim. hiuskatoon, seborrooiseen keratoosiin, lagoftalmukseen liittyvät ennusteet):** pelkkiä malliennusteita ilman tutkimuksia tai uskottavaa mekanismia (taso L5, Hold).
 
 ---
 
-## Kliinisen tutkimuksen näyttö
+## Kliininen tutkimusnäyttö
 
-| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset havainnot |
+Alla on valikoima merkityksellisimpiä tutkimuksia (enintään 10).
+
+| Tutkimusnumero | Vaihe | Tila | Osallistujia | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT01853072](https://clinicaltrials.gov/study/NCT01853072) | Vaihe 3 | Valmistunut | 881 | Nepafenac 0.3% kerran päivässä ylivoimainen vertailuaineeseen nähden kliinisissa tuloksissa diabeettikoilla katarakan poistoleikkauksen jälkeen |
-| [NCT01109173](https://clinicaltrials.gov/study/NCT01109173) | Vaihe 3 | Valmistunut | 2120 | Suuri pivotutkimus nepafenac 0.3%:n arvioinnille postoperatiivisen silmän tulehduksen ja kivun ehkäisyyn/hoitoon katarakan poistoleikkauksen jälkeen |
-| [NCT01318499](https://clinicaltrials.gov/study/NCT01318499) | Vaihe 2 | Valmistunut | 1342 | Nepafenac 0.3% vs 0.1% vs vertailuaine postoperatiivisen tulehduksen ja kivun ehkäisyyn/hoitoon |
-| [NCT03499873](https://clinicaltrials.gov/study/NCT03499873) | Vaihe 3 | Valmistunut | 448 | Geneerisen ja Ilevro-valmisteen (nepafenac 0.3%) biovastaavuustutkimus postoperatiivisen kivun/tulehduksen osalta |
-| [NCT01021761](https://clinicaltrials.gov/study/NCT01021761) | Vaihe 4 | Valmistunut | 126 | Nepafenac (Nevanac) -valmisteen ja muiden NSAID-silmäpistojen suora vertailu PGE2-inhibitioon fakoemulsifikation jälkeen |
-| [NCT00939276](https://clinicaltrials.gov/study/NCT00939276) | Vaihe 3 | Lopetettu | 175 | Arvioitiin nepafenac (Nevanac) -valmisteen vaikutusta makulaödeeman esiintymisen ja vakavuuden vähentämiseen diabeettisen retinopatian potilailla katarakan poistoleikkauksen jälkeen |
-| [NCT00494494](https://clinicaltrials.gov/study/NCT00494494) | Vaihe 4 | Valmistunut | 82 | Nepafenac 0.1%:n vaikutus postoperatiivisen kystoidisen makulaödeeman ehkäisyyn mutkattoman katarakan poistoleikkauksen jälkeen |
-| [NCT02515045](https://clinicaltrials.gov/study/NCT02515045) | Vaihe 4 | Valmistunut | 59 | Verrattiin injektioannettavaa pistetöntä profylaksiaa vakioanosteisen topikaalisen hoidon (sisältäen nepafenacin) kanssa fakoemulsifikation jälkeen |
-| [NCT03851172](https://clinicaltrials.gov/study/NCT03851172) | Vaihe 2 | Tuntematon | 75 | Nepafenac vs ketorrolaki intraoperatiivisen mioosin ehkäisyyn katarakan poistoleikkauksen aikana |
-| [NCT00801905](https://clinicaltrials.gov/study/NCT00801905) | Vaihe 2 | Lopetettu | 50 | Topikaalinen nepafenac makulan paksuuntumisen ehkäisyyn/hoitoon, joka liittyy laajan verkkokalvon valokiinnityshoidon käyttöön diabeettisessa retinopatia |
+| [NCT01109173](https://clinicaltrials.gov/study/NCT01109173) | Vaihe 3 | Päättynyt | 2120 | Nepafenaakki 0,3 % silmätulehduksen ja kivun ehkäisyssä ja hoidossa kaihileikkauksen jälkeen |
+| [NCT01853072](https://clinicaltrials.gov/study/NCT01853072) | Vaihe 3 | Päättynyt | 881 | Nepafenaakki 0,3 % vs. vehikkeli diabeetikoilla kaihileikkauksen jälkeen |
+| [NCT01872611](https://clinicaltrials.gov/study/NCT01872611) | Vaihe 3 | Päättynyt | 819 | Sama asetelma kuin edellä; kliiniset tulokset diabeetikoilla |
+| [NCT01318499](https://clinicaltrials.gov/study/NCT01318499) | Vaihe 2 | Päättynyt | 1342 | Nepafenaakki 0,3 % vs. 0,1 % vs. vehikkeli tulehduksen ja kivun hoidossa kaihileikkauksen jälkeen |
+| [NCT03025945](https://clinicaltrials.gov/study/NCT03025945) | Ei sovellettavissa | Päättynyt | 662 | Pseudofakisen kystisen makulaturvotuksen ehkäisy, nepafenaakki 0,3 % vs. lume |
+| [NCT03499873](https://clinicaltrials.gov/study/NCT03499873) | Vaihe 3 | Päättynyt | 448 | Rinnakkaisvalmisteen kliininen ekvivalenssi Ilevroon nähden |
+| [NCT00782717](https://clinicaltrials.gov/study/NCT00782717) | Vaihe 2 | Päättynyt | 263 | Nevanac 0,1 % vs. vehikkeli: makulaturvotuksen ilmaantuvuus diabeettisen retinopatian potilailla kaihileikkauksen jälkeen |
+| [NCT01426854](https://clinicaltrials.gov/study/NCT01426854) | Vaihe 3 | Päättynyt | 260 | Nepafenaakki 0,1 % vs. lume kiinalaisilla potilailla |
+| [NCT00405730](https://clinicaltrials.gov/study/NCT00405730) | Vaihe 3 | Päättynyt | 227 | Nepafenaakki 0,1 % vs. ketorolaakki ja lume Euroopassa |
+| [NCT00939276](https://clinicaltrials.gov/study/NCT00939276) | Vaihe 3 | Keskeytetty | 175 | Makulaturvotuksen vaikeusasteen vähentäminen diabeettisen retinopatian potilailla |
 
 ---
 
-## Kirjallisuuden näyttö
+## Kirjallisuusnäyttö
 
 | PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [34120417](https://pubmed.ncbi.nlm.nih.gov/34120417/) | 2021 | RCT | Korean J Ophthalmol | Verrattiin 0,1% nepafenacin ja 1% prednisoloniasetaatin vaikutusta postoperatiivisen tulehduksen hallintaan minimaalisesti invasiivisen katarakan poistoleikkauksen jälkeen |
-| [32672612](https://pubmed.ncbi.nlm.nih.gov/32672612/) | 2020 | RCT | Ophthalmology. Glaucoma | Verrattiin 0,1% nepafenacin ja 1% prednisoloniasetaatin vaikutusta tulehduksen hallintaan laser-oheisen iridotomian jälkeen |
-| [39936354](https://pubmed.ncbi.nlm.nih.gov/39936354/) | 2025 | Järjestelmällinen katsaus/Meta-analyysi | Eur J Ophthalmol | Nepafenacin rooli makularakoan ehkäisyssä ja näöntarkkuuden parantamisessa katarakan poistoleikkauksen jälkeen |
-| [24345529](https://pubmed.ncbi.nlm.nih.gov/24345529/) | 2014 | Vaihe 3 -tutkimus | J Cataract Refract Surg | Kerran päivässä annettava nepafenac 0.3% silmän tulehduksen ja kivun ehkäisyyn/hoitoon katarakan poistoleikkauksen jälkeen |
-| [30284393](https://pubmed.ncbi.nlm.nih.gov/30284393/) | 2018 | Kohorttianalyysi/vertaileva tutkimus | Acta Ophthalmol | Nepafenacin ja säilöntöaine-vapaan diklofenaakin kliininen teho ja siedettävyys katarakan poistoleikkauksen jälkeen |
-| [29199864](https://pubmed.ncbi.nlm.nih.gov/29199864/) | 2018 | Turvallisuus-/tehotutkimus | Curr Eye Res | Silmän sisäisen nepafenacin turvallisuus ja teho prostaglandiinin synteesin estämisessä fakoemulsifikation aikana |
-| [26474497](https://pubmed.ncbi.nlm.nih.gov/26474497/) | 2016 | Farmakokinetiikka/Jakautumistutkimus | Exp Eye Res | Topikaalisen nepafenacin ja sen aktiivisen aineenvaihduntatuotteen amfenacin jakautuminen silmän takasegmenttiin |
-| [22795976](https://pubmed.ncbi.nlm.nih.gov/22795976/) | 2012 | Vertaileva tutkimus | J Cataract Refract Surg | Profylaktinen nepafenac ja ketorrolaki vs lumelääke postoperatiivisen makulaödeeman ehkäisyssä |
-| [30046541](https://pubmed.ncbi.nlm.nih.gov/30046541/) | 2018 | Vertaileva tutkimus | Int J Ophthalmol | Bromfenacin, nepafenacin ja diklofenaakin teho ja turvallisuus kystoidisen makulaödeeman ehkäisyssä |
-| [35025078](https://pubmed.ncbi.nlm.nih.gov/35025078/) | 2022 | Katsaus | Drugs | Diagnosaattisten aineiden ja terapeuttisten lääkkeiden (mukaan lukien NSAID:t) katsaus infektioittomien sarveiskalvovammojen käsittelyyn |
+| [39095467](https://pubmed.ncbi.nlm.nih.gov/39095467/) | 2024 | Järjestelmällinen katsaus ja verkostometa-analyysi | Eye | Paikallisten NSAID-lääkkeiden vaikutus makulaturvotukseen ja näöntarkkuuteen faakoemulsifikaation jälkeen |
+| [34120417](https://pubmed.ncbi.nlm.nih.gov/34120417/) | 2021 | RCT | Korean J Ophthalmol | Nepafenaakki 0,1 % vs. prednisolooni 1 % leikkauksen jälkeisen tulehduksen hoidossa |
+| [32672612](https://pubmed.ncbi.nlm.nih.gov/32672612/) | 2020 | RCT | Ophthalmology Glaucoma | Nepafenaakki vs. prednisolooniasetaatti laserirdotomian jälkeen: turvallisuus ja teho |
+| [41039316](https://pubmed.ncbi.nlm.nih.gov/41039316/) | 2025 | Järjestelmällinen katsaus / verkostometa-analyysi | BMC Ophthalmology | Seitsemän paikallista NSAID-lääkettä verkkokalvon laserhoidon kivun lievityksessä |
+| [34210237](https://pubmed.ncbi.nlm.nih.gov/34210237/) | 2022 | Katsaus | Clin Exp Optom | Nepafenaakki kaihileikkauksessa: korkea silmänsisäinen läpäisy ja vähäinen sivuvaikutusprofiili |
+| [26502088](https://pubmed.ncbi.nlm.nih.gov/26502088/) | 2016 | Katsaus | Dev Ophthalmol | NSAID-lääkkeet verkkokalvosairauksien hoidossa |
+| [25686158](https://pubmed.ncbi.nlm.nih.gov/25686158/) | 2015 | Cochrane-katsaus | Cochrane Database Syst Rev | Paikalliset NSAID-lääkkeet diabeettisessa kystisessä makulaturvotuksessa |
+| [26474497](https://pubmed.ncbi.nlm.nih.gov/26474497/) | 2016 | Prekliininen / farmakokinetiikka | Exp Eye Res | Nepafenaakin ja amfenaakin jakautuminen silmän takaosaan |
+| [17259381](https://pubmed.ncbi.nlm.nih.gov/17259381/) | 2007 | Prekliininen | Diabetes | Paikallinen nepafenaakki esti diabeettista verkkokalvon mikroverisuonisairautta rotilla |
+| [17964407](https://pubmed.ncbi.nlm.nih.gov/17964407/) | 2007 | Tapausselostus | J Cataract Refract Surg | Sarveiskalvon sulaminen (corneal melt) nepafenaakin käytön yhteydessä potilaalla, jolla oli graft-versus-host-tauti |
 
 ---
 
-## Turvallisuushuomiot
+## Markkinatiedot Suomessa
 
-Viittaa pakkausselosteeseen turvatiedoista. Virallisia TFDA/Fimea-varoituksia, vasta-aiheita ja lääkkeiden välistä vuorovaikutusta koskevia tietoja ei saatu käyttöön tämän näyttöpaketin luontihetkellä (tietorako DG001, luokiteltu **estäväksi** — tämä estää muodollisen S1-turvallisuuden esiarviointia).
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000818 | Nevanac | – | Leikkauksen jälkeinen kipu; silmäkirurgiset toimenpiteet (tila: peruutettu) |
+
+Ainoa myyntilupa (Novartis Europharm Limited) on peruutettu, joten tuotteen saatavuus on tarkistettava.
 
 ---
 
-## Muut TxGNN:n ennustamat indikaatiot (Seulontahuomiot)
+## Turvallisuusnäkökohdat
 
-Rankingit 2–10 seulottiin myös, mutta ne eivät ole tämän raportin keskipisteessä heikomman tai puuttuvan näytön vuoksi:
+- **Tietämyskuvaajaan perustuvat vasta-aiheet:** TxGNN-tietämyskuvaajan (PrimeKG) mukaan lääkkeeseen liittyy mahdollisia vasta-aihe-yhteyksiä seuraavissa tiloissa: nivelreuma, diabetes, diabeettinen ketoasidoosi, veren hyytymishäiriöt, keratiitti, keratokonjunktiviitti, kuivasilmäisyys, kserooftalmia ja sarveiskalvon haava. Nämä eivät perustu valmisteyhteenvetoon, vaan ne on varmennettava erikseen.
+- **Kirjallisuudessa raportoitu riski:** Sarveiskalvon sulamisesta on kuvattu tapaus potilaalla, jolla oli graft-versus-host-tauti (PMID 17964407), mikä on linjassa sarveiskalvon sairauksiin liittyvien varoitusten kanssa.
 
-| Ranking | Sairaus | Pisteet | Näytön taso | Suositus |
-|------|---------|-------|-----------------|-----------------|
-| 2 | Optisen hermon papilliitti | 99.84% | L4 | Odota |
-| 3 | Yksinkertainen hypotrikoosi skalpeilla | 99.84% | L5 | Varaa |
-| 4 | Seborroinen keratoosi | 99.83% | L5 | Varaa |
-| 5 | Von Hippelin anomalia | 99.82% | L5 | Varaa |
-| 6 | Synnynnäinen hypotrikoosi milia | 99.82% | L5 | Varaa |
-| 7 | McPherson Robertson Cammarano -syndrooima | 99.82% | L5 | Varaa |
-| 8 | Lagoftalmos | 99.81% | L5 | Varaa |
-| 9 | Vulvaalinen käänteinen follikkelikeratoosi | 99.81% | L5 | Varaa |
-| 10 | Lasiaisen irtoaminen | 99.81% | L3 | Tutkimuskysymys |
-
-Rankingeilla 3, 4, 6, 7, 8 ja 9 ei ole kliinisten tutkimusten tai kirjallisuuden näyttöä eikä uskottavaa mekanistista yhteyttä nepafenacin COX-inhibitiiviiseen toimintaan — nämä todennäköisesti heijastavat mallin kohinaa. Lasiaisen irtoamisella (ranking 10) on yksi valmistunut vaiheen 4 tutkimus lasiaisen inflammatorisista biomarkereista, joka edellyttää tutkimuskysymystä eikä välitöntä hylkäämistä.
+Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 ---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Jatka varauksilla**
+**Päätös: Etene suojatoimin (Proceed with Guardrails)**
 
 **Perustelut:**
-Pääennuste ("silmäsairaus") on tuettu L1-tasoisella näytöllä (useat valmistuneet vaiheen 3 satunnaistetut kontrolloivat tutkimukset), mutta se on olennaisesti päällekkäinen nepafenacin jo vakiintuneen oftalmisen anti-inflammatoorisen käytön kanssa eikä edustaa erillistä uutta indikaatiota — näin ollen tämä tulisi käsitellä näytön konsolidointina, ei uuden indikaation löytämisenä. Myös estävä turvallisuuden tietorako (DG001) estää muodollisen riskin hyväksynnän.
+- Nepafenaakin teho kaihileikkauksen jälkeisen tulehduksen, kivun ja makulaturvotuksen ehkäisyn hoidossa on tukena useissa suurissa satunnaistetuissa tutkimuksissa ja systemaattisessa katsauksessa, ja ennuste on lähellä alkuperäistä käyttöaihetta. Muut ennustetut käyttöaiheet (esim. optinen papilliitti) tulee pitää odotustilassa (Hold) näytön puutteen vuoksi.
 
-**Jatkamista varten tarvitaan seuraavaa:**
-- TFDA/Fimea-pakkausseloste (varoitukset, vasta-aiheet) sulkeakseen turvallisuuden tietorako (DG001)
-- Vahvistettu alkuperäisen indikaation ja vaikutusmekanismin (MOA) dokumentaatio DrugBank- ja sääntelylähteiden perusteella määrittääkseen, mikä katsotaan "uudeksi" indikaatioksi verrattuna jo hyväksyttyyn käyttöön (DG002)
-- Jos lasiaisen irtoamisen (ranking 10) tutkimista jatketaan todellisena tutkimuskysymyksenä, kohdennettu kirjallisuus-/tutkimushaku, joka kohdistuu nimenomaan lasiaisen irtoamiseen pikemminkin kuin postoperatiiviseen lasiaisen tulehdukseen
-
+**Jatkoa varten tarvitaan:**
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet Fimean lähteistä (nykyinen tietoaukko estää turvallisuusarvioinnin)
+- Yksityiskohtaiset vaikutusmekanismitiedot (MOA) lääketietokannasta
+- Saatavuuden varmistaminen, koska Suomen myyntilupa on peruutettu (mahdolliset muut valmisteet, esim. 0,3 % vahvuus)
+- Sarveiskalvon sairauksien ja diabeteksen riskipotilaiden turvallisuusseurantasuunnitelma
+- Arvio siitä, kuinka laajasti "silmäsairaus"-ennuste on tarkennettava konkreettisiin käyttöaiheisiin (esim. makulaturvotus)
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

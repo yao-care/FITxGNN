@@ -2,7 +2,7 @@
 layout: default
 title: Basiliximab
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 63
+nav_order: 69
 evidence_level: L5
 indication_count: 0
 ---

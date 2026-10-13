@@ -2,7 +2,7 @@
 layout: default
 title: Insulin Glargine
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 199
+nav_order: 232
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,77 +29,105 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Insuliini glargiini: diabeteksesta autoimmuuniin ooforiittiin
+# Insuliiniglargiini: Diabeteksesta autoimmuuniseen munasarjatulehdukseen
 
-## Yhden lauseen yhteenveto
+## Yhden lauseen tiivistelmä
 
-Insuliini glargiini on pitkävaikutteinen baasaalinsuliini-analogi, jota käytetään pääasiassa tyypin 1 ja tyypin 2 diabeteksen hoitoon. TxGNN-malli ennustaa mahdollista yhteyttä **autoimmuuniin ooforiittiin**, mutta tällä ennusteella ei ole tällä hetkellä kliinisiä tutkimuksia tai kirjallisuuslähteitä, ja taustalla oleva perustelu kuvaa ainoastaan epäsuoraa, taudin samanesiintymisyyteen perustuvaa suhdetta, ei hoitomekanismia.
+Insuliiniglargiini on pitkävaikutteinen insuliinianalogi, jota käytetään diabeteksen (mukaan lukien tyypin 2 diabetes) hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **autoimmuuniseen munasarjatulehdukseen** (autoimmune oophoritis), mutta ennustetta tukevia **kliinisiä tutkimuksia ei ole lainkaan** eikä **julkaisuja ole lainkaan**. Ennuste perustuu yksinomaan mallin laskemaan pisteeseen.
 
 ---
 
-## Nopea katsaus
+## Pikakatsaus
 
-| Kohta | Sisältö |
+| Kohde | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Diabetes mellitus (tyypin 1 ja tyypin 2) |
-| Ennustettu uusi indikaatio | Autoimmuuni ooforiitti |
-| TxGNN-ennustepisteet | 99.88% (mallin sijoitus 1777) |
+| Alkuperäinen käyttöaihe | Diabetes mellitus |
+| Ennustettu uusi käyttöaihe | Autoimmuuninen munasarjatulehdus (autoimmune oophoritis) |
+| TxGNN-ennustepisteet | 99,88 % |
 | Näytön taso | L5 |
-| Suomen markkinatilanne | Ei markkinoilla |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Pidätä |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 5 (kaikki peruutettu, voimassa 0) |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Miksi tämä ennuste on perusteltu?
+## Miksi ennuste voisi olla perusteltu?
 
-Yksityiskohtaista mekanismin toimintaa koskevaa tietoa ei ole tällä hetkellä saatavilla tässä näyttöpaketissa. Tunnetun farmakologian perusteella insuliini glargiini on pitkävaikutteinen rekombinantti-ihmisen insuliini-analogi, joka tarjoaa baasaalisen glykeemisen kontrollin aktivoimalla insuliinireseptorin; sen teho diabeteksessa on hyvin vakiintunut.
+Tämän raportin käyttöön koottu aineisto ei sisällä yksityiskohtaista tietoa vaikutusmekanismista. Tiedossa on, että insuliiniglargiini on pitkävaikutteinen insuliinianalogi ja sen teho diabeteksen hoidossa on osoitettu. Mekanistista perustetta autoimmuuniselle munasarjatulehdukselle ei kuitenkaan ole.
 
-Ehdotettu yhteys autoimmuuniin ooforiittiin ei ole kuitenkaan farmakologinen hoito-sairaus-suhde. Autoimmuuni ooforiitti on osa autoimmuunia polyendokriini syndroomaa (APS) ja voi esiintyä samanaikaisesti tyypin 1 diabeteksen kanssa, mutta ei ole suoraa mekanistista polkua, jonka kautta insuliini hoitaisi munasarjan autoimmuunikipinää. Mallin itsensä perustelut kuvailevat tämän selvästi "knowledge-graph-läheisyysvaikutukseksi", jota ohjaavat jaetut autoimmuuni-/endokriinisairaussolmut, ei todellisen lääke-sairaus-hoitosignaalin havainnoksi.
+Mahdollinen yhteys voisi olla yhteinen autoimmuuni- ja umpierityspohja, esimerkiksi autoimmuuniset polyendokriiniset oireyhtymät, joissa esiintyy myös diabetes. Insuliiniglargiinilla ei kuitenkaan tunneta mekanismia, jolla se hoitaisi munasarjojen autoimmuniteettia. Ennuste on todennäköisesti tietämysgraafin läheisyydestä johtuva artefakti.
 
-Tämän perusteella ennuste tulisi tulkita ainoastaan hypoteesia generoivaksi signaaliksi — se heijastaa mallin oppimia taudin samanesiintymisen kuvioita, ei todisteita terapeuttisesta hyödystä.
-
----
-
-## Kliiniset tutkimustodisteet
-
-Tällä hetkellä ei ole asiaan liittyviä rekisteröityjä kliinisiä tutkimuksia.
-
----
-
-## Kirjallisuuden todisteet
-
-Tällä hetkellä ei ole asiaan liittyvää kirjallisuutta saatavilla.
+Muut ennustetut käyttöaiheet (sijat 2–10) ovat samalla tavalla heikosti perusteltuja:
+- **Tiamiinille vastaava toimintahäiriöoireyhtymä:** insuliinia käytetään jo oireenmukaisesti oireyhtymään liittyvän diabeteksen hoitoon. Kyse ei ole taustasairauden hoidosta.
+- **Klassinen jäykän ihmisen oireyhtymä ja paikallinen jäykkä raaja -oireyhtymä:** ennuste heijastaa todennäköisesti yhteistä anti-GAD-autoimmuniteettia tyypin 1 diabeteksen kanssa. Insuliini ei vaikuta neurologiseen patologiaan.
+- **Opsismodysplasia:** SHIP2/PI3K-signalointi tarjoaa spekulatiivisen yhteyden, mutta vaikutuksen suunta on epäselvä.
+- **Haiman agenesia:** insuliinikorvaushoito on fysiologisesti perusteltua diabeteksen hoitoon, mutta se on tavanomaista tukihoitoa eikä uusi käyttöaihe.
+- **Lipodystrofiat (lääkeaiheuttama paikallinen, sentrifugaalinen, paineen aiheuttama, idiopaattinen):** insuliinipistokset voivat itse aiheuttaa paikallista lipodystrofiaa, joten ennuste on todennäköisesti sekoittunut haittavaikutusyhteyteen.
 
 ---
 
-## Suomen markkinatiedot
+## Kliiniset tutkimukset
 
-Insuliini glargiinil ei ole tällä hetkellä rekisteröityjä markkinointilupia Suomessa tämän näyttöpaketin perusteella (0 lisenssejä tiedostossa; markkinatilanne: ei markkinoilla).
+Ensisijaiseen ennustettuun käyttöaiheeseen ei ole tällä hetkellä rekisteröityjä kliinisiä tutkimuksia.
+
+---
+
+## Kirjallisuusnäyttö
+
+Ensisijaiseen ennustettuun käyttöaiheeseen (autoimmuuninen munasarjatulehdus) ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
+
+Vertailun vuoksi: sijalla 6 olevalle haiman agenesialle haettu kirjallisuus on yleistä eikä käsittele insuliiniglargiinia haiman agenesiassa:
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [12150359](https://pubmed.ncbi.nlm.nih.gov/12150359/) | 2002 | Katsaus | J Am Pharm Assoc | Insuliinihoidon yleistyminen tyypin 2 diabeteksessa ja hoidon aloittamisen käytännöt |
+| [19322513](https://pubmed.ncbi.nlm.nih.gov/19322513/) | 2009 | Katsaus | Acta Diabetol | Umpirauhassairauksiin liittyvä sekundaarinen diabetes ja uudet hoitomuodot |
+| [32871938](https://pubmed.ncbi.nlm.nih.gov/32871938/) | 2020 | Tapausselostus | Medicine | MODY5:n hoito GLP-1-reseptoriagonistilla |
+| [25818213](https://pubmed.ncbi.nlm.nih.gov/25818213/) | 2015 | Kohorttitutkimus (eläinlääketieteellinen, kissat) | J Vet Intern Med | Haiman entsyymit ja ultraäänilöydökset diabeettisilla kissoilla |
+
+---
+
+## Markkinatiedot Suomessa
+
+Kaikki viisi myyntilupaa on peruutettu.
+
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004280 | Semglee | – | Diabetes mellitus |
+| EMEA/H/C/002835 | Abasaglar (aiemmin Abasria) | – | Diabetes mellitus |
+| EMEA/H/C/000284 | Lantus | – | Diabetes mellitus |
+| EMEA/H/C/000309 | Toujeo (aiemmin Optisulin) | – | Diabetes mellitus |
+| EMEA/H/C/004243 | Suliqua | – | Diabetes mellitus, tyypin 2 diabetes |
 
 ---
 
 ## Turvallisuusnäkökohdat
 
-Katso turvallisuustieto pakkauksessa olevan tietolehdeltä.
+Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut saatavilla tämän raportin aineistossa. Katso turvallisuustiedot valmisteyhteenvedosta.
 
-*(Huomio: TFDA/Fimea-pakkauksessa olevan tietoaineen varoitukset, vasta-aiheet ja lääkkeiden väliset yhteisvaikutustiedot on merkitty tietoaukoksi (DG001) tässä näyttöpaketissa, eikä niitä voitu hakea tälle arvioinille.)*
+**Lääkeyhteisvaikutukset:** Aineiston mukaan yhteisvaikutuksia on yhteensä 100. Tarkastelluista osa on merkitykseltään kohtalaisia, osa vähäisiä. Esimerkkejä:
+- **Kohtalaiset:** fenyyliefriini, asebutololi, asetatsoliamidi, formoteroli, pseudoefedriini, doksisykliini, adrenaliini, etinyyliestradioli, hydrokortisoni, albiglutidi, salbutamoli, etanoli, hydroklooritiatsidi, alogliptiini, metformiini, pioglitatsoni, estradioli, alpelisibi
+- **Vähäiset:** paikallisesti käytettävä hydrokortisoni, paikallisesti käytettävä alklometasoni
+
+Monet näistä vaikuttavat verensokeritasoon, joten verensokeria on seurattava tarkasti.
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Johtopäätös ja jatkotoimet
 
-**Päätös: Pidätä**
+**Päätös: Hold (odota)**
 
-**Perustelu:**
-Parhaiten sijoitetulla ennustetulla indikaatiolla (autoimmuuni ooforiitti) on L5-näyttötaso — ainoastaan mallin ennuste, ilman tukevia kliinisiä tutkimuksia tai kirjallisuutta, ja perustelut tunnistavat selvästi yhteyden epäsuoraksi samanesiintymisen artefaktiksi mekanistisen hoitosignaalin sijaan. Tämä ei täytä jatkokartoitukseen tarvittavaa kynnystä.
+**Perustelut:**
+- Ennustetta tukevaa kliinistä tai kirjallista näyttöä ei ole (taso L5). Korkea TxGNN-pistemäärä on pelkkä mallin ennuste, ja mekanistinen perusta puuttuu. Ennuste on todennäköisesti tietämysgraafin läheisyydestä johtuva artefakti.
+- Lisäksi kaikki Suomen myyntiluvat on peruutettu, eikä turvallisuustietoja ole saatavilla.
 
-**Jatkokartoitukseksi tarvitaan:**
-- Fimea/TFDA-pakkauksessa olevan tietoaineen tiedot (varoitukset, vasta-aiheet) — tällä hetkellä tietoesteenä (DG001)
-- Vahvistettu mekanismin toimintatieto (DG002)
-- Kohdennettu kirjallisuus-/tutkimushaku erityisesti insuliinista ja autoimmuunista ooforiitista tai APS-liittyvästä munasarjan toimintahäiriöstä mahdollisten epäsuorien tukevan todisteiden testaamista varten
-- Harkitse **haimaäärisen agenesiaa** (sijoitus 6 tässä ehdokaskandidaattijoukossa) vaihtoehtoisen suunnan arvioinnin uudelleen: sillä on vahvempi mekanistinen perustelu (synnynnäinen β-solujen puute vaatii ulkoista insuliinia) ja siihen liittyy 6 kirjallisuustietoa, vaikka yksikään ei tutkikaan tätä harvinaista tilaa suoraan — se on tällä hetkellä S1-vaiheessa "tutkimuskysymys"-suosituksella "pidätä"-suosituksen sijaan.
-
+**Eteenpäin siirtymiseksi tarvitaan:**
+- Valmisteyhteenvedon varoitus- ja vasta-aihetiedot (estävä tietoaukko)
+- Tiedot vaikutusmekanismista
+- Kirjallisuushaku ja prekliiniset tutkimukset autoimmuunisesta munasarjatulehduksesta
+- Selvitys siitä, mitkä ennusteista ovat uusia käyttöaiheita ja mitkä pelkkää diabeteksen oireenmukaista hoitoa
+- Markkinatilanteen selvitys (kaikki myyntiluvat peruutettu)
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

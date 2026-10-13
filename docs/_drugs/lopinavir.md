@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Lopinavir
-parent: Pelkkä mallin ennuste (L5)
-nav_order: 234
-evidence_level: L5
+parent: Kohtalainen näyttö (L3-L4)
+nav_order: 270
+evidence_level: L4
 indication_count: 3
 ---
 
 # Lopinavir
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,75 +29,87 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Lopinaviiri: HIV-1-infektiosta simiaaniimmuunidefisienssiviruksen infektioon
+# Lopinaviiri: HIV-infektiosta apinoiden immuunikatovirusinfektioon
 
 ## Yhden lauseen yhteenveto
 
-Lopinaviiri on HIV-1-proteinaasihemmaaja, joka on yleensä muodostettu ritonaviirin kanssa (LPV/RTV) antiretroviirusterapian osana — tämä vahvistetaan vain epäsuorasti tämän todisteistopaketin oheisliteratuuria, koska yksityiskohtaisia alkuperäisen indikaation ja vaikutusmekanismin tietoja ei ole tällä hetkellä saatavilla. TxGNN-malli ennustaa aktiviteetin **simiaaniimmuunidefisienssiviruksen (SIV) infektiota** vastaan, joka on HIV:hen liittyvä lentivirus, joka infektoi ei-ihmisprimaatteja, tuettu **0 kliinisellä tutkimuksella** ja **3 prekliinisellä julkaisulla**. Koska ennustettu indikaatio on eläintauti pikemminkin kuin ihmisen tilanteen, ja keskeinen turvallisuustieto puuttuu, tämä kandidaatti vaatii huomattavaa lisävalidointia ennen kliinistä harkintaa.
+Lopinaviiri on HIV-proteaasin estäjä, jota on alun perin käytetty HIV-infektion hoitoon. TxGNN-malli ennustaa sen voivan tehota **apinoiden immuunikatovirusinfektioon (SIV)**, mutta tukena on vain **3 prekliinistä eläintutkimusta** eikä yhtään kliinistä tutkimusta. SIV on HIV:n eläinmalli, joten ennuste on pääosin sama kuin alkuperäinen käyttöaihe eikä todellista uudelleenkäyttöä.
 
 ---
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Ei saatavilla todisteistossa (pääteltävissä kirjallisuuden kontekstista HIV-1-antiretroviirusterapiana — katso Data Gap DG002) |
-| Ennustettu uusi indikaatio | Simiaaniimmuunidefisienssiviruksen infektio |
-| TxGNN-ennuste-pistemäärä | 99.90% |
-| Näyttötaso | L4 (prekliiniset/mekanismitutkimukset vain, ei-ihmisprimaattimuodollit) |
-| Suomen markkina-asema | Ei markkinoilla (Ei markkinoilla) |
-| Lupakäytösten määrä | 0 |
-| Suositeltu päätös | Pidä |
+|------|------|
+| Alkuperäinen käyttöaihe | HIV-infektiot |
+| Ennustettu uusi käyttöaihe | Apinoiden immuunikatovirusinfektio (SIV) |
+| TxGNN-ennustepisteet | 99,90 % |
+| Näytön taso | L4 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 2 (molemmat peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Miksi tämä ennuste on järkevä?
+## Miksi ennuste on perusteltu?
 
-Lopinaviirin yksityiskohtaisia vaikutusmekanismitietoja ei ole tällä hetkellä saatavilla tässä todisteistossa (Data Gap DG002, vakavuus: Korkea). Haetun oheisliteratuuria perusteella lopinaviiri käytetään ritonaviirin kanssa yhdessä (LPV/RTV) antiretroviirus-regimenina "kuten ihmisille suositetaan" (PMID 12951220 mukaan), mikä on yhdenmukainen sen tunnetun roolin kanssa HIV-1-proteinaasihemmaajana.
+Lopinaviiri on HIV-1-proteaasin estäjä. Tarkempaa vaikutusmekanismitietoa ei ole tässä raportissa käytettävissä olevissa tiedoissa. SIV on HIV:n kanssa läheistä sukua oleva lentivirus, jonka proteaasi muistuttaa rakenteellisesti HIV-1-proteaasia. Siksi lääkkeen vaikutus on biologisesti uskottava.
 
-SIV on simiaanivertainen HIV:lle — molemmat ovat primaattien lentiviruksia, joilla on lähekkäin liittyvät virusproteïnaasirakenteen, mikä on mekanistinen perusta, jonka TxGNN todennäköisesti käytti yhdistämään lopinaviirin tähän indikaatioon. Kolme oheista julkaisua kuvaavat LPV/RTV-sisältäviä antiretroviirus-regimeneja, joita testattiin kokeellisesti SIV:llä tai SHIV:llä (kimeeriset SIV/HIV) infektoiduissa makakeissa proteinaasihemmaajien tehokkuuden arvioinnin translaatiomalleina — ei ehdotettuna ihmisen terapeiana luonnollisesti esiintyvän ihmisen taudin osalta.
+Käytettävissä oleva näyttö perustuu ei-ihmisapinoilla (makakeilla) tehtyihin SIV- ja SHIV-malleihin, ja se on epäsuoraa ihmiskäytön kannalta. SIV-infektio on HIV:n tutkimus- ja eläinlääketieteellinen malli, ei erillinen ihmisen käyttöaihe. Ennuste ei siis tuo uutta kliinistä hoitomahdollisuutta.
 
-**Tärkeä huomautus:** SIV-infektio on ei-ihmisprimaattien tauti, ei ihmisen tilanteen. Tämä ennuste tulisi tulkita vahvistukseksi lopinaviirin vakiintuneen antiretroviirus-/proteinaasihemmaaja-mekanismin osalta eläinhiv-malleissa, ei uutena ihmisen uudelleenosoitusmahdollisuutena. Sama varoitus koskee entisestään sijoitusta 2 (kissan immuunidefisienssiviruksen infektio, kissojen erityinen tauti) ja sijoitusta 3 (ihmisen neurokehityksellinen geneettinen häiriö, jolla ei ole oheista näyttöä tai selkeää mekanistista yhteyttä proteinaasihemmaukseeseen).
+Muut ennustetut käyttöaiheet ovat heikommin perusteltuja:
+- **Kissojen immuunikatooireyhtymä (FIV):** Pisteet ovat yhtä korkeat (99,90 %), mutta ne heijastavat todennäköisesti tietämysgraafin läheisyyttä HIV:hen, ei suoraa näyttöä. FIV-proteaasin substraatti- ja estäjäspesifisyys eroaa HIV-1:stä. Tauti on eläinlääketieteellinen, eikä tutkimuksia tai kirjallisuutta ole. Näytön taso on L5.
+- **Harvinainen neurokehityshäiriö (ataksinen kävely, puheen puuttuminen, aivokuoren valkoisen aineen väheneminen):** Pisteet ovat 99,90 %, mutta HIV-proteaasin estolla ei tunnistettu mekanistista yhteyttä tähän geneettiseen sairauteen. Tutkimuksia tai kirjallisuutta ei ole. Näytön taso on L5.
 
 ---
 
-## Kliinisen tutkimuksen näyttö
+## Kliiniset tutkimukset
 
-Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia
+Aiheeseen ei ole tällä hetkellä rekisteröity kliinisiä tutkimuksia.
 
 ---
 
 ## Kirjallisuusnäyttö
 
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
-|------|--------|--------|-------|---------|
-| [16973590](https://pubmed.ncbi.nlm.nih.gov/16973590/) | 2006 | Prekliininen (makakiihenkilömalli) | Journal of Virology | Tutki viruksen hajoamiskinetikaa SIVmac251-infektoiduissa kynomologus-makakeissa, jotka saivat 7 päivän mittaisen nelikertainen antiretroviirus-regimenin |
-| [17350308](https://pubmed.ncbi.nlm.nih.gov/17350308/) | 2007 | Prekliininen (makakiihenkilömalli) | Microbes and Infection | Rakensi kimeeriset SHIV:n, joka kantaa HIV-1-proteïnaasigeeninä, jotta proteinaasihemmaajien in vivo -testaus olisi mahdollista rhesus-makakeissa |
-| [12951220](https://pubmed.ncbi.nlm.nih.gov/12951220/) | 2003 | Prekliininen (makakiihenkilömalli) | Journal of Virological Methods | Arvioi suun kautta annettavaa HAART:ia (AZT + 3TC + Lopinaviiri/Ritonaviiri, ihmisille suositeltu annostelu) ja sen vaikutusta CD8-osajoukkoihin SHIV(89.6P)-infektoiduissa makakeissa |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [16973590](https://pubmed.ncbi.nlm.nih.gov/16973590/) | 2006 | Prekliininen eläintutkimus | Journal of Virology | SIV-tartunnan saaneet makakit saivat 7 päivän nelinkertaisen antiretroviraalihoidon, ja viruksen väheneminen oli nopeaa. |
+| [12951220](https://pubmed.ncbi.nlm.nih.gov/12951220/) | 2003 | Prekliininen eläintutkimus | Journal of Virological Methods | Suun kautta annetun HAART-hoidon (AZT, 3TC, lopinaviiri/ritonaviiri) vaikutus CD8-solujen osajoukkoon SHIV 89.6P -tartunnan saaneilla makakeilla (2 eläintä). |
+| [17350308](https://pubmed.ncbi.nlm.nih.gov/17350308/) | 2007 | Prekliininen eläintutkimus | Microbes and Infection | Uuden SHIV-pr-viruksen (HIV-1-proteaasigeeni) rakentaminen; hyödyllinen työkalu proteaasinestäjien tehon testaamiseen elävässä eläimessä. |
 
 ---
 
-## Turvallisuutta koskevia näkökohtia
+## Myyntiluvat Suomessa
 
-Katso pakkausliitteestä turvallisuustietoja.
-
-*(Huomio: TFDA-varoitus/kontraindikaation tiedot on merkitty estäväksi tietoaukoksi (DG001) — tämä on ratkaistava ennen kuin mitään turvallisuusperusteista päätöstä voidaan tehdä.)*
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004025 | Lopinavir/Ritonavir Viatris (aiemmin Ritonavir Mylan) | – | HIV-infektiot (peruutettu) |
+| EMEA/H/C/000368 | Kaletra | – | HIV-infektiot (peruutettu) |
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Turvallisuushuomiot
 
-**Päätös: Pidä**
+- **Lääkeyhteisvaikutukset:** Tietoja on yhteensä 65 yhteisvaikutuksesta. Vakavaksi (Major) luokiteltuja ovat muun muassa **dolasetroni** ja **papaveriini**. Kohtalaisia (Moderate) ovat muun muassa asarbosi, dapagliflotsiini, famotidiini, levofloksasiini, metformiini ja ondansetroni. Lisäksi luettelossa on useita ulostuslääkkeitä (esim. bisakodyyli, laktuloosi, magnesiumhydroksidi).
+- **Tietämysgraafiin perustuvat vasta-aiheet (eivät ole valmisteyhteenvedon tekstiä):** pitkä QT -oireyhtymä ja kääntyvien kärkien takykardia, haimatulehdus, maksasairaus ja maksakirroosi, hyperglykemia ja diabetes (mukaan lukien ketoasidoosi), krooninen hepatiitti B ja C, hypertriglyseridemia, hyperbilirubinemia ja Gilbertin oireyhtymä, sydämen johtumishäiriöt ja eteis-kammiokatkos, sydänlihassairaudet, sepelvaltimotauti, kaliumin puutos, sappirakon sairaudet sekä hemofilia.
+- Ritonaviirilla tehostettu valmiste estää CYP3A4-entsyymiä, mikä lisää yhteisvaikutusten riskiä erityisesti lapsipotilailla.
+
+Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut saatavilla, joten niihin on tutustuttava erikseen.
+
+---
+
+## Johtopäätös ja seuraavat askeleet
+
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Ennustettu indikaatio (SIV-infektio) on ei-ihmisprimaattien tauti pikemminkin kuin ihmisen tilanteen, joten nykyinen näyttö — vaikka mekanistisesti uskottava lopinaviirin tunnetun proteinaasihemmaaja-luokan perusteella — ei käänny toimintakelpoiseksi ihmisen uudelleenosoitusmahdollisuudeksi. Yhdistettynä estävän turvallisuustiedon puuttumiseen ja lääkkeen markkinoimattomaan asemaan Suomessa, ei ole riittävää perustetta edetä.
+- SIV on HIV:n eläinmalli, joten ennuste on pääosin päällekkäinen alkuperäisen käyttöaiheen kanssa eikä tuo uutta ihmisen hoitomahdollisuutta. Näyttö on vain prekliinistä (L4), kliinisiä tutkimuksia ei ole, ja lääkkeen myyntiluvat Suomessa on peruutettu.
 
-**Edetäkseen seuraavaa tarvitaan:**
-- TFDA/sääntelyalan pakkausliitteen varoitukset ja kontraindikaatiot (Data Gap DG001, estävä)
-- Vahvistettu lopinaviirin alkuperäinen indikaatio ja vaikutusmekanismin tiedot (Data Gap DG002)
-- Uudelleenarviointi siitä, onko jollakin kolmesta ennustetusta indikaatiosta aito ihmisen kannalta relevantti vastine (SIV → HIV:hen liittyvät ihmisen indikaatiot, jos mitään; FIV ja neurokehityksellinen häiriö eivät tällä hetkellä osoita mekanistista tai näyttöperusteista tukea)
-- Jos aiotaan vaalia HIV:hen liittyvää ihmisen indikaatiota, omistettu kliinisen tutkimuksen ja kirjallisuuden haku käyttämällä ihmisille relevantteja sairaustermejä pikemminkin kuin tällä hetkellä ennustettuja eläinmallin termejä
-
+**Jatkoa varten tarvitaan:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean sivuilta (estää turvallisuusseulonnan jatkamisen).
+- Yksityiskohtainen vaikutusmekanismitieto (esim. DrugBankista).
+- Arvio siitä, onko ennusteella tutkimuskäyttöä (SIV/SHIV-mallit) vai onko se vain HIV-käyttöaiheen toisto.
+- Neurokehityshäiriön osalta kohdetason validointi ennen mitään jatkotoimia.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

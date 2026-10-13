@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Vandetanib
-parent: Vahva näyttö (L1-L2)
-nav_order: 397
-evidence_level: L2
+parent: Pelkkä mallin ennuste (L5)
+nav_order: 463
+evidence_level: L5
 indication_count: 10
 ---
 
 # Vandetanib
 {: .fs-9 }
 
-Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,107 +29,89 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Vandetanib: märekilpirauhasisestä syövästä munuaissolakarkimoon
+# Vandetanibi: Kilpirauhasen kasvaimesta munuaissolukarsinoomaan
 
-## Yhdessä lauseessa yhteenveto
+## Yhteenveto
 
-Vandetanib (DrugBank DB05294) on suullinen usean tyrosiinikinaasin estäjä, jonka alkuperäisen hyväksynnän perusteella sisältyvät todisteet viittaavat alkuperäiseen käyttöön **märekilpirauhasisyövässä (Medullary Thyroid Cancer, MTC)**; TxGNN-malli ennustaa, että se voisi olla tehokas **munuaissolakarkimoon (Renal Cell Carcinoma)**, ennustepisteiden ollessa **99,92%**, ja tällä hetkellä on **4 asiaan liittyvää kliinistä tutkimusta** ja **6 julkaisua** tukevia näyttöjä. Useimmat tutkimukset on kuitenkin pysäytetty ennenaikaisesti ja näytteiden koko on pieni, mikä viittaa kohtalaisesti heikon todisteen vahvuuteen.
+Vandetanibi on monikinaasi-inhibiittori, jota on alun perin käytetty kilpirauhasen kasvainten (medullaarinen kilpirauhassyöpä) hoidossa. TxGNN-malli ennustaa sen voivan tehota **munuaissolukarsinoomaan**. Aihetta on tutkittu **4 kliinisessä tutkimuksessa** (kaikki vaiheen 1/2 tai 2 tutkimuksia, joista kaksi keskeytettiin hyvin pienillä potilasmäärillä) ja tähän aiheeseen liittyy **5 julkaisua**, jotka ovat pääosin katsauksia ja luokkatason turvallisuusaineistoa.
 
----
-
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|--------|
-| Alkuperäinen käyttöindikaatio | Märekilpirauhasisyöpä (perustettu todistusaineiston sisältämiin julkaisuihin; Taiwanin lupatieto puuttuu) |
-| Ennustettu uusi käyttöindikaatio | Munuaissolakarkino (Renal Cell Carcinoma) |
-| TxGNN-ennustepiste | 99,92% (score = 0.99917870759964, rank 1186) |
-| Todistenastetta | L2 |
-| Taiwanin markkinoille-asema | Ei markkinoilla |
-| Lupien määrä | 0 |
-| Suositeltu päätös | Pidä |
+|------|------|
+| Alkuperäinen käyttöaihe | Kilpirauhasen kasvaimet |
+| Ennustettu uusi käyttöaihe | Munuaissolukarsinooma |
+| TxGNN-ennustepisteet | 99,92 % |
+| Näytön taso | L2 (varovainen arvio: valmistuneita vaiheen 2 tutkimuksia on, mutta tuloksia ei ole raportoitu, eikä vaiheen 3 RCT-tutkimuksia ole) |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
----
+## Miksi ennuste on perusteltu?
 
-## Miksi tämä ennustus on kohtuullinen?
+Vandetanibi estää VEGFR2-, EGFR- ja RET-kinaaseja. Yksityiskohtaista vaikutusmekanismitietoa ei ole tässä raportissa käytettävissä, mutta tunnetun kinaasiprofiilin perusteella mekanismi on uskottava munuaissolukarsinoomassa. VEGF-välitteinen angiogeneesi on kirkassoluisen munuaissyövän keskeinen ajuri, erityisesti VHL-puutteisissa kasvaimissa, joissa HIF/VEGF-signalointi on voimistunut.
 
-Todistusaineistossa `original_moa`-kenttä on merkitty tietoaukoksi, ja tällä hetkellä ei ole virallisia mekanismin tietoja. Todistusaineiston mukana olevat julkaisut tarjoavat kuitenkin mekanismin vihjeitä: useat julkaisut kuvaavat vandetanibbia suullisena usean tyrosiinikinaasin estäjänä, joka estää VEGFR2/3-, EGFR- ja RET-kinaasin aktiivisuutta (PMID [24451769](https://pubmed.ncbi.nlm.nih.gov/24451769/), [15886878](https://pubmed.ncbi.nlm.nih.gov/15886878/), [30860683](https://pubmed.ncbi.nlm.nih.gov/30860683/)). Sen tehokkuus märekilpirauhasisyövässä perustuu RET:n konstitutiivisen aktivaation estämiseen.
+Alkuperäinen käyttöaihe (kilpirauhassyöpä) ja munuaissolukarsinooma jakavat kinaasivälitteisen kasvusignaloinnin ja angiogeneesin. Samankaltaisia VEGFR-estäjiä (esim. pratsopanibi, kabotsantinibi) käytetään jo munuaissyövässä, mikä tukee mekanismin uskottavuutta. Samalla se asettaa vaatimustason korkealle: uuden lääkkeen pitäisi tarjota selvä lisähyöty nykyisiin hoitoihin nähden.
 
-Munuaissolakarkino (erityisesti kirkassoluinen RCC ja VHL-tautiin liittyvät munuaistuumorit) johtuu pääasiassa VHL-HIF-VEGF-reitin vioittumisesta, mikä aiheuttaa kasvainten angiogeneesin olevan erittäin riippuvainen VEGFR-signaloinnista. Tämä on suoraan yhteydessä vandetanibbin VEGFR2/3-estävään vaikutukseen, ja se on myös tällä hetkellä hyväksyttyjen ccRCC-kohdekäyttöjen (sunitinib, pazopanib, aksitinib) yhteinen toimintamekanismi (class effect).
+## Kliininen tutkimusnäyttö
 
-Siksi vandetanibbin käyttö yleisessä hajanaisessa ccRCC:ssä tai VHL-liittyneissä munuaistuumoreissa on mekanistisesti kohtuullista; kuitenkin ykkössijoitus "renal cell carcinoma (disease)" on laajempi tautiluokitus, jonka alla samassa ennuste-sarjassa ovat myös Xp11.2/TFE3-fuusio-tyyppi, neuroblastoomaan liittyvät tuumorit, luokittamattomat tuumorit ja muut harvinaiset alatyyppit (rank 2–4, 7, 9, 10). Näiden alatyyppien ajavat mekanismit eivät ole VEGFR/RET-reitit, ja todistusaineisto itse merkitsee näiden mekanismien olevan "päättelyperäisiä", todistenastetta ollessa vain L5. Näin ollen ennusteen mekanismin kohtuullisuus keskittyy pääasiassa ccRCC/VHL-liittyneisiin väestöihin eikä kata kaikkia RCC-alatyypejä.
-
----
-
-## Kliinisten tutkimusten todisteet
-
-| Tutkimusnumero | Vaihe | Tila | Osallistujamäärä | Tärkeimmät havainnot |
+| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT00566995](https://clinicaltrials.gov/study/NCT00566995) | Vaihe 2 | Valmistunut | 37 | Vandetanibbin arviointi VHL-tautiin liittyneissä munuaistuumoreissa, ainoa tällä hetkellä valmistunut suora näyttö, todistusaineiston arvio Grade A |
-| [NCT02495103](https://clinicaltrials.gov/study/NCT02495103) | Vaihe 1/2 | Pysäytetty ennenaikaisesti | 7 | Vandetanib + metformiini HLRCC/SDH-liittyneissä munuaiskarsinoomissa tai hajanaisissa papillaalisissa RCC-tapauksissa; pysäytetty ennenaikaisesti, todistusaineiston arvio Grade B |
-| [NCT01372813](https://clinicaltrials.gov/study/NCT01372813) | Vaihe 2 | Pysäytetty ennenaikaisesti | 3 | Vandetanib yksinään edistyneessä kirkassoluisessa munuaissyövässä; vain 3 potilasta osallistui ennen pysäytystä, tilastollinen teho erittäin heikko, todistusaineiston arvio Grade C |
-| [NCT01191892](https://clinicaltrials.gov/study/NCT01191892) | Vaihe 2 | Valmistunut | 82 | Satunnaistettu tutkimus arvioitaessa carboplatin+gemcitabine ± vandetanib-yhdistelmää cisplatinille soveltumattomissa edistyneissä virtsateiden epiteelikasvaimissa; **todistusaineisto on vahvistanut, että tämän tutkimuksen väestö oli virtsateiden epiteelikarkino eikä RCC, mikä on tiedon virheellinen assosiaatio**, eikä sitä pitäisi käyttää suorana RCC:n todistuksena, todistusaineiston arvio Grade C |
+| [NCT00566995](https://clinicaltrials.gov/study/NCT00566995) | Vaihe 2 | Valmistunut | 37 | Vandetanibi von Hippel-Lindaun tautia sairastavilla potilailla, joilla on munuaiskasvaimia. Suorin biologinen vastaavuus; tuloksia ei ole raportoitu. |
+| [NCT01372813](https://clinicaltrials.gov/study/NCT01372813) | Vaihe 2 | Keskeytetty | 3 | Edennyt kirkassoluinen munuaiskarsinooma. Keskeytetty vain 3 potilaan jälkeen, ei käyttökelpoista tehonäyttöä. |
+| [NCT02495103](https://clinicaltrials.gov/study/NCT02495103) | Vaihe 1/2 | Keskeytetty | 7 | Vandetanibi + metformiini HLRCC/SDH-liitännäisessä tai papillaarisessa munuaissyövässä. Mekanistisesti kiinnostava, mutta keskeytetty. |
+| [NCT01191892](https://clinicaltrials.gov/study/NCT01191892) | Vaihe 2 | Valmistunut | 82 | Satunnaistettu: karboplatiini + gemsitabiini ± vandetanibi edenneessä urotelisyövässä. Vain välillisesti relevantti munuaissyövän kannalta; tuloksia ei raportoitu. |
 
----
+## Kirjallisuusnäyttö
 
-## Julkaisutodisteet
-
-| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät havainnot |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [36302175](https://pubmed.ncbi.nlm.nih.gov/36302175/) | 2023 | Katsaus | Clinical Cancer Research | SDH-puuttuvaiset tuumorit (sisältäen HLRCC-liittyvät RCC-tapaukset) osoittavat vastustusta solunsalpaamisen kemoterapialle ja useimmille kohdekäyttöjen hoitoille |
-| [40779213](https://pubmed.ncbi.nlm.nih.gov/40779213/) | 2025 | Katsaus | Clinical & Experimental Metastasis | Fumaaraasin hydrataasin puuttuva RCC (FHdRCC) on WHO 2022 uusi luokitus, jolle ei ole vakiintunut hoitosuunnitelma, ja useita kohdekäyttöjen yhdistelmähoidon vaihe 2 -tutkimuksia on käynnissä |
-| [28477875](https://pubmed.ncbi.nlm.nih.gov/28477875/) | 2017 | Katsaus | Bulletin du Cancer | Selitys samankaltaisten monien kinaasin estäjien (cabozantinib) VEGFR2/c-MET/RET-mekanismeista ja niiden assosiaatioista munuaiskasvainten ja kilpirauhasisyövän tehokkuuksiin |
-| [31043488](https://pubmed.ncbi.nlm.nih.gov/31043488/) | 2019 | Katsaus/Prekliininen | Molecular Cancer Research | TFE3-RCC:n hiirimallit, tunnistettiin uudet hoitokohdat ja diagnostiset biomarkerit, ei-VEGFR-ajamat alatyypat |
-| [26677336](https://pubmed.ncbi.nlm.nih.gov/26677336/) | 2015 | Luokittamaton | OncoTargets and Therapy | Antiangiogeneesin lääkkeiden (sisältäen vandetanibbin) soveltamisen katsaus useisiin kiinteisiin kasvaimiin |
-| [24451769](https://pubmed.ncbi.nlm.nih.gov/24451769/) | 2012 | Luokittamaton | ASCO Educational Book | Vandetanibbin suullinen RET-kinaasin estäjä, FDA-hyväksytty metastaattisen märekilpirauhasisyövän hoitoon |
+| [40779213](https://pubmed.ncbi.nlm.nih.gov/40779213/) | 2025 | Katsaus | Clin Exp Metastasis | Fumaraattihydrataasipuutteinen munuaissyöpä: ei vakiintunutta hoitoa, useita vaiheen 2 tutkimuksia käynnissä kohdennetuilla yhdistelmillä. |
+| [42107510](https://pubmed.ncbi.nlm.nih.gov/42107510/) | 2026 | Katsaus | Pharmacol Res | RET-kinaasin estäjät RET-ajurisessa kilpirauhas- ja keuhkosyövässä. |
+| [26677336](https://pubmed.ncbi.nlm.nih.gov/26677336/) | 2015 | Katsaus | OncoTargets Ther | Angiogeneesin estäjät kiinteissä kasvaimissa, mukaan lukien vandetanibi. |
+| [24451769](https://pubmed.ncbi.nlm.nih.gov/24451769/) | 2012 | Katsaus | ASCO Educ Book | Edenneen kilpirauhassyövän systeeminen hoito; vandetanibi on hyväksytty medullaariseen kilpirauhassyöpään. |
+| [31043488](https://pubmed.ncbi.nlm.nih.gov/31043488/) | 2019 | Prekliininen (hiirimalli) | Mol Cancer Res | TFE3-translokaatiomunuaissyövän hiirimalli, uusia hoitokohteita. |
 
----
+Kirjallisuus ei sisällä satunnaistettuja tutkimuksia vandetanibin tehosta munuaissyövässä.
 
-## Taiwanin markkinoille-asema
+## Markkinatiedot Suomessa
 
-Taiwanin lääkepolitiikan tietojen mukaan tämä lääke **ei ole tällä hetkellä saanut lääkelupia** (`total_licenses = 0`), eikä lupien yksityiskohtia voida näyttää.
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/002315 | Caprelsa (Sanofi B.V.) | – | Kilpirauhasen kasvaimet (peruutettu) |
 
----
-
-## Sytotoksisuustiedot (soveltuu vain kasvaintenvastaislääkkeisiin)
-
-Vandetanibbin alkuperäinen käyttöindikaatio (märekilpirauhasisyöpä) ja ennustettu uusi käyttöindikaatio (munuaissolakarkino) ovat molemmat pahanlaatuisia kasvaimia, ja ne kuuluvat tyrosiinikinaasin estäjäluokkaan (TKI), joten tämä osio on merkitty.
+## Sytotoksisuus
 
 | Kohta | Sisältö |
-|------|--------|
-| Sytotoksisuusluokitus | Kohdehoidot (Targeted therapy) — usean tyrosiinikinaasin estäjät (VEGFR2/3, EGFR, RET) |
-| Luuytimen tukahduttamisriskit | Todistusaineistossa ei ole suoraa luuytimen tukahduttamisen tietoja; samankaltaisten VEGFR-TKI-lääkkeiden luuytimen tukahduttaminen on yleensä pienempi kuin perinteisen sytotoksisen kemoterapian (katso PMID [22651902](https://pubmed.ncbi.nlm.nih.gov/22651902/) VEGFR-TKI kuolemaan johtavien haittatapahtumat sisältävä meta-analyysi) |
-| Muut tunnetut myrkyllisyyskysymykset | Kirjallisuus raportoi VEGFR-TKI-lääkkeiden hepatotoksisuudesta (PMID [23981115](https://pubmed.ncbi.nlm.nih.gov/23981115/)), proteinuriasta (PMID [32105149](https://pubmed.ncbi.nlm.nih.gov/32105149/)); lisäksi kirjallisuudessa on otsikko "Vandetanib: too dangerous in medullary thyroid cancer" (PMID [23185843](https://pubmed.ncbi.nlm.nih.gov/23185843/)), joka antaa suoraa varoitusta turvallisuushuolista, joiden ansaitsee huomion |
-| Emetisyyden luokitus | Katso lääkkeen pakkaukselle kirjoitettu tieto saadaksesi täydellisen tiedon |
-| Valvontakohteita | Maksatoiminnan arviointi, munuaisten toiminta/virtsassa olevan proteiinin määrä, täydellinen verisolujen lasku (CBC) |
-| Käsittely- ja suojausvaatimukset | Noudata sytotoksisten lääkkeiden käsittelyä koskevia säännöksiä |
+|------|------|
+| Sytotoksisuusluokitus | Kohdennettu hoito (monikinaasi-inhibiittori) |
+| Luuydinsuppression riski | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Oksentelua aiheuttavuus | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Seurantakohteet | Katso valmisteyhteenveto; tässä aineistossa luokkatasolla raportoitu mm. maksatoksisuus, proteinuria ja QT-ajan pidentyminen, joten maksa-, munuais- ja sydänseuranta (EKG, elektrolyytit) on perusteltua |
+| Käsittelysuojaus | Noudatettava sytostaattien käsittelyohjeita valmisteyhteenvedon mukaan |
 
----
+## Turvallisuushuomiot
 
-## Turvallisuushuolella
+- **Vasta-aiheet (tietämyskaaviopohjaiset, eivät valmisteyhteenvedon tekstiä):** kohonnut verenpaine, pitkä QT -oireyhtymä (myös synnynnäinen) ja torsades de pointes, kilpirauhasen vajaatoiminta, kaliumin puute, hyperkalsemia, fosforiaineenvaihdunnan häiriöt, munuaisten vajaatoiminta, interstitiaalinen keuhkosairaus, sydämen vajaatoiminta, aivoiskemia, ohimenevä aivoverenkiertohäiriö sekä posteriorinen leukoenkefalopatia.
+- **Lääkeyhteisvaikutukset:** aineistossa on yhteensä 100 yhteisvaikutusta. Merkittäviä (Major) ovat mm. klaritromysiini, levofloksasiini, dolasetroni, palonosetroni, pikosulfaatti, natriumsulfaatti ja polyetyleeniglykoli (elektrolyyttien kanssa). Keskivaikeita (Moderate) ovat mm. famotidiini, metformiini, loperamidi, deksametasoni, bisakodyyli ja laktitoli. Lievät: ranitidiini, omepratsoli, lansopratsoli, rabepratsoli, deksalansopratsoli, metronidatsoli ja naloksegoli. Monet merkittävistä yhteisvaikutuksista liittyvät todennäköisesti QT-ajan pidentymiseen tai elektrolyyttihäiriöihin.
+- Luokkatason meta-analyysit viittaavat VEGFR-estäjien maksatoksisuuteen, proteinuriaan ja hoitoon liittyvään kuolleisuuteen. Pitkäaikaisseurannassa medullaarisessa kilpirauhassyövässä turvallisuus on rajoittava tekijä.
 
-Todistusaineiston keskeisimpiä varoituksia (`key_warnings`), kieltojen (`contraindications`) ja lääkkeiden välisten vuorovaikutusten (`drug_interactions`) kentät ovat kaikki tietoaukkoja.
+Valmisteyhteenvedon varoitukset ja vasta-aiheet eivät ole käytettävissä tässä aineistossa, joten turvallisuusarvio on puutteellinen.
 
-> Katso lääkkeen pakkaukselle kirjoitettu tieto saadaksesi täydellisen turvallisuustiedon.
+## Johtopäätös ja seuraavat askeleet
 
-Lisätieto: Todistusaineistoon sisältyneissä julkaisuissa on yksi, jonka otsikko on "Vandetanib: too dangerous in medullary thyroid cancer" (PMID [23185843](https://pubmed.ncbi.nlm.nih.gov/23185843/)), mikä osoittaa, että olemassa olevassa kirjallisuudessa on jo huolia tämän lääkkeen turvallisuudesta. On suositeltavaa, että järjestelmällisessä turvallisuuden arvioinnissa nämä asiat tarkistetaan ensisijaisesti.
-
----
-
-## Johtopäätökset ja jatkotoimenpiteet
-
-**Päätös: Pidä**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ainoa valmistunut ja suoraan asiaan liittyvä vaihe 2 -tutkimus (NCT00566995, n=37) kattaa vain VHL-tautiin liittyvät munuaistuumorit, ei yleisiä hajanaisesti esiintyviä munuaissolakarkimoja; muut tutkimukset pysäytettiin ennenaikaisesti ja näytteiden koko oli äärimmäisen pieni (n=3, n=7), tai todistusaineisto on jo merkinnyt nämä virheellisiksi tietoyhdistyksiksi (NCT01191892 oli todella virtsateiden epiteelikarkino).
-- Fimean pakkaukselle kirjoitetun tiedon varoitukset/kiellot-kohta on esto-tason aukko (DG001), säännösten mukaisesti ei voida jatkaa S1-turvallisuuseulontaan; toimintamekanismin tiedot ovat myös korkea-tason aukko (DG002), mikä vaikuttaa mekanismin assosiaation määritelmän varmuusasteeseen.
+- Mekanismi on uskottava, mutta kliininen näyttö on heikkoa: kaksi neljästä tutkimuksesta keskeytettiin 3 ja 7 potilaan jälkeen, eikä valmistuneiden tutkimusten tuloksia ole raportoitu. Lisäksi nykyiset VEGFR-estäjät asettavat korkean vertailutason, ja vandetanibin turvallisuusprofiili (mm. QT-aika) on haastava. Myyntiluvat Suomessa on peruutettu.
 
-**Edellytettävät lisätiedot jatkaakseen:**
-- Hanki TFDA:n (tai alkuperäisen valmistajan) pakkaukselle kirjoitetun tiedon täydelliset varoitukset, kiellot ja lääkkeiden väliset vuorovaikutukset (DDI), poista DG001 esto
-- Hanki viralliset DrugBank/pakkaukselle kirjoitetun tiedon lähteellä olevat toimintamekanismin tiedot, poista DG002
-- Selvitä, voiko NCT00566995:n VHL-alaväestön tulokset ulottaa yleisen hajanaisesti esiintyvän ccRCC-väestön suhteen
-- Poista NCT01191892 virtsateiden epiteelikarsinoman tiedon virheellisen yhdistyksen virhe ja arvioi uudelleen, ovatko suorat todisteet edelleen L2-tasolla
-
+**Eteenpäin siirtyminen edellyttää:**
+- Valmistuneiden tutkimusten (erityisesti NCT00566995) tulosten hakemista ja arviointia
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimeasta (estää turvallisuusseulonnan)
+- Yksityiskohtaisen vaikutusmekanismitiedon täydentämistä (esim. DrugBank)
+- Vertailua nykyisiin munuaissyövän hoitoihin hyöty–riski-näkökulmasta
+- Suunnitelmaa QT-seurannasta ja yhteisvaikutusten hallinnasta
+- Myyntilupatilanteen selvittämistä, koska valmiste ei ole Suomessa markkinoilla
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

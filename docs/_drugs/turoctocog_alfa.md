@@ -2,7 +2,7 @@
 layout: default
 title: Turoctocog Alfa
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 392
+nav_order: 457
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,61 +29,81 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Turoctocog alfa: Hemofiliasta A primaariseen verihiutaleiden vapautumishäiriöön
+# Turoktokogialfa: Hemofilia A:sta ensisijaiseen verihiutaleiden vapautumishäiriöön
 
 ## Yhden lauseen yhteenveto
 
-Turoctocog alfa on rekombinantti Factor VIII -valmiste, jota käytetään verenvuotojen hoitoon ja ehkäisyyn hemofiliassa A. TxGNN-malli ennustaa, että se saattaa olla tehokas **primaariseen verihiutaleiden vapautumishäiriöön**, mutta tällä kandidaatilla ei ole tällä hetkellä **tukevia kliinisiä tutkimuksia eikä tukevia kirjallisuuslähteitä**, ja mallin oman perustelun mukaan mekanistinen yhteys on heikko.
+Turoktokogialfa on rekombinantti, B-domeenista typistetty ihmisen tekijä VIII, jota on käytetty hemofilia A:n hoitoon. TxGNN-malli ennustaa sen voivan tehota **ensisijaiseen verihiutaleiden vapautumishäiriöön**, mutta ennusteen tueksi ei ole **yhtään kliinistä tutkimusta eikä julkaisua**. Ennuste perustuu pelkästään mallin laskemaan tietämysgraafiin.
 
-## Pika-yhteenveto
+---
 
-| Kohde | Sisältö |
-|-------|---------|
-| Alkuperäinen indikaatio | Hemofilia A (Factor VIII -korvaus) — ei voida varmentaa paikallisesta hyväksymistekstistä, koska valmistetta ei tällä hetkellä markkinoida täällä |
-| Ennustettu uusi indikaatio | Primaarinen verihiutaleiden vapautumishäiriö |
-| TxGNN-ennustepisteet | 99.99% |
-| Näytön taso | L5 (vain mallin ennuste, ei tukevia tutkimuksia tai kirjallisuutta) |
-| Suomen markkinatilanne | Ei markkinoinnissa (Ei markkinoinnissa) |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Pidätä |
+## Pikakatsaus
 
-## Miksi tämä ennuste on perusteltu?
+| Kohta | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | Hemofilia A |
+| Ennustettu uusi käyttöaihe | Ensisijainen verihiutaleiden vapautumishäiriö (primary release disorder of platelets) |
+| TxGNN-ennustepistemäärä | 99,99 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 |
+| Suositeltu päätös | Hold (odotetaan) |
 
-Yksityiskohtaiset vaikutusmekanismin tiedot eivät ole saatavilla tässä näyttöpaketissa (`original_moa: [Data Gap]`). Tunnetun farmakologian perusteella turoctocog alfa on rekombinantti Factor VIII (FVIII) -konsentraatti; sen vahvistettu tehtävä on korvata hemofiliassa A puutteellista FVIII:n hyytymisaktiviteettia.
+---
 
-Primaarinen verihiutaleiden vapautumishäiriö on kuitenkin verihiutaleiden granulaarin erityshäiriö (esim. δ-varastopoolin sairaus) eikä hyytymistekijän puute. Verenvuotoriski tässä tilassa johtuu siitä, että verihiutaleista ei vapaudu niiden granulaarin sisältöä, ei puutteellisesta FVIII:sta. Näyttöpaketin oman uudelleenkäyttöperustelun mukaan tämä yhteys on nimenomaisesti heikko: FVIII-täydennys ei voi korjata verihiutaleiden granulaarin vapautumishäiriötä.
+## Miksi ennuste voisi olla perusteltu?
 
-Lyhyesti sanottuna TxGNN-pistemäärä on korkea, mutta taustalla oleva biologia ei selvästi tue FVIII-korvauksen ekstrapolointia tähän verihiutaleiden häiriöön. Tämä on tapaus, jossa vahvaa mallipistettä ei seuraa uskottava mekanistinen kertomus, eikä kliinisiä tai kirjallisuusperusteisia todisteita ole tällä hetkellä olemassa ennusteen riippumattomaksi vahvistamiseksi.
+Tämän lääkkeen vaikutusmekanismia koskevia yksityiskohtaisia tietoja ei ole tällä hetkellä saatavilla. Tunnetun tiedon mukaan turoktokogialfa korvaa hemofilia A:ssa puuttuvan tekijä VIII:n, ja sen teho hemofilia A:ssa on osoitettu. Mekanistisesti se ei kuitenkaan selvästi sovellu ennustettuun käyttöaiheeseen.
 
-## Kliinisen tutkimuksen näyttö
+Ensisijainen verihiutaleiden vapautumishäiriö on verihiutaleiden toimintahäiriö, jossa tekijä VIII:n pitoisuus on normaali. Tekijä VIII:n korvaushoidolle ei siksi ole selvää mekanistista perustetta. Korkea pistemäärä johtuu todennäköisesti siitä, että sairaudet jakavat tietämysgraafissa veren hyytymiseen ja vuotoihin liittyviä naapurisolmuja. Se ei ole kliininen löydös.
 
-Tällä hetkellä ei ole rekisteröityjä liittyviä kliinisiä tutkimuksia.
+Muut ennustetut käyttöaiheet ovat samansuuntaisia. Useimmat niistä ovat verihiutaleiden tai von Willebrand -tekijän häiriöitä (esim. pseudo-von Willebrandin tauti, Glanzmannin trombasteenia, Scottin oireyhtymä), joissa tekijä VIII ei ole puutteellinen. Uskottavin ehdokas on **hankinnainen hyytymistekijän puutos**, jossa tekijä VIII:n korvaus voisi periaatteessa korjata hankinnaisen tekijä VIII:n puutteen. Hankinnaisessa hemofilia A:ssa inhibiittoriautovasta-aineet kuitenkin neutraloivat annetun tekijä VIII:n, ja luokka on hyvin laaja, joten käyttöaihe pitäisi rajata tarkemmin.
 
-## Kirjallisuuden näyttö
+---
 
-Tällä hetkellä ei ole saatavilla liittyviä kirjallisuuslähteitä.
+## Kliininen tutkimusnäyttö
+
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
+
+---
+
+## Kirjallisuusnäyttö
+
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
+
+---
 
 ## Suomen markkinatiedot
 
-Turoctocog alfalla ei ole tällä hetkellä **markkinointilupia** Suomessa (`market_status: Not marketed`, `total_licenses: 0`); mitään luparekistereitä ei ole saatavilla luetteloimista varten.
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/002719 | NovoEight | – | Hemofilia A |
+
+Myyntilupa (valmistaja Novo Nordisk A/S) on tilassa peruutettu, eikä voimassa olevia myyntilupia ole.
+
+---
 
 ## Turvallisuusnäkökohdat
 
-Katso turvallisuustiedot pakkauksen sisällä olevasta tiedotteesta. (Tärkeät varoitukset, vasta-aiheet ja lääkkeen vuorovaikutustiedot ovat kaikki tällä hetkellä saatavilla — DDI-kysely ei palauttanut tuloksia.)
+Turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
+
+Yksi ennustetuista käyttöaiheista, tromboottinen trombosytopeeninen purppura (TTP), aiheuttaa erityisen turvallisuushuolen. TTP:ssä ADAMTS13:n puutos johtaa erittäin suuriin VWF-multimeereihin ja mikroverisuonten tukoksiin. Prokoagulantti tekijä VIII voisi teoreettisesti pahentaa tukostaipumusta. Samoin harvinaisessa ennusteessa esiintyvässä perinnöllisessä trombosytoosissa, johon liittyy raajojen poikkeavuus, hyytymistä edistävä lääke voisi lisätä tukosriskiä.
+
+---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Pidätä**
+**Päätös: Hold (odotetaan)**
 
 **Perustelut:**
-Ennustettu indikaatio on alimmalla näyttötasolla (L5) — ei ole kliinisiä tutkimuksia, ei kirjallisuutta, ja mekanistisen perustelun itse arvioidaan olevan heikko (verihiutaleiden granulaarin vapautumishäiriö verrattuna hyytymistekijän korvaamismekanismiin). Useat alemman sijoituksen omaavat kandidaatit tässä samassa näyttöpaketissa (esim. trombotinen trombosytopenia) sisältävät jopa uskottavan turvallisuushuolen, koska FVIII-täydennys on pro-hyytyminen ja saattaisi teoreettisesti pahentaa pro-trombottista tilaa — mikä vahvistaa, että näihin TxGNN-pisteisiin ei pidä ryhtyä toimiin ilman mekanistista ja kliinistä tarkastelua.
+- Ennuste perustuu vain tietämysgraafiin (L5), eikä sen tueksi ole kliinisiä tutkimuksia tai julkaisuja. Useimmille ennustetuille käyttöaiheille ei ole mekanistista perustetta, ja osassa on tukosriski. Lisäksi Suomen myyntilupa on peruutettu.
 
-**Jatkaakseen seuraavaa tarvitaan:**
-- Vahvistettu vaikutusmekanismin (MOA) dokumentaatio turoctocog alfalle (DG002, High severity)
-- Paikallinen liitepaperi / sääntelyvaroitukset ja vasta-aiheet (DG001, Blocking severity — vaaditaan ennen mitään S1-turvallisuusseulontaa)
-- Hematologian/hyytymisen asiantuntijan katsaus siitä, onko FVIII-korvauksella mitään uskottavaa roolia verihiutaleiden granulaarin vapautumishäiriöissä
-- Jatkuva kirjallisuuden/tutkimuksen valvonta, koska mikään ei tällä hetkellä ole olemassa yhdellekään 10:stä ennustetusta indikaatiosta tässä paketissa
-
+**Eteenpäin siirtyminen edellyttää:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista ja jäsentämistä
+- Vaikutusmekanismitietojen täydentämistä (esim. DrugBankista)
+- Hankinnaisen hyytymistekijän puutoksen rajaamista täsmällisemmäksi käyttöaiheeksi (esim. hankinnainen tekijä VIII:n puutos, inhibiittorien huomioiminen)
+- Systemaattista kirjallisuushakua ja prekliinistä tai mekanistista selvitystä ennen jatkoa
+- Markkinatilanteen ja valmisteen saatavuuden selvittämistä Suomessa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

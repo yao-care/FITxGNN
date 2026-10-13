@@ -2,7 +2,7 @@
 layout: default
 title: Panitumumab
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 283
+nav_order: 328
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,90 +29,100 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Panitumumab: Metastaattisista paksusuolisyövistä lääkkeiden aiheuttamaan osteoporoosiaan
+# Panitumumabi: Paksusuolen kasvaimista lääkkeen aiheuttamaan osteoporoosiin
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Panitumumab on täysin ihmisen peräisin oleva IgG2-monoklonaalinen vasta-aine, joka kohdistuu EGFR:ään, ja jota on historiallisesti käytetty metastaattisissa paksusuolisyövissä. TxGNN ennustaa kahta uutta indikaatiota — **Lääkkeiden aiheuttama osteoporoosi** (parhaiten sijoitettu) ja **Vaikea ei-proliferatiivinen diabeettinen retinopatia** — mutta kumpikaan niistä ei ole tällä hetkellä tuettu rekisteröidyillä kliinisillä tutkimuksilla tai julkaistulla kirjallisuudella, joten molemmat säilyvät puhtaasti mallin ohjaamina hypoteeseina.
-
----
-
-## Pikainen yleiskatsaus
-
-| Kohde | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Metastaattinen paksusuolisyöpä (perustuu tunnettuun EGFR-estäjän farmakologiaan; strukturoitua alkuperäisen indikaation tietoa ei ole saatavilla) |
-| Ennustettu uusi indikaatio | Lääkkeiden aiheuttama osteoporoosi (ensisijainen kandidaatti); Vaikea ei-proliferatiivinen diabeettinen retinopatia (toissijainen kandidaatti) |
-| TxGNN-ennustepisteet | 99.13% (Lääkkeiden aiheuttama osteoporoosi); 99.05% (Vaikea ei-proliferatiivinen diabeettinen retinopatia) |
-| Näyttötaso | L5 (molemmat kandidaatit) |
-| Suomen markkinoiden tila | ✗ Ei markkinoilla |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Pidä |
+Panitumumabi on EGFR-vasta-aine, jota on alun perin käytetty paksu- ja peräsuolen kasvainten (kolorektaalikasvainten) hoitoon. TxGNN-malli ennustaa sen voivan tehota **lääkkeen aiheuttamaan osteoporoosiin**, mutta ennusteen tueksi ei ole löytynyt **yhtään kliinistä tutkimusta eikä julkaisua**. Näyttö perustuu pelkästään mallin ennusteeseen.
 
 ---
 
-## Miksi tämä ennuste on järkevä?
+## Pikakatsaus
 
-Tällä hetkellä panitumumabin yksityiskohtaista vaikutusmekanismia koskevia tietoja ei ole saatavilla strukturoidussa näyttöpaketissa. Tunnettujen farmakologisten tietojen perusteella panitumumab on täysin ihmisen peräisin oleva IgG2-monoklonaalinen vasta-aine, joka kohdistuu epidermaalisen kasvutekijän reseptoriin (EGFR), ja sen teho metastaattisissa paksusuolisyövissä on hyvin vakiintunut kliinisessä käytännössä.
-
-**Lääkkeiden aiheuttaman osteoporoosin** osalta perustelut nojautuvat teoreettiseen, epäsuoraan signaloinnin yhteyteen — EGFR-signaloinnin aktiivisuudesta on keskusteltu joissain perustutkimuksissa, joissa käsitellään osteoklaastin ja osteoblastin erotumistapahtumaa. Tätä yhteyttä ei kuitenkaan ole osoitettu EGFR-kohdistuville monoklonaalisille vasta-aineille, ja "lääkkeiden aiheuttama osteoporoosi" kliinisenä kokonaisuutena liittyy tyypillisesti pikemminkin kortikosteroideihin kuin EGFR-estäjiin. Se, toimisiko panitumumab aiheuttavana tekijänä vai terapeuttisena kandidaattina tälle tilalle, on itsessään epäselvää, mikä tekee mekanistisesta yhteydestä heikon ja suunnaltaan ambivalentin.
-
-**Vaikean ei-proliferatiivisen diabeettisen retinopatiaan** osalta perustelut perustuvat teoreettiseen EGFR:n ja VEGF-signaloinnin väliseen yhteistoimintaan angiogeneesissä, mikä viittaa siihen, että EGFR-esto voisi teoreettisesti muokata pre-proliferatiivisia verkkokalvon verisuonimuutoksia. Tämäkään ei ole muuta kuin polkutason päättelyä — korkea TxGNN-pistemäärä ei vastaa mekanistista validaatiota — eikä ole olemassa eläin-, tapausselostus- tai kliinisiä tutkimuksia, jotka käsittelevät intraokulaarista farmakokinetiikkaa tai järjestelmällisen panitumumabin immuuniteettiin liittyvää/silmää koskevaa turvallisuusprofiilia tässä yhteydessä.
-
-Molempia kandidaatteja tulisi käsitellä varhaisvaiheen, hypoteesia tuottavina signaaleina eikä mekanistisesti validoituina ehdokkaina.
-
----
-
-## Kliinisten tutkimusten näyttö
-
-Tällä hetkellä ei ole rekisteröityjä kliinisiä tutkimuksia kummallekkaan indikaatiolle (lääkkeiden aiheuttama osteoporoosi tai vaikea ei-proliferatiivinen diabeettinen retinopatia).
+| Kohta | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | Paksu- ja peräsuolen kasvaimet (kolorektaalikasvaimet) |
+| Ennustettu uusi käyttöaihe | Lääkkeen aiheuttama osteoporoosi |
+| TxGNN-ennusteen pistemäärä | 99,13 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Kirjallisuuden näyttö
+## Miksi ennuste voisi olla perusteltu?
 
-Tällä hetkellä ei ole saatavilla kirjallisuuden näyttöä kummallekkaan indikaatiolle (lääkkeiden aiheuttama osteoporoosi tai vaikea ei-proliferatiivinen diabeettinen retinopatia).
+Tässä raportissa käytettävissä olevissa tiedoissa ei ole yksityiskohtaista vaikutusmekanismia. Tiedetään, että panitumumabi on EGFR:ää (epidermaalisen kasvutekijän reseptori) estävä monoklonaalinen vasta-aine ja että sen teho kolorektaalikasvaimissa on osoitettu.
+
+Yleisen biologian perusteella EGFR-signalointi voi vaikuttaa osteoblastien erilaistumiseen ja luun uudistumiseen, joten EGFR:n esto voisi teoriassa muuttaa luuaineenvaihduntaa. Tämä yhteys on kuitenkin spekulatiivinen: se ei perustu raportin aineistoon. Vaikutus voisi yhtä hyvin olla luulle haitallinen (esim. hypomagnesemiaan liittyvät vaikutukset) kuin hyödyllinen. Vaikutuksen suuntaa ei tunneta.
+
+Alkuperäisen käyttöaiheen (syöpä) ja ennustetun käyttöaiheen (osteoporoosi) välinen samankaltaisuus on arvioimatta.
 
 ---
 
-## Suomen markkinoiden tiedot
+## Kliininen tutkimusnäyttö
 
-Panitumumabilla ei ole tällä hetkellä rekisteröityjä markkinointivaltuuksia Suomessa (0 lisenssejä; markkinoiden tila: ei markkinoilla).
+Ei tällä hetkellä rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
+
+---
+
+## Kirjallisuusnäyttö
+
+Ei tällä hetkellä aiheeseen liittyvää kirjallisuutta.
+
+---
+
+## Tiedot Suomen markkinoilta
+
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000741 | Vectibix | – | Paksu- ja peräsuolen kasvaimet (peruutettu) |
 
 ---
 
 ## Sytotoksisuus
 
-| Kohde | Sisältö |
-|------|---------|
-| Sytotoksisuusluokitus | Kohdistettu hoito (anti-EGFR-monoklonaalinen vasta-aine) |
-| Luuytimen tuotantohäiriön riski | Alhainen (monoklonaalisen vasta-aineen kohdistetut terapiat kantavat yleensä alhaisemman luuytimen tuotantohäiriöriskin kuin perinteinen sytotoksinen kemoterapia; spesifisiä hematologisen toksisuuden tietoja ei ole saatavilla) |
-| Pahoinvointitaipumusluokitus | Alhainen (tyypillinen monoklonaalisen vasta-aineen infuusioille) |
-| Seurantakohdat | Serumin magnesiumin ja elektrolyyttien seuranta (EGFR-estäjät liittyvät hypomagnesiemiaan), ihototoksisuus/dermatologinen arviointi, infuusioon liittyvien reaktioiden seuranta |
-| Käsittelysuoja | Katso pakkausselosteen varoitukset ja varotoimet |
+| Kohta | Sisältö |
+|------|------|
+| Sytotoksisuusluokitus | Kohdennettu hoito (EGFR-vasta-aine), ei perinteinen sytostaatti |
+| Luuydinsuppressio | Ks. valmisteyhteenvedon varoitukset ja varotoimet |
+| Oksentelua aiheuttavuus | Ks. valmisteyhteenvedon varoitukset ja varotoimet |
+| Seurantakohteet | Ks. valmisteyhteenvedon varoitukset ja varotoimet |
+| Käsittelysuojaus | Noudatettava sytotoksisten/antineoplastisten lääkkeiden käsittelyohjeita |
 
 ---
 
 ## Turvallisuusnäkökohdat
 
-Katso turvallisuustiedot pakkaustekstistä.
+**Lääkeyhteisvaikutukset:** Yhteisvaikutuksia löytyi yhteensä 27. Tässä on esitetty aineistossa listatut keskeiset.
+
+- **Merkittävät (Major):** amiodaroni, arseenitrioksidi, bevasitsumabi, dofetilidi, dronedaroni, droperidoli, aminolevuliinihappo, irinotekaani (myös liposomaalinen), levasetyylimetadoli
+- **Kohtalaiset (Moderate):** protonipumpun estäjät (rabepratsoli, omepratsoli, deksansoprasoli, esomepratsoli, lansopratsoli, pantopratsoli), metoksaleeni, aminolevuliinihappo (paikallinen), disopyramidi, idelalisibi
+
+Muuta turvallisuustietoa, kuten varoituksia ja vasta-aiheita, katso valmisteyhteenvedosta.
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Johtopäätös ja jatkotoimet
 
-**Päätös: Pidä**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Molemmat ennustetut indikaatiot ovat tuettuja vain TxGNN-mallin pisteillä (L5-näyttö) ilman kliinisiä tutkimuksia, julkaistua kirjallisuutta, ja mekanistiset perustelut ovat spekulatiivisia ja osteoporoosin tapauksessa suunnassaan ambivalentit. Tällä hetkellä ei ole perusteita edetä kummankaan kandidaatin kanssa tutkivaa tutkimusta pidemmälle.
+- Ennuste perustuu ainoastaan TxGNN-mallin korkeaan pistemäärään. Kliinisiä tutkimuksia tai julkaisuja ei ole, vaikutusmekanismi on tuntematon ja EGFR:n eston vaikutus luuhun voi olla haitallinen. Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa.
 
-**Jatkamista varten tarvitaan seuraavaa:**
-- TFDA/Fimea-pakkaustekstin tiedot (varoitukset, vasta-aiheet) — tällä hetkellä **estävä** tietoaukko
-- Vahvistettu vaikutusmekanismin data DrugBankista tai alkuperäislähdekirjallisuudesta — tällä hetkellä **korkean vakavuuden** tietoaukko
-- Perustutkimukset tai mekanistiset tutkimukset, jotka suoraan yhdistävät EGFR-estolle luuaineen aineenvaihduntaan (osteoporoosin kandidaatin osalta) tai verkkokalvon verisuonimuutoksiin (diabeettisen retinopatiaan kandidaatin osalta)
-- Lääkkeiden välisen vuorovaikutuksen (DDI) profiili, joka on tällä hetkellä saatavilla olematon ("not_found")
-- Uudelleenarviointi, kun joko kliininen tutkimus tai kirjallisuuden signaali ilmaantuu kummallekin indikaatiolle
+**Jatkoon tarvitaan:**
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet (Fimea), koska nykyisellään turvallisuusarviointia ei voida viedä eteenpäin
+- Vaikutusmekanismin tiedot (esim. DrugBank)
+- Prekliiniset ja kirjallisuusselvitykset EGFR:n eston vaikutuksesta luuhun
+- Selvitys antoreitin ja alkuperäisen käyttöaiheen samankaltaisuudesta ennustettuun käyttöaiheeseen
+- Myyntiluvan tilanteen selvitys
 
+---
+
+## Muu ennustettu käyttöaihe (sija 2)
+
+Toiseksi sijoittui **vaikea ei-proliferatiivinen diabeettinen retinopatia** (TxGNN-pistemäärä 99,05 %, näytön taso L5, suositus Hold). Ennusteen tueksi ei ole kliinisiä tutkimuksia eikä kirjallisuutta. EGFR-signaloinnin yhteys verkkokalvon verisuoni- ja tulehdusprosesseihin on vain yleistä taustatietoa. Panitumumabi on suuri IgG2-vasta-aine, jota ei ole testattu silmänsisäisesti, ja siihen liittyy systeemisiä EGFR:ään liittyviä haittoja (esim. iho- ja elektrolyyttihäiriöt). Hyöty–riskisuhde on epäselvä, koska anti-VEGF-hoito on vakiintunutta.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

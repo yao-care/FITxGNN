@@ -2,7 +2,7 @@
 layout: default
 title: Alglucosidase Alfa
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 22
+nav_order: 24
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,78 +29,85 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Alglucosidaasi alfa: Pompén taudista aikuisten polyglukosaanirunko-sairauteen
+# Alglukosidaasi alfa: Pompen taudista aikuisten polyglukosaanikappaletautiin
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Alglucosidaasi alfa on ihmisperäinen rekombinantti hapan α-glukosidaasi (rhGAA) -entsyymikorvaushoito, joka tunnetaan parhaiten Pompén taudin (glykogeenin varastointisairaus tyypin II) hoitamisesta. TxGNN-malli ennustaa, että se saattaa olla tehokas **aikuisten polyglukosaanirunko-sairaudelle**, mutta tämä suunta on tällä hetkellä tuettu **0 kliinisellä tutkimuksella** ja **0 julkaisulla**, eikä lääkettä markkinoida Suomessa.
+Alglukosidaasi alfa on rekombinantti happaman alfa-glukosidaasin (GAA) entsyymivalmiste, jota on alun perin käytetty **Pompen taudin (glykogeenin varastotauti tyyppi II)** hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **aikuisten polyglukosaanikappaletautiin**, mutta ennustetta tukee tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua**. Kyseessä on pelkkä laskennallinen ennuste.
 
 ---
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Pompén tauti (hapan α-glukosidaasin puute / glykogeenin varastointisairaus tyypin II) — *ei ole läsnä tämän todistepaketin Suomen lisensointitiedoissa, koska tuotetta ei markkinoida siellä* |
-| Ennustettu uusi indikaatio | Aikuisten polyglukosaanirunko-sairaus |
-| TxGNN-ennusteen pistemäärä | 99.47% |
-| Todistusaste | L5 |
-| Suomen markkinatilanne | ✗ Ei markkinoitu (Ei markkinoitu) |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Jäädytä |
+|------|------|
+| Alkuperäinen käyttöaihe | Glykogeenin varastotauti tyyppi II (Pompen tauti) |
+| Ennustettu uusi käyttöaihe | Aikuisten polyglukosaanikappaletauti |
+| TxGNN-ennusteen pistemäärä | 99,47 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Miksi tämä ennuste on järkevä?
+## Miksi ennuste on (tai ei ole) perusteltu?
 
-Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla tässä todistepakettissa (merkitty korkean vakavuuden tietovajeeksi, DG002). Tunnettujen tietojen perusteella alglucosidaasi alfa on ihmisperäinen rekombinantti hapan α-glukosidaasi (rhGAA) -entsyymikorvaushoito; sen teho Pompén taudissa on osoitettu, ja mekanistisesti se saattaa soveltua muihin glykogeenin aineenvaihdunnan häiriöihin, jotka jakavat päällekkäisen entsyymipolun.
+Yksityiskohtaisia tietoja vaikutusmekanismista ei ole tällä hetkellä saatavilla. Tiedossa on, että alglukosidaasi alfa korvaa puuttuvaa lysosomaalista happaman alfa-glukosidaasin aktiivisuutta ja hajottaa lysosomissa varastoitunutta glykogeenia, mikä on osoitettu tehokkaaksi Pompen taudissa.
 
-Kuitenkin tämän erityisen ennusteen tarjoama mekanistinen perusteltu on varovainen pikemminkin kuin tukeva. Aikuisten polyglukosaanirunko-sairaus johtuu ensisijaisesti **GBE1**:n (glykogeenihaaroitusentsyymi) puutteesta, ei GAA:sta — vain pienessä osassa raportoituja tapauksia on päällekkäisyyttä GAA-mutaatioiden kanssa. Taudin ydinpatologia on *rakenteellisesti poikkeava* glykogeeni (polyglukosaani) -kertymä hajoamispuutteen vuoksi, ei yksinkertainen entsyymiaktiivisuuden puute. Ei ole olemassa vakiintunutta mekanistista näyttöä siitä, että GAA-entsyymikorvaushoito pystyisi poistamaan tätä rakenteellisesti poikkeavaa glykogenia. Perusteltu huomautus nimenomaisesti, että korkea TxGNN-pistemäärä heijastaa todennäköisesti tietoverkon "glykogeenin aineenvaihdunnan sairaus" -solmujen klusteroitumista toisiinsa, ei suoraa farmakoloogista vastaavuutta.
+Aikuisten polyglukosaanikappaletauti johtuu glykogeenia haaroittavan entsyymin (GBE1) puutoksesta. Sen seurauksena huonosti haaroittunutta, liukenematonta polyglukosaania kertyy hermosoluihin ja aksoneihin. Ennusteen taustalla on uskottava mutta todistamaton käsitteellinen yhteys, eli yhteinen glykogeeniaineenvaihdunta.
 
-Tämä varovaisuus ulottuu myös loput top-10 ennustelistalle: rankit 2–3 (GSD IV -alatyyppi) jakavat saman GBE1-vs-GAA-epäsuhdan, kun taas rankit 4–10 (synnynnäinen entropioni/ektropioni, Hornerin oireyhtymä, ptoosin syndroomat, synnynnäiset silmä-/lihasjonot) eivät ole mitenkään mekanistisesti yhteydessä lysosomaalisen glykogeenin aineenvaihduntaan ja ne nimenomaisesti merkitään lähdemateriaalissa todennäköisiksi graafin läheisyyden meluksi jaetuista "synnynnäinen/harvinainen sairaus" -merkinnöistä. Millään kymmenestä ennusteesta ei ole tällä hetkellä mitään vahvistavaa kliinisen tutkimuksen tai kirjallisuuden näyttöä.
+Yhteyttä heikentävät kuitenkin merkittävästi seuraavat seikat:
+- Polyglukosaani kertyy pääasiassa solulimaan, ei lysosomiin, joten lysosomaalinen GAA tuskin tavoittaa patologista substraattia.
+- Entsyymi ei läpäise veriaivoestettä tehokkaasti.
+- Korkea pistemäärä (0,995) on vain laskennallinen ennuste, eikä sitä tue kliininen näyttö tai kirjallisuus.
+
+Muut ennustetut käyttöaiheet (sijat 2–10) ovat vielä heikommin perusteltuja:
+- **GBE1-puutoksen aiheuttamat glykogeenin varastotaudin muodot (GSD IV, perinataalinen kuolemaan johtava ja synnynnäinen neuromuskulaarinen muoto):** yhteys perustuu vain yhteiseen glykogeeniaineenvaihduntaan. GAA ei korvaa puuttuvaa haaroittavaa entsyymiä, joten perimmäistä vikaa ei korjata.
+- **Silmäluomien ja silmän rakenteelliset tai synnynnäiset tilat** (synnynnäinen entropion, ektropion, epiblefaroni, synnynnäinen Hornerin oireyhtymä, ptoosi–äänihuulihalvaus-oireyhtymä, ptoosi–strabismus–ektooppiset pupillat -oireyhtymä, kamptodaktylia–myopia–silmän medialisen suoralihaksen fibroosi): ei uskottavaa mekanismia. Ennusteet johtuvat todennäköisesti tietämysgraafin artefakteista, kuten Pompen taudin ptoosin kaltaisten fenotyyppien päällekkäisyydestä.
 
 ---
 
-## Kliiniset tutkimustodisteet
+## Kliiniset tutkimukset
 
 Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
 ---
 
-## Kirjallisuustodisteet
+## Kirjallisuusnäyttö
 
 Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
 ---
 
-## Suomen markkinatiedot
+## Myyntilupatiedot Suomessa
 
-Alglucosidaasi alfa ei ole tällä hetkellä **markkinoitu** Suomessa — todistepaketti sisältää 0 hyväksyntää ja ei lisensointitietoja, joten tuote-/hyväksyntätaulukkoa ei voida tuottaa.
-
----
-
-## Turvallisuustarkastelut
-
-Katso turvaohjeiden mukaisesti turvallisuustietoja.
-
-*(Tärkeät varoitukset, vasta-aiheet ja lääkkeen vuorovaikutustiedot on kaikki kirjattu tietovajeiksi tässä todistepakettissa. Erityisesti TFDA/Fimea pakkausselosteen varoitukset ja vasta-aiheet on merkitty estävänä tietovajeena — DG001 — mikä itsessään estää tätä kandidaattia päästä S1-turvallisuuden esiarviointivaiheeseen.)*
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000636 | Myozyme (Sanofi B.V.) | – | Glykogeenin varastotauti tyyppi II (peruutettu) |
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Turvallisuushuomiot
 
-**Päätös: Jäädytä**
+Turvallisuustiedot on tarkistettava valmisteyhteenvedosta. Lääkkeiden yhteisvaikutuksia ei löytynyt tätä raporttia varten kootusta aineistosta.
+
+---
+
+## Johtopäätökset ja jatkotoimet
+
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Todistusaste on L5 — mallin ennuste, jonka tueksi ei ole mitään kliinisiä tutkimuksia tai kirjallisuusviitteitä. Ehdotettu mekanistinen yhteys on heikko: kohdesairauden ensisijainen syyn entsyymi GBE1 eroaa alglucosidaasi alfan kohteesta GAA, ja pistemäärä koko top-10 -listan yli viittaa sairauden kategorian klusterointiin tietoverkossa pikemminkin kuin aitoihin farmakoloogisiin signaaleihin. Lisäksi estävä tietovaje (puuttuva TFDA/Fimea-pakkausselosteen tieto) estää itsenäisesti etenemisen S1-turvallisuuden esiarviointivaiheeseen.
+- Ennuste perustuu pelkästään laskennalliseen malliin (L5), eikä sitä tue yksikään kliininen tutkimus tai julkaisu. Lisäksi mekanistiset esteet (solulimaan kertyvä substraatti, veriaivoesteen läpäisemättömyys) tekevät hoitovaikutuksesta epätodennäköisen. Myyntilupa Suomessa on peruutettu.
 
-**Jotta voidaan edetä, seuraavaa tarvitaan:**
-- TFDA/Fimea virallinen pakkausseloste (varoitukset, vasta-aiheet) — ratkaisee estävän vajeen DG001
-- Vahvistettu mekanismin vaikutustiedot DrugBankista — ratkaisee korkean vakavuuden vajeen DG002
-- Tapauskohtaiset tai prekliiniset todisteet erityisesti potilaille, joilla on päällekkäisiä GAA-mutaatioita aikuisten polyglukosaanirunko-sairaudessa, sen sijaan että luotettaisiin sairauden kategorian samankaltaisuuteen
-- Uudelleenarviointi siitä, ovatko GBE1-suunnatut (pikemminkin kuin GAA-suunnatut) terapeuttisen tavoitteet sopivampia tähän indikaatioon
-- Selventäminen mahdollisen sääntelyreitin tai markkinointi-aikomuksen osalta Suomelle, koska lääkettä ei ole tällä hetkellä markkinoitu siellä
-
+**Jatkoon siirtyminen edellyttää seuraavaa:**
+- Vaikutusmekanismitietojen täydentäminen (MOA).
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen ja läpikäynti.
+- Prekliiniset tutkimukset (esim. GBE1-puutosmallit), joissa selvitetään, voiko GAA päästä kohdesoluihin ja vaikuttaa polyglukosaanin kertymiseen.
+- Kirjallisuushaku ja kliinisten tutkimusten kartoitus aikuisten polyglukosaanikappaletaudista.
+- Myyntiluvan nykytilan ja saatavuuden selvittäminen Suomessa.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -2,7 +2,7 @@
 layout: default
 title: Turoctocog Alfa Pegol
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 393
+nav_order: 458
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,59 +29,95 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Turoctocog alfa pegol: Hemofiliasta A (synnynnäinen tekijä VIII puutos) primääriseen verihiutaleiden vapautumishäiriöön
+# Turoktokogialfa pegoli: Hemofilia A:sta ensisijaiseen verihiutaleiden vapautumishäiriöön
 
 ## Yhden lauseen yhteenveto
 
-Turoctocog alfa pegol (DB14738) on PEGyloidattu rekombinantti tekijä VIII (rFVIII) valmiste; sen vakiintunut kliininen käyttötarkoitus on tekijä VIII korvaaminen synnynnäisessä tekijä VIII puutoksessa (hemofilia A). TxGNN-mallin korkeimmin sijoitettu ennuste on **primäärinen verihiutaleiden vapautumishäiriö**, mutta tällä hetkellä mikään kliininen tutkimus tai kirjallisuus ei tue tätä suuntaa, ja mallin oma mekanistinen annotointi osoittaa biologisen yhteyden olevan heikko.
+Turoktokogialfa pegoli on PEGyloitu rekombinantti tekijä VIII -valmiste, jota on alun perin käytetty **hemofilia A:n** hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **ensisijaiseen verihiutaleiden vapautumishäiriöön**, mutta ennusteen tueksi ei ole löytynyt yhtään kliinistä tutkimusta eikä julkaisua.
+Ennuste perustuu vain mallin laskemaan graafietäisyyteen, eikä mekanistista perustetta ole.
+
+---
 
 ## Pikakatsaus
 
 | Kohta | Sisältö |
-|-------|---------|
-| Alkuperäinen käyttötarkoitus | Synnynnäinen tekijä VIII puutos (hemofilia A) — peräisin evidenssiasiakirjan perustelutekstistä; ei suoraan merkitty `original_indications`-kenttään |
-| Ennustettu uusi käyttötarkoitus | Primäärinen verihiutaleiden vapautumishäiriö |
-| TxGNN-ennusteen pistemäärä | 99.97% |
-| Todistusaineiston tasolla | L5 (pelkkä mallin ennuste) |
-| Suomen markkinatilanne | ✗ Ei markkinoitu |
-| Hyväksyntöjen määrä | 0 |
-| Suositeltu päätös | Pidättäytyminen |
+|------|------|
+| Alkuperäinen käyttöaihe | Hemofilia A |
+| Ennustettu uusi käyttöaihe | Ensisijainen verihiutaleiden vapautumishäiriö (primary release disorder of platelets) |
+| TxGNN-ennusteen pistemäärä | 99,997 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennuste on perusteltu?
+---
 
-Turoctocog alfa pegol -lääkkeen yksityiskohtainen vaikutusmekanismin tieto ei ole tällä hetkellä käytettävissä (tietokuilun puute). Saatavilla olevan tiedon perusteella tämä lääke on PEGyloidattu rekombinantti tekijä VIII korvaushoito, ja sen teho synnynnäisessä tekijä VIII puutoksessa (hemofilia A) on hyvin vakiintunut tekijä VIII korvausmekanismin kautta.
+## Miksi ennuste on (tai ei ole) perusteltu?
 
-Kuitenkin korkeimmin sijoitetulla ennustetulla käyttötarkoituksella, primaarisella verihiutaleiden vapautumishäiriöllä, evidenssiasiakirjan oma mekanistinen annotointi on selvästi varoittava: tämä häiriö kuvastaa verihiutaleiden granulaarisen vapautumisen vikaa — synnynnäisen verihiutaleiden toimintahäiriön — joilla **ei ole suoraa mekanistista yhteyttä** koagulaatiotekijän korvaamiseen. TxGNN-pistemäärä on erittäin korkea (99.97%, sijoitus 64), mutta korkea samankaltaisuuspistemäärä tietokaaviossa ei itsessään vahvista biologista uskottavuutta.
+Yksityiskohtaista vaikutusmekanismitietoa ei ole tällä hetkellä saatavilla. Tiedetään, että turoktokogialfa pegoli on PEGyloitu rekombinantti tekijä VIII (FVIII), joka korvaa puuttuvan FVIII:n kuolioitumisen sisäisessä reitissä. Sen teho hemofilia A:ssa on osoitettu.
 
-On huomattavaa, että muista tässä evidenssiasiakirjassa olevista ennusteista sijoitus 4 — "hankittu koagulaatiotekijän puutos" — on mekanistisesti johdonmukainen, koska se perustuu samaan korvaushoitologiikkaan kuin hyväksytty käyttötarkoitus. Tämä kandidaatti sisältää "Tutkimuskysymys"-suosituksen "Pidättäytymisen" sijasta, ja se saattaa vaatia erillistä seurantaa (katso Johtopäätös).
+Ensisijaiset verihiutaleiden vapautumishäiriöt ovat kuitenkin verihiutaleiden toiminnan häiriöitä (rakeiden eritys ja signalointi on heikentynyt), eivät FVIII:n puutosta. FVIII-korvaushoidon ei siksi odoteta korjaavan vikaa. Korkea TxGNN-pistemäärä näyttää kuvastavan verenvuotosairauksien läheisyyttä tietämysgraafissa, ei lääketieteellistä perustetta.
 
-## Kliinisen tutkimuksen todisteet
+Sama päätelmä pätee muihin kymmenen parhaan ennusteen joukossa oleviin sairauksiin, joista useimmat ovat verihiutaleiden määrän tai toiminnan häiriöitä. Biologisesti uskottavin on **hankinnainen hyytymistekijäpuutos** (esim. hankinnainen hemofilia A), mutta siinäkin vasta-aineet neutraloivat FVIII:n, ja ohitushoidot tai sian FVIII ovat ihmisperäisiä valmisteita parempia.
 
-Tällä hetkellä ei ole rekisteröityjä vastaavia kliinisiä tutkimuksia
+### Muut ennustetut sairaudet (yhteenveto)
 
-## Kirjallisuuden todisteet
+| Sija | Sairaus | TxGNN-pisteet | Mekanistinen arvio |
+|------|------|------|------|
+| 2 | Pseudo-von Willebrandin tauti | 99,996 % | GPIbα:n toiminnan lisäysmutaatio; FVIII yleensä normaali, ei roolia |
+| 3 | Glanzmannin trombastenia | 99,996 % | Integriini αIIbβ3:n puutos; ei yhteyttä FVIII:aan |
+| 4 | Hankinnainen hyytymistekijäpuutos | 99,974 % | Uskottavin, mutta käsite laaja; inhibiittoreissa FVIII ei ensisijainen |
+| 5 | Scottin oireyhtymä | 99,973 % | Verihiutaleen kalvon vika (TMEM16F); FVIII ei korjaa |
+| 6 | Kollageenireseptoridefektin aiheuttama verenvuotoalttius | 99,949 % | Verihiutaleen primaarivika, FVIII-riippumaton |
+| 7 | Synnynnäiseen trombosytopeniaan liittyvä verenvuotosairaus | 99,948 % | Syynä verihiutaleiden vähyys |
+| 8 | "Flood factor deficiency" | 99,752 % | Termi ei ole tunnistettu kliininen käsite; vaatii tarkistuksen |
+| 9 | Perinnöllinen trombosytoosi ja raajavika | 99,694 % | Tromboottinen taipumus; FVIII mahdollisesti epäedullinen |
+| 10 | Sikiön ja vastasyntyneen alloimmuunitrombosytopenia | 99,693 % | Immuunivälitteinen verihiutaleiden tuho; FVIII ei vaikuta |
 
-Tällä hetkellä saatavilla ei ole vastaavaa kirjallisuutta
+---
 
-## Turvallisuusnäkökohdat
+## Kliininen tutkimusnäyttö
 
-Turvallisustiedot löytyvät pakkausselosteesta.
+Tällä hetkellä ei ole kirjattuja aiheeseen liittyviä kliinisiä tutkimuksia.
 
-(Merkittävät varoitukset, vasta-aiheet ja lääke-interaktioiden tieto on kaikki merkitty tietokuilun puutteeksi tai "ei löytynyt" nykyisessä evidenssiasiakirjassa.)
+---
 
-## Johtopäätös ja seuraavat askeleet
+## Kirjallisuusnäyttö
 
-**Päätös: Pidättäytyminen**
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
+
+---
+
+## Markkinatiedot Suomessa
+
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004883 | Esperoct | – | Hemofilia A (tila: peruutettu) |
+
+Valmistaja: Novo Nordisk A/S. Voimassa olevia myyntilupia ei ole.
+
+---
+
+## Turvallisuushuomiot
+
+Turvallisuustietoja (varoitukset, vasta-aiheet) ei ole tällä hetkellä saatavilla. Lääkeyhteisvaikutuksia ei löytynyt. Tutustu valmisteyhteenvetoon turvallisuustietojen osalta.
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Ennustetulla käyttötarkoituksella (primäärinen verihiutaleiden vapautumishäiriö) ei ole kliinisen tutkimuksen eikä kirjallisuuden tukea, ja mallin oma mekanistinen perustelut osoittavat heikkoa biologista uskottavuutta koagulaatiotekijän korvaustuotteelle. Todistusaineiston tasolla on L5 (pelkkä mallin ennuste), mikä ei täytä edellytyksiä edetä.
+- Ennuste perustuu pelkästään malliin (L5), eikä kliinisiä tutkimuksia tai julkaisuja ole. Mekanistinen arvio osoittaa, että FVIII-korvaus ei korjaisi ennustettujen sairauksien taustalla olevia verihiutale- tai muita vikoja. Lisäksi valmisteella ei ole voimassa olevaa myyntilupaa Suomessa.
 
-**Jatkaakseen tarvitaan seuraava:**
-- TFDA-pakkausseloste (varoitukset, vasta-aiheet) — tällä hetkellä estävä tietokuilun puute, joka estää S1-turvallisuuskatselmuksen
-- Vahvistettu vaikutusmekanismi (MOA) DrugBank API:n kautta — tällä hetkellä korkean vakavuuden puute
-- Riippumaton mekanistinen/prekliininen arvio verihiutaleiden granulaarisen vapautumisen fysiologiasta suhteessa FVIII-farmakologiaan, ennen kuin investoidaan lisää
-- Harkitse sijoituksen 4 ("hankittu koagulaatiotekijän puutos") arviointia mekanistisesti vahvempana vaihtoehtokandidaattina erilliselle tutkimuskysymys-seurannalle, koska sillä on suora päällekkäisyys hyväksytyn korvaushoitologiikan kanssa
-
+**Eteenpäin siirtyminen edellyttäisi:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivustolta
+- Vaikutusmekanismitietojen täydentämistä (DrugBank)
+- Hankinnaisen hyytymistekijäpuutoksen (erityisesti hankinnaisen hemofilia A:n) tarkempaa arviointia kirjallisuushaulla
+- Termin "flood factor deficiency" tarkistamista ennen jatkoarviota
+- Prekliinistä tai kliinistä näyttöä ennen kuin mitään ennustetuista käyttöaiheista harkitaan
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ranibizumab
-parent: Vahva näyttö (L1-L2)
-nav_order: 313
-evidence_level: L1
+parent: Pelkkä mallin ennuste (L5)
+nav_order: 365
+evidence_level: L5
 indication_count: 10
 ---
 
 # Ranibizumab
 {: .fs-9 }
 
-Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,99 +29,101 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Ranibizumab: neovaskularisesta ikääntymiseen liittyvästä makuladegeneraatiosta vaikeaan ei-proliferatiiviseen diabeettiseen retinopatiaan
+# Ranibitsumabi: Kosteasta silmänpohjan rappeumasta vaikeaan ei-proliferatiiviseen diabeettiseen retinopatiaan
 
 ## Yhden lauseen yhteenveto
 
-> Ranibizumab on anti-VEGF-monoklonaalinen vasta-aine-fragmentti, joka on alun perin kehitetty neovaskulariselle (märälle) ikääntymiseen liittyvälle makuladegeneraatiolle ja muille verkkokalvon vaskulaarisille taudeille.
-> TxGNN-malli ennustaa, että se saattaa olla tehokas **Vaikeaa ei-proliferatiivista diabeettista retinopatiaa vastaan**,
-> ja tätä suuntaa tukee tällä hetkellä **6 kliinistä tutkimusta** (joista 3 valmistunutta vaihe 3 RCT:tä) ja **19 julkaisua**.
+Ranibitsumabi on silmän sisään pistettävä VEGF-estäjä, jota on käytetty kosteaan silmänpohjan ikärappeumaan, makulaturvotukseen ja diabeettisiin silmäsairauksiin.
+TxGNN-malli ennustaa sen voivan tehota **vaikeaan ei-proliferatiiviseen diabeettiseen retinopatiaan**.
+Tätä suuntaa tukee **18 julkaisua**, mutta tähän käyttöaiheeseen ei ole annettu yhtään rekisteröityä kliinistä tutkimusta.
 
 ---
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Ei määritetty tässä todistepaketissa (`original_indications` tyhjä, `original_moa` = Data Gap). Julkisesti tunnettu alkuperäinen indikaatio: neovaskularinen makuladegeneraatio ja muut verkkokalvon vaskulaariset taudit |
-| Ennustettu uusi indikaatio | Vaikea ei-proliferatiivinen diabeettinen retinoparia |
-| TxGNN-ennuste-pistemäärä | 99.99% |
-| Näyttötaso | L1 |
-| Suomen markkina-asema | ✗ Ei markkinoilla (Ei markkinoilla) |
-| Lupien lukumäärä | 0 |
-| Suositeltu päätös | Pidätä |
+| Alkuperäinen käyttöaihe | Kostea silmänpohjan ikärappeuma, makulaturvotus, diabeettinen retinopatia ja diabeteksen komplikaatiot |
+| Ennustettu uusi käyttöaihe | Vaikea ei-proliferatiivinen diabeettinen retinopatia |
+| TxGNN-ennustepistemäärä | 99,99 % |
+| Näytön taso | L1 (perustuu kirjallisuuteen, ei annettuihin tutkimusrekistereihin; ks. alla) |
+| Markkinatilanne Suomessa | Vain peruutetut myyntiluvat |
+| Myyntilupien määrä | 7 (kaikki peruutettuja) |
+| Suositeltu päätös | Etene suojatoimin (Proceed with Guardrails) |
 
 ---
 
-## Miksi tämä ennuste on järkevä?
+## Miksi ennuste on perusteltu?
 
-Tähän ehdokkaaseen liittyvät yksityiskohtaiset vaikutusmekanismin tiedot eivät ole saatavilla todistepaketissa (DG002, korkea vakavuus). Tunnetun farmakologian perusteella ranibizumab kuuluu anti-VEGF:n (vaskulaarinen endoteelinen kasvutekijä -estäjä) biologiikan luokkaan — humanisoidun monoklonaalisen vasta-aineen Fab-fragmentti, joka sitoutuu ja neutralisoi VEGF-A:ta. Sen tehokkuus neovaskularisissa verkkokalvon taudeissa on hyvin todettu, ja mekanistisesti se on suoraan sovellettavissa diabeettiseen retinopatiaan.
+Tässä raportissa käytettävissä oleva tieto ei sisällä yksityiskohtaista vaikutusmekanismia. Lääkeluokan perusteella ranibitsumabi on VEGF:ää estävä vasta-ainefragmentti. Päätelmä perustuu lääkeluokkaan, ei toimitettuun lääketietueeseen.
 
-Diabeettinen retinoparia ja taudit, joille ranibizumab on alun perin kehitetty (märkä makuladegeneraatio, diabeettinen makulan edeema), jakavat yhteisen patofysiologisen tekijän: patologinen VEGF-välitteinen neovaskularisaatio ja verisuonten läpäisevyyden lisääntyminen verkkokalvossa. Vaikeaan ei-proliferatiiviseen ja proliferatiiviseen diabeettiseen retinopatiaan eteneminen on tiiviisti sidottu intraokulaaren VEGF-tason nousuun, joka on täsmälleen se tekijä, jota ranibizumab neutralisoi.
+Diabeettisessa retinopatiassa VEGF lisää verkkokalvon verisuonten läpäisevyyttä ja uudissuonten muodostusta. VEGF:n esto voi siksi lieventää taudin vaikeusastetta. Sama mekanismi on taustalla lääkkeen alkuperäisissä käyttöaiheissa (kostea ikärappeuma, diabeettinen makulaturvotus ja diabeettinen retinopatia), joten uusi käyttöaihe on mekanistisesti lähellä vanhoja.
 
-Huomattavasti, tähän ehdokkaaseen kerätyt kliiniset tutkimustiedot ja kirjallisuusaineisto ovat epätavallisen laajat "ennustetulla" indikaatiolla — mukaan lukien useita valmistuneita vaihe 3 RCT:tä ja 2025 JAMA Ophthalmology -tutkimus (Pavilion). Tämä viittaa siihen, että TxGNN toistaa mekanistisesti järkevää ja suurelta osin kliinisesti validoitua yhteyttä pikemminkin kuin puhtaasti uutta hypoteesia, mikä vahvistaa luottamusta ennusteeseen vaikka viralliset MOA/indikaatio-kentät puuttuvat tästä todistepaketista.
-
----
-
-## Kliiniset tutkimustodisteet
-
-| Tutkimusnumero | Vaihe | Tila | Rekrytointi | Keskeiset löydökset |
-|---------|------|------|------|---------|
-| [NCT00444600](https://clinicaltrials.gov/study/NCT00444600) | Vaihe 3 | Valmistunut | 691 | Vertaili laseria yksin, laseria + triasinolonia, laseria + ranibizumabiaä ja ranibizumabiaä yksin diabeettisen makulan edeeman hoidossa |
-| [NCT04503551](https://clinicaltrials.gov/study/NCT04503551) | Vaihe 3 | Valmistunut | 174 | Port Delivery System ranibizumabilla vs vertailuaine diabeettisessa retinopatiassa ilman keskusta sisältävää DME:tä |
-| [NCT02634333](https://clinicaltrials.gov/study/NCT02634333) | Vaihe 3 | Valmistunut | 399 | Intravitraalinen anti-VEGF näönuhkaa aiheuttavan DR:n ehkäisemiseksi riskialttiissa silmissä |
-| [NCT03452657](https://clinicaltrials.gov/study/NCT03452657) | Vaihe 3 | Tuntematon | 118 | Intravitraalinen ranibizumab vs näennäisinjektio DR-riskin ehkäisemiseksi |
-| [NCT02834663](https://clinicaltrials.gov/study/NCT02834663) | Vaihe 4 | Valmistunut | 25 | Intravitraalinen ranibizumab makulan edeemail NPDR:ssä; vaikutukset mikroaneurysmaripseisiin ja ei-perfundoituneisiin verkkokalvoalueisiin |
-| [NCT05222633](https://clinicaltrials.gov/study/NCT05222633) | N/A | Tuntematon | 1000 | Todellisen maailman havainnoiva tutkimus anti-VEGF-terapiasta (ranibizumab, aflibercept, conbercept) makuladegeneraatiossa, PDR:ssä, makulan edeemassa ja CNV:ssä |
+Kirjallisuudessa on RIDE/RISE-tutkimusten analyysejä, joissa diabeettinen retinopatia lievittyi ranibitsumabihoidolla, sekä vuoden 2025 Pavilion-satunnaistettu tutkimus ranibitsumabin depotjärjestelmästä ei-proliferatiivisessa diabeettisessa retinopatiassa. Näytön taso L1 perustuu julkaisujen otsikoihin eikä rekisteröityihin tutkimuksiin.
 
 ---
 
-## Kirjallisuustodisteet
+## Kliininen tutkimusnäyttö
 
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
+Ennustettuun käyttöaiheeseen (vaikea ei-proliferatiivinen diabeettinen retinopatia) ei ole tällä hetkellä rekisteröityjä kliinisiä tutkimuksia.
+
+---
+
+## Kirjallisuusnäyttö
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [40048178](https://pubmed.ncbi.nlm.nih.gov/40048178/) | 2025 | RCT | JAMA Ophthalmology | Pavilion-tutkimus: Port Delivery System ranibizumabilla vs seuranta NPDR:ssä ilman makulan edeemai |
-| [36774994](https://pubmed.ncbi.nlm.nih.gov/36774994/) | 2023 | Meta-analyysi | Ophthalmology Retina | DR:n lähtötaso ja aika DME:n ratkaisuun ranibizumabilla vaihe 3 tutkimuksissa |
-| [39673354](https://pubmed.ncbi.nlm.nih.gov/39673354/) | 2024 | Systemaattinen katsaus | Health Technology Assessment | Anti-VEGF-lääkkeet vs laserfotokoagulaatio diabeettisessa retinopatiassa |
-| [40347224](https://pubmed.ncbi.nlm.nih.gov/40347224/) | 2025 | Systemaattinen katsaus | Health Technology Assessment | Anti-VEGF vs laserfotokoagulaatio DR:lle — systemaattinen katsaus ja talousanalyysi |
-| [32606578](https://pubmed.ncbi.nlm.nih.gov/32606578/) | 2020 | Post-hoc-analyysi | Clinical Ophthalmology | Ennakko-tekijät DR:n varhaiselle regressiolle ranibizumabilla RIDE/RISE-tutkimuksissa |
-| [30973596](https://pubmed.ncbi.nlm.nih.gov/30973596/) | 2019 | Havainnoiva tutkimus | JAMA Ophthalmology | Verkkokalvon ei-perfundointioominaisuudet vaikeassa NPDR:ssä ja PDR:ssä ultra-leveäkentän angiografialla |
-| [33966556](https://pubmed.ncbi.nlm.nih.gov/33966556/) | 2021 | Katsaus | Expert Opinion on Biological Therapy | Katsaus ranibizumabiin diabeettisen retinoparian hoidossa |
-| [31669065](https://pubmed.ncbi.nlm.nih.gov/31669065/) | 2019 | Katsaus | Journal of Diabetes and its Complications | Edistysaskel diabeettisen retinoparian hoidossa; VEGF-A avaintekijänä etenemisessä |
-| [37278412](https://pubmed.ncbi.nlm.nih.gov/37278412/) | 2023 | Mallinnustutkimus | BMJ Open Ophthalmology | Intravitraalisen anti-VEGF-terapian pitkäaikaisen vaikutuksen simulointi vaikeaan NPDR:ään |
-| [40466685](https://pubmed.ncbi.nlm.nih.gov/40466685/) | 2025 | Kliininen havainnoiva tutkimus | Georgian Medical News | Anti-VEGF yhdessä panretinaalisen laserfotokoaglaation kanssa diabeettisessa retinopatiassa |
+| [40048178](https://pubmed.ncbi.nlm.nih.gov/40048178/) | 2025 | RCT | JAMA Ophthalmology | Pavilion: ranibitsumabin depotjärjestelmä vs. seuranta ei-proliferatiivisessa diabeettisessa retinopatiassa ilman makulaturvotusta |
+| [36774994](https://pubmed.ncbi.nlm.nih.gov/36774994/) | 2023 | RCT:n jälkianalyysi | Ophthalmology Retina | Retinopatian vaikeusasteen yhteys makulaturvotuksen väistymisaikaan ranibitsumabihoidossa (meta-analyysi vaiheen 3 tutkimuksista) |
+| [32606578](https://pubmed.ncbi.nlm.nih.gov/32606578/) | 2020 | RCT:n jälkianalyysi | Clinical Ophthalmology | Diabeettisen retinopatian varhaisen regression ennustetekijät RIDE/RISE-tutkimuksissa |
+| [36161830](https://pubmed.ncbi.nlm.nih.gov/36161830/) | 2022 | Jatkoanalyysi | BMJ Open Ophthalmology | Vähemmän tiheän ranibitsumabihoidon vaikutus retinopatian vaikeusasteeseen RIDE/RISE-jatkovaiheessa |
+| [30234859](https://pubmed.ncbi.nlm.nih.gov/30234859/) | 2018 | RCT:n jälkianalyysi | Retina | Retinopatian vaikeusasteen muutokset 5 vuoden aikana DRCR.net Protocol I -tutkimuksessa |
+| [28448655](https://pubmed.ncbi.nlm.nih.gov/28448655/) | 2017 | RCT:n jälkianalyysi | JAMA Ophthalmology | Retinopatian muutos kahden vuoden aikana: aflibertsepti, bevasitsumabi ja ranibitsumabi |
+| [33966556](https://pubmed.ncbi.nlm.nih.gov/33966556/) | 2021 | Katsaus | Expert Opin Biol Ther | Ranibitsumabi diabeettisen retinopatian hoidossa |
+| [42219053](https://pubmed.ncbi.nlm.nih.gov/42219053/) | 2026 | Systemaattinen katsaus ja meta-analyysi | European Journal of Pharmacology | Ranibitsumabin depotjärjestelmä diabeettisessa retinopatiassa ja makulaturvotuksessa |
+| [39673354](https://pubmed.ncbi.nlm.nih.gov/39673354/) | 2025 | Systemaattinen katsaus ja meta-analyysi | Health Technology Assessment | Anti-VEGF-lääkkeet vs. laserhoito diabeettisessa retinopatiassa |
+| [40969370](https://pubmed.ncbi.nlm.nih.gov/40969370/) | 2025 | Kohorttitutkimus | Frontiers in Endocrinology | Anti-VEGF- ja laserhoidon vasteen ennustetekijät vaikeassa ei-proliferatiivisessa retinopatiassa |
 
 ---
 
-## Suomen markkina-aineisto
+## Myyntiluvat Suomessa
 
-Ranibizumab ei ole tällä hetkellä **markkinoilla** Suomessa tämän todisteenpaketin mukaan (`market_status`: Not marketed, `total_licenses`: 0). Lupaaineistoja ei ole saatavilla.
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/005617 | Ximluci | – | Kostea silmänpohjan ikärappeuma, makulaturvotus, diabeettinen retinopatia, diabeteksen komplikaatiot (peruutettu) |
+| EMEA/H/C/000715 | Lucentis | – | Kostea silmänpohjan ikärappeuma, makulaturvotus, diabeteksen komplikaatiot, rappeuttava myopia, suonikalvon uudissuonittuminen (peruutettu) |
+| EMEA/H/C/006528 | Epruvy (aiemmin Ranibizumab Midas) | – | Kostea silmänpohjan ikärappeuma, makulaturvotus, suonikalvon uudissuonittuminen, diabeteksen komplikaatiot (peruutettu) |
+| EMEA/H/C/005019 | Ranivisio | – | Kostea silmänpohjan ikärappeuma, makulaturvotus, diabeettinen retinopatia, diabeteksen komplikaatiot (peruutettu) |
+| EMEA/H/C/006055 | Rimmyrah | – | Kostea silmänpohjan ikärappeuma, makulaturvotus, diabeteksen komplikaatiot, rappeuttava myopia, suonikalvon uudissuonittuminen (peruutettu) |
+
+Kaikkiaan myyntilupia on 7, ja ne ovat kaikki peruutettuja.
 
 ---
 
-## Turvallisuushuomiot
+## Turvallisuushuomioita
 
-Katso paketin selosteesta turvallisuustiedot.
+- **Tietopohjaan perustuva vasta-aihesignaali:** TxGNN-tietograafissa (ei valmisteyhteenvedon teksti) ranibitsumabiin liitetään vasta-aiheina silmän infektiosairaudet ja sidekalvotulehdus. Tämä on mallin signaali, ei virallinen vasta-aihetieto.
+- **Yksittäinen haittatapahtumaraportti:** Kirjallisuudessa on tapausselostus kapselilukkooireyhtymästä ranibitsumabin lasiaisensisäisen injektion jälkeen.
+- **Lääkeyhteisvaikutukset:** Yhteisvaikutuksia ei löytynyt tehdyssä haussa.
 
-*Huomautus: tämä todistepaketti merkitsee pysäyttävän vakavuuden tietoaukkoa (DG001) — TFDA:n paketin seloste, varoitukset ja vasta-aiheet ei voitu hakea, mikä sisäisen putkilinjan määritelmän mukaan estää S1-turvallisuuden alkuperäisen arviointiin. Lääkkeiden vuorovaikutustietojen haku palautti myös tuloksettoman (`not_found`).*
+Valmisteyhteenvedon varoitukset ja vasta-aiheet eivät olleet saatavilla, joten niiden tarkistus on tehtävä erikseen.
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Johtopäätös ja jatkotoimet
 
-**Päätös: Pidätä**
+**Päätös: Etene suojatoimin (Proceed with Guardrails)**
 
 **Perustelut:**
-- Tehokkuustodisteet ovat vahvat (L1: 3 valmistunutta vaihe 3 RCT:tä sekä laaja tukirakenne), ja VEGF-ohjattu mekanistinen yhteys alkuperäisen indikaation ja vaikeaan NPDR:ään on perusteltu.
-- Kuitenkin pysäyttävän vakavuuden tietokuilussa (DG001: puuttuvat TFDA-paketin seloste, varoitukset ja vasta-aiheet) estetään alkuperäisen turvallisuusarvioinnin S1-portin loppuunsaattaminen, eikä lääke ole tällä hetkellä markkinoilla Suomessa (0 lupaa).
+- Ennuste on mekanistisesti uskottava (VEGF-esto), ja kirjallisuudessa on satunnaistettu tutkimus (Pavilion) sekä RIDE/RISE-analyysejä. Ennustettuun käyttöaiheeseen ei ole annettu rekisteröityjä tutkimuksia, joten L1-taso perustuu kirjallisuuteen, ja suomalaiset myyntiluvat ovat kaikki peruutettuja.
 
-**Jatkamista varten tarvitaan seuraavaa:**
-- TFDA:n paketin seloste (varoitukset, vasta-aiheet) — vaaditaan S1-turvallisuusportin ylittämiseksi (DG001)
-- Virallinen vaikutusmekanismi-dokumentaatio DrugBankista (DG002)
-- Lääkkeiden vuorovaikutus (DDI) tiedot, koska nykyinen haku ei palauttanut tuloksia
-- Sääntelypolkuarviointi Suomen markkinoille, koska paikallisia lupia ei ole
-- Virallinen luokittelu (tutkimustyyppi / taso / relevanssi) tällä hetkellä "odottaviksi" merkituille kliinisille tutkimuksille ja kirjallisuustietueille
+**Jatkaminen edellyttää:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivustolta (estävä tietoaukko).
+- Vaikutusmekanismin vahvistamista DrugBankista.
+- Kirjallisuuden suhteen tarkistamista, koskevatko tulokset nimenomaan vaikeaa ei-proliferatiivista retinopatiaa.
+- Myyntilupatilanteen selvittämistä (peruutettujen lupien syyt ja mahdollinen uusi lupa tai käyttö muilla reiteillä).
 
+**Muut ennustetut käyttöaiheet (Odota / Hold):** Kaihin eri muodot (kypsymätön, kypsä, tetaaninen, kraniostenoosiin liittyvä, nukleaarinen, kortikaalinen, seniili ja tyypin 2 diabetekseen liittyvä kaihi) sekä vastasyntyneen verenvuototauti saivat korkeat ennustepisteet, mutta niille ei löytynyt uskottavaa mekanistista yhteyttä tai tukevaa terapeuttista näyttöä. Kirjallisuus koski pääosin verkkokalvosairauksia tai kaihileikkauksen yhteydessä annettua ranibitsumabia. Ainoa rekisteröity tutkimus (NCT01406639, perinnöllinen verenvuototauti HHT) peruttiin ilman osallistujia, eikä toinen tutkimus (NCT00470977) liity ennustettuun käyttöaiheeseen. Näitä ei suositella jatkoon.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

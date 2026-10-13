@@ -2,7 +2,7 @@
 layout: default
 title: Anidulafungin
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 33
+nav_order: 36
 evidence_level: L5
 indication_count: 0
 ---

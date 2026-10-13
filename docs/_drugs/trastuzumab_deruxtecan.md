@@ -2,7 +2,7 @@
 layout: default
 title: Trastuzumab Deruxtecan
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 388
+nav_order: 451
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,87 +29,89 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Trastuzumab deruxtecan: HER2-positiivisesta rinta- ja mahalaukisen syövästä lääkkeen aiheuttamaan osteoporoosiin
+# Trastutsumabideruksekaani: Rintasyövästä lääkkeen aiheuttamaan osteoporoosiin
 
 ## Yhden lauseen yhteenveto
 
-Trastuzumab deruxtecan on HER2-kohdennettu vasta-aine-lääkekonjugaatti (ADC), jota käytetään tällä hetkellä HER2-positiivisen rintasyövän, mahalaukisen syövän ja muiden kasvainten hoitoon. TxGNN-malli ennustaa mahdollista yhteyttä **lääkkeen aiheuttamaan osteoporoosiin**, mutta tämä ennuste on tällä hetkellä tuettu **0 kliinisellä tutkimuksella** ja **0 julkaisulla**, ja taustalla oleva mekanismi näyttää osoittavan vastakkaiseen suuntaan kliinisen uskottavuuden kannalta.
+Trastutsumabideruksekaani on HER2-kohdennettu vasta-aine–lääkekonjugaatti, jota on alun perin käytetty rintasyövän hoitoon. TxGNN-malli ennustaa sen voivan tehota **lääkkeen aiheuttamaan osteoporoosiin**, mutta ennustetta tukee tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua**, eli kyse on pelkästä mallin ennusteesta.
 
 ---
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
-| Kohde | Sisältö |
-|-------|---------|
-| Alkuperäinen indikaatio | HER2-positiivinen rintasyöpä, mahalaukisen syöpä ja muut kasvaimet (lääkkeen mekanismin kuvauksen mukaan; ei virallista indikaatiotietoa tässä tietoaineistossa) |
-| Ennustettu uusi indikaatio | Lääkkeen aiheuttama osteoporoosi |
-| TxGNN-ennustepistemäärä | 99.31% (sijoitus 7027) |
-| Näyttötaso | L5 |
-| Suomen markkinatilanne | ✗ Ei markkinoitu |
-| Hyväksynnän määrä | 0 |
-| Suositeltu päätös | Keskeytä |
-
----
-
-## Miksi tämä ennuste on järkevä?
-
-Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla strukturoidussa muodossa. Tämän näyttöpaketin tunnettujen tietojen perusteella trastuzumab deruxtecan on HER2-kohdennettu vasta-aine-lääkekonjugaatti, jonka kuorma, DXd, on topoisomeraasi I -inhibiittori — sytostaattisen kemoterapia-agentin luokka. Se käytetään kliinisesti HER2-positiivisen rintasyövän, mahalaukisen syövän ja niihin liittyvien kasvainten hoitoon.
-
-Ei ole tunnettua farmakologista polkua, jonka kautta tämä lääke hoitaisi osteoporosia. Päinvastoin, sytostaattiset ADC:t ja niihin liittyvät syöpähoidon skeemit (kemoterapia, kortikosteroidit, munasarjojen/endokriininen supressio) ovat tunnistettuja riskitekijöitä, jotka **aiheuttavat** luun menetystä sen sijaan, että ne kääntäisivät sitä. Ennustetun assosiaation suunta on siksi vastoin lääkkeen tunnetusta farmakologiasta.
-
-Näistä syistä ennuste tulkitaan parhaiten todennäköisesti mallin kohinaksi tai kääntyneeksi/sekaantuneeksi assosiaatioksi TxGNN-tietoverkossa eikä aidoksi uudelleenkäyttösignaaliksi. Minkään tukevan kliinisen kokeen, kirjallisuuden tai vaikutusmekanismin dokumentaation puuttuminen rajoittaa entisestään luottamusta tähän ennusteeseen.
+| Kohta | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | Rintasyöpä (Breast Neoplasms) |
+| Ennustettu uusi käyttöaihe | Lääkkeen aiheuttama osteoporoosi |
+| TxGNN-ennustepistemäärä | 99,31 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Kliinisten tutkimusten näyttö
+## Miksi ennustetta voidaan pitää perusteltuna?
 
-Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia
+Tämän lääkkeen alkuperäisestä vaikutusmekanismista ei ole tällä hetkellä saatavilla yksityiskohtaista tietoa. Tunnetun tiedon perusteella trastutsumabideruksekaani on HER2-kohdennettu vasta-aine–lääkekonjugaatti, jonka kuormana on topoisomeraasi I:n estäjä (deruksekaani). Sen teho HER2-positiivisessa rintasyövässä on osoitettu.
 
----
+Tämän raportin käytettävissä olevan datan perusteella HER2-kohdentamisen tai topoisomeraasi I:n eston ja lääkkeen aiheuttaman osteoporoosin ehkäisyn tai hoidon välillä ei ole tunnettua biologista yhteyttä. Korkea TxGNN-pistemäärä (0,993) on pelkkä tietograafiin perustuva ennuste, jota mikään kliininen tai kirjallisuusnäyttö ei tue.
 
-## Kirjallisuuden näyttö
-
-Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta
+Ennuste voi heijastaa pikemminkin tietograafin sisäistä läheisyyttä, esimerkiksi yhteisiä liittymiä syöpälääkkeiden tai luukatoa aiheuttavien hoitojen kanssa, kuin todellista hoitovaikutusta. Lisäksi solunsalpaajakuorma ja syövän tukihoidon konteksti voivat pikemminkin lisätä luuston terveyteen liittyviä huolia.
 
 ---
 
 ## Suomen markkinatiedot
 
-Tämä lääke ei ole tällä hetkellä markkinoitu Suomessa, eikä markkinointilupia ole kirjattu.
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/005124 | Enhertu | – | Rintasyöpä (Breast Neoplasms) (tila: peruutettu) |
 
 ---
 
-## Sytostaattisuus
+## Sytotoksisuus
 
-| Kohde | Sisältö |
-|-------|---------|
-| Sytostaattisuusluokitus | Kohdennettu terapia (ADC), jolla on sytostaattinen kuorma — topoisomeraasi I -inhibiittori (DXd) |
-| Luuydinsuppression riski | Katso pakkausselosteesta varoitukset ja varotoimet |
-| Emetogenisuusluokitus | Katso pakkausselosteesta varoitukset ja varotoimet |
-| Valvontakohteet | Katso pakkausselosteesta varoitukset ja varotoimet |
-| Käsittelysuojaus | Sytostaattisen lääkkeen käsittelysuojaukset ovat sovellettavissa, koska kuormalla on sytostaattinen (topoisomeraasi I -inhibiittori) vaikutus |
-
----
-
-## Turvallisuushuomiot
-
-Katso pakkausselosteesta turvallisuustiedot.
+| Kohta | Sisältö |
+|------|------|
+| Sytotoksisuusluokitus | Kohdennettu hoito: vasta-aine–lääkekonjugaatti, jossa topoisomeraasi I:n estäjä -kuorma |
+| Luuydinsuppression riski | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Oksentelua aiheuttavuus | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Seurantakohteet | Katso valmisteyhteenvedon varoitukset ja varotoimet; yleisesti verenkuva, maksa- ja munuaisarvot |
+| Käsittelyn suojaus | Noudatettava sytotoksisten lääkkeiden käsittelyohjeita |
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Turvallisuusnäkökohdat
 
-**Päätös: Keskeytä**
+**Lääkeyhteisvaikutukset:** Yhteisvaikutuskyselyssä löytyi yhteensä 42 yhteisvaikutusta. Merkittävimpiä (vaikeusaste Major) ovat:
+
+- Deferipröni
+- Samarium (153Sm) leksidronaami
+- Adalimumabi
+- Barisitinibi
+- Sertolitsumabipegoli
+- Kladribiini
+- Leflunomidi
+- Natalitsumabi
+
+Keskivaikeita (Moderate) yhteisvaikutuksia on mm. palifermiinin, strontiumkloridi Sr-89:n, roflumilastin, kloramfenikolin, alemtutsumabin, atsatiopriinin, dimetyylifumaraatin ja niraparibin kanssa. Useat näistä ovat immuunijärjestelmää tai luuytimen toimintaa heikentäviä lääkkeitä.
+
+Muista turvallisuustiedoista (varoitukset, vasta-aiheet) tarkista tiedot valmisteyhteenvedosta.
+
+---
+
+## Johtopäätös ja seuraavat askeleet
+
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Huolimatta korkeasta TxGNN-ennustepisteestä, ei ole olemassa yhtään kliinistä koetta tai kirjallisuustoista (Näyttötaso L5), ja ehdotettu mekanismi vastustaa lääkkeen tunnetun sytostaattisen farmakologian kanssa — sytostaattiset syöpälääkkeet ovat luultavammin *aiheuttavat* lääkkeen aiheuttamaa osteoporosia sen sijaan, että ne hoitaisivat sitä. Tämä kuvio on yhdenmukainen mallin kohinan kanssa, ei aito uudelleenkäyttösignaali.
+- Ennuste perustuu ainoastaan TxGNN-mallin pistemäärään (näytön taso L5). Kliinisiä tutkimuksia tai julkaisuja ei ole, eikä uskottavaa mekanistista yhteyttä ole osoitettu. Lisäksi lääkkeen myyntilupa Suomessa on peruutettu.
 
-**Jotta voidaan edetä, seuraavaa tarvitaan:**
-- Strukturoidut vaikutusmekanismin (MOA) tiedot DrugBankista tai toisesta virallisesta lähteestä
-- TFDA/viranomaisten pakkausseloste (varoitukset, vasta-aiheet) täydellisen perusturvallisuusarvioinnin suorittamiseksi
-- Itsenäinen biologinen perusteltu tai prekliininen näyttö, joka selittää mahdollisen yhteyden luun aineenvaihduntaan ennen lisäinvestointeja
-- Kirjallisuus- ja tutkimusneuvojen jatkuva seuranta uusien näyttöjen varalta
-
+**Jatkotoimien edellytykset:**
+- Vaikutusmekanismitietojen (MOA) täydentäminen esimerkiksi DrugBankista
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean sivustolta, jotta turvallisuusarviointi voidaan aloittaa
+- Prekliiniset tai mekanistiset tutkimukset, jotka selvittävät mahdollisen yhteyden luuhun ja osteoporoosiin
+- Myyntiluvan peruuntumisen syyn ja nykyisen saatavuuden selvittäminen
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

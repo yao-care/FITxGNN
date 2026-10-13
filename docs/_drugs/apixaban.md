@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Apixaban
-parent: Pelkkä mallin ennuste (L5)
-nav_order: 36
-evidence_level: L5
+parent: Kohtalainen näyttö (L3-L4)
+nav_order: 39
+evidence_level: L4
 indication_count: 1
 ---
 
 # Apixaban
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **1** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,69 +29,74 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Apixaban: Näyttöpaketti puutteellinen — uudelleenkohdentamisen ehdokkaita ei tunnistettu
+# Apiksabaani: Tromboembolian ehkäisystä migreeniin
 
 ## Yhden lauseen yhteenveto
 
-Apixaban on suora antikoagulantti (Tekijä Xa:n estäjä), jota käytetään laajalti kansainvälisesti aivohalvauksen ehkäisyyn eteisvärinässä ja laskimotromboembolia (VTE) hoidossa.
-Nykyinen Näyttöpaketti (v4) ei palautunut mitään TxGNN-ennustamia uusia indikaatioita, ja kriittiset lähtötiedot — mukaan lukien vaikutusmekanismi ja turvallisuusdata — jäävät ratkaisematta.
-Tämä raportti on alustavaa paikkamerkki; täydellinen uudelleenkohdentamisen arviointi ei voi edetä, kunnes tietojen puutteet on korjattu.
+Apiksabaani on suoraan vaikuttava tekijä Xa:n estäjä, jota on alun perin käytetty laskimotromboembolian ehkäisyyn ja hoitoon sekä aivohalvauksen ehkäisyyn nivelleikkausten yhteydessä. TxGNN-malli ennustaa sen voivan tehota **migreeniin**, mutta tuki on heikko: tätä varten koottu aineisto sisältää **1 epäsuorasti liittyvän kliinisen tutkimuksen** ja **3 julkaisua**, joista kaksi on yksittäisiä tapausselostuksia ja ne antavat keskenään ristiriitaisia tuloksia.
 
----
+## Pikakatsaus
 
-## Pika-yleiskatsaus
+| Kohta | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | Nivelleikkaus (artroplastia), laskimotromboembolia |
+| Ennustettu uusi käyttöaihe | Migreeni (migraine disorder) |
+| TxGNN-ennusteen pistemäärä | 99,02 % |
+| Näytön taso | L4 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 2 (kaikki peruutettuja) |
+| Suositeltu päätös | Hold (odota) |
 
-| Kohde | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Ei saatavilla Näyttöpaketista |
-| Ennustettu uusi indikaatio | Ei tunnistettu |
-| TxGNN-ennustepistemäärä | N/A |
-| Näyttötaso | — (ei ennusteita arvioitavaksi) |
-| Taiwanin markkinatilanne | Ei markkinoilla (Ei markkinoilla) |
-| Lupien lukumäärä | 0 |
-| Suositeltu päätös | **Pidä** |
+## Miksi ennuste on perusteltu?
 
----
+Tässä raportissa käytetyssä aineistossa ei ole saatavilla yksityiskohtaista vaikutusmekanismitietoa. Tiedossa on, että apiksabaani on suora Xa-tekijän estäjä, jonka teho laskimotromboembolian ja aivohalvauksen ehkäisyssä on osoitettu ja joka voisi mekanistisesti liittyä tiloihin, joissa tromboosilla on osuutensa.
 
-## Miksi ennusteita ei ole saatavilla
+Ehdotettu yhteys migreeniin on epäsuora. Auralliseen migreeniin on esitetty liittyvän paradoksaalinen embolia avoimen foramen ovalen (PFO) kautta, mikrotromboosit tai suurentunut hyytymistaipumus, esimerkiksi fosfolipidivasta-aineiden yhteydessä. Tällöin antitromboottinen hoito voisi vähentää aurasta ja kohtauksia.
 
-TxGNN-malli palautti tyhjän `predicted_indications`-listan Apixabanille. Kyselylokin perusteella DrugBank kyselyyn vastattiin onnistuneesti (result_count: 1), mutta putkilinja ei tuottanut pisteytettyjä ehdokkaita. Kolme todennäköistä syytä:
+Yhteys on kuitenkin epävarma. Tapausselostukset osoittavat eri suuntiin: yhdessä aurallinen migreeni paheni apiksabaanin aloituksen jälkeen, toisessa oireet hävisivät varfariinilla mutta eivät apiksabaanilla. Mahdollinen vaikutus ei siis ole yleinen antikoagulanttien luokkavaikutus, eikä välttämättä koske Xa-tekijän estoa. Korkea TxGNN-pistemäärä on laskennallinen ennuste eikä korvaa kliinistä näyttöä.
 
-1. **Puuttuvat alkuperäiset indikaatiot**: `original_indications`-kenttä on tyhjä, mikä on saattanut aiheuttaa, että taudin ja lääkkeen verkon läpikulku aloitettiin määrittelemättömästä ankkuripisteestä, jolloin ei syntynyt ehdokasteitä.
-2. **MOA-puuttue (DG002, korkea vakavuus)**: Ilman vaikutusmekanismin tietoja TxGNN ei voi rakentaa mekanismitason samankaltaisuuspiirteitä, joita käytetään ehdokassairauden-lääkkeen linkkien pisteyttämiseen.
-3. **Turvallisuusportti ei läpäissyt (DG001, estävä vakavuus)**: TFDA:n pakkausseloste-kysely palautti tuloksen, mutta varoitukset/vasta-aiheet eivät jäsentyneet Näyttöpakettiin. Tämä estävä puuttue estää putkilinjaa etenemästä turvallisuuden esiarviointiin (S1), mikä on saattanut pysäyttää koko työnkulun.
+## Kliininen tutkimusnäyttö
 
-Kunnes kaikki estävät puutteet on ratkaistu ja TxGNN-ajo suoritetaan uudelleen, uudelleenkohdentamisen ehdokkaita ei voi arvioida.
+| Tutkimustunnus | Vaihe | Tila | Osallistujia | Keskeiset havainnot |
+|---------|------|------|------|---------|
+| [NCT00562289](https://clinicaltrials.gov/study/NCT00562289) | Vaihe 3 | Valmistunut | 664 | Avoimen foramen ovalen sulku tai antikoagulantit verrattuna verihiutaleiden estoon aivohalvauksen uusiutumisen ehkäisyssä. Ei suoraa migreeninäyttöä; apiksabaania ei mainita nimeltä. Yhteys on korkeintaan epäsuora PFO–migreeni-hypoteesin kautta. |
 
----
+## Kirjallisuusnäyttö
 
-## Taiwanin markkinatiedot
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|---------|-----|------|------|---------|
+| [33402037](https://pubmed.ncbi.nlm.nih.gov/33402037/) | 2021 | Retrospektiivinen tutkimus (75 potilasta) | Lupus | Antitromboottisen hoidon vaste refraktaarisessa migreenissä potilailla, joilla on fosfolipidivasta-aineita. Tutkimuksen rakenne, käytetyt lääkkeet ja apiksabaanin osuus on vielä varmistettava. |
+| [37582651](https://pubmed.ncbi.nlm.nih.gov/37582651/) | 2023 | Tapausselostus ja kirjallisuuskatsaus | The Neurologist | Aurallinen migreeni paheni apiksabaanin aloituksen jälkeen. Suorien antikoagulanttien vaikutus migreeniin on epäselvä ja kirjallisuus niukkaa ja ristiriitaista. |
+| [28960288](https://pubmed.ncbi.nlm.nih.gov/28960288/) | 2017 | Tapausselostus | Headache | 55-vuotiaan naisen aurallinen migreeni oli remissiossa 12 vuotta varfariinilla, oireet palasivat kolmessa viikossa apiksabaaniin vaihdettaessa ja hävisivät uudelleen varfariinilla. |
 
-Apixabanilla ei ole **rekisteröityjä myyntilupia** Taiwan FDA:ssa (TFDA). Lääkettä ei markkinoida kaupallisesti Taiwanissa minkään tuotenimen alla tietojen rajapäivään (2026-04-20) mennessä.
+## Myyntitiedot Suomessa
 
----
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/002148 | Eliquis | – | Nivelleikkaus, laskimotromboembolia |
+| EMEA/H/C/005358 | Apixaban Accord | – | Laskimotromboembolia, aivohalvaus, nivelleikkaus |
+
+Molemmat myyntiluvat on peruutettu.
 
 ## Turvallisuusnäkökohdat
 
-Katso pakkausselosteesta turvallisuustiedot.
+Pakkausselosteen varoitus- ja vasta-aihetietoja ei ole saatavilla tätä raporttia varten koottuun aineistoon, joten niihin on tutustuttava valmisteyhteenvedosta.
 
----
+- **Lääkeyhteisvaikutukset**: Yhteisvaikutushaussa löytyi yhteensä 100 yhteisvaikutusta. Esimerkkeinä vaikeusasteeltaan **merkittäviä (Major)** yhteisvaikutuksia ovat asetyylisalisyylihappo (lisääntynyt verenvuotoriski), kobisistaatti, deferasiroksi, ibritumomabitiuksetaani ja tositumomabi (I-131). **Kohtalaisia (Moderate)** ovat mm. aprepitantti, klaritromysiini, klotrimatsoli, deksametasoni, mikonatsoli, rolapitantti ja sugammadeksi.
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Pidä**
+**Päätös: Hold (odota)**
 
-**Perustelut:**
-Kaksi ratkaisematta jäänyttä tietojen puutetta — yksi estävä (DG001: TFDA:n pakkausseloste turvallisuusdata) ja yksi korkea (DG002: MOA) — estävät jopa alustavaa arviointia. Lisäksi TxGNN-malli tuotti nolla ennusteita, mikä tarkoittaa, että uudelleenkohdentamisen hypoteesia ei ole arvioitavaksi tässä vaiheessa.
+**Perustelu:**
+- Ennuste perustuu lähinnä malliin: kliininen tutkimus ei käsittele migreeniä, ja tapausselostukset ovat ristiriitaisia, osa jopa viittaa oireiden pahenemiseen apiksabaanilla. Lisäksi Suomen myyntiluvat on peruutettu ja turvallisuustiedot puuttuvat.
 
-**Jatkaakseen seuraava on tarpeen:**
-
-- [ ] **Suorita TxGNN-putkilinja uudelleen** ratkaisemisen jälkeen DG001:n ja DG002:n — `predicted_indications`-lista täytyy täyttää ennen kuin mitään arviointia voidaan suorittaa
-- [ ] **Ratkaise DG001 (estävä)**: Lataa ja jäsennä TFDA:n pakkausseloste-PDF puruaksesi varoitukset ja vasta-aiheet; tämä vaaditaan S1-turvallisuuden esiarviointiin
-- [ ] **Ratkaise DG002 (korkea)**: Kysy DrugBank API:sta Apixabanin vaikutusmekanismia (Tekijä Xa:n esto-polkua) ja täytä `original_moa`
-- [ ] **Täytä `original_indications`**: Lisää hyväksytyn indikaation luettelo (esim. aivohalvauksen ehkäisy ei-venttiiliperäisessä eteisvärinässä, VTE:n hoito/profylaksia) antaaksesi TxGNN:lle oikeat verkko-ankkuripisteet
-- [ ] **Suorita DDI-kysely uudelleen**: DDI-haku palautti `not_found`; tarkista, heijasteleeko tämä todellista vuorovaikutustietojen puuttumista vai kyselyn epäonnistumista
-
+**Eteneminen edellyttää seuraavaa:**
+- Mekanismitiedon (MOA) täydentäminen ja Xa-tekijän eston mahdollisen yhteyden migreeniin arviointi
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden kokoaminen turvallisuusarviointia varten
+- Tutkimuksen PMID 33402037 rakenteen ja apiksabaanin osuuden tarkistaminen
+- Ennen kliinistä jatkoa tarvitaan satunnaistettu tutkimus tai vähintään järjestelmällinen näyttö apiksabaanin vaikutuksesta migreeniin, mieluiten PFO- tai fosfolipidivasta-ainepotilailla
+- Myyntiluvan tilanteen selvittäminen Suomessa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -2,7 +2,7 @@
 layout: default
 title: Reteplase
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 322
+nav_order: 376
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,62 +29,85 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Reteplase: Akuutista mykardiainfarktista posteroinferioriseen mykardiainfarktiin
+# Reteplaasi: Sydäninfarktista posteroinferiorisen sydäninfarktin ennustettuun käyttöaiheeseen
 
-## Yhden lauseen yhteenveto
+## Yhden virkkeen yhteenveto
 
-Reteplase on rekombinantti trombolitikum (plasminogeeniaktivaattori), jota on alun perin käytetty koronaarisen verenvirtauksen palauttamiseen akuutissa mykardiainfarktissa. TxGNN-mallin ylin ennuste on **posteroinferiorinen mykardiainfarktio**, mutta sitä tukee tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua** — pistemäärä heijastaa reteplaksen olemassa olevan trombolitisen käytön mekanistista päällekkäisyyttä, ei uutta kliinistä näyttöä.
+Reteplaasi on yhdistelmä-kudosplasminogeeniaktivaattorin muunnos, jota on alun perin käytetty sydäninfarktin hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **posteroinferioriseen sydäninfarktiin**, mutta ennuste perustuu pelkkään mallilaskentaan: tähän kohteeseen ei ole rekisteröityjä kliinisiä tutkimuksia eikä julkaisuja. Lisäksi kohde on alkuperäisen käyttöaiheen alatyyppi, ei varsinainen uusi käyttöaihe.
 
-## Nopea yleiskatsaus
+## Pikayhteenveto
 
-| Kohta | Sisältö |
-|-------|---------|
-| Alkuperäinen indikaatio | Akuutti mykardiainfarktio (trombolitinen reperfuusiohoito) — ei dokumentoitu erikseen Suomen sääntelytiedoissa, koska reteplasia ei ole tällä hetkellä markkinoilla Suomessa |
-| Ennustettu uusi indikaatio | Posteroinferiorinen mykardiainfarktio |
-| TxGNN-ennusteen pistemäärä | 99.90% |
-| Näytön taso | L4 (lähteisiin perustuva pisteytysjärjestelmä); raakojen tutkimusten ja kirjallisuuden määrän perusteella tämä ehdokas sijoittuisi tasoon L5 |
-| Suomen markkina-asema | Ei markkinoilla |
-| Myyntilupien määrä | 0 |
-| Suositeltu päätös | Odota |
+| Kohde | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | Sydäninfarkti |
+| Ennustettu uusi käyttöaihe | Posteroinferiorinen sydäninfarkti |
+| TxGNN-ennusteen pistemäärä | 99,90 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennuste on järkevä?
+## Miksi ennuste on perusteltu?
 
-Reteplaksen strukturoitua mekanismin toimintamerkintöjen tietoa ei ole saatavilla tässä näytöpaketissa. Pakettiin kuuluvien muiden tietojen perusteella reteplase on toisen sukupolven rekombinantti kudostyypin plasminogeeniaktivaattori (r-PA, yhdiste BM 06.022), joka katalysoi plasminogeenin muuntumista plasmiinaksi ja liuottaa koronaarisia trombia palauttaen perfuusion tukittuihin valtimosiipoihin. Tämä mekanismi on farmakologinen perusta sen vakiintuneen käytön taustalla akuutissa mykardiainfarktissa.
+Reteplaasi on yhdistelmä-DNA-tekniikalla tuotettu kudosplasminogeeniaktivaattorin muunnos. Se muuttaa plasminogeenin plasmiiniksi, joka liuottaa sepelvaltimoa tukkivan trombin. Tämä kuvaus perustuu yleiseen farmakologiseen tietoon, sillä tähän raporttiin koottu aineisto ei sisällä yksityiskohtaista vaikutusmekanismitietoa.
 
-"Posteroinferiorinen mykardiainfarktio" ei ole erillinen tauti — se on akuutin infarktin anatominen alatyyppi, joka kuvaa infarktoituneen sydänlihaksen sijaintia pikemmin kuin erilaista patologiaa. Koska reteplaksen trombolitinen vaikutus palauttaa virtauksen infarktiin liittyvässä valtimossa anatomisesta alueesta riippumatta, on mekanistisesti uskottavaa, että lääke toimisi myös täällä — itse asiassa tämän alatyypin voidaan todennäköisesti katsoa kuuluvan jo reteplaksen olemassa olevaan AMI-indikaatioon pikemmin kuin todella uuteen käyttöön.
+Posteroinferiorinen sydäninfarkti on hyväksytyn käyttöaiheen (sydäninfarkti) anatominen alatyyppi. Mekanistinen yhteys on siksi uskottava: molemmissa tilanteissa taustalla on sepelvaltimon trombiin liittyvä tukos. Samasta syystä kyse ei ole aidosta lääkkeen uudelleenkäytöstä. Korkea pistemäärä kuvastaa pikemminkin sitä, että kohde on lähellä alkuperäistä käyttöaihetta.
 
-Tämä on juuri syy, miksi näyttöpaketti itse merkitsee ennusteen heikoksi: mikään tässä aineistossa oleva kliininen tutkimus tai julkaisu ei tutki posteroinferiorista infarktiota erillisenä väestönä, joten TxGNN:n korkea pistemäärä johtuu mekanistisesta/anatomisesta läheisyydestä tietoverkon sisällä pikemmin kuin suorasta kliinisestä vahvistuksesta.
+Muut ennustetut kohteet ovat enimmäkseen heikosti perusteltuja. Perinnölliset trombofiliat (hepariinikofaktori 2:n puutos, antitrombiinin puutos tyyppi 2) voisivat teoriassa liittyä akuuttiin tromboosiin, mutta liuotushoito ei korjaa taustasairautta ja siihen liittyy verenvuotoriski. Kromosomipoikkeama, beetatalassemia ja glukoosifosfaatti-isomeraasin puutoksen aiheuttama hemolyyttinen anemia eivät ole uskottavia kohteita, ja ne ovat todennäköisesti tietämysgraafin artefakteja.
 
-## Kliinisten tutkimusten näyttö
+## Kliiniset tutkimukset
 
-Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
+Toistaiseksi ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia. Tämä koskee ensisijaista ennustetta sekä kaikkia muita ennustettuja kohteita.
 
-## Kirjallisuuden näyttö
+## Kirjallisuusnäyttö
 
-Tällä hetkellä kirjallisuuden näyttöä ei ole saatavilla.
+Ensisijaiselle kohteelle (posteroinferiorinen sydäninfarkti) ei ole kirjallisuutta. Alla on lähimpien muiden ennustettujen kohteiden kirjallisuus. Se tukee ennustetta vain välillisesti.
 
-## Suomen markkina-asema
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [15800019](https://pubmed.ncbi.nlm.nih.gov/15800019/) | 2005 | Kohortti (GUSTO-V-aineiston jälkianalyysi) | European Heart Journal | Aktivoidun partiaalisen tromboplastiiniajan (aPTT) yhteys kliinisiin tuloksiin, kun annettiin tavanomainen reteplaasiannos tai puolikas annos reteplaasia yhdessä abtsiksimabin kanssa. Kohteena sepelvaltimostenoosi. |
+| [11079647](https://pubmed.ncbi.nlm.nih.gov/11079647/) | 2000 | Kliininen tutkimus | Journal of the American College of Cardiology | Varhaisen pallolaajennuksen (PCI) hyödyntäminen reteplaasin jälkeen, abtsiksimabin kanssa tai ilman (SPEED/GUSTO-4-pilotti) sydäninfarktissa. |
+| [21351226](https://pubmed.ncbi.nlm.nih.gov/21351226/) | 2011 | Tapausselostus | Catheterization and Cardiovascular Interventions | Suojaamattoman vasemman päärungon primaari-PCI sepelvaltimoon laitetuilla lääkepinnoitetuilla stenteillä, apuna sepelvaltimonsisäinen reteplaasi; potilaalla posterolateraalinen infarkti. |
+| [16786798](https://pubmed.ncbi.nlm.nih.gov/16786798/) | 2005 | Tapausselostus | Przeglad Lekarski | Alaseinän ja oikean kammion infarkti potilaalla, jolla synnynnäinen eteisväliseinän aukko. Reteplaasi ja abtsiksimabi johtivat EKG:n perusteella reperfuusioon. |
+| [34512848](https://pubmed.ncbi.nlm.nih.gov/34512848/) | 2021 | Tapausselostus / katsaus (EKG-diagnostiikka) | Pan African Medical Journal | De Winter -kuvio spontaanin sepelvaltimotukoksen tunnistamisessa. Diagnostinen artikkeli, ei näyttöä reteplaasin hyödystä. |
 
-Reteplase ei ole tällä hetkellä markkinoilla Suomessa (0 lupaa rekisterissä; markkina-asema: Ei markkinoilla).
+## Myyntiluvat Suomessa
 
-## Turvallisuushuomiot
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000105 | Rapilysin | – | Sydäninfarkti |
 
-Katso turvallisuustiedot tuotetiedotteesta. Huomaa, että **turvallisuustiedon puutos** on olemassa: reteplaksen Fimean/TFDA-tuotetiedotteen varoitukset ja vasta-aiheet eivät ole vielä haettu, mikä tällä hetkellä estää muodollisen alkuperäisen turvallisuusseulonnan (S1) tälle ehdokkaalle.
+Myyntilupa on peruutettu, eikä voimassa olevia myyntilupia ole.
 
-## Johtopäätös ja seuraavat vaiheet
+## Turvallisuusnäkökohdat
 
-**Päätös: Odota**
+- **Lääkeyhteisvaikutukset:** Yhteisvaikutushaku tuotti yhteensä 100 tulosta. Merkittävimmät (vaikeusaste "Major") ovat vuotoriskiä lisäävien tai hyytymiseen vaikuttavien lääkkeiden kanssa:
+  - abtsiksimabi
+  - apiksabaani
+  - betriksabaani
+  - akalabrutinibi
+  - avapritinibi
+  - deferasiroksi
+  - ibritumomabitiuksetaani
+  - tositumomabi (myös I-131)
+- Keskivaikeita (Moderate) yhteisvaikutuksia on mm. asetyylisalisyylihapon, ibuprofeenin, ketorolaakin, selekoksibin, aminokapronihapon, omega-3-rasvahappojen, deksfenfluramiinin, fenfluramiinin ja sibutramiinin kanssa.
 
-**Perustelu:**
-Korkeimmin sijoittunut ennuste (posteroinferiorinen MI) ei ole tuettu suorilla kliinisillä tutkimuksilla tai kirjallisuudella ja se päällekkäistyy suurelta osin reteplaksen olemassa olevan yleisen AMI-indikaation kanssa pikemmin kuin edustaa uutta uudelleenkäyttömahdollisuutta. Turvallisuustiedon puutos (sääntelylliset tuotetiedot/varoitukset) estää myös alkuperäisen turvallisuusseulonnan.
+Muiden turvallisuustietojen osalta katso valmisteyhteenveto.
 
-**Jatkaaksesi seuraavaa tarvitaan:**
-- Fimean/TFDA-tuotetiedote (varoitukset, vasta-aiheet) — tällä hetkellä este (DG001)
-- Vahvistettu mekanismin toimintaa koskeva dokumentaatio DrugBankista (DG002)
-- Selkeytys siitä, pitäisikö "posteroinferiorista MI:tä" arvioida erillisenä uudelleenkäyttöehdokkaana vai sisällyttää se reteplaksen olemassa olevaan AMI-indikaatioon
+## Johtopäätös ja jatkotoimet
 
-**Huomio vahvemmasta vaihtoehtoisehdokkaasta:** kymmenen ennusteen joukossa tässä näytöpaketissa **koronaarinen stenoosi** (sijoitus 5, TxGNN-pistemäärä 99.62%) on huomattavasti paremmin tuettu — näytön taso L3, päätösvaihe S2, 6 kirjallisuusviitetta (mukaan lukien RCT/kohorttitietoja, kuten SPEED/GUSTO-4-tutkimus ja GUSTO-V-tulosanalyysi), ja lähteen suositus on "Jatka varauksilla." Tämä ehdokas saattaa vaatia priorisointia korkeimmin sijoitetun mutta näytöltään heikon posteroinferiorisen MI-ennusteen edelle.
+**Päätös: Hold (odota)**
 
+**Perustelut:**
+- Ensisijaiselle ennusteelle on vain mallipohjainen tuki (L5), eikä kliinisiä tutkimuksia tai julkaisuja ole. Kohde on lisäksi jo hyväksytyn käyttöaiheen alatyyppi. Ainoa valmiste on peruutettu markkinoilta Suomessa.
+
+**Jatkaminen edellyttää seuraavaa:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean sivustolta (turvallisuusseulonnan estävä tietoaukko)
+- Vaikutusmekanismin yksityiskohtaisten tietojen täydentäminen DrugBankista
+- Arvio siitä, onko alatyypin erillinen arviointi lainkaan tarpeen, koska se kuuluu jo hyväksyttyyn sydäninfarktin käyttöaiheeseen
+- Sepelvaltimostenoosin tarkastelu mahdollisena jatkotutkimuskysymyksenä (reteplaasia on tutkittu PCI:n apuna), mutta nykyinen näyttö on vain epäsuoraa
+- Vuotoriskin arviointi yhteisvaikutusten osalta, erityisesti antikoagulanttien ja verihiutaleiden estäjien kanssa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

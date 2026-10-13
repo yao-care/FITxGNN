@@ -2,7 +2,7 @@
 layout: default
 title: Lecanemab
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 219
+nav_order: 253
 evidence_level: L5
 indication_count: 0
 ---

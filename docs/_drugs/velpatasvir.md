@@ -2,15 +2,15 @@
 layout: default
 title: Velpatasvir
 parent: Kohtalainen näyttö (L3-L4)
-nav_order: 399
-evidence_level: L4
+nav_order: 465
+evidence_level: L3
 indication_count: 10
 ---
 
 # Velpatasvir
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,100 +29,105 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Velpatasvir: kroonisesta hepatiitista C hepatiitti B -viruksen infektioon
+# Velpatasviiri: Krooninen hepatiitti C -> hepatiitti B -virusinfektio (ennuste)
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Velpatasvir on NS5A-inhibiittori, jota käytetään antiviruksena kiinteissä yhdistelmävalmisteissa (esim. sofosbuvir/velpatasvir) kroonisen hepatiitti C -infektion hoidossa. TxGNN ennustaa, että se saattaa olla tehokas myös **hepatiitti B -viruksen infektioita** vastaan (pistemäärä **99.87%**), mutta 26:sta tälle yhdistelmälle haetuista kliinisistä tutkimuksista ja 20 julkaisusta vain yksi tutkimus ja yksi tapausraportti viittaavat HBV:iin — eikä kumpaakaan osoita antivirusvaikutusta HBV:ää vastaan.
+Velpatasviiri on HCV:n NS5A-estäjä, jota on alun perin käytetty kroonisen hepatiitti C:n hoitoon. TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **hepatiitti B -virusinfektion**, mutta ennuste ei perustu tunnettuun vaikutusmekanismiin. Aiheesta on **5 kliinistä tutkimusta** ja **20 julkaisua**, jotka koskevat lähes yksinomaan HCV-hoitoa tai HCV/HBV-samanaikaista infektiota, eivät velpatasviirin omaa HBV-vaikutusta.
 
 ---
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Krooninen hepatiitti C (osana kiinteitä yhdistelmävalmisteita, kuten sofosbuvir/velpatasvir) — virallista käyttöaiherekisteröintiä ei löytynyt tästä näyttöpaketista |
-| Ennustettu uusi käyttöaihe | Hepatiitti B -viruksen infektio |
-| TxGNN-ennusteen pistemäärä | 99.87% |
-| Näyttötaso | L4 |
-| Suomen markkinatilanne | Ei markkinoilla |
-| Valtuutusten lukumäärä | 0 |
-| Suositeltu päätös | Odota |
+| Alkuperäinen käyttöaihe | Krooninen hepatiitti C |
+| Ennustettu uusi käyttöaihe | Hepatiitti B -virusinfektio |
+| TxGNN-ennusteen pistemäärä | 99,87 % |
+| Näytön taso | L3 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 2 (molemmat peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Miksi tämä ennuste on järkevä?
+## Miksi ennuste on (tai ei ole) perusteltu?
 
-Velpatasvirin yksityiskohtaisia toimintamekanismeja koskevat tiedot on virallisesti listattu tämän näyttöpaketin tietoaukoksi. Saatavilla olevan tutkimuksen ja kirjallisuuden perusteella velpatasvir toimii NS5A-proteiinin inhibiittorina ja sitä käytetään yksinomaan yhdistelmäantivirushoitoissa (sofosbuvirin kanssa, ± voxilaprevir) kroonisen **hepatiitti C -viruksen (HCV)** infektion hoidossa — sen "alkuperäinen käyttöaihe" tässä on pääteltävä tutkimuskontekstista virallisen sääntelyrekisteröinnin sijaan.
+Velpatasviirin tarkkaa vaikutusmekanismia ei ole saatavilla tämän raportin aineistossa. Tiedetään, että velpatasviiri on HCV:n NS5A-estäjä, ja sen teho kroonisessa hepatiitti C:ssä on osoitettu, tyypillisesti yhdistelmänä sofosbuviirin kanssa.
 
-Hepatiitti C ja hepatiitti B ovat molemmat hepatotrooppiset viraalit infektiot, minkä vuoksi tietoverkkomallin, kuten TxGNN:n, olisi odotettavissa sijoittavan ne lähelle toisiaan (yhteinen elimensä tropismia, yhteinen "virushepatitis"-fentyypin näkökohta, päällekkäiset potilaspopulaatiot ja jaettu kirjallisuuden rinnakkaisesiintyminen). Kahdella viruksella ei kuitenkaan ole biologisella tasolla samanlaisia molekyylikohteita: HCV on yksijohtiminen RNA-virus (Flaviviridae), jonka NS5A-proteiini on velpatasvirin kohde, kun taas HBV on osittain kaksijohtiminen DNA-virus (Hepadnaviridae), joka monistuu käänteisen transkriptaasin kautta eikä sillä ole NS5A-homologiaa. Siten ei ole olemassa mekanismiin perustuvaa perustelua velpatasvirin suoralle anti-HBV-aktiviteetille.
+HBV:llä ei ole NS5A-homologia, joten suoraa viruslääkevaikutusta HBV:tä vastaan ei voida perustella mekanistisesti. TxGNN-pistemäärä heijastaa todennäköisesti maksaa infektoivien virusten yhteisiä verkkoominaisuuksia, ei todellista farmakologista yhteyttä.
 
-Tämän kanssa yhdenmukaisesti suurin osa haetuista 26 kliinisestä tutkimuksesta ja 20 julkaisusta ovat tutkimuksia sofosbuvir/velpatasvirin (tai sofosbuvir/velpatasvir/voxilaprevirin) hoitoon **HCV**-infektioon, joista osa käsittelee HCV/HBV-yhteisinfektiopotilaita. Vain yksi tutkimus (NCT04997564, TAF-profylaksia HBV-reaktivaation estämiseksi HCV-hoidon aikana) ja yksi tapausraportti (PMID 31542053, HBV-reaktivaatio HCV:n SOF/VEL-hoidon aikana) viittaavat suoraan HBV:iin — ja molemmat kuvaavat HBV:ää yhteisinfektio/reaktivaatio-turvallisuusongelmana HCV-hoidon aikana, eivät velpatasvirin hoitokohteena. Tämä osoittaa, että TxGNN-assosiaatio on erittäin todennäköisesti johtunut verkon/fentyypin läheisyydestä eikä validoidusta farmakologiasta.
+Kliiniset tiedot koskevat HCV/HBV-samanaikaista infektiota. Siinä HBV:tä vastaan tehoavaa ainesosaa on tenofoviirialafenamidi (TAF), ei velpatasviiri. Keskeinen turvallisuuskysymys on HBV:n uudelleenaktivoituminen HCV-suoravaikutteisen viruslääkehoidon aikana. Näyttöä velpatasviirin omasta anti-HBV-aktiivisuudesta ei ole.
 
 ---
 
-## Kliinisen tutkimuksen näyttö
+## Kliininen tutkimusnäyttö
 
-| Tutkimuksen numero | Vaihe | Tila | Ilmoittautuneet | Keskeiset löydökset |
+| Tutkimustunnus | Vaihe | Tila | Osallistujia | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT04997564](https://clinicaltrials.gov/study/NCT04997564) | Vaihe 4 | Tuntematon | 120 | Ainoa tutkimus sarjassa, joka käsittelee suoraan HBV:ää: profylaktinen TAF + 12 viikon SOF/VEL HCV/HBV-yhteisinfektiopotilailla, HBV-reaktivaation estämiseksi HCV-hoidon aikana — HBV *turvallisuuden hallintaan* liittyvä tutkimus, ei HBV-tehokkuustutkimus velpatasvirin osalta |
-| [NCT02625909](https://clinicaltrials.gov/study/NCT02625909) | Vaihe 3 | Valmistunut | 222 | Lyhyennetty interferoni-vapaa SOF/VEL-hoito äskettäin hankitulle HCV:lle (± HIV-yhteiinfektio); arvioitu "C" — ei liity HBV:iin |
-| [NCT01858766](https://clinicaltrials.gov/study/NCT01858766) | Vaihe 2 | Valmistunut | 379 | SOF/VEL ± ribaviriini tehokkuus/turvallisuus hoitamattomissa kroonisissa HCV-potilaissa (genotyypit 1–6); arvioitu "C" — ei liity HBV:iin |
-| [NCT06180590](https://clinicaltrials.gov/study/NCT06180590) | N/A | Rekrytoi | 200 | Todellisen maailman Vosevi (SOF/VEL/VOX) tehokkuus DAA-resistenteissä HCV-potilaissa; arvioitu "C" — ei liity HBV:iin |
-| [NCT02996682](https://clinicaltrials.gov/study/NCT02996682) | Vaihe 3 | Valmistunut | 102 | SOF/VEL ± ribaviriini kroonisissa HCV-potilaissa, joilla on dekompensaatioita kirroosi — vahvistaa VEL:n turvallisuuden edistyneessä maksasairaudessa, ei HBV-päätepisteessä |
-| [NCT02533427](https://clinicaltrials.gov/study/NCT02533427) | Vaihe 1 | Valmistunut | 15 | Lääkeinteraktiotutkimus SOF/VEL/VOX:sta hormonaalisen ehkäisyvalmisteen kanssa — farmakokineetinen, ei HBV:n relevanssia |
-| [NCT03570112](https://clinicaltrials.gov/study/NCT03570112) | N/A | Valmistunut | 40 | Kroonisen HCV:n luonnollinen historia/pystysuora siirtyminen raskauden aikana, post-partum SOF/VEL-hoito — ei HBV-päätepisteessä |
-| [NCT05016609](https://clinicaltrials.gov/study/NCT05016609) | Vaihe 4 | Tuntematon | 1800 | Testaa ja hoida HCV-hoitomalleja ihmisillä, jotka injisioivat huumeita — ei HBV-päätepisteessä |
-| [NCT03823911](https://clinicaltrials.gov/study/NCT03823911) | Vaihe 4 | Valmistunut | 87 | Sydän- ja verisuonisten tulosten seuranta HCV-poistamisen jälkeen HIV/HCV-potilaissa — ei HBV-päätepisteessä |
-| [NCT03086044](https://clinicaltrials.gov/study/NCT03086044) | Vaihe 4 | Tuntematon | 148 | HCV-positiivisten lahjoittajien elinten siirtäminen HCV-negatiivisille vastaanottajille — ei HBV-päätepisteessä |
-
-**Huomautus:** Nämä tutkimukset palautettiin "HBV-infektio"-näytöhaukulla, mutta olennaisesti kaikki niistä ovat kroonisen HCV-hoidon/turvallisuustutkimuksia. Vain NCT04997564 käsittelee HBV:ää, ja vain reaktivaation estämisen turvallisuustoimenpiteenä HCV-hoidon aikana — mikään ei osoita velpatasvirin antivirustehokkuutta HBV:ää vastaan.
+| [NCT04997564](https://clinicaltrials.gov/study/NCT04997564) | Vaihe 4 | Tuntematon | 120 | 12 viikon SOF/VEL-hoito ja ennaltaehkäisevä TAF HCV/HBV-samanaikaisinfektiossa Kiinassa. HBV-vaikutus johtuu TAF:sta, ei velpatasviirista. |
+| [NCT02836925](https://clinicaltrials.gov/study/NCT02836925) | Vaihe 2 | Päättynyt | 40 | Interferiinitön hoito HCV-liitännäisessä indolentissa B-solulymfoomassa. Vain epäsuora yhteys HBV:hen. |
+| [NCT03549312](https://clinicaltrials.gov/study/NCT03549312) | Vaihe 4 | Tuntematon | 25 | HIV/HCV-samanaikaisinfektio: siirtyminen E/C/F/TAF-hoitoon, SOF/VEL ja sen jälkeen B/F/TAF. HBV-aktiiviset ainesosat ovat vaihtohoidossa, eivät velpatasviirissa. |
+| [NCT03579576](https://clinicaltrials.gov/study/NCT03579576) | Ei määritelty | Päättynyt | 803 | Yksinkertaistettu HCV-hoitomalli Myanmarissa. HBV ei ole tehon päätetapahtuma. |
+| [NCT07560046](https://clinicaltrials.gov/study/NCT07560046) | Vaihe 4 | Ei vielä rekrytoi | 1280 | Klusterisatunnaistettu HCV:n pikatestaus ja -hoito. Ei kohdistu HBV:hen. |
 
 ---
 
-## Kirjallisuuden näyttö
+## Kirjallisuusnäyttö
 
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [31542053](https://pubmed.ncbi.nlm.nih.gov/31542053/) | 2019 | Tapausraportti | Journal of medical case reports | Ainoa HBV-spesifinen viite: kuvaa HBV-reaktivaation pinnallis-antigeeni-immuniteetin pakenemisen mutantin kautta anti-HBc-positiivisessa potilaassa SOF/VEL-hoidon aikana HCV:n hoitoon — haittavaikutusraportti, ei näyttöä anti-HBV-vaikutuksesta |
-| [35248213](https://pubmed.ncbi.nlm.nih.gov/35248213/) | 2022 | RCT | Lancet Gastroenterology & Hepatology | SOF/VEL-turvallisuus/tehokkuus hoitamattomissa HCV-genotyyppi 4 -potilaissa Ruandassa — HCV-tehokkuustutkimus, ei HBV-päätepisteessä |
-| [34092970](https://pubmed.ncbi.nlm.nih.gov/34092970/) | 2021 | Katsaus | World Journal of Gastroenterology | Käsittelee pediatrisen HBV:n ja HCV:n hallintaa, mukaan lukien DAA:t HCV:lle — yleinen konteksti, ei HBV-tehokkuustietoja velpatasviirillle |
-| [29369303](https://pubmed.ncbi.nlm.nih.gov/29369303/) | 2018 | Konferenssiselostus | AIDS Reviews | Tekee yhteenveto HBV/HCV-taakkaa koskevista arvioista ja virushepatiitin konferenssissa esitellyistä DAA-edistysaskelista — tausta vain |
-| [40414600](https://pubmed.ncbi.nlm.nih.gov/40414600/) | 2025 | Poikittaistutkimus | Annals of Hepatology | Vertaa globaaleja HBV:n ja HCV:n lääkehintoja — terveystaloudelinen vertailu, ei kliinisiä/tehokkuustutkimustietoja |
-| [41734217](https://pubmed.ncbi.nlm.nih.gov/41734217/) | 2025 | Retrospektiivinen | Klinicka mikrobiologie a infekcni lekarstvi | Retrospektiivinen katsaus kroonisen HBV:n ja HCV:n antivirushoitoon lapsissa Ostravassa — kuvaava, ei velpatasviirijä koskevat HBV-tiedot |
-| [35579223](https://pubmed.ncbi.nlm.nih.gov/35579223/) | 2022 | Katsaus | European Journal of General Practice | Yleislääketieteen katsaus kroonisen HCV:n diagnostiikkaan ja hoitoon — ei HBV-sisältöä |
-| [33217040](https://pubmed.ncbi.nlm.nih.gov/33217040/) | 2021 | Kohortti | Journal of Gastroenterology and Hepatology | Todellisen maailman SOF/VEL ± ribaviriini-tehokkuus/turvallisuus HCV-genotyyppi 3:ssa — ei HBV-sisältöä |
-| [38910758](https://pubmed.ncbi.nlm.nih.gov/38910758/) | 2024 | Poikittaistutkimus | Cureus | SOF/VEL-tehokkuus HCV-potilaissa, joilla on krooninen munuaissairaus — ei HBV-sisältöä |
-| [31114957](https://pubmed.ncbi.nlm.nih.gov/31114957/) | 2019 | Katsaus | Clinical Pharmacokinetics | PK/PD-katsaus DAA-hoitoihin (mukaan lukien SOF/VEL) HCV:lle — ei HBV-sisältöä |
+| [31542053](https://pubmed.ncbi.nlm.nih.gov/31542053/) | 2019 | Tapausselostus | J Med Case Rep | HBV:n uudelleenaktivoituminen SOF/VEL-hoidon aikana potilaalla, jolla oli HBV-ydinvasta-aine. |
+| [32935438](https://pubmed.ncbi.nlm.nih.gov/32935438/) | 2021 | Havainnoiva | J Viral Hepat | Yksinkertaistettu HCV-hoito Myanmarissa; HBV-samanaikaisinfektiopotilaat saivat samalla tenofoviiria. |
+| [39735164](https://pubmed.ncbi.nlm.nih.gov/39735164/) | 2024 | Tosielämän tutkimus | J Virus Erad | SOF/VEL-tehokkuus ja turvallisuus kiinalaisilla potilailla, mukaan lukien HCV/HBV-samanaikaisinfektio. |
+| [35579223](https://pubmed.ncbi.nlm.nih.gov/35579223/) | 2022 | Katsaus | Eur J Gen Pract | Kroonisen hepatiitti C:n diagnostiikka ja hoito. |
+| [31041789](https://pubmed.ncbi.nlm.nih.gov/31041789/) | 2019 | Katsaus | Semin Liver Dis | HCV-potilaiden uudelleenhoito DAA-hoidon epäonnistuttua. |
+| [34092970](https://pubmed.ncbi.nlm.nih.gov/34092970/) | 2021 | Katsaus | World J Gastroenterol | Lasten virushepatiittien (HBV ja HCV) hoito. |
+| [35248213](https://pubmed.ncbi.nlm.nih.gov/35248213/) | 2022 | Kohortti | Lancet Gastroenterol Hepatol | SOF/VEL hoitoa saamattomilla HCV-potilailla Ruandassa (SHARED-3). |
+| [35248212](https://pubmed.ncbi.nlm.nih.gov/35248212/) | 2022 | Kohortti | Lancet Gastroenterol Hepatol | SOF/VEL/VOX uudelleenhoidossa Ruandassa. |
+| [41734217](https://pubmed.ncbi.nlm.nih.gov/41734217/) | 2025 | Retrospektiivinen | Klin Mikrobiol Infekc Lek | Lasten kroonisen hepatiitti B:n ja C:n viruslääkehoito Ostravassa. |
+| [29369303](https://pubmed.ncbi.nlm.nih.gov/29369303/) | 2018 | Konferenssiraportti | AIDS Rev | Virushepatiittikonferenssin 2017 katsaus. |
 
-**Huomautus:** Haetuista 20 julkaisusta vain PMID 31542053 mainitsee HBV:n suoraan, ja se kuvaa reaktivaatio-haittavaikutusta HCV-hoidon aikana eikä mitään velpatasvirin terapeuttista hyötyä HBV:ää vastaan.
-
----
-
-## Suomen markkinatiedot
-
-Velpatasviirillle ei löytynyt markkinointilupia Suomessa (`total_licenses = 0`, markkinatilanne: **Ei markkinoilla**). Tässä näyttöpaketissa ei ole saatavilla lupanumeroa, tuotteen nimeä tai hyväksynnän käyttöaiheen tekstiä.
+Yksikään julkaisu ei osoita velpatasviirin omaa tehoa HBV:tä vastaan.
 
 ---
 
-## Turvallisuusnäkökohdat
+## Markkinatiedot Suomessa
 
-Turvallisuustiedoista ks. pakkausseloste. (Keskeiset varoitukset, vasta-aiheet ja lääkeinteraktiotiedot eivät ole saatavilla tässä näyttöpaketissa; DDI-tietokantakyselyllä ei saatu tuloksia.)
+| Myyntilupanumero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004210 | Epclusa | – | Krooninen hepatiitti C (peruutettu) |
+| EMEA/H/C/004350 | Vosevi | – | Krooninen hepatiitti C (peruutettu) |
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Turvallisuushuomiot
 
-**Päätös: Odota**
+**Lääkeyhteisvaikutukset:** Yhteisvaikutuksia on kirjattu yhteensä 57. Tärkeimmät:
+- **Merkittävät (Major):** deksametasoni sekä protonipumpun estäjät (deksalansopratsoli, esomepratsoli, lansopratsoli, omepratsoli, pantopratsoli, rabepratsoli)
+- **Kohtalaiset (Moderate):** antasidit (alumiinihydroksidi, kalsiumkarbonaatti, magnesiumkarbonaatti, -hydroksidi ja -oksidi, magaldraatti), H2-salpaajat (simetidiini, famotidiini, nitsatidiini) sekä naldemediini
+- **Lievät (Minor):** fidaksomisiini, naloksegoli, prukalopridi
 
-**Perustelu:**
-Vaikka TxGNN-pistemäärä on korkea (99.87%), velpatasviirilä — HCV:n NS5A-inhibiittorina — ei ole uskottavaa mekanismilla perustuvaa perustelua suoralle antivirusvaikutukselle HBV:ää vastaan, joka on hepadnavirus ilman NS5A-homologiaa. Lähes kaikki haetut tutkimukset ja julkaisut ovat kroonisen HCV-hoidon/turvallisuustutkimuksia; vain yksi tutkimus ja yksi tapausraportti viittaavat HBV:iin ollenkaan, ja molemmat kuvaavat HBV-reaktivaation/yhteisinfektion turvallisuudenhallintaa eikä terapeuttista tehokkuutta HBV:ää vastaan.
+**HBV:n uudelleenaktivoituminen:** Kirjallisuudessa on kuvattu HBV:n uudelleenaktivoitumista HCV:n DAA-hoidon aikana (PMID 31542053). Tämä on keskeinen turvallisuuskysymys HBV-samanaikaisinfektiossa.
 
-**Jatkamisen edellytykset:**
-- Vahvistetut velpatasvirin toimintamekanismia koskevat tiedot (DG002) ja TFDA/EU-pakkausselosteella merkityt varoitukset ja vasta-aiheet (DG001), joita molempien pidetään parhaillaan estävänä tietoaukkoina
-- In vitro- tai prekliininen näyttö velpatasvirin anti-HBV-aktiviteetista ennen kuin jatkoarviointi on perusteltu
-- Jos tällaista näyttöä ilmenee, uudelleenpisteytä L1–L5-näyttökehystä vastaan; ilman sitä tätä ehdokasta ei pitäisi edetä S0:n yli
+Lisätietoja varoituksista ja vasta-aiheista on valmisteyhteenvedossa.
 
+---
+
+## Johtopäätös ja seuraavat askeleet
+
+**Päätös: Hold (odota)**
+
+**Perustelut:**
+- Ennusteelle ei ole mekanistista perustetta: HBV:llä ei ole NS5A-kohdetta, ja kaikki tutkimukset koskevat HCV-hoitoa tai HCV/HBV-samanaikaista infektiota, jossa HBV:hen tehoaa TAF. Suomessa kummankin valmisteen myyntiluvat on peruutettu.
+- Muista ennustetuista käyttöaiheista (mm. hepatiitti E ja A, HIV, Omskin verenvuotokuume, Kyasanur-metsätauti) mikään ei saa tukea tutkimuksista tai kirjallisuudesta. Hepatiitti A- ja HIV-tutkimukset ovat HCV-tutkimuksia, jotka on liitetty ennusteeseen luokkien päällekkäisyyden perusteella.
+
+**Etenemiseksi tarvitaan:**
+- Velpatasviirin vaikutusmekanismitiedot (esim. DrugBankista)
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet Fimeasta (puuttuvat, estävä aukko turvallisuusarvioinnissa)
+- In vitro -näyttö velpatasviirin mahdollisesta anti-HBV-aktiivisuudesta
+- Selvitys myyntilupien peruuttamisen syistä ja nykyisestä saatavuudesta Suomessa
+- HBV-reaktivaation seurantasuunnitelma, jos käyttöä HCV/HBV-samanaikaisinfektiossa harkitaan
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

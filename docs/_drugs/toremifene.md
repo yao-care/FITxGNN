@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Toremifene
-parent: Kohtalainen näyttö (L3-L4)
-nav_order: 384
-evidence_level: L4
+parent: Pelkkä mallin ennuste (L5)
+nav_order: 447
+evidence_level: L5
 indication_count: 1
 ---
 
 # Toremifene
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **1** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,73 +29,92 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Toremifeeni: Rintojen syövästä HIV-infektioon
+# Toremifeeni: Rintasyövästä HIV-infektioon
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Toremifeeni on selek­tiivinen estrogeenireseptorimodulaattori (SERM), jonka alkuperäinen indikaatio on rintojen syövän hoito (alkuperäisen toimintamekanismin tiedot puuttuvat tästä näyttöpakettista, Suomen markkinatilanne on Not marketed). TxGNN-malli ennustaa sen olevan mahdollisesti tehokas **HIV-infektioon**, ja tällä hetkellä vain **0 kliinistä tutkimusta** ja **1 artikkeli** tukevat tätä suuntaa. Lisäksi mainittu artikkeli käsittelee antifungaalisia mekanismeja eikä suoraa antiviraalista mekanismia, mikä tekee näytön vahvuudesta heikko.
+Toremifeeni on estrogeenireseptorin antagonisti, jota on alun perin käytetty rintasyövän hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **HIV-infektioon**, mutta ennuste perustuu vain verkkopohjaiseen päättelyyn: tukena on **0 kliinistä tutkimusta** ja **1 julkaisu**, joka on prekliininen ja käsittelee sienitautia (kryptokokkoosi), ei HIV:tä.
 
-## Pikayleiskatsaus
+---
+
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|--------|
-| Alkuperäinen indikaatio | Rintojen syöpä (Breast Cancer) (otettu uudelleenkäyttöindikaation perusteluista, ei virallinen hyväksytty indikaatio; virallisen valmisteen tiedot puuttuvat, katso DG001) |
-| Ennustettu uusi indikaatio | HIV-infektiotauti |
-| TxGNN-ennustepistemäärä | 99.41% |
-| Näyttötaso | L4 |
-| Suomen markkinatilanne | Not marketed |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Pidä odotuksissa |
+|------|------|
+| Alkuperäinen käyttöaihe | Rintasyöpä (Breast Neoplasms) |
+| Ennustettu uusi käyttöaihe | HIV-infektio |
+| TxGNN-ennustepistemäärä | 99,41 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennuste on järkevä?
+---
 
-Yksityiskohtaista toimintamekanismin (MOA) tietoa ei ole saatavilla (DG002, korkea vakavuus). Olemassa olevien luokittelutietojen perusteella toremifeeni on selek­tiivinen estrogeenireseptorimodulaattori (SERM), jonka teho rintojen syövän hoitoon on osoitettu, mutta tässä näyttöpaketissa ei ole virallista alkuperäisen indikaation dokumentaatiota tai hyväksyttyä valmistetta, jota voitaisiin käyttää ristiin tarkistamiseen.
+## Miksi ennuste voisi olla perusteltu?
 
-Toremifeenin ja HIV-infektiotaudin välillä ei ole suoraa antiviraalista toimintamekanismia. Ainoastaan tämä ennuste tukeva artikkeli (PMID 24520056) tutkii estrogeenireseptorin antagonistien (tamoksifeni, toremifeeni) suoraa sitoutumiskykyä *Cryptococcus neoformans* -sienen EF-hand -proteiineihin ja antifungaalista aktiivisuutta, joka on **antifungaalinen mekanismi** eikä antiretroviraali­nen mekanismi. Vaikka kryptokokkimeningiitti on yleinen opportunistinen infektio HIV/AIDS-potilailla, mainitun artikelin tosiasiallinen indikaatio pitäisi olla "HIV-potilaiden opportunistisen kryptokokki-infektioin hoito (antifungaalisen hoidon tukeminen)" eikä "HIV-viruksen suora hoito". Niiden kliininen asema on erilainen, ja TxGNN:n korkea pistemäärä (99.41%) ja olemassa oleva mekanismin näyttö eroavat merkittävästi toisistaan, mikä edustaa epäsuoraa ja heikkoa johtopäätösten ketjua.
+Toimintamekanismia koskevaa tarkkaa tietoa ei ole tällä hetkellä saatavilla. Tiedossa olevan perusteella toremifeeni kuuluu selektiivisten estrogeenireseptorimodulaattorien (SERM) ja estrogeenireseptorin antagonistien ryhmään, ja sen teho rintasyövän hoidossa on osoitettu.
 
-Siksi, vaikka mallin pistemäärä on korkea, tämän ennustesuunnan biologinen järkevyys perustuu tällä hetkellä vain yhteen in vitro -mekanismi­tutkimukseen, mikä ei riitä seuraavaan vaiheeseen turvallisuuden tai kliinisen arvioinnin kannalta.
+Ainoa tukeva julkaisu (PMID 24520056, 2014) osoittaa, että tamoksifeeniin ja toremifeeniin liittyvät estrogeenireseptorin antagonistit tappavat *Cryptococcus*-sientä ja tehostavat flukonatsolin vaikutusta. Ne sitoutuvat EF-käsi-proteiineihin, kuten kalmoduliiniin. Tämä on merkityksellistä kryptokokkimeningiitille, joka on yleinen opportunistinen infektio pitkälle edenneessä HIV-taudissa.
 
-## Kliinisen tutkimuksen näyttö
+Se ei kuitenkaan osoita vaikutusta itse HIV-infektioon. Toimitetuissa tiedoissa ei ole osoitettu suoraa HIV:n vastaista mekanismia. Mahdollinen epäsuora yhteys on sienilääkevaikutus HIV-potilaiden kryptokokkoosissa, mutta se on prekliininen eikä tue ennustettua käyttöaihetta sellaisenaan.
 
-Ei saatavilla olevia asiaan liittyviä kliinisen tutkimuksen rekisteröintejä
+---
 
-## Kirjallisuuden näyttö
+## Kliininen tutkimusnäyttö
 
-| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät tulokset |
+Ennustettuun käyttöaiheeseen liittyviä kliinisiä tutkimuksia ei ole tällä hetkellä rekisteröitynä.
+
+---
+
+## Kirjallisuusnäyttö
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [24520056](https://pubmed.ncbi.nlm.nih.gov/24520056/) | 2014 | Mekanistinen (in vitro) | mBio | Estrogeenireseptorin antagonistit (tamoksifeni, toremifeeni) osoittavat suoraa fungisidaalista aktiivisuutta *Cryptococcus neoformans* -sienelle, voivat sitoutua sienen EF-hand -proteiineihin ja osoittavat additiivisia antifungaalisia vaikutuksia flukonatsolin ja amfoteriisiini B:n kanssa in vivo- ja in vitro -kokeissa; ei sisällä anti-HIV-viraalin mekanismia |
+| [24520056](https://pubmed.ncbi.nlm.nih.gov/24520056/) | 2014 | Prekliininen / in vitro (alustava luokitus) | mBio | Tamoksifeeni ja toremifeeni ovat sienitappavia (fungisidisia) ja tehostavat flukonatsolin ja amfoterisiini B:n vaikutusta *Cryptococcus*-sieneen. Tutkimus ei koske HIV:n vastaista vaikutusta. |
 
-## Suomen markkinatiedot
+---
 
-Tämä lääke ei ole tällä hetkellä markkinoilla Suomessa (0 hyväksyntähakemusta), eikä hyväksyntätietoja voida luetteloida.
+## Markkinatiedot Suomessa
 
-## Sytotoksisuus
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000091 | Fareston (Orion Corporation), peruutettu | – | Rintasyöpä (Breast Neoplasms) |
 
-| Kohta | Sisältö |
-|------|---------|
-| Sytotoksisuuden luokitus | Kohdistettu hoito (hormoniterapian SERM, ei perinteinen sytostaattinen kemoterapialääke) |
-| Ydinreaktion (Myelosuppression) riski | Katso valmisteen käyttöturvatiedoista varoitukset ja huomautukset |
-| Pahoinvointi-herkkyys (Emetogenicity) | Katso valmisteen käyttöturvatiedoista varoitukset ja huomautukset |
-| Seurantakohdat | Katso valmisteen käyttöturvatiedoista varoitukset ja huomautukset |
-| Käsittelysuojaus | Katso valmisteen käyttöturvatiedoista varoitukset ja huomautukset |
+---
 
 ## Turvallisuusnäkökohdat
 
-Katso valmisteen käyttöturvatiedoista turvallisuustietojen saamiseksi.
+Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ole saatavilla tämän raportin tietoaineistossa, joten ne tulee tarkistaa valmisteyhteenvedosta.
 
-## Johtopäätös ja seuraavat vaiheet
+- **Tietämysgraafin mukaiset vasta-aiheet** (eivät perustu valmisteyhteenvedon tekstiin): pitkä QT-oireyhtymä, familiaalinen pitkä QT -oireyhtymä, torsades de pointes, trombosytopenia, kaliumin puutos, hyperkalsemia, nefrokalsinoosi, fosforiaineenvaihdunnan häiriö, leukopenia ja endometriumin hyperplasia.
+- **Lääkeyhteisvaikutukset:** tietoja on haettu, ja löytyi yhteensä 100 yhteisvaikutusta. Merkittäviksi (Major) luokiteltuja ovat mm.:
+  - deksametasoni
+  - klaritromysiini
+  - levofloksasiini
+  - dolasetroni
+  - palonosetroni
+  - pikosulfaatti
+  - polyetyleeniglykoli (elektrolyyttien kanssa)
+  - natriumsulfaatti
 
-**Päätös: Pidä odotuksissa**
+  Useat näistä liittyvät todennäköisesti QT-ajan pitenemiseen tai elektrolyyttihäiriöihin. Kohtalaisia (Moderate) ovat mm. famotidiini, pioglitatsoni, loperamidi, aprepitantti, simetidiini, mikonatsoli ja nateglinidi.
+
+---
+
+## Johtopäätös ja jatkotoimet
+
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Ainoastaan tukeva näyttö on in vitro -antifungaalisen mekanismin yhdessä artikkelissa, ei suoraa anti-HIV-viraalin näyttöä, ja alkuperäisen indikaation, MOA:n, TFDA:n valmisteen käyttöturvatiedot ja muut kriittiset tiedot puuttuvat (DG001 on este-luokitus), eikä turvallisuuden alustava arvio ole mahdollinen, joten ei edetä tällä hetkellä.
+- Ennuste on pelkkää mallipäättelyä (L5). Ainoa tukeva julkaisu on prekliininen sienitautitutkimus, joka ei osoita vaikutusta HIV-infektioon, eikä kliinisiä tutkimuksia ole. Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa ja QT-aikaan liittyvät turvallisuushuolet ovat merkittäviä.
 
-**Jotta voidaan edetä, tarvitaan seuraavaa:**
-- Hanki TFDA:n (tai paikallisen viranomaisen) virallinen valmisteen käyttöturvainfo, jotta voit vahvistaa varoitukset ja vasta-aiheet (DG001, este)
-- Täydennä toremifeenin kaikki toimintamekanismin tiedot (DG002, korkea)
-- Selvennetään, pitäisikö tämä indikaatiosuunta määritellä "HIV-viruksen suoraksi hoitosuhteeksi" vai "HIV-potilaiden opportunistisen kryptokokki-infektioin apuhoidoksi", ja haetaan vastaavasti asiaan liittyviä kliinisen tutkimuksen ja kirjallisuuden tiedot
-- Jos myöhemmällä vaiheella suunta määritellään opportunistisen infektioin apuhoidoksi, täydennä lääkkeiden yhteisvaikutustiedot olemassa olevan antifungaalisten lääkkeiden (kuten flukonatsoli, amfoteriisiini B) kanssa
-
+**Eteenpäin siirtyminen edellyttää:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittämistä (estävä tietoaukko)
+- Toimintamekanismitietojen täydentämistä (esim. DrugBankista)
+- Prekliinistä näyttöä toremifeenin suorasta vaikutuksesta HIV:hen tai selkeää perustetta HIV:hen liittyvän kryptokokkoosin tutkimiselle erillisenä käyttöaiheena
+- QT-pidennysriskin ja yhteisvaikutusten arviointia HIV-potilaiden tyypillisessä lääkityksessä
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

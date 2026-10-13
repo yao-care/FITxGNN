@@ -2,7 +2,7 @@
 layout: default
 title: Caspofungin
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 91
+nav_order: 100
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,75 +29,84 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Caspofungiini: antifungaalisesta hoidosta gastrin erityshäiriöön
+# Kaspofungiini: Candidiasista ja aspergilloosista gastriinin erityksen poikkeavuuteen
 
-## Yhden lauseen yhteenveto
+## Yhden virkkeen yhteenveto
 
-Caspofungiini on echinokandiini-luokan antifungaalinen aine; sen vahvistettu alkuperäinen indikaatio ja yksityiskohtainen vaikutusmekanismi eivät ole tällä hetkellä saatavilla tässä näytöpaketissa (tietovaje odottaa TFDA:n/DrugBank-vahvistusta). TxGNN-malli ennustaa mahdollista yhteyttä **gastrin erityshäiriöön**, mutta tätä ennustusta tukee tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua**, eikä näiden kahden välillä ole osoitettu biologista mekanismia.
-
----
-
-## Nopea yleiskatsaus
-
-| Kohde | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Ei saatavilla — tässä näytöpaketissa ei ole vahvistettua indikaatiodataa (katso Data Gap DG002) |
-| Ennustettu uusi indikaatio | Gastrin erityshäiriö |
-| TxGNN-ennustepisteet | 99.44% (mallin sijoitus 5983) |
-| Näyttötaso | L5 (vain mallin ennuste, ei tukevia tutkimuksia) |
-| Taiwanin markkinatilanne | Ei markkinoilla |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltava päätös | Pidätys |
+Kaspofungiini on ekinokandiiniryhmän sienilääke, jota on alun perin käytetty kandidiaasin ja aspergilloosin hoitoon. TxGNN-malli ennustaa sen voivan tehota **gastriinin erityksen poikkeavuuteen**, mutta ennustetta tukee tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua**, eli kyseessä on pelkkä mallin ennuste.
 
 ---
 
-## Miksi tämä ennuste on perusteltu?
+## Pikakatsaus
 
-Caspofungiinin yksityiskohtaista vaikutusmekanismidataa ei ole vahvistettu tässä näytöpaketissa (Data Gap DG002, korkea vakavuus). Mallin omaan perusteluun viitattujen yleisten farmakologisten luokkien tietojen perusteella caspofungiini on echinokandiini-luokan antifungaalinen aine, joka estää sienien 1,3-β-D-glucan synthase -entsyymiä — solun seinän synteesin kohdetta, jota ei ole ihmisen soluissa.
-
-Tähän ennusteeseen liittyvät uudelleenkäyttöperusteet todetaan nimenomaisesti, että yhtään tunnettua farmakologista tai mekanistista polkua ei yhdistä 1,3-β-D-glucan synthase -inhibisioita gastrin erityksensäätelyyn (esim. G-cell -toiminta, gastrinreseptorit, H⁺/K⁺-ATPase tai somatostatiinin signalointi). Koska sekä alkuperäinen indikaatio että MOA on merkitty tietovajeiksi, biologista uskottavuutta ei voida tällä hetkellä vahvistaa tälle ehdokkaalle.
-
-**Tätä ennustetta tulee käsitellä raakana TxGNN-mallin tuloksena ilman mekanistista tukea.** Se vaatii riippumatonta farmakologista arviointia ennen kuin muita arviointeja voidaan pitää perustelluina.
-
----
-
-## Kliinisen tutkimuksen näyttö
-
-Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
+| Kohta | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | Kandidiaasi; aspergilloosi |
+| Ennustettu uusi käyttöaihe | Gastriinin erityksen poikkeavuus (gastrin secretion abnormality) |
+| TxGNN-ennusteen pistemäärä | 99,44 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Kirjallisuuden näyttö
+## Miksi ennuste on perusteltu?
 
-Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta.
+Tämän lääkkeen yksityiskohtaista vaikutusmekanismia koskevia tietoja ei ole tällä hetkellä saatavilla kootussa aineistossa. Yleisen farmakologisen tiedon mukaan kaspofungiini on ekinokandiini, joka estää beeta-(1,3)-D-glukaanisyntaasia ja häiritsee sienen soluseinän synteesiä. Sen teho kandidiaasissa ja aspergilloosissa on osoitettu.
 
----
-
-## Taiwanin markkinatiedot
-
-Caspofungiinia ei ole tällä hetkellä markkinoilla Taiwanissa (0 hyväksyntää tallennettu); tuotelupaa tai hyväksyttyä indikaatiodataa ei ole saatavilla.
+Tunnettua mekanistista yhteyttä tämän vaikutuksen ja gastriinin säätelyn välillä ei ole. Mikään tunnettu reitti ei yhdistä lääkettä G-soluihin, gastriinia erittäviin kasvaimiin (gastrinooma) tai mahahapon erityksen fysiologiaan. Hyvin korkea pistemäärä (0,994) on tietämysgraafiin perustuva ennuste. Se voi johtua verkostotason yhteyksistä, kuten jaetuista geeni- tai reittinaapureista, eikä välttämättä todellisesta farmakologisesta vaikutuksesta. Ennustetta on siksi tulkittava varovasti.
 
 ---
 
-## Turvallisuutta koskevat näkökohdat
+## Kliininen tutkimusnäyttö
 
-Turvallisustietojen osalta katso pakkausseloste. Huomautus: TFDA:n pakkausselosteen varoitukset/vasta-aiheet eivät ole tällä hetkellä saatavilla (Data Gap DG001, **esto**-vakavuus) — tämä tietovaje estää ehdokkaan pääsyn S1-turvallisuuden esiarviointi-vaiheeseen. Lääkeyhteisvaikutuksen (DDI) dataa kysyttiin myös, mutta tuloksia ei löytynyt.
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
+
+---
+
+## Kirjallisuusnäyttö
+
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
+
+---
+
+## Suomen markkinatiedot
+
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000379 | Cancidas (aiemmin Caspofungin MSD) | – | Kandidiaasi; aspergilloosi |
+
+Tämä myyntilupa on tilassa "peruutettu". Voimassa olevia myyntilupia ei ole.
+
+---
+
+## Turvallisuusnäkökohdat
+
+- **Tietämysgraafiin perustuvat vasta-aiheet** (eivät perustu valmisteyhteenvetoon): maksasairaus, sappirakon sairaus ja kaliumin puutostila.
+- **Lääkeyhteisvaikutukset**: yhteensä 81 yhteisvaikutusta. Merkittävimmät:
+  - **Deksametasoni**: vakava (Major)
+  - **Naltreksoni**: kohtalainen (Moderate)
+  - Lisäksi useita yhteisvaikutuksia, joiden vaikeusastetta ei ole luokiteltu, esimerkiksi kalsitrioli, pantopratsoli, omepratsoli, lansopratsoli, vankomysiini, sukralfaatti, prednisoni, prednisoloni, hydrokortisoni, simvastatiini, amfoterisiini B, nystatiini ja kaliumkloridi.
+
+Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla, joten niihin on tutustuttava valmisteyhteenvedosta.
 
 ---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Pidätys**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Tällä ehdokkaalla on vain mallin tasolla (L5) näyttö ilman kliinisiä tutkimuksia tai kirjallisuuden tukea, eikä caspofungiinin tunnetun antifungaalisen MOA:n ja gastrin erityshäiriön välillä ole mekanistista yhteyttä. Lisäksi este-vakavuuden tietovaje (TFDA:n pakkausseloste puuttuu) estää pääsyn S1-turvallisuuden esiarviointiin.
+- Ennuste perustuu vain tietämysgraafimalliin (L5). Kliinistä tai kirjallisuusnäyttöä ei ole, eikä uskottavaa mekanistista yhteyttä kaspofungiinin vaikutuksen ja gastriinin säätelyn välillä ole osoitettu.
+- Lääkkeellä ei ole voimassa olevaa myyntilupaa Suomessa, ja valmisteyhteenvedon turvallisuustiedot puuttuvat.
 
-**Etenemiseksi tarvitaan seuraavaa:**
-- TFDA:n pakkausseloste (varoitukset, vasta-aiheet) S1-turvallisuuden esiarvioinnin esteiden poistamiseksi
-- Vahvistettu alkuperäinen indikaatio ja yksityiskohtainen MOA-data (DrugBank/TFDA)
-- Prekliiniset tai mekanistiset tutkimukset, joissa osoitetaan biologinen uskottavuus gastriin-liityvälle polulle
-- Kaikki nousevat kliiniset tutkimukset tai kirjallisuuden näyttö tälle lääke-tauti-parille
-
+**Eteenpäin siirtymiseksi tarvitaan:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankinta ja jäsentäminen Fimean sivustolta (estävä tietoaukko)
+- Vaikutusmekanismitiedon täydentäminen DrugBankista
+- Prekliininen tai mekanistinen selvitys mahdollisesta yhteydestä gastriinin eritykseen
+- Kirjallisuushaku ja kliinisten tutkimusten haku aiheesta
+- Antoreittien yhteensopivuuden arviointi (kaspofungiini annetaan yleensä infuusiona) sekä arvio markkinoille paluun mahdollisuudesta
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

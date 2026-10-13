@@ -2,7 +2,7 @@
 layout: default
 title: Oritavancin
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 274
+nav_order: 318
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,63 +29,85 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Oritavancin: Ennustettu uusi indikaatio — Bacteroidaceae-infektiosairaus
+# Oritavantsiini: Ihon pehmytkudosinfektioista Bacteroidaceae-infektioon
 
 ## Yhden lauseen yhteenveto
 
-> Oritavancin alkuperäinen hyväksytty indikaatio ei ole dokumentoitu nykyisessä datapakkauksessa (tietoaukko).
-> TxGNN-mallin paras ennuste tälle lääkkeelle on **Bacteroidaceae-infektiosairaus**, pisteellä **99.48%**,
-> mutta **0 kliinistä tutkimusta** ja **0 julkaisua** tukevat tätä suuntaa, ja lääkkeen oma toimintamekanismi on suoraan ristiriidassa ennusteen kanssa.
+Oritavantsiini on lipoglykopeptidiantibiootti, jota on alun perin käytetty ihon ja pehmytkudosten bakteeri-infektioiden hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **Bacteroidaceae-infektioon**, mutta ennusteen tueksi ei ole löytynyt **yhtään kliinistä tutkimusta eikä julkaisua**.
+Ennuste perustuu pelkästään mallin laskemaan pisteytykseen.
 
-## Nopea yleiskatsaus
+---
 
-| Kohde | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Ei dokumentoitu saatavilla olevassa datassa (tietoaukko) |
-| Ennustettu uusi indikaatio | Bacteroidaceae-infektiosairaus |
-| TxGNN-ennusteen pistemäärä | 99.48% |
+## Pikakatsaus
+
+| Kohta | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | Pehmytkudosinfektiot; bakteerien aiheuttamat ihosairaudet |
+| Ennustettu uusi käyttöaihe | Bacteroidaceae-infektio |
+| TxGNN-ennustepisteet | 99,48 % |
 | Näytön taso | L5 |
-| Suomen markkinatilanne | Ei markkinoilla |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Keskeytä |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien lukumäärä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennuste on järkevä?
+---
 
-Tällä hetkellä yksityiskohtaiset alkuperäisindikaatio- ja muodolliset toimintamekanismitiedot eivät ole saatavilla oritavancin-lääkkeelle tässä näyttöpaketissa (merkitty korkeaksi vakavuusasteiseksi tietoaukoksi). Ennusteen yhteydessä olevien mekanististen huomioiden perusteella oritavancin on lipoglykopeptidi-antibiootikka, joka estää bakteerin peptidoglykaanitransglykosylaatiota/transpeptidaatiota ja häiritsee solun kalvon eheyttä — mekanismi, joka vaikuttaa vain Gram-positiivisia organismeja vastaan (mukaanlukien MRSA ja VRE).
+## Miksi ennuste on (tai ei ole) perusteltu?
 
-Tämä mekanismi ei tue parasta ennustetta. *Bacteroidaceae* ovat Gram-negatiivisia anaerobeja, joiden ulkokalvo estää glykopeptidien penetraation kohdesijaintiin — glykopeptideistä tiedetään farmakologisesti olevan tehotonta Gram-negatiivisia bakteereita vastaan. Ennuste on siis suorassa ristiriidassa vakiintuneen farmakologian kanssa huolimatta sen korkeasta TxGNN-pisteestä.
+Oritavantsiini on lipoglykopeptidi, joka estää bakteerin soluseinän synteesiä (transglykosylaatio ja transpeptidaatio) ja häiritsee solukalvon eheyttä. Nämä mekanismit tehoavat pääasiassa gram-positiivisiin bakteereihin, mikä sopii yhteen alkuperäisen käyttöaiheen (ihon ja pehmytkudosten infektiot) kanssa. Tarkkaa vaikutusmekanismitietoa ei ole tässä aineistossa saatavilla, joten mekanistinen arviointi perustuu yleiseen farmakologiseen tietoon.
 
-Sama kuvio pätee kahteen seuraavaksi sijoitettuun ehdokkaaseen tässä näyttöpaketissa: oftalminen herpes zoster (sijoitus 2, pistemäärä 99.03%) on viruksen (VZV) aiheuttama, jolle solun seinään kohdistuva antibiootikalla ei ole uskottavaa mekanismia; ja *Mycoplasma pneumoniae* -keuhkokuume (sijoitus 3, pistemäärä 99.01%) koskee patogeenia, jolla ei ole lainkaan solun seinää, joka on oritavancin ainoa tunnettu kohdesija. Kaikki kolme parasta tämän lääkkeen ennustetta on sisäisesti merkitty mekanistisesti perusteettomiksi, mikä on tärkeä varaus näitä raakoja TxGNN-pisteitä tulkittaessa.
+Bacteroidaceae-heimon bakteerit (esim. *Bacteroides*-lajit) ovat gram-negatiivisia anaerobeja, joilla on ulkokalvo. Glykopeptidit eivät yleensä läpäise sitä, joten biologinen yhteys on heikko, vaikka TxGNN-pisteet ovat korkeat (0,995). Pisteet ovat pelkkä mallin ennuste, eikä sitä tue mikään kliininen tai kirjallinen näyttö.
 
-## Kliinisten tutkimusten näyttö
+Muut mallin korkealle pisteyttämät ennusteet ovat vielä heikommin perusteltuja:
+- **Silmän herpes zoster** (pisteet 99,03 %): Oritavantsiinilla ei ole tunnettua antiviraalista vaikutusta, ja hoito perustuu viruslääkkeisiin. Korkeat pisteet johtuvat todennäköisesti tietämysgraafin rakenteesta.
+- **Mycoplasma pneumoniae -keuhkokuume** (pisteet 99,01 %): Mykoplasmoilta puuttuu soluseinä, joten soluseinää estävät lääkkeet eivät todennäköisesti tehoa. Hoitona käytetään makrolideja, tetrasykliinejä tai fluorokinoloneja.
 
-Tällä hetkellä ei ole niihin liittyviä rekisteröityjä kliinisiä tutkimuksia
+---
 
-## Kirjallisuuden näyttö
+## Kliininen tutkimusnäyttö
 
-Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
+
+---
+
+## Kirjallisuusnäyttö
+
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
+
+---
 
 ## Suomen markkinatiedot
 
-Oritavancin ei ole tällä hetkellä markkinoilla Suomessa; hyväksyntätietueita ei ole saatavilla (0 lisenssejä).
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/003785 | Tenkasi (aiemmin Orbactiv) | – | Pehmytkudosinfektiot; bakteerien aiheuttamat ihosairaudet (tila: peruutettu) |
 
-## Turvallisuushuomiot
+---
 
-Katso turvallisuustiedot pakkausselosteesta.
+## Turvallisuusnäkökohdat
 
-## Johtopäätös ja seuraavat vaiheet
+**Lääkeyhteisvaikutukset:** Tietokannasta löytyi yhteensä 38 yhteisvaikutusta. Merkittävin on:
+- **Hepariini**: vakava (Major) yhteisvaikutus.
 
-**Päätös: Keskeytä**
+Keskivaikeita (Moderate) yhteisvaikutuksia on raportoitu mm. seuraavien lääkkeiden kanssa: varfariini, tikagrelori, kobisistaatti, fostamatinibi, etinyyliestradioli, hydrokodoni, abemasiklibi, akalabrutinibi, alpelisibi, brigatinibi, kabotsantinibi ja krisotinibi. Bortetsomibin kanssa yhteisvaikutus on lievä (Minor).
+
+Muista turvallisuustiedoista (varoitukset, vasta-aiheet) katso valmisteyhteenveto.
+
+---
+
+## Johtopäätös ja seuraavat askeleet
+
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Huolimatta korkeasta TxGNN-ennustepisteestä (99.48%), tälle lääkkeelle annetussa uudelleenkäyttöperustelussa on eksplisiittisesti tunnistettu mekanistinen ristiriita — glykopeptidi-antibioottit eivät ole aktiivisia Gram-negatiivisia bakteereita vastaan — eikä ole lainkaan tosielämän näyttöä (ei kliinisiä tutkimuksia, ei kirjallisuutta). Kaksi seuraavaksi paremmin sijoittunutta ehdokasta tälle lääkkeelle osoittavat saman kuvion (viraalinen etiologia ja ilman solun seinää oleva patogeeni, molemmat yhteensopimattomia lääkkeen solun seinään kohdistuvan mekanismin kanssa), ja turvallisuustiedot (varoitukset, vasta-aiheet, lääkkeiden yhteisvaikutukset) ovat esto-aukko, joka estää S1-turvallisuusseulonnan.
+- Ennuste perustuu vain mallin pisteytykseen (L5), eikä kliinisiä tutkimuksia tai kirjallisuutta ole. Mekanistinen yhteys on biologisesti heikko, koska glykopeptidit eivät yleensä läpäise gram-negatiivisten anaerobien ulkokalvoa. Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa.
 
-**Jatkamista varten tarvitaan seuraavaa:**
-- TFDA/Fimea-pakkausseloste-data (varoitukset, vasta-aiheet) — tällä hetkellä esto-aukko (DG001)
-- Vahvistettu alkuperäinen indikaatio ja muodollinen MOA-dokumentaatio — tällä hetkellä korkean vakavuusasteen aukko (DG002)
-- Riippumaton farmakologinen katsaus, joka sovittaa yhteen TxGNN-pistemäärän mekanistisen ristiriidan kanssa ennen kuin mitään lisäarviointia suoritetaan
-- Lääkkeiden yhteisvaikutusten/turvallisuustietokannan haku (nykyinen tila: ei löydetty)
-
+**Jatkoa varten tarvitaan:**
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet turvallisuusarvioinnin tekemiseksi
+- Tarkka vaikutusmekanismitieto
+- *In vitro* -herkkyystutkimukset oritavantsiinin tehosta *Bacteroides*-lajeja vastaan
+- Selvitys lääkkeen markkinatilanteen palautumisesta tai uudesta myyntiluvasta Suomessa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

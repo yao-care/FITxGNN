@@ -2,7 +2,7 @@
 layout: default
 title: Cladribine
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 102
+nav_order: 114
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,87 +29,95 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **7** kpl
 
 </div>
 
-## Cladribine: Hiirten silmäleukaemiasta parameningiaaliseen embryonaaliseen rabdomyosarkooomaan
+# Kladribiini: Karvasoluleukemiasta ja MS-taudista parameningeaaliseen alveolaariseen... embryonaaliseen rabdomyosarkoomaan
 
-## Yhden lauseen yhteenveto
+> Huomio: otsikko tarkennetaan alla. Alkuperäiset käyttöaiheet ovat karvasoluleukemia ja multippeliskleroosi; ennustettu uusi käyttöaihe on parameningeaalinen embryonaalinen rabdomyosarkooma.
 
-Cladribine on puriinanukleosidia (deoksiadenosiini) analogni, jota on perinteisesti käytetty hiirten silmäleukaemian hoitoon ja joka vaikuttaa lymfosyyttien ja monosyyttien valikoivaan sytotoksisuuteen DNA-kaksoisjärkäisyyden katkeamisen kautta.
-TxGNN-malli ennustaa mahdollista aktiivisuutta **parameningiaaliseen embryonaaliseen rabdomyosarkooomaan** (pistemäärä **99.77%**), mutta tämä on tällä hetkellä puhtaasti **graafipohjainen assosiaatio** — **0 kliinistä tutkimusta** ja **0 julkaisua** tukee tätä erityistä ennustusta, eikä mitään mekanistista yhteyttä cladribiinin tunnetun biologian ja rabdomyosarkooman patogeneesin välillä ole tunnistettu.
+# Kladribiini: karvasoluleukemiasta parameningeaaliseen embryonaaliseen rabdomyosarkoomaan
 
----
+## Yhteenveto
+
+Kladribiini on puriininukleosidianalogi, jota on alun perin käytetty karvasoluleukemian ja multippeliskleroosin hoitoon.
+TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **parameningeaalisen embryonaalisen rabdomyosarkooman**,
+mutta ennusteen tueksi ei ole **yhtään kliinistä tutkimusta eikä yhtään julkaisua**. Ennuste perustuu pelkästään mallin laskemaan tietämysgraafin läheisyyteen.
 
 ## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Hiirten silmäleukaemia *(yleinen lääketieteellinen tieto; lisenssiin/indikatioon liittyviä tietoja ei ole olemassa näytön paketissa)* |
-| Ennustettu uusi indikaatio | Parameningiaaliset embryonaaliset rabdomyosarkooma |
-| TxGNN-ennustepistemäärä | 99.77% (sijoitus 2900) |
-| Todisteen taso | L5 — vain mallin ennuste, ei kliinistä tai kirjallisuustukea |
-| Suomen markkinatilanne | ✗ Ei markkinoilla |
-| Myyntilupien lukumäärä | 0 |
-| Suositeltu päätös | Pidä |
+| Alkuperäinen käyttöaihe | Karvasoluleukemia (Litak); multippeliskleroosi (Mavenclad) |
+| Ennustettu uusi käyttöaihe | Parameningeaalinen embryonaalinen rabdomyosarkooma |
+| TxGNN-ennustepisteet | 99,77 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 2 (molemmat peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
----
+## Miksi ennuste voisi olla perusteltu?
 
-## Miksi tämä ennuste on perusteltavissa?
+Kladribiini eli 2-kloorideoksiadenosiini on adenosiinideaminaasia kestävä puriininukleosidianalogi. Se kertyy soluihin, joissa deoksisytidiinikinaasin aktiivisuus on korkea, ja aiheuttaa DNA-juosteen katkeamisia ja apoptoosin, pääasiassa lymfosyyteissä ja monosyyteissä. Tämä selittää sen tehon lymfoidisissa kasvaimissa (karvasoluleukemia) ja immuunivälitteisessä MS-taudissa.
 
-Strukturoituja MOA-tietoja ei ollut saatavilla näytön paketissa (`original_moa: [Data Gap]`). Kuitenkin mallin oman perustelun mukaan cladribine on deoksiadenosiinin lymfosyytti/monosyytti-selektiivinen sytotoksinen analogni, joka toimii DCK-välitteisen fosforylaation ja DNA-kaksoisjärkäisyyden katkeamisen induktion kautta — tämä on johdonmukaista sen vakiintuneen kliinisen roolin kanssa hiirten silmäleukaemiassa, immuunijärjestelmän/monosyyttien hematologisen pahanlaatuuden yhteydessä.
+Rabdomyosarkooma on kiinteä mesenkymaalinen kasvain, eikä kladribiinin vaikutusmekanismille tunneta vakiintunutta perustetta tässä taudissa. Korkea pistemäärä heijastaa todennäköisesti graafin läheisyyttä muihin rabdomyosarkoomasolmuihin, ei tunnettua biologista yhteyttä. Yksityiskohtaista vaikutusmekanismitietoa ei ole tämän raportin aineistossa saatavilla. Ennuste on siis toistaiseksi vain hypoteesi.
 
-Parameningiaaliset embryonaaliset rabdomyosarkooma sen sijaan on luuranko-myoblastin lineaagin kiinteä kasvain, jolla on perustavanlaatuisesti erilainen lähtösolutyyppi ja proliferatiivinen biologia. Näytön paketin omassa repurposing-perustelussa todetaan selvästi, että **ei ole olemassa tunnettua suoraa mekanistista yhteyttä** cladribiinin lymfosyytteihin kohdistuvan sytotoksisuuden ja rabdomyosarkooman patogeneesin välillä — korkea TxGNN-pistemäärä heijastaa graafisuhteen ennustetta, ei vahvistettua farmakologista hypoteesia.
+Muut samalla pistemäärätasolla ennustetut aiheet (esim. emättimen botryoidi-rabdomyosarkooma, sappitiehyen rabdomyosarkooma, eturauhasen embryonaalinen rabdomyosarkooma, rabdomyosarkooma yleisesti) ovat pitkälti päällekkäisiä, ja niiden taustalla on todennäköisesti sama graafisignaali.
 
-Tämä malli on johdonmukaista kaikissa 7 rankatussa ennusteessa tässä näytön paketissa (5 rabdomyosarkooman alatyyppiä, rabdomyosarkooma yleisenä kategoriana ja maksasarkooma) — kaikille annetaan L5/Pidä-status, eikä mikään niistä ole tuettu mekanistisella perustelulla. Ainoa tässä näytön paketissa löydetty kirjallisuusosuma (PMID 15241520, sijoitus 7 "maksasarkooma") käsittelee cladribiinin käyttöä pehmeässä systeemisessä mastoosytoosissa — immuunijärjestelmän mastoosyytti-häiriössä, ei sarkooman — eikä muodosta asiaankuuluvaa tukevaa näyttöä.
+## Kliininen tutkimusnäyttö
 
----
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
-## Kliinisen tutkimuksen näyttö
+## Kirjallisuusnäyttö
 
-Tällä hetkellä ei ole asiaan liittyviä rekisteröityjä kliinisiä tutkimuksia
+Parameningeaaliselle embryonaaliselle rabdomyosarkoomalle ei löytynyt aiheeseen liittyvää kirjallisuutta.
 
----
+Ainoa graafin seitsemänteen ennusteeseen (maksasarkooma) liitetty julkaisu ei tue ensisijaista ennustetta, mutta mainittakoon se avoimuuden vuoksi:
 
-## Kirjallisuuden näyttö
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [15241520](https://pubmed.ncbi.nlm.nih.gov/15241520/) | 2004 | Tapausselostus | Der Hautarzt | Kladribiinilla onnistunut hoito ns. kytevässä systeemisessä mastosytoosissa; hematologinen kasvain, ei maksasarkooma, joten näyttö on korkeintaan epäsuoraa |
 
-Tällä hetkellä asiaan liittyviä kirjallisuustietoja ei ole saatavilla
+## Myyntiluvat Suomessa
 
----
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000504 | Litak | – | Karvasoluleukemia (peruutettu) |
+| EMEA/H/C/004230 | Mavenclad | – | Multippeliskleroosi (peruutettu) |
 
 ## Sytotoksisuus
 
-Cladribine on perinteinen syöpälääke (puriinanukleosidia/deoksiadenosiini-analogni, antimetaboliittiluokka), jota käytetään tällä hetkellä hematologisten pahanlaatuuksien hoidossa.
+Kladribiini on solunsalpaaja (nukleosidianalogi), joten seuraavat tiedot koskevat sitä. Aineistossa ei ole yksityiskohtaisia toksisuustietoja, joten tiedot perustuvat lääkeryhmään ja tietämysgraafin vasta-aiheisiin; tarkemmat tiedot on tarkistettava valmisteyhteenvedosta.
 
 | Kohta | Sisältö |
 |------|------|
-| Sytotoksisuuden luokitus | Perinteinen sytotoksinen — puriinanukleosidia (deoksiadenosiini) analogni / antimetaboliitti |
-| Myelosupressio-riski | Mekanistisesti oletetaan olevan merkittävä, sillä lääkkeen aktiivisuus riippuu valikoivasta lymfosyytin/monosyytin poistumisesta DNA-kaksoisjärkäisyyden katkeamisen kautta; kvantitatiivisia hematologisen myrkyllisyyden tietoja ei ole saatavilla tässä näytön paketissa — katso pakkausseloste |
-| Emetogeniteettien luokitus | Katso pakkausselostetta varoituksista ja varotoimista |
-| Seurantakohteet | Täydellinen verilaskenta eri muotojen kanssa (erityisesti lymfosyyttiluku), maksa- ja munuaistoiminta |
-| Käsittelysuojaus | Antineoplastinen — sytotoksisen lääkkeen käsittelysuojaukset soveltuvat |
+| Sytotoksisuusluokitus | Perinteinen sytotoksinen lääke (puriininukleosidianalogi) |
+| Luuydinsuppression riski | Korkea (tietämysgraafin mukaan neutropenia, trombosytopenia, agranulosytoosi ja anemia ovat vasta-aiheisiin liittyviä tiloja) |
+| Oksennusta aiheuttavuus | Ei tietoa aineistossa; katso valmisteyhteenveto |
+| Seurantakohteet | Verenkuva erittelylaskennalla, maksa- ja munuaisarvot |
+| Käsittelysuojaus | Sytotoksisten lääkkeiden käsittelyohjeiden noudattaminen |
 
----
+## Turvallisuushuomiot
 
-## Turvallisuusnäkökohtia
+- **Tietämysgraafin vasta-aiheet** (eivät ole valmisteyhteenvedon tekstiä): munuaissairaus, pyoureter, trombosytopenia, hyperurikemia, neutropenia, agranulosytoosi, ääreishermoston sairaus, perifeerinen neuropatia, anemia ja makrosyyttinen anemia.
+- **Lääkeyhteisvaikutukset:** yhteensä 100 yhteisvaikutusta. Merkittäviä (Major) ovat mm.:
+  - kortikosteroidit: hydrokortisoni, triamsinoloni, deksametasoni, betametasoni, budesonidi, prednisolooni, prednisoni
+  - deferipronI
+  - radiofarmaseuttiset ja radioimmunoterapeuttiset valmisteet: ibritumomabitiuksetaani, jobenguaani (I-131), tositumomabi (I-131), samarium (153Sm) leksidronaami, strontium-89-kloridi
+  - Keskivaikeita (Moderate): palifermiini, dipyridamoli, silostatsoli, eltrombopagi.
 
-Katso turvallisuustiedot pakkausselosteesta.
-
-*(Huomautus: TFDA/Fimea-pakkausselosteiden varoitukset ja vasta-aiheet on merkitty **Blocking**-tietoaukoksi (DG001) tässä näytön paketissa — tämä on ratkaistava ennen kuin mitään turvallisuusarviointia voidaan jatkaa.)*
-
----
+Valmisteyhteenvedon varoitukset ja vasta-aiheet eivät ole tämän raportin aineistossa, joten ne on tarkistettava erikseen.
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Pidä**
+**Päätös: Hold (odota)**
 
-**Perustelu:**
-Tällä ehdokkaalla on vain L5-näyttö — TxGNN-assosiaatio ilman tukevaa kliinistä tutkimusta tai kirjallisuutta, eikä mitään tunnistettua mekanistista yhteyttä cladribiinin tunnetun lymfosyytti/monosyytti-selektiivisen sytotoksisuuden ja rabdomyosarkooman biologian välillä. Kaikilla 7 ennustetulla indikatiolla tässä näytön paketissa on sama Pidä-status samasta syystä. Lääke ei myöskään ole tällä hetkellä markkinoilla Suomessa, ja turvallisuus- ja merkintätiedot, joita tarvitaan jopa alustavan turvallisuusarvioinnin (S1) tekemiseen, puuttuvat.
+**Perustelut:**
+- Ennuste perustuu pelkästään tietämysgraafin pistemäärään (L5). Kliinisiä tutkimuksia ja kohdennettua kirjallisuutta ei ole, eikä kladribiinin mekanismille ole tunnettua perustetta rabdomyosarkoomassa. Lisäksi molemmat Suomen myyntiluvat on peruutettu ja luuydinsuppression riski on merkittävä.
 
-**Etenemisen edellytyksenä tarvitaan seuraavat tiedot:**
-- TFDA/Fimea-pakkausseloste (varoitukset, vasta-aiheet) — tällä hetkellä Blocking-aukko (DG001)
-- Vahvistetut alkuperäisen indikaation ja MOA-tiedot DrugBankista (DG002)
-- Prekliiniset tai mekanistiset tutkimukset, jotka erityisesti yhdistävät cladribiinin rabdomyosarkooomaan tai sarkoomabiologiaan
-- Lääkkeiden väliset vuorovaikutustiedot
-- Matalarankisten ehdokkaiden uudelleenseulonta uuden tutkimus- ja kirjallisuustodisteen kerääntyessä
-
+**Eteneminen edellyttää:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista (Fimea)
+- Vaikutusmekanismitietojen täydentämistä (DrugBank)
+- Prekliinistä näyttöä (esim. solulinja- ja eläinkokeet rabdomyosarkoomassa, deoksisytidiinikinaasin ilmentyminen kasvaimessa)
+- Systemaattista kirjallisuushakua rabdomyosarkoomasta ja kladribiinista
+- Selvitystä siitä, onko valmiste Suomessa saatavilla, kun myyntiluvat on peruutettu
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

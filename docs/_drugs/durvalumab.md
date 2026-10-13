@@ -2,7 +2,7 @@
 layout: default
 title: Durvalumab
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 131
+nav_order: 150
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,76 +29,97 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Durvalumab: Anti-PD-L1 pistokkeen estäjä — Ennustettu uusi käyttöaihe: Prostataan kuuluvan virtsaputken uroteliaalikarsinooma
+# Durvalumabi: Ei-pienisoluisesta keuhkosyövästä eturauhasen virtsaputken urotelikarsinoomaan
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Durvalumab on anti-PD-L1 monoklonaalinen vasta-aine (immuunisen pistokkeen estäjä); tämä näyttöpaketti ei dokumentoi sen alkuperäistä hyväksyttyä käyttöaihetta tai yksityiskohtaisia toimintamekanismikohtaisia tietoja, ja lääke ei ole tällä hetkellä markkinoilla Suomessa.
-TxGNN-mallin parhaiten rankattu ennuste on **Prostataan kuuluvan virtsaputken uroteliaalikarsinooma** (pistemäärä 99,98 %), mutta tätä erityistä ennustetta ei tällä hetkellä tueta klinisillä tutkimuksilla tai kirjallisuudella — se on pelkkä mallin hypoteesi.
-Huomio: tämän paketin 10 ehdokkaasta kahdella muulla virtsateisiin/naisten sukupuolielimiin liittyvällä karsinooma-indikaatiolla (sijoitus 3 ja 6) on tutkimus- ja/tai kirjallisuustodisteita — katso johtopäätös yksityiskohtaisesti.
+Durvalumabi on PD-L1:tä salpaava vasta-aine, jota on alun perin käytetty ei-pienisoluisen keuhkosyövän hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **eturauhasen virtsaputken urotelikarsinoomaan**. Tähän nimenomaiseen käyttöaiheeseen ei ole löytynyt kliinisiä tutkimuksia eikä kirjallisuutta, joten ennuste perustuu toistaiseksi vain laskennalliseen malliin.
+Sukulaisiin virtsatiesyöpiin ja gynekologisiin syöpiin liittyen aineistossa on kuitenkin **3 eri kliinistä tutkimusta** ja **2 julkaisua**.
 
-## Pika-yhteenveto
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen käyttöaihe | Ei dokumentoitu tässä näyttöpaketissa (`original_indications` tyhjä; Suomessa 0 lupaa tiedostossa) |
-| Ennustettu uusi käyttöaihe | Prostataan kuuluvan virtsaputken uroteliaalikarsinooma |
+|------|------|
+| Alkuperäinen käyttöaihe | Ei-pienisoluinen keuhkosyöpä |
+| Ennustettu uusi käyttöaihe | Eturauhasen virtsaputken urotelikarsinooma |
 | TxGNN-ennusteen pistemäärä | 99,98 % |
-| Näyttötaso | L5 (vain mallin ennuste, ei tutkimuksia tai kirjallisuutta) |
-| Suomen markkinatilanne | Ei markkinoilla (Ei markkinoilla) |
-| Lupien määrä | 0 |
-| Suositeltu päätös | Lykkää |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odotetaan) |
 
-## Miksi tämä ennuste on järkevä?
+> Huomio: Ensimmäisen ennusteen näyttö on L5. Muista ennustetuista käyttöaiheista kolmella on L3-taso ja ne on merkitty jatkotutkimuskysymyksiksi (ks. jäljempänä).
 
-Tällä hetkellä durvalumabille ei ole saatavilla yksityiskohtaisia toimintamekanismikohtaisia tietoja tässä näyttöpaketissa (merkitty korkeamman vakavuusasteen tietoraukoksi). Käytettävissä olevan tukiperustelujen kentän tietojen perusteella durvalumab on **anti-PD-L1 monoklonaalinen vasta-aine**, joka toimii estämällä PD-1/PD-L1 pistokkeen signalointireittiä ja palauttamalla T-solujen välityksellä tapahtuvaa anti-tuumori-immuuniaktiivisuutta — mekanismi, joka on jo osoittautunut hoitostrategiaksi useissa uroteleiaalisissa ja muissa immuunisissa tuumorityypeissä, jotka ovat edustettuina tässä samassa ennustejoukkossa muualla.
+## Miksi ennuste on perusteltu?
 
-Prostataan kuuluva virtsaputken uroteliaalikarsinooma jakaa kudoksen alkuperän virtsarakko- ja munuaisen pyhvöksen uroteleialisten karsinoomien kanssa — molemmat ovat osa laajempaa uroteleaalista karsinooma-perhettä. Tämän erityisen ennusteen perusteluna on mekanistinen ekstrapolointi: koska PD-L1 pistokkeen esto on tunnetusti biologisesti merkityksellinen uroteleiaalisissa karsinoomanissa yleensä, malli päättelee että sama saattaa päteä myös prostataan kuuluvan virtsaputken alatyyppiin.
+Tämän raportin käytettävissä olevissa tiedoissa ei ole kuvausta vaikutusmekanismista. Tunnetun tiedon perusteella durvalumabi on PD-L1:tä estävä immuunitarkistuspisteen estäjä, jonka teho ei-pienisoluisessa keuhkosyövässä on osoitettu ja joka mekanistisesti voi soveltua myös muihin PD-L1:tä ilmentäviin kasvaimiin.
 
-Kuitenkin tämä ekstrapolointi ei ole **vielä tuettu minkään sairauden spesifisellä tutkimuksella tai julkaisulla** — yhtään clinicaltrials.gov-, ICTRP- tai PubMed-tietuetta ei löytynyt durvalumabista prostataan kuuluvassa virtsaputken uroteleiaalisessa karsinoomassa erityisesti (kyselylokin tunnukset 5–7, kaikki nolla tuloksia). Mekanistinen uskottavuus on peritty uroteleaalisen karsinoomaluokan kokonaisuudelta pikemminkin kuin suorilta todisteilta tässä tarkalleen määritellyssä histologisessa alatyyppissä.
+Eturauhasen virtsaputken urotelikarsinooma on histologisesti jatkumoa virtsarakon urotelikarsinoomalle. Se on PD-L1:tä ilmentävä kasvaintyyppi, jossa PD-L1-salpauksella on todettu vaikutusta. Yhteys on uskottava kasvaintyypin samankaltaisuuden perusteella, mutta pistemäärä on vain laskennallinen ennuste.
 
-## Kliinisten tutkimusten näyttö
+Samaa logiikkaa noudattavat myös muut ennustetut käyttöaiheet: ylempien virtsateiden ja virtsarakon urotelikarsinoomavariantit sekä kohdunkaulan syövät, joissa immuunitarkistuspisteen estäjillä on jo vakiintunutta asemaa. Harvinaisimmissa alatyypeissä (esim. kohdun sidekudoksen adenokarsinooma) yhteys perustuu pelkästään tietämysgraafiin.
 
-Tällä hetkellä ei ole aiheeseen liittyviä rekisteröityjä kliinisiä tutkimuksia.
+## Kliiniset tutkimukset
 
-## Kirjallisuuden näyttö
+Ensimmäiselle ennustetulle käyttöaiheelle (eturauhasen virtsaputken urotelikarsinooma) ei ole rekisteröityjä kliinisiä tutkimuksia. Alla ovat ennustetuille sukulaiskäyttöaiheille löytyneet tutkimukset.
 
-Tällä hetkellä ei ole aiheeseen liittyvää saatavilla olevaa kirjallisuutta.
+| Tutkimusnumero | Vaihe | Tila | Osallistujia | Keskeiset havainnot |
+|---------|------|------|------|---------|
+| [NCT03912818](https://clinicaltrials.gov/study/NCT03912818) | Vaihe 2 | Päättynyt ennenaikaisesti | 7 | Durvalumabi ja neoadjuvanttikemoterapia varianttihistologian virtsarakkosyövässä. Vain 7 potilasta, joten ei kykene osoittamaan tehoa; keskeytyksen syy tulisi selvittää. |
+| [NCT02812420](https://clinicaltrials.gov/study/NCT02812420) | Varhainen vaihe 1 | Aktiivinen, ei rekrytoi | 54 | Durvalumabi + tremelimumabi ennen leikkausta lihasinvasiivisessa suuren riskin urotelikarsinoomassa, kun sisplatiinihoito ei sovellu. Antaa varhaista turvallisuus- ja biomarkkerinäyttöä, ei tehoa. |
+| [NCT03452332](https://clinicaltrials.gov/study/NCT03452332) | Vaihe 1 | Valmistunut | 20 | Hypofraktioitu sädehoito + durvalumabi + tremelimumabi uusiutuneessa tai metastaattisessa kohdunkaulan, emättimen tai ulkosynnytinten syövässä. Antaa turvallisuus- ja toteutettavuustietoa, ei tehoa. |
+
+## Kirjallisuusnäyttö
+
+Kirjallisuutta löytyi vain ennustetulle käyttöaiheelle "endoservikaalinen karsinooma", ja se on epäsuoraa.
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [42518016](https://pubmed.ncbi.nlm.nih.gov/42518016/) | 2026 | Ei-satunnaistettu kliininen tutkimus | Oncology and Therapy | Vaiheen 1 monikeskustutkimus: ATR-kinaasin estäjä seralasertibi yhdessä durvalumabin kanssa kiinalaisilla potilailla, joilla on edennyt kiinteä kasvain ja aiempi anti-PD-(L)1-hoito ei ole tehonnut. |
+| [37467967](https://pubmed.ncbi.nlm.nih.gov/37467967/) | 2023 | Katsaus | Biomedical Journal | Kohdunkaulan pienisoluisen neuroendokriinisen karsinooman molekyylitausta ja hoidon kehitys. Ei suoraan durvalumabia koskeva. |
 
 ## Suomen markkinatiedot
 
-Durvalumabilla ei ole tällä hetkellä markkinointilupaa Suomessa (`market_status`: Ei markkinoilla, `total_licenses`: 0). Tuotetietoja tai annostusmuoto-informaatiota ei ole saatavilla.
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004771 | Imfinzi | – | Ei-pienisoluinen keuhkosyöpä (tila: peruutettu) |
 
-## Sytostaattisyys
+## Solunsalpaajaominaisuudet
 
 | Kohta | Sisältö |
-|------|---------|
-| Sytostaattisyyden luokitus | Immunoterapia (anti-PD-L1 immuunisen pistokkeen estäjä) — ei tavanomainen sytostaattinen kemoterapiaaine |
-| Luuydinsuppression riski | Katso pakkausseloste, varoitukset ja varotoimet |
-| Pahoinvointiherkkyysluokitus | Katso pakkausseloste, varoitukset ja varotoimet |
-| Seurantakohteet | Katso pakkausseloste, varoitukset ja varotoimet |
-| Käsittelysuojaus | Katso pakkausseloste, varoitukset ja varotoimet |
+|------|------|
+| Luokitus | Immunoterapia (PD-L1-vasta-aine), ei perinteinen solunsalpaaja |
+| Luuydinsuppressio | Katso valmisteyhteenvedon varoitukset ja käyttöön liittyvät varotoimet |
+| Oksettavuus | Katso valmisteyhteenvedon varoitukset ja käyttöön liittyvät varotoimet |
+| Seurantakohteet | Katso valmisteyhteenvedon varoitukset ja käyttöön liittyvät varotoimet |
+| Käsittelysuojaus | Katso valmisteyhteenvedon varoitukset ja käyttöön liittyvät varotoimet |
 
 ## Turvallisuusnäkökohdat
 
-Katso pakkausseloste turvallisuustiedoista.
+Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla tämän raportin aineistossa, joten ne on tarkistettava valmisteyhteenvedosta.
+
+**Lääkeinteraktiot:** Aineistossa on yhteensä 81 interaktiota. Esimerkkejä:
+- **Merkittävä (Major):** adalimumabi
+- **Kohtalainen (Moderate):** kortikosteroidit (hydrokortisoni, triamsinoloni, deksametasoni, betametasoni, budesonidi, prednisolooni, prednisoni, metyyliprednisolooni, deflatsakorti), roflumilasti, alemtutsumabi, anakinra, alefatsepti sekä jotkin rokotteet (esim. jäykkäkouristustoksoidi, pernarokote)
+- **Vähäinen (Minor):** sinkkivalmisteet (asetaatti, glukonaatti, sulfaatti, kloridi)
+
+Kortikosteroidien ja muiden immuunivastetta muuttavien lääkkeiden yhteisvaikutus on kliinisesti oleellinen, koska ne voivat heikentää immuunitarkistuspisteen estäjän vaikutusta.
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Lykkää**
+**Päätös: Hold (odotetaan)**
 
 **Perustelut:**
-Parhaiten rankatulla ennustetulla käyttöaiheella (prostataan kuuluvan virtsaputken uroteliaalikarsinooma) on näyttötaso L5 — TxGNN-mallin pistemäärä, jolla ei ole yhtään vahvistavaa kliinistä tutkimusta tai kirjallisuutta. Lisäksi pakkausselosteeseen liittyvät varoitukset/vasta-aiheet durvalumabille on merkitty **Estäväksi** tietoraukoksi (DG001), joka itsessään estää tämän ehdokkaan siirtymisen S1-turvallisuuden esiarviointivaiheeseen riippumatta tehokkuustodisteista.
+- Ensisijaiselle ennusteelle (eturauhasen virtsaputken urotelikarsinooma) ei ole kliinistä eikä kirjallista näyttöä, joten näytön taso on L5. Pisteet ovat korkeita (yli 99,9 %), mutta ne ovat vain laskennallisia.
+- Lisäksi Suomen ainoa myyntilupa on peruutettu, eikä turvallisuustietojen puute (valmisteyhteenveto) mahdollista turvallisuusseulontaa.
+- Sukulaiskäyttöaiheista virtsarakon variantti- ja sarkomatoidihistologiat sekä endoservikaalinen karsinooma ovat L3-tasolla ja soveltuvat jatkotutkimuskysymyksiksi, mutta niiden tutkimukset ovat pieniä, varhaisen vaiheen tai keskeytettyjä.
 
-**Jotta voidaan edetä, tarvitaan seuraavaa:**
-- TFDA/Fimea-pakkausseloste (varoitukset, vasta-aiheet) estävän tietorako (DG001) selvittämiseksi ja S1-turvallisuuden esiarviointivaiheelle pääsemiseksi
-- Vahvistettu toimintamekanismi ja alkuperäisen hyväksytyn käyttöaihe-dokumentaatio (DG002)
-- Sairauden spesifinen prekliininen tai varhaisen vaiheen kliininen tieto prostataan kuuluvasta virtsaputken uroteleiaalisesta karsinoomasta, koska nykyinen tuki perustuu pelkästään mekanistiseen ekstrapolointiin
-
-**Huomio prioritarisoinnille:** Tässä samassa ennustejoukkossa on kaksi muuta ehdokasta, joilla on huomattavasti vahvempi näyttö ja jotka saattavat vaatia erillistä arviointia ennen tätä:
-- **Invasiivinen virtsarakkon uroteliaalikarsinooma, sarkomatoidi variantti** (sijoitus 3, L3, päätösvaihe S1) — Phase 2 tutkimus (NCT03912818, keskeytetty, n=7) arvioitu "A" sairauden spesialisyydelle, sekä tukeva Phase 1 tutkimus (NCT02812420).
-- **Endoselvikaalinen karsinooma** (sijoitus 6, L2, päätösvaihe S2) — kaksi tutkimusta (NCT04065269 Phase 2 käynnissä n=174; NCT03452332 Phase 1 valmis n=20) ja yksi tukeva katsaus (PMID 37467967).
-
+**Jatkoon tarvitaan:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittäminen (estävä tietopuute)
+- Vaikutusmekanismin tiedot (esim. DrugBankista)
+- Virtsarakon urotelikarsinooman tutkimusnäytön ja vakiintuneen käytön kartoitus eturauhasen virtsaputken ja ylempien virtsateiden kasvaimiin ekstrapoloimiseksi
+- Keskeytetyn tutkimuksen NCT03912818 päättymissyyn selvittäminen
+- Myyntilupatilanteen selvittäminen (peruutettu Suomessa) ja reittiyhteensopivuuden arviointi
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

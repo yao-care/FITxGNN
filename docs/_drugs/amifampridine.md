@@ -2,7 +2,7 @@
 layout: default
 title: Amifampridine
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 27
+nav_order: 29
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,82 +29,74 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Amifampridine: Lambert-Eatonin myasteenisesta syndroomasta glaukooman hoitoon
+# Amifampridiini: Lambert-Eatonin myasteenisesta oireyhtymästä glaukoomaan
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-> Amifampridine on jännitteestä riippuvainen kaliumkanavien salpaaja, jonka vakiintuneet farmakologiset käytöt ovat **Lambert-Eatonin myasteeninen syndrooma (LEMS)**, vaikka sillä ei tällä hetkellä ole **markkinointilupaa Taiwanissa**. TxGNN-malli ennustaa, että se saattaa olla tehokas **glaukooman** hoidossa (pistemäärä 99.71%), ja se tulee myös toissijaisen, heikomman luottamuksen signaalina **akuuttiin epäsäännölliseen porfiaan** (pistemäärä 99.32%). Kumpaakaan ennustusta ei tällä hetkellä tueta missään kliinisessä tutkimuksessa tai julkaistussa kirjallisuudessa — tämä on **pelkästään mallin ennustuksiin perustuva (L5)** signaali, ja **estävän vakavuuden tietoaukko** TFDA:n pakkauslehden turvallisuusosasta estää minkään muodollisen turvallisuuskarsintaseurannan tässä vaiheessa.
+Amifampridiini on lääke, jota on alun perin käytetty Lambert-Eatonin myasteenisen oireyhtymän (LEMS) hoitoon. TxGNN-malli ennustaa sen voivan tehota **glaukoomaan**, mutta ennustetta tukevat vain mallilaskelmat: tähän mennessä kerätyissä tiedoissa ei ole **yhtään kliinistä tutkimusta eikä julkaisua**.
 
----
+## Pikakatsaus
 
-## Pikayhteenveto
+| Kohta | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | Lambert-Eatonin myasteeninen oireyhtymä |
+| Ennustettu uusi käyttöaihe | Glaukooma |
+| TxGNN-ennustepisteet | 99,71 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 2 (molemmat peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-| Kohde | Sisältö |
-|------|-------|
-| Alkuperäinen indikaatio | Lambert-Eatonin myasteeninen syndrooma (LEMS) — mainittu mallin mekanistisessa perustelussa lääkkeen tunnetuksi käytöksi; ei vahvistettu Taiwanin lupatieto­jen kautta, koska tuote ei ole markkinoilla Taiwanissa |
-| Ennustettu uusi indikaatio | Glaukooma |
-| TxGNN:n ennustuspistemäärä | 99.71% (sijoitus 3737) |
-| Näyttötaso | L5 |
-| Taiwanin markkinoiden tila | Ei markkinoilla |
-| Lupien määrä | 0 |
-| Suositeltu päätös | Pidä |
+## Miksi ennuste on perusteltu?
 
----
+Tässä raportissa käytetyistä tiedoista ei ole saatavilla yksityiskohtaista vaikutusmekanismia. Yleisen farmakologisen tiedon mukaan amifampridiini (3,4-diaminopyridiini) salpaa jänniteherkkiä kaliumkanavia, pidentää presynaptista depolarisaatiota ja lisää asetyylikoliinin vapautumista hermo-lihasliitoksessa. Tämä selittää sen tehon LEMS-taudissa.
 
-## Miksi tämä ennustus on järkevä?
+Yhteys glaukoomaan on toistaiseksi vain teoreettinen. Se voisi liittyä hermosolujen ärtyvyyden tai verkkokalvon gangliosolujen toiminnan muokkaamiseen, mutta tätä tukevaa mekanistista tietoa ei ole. Alkuperäisen ja uuden käyttöaiheen samankaltaisuutta ei ole arvioitu. Silmään annosteluun ei myöskään ole perustetta, ja reittien yhteensopivuus on arvioimatta.
 
-Amifampridinin toimintamekanismin yksityiskohtaiset tiedot ovat vahvistettu tietoaukko tässä näyttöpaketissa (DG002, korkea vakavuus). Mallin oman mekanistisen perusteluun nojaten amifampridine tunnetaan jännitteestä riippuvaisena kaliumkanavien salpaaajana, joka vaikuttaa neuromuskulaarisessa liitoksessa lisäämällä asetyylikoliinin vapautumista — tämä on sen vakiintuneen käytön perusta LEMS:ssä.
+Toinen mallin ennustama käyttöaihe on akuutti ajoittainen porfyria (pistemäärä 99,32 %). Sekin on pelkkä mallin ennuste ilman kliinistä tai kirjallisuusnäyttöä. Amifampridiinin kouristuskynnystä laskeva vaikutus on huolenaihe tässä taudissa, koska akuuteissa kohtauksissa voi esiintyä kouristuksia.
 
-Parhaan ennustuksen kohdalla **glaukooma** on patologisen tilan ydin silmänesteen tuotannon ja ulosvirtauksen välisessä epätasapainossa, joka nostaa silmänsisäistä painetta (IOP). Ionikanavat — mukaan lukien K⁺ kanavat — silmäjuuren epiteelissä osallistuvat silmänesteen eritykseen sääntelyyn, mikä on teoreettinen perusta mallin oletuksille näiden kahden tilan välillä.
+## Kliininen tutkimusnäyttö
 
-Kuitenkin tämä yhteys esitetään näyttöpaketissa vain **luokkatasoisena, epäsuorana analogiana**: ei ole oftalmologista farmakologiaa, prekliinisiä tai kliinisiä näyttöjä siitä, että amifampridine vaikuttaisi suoraan silmänsisäiseen paineeseen tai silmänesteen dynamiikkaan. Yhdessä puuttuvien alkuperäisten vaikutusmekanismin tietojen kanssa mekanistinen yhteys tulee käsitellä puhtaasti ennustavana hypoteesina (L5), ei validoituna farmakologisena perusteluna.
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
-### Toissijainen ennustus: Akuutti epäsäännöllinen porfiria (pistemäärä 99.32%, sijoitus 6919)
+## Kirjallisuusnäyttö
 
-Akuutti epäsäännöllinen porfiria (AIP) johtuu porfobinogeeni deamiinaasipuutoksesta, joka häiritsee heemisynteesiä, ja akuutit kohtaukset esiintyvät neuro-viskeraalisten oireiden muodossa (vatsankipu, perifeerinen neuropatia, autonomisen hermoston toimintahäiriö). Mallin perustelut perustuvat vain **oiretason analogiaan**: amifampridinin tunnettu neuromuskulaarisen välityksen parantava vaikutus voisi teoriassa tarjota oireista helpotusta AIP:hon liittyvälle neuropatialle, mutta tällä ei ole **mekanistista yhteyttä** heemisynteesiin liittyvään taustalla olevaan entsyymatiseen puutteeseen (esim. ei näyttöä siitä, että se sääntelisi ALA-syntentaasin aktiivisuutta). Tämä yhteys on eksplisiittisesti heikoin kahdesta ja sitä tulee pitää pintatasoisena analogiana pikemminkin kuin farmakologisena hypoteesina.
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
----
+## Tiedot Suomen markkinoilta
 
-## Kliinisen tutkimuksen näyttö
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/005839 | Amifampridine SERB | – | Lambert-Eatonin myasteeninen oireyhtymä; paraneoplastiset oireyhtymät, hermoston; hermoston kasvaimet; paraneoplastiset oireyhtymät; hermoston sairaudet... |
+| EMEA/H/C/001032 | Firdapse (aiemmin Zenas) | – | Lambert-Eatonin myasteeninen oireyhtymä |
 
-Tällä hetkellä ei ole rekisteröitynyt asiaan liittyviä kliinisiä tutkimuksia kumpaakaan ennustetun indikaation osalta (glaukooma tai akuutti epäsäännöllinen porfiria).
+Molemmat myyntiluvat on peruutettu, joten valmistetta ei tällä hetkellä ole voimassa olevalla myyntiluvalla.
 
----
+## Turvallisuusnäkökohdat
 
-## Kirjallisuuden näyttö
+- **Lääkeaineyhteisvaikutukset:** Tietokannasta löytyi yhteensä 68 yhteisvaikutusta. Vakavuudeltaan **merkittäväksi (Major)** luokiteltu on bupropioni. Muut esimerkit ovat **kohtalaisia (Moderate)**:
+  - kortikosteroidit: hydrokortisoni, betametasoni, deksametasoni, prednisoloni, prednisoni
+  - ruokahalua hillitsevät ja stimuloivat lääkkeet: fentermiini, fenfluramiini, deksfenfluramiini, dietyylipropioni, matsindoli, sibutramiini, efedriini
+  - opioidit: morfiini, oopiumi
+  - muut: levofloksasiini, metoklopramidi, dronabinoli, polyetyleeniglykoli (elektrolyyteillä)
+- **Yleinen huomio:** Systeeminen kaliumkanavan salpaus voi lisätä kouristus- ja sydänriskejä. Tämä perustuu farmakologiseen arvioon, ei pakkausselosteen tietoon.
 
-Tällä hetkellä ei ole saatavissa liittyvää kirjallisuutta kumpaakaan ennustetun indikaation osalta (glaukooma tai akuutti epäsäännöllinen porfiria).
-
----
-
-## Taiwanin markkinatieto
-
-Amifampridinella ei tällä hetkellä ole **markkinointilupaa Taiwanissa** (markkinoiden tila: Ei markkinoilla, yhteensä lupia: 0). Tälle tuotteelle ei ole saatavissa hyväksyttyä indikaatiotekstiä, lääkemuotoa tai lupatieto Taiwanissa.
-
----
-
-## Turvallisuushuomiot
-
-Taiwan/TFDA pakkauslehden tiedot amifampridinin varoituksista ja vasta-aiheista ei ole vielä saatu (tietoaukko DG001, **estävä vakavuus**) — tämä estää tällä hetkellä ehdokkaan siirtymisen S1 turvallisuuden esikarsintavaiheeseen. Lääkkeiden välisen yhteisvaikutuksen tiedot kysyttiin mutta niitä ei löytynyt (0 yhteisvaikutusta tiedostoissa).
-
-Katso pakkauslehteä turvallisuustiedoista, kun ne ovat saatavilla.
-
----
+Muista varoituksista ja vasta-aiheista tietoja ei ole saatavilla. Tarkista ne valmisteyhteenvedosta.
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Pidä**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Molemmat ennustetut indikaatiot perustuvat yksinomaan TxGNN-mallin pistemäärään (L5, ei kliinistä tai kirjallisuusnäyttöä), ja estävän vakavuuden tietoaukko TFDA:n turvallisuus/pakkauslehti tiedoista tarkoittaa, että ehdokas ei vielä voi suorittaa edes alkuperäistä turvallisuuskarsintaa (S1). Lääkkeellä ei myöskään ole olemassa olevaa Taiwanin markkinoiden läsnäoloa sääntelyllisen polun ankkuriksi.
+- Ennuste perustuu pelkästään TxGNN-mallin pisteisiin (näytön taso L5). Kliinisiä tutkimuksia, kirjallisuutta tai mekanistista tukea ei ole.
+- Kouristusriski, 68 yhteisvaikutusta ja peruutetut myyntiluvat lisäävät kehitystyön epävarmuutta.
 
-**Jatkaakseen tarvitaan seuraavaa:**
-- TFDA:n pakkauslehden tiedot (varoitukset, vasta-aiheet) — tarvitaan estävän aukkon (DG001) poistamiseksi ennen mitään turvallisuusarviota
-- Vahvistetut vaikutusmekanismin tiedot DrugBankista tai primaarisen farmakologian kirjallisuudesta (DG002)
-- Prekliniiset tai mekanistiset tutkimukset, jotka testaavat spesifisesti amifampridinin vaikutusta silmänesteen dynamiikkaan / silmänsisäiseen paineeseen (glaukooman hypoteesin kannalta)
-- Kaikki tapausraportit, prekliniiset tiedot tai tutkimukset, jotka käsittelevät amifampridinin käyttöä porfiaan liittyvässä neuropatiassa (AIP:n hypoteesin kannalta)
-- Validoidut lääkkeiden välisen yhteisvaikutuksen tiedot (nykyisen kyselyn tila: ei löytynyt)
-
+**Eteenpäin siirtyminen edellyttää:**
+- Vaikutusmekanismin tietojen täydentämistä (esim. DrugBankista).
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimeasta ja turvallisuusarviota ennen jatkoa.
+- Prekliinisiä tai mekanistisia tutkimuksia amifampridiinin ja glaukooman yhteydestä.
+- Antoreitin ja silmään kohdistuvan annostelun arviointia.
+- Markkinatilanteen selvittämistä, koska voimassa olevia myyntilupia ei ole.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

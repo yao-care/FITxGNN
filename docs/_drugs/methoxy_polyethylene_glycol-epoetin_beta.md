@@ -2,7 +2,7 @@
 layout: default
 title: Methoxy Polyethylene Glycol-Epoetin Beta
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 247
+nav_order: 287
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,77 +29,95 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **7** kpl
 
 </div>
 
-# Methoxy Polyethylene Glycol-Epoetin Beta: Anemiasta (CKD) verihiutaleiden primaariseen vapautumishäiriöön
+# Metoksipolyetyleeniglykoli-epoetiini beeta: Anemiasta ja kroonisesta munuaisten vajaatoiminnasta verihiutaleiden primaariseen vapautumishäiriöön
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Methoxy polyethylene glycol-epoetin beta (DrugBank DB09107, jota myydään muualla nimellä Mircera) on pitkävaikutteinen erytropoeesi-stimuloiva aine (ESA), jonka vakiintunut käyttötarkoitus on anemiahoidon hallinta. TxGNN-malli ennustaa, että se voi olla tehokas **verihiutaleiden primaarisen vapautumishäiriön** kannalta, mutta tätä suuntaa tukee tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua** — signaali tulee pelkästään mallista.
-
----
-
-## Nopea yleiskatsaus
-
-| Kohde | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Anemia (ESA-luokka; ei vahvistettu millään tämän tietojoukon tietueella — katso huomautus alla) |
-| Ennustettu uusi indikaatio | Verihiutaleiden primaarinen vapautumishäiriö |
-| TxGNN-ennustepisteet | 99.36% |
-| Näyttötaso | L5 |
-| Suomen markkinatilanne | Ei markkinoilla |
-| Hyväksyntöjen määrä | 0 |
-| Suositeltu päätös | Jäädytä |
+Metoksipolyetyleeniglykoli-epoetiini beeta (kauppanimi Mircera) on pegyloitu erytropoieesia stimuloiva aine, jota on käytetty anemian hoitoon kroonisen munuaisten vajaatoiminnan yhteydessä.
+TxGNN-malli ennustaa sen mahdollisesti tehoavan **verihiutaleiden primaariseen vapautumishäiriöön** (primary release disorder of platelets), mutta ennusteen tueksi ei ole **yhtään kliinistä tutkimusta eikä julkaisua**. Ennuste perustuu pelkästään laskennalliseen verkkomalliin.
 
 ---
 
-## Miksi tämä ennuste on kohtuullinen?
+## Pikakatsaus
 
-Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla (DG002). Tunnettujen tietojen perusteella tämä lääke on pitkävaikutteinen erytropoetiini-reseptori (EPOR) agonisti ESA-luokassa; sen tehokkuus anemiassa on vakiintunut kliinisen käytön kautta, ja tässä näyttöpakettiin toimitettu uudelleenkäyttöresepti ehdottaa, että EPOR-ilmentymä megakaryosyyttien esiastesoluissa voisi teoriassa luoda epäsuoran yhteyden verihiutaleiden vapautumisen reitteihin.
-
-Tämä yhteys on kuitenkin näyttöpaketissa selvästi merkitty spekulatiiviseksi pikemminkin kuin kausaaliseksi: EPOR-agonismilla ei ole vakiintunutta suoraa roolia verihiutaleiden primaarisen vapautumishäiriön taustalla olevassa spesifissä vihassa, ja TxGNN-pisteet selittyvät todennäköisemmin jaetuilla hematologisilla/komorbiditeettisolmuilla tietoverkossa kuin spesifisellä mekanistisella suhteella. Mitään kliinistä tutkimusta tai kirjallisuustodistetta ei ole olemassa hypoteesin vahvistamiseksi kumpaankaan suuntaan.
-
-Top-7-ennusteluettelon sijoituksissa 2, 3, 5, 6 ja 7 esiintyy sama kuvio: (Glanzmannin trombastenian, pseudo-von Willebrandin taudin, hepariini-kofaktori II:n puutoksen, antitrombiin-puutoksen tyypin 2, V-tekijän ylimäärä spontaanin tromboosin kanssa) kaikki sisältävät verihiutaleiden-reseptori- tai hyytymistekijä-rakenteellisia vioita ilman tunnettua EPOR/JAK2-reittiyhteyttä — useita on merkitty perustelussa olevan **suhteellisen kontraindikaaation** (ESA-liittyvä tromboosin riski) kanssa johdonmukaisempia kuin hoitohyödykkeen kannalta. Sijoitus 4 (vakava ei-proliferatiivinen diabeettinen retinopatia) on biologisesti uskottavin mekanismi (EPO/EPOR-neuroprotektiivinen, anti-apoptootinen signalointi verkkokalvolla, aiempaa tutkimusarviota diabeettisessa retinopatiassa), mutta sitä ei myöskään tueta millään haetulla tutkimuksella tai kirjallisuustietueella, ja siihen liittyy oma turvallisuuskysymys EPO-ohjatun angiogeneesin ympärillä lähes proliferatiivisessa sairauden tilassa.
-
----
-
-## Kliinisten tutkimusten näyttö
-
-Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia
+| Kohta | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | Anemia; krooninen munuaisten vajaatoiminta |
+| Ennustettu uusi käyttöaihe | Verihiutaleiden primaarinen vapautumishäiriö |
+| TxGNN-ennusteen pistemäärä | 99,36 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Kirjallisuuden näyttö
+## Miksi ennuste voisi olla perusteltu?
 
-Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta
+Tämän raportin laatimiseen kootuissa tiedoissa lääkkeen vaikutusmekanismia ei ole saatavilla. Tiedetään, että metoksipolyetyleeniglykoli-epoetiini beeta on pegyloitu EPO-reseptorin agonisti, joka ajaa pääasiassa punasolujen esiasteiden lisääntymistä. Sen teho anemiassa kroonisen munuaisten vajaatoiminnan yhteydessä on osoitettu.
+
+Mekanistinen yhteys verihiutaleiden vapautumishäiriöön on heikko. EPO-reseptorin aktivaatio ei korjaa verihiutaleiden eritysvikaa. Ainoa ajateltavissa oleva yhteys olisi epäsuora, esimerkiksi hematokriittiin liittyvät virtausvaikutukset verihiutaleiden reaktiivisuuteen, mutta tätä ei tue mikään aineisto. Korkea pistemäärä on todennäköisesti verkkorakenteen tuottama ennuste, ei biologinen perustelu.
+
+Lisäksi erytropoieesia stimuloivat aineet lisäävät tromboosiriskiä, mikä on turvallisuushuoli, ei todennäköinen hyöty, verihiutaleiden toimintahäiriössä.
+
+### Muut ennustetut käyttöaiheet
+
+Samat ongelmat koskevat muita ennusteita. Kaikilla on taso L5 ja suositus Hold:
+
+| Sija | Sairaus | TxGNN-pistemäärä | Huomio |
+|---|---|---|---|
+| 2 | Glanzmannin trombastenia | 99,30 % | EPO ei korjaa integriini αIIbβ3:n puutosta |
+| 3 | Pseudo-von Willebrandin tauti | 99,25 % | Ei tunnettua mekanistista yhteyttä |
+| 4 | Vaikea ei-proliferatiivinen diabeettinen retinopatia | 99,15 % | EPO voi edistää verisuonten uudismuodostusta, joten vaikutus voi olla haitallinen |
+| 5 | Hepariinin kofaktori 2:n puutos | 99,10 % | Tromboosiriski huolestuttava |
+| 6 | Antitrombiinin puutos, tyyppi 2 | 99,07 % | Perinnöllinen tromboosialttius, turvallisuushuoli |
+| 7 | Tekijä V:n liikatoiminta ja spontaani tromboosi | 99,04 % | Tromboosiriski vastaisi hoidon tarkoitusta |
 
 ---
 
-## Suomen markkinatiedot
+## Kliiniset tutkimukset
 
-Markkinoinnin hyväksyntöjä ei ole tällä hetkellä rekisteröity (markkinatilanne: Ei markkinoilla; lisenssejä yhteensä: 0).
-
----
-
-## Turvallisuushuomiot
-
-Turvallisia tietoja varten katso pakkausselosteesta.
-
-*(Huomautus: TFDA/sääntelyyn liittyvä pakkausselosteen tieto — varoitukset ja kontraindikaatiot — on tällä hetkellä estävä tietoaukko (DG001) eikä sitä ole haettu. Tämä estää minkään S1-turvallisuuden esiseulonnan tälle kandidaatille.)*
+Ei tällä hetkellä aiheeseen liittyviä rekisteröityjä kliinisiä tutkimuksia.
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Kirjallisuusnäyttö
 
-**Päätös: Jäädytä**
+Ei tällä hetkellä aiheeseen liittyvää kirjallisuutta.
+
+---
+
+## Tiedot Suomen markkinoilta
+
+| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000739 | Mircera (Roche Registration GmbH) | – | Anemia; krooninen munuaisten vajaatoiminta |
+
+Tämä myyntilupa on tilassa "peruutettu", eikä voimassa olevia myyntilupia ole.
+
+---
+
+## Turvallisuusnäkökohdat
+
+Lääkkeen tunnettu luokkavaikutus on tromboosiriskin lisääntyminen, mikä on erityisen huolestuttavaa ennustetuissa käyttöaiheissa, joihin liittyy veren hyytymishäiriö tai tromboosialttius. Diabeettisessa retinopatiassa EPO-signalointi voi lisätä verisuonten uudismuodostusta.
+
+Lääkeyhteisvaikutuksia ei löytynyt. Muuten turvallisuustiedoista saa lisätietoa valmisteyhteenvedosta.
+
+---
+
+## Johtopäätös ja seuraavat askeleet
+
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Kaikki seitsemän ennustettua indikaatiota ovat pelkästään mallipohjaiset (L5), ja niiden jokaisen sairauden osalta ei ole yhtään vahvistavaa kliinistä tutkimusta tai kirjallisuutta. TFDA:n pakkausselosteen tiedon estävän tietoaukon (DG001) kanssa yhdistettynä kandidaatti ei voi vielä edetä turvallisuuden esiseulontaan (S1), puhumattakaan lääkkeen uudelleenkäyttöä koskevan toteutettavuusarvioinnista.
+- Ennuste on pelkästään laskennallinen (L5), eikä sen tueksi ole kliinisiä tutkimuksia eikä julkaisuja. Mekanistinen perustelu on heikko, ja luokkaan liittyvä tromboosiriski puhuu käyttöä vastaan. Lisäksi ainoa myyntilupa Suomessa on peruutettu.
 
-**Edistämiseksi tarvitaan seuraavat:**
-- TFDA pakkausseloste / varoitukset ja kontraindikaatiot (DG001 — estävä, vaaditaan ennen mitään S1-turvallisuuden arviointia)
-- Vahvistettu vaikutusmekanismi ja alkuperäinen hyväksytty indikaatio(t) DrugBankista tai muusta ensisijaisesta lähteestä (DG002)
-- Itsenäinen kirjallisuuspohjaisesti/mekanistinen arviointi erityisesti vakavaa ei-proliferatiivista diabeettista retinopatiaa varten (sijoitus 4), sillä sillä on verrattain vahvempi biologinen perustelu, mutta ratkaisematon angiogeneesin turvallisuussignaali
-- Jos verihiutaleiden vapautumishäiriön hypoteesia (sijoitus 1) jatketaan, omistettu mekanistinen validointi EPOR:n roolista megakaryosyyttien/verihiutaleiden vapautumisessa, koska nykyinen tuki on tietoverkko-yhteensattuma pikemminkin kuin reitin näyttö
-
+**Eteenpäin siirtyminen edellyttää:**
+- Lääkkeen vaikutusmekanismin tietojen täydentämistä.
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimealta.
+- Mekanistista tai prekliinistä näyttöä EPO-reseptorin roolista verihiutaleiden toiminnassa.
+- Tromboosiriskin arviointia ennen kuin tutkimussuuntaa harkitaan.
+- Markkinatilanteen selvittämistä, koska voimassa olevaa myyntilupaa ei ole.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Latanoprost
-parent: Pelkkä mallin ennuste (L5)
-nav_order: 217
-evidence_level: L5
+parent: Kohtalainen näyttö (L3-L4)
+nav_order: 251
+evidence_level: L4
 indication_count: 10
 ---
 
 # Latanoprost
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,69 +29,98 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# LATANOPROST: Arviointi pidossa — TxGNN-ennustuksia ei ole saatavilla
+# Latanoprosti: Avoimen kulmakaihin hoidosta primaariseen perinnölliseen glaukoomaan
 
 ## Yhden lauseen yhteenveto
 
-LATANOPROST (DB00654) on prostaglandiinianalogni, jolla on vakiintunut kliininen käyttö silmänpaineen alentamiseen, vaikka sen alkuperäisiä indikaatiotietoja ei saatu tässä todistusten paketissa. Nykyinen todistusten paketti sisältää **nolla TxGNN-ennustustuloksia**, mikä tarkoittaa, että uudelleenkäytön hypoteesia ei ole arvioitavana. Tämä raportti dokumentoi tietojen puutteet ja hahmottelee korjaavat toimenpiteet, jotka vaaditaan ennen kuin täysimittainen arviointi voidaan jatkaa.
+Latanoprosti on prostaglandiini F2-alfa -analogi, jota on alun perin käytetty avokulmaglaukooman ja silmänpainetaudin hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **primaariseen perinnölliseen glaukoomaan**.
+Tälle suunnalle ei ole tällä hetkellä **yhtään kliinistä tutkimusta eikä julkaisua**, joten näyttö perustuu vain mallin ennusteeseen ja epäsuoraan mekanistiseen päättelyyn.
 
 ---
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
-| Kohde | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Ei haettu (tyhjä todistusten paketissa) |
-| Ennustettu uusi indikaatio | Ennustuksia ei generoitu |
-| TxGNN-ennustuspistemäärä | — |
-| Todistuksen taso | N/A — ennustuksia ei ole vielä ajettu |
-| Taiwanin markkinatilanne | Ei markkinoilla |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltava päätös | Pidossa |
-
----
-
-## Miksi tätä arviointia ei voida jatkaa
-
-LATANOPROST-todistusten paketti puuttuu kahta kriittistä syöttöä, joita vaaditaan uudelleenkäyttöarvioinnin suorittamiseen:
-
-**1. TxGNN-ennustuksia ei ole saatavilla.**
-
-Todistusten paketin `predicted_indications`-taulukko on tyhjä. Ilman ennustetun indikaation tavoitetta ei ole uudelleenkäyttöhypoteesia pistemääritykselle, ei kliinisiä tutkimuksia esille tuotaviksi ja ei mekanistista siltaa selittämiseksi. Koko seuraavien vaiheiden arviointikehys riippuu vähintään yhdestä TxGNN-ehdokkasindikaatiosta.
-
-**2. Toimintamekanismin tiedot puuttuvat.**
-
-Toimintamekanismin (MOA) tiedot merkittiin suuriksi tietovajeiksi (DG002). Vaikka latanoprosti tunnetaan yleisesti prostaglandiini F2α-analogiksi, joka pienentää silmänpainetta lisäämällä silmänesteen ulosvirtausta, strukturoidut DrugBank MOA -tiedot, joita tarvitaan mekanistiseen ristiin-indikaatioanalyysiin, ei saatu. Ilman tätä ei ole mahdollista arvioida, onko mekanismi sovellettavissa mihin tahansa uuteen indikaatioon.
-
-Lisäksi TFDA-pakkauslisäkkeen varoitukset ja vasta-aiheet merkittiin estäviksi tietovajeiksi (DG001), mikä estäisi asianmukaisen turvallisuusseulonnan, vaikka ennustettu indikaatio olisi saatavilla.
+| Kohta | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | Avokulmaglaukooma |
+| Ennustettu uusi käyttöaihe | Primaarinen perinnöllinen glaukooma |
+| TxGNN-ennustepistemäärä | 99,88 % |
+| Näytön taso | L4 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 2 (molemmat peruutettu) |
+| Suositeltu päätös | Hold (odotetaan lisänäyttöä) |
 
 ---
 
-## Taiwanin markkinatiedot
+## Miksi ennuste on perusteltu?
 
-Latanoprosti **ei ole tällä hetkellä markkinoilla Taiwanissa**. TFDA-tietokannasta ei löytynyt hyväksyttyjä tuotteita (0 lupia). Paikallista sääntelyreferenssipistettä annostusmuodosta, hyväksytystä indikaatiotekstistä tai pakkauslisäkkeestä ei ole.
+Latanoprosti on prostaglandiini F2-alfa -analogi, joka alentaa silmänpainetta lisäämällä uveoskleraalista nesteenpoistoa. Se on hyväksytty avokulmaglaukooman ja silmänpainetaudin hoitoon. Tarkkaa vaikutusmekanismitietoa ei ole tällä hetkellä saatavilla kootussa aineistossa, joten mekanismikuvaus perustuu yleiseen farmakologiseen tietoon.
+
+Primaarisessa perinnöllisessä (synnynnäisessä tai nuoruusiän) glaukoomassa silmänpaine on koholla, joten silmänpainetta alentava mekanismi voi olla periaatteessa relevantti.
+
+Varauksena: lasten ja kehityksellisten glaukoomien lääkehoitovaste on usein heikko, eikä tehoa voida olettaa. Ennuste perustuu epäsuoraan päättelyyn hyväksytystä käyttöaiheesta.
 
 ---
 
-## Turvallisuusnäkökulmat
+## Muut ennustetut käyttöaiheet (lyhyesti)
 
-Turvallisuustietoja varten katso pakkauslisäkettä.
+| Sija | Sairaus | Pistemäärä | Näytön taso | Arvio |
+|------|------|------|------|------|
+| 2 | Viskeraalinen kalsifylaksia | 99,83 % | L5 | Hold, ei selvää mekanistista yhteyttä |
+| 3 | Hiuskarvojen niukkuus (hypotrichosis simplex, hiuspohja) | 99,81 % | L4 | Tutkimuskysymys, prostaglandiinit voivat stimuloida hiusfolliikkeleita, mutta perinnöllisessä tilassa teho on osoittamatta |
+| 4–6 | Rintakehän yläaukeaman oireyhtymät (valtimo-, laskimo-, hermoperäinen) | 99,72–99,78 % | L5 | Hold, mekaaniset puristustilat, ei mekanistista yhteyttä |
+| 7 | Synnynnäinen hypotrichosis milia | 99,71 % | L5 | Hold, heikko epäsuora peruste |
+| 8 | Mahalaukun angiodysplasia | 99,70 % | L5 | Hold, systeeminen vasodilataatio voisi olla haitallista |
+| 9 | Sinivarvasoireyhtymä | 99,69 % | L5 | Hold, vain heikko luokkatason peruste |
+| 10 | Lymfangiektasia | 99,67 % | L5 | Hold, ei kliinistä näyttöä |
+
+---
+
+## Kliiniset tutkimukset
+
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
+
+---
+
+## Kirjallisuusnäyttö
+
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
+
+---
+
+## Tiedot Suomen markkinoilta
+
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/005933 | Catiolanze (Santen Oy) | – | Avokulmaglaukooma (peruutettu) |
+| EMEA/H/C/005107 | Roclanda (Santen Oy) | – | Avokulmaglaukooma; silmänpainetauti (peruutettu) |
+
+---
+
+## Turvallisuushuomioita
+
+- **Lääkkeiden yhteisvaikutukset:** Yhteisvaikutushaku tuotti 100 mahdollista yhteisvaikutusta (esimerkiksi kalsitrioli, glimepiridi, doksisykliini, atropiini, metformiini, morfiini, prednisoni ja simvastatiini). Kaikkien vaikeusaste on luokiteltu tuntemattomaksi, joten kliinistä merkitystä ei voida arvioida ilman lisätietoa.
+- **Tietämysgraafiin perustuvat vasta-aiheet (ei valmisteyhteenvetoon perustuvia):** uveiitti, iiriksen sairaudet, sädekehän sairaudet, panuveiitti, makulan turvotus (myös kystinen), iriitti sekä sidekalvotulehdukset (myös akuutti tarttuva sidekalvotulehdus). Nämä tulee varmistaa valmisteyhteenvedosta.
+
+Muilta osin tarkemmat turvallisuustiedot, varoitukset ja vasta-aiheet löytyvät valmisteyhteenvedosta.
 
 ---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Pidossa**
+**Päätös: Hold**
 
 **Perustelut:**
-LATANOPROSTILLE ei ole generoitu TxGNN-uudelleenkäyttöennustuksia, ja kaksi estävää tietovajetta (sääntelyllinen turvallisuustieto ja toimintamekanismi) jäävät ratkaisematta. Mielekästä uudelleenkäyttöarviointia ei voida tuottaa nykyisestä todistusten paketista.
+- Ennuste on korkea (99,88 %), mutta näyttö on vain L4-tasoa: ei kliinisiä tutkimuksia eikä kirjallisuutta. Lisäksi lasten ja kehityksellisten glaukoomien vaste lääkehoitoon on usein heikko, ja Suomessa kaikki tunnetut myyntiluvat on peruutettu.
 
-**Jatkamiseksi tarvitaan seuraavaa:**
-- Suorita TxGNN-ennustusputki LATANOPROSTILLE (DB00654) tuottamaan vähintään yksi ehdokkasindikaatio
-- Hae toimintamekanismin (MOA) tiedot DrugBank API:sta (korjaus DG002:lle)
-- Lataa ja jäsennä TFDA-pakkauslisäkkeen PDF varoitusten ja vasta-aiheisten esille ottamiseksi (korjaus DG001:lle)
-- Lähetä uudelleen täytetty todistusten paketti täysimittaisen arvioinnin varten
-
+**Eteenpäin siirtyminen edellyttää:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimeasta (estää tällä hetkellä turvallisuusseulonnan)
+- Vaikutusmekanismitietojen täydentämistä (esim. DrugBankista)
+- Systemaattista kirjallisuushakua latanoprostin käytöstä lasten ja synnynnäisessä glaukoomassa
+- Selvitystä, onko latanoprostia sisältäviä valmisteita saatavilla Suomessa (myös muita kuin yhdistelmävalmisteet)
+- Antoreitin yhteensopivuuden arviointia (tällä hetkellä arvioimatta)
+- Tutkimussuunnitelmaa tai pilottitutkimusta, jos tavoitteena on edetä
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

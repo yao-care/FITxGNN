@@ -2,7 +2,7 @@
 layout: default
 title: Ocrelizumab
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 269
+nav_order: 311
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,59 +29,70 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Ocrelizumab: Multippeliskleroosilta HER2-positiiviseen rintakarsinoomaan
+# Okrelitsumabi: Multippeliskleroosista HER2-positiiviseen rintasyöpään
 
 ## Yhden lauseen yhteenveto
 
-Ocrelizumab on anti-CD20-monoklonaalinen vasta-aine, joka on hyväksytty multippeliskleroosin hoitoon ja toimii CD20-ekspressoivien B-solujen poistamisen kautta.
-TxGNN-malli ennustaa, että se voi olla tehokas **HER2-positiiviseen rintakarsinoomaan**,
-mutta tällä hetkellä tätä spesifistä yhteyttä tukee **0 kliinistä tutkimusta** ja **0 relevanttia julkaisua** — todistepaketti itse merkitsee ennusteen todennäköisesti tietoverkko-upotusartefaktiksi pikemminkin kuin mekanismivetoiseksi signaaliksi.
+Okrelitsumabi on CD20-vasta-aine, jota käytetään alun perin multippeliskleroosin (MS-taudin) hoitoon. TxGNN-malli ennustaa sen voivan tehota **HER2-positiiviseen rintasyöpään**, mutta tälle suunnalle ei ole **yhtään kliinistä tutkimusta eikä yhtään kohdennettua julkaisua**. Ennuste perustuu pelkästään mallilaskentaan.
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohde | Sisältö |
-|-------|---------|
-| Alkuperäinen indikaatio | Multippeliskleroosi (lääkkeen tietojen perusteella; virallinen DrugBank/mekanismi-tietue on tietoaukko) |
-| Ennustettu uusi indikaatio | HER2-positiivinen rintakarsinooma |
-| TxGNN-ennusteen pistemäärä | 99.89% |
-| Todistusvoiman taso | L5 |
-| Suomen markkinoinnin asema | Ei markkinoitu |
-| Hyväksyntöjen määrä | 0 |
-| Suositeltu päätös | Pidätä |
+|------|------|
+| Alkuperäinen käyttöaihe | Multippeliskleroosi |
+| Ennustettu uusi käyttöaihe | HER2-positiivinen rintasyöpä |
+| TxGNN-ennustepisteet | 99,89 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennuste on järkevä?
+## Miksi ennuste voisi olla perusteltu?
 
-Tällä hetkellä yksityiskohtaisia toimintamekanismi-tietoja ei ole saatavissa DrugBankista (merkitty korkean vakavuustason tietoaukoksi). Tunnettujen taustatietojen perusteella ocrelizumab on anti-CD20-monoklonaalinen vasta-aine, joka poistaa CD20-positiivisia B-soluja ja on hyväksytty multippeliskleroosin hoitoon, autoimmuunisairauteen, jonka taustalla on epätyypillinen B-solun aktiviteetti.
+Okrelitsumabi on humanisoitu monoklonaalinen vasta-aine, joka kohdistuu CD20:ta ilmentäviin B-soluihin ja tuhoaa niitä. Tarkempaa vaikutusmekanismitietoa ei ole tällä hetkellä saatavilla tähän raporttiin koottuna. Tunnetun tiedon perusteella lääkkeen teho MS-taudissa on osoitettu B-solujen tuhoamisen kautta.
 
-HER2-positiivinen rintakarsinooma puolestaan syntyy HER2/neu-reseptorin yliekspressiosta, joka aktivoi proliferatiivisia signalointireittejä — mekanismi, jolla ei ole vakiintunutta biologista yhteyttä B-solun poistamiseen. Todistepaketin oma analyysi on eksplisiitti tästä: se arvioi korkean TxGNN-pistemäärän todennäköisesti heijastavan läheisyyttä tietoverkko-upotusavaruudessa pikemminkin kuin mitään todellista mekanistista yhteyttä.
+Suoraa mekanistista yhteyttä HER2-positiiviseen rintasyöpään ei ole. Kyseinen syöpä on epiteeliperäinen kasvain, joka ei ilmennä CD20:tä, eikä B-solujen tuhoamisella ole tässä tautimuodossa vakiintunutta kasvainta vastustavaa roolia. Hyvin korkea pistemäärä (0,999) voi heijastaa verkostotason yhteyksiä, esimerkiksi kasvaimen immuunimikroympäristöön ja kasvaimeen infiltroituviin lymfosyytteihin liittyvää biologiaa. Tätä tukevaa aineistoa ei kuitenkaan ollut käytettävissä.
 
-Ei ole mekanistisia, prekliinisiä tai kliinisiä perusteita, jotka yhdistäisivät CD20-kohdistetun B-solun poistamisen HER2-ohjattuun rintasyövän biologiaan. Tätä ennustetta tulee käsitellä kandidaattina mallin validointiututkimuksiin, ei farmakologisesti perustetuna hypoteesina tässä vaiheessa.
+Samankaltaisia ennusteita tehtiin myös muille rintasyövän alatyypeille (normal breast-like -alatyyppi, progesteronireseptoripositiivinen ja -negatiivinen rintasyöpä, luminaalinen A/B -kasvain). Niillekään ei löytynyt mekanistista perustetta tai kliinistä tukea.
 
-## Kliinisen tutkimuksen todisteet
+## Kliininen tutkimusnäyttö
 
-Tällä hetkellä ei ole liittyviä rekisteröityjä kliinisiä tutkimuksia.
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
-## Kirjallisuuden todisteet
+## Kirjallisuusnäyttö
 
-Liittyvää kirjallisuutta ei ole tällä hetkellä saatavilla.
+Ensisijaiselle ennusteelle (HER2-positiivinen rintasyöpä) ei löytynyt aiheeseen liittyvää kirjallisuutta.
 
-## Turvallisuusnäkökohdat
+Luminaalisen A/B -rintakasvaimen ennusteen yhteydessä haettiin 18 julkaisua, mutta ne koskevat okrelitsumabia MS-taudissa, anti-CD20-hoitoja, hypogammaglobulinemiaa tai autoimmuunisairauksia. Yksikään ei käsittele rintasyöpää, joten ne eivät tue tätä käyttöaihetta. Ne on poimittu vain lääkkeen nimen perusteella.
 
-Turvallisuustiedot löytyvät pakkausselosteesta. Huomio: TFDA/Fimean pakkausselosteen varoitukset ja kontraindikaatiot ovat tällä hetkellä **blokaava** tietoaukko (DG001) ja ne on ratkaistava ennen kuin turvallisuuden esiselvitystä voidaan jatkaa.
+## Suomen markkinatiedot
+
+| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004043 | Ocrevus (Roche Registration GmbH) | – | Multippeliskleroosi (lupa peruutettu) |
+
+## Turvallisuushuomiot
+
+**Lääkeyhteisvaikutukset:** Yhteisvaikutushaussa löytyi yhteensä 100 yhteisvaikutusta. Keskeisimmät:
+
+- **Kohtalaiset:** kortikosteroidit (hydrokortisoni, triamsinoloni, deksametasoni, betametasoni, budesonidi, prednisolooni, prednisoni), radiofarmaseuttiset valmisteet (jobenguaani I-131, ibritumomabitiuksetaani, tositumomabi, samarium-153-leksidronaami) sekä albendatsoli, pentamidiini ja levamisoli.
+- **Lievät:** sinkkiyhdisteet (sinkkisulfaatti, -asetaatti, -glukonaatti, -kloridi).
+
+Muista turvallisuustiedoista (varoitukset ja vasta-aiheet) katso valmisteyhteenveto.
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Pidätä**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Kaikkissa viidessä TxGNN-ennustetussa indikaatiossa (kaikki rintasyövän alatyyppi — HER2-positiivinen, normaalimainen, PR-positiivinen, luminalinen A/B, PR-negatiivinen) puuttuvat tukevia kliinisiä tutkimuksia ja uskottavaa kirjallisuustodistusta. Ainoa löydetty kirjallisuusosuma ("rintasyöpä luminalinen A tai B" -haku, 19 artikkelia) on väärä positiivinen avainsanaosuma kirjaimen "B" perusteella (hepatiitti B -rokotteet, HLA-B-tyypitys, B-1/B-2-lymfosyytit) ilman mitään relevanttia yhteyttä rintakarsinoomaan tai ocrelizumabiin. Todistepaketin oma analyysi johtaa siihen, että korkeat ennusteen pistemäärät todennäköisesti heijastivat tietoverkko-upotusavaruuden läheisyyttä pikemminkin kuin todellista mekanistista signaalia. Yhdessä TFDA/Fimean turvallisuustietojen puuttumisen kanssa tämä kandidaatti ei tällä hetkellä täytä vaatimuksia edetä S0:n yli.
+- Ennuste perustuu vain TxGNN-mallin pisteytykseen (näytön taso L5). Kliinisiä tutkimuksia ei ole, kirjallisuus ei käsittele rintasyöpää, eikä CD20-kohteen ja CD20-negatiivisen rintasyövän välillä ole mekanistista yhteyttä. Lisäksi Suomen myyntilupa on peruutettu.
 
-**Edetäkseen tarvitaan seuraavaa:**
-- TFDA/Fimean pakkausseloste (varoitukset, kontraindikaatiot) — tällä hetkellä blokaava
-- Muodollinen toimintamekanismi-tietue DrugBankista
-- Prekliininen/in vitro -todiste CD20+ B-solujen roolista HER2-ohjattavissa tai muissa rintakarsinoomien alaryhmissä
-- Kohdistettu kirjallisuushaku käyttäen rintakarsinooma-spesifisiä ja ocrelizumab-spesifisiä termejä kaikkien muiden neljän sijoitetun kandidaatin osalta avainsana-ohjattujen väärien positiivisten poistamiseksi
-
+**Eteenpäin siirtymiseksi tarvitaan:**
+- Vaikutusmekanismitiedot (MOA) ja selvitys siitä, mikä verkostotason yhteys selittää mallin korkean pistemäärän
+- Prekliiniset tutkimukset B-solujen tai kasvaimeen infiltroituvien lymfosyyttien roolista HER2-positiivisessa rintasyövässä
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet turvallisuusarviointia varten
+- Myyntilupatilanteen selvitys Suomessa (voimassa oleva lupa tai kansallinen reitti)
+- Lääkkeenantoreittien yhteensopivuuden arviointi
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -2,7 +2,7 @@
 layout: default
 title: Maraviroc
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 241
+nav_order: 277
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,62 +29,104 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Maraviroc: HIV-1-infektiosta useaan endokriiniin neoplasiaan
+# Maraviroki: HIV-infektiosta monirauhasneoplasiaan
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Maraviroc on CCR5-kemokiinireseptoriantagonisti, joka alun perin kehitettiin estämään CCR5-troopisen HIV-1:n pääsyä isännän soluihin. TxGNN-malli ennustaa, että se saattaa olla tehokas **useaan endokriiniin neoplasiaan (MEN)**, erittäin korkealla samankaltaisuuspisteellä (99.82 %), mutta tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua** tukevat tätä erityistä suuntaa, ja taustalla oleva mekanistinen perusteltu arvioidaan nimenomaisesti perusteettomaksi.
+Maraviroki on CCR5-reseptorin salpaaja, jota on alun perin käytetty HIV-infektion hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **monirauhasneoplasiaan (multiple endocrine neoplasia)**, mutta ennusteen tueksi ei ole toistaiseksi **yhtään kliinistä tutkimusta eikä julkaisua**.
+Ennuste perustuu pelkästään laskennalliseen mallinnukseen.
 
-## Nopea yleiskatsaus
+---
 
-| Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | HIV-1-infektio (CCR5-trooppiset kannat) — näytöpaketti ei sisällä `original_indications`-merkintöjä; perustuu lääkkeen tunnettuun farmakologiseen luokitteluun |
-| Ennustettu uusi indikaatio | Useaan endokriiniin neoplasia |
-| TxGNN-ennustepisteet | 99.82 % |
+## Pikakatsaus
+
+| Kohde | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | HIV-infektiot |
+| Ennustettu uusi käyttöaihe | Monirauhasneoplasia (multiple endocrine neoplasia) |
+| TxGNN-ennusteen pistemäärä | 99,82 % |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Ei markkinoilla |
-| Hyväksyntöjen määrä | 0 |
-| Suositeltu päätös | Pidätä |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennuste on perusteltu?
+---
 
-Tällä hetkellä yksityiskohtaisia mekanismin tietoja ei ole saatavilla tässä näytöpaketissa (merkitty korkean vakavuusasteen tietovajeeksi). Tunnetun farmakologisen luokittelun perusteella maraviroc on CCR5-kemokiinireseptoriantagonisti; sen vakiintunut kliininen käyttö on CCR5-välitteisen HIV-1-solunsisääntulon estäminen.
+## Miksi ennuste on perusteltu?
 
-Useaan endokriiniin neoplasia on perinnöllinen endokriininen kasvainsyndromi, jota aiheuttavat germinaalivikaiset geeneissä, kuten *RET* ja *MEN1*, ja sillä ei ole vakiintunutta yhteyttä CCR5-kemokiinisignaloinnissa. Tähän ennusteeseen liitetty uudelleenkäyttöindikaation perustelusta todetaan suoraan, että "tunnetusta yhteyttä MEN:n ja CCR5-kemokiinisignaloinnin välillä ei ole, eikä mekanistinen peruste ole pätevä" (機轉不成立).
+Maraviroki on CCR5-kemokiinireseptorin antagonisti. Tälle raportille koottu aineisto ei sisällä yksityiskohtaista vaikutusmekanismitietoa, joten mekanismianalyysi jää rajalliseksi.
 
-Huolimatta korkeasta TxGNN-samankaltaisuuspisteestä mallin tuotosta tässä on käsiteltävä tilastollisena assosiaationa tietokannasta pikemminkin kuin mekanistisesti perustelluna hypoteesinä. Tällä hetkellä mikään kliininen tutkimus, kirjallisuus tai prekliininen tieto ei tue tätä erityistä lääkkeen-sairauden yhdistelmää.
+Annettujen tietojen perusteella ei löydy tuettua mekanistista yhteyttä HIV-infektion ja monirauhasneoplasian välille. Korkea TxGNN-pistemäärä (0,998) on ainoastaan laskennallinen ennuste, eikä sitä tue yksikään tutkimus tai julkaisu.
 
-## Kliinisen tutkimuksen näyttö
+### Muut ennustetut käyttöaiheet
 
-Tällä hetkellä ei ole rekisteröityjä siihen liittyviä kliinisiä tutkimuksia.
+Mallin muista ennusteista kaksi on mekanismin kannalta mielenkiintoisempia:
 
-## Kirjallisuuden näyttö
+| Sija | Käyttöaihe | Pistemäärä | Näytön taso | Huomio |
+|------|------|------|------|------|
+| 3 | Primaarinen ihon T-solulymfooma | 99,72 % | L5 | Kemokiinireseptorit osallistuvat T-solujen kulkeutumiseen; ainoa julkaisu on yleiskatsaus ACKR1:stä, ei maravirokispesifinen |
+| 10 | HER2-positiivinen rintasyöpä | 99,22 % | L4 | CCL5–CCR5-akseli voi välittää trastutsumabiresistenssiä (prekliininen tutkimus); CCR5:n salpaus on teoriassa mahdollinen tapa kumota resistenssi |
 
-Tällä hetkellä ei ole saatavilla siihen liittyvää kirjallisuutta.
+Muiden ennusteiden (aknen, lapsuusiän lupuksen, ihon B-solulymfooman, kandidiaasin, komplementti 4a -puutoksen ja sytomegaloviruksen) tueksi ei ole maravirokia koskevaa suoraa näyttöä.
 
-## Markkinatiedot Suomesta
+---
 
-Maraviroc ei ole tällä hetkellä markkinoilla Suomessa (0 hyväksyntää), joten tuote-/lisenssi-taulukkoa ei voida tuottaa tästä näytöpaketista.
+## Kliiniset tutkimukset
+
+Toistaiseksi ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
+
+---
+
+## Kirjallisuusnäyttö
+
+Ensisijaiselle ennusteelle (monirauhasneoplasia) ei ole saatavilla kirjallisuutta.
+
+Muita ennusteita koskevat julkaisut ovat epäsuoria:
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [37006247](https://pubmed.ncbi.nlm.nih.gov/37006247/) | 2023 | Katsaus | Frontiers in Immunology | ACKR1:n kohdentaminen syövässä ja muissa sairauksissa; ei maravirokispesifinen (ihon T-solulymfoomat) |
+| [32404410](https://pubmed.ncbi.nlm.nih.gov/32404410/) | 2020 | Prekliininen | Molecular Cancer Therapeutics | Autokriininen CCL5 välittää trastutsumabiresistenssiä ERK-reitin kautta HER2-positiivisessa rintasyövässä |
+| [25397464](https://pubmed.ncbi.nlm.nih.gov/25397464/) | 2014 | Kohorttitutkimus | Journal of the International AIDS Society | Synnynnäinen immuniteetti ja liukoiset markkerit hoidettua HIV:tä sairastavilla; epäsuora (CMV) |
+| [21671545](https://pubmed.ncbi.nlm.nih.gov/21671545/) | 2011 | Katsaus | American Family Physician | HIV-lääkityksen yleiset haittavaikutukset; ei osoita hyötyä kandidiaasiin |
+
+---
+
+## Myyntilupatiedot Suomessa
+
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000811 | Celsentri | – | HIV-infektiot (peruutettu) |
+
+---
 
 ## Turvallisuusnäkökohdat
 
-Katso turvallisuustiedot pakkausselosteesta.
+Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut saatavilla. Tutustu turvallisuustietoihin valmisteyhteenvedosta.
+
+**Mahdolliset vasta-aiheet (tietämyskaavio PrimeKG, ei valmisteyhteenvedosta):** mm. maksasairaus, lääkeaineen aiheuttama maksavaurio, krooninen munuaissairaus ja loppuvaiheen munuaisten vajaatoiminta, sepelvaltimotauti, sydäninfarkti ja sydänlihaksen iskemia, ortostaattinen hypotensio, krooninen hepatiitti B- ja hepatiitti C -infektio sekä hemoglobinopatia.
+
+**Lääkeyhteisvaikutukset:** Tietoja on yhteensä 93 yhteisvaikutuksesta. Tärkein löydös:
+- **Merkittävä (Major):** klaritromysiini
+- **Kohtalaisia (Moderate):** mm. aprepitantti, deksametasoni, simetidiini, kobisistaatti, flukonatsolia muistuttavat atsolit (klotrimatsoli, mikonatsoli), naltreksoni, prometatsiini ja rolapitantti
+
+---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Pidätä**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennusteeseen liittyy korkea TxGNN-piste, mutta se arvioidaan näytön tasolla L5 (vain mallin ennuste) nolla tukevalla kliinisellä tutkimuksella tai julkaisulla, ja uudelleenkäyttöindikaation perustelusta ilmenee nimenomaisesti, että CCR5-antagonismin ja MEN-patogeenisen mekanismin välillä ei ole uskottavaa yhteyttä.
+- Ennuste perustuu pelkästään TxGNN-malliin (taso L5), eikä tueksi ole kliinisiä tutkimuksia tai kirjallisuutta. Lisäksi Celsentrin myyntilupa Suomessa on peruutettu.
+- HER2-positiivisen rintasyövän CCL5–CCR5-akseli on kiinnostavin tutkimushypoteesi (L4), mutta se on vasta prekliinisellä tasolla.
 
-**Jatkamisen edellytyksenä tarvitaan seuraavaa:**
-- Vahvistettu mekanismin toiminnan dokumentaatio maraviroc-lääkkeelle (tällä hetkellä este/korkean vakavuusasteen tietovaje)
-- TFDA/sääntelyviranomaisen pakkausseloste, joka kattaa varoitukset, vasta-aiheet ja lääkeyhteisvaikutukset (tällä hetkellä este/tietovaje)
-- Prekliinisiä tai mekanistisia tutkimuksia, jotka nimenomaisesti yhdistävät CCR5-signaloinnin endokriinisen neoplasian polkuihin ennen tämän indikaation lisäarviointia
-
-**Huomautus portfoliopriorisoinista:** Maraviroc-lääkkeen 10 TxGNN-ennustetusta indikaatiosta tässä näytöpaketissa **HER2-positiivinen rintasyöpä** (sijoitus 10, päätösvaihe S1, "Research Question") on mekanistisesti vahvimmin tuettu — julkaistu prekliininen tutkimus (PMID [32404410](https://pubmed.ncbi.nlm.nih.gov/32404410/)) osoittaa, että autokriininen CCL5-CCR5-signalointi ajaa trastuzumabi-vastustusta ERK-polun aktivoinnin kautta, mikä viittaa siihen, että CCR5-esto voisi palauttaa trastuzumabin herkkyyden. Tämä ehdokas pikemminkin kuin MEN saattaa vaatia omaa seurantaarviointia.
-
+**Jatkotoimet:**
+- Hankkia valmisteyhteenvedon turvallisuustiedot (varoitukset ja vasta-aiheet) Fimean sivuilta; tämä on edellytys turvallisuusarvioinnille.
+- Täydentää vaikutusmekanismitiedot (esim. DrugBankista).
+- Tehdä kohdennettu kirjallisuushaku monirauhasneoplasiasta ja CCR5-reitistä.
+- Selvittää HER2-positiivisen rintasyövän tutkimushypoteesi prekliinisin kokein ennen kliinistä arviointia.
+- Arvioida lääkkeen saatavuus Suomessa, koska myyntilupa on peruutettu.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

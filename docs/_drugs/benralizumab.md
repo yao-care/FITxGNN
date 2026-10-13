@@ -2,7 +2,7 @@
 layout: default
 title: Benralizumab
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 67
+nav_order: 74
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,65 +29,100 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Benralizumab: Vakavasta eosinofiilistä astmasta immuunivälitteisen verihiutaleisyyden hoitoon
+# Benralitsumabi: Astmasta atooppiseen ihottumaan (dermatiitti)
 
-## Tiivistelmä yhdessä lauseessa
+## Yhden lauseen yhteenveto
 
-Benralizumab on monoklonaalinen vasta-aine, jonka vakiintunut käyttöaihe on vaikea eosinofiilistä astma, jossa se poistaa eosinofiileja anti-IL-5Rα/ADCC-mekanismilla. TxGNN-malli ennustaa mahdollisen roolin **immuunivälitteisessä verihiutaleisyydessä (ITP)**, mutta tämä yhdistelmä on tällä hetkellä tuettu **nollalla kliinisellä tutkimuksella** ja **nollalla julkaisulla** — se on puhtaasti mallin tuottama hypoteesi, jolla on eksplisiittisesti heikko mekanistinen perustelu.
+Benralitsumabi on IL-5-reseptorin alfa-alayksikköä (IL5RA) vastaan suunnattu monoklonaalinen vasta-aine, jota on alun perin käytetty astman hoitoon.
+TxGNN-malli ennustaa sen voivan tehota ensisijaisesti **dermatiittiin** (ennustepisteet 99,16 %), mutta tuki on rajallinen: **3 kliinistä tutkimusta** ja **19 julkaisua**, joista suurin osa on yleisiä katsauksia. Yksi laadukkain tutkimus (HILLIER) päättyi ennenaikaisesti ja raportoitiin tehon puutteena.
 
-## Nopea yleiskatsaus
+---
+
+## Pikayleiskatsaus
 
 | Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen käyttöaihe | Vaikea eosinofiilistä astma (päätelty tukevista tutkimuspaketista; ei vahvistettu paikallisen markkinaluvan tietojen perusteella, koska lääketta ei myydä tällä markkinalla) |
-| Ennustettu uusi käyttöaihe | Immuunivälitteinen verihiutaleisyys (ITP) |
-| TxGNN-ennustepisteet | 99,34% |
-| Näytön taso | L5 |
-| Suomen markkina-asema | ✗ Ei markkinoilla |
-| Rekisteröintien lukumäärä | 0 |
-| Suositeltu päätös | Odota |
+|------|------|
+| Alkuperäinen käyttöaihe | Astma |
+| Ennustettu uusi käyttöaihe | Dermatiitti (ennustesijalla 2; sijalla 1 on immuunivälitteinen trombosytopenia, jolle ei ole lainkaan tutkimusnäyttöä) |
+| TxGNN-ennustepisteet | 99,16 % (dermatiitti); sijan 1 ennuste 99,34 % |
+| Näytön taso | L2 (dermatiitti) |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (voimassa 0, peruutettu 1) |
+| Suositeltu päätös | Hold (pidätetään) – jatkotutkimuskysymys, ei etene suoraan |
 
-## Miksi tämä ennuste on järkevä?
+*Huomio:* Raportti keskittyy dermatiittiin, koska siitä on ainoa konkreettinen näyttö. Pistemäärältään korkeinta ennustetta (immuunivälitteinen trombosytopenia) ei tue yksikään tutkimus tai julkaisu.
 
-Tarkempaa tietoa benralizumabin toimintamekanismista ei ole saatavilla tämän markkinan rakenteisista tiedoista. Kerätyn tukevien näyttöjen perusteella benralizumab on anti-IL-5Rα monoklonaalinen vasta-aine, joka poistaa eosinofiileja vasta-aineriippuvaisen solujen välittämän sytotoksisuuden (ADCC) kautta ja vaikuttaa pääasiassa eosinofiilistiseen astmaan liittyvien tyypin 2 inflammaation polkuun.
+---
 
-Immuunivälitteinen verihiutaleisyys (ITP) sitä vastoin johtuu vasta-aineiden välittämästä verihiutaleiden tuhoutumisesta makrofagien ja pernassa — mekanismissa, joka keskittyy humoraaliin autoimmuniteettiin ja retikuloendoteeliaalisen järjestelmän selektioon, ei eosinofiilin biologiaan. Mallin ehdottama yhteys on vain epäsuora hypoteesi: eosinofiilien on havaittu olevan sivustakatsojia joissakin autoimmunisairauksissa, mutta vakiintunut syy-seuraussuhde tai mekanistinen polku IL-5Rα-välitteisestä eosinofiilin poistosta verihiutaleiden säästämiseen tai ITP:n remissioon ei ole olemassa.
+## Miksi ennuste on perusteltu?
 
-Lyhyesti sanottuna tämä on tapaus, jossa TxGNN samankaltaisuuspistemäärä on korkea, mutta taustalla oleva biologia ei tällä hetkellä tarjoa uskottavaa syy-seuraussuhdetta, eikä yhtään tutkimusta tai tapausraportointiinsa ole vielä tuotettu hypoteesin suoraan testaamiseksi.
+Benralitsumabi sitoutuu IL-5-reseptorin alfa-alayksikköön ja tuhoaa eosinofiilejä ja basofiilejä vasta-ainevälitteisen soluvaikutuksen (ADCC) kautta. Tarkempaa mekanismitietoa ei ole tämän raportin aineistossa saatavilla, joten mekanismikuvaus perustuu yleiseen farmakologiseen tietoon.
 
-## Kliinisen tutkimuksen näyttö
+Astma ja atooppinen ihottuma kuuluvat molemmat tyypin 2 tulehdussairauksiin, joissa eosinofiilit, basofiilit ja synnynnäiset lymfoidisolut (ILC2) osallistuvat sairausprosessiin. Siksi eosinofiilien poisto on mekanistisesti uskottava hoitostrategia myös ihottumassa.
 
-Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
+Mekanismilla on kuitenkin selvä rajoitus: atooppisessa ihottumassa hallitsevana tekijänä pidetään IL-4/IL-13-signalointia, eikä eosinofiilien poisto yksin välttämättä riitä hallitsemaan ihosairautta. Tätä tukee se, että vaiheen 2 HILLIER-tutkimus ei osoittanut hoidon tehoa.
 
-## Kirjallisuuden näyttö
+Muiden korkeiden ennusteiden (akne keloidalis, vastasyntyneiden dermatomyosiitti, amyopaattinen dermatomyosiitti) taustalla ei ole tunnistettavaa mekanistista yhteyttä IL-5-reseptorin estoon: dermatomyosiitit ovat pääosin tyypin I interferonin sekä B- ja T-solureittien ajamia.
 
-Tällä hetkellä ei ole asiaan liittyvää kirjallisuutta saatavilla.
+---
 
-## Suomen markkina-asema
+## Kliiniset tutkimukset (dermatiitti)
 
-Benralizumab ei ole tällä hetkellä markkinoilla Suomessa — tiedostoissa ei ole markkinointilupeja (kokonaislupia: 0).
+| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset havainnot |
+|---------|------|------|------|---------|
+| [NCT03563066](https://clinicaltrials.gov/study/NCT03563066) | Vaihe 2 | Päättynyt | 20 | Mekanistinen tutkimus: benralitsumabin vaikutus eosinofiileihin, basofiileihin ja ILC2-soluihin atooppisessa ihottumassa; pieni ja selvittävä, ei osoita kliinistä tehoa |
+| [NCT06734884](https://clinicaltrials.gov/study/NCT06734884) | Vaihe 2 | Ei vielä rekrytoi | 96 | Benralitsumabin teho ja turvallisuus DRESS-oireyhtymässä (lääkereaktio, johon liittyy eosinofilia); alkaa 2027, ei tuloksia |
+| [NCT04605094](https://clinicaltrials.gov/study/NCT04605094) | Vaihe 2 | Keskeytetty | 194 | Satunnaistettu, kaksoissokkoutettu, lumekontrolloitu 16 viikon tutkimus keskivaikeassa tai vaikeassa atooppisessa ihottumassa (HILLIER); keskeytyksen syy on selvitettävä |
 
-## Turvallisuusnäkökohdat
+---
 
-Katso turvallisuustiedot pakkausselosteesta.
+## Kirjallisuusnäyttö (dermatiitti)
 
-*(Huomautus: Paikallisia varoituksia, vasta-aiheita ja lääkkeiden välisiä vuorovaikutuksia koskevat tiedot eivät olleet saatavilla — tämä on kirjattu estäväksi tietojen puuttumaksi (DG001), joka estää muodollisen S1-turvallisuuden esiarviointia.)*
+Aineistossa ei ole satunnaistettuja kontrolloituja tutkimuksia lukuun ottamatta yhtä tulosjulkaisua; muut ovat katsauksia. Alla keskeisimmät.
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|---------|-----|------|------|---------|
+| [37178404](https://pubmed.ncbi.nlm.nih.gov/37178404/) | 2023 | Satunnaistettu vaiheen 2 tutkimus (HILLIER) | J Eur Acad Dermatol Venereol | Otsikon mukaan benralitsumabilla ei ollut vaikutusta keskivaikean tai vaikean atooppisen ihottuman oireisiin ja löydöksiin |
+| [42383238](https://pubmed.ncbi.nlm.nih.gov/42383238/) | 2026 | Katsaus | Curr Ther Res | Monoklonaalisten vasta-aineiden teho ja turvallisuus lasten atooppisessa ihottumassa |
+| [34642091](https://pubmed.ncbi.nlm.nih.gov/34642091/) | 2021 | Katsaus | Ann Allergy Asthma Immunol | Biologisen lääkkeen valinta allergiassa ja astmassa, mm. atooppinen ihottuma |
+| [31690400](https://pubmed.ncbi.nlm.nih.gov/31690400/) | 2019 | Katsaus | Allergy Asthma Proc | Immunobiologiset hoidot vaikeassa astmassa, atooppisessa ihottumassa ja krooniseen urtikariassa |
+| [37170653](https://pubmed.ncbi.nlm.nih.gov/37170653/) | 2023 | Katsaus | Clin Transl Sci | Immunoterapioiden kehitys allergisissa sairauksissa |
+| [35987486](https://pubmed.ncbi.nlm.nih.gov/35987486/) | 2022 | Katsaus | J Allergy Clin Immunol Pract | Atooppisten sairauksien biologisten lääkkeiden turvallisuus raskauden aikana |
+| [36411004](https://pubmed.ncbi.nlm.nih.gov/36411004/) | 2023 | Katsaus | Immunol Allergy Clin North Am | Monoklonaalisten vasta-aineiden käyttö raskauden ja imetyksen aikana |
+| [36355314](https://pubmed.ncbi.nlm.nih.gov/36355314/) | 2023 | Katsaus | Dermatol Ther | Dupilumabin yhdistäminen muihin monoklonaalisiin vasta-aineisiin |
+
+---
+
+## Markkinatiedot Suomessa
+
+| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004433 | Fasenra | – | Astma (tila: peruutettu) |
+
+---
+
+## Turvallisuushuomiot
+
+Varoituksista ja vasta-aiheista ei ole tämän raportin aineistossa tietoa. Tarkista turvallisuustiedot valmisteyhteenvedosta.
+
+Vuorovaikutustietoa on vain lääkeaineen kohteesta: benralitsumabi sitoutuu IL-5-reseptorin alfa-alayksikköön (IL5RA), mikä on sen tarkoitettu vaikutusmekanismi. Varsinaisia lääke-lääkeinteraktioita ei ole raportoitu.
+
+---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Odota**
+**Päätös: Hold (pidätetään)**
 
-**Perustelu:**
-Tämä ennuste sijaitsee alimmalla näytön tasolla (L5) — ei kliinisiä tutkimuksia, ei kirjallisuutta, ja vain itse kuvatulla "heikolla, epäsuoralla" mekanistisella hypoteesilla tuettua. Yhdistettynä puuttuviin paikallisiin turvallisuus-/merkintätietoihin (estävä puuttuma DG001) ja puuttuviin MOA-vahvistuksiin (DG002), tällä hetkellä ei ole perustetta edetä tämän ehdokkaan osalta mallin tuloksen yli.
+**Perustelut:**
+- Dermatiitissa tutkimusnäyttö on olemassa (L2), mutta tärkein satunnaistettu tutkimus (HILLIER) keskeytettiin ja sen tulokset kertovat tehon puutteesta. Mekanismikaan ei tue eosinofiilien poistoa riittävänä hoitona.
+- Muut ennusteet (immuunivälitteinen trombosytopenia, akne keloidalis, dermatomyosiitit) ovat pelkkiä laskennallisia ennusteita (L5) ilman tutkimuksia tai julkaisuja. Lisäksi lääkkeellä ei ole tällä hetkellä voimassa olevaa myyntilupaa Suomessa.
 
-**Jotta voidaan edetä, tarvitaan seuraavaa:**
-- TFDA/paikallinen pakkausseloste (varoitukset, vasta-aiheet) estävän puuttuman poistamiseksi ennen S1-turvallisuustarkastusta
-- Vahvistettu toimintamekanismin tieto DrugBankista tai alkuperäisestä kirjallisuudesta
-- Prekliininen tai translationaalinen näyttö IL-5Rα/eosinofiilin poiston yhdistämisestä verihiutaleiden autoimmuniteettiin, ennen tutkimuksen suunnittelun aloittamista
-- Jatkuva valvonta tapausraporteista tai tutkijan aloittamista tutkimuksista, koska niitä ei tällä hetkellä ole olemassa
-
-**Portfolion huomautus:** Viidestä käyttöaiheesta, joita TxGNN ennusti benralizumabille, dermatiitti (sijoitus 2) on aineellisesti enemmän näyttöä — 6 tutkimusta ja 20 julkaisua — mutta näyttö on suurelta osin negatiivista (HILLIER-vaiheen 2 RCT, NCT04605094, keskeytettiin, ja PMID 37178404 raportoi "vaikutuksen puuttumisesta" atopisen dermatiitin hoidossa). Tämä ehdokas vaatii oman erillisen arvioinnin sen sijaan, että se yhdistettäisiin tähän.
-
+**Etenemiseksi tarvitaan:**
+- HILLIER-tutkimuksen keskeytyssyyn ja tulosten (teho ja turvallisuus) tarkistus
+- NCT03563066:n tulosten arviointi ja NCT06734884:n (DRESS) etenemisen seuranta
+- Valmisteyhteenvedon turvallisuustiedot (varoitukset, vasta-aiheet) sekä yksityiskohtainen vaikutusmekanismitieto
+- Arvio markkinatilanteesta, koska Fasenran myyntilupa on peruutettu
+- Mahdollisesti rajattu tutkimuskysymys eosinofiilivetoisiin ihosairauksiin (esim. DRESS) ennen laajempaa etenemistä
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

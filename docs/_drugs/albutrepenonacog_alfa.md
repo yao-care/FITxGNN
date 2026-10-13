@@ -2,7 +2,7 @@
 layout: default
 title: Albutrepenonacog Alfa
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 21
+nav_order: 22
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,77 +29,94 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Albutrepenonacog alfa: Hemofiliasta B pseudo-von Willebrandi tautiin
+# Albutrepenonakogi alfa: Hemofilia B:n hoidosta pseudo-von Willebrandin tautiin
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Albutrepenonacog alfa on rekombinantti IX tekijä–albumiini-fuusioproteiiini, joka on alun perin kehitetty verenvuodosta ehkäisemiseen ja hoitoon hemofiliassa B (synnynnäinen IX tekijän puutos). TxGNN-malli ennustaa, että se saattaa olla tehokas myös **pseudo-von Willebrandi taudissa**, mutta tämä ennuste on tällä hetkellä tuettu **0 kliinisellä tutkimuksella** ja **0 julkaisulla**, ja todistusten paketin oma mekanistinen arvio merkitsee biologista perustelua heikoksi.
+Albutrepenonakogi alfa on albumiiniin fuusioitu yhdistelmä-hyytymistekijä IX (rIX-FP), jota käytetään alun perin hemofilia B:n hoitoon.
+TxGNN-malli ennustaa, että lääke voisi tehota **pseudo-von Willebrandin tautiin**, mutta ennusteen tueksi ei ole löytynyt **yhtään kliinistä tutkimusta eikä julkaisua**.
+Ennuste perustuu pelkästään mallin laskennalliseen tulokseen, ja biologinen perustelu on heikko.
 
 ---
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Hemofilia B / synnynnäinen IX tekijän puutos *(johdettu lääkkeen identiteetistä — ei läsnä todistusten paketissa; `original_indications` ja `taiwan_regulatory.licenses` ovat molemmat tyhjät)* |
-| Ennustettu uusi indikaatio | Pseudo-von Willebrandi tauti |
-| TxGNN-ennustepistemäärä | 99.94% (sijoitus 878 malliennusteiden joukossa) |
-| Todistustaso | L5 |
-| Suomen markkinatilanne | ✗ Ei markkinoitu (Ei markkinoitu) |
-| Lupien määrä | 0 |
-| Suositeltu päätös | **Odota** |
+|------|------|
+| Alkuperäinen käyttöaihe | Hemofilia B |
+| Ennustettu uusi käyttöaihe | Pseudo-von Willebrandin tauti (verihiutaletyyppinen von Willebrandin tauti) |
+| TxGNN-ennusteen pistemäärä | 99,94 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Miksi tämä ennuste on kohtuullinen?
+## Miksi ennuste on (tai ei ole) perusteltu?
 
-Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla (merkitty korkean vakavuusasteen tietovajeeksi, DG002). Tunnetun lääkkeen luokituksen perusteella albutrepenonacog alfa on rekombinantti IX tekijä -molekyyli, joka on yhdistetty albumiiniin puoliintumisajan pidentämiseksi, ja sen tehokkuus hemofiliassa B — **koagulaatiotekijän puutoksesta johtuvassa** sekundaarisen (plasmaattisen) hemostaasin häiriössä — on hyvin vakiintunut.
+Lääkkeen vaikutusmekanismitietoja ei ole tällä hetkellä saatavilla. Tunnetun tiedon mukaan albutrepenonakogi alfa on pitkävaikutteinen hyytymistekijä IX -valmiste, jonka teho hemofilia B:ssä on osoitettu ja jonka puoliintumisaikaa on pidennetty albumiinifuusiolla.
 
-Kuitenkin mekanistinen uskottavuus parhaiten ennustetulle indikaatiolle on heikko. Pseudo-von Willebrandi tautia aiheuttaa **verihiuttaleen GPIbα-reseptorin kasvavuutta muunnos**, joka lisää sen affiniteettia von Willebrandi tekijää kohtaan. Tämä on **verihiuttaleen reseptorihäiriö**, ei veren hyytymistekijän puutos — IX tekijän lisääminen ei korjaa poikkeavaa reseptori-ligandi-sitoutumista, ja todistusten paketin oma uudelleenkäyttöperustelua selvästi karakterisoi mekanistisen yhteyden jakavaksi vain pinnallista "verenvuodotaipumusta" fenotyyppiä pelkkien oireiston saman reitin sijaan.
+Pseudo-von Willebrandin tauti johtuu verihiutaleiden GPIbα-reseptorin toimintaa lisäävästä muutoksesta. Tämä lisää sitoutumista von Willebrand -tekijään, jolloin verihiutaleita poistuu verenkierrosta ja verenvuotoalttius kasvaa. Tekijä IX:n korvaushoito ei korjaa GPIbα–VWF-vikaa, joten mekanistinen yhteys on heikko.
 
-Huomionarvoista on, että todistusten paketti nostaa esiin viisi muuta TxGNN-sijoituksella varustetua ehdokasta samassa pistemäärän kaistalessa (0.9994–0.9928), jotka kaikki ovat **primaarisen hemostaasin / verihiuttaleen häiriöitä** eikä koagulaatiotekijän puutoksia: primaarinen verihiuttaleiden vapautushäiriö, Glanzmannin trombasthenia, Scottin oireyhtymä, kollageenireseptoriin liittyvä verenvuodotahäiriö ja verihiuttalemäärään liittyvä verenvuodotahäiriö. Jokainen sisältää saman L5-todistustason ja saman sisäisesti dokumentoidun varoituksen, että IX tekijällä ei ole vakiintunutta mekanismia verihiuttaletason defektien korjaamiseksi. Tämä johdonmukainen kuvio viittaa siihen, että malli klusteroi sairauksia jaettujen "verenvuodotahäiriö" fenotyypin upotuksien perusteella eikä tunnista todellista, toimintakelpoista farmakologista reittiä — kuvio, joka vaatii varovaisuutta pikaisemman etenemisen sijaan.
-
----
-
-## Kliinisen tutkimuksen todisteet
-
-Tällä hetkellä ei ole liittyviä klinisia tutkimuksia rekisteröitynä.
+Korkea TxGNN-pistemäärä heijastaa todennäköisesti verkostolähiyyttä yhteisten verenvuotohäiriösolmujen kautta, ei biologisesti perusteltua mekanismia. Ennustetta tulee siis pitää hypoteesina eikä näyttönä.
 
 ---
 
-## Kirjallisuuden todisteet
+## Kliininen tutkimusnäyttö
 
-Tällä hetkellä ei ole liittyvää kirjallisuutta saatavilla.
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
+
+---
+
+## Kirjallisuusnäyttö
+
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
 ---
 
 ## Suomen markkinatiedot
 
-Lääke ei ole tällä hetkellä **markkinoitu** Suomessa (`market_status: Not marketed`, `total_licenses: 0`), eikä todistusten paketissa ole saatavilla mitään lupahallintotietueita.
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/003955 | Idelvion | – | Hemofilia B |
+
+Tämä myyntilupa on peruutettu.
+
+---
+
+## Muut ennustetut käyttöaiheet
+
+TxGNN ennusti myös muita verenvuototauteja. Kaikkien näytön taso on L5 ja suositus Hold. Aiheisiin ei löytynyt kliinistä tai kirjallisuusnäyttöä.
+
+| Sija | Sairaus | TxGNN-pistemäärä | Mekanistinen arvio |
+|------|------|------|------|
+| 2 | Verihiutaleiden primaarinen vapautumishäiriö | 99,94 % | Vika on verihiutaleiden rakeissa tai signaloinnissa, ei tekijä IX:n puutteessa. |
+| 3 | Glanzmannin trombasteenia | 99,92 % | Vika on integriini αIIbβ3:ssa (aggregaatio); tekijä IX ei korjaa sitä. |
+| 4 | Scottin oireyhtymä | 99,63 % | Fosfatidyyliseriinin esiintuonti on heikentynyt; teoreettinen yhteys tenaasikompleksiin, mutta ulkoinen tekijä IX ei korvaa puuttuvaa kalvopintaa. |
+| 5 | Kollageenireseptoriviasta johtuva vuototaipumus | 99,28 % | Verihiutaleiden adheesiovika; tekijä IX ei vaikuta siihen. |
+| 6 | Synnynnäisestä trombosytopeniasta johtuva verenvuotohäiriö | 99,26 % | Syynä on matala verihiutalemäärä tai heikko toiminta; hoitona verihiutaleet, trombopoietiinireseptorin agonistit tai antifibrinolyytit. |
 
 ---
 
 ## Turvallisuusnäkökohdat
 
-Katso turvallisuustiedot pakkausselosteesta.
-
-*(Huomautus: `key_warnings`, `contraindications` ja lääkkeiden väliset yhteisvaikutuksien tiedot on kaikki merkitty tietovajeiksi tässä todistusten paketissa. TFDA:n pakkausselosteen varoitukset/vasta-aiheet on merkitty **estäväksi** vakavuuden vajeeksi (DG001), mikä tarkoittaa, että tätä ehdokasta ei voida vielä suorittaa S1-turvallisuus-esiarviointia.)*
+Turvallisuustiedot on tarkistettava valmisteyhteenvedosta. Lääkeyhteisvaikutustietoja ei löytynyt.
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Johtopäätös ja jatkotoimet
 
-**Päätös: Odota**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Ennustetulla indikaatiolla on tukenaan vain TxGNN-mallin pistemäärä, jolla ei ole tukevia klinisiä tutkimuksia tai kirjallisuutta (todistustaso L5), ja todistusten paketin oma mekanistinen analyysi päättelee, että IX tekijän korvaaminen ei ole vakiintuneet biologisen reitin korjaamaan pseudo-von Willebrandi taudin taustalla olevan verihiuttaleen reseptorin vika. TFDA-turvallisuus-/merkintätiedon estävän vakavuuden vajeeseen yhdessä ottaen, tämä ehdokas ei ole valmis etenemään alkuperäisen seulonnan yli.
+- Ennuste perustuu vain laskennalliseen malliin (L5), eikä kliinistä tai kirjallisuusnäyttöä ole. Tekijä IX:n korvaushoito ei myöskään korjaa taudin taustalla olevaa GPIbα–VWF-vikaa, ja Suomessa lääkkeellä on vain peruutettu myyntilupa.
 
-**Jotta voidaan edetä, tarvitaan seuraavaa:**
-- TFDA:n pakkausseloste (varoitukset, vasta-aiheet) — tällä hetkellä estävät S1-turvallisuusarvion
-- Albutrepenonacog-alfan vahvistetut vaikutusmekanismin tiedot
-- Prekliniikat tai translatiiviset tutkimukset, jotka suoraan testaavat IX tekijän lisäämistä verihiuttaleen-reseptori-vika-verenvuodotahäiriöissä, vakiinnuttaakseen biologisen uskottavuuden ennen lisäinvestointeja
-- TxGNN-lähdön uudelleenseulonta erottaakseen todelliset mekanistiset ehdokkaat fenotyyppi-klusteroinnin artefakteista (annettu 6 samalla tavalla pisteytettynä, samalla tavalla heikosti plateaalisesti häiriöiden ennusteina)
-
+**Edetäkseen tarvitaan seuraavaa:**
+- Valmisteyhteenvedon varoitus- ja vasta-aihetietojen hankinta Fimean sivustolta (estävä tietoaukko turvallisuusseulonnalle)
+- Vaikutusmekanismitietojen täydentäminen DrugBankista
+- Prekliinistä tai mekanistista näyttöä siitä, että tekijä IX -fuusioproteiini voisi vaikuttaa pseudo-von Willebrandin taudissa
+- Selvitys valmisteen saatavuudesta Suomessa, koska myyntilupa on peruutettu
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

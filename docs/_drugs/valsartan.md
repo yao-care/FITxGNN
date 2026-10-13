@@ -2,7 +2,7 @@
 layout: default
 title: Valsartan
 parent: Kohtalainen näyttö (L3-L4)
-nav_order: 396
+nav_order: 462
 evidence_level: L4
 indication_count: 7
 ---
@@ -29,63 +29,120 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **7** kpl
 
 </div>
 
-# Valsartan: Verenpainetaudista malignissa hypertensiiviseen munuaisitautiin
+# Valsartaani: Verenpainetaudista ja sydämen vajaatoiminnasta pahanlaatuiseen hypertensiiviseen munuaissairauteen
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Valsartan on angiotensiini II -reseptorin salpaaja (ARB), jota alun perin käytettiin verenpainetaudin hoitoon. TxGNN-malli ennustaa, että se saattaa olla tehokas **malignissa hypertensiivisessa munuaisitaudissa**, mutta tätä käyttösuuntaa tukevia vasta **1 julkaisu** (joka tosiasiassa tutki eri lääkettä, Avosentania) ja **yhtään kliinistä tutkimusta**.
+Valsartaani on angiotensiini II -reseptorin (AT1) salpaaja, jota on alun perin käytetty verenpainetaudin ja sydämen vajaatoiminnan hoitoon.
+TxGNN-malli ennustaa sen voivan olla tehokas **pahanlaatuisessa hypertensiivisessä munuaissairaudessa**.
+Ennusteelle ei ole kliinisiä tutkimuksia, ja **1 julkaisu** on vain epäsuora, eikä se koske valsartaania.
 
-## Nopea yleiskatsaus
+---
+
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|--------|
-| Alkuperäinen indikaatio | Verenpainetauti (ARB-luokka — Suomalaista lisensoidun tekstiä ei ole saatavilla) |
-| Ennustettu uusi indikaatio | Malignissa hypertensiivinen munuaistauti |
-| TxGNN-ennustepistemäärä | 99.97% |
-| Näyttötaso | L4 |
-| Suomen markkinatilanne | Ei markkinoilla |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Pidättäytyminen |
+|------|------|
+| Alkuperäinen käyttöaihe | Sydämen vajaatoiminta (lisäksi verenpainetauti) |
+| Ennustettu uusi käyttöaihe | Pahanlaatuinen hypertensiivinen munuaissairaus |
+| TxGNN-ennustepisteet | 99,97 % |
+| Näytön taso | L4 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 9 (kaikki peruutettu) |
+| Suositeltu päätös | Hold (odotetaan) |
 
-## Miksi tämä ennuste on järkevä?
+---
 
-Tällä hetkellä yksityiskohtaisia toimintamekanismin tietoja ei ole saatavilla. Tunnettujen tietojen perusteella Valsartan on angiotensiini II -tyypin 1 (AT1) -reseptorin salpaaja (ARB), jonka teho verenpainetaudissa on hyvin selvitetty, ja mekanistisesti se saattaa soveltua malignissa hypertensiiviseen munuaisitautiin.
+## Miksi ennuste on perusteltu?
 
-Sekä alkuperäinen että uusi indikaatio sijaitsevat samalla patofysiologisella akselilla: maligninen hypertensio aiheuttaa fibrinipitoisen nekroosin munuaisten mikrovaskulatuurissa pitkälti liiallisen reniini-angiotensiini-aldosteroni-järjestelmän (RAAS) aktivoitumisen kautta. AT1-salpaaja on sama mekanismi, jota käytetään verenpaineen hallintaan primaarissa verenpainetaudissa, joten sen laajentaminen RAAS-ohjautuvaan vakavan verenpainetaudin munuaisen komplikaatioon on mekanistisesti johdonmukaista.
+Tämän raportin tietoihin ei sisälly valsartaanin yksityiskohtaista vaikutusmekanismia. Tunnetun tiedon perusteella valsartaani salpaa AT1-reseptorin, ja sen teho verenpainetaudissa ja sydämen vajaatoiminnassa on osoitettu.
 
-Ainoa tukeva kirjallisuus (PMID 24368192) ei kuitenkaan tutki Valsartania — se tutkii Avosentania, endoteleenireseptorin antagonistia, transgeniikan rotamallissa hypertensiivisestä nefropatiasta. Tämä on parhaimmillaan luokkatasolla/analoginen näyttö, ei lääkekohtainen näyttö, ja se tulee painottaa vastaavasti.
+Angiotensiini II -välitteinen verisuonten supistuminen ja munuaisvaurio ovat keskeisiä pahanlaatuisessa verenpainetaudissa ja hypertensiivisessä nefropatiassa. AT1-salpauksella on siksi mekanistinen yhteys näihin tiloihin.
 
-## Kliinisen tutkimuksen näyttö
+Ainoa löydetty julkaisu koskee kuitenkin avosentaania (endoteliiniantagonisti), ei valsartaania, joten tuki on epäsuora ja luokkatasoinen. Valsartaani on jo hyväksytty verenpainetaudin hoitoon ja sitä käytetään munuaissuojaukseen, joten uudelleenkäytön lisäarvo olisi todennäköisesti vähäinen.
 
-Tällä hetkellä yhtään siihen liittyvää kliinistä tutkimusta ei ole rekisteröity.
+Samalla pistemäärällä ennustettiin myös pahanlaatuinen renovaskulaarinen hypertensio. Siitä on 2001 julkaistu eläinkoe, jonka mukaan AT1-salpaus ehkäisi hengenvaarallisen pahanlaatuisen hypertension kehittymistä. Se on esikliininen, eikä se koske nimenomaan valsartaania.
 
-## Kirjallisuuden näyttö
+---
 
-| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät tulokset |
-|------|------|--------|-------|-----------------|
-| [24368192](https://pubmed.ncbi.nlm.nih.gov/24368192/) | 2014 | RCT (non-Valsartan; Avosentan) | Pharmacological Research | Kaksoisgeneettisissä rotakannoissa, joissa on yliilmennetty ihmisen renin/angiotensinogeenieä, Avosentan (endoteleenireseptorin antagonisti, ei Valsartan) suojasi hypertensiivisestä nefropatiasta pienemmillä annoksilla kuin nuo jotka aiheuttavat nesteiden kertymystä. |
+## Kliiniset tutkimukset
 
-## Suomen markkinatiedot
+Ensisijaiselle ennusteelle (pahanlaatuinen hypertensiivinen munuaissairaus) ei ole tällä hetkellä rekisteröityjä kliinisiä tutkimuksia.
 
-Valsartania ei tällä hetkellä markkinoida Suomessa tämän näyttöaineiston puitteissa — 0 tuotehyväksyntää tiedostoissa.
+Muiden ennustettujen käyttöaiheiden osalta yksi tutkimus on löytynyt:
+
+| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset havainnot |
+|---------|------|------|------|---------|
+| [NCT02966665](https://clinicaltrials.gov/study/NCT02966665) | Vaihe 1 | Rekrytoi | 420 | Verisuonten toiminta ja liikuntakuntoutus verenpainetaudissa; ei kohdistu krooniseen keuhkosydänsairauteen (ennuste: krooninen keuhkosydänsairaus) |
+
+---
+
+## Kirjallisuusnäyttö
+
+Ensisijaisen ennusteen (pahanlaatuinen hypertensiivinen munuaissairaus) kirjallisuus:
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [24368192](https://pubmed.ncbi.nlm.nih.gov/24368192/) | 2014 | Esikliininen | Pharmacological Research | Avosentaani suojasi munuaisia hypertensiivisessä nefropatiassa rotilla annoksilla, jotka eivät aiheuttaneet nesteretentiota (ei valsartaania) |
+
+Toissijaisen ennusteen (pahanlaatuinen renovaskulaarinen hypertensio) tuki:
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [11560862](https://pubmed.ncbi.nlm.nih.gov/11560862/) | 2001 | Esikliininen (eläinmalli) | Circulation | AT1-reseptorin salpaus esti hengenvaarallisen pahanlaatuisen hypertension kehittymisen |
+
+---
+
+## Muut ennustetut käyttöaiheet
+
+| Käyttöaihe | TxGNN-pisteet | Näytön taso | Huomio |
+|------|------|------|------|
+| Pahanlaatuinen renovaskulaarinen hypertensio | 99,97 % | L4 | Esikliininen AT1-salpausnäyttö; varovaisuus kahdenpuolisessa munuaisvaltimon ahtaumassa |
+| Keuhkoverenpainetauti, epäselvä monitekijäinen mekanismi | 99,97 % | L5 | Vain mallin ennuste |
+| Keuhkoverenpainetauti keuhkosairauden tai hypoksian vuoksi | 99,97 % | L4 | Epäsuora, esikliininen näyttö (HIF-1α, ajoittainen hypoksia); suurin osa julkaisuista koskee sakubitriili/valsartaania tai muita malleja |
+| Braddockin oireyhtymä | 99,96 % | L5 | Vain mallin ennuste; harvinainen sairaus |
+| Krooninen keuhkosydänsairaus | 99,58 % | L4 | Sydämen vajaatoiminnan näyttö vahvaa, mutta ei suoraan tähän tilaan; esikliininen ARNI-tutkimus oikean kammion remodelingista |
+| Prinzmetalin angina | 99,45 % | L5 | Ainoa julkaisu ei liity valsartaaniin tai tilaan |
+
+---
+
+## Myyntiluvat Suomessa
+
+| Myyntilupanumero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004343 | Neparvis | – | Sydämen vajaatoiminta |
+| EMEA/H/C/000776 | Dafiro | – | Verenpainetauti |
+| EMEA/H/C/000716 | Exforge | – | Verenpainetauti |
+| EMEA/H/C/004037 | Amlodipine / Valsartan Mylan | – | Verenpainetauti |
+| EMEA/H/C/004062 | Entresto | – | Sydämen vajaatoiminta |
+
+Kaikki yhdeksän myyntilupaa on peruutettu.
+
+---
 
 ## Turvallisuusnäkökohdat
 
-Katso turvallisuustiedoista pakkausselosteesta. (Tällä hetkellä strukturoituja varoituksia, vasta-aiheita tai lääkeyhteisvaikutusten tietoja ei ole tiedostoissa; TFDA/Fimea-pakkausselosteen hakeminen on merkitty este-näyttökuiluksi — katso alla.)
+- **Mahdolliset vasta-aiheet (tietämysgraafista, ei valmisteyhteenvedosta):** maksan vajaatoiminta ja maksasairaus, haimatulehdus, sappirakon sairaus, angioedeema (myös RAAS-salpaajan aiheuttama ja perinnöllinen), systeeminen lupus erythematosus, kaliumin puutos, diabetes ja diabeettinen ketoasidoosi, hyperurikemia, neutropenia ja agranulosytoosi, hypotensio, hyperparatyreoosi, maksakooma ja -enkefalopatia, vastasyntyneen keltaisuus, anuria, kihti, hyperkalsemia, nefrokalsinoosi, fosforiaineenvaihdunnan häiriöt, munuaisvaltimon ahtauma ja munuaisten vajaatoiminta.
+- **Lääkeinteraktiot:** tietoja löytyi 100 yhteisvaikutuksesta. Merkittävimmät (**vakavat**) ovat kaliumbikarbonaatti ja kaliumkloridi (hyperkalemian riski). Kohtalaisia yhteisvaikutuksia ovat mm. hydrokortisoni, eksenatidi, eluksadoliini, polyetyleeniglykoli-elektrolyyttivalmisteet sekä useat insuliinivalmisteet.
+- **Huomio:** ARB-lääkkeet voivat aiheuttaa akuutin munuaisvaurion kahdenpuolisessa munuaisvaltimon ahtaumassa.
 
-## Johtopäätös ja seuraavat vaiheet
+Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla; ne on tarkistettava valmisteyhteenvedosta.
 
-**Päätös: Pidättäytyminen**
+---
+
+## Johtopäätös ja seuraavat askeleet
+
+**Päätös: Hold (odotetaan)**
 
 **Perustelut:**
-Näyttötaso on L4 (vain mekanismi/analoginen näyttö), kliinisiä tutkimuksia ei ole, ja ainoa kirjallisuusviite tutkii eri lääkeluokkaa (endoteleenireseptorin antagonistia), ei itse Valsartania. Mekanistinen uskottavuus RAAS-inhibition kautta on olemassa, mutta sitä ei ole vielä tuettu lääkekohtaisella datalla.
+- Ennuste perustuu lähinnä TxGNN-pisteisiin; kliinisiä tutkimuksia ei ole, ja ainoa kirjallisuuslöydös koskee toista lääkettä (avosentaani). Valsartaani on jo käytössä verenpainetaudissa, joten lisäarvo olisi pieni. Lisäksi kaikki Suomen myyntiluvat on peruutettu.
 
-**Jotta voidaan edetä, seuraava on tarpeen:**
-- Valsartan-kohtaiset (ei analogialääke-) prekliiniset tai kliiniset tutkimukset hypertensiivisessä nefropatiassa/malignissa hypertensiivisessa munuaisitaudissa
-- Virallinen toimintamekanismin (MOA) -tieto DrugBankista
-- Pakkausselosteen perusteella johdetut varoitukset/vasta-aiheet — tämä on tällä hetkellä este-näyttökuilku (DG001), joka on ratkaistava ennen mitään S1-turvallisuusarviointia
-- Huomio: samassa näyttöaineistossa alemman sijoittuva kandidaatti — krooninen keuhkojen sydänsairaus (sijoitus 6, pistemäärä 99,58%) — sisältää huomattavasti vahvempia näyttöjä (L1, useita päättyneitä vaihe 3/4 RCT:ita Sacubitril/Valsartan-yhdistelmälle sydämen vajaatoimintapopulaatioissa) ja se saattaa vaatia erillisen, korkeamman prioriteetin arvioinnin.
-
+**Eteneminen edellyttää:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivuilta (estää turvallisuusseulonnan).
+- Vaikutusmekanismin tietojen täydentämistä (esim. DrugBank).
+- Valsartaanikohtaista esikliinistä tai kliinistä näyttöä pahanlaatuisesta hypertensiivisestä munuaissairaudesta.
+- Selvitystä siitä, onko markkinoilla voimassa olevaa valsartaanivalmistetta Suomessa.
+- Varovaisuutta munuaisvaltimon ahtaumassa ja hyperkalemian seurantaa.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

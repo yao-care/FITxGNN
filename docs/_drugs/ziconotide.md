@@ -2,7 +2,7 @@
 layout: default
 title: Ziconotide
 parent: Kohtalainen näyttö (L3-L4)
-nav_order: 410
+nav_order: 478
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,79 +29,93 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Zikonotidi: Kroonisesta kipusta migraiiniin
+# Ziconotide: Kivusta migreeniin
 
 ## Yhden lauseen yhteenveto
 
-> Zikonotidi on N-tyypin kalsiumkanavaestäjä, jota alun perin käytetään selkäydintälineisesti muille hoitomuodoille vastustuskykyisten kroonisten vakaiden kipujen hoitoon (nämä tiedot eivät ole saatavilla strukturoituna tässä todistuspaketissa; lähteenä yleinen lääkkeistä saatava tieto). TxGNN-malli ennustaa sen olevan tehokas **migraiinin** hoidossa, mutta tätä tukee tällä hetkellä vain **0 kliinistä tutkimusta** ja **1 tapausraportin julkaisu**, joten todistusperusta on erittäin heikko.
+Ziconotide on selektiivinen N-tyypin kalsiumkanavan salpaaja, jota on alun perin käytetty vaikean kroonisen kivun hoitoon selkäydinkanavaan (intratekaalisesti) annettavana injektiona.
+TxGNN-malli ennustaa sen voivan tehota **migreenihäiriöön**.
+Tätä tukee tällä hetkellä **0 kliinistä tutkimusta** ja **3 julkaisua** (lähinnä tapausselostuksia), joten näyttö on varhaista.
 
 ---
 
-## Pikakatsaus
+## Pikayhteenveto
 
 | Kohta | Sisältö |
-|-------|---------|
-| Alkuperäinen indikaatio | Muille hoitomuodoille vastustuskykyinen krooninen vakava kipu, joka vaatii selkäydintälineistä analgesiahoitoa *(ei kirjattu todistuspaketissa — yleinen lääkkeistä saatava tieto; original_indications-kenttä on tyhjä)* |
-| Ennustettu uusi indikaatio | Migraini |
-| TxGNN-ennustuspisteet | 99.92% |
-| Todisteiden taso | L4 |
-| Taiwanin markkina-asema | Ei markkinoilla (Ei markkinoilla) |
-| Lupien lukumäärä | 0 |
-| Suositeltu päätös | Odota |
+|------|------|
+| Alkuperäinen käyttöaihe | Selkäydinkanavaan annettavat injektiot; kipu |
+| Ennustettu uusi käyttöaihe | Migreenihäiriö (migraine disorder) |
+| TxGNN-ennustepistemäärä | 99,92 % |
+| Näytön taso | L4 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien lukumäärä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) – tutkimuskysymys jatkotarkasteluun |
 
 ---
 
-## Miksi tämä ennuste on perusteltu?
+## Miksi ennuste on perusteltu?
 
-Tällä hetkellä yksityiskohtaiset vaikutusmekanismin tiedot eivät ole saatavilla todistuspaketissa (original_moa: Tietoaukko). Tämän ennustetun uudelleenkäytön perustelun mukaan Ziconotidi estää valikoivasti N-tyypin (Cav2.2) jänniteohjattuja kalsiumkanavia ja estää presynaptisen hermoston välittäjäaineiden, kuten glutamaatin ja CGRP:ään liittyvien polkujen vapautumista.
+Ziconotide salpaa selektiivisesti N-tyypin (Cav2.2) jänniteherkkiä kalsiumkanavia. Se vähentää kipua välittävien välittäjäaineiden (aine P, CGRP, glutamaatti) vapautumista primaarisista afferenteista hermopäätteistä selkäytimen takasarvessa.
 
-Migraiinin patofysiologia liittyy trigeminivaskularisen järjestelmän epänormaaliin hermoston välittäjäaineiden vapautumiseen, ja perinnöllinen hemipleginen migraini on geneettisesti yhteydessä P/Q-tyypin (CACNA1A) kalsiumkanavien mutaatioihin. Tämä antaa kalsiumkanavan modulaatiolle yleistä mekanistista uskottavuutta migraiinin hoidossa.
+Migreenin patofysiologiassa CGRP ja kolmoishermon kipusignalointi ovat keskeisiä. Siksi mekanistinen yhteys on uskottava: sama kipua välittävä reitti, johon ziconotide vaikuttaa kroonisessa kivussa, on mukana myös migreenissä.
 
-Kuitenkin kanavan alatyyppi, jota Ziconotidi estää (N-tyyppi), eroaa alatyypistä, joka on geneettisesti yhteydessä migraiiniin (P/Q-tyyppi), joten tämä mekanistinen ekstrapolointi tulee käsitellä varovaisuudella. Tukitodisteet rajoittuvat yhteen vuoden 2015 tapausraporttiin, jossa kroonisen migraiinin päänsärky ratkesi selkäydintälineisellä Ziconotidi-hoidolla — informatiivinen signaali, mutta kaukana vahvistavasta näytöstä.
-
----
-
-## Kliinisten tutkimusten todisteet
-
-Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia
+Käytännön toteutettavuutta rajoittavat kuitenkin intratekaalinen antotapa, kapea terapeuttinen ikkuna ja neuropsykiatriset haittavaikutukset. Yksityiskohtaista vaikutusmekanismitietoa ei ole tämän raportin aineistossa erikseen saatavilla; yllä oleva mekanistinen perustelu perustuu ennustekohtaiseen analyysiin.
 
 ---
 
-## Kirjallisuuden todisteet
+## Kliininen tutkimusnäyttö
 
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
-|------|-------|--------|-------|-------------------|
-| [26392785](https://pubmed.ncbi.nlm.nih.gov/26392785/) | 2015 | Tapausraportti | Journal of Pain Research | Yksittäinen tapaus, jossa kroonisen migraiinin päänsärky ratkesi selkäydintälineisen Ziconotidi-hoidon jälkeen; raportointi keskittyi sen N-tyypin kalsiumkanavan estävään vaikutukseen kroonisessa kovassa kivussa ilman opioidien aiheuttamia toleranssi- ja riippuvuusongelmia |
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
 ---
 
-## Taiwanin markkina-tiedot
+## Kirjallisuusnäyttö
 
-Ziconotidi ei ole tällä hetkellä markkinoilla Taiwanissa (0 lupaa tietueissa), joten tuote- ja lupitaulukko ei ole saatavilla.
+Migreenihäiriö ja siihen liittyvä alttiusluokka (ennusteet 1 ja 8):
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [26392785](https://pubmed.ncbi.nlm.nih.gov/26392785/) | 2015 | Tapausselostus | Journal of Pain Research | Kroonisen migreenin päänsäryn väistyminen intratekaalisella ziconotidilla |
+| [35505713](https://pubmed.ncbi.nlm.nih.gov/35505713/) | 2022 | Tapausselostus | Cureus | Intratekaalinen ziconotide mahdollisena hoitona konventionaaliseen hoitoon reagoimattomaan krooniseen migreeniin |
+| [41628204](https://pubmed.ncbi.nlm.nih.gov/41628204/) | 2026 | Katsaus | Pain Physician | Narratiivinen katsaus neuromodulaatiolaitteiden valintaan kroonisessa kivussa |
+
+Kontrolloitua tutkimusdataa ei ole.
+
+---
+
+## Suomen markkinatiedot
+
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000551 | Prialt | – | Selkäydinkanavaan annettavat injektiot; kipu (peruutettu) |
 
 ---
 
 ## Turvallisuusnäkökohdat
 
-Turvallisuustiedot (keskeiset varoitukset, vasta-aiheet, lääkevuorovaikutukset) ovat kokonaan puuttuvat tästä todistuspaketista — TFDA:n pakkausselosteen varoitukset/vasta-aiheet-kohta on merkitty **estäväksi** tietoaukoksi (DG001), mikä estää muodolliseen S1-turvallisuuden esiarviointiin osallistumisen.
+- **Tietämysgraafin mukaiset vasta-aiheet** (eivät pohjaudu valmisteyhteenvetoon): psykoottinen häiriö, skitsofreniformi häiriö, mielenterveyshäiriö, skitsoaffektiivinen häiriö ja veren hyytymishäiriö.
+- **Lääkeinteraktiot:** Yhteensä 48 interaktiota, joista esimerkkeinä keskivaikeat (Moderate): morfiini, kodeiini, hydrokodoni, opium, difenoksiini, difenoksylaatti, dronabinoli, nabiloni, metoklopramidi, etanoli, prometatsiini, klooripheniramiini, setiritsiini, atselastiini (nenä), dekstrometorfaani, bromifeniramiini, karbinoksamiini, klemastiini ja sibutramiini. Suurin osa liittyy keskushermostoa lamaaviin tai sedatiivisiin vaikutuksiin.
+- Ennustekohtaisen analyysin mukaan ziconotidin haittavaikutuksiin kuuluvat neuropsykiatriset oireet (sekavuus, huimaus) ja virtsaretentio.
 
-> Turvallisustiedot löytyvät pakkausselosteesta.
+Valmisteyhteenvedon varoitukset ja vasta-aiheet on tarkistettava erikseen.
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Johtopäätös ja seuraavat askeleet
 
-**Päätös: Odota**
+**Päätös: Hold (odota) – tutkimuskysymys**
 
-**Perustelut:**
-- Korkeimmalle sijoitetulla ennustetulla indikaatiolla (migraini) on vain yksi tapausraportti ja nolla kliinistä tutkimusta, ja mekanistinen yhteys perustuu N-tyypin kalsiumkanavaan, joka eroaa migraiiniin geneettisesti liittyneestä P/Q-tyypin kanavasta. Turvallisuustiedot ovat kokonaan puuttuvat (estävä aukko), ja lääke ei ole markkinoilla Taiwanissa — mikään kriteereistä "Jatka" tai "Jatka valvonnalla" ei täyty.
+**Perustelu:**
+Mekanistinen yhteys migreeniin on uskottava, mutta näyttö rajoittuu kolmeen julkaisuun, joista kaksi on tapausselostuksia, eikä kliinisiä tutkimuksia ole. Intratekaalinen antotapa, neuropsykiatriset haittavaikutukset ja lääkkeen peruutettu myyntilupa Suomessa heikentävät käytännön toteutettavuutta.
 
-**Jatkamista varten tarvitaan seuraavat tiedot:**
-- TFDA:n pakkausseloste varoituksineen ja vasta-aiheet (DG001, estävä)
-- Todennettava vaikutusmekanismin tieto DrugBank API:n kautta (DG002)
-- Prospektiivinen tai havainnoiva kliininen tutkimus, joka nimenomaisesti arvioi Ziconotidea migraiinin hoidossa, ottaen huomioon edellä mainitun N-tyypin ja P/Q-tyypin kanavien välisen eron
-- Selkäydintälineisen antoreitin toteutettavuuden ja hyväksyttävyyden vahvistaminen migraiinipotilaiden osalta, koska Ziconotiden hyväksytty antoreitti on huomattavasti invasiivisempi verrattuna vakiomuotoisiin migraiinin hoitokeinoihin
+**Eteenpäin siirtyminen edellyttää:**
+- Fimean valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista ja arviointia (estävä tietoaukko)
+- Vaikutusmekanismitietojen täydentämistä (DrugBank)
+- Kontrolloituja tutkimuksia tai laajempaa tapaussarjadataa kroonisesta migreenistä
+- Riski-hyötyarviota intratekaalisen annon ja neuropsykiatristen haittojen osalta
+- Selvitystä lääkkeen saatavuudesta Suomessa, koska myyntilupa on peruutettu
 
+**Muut ennustetut käyttöaiheet:** Muille ennusteille (mm. aivorungon aurallinen migreeni, cauda equina -oireyhtymä, lihavuus, ohimenevä aivoverenkiertohäiriö, glaukooma, neurogeeninen rakko, preeklampsia) ei ole kliinistä näyttöä, ja ne ovat tasolla L5 (pelkkä mallin ennuste). Ne on suositeltavaa pitää tilassa Hold.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

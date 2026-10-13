@@ -2,7 +2,7 @@
 layout: default
 title: Indacaterol
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 195
+nav_order: 228
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,78 +29,124 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Indakaterooli: Hengitysteiden bronkodilataatiosta nefrogeniseen sopimattoman antidiureesin oireyhtymään
+# Indakaterolli: Keuhkoahtaumataudista ja astmasta keuhkoputkisairauteen
 
 ## Yhden lauseen yhteenveto
 
-Indakaterooli on pitkävaikutteinen β2-adrenergisen reseptorin agonisti (LABA), jota käytetään hengitysteiden sairauksiin (COPD/astma) liittyvän lääkityksen osana, yleisimmin yhdistettynä glykopirroniinin ja/tai mometasoniinin kiinteisiin kombinaatioihin. TxGNN-mallin korkeimmin sijoittuva ennuste tälle ehdokaspaketille on **nefrogeninen sopimattoman antidiureesin oireyhtymä (NSIAD)**, mutta tämä sijoittuu pakkauksen kymmenen ennusteen joukkoon, joilla on **nolla kliinistä tutkimusta ja nolla julkaisua**, jotka tukisivat sitä, ja mukana oleva mekanistinen katsaus ei löydä mitään uskottavaa biologista yhteyttä.
+Indakaterolli on ultrapitkävaikutteinen beeta-2-agonisti, jota on alun perin käytetty keuhkoahtaumataudin (COPD) ja astman hoitoon.
+TxGNN-malli ennustaa sen sopivan **keuhkoputkisairauden** (bronchial disease) hoitoon, ja ennusteen tukena on **22 kliinistä tutkimusta** ja **20 julkaisua**.
+Tutkimukset kuitenkin koskevat pääosin jo hyväksyttyjä käyttöaiheita, joten kyse on enemmänkin tunnetun käytön vahvistumisesta kuin aidosta uudelleenkäytöstä.
 
-## Nopea yleiskatsaus
+---
+
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Ei muodollisesti dokumentoituna (ks. huomautus alla); näyttöpaketti vahvistaa, että indakaterooli vaikuttaa LABA-bronkodilataattorina hengitysteiden sairauksiin |
-| Ennustettu uusi indikaatio | Nefrogeninen sopimattoman antidiureesin oireyhtymä |
-| TxGNN-ennusteen pistemäärä | 99.54% |
-| Näyttötaso | L5 |
-| Suomen markkinatilanne | Ei markkinoilla |
-| Lupien määrä | 0 |
-| Suositeltu päätös | Pidätä |
+|------|------|
+| Alkuperäinen käyttöaihe | Keuhkoahtaumatauti (COPD), astma |
+| Ennustettu uusi käyttöaihe | Keuhkoputkisairaus (bronchial disease) |
+| TxGNN-ennustepistemäärä | 99,18 % |
+| Näytön taso | L1 (muodollisesti; ks. huomautus alla) |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 10 (kaikki peruutettu) |
+| Suositeltu päätös | Hold (odotetaan) |
 
-*Huomautus: `taiwan_regulatory.licenses` on tyhjä (lääkettä ei ole markkinoilla Suomessa), joten virallista hyväksytyn indikaation tekstiä ei ole saatavilla kyseisestä lähteestä.*
+*Huomautus:* L1-taso perustuu siihen, että valmistetta koskevia valmistuneita vaiheen 3 satunnaistettuja tutkimuksia on useita. Tutkimukset kuitenkin tutkivat jo hyväksyttyjä käyttöaiheita (astma, COPD), joten taso kuvaa näyttöä tunnetusta käytöstä, ei uudesta käyttöaiheesta.
 
-## Miksi tämä ennuste on järkevä?
+---
 
-Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla (tietojen puutosvaatimus DG002). Tämän näyttöpaketin sisällä olevan tiedon perusteella indakaterooli on pitkävaikutteinen β2-adrenergisen reseptorin agonisti, joka aktivoi β2-reseptoreita keuhkoputkien sileiden lihasten pinnalla, nostaen solunsisäisen cAMP:n tasoa ja tuottaen bronkodilataatiota — vakiintunut mekanismi, joka on sen pääasiallisen hengitysteiden käytön taustalla (ks. alla oleva "keuhkoputkiston sairaus" -ehdokas, jolla on vahva näyttötuki mutta joka edustaa jo tunnettua käyttöä, ei uuden uudelleenkäytön mahdollisuutta).
+## Miksi ennuste on perusteltu?
 
-Korkeimmin sijoittuneelle ehdokkaalle — nefrogeniselle sopimattoman antidiureesin oireyhtymälle — näyttöpaketin oma mekanistinen katsaus ei löydä **mitään uskottavaa yhteyttä**: NSIAD johtuu munuaisen V2-vasopressiini-reseptorin aktivoivista mutaatioista, ja sen standardi hallinta (nesteen rajoittaminen tai vaptaanit/V2-reseptoriantagoniistit) toimii polulla, jolla ei ole tunnettua vuorovaikutusta β2-adrenergisen signaloinnin kanssa. Korkea TxGNN-pistemäärä näyttää siis heijastavan graafi-upotusten samankaltaisuutta biologisesti perustellun hypoteesin sijaan, eikä kliinisiä tutkimuksia, ICTRP-tietueita tai PubMed-kirjallisuutta ole olemassa sen perustelemiseksi (kyselylokin merkinnät #5–#7, kaikki nolla tuloksia).
+Indakaterolli on ultrapitkävaikutteinen beeta-2-agonisti. Se rentouttaa keuhkoputkien sileää lihasta cAMP-välitteisen signaloinnin kautta, ja sen vaikutus kestää yli 24 tuntia, joten annostelu kerran vuorokaudessa riittää. Tarkkaa vaikutusmekanismia koskevat tiedot eivät ole tällä hetkellä saatavilla kokonaisuudessaan, mutta lääkeryhmän tunnettu farmakologia riittää mekanistiseen arviointiin.
 
-## Kliinisen tutkimuksen näyttö
+Keuhkoputkisairaus kattaa sairauksia, joihin liittyy hengitysteiden ahtautuminen, ja lääkkeen hyväksytyt käyttöaiheet (COPD ja astma) ovat juuri tällaisia. Mekanistinen yhteys on siis suora. Tästä syystä ennuste on uskottava, mutta se ei tuo uutta terapeuttista käyttöaihetta, vaan kuvaa pitkälti jo tunnettua käyttöä.
 
-Tällä hetkellä ei ole olemassa asiaan liittyviä rekisteröityjä kliinisiä tutkimuksia.
+Muut ennusteet (esim. nefrogeeninen antidiureesin epäasianmukaisen erityksen oireyhtymä, päänsärky, myosiitti, anafylaksia) perustuvat vain graafipohjaiseen ennusteeseen ilman kliinistä näyttöä eikä niille löytynyt uskottavaa mekanistista yhteyttä. Tämä raportti keskittyy ensisijaiseen, näyttöä sisältävään ennusteeseen.
 
-## Kirjallisuuden näyttö
+---
 
-Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta.
+## Kliininen tutkimusnäyttö
 
-## Suomen markkinatiedot
+| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset havainnot |
+|---------|------|------|------|---------|
+| [NCT02554786](https://clinicaltrials.gov/study/NCT02554786) | Vaihe 3 | Valmistunut | 2216 | QMF149 (indakaterolli/mometasoni) vs. mometasoni huonosti hallitussa astmassa, 52 viikkoa |
+| [NCT00529529](https://clinicaltrials.gov/study/NCT00529529) | Vaihe 3 | Valmistunut | 805 | Indakaterolin turvallisuus vs. salmeteroli kohtalaisessa tai vaikeassa astmassa, 26 viikkoa |
+| [NCT01079130](https://clinicaltrials.gov/study/NCT01079130) | Vaihe 3 | Valmistunut | 511 | Indakaterolin keuhkoputkia laajentava teho vs. lumelääke ja salmeteroli, 14 vuorokautta |
+| [NCT00545272](https://clinicaltrials.gov/study/NCT00545272) | Vaihe 2 | Valmistunut | 392 | Nelinäisen annostuksen annos–vastetutkimus, lumelääke- ja formoteroliverrokki |
+| [NCT01609478](https://clinicaltrials.gov/study/NCT01609478) | Vaihe 2 | Valmistunut | 335 | Indakaterolasetaatti (75 ja 150 µg) pysyvässä astmassa, 12 viikkoa |
+| [NCT01156844](https://clinicaltrials.gov/study/NCT01156844) | Vaihe 2 | Valmistunut | 191 | Kolmen annostelumallin keuhkoputkia laajentava teho pysyvässä astmassa |
+| [NCT02059434](https://clinicaltrials.gov/study/NCT02059434) | Vaihe 1 | Valmistunut | 55 | Inhalaatiovalmisteen turvallisuus, siedettävyys ja keuhkoputkia laajentava vaikutus astmassa ja COPD:ssa |
+| [NCT04259164](https://clinicaltrials.gov/study/NCT04259164) | Vaihe 3 | Valmistunut | 28 | Glykopyrronium lisättynä indakaterolin ja mometasonin yhdistelmään, allergeenin aiheuttama astmareaktio |
+| [NCT02892019](https://clinicaltrials.gov/study/NCT02892019) | Vaihe 2 | Valmistunut | 79 | Indakaterolasetaatti 6–11-vuotiailla astmaa sairastavilla lapsilla |
+| [NCT04206761](https://clinicaltrials.gov/study/NCT04206761) | Vaihe 3 | Peruttu | 0 | Kolmoisyhdistelmä (QVM149) ksenon-MRI:llä; tutkimus peruttiin, ei näyttöä |
 
-Indakateroolia ei ole tällä hetkellä markkinoilla Suomessa — 0 valtuutusta on rekisterissä (`taiwan_regulatory.market_status`: Ei markkinoilla / Not Marketed).
+Lähes kaikki tutkimukset on tehty astmapotilailla, eli jo hyväksytyssä käyttöaiheessa. Suoraan "keuhkoputkisairauteen" yleisenä uutena käyttöaiheena kohdistuvaa tutkimusta ei ole.
 
-## Turvallisuutta koskevat näkökohdat
+---
 
-Katso turvallisuustiedot pakkausselosteesta. (TFDA-pakkausselosteen varoitukset ja kontraindikaatiot on merkitty **estäväksi** aineistopuutokseksi — DG001 — odottamassa hakemista ja jäsentämistä, ennen kuin S1-turvallisuuskatsaus voidaan aloittaa.)
+## Kirjallisuusnäyttö
 
-## Muut ennustetut indikaatiot tässä näyttöpaketissa
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [32653074](https://pubmed.ncbi.nlm.nih.gov/32653074/) | 2020 | RCT | The Lancet Respiratory Medicine | IRIDIUM: kerran vuorokaudessa annettava mometasoni–indakaterolli–glykopyrronium verrattuna ICS-LABA-yhdistelmiin huonosti hallitussa astmassa |
+| [34783265](https://pubmed.ncbi.nlm.nih.gov/34783265/) | 2022 | RCT | Expert Review of Respiratory Medicine | Indakaterolin, glykopyrroniumin ja mometasonin kiinteä yhdistelmä kohtalaisessa tai vaikeassa astmassa |
+| [33871819](https://pubmed.ncbi.nlm.nih.gov/33871819/) | 2021 | Katsaus | Drugs | Indakaterolin, glykopyrroniumin ja mometasonin yhdistelmä (Enerzair Breezhaler) astman ylläpitohoidossa |
+| [31425937](https://pubmed.ncbi.nlm.nih.gov/31425937/) | 2019 | Katsaus | Respiratory Medicine | Ultra-LABA-lääkkeet astman hoidossa; käyttö vain yhdessä inhaloitavan kortikosteroidin kanssa |
+| [23348973](https://pubmed.ncbi.nlm.nih.gov/23348973/) | 2013 | Katsaus | Am J Respir Crit Care Med | Beeta-2-agonistit keuhkosairauksissa, vaikutus hengitysteiden sileään lihakseen |
+| [22611179](https://pubmed.ncbi.nlm.nih.gov/22611179/) | 2012 | Katsaus | Pharmacological Reviews | Bronkodilataattoreiden farmakologia ja hoidollinen käyttö |
+| [19609496](https://pubmed.ncbi.nlm.nih.gov/19609496/) | 2009 | Katsaus | Advances in Therapy | Indakaterolin tehokkuus COPD:ssa ja astmassa: nopea ja pitkäkestoinen keuhkoputkien laajeneminen |
+| [22499359](https://pubmed.ncbi.nlm.nih.gov/22499359/) | 2012 | Katsaus | Pharmacotherapy | Indakaterolin ominaisuudet ultrapitkävaikutteisena beeta-2-agonistina |
+| [40887869](https://pubmed.ncbi.nlm.nih.gov/40887869/) | 2025 | Molekyylifarmakologinen vertailu | Pharmacol Res Perspect | Lyhyt-, pitkä- ja ultrapitkävaikutteisten beeta-2-agonistien molekyylifarmakologisten ominaisuuksien vertailu |
+| [25176969](https://pubmed.ncbi.nlm.nih.gov/25176969/) | 2014 | Katsaus | Eur Respir Rev | Indakaterolin ja indakaterolin/glykopyrroniumin yhdistelmän hyödyt COPD:ssa |
 
-Tämä ehdokaspaketti (`TW-DB05039-multi`) sisältää 10 TxGNN-ennustetta indakateroolille. Kontekstiksi ne on esitetty alla; vain sijoituksella 7 on tällä hetkellä merkitsevää tukea, ja se heijastaa jo vakiintunutta käyttöä (hengitysteiden bronkodilataatio) eikä uuden uudelleenkäytön mahdollisuutta.
+Huomautus: kaksi lähdettä (PMID 32653074 ja 34783265) on luokiteltu RCT-tyyppisiksi aineistossa; jälkimmäinen on todellisuudessa katsaustyyppinen artikkeli.
 
-| Sijoitus | Ennustettu indikaatio | TxGNN-pistemäärä | Näyttötaso | Suositus |
-|----------|----------------------|-----------------|----------|----------|
-| 1 | Nefrogeninen sopimattoman antidiureesin oireyhtymä | 99.54% | L5 | Pidätä |
-| 2 | Päänsärkyoireyhtymä | 99.53% | L5 | Pidätä |
-| 3 | Kolmoissilmähermon autonominen kefalalgia | 99.33% | L5 | Pidätä |
-| 4 | Paratenonitis | 99.26% | L5 | Pidätä |
-| 5 | Kalsifioituva jänteiden tulehdus | 99.25% | L5 | Pidätä |
-| 6 | Hypertrikoosi (sairaus) | 99.23% | L5 | Pidätä |
-| 7 | Keuhkoputkiston sairaus | 99.18% | L1 | Jatka varauksin (tunnettu indikaatio, ei uutta) |
-| 8 | Myosiitti | 99.12% | L5 | Pidätä |
-| 9 | Anafilaksia | 99.07% | L4 | Pidätä |
-| 10 | Ambras-tyypin yleinen synnynnäinen hypertrikoosi | 99.06% | L5 | Pidätä |
+---
+
+## Myyntiluvat Suomessa
+
+| Myyntilupanumero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/001211 | Hirobriz Breezhaler | – | Keuhkoahtaumatauti (COPD) |
+| EMEA/H/C/001210 | Oslif Breezhaler | – | Keuhkoahtaumatauti (COPD) |
+| EMEA/H/C/001114 | Onbrez Breezhaler | – | Keuhkoahtaumatauti (COPD) |
+| EMEA/H/C/002679 | Ultibro Breezhaler | – | Keuhkoahtaumatauti (COPD) |
+| EMEA/H/C/005516 | Bemrist Breezhaler | – | Astma |
+
+Kaikki 10 myyntilupaa on peruutettu, eikä voimassa olevia lupia ole.
+
+---
+
+## Turvallisuushuomiot
+
+Pakkausselosteen varoitus- ja vasta-aihetietoja ei ollut saatavilla tämän raportin aineistossa. Tietämysgraafiin perustuvat (ei valmisteyhteenvetoon perustuvat) mahdolliset vasta-aiheisiin liittyvät sairaudet:
+
+- **Sydän- ja verisuonisairaudet:** verenpainetauti, pitkä QT -oireyhtymä (myös suvuittain esiintyvä), äkillinen sydänpysähdys, sydämen johtumishäiriöt, sepelvaltimotauti
+- **Aineenvaihdunta- ja hormonaaliset sairaudet:** hyperglykemia, diabetes, diabeettinen ketoasidoosi, kaliumin puutos, kilpirauhasen liikatoiminta (myös Basedowin tauti)
+- **Neurologiset sairaudet:** epilepsia
+
+**Lääkeyhteisvaikutukset:** tietokannassa on yhteensä 100 yhteisvaikutusta. Keskeisiä ovat:
+- Keskivaikeat: diabeteslääkkeet (asarboosi, metformiini, pioglitatsoni, alogliptiini, kanagliflotsiini, dapagliflotsiini, saksagliptiini, klooripropamidi, albiglutidi), epinefriini, famotidiini, isometepteeni ja klaritromysiini
+- Lievät: kortikosteroidit (hydrokortisoni, triamsinoloni, deksametasoni, beklometasoni, betametasoni, budesonidi) ja aprepitantti
+
+Täydelliset turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
+
+---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Pidätä**
+**Päätös: Hold (odotetaan)**
 
 **Perustelut:**
-Vaikka NSIAD:n TxGNN-pistemäärä on korkea (99.54%), sitä ei tue mikään kliininen tutkimus tai kirjallisuuden näyttö, ja tämän näyttöpaketin sisällä oleva mekanistinen katsaus ei eksplisiittisesti löydä mitään biologista perustelua, joka yhdistäisi β2-adrenergisen bronkodilataation V2-reseptorivälitteiseen vesitasapainohäiriöön. Tämä on L5-ehdokas (vain mallin ennuste), jolle pisteytysvaihe suosittaa jo pidättämistä.
+- Näyttö koskee pääosin jo hyväksyttyjä käyttöaiheita (astma, COPD), joten se ei osoita uutta uudelleenkäyttöä. Lisäksi kaikki Suomen myyntiluvat on peruutettu, joten kaupallinen ja sääntelyllinen tilanne on epäselvä.
+- Muiden ennustettujen käyttöaiheiden (esim. päänsärky, myosiitti, anafylaksia) tukena ei ole kliinistä näyttöä eikä uskottavaa mekanismia.
 
-**Jatkaakseen seuraavaa tarvitaan:**
-- TFDA/Suomen pakkausselosteen varoitukset ja kontraindikaatiot (Estävä aukko DG001) ennen kuin turvallisuusarviointi on mahdollinen
-- Vahvistetut vaikutusmekanismin tiedot (Korkea-prioriteettinen aukko DG002)
-- Prekliinisiä tai mekanistisia tutkimuksia, jotka testaavat β2-agonismin vaikutusta NSIAD:iin tai siihen liittyviin vesitasapainohäiriöihin, koska sellaisia ei tällä hetkellä ole olemassa
-- Jos uudelleenkäytettävää ehdokasta haetaan tästä paketista, kannattaa harkita paremmin perusteltuja signaaleita (esim. sijoitus 9, anafilaksia, L4) nykyisen korkeimmin sijoittuneen, mutta mekanistisesti perustelemattoman ennusteen sijaan
-
+**Eteenpäin siirtyminen edellyttää:**
+- Fimean pakkausselosteen varoitusten ja vasta-aiheiden hankkimista ja läpikäyntiä (estää tällä hetkellä turvallisuusarvioinnin etenemisen)
+- Vaikutusmekanismitietojen täydentämistä (esim. DrugBankista)
+- Myyntilupien peruuttamisen syiden sekä markkinatilanteen sääntely- ja kaupallisen arvioinnin selvittämistä
+- Tarkennusta siitä, mitä "keuhkoputkisairaus" tarkoittaa suhteessa nykyisiin käyttöaiheisiin, ja onko olemassa aidosti uusi potilasryhmä
+- Sydän- ja verisuoni- sekä aineenvaihduntariskien arviointia, koska tietämysgraafi liittää lääkkeeseen useita näihin liittyviä vasta-aiheita
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -2,7 +2,7 @@
 layout: default
 title: Emtricitabine
 parent: Kohtalainen näyttö (L3-L4)
-nav_order: 144
+nav_order: 163
 evidence_level: L4
 indication_count: 3
 ---
@@ -29,122 +29,98 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Emtricitabiini: HIV-1-infektioiden hoidosta kissahivenloisen immunovajaatekisuuden hoitoon
+# Emtrisitabiini: HIV-infektiosta kissan immuunipuutosoireyhtymään
 
-## Yksirivinen yhteenveto
+## Yhden lauseen yhteenveto
 
-> Emtricitabiini on kytidiinin analogisti-NRTI, jota käytetään kliinisesti HIV-1-antiretroviraalihoitojärjestelmien osana (esim. Truvada, Atripla). Tämä on dokumentoitu tämän paketin kliinisten tutkimusten ja kirjallisuusälyjen tietueissa.
-> TxGNN-mallin korkeimmalla sijalla oleva ennuste on **Kissahivenloinen Hankittu Immunovajaatekisuuden Oireyhtymä (FIV)**, jossa on **4 kliinistä tutkimusta** ja **1 julkaisu** löydetty —
-> kuitenkin tämä signaali on **laji-/ontologia-epäsovinnaisuus** (eläinlääketieteen indikaatio, ei ihmisen lääkkeen uudelleenkäytön mahdollisuus) eikä sitä pitäisi toteuttaa sellaisenaan.
+Emtrisitabiini on nukleosidirakenteinen käänteiskopioijaentsyymin estäjä (NRTI), jota on alun perin käytetty HIV-infektion hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **kissan hankinnaiseen immuunipuutosoireyhtymään (FIV)**, mutta kyseessä on eläinlääketieteellinen käyttöaihe.
+Tukena on **0 kliinistä tutkimusta** ja **1 julkaisu** (prekliininen), joten näyttö on heikkoa (taso L4).
 
 ---
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | *Ei täytetty jäsennellyissä kentissä (`original_indications` ja `original_moa` ovat tietoaukkojen aiheita)*. Tämän paketin kliinisten tutkimusten ja kirjallisuuden tekstiin perustuen emtricitabiini käytetään osana antiretroviraalihoitoa **HIV-1-infektioon** (esim. Truvada, Atripla) |
-| Ennustettu uusi indikaatio | Kissahivenloinen Hankittu Immunovajaatekisuuden Oireyhtymä (FIV) |
-| TxGNN-ennustuspistemäärä | 99.92% |
-| Näyttötaso | L4 |
-| Suomen markkinatieto | ✗ Ei kaupallinen |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | **Pidätä** |
+| Alkuperäinen käyttöaihe | HIV-infektiot |
+| Ennustettu uusi käyttöaihe | Kissan hankinnainen immuunipuutosoireyhtymä (FIV) |
+| TxGNN-ennusteen pistemäärä | 99,92 % |
+| Näytön taso | L4 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 18 (kaikki peruutettuja) |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Miksi tämä ennuste on järkevä?
+## Miksi ennuste on perusteltu?
 
-Emtricitabiinin yksityiskohtaiset vaikutusmekanismin tiedot eivät ole saatavilla tässä paketissa (`original_moa: [Data Gap]`). Perustuen tietoihin, jotka on upotettu kliinisiin tutkimuksiin ja kirjallisuusälyihin itseensä, emtricitabiini on sytiidiinin nukleosidi-analogisti käänteistranskriptaasin inhibiittori (NRTI), jota käytetään osana yhdistelmäantiretroviraalihoitojärjestelmiä (yhdessä tenofovirin kanssa ja muiden aineiden kanssa, esim. Truvada, Atripla) HIV-1-infektioiden hoitoon ja ehkäisyyn ihmisillä.
+Emtrisitabiinin yksityiskohtaista vaikutusmekanismia ei ole tämän raportin aineistossa saatavilla. Tunnetun tiedon perusteella emtrisitabiini on HIV-1:n käänteiskopioijaentsyymiä estävä NRTI-lääke, jonka teho HIV-infektiossa on osoitettu. Se on osa useita yhdistelmävalmisteita, kuten tenofoviirin kanssa käytettäviä.
 
-TxGNN-mallin ranking 1 -ennuste — Kissahivenloisen immunovajaatekisuuden viruksen (FIV) infektio — on mekanistisesti uskottava hyvin abstraktilla tasolla: FIV, kuten HIV, on lentivirus, joka riippuu käänteistranskriptaasista replikointiin, joten RT-inhibiittorin olisi periaatteessa voitava vaikuttaa molempiin. Kuitenkin tämä **ei ole pätevä ihmisen lääkkeen uudelleenkäytön signaali**. FIV on *eläinlääketieteen* tauti-entiteetti kissoissa, ja farmakokinetiikka, annostus ja myrkyllisyysprofiili eroavat merkittävästi lajien välillä. Paketin oma `repurposing_rationale` sanoo eksplisiittisesti, että se "ei kuulu ihmisen lääkkeen uudelleenkäytön (human drug repurposing) piiriin". Korkea TxGNN-pistemäärä täällä heijastaa todennäköisesti tietokaavioyksikön/upotuksen samankaltaisuutta FIV- ja HIV-solmujen välillä eikä aito uusi ihmisen terapiamahdollisuus.
+Kissan immuunipuutosvirus (FIV) on lentivirus, jonka käänteiskopioijaentsyymi muistuttaa rakenteellisesti HIV:n entsyymiä. NRTI-vaikutus on siksi biologisesti uskottava. Ainoa löydetty julkaisu (2023) tutkii yhdistelmähoitoa (dolutegraviiri, tenofoviiri ja emtrisitabiini) FIV-infektoiduilla kissoilla ja tukee vain epäsuoraa, prekliinistä merkitystä.
 
-Tästä syystä alla olevat kliiniset tutkimukset ovat kaikki ihmisen HIV-1-tutkimuksia, jotka sattuivat viittaamaan emtricitabiini-sisältäviin hoitojärjestelmiin — ne **eivät ole näyttöä FIV-indikaatiolle itselleen**, ja jokainen on arvioitu "C" (alhainen relevanssi / entiteetin epäsovinnaisuus) lähde-evidenssipipeline-puolesta.
+TxGNN-mallin hyvin korkea pistemäärä kuvaa verkostotason samankaltaisuutta HIV:n kanssa, eikä se ole kliinistä näyttöä. Ennuste koskee eläintautia, eikä siitä voi päätellä ihmiskäytön hyötyä.
 
----
-
-## Kliinisen tutkimuksen näyttö
-
-| Tutkimuksen numero | Vaihe | Tila | Osallistujat | Tärkeimmät tulokset |
-|---------|------|------|------|---------|
-| [NCT01263015](https://clinicaltrials.gov/study/NCT01263015) | Vaihe 3 | Valmis | 844 | Dolutegravir + Abakavir/Lamivudiini vs. Atripla (Efavirenitsi/Emtricitabiini/Tenofovir) ART-naiiveissa HIV-1-aikuisissa. Ihmisen tutkimus; **Arvio C — laji-/entiteetin epäsovinnaisuus FIV:n kanssa** |
-| [NCT00951015](https://clinicaltrials.gov/study/NCT00951015) | Vaihe 2 | Valmis | 208 | Dolutegravirin annoksen valinta-tutkimus + Abakavir/Lamivudiini tai Tenofovir/Emtricitabiini ART-naiiveissa HIV-1-aikuisissa. **Arvio C — epäsovinnaisuus** |
-| [NCT02770508](https://clinicaltrials.gov/study/NCT02770508) | Vaihe 4 | Valmis | 145 | Vahvistettu Darunavir + Lamivudiini vs. Darunavir + Emtricitabiini/Tenofovir tai Lamivudiini/Tenofovir naiiveissa HIV-1-potilaissa. **Arvio C — epäsovinnaisuus** |
-| [NCT01227824](https://clinicaltrials.gov/study/NCT01227824) | Vaihe 3 | Valmis | 828 | Dolutegravir vs. Raltegravir, molemmat kaksinkertaisella NRTI-selkärankareilla (sisältäen Emtricitabiini/Tenofovir), ART-naiiveissa HIV-1-aikuisissa. **Arvio C — epäsovinnaisuus** |
-
-*Kaikki neljä tutkimusta ovat ihmisen HIV-1-tutkimuksia; mikään ei arvioi FIV/kissaindikatiota suoraan.*
+**Huomio muista ennusteista:** Aineistossa oli myös kaksi muuta ennustetta.
+- *Apinoiden immuunipuutosvirusinfektio (SIV):* makakeilla tehdyt ennaltaehkäisytutkimukset (emtrisitabiini + tenofoviiri) tukevat prekliinistä tehoa, mutta ne toistavat HIV:n tunnetun mekanismin, koskevat pääosin yhdistelmää eikä SIV ole ihmisen tauti. Päätös: Hold, taso L4.
+- *Neurokehityshäiriö (ataksinen kävely, puheen puuttuminen, aivokuoren valkoisen aineen väheneminen):* mekanistista yhteyttä ei ole, eikä tukevia tutkimuksia tai julkaisuja ole. Taso L5, Hold.
 
 ---
 
-## Kirjallisuuden näyttö
+## Kliininen tutkimusnäyttö
 
-| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät tulokset |
+Tällä hetkellä ei ole aiheeseen liittyviä rekisteröityjä kliinisiä tutkimuksia.
+
+---
+
+## Kirjallisuusnäyttö
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
 |------|-----|------|------|---------|
-| [37112803](https://pubmed.ncbi.nlm.nih.gov/37112803/) | 2023 | Eläinkohortti/Katsaus (Taso 3) | Viruses | Yhdistelmäantiretroviraalihoito (Dolutegravir + Tenofovir + Emtricitabiini) arvioitiin farmakokinetiikalla ja kliinisilla tuloksilla FIV-infektoituneissa kissoissa; voimakasta hoitoa FIV:lle ei tällä hetkellä ole. |
+| [37112803](https://pubmed.ncbi.nlm.nih.gov/37112803/) | 2023 | Prekliininen / eläinlääketieteellinen tutkimus | Viruses | Yhdistelmähoidon (dolutegraviiri, tenofoviiri, emtrisitabiini) farmakokinetiikkaa ja kliinisiä tuloksia arvioitiin FIV-infektoiduilla kotikissoilla. Tutkimusasetelmaa ei ole varmistettu otsikon perusteella. |
 
 ---
 
-## Suomen markkina-tieto
+## Suomen markkinatiedot
 
-Emtricitabiinin markkinointilupaa ei ole tässä evidenssipaketissa (`total_licenses = 0`, `market_status = Not marketed / Ei kaupallinen`). Suomalaisista tuote-/lisenssi-tiedoista ei ole tällä hetkellä tiivistettävää.
+Kaikki 18 myyntilupaa on peruutettu. Valmisteet on listattu keskitetyillä EU-myyntiluvilla (EMEA), ja kaikissa käyttöaihe on HIV-infektiot. Alla viisi esimerkkiä:
 
----
-
-## Lisäennustetut signaalit tässä evidenssipaketissa (Lisätieto)
-
-Tämä ehdokaspaketti (`TW-DB00879-multi`) sisältää kaksi muuta TxGNN-ennustusta, jotka kannattaa esille tuoda täydellisyyden vuoksi, koska ne merkittävästi muuttavat kokonaisehdokkaan tulkintaa:
-
-### Ranking 2 — Apinan immunovajaatekisuuden virus (SIV) -infektio
-TxGNN-pistemäärä 99.92% (ranking 1108) · Näyttötaso **L2** · Suositus: **Tutkimuskysymys**
-
-Tämä on paketin vahvimman näytön signaali (2 kliinistä tutkimusta, 20 julkaisua), mutta perustelut selventävät, että se **ei ole uusi indikaatio** — se edustaa ei-ihmisen primaatin (makaakin) esikliinistä mallitietoa, joka historiallisesti tuki emtricitabiini/tenofovirin (Truvada) jo hyväksyttyä ihmisen PrEP-indikatiota eikä uutta terapiasuuntaa.
-
-| Tutkimuksen numero | Vaihe | Tila | Osallistujat | Tärkeimmät tulokset |
-|---------|------|------|------|---------|
-| [NCT00863668](https://clinicaltrials.gov/study/NCT00863668) | N/A | Peruutettu | 0 | HIV-hajoamiskinetiiikan tutkimus (Raltegravir); viitattiin SIV-hajoamisvertailuihin makaakinissa. Arvio C — peruutettu/laji-epäsovinnaisuus. |
-| [NCT03577782](https://clinicaltrials.gov/study/NCT03577782) | Vaihe 1/2 | Tuntematon | 12 | Vedolitsumabi + ART HIV-virologiselle remissioon; ihmisen tutkimus, ei SIV. Arvio C — epäsovinnaisuus. |
-
-| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät tulokset |
-|------|-----|------|------|---------|
-| [20874040](https://pubmed.ncbi.nlm.nih.gov/20874040/) | 2010 | Katsaus | Pharmacotherapy | Yleiskatsaus systeemiseen PrEP:iin HIV-ehkäisyä varten. |
-| [27465645](https://pubmed.ncbi.nlm.nih.gov/27465645/) | 2016 | Kohortti (ei-ihmisen primaatin esikliininen) | J Infect Dis | Suun kautta annettu Emtricitabiini + Tenofovir alafenamidi suojaa makaakineja peräsuolen SHIV-infektiosta. |
-| [23633402](https://pubmed.ncbi.nlm.nih.gov/23633402/) | 2013 | Kohortti (ei-ihmisen primaatin esikliininen) | J Infect Dis | Emtricitabiini/Tenofovir DF estää tenofovir-resistenttiä (K65R) SHIV-tartuntaa makaakinissa. |
-| [32128569](https://pubmed.ncbi.nlm.nih.gov/32128569/) | 2020 | Kohortti (ei-ihmisen primaatin esikliininen) | J Infect Dis | Pitkävaikutteinen Kabotegravir vs. suun kautta annettu Emtricitabiini/Tenofovir DF peniaalista SHIV-altistusta vastaan makaakinissa. |
-| [19656878](https://pubmed.ncbi.nlm.nih.gov/19656878/) | 2009 | Kohortti (ei-ihmisen primaatin esikliininen) | J Virol | Paikallinen tenofovir ± Emtricitabiini-geeli suojaa täydellisesti makaakineja toistuvasta emätinperäisestä SHIV-altistuksesta. |
-| [21632769](https://pubmed.ncbi.nlm.nih.gov/21632769/) | 2011 | Kohortti (ei-ihmisen primaatin esikliininen) | J Virol | Satunnainen Truvada-profylaksi suojaa emtricitabiini-resistenttiä (M184V) SHIV-peräsuolen tartuntaa vastaan. |
-| [29788316](https://pubmed.ncbi.nlm.nih.gov/29788316/) | 2018 | Kohortti (ei-ihmisen primaatin esikliininen) | J Infect Dis | Emätinperäinen Emtricitabiini/Tenofovir-geeli suojaa toistuvaa peräsuolen SHIV-altistusta vastaan makaakinissa. |
-| [31362305](https://pubmed.ncbi.nlm.nih.gov/31362305/) | 2019 | Kohortti (ei-ihmisen primaatin esikliininen) | J Infect Dis | Suun kautta annettu Tenofovir alafenamid/Emtricitabiini vs. TAF-yksin emätinperäistä SHIV-infektiota vastaan makaakinissa. |
-| [24914761](https://pubmed.ncbi.nlm.nih.gov/24914761/) | 2014 | Kohortti (ei-ihmisen primaatin esikliininen) | AIDS Res Hum Retroviruses | HIV VLP -rokote + osittainen suun kautta annettu PrEP estää SHIV-infektiota ja kehittää immuniteettia makaakinissa. |
-| [26743846](https://pubmed.ncbi.nlm.nih.gov/26743846/) | 2016 | Kohortti (ei-ihmisen primaatin esikliininen) | J Infect Dis | Emtricitabiini/Tenofovir DF estää emätinperäistä SHIV:tä makaakinissa, jotka ovat samanaikaisesti infektoituneet C. trachomatiksia/T. vaginaliksella. |
-
-*(10 20:stä kokonaistuloksesta näytetty, priorisoidaan Emtricitabiini-spesifisen PrEP-tehokkuuden relevanssin mukaan; loput 10 ovat pääosin SIV-patogeneesin/resistanssimekanismitutkimuksia, joilla on vain periferinen lääkerelevanssi.)*
-
-### Ranking 3 — Neurokehityksen häiriö, jossa on ataaksinen kävely, puhetta puuttuu ja vähennetty kortikaaliset valkean aineen määrä
-TxGNN-pistemäärä 99.92% (ranking 1168) · Näyttötaso **L5** · Suositus: **Pidätä**
-
-Tällä hetkellä ei ole liittyviä kliinisiä tutkimuksia rekisteröitynä. Tällä hetkellä ei ole saatavilla liittyvää kirjallisuutta. Paketin oma perustelut sanoo, että virusestäjä RT-inhibiittorin ja tämän geneettisen neurokehityshäiriön kausaalisuusmekanismin (neuronaalimuuttojen/myelinaation geeniviat) välillä ei ole tunnettua biologista linkkiä — tämä on todennäköisesti tietokaaviossa olevan yhteisesiintymisen artefakti eikä todellinen farmakologinen signaali.
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000533 | Emtriva | – | HIV-infektiot |
+| EMEA/H/C/000594 | Truvada | – | HIV-infektiot |
+| EMEA/H/C/004094 | Descovy | – | HIV-infektiot |
+| EMEA/H/C/004449 | Biktarvy | – | HIV-infektiot |
+| EMEA/H/C/004042 | Genvoya | – | HIV-infektiot |
 
 ---
 
-## Turvallisuusnäkökulmat
+## Turvallisuushuomiot
 
-Katso pakettiselosteesta turvallisuustietoja. *(Kaikki jäsennellyt turvallisuuskentät — tärkeimmät varoitukset, vasta-aiheet ja lääkevuorovaikutukset — ovat täyttämättömiä tietoaukkojen aiheita tässä paketissa; erityisesti `DG001` merkitsee puuttuvat TFDA/sääntelyyn liittyvät pakettiselostevaroitukset **Estävänä** aukkona, joka on ratkaistava ennen kuin mikään turvallisuusvaiheesta (S1) tehtävä arviointi voi edetä.)*
+**Lääkkeiden yhteisvaikutukset** (20 löydöstä, tärkeimmät):
+- **Merkittävät (Major):** leflunomidi, teriflunomidi
+- **Kohtalaiset (Moderate):** mm. kobisistaatti, naltreksoni, orlistaatti, metotreksaatti, interferoni beeta-1a ja -1b, kladribiini, klofarabiini, epirubisiini, tioguaniini, trabektediini
+
+**Tietämysgraafin (PrimeKG) kontraindikaatioyhteydet** (eivät perustu valmisteyhteenvetoon): mm. maksan vajaatoiminta ja maksasairaus, munuaissairaus, pitkä QT -oireyhtymä, laktaattiasidoosi, krooninen hepatiitti B- ja C-infektio, Fanconin oireyhtymä, hypofosfatemia ja osteomalasia.
+
+Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut saatavilla; tarkista ne valmisteyhteenvedosta.
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Johtopäätös ja jatkotoimet
 
-**Päätös: Pidätä**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Mikään kolmesta TxGNN-ennusteesta tässä paketissa ei ole validoitu, toimiva *uusi ihmisen* indikaatio: ranking 1 -signaali (FIV) on laji-epäsovinnaisuuden eläinlääketieteen entiteetti, ranking 2 -signaali (SIV) on esikliinistä näyttöä indikaatiolle (PrEP), jota emtricitabiini-sisältävällä tuotteilla jo on, ei uutta, ja ranking 3 -signaalilla ei ole kliinisiä tutkimuksia, ei kirjallisuutta eikä uskottavaa mekanistista linkkiä. Yhdistettynä estävään turvallisuuden tietoaukkoon (ei TFDA/pakettiselostevaroituksia tai vasta-aiheita) ja Suomen markkinan puutteeseen, tämä ehdokas ei täytä kriitteereitä edetä S0/S1:n yli.
+- Ennuste koskee eläintautia (FIV), eikä kliinisiä tutkimuksia ole. Näyttö on vain prekliinistä (L4), ja korkea TxGNN-pistemäärä kuvaa verkostosamankaltaisuutta, ei tehoa.
+- Kaikki Suomen myyntiluvat on peruutettu, ja valmisteyhteenvedon turvallisuustiedot puuttuvat, joten turvallisuusseulontaan ei voi edetä.
 
-**Etenemiseen vaaditaan seuraavaa:**
-- Ratkaise **DG001** (Estävä): hanki TFDA-pakettiselostevaroitukset/vasta-aiheet ennen S1-turvallisuusarviointia
-- Ratkaise **DG002** (Korkea): vahvista Emtricitabiinin vaikutusmekanismi DrugBank API -kyselyä käyttämällä
-- Selventää ennustelupipeline-kanssa, pitäisikö laji-epäsovinnaisuuden tauti-entiteetit (kissahivenloinen/apinahivenloinen) suodattaa pois ihmisen indikation ehdokaspoolia ranking-/pisteytysvaiheessa
-- Jos aito uusi ihmisen indikaatio etsitään edelleen emtricitabiinille, kohtele ranking 2:ta (SIV) vain vahvistuksena jo-olevalle PrEP-indikatiolla — eikä uutena ehdokkaana — ja deprioritisoi rankingit 1 ja 3 virheellisiksi signaaleiksi
-
+**Jatkaminen edellyttää:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivuilta
+- Vaikutusmekanismitietojen täydentämistä (DrugBank)
+- Selkeää päätöstä siitä, onko eläinlääkinnällinen käyttöaihe tämän arvioinnin kannalta relevantti
+- FIV:n osalta kontrolloituja tutkimuksia emtrisitabiinilla yksinään, sillä nykyinen näyttö koskee yhdistelmähoitoa
+- Markkinatilanteen selvittämistä, koska voimassa olevia myyntilupia ei ole
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -2,7 +2,7 @@
 layout: default
 title: Cobicistat
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 105
+nav_order: 117
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,60 +29,83 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Cobicistat: HIV:n farmakokineetisesta vahvistuksesta Simiaanien immunodefisienssi-viruksen infektioihin
+# Kobisistaatti: HIV-infektiosta simiaaniimmuunikatovirusinfektioon
 
-## Yhden lauseen yhteenveto
+## Yhden lauseen tiivistelmä
 
-Cobicistat ei ole itsessään antiviraalinen aine — se on farmakokineetinen vahvistin (CYP3A4/CYP2D6, P-gp ja OATP1B1/1B3:n inhibiittori), joka on yhteismuotoiltu antiretroviraalisissa lääkkeissä, kuten elvitegravir ja atazanavir, HIV:n hoitoa varten. TxGNN-malli ennustaa, että se saattaa olla merkityksellinen **Simiaanien immunodefisienssi-viruksen (SIV) infektiolle**, mutta tämä ennustus on tällä hetkellä tuettu **0 kliinisellä tutkimuksella** ja **0 julkaisulla**, ja se perustuu kokonaan verkon upotuksen samankaltaisuuteen HIV-vastaaviin solmuihin.
+Kobisistaatti on farmakokineettinen tehostaja (CYP3A:n estäjä), jota käytetään HIV-infektion hoidossa yhdessä muiden antiretroviraalisten lääkkeiden kanssa. TxGNN-malli ennustaa sen voivan sopia **simiaaniimmuunikatovirusinfektion (SIV)** hoitoon, mutta ennusteen tueksi ei ole löydetty **yhtään kliinistä tutkimusta eikä julkaisua**. Ennuste perustuu pelkästään laskennalliseen malliin.
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
-| Kohde | Sisältö |
+| Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Hyväksyttävää indikaatiotekstiä ei ole saatavilla — cobicistat ei ole markkinoilla Suomessa; tunnetaan maailmanlaajuisesti farmakokineettisenä vahvistimena, jota käytetään antiretroviraalisaineiden rinnalla (ei omaa suoraa antiviraalista vaikutusta) |
-| Ennustettu uusi indikaatio | Simiaanien immunodefisienssi-viruksen infektio |
-| TxGNN-ennustuspisteet | 99.92% |
+| Alkuperäinen käyttöaihe | HIV-infektio |
+| Ennustettu uusi käyttöaihe | Simiaaniimmuunikatovirusinfektio (SIV) |
+| TxGNN-ennustepisteet | 99,92 % |
 | Näytön taso | L5 |
-| Suomen markkinatilanne | Ei markkinoilla |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Pidätä |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 6 (kaikki peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennustus on järkevä?
+## Miksi ennuste on perusteltu?
 
-Yksityiskohtaiset vaikutusmekanismin tiedot on merkitty tietoaukoksi näyttöpaketissa. Saatavilla olevan farmakologisen tiedon perusteella cobicistat on ritonavirin rakenneanalogi ja toimii CYP3A4/CYP2D6:n ja P-gp- ja OATP1B1/1B3-kuljettajien tehokkaana inhibiittorina. Sen kliininen rooli on nostaa yhdessä annamittujen antiretroviraalisaineiden plasman konsentraatioita pikemminkin kuin harjoittaa suoraa antiviraalista vaikutusta.
+Kobisistaatti estää CYP3A-entsyymiä ja nostaa siten samanaikaisesti annettujen CYP3A:n kautta metaboloituvien antiretroviraalisten lääkkeiden (esim. elvitegraviiri, atatsanaviiri, darunaviiri) pitoisuuksia. Sillä itsellään ei ole suoraa antiviraalista vaikutusta. Tarkempi vaikutusmekanismitieto ei ole tällä hetkellä saatavilla.
 
-SIV on lenitivirus, joka infektoi ei-ihmisiä primaatteja, ja se on taksonomiallisesti sukua HIV:lle, mikä todennäköisesti selittää, miksi TxGNN:n tietoverkko sijoittaa cobicistatia lähelle SIV-infektiosolmuja — molemmat jakavat läheisyyden HIV/lenitivirus-vastaaviin entititeetteihin upotustilassa. Tämä on kuitenkin topologinen samankaltaisuus, ei osoitettu farmakologinen: cobicistatilla ei ole tunnettua suoraa antiviraalista vaikutusta SIV:tä tai HIV:tä vastaan, ja SIV-infektio on eläinlääketieteen/eläinmallin sairaus pikemminkin kuin ihmisen kliininen indikaatio.
+SIV on HIV:n läheinen lentivirussukulainen, mikä todennäköisesti selittää mallin korkean pistemäärän: graafipohjainen malli yhdistää taudit samaan virusluokkaan ja lääkkeen tunnettuun HIV-käyttöön. Yhteys on pääteltyä, ei osoitettua. Hyöty riippuisi aina siitä, että samanaikaisesti annettavaa antiretroviraalista lääkettä tehostetaan.
 
-Kaksi muuta TxGNN-ehdokasta tässä paketissa vahvistavat saman varotoimenpiteet: kissien immunodefisienssi-oireyhtymä (sijoitus 2) on samoin eläinlääketieteen lentivirus-sairaus, joka on päätelty puhtaasti retrovirus-homologiasta, ja harvinainen neurokehityksellinen valkoisen aineen häiriö (sijoitus 3) ei ole uskottavaa mekanistista yhteyttä cobicistatiin tunnettuun CYP/kuljettaja-inhibitio-profiiliin. Kaikki kolme ennustusta saavat samalla tavalla korkeita pisteitä (~99.9%), vaikka niihin ei ole tukevia tutkimuksia tai kirjallisuutta — mikä on johdonmukaista verkon upotuksen artefaktin kanssa pikemminkin kuin validoitu uudelleenkäyttösignaali.
+On myös huomattava, että SIV-infektio on eläinmalli- ja prekliininen tila, ei ihmisen kliininen käyttöaihe. Siksi ennusteella on rajallinen merkitys ihmisille suunnatussa lääkeuusiokäytössä.
 
-## Kliinisen tutkimuksen näyttö
+### Muut ennustetut käyttöaiheet
 
-Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
+Aineistossa on kaksi muuta ennustetta, joilla on sama tai lähes sama pistemäärä:
 
-## Kirjallisuuden näyttö
+- **Kissan hankinnainen immuunikatooireyhtymä (FIV)**: pistemäärä 99,92 %. Kyseessä on HIV:n kanssa sukua oleva lentivirus, mikä selittää korkean pistemäärän. Tukevaa kliinistä tai kirjallisuusnäyttöä ei ole, ja käyttöaihe on eläinlääketieteellinen. Ennuste on vain laskennallinen.
+- **Harvinainen perinnöllinen hermoston kehityshäiriö (ataktinen kävely, puheen puuttuminen, aivokuoren valkean aineen väheneminen)**: pistemäärä 99,91 %. Uskottavaa mekanistista yhteyttä ei ole tunnistettu, koska kobisistaatin farmakologia ei kohdistu taudin taustalla olevaan patologiaan. Korkea pistemäärä on todennäköisesti tietokantaperäinen artefakti.
 
-Tällä hetkellä ei ole saatavilla asiaan liittyviä kirjallisuusviitteitä.
+## Kliininen tutkimusnäyttö
+
+Ei tällä hetkellä aiheeseen liittyviä rekisteröityjä kliinisiä tutkimuksia.
+
+## Kirjallisuusnäyttö
+
+Ei tällä hetkellä aiheeseen liittyvää kirjallisuutta.
 
 ## Suomen markkinatiedot
 
-Cobicistat ei pidä markkinointilupaa Suomessa (markkinatilanne: ei markkinoilla; 0 rekisteröityä hyväksyntää), joten tuote- ja annostelun muotoihin liittyviä tietoja ei ole saatavilla.
+| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/002572 | Tybost | – | HIV-infektio |
+| EMEA/H/C/002819 | Rezolsta | – | HIV-infektio |
+| EMEA/H/C/003904 | Evotaz | – | HIV-infektio |
+| EMEA/H/C/004042 | Genvoya | – | HIV-infektio |
+| EMEA/H/C/004391 | Symtuza | – | HIV-infektio |
+
+Kaikki myyntiluvat on merkitty peruutetuiksi. Taulukossa on esitetty viisi kuudesta myyntiluvasta (kuudes: Stribild, EMEA/H/C/002574, myös peruutettu).
 
 ## Turvallisuusnäkökohdat
 
-Lisätietoja turvallisuustiedoista on saatavilla pakkausselosteesta.
+- **Lääkeyhteisvaikutukset**: Yhteisvaikutuksia on kirjattu yhteensä 100. Esimerkkejä tärkeimmistä:
+  - **Merkittävät (Major)**: loperamidi, triamsinoloni, sisapridi, budesonidi
+  - **Kohtalaiset (Moderate)**: hydrokortisoni, aprepitantti, betametasoni, deksametasoni, klotrimatsoli, klaritromysiini, metoklopramidi, repaglinidi, fenfluramiini
+  - **Vähäiset (Minor)**: prukalopridi
 
-## Johtopäätös ja seuraavat vaiheet
+  Yhteisvaikutusten suuri määrä johtuu kobisistaatin voimakkaasta CYP3A-estovaikutuksesta ja heikentää uusiokäytön perusteita.
 
-**Päätös: Pidätä**
+Varoituksista ja vasta-aiheista saa tietoa valmisteyhteenvedosta.
 
-**Perustelut:**
-Kaikki kolme TxGNN-ennustettua indikaatiota (SIV-infektio, kissien immunodefisienssi-oireyhtymä ja harvinainen neurokehityksellinen häiriö) ovat näytön tasolla L5 — pelkkä mallin ennustus ilman tukevia kliinisiä tutkimuksia tai kirjallisuutta — ja kaksi kolmesta kohdistavat eläin-, ei ihmisen, sairauksia. Yhdessä **estävän** tietoaukon kanssa TFDA/Fimea-pakkausselosteen turvallisuustiedoissa (DG001), tämä ehdokas ei voi edetä alkuperäisen seulonnan (S0) ohi.
+## Johtopäätös ja jatkotoimet
 
-**Edistymiseksi seuraavat tiedot tarvitaan:**
-- TFDA/Fimea-pakkausselosteen tiedot (varoitukset, vasta-aiheet) estävän aukon (DG001) poistamiseksi ennen mitään S1-turvallisuuden tarkastelua
-- Vahvistettu vaikutusmekanismin tieto DrugBankista (DG002)
-- Riippumaton farmakologinen tai prekliininen näyttö, joka yhdistää cobicistatiin CYP3A4/P-gp/OATP-inhibition ihmiselle relevanttiin indikaatioon, koska nykyiset parhaat ennustukset ovat ei-ihmisen tautimalleja
+**Päätös: Hold (odota)**
 
+**Perustelu:**
+- Kaikki kolme ennustetta perustuvat pelkästään laskennalliseen malliin (näytön taso L5), eikä niiden tueksi ole kliinisiä tutkimuksia tai julkaisuja. Kaksi ennustetta koskee eläinlääketieteellisiä tai prekliinisiä tiloja, ja kolmannelle ei löydy mekanistista yhteyttä. Lisäksi yhteisvaikutuksia on runsaasti ja kaikki Suomen myyntiluvat on peruutettu.
+
+**Eteneminen edellyttäisi seuraavaa:**
+- Vaikutusmekanismitietojen (MOA) täydentäminen esimerkiksi DrugBankista
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen ja jäsentäminen Fimean sivustolta (turvallisuusseulonnan edellytys)
+- Prekliinisen tai kirjallisuusnäytön kartoitus ennustetuista käyttöaiheista
+- Arvio siitä, onko ennustetuilla käyttöaiheilla relevanssia ihmisten lääkeuusiokäytön kannalta
+- Myyntilupatilanteen selvittäminen, koska kaikki myyntiluvat on peruutettu
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

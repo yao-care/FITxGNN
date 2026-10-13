@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Lomitapide
-parent: Pelkkä mallin ennuste (L5)
-nav_order: 231
-evidence_level: L5
+parent: Vahva näyttö (L1-L2)
+nav_order: 267
+evidence_level: L1
 indication_count: 10
 ---
 
 # Lomitapide
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,63 +29,91 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Lomitapide: Homotsygoottisesta perinnöllisestä hyperkolesterolemiasta makrotrombotsytopeniaan sydämen mitraaliventtiilien puudutuksella
+# Lomitapidi: Hypokolesterolemiasta hyperlipoproteinemiaan
 
 ## Yhden lauseen yhteenveto
 
-Lomitapide on mikrosomaalisen trigliseridinsiirtoproteiinin (MTP) estäjä, joka on alkuperäisesti hyväksytty (tuoteniminä Juxtapid/Lojuxta) homotsygoottisen perinnöllisen hyperkolesterolemia (HoFH) hoitoon. TxGNN:n korkeimmalla sijalla oleva uuden käyttöaiheen ennuste, **makrotrombotsytopenia sydämen mitraaliventtiilien puudutuksella**, saavuttaa **99,92 % mallin pistemäärän**, mutta sitä tukee tällä hetkellä **nolla kliinistä tutkimusta ja nolla julkaisua** — signaali on olemassa vain mallin sisällä.
+Lomitapidi on suun kautta otettava MTP-estäjä (mikrosomaalinen triglyseridien siirtoproteiini), jota on käytetty hyperkolesterolemian hoitoon. TxGNN-malli ennustaa sen olevan mahdollisesti tehokas **hyperlipoproteinemian** hoidossa. Tätä suuntaa tukee **7 kliinistä tutkimusta** ja **20 julkaisua**, mutta kyse on käytännössä lääkkeen nykyiseen käyttöaiheeseen hyvin läheisesti liittyvästä käytöstä eikä varsinaisesta uudelleenkäytöstä.
 
 ## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen käyttöaihe | Homotsygoottinen perinnöllinen hyperkolesterolemia (HoFH) — johdettu tutkimus- ja kirjallisuusnäytöstä (Juxtapid/Lojuxta); ei ole olemassa strukturoidussa `taiwan_regulatory`-lupausdatassa |
-| Ennustettu uusi käyttöaihe | Makrotrombotsytopenia sydämen mitraaliventtiilien puudutuksella |
-| TxGNN:n ennustepisteet | 99,92 % |
-| Näyttötaso | L5 (vain mallin ennuste) |
-| Suomen markkinatilanne | ✗ Ei markkinoilla |
-| Lupien lukumäärä | 0 |
-| Suositeltu päätös | Odota |
+|------|------|
+| Alkuperäinen käyttöaihe | Hyperkolesterolemia |
+| Ennustettu uusi käyttöaihe | Hyperlipoproteinemia (TxGNN-sijoitus 9; ensimmäiset 8 ennustetta koskevat verihiutalesairauksia, joille ei löydy tukea) |
+| TxGNN-ennustepistemäärä | 99,74 % |
+| Näytön taso | L1 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Proceed with Guardrails (jatka suojatoimin) |
 
-## Miksi tämä ennuste on perusteltu?
+> Huomio: Aineistossa korkeimmat TxGNN-pisteet saivat verihiutaleiden ja hyytymisen häiriöt (esim. perinnölliset trombosytopeniat, Glanzmannin trombasteenia). Näille ei löydy mekanistista yhteyttä, kliinisiä tutkimuksia eikä kirjallisuutta (näytön taso L5, päätös Hold). Tämä raportti keskittyy hyperlipoproteinemiaan, jonka näyttö on ainoa merkittävä.
 
-Lomitapiden mekanismi on hyvin karakterisoitu taustalla olevassa tutkimus- ja kirjallisuusnäytössä, vaikka strukturoidussa `original_moa`-kentässä on tietoaukko: se estää MTP:tä maksassa ja ohutsuolessa, estäen apoB-sisältävien lipoproteiinien (VLDL, kylomikronit) kokoamisen ja erityksen, mikä laskee LDL-C:n, apoB:n ja kokonaiskolesterolin. Tämä on perusta sen hyväksynnälle HoFH:n hoitoon.
+## Miksi ennuste on perusteltu?
 
-Makrotrombotsytopenia sydämen mitraaliventtiilien puudutuksella on harvinainen, pääosin geneettinen verihiutaleiden ja sidekudoksen häiriö. Ei ole vakiintunutta biologista polkua, joka yhdistäisi MTP:n välityksellistä lipoproteiinien kokoamisen verihiutaleiden koon säätelyyn tai mitraaliventtiilin rakenteeseen, ja näyttöpaketin omissa perusteluissa tämä on nimenomaisesti merkitty: "無機轉證據。屬罕見遺傳性巨大血小板症候群，與 MTP 抑制無已知關聯，零試驗零文獻，純模型預測" (ei mekanismin näyttöä; harvinainen perinnöllinen makrotrombotsytopenia-oireyhtymä, jolla ei ole tunnettu yhteyttä MTP-estoihin; nolla tutkimusta, nolla kirjallisuutta, puhdas mallin ennuste).
+Lomitapidi estää maksasoluissa ja suolen epiteelisoluissa MTP-proteiinia. Tämä estää apoB:tä sisältävien lipoproteiinien (VLDL ja kylomikronit) kokoamisen ja erityksen, mikä alentaa LDL-kolesterolia. Mekanismi on sama kuin hyväksytyssä käytössä homotsygoottisessa familiaalisessa hyperkolesterolemiassa (HoFH).
 
-Tämä kuvio toistuu rankingin 1–8 ja 10 sisällä — kaikki verihiutaleiden/hyytymisen häiriöt (perinnölliset trombotsytopeniat, tiheän granulan tautia, pseudon von Willebrandt-tauti, Glantzmannin trombasteniaani, verihiutaleiden varastointialttiuden puutos jne.) saavuttavat erittäin korkeat pisteet (>99,5 %) ilman tukevia mekanismeja, tutkimuksia tai kirjallisuutta. Tämä klusteri, yhdistettynä siihen, että mekanistisesti *järkevä* käyttöaihe (hyperlipoproteinemia — sijoitus 9, joka on itse asiassa lomitapiden oma alkuperäinen hyväksyntä-alue) saa *pienemmät* pisteet kuin nämä epäuskottavat ehdokkaat, viittaa tietograafin embedding-artefaktiin — jota puolustaa todennäköisesti lipidi- ja hematologisten parametrien rinnakkaisesiintyminen jaetuissa potilastietueissa — todellisen farmakologisen signaalin sijaan.
+Hyperkolesterolemia ja hyperlipoproteinemia ovat läheisiä rasva-aineenvaihdunnan häiriöitä, ja HoFH on itsekin hyperlipoproteinemian muoto. Ennuste on siksi biologisesti uskottava, ja kyse on pikemminkin nykyisen käyttöaiheen lähialueesta kuin uudesta käyttötarkoituksesta.
 
-## Kliinisen tutkimuksen näyttö
+Aineistossa ei ole saatavilla yksityiskohtaista vaikutusmekanismitietoa lääketietokannasta, mutta yllä kuvattu mekanismi on kirjallisuudessa hyvin tunnettu (esim. PMID 31741187).
 
-Tällä hetkellä ei ole liittyvien kliinisten tutkimusten rekisteröityä.
+## Kliininen tutkimusnäyttö
+
+| Tutkimusnumero | Vaihe | Tila | Osallistujia | Keskeiset havainnot |
+|---------|------|------|------|---------|
+| [NCT00730236](https://clinicaltrials.gov/study/NCT00730236) | Vaihe 3 | Valmistunut | 29 | Keskeinen yhden haaran tutkimus HoFH-potilailla; tuki myyntiluvalle |
+| [NCT00943306](https://clinicaltrials.gov/study/NCT00943306) | Vaihe 3 | Valmistunut | 19 | Pitkäaikainen avoin jatkotutkimus HoFH:ssa; pitkäaikainen turvallisuus ja teho |
+| [NCT04681170](https://clinicaltrials.gov/study/NCT04681170) | Vaihe 3 | Valmistunut | 46 | Lapsipotilaat (HoFH), avoin yhden haaran monikeskustutkimus |
+| [NCT02173158](https://clinicaltrials.gov/study/NCT02173158) | Vaihe 3 | Valmistunut | 9 | Japanilaiset HoFH-potilaat; pieni mutta suora näyttö |
+| [NCT02135705](https://clinicaltrials.gov/study/NCT02135705) | Ei sovellettavissa | Valmistunut | 260 | LOWER-rekisteri: pitkäaikainen turvallisuus ja teho tosielämässä (havainnoiva) |
+| [NCT01556906](https://clinicaltrials.gov/study/NCT01556906) | Vaihe 2 | Valmistunut | 6 | Annoksen nostotutkimus; varhainen turvallisuus ja siedettävyys |
+| [NCT02765841](https://clinicaltrials.gov/study/NCT02765841) | Vaihe 3 | Peruttu (withdrawn) | 0 | Lapsipotilastutkimus; ei dataa |
+| [NCT02399852](https://clinicaltrials.gov/study/NCT02399852) | Ei sovellettavissa | Peruttu (withdrawn) | 0 | Kaulavaltimon ja aortan ateroskleroosin kuvantamistutkimus; ei dataa |
+
+Kaikki tutkimukset ovat yhden haaran tai avoimia, eikä satunnaistettuja vertailevia vaiheen 3 tutkimuksia ole. Kaksi tutkimusta peruttiin ilman osallistujia.
 
 ## Kirjallisuusnäyttö
 
-Tällä hetkellä kirjallisuusnäyttö ei ole saatavilla.
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|---------|------|------|------|---------|
+| [39426393](https://pubmed.ncbi.nlm.nih.gov/39426393/) | 2024 | Kliininen tutkimus (vaihe 3) | Lancet Diabetes Endocrinol | Lomitapidin teho ja turvallisuus lapsipotilailla, joilla HoFH |
+| [37130090](https://pubmed.ncbi.nlm.nih.gov/37130090/) | 2023 | Konsensuslausuma | Eur Heart J | Euroopan ateroskleroosiyhdistyksen päivitetty HoFH-ohjeistus ja uudet hoidot |
+| [39751968](https://pubmed.ncbi.nlm.nih.gov/39751968/) | 2025 | Katsaus | Curr Atheroscler Rep | Uudet LDL-kolesterolia alentavat hoidot HoFH:ssa |
+| [33766264](https://pubmed.ncbi.nlm.nih.gov/33766264/) | 2021 | Katsaus | J Am Coll Cardiol | Uudet LDL-C- ja apoB-tasoa alentavat hoidot |
+| [25053660](https://pubmed.ncbi.nlm.nih.gov/25053660/) | 2014 | Ohjeistus/katsaus | Eur Heart J | HoFH:n tunnistaminen ja hoito |
+| [31741187](https://pubmed.ncbi.nlm.nih.gov/31741187/) | 2019 | Katsaus | Curr Atheroscler Rep | Lomitapidi ja mipomorseeni: MTP:n ja apoB100:n synteesin esto |
+| [28598687](https://pubmed.ncbi.nlm.nih.gov/28598687/) | 2017 | Katsaus | Expert Opin Pharmacother | Lomitapidi hyperkolesterolemian hoidossa |
+| [25939291](https://pubmed.ncbi.nlm.nih.gov/25939291/) | 2015 | Katsaus | Cardiol Clin | Familiaalisen hyperkolesterolemian hoitovaihtoehdot, mukaan lukien lomitapidi |
+| [21846156](https://pubmed.ncbi.nlm.nih.gov/21846156/) | 2011 | Katsaus | Am J Cardiovasc Drugs | Lomitapidin kehitys familiaalisen ja primaarisen hyperkolesterolemian hoitoon |
+| [25702706](https://pubmed.ncbi.nlm.nih.gov/25702706/) | 2015 | Katsaus | Br J Clin Pharmacol | Lomitapidin farmakologinen katsaus |
 
-## Suomen markkinatiedot
+## Myyntitiedot Suomessa
 
-Lomitapidella ei ole kirjattuja markkinointilupia Suomelle (0 rekisteröityä lisenssiä; markkinatilanne: ei markkinoilla).
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/002578 | Lojuxta | – | Hyperkolesterolemia (tila: peruutettu) |
+
+Ainoa myyntilupa on peruutettu, joten valmisteen saatavuus Suomessa tulee varmistaa.
 
 ## Turvallisuusnäkökohdat
 
-Muodolliset turvallisuuskentät (päävaroitukset, vasta-aiheet, lääkeyhteisvaikutukset) on merkitty tietovajeiksi lähdenäyttöpaketissa (DG001, Blocking severity) — katso yksityiskohtaisia turvallisuustietoja pakkaustiedotteesta.
+- **Lääkeyhteisvaikutukset:** Tietokannasta löytyi yhteensä 100 mahdollista yhteisvaikutusta. Merkittäviksi (Major) luokiteltuja ovat mm. akarboosi, doksisykliini, pioglitatsoni, bupropioni, aprepitantti, tetrasykliini, kenodeoksikoolihappo, klaritromysiini, minosykliini, naltreksoni, oksandrolonii ja oksymetoloni. Kohtalaisia (Moderate) ovat mm. ranitidiini, loperamidi, budesonidi, simetidiini, saksagliptiini, eliglustaatti ja linagliptiini.
+- **Ennakoidut riskit (ennusteen perustelun mukaan):** maksatoksisuus (transaminaasien nousu, maksan rasvoittuminen), ruoansulatuskanavan haittavaikutukset, tiukka rasvarajoitteinen ruokavalio ja REMS-tyyppinen seuranta. Lisäksi CYP3A4:n estäjät ovat keskeisiä yhteisvaikutuksia.
 
-**Huomio:** Vaikka strukturoiduissa `safety`-kentissä ei ole kuvattu, niihin liittyvien ennustettujen käyttöaiheiden uudelleenkäytön perusteluteksti nimenomaisesti huomauttaa, että lomitapidella on tunnettu maksatoksisuusriski ja se on vasta-aiheinen raskaana olevilla ja vastasyntyneiden väestöllä — oleellista yhteydessä olevia tietoja tulevaisuuden arvioinnissa.
+## Johtopäätös ja seuraavat askeleet
 
-## Johtopäätökset ja seuraavat vaiheet
-
-**Päätös: Odota**
+**Päätös: Proceed with Guardrails (jatka suojatoimin)**
 
 **Perustelut:**
-Korkeimmalla sijalla oleva ennustettu käyttöaihe (makrotrombotsytopenia sydämen mitraaliventtiilien puudutuksella) ei ole mekanistisesti uskottava, sillä ei ole kliinisiä tutkimuksia eikä kirjallisuustukea — näyttötaso L5, päätösvaihe S0. Sama koskee 8:sta muusta 9:stä rankitusta ehdokkaasta tässä paketissa. Ainoa ehdokas, jolla on vahva näyttö, hyperlipoproteinemia (L1, 12 tutkimusta, mukaan lukien pivotaaliset 3. vaiheen tutkimukset, 19 julkaisua), ei ole aidon uudelleenkäytön mahdollisuus — se heijastaa lomitapiden *olemassa olevan* hyväksynnän aiheen (HoFH) nousemista uuden tautien ontologia-termin alla, ei todellista uutta käyttöä.
+- Hyperlipoproteinemian osalta mekanismi on suora ja lääke on tutkittu HoFH:ssa useissa valmistuneissa vaiheen 3 tutkimuksissa. Näyttö on kuitenkin yhden haaran tutkimuksista, pieniä potilasmääriä ja kaksi tutkimusta on peruttu. Ennuste on käytännössä nykyisen käyttöaiheen lähialuetta.
+- Verihiutaleiden ja hyytymisen häiriöitä koskevat ennusteet (sijat 1–8 ja 10) perustuvat vain graafimalliin, eikä niille ole mekanismia tai kliinistä näyttöä, joten niiden suositus on Hold.
 
-**Jatkaakseen seuraavaa tarvitaan:**
-- TFDA/Fimea:n pakkaustiedotteen tiedot (DG001, Blocking) ennen kuin turvallisuuden arviointi voidaan aloittaa
-- Vahvistettu DrugBank MOA -tietue (DG002) mekanismin yhdistämisanalyysin asianmukaiseksi perustamiseksi
-- Mallin/embedding-tason tarkastus siitä, miksi TxGNN keskittää korkeat pisteet MTP-estäjää varten liittymättömiin verihiutaleiden/hyytymisen häiriö-solmuihin
-- Jos lipidi-vierekkäisten laajennusten tutkiminen on kiinnostavaa, arvioi sellaisia leimansa lähellä olevia olosuhteita kuin perheellinen ksantuuri-syndromi (PMID 36152419) off-label-laajennusarvioksi — ei uuden uudelleenkäytön ehdokkaaksi tästä ennustejoukosta
-
+**Jatkaminen edellyttää:**
+- Valmisteen saatavuuden selvittäminen Suomessa, koska ainoa myyntilupa on peruutettu
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden kokoaminen (tiedot puuttuvat)
+- Yksityiskohtaisen vaikutusmekanismitiedon täydentäminen lääketietokannasta
+- Maksan toiminnan ja rasvamaksan seurantasuunnitelma sekä yhteisvaikutusten (erityisesti CYP3A4) hallintasuunnitelma
+- Täsmennys siitä, mikä hyperlipoproteinemian alatyyppi on kohderyhmänä, koska nykyinen näyttö koskee pääosin HoFH:ta
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

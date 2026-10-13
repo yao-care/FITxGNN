@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Mepolizumab
-parent: Pelkkä mallin ennuste (L5)
-nav_order: 244
-evidence_level: L5
+parent: Kohtalainen näyttö (L3-L4)
+nav_order: 281
+evidence_level: L4
 indication_count: 5
 ---
 
 # Mepolizumab
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **5** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,63 +29,77 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Mepolizumab: Eosinofiiliksi liittyvästä tulehdaussairaudesta immuunivälisteiseen verihiutaleisopeniaan
+# Mepolitsumabi: Astmasta immuunivälitteiseen trombosytopeniaan
 
 ## Yhden lauseen yhteenveto
 
-Mepolizumab on humanisoidtu anti-IL-5-monoklonaalinen vasta-aine, jonka tiedetään olevan tehokas eosinofiiliksi liittyvien sairauksien, kuten vakavan eosinofiiliksi liittyvän astman ja hypereosinofiiliksi liittyvän oireyhtymän (HES), hoidossa; tämä erityinen alkuperäinen käyttöaihe ei ole kirjattu nykyisessä näyttöpaketissa. TxGNN-malli ennustaa, että se saattaa olla tehokas **immuunivälisteiseen verihiutaleisopeniaan**, mutta tätä suuntaa tukee tällä hetkellä vain **1 tapausraportti** ja **ei rekisteröityjä kliinisiä tutkimuksia**.
+Mepolitsumabi on anti-IL-5-vasta-aine, jota on alun perin käytetty astman hoitoon. TxGNN-malli ennustaa sen voivan olla hyödyllinen **immuunituhoon liittyvässä trombosytopeniassa**, mutta tätä tukee vain **yksi tapausselostus** eikä yhtään kliinistä tutkimusta. Näyttö on heikkoa, ja ennuste perustuu pääosin laskennalliseen mallinnukseen.
 
-## Pikaselaus
+## Pikayhteenveto
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Ei saatavilla näyttöpaketissa (lääke ei ole markkinoilla Suomessa; ei lisenssitietoja) |
-| Ennustettu uusi käyttöaihe | Immuunivälisteinen verihiutaleisopenia |
-| TxGNN-ennustepisteet | 99.66% |
-| Näyttötaso | L4 (yksittäinen tapausraportti / vain mekanistinen näyttö) |
-| Suomen markkinatila | Ei markkinoilla |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Pidätä |
+| Alkuperäinen käyttöaihe | Astma |
+| Ennustettu uusi käyttöaihe | Immuunituhoon liittyvä trombosytopenia (thrombocytopenia due to immune destruction) |
+| TxGNN-ennustepisteet | 99,66 % |
+| Näytön taso | L4 |
+| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
+| Myyntilupien määrä | 1 |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennustus on perusteltu?
+## Miksi ennuste voisi olla perusteltu?
 
-Tällä hetkellä yksityiskohtaiset vaikutusmekanismin tiedot eivät ole saatavilla tässä näyttöpaketissa (tietoaukko DG002). Julkisesti saatavilla olevan lääketiedon perusteella mepolizumab on humanisoidtu IgG1-monoklonaalinen vasta-aine, joka sitoutuu kiertävään interleukiini-5:een (IL-5) ja estää sen vuorovaikutuksen IL-5-reseptoreihin eosinofiiileissa ja vähentää näin eosinofiilin tuotantoa, aktivaatiota ja selviytymistä. Se on vakiintunut eosinofiiliksi liittyville sairauksille, kuten vakavalle eosinofiiliksi liittyvälle astmalle, hypereosinofiiliksi liittyvälle oireyhtymälle (HES) ja eosinofiiliksi liittyvälle granulomaattiselle polyangiitille (EGPA).
+Mepolitsumabi on interleukiini-5:n (IL-5) vasta-aine, joka vähentää eosinofiilejä. Tarkkaa vaikutusmekanismitietoa ei ole tässä aineistossa saatavilla. Tiedossa olevan perusteella lääke tehoaa astmaan eosinofiilitulehduksen vähentämisen kautta.
 
-Ennustettu uusi käyttöaihe — immuunivälisteinen verihiutaleisopenia — saattaa olla mekanistisesti yhteydessä eosinofiiliksi välityneisiin immuunikeskeytyspoluihin. Hypereosinofiiliksi tilat voivat laukaista toissijaista immuunivälistä verihiutaleiden tuhotoimintaa ja trombottista mikroangipatia eosinofiilin peräisin olevien rakeiden tuotteiden ja komplementin aktivaation kautta. Tämä on suoraan kuvattu alla olevassa yksittäisessä kirjallisuustapauksessa (PMID 28648630), jossa mepolizumab ratkaisi steroidikestävän hypereosinofiiliksi immuuniprosessin, samalla parantaen siihen liittyvää trombottista mikroangipatia, johon liittyi verihiutaleiden kuluminen.
+Ainoa tukeva kirjallisuuslöydös on tapausselostus, jossa steroidille resistentti hypereosinofiilinen immuunihäiriö ja samanaikainen sekamuotoinen trombottinen mikroangiopatia paranivat mepolitsumabihoidolla. Tämä viittaa mahdolliseen yhteyteen eosinofiilivälitteisen immuunihäiriön ja immuunivälitteisten sytopenioiden välillä, mutta yhteys on epäsuora.
 
-Koska alkuperäisen käyttöaiheen kenttä on tyhjä tässä näyttöpaketissa, tämä mekanistinen perustelu tulee käsitellä taustakontekstina, eikä paketin vahvistamana väitteenä. Se tulee vahvistaa DrugBank/Fimea-lähteistä ennen käyttöä päätöksenteossa.
+Immuunitrombosytopeniassa verihiutaleiden tuho johtuu pääasiassa autovasta-aineista ja T-soluista, ei eosinofiileistä. Mekanistinen peruste on siksi heikko muualla kuin eosinofiliaan liittyvissä tapauksissa. Erittäin korkea TxGNN-pistemäärä on laskennallinen ennuste, ei kliinistä näyttöä.
 
-## Kliiniset tutkimustodisteet
+## Kliinisen tutkimuksen näyttö
 
-Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia
+Ei tällä hetkellä aiheeseen liittyviä rekisteröityjä kliinisiä tutkimuksia.
 
-## Kirjallisuustodisteet
+## Kirjallisuusnäyttö
 
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset tulokset |
-|------|------|------|------|------|
-| [28648630](https://pubmed.ncbi.nlm.nih.gov/28648630/) | 2018 | Tapausraportti | Blood Cells, Molecules & Diseases | Mepolizumab yhdessä anti-C5-hoidon kanssa ratkaisi steroidikestävän hypereosinofiiliksi immuuniprosessin potilaalla, jolla oli epätavallinen HUS-liittyvä eosinofilia, ja samalla paransi sekamuotoista trombottista mikroangipatia |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [28648630](https://pubmed.ncbi.nlm.nih.gov/28648630/) | 2018 | Tapausselostus | Blood Cells Mol Dis | Steroidiresistentti hypereosinofiilinen immuunihäiriö ja samanaikainen sekamuotoinen trombottinen mikroangiopatia paranivat mepolitsumabilla. |
+
+## Muut ennustetut käyttöaiheet
+
+Aineistossa on myös muita ennusteita, joilla on vielä heikompi tuki:
+
+| Ennustettu käyttöaihe | TxGNN-pisteet | Näytön taso | Huomio |
+|------|------|------|------|
+| Verihiutaleiden primaarinen vapautumishäiriö | 99,61 % | L4 | Ainoa lähde on hypereosinofiilisen oireyhtymän (HES) hoitoa käsittelevä katsaus ([PMID 20565230](https://pubmed.ncbi.nlm.nih.gov/20565230/), 2010), joka ei käsittele verihiutaleiden toimintaa. IL-5:n eston ja verihiutaleiden eritysvikojen välillä ei tunneta mekanistista yhteyttä. |
+| Pseudo-von Willebrandin tauti | 99,44 % | L5 | Johtuu verihiutaleiden GPIbα-reseptorin toiminnanlisäysmuutoksista. Yhteyttä IL-5:n estoon ei tunneta. Ei tutkimuksia eikä kirjallisuutta. |
+| Autoimmuuni trombosytopenia | 99,33 % | L5 | Todennäköisesti päällekkäinen immuunitrombosytopenian kanssa. Ei tutkimuksia eikä kirjallisuutta. Perustelu on spekulatiivinen. |
+| Glanzmannin trombastenia | 99,28 % | L5 | Perinnöllinen verihiutaleiden integriini αIIbβ3:n vika. Uskottavaa mekanistista yhteyttä ei ole. Ei kliinistä näyttöä. |
 
 ## Suomen markkinatiedot
 
-Mepolizumab ei ole tällä hetkellä markkinoilla Suomessa; lääkkeen lisenssitietoja ei ole saatavilla (0 hyväksynnät).
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/003860 | Nucala | – | Astma (tila: peruutettu) |
 
 ## Turvallisuusnäkökohdat
 
-Turvallisuestiedot löytyvät pakkausselosteesta.
+Turvallisuustiedot on tarkistettava valmisteyhteenvedosta. Aineistossa ei ole tietoa yhteisvaikutuksista.
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Pidätä**
+**Päätös: Hold (odota)**
 
-**Perustelu:**
-Ennustus perustuu yksittäiseen tapausraporttiin ilman kontrolloituja tai rekisteröityjä kliinisiä tutkimuksia, ja turvallisuusseloitteen tietoaukko (DG001) on merkitty estäväksi, mikä tarkoittaa, että ehdokas ei voi vielä läpäistä alkuvaiheen turvallisuusseulontaa. Mepolizumab ei myöskään ole tällä hetkellä markkinoilla Suomessa, mikä poistaa paikallisen sääntelyperustan.
+**Perustelut:**
+- Ennuste perustuu lähes kokonaan laskennalliseen malliin. Tukena on vain yksi tapausselostus eikä yhtään kliinistä tutkimusta, ja mekanistinen yhteys immuunitrombosytopeniaan on heikko.
+- Myyntilupa Suomessa on peruutettu, mikä rajoittaa käytännön etenemismahdollisuuksia.
 
-**Etenemiseen tarvitaan seuraavaa:**
-- Fimea/TFDA-vastaava pakkausseloste-tieto (varoitukset, vasta-aiheet) DG001:n ratkaisemiseksi
-- Vahvistettu alkuperäinen käyttöaihe ja vaikutusmekanismin dokumentaatio DG002:n ratkaisemiseksi
-- Lisää kliinistä näyttöä (tapaussarja tai kontrolloitut tutkimukset) immuunivälisteiselle verihiutaleisopenialle
-- Valmis lääke-lääkkeiden vuorovaikutuskysely (DDI), sillä nykyinen kysely palautti "not_found"
-
+**Eteneminen edellyttää seuraavaa:**
+- Vaikutusmekanismia koskevien tietojen täydentäminen
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittäminen Fimean lähteistä (turvallisuusarvioinnin estävä tietoaukko)
+- Systemaattinen kirjallisuushaku immuunitrombosytopeniasta, erityisesti eosinofiliaan liittyvistä tapauksista
+- Prekliininen tai mekanistinen tutkimus IL-5-eston roolista verihiutaleiden immuunituhossa
+- Myyntilupatilanteen selvittäminen (peruutuksen syy ja mahdollinen uusi lupa)
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

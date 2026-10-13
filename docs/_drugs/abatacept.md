@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Abatacept
-parent: Pelkkä mallin ennuste (L5)
+parent: Kohtalainen näyttö (L3-L4)
 nav_order: 13
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Abatacept
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,73 +29,106 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# ABATACEPT: Lääkkeen uudelleenkäyttöä koskevan arvioinnin raportti
+# Abatasepti: Nivelreumasta reumatoidiseen vaskuliittiin
 
 ## Yhden lauseen yhteenveto
 
-Abatacept (DrugBank: DB01281) on kansainvälisesti tunnettu biologinen aine, jota käytetään immuunijärjestelmän modulointiin, mutta sillä ei tällä hetkellä ole **markkinointilupia Taiwanissa** eikä **alkuperäisen indikaation tietoja** tässä näyttöpaketissa. TxGNN-malli **ei ole luonut ennusteita uusille indikaatioille** tälle lääkkeelle, ja toimintamekanismin ja turvallisuustietojen osalta on kriittisiä tietojen puutteita.
+Abatasepti on CTLA4-Ig-fuusioproteiini, jota on alun perin käytetty nivelpsoriaasin, lastenreuman (nuoruusiän idiopaattinen niveltulehdus) ja nivelreuman hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **reumatoidiseen vaskuliittiin**, mutta tukena on vain **1 kliininen tutkimus** (ei tehotutkimus) ja pääosin tapausraportteja, joiden tulokset ovat keskenään ristiriitaisia.
+Tämän vuoksi näyttö on heikko, ja suositus on **Hold**.
 
-## Nopea yleiskatsaus
+---
 
-| Kohteet | Sisältö |
+## Pikayhteenveto
+
+| Kohta | Sisältö |
 |------|------|
-| Lääkkeen nimi (INN) | ABATACEPT |
-| DrugBank-tunnus | DB01281 |
-| Alkuperäinen indikaatio | Tietoja ei saatavilla (ei Taiwanin lupia) |
-| Ennustettu uusi indikaatio | Ei (ei TxGNN-ennusteita) |
-| TxGNN-ennuste-pistemäärä | N/A |
-| Näytön taso | L5 — Vain mallinnusennuste; ennusteita ei luotu |
-| Taiwanin markkinatilanne | ✗ Ei markkinoilla (Ei markkinoilla) |
-| Lupien lukumäärä | 0 |
-| Suositeltu päätös | **Pidä odottavalla** |
+| Alkuperäinen käyttöaihe | Nivelpsoriaasi, lastenreuma, nivelreuma |
+| Ennustettu uusi käyttöaihe | Reumatoidinen vaskuliitti |
+| TxGNN-ennustepisteet | 99,91 % |
+| Näytön taso | L4 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold |
 
-## Miksi tämä ennuste on kohtuullinen?
+---
 
-Tässä näyttöpaketissa ei ole saatavilla yksityiskohtaisia toimintamekanismin tietoja. Abatacept tunnetaan kansainvälisesti selektiivisenä T-solujen ko-stimulaation modulaattorina (CTLA-4-Ig fusioproteiini), joka estää T-solujen aktivaatiota sitoutumalla CD80/CD86-reseptoreihin antigeenia esittävissä soluissa. Se on hyväksytty monissa maissa reumatoidisen nivelreuman, nuorten idiopaattisen nivelreuman ja psoriaattisen nivelreuman hoitoon; kuitenkaan mitään näistä tiedoista ei ole tallennettu nykyisessä Taiwanin sääntelyaineistossa.
+## Miksi ennuste on perusteltu?
 
-Koska TxGNN-malli ei ole luonut ennusteita Abatacept-lääkkeelle uusista indikaatioista, mekanistista yhdystävää analyysia ei voida toteuttaa tässä vaiheessa. Ennusteiden puuttuminen voi johtua Abataceptin riittämättömästä esittämisestä tietokaaviossa, tai se voi viitata siihen, että malli ei tunnistanut korkean luotettavuuden omaavia uudelleenkäyttökandidaatteja pistemäärärajan yläpuolella.
+Tämän raportin tietoaineistossa ei ole saatavilla yksityiskohtaista vaikutusmekanismitietoa. Tunnetun tiedon perusteella abatasepti salpaa CD80/CD86-sitoutumisen kautta CD28-välitteistä T-solujen kostimulaatiota. Sen teho nivelreumassa on osoitettu, ja mekanistisesti se voisi soveltua T-soluvälitteiseen verisuonitulehdukseen.
 
-## Kliinisen tutkimuksen näyttö
+Reumatoidinen vaskuliitti on nivelreuman vaikea ekstra-artikulaarinen komplikaatio, joten sillä on selvä yhteys alkuperäiseen käyttöaiheeseen. Vaikutuksen suunta on kuitenkin epäselvä: kirjallisuudessa on sekä tapausraportteja hyödystä että tapaus, jossa reumatoidinen vaskuliitti puhkesi abataseptihoidon aikana. Mekanistinen peruste on siis uskottava, mutta kliininen näyttö ei ole johdonmukaista.
 
-Tällä hetkellä ei ole ilmoitettavia asiaan liittyviä kliinisiä tutkimuksia, koska TxGNN-malli ei ole ennustanut uusia indikaatioita.
+---
 
-## Kirjallisuuden näyttö
+## Kliininen tutkimusnäyttö
 
-Tällä hetkellä ei ole ilmoitettavaa asiaan liittyvää kirjallisuutta, koska TxGNN-malli ei ole ennustanut uusia indikaatioita.
+| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset havainnot |
+|---------|------|------|------|---------|
+| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Vaihe 2 | Rekrytoi | 80 | Immunosuppressanttien tauottaminen ennen olkapään tekonivelleikkausta reumapotilailla. Ei testaa abataseptia vaskuliittiin eikä anna tehoa koskevaa näyttöä. |
 
-## Taiwanin markkinatiedot
+---
 
-Abatacept ei tällä hetkellä omista **markkinointilupia (許可證)** Taiwanissa. TFDA:n haussa ei löytynyt lupakirjoja (haettu 2026-03-29).
+## Kirjallisuusnäyttö
 
-## Turvallisuuden näkökohdat
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [29930884](https://pubmed.ncbi.nlm.nih.gov/29930884/) | 2018 | Tapausraportti | Cureus | Abatasepti hoitovaihtoehtona reumatoidiseen vaskuliittiin potilaalla, jolla oli myös yleinen vaihteleva immuunipuutos; rituksimabi olisi suositushoito, mutta se voi pahentaa immuunipuutosta. |
+| [22124545](https://pubmed.ncbi.nlm.nih.gov/22124545/) | 2012 | Tapausraportti | Modern Rheumatology | Nopea vaste abataseptille potilaalla, jonka reumatoidinen vaskuliitti ei ollut reagoinut metotreksaattiin, TNF-estäjiin, steroideihin, plasmafereesiin ja IL-6-estäjään. |
+| [27052429](https://pubmed.ncbi.nlm.nih.gov/27052429/) | 2016 | Tapausraportti | Joint Bone Spine | Reumatoidinen vaskuliitti puhkesi abataseptihoidon aikana ja parani rituksimabilla. |
+| [30119075](https://pubmed.ncbi.nlm.nih.gov/30119075/) | 2018 | Tapausraportti | Ophthalmic Plastic and Reconstructive Surgery | Nivelreumapotilaalle kehittyi orbitaalinen vaskuliitti abataseptihoidon aikana. |
+| [36418100](https://pubmed.ncbi.nlm.nih.gov/36418100/) | 2023 | Tapausraportti | Internal Medicine | ANCA-assosioitunut nefriitti abatasepti- ja adalimumabihoidon aikana; tosilitsumabi lievitti sitä. |
+| [24840285](https://pubmed.ncbi.nlm.nih.gov/24840285/) | 2014 | Systemaattinen katsaus ja kohortti | Autoimmunity Reviews | Biologisten lääkkeiden aiheuttamat autoimmuuniset munuaishäiriöt reumapotilailla. |
+| [33595833](https://pubmed.ncbi.nlm.nih.gov/33595833/) | 2021 | Systemaattinen katsaus | BioDrugs | Biologisten lääkkeiden aiheuttamat immuunivälitteiset glomerulushäiriöt reumasairauksissa. |
+| [34068884](https://pubmed.ncbi.nlm.nih.gov/34068884/) | 2021 | Katsaus | Journal of Clinical Medicine | Nivelreumaan liittyvän episkleriitin ja skleriitin hoitonäkymät. |
+| [23557513](https://pubmed.ncbi.nlm.nih.gov/23557513/) | 2013 | Katsaus | BMC Medicine | Autoimmuunisairauksien biologinen hoito. |
 
-> Katso turvallisuustiedot lääkkeen pakkausselosteesta.
->
-> Kaikki turvallisuuskentät (tärkeimmät varoitukset, vasta-aiheet, lääkkeiden väliset yhteisvaikutukset) puuttuvat tästä näyttöpaketista. Yhteisvaikutushaku ei tuottanut tuloksia. Täydelliset turvallisuustiedot tulee hankkia kansainvälisistä lähteistä (esim. FDA-merkinnät, EMA SmPC) tai DrugBank-täysprofiilista ennen kliinisen arvioinnin jatkamista.
+---
 
-## Tietojen puutteiden yhteenveto
+## Suomen markkinatiedot
 
-Seuraavat kriittiset tietojen puutteet tunnistettiin ja ne on ratkaistava ennen tämän kandidaatin edistämistä:
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000701 | Orencia (peruutettu) | – | Nivelpsoriaasi, lastenreuma, nivelreuma |
 
-| Aukon tunnus | Luokka | Kohta | Vakavuus | Korjaus |
-|--------|----------|------|----------|-------------|
-| DG001 | Lääkkeen taso | TFDA:n pakkausselosteen varoitukset/vasta-aiheet | **Estävä** | Lataa ja jäsennä pakkausselosteen PDF TFDA:n verkkosivustolta |
-| DG002 | Lääkkeen taso | Toimintamekanismi (MOA) | Korkea | Kysy yksityiskohtaisia tietoja toimintamekanismista DrugBank-sovellusliittymästä |
+---
 
-## Johtopäätös ja seuraavat vaiheet
+## Turvallisuushuomioita
 
-**Päätös: Pidä odottavalla**
+**Lääkeinteraktiot:** Aineistossa on yhteensä 73 mahdollista yhteisvaikutusta. Merkittävimmät (vakavuusluokka "Major"):
+- Adalimumabi
+- Barisitinibi
+- Sertolitsumabipegoli
+- Elävä BCG-rokote (Bacillus Calmette-Guérin)
+
+Lisäksi kohtalaisia (Moderate) yhteisvaikutuksia on mm. anakinran, alemtutsumabin, atsatiopriinin, kanakinumabin, roflumilastin ja useiden elävien rokotteiden kanssa. Sinkkisuolojen yhteisvaikutukset ovat lieviä (Minor). Kyse on pääosin samanaikaisesta immunosuppressiosta ja infektioriskistä.
+
+Muista turvallisuustiedoista (varoitukset, vasta-aiheet) tietoja ei ole saatavilla; ne tulee tarkistaa valmisteyhteenvedosta.
+
+---
+
+## Johtopäätös ja seuraavat askeleet
+
+**Päätös: Hold**
 
 **Perustelut:**
-Abatacept-lääkkeellä ei ole TxGNN-ennustettuja uusia indikaatioita nykyisessä analyysissä, sillä ei ole markkinointilupia Taiwanissa, ja tiedoissa on useita kriittisiä puutteita. Näyttöä ei ole riittävästi tämän kandidaatin edistämiseksi uudelleenkäyttöputkessa tässä vaiheessa.
+- Ennuste perustuu lähinnä malliin ja yksittäisiin tapausraportteihin, joiden suunta on ristiriitainen (hyöty vs. abataseptihoidon aikana puhjennut vaskuliitti). Kontrolloitua tutkimusta ei ole.
 
-**Jatkamista varten tarvitaan seuraavaa:**
-- Ratkaise **DG001 (Estävä)**: Hanki TFDA:n pakkausselosteen varoitukset ja vasta-aiheet tai vastaavat turvallisuustiedot kansainvälisistä sääntelylähteistä (FDA/EMA)
-- Ratkaise **DG002 (Korkea)**: Hae yksityiskohtaiset toimintamekanismin tiedot DrugBank-sovellusliittymästä tietokaavion rikastamisen mahdollistamiseksi
-- Suorita TxGNN-ennuste uudelleen, kun tietokaavio on päivitetty täydellisillä Abatacept-lääkkeen farmakologisilla tiedoilla
-- Jos kansainväliset indikaatiot (esim. reumatoidinen nivelreuma, JIA, psoriaattinen nivelreuma) vahvistetaan, täytä `original_indications` ja arvioi uudelleen uudelleenkäyttömahdollisuuksien osalta
-- Varmista, onko Abataceptin puuttuminen Taiwanin markkinoilta sääntelypuute vai strateginen päätös, sillä tämä vaikuttaa uudelleenkäyttöpolun toteutettavuuteen Taiwanissa
+**Eteenpäin siirtymiseksi tarvitaan:**
+- Vaikutusmekanismitietojen täydentäminen
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittäminen
+- Järjestelmällinen katsaus tai kohorttitutkimus abataseptin tehosta ja turvallisuudesta reumatoidisessa vaskuliitissa
+- Suomen myyntilupatilanteen selvittäminen, koska ainoa myyntilupa on peruutettu
 
+---
+
+## Huomio muista ennustetuista käyttöaiheista
+
+Muut ennusteet eivät tuo vahvaa uutta repurposing-signaalia:
+- **Nuoruusiän polyartikulaarinen reuma** (L1, Proceed with Guardrails): useita vaiheen 3 tutkimuksia, mutta kyseessä on jo alkuperäinen käyttöaihe, joten se on vahvistus, ei uusi käyttö.
+- **Tulehdukselliset selkärankasairaudet** (L1): näyttö koskee pääosin nivelpsoriaasia (alkuperäinen käyttöaihe). Aksiaalisen sairauden teho on heikko.
+- **Selkärankareuma** (L2): vain pieni avoin pilottitutkimus, ja katsausten mukaan abatasepti ei ole tehokas aksiaalisessa taudissa; TNF- ja IL-17-estäjät ovat paremmin perusteltuja.
+- **Muut** (kokkyksen hypermobiliteetti, Kümmellin tauti, selkärangan sairaus, spondyloartropatian alttius, brakydaktylia-syndaktylia-oireyhtymä, kolobomatoottinen mikroftalmia-oireyhtymä): ei tukea tai vain epäsuoraa; todennäköisesti tietämysgraafin artefakteja.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -2,7 +2,7 @@
 layout: default
 title: Ropeginterferon Alfa-2B
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 333
+nav_order: 387
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,61 +29,104 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Ropeginterferon alfa-2b: määrittämättömästä indikaatiosta Laubry-Pezzi-syndroomaan (heikko luottamussignaali)
+# Ropeginterferoni alfa-2b: Polycythaemia veran hoidosta ennustettuun Laubry-Pezzin oireyhtymään
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Ropeginterferon alfa-2b:n alkuperäinen hyväksytty indikaatio ja vaikutusmekanismi eivät ole saatavilla tässä todistusaineistossa (esto: tietovaje), joten alkuperän ja uuden indikaation välistä yhteyttä ei voida vahvistaa riippumattomasti. TxGNN:n korkeimmin sijoittunut kandidaatti, **Laubry-Pezzi-syndrooma** (synnynnäinen sydämen rakennevika), on saanut tukeensa **0 kliinistä tutkimusta** ja **0 julkaisua**, ja mallin oma perusteluteksti merkitsee sitä mekanistisesti epätodennäköiseksi. Mitään 10:stä korkeimmin ennustetusta indikaatiosta ei tueta merkittävällä todellisen maailman näytöllä — ainoa kirjallisuuden tuella oleva ehdokas näyttää olevan sairauden tunnisteen kartoitusvirhe pikemminkin kuin aito uusi signaali (katso huomautus alla).
+Ropeginterferoni alfa-2b on pegyloitu interferoni, jota käytetään alun perin polycythaemia veran (PV) hoitoon. TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **Laubry-Pezzin oireyhtymän**, mutta ennusteen tueksi ei ole **yhtään kliinistä tutkimusta eikä yhtään kohdennettua julkaisua**. Ennuste perustuu pelkästään mallin laskemaan pisteytykseen, ja se on todennäköisesti tietämysgraafin artefakti.
 
-## Nopea yleiskatsaus
+---
+
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Ei saatavilla — hyväksyttyä indikaatiota koskevia tietoja ei ole annettu tässä todistusaineistossa |
-| Ennustettu uusi indikaatio | Laubry-Pezzi-syndrooma |
-| TxGNN:n ennustepistemäärä | 99.93% |
-| Todistustasolle | L5 |
-| Suomen markkinatilanne | ✗ Ei markkinoilla (Ei markkinoilla) |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Odota |
+|------|------|
+| Alkuperäinen käyttöaihe | Polycythaemia vera |
+| Ennustettu uusi käyttöaihe | Laubry-Pezzin oireyhtymä |
+| TxGNN-ennusteen pistemäärä | 99,93 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennuste on perusteltu?
+---
 
-Yksityiskohtaisia vaikutusmekanismin tietoja ei tällä hetkellä ole saatavilla (`original_moa: [Data Gap]`), eikä alkuperäistä indikaatiota annettu, joten mekanistinen silta Ropeginterferon alfa-2b:n tunnetun farmakologian ja sen alkuperäisen käytön välillä ei voida vahvistaa tästä aineistosta.
+## Miksi ennuste voisi olla perusteltu?
 
-Todistusaineiston omaan perusteluun perustuen tämä ennuste **ei ole** biologisesti hyvin tuettu: Laubry-Pezzi-syndrooma on synnynnäinen sydämen rakennevika (kammiosepta-aukon kanssa aortan läppävian/vuodon kanssa). Mallin mekanistisen yhteyden teksti nimenomaisesti toteaa, että Ropeginterferon alfa-2b vaikuttaa JAK-STAT-signaloinnin ja immuunimodulaation kautta, eikä tunnetusta polusta vaikuta sydämen rakenteen kehitykseen tai läppä-/septa-korjaukseen — mikä tarkoittaa, että lääkkeen ja taudin välillä ei ole uskottavaa biologista rationaalia. Tämä kuvio (korkein mallin pistemäärä, nolla näyttöä, nolla uskottavuutta) toistuu sijoituksissa 2–5 ja 7–10, joiden kaikki ovat synnynnäisiä/rakenteellisia tai kromosomaalisia häiriöitä, joilla on sama "ei biologista rationaalia, ei näyttöä" profiili.
+Tämän raportin laatimiseen koottu aineisto ei sisällä yksityiskohtaista vaikutusmekanismitietoa (MOA). Tiedossa on, että ropeginterferoni alfa-2b on myeloproliferatiivisten neoplasioiden hoitoon käytetty interferonivalmiste, joka vaikuttaa interferonisignaloinnin kautta ja vähentää JAK2V617F-mutaatiota kantavaa kloonia.
 
-**Tärkeä tiedon laadun huomautus:** ainoa ehdokas tässä luettelossa, jolla on todellinen kirjallisuuden tuki — sijoitus 6, "fukoglykosaanin synteesiä koskevan häiriö" — on erittäin todennäköisesti sairauden ontologian kartoitusvirhe. Kaikki 4 liitettyä julkaisua käsittelevät **polycythemia vera (PV)** -tautia, todellista hematologista häiriötä, jolle interferoni-α-agentteja (mukaan lukien ropeginterferon alfa-2b) on perustettu JAK2V617F-estävä, sytoreduktiivinen aktiivisuus — ei "glykaanin synteesi-häiriötä", joka ei ole tunnustettu kliininen kokonaisuus. Tämä viittaa siihen, että TxGNN-tautisolmu oli virheellisesti merkitty, ja todellinen tutkimisen arvoinen signaali on Ropeginterferon alfa-2b PV:ssä, eikä tulostettua merkintää.
+Laubry-Pezzin oireyhtymä (kammiovälikaivon vika ja aorttaläpän vuoto) on rakenteellinen synnynnäinen sydänvika. Sillä ja PV:llä ei ole tunnistettavaa yhteistä patofysiologiaa. Interferonivälitteinen myeloproliferatiivisten kloonien suppressio ei vaikuta rakenteellisiin sydänvikoihin.
 
-## Kliinisen tutkimuksen näyttö
+Siksi mekanistista yhteyttä ei ole tunnistettu. Korkea TxGNN-pistemäärä johtuu todennäköisesti tietämysgraafin läheisyydestä eikä biologisesta perusteesta.
 
-Tällä hetkellä ei ole rekisteröityjä asiaa koskevia kliinisiä tutkimuksia.
+---
 
-## Kirjallisuuden näyttö
+## Kliininen tutkimusnäyttö
 
-Tällä hetkellä ei ole saatavilla kirjallisuutta Laubry-Pezzi-syndroomasta.
+Ennustettuun käyttöaiheeseen liittyviä kliinisiä tutkimuksia ei ole tällä hetkellä rekisteröity.
+
+---
+
+## Kirjallisuusnäyttö
+
+Laubry-Pezzin oireyhtymään liittyvää kirjallisuutta ei ole tällä hetkellä saatavilla.
+
+Huomio: sijalla 6 olevaan ennusteeseen ("fukoglykaanisynteesin häiriö") on liitetty viisi julkaisua (mm. PMID 33476571, Low-PV-satunnaistettu vaiheen 2 tutkimus). Kaikki koskevat ropeginterferoni alfa-2b:n käyttöä PV:ssä eli alkuperäisessä käyttöaiheessa, eivätkä ne tue kyseistä ennustetta. Yhteys on todennäköisesti hakuartefakti.
+
+---
+
+## Muut ennustetut käyttöaiheet
+
+Kymmenestä ylimmästä ennusteesta kaikilla on näytön taso L5 ja suositus Hold. Mekanistista yhteyttä ei tunnistettu yhdellekään.
+
+| Sija | Ennustettu käyttöaihe | TxGNN-pistemäärä |
+|------|------|------|
+| 1 | Laubry-Pezzin oireyhtymä | 99,93 % |
+| 2 | Kammiovälikaivon aneurysma | 99,92 % |
+| 3 | Geneettinen syndroominen Pierre Robinin oireyhtymä | 99,92 % |
+| 4 | Kromosomipoikkeavuuteen liittyvä Pierre Robinin oireyhtymä | 99,92 % |
+| 5 | Kromosomin 7 pitkän haaran osittainen deleetio | 99,92 % |
+| 6 | Fukoglykaanisynteesin häiriö | 99,92 % |
+| 7 | Jeunen oireyhtymä ja situs inversus | 99,92 % |
+| 8 | Kromosomin 22 pitkän haaran osittainen deleetio | 99,92 % |
+| 9 | Orofasiaalinen huulihalkio-oireyhtymä | 99,91 % |
+| 10 | Keuhkoläpän sairaus | 99,91 % |
+
+---
 
 ## Suomen markkinatiedot
 
-Ropeginterferon alfa-2b ei ole tällä hetkellä markkinoilla Suomessa; markkinointivaltuuksia ei löytynyt.
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004128 | Besremi | – | Polycythaemia vera (tila: peruutettu) |
+
+---
+
+## Sytotoksisuus
+
+Ropeginterferoni alfa-2b on interferonipohjainen immunomodulatorinen ja antiproliferatiivinen biologinen lääke, jota käytetään myeloproliferatiivisen neoplasian hoitoon. Perinteinen sytotoksinen solunsalpaaja se ei ole. Tarkempia sytotoksisuustietoja (myelosuppressio, pahoinvointiriski, käsittelysuojaus) ei ole saatavilla. Katso valmisteyhteenvedon varoitukset ja varotoimet.
+
+---
 
 ## Turvallisuusnäkökohdat
 
-Lisätietoja turvallisuudesta löytyy pakkausselosteesta.
+Katso turvallisuustiedot valmisteyhteenvedosta. Lääkeinteraktioita ei löytynyt kyselyssä, eikä tietämysgraafista tunnistettu vasta-aiheita.
 
-## Johtopäätös ja seuraavat vaiheet
+---
 
-**Päätös: Odota**
+## Johtopäätös ja jatkotoimet
 
-**Perustelut:**
-Kaikki 10 parhaiten TxGNN:n ennustamaa tämän lääkkeen indikaatiota ovat todistustasolle L5 (mallin ennuste ainoastaan), ja ylin ehdokas (Laubry-Pezzi-syndrooma) on nimenomaisesti merkitty mallin omalla perustelulla mekanistisesti epätodennäköiseksi ja tuettu ei millään tutkimuksella tai kirjallisuuden näytöllä. Alkuperäistä indikaatiota tai MOA-tietoja ei ole saatavilla riippumattomasti uskottavuuden arvioimiseen, ja lääke ei ole tällä hetkellä markkinoilla Suomessa.
+**Päätös: Hold (odota)**
 
-**Eteenpäinmenon edellytyksenä tarvitaan seuraavat:**
-- TFDA/Fimea pakkausseloste (varoitukset, vasta-aiheet) — tällä hetkellä esto tietokuilulla (DG001)
-- DrugBankin vahvistama vaikutusmekanismi ja alkuperäinen indikaatio (DG002)
-- Sijoituksen 6 tautiontologian merkinnän korjaus ("fukoglykosaanin synteesiä koskevan häiriö") ja kliinisen tutkimuksen/kirjallisuushakujen uusinta nimenomaisesti **polycythemia veraa** vastaan, koska liitetty kirjallisuus vahvasti ehdottaa, että tämä on todellinen signaali, joka nousee esiin
-- Sijoitusten 1–5 ja 7–10 uudelleenarviointi vain, jos riippumaton mekanistinen näyttö ilmaantuu; sellaisena esitettynä nämä eivät ole ansainneet lisäinvestointia
+**Perustelu:**
+- Ennuste perustuu vain mallin pisteytykseen (L5). Kliinisiä tutkimuksia tai kohdennettuja julkaisuja ei ole, eikä mekanistista yhteyttä rakenteelliseen sydänvikaan ole. Lisäksi Suomen ainoa myyntilupa on peruutettu.
 
+**Jatkaminen edellyttäisi:**
+- Uskottavaa biologista perustetta ennustetulle käyttöaiheelle
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankintaa (Fimea)
+- Yksityiskohtaisen vaikutusmekanismitiedon (MOA) täydentämistä DrugBankista
+- Myyntilupatilanteen selvittämistä, sillä valmisteella ei ole voimassa olevaa myyntilupaa Suomessa
+- Harkintaa siitä, kannattaisiko resurssit suunnata muihin ehdokkaisiin, koska kaikki kymmenen ylintä ennustetta ovat L5-tasoa ilman mekanistista perustetta
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

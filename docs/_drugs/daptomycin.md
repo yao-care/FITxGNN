@@ -2,7 +2,7 @@
 layout: default
 title: Daptomycin
 parent: Kohtalainen näyttö (L3-L4)
-nav_order: 109
+nav_order: 126
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,91 +29,119 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Daptomysiini: gram-positiivisista bakteeri-infektioista nivelrikkoihin
+# Daptomysiini: Gram-positiivisten bakteeri-infektioiden hoidosta nivelrikkoon
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-> Daptomysiini on syklinen lipopeptidiä antibioottiä, jota käytetään alun perin vakavien gram-positiivisten bakteeri-infektioiden hoitoon (monimutkainen ihon/ihonalaisen kudoksen infektiot, *S. aureus* -bakteeremia, oikean puoleinen endokardiitti).
-> TxGNN-malli ennustaa, että se saattaa olla tehokas **nivelrikkoihin**, ja tällä signaalilla on tällä hetkellä liitetty **0 kliinistä tutkimusta** ja **10 julkaisua** — kuitenkin tarkempi tarkastelu osoittaa, että kirjallisuus käsittelee itse asiassa *tekonivelten/nivelten infektioiden* hoitoa potilaissa, joilla sattuu olemaan nivel­rikat­ta, ei itse nivelrikoilla potilaan hoitoa. Tämä näyttää olevan avainsana-häiriöartefakti eikä aito uudelleenkäytön signaali.
+Daptomysiini on syklinen lipopeptidiantibiootti, jota on alun perin käytetty Gram-positiivisten bakteerien aiheuttamien infektioiden, bakteremian, pehmytkudosinfektioiden ja bakteeriendokardiitin hoitoon.
+TxGNN-malli ennustaa sen voivan olla tehokas **nivelrikon** hoidossa, mutta ennusteelle ei ole kliinistä näyttöä: **kliinisiä tutkimuksia ei ole lainkaan**, ja löydetty kirjallisuus (**10 julkaisua**) koskee pääosin luu- ja niveltulehduksia, ei nivelrikkoa. Ennuste on siten pääosin mallin tuottama.
 
 ---
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
-| Kohde | Sisältö |
+| Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Gram-positiiviset bakteeri-infektiot (monimutkainen ihon/ihonalaisen kudoksen infektio, *S. aureus* -bakteeremia, oikean puoleinen endokardiitti) — Suomen markkina-spesifinen pakkausseloste ei ole saatavilla (lääketta ei jaeta siellä) |
-| Ennustettu uusi indikaatio | Nivelrikko |
-| TxGNN-ennusteen pistemäärä | 99,86% |
+| Alkuperäinen käyttöaihe | Gram-positiiviset bakteeri-infektiot, bakteremia, pehmytkudosinfektiot, bakteeriperäinen endokardiitti |
+| Ennustettu uusi käyttöaihe | Nivelrikko (osteoartriitti) |
+| TxGNN-ennusteen pistemäärä | 99,86 % |
 | Näytön taso | L4 |
-| Markkina-asema Suomessa | ✗ Ei ole markkinoilla |
-| Myyntilupien määrä | 0 |
-| Suositeltu päätös | Pidätä |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 2 (kaikki peruutettuja) |
+| Suositeltu päätös | Hold (odotetaan) |
 
 ---
 
-## Miksi tämä ennuste on järkevä?
+## Miksi ennuste on perusteltu?
 
-Tällä hetkellä yksityiskohtaista vaikutusmekanismin tietoa ei ole saatavilla tässä näyttöpaketissa (`original_moa: [Data Gap]`). Yleisesti tunnetun farmakologian perusteella (ja johdonmukaisesti kirjallisuudesta löydetyistä lausunnoista tässä paketissa, esim. PMID 39571268), daptomysiini on kalsiums­iippuvainen syklinen lipopeptidi, joka häiritsee gram-positiivisten bakteerien solukalvoa, aiheuttaen nopeaa depolarisaatiota ja solun kuolemaa. Sillä ei tiedetä olevan spesifistä mekaanista yhteyttä degeneratiiviseen niveisairauteen.
+Tämän raportin laadinnassa käytetyissä tiedoissa daptomysiinin yksityiskohtainen vaikutusmekanismi ei ole saatavilla. Tunnetun tiedon perusteella daptomysiini on syklinen lipopeptidiantibiootti, jonka teho Gram-positiivisia bakteereja vastaan on osoitettu, mutta sen mekanistista soveltuvuutta nivelrikkoon ei ole osoitettu.
 
-Korkea TxGNN-pistemäärä nivelrikoille **ei näy heijastavan** aidon farmakologisen suhteen olemassaoloa. Kaikissa kymmenen haetusta julkaisusta kuvataan daptomysiinin käyttöä **tekonivelinfektioiden (PJI)** tai muiden **nivelten infektioiden** hoitoon — vakavat komplikaatiot, jotka voivat esiintyä *leikkayksen jälkeen*, ja joiden johdosta potilaat usein käyvät leikkauksessa, *koska heillä on* nivelrikko. Toisin sanoen, kirjallisuuden rinnakkaisesiintyminen johtuu jaetusta sanastosta ("nivel", "nivelten", potilaat, joilla on OA-historia) eikä mistään todisteesta, että daptomysiini hoitaa nivelrikkoa itseään. Mikään tutkimuksista ei testaa daptomysiinia taudin muokkaavaksi tai oireenhilintähoitona nivelrikolle.
+Nivelrikon osalta ei ole havaittavissa suoraa yhteyttä daptomysiinin ja rappeumaperäisen nivelrikon välillä. Löydetty kirjallisuus käsittelee daptomysiinin käyttöä luu- ja niveli-infektioissa (mukaan lukien tekonivelinfektiot), mikä on antibakteerista käyttöä alkuperäisen käyttöaiheen piirissä, ei nivelrikon hoitoa. Korkea TxGNN-pistemäärä heijastaa todennäköisesti osteoartikulaaristen infektioiden ja nivelrikon semanttista läheisyyttä. Tulehdusta lievittävää tai rustoa suojaavaa mekanismia ei ole osoitettu.
 
-Kontekstiksi mallin toiseksi sijoittuva ennuste — **reumatoidi artriitti** (pistemäärä 99,84%, ranking 2176) — on tuettu mekaanisesti suoremmin, vaikkakin vielä varhaisen vaiheen näytöllä: kaksi vuoden 2025 prekliinistä tutkimusta (PMID 39571268, PMID 40923559) raportoivat, että daptomysiini ja sen lipopeptidijohdannaiset estävät tulehduksellisia sytokiineja ja NF-κB-signaloitia kollageenia indusoivassa artriitin hiire-mallissa, mikä viittaa mahdolliseen itsenäiseen anti-inflammatooriseen aktiivisuuteen, joka eroaa sen antibakteerisista vaikutuksista. Tämä ei ole vielä ihmisillä saatu näyttö, mutta se on biologisesti vihjattavampi johtolanka kuin nivelrikko-signaali ja saattaa vaatia erillisen seurannan.
+Mielenkiintoisempi tutkimussuunta on **nivelreuma** (TxGNN-pisteet 99,84 %). Prekliininen tutkimus (PMID 39571268, 2025) viittaa siihen, että daptomysiini lievittää kollageenin aiheuttamaa niveltulehdusta hiirimallissa vaimentamalla tulehdussytokiineja ja NF-κB-signalointia. Tuore johdannaisia koskeva tutkimus (2025) tukee samaa suuntaa. Näyttö on kuitenkin vain eläin- ja solumalleista, ja tuloksia ei ole replikoitu eikä ihmistutkimuksia ole.
 
 ---
 
-## Kliinisen tutkimuksen näyttö
+## Kliininen tutkimusnäyttö
 
 Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
 ---
 
-## Kirjallisuusnaytto
+## Kirjallisuusnäyttö
 
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
+Alla on nivelrikkoon liittyvät keskeisimmät julkaisut. Yksikään ei tutki daptomysiinin tehoa nivelrikkoon itseensä.
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [23519823](https://pubmed.ncbi.nlm.nih.gov/23519823/) | 2013 | Kohortti | International Orthopaedics | Korkea-annoksinen daptomysiini + rifampiini gram-positiivisille nivelten infektioille — arvioi yhdistelmän turvallisuutta/tehokkuutta, ei nivelrikko-hoitoa |
-| [22511636](https://pubmed.ncbi.nlm.nih.gov/22511636/) | 2012 | Kohortti | J Antimicrob Chemother | Daptomysiini polvi-/lonkka-periprosteteetin nivelinfektioihin (PJI) |
-| [26235888](https://pubmed.ncbi.nlm.nih.gov/26235888/) | 2015 | Kohortti | Int J Antimicrob Agents | Korkea-annoksinen daptomysiini (>6 mg/kg) monimutkaisiin luu-/nivel- ja implanttiin liittyviin gram-positiivisiin infektioihin |
-| [17999973](https://pubmed.ncbi.nlm.nih.gov/17999973/) | 2008 | Kohortti | J Antimicrob Chemother | Daptomysiini vs. tavanomainen hoito nivelten infektioihin liittyneillä *S. aureus* -bakteeremiapotilailla |
-| [21477701](https://pubmed.ncbi.nlm.nih.gov/21477701/) | 2010 | Rekisteri/Kohortti | Medicina Clínica | EU-CORE-rekisteri: daptomysiinin käytön kokemus eri Espanjan sairaaloissa gram-positiivisten infektioiden hoidossa |
-| [23312602](https://pubmed.ncbi.nlm.nih.gov/23312602/) | 2013 | Kohortti/Tutkimus | Int J Antimicrob Agents | Tutkimus nykyisistä PJI-hoidon käytännöistä infektiosairauksien lääkäreiden keskuudessa |
-| [22854340](https://pubmed.ncbi.nlm.nih.gov/22854340/) | 2012 | In-vitro herkkyystesti | Journal of Antibiotics | *S. aureus*/*S. epidermidis* -herkkyystestaus PJI-isolaateissa |
-| [25650692](https://pubmed.ncbi.nlm.nih.gov/25650692/) | 2015 | Mikrobiologinen tutkimus | Surgical Infections | Staphylokokkien herkkyysprofiilien 10 vuoden kehitys nivelten infektioissa |
-| [32206362](https://pubmed.ncbi.nlm.nih.gov/32206362/) | 2020 | Tapausraportti | Case Reports in Orthopedics | *Corynebacterium striatum* -niveltulehdus potilaalla, jolle alun perin oli lähete kokonaispolviniveleen tekonivelleikkaukseen nivelrikkoihin |
-| [41853106](https://pubmed.ncbi.nlm.nih.gov/41853106/) | 2026 | Tapausraportti | ASM Case Reports | *Corynebacterium propinquum* -niveltulehdus, ensimmäinen sinoviaalifluidun eriste syntyväisestä nivelistä |
-
-**Huomautus:** Mikään näistä julkaisuista ei tutki daptomysiinia nivelrikkojen hoitona — kaikki koskevat bakteeri-infektioiden hoitoa nivelistä tai nivelten ympäriltä (usein nivelrikkoisia potilaita tekonivelleikkauksen jälkeen).
+| [17999973](https://pubmed.ncbi.nlm.nih.gov/17999973/) | 2008 | Kohorttitutkimus | J Antimicrob Chemother | Daptomysiinin ja tavanomaisen hoidon tulokset S. aureus -bakteremiaan liittyvissä luu- ja niveli-infektioissa |
+| [23519823](https://pubmed.ncbi.nlm.nih.gov/23519823/) | 2013 | Kohorttitutkimus | Int Orthop | Suuriannoksisen daptomysiinin ja rifampisiinin yhdistelmän turvallisuus ja teho Gram-positiivisissa luu- ja niveli-infektioissa |
+| [22511636](https://pubmed.ncbi.nlm.nih.gov/22511636/) | 2012 | Kohorttitutkimus | J Antimicrob Chemother | Daptomysiinin kliininen kokemus polvi- ja lonkkatekonivelinfektioissa |
+| [26235888](https://pubmed.ncbi.nlm.nih.gov/26235888/) | 2015 | Kohorttitutkimus | Int J Antimicrob Agents | Suuriannoksisen daptomysiinin (>6 mg/kg) teho ja turvallisuus monimutkaisissa luu- ja niveli-infektioissa |
+| [21477701](https://pubmed.ncbi.nlm.nih.gov/21477701/) | 2010 | Rekisteri | Med Clin (Barc) | EU-CORE-rekisterin tulokset daptomysiinin käytöstä Espanjassa |
+| [23312602](https://pubmed.ncbi.nlm.nih.gov/23312602/) | 2013 | Kysely | Int J Antimicrob Agents | Tekonivelinfektioiden nykyhoitokäytännöt infektiolääkäreiden keskuudessa |
+| [22854340](https://pubmed.ncbi.nlm.nih.gov/22854340/) | 2012 | In vitro | J Antibiot | Tekonivelinfektioiden S. aureus- ja S. epidermidis -kantojen herkkyys antibiooteille |
+| [25650692](https://pubmed.ncbi.nlm.nih.gov/25650692/) | 2015 | Kohorttitutkimus | Surg Infect | Luu- ja niveli-infektioista eristettyjen stafylokokkien mikrobiologinen profiili |
+| [32206362](https://pubmed.ncbi.nlm.nih.gov/32206362/) | 2020 | Tapausselostus | Case Rep Orthop | Krooninen Corynebacterium striatum -septinen niveltulehdus nivelrikkodiagnoosin saaneella potilaalla |
+| [41853106](https://pubmed.ncbi.nlm.nih.gov/41853106/) | 2026 | Tapausselostus | ASM Case Rep | Corynebacterium propinquum -septinen niveltulehdus natiivinivelessä |
 
 ---
 
-## Markkina-asema Suomessa
+## Muut ennustetut käyttöaiheet
 
-Daptomysiinia ei jaeta Suomessa — tästä tuotteesta ei ole tällä hetkellä rekisteröityjä myyntilupajäteistä tässä aineistossa.
-
----
-
-## Turvallisuutta koskevat näkökohdat
-
-Turvallisuu­desta tulee viitata pakkausselosteeseen.
-
-**Kirjallisuudesta saatu turvallisuus­signaali (ei strukturoidusta turvallisuus­aineistosta, mutta esiin tuotu näytön tarkistamisen aikana):** yksi tapaus­raportti (PMID [36693494](https://pubmed.ncbi.nlm.nih.gov/36693494/), 2023) kuvaa daptomysiinin aiheuttamaa rabdomyolyysiä, jota komplisoi akuutti podagra (kihsi), mikä on johdonmukaista daptomysiinin tunnetun yhteyden kanssa kreatiinikinaasinarvojen nousuun/myopatia. Tämä on tunnustettu luokka-efekti, joka kannattaa mainita missä tahansa tulevassa kliinisessä käytössä, riippumatta uudelleenkäytön kysymyksestä.
+| Sija | Sairaus | TxGNN-pisteet | Näytön taso | Huomio |
+|------|------|------|------|------|
+| 2 | Nivelreuma | 99,84 % | L4 | Prekliininen näyttö (hiiren kollageeniartriittimalli, NF-κB); ei ihmistutkimuksia; tutkimuskysymys |
+| 3 | Nivelrikkoalttius | 99,79 % | L5 | Geneettinen alttiusentiteetti, ei hoidettava tila; kirjallisuus ei liity aiheeseen |
+| 4 | Kihti | 99,79 % | L5 | Ainoa löydös on haittatapahtuma: daptomysiinin aiheuttama rabdomyolyysi ja siihen liittynyt akuutti kihtinivelrikko; viittaa mahdolliseen haittaan |
+| 5–10 | Pseudoakondroplasia, Hunter-Thompsonin tyypin akromesomeelinen dysplasia, brakyolmia, brakydaktyylia-syndaktyliaoireyhtymä, kolobomatoottinen mikroftalmia-rizomeelinen dysplasia -oireyhtymä, brakyolmia-amelogenesis imperfecta -oireyhtymä | 99,62–99,75 % | L5 | Harvinaisia geneettisiä oireyhtymiä; ei tutkimuksia, kirjallisuutta eikä mekanistista perustetta |
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Myyntiluvat Suomessa
 
-**Päätös: Pidätä**
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe | Tila |
+|---------|------|------|-----------|------|
+| EMEA/H/C/000637 | Cubicin | – | Gram-positiiviset bakteeri-infektiot, bakteremia, pehmytkudosinfektiot, bakteeriperäinen endokardiitti | Peruutettu |
+| EMEA/H/C/004310 | Daptomycin Hospira | – | Pehmytkudosinfektiot, bakteeriperäiset ihosairaudet | Peruutettu |
 
-**Perustelu:**
-Nivelrikko-signaali ei ole tuettu aidon mekaanisen tai kliinisen näytön — kaikissa kymmenen haetusta julkaisusta käsitellään bakteeri-nivelten/tekonivelinfektioiden hoitoa, ei itse nivelrikkoa, ja ne näyttävät olevan avainsana-rinnakkaisesiintymisen artefakti eikä oikea uudelleenkäytön mahdollisuus (näytön taso L4, päätöksen vaihe S0, lähdelaskennan mukaan).
+---
 
-**Jatkaaksemme seuraava on tarpeen:**
-- Vahvista, pitäisikö TxGNN:n nivelrikko-ennuste priorisoida alas/jättää pois, kun näyttöpohja on sekava
-- Jos jaksotetaan yhtään niveleen liittyvää signaalia, ohjaa huomio **reumatoidi artriittiin** (ranking 2), jossa vuoden 2025 prekliininen aineisto (PMID 39571268, PMID 40923559) näyttää uskottavan itsenäisen anti-inflammaatoorisen mekanismin — vaikka tämä vaatii edelleen ihmisillä saadun validoinnin ennen kuin voidaan edetä S1:n yli
-- Daptomysiinin vaikutusmekanismin (MOA) tiedot ja TFDA/EMA-merkin varoitukset ja vasta-aiheet (tällä hetkellä merkitty Blocking/High severity -tietovajeiksi) on hankittava, ennen kuin mikään turvallisuus-esivalmistelu (S1) voi edetä
-- Koska lääkettä ei jaeta Suomessa, markkina-saatavuus ja sääntelytie-toteutettavuus olisi myös arvioitava erillisesti
+## Turvallisuusnäkökohdat
 
+**Tietämyskuvaajan vasta-aiheet** (TxGNN/PrimeKG-tietämyskuvaajan lääke–sairaus-yhteydet, ei valmisteyhteenvedon teksti):
+- Lihassairaudet: myopatia, lihassairaus, luurankolihasten sairaus, familiaalinen periodinen halvaus
+- Ruoansulatuskanava: ripulisairaus, Clostridium difficile -koliitti, vastasyntyneen nekrotisoiva enterokoliitti
+- Keuhkot: eosinofiilinen keuhkokuume, keuhkojen eosinofilia
+- Hermosto: perifeerinen neuropatia, ääreishermoston sairaus
+
+**Lääkeyhteisvaikutukset** (12 kirjattua):
+- Kohtalaiset (10): pikosulfaatti, rosuvastatiini, simvastatiini, jobenguaani (I-131), ibuprofeeni, diklofenaakki, etinyyliestradioli, selekoksibi, siklosporiini, mykofenolihappo
+- Lievät (2): dikumaroli, varfariini
+
+**Huomioita ennustettuun käyttöön:**
+- Daptomysiinin tunnettu lihasvaikutusriski (myopatia, rabdomyolyysi) on merkittävä huoli pitkäaikaisessa käytössä kroonisissa nivelsairauksissa.
+- Statiinien ja tulehduskipulääkkeiden (ibuprofeeni, diklofenaakki, selekoksibi) yhteisvaikutukset ovat erityisen olennaisia, koska nivelsairauksia sairastavat käyttävät usein tulehduskipulääkkeitä.
+- Rabdomyolyysi voi nostaa virtsahappopitoisuutta ja laukaista kihtikohtauksen.
+
+Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat tästä aineistosta, joten ne on tarkistettava valmisteyhteenvedosta.
+
+---
+
+## Johtopäätös ja jatkotoimet
+
+**Päätös: Hold (odotetaan)**
+
+**Perustelut:**
+- Nivelrikon osalta ennusteella ei ole kliinistä eikä mekanistista tukea: löydetty kirjallisuus koskee nivelinfektioita, ei nivelrikkoa. Näytön taso on L4 ja päätös Hold. Nivelreuma on lupaavampi mutta pelkästään prekliininen tutkimuskysymys. Lisäksi daptomysiinillä ei ole tällä hetkellä voimassa olevaa myyntilupaa Suomessa.
+
+**Etenemiseksi tarvitaan:**
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet (kriittinen puute, estää turvallisuusarvioinnin)
+- Yksityiskohtaiset vaikutusmekanismitiedot
+- Nivelreuman prekliinisten löydösten (NF-κB, kollageeniartriittimalli) itsenäinen toistaminen
+- Farmakokineettinen ja turvallisuusarvio kroonista käyttöä varten, erityisesti lihastoksisuuden (myopatia, rabdomyolyysi) osalta
+- Laskimoon annettavan lääkkeen soveltuvuus krooniseen nivelsairauteen sekä antoreitin yhteensopivuuden arviointi
+- Markkinatilanteen selvitys, koska kaikki Suomen myyntiluvat on peruutettu
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

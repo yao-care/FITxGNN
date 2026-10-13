@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Pemetrexed
-parent: Kohtalainen näyttö (L3-L4)
-nav_order: 292
-evidence_level: L3
+parent: Vahva näyttö (L1-L2)
+nav_order: 338
+evidence_level: L2
 indication_count: 10
 ---
 
 # Pemetrexed
 {: .fs-9 }
 
-Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,109 +29,128 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Pemetreksi: Pleuraalisesta pahanlaatuisesta mesotelioomasta pahanlaatuiseen peritoneaaliseen mesotelioomaan
+# Pemetreksedi: Mesoteliooman alkuperäisestä käytöstä vatsakalvon pahanlaatuiseen mesotelioomaan
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Pemetreksi (DrugBank DB00642) on monikohteinen folaatin antagonisti, jonka perusrekisteröity käyttöaihe on pahanlaatuinen pleuraali mesotelioma yhdistelmässä sisplatiinin kanssa. TxGNN-malli ennustaa lisäksi tehoa **pahanlaatuisessa peritoneaalisessa mesotelioomassa**, sukulaisessa mutta anatomiallisesti erillisessä seroosissa pahanlaatuisessa kasvaimessa, jonka tukena on **11 kliinistä tutkimusta** ja **20 julkaisua** – vaikka yhtään valmistunutta satunnaistettuatutkimusta tähän indikaatioon ei vielä ole.
+Pemetreksedi on monikohteinen antifolaatti, jota on alun perin käytetty mesoteliooman ja ei-pienisoluisen keuhkosyövän hoitoon.
+TxGNN-malli ennustaa sen voivan tehota myös **vatsakalvon pahanlaatuiseen mesotelioomaan**,
+ja tätä suuntaa tukee tällä hetkellä **7 kliinistä tutkimusta** ja **20 julkaisua**.
 
 ---
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Pahanlaatuinen pleuraali mesotelioma (yhdistelmässä sisplatiinin kanssa) – lääkkeen perusrekisteröity indikaatio olemassa olevaan näyttöpohjaan perustuen |
-| Ennustettu uusi indikaatio | Pahanlaatuinen peritoneaali mesotelioma |
-| TxGNN-ennustepisteet | 99.99% |
-| Näyttötaso | L3 |
-| Suomen markkinatilanne | ✗ Ei markkinoilla |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Jatka varauksellisesti |
+| Alkuperäinen käyttöaihe | Mesotelioomaa; ei-pienisoluinen keuhkosyöpä |
+| Ennustettu uusi käyttöaihe | Vatsakalvon pahanlaatuinen mesotelioma (malignant peritoneal mesothelioma) |
+| TxGNN-ennusteen pistemäärä | 99,99 % |
+| Näytön taso | L2 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 4 (kaikki peruutettu) |
+| Suositeltu päätös | Etene suojatoimin (Proceed with Guardrails) |
 
 ---
 
-## Miksi tämä ennuste on perusteltu?
+## Miksi ennuste on perusteltu?
 
-Virallinen DrugBank-mekanismin teksti on tällä hetkellä tietokatkoksia (merkitty DG002, korkea vakavuus, näyttöpakkauksessa). Kuitenkin jokaisen ennustetun indikaation kanssa liitetty repurposing-perustelutausta kuvaavat pemetreksiä johdonmukaisesti **monikohteiseksi folaatin antagonistiksi**, joka estää timidylaatti-syntaasia (TS), dihidrofolaatti-reduktaasia (DHFR) ja glysiiniamidi-ribonukleotidi-formyylitransferaasia (GARFT) – keskeisiä entsyymejä de novo puriini- ja pyrimidiini-biosynteesissa. Näiden polkujen esto riistää nopeasti jakautuvista syöpäsoluista nukleotidit, joita ne tarvitsevat DNA:n replikaatioon.
+Tämän raportin tietoihin ei sisälly yksityiskohtaista vaikutusmekanismitietoa lääkeaineen perustiedoista. Tunnetun tiedon perusteella pemetreksedi estää useita folaattiriippuvaisia entsyymejä (tymidylaattisyntaasi, DHFR ja GARFT), jolloin nopeasti jakautuvien kasvainsolujen puriini- ja pyrimidiinisynteesi häiriintyy.
 
-Pahanlaatuinen pleuraali mesotelioma ja pahanlaatuinen peritoneaali mesotelioma molemmat nousevat **mesoteliaalisista soluista**, jakavat histologian, immunohistokemiallisia markkereita ja molekyylibiologiaa huolimatta siitä, että ne lähtöisin eri seroosista onteloista (pleura vs. peritoneum). Koska pemetreksin folaatin antagonismi kohdituu solutason replikaatioreitille pikemminkin kuin kudostyyppikohtaiseen kohteeseen, biologinen perusteellisuus sen vahvistaman pleuraali-mesoteliooma-aktiivisuuden laajentamiselle peritoneaalisen vastineeseen on mekanistisesti vakaa.
+Vatsakalvon ja keuhkopussin mesotelioma ovat histologialtaan ja solunsalpaajaherkkyydeltään samankaltaisia. Siksi pleuraalisen taudin hoidon ulottaminen vatsakalvoon on biologisesti uskottavaa. Pemetreksedin ja platinan yhdistelmää käytetään käytännössä vatsakalvon mesoteliooman systeemisenä vakiohoitona.
 
-Tämä näkyy käytännön hoitokäytännössä: sisplatini plus pemetreksi on jo yleisesti käytössä off-label-käyttöä ensimmäisen linjan systeemisenä hoitona peritoneaali mesotelioomassa, ekstrapoloituna pleuraali-mesoteliooman hoitojen standardista, ja useat prospektiiviset tutkimukset (mukaan lukien käynnissä oleva satunnaistettu Phase 2, ICARuS II) testaavat nyt muodollisesti tätä hoitoregiimiä peritoneaalin kontekstissa.
+Näyttö vatsakalvon kohdalta perustuu kuitenkin vaiheen 2 tutkimuksiin, retrospektiivisiin aineistoihin ja sekaryhmiin (keuhkopussi ja vatsakalvo), ei vatsakalvokohtaisiin vaiheen 3 tutkimuksiin.
 
 ---
 
-## Kliinisen tutkimuksen näyttö
+## Kliininen tutkimusnäyttö
 
-| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset tulokset |
+| Tutkimusnumero | Vaihe | Tila | Osallistujia | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT06057935](https://clinicaltrials.gov/study/NCT06057935) | Phase 2 | Rekrytointivaiheessa | 64 | ICARuS II – satunnaistettu tutkimus vertaa intraperitonaalista vs. intravenöösää kemoterapiaa sytoreduktiivisen leikkauksen ja HIPEC:n jälkeen pahanlaatuisen peritoneaali mesotelioman hoitoon |
-| [NCT05001880](https://clinicaltrials.gov/study/NCT05001880) | Phase 2 | Rekrytointivaiheessa | 66 | Satunnaistettu tutkimus karboplaatiini/pemetreksi/bevatsumabi ± atseolizumabi neoadjuvantissa/palliatiivisessa hoidossa peritoneaali mesoteliomassa |
-| [NCT00402766](https://clinicaltrials.gov/study/NCT00402766) | Phase 1 | Valmistunut | 19 | Sisplatini + pemetreksi + imatinitsi-mesylaatti resektoimattomassa/metastaattisessa pahanlaatuisessa mesotelioomassa, mukaan lukien peritoneaalin sairaus |
-| [NCT03875144](https://clinicaltrials.gov/study/NCT03875144) | Phase 2 | Keskeytetty | 66 | MESOTIP – PIPAC plus systeeminen kemoterapia (vuorotellen sisplatini/pemetreksi) vs. pelkkä systeeminen kemoterapia ensimmäisen linjan hoitona |
-| [NCT06543069](https://clinicaltrials.gov/study/NCT06543069) | Phase 2 | Rekrytointivaiheessa | 28 | Yksisarjainen tutkimus sintilimiabista + bevatsumabista + pemetreksi/sisplatiinista resektoimattomassa pahanlaatuisessa peritoneaali mesotelioomassa |
-| [NCT04462809](https://clinicaltrials.gov/study/NCT04462809) | Phase 2 | Tuntematon | 40 | Kolmisarjainen tutkimus talazopariibista ylläpitohoitona ensimmäisen linjan platina-pohjaisen kemoterapian jälkeen pleuraali tai peritoneaali mesotelioomassa |
-| [NCT02535312](https://clinicaltrials.gov/study/NCT02535312) | Phase 1/2 | Aktiivinen, ei rekrytoitava | 30 | TRC102 yhdessä sisplatini/pemetreksin kanssa edistyneissä kiinteissä kasvaaimissa ja pemetreksi/sisplatini-resistentissa mesotelioomassa |
-| [NCT02029690](https://clinicaltrials.gov/study/NCT02029690) | Phase 1 | Lopetettu | 85 | ADI-PEG 20 (arginiinia-ehtyvä entsyymi) pemetreksin/sisplatiinin kanssa arginiinia-riippuvaisissa kasvaaimissa, mukaan lukien peritoneaali mesotelioma |
-| [NCT01353482](https://clinicaltrials.gov/study/NCT01353482) | Phase 1/2 | Peruutettu | 0 | Vorinostati pemetreksi-sisplatiinin kanssa ensimmäisen linjan hoitona pahanlaatuisessa mesotelioomassa |
-| [NCT00061477](https://clinicaltrials.gov/study/NCT00061477) | Phase 2 | Valmistunut | 48 | ALIMTA (pemetreksi) plus gemitsitiini etulinjassa kemoterapiana pahanlaatuisessa pleuraali tai peritoneaali mesotelioomassa |
+| [NCT00061477](https://clinicaltrials.gov/study/NCT00061477) | Vaihe 2 | Päättynyt | 48 | Pemetreksedi + gemsitabiini ensilinjan hoitona pleuraalisessa tai peritoneaalisessa mesotelioomassa |
+| [NCT05001880](https://clinicaltrials.gov/study/NCT05001880) | Vaihe 2 | Rekrytoi | 66 | Satunnaistettu: karboplatiini, pemetreksedi ja bevasitsumabi ± atetsolitsumabi vatsakalvon mesotelioomassa; tuloksia ei vielä saatavilla |
+| [NCT03875144](https://clinicaltrials.gov/study/NCT03875144) | Vaihe 2 | Keskeytetty | 66 | PIPAC + systeeminen solunsalpaajahoito (sisplatiini + pemetreksedi) vs. pelkkä systeeminen hoito |
+| [NCT06543069](https://clinicaltrials.gov/study/NCT06543069) | Vaihe 2 | Rekrytoi | 28 | Yhden haaran tutkimus: sintilimabi + bevasitsumabi + pemetreksedi + sisplatiini |
+| [NCT06057935](https://clinicaltrials.gov/study/NCT06057935) | Vaihe 2 | Rekrytoi | 64 | Satunnaistettu: vatsakalvonsisäinen vs. laskimonsisäinen solunsalpaajahoito leikkauksen ja HIPEC:n jälkeen; pemetreksedin rooli epäselvä |
+| [NCT02535312](https://clinicaltrials.gov/study/NCT02535312) | Vaihe 1/2 | Aktiivinen, ei rekrytoi | 30 | TRC102 + sisplatiini + pemetreksedi edenneissä kasvaimissa; ei sairauskohtainen |
+| [NCT00402766](https://clinicaltrials.gov/study/NCT00402766) | Vaihe 1 | Päättynyt | 19 | Sisplatiini + pemetreksedi + imatinibi mesotelioomassa; lähinnä turvallisuustutkimus |
 
 ---
 
-## Kirjallisuuden näyttö
+## Kirjallisuusnäyttö
 
-| PMID | Vuosi | Tyyppi | Julkaisu | Keskeiset tulokset |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [35407498](https://pubmed.ncbi.nlm.nih.gov/35407498/) | 2022 | Katsausartikkeli | Journal of Clinical Medicine | Kattava katsaus pahanlaatuisen peritoneaali mesotelioman hoitomenetelmiin, mukaan lukien systeeminen pemetreksi-pohjainen kemoterapia |
-| [26941986](https://pubmed.ncbi.nlm.nih.gov/26941986/) | 2016 | Katsausartikkeli | Journal of Gastrointestinal Oncology | Pahanlaatuisen peritoneaali mesotelioman diagnoosin ja hoidon yleiskatsaus |
-| [31417959](https://pubmed.ncbi.nlm.nih.gov/31417959/) | 2019 | Kohorttitutkimus | Pleura and Peritoneum | Kaksisuuntainen kemoterapia mahdollistaa leikkauksen ja HIPEC:n aluksi resektoimattomassa peritoneaali mesotelioomassa |
-| [41133016](https://pubmed.ncbi.nlm.nih.gov/41133016/) | 2025 | Takautuva tutkimus | Clinical Medicine Insights. Oncology | Vertailee ensimmäisen linjan pemetreksi-platinaa vs. gemitsitiini-platinaa pahanlaatuisessa peritoneaali mesotelioomassa |
-| [31287877](https://pubmed.ncbi.nlm.nih.gov/31287877/) | 2019 | Takautuva tutkimus | Japanese Journal of Clinical Oncology | Pemetreksin plus sisplatiinin teho ja turvallisuus ensimmäisen linjan kemoterapiana edistyneessä peritoneaali mesotelioomassa |
-| [28594258](https://pubmed.ncbi.nlm.nih.gov/28594258/) | 2017 | Takautuva tutkimus | Expert Review of Anticancer Therapy | Ensimmäisen linjan pemetreksi plus sisplatini kemoterapian tulokset peritoneaali mesotelioomassa |
-| [33743636](https://pubmed.ncbi.nlm.nih.gov/33743636/) | 2021 | Takautuva tutkimus | BMC Cancer | Toisen linjan hoidon teho ja prognostiset tekijät ensimmäisen linjan pemetreksi/sisplatiinin jälkeen edistyneessä peritoneaali mesotelioomassa |
-| [38806763](https://pubmed.ncbi.nlm.nih.gov/38806763/) | 2024 | Usean keskuksen takautuva tutkimus | Annals of Surgical Oncology | Hoitostrategiat ja tulokset usean keskuksen peritoneaali mesotelioma-väestössä |
-| [23291819](https://pubmed.ncbi.nlm.nih.gov/23291819/) | 2013 | Tapausraportti | BMJ Case Reports | Vastaus uusintahaasteeseen sisplatiinilla ja pemetreksiilla peritoneaali mesotelioomassa |
-| [33257382](https://pubmed.ncbi.nlm.nih.gov/33257382/) | 2020 | Tapausraportti | BMJ Case Reports | Nivolumabi pemetreksi-pohjaisen kemoterapian jälkeen peritoneaali mesotelioomassa |
+| [39413826](https://pubmed.ncbi.nlm.nih.gov/39413826/) | 2024 | Katsaus | J Natl Compr Canc Netw | Suositellut ensilinjan vaihtoehdot: nivolumabi + ipilimumabi tai pemetreksedi-pohjainen solunsalpaajahoito; suositukset perustuvat pleuraalisiin tutkimuksiin |
+| [41133016](https://pubmed.ncbi.nlm.nih.gov/41133016/) | 2025 | Retrospektiivinen vertailu | Clin Med Insights Oncol | Pemetreksedi-platina vs. gemsitabiini-platina ensilinjassa |
+| [31287877](https://pubmed.ncbi.nlm.nih.gov/31287877/) | 2019 | Retrospektiivinen | Jpn J Clin Oncol | Pemetreksedi + sisplatiini ensilinjassa edenneessä vatsakalvon mesotelioomassa |
+| [28594258](https://pubmed.ncbi.nlm.nih.gov/28594258/) | 2017 | Retrospektiivinen | Expert Rev Anticancer Ther | Ensilinjan pemetreksedi + sisplatiini vatsakalvon mesotelioomassa |
+| [21528659](https://pubmed.ncbi.nlm.nih.gov/21528659/) | 2011 | Yhden keskuksen kokemus | Tumori | Pemetreksedi-sisplatiini-yhdistelmän teho ja turvallisuus aiemmin hoitamattomilla |
+| [38806763](https://pubmed.ncbi.nlm.nih.gov/38806763/) | 2024 | Monikeskustutkimus | Ann Surg Oncol | Hoitostrategiat ja tulokset vatsakalvon mesotelioomassa |
+| [36765620](https://pubmed.ncbi.nlm.nih.gov/36765620/) | 2023 | Katsaus | Cancers | Diagnostiikka ja hoitopolku; sytoreduktiivinen leikkaus + HIPEC tuottaa parhaan eloonjäämisen |
+| [35407498](https://pubmed.ncbi.nlm.nih.gov/35407498/) | 2022 | Katsaus | J Clin Med | Vatsakalvon mesoteliooman hoito |
+| [30450291](https://pubmed.ncbi.nlm.nih.gov/30450291/) | 2018 | Katsaus | Transl Lung Cancer Res | Harvinainen kasvain, huono ennuste |
+| [33257382](https://pubmed.ncbi.nlm.nih.gov/33257382/) | 2020 | Tapausselostus | BMJ Case Rep | Nivolumabi vatsakalvon mesotelioomassa solunsalpaajahoidon jälkeen |
 
 ---
 
-## Suomen markkinatiedot
+## Myyntiluvat Suomessa
 
-Pemetreksi ei ole tällä hetkellä markkinoilla Suomessa – näyttöpakkaus sisältää 0 hyväksyntää. Tuotteen/annostemuodon tietoja ei ole saatavilla yhteenvedosta.
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000564 | Alimta | – | Mesotelioomaa; ei-pienisoluinen keuhkosyöpä (peruutettu) |
+| EMEA/H/C/003905 | Pemetrexed medac | – | Ei-pienisoluinen keuhkosyöpä; mesotelioma (peruutettu) |
+| EMEA/H/C/003895 | Pemetrexed Fresenius Kabi | – | Ei-pienisoluinen keuhkosyöpä; mesotelioma (peruutettu) |
+| EMEA/H/C/003970 | Pemetrexed Pfizer (aiemmin Pemetrexed Hospira) | – | Ei-pienisoluinen keuhkosyöpä; mesotelioma (peruutettu) |
 
 ---
 
-## Sytoroksisuus
+## Sytotoksisuus
 
 | Kohta | Sisältö |
 |------|------|
-| Sytoroksisuuden luokitus | Tavanomainen sytoroksisuus (fluoropyrimidiini-läheinen monikohteinen folaatin antagonisti) |
-| Luuydinsorvin riski | Korkea – folaatin antagonistit tässä luokassa tunnetaan neutropenian, verihiutalepenian ja anemia aiheuttajiksi; normaali käytäntö velvoittaa foolihapon ja B12-vitamiinin täydennyshoitoon tämän riskin lieventämiseksi. Viralliset pakkausselosteen tasoiset toksisuusluvut eivät ole saatavilla tässä näyttöpakkauksessa (katso DG001, Estävä), ja ne on vahvistettava ennen kliinistä käyttöä |
-| Emetogenisuuden luokitus | Matala–kohtalainen monoterapiana; tavallinen sisplatini-pohjainen yhdistelmäregimen on erittäin emetogeniikka sisplatiinin komponentin vuoksi |
-| Valvontakohteet | Täydellinen verikuva differentiaalilla, munuaisten toiminta (kreatiniinin puhdistuma), foolihapon/B12-vitamiinin tila, maksan toiminta |
-| Käsittelysuoja | Vaatii tavanomaisia sytoroksilääkkeiden käsittelyn varotoimia (PPE, suljetun järjestelmän siirtölaitteet, vuototilanteiden ohjeistus) |
+| Sytotoksisuusluokitus | Perinteinen sytotoksinen lääke (antifolaatti) |
+| Luuydinsuppression riski | Korkea: tietograafin vasta-aihetiedoissa mainitaan neutropenia, trombosytopenia, agranulosytoosi ja anemia |
+| Oksettavuusluokitus | Tietoa ei ole saatavilla; ks. valmisteyhteenveto |
+| Seurattavat kohteet | Verenkuva (erittelylaskenta), munuaisten ja maksan toiminta |
+| Käsittelysuojaus | Noudatettava sytotoksisten lääkkeiden käsittelyohjeita |
 
 ---
 
-## Turvallisuushuomiot
+## Turvallisuusnäkökohdat
 
-Tutustu pakkausselosteeseen turvallisuustiedoissa. Keskeiset varoitukset, vasta-aiheet ja lääkevuorovaikutustiedot eivät olleet saatavilla tässä näyttöpakkauksessa – tämä on merkitty **estäväksi** tietokatkoksi (DG001), joka estää tällä hetkellä täyden S1 turvallisuusarvioinnin ja se on ratkaistava ennen kliinisten varauksellisten ehtojen lopullistamista.
+- **Tietograafin mukaiset vasta-aiheisiin liittyvät sairaudet** (eivät perustu valmisteyhteenvetoon): munuaissairaus, heikentynyt munuaisten toiminta, pyoureter, trombosytopenia, neutropenia, agranulosytoosi, anemia ja makrosyyttinen anemia.
+- **Yhteisvaikutukset:** Tietoihin sisältyy 100 yhteisvaikutusta, joista näytetyt ovat kaikki merkittävyydeltään kohtalaisia. Keskeisiä ovat mm. H2-salpaajat (famotidiini, ranitidiini, simetidiini), metformiini, asetyylisalisyylihappo, amfoterisiini B:n eri muodot, aminoglykosidit ja muut munuaistoksiset tai munuaisten kautta erittyvät lääkkeet (vankomysiini, kanamysiini, neomysiini, polymyksiini B), levofloksasiini, amoksisilliini sekä mesalatsiini ja sen johdokset.
+
+Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 ---
 
-## Johtopäätös ja seuraavat toimenpiteet
+## Johtopäätös ja jatkotoimet
 
-**Päätös: Jatka varauksellisesti**
+**Päätös: Etene suojatoimin (Proceed with Guardrails)**
 
-**Perustelutausta:**
-Mekanistinen perustelutausta on vahva (jaotuva mesoteliaali-alkuperä lääkkeen perus pleuraali mesotelioma-indikaatiosta) ja sitä tukee 11 kliinistä tutkimusta – mukaan lukien kaksi aktiivisesti rekrytoivaa satunnaistettuaa Phase 2 tutkimusta (ICARuS II, NCT05001880) – plus 20 julkaisua, joista useat raportoivat takautuvan ensimmäisen linjan tehoa pemetreksi/sisplatiinista erityisesti peritoneaali mesotelioomassa. Kuitenkaan yhtään valmistunutta satunnaistettuatutkimusta peritoneaali mesotelioman pääindikaatiolla ei vielä ole, mikä pitää näyttötason L3:ssa.
+**Perustelut:**
+- Pemetreksedi-platina on käytännössä vakiintunut vatsakalvon mesoteliooman systeeminen hoito, ja näyttöä on vaiheen 2 tutkimuksista ja retrospektiivisistä aineistoista. Vatsakalvokohtaisia vaiheen 3 tutkimuksia ei kuitenkaan ole, joten näytön taso on L2.
+- Kaikki neljä suomalaista myyntilupaa on peruutettu, joten saatavuus on selvitettävä.
 
-**Jatkaakseen tarvitaan seuraavaa:**
-- TFDA/Suomen pakkausseloste varoitukset, vasta-aiheet ja DDI-tiedot (DG001, Estävä – vaaditaan S1 turvallisuushyväksynnälle)
-- Vahvistettu virallinen vaikutusmekanismin dokumentaatio DrugBankista (DG002)
-- Kypsät tulokset käynnissä olevista Phase 2 RCT:ista (ICARuS II, odotettu valmistuminen 2028; NCT05001880, odotettu valmistuminen 2026)
-- Suomen/EU:n sääntely-arviointipolku, koska lääkettä ei ole tällä hetkellä markkinoilla Suomessa
+**Jatkoon tarvitaan:**
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet (tällä hetkellä puuttuvat; estävä tietoaukko)
+- Vaikutusmekanismin tiedot lääketietokannasta
+- Myyntilupatilanteen ja valmisteiden saatavuuden selvitys Suomessa
+- Satunnaistettujen vatsakalvotutkimusten (mm. NCT05001880) tulokset
+- Munuaistoiminnan, verenkuvan ja yhteisvaikutusten seurantasuunnitelma
 
+---
+
+## Muut ennustetut käyttöaiheet (lyhyesti)
+
+Samoista tiedoista nousi esiin myös muita ennusteita:
+- **Keuhkopussin mesotelioma (L1):** alkuperäinen käyttöaihe, ei varsinainen uudelleenkäyttö. Pemetreksedi + sisplatiini on vakiohoito (vaiheen 3 tutkimus, PMID 12860938).
+- **Epiteloidi mesotelioma (L1):** tuki perustuu pääosin yleisiin mesotelioomatutkimuksiin.
+- **Sarkomatoidi- ja bifaasinen mesotelioma (L2):** tutkimustyön aihe; alatyyppikohtainen näyttö niukkaa.
+- **Sydänpussin syöpä (L4):** vain tapausselostuksia, tutkimustyön aihe.
+- **Hyvin erilaistunut papillaarinen mesotelioma, lymfohistiosytoidi mesotelioma, pleuraalinen adenomatoidikasvain ja iminoglysinuria:** odota (Hold); näyttö puuttuu tai mekanistinen peruste on heikko.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -2,7 +2,7 @@
 layout: default
 title: Ceritinib
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 95
+nav_order: 105
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,73 +29,95 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Seritinibi: ALK-positiivisesta pieni-solaisesta keuhkosyövästa gingivaaliseen fibromatoosiin
+# Seritinibi: Ei-pienisoluisesta keuhkosyövästä ikenen fibromatoosiin (gingival fibromatosis)
 
 ## Yhden lauseen yhteenveto
 
-Seritinibi on toisen sukupolven ALK-tyyrosiinikinaasin estäjä, jonka hyväksytty käyttöindikatio — tässä evidenssipaketissa saadun tutkimus- ja katsauskirjallisuuden perusteella — on ALK:n uudelleenjärjestyneisyyteen liittyvä pieni-solaisesti keuhkosyöpä (NSCLC); lääkkeen oma rakenteellinen alkuperäisen indikaation kenttä on tyhjä tässä paketissa (tietojen puutos). TxGNN-mallin parhaiten ennustettu indikatio tälle lääkkeelle on **Gingiivinen fibromatoosi**, mutta tällä ennusteella ei ole **yhtään kliinistä tutkimusta eikä yhtään kirjallisuusviitettä** tuekseen, eikä sillä ole tunnettu mekanistista yhteyttä ALK-signalointireittiin — se on pelkästään mallin pistelukusignaali.
+Seritinibi on ALK-/ROS1-tyrosiinikinaasin estäjä, jota on käytetty ei-pienisoluisen keuhkosyövän hoitoon.
+TxGNN-malli ennustaa sen mahdolliseksi lääkkeeksi **ikenen fibromatoosiin**, mutta ennusteen tueksi **ei ole yhtään kliinistä tutkimusta eikä kohdennettua kirjallisuutta**. Ennuste perustuu pelkästään graafipohjaiseen malliin.
 
-## Nopea yleiskatsaus
+---
+
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen indikatio | ALK-positiivinen (ALK:n uudelleenjärjestyneisyys) pieni-solaisesti keuhkosyöpä — pääteltävissä tässä evidenssipaketissa olevasta kirjallisuudesta (esim. ASCEND-4, "Ceritinib: first global approval"); ei saatavissa rakenteellisista `taiwan_regulatory`/`original_indications`-kentistä (tietojen puutos) |
-| Ennustettu uusi indikatio | Gingiivinen fibromatoosi (Fibromatosis, Gingival) |
-| TxGNN-ennusteen pisteluku | 99.86% (sijoitus 2020 kaikkien ehdokkaiden joukossa) |
-| Evidenssin taso | L5 |
-| Taiwanin markkinointi | Ei markkinoilla (Not marketed) |
-| Valtuuksien lukumäärä | 0 |
-| Suositeltu päätös | Odota |
+|------|------|
+| Alkuperäinen käyttöaihe | Ei-pienisoluinen keuhkosyöpä |
+| Ennustettu uusi käyttöaihe | Ikenen fibromatoosi (fibromatosis, gingival) |
+| TxGNN-ennustepistemäärä | 99,86 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennuste on perusteltu?
+---
 
-Yksityiskohtaisia toimintamekanismitietoja ei ole saatavissa rakenteellisesta `original_moa`-kentästä (tietojen puutos, DG002). Tässä evidenssipaketissa saadun kirjallisuuden perusteella seritinibi on toisen sukupolven, suun kautta imeytyvästi kehitetty pieni-molekyylinen anaplastisen lymfoomasyypakinaasin (ALK) estäjä, joka on kehitetty ALK-geenin uudelleenjärjestyneisyydellä ohjautuviin kasvaimiin, erityisesti ALK-positiiviseen NSCLC:hen (PMID 24980964, 27738095, 28126333).
+## Miksi ennuste on perusteltu?
 
-Gingiivinen fibromatoosi on tyypillisesti perinnöllinen tai lääkkeistä johtuva (esim. fenitoin, siklosporiini, kalsiumkanavansalpaajat) gingivaalisen sidekudoksen hyvänlaatuinen liikakasvaminen. ALK-reseptorityrosiinikinaasin signaloinnin ja gingivaalisen kuituisen liikakasvamisen välillä ei ole vakiintunutta biologista yhteyttä, eikä fibroblastien lisääntymis- tai sidekudomuutoksia ole mainittu missään toimitetuissa näytöissä.
+Seritinibin tarkkaa vaikutusmekanismia ei ole saatavilla tähän raporttiin koottujen tietojen perusteella. Tunnetun tiedon mukaan seritinibi estää ALK-, ROS1- ja IGF-1R-kinaaseja, ja sen teho ALK-positiivisessa ei-pienisoluisessa keuhkosyövässä on osoitettu.
 
-Yhdenmukaisen kuvan mukaisesti tämän evidenssipaketin rationale sanoo suoraan: tämälle ehdokkaalle ei ole kliinisiä tutkimuksia, kirjallisuusviitteitä ei ole saatavilla, eikä ALK-signalointireitin ja gingivaalisen fibromaattosin välillä ole tunnettua mekanistista yhteyttä — kyseessä on puhtaasti TxGNN-mallin pisteluku, jolla ei ole mitään tukevaa näyttöä.
+Ikenen fibromatoosin ja näiden kohteiden välille ei kuitenkaan ole tunnistettu mekanistista yhteyttä. Korkea TxGNN-pistemäärä on pelkkä graafipohjainen ennuste, eikä sitä tue mikään kliininen tai kirjallisuusnäyttö. Ennustetta on siksi pidettävä hypoteesina, ei perusteltuna hoitovaihtoehtona.
 
-## Kliinisten tutkimusten näyttö
+Muiden korkeimmin pisteytettyjen ennusteiden (mm. keuhkojen fibrooma, keuhkojen hamartooma, keuhkojen hilusalueen karsinooma) näyttö on vastaavasti heikkoa. Niistä keuhkoihin liittyvät ennusteet voivat liittyä epäsuorasti seritinibin vaikutukseen ALK-positiivisessa keuhkosyövässä, mutta tämä on päätelmä alkuperäisestä käyttöaiheesta, ei näyttöä kyseisistä sairauksista.
+
+---
+
+## Kliiniset tutkimukset
 
 Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
-## Kirjallisuuden näyttö
+---
 
-Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
+## Kirjallisuusnäyttö
 
-## Taiwanin markkinoinnin tiedot
+Ikenen fibromatoosin osalta ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
-Seritinibi ei ole tällä hetkellä **markkinoilla Taiwanissa** — rekistereissä on 0 valtuutusta, ja `licenses`-järjestelmä on tyhjä, joten valtuutusnumeroa, tuotenimeä, annosmuotoa tai hyväksytyn indikaation tekstiä ei voi poimia tästä evidenssipaketista.
+---
+
+## Tietoa Suomen markkinoista
+
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/003819 | Zykadia | – | Ei-pienisoluinen keuhkosyöpä (tila: peruutettu) |
+
+---
 
 ## Sytotoksisuus
 
-Seritinibi on antineoplastinen lääke (ALK/ROS1-tyyrosiinikinaasin estäjä, jota käytetään NSCLC:ssä edellä mainitun kirjallisuuden mukaan), joten tämä osio on relevantti.
-
 | Kohta | Sisältö |
-|------|---------|
-| Sytotoksisuusluokitus | Kohdennettu hoito (toisen sukupolven ALK-tyyrosiinikinaasin estäjä; ei tavanomainen sytostaattinen kemia) |
-| Luuytimen vähenemisen riski | Ei ole erityisesti raportoitu toimitetuissa näytöissä; lääkkeluokkana ALK-estäjillä on tyypillisesti matalampi luuytimen vähenemisen riski kuin tavallisella sytostaattisella kemialla — katso pakkausselosteesta hematoloogisen toksisiteetin arviointia |
-| Pahoinvoinnin luokitus | Kohtalainen — GI-toksisuus on raportoitu näytöissä (ASCEND-8-aliryhmäanalyysi, PMID 35344649, osoitti vähennettyä GI-toksisiteettia muutetulla ruoan kanssa ottamisella, mikä viittaa perustason GI-toksisiteetin kliiniseen merkitykseen) |
-| Monitorointikohdat | EKG/QTc-väli (PMID 26008987, 29413968), maksantoiminta, GI-oireet (pahoinvointi, ripuli), tromboemboliset tapahtumat (PMID 39349372) ja keuhko-/yliherkkyystapahtumat (PMID 31280988 — tapaus diffuusista keuhkojen infiltratiivisesta sairaudesta, perikardiitista ja pleuraalihuuhtelusta seritinibin yliherkkyydessä) |
-| Käsittelysuojaus | Ei määritelty toimitetussa evidenssissa. Suun kautta otettavana pienimolekyylisena kohdennetun hoidon aineena noudateta institutionaalisia suun kautta otettavien sytostaattien käsittelymenettelyjä, odottaen TFDA-pakkausselosteen vahvistusta (katso estävä tietojen puutos alla) |
+|------|------|
+| Sytotoksisuusluokitus | Kohdennettu hoito (tyrosiinikinaasin estäjä) |
+| Luuydinsuppression riski | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Oksentelua aiheuttava vaikutus | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Seurantaparametrit | Katso valmisteyhteenvedon varoitukset ja varotoimet. Kirjallisuudessa on raportoitu mm. maksatoksisuutta, QT-ajan pidentymistä, organisoituvaa keuhkokuumetta ja munuaisvaikutuksia ALK-estäjien käytön yhteydessä |
+| Käsittelysuojaus | Katso valmisteyhteenvedon varoitukset ja varotoimet |
 
-## Turvallisuusnäkökohdat
+---
 
-Viittaa pakkausselosteeseen turvallisuustiedoista. (Tärkeitä varoituksia, vasta-aiheita ja lääkkeiden välisiä yhdysvaikutuksia koskevia tietoja ei ole saatavilla tässä evidenssissa; TFDA-pakkausselosteen hakemista ei ole vielä suoritettu.)
+## Turvallisuushuomiot
+
+**Lääkeyhteisvaikutukset:** Yhteisvaikutuksia on kirjattu yhteensä 100. Tähän raporttiin on poimittu 20, joista pääosa on vaikeusasteeltaan kohtalaisia (Moderate). Merkittäviksi (Major) luokiteltuja ovat:
+- Triamsinoloni
+- Budesonidi
+
+Kohtalaisia yhteisvaikutuksia on mm. seuraavien lääkkeiden kanssa: happoa vähentävät lääkkeet (famotidiini, ranitidiini, omepratsoli, rabepratsoli), diabeteslääkkeet (metformiini, pioglitatsoni, akarboosi, alogliptiini, kanagliflotsiini, albiglutidi), kortikosteroidit (deksametasoni, hydrokortisoni, betametasoni), aprepitantti, loperamidi ja bisakodyyli.
+
+Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
+
+---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Odota**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Parhaiten ennustettu indikatio, gingiivinen fibromatoosi, ei ole kliinisten tutkimusten tai kirjallisuuden tuella, eikä sillä ole uskottavaa mekanistista yhteyttä ALK-inhibitioon — se on puhdas mallin pistelukuartefakti (L5, päätösvaihe S0). Mikään muista 9 ehdokkaasta tässä erässä ei ole parempi: kahdella, joilla on kirjallisuusviitteitä (keuhkohyväntapauksinen neoplasmi, keuhkon sukusolukasvain, molemmat L4), on omissa perusteluissaan merkitty ne selvästi ontologiaan perustuviksi ristiriidoiksi (näyttö koskee pahanlaatuista NSCLC:tä tai glioblastoomaa/keskushermostoon metastasoitumista, ei ennustettuja hyväntapauksisia kokonaisuuksia), ja loput 7:llä ei ole mitään näyttöä.
+- Ennuste perustuu vain graafipohjaiseen malliin (L5). Kliinisiä tutkimuksia ei ole, eikä seritinibin kohteiden (ALK/ROS1/IGF-1R) ja ikenen fibromatoosin välillä ole tunnistettu mekanistista yhteyttä. Lisäksi seritinibin myyntilupa Suomessa on peruutettu.
 
-**Jatkaakseen seuraavaa tarvitaan:**
-- TFDA-pakkausselosteen hakeminen ja jäsennys varoituksista/vasta-aiheista (estävä puutos DG001)
-- DrugBank-mekanismin vahvistus (DG002)
-- Jos jatketaan uudelleenkäyttötutkimusta, asetetaan etusijalle mekanistisesti uskottavat, tutkittavissa olevat ehdokkaat (esim. ALK-positiivisuuden ohjaamat kasvaimen alatyyppi) nykyisen parhaiten ennustetun indikaation sijaan
-- Gingiiviselle fibromatoosille tai muille 9 ennustetuille indikaatioille tässä erässä ei suositella lisätutkimusta näyttöjen ja mekanistisen uskottavuuden puuttuessa
-
+**Jatkotoimien edellytyksenä tarvitaan:**
+- Vaikutusmekanismitiedot (MOA), jotta mekanistinen yhteys voidaan arvioida
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet (turvallisuusarvion estävä tietopuute)
+- Prekliininen näyttö ALK-/ROS1-/IGF-1R-signaloinnin roolista ikenen fibromatoosissa
+- Arvio, onko muu ennustettu käyttöaihe (esim. ALK-positiiviset keuhkokasvaimet) uskottavampi jatkotutkimuksen kohde
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

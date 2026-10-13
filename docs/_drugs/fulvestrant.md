@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Fulvestrant
-parent: Pelkkä mallin ennuste (L5)
-nav_order: 170
-evidence_level: L5
+parent: Kohtalainen näyttö (L3-L4)
+nav_order: 197
+evidence_level: L4
 indication_count: 10
 ---
 
 # Fulvestrant
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,77 +29,77 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Fulvestrantti: rintasyövästä HIV-infektiotautiin
+# Fulvestrantti: rintasyövästä HIV-infektioon (tutkimuskysymys)
 
 ## Yhden lauseen yhteenveto
 
-> Fulvestrantti (DB00947) on selektiivinen estrogeenireseptoreiden degradaattori, joka on tunnetuin ER-positiivisen rintasyövän hoidossa, vaikka tämä Evidence Pack ei itsessään vahvista hyväksyttyä alkuperäistä indikaatiota tai toimintamekanismia (tietoväli). TxGNN-malli ennustaa sen voivan olla tehokas **HIV-infektiotaudissa**, mutta tällä hetkellä vain **0 klinistä tutkimusta** ja **1 epäsuoraan liittyvä julkaisu** tukevat tätä suuntaa, ja se julkaisu koskee eri retrovirusista (HTLV-1), ei HIV-virusta.
+Fulvestrantti on estrogeenireseptorin antagonisti ja hajottaja, jota on alun perin käytetty rintasyövän hoitoon. TxGNN-malli ennustaa sen voivan tehota **HIV-infektioon**, mutta tukena on vain **0 kliinistä tutkimusta** ja **2 julkaisua** (toinen on esikliininen solututkimus ja toinen koskee eri retrovirustautia). Ennuste on toistaiseksi laskennallinen tutkimuskysymys, ei hoitosuositus.
 
----
+## Pikayhteenveto
 
-## Pikakatsaus
+| Kohta | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | Rintasyöpä (Breast Neoplasms) |
+| Ennustettu uusi käyttöaihe | HIV-infektio |
+| TxGNN-ennustepistemäärä | 99,91 % |
+| Näytön taso | L4 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 2 (molemmat peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-| Osio | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Ei vahvistettu evidence packissa — Fimea/TFDA merkintäteksti ei saatavilla (Data Gap DG001, Estävä) |
-| Ennustettu uusi indikaatio | HIV-infektiotauti |
-| TxGNN-ennustuspisteet | 99.91% |
-| Evidenssin taso | L5 |
-| Suomen markkinatilanne | ✗ Ei markkinoilla |
-| Lupien lukumäärä | 0 |
-| Suositeltu päätös | Pidä odottavaksi |
+## Miksi ennuste on perusteltu?
 
----
+Fulvestrantin yksityiskohtaista vaikutusmekanismitietoa ei ole tässä aineistossa saatavilla. Tunnetun tiedon mukaan fulvestrantti on estrogeenireseptori α:n (ERα) antagonisti ja hajottaja. Sen teho rintasyövässä on osoitettu, ja mekanistisesti se voisi soveltua myös tilanteisiin, joissa ERα-signalointi vaikuttaa sairauteen.
 
-## Miksi tämä ennuste on järkevä?
+Vuonna 2026 julkaistussa esikliinisessä tutkimuksessa tarkasteltiin, miten estrogeenireseptorin ligandit ja HIV:n latenssia purkavat aineet vaikuttavat ERα:han CD4+ T-soluissa. Tutkimus antaa uskottavan mutta epäsuoran mekanistisen yhteyden: ER voi vaikuttaa HIV:n transkriptioon ja latenssiin. Tutkimuksessa fulvestranttia käytettiin ER:n estäjänä.
 
-Tällä hetkellä yksityiskohtaisia toimintamekanismin tietoja ei ole saatavilla (Data Gap DG002, Korkea vakavuus). Yleisen farmakologisen tiedon perusteella fulvestrantti on selektiivinen estrogeenireseptoreiden degradaattori (SERD), joka yhdistetään yleisimmin hormonireeseptoripositiiviseen rintasyöpään, mutta tämä Evidence Pack ei itsessään toimita vahvistettua alkuperäistä indikaatiota tai mekanismitietoja kyseisen kontekstin validoimiseksi.
+Ennuste perustuu silti pääosin laskennalliseen malliin. Korkea pistemäärä (0,999) ei yksin osoita kliinistä hyötyä, eikä HIV-käyttöaiheesta ole kliinisiä tutkimuksia.
 
-Kriittisesti, tälle ennusteelle nimenomaisen luodut uudelleenkäytön perustelut osoittavat, että fulvestrantilla ei ole tiedetysti antiviraalista tai immunomodulaattorivaikutusta, joka liittyisi HIV-infektioon. Ei ole uskottavaa farmakologista polkua, joka yhdistäisi estrogeenireseptoreiden degradaation retroviraalin painamiseen tai immuunikuntoutumiseen HIV-taudissa.
+## Kliininen tutkimusnäyttö
 
-Ainoa tukeva julkaisu ei oikeastaan käsittele HIV-virusta — se on ristiomiikaanalyysi/bioinformatiikka-tutkimus HTLV-1-liittyvästä myelopatiasta (HAM), eri retroviruksesta, jolla on eri kliininen syndrooma (neuroinflammatoorinen, ei immunodefisientti). Se on tiedonlouhinta/järjestelmäbiologia-tutkimus, ei lääkintervention todiste, ja sen relevanssi tähän ennusteeseen on merkitty "odottavaksi". Tämä malli — hyvin korkea TxGNN-pistemäärä ilman vastaavaa mekanismia tai kliinistä näyttöä — viittaa pikemminkin verkkopohjaiseen ennusteen artefaktiin kuin aitoon uudelleenkäytön signaaliin.
+Ennustetulle HIV-käyttöaiheelle ei ole tällä hetkellä rekisteröityjä kliinisiä tutkimuksia.
 
----
+Huomio: toiseksi sijoittuneelle ennusteelle (moninainen endokriininen neoplasia) löytyi 13 tutkimusta, mutta ne koskevat kaikki ER+/HER2- -rintasyöpää eli alkuperäistä käyttöaihetta. Yhdessäkään ei ollut MEN-potilaita, joten yhteys johtuu todennäköisesti tautitermien yhdistämisestä.
 
-## Klinisten tutkimusten näyttö
+## Kirjallisuusnäyttö
 
-Tällä hetkellä ei ole liittyviä rekisteröityjä kliinisiä tutkimuksia
-
----
-
-## Kirjallisuuden näyttö
-
-| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät löydöt |
-|------|-------|--------|-------|-------------------|
-| [40343334](https://pubmed.ncbi.nlm.nih.gov/40343334/) | 2025 | Ristiomiikaanalyysi/bioinformatiikka (esijulkaisu, Tier 3) | Research Square | Monien kohorttien (epi)genominen analyysi HTLV-1-liittyvästä myelopatiasta (HAM), neuroinflammatoorisesta taudista, jonka aiheuttaa eri retrovirus kuin HIV; tunnistaa sairauden mekanismit/kohteet HAM:lle, ei HIV:lle, eikä arvioi fulvestranttia interventiona |
-
----
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [42430506](https://pubmed.ncbi.nlm.nih.gov/42430506/) | 2026 | Esikliininen in vitro -tutkimus | JCI Insight | Tutkittiin estrogeenin, fulvestrantin ja HIV:n latenssia purkavien aineiden vaikutusta ERα:han CD4+ T-soluissa. |
+| [40343334](https://pubmed.ncbi.nlm.nih.gov/40343334/) | 2025 | Monikohorttinen omiikka-analyysi | Research Square | HTLV-1-liitännäisen myelopatian tautimekanismit ja hoitokohteet. Koskee HTLV-1:tä, ei suoraan HIV:tä eikä fulvestranttia. |
 
 ## Suomen markkinatiedot
 
-Fulvestranttia ei ole tällä hetkellä markkinoilla Suomessa — evidence packissa ei ole saatavilla lupaa koskevia tietoja (0 toimilupaa tiedostoissa).
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004649 | Fulvestrant Mylan (peruutettu) | – | Rintasyöpä |
+| EMEA/H/C/000540 | Faslodex (peruutettu) | – | Rintasyöpä |
 
----
+## Solunsalpaajaominaisuudet
+
+Fulvestrantti on rintasyövän hoitoon kehitetty hormonaalinen syöpälääke (selektiivinen estrogeenireseptorin hajottaja), ei perinteinen solunsalpaaja. Aineistossa ei ole tietoa luuydinsuppressiosta, pahoinvointia aiheuttavuudesta tai käsittelyohjeista, joten niiden osalta on noudatettava valmisteyhteenvedon varoituksia ja varotoimia.
 
 ## Turvallisuusnäkökohdat
 
-Katso turvallisuustiedot pakkausselosteesta.
+- **Lääkeyhteisvaikutukset**: Tietokannasta löytyi 92 mahdollista yhteisvaikutusta, mutta vaikeusastetta ei ole luokiteltu. Esimerkkejä: varfariini, asetyylisalisyylihappo, deksametasoni, prednisoni, simvastatiini, metformiini, omepratsoli, pantopratsoli, morfiini ja ondansetroni.
+- **Tietämysgraafin mukaiset vasta-aiheet** (ei valmisteyhteenvedon tekstiä): maksasairaus, sappirakon sairaus, trombosytopenia ja veren hyytymishäiriö. Nämä vaativat varmistuksen virallisista lähteistä.
 
----
+Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
-## Johtopäätös ja seuraavat vaiheet
+## Johtopäätökset ja seuraavat vaiheet
 
-**Päätös: Pidä odottavaksi**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-TxGNN-pistemäärä on korkea, mutta kliinisiä tutkimustodistuksia ei ole, ei ole mekanistista perustelua fulvestrantin estrogeenireseptorin aktiivisuuden liittämiselle HIV-patofysiologiaan, ja ainoa kirjallisuusosuma koskee asiaan liittymätöntä retrovirustautia (HTLV-1, ei HIV). Tämä on L5 (vain malliennuste) evidenssitaso ilman tukevia tutkimuksia.
+- Näyttö HIV-käyttöaiheelle on vain esikliinistä ja epäsuoraa, kliinisiä tutkimuksia ei ole. Lisäksi Suomessa kaikki fulvestrantin myyntiluvat on peruutettu.
+- Muut ennusteet ovat joko laskennallisia ilman tukea (esim. SIV, kissan immuunikato, akne, harvinaiset oireyhtymät) tai suunnaltaan huolestuttavia: nivelreumassa eläinkoe viittaa, että estrogeenin esto voi pahentaa tulehdusta.
 
-**Jatkaakseen seuraavat ovat tarpeen:**
-- Vahvistettu alkuperäinen indikaatio ja mekanismin tiedot (tällä hetkellä estetty DG001/DG002 perusteella)
-- Uskottava antiviraalinen tai immuuni-mekanismi erityisesti HIV:lle ennen lisäinvestointeja
-- Esikliiniset tai in vitro -näyttö, joka testaa fulvestranttia suoraan HIV-virusta vastaan
-- Alemmalla sijoituksella olevien ennustettujen indikaatioiden uudelleenarviointi (esim. reumatoidinen nivelrikko, sijoitus 6), joissa estrogeeni-polun biologia on ainakin mekanistisesti uskottavaa saatavilla olevan kirjallisuuden valossa
-
+**Eteenpäin siirtyminen edellyttää:**
+- Fimean valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista (tällä hetkellä estää turvallisuusseulonnan).
+- Vaikutusmekanismitietojen täydentämistä (esim. DrugBankista).
+- Lisää esikliinistä näyttöä ER-estosta HIV:n latenssissa ja mahdollisesti eläinmallikokeita.
+- Arviota fulvestrantin antoreitistä (lihaksensisäinen injektio) ja valmisteen saatavuudesta Suomessa myyntilupien peruutuksen jälkeen.
+- Yhteisvaikutusten vaikeusastearviota HIV-lääkityksen kannalta.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -2,7 +2,7 @@
 layout: default
 title: Oteracil
 parent: Vahva näyttö (L1-L2)
-nav_order: 276
+nav_order: 320
 evidence_level: L1
 indication_count: 10
 ---
@@ -29,91 +29,115 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Oteracil: Mahalaukun syövästä kolonin kasvaimeen
+# Oteraciili: mahasyövästä paksusuolen kasvaimeen
 
 ## Yhden lauseen yhteenveto
 
-Oteracil on ei-sytotoksinen moduloiva komponentti S-1 yhdistelmässä (tegafur/gimeracil/oteracil), jota on historiallisesti käytetty tegafurin pohjaisissa säännöllisissä mahalaukun ja ruoansulatuskanavasta peräisin olevissa syövissä. TxGNN-malli ennustaa, että se saattaa olla tehokas **kolonin kasvaimissa**, ja tällä hetkellä **8 kliinistä tutkimusta** ja **20 julkaisua** tukevat tätä suuntaa, mukaan lukien kolme valmistunutta Phase 3 RCT-tutkimusta.
+Oteraciili on S-1-yhdistelmävalmisteen (tegafuuri + gimerasiili + oteraciili) osa, jota on alun perin käytetty mahasyövän hoitoon.
+TxGNN-malli ennustaa sen voivan olla hyödyllinen **paksusuolen kasvaimen (colonic neoplasm)** hoidossa.
+Suuntaa tukee tällä hetkellä **6 kliinistä tutkimusta** ja **10 julkaisua**, mutta tulokset koskevat S-1-yhdistelmää kokonaisuutena, eivät oteraciilia yksinään.
 
-## Nopea yleiskatsaus
+---
 
-| Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Mahalaukun syöpä (S-1 yhdistelmän komponenttina) — spesifejä Fimea/TFDA-pakkaustekstejä ei ole saatavilla |
-| Ennustettu uusi indikaatio | Kolonin kasvain |
-| TxGNN-ennusteen pistemäärä | 99.99% |
-| Näyttötaso | L1 |
-| Suomen markkinatilanne | ✗ Ei markkinoilla |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Jatka varauksilla |
-
-## Miksi tämä ennuste on perusteltu?
-
-Tällä hetkellä oteraciilin itsensä yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla. Tunnettujen tietojen perusteella oteracil on osa S-1:n suun kautta otettavaa fluoropyrimidiiniyhdistelmää (tegafur + gimeracil + oteracil). Tässä yhdistelmässä oteracil vaikuttaa inhiboimalla oraattifosforiboosyylitransferaasia (OPRT) ruoansulatuskanavassa, mikä vähentää tegafuusta vapautuvasta 5-FU:sta tapahtuvan paikallisen fosforylaation ja siten alentaa GI-toksisuutta — se ei itsessään aiheuta suoraa syöpää tuhoavaa vaikutusta.
-
-Mahalaukun syöpä ja kolonin kasvain ovat molemmat ruoansulatuskanavasta peräisin olevia pahanlaatuisia kasvaimia, jotka jakavat saman taustalla olevan farmakologisen kohteen: tegafurin välityksellä toimitetun fluoropyrimidiini (5-FU) -reitin. Koska S-1 on jo vakiintutettu ja useiden maiden farmakokannistovalvontaviranomaisissa hyväksytty sekä mahalaukun syövän että kolorektaalisyövän hoidossa, mekanistinen perustelu oteraciilin sisältävien yhdistelmien laajentamiselle kolonin kasvaimiin on hyvin tuettu.
-
-Tämän ennusteen vahvuus perustuu erityisesti S-1 yhdistelmän laajalle levinneen kliinisen kehityksen kolorektalissa syövässä (ACTS-CC, ACTS-RC, SALTO-tutkimukset), eikä mihinkään oteraciilin itsenäiseen vaikutukseen. Tämä erottaa sen tämän näyttöpaketin useista alemman sijoituksella olevista ennusteista (esim. hyvänlaatuiset tai vaskulaariset kolonin leesiot), joilla ei ole mitään uskottavaa sytotoksista mekanismia ja jotka näyttävät olevan TxGNN-upotuksen anatomisen läheisyyden tekijöitä pikemminkin kuin aito farmakologinen signaali.
-
-## Kliinisen tutkimuksen näyttö
-
-| Tutkimuksen numero | Vaihe | Tila | Rekrytointi | Keskeisiä löydöksiä |
-|---------|------|------|------|---------|
-| [NCT00660894](https://clinicaltrials.gov/study/NCT00660894) | Phase 3 | Valmistunut | 1535 | UFT+Leukevoriini vs. TS-1 (S-1) adjuvanttina hoitona Stage III -paksusuolen syövässä, geeniekspression ennustetekijä-analyysin kanssa |
-| [NCT01918852](https://clinicaltrials.gov/study/NCT01918852) | Phase 3 | Valmistunut | 161 | SALTO-tutkimus: S-1 vs. Capecitabine ensimmäisen linjan hoitona metastasoituneessa kolorektaalissa syövässä, ± bevacizumab |
-| [NCT03448549](https://clinicaltrials.gov/study/NCT03448549) | Phase 3 | Tuntematon | 1191 | SOX (oksaliplatini + S-1) vs. XELOX adjuvanttina kemoterapiana Stage III -kolorektaalissa syövässä |
-| [NCT06255379](https://clinicaltrials.gov/study/NCT06255379) | Phase 2 | Ei vielä rekrytoiva | 52 | Fuquinitinibi yhdistettynä S-1:een (tegafur/gimeracil/oteracil) kolmannen linjan hoitona edistyneessä metastasoituneessa CRC:ssä |
-| [NCT02618356](https://clinicaltrials.gov/study/NCT02618356) | Phase 2 | Tuntematon | 82 | Raltitreksed + S-1 metastasoituneessa kolorektaalissa syövässä, joissa vakiokenoterapia epäonnistui; pääpäätepiste: mPFS |
-| [NCT00974389](https://clinicaltrials.gov/study/NCT00974389) | Phase 2 | Tuntematon | 40 | S-1 + bevacizumab resektoimattomassa/uusiutuvassa kolorektaalissa syövässä irinotekaani/oksaliplatini-epäonnistumisen jälkeen |
-| [NCT00524706](https://clinicaltrials.gov/study/NCT00524706) | Phase 1/2 | Tuntematon | 42 | S-1 + suun kautta otettava leukevoriini + oksaliplatini (SOL-säännös) käsittelemättömässä metastasoituneessa kolorektaalissa syövässä |
-| [NCT02216149](https://clinicaltrials.gov/study/NCT02216149) | Phase 2 | Lopetettu | 20 | S-1/capecitabine + oksaliplatini vs. sydämen mikrovaskulaarinen turvallisuus metastasoituneessa GI-adenokarsinoomassa (turvallisuuskeskeinen, ei tehokkuus) |
-
-## Kirjallisuusviitteet
-
-| PMID | Vuosi | Tyyppi | Lehti | Keskeisiä löydöksiä |
-|------|-----|------|------|---------|
-| [31917122](https://pubmed.ncbi.nlm.nih.gov/31917122/) | 2020 | RCT | Clin Colorectal Cancer | ACTS-CC 02: S-1 + oksaliplatini (SOX) ylivoimainen verrattuna UFT/LV:ään adjuvanttina hoitona korkean riskin Stage III -paksusuolen syövässä |
-| [27056996](https://pubmed.ncbi.nlm.nih.gov/27056996/) | 2016 | RCT | Annals of Oncology | ACTS-RC (JFMC35-C1): S-1 vs. UFT adjuvanttina kemoterapiana Stage II/III peräsuolen syövässä |
-| [24942277](https://pubmed.ncbi.nlm.nih.gov/24942277/) | 2014 | RCT | Annals of Oncology | ACTS-CC -tutkimus: S-1 ei-alainen UFT/LV:ään verrattuna adjuvanttina kemoterapiana Stage III -paksusuolen syövässä |
-| [26036466](https://pubmed.ncbi.nlm.nih.gov/26036466/) | 2015 | RCT | BMC Cancer | Satunnaistettu Phase II -tutkimus S-1:n annostusjärjestelyjen vertailusta kolorektaalisyövän resektioiden jälkeen |
-| [32189156](https://pubmed.ncbi.nlm.nih.gov/32189156/) | 2020 | Kliininen tutkimus | Int J Clin Oncol | KSCC1303: S-1 + oksaliplatini (C-SOX) Stage III -paksusuolen syövässä, kolmen vuoden taudittomuuden eloonjäämisen lopullinen analyysi |
-| [25209093](https://pubmed.ncbi.nlm.nih.gov/25209093/) | 2014 | Katsaus | Clin Colorectal Cancer | Aasian konsensusohje metastasoituneen kolorektaalisyövän hoitoon |
-| [10897209](https://pubmed.ncbi.nlm.nih.gov/10897209/) | 2000 | Katsaus | Gan To Kagaku Ryoho | Perusteellinen katsaus S-1:n biokemiallisen modulaation käsitteeseen, mukaan lukien oteraciilin rooli GI-toksisuuden vähentämisessä |
-| [17496461](https://pubmed.ncbi.nlm.nih.gov/17496461/) | 2007 | Katsaus | Gan To Kagaku Ryoho | Adjuvantin kemoterapian tila kolorektaalisyövän hoidossa Japanissa |
-| [22415232](https://pubmed.ncbi.nlm.nih.gov/22415232/) | 2012 | Kliininen tutkimus | Br J Cancer | ACTS-CC -tutkimuksen suunniteltu turvallisuusanalyysi UFT/LV vs. S-1 adjuvanttina hoitona Stage III -paksusuolen syövässä |
-| [21875473](https://pubmed.ncbi.nlm.nih.gov/21875473/) | 2011 | Kliininen tutkimus | Zhonghua Zhong Liu Za Zhi | Oksaliplatini + S-1 yhdistelmähoidon tehokkuus ja sivuvaikutukset postoperatiivisissa kolorektaalisyövän potilaissa |
-
-## Suomen markkinatiedot
-
-Oteraciilin sisältävät tuotteet (S-1 yhdistelmä) eivät ole tällä hetkellä markkinoilla Suomessa — ei aktiivisia Fimea-myyntiluvituksia löytynyt (0 lisenssillä saatavilla).
-
-## Sytotoksisuus
+## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Sytotoksisuusluokitus | Perinteinen sytotoksinen yhdistelmän komponentti (fluoropyrimidiini-luokan modulaattori; oteracililla ei ole suoraa sytotoksista vaikutusta — se inhiboi oraattifosforiboosyylitransferaasia (OPRT) ruoansulatuskanavassa, mikä vähentää tegafuusta peräisin olevan 5-FU:n paikallista fosforylointia ja alentaa siten GI-toksisuutta — se ei itsessään ole antitumoraalinen) |
-| Myelosuppression-riski | Katso pakkausselosteen varoitukset ja varotoimet |
-| Emetogenisiteettiluokitus | Matala-kohtalainen (fluoropyrimidiini-luokan perusteella, johdonmukainen S-1 yhdistelmän kanssa) |
-| Seurannan kohteet | CBC differentiaaleineen, maksa- ja munuaisten toiminta, elektrolyytit |
-| Käsittelystandardit | Antineoplastisen yhdistelmätuotteen komponenttina sytotoksisen lääkkeen käsittelyä koskevat säännökset pätevät |
+| Alkuperäinen käyttöaihe | Mahasyöpä (Stomach Neoplasms) |
+| Ennustettu uusi käyttöaihe | Paksusuolen kasvain (colonic neoplasm) |
+| TxGNN-ennustepistemäärä | 99,99 % |
+| Näytön taso | L1 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Proceed with Guardrails (jatka suojatoimin) |
 
-## Turvallisuushuomiot
+---
 
-Katso turvallisuustiedot pakkausselosteesta.
+## Miksi ennuste on perusteltu?
+
+Tässä raportissa käytetyissä tiedoissa ei ole saatavilla yksityiskohtaista vaikutusmekanismitietoa (MOA). Tunnetun tiedon perusteella oteraciili on S-1-yhdistelmän osa. Sen teho mahasyövässä on osoitettu yhdistelmänä, ja mekanistisesti se voi soveltua myös paksusuolen kasvaimeen.
+
+Oteraciili on S-1:n ruoansulatuskanavaa suojaava osa. Se estää orotaattifosforibosyylitransferaasia suoliston limakalvolla ja vähentää siten 5-FU:n paikallista aktivoitumista sekä ruoansulatuskanavan haittoja. Kasvainvaikutus tulee tegafuurista (5-FU:n esiaste), ja gimerasiili (DPD:n estäjä) pidentää 5-FU-altistusta.
+
+Paksusuolisyöpä on 5-FU:lle herkkä kasvain, joten S-1:n käyttö siinä on biologisesti uskottavaa. Tämä on linjassa korkean TxGNN-pisteen kanssa. Oteraciilin oma osuus rajoittuu siedettävyyteen, eikä sillä yksinään ole osoitettua kasvainvaikutusta. Aineistot eivät erottele sen osuutta yhdistelmästä.
+
+---
+
+## Kliininen tutkimusnäyttö
+
+| Tutkimusnumero | Vaihe | Tila | Osallistujia | Keskeiset havainnot |
+|---------|------|------|------|---------|
+| [NCT00660894](https://clinicaltrials.gov/study/NCT00660894) | Vaihe 3 | Valmistunut | 1535 | UFT+leukovoriini vs. TS-1 (S-1) liitännäishoitona levinneisyysasteen III paksusuolisyövässä |
+| [NCT03448549](https://clinicaltrials.gov/study/NCT03448549) | Vaihe 3 | Tuntematon | 1191 | SOX (oksaliplatiini + S-1) vs. XELOX liitännäishoitona asteen III kolorektaalisyövässä |
+| [NCT00974389](https://clinicaltrials.gov/study/NCT00974389) | Vaihe 2 | Tuntematon | 40 | S-1 + bevasitsumabi levinneessä tai uusiutuneessa kolorektaalisyövässä aiemman hoidon epäonnistuttua |
+| [NCT02618356](https://clinicaltrials.gov/study/NCT02618356) | Vaihe 2 | Tuntematon | 82 | Raltitreksedi + S-1 metastasoituneessa kolorektaalisyövässä; päätetapahtuma etenemisvapaa elinaika |
+| [NCT06255379](https://clinicaltrials.gov/study/NCT06255379) | Vaihe 2 | Ei vielä rekrytoi | 52 | Fruquintinibi + tegafuuri/gimerasiili/oteraciili kolmannen linjan hoitona edenneessä kolorektaalisyövässä |
+| [NCT02216149](https://clinicaltrials.gov/study/NCT02216149) | Vaihe 2 | Keskeytetty | 20 | S-1:n ja kapesitabiinin (+ oksaliplatiini) vaikutus sepelvaltimoiden verenvirtaukseen; sydänturvallisuuskysymys |
+
+---
+
+## Kirjallisuusnäyttö
+
+Kaikki löydetyt julkaisut ovat tapausselostuksia, prekliininen tutkimus tai retrospektiivinen kohorttitutkimus. Satunnaistettuja tutkimuksia ei ole.
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|---------|-----|------|------|---------|
+| [21084813](https://pubmed.ncbi.nlm.nih.gov/21084813/) | 2010 | Retrospektiivinen kohortti | Gan to Kagaku Ryoho | Vaikean hematologisen toksisuuden riskitekijät 87 potilaalla S-1/irinotekaanihoidossa; asteen 3–4 toksisuutta 16,1 %:lla |
+| [20811661](https://pubmed.ncbi.nlm.nih.gov/20811661/) | 2010 | Prekliininen (ksenografti) | Oncology Reports | Irinotekaani voitti 5-FU-resistenssin ja tehosti S-1:n kasvainvaikutusta paksusuolisyövän ksenografteissa |
+| [32936722](https://pubmed.ncbi.nlm.nih.gov/32936722/) | 2021 | Tapausselostus | J Oncol Pharm Pract | S-1:n aiheuttama hypertriglyseridemia; S-1 kuvataan yhdeksi tehokkaimmista kolorektaalisyövän solunsalpaajista |
+| [28414195](https://pubmed.ncbi.nlm.nih.gov/28414195/) | 2017 | Tapausselostus | Eur J Dermatol | TS-1:n aiheuttama erytrodermia, laaja limakalvo-oireisto ja käsi-jalkaoireyhtymä |
+| [41253353](https://pubmed.ncbi.nlm.nih.gov/41253353/) | 2025 | Tapausselostus | Gan to Kagaku Ryoho | Virtsaretentio oksaliplatiinin aiheuttaman akuutin perifeerisen neuropatian yhteydessä; aiemmin tegafuuri/gimerasiili/oteraciili |
+| [18630468](https://pubmed.ncbi.nlm.nih.gov/18630468/) | 2008 | Tapausselostus | Anticancer Research | Täydellinen vaste S-1 + CPT-11 -yhdistelmälle paksusuolisyövän maksametastaaseissa |
+| [29394831](https://pubmed.ncbi.nlm.nih.gov/29394831/) | 2017 | Tapausselostus | Gan to Kagaku Ryoho | SOX + panitumumabi pienensi etäpesäkkeitä, mikä mahdollisti kaksivaiheisen maksaresektion |
+| [35444144](https://pubmed.ncbi.nlm.nih.gov/35444144/) | 2022 | Tapausselostus | Gan to Kagaku Ryoho | Vatsakalvon uusiutumien toistuva laparoskooppinen resektio kolorektaalisyövän jälkeen |
+| [30692384](https://pubmed.ncbi.nlm.nih.gov/30692384/) | 2018 | Tapausselostus | Gan to Kagaku Ryoho | Keliakiapunoksen neurolyysi kivun hoidossa paksusuolisyövän uusiutuman yhteydessä |
+| [34650027](https://pubmed.ncbi.nlm.nih.gov/34650027/) | 2021 | Tapausselostus | Am J Case Rep | Haimarauhasen hännän syövän ja paksusuolen perforaation leikkaushoito neoadjuvanttihoidon jälkeen |
+
+---
+
+## Suomen markkinatiedot
+
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/001242 | Teysuno | – | Mahasyöpä (Stomach Neoplasms); tila: peruutettu |
+
+---
+
+## Solunsalpaajaominaisuudet
+
+| Kohta | Sisältö |
+|------|------|
+| Solunsalpaajaluokitus | Perinteinen solunsalpaaja (fluoropyrimidiiniyhdistelmä, S-1); oteraciili itse toimii suojaavana komponenttina |
+| Luuydinsuppression riski | Keskisuuri; S-1/irinotekaanihoidossa asteen 3–4 hematologista toksisuutta 16,1 %:lla potilaista |
+| Oksettavuusluokitus | Matala–keskisuuri (lääkeryhmän perusteella) |
+| Seurattavat parametrit | Täydellinen verenkuva erittelyineen, maksa- ja munuaisarvot, elektrolyytit |
+| Käsittelysuojaus | Noudatettava solunsalpaajien käsittelyohjeita |
+
+---
+
+## Turvallisuusnäkökohdat
+
+Tiedot on koottu julkaisuista, ja ne koskevat S-1-yhdistelmää:
+- **Raportoidut haitat:** hematologinen toksisuus, käsi-jalkaoireyhtymä, erytrodermia limakalvo-oireineen sekä hypertriglyseridemia.
+- **Sydänturvallisuus:** S-1:n ja kapesitabiinin vaikutusta sepelvaltimoverenkiertoon selvittänyt tutkimus keskeytettiin.
+
+Muilta osin turvallisuustiedot, vasta-aiheet ja yhteisvaikutukset: katso valmisteyhteenveto.
+
+---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Jatka varauksilla**
+**Päätös: Proceed with Guardrails (jatka suojatoimin)**
 
 **Perustelut:**
-Kolme valmistunutta Phase 3 RCT-tutkimusta (ACTS-CC, ACTS-RC, SALTO) ja monet Phase 2 -tutkimukset tukevat johdonmukaisesti S-1:n (oteraciilin sisältämä) tehokkuutta kolorektaalisyövän hoidossa, jolloin tämä ennuste saa L1 näyttötason vahvuuden. Kuitenkin tuote ei ole tällä hetkellä markkinoilla Suomessa ja keskeisiä turvallisuus- ja MOA-tietoja ei ole saatavilla, joten varaukset ovat perusteltuja ennen mitään sääntelyä tai kliinistä kehitystä.
+- Suuret vaiheen 3 tutkimukset tukevat S-1-yhdistelmää paksusuolisyövässä, ja yksi niistä (NCT00660894, n=1535) on valmistunut. Näyttö koskee kuitenkin koko yhdistelmää, ei oteraciilia yksinään, jolla ei ole omaa kasvainvaikutusta. Lisäksi myyntilupa on vain peruutettu eikä yhtään voimassa olevaa lupaa ole.
+- Muut ennustetut käyttöaiheet (esim. hyvänlaatuiset kasvaimet, kuten lipooma ja hemangiooma) perustuvat vain mallin ennusteeseen, eikä niille ole näyttöä. Ne kannattaa jättää odottamaan (Hold).
 
-**Jatkamisen edellytyksenä on seuraava:**
-- TFDA/Fimea-pakkausselosteen tiedot (varoitukset, vasta-aiheet, lääkkeiden väliset vuorovaikutukset) — tällä hetkellä kriittinen tietoaukko
-- Yksityiskohtainen vaikutusmekanismin dokumentaatio oteracilille (DrugBank-kysely odottaa)
-- Suomen kohtainen sääntelyreitin arviointi, ottaen huomioon nykyinen "ei markkinoilla" -tilanne
-- DDI-profiilin vahvistaminen (nykyinen kysely palautti `not_found`)
-
+**Jatkamiseksi tarvitaan:**
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet (ratkaiseva puute turvallisuusarvioinnissa)
+- Yksityiskohtainen vaikutusmekanismitieto (MOA)
+- Valmistunut vaiheen 3 tutkimus NCT00660894 ja sen tulokset sekä vahvistus, että S-1:n ja oteraciilin osuus on erotettavissa
+- Turvallisuuden seurantasuunnitelma erityisryhmille ja selvitys S-1-valmisteen nykyisestä saatavuudesta Suomessa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

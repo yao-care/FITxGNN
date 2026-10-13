@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Fluticasone Furoate
-parent: Vahva näyttö (L1-L2)
-nav_order: 167
-evidence_level: L1
+parent: Kohtalainen näyttö (L3-L4)
+nav_order: 192
+evidence_level: L4
 indication_count: 8
 ---
 
 # Fluticasone Furoate
 {: .fs-9 }
 
-Näytön taso: **L1** | Ennustetut käyttöaiheet: **8** kpl
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **8** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,88 +29,94 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **8** kpl
 
 </div>
 
-# Flutikasooni furoaatti: allergiasta johtuvasta ilmateiden tulehduksesta atooppiselle dermaatitille
+# Flutikasonifuroaatti: Allergisesta nuhasta, keuhkoahtaumataudista ja astmasta atooppiseen ihottumaan
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Flutikasooni furoaatti on sisäänhengitys-/nenän kautta annettava kortikosteroidi, jonka alkuperäisiä soveltamisaiheita ei ole dokumentoitu tässä näytöpaketissa, vaikka sen farmakologinen luokka on vahvistettu allergiasta johtuvalle ilmateiden tulehdukselle. TxGNN-malli ennustaa, että se voi olla tehokas **atooppiselle dermaatitille**, ja tällä hetkellä **13 kliinistä tutkimusta** ja **2 julkaisua** tukevat tätä suuntaa — vaikka useimmat suorat tutkimustodisteet tulevat propionaattiesteri-muodosta eikä spesifisesti furoaatista.
+Flutikasonifuroaatti on inhaloitava ja nenän kautta annosteltava glukokortikoidi, jota on käytetty allergisen nuhan, keuhkoahtaumataudin (COPD) ja astman hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **atooppiseen ihottumaan**, mutta tälle käyttötarkoitukselle ei ole kliinisiä tutkimuksia eikä suoraa kirjallisuutta: **0 kliinistä tutkimusta** ja **2 epäsuoraa julkaisua**.
 
----
-
-## Pika-yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen soveltamisaihe | Ei dokumentoitu näytöpaketissa (lääkeryhmä: sisäänhengitys-/nenän kautta annettava kortikosteroidi) |
-| Ennustettu uusi soveltamisaihe | Atooppinen dermaatitis |
-| TxGNN-ennusteen pistemäärä | 99.98% |
-| Näyttöjen taso | L1 |
-| Suomen markkinatilanne | Ei markkinoitu |
-| Lupien lukumäärä | 0 |
-| Suositeltu päätös | Jatka varauksella |
+| Alkuperäinen käyttöaihe | Kausiluonteinen ja ympärivuotinen allerginen nuha (lisäksi COPD ja astma) |
+| Ennustettu uusi käyttöaihe | Atooppinen ihottuma (atopic eczema) |
+| TxGNN-ennusteen pistemäärä | 99,98 % |
+| Näytön taso | L4 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia (ei markkinoilla) |
+| Myyntilupien määrä | 5 (kaikki peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
----
+## Miksi ennuste on perusteltu?
 
-## Miksi tämä ennuste on perusteltu?
+Flutikasonifuroaatti on voimakas glukokortikoidireseptorin agonisti, jolla on tulehdusta vaimentava vaikutus. Tälle raportille koottu aineisto ei sisällä yksityiskohtaista vaikutusmekanismitietoa, joten arvio perustuu lääkeryhmän tunnettuihin ominaisuuksiin.
 
-Tällä hetkellä flutikasooni furoaatin yksityiskohtaisia mekanismin tietoja ei ole saatavana tässä näytöpaketissa (merkitty erittäin vakavaksi tietovajeeksi). Tunnetun farmakologian perusteella flutikasooni furoaatti on trifluorinoitu synteettinen kortikosteroidi ja osa sisäänhengitys-/nenän kautta annettavien kortikosteroidien (ICS) luokkaa — sen rooli ilmateiden ja limakalvojen tulehduksen vaimentamisessa glukokortikoidireceptoreiden välittämällä sytokiinien vaientamisella on hyvin vahvistettu allergiasta johtuvassa hengitystiesairauksissa (tuettu tässä näytöpaketissa kirjallisuudella, kuten PMID 21977941, joka kuvaa sitä "uutena pitkävaikutteisena sisäänhengityskortikosteroidina").
+Atooppisen ihottuman taustalla on Th2-välitteistä tulehdusta, jota kortikosteroidit voivat teoriassa vaimentaa. Alkuperäiset käyttöaiheet (allerginen nuha, astma) ovat samaa atooppista sairausryhmää, ja ne esiintyvät usein yhdessä atooppisen ihottuman kanssa.
 
-Atooppisella dermaatitilla ja allergiasta johtuvalla ilmateiden taudilla on yhteinen Th2-ohjattu tulehdustie, ja paikalliset kortikosteroidit ovat vakiintuneet luokkavaikutushoito atooppisen dermatiitin hoidossa. Suurin osa suorista kliinisistä näytöistä tässä paketissa tulee kuitenkin **flutikasooni propionaatista** (siihen liittyvä mutta erillinen esteriksi) eikä furoaatista — mikä tarkoittaa, että mekaaninen perustelua on hyvä, mutta esterien välinen ekstrapolaatio (propionaatti → furoaatti) tulisi käsitellä oletusoletuksena, joka vaatii vahvistusta, erityisesti kun otetaan huomioon erot ihon penetraatiossa ja tehokkuudessa näiden kahden esterin välillä.
+Näyttö on kuitenkin vain epäsuoraa. Nenäsumutteena annosteltava valmiste ei ole suunniteltu iholle, eikä löydetyissä julkaisuissa ole tutkittu flutikasonifuroaattia ihottuman hoidossa.
 
----
+Muut ennusteet ovat vielä heikommin tuettuja. Keuhkoputkentulehduksella (bronkiitti) on parhaiten tuettu ehdokas (L3), mutta se menee osin päällekkäin jo hyväksytyn COPD-käyttöaiheen kanssa, joten se ei ole aito uudelleenkäyttösignaali.
 
-## Kliinisen tutkimuksen näyttö
+| Ennustettu käyttöaihe | TxGNN-pistemäärä | Näytön taso | Suositus |
+|------|------|------|------|
+| Atooppinen ihottuma | 99,98 % | L4 | Hold |
+| Bronkiitti | 99,89 % | L3 | Tutkimuskysymys |
+| 2-hydroksietyylimetakrylaattiherkistyminen | 99,87 % | L5 | Hold |
+| Atooppinen dermatiitti (sama käsite kuin ensimmäinen) | 99,81 % | L4 | Hold |
+| Kontaktidermatiitti | 99,46 % | L5 | Hold |
+| Astman alttiuspiirteet | 99,37 % | L5 | Hold |
+| Ammattiperäinen ihottuma | 99,33 % | L5 | Hold |
+| Fototoksinen ihottuma | 99,12 % | L5 | Hold |
 
-| Tutkimuksen numero | Vaihe | Tila | Osallistujien määrä | Tärkeimmät löydökset |
-|---------|------|------|------|---------|
-| [NCT00546000](https://clinicaltrials.gov/study/NCT00546000) | Vaihe 4 | Päättynyt | 56 | Avoin tutkimus Cutivate-voiteesta (flutikasooni propionaatti) 0,05% ja sen vaikutuksesta HPA-akseliin atooppisessa dermaatitissa lapsipotilailla |
-| [NCT01915914](https://clinicaltrials.gov/study/NCT01915914) | Vaihe 4 | Päättynyt | 107 | Satunnaistava vertailututkimus jaksottaisesta flutikasooni propionaatin 0,05% kermasta vakiintuneen atooppisen dermatiitin relapsien riskin vähentämiseksi |
-| [NCT01772056](https://clinicaltrials.gov/study/NCT01772056) | Vaihe 3 | Keskeytetty | 54 | RCT flutikasooni propionaatin kahdesti viikossa annettavasta ylläpitohoitosta relapsien vähentämiseksi lievässä tai keskivaikeassa atooppisessa dermaatitissa lapsipotilailla |
-| [NCT00689832](https://clinicaltrials.gov/study/NCT00689832) | Vaihe 4 | Päättynyt | 487 | Satunnaistava sokkoava vertailu takrolimusti 0,03% vs. flutikasooni 0,005% voiteesta lapsissa, joilla on keskivaikea tai vaikea AD |
-| [NCT03742414](https://clinicaltrials.gov/study/NCT03742414) | Vaihe 2 | Käynnissä, ei rekrytointia | 398 | SEAL-tutkimus: ennakoiva ihon estehoito sekä flutikasooni propionaatti-kerma AD:n etenemisen ja ruoka-allergiakehityksen estämiseksi vauvoilla |
-| [NCT04706559](https://clinicaltrials.gov/study/NCT04706559) | N/A | Päättynyt | 98 | Suun kautta annettava probiootti-lisä lapsilla, joilla on AD (vähäinen mekaaninen merkitys flutikasooniille) |
-| [NCT00119158](https://clinicaltrials.gov/study/NCT00119158) | Vaihe 4 | Päättynyt | 90 | Yhdistetty pimekolimusti (Elidel) ja flutikasooni (Cutivate) -kerma potilailla, joilla on vakavat AD-muutokset |
-| [NCT00690105](https://clinicaltrials.gov/study/NCT00690105) | Vaihe 4 | Päättynyt | 577 | Satunnaistava sokkoava vertailu takrolimusti 0,1% vs. flutikasooni 0,005% voiteesta aikuisilla kasvojen AD:lla |
-| [NCT00616538](https://clinicaltrials.gov/study/NCT00616538) | Vaihe 4 | Päättynyt | 121 | Pilotti-RCT EpiCeram-laitteen ja flutikasooni propionaatin 0,05% vertailemiseksi pediatrisissa AD-potilaissa |
-| [NCT07537751](https://clinicaltrials.gov/study/NCT07537751) | N/A | Päättynyt | 40 | RCT topikaalisen krisaborolin 2% ja flutikasooni propionaatin 0,05% vertailemiseksi lievässä tai keskivaikeassa pediatrisissa AD-potilaissa |
+## Kliininen tutkimusnäyttö
 
----
+Tällä hetkellä ei ole rekisteröityjä kliinisiä tutkimuksia atooppisen ihottuman osalta.
 
-## Kirjallisuuden näyttö
+## Kirjallisuusnäyttö
 
-| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät löydökset |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [19571596](https://pubmed.ncbi.nlm.nih.gov/19571596/) | 2009 | Katsaus | Neuroimmunomodulation | Katsaus nenän kautta annettavien kortikosteroidien käyttöön eri allergiasairauksissa, mukaan lukien atooppinen dermaatitis, painottaen HPA-akselin vaimentamisriskin |
-| [40066386](https://pubmed.ncbi.nlm.nih.gov/40066386/) | 2025 | Tapausraportti | Indian J Otolaryngol Head Neck Surg | Tapaustutkimus allergeeni-immunoterapiasta potilaalla, jolla on autoimmuuni-pohjainen tausta, ja sen laajennetusta soveltamisesta atooppiseen dermaatitiin |
+| [19571596](https://pubmed.ncbi.nlm.nih.gov/19571596/) | 2009 | Katsaus | Neuroimmunomodulation | Nenän kortikosteroidit ja lisämunuaisen suppressio. Allerginen nuha esiintyy usein yhdessä astman ja atooppisen ihottuman kanssa, ja systeemisiä vaikutuksia arvioidaan HPA-akselin kautta. |
+| [40066386](https://pubmed.ncbi.nlm.nih.gov/40066386/) | 2025 | Tapausselostus | Indian J Otolaryngol Head Neck Surg | Allergeeni-immunoterapia autoimmuunisairauksien yhteydessä. Atooppinen ihottuma mainitaan vain taustana. |
 
----
+Kumpikaan julkaisu ei tutki flutikasonifuroaattia ihottuman hoidossa.
 
 ## Suomen markkinatiedot
 
-Flutikasooni furoaattia ei ole tällä hetkellä markkinoitu Suomessa — markkinointilupia ei ole merkitty tähän näytöpakettiin.
+| Myyntilupanumero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000770 | Avamys | – | Kausiluonteinen ja ympärivuotinen allerginen nuha (peruutettu) |
+| EMEA/H/C/002673 | Relvar Ellipta | – | Keuhkoahtaumatauti (peruutettu) |
+| EMEA/H/C/002745 | Revinty Ellipta | – | Astma (peruutettu) |
+| EMEA/H/C/004363 | Trelegy Ellipta | – | Keuhkoahtaumatauti (peruutettu) |
+| EMEA/H/C/004781 | Elebrato Ellipta | – | Keuhkoahtaumatauti (peruutettu) |
 
----
+## Turvallisuushuomiot
 
-## Turvallisuusnäkökohdat
+Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut saatavilla, joten niihin tulee tutustua valmisteyhteenvedosta.
 
-Katso valmisteselosteita turvallisuustiedoista.
+Tietämysgraafiin perustuvat vasta-aiheet (ei valmisteteksti) viittaavat varovaisuuteen seuraavissa tiloissa:
+- **Infektiot**: tuhkarokko, vesirokko/vyöruusu, sieni-infektiot, ihon sienitauti, keuhkotuberkuloosi, loisinfektiot, herpes simplex -silmätulehdus ja infektiosairaudet yleisesti
+- **Silmät**: silmänpaineen kohoaminen, glaukooma
+- **Lisämunuaiset**: lisämunuaisen vajaatoiminta, Addisonin tauti, lisämunuaisen liikatoiminta, Cushingin oireyhtymä
+- **Hengitystiet**: alahengitysteiden, ylähengitysteiden, nenäontelon ja sivuonteloiden sairaudet
 
----
+Lisäksi kirjallisuudessa nostetaan esiin lisämunuaisen suppression mahdollisuus kortikosteroidialtistuksessa. Lääkeyhteisvaikutustietoja ei löytynyt.
 
-## Johtopäätökset ja seuraavat vaiheet
+## Johtopäätös ja seuraavat askeleet
 
-**Päätös: Jatka varauksella**
+**Päätös: Hold (odota)**
 
-**Perustelut:**
-Flutikasooni propionaatille on useita vaiheen 3/4 tutkimuksia, joilla on A-luokan merkitys ja jotka suoraan tukevat tehokkuutta atooppisessa dermaatitissa, mikä antaa L1-näyttötason. Kuitenkin lääke ei ole tällä hetkellä markkinoitu Suomessa, furoaattiesteri-muodon (vs. propionaatti) suora näyttö on rajallinen, ja Blocking-vakavuuden tietovajeesta (varoitukset ja vasta-aiheet) Suomen/TFDA-valmisteselosteessa estää turvallisuuden alustavan arvioinnin (S1) — joten tämä ei voi vielä edetä ehdottomaan etenemispäätökseen.
+**Perustelu:**
+- Ennuste on biologisesti uskottava, mutta näyttö on vain epäsuoraa (L4): kliinisiä tutkimuksia ei ole eikä flutikasonifuroaattia ole tutkittu atooppisessa ihottumassa. Lisäksi kaikki Suomen myyntiluvat on peruutettu.
 
-**Seuraavien vaiheiden jatkamiseksi tarvitaan:**
-- Suomen/TFDA-valmisteseloste — varoitukset, vasta-aiheet (Blocking-vaatimus, vaaditaan ennen S1-turvallisuuden arviointia)
-- Flutikasooni furoaatin spesifinen vaikutusmekanismin tieto (High-priority-aukko)
-- Suora tehokkuus-/turvallisuustieto furoaattiesteri-muodolle atooppisessa dermaatitissa, jotta voidaan vahvistaa esterien välinen ekstrapolaatio (propionaatti → furoaatti) propionaattiin perustuvista tutkimuksista
-- Antotien/formulaation toteutettavuusarviointi (paikalleen levitettävä dermatologinen formulaatio vs. tällä hetkellä saatavilla olevat nenä-/sisäänhengitysmuodot)
-- Lääke-lääke-vuorovaikutustieto (nykyinen DDI-kysely ei palautunut tuloksia)
-
+**Jatkoa varten tarvitaan:**
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet (estävä tietoaukko turvallisuusarvioinnille)
+- Vaikutusmekanismitiedot DrugBankista
+- Arvio antoreitin soveltuvuudesta (nenä-/inhalaatiovalmisteet vs. iholle annettava valmiste) ja systeemisen altistuksen riskeistä
+- Prekliiniset tai varhaisen vaiheen kliiniset tutkimukset ihotulehduksissa
+- Bronkiitin osalta: erillinen arvio, koska se menee osin päällekkäin hyväksytyn COPD-käyttöaiheen kanssa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

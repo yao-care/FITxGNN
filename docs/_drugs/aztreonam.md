@@ -2,7 +2,7 @@
 layout: default
 title: Aztreonam
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 60
+nav_order: 66
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,80 +29,105 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Aztreonam: Lääkkeen uudelleenkäyttötarkoituksen arviointi — riittämättömät tiedot jatkamiseen
+# Atstreonaami: Bakteeri-infektioista gonokokkiuretriittiin
 
-## Yhden lauseen yhteenveto
+## Yhden virkkeen yhteenveto
 
-Aztreonam (DB00355) on gramnegatiivisia bakteeri-infektioita hoitava monobaktaami-β-laktaami-antibiootti. Nykyinen Evidence Pack ei sisällä **TxGNN-ennustettuja indikaatioita**, ja kriittiset tiedot — mukaan lukien alkuperäiset indikaatiot, vaikutusmekanismi ja turvallisuusvaroitukset — eivät ole vielä täytetty. Muodollista uudelleenkäyttötarkoituksen arviointia ei voida viimeistellä, ennen kuin nämä tietovajeet korjataan.
+Atstreonaami on monobaktaamiantibiootti, jota käytetään alun perin gramnegatiivisten bakteeri-infektioiden, virtsatieinfektioiden, sairaalaperäisen keuhkokuumeen ja pehmytkudosinfektioiden hoitoon.
+TxGNN-malli ennustaa sen voivan tehota ensisijaisesti kohteeseen **hyperamylasemia**, mutta tämä ennuste ei perustu mihinkään tutkimusnäyttöön. Kliinisesti uskottavin ennustettu käyttöaihe on **gonokokkiuretriitti**, jota tukee **6 julkaisua** mutta **ei yhtään rekisteröityä kliinistä tutkimusta**.
 
 ---
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|-------|---------|
-| Alkuperäinen indikaatio | Ei saatavilla (sääntelyä koskevaa tietoa ei haettu) |
-| Ennustettu uusi indikaatio | Ei saatavilla (ei TxGNN-tulosta) |
-| TxGNN-ennusteen pistemäärä | N/A |
-| Todisteen taso | N/A — ennusteita ei ole luotu |
-| Suomen markkinatilanne | ✗ Ei markkinoitu |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | **Odota** |
+|------|------|
+| Alkuperäinen käyttöaihe | Gramnegatiiviset bakteeri-infektiot, virtsatieinfektiot, sairaalaperäinen keuhkokuume, pehmytkudosinfektiot |
+| Ennustettu uusi käyttöaihe | Hyperamylasemia (sijalla 1; näyttöön perustuen kiinnostavin on gonokokkiuretriitti, sijalla 4) |
+| TxGNN-ennustepistemäärä | 99,73 % (hyperamylasemia); 99,59 % (gonokokkiuretriitti) |
+| Näytön taso | L5 (hyperamylasemia); L3 (gonokokkiuretriitti) |
+| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) – gonokokkiuretriitti: jatkotutkimuskysymys |
 
 ---
 
-## Miksi arviointia ei voida jatkaa
+## Miksi ennuste on perusteltu (tai ei)?
 
-Aztreonamia koskevassa Evidence Pack -asiakirjassa puuttuu kolme tiedon luokkaa, jotka ovat kaikki välttämättömiä ennen kuin uudelleenkäyttötarkoitusta voidaan arvioida:
+Atstreonaamin vaikutusmekanismitietoja ei ole tällä hetkellä saatavilla kootussa aineistossa. Tunnetun farmakologian mukaan atstreonaami on monobaktaamiantibiootti, joka sitoutuu gramnegatiivisten bakteerien penisilliiniä sitovaan proteiiniin 3 (PBP3) ja estää soluseinän synteesiä.
 
-**1. TxGNN-ennusteita ei ole luotu.** `predicted_indications`-taulukko on tyhjä. Ilman mallin ennustamaa kohdeindikaatiota ei ole kandidaattihypoteesia arvioitavaksi — jokainen myöhempi osio (todisteiden tarkistus, mekanistiset perustelut, kliinisen tutkimuksen kartoitus) riippuu tästä tuloksesta.
+**Ykkösennuste (hyperamylasemia):** Mekanistista yhteyttä amylaasiaineenvaihduntaan ei ole. Korkea pistemäärä on pelkkä mallin ennuste ilman tukevia tutkimuksia tai kirjallisuutta. Samoin ennusteet polyklonaalinen hyperviskositeettioireyhtymä, synnynnäinen analbuminemia ja esiasteinen hematologinen sairaus eivät ole mekanistisesti perusteltuja; ne ovat todennäköisesti tietämysgraafin artefakteja.
 
-**2. Vaikutusmekanismia ei ole tallennettu.** `original_moa`-kenttä on merkitty korkean vakavuuden tievajeksi. Vaikka ennusteita olisikin saatavilla, mekanistinen uskottavuus — lääkkeen uudelleenkäyttötarkoituksen perusteluiden keskeinen tekijä — ei voi olla arvioitavissa ilman tietoa siitä, miten lääke vaikuttaa molekyylitasolla.
+**Gonokokkiuretriitti:** Tämä on biologisesti uskottava, koska atstreonaami sitoutuu *Neisseria gonorrhoeae* -bakteerin PBP3:een ja on tehonnut penisilliiniresistentteihin gonokokkeihin. 1980-luvun kerta-annostutkimukset ja vuoden 2020 yhden haaran avoin tutkimus (2 g) tukevat kliinistä tehoa. Kyse on kuitenkin suorasta antibakteerisesta käytöstä, joka on lähellä alkuperäisiä käyttöaiheita, ei varsinaista uudelleenkäyttöä. Lisäksi vuoden 2001 raportti kuvaa kefeemi- ja atstreonaamiresistenttien kantojen ilmaantumista. Nykysuositukset nojaavat muihin lääkkeisiin, joten atstreonaami olisi korkeintaan marginaalinen vaihtoehto resistentissä infektiossa tai beetalaktaami-allergiassa.
 
-**3. Alkuperäisen indikaation tietoja ei ole strukturoitu.** `original_indications`-taulukko on tyhjä, eikä Suomea (Fimea) koskevia markkinoille pääsemisen hyväksynnöistä ole olemassa. Vaikka Aztreonam tunnetaan yleisesti monobaktaami-antibiootiksi, joka vaikuttaa aerobisten gramnegatiivisten bakteerien vastaisesti, tämä Evidence Pack ei sisällä jäsenneltyä tai sääntelyä koskevaa indikaation tekstiä, johon uudelleenkäyttötarkoituksen analyysi voitaisiin ankkuroida.
-
----
-
-## Kliinisen tutkimuksen todisteet
-
-Tällä hetkellä ei ole saatavilla liittyviä kliinisiä tutkimuksia.
+**Ureaplasma-uretriitti:** Mekanistisesti epäedullinen, koska *Ureaplasmalta* puuttuu soluseinä, eikä soluseinän synteesiä estävä beetalaktaami todennäköisesti tehoa.
 
 ---
 
-## Kirjallisuuden todisteet
+## Kliininen tutkimusnäyttö
 
-Tällä hetkellä ei ole saatavilla liittyviä kirjallisuuslähteitä.
+Kliinisiä tutkimuksia ei ole tällä hetkellä rekisteröity yhdellekään ennustetulle käyttöaiheelle.
+
+---
+
+## Kirjallisuusnäyttö
+
+Gonokokkiuretriitti (sija 4):
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [33077658](https://pubmed.ncbi.nlm.nih.gov/33077658/) | 2020 | Yhden haaran avoin kliininen tutkimus | Antimicrob Agents Chemother | Kerta-annos 2 g lihakseen *N. gonorrhoeae* -infektion hoidossa miehillä |
+| [3095216](https://pubmed.ncbi.nlm.nih.gov/3095216/) | 1986 | Kliininen tutkimus | Genitourin Med | 1 g lihakseen paransi komplisoitumattoman gonorrean lähes kaikilla 61 miehellä ja 26 naisella; toimi myös penisilliiniresistentteihin kantoihin |
+| [3157346](https://pubmed.ncbi.nlm.nih.gov/3157346/) | 1985 | Kliininen tutkimus | Antimicrob Agents Chemother | 1 g lihakseen vs. spektinomysiini 2 g: ei hoidon epäonnistumisia kummallakaan |
+| [3937450](https://pubmed.ncbi.nlm.nih.gov/3937450/) | 1985 | Epidemiologinen ja hoitotutkimus | Hinyokika Kiyo | Kerta-annoshoito atstreonaamilla gonorreainfektioissa |
+| [6225808](https://pubmed.ncbi.nlm.nih.gov/6225808/) | 1983 | Kliininen/in vitro -tutkimus | J Infect Dis | Teho penisilliiniresistentteihin gonokokkeihin |
+| [11406757](https://pubmed.ncbi.nlm.nih.gov/11406757/) | 2001 | Mikrobiologinen/resistenssitutkimus | J Infect Chemother | Kefeemi- ja atstreonaamiresistenttien, beetalaktamaasia tuottamattomien gonokokkien ilmaantuminen |
+
+Muut ennusteet (epäsuora tai epärelevantti näyttö):
+
+| PMID | Vuosi | Tyyppi | Lehti | Käyttöaihe | Keskeiset havainnot |
+|------|-----|------|------|------|---------|
+| [3766490](https://pubmed.ncbi.nlm.nih.gov/3766490/) | 1986 | Lasten tapaussarja | Am J Dis Child | Epiglottiitti | 59 lasta, vakavat gramnegatiiviset infektiot; epäsuora tuki |
+| [4079014](https://pubmed.ncbi.nlm.nih.gov/4079014/) | 1985 | Kliininen tutkimus | Jpn J Antibiot | Monoklonaalinen gammopatia | Hematologisten sairauksien vakavat infektiot; hoitovaste 51,1 %; tuki infektion hoidolle, ei gammopatian hoidolle |
+| [34956120](https://pubmed.ncbi.nlm.nih.gov/34956120/) | 2021 | Mikrobiologinen/genominen | Front Microbiol | Veriryhmäyhteensopimattomuus | blaNDM-1 ja mcr-9 -geenien yhteisesiintyminen; ei liity käyttöaiheeseen (todennäköinen hakusanavirhe) |
 
 ---
 
 ## Suomen markkinatiedot
 
-Aztreonam ei ole tällä hetkellä markkinoitu Suomessa. Fimealla ei ole merkintöjä nollasta markkinoille pääsemisen hyväksynnöistä.
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/006113 (peruutettu) | Emblaveo | – | Gramnegatiiviset bakteeri-infektiot, virtsatieinfektiot, sairaalaperäinen keuhkokuume, pehmytkudosinfektiot |
 
 ---
 
-## Turvallisuusnäkökulmat
+## Turvallisuushuomiot
 
-Katso pakkausselosteesta turvallisuustietoja.
+Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ole saatavilla tässä aineistossa. Tietämysgraafin (PrimeKG) lääke–tauti-vasta-aihe-yhteyksien perusteella (ei valmisteyhteenvetoteksti) mahdollisia huomioitavia tiloja ovat: munuaissairaus, virtsanjohtimen märkäpesäke (pyoureter), maksasairaus, sappirakkosairaus, *Clostridium difficile* -paksusuolitulehdus, vastasyntyneen nekrotisoiva enterokoliitti ja keuhkoputkisairaus.
 
-*(Turvallisuusvaroitukset ja vasta-aiheet on merkitty estäväksi tievajeksi; DDI-kysely ei tuottanut tuloksia.)*
+**Yhteisvaikutukset:** Yhteensä 27 yhteisvaikutusta löytyi. Merkittävimmät (kohtalainen taso):
+- Pikosulfaatti
+- Dikumarolli
+- Varfariini
+
+Muilla listatuilla lääkkeillä (mm. vankomysiini, amikasiini, metronidatsoli, omepratsoli, pantopratsoli, hepariini, takrolimuusi, amfoterisiini B) vaikutuksen vakavuutta ei ole luokiteltu.
+
+Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 ---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Odota**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Evidence Pack ei sisällä TxGNN-ennusteita ja siinä on kolme ratkaisematonta tievajetta (Estävä: turvallisuusvaroitukset; Korkea: vaikutusmekanismi; Rakenteellinen: alkuperäiset indikaatiot). Ei ole uudelleenkäyttötarkoituksen hypoteesia arvioitavaksi, eikä turvallisuutta voida arvioida millekään uudelle indikaatiolle.
+- Korkeimmin pisteytetyille ennusteille (hyperamylasemia, hyperviskositeettioireyhtymä, analbuminemia) ei ole mekanistista perustetta eikä tutkimusnäyttöä. Gonokokkiuretriitti on uskottavin (L3), mutta se on suora antibakteerinen käyttö ilman satunnaistettuja tutkimuksia, resistenssiä on raportoitu ja Suomen myyntilupa on peruutettu.
 
-**Jatkamiseksi tarvitaan seuraavat:**
-
-- **TxGNN-mallin tulos** — suorita uudelleen ennusteen putkisto DB00355:lle ja täytä `predicted_indications` pisteytetyillä kandidaateilla
-- **Vaikutusmekanismi** — kysy DrugBank API:sta Aztreonamin farmakodynamiikkaa ja kohdeproteiineja
-- **Pakkausselosteesta turvallisuustiedot** — lataa ja jäsentele Fimean tai TFDA:n pakkausseloste turvallisuusvaroitusten, vasta-aiheet ja erityispopulaation ohjeiden poimintaa varten
-- **Täsmennä uudelleenkäyttötarkoituksen laajuus** — vahvista, onko tarkoituksena infektiotauti (esim. resistentit gramnegatiiviset patogeenejä, kystiseen fibroosiin tarkoitettu hengitettävä muoto) vai usean terapia-alueen uudelleenkäyttötarkoituksen kokeilu, sillä tämä määrittää, mitä TxGNN-tautinimikkeistöä tulisi kysyä
-
+**Jatkoon tarvitaan:**
+- Valmisteyhteenvedon varoitus- ja vasta-aihetiedot (Fimea) – estävä tietoaukko
+- Vaikutusmekanismitiedot (DrugBank)
+- Gonokokkiuretriitille satunnaistettu tutkimusnäyttö ja ajantasainen resistenssitieto sekä vertailu nykyisiin suosituksiin
+- Arvio myyntiluvan tilanteesta ja saatavuudesta Suomessa (Emblaveo peruutettu)
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

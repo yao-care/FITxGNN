@@ -2,7 +2,7 @@
 layout: default
 title: Leflunomide
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 222
+nav_order: 257
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,76 +29,87 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Leflunomidi: Lääkkeen uudelleenkäytön ehdokas — Arviointi keskeytettynä
+# Leflunomidi: Nivelreumasta ja nivelpsoriaasista brakydaktylia-syndaktylia-oireyhtymään
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Leflunomidi on immunomoduloiva tautia muokkaava reumaatinen lääke (DMARD), joka tunnetaan kliinisessä käytännössä reumatoidiartriitista ja psoriaattisesta artriitista.
-Nykyinen Evidence Pack ei kuitenkaan sisällä **TxGNN:n uudelleenkäytön ennusteita** tälle lääkkeelle, ja keskeiset tietokentät, joihin kuuluvat vaikutusmekanismi, turvallisuusvaroitukset ja alkuperäisten indikaatioiden tietueet, puuttuvat.
-Ilman arvioitavaa ennustettua indikaatiota tämä raportti dokumentoi tietoaukot ja suosittelee lykkäyksen päätöstä tietojen korjaamisen odotuksissa.
+Leflunomidi on immuunivastetta muokkaava lääke, jota on käytetty nivelreuman ja nivelpsoriaasin hoitoon. TxGNN-malli ennustaa sen voivan tehota **brakydaktylia-syndaktylia-oireyhtymään**, mutta ennuste perustuu pelkästään tietämysgraafiin: **kliinisiä tutkimuksia ei ole lainkaan** eikä **julkaisuja ole yhtään**. Lisäksi ennustetun käyttöaiheen biologinen uskottavuus on heikko.
 
 ---
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
-| Kohde | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Ei kirjattu nykyisessä Evidence Packissa |
-| Ennustettu uusi indikaatio | Ei mikään — TxGNN ei palauttanut ennusteita |
-| TxGNN-ennusteen pistemäärä | N/A |
-| Näytön taso | L5 (mallin ennuste ei saatavilla; ei tukevia tutkimuksia) |
-| Myyntistatus | Ei myynnissä (Ei myynnissä) |
-| Lupien määrä | 0 |
-| Suositeltu päätös | **Lykkää** |
-
----
-
-## Miksi ennuste ei ole saatavilla
-
-Leflunomidin Evidence Pack (DrugBank ID: DB01097) palautti tyhjän `predicted_indications`-taulukon. Kaksi mahdollista selitystä on olemassa:
-
-1. **Putkilinjan alkupään epäonnistuminen**: Jos lääkkeen solmu DB01097:lle ei ollut läsnä tai ei ollut asianmukaisesti upotettu TxGNN:n käyttämään tietokaaviin, malli ei tuottaisi sijoitettuja ehdokkaita.
-2. **Suodatettu tulos**: Ennusteita on voitu luoda, mutta ne jäivät jälkikäsittelyn aikana käytetyn luottamustason kynnyksen alapuolelle.
-
-Kunnes juurisyy vahvistetaan, mitään uudelleenkäytön hypoteesia ei voida arvioida. Evidence Packissa kirjatut tietoaukot (DG001: TFDA:n pakkausselosteen varoitukset; DG002: vaikutusmekanismi) rajoittavat myös turvallisuuden ja mekanismin arviointia, joka normaalisti liittyisi mihin tahansa ennustettuun indikaatioon.
+| Kohta | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | Nivelreuma; nivelpsoriaasi |
+| Ennustettu uusi käyttöaihe | Brakydaktylia-syndaktylia-oireyhtymä |
+| TxGNN-ennusteen pistemäärä | 99,93 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 4 (kaikki peruutettuja) |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Markkinatiedot
+## Miksi ennuste voisi olla perusteltu?
 
-Leflunomidi **ei ole myynnissä** minkään nykyisen paikallisen luvan alaisena. Sääntelykysely palautti nolla lisenssiä (total_licenses: 0), eikä doseerausmuodosta tai hyväksytystä indikaatiotiedosta ole tietoja tiedostoissa.
+Yksityiskohtaista vaikutusmekanismitietoa ei ole tässä raportissa käytettävissä. Yleisen tiedon mukaan leflunomidi estää dihydroorotaattidehydrogenaasi-entsyymiä (DHODH), mikä rajoittaa pyrimidiinisynteesiä ja vaikuttaa nopeasti jakautuviin soluihin, kuten aktivoituneisiin lymfosyytteihin. Tämä päätelmä perustuu yleistietoon, ei raportin aineistoon.
 
-> Huomio: Sekä DrugBank-kysely (kyselylokin tunnus 3) että TFDA:n pakkausselosteen kysely (kyselylokin tunnus 4) palautti result_count ≥ 1, mikä osoittaa lähdetietueiden olevan olemassa. Kuitenkin tämän Evidence Packin jäsennellyt kentät eivät olleet täytettyjä näistä tuloksista. Korjauksessa tulisi uudelleen purkaa hyväksytyn indikaation teksti ja turvallisuusvaroitukset näistä vahvistetuista lähteistä.
+DHODH liittyy myös raajojen kehitykseen: DHODH-geenin mutaatiot aiheuttavat Millerin oireyhtymän, johon kuuluu raajojen epämuodostumia. Graafin läheisyys voi siis heijastaa yhteisiä raajojen kehitykseen liittyviä reittejä. Tämä on kuitenkin vain mahdollinen, todentamaton selitys.
+
+Alkuperäinen käyttöaihe (autoimmuuni nivelsairaus) ja ennustettu käyttöaihe (synnynnäinen luuston epämuodostuma) eroavat toisistaan olennaisesti. Brakydaktylia-syndaktylia-oireyhtymät ovat rakenteellisia kehityshäiriöitä, joille ei tunneta lääkkeellistä korjausta. Leflunomidin aktiivinen metaboliitti teriflunomidi on lisäksi teratogeeninen eli sikiövaurioita aiheuttava. Mekanistinen yhteys on siis spekulatiivinen.
+
+Toinen ennuste, kolobomatoottinen mikroftalmia-rhizomeelinen dysplasia -oireyhtymä (pistemäärä 99,93 %), on samalla tavoin pelkkä graafiennuste ilman tukevaa näyttöä. Siinä on kyse silmän ja raajojen rakenteellisista epämuodostumista, joiden lääkehoito vakiintuneessa sairaudessa on biologisesti epäuskottavaa.
+
+---
+
+## Markkinatiedot Suomessa
+
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000235 | Arava | – | Nivelreuma; nivelpsoriaasi |
+| EMEA/H/C/001129 | Leflunomide Zentiva (aiemmin Leflunomide Winthrop) | – | Nivelreuma; nivelpsoriaasi |
+| EMEA/H/C/001227 | Leflunomide medac | – | Nivelreuma |
+| EMEA/H/C/002035 | Leflunomide ratiopharm | – | Nivelreuma |
+
+Kaikki neljä myyntilupaa on peruutettu, eikä voimassa olevia myyntilupia ole.
 
 ---
 
 ## Turvallisuusnäkökohdat
 
-Kaikki nykyisen Evidence Packin turvallisuuskentät on merkitty tietoaukoksi:
+Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla, joten niihin on tutustuttava valmisteyhteenvedosta.
 
-- Keskeiset varoitukset: ei saatavilla
-- Vasta-aiheet: ei saatavilla
-- Lääke-lääke-vuorovaikutukset: kysely ei palauttanut tuloksia
+**Tietämysgraafin mukaiset vasta-aihe-ehdotukset** (perustuvat graafin lääke-sairaus-yhteyksiin, eivät valmisteyhteenvetoon):
+- Maksa ja sappi: maksan vajaatoiminta, maksasairaus, sappirakon sairaus, krooninen hepatiitti B ja C
+- Munuaiset: munuaissairaus
+- Veri: trombosytopenia, neutropenia, agranulosytoosi, pansytopenia, anemia, makrosyyttinen anemia sekä useat synnynnäiset neutropenian muodot
+- Hermosto: perifeerinen neuropatia, ääreishermoston sairaudet
+- Keuhkot ja infektiot: interstitiaalinen keuhkosairaus, pneumokystoosi, aspergilloosi
+- Muut: pyoureter
 
-Tutustu pakkausselosteeseen ja DrugBank-tietueeseen (DB01097) turvallisuustiedoille ennen kuin jatkat arviointia.
+**Lääkeyhteisvaikutukset** (kyselyssä yhteensä 100 yhteisvaikutusta, joista tässä esimerkkejä):
+- **Merkittävät (Major):** asetyylisalisyylihappo, hydrokortisoni, deksametasoni, betametasoni, triamsinoloni, budesonidi, pioglitatsoni, akarboosi, bupropioni, klaritromysiini, minosykliini, naltreksoni, kenodeoksikolihappo, oksandroloni, oksimetolonin
+- **Kohtalaiset (Moderate):** metronidatsoli, klooripropamidi, asetoheksamidi
+- **Lievät (Minor):** sinkkisulfaatti, sinkkiasetaatti
+
+Lisäksi leflunomidin aktiivinen metaboliitti on teratogeeninen, mikä on merkittävä turvallisuusnäkökohta.
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Johtopäätös ja jatkotoimet
 
-**Päätös: Lykkää**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Evidence Pack ei palauttanut TxGNN-ennusteita, ja kaksi korkean/estävän prioriteetin tietoaukkoa (MOA ja TFDA:n turvallisuusvaroitukset) eivät ole ratkenneet. Tällä hetkellä ei ole arvioitavaa uudelleenkäytön hypoteesia.
+- Ennusteilla ei ole kliinistä eikä kirjallisuusnäyttöä (taso L5), ja ennustetut sairaudet ovat synnynnäisiä rakenteellisia epämuodostumia, joiden lääkkeellinen hoito on biologisesti epäuskottavaa. Lisäksi lääke on teratogeeninen ja kaikki Suomen myyntiluvat on peruutettu.
 
-**Jatkamista varten tarvitaan seuraavaa:**
-
-- **Suorita TxGNN uudelleen** DB01097:lle ja vahvista, onko lääkkeen solmu läsnä tietokaavissa; jos ei, lisää se ja upota uudelleen.
-- **Ratkaise DG002 (MOA)**: Kysy DrugBank API:ta vaikutusmekanismista ja farmakologisesta luokasta DB01097:lle.
-- **Ratkaise DG001 (turvallisuus)**: Lataa ja jäsennä TFDA:n pakkausselose-PDF purkamalla varoitukset ja vasta-aiheet; täytä `key_warnings` ja `contraindications`-kentät.
-- **Täytä uudelleen original_indications**: TFDA:n pakkausselose-kysely (lokin tunnus 4) vahvisti tuloksen olevan olemassa — pura hyväksytyn indikaation teksti ja täytä kenttä ennen seuraavaa arviointisykliä.
-- Kun ennustettu indikaatio on saatavilla, luo raportti uudelleen käyttämällä täyttä Evidence Pack -mallia.
-
+**Eteenpäin siirtyminen edellyttää:**
+- Vaikutusmekanismitietojen täydentämistä (esim. DrugBankista)
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivuilta
+- Prekliinistä tai mekanistista näyttöä ennustetuista käyttöaiheista
+- Arviota teratogeenisuuden ja ennustetun käyttöaiheen yhteensopivuudesta
+- Selvitystä peruutettujen myyntilupien syistä ja nykyisistä saatavuusreiteistä
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

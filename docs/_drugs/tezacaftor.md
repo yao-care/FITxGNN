@@ -2,7 +2,7 @@
 layout: default
 title: Tezacaftor
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 372
+nav_order: 433
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,63 +29,82 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Tezacaftor: kystisestä fibrooosista HIV-infektioon
+# Tezakaftori: Kystisesta fibroosista ennustettuun HIV-infektioon
 
 ## Yhden lauseen yhteenveto
 
-Tezacaftor on CFTR:n (kystisen fibroosin transmembraaninen johtavuusregulaattori) korjaaja, lääkeaine, jota käytetään kystisen fibroosin hoitoon parantamalla CFTR-proteiinin taittumista ja kalvonsiirroa. TxGNN-malli ennustaa, että se saattaa olla tehokas HIV-infektioon, mutta tämä ennuste perustuu tällä hetkellä **0:aan kliiniseen tutkimukseen** ja **0:aan julkaisuun**, ja näyttöpaketti itse merkitsee, ettei tunnetulla mekanismilla ole yhteyttä näiden kahden sairauden välillä.
+Tezakaftori on CFTR-proteiinin korjaaja (korjaaja eli korrektori), jota on alun perin käytetty kystisen fibroosin hoidossa. TxGNN-malli ennustaa sen voivan tehota **HIV-infektioon**, mutta ennusteen tueksi ei ole tällä hetkellä yhtään kliinistä tutkimusta eikä julkaisua (**0 kliinistä tutkimusta** ja **0 julkaisua**). Ennuste perustuu siis pelkästään laskennalliseen mallinnukseen.
 
-## Pikayleiskatsaus
+---
+
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|--------|
-| Alkuperäinen indikaatio | Kystinen fibrooosi (päätelty lääkkeiden luokasta; TFDA-hyväksyttyä indikaation tekstiä ei ole saatavilla — Tezacaftoria ei markkinoida Taiwanissa) |
-| Ennustettu uusi indikaatio | HIV-infektio |
-| TxGNN-ennusteen pistemäärä | 99.24% |
-| Näyttötaso | L5 |
-| Taiwanin markkinoinnin tila | ✗ Ei markkinoitu |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Pidätä |
+|------|------|
+| Alkuperäinen käyttöaihe | Kystinen fibroosi |
+| Ennustettu uusi käyttöaihe | HIV-infektio (HIV infectious disease) |
+| TxGNN-ennusteen pistemäärä | 99,24 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 3 (kaikki peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennuste on järkevä?
+---
 
-Tällä hetkellä yksityiskohtaisia toimintamekanismia koskevia tietoja ei ole saatavilla (merkitty korkean vakavuusasteen tietovajeeksi). Näyttöpaketin omien perustelutekstien perusteella Tezacaftor tunnetaan kystisen fibroosin hoidossa käytettävänä CFTR-korjaajaena, jossa se auttaa väärin laskostuneita CFTR-proteiineja kulkeutumaan oikein solukalvolle.
+## Miksi ennuste voisi olla perusteltu?
 
-CFTR:n säätelyllä ja HIV:n patofysiologialla ei ole tunnetuksi mekanismista päällekkäisyyttä (viruksen lisääntyminen, käänteinen transkriptio tai isännän immuunivasteen väylät). Näyttöpaketti eksplisiittisesti ilmoittaa, että tämä TxGNN-pistemäärä heijastaa pelkästään tietokaavion upottamisen samankaltaisuutta ilman biologista uskottavuutta, eikä sitä tueta missään kliinisellä tutkimuksella tai kirjallisuuden näytöllä.
+Tämän raportin laatimiseen koottuun aineistoon ei sisälly yksityiskohtaista vaikutusmekanismitietoa. Tiedossa on, että tezakaftori on CFTR-korjaaja, joka parantaa CFTR-proteiinin laskostumista ja kulkeutumista solun pinnalle. Sitä käytetään kystisen fibroosin hoidossa kiinteänä yhdistelmänä muiden CFTR-modulaattorien kanssa (Symdeko, Trikafta ja Alyftrek).
 
-Kontekstiksi, TxGNN merkitsi myös **lepran** (pistemäärä 99.14%) ja **moninkertaisen endokriinisen neoplasian** (pistemäärä 99.06%) tälle lääkkeelle — sekä järjestykseltään 2. että 3. ehdokkaat sisältävät saman varauman: ei mekaanista perustelua, ei tutkimuksia ja ei kirjallisuutta. Yksikään näistä kolmesta ennusteen ei saa muuta riippumatonta tieteellistä tukea kuin mallin pistemäärä itse.
+Aineistossa ei ole mitään, mikä yhdistäisi CFTR-korjauksen HIV:n patofysiologiaan. Korkea TxGNN-pistemäärä (0,992) on pelkkä laskennallinen ennuste, eikä sen tueksi ole kliinistä näyttöä tai kirjallisuutta. Alkuperäisen ja uuden käyttöaiheen samankaltaisuutta ei ole arvioitu.
+
+Samaa mallia on ennustettu myös muille käyttöaiheille: lepra (pistemäärä 99,14 %) ja multippeli endokriininen neoplasia (99,06 %). Myöskään näille ei ole löytynyt mekanistista yhteyttä, kliinisiä tutkimuksia tai kirjallisuutta.
+
+---
 
 ## Kliininen tutkimusnäyttö
 
-Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
+
+---
 
 ## Kirjallisuusnäyttö
 
-Tällä hetkellä ei ole käytettävissä asiaan liittyvää kirjallisuutta
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
-## Taiwanin markkinatiedot
+---
 
-Tezacaftoria ei markkinoida tällä hetkellä Taiwanissa (0 hyväksyntää, markkinoinnin tila: Ei markkinoitu). TFDA-hyväksyttyä tuote- tai indikaatiotekstiä ei ole saatavilla.
+## Tiedot Suomen markkinoilta
 
-## Turvallisuuteen liittyvät huomiot
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004682 | Symkevi | – | Kystinen fibroosi |
+| EMEA/H/C/006382 | Alyftrek | – | Kystinen fibroosi |
+| EMEA/H/C/005269 | Kaftrio | – | Kystinen fibroosi |
 
-Turvallisusaineistojen osalta katso pakkausselosteesta.
+Kaikki kolme myyntilupaa (valmistaja Vertex Pharmaceuticals (Ireland) Limited) on merkitty peruutetuiksi.
 
-Huomautus: TFDA-pakkausselosteen varoitukset/vasta-aiheet on merkitty **estäväksi** tietovajeeksi (DG001) — tämä lääkeaine ei voi tällä hetkellä edetä S1-turvallisuuden esiarviointivaiheeseen, kunnes nämä tiedot ovat saatavilla.
+---
 
-## Johtopäätökset ja seuraavat vaiheet
+## Turvallisuushuomiot
 
-**Päätös: Pidätä**
+- **Lääkeaineyhteisvaikutukset**: Tietokantakysely tuotti yhden farmakologisen merkinnän: tezakaftorin kohdemolekyyli on ihmisen CFTR. Kyseessä ei ole kliinisesti merkittävä lääkeyhteisvaikutus, eikä sille ole määritetty vaikeusastetta.
+
+Muilta osin turvallisuustiedot (varoitukset ja vasta-aiheet) tulee tarkistaa valmisteyhteenvedosta.
+
+---
+
+## Johtopäätös ja seuraavat askeleet
+
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Ennuste heijastaa puhtaasti tietokaavion upottamisen samankaltaisuutta (L5, päätösvaihe S0) ilman mekaanista perustelua, kliinisen tutkimuksen tai kirjallisuuden tukea HIV-infektioon — ja muut kaksi sijoitettua ehdokasta (lepra, moninkertainen endokriininen neoplasia) eivät ole parempia. TFDA:n turvallisuusmerkinnän estävä tietovahe estää myös turvallisuuden esiarviointivaiheeseen pääsyn.
+- Ennusteen tueksi ei ole kliinisiä tutkimuksia, kirjallisuutta eikä mekanistista yhteyttä, joten näytön taso on L5 (vain mallin ennuste). Lisäksi kaikki Suomen myyntiluvat on peruutettu.
 
-**Jatkamisen edellytykset:**
-- TFDA-pakkausseloste (varoitukset/vasta-aiheet) — vaaditaan ennen kuin S1-turvallisuuden arviointia voidaan aloittaa
-- Virallinen toimintamekanismia koskeva asiakirja DrugBankista tai valmistajalta
-- Riippumaton esikliininen tai mekanisminen näyttö, joka yhdistää CFTR:n säätelyn HIV:n patofysiologiaan, ennen kuin panostetaan lisäarvioinnin resursseihin
-- Jos tällaista näyttöä ei ilmene, tämä ehdokas ei pitäisi edistyä mallin ennustamistasojen ulkopuolelle
-
+**Eteenpäin siirtyminen edellyttää seuraavaa:**
+- Yksityiskohtaiset vaikutusmekanismitiedot (MOA), esimerkiksi DrugBankista, ja mekanistisen yhteyden arviointi CFTR-korjauksen ja HIV:n välillä
+- Esikliinistä tai kirjallisuuteen perustuvaa näyttöä, joka tukee ennustetta
+- Valmisteyhteenvedon turvallisuustietojen (varoitukset ja vasta-aiheet) hankinta Fimean verkkosivuilta
+- Arvio reittien ja lääkemuotojen soveltuvuudesta sekä peruutettujen myyntilupien tilanteesta Suomessa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

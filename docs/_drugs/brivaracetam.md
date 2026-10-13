@@ -2,7 +2,7 @@
 layout: default
 title: Brivaracetam
 parent: Kohtalainen näyttö (L3-L4)
-nav_order: 77
+nav_order: 84
 evidence_level: L3
 indication_count: 10
 ---
@@ -29,87 +29,100 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Brivaracetam: fokaalisen alusta olevista kohtauksista visuaaliseen epilepsiaan
+# Brivarasetaami: Epilepsiasta status epilepticukseen
 
 ## Yhden lauseen yhteenveto
 
-Brivaracetam (BRV) on korkean affiniteetin SV2A-ligandi, jota käytetään adjuvanttina ja monoterapiana fokaalisen alusta olevan epilepsian hoitoon. TxGNN ennustaa, että se voi olla tehokas myös **visuaalisen epilepsian** (valoherkkä/refleksiepilepsia alakategoria) hoidossa, **99.51% :n ennustetulla pisteellä**, mutta tämä indikaatio on tällä hetkellä tuettu vain mekanistisella ja yleisen epilepsian kirjallisuudella (**19 julkaisua**) — tautikohtaisia kliinisiä tutkimuksia ei vielä ole.
+Brivarasetaami on epilepsian hoitoon tarkoitettu lääke, joka sitoutuu synaptisen vesikkeliproteiinin SV2A:han. TxGNN-malli ennustaa sen voivan tehota ensisijaisesti **status epilepticukseen** (pitkittynyt epileptinen kohtaus), jonka tueksi on koottu **1 kliininen tutkimus** ja **19 julkaisua**. Näyttö on pääosin havainnoivaa ja katsauksiin perustuvaa (taso L3), joten ennuste on vielä tutkimuskysymys eikä valmis hoitosuositus.
+
+Huomio: raportti keskittyy sijalla 2 olevaan status epilepticukseen, koska sille on kerätty vahvin näyttö. Sijalla 1 on näköärsykkeiden laukaisema epilepsia (visual epilepsy), mutta sen näyttö on vain L4 eikä siihen kohdistu yhtään tutkimusta.
 
 ---
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
-| Kohde | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Fokaalisen alusta olevan (osittaisen alusta olevan) kohtaukset epilepsiassa — adjuvantti- ja monoterapia (kirjallisuusnäytön perusteella; ei virallista sääntelypohjaista lupaa tässä aineistopakkauksessa) |
-| Ennustettu uusi indikaatio | Visuaalinen epilepsia |
-| TxGNN ennustepistemäärä | 99.51% |
-| Näyttötaso | L3 |
-| Suomen markkinatilanne | Ei markkinoilla |
-| Lupien lukumäärä | 0 |
-| Suositeltu päätös | Pidätä (aineistopakkaus merkitsee tämän "Tutkimuskysymykseksi", päätösvaihe S1) |
-
----
-
-## Miksi tämä ennuste on järkevä?
-
-Tällä hetkellä yksityiskohtainen jäsennelty toimintamekanismitieto (DrugBank-kenttä) ei ole saatavilla tälle ehdokkaalle. Kuitenkin tuottava kirjallisuus kuvaa johdonmukaisesti brivaracetamia korkeaaffiniteettisena, erittäin selektiivisenä synapsisen vesikulan proteiini 2A:n (SV2A) ligandina — samana kohteena kuin levetiracetam (levetirasetaami), mutta sidottu 15–30-kertaisella suuremmalla affiniteetilla ja nopeammalla aivojen läpäisyllä (PMID 38811492, PMID 40568060). SV2A säätää presynaptisen neurotransmitteri-vesikulan vapautusta, ja sitoutumalla tähän kohteeseen BRV vähentää neuronaalista yliherkkyytta laajasti kaikkien kohtaustyyppien välillä.
-
-Visuaalinen (valoherkistävä) epilepsia on refleksiepilepsia, jossa kohtaukset laukeavat jaksottaisen valoärsytyksen (IPS) avulla, mikä tuottaa epileptisen EEG-vasteen (valon aiheuttama paroksysmaalinen vaste, PPR). Koska SV2A-modulaatio on laajaspektrin antikohtausmekanismi eikä yksi yksittäiseen laukaisijaan kytketty mekanismi, on mekanistisesti uskottavaa, että BRV:n tehokkuus voisi ulottua yleisestä fokaalisen alusta olevan epilepsian hoidosta tälle valoherkkyystyyppille.
-
-Tämä ei ole puhtaasti spekulatiivista: kirjallisuudessa on validoitu proof-of-concept-varajäljennös — ihmisen vaihe IIa -valoherkkyysmallia. Satunnaistettu, kaksoissokea, risteyttävä tutkimus (PMID 32949370, taso 1) vertaili suoraan BRV:tä ja levetiracetamia PPR-eliminaation nopeudelle valoherkkyysepilepsiapotilailla, ja aikaisempi työ (PMID 17785672) vahvisti BRV:n aktiivisuuden samalla mallilla. Nämä tutkimukset tukevat biologista uskottavuutta, mutta ne käyttivät EEG-varaendpointia yleisissä valoherkkyysepilepsiapotilailla eikä kliinistä tutkimusta, joka spesifisesti diagnosoi ja hoitaa "visuaalista epilepsiaa" erillisenä indikaationa — näin ollen L3 (mekanismi/mallipohjainen) näyttötaso eikä korkeampi taso.
+| Kohta | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | Epilepsia |
+| Ennustettu uusi käyttöaihe | Status epilepticus (toissijaisesti: visual epilepsy, sijalla 1 TxGNN-pisteillä) |
+| TxGNN-ennusteen pistemäärä | 99,40 % (status epilepticus); visual epilepsy 99,51 % |
+| Näytön taso | L3 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota lisänäyttöä) |
 
 ---
 
-## Kliinisen tutkimuksen näyttö
+## Miksi ennuste on perusteltu?
 
-Tällä hetkellä ei ole liittyviä kliinisiä tutkimuksia rekisteröity
+Tämän raportin yhteydessä koottu aineisto ei sisällä yksityiskohtaista vaikutusmekanismitietoa. Tunnetun tiedon perusteella brivarasetaami on SV2A-ligandi, jonka teho fokaalisissa kohtauksissa on osoitettu, ja mekanistisesti se voi soveltua myös status epilepticuksen hoitoon.
 
----
+Kirjallisuuden mukaan brivarasetaami sitoutuu SV2A:han 15–30 kertaa levetirasetaamia voimakkaammin ja pääsee aivoihin nopeasti. SV2A-modulaatio vähentää synaptisten vesikkelien vapautumista ja hermosolujen yliärtyvyyttä. Nopea vaikutuksen alkaminen ja suotuisa siedettävyys tekevät suonensisäisestä brivarasetaamista uskottavan vaihtoehdon levetirasetaamille akuutissa tilanteessa.
 
-## Kirjallisuuden näyttö
+Alkuperäinen käyttöaihe (epilepsia) ja uusi käyttöaihe (status epilepticus) liittyvät samaan sairausryhmään: status epilepticus on kohtauksen lakkaamismekanismien pettämisestä johtuva tila. Kaksi systemaattista katsausta (PMID 31342405, 32278203) kokoaa suurelta osin havainnoivaa ja retrospektiivistä tietoa suonensisäisestä brivarasetaamista. Ne tukevat tasoa L3, eivät L1/L2-tasoa. Refraktaarin status epilepticuksen ohjeistustason katsaus (PMID 32822230) ei vakiinnuta brivarasetaamia standardihoidoksi.
 
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset tulokset |
-|------|------|--------|--------|-----------|
-| [37483441](https://pubmed.ncbi.nlm.nih.gov/37483441/) | 2023 | Systemaattinen katsaus/Meta-analyysi | Frontiers in Neurology | BRV:n turvallisuus ja tehokkuus lapsilla, joilla on epilepsia |
-| [38576178](https://pubmed.ncbi.nlm.nih.gov/38576178/) | 2024 | Vaihe III RCT | Epilepsia Open | Adjuvantti-BRV:n tehokkuus, turvallisuus ja siedettävyys aikuisilla aasialaisilla potilailla, joilla on hallitsemattomia fokaalisen alusta olevia kohtauksia |
-| [38811492](https://pubmed.ncbi.nlm.nih.gov/38811492/) | 2024 | Narratiivinen katsaus | Advances in Therapy | BRV:n prekliininen profiili ja kliniiset hyödyt; 15–30× korkeampi SV2A-affiniteetti kuin levetiracetamilla |
-| [40568060](https://pubmed.ncbi.nlm.nih.gov/40568060/) | 2025 | Katsaus | Journal of Epilepsy Research | BRV:n farmakologia, kliininen tehokkuus ja turvallisuus kaikkien ikäryhmien välillä, adjuvantti- ja monoterapiakäyttö |
-| [31195850](https://pubmed.ncbi.nlm.nih.gov/31195850/) | 2019 | Katsaus | Expert Review of Neurotherapeutics | BRV:n tehokkuus ja turvallisuus fokaalisen epilepsian hoidossa; vertailu levetiracetamiin |
-| [31937513](https://pubmed.ncbi.nlm.nih.gov/31937513/) | 2020 | Yhteistetty turvallisuusanalyysi | Epilepsy & Behavior | Syvällinen yhteistetty turvallisuus-/siedettävyysanalyysi adjuvantti-BRV:stä tutkimuksissa |
-| [40069539](https://pubmed.ncbi.nlm.nih.gov/40069539/) | 2025 | Verkosto-tutkimus | Neurology and Therapy | BRV:n tehokkuus ihmisillä, joilla on epilepsia ja älyllinen vammaisuus (BRIVAFIRST-verkko) |
-| [32157673](https://pubmed.ncbi.nlm.nih.gov/32157673/) | 2021 | Havainnollinen | Acta Neurologica Belgica | BRV:n tehokkuus ja siedettävyys potilailla, joilla on älyllinen vammaisuus ja epilepsia |
-| [38205459](https://pubmed.ncbi.nlm.nih.gov/38205459/) | 2023 | Prospektiivinen ei-interventiotutkimus | Cureus | BRV:n tosimaailman tehokkuus ja turvallisuus valikoivan SV2A-sidontaisen kautta |
-| [32120063](https://pubmed.ncbi.nlm.nih.gov/32120063/) | 2020 | Katsaus (yleinen toimintamekanismi) | Neuropharmacology | Nykyisten antikohtauslääkkeiden toimintamekanismit, mukaan lukien SV2A:ta kohdentavat aineet |
+Sijan 1 ennuste (visual epilepsy) perustuu todennäköisesti sairauden läheisyyteen epilepsiaan tietämysverkostossa, ei erityiseen näyttöön. Haettu kirjallisuus ei käsittele valoherkkää epilepsiaa suoraan.
 
 ---
 
-## Suomen markkinatiedot
+## Kliininen tutkimusnäyttö
 
-Brivaracetamilla ei tällä hetkellä ole markkinoille laskemistarkkailukirjaa tässä aineistopakkauksessa (markkinatilanne: Ei markkinoilla, 0 lupaa). Tuote-/annoslomakkeen tietoa ei ole saatavilla.
+| Tutkimusnumero | Vaihe | Tila | Osallistujamäärä | Keskeiset havainnot |
+|---------|------|------|------|---------|
+| [NCT07163572](https://clinicaltrials.gov/study/NCT07163572) | NA (ei määritelty) | Päättynyt | 152 | Suonensisäisen brivarasetaamin ja levetirasetaamin suora vertailu lasten status epilepticuksen akuuttihoidossa. Tuloksia ei ole saatavilla; satunnaistus ja sokkoutus tulee varmistaa. |
+
+Tutkimusta ei voi vielä laskea vaiheen 3 RCT-näytöksi.
 
 ---
 
-## Turvallisuushuomiot
+## Kirjallisuusnäyttö
 
-Katso pakkausseloste turvallisuustiedoista.
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|---|-----|------|------|---------|
+| [31342405](https://pubmed.ncbi.nlm.nih.gov/31342405/) | 2019 | Systemaattinen katsaus | CNS Drugs | Suonensisäinen brivarasetaami status epilepticuksessa; nopea vaikutus tekee siitä potentiaalisesti sopivan päivystyskäyttöön |
+| [32278203](https://pubmed.ncbi.nlm.nih.gov/32278203/) | 2020 | Systemaattinen katsaus | J Neurol Sci | Teho ja siedettävyys status epilepticuksessa; kontrolloituja tutkimuksia niukasti |
+| [41838218](https://pubmed.ncbi.nlm.nih.gov/41838218/) | 2026 | Systemaattinen katsaus | J Neurol | Brivarasetaami status epilepticuksessa; tehon ja turvallisuusprofiilin kuvaus on vielä puutteellista |
+| [32822230](https://pubmed.ncbi.nlm.nih.gov/32822230/) | 2020 | Katsaus | Epilepsy Curr | Refraktaarin konvulsiivisen status epilepticuksen kolmannen linjan hoidot; brivarasetaamia ei vakiinnuteta standardihoidoksi |
+| [31260101](https://pubmed.ncbi.nlm.nih.gov/31260101/) | 2019 | Monikeskusrekisteri | Epilepsia | Suonensisäisen brivarasetaamin käyttö status epilepticuksessa |
+| [33561784](https://pubmed.ncbi.nlm.nih.gov/33561784/) | 2021 | Retrospektiivinen tutkimus | Seizure | Italialainen monikeskustutkimus suonensisäisen brivarasetaamin tehosta ja haittavaikutuksista |
+| [41043236](https://pubmed.ncbi.nlm.nih.gov/41043236/) | 2025 | Reaalimaailman tutkimus | Epilepsy Behav | Siirtyminen suonensisäisestä oraaliseen brivarasetaamiin status epilepticuksen jälkeen |
+| [32480279](https://pubmed.ncbi.nlm.nih.gov/32480279/) | 2020 | Tapaussarja | Seizure | Brivarasetaami absenssistatuksessa |
+| [36528008](https://pubmed.ncbi.nlm.nih.gov/36528008/) | 2023 | Katsaus | Epilepsy Behav | Brivarasetaamin ja levetirasetaamin vertailu valoherkkyysmallin kautta |
+| [24256083](https://pubmed.ncbi.nlm.nih.gov/24256083/) | 2014 | RCT | Epilepsia | Vaiheen 3 tutkimus: lisälääkkeenä annettu brivarasetaami hallitsemattomassa fokaalisessa epilepsiassa (visual epilepsy -ennusteen osalta vain epäsuora tuki) |
+
+---
+
+## Markkinatiedot Suomessa
+
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/003898 | Briviact (Italiassa: Nubriveo) | Ei tietoa | Epilepsia (peruutettu) |
+
+---
+
+## Turvallisuusnäkökohdat
+
+- **Lääkkeiden yhteisvaikutukset**: Tietokannasta löytyi yhteensä 69 yhteisvaikutusta. Merkittävimpiä (keskivaikea taso) ovat muun muassa morfiini, dronabinoli, metoklopramidi, nabiloni, oopium, sibutramiini, difenoksiini, difenoksylaatti, etanoli, prometatsiini ja klopidogreeli. Lieviä yhteisvaikutuksia on muun muassa protonipumpunestäjien (esomepratsoli, omepratsoli, pantopratsoli, lansopratsoli), sulfonyyliureoiden (klooripropamidi, tolbutamidi) ja silostatsolin kanssa.
+- **Käyttäytymiseen liittyvät haittavaikutukset**: Systemaattinen katsaus (PMID 33839453) käsittelee ärtyneisyyttä, vihaisuutta ja aggressiivisuutta brivarasetaamia käytettäessä, mikä on huomioitava jatkoarvioinnissa.
+
+Muilta osin turvallisuustiedot (varoitukset, vasta-aiheet) tulee tarkistaa valmisteyhteenvedosta.
 
 ---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Pidätä**
+**Päätös: Hold**
 
 **Perustelut:**
-Ennuste perustuu vahvaan TxGNN-pisteeseen ja uskottavaan SV2A-mekanismiin, joita tukevat validoidun valoherkkyysmallin varajäljennökset, mutta ei ole kliinisiä tutkimuksia tai kirjallisuutta, joka diagnosoi ja hoitaa "visuaalista epilepsiaa" erillisenä indikaationa — näin ollen näyttötaso pysyy L3:ssa ja päätösvaihe on S1 ("Tutkimuskysymys").
+- Status epilepticuksen näyttö on tasoa L3: se perustuu pääosin havainnoiviin tutkimuksiin ja systemaattisiin katsauksiin, ja ainoa kliininen tutkimus (NCT07163572) on vaiheeltaan NA ilman tuloksia. Lisäksi brivarasetaamin myyntilupa Suomessa on peruutettu, ja valmisteyhteenvedon turvallisuustiedot puuttuvat. Muut ennustetut käyttöaiheet ovat joko L4 tai L5 eikä niille ole kohdennettua näyttöä; esimerkiksi beta-ketotiolaasipuutos on todennäköisesti tietämysverkoston artefakti.
 
-**Jatkaakseen seuraava on tarpeen:**
-- TFDA-pakkausseloste varoitukset/vasta-aiheet (tällä hetkellä estävä tietoaukko — vaaditaan ennen S1-turvallisuuden esiarviointia)
-- Jäsennelty DrugBank-toimintamekanismin vahvistaminen
-- Tautikohtainen kliininen tutkimus (tai rekisteri) potilaista, joilla on valoherkkä/visuaalinen epilepsia, ei pelkästään yleisen fokaalisen alusta olevan epilepsian potilaista
-
-**Huomio:** Tässä samassa näyttöpakkauksessa toinen ehdokas **status epilepticus** (pistemäärä 99.40%) on materiaalisti vahvemmin tuettu — L2-näyttötaso kahden kliinisen tutkimuksen tuella (mukaan lukien valmis, korkean relevanssin IV-brivaracetam vs. levetiracetam-lapsitutkimus) ja "Jatka varauksilla" -suositus. Jos lähiajan uudelleenkäyttöarvon priorisoinneissa, tuon indikaation arvoinen erillinen arviointi.
-
+**Jatkoon tarvitaan:**
+- NCT07163572:n tulokset ja suunnittelun (satunnaistus, sokkoutus) varmistaminen
+- Satunnaistettuja kontrolloituja vaiheen 2/3 tutkimuksia suonensisäisestä brivarasetaamista status epilepticuksessa
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean sivuilta
+- Yksityiskohtaiset vaikutusmekanismitiedot (DrugBank)
+- Myyntilupatilanteen selvittäminen (peruutuksen syy ja mahdollinen uusi lupa)
+- Käyttäytymiseen liittyvien haittavaikutusten ja yhteisvaikutusten seurantasuunnitelma
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

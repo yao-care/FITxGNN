@@ -2,7 +2,7 @@
 layout: default
 title: Ramucirumab
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 312
+nav_order: 364
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,87 +29,97 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Ramucirumab: Kiinteän kasvainten onkologiasta kohdun ligamenttien adenokarsinoomaan
+# Ramusirumabi: Mahasyövän hoidosta kohdun ligamentin adenokarsinoomaan
 
-## Yhteenveto yhdellä lauseella
+## Yhden lauseen yhteenveto
 
-Ramucirumab on anti-VEGFR2-monoklonaalinen vasta-aine, jota käytetään kiinteän kasvainten onkologiassa; sen tarkka alkuperäinen indikaatio ei ole kuvattu tässä näytöpaketissa. TxGNN-malli ennustaa, että se saattaa olla tehokas **kohdun ligamenttien adenokarsinoomaa** vastaan, mutta tätä ennustetta tuetaan tällä hetkellä **0 kliinisellä tutkimuksella** ja **0 julkaisulla** — se perustuu kokonaan tietograafin assosiaatiovahvuuteen ja luokkatason anti-angiogeneettisen mekanismin hypoteesiin.
+Ramusirumabi on VEGFR2-reseptoria estävä vasta-aine, jota on alun perin käytetty mahasyövän hoitoon. TxGNN-malli ennustaa sen voivan tehota **kohdun ligamentin adenokarsinoomaan**, mutta tälle käyttöaiheelle ei ole **yhtään kliinistä tutkimusta eikä julkaisua**, joten ennuste perustuu pelkästään mallin laskemaan pisteytykseen.
 
 ---
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Ei määritetty näytöpaketissa (original_indications-kenttä tyhjä; DrugBank-louhinta epätäydellinen) |
-| Ennustettu uusi indikaatio | Kohdun ligamenttien adenokarsinooma |
-| TxGNN:n ennustuskeskiarvo | 99.95% |
-| Näyttötaso | L5 |
-| Suomen markkinoiden asema | ✗ Ei markkinoilla |
-| Hyväksyntöjen määrä | 0 |
-| Suositeltu päätös | Pidetään odotuksissa |
+| Alkuperäinen käyttöaihe | Mahasyöpä (Stomach Neoplasms) |
+| Ennustettu uusi käyttöaihe | Kohdun ligamentin adenokarsinooma |
+| TxGNN-ennustepisteet | 99,95 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain mitätöity myyntilupa |
+| Myyntilupien määrä | 1 (mitätöity) |
+| Suositeltu päätös | Hold (odotetaan) |
 
 ---
 
-## Miksi tämä ennuste on järkevä?
+## Miksi ennuste on perusteltu?
 
-Tällä hetkellä yksityiskohtaisia toimintamekanismin tietoja ei ole saatavilla jäsennellyssä muodossa (original_moa on tietojen puute). Tälle ehdokastutkimukselle kerätyn perustelun perusteella ramucirumab on anti-VEGFR2-monoklonaalinen vasta-aine, joka mekaanisesti estää angiogeneesiä kiinteissä kasvaimissa, mikä antaa sille teoreettisesti laaja-alaista potentiaalia erittäin verisuonittuja maligniteetteja vastaan — mukaan lukien gynekologisten syöpien kannalta.
+Ramusirumabi on VEGFR2:ta (verisuonten endoteelikasvutekijän reseptori 2) kohdentava vasta-aine. VEGF/VEGFR2-reitin ohjaama verisuonten uudismuodostus on biologisesti uskottava tekijä myös gynekologisissa adenokarsinoomissa. Tarkkaa vaikutusmekanismia koskevaa tietoa ei ole kuitenkaan tämän raportin aineistossa saatavilla.
 
-Tämä on kuitenkin **luokkatason ekstrapolaatio, ei tautiin kohdistuva havainto**. Kohdun ligamenttien adenokarsinooma on harvinainen histologinen alatyyppi, eikä ramucirumabiin liittyvää suoraa kliinistä, prekliinistä tai havainnollista tietoa tähän indikaatioon ole missään kyselyyn kuuluneista lähteistä (ClinicalTrials.gov, ICTRP, PubMed kaikki palauttivat nollatulokset). Erittäin korkea TxGNN-pistemäärä (99.95 %) heijastaa mallin opitun kaariassosiaation vahvuutta, ei kliinistä vahvistusta — sama kuvio toistuu kaikissa tämän lääkkeen 10 parhaiten sijoittuvassa ennusteessa, jotka ovat kaikki harvinaisia kohtu-/emätinkanavien adenokarsinooma-alityyppejä TxGNN:n mukaan luokiteltuna 814–978, joista kukin on yhtä paljon näyttöä vailla.
+Mahasyöpä ja ennustettu kohdun ligamentin adenokarsinooma ovat molemmat adenokarsinoomia, joiden kasvu voi olla riippuvaista angiogeneesistä. Yhteys on kuitenkin löyhä: ennuste nojaa yksinomaan TxGNN-mallin pisteisiin, eikä sitä tue mikään kliininen näyttö tälle käyttöaiheelle.
 
----
-
-## Kliinisen tutkimuksen näyttö
-
-Tällä hetkellä ei ole liittyvää rekisteröityä kliinisiä tutkimuksia
+Samankaltaisia ennusteita mallin kärkisijoilta ovat muun muassa kohdunkaulan endoserviikaalinen karsinooma, kohdunkaulan adenoidikystinen karsinooma sekä useat kohdun ligamentin adenokarsinoomien histologiset alatyypit (seroosi, endometrioidi, kirkassoluinen, musinoottinen). Kaikissa näissä näyttö on L5-tasoa. Kohdunkaulan syövässä anti-angiogeeninen hoito (bevasitsumabi) on osoittanut tehoa, mikä antaa epäsuoran biologisen perustelun. Signettisolu- ja suolen tyyppiset kohdunkaulan musinoottiset adenokarsinoomat muistuttavat histologisesti maha-suolikanavan syöpää, mutta tämä ei ole näyttöä tehosta. Korkeat pisteet johtuvat todennäköisesti jaetuista kohdunkaulansyövän ontologiaa koskevista naapurisolmuista eikä tautikohtaisesta datasta.
 
 ---
 
-## Kirjallisuuden näyttö
+## Kliininen tutkimusnäyttö
 
-Tällä hetkellä ei ole saatavilla liittyvää kirjallisuutta
+Tälle käyttöaiheelle ei ole tällä hetkellä rekisteröityjä kliinisiä tutkimuksia.
 
 ---
 
-## Suomen markkinatiedot
+## Kirjallisuusnäyttö
 
-Ramucirumabilla ei ole markkinoinnin lupia Suomessa (markkinatilanne: ei markkinoilla, 0 lupaa tiedoissa).
+Aiheesta ei ole tällä hetkellä saatavilla asiaan liittyvää kirjallisuutta.
+
+---
+
+## Tiedot Suomen markkinoilta
+
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/002829 | Cyramza (Eli Lilly Nederland B.V.) | – | Mahasyöpä (tila: mitätöity) |
 
 ---
 
 ## Sytotoksisuus
 
-Ramucirumab on syöpänsäätöaine (anti-VEGFR2-monoklonaalinen vasta-aine, jota käytetään kiinteän kasvainten onkologiassa).
-
 | Kohta | Sisältö |
 |------|------|
-| Sytotoksisuusluokitus | Kohdennettu hoito (anti-VEGFR2-monoklonaalinen vasta-aine / anti-angiogeneettinen aine) |
-| Luuydinvaimennusriski | Katso pakkausseloste varoitukset ja varotoimet |
-| Pahoinvointiluokitus | Katso pakkausseloste varoitukset ja varotoimet |
-| Valvontakohdat | Katso pakkausseloste varoitukset ja varotoimet |
-| Käsittelysuojaus | Katso pakkausseloste varoitukset ja varotoimet |
+| Sytotoksisuusluokitus | Kohdennettu hoito (VEGFR2-vasta-aine), ei perinteinen sytotoksinen solunsalpaaja |
+| Luuydinsuppression riski | Katso valmisteyhteenvedon varoitukset ja käyttöön liittyvät varotoimet |
+| Oksentelua aiheuttavuus | Katso valmisteyhteenvedon varoitukset ja käyttöön liittyvät varotoimet |
+| Seurantakohteet | Katso valmisteyhteenvedon varoitukset ja käyttöön liittyvät varotoimet |
+| Käsittelysuojaus | Katso valmisteyhteenvedon varoitukset ja käyttöön liittyvät varotoimet |
 
 ---
 
 ## Turvallisuusnäkökohdat
 
-Katso pakkauselosteen turvallisuustiedot.
+Varoituksista ja vasta-aiheista ei ole tämän raportin aineistossa tietoa. Turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
+
+**Lääkeaineyhteisvaikutukset:** Aineistossa on yhteensä 100 yhteisvaikutusta, joista tässä on esitetty 20 ensimmäistä. Merkittävimmät (vakavuusluokka "Major") liittyvät erityisesti verenvuotoriskiin ja veren hyytymiseen vaikuttaviin lääkkeisiin:
+
+- **Verihiutaleiden estäjät ja antikoagulantit:** asetyylisalisyylihappo, abtsiksimabi, alteplaasi, antitrombiini III, apiksabaani, betriksabaani, bivalirudiini, kangrelori, kaplasitsumabi, silostatsoli, klopidogreeli, daltepariini, defibrotidi
+- **Radioaktiiviset vasta-aineet:** ibritumomabitiuksetaani, tositumomabi (myös I-131)
+- **Muut:** deferasiroksi
+
+Keskivaikeita (Moderate) yhteisvaikutuksia on mm. deksfenfluramiinin, fenfluramiinin ja sibutramiinin kanssa.
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Johtopäätös ja jatkotoimet
 
-**Päätös: Pidetään odotuksissa**
+**Päätös: Hold (odotetaan)**
 
 **Perustelut:**
-Tämä ehdokas ei voi vielä edetä S0-vaiheen (vain malliennuste) yli. TFDA/sääntelyyn liittyvän pakkausselosteen tietojen puute on luokiteltu **Estäväksi** — se estää nimenomaista S1-turvallisuuden esiarviointiin pääsyä — eikä yhdessäkään 10 parhaiten ennustetusta indikaatiosta (kaikki harvinaisia kohtu-/emätinkanavien adenokarsinooma-alityyppejä, TxGNN:n mukaan luokiteltuna 814–978) ole mitään tukevia kliinisen tutkimuksen tai kirjallisuuden näyttöä.
+- Ennuste perustuu pelkästään TxGNN-pisteisiin (L5), eikä ainuttakaan kliinistä tutkimusta tai julkaisua ole. Lisäksi ramusirumabin myyntilupa Suomessa on mitätöity ja turvallisuustiedot puuttuvat.
 
-**Jatkamiseksi tarvitaan seuraavaa:**
-- Ramucirumabiin liittyvät alkuperäinen indikaatio ja hyväksytyn merkinnän tiedot (tällä hetkellä puuttuvat näytöpaketista)
-- TFDA/Fimean pakkausseloste (varoitukset, vasta-aiheet) — Estävä puute, vaaditaan ennen mitään S1-turvallisuusarvioita
-- Vahvistettu toimintamekanismin yksityiskohta DrugBank-ohjelmointirajapinnan kautta (Korkean vakavuuden puute)
-- Vähintään prekliiniset tai mekanistiset tutkimukset, jotka ovat spesifejä gynekologisten maligniteettien kannalta, ennen kuin tämä ehdokas voi ylittää vain-malliennuste-statuksen
-
+**Etenemiseksi tarvitaan:**
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet (Fimea), jotta turvallisuusseulonta voidaan tehdä
+- Tarkka vaikutusmekanismi (DrugBank)
+- Prekliininen tai kliininen näyttö ramusirumabista gynekologisissa adenokarsinoomissa, sekä kirjallisuushaku ja tutkimusrekisterien selvitys
+- Selvitys valmisteen saatavuudesta ja myyntilupatilanteesta Suomessa
+- Verenvuotoriskiin liittyvä yhteisvaikutusten arviointi (antikoagulantit ja verihiutaleiden estäjät)
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

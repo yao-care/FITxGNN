@@ -2,7 +2,7 @@
 layout: default
 title: Larotrectinib Sulfate
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 215
+nav_order: 248
 evidence_level: L5
 indication_count: 0
 ---

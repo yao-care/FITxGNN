@@ -2,7 +2,7 @@
 layout: default
 title: Ravulizumab
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 317
+nav_order: 369
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,61 +29,70 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Ravulizumab: Komplementti-välitteisistä sairauksista (PNH/aHUS) G6PC3-defisienssin aiheuttamaan synnynnäiseen neutropeniaan
+# Ravulitsumabi: Paroksysmaalisesta hemoglobinuriasta synnynnäiseen vaikeaan neutropeniaan (G6PC3-puutos)
 
-## Yksirivinen yhteenveto
+## Yhteenveto
 
-Ravulizumab on pitkävaikutteinen anti-komplementti C5 monoklonaalinen vasta-aine, jolla on vakiintunut käyttö komplementti-välitteisiin sairauksiin, kuten parokysmaaliseen yölliseen hemoglobiinuriaan (PNH) ja atyyppiseen hemolyyttiseen uremiseen oireyhtymään (aHUS). TxGNN-malli ennustaa, että se saattaa olla tehokas **G6PC3-defisienssin aiheuttamaan autosomaalisen resessiivisen vakavaan synnynnäiseen neutropeniaan**, mutta tämä on tällä hetkellä vain **mallin ennuste** — kliinisiä tutkimuksia tai julkaistua kirjallisuutta tämän suunnan tueksi ei ole, ja todistuspaketin oma mekanistinen katsaus merkitsee biologisen perustelun heikoksi.
+Ravulitsumabi on pitkävaikutteinen komplementin C5-estäjä, jota on käytetty paroksysmaalisen hemoglobinurian hoitoon.
+TxGNN-malli ennustaa sen voivan tehota ensisijaisesti indikaatioon **autosomaalinen resessiivinen vaikea synnynnäinen neutropenia (G6PC3-puutos)**,
+mutta ennusteelle ei ole tällä hetkellä **yhtään kliinistä tutkimusta eikä julkaisua**. Ennuste perustuu pelkästään mallilaskentaan.
 
-## Pika-yleiskatsaus
+---
+
+## Pikakatsaus
 
 | Kohde | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Ei saatavilla Taiwanin sääntelyn tiedoissa; mekanistisen perustelun mukaan ravulizumabin vakiintunut käyttö on komplementti-välitteisiin sairauksiin (PNH, aHUS) |
-| Ennustettu uusi indikaatio | Autosomaalinen resessiivinen vakava synnynnäinen neutropenia G6PC3-defisienssin vuoksi |
-| TxGNN-ennustepisteet | 99.96% (mallin sijoitus 731) |
-| Evidenssiaste | L5 |
-| Taiwanin markkina-asema | Ei markkinoilla (Not marketed) |
-| Myyntilupien lukumäärä | 0 |
-| Suositeltu päätös | Pidä |
+|------|------|
+| Alkuperäinen käyttöaihe | Paroksysmaalinen hemoglobinuria |
+| Ennustettu uusi käyttöaihe | Autosomaalinen resessiivinen vaikea synnynnäinen neutropenia (G6PC3-puutos) |
+| TxGNN-ennusteen pistemäärä | 99,96 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennuste on järkevä?
+---
 
-Ravulizumabin yksityiskohtaiset vaikutusmekanismin tiedot eivät ole tällä hetkellä saatavilla tässä todistuspaketissa (merkitty korkean vakavuusasteen tietokuiluksi). Mallin perustelossa viitattujen tunnettujen tietojen perusteella ravulizumab on pitkävaikutteinen anti-C5 monoklonaalinen vasta-aine, joka estää terminaalisen komplementti-reitin aktivaatiota (kalvohyökkäysmonimääritteen muodostumisen); sen tehokkuus komplementti-välitteisissa sairauksissa, kuten PNH ja aHUS, on hyvin vakiintunut.
+## Miksi ennuste on (tai ei ole) perusteltu?
 
-G6PC3-defisienssin aiheuttama synnynnäinen neutropenia aiheutuu kuitenkin glukoosi-6-fosfataasi-katalyyttisen yksikön 3 puutteesta, joka lisää endoplasmaverkon stressiä ja apoptoossia neutrofiili-ennakkosoluissa glukoosi/glykosolaation metabolisen vian kautta — reitti, joka ei leikkaannu terminaalisen komplementti-aktivaation kanssa. Todistuspaketti nimenomaisesti huomauttaa, että kahden ehdon välillä ei ole suoraa mekanistista yhteyttä, ja luonnehtii tätä ennustetta samankaltaisuuspohjaiseksi ekstrapolaatioksi TxGNN:n tekemäksi laajalla "harvinaisen hematologisen/immunologisen sairauden" kategorialla pikemminkin kuin validoidulla patofysiologisella yhteydellä.
+Ravulitsumabin yksityiskohtaista vaikutusmekanismia ei ole tällä hetkellä saatavilla tässä aineistossa. Tiedetään kuitenkin, että lääke on pitkävaikutteinen anti-C5-komplementin estäjä, jonka teho paroksysmaalisessa hemoglobinuriassa (komplementtivälitteinen hemolyysi) on osoitettu.
 
-Näillä perusteilla ennustetta tulisi lukea hypoteesin tuottavana signaalina pikemminkin kuin mekanistisesti perustetusta uudelleenkäyttösoveltuvuuden ehdokkaasta.
+G6PC3-puutokseen liittyvä neutropenia on neutrofiilien aineenvaihdunnan ja eloonjäämisen häiriö. Aineisto ei tue yhteyttä päätekomplementin aktivaation ja tämän sairauden välillä. Mekanistista yhteyttä ei siis ole osoitettu, ja korkea pistemäärä (0,9996) on vain mallin tuottama ennuste.
 
-## Kliiniset tutkimukset
+Samoin muut kymmenen parhaan ennusteen joukossa olevat käyttöaiheet (mm. syklinen hematopoieesi, primaarinen hyperoksaluria, vaikea synnynnäinen neutropenia, CXCR2-puutos, p14-puutoksen aiheuttama immuunipuutos, pseudo-von Willebrand -tauti, X-kytkentäinen neutropenia, verihiutaleiden primaarinen vapautumishäiriö ja megaloblastinen anemia) ovat kaikki L5-tasoisia, eikä niille ole tutkimuksia tai kirjallisuutta. Huomionarvoista on, että p14-puutoksessa komplementin esto voisi jopa lisätä infektioriskiä (meningokokkialttius) jo valmiiksi immuunipuutteisella potilaalla.
 
-Tällä hetkellä ei ole liittyvää rekisteröityä kliinistä tutkimusta.
+---
 
-## Kirjallisuuden todisteet
+## Suomen markkinatiedot
 
-Tällä hetkellä ei ole saatavilla liittyvää kirjallisuutta.
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004954 | Ultomiris | – | Paroksysmaalinen hemoglobinuria (tila: peruutettu) |
 
-## Suomen markkina-tiedot
+---
 
-Ravulizumabilla ei ole tällä hetkellä tiedostoon merkittyä myyntilupaa tällä alueella (0 lupaa; markkina-asema: Ei markkinoilla / Ei markkinoilla), joten tuotteen tason lisensoinnin yksityiskohdat eivät ole saatavilla.
+## Turvallisuushuomiot
 
-## Turvallisuuden huomioinnit
+- **Lääkeyhteisvaikutukset:** Yhteisvaikutuksia löytyi 4, kaikki tasoa *vähäinen*: ihmisen immunoglobuliini G (laskimoon, ihon alle, lihakseen sekä laskimoon ja ihon alle annettavat valmisteet).
+- **Tietokannan vasta-aiheet (tietämyskaaviosta, ei valmisteyhteenvedosta):** meningokokki-infektio.
 
-Katso turvallisuustietoja pakkaustiedosta. (Keskeiset varoitukset, vasta-aiheet ja lääkevuorovaikutustiedot eivät ole tällä hetkellä saatavilla tässä todistuspaketissa; TFDA:n pakkaustiedon haku on merkitty estäväksi tietokuiluksi.)
+Muiden turvallisuustietojen osalta katso valmisteyhteenveto.
 
-## Johtopäätös ja seuraavat vaiheet
+---
 
-**Päätös: Pidä**
+## Johtopäätös ja jatkotoimet
+
+**Päätös: Hold (odota)**
 
 **Perustelu:**
-Tälle indikaatiolle ei ole kliinisiä, prekliinisiä tai kirjallisuuden todistuksia, ja mallin oma mekanistinen katsaus ei löytänyt suoraa reittiä C5/komplementti-estelyn ja G6PC3-defisienssin neutropenian välillä — assosiaatio on kategoriatason samankaltaisuusekstrapolaatio, ei validoitu hypoteesi.
+Ennuste perustuu pelkkään mallilaskentaan (L5): kliinisiä tutkimuksia ja julkaisuja ei ole, eikä biologista yhteyttä C5-eston ja G6PC3-puutoksen välillä ole osoitettu. Lisäksi meningokokki-infektio on tietämyskaavion mukaan vasta-aihe, ja Suomessa lääkkeen ainoa myyntilupa on peruutettu.
 
-**Jotta voitaisiin edetä, seuraavaa tarvitaan:**
-- TFDA/sääntelyn pakkaustiedot (varoitukset, vasta-aiheet) — tällä hetkellä estävä tietokui
-- Vahvistetut vaikutusmekanismin tiedot DrugBankista tai ensisijaisesta kirjallisuudesta
-- Prekliiniset tai mekanistiset tutkimukset, joissa suoraan testataan komplementti-reitin osallisuutta G6PC3-defisienssin neutropeniassa
-- Todellisen maailman tai tutkimusrekisteritodisteet (ClinicalTrials.gov, ICTRP) ennen kuin edetään S0:n yli
-
+**Jatkaminen edellyttää:**
+- Yksityiskohtaiset vaikutusmekanismitiedot (MOA), esimerkiksi DrugBankista
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet Fimean sivustolta
+- Prekliininen tai mekanistinen näyttö komplementin roolista G6PC3-puutoksessa
+- Antoreittien yhteensopivuuden ja ennusteen ja alkuperäisen käyttöaiheen samankaltaisuuden arviointi
+- Meningokokkiriskin hallintasuunnitelma (rokotus, seuranta)
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -2,7 +2,7 @@
 layout: default
 title: Eftrenonacog Alfa
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 137
+nav_order: 156
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,57 +29,86 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Eftrenonacog alfa: Hemofiliasta B pseudo-von Willebrandin tautiin
+# Eftrenonogi alfa: Hemofilia B:stä pseudo-von Willebrandin tautiin
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Eftrenonacog alfa on rekombinantti, pidennetyn puoliintumisajan faktori IX:n (FIX) korvaava hoito, jota käytetään hemofilian B hoitamiseen. TxGNN-mallin parhaiten sijoitettu ennuste viittaa mahdolliseen merkitykseen **pseudo-von Willebrandin tautiin**, mutta tätä signaalia tukevat tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua**, ja taustalla oleva mekanistinen perustelus arvioidaan heikoksi.
+Eftrenonogi alfa on yhdistelmä-DNA-tekniikalla valmistettu tekijä IX:n ja Fc-osan fuusioproteiini, jota on alun perin käytetty **hemofilia B:n** hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **pseudo-von Willebrandin tautiin**, mutta ennuste perustuu pelkästään malliin: **kliinisiä tutkimuksia ei ole** eikä **julkaisuja ole**, ja mekanistinen peruste on heikko.
 
-## Nopea yleiskatsaus
+---
+
+## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Hemofilia B (synnynnäinen faktori IX:n puutos) — lääkkeen mekanismin kuvauksen mukaan; ei vahvistettua TFDA:n/sääntelyluvan tekstistä |
-| Ennustettu uusi indikaatio | Pseudo-von Willebrandin tauti |
-| TxGNN-ennusteen pisteet | 99.48% |
-| Todistusvoiman taso | L5 (vain mallin ennuste, ei tukevia tutkimuksia) |
-| Suomen markkina-asema | Ei markkinoilla |
-| Lupakumppanuuksien määrä | 0 |
-| Suositeltu päätös | Pidätys |
+| Alkuperäinen käyttöaihe | Hemofilia B |
+| Ennustettu uusi käyttöaihe | Pseudo-von Willebrandin tauti (verihiutaletyyppinen VWD) |
+| TxGNN-ennustepistemäärä | 99,48 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennuste on perusteltu?
+---
 
-Yksityiskohtaisia, strukturoituja mekanismin toimintatietoja ei ole saatavilla DrugBankista tälle ehdokkaalle (merkitty korkean vakavuuden tietoaukoksi). Tähän todistelupakettiin kuvattujen tietojen perusteella eftrenonacog alfa on rekombinantti FIX-tuote, joka korvaa puutteellisen endogeenisen faktori IX:n ja palauttaa trombiinin muodostuksen koagulaation sisäisen reitin kautta — sen vakiintunut käyttö on hemofilia B.
+## Miksi ennuste voisi olla perusteltu?
 
-Ennustettu indikaatio, pseudo-von Willebrandin tauti, on verihiutaleiden kalvohäiriö, jonka aiheuttavat hyötytoimintamuutokset *GP1BA*-geenissä, ja se johtaa poikkeavasti lisääntyneeseen verihiutaleiden glykoproteiini Ib:n affiniteettiin von Willebrandin tekijää kohtaan. Tämä on verihiutaleiden kiinnittymishäiriö, ei koagulaatiotekijän puutos. Vaikka molemmat tilat kuuluvat laajaan verenvuototautien kategoriaan, niiden patofysiologia on perusteeltaan erilainen — verihiutaleiden ja vWF:n vuorovaikutus verrattuna trombiinin muodostumisen sekvenssisarjaan — joten FIX:n korvaaminen ei ole perusteltu tapa korjata verihiutaleiden kiinnittymisanomalian ongelmaa.
+Yksityiskohtaista vaikutusmekanismitietoa (MOA) ei ole tällä hetkellä saatavilla. Eftrenonogi alfa on rekombinantti tekijä IX:n Fc-fuusioproteiini (rFIXFc), joka korvaa puuttuvaa tekijä IX:ää hemofilia B:ssä. Sen teho alkuperäisessä käyttöaiheessa perustuu veren hyytymiskaskadin sisäisen reitin korjaamiseen.
 
-Tämä todistelupaketti myös paljastaa kaksi muuta TxGNN:n ennustamaa ehdokasta tälle lääkkeelle, molemmat samankaltaisella heikolla mekanistisella uskottavuudella ja identtisillä L5/Pidätys-luokituksilla: **verihiutaleiden primaarinen vapautumishäiriö** (verihiutaleiden granulien vapautumisen vika, pisteet 99.42%) ja **Glanzmannin trombasthenia** (GPIIb/IIIa integriinikato, joka heikentää verihiutaleiden aggregaatiota, pisteet 99.28%). Kaikissa kolmessa tapauksessa ennustettu sairaus liittyy verihiutaleiden toimintahäiriöön eikä koagulaatiotekijän puutokseen, ja yksikään niistä ei ole tuettu rFIX-spesifisillä tutkimuksilla tai kirjallisuudella — nämä näyttävät olevan kuvaajankaltaiset artefaktit eikä mekanistisesti perusteltu hoitoindikaatioiden laajeneminen.
+Pseudo-von Willebrandin tauti johtuu verihiutaleiden GPIbα-reseptorin toimintaa lisäävistä mutaatioista. Ne aiheuttavat von Willebrand -tekijän liiallisen sitoutumisen sekä suurten VWF-multimeerien ja verihiutaleiden liiallisen poistuman. Vika on siis verihiutale–VWF-akselilla, ei tekijä IX:n puutoksessa. Tekijä IX:n korvaushoidolle ei näin ollen ole selvää mekanistista perustetta.
 
-## Kliinisen tutkimuksen näyttö
+Korkea pistemäärä on todennäköisesti verkkopohjainen ennuste, joka heijastaa vuotohäiriöiden välisiä yhteisiä assosiaatioita tietämysgraafissa, ei biologista perustetta.
 
-Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia
+Muut ennustetut käyttöaiheet noudattavat samaa kaavaa:
 
-## Kirjallisuuden näyttö
+| Sija | Ennustettu käyttöaihe | Pistemäärä | Näytön taso | Arvio |
+|------|------|------|------|------|
+| 2 | Verihiutaleiden primaari vapautumishäiriö | 99,42 % | L5 | Tekijä IX ei korjaa verihiutaleiden sisäistä toimintahäiriötä |
+| 3 | Glanzmannin trombasteenia | 99,28 % | L5 | Vika on integriini αIIbβ3:ssa; tekijä IX ei korjaa aggregaatiohäiriötä |
 
-Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta
+---
+
+## Kliiniset tutkimukset
+
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
+
+---
+
+## Kirjallisuusnäyttö
+
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
+
+---
+
+## Suomen markkinatiedot
+
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004142 | Alprolix | – | Hemofilia B |
+
+Myyntilupa on peruutettu, eikä Suomessa ole voimassa olevia myyntilupia. Valmistaja on Swedish Orphan Biovitrum AB (publ).
+
+---
 
 ## Turvallisuusnäkökohdat
 
-Katso turvaohjeet pakkausselosteesta.
+Turvallisuustiedot on tarkistettava valmisteyhteenvedosta. Lääkeinteraktioita ei löytynyt kyselyssä, eikä tietämysgraafista löytynyt vasta-aiheita.
 
-## Johtopäätös ja seuraavat vaiheet
+---
 
-**Päätös: Pidätys**
+## Johtopäätös ja jatkotoimet
 
-**Perustelus:**
-Tämä ennuste on tuettu vain TxGNN-mallin pisteillä (L5), ilman kliinisiä tutkimuksia, ilman kirjallisuutta ja mekanistisesti heikolla perustelulla (verihiutaleiden kiinnittymishäiriö vs. koagulaatiotekijän korvaus). Lääkettä ei myöskään myydä tällä hetkellä Suomessa, ja TFDA:n turvallisuus-/varoitustiedot ovat pysäyttävän vakavuuden aukko, joka estää edes alustavan turvallisuusarvioinnin.
+**Päätös: Hold (odota)**
 
-**Edistyäkseen seuraavaa tarvitaan:**
-- TFDA:n pakkausselosteen tiedot (varoitukset, vasta-aiheet) — tällä hetkellä pysäyttävä aukko
-- Vahvistettu vaikutusmekanismi ja virallinen alkuperäisen indikaation merkintä DrugBankista
-- Kaikki prekliiniset tai mekanistiset tutkimukset, jotka yhdistävät FIX:n korvaamisen verihiutaleiden kiinnittymis-/aggregaatio-/vapautumishäiriöihin
-- Todellisen maailman tai tapauskohtainen näyttö (esim. hemostatiikan käyttö verihiutaleiden häiriöissä), jos se on olemassa rekisteröityjen tutkimusten tai PubMedin ulkopuolella
+**Perustelut:**
+- Ennuste perustuu pelkästään TxGNN-malliin (L5), eikä tukevia kliinisiä tutkimuksia tai julkaisuja ole. Kaikissa kolmessa ennustetussa käyttöaiheessa vika on verihiutaleissa tai VWF-akselilla, ei tekijä IX:ssä, joten mekanistinen peruste puuttuu. Lisäksi valmisteen myyntilupa on peruutettu.
 
+**Jatkaminen edellyttäisi seuraavaa:**
+- Vaikutusmekanismitietojen (MOA) täydentäminen DrugBankista
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean sivustolta, mikä on turvallisuusseulonnan edellytys
+- Biologisen perusteen osoittaminen esikliinisillä tai mekanistisilla tutkimuksilla ennen kliinisiä suunnitelmia
+- Reittien yhteensopivuuden ja ennustettujen käyttöaiheiden samankaltaisuuden arviointi alkuperäiseen käyttöaiheeseen nähden
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

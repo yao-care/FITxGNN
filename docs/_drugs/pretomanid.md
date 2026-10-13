@@ -2,7 +2,7 @@
 layout: default
 title: Pretomanid
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 309
+nav_order: 357
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,63 +29,99 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Pretomanidi: Moniresistentista tuberkuloosista kandidiasisiin
+# Pretomanidi: Monilääkeresistentin tuberkuloosin hoidosta ennustettuun kandidoosiin
 
-## Yhden lauseen tiivistelmä
+## Yhteenveto
 
-Pretomanidi (PA-824) on nitroimidazoksatiini-antimykobakteeriaine, joka on hyväksytty kansainvälisesti osana BPaL/BPaLM-yhdistelmää laajasti lääkeresistentin (XDR) ja hoitokelvottoman/hoitoon vastaamattoman moniresistentin (MDR) keuhkotuberkuloosin hoitoon. TxGNN-malli ennustaa, että se saattaa olla tehokas **kandidiaasin** hoitoon ennustepisteinä **99.69%**, mutta tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua** tukee tätä suuntaa, eikä näyttöpaketin oma mekanistinen analyysi löydä biologista perustelua tälle yhteydelle.
+Pretomanidi on nitroimidatsooksatsiinien ryhmän lääke, jota on käytetty monilääkeresistentin tuberkuloosin hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **kandidoosiin** (pistemäärä 99,69 %), mutta ennusteelle ei löydy tukea kliinisistä tutkimuksista eikä kirjallisuudesta: **0 kliinistä tutkimusta** ja **0 julkaisua**.
+Ennuste perustuu pelkästään tietämysgraafiin, ja tässä raportissa se arvioidaan heikosti perustelluksi.
 
-## Nopea yleiskatsaus
+---
+
+## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Monilääkeresistentti / laajasti lääkeresistentti keuhkotuberkuloosi (BPaL/BPaLM-yhdistelmä) — paikallista lääkehyväksyntää ei ole; tämä on johdettu näyttöpaketin kirjallisuusviitatuksista, ei muodollisesta indikaatiokentästä |
-| Ennustettu uusi indikaatio | Kandidiaasi |
-| TxGNN-ennustepiste | 99.69% |
+| Alkuperäinen käyttöaihe | Monilääkeresistentti tuberkuloosi |
+| Ennustettu uusi käyttöaihe | Kandidoosi |
+| TxGNN-ennustepistemäärä | 99,69 % |
 | Näytön taso | L5 |
-| Suomen markkinatilanne | ✗ Ei markkinoilla |
-| Hyväksyntöjen määrä | 0 |
-| Suositeltu päätös | Pidätys |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odotetaan) |
 
-## Miksi tämä ennuste on kohtuullinen?
+---
 
-Tällä hetkellä yksityiskohtaista vaikutusmekanismin tietoa ei ole saatavilla jäsennelyssä lääkkeen tietueessa (`original_moa` on tieto-aukko). Kuitenkin näyttöpaketin tueksi ottama teksti kuvaa pretomaniidin tunnetun farmakologian: se on syklinen nitroimidatsoli-esisyy, joka aktivoidaan mykobakteeri-spesifisen Ddn-nitroredukentsin avulla, joka estää mykoliinihapon synteesiä ja vapauttaa typpimonioksidia, jolloin syntyy bakteereja tuhoava aktiivisuus *Mycobacterium*-lajeja vastaan.
+## Miksi ennuste on (tai ei ole) perusteltu?
 
-Tämä mekanismi on spesifinen mykobakteerisen seinäbiosynteesin osalta ja sillä ei ole tunnettua vastaavaa sieni-biologiassa. Kandidiaasin aiheuttavat *Candida*-lajit (sieni), joilla ei ole Ddn-nitroredukentsin aktivaatioreittiä eikä mykoliinihapon synteesiä, joihin pretomanidi kohdistuu. Näyttöpaketin omat perustelut tälle ennusteelle sanovat selvästi: *"無。Pretomanid 作用標的為分枝桿菌特有的 Ddn 硝基還原酶活化路徑與分枝菌酸合成抑制，Candida 為真菌，無同源標的，亦無已知抗真菌活性機轉"* — toisin sanoen mekanistista yhteyttä ei ole olemassa.
+Tämän raportin laatimiseen kerätyissä tiedoissa ei ole yksityiskohtaista vaikutusmekanismia. Tunnetun farmakologian mukaan pretomanidi on esilääke, jonka *Mycobacterium tuberculosis* aktivoi deatsaflaviiniriippuvaisella nitroreduktaasilla (Ddn). Aktivoituessaan se vapauttaa typpioksidia ja reaktiivisia typpiyhdisteitä ja estää mykolihappojen synteesiä.
 
-Koska mekanistista yhteyttä ei ole, kliinistä tutkimusta tai kirjallisuustodistetta ei ole, tätä ennustetta tulee käsitellä todennäköisesti mallin artefaktina eikä aitoina lääkkeen uudelleenkäytön signaalina.
+Candida-sienillä ei ole tätä aktivaatioreittiä eikä mykobakteerien soluseinän kohdetta, joten sienilääkevaikutusta ei ole syytä odottaa. Alkuperäisen käyttöaiheen (bakteerin aiheuttama tuberkuloosi) ja ennustetun käyttöaiheen (sieni-infektio) välillä ei ole osoitettua mekanistista yhteyttä. Hyvin korkea TxGNN-pistemäärä on pelkkä tietämysgraafin ennuste.
 
-## Kliinisen tutkimuksen näyttö
+Ennustelistan muut kohteet eivät myöskään ole vahvempia:
 
-Ei tällä hetkellä liittyviä rekisteröityjä kliinisiä tutkimuksia
+- **Lepra** (pistemäärä 99,27 %): *M. leprae* on sukua tuberkuloosibakteerille, joten periaatteessa yhteys on uskottavampi. *M. leprae* on kuitenkin menettänyt suuren osan genomistaan, eikä ole osoitettu, että sillä on pretomanidin tarvitsema Ddn-aktivaatioreitti. Kaikki kahdeksan löydettyä julkaisua koskevat lääkeresistenttiä tuberkuloosia, ei lepraa. Lepran hoitoon on lisäksi vakiintunut monilääkehoito (dapsoni, rifampisiini, klofatsimiini).
+- **Sepelvaltimotauti** (99,25 %), **sydänlihasiskemia** (99,17 %) ja **sepelvaltimon poikkeava erkaneminen keuhkovaltimosta** (99,08 %): sydän- ja verisuonitaudeille ei ole havaittavissa uskottavaa mekanistista yhteyttä, ja korkeat pisteet johtuvat todennäköisesti tietämysgraafin yhteisestä naapurustosta. Sepelvaltimon poikkeava erkaneminen on harvinainen synnynnäinen rakennepoikkeama, jota hoidetaan leikkauksella.
 
-## Kirjallisuuden näyttö
+---
 
-Ei tällä hetkellä saatavilla olevaa kirjallisuutta
+## Kliiniset tutkimukset
 
-## Suomen markkinatiedot
+Ennustetusta käyttöaiheesta (kandidoosi) ei ole tällä hetkellä rekisteröityjä kliinisiä tutkimuksia.
 
-Pretomanidilla ei ole paikallista markkinahyväksyntää tällä markkinalla (`market_status: Not marketed`, `total_licenses: 0`), joten mitään hyväksyntätietueita ei ole saatavilla luetteloitavaksi.
+---
 
-## Turvallisuuteen liittyvät näkökohdat
+## Kirjallisuusnäyttö
 
-Turvalllisuustietoja varten katso pakkausesitettä.
+Kandidoosista ei ole tällä hetkellä saatavilla aiheeseen liittyvää kirjallisuutta.
 
-**Huomio:** Pohjalla oleva tietopaketti merkitsee tämän lääkkeen paikallisten pakkausesitteen varoitukset/vasta-aiheet **estäväksi tieto-aukoksi (DG001)** — mikä tarkoittaa, että muodollista S1-turvallisuusarviointia ei voi suorittaa vielä. Lisäksi paketin oma analyysi eri ehdokkaan indikaation (myokardin iskemia) osalta huomauttaa, että pretomanidilla on **tunnettu QT-pidentymisriski**, erityisesti käytettäessä BPaL-yhdistelmässä bedakviiniinin kanssa. Tämä ei ole virallista turvallisuustietoa, joka on poimittu merkinnöistä, mutta se on dokumentoitu signaali, joka kannattaa kuljettaa eteenpäin tuleviin arviointeihin.
+Toiseksi sijoittuneesta ennusteesta (lepra) haettiin kahdeksan julkaisua, mutta ne koskevat kaikki lääkeresistenttiä tuberkuloosia eivätkä leprapotilaita. Ne eivät siis tue ennustetta. Ne kuvaavat kuitenkin pretomanidin käyttöä alkuperäisessä käyttöaiheessa:
 
-## Johtopäätös ja seuraavat vaiheet
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [41263908](https://pubmed.ncbi.nlm.nih.gov/41263908/) | 2025 | Katsaus | Archives of Microbiology | Kattava katsaus pretomanidiin lääkeresistentin keuhkotuberkuloosin hoidossa osana BPaL-hoito-ohjelmaa |
+| [41876996](https://pubmed.ncbi.nlm.nih.gov/41876996/) | 2026 | Kohorttitutkimus | BMC Infectious Diseases | BPaLM-hoito-ohjelman tehoa ja turvallisuutta selvittävä monikeskus-retrospektiivinen tutkimus Etiopiassa |
+| [41080099](https://pubmed.ncbi.nlm.nih.gov/41080099/) | 2025 | Kohorttitutkimus | Pan African Medical Journal | BPaL/BPaLM-hoidon tulokset lääkeresistentissä tuberkuloosissa Kaakkois-Nigeriassa |
+| [41354901](https://pubmed.ncbi.nlm.nih.gov/41354901/) | 2025 | Kohorttitutkimus | Communications Medicine | Koko genomin sekvensointi laajasti lääkeresistentin tuberkuloosin havaitsemiseksi Etiopiassa |
+| [34992077](https://pubmed.ncbi.nlm.nih.gov/34992077/) | 2022 | Taloudellinen arviointi | BMJ Global Health | BPaL-hoidon budjettivaikutus laajasti lääkeresistentin tuberkuloosin hoidossa |
 
-**Päätös: Pidätys**
+---
+
+## Markkinatiedot Suomessa
+
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/005167 | Dovprela (aiemmin Pretomanid FGK) | – | Monilääkeresistentti tuberkuloosi |
+
+Tämä myyntilupa on tilaltaan peruutettu, eikä Suomessa ole voimassa olevia pretomanidivalmisteiden myyntilupia.
+
+---
+
+## Turvallisuusnäkökohdat
+
+- **Lääkeyhteisvaikutukset**: Tietokannasta löytyi yhteensä 14 yhteisvaikutusta.
+  - **Merkittävät (Major)**: deksametasoni, lumakaftori, apalutamidi, dabrafenibi, mitotaani, lorlatinibi, entsalutamidi
+  - **Kohtalaiset (Moderate)**: empagliflotsiini, sitagliptiini, somatropiini, somatreemi, barisitinibi, klofarabiini, metotreksaatti
+- **Sydänturvallisuus**: QT-ajan pidentymistä on pidetty huomionarvoisena pretomanidia sisältävissä hoito-ohjelmissa. Tämä korostuu, jos lääkettä harkittaisiin sydän- ja verisuonitautien käyttöaiheisiin.
+
+Varoituksia ja vasta-aiheita koskevat tiedot tulee tarkistaa valmisteyhteenvedosta.
+
+---
+
+## Johtopäätös ja jatkotoimet
+
+**Päätös: Hold (odotetaan)**
 
 **Perustelut:**
-TxGNN-pistemäärä on korkea, mutta kandidiaasin kohdalla ei ole kliinistä tai kirjallisuustodistetta, ja näyttöpaketin oma mekanistinen katsaus päättelee, että biologista linkkiä ei ole (antimykobakteeri vs. antisieni-kohderistiriita). Tieto-aukko paikallisissa pakkausesitteen varoituksissa/vasta-aiheissa (DG001) estää myös muodollisen turvallisuusarvioinnin aloittamisen.
+- Kaikkien viiden ennustetun käyttöaiheen näyttö on tasoa L5: kyse on vain mallin ennusteesta, eikä kliinisiä tutkimuksia tai aiheeseen osuvaa kirjallisuutta ole. Mekanistista yhteyttä ei ole osoitettu kandidoosille eikä sydän- ja verisuonitaudeille, ja lepran osalta se on vain teoreettisesti mahdollinen. Lääkkeellä ei myöskään ole voimassa olevaa myyntilupaa Suomessa.
 
-**Jatkamista varten tarvitaan seuraava:**
-- Paikallisen sääntelyviranomaisen pakkausesite (varoitukset/vasta-aiheet) DG001:n ratkaisemiseksi ennen mitään S1-turvallisuusarviointia
-- Vahvistetut MOA-tiedot DrugBank API:n kautta DG002:n ratkaisemiseksi
-- In vitro/in vivo -antisieni-aktiivisuustiedot pretomanidista *Candida*-lajeja vastaan, koska sellaisia ei tällä hetkellä ole
-- Viitteeksi, seuraavaksi sijoittunut ennuste (lepra, L4) sisältää todellista tutkimus-/kirjallisuuskatetta, mutta sitä kumoaa myös suora in vitro -todiste (PMID 17005816), joka osoittaa, että *M. leprae* on luontaisesti resistentti PA-824:lle — joten se ei ole vahvempi ehdokas sekään. Sijoitukset 3–5 (sepelvaltimon tauti, myokardin iskemia, epänormaali sepelvaltimo) eivät ole mekanistista perustaa eivätkä todistetta, ja niitä tulee käsitellä matalan prioriteetin mallin kohinana.
-
+**Etenemiseksi tarvitaan:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvitys (Fimean sivustolta), sillä turvallisuusarviointia ei voi tehdä ilman niitä
+- Yksityiskohtainen vaikutusmekanismi (esim. DrugBankista)
+- Prekliiniset in vitro -tiedot pretomanidin vaikutuksesta *Candida*-lajeihin ja *M. leprae* -bakteeriin sekä Ddn-reitin esiintymisestä niissä
+- Lepran osalta kirjallisuushaun tarkennus, koska nykyiset osumat koskevat vain tuberkuloosia
+- Sydänturvallisuuden (QT-aika) ja yhteisvaikutusten arviointi ennen mitään jatkokehitystä
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

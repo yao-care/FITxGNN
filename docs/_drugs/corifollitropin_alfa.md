@@ -2,7 +2,7 @@
 layout: default
 title: Corifollitropin Alfa
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 106
+nav_order: 119
 evidence_level: L5
 indication_count: 8
 ---
@@ -29,75 +29,77 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **8** kpl
 
 </div>
 
-# Corifollitropin alfa: hallitusta munasarjan stimulaatiosta gastroduodeniitiksi
+# Korifollitropiini alfa: Avusteisesta lisääntymisestä ja ovulaation induktiosta gastroduodeniittiin
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Corifollitropin alfa on pitkävaikutteinen rekombinanttiproteiini FSH-reseptoriagonisti, jota käytetään hallitussa munasarjan stimulaatiossa (COS) avusteisessa hedelmöityshoitoa. TxGNN-malli ennustaa mahdollista tehokkuutta **gastroduodeniitille**, mutta tätä suuntaa tukee tällä hetkellä **0 kliinistä tutkimusta** ja **0 asiaankuuluvaa julkaisua** — se on vain malliennusteeseen perustuva signaali ilman mekanistista tai kliinistä vahvistusta.
+Korifollitropiini alfa on pitkävaikutteinen yhdistelmä-FSH-agonisti, jota on käytetty avusteisissa lisääntymistekniikoissa ja ovulaation induktiossa.
+TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **gastroduodeniitin**, mutta ennusteen tueksi ei ole löytynyt **yhtään kliinistä tutkimusta eikä julkaisua**.
 
----
-
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohde | Sisältö |
-|------|--------|
-| Alkuperäinen indikaatio | Halittu munasarjan stimulaatio (COS) hedelmättömyyteen/avusteiseen hedelmöityshoitoon (perustuu tunnettuun farmakologiaan; Suomen lupaa koskevat tiedot eivät ole saatavilla lähteenä) |
-| Ennustettu uusi indikaatio | Gastroduodeniitti |
-| TxGNN-ennustepisteet | 99.65% |
-| Evidenssitaso | L5 (vain malliennuste, ei tukevia tutkimuksia) |
-| Suomen markkinatilanne | Ei markkinoilla (Ei markkinoilla) |
-| Myyntilupien lukumäärä | 0 |
-| Suositeltu päätös | Pidä |
+|------|------|
+| Alkuperäinen käyttöaihe | Avustetut lisääntymistekniikat; ovulaation induktio; tutkimusmenetelmät |
+| Ennustettu uusi käyttöaihe | Gastroduodeniitti |
+| TxGNN-ennusteen pistemäärä | 99,65 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
----
+## Miksi ennuste on (tai ei ole) perusteltu?
 
-## Miksi tämä ennuste on järkevä?
+Korifollitropiini alfa on pitkävaikutteinen FSH-agonisti: FSH:n beeta-alayksikkö on yhdistetty hCG:n C-terminaaliseen peptidiin (CTP). Se vaikuttaa sukurauhasten FSH-reseptoreihin. Yksityiskohtaista vaikutusmekanismitietoa ei ole tähän raporttiin koottu aineistossa saatavilla.
 
-Tällä hetkellä yksityiskohtaisia toimintamekanismin tietoja ei ole saatavilla (merkitty korkean vakavuusluokan tietovajeeksi lähdetodistepakettiin). Tunnetun farmakologian perusteella Corifollitropin alfa on pitkävaikutteinen rekombinanttiproteiini follikkelia stimuloiva hormoni (FSH) -reseptoriagonisti; sen toiminta rajoittuu FSH-reseptoreihin munasarjan granulosasoluissa, joissa se edistää follikkelien kehittymistä hallitussa munasarjan stimulaatiossa.
+Uskottavaa mekanistista yhteyttä FSH-reseptorisignaloinnin ja mahalaukun tai pohjukaissuolen limakalvon tulehduksen välillä ei ole osoitettu. Korkea pistemäärä (0,997) perustuu todennäköisesti tietämysgraafin verkostolähyyteen, ei biologiseen näyttöön. Alkuperäinen käyttöaihe (hedelmällisyyshoito) ja ennustettu käyttöaihe (ruoansulatuskanavan tulehdus) ovat lääketieteellisesti hyvin kaukana toisistaan.
 
-Gastroduodeniitti on mahan ja pohjukaissuolen limakalvon tulehduksellinen tila, jonka patofysiologia keskittyy mahahappojen eritykseeseen, limakalvon esteen eheyteen ja paikallisiin tulehduksellisiin/infektioisiin prosesseihin (esim. *H. pylori*). Ei ole vakiintunutta farmakologista reittiä, joka yhdistäisi munasarjan FSH-reseptorin agonismia maha-pohjukaissuoli limakalvon tulehdukseen.
+### Muut ennustetut käyttöaiheet
 
-Todistepaketin oma mekanistinen arviointi on yhtä mieltä: TxGNN-pisteet (99.65%) kuvastavat graafi-upotuksen samankaltaisuutta eikä vahvistettua biologista yhteyttä, ja mitään kliinistä tai kirjallisuustodisteita tämän yhteyden tueksi ei ole löydetty. Tätä ennustetta tulisi käsitellä matalan luottamuksen signaalina, joka ei vaadi lähiaikoina toimenpiteitä.
+Samalla pistemäärällä (0,991–0,997) ennustettiin myös muita käyttöaiheita. Yhdellekään ei löytynyt kliinistä tai kirjallisuusnäyttöä, ja kaikkien näytön taso on L5 ja suositus Hold.
 
----
+| Sija | Ennustettu käyttöaihe | Pistemäärä | Huomio |
+|------|------|------|------|
+| 2 | Migreeni | 99,63 % | Spekulatiivinen hormonaalinen yhteys; munasarjojen stimulaatio voisi pahentaa hormoniherkkää migreeniä |
+| 3 | Peptinen haavauma | 99,61 % | Ei tunnettua mekanismia; todennäköisesti graafin läheisyyden artefakti |
+| 4 | Migreeni, johon liittyy aivorunkoaura | 99,59 % | Harvinainen, kanavapatiaan liittyvä; ei yhteyttä FSH-signalointiin |
+| 5 | Raynaud'n tauti | 99,59 % | FSH-spesifisiä vaikutuksia ei ole dokumentoitu |
+| 6 | Keuhkoverenpainetauti | 99,44 % | Munasarjojen stimulaatioon liittyy tromboembolia- ja nestesiirtymäriskejä (esim. OHSS) |
+| 7 | Kyfoskolioottinen sydänsairaus | 99,36 % | Ei uskottavaa yhteyttä; todennäköisesti graafin artefakti |
+| 8 | Migreenialttius (geneettinen) | 99,11 % | Geneettinen alttiusmerkintö, ei hoidettava käyttöaihe |
 
-## Kliiniset tutkimustodisteet
+## Kliininen tutkimusnäyttö
 
-Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
+Aiheeseen liittyviä kliinisiä tutkimuksia ei ole tällä hetkellä rekisteröity.
 
----
+## Kirjallisuusnäyttö
 
-## Kirjallisuustodisteet
+Aiheeseen liittyvää kirjallisuutta ei ole tällä hetkellä saatavilla.
 
-Tällä hetkellä asiaan liittyvää kirjallisuutta ei ole saatavilla.
+## Markkinatiedot Suomessa
 
----
-
-## Suomen markkinatiedot
-
-Corifollitropin alfa ei ole tällä hetkellä markkinoilla Suomessa (markkinatilanne: Ei markkinoilla; 0 myyntilupaa arkistossa), joten tuotteen/luvan yksityiskohtia ei ole saatavilla.
-
----
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/001106 | Elonva (Organon N.V.) | – | Avustetut lisääntymistekniikat; ovulaation induktio; tutkimusmenetelmät (tila: peruutettu) |
 
 ## Turvallisuusnäkökohdat
 
-Turvallisuustiedot löytyvät pakkausselosteesta.
+Turvallisuustietoja (varoitukset, vasta-aiheet, yhteisvaikutukset) ei ole tässä aineistossa saatavilla. Katso turvallisuustiedot valmisteyhteenvedosta.
 
----
+Ennustettuihin käyttöaiheisiin liittyen aineistossa todetaan, että munasarjojen stimulaatioon liittyy tromboembolia- ja nestesiirtymäriskejä (esim. OHSS), mikä on huomioitava erityisesti keuhkoverenpainetaudin kohdalla.
 
-## Johtopäätös ja seuraavat vaiheet
+## Johtopäätös ja seuraavat askeleet
 
-**Päätös: Pidä**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Ennuste perustuu yksinomaan TxGNN-mallin pisteyttämiseen (L5, S0), ilman kliinisiä tutkimuksia, tukevaa kirjallisuutta ja uskottavaa mekanistista yhteyttä FSH-reseptorin agonismin ja maha-pohjukaissuoli limakalvon tulehduksen välillä. Kaikki muut tälle lääkkeelle ennustetut indikaatiot (migreeni, mahahaavatauti, Raynaudin tauti, pulmonaalinen hypertensio, kyfooskolioottinen sydänsairaus) on vastaavasti arvioitu L5/Pidä ilman vahvistavia todisteita — mukaan lukien yksi ehdokas (migreeni-alttisuus), jossa löydettiin 20 kirjallisuusosumaa, mutta tarkistuksen perusteella ne ovat epilepsia/migreeni-perimä tutkimuksia, jotka eivät liity Corifollitropin alfaan (avainsana-osumien häly, ei todellista todisteita).
+- Ennuste perustuu pelkästään graafipohjaiseen mallipisteytykseen (L5). Kliinistä tai kirjallisuusnäyttöä ei ole, uskottavaa mekanismia ei ole tunnistettu, ja Suomessa valmisteen ainoa myyntilupa on peruutettu.
 
-**Jatkamiselle tarvitaan seuraavaa:**
-- TFDA/sääntelymukainen pakkausseloste (tällä hetkellä korkean vakavuusluokan tietovaje — vaaditaan ennen mitään turvallisuuden esiarviointia)
-- Vahvistettu toimintamekanismin tieto DrugBankista tai peruslähteistä
-- Prekliiniset tai mekanistiset tutkimukset, joissa vakiinnutetaan biologinen uskottavuus ruoansulatuskanava-indikaatiolle
-- Uudelleenseulonta päivitettyjä kirjallisuus-/kliinisen tutkimuksen tietokantoja vastaan ennen kuin harkitaan tätä ehdokasta uudelleen
-
+**Jatkotoimiin tarvitaan:**
+- Vaikutusmekanismitiedot (MOA), esimerkiksi DrugBankista
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet Fimean sivustolta (nykyinen turvallisuusarvioinnin estävä tietoaukko)
+- Prekliininen tai mekanistinen näyttö FSH-signaloinnin roolista ennustetussa sairaudessa
+- Systemaattinen kirjallisuushaku ennen kuin ehdokasta harkitaan uudelleen
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

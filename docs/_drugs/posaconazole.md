@@ -2,7 +2,7 @@
 layout: default
 title: Posaconazole
 parent: Kohtalainen näyttö (L3-L4)
-nav_order: 304
+nav_order: 352
 evidence_level: L4
 indication_count: 1
 ---
@@ -29,69 +29,99 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Poskonatsoli: invasiivisen sieniinfektioiden profylaksiasta pneumosystoosin hoitoon
+# Posakonatsoli: Sieni-infektioista pneumokystoosiin
 
-## Yhden lauseen yhteenveto
+## Yhden virkkeen yhteenveto
 
-Poskonatsoli on triatsoolimainen antifungilainen lääke, jota on perinteisesti käytetty invasiivisten sieniinfektioiden (kuten aspergilloosin ja mukormykoosin) ehkäisyyn ja hoitoon kuulumattomissa immunovajaavaissa potilaissa. TxGNN-malli ennustaa, että se voi olla tehokas myös **pneumosystoosin (Pneumocystis-keuhkokalvontulehdus)** hoidossa, mutta tällä hetkellä on saatavilla vain **2 kliinistä tutkimusta** ja **5 julkaisua**, eikä mikään niistä testaa suoraan poskonatsolia tätä erityistä indikaatiota vastaan.
+Posakonatsoli on triatsoliryhmän sienilääke, jota on alun perin käytetty kandidiaasin, muiden sieni-infektioiden (mykoosit), koksidioidomykoosin ja aspergilloosin hoitoon. TxGNN-malli ennustaa sen voivan tehota **pneumokystoosiin** (*Pneumocystis jirovecii* -infektio), mutta suoraa näyttöä on vähän: **1 kliininen tutkimus** (ei testaa posakonatsolia) ja **5 julkaisua** (kaikki epäsuoria) tukevat tätä suuntaa vain välillisesti.
 
-## Pikayleiskatsaus
+---
 
-| Kohde | Sisältö |
-|-------|---------|
-| Alkuperäinen indikaatio | Invasiivisen sieniinfektioiden profylaksia/hoito (esim. aspergilloosi, mukormykoosi) — virallista Suomen merkintätekstiä ei ole saatavilla, koska tuotetta ei tällä hetkellä markkinoida |
-| Ennustettu uusi indikaatio | Pneumosystoosi (Pneumocystis-keuhkokalvontulehdus) |
-| TxGNN-ennustepisteet | 99.77% |
+## Pikakatsaus
+
+| Kohta | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | Kandidiaasi, mykoosit, koksidioidomykoosi, aspergilloosi |
+| Ennustettu uusi käyttöaihe | Pneumokystoosi |
+| TxGNN-ennustepistemäärä | 99,77 % |
 | Näytön taso | L4 |
-| Suomen markkinoiden asema | ✗ Ei markkinoitu |
-| Hyväksyntöjen määrä | 0 |
-| Suositeltu päätös | Pidätä |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 3 (kaikki peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennuste on järkevä?
+---
 
-Poskonatsoli on triatsoolimainen antifungilainen lääke. Sen vaikutusmekanismi on sienen CYP51-inhibitio (14-α-demetylaasin), joka estää ergosterolin synteesiä — solun kalvon välttämätöntä osatekijää. Kliinisesti sitä käytetään pääasiassa invasiivisen aspergilloosin ja mukormykoosin ehkäisyyn ja hoitoon korkean riskin potilasryhmissä, kuten hematologisissa malignansseissa tai siirtohoidon saaneissa potilaissa.
+## Miksi ennuste on perusteltu – ja mitkä ovat sen rajat?
 
-*Pneumocystis jirovecii* on kuitenkin epätyypillinen sieni, jonka kalvojen sterolien koostumus on erilainen — se sisältää suhteellisen vähän ergosterolia ja riippuu enemmän muista sterooleista. Tämän seurauksena triatsoolien suora antifungaalinen vaikutus *Pneumocystista* vastaan on mekanistisesti mahdollinen, mutta kirjallisuudessa vain heikosti ja epäjohdonmukaisesti tuettu; trimetopriimi-sulfametoksatsoli (TMP-SMX) pysyy tämän organismin hoitostandardi.
+Tarkkaa vaikutusmekanismia ei tällä hetkellä ole saatavilla kootuista tiedoista. Yleisen lääketieteellisen tiedon mukaan posakonatsoli on triatsoliryhmän sienilääke, joka estää sienen lanosteroli-14-alfa-demetylaasia (CYP51) ja siten ergosterolin synteesiä. Ergosteroli on useimpien sienten solukalvon keskeinen osa, mikä selittää tehon kandidiaasiin ja aspergilloosiin.
 
-Tästä johtuen yhteys poskonatsolin ja pneumosystoosin välillä tulee käsitellä epäsuoran, mekanismin ajaman hypoteesin eikä kliinisesti validoidun hoidon näkökulmasta. Tämä on johdonmukaista näyttöpaketin oman pisteytyksen kanssa: L4-näytön taso ja "S0 / Research Question" -päätösvaihe, mikä tarkoittaa, että ennuste perustuu tällä hetkellä mekanistiseen päättelyyn, ei vahvistettuun kliiniseen hyötyyn.
+*Pneumocystis jirovecii* poikkeaa kuitenkin useimmista sienistä: sen solukalvossa on vain vähän tai ei lainkaan ergosterolia, ja se käyttää pääasiassa kolesterolia ja muita steroleja. Atsolien kohde on siis pneumokystiksessä suurelta osin poissa. Korkea TxGNN-pistemäärä heijastaa todennäköisesti lääkkeen yleistä sienilääkeprofiilia ja sen läheisyyttä muihin mykooseihin tietämysgraafissa, ei validoitua vaikutusmekanismia pneumokystista vastaan.
 
-## Kliinisten tutkimusten näyttö
+Alkuperäisten käyttöaiheiden ja ennustetun käyttöaiheen yhteys on siten lähinnä luokittelullinen (kaikki ovat sieni-infektioita), ei mekanistinen. Tämä arvio perustuu lääkeryhmän yleiseen tietoon, ei toimitettuun aineistoon.
 
-| Tutkimuksen numero | Vaihe | Tila | Osallistujat | Tärkeimmät löydökset |
+---
+
+## Kliinisen tutkimuksen näyttö
+
+| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT04368559](https://clinicaltrials.gov/study/NCT04368559) | Vaihe 3 | Valmis | 602 | Arvioi IV rezafungiinia (ekinokandiini, ei poskonatsolia) tavanomaisen antimikrobisen hoitovalinnan kanssa invasiivisen sieniinfektioiden ennaltaehkäisyssä allgeenisen HSCT:n saaneiden potilaissa; merkityksellinen vain antifungaalisen profylaksian taustakontekstina, ei suoraa näyttöä poskonatsolin hyväksi pneumosystoosin hoidossa. |
-| [NCT06859424](https://clinicaltrials.gov/study/NCT06859424) | Vaihe 2 | Rekrytointi käynnissä | 358 | Alustutkimus vertailemassa GVHD-profylaksian hoitoskeemoja (PTCy-pohjaiset) epäsopivista ei-sukulaisista siirtäjistä; ei mainitse poskonatsolia tai pneumosystoosia ensisijaisena päätetapahtumana — mikään antifungaalisen profylaksian varsi on satunnainen, ei suora testi tälle indikaatiolle. |
+| [NCT04368559](https://clinicaltrials.gov/study/NCT04368559) | Vaihe 3 | Päättynyt | 602 | Reetsafungiinin (ekinokandiini) tehoa ja turvallisuutta verrattiin vakiohoitoon invasiivisten sieni-infektioiden ehkäisyssä allogeenisen kantasolusiirron saaneilla aikuisilla. Tutkimus ei testaa posakonatsolia pneumokystoosissa. |
 
-Kumpikaan tutkimus ei testaa suoraan poskonatsolia pneumosystoosin hoidossa; molemmat on arvioitu "C"-merkityksellisyydellä (epäsuora taustanäyttö vain).
+Tutkimus on arvioitu heikosti relevantiksi (luokka C), eikä sitä voida pitää suorana vaiheen 3 näyttönä tälle lääkkeelle ja käyttöaiheelle.
+
+---
 
 ## Kirjallisuusnäyttö
 
-| PMID | Vuosi | Tyyppi | Julkaisu | Tärkeimmät löydökset |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [41232547](https://pubmed.ncbi.nlm.nih.gov/41232547/) | 2025 | Katsaus/Ohje | The Lancet Infectious Diseases | UK:n parhaiden käytäntöjen päivitys vakavien sieniinfektioiden diagnostiikasta; käsittelee diagnostiikkaisia menetelmiä laajasti, ei poskonatsolin tehokkuutta pneumosystoosin hoidossa erityisesti. |
-| [41362140](https://pubmed.ncbi.nlm.nih.gov/41362140/) | 2025 | Katsaus/Ohje | Chinese Journal of Tuberculosis and Respiratory Diseases | 2025 Kiinan invasiivisen pulmonaarisen sieniinfektioiden diagnostiikan ja hoitamisen kliininen käytäntöohje. |
-| [35596686](https://pubmed.ncbi.nlm.nih.gov/35596686/) | 2022 | Kohortti | Transplant Infectious Disease | Infektiouskomplikaatioiden (myös sieniinfektiot) takautuva katsaus akuuttiin GVHD:n yhteydessä maksansiirtopotilaissa; tarjoaa epidemiologista kontekstia, ei suoraa poskonatsoli–pneumosystoosi-tietoa. |
-| [26901377](https://pubmed.ncbi.nlm.nih.gov/26901377/) | 2016 | Katsaus | Swiss Medical Weekly | Invasiivisen kandidiaasin, aspergilloosin, kryptokokkoosin ja Pneumocystis-keuhkokalvontulehduksen yleiskatsaus; huomauttaa poskonatsolin vakiintuneen roolin invasiivisen kandidiaasin vähentämisessä homeaktiivisen profylaksian kautta, mutta ei raportoi suoraa anti-Pneumocystis-tehokkuutta. |
-| [21973267](https://pubmed.ncbi.nlm.nih.gov/21973267/) | 2011 | Katsaus (PK) | Clinical Pharmacokinetics | Arvioi keuhkoepiteelin pinnoitusnesteen penetraatiota antifungaalisten/antituberkkuloosisten aineiden osalta; vain farmakokineetinen konteksti, ei tehokkuustietoja pneumosystoosin hoidossa. |
+| [26901377](https://pubmed.ncbi.nlm.nih.gov/26901377/) | 2016 | Katsaus | Swiss Medical Weekly | Yleiskatsaus yleisiin invasiivisiin sieni-infektioihin (kandidiaasi, aspergilloosi, kryptokokkoosi, pneumokystis-keuhkokuume). Mainitsee, että mould-aktiivinen posakonatsoliprofylaksia on vähentänyt invasiivisia infektioita korkean riskin hematologisilla potilailla. |
+| [41232547](https://pubmed.ncbi.nlm.nih.gov/41232547/) | 2026 | Katsaus | The Lancet Infectious Diseases | Brittiläisen lääketieteellisen mykologian yhdistyksen päivitetyt suositukset vakavien sieni-infektioiden diagnostiikkaan. |
+| [41362140](https://pubmed.ncbi.nlm.nih.gov/41362140/) | 2025 | Katsaus | Zhonghua Jie He He Hu Xi Za Zhi | Kiinalaiset ohjeet invasiivisten keuhkosieni-infektioiden diagnostiikkaan ja hoitoon. |
+| [21973267](https://pubmed.ncbi.nlm.nih.gov/21973267/) | 2011 | Katsaus | Clinical Pharmacokinetics | Sienilääkkeiden pääsy keuhkojen epiteelinestekerrokseen (ELF) eri lääkemuodoilla ja lääkeaineilla. |
+| [35596686](https://pubmed.ncbi.nlm.nih.gov/35596686/) | 2022 | Kohorttitutkimus | Transplant Infectious Disease | Infektiokomplikaatiot akuutissa graft-versus-host-taudissa maksasiirron jälkeen (retrospektiivinen). |
+
+Mikään julkaisuista ei osoita posakonatsolin tehoa pneumokystoosin hoidossa.
+
+---
+
+## Suomen markkinatiedot
+
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000610 | Noxafil | – | Kandidiaasi, mykoosit, koksidioidomykoosi, aspergilloosi |
+| EMEA/H/C/005005 | Posaconazole Accord | – | Mykoosit |
+| EMEA/H/C/005028 | Posaconazole AHCL | – | Mykoosit |
+
+Kaikki kolme myyntilupaa on tilassa "peruutettu".
+
+---
 
 ## Turvallisuusnäkökohdat
 
-Viitatkaa tuoteselosteeseen turvallisuustiedoista.
+**Lääkkeiden yhteisvaikutukset:** Yhteisvaikutuskyselyssä löytyi yhteensä 100 yhteisvaikutusta. Esimerkkejä:
 
-## Johtopäätös ja seuraavat vaiheet
+- **Merkittävät (Major):** loperamidi, triamsinoloni, budesonidi
+- **Kohtalaiset (Moderate):** famotidiini, ranitidiini, rabepratsoli, omepratsoli, simetidiini, hydrokortisoni, deksametasoni, betametasoni, aprepitantti, klaritromysiini, saksagliptiini, bisakodyyli, pikosulfaatti ja polyetyleeniglykoli
 
-**Päätös: Pidätä**
+Pelkistä lääkeaineen turvallisuustiedoista (varoitukset, vasta-aiheet) ei ole tällä hetkellä saatavilla tietoa. Katso ne valmisteyhteenvedosta.
+
+---
+
+## Johtopäätös ja seuraavat askeleet
+
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Näyttöpaketti itse pisteyttää tämän ennusteen L4:ksi ("Research Question," päätösvaihe S0) — mekanistinen hypoteesi ilman kliinistä tutkimusta tai kirjallisuutta, joka testaa poskonatsolia pneumosystoosin hoidossa, ja *Pneumocystiksen* epätyypillinen sterolien biologia tekee triatsoolien tehokkuuden epävarmmaksi. TFDA/Fimean turvallisuusmerkinöinnin blokkaavan tietovajeen ja tuotteen nykyisen markkinoinnin puuttumisen Suomessa vuoksi ei ole vielä riittävää perustaa jatkaa.
+- Ennuste perustuu lähinnä mallin korkeaan pistemäärään. Kliininen tutkimus ei testaa posakonatsolia, kirjallisuus on epäsuoraa, ja mekanistisesti *Pneumocystis* on vähäisen ergosterolipitoisuutensa vuoksi atsolien kohteena epätodennäköinen. Näytön taso on L4.
+- Valmisteiden myyntiluvat Suomessa on peruutettu, ja valmisteyhteenvedon turvallisuustiedot puuttuvat.
 
-**Jotta voitaisiin edetä, seuraavaa tarvitaan:**
-- TFDA/Fimean tuoteselostetiedot (varoitukset, vasta-aiheet) — tällä hetkellä blokkaava aukko
-- Vahvistettu vaikutusmekanismin dokumentaatio (DrugBank MOA) — tällä hetkellä korkean vakavuusasteen aukko
-- Suora prekliininen tai kliininen näyttö poskonatsolin vaikuttavuudesta *Pneumocystis jiroveciiä* vastaan
-- Lääke-lääke-interaktioiden (DDI) tiedot, joita ei tällä hetkellä ole saatavilla ("not_found")
-- Alkuperäisen hyväksytyn indikaation tekstin vahvistaminen, kun markkinointi-/lisenssitiedot tulevat saataville
-
+**Eteenpäin siirtyminen edellyttää:**
+- Prekliinistä tai kliinistä näyttöä posakonatsolin vaikutuksesta *Pneumocystis jirovecii* -infektioon (in vitro -herkkyys, eläinmallit, tapaussarjat)
+- Vertailua nykyiseen vakiohoitoon (esim. trimetoprimi-sulfametoksatsoli)
+- Vaikutusmekanismin tietojen täydentämistä (DrugBank)
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivustolta turvallisuusarviota varten
+- Selvitystä nykyisestä myyntilupa- ja saatavuustilanteesta Suomessa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

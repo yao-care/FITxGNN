@@ -2,7 +2,7 @@
 layout: default
 title: Ganirelix
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 172
+nav_order: 199
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,76 +29,78 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Ganirelix: GnRH-reseptorin antagonismista hypertrikoosiaan
+# Ganireliksi: Hedelmöityshoidoista hypertrikoosiin
 
 ## Yhden lauseen yhteenveto
 
-Ganirelix on GnRH-reseptorin (gonadotropiinia vapauttava hormoni) antagonisti; alkuperäinen hyväksytty indikaatio ei ole tallennettu tähän näyttöpakettiin, eikä lääke ole tällä hetkellä markkinoitavana Suomessa. TxGNN-malli ennustaa, että se saattaa olla tehokas **hypertrikoosiassa (sairaus)**, mutta tätä ennustetta tuetaan tällä hetkellä **0 kliinisellä tutkimuksella** ja **0 julkaisulla** — kyseessä on puhdas verkkoupotetun mallinnuksen ennuste ilman korroboratiivista näyttöä.
+Ganireliksi on GnRH-reseptorin antagonisti, jota on alun perin käytetty ennenaikaisen ovulaation estoon hedelmöityshoitojen munasarjojen stimulaation aikana.
+TxGNN-malli ennustaa sen voivan tehota **hypertrikoosiin** erittäin korkealla pistemäärällä, mutta ennusteen tueksi ei ole **yhtään kliinistä tutkimusta eikä julkaisua**. Ennuste perustuu pelkästään laskennalliseen mallinnukseen.
 
----
-
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|-------|---------|
-| Alkuperäinen indikaatio | Ei saatavilla näyttöpaketissa (ei lisenssejä, ei indikaatiotekstiä tietueessa) |
-| Ennustettu uusi indikaatio | Hypertrikoosi (sairaus) |
-| TxGNN-ennusteiden pistemäärä | 99.98% |
-| Näyttöjen taso | L5 |
-| Suomen markkinoiden asema | Ei markkinoitavana (Ei markkinoitavana) |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Odota |
+|------|------|
+| Alkuperäinen käyttöaihe | Avustetut lisääntymistekniikat, ovulaation induktio, naisen hedelmättömyys |
+| Ennustettu uusi käyttöaihe | Hypertrikoosi |
+| TxGNN-ennustepistemäärä | 99,98 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 2 (molemmat peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
----
+## Miksi ennuste on (tai ei ole) perusteltu?
 
-## Miksi tämä ennuste on järkevä?
+Ganireliksi salpaa GnRH₁-reseptoria (GNRHR) ja vähentää siten LH:n ja FSH:n eritystä sekä sukupuolirauhasten androgeenituotantoa. Yksityiskohtaista vaikutusmekanismitietoa ei tähän raporttiin koottu aineistossa ollut, mutta farmakologiatiedot vahvistavat kohteeksi GnRH-reseptorin.
 
-Yksityiskohtaisia mekanismi-toiminta-tietoja ei ole saatavilla strukturoidussa muodossa tälle ehdokkaalle. Yleisen farmakologisen tiedon perusteella, johon viitataan muualla tässä näyttöpaketissa, ganirelix on GnRH-reseptorin antagonisti — lääkeryhmä, jota käytetään tyypillisesti hypotalamuksen-hypofyysin-sukupuolirakeiden akselin tukahduttamiseen (esim. LH-huippujen estäminen hallitussa munasarjan stimulaatiossa). Mitään alkuperäisen indikaation tekstiä ei tallennettu tähän pakettiin, joten suoraa vertailua alkuperäisen ja ennustetun indikaation välillä ei voida tehdä.
+Hypertrikoosia ei yleensä ohjaa sukupuolirauhasten hormonaalinen akseli (toisin kuin hirsutismia), joten mekanistinen yhteys on heikko. Korkea TxGNN-pistemäärä on vain laskennallinen ennuste.
 
-Parhaiten sijoitetun ennusteen osalta, hypertrikoosi, näyttöpaketti omassa mekanistisessa arvioinnissa on eksplisiittinen: **ei ole tunnettu reittiä, joka yhdistää GnRH-reseptorin antagonismin liiallisen hiuskasvun patologiaan.** Tämä heijastuu myös rankingissa — vaikka TxGNN-pisteet ovat korkeat (99.98%), taustalla oleva sijoitus (420.) on paljon kärkitason ulkopuolella, eikä kohdistettujen hakujen avulla löydetty yhtään kliinistä tutkimusta tai julkaisua. Tätä ehdokasta on käsiteltävä pikemminkin validoimattomana mallin tuloksena kuin mekanistisesti perusteltuna hypoteesinä.
+Aineiston muista ennusteista kaksi on biologisesti johdonmukaisempia, mutta nekin ovat vain epäsuoraa näyttöä (L4, "tutkimuskysymys"):
+- **Sentraalinen ennenaikainen puberteetti (tyyppi 1)**: GnRH-signaloinnin estäminen on vakiintunut hoitoperiaate. Ganireliksi on kuitenkin lyhytvaikutteinen, lyhytkestoiseen käyttöön hyväksytty valmiste, eikä suoraa näyttöä ole.
+- **Familiaalinen poikien rajoittunut ennenaikainen puberteetti**: aiheuttajana ovat aktivoivat LHCGR-mutaatiot, jotka toimivat GnRH:sta riippumatta, joten GnRH-antagonistin teho on epätodennäköinen.
 
-On myös huomionarvoista, että muiden yhdeksän sijoitetun ehdokkaan joukossa tässä paketissa sijoitus 3 ("epämuodostumasyndroomi hammasluun/periodontaalisen komponentin kanssa") palautti 20 kirjallisuusosumaa — mutta tarkastelun jälkeen nämä ovat kaikki yleisiä parodontiitin papereita, joissa ei mainita ganireliksiä tai GnRH-signalointia, ja ne on merkitty lähdetiedoissa todennäköiseksi tekstin vastaavuuden artefaktiksi pikemminkin kuin oikeaksi näytöksi. Tällä erässä olevan ehdokkaan ei ole uskottavaa mekanistista perustaa tai todellisen maailman näyttöä.
+Muut kärkiennusteet (mm. Ambrasin oireyhtymä, Dandy–Walker-oireyhtymä, hiusvarren perinnölliset poikkeavuudet, aromataasiylituotannon oireyhtymä) vaikuttavat tietämysgraafin artefakteilta, joille ei löydy uskottavaa mekanismia.
 
----
+## Kliininen tutkimusnäyttö
 
-## Kliinisen tutkimuksen näyttö
+Ei tällä hetkellä rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
-Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisia tutkimuksia.
+## Kirjallisuusnäyttö
 
----
+Ei tällä hetkellä aiheeseen liittyvää kirjallisuutta.
 
-## Kirjallisuuden näyttö
+## Markkinatiedot Suomessa
 
-Tällä hetkellä ei ole saatavilla asiaan liittyviä kirjallisuuslähteitä.
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000274 | Orgalutran (peruutettu) | – | Avustetut lisääntymistekniikat, ovulaation induktio, naisen hedelmättömyys |
+| EMEA/H/C/005641 | Ganirelix Gedeon Richter (peruutettu) | – | Avustetut lisääntymistekniikat, ovulaation induktio, naisen hedelmättömyys |
 
----
+## Turvallisuushuomiot
 
-## Suomen markkinoiden tiedot
+**Lääkeyhteisvaikutukset** (7 tietuetta; kuusi kohtalaista):
+- Gonadoreliini
+- Koriongonadotropiini (ihmisen)
+- Menotropiini
+- Triptoreliini
+- Follitropiini
+- Urofollitropiini
 
-Ganirelix ei ole tällä hetkellä hankkinut myyntilupaa Suomessa (0 listattua lisenssiä); mitään tuotetietoja tai annosmuotoa ei ole saatavilla.
+Lisäksi farmakologiatietokannan mukaan ganireliksin kohde on GnRH₁-reseptori.
 
----
+Varoituksista ja vasta-aiheista tarkemmat tiedot löytyvät valmisteyhteenvedosta.
 
-## Turvallisuusnäkökohdat
+## Johtopäätös ja jatkotoimet
 
-Katso turvallisuustiedot pakkausselosteesta.
-
----
-
-## Johtopäätös ja seuraavat vaiheet
-
-**Päätös: Odota**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Parhaiten sijoitettu ennustettu indikaatio (hypertrikoosi) on tuettu vain TxGNN-mallin pistemäärällä; sen taustalla on nolla kliinistä tutkimusta, nolla julkaisua ja ei uskottavaa mekanistista yhteyttä GnRH-reseptorin antagonismiin. Yhdessä lääkkeen markkinoimattoman aseman kanssa Suomessa ja estävän vakavuuden tietoaukossa TFDA/pakkausselosteen turvallisuustiedoissa, tämä ehdokas ei täytä vähimmäisnäyttöjen raja-arvoa edistää alkuperäisen seulonnan jälkeen.
+- Ennuste on pelkkä laskennallinen tulos (L5) ilman kliinisiä tutkimuksia tai kirjallisuutta, ja mekanistinen yhteys hypertrikoosiin on heikko. Lisäksi valmisteiden myyntiluvat Suomessa on peruutettu.
 
-**Jotta voidaan edetä, seuraavat ovat tarpeen:**
-- Ganireliksin alkuperäinen indikaatio ja vahvistettu mekanismi-toiminta-tieto (tällä hetkellä puuttuu tästä paketista)
-- TFDA/EMA pakkausseloste, jossa varoitukset ja vasta-aiheet (estävän vakavuuden tietoaukko)
-- Lääkkeiden väliset yhteisvaikutustiedot (tällä hetkellä ei löydetty)
-- Kaikki prekliiniset tai mekanistiset kirjallisuuslähteet, jotka erityisesti yhdistävät GnRH-reseptorin antagonismin hiuskasvun patologiaan, ennen kuin lisää näyttöjen keräämistä on perusteltua
-- Tässä erässä olevia alemman prioriteetin ehdokkaita arvioidaan uudelleen vain, jos ilmaantuu itsenäinen (ei-tekstin vastaavuuden) näyttö
-
+**Jatkaminen edellyttää:**
+- Valmisteyhteenvedon varoitus- ja vasta-aihetietojen hankkimista Fimeasta (estää tällä hetkellä turvallisuusseulonnan)
+- Yksityiskohtaisen vaikutusmekanismitiedon täydentämistä DrugBankista
+- Jos jatketaan, painopisteen siirtämistä sentraaliseen ennenaikaiseen puberteettiin, jossa mekanistinen perustelu on uskottavampi, sekä prekliinistä tai kirjallisuuteen perustuvaa selvitystä
+- Annosmuodon ja antoreitin soveltuvuuden arviointia uudelle käyttöaiheelle
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

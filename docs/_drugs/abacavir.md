@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Abacavir
-parent: Pelkkä mallin ennuste (L5)
+parent: Kohtalainen näyttö (L3-L4)
 nav_order: 11
-evidence_level: L5
+evidence_level: L4
 indication_count: 3
 ---
 
 # Abacavir
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,71 +29,92 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# ABACAVIR: antiviraalinen aine — Lääkkeen uudelleenkäytön arviointi
+# Abakaviiri: HIV-infektiosta apinoiden immuunikatovirusinfektioon
 
 ## Yhden lauseen yhteenveto
 
-Abacavir on nukleosidianaloginen käänteistranskriptaasi-inhibiittori (NRTI), jota käytetään HIV-infektioiden hoidossa. TxGNN-malli ei ole tuottanut **mitään ennustettuja uusia indikaatioita** tälle lääkkeelle nykyisen tietokatkaisun hetkellä, ja **mitään kliinisiä tutkimuksia tai kirjallisuutta**, joka tukee uudelleenkäytön suuntia, ei ole saatavilla tässä näyttöpaketissa.
+Abakaviiri on nukleosidirakenteinen käänteiskopioijaentsyymin estäjä, jota on alun perin käytetty HIV-infektion hoitoon. TxGNN-malli ennustaa sen voivan tehota **apinoiden immuunikatovirusinfektioon (SIV)**, mutta tukena on vain **1 in vitro -tutkimus** eikä yhtään kliinistä koetta. Ennuste liittyy eläinmalleihin eikä tarjoa varsinaista uutta hoitomahdollisuutta ihmisille.
+
+---
 
 ## Pikakatsaus
 
-| Kohde | Sisältö |
+| Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | HIV-infektio (tiedetään lääkeluokasta; ei Taiwanin pakkausselosteessa merkittyä) |
-| Ennustettu uusi indikaatio | — Mitään ei ole ennustettu |
-| TxGNN-ennustepistemäärä | — Ei saatavilla |
-| Näyttötaso | L5 (Ei ennusteita eikä tukevia tutkimuksia) |
-| Taiwanin markkinatilanne | ✗ Ei markkinoilla |
-| Hyväksymisten lukumäärä | 0 |
-| Suositeltu päätös | **Pidä** |
+| Alkuperäinen käyttöaihe | HIV-infektiot |
+| Ennustettu uusi käyttöaihe | Apinoiden immuunikatovirusinfektio (SIV) |
+| TxGNN-ennusteen pistemäärä | 99,79 % |
+| Näytön taso | L4 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 4 (kaikki peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennuste on perusteltu?
+---
 
-Abacavirin osalta ei ole tällä hetkellä **TxGNN-ennustetta** saatavilla. Malli ei palauttanut mitään uusia ehdokasindikaatioita, joten mekanistisen uskottavuuden arviointia ei voida suorittaa tällä hetkellä.
+## Miksi ennuste on perusteltu?
 
-Viitteeksi: abacavir on karbosyklinen synteettinen nukleosidianalogi. Se muutetaan solunsisäisesti sen aktiiviseksi metaboliitiksi, karboviiri-trifosfaatiksi (CBV-TP), joka kilpailevasti estää HIV-1:n käänteistranskriptaasin ja keskeyttää viral-DNA-ketjun pidentämisen. Yksityiskohtaiset vaikutusmekanismin tiedot eivät kuitenkaan sisältyneet tähän näyttöpakettiin (merkitty tietoaukoksi).
+Abakaviiri on nukleosidirakenteinen käänteiskopioijaentsyymin estäjä (NRTI). Solun sisällä se fosforyloituu karbovir-trifosfaatiksi, joka kilpailee dGTP:n kanssa ja katkaisee viruksen DNA-ketjun pidentymisen. SIV on HIV-1:n ja HIV-2:n läheinen lentivirus, jolla on homologinen käänteiskopioijaentsyymi, joten vaikutus on mekanistisesti uskottava.
 
-Ilman ennustettua indikaatiota ei ole perustaa arvioida, voitaisiinko abacavirin mekanismia hyödyntää uudelle terapeuttiselle käytölle.
+Ennusteen korkea pistemäärä heijastaa todennäköisesti tämän käyttöaiheen rakenteellista samankaltaisuutta jo hyväksytyn HIV-käyttöaiheen kanssa, ei uutta hoitomahdollisuutta. SIV on ei-inhimillisten kädellisten mallivirus, ei ihmisen sairaus, joten ihmislääkkeen uudelleenkäytölle ei ole kliinistä kohdetta. Tästä lääkkeestä ei ole saatavilla yksityiskohtaista vaikutusmekanismitietoa lääketietokannasta, joten edellä kuvattu mekanismi perustuu yleiseen tietoon NRTI-lääkkeistä.
 
-## Kliinisten tutkimusten näyttö
+---
 
-Tällä hetkellä mitään asiaan liittyviä kliinisiä tutkimuksia ei ole rekisteröity millekään uudelleenkäytön indikaatiolle.
+## Kliininen näyttö
 
-## Kirjallisuuden näyttö
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä kokeita.
 
-Tällä hetkellä mitään asiaan liittyvää kirjallisuutta ei ole saatavilla millekään uudelleenkäytön indikaatiolle.
+---
 
-## Taiwanin markkinatiedot
+## Kirjallisuusnäyttö
 
-Abacavir ei tällä hetkellä pidä **markkinointilupaa** Taiwanissa (TFDA). Mitään lisensoituja tuotteita ei löydetty kyselyn aikana (2026-03-29).
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | In vitro -herkkyystutkimus / katsaus | Antiviral Therapy | Tutkimuksessa arvioitiin 16 hyväksytyn lääkkeen ja yhden kokeellisen lääkkeen (AMD3100) tehoa HIV-2-, SIV- ja SHIV-kantoja vastaan. Kyse on epäsuorasta näytöstä hoidon ja jälkeisen profylaksian pohdinnan tueksi. |
 
-## Turvallisuushuomioon otettavat asiat
+---
 
-> Katso turvallisuustiedot pakkausselosteesta.
->
-> Huomio: Olennaiset varoitukset, vasta-aiheet ja lääkkeiden väliset yhteisvaikutustiedot eivät olleet saatavilla tässä näyttöpaketissa. Nämä edustavat **estäviä tietoaukkoja**, jotka on ratkaistava ennen kuin turvallisuusarviointi voi jatkua.
+## Suomen markkinatiedot
 
-## Tunnistetut tietoaukot
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000252 | Ziagen | – | HIV-infektiot |
+| EMEA/H/C/000581 | Kivexa | – | HIV-infektiot |
+| EMEA/H/C/002754 | Triumeq | – | HIV-infektiot |
+| EMEA/H/C/000338 | Trizivir | – | HIV-infektiot |
 
-| Aukon tunniste | Luokka | Kohde | Vakavuus | Vaikutus | Korjaus |
-|--------|----------|------|----------|--------|-------------|
-| DG001 | Lääkkeen tasolla | TFDA:n pakkausselosteen varoitukset / Vasta-aiheet | **Estävä** | Ei voida siirtyä S1-turvallisuusarvioinnin alustavaiheeseen | Lataa ja analysoi pakkausselosteen PDF-tiedosto TFDA:n verkkosivustolta |
-| DG002 | Lääkkeen tasolla | Vaikutusmekanismi (MOA) | **Korkea** | Vaikuttaa mekanistisen relevanssin analyysiin | Hae tiedot DrugBank API:sta |
+Kaikki neljä myyntilupaa on peruutettu.
+
+---
+
+## Turvallisuusnäkökohdat
+
+- **Tietämyskaaviosta johdetut mahdolliset vasta-aiheet** (TxGNN-tietämyskaavio, ei valmisteyhteenvedon teksti): maksan vajaatoiminta, munuaissairaus, haimatulehdus, maksasairaus, sappirakkosairaus, lihassairaudet (myopatia, myosiitti, dermatomyosiitti), neutropenia, agranulosytoosi, anemia, hypertriglyseridemia, lihavuus, rasvamaksa ja ei-alkoholiperäinen steatohepatiitti, maitohappoasidoosi.
+- **Lääkeyhteisvaikutukset**: tietoja löytyi yhteensä 93 yhteisvaikutuksesta. Kohtalaiseksi luokiteltuja ovat naltreksoni ja orlistaatti. Muiden, esimerkiksi metformiinin, omepratsolin, morfiinin ja prednisonin, vaikutusasteen luokitus on tuntematon.
+- Lisäksi abakaviiriin liittyy tunnetusti HLA-B*57:01-yliherkkyysreaktion ja sydän- ja verisuoniriskin huomioitavat tekijät.
+
+Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat, joten tarkista ne valmisteyhteenvedosta.
+
+---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Pidä**
+**Päätös: Hold (odota)**
 
-**Perustelu:**
-TxGNN-malli ei ole tuottanut mitään ennustettuja uusia indikaatioita abacavirin osalta. Yhdessä Taiwanin markkinointilupien puuttumisen, puuttuvien turvallisuustietojen (estävä tason aukko) ja tukevien kliinisten tutkimusten tai kirjallisuuden näyttöjen puuttumisen kanssa, perusta on riittämätön edistämään tätä kandidaattia uudelleenkäytön prosessissa.
+**Perustelut:**
+- Näyttö rajoittuu yhteen epäsuoraan in vitro -tutkimukseen eikä kliinisiä kokeita ole. SIV on eläinmallivirus, joten ihmisen hoidolle ei ole selkeää uudelleenkäyttökohdetta, ja korkea ennustepistemäärä johtuu todennäköisesti samankaltaisuudesta HIV-käyttöaiheen kanssa.
 
-**Edistämiseksi tarvitaan seuraavaa:**
-- Suorita uudelleen TxGNN-ennuste prosessi vahvistaaksesi, ettei ole ehdokasindikaatioita (tai päivitä uudempaan mallin versioon)
-- Ratkaise DG001: Hanki TFDA:n pakkausselosteen varoitukset ja vasta-aiheet (esto turvallisuusarviointiin)
-- Ratkaise DG002: Hae yksityiskohtaiset vaikutusmekanismin tiedot DrugBank API:sta
-- Jos tulevaisuudessa tuotetaan ennuste, kerää kliinisten tutkimusten ja kirjallisuuden näyttö ennustetun indikaation osalta
-- Arvioi Taiwanin sääntelyregulaation toteutettavuus ottaen huomioon lääkkeen nykyinen luvaton asema
+**Eteenpäin siirtyminen edellyttäisi:**
+- Suomen valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista, mikä on estävä tietoaukko turvallisuusarvioinnille.
+- Vaikutusmekanismitietojen täydentämistä lääketietokannasta.
+- Selkeää ihmislääketieteellistä perustetta käyttöaiheelle ennen jatkoselvityksiä, sillä myyntiluvat on tällä hetkellä peruutettu.
 
+---
+
+### Huomio muista ennustetuista käyttöaiheista
+
+Samassa aineistossa on kaksi muuta ennustetta, joilla ei ole merkittävää uudelleenkäyttösignaalia ihmislääketieteessä:
+- **Kissan hankinnainen immuunikatooireyhtymä (FIV)**: pistemäärä 99,79 %, näytön taso L4. Tukena on yksi prekliininen yhdistelmähoitotutkimus (PMID [11684314](https://pubmed.ncbi.nlm.nih.gov/11684314/), 2002, Antiviral Research), jossa abakaviirin osuutta ei voi erottaa. Eläinlääketieteellinen käyttöaihe. Päätös: Hold.
+- **Harvinainen neurokehityshäiriö (ataksinen kävely, puheen puuttuminen, aivokuoren valkean aineen väheneminen)**: pistemäärä 99,78 %, näytön taso L5. Kliinisiä kokeita tai kirjallisuutta ei ole, eikä mekanistista yhteyttä ole havaittavissa. Päätös: Hold.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

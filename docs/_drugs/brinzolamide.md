@@ -2,7 +2,7 @@
 layout: default
 title: Brinzolamide
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 76
+nav_order: 83
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,80 +29,87 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Briinsoolamiidi: kohonneesta silmänpaineesta primaariseen perinnölliseen glaukoornaan
+# Brinsolamidi: Avokulmaglaukoomasta ja silmänpainetaudista primaariseen perinnölliseen glaukoomaan
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Briinsoolamiidi on paikallinen hiilihappoanhydraasin (CA-II) estäjä, jota käytetään farmakologisesti silmänpaineen (IOP) laskemiseen glaukooman kaltaisissa sairauksissa.
-TxGNN-malli ennustaa, että se voi olla tehokas **primaarisen perinnöllisen glaukooman** hoidossa,
-mutta tämä ennuste on tällä hetkellä **vain malli-pohjainen**, ja sille **ei ole olemassa yhtään kliinistä tutkimusta** tai **julkaisua**, jotka tukisivat tätä spesifistä käyttöindikaatiota.
-
----
-
-## Pika-yleiskatsaus
-
-| Kohde | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Ei virallisesti kirjattu (ei hyväksyttyjä lupia tietojoukossa); tunnetun farmakologian perusteella käytetään silmänpaineen laskemiseen okulaarisen hypertensioon/glaukooman yhteydessä |
-| Ennustettu uusi indikaatio | Primaarinen perinnöllinen glaukooma |
-| TxGNN-ennustepistemäärä | 99.48% (ranking 5640) |
-| Todistustasokas | L5 |
-| Markkinastatus Suomessa | ✗ Ei markkinoilla |
-| Hyväksymisten lukumäärä | 0 |
-| Suositeltu päätös | Pidätys |
+Brinsolamidi on hiilihappoanhydraasi II:n estäjä, jota on alun perin käytetty avokulmaglaukooman ja kohonneen silmänpaineen hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **primaariseen perinnölliseen glaukoomaan**,
+mutta tälle käyttöaiheelle ei ole **yhtään kliinistä tutkimusta eikä julkaisua**, joten ennuste perustuu pelkästään malliin.
 
 ---
 
-## Miksi tämä ennuste on järkevä?
+## Pikayhteenveto
 
-Yksityiskohtainen toimintamekanismin data on virallisesti merkitty tietoaukoksi tässä kirjauksessa. Kuitenkin taustalla oleva uudelleenkäytöstä koskeva perusteltu identifioi briinsoolamidin paikallisena hiilihappoanhydraasin (CA-II) estäjänä: se estää hiilihappoanhydraasin silmärippikapseelin epiteeliössä, mikä vähentää huumorin akvoosuksen tuotantoa ja alentaa siten silmänpainetta (IOP).
-
-Primaarinen perinnöllinen glaukooma ja sairaudet, joihin briinsoolamiidi on farmakologisesti liittynyt (okkulaarinen hypertensio ja avoin kulmaglaukooma), jakavat saman ydinpatologisen piirteen — kohonneen silmänpaineen. Tämä antaa TxGNN-ennusteelle uskottavan mekanistisen perustan: mikä tahansa glaukooman alatyyppi, jota ajavat kohonneet silmänpaine, mukaan lukien perinnölliset/kongenitaalit muodot, ovat teoriassa herkkiä vesihuumorin tuottamisen vähenemiselle.
-
-Kuitenkin pelkkä mekanistinen uskottavuus ei vahvista kliinistä näyttöä. Primaarinen perinnöllinen glaukooma ilmenee usein lapsuus- tai synnynnäisissä olosuhteissa, joissa on erilaiset patofysiologia (esim. anatomiaset ulosvirtauspoikkeavuudet), tehokkuus, annostus ja turvallisuusprofiili (mukaan lukien systeminen absorptiorisiko lapsissa), joita ei voida olettaa aikuisten okulaarisen hypertension datasta. Yhtään kliinistä tutkimusta tai kirjallisuutta, joka on spesifinen tämän indikaation osalta, ei tällä hetkellä ole, jotta yhteys vahvistettaisiin.
-
----
-
-## Kliinisen tutkimuksen näyttö
-
-Tällä hetkellä ei ole liittyviä kliinisiä tutkimuksia rekisteröityinä.
+| Kohta | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | Avokulmaglaukooma; kohonnut silmänpaine |
+| Ennustettu uusi käyttöaihe | Primaarinen perinnöllinen glaukooma |
+| TxGNN-ennusteen pistemäärä | 99,48 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 3 (kaikki peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Kirjallisuuden näyttö
+## Miksi ennuste on järkevä?
 
-Tällä hetkellä ei ole saatavilla liittyvää kirjallisuutta.
+Yksityiskohtaisia tietoja brinsolamidin vaikutusmekanismista ei ole tässä aineistossa saatavilla. Seuraava perustuu lääkeryhmän yleiseen tietoon, ei aineiston tietueeseen: brinsolamidi estää hiilihappoanhydraasi II -entsyymiä, mikä vähentää kammiovesinesteen eritystä ja laskee silmänpainetta.
+
+Silmänpaineen alentaminen on yhteinen hoitotavoite kaikissa glaukoomatyypeissä. Primaarinen perinnöllinen glaukooma (esim. primaarinen synnynnäinen glaukooma) on läheistä sukua hyväksytylle käyttöaiheelle, avokulmaglaukoomalle. Tämä todennäköisesti selittää korkean TxGNN-pistemäärän.
+
+Rajoituksia on kuitenkin merkittävästi. Perinnöllisiä, erityisesti synnynnäisiä glaukoomamuotoja hoidetaan yleensä kirurgisesti, ja paikalliset hiilihappoanhydraasin estäjät ovat tavallisesti vain tukihoitoa tai väliaikainen ratkaisu. Lapsipotilailla on lisäksi huomioitava systeemiset happo-emästasapainovaikutukset ja sulfonamidiyliherkkyys.
+
+---
+
+## Kliininen tutkimusnäyttö
+
+Tälle käyttöaiheelle ei tällä hetkellä ole rekisteröityjä kliinisiä tutkimuksia.
+
+---
+
+## Kirjallisuusnäyttö
+
+Aiheesta ei tällä hetkellä ole saatavilla kirjallisuutta.
 
 ---
 
 ## Markkinatiedot Suomessa
 
-Briinsoolamiidilla ei ole tällä hetkellä myyntilupaa Suomessa (0 lupaa kirjauksessa); markkinastatus on "ei markkinoilla".
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000267 | Azopt | – | Avokulmaglaukooma; kohonnut silmänpaine |
+| EMEA/H/C/000960 | Azarga | – | Avokulmaglaukooma; kohonnut silmänpaine |
+| EMEA/H/C/003698 | Simbrinza | – | Kohonnut silmänpaine; avokulmaglaukooma |
+
+Kaikkien kolmen myyntiluvan tila on peruutettu.
 
 ---
 
-## Turvallisuuden näkökohdat
+## Turvallisuusnäkökohdat
 
-Turvalllisuustiedot on katso pakkauksessa olevasta selosteesta.
+**Lääkeyhteisvaikutukset:** Yhteisvaikutushaussa löytyi yhteensä 32 mahdollista yhteisvaikutusta, joiden vakavuusluokkaa ei ole määritelty. Esimerkkejä: pantopratsoli, omepratsoli, lansopratsoli, prednisoni, prednisoloni, deksametasoni, triamsinoloni, simvastatiini, rosuvastatiini, varfariini, klopidogreeli, kaliumkloridi, metoklopramidi, setirisiini, feksofenadiini ja salbutamoli.
 
-*(Huomio: TFDA/Fimea pakkausseloste varoituksista ja vasta-aiheista sekä lääkkeen yhteisvaikutustiedot on merkitty estävänä tietoaukoksi (DG001) — tämä on ratkaistava ennen kuin mikä tahansa S1 turvallisuuden arviointi voi edetä.)*
+Muuten turvallisuustiedot (varoitukset ja vasta-aiheet) on tarkistettava valmisteyhteenvedosta.
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Johtopäätös ja jatkotoimet
 
-**Päätös: Pidätys**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Ennuste perustuu vain mekanistiseen uskottavuuteen (L5, vain malli), jolle ei ole olemassa kliinisiä tutkimuksia, kirjallisuutta tai turvallisuustietoja (pakkausseloste) primaarisesta perinnöllisestä glaukoormasta erityisesti. Estävä tietoaukko TFDA/Fimea pakkauselosteesta (DG001) estää myös minkä tahansa S1 turvallisuuden arvioinnin tässä vaiheessa.
+- Ennuste perustuu pelkästään malliin (L5): kliinisiä tutkimuksia ja kirjallisuutta ei ole, ja vaikutusmekanismitieto sekä valmisteyhteenvedon turvallisuustiedot puuttuvat. Lisäksi perinnöllisiä glaukoomamuotoja hoidetaan pääosin kirurgisesti, ja kaikki Suomen myyntiluvat on peruutettu.
 
-**Edistyäkseen seuraavaa tarvitaan:**
-- TFDA/Fimea pakkausseloste (varoitukset, vasta-aiheet) estävän aukon DG001 ratkaisemiseksi
-- Vahvistettu toimintamekanismin dokumentaatio DrugBankista (korkean prioriteetin aukko DG002)
-- Prekliininen tai kliininen näyttö, joka on spesifinen primaariselle perinnölliselle glaukoormalle, erityisesti lapsuus/synnynnäisissä populaatioissa
-- Lääkkeiden välisten yhteisvaikutuksien data
-- Reitin/annostelulomakkeen yhteensopivuuden arviointi oftalmologiselle reitille tässä populaatiossa
-
+**Eteenpäin siirtyminen edellyttää:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivustolta (estävä tietoaukko)
+- Vaikutusmekanismin vahvistamista DrugBankista
+- Kirjallisuushakua ja kliinisten tutkimusten kartoitusta primaarisesta perinnöllisestä glaukoomasta, erityisesti lapsipotilaista
+- Lääkemuotojen ja antoreittien yhteensopivuuden arviointia
+- Lapsipotilaiden turvallisuuden arviointia (happo-emästasapaino, sulfonamidiyliherkkyys)
+- Yhteisvaikutusten vakavuusluokkien selvittämistä
+- Markkinatilanteen selvittämistä, koska voimassa olevia myyntilupia ei ole
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

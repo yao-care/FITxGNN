@@ -2,15 +2,15 @@
 layout: default
 title: Docetaxel
 parent: Vahva näyttö (L1-L2)
-nav_order: 125
-evidence_level: L1
+nav_order: 143
+evidence_level: L2
 indication_count: 10
 ---
 
 # Docetaxel
 {: .fs-9 }
 
-Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,111 +29,122 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Docetaxel: Dokumentoimattomasta alkuperäisestä indikaatiosta naisen rintasyöpään
+# Dosetakseli: Alkuperäisistä syöpäkäyttöaiheista rintasyöpään (naisen rintakarsinooma)
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Docetaxel (DrugBank DB01248) on taksiini-luokan sytostaattinen aine; evidenssipaketti ei sisällä dokumentoitua alkuperäistä indikaatiota tai Suomen/Taiwanin lisenssi­tietoja, mutta lääkkeen tosielämän kliininen käyttöyhteys on rintasyövän kemoterapia.
-TxGNN-malli ennustaa jatkuvaa/vahvistunutta tehoa **naisen rintasyövän** hoitoon, ja kirjallisuushaussa löydettiin **50 kliinistä tutkimusta** ja **20 julkaisua** tukevia tätä havaintoa.
-Koska tämä indikaatio päällekkäistyy docetakselin jo vakiintuneen tosielämän käytön kanssa (evidenssipaketin omat perustelut osoittavat), tätä tulisi lukea pikemmin **vahvistavan signaalin** kuin **uuden uudelleenkäyttötarkoituksen kandidaatin**.
+Dosetakseli on taksaaniryhmän solunsalpaaja, jota on alun perin käytetty pään ja kaulan alueen kasvainten, ei-pienisoluisen keuhkosyövän, adenokarsinoomien, eturauhassyövän, rintasyövän ja (Taxotere-valmisteella) mahasyövän hoitoon.
+TxGNN-malli ennustaa sen tehoavan **naisen rintakarsinoomaan** (pistemäärä 99,90 %), mutta rintasyöpä on jo valmisteen hyväksytty käyttöaihe, joten kyse on pikemminkin vahvistuneesta olemassa olevasta käytöstä kuin aidosta uudelleenkäytöstä.
+Tämän suuntaa tukee tällä hetkellä **43 kliinistä tutkimusta** ja **20 julkaisua**.
 
----
-
-## Pikayleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Ei dokumentoitu evidenssipakettiin (ei `original_indications` tai lisenssi­tietoja arkistossa) |
-| Ennustettu uusi indikaatio | Naisen rintasyöpä |
-| TxGNN-ennusteen pistemäärä | 99.90% |
-| Evidenssin taso | L1 |
-| Suomen/Taiwanin markkinatilanne | ✗ Ei markkinoitu |
-| Hyväksynnän kokonaismäärä | 0 |
-| Suositeltu päätös | Jatka varauksin |
+|------|------|
+| Alkuperäinen käyttöaihe | Pään ja kaulan alueen kasvaimet, ei-pienisoluinen keuhkosyöpä, adenokarsinooma, eturauhassyöpä, rintasyöpä |
+| Ennustettu uusi käyttöaihe | Naisen rintakarsinooma |
+| TxGNN-ennustepistemäärä | 99,90 % |
+| Näytön taso | L2 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 3 (kaikki peruutettu) |
+| Suositeltu päätös | Proceed with Guardrails (eteneminen suojatoimin) |
 
----
+## Miksi ennuste on perusteltu?
 
-## Miksi tämä ennuste on järkevä?
+Dosetakseli on taksaani, joka stabiloi mikrotubuluksia ja estää solun jakautumisen (mitoosin). Tästä syystä se vaikuttaa nopeasti jakautuviin kasvainsoluihin. Yksityiskohtaista vaikutusmekanismitietoa ei tässä aineistossa ole saatavilla, mutta tämä yleinen taksaanien vaikutustapa on hyvin tunnettu.
 
-Docetaxel on taksiini. Se stabiloi mikrotubuluksia ja estää niiden depolymeroitumista, mikä lukitsee nopeasti jakautuvat solut G2/M-vaiheeseen ja ajaa apoptoosin. Koska rintasyövän solut ovat nopean lisääntymisen vaiheessa, tämä mekanismi on suoraan olennainen ennustettuun indikaatioon.
+Rintasyöpä on jo dosetakselin hyväksytty käyttöaihe, joten ennuste on linjassa olemassa olevan käytön kanssa. Näyttö koostuu useista valmistuneista vaiheen 2 tutkimuksista sekä suurista vaiheen 3 tutkimuksista, joissa dosetakseli on osa yhdistelmähoitoja. Tutkimusten tulosten perusteella dosetakselin oma osuus voi kuitenkin olla vaikea erottaa yhdistelmähoidoista.
 
-Evidenssipaketin oman uudelleenkäyttöperustelun mukaan on tärkeä varoitus: docetaxel (Taxotere) on **tällä hetkellä hyväksytty kemoterapia rintasyövän hoitoon** useimmilla markkinoilla — tämä ei ole tyypillinen "vanha lääke, uusi tauti" -uudelleenkäyttötapaus. Se ilmestyy tähän vain siksi, koska tämän evidenssipaketin `original_indications`-kenttä on tyhjä, joten malli/pisteytysputki arvioi rintasyövän ikään kuin vahvistamattomaksi kandidaatiksi. Alla olevan valmistuneiden 3. vaiheen tutkimusten hyvin suuri määrä (mukaan lukien tutkimukset, joissa oli >2 000–3 000 rekrytoitua potilasta) heijastaa tätä: ne ovat tutkimuksia, jotka vakiintuvat/optimoivat docetakselin roolia rintasyövän hoidossa, eivät tutkivia uudelleenkäyttötutkimuksia.
+## Kliininen tutkimusnäyttö
 
-Koska tähän evidenssipakettiin ei ole sisällytetty Suomen/Taiwanin markkinoiden lisenssi- tai sääntelydokumentaatiota ("Ei markkinoitu", 0 hyväksyntää), käytännöllinen seuraava vaihe on sääntelyvoiman vahvistus eikä jatkomekanistisen perustelun.
+Aineistossa on yhteensä 43 rintasyöpään liittyvää tutkimusta. Alla on 10 olennaisinta.
 
----
-
-## Kliinisen tutkimuksen evidenssi
-
-| Tutkimusnumero | Vaihe | Tila | Osallistujamäärä | Tärkeimmät löydökset |
+| Tutkimustunnus | Vaihe | Tila | Osallistujia | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT00002544](https://clinicaltrials.gov/study/NCT00002544) | 3. vaihe | Valmistunut | 300 | Mitokantroni ± docetaxel ensimmäisen linjan kemoterapiana levinneessä rintasyövässä huonolla ennusteella |
-| [NCT00193011](https://clinicaltrials.gov/study/NCT00193011) | 3. vaihe | Valmistunut | 150 | Viikoittainen docetaxel vs. CMF adjuvantti­hoitona korkean riskin ≥65 vuotta tai antrasykliini-kelpaamattomissa rintasyöpäpotilaissa |
-| [NCT01275677](https://clinicaltrials.gov/study/NCT01275677) | 3. vaihe | Valmistunut | 3270 | Docetaxel+syklofosfamiidi tai doksorubisiini+syklofosfamiidi→paklitakseli, ± trastuzumabi, solmukkeiden sisältävissä/korkean riskin HER2-matalissa rintasyövissä |
-| [NCT00089479](https://clinicaltrials.gov/study/NCT00089479) | 3. vaihe | Valmistunut | 2611 | Adriamysiini/Cytoxan seurattuna Taxoteella ± Xelodalla; kokonaisselviytyminen korkean riskin rintasyövässä |
-| [NCT00002707](https://clinicaltrials.gov/study/NCT00002707) | 3. vaihe | Valmistunut | 2411 | Esileikkausta edeltävä AC vs. AC seurattuna pre- tai postleikkausta jälkeisellä docetakselilla hoitokelpoisessa rintasyövässä |
-| [NCT02003209](https://clinicaltrials.gov/study/NCT02003209) | 3. vaihe | Valmistunut | 315 | Neoadjuvantti docetaxel, karboplatiini, trastuzumabi, pertuzumabi (TCHP) ± estrogeenistriippaus HR+/HER2+-rintasyövässä |
-| [NCT01354522](https://clinicaltrials.gov/study/NCT01354522) | 3. vaihe | Valmistunut | 204 | TAC (docetaxel/doksorubisiini/syklofosfamiidi) vs. TCX (docetaxel/syklofosfamiidi/kapesitabiini) adjuvantti­hoitona korkean riskin HER2-negatiivisessa rintasyövässä |
-| [NCT00431080](https://clinicaltrials.gov/study/NCT00431080) | 3. vaihe | Valmistunut | 478 | Tiivis-annostettu FE75C→docetaxel vs. paklitakseli adjuvantti­hoitona solmuke-positiivisessa rintasyövässä |
-| [NCT03252431](https://clinicaltrials.gov/study/NCT03252431) | 3. vaihe | Valmistunut | 393 | F-627 vs. Neulasta naisissa, joilla on Stage I–III rintasyöpä ja jotka saavat myelotoksiaa aiheuttavaa (docetaxel-sisältävää) kemoterapiaa |
-| [NCT00003565](https://clinicaltrials.gov/study/NCT00003565) | 2. vaihe | Valmistunut | 109 | Docetakselin populaatiofar­makokinetiikat kaukaasialaisissa ja afrikkalaisen alkuperän kantaisissa kiinteän kasvaisuuden potilaissa |
+| [NCT00321633](https://clinicaltrials.gov/study/NCT00321633) | Vaihe 2 | Valmistunut | 148 | Satunnaistettu vertailu: karboplatiini vs. dosetakseli metastaattisessa perinnöllisessä rintasyövässä |
+| [NCT00003352](https://clinicaltrials.gov/study/NCT00003352) | Vaihe 2 | Valmistunut | 89 | Doksorubisiini, dosetakseli ja syklofosfamidi levinneessä tai paikallisesti edenneessä rintasyövässä |
+| [NCT00003953](https://clinicaltrials.gov/study/NCT00003953) | Vaihe 2 | Valmistunut | 39 | Leikkausta edeltävä doksorubisiini-dosetakseli-hoito |
+| [NCT00379015](https://clinicaltrials.gov/study/NCT00379015) | Vaihe 2 | Valmistunut | 38 | Epirubisiini/syklofosfamidi, sen jälkeen dosetakseli ja trastutsumabi HER2-positiivisessa syövässä |
+| [NCT00003519](https://clinicaltrials.gov/study/NCT00003519) | Vaihe 3 | Valmistunut | 2778 | Adjuvanttihoito: doksorubisiini/dosetakseli vs. doksorubisiini/syklofosfamidi |
+| [NCT00021255](https://clinicaltrials.gov/study/NCT00021255) | Vaihe 3 | Valmistunut | 3222 | AC-T vs. AC-TH vs. TCH HER2-positiivisessa rintasyövässä |
+| [NCT00003782](https://clinicaltrials.gov/study/NCT00003782) | Vaihe 3 | Valmistunut | 5351 | Kolme adjuvanttihoitoa (AC-T, AT, ATC) imusolmukepositiivisessa rintasyövässä |
+| [NCT00333775](https://clinicaltrials.gov/study/NCT00333775) | Vaihe 3 | Valmistunut | 736 | Bevasitsumabi + dosetakseli vs. dosetakseli + lumelääke HER2-negatiivisessa metastaattisessa syövässä |
+| [NCT00887536](https://clinicaltrials.gov/study/NCT00887536) | Vaihe 3 | Valmistunut | 1613 | TC + bevasitsumabi vs. TC vs. TAC |
+| [NCT03588091](https://clinicaltrials.gov/study/NCT03588091) | Vaihe 3 | Valmistunut | 355 | Pyrotinibi + trastutsumabi + dosetakseli neoadjuvanttihoitona HER2-positiivisessa rintasyövässä |
 
----
+## Kirjallisuusnäyttö
 
-## Kirjallisuuden evidenssi
-
-| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät löydökset |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [28398846](https://pubmed.ncbi.nlm.nih.gov/28398846/) | 2017 | RCT | J Clin Oncol | Docetaxel+syklofosfamiidi (TC) vs. antrasykliini-taksiini-regiimit (TaxAC) varhaisvaiheen rintasyövässä (ABC-tutkimuksien yhdistetty analyysi) |
-| [9282422](https://pubmed.ncbi.nlm.nih.gov/9282422/) | 1997 | Katsaus | Drug and Therapeutics Bulletin | Paklitakselin ja docetakselin varhaiskatsaus rintasyövän ja munuaisovarian syövän hoidossa |
-| [15161988](https://pubmed.ncbi.nlm.nih.gov/15161988/) | 2004 | Katsaus | The Oncologist | Docetakselin ja paklitakselin kliinisen käytön katsaus rintasyövän hoidossa |
-| [27997437](https://pubmed.ncbi.nlm.nih.gov/27997437/) | 2017 | Kohortti­tutkimus | Anti-Cancer Drugs | Yhteys adjuvantti docetaxel-pohjaisen kemoterapian ja rintasyöpään liittyvän lymfödeemin välillä |
-| [7595719](https://pubmed.ncbi.nlm.nih.gov/7595719/) | 1995 | Katsaus (luokitus vireillä) | J Clin Oncol | Docetakselin (Taxotere) preclinical- ja klinisen profiilin perustutkimus­katsaus |
-| [26874836](https://pubmed.ncbi.nlm.nih.gov/26874836/) | 2017 | Tutkimus (luokitus vireillä) | Breast Cancer (Tokyo) | Docetaxel+syklofosfamiidi+trastuzumabi neoadjuvantti­hoitona HER2+-ensisijaisen rintasyövän hoidossa |
-| [15858439](https://pubmed.ncbi.nlm.nih.gov/15858439/) | 2005 | Tutkimus (luokitus vireillä) | Breast Cancer (Tokyo) | CEF seurattuna docetakselilla esileikkausta edeltävänä kemoterapiana varhaisvaiheen rintasyövässä |
-| [12599222](https://pubmed.ncbi.nlm.nih.gov/12599222/) | 2003 | Tutkimus (luokitus vireillä) | Cancer | Kapesitabiini + docetaxel + epirubisiini (TEX) ensimmäisen linjan hoitona edistyneessä rintasyövässä |
-| [16020974](https://pubmed.ncbi.nlm.nih.gov/16020974/) | 2005 | Tutkimus (luokitus vireillä) | Oncology | Viikoittainen docetaxel + gemitsitiini ensimmäisen linjan hoitona levinneessä rintasyövässä |
-| [11481357](https://pubmed.ncbi.nlm.nih.gov/11481357/) | 2001 | Tutkimus (luokitus vireillä) | J Clin Oncol | Tiivis-annostettu doksorubisiini/docetaxel/G-CSF ± tamoksifeeni esileikkausta edeltävänä hoitona hoitokelpoisessa rintasyövässä |
+| [28398846](https://pubmed.ncbi.nlm.nih.gov/28398846/) | 2017 | RCT | J Clin Oncol | ABC-tutkimukset: dosetakseli + syklofosfamidi (TC) verrattuna taksaani-antrasykliinihoitoihin varhaisessa rintasyövässä |
+| [10791395](https://pubmed.ncbi.nlm.nih.gov/10791395/) | 2000 | Katsaus | Lancet | Taksaanit ovat näyttöön perustuva osa levinneen rinta-, keuhko- ja munasarjasyövän hoitoa |
+| [9282422](https://pubmed.ncbi.nlm.nih.gov/9282422/) | 1997 | Katsaus | Drug Ther Bull | Paklitakseli ja dosetakseli rinta- ja munasarjasyövässä |
+| [18624687](https://pubmed.ncbi.nlm.nih.gov/18624687/) | 2008 | Katsaus | Expert Opin Drug Metab Toxicol | Dosetakselin kehitystyöstä opitut asiat |
+| [9364543](https://pubmed.ncbi.nlm.nih.gov/9364543/) | 1997 | Kliininen tutkimus | Oncology (Williston Park) | Dosetakseli + vinorelbiini metastaattisessa rintasyövässä ja ei-pienisoluisessa keuhkosyövässä |
+| [21373875](https://pubmed.ncbi.nlm.nih.gov/21373875/) | 2012 | Kohorttitutkimus | Breast Cancer Res Treat | TP53-genomiikka ennustaa hoitovastetta dosetakseli-kapesitabiinihoidossa |
+| [12868800](https://pubmed.ncbi.nlm.nih.gov/12868800/) | 2003 | Katsaus | Breast Cancer Res Treat | Dosetakseli-antrasykliiniyhdistelmät metastaattisessa rintasyövässä |
+| [16020974](https://pubmed.ncbi.nlm.nih.gov/16020974/) | 2005 | Vaiheen 2 tutkimus | Oncology | Viikoittainen dosetakseli + gemsitabiini ensilinjan hoitona |
+| [12599222](https://pubmed.ncbi.nlm.nih.gov/12599222/) | 2003 | Vaiheen 2 tutkimus | Cancer | Kapesitabiini + dosetakseli + epirubisiini levinneessä rintasyövässä |
+| [27997437](https://pubmed.ncbi.nlm.nih.gov/27997437/) | 2017 | Retrospektiivinen tutkimus | Anti-Cancer Drugs | Dosetakselipohjainen adjuvanttihoito ja rintasyöpään liittyvä lymfaödeema |
 
----
+## Muut ennustetut käyttöaiheet
 
-## Suomen ja Taiwanin markkinatiedot
+Aineistossa on rintasyövän lisäksi yhdeksän muuta ennustetta. Niiden näyttö on selvästi heikompaa.
 
-Tähän evidenssipakettiin ei ole sisällytetty docetakselin hyväksynnän tietueita. Markkinatilanne merkitään **Ei markkinoitu**, jossa on **0 hyväksyntää yhteensä**.
+| Sija | Sairaus | Näytön taso | Suositus |
+|------|------|------|------|
+| 2 | Ewingin sarkooma | L2 | Tutkimuskysymys (vaiheen 2 data lähinnä gemsitabiini-dosetakseliyhdistelmistä) |
+| 3 | Keuhkon hyvin erilaistunut sikiötyyppinen adenokarsinooma | L4 | Hold (vain yksi tapausselostus) |
+| 4 | Pienisoluinen keuhkosyöpä | L3 | Tutkimuskysymys (aineisto koskee pääosin ei-pienisoluista keuhkosyöpää) |
+| 5 | Primaarinen keuhkolymfooma | L5 | Hold (ei uskottavaa mekanistista yhteyttä) |
+| 6 | Emättimen botryoidi-tyypin alkiomainen rabdomyosarkooma | L5 | Hold (ei tutkimuksia) |
+| 7 | Keuhkoblastooma | L4 | Hold (vain tapausselostuksia) |
+| 8 | Rabdomyosarkooma | L2 | Tutkimuskysymys (rajallinen, yhdistelmähoitoihin sidottu teho) |
+| 9 | Alkiomainen sappitiehyen rabdomyosarkooma | L5 | Hold (ei tutkimuksia) |
+| 10 | Parameningeaalinen alkiomainen rabdomyosarkooma | L5 | Hold (ei tutkimuksia) |
 
----
+## Suomen markkinatiedot
 
-## Sytostaattinen vaikutus
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/002539 | Docetaxel Accord | – | Pään ja kaulan alueen kasvaimet, ei-pienisoluinen keuhkosyöpä, adenokarsinooma, eturauhassyöpä, rintasyöpä (peruutettu) |
+| EMEA/H/C/002325 | Docetaxel Kabi | – | Pään ja kaulan alueen kasvaimet, ei-pienisoluinen keuhkosyöpä, adenokarsinooma, eturauhassyöpä, rintasyöpä (peruutettu) |
+| EMEA/H/C/000073 | Taxotere | – | Pään ja kaulan alueen kasvaimet, ei-pienisoluinen keuhkosyöpä, adenokarsinooma, eturauhassyöpä, mahasyöpä, rintasyöpä (peruutettu) |
+
+## Sytotoksisuus
 
 | Kohta | Sisältö |
-|------|---------|
-| Sytostaattisen vaikutuksen luokitus | Tavanomainen sytostaatti (taksiini-luokka, mikrotubuli-stabiloiva aine) |
-| Luuydintykitysriski | Katso pakkausselosteen varoituksista ja varotoimista |
-| Pahoinvointi-induktioriskin luokitus | Katso pakkausselosteen varoituksista ja varotoimista |
-| Seurantakohdat | Katso pakkausselosteen varoituksista ja varotoimista |
-| Käsittelysuojaus | Katso pakkausselosteen varoituksista ja varotoimista |
+|------|------|
+| Sytotoksisuusluokitus | Perinteinen solunsalpaaja (taksaani) |
+| Myelosuppression riski | Korkea (aineiston mukaan lääkkeeseen liittyy neutropenia, trombosytopenia, anemia ja agranulosytoosi) |
+| Oksentelua aiheuttava vaikutus | Ppakkausselosteen mukaan; tässä aineistossa ei ole luokitusta |
+| Seurattavat parametrit | Verenkuva (erittelylaskennalla), maksan toimintakokeet (mm. bilirubiini), munuaisten toiminta |
+| Käsittelysuojaus | Noudatettava solunsalpaajien käsittelyohjeita |
 
----
+## Turvallisuushuomiot
 
-## Turvallisuusnäkökohdat
+- **Tietämyskaavioon perustuvat vasta-aiheet ja riskitilat** (TxGNN/PrimeKG; ei valmisteyhteenvedon tekstiä): maksasairaus, sappirakkosairaus, trombosytopenia, neutropenia, agranulosytoosi, perifeerinen neuropatia ja muut ääreishermoston sairaudet, anemia, hyperbilirubinemia (myös Gilbertin oireyhtymä), ripulitaudit, keuhkopöhö, stomatiitti, hermotulehdus ja sydämen tamponaatio.
+- **Lääkeyhteisvaikutukset** (100 kirjattua, alla keskeisimmät):
+  - **Merkittävä:** klaritromysiini
+  - **Kohtalainen:** aprepitantti, metronidatsoli, simetidiini, eliglustaatti, mikonatsoli, rolapitantti, rosuvastatiini, simvastatiini, tinidatsoli, troglitatsoni
+  - **Lievä:** deksametasoni, levofloksasiini, prednisoloni, prednisoni
 
-Katso turvallisuustietoja pakkausselosteen osalta.
-
----
+Pakkausselosteen varoitukset ja vasta-aiheet puuttuvat tästä aineistosta, joten ne on tarkistettava valmisteyhteenvedosta.
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Jatka varauksin**
+**Päätös: Proceed with Guardrails (eteneminen suojatoimin)**
 
 **Perustelut:**
-Todistusaineisto on vahva (L1: useita valmistuneita 3. vaiheen satunnaistettuja kontrolloituja tutkimuksia, mukaan lukien tutkimukset, joissa oli >2 000–3 000 rekrytoitua potilasta) ja mekanistisesti johdonmukainen, mutta tämä indikaatio näyttää heijastavan docetakselin jo vakiintunutta kliinistä käyttöä rintasyövän hoitoon eikä todellista uutta uudelleenkäyttötarkoitusta — ja pakettiin ei ole Suomen/Taiwanin sääntelyyn tai turvallisuuteen liittyvää dokumentaatiota itsenäisen arvioimisen tueksi.
+- Rintasyöpä on jo dosetakselin hyväksytty käyttöaihe, ja useat suuret vaiheen 3 tutkimukset (esim. NCT00003519, NCT00021255, NCT00003782) sekä satunnaistettu RCT-julkaisu tukevat käyttöä. Näyttöluokka on kuitenkin L2, koska varsinaisesti dosetakselin yksinään osoittavia valmistuneita vaiheen 3 tutkimuksia ei ole erotettavissa yhdistelmähoidoista.
+- Suomessa kaikki kolme myyntilupaa on peruutettu, joten markkinasaatavuus on selvitettävä.
 
-**Jatkamista varten tarvitaan seuraavat:**
-- TFDA/Fimea pakkausselose (varoitukset, vasta­indikaatiot) — tällä hetkellä este (DG001)
-- Vahvistetut lääkkeiden väliset interaktiot (DDI) — nykyinen kysely ei tuonut tuloksia
-- Docetakselin todellisen alkuperäisen ja/tai hyväksytyn indikaation/indikaatioiden vahvistaminen, koska `original_indications` on tyhjä tässä paketissa
-- Paikallisen (Taiwanin/Suomen) markkinan ja lupa­tilanteen selventäminen ennen kuin väiteetään "uudesta indikaatiosta", koska nykyinen status on Ei markkinoitu ja hyväksyntöjä on 0
-
+**Jatkotoimet:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hakeminen Fimeasta (kriittinen tietoaukko, estää turvallisuusarvion).
+- Vaikutusmekanismitietojen täydentäminen DrugBankista.
+- Selvitys dosetakselivalmisteiden nykyisestä saatavuudesta Suomessa (esim. kansallisten tai rinnakkaisten myyntilupien kautta).
+- Hematologisen seurannan, neuropatian seurannan ja yhteisvaikutusten (erityisesti CYP3A4-estäjät, kuten klaritromysiini) hallintasuunnitelma.
+- Muiden ennustettujen käyttöaiheiden osalta jatkotutkimusta vain Ewingin sarkooman ja rabdomyosarkooman osalta, sillä muilla näyttö on riittämätöntä.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

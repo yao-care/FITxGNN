@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Miglustat
-parent: Vahva näyttö (L1-L2)
-nav_order: 251
-evidence_level: L2
+parent: Pelkkä mallin ennuste (L5)
+nav_order: 292
+evidence_level: L5
 indication_count: 10
 ---
 
 # Miglustat
 {: .fs-9 }
 
-Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,81 +29,109 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Miglustat: Gaucherista taudista Tay-Sachsin tautiin (GM2-gangliosidoosi)
+# Miglustaatti: Gaucherin taudista Tay-Sachsin tautiin
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Miglustat on suun kautta otettava pienmolekyylinen glukosylikeramidisyntaasin inhibiittori, joka kehitettiin alun perin ja hyväksyttiin EU:ssa tyypin 1 Gaucherista tautia varten substraatin vähennystherapiana (SRT). 10 TxGNN-ennustetusta indikaatiosta Tay-Sachsin tauti (GM2-gangliosidoosi) on ainoa, jolla on todellista tukea — 5 kliinistä tutkimusta ja 20 julkaisua, mukaan lukien yksi valmis satunnaistettu kontrolloitu tutkimus. Loput 9 kandidaattia ovat vain mallin ennustamia, joilla ei ole kliinistä tai kirjallisuuden tukea.
+Miglustaatti on suun kautta otettava glukosyyliseramidisyntaasin estäjä, jota on alun perin käytetty Gaucherin taudin ja Niemann-Pickin taudin hoitoon (lisäksi yksi valmiste Pompen taudin yhteydessä).
+TxGNN-malli ennustaa sen voivan tehota **Tay-Sachsin tautiin**.
+Tätä suuntaa tukee tällä hetkellä **4 kliinistä tutkimusta** ja **11 julkaisua**. Tutkimusnäyttö on kuitenkin pieni tai keskeytynyt, joten tehosta ei ole vielä varmuutta.
 
-> Huomio: tämä lääke tuotti 10 TxGNN-ennustettua indikaatiota todistusaineistossa; niistä 9 (autosomaalinen iktyoosi, kolesteroliesteri-varastosairaus, Krabben tauti, metakromaattinen leukodystrofia, Wolmanin tauti, prosaposiinin puutoksesta johtuva enkefalopatia, beniigin adrenaalinen neoplasia, X-sidottu iktyoosi, FA2H-liittyvä neurorappeuma) ei ole kliinisiä tutkimuksia tai kirjallisuustietoa (näyttötaso L5, päätösvaihe S0, suositus Pidätä) eikä niitä käsitellä tarkemmin tässä raportissa.
+---
 
 ## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Tyypin 1 Gaucherista tauti (kirjallisuuden mukaan; miglustat/Zavesca sai EU-hyväksynnän marraskuussa 2002) |
-| Ennustettu uusi indikaatio | Tay-Sachsin tauti (GM2-gangliosidoosi) |
-| TxGNN-ennustuspistemäärä | 99.75% |
-| Näyttötaso | L2 |
-| Suomen markkinatilanne | Ei markkinoitu |
-| Myyntilupien lukumäärä | 0 |
-| Suositeltu päätös | Jatka varauksellisesti |
+| Alkuperäinen käyttöaihe | Gaucherin tauti; Niemann-Pickin tauti |
+| Ennustettu uusi käyttöaihe | Tay-Sachsin tauti |
+| TxGNN-ennusteen pistemäärä | 99,75 % |
+| Näytön taso | L1 (huomioitava: tutkimukset ovat pieniä tai keskeytyneitä, ks. alla) |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 5 (kaikki peruutettuja) |
+| Suositeltu päätös | Hold (odotetaan lisänäyttöä) |
 
-## Miksi tämä ennustus on järkevä?
+*Huomio:* Tay-Sachsin taudin ennuste on aineistossa listan seitsemäs. Se on kuitenkin ainoa ennuste, jolle löytyy kliinistä näyttöä, joten raportti keskittyy siihen. Muut yhdeksän ennustetta perustuvat pelkkään mallin ennusteeseen (L5), eikä niille ole tutkimuksia tai kirjallisuutta.
 
-Tällä hetkellä yksityiskohtaisia toimintamekanismin tietoja ei ole saatavilla strukturoidussa lääketiedostossa (Tietoaukko, DG002). Tässä todistusaineistossa kuvattavaan kirjallisuuteen perustuen (PMID 12808890) miglustat on suun kautta annettu glukosylikeramidi-glukosyltransferaasi (glukosylikeramidisyntaasin) inhibiittori — substraatin vähennystherapia (SRT) — alun perin hyväksytty tyypin 1 Gaucherista tautia varten, jossa se hidastaa glykosfingolipiidien synteesin nopeutta tasolle, jonka jäljelle jäänyt mutantti-entsyymi voi puhdistaa.
+---
 
-GM2-gangliosidoosi (Tay-Sachsin ja Sandhoffin tauti) johtuu β-heksosaminidaasin puutoksesta, mikä johtaa GM2-gangliosidien kertymiseen. GM2-gangliosidia, joka on glykosfingolipiidi, syntetisoidaan glukosylikeramidisen polun alapuolella, johon miglustat vaikuttaa. Tämä on mekaanisesti sama SRT-perustelus, joka on jo validoitu Gaucherista taudissa ja Niemann-Pick C -taudissa.
+## Miksi ennuste on perusteltu?
 
-Perustava eläinkokeellinen työ (PMID 9103204, *Science* 1997) osoitti, että NB-DNJ (miglustatin edeltäjäyhdiste) esti GM2-gangliosidien kertymisen ja varastointihermosolujen patologian muodostumisen Tay-Sachsin hiirimalleissa, ja tämä laajennettiin muihin glykosfingolipiidoosin hiirimalleissa (PMID 12803928). Tämä prekliininen perustelus johti 12 kuukauden saattuun päätökseen myöhään alkavassa Tay-Sachsin taudissa käytävään satunnaistettuun kontrollitutkimukseen (PMID 19346952), mikä antaa tälle ennustukselle vahvemman näyttöperustan kuin millään muulla tämän lääkkeen 9 TxGNN-kandidaatista.
+Tämän raportin käyttöön koottu aineisto ei sisällä virallista vaikutusmekanismin kuvausta. Tunnetun tiedon perusteella miglustaatti estää glukosyyliseramidisyntaasia (UGCG), joka on entsyymi glykosfingolipidien synteesin alkuvaiheessa. Lääke läpäisee veri-aivoesteen.
 
-## Kliinisen tutkimuksen näyttö
+Tay-Sachsin taudissa heksosaminidaasi A:n puutos johtaa GM2-gangliosidin kertymiseen hermosoluihin. Koska GM2-gangliosidi muodostuu glukosyyliseramidista, synteesin vähentäminen (substraatin vähennyshoito) voi teoriassa hidastaa kertymistä. Sama periaate on osoitettu toimivaksi Gaucherin taudissa, jossa glukosyyliseramidi kertyy.
 
-| Tutkimuksen numero | Vaihe | Tila | Osallistujat | Keskeiset havainnot |
+Näyttö on kuitenkin ristiriitaista. Myöhäisalkuisessa Tay-Sachsin taudissa tehty satunnaistettu tutkimus oli pieni, ja saatavilla olevien tietojen mukaan neurologinen hyöty oli vähäinen ja ruoansulatuskanavan haittavaikutuksia esiintyi. Infantiilimuodossa kahden potilaan tapaussarjassa hoito ei pysäyttänyt neurologista heikkenemistä, vaikka lääkeainepitoisuus aivo-selkäydinnesteessä oli merkittävä ja makrokefalia estyi.
+
+---
+
+## Kliininen tutkimusnäyttö
+
+| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT00418847](https://clinicaltrials.gov/study/NCT00418847) | Vaihe 2 | Saatu päätökseen | 5 | Farmakokinetiikka/siedettävyys yksittäisistä ja useista suun kautta otettavista annoksista nuoruusiässä alkavassa GM2-gangliosidoosissa |
-| [NCT00672022](https://clinicaltrials.gov/study/NCT00672022) | Vaihe 3 | Saatu päätökseen | 10 | PK/turvallisuus/siedettävyys immuussa alkavassa GM2-gangliosidoosissa (klassinen Tay-Sachsin tauti ja immuussa alkava Sandhoffin tauti); miglustat estää GM2-gangliosidien muodostumisen, saattaa vähentää/viivästyttää oireiden alkamista |
-| [NCT03822013](https://clinicaltrials.gov/study/NCT03822013) | Vaihe 3 | Keskeytetty | 30 | Miglustatin vaikutuksen tutkimus neurologisiin/systeemisiin oireisiin immuussa Sandhoffissa/Tay-Sachsissa; immuussa muodot ovat usein kuolettavia, hoito pääasiassa oireellista |
-| [NCT02030015](https://clinicaltrials.gov/study/NCT02030015) | Vaihe 4 | Keskeytetty | 16 | Miglustat + ketogeeninen dieteetti (Syner-G) yhdistelmä immuussa/nuoruusiässä alkavalle gangliosidoosille, oletettu synergistinen vaikutus selviytymiseen ja neurorakenteellisen kehityksen tuloksiin |
-| [NCT07399704](https://clinicaltrials.gov/study/NCT07399704) | Vaihe 2 | Rekrytoi osallistujia | 21 | Nizubaglustaatin pitkäaikainen turvallisuus/PK/tehokkuus GM2-gangliosidoosin/NPC-C-potilaissa, mukaan lukien potilaat, jotka siirtyvät edellisestä miglustat-hoidosta |
+| [NCT00672022](https://clinicaltrials.gov/study/NCT00672022) | Vaihe 3 | Päättynyt | 10 | Miglustaatin farmakokinetiikka, turvallisuus ja siedettävyys infantiilissa GM2-gangliosidoosissa; tehonäyttö rajallista |
+| [NCT02030015](https://clinicaltrials.gov/study/NCT02030015) | Vaihe 4 | Keskeytetty | 16 | Syner-G: miglustaatin ja ketogeenisen ruokavalion yhdistelmä gangliosidooseissa; yhdistelmäasetelma ja keskeytys vaikeuttavat tulkintaa |
+| [NCT00418847](https://clinicaltrials.gov/study/NCT00418847) | Vaihe 2 | Päättynyt | 5 | Farmakokinetiikka ja siedettävyys juveniilissa GM2-gangliosidoosissa; hyvin pieni, ei tehotutkimus |
+| [NCT03822013](https://clinicaltrials.gov/study/NCT03822013) | Vaihe 3 | Keskeytetty | 30 | Miglustaatin vaikutukset infantiilin Tay-Sachsin ja Sandhoffin taudin neurologisiin ja systeemisiin oireisiin; keskeytys heikentää näytön arvoa |
 
-## Kirjallisuuden näyttö
+---
+
+## Kirjallisuusnäyttö
 
 | PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [19346952](https://pubmed.ncbi.nlm.nih.gov/19346952/) | 2009 | RCT | Genetics in Medicine | 12 kuukauden satunnaistettu kontrolloitu tutkimus (plus 24 kuukauden laajennus) arvioimassa miglustatin turvallisuutta ja tehokkuutta GM2-gangliosidoosissa |
-| [37209042](https://pubmed.ncbi.nlm.nih.gov/37209042/) | 2023 | Systemaattinen katsaus | European Journal of Neurology | Systemaattinen katsaus miglustatin tehokkuudesta/turvallisuudesta GM2-gangliosidoosissa, huomioiden aikaisemmat epäyhdenmukaiset tulokset |
-| [18618288](https://pubmed.ncbi.nlm.nih.gov/18618288/) | 2008 | Kohortti (pilotti) | Journal of Inherited Metabolic Disease | Neurokognitiivinen testaus pilottitutkimuksessa myöhään alkavassa Tay-Sachsin taudissa terapeuttisten tutkimusten potentiaalisena lopputuloksen mittarina |
-| [32867370](https://pubmed.ncbi.nlm.nih.gov/32867370/) | 2020 | Katsaus | Int J Molecular Sciences | Yleiskatsaus GM2-gangliosidoosin kliinisiin piirteisiin, patofysiologiaan ja nykyisiin terapeuttisiin vaihtoehtoihin |
-| [30524313](https://pubmed.ncbi.nlm.nih.gov/30524313/) | 2018 | Katsaus | Frontiers in Physiology | Katsaus uusiin terapeuttisiin lähestymistapoihin Tay-Sachsin tautia varten |
-| [16434676](https://pubmed.ncbi.nlm.nih.gov/16434676/) | 2006 | Tapausseloste/Kohortti | Neurology | SRT miglustatilla kahdessa immuussa alkavassa Tay-Sachsin potilassa; ei pystynyt pysäyttämään neurologista heikkenemistä, mutta saavutti mitattavissa olevat CSF-lääkepitoisuudet ja esti makrosefalian |
-| [12808890](https://pubmed.ncbi.nlm.nih.gov/12808890/) | 2003 | — | Curr Opin Investig Drugs | Miglustat hyväksytty tyypin 1 Gaucherista tautia varten (EU-hyväksyntä marraskuussa 2002); myös kehitysvaiheessa Tay-Sachsin, Fabryn ja Niemann-Pick C -tautia varten |
-| [9103204](https://pubmed.ncbi.nlm.nih.gov/9103204/) | 1997 | — | Science | Perustava hiiritutkimus: NB-DNJ (miglustatin edeltäjäyhdiste) esti GM2-gangliosidien kertymisen ja varastointihermosolujen patologian muodostumisen Tay-Sachsin hiirimalleissa |
-| [12803928](https://pubmed.ncbi.nlm.nih.gov/12803928/) | 2003 | — | Phil Trans R Soc Lond B | SRT-tehokkuus osoitettu Tay-Sachsin, Sandhoffin ja Fabryn tautia koskevissa hiirimalleissa |
-| [30743792](https://pubmed.ncbi.nlm.nih.gov/30743792/) | 2009 | — | Expert Rev Endocrinol Metab | Katsaus SRT:hen miglustatilla glykosfingolipiidien varastosairauksissa, jotka vaikuttavat aivoihin |
+| [19346952](https://pubmed.ncbi.nlm.nih.gov/19346952/) | 2009 | RCT | Genetics in Medicine | 12 kuukauden satunnaistettu tutkimus miglustaatista myöhäisalkuisessa Tay-Sachsin taudissa, 24 kuukauden jatkohoito |
+| [37209042](https://pubmed.ncbi.nlm.nih.gov/37209042/) | 2023 | Systemaattinen katsaus | European Journal of Neurology | Miglustaatin teho ja turvallisuus GM2-gangliosidoosissa; aiemmat tulokset ristiriitaisia |
+| [42794762](https://pubmed.ncbi.nlm.nih.gov/42794762/) | 2026 | Katsaus | Int J Mol Sci | Miglustaatti neuronopaattisissa lysosomaalisissa kertymistaudeissa: biologinen perusta, kliininen näyttö ja uudelleenkäytön rajat |
+| [16434676](https://pubmed.ncbi.nlm.nih.gov/16434676/) | 2006 | Tapaussarja | Neurology | Kaksi infantiilia potilasta: hoito ei pysäyttänyt neurologista heikkenemistä, mutta lääkeainetta todettiin aivo-selkäydinnesteessä ja makrokefalia estyi |
+| [30743792](https://pubmed.ncbi.nlm.nih.gov/30743792/) | 2009 | Katsaus | Expert Rev Endocrinol Metab | Substraatin vähennyshoito miglustaatilla aivoja koskevissa glykosfingolipidien kertymistaudeissa |
+| [16763917](https://pubmed.ncbi.nlm.nih.gov/16763917/) | 2006 | Katsaus | J Inherit Metab Dis | Substraatin vähennyshoito glykosfingolipidien kertymistaudeissa |
+| [30524313](https://pubmed.ncbi.nlm.nih.gov/30524313/) | 2018 | Katsaus | Frontiers in Physiology | Uudet lähestymistavat Tay-Sachsin taudin hoitoon |
+| [28476546](https://pubmed.ncbi.nlm.nih.gov/28476546/) | 2017 | Luonnollinen kulku / kohortti | Mol Genet Metab | Infantiilien gangliosidoosien kliininen aikajana; substraatin vähennyshoitoa on kokeiltu, mutta ruoansulatuskanavan haittavaikutukset rajoittavat sitä |
+| [18618288](https://pubmed.ncbi.nlm.nih.gov/18618288/) | 2008 | Pilottitutkimus | J Inherit Metab Dis | Neurokognitiivinen testaus myöhäisalkuisessa Tay-Sachsin taudissa mahdollisena hoitovasteen mittarina |
+| [12808890](https://pubmed.ncbi.nlm.nih.gov/12808890/) | 2003 | Lääkeprofiili | Curr Opin Investig Drugs | Miglustaatin kehitys Gaucherin taudin hoitoon ja muihin glykolipidien kertymistauteihin |
 
-## Suomen markkinatiedot
+---
 
-Miglustat ei ole tällä hetkellä markkinoitu Suomessa — myyntilupaa ei ole rekisteröity (0 lupaa).
+## Markkinatiedot Suomessa
 
-## Turvallisuusnäkökohdat
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000435 | Zavesca | – | Gaucherin tauti; Niemann-Pickin tauti |
+| EMEA/H/C/004016 | Yargesa | – | Gaucherin tauti |
+| EMEA/H/C/004366 | Miglustat Gen.Orph | – | Gaucherin tauti |
+| EMEA/H/C/004904 | Miglustat Dipharma | – | Gaucherin tauti |
+| EMEA/H/C/005695 | Opfolda | – | Pompen tauti (glykogeenin varastotauti tyyppi II) |
 
-Katso turvallisuustietoja pakkausselosteesta. (TFDA/Fimean pakkausseloste varoituksista, vasta-aiheista ja lääkkeiden välisistä vuorovaikutuksista ei ole saatavilla — ks. Johtopäätös alla.)
+Kaikki viisi myyntilupaa on peruutettu, joten voimassa olevaa valmistetta ei tällä hetkellä ole.
+
+---
+
+## Turvallisuushuomioita
+
+- **Lääkeyhteisvaikutukset:** Imiglukeraasin kanssa on kirjattu kohtalaisen tason yhteisvaikutus. Lisäksi lääke kohdistuu UGCG-entsyymiin (glukosyyliseramidisyntaasi), mikä on sen farmakologinen vaikutuskohde.
+- **Tietämysgraafin perusteella havaitut sairausyhteydet (eivät ole valmisteyhteenvedon tekstiä):** perifeerisen hermoston sairaus, perifeerinen neuropatia ja munuaisten vajaatoiminta. Nämä on vahvistettava valmisteyhteenvedosta.
+- **Kirjallisuudessa mainitut haittavaikutukset:** ruoansulatuskanavan haittavaikutukset rajoittavat hoidon käyttöä.
+
+Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat, joten niiden osalta on tutustuttava valmisteyhteenvetoon.
+
+---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Jatka varauksellisesti**
+**Päätös: Hold**
 
-**Perustelut:**
-Tay-Sachsin/GM2-gangliosidoosin kandidaatilla on todellista tukea — yksi valmis RCT (PMID 19346952) sekä useita valmistuneet vaiheen 2/3 PK- ja turvallisuustutkimukset — rakennettu mekaanisesti järkeville SRT-perusteluille, jotka on jo validoitu Gaucherista taudissa. Kuitenkin vaiheen 3 tutkimus (NCT03822013) ja vaiheen 4 yhdistelmätutkimus (NCT02030015) molemmat keskeytettiin, ja tapausselosteaineisto (PMID 16434676) osoittaa, että SRT ei voinut pysäyttää neurologista heikkenemistä immuussa alkavassa taudissa, mikä viittaa hyödyn olevan paremmin todettu myöhään/nuoruusiässä alkavassa muodossa kuin nopeasti kuolettavassa immuussa muodossa. Muut 9 TxGNN-ennustettua indikaatiota tälle lääkkeelle pysyvät L5-tasolla suositus Pidätä kanssa, joilla ei ole kliinistä tai kirjallisuuden tukea, eikä niitä kannata tavoitella tällä hetkellä.
+**Perustelu:**
+Tay-Sachsin taudille on olemassa mekanistisesti uskottava perustelu ja useita tutkimuksia, mutta ne ovat pieniä, keskeytyneitä tai suunniteltu lähinnä turvallisuuden ja farmakokinetiikan arviointiin. Hyöty on osoittautunut rajalliseksi ja ruoansulatuskanavan haittavaikutukset ovat merkittäviä. Lisäksi kaikki Suomen myyntiluvat on peruutettu, eikä turvallisuusarviointia (S1) voida aloittaa ilman valmisteyhteenvetoa.
 
-**Jatkamiseksi seuraavat tiedot ovat tarpeen:**
-- DrugBank MOA -tiedot (DG002) toimintamekanismin yksityiskohtien vahvistamiseksi
-- TFDA/Fimean pakkausseloste varoitukset ja vasta-aiheet (DG001, estävä — vaaditaan ennen S1 turvallisuustarkastelussa)
-- Syyt NCT03822013 ja NCT02030015 keskeyttämiselle
-- Alaryhmiä koskevat tehokkuustiedot stratifioiduina taudin alkamisen perusteella (immuussa vs. nuoruusiässä vs. myöhään alkava), koska näyttötaso vaihtelee merkittävästi näiden väestöjen välillä
-- DDI-tiedot (tällä hetkellä ei löydy kyselystä)
+**Jatkotoimiin tarvitaan:**
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet (Fimean sivusto)
+- Virallinen vaikutusmekanismin kuvaus (esim. DrugBank)
+- Keskeytyneiden tutkimusten (NCT03822013, NCT02030015) tulosten ja keskeytyssyiden selvitys
+- Selvitys valmisteen saatavuudesta ja myyntilupatilanteesta Suomessa
+- Arvio ruoansulatuskanavan haittavaikutusten hallinnasta sekä hermosto- ja munuaisriskeistä
 
+*Muut ennusteet (esim. kolesteryyliesterien varastotauti, Krabben tauti, metakromaattinen leukodystrofia) perustuvat pelkkään mallin ennusteeseen ilman kliinistä näyttöä, ja niiden suositus on Hold.*
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

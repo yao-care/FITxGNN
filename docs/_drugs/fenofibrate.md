@@ -2,7 +2,7 @@
 layout: default
 title: Fenofibrate
 parent: Kohtalainen näyttö (L3-L4)
-nav_order: 162
+nav_order: 187
 evidence_level: L4
 indication_count: 7
 ---
@@ -29,89 +29,95 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **7** kpl
 
 </div>
 
-# Fenofibrate: hyperlipidemiasta homozygousiin familiaaliseen hyperkolesterolemiaan
+# Fenofibraatti: Dyslipidemiasta homotsygoottiseen familiaaliseen hyperkolesterolemiaan
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Fenofibraatti on fibrihappojohdos (PPAR-α agonisti) tunnetulla, hyvin dokumentoidulla käytöllä hyperlipidemian ja sekamuotoisen dyslipidemia-hoidon alueella. TxGNN-mallin parhaiten sijoittuva ennustus on **Homozygousinen familiaalis hyperkolesterolemia (HoFH)**, mutta tätä signaalia tukee tällä hetkellä vain **1 löyhästi liittyvä kliininen tutkimus** (jossa testattiin erilaista lääkettä) ja **11 julkaisua**, joista yksikään ei suoraan testaa fenofibraattia HoFH-potilaissa.
-
----
-
-## Nopea yleiskatsaus
-
-| Kohde | Sisältö |
-|------|--------|
-| Alkuperäinen indikaatio | Ei merkitty todistepakissa olevissa sääntelykentissä; fenofibraatin tunnettu alkuperäinen käyttö on hyperlipidemian / sekamuotoisen dyslipidemia-hoito (fibrihappo-luokka), mikä vahvistetaan sijalla 2 olevan ennustuksen perustelulla |
-| Ennustettu uusi indikaatio | Homozygousinen familiaalis hyperkolesterolemia (HoFH) |
-| TxGNN-ennustuspistemäärä | 99,91% |
-| Todisteen taso | L4 |
-| Suomen markkinatilanne | Ei markkinoilla |
-| Markkinointilupien lukumäärä | 0 |
-| Suositeltu päätös | Keskeytys |
+Fenofibraatti on rasva-aineenvaihdunnan häiriöiden (dyslipidemioiden) hoitoon tarkoitettu lääke. TxGNN-malli ennustaa sen voivan tehota **homotsygoottiseen familiaaliseen hyperkolesterolemiaan**. Ennusteen tueksi on vain **1 kliininen tutkimus**, joka koskee toista lääkettä (alirokumabi), ja **10 julkaisua**, jotka ovat pääosin yleisiä lipidilääkitystä käsitteleviä katsauksia. Fenofibraattia koskevaa suoraa näyttöä on hyvin vähän.
 
 ---
 
-## Miksi tämä ennustus on järkevä?
+## Pikakatsaus
 
-Tällä hetkellä yksityiskohtaisia toimintamekanismia koskevia tietoja ei ole saatavilla fenofibraatille (merkitty korkean vakavuusasteen tietovajeeksi, DG002). Tunnetun farmakologisen luokkatiedon perusteella fenofibraatti on fibrihappojohdos ja PPAR-α agonisti, joka aktivoi lipoproteiinilipaasia ja alentaa apoC-III:a, mikä vähentää triglyseridejä ja nostaa HDL-C:ta. Sen teho hyperlipidemian ja sekamuotoisen (tyypin IIb/III/IV/V) hyperlipoproteinemian hoidossa on hyvin vakiintunut — tätä tuetaan suoraan samassa todistepakissa sijalla 2 olevalla ennustuksella ("hyperlipoproteinemian"), joka saavuttaa todisteen tason L1 useilla tehdyillä vaihe 3 RCT-tutkimuksilla.
-
-HoFH on kuitenkin erillinen kliininen kokonaisuus: sen aiheuttaa lähes täydellinen LDL-reseptorin toiminnan menetys, mikä johtaa merkittävästi kohonneeseen LDL-C:hen, joka on suurelta osin riippumaton triglyserideihin/HDL:iin keskittyneestä PPAR-α-signalointipolusta, johon fenofibraatti vaikuttaa. Fenofibrati-aineen todistetun alkuperäisen käytön (triglyseridien alentaminen dyslipidemiassa) ja tämän uuden ennustetun indikaation välinen suhde on siksi parhaimmillaan epäsuora.
-
-Todistepakissa esitetty uudelleenkäytön perustelu ilmaisee tämän selkeästi: "fenofibatin PPAR-α/TG-signalointipolulla ei ole suoraa yhteyttä HoFH:n patogeneeseiseen mekanismiin; kliinisesti se ei kuulu HoFH:n päävirran hoitoon" (päävirran vaihtoehdot ovat statiinit, PCSK9-inhibitorit, lomitapiidi tai LDL-apheresis). Tämän mukaisesti ainoa löydetty kliininen tutkimus (NCT03510715) testaa alirokumaabia, ei fenofibraattia, HoFH-potilaissa — päällekkäisyys rajoittuu vain kohdejoukkoon, ei lääkkeeseen. Tätä ennustusta tulisi siksi lukea TxGNN-mallin signaaliksi, joka odottaa suoraa mekanistista tai kliinistä vahvistusta, eikä näyttöön perustuvaksi uudelleenkäytön mahdollisuudeksi.
+| Kohta | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | Dyslipidemiat |
+| Ennustettu uusi käyttöaihe | Homotsygoottinen familiaalinen hyperkolesterolemia |
+| TxGNN-ennustepisteet | 99,91 % |
+| Näytön taso | L4 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 2 (molemmat peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Kliinisen tutkimuksen näyttö
+## Miksi ennuste on perusteltu?
 
-| Tutkimuksen numero | Vaihe | Tila | Osallistujamäärä | Keskeiset tulokset |
+Fenofibraatti aktivoi PPARα-reseptoria. Aktivaatio lisää lipoproteiinilipaasin toimintaa, vähentää ApoC-III:n määrää ja tehostaa rasvahappojen hapettumista. Näin se laskee pääasiassa triglyseridejä ja VLDL-kolesterolia ja nostaa HDL-kolesterolia. LDL-kolesterolia se laskee vain vähän. Tämä sopii hyvin sekamuotoiseen dyslipidemiaan ja korkeisiin triglyseridipitoisuuksiin.
+
+Homotsygoottinen familiaalinen hyperkolesterolemia johtuu pääasiassa LDL-reseptorin toimintahäiriöstä. Siksi PPARα-aktivaatio tuskin laskee LDL-kolesterolia merkittävästi. Yhteys alkuperäiseen käyttöaiheeseen on lähinnä se, että molemmat ovat lipidihäiriöitä. Mekanistisesti yhteys on heikko.
+
+Korkea ennustepistemäärä johtuu todennäköisesti siitä, että tauti sijaitsee tietoverkossa lähellä muita lipidihäiriöitä. Se ei kerro lääkekohtaisesta näytöstä. Ainoa fenofibraattia koskeva ihmistutkimus tässä yhteydessä on vuodelta 1984. Siinä yksi homotsygoottista tautimuotoa sairastava potilas sai suurimman kolesterolilaskun osana laajempaa tyypin II hyperlipoproteinemiapotilaiden ryhmää.
+
+---
+
+## Kliininen tutkimusnäyttö
+
+| Tutkimustunnus | Vaihe | Tila | Osallistujia | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT03510715](https://clinicaltrials.gov/study/NCT03510715) | Vaihe 3 | Valmis | 18 | Arvioi alirokumaabia (PCSK9-inhibiitoria), ei fenofibraattia, HoFH-potilaissa olevia lapsia/nuoria, jotka saivat taustahoidolla — merkitys rajoittuu vain väestön päällekkäisyyteen (luokka C) |
+| [NCT03510715](https://clinicaltrials.gov/study/NCT03510715) | Vaihe 3 | Päättynyt | 18 | Avoin tutkimus alirokumabista 8–17-vuotiailla lapsilla ja nuorilla, joilla on homotsygoottinen familiaalinen hyperkolesterolemia. Tutkimus ei koske fenofibraattia, joten se ei anna suoraa näyttöä tästä lääkkeestä. |
 
 ---
 
-## Kirjallisuuden näyttö
+## Kirjallisuusnäyttö
 
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset tulokset |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [6593751](https://pubmed.ncbi.nlm.nih.gov/6593751/) | 1984 | Kliininen | Pharmacological Research Communications | Fenofibraatti 300 mg/päivä tyypin II hyperlipoproteinemian hoidossa (22 potilasta); yksi HoFH-potilas osoitti suurimman laskun kokonais- ja LDL-kolesterolissa kaikista tutkittavista |
-| [24734312](https://pubmed.ncbi.nlm.nih.gov/24734312/) | 2014 | PK-tutkimus | Pharmacotherapy | Kuvasi lomitapidin (hyväksytty HoFH-lääke) farmakokineettisia vuorovaikutuksia fenofibatin ja muiden lipidien-alentavien aineiden kanssa |
-| [24946816](https://pubmed.ncbi.nlm.nih.gov/24946816/) | 2014 | Tapaussarja | Internal Medicine Journal | Maksan siirtäminen HoFH:aa varten; käsittelee pää- ja nousevia lipidien-alentavia hoitoja riittämättöminä yksinään vakavan LDL-C-nousun hoidossa |
-| [37979722](https://pubmed.ncbi.nlm.nih.gov/37979722/) | 2024 | Katsaus | Indian Heart Journal | Toteaa fenofibatin varmimman indikaation olevan yksihoitona paastotriglyseridien >500 mg/dL:n hoidossa pankreatiittiriskin vähentämiseksi, pienellä sydän- ja verisuonitaudin hyödyllä |
-| [28437620](https://pubmed.ncbi.nlm.nih.gov/28437620/) | 2017 | Ohjaus | Endocrine Practice | AACE/ACE dyslipidemia-hoito ja sydän- ja verisuonitaudin ehkäisyohjaus |
-| [2042836](https://pubmed.ncbi.nlm.nih.gov/2042836/) | 1991 | Katsaus | Annals of the NY Academy of Sciences | Käsittelee lääkehoitoa ja kirurgisia hoitovaihtoehtoja dyslipideemisille lapsille, joilla on familiaalis hyperkolesterolemia, mukaan lukien fenofibraatti muiden aineiden joukossa |
-| [35499807](https://pubmed.ncbi.nlm.nih.gov/35499807/) | 2022 | Katsaus | Current Atherosclerosis Reports | Käsittelee dyslipidemia-hoitoa raskauden aikana; yleinen konteksti, ei fenofibraatti/HoFH-kohtaisia tietoja |
-| [26432726](https://pubmed.ncbi.nlm.nih.gov/26432726/) | 2015 | Katsaus | Indian Heart Journal | Käsittelee LDL-C:n alentamista statiineilla ja PCSK9-inhibiitoreilla; yleinen tausta, ei fenofibraatti/HoFH-tietoja |
-| [14620392](https://pubmed.ncbi.nlm.nih.gov/14620392/) | 2003 | Katsaus | Pharmacotherapy | Käsittelee ezeitemiä kolesterolin imeytymisen estäjänä; vain yleinen tausta |
-| [9129869](https://pubmed.ncbi.nlm.nih.gov/9129869/) | 1997 | Katsaus | Drugs | Käsittelee atorvastatiinin farmakologiaa ja terapeuttista potentiaalia; vain yleinen tausta |
+| [6593751](https://pubmed.ncbi.nlm.nih.gov/6593751/) | 1984 | Kohorttitutkimus | Pharmacological Research Communications | 22 tyypin II hyperlipoproteinemiapotilasta sai fenofibraattia 4–12 kuukautta. Kokonaiskolesteroli laski keskimäärin 22 % ja LDL-kolesteroli 24 %. Yhdellä homotsygoottista tautimuotoa sairastavalla potilaalla lasku oli suurin. |
+| [2042836](https://pubmed.ncbi.nlm.nih.gov/2042836/) | 1991 | Katsaus | Annals of the New York Academy of Sciences | Lasten ja nuorten dyslipidemian lääke- ja leikkaushoidot. Fenofibraatti mainitaan yhtenä lääkkeenä, jolla on saatu kolesterolia laskevia tuloksia. |
+| [24734312](https://pubmed.ncbi.nlm.nih.gov/24734312/) | 2014 | Farmakokineettinen yhteisvaikutustutkimus | Pharmacotherapy | Lomitapidin (homotsygoottisen tautimuodon lääke) yhteisvaikutukset useiden lipidilääkkeiden, myös fenofibraatin, kanssa. |
+| [37979722](https://pubmed.ncbi.nlm.nih.gov/37979722/) | 2024 | Katsaus | Indian Heart Journal | Statiinien ulkopuoliset lipidilääkkeet. Fenofibraatin selkein käyttöaihe on triglyseridipitoisuus yli 500 mg/dl, ja sen vaikutus sydän- ja verisuonitapahtumiin on vähäinen. |
+| [28437620](https://pubmed.ncbi.nlm.nih.gov/28437620/) | 2017 | Hoitosuositus | Endocrine Practice | AACE/ACE:n suositukset dyslipidemian hoidosta ja sydän- ja verisuonitautien ehkäisystä (yleinen suositus). |
+| [35499807](https://pubmed.ncbi.nlm.nih.gov/35499807/) | 2022 | Katsaus | Current Atherosclerosis Reports | Dyslipidemian hoito raskauden aikana. |
+| [14620392](https://pubmed.ncbi.nlm.nih.gov/14620392/) | 2003 | Katsaus | Pharmacotherapy | Ezetimibi, selektiivinen kolesterolin imeytymisen estäjä. Ei koske fenofibraattia. |
+
+Muut haussa löytyneet julkaisut ovat statiineja ja PCSK9:n estäjiä käsitteleviä katsauksia, eikä niillä ole suoraa yhteyttä fenofibraattiin.
 
 ---
 
-## Suomen markkinatiedot
+## Markkinatiedot Suomessa
 
-Fenofibraatilla on tällä hetkellä **0 markkinointilupaa** Suomessa ja se ei ole markkinoilla (`market_status: Not marketed`). Mitään tuote-/lisenssitietoja ei ole saatavilla todistepakissa.
-
----
-
-## Turvallisuushuomiot
-
-Katso pakkausselosteesta turvallisuustietoja. Tärkeimmät varoitukset, vasta-aiheet ja lääkkeiden väliset vuorovaikutustiedot eivät olleet saatavilla arvioinnin aikana (DG001, Estävä-vakavuusaste — TFDA/pakkausseloste-varoitustiedot ei voitu hakea, mikä estää myös edistymisen S1-turvallisuuden esiarvioinnin vaiheeseen).
+| Myyntiluvan numero | Valmisteen nimi | Valmistaja | Hyväksytty käyttöaihe | Tila |
+|---------|------|------|-----------|------|
+| EMEA/H/C/002559 | Cholib | Viatris Healthcare Limited | Dyslipidemiat | Peruutettu |
+| EMEA/H/C/001243 | Pravafenix | Laboratoires SMB S.A. | Dyslipidemiat | Peruutettu |
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Turvallisuushuomioita
 
-**Päätös: Keskeytys**
+Valmisteyhteenvedon varoitukset ja vasta-aiheet eivät olleet tämän raportin aineistossa. Turvallisuustiedot tulee tarkistaa valmisteyhteenvedosta.
+
+- **Tietämyskuvaajaan perustuvat mahdolliset vasta-aiheet** (TxGNN/PrimeKG, ei lääkevalmisteen myyntiluvan tekstiä): maksan vajaatoiminta ja maksasairaudet, haimatulehdus, sappirakkosairaudet ja sappikivet, lihassairaudet ja rabdomyolyysi, munuaisten vajaatoiminta, trombosytopenia, anemia sekä leukopenia ja neutropenia.
+- **Yhteisvaikutukset:** aineistoon on kirjattu 100 yhteisvaikutusta. Esimerkkejä ovat keskivaikeaksi luokitellut yhteisvaikutukset sulfonyyliureoiden (glimepiridi, glipitsidi, glibenklamidi, asetoheksamidi, klooripropamidi), erilaisten insuliinien, kenodeoksikolihapon ja esomepratsolin kanssa.
+
+---
+
+## Johtopäätös ja jatkotoimet
+
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-- Parhaiten sijoittuvalla ennustuksella (HoFH) ei ole suoraa mekanistista yhteyttä — fenofibatin PPAR-α/triglyseridien polulla ei käsitellä LDL-reseptoridefektia, joka on HoFH:n taustalla — eikä yksikään kliininen tutkimus ole testannut fenofibraattia tässä väestössä.
-- Estävä-vakavuusasteen tietovaje (puuttuvat TFDA/pakkausseloste-turvallisuustiedot) estää tämän ehdokkaan etenemisen S1-turvallisuusarvioinnin vaiheeseen riippumatta tehokkuussignaalista.
+- Fenofibraatin vaikutusmekanismi (pääasiassa triglyseridien lasku) ei vastaa homotsygoottisen familiaalisen hyperkolesterolemian taustalla olevaa LDL-reseptorin toimintahäiriötä. Ainoa liitetty tutkimus koskee alirokumabia, ja fenofibraattia koskeva ihmisnäyttö rajoittuu yhteen 1980-luvun potilastapaukseen. Korkea ennustepistemäärä on laskennallinen eikä lääkekohtainen näyttö.
+- Lisäksi Suomessa ei ole voimassa olevia myyntilupia.
 
-**Jatkaakseen tarvitaan seuraavaa:**
-- Hanki ja jäsennä virallinen pakkausseloste (varoitukset, vasta-aiheet, lääkkeiden väliset vuorovaikutukset) DG001:n ratkaisemiseksi ennen S1-turvallisuusarviointia
-- Hanki vahvistetut toimintamekanismitiedot (DG002) HoFH:n mekanistisen uskottavuuden asianmukaiseksi arvioimiseksi
-- Harkitse sijalla 2 olevan ehdokkaan ("hyperlipoproteinemian", L1-näyttö, 34 kliinistä tutkimusta) arviointia tai välivaiheisenä vaihtoehtona, koska se heijastaa fenofibatin jo vakiintunutta käyttöä mekanistisesti tue-ttamattomien uusien indikaatioiden sijaan
-- Jos HoFH pysyy mielenkiintona, hae esikliinisiä tai mekanistisia tutkimuksia, jotka suoraan testaa fenofibraattia (tai fenofibraattia + statiini/PCSK9i-yhdistelmää) LDL-reseptoridefektia sisältävissä malleissa ennen muuta kliinistä harkintaa
+**Jatkaminen edellyttää:**
+- fenofibraattia koskevaa kontrolloitua tutkimusnäyttöä homotsygoottisessa tautimuodossa
+- tarkempaa vaikutusmekanismin analyysia ja perusteluja sille, miksi PPARα-aktivaation pitäisi laskea LDL-kolesterolia LDL-reseptorin puutoksessa
+- valmisteyhteenvedon turvallisuustietojen tarkistamista
+- arviota tilanteesta, jossa voimassa olevia myyntilupia ei ole
 
+Samassa ennusteaineistossa **hyperlipoproteinemia** (toinen ennustettu käyttöaihe) saa selvästi vahvemman tuen, sillä siitä on useita päättyneitä vaiheen 3 satunnaistettuja tutkimuksia. Se vastaa kuitenkin pääosin lääkkeen nykyistä käyttöaihetta, joten kyse on lähinnä vahvistuksesta eikä uudesta käyttökohteesta.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

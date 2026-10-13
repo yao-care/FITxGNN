@@ -2,7 +2,7 @@
 layout: default
 title: Mecasermin
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 242
+nav_order: 278
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,63 +29,81 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Mecasermin: kasvuhormonin resistanssista monosomiaan X (Turnerin oireyhtymä)
+# Mekaseermiini: Laronin oireyhtymästä monosomia X:ään (Turnerin oireyhtymä)
 
 ## Yhden lauseen yhteenveto
 
-Mecasermin on rekombinantti ihmisen IGF-1 analogu, jonka todettu vaikutusmekanismi on ohittaa kasvuhormonin reseptori ja toimittaa suoraan loppupään IGF-1:tä potilaille, joilla on kasvuhormonin resistanssi (esim. Laronin oireyhtymä). TxGNN-malli ennustaa mahdollista uutta käyttöaihetta **monosomiassa X (Turnerin oireyhtymeessä)**, mutta tällä kandidaatilla ei tällä hetkellä ole **tukevia kliinisiä tutkimuksia tai kirjallisuutta**, ja todistustepaketissa itse huomautetaan, että mekanistinen yhteys on todennäköisesti rinnakkaisesiintymisen artefakti pikemmin kuin suora patologinen yhteys.
+Mekaseermiini on yhdistelmä-DNA-tekniikalla valmistettu IGF-1 (insuliinin kaltainen kasvutekijä 1), jota on käytetty Laronin oireyhtymän hoitoon. TxGNN-malli ennustaa sen voivan tehota **monosomia X:ään (Turnerin oireyhtymä)**, mutta ennustetta tukevia **kliinisiä tutkimuksia ei ole (0)** eikä **julkaisuja ole (0)**. Näyttö perustuu yksinomaan mallin laskennalliseen ennusteeseen.
 
-## Pika-yleiskatsaus
+---
 
-| Kohde | Sisältö |
-|------|---------|
-| Alkuperäinen käyttöaihe | Ei saatavilla — Fimealla hyväksyttyä käyttöaiheen kuvausta ei ole tiedostossa (lääkettä ei markkinoida Suomessa); tunnettu käyttö DrugBank-johdetun perustelun mukaan on kasvun viivästyminen kasvuhormonin resistanssin vuoksi |
+## Pikakatsaus
+
+| Kohta | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | Laronin oireyhtymä |
 | Ennustettu uusi käyttöaihe | Monosomia X (Turnerin oireyhtymä) |
-| TxGNN:n ennusteen pistemäärä | 99.58% |
-| Todisteen taso | L5 (vain mallin ennuste, ei tukevia tutkimuksia) |
-| Suomen markkinatilanne | ✗ Ei markkinoilla |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Pidättyä |
+| TxGNN-ennustepisteet | 99,59 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennuste on järkevä?
+---
 
-Yksityiskohtaista vaikutusmekanismin tietoja ei ole saatavilla tässä todistustepaketissa (merkitty vakavaksi tietovajeeksi). Samaan erään liittyvään ennusteeseen liittyvän mekanistisen perustelun perusteella mecaserminin tunnettu farmakologia on toimia rekombinanttina IGF-1:nä, joka ohittaa GH-reseptorin, toimittaen suoraan loppupään IGF-1-signaloinnin — pohja sen käytölle kasvuhormonin resistanssiin liittyvässä kasvun viivästymisessä.
+## Miksi ennuste on järkevä?
 
-Monosomiassa X (Turnerin oireyhtymeessä) ehdotettu yhteys on, että sairastuneet potilaat esittävät yleensä kasvun viivästymistä ja joskus reagoivat huonosti GH-terapiaan, joten IGF-1-täydennys on teoreettisesti uskottava loppupään kasvua stimuloivana lisähoitona. Turnerin oireyhtymen kasvun viivästyminen johtuu kuitenkin ensisijaisesti SHOX-geenin haploinsuffienssista, ei klassisesta IGF-1-puutoksesta — mikä tekee mekanistisesta päällekkäisyydestä epäsuoraa ja epäspesifistä.
+Tästä lääkkeestä ei tällä hetkellä ole saatavilla yksityiskohtaista vaikutusmekanismitietoa. Mekaseermiini on kuitenkin IGF-1:n yhdistelmä-DNA-muoto, ja sen teho Laronin oireyhtymässä (vaikea primaarinen IGF-1-puutos, kasvuhormonin epäherkkyys) on osoitettu. Mekaseermiini korvaa puuttuvan IGF-1:n suoraan ja toimii kasvuhormonin vaikutusketjun loppupäässä.
 
-Huomattavasti, todistustepaketissa itsessään varoitetaan, että korkea TxGNN-pistemäärä voi heijastaa tietograafissa esiintyvää "kasvuun liittyviä sairauksia" rinnakkaisesiintymisen mallia pikemmin kuin suoraa patologista mekanismia. Tätä on käsiteltävä vain hypoteesin muodostavana signaalina, ei validoituna mekanistisena yhteyksenä.
+Turnerin oireyhtymälle on tyypillistä lyhytkasvuisuus, ja kasvuhormoni on vakiintunut hoito. Mekanistinen peruste on siis uskottava mutta heikko: Turnerin oireyhtymää sairastavilla IGF-1-vaste on yleensä normaali tai koholla, eikä taustalla ole ensisijaisesti IGF-1-puutosta. Korkea TxGNN-pistemäärä (0,996) on pelkkä laskennallinen ennuste, eikä sitä tue mikään kliininen tai kirjallisuusnäyttö.
 
-## Kliinisen tutkimuksen todisteet
+Muut ennustetut käyttöaiheet (sijat 2–5) ovat mekanistisesti vielä heikommin perusteltuja. Biologisesti uskottavin ehdokas on **kasvuhormoniresistenssioireyhtymä, johon liittyy immuunisäätelyn häiriö (autosomaalinen dominantti, tyyppi 2)** (sija 3, pisteet 99,06 %). Se muistuttaa mekanismiltaan Laronin oireyhtymää (STAT5B-liitännäinen signalointi), ja mekaseermiini ohittaa vialliset kasvuhormonin signaalit. IGF-1 ei kuitenkaan korjaa immuunisäätelyn häiriötä, eikä tutkimusnäyttöä ole. Sitä kannattaa tarkastella erillisessä kirjallisuuskatsauksessa.
 
-Tällä hetkellä yhtään liittyvää kliinistä tutkimusta ei ole rekisteröity.
+---
 
-## Kirjallisuustodisteet
+## Kliininen tutkimusnäyttö
 
-Tällä hetkellä yhtään liittyvää kirjallisuutta ei ole saatavilla.
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
+
+---
+
+## Kirjallisuusnäyttö
+
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
+
+---
 
 ## Suomen markkinatiedot
 
-Tiedostossa ei ole valtuutettuja tuotteita — mecaserminia ei tällä hetkellä markkinoida Suomessa (0 lisenssiä kirjattu).
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000704 | Increlex (tila: peruutettu) | – | Laronin oireyhtymä |
 
-## Turvallisuusnäkökohdat
+---
 
-Turvallisuustiedot löytyvät pakkausselosteesta.
+## Turvallisuushuomiot
 
-*(Huomautus: TFDA/Fimean pakkausseloste varoitukset ja vasta-aiheet on merkitty estyväksi tietovajeeksi (DG001) tässä todistustepaketissa, eikä niitä voitu poimia tätä raporttia varten.)*
+**Lääkeyhteisvaikutukset:** Yhteisvaikutuksia löytyi yhteensä 24, ja kaikki esitetyt ovat vaikeusasteeltaan **kohtalaisia**. Ne koskevat verensokeria laskevia lääkkeitä, joten hypoglykemian riski on huomioitava:
+- Sulfonyyliureat: klooripropamidi, asetoheksamidi, glimepiridi, glipitsidi, glibenklamidi
+- Glinidit: nateglinidi
+- Insuliinit: ihmisinsuliini ja useat insuliinianalogit (aspart, degludek, detemir, glargiini, glulisiini, lispro) sekä niiden eri valmistemuodot
+
+Muuta turvallisuustietoa (varoitukset ja vasta-aiheet) ei ole saatavilla. Katso turvallisuustiedot valmisteyhteenvedosta.
+
+---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Pidättyä**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Tällä kandidaatilla on L5-todiste (vain mallin ennuste), nolla kliinisiä tutkimuksia tai kirjallisuustukea, ja todistustepaketissa huomautetaan, että mekanistinen yhteys on todennäköisesti epäsuora/harhaanjohtava tietograafin rinnakkaisesiintyminen pikemmin kuin validoitu patologinen yhteys. Yhdessä turvallisuustietojen puutteen kanssa ei ole perusteita edetä hypoteesin vaiheen yli.
+- Ennuste perustuu vain mallin laskennalliseen pisteytykseen (L5), eikä kliinisiä tutkimuksia tai julkaisuja ole. Mekanistinen peruste Turnerin oireyhtymässä on heikko, ja Suomessa valmisteen myyntilupa on peruutettu.
 
-**Jatkaakseen seuraavaa tarvitaan:**
-- TFDA/Fimean pakkausseloste tiedot (varoitukset, vasta-aiheet) — tällä hetkellä estävä (DG001)
-- Vahvistetut vaikutusmekanismin tiedot DrugBankista (DG002)
-- Kohdistettu kirjallisuushaku IGF-1:n käytölle Turnerin oireyhtymeessä / SHOX-liittyneessä kasvun viivästymisessä mekanistisen hypoteesin testaamiseksi
-- Suomen sääntely-/markkinatilan vahvistaminen ennen mitään lisäarviointia
-
+**Eteenpäin siirtyminen edellyttää:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimeasta (estävä tietoaukko turvallisuusseulonnalle)
+- Vaikutusmekanismitietojen täydentämistä (esim. DrugBankista)
+- Kohdennettua kirjallisuuskatsausta erityisesti kasvuhormoniresistenssioireyhtymästä, johon liittyy immuunisäätelyn häiriö (sija 3), sekä Turnerin oireyhtymän IGF-1-tilasta
+- Selvitystä valmisteen saatavuudesta Suomessa, koska myyntilupa on peruutettu
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

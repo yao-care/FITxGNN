@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Sirolimus
-parent: Vahva näyttö (L1-L2)
-nav_order: 346
-evidence_level: L2
+parent: Kohtalainen näyttö (L3-L4)
+nav_order: 405
+evidence_level: L3
 indication_count: 10
 ---
 
 # Sirolimus
 {: .fs-9 }
 
-Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,92 +29,136 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Sirolimus: munuaissiirteen hyljinnän profylaksiasta liposarkooomaan
+# Sirolimuusi: Kasvaimiin liittyvästä kudososien kasvusta (tuberoosiskleroosi, siirteen hylkiminen) liposarkoomaan
 
-## Yhden lauseen yhteenveto
+## Yhden lauseen tiivistelmä
 
-Sirolimus (rapamycin) on mTOR-inhibiittori, joka alun perin kehitettiin immunosuppressanttina munuaissiirteen hyljinnän profylaksiin. TxGNN-malli ennustaa, että se saattaa olla tehokas **liposarkooman** hoidossa, ja tätä suuntaa tukee tällä hetkellä **5 kliinistä tutkimusta** (pääosin sirolimus-luokan analogeja) sekä **12 julkaisua**. Kuitenkin **kriittinen tietoaukko** suomalaisissa/TFDA-turvamerkinnöissä tarkoittaa, että tämä lääkeaine ei voi vielä siirtyä muodollisen turvallisuusarvioinnin S1-vaiheeseen.
+Sirolimuusi on mTOR-estäjä, jota on alun perin käytetty tuberoosiskleroosiin liittyvän angiofibrooman hoitoon ja munuaisensiirron jälkeisen siirteen hylkimisreaktion ehkäisyyn.
+TxGNN-malli ennustaa sen voivan tehota ensisijaisesti **liposarkoomaan**, mutta tämän ennusteen tuki on heikko: yksi valmistunut yhden haaran vaiheen 2 tutkimus ja pääosin yleiskatsauksia.
+Vahvin näyttö kohdistuu ennustelistan viidenteen kohteeseen, **lymfangioleiomyomatoosiin (LAM)**, jota tukee **9 kliinistä tutkimusta** ja useita kymmeniä julkaisuja.
+
+> Huom. Raportin pääkohteena on pyydetyn rakenteen mukaisesti listan ensimmäinen ennuste (liposarkooma). Liitteenä on lyhyt vertailu muihin ennusteisiin, koska LAM on näyttönä selvästi vahvempi.
 
 ---
 
-## Pikayleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Munuaissiirteen hyljinnän profylaksi (immunosuppressio) — hyvin vakiintunut alkuperäinen käyttö; suomalaisia/TFDA-lisenssilausekkeita ei ole saatavilla tässä asiakirjassa |
-| Ennustettu uusi indikaatio | Liposarcoma |
-| TxGNN-ennustepisteet | 99.89% |
-| Todisteiden taso | L2 |
-| Suomen markkina-asema | ✗ Ei markkinoilla |
-| Lupapäätösten lukumäärä | 0 |
-| Suositeltu päätös | Pidätä |
+| Alkuperäinen käyttöaihe | Angiofibrooma, tuberoosiskleroosi |
+| Ennustettu uusi käyttöaihe | Liposarkooma |
+| TxGNN-ennustepistemäärä | 99,89 % |
+| Näytön taso | L3 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 2 (molemmat peruutettu) |
+| Suositeltu päätös | Hold (odota) liposarkooman osalta; LAM: Proceed with Guardrails (eteneminen suojatoimin) |
 
 ---
 
-## Miksi tämä ennuste on järkevä?
+## Miksi ennuste on perusteltu?
 
-Yksityiskohtaisia vaikutusmekanismin tietoja ei ole tällä hetkellä saatavilla (DrugBank-kysely ei palauttanut MOA-kenttää). Tunnetun farmakologian perusteella sirolimus on mTOR-inhibiittori (mechanistic target of rapamycin), jonka tehokkuus immunosuppressanttina kiinteissä elinsiirteissä on hyvin vakiintunut. Mekanistisesti tämä sama mTOR-esto-aktiivisuus tutkitaan nyt liposarkooman antitumoraalisena strategiana.
+Mekanismitietoa (alkuperäinen vaikutustapa) ei tähän raporttiin koottu aineistoon sisälly. Tunnetun tiedon perusteella sirolimuusi estää mTORC1-kompleksia, ja sen teho on osoitettu tuberoosiskleroosiin liittyvissä kasvaimissa sekä siirteen hylkimisen ehkäisyssä.
 
-Liposarcoma, erityisesti dedifferentioitunut alatyyppi, on osoittanut Akt-mTOR- ja MAPK-signalointireittien aktivaatiota (PMID 26518767), mikä antaa suoran mekanistisen perustelun mTOR-estolle anti-proliferatiivisena strategiana. Tätä vahvistaa luokkalainen näyttö: sirolimus-analogit (temsirolimus, ridaforolimus, everolimus) ovat suorittaneet useita 1/2-vaiheisen tutkimuksia edistyneessä pehmytkudossarkooman ja liposarkooman hoidossa, mukaan lukien yhden haaran 2-vaiheisen tutkimuksen sirolimuksesta yhdessä syklofosfamidin kanssa (NCT02821507, n=70, valmis).
+PI3K/AKT/mTOR-reitin aktivaatiota on kuvattu pehmytkudossarkoomissa, myös liposarkoomassa. Tämä antaa teoreettisen perustan mTOR-estolle. Alkuperäisen käyttöaiheen (TSC:hen liittyvät kasvaimet) ja liposarkooman välinen yhteys on kuitenkin epäsuora: TSC-kasvaimissa mTORC1:n yliaktivaatio johtuu TSC1/TSC2-geenien menetyksestä, kun taas liposarkoomassa reitin aktivaatio on moninaisempi.
 
-Siitä huolimatta ei ole olemassa mitään 3-vaiheisen vahvistavan tutkimusta sirolimukselle (tai sen analogeille) erityisesti liposarkooman hoidossa, ja tutkimusnäyttö on kerätty pääosin vastaavista rapalogista eikä itse sirolimuksesta — mekanistinen tapaus on vahvempi kuin suora kliinisen tutkimuksen tapaus.
+Siksi liposarkoomaa koskeva ennuste on tutkimuskysymys, ei valmis hoitosuositus. Sen sijaan mTORC1-ajurisiin kasvaimiin (LAM, PEComa-perhe) mekanistinen peruste on huomattavasti vahvempi.
 
 ---
 
 ## Kliinisen tutkimuksen näyttö
 
-| Tutkimusnumero | Vaihe | Tila | Osallistujamäärä | Keskeiset löydökset |
+| Tutkimusnumero | Vaihe | Tila | Osallistujia | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT02821507](https://clinicaltrials.gov/study/NCT02821507) | 2-vaihe | Valmis | 70 | Sirolimus + syklofosfamidi, yhden haaran tutkimus, metastaattisen/ei-resektabelin myksoidisen liposarkooman ja kondrosarkooman hoidossa; perustuu prekliinisiin mTOR-inhibition tuumorikasvun estämisen tietoihin |
-| [NCT00949325](https://clinicaltrials.gov/study/NCT00949325) | 1/2-vaihe | Valmis | 24 | Torisel (temsirolimus, sirolimuksen pro-lääke) + liposomaalinen doksorubisiini annostelututkimus toistuvassa sarkooman hoidossa |
-| [NCT01614795](https://clinicaltrials.gov/study/NCT01614795) | 2-vaihe | Valmis | 46 | Cixutumumab + temsirolimus pediatrisissa toistuvissa/hoitoresistentteissa kiinteissä kasvaimissa (sarcoma) |
-| [NCT00093080](https://clinicaltrials.gov/study/NCT00093080) | 2-vaihe | Valmis | 216 | Ridaforolimus (mTOR-inhibiittori, AP23573) kerran päivässä x5/2-viikko-aikataululla edistyneessä sarkooman hoidossa |
-| [NCT03114527](https://clinicaltrials.gov/study/NCT03114527) | 2-vaihe | Aktiivinen, ei rekrytoida | 48 | Ribociclib (CDK4/6i) + everolimus (mTORi) edistyneessä dedifferentioituneessa liposarkooman ja leiomyosarkooman hoidossa |
+| [NCT02821507](https://clinicaltrials.gov/study/NCT02821507) | Vaihe 2 | Valmistunut | 70 | Yhden haaran monikeskustutkimus: sirolimuusin ja syklofosfamidin yhdistelmä metastasoituneessa tai leikkaukseen soveltumattomassa myksoidissa liposarkoomassa ja kondrosarkoomassa. Yhdistelmä ja yhden haaran asetelma estävät sirolimuusin oman vaikutuksen arvioinnin. |
 
 ---
 
-## Kirjallisuuden näyttö
+## Kirjallisuusnäyttö
 
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [37967116](https://pubmed.ncbi.nlm.nih.gov/37967116/) | 2024 | RCT (2-vaihe) | Clin Cancer Res | Ribociclib + everolimus osoittaa synergistisen kasvun estämisen dedifferentioituneessa liposarcoma/leiomyosarcoma-malleissa, mikä tukee yhdistettyä CDK4/mTOR-kohdentamista |
-| [16434506](https://pubmed.ncbi.nlm.nih.gov/16434506/) | 2006 | RCT/Kohortti | J Am Soc Nephrol | Sirolimus varhaisen siklosporiinin lopettamisen jälkeen pienensi syöpäriskiä munuaissiirteiden saajilla (n=525) |
-| [26518767](https://pubmed.ncbi.nlm.nih.gov/26518767/) | 2016 | Mekanistinen/Translatoriaalinen | Tumour Biol | Akt-mTOR ja MAPK signalointipolkujen aktivaatio osoitettu 99 dedifferentioituneessa liposarcoma-näytteessä, mikä tukee mTOR-kohdentavan hoidon perustetta |
-| [26093731](https://pubmed.ncbi.nlm.nih.gov/26093731/) | 2015 | Kohortti | Transplant Proc | Syöpäseulonta kohortti munuaissiirteiden saajilla pitkäaikaisella immunosuppressiolla |
-| [39796641](https://pubmed.ncbi.nlm.nih.gov/39796641/) | 2024 | Katsaus | Cancers | Uusien terapeuttisten aineiden (mukaan lukien mTOR-polkujen vaikuttajat) katsaus pehmytkudossarkooman hoidossa |
-| [37222206](https://pubmed.ncbi.nlm.nih.gov/37222206/) | 2023 | Katsaus | Curr Opin Oncol | Katsaus uusista molekyylikohdentavista hoidoista edistyneissä sarkoomeissa |
-| [37400145](https://pubmed.ncbi.nlm.nih.gov/37400145/) | 2023 | Prekliininen (Xenograft) | Cancer Genomics Proteomics | Kloorokiini + rapamysiini synergistinen autofagian estäminen tehokas hyvin erilaistuneessa liposarcoma-hoidossa |
-| [36309387](https://pubmed.ncbi.nlm.nih.gov/36309387/) | 2022 | Prekliininen (PDX) | In Vivo | Kloorokiini + rapamysiini pysäyttävät tuumorikasvun potilaan johdannaisessa ortotooppisessa dedifferentioituneessa liposarcoma ksenosiirre-mallissa |
-| [25519700](https://pubmed.ncbi.nlm.nih.gov/25519700/) | 2015 | Prekliininen | Mol Cancer Ther | MLN0128, ATP-kilpaileva mTOR-kinaasin inhibiittori, osoittaa tehokasta antitumoraalista vaikutusta luun ja pehmytkudoksen sarcoma-malleissa |
-| [20497911](https://pubmed.ncbi.nlm.nih.gov/20497911/) | 2010 | Katsaus | Bull Cancer | Harvinaisten sidekudos-kasvainten ja sarkoomen kohdistettujen hoitolähestymistapojen katsaus |
+| [16434506](https://pubmed.ncbi.nlm.nih.gov/16434506/) | 2006 | RCT | J Am Soc Nephrol | Sirolimuusihoito siklosporiinin varhaisen lopettamisen jälkeen vähensi syöpäriskiä munuaisensiirtopotilailla (ei liposarkoomatutkimus) |
+| [39796641](https://pubmed.ncbi.nlm.nih.gov/39796641/) | 2024 | Katsaus | Cancers | Pehmytkudossarkoomien uudet hoidot |
+| [37222206](https://pubmed.ncbi.nlm.nih.gov/37222206/) | 2023 | Katsaus | Curr Opin Oncol | Edenneiden sarkoomien uudet kohdennetut hoidot |
+| [20497911](https://pubmed.ncbi.nlm.nih.gov/20497911/) | 2010 | Katsaus | Bull Cancer | Harvinaisten sidekudoskasvainten ja sarkoomien kohdennettu hoito |
+| [26093731](https://pubmed.ncbi.nlm.nih.gov/26093731/) | 2015 | Katsaus | Transplant Proc | Syöpäseulonta munuaisensiirtopotilailla pitkäaikaisessa immunosuppressiossa |
+
+Suurin osa julkaisuista on yleiskatsauksia tai siirtopotilaiden syöpäriskiä käsitteleviä artikkeleita. Sirolimuusin liposarkoomakohtaista tehoa osoittavaa julkaisua ei löytynyt.
 
 ---
 
-## Suomen markkina-asema
+## Tietoa Suomen markkinoista
 
-Sirolimus ei ole tällä hetkellä markkinoilla Suomessa (0 lupaa rekisterissä), joten tuote- ja lupaa koskevia tietoja ei ole saatavilla tässä osiossa.
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/005896 | Hyftor | – | Angiofibrooma, tuberoosiskleroosi (peruutettu) |
+| EMEA/H/C/000273 | Rapamune | – | Siirteen hylkiminen, munuaisensiirto (peruutettu) |
+
+Molemmat myyntiluvat on peruutettu, joten Suomessa ei tällä hetkellä ole voimassa olevaa myyntilupaa sirolimuusille.
 
 ---
 
-## Turvallisuusharkinnot
+## Sytotoksisuus
 
-Katso turvallisuustiedoista pakkausseloste. (TFDA/Fimea-varoitukset, vasta-aiheet ja lääke-lääke-interaktiot eivät kuitenkaan ole tällä hetkellä saatavilla — katso Johtopäätös tähän liittyvästä kriittisestä tietoaukosta.)
+Sirolimuusi on immunosuppressiivinen mTOR-estäjä, ja sitä tutkitaan tässä syöpäkäyttöön. Se ei ole perinteinen sytotoksinen solunsalpaaja, mutta kasvaimiin kohdistuvassa käytössä seuraava yhteenveto on hyödyllinen.
+
+| Kohta | Sisältö |
+|------|------|
+| Sytotoksisuusluokitus | Kohdennettu hoito (mTOR-estäjä), ei perinteinen sytotoksinen lääke |
+| Luuydinsuppression riski | Aineistossa ei tietoa; ks. valmisteyhteenvedon varoitukset ja varotoimet |
+| Oksentelua aiheuttavuus | Aineistossa ei tietoa; ks. valmisteyhteenveto |
+| Seurantakohteet | Verenkuva, maksa- ja munuaisarvot, rasva-arvot, verensokeri |
+| Käsittelysuojaus | Ks. valmisteyhteenveto; yhdistelmähoidossa (esim. syklofosfamidi) noudatettava sytostaattien käsittelyohjeita |
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Turvallisuushuomiot
 
-**Päätös: Pidätä**
+**Tietämysgraafista (ei valmisteyhteenvedosta) johdetut vasta-aiheet:** Tietämysgraafi liittää sirolimuusiin muun muassa seuraavat sairaudet: kohonnut verenpaine, munuais- ja maksasairaus, hyperglykemia ja diabetes, hyperlipidemia ja hypertriglyseridemia, aivoverenkiertohäiriöt, interstitiaalinen keuhkosairaus, infektiot (mm. pneumokystoosi, sytomegalovirus), syöpä sekä progressiivinen multifokaalinen leukoenkefalopatia. Nämä ovat graafipohjaisia signaaleja, eivät valmisteyhteenvedon tekstiä, ja ne vaativat varmennuksen.
 
-**Perustelu:**
-Sirolimus ei ole tällä hetkellä markkinoilla Suomessa, ja **kriittinen** tietoaukko (DG001: puuttuva TFDA/Fimea pakkausseloste-varoitukset ja vasta-aiheet) tarkoittaa, että ehdokas ei voi vielä siirtyä S1 turvallisuuden esi-seulonta-vaiheeseen, huolimatta L2-tason kliinisestä/mekanistisesta näytöstä, joka tukee liposarkooma uudelleen käytettävänä indikaationa. Huomaa myös, että tämä sama näyttöpaketti tunnistaa muita sirolimus-ennustettuja indikaatioita (esim. PEComa/angiomyolipoma ja lymfangiomyomatoosi), joilla on verrattavissa tai vahvempia tosielämän validaatioita (hyväksytyt samaan luokkaan kuuluvat vaikuttavat aineet everolimus ja nab-sirolimus), joille saattaa olla tarvetta erilliselle priorisoinille.
+**Lääkeyhteisvaikutukset:** Yhteisvaikutuksia on yhteensä 100. Merkittäviä (Major) ovat muun muassa:
+- amfoterisiini B (myös lipidikompleksi)
+- mesalatsiini
+- balsalatsidi
+- klaritromysiini
 
-**Etenemiseksi tarvitaan seuraavaa:**
-- TFDA/Fimea pakkausseloste (varoitukset ja vasta-aiheet) — vaaditaan kriittisen S1 turvallisuus-aukon sulkemiseksi
-- Yksityiskohtainen vaikutusmekanismin tieto DrugBank API:n kautta
-- Lääke-lääke-interaktio (DDI) -tieto (nykyinen kysely ei palauttanut tuloksia)
-- Antoreitin ja lääkemuodon yhteensopivuuden varmistaminen onkologiseen (liposarcoma) hoitokäyttöön, sillä sirolimus on tällä hetkellä muotoiltu/annosteltu ainoastaan siirteiden immunosuppressiota varten
+Kohtalaisia (Moderate) ovat mm. metformiini, pioglitatsoni, deksametasoni, hydrokortisoni, budesonidi, simetidiini ja aprepitantti.
 
+Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat aineistosta, joten ne on tarkistettava ennen etenemistä.
+
+---
+
+## Johtopäätös ja jatkotoimet
+
+**Päätös: Hold (liposarkooma)**
+
+**Perustelut:**
+- Liposarkoomaa tukee vain yksi yhden haaran, yhdistelmähoitoa koskeva vaiheen 2 tutkimus sekä yleiskatsauksia; sirolimuusikohtaista tehonäyttöä ei ole.
+- Myyntiluvat Suomessa on peruutettu, eikä valmisteyhteenvedon turvallisuustietoja ole saatavilla.
+
+**Etenemiseen tarvitaan:**
+- NCT02821507:n tulosten selvitys ja sirolimuusin oman osuuden arviointi
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hakeminen Fimean sivuilta
+- Mekanismitiedon (MOA) täydentäminen DrugBankista
+- Yhteisvaikutusten hallintasuunnitelma (100 tunnistettua yhteisvaikutusta)
+
+---
+
+## Liite: Ennustelistan muut kohteet lyhyesti
+
+| Sija | Sairaus | Pistemäärä | Näytön taso | Suositus |
+|---|---|---|---|---|
+| 2 | Munasarjan myksoidi liposarkooma | 99,85 % | L5 | Hold |
+| 3 | Kohdun PEComa | 99,80 % | L4 | Tutkimuskysymys |
+| 4 | Hyvänlaatuinen PEComa | 99,80 % | L4 | Tutkimuskysymys |
+| **5** | **Lymfangioleiomyomatoosi (LAM)** | **99,79 %** | **L1** | **Proceed with Guardrails** |
+| 6–8 | Munuaissolusyövän harvinaiset alatyypit | 99,66 % | L5 | Hold |
+| 9 | Keuhkojen PEComa | 99,63 % | L2 | Tutkimuskysymys |
+| 10 | Ulkosynnyttimien sarkooma | 99,62 % | L5 | Hold |
+
+**Lymfangioleiomyomatoosi (LAM)** on selvästi vahvimmin tuettu ennuste. Vaiheen 3 MILES-tutkimus ([NCT00414648](https://clinicaltrials.gov/study/NCT00414648), 89 potilasta, valmistunut) osoitti sirolimuusin vakauttavan keuhkojen toimintaa. Lisäksi vaiheen 3 varhaisvaiheen tutkimus ([NCT03150914](https://clinicaltrials.gov/study/NCT03150914), 60 potilasta, käynnissä), useita vaiheen 2 tutkimuksia ja pitkäaikaisturvallisuutta seuraava MIDAS-tutkimus ([NCT02432560](https://clinicaltrials.gov/study/NCT02432560), 600 potilasta) tukevat käyttöaihetta.
+
+Suojatoimina LAM-käytössä suositellaan infektioiden, hyperlipidemian ja limakalvotulehduksen seurantaa, yhteisvaikutusten hallintaa sekä sen huomioimista, että hyöty on pääosin taudin vakauttamista ja hoito voi vaatia jatkuvaa käyttöä.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

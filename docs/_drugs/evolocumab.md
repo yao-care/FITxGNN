@@ -2,7 +2,7 @@
 layout: default
 title: Evolocumab
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 159
+nav_order: 183
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,75 +29,95 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Evolocumab: hyperkolesterolemiastä oireiseen hemofiliaan naiskantajissa
+# Evolokumabi: Dyslipidemiasta ja hyperkolesterolemiasta ennustettuun hemofilian oireiseen kantajuuteen
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Evolocumab on PCSK9:tä estävä monoklonaalinen vasta-aine, jota käytetään LDL-kolesterolin alentamiseen hyperkolesterolemian/dyslipidemiassa. TxGNN-mallin parhaan ennusteen mukaan lääke voisi mahdollisesti liittyä **oireiseen hemofiliaan naiskantajissa**, mutta tätä suuntaa tuetaan tällä hetkellä **0 kliinisellä tutkimuksella** ja **0 julkaisulla**, ja todiste-paketin oma mekanistinen analyysi merkitsee sen todennäköiseksi graafitopologian artefaktiksi eikä todelliseksi biologiseksi linkiksi.
-
----
-
-## Pikayhteenveto
-
-| Kohde | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Ei saatavilla — Suomessa lääke ei ole markkinoitu, joten hyväksyttyä indikaatiotekstiä ei ole olemassa rekisterissä. (Yleinen toimintamekanismin konteksti todiste-paketista: lipidien aineenvaihdunta / LDL-C:n alentaminen.) |
-| Ennustettu uusi indikaatio | Oireinen hemofilia naiskantajissa |
-| TxGNN-ennustepistemäärä | 99.82% |
-| Näyttöjen taso | L5 (vain mallin ennuste, ei tukevia tutkimuksia) |
-| Suomen markkinointistatus | ✗ Ei markkinoitu |
-| Hyväksyntöjen määrä | 0 |
-| Suositeltu päätös | Pidätä |
+Evolokumabi on PCSK9:ää estävä monoklonaalinen vasta-aine, jota käytetään dyslipidemian ja hyperkolesterolemian hoitoon.
+TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **hemofilian oireisen muodon naispuolisilla kantajilla**, mutta ennustetta tukee **0 kliinistä tutkimusta** ja **0 julkaisua**. Ennuste on pelkkä laskennallinen tulos, eikä sille ole tunnistettu biologisesti perusteltua mekanismia.
 
 ---
 
-## Miksi tämä ennuste on järkevä?
+## Pikakatsaus
 
-Yksityiskohtaista toimintamekanismin tietoa (`original_moa`) ei ole saatavissa tässä todiste-paketissa. Ennusteisiin liitetyn perustelutekstin perusteella evolocumab on anti-PCSK9-monoklonaalinen vasta-aine, joka estää PCSK9-välitteisen LDL-reseptorin hajoamisen, mikä lisää LDL-C:n klirensia — toisin sanoen se vaikuttaa lipidien aineenvaihdanta- / LDL-reseptorisignaalointitielle.
-
-Oireinen hemofilia naiskantajissa on verihyytymistekijän häiriö (faktori VIII/IX-puutos, joka liittyy X-kromosomaaliseen kantajuuteen), joka toimii täysin eri biologisella akselilla kuin LDL-reseptorin säätely. Todiste-paketin oma uudelleenkäyttöperustelu eksplisiittisesti toteaa, että **ei ole tunnettua mekanistista yhteyttä** PCSK9-eston ja verihyytymistekijöiden VIII/IX ilmentymisen välillä, ja ehdottaa, että korkea TxGNN-pistemäärä todennäköisesti heijastaa graafimallin läheisyyttä "harvinaisen perinnöllisen sairauden" solmuryppään eikä todellista farmakologista suhdetta.
-
-Tämä kuvio toistuu kaikissa kuudessa arvoitussa ennusteessa tässä paketeissa (perinnöllinen ApoC-II-puutos, trombosytopeninen purpura, faktori XI-puutos, hemofilia A verisuonien poikkeavuuksilla ja ei-spesifinen ontologia-solmu "katalyyttisen aktiivisuuden sairaus") — jokainen perusteluteksti itsenäisesti päättelee, että mekanistinen perusta on heikko tai olematon, eikä millään näistä ole tällä hetkellä kliinisiä tutkimuksia tai kirjallisuustukea. Tämä on matalan luotettavuuden ennuste-joukko, joka vaatii huomattavaa lisätutkimusta ennen kuin uudelleenkäyttötoiminnalle on perustetta.
-
----
-
-## Kliinisen tutkimuksen näyttö
-
-Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
+| Kohta | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | Dyslipidemiat; hyperkolesterolemia |
+| Ennustettu uusi käyttöaihe | Hemofilian oireinen muoto naispuolisilla kantajilla |
+| TxGNN-ennustepisteet | 99,82 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Kirjallisuuden näyttö
+## Miksi ennuste on (tai ei ole) perusteltu?
 
-Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta.
+Evolokumabi sitoutuu PCSK9-proteiiniin (proproteiinikonvertaasi subtilisiini/keksiini tyyppi 9) ja estää sen vuorovaikutuksen LDL-reseptorin kanssa. Tämä lisää LDL-reseptorien saatavuutta ja alentaa LDL-kolesterolia. Yksityiskohtaisia vaikutusmekanismitietoja ei ole tämän raportin aineistossa saatavilla, joten kuvaus perustuu yleiseen farmakologiseen tietoon ja kohdetietoon (PCSK9).
+
+Hemofilian kantajien oireet johtuvat veren hyytymistekijä VIII:n tai IX:n alentuneesta pitoisuudesta X-kromosomissa periytyvien muutosten vuoksi. Tämä mekanismi ei liity PCSK9:ään eikä LDL-aineenvaihduntaan. Mekanistista yhteyttä alkuperäisen ja ennustetun käyttöaiheen välillä ei ole tunnistettu.
+
+Korkea TxGNN-pistemäärä (0,998) perustuu verkkopohjaiseen ennusteeseen, jota eivät tue tutkimukset, julkaisut tai biologinen perustelu. Pistemäärä yksin ei riitä perustelemaan jatkotoimia.
+
+### Muut ennustetut käyttöaiheet
+
+Aineistossa on myös muita ennusteita, joilla on samoin vain L5-taso ja suositus Hold:
+
+| Sija | Ennustettu käyttöaihe | TxGNN-pisteet | Arvio mekanistisesta yhteydestä |
+|------|------|------|------|
+| 2 | Familiaalinen apolipoproteiini C-II -puutos | 99,50 % | Epäsuora uskottavuus; evolokumabi laskee pääasiassa LDL-kolesterolia eikä korjaa triglyseridien hajotuksen perusvikaa |
+| 3 | Trombosytopeeninen purppura | 99,42 % | Ei selvää yhteyttä; mekanismi liittyy autovasta-aineisiin, ADAMTS13-puutokseen tai verihiutaleiden tuhoutumiseen |
+| 4 | Tekijä XI:n puutos | 99,29 % | Ei uskottavaa yhteyttä; evolokumabi ei vaikuta hyytymistekijöihin |
+| 5 | Hemofilia A, johon liittyy verisuonianomalia | 99,22 % | Ei uskottavaa yhteyttä; LDL:n lasku ei korjaa tekijä VIII:n puutosta |
+| 6 | Katalyyttisen aktiivisuuden sairaus | 99,08 % | Epäspesifinen ontologialuokka, ei määritelty kliininen käyttöaihe |
 
 ---
 
-## Suomen markkinatiedot
+## Kliininen tutkimusnäyttö
 
-Markkinointihyväksynnät eivät ole arkistossa — evolocumab ei ole tällä hetkellä **markkinoitu** Suomessa (0 lupaa rekisteröity), joten vertailtavaa hyväksytyn indikaation tekstiä ei ole saatavissa.
+Ei tällä hetkellä aiheeseen liittyviä rekisteröityjä kliinisiä tutkimuksia.
+
+---
+
+## Kirjallisuusnäyttö
+
+Ei tällä hetkellä aiheeseen liittyvää kirjallisuutta.
+
+---
+
+## Markkinatiedot Suomessa
+
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/003766 | Repatha | Ei tietoa | Dyslipidemiat; hyperkolesterolemia |
+
+Myyntilupa on tilassa "peruutettu", eikä voimassa olevia myyntilupia ole.
 
 ---
 
 ## Turvallisuusnäkökohdat
 
-Turvallisuustiedot löytyvät pakkausselosteesta. (Tärkeät varoitukset, vasta-aiheet ja lääkkeiden välisen vuorovaikutuksen tiedot eivät ole tällä hetkellä saatavissa tässä todiste-paketissa — TFDA/Fimea-pakkausselosteen haku on merkitty **estäväksi** tietovajeeksi `meta.data_gaps`:issa (DG001).)
+**Lääkeyhteisvaikutukset:** Yhteisvaikutushaussa löytyi yksi farmakologinen merkintä: evolokumabin kohdeproteiini PCSK9 (vasta-aine, sitoutuu ihmisen PCSK9:ään). Kyse on lääkkeen vaikutuskohteesta, ei kliinisesti merkittävästä lääkeyhteisvaikutuksesta, eikä yhteisvaikutuksen vakavuustasoa ole ilmoitettu.
+
+Muuta turvallisuustietoa ei ole saatavilla. Tarkista varoitukset ja vasta-aiheet valmisteyhteenvedosta.
 
 ---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Pidätä**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Kaikki kuusi TxGNN-ennustettua indikaatiota sijaitsevat näyttötason L5 tasolla (vain mallin ennuste) ilman tukevia kliinisiä tutkimuksia tai kirjallisuutta, ja paketin oma mekanistisen yhteyden analyysi arvioi parhaimmat ehdokkaat todennäköisiksi graafitopologian artefakteiksi eikä todellisiksi farmakologisiksi suhteiksi. Yhdessä lääkkeen luvittamattoman aseman kanssa Suomessa, ei ole tällä hetkellä perustetta tämän ehdokkaan edistämiselle.
+- Ennuste perustuu pelkkään laskennalliseen TxGNN-pistemäärään (L5). Kliinisiä tutkimuksia ja julkaisuja ei ole, eikä biologisesti uskottavaa mekanistista yhteyttä PCSK9:n eston ja hemofilian kantajuuden oireiden välillä ole tunnistettu.
+- Lisäksi Suomen myyntilupa on peruutettu, joten valmiste ei ole tällä hetkellä markkinoilla.
 
-**Etenemiseksi tarvitaan seuraavaa:**
-- TFDA/Fimea-pakkausseloste (varoitukset, vasta-aiheet, lääkkeiden välinen vuorovaikutus) — tällä hetkellä estävä tietoaukko (DG001)
-- Vahvistettu toimintamekanismi DrugBankista tai peruskirjallisuudesta — tällä hetkellä vakava tietoaukko (DG002)
-- Itsenäinen mekanistinen tai prekliininen näyttö PCSK9-eston ja verihyytymis- tai hematologisten polkujen välisestä yhteydestä TxGNN-upotuksen läheisyyden lisäksi
-- Jatkuva seuranta uusille kliinisen tutkimuksen tai julkaisun signaaleille tässä lääke–tauti-parissa, kun otetaan huomioon tämän hetkinen todellisen maailman näytön täydellinen puute
-
+**Jatkotoimien edellytyksenä tarvitaan:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankinta Fimeasta (turvallisuusarvioinnin estävä tietoaukko)
+- Yksityiskohtaiset vaikutusmekanismitiedot (esim. DrugBankista)
+- Prekliininen tai mekanistinen näyttö mahdollisesta yhteydestä hyytymisjärjestelmään
+- Selvitys valmisteen saatavuudesta Suomessa myyntiluvan peruutuksen jälkeen
+- Jos jatkoanalyysi tehdään, harkitaan ensisijaisesti lipidiaineenvaihdunnan häiriöitä (esim. ApoC-II-puutos), joissa on edes epäsuora biologinen uskottavuus, mutta sekin vaatii suoraa tutkimusnäyttöä
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

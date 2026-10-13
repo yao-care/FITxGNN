@@ -2,7 +2,7 @@
 layout: default
 title: Palivizumab
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 281
+nav_order: 326
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,57 +29,81 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Palivizumab: RSV-profylaksiasta kielen hyvänlaatuiseen kasvaimeen
+# Palivitsumabi: Hengitysteiden synsytiaaliviruksen (RSV) infektioista kohti hyvänlaatuista kielen kasvainta
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Palivizumab on humanisoidusta monoklonaalista vasta-aineesta valmistettu lääke, jota käytetään hengitysteiden synkytiaaliviruksen (RSV) infektioiden ehkäisyyn korkean riskin keskoilla. TxGNN-malli ennustaa, että se saattaa olla tehokas **kielen hyvänlaatuiselle kasvaimelle**, mutta tätä ennustetta tuetaan tällä hetkellä **0 kliinisella tutkimuksella** ja **0 julkaisulla**.
+Palivitsumabi on humanisoitu monoklonaalinen vasta-aine, jota on käytetty hengitysteiden synsytiaaliviruksen (RSV) aiheuttamien infektioiden hoitoon ja ehkäisyyn.
+TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **hyvänlaatuisen kielen kasvaimen**, mutta ennusteen tueksi ei ole löytynyt **yhtään kliinistä tutkimusta eikä julkaisua**.
+Ennuste on siten puhtaasti laskennallinen.
 
-## Pika-yleiskatsaus
+---
 
-| Kohde | Sisältö |
-|-------|---------|
-| Alkuperäinen indikatio | RSV-infektioiden profylaksia (perustuu tunnettuun lääkkeen luokitteluun; ei markkinoitu Suomessa, joten strukturoitua hyväksymistekstiä ei ole saatavana) |
-| Ennustettu uusi indikatio | Kielen hyvänlaatuinen kasvain |
-| TxGNN-ennustepisteet | 99.94% |
-| Näyttötaso | L5 |
-| Suomen markkinatilanne | ✗ Ei markkinoitu |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Odottaa |
+## Pikakatsaus
 
-## Miksi tämä ennuste on järkevä?
+| Kohta | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | Hengitysteiden synsytiaaliviruksen (RSV) infektiot |
+| Ennustettu uusi käyttöaihe | Hyvänlaatuinen kielen kasvain (benign neoplasm of tongue) |
+| TxGNN-ennustepisteet | 99,94 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-Palivizumab on humanisoidusta monoklonaalista vasta-aineesta valmistettu lääke, joka kohdistuu RSV:n fuusioproteiiniin (F). Se toimii neutraloimalla virusta ja estämällä solusta soluun siirtymisen, joten se on hengitysteiden antiviraalinen profylaktiikka-aine eikä onkologinen lääke.
+---
 
-RSV-pinnan glykoproteiinin neutraloinnin ja hyvänlaatuisen suun/kielen kasvainbiologian välillä ei tunneta mekanistista yhteyttä. Mitään yhteistä reittiä, reseptoria tai solubiologista prosessia ei yhdistä näitä kahta.
+## Miksi ennuste on (tai ei ole) perusteltu?
 
-Merkittävää on, että kaikki kymmenen parasta TxGNN-ennustetta tälle lääkkeelle (kielen kasvain, kurkunkannen kasvain, kaulan neuroblastoma, nielusuun kasvain, suun pohjan kasvain, testiksen kasvain, kystinen kasvain, kaula-aukon schwannoma, mesenkymaoma, kilpirauhasen kielen kanavan kystä) ryhmittyvät kapealle pistealueelle (99.93–99.94%) ja kattavat toisiinsa liittymättömiä pään/kaulan ja sukupuolielinten patologioita. Tämä kuvio on yhteensopivampi tietokaavion upotuksen artefaktin kanssa — esimerkiksi solun läheisyys pediatrisen/harvinaisen taudin ontologiaklusterissa — kuin todellisen syy-suhteen kanssa. Mitkään näistä kymmenestä ennusteesta eivät ole tällä hetkellä tuettuina kliinisellä tai kirjallisuusnäytöllä.
+Yksityiskohtaisia tietoja palivitsumabin vaikutusmekanismista ei ole tämän raportin aineistossa saatavilla. Tunnetun tiedon mukaan palivitsumabi on RSV:n F-proteiinia vastaan suunnattu humanisoitu monoklonaalinen vasta-aine, joka neutraloi viruksen. Sen teho RSV-infektioiden ehkäisyssä on osoitettu.
 
-## Kliinisten tutkimusten näyttö
+Kielen kasvaimissa ei tunneta RSV:hen liittyvää kohdetta, eikä palivitsumabilla ole tunnettua kasvainvaikutusta. Korkea ennustepiste näyttää heijastavan tietämysgraafin rakenteellista samankaltaisuutta pään ja kaulan alueen kasvainsolmujen välillä, ei todellista farmakologista yhteyttä.
 
-Tällä hetkellä ei ole rekisteröityjä liittyvää kliinisiä tutkimuksia
+Sama pätee muihin yhdeksään korkeimmalle sijoittuneeseen ennusteeseen (kaikki L5, ei tutkimuksia, ei kirjallisuutta, suositus Hold):
 
-## Kirjallisuuden näyttö
+| Sija | Ennustettu käyttöaihe | TxGNN-pisteet |
+|---|---|---|
+| 1 | Hyvänlaatuinen kielen kasvain | 99,94 % |
+| 2 | Kurkunkannen kasvain | 99,94 % |
+| 3 | Kaulan neuroblastooma | 99,94 % |
+| 4 | Hyvänlaatuinen alasnielun kasvain | 99,94 % |
+| 5 | Hyvänlaatuinen suunpohjan kasvain | 99,94 % |
+| 6 | Kiveksen ja kivesapuelimien kasvain | 99,94 % |
+| 7 | Kystinen kasvain | 99,94 % |
+| 8 | Kaulalaskimoaukon (jugulaarinen foramen) schwannooma | 99,94 % |
+| 9 | Mesenkymooma | 99,94 % |
+| 10 | Kilpirauhasen kielikanavan kysta | 99,94 % |
 
-Tällä hetkellä ei ole saatavilla liittyvää kirjallisuutta
+Yhdellekään näistä ei ole tunnistettu mekanistista yhteyttä.
+
+---
+
+## Suomen markkinatiedot
+
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000257 | Synagis (AstraZeneca AB) | – | Hengitysteiden synsytiaaliviruksen infektiot (tila: peruutettu) |
+
+---
 
 ## Turvallisuusnäkökohdat
 
-Turvallisuustiedot löytyvät pakkausselosteesta.
+Turvallisuustiedot on tarkistettava valmisteyhteenvedosta. Lääkeyhteisvaikutuksia ei löytynyt tästä aineistosta.
+
+---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Odottaa**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Ennusteella on korkea TxGNN-pistemäärä, mutta nolla tukevia kliinisiä tutkimuksia tai kirjallisuutta, ja lääkkeen tunnetulla mekanismilla (RSV:n F-proteiinin neutralointi) ei ole uskottavaa biologista yhteyttä kielen kasvaimiin. Kymmenen epäliittyvän kasvainennusteen klusteroituminen lähes identtisiin pisteisiin viittaa edelleen enemmän tietokaavion upotuksen artefaktiin kuin todelliseen signaaliin (Näyttötaso L5, Päätösvaihe S0).
+- Ennuste perustuu pelkästään laskennalliseen malliin. Kliinisiä tutkimuksia ja julkaisuja ei ole, mekanistista yhteyttä ei ole tunnistettu, ja Suomessa ainoa myyntilupa on peruutettu.
 
-**Jatkon edellytykset:**
-- TFDA/sääntelyviranomaisen pakkausselostedata (tällä hetkellä estävä datakohde, DG001)
-- Vahvistettu vaikutusmekanismi DrugBankista tai alkuperäisestä kirjallisuudesta (korkean prioriteetin datakohde, DG002)
-- Riippumaton prekliininen tai biologisen uskottavuuden arviointi, ennen kuin lisätodisteiden etsiminen on perusteltavaa
-- TxGNN-tulosten uudelleen arviointi ontologiaklusterharhojen varalta koko pään/kaulan kasvainennustejoukossa
-
+**Eteenpäin siirtyminen edellyttäisi:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivustolta
+- Vaikutusmekanismitietojen täydentämistä DrugBankista
+- Biologisesti perusteltua hypoteesia RSV:n F-proteiinin ja kasvainbiologian yhteydestä
+- Prekliinistä tai kirjallisuuteen perustuvaa näyttöä ennen jatkoarviointia
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

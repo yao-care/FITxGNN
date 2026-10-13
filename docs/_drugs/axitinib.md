@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Axitinib
-parent: Pelkkä mallin ennuste (L5)
-nav_order: 56
-evidence_level: L5
+parent: Vahva näyttö (L1-L2)
+nav_order: 62
+evidence_level: L2
 indication_count: 10
 ---
 
 # Axitinib
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,81 +29,103 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Aksitinibi: Riittämätön data uudelleenkäyttösoveltuvuuden analyysiin
+# Aksitinibi: Munuaissolusyövästä Xp11.2/TFE3-translokaatioon liittyvään munuaissolusyöpään
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Aksitinibi (Inlyta) on valikoiva VEGFR-1/2/3-tyrosiinikinaasin estäjä, joka on hyväksytty maailmanlaajuisesti edistyneen munuaissolun karsinoomaan. Kuitenkin **tämä todistusaineisto-paketti ei sisällä TxGNN-ennustettuja uusia indikaatioita**, ja lääkettä **ei markkinoida Suomessa**, mikä tekee täydellisen uudelleenkäyttösoveltuvuuden arvioinnin mahdottomaksi tässä vaiheessa. Nykyiset tiedot eivät riitä minkään uudelleenkäyttösoveltuvuussuosituksen tueksi.
-
----
-
-## Nopea yleiskatsaus
-
-| Kohde | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Edistynyt munuaissolun karsinoma (maailmanlaajuinen hyväksyntä; ei rekisteröity Suomessa) |
-| Ennustettu uusi indikaatio | Ei ennusteita saatavilla tässä todistusaineisto-paketissa |
-| TxGNN-ennusteen pistemäärä | N/A |
-| Todistusaineen taso | N/A — TxGNN-tuloste puuttuu |
-| Markkinointiasema Suomessa | Ei markkinoitu |
-| Lupien lukumäärä | 0 |
-| Suositeltu päätös | **Odota** |
+Aksitinibi on VEGF-reseptoreita (VEGFR1–3) estävä tyrosiinikinaasi-inhibiittori, jota on alun perin käytetty **munuaissolusyövän** hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **Xp11.2/TFE3-geenifuusioon liittyvään munuaissolusyöpään** (translokaatio-RCC).
+Tätä suuntaa tukee tällä hetkellä **1 kliininen tutkimus** (satunnaistettu vaiheen 2 tutkimus, 15 potilasta), mutta kirjallisuutta ei ole löytynyt.
 
 ---
 
-## Miksi tämä ennuste on kohtuullinen?
+## Pikakatsaus
 
-Tässä todistusaineisto-paketissa ei palautettu TxGNN-ennustettuja indikaatioita Aksitiniibille (`predicted_indications: []`). Seurauksena näiden alkuperäisen indikaation ja jonkin uuden indikaation välisen mekanistisen yhteyden analyysia ei voida suorittaa.
-
-Yleisen farmakologisen tiedon perusteella aksitinibi on toisen sukupolven valikoiva verisuonen endoteelisolun kasvutekijän reseptori (VEGFR-1, VEGFR-2, VEGFR-3) estäjä. Sen antiangiogeneettinen mekanismi on mekanistisesti sovellettavissa useisiin kiinteisiin kasvaimiin, ja sitä on tutkittu kilpirauhan syöpään, hepatosellulaariseen karsinoomaan ja ei-pienisoluiseen keuhkosyöpään hyväksytyn munuaissolun karsinooman indikaation lisäksi. Kuitenkin **nämä havainnot eivät ole nykyisen todistusaineisto-paketin tuella** ja ne eivät voi muodostaa virallisen uudelleenkäyttösoveltuvuussuosituksen perustaa tämän arviointikehikon puitteissa.
-
-Yksityiskohtaiset MOA-tiedot merkittiin tietoaukoksi (DG002) todistusaineisto-paketissa ja ne on haettava DrugBankista ennen kuin mekanismipohjainen analyysi voidaan aloittaa.
+| Kohta | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | Munuaissolusyöpä |
+| Ennustettu uusi käyttöaihe | Xp11.2/TFE3-translokaatioon liittyvä munuaissolusyöpä |
+| TxGNN-ennustepisteet | 99,90 % |
+| Näytön taso | L2 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 2 |
+| Suositeltu päätös | Hold (odota lisänäyttöä) |
 
 ---
 
-## Suomen markkinatiedot
+## Miksi ennuste on perusteltu?
 
-Aksitiniibillä ei ole markkinointilupaa Suomessa tietojen katkaisun mukaan (2026-04-20). Mitään lupapäätöstä ei ole saatavilla.
+Yksityiskohtaista vaikutusmekanismitietoa ei ole tämän raportin aineistossa saatavilla. Tunnetun tiedon perusteella aksitinibi on selektiivinen VEGFR1–3-estäjä, jonka teho munuaissolusyövässä on osoitettu, ja mekanistisesti se voi soveltua myös translokaatio-RCC:hen.
+
+Xp11.2/TFE3-fuusioon liittyvässä munuaissolusyövässä TFE3:n liiallinen aktiivisuus lisää MET:n ja VEGF-välitteisten angiogeneesiohjelmien ilmentymistä. VEGFR-esto on siksi biologisesti uskottavaa. Aksitinibi on jo hyväksytty munuaissolusyövän hoitoon yleisesti, joten kyse on pikemminkin alatyypin laajennuksesta kuin uudesta tautialueesta. Pistemäärän "samankaltaisuus alkuperäiseen käyttöaiheeseen" analyysi on vielä kesken.
+
+---
+
+## Kliininen tutkimusnäyttö
+
+| Tutkimusnumero | Vaihe | Tila | Osallistujamäärä | Keskeiset havainnot |
+|---------|------|------|------|---------|
+| [NCT03595124](https://clinicaltrials.gov/study/NCT03595124) | Vaihe 2 | Aktiivinen, ei rekrytoi | 15 | Satunnaistettu tutkimus: aksitinibi + nivolumabi vs. pelkkä nivolumabi leikkaamattomassa tai levinneessä translokaatio-RCC:ssä kaikissa ikäryhmissä. Tuloksia ei ole vielä raportoitu; pieni otoskoko rajoittaa alatyyppikohtaisia johtopäätöksiä. |
+
+---
+
+## Kirjallisuusnäyttö
+
+Tälle ennustetulle käyttöaiheelle ei tällä hetkellä ole saatavilla aiheeseen liittyvää kirjallisuutta.
+
+---
+
+## Markkinatiedot Suomessa
+
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/002406 | Inlyta | – | Munuaissolusyöpä (peruutettu) |
+| EMEA/H/C/006206 | Axitinib Accord | – | Munuaissolusyöpä (peruutettu) |
 
 ---
 
 ## Sytotoksisuus
 
-Aksitinibi on antineoplastinen kohdennettu lääke (VEGFR-tyrosiinikinaasin estäjä). Vaikka sytotoksisuustietoja ei ollut esillä tässä todistusaineisto-paketissa, seuraava pätee sen lääkeryhmän perusteella:
-
-| Kohde | Sisältö |
-|------|---------|
-| Sytotoksisuuden luokittelu | Kohdennettu lääke — valikoiva VEGFR-tyrosiinikinaasin estäjä |
-| Luuytimen sortuman riski | Pieni tai kohtalainen (pienempi kuin perinteisten sytotoksisten lääkkeiden; verihiutaleiden väheneminen ja neutropenia ilmoitettu) |
-| Pahoinvointialttius | Pieni |
-| Seurantakohteet | Verenpaine (hypertensio on luokan vaikutus), täydellinen verenkuva, maksan toiminto (ALT/AST), kilpirauhan toiminto, virtsan proteiini |
-| Käsittelyohjeet | Noudata institutionaalisia sytotoksisten lääkkeiden käsittelyohjeita; suun kautta annosteltava muoto, mutta luokiteltu vaaralliseksi lääkkeeksi |
+| Kohta | Sisältö |
+|------|------|
+| Sytotoksisuusluokka | Kohdennettu hoito (tyrosiinikinaasi-inhibiittori) |
+| Myelosuppression riski | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Oksentelua aiheuttavuus | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Seurantakohteet | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Käsittelysuojaus | Noudatettava sytostaattien käsittelyohjeita valmisteyhteenvedon mukaisesti |
 
 ---
 
 ## Turvallisuusnäkökohdat
 
-Tässä todistusaineisto-paketissa ei ollut saatavilla turvallisuustietoja (tärkeimmät varoitukset, vasta-aiheet tai lääkkeiden väliset yhdysvaikutukset). TFDA-pakkausseloste-kyselyn tulos palautui (kyselyn loki-tunnus 4), mutta sisältöä ei jäsennetty todistusaineisto-pakettiin.
+**Lääkeinteraktiot** (tietokantahaussa yhteensä 100 interaktiota; tärkeimmät):
+- **Vakavat (Major):** klaritromysiini, deksametasoni
+- **Kohtalaiset (Moderate):** aprepitantti, klotrimatsoli, mikonatsoli, naltreksoni
+- **Lievät (Minor):** mm. famotidiini, ranitidiini, rabepratsoli, esomepratsoli, lansopratsoli, simetidiini sekä alumiini-, kalsium- ja magnesiumpohjaiset antasidit
 
-> Koko turvallisuustiedon osalta katso Inlyta (aksitinibi) Tuotteen ominaisuuksien yhteenveto (SmPC) ja paikallinen pakkausseloste, mukaan lukien varoitukset hypertension, arteriaalisten ja laskimoiden tromboembolian, verenvuodon, maksatoksisuuden ja haavan parantumisen komplikaatioista.
+Muiden turvallisuustietojen osalta katso valmisteyhteenveto.
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Johtopäätös ja jatkotoimet
 
-**Päätös: Odota**
+**Päätös: Hold (odota lisänäyttöä)**
 
 **Perustelut:**
-Aksitiniibin todistusaineisto-paketti on rakenteellisesti epätäydellinen — ei TxGNN-ennusteita, ei Suomen markkinointilupaa, ei jäsenneltyä turvallisuustietoa ja ei MOA-tietoa — mikä tekee uudelleenkäyttösoveltuvuuden arvioinnin mahdottomaksi nykyisen kehikon puitteissa.
+- Mekanistinen peruste on uskottava ja aksitinibi on tunnettu munuaissolusyöpälääke, mutta ennustettua alatyyppiä tukee vain yksi pieni (15 potilasta), tuloksia vailla oleva vaiheen 2 tutkimus ilman kirjallisuutta. Lisäksi kaikki Suomen myyntiluvat on peruutettu, ja turvallisuustiedot ovat puutteelliset.
 
-**Jatkamista varten tarvitaan seuraavaa:**
+**Eteenpäin siirtyminen edellyttää:**
+- NCT03595124-tutkimuksen tulosten julkaisemista ja arviointia
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivuilta (estää turvallisuusseulonnan)
+- Yksityiskohtaisen vaikutusmekanismitiedon hankkimista (DrugBank)
+- Myyntilupien peruutuksen syiden ja nykyisen markkinatilanteen selvittämistä Suomessa
+- Interaktioiden (erityisesti klaritromysiini ja deksametasoni) hallintasuunnitelmaa
 
-- **[Kriittinen — DG001]** Jäsennä TFDA/Fimea-pakkausselosteen PDF-tiedosto tärkeimpien varoitusten ja vasta-aiheista; vaaditaan ennen kuin mikään turvallisuuden tarkistus voidaan aloittaa
-- **[Korkea — DG002]** Hae MOA-tiedot DrugBank API:sta mekanismipohjaisen uudelleenkäyttösoveltuvuuden analyysin mahdollistamiseksi
-- **[Kriittinen]** Tutki, miksi TxGNN palautti nolla ennustettua indikaatiota DB06626:lle — tarkista, onko DrugBank-tunniste oikein kartoitettu tietoaineiston graafisolmuun, ja aja ennustepipeline uudelleen
-- **[Vaaditaan]** Vahvista Suomen (Fimea) rekisteröintitila itsenäisesti; jos Aksitinibi myydään eri tuotenimellä tai rinnakkaistuonnin kautta, lisenssit saattavat olla olemassa vaihtoehtoisten tunnisteiden alla
-- Kun TxGNN-ennusteet ovat saatavilla, luo tämä todistusaineisto-paketti uudelleen (v5+) täydellisen L1–L5-todistusaineen arvioinnin mahdollistamiseksi
+---
 
+### Huomioita muista ennustetuista käyttöaiheista
+
+Aineistossa oli myös muita ennusteita. Vahvimmin tuettu on yleinen munuaissyöpä (L1; mm. AXIS-, KEYNOTE-426- ja JAVELIN Renal 101 -tutkimukset), mutta se on käytännössä jo alkuperäinen käyttöaihe eikä todellinen uudelleenkäyttö. Kokoojajuoksuputkisyövälle (collecting duct carcinoma) on käynnissä vaiheen 2 tutkimus (NCT06211114, 30 potilasta).
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

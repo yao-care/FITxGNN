@@ -2,7 +2,7 @@
 layout: default
 title: Levodopa
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 226
+nav_order: 262
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,61 +29,63 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Levodopa: parkinsonismista (liikehäiriöistä) Rasmussenin subakuuttiin enkefaliittiin
+# Levodopa: Parkinsonin taudista Rasmussenin subakuuttiin enkefaliittiin
 
 ## Yhden lauseen yhteenveto
 
-Levodopa on dopamiinin esiaste, jonka kliininen käyttö keskittyy Parkinsonin tautiin ja siihen liittyviin liikehäiriöihin. TxGNN-malli ennustaa mahdollisen yhteyden **Rasmussenin subakuuttiin enkefaliittiin**, harvinaiseen pediatriseen autoimmuuni-/tulehdukselliseen aivotahtiin, mutta tätä ennustusta tukee tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua** — se perustuu pelkästään mallin tulokseen.
+Levodopa on dopamiinin esiaste, jota on alun perin käytetty Parkinsonin taudin hoitoon. TxGNN-malli ennustaa sen voivan tehota **Rasmussenin subakuuttiin enkefaliittiin**, mutta ennustetta tukee tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua**. Ennuste perustuu pelkästään tietämysgraafimalliin.
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
-| Kohde | Sisältö |
+| Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Ei dokumentoitu Suomen sääntelytietokannassa (lisenssejä ei ole); tunnettu kliininen käyttö on Parkinsonin tauti / liikehäiriöt lääkkeen mekanismin kuvauksen mukaan |
-| Ennustettu uusi indikaatio | Rasmussenin subakuutti enkefaliitti |
-| TxGNN-ennusteen pistemäärä | 99.06% (sijoitus 9079) |
-| Näyttötaso | L5 |
-| Suomen markkinatilanne | Ei markkinoilla |
-| Lupahakemusten lukumäärä | 0 |
-| Suositeltava päätös | Pidätetään |
+| Alkuperäinen käyttöaihe | Parkinsonin tauti |
+| Ennustettu uusi käyttöaihe | Rasmussenin subakuutti enkefaliitti |
+| TxGNN-ennusteen pistemäärä | 99,06 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 4 (kaikki peruutettuja) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennuste on perusteltu?
+## Miksi ennuste on (tai ei ole) perusteltu?
 
-Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla tämän lääkkeen osalta näyttöpaketissa ([Data Gap] DG002). Tunnetun farmakologian perusteella levodopa muuttuu keskushermostossa dopamiiniksi nigrostritaalisen dopamiinitason palauttamiseksi, ja sen teho Parkinsonin liikehäiriöissä on hyvin todistettu.
+Levodopan vaikutusmekanismitietoja ei ole tällä hetkellä saatavilla. Tiedetään, että levodopa on dopamiinin esiaste, joka vaikuttaa dopaminergiseen hermovälitykseen Parkinsonin taudissa.
 
-Rasmussenin subakuutti enkefaliitti on kuitenkin harvinainen pediatrinen krooninen tulehduksellinen aivotulehdus, jonka taustalla on T-solujen välittämä aivokuoren tulehdus ja neuronien kuolema, joka aiheuttaa hoitoresistenttejä kohtauksia ja progressiivista hemipareesia. Vakiohoito perustuu immunomodulaatioon (IVIG, kortikosteroidit, plasmaytimen vaihtoon) tai hemisfäärektomiaan — patofysiologia (autoimmuuni-neuroinflammaatio), joka ei ole yhteydessä levodopan dopamiinergiseen mekanismiin.
+Rasmussenin enkefaliitti on harvinainen, toispuoleinen ja krooninen tulehduksellinen aivosairaus. Sen taustalla on T-soluvälitteinen ja mahdollisesti myös autovasta-ainevälitteinen patologia. Tyypillisiä piirteitä ovat vaikeahoitoiset paikallisalkuiset kohtaukset ja etenevä aivopuoliskon surkastuminen.
 
-Mitään vakiintunutta mekanistista yhteyttä ei ole dopamiinin korvaavien hoitojen ja autoimmuuni-aivotulehduksen välillä. Korkea TxGNN-pistemäärä (0.99) johtuu todennäköisesti tietokaavion solmujen topologisesta läheisyydestä eikä validoidusta biologisesta uskottavuudesta, ja sitä tulisi tulkita varauksella, kun otetaan huomioon kliinisen tutkimus- ja kirjallisuustodistuksen puuttuminen.
+Tunnettua mekanistista yhteyttä lääkkeen ja sairauden välillä ei ole. Korkea pistemäärä (0,99) on vain tietämysgraafin tuottama ennuste, ja se voi heijastaa yhteisiä neurologisia sairausassosiaatioita eikä biologisesti validoitua mekanismia. Dopamiinikorvaushoidon ei odoteta vaikuttavan sairauden tulehduksellisiin tai immuunivälitteisiin taustatekijöihin. Lisäksi dopaminergiset lääkkeet voivat joissakin tilanteissa laskea kouristuskynnystä, mikä on mahdollinen turvallisuusriski.
 
-## Kliinisen tutkimuksen näyttö
+## Myyntiluvat Suomessa
 
-Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
+| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004786 | Inbrija | – | Parkinsonin tauti |
+| EMEA/H/C/000511 | Stalevo | – | Parkinsonin tauti |
+| EMEA/H/C/002785 | Corbilta (aiemmin Levodopa/Carbidopa/Entacapone Sandoz) | – | Parkinsonin tauti |
+| EMEA/H/C/002441 | Levodopa/Carbidopa/Entacapone Orion | – | Parkinsonin tauti |
 
-## Kirjallisuuden näyttö
+Kaikki neljä myyntilupaa on peruutettu.
 
-Tällä hetkellä asiaan liittyvää kirjallisuutta ei ole saatavilla.
+## Turvallisuusnäkökohdat
 
-## Suomen markkinatiedot
+- **Tietämysgraafiin perustuvat vasta-aiheet** (PrimeKG-tietämysgraafin lääke–sairaus-yhteydet, ei valmisteyhteenvedon teksti): muun muassa epilepsia, psykoottiset häiriöt, ahdaskulmaglaukooma, sydäninfarkti ja sydämen rytmi- tai johtumishäiriöt, maksa- ja munuaissairaus, mahahaava, diabetes ja diabeettinen ketoasidoosi, melanooma, ortostaattinen hypotensio sekä lääkkeen aiheuttama dyskinesia. Epilepsia on erityisen merkityksellinen, koska Rasmussenin enkefaliitin keskeinen oire on kohtauksellisuus.
+- **Lääkeyhteisvaikutukset**: Tietoja löytyi yhteensä 100 yhteisvaikutuksesta. Keskeisiä kohtalaisia (Moderate) yhteisvaikutuksia ovat muun muassa epinefriini, efedriini, bupropioni, metronidatsoli, pyridoksiini, metoklopramidi, rauta sekä antikolinergit (atropiini, hyoskyamiini, glykopyrronium, disyklomiini, metskopolamiini, klidiini, mepentsolaatti). Vähäisiä (Minor) yhteisvaikutuksia on mm. alumiinihydroksidin, kalsiumkarbonaatin ja magnesiumsuolojen kanssa.
 
-Levodopalla ei ole tällä hetkellä voimassa olevia markkinointilupahakemuksia Suomessa (0 lupaa; markkinatilanne: Ei markkinoilla).
+Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat tällä hetkellä aineistosta, joten ne on tarkistettava valmisteyhteenvedosta.
 
-## Turvallisuusharkinta
+## Johtopäätös ja seuraavat askeleet
 
-Katso turvallisuustiedoista pakkausselosteesta. Huomio: TFDA:n/merkintöjen varoitukset ja vasta-aiheet eivät ole tällä hetkellä saatavilla (estävä tietoaukko, DG001), mikä estää täydellisen S1-turvallisuuden esiarviointia.
+**Päätös: Hold (odota)**
 
-## Johtopäätös ja seuraavat vaiheet
+**Perustelut:**
+- Ennuste perustuu vain mallin pistemäärään: kliinisiä tutkimuksia ja kirjallisuutta ei ole, eikä tunnettua mekanistista yhteyttä ole. Lisäksi dopaminergiset lääkkeet voivat heikentää kouristuskynnystä, ja kaikki Suomen myyntiluvat on peruutettu.
 
-**Päätös: Pidätetään**
-
-**Perustelu:**
-Ennustusta tukee vain TxGNN-mallin tulos (L5, ei kliinisiä tutkimuksia tai kirjallisuutta), eikä levodopan dopamiinergisen vaikutuksen ja Rasmussenin enkefaliittin autoimmuuni-tulehduksellisen patologian välillä ole olemassa uskottavaa mekanistista yhteyttä. Myös estävä turvallisuustietoaukko (TFDA-merkintö ei saatavilla) estää turvallisuuden tarkastelun.
-
-**Jatkaakseen tarvitaan seuraavaa:**
-- TFDA/Fimean pakkausselostetieto (varoitukset, vasta-aiheet) — DG001, estävä
-- Levodopan vaikutusmekanismin yksityiskohdat DrugBankista — DG002
-- Prekliiniset tai mekanistiset tutkimukset, jotka osoittavat biologisen uskottavuuden dopamiinergin-neuroinflammaation yhteyden osalta
-- Jatkuva seuranta nousevista tutkimuksista tai kirjallisuudesta tämän indikaatioparin osalta
-
+**Jatkoa varten tarvitaan:**
+- Levodopan vaikutusmekanismitiedot (esim. DrugBankista)
+- Fimean valmisteyhteenvedon varoitukset ja vasta-aiheet turvallisuusarviointia varten
+- Prekliininen tai mekanistinen näyttö dopaminergisen hoidon vaikutuksesta Rasmussenin enkefaliitissa
+- Kirjallisuushaku mahdollisista tapausraporteista ja arvio kohtausriskistä
+- Reittien yhteensopivuuden ja lääkemuodon arviointi
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

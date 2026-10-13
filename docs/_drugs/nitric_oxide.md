@@ -2,15 +2,15 @@
 layout: default
 title: Nitric Oxide
 parent: Vahva näyttö (L1-L2)
-nav_order: 266
-evidence_level: L1
+nav_order: 307
+evidence_level: L2
 indication_count: 10
 ---
 
 # Nitric Oxide
 {: .fs-9 }
 
-Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,100 +29,108 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Typpioksidi: Markkinoimattomasta asemasta keuhkoarteriaaliseen hypertensioon
+# Typpioksidi: Keuhkoverenpainetaudista hampaiston ja/tai igenkudoksen poikkeavuuksia sisältävään epämuodostumaoireyhtymään
 
 ## Yhden lauseen tiivistelmä
 
-> Typpioksidilla (NO) ei ole tällä hetkellä dokumentoitua alkuperäistä indikaatiota tai markkinavalmiutta Suomessa (0 lupaa rekisterissä). TxGNN:n tälle lääkkeelle tuottamista 10 potentiaalisesta indikaatiosta **keuhkoarteriaali hypertensiota** vastaan on todellinen näyttöpohja — **50 kliinistä tutkimusta** ja **20 julkaisua** — mikä heijastaa NO:n vakiintunutta farmakologiaa keuhkoverenpaineessa laskevana inhalatiivisena lääkkeenä, ei uuden käyttötarkoituksen tutkimushypoteesinä.
-
-*Huomio indikaatiovalinnasta: TxGNN:n numeerisesti parhaiten sijoittuneilla ennustuksilla tälle lääkkeelle (sijoitukset 1–6: hammastautien kehittymisvika, ylikarvoitus, Dandy-Walkerin oireyhtymä, hiusrakenteen poikkeavuus, keuhkoarteriovenoosisuus) ei ole tukevia mekanismeja ja näyttöputkisto arvioi ne "Pidä odottavana" -kategoriassa. Sijoitus 7, keuhkoarteriaali hypertensiota, on ensimmäinen ennustus johdonmukaisella mekanismilla ja L1-näytöllä, joten tämä raportti arvioi kyseistä indikaatiota.*
+Typpioksidia (inhaloitava) on käytetty keuhkoverenpainetaudin ja hengitysvajauksen hoitoon. TxGNN-malli ennustaa sille käyttöä **hampaiston ja/tai igenkudoksen poikkeavuuksia sisältävässä epämuodostumaoireyhtymässä**. Ennusteen tueksi ei ole **yhtään kliinistä tutkimusta** eikä yhtään lääkehoitoa testaavaa julkaisua, vaikka **20 julkaisua** löytyi. Ennuste on käytännössä pelkkä mallin laskema.
 
 ---
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Ei dokumentoitu (lääke ei ole markkinoilla Suomessa; ei lupahallinnon tietoja) |
-| Ennustettu uusi indikaatio | Keuhkoarteriaali hypertensiota |
-| TxGNN:n ennustuspistemäärä | 99.41% |
-| Näyttötaso | L1 |
-| Suomen markkina-asema | Ei markkinoilla |
-| Lupien määrä | 0 |
-| Suositeltu päätös | Jatka varauksellisesti |
+| Alkuperäinen käyttöaihe | Keuhkoverenpainetauti; hengitysvajaus |
+| Ennustettu uusi käyttöaihe | Epämuodostumaoireyhtymä, johon liittyy hampaiston ja/tai igenkudoksen poikkeavuus |
+| TxGNN-ennustepisteet | 99,57 % |
+| Näytön taso | L5 (vain mallin ennuste) |
+| Tilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Miksi tämä ennustus on järkevä?
+## Miksi ennuste on (tai ei ole) perusteltu?
 
-Yksityiskohtaista vaikutustapakoskevan dokumentaatiota tälle NO-merkinnälle ei ole saatavilla (merkitty korkeaa vakavuusastetta olevaksi tietovajeksi), eikä alkuperäistä indikaatiota ole rekisterissä. Tämän näyttöpaketin perusteella typpioksidin farmakologia on kuitenkin hyvin luonnehdittu: se on endogeeninen, endoteeliperäinen signaalikaasujohtaja, joka aktivoi liukoista guanyylatosyklaasia, kohottaa solun sisäisen syklikadenomiinimonofosfaatin tasoa ja tuottaa valikoivaa keuhkoverenpaineessa laskevan vaikutuksen. Tämä on ydinmekanismi, jota siteerataan tässä jäljitetyssä kirjallisuudessa (PMID 32442078, PMID 23822809).
+Tämän lääkkeen vaikutusmekanismitietoja ei ole tämän raportin aineistossa. Tunnetun farmakologian mukaan inhaloitava typpioksidi on valikoiva keuhkoverisuonia laajentava aine. Sen teho keuhkoverenpainetaudissa perustuu tähän, ja se selittää alkuperäisen käyttöaiheen.
 
-Keuhkoarteriaali hypertensiota määritellään patofysiologisesti keuhkoverisuonten uudelleenmuodostumisella ja heikentynyt typpioksidi-biosaatavuudella/signaaloinnilla keuhkoendoteeliossa. Tämän polun palauttaminen — joko suoraan inhaloitavalla typpioksidilla tai epäsuorasti alavirtauksellisilla lääkkeillä (PDE5-estäjät, liukoisen guanyylatosyklaasistimulantit), jotka vahvistavat typpioksidi–syklikadenomiinimonofosfaatti-akselia — on jo tunnustettu keuhkoarteriaali hypertension hoidon pilari endotaliini- ja prostaglandiinipolkujen rinnalla. Inhaloitavalla typpioksidilla on vakiintunut kliininen rooli akuutin keuhkoverisuonten reagointikyky-testauksessa ja neonataalisessa pysyvässä keuhkoverisuonten hypertensiossa (PPHN), jossa se on vakiohoito.
+Alkuperäinen käyttöaihe (keuhkoverisuonten supistuminen ja hapetusvaje) ja ennustettu käyttöaihe (hampaiston ja igenkudoksen kehityshäiriö) ovat patofysiologisesti kaukana toisistaan. Löytynyt kirjallisuus käsittelee parodontiittia, igenfibroblasteja ja kasviperäisiä tulehdusta vaimentavia yhdisteitä. Typpioksidi esiintyy niissä lähinnä yleisenä tulehdus- ja oksidatiivisen stressin välittäjäaineena, ei hoitona. Suoraa yhteyttä epämuodostumaoireyhtymään ei ole osoitettu.
 
-Tämän ehdokkaan vahvuus muihin yhdeksään ennustukseen verrattuna on se, että se ei ole pelkän sairauden upottamisen samankaltaisuuden ekstrapolointi: se on suoraan tuettu suoritetulla vaiheen 4 rinnakkaisvertailututkimuksella (NCT04231084, inhaloituva typpioksidi vs. inhaloituva epoprostenoli) ja keskeisellä, 400 potilaan PPHN-tutkimuksella (NCT00139217), sekä 18 mekanistisella/kliinisellä katsauksella. Kaksi läheisesti liittyvää ennustusta samassa näyttöpaketissa — keuhkoarteriaali hypertensiota synnynnäisen sydänsairauden yhteydessä (sijoitus 8) ja keuhkoarteriaali hypertensiota sidekudossairauden yhteydessä (sijoitus 9) — vahvistavat samaa NO-polkumekanismia eri PAH-alaryhmissä, mikä edelleen tukee tämän signaalin uskottavuutta.
+Ennusteen pisteet ovat korkeat, mutta mekanistista perustetta tai käyttökelpoista tutkimusnäyttöä ei ole. Ennustetta kannattaa pitää tutkimushypoteesina, ei hoitosuosituksena.
 
 ---
 
-## Kliinisen tutkimuksen näyttö
+## Kliiniset tutkimukset
 
-| Tutkimusnumero | Vaihe | Tila | Osallistujien määrä | Keskeiset tulokset |
-|---------|------|------|------|---------|
-| [NCT04231084](https://clinicaltrials.gov/study/NCT04231084) | Vaihe 4 | Valmis | 115 | Suora akuutti hemodynamiikkavertailu inhaloitavan typpioksidin vs. inhaloitavan epoprostenolin välillä eri PH-fenotyyppien joukossa |
-| [NCT00139217](https://clinicaltrials.gov/study/NCT00139217) | N/A | Valmis | 400 | Keskeinen tutkimus, joka osoittaa ei-invasiivisen inhaloitavan typpioksidin toteutettavuuden/turvallisuuden/tehokkuuden PPHN:ssä |
-| [NCT05213676](https://clinicaltrials.gov/study/NCT05213676) | Vaihe 4 | Rekrytointivaiheessa | 600 | "NoNO Trial" — porrastettujen muutoksien poistamistutkimus inhaloitavan typpioksidin käytöstä synnynnäisessä pallean hernioitumassa |
-| [NCT01142219](https://clinicaltrials.gov/study/NCT01142219) | Vaihe 3 | Valmis | 40 | Satunnaistettu vertailukoe L-arginiinista (typpioksidin prekursori) lisähoitona sirppisoluanemiaan liittyvässä PAH:ssa |
-| [NCT07099144](https://clinicaltrials.gov/study/NCT07099144) | Vaihe 4 | Rekrytointivaiheessa | 120 | Monipaikkainen turvallisuustutkimus INOmax + hengitystuesta neonataalisessa hypoksisessa hengitysvajaamuksessa ja PH:ssa |
-| [NCT01959828](https://clinicaltrials.gov/study/NCT01959828) | Vaihe 3 | Valmis | 18 | IK-3001 inhaloituva typpioksidi sydänleikkaukseen liittyvässä PH:ssa (Japani) |
-| [NCT00955487](https://clinicaltrials.gov/study/NCT00955487) | Vaihe 2 | Valmis | 124 | Pieni annos inhaloitavaa typpioksidia bronkopulmonaalisesta dysplasiasta ja liittyvästä PH:sta johtuvien komplikaatioiden vähentämiseksi keskosilla |
-| [NCT01265888](https://clinicaltrials.gov/study/NCT01265888) | Vaihe 2 | Valmis | 31 | Inhaloitavan typpioksidin (GeNOsyl-järjestelmä) annoksenkorotustutkimus PAH:ssa ja IPF:ään liittyvässä PH:ssa |
-| [NCT03132428](https://clinicaltrials.gov/study/NCT03132428) | N/A | Lopetettu | 140 | Havaintorekisteri vauvoista, joilla on PH, jotka saavat inhaloitavaa typpioksidia invasiivisesti/ei-invasiivisesti |
-| [NCT05356052](https://clinicaltrials.gov/study/NCT05356052) | N/A | Saatavilla | N/A | Laajennettu käyttöohjelma, joka tarjoaa pulssitettua inhaloitavaa typpioksidia (INOpulse) PH-liittyville vakaviin tiloihin |
+Tälle käyttöaiheelle ei ole toistaiseksi rekisteröityjä kliinisiä tutkimuksia.
 
 ---
 
 ## Kirjallisuusnäyttö
 
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset tulokset |
+Yksikään julkaisu ei ole satunnaistettu kontrolloitu koe, eikä yksikään testaa typpioksidia hoitona tähän käyttöaiheeseen. Taulukossa on kymmenen relevanteinta.
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [33773120](https://pubmed.ncbi.nlm.nih.gov/33773120/) | 2021 | RCT | Lancet Respir Med | REPLACE-tutkimus: PAH-potilaiden siirtäminen PDE5-estäjistä riokuguaatille (sama typpioksidi–syklikadenomiinimonofosfaatti-polku) |
-| [32442078](https://pubmed.ncbi.nlm.nih.gov/32442078/) | 2020 | Katsaus | Curr Med Chem | Typpioksidipolku PAH:ssa: patomekanismi, biomarkkerit ja lääkkeen kohteet |
-| [23822809](https://pubmed.ncbi.nlm.nih.gov/23822809/) | 2013 | Katsaus | Am J Respir Crit Care Med | Typpioksidin puutos ja endoteelivajaus PAH:n patogeneesin ajajana |
-| [35412560](https://pubmed.ncbi.nlm.nih.gov/35412560/) | 2022 | Katsaus | JAMA | PAH:n diagnoosi ja hoito — yleiskatsaus |
-| [38054614](https://pubmed.ncbi.nlm.nih.gov/38054614/) | 2024 | Katsaus | Small | Hengitettävät typpioksiditorjunta-järjestelmät (typpioksidia vapauttavat mikrosfattit) PAH-hoitoon |
-| [38416633](https://pubmed.ncbi.nlm.nih.gov/38416633/) | 2024 | Metaanalyysi | Eur Heart J | Yksilöllisen osallistujan tiedon verkkoanalyysi PAH:n hoitopoluista, mukaan lukien typpioksidipolku |
-| [15194181](https://pubmed.ncbi.nlm.nih.gov/15194181/) | 2004 | Katsaus | J Am Coll Cardiol | Typpioksidipolku ja fosfodiesteraasi-estäjät PAH:ssa |
-| [40341051](https://pubmed.ncbi.nlm.nih.gov/40341051/) | 2025 | Katsaus | Eur Respir J | Uusiin polkuihin kohdistavat lääkkeet PAH:ssa, mukaan lukien vakiintuneet typpioksidipolun lääkkeet |
-| [33836637](https://pubmed.ncbi.nlm.nih.gov/33836637/) | 2021 | Katsaus | J Cardiovasc Pharmacol Ther | Yhdistelmähoito PAH:ssa, joka kohditaa typpioksidi- ja prostaglandiinipolkuja |
-| [39580019](https://pubmed.ncbi.nlm.nih.gov/39580019/) | 2025 | Järjestelmällinen katsaus/metaanalyysi | Nitric Oxide | NOS3-geenitapahtuma ja PAH-riski |
+| [15505230](https://pubmed.ncbi.nlm.nih.gov/15505230/) | 2004 | Katsaus | Journal of Dental Research | Hypokloorihappo ja tauriini-N-monokloramiini ovat neutrofiilien tuottamia tulehdusta säätelevän aineita krooniseen parodontiittiin liittyen |
+| [35574962](https://pubmed.ncbi.nlm.nih.gov/35574962/) | 2022 | Kohorttitutkimus | J Am Heart Assoc | Suun mikrobiston nitriitin tuotanto ja typpioksidireitti liittyvät sydän- ja aineenvaihduntariskiin |
+| [24670812](https://pubmed.ncbi.nlm.nih.gov/24670812/) | 2014 | Metagenomiikka | PLoS One | Suun nitraattia pelkistävät bakteerit osallistuvat typpioksidin tasapainoon |
+| [20646228](https://pubmed.ncbi.nlm.nih.gov/20646228/) | 2011 | Solututkimus | Oral Diseases | P. gingivalis -vesikkelit lisäävät iNOS-ilmentymää ja typpioksidin tuotantoa makrofageissa |
+| [36312752](https://pubmed.ncbi.nlm.nih.gov/36312752/) | 2022 | In vitro | PeerJ | Kystatiini C:llä on antimikrobista ja tulehdusta vaimentavaa vaikutusta igenfibroblasteissa |
+| [40430099](https://pubmed.ncbi.nlm.nih.gov/40430099/) | 2025 | In vitro | Int J Mol Sci | ATF3 säätelee parodontaaliligamenttisolujen vanhenemista ja osteoklastogeneesiä |
+| [35455384](https://pubmed.ncbi.nlm.nih.gov/35455384/) | 2022 | In vitro | Pharmaceuticals | Daphne jejudoensis vaimentaa LPS:n aiheuttamaa tulehdusta, myös iNOS-ilmentymää |
+| [16881806](https://pubmed.ncbi.nlm.nih.gov/16881806/) | 2006 | In vitro | J Periodontol | Rypäleensiemenen proantosyanidiinit suojaavat parodontopatogeenien LPS:n aiheuttamalta oksidatiiviselta stressiltä |
+| [41952916](https://pubmed.ncbi.nlm.nih.gov/41952916/) | 2026 | Narratiivinen katsaus | J Dent Anesth Pain Med | P. gingivalis ja kivun säätely |
+| [42795495](https://pubmed.ncbi.nlm.nih.gov/42795495/) | 2026 | Narratiivinen katsaus | Microorganisms | Suun ja nenän mikrobiomi sekä yleisterveys |
 
 ---
 
-## Suomen markkina-asema
+## Muut ennustetut käyttöaiheet
 
-Typpioksidi ei ole tällä hetkellä **markkinoilla** Suomessa tämän näyttöpaketin tiedonkeruun mukaan — markkinointihyväksynnät, tuotteet tai hyväksytyt indikaatiotekstit eivät ole rekisterissä (0 lupaa).
+Aineistossa on myös muita ennusteita, joiden näyttö on parempi kuin ensisijaisen ennusteen. Ne liittyvät pääosin alkuperäiseen käyttöaiheeseen, joten ne ovat enemmän vahvistavia kuin uudelleenkäyttöä.
+
+| Ennustettu käyttöaihe | Näytön taso | Kommentti |
+|------|------|------|
+| Keuhkovaltimoverenpainetauti (PAH) | L2 | Vaiheen 2 tutkimus (NCT02734953, n=10), pieniä vaiheen 1–2 tutkimuksia ja päättynyt vaiheen 3 -tutkimus (NCT02725372, n=207, päättynyt ennenaikaisesti). Vaiheen 3 -satunnaistettua tutkimusta, jonka tulokset olisivat saatavilla, ei ole. |
+| PAH ja synnynnäinen sydänsairaus | L3 | Katsauksia ja havaintoaineistoa, myös uusi typpioksidin antotekniikka leikkauksen jälkeiseen keuhkoverenpainetautiin |
+| Keuhkojen valtimo-laskimomalformaatio | L3 | Pieniä retrospektiivisiä ja havainnoivia raportteja hapetuksen paranemisesta (esim. PMID 36066659, 20693933) |
+| PAH ja krooninen hemolyyttinen anemia | L3 | Vahva mekanistinen peruste (hemolyysi sitoo typpioksidia), vaiheen 1 tutkimus NCT00023296 (n=59) |
+| PAH ja sidekudossairaus | L4 | Vain epäsuoraa, yleiseen PAH-tietoon perustuvaa näyttöä |
 
 ---
 
-## Turvallisuushuomiot
+## Tiedot Suomen markkinoilta
 
-Katso turvallisuustiedot pakkausselosteesta.
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000337 | INOmax (Linde Healthcare AB) | – | Keuhkoverenpainetauti; hengitysvajaus |
+
+Tämä myyntilupa on peruutettu, eikä voimassa olevia lupia ole.
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Turvallisuusnäkökohdat
 
-**Päätös: Jatka varauksellisesti**
+Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ollut saatavilla tätä raporttia varten, joten ne on tarkistettava valmisteyhteenvedosta.
+
+- **Tietämyskannan mukaiset vasta-aiheet**: tietämyskannassa (PrimeKG) lääkkeeseen liitetään vasta-aiheina methemoglobinemia, sulfhemoglobinemia ja sydämen vajaatoiminta. Nämä eivät perustu valmisteyhteenvetoon.
+- **Yhteisvaikutukset**: kirjattuja yhteisvaikutuksia on yhteensä 61. Vakavaksi luokiteltu on **typpihapoke** (nitrous acid, Major). Keskivaikeiksi luokiteltuja ovat paikallispuudutteet **tetrakaiini (silmään)**, **lidokaiini (paikallinen)** ja **bentsokaiini (paikallinen)**. Yleisen farmakologian perusteella nämä voivat lisätä methemoglobiiniriskiä. Muiden kirjattujen yhteisvaikutusten (esim. morfiini, omepratsoli, epinefriini, hepariini, epoprostenoli) vakavuusluokka on tuntematon.
+
+---
+
+## Johtopäätös ja jatkotoimet
+
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Keuhkoarteriaali hypertensioennustus on tuettu L1-tason näytöllä — suoritetulla vaiheen 4 rinnakkaisvertailututkimuksella ja keskeisellä 400 potilaan PPHN-tutkimuksella, sekä merkittävällä, mekanistisesti johdonmukaisella kirjallisuuspohjalla — mikä tekee siitä paljon vahvemman kuin muista yhdeksästä TxGNN:n ennustuksesta tälle lääkkeelle, joista suurin osa arvioitiin mallin meluna. Ehdokkaan tasolla kuitenkin **TFDA/Fimea:n pakkausseloste (varoitukset ja vasta-aiheet) on merkitty estäviksi tietovajeiksi**, mikä tarkoittaa, että tämä ehdokas ei voi vielä muodollisesti siirtyä S1 turvallisuusarviovaiheseen.
+- Ennuste perustuu vain TxGNN-mallin pisteisiin. Kliinisiä tutkimuksia ei ole, eikä kirjallisuus testaa typpioksidia hoitona. Uskottavaa vaikutusmekanismia ei ole osoitettu, ja myyntilupakin on peruutettu.
 
-**Jatkaaksesi tarvitaan seuraava:**
-- TFDA/Fimea:n pakkausseloste-tiedot (varoitukset, vasta-aiheet) — tällä hetkellä estävä; vaaditaan ennen S1 turvallisuusarviota
-- Vaikutustavakoskevan dokumentaation DrugBank-lähteestä — tällä hetkellä korkea-vakavuusastetta oleva tietovahe
-- Suomen lisenssin/markkina-aseman vahvistaminen, koska inhaloituva typpioksidi on vakiintunut kaasulääke muissa maissa ja tämä "0 lupaa / ei markkinoilla" -tulos saattaa heijastaa tiedonkeruun vajeita todellisen poissaolon sijasta
-- Lääkkeiden väliset vuorovaikutukset (DDI), joita ei saatu palautettua tässä tiedonkeruussa
-- Erityinen turvallisuuden seurantasuunnitelma inhaloitavan typpioksidin antamiselle (esim. methemoglobinemiariskit, NO2:n muodostuminen, kehotus-keuhkoverisuonten ylipaineistuminen käytön lopetuksesta) ennen kliinistä käyttöä PAH-populaatiossa
-
+**Eteenpäin siirtyminen edellyttää:**
+- Vaikutusmekanismitietoja ja tutkimushypoteesin siitä, miten typpioksidi voisi vaikuttaa hampaiston tai igenkudoksen kehityshäiriöön
+- Kohdesairauteen liittyvää prekliinistä näyttöä
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet (erityisesti methemoglobiiniriski ja sydämen vajaatoiminta)
+- Harkintaa siitä, kannattaisiko resurssit suunnata paremmin perusteltuihin ennusteisiin, kuten keuhkojen valtimo-laskimomalformaatioon tai hemolyyttiseen anemiaan liittyvään PAH:iin
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -2,7 +2,7 @@
 layout: default
 title: Selinexor
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 340
+nav_order: 397
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,59 +29,88 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Selinexor: alkuperäinen käyttöaihe puuttuu — ennustettu soveltuvuus lääkkeen aiheuttamaan osteoporoosiin
+# Selinexor: Multippelista myeloomasta lääkkeen aiheuttamaan osteoporoosiin
 
-## Yhden lauseen tiivistelmä
+## Yhteenveto
 
-Nykyinen todistusaineisto ei sisällä selinexorin alkuperäistä hyväksyttyä käyttöaiheita tai vaikutusmekanismia – molemmat merkitty tietovajeiksi. TxGNN-malli ennustaa mahdollista yhteyttä **lääkkeen aiheuttamaan osteoporoosiin**, mutta tätä ennustusta tukee tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua**, mikä tekee siitä ainoastaan malliin perustuvan hypoteesin tässä vaiheessa.
+Selinexor on ydinvientiä estävä syöpälääke, jota on käytetty multippelin myelooman hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **lääkkeen aiheuttamaan osteoporoosiin**, mutta ennusteen tueksi ei ole tällä hetkellä **yhtään kliinistä tutkimusta eikä julkaisua**. Näyttö perustuu pelkästään mallin ennusteeseen.
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen käyttöaihe | Ei saatavilla – tästä lääkkeestä ei ole hyväksyttyjä käyttöaiheita arkistossa |
+|------|------|
+| Alkuperäinen käyttöaihe | Multippeli myelooma |
 | Ennustettu uusi käyttöaihe | Lääkkeen aiheuttama osteoporoosi |
-| TxGNN-ennustuspisteet | 99.22% |
-| Todistustaso | L5 |
-| Suomen markkinoiden tila | Ei markkinoilla |
-| Myyntiluvan määrä | 0 |
-| Suositeltu päätös | Pidä varauksessa |
+| TxGNN-ennustepistemäärä | 99,22 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennuste on järkevä?
+## Miksi ennuste voisi olla perusteltu?
 
-Selinexorin yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla tässä todistusaineistossa, eikä alkuperäisestä käyttöaiheesta ole tietoja vertailun pohjaksi. Ennustuksen perustelusta löytyvien rajoitettujen mekanististen tietojen perusteella selinexor on XPO1 (exportin-1 / ydinvientproteiini) -inhibiittori. Kliinisesti tämä lääkeryhmä liittyy systeemisiin aineenvaihduntavaikutuksiin, kuten painon laskuun, väsymykseen, pahoinvointiin ja hyponatremiaan.
+Tässä raportissa käytetystä aineistosta puuttuu yksityiskohtainen vaikutusmekanismitieto. Tunnetun tiedon mukaan selinexor on selektiivinen ydinvientiä (XPO1/CRM1) estävä lääke, jonka teho multippelissa myeloomassa on osoitettu.
 
-Yhteys lääkkeen aiheuttamaan osteoporoosiin on spekulatiivinen: on arvioitu, että pitkäaikainen käyttö voisi epäsuorasti vaikuttaa luun aineenvaihduntareitteihin (esim. glukokortikoidin kaltaisten vaikutusten tai ravitsemuksellisen heikkenemisen kautta), mutta tämä on johtopäätös, ei vahvistettu vaikutusmekanismi. Dokumentoitua suoraa farmakologista yhteyttä XPO1-estämisen ja luun aineenvaihdunnan välillä ei ole tässä todistusaineistossa. TxGNN-pistemäärä 99.22% kuvastaa ainoastaan mallin luottamusta, eikä se sinänsä muodosta vaikutusmekanistä tai kliinistä näyttöä.
+Mahdollinen mutta varmistamaton yhteys on, että XPO1:n esto muuttaa kasvunestäjien ja signalointisäätelijöiden (esim. NF-kB/IkB, p53) pysymistä solun ytimessä. Tämä voisi vaikuttaa osteoklastien tai osteoblastien signalointiin. Hypoteesia ei tue mikään tähän raporttiin koottu aineisto.
 
-## Kliinisten tutkimusten näyttö
+Lisäksi selinexorin tunnetut haittavaikutukset (pahoinvointi, ruokahaluttomuus, painon lasku, väsymys, hyponatremia, trombosytopenia) eivät sovi luuston terveyttä tavoittelevaan käyttöaiheeseen. Uusiutuneessa ja hoitoresistentissä myeloomassa potilailla on jo huomattavaa luustosairautta, minkä vuoksi mahdollista vaikutusta on vaikea erottaa perussairauden vaikutuksesta.
 
-Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia
+## Kliininen tutkimusnäyttö
+
+Ei tällä hetkellä rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
 ## Kirjallisuusnäyttö
 
-Tällä hetkellä ei ole saatavilla asiaan liittyviä julkaisuja
+Ei tällä hetkellä aiheeseen liittyvää kirjallisuutta.
 
-## Suomen markkinoiden tiedot
+## Suomen markkinatiedot
 
-Selinexoria ei markkinoida tällä hetkellä Suomessa, eikä myyntiluvista ole merkintöjä arkistossa.
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/005127 | Nexpovio | – | Multippeli myelooma (peruutettu) |
+
+## Sytotoksisuus
+
+| Kohta | Sisältö |
+|------|------|
+| Sytotoksisuusluokitus | Kohdennettu hoito (ydinvientiä estävä, XPO1-estäjä) |
+| Myelosuppression riski | Keskisuuri–korkea (trombosytopenia tunnettu haittavaikutus) |
+| Oksettavuusluokitus | Keskisuuri–korkea (pahoinvointi yleistä) |
+| Seurattavat parametrit | Täydellinen verenkuva (trombosyytit, neutrofiilit), natrium, paino ja ravitsemustila, maksa- ja munuaisarvot |
+| Käsittelysuojaus | Noudatettava sytotoksisten lääkkeiden käsittelyohjeita |
+
+Tarkemmat tiedot: ks. valmisteyhteenvedon varoitukset ja varotoimet.
 
 ## Turvallisuusnäkökohdat
 
-Turvallisuustietoja varten katso pakkausseloste.
+**Lääkeaineiden yhteisvaikutukset:** Tietokannasta löytyi yhteensä 81 yhteisvaikutusta. Merkittäviksi (Major) luokiteltuja ovat muun muassa:
+- deferipronin
+- samarium (153Sm) leksidronaamin
+- adalimumabin
+- barisitinibin
+- certolitsumabipegolin
+- kladribiinin
+- klotsapiinin kanssa
 
-## Johtopäätökset ja seuraavat vaiheet
+Keskinkertaisiksi (Moderate) luokiteltuja ovat muun muassa strontiumkloridi Sr-89, roflumilasti, kloramfenikoli, tsidovudiini, atsatiopriini, alemtutsumabi, anakinra sekä useat rokotteet (mm. pernarokote ja kolerarokote).
 
-**Päätös: Pidä varauksessa**
+Muuta turvallisuustietoa: ks. valmisteyhteenveto.
+
+## Johtopäätös ja seuraavat askeleet
+
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Tätä ennustetta tukee tällä hetkellä ainoastaan TxGNN-mallin pistemäärä (todistustaso L5), eikä mitään kliinisiä tutkimuksia, julkaisuja, vaikutusmekanismin tietoja tai Suomen markkinoiden läsnäoloa ole sen tueksi. Tällä hetkellä on riittämätön näyttö edetä tämän ehdokkaan kanssa.
+- Ennuste perustuu pelkästään korkeaan TxGNN-pistemäärään (99,22 %), eikä tukena ole kliinisiä tutkimuksia, kirjallisuutta eikä varmennettua mekanismia. Lääkkeen haittaprofiili on lisäksi epäedullinen luustoindikaatiolle, ja Suomessa ainoa myyntilupa on peruutettu.
 
-**Edistymiseksi tarvitaan seuraavaa:**
-- Selinexorin alkuperäiset hyväksytyt käyttöaiheet ja varmistettu vaikutusmekanismi (MOA)
-- TFDA/Fimean pakkausseloste-tiedot (varoitukset, vasta-aiheet, lääkkeiden väliset yhteisvaikutukset) – tällä hetkellä estävä tietovaje
-- Kliiniset tutkimukset tai kirjallisuusnäyttö, joka yhdistää suoraan selinexorin (tai sen lääkeryhmän) luun aineenvaihduntaan/osteoporoosiin
-- Mekanistisen uskottavuuden uudelleenarviointi, kun MOA-tiedot saadaan
-
+**Eteenpäin siirtyminen edellyttää:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimeasta (turvallisuusarvion estävä tietoaukko)
+- Vaikutusmekanismin tietojen täydentämistä (esim. DrugBank)
+- Prekliinistä ja mekanistista näyttöä XPO1:n estosta luun aineenvaihdunnassa (osteoklastit ja osteoblastit)
+- Systemaattista kirjallisuushakua ja kliinisten tutkimusten rekisterihakua
+- Hyöty–haitta-arviota, jossa huomioidaan selinexorin toksisuus ja kohdepopulaation perussairaus
+- Selvitystä lääkkeen saatavuudesta ja myyntiluvan tilanteesta Suomessa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

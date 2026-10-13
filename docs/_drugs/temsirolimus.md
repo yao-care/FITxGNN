@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Temsirolimus
-parent: Vahva näyttö (L1-L2)
-nav_order: 365
-evidence_level: L2
+parent: Pelkkä mallin ennuste (L5)
+nav_order: 426
+evidence_level: L5
 indication_count: 3
 ---
 
 # Temsirolimus
 {: .fs-9 }
 
-Näytön taso: **L2** | Ennustetut käyttöaiheet: **3** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,79 +29,101 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Temsirolimus: munuaisselkkasolukarsinoomasta liposarkoömaan
+# Temsirolimuusi: Munuaissolusyövästä liposarkoomaan
 
 ## Yhden lauseen yhteenveto
 
-Temsirolimus (Torisel) on mTOR-inhibiittori, joka on alun perin hyväksytty munuaisselkkasolukarsinooman hoitoon. TxGNN-malli ennustaa, että se saattaa olla tehokas **liposarkooman** hoitoon, ja tätä suuntaa tukee tällä hetkellä **5 kliinistä tutkimusta** (kaksi käyttävät itse temsirolimusta) ja **1 kirjallisuuskatsaus**.
+Temsirolimuusi on mTOR-estäjä, jota on alun perin käytetty munuaissolusyövän ja manttelisolulymfooman hoitoon. TxGNN-malli ennustaa sen voivan tehota **liposarkoomaan**, mutta tukena on toistaiseksi vain **2 kliinistä tutkimusta** (sekalaiset sarkoomapotilaat) ja **1 katsausartikkeli**. Suora liposarkoomakohtainen näyttö puuttuu.
 
-## Nopea yleiskatsaus
+---
+
+## Pikakatsaus
 
 | Kohde | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Munuaisselkkasolukarsinooma (uudelleenkäytön perustelun perusteella; paikallista myyntilupaa ei ole – katso Markkinoinnin tila) |
-| Ennustettu uusi indikaatio | Liposarkooma |
-| TxGNN-ennusteen pistemäärä | 99.54% |
-| Evidenssin taso | L2 |
-| Suomen markkinoinnin tila | ✗ Ei markkinoilla |
-| Lupien määrä | 0 |
-| Suositeltu päätös | Jatka varauksin |
+|------|------|
+| Alkuperäinen käyttöaihe | Munuaissolusyöpä; manttelisolulymfooma |
+| Ennustettu uusi käyttöaihe | Liposarkooma |
+| TxGNN-ennustepistemäärä | 99,54 % |
+| Näytön taso | L2 (varovainen tulkinta: valmistuneita vaiheen 1/2 ja 2 tutkimuksia on, mutta ne eivät ole liposarkoomakohtaisia satunnaistettuja tutkimuksia) |
+| Markkinatilanne Suomessa | Vain peruttu myyntilupa |
+| Myyntilupien määrä | 1 (peruttu) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennuste on perusteltu?
+---
 
-Temsirolimuksen `original_moa`-kenttä on merkitty tässä evidenssitietopaketissa tietovajeeksi (DG002 – korkea vakavuus). Kuitenkin ennusteeseen liittyvä uudelleenkäytön perusteltu selitys tarjoaa mekaanisen yksityiskohdan: temsirolimus on sirolimusin esiaineaine, ja CYP3A4-välitteisen metabolisen aktivaation jälkeen se sitoutuu FKBP12:een estäen mTORC1:n, mikä estää PI3K/AKT/mTOR-signaalointireittiä.
+## Miksi ennuste on perusteltu?
 
-Liposarkooma – erityisesti dediferenssitynyt alatyyppi – osoittaa usein tämän saman reitin aktivaatiota yhdessä MDM2/CDK4 rinnakkaistason kanssa, mikä antaa selkeän mekaanisen perustelun temsirolimuksen laajentamiselle sen hyväksynnän perusteella olevan munuaisselkkasolukarsinooman indikaation lisäksi, toinen mTOR-reitin säätelyn häiriintymisen vetämä kasvaimen tyyppi.
+Temsirolimuusi estää mTOR-kinaasia (mekanismitietoa ei ole erikseen annettu tähän raporttiin kerätyissä tiedoissa, mutta mTOR-esto on lääkkeen tunnettu vaikutustapa). PI3K/AKT/mTOR-signalointireitti on usein aktivoitunut pehmytkudossarkoomissa, myös liposarkoomassa. Tämä antaa uskottavan biologisen perustelun mTOR-estolle.
 
-Tämä mekaaninen jatkuvuus vahvistuu suoralla kliinisellä näytöllä: temsirolimusta (Torisel) on jo testattu yhdistelmähoidoissa edistyneissä pehmytkudos- ja luusarkoomeissa, mukaan lukien liposarkooman alatyypeissä, ja muut mTOR-reitin inhibiittorit (sirolimuus, ridaforolimus, everolimus) on tutkittu samassa taudin alueella, mikä muodostaa laajemman luokkatason näyttöpohjan.
+Alkuperäiset käyttöaiheet (munuaissolusyöpä ja manttelisolulymfooma) ovat syöpiä, joissa mTOR-reitin aktiivisuus on hoidon kohde. Liposarkoomassa sama reitti voi olla tärkeä kasvusignaali, erityisesti hyvin erilaistuneessa ja erilaistumattomassa liposarkoomassa.
 
-## Kliiniset tutkimukset
+Pistemäärä on laskennallinen ennuste eikä korvaa kliinistä näyttöä.
 
-| Tutkimusnumero | Vaihe | Tila | Rekrytointi | Tärkeimmät löydökset |
+---
+
+## Kliininen näyttö
+
+| Tutkimusnumero | Vaihe | Tila | Osallistujia | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT00949325](https://clinicaltrials.gov/study/NCT00949325) | Vaihe 1/2 | Valmis | 24 | Torisel (temsirolimus) + liposomaalinen doksorubiini uusiutuvassa sarkooomassa (ml. liposarkooma); annoksen määritys ja tehokkuuden arviointi. Suora näyttö temsirolimukselle. |
-| [NCT01614795](https://clinicaltrials.gov/study/NCT01614795) | Vaihe 2 | Valmis | 46 | Temsirolimus + cixutumumab lapsen uusiutuvassa/resistentissa sarkooomassa. Suora näyttö temsirolimukselle, mutta väestö rajoittuu lapsiin. |
-| [NCT02821507](https://clinicaltrials.gov/study/NCT02821507) | Vaihe 2 | Valmis | 70 | Sirolimuus + syklofosfamidi metastaattisessa/resektoimattomassa myksoidissa liposarkooomassa ja kondrosarkooomassa. Sama-luokkaa oleva (mTOR-inhibiittori) näyttö. |
-| [NCT00093080](https://clinicaltrials.gov/study/NCT00093080) | Vaihe 2 | Valmis | 216 | Ridaforolimus (toinen mTOR-inhibiittori) edistyneessä sarkooomassa; suuri näytteen koko, sama-luokkaa oleva näyttö. |
-| [NCT03114527](https://clinicaltrials.gov/study/NCT03114527) | Vaihe 2 | Aktiivinen, ei rekrytointia | 48 | Ribosiklii + everolimus (mTOR-inhibiittori) edistyneessä dediferenssittyneessä liposarkooomassa ja leiomyosarkooomassa. Sama-luokkaa oleva näyttö. |
+| [NCT00949325](https://clinicaltrials.gov/study/NCT00949325) | Vaihe 1/2 | Valmistunut | 24 | Temsirolimuusi + liposomaalinen doksorubisiini uusiutuneessa pehmytkudos- ja luusarkoomassa; tavoitteena turvallinen annostus ja tehon arviointi. Sekapopulaatio, liposarkoomakohtaista tehoa ei voi erottaa. |
+| [NCT01614795](https://clinicaltrials.gov/study/NCT01614795) | Vaihe 2 | Valmistunut | 46 | Setuksimabi (cixutumumab) + temsirolimuusi lapsipotilailla, joilla uusiutunut tai hoitoon reagoimaton kiinteä kasvain/sarkooma. Epäsuora yhteys aikuisten liposarkoomaan; yhdistelmä hankaloittaa tulkintaa. |
+
+---
 
 ## Kirjallisuusnäyttö
 
-| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät löydökset |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [20497911](https://pubmed.ncbi.nlm.nih.gov/20497911/) | 2010 | Katsaus | Bulletin du cancer | Katsaus kohdennettuihin hoitoihin harvinaisissa sidekudoskasvaimissa ja sarkoomataudeissa; klassifisoidaan kohdennetun hoidon valintaa varten oleelliset molekyylisesti merkittävät alaryhmät. |
+| [20497911](https://pubmed.ncbi.nlm.nih.gov/20497911/) | 2010 | Katsaus | Bulletin du cancer | Harvinaisten sidekudos- ja pehmytkudossarkoomien kohdennetut hoidot molekyylialaryhmittäin. |
 
-## Suomen markkinoinnin tila
+---
 
-Temsirolimusta ei ole tällä hetkellä markkinoilla Suomessa – tässä evidenssitietopaketissa ei ole yhtään myyntilupaa.
+## Markkinatiedot Suomessa
+
+| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000799 | Torisel | – | Munuaissolusyöpä; manttelisolulymfooma (tila: peruttu) |
+
+---
 
 ## Sytotoksisuus
 
 | Kohde | Sisältö |
-|------|---------|
-| Sytotoksisuuden luokittelu | Kohdennettu hoito (mTOR-inhibiittori) |
-| Luuytimen vajaatoiminnan riski | Katso pakkausseloste varoituksista ja varotoimista |
-| Pahoinvointiluokitus | Katso pakkausseloste varoituksista ja varotoimista |
-| Seurantakohteet | Katso pakkausseloste varoituksista ja varotoimista |
-| Käsittelysuoja | Katso pakkausseloste varoituksista ja varotoimista |
+|------|------|
+| Sytotoksisuusluokitus | Kohdennettu hoito (mTOR-estäjä) |
+| Myelosuppressioriski | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Emetogeenisuusluokitus | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Seurantaparametrit | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Käsittelysuojaus | Katso valmisteyhteenvedon varoitukset ja varotoimet |
 
-## Turvallisuusnäkökohdat
+---
 
-Katso pakkausseloste turvallisuustietojen osalta. (Paikallisen pakkausselosteen varoitukset/vasta-aiheet ja lääkkeen ja lääkkeen välisen vuorovaikutuksen tiedot eivät ole vielä saatavilla – merkitty **estävänä** tietovajeasiana, DG001.)
+## Turvallisuushuomioita
+
+**Lääkeyhteisvaikutukset** (kaikkiaan 100 tunnistettua, alla keskeisiä):
+- **Merkittävät (Major):** amfoterisiini B (myös lipidikompleksi), deksametasoni, klaritromysiini
+- **Kohtalaiset (Moderate):** mm. asarboosi, hydrokortisoni, metformiini, pioglitatsoni, alogliptiini, aprepitantti, mesalatsiini, budesonidi, simetidiini, kanagliflotsiini
+
+**Tietämysgraafiin perustuvat mahdolliset vasta-aiheet** (eivät perustu valmisteyhteenvetoon, vaan tulkittava varovasti): munuais- ja maksasairaus, hyperglykemia ja diabetes, hyperlipidemia, aivoverenkierron häiriöt, hyperbilirubinemia (mm. Gilbertin oireyhtymä), interstitiaalinen keuhkosairaus sekä aivokasvaimet (mm. astrosytoomat).
+
+Lisäksi valmisteyhteenvedon varoitukset ja vasta-aiheet tulee tarkistaa alkuperäisestä valmisteyhteenvedosta.
+
+---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Jatka varauksin**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Temsirolimusta on suoritettu vaiheissa 1/2 kliininen näyttö sarkooomassa (mukaan lukien liposarkooma), vahvistettu johdonmukaisella mTOR-reitin mekaanisella perusteella ja tuella sama-luokkaiseen tutkimusaineistoon. Kuitenkin lääke ei ole tällä hetkellä markkinoilla Suomessa ja keskeisiä turvallisuus-/sääntelytietoja puuttuu, joten varauksia tarvitaan ennen edelleen etenemistä.
+- Biologinen perustelu on uskottava, mutta kliininen näyttö on epäsuoraa: tutkimukset ovat varhaisen vaiheen, sekapopulaatioita tai yhdistelmähoitoja, eikä liposarkoomakohtaista tehoa ole osoitettu. Lääkkeellä ei myöskään ole voimassa olevaa myyntilupaa Suomessa.
+- Muut ennustetut käyttöaiheet (munasarjan myksoidi liposarkooma, vulvan sarkooma) eivät saa tukea kliinisistä tutkimuksista tai kirjallisuudesta.
 
-**Seuraavat asiat ovat välttämättömiä edetäkseen:**
-- TFDA/paikallisen pakkausselosteen varoitukset ja vasta-aiheet (Estävä vaje, DG001)
-- Yksityiskohtainen lääkkeen vaikutusmekanismin dokumentaatio DrugBankista (Korkean prioriteetin vaje, DG002)
-- Paikallisen myyntiluvan tai tuontireitin arviointi, koska tuotetta ei ole tällä hetkellä markkinoilla
-- Lääkkeen ja lääkkeen välisen vuorovaikutuksen tiedot (mitään ei löytynyt nykyisistä kyselyistä)
-
+**Eteneminen edellyttää seuraavaa:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean sivuilta (estää turvallisuusarvioinnin etenemisen)
+- Mekanismitietojen (MOA) täydentäminen DrugBankista
+- Liposarkoomakohtaisten tulosten haku NCT00949325-tutkimuksen alaryhmäanalyyseista
+- Tarvittaessa liposarkoomaa koskeva vaiheen 2 tutkimus, jossa on mukana MDM2/CDK4-tilan ja PI3K/AKT/mTOR-reitin aktiivisuuden biomarkkerit
+- Myyntilupatilanteen ja saatavuuden selvittäminen (nykyinen lupa peruttu)
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

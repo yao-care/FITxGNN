@@ -2,7 +2,7 @@
 layout: default
 title: Cabotegravir
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 85
+nav_order: 93
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,61 +29,75 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Cabotegravir: HIV-1-infektiosta reumatoidiartriittiin
+# Kabotegraviiri: HIV-infektiosta nivelreumaan
 
 ## Yhden lauseen yhteenveto
 
-Cabotegravir on HIV-1-integraasi-paikkasiirtoinhibiittori (INSTI), jonka vakiintunut kliininen käyttö rajoittuu HIV-1-ehkäisyyn ja -hoitoon. TxGNN-malli ennustaa, että se saattaa olla tehokas **reumatoidiartriitissa**, mutta tätä suuntaa tukee tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua**, ja mallin oman mekanismisen analyysin mukaan ei ole tunnettua biologista polkua, joka yhdistäisi HIV-integraasi-inhibiition reumaattiseen inflammaatioon.
+Kabotegraviiri on HIV-integraasin estäjä, jota on alun perin käytetty HIV-infektion hoitoon. TxGNN-malli ennustaa sen voivan tehota **nivelreumaan**, mutta ennuste perustuu pelkästään laskennalliseen malliin: aiheesta ei ole **yhtään kliinistä tutkimusta** eikä **yhtään julkaisua**.
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
-| Kohde | Sisältö |
+| Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Ei merkitty Suomen rekisteriin (lääke on markkinoimaton); tunnettu farmakologia on HIV-1-infektio integraasi-inhibiition kautta |
-| Ennustettu uusi käyttöaihe | Reumatoidiartriitti |
-| TxGNN-ennustepisteet | 99.45% |
-| Näytön taso | L5 (vain mallin ennuste, ei tukevia tutkimuksia) |
-| Suomen markkinatilanne | ✗ Markkinoimaton |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltava päätös | Pidättäminen |
+| Alkuperäinen käyttöaihe | HIV-infektio |
+| Ennustettu uusi käyttöaihe | Nivelreuma |
+| TxGNN-ennusteen pistemäärä | 99,45 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 2 (molemmat peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennuste on järkevä?
+## Miksi ennuste voisi olla perusteltu?
 
-Yksityiskohtaisia vaikutusmekanismitietoja ei ole saatavilla strukturoidussa lääketietueessa (merkitty tietovajeeksi). Näytöpaketin omasta mekanismisesta arvioinnista tiedetään, että cabotegravir on INSTI — sen ainoa vahvistettu farmakologinen vaikutus on HIV-1-integraasi-entsyymin estäminen, joka estää viruksen DNA:n integroitumisen isäntägenoomiin.
+Kabotegraviiri on HIV-integraasin siirtoreaktion estäjä (integrase strand transfer inhibitor). Raportin laatimiseen koottu aineisto ei sisällä yksityiskohtaista vaikutusmekanismitietoa, joten mekanistista analyysiä voidaan tehdä vain rajallisesti.
 
-Tämän mekanismin ja reumatoidiartriittiin liittyvien immuuni-inflammatoristen polkujen (esim. TNF-α, IL-6, JAK-STAT-signalointi) välillä ei ole rakenteellista tai polkujen päällekkäisyyttä. Näytöpaketissa tämä ilmaistaan eksplisiittisesti: korkea TxGNN-pisteet heijastaa **ainoastaan tietokaavion topologista samankaltaisuutta**, ei biologisesti perusteltua hypoteesia.
+Nivelreuman taustalla ovat autoimmuuni- ja tulehdusreitit, kuten TNF, IL-6 ja JAK. Kabotegraviirin ja näiden reittien välillä ei ole tunnistettu uskottavaa yhteyttä. Korkea pistemäärä kuvastaa todennäköisesti tietämysgraafin rakennetta eikä osoita biologista vaikutusta.
 
-Sama malli koskee muita neljää TxGNN-luokiteltua kandidaattia tälle lääkkeelle (sklerosoiva koleangitis, keuhkoputkentulehdus, harvinainen kehitysoireyhtymä ja diabeettinen retinopatia) — jokainen kantaa samankaltaisen korkean pisteen, mutta ilman tukevia mekanismisia, kokeellisia tai kirjallisuuden näyttöjä. Tämä viittaa siihen, että mallin upotusavaruus cabotegravirille saattaa olla harva tai meluisa, eikä mikään viidestä ennusteesta nouse tällä hetkellä puhtaan mallin pisteen signaalin yläpuolelle.
+Muut ennustetut käyttöaiheet ovat samankaltaisia: sklerosoiva kolangiitti (99,22 %), keuhkoputkentulehdus (99,19 %), kolobomatoottinen mikroftalmia-rizomeelinen dysplasia -oireyhtymä (99,16 %) ja vaikea ei-proliferatiivinen diabeettinen retinopatia (99,03 %). Yhdellekään ei löydy mekanistista perustetta, kliinisiä tutkimuksia tai julkaisuja, ja kaikkien näytön taso on L5.
 
-## Kliinisen kokeen näyttö
+## Kliininen tutkimusnäyttö
 
-Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
-## Kirjallisuuden näyttö
+## Kirjallisuusnäyttö
 
-Tällä hetkellä ei ole saatavilla asiaan liittyviä julkaisuja.
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
 ## Suomen markkinatiedot
 
-Cabotegravir ei ole tällä hetkellä markkinoitu Suomessa — mikään markkinointilupa ei ole rekisterissä (0 lupaa rekisteröity).
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/005756 | Apretude | – | HIV-infektio (peruutettu) |
+| EMEA/H/C/004976 | Vocabria | – | HIV-infektio (peruutettu) |
 
-## Turvallisuusnäkökohdat
+Molempien valmisteiden myyntiluvanhaltija on ViiV Healthcare B.V.
 
-Katso turvallisuustiedot pakkausselosteesta. Huomautus: cabotegraviirin suomalaisen/EU:n pakkauseloste varoituksien ja vasta-aiheisten hankinta on merkitty tässä näytöpaketissa **estävän tietovajeeksi**, mikä tarkoittaa, että tämä kandidaatti ei voi vielä edetä viralliseen S1-turvallisuuden esiarviointiin.
+## Turvallisuushuomiot
+
+**Lääkeyhteisvaikutukset:** Tietokannasta löytyi 7 kohtalaisen tason yhteisvaikutusta. Ne koskevat antasideja ja mineraalivalmisteita, jotka voivat todennäköisesti heikentää kabotegraviirin imeytymistä:
+- kalsiumkarbonaatti
+- alumiinihydroksidi
+- magnesiumkarbonaatti
+- magnesiumhydroksidi
+- magnesiumoksidi
+- natriumbikarbonaatti
+- natriumsitraatti
+
+Muuta turvallisuustietoa varten tutustu valmisteyhteenvetoon.
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Pidättäminen**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Ennuste perustuu pelkästään TxGNN:n mallin pisteisiin (L5, S0), ilman kliinisiä tutkimuksia, ilman kirjallisuutta ja eksplisiittisen mekanismisen uskottavuuden puuttuessa, joka yhdistäisi cabotegraviirin INSTI-aktiviteetin reumatoidiartriittiin. Yhdessä markkinoimattoman aseman kanssa Suomessa ja estävän turvallisuus-/merkintätietojen puuttuessa ei ole tällä hetkellä perusteita edetä tämän kandidaatin kanssa.
+- Ennuste perustuu pelkkään graafipohjaiseen laskentaan (L5). Kliinistä tai kirjallisuusnäyttöä ei ole, eikä uskottavaa mekanistista yhteyttä nivelreumaan ole tunnistettu.
+- Kabotegraviirin kaikki Suomen myyntiluvat on peruutettu, joten valmiste ei ole tällä hetkellä markkinoilla.
 
-**Edetäkseen seuraavaa tarvitaan:**
-- TFDA:n/Fimean pakkauseloste varoitukset ja vasta-aiheet (tällä hetkellä estävä — vaaditaan ennen mitään S1-turvallisuuden seulontaa)
-- Vahvistettu vaikutusmekanismin dokumentaatio DrugBankista tai vastaavasta ensisijaisesta lähteestä
-- Prekliinisiä tai mekanismisia tutkimuksia, jotka osoittavat biologisen uskottavuuden immuuni-inflammatoriselle käyttöaiheelle
-- Jatkuva seuranta ilmaantuvista tutkimuksista ja julkaisuista cabotegravirista HIV:n ulkopuolella, koska molemmat puuttuvat tällä hetkellä
-
+**Jatkotoimiin tarvitaan seuraavat tiedot:**
+- Yksityiskohtainen vaikutusmekanismitieto (esim. DrugBankista).
+- Valmisteyhteenvedon (Fimea) varoitukset ja vasta-aiheet turvallisuusarviointia varten. Tämä on estävä tietoaukko.
+- Prekliiniset tutkimukset, jotka selvittävät mahdollisen vaikutuksen nivelreuman tulehdusreitteihin.
+- Arvio antasidien kanssa ilmenevistä yhteisvaikutuksista ja annosmuodon sopivuudesta uuteen käyttöaiheeseen.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

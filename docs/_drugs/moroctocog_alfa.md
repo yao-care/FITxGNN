@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Moroctocog Alfa
-parent: Kohtalainen näyttö (L3-L4)
-nav_order: 254
-evidence_level: L4
+parent: Pelkkä mallin ennuste (L5)
+nav_order: 295
+evidence_level: L5
 indication_count: 8
 ---
 
 # Moroctocog Alfa
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **8** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **8** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,88 +29,78 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **8** kpl
 
 </div>
 
-# Moroctocog alfa: hemofiliasta A:sta verihiutaleiden primaarisen erityissekretiopoikkeavuuden hoitoon
+# Moroktokogi alfa: Hemofilia A:sta primaariin verihiutaleiden vapautumishäiriöön
 
 ## Yhden lauseen yhteenveto
 
-Moroctocog alfa on rekombinantti hyytymistekijä VIII (FVIII) -valmiste; alkuperäisen indikaation mukaista teksti ei ole saatavilla tässä näyttöpakkauksessa, mutta se on tekijän korvauslääkitys, jota käytetään tavanomaisen mukaisesti hemofiliaan A. TxGNN-malli ennustaa sen saattavan olla tehokas **verihiutaleiden primaarisen erityissekretiopoikkeavuuden** (hiutaleiden granulaattojen erityissekretio-vika) hoitoon, mutta tätä tue tällä hetkellä vain **7 kliinistä tutkimusta — kaikki arvioitu matalarelevansseiksi (luokka C)** — ja **0 julkaisua**.
+Moroktokogi alfa on rekombinantti, B-domeenista vapautettu hyytymistekijä VIII -valmiste, jota on alun perin käytetty **hemofilia A:n** hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **primaariin verihiutaleiden vapautumishäiriöön**, mutta ennusteen tueksi ei ole yhtään kliinistä tutkimusta eikä julkaisua, joten näyttö perustuu pelkkään mallin ennusteeseen (**taso L5**).
 
----
+## Pikakatsaus
 
-## Nopea yleiskatsaus
+| Kohde | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | Hemofilia A |
+| Ennustettu uusi käyttöaihe | Primaari verihiutaleiden vapautumishäiriö |
+| TxGNN-ennustepisteet | 99,97 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 |
+| Suositeltu päätös | Hold (odotetaan) |
 
-| Kohta | Sisältö |
-|-------|---------|
-| Alkuperäinen indikaatio | Hemofilia A *(pääteltävissä lääkkeen luokasta; `original_indications` ja Suomen lupaohje ovat tyhjät tässä paketissa)* |
-| Ennustettu uusi indikaatio | Verihiutaleiden primaarinen erityyssekretiopoikkeavuus |
-| TxGNN-ennusteen pistemäärä | 99.97% |
-| Näyttötaso | L4 |
-| Suomen markkinatilanne | ✗ Ei markkinoilla |
-| Lupien lukumäärä | 0 |
-| Suositeltu päätös | Pidä varauksessa |
+## Miksi ennuste voisi olla perusteltu?
 
----
+Tämän raportin tietoja ei sisältänyt yksityiskohtaista vaikutusmekanismia. Tiedetyn perusteella moroktokogi alfa korvaa puuttuvan hyytymistekijä VIII:n hemofilia A:ssa, ja sen teho tässä käyttöaiheessa on osoitettu. Mekanistisesti sen soveltuvuus uuteen käyttöaiheeseen on kuitenkin epäselvää.
 
-## Miksi tämä ennuste on kohtuullinen?
+Verihiutaleiden vapautumishäiriö johtuu verihiutaleiden omasta eritysvauriosta, ei tekijä VIII:n puutteesta. Tekijä VIII:n korvaamiselle ei siksi ole selvää biologista perustetta. Korkea ennustepiste (0,9997) heijastaa todennäköisesti verenvuotosairauksien läheisyyttä tietämysgraafissa, ei todellista biologista yhteyttä.
 
-Tällä hetkellä yksityiskohtaista vaikutusmekanismin tietoa ei ole saatavilla (`original_moa` on tietoaukko). Tunnettujen tietojen perusteella moroctocog alfa on rekombinantti FVIII:n korvavalmiste, ja sen rooli hyytymistekijän aktiivisuuden palauttamisessa hemofiliassa A on vakiintunut.
+### Muut ennustetut käyttöaiheet
 
-Kuitenkin paketin oma mekanistinen analyysi puoltaa **vastoin** biologista uskottavuutta tässä: verihiutaleiden primaarinen erityissekretiopoikkeavuus on hiutaleiden granulaattojen erityissekretio- ja aktivaatiovika, ei FVIII-konsentraation tai aktiivisuuden puutos. Kierrossa olevaa FVIII:a palauttamalla ei ratkaista hiutaleiden degranulatio-vajaavaisuuden puutetta, joten selvää mekanistista yhteyttä alkuperäisen ja ennustetun indikaation välillä ei ole.
+Mallin muut ennusteet ovat samalla tasolla (kaikki L5, ei tutkimus- tai kirjallisuusnäyttöä, suositus Hold):
 
-Tämän mukaisia 7 kliinistä tutkimusta, jotka haettiin tälle indikaatiolle, arvioitiin manuaalisen katselmuksen perusteella kaikki **luokassa C (matala relevanssisyys)** — ne koskevat suurelta osin FVIII-valmisteita hemofiliassa A (BIVV001, BAX 855) tai muuhun hyytymisen ja verisuhteiden tutkimukseen liittymätöntä tutkimusta (AML, post-COVID-rokotusreaktiosyndrooma, maksavika), eikä koskaan tutkita verihiutaleiden erityissekretiopoikkeavuuksia. Tämä kuvio näyttää tietokannaksi hakusanan virheellisyydeltä pikemminkin kuin aidon tukea, mikä selittää, miksi näyttötaso on kaavittu L4:ksi TxGNN-ennusteen korkeasta pistemäärästä huolimatta.
+| Sija | Sairaus | Pisteet | Mekanistinen arvio |
+|------|------|------|------|
+| 2 | Pseudo-von Willebrandin tauti | 99,97 % | Löyhä epäsuora yhteys (VWF kantaa tekijä VIII:aa), mutta perusvika on verihiutaleissa (GPIbα) |
+| 3 | Glanzmannin trombasteenia | 99,96 % | Vika integriini αIIbβ3:ssa; tekijä VIII ei korjaa sitä. Tavanomaisesti hoidetaan verihiutalesiirrolla ja rekombinantilla tekijä VIIa:lla |
+| 4 | Hankinnainen hyytymistekijän puutos | 99,88 % | Biologisesti uskottavin, mutta hankinnaisessa hemofiliassa vasta-aineet neutraloivat tekijä VIII:n, joten korvaushoito on usein tehotonta ja ohitushoidot ovat ensisijaisia |
+| 5 | Scottin oireyhtymä | 99,86 % | Heikko epäsuora yhteys; puuttuvaa kalvopintaa (TMEM16F/ANO6) ei voi korvata tekijä VIII:lla |
+| 6 | Kollageenireseptorivirheestä johtuva verenvuotoalttius | 99,73 % | Vika verihiutaleiden reseptorisignaloinnissa; ennuste heijastaa verkostolähiyttä |
+| 7 | Synnynnäisestä trombosytopeniasta johtuva verenvuotohäiriö | 99,72 % | Syy on verihiutaleiden vähäisyys; tarvitaan verihiutalesiirto tai trombopoieettinen hoito |
+| 8 | "Flood factor deficiency" | 99,11 % | Ei tunnistettu vakiintunut sairausnimike, mahdollinen ontologiavirhe; tunnistus on varmistettava |
 
----
+## Kliininen tutkimusnäyttö
 
-## Kliinisen tutkimuksen näyttö
+Tällä hetkellä ei ole aiheeseen liittyviä rekisteröityjä kliinisiä tutkimuksia.
 
-| Tutkimusnumero | Vaihe | Tila | Osallistujamäärä | Pääasialliset havainnot |
-|---------|------|------|------|---------|
-| [NCT04161495](https://clinicaltrials.gov/study/NCT04161495) | Vaihe 3 | Valmis | 159 | BIVV001 (rFVIIIFc-VWF-XTEN) profylaksia/PK vakavassa hemofiliassa A ≥12v; **luokka C** — ei verihiutaleiden-sairauksiin spesifinen |
-| [NCT04759131](https://clinicaltrials.gov/study/NCT04759131) | Vaihe 3 | Valmis | 74 | BIVV001 turvallisuus/tehokkuus pediatrisessa vakavassa hemofiliassa A <12v; **luokka C** |
-| [NCT01913405](https://clinicaltrials.gov/study/NCT01913405) | Vaihe 3 | Valmis | 30 | BAX 855 (pegylyysi rFVIII) vakavassa hemofiliassa A leikkauksen yhteydessä; **luokka C** |
-| [NCT07343687](https://clinicaltrials.gov/study/NCT07343687) | E/O | Ei vielä rekrytoiva | 80 | Hyytymisprofiilin havainnointi äskettäin diagnosoidussa AML:ssa; **luokka C** — ei interventionaalinen, ei sairauksiin spesifinen |
-| [NCT07400848](https://clinicaltrials.gov/study/NCT07400848) | E/O | Rekrytoiva | 200 | Oireeton/laboratorioarviointi post-COVID-19-rokotusreaktiosyndroomassa; **luokka C** |
-| [NCT07329036](https://clinicaltrials.gov/study/NCT07329036) | E/O | Rekrytoiva | 25 | Keinoisen maksan tukijärjestelmän vaikutus hyytymiseen akuutti-kroonisessa maksavikasssa; **luokka C** |
-| [NCT07439939](https://clinicaltrials.gov/study/NCT07439939) | E/O | Rekrytoiva | 45 | Systeeminen/portaali-hemostaasin arviointiin TIPS-toimenpidepotilaissa; **luokka C** |
+## Kirjallisuusnäyttö
 
-*Kaikki 7 tutkimusta arvioitiin matalan relevanssin (luokka C) — keskellään tutkii moroctocog alfaa verihiutaleiden erityyssekretiopoikkeavuuksissa.*
+Tällä hetkellä ei ole aiheeseen liittyvää kirjallisuutta.
 
----
+## Tiedot Suomen markkinoilta
 
-## Kirjallisuusaineisto
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000232 | ReFacto AF (Pfizer Europe MA EEIG) | – | Hemofilia A |
 
-Tällä hetkellä saatavilla ei ole asiaan liittyvää kirjallisuutta.
+Tämä myyntilupa on peruutettu, joten valmiste ei ole tällä hetkellä myynnissä Suomessa.
 
----
+## Turvallisuusnäkökohdat
 
-## Suomen markkinatilanne
+Turvallisuustietoja ei ole saatavilla tämän raportin aineistossa. Lääkkeiden yhteisvaikutuksia ei löytynyt. Tarkista turvallisuustiedot valmisteyhteenvedosta.
 
-Moroctocog alfa ei ole tällä hetkellä markkinoilla Suomessa (0 lupaa); lupahakemusaineistoa ei ole saatavilla tässä paketissa.
+## Johtopäätös ja seuraavat askeleet
 
----
-
-## Turvallisuusnäkökohtia
-
-Turvallisuustiedot löytyvät pakkausselosteesta.
-
-*(Huomio: tämä on tällä hetkellä estävä tietoaukko — TFDA/Suomen pakkausseloste-varoitukset, vasta-aiheet ja lääkkeiden väliset yhteisvaikutustiedot puuttuvat, mikä estää täydellisen S1-turvallisuusarvioinnin.)*
-
----
-
-## Johtopäätös ja seuraavat vaiheet
-
-**Päätös: Pidä varauksessa**
+**Päätös: Hold**
 
 **Perustelut:**
-- Ennustettu mekanismi (FVIII-korvaus) ei todennäköisesti selitä verihiutaleiden primaarisen erityissekretiopoikkeavuuden taustalla olevaa vikaaa (hiutaleiden degranulatio-häiriö), ja ainoa käytettävissä oleva kliinisen tutkimuksen näyttö on matalan relevanssin (luokka C) ilman tukevaa kirjallisuutta — näyttötaso L4 on vain mallia ja mekanismia koskeva, ei indikaatiokohtainen.
-- Näistä 8 TxGNN-ehdokkaasta tässä paketissa, sijoitus 4 ("hankittu hyytymistekijän puutos", L3, päätösvaihe S1) on huomattavasti vahvemman ja mekanistisesti johdonmukaisemman näyttön omaava ja voi vaatia priorisoidumpaa tarkastelua.
+- Ennuste perustuu pelkästään mallin pisteytykseen: tutkimus- tai kirjallisuusnäyttöä ei ole, mekanistinen yhteys on heikko tai puuttuu, ja ainoa Suomen myyntilupa on peruutettu.
 
-**Jatkamista varten tarvitaan seuraavaa:**
-- TFDA/Suomen pakkausseloste (varoitukset, vasta-aiheet) — tällä hetkellä estävä aukko (DG001)
-- Mekanismin, jolla lääke vaikuttaa, tiedot DrugBankista — tällä hetkellä korkean vakavuuden aukko (DG002)
-- Verihiutaleiden erityyssekretiopoikkeavuuksille spesifinen kliininen tai prekliininen näyttö, joka koskee suoraan moroctocog alfaa (ei FVIII-valmisteita yleensä)
-- Tutkimushaun termien uudelleenkarkotus, jotta saataisiin pois ylöspäin tunnistetut FVIII/hemofilia-A-hakusanan virheellisyydet
-
+**Jatkamiseksi tarvitaan:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden haku Fimean sivustolta (estävä tietoaukko turvallisuusseulonnalle)
+- Vaikutusmekanismin tiedot DrugBankista
+- Hankinnaisen hyytymistekijän puutoksen (sija 4) mekanistinen ja kliininen arviointi, koska se on biologisesti uskottavin kohde
+- Sairausnimikkeen "flood factor deficiency" tunnistaminen ennen arviointia
+- Kirjallisuus- ja tutkimushaku ennustetuille käyttöaiheille
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

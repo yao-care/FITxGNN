@@ -2,7 +2,7 @@
 layout: default
 title: Artenimol
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 41
+nav_order: 44
 evidence_level: L5
 indication_count: 0
 ---

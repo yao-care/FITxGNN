@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Etanercept
-parent: Vahva näyttö (L1-L2)
-nav_order: 156
-evidence_level: L2
+parent: Kohtalainen näyttö (L3-L4)
+nav_order: 178
+evidence_level: L4
 indication_count: 6
 ---
 
 # Etanercept
 {: .fs-9 }
 
-Näytön taso: **L2** | Ennustetut käyttöaiheet: **6** kpl
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **6** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,93 +29,116 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Etanersepti: reumatoidiisesta artriitista reumatoidiiseen vaskuliitin
+# Etanerseptti: Nivelreumasta ennustettuun reumaattiseen vaskuliittiin
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Etanersepti on TNF-α-reseptorin fuusioproteiiini, joka alun perin kehitettiin reumatoidiiseen artriitiin ja siihen liittyviin nivelten tulehdussairauksiin.
-TxGNN-malli ennustaa, että se voi olla tehokas **reumatoidiissa vaskuliitissa**, mutta **6 kliinistä tutkimusta** ja **20 julkaisua**, jotka tällä hetkellä ovat saatavilla, sisältävät suoran negatiivisen tutkimuksen ja useita raportteja etanerseptista indusoitavasta (paradoksaalisesta) vaskuliitista, mikä tekee näytöstä pikemminkin ristiriitaista kuin vahvistavaa.
+Etanerseptti on TNF-alfaa estävä fuusioproteiini, jota käytetään nivelreuman, lastenreuman, nivelpsoriaasin, selkärankareuman ja psoriaasin hoitoon.
+TxGNN-malli ennustaa sen sopivan ensisijaisesti **reumaattisen vaskuliitin** hoitoon (pistemäärä 99,71 %), mutta tukena on vain **1 kliininen tutkimus** (joka ei testaa etanerseptiä vaskuliitissa) ja **20 julkaisua**, joista osa raportoi etanerseptin aiheuttamasta vaskuliitista.
+Ennusteen todistusvoima on heikko, joten suositus on **Hold**.
 
 ---
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Reumatoidinen artriitti (perustuu tunnettuun globaaliin hyväksyntähistoriaan; strukturoituja alkuperäisen indikaation tietoja ei ole saatavilla tässä paketissa) |
-| Ennustettu uusi indikaatio | Reumatoidinen vaskuliitti |
-| TxGNN-ennustepistemäärä | 99.71% |
-| Näyttötaso | L2 |
-| Taiwanin markkinatilanne | ✗ Ei markkinoilla |
-| Hyväksyntöjen määrä | 0 |
-| Suositeltava päätös | Odota |
+| Alkuperäinen käyttöaihe | Nivelreuma, lastenreuma, nivelpsoriaasi, spondyloartropatiat, selkärankareuma, psoriaasi |
+| Ennustettu uusi käyttöaihe | Reumaattinen vaskuliitti |
+| TxGNN-ennustepistemäärä | 99,71 % |
+| Näytön taso | L4 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 4 (kaikki peruutettuja) |
+| Suositeltu päätös | Hold |
 
 ---
 
-## Miksi tämä ennuste on järkevä?
+## Miksi ennuste on perusteltu?
 
-Tällä hetkellä yksityiskohtaiset mekanismin toimintaa koskevat tiedot eivät ole saatavilla strukturoidussa tietueessa. Tunnettujen tietojen perusteella etanersepti on liukoinen p75 TNF-reseptor–Fc-fuusioproteiiini, joka sitoutuu TNF-α:hon ja neutralisoi sen, jolloin pääasialliset pro-inflammatoriset sytokiinit, jotka liittyvät reumatoidiiseen artriitiin ja siihen liittyviin autoimmuunisairauksiin, pystytään estämään. Sen tehokkuus reumatoidiissa artriitissa on osoitettu useissa keskeissä tutkimuksissa, ja mekanistisesti tämä TNF-salpausta voitaisiin laajentaa muihin TNF-ohjattuihin tulehdussairauksiin.
+Yksityiskohtaisia tietoja vaikutusmekanismista ei ole tämän raportin aineistossa. Tiedossa on, että etanerseptti on liukoinen TNF-reseptori–Fc-fuusioproteiini, joka sitoo TNF-alfaa ja estää sen sitoutumisen reseptoriinsa. Sen teho nivelreumassa on osoitettu.
 
-Reumatoidinen vaskuliitti (RV) tunnustetaan kirjallisuudessa yhtenä reumatoidiisen artriitiin liittyvistä vakavimmista ekstraartkulaarisista ilmenemismuodoista (PMID 33058033), mikä antaa RA→RV-yhdistelmälle biologisen uskottavuuden — molemmat sairaudet jakavat taustalla olevan tulehduksellisen, TNF-assosiaatiovaskuliittisen patofysiologian, ja RV ilmenee tyypillisesti pitkäaikaisesta, vakavasta RA:sta kärsivissä potilaissa.
+Reumaattinen vaskuliitti on nivelreuman vaikea nivelen ulkopuolinen komplikaatio. Koska TNF-alfa edistää verisuonitulehdusta, TNF:n esto on biologisesti uskottava hoitolinja. Tästä syystä malli todennäköisesti yhdistää lääkkeen tähän tautiin.
 
-Mekanismi ei kuitenkaan käänny puhtaaksi tutkevaksi näytöksi. Ainoa tutkimus, joka testasi etanerseptia suoraan ANCA-assosiaation vaskuliitti-populaatiossa (NCT00001901, Wegener-granulomatoosi) oli negatiivinen/epävarma tutkimus, johon liittyi turvallisuushuolia (WGET-tutkimus), ei positiivista tehokkuussignaalia. Tämän lisäksi useat tapausraportit ja tapaussarjat kuvaavat etanerseptia **indusoitavaksi** tekijäksi ihon tai munuaisen vaskuliitin osalta paradoksaalisen haittavaikutuksena (esim. PMID 31632872, 15853915, 12209493, 15801034), ja omistettu kohorttitutkimus (PMID 28123776) määrittää TNF-estäjäihin liittyvän vaskuliitin kaltaisten tapahtumien riskin. Tämä on mekanistisesti johdonmukainen mutta näyttöä vastaan oleva signaali — lääkkeen TNF-salpausta voitaisiin teoriassa auttaa RV:tä, mutta kertynyt kliininen kokemus kallistuu pikemminkin riskiin kuin hyötyyn.
+Näyttö on kuitenkin ristiriitaista: kirjallisuudessa kuvataan myös etanerseptin aiheuttamaa ihon vaskuliittia ja nefropatiaa. Lääke voi siis sekä hoitaa että aiheuttaa verisuonivaurioita. Ennustetta ei voi pitää kliinisesti vahvistettuna.
 
 ---
 
-## Kliinisen tutkimuksen näyttö
+## Kliininen tutkimusnäyttö
 
-| Tutkimuksen numero | Vaihe | Tila | Osallistujat | Keskeiset löydökset |
+| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT00001901](https://clinicaltrials.gov/study/NCT00001901) | Vaihe 1/2 | Valmis | 60 | Suora etanerseptitutkimus Wegener-granulomatoosissa (ANCA-assosiaatiovaskuliitti) — ainoa tutkimus, joka testasi lääkkeen todellisissa vaskuliitti-populaatiossa; osa WGET-tutkimusta ja tunnettu negatiivinen/turvallisuushuolia aiheuttava tutkimus, ei tue tehokkuutta |
-| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | N/A | Tuntematon | 750,000 | Suuri todellisen maailman tutkimus riskin kehittää lisäimmunomedisoituja tulehdussairauksia potilaissa, joilla on biologiaa/immunosuppressantteja; epäsuora turvallisuutta koskevia tietoja vain |
-| [NCT01579006](https://clinicaltrials.gov/study/NCT01579006) | N/A | Valmis | 184 | Tosimaailman rekisteri toksilisumabista (ei etanerseptista) RA-potilaissa, joilla on riittämätön vastaus DMARD/biologiaan; yleinen RA-konteksti, ei vaskuliitin-spesifinen |
-| [NCT01557322](https://clinicaltrials.gov/study/NCT01557322) | N/A | Valmis | 1,754 | Tosimaailman hoitopolun vertailu etanerseptin ja ei-biologisen hoidon välillä keskivaikeassa RA:ssa; ei vaskuliitin-spesifinen |
-| [NCT02590562](https://clinicaltrials.gov/study/NCT02590562) | N/A | Valmis | 808 | Poikittaisleikkautuva tutkimus biologisen DMARD-hoitokäytännöistä kiinalaisissa RA-potilaissa; ei vaskuliitin-spesifinen |
-| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Vaihe 2 | Ei vielä rekrytoimassa | 80 | Arvioi perioperatiivisen immunosuppressantin (mukaan lukien etanersepti) hallintoa olkanivelen proteesityöskentelyn yhteydessä reumatologiapotilaissa; ei vaskuliitin-spesifinen |
+| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Vaihe 2 | Rekrytoi | 80 | Immunosuppressanttien perioperatiivinen hallinta reumapotilailla olkaproteesileikkauksessa. Ei testaa etanerseptiä vaskuliitissa, vain välillisesti liittyvä. |
 
 ---
 
-## Kirjallisuuden näyttö
+## Kirjallisuusnäyttö
 
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [33058033](https://pubmed.ncbi.nlm.nih.gov/33058033/) | 2021 | Systemaattinen katsaus | Clinical Rheumatology | Systemaattinen katsaus biologisen hoidon käytöstä reumatoidiissa vaskuliitissa, vakavassa ekstraartkulaarisissa RA:n ilmenemismuodossa |
-| [28391344](https://pubmed.ncbi.nlm.nih.gov/28391344/) | 2017 | Katsaus | Nephrology Dialysis Transplantation | Tarkastelee TNF-α-salpausta koskevan perustelun ja näyttöä ANCA-assosiaatiovaskuliitissa ja glomerulonefriitissa |
-| [28123776](https://pubmed.ncbi.nlm.nih.gov/28123776/) | 2017 | Kohortti (BSRBR-RA) | RMD Open | Määrittää lääkkeille ominaiset riskit lupus- ja vaskuliitin kaltaisista tapahtumista RA-potilaissa, joilla on TNF-estäjät, mukaan lukien etanersepti |
-| [15468348](https://pubmed.ncbi.nlm.nih.gov/15468348/) | 2004 | Katsaus/turvallisuusanalyysi | The Journal of Rheumatology | Analysoi TNF-α-salpausta ja vaskuliittiriskin välistä suhdetta |
-| [15801034](https://pubmed.ncbi.nlm.nih.gov/15801034/) | 2005 | Tapausraportti | The Journal of Rheumatology | Raportti proliferaatiivisen lupus-nefriitista ja leukositoklaastisesta vaskuliitista, joka kehittyy etanerseptin hoidon aikana |
-| [25544845](https://pubmed.ncbi.nlm.nih.gov/25544845/) | 2014 | Tapausraportti | Case Reports in Medicine | Suurten verisuonien vaskuliitti RA-potilaassa, jolla on anti-TNF-hoito |
-| [15853915](https://pubmed.ncbi.nlm.nih.gov/15853915/) | 2005 | Tapaussarja | Scandinavian Journal of Immunology | Immunologiset mekanismit ihon vaskuliitista, joka liittyy sekä etanerseptiin että infliksimabiin |
-| [12209493](https://pubmed.ncbi.nlm.nih.gov/12209493/) | 2002 | Tapausraportti | Arthritis and Rheumatism | Kiihtynyt noduloosia ja vaskuliitti etanerseptin jälkeen RA-hoidon yhteydessä (käänteinen/paradoksaalinen signaali) |
-| [31632872](https://pubmed.ncbi.nlm.nih.gov/31632872/) | 2019 | Tapausraportti | Cureus | Etanerseptiin liittyvä nefropatia |
-| [11792895](https://pubmed.ncbi.nlm.nih.gov/11792895/) | 2002 | Tapausraportti | Rheumatology (Oxford) | Etanersepti ja infliksimabi ihon vaskuliitin kanssa |
+| [33058033](https://pubmed.ncbi.nlm.nih.gov/33058033/) | 2021 | Systemaattinen katsaus | Clinical Rheumatology | Biologisten lääkkeiden käyttö reumaattisen vaskuliitin hoidossa |
+| [28391344](https://pubmed.ncbi.nlm.nih.gov/28391344/) | 2017 | Katsaus | Nephrol Dial Transplant | TNF-salvauksen rooli ANCA-vaskuliitissa ja glomerulonefriitissä |
+| [16624928](https://pubmed.ncbi.nlm.nih.gov/16624928/) | 2006 | Katsaus | J Am Soc Nephrol | TNF-alfan rooli ANCA-vaskuliitissa muiden krooniseen tulehdustautien perusteella |
+| [28123776](https://pubmed.ncbi.nlm.nih.gov/28123776/) | 2017 | Kohorttitutkimus | RMD Open | Lupuksen ja vaskuliitin kaltaisten tapahtumien riski TNF-estäjähoidossa nivelreumapotilailla |
+| [15853915](https://pubmed.ncbi.nlm.nih.gov/15853915/) | 2005 | Katsaus (mekanistinen) | Scand J Immunol | Etanerseptiin ja infliksimabiin liittyvän ihon vaskuliitin immunologia |
+| [31632872](https://pubmed.ncbi.nlm.nih.gov/31632872/) | 2019 | Tapausselostus (turvallisuus) | Cureus | Etanerseptiin liittyvä nefropatia |
+| [10955351](https://pubmed.ncbi.nlm.nih.gov/10955351/) | 2000 | Tapausselostus | J Rheumatol | Etanerseptin aiheuttama leukosytoklastinen vaskuliitti |
+| [12209493](https://pubmed.ncbi.nlm.nih.gov/12209493/) | 2002 | Tapausselostus | Arthritis Rheum | Kiihtynyt nodulaatio ja vaskuliitti etanerseptihoidon jälkeen |
+| [25544845](https://pubmed.ncbi.nlm.nih.gov/25544845/) | 2014 | Tapausselostus | Case Rep Med | Suurten suonten vaskuliitti anti-TNF-hoitoa saaneella nivelreumapotilaalla |
+| [19648728](https://pubmed.ncbi.nlm.nih.gov/19648728/) | 2009 | Tapausselostus | Dermatology | Levinnyt vyöruusu, joka muistutti vaskuliittia etanerseptihoitoa saaneella potilaalla |
 
 ---
 
-## Taiwanin markkinatiedot
+## Suomen markkinatiedot
 
-Etanerseptia ei ole tällä hetkellä markkinoilla Taiwanissa — yhtään tuotteen hyväksyntää ei ole tiedostossa (0 lisenssejä), joten lisenssin taulukkoa ei ole saatavilla.
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004711 | Nepexto | – | Nivelreuma, lastenreuma, nivelpsoriaasi, spondyloartropatiat, selkärankareuma, psoriaasi |
+| EMEA/H/C/000262 | Enbrel | – | Selkärankareuma, lastenreuma, nivelpsoriaasi, psoriaasi, nivelreuma |
+| EMEA/H/C/004007 | Benepali | – | Nivelpsoriaasi, nivelreuma, psoriaasi |
+| EMEA/H/C/004192 | Erelzi | – | Nivelpsoriaasi, psoriaasi, lastenreuma, nivelreuma, selkärankareuma |
+
+Kaikkien neljän myyntiluvan tila on peruutettu. Tämä voi johtua tietolähteen rakenteesta, ja tilanne tulisi tarkistaa Fimeasta.
 
 ---
 
 ## Turvallisuusnäkökohdat
 
-Katso tarkempia turvallisuustietoja pakkausselosteesta. (TFDA-varoitukset ja vasta-aiheet-tiedot ovat tällä hetkellä ratkaisematon tietojen puuttuessa — katso johtopäätös alla).
+**Lääkeyhteisvaikutukset** (tietokannasta löytyi yhteensä 100 yhteisvaikutusta; keskeisimmät):
+- **Merkittävät (Major):** kortikosteroidit, mm. hydrokortisoni, triamsinoloni, deksametasoni, betametasoni, budesonidi, prednisoni ja prednisoloni; lisäksi deferipronI, jodibenguaani (I-131), ibritumomabitiuksetaani ja tositumomabi.
+- **Kohtalaiset (Moderate):** metronidatsoli, tinidatsoli, rosuvastatiini ja simvastatiini.
+- **Lievät (Minor):** sinkkisulfaatti, sinkkiasetaatti ja sinkkiglukonaatti.
+
+Kirjallisuudessa esiin nousseet turvallisuushuolet: etanerseptiin liittyvä ihon vaskuliitti ja nefropatia sekä infektioriski (mm. vyöruusu).
+
+Varoituksia ja vasta-aiheita koskevat tiedot: katso valmisteyhteenveto.
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Johtopäätös ja jatkotoimet
 
-**Päätös: Odota**
+**Päätös: Hold**
 
 **Perustelut:**
-Ainoa suora kliininen tutkimus vaskuliitti-populaatiossa (NCT00001901, Wegener-granulomatoosi) oli negatiivinen/epävarma turvallisuushuolineen, ja useat tapausraportit kuvaavat etanerseptia mahdollisena **aiheuttajana** ihon tai munuaisen vaskuliitin osalta pikemminkin kuin hoitona — tämä on ristiriitaista, ei tukevaa, näyttöä reumatoidiisen vaskuliitin indikaatiolle.
+- Korkea TxGNN-pistemäärä on laskennallinen ennuste. Vaskuliitissa ei ole etanerseptiä testaavia tutkimuksia, ja kirjallisuus raportoi lääkkeen myös aiheuttavan vaskuliittia.
 
-**Etenemisvaihtoehdot, tarvitaan seuraavat:**
-- TFDA-pakkausseloste varoitukset/vasta-aiheet (tällä hetkellä estävä tietojen puuttuessa; vaaditaan ennen mitään S1-turvallisuuden seulontaa)
-- Vahvistettu mekanismin toiminta-asiakirja DrugBankista
-- Omistettu, riittävästi mitoitettu tutkimus tai kontrolloitu havainnollinen tutkimus reumatoidiissa vaskuliitti-potilaissa, joka suoraan punnitsee paradoksaalisen vaskuliitin-riskisignaalin mahdollista terapeuttista hyötyä vastaan
+**Eteenpäin siirtymiseksi tarvitaan:**
+- Kliinisiä tai havainnoivia tutkimuksia etanerseptistä nimenomaan reumaattisessa vaskuliitissa
+- Vaikutusmekanismitietojen täydentäminen
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden kerääminen Fimeasta
+- Myyntilupien tilan tarkistus (peruutettu vs. voimassa)
+- Vaskuliittiriskin ja hoitohyödyn punninta
 
+---
+
+## Muut ennustetut käyttöaiheet (lyhyesti)
+
+| Ennustettu käyttöaihe | Pistemäärä | Näytön taso | Suositus | Huomio |
+|------|------|------|------|------|
+| Tulehduksellinen spondylopatia | 99,57 % | L1 | Proceed with Guardrails | Käytännössä jo hyväksytty käyttö (selkärankareuma, aksiaalinen spondyloartriitti); useita vaiheen 3 tutkimuksia. Seurattavaa: infektiot, immunogeenisuus, uveiitti |
+| Polyartikulaarinen lastenreuma | 99,50 % | L1 | Proceed with Guardrails | Hyväksytty käyttöaihe; vaiheen 3 tutkimuksista toinen päättyi ennenaikaisesti (n=25). Seurattavaa: infektioseulonta, rokotukset, demyelinaatio, maligniteetit |
+| Nikamasairaus | 99,16 % | L4 | Tutkimuskysymys | Käsite liian laaja; signaali heijastaa todennäköisesti spondyloartropatiapäällekkäisyyttä |
+| Häntäluun liikkuvuuden lisääntyminen | 99,63 % | L5 | Hold | Ei tutkimuksia eikä kirjallisuutta; ei uskottavaa TNF-mekanismia |
+| Kümmellin tauti | 99,55 % | L5 | Hold | Ei tutkimuksia eikä kirjallisuutta; mekaaninen/iskeeminen sairaus |
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

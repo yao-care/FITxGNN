@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Icosapent Ethyl
-parent: Kohtalainen näyttö (L3-L4)
-nav_order: 187
-evidence_level: L4
+parent: Pelkkä mallin ennuste (L5)
+nav_order: 219
+evidence_level: L5
 indication_count: 1
 ---
 
 # Icosapent Ethyl
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **1** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,60 +29,63 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Ikosapentaenyyli: kohti mahdollista uutta indikaatiota hemoglobinopatiassa
+# Ikosapenttietyyli: Dyslipidemiasta hemoglobinopatiaan
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Ikosapentaenyylin alkuperäinen hyväksytty indikaatio ei ole dokumentoitu nykyisessä näytöpaketissa, ja yksityiskohtaiset toimintamekanismitiedot ovat vahvistettu tietoaukko. TxGNN-malli ennustaa mahdollisen relevanssin **hemoglobinopatialle**, mutta tämä suunta on tällä hetkellä tuettu vain **yhdellä esikliinisellä julkaisulla** (tutkii asiaan liittyvää mutta erillistä yhdistettä, ei itse ikosapentaenyyliä) eikä kliinisillä tutkimuksilla.
+Ikosapenttietyyli (icosapent ethyl) on puhdistettu EPA-eetteri, jota on alun perin käytetty dyslipidemioiden hoitoon. TxGNN-malli ennustaa sen voivan tehota **hemoglobinopatiaan**, mutta ennusteen tueksi ei tässä raportissa käytetyssä aineistossa ole **yhtään kliinistä tutkimusta eikä julkaisua**. Ennuste perustuu pelkästään mallin pistemäärään.
 
-## Pikayleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Ei dokumentoitu näytöpaketissa (tietoaukko) |
-| Ennustettu uusi indikaatio | Hemoglobinopatia |
-| TxGNN ennustuspisteet | 99.09% |
-| Näytön taso | L4 |
-| Suomen markkinoiden asema | ✗ Ei markkinoitu |
-| Lupien lukumäärä | 0 |
-| Suositeltu päätös | Pidätä |
+| Alkuperäinen käyttöaihe | Dyslipidemiat |
+| Ennustettu uusi käyttöaihe | Hemoglobinopatia |
+| TxGNN-ennustepistemäärä | 99,09 % |
+| Näytön taso | L5 (vain mallin ennuste) |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennuste on perusteltu?
+## Miksi ennuste voisi olla perusteltu?
 
-Tällä hetkellä ikosapentaenyylin yksityiskohtaiset toimintamekanismitiedot eivät ole saatavilla näytöpaketissa (tietoaukko, korkea vakavuus). Annettujen rajoitettujen tietojen perusteella ikosapentaenyyli on eikosapentaeenihapon (EPA) etyyliesteri, ω-3-rasvahapo, ja sen kuvataan voivan omata mahdollisesti anti-inflammatorisia sekä punaisten verisolujen kalvoa stabiloivia ja mikrovaskulaarisen endoteelin sääteleviä ominaisuuksia.
+Lääkkeen alkuperäistä vaikutusmekanismia koskevia tietoja ei ole tämän raportin aineistossa saatavilla. Tunnetun tiedon perusteella ikosapenttietyyli on puhdistettu EPA-eetteri (omega-3-rasvahappo), jonka triglyseridejä alentava vaikutus on osoitettu dyslipidemiassa.
 
-Esitetty perustelut hemoglobinopatialle (esim. sirppisoluanemia) on, että nämä ominaisuudet voisivat teoriassa vähentää hypoksia/reperfusio-ohjattua verisuonten tukkeutumaa ja oksidatiivista stressiä, mekanismeja, joiden tiedetään osallistuvan sirppisoluanemiaan liittyviin elimellisiin vahinkoihin.
+Teoreettisesti EPA:n tulehdusta lieventävät, antioksidatiiviset ja solukalvoja vakauttavat vaikutukset voisivat liittyä hemoglobinopatioihin, kuten sirppisolutautiin ja talassemiaan, joihin liittyy krooninen tulehdus, oksidatiivinen stressi ja endoteelin toimintahäiriö. Tämä perustuu yleiseen tietoon omega-3-rasvahappojen farmakologiasta, ei aineiston näyttöön. Yhteys on **pelkkä hypoteesi**, eikä sitä ole varmennettu. Alkuperäisen ja uuden käyttöaiheen samankaltaisuutta ei myöskään ole vielä arvioitu.
 
-Tärkeää on, että tämä perustelu **ei johdu suoraan näytöstä ikosapentaenyylistä**. Ainoa tukeva julkaisu tutki epeleutoonia, rakenteellisesti samankaltaista mutta erillistä synteettistä ω-3-rasvahapon, hiiren sirppisoluanemia-mallissa. Tämä on epäsuora, samaan luokkaan kuuluva johtopäätös pikemmin kuin ikosapentaenyylin suora farmakologinen validointi hemoglobinopatiassa, mikä olennaisesti rajoittaa luottamusta mekanistiseen yhteyteen.
+## Kliininen tutkimusnäyttö
 
-## Kliinisen tutkimuksen näyttö
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
-Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
+## Kirjallisuusnäyttö
 
-## Kirjallisuuden näyttö
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
-| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät löydökset |
-|------|------|--------|-------|-------------------|
-| [38105727](https://pubmed.ncbi.nlm.nih.gov/38105727/) | 2024 | Esikliininen (eläinmalli) | Haematologica | Epeleuton, rakenteellisesti samankaltainen mutta erilainen synteettinen ω-3-rasvahapo, vähensi hypoksia/reperfusio-indusoimaa tulehduksellista verisuonten sairautta hiiren sirppisoluanemia-mallissa, tukien mahdollista luokkatasoisesti anti-inflammatorista mekanismia, joka on relevantti hemoglobinopatiaille. |
+## Markkinatiedot Suomessa
 
-## Turvallisuushuomiot
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/005398 | Vazkepa | – | Dyslipidemiat |
 
-TFDA-vastaavaa pakkausselosteita (varoitukset/vasta-aiheet) ikosapentaenyylistä ei voitu paikantaa, mikä merkitään **estäväksi** tietoaukoksi kaikkien turvallisuuden esiarviointien kannalta. Lääkkeen ja lääkkeen välisiä vuorovaikutustietoja ei löytynyt (kysely palautti mitään). Viitatkaa viralliseen pakkausselosteeseen turvallisuustiedoille, kun se on saatavilla.
+Tämä myyntilupa on peruutettu, eikä voimassa olevia myyntilupia ole. Se voi rajoittaa lääkkeen käytännön saatavuutta.
 
-## Johtopäätös ja seuraavat vaiheet
+## Turvallisuusnäkökohdat
 
-**Päätös: Pidätä**
+Turvallisuustiedot on tarkistettava valmisteyhteenvedosta. Lääkeinteraktioita ei löytynyt kyselyssä.
+
+## Johtopäätös ja jatkotoimet
+
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Näyttö on rajoitettu yksittäiseen esikliiniseen tutkimukseen rakenteellisesti samankaltaisesta mutta epäidenttisestä yhdisteestä, ilman kliinisiä tutkimuksia eikä suoria farmakologisia tietoja ikosapentaenyylistä hemoglobinopatiassa. Lisäksi estävä tietoaukko turvallisuus-/pakkausselostetiedoissa estää jopa alkuvaiheen turvallisuusarviointia, ja lääke ei ole tällä hetkellä markkinoitu tällä lainkäyttöalueella.
+- Ennuste perustuu vain korkeaan TxGNN-pistemäärään (99,09 %), eikä kliinisiä tutkimuksia tai kirjallisuutta ole. Lisäksi ainoa myyntilupa on peruutettu.
 
-**Jotta voidaan edetä, seuraava on tarpeen:**
-- Virallinen pakkausseloste / TFDA varoitukset ja vasta-aiheet ikosapentaenyylistä (DG001, Estävä)
-- Vahvistetut toimintamekanismitiedot, jotka ovat spesifisiä ikosapentaenyylistä, ei pääteltävissä epeleutonoista (DG002, Korkea)
-- Alkuperäinen/-et hyväksytty/-yt indikaatio/-iot ikosapentaenyylistä asianmukaisen uudelleenkäyttötarkoitusperustelun kehystämiseksi
-- Suora esikliininen tai kliininen näyttö, joka testaa ikosapentaenyyliä (ei analoogeja) hemoglobinopatia-malleissa
-- Paikallisen sääntelypolun arviointi, koska nykyinen asema on "Ei markkinoitu"
-
+**Eteenpäin siirtyminen edellyttää:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivustolta (estävä tietoaukko)
+- Vaikutusmekanismin tietojen täydentämistä (esim. DrugBankista)
+- Kirjallisuushakua ja kliinisten tutkimusten kartoitusta omega-3-/EPA-valmisteista sirppisolutaudissa ja talassemiassa
+- Antoreittien yhteensopivuuden ja alkuperäisen ja uuden käyttöaiheen samankaltaisuuden arviointia
+- Valmisteen saatavuuden selvittämistä Suomessa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

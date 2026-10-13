@@ -2,7 +2,7 @@
 layout: default
 title: Pirfenidone
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 299
+nav_order: 347
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,62 +29,108 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Pirfenidone: Idiopaattisesta keuhkojen fibrosista ekstrakutaaniseen mastoytoomaan
+# Pirfenidoni: Idiopaattisesta keuhkofibroosista fibroblastiseen neoplasiaan
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Pirfenidone on suun kautta otettava antifibrostinen aine, jonka vakiintunut käyttöaihe on idiopaattinen keuhkojen fibroos (IPF). Se vaikuttaa TGF-β1:n, verihiutaleista peräisin olevan kasvutekijän ja epidermaalisen/fibroblastin kasvutekijän signaloinnin estämisen kautta. TxGNN-malli ennustaa, että se voi olla tehokas **ekstrakutaanisen mastoytooman** hoitoon **99.71%**:n ennusteosuudella, mutta tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua** eivät suoraan tue tätä yhdistelmää — signaali on tässä vaiheessa pelkästään malli-pohjainen.
+Pirfenidoni on fibroosia estävä lääke, jota on käytetty idiopaattisen keuhkofibroosin hoitoon.
+TxGNN-malli ennustaa, että se voisi tehota ensisijaisena ennusteena nousseeseen kohteeseen **ekstrakutaaninen mastosytooma** (pistemäärä 99,71 %), mutta tälle ei löydy kliinistä näyttöä.
+Parhaiten tuettu ennustettu kohde on **fibroblastinen neoplasia** (sija 9), jonka tukena on **6 julkaisua** (lähinnä soluviljelytutkimuksia ja tapausselosteita) eikä yhtään rekisteröityä kliinistä tutkimusta.
 
-## Pika-yleiskatsaus
+> Huomautus: raportti noudattaa ennusteiden järjestystä ensisijaisen ennusteen mukaan. Koska sijalla 1 ei ole lainkaan näyttöä, kohdan 9 ennuste on käsitelty erikseen näyttöosioissa.
+
+---
+
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|-------|---------|
-| Alkuperäinen käyttöaihe | Idiopaattinen keuhkojen fibroos (IPF) — ei vahvistettu Suomen markkinointilupien perusteella (lääkkeen markkinointi on keskeytetty); päätelmä tämän näyttöpaketin kirjallisuudesta |
-| Ennustettu uusi käyttöaihe | Ekstrakutaaninen mastoytooma |
-| TxGNN-ennusteosuus | 99.71% |
-| Näyttötaso | L5 |
-| Suomen markkinatilanne | Markkinoilla ei saatavana (Markkinoilla ei saatavana) |
-| Lupien lukumäärä | 0 |
-| Suositeltu päätös | Odottaa |
+|------|------|
+| Alkuperäinen käyttöaihe | Idiopaattinen keuhkofibroosi |
+| Ennustettu uusi käyttöaihe | Ekstrakutaaninen mastosytooma (ensisijainen ennuste); parhaiten tuettu: fibroblastinen neoplasia |
+| TxGNN-ennusteen pistemäärä | 99,71 % (ekstrakutaaninen mastosytooma); 99,23 % (fibroblastinen neoplasia) |
+| Näytön taso | L5 (ensisijainen ennuste); L4 (fibroblastinen neoplasia) |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 3 (kaikki peruutettu) |
+| Suositeltu päätös | Hold (odotetaan) |
 
-## Miksi tämä ennuste on perusteltu?
+---
 
-Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla (estävä puute DG002). Tunnetun tiedon mukaan pirfenidone on antifibrostinen pieni molekyyli, jonka raportoitiin estävän TGF-β1:n, verihiutaleista peräisin olevan kasvutekijän ja epidermaalisen/fibroblastin kasvutekijän signaaliketjua, mikä vähentää fibroblastien lisääntymistä ja kollageenin kertymistä — mekanismi, joka on taustalla sen tehossa idiopaattisen keuhkojen fibroosin hoitoon.
+## Miksi ennuste voisi olla perusteltu?
 
-Ekstrakutaaninen mastoytooma on mastosolun neoplastinen prosessi, joka on biologisesti erillään pirfenidonen kohteista olevasta fibroosin patologiasta. Ei ole vakiintunutta mekanistista yhteyttä anti-TGF-β/anti-fibrostisen aktiivisuuden ja mastosolun lisääntymisen hallinnan välillä. TxGNN-pistemäärä heijastaa todennäköisesti epäsuoraa tietoverkko-assosiaatiota (esim. yhteisiä tulehduksellisia tai fibroosin läheisiä polkuja) suoran kausaalisen mekanismin sijaan, eikä kliinistä, prekliinistä tai tapaus-tason näyttöä ole tällä hetkellä olemassa tukeakseen tai kumotakseen tätä yhdistelmää.
+Yksityiskohtaista vaikutusmekanismia koskevia tietoja ei ole tällä hetkellä saatavilla. Tunnetun tiedon perusteella pirfenidoni on fibroosia estävä ja tulehdusta vaimentava lääke, jonka teho idiopaattisessa keuhkofibroosissa on osoitettu. Mekanismin on raportoitu vaimentavan muun muassa TGF-β:n ja TNF-α:n toimintaa.
 
-Huomattavasti tässä näyttöpaketissa olevat muut alemmat ennusteet rakenteellisesti siihen liittyville "fibroblastisen neoplasian" käyttöaiheille sisältävät tärkeän varoituksen: kirjallisuuden näyttö sisältää tapausraportteja kasvaimen etenemisestä (differentoimaton pleomorfinen sarkooma, puhkeavan dermatiofibromian pahentuminen) pirfenidoni-altistumisen jälkeen. Tämä herättää mahdollisuuden, että pirfenidonen vaikutus neoplastiseen (vastoin hyvänlaatuista) kuituisen/sidekudoksen lisääntymiseen voisi olla suunnaltaan epävarma — huomio, joka tulisi ottaa huomioon minkä tahansa kasvaimen uudelleenkäytöehdokkaan arvioinnissa, mukaan lukien mastosolun neoplasiat.
+Ensisijaisen ennusteen (ekstrakutaaninen mastosytooma) kohdalla mekanistista yhteyttä ei ole osoitettu. Mastosolukasvaimia ajaa tyypillisesti KIT-mutaatio, eikä pirfenidonin vaikutuksella ole tunnettua yhteyttä tähän. Sama koskee muita kärkiennusteita: dermatofibrosarcoma protuberans (COL1A1-PDGFB-fuusio), aggressiivinen systeeminen mastosytoosi (KIT D816V) ja matala-asteinen fibromyxoidi sarkooma (FUS-CREB3L2-fuusio). Perhetyypin Välimeren kuume on teoriassa yhdistettävissä pirfenidonin tulehdusta vaimentavaan vaikutukseen, mutta kolkisiini ja IL-1-estäjät ovat vakiintuneita hoitoja.
 
-## Kliinisen tutkimuksen näyttö
+Fibroblastisen neoplasian kohdalla yhteys on uskottavampi mutta epäsuora. Soluviljelytutkimusten mukaan pirfenidoni estää TGF-β1:n ohjaamaa fibroblastien lisääntymistä ja kollageenin tuotantoa Dupuytrenin taudista peräisin olevissa fibroblasteissa. Tämä on kuitenkin hyvänlaatuinen sidekudoksen liikakasvutauti, joten päätelmää pahanlaatuisiin fibroblastisiin kasvaimiin ei voi tehdä.
 
-Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia
+---
 
-## Kirjallisuusaineiston näyttö
+## Kliiniset tutkimukset
 
-Tällä hetkellä kirjallisuusaineistoa ei ole saatavilla
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia (kaikille 10 ennustetulle käyttöaiheelle).
 
-## Suomen markkinatiedot
+---
 
-Pirfenidone ei ole tällä hetkellä markkinoilla Suomessa (0 lupaa rekistereissä). Tämän lääkkeen tuotelupien, antomuotojen tai hyväksyttyjen käyttöaihejen tekstejä ei ole saatavilla Fimean tietokannassa.
+## Kirjallisuusnäyttö
 
-## Turvallisuushuomiot
+Kirjallisuutta löytyi vain fibroblastiselle neoplasialle (ennuste sijalla 9). Muille ennusteille ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
-- **Tietoaukot**: Pakkausselosteen varoitukset, vasta-aiheet ja lääkkeen yhteisvaikutustiedot eivät ole tällä hetkellä saatavilla pirfenidoonille (estävä puute DG001) — muodollinen turvallisuusarvio ei voi edetä ennen kuin tämä on ratkaistu.
-- **Ilmenevä kirjallisuussignaali (konteksti, ei käyttöaihe-spesifi)**: Tapausraportteja muualla näyttöpaketissa (PMID [29702057](https://pubmed.ncbi.nlm.nih.gov/29702057/): differentoimaton pleomorfinen sarkooma pirfenidoni-käytön jälkeen; PMID [32572469](https://pubmed.ncbi.nlm.nih.gov/32572469/): puhkeavan dermatiofibromian pahentuminen) viittaavat mahdolliseen kasvainta edistävään riskiin kuituisen/sidekudoksen neoplastisissa konteksteissa. Tämä ei ole todistettu kausaalisuus, mutta se on asiaankuuluva merkintä arvioitaessa pirfenidonia minkä tahansa neoplastisen käyttöaiheen osalta, mukaan lukien mastoytooma.
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [12907346](https://pubmed.ncbi.nlm.nih.gov/12907346/) | 2003 | Pilottitutkimus (kliininen) | Am J Gastroenterol | Pirfenidonia selvitettiin desmoidikasvainten hoidossa familiaalisessa adenomatoottisessa polypoosissa; näyttö vanhaa ja vähäistä |
+| [27835939](https://pubmed.ncbi.nlm.nih.gov/27835939/) | 2016 | In vitro | BMC Musculoskelet Disord | Pirfenidoni esti TGF-β1:n välittämiä vaikutuksia Dupuytrenin taudin fibroblasteissa |
+| [30927912](https://pubmed.ncbi.nlm.nih.gov/30927912/) | 2019 | In vitro | BMC Musculoskelet Disord | Pirfenidonin vaikutukset TGF-β1:n stimuloimiin ei-SMAD-signalointireitteihin Dupuytrenin taudin fibroblasteissa |
+| [35129055](https://pubmed.ncbi.nlm.nih.gov/35129055/) | 2022 | In vitro / prekliininen | Pharm Dev Technol | Pirfenidoni mahdollisena paikallisena injektiona Dupuytrenin tautiin |
+| [29702057](https://pubmed.ncbi.nlm.nih.gov/29702057/) | 2018 | Tapausselostus (turvallisuussignaali) | Perm J | Erilaistumaton pleomorfinen sarkooma pirfenidonin käytön jälkeen |
+| [32572469](https://pubmed.ncbi.nlm.nih.gov/32572469/) | 2020 | Tapausselostus (turvallisuussignaali) | Rheumatology (Oxford) | Useat purkautuvat dermatofibroomat pahenivat mykofenolaatin ja pirfenidonin käytön yhteydessä systeemisessä skleroosissa |
 
-## Johtopäätös ja seuraavat vaiheet
+---
 
-**Päätös: Odottaa**
+## Markkinatiedot Suomessa
+
+Kaikki kolme myyntilupaa on peruutettu, eikä voimassa olevia lupia ole.
+
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/005862 | Pirfenidone Viatris | – | Idiopaattinen keuhkofibroosi; keuhkosairaudet; hengitystiesairaudet (peruutettu) |
+| EMEA/H/C/002154 | Esbriet | – | Idiopaattinen keuhkofibroosi; keuhkosairaudet; hengitystiesairaudet (peruutettu) |
+| EMEA/H/C/005873 | Pirfenidone axunio (aiemmin Pirfenidone AET) | – | Idiopaattinen keuhkofibroosi (peruutettu) |
+
+---
+
+## Turvallisuusnäkökohdat
+
+**Lääkkeiden yhteisvaikutukset:** Tietokannasta löytyi yhteensä 100 yhteisvaikutusta. Kaikki esitetyt ovat vaikeusasteeltaan keskivaikeita (Moderate). Keskeisiä esimerkkejä:
+- Protonipumpun estäjät: omepratsoli, lansopratsoli, esomepratsoli
+- Simetidiini
+- Bupropioni
+- Naltreksoni
+- Disulfiraami
+- Tiklopidiini
+- Mikonatsoli
+- Deferasiroksi
+- Ivakaftori
+- Eliglustaatti, obetikolihappo, oksandrolooni, nitisinoni, glyserolifenyylibutyraatti, rolapitantti, lumefantriini, primakiini, tiabendatsoli
+
+**Kirjallisuudesta nousseet turvallisuussignaalit:** Tapausselosteissa on kuvattu erilaistumaton pleomorfinen sarkooma pirfenidonin käytön jälkeen sekä dermatofibroomien paheneminen pirfenidonin ja mykofenolaatin yhteiskäytössä. Syy-yhteyttä ei ole osoitettu, mutta signaalit ovat merkityksellisiä, kun harkitaan käyttöä fibroblastisissa kasvaimissa.
+
+Muuten turvallisuustiedoista, varoituksista ja vasta-aiheista, tulee tutustua valmisteyhteenvetoon.
+
+---
+
+## Johtopäätös ja jatkotoimet
+
+**Päätös: Hold (odotetaan)**
 
 **Perustelut:**
-Ekstrakutaanisen mastoytooman ennustusta tukee vain TxGNN-mallin pistemäärä, ilman kliinisiä tutkimuksia, ilman kirjallisuutta, eikä mekanistista perustelua, joka yhdistäisi pirfenidonen antifibrostisen toiminnan mastosolun kasvaimen biologiaan (L5, S0). Yhdistettynä ratkaisemattomaan estävään turvallisuuden tietovajeeseen ja kirjallisuuden signaaliin muualla tämän lääkkeen profiilissa, joka viittaa mahdolliseen kasvainta edistävään riskiin neoplastisessa kuituisessa kudoksessa, on tällä hetkellä riittämätön perusta edetä tämän ehdokkaan kanssa.
+- Ensisijaisella ennusteella ja yhdeksällä kymmenestä ennusteesta ei ole yhtään kliinistä tutkimusta tai kirjallisuutta, ja mekanistinen yhteys on heikko tai puuttuu. Ainoa hieman tuettu ennuste (fibroblastinen neoplasia) perustuu soluviljelytutkimuksiin hyvänlaatuisesta taudista, ja samalla on esiintynyt ristiriitaisia turvallisuussignaaleja kasvainten osalta. Lisäksi lääkkeellä ei ole voimassa olevaa myyntilupaa Suomessa.
 
-**Edetäkseen seuraavaa tarvitaan:**
-- Pakkausselosteen tiedot (varoitukset, vasta-aiheet, lääkkeen yhteisvaikutukset) estävän turvallisuusvaon poistamiseksi (DG001)
-- Vahvistettu vaikutusmekanismin tieto (DG002) biologisen uskottavuuden arvioimiseksi mastosolun polkuja vastaan
-- Prekliininen tai in vitro-näyttö, joka arvioi erityisesti pirfenidonia mastosolun proliferatiivisessa sairaudessa
-- Kohdennettu tutkinta kasvaimen etenemisen signaalin osalta muissa fibroblastisen neoplasian tapausraporteissa, jotta voidaan sulkea pois luokkatasolla kasvainta edistävä riski ennen minkään syöpään liittyvän uudelleenkäytön käyttöaiheen tavoittelua tähän lääkkeeseen
-
+**Jatkaminen edellyttää seuraavaa:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittäminen (kriittinen puute, estää turvallisuusseulonnan)
+- Yksityiskohtaisen vaikutusmekanismin tietojen täydentäminen
+- Prekliiniset tutkimukset pahanlaatuisissa fibroblastisissa solumalleissa ennen kliinisiä suunnitelmia
+- Turvallisuussignaalien (sarkooma, dermatofibroomat) arviointi
+- Myyntiluvan peruuntumisen syiden ja tämän vaikutuksen selvittäminen
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

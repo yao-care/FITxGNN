@@ -2,15 +2,15 @@
 layout: default
 title: Duvelisib
 parent: Kohtalainen näyttö (L3-L4)
-nav_order: 132
-evidence_level: L4
+nav_order: 151
+evidence_level: L3
 indication_count: 10
 ---
 
 # Duvelisib
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,97 +29,141 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Duvelisib: Kroonisesta lymfosyyttisesta leukemiasta/pienestä lymfosyyttisesta lymfoomasta Hodgkinin lymfoomaan
+# Duvelisibi: kroonisesta lymfaattisesta leukemiasta Hodgkinin lymfoomaan
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Duvelisib on PI3Kδ/γ-kaksoishidastin, jonka ainoa vahvistettu käyttö (kirjallisuuden perusteella tässä todistelupakkauksessa) on uusiutunut/refraktaari krooninen lymfosyyttinen leukemia/pieni lymfosyyttinen lymfooma (CLL/SLL) ja follikulaarinen lymfooma; sitä **ei markkinoida Suomessa**.
-TxGNN-mallin korkeimmaksi sijoitettu ennustus on **Hodgkinin lymfooma**, jolle on löydetty **11 kliinistä tutkimusta** ja **16 julkaisua** — mutta tarkasteltaessa jokainen niistä tutkii itse asiassa **Non-Hodgkinin lymfooman** alamuotoja, ei todellista Hodgkinin lymfoomaa. Tämä on merkitty todistelupakkauksessa itsessään mahdolliseksi tautiontologian epäsuhtaksi, ei todelliseksi mekanistiseksi signaaliksi.
+Duvelisibi on suun kautta otettava PI3K-delta/gamma-estäjä, jota on käytetty kroonisen B-solulymfaattisen leukemian ja follikulaarisen lymfooman hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **Hodgkinin lymfoomaan**, mutta tämän käyttöaiheen tueksi ei ole löytynyt yhtään Hodgkin-spesifistä tutkimusta tai julkaisua. Aineistossa on **10 kliinistä tutkimusta** ja **17 julkaisua**, jotka koskevat muita lymfoomia (lähinnä indolentti non-Hodgkin-lymfooma, T-solulymfooma ja KLL).
 
-## Nopea yleiskatsaus
+---
+
+## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Uusiutunut/refraktaari CLL/SLL ja follikulaarinen lymfooma (kirjallisuuden perusteella; ei Fimean hyväksytty indikaatio — lääke ei ole markkinoilla Suomessa) |
-| Ennustettu uusi indikaatio | Hodgkinin lymfooma |
-| TxGNN-ennustuspisteet | 99.94% |
-| Todistelun taso | L4 |
-| Suomen markkinatilanne | Ei markkinoilla (Ei markkinoilla) |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Pidä |
+| Alkuperäinen käyttöaihe | Krooninen B-solulymfaattinen leukemia; follikulaarinen lymfooma |
+| Ennustettu uusi käyttöaihe | Hodgkinin lymfooma |
+| TxGNN-ennusteen pistemäärä | 99,94 % |
+| Näytön taso | L3 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennustus on järkevä?
+Huomio: aineiston oma luokitus asettaa Hodgkinin lymfooman tutkimuskysymykseksi (Research Question). Koska Hodgkin-spesifistä näyttöä ei ole ja myyntilupa on peruutettu, suositus on Hold.
 
-Tällä hetkellä mekanismin toiminnan yksityiskohtaisia tietoja ei ole saatavilla (drug.original_moa = Data Gap). Tässä todistelupakkauksessa haetun kirjallisuuden perusteella duvelisib kuvataan suun kautta otettavaksi fosfooinositidi-3-kiinaasi (PI3K)-δ:n ja PI3K-γ:n kaksoishidastimeksi, joka estää B-solujen reseptorisignalointia ja tuumorin mikroympäristön selviytymisvihjeitä lymfoidisissa pahanlaatuisissa sairauksissa. Se sai ensimmäisen globaalin hyväksynnän (Suomen/Taiwanin ulkopuolella) CLL/SLL:lle ja myöhemmin follikulaariselle lymfoomalle.
+---
 
-**Tärkeä varoitus:** tähän kandidaattiin nimenomaisesti liitetyn uudelleenkäytön perustelun mukaan 11 tutkimuksesta ja 16 artikkelista, jotka paljastuivat "Hodgkinin lymfoomaa" varten, mikään ei itse asiassa tutki klassista Hodgkinin lymfoomaa (Reed-Sternberg-solubiologia, NF-κB/EBV-ohjattu patogenees). Kaikki niistä tutkivat indolentin/aggressiivisen **Non-Hodgkinin lymfooman** alamuotoja (follikulaarinen lymfooma, CLL/SLL, manttelisolulymfooma, perifeerinen T-solulymfooma). Tämä kuvio on johdonmukainen tietokaavion sairauden nimeämisen törmäyksen ("Hodgkin's" vs. "Non-Hodgkin's") kanssa pikemminkin kuin todellisen mekanistisen yhteyden kanssa PI3Kδ/γ-inhibition ja Hodgkinin lymfooman biologian välillä. Alla oleva todistelu tulee lukea tämä epäsuhta mielessä pitäen — se tukee duvelisibin roolia B/T-solujen NHL:ssa, ei HL:ssa.
+## Miksi ennuste on perusteltu?
 
-## Kliinisen tutkimuksen todisteet
+Duvelisibi estää PI3K-delta- ja PI3K-gamma-entsyymejä. Ne tukevat B-solureseptorin signalointia ja kasvaimen mikroympäristöä lymfaattisissa pahanlaatuisuuksissa. Mekanismi selittää tehon KLL:ssä ja follikulaarisessa lymfoomassa. Yksityiskohtaisia alkuperäisen vaikutusmekanismin tietoja ei ole tämän raportin aineistossa, joten mekanismikuvaus perustuu lääkeluokan tunnettuihin ominaisuuksiin.
 
-| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset löydökset |
+Hodgkinin lymfooma on myös lymfaattinen kasvain, ja PI3K-reitin aktivoituminen on kuvattu EBV-liitännäisissä lymfoomissa, joihin Hodgkinin lymfooma kuuluu (PMID 29522278, prekliininen tutkimus). Tuki on kuitenkin luokkaekstrapolaatiota muista lymfoomista. Klassisessa Hodgkinin lymfoomassa ei ole kliinistä näyttöä.
+
+---
+
+## Kliininen tutkimusnäyttö
+
+Alla on Hodgkinin lymfoomaa koskevaan ennusteeseen liitetyt tutkimukset. Yksikään ei koske Hodgkinin lymfoomaa; ne ovat muita lymfoomia.
+
+| Tutkimusnumero | Vaihe | Tila | Osallistujia | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT04379167](https://clinicaltrials.gov/study/NCT04379167) | Vaihe 2 | Tuntematon | 140 | YY-20394 (duvelisibin analogin) monoterapia uusiutuvassa/refraktaarissa **follikulaarissa Non-Hodgkinin lymfoomassa**, joissa ≥2 aiempaa terapiaa epäonnistui |
-| [NCT05923502](https://clinicaltrials.gov/study/NCT05923502) | N/A | Ei vielä rekrytoiva | 200 | Todellisen maailman, ei-interventionaalinen tutkimus duvelisibin kapseleista **Non-Hodgkinin lymfoomassa (NHL)** |
-| [NCT04803201](https://clinicaltrials.gov/study/NCT04803201) | Vaihe 2 | Keskeytetty | 170 | CHO(E)P vs. CC-486-CHO(E)P vs. duvelisib-CHO(E)P käsittelemättömässä CD30-negatiivisessa **perifeerisen T-solulymfoomassa** (relevanssiaste C — ei HL) |
-| [NCT01882803](https://clinicaltrials.gov/study/NCT01882803) | Vaihe 2 | Valmis | 129 | Duvelisibin monoterapia rituximabille refraktaarissa **indolenteissa Non-Hodgkinin lymfoomissa** (FL, MZL, SLL) (relevanssiaste C — eroava sairauden muoto HL:sta) |
-| [NCT04038359](https://clinicaltrials.gov/study/NCT04038359) | Vaihe 2 | Valmis | 103 | Kahden keskeytyneen annostelun vertailu duvelisibin osalta **indolenteissa NHL**:ssa (relevanssiaste C — ei HL) |
-| [NCT05044039](https://clinicaltrials.gov/study/NCT05044039) | Vaihe 1 | Aktiivinen, ei rekrytoiva | 42 | Duvelisib CAR T-solujen terapian jälkeen CAR T:n pysyvyyden parantamiseksi PI3K-inhibition kautta lymfoidisissa pahanlaatuisissa sairauksissa |
-| [NCT04836832](https://clinicaltrials.gov/study/NCT04836832) | Vaihe 1 | Peruutettu | 0 | Duvelisib + akalabrutiinib uusiutuvassa/refraktaarissa **indolenteissa NHL**:ssa (DUAL-tutkimus) |
-| [NCT02640833](https://clinicaltrials.gov/study/NCT02640833) | Vaihe 1 | Peruutettu | 0 | Duvelisib + venetoklakssi uusiutuvassa/refraktaarissa CLL:ssa, SLL:ssa tai indolenteissa/aggressiivisissa **NHL**:ssa |
-| [NCT05065866](https://clinicaltrials.gov/study/NCT05065866) | Vaihe 1 | Valmis | 14 | Duvelisib + BMS-986345-yhdistelmä, turvallisuus/siedettävyys lymfoidisissa pahanlaatuisissa sairauksissa |
-| [NCT01871675](https://clinicaltrials.gov/study/NCT01871675) | Vaihe 1 | Valmis | 48 | IPI-145 (duvelisib) + rituximab tai bendamustiini/rituximab lymfoomassa tai CLL:ssa |
+| [NCT01882803](https://clinicaltrials.gov/study/NCT01882803) | Vaihe 2 | Päättynyt | 129 | Duvelisibi monoterapiana refraktaarissa indolentissa non-Hodgkin-lymfoomassa |
+| [NCT04038359](https://clinicaltrials.gov/study/NCT04038359) | Vaihe 2 | Päättynyt | 103 | Kahden jaksottaisen annostelun vertailu indolentissa NHL:ssä; kertoo siedettävyydestä |
+| [NCT01871675](https://clinicaltrials.gov/study/NCT01871675) | Vaihe 1 | Päättynyt | 48 | Duvelisibi yhdessä rituksimabin tai bendamustiini/rituksimabin kanssa; yhdistelmän turvallisuus |
+| [NCT05065866](https://clinicaltrials.gov/study/NCT05065866) | Vaihe 1 | Päättynyt | 14 | Duvelisibi + BMS-986345 lymfaattisissa kasvaimissa; annoksen ja turvallisuuden selvitys |
+| [NCT05044039](https://clinicaltrials.gov/study/NCT05044039) | Vaihe 1 | Aktiivinen, ei rekrytoi | 42 | Duvelisibi CAR-T-hoidon jälkeen |
+| [NCT04803201](https://clinicaltrials.gov/study/NCT04803201) | Vaihe 2 | Rekrytoi | 170 | Duvelisibi + CHO(E)P hoitamattomassa perifeerisessä T-solulymfoomassa |
+| [NCT05923502](https://clinicaltrials.gov/study/NCT05923502) | Ei sovellu | Ei vielä rekrytoi | 200 | Havainnoiva tosielämän tutkimus NHL:ssä |
+| [NCT02576275](https://clinicaltrials.gov/study/NCT02576275) | Vaihe 3 | Peruttu | 0 | Duvelisibi + bendamustiini/rituksimabi; ei dataa |
+| [NCT04836832](https://clinicaltrials.gov/study/NCT04836832) | Vaihe 1 | Peruttu | 0 | Duvelisibi + akalabrutinibi; ei dataa |
+| [NCT02640833](https://clinicaltrials.gov/study/NCT02640833) | Vaihe 1 | Peruttu | 0 | Duvelisibi + venetoklaksi; ei dataa |
 
-## Kirjallisuuden todisteet
+---
 
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
+## Kirjallisuusnäyttö
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [36685572](https://pubmed.ncbi.nlm.nih.gov/36685572/) | 2022 | Systemaattinen katsaus/Meta-analyysi | Frontiers in Immunology | Duvelisibin turvallisuus ja tehokkuus uusiutuvissa/refraktaarissa lymfoidisissa pahanlaatuisissa sairauksissa |
-| [36882482](https://pubmed.ncbi.nlm.nih.gov/36882482/) | 2023 | Prekliininen | Scientific Reports | PI3Kγ/δ-ekspressio ohjaa manttelisolujen lymfooman proliferaatiota/migraatiota, tukien duvelisibin tehokkuutta MCL:ssa |
-| [30799261](https://pubmed.ncbi.nlm.nih.gov/30799261/) | 2019 | Katsaus | The Lancet Oncology | Duvelisib indolenteissa Non-Hodgkinin lymfoomissa |
-| [31580408](https://pubmed.ncbi.nlm.nih.gov/31580408/) | 2019 | Katsaus | Am J Health-Syst Pharm | Hyväksytyt kohdistetut hoidot B- ja T-solulymfoomille |
-| [31490009](https://pubmed.ncbi.nlm.nih.gov/31490009/) | 2019 | Kliininen (Vaihe 1) | Am J Hematology | Duvelisib + rituximab tai bendamustiini/rituximab NHL/CLL-potilaisissa |
-| [33616890](https://pubmed.ncbi.nlm.nih.gov/33616890/) | 2021 | Katsaus | Drugs | Uusien hoitomenetelmien lähestymistavat, mukaan lukien PI3K-inhibiittorit, follikulaarissa lymfoomassa |
-| [32356174](https://pubmed.ncbi.nlm.nih.gov/32356174/) | 2020 | Katsaus | Curr Treat Options Oncol | PI3K-inhibiittorit kohdistettuna hoitona lymfoomassa, mukaan lukien duvelisib |
-| [39836493](https://pubmed.ncbi.nlm.nih.gov/39836493/) | 2025 | Prekliininen/Mekanistinen | Advanced Science | TTK uutena lääkkeiden kohteena T-solulymfoomassa (mekanistinen, ei duvelisib-spesifinen) |
-| [27872741](https://pubmed.ncbi.nlm.nih.gov/27872741/) | 2016 | Katsaus | Mediterr J Hematol Infect Dis | Uudet lääkkeet, mukaan lukien PI3K-inhibiittorit, follikulaarissa lymfoomassa |
-| [32658557](https://pubmed.ncbi.nlm.nih.gov/32658557/) | 2020 | Katsaus | Future Oncology | PI3K-inhibiittorien (kopanlisiib-luokka) rooli Non-Hodgkinin lymfoomassa |
+| [36685572](https://pubmed.ncbi.nlm.nih.gov/36685572/) | 2022 | Systemaattinen katsaus ja meta-analyysi | Front Immunol | Duvelisibin turvallisuus ja teho uusiutuneissa tai refraktaarisissa lymfaattisissa kasvaimissa |
+| [29191916](https://pubmed.ncbi.nlm.nih.gov/29191916/) | 2018 | Vaiheen 1 tutkimus | Blood | 210 potilasta; duvelisibi kliinisesti aktiivinen edenneissä hematologisissa pahanlaatuisuuksissa |
+| [31490009](https://pubmed.ncbi.nlm.nih.gov/31490009/) | 2019 | Vaiheen 1 tutkimus | Am J Hematol | Yhdistelmä rituksimabin tai bendamustiini/rituksimabin kanssa NHL:ssä ja KLL:ssä |
+| [30799261](https://pubmed.ncbi.nlm.nih.gov/30799261/) | 2019 | Katsaus | Lancet Oncol | Duvelisibi indolentissa non-Hodgkin-lymfoomassa |
+| [31580408](https://pubmed.ncbi.nlm.nih.gov/31580408/) | 2019 | Katsaus | Am J Health Syst Pharm | Kohdennetut hoidot B- ja T-solulymfoomissa |
+| [32356174](https://pubmed.ncbi.nlm.nih.gov/32356174/) | 2020 | Katsaus | Curr Treat Options Oncol | PI3K-estäjät lymfoomahoidossa |
+| [33616890](https://pubmed.ncbi.nlm.nih.gov/33616890/) | 2021 | Katsaus | Drugs | Uudet hoitolähestymistavat follikulaariseen lymfoomaan |
+| [33132100](https://pubmed.ncbi.nlm.nih.gov/33132100/) | 2021 | Katsaus | Clin Lymphoma Myeloma Leuk | Seuraavan sukupolven PI3K-estäjät B-solulymfoomassa |
+| [36882482](https://pubmed.ncbi.nlm.nih.gov/36882482/) | 2023 | Prekliininen | Sci Rep | PI3K-gamma/delta mantelisolulymfoomassa ja duvelisibin teho |
+| [28017967](https://pubmed.ncbi.nlm.nih.gov/28017967/) | 2017 | Translationaalinen | Leukemia | Duvelisibi herkistää KLL-soluja venetoklaksille |
 
-## Suomen markkinatiedot
+Hodgkinin lymfoomaa koskevia julkaisuja ei ole aineistossa.
 
-Duvelisibin osalta ei ole olemassa Suomen markkinoiden hyväksyntätietueita — `taiwan_regulatory.market_status` = Ei markkinoilla (ei markkinoilla), 0 hyväksyntää tiedostossa.
+---
+
+## Markkinatiedot Suomessa
+
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/005381 (peruutettu) | Copiktra | – | Krooninen B-solulymfaattinen leukemia; follikulaarinen lymfooma |
+
+Valmistaja: Secura Bio Limited. Myyntilupa on tilassa "peruutettu", eikä voimassa olevia lupia ole.
+
+---
 
 ## Sytotoksisuus
 
-Duvelisib on pahanlaatuisten sairauksien vastainen aine (kohdistettu kiinaasihidastin, jota käytetään hematopoieettisissa pahanlaatuisissa sairauksissa).
-
 | Kohta | Sisältö |
 |------|------|
-| Sytotoksisuuden luokitus | Kohdistettu hoito (PI3Kδ/γ-kaksoishidastin), ei perinteinen sytotoksinen kemoterapia — kirjallisuuden perusteella (PMID 38423708, 30430368) |
-| Luuydinsuppressioriski | Katso pakkausseloste: varoitukset ja varotoimet |
-| Emetogenisuuden luokitus | Katso pakkausseloste: varoitukset ja varotoimet |
-| Valvontaa vaativat tekijät | Katso pakkausseloste: varoitukset ja varotoimet |
-| Käsittelysuojaus | Katso pakkausseloste: varoitukset ja varotoimet |
+| Sytotoksisuusluokka | Kohdennettu hoito (PI3K-delta/gamma-estäjä) |
+| Myelosuppression riski | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Oksettavuusluokka | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Seurantakohteet | Verenkuva, maksa-arvot, infektio-oireet, ihoreaktiot, ripuli/koliitti ja keuhko-oireet (PI3K-estäjien luokkavaikutukset) |
+| Käsittelysuojaus | Noudata sytostaattien käsittelyohjeita valmisteyhteenvedon mukaan |
 
-## Turvallisuusnäkökohdista
+---
 
-Katso turvallisuutta koskevat tiedot pakkauselosteesta.
+## Turvallisuusnäkökohdat
 
-*Huomautus: tämä todistelupakkaus merkitsee estävää tietovaetta (DG001) — TFDA:n/pakkausselosteen varoituksia ja vasta-aiheita ei voitu hakea, mikä sinänsä estää siirtymisen S1-turvallisuuden esiarviointi-vaiheeseen riippumatta tehokkuutta koskevista todisteista.*
+- **Lääkeluokan vakavat riskit:** PI3K-estäjiin liittyy vakavia infektioita, koliittia, pneumoniittia, vaikeita ihoreaktioita ja maksatoksisuutta. Käyttö tulee rajata tarkasti seurattuihin olosuhteisiin ja infektioprofylaksian kanssa.
+- **Lääkeyhteisvaikutukset:** Yhteisvaikutuksia on tunnistettu yhteensä 100. Näytteessä vakavia (Major) ovat:
+  - klaritromysiini
+  - sisapridi
+  - eliglustaatti
+
+  Kohtalaisia (Moderate) ovat mm.:
+  - hydrokortisoni, deksametasoni, betametasoni, triamsinoloni ja budesonidi
+  - omepratsoli, esomepratsoli ja deksansoprastsoli
+  - simetidiini
+  - aprepitantti
+  - pioglitatsoni ja saksagliptiini
+  - klotrimatsoli
+  - granisetroni ja dolasetroni
+  - glyserolifenyylibutyraatti
+
+Muuten turvallisuustietojen osalta katso valmisteyhteenveto.
+
+---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Pidä**
+**Päätös: Hold**
 
-**Perustelut:**
-- "Hodgkinin lymfooma" -todisteluperusta rakentuu kokonaan Non-Hodgkinin lymfooman tutkimuksilla/kirjallisuudella — todennäköisesti tietokaavion sairauden nimeämisen törmäys pikemminkin kuin todellinen mekanistinen signaali, joten todistelupakkauksen L4/Pidä-päätös jää voimaan.
-- Estävä tietovaje (DG001: TFDA-pakkausseloste / varoitukset ja vasta-aiheet) estää itsenäisesti minkään S1-turvallisuuden esiarvioinnin.
+**Perustelu:**
+- Hodgkinin lymfoomassa ei ole tutkimus- eikä julkaisunäyttöä; tuki perustuu pelkästään korkeaan TxGNN-pistemäärään ja luokkaekstrapolaatioon muista lymfoomista. Lisäksi valmisteen myyntilupa Suomessa on peruutettu ja PI3K-estäjäluokan turvallisuusriskit ovat merkittäviä.
 
-**Jatkon edellyttää seuraavaa:**
-- Ratkaise Hodgkinin vs. Non-Hodgkinin lymfooman entiteettikartoitus ennen tämän kandidaatin arviointia eteenpäin
-- Hanki TFDA:n/valmistajan pakkausseloste (varoitukset, vasta-aiheet, lääkkeellisten vuorovaikutusten riski) — DG001
-- Hanki vahvistettu mekanismin toiminta DrugBankista — DG002
-- Jos uudelleenlaajuuden määrittäminen Non-Hodgkinin lymfooman alamuotoihin on perusteltua, huomaa, että "B-solun pahanlaatuinen kasvain" (sija 9 tässä todistelupakkauksessa) sisältää jo L1-todisteen (Vaihe 3 DUO-tutkimus) — mutta se heijastaa duvelisibin olemassa olevaa hyväksyttyä indikaatiota (CLL/SLL, FL), ei uutta uudelleenkäyttömahdollisuutta, ja se olisi arvioitava markkinoille pääsyn kysymyksenä pikemminkin kuin uudelleenkäyttöehdokkaaksi
+**Edetäkseen tarvitaan:**
+- Prekliiniset tiedot duvelisibin vaikutuksesta klassisen Hodgkinin lymfooman solulinjoissa ja mallissa
+- Hodgkin-spesifinen kliininen tutkimus (aluksi vaiheen 1/2)
+- Selvitys myyntiluvan peruutuksen syistä ja valmisteen saatavuudesta
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden täydentäminen turvallisuusarviointia varten
+- Yksityiskohtaiset vaikutusmekanismitiedot (MOA)
+- Riskienhallintasuunnitelma (infektioprofylaksia, seuranta) ja arvio yhteisvaikutuksista tyypillisten Hodgkin-hoitojen kanssa
 
+---
+
+## Muut ennustetut käyttöaiheet (lyhyt yhteenveto)
+
+Aineistossa arvioitiin myös muita käyttöaiheita. Vahvin näyttö on B-solukasvaimilla (taso L1, päätös Proceed with Guardrails), mutta se vastaa pitkälti alkuperäisiä käyttöaiheita (KLL/SLL), joten kyse ei ole varsinaisesta uudelleenkäytöstä. Tätä tukee valmistuneen vaiheen 3 RCT:n NCT02004522 (n=319, duvelisibi vs. ofatumumabi uusiutuneessa tai refraktaarisessa KLL/SLL:ssä) tulos. Mantelisolulymfoomassa tuki on prekliinistä ja varhaista kliinistä (taso L3, Research Question). Myeloidileukemiassa, kroonisessa myelooisessa leukemiassa, Ewingin sarkoomassa ja ganglioneuroblastoomassa näyttö on vähäistä tai puuttuu (Hold).
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

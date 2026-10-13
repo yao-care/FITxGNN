@@ -2,7 +2,7 @@
 layout: default
 title: Insulin Degludec
 parent: Vahva näyttö (L1-L2)
-nav_order: 197
+nav_order: 230
 evidence_level: L1
 indication_count: 6
 ---
@@ -29,97 +29,109 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Insulin Degludec: Diabeteksesta Tyypin 1 Diabetes Mellitukseen
+# Insulindegludek: Diabeteksesta tyypin 1 diabetekseen
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Insulin degludec on ultra-pitkävaikutteinen basaalinsuliinanalogli, jonka vakiintunut globaali indikatio on diabetes mellitus (tyypin 1 ja tyypin 2). TxGNN-malli merkitsee **Tyypin 1 Diabetes Mellitusta** sen korkeimmaksi sijoitetuksi ennustetuksi indikatioksi, ja evidenssipohja — **50 kliinistä tutkimusta** ja **20 julkaisua** — vahvistaa, että tämä ei ole uusi uudelleenkäyttösignaali vaan lääkkeen oma ydinindikatio markkinalla (Suomi), jossa sitä ei ole tällä hetkellä markkinoitu.
+Insulindegludek on pitkävaikutteinen perusinsuliinianalogi, jota on alun perin käytetty diabeteksen (diabetes mellitus) hoitoon. TxGNN-malli ennustaa sen sopivan **tyypin 1 diabeteksen** hoitoon. Ennusteen tukena on tällä hetkellä **40 kliinistä tutkimusta** ja **20 julkaisua**. Käyttöaihe on kuitenkin hyvin lähellä alkuperäistä käyttöaihetta, joten kyse on pikemminkin nykyisen käytön vahvistumisesta kuin aidosta lääkkeen uudelleenkäytöstä.
 
 ---
 
-## Pikasilmäys
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|--------|
-| Alkuperäinen indikatio | Diabetes mellitus (tyypin 1 ja tyypin 2) — vakiintunut globaali merkinnän mukainen käyttö; Fimean tuotteiden tason lisensointitiedot eivät ole saatavilla tässä Evidence Packissa |
-| Ennustettu uusi indikatio | Tyypin 1 Diabetes Mellitus |
-| TxGNN-ennustepistemäärä | 99.44% |
-| Evidenssitaso | L1 |
-| Suomen markkinaasema | Ei markkinoitu |
-| Valtuutuksien lukumäärä | 0 |
-| Suositeltu päätös | Jatka turvarajoitusten kanssa |
+|------|------|
+| Alkuperäinen käyttöaihe | Diabetes mellitus |
+| Ennustettu uusi käyttöaihe | Tyypin 1 diabetes (type 1 diabetes mellitus) |
+| TxGNN-ennustepistemäärä | 99,44 % |
+| Näytön taso | L1 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 3 (kaikki peruutettuja) |
+| Suositeltu päätös | Proceed with Guardrails (eteneminen suojatoimin) |
 
 ---
 
-## Miksi tämä ennuste on perusteltu?
+## Miksi ennuste on perusteltu?
 
-Insulin degludec on ultra-pitkävaikutteinen basaalinsuliinanalogli, joka vaikuttaa suoraan insuliinin reseptoriin, korvaten endogeenisen insuliinin, jonka tyypin 1 diabetesta sairastavat potilaat menettävät autoimmuunisen β-solujen tuhoutumisen seurauksena. Sen ihoalainen multihekamaarivarasto vapauttaa hitaasti ja jatkuvasti monomeerista insuliinia, mikä antaa tasaisen, ultra-pitkän vaikutusprofiilin, jolla on pienempi päivittäinen vaihtelu kuin ensimmäisen sukupolven basaalinsuliinieilla (glargiini, detemiiri).
+Insulindegludek on pitkävaikutteinen perusinsuliinianalogi, joka aktivoi insuliinireseptorin ja korvaa elimistön puutteellisen oman insuliinin. Yksityiskohtaista vaikutusmekanismitietoa ei tässä aineistossa ole saatavilla, mutta tämä yleinen vaikutustapa on lääkeryhmän tunnettu ominaisuus.
 
-Koska tämä mekanismi on suora korvaava hoito eikä epäsuora tai pääteltävissä oleva polku, TxGNN-ennuste "tyypin 1 diabetes mellitus" ei todellakaan ole uudelleenkäyttöhypoteesi — se on lääkkeen oma vakiintunut, merkinnän mukainen indikatio, joka on jo hyväksytty useilla markkinoilla maailmanlaajuisesti (esim. nimellä Tresiba). Tässä arvioinnissa kirjattu "Ei markkinoitu" -asema tulisi ymmärtää tarkoittavan sitä, että **lääkkeelle puuttuu Suomen markkinavaltuutus**, ei että kyseessä olisi perustelematon uuden käytön signaali. Käytännössä tämä ehdokas tulisi seurata **markkinoille pääsyn tapauksena** (jo-todistetun hoidon tuominen uudelle markkinalle) pikemminkin kuin perinteisen todistusaineiston keräämisen uudelleenkäyttötapauksena.
+Tyypin 1 diabetes on alkuperäisen käyttöaiheen (diabetes mellitus) alatyyppi, jossa elimistö ei tuota insuliinia riittävästi. Insuliinikorvaushoito on siksi suoraan perusteltua, ja korkea ennustepistemäärä on tämän mukainen. Käyttö on merkinnän mukaista tai hyvin lähellä sitä.
 
-Viisi muuta TxGNN:n ennustamaa indikatiota tälle lääkkeelle (autoimmuuni-ooforiitti, opsismodysplasia, tiamiinievastiivinen toimintahäiriösyndrooma ja kaksi jäykän ihmisen oireyhtymän varianttia) saavat korkeat pisteet mallissa, mutta niillä ei ole nolla tutkimusta tai kirjallisuusviittauksia ja ne sijoitettiin **Hold**-tilaan — niiden samankaltaisuus T1D:hen taustalla olevassa tietokaavissa (jaettujen autoimmuuni- tai endokriinisolmujen kautta) ei heijasta varsinaista farmakologista perustelua insulin degludecille.
+Huomioitavaa: muut aineiston ennusteet (autoimmuuni munasarjatulehdus, opsismodysplasia, tiamiinille vastaava oireyhtymä, jäykän ihmisen oireyhtymä ja sen paikallinen muoto) perustuvat vain mallin ennusteeseen. Niistä ei löytynyt kliinisiä tutkimuksia eikä julkaisuja (näytön taso L5, päätös Hold), eikä niille ole suoraa insuliinin hoidollista perustetta.
 
 ---
 
-## Kliinisten tutkimusten näyttö
+## Kliininen tutkimusnäyttö
 
-| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset löydökset |
+Tyypin 1 diabetekseen liittyviä tutkimuksia löytyi 40. Alla on 10 olennaisinta, joissa degludek on tutkimuslääke tai vertailuhoito.
+
+| Tutkimusnumero | Vaihe | Tila | Osallistujia | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT00992537](https://clinicaltrials.gov/study/NCT00992537) | Vaihe 1 | Valmistunut | 27 | IDegAspin (NN5401), insuliini degludecin (NN1250) ja insuliini aspartin PK/PD-vertailu T1D:ssä |
-| [NCT05413369](https://clinicaltrials.gov/study/NCT05413369) | Vaihe 3 | Valmistunut | 582 | iGlarLixi vs. IDegAsp kiinalaisilla T2D-potilailla, joiden sairautta ei ole riittävästi kontrolloitu oraalilääkkeillä |
-| [NCT02030600](https://clinicaltrials.gov/study/NCT02030600) | Vaihe 3 | Valmistunut | 721 | SWITCH 2 — satunnaistettu kaksoissokkoutettu ristiinvaihtokokeilu degludecin ja glargiinin turvallisuuden ja tehokkuuden vertailemiseksi, OAD:lla ja ilman |
-| [NCT05463744](https://clinicaltrials.gov/study/NCT05463744) | Vaihe 3 | Valmistunut | 692 | Viikoittainen insuliini efsitora alfa vs. degludec T1D-potilailla, joilla on moninkertaiset päivittäiset injektiot |
-| [NCT05243628](https://clinicaltrials.gov/study/NCT05243628) | Vaihe 4 | Valmistunut | 33 | Afrezza-inhaloituateriainsuliini + automatisoitu insuliinipumppu tai degludec aikuisilla T1D-potilailla |
-| [NCT02536859](https://clinicaltrials.gov/study/NCT02536859) | Vaihe 1 | Valmistunut | 60 | Tasapainotilan PK/PD-ristiinvaihtokokeilu, degludec vs. glargiini U300, T1D:ssä |
-| [NCT05767255](https://clinicaltrials.gov/study/NCT05767255) | Vaihe 3 | Tuntematon | 66 | Hypoglykemiariski potilaiden siirtyessä sairaalahoidosta avohoitoon, basaali-bolus vs. degludec/liraglutidi |
-| [NCT01959529](https://clinicaltrials.gov/study/NCT01959529) | Vaihe 3 | Valmistunut | 7,637 | DEVOTE — degludecin kardiovaskularinen turvallisuus glargiinia vastaan T2D-potilailla, joilla on korkea CV-riski |
-| [NCT02500706](https://clinicaltrials.gov/study/NCT02500706) | Vaihe 3 | Valmistunut | 1,108 | Nopeammin vaikuttava insuliini aspart vs. NovoRapid, molemmat yhdessä degludecin kanssa, aikuisilla T1D-potilailla |
-| [NCT03214367](https://clinicaltrials.gov/study/NCT03214367) | Vaihe 3 | Valmistunut | 1,392 | PRONTO-T1D — LY900014 vs. insuliini lispro, yhdessä glargiinin tai degludecin kanssa, aikuisilla T1D-potilailla |
+| [NCT02034513](https://clinicaltrials.gov/study/NCT02034513) | Vaihe 3 | Valmistunut | 501 | SWITCH 1: degludekin ja glargiinin turvallisuus ja teho tyypin 1 diabeteksessa, ateriainsuliinina aspart (ristikkäisasetelma) |
+| [NCT00978627](https://clinicaltrials.gov/study/NCT00978627) | Vaihe 3 | Valmistunut | 548 | Degludek/aspart (IDegAsp) vs. detemir + aspart tyypin 1 diabeteksessa, jatkovaihe pitkäaikaisturvallisuudelle |
+| [NCT01835431](https://clinicaltrials.gov/study/NCT01835431) | Vaihe 3 | Valmistunut | 362 | Degludek/aspart vs. detemir lapsilla ja nuorilla, joilla on tyypin 1 diabetes |
+| [NCT02500706](https://clinicaltrials.gov/study/NCT02500706) | Vaihe 3 | Valmistunut | 1108 | Nopeavaikutteinen aspart vs. NovoRapid yhdessä degludekin kanssa aikuisilla |
+| [NCT02670915](https://clinicaltrials.gov/study/NCT02670915) | Vaihe 3 | Valmistunut | 834 | Nopeavaikutteinen aspart vs. NovoRapid yhdessä degludekin kanssa lapsilla ja nuorilla |
+| [NCT05463744](https://clinicaltrials.gov/study/NCT05463744) | Vaihe 3 | Valmistunut | 692 | Viikoittainen efsitora alfa vs. degludek tyypin 1 diabeteksessa (degludek vertailuhoitona) |
+| [NCT01569841](https://clinicaltrials.gov/study/NCT01569841) | Vaihe 3 | Valmistunut | 24 | Degludekin ja glargiinin vertailu jatkuvalla glukoosiseurannalla |
+| [NCT00612040](https://clinicaltrials.gov/study/NCT00612040) | Vaihe 2 | Valmistunut | 178 | Kaksi degludekin formulaatiota vs. glargiini perus-/ateriainsuliinihoidossa, 16 viikkoa |
+| [NCT04075513](https://clinicaltrials.gov/study/NCT04075513) | Vaihe 4 | Valmistunut | 343 | Glargiini 300 U/ml vs. degludek 100 U/ml: glukoosipitoisuus tavoitealueella ja vaihtelu |
+| [NCT03838783](https://clinicaltrials.gov/study/NCT03838783) | Vaihe 4 | Tuntematon | 30 | Degludek ja jatkuva ihonalainen insuliini-infuusio liikuntaa harrastavilla potilailla |
+
+Aineistossa on lisäksi useita vaiheen 1 farmakodynamiikkatutkimuksia ja kaksi laajaa seurantatutkimusta (NCT02392117, n=1262; NCT05434559, n=475).
 
 ---
 
-## Kirjallisuusaineiston näyttö
+## Kirjallisuusnäyttö
 
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
-|------|-----|------|------|---------|
-| [36623517](https://pubmed.ncbi.nlm.nih.gov/36623517/) | 2023 | RCT | Lancet Diabetes Endocrinol | EXPECT-tutkimus — degludec vs. detemiiri (molemmat + aspart) raskauden aikaisilla T1D-naisilla, ei-alivertaisuusmuotoilu |
-| [37863084](https://pubmed.ncbi.nlm.nih.gov/37863084/) | 2023 | RCT | Lancet | ONWARDS 6 — viikoittainen insuliini icodec vs. päivittäinen degludec basaali-bolus-säännöstelyssä T1D:ssä |
-| [39270686](https://pubmed.ncbi.nlm.nih.gov/39270686/) | 2024 | RCT | Lancet | QWINT-5 — viikoittainen insuliini efsitora alfa vs. päivittäinen degludec, vaihe 3 ei-alivertaisuus T1D:ssä |
-| [36763996](https://pubmed.ncbi.nlm.nih.gov/36763996/) | 2022 | Katsaus/Metaanalyysi | Clinical Therapeutics | Järjestelmällinen katsaus/metaanalyysi degludecin tehokkuudesta ja siedettävyydestä verrattuna muihin pitkävaikutteisiin basaalinsuliiineihin T1D:ssä ja T2D:ssä |
-| [34643020](https://pubmed.ncbi.nlm.nih.gov/34643020/) | 2022 | RCT | Diabetes Obes Metab | HypoDeg — satunnaistettu ristiinvaihtokokeilu, degludec vs. glargiini U100 T1D-potilailla, joilla on taipumus yölliseen vakavaan hypoglykemiaan |
-| [36610544](https://pubmed.ncbi.nlm.nih.gov/36610544/) | 2023 | RCT | Diabetes Res Clin Pract | INEOX — yksittäiskeskuksinen RCT degludecin 100 IU/ml ja glargiinin 300 IU/ml teho ja turvallisuuden vertaamisesta T1D:ssä |
-| [34763071](https://pubmed.ncbi.nlm.nih.gov/34763071/) | 2022 | RCT | Endocr Pract | BIGLEAP — avoin satunnaistettu ristiinvaihtokokeilu, basaali degludec vs. aspart pumppulla T1D:ssä |
-| [36516429](https://pubmed.ncbi.nlm.nih.gov/36516429/) | 2023 | RCT | Diabetes Technol Ther | ULTRAFLEXI-1 — satunnaistettu ristiinvaihtokokeilu glargiinin U300 ja degludecin vertailemisesta spontaanin liikunnan yhteydessä T1D:ssä |
-| [31055056](https://pubmed.ncbi.nlm.nih.gov/31055056/) | 2020 | Katsaus | Diabetes Metab | Degludecin nykyinen asema T1D:ssä ja T2D:ssä satunnaistettujen ja havainnointitutkimusten perusteella |
-| [37290466](https://pubmed.ncbi.nlm.nih.gov/37290466/) | 2023 | Katsaus | Lancet Diabetes Endocrinol | T1D:n hoito raskauden aikana, mukaan lukien basaalinsuliiinin valinta ja verensokerin tavoitteet |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|---------|-----|------|------|---------|
+| [37863084](https://pubmed.ncbi.nlm.nih.gov/37863084/) | 2023 | RCT | Lancet | ONWARDS 6: viikoittainen icodec vs. päivittäinen degludek tyypin 1 diabeteksessa |
+| [36623517](https://pubmed.ncbi.nlm.nih.gov/36623517/) | 2023 | RCT | Lancet Diabetes Endocrinol | EXPECT: degludek vs. detemir raskaana olevilla tyypin 1 diabetesta sairastavilla naisilla |
+| [39270686](https://pubmed.ncbi.nlm.nih.gov/39270686/) | 2024 | RCT | Lancet | QWINT-5: viikoittainen efsitora vs. degludek aikuisilla, ei-huonommuus |
+| [36763996](https://pubmed.ncbi.nlm.nih.gov/36763996/) | 2022 | Järjestelmällinen katsaus ja meta-analyysi | Clin Ther | Degludekin teho ja siedettävyys verrattuna muihin pitkävaikutteisiin analogeihin |
+| [33662147](https://pubmed.ncbi.nlm.nih.gov/33662147/) | 2021 | Cochrane-katsaus | Cochrane Database Syst Rev | (Ultra)pitkävaikutteiset insuliinianalogit tyypin 1 diabeteksessa |
+| [40627908](https://pubmed.ncbi.nlm.nih.gov/40627908/) | 2025 | Järjestelmällinen katsaus ja meta-analyysi | J Diabetes Complications | Degludek vs. efsitora tyypin 1 ja 2 diabeteksessa |
+| [29477399](https://pubmed.ncbi.nlm.nih.gov/29477399/) | 2018 | Järjestelmällinen katsaus ja verkosto-meta-analyysi | Value Health | Perusinsuliinihoitojen suhteellinen teho ja turvallisuus aikuisilla |
+| [40903851](https://pubmed.ncbi.nlm.nih.gov/40903851/) | 2025 | Kliininen tutkimus (RCT) | Diabetes Obes Metab | Varhainen degludek ja suonensisäinen insuliini diabeettisen ketoasidoosin hoidossa |
+| [35147781](https://pubmed.ncbi.nlm.nih.gov/35147781/) | 2022 | Rekisteri-/käytännön aineisto | Acta Diabetol | Raskauden lopputulokset degludekia käyttävillä tyypin 1 diabetesta sairastavilla naisilla |
+| [23620200](https://pubmed.ncbi.nlm.nih.gov/23620200/) | 2013 | Katsaus | Drugs | Degludekin ja degludek/aspartin käyttö diabeteksen hoidossa |
 
 ---
 
 ## Suomen markkinatiedot
 
-Insuliini degludecille ei ole markkinavaltuutuksia Suomessa (`market_status: Not marketed` / Ei markkinoitu; `total_licenses: 0`). Fimean tuotteiden tason lisensointitiedot (tuotteen nimi, annostelumuoto, hyväksytty indikatio-teksti) eivät ole vielä haettu tälle ehdokkaalle.
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/002498 | Tresiba | – | Diabetes mellitus (peruutettu) |
+| EMEA/H/C/002499 | Ryzodeg | – | Diabetes mellitus (peruutettu) |
+| EMEA/H/C/002647 | Xultophy | – | Tyypin 2 diabetes mellitus (peruutettu) |
+
+Kaikki kolme myyntilupaa on peruutettu, joten voimassa olevaa myyntilupaa ei ole.
 
 ---
 
-## Turvallisuushuomiot
+## Turvallisuusnäkökohdat
 
-Tutustu pakkausselosteeseen turvallisuustietojen osalta. Strukturoitua Fimean/TFDA-varoitus-, kontraindikaatio- tai lääkkeiden välistä yhdysvaikutustietoa ei ole tällä hetkellä käytettävissä insulin degludecille tässä Evidence Packissa (tämä on merkitty estäväksi tietokuilukiksi — DG001).
+- **Lääkkeiden yhteisvaikutukset:** Yhteisvaikutuksia löytyi yhteensä 100. Esimerkkejä keskivaikeista yhteisvaikutuksista: beetasalpaajat (asebutololi), sympatomimeetit (fenyylefriini, pseudoefedriini, adrenaliini, salbutamoli, formoteroli), metformiini, pioglitatsoni, alogliptiini, albiglutidi, alpelisibi, hydrokortisoni, hydroklooritiatsidi, estradioli, levonorgestreeli, noretisteroni, doksisykliini ja etanoli. Lieviä yhteisvaikutuksia on mm. paikallisesti käytettävillä kortikosteroideilla (hydrokortisoni, alklometasoni). Yhteisvaikutukset liittyvät pääosin verensokeriin vaikuttaviin lääkkeisiin ja hypoglykemian riskiin tai oireiden peittymiseen.
+
+Varoituksia ja vasta-aiheita koskevia valmisteyhteenvetotietoja ei ollut käytettävissä. Tarkista ne valmisteyhteenvedosta.
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Johtopäätös ja jatkotoimet
 
-**Päätös: Jatka turvarajoitusten kanssa**
+**Päätös: Proceed with Guardrails (eteneminen suojatoimin)**
 
 **Perustelut:**
-Insulin degludecin tehokkuus ja turvallisuus tyypin 1 diabeteksessa ovat tuettu laajalla, kypsällä todistusaineistolla — mukaan lukien useat valmistuneet Vaihe 3 RCT-tutkimukset (SWITCH 2, DEVOTE, PRONTO-T1D, QWINT-5, ONWARDS 6) ja järjestelmälliset katsaukset — täyttävät L1-evidenssikriteerit. Tämä ei kuitenkaan ole uusi uudelleenkäyttösignaali: se on lääkkeen oma ydinindikatio, joka on tällä hetkellä rekisteröimätön Suomessa, ja estävä turvallisuustietokuilukki (ei Fimean pakkausseloste-varoituksia/kontraindikaatioita) on ratkaistava ennen kuin mikään S1-turvallisuustarkastelu voi edetä.
+- Tyypin 1 diabeteksen näyttö on vahva: useita valmistuneita vaiheen 3 satunnaistettuja tutkimuksia ja useita RCT-julkaisuja sekä järjestelmällisiä katsauksia. Käyttöaihe on kuitenkin käytännössä merkinnän mukainen, joten kyse ei ole varsinaisesta uudelleenkäytöstä. Kaikki Suomen myyntiluvat on peruutettu, mikä rajoittaa saatavuutta.
+- Muut ennustetut käyttöaiheet (rank 2–6) jäävät tasolle Hold, koska niistä ei ole kliinistä näyttöä.
 
-**Jatkaakseen tarvitaan seuraavaa:**
-- Fimean pakkausseloste-tiedot (varoitukset, kontraindikaatiot, DDI) — tällä hetkellä estävä tietokuilukki (DG001)
-- Muodollinen DrugBank-lähteen vaikutusmekanismi-dokumentaatio (DG002)
-- Vahvistus sopivasta sääntelypolusta Suomen markkinoille pääsyyn (todennäköisesti normaali markkinavaltuutus-/keskinäisen tunnustamisen reitti, ei kokeellinen uudelleenkäyttöreitti, koska tämä on vakiintunut globaali indikatio)
-- Huomio: viisi muuta TxGNN:n ennustamaa indikatiota tälle lääkkeelle (autoimmuuni-ooforiitti, opsismodysplasia, tiamiinievastiivinen toimintahäiriösyndrooma, klassinen ja paikallinen jäykän ihmisen/jäykän raajan oireyhtymä) eivät ole tuettuja tutkimuksissa tai kirjallisuudessa ja pysyvät **Hold**-tilassa.
-
+**Etenemiseksi tarvitaan:**
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet (turvallisuusseulonta ei ole mahdollinen ilman niitä)
+- Vaikutusmekanismin tarkka kuvaus
+- Selvitys valmisteen nykyisestä saatavuudesta ja myyntiluvan tilasta Suomessa (peruutettujen lupien syy ja mahdolliset korvaavat valmisteet)
+- Hypoglykemian seurantasuunnitelma ja yhteisvaikutusten hallinta erityisesti samanaikaisessa beetasalpaaja- ja sympatomimeettihoidossa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

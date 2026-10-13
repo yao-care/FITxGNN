@@ -2,7 +2,7 @@
 layout: default
 title: Thyrotropin Alfa
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 373
+nav_order: 435
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,77 +29,89 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Tireotropiini alfa: kilpirakensyövän seuranasta migreenioireyhtymään
+# Tyrotropiini alfa: Kilpirauhasen kasvaimista migreenihäiriöön
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Tireotropiini alfa on ihmisen peräisin oleva rekombinanttiproteiini-TSH, jota käytetään kliinisesti diagnoosisovelluksena kilpirakensyövän seurannassa; yksityiskohtaisia alkuperäisen indikaation ja vaikutusmekanismin tietoja ei ole saatavilla tässä näyttöpaketissa. TxGNN-malli ennustaa, että se voi olla tehokas **migreenioireyhtymään** 99,98 % pistemäärällä, mutta **nolla kliinistä tutkimusta** ja **nolla julkaisuja** eivät tällä hetkellä tue tätä suuntaa — kyseessä on puhdas laskennallinen hypoteesi, jolla ei ole tunnistettua mekanistista perustelua.
+Tyrotropiini alfa on yhdistelmä-DNA-tekniikalla valmistettu kilpirauhasta stimuloiva hormoni (TSH), jota on käytetty kilpirauhasen kasvainten hoidon yhteydessä. TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **migreenihäiriön**, mutta ennusteen tueksi ei ole löytynyt **yhtään kliinistä tutkimusta eikä julkaisua**. Ennuste perustuu pelkästään mallin laskentaan.
 
 ---
 
-## Nopea yhteenveto
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Kilpirakensyövän seuranta (diagnoosisovellus) — perustunut yleiseen kliiniseen tietoon; ei saatavilla tässä näyttöpaketissa (0 Suomen markkinoilta) |
-| Ennustettu uusi indikaatio | Migreenioireyhtymä |
-| TxGNN ennustepistemäärä | 99,98 % (mallin sijoitus 368) |
-| Näyttötaso | L5 |
-| Markkinatilanne Suomessa | Ei markkinoilla |
-| Myyntilupien lukumäärä | 0 |
-| Suositeltu päätös | Odota |
+|------|------|
+| Alkuperäinen käyttöaihe | Kilpirauhasen kasvaimet |
+| Ennustettu uusi käyttöaihe | Migreenihäiriö |
+| TxGNN-ennustepisteet | 99,98 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Miksi tämä ennuste on järkevä?
+## Miksi ennuste voi vaikuttaa uskottavalta?
 
-Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja tireotropiini alfasta ei ole saatavilla tässä näyttöpaketissa (merkitty korkean vakavuusasteen tietoaukoksi). Yleisesti tiedetään, että tireotropiini alfa on ihmisen peräisin oleva rekombinanttiproteiini TSH, joka toimii TSH-reseptoriagonistina stimuloiden kilpirauhasen follikkelijärkestösoluja ottamaan jodia ja erittelemään tyyrogobuliinia/T3/T4:ää — mekanismi, jota käytetään kliinisesti radioaktiivisen jodin kuvantamisen ja tyyrogobuliinin testaamisen tukemiseen kilpirakensyövän seurannassa.
+Tyrotropiini alfa on yhdistelmä-TSH, joka sitoutuu kilpirauhasen TSH-reseptoriin. Tarkkaa vaikutusmekanismia koskevaa tietoa ei ole tässä aineistossa saatavilla.
 
-TSH-reseptoresignaloinnin ja migreenipatofysiologian välillä ei ole vakiintunutta tai hypoteettista biologista polkua. Tämän kandidaatin mukana toimitettu uudelleenkäyttöperustelu toteaa nimenomaisesti, että mekanistista linkkiä ei ole olemassa ja mikään kliininen tai kirjallisuustieto ei tue assosiaatiota — korkea TxGNN-pistemäärä on vain mallin tuloste, jota ei tue mikään muusta kyselyistä saatu tietolähde (ClinicalTrials.gov, ICTRP, PubMed kaikki palautuivat nolla osumalla tällä lääke-tauti-parilla).
+Kilpirauhasen kasvainten ja migreenin välillä ei ole tunnettua mekanistista yhteyttä. Hyvin korkea pistemäärä (0,9998) vaikuttaa olevan graafipohjaisen mallin tulos, jota mikään kliininen tai kirjallisuusnäyttö ei tue. Mahdollinen yhteys olisi spekulatiivinen, esimerkiksi epäsuora vaikutus kilpirauhashormonien tai neuroendokriinisten reittien kautta.
 
-Tukitodisteiden täydellisen puutteen ja epäselvästi perustelun mekanismin puutteen vuoksi tätä ennustetta tulee käsitellä tiukasti validoimattomana laskennallisena hypoteesinä, ei kliinisesti toimivana signaalina.
-
----
-
-## Kliinisen tutkimuksen näyttö
-
-Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
+Samankaltaisia mallin ennusteita ovat myös migreeni ja aurallinen aivorunkomigreeni. Ne heijastavat todennäköisesti tautiluokituksen läheisyyttä eikä itsenäistä biologiaa. Muita korkeimmin pisteytettyjä ennusteita ovat Raynaud'n tauti, keuhkoverenpainetauti ja posturaalinen ortostaattinen takykardiaoireyhtymä. Myöskään niille ei löytynyt tutkimusnäyttöä. Hypertyreoosiennuste on biologisesti ristiriitainen, koska TSH-reseptorin stimulaatio voi pahentaa hypertyreoosia.
 
 ---
 
-## Kirjallisuustodisteet
+## Kliininen tutkimusnäyttö
 
-Tällä hetkellä ei ole saatavilla asiaan liittyviä kirjallisuustodistuksia.
-
----
-
-## Markkinatilanne Suomessa
-
-Tireotropiini alfa ei ole markkinoilla Suomessa — 0 myyntilupaa on kirjattu tähän näyttöpakettiin, joten valmistetta/annos muoto-taulukkoa ei voida tuottaa.
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
 ---
 
-## Turvallisuushuomiot
+## Kirjallisuusnäyttö
 
-Katso turvallisuustiedot pakkauksen sisällä olevista tiedoista.
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
-*(Huomio: TFDA pakkauksen sisällä olevista varoituksista/vasta-aiheista on merkitty **estäväksi** tietoaukoksi (DG001) — tämä on selvitettävä, ennen kuin minkään S1 turvallisuusseulonnan voi jatkaa.)*
+---
+
+## Tiedot Suomen markkinoilta
+
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000220 | Thyrogen | – | Kilpirauhasen kasvaimet (myyntilupa peruutettu) |
+
+---
+
+## Turvallisuushuomioita
+
+Valmistekohtaisia varoituksia ja vasta-aiheita ei ole tässä aineistossa saatavilla, joten niistä on tarkistettava tiedot valmisteyhteenvedosta.
+
+**Yhteisvaikutukset:** Yhteisvaikutushaussa löytyi yhteensä 45 yhteisvaikutusta. Aineistossa näkyvät kaikki luokiteltu keskivaikeiksi (Moderate), ja ne koskevat pääosin diabeteslääkkeitä:
+- Sulfonyyliureat: klooripropamidi, glimepiridi, glipitsidi, glyburidi, asetoheksamidi
+- Metformiini ja akarboosi
+- DPP-4-estäjät: alogliptiini, saksagliptiini
+- GLP-1-agonistit: albiglutidi, dulaglutidi, eksenatidi, semaglutidi
+- SGLT2-estäjät: kanagliflotsiini, dapagliflotsiini, empagliflotsiini, ertugliflotsiini
+- Insuliinit: ihmisinsuliini, aspartinsuliini
+
+Näiden lääkkeiden käyttäjillä verensokeritason seuranta on tärkeää.
+
+**Huomio hypertyreoosista:** Koska lääke stimuloi kilpirauhasta, sen käyttö hypertyreoosin tai takykardian hoitoon olisi todennäköisesti haitallista.
 
 ---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Odota**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Korkeimmalla sijalla oleva ennustettu indikaatio (migreenioireyhtymä) ei ole kliinisiä tutkimuksia, ei kirjallisuustodistuksia ja ei tunnistettua mekanistista linkkiä — se täyttää vain L5:n (vain mallin ennuste). Mikään muista 9 kandidaatista tässä näyttöpaketissa ei menesty paremmin: useimmat ovat yhtä todistusvapaita (L5), ja ainoa kandidaatti, joka saavuttaa L3/S1 (hypertyreoidismi), on mekanistisesti ristiriitainen, koska TSH-reseptoriagonistista voitaisiin odottaa pahenevansa eikä parantavan hypertyreoidismia.
+- Ennuste perustuu pelkästään TxGNN-mallin pisteytykseen (L5), eikä tueksi ole kliinisiä tutkimuksia, kirjallisuutta eikä uskottavaa mekanismia. Lisäksi Suomen myyntilupa on peruutettu.
 
-**Jatkamiseksi tarvitaan seuraavaa:**
-- TFDA:n sääntelyllinen pakkauksen sisällä oleva tieto (varoitukset, vasta-aiheet) — tällä hetkellä estävä (DG001)
-- Vahvistettu vaikutusmekanismin tieto DrugBankista (DG002)
-- Mekanistinen hypoteesi, joka yhdistää TSH-reseptoresignaloinnin migreenioireyhtymän patofysiologiaan, jota seuraa prekliininen validointi, ennen kuin minkään kliinisen todistusaineiston kerääminen on perusteltua
-- Alemman sijoituksen omaavien kandidaattien uudelleenseulonta, kun vaikutusmekanismin tieto on saatavilla, suunnan johdonmukaisen (ei ristiriitaisen) mekanistisen sopivuuden tarkistamiseksi
-
+**Eteneminen edellyttää seuraavaa:**
+- Vaikutusmekanismin (MOA) tietojen täydentäminen
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittäminen, mikä estää turvallisuusarvioinnin jatkamisen
+- Prekliinisen tai mekanistisen näytön löytäminen TSH-reseptorin ja migreenin patofysiologian yhteydestä
+- Reittien ja annostelun soveltuvuuden arviointi (tällä hetkellä arvioimatta)
+- Tarvittaessa uusi arviointi vakuuttavamman ehdokaskäyttöaiheen kanssa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

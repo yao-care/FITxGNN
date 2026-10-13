@@ -2,7 +2,7 @@
 layout: default
 title: Bevacizumab
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 68
+nav_order: 75
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,74 +29,110 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Bevacizumab: edistyneistä kiinteistä kasvaimista silvanteen syöpään
+# Bevasitsumabi: Alkuperäisistä syöpäindikaatioista ennustettuun kystiseen neoplasiaan
 
 ## Yhden lauseen yhteenveto
 
-Bevacizumab (DB00112) on rekombinantti humanisaattu anti-VEGF-A-monoklonaalinen vasta-aine, jota käytetään maailmanlaajuisesti osana yhdistelmiä erilaisille VEGF-vetoisille kiinteille kasvaimille. TxGNN-malli ennustaa, että se saattaa olla tehokas **silvanteen syöpään** (sen korkeimmin pisteytetty ehdokas, pistemäärä 0.9990), mutta tämä näyttöpaketti sisältää tällä hetkellä **nolla kliinistä tutkimusta** ja **nolla julkaisua**, jotka ovat erityisiä tälle käyttöaihkeelle.
+Bevasitsumabi on VEGF-vasta-aine, jota on alun perin käytetty paksusuolen ja peräsuolen syövän, rintasyövän, ei-pienisoluisen keuhkosyövän, munuaissolusyövän, munasarjasyövän ja kohdunkaulan syövän hoitoon sekä kosteaan silmänpohjan ikärappeumaan. TxGNN-malli ennustaa sen mahdollisesti tehokkaaksi **epiglottiksen kasvaimessa**, mutta tälle indikaatiolle ei ole kliinisiä tutkimuksia eikä kirjallisuutta. Kaikista kymmenestä ennustetusta indikaatiosta parhaiten tuettu on **kystinen neoplasia** (**5 kliinistä tutkimusta** ja **21 julkaisua**), mutta se kattaa pääosin jo hyväksytyn munasarjasyöpäindikaation.
 
-## Nopea yleiskatsaus
+## Pikayleiskatsaus
 
 | Kohta | Sisältö |
-|-------|---------|
-| Alkuperäinen käyttöaihe | Ei saatavilla näyttöpaketissa (`original_indications` tyhjä; Suomi: ei markkinoilla, ei lupa-asiakirjaa) |
-| Ennustettu uusi käyttöaihe | Silvanteen syöpä |
-| TxGNN-ennustepistemäärä | 99.90% |
-| Näyttötaso | L5 |
-| Markkinatilanne Suomessa | Ei markkinoilla |
-| Lupien lukumäärä | 0 |
-| Suositeltu päätös | Pito |
+|------|------|
+| Alkuperäinen indikaatio | Paksusuolen ja peräsuolen kasvaimet, rintasyöpä, ei-pienisoluinen keuhkosyöpä, munuaissolusyöpä, kohdunkaulan kasvaimet (sekä munasarjan, munanjohtimen ja vatsakalvon kasvaimet) |
+| Ennustettu uusi indikaatio (sijalla 1) | Epiglottiksen kasvain |
+| TxGNN-ennustepisteet | 99,90 % |
+| Näytön taso | L5 (sijalla 1); parhaiten tuettu ennuste, kystinen neoplasia, on L1 |
+| Markkinatilanne Suomessa | Vain peruutetut myyntiluvat |
+| Myyntilupien määrä | 10 (kaikki peruutettu) |
+| Suositeltu päätös | Hold (odotetaan) |
 
-## Miksi tämä ennuste on järkevä?
+## Miksi ennuste on perusteltu?
 
-Tällä hetkellä yksityiskohtaista toimintamekanismin tietoja ei ole saatavilla näyttöpaketissa (`original_moa`: Data Gap DG002). Tunnettujen tietojen perusteella bevacizumab on monoklonaalinen vasta-aine, joka sitoutuu ja neutralisoi verisuonen endoteelin kasvutekijä-A:ta (VEGF-A), estäen angiogeneesin; sitä käytetään maailmanlaajuisesti osana yhdistelmäkemoterapia-annoksia eri VEGF-veto isille kiinteille kasvaimille (esim. metastasoitunut paksusuolen syöpä, ei-levysolusyöpä NSCLC, munuaissolujen karsinooma, munarauhassyöpä, kohdunkaulansyöpä, glioblastooma). Suomalaista markkinointilupia ei ole olemassa tässä näyttöpaketissa (`market_status`: Not marketed / Ei markkinoilla, 0 lupaa).
+Yksityiskohtaista vaikutusmekanismitietoa ei ole tämän raportin aineistossa saatavilla. Tunnetun tiedon perusteella bevasitsumabi neutraloi VEGF-A:n ja estää kasvaimen verisuonten muodostusta (angiogeneesiä). Sen teho useissa kiinteissä kasvaimissa on osoitettu, ja mekanistisesti se voi soveltua myös muihin voimakkaasti verisuonittuneisiin kasvaimiin.
 
-Silvanteen syövän osalta näyttöpaketti ei sisällä lainkaan kliinisiä tutkimuksia tai kirjallisuutta. Mekanistinen perusteltu on rajoitettu luokkatasoisen yleistämiseen: bevacizumabia on tutkittu muilla pään ja kaulan syöpäkohteilla (katso niihin liittyvät ehdokkaat alla), ja anti-VEGF-terapialla on biologisesti perusteltu rationale pään ja kaulan levysolusyövissä laajasti. Silvanteen syövän kohdalla tämä on kuitenkin vielä vahvistamaton ekstrapolaatio ilman paikan kohtaisia tukemisen tietoja – TxGNN-pistemäärä yksinään (99.90%) ei ole saattanut vahvistavia tutkimuksia tai julkaisuja.
+Epiglottiksen kasvaimen kohdalla mekanismi on uskottava pään ja kaulan alueen kasvaimissa, mutta ennuste perustuu vain mallin laskemaan pisteeseen. Aineistossa ei ole yhtään tutkimusta tai julkaisua tästä taudista, joten korkea pistemäärä (0,999) ei yksin riitä perusteeksi.
 
-## Kliinisten tutkimusten näyttö
+Kystisen neoplasian kohdalla yhteys on selvempi: bevasitsumabi on jo hyväksytty munasarjasyövän hoitoon, joten kyse ei ole varsinaisesti uudesta käyttöaiheesta. Taudin nimike on laaja, ja sen kytkeminen tiettyihin munasarjan kasvaintyyppeihin on epätarkkaa.
 
-Tällä hetkellä ei ole asiaan liittyviä rekisteröityjä kliinisiä tutkimuksia
+## Kliininen tutkimusnäyttö
 
-## Kirjallisuuden näyttö
+Sijan 1 ennusteelle (epiglottiksen kasvain) ei ole rekisteröityjä kliinisiä tutkimuksia. Alla on parhaiten tuetun ennusteen (kystinen neoplasia) tutkimukset.
 
-Tällä hetkellä kirjallisuutta ei ole saatavilla
+| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset havainnot |
+|---------|------|------|------|---------|
+| [NCT00565851](https://clinicaltrials.gov/study/NCT00565851) | Vaihe 3 | Aktiivinen, ei rekrytoi | 1052 | Karboplatiini ja paklitakseli (tai gemsitabiini) bevasitsumabin kanssa tai ilman uusiutuneessa, platinaherkässä munasarja-, vatsakalvo- ja munanjohdinsyövässä |
+| [NCT03074513](https://clinicaltrials.gov/study/NCT03074513) | Vaihe 2 | Aktiivinen, ei rekrytoi | 133 | Atesolitsumabin ja bevasitsumabin yhdistelmä harvinaisissa kiinteissä kasvaimissa, ei vertailuryhmää |
+| [NCT00101348](https://clinicaltrials.gov/study/NCT00101348) | Vaihe 1/2 | Päättynyt | 66 | Erlotinibin, setuksimabin ja bevasitsumabin yhdistelmä; ei kohdespesifinen |
+| [NCT00023959](https://clinicaltrials.gov/study/NCT00023959) | Vaihe 1 | Päättynyt | 39 | Bevasitsumabi, fluorourasiili ja hydroksiurea sädehoidon kanssa pään ja kaulan syövässä; turvallisuus ja annostus |
+| [NCT00492089](https://clinicaltrials.gov/study/NCT00492089) | Vaihe 2 | Päättynyt | 11 | Bevasitsumabi aivojen sädevaurion hoidossa; eri kliininen kysymys |
 
-## Markkinatiedot Suomesta
+Huomautus: tutkimuksen NCT00565851 otsikko oli aineistossa katkaistu, joten bevasitsumabihaara on syytä varmistaa.
 
-Bevacizumabia ei ole tällä hetkellä markkinoilla Suomessa (`total_licenses` = 0; lupa-asiakirjoja ei ole saatavilla).
+## Kirjallisuusnäyttö
+
+Alla on valikoima kystisen neoplasian (munasarjatyypit) kirjallisuudesta. Sijan 1 ennusteelle ei ole kirjallisuutta.
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|---------|-----|------|------|---------|
+| [37754507](https://pubmed.ncbi.nlm.nih.gov/37754507/) | 2023 | Systemaattinen katsaus | Current Oncology | Bevasitsumabi matala-asteisessa seroosissa munasarjasyövässä; jonkin verran vaikutusta, näyttö rajallista |
+| [40700681](https://pubmed.ncbi.nlm.nih.gov/40700681/) | 2025 | RCT | J Clin Oncol | Alpelisibi + olaparibi vs. solunsalpaaja platinaresistentissä korkea-asteisessa seroosissa munasarjasyövässä (ei bevasitsumabitutkimus) |
+| [38328890](https://pubmed.ncbi.nlm.nih.gov/38328890/) | 2024 | Retrospektiivinen | Future Oncology | Bevasitsumabi matala-asteisessa seroosissa munasarjasyövässä: objektiivinen vasteosuus 54,1 % (51 potilasta) |
+| [40513287](https://pubmed.ncbi.nlm.nih.gov/40513287/) | 2025 | RCT:n osa-analyysi | Eur J Cancer | BRCA1/RAD51C-metylaation ennustearvo PAOLA-1-tutkimuksessa (bevasitsumabi + olaparibi) |
+| [32494876](https://pubmed.ncbi.nlm.nih.gov/32494876/) | 2020 | Katsaus | Curr Oncol Rep | Ppitkälle edenneen korkea-asteisen seroosin munasarjasyövän ensilinjan hoito, VEGF-estäjät mukaan lukien |
+| [27498762](https://pubmed.ncbi.nlm.nih.gov/27498762/) | 2016 | Kohortti/translationaalinen | Sci Rep | VEGF-riippuvainen geenisignatuuri ennustaa potilaiden ennustetta mesenkymaalisessa munasarjasyövässä |
+| [29752717](https://pubmed.ncbi.nlm.nih.gov/29752717/) | 2018 | Prekliininen | Int J Cancer | Bevasitsumabin lisääminen tiheään tai tavanomaiseen paklitakseli-sisplatiinihoitoon munasarjasyövän malleissa |
+| [37657955](https://pubmed.ncbi.nlm.nih.gov/37657955/) | 2023 | Hoitotulossarja | Clin Colorectal Cancer | Mitomysiini-C, metronominen kapesitabiini ja bevasitsumabi umpilisäkeperäisessä pseudomyxoma peritonei -taudissa |
+
+## Suomen markkinatiedot
+
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty indikaatio |
+|---------|------|------|-----------|
+| EMEA/H/C/000582 | Avastin | – | Ei-pienisoluinen keuhkosyöpä, rintasyöpä, munasarjasyöpä, paksusuolen ja peräsuolen syöpä, munuaissolusyöpä... |
+| EMEA/H/C/004697 | Zirabev | – | Paksusuolen ja peräsuolen kasvaimet, rintasyöpä, ei-pienisoluinen keuhkosyöpä, munuaissolusyöpä... |
+| EMEA/H/C/004728 | Mvasi | – | Munuaissolusyöpä, vatsakalvon kasvaimet, munasarjasyöpä, rintasyöpä... |
+| EMEA/H/C/005723 | Lytenava | – | Kostea silmänpohjan ikärappeuma |
+| EMEA/H/C/005534 | Vegzelma | – | Paksusuolen ja peräsuolen kasvaimet, rintasyöpä, munasarjasyöpä, munanjohdinsyöpä... |
+
+Kaikki kymmenen myyntilupaa on merkitty peruutetuiksi.
 
 ## Sytotoksisuus
 
-Bevacizumab on antineoplastinen lääke (anti-VEGF-monoklonaalinen vasta-aine, jota käytetään yksinomaan syövän hoitoannoksissa), joten tämä osio koskee sitä.
-
 | Kohta | Sisältö |
-|-------|---------|
-| Sytotoksisuuden luokittelu | Kohdennettua hoitoa (anti-angiogeniininen monoklonaalinen vasta-aine; ei perinteinen sytostaattinen kemoterapeutti) |
-| Ytimen sortumistaipumuksen riski | Katso pakkausseloste varoitukset ja varotoimet |
-| Pahoinvointiherkkyysluokittelu | Katso pakkausseloste varoitukset ja varotoimet |
-| Seurantakohteet | Katso pakkausseloste varoitukset ja varotoimet |
-| Käsittelysuojaus | Katso pakkausseloste varoitukset ja varotoimet |
+|------|------|
+| Sytotoksisuusluokitus | Kohdennettu hoito (VEGF:ää estävä monoklonaalinen vasta-aine), ei perinteinen solunsalpaaja |
+| Luuydinlamaus | Kohdennetun hoidon luonteen vuoksi tyypillisesti pieni; riski liittyy usein samanaikaiseen solunsalpaajahoitoon. Tarkempaa tietoa ei ole saatavilla |
+| Oksentelua aiheuttava vaikutus | Pieni |
+| Seurattavat parametrit | Verenkuva, maksa- ja munuaisarvot, verenpaine, virtsan valkuaisaine |
+| Käsittelysuojaus | Noudatettava valmisteyhteenvedon ja sairaalan ohjeita; tarkempaa tietoa ei ole saatavilla |
 
 ## Turvallisuusnäkökohdat
 
-Katso turvallisuustietoja pakkauksesta.
+Lääkkeiden yhteisvaikutuksia on löytynyt yhteensä 22. **Vakavia (Major)** yhteisvaikutuksia ovat:
+- deferiproni
+- samarium (153Sm) leksidronaami
+- panitumumabi
+- sunitinibi
+- talidomidi
 
-## Johtopäätökset ja seuraavat vaiheet
+**Kohtalaisia (Moderate)** yhteisvaikutuksia ovat muun muassa bisfosfonaatit (alendronihappo, risedronihappo, etidronihappo, ibandronaatti, pamidronihappo, tiludronihappo), kasvutekijät (filgrastiimi, pegfilgrastiimi, sargramostiimi), palifermiini, idelalisibi, romosotsumabi, strontium-89, radium-223 ja radioaktiivinen fosfori (P32).
 
-**Päätös: Pito**
+Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla; ne on tarkistettava valmisteyhteenvedosta.
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Hold (odotetaan)**
 
 **Perustelut:**
-TxGNN-pistemäärä on korkea (99.90%), mutta silvanteen syövän osalta ei ole kliinisiä tutkimuksia tai kirjallisuuden näyttöä – näyttötaso on L5 (vain mallin ennuste), ja tätä lääkettä ei ole markkinoilla Suomessa.
+- Ykkössijan ennusteelle (epiglottiksen kasvain) ei ole kliinistä eikä kirjallisuusnäyttöä, joten korkea pistemäärä on pelkkä mallin ennuste. Muista ennusteista vain kystinen neoplasia yltää tasolle L1, mutta se kattaa pääosin jo hyväksytyn munasarjasyöpäindikaation eikä ole aitoa uudelleenkäyttöä.
+- Kaikki myyntiluvat Suomessa on peruutettu, ja turvallisuustiedot puuttuvat.
 
-**Jotta voitaisiin edetä, tarvitaan seuraavaa:**
-- Paikankohtaisia kliinisiä tutkimuksia tai kirjallisuuden näyttöä bevacizumabista silvanteen syöpää vastaan
-- TFDA/Suomen pakkausseloste varoitukset ja vasta-aiheet (DG001, Esto – tällä hetkellä puuttuu)
-- Vahvistettu yksityiskohtainen toimintamekanismin tieto (DG002)
-- Vahvistus siitä, että "silvanteen syöpä" on oikein kartoitettu tautiin liittyvä ontologiatermi TxGNN-ennusteessa
-
----
-**Huomautus:** Tämän saman näyttöpaketin sisällä alemmin sijoittuva ehdokas – **kystinen syöpä** (sijoitus 7, TxGNN-pistemäärä 99.89%) – sisältää huomattavasti vahvemman tukemisen näytön (8 kliinistä tutkimusta, joihin sisältyy vaihe 3 RCT, 20 julkaisua, Näyttötaso L1, päätöksentekouasema S3, suositus "Etene varoituksilla"), pääasiassa johtuen bevacizumabin vakiintuneesta käytöstä matalaasteisennytkään munarauhassyövän hoitamisessa. Tuo ehdokas saattaa vaatia erillistä arviointia korkeampiprioriteetin lääkkeen uudelleenkäyttämisen mahdollisuutena.
-
+**Eteneminen edellyttää seuraavaa:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean sivuilta (estävä tietoaukko).
+- Vaikutusmekanismitietojen täydentäminen DrugBankista.
+- Epiglottiksen kasvaimen ja muiden pään ja kaulan kasvainten kohdespesifisen kliinisen ja prekliinisen näytön kartoitus.
+- Kystisen neoplasian osalta taudin tarkentaminen tiettyihin munasarjahistologioihin ja tutkimuksen NCT00565851 bevasitsumabihaaran varmistaminen.
+- Markkinatilanteen selvittäminen, koska kaikki myyntiluvat on peruutettu.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

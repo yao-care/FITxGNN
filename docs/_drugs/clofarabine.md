@@ -2,15 +2,15 @@
 layout: default
 title: Clofarabine
 parent: Vahva näyttö (L1-L2)
-nav_order: 103
-evidence_level: L2
+nav_order: 115
+evidence_level: L1
 indication_count: 10
 ---
 
 # Clofarabine
 {: .fs-9 }
 
-Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,108 +29,132 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Kloofarabiini: Akuutista lymfoblastisesta leukemiasta myeloidiin leukemiaan
+# Klofarabiini: Uusiutuneesta/refraktaarisesta lymfoblastileukemiasta myeloidiseen leukemiaan
 
-## Yksisäntöinen yhteenveto
+## Yhteenveto
 
-Kloofarabiini on toisen sukupolven puriininukleosidianalogia, joka on alun perin kehitetty ja FDA:n hyväksymä lastenpotilaiden relapsoineet/refraktaarille akuutille lymfoblastiselle leukemialle (ALL) (tämä hyväksyntähistoria on dokumentoitu tämän todistusjoukon kliinisten tutkimusten tietuissa; Suomen/Taiwanin sääntelylisenssin tiedot eivät ole käytettävissä). TxGNN-malli ennustaa, että se saattaa myös olla tehokas **myeloidiselle leukemialle**, ja tätä suuntaa tukee tällä hetkellä **50 kliinistä tutkimusta** ja **20 julkaisua**.
+Klofarabiini on puriininukleosidianalogi, jota on alun perin käytetty prekursorisolujen lymfoblastileukemia-lymfooman hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **myeloidiseen leukemiaan** (käytännössä akuuttiin myeloidiseen leukemiaan, AML).
+Tätä suuntaa tukevat tällä hetkellä **yli 40 kliinistä tutkimusta** (mukaan lukien kaksi vaiheen 3 tutkimusta) ja **19 julkaisua**.
 
 ---
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Relapsoineet/refraktaarinen akuutti lymfoblastinen leukemia (ALL) lastenpotilailla (FDA:n hyväksymä; kliinisten tutkimusten asiakirjojen mukaan — Suomen/Taiwanin sääntelylisenssi ei ole saatavilla) |
-| Ennustettu uusi indikaatio | Myeloidinen leukemia |
-| TxGNN-ennustepisteet | 99.88% |
-| Näytön taso | L2 |
-| Suomen markkinoiden tila | Ei markkinoilla |
-| Myyntilupien lukumäärä | 0 |
-| Suositeltu päätös | Jatka varauksella |
+| Alkuperäinen käyttöaihe | Prekursorisolujen lymfoblastileukemia-lymfooma |
+| Ennustettu uusi käyttöaihe | Myeloidinen leukemia |
+| TxGNN-ennustepisteet | 99,88 % |
+| Näytön taso | L1 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Proceed with Guardrails (eteneminen suojatoimin) |
 
 ---
 
-## Miksi tämä ennuste on järkevä?
+## Miksi ennuste on perusteltu?
 
-Yksityiskohtaisia sääntelytason vaikutusmekanismin tietoja ei ole vielä saatavilla (DrugBank-kysely odottaa vahvistusta). Tässä todistusjoukon perusteella kloofarabiini on toisen sukupolven puriini (deoksiadesiini) nukleosidianalogia, joka estää DNA-polymeraasin α/ε ja ribonukleotidiredduktaasin, kuluttaa solun sisäisen deoksunukleotidin varaston ja käynnistää mitokondrion apoptoosin reitin. Tämä antaa sille suoran sytotoksisen aktiivisuuden nopeasti jakautuvia soluja vastaan — mekanismi, joka sopii hyvin hematologisille pahanlaatuisille kasvaimille, joilla on korkea proliferatiivinen osuus.
+Yksityiskohtaista vaikutusmekanismitietoa (MOA) ei ole tällä hetkellä saatavilla lääketietokannasta. Raportin tätä varten kootun kirjallisuuden mukaan klofarabiini on toisen sukupolven puriininukleosidianalogi, joka estää ribonukleotidireduktaasia ja DNA-polymeraasia. Näin se vähentää DNA:n replikaatioon tarvittavien deoksinukleosiditrifosfaattien määrää ja indusoi apoptoosia mitokondriaalisen reitin kautta.
 
-Kloofarabiinin alkuperäinen hyväksytty indikaatio, lastenpotilaiden relapsoineet/refraktaarinen ALL, ja ennustettu uusi indikaatio, myeloidinen leukemia (AML/CML), ovat molemmat hematologisia pahanlaatuisia kasvaimia, joita ohjaa korkean proliferatiivin blast-populaatio luuytimessä. Koska lääkkeen antileukeminen mekanismi ei ole sukuun rajoittunut (se kohdistuu DNA-synteesimekanismiin, joka on yhteinen sekä lymfoidisille että myeloidiisille blasteille), laajalle levinnyt etikettien ulkopuolinen ja tutkimuksellinen käyttö AML:ssa on jo kertynyt kahden vuosikymmenen aikana. Tähän sisältyvät yksittäisen lääkkeen II vaiheen tutkimukset ja useat yhdistelmäregimentiit (kloofarabiini + sytarabiini, + idarubisiini, + busulfani-pohjainen siirtämisen valmisteluhoito). Tämä olemassa oleva AML-suuntainen tutkimusjoukko on mekanistinen ja kliininen silta, joka tukee TxGNN-ennustusta.
+Alkuperäinen käyttöaihe (lymfoblastileukemia) ja myeloidinen leukemia ovat molemmat nopeasti jakautuvien leukeemisten blastisolujen sairauksia. Siksi solujen jakautumista estävä vaikutusmekanismi on sovellettavissa myös myeloidisiin blasteihin. Klofarabiinilla on todettu rooli AML:ssä, myelodysplastisissa oireyhtymissä ja siirtoa edeltävissä esihoitoregimeissä. Kyse on siis lähellä olevan käyttöaiheen laajennuksesta, ei kaukaisesta uudelleenkäytöstä.
 
 ---
 
-## Kliinisen tutkimuksen näyttö
+## Kliininen tutkimusnäyttö
 
-| Tutkimuksen numero | Vaihe | Tila | Osallistujien määrä | Tärkeimmät löydökset |
+Tiedoissa on yli 40 myeloidiseen leukemiaan liittyvää tutkimusta. Alla ovat relevanteimmat.
+
+| Tutkimusnumero | Vaihe | Tila | Osallistujia | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT01423175](https://clinicaltrials.gov/study/NCT01423175) | Vaihe 2 | Tuntematon | 60 | Satunnaistettu vertailu ClAraC:sta (kloofarabiini + Ara-C) ja FLAMSA-valmisteluhoitoon korkean riskin AML/edistyneen MDS:n osalta ennen allogenista SCT:tä |
-| [NCT01794702](https://clinicaltrials.gov/study/NCT01794702) | Vaihe 1/2 | Valmistunut | 65 | Desitabiini jota seuraa kloofarabiini + idarubisiini + sytarabiini (CIA) akuutissa leukemiassa; annoksen määritys ja taudin hallinta |
-| [NCT00044889](https://clinicaltrials.gov/study/NCT00044889) | Vaihe 2 | Valmistunut | 40 | Yksisäikeinen, avoin kloofarabiinin monoterapia refraktaarissa/relapsoinutta aikuisten AML:ssa |
-| [NCT00852709](https://clinicaltrials.gov/study/NCT00852709) | Vaihe 1 | Lopetettu | 35 | Kloofarabiinin annostason korotus ja sen jälkeinen jaksotettu syklofosforamidi relapsoineet/refraktaarissa lastenpotilaiden akuutissa leukemiassa |
-| [NCT00908167](https://clinicaltrials.gov/study/NCT00908167) | Vaihe 1 | Valmistunut | 44 | Sorafenibi järjestettynä sytarabiinin ja kloofarabiinin kanssa relapsoineet/refraktaarissa AML:ssa, APL:ssa, ALL:ssa ja vauvainfantti-leukemiassa |
-| [NCT00454480](https://clinicaltrials.gov/study/NCT00454480) | Vaihe 2/3 | Valmistunut | 2000 | Suuri hoito-kehitysohjelma vanhusten AML/korkean riskin MDS-potilaille, mukaan lukien kloofarabiini-sisältävät varret |
-| [NCT00932412](https://clinicaltrials.gov/study/NCT00932412) | Vaihe 2 | Valmistunut | 735 | Satunnaistettu CLARA (kloofarabiini/välitason sytarabiini) vs. korkean annoksen sytarabiini AML:n konsolidaationa nuoremmilla potilailla |
-| [NCT02665065](https://clinicaltrials.gov/study/NCT02665065) | Vaihe 3 | Aktiivinen, ei rekrytointia | 153 | Iomab-B ja alennetun intensiteetin valmisteluhoito (kloofarabiini-sisältävät regimentiit yleiset tässä väestössä) vs. tavanomainen hoito relapsoineet/refraktaarissa AML:ssa |
-| [NCT00373529](https://clinicaltrials.gov/study/NCT00373529) | Vaihe 2 | Valmistunut | 116 | Yksittäisen lääkkeen kloofarabiini aiemmin hoitamattomilla vanhemmilla AML-potilailla, joille intensiivinen induktio on epätodennäköisesti hyödyllinen |
-| [NCT01295307](https://clinicaltrials.gov/study/NCT01295307) | Vaihe 2 | Valmistunut | 86 | Kloofarabiini-pohjainen pelastushoito relapsoineet/refraktaarissa AML:ssa sillaksi allogenisen HCT:n edelle |
+| [NCT02085408](https://clinicaltrials.gov/study/NCT02085408) | Vaihe 3 | Päättynyt | 727 | Klofarabiini induktio- ja jatkohoitona vs. tavanomainen daunorubisiini–sytarabiini iäkkäillä AML-potilailla, jatkona desitabiinihoito tai seuranta |
+| [NCT00317642](https://clinicaltrials.gov/study/NCT00317642) | Vaihe 3 | Päättynyt | 326 | Klofarabiini + sytarabiini vs. pelkkä sytarabiini uusiutuneessa/refraktaarisessa AML:ssä, ≥55-vuotiaat, kaksoissokkoutettu |
+| [NCT01295307](https://clinicaltrials.gov/study/NCT01295307) | Vaihe 2 | Päättynyt | 86 | Klofarabiini-pelastushoito uusiutuneessa tai refraktaarisessa AML:ssä |
+| [NCT00838240](https://clinicaltrials.gov/study/NCT00838240) | Vaihe 1/2 | Tuntematon | 114 | Klofarabiini + sytarabiini ja idarubisiini aiemmin hoitamattomassa AML:ssä tai korkean riskin MDS:ssä |
+| [NCT01193400](https://clinicaltrials.gov/study/NCT01193400) | Vaihe 2 | Keskeytetty | 75 | Klofarabiini + pieniannoksinen sytarabiini induktiona ja konsolidaationa ≥60-vuotiailla |
+| [NCT00067028](https://clinicaltrials.gov/study/NCT00067028) | Vaihe 2 | Päättynyt | 116 | Klofarabiinin yhdistelmät sytarabiinin ja/tai idarubisiinin kanssa uusiutuneessa AML:ssä tai korkean riskin MDS:ssä |
+| [NCT01101880](https://clinicaltrials.gov/study/NCT01101880) | Vaihe 2 | Päättynyt | 50 | Klofarabiini + suuriannoksinen sytarabiini ja G-CSF-priming uudessa AML:ssä |
+| [NCT00469014](https://clinicaltrials.gov/study/NCT00469014) | Vaihe 2 | Päättynyt | 72 | Busulfaani–fludarabiini–klofarabiini ja allogeeninen kantasolusiirto edenneessä AML:ssä |
+| [NCT01643668](https://clinicaltrials.gov/study/NCT01643668) | Vaihe 2 | Päättynyt | 34 | Vähennetyn intensiteetin busulfaani/klofarabiini-esihoito ennen allogeenista siirtoa (yksihaaraisen tutkimuksen, esihoitokeskeinen) |
+| [NCT00044889](https://clinicaltrials.gov/study/NCT00044889) | Vaihe 2 | Päättynyt | 40 | Klofarabiini yksin aikuisilla, joilla refraktaarinen tai uusiutunut AML |
+
+Huomioita: osa pienistä tutkimuksista on keskeytetty tai vedetty pois (esim. NCT01065545, 0 osallistujaa), eikä niillä ole todistusarvoa.
 
 ---
 
-## Kirjallisuuden näyttö
+## Kirjallisuusnäyttö
 
-| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät löydökset |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [31246522](https://pubmed.ncbi.nlm.nih.gov/31246522/) | 2019 | III vaiheen RCT | J Clin Oncol | AML08 monikeskuksinen satunnaistettu tutkimus: kloofarabiini voi korvata antrasiykliinejä/etopisidia induktiohoitona lapsuuden AML:ssa |
-| [32187883](https://pubmed.ncbi.nlm.nih.gov/32187883/) | 2020 | II vaiheen kohortti | Cancer Medicine | Kloofarabiini + sytarabiini + mitoksantroni (CLAM) refraktaarissa/relapsoinutta AML:ssa: korkeat vastausprosentit, tehokas silta allo-HCT:hen |
-| [36336258](https://pubmed.ncbi.nlm.nih.gov/36336258/) | 2023 | Kohortti | Transplant Cell Ther | Kloofarabiini + busulfani myeloablatiivinen valmisteluhoito allogeniselle HCT:lle aktiivisissa myeloidi pahanlaatuisissa kasvaimissa |
-| [27621503](https://pubmed.ncbi.nlm.nih.gov/27621503/) | 2015 | Katsaus/kohortti | Hospital Pharmacy | Käytännöllinen katsaus kloofarabiini + sytarabiini-regimentin valmistukseen ja antamiseen AML:ssa |
-| [31281098](https://pubmed.ncbi.nlm.nih.gov/31281098/) | 2019 | Katsaus | Lancet Oncology | Yhteenveto kloofarabiini- ja sytarabiini-yhdistelmätiedoista AML:ssa |
-| [25457773](https://pubmed.ncbi.nlm.nih.gov/25457773/) | 2015 | Katsaus | Crit Rev Oncol Hematol | Kloofarabiinin rooli aikuisten AML:ssa monoterapiana ja yhdistelmästrategioissa |
-| [22957815](https://pubmed.ncbi.nlm.nih.gov/22957815/) | 2013 | Katsaus | Leukemia & Lymphoma | Kloofarabiinin mekanismi (ribonukleotidiredduktaasin/DNA-polymeraasi-inhibitio) ja rooli AML:ssa |
-| [23526416](https://pubmed.ncbi.nlm.nih.gov/23526416/) | 2013 | Katsaus | Am J Hematol | AML-riskikerronta ja hoitopäivitys, joka kontekstualisoi nukleosidianalogin hoitoa |
-| [18433953](https://pubmed.ncbi.nlm.nih.gov/18433953/) | 2008 | Katsaus | Blood Reviews | Perinteiset ja uudet hoitomuodot AML:lle vanhemmilla ihmisillä |
-| [17852710](https://pubmed.ncbi.nlm.nih.gov/17852710/) | 2007 | Katsaus | Leukemia & Lymphoma | "Clofarabine: past, present, and future" — mekanismi ja kehityshistoria leukemian hoidossa |
+| [22957815](https://pubmed.ncbi.nlm.nih.gov/22957815/) | 2013 | Katsaus | Leukemia & Lymphoma | Klofarabiini estää ribonukleotidireduktaasia ja DNA-polymeraasia; aktiivinen AML:ssä |
+| [25457773](https://pubmed.ncbi.nlm.nih.gov/25457773/) | 2015 | Katsaus | Critical Reviews in Oncology/Hematology | Klofarabiinin rooli aikuisten AML:n ensi- ja toisen linjan hoidossa |
+| [19852733](https://pubmed.ncbi.nlm.nih.gov/19852733/) | 2009 | Katsaus | Future Oncology | Yksittäisaineena teho vertailukelpoinen nykyisiin AML-lääkkeisiin; todennäköinen osa induktio- ja konsolidaatiohoitoja |
+| [22170975](https://pubmed.ncbi.nlm.nih.gov/22170975/) | 2012 | Katsaus | Annals of Pharmacotherapy | Teho ja siedettävyys iäkkäillä uusilla AML-potilailla |
+| [21591997](https://pubmed.ncbi.nlm.nih.gov/21591997/) | 2011 | Katsaus | Expert Opin Investig Drugs | Klofarabiini myelodysplastisissa oireyhtymissä; pieni annos voi vaikuttaa DNA-metylaatioon |
+| [19463072](https://pubmed.ncbi.nlm.nih.gov/19463072/) | 2009 | Katsaus | Expert Opin Pharmacother | Klofarabiini uutena hoitovaihtoehtona AML:ssä |
+| [16316309](https://pubmed.ncbi.nlm.nih.gov/16316309/) | 2005 | Katsaus | Expert Opin Pharmacother | Yksittäisaineteho akuuteissa leukemioissa |
+| [36336258](https://pubmed.ncbi.nlm.nih.gov/36336258/) | 2023 | Kliininen tutkimus | Transplant Cell Ther | Klofarabiini + busulfaani myeloablatiivisena esihoitona aktiivisissa myeloidisissa pahanlaatuisuuksissa |
+| [24081220](https://pubmed.ncbi.nlm.nih.gov/24081220/) | 2014 | Tapausselostus | J Oncol Pharm Pract | Klofarabiinin aiheuttama munuaistoksisuus refraktaarisessa AML:ssä |
+| [27621503](https://pubmed.ncbi.nlm.nih.gov/27621503/) | 2015 | Katsaus | Hospital Pharmacy | Klofarabiini–sytarabiini-hoito-ohjelma AML:ssä |
 
 ---
 
-## Suomen markkinoiden tiedot
+## Markkinatiedot Suomessa
 
-Kloofarabiinia ei ole tällä hetkellä markkinoilla Suomessa (0 myyntilupaa tiedostossa). Tuoteluetteloita ei ole saatavilla yhteenvedoksi.
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000613 | Evoltra | Ei tietoa | Prekursorisolujen lymfoblastileukemia-lymfooma (myyntilupa peruutettu) |
 
 ---
 
-## Sytotoksisus
+## Sytotoksisuus
 
 | Kohta | Sisältö |
 |------|------|
-| Sytotoksisuden luokitus | Perinteinen sytotoksinen (puriininukleosidianalogia / antimetabollitti) |
-| Luuydintukahdutuksen riski | Korkea — nukleosidianalogeista, jotka estävät DNA-synteesiä, odotetaan syvää luuydintukahdutusta (neutropenia, trombosytopenia, anemia). Lääke-spesifiset esiintymisluvut odottavat pakkausesitteen vahvistusta |
-| Pahoinvointiriski-luokitus | Katso pakkausesitteen varoituksista ja varotoimista |
-| Seurannan kohteet | Veren kokonaislaskenta erottelulla, maksan ja munuaisten toiminta, elektrolyytit, infektioiden merkit |
-| Käsittelysuojaus | Tulee noudattaa laitoksen sytotoksisten lääkkeiden käsittely- ja hävittämissäännöksiä |
+| Sytotoksisuusluokitus | Perinteinen sytotoksinen lääke (puriininukleosidianalogi, antimetaboliitti) |
+| Myelosuppression riski | Korkea (hoidon lääkeainetoksisuus liittyy veren solujen määrän laskuun; seuranta välttämätön) |
+| Oksentelua aiheuttavuus | Pakkausselosteen ja hoitosuositusten mukaan |
+| Seurattavat parametrit | Verenkuva (erittelylaskennalla), maksa- ja munuaisarvot, elektrolyytit |
+| Käsittelyn suojaus | Noudatettava sytotoksisten lääkkeiden käsittelyohjeita |
 
 ---
 
-## Turvallisuusnäkökohdat
+## Turvallisuushuomioita
 
-Katso turvallisuustiedoista pakkausesitteestä. (Keskeiset varoitukset, vasta-aiheet ja lääkkeiden välisen vuorovaikutuksen tiedot eivät ole tällä hetkellä saatavilla — TFDA:n pakkausesitteen hakeminen on este-puutos tälle ehdokkaalle.)
+**Avainvaroitukset ja vasta-aiheet:** Pakkausselosteen tietoja ei ole tässä aineistossa saatavilla; ne on tarkistettava Fimean valmisteyhteenvedosta.
+
+**Tietämysgraafista johdetut mahdolliset vasta-aiheet** (eivät ole valmisteyhteenvedon tekstiä): maksasairaus, sappirakon sairaus, trombosytopenia, neutropenia, agranulosytoosi, anemia, hyperbilirubinemia, Gilbertin oireyhtymä, munuaisten vajaatoiminta, uremia, hypotensio, kapillaarivuotooireyhtymä, sieni- ja muut infektiot.
+
+**Lääkeinteraktiot:** Haussa löytyi 100 yhteisvaikutusta, joista näytetyt ovat kohtalaisen vakavuusasteen (Moderate). Keskeisiä ovat esimerkiksi:
+- amfoterisiini B (ja sen lipidivalmisteet)
+- klaritromysiini, levofloksasiini, minosykliini
+- kanamysiini, neomysiini
+- mesalatsiini, balsalatsiini, olsalatsiini
+- asarboosi, pioglitatsoni
+- bupropioni, naltreksoni, nikotiiniamidi, nitisinoni, klotrimatsoli, kenodeoksikoolihappo
+
+Kirjallisuudessa on lisäksi raportoitu klofarabiinin aiheuttamaa munuaistoksisuutta.
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Johtopäätös ja jatkotoimet
 
-**Päätös: Jatka varauksella**
+**Päätös: Proceed with Guardrails**
 
-**Perustelut:**
-Kloofarabiinin vaikutusmekanismi korkean proliferatiivin blast-soluja vastaan yhdessä huomattavan määrän vaiheen I–III kliinisiä näyttöä AML:ssa (mukaan lukien satunnaistettu III vaiheen lastenlääketieteellinen tutkimus ja suuri satunnaistettu II vaiheen konsolidointitutkimus) tukee L2-näyttötasoa myeloidisen leukemian indikaaatiolle. Lääkettä ei kuitenkaan ole tällä hetkellä markkinoilla Suomessa ja keskeinen turvallisuusasiakirjat puuttuvat.
+**Perustelu:**
+- Kaksi valmistunutta vaiheen 3 tutkimusta (NCT02085408, NCT00317642) ja runsaasti vaiheen 2 -näyttöä tukevat klofarabiinin käyttöä AML:ssä. Mekanismi on lähellä alkuperäistä käyttöaihetta.
+- Suomessa ei ole voimassa olevaa myyntilupaa, ja turvallisuustietojen puuttuminen estää suoran eteenpäinviennin ilman lisäselvityksiä.
 
-**Jatkaaksemme, seuraavaa tarvitaan:**
-- TFDA/EMA:n pakkausesite varoituksilla, varotoimilla ja vasta-aiheilla (este-puutos — DG001)
-- Vahvistetut vaikutusmekanismin tiedot DrugBankista (este-puutos — DG002)
-- Muodollinen lääkkeiden välisen vuorovaikutuksen (DDI) katsaus, tällä hetkellä ratkaisematta (kyselyn tila: ei löytynyt)
-- Antoreitin yhteensopivuuden arviointi vaaditun IV-antamisen ja tulevien paikallisten valmisteiden välillä
-- Sääntelyreitin arviointi nykyisen "ei markkinoilla" -aseman vuoksi Suomessa
+**Eteneminen edellyttää:**
+- Fimean valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista (estävä tietoaukko)
+- Yksityiskohtaisen vaikutusmekanismitiedon täydentämistä lääketietokannasta
+- Vaiheen 3 tutkimusten tulosten (tehon ja eloonjäämisen) kriittistä arviointia
+- Myyntilupatilanteen selvittämistä, koska Suomessa ei ole voimassa olevaa lupaa
+- Seurantasuunnitelmaa maksa-, munuais- ja luuydintoksisuudelle sekä kapillaarivuotooireyhtymän riskille
 
+---
+
+*Sivuhuomio muista ennusteista: ennuste ALL:ään ja prekursorisolujen lymfoblastileukemiaan vastaa pitkälti alkuperäistä käyttöaihetta (L1, Proceed with Guardrails). Blastivaiheen CML:n näyttö on L2 (tutkimuskysymys). Muut ennusteet (esim. neuroblastooma, ganglioneuroblastooma, retroperitoneaalinen kasvain, CLL-alatyypit) perustuvat lähinnä mallin ennusteeseen tai epäsuoraan näyttöön, ja niiden suositus on Hold.*
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

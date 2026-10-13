@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Rimegepant
-parent: Pelkkä mallin ennuste (L5)
-nav_order: 325
-evidence_level: L5
+parent: Kohtalainen näyttö (L3-L4)
+nav_order: 379
+evidence_level: L3
 indication_count: 6
 ---
 
 # Rimegepant
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
+Näytön taso: **L3** | Ennustetut käyttöaiheet: **6** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,70 +29,90 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Rimegepantti: Migreenihoitojen indikaatiosta aivovartalon aura-migreenihoitoon
+# Rimegepantti: Migreenistä migreeniin, johon liittyy aivorunkoaura
 
-## Yhden lauseen tiivistelmä
+## Yhden lauseen yhteenveto
 
-Rimegepantti on pienimolekyylinen kalsitoniigeeni-sukulaispeptidi (CGRP) reseptorin antagonisti (gepantti-luokka), joka kehitettiin alun perin ja joka on hyväksytty migreenin akuuttiin hoitoon (auroilla tai ilman auroja) ja episodisen migreenin ehkäisyyn.
-TxGNN-malli ennustaa sen voivan olla tehokas **aivovartalon aura-migreenin** hoidossa, migreenin alatyypissä, jossa tripitaanit ovat tyypillisesti kontraindisoituja,
-sisältäen **0 omistettua kliinistä tutkimusta** mutta **14 tukevan julkaisun** rimegepantin yleisestä migreenihoitojen tehokkuudesta ja verisuoniston turvallisuusprofiilista.
+Rimegepantti on CGRP-reseptorin salpaaja, jota on alun perin käytetty migreenin hoitoon. TxGNN-malli ennustaa sen voivan tehota **aivorunkoauraan liittyvään migreeniin** (migraine with brainstem aura). Aiheesta on koottu **15 julkaisua**, mutta ei yhtään kliinistä tutkimusta, ja näyttö koskee yleistä migreeniä, joten se on tämän alatyypin osalta epäsuoraa.
+
+---
 
 ## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Migreeni (akuutti hoito ilman auroja tai auroilla; episodisen migreeni ehkäisy) — ei Suomen lisensointitiedoista, koska lääke ei ole tällä hetkellä markkinoilla siellä |
-| Ennustettu uusi indikaatio | Aivovartalon aura-migreeni |
-| TxGNN ennustuspistemäärä | 99.94% |
-| Todistusvoimakkuus | L1 (perustuu kattavaan rimegepantin/migreenin todistusbääriin; ei tutkimuksiin, jotka olisivat erityisiä aivovartalon aura alatyypille) |
-| Suomen markkinatilanne | Ei markkinoilla |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Jatka varauksilla |
+|------|------|
+| Alkuperäinen käyttöaihe | Migreenihäiriöt |
+| Ennustettu uusi käyttöaihe | Migreeni, johon liittyy aivorunkoaura |
+| TxGNN-ennustepisteet | 99,94 % |
+| Näytön taso | L3 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennuste on järkevä?
+---
 
-Rimegepantin yksityiskohtainen vaikutusmekanismi on tällä hetkellä merkitty tietovajeeksi tässä todistuspakkauksessa. Tukevan kirjallisuuden perusteella rimegepantti on erittäin selektiivinen, pienimolekyylinen kalsitoniigeeni-sukulaispeptidi (CGRP) reseptorin antagonisti — CGRP on migreeni patofysiologian keskeinen välittäjä, ja rimegepantti estää sen signaloinnin ilman tripitaaneissa nähtävää vasokonstriktiiivistä aktiivisuutta.
+## Miksi ennuste on perusteltu?
 
-Aivovartalon aura-migreeni (aiemmin "basilaarityyppin migreeni") on migreenin alatyyppi, jossa tripitaaneja tyypillisesti vältetään tai joissa ne ovat kontraindisoituja, koska niiden vasokonstriktiiivinen mekanismi sisältää teoreettisen riskin vertebrobaasilaarisen verenkierron osalta. Koska rimegepantin mekanismi ei perustu vasokonstriktion — piste, jonka vahvistaa pituussuuntainen magneettiresonanssiangiografiaa (MRA) tutkimus (PMID 41574090), joka osoittaa, että se ei aiheuta aivoja koskevien tai aivon ulkoisten valtimoiden supistumista migreeni-iskujen aikana — on mekanistisesti uskottavaa, että rimegepanttia voitaisiin käyttää turvallisesti tässä alatyypissä, jossa tripitaanit eivät ole käyttökelpoisia.
+Rimegepantti on CGRP-reseptorin salpaaja (gepantti), joka on hyväksytty aikuisten migreenikohtausten akuuttihoitoon (aurallinen ja auraton migreeni) sekä episodisen migreenin ehkäisyyn. Tarkempia mekanismitietoja ei tässä aineistossa ole saatavilla. Tunnetun lääkeluokan perusteella CGRP-reitin salpaus on kuitenkin keskeinen migreenin hoitomekanismi.
 
-Tämä tulisi ymmärtää indikaation tarkennusennusteena pikemmin kuin uutena terapeuttisena hypoteesina: rimegepantti on jo hyväksytty laajasti migreeniin, ja malli korostaa spesifistä, mekanistisesti hyvin tuettua alaryhmää (aivovartalon aura), joka hyötyisi ei-vasokonstriktiiivisen akuuttihoidon vaihtoehdosta. Yksikään tutkimus ei ole vielä suoraan ottanut tätä erityistä alaryhmää osallistujiksi tai raportoinut tuloksia aivovartalon aura-potilaille.
+Aivorunkoauraan liittyvä migreeni on aurallisen migreenin alatyyppi. Siksi CGRP-reitin salpaus voi olla myös siihen soveltuva. Korkea ennustepistemäärä vastaa tätä läheistä tautiluokitukseen perustuvaa sukulaisuutta. Kyse ei ole varsinaisesta lääkkeen uudelleenkäytöstä, koska ennustettu tauti kuuluu lääkkeen alkuperäiseen migreenin käyttöaiheiden perheeseen.
 
-## Kliinisen tutkimuksen todisteet
+Yksikään kerätyistä tutkimuksista ei rekrytoinut nimenomaan aivorunkoauraa sairastavia potilaita. Näyttö on siksi epäsuoraa ja koskee migreeniä yleisesti.
 
-Tällä hetkellä ei ole rekisteröitynä kliinisiä tutkimuksia, jotka koskisivat erityisesti aivovartalon aura-migreeniä.
+---
 
-## Kirjallisuuden todisteet
+## Kliininen tutkimusnäyttö
 
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
+Tällä hetkellä ei ole aiheeseen liittyviä rekisteröityjä kliinisiä tutkimuksia.
+
+---
+
+## Kirjallisuusnäyttö
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [32270407](https://pubmed.ncbi.nlm.nih.gov/32270407/) | 2020 | Katsaus/Sääntelytieto (ensimmäinen hyväksyntä) | Drugs | Vahvistaa rimegepantin ensimmäisen FDA:n hyväksynnän CGRP-reseptorin antagonistina akuutin migreenin hoitoon, tablettilääkkeella tutkitaan ehkäisyä ja refraktaarista trigeminaali hermosärkyä |
-| [41066271](https://pubmed.ncbi.nlm.nih.gov/41066271/) | 2025 | Vaiheen 3 avoin pitkäaikaisen turvallisuuden tutkimus | Cephalalgia | Pitkäaikainen turvallisuus, siedettävyys ja rimegepantin 75 mg ODT:n tehokkuus akuutin migreenin hoitoon kiinalaisilla aikuisilla |
-| [36808268](https://pubmed.ncbi.nlm.nih.gov/36808268/) | 2023 | Satunnaistettu lumelääke-kontrolloitu tutkimus (vaiheen 1 PK/turvallisuus) | Clin Pharmacol Drug Dev | Vahvistaa rimegepantin 75 mg ODT:n yksittäisen ja toistetun annoksen farmakokinetiikan ja turvallisuuden terveillä kiinalaisilla aikuisilla |
-| [35790906](https://pubmed.ncbi.nlm.nih.gov/35790906/) | 2022 | Verkon meta-analyysi | J Headache Pain | Epäsuora vertailu lasmiditaanin, rimegepantin ja ubrogepantin akuutin migreenin hoidon vaikuttavuuden alkamisnopeudesta |
-| [41366286](https://pubmed.ncbi.nlm.nih.gov/41366286/) | 2025 | Vaiheen 4 avoin turvallisuustutkimus | J Headache Pain | 24 viikon tutkimus kerran päivässä annettavasta 75 mg rimegepantista episodisen migreenin ehkäisyyn osoittaa hyvää pitkäaikaisiedettävyyttä |
-| [41574090](https://pubmed.ncbi.nlm.nih.gov/41574090/) | 2026 | Pituussuuntainen magneettiresonanssiangiografia-tutkimus | Brain Communications | Tutkii suoraan rimegepantin vaikutusta aivoja koskeviin ja aivon ulkoisiin valtimoihin migreeni-iskujen aikana, tukien sitä ei-vasokonstriktiiivisena vaihtoehtona tripitaaneille — mekanistisesti merkityksellisimmät aivovartalon aura-hypoteesia |
-| [41652664](https://pubmed.ncbi.nlm.nih.gov/41652664/) | 2026 | Retrospektiivinen kohortti | Headache | Arvioi rimegepantin off-label käytön siedettävyyttä ja tehokkuutta akuutin migreenin hoitoon nuorilla aikuisilla |
-| [36739335](https://pubmed.ncbi.nlm.nih.gov/36739335/) | 2023 | Katsaus | CNS Drugs | Kattava katsaus rimegepantista akuutin ja ehkäisevän migreenin hoidossa, huomioiden sen ylivoiman lumelääkkeeseen nähden vaiheen 3 tutkimuksissa |
-| [38307667](https://pubmed.ncbi.nlm.nih.gov/38307667/) | 2024 | Katsaus | Handbook of Clinical Neurology | Arvioi toisen sukupolven gepanttien (rimegepantti, ubrogepantti) farmakologiaa vertaisten ensimmäisen sukupolven hepatotoksisuushuoliin |
-| [33550872](https://pubmed.ncbi.nlm.nih.gov/33550872/) | 2021 | Katsaus | Pain Management | Arvioi rimegepantin roolia uusien akuutin migreenin hoitovaihtoehtojen (lasmiditaani, rimegepantti, ubrogepantti) joukossa |
+| [42143245](https://pubmed.ncbi.nlm.nih.gov/42143245/) | 2026 | Systemaattinen katsaus ja meta-analyysi | J Headache Pain | Arvioi 75 mg:n kerta-annoksen tehoa ja siedettävyyttä lumelääkkeeseen verrattuna migreenikohtauksen akuuttihoidossa |
+| [41066271](https://pubmed.ncbi.nlm.nih.gov/41066271/) | 2025 | Vaiheen 3 avoin pitkäaikaistutkimus | Cephalalgia | Pitkäaikainen turvallisuus ja teho akuuttihoidossa kiinalaisilla aikuisilla |
+| [41366286](https://pubmed.ncbi.nlm.nih.gov/41366286/) | 2025 | Vaiheen 4 avoin turvallisuustutkimus | J Headache Pain | Päivittäisen 75 mg:n annostelun pitkäaikaisturvallisuus episodisen migreenin ehkäisyssä |
+| [36739335](https://pubmed.ncbi.nlm.nih.gov/36739335/) | 2023 | Katsaus | CNS Drugs | Rimegepantti oli vaiheen 3 tutkimuksissa lumelääkettä tehokkaampi akuutti- ja ehkäisyhoidossa |
+| [38307667](https://pubmed.ncbi.nlm.nih.gov/38307667/) | 2024 | Katsaus | Handb Clin Neurol | Gepanttien kehitys: ensimmäisen sukupolven maksatoksisuushuolet ja toisen sukupolven lääkkeet |
+| [35790906](https://pubmed.ncbi.nlm.nih.gov/35790906/) | 2022 | Verkostometa-analyysi | J Headache Pain | Lasmiditaanin suhteellinen teho verrattuna rimegepanttiin ja ubrogepanttiin |
+| [32270407](https://pubmed.ncbi.nlm.nih.gov/32270407/) | 2020 | Katsaus | Drugs | Rimegepantin ensimmäinen hyväksyntä migreenin akuuttihoitoon |
+| [41133671](https://pubmed.ncbi.nlm.nih.gov/41133671/) | 2026 | Vaiheen 1 avoin tutkimus | Headache | Farmakokinetiikka ja turvallisuus 6–12-vuotiailla lapsilla |
+| [41652664](https://pubmed.ncbi.nlm.nih.gov/41652664/) | 2026 | Retrospektiivinen analyysi | Headache | Off-label-käytön siedettävyys ja teho nuorilla |
+| [41574090](https://pubmed.ncbi.nlm.nih.gov/41574090/) | 2026 | Pitkittäinen magneettiangiografiatutkimus | Brain Commun | Rimegepantin vaikutus aivojen ja aivojen ulkopuolisiin valtimoihin migreenikohtausten aikana |
 
-## Turvallisuushuomioon ottamisen
+---
 
-Viitaa pakkausselosteeseen turvallisuustiedoista. TFDA/EMA:n erityisiä varoituksia, kontraindikaatioita ja lääke-lääke-yhteisvaikutusten tietoja ei ollut saatavilla tässä todistuspakkauksessa.
+## Myyntilupatiedot Suomessa
 
-## Johtopäätös ja seuraavat vaiheet
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/005725 | Vydura | – | Migreenihäiriöt (tila: peruutettu) |
 
-**Päätös: Jatka varauksilla**
+---
+
+## Turvallisuusnäkökohdat
+
+- **Lääkkeiden yhteisvaikutukset:** Tietokannasta löytyi yhteensä 57 yhteisvaikutusta. Merkittäviksi (Major) luokiteltuja ovat esimerkiksi deksametasoni, lumakaftori ja apalutamidi. Kohtalaisia (Moderate) ovat mm. aprepitantti, klaritromysiini, rolapitantti, sulfasalatsiini, kobisistaatti, flukonatsoli, ketokonatsoli, erytromysiini ja takrolimuusi.
+
+Muuta turvallisuustietoa, kuten varoituksia ja vasta-aiheita, varten tulee tutustua valmisteyhteenvetoon.
+
+---
+
+## Johtopäätös ja seuraavat askeleet
+
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Mekanistinen perusteltu on vahva — rimegepantin ei-vasokonstriktiiivinen CGRP-reseptorin antagonismi osoittaa uskottavasti tripitaanien erityisen turvallisuusrajoituksen aivovartalon aura-migreenin osalta, ja tätä tukee laaja yleinen todistusbääri (14 julkaisua, sisältäen suorat verisuoniston vaikutusta koskevat tiedot). Kuitenkaan yksikään tutkimus ei ole vielä ottanut tätä erityistä alaryhmää osallistujiksi, eikä lääke ole vielä markkinoilla Suomessa, joten todellisen maailman sääntelyä ja turvallisuustietoja ei ole saatavilla.
+- Ennustetta tukee läheinen sukulaisuus lääkkeen alkuperäiseen migreenin käyttöaiheeseen, mutta aivorunkoauraa koskevaa suoraa näyttöä ei ole. Lisäksi Suomessa ainoa myyntilupa on peruutettu.
 
-**Jatkamiseksi seuraava on välttämätöntä:**
-- TFDA/EMA pakkausseloste-tiedot varoituksista ja kontraindikaatioista (tällä hetkellä este-merkinnyn tietoväli — vaaditaan ennen mitään S1-turvallisuuden arviointia)
-- Vahvistettu vaikutusmekanismi-dokumentaatio DrugBankista (tällä hetkellä tietoväli)
-- Omistettu tutkimus tai alaryhmäanalyysi potilaissa, joilla on aivovartalon aura-migreeni, pikemmin kuin yleisen migreenin tutkimustietojen ekstrapolointiin perustuva
-- Suomen/EU markkinoiden hyväksyntä ja rimegepantin lisensointistatus
-
+**Eteenpäin siirtyminen edellyttää:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista (turvallisuusarvioinnin estävä tietoaukko)
+- Vaikutusmekanismitietojen täydentämistä
+- Myyntiluvan peruuttamisen syyn ja nykyisen markkinatilanteen selvittämistä
+- Aivorunkoaurallista migreeniä sairastavien potilaiden alaryhmäanalyysiä tai kohdennettua tutkimusta
+- Tarkempaa arviota yhteisvaikutuksista, erityisesti suurten (Major) yhteisvaikutusten osalta
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -2,7 +2,7 @@
 layout: default
 title: Simvastatin
 parent: Vahva näyttö (L1-L2)
-nav_order: 345
+nav_order: 404
 evidence_level: L1
 indication_count: 8
 ---
@@ -29,99 +29,108 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **8** kpl
 
 </div>
 
-# Simvastatin: hyperkolesterolemiaasta perinnölliseen hyperkolesterolemiaaan
+# Simvastatiini: Dyslipidemioista familiaaliseen hyperkolesterolemiaan
 
 ## Yhden lauseen yhteenveto
 
-Simvastatin on vakiintunut HMG-CoA reduktaasin inhibiittori (statiini), jota käytetään klassisesti hyperkolesterolemian ja sydän- ja verisuonisairauksien riskin vähentämiseen.
-TxGNN-malli ennustaa, että se saattaa olla tehokas **perinnöllisen hyperkolesterolemian (FH)** hoidossa,
-ja tällä hetkellä **19 kliinistä tutkimusta** ja **18 julkaisua** tukevat tätä suuntaa — vaikka tämä heijastaa enemmän olemassa olevaa standardihoitokäytäntöä kuin todellista uutta signaalia.
+Simvastatiini on statiini, jota on alun perin käytetty dyslipidemioiden hoitoon. TxGNN-malli ennustaa sen soveltuvan **familiaaliseen hyperkolesterolemiaan**, ja tätä suuntaa tukee tällä hetkellä **8 kliinistä tutkimusta** ja **20 julkaisua**. Käyttöaihe on käytännössä lähellä alkuperäistä käyttöaihetta, eikä kyse ole varsinaisesti uudesta indikaatiosta.
 
 ---
 
-## Nopea katsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Ei saatavilla lähdetiedoissa (Fimean lisenssirekisterit puuttuvat; lääkettä ei ole markkinoitu Suomessa). Simvastatin on yleisesti tunnettu statiini, jota käytetään hyperkolesterolemian/dyslipidemiaan. |
-| Ennustettu uusi indikaatio | Perinnöllinen hyperkolesterolemia |
-| TxGNN-ennustepistemäärä | 99.63% |
-| Näyttötaso | L1 |
-| Suomen markkinatilanne | Ei markkinoitu |
-| Lupien lukumäärä | 0 |
-| Suositeltu päätös | Jatka varauksilla |
+| Alkuperäinen käyttöaihe | Dyslipidemiat |
+| Ennustettu uusi käyttöaihe | Familiaalinen hyperkolesterolemia |
+| TxGNN-ennustepistemäärä | 99,63 % |
+| Näytön taso | L1 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Proceed with Guardrails (eteneminen suojatoimin) |
 
 ---
 
-## Miksi tämä ennuste on perusteltu?
+## Miksi ennuste on perusteltu?
 
-Yksityiskohtaiset rakenteelliset toimintamekanismin tiedot (`original_moa`) on merkitty tietovajeeksi, mutta näyttöpaketti esittää mekanistisen perustelun suoraan: simvastatin estää HMG-CoA reduktaasin, alentaa maksan kolesterolisyntesiä ja lisää LDL-reseptorin ilmentymistä, mikä parantaa LDL-C:n klirensia plasmasta.
+Simvastatiini estää HMG-CoA-reduktaasia, mikä vähentää kolesterolin synteesiä maksassa ja lisää LDL-reseptorien määrää. Tämä nopeuttaa LDL-kolesterolin poistumista verestä. Tarkempaa vaikutusmekanismitietoa ei ole tähän raporttiin koottu aineistossa saatavilla, joten kuvaus perustuu tunnettuun statiiniluokan mekanismiin.
 
-Perinnöllinen hyperkolesterolemia (FH) — ja sen geneettisen nomenklaturan vastine "autosomaalinen dominantti hyperkolesterolemia" (itsenäisesti ennustettu sijalla 4, myös pisteytetty L1:ksi) — johtuu LDL-reseptorin signalointireitin viallisesta toiminnasta, mikä johtaa heikentyneen LDL-klirenssiin. Statiinin aiheuttama LDL-reseptorin lisääntyminen vastaa suoraan tälle sairaudelle ominaisen mekanismin, minkä vuoksi simvastatin (ja statiinit yleensä) ovat jo ensilinjan standardihoidon perusta FH:n hoidossa, mukaan lukien lapset ja heterotsygoottitilanteet.
+Familiaalinen hyperkolesterolemia on perinnöllinen sairaus, jossa LDL-kolesteroli on pysyvästi koholla. Mekanismi on sama kuin alkuperäisessä dyslipidemia-käyttöaiheessa, joten kyse on käytännössä käyttöaiheen sisäisestä tai sitä lähellä olevasta käytöstä. Simvastatiini on ohjeistuksissa vakiintunut perushoito, mutta vaikeassa tai homotsygoottisessa taudissa se ei yleensä riitä yksin. Silloin siihen yhdistetään ezetimibi tai PCSK9:ää kohdentavia lääkkeitä.
 
-Koska tämä suora mekanistinen suhde on olemassa, näyttöpaketti itse tunnistaa tämän oppikirjaesimerkkinä olevaksi mekanismi-indikaatioparityypiksi pelkän TxGNN-mallin löydön sijaan — kaksi itsenäistä, korkealle pisteytettää ennustetta (FH ja sen geneettinen synonyymi) vahvistavat toisiaan mutta eivät edusta uutta kliinistä näkemystä.
+Samaan ryhmään kuuluu ennusteista myös dominantisti periytyvä hyperkolesterolemia (sijalla 4), jolla on vastaava näyttö ja L1-taso.
 
 ---
 
-## Kliinisen tutkimuksen näyttö
+## Kliininen tutkimusnäyttö
 
-| Tutkimuksen numero | Vaihe | Tila | Osallistujamäärä | Tärkeimmät tulokset |
+| Tutkimusnumero | Vaihe | Tila | Osallistujia | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT00552097](https://clinicaltrials.gov/study/NCT00552097) | Vaihe 3 | Valmis | 720 | ENHANCE-tutkimus: ezetimiibi + korkean annoksen simvastatin vs. simvastatin yksin kaulavaltimon ateroskleroosin etenemiselle HeFH-potilailla |
-| [NCT00129402](https://clinicaltrials.gov/study/NCT00129402) | Vaihe 3 | Valmis | 248 | Ezetimiibi + simvastatin tehokkuus/turvallisuus/siedettävyys nuorilla HeFH-potilailla |
-| [NCT03884452](https://clinicaltrials.gov/study/NCT03884452) | Vaihe 3 | Valmis | 50 | Ezetimiibi lisätty atorvastatiiniin tai simvastatiiniin homotsygoottisen FH:n (HoFH) potilailla |
-| [NCT03885921](https://clinicaltrials.gov/study/NCT03885921) | Vaihe 3 | Valmis | 44 | Yllä olevan HoFH ezetimiibi + statiini tutkimuksen pitkäaikainen avoin jatko |
-| [NCT00654446](https://clinicaltrials.gov/study/NCT00654446) | Vaihe 3 | Valmis | 442 | Munuaisvaikutukset: rosuvastatin vs. simvastatin FH/dyslipidemia-potilailla |
-| [NCT00465088](https://clinicaltrials.gov/study/NCT00465088) | Vaihe 3 | Valmis | 199 | Niakiini ER + simvastatin vs. atorvastatin lipiidivaikutukset hyperlipidemian potilailla |
-| [NCT00145574](https://clinicaltrials.gov/study/NCT00145574) | Vaihe 4 | Valmis | 194 | Kolesevelami lisänä vakaiselle statiinihoidolle (ml. simvastatin) pediatrisilla HeFH-potilailla |
-| [NCT01709500](https://clinicaltrials.gov/study/NCT01709500) | Vaihe 3 | Valmis | 249 | Aalirokumabi vs. plasebo HeFH-potilailla, joita ei ole saatu kontrolliin peruslääkityksellä (ml. statiinit) |
-| [NCT01623115](https://clinicaltrials.gov/study/NCT01623115) | Vaihe 3 | Valmis | 486 | Aalirokumabi vs. plasebo HeFH-potilailla, joita ei ole saatu kontrolliin peruslääkityksellä (ml. statiinit) |
-| [NCT01070966](https://clinicaltrials.gov/study/NCT01070966) | N/A | Valmis | 2089 | VYTORIN:n (ezetimiibi/simvastatin) markkinoinnin jälkeinen uudelleentarkastelu turvallisuudesta ja tehokkuudesta |
+| [NCT00552097](https://clinicaltrials.gov/study/NCT00552097) | Vaihe 3 | Päättynyt | 720 | ENHANCE: ezetimibi + suuriannoksinen simvastatiini vs. pelkkä simvastatiini heterotsygoottisessa FH:ssa, valtimonkovettumataudin etenemisen arviointi |
+| [NCT00129402](https://clinicaltrials.gov/study/NCT00129402) | Vaihe 3 | Päättynyt | 248 | Ezetimibin ja simvastatiinin yhteiskäyttö 10–17-vuotiailla nuorilla, joilla heterotsygoottinen FH |
+| [NCT03884452](https://clinicaltrials.gov/study/NCT03884452) | Vaihe 3 | Päättynyt | 50 | Ezetimibi lisänä atorvastatiinille tai simvastatiinille homotsygoottisessa FH:ssa |
+| [NCT03885921](https://clinicaltrials.gov/study/NCT03885921) | Vaihe 3 | Päättynyt | 44 | Pitkäaikainen avoin turvallisuustutkimus (jatko-osa) ezetimibistä statiinin lisänä homotsygoottisessa FH:ssa |
+| [NCT01709500](https://clinicaltrials.gov/study/NCT01709500) | Vaihe 3 | Päättynyt | 249 | Alirokumabi vs. lumelääke heterotsygoottisessa FH:ssa; simvastatiini todennäköisesti taustahoitona |
+| [NCT03510884](https://clinicaltrials.gov/study/NCT03510884) | Vaihe 3 | Päättynyt | 153 | Alirokumabi lapsilla ja nuorilla (heFH); simvastatiini todennäköisesti taustahoitona |
+| [NCT00654446](https://clinicaltrials.gov/study/NCT00654446) | Vaihe 3 | Päättynyt | 442 | Rosuvastatiinin ja simvastatiinin munuaisvaikutukset tyypin IIa/IIb dyslipidemiassa, myös heFH; yhteys simvastatiiniin epäselvä |
+| [NCT03510715](https://clinicaltrials.gov/study/NCT03510715) | Vaihe 3 | Päättynyt | 18 | Alirokumabi lapsilla ja nuorilla (hoFH); simvastatiinin merkitys korkeintaan taustahoitona |
+| [NCT01890967](https://clinicaltrials.gov/study/NCT01890967) | Vaihe 2 | Päättynyt | 527 | PCSK9-vasta-aine LY3015014, annoshakututkimus; simvastatiini ei ole tutkittava aine |
+
+Vain kaksi tutkimusta (ENHANCE ja nuorten ezetimibi–simvastatiinitutkimus) arvioi simvastatiinia suoraan. Muissa se on lähinnä taustahoitona.
 
 ---
 
-## Kirjallisuuden näyttö
+## Kirjallisuusnäyttö
 
-| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät tulokset |
-|------|-----|------|------|---------|
-| [41824552](https://pubmed.ncbi.nlm.nih.gov/41824552/) | 2026 | Ohjeistus | Circulation | 2026 ACC/AHA dyslipidemiaohjeistus korvaa 2018 verikolesteroolia koskevan ohjeistuksen; statiinit säilyvät perushoitona |
-| [18376000](https://pubmed.ncbi.nlm.nih.gov/18376000/) | 2008 | RCT | New England Journal of Medicine | ENHANCE-tutkimus: simvastatin ± ezetimiibi ateroskleroosin etenemiselle FH:ssa |
-| [31696945](https://pubmed.ncbi.nlm.nih.gov/31696945/) | 2019 | Katsaus (Cochrane) | Cochrane Database of Systematic Reviews | Statiinien systemaattinen katsaus lapsilla, joilla on FH |
-| [15794711](https://pubmed.ncbi.nlm.nih.gov/15794711/) | 2005 | Katsaus | Expert Opinion on Drug Safety | Simvastatiinin hyötyjen ja riskien arviointi FH:ssa |
-| [27417002](https://pubmed.ncbi.nlm.nih.gov/27417002/) | 2016 | Kohorttitutkimus | Journal of the American College of Cardiology | Statiinihoidolla vähennetään sydän- ja verisuonitapahtumia ja kuolleisuutta heterotsygoottisessa FH:ssa |
-| [35629051](https://pubmed.ncbi.nlm.nih.gov/35629051/) | 2022 | Kohorttitutkimus | Journal of Clinical Medicine | Soluttaimen immuunivasteesta johtuvat parametrit lapsilla, joilla on FH ja joita hoidetaan simvastatiinilla |
-| [35361995](https://pubmed.ncbi.nlm.nih.gov/35361995/) | 2022 | Kohorttitutkimus | The Pharmacogenomics Journal | Yhdistetty FH:n ja statiinien farmakogeneettinen NGS-tutkimusstrategia |
-| [12908847](https://pubmed.ncbi.nlm.nih.gov/12908847/) | 2003 | Katsaus | Drug Safety | Simvastatiinin hyödyt ja riskit FH:n potilailla |
-| [21173733](https://pubmed.ncbi.nlm.nih.gov/21173733/) | 2010 | RCT | International Angiology | Ezetimiibi/simvastatiinin pitkäaikainen tehokkuus ja turvallisuus FH:ssa |
-| [11383320](https://pubmed.ncbi.nlm.nih.gov/11383320/) | 2001 | RCT | Nutrition, Metabolism and Cardiovascular Diseases | Atorvastatin vs. simvastatin LDL-C-tavoitteen saavuttamiselle HeFH:ssa |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|---------|-----|------|------|---------|
+| [18376000](https://pubmed.ncbi.nlm.nih.gov/18376000/) | 2008 | Kliininen tutkimus (ENHANCE) | N Engl J Med | Simvastatiini ezetimibin kanssa tai ilman heterotsygoottisessa FH:ssa; ezetimibi vähensi LDL-kolesterolia, mutta ei hidastanut kaulavaltimon seinämän paksuuntumista |
+| [18940534](https://pubmed.ncbi.nlm.nih.gov/18940534/) | 2008 | Kliininen tutkimus | J Am Coll Cardiol | Ezetimibin ja simvastatiinin yhteiskäytön teho ja turvallisuus nuorilla, joilla heFH |
+| [31696945](https://pubmed.ncbi.nlm.nih.gov/31696945/) | 2019 | Systemaattinen katsaus (Cochrane) | Cochrane Database Syst Rev | Statiinit FH-lapsilla |
+| [41824590](https://pubmed.ncbi.nlm.nih.gov/41824590/) | 2026 | Hoitosuositus | J Am Coll Cardiol | 2026 ACC/AHA-dyslipidemian hoitosuositus, joka korvaa vuoden 2018 suosituksen |
+| [41824552](https://pubmed.ncbi.nlm.nih.gov/41824552/) | 2026 | Hoitosuositus | Circulation | Sama 2026 ACC/AHA-dyslipidemiasuositus |
+| [28437620](https://pubmed.ncbi.nlm.nih.gov/28437620/) | 2017 | Hoitosuositus | Endocr Pract | AACE/ACE:n suositus dyslipidemian hoitoon ja sydän- ja verisuonitautien ehkäisyyn |
+| [12908847](https://pubmed.ncbi.nlm.nih.gov/12908847/) | 2003 | Katsaus | Drug Saf | Simvastatiinin hyödyt ja riskit FH-potilailla |
+| [15794711](https://pubmed.ncbi.nlm.nih.gov/15794711/) | 2005 | Katsaus | Expert Opin Drug Saf | Simvastatiinin hyöty–riskiarvio FH:ssa |
+| [11383320](https://pubmed.ncbi.nlm.nih.gov/11383320/) | 2001 | Kliininen tutkimus | Nutr Metab Cardiovasc Dis | Atorvastatiini vs. simvastatiini heterotsygoottisessa FH:ssa, LDL-tavoitteen saavuttaminen |
+| [35629051](https://pubmed.ncbi.nlm.nih.gov/35629051/) | 2022 | Poikkileikkaustutkimus | J Clin Med | Simvastatiinihoidon vaikutus solujen immuniteettiin FH-lapsilla |
 
 ---
 
-## Suomen markkinatiedot
+## Tiedot Suomen markkinoilta
 
-Simvastatiinilla ei ole tällä hetkellä rekisteröityä markkinaoikeutta Suomessa (`market_status: Not marketed`, `total_licenses: 0`) näyttöpaketissa — ei lisenssirekisterien tietoja ole saatavilla yhteenvedon tekemistä varten.
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/002559 | Cholib | Ei tiedossa | Dyslipidemiat (peruutettu) |
+
+Valmisteella on vain yksi, peruutettu myyntilupa. Voimassa olevia simvastatiinivalmisteita ei tässä aineistossa ole.
 
 ---
 
 ## Turvallisuushuomiot
 
-Turvallisustiedot löytyvät pakkausselosteesta.
+- **Tietokannan mukaiset vasta-aiheisiin liittyvät sairaudet** (TxGNN-tietograafi, ei valmisteyhteenvedon teksti): haimatulehdus, maksasairaus, sappirakkosairaus, trombosytopenia, hyperglykemia, lihassairaudet (myopatia, luurankolihassairaus), rabdomyolyysi, diabetes ja diabeettinen ketoasidoosi, kihti, veren hyytymishäiriöt, sepelvaltimotauti ja sydäninfarkti sekä hypofosfatemia. Lista on laaja ja vaatii vahvistuksen valmisteyhteenvedosta.
+- **Lääkeyhteisvaikutukset:** Yhteisvaikutuksia löytyi 100. Merkittäviksi (Major) luokiteltuja ovat muun muassa amiodaroni, amlodipiini ja fenofibraatti. Useat muut, esimerkiksi nifedipiini, omepratsoli, aprepitantti ja etanoli, ovat keskivakavia (Moderate).
+- **HIV-lääkitys:** Simvastatiini on CYP3A4-substraatti, ja proteaasinestäjät sekä kobisistaattia sisältävät hoito-ohjelmat nostavat merkittävästi sen pitoisuutta ja myopatian riskiä.
+
+Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat tästä aineistosta, joten niiden osalta on tarkistettava Fimean valmisteyhteenveto.
 
 ---
 
-## Johtopäätös ja seuraavat askeleet
+## Johtopäätös ja jatkotoimet
 
-**Päätös: Jatka varauksilla**
+**Päätös: Proceed with Guardrails (eteneminen suojatoimin)**
 
 **Perustelut:**
-FH-indikaatio on tuettu L1-tason näytöllä (19 tutkimusta, mukaan lukien maamerkkitutkimus ENHANCE, 18 julkaisua, mukaan lukien Cochrane-katsaukset ja 2026 ACC/AHA-ohjeistus), ja sitä vahvistaa itsenäinen, yhtä korkealle pisteytetty ennuste samalle taudille sen geneettisen nimen alla ("autosomaalinen dominantti hyperkolesterolemia"). Tämä heijastaa kuitenkin simvastatiinin olemassa olevaa roolia standardihoitona pikemminkin kuin uuden uudelleenkäytön signaalia, ja kaksi estävää/korkean vakavuusasteen tietovajeista jää ratkaisematta.
+- Simvastatiinin mekanismi on sama kuin alkuperäisessä käyttöaiheessa, ja familiaalisessa hyperkolesterolemiassa on useita vaiheen 3 tutkimuksia ja ohjeistuksia. Näyttötaso on L1, mutta suoraan simvastatiinia arvioivia tutkimuksia on vain kaksi.
+- Suomessa ei ole voimassa olevaa myyntilupaa, ja valmisteyhteenvedon turvallisuustiedot puuttuvat, mikä rajoittaa etenemistä.
 
-**Jatkaaksesi, seuraava on tarpeen:**
-- TFDA/Fimean pakkausselosteen varoitukset ja vasta-aiheet (DG001, estävä — tällä hetkellä täysin puuttuvat)
-- Dokumentoitu toimintamekanismi DrugBankista (DG002)
-- Suomen markkinoinnin/rekisteröintitilanteen selventäminen, sillä lääke näyttää tällä hetkellä olevan nolla lisenssillä huolimatta siitä, että se on globaalisti markkinoitu geneerinen lääke
-- FH:n ja autosomaalisen dominantti-hyperkolesterolemian ennusteiden sovittaminen yhdeksi indikaatioksi kahden erillisen ehdokkaan sijaan
+**Jatkaminen edellyttää:**
+- Fimean valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista ja läpikäyntiä (turvallisuusseulonnan estävä tietoaukko)
+- Vaikutusmekanismitietojen täydentämistä lääketietokannasta
+- Selvitystä siitä, onko Suomessa saatavilla voimassa olevia simvastatiinivalmisteita
+- Yhteisvaikutusten hallintasuunnitelmaa (erityisesti amiodaroni, amlodipiini, fenofibraatti ja HIV-lääkkeet) sekä lihasoireiden ja maksa-arvojen seurantaa
 
+**Muut ennustetut käyttöaiheet:** Dominantisti periytyvä hyperkolesterolemia (sija 4) on samalla tavalla Proceed with Guardrails -tasolla. HIV-infektion yhteydessä kyse on lähinnä HIV-potilaiden rasvahäiriön hoidosta, ei infektion hoidosta (näyttö L3, tutkimuskysymys). Aivorunkoinfarkti, CETP-puutos, CYP7A1-puutteeseen liittyvä hyperkolesterolemia, ABri-amyloidoosi ja harvinainen neurokehityshäiriö on arvioitu Hold-tasolle, koska näyttö on vähäistä tai puuttuu.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

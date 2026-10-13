@@ -2,7 +2,7 @@
 layout: default
 title: Polatuzumab Vedotin
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 302
+nav_order: 350
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,87 +29,82 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Polatuzumab vedotin: B-solujen lymfoomasta (DLBCL) HER2-positiiviseen rintasyöpään
+# Polatutsumabivedotiini: Alkuperäisestä B-solulymfooman käytöstä ennustettuun HER2-positiiviseen rintasyöpään
 
-## Yhden lauseen yhteenveto
+## Yhden lauseen tiivistelmä
 
-Polatuzumab vedotin on anti-CD79b-vasta-aine-lääke-konjugaatti (ADC), jonka tunnettu lääkeryhmä kohdistuu B-solujen lymfoomiin, kuten DLBCL:hen; vahvistetut alkuperäisen indikaation ja sääntelytiedot tälle todistusaineistolle eivät ole vielä käytettävissä. TxGNN-malli ennustaa mahdollista tehokkuutta **HER2-positiiviseen rintasyöpään**, ennustepisteen ollessa **99.34%**, mutta **nolla kliinistä tutkimusta** ja **nolla julkaisua** tällä hetkellä tukee tätä suuntaa — tämä on pelkästään malli-pohjainen signaali.
+Polatutsumabivedotiini on vasta-aine-lääkekonjugaatti, jota on alun perin käytetty B-solulymfooman hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **HER2-positiiviseen rintasyöpään**, mutta ennuste perustuu pelkästään malliin: **kliinisiä tutkimuksia ei ole rekisteröity** eikä **julkaisuja** ole löytynyt.
 
----
+## Pikakatsaus
 
-## Nopea yleiskatsaus
+| Kohta | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | B-solulymfooma |
+| Ennustettu uusi käyttöaihe | HER2-positiivinen rintasyöpä |
+| TxGNN-ennustepisteet | 99,34 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odotetaan) |
 
-| Kohde | Sisältö |
-|------|--------|
-| Alkuperäinen indikaatio | Ei vahvistettu tässä todistusaineistossa (lisenssiteksti tai indikaatiotiedot eivät saatavilla); lääkeryhmän tausta viittaa B-solujen lymfoomiin (esim. DLBCL) |
-| Ennustettu uusi indikaatio | HER2-positiivinen rintasyöpä |
-| TxGNN-ennustepiste | 99.34% |
-| Todistusaineiston taso | L5 |
-| Markkinatilanne Suomessa | Ei markkinoilla |
-| Lupien lukumäärä | 0 |
-| Suositeltu päätös | Pidätä |
+## Miksi ennuste voisi olla perusteltu?
 
----
+Tämän raportin laatimiseksi koottu aineisto ei sisällä yksityiskohtaista vaikutusmekanismitietoa. Tiedossa on, että polatutsumabivedotiini on vasta-aine-lääkekonjugaatti, joka kohdistuu CD79b:hen (B-solureseptorin osa) ja vie solun sisään mikrotubuluksia häiritsevää MMAE-yhdistettä (monometyyliauristatiini E).
 
-## Miksi tämä ennuste on järkevä?
+Alkuperäinen käyttöaihe ja ennustettu käyttöaihe eivät ole mekanistisesti lähellä toisiaan. CD79b ei ole tunnettu kohde HER2-positiivisessa rintasyövässä, eikä aineistosta löytynyt suoraa mekanistista yhteyttä. Korkea pistemäärä (0,993) on pelkkä mallin tuottama ennuste.
 
-Polatuzumab vedotinin yksityiskohtainen toimintamekanismia koskeva tieto ei ole saatavilla tässä todistusaineistossa. Tarjotun uudelleenkäyttöperustuksen perusteella lääke on CD79b:tä kohdistettu vasta-aine-lääke-konjugaatti (ADC) — CD79b on B-solujen reseptorikomplementin komponentti, jonka ilmaisu on fysiologisesti rajoittautunut B-lymfosyyttisarjaan (normaalit B-solut ja B-solujen lymfoomat, kuten DLBCL).
+Epäsuora perustelu on, että MMAE on hyötykuormana myös muissa vasta-aine-lääkekonjugaateissa ja mikrotubuluksiin kohdistuvilla hyötykuormilla on tehoa rintasyövässä. Tämä edellyttäisi kuitenkin kohdeantigeenin ilmentymistä, eikä CD79b:n ilmentymiselle rintakudoksessa ole tukea.
 
-HER2-positiivinen rintasyöpä sen sijaan on epiteelistä lähtöisin oleva kasvain, jota ajaa HER2/ERBB2-geeniamplifikaatio ja seuraava PI3K/MAPK-signalointi — signaaliväylä, jolla ei ole tunnettua leikkauspistettä CD79b/B-solujen reseptori-signaloinnin kanssa. Kirjallisuudessa ei ole raportoitu CD79b:n ilmaisusta rintasyöpäsoluissa.
+## Kliininen tutkimusnäyttö
 
-TxGNN-pistemäärä 0.9934 heijastaa graafisen neuroverkkolinkkiennusteen tulosta, joka saattaa siepata "syöpä"- ja "ADC-lääke"-solmuluokkien välistä samanesiintymiskuviota tietoverkossa mieluummin kuin aito molekyylitason mekanistinen todiste. Yhdistettynä alkuperäisten MOA-tietojen puuttumiseen, tällä ennusteella puuttuu tällä hetkellä varmennettava biologinen perusta.
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
----
+## Kirjallisuusnäyttö
 
-## Kliinisen tutkimuksen todistusaineisto
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
-Tällä hetkellä ei ole rekisteröityjä liittyviä kliinisiä tutkimuksia.
+## Markkinatiedot Suomessa
 
----
-
-## Kirjallisuuden todistusaineisto
-
-Tällä hetkellä liittyvää kirjallisuutta ei ole saatavilla.
-
----
-
-## Markkinatilanne Suomessa
-
-Polatuzumab vedotinilla ei tällä hetkellä ole markkinointilupia Suomessa (0 lupaa rekisterissä; markkinatilanne: Ei markkinoilla).
-
----
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004870 | Polivy (Roche Registration GmbH), peruutettu | – | B-solulymfooma |
 
 ## Sytotoksisuus
 
-| Kohde | Sisältö |
-|------|--------|
-| Sytotoksisuuden luokittelu | Kohdennettu lääkehoito — vasta-aine-lääke-konjugaatti (ADC), uudelleenkäyttöperustuksen mukaan (anti-CD79b ADC) |
-| Luuydinsupression riski | Katso pakkausselosteen varoitukset ja varotoimet |
-| Emetisuuden luokittelu | Katso pakkausselosteen varoitukset ja varotoimet |
-| Valvontakohteet | Katso pakkausselosteen varoitukset ja varotoimet |
-| Käsittelysuojaus | Katso pakkausselosteen varoitukset ja varotoimet |
+| Kohta | Sisältö |
+|------|------|
+| Sytotoksisuusluokitus | Vasta-aine-lääkekonjugaatti (kohdennettu hoito), jonka hyötykuorma MMAE on sytotoksinen mikrotubulusinhibiittori |
+| Myelosuppression riski | Tarkempia tietoja ei ole saatavilla; ks. valmisteyhteenvedon varoitukset ja varotoimet |
+| Emetogeenisuusluokitus | Tarkempia tietoja ei ole saatavilla; ks. valmisteyhteenveto |
+| Seurattavat parametrit | Verenkuva, maksa- ja munuaisarvot (yleinen suositus sytotoksisille lääkkeille) |
+| Käsittelysuojaus | Noudatettava sytotoksisten lääkkeiden käsittelyohjeita |
 
----
+## Turvallisuushuomiot
 
-## Turvallisuuteen liittyvät näkökohdat
+Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ollut saatavilla; ne on tarkistettava valmisteyhteenvedosta.
 
-Katso pakkausselosteen turvallisuustietoja.
+**Lääkkeiden yhteisvaikutukset:** Aineistossa on 100 yhteisvaikutusta, joista tässä on käsitelty 20 ensimmäistä. Vakavimmiksi (Major) luokiteltuja ovat:
+- Klaritromysiini
+- Kobisistaatti
+- Deferiproni
+- Samarium (153Sm) leksidronaami
 
----
+Loput tarkastelluista ovat luokkaa kohtalainen (Moderate), mm. aprepitantti, simetidiini, naltreksoni, metronidatsoli, mikonatsoli, rosuvastatiini, simvastatiini, tikagrelori, klorokiini ja hydroksiklorokiini.
 
-## Johtopäätökset ja seuraavat vaiheet
+## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Pidätä**
+**Päätös: Hold (odotetaan)**
 
-**Perustelu:**
-TxGNN-pistemäärä on korkea, mutta mitään tukevaa kliinistä tutkimusta tai julkaisua ei ole, eikä lääkkeen tunnetulla mekanismilla (CD79b/B-solujen reseptori-signalointi) ole vakiintunutta yhteyttä HER2-ohjattuun rintasyöpäbiologiaan. Tämä on L5-luokituksinen, pelkästään mallipohjaisesti ennustettu signaali, jolla on epäsuotuisa mekanistinen perustelu, eikä se täytä kriteerejä edistyä alkuperäisen seulonnan ohi.
+**Perustelut:**
+- Ennuste perustuu vain TxGNN-mallin pisteisiin (näytön taso L5). Kliinisiä tutkimuksia ja julkaisuja ei ole, eikä CD79b:n ja HER2-positiivisen rintasyövän välillä ole tunnistettu mekanistista yhteyttä. Lisäksi Suomen myyntilupa on peruutettu.
 
-**Jotta edistyminen olisi mahdollista, tarvitaan seuraavaa:**
-- TFDA/Fimean pakkausseloste (varoitukset, vasta-aiheet) — tällä hetkellä estää (DG001)
-- Vahvistettu alkuperäinen indikaatio ja muodollinen MOA-dokumentaatio DrugBank/sääntelylähteiden kautta (DG002)
-- Lääkkeen vuorovaikutus (DDI)-tiedot — nykyinen kysely palautti not_found
-- Mikä tahansa ilmaantuva prekliininen tai kliininen todiste, joka linkittää CD79b/ADC-mekanismin HER2-positiiviseen rintasyöpään, ennen kuin tätä indikaatiota uudelleen harkitaan
-
+**Eteenpäin siirtyminen edellyttää:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista (estää turvallisuusarvioinnin jatkamisen)
+- Vaikutusmekanismitietojen täydentämistä
+- CD79b:n ilmentymisen selvittämistä rintasyöpäkudoksessa
+- Prekliinistä näyttöä tehosta HER2-positiivisessa rintasyövässä
+- Myyntiluvan peruutuksen syiden ja nykyisen saatavuuden selvittämistä
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -2,7 +2,7 @@
 layout: default
 title: Gimeracil
 parent: Vahva näyttö (L1-L2)
-nav_order: 174
+nav_order: 202
 evidence_level: L1
 indication_count: 10
 ---
@@ -29,103 +29,111 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Gimmerasili: Mahalaukkasyöpästä paksusuolen syöpään
+# Gimeracil: Mahasyövästä paksusuolen kasvaimeen
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Gimmerasili on komponentti S-1 kiinteässä yhdistelmässä (tegafuri/gimmerasili/oteratsili), DPD (dihidropyrmiidiini dehydrogenaasi) -estäjä, joka vahvistaa 5-FU-aktiivisuutta ja on osoittanut tehokkuutta mahalaukkasyövässä.
-TxGNN-malli ennustaa, että se saattaa olla tehokas **paksusuolen syövälle**,
-ja tällä hetkellä **8 kliinistä tutkimusta** ja **15 julkaisua** tukevat tätä suuntaa, mukaan lukien kaksi valmistunutta Phase 3 RCT-tutkimusta.
-
----
-
-## Nopea yleiskatsaus
-
-| Kohde | Sisältö |
-|------|--------|
-| Alkuperäinen indikaatio | Mahalaukkasyöpä (osana S-1-yhdistelmää; ei erillisen Taiwanin/Suomen sääntelyä tiedossa) |
-| Ennustettu uusi indikaatio | Paksusuolen syöpä |
-| TxGNN-ennustepisteet | 99.88% |
-| Todistusaste | L1 |
-| Suomen markkinoiden tila | Ei markkinoilla (Not Marketed) |
-| Valtuuksien lukumäärä | 0 |
-| Suositeltu päätös | Etene varauksilla |
+Gimeracil on S-1-yhdistelmävalmisteen (tegafuuri + gimeracil + oteracil) DPD-entsyymiä estävä osa, ja sitä on alun perin käytetty mahasyövän hoidossa.
+TxGNN-malli ennustaa sen voivan tehota **paksusuolen kasvaimeen** (colonic neoplasm).
+Ennustetta tukee tällä hetkellä **6 kliinistä tutkimusta** ja **12 julkaisua**, joista suurin osa on kuitenkin tapausselostuksia.
 
 ---
 
-## Miksi tämä ennuste on järkevä?
+## Pikakatsaus
 
-Tällä hetkellä yksityiskohtainen tieto gimmerasilin toimintamekanismista ei ole saatavilla (tietorakon). Tunnettujen tietojen perusteella gimmerasili itse ei ole sitotoksinen — se on S-1 kiinteän yhdistelmän (tegafuri + gimmerasili + oteratsili) DPD-estäjä-komponentti. Estämällä DPD-välitteistä tegafurista syntyvän 5-FU:n hajoamista, gimmerasili nostaa ja ylläpitää tuumorin sisäisiä 5-FU-konsentraatioita, vahvistaen yhdistelmän anti-tuumori-aktiivisuutta. S-1:n tehokkuus mahalaukkasyövässä on todettu ja muodostaa farmakologisen perustan ekstrapoloinnille paksusuolen syöpään.
-
-Mahalaukkasyöpä ja paksusuolen syöpä ovat molemmat ruoansulatuskanavassa esiintyvät, fluoropyrimidiini-herkkiä kasvaimia, joilla on sama 5-FU-ohjattu toimintamekanismi. S-1-pohjaisia hoitokaavioita (SOX, S-1+irinotekaani, S-1+leukovoriini) käytetään jo vakiintuneet kemoterapiapohjaisen strategian monissa aasialaissa ja eurooppalaisissa tutkimuksissa, mikä tukee TxGNN-ennusteen biologista uskottavuutta.
-
-On tärkeää huomata, että mahdollinen tehokkuus on attribuoitava **S-1-yhdistelmälle kokonaisuudessaan**, ei gimmerasilille erillisenä aineena — gimmerasililla ei ole riippumatonta anti-tuumori-aktiivisuutta ja se toimii puhtaasti farmakokineettisena vahvistajana kiinteän lääkkeen sisällä.
-
----
-
-## Kliinisen tutkimusten näyttö
-
-| Tutkimusnumero | Vaihe | Tila | Osallistujat | Tärkeimmät havainnot |
-|---------|------|------|------|---------|
-| [NCT01918852](https://clinicaltrials.gov/study/NCT01918852) | Phase 3 | Valmistunut | 161 | SALTO-tutkimus: S-1 vs. kapesitabiini (± bevatsumabi) ensimmäisen linjan hoitona metastaattisessa kolorektaalissa syövässä |
-| [NCT00660894](https://clinicaltrials.gov/study/NCT00660894) | Phase 3 | Valmistunut | 1535 | UFT+leukovoriini vs. TS-1 (sisältää gimmerasilia) adjuvanttina hoitona vaiheen III paksusuolen syövälle, geeniexpression ennustavan tekijäanalyysin kera |
-| [NCT03448549](https://clinicaltrials.gov/study/NCT03448549) | Phase 3 | Tuntematon | 1191 | SOX (S-1+oksaliplatina) vs. XELOX adjuvantissa kemiassa vaiheelle III kolorektaalissa syövälle |
-| [NCT02618356](https://clinicaltrials.gov/study/NCT02618356) | Phase 2 | Tuntematon | 82 | Raltitreksedi + S-1 metastaattisessa kolorektaalissa syövässä standardihoidon epäonnistumisen jälkeen |
-| [NCT00524706](https://clinicaltrials.gov/study/NCT00524706) | Phase 1/2 | Tuntematon | 42 | S-1 + suun kautta otettava leukovoriini + oksaliplatina (SOL-hoitokaavio) käsittelemättömässä metastaattisessa kolorektaalissa syövässä |
-| [NCT00974389](https://clinicaltrials.gov/study/NCT00974389) | Phase 2 | Tuntematon | 40 | S-1 + bevatsumabi resektoimattomassa/uusiutuvassa kolorektaalissa syövässä aiemman irinotekaani/oksaliplatina-hoidon epäonnistumisen jälkeen |
-| [NCT02216149](https://clinicaltrials.gov/study/NCT02216149) | Phase 2 | Keskeytetty | 20 | S-1 vs. kapesitabiini + oksaliplatina: subkliinisen koronaarisen mikrovaskulaarisen toksisuuden vertailu metastaattisessa GI-adenokarsinoomassa |
-| [NCT06255379](https://clinicaltrials.gov/study/NCT06255379) | Phase 2 | Ei vielä rekrytaatiovaihetta | 52 | Fukinitiinibi + tegafuri/gimmerasili/oteratsili kolmannen linjan hoitona edistyneessä metastaattisessa kolorektaalissa syövässä |
-
----
-
-## Kirjallisuuden näyttö
-
-| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät havainnot |
-|------|-----|------|------|---------|
-| [41724114](https://pubmed.ncbi.nlm.nih.gov/41724114/) | 2026 | Todellisen maailman tutkimus | Eur J Cancer | Väestöpohjainen tutkimus: S-1 on toteutettavissa kapesitabiini-aiheuttaman käsi-jalkaoireyhtymän/kardiotosisuuden jälkeen adjuvantissa paksusuolen syövän hoidossa |
-| [21875473](https://pubmed.ncbi.nlm.nih.gov/21875473/) | 2011 | Kohortti/kliininen tutkimus | Zhonghua Zhong Liu Za Zhi | Oksaliplatina + S-1-yhdistelmän tehokkuus ja sivuvaikutukset leikkauksen jälkeen paksusuolen syövän potilailla |
-| [21084813](https://pubmed.ncbi.nlm.nih.gov/21084813/) | 2010 | Kohortti (turvallisuus) | Gan To Kagaku Ryoho | Vakavan (grade 3-4) hematologisen toksisuuden (16,1 % ilmaantuvuus) riskitekijät S-1 + irinotekaani-hoidossa edistyneessä/uusiutuvassa paksusuolen syövässä |
-| [20841935](https://pubmed.ncbi.nlm.nih.gov/20841935/) | 2010 | Farmakokinettinen tutkimus | Gan To Kagaku Ryoho | S-1:n farmakokinettiikka peritonaalisten metastaasin hoitoon hiiren paksusuolen syövän mallissa |
-| [20811661](https://pubmed.ncbi.nlm.nih.gov/20811661/) | 2010 | Prekliininen (ksenografti) | Oncology Reports | Irinotekaani voittaa 5-FU-resistenssin paksusuolen syövän ksenograftissa timiidylaatin syntaasin alentamisen kautta yhdessä oraalisen S-1:n kanssa |
-| [18630468](https://pubmed.ncbi.nlm.nih.gov/18630468/) | 2008 | Tapauskertomus | Anticancer Research | Täydellinen vastaus säilyi S-1 + CPT-11:lla paksusuolen syövän hepatisissa metastaaseissa |
-| [29394831](https://pubmed.ncbi.nlm.nih.gov/29394831/) | 2017 | Tapauskertomus | Gan To Kagaku Ryoho | Kaksivaiheinen hepatektomia alaspäinsäätelyn jälkeen SOX:lla (S-1+oksaliplatina) + panimumaabi resektoimattomissa kolorektaalisen maksan metastaaseissa |
-| [32936722](https://pubmed.ncbi.nlm.nih.gov/32936722/) | 2021 | Tapauskertomus | J Oncol Pharm Pract | S-1-indusoitu hypertriglyseridemia kolorektaalisen syövän potilaalla |
-| [28414195](https://pubmed.ncbi.nlm.nih.gov/28414195/) | 2017 | Tapauskertomus | Eur J Dermatol | S-1-indusoitu erytroderma laajalla limakalvojen osallistumisella ja käsi-jalkaoireyhtymällä |
-| [35444144](https://pubmed.ncbi.nlm.nih.gov/35444144/) | 2022 | Tapauskertomus | Gan To Kagaku Ryoho | Peritonaalisten uusiutumisten laparoskopinen poisto paksusuolen syövän leikkauksen jälkeen |
-
----
-
-## Sitotoksisuus
-
-| Kohde | Sisältö |
+| Kohta | Sisältö |
 |------|------|
-| Sitotoksisuuden luokitus | Perinteinen sitotoksinen (fluoropyrimidiini-luokan yhdistelmä) — gimmerasili itse on ei-sitotoksinen DPD-estäjä, joka vahvistaa 5-FU-sitotoksisuutta S-1-tuotteessa |
-| Luuydinsupressionin riski | Keskitaso — grade 3-4 hematologinen toksisuus ilmoitettu noin 16,1 % potilaissa, jotka saivat S-1 + irinotekaania (PMID 21084813) |
-| Pahoinvoinnin luokitus | Matala – kohtalainen (riippuu yhdistelmäkumppanista; korkeampi oksaliplaatina/irinotekaanin yhteydessä) |
-| Seurantakohteet | CBC erilaistuksella, munuaisten toiminta (annostus säädettävä munuaisten selvityksen perusteella), maksan toiminta, triglyseeridit (ilmoitettu hypertriglyseridemia), ihon/limakalvojen toksisuus |
-| Käsittelyturvallisuus | Vakiintuneet sitotoksisen lääkkeen käsittelytoimet pätevät, johdonmukaisesti fluoropyrimidiini-kemoterapia-aineiden kanssa |
+| Alkuperäinen käyttöaihe | Mahasyöpä (Stomach Neoplasms) |
+| Ennustettu uusi käyttöaihe | Paksusuolen kasvain (colonic neoplasm) |
+| TxGNN-ennustepistemäärä | 99,88 % |
+| Näytön taso | L1 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Proceed with Guardrails (eteneminen suojatoimin) |
 
 ---
 
-## Turvallisuustiedot
+## Miksi ennuste on perusteltu?
 
-Katso pakkausselosteesta turvallisuustietoja.
+Gimeracil on S-1:n (tegafuuri/gimeracil/oteracil) DPD-estäjä. Estämällä dihydropyrimidiinidehydrogenaasia se hidastaa tegafuurista muodostuvan 5-FU:n hajoamista ja ylläpitää pitkäaikaista systeemistä 5-FU-altistusta. Tegafuuri toimii 5-FU:n esiasteena, ja oteracil rajoittaa ruoansulatuskanavan haittavaikutuksia. Gimeracilia ei käytetä yksinään, vaan näyttö koskee S-1-yhdistelmää.
+
+Mahasyöpä ja paksusuolen syöpä ovat molemmat ruoansulatuskanavan adenokarsinoomia, joita hoidetaan fluoropyrimidiineillä. Paksusuolen syöpä on lisäksi 5-FU:lle herkkä kasvaintyyppi, minkä vuoksi mekanistinen yhteys on uskottava.
+
+Yksityiskohtaisia vaikutusmekanismitietoja ei tässä aineistossa ole saatavilla, joten yllä oleva perustelu pohjautuu S-1:n tunnettuun farmakologiaan.
+
+---
+
+## Kliininen tutkimusnäyttö
+
+| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset havainnot |
+|---------|------|------|------|---------|
+| [NCT00660894](https://clinicaltrials.gov/study/NCT00660894) | Vaihe 3 | Valmistunut | 1535 | UFT + leukovoriini vs. S-1 (TS-1) liitännäishoitona levinneisyysasteen III paksusuolisyövässä; vahvin näyttö |
+| [NCT03448549](https://clinicaltrials.gov/study/NCT03448549) | Vaihe 3 | Tuntematon | 1191 | SOX (oksaliplatiini + S-1) vs. XELOX liitännäishoitona levinneisyysasteen III kolorektaalisyövässä |
+| [NCT00974389](https://clinicaltrials.gov/study/NCT00974389) | Vaihe 2 | Tuntematon | 40 | S-1 + bevasitsumabi uusiutuneessa tai leikkaukseen soveltumattomassa kolorektaalisyövässä |
+| [NCT02618356](https://clinicaltrials.gov/study/NCT02618356) | Vaihe 2 | Tuntematon | 82 | Raltitreksedi + S-1 metastaattisessa kolorektaalisyövässä; päätetapahtuma etenemisvapaa elinaika |
+| [NCT06255379](https://clinicaltrials.gov/study/NCT06255379) | Vaihe 2 | Ei vielä rekrytoi | 52 | Fruquintinibi + tegafuuri/gimeracil/oteracil kolmannen linjan hoitona; ei vielä tuloksia |
+| [NCT02216149](https://clinicaltrials.gov/study/NCT02216149) | Vaihe 2 | Keskeytetty | 20 | S-1 tai kapesitabiini + oksaliplatiini, sepelvaltimoverenkierto (sydänturvallisuus); rajallinen teho-näyttö |
+
+---
+
+## Kirjallisuusnäyttö
+
+Haetussa aineistossa ei ollut satunnaistettuja tutkimuksia; suurin osa on tapausselostuksia ja prekliinisiä tutkimuksia.
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [20811661](https://pubmed.ncbi.nlm.nih.gov/20811661/) | 2010 | Prekliininen (ksenografti) | Oncology Reports | Irinotekaani voitti 5-FU-resistenssin ihmisen paksusuolisyöpäksenografteissa S-1:n kanssa |
+| [20841935](https://pubmed.ncbi.nlm.nih.gov/20841935/) | 2010 | Farmakokineettinen tutkimus | Gan to Kagaku Ryoho | S-1:n hyödyllisyys paksusuolisyövän vatsakalvoetäpesäkkeissä hiirimallissa |
+| [21084813](https://pubmed.ncbi.nlm.nih.gov/21084813/) | 2010 | Retrospektiivinen analyysi | Gan to Kagaku Ryoho | Vakavan hematologisen toksisuuden riskitekijät S-1 + irinotekaani -hoidossa (87 potilasta); asteen 3–4 toksisuus 16,1 % |
+| [18630468](https://pubmed.ncbi.nlm.nih.gov/18630468/) | 2008 | Tapausselostus | Anticancer Research | Täydellinen vaste S-1 + CPT-11 -hoidolla paksusuolisyövän maksametastaaseissa |
+| [29394831](https://pubmed.ncbi.nlm.nih.gov/29394831/) | 2017 | Tapausselostus | Gan to Kagaku Ryoho | SOX + panitumumabi pienensi maksametastaaseja, mikä mahdollisti kaksivaiheisen maksaresektion |
+| [32936722](https://pubmed.ncbi.nlm.nih.gov/32936722/) | 2021 | Tapausselostus (haittavaikutus) | J Oncol Pharm Pract | S-1:n aiheuttama hypertriglyseridemia |
+| [28414195](https://pubmed.ncbi.nlm.nih.gov/28414195/) | 2017 | Tapausselostus (haittavaikutus) | Eur J Dermatol | TS-1:n aiheuttama erytrodermia, laaja limakalvo-oireisto ja käsi-jalkaoireyhtymä |
+
+---
+
+## Markkinatiedot Suomessa
+
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/001242 | Teysuno | Ei tiedossa | Mahasyöpä (tila: peruutettu) |
+
+---
+
+## Sytotoksisuus
+
+| Kohta | Sisältö |
+|------|------|
+| Sytotoksisuusluokitus | Perinteinen sytotoksinen (fluoropyrimidiiniluokka, S-1-yhdistelmän osana) |
+| Luuydinsuppression riski | Kohtalainen; vakavan hematologisen toksisuuden (aste 3–4) osuus oli 16,1 % S-1 + irinotekaani -hoidossa |
+| Oksettavuusluokitus | Matala–kohtalainen (luokittelu lääkeryhmän perusteella) |
+| Seurannan kohteet | Täydellinen verenkuva erittelyineen, maksa- ja munuaisarvot, elektrolyytit |
+| Käsittelysuojaus | Sytotoksisten lääkkeiden käsittelyohjeiden noudattaminen |
+
+---
+
+## Turvallisuusnäkökohdat
+
+- **Lääkeyhteisvaikutukset:** Yhteisvaikutustietoja ei löytynyt.
+- **Kirjallisuudessa raportoituja haittavaikutuksia (S-1):** hypertriglyseridemia, erytrodermia ja käsi-jalkaoireyhtymä sekä hematologinen toksisuus. Sydäntoksisuutta on tutkittu keskeytetyssä tutkimuksessa NCT02216149.
+
+Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 ---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Etene varauksilla**
+**Päätös: Proceed with Guardrails (eteneminen suojatoimin)**
 
 **Perustelut:**
-Kaksi valmistunutta Phase 3 RCT-tutkimusta (SALTO, NCT01918852, n=161; NCT00660894, n=1535) tukevat suoraan S-1:n — gimmerasilia sisältävän kiinteän yhdistelmän — tehokkuutta kolorektaali-/paksusuolen syövässä, täyttäen L1-todistustasokynnyksen. Kuitenkin gimmerasilin panos on todennettavissa vain osana S-1-yhdistelmää, ei erillisenä aineena, ja kriittiset turvallisuus-/sääntelytiedot (TFDA/Suomen pakkausseloste, MOA-yksityiskohdat) jäävät edelleen saatavilla olemattomiksi.
+- Valmistunut vaiheen 3 satunnaistettu tutkimus (NCT00660894, 1535 potilasta) ja toinen laaja vaiheen 3 tutkimus (NCT03448549, tila tuntematon) testaavat S-1:tä paksusuolisyövässä, ja mekanistinen yhteys on vahva. Toisen tutkimuksen tulokset ovat kuitenkin varmistamatta, ja gimeracilia ei käytetä yksinään vaan vain S-1-yhdistelmässä. Lisäksi Teysunon myyntilupa Suomessa on peruutettu.
 
-**Edetäkseen seuraavaa tarvitaan:**
-- TFDA/Suomen pakkausseloste varoitukset, vasta-aiheet ja varotoimet (DG001, Blocking gap)
-- Yksityiskohtaiset toimintamekanismin tiedot DrugBankista (DG002, Korkea prioriteetti)
-- Lääkkeiden väliset vuorovaikutukset (DDI), joita ei tällä hetkellä löydy lähdetietokannasta
-- Selvitys siitä, koskeeko uudelleenkäytön väite vain gimmerasilia vai vaatiiko sen täydellisen S-1-yhdistelmän
-
+**Eteenpäin siirtyminen edellyttää:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista (merkittävä aukko).
+- Yksityiskohtaisten vaikutusmekanismitietojen täydentämistä.
+- Tutkimusten NCT00660894 ja NCT03448549 tulosten varmistamista.
+- Suunnitelmaa S-1-valmisteen saatavuudesta Suomessa, koska myyntilupa on peruutettu.
+- Turvallisuusseurantasuunnitelmaa, erityisesti hematologisen toksisuuden ja ihoreaktioiden osalta.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

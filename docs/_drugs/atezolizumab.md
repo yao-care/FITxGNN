@@ -2,7 +2,7 @@
 layout: default
 title: Atezolizumab
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 46
+nav_order: 51
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,79 +29,115 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# ATEZOLIZUMAB: Uudelleenkäytön arviointi — riittämätön tietopohja jatkamista varten
+# Atetsolitsumabi: Virtsarakon uroteelikarsinoomasta ja muista alkuperäisistä käyttöaiheista prostatan virtsaputken uroteelikarsinoomaan
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-ATEZOLIZUMAB (DrugBank ID: DB11595) on lääke, josta ei ole saatavilla alkuperäistä indikaatiota tai toimintamekanismin tietoja nykyisessä Evidence Pack -kokoelmassa.
-Mitään TxGNN-ennustettuja indikaatioita ei ole luotu, ja lääkettä ei tällä hetkellä markkinoida Suomessa.
-Tätä arviointia ei voida suorittaa loppuun ilman lisää tiedonkeruuta.
-
----
-
-## Nopea yleiskatsaus
-
-| Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Ei saatavilla |
-| Ennustettu uusi indikaatio | Ennusteita ei ole saatavilla |
-| TxGNN-ennusteen pistemäärä | Ei saatavilla |
-| Näytön taso | N/A — ennusteita ei ole luotu |
-| Suomen markkinatilanne | Ei markkinoinnissa |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | **Pidätetään** |
+Atetsolitsumabi on PD-L1-vasta-aine, jota on alun perin käytetty uroteelikarsinooman (siirtymäsoluinen karsinooma), ei-pienisoluisen keuhkosyövän, urologisten kasvainten, rintasyövän ja pienisoluisen keuhkosyövän hoitoon.
+TxGNN-malli ennustaa lääkkeen voivan tehota ensisijaisesti **prostatan virtsaputken uroteelikarsinoomaan**, mutta tälle käyttöaiheelle on vain **1 epäsuora vaiheen 1b kliininen tutkimus** eikä yhtään julkaisua.
+Vahvin kliininen tuki löytyy ennustelistan kuudennelta sijalta, **endoservikaalisesta karsinoomasta** (2 tutkimusta ja 1 julkaisu).
 
 ---
 
-## Miksi tämä ennuste on järkevä?
+## Pikakatsaus
 
-ATEZOLIZUMAB:lle ei ole saatavilla TxGNN-ennustettuja indikaatioita tässä Evidence Pack -kokoelmassa. `predicted_indications` -kenttä on tyhjä, mikä tarkoittaa, että arviointia varten ei ole luotu uudelleenkäytön ehdokkaita. Ilman ennustetusta indikaatiota tämän raportin keskeistä kysymystä — voiko lääkettä sijoittaa uudelleen — ei voida käsitellä.
-
-Toimintamekanismin tiedot puuttuvat myös. MOA-tietoja vaaditaan, jotta voidaan muodostaa mekaaninen perustelu, joka linkittää tunnetun farmakologisen toiminnan uuteen terapeuttiseen kohteeseen. Ilman sitä ei voida muodostaa edes laadullisia uskottavuusväitteitä.
-
-Lopuksi ATEZOLIZUMAB:lla ei ole hyväksyttävää tuotetta Suomessa (0 hyväksyntää, markkinatilanne: ei markkinoinnissa), mikä tarkoittaa, että uudelleenkäytön laajentamisen arviointiin ei ole paikallista sääntelyyn liittyvää vertailupohjaa.
-
----
-
-## Kliiniset tutkimustodisteet
-
-Tällä hetkellä tähän arviointiin liittyviä kliinisiä tutkimuksia ei ole rekisteröity.
+| Kohde | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | Siirtymäsoluinen karsinooma, ei-pienisoluinen keuhkosyöpä, urologiset kasvaimet, rintasyöpä, pienisoluinen keuhkosyöpä |
+| Ennustettu uusi käyttöaihe | Prostatan virtsaputken uroteelikarsinooma |
+| TxGNN-ennustepisteet | 99,98 % |
+| Evidenssitaso | L3 (ennusteen ensisijaiselle käyttöaiheelle annettu taso; tutkimusnäyttö on kuitenkin vain epäsuoraa vaiheen 1b -dataa) |
+| Suomen markkinatilanne | Vain peruutettu myyntilupa |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odottaa lisänäyttöä) |
 
 ---
 
-## Kirjallisuustodisteet
+## Miksi ennuste on perusteltu?
 
-Tällä hetkellä tähän arviointiin liittyvää kirjallisuutta ei ole saatavilla.
+Lääkkeen vaikutusmekanismitietoja ei ole tällä hetkellä saatavilla. Tunnetun tiedon perusteella atetsolitsumabi on PD-L1:tä estävä vasta-aine, jonka teho uroteelikarsinoomassa on osoitettu, ja mekanistisesti se voi soveltua myös lähisukuisiin kasvaimiin.
 
----
+Prostatan virtsaputken uroteelikarsinooma on histologisesti ja anatomisesti läheistä sukua hyväksytylle virtsarakon ja uroteelin käyttöaiheelle. PD-L1-salpauksen käyttö on siksi biologisesti uskottavaa. Ainoa saatavilla oleva tutkimus on kabotsantinibin ja atetsolitsumabin yhdistelmän vaiheen 1b tutkimus, joka antaa varhaista yhdistelmäturvallisuustietoa mutta ei alatyyppikohtaista tehoa.
 
-## Suomen markkinatiedot
-
-ATEZOLIZUMAB:ia ei tällä hetkellä markkinoida Suomessa. Tuotehyväksynnät eivät ole tallessa.
+Ennustelistan muissa kohteissa (uroteelisyövän sarkomatoidit variantit, munuaisaltaan karsinoomat, kohdunkaulan syövät) perustelu nojaa samaan uroteeli- tai gynekologisten syöpien päättelyyn. Kohdunkaulan syövissä HPV-ajuri ja usein PD-L1-positiivisuus tekevät PD-L1-salpauksesta biologisesti uskottavan.
 
 ---
 
-## Turvallisuushuomiot
+## Kliininen tutkimusnäyttö
 
-Turvallisuustietojen osalta viittaa pakkausselosteeseen.
+Ensisijaisen ennusteen (prostatan virtsaputken uroteelikarsinooma) tutkimus:
+
+| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset havainnot |
+|---------|------|------|------|---------|
+| [NCT03170960](https://clinicaltrials.gov/study/NCT03170960) | Vaihe 1 (1b) | Aktiivinen, ei rekrytoi | 914 | Kabotsantinibi yksin tai yhdessä atetsolitsumabin kanssa levinneissä kiinteissä kasvaimissa, mm. uroteelikarsinoomassa. Tutkii turvallisuutta, siedettävyyttä ja alustavaa tehoa; prostatan virtsaputken kasvaimia ei analysoida erikseen. |
+
+Lisäksi endoservikaaliselle karsinoomalle (ennusteen sijalla 6) on seuraavat tutkimukset:
+
+| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset havainnot |
+|---------|------|------|------|---------|
+| [NCT02921269](https://clinicaltrials.gov/study/NCT02921269) | Vaihe 2 | Päättynyt | 11 | Atetsolitsumabi ja bevasitsumabi uusiutuneessa tai levinneessä kohdunkaulan syövässä; pieni otos rajoittaa luotettavuutta. |
+| [NCT03738228](https://clinicaltrials.gov/study/NCT03738228) | Vaihe 1 | Päättynyt | 40 | Atetsolitsumabi immuuniprimerina ja samanaikaisesti laajennetun kentän kemosädehoidon kanssa imusolmukepositiivisessa kohdunkaulan syövässä; turvallisuus- ja toteutettavuusdataa. |
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Kirjallisuusnäyttö
 
-**Päätös: Pidätetään**
+Ensisijaiselle ennusteelle ei ole tällä hetkellä saatavilla aiheeseen liittyvää kirjallisuutta.
+
+Endoservikaaliselle karsinoomalle (ennusteen sijalla 6):
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [37467967](https://pubmed.ncbi.nlm.nih.gov/37467967/) | 2023 | Katsaus | Biomedical Journal | Kohdunkaulan pienisoluinen neuroendokriininen karsinooma: molekyylitausta ja hoidon kehitys. Harvinainen aggressiivinen kasvain, jonka näyttö perustuu lähinnä tapaussarjoihin. |
+
+---
+
+## Tiedot Suomen markkinoilta
+
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004143 | Tecentriq | – | Siirtymäsoluinen karsinooma, ei-pienisoluinen keuhkosyöpä, urologiset kasvaimet, rintasyöpä, pienisoluinen keuhkosyöpä (tila: peruutettu) |
+
+---
+
+## Solunsalpaajaominaisuudet
+
+| Kohde | Sisältö |
+|------|------|
+| Luokitus | Immunoterapia (PD-L1-estäjä) |
+| Myelosuppression riski | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Oksentelua aiheuttava vaikutus | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Seurantakohteet | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Käsittelysuojaus | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+
+---
+
+## Turvallisuusnäkökohdat
+
+Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ollut tässä raportissa käytettävissä; niistä on tarkistettava valmisteyhteenveto.
+
+**Lääkeinteraktiot:** Yhteensä 75 interaktiota löytyi. Esimerkkejä:
+- **Merkittävät (Major):** adalimumabi, barisitinibi, BCG-rokote (elävä)
+- **Kohtalaiset (Moderate):** kortikosteroidit (hydrokortisoni, prednisoni, prednisoloni, deksametasoni, metyyliprednisoloni, betametasoni, budesonidi, triamsinoloni, deflatsakortti), atsatiopriini, alemtutsumabi, anakinra, roflumilasti sekä useita rokotteita
+
+Immuunijärjestelmään vaikuttavat lääkkeet ja elävät rokotteet vaativat erityistä huomiota.
+
+---
+
+## Johtopäätös ja jatkotoimet
+
+**Päätös: Hold**
 
 **Perustelut:**
-ATEZOLIZUMAB:n Evidence Pack -kokoelma on kriittisesti epätäydellinen kaikissa arviointimitoissa — ennustetut indikaatiot, toimintamekanismi, alkuperäinen indikaatio ja turvallisuustiedot puuttuvat kaikki. Merkityksellinen uudelleenkäytön arviointi ei ole mahdollista nykyisessä tilassa.
+- Ensisijaisen ennusteen (prostatan virtsaputken uroteelikarsinooma) tuki on vain epäsuora vaiheen 1b tutkimus, eikä julkaisuja ole. Korkea ennustepistemäärä on pelkkä mallin ennuste. Lisäksi Suomen myyntilupa on peruutettu ja turvallisuustiedoissa on merkittävä aukko.
+- Endoservikaalisen karsinooman osalta tuki on vahvempi (päättyneitä vaiheen 1 ja 2 tutkimuksia), ja sille on esitetty suositus Proceed with Guardrails. Tutkimukset ovat kuitenkin pieniä (n=11 ja n=40), eivätkä ne ole histologiaspesifisiä.
 
-**Jatkaakseen seuraavaa tarvitaan:**
-
-- **TxGNN-ennusteen tulokset**: `predicted_indications` -kenttä on täytettävä, ennen kuin mitään uudelleenkäytön suuntaa voidaan arvioida
-- **Toimintamekanismi (MOA)**: Kysy DrugBank API:a (DB11595) hakemaan farmakologisen toiminnan ja lääkkeen luokan tiedot
-- **Alkuperäinen indikaatio**: Hae Fimean tuoterekisteristä tai viitteellisistä merkinnöistä EMA:lta tai FDA:lta
-- **Turvallisuustiedot**: Lataa ja jäsennä pakkausselose-PDF saadaksesi varoitukset, vasta-aiheet ja erityisväestöjen varotoimet
-- **Lääke-lääke-vuorovaikutustiedot**: Kysy uudelleen DDI-tietokantaa; nykyinen tulos on `not_found` (0 vuorovaikutusta palautettu)
-
+**Jatkotoimien edellytykset:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen (Fimean aineisto)
+- Vaikutusmekanismin tietojen täydentäminen (DrugBank)
+- Alatyyppikohtaisten tutkimusten ja julkaisujen haku ensisijaiselle käyttöaiheelle
+- Myyntiluvan tilanteen selvittäminen Suomessa, koska ainoa lupa on peruutettu
+- Suuremmat, tehoa selvittävät tutkimukset kohdunkaulan syövässä ennen etenemistä
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

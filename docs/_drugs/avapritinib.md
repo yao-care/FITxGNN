@@ -2,7 +2,7 @@
 layout: default
 title: Avapritinib
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 50
+nav_order: 55
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,86 +29,111 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Avapritinib: Evidence Pack -tietojen puutteellisuus — alustava puuteanalyysin raportti
+# Avapritinibi: Maha-suolikanavan stroomakasvaimesta aksiaaliseen spondylometafyysiseen dysplasiaan
 
 ## Yhteenveto
 
-Avapritinib (DB15233) on kiinaasi-inhibiittoriluokan lääkeaine, jota ei ole tällä hetkellä markkinoilla Taiwanissa.
-Tämä Evidence Pack **ei sisällä mitään TxGNN-ennustettuja indikaatioita**, ja vaikutusmekanismin (MOA) sekä turvallisuustiedot sisältävät kriittisiä puutteita.
-**Täydellisen vanhanlääkkeen uudelleenkäytön arviointia ei voida suorittaa**, ja suosituksena on merkitä se **Hold**-tilaan tietojen täydentämisen jälkeistä uudelleenarvointia varten.
+Avapritinibi on KIT- ja PDGFRA-kinaasien estäjä, jota on käytetty maha-suolikanavan stroomakasvainten (GIST) hoitoon.
+TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **aksiaalisen spondylometafyysisen dysplasian**, mutta ennusteen tueksi ei ole löytynyt **yhtään kliinistä tutkimusta eikä julkaisua**.
+Ennuste perustuu pelkästään mallin laskemaan pisteeseen.
 
 ---
 
-## Nopea katsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäiset indikaatiot | Ei annettu Evidence Packissa |
-| Ennustetut uudet indikaatiot | Tämä pakkaus ei sisällä TxGNN-ennusteita |
-| TxGNN-ennustepistemäärä | Ei |
-| Todisteen taso | L5 (malliennusteen taso, mutta pakkaus ei vielä sisällä ennusteita) |
-| Taiwanin markkinatila | ✗ Not marketed |
-| Lupapäätösten lukumäärä | 0 |
-| Ehdotettu päätös | **Hold** |
+| Alkuperäinen käyttöaihe | Maha-suolikanavan stroomakasvaimet (GIST) |
+| Ennustettu uusi käyttöaihe | Aksiaalinen spondylometafyysinen dysplasia |
+| TxGNN-ennustepisteet | 99,92 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Miksi mekanismin yhdistämisen analyysia ei voida suorittaa
+## Miksi ennuste voi olla perusteltu?
 
-Tämä Evidence Pack puuttuu seuraavista kahdesta ydintiedoista, mikä tekee mekanismi-indikaation päättelyä mahdottomaksi:
+Avapritinibin tarkkaa vaikutusmekanismia ei ole tämän raportin aineistossa saatavilla. Tiedetään kuitenkin, että lääke on KIT- ja PDGFRA-kinaasien estäjä ja sen teho GIST-kasvaimissa on osoitettu.
 
-Avapritinibin yksityiskohtainen vaikutusmekanismin tieto puuttuu tästä Packista (DG002, High severity). Alkuperäisen indikaation kenttä on myös tyhjä, eikä "alkuperäinen sairaus → vaikutusmekanismi → ennustettu sairaus" -päättelyketjua voida muodostaa.
+Aksiaalinen spondylometafyysinen dysplasia on luuston kehityshäiriö, joka liittyy CFAP410 (C21orf2) -geenin variantteihin ja vaikuttaa värekarvojen ja luuston kehitykseen. KIT- tai PDGFRA-signalointiin ei ole tunnistettavissa uskottavaa yhteyttä.
 
-Lisäksi TxGNN-malli **ei ole tuottanut tälle lääkeaineelle mitään ennustettuja indikaatioita** (`predicted_indications: []`), mikä osoittaa, että tässä arviointikierroksessa puuttuu vanhan lääkkeen uudelleenkäytön ehdokkaat, ja raportin ydinanalyysikappaleet eivät voi siten avautua.
+Korkea TxGNN-pistemäärä (0,999) on pelkkä mallin tuottama verkostopohjainen päätelmä. Sitä ei tue mikään kliininen tai julkaistu näyttö, joten mekanistista perustetta ei voida pitää osoitettuna.
 
----
-
-## Kliinisen tutkimuksen näyttö
-
-Tällä hetkellä arvioitavia ennustettuja indikaatioita ei ole saatavilla, joten vastaavia kliinisen tutkimuksen tietoja ei ole.
+Muut listan ennusteet (esim. ALS ja muut motoneuronisairaudet) näyttävät heijastavan lähinnä verkoston läheisyyttä toisiinsa liittyviin solmuihin. ALS:ssa kinaasisignaloinnilla ja mastosolujen aiheuttamalla neuroinflammaatiolla voisi olla väljä käsitteellinen yhteys, mutta tämäkin on pelkkää spekulaatiota.
 
 ---
 
-## Kirjallisuustutkimuksen näyttö
+## Kliininen tutkimusnäyttö
 
-Tällä hetkellä arvioitavia ennustettuja indikaatioita ei ole saatavilla, joten vastaavia kirjallisuustutkimuksen tietoja ei ole.
+Ennustetusta käyttöaiheesta ei ole tällä hetkellä rekisteröityjä kliinisiä tutkimuksia.
 
 ---
 
-## Taiwanin markkinatiedot
+## Kirjallisuusnäyttö
 
-Avapritinib **ei ole tällä hetkellä saavuttanut lääkkeen markkinointiluvan Taiwanissa**. TFDA-haku (hakupäivä: 2026-03-29) antoi 0 tuloksia, `taiwan_regulatory.licenses` on tyhjä.
+Ennustetusta käyttöaiheesta ei ole tällä hetkellä saatavilla aiheeseen liittyvää kirjallisuutta.
+
+---
+
+## Tiedot Suomen markkinoilta
+
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/005208 | Ayvakyt | – | Maha-suolikanavan stroomakasvaimet (GIST) |
+
+Myyntilupa on tilassa "peruutettu", eikä voimassa olevia myyntilupia ole.
+
+---
+
+## Sytotoksisuus
+
+| Kohta | Sisältö |
+|------|------|
+| Sytotoksisuusluokitus | Kohdennettu hoito (tyrosiinikinaasin estäjä) |
+| Myelosuppression riski | Tarkempia tietoja ei ole saatavilla; ks. valmisteyhteenvedon varoitukset ja huomautukset |
+| Oksentelua aiheuttava vaikutus | Ks. valmisteyhteenvedon varoitukset ja huomautukset |
+| Seurattavat parametrit | Ks. valmisteyhteenvedon varoitukset ja huomautukset |
+| Käsittelyn suojatoimet | Ks. valmisteyhteenvedon varoitukset ja huomautukset |
 
 ---
 
 ## Turvallisuusnäkökohdat
 
-Katso lääkkeen pakkausselosteesta varoitukset ja vasta-aiheet.
+**Yhteisvaikutukset:** Yhteisvaikutustietokannasta löytyi yhteensä 100 yhteisvaikutusta. Tärkeimmät **merkittävän (Major)** tason yhteisvaikutukset:
+- Aprepitantti
+- Asetyylisalisyylihappo
+- Klaritromysiini
+- Deksametasoni
+- Kobisistaatti
+- Deferasiroksi
+- Deferipronin
+- Ibritumomabi tiuksetaani
+- Tositumomabi (I-131)
+- Samarium (153Sm) leksidronaami
 
-> Tämän Evidence Packin turvallisuusvaroitukset, vasta-aiheet ja lääkevuorovaikutus-kyselyt eivät palauttaneet käyttökelpoisia tietoja (DDI-kyselyjen tila: not_found). Fimea-pakkausselosteen varoitukset/vasta-aiheet (DG001, **Blocking**-tasoinen puute) odottavat täydentämistä, ja tämä puute estää S1-turvallisuusarvioinnin aloittamisen.
+**Kohtalaisen (Moderate)** tason yhteisvaikutuksia on mm. simetidiinin, klotrimatsolin, mikonatsolin, fenfluramiinin, deksfenfluramiinin, sibutramiinin, glyserolifenyylibutyraatin, metreleptiinin, troglitatsonin ja strontiumkloridi Sr-89:n kanssa.
 
----
+**Lisähuomio:** Ennusteiden perustelujen mukaan avapritinibiin liittyy tunnettuja keskushermosto- ja vuotohaittoja (kognitiiviset vaikutukset, kallonsisäinen verenvuoto), mikä herättää turvallisuushuolia erityisesti hermostoa rappeuttavissa sairauksissa.
 
-## Johtopäätökset ja seuraavat vaiheet
-
-**Päätös: Hold**
-
-**Perustelu:**
-Tämä Evidence Pack sisältää Blocking-tasoisen tietopuutteen (DG001: TFDA-pakkausseloste) sekä High-tasoisen puutteen (DG002: MOA), eikä TxGNN ole tuottanut mitään ennustettuja indikaatioita. Tällä hetkellä ei ole perusedellytyksiä vanhan lääkkeen uudelleenkäytön arviointiin.
-
-**Seuraavaan vaiheeseen siirtymiseksi vaadittavat täydennykset:**
-
-1. **（Blocking）** Täydennä TFDA-pakkausseloste PDF:nä ja analysoi varoitukset ja vasta-aiheet (DG001)
-2. **（High）** Hae vaikutusmekanismin (MOA) tiedot DrugBank API:n kautta (DG002)
-3. **（Vaatii）** Varmista, onko TxGNN jo suorittanut ennustuksen DB15233:lle. Jos ei, käynnistä ennustusprosessi
-4. **（Suositus）** Varmista alkuperäiset hyväksytyt indikaatiot (GIST / systeeminen mastosolun proliferaatio jne.) ja täytä `original_indications`
-5. **（Suositus）** Täydennä lääkevuorovaikutusten (DDI) tiedot
+Muiden turvallisuustietojen (varoitukset, vasta-aiheet) osalta katso valmisteyhteenveto.
 
 ---
 
-> ⚠️ **Tietojen täydellisyyden varoitus**
-> Tämä raportti on tietojen puutepuolesta tehty analyysi, ei muodollinen vanhan lääkkeen uudelleenkäytön arviointiraportti. Kun edellä mainitut tiedot on täydennetty ja TxGNN on tuottanut ennustetut indikaatiot, on suoritettava täydellisen raportin prosessi uudelleen (ehdokas-ID: TW-DB15233-multi, versio v4, tietojen katkaisu: 2026-04-20).
+## Johtopäätös ja jatkotoimet
 
+**Päätös: Hold (odota)**
+
+**Perustelut:**
+- Ennuste on pelkkä mallin tuottama signaali: kliinisiä tutkimuksia ja julkaisuja ei ole, eikä uskottavaa mekanistista yhteyttä voida osoittaa. Lisäksi lääkkeen Suomen myyntilupa on peruutettu ja tunnetut keskushermosto- ja vuotohaitat heikentävät hyöty-riskisuhdetta.
+
+**Jatkoon siirtyminen edellyttää:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivustolta (estää turvallisuusseulonnan etenemisen)
+- Vaikutusmekanismitietojen täydentämistä (esim. DrugBankista)
+- Prekliinistä tai mekanistista näyttöä KIT/PDGFRA-signaloinnin merkityksestä ennustetussa sairaudessa
+- Arviota muiden listan ennusteiden (erityisesti ALS ja muut motoneuronisairaudet) uskottavuudesta erikseen, koska niiden näyttö on yhtä vähäistä
+- Selvitystä myyntiluvan peruutuksen syystä ja lääkkeen saatavuudesta Suomessa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

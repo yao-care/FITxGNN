@@ -2,7 +2,7 @@
 layout: default
 title: Azilsartan Medoxomil
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 59
+nav_order: 65
 evidence_level: L5
 indication_count: 0
 ---

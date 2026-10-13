@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Tasimelteon
-parent: Vahva näyttö (L1-L2)
-nav_order: 358
-evidence_level: L1
+parent: Pelkkä mallin ennuste (L5)
+nav_order: 418
+evidence_level: L5
 indication_count: 10
 ---
 
 # Tasimelteon
 {: .fs-9 }
 
-Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,88 +29,106 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Tasimelteon: Vuorokausirytmisen uni-valveilun säätelystä unettomuuteen
+# Tasimelteoni: Vuorokausirytmihäiriöistä lasten unettomuuteen
 
-## Yhden lauseen yhteenveto
+## Yhden lauseen tiivistelmä
 
-Tasimelteon (DB09071) on melatoniini MT1/MT2-reseptorin agonisti; tämä todistusaineisto arvioi sitä 10 TxGNN-ennustettuun indikaatioon nähden, ja **unettomuus** on ainoa, joka saavutti toimintakelpoisuuden tason (todistusaste L1, päätöksen vaihe S3), kun taas muut 9 — mukaan lukien korkein TxGNN-pisteet saaneet (kaksipuoleinen parasagittaalinen parietooccipitaalinen polymikrogyyria) — ovat pidätyksessä ilman kliinisiä tutkimuksia tai kirjallisuustukea. Unettomuuden osalta **4 kliinistä tutkimusta** (mukaan lukien valmistunut Phase 3 RCT, n=322) ja **6 julkaisua** tukevat tätä suuntaa.
+Tasimelteoni on melatoniinireseptorien agonisti, jota on alun perin käytetty vuorokausirytmin unihäiriöiden hoitoon. TxGNN-malli ennustaa sen voivan tehota ensisijaisesti sairauteen **bilateraalinen parasagittaalinen parieto-oksipitaalinen polymikrogyria**, mutta ennusteen tueksi ei ole kliinisiä tutkimuksia eikä kirjallisuutta. Uskottavimmin tuettu ennuste on **unettomuus** (sijalla 2): sen tueksi on **1 käynnissä oleva vaiheen 3 tutkimus** ja **6 julkaisua**, jotka ovat pääosin katsauksia.
 
 ---
 
-## Nopea yleiskatsaus
+## Pikayhteenveto
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Ei kirjattu tähän tietopaketiin (lääkettä ei ole tällä hetkellä markkinoitu Suomessa; ei markkinointilupaa alkuperäisen indikaation tekstin lähteeksi) |
-| Ennustettu uusi indikaatio | Unettomuus |
-| TxGNN-ennustepistemäärä | 99.47% |
-| Todistusaste | L1 |
-| Suomen markkina-asema | ✗ Ei markkinoitu |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Jatka varauksilla |
+| Alkuperäinen käyttöaihe | Vuorokausirytmin unihäiriöt |
+| Ennustettu uusi käyttöaihe (sijalla 1) | Bilateraalinen parasagittaalinen parieto-oksipitaalinen polymikrogyria |
+| TxGNN-ennustepisteet | 99,48 % |
+| Näytön taso | L5 (sijalla 1); parhaiten tuettu ehdokas, unettomuus, L3 |
+| Suomen markkinatilanne | Vain peruutettu myyntilupa |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota); unettomuus: tutkimuskysymys |
+
+Huomio: korkein pistemäärä ei vastaa parasta näyttöä. Seuraavissa osioissa keskitytään sen vuoksi myös sijan 2 (unettomuus) ja sijan 4 (masennus) ehdokkaisiin.
 
 ---
 
-## Miksi tämä ennuste on järkevä?
+## Miksi ennuste on perusteltu?
 
-DrugBank-vaikutusmekanismi-kenttä on tyhjä tässä tietopaketissa, mutta samalla kerätty kirjallisuustodistus on johdonmukainen: tasimelteon on ei-selektiivinen **MT1/MT2-melatoniini-reseptorin agonisti**, joka vaikuttaa suprakaismalliseen ytimeen (SCN), aivojen vuorokausirytmin tahdistajaan, siirtämään vuorokausirytmiä ja edistämään unen alkua (PMID 19579175, 24228714, 25207602).
+Tasimelteonin vaikutusmekanismitietoja ei ole tämän raportin aineistossa saatavilla. Kirjallisuuden perusteella tasimelteoni on kaksoisagonisti melatoniinireseptoreille MT1 ja MT2. Reseptoreita on runsaasti vuorokausirytmin tahdistimessa (suprakiasmaattinen tumake), ja agonismi synkronoi vuorokausirytmiä sekä edistää nukahtamista ja unessa pysymistä.
 
-Mitään virallista "alkuperäistä indikaatiota" ei ole tallennettu tämän paketin sääntelytietoihin — lääkkeellä ei ole markkinointilupaa Suomessa. Kuitenkin kliininen todistusaineisto itsessään viittaa unettomuuteen tasimelteonin alkuperäisen kliinisen kehityksen osana: lääkkeen kehityskoodia VEC-162 tutkittiin valmistuneessa Phase 3:ssa, kaksoissokkotutkimuksessa, plasebokontrolloidussa tutkimuksessa erityisesti **primäärisen unettomuuden** osalta (NCT00548340, 2007–2008). Tämä viittaa siihen, että TxGNN-ennuste ei tunnista uutta uudelleenkäyttösignaalia vaan pikemminkin palauttaa hyvin vakiintuneen, mekanistisesti suoran yhdisteen käytön.
+**Sijan 1 ennuste (polymikrogyria):** Kyseessä on harvinainen synnynnäinen aivokuoren kehityshäiriö (hermosolujen migraatiohäiriö). Uskottavaa mekanistista yhteyttä melatoniinireseptorien aktivaatioon ei ole tunnistettu. Korkea pistemäärä on pelkkä graafipohjainen ennuste.
 
-Koska MT1/MT2-agonismi kohdistuu suoraan unen alkua koskevaan fysiologiaan, mekanistinen peruste unettomuudelle on vahva eikä vaadi risteysindikatioon ekstrapolointia — toisin kuin useimpien muista 9 ehdokkaista tässä paketissa (esim. ALS, polymikrogyyria, luuston dysplasia), joilla ei ole tunnistettavaa patofysiologista yhteyttä melatoniinisignalointiin eikä tukevia todisteita.
+**Sijan 2 ennuste (unettomuus):** Mekanistinen peruste on vahva. Alkuperäinen käyttöaihe on vuorokausirytmin unihäiriö, ja unettomuus on patofysiologialtaan läheisesti sukua. Melatonergiset lääkkeet vaikuttavat eri tavalla kuin GABAergiset unilääkkeet, sillä ne edistävät nukahtamista ja siirtävät vuorokausikelloa.
+
+**Sijan 4 ennuste (masennus):** Vuorokausirytmin häiriöt kuuluvat masennuksen tunnettuihin piirteisiin, ja melatonergisillä lääkkeillä (esim. agomelatiini) on masennuksesta näyttöä. Tasimelteonista ei kuitenkaan ole suoraa kliinistä dataa, ja näyttö on epäsuoraa (lääkeryhmätasoa).
+
+**Muut ennusteet (sijat 3 ja 5–10):** ALS, aksiaalinen spondylometafyysinen dysplasia, monomeelinen amyotrofia, ALS:n alttiusmuoto, myöhäisaikuisiän alamotoneuronioireyhtymä, Millsin oireyhtymä ja ALS tyyppi 22. Näille ei ole tunnistettu mekanistista yhteyttä eikä kliinistä näyttöä. Ne ovat todennäköisesti graafin naapuruston tuottamia artefakteja.
 
 ---
 
-## Kliinisen tutkimuksen todistusaineisto
+## Kliiniset tutkimukset
 
-| Tutkimusnumero | Vaihe | Asema | Osallistujat | Keskeiset löydökset |
+Sijan 1 ennusteelle (polymikrogyria) ei ole rekisteröityjä kliinisiä tutkimuksia. Alla on sijan 2 (unettomuus) tutkimus.
+
+| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT00548340](https://clinicaltrials.gov/study/NCT00548340) | Phase 3 | Valmistunut | 322 | Satunnaistettu, kaksoissokko, plasebokontrolloitu 5 viikon mittainen tutkimus VEC-162 (tasimelteon) 20 mg/vrk ja 50 mg/vrk annoksista primäärisen unettomuuden tehokkuudelle ja turvallisuudelle |
-| [NCT06953869](https://clinicaltrials.gov/study/NCT06953869) | Phase 3 | Rekrytoi | 420 | Monikesko, kaksoissokko, satunnaistettu tasimelteon vs. plasebo tutkimus pediatriselle unettomuushäiriölle; käynnissä, valmistumisen odotetaan 2028-01 |
-| [NCT03291041](https://clinicaltrials.gov/study/NCT03291041) | Phase 2 | Valmistunut | 25 | Proof-of-concept tutkimus tasimelteon vs. plasebo matkaajilla, joilla on aikaero-aiheuttama unisokeuden häiriö (vuorokausirytmistä johtuva unisokeuden häiriö, ei klassinen unettomuus) |
-| [NCT05922995](https://clinicaltrials.gov/study/NCT05922995) | Varhainen Phase 1 | Keskeytetty | 20 | Avoin pilootti, jossa arvioitiin 20 mg tasimelteonin vaikutusta unen toiminnan lavastukseen ja unettomuuden oireisiin (ISI, PSQI, ESS) REM-käyttäytymishäiriötä sairastavilla potilailla |
+| [NCT06953869](https://clinicaltrials.gov/study/NCT06953869) | Vaihe 3 | Rekrytoi | 420 | Monikeskus-, kaksoissokkoutettu, satunnaistettu tutkimus: tasimelteoni vs. lumelääke lasten unettomuushäiriössä. Päivittäinen kerta-annos suun kautta. Tuloksia ei vielä ole (arvioitu päättyminen 2028-01). |
 
 ---
 
-## Kirjallisuuden todistusaineisto
+## Kirjallisuusnäyttö
 
-| PMID | Vuosi | Tyyppi | Julkaisu | Keskeiset löydökset |
+Sijan 1 ennusteelle ei ole kirjallisuutta. Alla on sijan 2 (unettomuus) ja sijan 4 (masennus) keskeinen kirjallisuus. Kaikki ovat katsauksia, joten RCT-tutkimuksia ei ole.
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [25207602](https://pubmed.ncbi.nlm.nih.gov/25207602/) | 2014 | Katsaus | International Journal of Molecular Sciences | Käsittelee melatoniini-reseptorin agonistien (mukaan lukien tasimelteon) terapeuttisia vaikutuksia unettomuudelle ja yhteisesiintyviin häiriöihin |
-| [24228714](https://pubmed.ncbi.nlm.nih.gov/24228714/) | 2014 | Katsaus | Journal of Medicinal Chemistry | Karakterisoi tasimelteonin korkeaaffiniteettiseksi ei-selektiiviseksi MT1/MT2-agonistiksi; käsittelee ligandeita ja terapeuttisia mahdollisuuksia |
-| [19557144](https://pubmed.ncbi.nlm.nih.gov/19557144/) | 2009 | Katsaus | Neuropsychiatric Disease and Treatment | Keskustelee synteettisistä melatoniiniergiikan agonisteista unettomuuden hoitoon |
-| [35585820](https://pubmed.ncbi.nlm.nih.gov/35585820/) | 2023 | Katsaus | Current Drug Safety | Käsittelee melatoniinia ja tasimelteonin Alzheimerin tautiin liittyvän unettomuuden yhteydessä |
-| [22010042](https://pubmed.ncbi.nlm.nih.gov/22010042/) | 2011 | Katsaus | Therapeutic Advances in Neurological Disorders | Käsittelee melatoniini-analogeja unisokeuden häiriöille ja neuroprotektiolla Parkinsonin taudissa |
-| [22167135](https://pubmed.ncbi.nlm.nih.gov/22167135/) | 2011 | Katsaus | Neuro Endocrinology Letters | Käsittelee melatoniinin roolia unen kronomierissä ja sytoprotektion kronomierissä liikalihavuudessa |
+| [25207602](https://pubmed.ncbi.nlm.nih.gov/25207602/) | 2014 | Katsaus | Int J Mol Sci | Melatoniinireseptoriagonistien (mm. tasimelteoni) teho ja turvallisuus unettomuudessa, masennuksessa ja vuorokausirytmin unihäiriöissä |
+| [19579175](https://pubmed.ncbi.nlm.nih.gov/19579175/) | 2009 | Katsaus | Curr Opin Investig Drugs | Tasimelteoni lyhensi nukahtamisaikaa vaiheen 2 ja 3 tutkimuksissa ja siirsi melatoniinirytmiä |
+| [19557144](https://pubmed.ncbi.nlm.nih.gov/19557144/) | 2009 | Katsaus | Neuropsychiatr Dis Treat | Pitkävaikutteinen melatoniini ja synteettiset melatonergiset agonistit unettomuuden hoidossa |
+| [24228714](https://pubmed.ncbi.nlm.nih.gov/24228714/) | 2014 | Katsaus | J Med Chem | MT1/MT2-reseptorien ligandit ja hoidollinen potentiaali; tasimelteoni edennein kehitysvaiheen ehdokas |
+| [31123831](https://pubmed.ncbi.nlm.nih.gov/31123831/) | 2019 | Katsaus | Handb Exp Pharmacol | Melatoniinipohjaiset hoidot unen ja mielialan häiriöissä, myös unettomuudessa ja masennuksessa |
+| [34929236](https://pubmed.ncbi.nlm.nih.gov/34929236/) | 2022 | Katsaus | Behav Brain Res | Melatoniinin ja melatoniinireseptoriagonistien masennuslääkevaikutukset |
+| [30073921](https://pubmed.ncbi.nlm.nih.gov/30073921/) | 2018 | Katsaus | Curr Pharm Des | Vuorokausirytmi ja melatoniini masennuksen hoidossa |
+| [36632077](https://pubmed.ncbi.nlm.nih.gov/36632077/) | 2022 | Katsaus | Transl Clin Pharmacol | Melatoniini ja melatonergiset lääkkeet unihäiriöissä |
+| [21554566](https://pubmed.ncbi.nlm.nih.gov/21554566/) | 2011 | Katsaus | CNS Neurosci Ther | Melatoniinireseptoriagonistit unettomuuden ja masennuksen hoidossa |
+| [34225974](https://pubmed.ncbi.nlm.nih.gov/34225974/) | 2021 | Katsaus | Handb Clin Neurol | Melatoniinireseptorit, aivotoiminnot ja hoidot |
 
 ---
 
-## Suomen markkina-informaatio
+## Suomen markkinatiedot
 
-Tasimelteonilla ei ole tällä hetkellä markkinointilupaa Suomessa — mitään markkinointilupia ei ole kirjattu (0 lupaa).
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/003870 | Hetlioz | – | Vuorokausirytmin unihäiriöt (peruutettu) |
 
 ---
 
 ## Turvallisuusnäkökohdat
 
-Kts. pakkausseloste turvallisuusinformaation osalta.
+Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole tämän raportin aineistossa saatavilla. Tietoja on tarkasteltava valmisteyhteenvedosta.
+
+**Yhteisvaikutukset:** Aineistossa on tunnistettu yhteensä 99 yhteisvaikutusta. Merkittävimmät:
+- **Vaikeat (Major):** morfiini ja liposomaalinen morfiini.
+- **Kohtalaiset (Moderate):** mm. aprepitantti, omepratsoli, deksametasoni, simetidiini, klaritromysiini, difenoksiini, difenoksylaatti, dronabinoli, obetikolihappo, nabiloni, metoklopramidi, metreleptiini, mikonatsoli, klotrimatsoli, oopium, sibutramiini, troglitatsoni ja etanoli.
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Johtopäätös ja jatkotoimet
 
-**Päätös: Jatka varauksilla**
+**Päätös: Hold (odota)** polymikrogyria-ennusteelle ja muille L5-tason ennusteille. Unettomuus on **tutkimuskysymys** (Research Question).
 
 **Perustelut:**
-Valmistunut Phase 3, plasebokontrolloitu RCT (n=322) tukee suoraan tehokkuutta primäärisen unettomuuden osalta, vahvistettuna johdonmukaisella kirjallisuuspohjalla MT1/MT2-mekanismista ja aktiivisesti rekrytoitavalla pediatrisella Phase 3 -tutkimuksella. Kuitenkaan Suomen/EU-turvallisuusmerkintöjä (varoituksia, vasta-aiheita, lääkeinteraktioita) tai vahvistettua alkuperäistä indikaatiota ei ole saatavilla tässä tietopaketissa, joten täydellinen riskiarviointi ei voi vielä siirtyä S1-turvallisuusselvitykseen.
+- Korkeimman pistemäärän ennusteilla (polymikrogyria, ALS ym.) ei ole kliinistä näyttöä eikä uskottavaa mekanismia.
+- Unettomuudelle on vahva mekanistinen perustelu ja käynnissä oleva vaiheen 3 tutkimus (NCT06953869), mutta tuloksia ei vielä ole eikä valmista vaiheen 3 RCT:tä. Näyttötaso on siksi L3. Positiiviset tulokset voisivat nostaa tason L1:een.
+- Suomessa tasimelteonin ainoa myyntilupa on peruutettu, mikä rajoittaa käytännön saatavuutta.
 
-**Jatkamista varten tarvitaan seuraavaa:**
-- Pakkausseloste / merkintötiedot (varoitukset, vasta-aiheet, lääkeinteraktiot) — tällä hetkellä merkitty suojaavaksi tietovajeeksi (DG001)
-- Vahvistettu alkuperäinen hyväksytty indikaatio ja tasimelteonin sääntelyhistoria
-- Virallinen DrugBank vaikutusmekanismi-rekisteri korvaamaan tässä käytettyä kirjallisuudesta johdettu vaikutusmekanismi
-- Käynnissä olevan pediatrisen Phase 3 -tutkimuksen tulokset (NCT06953869, valmistumisen odotettavissa 2028-01)
-- Huomio: muilla 10 TxGNN-ennustetulla indikaatiolla tässä paketissa (mukaan lukien korkeimpaan arvoon pisteytetty polymikrogyyria-ennuste) ei ole kliinisiä tutkimuksia tai kirjallisuustukea ja ne pysyvät pidätyksessä — uutta näyttöä ilman ei suositella muita toimenpiteitä.
-
+**Eteenpäin siirtyminen edellyttää:**
+- NCT06953869-tutkimuksen tulosten seuraamista (arvioitu päättyminen 2028).
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivuilta.
+- Tasimelteonin vaikutusmekanismitietojen täydentämistä DrugBankista.
+- Peruutetun myyntiluvan syyn selvittämistä sekä lääkemuoto- ja antoreittitietojen täydentämistä.
+- Masennuksen osalta suoran kliinisen datan hankkimista tasimelteonille ennen jatkoa.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

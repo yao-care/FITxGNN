@@ -2,7 +2,7 @@
 layout: default
 title: Roxadustat
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 335
+nav_order: 389
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,64 +29,75 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-# Roxadustat: kroonisen munuaistaudin anemiasta silmän kuivuuteen
+# Roksadustaatti: Kroonisen munuaisten vajaatoiminnan anemiasta kuivasilmäisyyteen
 
 ## Yhden lauseen yhteenveto
 
-Roxadustat on HIF-PH-hidastin (hypoksian-indusoitava tekijä-prolyylihydroksylaasi), joka on hyväksytty globaalisti kroonisen munuaistaudin yhteydessä esiintyvän anemia hoitoon. TxGNN-malli ennustaa, että se voisi olla tehokas myös **silmän kuivuudelle**, mutta tätä suuntaa tukee tällä hetkellä vain **1 kliininen tutkimus** ja **ei yhtään julkaisua**, joten näyttöperusta on vielä hyvin alkuvaiheessa.
+Roksadustaatti on HIF-prolyylihydroksylaasin estäjä, jota on alun perin käytetty kroonisen munuaisten vajaatoiminnan aiheuttaman anemian hoitoon.
+TxGNN-malli ennustaa sen voivan olla tehokas **kuivasilmäisyyden** hoidossa, mutta ennusteen tueksi ei ole toistaiseksi **yhtään kliinistä tutkimusta eikä julkaisua**. Ennuste perustuu pelkästään mallilaskentaan.
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|--------|
-| Alkuperäinen indikaatio | Ei saatavilla näyttölaukussa (paikallisia lisenssejä ei ole kirjalla); globaalisti roxadustat on hyväksytty kroonisen munuaistaudin yhteydessä esiintyvän anemia hoitoon |
-| Ennustettu uusi indikaatio | Silmän kuivuus |
-| TxGNN-ennustuspistemäärä | 99.51% |
-| Näyttötaso | L3 (yksittäinen havainttutkimus, ei satunnaistetun vertailututkimuksen tuloksia) |
-| Suomen markkinatilanne | Ei markkinoilla |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Pidätä |
+|------|------|
+| Alkuperäinen käyttöaihe | Anemia; krooninen munuaisten vajaatoiminta |
+| Ennustettu uusi käyttöaihe | Kuivasilmäisyys (dry eye syndrome) |
+| TxGNN-ennusteen pistemäärä | 99,51 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennuste on järkevä?
+## Miksi ennuste on perusteltu?
 
-Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla. Tunnettujen tietojen perusteella roxadustat on HIF-PH-hidastin, jota käytetään kroonisen munuaistaudin yhteydessä esiintyvän anemia hoitoon (CKD), ja mekanistisesti se voisi olla soveltava silmän kuivuudelle.
+Roksadustaatti estää HIF-prolyylihydroksylaasientsyymejä (mm. EGLN2) ja vakauttaa siten HIF-1/2-alfa-tekijöitä. Tarkempaa mekanismitietoa ei ole tällä hetkellä saatavilla tähän raporttiin koottujen tietojen perusteella, joten mekanistinen arvio on rajallinen.
 
-Munuaisanemia ja silmän kuivuus eivät ole ilmeisesti yhteydessä toisiin ensivaikutelmalta katsottuna, mutta yksittäinen tunnistettu kliininen tutkimus (NCT06287879) tarjoaa uskottavan sillan: se tutkii meibomin-rauhasen rakennetta ja toimintaa erityisesti **munuaisanemiaa EPO:lla tai roxadustatilla hoitavilla potilailla**, joilla on silmän kuivuusoireita. Tämä viittaa mahdolliseen yhteyteen kroonisen anemia/hypoksian fysiologian (tai sen hoidon) ja silmän pinnan / meibomin-rauhasen terveyden välillä, mikä voi olla mitä TxGNN-malli havaitsee.
+HIF-signalointi vaikuttaa tulehdukseen, hypoksiavasteisiin sekä epiteelin ja sarveiskalvon korjautumiseen. Siksi teoreettinen yhteys silmän pinnan sairauksiin on olemassa. Alkuperäinen käyttöaihe (anemia) ja kuivasilmäisyys ovat kuitenkin kliinisesti hyvin kaukana toisistaan, eikä yhtäläisyyttä alkuperäiseen käyttöaiheeseen ole arvioitu.
 
-Kuitenkin tämä tutkimus on havainttutkimus ja kuvaileva (se kuvaa meibomin-rauhasen havaintoja olemassa olevassa potilaspopulaatiossa) eikä interventiotutkimus, joka testaisi roxadustaatin terapeuttista vaikutusta silmän kuivuuteen. Mekanistinen polku HIF-stabiloinnista silmän pinnan hyötyyn ei ole selvitetty, joten ennustetta tulisi käsitellä hypoteesiä tuottavana eikä vahvistettuna.
+Vaikutus on lisäksi kontekstiriippuvainen: HIF:n aktivointi voi edistää uudissuonittumista ja vaikuttaa tulehdukseen kumpaankin suuntaan. Korkea pistemäärä (0,995) on laskennallinen ennuste, ei näyttöä tehosta.
 
-## Kliinisen tutkimuksen näyttö
+### Muut mallin ennustamat käyttöaiheet
 
-| Tutkimuksen numero | Vaihe | Tila | Osallistujat | Tärkeimmät tulokset |
-|---------|------|------|------|---------|
-| [NCT06287879](https://clinicaltrials.gov/study/NCT06287879) | NA | Tuntematon | 50 | Havainttutkimus, jossa karakterisoidaan meibomin-rauhasen toiminta ja morfologia munuaisanemiapotilailla (hoidettu EPO:lla tai roxadustatilla), joilla on silmän kuivuusoireita |
+| Sija | Käyttöaihe | Pistemäärä | Näytön taso | Huomio |
+|------|------|------|------|------|
+| 2 | Luun Pagetin tauti | 99,12 % | L5 | Spekulatiivinen yhteys luun uudelleenmuovautumiseen; vaikutussuunta epävarma (HIF voi lisätä myös osteoklastogeneesiä). Vakiohoitona bisfosfonaatit. |
+| 3 | Dentinogenesis imperfecta | 99,06 % | L5 | Geneettinen rakenneproteiinivika (pääosin DSPP); mekanistinen yhteys heikko. |
+| 4 | Levyepiteelisyöpä | 99,02 % | L5 | HIF-aktivaatio liittyy kasvaimen etenemiseen ja hoitoresistenssiin, joten kyse on pikemminkin turvallisuushuolesta kuin hoitoperusteesta. |
 
-## Kirjallisuuden näyttö
+## Kliininen tutkimusnäyttö
 
-Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
+Toistaiseksi ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
+
+## Kirjallisuusnäyttö
+
+Toistaiseksi ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
 ## Suomen markkinatiedot
 
-Roxadustat ei ole tällä hetkellä markkinoilla Suomessa — markkinointilupia ei ole rekisteröity (0 lisenssiä).
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004871 | Evrenzo (Astellas Pharma Europe B.V.) | – | Anemia; krooninen munuaisten vajaatoiminta (tila: peruutettu) |
 
-## Turvallisuusnäkökohdat
+## Turvallisuushuomiot
 
-Turvallisuustiedot löytyvät pakkausselosteesta.
+- **Lääkeyhteisvaikutukset ja farmakologia**: Yhteisvaikutushaussa löytyi yksi farmakologinen kohde: roksadustaatti estää EGLN2-entsyymiä (egl-9 family hypoxia inducible factor 2). Kyse on lääkkeen vaikutuskohteesta, ei kliinisestä yhteisvaikutuksesta, eikä vakavuusluokkaa ole annettu.
+- **Teoreettinen turvallisuushuoli**: HIF:n vakauttaminen voi edistää kasvaimen etenemistä ja uudissuonittumista, mikä on tärkeää huomioida erityisesti syöpäkäyttöaiheissa ja silmän alueella.
 
-## Johtopäätös ja seuraavat vaiheet
+Muilta osin tarkemmat turvallisuustiedot, varoitukset ja vasta-aiheet löytyvät valmisteyhteenvedosta.
 
-**Päätös: Pidätä**
+## Johtopäätös ja seuraavat askeleet
+
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Silmän kuivuuden indikaation näyttö perustuu yksittäiseen havainttutkimukseen, jonka tila on tuntematon, ilman tukevaa kirjallisuutta, ja lääke ei ole vielä markkinoilla Suomessa. Kriittisesti TFDA/Fimean pakkausselosteen varoitukset ja vasta-aiheet on merkitty **estäväksi** tietovajeeksi, joka estää jo alustavaa turvallisuusarviointia (S1).
+- Ennuste perustuu pelkkään mallilaskentaan (L5): kliinisiä tutkimuksia ja julkaisuja ei ole, mekanismitieto puuttuu ja Suomessa valmisteen myyntilupa on peruutettu.
 
-**Jatkamisen edellytykset:**
-- TFDA/Fimean pakkausselosteen tiedot (varoitukset, vasta-aiheet) — estävä vaatimus
-- Vahvistettu vaikutusmekanismi (MOA) -dokumentaatio DrugBankista
-- Lääke-lääke-vuorovaikutus (DDI) -tiedot (tällä hetkellä ei löytynyt)
-- Seurantatutkimus NCT06287879-tutkimukselle sen valmistumisen tilan ja tulosten selvittämiseksi
-- Vähintään yksi interventio- tai vertailututkimus, joka suoraan testaa roxadustaattia silmän kuivuuden hoitoon ennen kuin edetään hypoteesin vaihetta pidemmälle
-
+**Jatkotoimiin tarvitaan:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden kokoaminen (turvallisuusarvion estävä puute)
+- Tarkempi vaikutusmekanismitieto
+- Prekliininen näyttö HIF-estäjän vaikutuksesta silmän pinnan sairausmalleissa
+- Antoreittien soveltuvuuden arviointi (esim. paikallinen silmään annettava valmiste, sillä tähän ei ole tietoa)
+- Turvallisuusarvio uudissuonittumiseen ja kasvainriskiin liittyen ennen mitään jatkotyötä
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

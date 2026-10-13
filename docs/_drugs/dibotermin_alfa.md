@@ -2,7 +2,7 @@
 layout: default
 title: Dibotermin Alfa
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 122
+nav_order: 140
 evidence_level: L5
 indication_count: 9
 ---
@@ -29,63 +29,89 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 
 </div>
 
-# Dibotermin alfa: luun regeneraatiosta sisäkarsastukseen
+# Dibotermiini alfa: Luuvaurioiden hoidosta esotropiaan
 
-## Yhden lauseen tiivistelmä
+## Yhden lauseen yhteenveto
 
-Dibotermin alfa (rekombinantti ihmisen BMP-2) tunnetaan siitä, että se indusoi osteogeenista differentiaatiota ja luun regeneraatiota. Saatavilla olevan todistustapakin mukaan se liittyy paikalliseen aikuisten luun korjaukseen. TxGNN-malli ennustaa, että se saattaa olla tehokas **sisäkarsastuksessa**, mutta tätä ennustusta tukee tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua** — kyseessä on puhdas data-ohjattu signaali ilman vahvistavia todisteita.
+Dibotermiini alfa on yhdistelmä-DNA-tekniikalla valmistettu ihmisen luun morfogeneettinen proteiini 2 (BMP-2), jota on käytetty sääriluun murtumien, sisäisen murtumafiksaation ja selkärangan fuusion yhteydessä. TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **esotropian** (sisäänpäin kääntyvä karsastus), mutta ennusteen tueksi ei ole **yhtään kliinistä tutkimusta eikä yhtään julkaisua**. Ennuste perustuu pelkästään laskennalliseen päättelyyn.
 
-## Nopea yleiskatsaus
+---
+
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|-------|---------|
-| Alkuperäinen indikaatio | Luun regeneraatio / paikallinen aikuisten luun korjaus (uudelleenkäyttöperustelun tekstin mukaan; muodollista indikaation tekstiä ei saatavilla — lääke ei ole markkinoilla Suomessa) |
-| Ennustettu uusi indikaatio | Sisäkarsastus |
-| TxGNN-ennustepisteet | 99.97% |
-| Näyttötaso | L5 |
-| Suomen markkinatilanne | Ei markkinoilla (Ei markkinoilla) |
-| Valtuuksien määrä | 0 |
-| Suositeltu päätös | Pidätä |
+|------|------|
+| Alkuperäinen käyttöaihe | Sääriluun murtumat, sisäinen murtumafiksaatio, selkärangan fuusio |
+| Ennustettu uusi käyttöaihe | Esotropia |
+| TxGNN-ennustepistemäärä | 99,97 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien lukumäärä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennuste on kohtuullinen?
+---
 
-Tällä hetkellä yksityiskohtaista toimintamekanismi-tietoa ei ole saatavilla (merkitty korkean vakavuuden tietovajeeksi). Tässä todistustapakin perusteella dibotermin alfa on rekombinantti ihmisen luumorfogeeninen proteiini (BMP-2), jonka tunnettu vaikutus on osteogeenisen differentiaation indusointi ja luun regeneraatio. Sitä on käytetty paikallisen aikuisten luun korjauksen sovelluksissa.
+## Miksi ennuste voisi olla perusteltu?
 
-Sisäkarsastus on karsastuksen muoto, jonka aiheuttaa silmän ulkolihaksen tasapainottomuus ja neuromuskulaarinen säätely — biologinen alue, joka ei liity osteoinduktioihin. Todistustapakin oma mekaaninen arviointi nimenomaisesti toteaa, että mikään reitti-todisteet eivät yhdistä BMP-2-signalointia silmän ulkolihaksen tasapainon säätelyyn tai karsastukseen, ja luonnehtii korkeaa TxGNN-pistemäärää puhtaasti data-ohjatuksi (embedding-space) assosiaatioksi mekaanisesti tuetun sijaan.
+Dibotermiini alfa on rekombinantti BMP-2, joka edistää luun muodostusta ohjaamalla osteogeenistä erilaistumista. Yksityiskohtaista vaikutusmekanismitietoa ei tässä aineistossa ole saatavilla.
 
-Ottaen huomioon minkään mekaanisen perustelun, kliinisten tutkimusten tai kirjallisuuden puuttumisen, tätä ennustetta tulisi käsitellä vain matalan uskottavuuden hypoteesin muodostavana signaalina, ei lähiajan kliinisen arvioinnin ehdokkaana.
+Alkuperäinen käyttöaihe (luun paraneminen ja fuusio) ja ennustettu käyttöaihe (silmän asennon poikkeama) ovat biologisesti kaukana toisistaan. Aineiston perusteella ei ole osoitettavissa uskottavaa mekanismia, jolla BMP-2 vaikuttaisi silmän ulkoisiin lihaksiin tai silmien asennon hermostolliseen säätelyyn. Korkea TxGNN-pistemäärä on siis vain laskennallinen ennuste, jota mikään kliininen tai kokeellinen näyttö ei tue.
 
-## Kliinisten tutkimusten todisteet
+Myös muut ennustetut käyttöaiheet ovat heikosti perusteltuja:
 
-Tällä hetkellä ei ole liittyviä rekisteröityjä kliinisiä tutkimuksia
+- **Rintasyövän alatyypit** (HER2-positiivinen, progesteronireseptoripositiivinen ja -negatiivinen, normaalin kaltainen, luminaalinen A/B): BMP-signalointi on säätelyltään poikkeavaa rintasyövässä, mutta ulkoisen BMP-2:n vaikutus riippuu ympäristöstä ja voi jopa edistää kasvaimen etenemistä tai kulkeutumista. Tämä on mahdollinen turvallisuushuoli.
+- **Ruokatorven synnynnäinen epämuodostuma ja epätyypillinen aortan koarktaatio**: BMP-signalointi osallistuu alkionkehitykseen, mutta nämä ovat rakenteellisia poikkeamia, joita syntymän jälkeen annettava rekombinanttiproteiini tuskin hoitaa.
+- **Multifokaalinen koroidiitti**: tulehduksellinen silmäsairaus, jossa BMP-2:lla ei tiedetä olevan hoidollista immunomodulatorista roolia.
 
-## Kirjallisuuden todisteet
+---
 
-Tällä hetkellä kirjallisuutta ei ole saatavilla
+## Kliiniset tutkimukset
+
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
+
+---
+
+## Kirjallisuusnäyttö
+
+Esotropialle ei löytynyt kirjallisuutta. Ainoa ennustettuihin käyttöaiheisiin liitetty julkaisu liittyy rintakasvaimen alatyyppiin (luminaalinen A tai B):
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [27441597](https://pubmed.ncbi.nlm.nih.gov/27441597/) | 2016 | Prekliininen in vitro -geeniekspressiotutkimus | European Surgical Research | Kuvaa ihmisen osteoblastien geeniekspressiomalleja BMP2-käsittelyn jälkeen. Jopa 33 % potilaista ei vastaa hoitoon luun muodostuksessa. Ei ole rintakasvaintutkimus eikä tue hoidollista vaikutusta. |
+
+---
 
 ## Suomen markkinatiedot
 
-Dibotermin alfa ei ole tällä hetkellä markkinoilla Suomessa (0 valtuutusta tietueessa); tuote- tai lisenssi-tietoja ei ole saatavilla.
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000408 | Inductos | – | Sääriluun murtumat; sisäinen murtumafiksaatio; selkärangan fuusio |
+
+Myyntilupa on peruutettu, eikä voimassa olevia myyntilupia ole.
+
+---
 
 ## Turvallisuusnäkökohdat
 
-Katso turvatietoja pakkausselosteesta.
+Valmisteyhteenvedon varoituksista ja vasta-aiheista ei ole saatavilla tietoja. Lääkeinteraktiotietoja ei löytynyt. Turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
-*(Huomio: tutkimuksessa on olemassa estävän vakavuuden tietovahe — TFDA:n/virallisen pakkausselostteen varoituksia ja vasta-aiheita ei ole vielä noudettu, mikä estää muodollisen S1-turvallisuuden ennakkokäytön.)*
+Aineiston perusteella huomioitava: rintasyöpäennusteiden osalta ulkoinen BMP-2 voi mahdollisesti edistää kasvaimen etenemistä, joten näissä käyttöaiheissa on potentiaalinen turvallisuusriski.
+
+---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Pidätä**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Ylimmainen ennustettu indikaatio (sisäkarsastus) ei ole kliinisillä tutkimuksilla tai kirjallisuudella tuettu, ja todistustapakin oma mekaaninen arvio ei löydä mitään biologista uskottavuutta, joka yhdistäisi BMP-2-osteoinduktion karsastukseen — tämä on L5-taso, vain mallia koskeva signaali. Estävän vakavuuden turvallisuuden tietovahe (ei TFDA:n pakkausselostteen dataa) estää myös minkään turvallisuuden ennakkokäytön.
+- Ennuste on L5-tasoa: pelkkä mallin tuottama ennuste ilman kliinistä tai kirjallisuusnäyttöä, eikä uskottavaa mekanistista yhteyttä ole osoitettu. Lisäksi Suomen myyntiluvat on peruutettu ja rintasyöpäkäyttöön liittyy mahdollinen turvallisuushuoli.
 
-**Edistääkseen tarvitaan seuraavaa:**
-- TFDA:n/virallisen pakkausselostteen data (varoitukset, vasta-aiheet) — tällä hetkellä estävä
-- Vahvistettu toimintamekanismi (MOA) dokumentaatio DrugBankista tai perustietokirjallisuudesta
-- Prekliiniset/mekanistiset tutkimukset, jotka arvioivat mitä tahansa BMP-2-signalointia silmän ulkolihaksen tai karsastuksen biologiassa
-- Jatkuva seuranta kliinisten tutkimusten rekistereistä ja kirjallisuudesta nousevista todisteista joko tästä tai muista 8 alhaisemman luottamuksen ennustetusta indikaatiosta tässä ehdokasjoukon
-
+**Etenemiseksi tarvitaan:**
+- Valmisteyhteenvedon varoitus- ja vasta-aihetiedot (estää turvallisuusseulonnan jatkamisen)
+- Yksityiskohtainen vaikutusmekanismitieto
+- Prekliininen näyttö valitusta ennustetusta käyttöaiheesta, erityisesti mekanistinen perustelu esotropialle
+- Arvio antoreitin soveltuvuudesta ennustettuun käyttöaiheeseen (nykyinen valmiste on tarkoitettu paikalliseen luukäyttöön)
+- Turvallisuusarvio kasvainten etenemisen riskistä ennen mitään syöpäkäyttöä
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

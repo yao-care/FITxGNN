@@ -2,7 +2,7 @@
 layout: default
 title: Cetuximab
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 99
+nav_order: 109
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,74 +29,102 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Setuximabi: raportoimattomasta alkuperäisestä indikaatiosta lasten keuhkoputkien adenoomeihin/karsinoideihin
+# Cetuksimabi: pään ja kaulan sekä paksu- ja peräsuolen kasvaimista lasten keuhkoputken adenoomiin/karsinoideihin
 
 ## Yhden lauseen yhteenveto
 
-Setuximabi on EGFR:ia vastaan suuntautuva monoklonaalinen vasta-aine (mallin omien merkintöjen mukaan); tämä todistepaketti ei kirjaa sen muodollisesti hyväksyttyä alkuperäistä indikaatiota tai yksityiskohtaista vaikutusmekanismia. TxGNN:n korkeimmin sijoittuva ennuste on **Lasten keuhkoputkien adenoomat/karsinoidit**, mutta tätä yhdistelmää tukee **0 kliinistä tutkimusta** ja **0 julkaisua** — paketin omassa perustelussa todetaan, että pistemäärä heijastaa vain graafin samankaltaisuuden päättelyä, eikä EGFR-ohjattua mekanismia ole osoitettu tässä pediatrisessa harvinaisessa kasvaintyypissä.
+Cetuksimabi on EGFR-reseptoria (epidermaalisen kasvutekijän reseptori) salpaava vasta-aine, jota on alun perin käytetty pään ja kaulan kasvainten sekä paksu- ja peräsuolen kasvainten hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **lapsuuden keuhkoputken adenoomiin/karsinoideihin**.
+Ennuste perustuu pelkästään malliin: tälle käyttöaiheelle ei ole **yhtään kliinistä tutkimusta eikä julkaisua**.
+
+---
 
 ## Pikakatsaus
 
-| Kohde | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Ei raportoitu tässä todistepakettissa (tietojen puuttuminen) |
-| Ennustettu uusi indikaatio | Lasten keuhkoputkien adenoomat/karsinoidit |
-| TxGNN:n ennustepistemäärä | 99.95% |
-| Todistustaso | L5 |
-| Suomen markkinatilanne | Ei markkinoilla |
-| Lupien lukumäärä | 0 |
-| Suositeltu päätös | Odota |
+| Kohta | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | Pään ja kaulan kasvaimet; paksu- ja peräsuolen kasvaimet |
+| Ennustettu uusi käyttöaihe | Lapsuuden keuhkoputken adenoomat/karsinoidit |
+| TxGNN-ennustepistemäärä | 99,95 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
+| Myyntilupien määrä | 1 |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennuste on järkevä?
+---
 
-Yksityiskohtaisia vaikutusmekanismin tietoja ei ole tällä hetkellä saatavilla tästä pakettista DrugBank-lähteestä (merkitty tietojen puuttumiseksi DG002, korkea vakavuus). Mallin omien perustelumerkintöjen perusteella setuximabi tunnetaan EGFR:ia (epidermaalisen kasvutekijän reseptori) vastaan suuntautuvaksi monoklonaaliksi vasta-aineeksi.
+## Miksi ennuste on (tai ei ole) perusteltu?
 
-Alkuperäisen indikaation tietoja ei ole tässä paketissa, joten setuximabin vakiintuneen käytön ja tämän ennustetun indikaation välistä suhdetta ei voida arvioida täällä.
+Cetuksimabi on monoklonaalinen vasta-aine, joka sitoutuu EGFR-reseptoriin ja estää sen signaloinnin. Tästä syystä sitä käytetään EGFR:ää ilmentävissä kasvaimissa, kuten metastasoituneessa paksu- ja peräsuolisyövässä sekä pään ja kaulan levyepiteelisyövässä. Yksityiskohtaista vaikutusmekanismitietoa ei ollut tähän raporttiin koottuna kokonaisuudessaan. Kohdereseptoria koskeva tieto on kuitenkin saatavilla.
 
-Kriittisesti, paketin omassa perustelussa todetaan selvästi, että **EGFR-ohjattua patologiaa ei ole raportoitu** lasten keuhkoputkien adenoomeissa/karsinoideissa, ja että korkea TxGNN-pistemäärä heijastaa tietoverkkojen samankaltaisuuden päättelyä eikä mitään kliinistä tai mekanistista tukea. Tämä ennuste tulisi siten käsitellä vain hypoteesia luovana, ei biologisen uskottavuuden osoittajana.
+Alkuperäiset käyttöaiheet ovat EGFR-riippuvaisia epiteelikasvaimia. Lasten keuhkoputken karsinoidit ovat hermoston ja umpirauhasten (neuroendokriinisia) kasvaimia, joiden EGFR-riippuvuutta ei ole osoitettu. Mekanistinen yhteys on siis heikko, ja korkea pistemäärä kuvaa lähinnä mallin sisäistä päätelmää.
 
-## Kliiniset tutkimusnäytöt
+---
 
-Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
+## Kliiniset tutkimukset
 
-## Kirjallisuuden näytöt
+Tälle käyttöaiheelle ei ole tällä hetkellä rekisteröityjä kliinisiä tutkimuksia.
 
-Tällä hetkellä ei ole saatavilla asiaan liittyviä kirjallisuuden näyttöjä.
+---
 
-## Suomen markkinatiedot
+## Kirjallisuusnäyttö
 
-Setuximabi ei ole markkinoilla tässä lainkäyttöalueella tämän todistepaketin mukaan — markkinatilanne "Ei markkinoilla" (Ei markkinoilla), jossa on 0 lupaa yhteensä tietueilla. Lupamerkintöjä ei ole saatavilla taulukointia varten.
+Aiheesta ei ole tällä hetkellä saatavilla kirjallisuutta.
+
+---
+
+## Tiedot Suomen markkinoilta
+
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000558 | Erbitux (Merck Europe B.V.) | Ei tiedossa | Pään ja kaulan kasvaimet; paksu- ja peräsuolen kasvaimet |
+
+Tämä myyntilupa on tilassa "peruutettu".
+
+---
 
 ## Sytotoksisuus
 
-Setuximabi on antineoplastinen aine (EGFR:ia vastaan suuntautuva monoklonaalinen vasta-aine, jota käytetään koko tämän todistepaketin näytössä yhdessä sytotoksisten kemoterapiakaavioiden kanssa, kuten FOLFOX ja sisplatiini).
+| Kohta | Sisältö |
+|------|------|
+| Sytotoksisuusluokitus | Kohdennettu hoito (EGFR-vasta-aine) |
+| Luuydinsuppression riski | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Oksentelua aiheuttavuus | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Seurattavat parametrit | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Käsittelysuojaus | Katso valmisteyhteenvedon varoitukset ja varotoimet |
 
-| Kohde | Sisältö |
-|------|---------|
-| Sytotoksisuuden luokitus | Kohdistettu lääkehoito (EGFR:ia vastaan suuntautuva monoklonaalinen vasta-aine) |
-| Luuydintukahduttava riski | Katso pakkausselostetta varoituksissa ja varotoimissa |
-| Pahoinvointipotentiaali | Katso pakkausselostetta varoituksissa ja varotoimissa |
-| Seurantakohteet | Katso pakkausselostetta varoituksissa ja varotoimissa |
-| Käsittelyturvallisuus | Katso pakkausselostetta varoituksissa ja varotoimissa |
+Ennusteen perustelutekstissä mainitaan tunnetuiksi haittavaikutuksiksi infuusioreaktiot ja ihotoksisuus.
 
-## Turvallisuushuomiot
+---
 
-Katso pakkausselostetta turvallisuustiedoissa.
+## Turvallisuusnäkökohdat
+
+- **Yhteisvaikutukset:** Yhteisvaikutushaussa löytyi 19 lääkeaineparia. Merkittäviä (Major) yhteisvaikutuksia ovat:
+  - aminolevulinaatti
+  - talidomidi
+
+  Kohtalaisia (Moderate) yhteisvaikutuksia ovat:
+  - protonipumpun estäjät (rabepratsoli, omepratsoli, deksilansopratsoli, esomepratsoli, lansopratsoli, pantopratsoli)
+  - solunsalpaajat (kapesitabiini, karboplatiini, sisplatiini, fluorourasiili, oksaliplatiini, omasetaksiinimepesuksinaatti)
+  - muut: metoksaleeni, paikallinen aminolevulinaatti, paikallinen metyyliaminolevulinaatti, idelalisibi, verteporfiini
+
+Muiden turvallisuustietojen osalta katso valmisteyhteenveto.
+
+---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Odota**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Korkeimmin sijoittuva TxGNN-ennuste (Lasten keuhkoputkien adenoomat/karsinoidit) ei ole tuettu millään kliinisillä tutkimuksilla tai kirjallisuudella, ja mallin mekanistiset perustelut selvästi kieltävät EGFR-ohjatun biologisen uskottavuuden tälle yhdistelmälle — pistemäärä on puhdas graafin upotusten artefakti.
+- Ennuste perustuu vain malliin (L5). Kliinisiä tutkimuksia ja kirjallisuutta ei ole, eikä EGFR-riippuvuutta lasten keuhkoputken karsinoideissa ole osoitettu.
+- Lisäksi Suomessa ainoa myyntilupa on peruutettu.
 
-**Jotta voitaisiin edetä, seuraavat tiedot ovat välttämättömiä:**
-- TFDA pakkausseloste tiedot (DG001, Estävä — tällä hetkellä estää kaikki S1 turvallisuuden seulonta)
-- DrugBank-lähteestä peräisin olevat vaikutusmekanismin ja alkuperäisten hyväksyttyjen indikaatioiden tiedot (DG002)
-- Ainakin prekliiniset/mekanistiset näytöt, jotka osoittavat EGFR-ekspression tai riippuvuuden lasten keuhkoputkien adenoomeissa/karsinoideissa, ennen kuin tämä kandidaatti voi siirtyä S0:n yli
-
-**Huomio:** Tässä samassa todistepakettissa muut setuximabin ehdokkaat sisältävät huomattavasti vahvempia näyttöjä — erityisesti sijoitus 8 "kystinen neoplasma" ja sijoitus 10 "premaligna neoplasma" (molemmat L2, S2, tuettuja 2/3-vaiheen tutkimuksilla, mukaan lukien valmistunut n=987 3-vaiheen tutkimus HPV-yhdistetyssä orofaryngiaalisessa syövässä). Nämä saattavat oikeuttaa erillisen, kohdistetun arviointiraportin sen sijaan, että jatkettaisiin panostusta tässä arvioidussa sijoitus-1 kandidaatissa.
-
+**Jatkoa varten tarvitaan:**
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet (puuttuvat tällä hetkellä ja estävät turvallisuusarvioinnin etenemisen)
+- Vaikutusmekanismin tarkempi kuvaus ja prekliininen näyttö EGFR:n roolista keuhkoputken karsinoideissa
+- Selvitys myyntiluvan peruuntumisen syystä ja lääkkeen saatavuudesta Suomessa
+- Mallin muiden ennustettujen käyttöaiheiden tarkastelu: "kystinen kasvain" ja "esiasteinen kasvain" (L2) sisältävät kliinisiä tutkimuksia ja ovat tämän ennusteen kohdetta lupaavampia jatkotutkimuksen aiheita.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

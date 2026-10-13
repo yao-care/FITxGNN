@@ -2,7 +2,7 @@
 layout: default
 title: Tagraxofusp
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 356
+nav_order: 416
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,71 +29,98 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Tagraxofusp: Blastisesta plasmasytoidisesta dendriittisoluneoplasmiasta sisäänpäinkääntymään
+# Tagraxofuspi: Lymfoomasta ennustettuun esotropiaan
 
 ## Yhden lauseen yhteenveto
 
-Tagraxofusp on CD123 (IL-3Rα)-kohdistettu difteriatoksiini-fuusiproteiini, johon viitataan tämän todisteistopaketin omissa tutkimustiedoissa hyväksyttynä hoitona blastiselle plasmasytoidiselle dendriittisoluneoplasmialle (BPDCN). TxGNN-mallin parhaiten arvoitu ennuste on **sisäänpäinkääntymä**, mutta tätä yhteyttä tuetaan tällä hetkellä **0 kliinisellä tutkimuksella** ja **0 julkaisulla**, ja mallin oma perustelut kuvaa sitä todennäköisenä harvoista tiedoista johtuvana upotusväärän positiivisena tuloksena eikä biologisesti perustellulla signaalilla.
+Tagraxofuspi on CD123-kohdennettu sytotoksinen fuusioproteiini (kurkkumätätoksiini yhdistettynä IL-3:een), jonka Suomessa myönnetty myyntilupa koski lymfoomaa. TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **esotropian** (silmien sisäänpäin kääntyvä karsastus), mutta ennusteen tueksi ei ole **yhtään kliinistä tutkimusta eikä julkaisua**. Ennuste perustuu pelkästään tietoverkkomalliin.
 
-## Pikayhteenveto
+---
+
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|-------|---------|
-| Alkuperäinen indikaatio | Ei kuvattu rakentuneissa sääntelyaineistoissa (Suomi). Mainitaan vain tutkimuksen taustateksteissä BPDCN:nä. |
-| Ennustettu uusi indikaatio | Sisäänpäinkääntymä |
-| TxGNN-ennustusten pistemäärä | 99,73 % |
-| Todisteen taso | L5 |
-| Suomen markkinatilanne | Ei markkinoilla |
-| Hyväksyntöjen määrä | 0 |
-| Suositeltu päätös | Pidätä |
+|------|------|
+| Alkuperäinen käyttöaihe | Lymfooma |
+| Ennustettu uusi käyttöaihe | Esotropia |
+| TxGNN-ennustepistemäärä | 99,73 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennuste on järkevä?
+---
 
-Yksityiskohtaista toimintamekanismin tietoa tagraxofuspille ei ole saatavilla tässä todisteistopaketeissa (merkitty korkean vakavuuden tietovajeeksi, DG002). Asiaan liittyvien kliinisten tutkimustietueiden perusteella tagraxofusp on proteiini-lääkekonjugaatti, joka yhdistää lyhennetyn difteriatoksiinin IL-3:een, ja joka on suunnattu tappamaan CD123-ilmentäviä soluja — mekanismi, joka on taustalla hyväksynnässä BPDCN:lle ja tutkimuskäytössä CD123-positiivisessa AML/MDS:ssä.
+## Miksi ennuste on perusteltu?
 
-Sisäänpäinkääntymä on neuromuskulaarinen/rakenteellinen silmien rinnakkaisuushäiriö, johon liittyvät silmän ulkoiset lihakset ja niiden hermitus; sillä ei ole tunnettu yhteyttä CD123-ilmentymiseen eikä sytotoksiseen proteiini-toksiini-biologiaan. Tagraxofuspilla, jonka toiminta on sytotoksinen ja kohdennettu hematoloogisiin pahanlaatuisuuksiin, ei ole mekanistista yhteyttä tähän oftalmologiseen tilaan.
+Ennuste ei ole mekanistisesti perusteltu. Yksityiskohtaista vaikutusmekanismitietoa ei ole tämän raporttia varten koottuna aineistona saatavilla. Tunnetun tiedon mukaan tagraxofuspi on CD123:a (IL-3-reseptorin alfa-ketju) kantaviin pahanlaatuisiin soluihin kohdistuva sytotoksiini, jonka teho perustuu solujen tuhoamiseen toksiinin avulla.
 
-Yhdenmukaista tämän kanssa todisteistopaketin oma perustelut tälle ehdokkaalle toteavat, ettei ole "mekanistista yhteyttä" ja katsovat pistemäärän johtuvan TxGNN-upotusartefaktista harvan datan olosuhteissa ("屬TxGNN在稀疏資料下的嵌入假陽性"). Kliinisiä tutkimuksia, rekisteritietoja tai julkaisuja yhdistäviä kahtaakaan ei löydettiin, mikä on itsessään todiste vastaan — ei vaan puolesta — ennustetta.
+Esotropia on silmien asennon hallinnan häiriö, eikä siihen tunneta CD123-riippuvaista patologiaa. Korkea TxGNN-pistemäärä (0,997) on graafipohjainen ennuste, jolla ei ole kliinistä eikä kirjallisuuteen perustuvaa tukea. Alkuperäisen käyttöaiheen (lymfooma) ja ennustetun käyttöaiheen samankaltaisuutta ei ole arvioitu.
 
-## Kliinisen tutkimuksen todisteet
+Muut kymmenen parhaan joukossa olevat ennusteet ovat samankaltaisia: ennustetut käyttöaiheet ovat pääosin hyvänlaatuisia tai epämääräisiä kasvaimia ja kystia (esim. esiasteiset kasvaimet, sisäkorvan kasvain, kielen hyvänlaatuinen kasvain, kilpirauhasen tiehyen kysta). Niille ei ole osoitettu CD123-yhteyttä, ja yleensä hoitona on leikkaus tai seuranta. Systeeminen, runsaasti haittavaikutuksia aiheuttava sytotoksiini (mm. kapillaarivuotooireyhtymä) ei sovi näihin tilanteisiin.
 
-Tällä hetkellä ei ole rekisteröityjä niihin liittyviä kliinisiä tutkimuksia
+---
 
-## Kirjallisuuden todisteet
+## Kliinisen tutkimuksen näyttö
 
-Tällä hetkellä ei ole saatavilla niihin liittyviä kirjallisuuden todisteita
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
-## Suomen markkinatiedot
+---
 
-Tagraxofusp ei ole tällä hetkellä markkinoilla Suomessa — 0 hyväksyntää saatavilla, lisensöintitietueita ei ole saatavilla.
+## Kirjallisuusnäyttö
+
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
+
+---
+
+## Tiedot Suomen markkinoilta
+
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/005031 | Elzonris | – | Lymfooma (tila: peruutettu) |
+
+---
 
 ## Sytotoksisuus
 
 | Kohta | Sisältö |
-|-------|---------|
-| Sytotoksisuuden luokitus | Kohdennettu hoito (CD123-suunnattu sytotoksinen fuusiproteiini: lyhennetty difteriatoksiini + IL-3) |
-| Luuydintukahduksen riski | Viitatkaa pakkausselosteeseen varoituksista ja varovaisuusohjeista |
-| Pahoinvoinnin aiheuttamisen luokitus | Viitatkaa pakkausselosteeseen varoituksista ja varovaisuusohjeista |
-| Seurantakohteet | Viitatkaa pakkausselosteeseen varoituksista ja varovaisuusohjeista |
-| Käsittelyturvallisuus | Viitatkaa pakkausselosteeseen varoituksista ja varovaisuusohjeista |
+|------|------|
+| Sytotoksisuusluokitus | Kohdennettu sytotoksinen fuusioproteiini (CD123-suunnattu toksiinikonjugaatti) |
+| Luuytimen suppressioriski | Tarkempia tietoja ei ole saatavilla; ks. valmisteyhteenvedon varoitukset ja varotoimet |
+| Oksentelua aiheuttavuus | Tarkempia tietoja ei ole saatavilla; ks. valmisteyhteenvedon varoitukset ja varotoimet |
+| Seurantakohteet | Ks. valmisteyhteenvedon varoitukset ja varotoimet (mm. maksa-arvot ja kapillaarivuotooireyhtymän seuranta) |
+| Käsittelysuojaus | Noudatettava sytostaattien käsittelyohjeita; ks. valmisteyhteenveto |
+
+---
 
 ## Turvallisuushuomiot
 
-Viitatkaa pakkausselosteeseen turvallisuustiedoista.
+- **Lääkeyhteisvaikutukset:** Yhteisvaikutuksia on tunnistettu yhteensä 66, ja ne kaikki ovat luokkaa kohtalainen. Esimerkit koottujen tietojen perusteella ovat diabeteslääkkeitä:
+  - Alfa-glukosidaasin estäjät: akarboosi
+  - GLP-1-reseptoriagonistit: albiglutidi, dulaglutidi, semaglutidi
+  - DPP-4:n estäjät: alogliptiini, saksagliptiini, linagliptiini
+  - Biguanidit: metformiini
+  - Glitatsonit: pioglitatsoni
+  - SGLT2:n estäjät: kanagliflotsiini, dapagliflotsiini, empagliflotsiini
+  - Sulfonyyliureat: klooripropamidi, glimepiridi
+  - Insuliinit: aspart, degludek, detemir, glargiini, glulisiini, isofaani-ihmisinsuliini
 
-## Päätelmät ja seuraavat vaiheet
+Kattavat varoitukset ja vasta-aiheet puuttuvat, joten niiden osalta on tarkistettava valmisteyhteenveto.
 
-**Päätös: Pidätä**
+---
 
-**Perustelut:**
-TxGNN-pistemäärä on numeerisesti korkea, mutta nolla kliinisiä tutkimuksia ja nolla julkaisuja tukevat tagraxofusp–sisäänpäinkääntymä-linkkiä, ja mallin oma mekanistiset perustelut tunnistavat tämän todennäköiseksi väärän positiivisen tuloksen ilman biologista uskottavuutta. Ei ole perusteita tälle ehdokkaalle etenemiselle.
+## Johtopäätös ja jatkotoimet
 
-**Jotta voitaisiin edetä, tarvitaan seuraava:**
-- TFDA:n pakkauseloste varoitukset/vasta-aiheet (Estävä vaje, DG001) — vaaditaan ennen mitään S1-turvallisuusarviota riippumatta indikaatiosta
-- Vahvistetut toimintamekanismin tiedot (DG002)
-- Riippumaton biologinen tai farmakologinen perustelu CD123-kohdistetun sytotoksisen aineen käytölle sisäänpäinkääntymän hoidossa, jos tätä ehdokasta halutaan jatkaa edelleen
-- Harkitse arviointiponnistelujen ohjaamista 2. arvioon ("pre-malignant neoplasm"), jolla on vahvemmat tukemistodisteet (L3, 5 kliinistä tutkimusta, päätösvaihe S1) samassa todisteistopaketeissa
+**Päätös: Hold (odota)**
 
+**Perustelu:**
+- Ennuste perustuu pelkästään tietoverkkomalliin (L5), eikä siihen liity kliinisiä tutkimuksia, kirjallisuutta tai uskottavaa mekanistista yhteyttä. Lisäksi lääkkeen myyntilupa Suomessa on peruutettu ja sen toksisuusprofiili on merkittävä.
+
+**Jatkoon etenemiseksi tarvitaan:**
+- Fimean valmisteyhteenvedon varoitusten ja vasta-aiheiden hankinta (estää turvallisuusarvioinnin jatkamisen)
+- Vaikutusmekanismitietojen täydentäminen (esim. DrugBankista)
+- Tutkimusnäyttöä CD123-ilmentymisestä ennustetussa kohdesairaudessa sekä alkuperäisen ja uuden käyttöaiheen samankaltaisuuden arviointi
+- Muiden ennustettujen käyttöaiheiden uudelleenarviointi, sillä kukaan kymmenen parhaan ennusteen joukosta ei saa tukea nykyisestä aineistosta
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

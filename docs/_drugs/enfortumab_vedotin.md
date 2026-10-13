@@ -2,7 +2,7 @@
 layout: default
 title: Enfortumab Vedotin
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 145
+nav_order: 164
 evidence_level: L5
 indication_count: 9
 ---
@@ -29,95 +29,109 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 
 </div>
 
-# Enfortumab vedotin: uroteliaalisyövästä (virtsarakon) pakkotautiin
+# Enfortumabivedotiini: Urotelisyövästä ennustettuun uuteen käyttöaiheeseen (lepra)
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Enfortumab vedotin on Nectin-4-kohdistettu vasta-aine-lääkekonjugaatti (ADC), joka kuljettaa mikrotubuluksien estäjän kuormaksi MMAE:ta, ja se on kehitetty edistyneen uroteliaalisyövän (virtsarakon) hoitoon — vaikka tätä alkuperäistä indikaatiota **ei ole suoraan dokumentoitu** nykyisessä todistusaineistossaan (`original_indications` on tyhjä; vain päätelty liittyvästä kirjallisuudesta). TxGNN-mallin parhaiten sijoittuva uusi ennustus, **Pakkotauti**, saavuttaa erittäin korkean samankaltaisuuspistemäärän, mutta sillä on **nolla tukevia kliinisiä tutkimuksia tai kirjallisuusviitteitä**, ja todistusaineiston oma mekanistinen arvio toteaa eksplisiittisesti, että **ei ole uskottavaa biologista yhteyttä** lääkkeen mekanismin ja *Mycobacterium leprae* -infektioiden välillä. Tätä ehdokasta tulee käsitellä pelkästään mallin tuottamana signaalina, ei validoiduksi uudelleenkäytön mahdollisuudeksi.
+Enfortumabivedotiini on Nectin-4-kohdennettu vasta-aine-lääkekonjugaatti (MMAE-toksiini), jota on alun perin käytetty siirtymäsolusyövän (urotelikarsinooma) ja virtsatiesyöpien hoitoon.
+TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **lepran**, mutta ennuste perustuu pelkästään laskennalliseen malliin: **kliinisiä tutkimuksia ei ole** eikä **lepraa tukevaa kirjallisuutta** ole löytynyt.
 
 ---
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Ei dokumentoitu todistusaineistossa (`original_indications` tyhjä); kirjallisuuskonteksti (PMID 41341429) yhdistää enfortumab vedotin ADC:t **virtsarakon/uroteliaalisyöpään** — vahvistamaton, odottaa DrugBank/pakkausseloste-vahvistusta |
-| Ennustettu uusi indikaatio | Pakkotauti |
-| TxGNN-ennustepiste | 99.53% |
-| Näyttötaso | L5 (pelkkä mallin ennuste, ei tukevia tutkimuksia) |
-| Suomen markkina-asema | Ei markkinoilla |
-| Lupakäsittelyjen lukumäärä | 0 |
-| Suositeltu päätös | **Pidätys** |
+|------|------|
+| Alkuperäinen käyttöaihe | Siirtymäsolusyöpä (urotelikarsinooma); virtsatiesyövät |
+| Ennustettu uusi käyttöaihe | Lepra |
+| TxGNN-ennustepisteet | 99,53 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Miksi tämä ennustus on järkevä?
+## Miksi ennuste on (tai ei ole) perusteltu?
 
-Tällä hetkellä yksityiskohtaiset toimintamekanismin tiedot eivät ole saatavilla jäsennellyssä `original_moa` -kentässä (tietoaukko DG002, korkea vakavuus). Tämän todistusaineiston muualla olevan tiedon perusteella enfortumab vedotin on kuvattu **Nectin-4-kohdistettuna vasta-aine-lääkekonjugaattina**, jonka kuorma MMAE (monomethyl auristatin E) on mikrotubuluksien estäjä, joka vaikuttaa syöpäsolujen mitoosiin — mikä on yhdenmukaista sen tunnetun roolin kanssa onkologisena ADC:nä.
+Tämän raportin laatimiseen koottu aineisto ei sisällä yksityiskohtaista vaikutusmekanismitietoa. Tunnetun tiedon mukaan enfortumabivedotiini on Nectin-4-kohdennettu vasta-aine-lääkekonjugaatti, jonka MMAE-osa tuhoaa Nectin-4:ää ilmentäviä kasvainsoluja häiritsemällä mikrotubuluksia. Teho urotelisyövässä on osoitettu.
 
-Parhaiten sijoittuvan ennustuksen, **pakkotaudin**, osalta todistusaineiston oma uudelleenkäytön perustelut sanovat eksplisiittisesti, että **ei ole järkevää mekanistista yhteyttä**: pakkotauti johtuu *Mycobacterium leprae* -infektiosta ja sen liittyvästä immuuni-/hermopathologiasta, jolla ei ole tunnettua yhteyttä Nectin-4-ilmentymiseen tai mikrotubuluksiin kohdistettuun sytotoksisuuteen. Perustelut huomauttavat, että korkea TxGNN-pistemäärä todennäköisesti heijastaa epäsuoraa solmujen yhteyttä tietokaavion sisällä todellisen biologisen mekanismin sijaan.
+Mikään käytettävissä oleva tieto ei yhdistä Nectin-4-kohdennusta tai mikrotubulusten häirintää *Mycobacterium leprae* -infektioon. Korkea TxGNN-pistemäärä (0,995) on laskennallinen ennuste, ja se johtuu todennäköisesti tietograafin rakenteesta eikä biologisesta yhteydestä.
 
-Huoli vahvistuu laajemman ennustejonon laadusta: yhdeksästä sijoitetusta indikaatiosta **kaikki yhdeksän on luokiteltu L5/S0/Pidätys**, kaksi (sijoitus 8 "naudan infektiivinen rhinotraheiitti" ja sijoitus 9 "paha kataari") ovat **eläinlääketieteellisiä sairauksia naudoilla/märehtijöillä**, jotka on eksplisiittisesti merkitty todistusaineistossa todennäköisiksi lajisekaannusartefakteiksi tietokaavion sisällä, ja yksi (sijoitus 4, kandidiaasi) on tuettu ainoastaan lääketurvallisuus-kirjallisuussignaalilla, joka kuvaa kandidiaasia **haitallisena turvallisuussignaalina** ADC-indusoidusta immuunosupresiosta, ei hoito-indikaationa. Kaiken kaikkiaan tämä kaava viittaa siihen, että tämän lääkkeen nykyinen ennustejoukko heijastaa enemmän graafi-tason kohinaa kuin uskottavia farmakologisia hypoteeseja, eikä yksikään parhaista ehdokkaista — mukaan lukien pakkotauti — tällä hetkellä ylitä spekulatiivista, pelkästään malliin perustuvaa signaalia.
+Muut mallin tuottamat ennusteet ovat samalla tavalla heikosti perusteltuja:
+
+- **Multippeli endokriininen neoplasia** (99,43 %): spekulatiivinen, ei tutkimuksia eikä kirjallisuutta. Syöpäindikaationa ennakkoon uskottavampi kuin infektiot, mutta näyttöä ei ole.
+- **Sytomegalovirusinfektio** (99,36 %, L4): ainoa julkaisu on tapausselostus vaikeasta haavaisesta ruokatorvitulehduksesta enfortumabivedotiini–pembrolitsumabi-hoidon jälkeen. Se on haittatapahtumailmoitus, joka viittaa pikemminkin riskiin kuin hyötyyn.
+- **Kandidiaasi** (99,30 %, L4): ainoa julkaisu on FAERS-lääketurvatutkimus vasta-aine-lääkekonjugaattien riskisignaaleista virtsarakkosyövässä. Se puhuu käyttöä vastaan.
+- **Aivoinfarkti** (99,23 %), **HIV-infektio** (99,19 %), **homotsygoottinen familiaalinen hyperkolesterolemia** (99,18 %): ei uskottavaa mekanistista yhteyttä, ei tutkimuksia.
+- **Nautojen tarttuva nuha (IBR)** ja **malignikatarri** (99,13 %): eläintauteja, jotka eivät liity ihmisen lääkehoitoon; todennäköisiä tietograafin artefakteja.
 
 ---
 
-## Kliinisen tutkimuksen näyttö
+## Kliiniset tutkimukset
 
-Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
+Ei tällä hetkellä rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
 ---
 
-## Kirjallisuusaineiston näyttö
+## Kirjallisuusnäyttö
 
-Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta.
+Lepran osalta aiheeseen liittyvää kirjallisuutta ei ole saatavilla.
 
-*(Huomautus: kirjallisuusaineiston näyttö on olemassa muualla tässä aineistossa eri ehdokkaalle — sijoitus 4, "kandidiaasi," PMID 41341429 — mutta tämä koskee ADC-luokan turvallisuussignaalia, ei pakkotautia, ja sitä käsitellään alla olevan turvallisuusnäkökohtien kohdalla.)*
+Muiden ennustettujen käyttöaiheiden osalta löytyi vain kaksi haittatapahtumiin liittyvää julkaisua:
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [42647281](https://pubmed.ncbi.nlm.nih.gov/42647281/) | 2026 | Tapausselostus | Reports (MDPI) | Vaikea diffuusi haavainen ruokatorvitulehdus potilaalla, jolla oli etäpesäkkeinen urotelikarsinooma ja jota hoidettiin enfortumabivedotiinilla ja pembrolitsumabilla (liittyy CMV-ennusteeseen) |
+| [41341429](https://pubmed.ncbi.nlm.nih.gov/41341429/) | 2025 | Lääketurvatutkimus (FAERS, retrospektiivinen) | Clinical Epidemiology | Vasta-aine-lääkekonjugaattien riskisignaalit virtsarakkosyövässä (liittyy kandidiaasiennusteeseen) |
 
 ---
 
 ## Suomen markkinatiedot
 
-Suomessa ei ole tällä hetkellä rekisteröityä myyntilupaa (`total_licenses: 0`). Enfortumab vedotin ei ole tällä hetkellä markkinoilla tässä lainkäyttöalueella.
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/005392 | Padcev | – | Siirtymäsolusyöpä; virtsatiesyövät (tila: peruutettu) |
 
 ---
 
 ## Sytotoksisuus
 
-Enfortumab vedotin on vasta-aine-lääkekonjugaatti, joka sisältää sytotoksisen mikrotubuluksien estäjä-kuorman, joten tämä osio on asiaankuuluvaa.
-
 | Kohta | Sisältö |
-|------|---------|
-| Sytotoksisuusluokittelu | Kohdennettu hoito (Vasta-aine-lääkekonjugaatti), joka toimittaa perinteistä sytotoksista kuormaa (MMAE, mikrotubuluksien/mitoosien estäjä auriin-luokasta) |
-| Luuydintukahduttamisen riski | Ei ole muodollisesti määritelty tässä todistusaineistossa. Liittyvä lääketurvallisuus-kirjallisuussignaali (PMID 41341429, sijoitus 4 kandidiaasi-perustelut) yhdistää ADC-hoitoa neutropeniaan/immuunosupresioon, joka ilmenee opportunistisena infektiona — katso vahvistettuja tietoja pakkausselosteesta |
-| Oksentamispotentiaalin luokittelu | Ei saatavilla todistusaineistossa — katso pakkausseloste |
-| Seurantakohdat | Täydellinen veritutkimus differentiaalilla (erityisesti neutrofiilit), infektioiden merkit/oireet, maksan ja munuaisten toiminta |
-| Käsittelysuojaus | Sytotoksisen lääkkeen käsittelyvarotoimet pitäisi noudattaa MMAE-kuorman vuoksi; vahvista spesifinen protokolla pakkausselosteen perusteella |
+|------|------|
+| Sytotoksisuusluokitus | Vasta-aine-lääkekonjugaatti (Nectin-4-kohdennettu, MMAE-mikrotubulusinhibiittori); kohdennettu hoito, johon liittyy sytotoksinen kuorma |
+| Myelosuppression riski | Katso valmisteyhteenvedon varoitukset ja käyttöön liittyvät varotoimet |
+| Emetogeenisuusluokitus | Katso valmisteyhteenvedon varoitukset ja käyttöön liittyvät varotoimet |
+| Seurattavat parametrit | Katso valmisteyhteenveto; yleisesti verenkuva sekä maksa- ja munuaisarvot |
+| Käsittelysuojaus | Noudatettava sytotoksisten lääkkeiden käsittelyohjeita |
 
 ---
 
-## Turvallisuusnäkököhdat
+## Turvallisuusnäkökohdat
 
-Virallinen pakkausselosteen tieto (tärkeät varoitukset, vasta-aiheet, lääkkeiden yhteisvaikutukset) on **estävä** tietoaukko (DG001) — TFDA/valmistajan merkinnät eivät ole vielä käytettävissä, joten täydellinen turvallisuusarvio ei ole tällä hetkellä mahdollinen. Lääkkeiden yhteisvaikutusseulonta ei tuottanut tuloksia (`ddi.query_status: not_found`), mikä heijastaa lääkkeen puuttumista kyseisestä tietokannasta eikä yhteisvaikutusten puuttumisen vahvistusta.
+**Lääkeyhteisvaikutukset:** Yhteisvaikutuskyselyssä löytyi yhteensä 100 yhteisvaikutusta. Merkittävin on:
 
-Yksi asiaa koskeva turvallisuussignaali löydettiin lähteistä: vuonna 2025 julkaistu FAERS-pohjainen lääketurvallisuustutkimus virtsarakon syövän ADC-hoidoista (PMID 41341429) raportoi turvallisuussignaaleja, joihin kuuluvat opportunistiset infektiot, kuten kandidiaasi, joiden epäillään johtuvan ADC-indusoidusta immuunosupresiosta tai neutropeniasta. Tätä pitää käsitellä monitoroitavana riskinä, ei hoito-indikaationa.
+- **Klaritromysiini**: vakava (Major) yhteisvaikutus.
 
-Tutustu pakkausselosteen täydellisiin turvallisuustietoihin niiden ollessa saatavilla.
+Useimmat muut listatut yhteisvaikutukset on luokiteltu kohtalaisiksi (Moderate), mm. diabeteslääkkeet: akarboosi, metformiini, pioglitatsoni, glimepiridi, glipitsidi, glibenklamidi, kanagliflotsiini, dapagliflotsiini, empagliflotsiini, linagliptiini, saksagliptiini sekä GLP-1-agonistit (eksenatidi, dulaglutidi, albiglutidi), sekä aprepitantti.
+
+Varoituksista ja vasta-aiheista tietoa ei ole saatavilla; ne on tarkistettava valmisteyhteenvedosta.
 
 ---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Pidätys**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Pakkotaudin ennusteella ei ole tukevia kliinisiä tutkimuksia tai kirjallisuutta, todistusaineiston oma mekanistinen analyysi arvioi eksplisiittisesti, että sillä ei ole uskottavaa biologista perustelua, ja se sijaitsee ennustejoukon sisällä, jossa kaikki yhdeksän sijoitettua indikaatiota ovat L5/Pidätys — joista kaksi näyttävät olevan eläinlääketieteellisten sairauksien artefakteja. Estävän vakavuuden tietoaukon (DG001) pakkausselosteesta/turvallisuustiedoista ja lääkkeen markkinoimattomasta asemasta Suomessa ei ole tällä hetkellä perustetta siirtää tätä ehdokasta mallin seulonnasta eteenpäin.
+- Ennuste perustuu pelkästään TxGNN-pisteisiin (näytön taso L5). Kliinisiä tutkimuksia tai tukevaa kirjallisuutta ei ole, eikä biologista yhteyttä lepraan ole osoitettu.
+- Ainoat muihin ennusteisiin liittyvät julkaisut ovat haittatapahtumaraportteja, jotka viittaavat riskiin eikä hyötyyn. Lisäksi Suomen myyntilupa on peruutettu.
 
-**Etenemisvaiheille tarvitaan seuraavaa:**
-- TFDA/EMA pakkausselosteen tiedot (varoitukset, vasta-aiheet, lääkkeiden yhteisvaikutukset) — DG001, Estävä
-- Vahvistettu toimintamekanismi ja alkuperäinen indikaatio DrugBankin/sääntelylabelien kautta — DG002, Korkea
-- Prekliininen tai biologisen plausibiliteettiin liittyvä tieto, joka yhdistää erityisesti Nectin-4/MMAE-aktiviteetin *M. leprae* -infektioon tai pakkotaudin patofysiologiaan, mikäli tätä hypoteesia halutaan tutkia edelleen
-- Tämän lääkkeen laajemman TxGNN-ennustejonon tietojen laadun tarkistus, ottaen huomioon eläinlääketieteellisten sairauksien merkinnöt (sijoitukset 8–9), jotka viittaavat mahdolliseen tietokaavion solmusekaannukseen
-
+**Eteenpäin siirtyminen edellyttää:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivuilta (estää turvallisuusseulonnan jatkamisen)
+- Vaikutusmekanismitietojen täydentämistä (esim. DrugBankista)
+- Mekanistisen perustelun selvittämistä lepralle (esim. Nectin-4-ilmentymä tai muu biologinen yhteys) sekä prekliinistä näyttöä
+- Myyntilupatilanteen ja saatavuuden selvittämistä Suomessa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

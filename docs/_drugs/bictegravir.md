@@ -2,7 +2,7 @@
 layout: default
 title: Bictegravir
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 71
+nav_order: 78
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,73 +29,78 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Biktegravir: HIV-1-infektiosta kissojen hankittuun immuunikatoamisoireyhtymään (FIV)
+# Bictegraviiri: HIV-infektiosta apinoiden immuunikatovirusinfektioon
 
 ## Yhden lauseen yhteenveto
 
-Biktegraviiril ei ole muodollisesti rekisteröityä alkuperäistä indikaatiota tässä evidenssipakkauksessa (Suomen Fimean lisensointitiedot ovat tyhjät, ja virallinen vaikutusmekanismi-kenttä on tietoaukko), mutta tämän pakkauksen sisällä siteerattu kirjallisuus tunnistaa biktegraviierin HIV-1-integraasisen ketjun siirtoinhibiittoriksi (INSTI). TxGNN-mallin parhain ennuste (sijoitus 1) on **kissojen hankittu immuunikatoamisoireyhtymä (FIV)**, eläinlääketieteellinen indikaatio, jonka ennustepistemäärä on **99,82 %** mutta jonka taustalla ei ole klinisia tutkimuksia eikä julkaisuja – evidenssitaso **L5 (vain mallin ennuste)**. Toissijainen ennuste, SIV-infektio (sijoitus 2), on mekanistisesti ja kirjallisuudeltaan paremmin perusteltu, mutta se ei myöskään ole ihmisen indikaatio.
+Bictegraviiri on HIV-1-integraasin siirtovaiheen estäjä (INSTI), jota on alun perin käytetty HIV-infektion hoitoon. TxGNN-malli ennustaa sen voivan tehota **kissan hankinnaiseen immuunikatoon (FIV)**. Ennuste perustuu pelkästään malliin, eikä siitä ole kliinisiä tutkimuksia eikä julkaisuja. Toiseksi sijoittuva ennuste, **apinoiden immuunikatovirusinfektio (SIV)**, saa tukea **kolmesta julkaisusta** ja on tässä aineistossa ainoa ennuste, jolla on suoraa prekliinistä näyttöä.
 
----
-
-## Pikaesittely
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Ei tiedossa tässä aineistossa (ei Fimean lisensointitietoja); kirjallisuustieto (PMID 32506843) tunnistaa biktegraviierin HIV-1-integraasisen ketjun siirtoinhibiittoriksi (INSTI) |
-| Ennustettu uusi indikaatio | Kissojen hankittu immuunikatoamisoireyhtymä (FIV) – eläinlääketieteellinen, ei-ihmisen indikaatio |
+|------|------|
+| Alkuperäinen käyttöaihe | HIV-infektiot |
+| Ennustettu uusi käyttöaihe | Kissan hankinnainen immuunikatooireyhtymä (feline acquired immunodeficiency syndrome) |
 | TxGNN-ennustepistemäärä | 99,82 % |
-| Evidenssitaso | L5 |
-| Suomen markkina-asema | Ei markkinoilla |
-| Lupien määrä | 0 |
-| Suositeltu päätös | Odota |
+| Näytön taso | L5 (pelkkä mallin ennuste) |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
----
+Huomio: seuraavaksi sijoittuvalla ennusteella (SIV-infektio) näytön taso on L4 ja suositus "tutkimuskysymys". Kolmas ennuste (neurokehityshäiriö) on L5-tasoa ja todennäköisesti virheellinen positiivinen löydös.
 
-## Miksi tämä ennuste on järkevä?
+## Miksi ennuste on perusteltu?
 
-Virallista vaikutusmekanismi-tietoa ei ole saatavilla tässä evidenssipakkauksessa (merkitty korkean vakavuuden tietoaukoksi, DG002). Kuitenkin SIV-ennusteen (sijoitus 2) alaisena pintalleen noussut kirjallisuustieto vahvistaa itsenäisesti, että biktegravii on toisen sukupolven integraasisen ketjun siirtoinhibiittori (INSTI), jota käytetään HIV-1:n kanssa elävien ihmisten hoitoon ja jolla on korkea resistanssimuodostumisen este.
+Yksityiskohtaista vaikutusmekanismia koskevaa tietoa ei ole tällä hetkellä saatavilla. Tunnetun tiedon perusteella bictegraviiri kuuluu integraasin siirtovaiheen estäjien (INSTI) lääkeaineryhmään, sen teho HIV-infektiossa on osoitettu, ja mekanistisesti se voi soveltua muihin lentiviruksiin.
 
-Sijoitus 1 -ennuste liittää biktegraviierin FIV:ään sillä perusteella, että sekä HIV että FIV ovat lentiviruksia. Kuitenkin pakkauksen omien mekanististen arviointien mukaan FIV:n integraasisekvenssi on huomattavasti vähemmän homologinen HIV:n kanssa kuin SIV:n on, eikä ole kliinisiä tutkimuksia tai kirjallisuustodisteita biktegraviierin aktiivisuudesta FIV-integraasia vastaan erityisesti. Arviointi kuvaa tätä tietokaavion topologiseksi artefaktiksi (integraasininhibiittori ↔ lentivirustaudin läheisyys) pikemmin kuin perusteluksi farmakologisesta signaalista. Se on myös eläinlääketieteellinen indikaatio, ihmisen lääkkeiden uudelleenkäytön soveltamisalan ulkopuolella.
+**Kissan immuunikatovirus (FIV).** FIV on lentivirus, jolla on myös oma integraasinsa, joten luokkatason mekanistinen perustelu on olemassa. FIV:stä ei kuitenkaan ole bictegraviiria koskevaa tietoa. FIV:n ja HIV-1:n integraasien rakenne- ja sekvenssierot voivat vaikuttaa sitoutumiseen ja herkkyyteen. Kyseessä on eläinlääkinnällinen käyttöaihe, jolla ei ole merkitystä ihmisten hoidossa.
 
-Sitä vastoin sijoitus 2 -ennuste (SIV-infektio) on mekanistisesti lähempänä – SIV:n ja HIV-1:n integraasit ovat erittäin homologiset – ja sitä tukee in vitro- ja eläinmallitutkimusten kirjallisuus, joka osoittaa suoran biktegraviierin antiviraalisen aktiivisuuden SIV:tä vastaan, mukaan lukien resistentit kannat. Silti SIV-infektio on ei-ihmisen (primaatti-) tauti, jolla on vain translaationaalisen tutkimuksen arvo, ei ihmisen kliininen indikaatio.
+**Apinoiden immuunikatovirus (SIV).** SIV on läheistä sukua HIV:lle ja sen integraasi on rakenteeltaan samankaltainen, joten INSTI-lääkkeet ovat mekanistisesti uskottavia. Aineiston tutkimus (PMID 28923862) tarjoaa suoraa in vitro -näyttöä bictegraviirin tehosta integraasi-inhibiittoriresistenttiä SIVmac239-virusta vastaan. SIV tartuttaa ihmisapinoita ja muita kädellisiä, joten kyse on prekliinisestä tai eläinmallia koskevasta käyttöaiheesta, ei ihmisen hoidosta.
 
----
+**Neurokehityshäiriö.** Uskottavaa mekanistista yhteyttä ei löytynyt. Bictegraviiri estää viruksen integraasia, eikä tunnettua ihmisen homologia tai reittiä, joka yhdistäisi sen tähän geneettiseen häiriöön, ole. Korkea pistemäärä (0,998) voi olla tietämysgraafin artefakti.
 
-## Klinisten tutkimusten näyttö
+## Kliininen tutkimusnäyttö
 
-Tällä hetkellä ei ole liittyviä klinisia tutkimuksia rekisteröity.
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia (kaikkien kolmen ennusteen osalta).
 
----
+## Kirjallisuusnäyttö
 
-## Kirjallisuuden näyttö
+Alla oleva kirjallisuus liittyy toiseksi sijoittuneeseen ennusteeseen (SIV-infektio). Ensisijaisesti raportoidusta ennusteesta (FIV) julkaisuja ei ole.
 
-Tällä hetkellä ei ole liittyvää kirjallisuutta saatavilla.
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [28923862](https://pubmed.ncbi.nlm.nih.gov/28923862/) | 2017 | In vitro / prekliininen | Antimicrobial Agents and Chemotherapy | Bictegraviirin ja kabotegraviirin antiviraalinen teho integraasi-inhibiittoriresistenttiä SIVmac239- ja HIV-1-virusta vastaan |
+| [39559349](https://pubmed.ncbi.nlm.nih.gov/39559349/) | 2024 | Prekliininen eläinmalli (humanisoitu hiiri) | Frontiers in Immunology | Kaksikäyttöinen humanisoitu hiirimalli antiviraalisten strategioiden testaamiseen sekä SIV:tä että HIV:tä vastaan |
+| [32506843](https://pubmed.ncbi.nlm.nih.gov/32506843/) | 2021 | Katsaus (rakennebiologia) | The FEBS Journal | HIV/SIV-intasomirakenteet selittävät integraasi-inhibiittorien sitoutumista ja viruksen pakomekanismeja |
 
-*(Huomautus: sijoitus 1 -FIV-ennusteella ei ole tutkimuksista tai kirjallisuudesta peräisin olevaa tukea. Sijoitus 2 -SIV-ennusteella on kolmen julkaisun tuki – PMID [32506843](https://pubmed.ncbi.nlm.nih.gov/32506843/), [28923862](https://pubmed.ncbi.nlm.nih.gov/28923862/), [39559349](https://pubmed.ncbi.nlm.nih.gov/39559349/) – mutta nämä kuvaavat primaatti-/eläinmallin tautia, ei ihmisen indikaatiota, joten niitä ei ole taulukoitu kliinisinä todisteina täällä.)*
+## Myyntiluvat Suomessa
 
----
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004449 | Biktarvy | – | HIV-infektiot (tila: peruutettu) |
 
 ## Turvallisuushuomiot
 
-Katso turvallisuustiedoista pakkauksessa olevia tietoja.
+Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole tässä aineistossa saatavilla. Turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
-*(TFDA/Fimean pakkausesite-varoitukset ja vasta-aiheet ovat estävä tietoaukko tässä pakkauksessa – katso johtopäätös alla.)*
+**Lääkeyhteisvaikutukset:** Aineistossa on yhteensä 81 yhteisvaikutusta, joista seuraavassa esitetään esimerkkejä (20 ensimmäistä).
 
----
+- **Merkittävät (Major):** alumiinihydroksidi, attapulgiitti, kalsiumvalmisteet (asetaatti, karbonaatti, sitraatti, glubionaatti, glukonaatti, laktaatti, fosfaatti), rauta, kaoliini, magaldraatti sekä magnesiumvalmisteet (karbonaatti, kloridi, sitraatti). Kyse on pääosin antasideista ja kationeja sisältävistä valmisteista, jotka voivat heikentää integraasi-inhibiittorin imeytymistä.
+- **Kohtalaiset (Moderate):** aprepitantti, klaritromysiini, deksametasoni, eliglustaatti, glyserolifenyylibutyraatti.
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Odota**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Korkeimpaan sijoitettu TxGNN-ennuste (FIV) on eläinlääketieteellinen indikaatio ilman klinisiä tai kirjallisuuden todisteita (L5) ja pakkaus arvioi sen itsensä todennäköisesti vääräksi positiiviseksi, jonka aiheutti tietokaavion topologia pikemmin kuin todellinen farmakologinen samankaltaisuus. Seuraava ehdokas (SIV-infektio) on vahvemmin mekanistisesti ja prekliiniesti tuettu (L4) mutta on silti ei-ihmisen indikaatio, jolla ei ole polkua ihmisen kliiniseen tutkimukseen. Mikään tämän pakkauksen kolmesta ennustetusta indikaatiosta ei edusta toimivaa ihmisen uudelleenkäytön tavoitetta.
+- Ensisijaisesti ennustetulle käyttöaiheelle (FIV) on vain mallin ennuste ilman kliinistä tai kirjallista näyttöä. Käyttöaihe on lisäksi eläinlääkinnällinen. Lääkkeellä ei ole voimassa olevaa myyntilupaa Suomessa. SIV-käyttöaihe on tutkimuskysymys (L4), ja neurokehityshäiriöennuste on todennäköisesti virheellinen positiivinen.
 
-**Jatkaakseen tarvitaan seuraavaa:**
-- Ratkaise DG001 (estävä): hanki virallinen TFDA/Fimean pakkausesite (varoitukset, vasta-aiheet, lääkeinteraktiot) – vaaditaan ennen kuin mikään S1-turvallisuusarviointi voi jatkua.
-- Ratkaise DG002 (korkea): hanki vahvistetut vaikutusmekanismi-tiedot DrugBankista arvioidaksesi minkä tahansa tulevan ehdokasindikation mekanistista uskottavuutta.
-- Selvitä biktegraviierin alkuperäinen hyväksytty ihmisen indikaatio ja lisensointistatus, koska tässä aineistossa ei ole olemassa lisensointitietoja.
-- Jos jatkat tämän lääkkeiden luokan kanssa, priorisoi sairauden ehdokkaat, joilla on vahvistettu ihmisen kliininen merkitys pikemmin kuin tällä hetkellä ennustetut eläinlääketieteelliset/primaatti-indikaat.
-
+**Eteneminen edellyttää seuraavaa:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimeasta (estävä tietoaukko turvallisuusseulonnan kannalta)
+- Vaikutusmekanismitiedon täydentäminen DrugBankista
+- FIV-spesifinen prekliininen näyttö (esim. in vitro -herkkyystutkimus FIV-integraasia vastaan)
+- Päätös siitä, onko eläinlääkinnällinen tai prekliininen suunta tutkimusstrategian kannalta relevantti
+- Peruutettujen myyntilupien tilanteen selvittäminen
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

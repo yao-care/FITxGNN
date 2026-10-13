@@ -2,7 +2,7 @@
 layout: default
 title: Insulin Aspart
 parent: Vahva näyttö (L1-L2)
-nav_order: 196
+nav_order: 229
 evidence_level: L1
 indication_count: 10
 ---
@@ -29,88 +29,115 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Insulin-aspartat: Tyypin 1 diabetes mellitus — olemassa oleva indikaatio, ei uusi lääkkeen uudelleenkäytön signaali
+# Aspartinsuliini: Diabeteksesta tyypin 1 diabetekseen
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Insulin-aspartat (DrugBank ID DB01306) on nopeasti vaikuttava insuliini-analogi; tällä todistusaineistolla ei ole tietoja sen alkuperäisestä indikaatiosta tai MOA:sta (tietoaukko). TxGNN:n parhaiten sijoittuva ennuste, **Tyypin 1 diabetes mellitus**, on tuettu **50 kliinisellä tutkimuksella** ja **20 julkaisulla** — mutta tämä todistusmäärä heijastaa insulin-aspartatin jo vakiintunutta standardihoidon roolia T1DM:ssä, ei aidon uuden käytön löytöä.
+Aspartinsuliini on ppikavaikutteinen insuliinianalogi, jota on alun perin käytetty diabeteksen hoitoon.
+TxGNN-malli ennustaa sen soveltuvan **tyypin 1 diabetekseen**, mutta kyseessä ei ole varsinainen lääkkeen uudelleenkäyttö, koska tyypin 1 diabetes kuuluu lääkkeen alkuperäisen käyttöaiheen piiriin.
+Ennustetta tukee tämän raportin aineistossa **30 kliinistä tutkimusta** ja **20 julkaisua**, joista useat ovat vaiheen 3 satunnaistettuja tutkimuksia.
 
-## Nopea yleiskatsaus
+---
 
-| Kohde | Sisältö |
-|-------|---------|
-| Alkuperäinen indikaatio | Ei annettu todistusaineistossa (`original_indications` on tyhjä) |
-| Ennustettu uusi indikaatio | Tyypin 1 diabetes mellitus |
-| TxGNN-ennustepistemäärä | 99,95% |
-| Todisteiden taso | L1 |
-| Suomen markkinoinnin asema | Ei markkinoitu |
-| Lupien lukumäärä | 0 |
-| Suositeltu päätös | Etene varauksilla |
+## Pikakatsaus
 
-## Miksi tämä ennuste on perusteltu?
+| Kohta | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | Diabetes mellitus |
+| Ennustettu uusi käyttöaihe | Tyypin 1 diabetes mellitus |
+| TxGNN-ennustepisteet | 99,95 % |
+| Näytön taso | L1 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 7 (kaikki peruutettuja) |
+| Suositeltu päätös | Proceed with Guardrails (eteneminen suojatoimin) |
 
-Yksityiskohtaista vaikutusmekanismin tietoa ei ole käytettävissä tässä todistusaineistossa. Tunnetun farmakologisen luokittelun perusteella insulin-aspartat on nopeasti vaikuttava uudelleenyhdistelmä-ihmisen insuliini-analogi, joka on suunniteltu nopeampaa subkutaanista imeytymistä varten kuin tavallinen ihmisen insuliini; sen rooli on endogeenisen insuliinin suora korvaaminen verensokerin hallintaan.
+---
 
-Kriittisesti todistusaineiston oma analyysi korostaa tärkeää varausta: Tyypin 1 diabetes mellitus ei todellakaan ole insulin-aspartatin *uusi* ennustettu indikaatio — se on lääkkeen todellinen, pitkäaikainen, opasmukainen indikaatio. Se, että `original_indications` on tyhjä ja `market_status` näyttää "Ei markkinoitu" Suomessa, näyttää heijastavan taustalla olevan sääntelytietokannan aukkoja pikemminkin kuin kliinistä todellisuutta, sillä insulin-aspartat-tuotteet (esim. NovoRapid/NovoLog, Fiasp) ovat laajalti käytössä T1DM:n verensokerin hallintaan kansainvälisesti.
+## Miksi ennuste on perusteltu?
 
-Mekanistisesti T1DM johtuu pankreaan beetasolujen autoimmunista tuhoamisesta ja absoluuttisesta insuliinipuutteesta — eksogeeninen nopeasti vaikuttava insuliini on lopullinen korvaushoito. Tämä on syy siihen, että malli tuottaa niin korkean pistemäärän ja suuren määrän suoraan asiaan liittyviä tutkimuksia ja kirjallisuutta: TxGNN on pohjimmiltaan löytänyt uudelleen olemassa olevan, todistetun hoitosuhteen pikemminkin kuin identifioineet uusia terapeuttisia hypoteeseja.
+Yksityiskohtaista vaikutusmekanismia koskevia tietoja ei ole tämän raportin aineistossa saatavilla. Tunnetun farmakologian perusteella aspartinsuliini on pikavaikutteinen insuliinianalogi, joka sitoutuu insuliinireseptoriin ja korvaa tyypin 1 diabeteksessa puuttuvaa elimistön omaa insuliinia.
 
-## Kliinisten tutkimusten todisteet
+Tyypin 1 diabetes on diabeteksen alatyyppi, joten ennuste vastaa lääkkeen vakiintunutta käyttöä. Korkea TxGNN-pistemäärä (0,9995) on sopusoinnussa tämän kanssa. Vaiheen 3 tutkimukset tukevat suoraan tehoa ja turvallisuutta.
 
-| Tutkimuksen numero | Vaihe | Asema | Osallistujien määrä | Keskeiset löydökset |
+Muut ennustetut sairaudet (esim. autoimmuuni-ooforiitti, opsismodysplasia, jäykän ihmisen oireyhtymä ja lipodystrofiat) perustuvat pelkkään mallin ennusteeseen, eikä niille löydy kliinistä näyttöä tai uskottavaa mekanistista yhteyttä. Paikallinen lipodystrofia on lisäksi insuliini-injektioiden tunnettu haittavaikutus, joten ennuste on todennäköisesti tietämysgraafin artefakti. Pysyvässä vastasyntyneiden diabeteksessa ja haiman agenesiassa insuliinikorvaus on mekanistisesti perusteltua ja vakiohoitoa, mutta aspartinsuliinille ei ole omia tutkimuksia.
+
+---
+
+## Kliininen tutkimusnäyttö
+
+Alla on tyypin 1 diabetekseen liittyvistä tutkimuksista keskeisimmät (näytön relevanssiluokka A tai B sekä suuret vaiheen 3 tutkimukset).
+
+| Tutkimusnumero | Vaihe | Tila | Osallistujia | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT00322257](https://clinicaltrials.gov/study/NCT00322257) | Vaihe 3 | Keskeytetty | 596 | Suora vertailu hengitettyä aterioinsuliinia vs. subkutaanista insulin-aspartattia (+ insulin detemir) T1DM:ssä 104 viikon ajan |
-| [NCT02546401](https://clinicaltrials.gov/study/NCT02546401) | Vaihe 3 | Valmistunut | 22 | Testattiin aterian ennen/jälkeen insuliini-aspartatin bolus-ajoitusta insuliinipumpulla T1DM-potilailla |
-| [NCT05413369](https://clinicaltrials.gov/study/NCT05413369) | Vaihe 3 | Valmistunut | 582 | Suuri monikeskuksinen tutkimus vertailemassa iGlarLixi:tä IDegAsp:iin (insuliini degludek/aspartat) oraalilääkkeillä riittämättömästi hallitussa diabeteksessa |
-| [NCT02518945](https://clinicaltrials.gov/study/NCT02518945) | Vaihe 3 | Valmistunut | 26 | Dapagliflozin-lisä liraglutidiin ja insuliiniin T1DM:ssä; insuliini (ml. aspartat) taustahoidoksi |
-| [NCT03800875](https://clinicaltrials.gov/study/NCT03800875) | Vaihe 2 | Valmistunut | 24 | Kaksoishormoni (insuliini-pramlintidi) suljetun silmukan toimitus ilman hiilihydraatin laskemista T1DM-aikuisilla |
-| [NCT00046150](https://clinicaltrials.gov/study/NCT00046150) | Vaihe 3 | Valmistunut | 59 | HMR1964:n vs. insulin-aspartatin turvallisuusvertailu jatkuvan subkutaanisen insuliinin infuusion kautta T1DM:ssä |
-| [NCT01513590](https://clinicaltrials.gov/study/NCT01513590) | Vaihe 3 | Valmistunut | 394 | 26 viikon tutkimus vertailemassa insuliini degludek/aspartattia (IDegAsp) vs. kaksivaiheista insuliini-aspartattia 30, molemmat metformiinin kanssa |
-| [NCT00312156](https://clinicaltrials.gov/study/NCT00312156) | Vaihe 3 | Valmistunut | 347 | Insuliini detemir vs. NPH-insuliini, molemmat yhdistettynä aterioinsuliini-aspartaatin kanssa, lapsilla/nuorilla T1DM:n kanssa |
-| [NCT00474045](https://clinicaltrials.gov/study/NCT00474045) | Vaihe 3 | Valmistunut | 470 | Insuliini detemir vs. NPH-insuliini yhdistettynä insuliini-aspartatin bolus-annostukseen raskailla naisilla T1DM:n kanssa |
-| [NCT00082407](https://clinicaltrials.gov/study/NCT00082407) | Vaihe 3 | Valmistunut | 505 | Exenatidi vs. kahdesti päivässä annettava kaksivaiheinen insuliini-aspartat diabeteksessa sulfonyyluurean/metformiinin käyttäjillä |
+| [NCT00097071](https://clinicaltrials.gov/study/NCT00097071) | Vaihe 3 | Päättynyt | 299 | Aspartinsuliini vs. lisproinsuliini insuliinipumpuissa lapsilla ja nuorilla, joilla on tyypin 1 diabetes |
+| [NCT02825251](https://clinicaltrials.gov/study/NCT02825251) | Vaihe 3 | Päättynyt | 472 | Nopeammin vaikuttavan aspartinsuliinin jatkuva ihonalainen infuusio vs. NovoRapid aikuisilla |
+| [NCT00595374](https://clinicaltrials.gov/study/NCT00595374) | Vaihe 3 | Päättynyt | 114 | Detemirinsuliini + aspartinsuliini vs. NPH + aspartinsuliini aikuisilla |
+| [NCT00322257](https://clinicaltrials.gov/study/NCT00322257) | Vaihe 3 | Keskeytetty | 596 | Inhaloitava aterioinsuliini vs. ihonalainen aspartinsuliini, yhdessä detemirinsuliinin kanssa |
+| [NCT01520818](https://clinicaltrials.gov/study/NCT01520818) | Vaihe 3 | Päättynyt | 666 | Kaksivaiheinen aspartinsuliini 50/70 vs. kaksivaiheinen ihmisinsuliini 30, tyypin 1 ja 2 diabetes |
+| [NCT00447382](https://clinicaltrials.gov/study/NCT00447382) | Vaihe 3 | Päättynyt | 330 | Detemirinsuliinin valmistustavan turvallisuusvertailu, aspartinsuliini ateriainsuliinina |
+| [NCT01467323](https://clinicaltrials.gov/study/NCT01467323) | Vaihe 3 | Päättynyt | 303 | Kaksivaiheinen aspartinsuliini 30 vs. kaksivaiheinen ihmisinsuliini 30/70, tyypin 1 ja 2 diabetes |
+| [NCT00725036](https://clinicaltrials.gov/study/NCT00725036) | Vaihe 3 | Päättynyt | 305 | Inhaloitava ihmisinsuliini vs. ihonalainen aspartinsuliini, 24 kuukauden turvallisuus |
+| [NCT01999322](https://clinicaltrials.gov/study/NCT01999322) | Vaihe 3 | Päättynyt | 37 | FIAsp:n ja aspartinsuliinin yhteensopivuus ja turvallisuus insuliinipumpussa |
+| [NCT01486381](https://clinicaltrials.gov/study/NCT01486381) | Vaihe 3 | Päättynyt | 22 | Kaksivaiheisen aspartinsuliini 30:n pitkäaikaisturvallisuus nuorilla (jatkotutkimus) |
 
-*40 lisätutkimusta palautettiin, mutta niitä ei näytetä; useimmat käyttävät insulin-aspartattia taustahoidoksi/vertailuryhmänä laite- tai yhdistelmätutkimuksissa.*
+Aineistossa on yhteensä 30 tutkimusta, joista vähintään kymmenen on päättyneitä vaiheen 3 tutkimuksia. Osassa tutkimuksista aspartinsuliini on vertailuvalmiste tai taustahoito, joten näyttö on siltä osin epäsuoraa.
 
-## Kirjallisuuden todisteet
+---
 
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
+## Kirjallisuusnäyttö
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [21333580](https://pubmed.ncbi.nlm.nih.gov/21333580/) | 2011 | RCT (systemaattisen katsauksen perusteella) | Diabetes & Metabolism | Nopeasti vaikuttavan insuliini-aspartatin tehokkuus/turvallisuus vs. tavallinen ihmisen insuliini T1DM:ssä/T2DM:ssä |
-| [37863084](https://pubmed.ncbi.nlm.nih.gov/37863084/) | 2023 | RCT (Vaihe 3a) | Lancet | ONWARDS 6: kerran viikossa annettava insuliini icodec vs. kerran päivässä annettava degludek T1DM:n basal-bolus-skeemassa |
-| [36623517](https://pubmed.ncbi.nlm.nih.gov/36623517/) | 2023 | RCT | Lancet Diabetes & Endocrinology | EXPECT-tutkimus: insuliini degludec vs. detemir, molemmat insuliini-aspartatin kanssa raskailla naisilla T1DM:n kanssa |
-| [37290466](https://pubmed.ncbi.nlm.nih.gov/37290466/) | 2023 | Katsaus | Lancet Diabetes & Endocrinology | T1DM:n hallinta raskauden aikana — elämäntapa, farmakologinen hoito, glykeemisen hallinnon tavoitteet |
-| [41697686](https://pubmed.ncbi.nlm.nih.gov/41697686/) | 2026 | Katsaus | JAMA | Tyypin 1 diabetes yleiskatsaus — autoimmuni beetasolujen tuhoaminen, epidemiologia, komplikaatiot |
-| [15871555](https://pubmed.ncbi.nlm.nih.gov/15871555/) | 2003 | Katsaus | Treatments in Endocrinology | Insulin-aspartaatin merkitys T1DM:ssä/T2DM:ssä — alempi HbA1c ja parantunut ateriajälkeinen hallinta vs. tavallinen insuliini |
-| [12215068](https://pubmed.ncbi.nlm.nih.gov/12215068/) | 2002 | Katsaus | Drugs | Insuliini-aspartatin käyttökatsaus T1DM:n/T2DM:n hallinnassa |
-| [18710361](https://pubmed.ncbi.nlm.nih.gov/18710361/) | 2008 | Katsaus | Expert Opinion on Pharmacotherapy | Kaksivaiheinen insuliini-aspartat 30 T1DM:n hoitoon |
-| [35746893](https://pubmed.ncbi.nlm.nih.gov/35746893/) | 2023 | Meta-analyysi | Diabetes & Metabolism Journal | Nopeasti vaikuttava aspartat vs. aspartat insuliinipumpun kautta T1DM:ssä |
-| [31345519](https://pubmed.ncbi.nlm.nih.gov/31345519/) | 2019 | Katsaus | Endocrinology and Metabolism Clinics of North America | Tyypin 1 diabetes raskauden aikana — glykeemisen hallinnon haasteet ja teknologian edistysaskeleet |
+| [36623517](https://pubmed.ncbi.nlm.nih.gov/36623517/) | 2023 | RCT | Lancet Diabetes Endocrinol | Degludek vs. detemir yhdessä aspartinsuliinin kanssa raskaana olevilla naisilla, joilla on tyypin 1 diabetes (EXPECT) |
+| [37863084](https://pubmed.ncbi.nlm.nih.gov/37863084/) | 2023 | RCT | Lancet | Kerran viikossa annettava ikodekinsuliini vs. degludek basaali-bolus-hoidossa tyypin 1 diabeteksessa (ONWARDS 6) |
+| [40445776](https://pubmed.ncbi.nlm.nih.gov/40445776/) | 2025 | RCT | Diabetes Technol Ther | Täysin suljettu silmukka nopeammalla aspartinsuliinilla (Fiasp) paransi glukoositasapainoa nuorilla |
+| [25644227](https://pubmed.ncbi.nlm.nih.gov/25644227/) | 2015 | Systemaattinen katsaus ja meta-analyysi | Pol Arch Med Wewn | Aspartinsuliinin teho ja turvallisuus verrattuna tavalliseen ihmisinsuliiniin, tyypin 1 ja 2 diabetes |
+| [21333580](https://pubmed.ncbi.nlm.nih.gov/21333580/) | 2011 | Systemaattinen katsaus | Diabetes Metab | Aspartinsuliinin ja tavallisen ihmisinsuliinin vertailu |
+| [12215068](https://pubmed.ncbi.nlm.nih.gov/12215068/) | 2002 | Katsaus | Drugs | Aspartinsuliini tuotti ateriainsuliinina matalamman HbA1c:n kuin tavallinen ihmisinsuliini tyypin 1 diabeteksessa |
+| [15871555](https://pubmed.ncbi.nlm.nih.gov/15871555/) | 2003 | Katsaus | Treat Endocrinol | Aspartinsuliini vs. tavallinen ihmisinsuliini tyypin 1 ja 2 diabeteksessa |
+| [23243636](https://pubmed.ncbi.nlm.nih.gov/23243636/) | 2012 | Katsaus | Drugs Today | Insuliinianalogit tyypin 1 diabeteksessa lapsilla ja nuorilla |
+| [31902063](https://pubmed.ncbi.nlm.nih.gov/31902063/) | 2020 | Kertomuksellinen katsaus | Diabetes Ther | Insuliinihoito aikuisilla, joilla on tyypin 1 diabetes |
+| [29978361](https://pubmed.ncbi.nlm.nih.gov/29978361/) | 2019 | Katsaus | Clin Pharmacokinet | Nopeammin vaikuttava aspartinsuliini uutena bolusvaihtoehtona |
 
-*10 lisäjulkaisua palautettiin, mutta niitä ei näytetä.*
+Pysyvän vastasyntyneiden diabeteksen osalta on yksi katsaus insuliinihoidosta ([28527303](https://pubmed.ncbi.nlm.nih.gov/28527303/), 2017, Diabetes Res Clin Pract).
 
-## Suomen markkinatiedot
+---
 
-Insulin-aspartat näyttää tällä hetkellä olevan **ilman markkinointilupia** tässä todistusaineistossa (`market_status`: Ei markkinoitu, `total_licenses`: 0). Koska insulin-aspartatin laaja kliininen käyttö ja tutkimuspohja näytetään yllä, tämä todennäköisesti heijastaa aukkoa taustalla olevan sääntelytietokannan sijaan kuin todellista markkinapuutetta, ja se tulisi uudelleen tarkistaa Fimean virallisessa rekisterissa.
+## Markkinatiedot Suomessa
+
+Kaikki seitsemän myyntilupaa on peruutettu.
+
+| Myyntilupanumero | Tuotenimi | Lääkemuoto | Käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000308 | NovoMix | – | Diabetes mellitus |
+| EMEA/H/C/005033 | Insulin aspart Sanofi | – | Diabetes mellitus |
+| EMEA/H/C/000258 | NovoRapid | – | Diabetes mellitus |
+| EMEA/H/C/005635 | Truvelog Mix 30 | – | Diabetes mellitus |
+| EMEA/H/C/004965 | Kirsty (aiemmin Kixelle) | – | Diabetes mellitus |
+
+---
 
 ## Turvallisuusnäkökohdat
 
-Lisätietoja turvallisuudesta on pakkausselosteessa.
+Turvallisuustiedot on tarkistettava valmisteyhteenvedosta. Lääkkeiden yhteisvaikutuksista ei löytynyt tietoja.
 
-## Johtopäätös ja seuraavat vaiheet
+Huomioitavaa: paikallinen lipodystrofia on tunnettu insuliini-injektioiden haittavaikutus.
 
-**Päätös: Etene varauksilla**
+---
+
+## Johtopäätös ja jatkotoimet
+
+**Päätös: Proceed with Guardrails (eteneminen suojatoimin)**
 
 **Perustelut:**
-- Vaihe 3 tutkimusten ja kirjallisuuden todisteiden määrä (L1) vahvistaa insulin-aspartatin tehokkuuden T1DM:lle, mutta tämä johtuu siitä, että T1DM on jo sen vakiointunut indikaatio — ei aidon lääkkeen uudelleenkäytön löytö. Tämä kandidaatti tulisi käsitellä tiedon laadun korjauksena, ei uutena mahdollisuutena, ennen kuin mitään myöhempää toimintaa tehdään.
-- Erikseen, kaksi muuta TxGNN-signaalia tälle lääkkeelle (lääkeindusoitu paikallinen lipodystrofia, keskipakoinen lipodystrofia) näyttävät olevan käänteisen kausaalisuuden — insuliini-injektio on tunnettu *syy* paikalliselle lipoodystrifialle, ei hoito sille — ja ne tulisi merkitä turvallisuusarvioinnin kohteiksi pikemminkin kuin lääkkeen uudelleenkäytön kandidaateiksi.
+- Tyypin 1 diabeteksen näyttö on vahva (useita päättyneitä vaiheen 3 tutkimuksia), mutta kyseessä on lääkkeen vakiintunut alkuperäinen käyttöaihe, ei uusi käyttöaihe. Kaikki Suomen myyntiluvat on peruutettu, joten suositus riippuu valmisteen saatavuudesta ja siitä, mitä valmistetta tarkoitetaan.
+- Muut ennustetut käyttöaiheet (sijat 2–10) ovat joko pelkkiä malliennusteita (Hold) tai vain epäsuorasti tuettuja tutkimuskysymyksiä (pysyvä vastasyntyneiden diabetes, haiman agenesia).
 
-**Edetäkseen seuraava on tarpeen:**
-- TFDA/Fimean pakkausseloste (varoitukset ja vasta-aiheet) — tällä hetkellä estävä tietoaukko (DG001)
-- DrugBank:in toimittama vaikutusmekanismin vahvistus (DG002)
-- `original_indications`- ja `market_status`-kenttien korjaus lähdetietokannassa vastaamaan insulin-aspartatin todellista hyväksyttyä indikaatiota ja markkinoinnin asemaa Suomessa
-- Tämän kandidaatin uudelleenluokittelu putkessa "ennustettu uusi indikaatio":sta "olemassa oleva indikaatio — tietokannan aukko"
-
+**Jatkoon tarvitaan:**
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet (Fimean sivusto) turvallisuusseulontaa varten
+- Vaikutusmekanismitiedot (DrugBank)
+- Selvitys peruutettujen myyntilupien syistä ja valmisteen nykyisestä saatavuudesta Suomessa
+- Mahdollisten uusien käyttöaiheiden osalta aspartinsuliinille spesifiset tutkimukset
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

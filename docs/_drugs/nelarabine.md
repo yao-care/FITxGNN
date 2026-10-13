@@ -2,7 +2,7 @@
 layout: default
 title: Nelarabine
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 257
+nav_order: 298
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,73 +29,88 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Nelarabini: T-solujen akuutista lymfoblastileukemiasta/lymfoomasta uusiutuvaan-remissioon vaihtelevaan MS-tautiin
+# Nelarabiini: Prekursori-T-solulymfoblastisesta leukemia-lymfoomasta relapsoivaan-remittoivaan MS-tautiin
 
 ## Yhden lauseen yhteenveto
 
-Nelarabini (DrugBank DB01280) on puriininukleosidianaloguprotuotteri, jolla on kansainvälinen hyväksyntä T-solujen akuutin lymfoblastileukaemian ja T-solujen lymfoblastisen lymfoomaen hoitoon; sillä ei ole markkinointilupaa Suomessa.
-TxGNN-malli ennustaa, että se saattaa olla tehokas **uusiutuvaan-remissioon vaihtelevassa MS-taudissa**, ennustuspistemäärällä **99.43%**, mutta **yhtään tukevia kliinisiä tutkimuksia tai kirjallisuutta** ei ole toistaiseksi tunnistettu.
+Nelarabiini on nukleosidianalogi, jota on käytetty prekursori-T-solulymfoblastisen leukemian ja lymfooman hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **relapsoivaan-remittoivaan MS-tautiin**,
+mutta ennusteen tueksi ei ole tällä hetkellä **yhtään kliinistä tutkimusta eikä julkaisua**: tuki perustuu pelkästään mallin ennustepisteisiin.
 
-## Lyhyt yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|--------|
-| Alkuperäinen indikaatio | T-solujen akuutti lymfoblastileukaemia (T-ALL) / T-solujen lymfoblastinen lymfooma (T-LBL) — kansainvälisen hyväksynnän mukaan; ei sisälly Suomen lääkkeiden hyväksyntärekisteriin |
-| Ennustettu uusi indikaatio | Uusiutuvaan-remissioon vaihtelevan MS-tauti |
-| TxGNN ennustuspistemäärä | 99.43% |
+|------|------|
+| Alkuperäinen käyttöaihe | Prekursori-T-solulymfoblastinen leukemia-lymfooma |
+| Ennustettu uusi käyttöaihe | Relapsoiva-remittoiva MS-tauti |
+| TxGNN-ennustepisteet | 99,43 % |
 | Näytön taso | L5 |
-| Suomen markkinatilanne | ✗ Ei markkinoilla |
-| Lupahyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Odota |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennustus on järkevä?
+## Miksi ennuste voi olla perusteltu?
 
-Tällä hetkellä yksityiskohtaista vaikutusmekanismin tietoa ei ole saatavilla näytöpakkauksessa (merkitty korkean vakavuuden tietovajeeksi). Tunnettujen farmakologisten tietojen perusteella nelarabini on ara-G:n (9-β-D-arabinofuranosylguanosiini) protuotteri, deoksiguanosiini-analogi. Se defosforyloidaan ara-G:ksi, jonka T-lymfoblaatit ottavat mieluiten vastaan, ja se fosforyloidaan solunsisäisesti aktiiviseksi trifosfaatiksi ara-GTP:ksi, joka sisällytetään DNA:han ja estää DNA-synteesiä, mikä johtaa selektiiviseen T-solujen kuolemaan. Se kuuluu puriininukleosidianalogujen (antimetaboliitit) luokkaan, ja sen tehokkuus T-solujen pahanlaatuisuuksissa on osoitettu kansainvälisen hyväksynnän kautta.
+Tämän raportin tietoihin ei sisälly yksityiskohtaista vaikutusmekanismin kuvausta. Tunnetun farmakologian perusteella nelarabiini on ara-G:n (deoksiguanosiinianalogi) esilääke. Se kertyy soluihin ara-GTP:nä ja estää DNA-synteesiä, ja vaikutus kohdistuu valikoivasti T-lymfosyytteihin.
 
-Mekanistisesti puriininukleosidianalogujen luokka on jo kliinisesti vahvistettu autoimmuunitaudeissa hermoston alalla: kladridiini, siihen liittyvä puriinianalogi, on hyväksytty taudin muuttava terapeuttinen hoito uusiutuvaan-remissioon vaihtelevassa MS-taudissa täsmälleen siksi, koska se valikoivasti kuolettaa verenkierrossa olevia lymfosyyttejä. Koska nelarabinilla on vertailukelpoinen lymfosyyttien valikoiva sytotoksinen mekanismi, vanhan lääkkeen uudelleenkäytön hypoteesi immuunitoiminnalla välittyvälle, lymfosyyteistä johtuvalle taudille, kuten RRMS:lle, on biologisesti uskottava. Kuitenkin tämä perustelu on tällä hetkellä vain mekanistinen/analoginen — sitä ei vielä tueta millään tautikohtaisella tutkimuksella tai kirjallisuusnäytöllä.
+MS-taudissa autoreaktiiviset T-solut ovat keskeisessä asemassa. T-solujen vähentäminen voisi siksi teoriassa olla hyödyllistä. Ajatus muistuttaa kladribiinia, joka on puriinianalogi ja hyväksytty relapsoivan MS-taudin hoitoon. Tämä yhteys on kuitenkin pelkkä päätelmä, eikä sitä tue mikään tähän raporttiin koottu tutkimusnäyttö.
 
-## Kliinisten kokeiden näyttö
+Merkittävä ristiriita on turvallisuudessa: nelarabiinin tunnettu vakava varoitus on neurotoksisuus (mm. demyelinaatio, perifeerinen neuropatia, Guillain-Barré-tyyppiset oireyhtymät, kouristukset ja uneliaisuus). Demyelinoivassa taudissa kuten MS:ssä tämä on suuri huolenaihe ja voi ylittää teoreettisen immuunivasteita muokkaavan hyödyn.
 
-Tällä hetkellä ei ole rekisteröityjä liittyviä kliinisiä tutkimuksia
+## Kliiniset tutkimukset
+
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
 ## Kirjallisuusnäyttö
 
-Tällä hetkellä kirjallisuutta ei ole saatavilla
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
 ## Suomen markkinatiedot
 
-Nelarabinilla ei tällä hetkellä ole markkinointilupaa Suomessa (0 lupaa tietueiden); tuotteen/annosmuodon tietoa ei ole saatavilla tälle ehdokkaalle.
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000752 | Atriance (Sandoz Pharmaceuticals d.d.), peruutettu | – | Prekursori-T-solulymfoblastinen leukemia-lymfooma |
 
 ## Sytotoksisuus
 
 | Kohta | Sisältö |
-|------|--------|
-| Sytotoksisuusluokitus | Tavanomainen sytoktoksinen (puriininukleosidianaloguista / antimetaboliitit) |
-| Luuydinsuppression riski | Korkea — puriinianalogujen tunnettu luokan vaikutus (neutropeenia, trombosytopenia, anemia yleisesti raportoitu julkaistussa lääkkeen tiedotteessa) |
-| Pahoinvointivaikutuksen luokitus | Kohtalainen |
-| Seurantakohdat | Täydellinen verilaskenta erillä, neurologinen tutkimus (perifeerinen ja keskushermosto-neurotoksisuus on tunnistettu luokan huolenaihe), munuaisten ja maksan toiminta |
-| Käsittelyturvallisuus | Kyllä — tavanomaisten sytoktoksisten lääkkeiden käsittelyn varotoimet ovat voimassa |
+|------|------|
+| Sytotoksisuusluokitus | Tavanomainen sytotoksinen lääke (puriinianalogi, antimetaboliitti) |
+| Luuydinsuppression riski | Katso valmisteyhteenvedon varoitukset ja varotoimet. Tietojen mukaan lääkkeeseen liittyy neutropenia, trombosytopenia ja anemia |
+| Oksettavuusluokitus | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Seurattavat parametrit | Täydellinen verenkuva, maksa- ja munuaisarvot sekä neurologinen tila |
+| Käsittelysuojaus | Sytotoksisten lääkkeiden käsittelyohjeiden mukaiset suojatoimet |
 
-*Huomautus: TFDA:n pakkausseloste on merkitty kriittiseksi tietovajeeeksi; yllä oleva heijastaa luokan yleistä tietämystä, ei vahvistettua paikallista merkintää. Vahvista virallista lääkkeen tiedotetta vastaan ennen kliinistä käyttöä.*
+## Turvallisuushuomiot
 
-## Turvallisuusnäkökohdat
+**Tietämyskuvaajaan perustuvat vasta-aihesignaalit** (eivät perustu valmisteyhteenvetoon): tietämyskuvaajassa nelarabiiniin liitetään vasta-aiheita tai riskitiloja, joita ovat muun muassa:
+- Maksan vajaatoiminta, hyperbilirubinemia, Gilbertin oireyhtymä
+- Munuaisten vajaatoiminta
+- Epilepsia
+- Hermostoon liittyvät: perifeerinen neuropatia, perifeerisen hermoston sairaus, demyelinoivat sairaudet, tulehduksellinen demyelinoiva polyradikuloneuropatia
+- Veriarvot: trombosytopenia, neutropenia, agranulosytoosi, anemia, makrosyyttinen anemia
+- Oppimisvaikeus ja kehitysvammaisuus
 
-Katso turvallisuustiedoista pakkauselosteesta.
+**Lääkeyhteisvaikutukset:** Tietoja on yhteensä 100 yhteisvaikutuksesta. Esimerkkejä:
+- *Merkittävät (Major):* bupropioni, deferipronii, jodiheksoli, jodipamidoli, samarium (153Sm) leksidronaami
+- *Kohtalaiset (Moderate):* metronidatsoli, tinidatsoli, rosuvastatiini, simvastatiini, klorokiini, hydroksiklorokiini, disulfiraami, pikosulfaatti, palifermiini, strontium-89-kloridi
+
+Valmisteyhteenvedon varoitus- ja vasta-aihetiedot on vielä hankittava.
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Odota**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Ennustus perustuu vain TxGNN-mallin pisteisiin (L5 näyttö) — yhtään kliinisiä tutkimuksia, ICTRP-rekisteröintejä, tai kirjallisuutta ei tueta tälle indikaatolle, ja lääke ei ole tällä hetkellä markkinoilla Suomessa. Mekanistinen perustelu on analoginen (perustuu siihen liittyvään lääkkeiden luokkaan), ei suoraa näyttöä.
+- Ennuste perustuu vain korkeaan TxGNN-pisteeseen (näytön taso L5), eikä tukevia tutkimuksia tai julkaisuja ole. Nelarabiinin tunnettu neurotoksisuus, myös demyelinaatio, on vakava turvallisuushuoli MS-taudissa. Lisäksi Suomessa on vain peruutettu myyntilupa ja yhteisvaikutuksia on runsaasti.
 
-**Jatkolle tarvitaan seuraavaa:**
-- TFDA:n pakkausseloste / virallinen lääkkeen tiedote (tällä hetkellä kriittiseksi tietovajeeeksi)
-- Vahvistettu DrugBank MOA -tieto
-- Kaikki esikliiniset tai potilastapaus-tason näytöt, jotka yhdistävät nelarabininin demyelinoiviin/autoimmuunitauteihin
-- Virallinen turvallisuusprofiili: vasta-aiheet, tärkeimmät varoitukset, LLI-tieto
-- Säännöllinen uudelleenhaku clinicaltrials.gov:ssa, ICTRP:ssä ja PubMed:ssä, koska tämä on uusi, tutkimaton indikaatioiden yhdistelmä
-
+**Eteenpäin siirtymiseksi tarvitaan:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden haku ja analysointi (Fimea)
+- Vaikutusmekanismin (MOA) tiedot
+- Prekliiniset tai mekanistiset tutkimukset nelarabiinin vaikutuksesta MS-taudin autoimmuunimallissa
+- Systemaattinen kirjallisuushaku sekä mahdollisen kliinisen tutkimuksen suunnittelu
+- Neurotoksisuusriskin arviointi MS-potilailla ja vertailu kladribiiniin
+- Reittien ja lääkemuodon yhteensopivuuden selvitys sekä myyntiluvan tilanteen tarkistus
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

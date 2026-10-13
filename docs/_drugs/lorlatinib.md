@@ -2,7 +2,7 @@
 layout: default
 title: Lorlatinib
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 235
+nav_order: 271
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,89 +29,105 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Lorlatinib: ALK-positiivisesta ei-pienisoluisesta keuhkosyövästä gingiaaaliseen fibromatoosiin
+# Lorlatinibi: Ei-pienisoluisen keuhkosyövän hoidosta ehdotettuun uuteen käyttöaiheeseen (ientiehytkasvainen fibromatoosi)
 
 ## Yhden lauseen yhteenveto
 
-Lorlatinib on kolmannen sukupolven ALK/ROS1-tyrosiinikinaasin estäjä, jonka vakiintunut käyttöindikaatio on ALK-positiivinen ei-pienisoluinen keuhkosyöpä (NSCLC), kuten tässä evidenssipakkauksessa sisältyvä lääketurvallisuuskirjallisuus osoittaa. TxGNN-mallin parhaiten arvoitettu ennuste tälle kandidaatille on **gingiaalinen fibromatoosi**, mutta tätä assosiaatiota tukee tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua**, ja siihen liittyvä perusteltu viittaa siihen, että kyseessä on todennäköisesti mallin kohina eikä todellinen mekanistinen signaali.
+Lorlatinibi on ALK/ROS1-tyrosiinikinaasin estäjä, jota on alun perin käytetty ei-pienisoluisen keuhkosyövän (NSCLC) hoitoon.
+TxGNN-malli ennustaa sen voivan tehota ensisijaisesti kohteeseen **ientiehytkasvainen fibromatoosi (fibromatosis, gingival)**, mutta ennusteen tueksi ei ole **yhtään kliinistä tutkimusta eikä julkaisua**. Ennuste on puhtaasti laskennallinen.
 
 ---
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | ALK-positiivinen ei-pienisoluinen keuhkosyöpä (NSCLC) — johdettu kirjallisuuskontekstista (esim. PMID 38554546); ei vahvistettu Suomen viranomaisten hakemuksella, koska sellaista ei ole |
-| Ennustettu uusi indikaatio | Gingiaalinen fibromatoosi |
-| TxGNN-ennusteen pistemäärä | 99.81% |
-| Evidenssitaso | L5 |
-| Suomen markkinoiden asema | Ei markkinoilla (Ei markkinoilla) |
-| Markkinointilupauksien lukumäärä | 0 |
-| Suositeltu päätös | Hold |
+|------|------|
+| Alkuperäinen käyttöaihe | Ei-pienisoluinen keuhkosyöpä (NSCLC) |
+| Ennustettu uusi käyttöaihe | Ientiehytkasvainen fibromatoosi (fibromatosis, gingival) |
+| TxGNN-ennusteen pistemäärä | 99,81 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Miksi tämä ennuste on järkevä?
+## Miksi ennuste voisi olla perusteltu?
 
-Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla (DrugBank MOA -kenttä on tietorako tässä tietueessa). Tämän kandidaatin laajemman evidenssisarjan perusteella haetusta kirjallisuudesta lorlatinib on aivoihin tunkeutuva, kolmannen sukupolven ALK/ROS1-tyrosiinikinaasin estäjä, jonka vakiintunut kliininen aktiivisuus on ALK:n uudelleen järjestäytyneiden pahanlaatuisissa kasvaimissa, pääasiassa NSCLC:ssä.
+Tästä lääkkeestä ei tällä hetkellä ole saatavilla yksityiskohtaisia vaikutusmekanismitietoja tähän raporttiin koottuun aineistoon. Tunnetun tiedon perusteella lorlatinibi on kolmannen sukupolven aivoihin läpäisevä ALK/ROS1-tyrosiinikinaasin estäjä, jonka teho ALK-positiivisessa NSCLC:ssä on osoitettu.
 
-Gingiaalinen fibromatoosi on kuitenkin perinnöllinen sidekudoksen ylikasvun sairaus, joka on yleisimmin yhdistetty geeneihin, kuten *SOS1* ja *REST*. ALK- tai ROS1-signaloinnin osallisuutta sen patofysiologiassa ei tunneta, eikä onkogeeninä olevan ajurin suhdetta lorlatinibin kohdeprofiiliin ole.
+Ientiehytkasvainen fibromatoosi on hyvänlaatuinen sidekudoksen liikakasvu, eikä aineiston perusteella ole tunnistettu mitään ALK-ohjautuvaa patologiaa, joka yhdistäisi sen lorlatinibin vaikutuskohteeseen. Mekanistista yhteyttä ei ole havaittu. Korkea pistemäärä (0,998) heijastaa todennäköisesti tietämysgraafin rakennetta, ei biologista perustetta.
 
-Tähän kandidaattiin liitetty siirtokäyttöindikaation perusteltu eksplisiittisesti osoittaa, että ennusteella ei ole tukevaa kliinisen tutkimuksen tai julkaisun näyttöä ja kuvailee sen syntyvän "puhtaasti mallin ennusteen kohinasta" (原文：純屬模型預測雜訊), eikä lorlatinibin farmakologian ja tämän sairauden välille ole olemassa uskottavaa mekanistista yhteyttä. Tätä kandidaattia ei siis tulisi nykymuodossaan tulkita uskottavaksi siirtokäyttöindikaation signaaliksi.
-
-*Huomautus: tämä evidenssipakkaus arvoitti 10 kandidaattindikaatiota lorlatinibille; tämä raportti kattaa parhaiten arvoitetun TxGNN-pisteytyksen mukaan. Kaksi muuta kandidaattia samassa erässä (keuhkojen juurikarsinooma; keuhkon sukusolun kasvain) saavuttivat evidenssitason L3 kirjallisuuden tuella, vaikka molempia merkittiin myös sairauden nimeämis-/ontologian kartoitusongelmista ja niiden tulisi ansaita erillistä arviointia.*
+Muiden korkeimmalle sijoittuneiden ennusteiden (mm. keuhkon fibrooma, keuhkon hamartooma, keuhkon hilusalueen karsinooma) kohdalla ennusteet liittyvät todennäköisesti lääkkeen hyväksyttyyn keuhkosyöpäkäyttöaiheeseen. Ne eivät ole itsenäisiä uusia käyttöaiheita.
 
 ---
 
-## Kliinisen tutkimuksen näyttö
+## Kliininen tutkimusnäyttö
 
-Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia
-
----
-
-## Kirjallisuuden näyttö
-
-Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
 ---
 
-## Suomen markkinatiedot
+## Kirjallisuusnäyttö
 
-Lorlatinibia ei ole tällä hetkellä markkinoilla Suomessa (markkinaasema: Ei markkinoilla). Tälle tuotteelle ei ole tiedostoissa markkinointilupia.
+Tällä hetkellä ei ole aiheeseen liittyvää kirjallisuutta ientiehytkasvaimisen fibromatoosin osalta.
+
+Muista ennustetuista kohteista on kirjallisuutta, mutta se ei tue ensisijaista ennustetta:
+
+| Ennustettu kohde | Keskeinen kirjallisuus | Arvio |
+|------|------|------|
+| Keuhkon hilusalueen karsinooma | [37934724](https://pubmed.ncbi.nlm.nih.gov/37934724/) (2023, tapausselostus): neoadjuvantti lorlatinibi tuotti patologisen täydellisen vasteen ALK-positiivisessa keuhkosyövässä | Yksittäinen tapaus; päällekkäinen nykyisen NSCLC-käyttöaiheen kanssa |
+| Hyvänlaatuinen keuhkokasvain | [33207094](https://pubmed.ncbi.nlm.nih.gov/33207094/) (2020, RCT, NEJM), [38819031](https://pubmed.ncbi.nlm.nih.gov/38819031/) (2024) ja [42217582](https://pubmed.ncbi.nlm.nih.gov/42217582/) (2026): vaiheen 3 CROWN-tutkimus, lorlatinibi vs. kritsotinibi | Näyttö koskee jo hyväksyttyä pahanlaatuista käyttöaihetta, ei hyvänlaatuisia kasvaimia |
+| Keuhkon itusolukasvain | [37012551](https://pubmed.ncbi.nlm.nih.gov/37012551/) (2023, vaiheen 1 tutkimus): lorlatinibi ALK-ohjautuvassa neuroblastoomassa | Ei koske keuhkon itusolukasvainta; tukee ALK-ohjautuvia syöpiä yleisesti |
 
 ---
 
-## Sytostaattisyys
+## Myyntitiedot Suomessa
+
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004646 | Lorviqua | – | Ei-pienisoluinen keuhkosyöpä (tila: peruutettu) |
+
+---
+
+## Sytotoksisuus
 
 | Kohta | Sisältö |
-|------|---------|
-| Sytostaattinen luokittelu | Kohdistettu lääkehoito (ALK/ROS1-tyrosiinikinaasin estäjä; ei-sytostaattinen mekanismi) |
-| Luuytimen tukahduttamisen riski | Matala — ei tavallinen sytostaattinen aine; luuytimen tukahduttaminen ei ole merkittävä löydös saatavilla olevassa kirjallisuudessa |
-| Pahoinvointiherkkyys | Matala, yhdenmukaisesti muiden ALK-estäjien kanssa |
-| Seurantakohdat | Rasva-arvojen paneeli (hyperkolesterolemia/hypertriglyserideemia raportoitu tapauskirjallisuudessa), maksatoiminta, paino/BMI, mieliala ja kognitiivinen tila, keuhkooireet (harvinainen ARDS raportoitu tapauskirjallisuudessa) |
-| Käsittelysuojaus | Suun kautta otettava kohdistettu lääkehoito; vakio-instituution suun kautta otettavat onkolyyttisen lääkehoidon varotoimet ovat voimassa. Ei vahvistettua sytostaattisen (vaarallisen lääkkeen) käsittelyluokitusta — katso lopullisen ohjauksen osalta pakkausselosteesta |
+|------|------|
+| Sytotoksisuusluokitus | Kohdennettu hoito (ALK/ROS1-tyrosiinikinaasin estäjä) |
+| Luuydinsuppression riski | Tarkempia tietoja ei ole saatavilla; katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Oksentelua aiheuttavuus | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Seurantakohteet | Veriarvot, maksan ja munuaisten toiminta sekä rasva-arvot (kirjallisuudessa raportoitu hyperlipidemia) |
+| Käsittelysuojaus | Katso valmisteyhteenvedon varoitukset ja varotoimet |
 
 ---
 
-## Turvallisuusharkinnot
+## Turvallisuusnäkökohdat
 
-Katso turvallisuustiedot pakkausselosteesta.
+- **Lääkeyhteisvaikutukset**: Yhteisvaikutuksia on kirjattu yhteensä 100. Aineistossa luetelluista merkittävimpiä (vakavuusluokka "Major") ovat:
+  - deksametasoni
+  - klaritromysiini
+
+  Lisäksi kirjattu useita keskivaikeita (Moderate) yhteisvaikutuksia, mm. hydrokortisoni, bupropioni, aprepitantti, morfiini, simetidiini, betametasoni, triamsinoloni sekä useat diabeteslääkkeet (esim. dapagliflotsiini, empagliflotsiini, linagliptiini, glimepiridi).
+- **Kirjallisuudesta nousseet turvallisuussignaalit**: hyperlipidemia ja dyslipidemia, lorlatinibiin liittyvä akuutti hengitysvaikeusoireyhtymä (ARDS), Sweetin oireyhtymä sekä keuhkotoksisuus samanaikaisessa käytössä anti-GD2-vasta-aineen kanssa.
+
+Muiden varoitusten ja vasta-aiheiden osalta katso valmisteyhteenveto.
 
 ---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Hold**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Tämä on TxGNN:n korkeimmin arvoitettu ennuste lorlatinibille, mutta sillä ei ole kliinisen tutkimuksen tai kirjallisuuden näyttöä, ja sairauden tunnettu geneettiset alkuperä (SOS1/REST-liittyvä) ei osoita mekanistista yhteyttä lorlatinibin ALK/ROS1-kohteeseen. Evidenssipakkaus itse merkitsee tätä todennäköisesti ennusteen kohinaksi, joten se ei täytä edellytyksiä jatkaa.
+- Ennusteella on korkea laskennallinen pistemäärä, mutta ei kliinistä eikä kirjallista näyttöä, eikä mekanistista yhteyttä ALK/ROS1-estoon. Myyntilupa Suomessa on lisäksi peruutettu.
 
-**Jatkamiseksi tarvitaan seuraavaa:**
-- Vahvistettu alkuperäinen indikaatio ja vaikutusmekanismin tiedot DrugBankista (tällä hetkellä korkean vakavuuden tietorako DG001)
-- TFDA:n vastaava (Suomi) pakkausseloste varoitukset/vasta-indikaatiot (tällä hetkellä estävä tietorako)
-- Itsenäinen mekanistinen tai prekliininen näyttö ALK/ROS1:n estämisen yhdistämisestä gingiaaaliseen fibromatoosiin ennen muuta investointia
-- Jos tämän lääkkeen siirtokäyttötutkimus jatkuu, aseta etusijalle korkeamman evidenssisen kandidaattien uudelleenarviointi samassa erässä (esim. keuhkojen juurikarsinooma, keuhkon sukusolun kasvain) niiden todettujen sairauden nimeämis-/ontologian kartoitusongelmien ratkaisemisen jälkeen tämän kandidaatin sijaan
-
+**Eteenpäin siirtymiseksi tarvitaan:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen ja läpikäynti (estää tällä hetkellä turvallisuusseulonnan)
+- Yksityiskohtaiset vaikutusmekanismitiedot (MOA)
+- Biologisen perusteen selvittäminen ALK/ROS1-signaloinnin roolista ientiehytkasvaimisessa fibromatoosissa
+- Prekliiniset tutkimukset ennen kliinisiä suunnitelmia
+- Vaihtoehtoisesti ALK-ohjautuvien syöpien (esim. neuroblastooma) tarkastelu realistisempana uudelleenkäyttösuuntana
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

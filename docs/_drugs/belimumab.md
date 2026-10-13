@@ -2,7 +2,7 @@
 layout: default
 title: Belimumab
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 65
+nav_order: 72
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,63 +29,95 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Belimumab: dokumentoimattomasta alkuperäisestä käyttöaiheesta verihiutaleisten primaarisen vapautumishäiriön hoitoon
+# Belimumabi: Systeemisestä lupuksesta primaariseen verihiutaleiden vapautumishäiriöön
 
 ## Yhden lauseen yhteenveto
 
-Todisteiden pakettiin ei sisälly belimumabinin alkuperäistä hyväksyttyä käyttöaihetta tai vaikutusmekanismia (molemmat merkitty tietovajeiksi). TxGNN-malli ennustaa, että se saattaa olla tehokas **verihiutaleisten primaarisen vapautumishäiriön** hoitoon, mutta tätä suuntaa tukee tällä hetkellä vain **1 kliininen tutkimus** (arvioitu: ei ole tosiasiallisesti merkityksellinen ennustetulle käyttöaiheelle) ja **0 julkaisua**.
+Belimumabi on BLyS (BAFF) -proteiinia neutraloiva monoklonaalinen vasta-aine, jota on alun perin käytetty systeemisen lupus erythematosuksen hoitoon. TxGNN-malli ennustaa sen voivan tehota **primaariseen verihiutaleiden vapautumishäiriöön**, mutta ennusteen tueksi ei ole tällä hetkellä **yhtään kliinistä tutkimusta eikä julkaisua**. Ennuste perustuu pelkästään mallin laskentaan.
 
-## Nopea yleiskatsaus
+---
+
+## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Ei dokumentoitu todisteiden pakettiin (tietovaie) |
-| Ennustettu uusi käyttöaihe | Verihiutaleisten primaarinen vapautumishäiriö |
-| TxGNN-ennusteen pistemäärä | 99.96% |
-| Todisteiden taso | L5 (vain mallin ennuste — siihen liittyvä tutkimus on merkintöjen epäsuhta, ei todellinen tukeva näyttö) |
-| Taiwanin markkinatilanne | Ei markkinoilla |
-| Lupien määrä | 0 |
-| Suositeltu päätös | Pidä odotuksessa |
+| Alkuperäinen käyttöaihe | Systeeminen lupus erythematosus |
+| Ennustettu uusi käyttöaihe | Primaarinen verihiutaleiden vapautumishäiriö (primary release disorder of platelets) |
+| TxGNN-ennustepisteet | 99,96 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennuste on kohtuullinen?
+---
 
-Tällä hetkellä belimumabinin yksityiskohtaiset vaikutusmekanismin tiedot eivät ole saatavilla tässä todisteiden paketissa, eikä alkuperäistä käyttöaihetta ole tiedostoissa — molemmat on merkitty tietovajeiksi (DG001, DG002).
+## Miksi ennuste on perusteltu – tai ei?
 
-Saatavilla olevan uudelleenkäytön perustelun pohjalta todisteiden paketti itse päättelee, että **belimumabinin ja verihiutaleisten primaarisen vapautumishäiriön välillä ei ole tunnettua mekanistista yhteyttä**: belimumabinin tiedetään vaikuttavan BAFF/BLyS-signalointiin, joka vaikuttaa B-solujen säilymiseen ja autoantibodien tuottamiseen — reitti, joka ei liity verihiutaleisten granulien vapautumiseen. Ainoalla liittyvällä kliinisella tutkimuksella (NCT01610492) on tarkisteltu ja sijoitettu "C" -luokkaan — sen todellinen aihe oli idiopaattinen kalvomainen glomerulonefriitti, ei verihiutaleisiin liittyvä häiriö, ja se arvioitiin tietokannan merkintöjen epäsuhteeksi eikä todelliseksi tukevaksi näytöksi ennustetulla käyttöaiheella.
+Belimumabi sitoutuu liukoiseen BLyS-proteiiniin (BAFF) ja vähentää B-solujen elinaikaa sekä autovasta-aineiden tuotantoa. Tarkkaa lääkeaineen vaikutusmekanismitietoa ei ole tähän raporttiin koottu aineistoon saatavilla, joten mekanismia ei voitu tarkistaa tietueesta.
 
-Kaiken kaikkiaan tämä ennuste tällä hetkellä perustuu vain TxGNN-mallin pistemäärään ilman vahvistettua mekanistista yhteyttä tai asiaan liittyvää kliinistä tutkimusta tai kirjallisuuden näyttöä.
+Primaariset verihiutaleiden vapautumishäiriöt ovat yleensä perinnöllisiä verihiutaleiden toiminnan häiriöitä (varastorakkula- tai eritysvika). Ne eivät ole B-solu- tai autovasta-ainevälitteisiä. Uskottavaa mekanistista yhteyttä lupukseen tai BLyS:n estoon ei ole havaittavissa, joten korkea TxGNN-pistemäärä (0,9996) on pelkkä mallin ennuste.
 
-## Kliinisen tutkimuksen näyttö
+### Muut ennustetut käyttöaiheet
 
-| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset tulokset |
-|---------|------|------|------|---------|
-| [NCT01610492](https://clinicaltrials.gov/study/NCT01610492) | Vaihe 2 | Valmis | 14 | Tutki belimumaabia anti-PLA2R-positiivisessa idiopaattisessa kalvomaisessa glomerulonefriitissa — **ei** verihiutaleisiin liittyvä; arvioija katsoi tämän tietokannan merkintöjen epäsuhteeksi eikä hyväksyttäviksi tukeviksi näytöksi ennustetulle käyttöaiheelle |
+Samassa aineistossa ennustettiin myös seuraavat. Kaikilla näytön taso on L5, eikä niistä löytynyt tutkimuksia tai julkaisuja.
 
-## Kirjallisuuden näyttö
+| Sija | Sairaus | TxGNN-pisteet | Arvio |
+|------|------|------|------|
+| 2 | Pseudo-von Willebrandin tauti | 99,96 % | Geneettinen GP1BA-reseptoripoikkeama, ei immuunivälitteinen; BLyS:n eston perustelu puuttuu |
+| 3 | Glanzmannin trombasteenia | 99,88 % | Perinnöllinen integriini αIIbβ3:n puutos; vain spekulatiivinen yhteys verihiutaleensiirron jälkeisiin allovasta-aineisiin |
+| 4 | Sikiön ja vastasyntyneen alloimmuunitrombosytopenia (FNAIT) | 99,59 % | Biologisesti uskottavin: äidin IgG-allovasta-aineet tuhoavat sikiön verihiutaleita. Belimumabi ei ole vakiintunut hoito (vakiohoito IVIG ja anti-FcRn), ja raskauden sekä sikiöaltistuksen turvallisuus vaatisi huolellista arviointia |
+| 5 | Vaikea ei-proliferatiivinen diabeettinen retinopatia | 99,05 % | Mikroverisuonitauti (hyperglykemia, VEGF, tulehdus); BAFF:n rooli ei ole osoitettu |
+| 6 | Autosomaalisesti vallitseva makrotrombosytopenia | 99,04 % | Perinnöllinen verihiutaleiden tuotannon tai tukirangan häiriö (esim. MYH9, TUBB1, ACTN1); ei mekanistista yhteyttä |
 
-Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta.
+---
 
-## Taiwanin markkinatiedot
+## Kliininen tutkimusnäyttö
 
-Belimumabilla ei ole tällä hetkellä myyntilupaa Taiwanissa (0 lupaa rekisterissä; markkinatilanne: Ei markkinoilla).
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
+
+---
+
+## Kirjallisuusnäyttö
+
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
+
+---
+
+## Tiedot Suomen markkinoilta
+
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/002015 | Benlysta (GlaxoSmithKline Trading Services Limited) | – | Systeeminen lupus erythematosus (tila: peruutettu) |
+
+---
 
 ## Turvallisuusnäkökohdat
 
-Katso pakkausseloste turvallisuustiedoista. Huomio: TFDA:n pakkausselosteen varoitukset/vasta-aiheet -tiedot on merkitty **estäviksi** tietovajeiksi (DG001) ja ne on hankittava ennen kuin turvallisuuden esiarviointia (S1) voidaan suorittaa.
+Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole tähän raporttiin koottu aineistoon saatavilla. Turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
+
+**Lääkeyhteisvaikutukset:** Yhteisvaikutushaussa löytyi yhteensä 69 yhteisvaikutusta. Merkittävimpiä ovat:
+
+- **Vakavat (Major):** adalimumabi, baricitinibi, sertolitsumabipegoli sekä elävä BCG-rokote (Tice-kanta)
+- **Kohtalaiset (Moderate):** atsatiopriini, anakinra, alemtutsumabi, alefasepti, kanakinumabi, roflumilasti sekä useat rokotteet ja eläviä mikro-organismeja sisältävät valmisteet (mm. jäykkäkouristustoksoidi, pernaruttorokote, adenovirusrokote, koleraroteke, Candida albicans)
+- **Lievät (Minor):** sinkkiyhdisteet (asetaatti, glukonaatti, sulfaatti, kloridi)
+
+Yleisesti ottaen yhteisvaikutukset liittyvät pääosin muihin immuunivastetta heikentäviin lääkkeisiin ja eläviin rokotteisiin, joten infektioriski on huomioitava.
+
+---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Pidä odotuksessa**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Todisteiden taso on L5 — ennuste saa tukea vain TxGNN-mallin pistemäärästä ilman vahvistettua mekanistista yhteyttä ja ilman asiaan liittyviä kliinisiä tutkimuksia tai kirjallisuuden näyttöä (ainoa liittyvä tutkimus on dokumentoitu merkintöjen epäsuhde). Lisäksi lääke ei ole tällä hetkellä markkinoilla Taiwanissa, ja turvallisuustiedot muodostavat estävän tietovajeen.
+- Ennusteet perustuvat pelkästään TxGNN-mallin laskentaan (L5), eikä yhtään kliinistä tutkimusta tai julkaisua tue niitä. Useimmissa ennustetuissa sairauksissa mekanistinen yhteys BLyS:n estoon puuttuu. Lisäksi Suomessa on vain peruutettu myyntilupa.
 
-**Jatkamiseksi tarvitaan seuraavaa:**
-- TFDA:n pakkausseloste (varoitukset/vasta-aiheet) — ratkaise estävä tietovaie DG001
-- Vahvistetut vaikutusmekanismin tiedot — ratkaise tietovaie DG002
-- Belimumabinin alkuperäiset hyväksytyt käyttöaiheet mekanistista vertailua varten
-- Todellinen kliininen tutkimus tai kirjallisuuden näyttö, joka liittyy nimenomaisesti verihiutaleisten primaarisen vapautumishäiriöön (tai muiden 5 alemman sijoituksen saaneen ehdokkaan uudelleenseulonta, joista kaikki ovat samalla tavalla Pidä odotuksessa/L5 -statuksessa ilman tukitutkimuksia)
-
+**Edetäkseen tarvitaan seuraavaa:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden kokoaminen Fimean sivustolta (estää turvallisuusseulonnan jatkamisen)
+- Vaikutusmekanismitiedot (MOA) DrugBankista
+- Systemaattinen kirjallisuushaku ja tutkimusrekisterihaku erityisesti FNAIT:lle, joka on mekanistisesti uskottavin ehdokas
+- FNAIT:n osalta raskauden ja sikiöaltistuksen turvallisuuden arviointi sekä vertailu nykyiseen vakiohoitoon (IVIG, anti-FcRn)
+- Selvitys peruutetun myyntiluvan syistä ja nykyisestä saatavuudesta Suomessa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

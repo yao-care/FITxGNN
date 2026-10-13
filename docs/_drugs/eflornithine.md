@@ -2,7 +2,7 @@
 layout: default
 title: Eflornithine
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 135
+nav_order: 154
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,75 +29,84 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Eflornitiin: Hirsutismista / afrikkalaisen trypanosomiaasisen hoidosta Esotropiaan
+# Eflornitiini: Hirsutismista esotropiaan
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Eflornitiin on ornitiidin dekarboksylaasi (ODC) -inhibiittori, jota käytetään tällä hetkellä kasvojen hirsutismin paikallishoitoon ja afrikkalaisen trypanosomiaasisen (unimato-tauti) laskimonsisäiseen hoitoon. TxGNN-malli ennustaa mahdollista vaikuttavuutta **Esotropiassa**, mutta tämä ennuste perustuu tällä hetkellä **0 kliiniseen tutkimukseen** ja **0 julkaisuun**, ja se perustuu pelkästään tilastolliseen assosiaatioon.
+Eflornitiini on ornitiinidekarboksylaasia (ODC) estävä vaikuttava aine, jota on käytetty hirsutismin (liiallinen karvankasvu) hoitoon. TxGNN-malli ennustaa sen voivan tehota **esotropiaan** (sisäänpäin kääntyvä kierosilmäisyys), mutta ennusteen tueksi ei ole **yhtään kliinistä tutkimusta eikä julkaisua**. Ennuste perustuu pelkästään mallilaskentaan.
 
 ---
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Hirsutismi (paikallinen), afrikkalainen trypanosomiasis (IV) — tunnettujen lääkeluokkien tietojen perusteella; Suomeen liittyviä hyväksyttyjä indikaatiotekstejä ei ole saatavilla |
-| Ennustettu uusi indikaatio | Esotropia |
-| TxGNN-ennusteen pistemäärä | 99.85% |
+| Alkuperäinen käyttöaihe | Hirsutismi |
+| Ennustettu uusi käyttöaihe | Esotropia |
+| TxGNN-ennustepistemäärä | 99,85 % |
 | Näytön taso | L5 |
-| Suomen markkina-asema | Ei markkinoilla |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Pidätä |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 |
+| Suositeltu päätös | Hold (odotetaan) |
+
+Toinen ennustettu käyttöaihe, neurotrofinen keratopatia, sai pistemäärän 99,38 %. Sekin on näytön tasolla L5 ja suositus on Hold.
 
 ---
 
-## Miksi tämä ennuste on järkevä?
+## Miksi ennuste on (tai ei ole) perusteltu?
 
-Tällä hetkellä yksityiskohtaisia toimintamekanismin tietoja ei ole saatavilla strukturoidusta lääketietuusta (Tietoaukko). Näytöpakettiin saatavilla olevan tiedon perusteella eflornitiin on ODC-inhibiittori, joka estää polyamiinin synteesiä; sen vahvistetut käyttötarkoitukset ovat kasvojen karvankasvun paikallinen vähentäminen ja afrikkalaisen trypanosomiaasisen laskimonsisäinen hoito.
+Eflornitiini on peruuttamaton ornitiinidekarboksylaasin estäjä. Entsyymi on polyamiinien biosynteesin nopeutta rajoittava vaihe. Aineen vaikutusmekanismin tietoja ei ole koottuun aineistoon kirjattu, joten tässä esitetty kuvaus perustuu yleiseen farmakologiseen tietoon. Paikallisesti ainetta käytetään kasvojen hirsutismiin ja injektiona afrikkalaiseen unitautiin. Joulukuussa 2023 FDA hyväksyi sen suun kautta otettavaksi ylläpitohoidoksi suuren riskin neuroblastoomassa.
 
-Esotropia on strabismusmuoto, joka johtuu silmänulkoisten lihasten epätasapainosta tai hermolihaksiston häiriöstä, joka vaikuttaa silmien asentoon. Ei ole tunnettua fysiologista tai farmakologista reittiä, joka yhdistäisi ODC-inhibition tai polyamiinin synteesiestä johtuvaa estoa silmän ulkoisten lihasten kontrolliin tai silmien linjaan.
+Hirsutismin ja esotropian välillä ei ole tunnistettavaa mekanistista yhteyttä. Esotropiassa on kyse silmälihasten tasapainosta, taittovirheistä tai akkommodaatiosta sekä silmien asennon hermostollisesta ohjauksesta. Kerätty aineisto ei tue ODC:n eston yhteyttä näihin mekanismeihin. Hyvin korkea pistemäärä voi johtua tietämysverkon (knowledge graph) artefakteista, joten sitä tulee tulkita varoen.
 
-Toinen ehdokas, neurotrohinen keratopatia, johtuu heikentäytyneen kolmoishermon silmäkalvon hermotuksesta, mikä johtaa huonoon epiteeliparantumiseen. Vaikka polyamiini-aineenvaihdunnalla on teoreettinen rooli solujen lisääntymisessä ja haavan paranemisessa, mikään nykyinen kirjallisuus tai kliininen tieto ei yhdistä eflornitiiinia silmäkalvon neurotrohiseen korjaamiseen. Molemmat tämän näytöpaketin ennustukset merkitään siksi itse mallin toimesta mekanistisesti heikoksi, tilastollisiksi assosiaatioiksi ilman farmakologista tai kliinistä tukea.
-
----
-
-## Kliinisen tutkimuksen näyttö
-
-Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia
+Neurotrofisen keratopatian kohdalla polyamiinien rooli solujen kasvussa ja haavan paranemisessa antaa vain spekulatiivisen yhteyden. Polyamiinisynteesin esto heikentäisi todennäköisemmin epiteelin lisääntymistä ja paranemista kuin edistäisi sitä. Silmään annettavan eflornitiinin turvallisuutta ei myöskään ole kuvattu.
 
 ---
 
-## Kirjallisuuden näyttö
+## Kliininen tutkimusnäyttö
 
-Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta
-
----
-
-## Suomen markkina-asema
-
-Eflornitiiinia ei tällä hetkellä myydä Suomessa; markkinointiluvan tietueita ei ole saatavilla tälle analyysille.
+Ennustettuun käyttöaiheeseen ei ole tällä hetkellä rekisteröityjä kliinisiä tutkimuksia.
 
 ---
 
-## Turvallisuuteen liittyvät näkökohdat
+## Kirjallisuusnäyttö
 
-Katso turvallisuustiedot pakkausselosteesta.
+Aiheesta ei ole tällä hetkellä saatavilla asiaan liittyvää kirjallisuutta.
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Tietoa Suomen markkinoista
 
-**Päätös: Pidätä**
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000325 | Vaniqa | – | Hirsutismi |
+
+Tämä myyntilupa on peruutettu, eikä voimassa olevia myyntilupia ole.
+
+---
+
+## Turvallisuusnäkökohdat
+
+- **Vasta-aiheet tietämysverkon mukaan** (PrimeKG-verkon lääke–sairaus-yhteyksiin perustuva tieto, ei valmisteyhteenvedon teksti): ihottuma (exanthem) ja dermatiitti.
+- **Yhteisvaikutukset:** Yhteisvaikutushaku tehtiin, ja se tuotti yhden löydöksen: aineen kohde, ornitiinidekarboksylaasi (ODC1). Kyseessä on farmakologinen kohdetieto, ei kliinisesti luokiteltu lääkeyhteisvaikutus.
+
+Muita turvallisuustietoja saa valmisteyhteenvedosta.
+
+---
+
+## Johtopäätös ja jatkotoimet
+
+**Päätös: Hold**
 
 **Perustelut:**
-Molemmat ennustetut indikaatiot (esotropia, neurotrohinen keratopatia) ovat näytön tasolla L5 — pelkkä malliennuste, nolla kliinistä tutkimusta tai kirjallisuutta, eikä uskottavaa mekanistista yhteyttä lääkkeen tunnettuun farmakologiaan. Estävä tietoaukko on myös olemassa virallisista varoituksista ja vasta-aiheista, mikä estää turvallisuuden alustavaa arviointia (S1).
+- Ennuste perustuu pelkkään mallipisteytykseen (L5). Kliinistä tai kirjallisuusnäyttöä ei ole, eikä uskottavaa mekanistista yhteyttä esotropiaan tai neurotrofiseen keratopatiaan ole osoitettu. Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa.
 
-**Jatkaakseen seuraavaa tarvitaan:**
-- TFDA/Fimean pakkausseloste varoituksista ja vasta-aiheista (Estävä aukko, DG001)
-- Vahvistettu toimintamekanismin tieto DrugBankista tai alkuperäisestä kirjallisuudesta (DG002)
-- Kaikki prekliiniset tai mekanistiset tutkimukset, jotka yhdistävät ODC/polyamiini-signalointireitit silmän ulkoisten lihasten toimintaan tai silmäkalvon hermotukseen
-- Uudelleenarviointi, kun itsenäinen kliininen tai kirjallisuuden näyttö ilmaantuu jollekin kandidaattiindikaatiolle
-
+**Eteenpäin siirtyminen edellyttää:**
+- Vaikutusmekanismin tietojen täydentämistä (esim. DrugBankista)
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimeasta
+- Mekanistisen yhteyden arviointia ODC:n eston ja esotropian tai neurotrofisen keratopatian välillä
+- Prekliinistä näyttöä sekä silmään annettavan valmisteen turvallisuuden ja antoreitin selvittämistä
+- Kirjallisuushakua ja kliinisten tutkimusten rekisterihakua ennen uudelleenarviointia
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

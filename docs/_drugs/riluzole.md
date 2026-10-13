@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Riluzole
-parent: Vahva näyttö (L1-L2)
-nav_order: 324
-evidence_level: L1
+parent: Pelkkä mallin ennuste (L5)
+nav_order: 378
+evidence_level: L5
 indication_count: 10
 ---
 
 # Riluzole
 {: .fs-9 }
 
-Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,72 +29,123 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-Raportti on luotu Evidence Pack -paketin perusteella. **Tietojen valintalogiikan selitys**: `predicted_indications` -taulukon ensimmäinen merkintä (polymikrogyria, L5/Hold) vastaavat täysin ilman näyttötutkimuksellista tukea eikä siihen liity järkevää yhteyttä rilutsoliin toimintamekanismiin; sitä vastoin rank 8 "ALS, susceptibility to" on ainoa kaikista 10 ennusteesta, jolla on 20 julkaisun tuki, evidence_level saavuttaa L1:n ja decision_stage saavuttaa S3:n, ja repurposing_rationale ilmoittaa selvästi "tulee käyttää todellisen maailman tunnettua hyväksynnän statusta". Siksi tämä raportti käyttää rank 8:aa pääasiallisena ennustetuotena indikaationa mekaanisen taulukko-indeksin 0 sijaan.
+# Riluzoli: Amyotrofisesta lateraaliskleroosista polymikrogyriaan
+
+## Yhteenveto
+
+Riluzoli on lääke, jota käytetään amyotrofisen lateraaliskleroosin (ALS) hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **bilateraaliseen parasagittaaliseen parieto-okkipitaaliseen polymikrogyriaan**, mutta ennusteelle ei ole tällä hetkellä tukena **yhtään kliinistä tutkimusta eikä yhtään julkaisua**. Ennuste perustuu pelkästään mallin laskemaan pistemäärään.
 
 ---
 
-# Rilutsooli: amyotrofisesta lateraaaliskleroosista (ALS) ALS-geneettisen alttius-alaryhmään
-
-## Yhden lauseen yhteenveto
-
-Rilutsooli on glutamaatin vapautumisen estäjä ja natrium-kanavablokkeri, jonka todellinen hyväksytty käyttö on klassinen amyotrofinen lateraaliskleroosi (ALS), jossa se pidentää eloonjäämistä vaatimattomasti. TxGNN-malli ennustaa lisäksi hyötyä **ALS:n alttiudessa** — geneettisesti määritellylle ALS-alaryhmälle — tällä hetkellä **0 kliinisen tutkimuksen** ja **20 julkaisun** tuella, jotka tukevat taustalla olevaa taudin biologiaa ja rilutsoliin mekanismia, vaikka yksikään ei ole alaryhmäkohtainen.
-
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Amyotrofinen lateraaliskleroosi (todellinen hyväksytty käyttö vuodesta 1995 lähtien; ei tallennettu tämän tietojoukon sääntelytietoihin — tietoaukko) |
-| Ennustettu uusi indikaatio | Amyotrofinen lateraaliskleroosi, alttius |
-| TxGNN-ennustepistemäärä | 99.98% |
-| Näyttötaso | L1 |
-| Suomen markkinatilanne | ✗ Ei markkinoilla (Ei markkinoilla) |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Etene varoituskokeineen |
+| Alkuperäinen käyttöaihe | Amyotrofinen lateraaliskleroosi (ALS) |
+| Ennustettu uusi käyttöaihe | Bilateraalinen parasagittaalinen parieto-okkipitaalinen polymikrogyria |
+| TxGNN-ennusteen pistemäärä | 99,99 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 2 (kaikki peruutettuja) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennuste on järkevä?
+---
 
-Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla tässä tietojoukossa (original_moa on tietoaukko). Tunnettujen tietojen perusteella rilutsooli estää presynaptisen glutamaatin vapautumisen ja estää jännitteestä riippuvia natriumkanavia, mikä vähentää eksitotoksisia vaurioita motoneuroneissa — tämä on sama peruspatologinen prosessi (glutamaatin eksitotoksisuus), joka liittyy ALS-motoreuronien rapautumiseen.
+## Miksi ennuste voisi olla perusteltu?
 
-"ALS:n alttius" viittaa geneettisesti määriteltyyn saman sairauden alaryhmään kuin klassinen ALS, joka eroaa pääasiassa aiheuttavassa geenissä, mutta ydinpatofysiologia on sama. Rilutsoliin hyväksytty indikaatio ei tällä hetkellä ole jaettu geneettisiin alaryhmiin, ja kliinisessä käytännössä potilaita, joilla on geneettisesti linkittynyt ALS, käsitellään yleensä samalla standardi rilutsooli-regiimillä kuin sporadisen ALS:n potilaita.
+Tämän lääkkeen vaikutusmekanismitietoja ei ole tällä hetkellä saatavilla tähän raporttiin koottujen tietojen perusteella. Yleisen tiedon mukaan riluzoli vähentää glutamaatin vapautumista ja salpaa jänniteherkkiä natriumkanavia. Sen teho ALS:ssä on todettu, ja vaikutus on kohtalainen.
 
-Tämän todistepaketin tukeva kirjallisuus on sairauden mekanismia koskeva kirjallisuus (glutamaatin eksitotoksisuus, motoreuronien rapautuminen, rilutsoliin vakiintunut mutta vaatimaton selviytymisetu) pikemminkin kuin alaryhmäkohtaiset kliiniset tutkimukset, joten mekaaninen ekstrapolaatio klassisesta ALS:sta tähän geneettiseen alaryhmään on järkevää mutta epäsuoraa.
+Mahdollinen yhteys polymikrogyriaan on glutamaattiaktiviteetin muokkaaminen: aivokuoren kehityshäiriöihin liittyy toisinaan epilepsiaa ja hermoverkkojen yliärtyvyyttä. Tämä päätelmä on kuitenkin spekulatiivinen, eikä sitä tue mikään tässä aineistossa oleva näyttö.
+
+Polymikrogyria on rakenteellinen hermoston kehityshäiriö. Oireenmukainen lääke ei todennäköisesti muuta sen kulkua. Korkea pistemäärä kuvaa lähinnä mallin verkostopäättelyä, ei kliinistä todennäköisyyttä.
+
+---
+
+## Muut ennustetut käyttöaiheet
+
+Seuraavista ennusteista yksikään ei sisällä kliinisiä tutkimuksia. Näytön taso on L5, ellei toisin mainita.
+
+| Sija | Sairaus | Pistemäärä | Huomio |
+|------|------|------|------|
+| 2 | Aksiaalinen spondylometafyysinen dysplasia | 99,99 % | Ei ilmeistä mekanistista perustetta; todennäköisesti verkoston artefakti |
+| 3 | Aikuisiän alkuinen alemman motoneuronin oireyhtymä | 99,99 % | Epäsuora analogia ALS:ään |
+| 4 | Trikomegalia-verkkokalvon pigmenttirappeuma-kääpiökasvuoireyhtymä | 99,99 % | Mekanistista yhteyttä ei voida osoittaa |
+| 5 | Letaali artrogrypoosi-etusarvisolusairausoireyhtymä | 99,99 % | Löyhä yhteys ALS:ään; ekstrapolointi aikuisten tiedoista ei ole realistista |
+| 6 | Monomeelinen amyotrofia | 99,99 % | Yleensä itsestään rajoittuva; hyödyn osoittaminen vaikeaa |
+| 7 | Millsin oireyhtymä | 99,98 % | ALS/primaarisen lateraaliskleroosin kirjoon kuuluva; suoraa näyttöä ei ole |
+| 8 | ALS, alttius | 99,98 % | Vastaa jo hyväksyttyä käyttöaihetta; näytön taso L4 |
+| 9 | Autosomaalisesti vallitseva mitokondriaalinen myopatia | 99,98 % | Selvää mekanistista yhteyttä ei ole |
+| 10 | ALS tyyppi 22 | 99,98 % | Luokkatason perustelu ALS:n kautta; tautinimessä kirjoitusvirhe, mikä voi haitata kirjallisuushakua |
+
+---
 
 ## Kliinisen tutkimuksen näyttö
 
-Tällä hetkellä yhtään asiaan liittyvää kliinistä tutkimusta ei ole rekisteröity
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
-## Kirjallisuuden näyttö
+---
 
-| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät havainnot |
-|------|------|--------|------|---------|
-| [21128691](https://pubmed.ncbi.nlm.nih.gov/21128691/) | 2011 | Katsaus | CNS Drugs | Vahvistaa, että rilutsooli on ainoa lääkitys, jolla on osoittautunut pidentävän ALS-potilaan selviytymistä vaatimattomasti; käsittelee patofysiologiaa ja hoitoa |
-| [19593125](https://pubmed.ncbi.nlm.nih.gov/19593125/) | 2009 | Katsaus | Current Opinion in Neurology | Huomauttaa, että rilutsooli pysyy ainoana lääkkeenä, jolla on todistettu teho ALS:ssa, vaikka muista hoitomuodoista tehdään intensiivistä tutkimusta |
-| [22646982](https://pubmed.ncbi.nlm.nih.gov/22646982/) | 2011 | Katsaus (prekliininen lääkkeiden kehittäminen) | Expert Opinion on Drug Discovery | Rilutsooli on ainoa hyväksytty ALS-lääke, joka pidentää selviytymistä 2-3 kuukaudella; korostaa tyydyttämättömän tarpeen uusille lääkkeille |
-| [20942785](https://pubmed.ncbi.nlm.nih.gov/20942785/) | 2010 | Katsaus | CNS & Neurological Disorders Drug Targets | Rilutsooli on ainoa saatavilla oleva ALS-lääke; käsittelee geneettisiä tekijöitä (esim. SOD1) tulevien terapeuttisten kohteiden näkökulmasta |
-| [9178165](https://pubmed.ncbi.nlm.nih.gov/9178165/) | 1997 | Katsaus (mekanismi) | Journal of Neurology | Perustavanlaatuinen katsaus ALS:n motoreuroneihin kohdistuvaa vaaraa aiheuttavasta "glutamaatista hypoteesista" |
-| [8061281](https://pubmed.ncbi.nlm.nih.gov/8061281/) | 1994 | odottava | Neuroreport | Osoittaa, että rilutsooli käyttäytyi neuroprotektiivisesti ALS-potilaiden eksitotoksisia CSF-tekijöitä vastaan hermosoluviljelyssä |
-| [31108504](https://pubmed.ncbi.nlm.nih.gov/31108504/) | 2019 | odottava | Human Molecular Genetics | iPSC-johdannaiset motoneuronit ALS-potilaista (C9orf72, FUS, SOD1, TDP43 mutaatiot) osoittavat muutuneita kalsium-/glutamaattireceptori-dynamiikkaa; rilutsoliin mekanismi on glutamaatterginen estäminen ja kalsiumin sääntely |
-| [16723044](https://pubmed.ncbi.nlm.nih.gov/16723044/) | 2006 | Katsaus | Expert Reviews in Molecular Medicine | Käsittelee ehdotettuja ALS-mekanismeja (hapettava stressi, eksitotoksisuus, mitokondrion toimintahäiriöt, proteiinin aggregaatio) ja hoitoväyliä |
-| [20942786](https://pubmed.ncbi.nlm.nih.gov/20942786/) | 2010 | Katsaus | CNS & Neurological Disorders Drug Targets | Käsittelee ALS-diagnoosia, patogeneesia ja terapeuttisia kohteita motoreuronijärjestelmässä |
-| [20698807](https://pubmed.ncbi.nlm.nih.gov/20698807/) | 2011 | odottava | Amyotrophic Lateral Sclerosis | Kriittinen arvio ALS-terapeuttisista tutkimuksista; huomauttaa, että rilutsooli (glutamaatin aineenvaihdunnan modulaattori) on ainoa lääke, joka parantaa selviytymistä, vaikkakin vaatimattomasti |
+## Kirjallisuusnäyttö
 
-## Turvallisuusnäkökohdat
+Ensisijaiselle ennusteelle (polymikrogyria) ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
-Turvallisustiedot löytyvät pakkausselosteesta.
+Läheisin aineisto liittyy ALS:ään (sija 8, ei uutta käyttöaihetta). Se koostuu pääosin katsauksista sekä perus- ja geenitutkimuksista, eikä mukana ole satunnaistettuja kontrolloituja tutkimuksia:
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [9178165](https://pubmed.ncbi.nlm.nih.gov/9178165/) | 1997 | Katsaus | Journal of Neurology | Glutamaattihypoteesi ja eksitotoksisuus ALS:n patogeneesissä |
+| [21128691](https://pubmed.ncbi.nlm.nih.gov/21128691/) | 2011 | Katsaus | CNS Drugs | ALS:n patofysiologia ja hoito; riluzoli on ainoa lääke, joka pidentää eloonjäämistä vaatimattomasti |
+| [20698807](https://pubmed.ncbi.nlm.nih.gov/20698807/) | 2011 | Epidemiologia/hoitokatsaus | Amyotroph Lateral Scler | Vain riluzoli parantaa eloonjäämistä, ja vaikutus on vähäinen; tutkimusten heterogeenisuus |
+| [16723044](https://pubmed.ncbi.nlm.nih.gov/16723044/) | 2006 | Katsaus | Expert Rev Mol Med | ALS:n ehdotetut mekanismit ja hoitopolut |
+| [19593125](https://pubmed.ncbi.nlm.nih.gov/19593125/) | 2009 | Katsaus | Curr Opin Neurol | Motoneuronisairauksien uusimmat edistysaskeleet; riluzoli ainoa todetusti tehokas lääke |
+| [42161327](https://pubmed.ncbi.nlm.nih.gov/42161327/) | 2026 | Kohortti/geneettinen assosiaatio | Brain | CYP2D6-variantit ALS:ssä: riski ja eloonjääminen |
+| [8061281](https://pubmed.ncbi.nlm.nih.gov/8061281/) | 1994 | Prekliininen | Neuroreport | Riluzolin neuroprotektiiviset vaikutukset ALS-aivoselkäydinnesteen toksisuutta vastaan |
+| [31108504](https://pubmed.ncbi.nlm.nih.gov/31108504/) | 2019 | Prekliininen | Hum Mol Genet | Muuttunut kalsiumdynamiikka ja glutamaattireseptorit ALS-potilaiden iPSC-johdetuissa motoneuroneissa |
+| [32040174](https://pubmed.ncbi.nlm.nih.gov/32040174/) | 2020 | Mallinnus | Toxicol Sci | Sublingvaalisen riluzolivalmisteen ja tablettien vaikutus maksa-arvoihin (DILIsym); suun kautta otetulla riluzolilla noin 50 %:lla ALT yli viitealueen |
+| [41280004](https://pubmed.ncbi.nlm.nih.gov/41280004/) | 2025 | Esipainos | bioRxiv | Riluzoli sädehoidon herkistäjänä osteosarkoomassa |
+
+---
+
+## Myyntilupatiedot Suomessa
+
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000109 | Rilutek (peruutettu) | – | Amyotrofinen lateraaliskleroosi |
+| EMEA/H/C/002622 | Riluzole Zentiva (peruutettu) | – | Amyotrofinen lateraaliskleroosi |
+
+Molemmat myyntiluvat on peruutettu, joten voimassa olevia valmisteita ei tämän aineiston mukaan ole. Tilanne kannattaa varmistaa Fimeasta.
+
+---
+
+## Turvallisuushuomiot
+
+**Tietämyskaavioon perustuvat vasta-aiheet** (ei valmisteyhteenvedosta): neutropenia, agranulosytoosi, päihteiden väärinkäyttö/riippuvuus, hyperbilirubinemia, perinnöllinen hyperbilirubinemia, Gilbertin oireyhtymä, interstitiaalinen keuhkosairaus ja lääkkeen aiheuttama maksavaurio.
+
+**Lääkeyhteisvaikutukset:** haettu yhteensä 44 yhteisvaikutusta. Esimerkkejä:
+- Kohtalaiset: obetikolihappo, naltreksoni, deferasiroksi, osilodrostaatti, anagrelidi, asparaginaasi, brentuksimabivedotiini, klofarabiini, metotreksaatti, epirubisiini.
+- Lievät: omepratsoli, kofeiini, teofylliini, aminofylliini.
+- Luokittelemattomat: metformiini, simvastatiini, ranitidiini, syanokobalamiini, salbutamoli, ibuprofeeni.
+
+Lisäksi kirjallisuuden mukaan noin 50 %:lla suun kautta riluzolia käyttävistä ALS-potilaista ALT-arvo ylittää viitealueen ylärajan, mikä tukee maksa-arvojen seurantaa.
+
+Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat, joten tarkat tiedot on tarkistettava valmisteyhteenvedosta.
+
+---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Etene varoituskokeineen**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Rilutsoliin tunnetun anti-eksitotoksisen vaikutuksen ja ALS-spektrin patologian välinen mekaaninen yhteys on hyvin vakiintunut yleisessä ALS-kirjallisuudessa, ja tämä erityinen geneettisen alttiuden subtyyppi jakaa saman ydinpatofysiologian klassisen ALS:n kanssa, jolle rilutsooli on jo todellisen maailman hoitostandardi. Subtyyppikohtaista tutkimusta, DDI/turvallisuustietoja ei kuitenkaan ole saatavilla tässä tietojoukossa, ja TFDA-pakkausselosteen tarkistus on merkitty **blokaavaksi** tietoaukoksi, joka on ratkaistava ennen S1-turvallisuusarviointia.
+- Ennuste perustuu vain graafipohjaiseen malliin: kliinisiä tutkimuksia ja kirjallisuutta ei ole, ja polymikrogyria on rakenteellinen kehityshäiriö, johon oireenmukainen lääke tuskin vaikuttaa. Suomessa ei ole voimassa olevaa myyntilupaa.
 
-**Jatkaaksemme tarvitaan seuraavaa:**
-- TFDA-pakkausseloste (varoitukset/vasta-indikaatiot) — tällä hetkellä blokaava (DG001)
-- Vahvistettu toimintamekanismi (MOA) DrugBank API:n kautta — tällä hetkellä tietoaukko (DG002)
-- Alaryhmäkohtainen kliininen näyttö "ALS, susceptibility to" -osoituksesta (tällä hetkellä yhtään ei ole rekisteröity)
-- Rilutsoliin todellisen maailman hyväksytyn indikaation/lisensointitilan vahvistus, koska se puuttuu tämän tietojoukon Taiwanin/Suomen sääntely-tietueista huolimatta siitä, että se on vakiintunut ALS-hoito
-
+**Jatkotoimenpiteet:**
+- Haetaan vaikutusmekanismitiedot (DrugBank).
+- Haetaan Fimean valmisteyhteenvedon varoitukset ja vasta-aiheet; tämä estää turvallisuusseulonnan jatkamisen.
+- Varmistetaan myyntilupien peruutustilanne ja valmisteiden saatavuus Suomessa.
+- Tehdään kohdennettu kirjallisuushaku polymikrogyriasta ja epilepsiasta sekä glutamaattimodulaatiosta.
+- Jos jatkoon halutaan, harkitaan ensisijaisena ALS:n kaltaisia motoneuronisairauksia (esim. alemman motoneuronin oireyhtymä, Millsin oireyhtymä, ALS tyyppi 22), joilla mekanistinen perustelu on uskottavampi.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

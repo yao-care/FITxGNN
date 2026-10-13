@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Romiplostim
-parent: Kohtalainen näyttö (L3-L4)
-nav_order: 332
-evidence_level: L4
+parent: Pelkkä mallin ennuste (L5)
+nav_order: 386
+evidence_level: L5
 indication_count: 10
 ---
 
 # Romiplostim
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,84 +29,88 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Romiplostim: immuunitrombosytopeniasta primaarisen verihiutaleiden vapautumishäiriöön
+# Romiplostiimi: Idiopaattisesta trombosytopeenisesta purppurasta ensisijaiseen verihiutaleiden vapautumishäiriöön
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Romiplostim on trombopoietiini (TPO) -reseptoriagonisti, jota käytetään kansainvälisesti kroonisen immuunitrombosytopenia (ITP) hoitoon; yksityiskohtaiset alkuperäisen indikaation ja vaikutusmekanismin tiedot eivät olleet tämän näytöpaketin kohteena, ja lääkettä ei myönnetä tällä hetkellä Suomessa.
-TxGNN-malli ennustaa sen voivan olla tehokas **primaarisen verihiutaleiden vapautumishäiriön** hoitoon, ja siihen liittyy tällä hetkellä **1 kliininen tutkimus** ja **2 julkaisua** — mikään näistä ei kuitenkaan testaa romiplostimia suoraan tässä spesifisessä taudissa.
-Näytön laatu on prekliininen/mekanistinen (L4); tämä on edelleen tutkimuskysymys pikemminkin kuin toimintakelpoinen uudelleenkäytön ehdokas tässä vaiheessa.
+Romiplostiimi on trombopoietiinireseptorin (MPL) agonisti, jota on alun perin käytetty idiopaattisen trombosytopeenisen purppuran (ITP) hoitoon.
+TxGNN-malli ennustaa sen mahdollisesti tehoavan **ensisijaiseen verihiutaleiden vapautumishäiriöön** (pistemäärä 99,99 %), mutta ennusteelle ei löydy suoraa tukea: **kliinisiä tutkimuksia ei ole** ja **ainoa julkaisu** käsittelee immuunitrombosytopeniaa, ei tätä sairautta.
 
----
+## Pikakatsaus
 
-## Nopea yleiskatsaus
-
-| Kohde | Sisältö |
+| Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Ei saatavilla näytöpaketissa (lisenssiä ei ole); kansainvälisesti hyväksytty kroonisen immuunitrombosytopenia (ITP) hoitoon |
-| Ennustettu uusi indikaatio | Primaarinen verihiutaleiden vapautumishäiriö |
-| TxGNN ennustepisteet | 99.9998% |
-| Näytön taso | L4 |
-| Suomen markkinatilanne | ✗ Ei myyntilupia |
-| Myyntilupien määrä | 0 |
-| Suositeltu päätös | Pysäytä |
+| Alkuperäinen käyttöaihe | Idiopaattinen trombosytopeeninen purppura (ITP) |
+| Ennustettu uusi käyttöaihe | Ensisijainen verihiutaleiden vapautumishäiriö |
+| TxGNN-ennusteen pistemäärä | 99,99 % |
+| Näytön taso | L5 (vain mallin ennuste) |
+| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
----
+## Miksi ennuste on (tai ei ole) perusteltu?
 
-## Miksi tämä ennuste on järkevä?
+Romiplostiimi on trombopoietiinireseptorin (MPL) agonisti, joka lisää verihiutaleiden tuotantoa megakaryopoieesin kautta. Yksityiskohtaista vaikutusmekanismitietoa ei tässä aineistossa ole saatavilla, mutta lääkkeen teho ITP:ssä tunnetaan ja sen kohde (MPL) on tiedossa.
 
-Yksityiskohtaiset vaikutusmekanismin tiedot eivät ole saatavilla tässä näytöpaketissa (merkitty korkeaprioriteetiseksi tietovajepyyntönä). Saatavilla olevien tietojen perusteella romiplostim on trombopoietiini-reseptorin (MPL) agonisti, joka sitoutuu ja aktivoi TPO-reseptorin megakaryosyyttiä edeltävissä soluissa, edistäen megakaryosyytin proliferaatiota ja verihiutaleiden tuotantoa/vapautumista — tämä on mekanistinen perusta sen vakiintuneen tehokkuuden taustalla kroonisessa ITP:ssä.
+Verihiutaleiden vapautumishäiriö on laadullinen (toiminnallinen) vika rakeiden eritykseen. Verihiutaleiden määrän lisääminen ei todennäköisesti korjaa taustalla olevaa toimintahäiriötä. Ainoa löydetty julkaisu (PMID 25682608) koskee immuunitrombosytopeniaa, jossa autovasta-aineet estävät proplatelettien muodostumista, ei tätä häiriötä.
 
-Primaarinen verihiutaleiden vapautumishäiriö viittaa megakaryosyytistä verenkiertoon tapahtuvan verihiutaleiden vapautumisen häiriöihin. Koska romiplostimin ydinpharmakaologia on megakaryosytopoeesiä ja verihiutaleiden vapautumista stimuloida, on mekanistisen suunnan välillä olemassa uskottava yhteys näiden kahden tilan välillä.
+Erittäin korkea TxGNN-pistemäärä näyttää heijastavan verkostossa olevaa läheisyyttä alkuperäiseen ITP-käyttöaiheeseen eikä sairauskohtaista näyttöä. Ennustetta tulee siksi pitää hypoteesina, ei perusteltuna löydöksenä.
 
-Kuitenkin tällä hetkellä käytettävissä oleva tukea antava näyttö ei testaa tätä hypoteesia suoraan: tunnistettu yksittäinen kliininen tutkimus (NCT03820960) on havainnollinen tutkimus tromboosiriskin tekijöistä ITP-potilaissa, ei romiplostimin interventiotutkimus, ja molemmat kirjallisuusviittaukset ovat megakaryosytopoeesiä/ITP-autoantiaineiden biologian katselmuksia pikemminkin kuin romiplostimin tehokkuustutkimuksia. Mekanismi (TPO-reseptoriagonismi verihiutaleiden tuotannon edistämiseksi) on suunnallisesti johdonmukainen, mutta siteerattu näyttö kuvailee autoantiaineiden välittämää proplateletin muodostumisen estämistä ITP:ssä — liittyvä mutta erillinen kliininen entiteetti verrattuna primaariseen verihiutaleiden vapautumishäiriöön.
+## Kliininen tutkimusnäyttö
 
----
-
-## Kliinisten tutkimusten näyttö
-
-| Tutkimusnumero | Vaihe | Tila | Rekrytointi | Keskeiset löydökset |
-|---------|------|------|------|---------|
-| [NCT03820960](https://clinicaltrials.gov/study/NCT03820960) | N/A | Valmis | 10,039 | Havainnollinen tutkimus tromboosiriskin tekijöistä immuunitrombosytopenia (ITP) -potilaissa; ei arvioi romiplostimin hoitoa. Väestöpäällekkäisyyden perusteella relevantti (Grade C). |
-
----
+Ei tällä hetkellä rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
 ## Kirjallisuusnäyttö
 
 | PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
 |------|-----|------|------|---------|
-| [23594368](https://pubmed.ncbi.nlm.nih.gov/23594368/) | 2013 | Katselmaus | British Journal of Haematology | Käsittelee megakaryosytopoeesiä ja thrombopoieesiä, mukaan lukien TPO:n roolia megakaryosyyttilinjan ensisijaisena kasvutekijänä. |
-| [25682608](https://pubmed.ncbi.nlm.nih.gov/25682608/) | 2015 | Katselmaus | Haematologica | Osoittaa, että ensisijaisen ITP:n verihiutale-autoantiaineet estävät megakaryosyyttien proplateletin muodostumista ja heikentävät verihiutaleiden tuotantoa in vitro -tutkimuksissa. |
+| [25682608](https://pubmed.ncbi.nlm.nih.gov/25682608/) | 2015 | Perustutkimus (mekanistinen) | Haematologica | ITP-potilaiden verihiutalevasta-aineet estävät megakaryosyyttien proplatelettien muodostumista ja heikentävät verihiutaleiden tuotantoa in vitro. Ei koske vapautumishäiriötä suoraan. |
 
----
+## Muut ennustetut käyttöaiheet
+
+Aineistossa oli yhteensä 10 ennustetta. Kaikki muut paitsi yksi ovat L5-tasoa ilman kliinistä tai kirjallista näyttöä.
+
+| Sija | Sairaus | TxGNN-pistemäärä | Näytön taso | Suositus | Huomio |
+|---|------|------|------|------|------|
+| 2 | Pseudo-von Willebrandin tauti | 99,99 % | L5 | Hold | Reseptorivika (GPIbα); verihiutaleiden lisääminen ei korjaa sitä |
+| 3 | Glanzmannin trombasteenia | 99,99 % | L5 | Hold | Laadullinen vika, verihiutalemäärä normaali |
+| 4 | Sikiön ja vastasyntyneen alloimmuunitrombosytopenia (FNAIT) | 99,99 % | L4 | Tutkimuskysymys | Vain epäsuoraa kirjallisuutta (ITP, raskaus, vastasyntyneet) |
+| 5 | Scottin oireyhtymä | 99,97 % | L5 | Hold | Fosfatidyyliseriinin altistumisen vika; määrän lisääminen ei auta |
+| 6 | Perinnöllisestä trombosytopeniasta johtuva verenvuotohäiriö | 99,95 % | L5 | Hold | Mekanistisesti uskottava, mutta testaamaton; vaste vaihtelee geenityypin mukaan |
+| 7 | Kollageenireseptorivikaan liittyvä verenvuotoalttius | 99,95 % | L5 | Hold | Laadullinen toimintahäiriö |
+| 8 | Verihiutaletyyppinen verenvuotohäiriö | 99,93 % | L5 | Hold | Laaja ryhmä; epäspesifinen ennuste |
+| 9 | Autosomaalisesti dominantti makrotrombosytopenia | 99,88 % | L5 | Hold | Osalla potilaista oireeton, hoitoa ei tarvita |
+| 10 | Ehlers-Danlosin oireyhtymä, fibronektineeminen tyyppi | 99,85 % | L5 | Hold | Sidekudossairaus; todennäköisesti verkoston artefakti |
+
+Näistä lupaavin jatkotutkimuksen kohde on FNAIT. Romiplostiimi voisi periaatteessa nostaa verihiutalemäärää, mutta se ei pysäytä alloimmuuniprosessia. Istukan läpäisy sekä sikiön ja vastasyntyneen turvallisuus ovat ratkaisematta, eikä yksikään löydetty julkaisu testaa romiplostiimia FNAIT:ssa.
 
 ## Suomen markkinatiedot
 
-Tällä hetkellä ei ole markkinointilupaa — romiplostimia ei myynnetä Suomessa (0 myyntilupaa).
-
----
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000942 | Nplate (Amgen Europe B.V.) | – | Idiopaattinen trombosytopeeninen purppura (tila: peruutettu) |
 
 ## Turvallisuusnäkökohdat
 
-Katso turvallisuustiedot pakkausselosteesta.
+**Lääkeyhteisvaikutukset:**
+- **Karfitsomibi**: merkittävä (Major) yhteisvaikutus (DDInter-tietokanta).
+- Lääkkeen kohde on trombopoietiinireseptori (MPL).
 
-*(Tärkeimmät varoitukset, vasta-aiheet ja lääkkeen yhteisvaikutustiedot kyseittiin, mutta niitä ei palautettu — merkitty kriittisenä tietovajepyyntönä, joka vaatii TFDA/Fimean pakkausselosteen noutamista.)*
+Muita turvallisuustietoja (varoitukset, vasta-aiheet) ei ole saatavilla; ne tulee tarkistaa valmisteyhteenvedosta.
 
----
+## Johtopäätös ja jatkotoimet
 
-## Johtopäätös ja seuraavat vaiheet
-
-**Päätös: Pysäytä**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Ennustettu indikaatio on tuettavissa vain mekanistisilla perustelulla (TPO-reseptoriagonismi → megakaryosyytin stimulaatio) ja epäsuoralla näytöllä — yksi havainnollinen tutkimus, joka ei testaa romiplostimia, sekä kaksi katselmusta liittyvistä ITP-biologian tekijöistä. Mikään tutkimus tai julkaisu ei arvioi romiplostimia suoraan "primaarisen verihiutaleiden vapautumishäiriössä", mikä sijoittaa tämän näyttötasolle L4 / päätösvaiheelle S1 (tutkimuskysymys).
+- Ensisijaiselle ennusteelle (verihiutaleiden vapautumishäiriö) ei ole kliinistä eikä kohdennettua kirjallista näyttöä, ja mekanistisesti verihiutalemäärän lisääminen ei korjaisi laadullista vikaa. Korkea pistemäärä näyttää johtuvan läheisyydestä ITP:hen.
+- Myyntilupa Suomessa on peruutettu.
 
-**Jatkaakseen seuraavaa tarvitaan:**
-- Alkuperäisen indikaation ja vaikutusmekanismin tiedot DrugBankista/Fimean pakkausselosteesta (merkitty tällä hetkellä tietovajepyyntönä)
-- Fimean/TFDA-vastaavan pakkausselosteen varoitukset ja vasta-aiheet (kriittinen vaje — vaaditaan ennen turvallisuusarviota)
-- Suora interventiotutkimus (prekliininen tai kliininen) romiplostimista nimenomaan primaarisen verihiutaleiden vapautumishäiriön osalta yleisten ITP-väestöjen asemesta
-- Tämän paketin muiden TxGNN-ennustettujen indikaatioiden uudelleenarvio vahvemman suoran näytön kanssa — erityisesti "verihiutale-tyypin verenvuototauti" (sijoitus 8), jolla on valmis Phase 3 RCT (NCT03362177) ja näyttötaso L2, ja joka voi vaatia erillisen arvion
-
+**Eteenpäin siirtyminen edellyttää:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista (estävä tietoaukko)
+- Vaikutusmekanismin yksityiskohtaisia tietoja
+- Perinnöllisten trombosytopenioiden (rivi 6 ja 9) ja FNAIT:n tarkempaa kirjallisuuskartoitusta sekä FNAIT:n osalta istukan läpäisyn ja sikiön turvallisuuden arviointia
+- Myyntiluvan peruutuksen syyn ja nykyisen saatavuuden selvittämistä Suomessa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

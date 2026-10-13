@@ -2,7 +2,7 @@
 layout: default
 title: Degarelix
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 117
+nav_order: 135
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,79 +29,97 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Degarelix: Edistyneestä eturauhassyövästä hypertrikoosiin
+# Degareliksi: Eturauhassyövästä ennustettuun uuteen käyttöaiheeseen – hypertrikoosi
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-> Degarelix on gonadotropin-vapautushormoni (GnRH) -reseptoriantagonisti, jota käytetään yleensä edistyneessä, hormoniherkkässä eturauhassyövässä.
-> TxGNN-malli ennustaa, että se voi olla tehokas **hypertrikoosin (sairaus)** -hoidossa,
-> mutta tämä sijoittuu laajemman matalan uskottavuuden ennusteiden listan huipulle, ja tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua** ei tue tätä spesifistä indikaatiota.
+Degareliksi on GnRH-reseptorin antagonisti, jota on alun perin käytetty **eturauhassyövän** hoitoon. TxGNN-malli ennustaa sen mahdolliseksi hoidoksi **hypertrikoosiin**, mutta ennusteen tueksi ei ole löytynyt **yhtään kliinistä tutkimusta eikä julkaisua**. Ennuste perustuu pelkästään mallin laskennalliseen päättelyyn.
 
 ---
 
-## Pika-yleiskatsaus
+## Pikakatsaus
 
-| Kohde | Sisältö |
-|-------|---------|
-| Alkuperäinen indikaatio | Edistynyt hormoniherkkä eturauhassyöpä (perustuu yleiseen lääkeluokan tuntemukseen; ei ole olemassa tässä näyttöpaketissa — katso Tietoaukot) |
-| Ennustettu uusi indikaatio | Hypertrikoosi (sairaus) |
-| TxGNN-ennusteen pistesyys | 99.99% |
-| Näyttötaso | L5 |
-| Suomen markkinoiden tila | Ei markkinoilla |
-| Lupien lukumäärä | 0 |
-| Suositeltu päätös | Lykkää |
-
----
-
-## Miksi tämä ennuste on järkevä?
-
-Tällä hetkellä yksityiskohtaisia vaikutusmekanismiin liittyviä tietoja ei ole saatavilla tässä näyttöpaketissa (merkitty korkeatasoiseksi tietoaukoksi DG002). Yleisen tunnetun tiedon perusteella Degarelix on GnRH-reseptoriantagonisti, joka estää luteinoivan hormonin ja testosteronin vapautumista – vaikutus, joka on hyvin vakiintunut edistyneessä eturauhassyövässä.
-
-Parhaiten sijoittautunut ennustettu indikaatio, hypertrikoosi, on mekanistisesti yhteydessä vain kapeaan alikohoryhmään: jotkut androgeenieherkkiä hypertrikoosin alatyyppiä voisivat teoreettisesti vastata testosteronin vaikutuksen laskuun. Kuitenkin suurin osa hypertrikoosin ilmenemismuodoista (kuten synnynnäiset ja hiusvarren rakenteeseen liittyvät alatyypistä, joilla on myös alhaisemmat ennusteen sijoitukset) eivät ole androgeeniksi johtuvia eivätkä ole yhteydessä HPG-akseliin.
-
-Mitään kliinisiä tutkimuksia, ICTRP-rekisteröintejä tai PubMed-kirjallisuutta, joka koskee degareliksia ja hypertrikoossia, ei löytynyt. Huomattavaa on, että sijoituksella 4 haetut 20 kirjallisuustietuetta ("epämuodostuma-syndrooma hammas-/parodontaalisen komponentin kanssa") käsittelevät periodontiitti-patologiaa ja -hoitoa yleisesti — ne eivät mainitse degareliksia tai GnRH-antagonisteja ja näyttävät olevan pikemminkin avainsanahaun artefakti kuin todellinen tukeva näyttö. Tätä ennustetta tulee käsitellä mallin pisteytyksen perusteella tehtynä hypoteesina (L5), odottaen mekanistista ja kliinistä validointia.
+| Kohta | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | Eturauhassyöpä |
+| Ennustettu uusi käyttöaihe | Hypertrikoosi |
+| TxGNN-ennusteen pistemäärä | 99,99 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 2 (molemmat peruutettu) |
+| Suositeltu päätös | Hold (odotetaan) |
 
 ---
 
-## Kliinisten tutkimusten näyttö
+## Miksi ennuste on (tai ei ole) perusteltu?
 
-Tällä hetkellä ei ole liittyviä rekisteröityjä kliinisiä tutkimuksia.
+Degareliksi salpaa GnRH-reseptoreita aivolisäkkeessä. Tämä vähentää LH- ja FSH-hormonien eritystä ja laskee siten testosteronin ja muiden androgeenien pitoisuuksia. Eturauhassyövässä tämä androgeenien vähentäminen on hoidon perusta. Yksityiskohtaista vaikutusmekanismitietoa ei ole tämän raportin aineistossa saatavilla, mutta GnRH-antagonismi on lääkeaineluokan tunnettu periaate.
 
----
+Hypertrikoosi ei yleensä ole androgeenivälitteinen (toisin kuin hirsutismi), joten mekanistinen yhteys on heikko ja spekulatiivinen. Lääkeaineiden aiheuttama hypertrikoosi liittyy tyypillisesti muihin mekanismeihin, eikä androgeenien vähentämisen odoteta lievittävän sitä. Erittäin korkea pistemäärä on pelkkä mallin tuottama ennuste.
 
-## Kirjallisuuden näyttö
-
-Tällä hetkellä ei ole liittyviä kirjallisuustietoja saatavilla.
+Myös muut kymmenen parhaan ennusteen joukossa olevat käyttöaiheet ovat pääosin heikosti perusteltuja (esim. synnynnäiset kehityshäiriöt, hiusrakenteen perinnölliset poikkeamat, nokkosihottuma). Biologisesti uskottavin ennuste on **keskushermostoperäinen ennenaikainen murrosikä** (pistemäärä 99,67 %), koska GnRH-viestinnän estäminen on sen vakiintunut hoitoperiaate. Tähänkään ei kuitenkaan ole löytynyt lapsilla tehtyjä tutkimuksia, degareliksi on annosteltu aikuisten eturauhassyöpään ja hyväksyttyjä hoitoja on jo olemassa.
 
 ---
 
-## Suomen markkinoilla olevat tiedot
+## Kliininen tutkimusnäyttö
 
-Degarelix **ei ole markkinoilla** Suomessa (kyselyissä ei löytynyt markkinointivaltuutuksia).
-
----
-
-## Turvallisuusasiat
-
-Katso pakettselosteen turvallisuustiedot.
-
-*Huomautus: TFDA/Fimean pakettiselosteen varoituksia ja vasta-aiheita koskevia tietoja ei voitu hakea (Estävä tietoaukko DG001) ja ne ovat välttämättömiä, ennen kuin mikä tahansa S1-turvallisuuden esihyväksyntä voidaan jatkaa.*
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Kirjallisuusnäyttö
 
-**Päätös: Lykkää**
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
+
+---
+
+## Suomen markkinatiedot
+
+| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/006048 | Degarelix Accord (peruutettu) | – | Eturauhassyöpä |
+| EMEA/H/C/000986 | Firmagon (peruutettu) | – | Eturauhassyöpä |
+
+---
+
+## Sytotoksisuus
+
+| Kohta | Sisältö |
+|------|------|
+| Sytotoksisuusluokitus | Hormonaalinen syöpälääke (GnRH-antagonisti), ei perinteinen sytotoksinen solunsalpaaja |
+| Luuytimen suppressio | Ei tietoa saatavilla; katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Oksentelua aiheuttavuus | Ei tietoa saatavilla; katso valmisteyhteenveto |
+| Seurattavat parametrit | Katso valmisteyhteenvedon varoitukset ja varotoimet (tietograafin perusteella mm. QT-aika, maksa-arvot ja elektrolyytit, erityisesti kalium) |
+| Käsittelysuojaus | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+
+---
+
+## Turvallisuusnäkökohdat
+
+Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole tämän raportin aineistossa saatavilla. Katso turvallisuustiedot valmisteyhteenvedosta.
+
+- **Tietograafiin perustuvat mahdolliset vasta-aihe-signaalit** (eivät ole valmisteteksti): pitkä QT-oireyhtymä, familiaalinen pitkä QT-oireyhtymä, torsades de pointes, maksasairaus, sappirakon sairaus ja kaliumin puutos.
+- **Lääkeaineyhteisvaikutukset:** Tietokannasta löytyi 100 yhteisvaikutusta, joista osa on merkittäviä:
+  - **Merkittävä (Major):** sisapridi, dolasetroni.
+  - **Kohtalainen (Moderate):** mm. famotidiini, loperamidi, bisakodyyli, klaritromysiini, levofloksasiini, ondansetroni, granisetroni, palonosetroni, laksatiivit (esim. laktuloosi, magnesiumsitraatti, polyeteeniglykoli).
+  - **Lievä (Minor):** metronidatsoli.
+  - Monet näistä liittyvät todennäköisesti QT-ajan pidentymiseen tai elektrolyyttihäiriöihin.
+- Degareliksin tiedetään aiheuttavan pistoskohdan reaktioita ja harvoin yliherkkyyttä (mukaan lukien nokkosihottuma), mikä puhuu nokkosihottumaennusteita vastaan.
+
+---
+
+## Johtopäätös ja seuraavat askeleet
+
+**Päätös: Hold (odotetaan)**
 
 **Perustelut:**
-Ennustetta tuetaan vain TxGNN-mallin pisteytyksen perusteella, eikä siinä ole kliinisiä tutkimuksia tai kirjallisuutta (Näyttötaso L5), ja mekanistinen perustelus koskee vain pientä, androgeenieherkkien hypertrikoosin osajoukkoa. Estävän tason tietoaukko viranomaisen turvallisuustiedoissa (TFDA/Fimean pakettiseloste) estää myös minkä tahansa turvallisuuden esihyväksyntä-arviointia.
+- Ennuste perustuu pelkkään malliin (näytön taso L5), ilman kliinisiä tutkimuksia tai julkaisuja, ja mekanistinen yhteys hypertrikoosiin on heikko. Lisäksi degareliksin myyntiluvat Suomessa on peruutettu.
 
-**Etenemisen edellytykset:**
-- TFDA/Fimean pakettiseloste (varoitukset, vasta-aiheet) — Estävä tietoaukko DG001
-- Vahvistetut vaikutusmekanismin tiedot DrugBankista — Korkean prioriteetin tietoaukko DG002
-- Kohdennettu kirjallisuus-/kliininen haku erityisesti termeille "degareliksi JA hypertrikoosi" (nykyinen 20-tietueen kirjallisuus-osuma sijoituksella 4 on asiaton kohina ja se tulisi sulkea pois)
-- Prekliininen tai tapaus-tasolla perustuva näyttö, joka osoittaa syy-seuraus-suhteen androgenivaikutuksen laskemisen ja kohdennetun hypertrikoosin erityisen alatyyppin välillä
-
+**Eteenpäin siirtyminen edellyttää:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivustolta (turvallisuusarvioinnin estävä tietopuute).
+- Vaikutusmekanismitietojen täydentämistä DrugBankista.
+- Kirjallisuushaun ja prekliinisen mekanismiselvityksen tekemistä.
+- Jos jatkotarkastelua halutaan, kannattaa priorisoida **keskushermostoperäinen ennenaikainen murrosikä** biologisesti uskottavimpana tutkimuskysymyksenä (lapsipotilaiden annostelu ja olemassa olevat hoidot huomioiden).
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

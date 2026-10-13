@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Clopidogrel
-parent: Vahva näyttö (L1-L2)
-nav_order: 104
-evidence_level: L2
+parent: Pelkkä mallin ennuste (L5)
+nav_order: 116
+evidence_level: L5
 indication_count: 8
 ---
 
 # Clopidogrel
 {: .fs-9 }
 
-Näytön taso: **L2** | Ennustetut käyttöaiheet: **8** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **8** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,71 +29,124 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **8** kpl
 
 </div>
 
-# Clopidogrel: antitromboottisesta hoidosta aivarrunon auramigreeniin
+# Klopidogreeli: Sepelvaltimotaudin ja aivoinfarktin ehkäisystä migreeniin
 
 ## Yhden lauseen yhteenveto
 
-Clopidogrel on P2Y12-/ADP-reseptorin antagonisti (tienyylipyridiiniluokka), jota käytetään laajalti aterothromboottisten tapahtumien ehkäisyyn; tässä Evidence Pack -paketissa ei ole saatavilla Taiwan-spesifejä hyväksytyn indikaation tekstejä (lääkettä ei tällä hetkellä myydä Taiwanissa). TxGNN-malli ennustaa, että se saattaa olla tehokas **aivarrunon auramigreeniin**, mutta tällä hetkellä vain kirjallisuuden näyttö tukee tätä spesifistä alaryhmää — **0 kliinistä tutkimusta** ja **16 julkaisua**, joista suurin osa tutkii clopidogrelliä migreeniä sairastavissa potilaissa, joilla on dokumentoitu avoin foramen ovale (PFO) tai oikea-vasemmalle shuntti (RLS).
+Klopidogreeli on verihiutaleiden aggregaatiota estävä lääke, jota on alun perin käytetty sydäninfarktin, akuutin sepelvaltimo-oireyhtymän, aivohalvauksen ja perifeeristen verisuonisairauksien hoitoon ja ehkäisyyn.
+TxGNN-malli ennustaa sen voivan tehota ensisijaisesti **migreenihäiriöön** (ja migreeniin, johon liittyy aivorunkoaura).
+Tätä suuntaa tukee **6 kliinistä tutkimusta** (joista vain osa testaa klopidogreelia suoraan) ja **20 julkaisua**, mukaan lukien satunnaistetut tutkimukset.
 
-## Nopea yleiskatsaus
+*Huom. raportti keskittyy sijalla 1 olevaan ennusteeseen (aivorunkoauralliseen migreeniin), mutta vahvin näyttö on sijalla 2 olevasta ennusteesta, migreenihäiriöstä. Kliinisten tutkimusten ja kirjallisuuden osiot käsittelevät tämän vuoksi migreenihäiriötä, koska aivorunkoauralliselle migreenille ei ole rekisteröityjä kliinisiä tutkimuksia.*
+
+---
+
+## Pikayleiskatsaus
 
 | Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Ei saatavilla tässä Evidence Pack -paketissa — lääkettä ei myydä Taiwanissa (0 lupa-asiakirjaa); yleiset lääkkeen tiedot osoittavat verihiutaleiden esto / aterothromboottisten tapahtumien ehkäisyä |
-| Ennustettu uusi indikaatio | Aivarrunon auramigreeni |
-| TxGNN ennustepisteet | 99.44% |
-| Näyttötaso | L2 |
-| Taiwanin markkinatilanne | Ei markkinoilla |
-| Valtuuksien lukumäärä | 0 |
-| Suositeltu päätös | Odota |
+|------|------|
+| Alkuperäinen käyttöaihe | Perifeeriset verisuonisairaudet, aivohalvaus, sydäninfarkti (sekä akuutti sepelvaltimo-oireyhtymä) |
+| Ennustettu uusi käyttöaihe | Migreeni, johon liittyy aivorunkoaura (sijalla 2: migreenihäiriö) |
+| TxGNN-ennustepistemäärä | 99,44 % (migreenihäiriö: 99,44 %) |
+| Näytön taso | L3 aivorunkoauralliselle migreenille; L2 migreenihäiriölle |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 16 (kaikki peruutettuja) |
+| Suositeltu päätös | Proceed with Guardrails (migreenihäiriö, PFO-/oikea-vasen-oikovirtauspotilaat); Hold (muut ennusteet) |
 
-## Miksi tämä ennuste on järkevä?
+---
 
-Tällä hetkellä clopidogrellin yksityiskohtaisia toimintamekanismin tietoja ei ole saatavilla tästä Evidence Pack -paketista ([Datavaje] merkitty korkean vakavuuden seuraukseksi, DG002). Knowledge graphista laaditun uudelleenkäyttöstrategian perusteella clopidogrel on P2Y12-reseptorin antagonisti, joka estää ADP-riippuvaista verihiutaleisten aktivaatiota — hyvin vakiintunut verihiutaleisten estämisen mekanismi.
+## Miksi ennuste on perusteltu?
 
-Ehdotettu linkki aivarrunon auramigreeniin perustuu avoin foramen ovale (PFO)/oikea-vasemmalle shuntti (RLS) paradoksaalisen mikroembolisaation hypoteesiin: mikroembolit tai verihiutaleissa olevat kokkare, jotka kulkevat diagnosoimattoman shuntin yli, uskotaan laukaisevan kortikaalista leviävää depressiota, migreeni-auran fysiologisen vastineen. Koska auran tyyppiset migreenit (mukaan lukien aivarrunon alaryhmä) ovat mekanistisesti lähempää tätä embolista laukaisua kuin migreeni ilman auraa, verihiutaleisten estäminen clopidogrellilla oletetaan vähentävän auran esiintymistiheyttä tässä alaryhmässä.
+Yksityiskohtaisia vaikutusmekanismitietoja (MOA) ei ole tällä hetkellä saatavilla. Tunnetun tiedon perusteella klopidogreeli estää P2Y12-reseptorivälitteistä verihiutaleiden aggregaatiota. Sen teho valtimotromboosin ehkäisyssä on osoitettu, ja mekanistisesti se voi soveltua migreenin ehkäisyyn tietyillä potilasryhmillä.
 
-Huomionarvoista on, että läheisesti liittyvä ja kattavammin tutkittu indikaatio tässä paketissa — "migreeni" (sijoitus 2, sama TxGNN-pisteväli, 99.44%) — sisältää valmistuneen Phase 4 RCT-tutkimuksen (CANOA, n=220), joka testasi suoraan clopidogrelliä migreeniä ehkäisevässä hoidossa atriumseptaalisen defektin transkateeterisessa sulkemisessa. Koska molemmat indikaatiot jakavat identtisen PFO/RLS-perusteisen mekanismin, kyseisen tutkimuksen näyttö on erittäin relevantti tukiväli aivarrunon auran alaryhmälle, vaikka yksikään tutkimus ei ole ottanut mukaan aivarrunon auran potilaita erikseen.
+Migreenissä, johon liittyy aura, erityisesti avoimen foramen ovalen (PFO) yhteydessä, paradoksaalisten mikroembolioiden tai verihiutaleista vapautuvien vasoaktiivisten aineiden (esim. serotoniinin) arvellaan voivan laukaista aivokuoren leviävän depression. Verihiutaleiden aktivaation estäminen voisi siten vähentää kohtauksia.
 
-## Kliinisen tutkimuksen näyttö
+Alkuperäinen käyttöaihe (verisuonitukokset) ja uusi käyttöaihe (migreeni) kytkeytyvät toisiinsa verihiutaleiden aktivaation ja mikroembolisaation kautta. Näyttö koskee kuitenkin pääosin aurallista migreeniä PFO-potilailla tai sulkutoimenpiteen jälkeisessä tilanteessa. Aivorunkoauralle ominaista tietoa ei ole, joten päätelmä yleisestä aurallisesta migreenistä on epäsuora. Yleiselle migreenin ehkäisylle näyttö on heikkoa.
 
-Tällä hetkellä ei ole aivarrunon auramigreeniin rekisteröityjä kliinisiä tutkimuksia.
+---
 
-*(Kontekstiksi: läheisesti liittyvä indikaatio "migreeni" sisältää valmistuneen Phase 4 RCT-tutkimuksen — [NCT00799045](https://clinicaltrials.gov/study/NCT00799045), CANOA-tutkimus, n=220 — joka testasi clopidogrelliä + asetyylisalisyyliä uuden migreeniä ehkäisemään transkateeterisessa ASD-sulkemisessa.)*
+## Kliininen tutkimusnäyttö (migreenihäiriö)
 
-## Kirjallisuuden näyttö
+| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset havainnot |
+|---------|------|------|------|---------|
+| [NCT05546320](https://clinicaltrials.gov/study/NCT05546320) | Vaihe 2 | Päättynyt | 1000 | COMPETE: antitromboottinen/verihiutaleita estävä hoito vs. migreenilääkitys PFO-migreenissä; tulokset julkaistu |
+| [NCT00799045](https://clinicaltrials.gov/study/NCT00799045) | Vaihe 4 | Päättynyt | 220 | CANOA: klopidogreeli aspiriinin lisänä uuden migreenin ehkäisyssä eteisväliseinän aukon sulkun jälkeen |
+| [NCT02938182](https://clinicaltrials.gov/study/NCT02938182) | Vaihe 4 | Tuntematon | 50 | Klopidogreeli migreenin ehkäisyyn oikea-vasen-oikovirtauspotilailla; ei vahvistettuja tuloksia |
+| [NCT04946734](https://clinicaltrials.gov/study/NCT04946734) | Vaihe 3 | Käynnissä, ei rekrytoi | 440 | SPRING: PFO-sulku vs. lääkehoito migreenissä; interventio on laite, joten epäsuora |
+| [NCT00562289](https://clinicaltrials.gov/study/NCT00562289) | Vaihe 3 | Päättynyt | 664 | PFO-sulku tai antikoagulantti vs. verihiutaleita estävä hoito aivohalvauksen uusiutumisen ehkäisyssä; migreeni ei ole ensisijainen päätetapahtuma |
+| [NCT04100135](https://clinicaltrials.gov/study/NCT04100135) | Ei sovellettavissa | Keskeytetty | 7 | Septaalisulkulaitteen tutkimus; ei informatiivinen klopidogreelin kannalta |
 
-| PMID | Vuosi | Tyyppi | Lehti | Keskeisiä havaintoja |
-|------|-----|------|------|---------|
-| [26908949](https://pubmed.ncbi.nlm.nih.gov/26908949/) | 2016 | RCT | European Heart Journal | PRIMA-tutkimus: transkateeterinen PFO:n sulkeminen auramigreenissa, satunnaistettu kontrolloitu |
-| [24836213](https://pubmed.ncbi.nlm.nih.gov/24836213/) | 2014 | RCT | Cephalalgia | Pilottikelpainen satunnaistettu kontrolloitu tutkimus clopidogrellista profylaktisena hoitona migreenille |
-| [39989443](https://pubmed.ncbi.nlm.nih.gov/39989443/) | 2025 | Katsaus | Headache | Järjestelmällinen katsaus antitromboottisten lääkkeiden roolista migreeniä ehkäisevässä hoidossa |
-| [16103551](https://pubmed.ncbi.nlm.nih.gov/16103551/) | 2005 | Kohortti | Heart (British Cardiac Society) | Clopidogrell vähensi auramigreenää transkateeterisessa PFO/ASD-sulkemisessa |
-| [32848048](https://pubmed.ncbi.nlm.nih.gov/32848048/) | 2020 | Kohortti | J Investigative Medicine | Clopidogrell täydentävänä profylaksiana lääkitysresistenttiin migreeniin PFO:n kanssa |
-| [30478067](https://pubmed.ncbi.nlm.nih.gov/30478067/) | 2018 | Kohortti | Neurology | TRACTOR-pilottikelpainen tutkimus: tienyylipyridiiniit (mukaan lukien clopidogrell) vähenivät migreeni-oireita PFO-potilaissa |
-| [30478066](https://pubmed.ncbi.nlm.nih.gov/30478066/) | 2018 | Kohortti | Neurology | Takautuva katsaus tienyylipyridiinihoitoon migreeniä sairastavissa PFO-potilaissa |
-| [24770421](https://pubmed.ncbi.nlm.nih.gov/24770421/) | 2014 | Kohortti | Cephalalgia | Takautuva katsaus clopidogrellista ensisijaisena hoitona migreeniä sairastavissa potilaissa, joilla on oikea-vasemmalle shuntti -viat |
-| [33815258](https://pubmed.ncbi.nlm.nih.gov/33815258/) | 2021 | Tapauskertomus | Frontiers in Neurology | Migreeniä muistuttava päänsärky visuaalisen auran kanssa PCA-aneurysma-endovaskulaarisen kelan jälkeen |
-| [36588875](https://pubmed.ncbi.nlm.nih.gov/36588875/) | 2022 | Tapauskertomus | Frontiers in Neurology | Eristetty keuhkojen arteriovenöös fistula aiheuttama auramigreeni |
+Sijalla 1 olevalle aivorunkoauralliselle migreenille ei ole rekisteröityjä kliinisiä tutkimuksia.
 
-## Turvallisuus huomioitavaa
+---
 
-Katso turvallisuustiedot pakkausselosteesta. (TFDA-varoitukset, kontraindikaatiot ja DDI-tieto on merkitty blokkaaavaksi datavajeeksi — DG001 — tässä Evidence Pack -paketissa ja ne on ratkaistava ennen mitään S1-turvallisuusarviointia.)
+## Kirjallisuusnäyttö (migreenihäiriö)
 
-## Johtopäätös ja seuraavat vaiheet
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|---------|------|------|------|---------|
+| [42526943](https://pubmed.ncbi.nlm.nih.gov/42526943/) | 2026 | RCT (monikeskus) | BMJ | Antitromboottisen hoidon teho ja turvallisuus migreenin ehkäisyssä PFO-potilailla |
+| [26551304](https://pubmed.ncbi.nlm.nih.gov/26551304/) | 2015 | RCT | JAMA | CANOA: klopidogreeli + aspiriini vs. pelkkä aspiriini migreenikohtauksiin eteisväliseinän aukon sulun jälkeen |
+| [32965476](https://pubmed.ncbi.nlm.nih.gov/32965476/) | 2021 | RCT (1 vuoden seuranta) | JAMA Cardiol | Kolmen kuukauden klopidogreelilisä vähensi uusia migreenikohtauksia; tulokset 6–12 kk:n seurannassa |
+| [24836213](https://pubmed.ncbi.nlm.nih.gov/24836213/) | 2014 | RCT (pilotti) | Cephalalgia | Klopidogreeli migreenin ehkäisyssä, pilottitutkimus |
+| [39989443](https://pubmed.ncbi.nlm.nih.gov/39989443/) | 2025 | Systemaattinen katsaus | Headache | Antitromboottisten lääkkeiden rooli migreenin ehkäisyssä |
+| [40144614](https://pubmed.ncbi.nlm.nih.gov/40144614/) | 2025 | Systemaattinen katsaus | Indian J Thorac Cardiovasc Surg | Uusi päänsärky eteisväliseinän aukon katetrisulun jälkeen: ilmaantuvuus ja hoito |
+| [38109984](https://pubmed.ncbi.nlm.nih.gov/38109984/) | 2024 | Tutkimusasetelma | Am Heart J | COMPETE-tutkimuksen suunnittelu ja perustelut |
+| [32848048](https://pubmed.ncbi.nlm.nih.gov/32848048/) | 2020 | Havainnointitutkimus | J Investig Med | Klopidogreeli täydentävänä ehkäisynä lääkehoitoon reagoimattomassa PFO-migreenissä |
+| [30478066](https://pubmed.ncbi.nlm.nih.gov/30478066/) | 2018 | Retrospektiivinen katsaus | Neurology | Tienopyridiinihoito PFO-migreenipotilailla |
+| [24770421](https://pubmed.ncbi.nlm.nih.gov/24770421/) | 2014 | Retrospektiivinen katsaus | Cephalalgia | Klopidogreeli ensisijaisena hoitona migreenipotilailla, joilla oikea-vasen-oikovirtaus |
 
-**Päätös: Odota**
+Aivorunkoauralliselle migreenille (sijalla 1) tärkeimmät lähteet ovat pilotti-RCT (PMID 24836213), retrospektiiviset katsaukset (PMID 30478066) ja pienet avoimet tutkimukset (PMID 32848048, 30478067). Aivorunkoauraa koskevaa suoraa näyttöä ei ole.
+
+---
+
+## Suomen markkinatiedot
+
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000174 | Plavix | – | Aivohalvaus, perifeeriset verisuonisairaudet, eteisvärinä, sydäninfarkti, akuutti sepelvaltimo-oireyhtymä |
+| EMEA/H/C/000175 | Iscover | – | Aivohalvaus, perifeeriset verisuonisairaudet, eteisvärinä, sydäninfarkti, akuutti sepelvaltimo-oireyhtymä |
+| EMEA/H/C/001143 | DuoPlavin | – | Akuutti sepelvaltimo-oireyhtymä, sydäninfarkti |
+| EMEA/H/C/000975 | Clopidogrel Zentiva | – | Aivohalvaus, perifeeriset verisuonisairaudet, sydäninfarkti, akuutti sepelvaltimo-oireyhtymä |
+| EMEA/H/C/001056 | Clopidogrel Krka | – | Perifeeriset verisuonisairaudet, aivohalvaus, sydäninfarkti |
+
+Kaikki 16 myyntilupaa on peruutettu, eikä voimassa olevia myyntilupia ole.
+
+---
+
+## Sytotoksisuus
+
+Klopidogreeli ei ole syöpälääke, joten tämä osio ei koske sitä.
+
+---
+
+## Turvallisuushuomiot
+
+- **Tietokannan vasta-aiheet (TxGNN-tietograafi, ei valmisteyhteenveto)**: akuutti maksan vajaatoiminta, maksatulehdus, veren hyytymishäiriö, vamma, trombosytopeeninen purppura, aktiivinen mahahaavatauti ja kallonsisäinen verenvuoto.
+- **Lääkeyhteisvaikutukset** (yhteensä 100 löydöstä, tärkeimmät):
+  - **Merkittävät (Major)**: omepratsoli, esomepratsoli, rabepratsoli, pioglitatsoni, loperamidi, repaglinidi
+  - **Kohtalaiset (Moderate)**: asetyylisalisyylihappo, bupropioni, morfiini, simetidiini, klaritromysiini, lansopratsoli, pantopratsoli ja muita
+  - **Lievät (Minor)**: deksansopratsoli, glimepiridi
+- **Ennusteisiin liittyvät turvallisuussignaalit**: nivelreumaennusteen yhteydessä on raportoitu klopidogreeliin liittyvää tulehduksellista niveltulehdusta (PMID 38107217) ja systeemisessä skleroosissa endoteelitoiminnan heikkenemistä (PMID 27188755). Nivelrikkopotilailla on kuvattu vuotoriskejä (esim. nivelverenvuoto).
+
+Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat tästä aineistosta, joten tarkista turvallisuustiedot valmisteyhteenvedosta.
+
+---
+
+## Johtopäätös ja jatkotoimet
+
+**Päätös: Proceed with Guardrails (migreenihäiriö, PFO-/oikea-vasen-oikovirtauspotilaat); Hold (aivorunkoauralliseen migreeniin sekä nivelrikko-, jännetulehdus-, myosiitti- ja nivelreumaennusteisiin)**
 
 **Perustelut:**
-Näyttö clopidogrellista erityisesti aivarrunon auramigreeniin on L2 (vain kirjallisuus, sisältäen kaksi pientä RCT-tutkimusta) — tälle tarkalleen alaryhmälle ei ole rekisteröityjä kliinisiä tutkimuksia. Mekanistinen perustelu on uskottava, mutta on kokonaan riippuvainen vahvistamattomasta PFO/RLS-komorbiditeettia sisältävästä alaryhmästä, eikä mikään tieto vahvista, että se soveltuu laajalti aivarrunon auran tyypille.
+- Migreenihäiriölle on valmistunut vaiheen 2 tutkimus (COMPETE, n=1000) ja julkaistu satunnaistettu monikeskustutkimus sekä CANOA-tutkimus (vaihe 4, RCT). Tulokset ovat kuitenkin ristiriitaisia: hyöty näkyy PFO:hon liittyvässä tai sulkutoimenpiteen jälkeisessä migreenissä, mutta yleisen migreenin ehkäisyssä näyttö on heikko. Vaiheen 3 tutkimukset koskevat PFO-sulkua, eivät klopidogreelia.
+- Aivorunkoauralliselle migreenille on vain epäsuoraa näyttöä (L3). Nivelrikko, jännetulehdus, myosiitit ja nivelreuma ovat pääosin pelkkiä malliennusteita ilman kliinistä tukea, ja nivelreumassa on haittasignaaleja.
 
-**Edistääkseen tarvitaan seuraavat asiat:**
-- TFDA/pakkausseloste-tieto clopidogrellista (varoitukset, kontraindikaatiot, DDI) — tällä hetkellä blokkaaava vaje (DG001)
-- DrugBank-lähteinen MOA-vahvistus — tällä hetkellä korkean vakavuuden vaje (DG002)
-- Määritelty potilaan valintaprotokolla, joka vaatii vahvistettua PFO/RLS-statusta ennen hoitoa
-- Harkintaa siitä, kannattaako tavoitella paremmin osoitettua "migreeni"-indikaaatiota (sijoitus 2, valmistunut Phase 4 CANOA RCT) aivarrunon auran alaryhmän sijaan vai rinnalla
-- Taiwanin markkina- ja säätelyn polun arvio, koska lääkkeellä on tällä hetkellä nolla paikallisia valtuuksia
-
+**Jatkoon tarvitaan:**
+- COMPETE-tutkimuksen tulosten yksityiskohtien varmistaminen ja kriittinen arviointi
+- Vaikutusmekanismitiedot (MOA) DrugBankista
+- Suomen valmisteyhteenvedon varoitukset ja vasta-aiheet turvallisuusarviointia varten
+- Selvitys Suomen markkinatilanteesta, koska kaikki myyntiluvat on peruutettu
+- Vaiheen 3 satunnaistettu tutkimus nimenomaan PFO:hon liittyvästä aurallisesta migreenistä, mieluiten aivorunkoauralliset potilaat erikseen tarkasteltuina
+- Yhteisvaikutusten (erityisesti protonipumpun estäjät ja CYP2C19-välitteiset yhteisvaikutukset) ja vuotoriskin seurantasuunnitelma
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

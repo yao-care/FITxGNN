@@ -2,7 +2,7 @@
 layout: default
 title: Rivastigmine
 parent: Kohtalainen näyttö (L3-L4)
-nav_order: 331
+nav_order: 385
 evidence_level: L4
 indication_count: 1
 ---
@@ -29,82 +29,75 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Rivastigmine: Alzheimerin taudista ja Parkinsonin taudin dementiasta glaukoomaan
+# Rivastigmiini: Dementiasta ja Alzheimerin taudista glaukoomaan
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Rivastigmine on kolinesteraasin estäjä, jota perinteisesti käytetään Alzheimerin taudin ja Parkinsonin taudin dementian hoitoon (tämä todistepaketti ei sisällä vahvistettua alkuperäisen indikaation tietuetta — katso huomautus alla). TxGNN-malli ennustaa, että se voi olla tehokas **glaukoomaan**, mikä on tällä hetkellä tuettu **0 kliinisen tutkimuksen** ja **3 julkaisun** perusteella, mukaan lukien yksi prekliininen eläintutkimus.
-
-> Huomautus: `taiwan_regulatory.licenses` ja `drug.original_indications` ovat tyhjiä tässä todistupaketissa, joten yllä oleva alkuperäinen indikaatio heijastaa lääkkeen vakiintunutta kliinistä käyttöä Fimea-merkinnän sijaan. Rivastigmine (DB00989) ei ole tällä hetkellä markkinoilla Suomessa tämän tiedon mukaan.
-
----
+Rivastigmiini on kolinesteraasin estäjä, jota on alun perin käytetty **dementian, Alzheimerin taudin ja Parkinsonin taudin** hoitoon. TxGNN-malli ennustaa, että se voisi tehota **glaukoomaan**. Tukena on toistaiseksi vain **0 kliinistä tutkimusta** ja **3 julkaisua**, joista ainoa varsinainen koe on kaniineilla tehty prekliininen tutkimus.
 
 ## Pikakatsaus
 
-| Kohde | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Ei saatavilla Fimean lupatiedoista (0 lupaa tiedostoissa); perinteisesti käytetään Alzheimerin taudin ja Parkinsonin taudin dementian hoitoon |
-| Ennustettu uusi indikaatio | Glaukooma |
-| TxGNN-ennustepiste | 99.27% |
-| Todisteiden taso | L4 |
-| Markkinatilanne Suomessa | ✗ Ei markkinoilla |
-| Lupien lukumäärä | 0 |
-| Suositeltu päätös | Pidätä |
+| Kohta | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | Dementia, Alzheimerin tauti, Parkinsonin tauti |
+| Ennustettu uusi käyttöaihe | Glaukooma |
+| TxGNN-ennusteen pistemäärä | 99,27 % |
+| Näytön taso | L4 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 6 (kaikki peruutettuja) |
+| Suositeltu päätös | Hold (odota) |
 
----
+## Miksi ennuste on perusteltu?
 
-## Miksi tämä ennuste on perusteltu?
+Rivastigmiini estää kolinesteraasientsyymejä (asetyylikolinesteraasi ja butyryylikolinesteraasi) ja vähentää siten asetylokoliinin hajoamista. Tämän raportin tietoaineistossa ei ole saatavilla tarkempaa vaikutusmekanismin kuvausta, joten alla oleva päättely perustuu yleisesti tunnettuun lääkeryhmän vaikutukseen.
 
-Tällä hetkellä yksityiskohtaista toimintamekanismi-tietoa ei ole saatavilla tässä todistupaketissa. Tunnettujen tietojen perusteella rivastigmine on selektiivinen asetyylikolinesteraasin (AChE) estäjä, aineluokka, jota perinteisesti käytetään asetyylikoliinin tasoja nostamaan keskushermostossa Alzheimerin taudin ja Parkinsonin taudin dementian hoitoon.
+Silmässä lisääntynyt kolinerginen vaikutus voi supistaa sädelihasta ja parantaa kammionesteen ulosvirtausta trabekkeliverkon kautta, mikä laskee silmänpainetta. Sama farmakologinen periaate on käytössä mioottisissa lääkkeissä, kuten pilokarpiinissa ja fysostigmiinissa. Silmänpaineen alentaminen on glaukooman hoidon keskeinen tavoite.
 
-Mekanistinen yhteys glaukoomaan johtuu kolinergisen järjestelmän roolista silmänsisäisen paineen (IOP) sääntelyssa: asetyylikoli vaikuttaa suodattavan verkon M3-muskariinityypin reseptoreihin, mikä lisää välinesteiden ulosvirtausta ja alentaa IOP:ia. Ei-selektiivisiä AChE-estäjiä on pitkään käytetty kliinisesti IOP:ia alentavina mioottisina aineina, ja tässä paketissa oleva kirjallisuus huomauttaa, että "lievälla AChE:n estyksellä on osoitettu olevan terapeuttista merkitystä Alzheimerin taudissa, myastenia gravisissa ja glaukoomassa."
+Tukena on vuoden 2000 prekliininen tutkimus, jossa paikallisesti annettu rivastigmiini laski silmänpainetta kaniineilla. Lisäksi vuoden 2024 katsaus tukee kolinergisiä aineita silmänpainetta alentavina ehdokkaina. Korkea ennustepistemäärä on linjassa mekanismin kanssa, mutta se on pelkkä laskennallinen ennuste.
 
-Suora prekliininen tutkimus (PMID 10673128) havaitsi, että paikallisesti annettu rivastigmine alensi IOP:ia normotensiivisissa kaneissa 8 tunnin aikana, mikä tukee biologista uskottavuutta uudelleenkäytölle sen vakiintuneen keskushermoston käytön lisäksi. Tämä jää kuitenkin eläin-/mekanistiseen todistukseen — yhtään ihmistutkimusta glaukooman potilaissa ei ole tunnistettu.
+## Kliiniset tutkimukset
 
----
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
-## Kliinisen tutkimuksen todisteet
+## Kirjallisuusnäyttö
 
-Tällä hetkellä ei ole liittyviä kliinisiä tutkimuksia rekisteröity.
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [10673128](https://pubmed.ncbi.nlm.nih.gov/10673128/) | 2000 | Prekliininen (kaniini) | J Ocul Pharmacol Ther | Paikallinen rivastigmiini laski silmänpainetta normotensiivisilla kaniineilla |
+| [39130374](https://pubmed.ncbi.nlm.nih.gov/39130374/) | 2024 | Katsaus | Front Mol Biosci | Kolinergisten aineiden vaikutus silmänpaineeseen; nykyisten M3-agonistien systeemiset haittavaikutukset rajoittavat käyttöä |
+| [27967267](https://pubmed.ncbi.nlm.nih.gov/27967267/) | 2017 | Katsaus | Expert Opin Ther Pat | Asetyylikolinesteraasin estäjien patenttikatsaus; lievä estäminen on hyödyllistä mm. Alzheimerin taudissa ja glaukoomassa |
 
----
+## Markkinatiedot Suomessa
 
-## Kirjallisuuden todisteet
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000169 | Exelon | – | Dementia, Alzheimerin tauti, Parkinsonin tauti |
+| EMEA/H/C/001029 | Nimvastid | – | Dementia, Alzheimerin tauti, Parkinsonin tauti |
+| EMEA/H/C/000255 | Prometax | – | Alzheimerin tauti, Parkinsonin tauti, dementia |
+| EMEA/H/C/001181 | Rivastigmine 1 A Pharma | – | Alzheimerin tauti, dementia, Parkinsonin tauti |
+| EMEA/H/C/001182 | Rivastigmine Hexal | – | Dementia, Alzheimerin tauti, Parkinsonin tauti |
 
-| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät löydökset |
-|------|------|--------|-------|-----------------|
-| [10673128](https://pubmed.ncbi.nlm.nih.gov/10673128/) | 2000 | Prekliininen (eläintutkimus) | Journal of Ocular Pharmacology and Therapeutics | Paikallisesti annettu rivastigmine, selektiivinen AChE-estäjä, alensi silmänsisäistä painetta normotensiivisissa kaneissa 8 tunnin aikana |
-| [39130374](https://pubmed.ncbi.nlm.nih.gov/39130374/) | 2024 | Katsaus | Frontiers in Molecular Biosciences | Tarkastellaan kolinergisia (muskariinityypin) aineita IOP:n alentamiseen suodattavan verkon kautta; huomauttaa, että systeemiset sivuvaikutukset rajoittavat nykyisiä M3-agonisteja |
-| [27967267](https://pubmed.ncbi.nlm.nih.gov/27967267/) | 2017 | Katsaus | Expert Opinion on Therapeutic Patents | Tutkii AChE-estäjiä/reaktivointiaineita; huomauttaa, että lievälla AChE-estyksellä on terapeuttista merkitystä Alzheimerin taudissa, myastenia gravisissa ja glaukoomassa |
+Kaikki kuusi myyntilupaa on peruutettu, joten voimassa olevia valmisteita ei ole. Taulukossa on listattu viisi kuudesta; kuudes on Rivastigmine Sandoz (EMEA/H/C/001183).
 
----
+## Turvallisuusnäkökohdat
 
-## Suomen markkinatiedot
+- **Mahdolliset vasta-aiheet (tietämysgraafista, ei valmisteyhteenvedosta):** epilepsia, astma, keuhkoahtaumatauti (COPD), sairas sinus -oireyhtymä, eteis-kammiokatkos, sydämen johtumishäiriöt, äkillinen sydänpysähdys, aktiivinen mahahaava, virtsateiden tukos, ripulitaudit, anoreksia nervosa, tyvitumakkeiden sairaudet, blefarospasmi, fokaalinen käden dystonia sekä parkinsonismi ja Parkinsonin tauti.
+- **Lääkeinteraktiot:** Tietoaineistossa on yhteensä 100 kirjattua interaktiota. Vakava (Major) interaktio on bupropionin kanssa. Merkittäviä keskivaikeita (Moderate) ovat mm. antikolinergit (atropiini, hyoskyamiini, glykopyrronium, disyklomiini, trospium), H2-salpaajat (famotidiini, ranitidiini, simetidiini), loperamidi, metronidatsoli, klaritromysiini, levofloksasiini sekä setronit (dolasetroni, palonosetroni).
+- Systeeminen kolinesteraasin esto voi aiheuttaa kolinergisiä haittavaikutuksia, kuten ruoansulatuskanavan oireita ja bradykardiaa. Valmisteyhteenvedon varoitukset ja vasta-aiheet tulee tarkistaa erikseen.
 
-Rivastigmine ei ole tällä hetkellä markkinoilla Suomessa — tässä todistupaketissa ei ole Fimean valtuutuksia (0 lupaa).
+## Johtopäätös ja seuraavat askeleet
 
----
-
-## Turvallisuushuomiot
-
-Katso pakkausselosteesta turvallisuustiedot.
-
----
-
-## Johtopäätös ja seuraavat vaiheet
-
-**Päätös: Pidätä**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Todisteet rajoittuvat yhteen prekliiniseen kanitutkimukseen ja kahteen mekanistiseen katsaukseen, ilman kliinisiä tutkimuksia tai ihmisiä koskevia tutkimustietoja glaukoomassa; lääke ei myöskään ole tällä hetkellä markkinoilla Suomessa, ja turvallisuus-/varoitustiedot eivät ole saatavilla (lohkoava kuilu S1-turvallisuusseulonnalle).
+- Näyttö rajoittuu yhteen kaniinikokeeseen ja kahteen katsaukseen, eikä ihmisillä tehtyjä tutkimuksia ole. Myyntiluvat on peruutettu, ja silmään annettava valmiste vaatisi uutta kehitystä.
 
-**Jatkaakseen seuraavat asiat ovat tarpeen:**
-- TFDA/Fimean pakkausseloste (varoitukset, vasta-aiheet) — tällä hetkellä este (DG001)
-- Vahvistettu toimintamekanismin tietue DrugBankista (DG002)
-- Vahvistettu alkuperäinen indikaatio/lupatieto rivastigmiinille
-- Ihmisiin perustuva kelpoisuuden osoitus tai vaihe 1/2 tutkimus glaukoomassa tai okulaarisessa hypertensioissa
-- DDI-tiedot ennen mitään kliinistä arviointia
-
+**Eteneminen edellyttää:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimeasta (estävä tietoaukko)
+- Vaikutusmekanismin tarkempaa dokumentointia
+- Silmään paikallisesti annettavan formulaation ja antoreitin kehittämistä sekä sen turvallisuuden arviointia
+- Lisää prekliinistä näyttöä (mm. glaukoomamalleissa) ja sen jälkeen varhaisen vaiheen kliinisiä tutkimuksia
+- Systeemisen altistuksen sekä sydän- ja hengityselinriskien arviointia
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

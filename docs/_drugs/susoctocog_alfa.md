@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Susoctocog Alfa
-parent: Pelkkä mallin ennuste (L5)
-nav_order: 353
-evidence_level: L5
+parent: Kohtalainen näyttö (L3-L4)
+nav_order: 413
+evidence_level: L3
 indication_count: 10
 ---
 
 # Susoctocog Alfa
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,77 +29,95 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Susoctocog Alfa: Hankitusta hemofiliasta A primaariseen trombosyyttien erityshäiriöön
+# Susoktokogialfa: Hemofilia A:sta hemofiliaan (hankinnainen hemofilia A)
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Susoctocog alfa on rekombinantti, B-domeenia poistettu, sianperäinen Factor VIII (FVIII) -tuote, joka on parhaiten dokumentoitu kirjallisuudessa **hankitun hemofilian A (AHA)** verenvuotojen hoitoon. TxGNN-mallin tämän lääkkeen korkeimmin sijoittama ennustus on **primaarinen trombosyyttien erityshäiriö**, mutta tätä kandidaattia tukee tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua**, ja taustalla olevan perustelun mukaan mekanismi ei ole sopusoinnussa FVIII-korvaushoidon kanssa.
+Susoktokogialfa on yhdistelmä-DNA-tekniikalla valmistettu, B-domeenista vapaa porsaan sekvenssin tekijä VIII -valmiste, jota on alun perin käytetty **hemofilia A:n** hoitoon (Suomessa kauppanimi Obizur).
+TxGNN-malli ennustaa sen voivan olla hyödyllinen **hemofilian** hoidossa (pistemäärä 99,74 %).
+Tätä tukee **1 kliininen tutkimus** (havainnoiva seurantatutkimus) ja **20 julkaisua**, mutta suurin osa näytöstä koskee jo hyväksyttyä käyttöaihetta (hankinnainen hemofilia A), joten kyse ei ole varsinaisesti uudesta käyttöaiheesta.
 
 ---
 
-## Pikayleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|--------|
-| Alkuperäinen indikaatio | Hankittu hemofilia A / verenvuodot (kirjallisuuden mukaan; ei vahvistettu Suomen sääntelytiedoissa) |
-| Ennustettu uusi indikaatio | Primaarinen trombosyyttien erityshäiriö |
-| TxGNN-ennustepisteet | 99.94% |
-| Evidenssitaso | L5 |
-| Suomen markkinatilanne | ✗ Ei markkinoitu |
-| Lupien lukumäärä | 0 |
-| Suositeltu päätös | Odotus |
+|------|------|
+| Alkuperäinen käyttöaihe | Hemofilia A |
+| Ennustettu uusi käyttöaihe | Hemofilia (rank 1 -ennuste, jolla on näyttöä: hemofilia; TxGNN-sijoitus 3316) |
+| TxGNN-ennustepistemäärä | 99,74 % |
+| Näytön taso | L3 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Proceed with Guardrails (eteneminen suojatoimin) |
+
+**Huomio ennusteiden järjestyksestä:** TxGNN-listan kolme parhaiten sijoittunutta ennustetta (verihiutaleiden vapautumishäiriö, pseudo-von Willebrandin tauti ja Glanzmannin trombasteenia) eivät saa tukea tutkimuksista, kirjallisuudesta eikä mekanismista (taso L5, päätös Hold). Tämä raportti keskittyy ensimmäiseen ennusteeseen, jolla on todellista näyttöä, eli hemofiliaan. Lisäksi hankinnaisen hyytymistekijävajauksen (sijoitus 5) näyttö on samansuuntainen.
 
 ---
 
-## Miksi tämä ennustus on perusteltu?
+## Miksi ennuste on perusteltu?
 
-Tällä hetkellä yksityiskohtaisia mekanismin tietoja susoctocog alfalle ei ole saatavilla strukturoiduissa lääketiedoissa. Ympäröivän kirjallisuuden perusteella susoctocog alfa (rekombinantti sianperäinen FVIII, markkinoitu muualla nimellä Obizur) käytetään Factor VIII -toiminnan korvaamiseen potilailla, joiden endogeeninen FVIII on neutraloitunut autoantibodien toimesta (hankittu hemofilia A), palauttaen sisäisen koagulaatioreitin verenvuotojen hallintaan.
+Susoktokogialfa korvaa puuttuvan tai estetyn tekijä VIII:n aktiivisuuden. Sen porsaan sekvenssi reagoi heikosti ihmisen tekijä VIII:aa vastaan muodostuneiden vasta-aineiden (inhibiittorien) kanssa, joten valmiste voi toimia silloin, kun tavallinen ihmisen tekijä VIII neutraloituu. Tarkempia mekanismitietoja (MOA) ei ole tässä aineistossa saatavilla.
 
-Primaarinen trombosyyttien erityshäiriö kuitenkin on sairaus, jolle on ominaista heikentynyt trombosyyttien granulaeriytyskyky — potilailla on normaalit trombosyyttiluvut ja normaalit koagulaatiotekijöiden tasot, mutta trombosyytit eivät vapauta granulasisältöään (ADP, serotoniini jne.), joita tarvitaan aggregaation vahvistamiseen. Tämä on mekanistisesti erillään FVIII-puutoksesta tai FVIII-autoantibodien neutralisaatiosta.
+Hemofilia ja alkuperäinen käyttöaihe ovat samaa sairausryhmää: kyse on tekijä VIII:n puutteesta tai toiminnan estymisestä. Ennusteen vahvin tuki koskee hankinnaista hemofilia A:ta, joka on valmisteen ydinkäyttöaihe, ei uusi käyttöaihe. Synnynnäinen hemofilia A inhibiittoreiden kanssa on uskottava laajennus, ja siitä on vaiheen 3 yhden haaran tutkimus leikkauspotilailla sekä in vitro -tutkimus, mutta näyttö on rajallista.
 
-Todistepaketti toteaa omassa uudelleenkäyttöperustelussaan tälle kandidaatille suoraan, että eksogeenisen FVIII-korvauksen ja trombosyyttien granulaeriytysvajavuuden korjaamisen välillä ei ole selkeitä fysiologisia yhteyksiä. Korkea TxGNN-pistemäärä heijastaa siksi graafiselle samankaltaisuussignaalille (molemmat sairaudet kuuluvat laajaan "verenvuodon häiriö" -naapurustoon) pikemminkin kuin validoidulle farmakoloogiselle mekanismille, eikä sitä tueta millään kliinisellä tutkimuksella tai julkaistulla potilastapahtumaesimerkkillä.
-
----
-
-## Kliinisen tutkimuksen todisteet
-
-Tällä hetkellä ei ole liittyviä kliinisiä tutkimuksia rekisteröitynä
+Muut kärkiennusteet (trombosyyttitoiminnan häiriöt, tekijä XIII:n puutos, adenosiinideaminaasin puutos) perustuvat todennäköisesti vain verkon läheisyyteen tietograafissa, eikä niille ole mekanistista perustetta.
 
 ---
 
-## Kirjallisuuden todisteet
+## Kliininen tutkimusnäyttö
 
-Tällä hetkellä ei ole liittyvää kirjallisuutta saatavilla
-
----
-
-## Suomen markkinatiedot
-
-Susoctocog alfaa ei tällä hetkellä markkinoida Suomessa — sääntelytietue osoittaa 0 hyväksynnät, joten tuotteen/annosmuodon yksityiskohtia ei ole saatavilla.
+| Tutkimusnumero | Vaihe | Tila | Osallistujamäärä | Keskeiset havainnot |
+|---------|------|------|------|---------|
+| [NCT06461533](https://clinicaltrials.gov/study/NCT06461533) | Ei määritelty (seurantatutkimus) | Rekrytoi | 25 | Japanilainen kaikkien tapausten myyntiluvan jälkeinen seuranta: susoktokogialfan haittavaikutukset ja teho hankinnaisen hemofilia A:n verenvuodoissa |
 
 ---
 
-## Turvallisuusnäkökohdat
+## Kirjallisuusnäyttö
 
-Turvatietoja varten katso pakkausseloste.
-
-*(Huomautus: Fimea/TFDA-pakkausselosteen varoitukset, vasta-aiheet ja lääkevuorovaikutustieto (DDI) on merkitty estäviksi tietovajeiksi (DG001) todistepakettiin ja niitä ei ole vielä haettu.)*
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|---------|-----|------|------|---------|
+| [39158833](https://pubmed.ncbi.nlm.nih.gov/39158833/) | 2024 | Vaiheen II/III avoin tutkimus | Int J Hematol | Teho ja turvallisuus japanilaisilla hankinnaista hemofilia A:ta sairastavilla aikuisilla (NCT04580407) |
+| [38317504](https://pubmed.ncbi.nlm.nih.gov/38317504/) | 2024 | Vaiheen 3 yhden haaran tutkimus | Haemophilia | Porsaan rekombinantti tekijä VIII synnynnäistä hemofilia A:ta sairastavilla, joilla on inhibiittoreita ja jotka tarvitsevat leikkaushoitoa |
+| [37584309](https://pubmed.ncbi.nlm.nih.gov/37584309/) | 2023 | Tosielämän kohorttitutkimus | Haemophilia | Myyntiluvan jälkeinen turvallisuus ja tehokkuus hankinnaisessa hemofilia A:ssa |
+| [27098420](https://pubmed.ncbi.nlm.nih.gov/27098420/) | 2016 | Katsaus | Drugs | Katsaus: monikansallisessa vaiheen II/III tutkimuksessa tehokas ja yleensä hyvin siedetty vakavissa verenvuodoissa (n = 28) |
+| [32698943](https://pubmed.ncbi.nlm.nih.gov/32698943/) | 2020 | Retrospektiivinen kohortti | Blood Transfus | Italialainen monikeskusrekisteri, yhdeksän iäkästä potilasta |
+| [37510704](https://pubmed.ncbi.nlm.nih.gov/37510704/) | 2023 | Tapaussarja ja kirjallisuuskatsaus | J Clin Med | Leikkaukset ja profylaksia hankinnaisessa hemofiliassa |
+| [35765670](https://pubmed.ncbi.nlm.nih.gov/35765670/) | 2022 | In vitro -tutkimus | Res Pract Thromb Haemost | Korjaa trombiinin muodostusta synnynnäistä hemofilia A:ta sairastavien plasmassa, joissa on inhibiittoreita |
+| [40812597](https://pubmed.ncbi.nlm.nih.gov/40812597/) | 2025 | Farmakokineettinen tutkimus | J Thromb Haemost | Farmakokineettiset strategiat tekijä VIII -tason tarkkaan hallintaan |
+| [29051804](https://pubmed.ncbi.nlm.nih.gov/29051804/) | 2017 | Katsaus | Ther Adv Hematol | Katsaus porsaan sekvenssin tekijä VIII:aan hankinnaisessa hemofilia A:ssa |
+| [31448877](https://pubmed.ncbi.nlm.nih.gov/31448877/) | 2020 | Aineistoanalyysi | J Thromb Haemost | Ristiinreagoivat inhibiittorit rpFVIII:aa vastaan (GTH-AH 01/2010 -tutkimus) |
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Markkinatiedot Suomessa
 
-**Päätös: Odotus**
+| Myyntilupanumero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/002792 | Obizur | – | Hemofilia A (tila: peruutettu) |
+
+---
+
+## Turvallisuushuomioita
+
+Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla tässä aineistossa. Lääkeyhteisvaikutuksia ei löytynyt.
+
+Turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
+
+---
+
+## Johtopäätös ja jatkotoimet
+
+**Päätös: Proceed with Guardrails (eteneminen suojatoimin)**
 
 **Perustelut:**
-Huolimatta korkeasta TxGNN-ennustepisteistä, tällä kandidaatilla ei ole kliinistä tutkimusta tai kirjallisuuden tukea, ja todistepaketin oma mekanistinen arviointi päättelee, että uskottavaa biologista yhteyttä ei ole FVIII-korvauksen ja trombosyyttien granulaeriytysvajavuuden korjaamisen välillä. Tämä ei täytä vaatimuksia edistää malliin perustuvaa ennustusta (L5) pidemmälle.
+- Hemofilian ja hankinnaisen hyytymistekijävajauksen ennusteet perustuvat pääosin jo hyväksyttyyn käyttöaiheeseen, ja näyttö koostuu vaiheen II/III -tutkimuksesta, tosielämän aineistoista, tapaussarjoista ja katsauksista. Satunnaistettuja vaiheen 2 tai 3 tutkimuksia ei tunnistettu. Muut kärkiennusteet (L5) tulee pitää odotustilassa (Hold).
 
-**Jatkaakseen tarvitaan seuraavaa:**
-- Vahvistettu vaikutusmekanismi (MOA) -tieto susoctocog alfalle (DG002)
-- Fimea/TFDA-pakkausseloste — varoitukset, vasta-aiheet ja lääkevuorovaikutustieto (DG001)
-- Mikä tahansa prekliininen tai translaatiotieteen todiste, joka yhdistää FVIII-aktiivisuuden trombosyyttien granulaeriytyspolkuihin, mikäli tätä indikaatiota aiotaan tutkia edelleen
-- Huomautus: sama todistepaketti osoittaa vahvempia, mekanistisesti johdonmukaisia tukea FVIII-polkuun liittyville indikaatioille (esim. "hemofilia" ja "hankittu koagulaatiotekijän puutos," sijoitus 4–5, jotka viitaavat lääkkeen olemassa olevaan AHA-todistuspohjaan) — nämä voivat edellyttää erillistä arviointia pikemminkin kuin niiden käsittelemistä uusina uudelleenkäyttökandidaatteina, koska ne menevät pitkälti päällekkäin lääkkeen tunnetun käytön kanssa.
-
+**Jatkoon tarvitaan:**
+- Valmisteyhteenvedon turvallisuustiedot (varoitukset ja vasta-aiheet) Fimeasta, mikä on estävä tietoaukko
+- Tarkempi vaikutusmekanismitieto (MOA) esimerkiksi DrugBankista
+- Myyntiluvan peruutuksen syyn ja valmisteen saatavuuden selvitys Suomessa, koska ainoa myyntilupa on peruutettu
+- Synnynnäisen hemofilia A:n ja inhibiittoreiden käyttöaiheen laajennuksen näytön arviointi erikseen
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

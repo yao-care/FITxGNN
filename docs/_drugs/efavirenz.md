@@ -2,15 +2,15 @@
 layout: default
 title: Efavirenz
 parent: Kohtalainen näyttö (L3-L4)
-nav_order: 134
-evidence_level: L3
+nav_order: 153
+evidence_level: L4
 indication_count: 3
 ---
 
 # Efavirenz
 {: .fs-9 }
 
-Näytön taso: **L3** | Ennustetut käyttöaiheet: **3** kpl
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,90 +29,100 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Efavireeni: HIV-1-infektiosta apinan immunodefisienssivirusinfektioon
+# Efavirentsi: HIV-infektiosta apinoiden immuunikatovirusinfektioon (SIV)
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-> Efavireeni on ei-nukleosidineukaisen käänteistranskriptaasin inhibiittori (NNRTI), jonka vakiintunut farmakologinen luokka kohdistuu HIV-1-infektioon ihmisillä. TxGNN-malli ennustaa mahdollisen soveltamisen **apinan immunodefisienssivirusinfektioon (SIV-infektioon)**, mutta tukeva näyttö — 1 kliininen tutkimus (peruutettu, alhainen relevanssi) ja 16 julkaisua — kuvaavat lähinnä efavireenia tutkimusvälineenä teknistetyissä SIV/HIV-1-kimeeriviruksissa (RT-SHIV) sen sijaan, että osoittaisivat luontaista vaikuttavuutta luonnonvaraista SIV:tä vastaan. Nykyinen näyttö on alustava ja vaatii huolellista uudelleentulkintaa ennen etenemistä.
-
----
-
-## Nopea yleiskatsaus
-
-| Kohta | Sisältö |
-|------|--------|
-| Alkuperäinen indikaatio | Ei muodollisesti dokumentoitu (efavireeni ei ole markkinoilla Suomessa; saatavilla ei ole lisenssitekstejä). Sen vakiintunut farmakologinen luokka on NNRTI-antiretrovirushoito HIV-1-infektioon |
-| Ennustettu uusi indikaatio | Apinan immunodefisienssivirusinfektio |
-| TxGNN-ennusteen pistemäärä | 99.80% |
-| Näytön taso | L3 |
-| Suomen markkinatilanne | ✗ Ei markkinoilla |
-| Lupien lukumäärä | 0 |
-| Suositeltu päätös | Pidätä |
+Efavirentsi on HIV-1:n non-nukleosidinen käänteiskopioijaentsyymin estäjä (NNRTI), jota on alun perin käytetty **HIV-infektion** hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **apinoiden immuunikatovirusinfektioon (SIV)**, mutta tuki rajoittuu **eläinmalleihin ja prekliinisiin tutkimuksiin** (14 julkaisua, ei yhtään kliinistä koetta). Ennuste ei kuvaa uutta ihmisen hoitoindikaatiota.
 
 ---
 
-## Miksi tämä ennuste on järkevä?
+## Pikakatsaus
 
-Yksityiskohtaisia mekanismi-toimintotietoja efavireenille ei ole saatavilla tässä näyttöpakkauksessa. Käytettävissä olevien tietojen perusteella (jotka on otettu uudelleenkäyttöperustelusta) tiedetään, että efavireeni toimii NNRTI:nä sitoutuen HIV-1:n käänteistranskriptaasin (RT) entsyymin ei-nukleosiditaskuun viruksen replikaation estämiseksi.
-
-Ennustettu yhteys SIV-infektioon edellyttää kuitenkin huolellista tulkintaa. Luonnonvaraisen SIV:n käänteistranskribtaasi eroaa merkittävästi HIV-1 RT:stä, ja NNRTI:t, kuten efavireeni, eivät yleensä ole tehokkaita **luonnonvaraista SIV:tä vastaan**. Täällä kerätty kliininen ja prekliininen näyttö käsittelee lähes kokonaan "RT-SHIV":tä — laboratorioympäristössä teknistetyä kimeerivirusta, jossa SIV:n oma RT-geeni on korvattu HIV-1:n RT-geenillä, jotta tutkijat voisivat tutkia HIV-1 NNRTI-lääkkeitä (mukaan lukien efavireeni) ja vastustuskykyä nonhuman-primaatti-malleissa. Toisin sanoen tämä näyttö tukee väitettä, että **efavireenia käytetään tutkimusvälineenä teknistetyyn HIV-1-RT-kantavaan virukseen eläimissä**, ei väitettä, että **efavireenilla on luontainen antiviraalinen vaikuttavuus SIV:tä vastaan.** Tämä ero on keskeinen TxGNN-pisteytyksen tulkintaan ja sitä ei pidä sekoittaa oikeaan uuteen indikaatioon.
-
-Kontekstiksi mainitaan, että TxGNN merkitsi myös kaksi muuta alhaisen luottamuksen kandidaattia efavireenille tässä ajossa: kissan hankkiman immuunikatoisen oireyhtymän (FIV; näytön taso L5, perustuu in vitro -rakennevertailututkimukseen, joka viittaa todennäköisesti alhaiseen lajienvälistä affiniteettia) ja äärimmäisen harvinaisen geneettisen neurodegenreatiivisen häiriön (näytön taso L5, ei kliinistä tai kirjallisuusnäyttöä lainkaan). Molemmat luokiteltiin päätökseen "Pidätä", eivätkä ne etene tässä raportissa.
+| Kohde | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | HIV-infektio |
+| Ennustettu uusi käyttöaihe | Apinoiden immuunikatovirusinfektio (simian immunodeficiency virus infection) |
+| TxGNN-ennusteen pistemäärä | 99,80 % |
+| Näytön taso | L4 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 5 (kaikki peruutettuja) |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Kliinisen tutkimuksen näyttö
+## Miksi ennuste on perusteltu?
 
-| Tutkimusnumero | Vaihe | Tila | Rekrytointi | Keskeiset havainnot |
-|---------|------|------|------|---------|
-| [NCT00863668](https://clinicaltrials.gov/study/NCT00863668) | N/A | Peruutettu | 0 | Tutki HIV/SIV-viruksen hajoamisen kinetiikkaa integraasi-inhibiittorin **raltegraviiril**, ei efavireenilla; tutkimus peruutettiin nollalla rekrytoinnilla. Relevanssi arvioitiin "C":ksi (alhainen) — merkitty todennäköiseksi hakemisen kartoitusvirheeksi eikä suoraksi efavireeni-näytöksi |
+Efavirentsi estää HIV-1:n käänteiskopioijaentsyymiä (RT) ja siten viruksen lisääntymistä. Yksityiskohtaista vaikutusmekanismitietoa ei tässä aineistossa ole saatavilla. Tunnetun lääkeluokan perusteella mekanismi liittyy kuitenkin HIV-1:n RT:n estoon.
+
+Ennuste on mekanistisesti hauras. Apinoiden luontainen SIV:n käänteiskopioijaentsyymi on luonnostaan resistentti NNRTI-lääkkeille. Efavirentsi toimii makakimalleissa vain, kun käytetään kimeeristä RT-SHIV-virusta, jossa on HIV-1:n RT. Kyseessä on siis eläinkoemalli, ei ihmisen hoitoindikaatio. Korkea pistemäärä heijastaa pääosin ennusteen samankaltaisuutta HIV-infektioon, joka on jo hyväksytty käyttöaihe.
+
+Samalla pistemäärällä ennustettiin myös **kissan hankinnaista immuunikatooireyhtymää (FIV)**. Tuki on vain in vitro -biokemiallinen ja rakenteellinen tutkimus (PMID 38031646). FIV:n RT on tyypillisesti HIV-1:n RT:tä vähemmän herkkä NNRTI-lääkkeille, eikä kliinistä näyttöä ole. Kolmas ennuste (neurokehityshäiriö, jossa ataksia, puhumattomuus ja aivojen valkean aineen vähyys) perustuu pelkkään laskennalliseen ennusteeseen ilman tutkimuksia tai uskottavaa mekanismia.
+
+---
+
+## Kliininen tutkimusnäyttö
+
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
 ---
 
 ## Kirjallisuusnäyttö
 
+Alla on keskeisimmät julkaisut (kaikki eläin- tai prekliinisiä tutkimuksia; satunnaistettuja kokeita ei ole).
+
 | PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [15328115](https://pubmed.ncbi.nlm.nih.gov/15328115/) | 2004 | Eläintutkimus | Antimicrob Agents Chemother | Efavireeni antiviraalisen vaikutuksen ensimmäinen osoitus RT-SHIV:lla (SIV/HIV-1 RT -kimeera) infektoiduissa rhesus-apinoissa |
-| [15919889](https://pubmed.ncbi.nlm.nih.gov/15919889/) | 2005 | Eläintutkimus | J Virology | HAART-hoitokaavio (efavireeni 200 mg + lamivudiini + tenofovir) vähensi RT-SHIV-virusrasitusta infektoiduissa rhesus-apinoissa |
-| [19889213](https://pubmed.ncbi.nlm.nih.gov/19889213/) | 2009 | Eläintutkimus | Retrovirology | Lyhytkestoista efavireeni-monoterapiaa seurattiin yhdistelmä-ART-hoitoon RT-SHIV-infektoiduissa primaateissa; selvitettiin resistenttien alpopulaatioiden dynamiikkaa |
-| [21084490](https://pubmed.ncbi.nlm.nih.gov/21084490/) | 2011 | Prekliininen/Virologia | J Virology | RT-SHIV:n geneettinen monimuotoisuus säilyy primaateissa antiretroviushoidosta huolimatta, mukaan lukien efavireeni-monoterapian vaiheet |
-| [24777106](https://pubmed.ncbi.nlm.nih.gov/24777106/) | 2014 | Eläintutkimus | Antimicrob Agents Chemother | Parannetut neljä–viisi lääkkeeseen perustuva HAART-hoitokaavio paransi RT-SHIV-viruksen hajoamisen kinetiikkaa rhesus-apinoissa |
-| [20032180](https://pubmed.ncbi.nlm.nih.gov/20032180/) | 2010 | Prekliininen/Virologia | J Virology | Tunnistettiin viraalisia turvasijoja HAART-hoidon aikana RT-SHIV nonhuman-primaaatti-AIDS-mallissa |
-| [20668516](https://pubmed.ncbi.nlm.nih.gov/20668516/) | 2010 | Prekliininen/Virologia | PLoS One | Viruksen hajoamisen kinetiikka määritettiin HAART-hoidetussa RT-SHIV-nonhuman-primaaatti-AIDS-mallissa |
-| [15564466](https://pubmed.ncbi.nlm.nih.gov/15564466/) | 2004 | In vitro | J Virology | SIV-HIV RT-SHIV -kimeeriviruksen in vitro -karakterisointi kehitettiin NNRTI-antiviraalisen vastustuskyvyn tutkimiseen primaateissa |
-| [22933296](https://pubmed.ncbi.nlm.nih.gov/22933296/) | 2012 | Prekliininen/Virologia | J Virology | Ultraherkkä alleelikohtainen PCR havaitsi harvinaisia, ennalta olemassa olevia lääkevastukselle alttiita RT-SHIV-variantteja primaateissa |
-| [35856680](https://pubmed.ncbi.nlm.nih.gov/35856680/) | 2022 | In vitro/Imaging | Antimicrob Agents Chemother | Massan spektrometrian kuvantaminen osoitti kuuden antiretroviraalilääkkeen (mukaan lukien efavireeni-luokan agentteja) jakautumisen suhteessa RT-SHIV-RNA:han ja fibroosin nonhuman-primaattien pernassa |
-
-*Huomio: Kaikissa kymmenenessä julkaisussa käsitellään RT-SHIV:n teknistetyä kimeerivirusmallia, jota käytetään HIV-1-lääkkeiden tutkimukseen nonhuman-primaateissa, ei luonnonvaraista SIV-tautia.*
+| [15328115](https://pubmed.ncbi.nlm.nih.gov/15328115/) | 2004 | Eläinkoe | Antimicrob Agents Chemother | Efavirentsihoito resusmakakeilla, jotka oli infektoitu HIV-1:n RT:tä sisältävällä SIV-kimeerallä (RT-SHIV) |
+| [15919889](https://pubmed.ncbi.nlm.nih.gov/15919889/) | 2005 | Eläinkoe | J Virol | Efavirentsin, lamivudiinin ja tenofoviirin yhdistelmä vähensi viruskuormaa RT-SHIV-makakeilla |
+| [24777106](https://pubmed.ncbi.nlm.nih.gov/24777106/) | 2014 | Eläinkoe | Antimicrob Agents Chemother | Tehostettu 4–5 lääkkeen ART paransi viruksen vähenemiskinetiikkaa makakeilla |
+| [21084490](https://pubmed.ncbi.nlm.nih.gov/21084490/) | 2011 | Eläinkoe | J Virol | SIV/HIV-kimeerin geneettinen monimuotoisuus säilyi makakeilla ART:stä huolimatta; osa eläimistä sai efavirentsin monoterapiaa |
+| [19889213](https://pubmed.ncbi.nlm.nih.gov/19889213/) | 2009 | Eläinkoe | Retrovirology | RT-SHIV-alapopulaatioiden dynamiikka efavirentsimonoterapian ja yhdistelmähoidon aikana |
+| [22933296](https://pubmed.ncbi.nlm.nih.gov/22933296/) | 2012 | Eläinkoe / menetelmä | J Virol | Herkkä PCR paljasti harvinaisia lääkeresistenttejä variantteja ja suuren replikoituvan viruspopulaation makakeilla |
+| [26559632](https://pubmed.ncbi.nlm.nih.gov/26559632/) | 2015 | Eläinkoe | Retrovirology | Plasman ja kudosten virupopulaatiot olivat samankaltaisia, mikä viittaa vähäiseen viruksen replikaatioon kudoksissa ART:n aikana |
+| [24505452](https://pubmed.ncbi.nlm.nih.gov/24505452/) | 2014 | Eläinkoe | PLoS One | Jäännösviremia RT-SHIV-makakien HAART-mallissa; vallitseva plasmaklooni, ei viruksen evoluutiota |
+| [35856680](https://pubmed.ncbi.nlm.nih.gov/35856680/) | 2022 | Prekliininen kuvantaminen | Antimicrob Agents Chemother | Antiretroviraalisten lääkkeiden, viruksen RNA:n ja fibroosin tilasuhteet ei-ihmisapinoiden pernassa |
+| [15564466](https://pubmed.ncbi.nlm.nih.gov/15564466/) | 2004 | In vitro | J Virol | SIV-HIV-kimeerin karakterisointi NNRTI-resistenssin tutkimiseksi pigtail-makakeilla |
 
 ---
 
-## Suomen markkinatilanne
+## Markkinatiedot Suomessa
 
-Efavireeni ei ole tällä hetkellä **markkinoilla Suomessa** — markkinointilupia ei ole kirjattuina (`total_licenses: 0`), joten tuotteen/luvan taulukkoa ei voi luoda.
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000250 | Stocrin | – | HIV-infektio |
+| EMEA/H/C/002352 | Efavirenz Teva | – | HIV-infektio |
+| EMEA/H/C/004250 | Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva | – | HIV-infektio |
+| EMEA/H/C/004274 | Efavirenz/Emtricitabine/Tenofovir disoproxil Krka | – | HIV-infektio |
+| EMEA/H/C/004240 | Efavirenz/Emtricitabine/Tenofovir disoproxil Mylan | – | HIV-infektio |
+
+Kaikki viisi myyntilupaa on peruutettu.
 
 ---
 
-## Turvallisuusnäkökohdat
+## Turvallisuushuomiot
 
-Pyydämme tutustumaan pakkausselosteeseen turvallisuustiedoista.
+- **Tietokannan (TxGNN-tietograafi) mukaiset vasta-aiheisiin liittyvät sairaudet** (eivät perustu valmisteyhteenvetoon): maksan vajaatoiminta ja maksasairaus, epilepsia, ahdistuneisuushäiriö, dystymia, munuaissairaus, krooninen hepatiitti B- ja C-infektio, hypertriglyseridemia, lihavuus, rasvamaksa ja ei-alkoholiperäinen steatohepatiitti, maitohappoasidoosi, Fanconin oireyhtymä, harhaluuloisuushäiriö ja paranoidinen skitsofrenia sekä hypofosfatemia, osteomalasia ja riisitauti.
+- **Lääkeyhteisvaikutukset**: tietoja löytyi 100 yhteisvaikutuksesta. Vakavaksi (Major) luokiteltu on dolasetroni. Merkittäviä (Moderate) ovat mm. bupropioni, klaritromysiini, aprepitantti, deksametasoni, hydrokortisoni, betametasoni, triamsinoloni, pioglitatsoni, famotidiini, rabepratsoli, loperamidi, saksagliptiini, dronabinoli ja minosykliini.
+- Efavirentsin tiedetään aiheuttavan keskushermostohaittoja, mikä on erityinen huomionarvo ennusteessa neurokehityshäiriöstä.
+
+Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat, joten niiden tarkistus on tehtävä valmisteyhteenvedosta.
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Johtopäätös ja jatkotoimet
 
-**Päätös: Pidätä**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Ainoa tunnistettu kliininen tutkimus on asiaan liittymätön (väärä lääke, peruutettu, nolla rekrytointia), ja kirjallisuuspohja — vaikka laaja (yli 10 julkaisua) — käsittelee lähinnä efavireenia tutkimusreagenssinä teknistetyissä RT-SHIV-viruksissa eikä osoita vaikuttavuutta luonnonvaraista SIV:tä vastaan. Yhdessä **Blocking**-vakavuuden tietoaukolla TFDA:n pakkausselostetta ja turvallisuustietoja koskien (DG001), hakija ei voi edistyä S1-turvallisuuden esiarvioinnin vaiheeseen.
+- Ennustettu SIV-infektio on eläintutkimusmalli, ei ihmisen hoitoindikaatio, ja näyttö on pelkästään prekliinistä (L4) ilman kliinisiä kokeita. Efavirentsin teho riippuu HIV-1-RT-kimeerasta, ja korkea pistemäärä heijastaa pääosin jo hyväksyttyä HIV-käyttöaihetta. Lisäksi kaikki Suomen myyntiluvat on peruutettu.
 
-**Jatkaakseen tarvitaan seuraavaa:**
-- TFDA:n/sääntelyelinten pakkausseloste (varoitukset, vasta-aiheet) — tällä hetkellä este (DG001)
-- Vahvistettu mekanismi-toimintotieto DrugBankin kautta (DG002)
-- Selkeys siitä, edustaako "SIV-infektio" oikeaa käännettävää indikaatiota vai pelkästään RT-SHIV-tutkimustyökalujen päällekkäisyyttä efavireeni-indikatsionin kanssa
-- Jos eläinlääkäritieteellinen soveltaminen (FIV) on kiinnostava, erityisiä lajinkohtaisia farmakokineettisiä tietoja ja RT-sitoutumisen affiniteettianalyysia, koska nykyinen L5-näyttötaso ja alhainen ennustettu lajienvälistä vaikuttavuus
-
+**Jatkoon tarvitaan:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden haku Fimean sivuilta (estävä tietoaukko turvallisuusseulonnalle).
+- Vaikutusmekanismitietojen täydentäminen DrugBankista.
+- Arvio siitä, onko ennusteella lainkaan merkitystä ihmisen lääkekehitykselle, sillä SIV- ja FIV-indikaatiot ovat eläinlääketieteellisiä.
+- Mahdollisten ihmisen käyttöaiheiden osalta uusi ennustehaku ja näytön arviointi.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

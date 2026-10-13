@@ -2,7 +2,7 @@
 layout: default
 title: Lefamulin Acetate
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 221
+nav_order: 256
 evidence_level: L5
 indication_count: 0
 ---

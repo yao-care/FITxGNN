@@ -2,7 +2,7 @@
 layout: default
 title: Simoctocog Alfa
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 344
+nav_order: 403
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,77 +29,101 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Simoctocog alfa: hemofiliasta A pseudo-von Willebrandin tautiin
+# Simoktokogi alfa: Hemofilia A:sta pseudo-von Willebrandin tautiin
 
-## Yksirivinen yhteenveto
+## Yhden lauseen yhteenveto
 
-> Simoctocog alfa on rekombinanttihumaani tekijä VIII (B-domääni-poistettu rFVIII), jota käytetään korvaushoitona hemofiliassa A.
-> TxGNN-mallin huippu-ennustus on **pseudo-von Willebrandin tauti**, mutta sitä tuetaan tällä hetkellä **0 kliinisellä tutkimuksella** ja **0 julkaisulla** — se on vain laskennallinen hypoteesi, ei todiste-pohjainen signaali.
-
----
-
-## Pika-yleiskatsaus
-
-| Kohde | Sisältö |
-|-------|---------|
-| Alkuperäinen indikaatio | Hemofilia A (FVIII-korvaushoito) — päätelty sisäisistä perustelumerkinnöistä; virallista hyväksyttyä indikaatiotekstiä ei ole vielä haettu |
-| Ennustettu uusi indikaatio | Pseudo-von Willebrandin tauti |
-| TxGNN-ennustepistemäärä | 99.997% |
-| Näyttötaso | L5 (vain mallin ennustus) |
-| Markkinatilanne Suomessa | ✗ Ei markkinoilla |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Pidätä |
+Simoktokogi alfa on rekombinantti ihmisen hyytymistekijä VIII -valmiste, jota käytetään alun perin hemofilia A:n hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **pseudo-von Willebrandin tautiin**,
+mutta tätä suuntaa tukevia **kliinisiä tutkimuksia ei ole lainkaan** eikä **julkaisuja ole lainkaan**. Ennuste perustuu pelkästään mallin laskennalliseen päättelyyn.
 
 ---
 
-## Miksi tämä ennustus on järkevä?
+## Pikayhteenveto
 
-Yksityiskohtaisia vaikutusmekanismin tietoja ei ole tällä hetkellä saatavilla simoctocog alfalle (merkitty korkean vakavuuden tietovajeeksi). Tämän näyttöpaketin saatavilla olevien tietojen perusteella simoctocog alfa on B-domääni-poistettu rekombinanttihumaani tekijä VIII, jonka ainoa vahvistettu farmakologinen vaikutus on endogeenisen FVIII-aktiivisuuden korvaaminen tai täydentäminen hyytymiskaskadissa.
-
-Pseudo-von Willebrandin tauti (verihiutaletyypin vWD) johtuu verihiutaleiden reseptorin GPIbα:n funktionaalisesti vahvistavasta mutaatiosta, joka lisää sen affiniteettia von Willebrandin tekijää (VWF) kohtaan — patologia sijaitsee verihiutaleiden reseptorin tasolla, ei itse tekijä VIII:ssa. Koska plasman FVIII kiertää VWF:ään sitoutuneena ja riippuu siitä vakaudestaan, näiden kahden proteiinin välillä on epäsuora biokemiallinen yhteys. Eksogeeninisen FVIII:n lisääminen ei kuitenkaan korjaa GPIbα-vian aiheuttamaa häiriötä ja voisi teoriassa parantaa verihiutaleiden poistumaa lisäämällä VWF-verihiutaleiden sitomista.
-
-Kaiken kaikkiaan mekanistinen yhteys tälle huipulla olevaksi arvioidulle ennusteelle on heikko, ja mallin pistemäärä heijastaa todennäköisesti semanttista ryhmittelyä "hyytymishäiriöiden" ympärillä tietoverkossa pikemminkin kuin vahvistettua syy-seuraussuhdetta. Tarkistettujen 10 ennustetusta indikaatiosta listalla #9 ("Hemofilia A vaskulaarisen poikkeavuuden kanssa") on mekanistisesti eniten yhdenmukainen FVIII:n tunnetun farmakologian kanssa, kun taas listalla #4 ("Scottin syndrooma") on uskottava epäsuora yhteys fosfatidyyliserviinitunnuksen ja tenaasin kompleksin muodostumisen kautta — molemmat mainitaan tässä kontekstille, vaikka mallin ensisijainen tulos edellä heijastaa määriteltyä listaa #1.
-
----
-
-## Kliiniset tutkimusnäytteet
-
-Tällä hetkellä ei ole rekisteröitynä liittyviä kliinisiä tutkimuksia.
+| Kohta | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | Hemofilia A |
+| Ennustettu uusi käyttöaihe | Pseudo-von Willebrandin tauti |
+| TxGNN-ennusteen pistemäärä | 99,997 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 2 (kaikki peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Kirjallisuusnäytteet
+## Miksi ennuste on (tai ei ole) perusteltu?
 
-Tällä hetkellä ei ole saatavilla liittyviä kirjallisuustietoja.
+Simoktokogi alfa on rekombinantti ihmisen hyytymistekijä VIII (FVIII), jonka B-domeeni on poistettu ja joka tuotetaan ihmisen solulinjassa. Tarkempia mekanismitietoja (vaikutusmekanismia) ei ole tämän raportin aineistossa saatavilla. Tunnetun perusteella valmiste korvaa puuttuvaa FVIII:a hemofilia A:ssa.
+
+Pseudo-von Willebrandin tauti (verihiutaletyyppinen VWD) johtuu verihiutaleiden GPIb-alfa-reseptorin toiminnan lisääntymisestä, mikä voimistaa von Willebrand -tekijän (VWF) sitoutumista. FVIII kiertää verenkierrossa VWF:oon sitoutuneena, joten VWF:n ja FVIII:n stabiilisuuden kautta on teoreettinen yhteys. Perusvika on kuitenkin verihiutalelähtöinen, eikä FVIII-korvaushoito ole vakiintunut hoito tähän tautiin.
+
+Korkea pistemäärä on verkostopohjainen ennuste, jota ei tue yksikään tutkimus tai julkaisu. Ennustetta tulee siksi pitää hypoteesina, ei hoitosuosituksena.
+
+### Muut ennustetut käyttöaiheet
+
+Aineistossa on yhteensä 10 ennustettua käyttöaihetta. Kaikilla näytön taso on L5 ja suositus Hold.
+
+| Sija | Ennustettu käyttöaihe | Pistemäärä | Lyhyt arvio |
+|------|------|------|------|
+| 1 | Pseudo-von Willebrandin tauti | 99,997 % | Teoreettinen yhteys VWF:n kautta, perusvika verihiutalelähtöinen |
+| 2 | Verihiutaleiden primaarinen vapautumishäiriö | 99,997 % | Verihiutaleiden granulaatioeritys; FVIII ei korjaa |
+| 3 | Glanzmannin trombasteenia | 99,995 % | Aggregaatiovika; FVIII ei korjaa, heikko peruste |
+| 4 | Scottin oireyhtymä | 99,969 % | Löyhä reittiyhteys, FVIII ei korjaa puuttuvaa kalvopintaa |
+| 5 | Hankinnainen hyytymistekijän puutos | 99,952 % | Mekanistisesti uskottavin, mutta alatyyppi on määriteltävä (esim. hankinnainen hemofilia A:n estovasta-aineet) |
+| 6 | Kollageenireseptorivirheestä johtuva verenvuotoalttius | 99,921 % | FVIII ei kohdista vikaan |
+| 7 | Synnynnäisestä trombosytopeniasta johtuva verenvuotohäiriö | 99,917 % | FVIII ei korjaa verihiutaleiden vähyyttä |
+| 8 | Sikiön ja vastasyntyneen alloimmuunitrombosytopenia | 99,845 % | Todennäköisesti verkoston artefakti |
+| 9 | Hemofilia A ja verisuoniston poikkeavuus | 99,779 % | Alkuperäisen käyttöaiheen alatyyppi, ei varsinaista uudelleenkäyttöä |
+| 10 | Tromboottinen trombosytopeeninen purppura (TTP) | 99,724 % | Mahdollinen turvallisuusriski, ei uudelleenkäyttömahdollisuus |
+
+---
+
+## Kliininen näyttö
+
+Tällä hetkellä aiheeseen liittyviä kliinisiä tutkimuksia ei ole rekisteröity.
+
+---
+
+## Kirjallisuusnäyttö
+
+Tällä hetkellä aiheeseen liittyvää kirjallisuutta ei ole saatavilla.
 
 ---
 
 ## Suomen markkinatiedot
 
-Simoctocog alfa ei ole tällä hetkellä markkinoilla Suomessa (0 hyväksyntää kirjattu); lisenssimerkintöjä ei ole saatavilla taulukointia varten.
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004459 | Vihuma | – | Hemofilia A (peruutettu) |
+| EMEA/H/C/002813 | Nuwiq | – | Hemofilia A (peruutettu) |
+
+Molemmat myyntiluvat ovat peruutettuja, joten valmiste ei ole tällä hetkellä markkinoilla Suomessa. Myyntiluvan haltija on Octapharma AB.
 
 ---
 
-## Turvallisuushuomiot
+## Turvallisuusnäkökohdat
 
-Turvallisustiedoista katso pakkausseloste.
+Tarkempia turvallisuustietoja (varoitukset, vasta-aiheet, yhteisvaikutukset) ei ollut saatavilla. Katso turvallisuustiedot valmisteyhteenvedosta.
 
-*(Tärkeimmät varoitukset, vasta-aiheet ja lääkkeiden vuorovaikutustiedot eivät ole vielä saatavilla tässä näyttöpaketissa — TFDA/Fimean pakkausselosteen haku on estävä tietovaje.)*
+Yksittäisen ennustetun käyttöaiheen osalta on huomattava, että TTP:ssä FVIII/VWF-kuormituksen lisääminen voisi teoriassa pahentaa tautia, sillä taudin perusvika on ADAMTS13:n puutos ja siitä seuraava mikroverisuonitukkeutuminen.
 
 ---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Pidätä**
+**Päätös: Hold (odota)**
 
-**Perustelu:**
-Tämä kandidaatti tuetaan vain TxGNN-verkkopisteillä (L5) — ei kliinisiä tutkimuksia, ei kirjallisuutta ja mekanistisesti heikko perustelu (kohde-patologia sijaitsee verihiutaleiden reseptorin biologiassa, ei hyytymistekijän kaskadissa, jota FVIII toimii). Tämän lääkkeen kaikista 10 ennustetusta indikaatiosta yksikään ei ole tuettu kliinisillä tai kirjallisuusnäytteillä, ja useat (esim. trombotinen trombosytopenia) ovat mekanistisesti ristiriitaisia FVIII-korvaushoidon kanssa.
+**Perustelut:**
+- Ennuste perustuu pelkästään verkostopohjaiseen laskentaan (L5): kliinisiä tutkimuksia tai julkaisuja ei ole, ja useimmissa ennustetuissa käyttöaiheissa perusvika on verihiutalelähtöinen, jota FVIII ei korjaa. Lisäksi valmisteen myyntiluvat Suomessa on peruutettu.
 
-**Jatkamiseksi tarvitaan seuraavaa:**
-- TFDA/Fimean pakkausseloste varoitukset ja vasta-aiheet (estävä vaje, DG001)
-- Vahvistettu vaikutusmekanismin yksityiskohtia DrugBankista (korkean prioriteetin vaje, DG002)
-- Jos jatketaan edelleen, priorisoi mekanistisesti vahvemmat kandidaatit (esim. Scottin syndrooma tai FVIII:n mukainen "Hemofilia A vaskulaarisen poikkeavuuden kanssa") kohdistetuille kirjallisuus- ja tutkimushauille ennen mitään translaatiositoumusta
-
+**Jatkotoimiin ryhtyminen edellyttää seuraavaa:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittäminen (estävä tietoaukko)
+- Vaikutusmekanismin tiedot DrugBankista
+- Kirjallisuushaku ja prekliiniset tutkimukset, erityisesti VWF–FVIII-vuorovaikutuksesta pseudo-von Willebrandin taudissa
+- Hankinnaisen hyytymistekijäpuutoksen osalta alatyypin täsmentäminen (esim. hankinnainen hemofilia A vs. monitekijäpuutokset)
+- Myyntiluvan peruutuksen syiden ja valmisteen saatavuuden selvittäminen Suomessa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

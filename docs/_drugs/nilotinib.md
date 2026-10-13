@@ -2,7 +2,7 @@
 layout: default
 title: Nilotinib
 parent: Kohtalainen näyttö (L3-L4)
-nav_order: 262
+nav_order: 303
 evidence_level: L4
 indication_count: 1
 ---
@@ -29,92 +29,97 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Nilotinib: dokumentoimattomasta alkuperäisestä indikaatiosta dermatofibrosarcoma protuberansiaan
+# Nilotinibi: Kroonisesta myelooisesta leukemiasta dermatofibrosarcoma protuberansiin
 
 ## Yhden lauseen yhteenveto
 
-Todistusaineisto ei sisällä dokumentoitua alkuperäistä indikaatiota tai hyväksyttyä lisenssiä nilotinibille tällä markkinalla — vaikutusmekanismin tiedot vahvistavat, että se on toisen sukupolven tyrosiinikinaasin estäjä (TKI), joka kohdituu BCR-ABL:lle ja PDGFR:lle. TxGNN-malli ennustaa, että se voi olla tehokas **dermatofibrosarcoma protuberansia (DFSP)** vastaan, mutta tämä suunta on tällä hetkellä tuettu **0 kliinisellä tutkimuksella** ja vain **1 julkaisulla** (yleinen PDGFR-estäjien katsaus, ei nilotinibille/DFSP:lle spesifi).
+Nilotinibi on tyrosiinikinaasin estäjä, jota on alun perin käytetty BCR-ABL-positiivisen kroonisen myelooisen leukemian hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **dermatofibrosarcoma protuberans -kasvaimeen (DFSP)**.
+Tukena on tällä hetkellä **0 kliinistä tutkimusta** ja **1 julkaisu** (katsaus), joten näyttö on toistaiseksi vähäistä.
 
 ---
 
-## Pika-yleiskatsaus
+## Pikakatsaus
 
-| Kohta | Sisältö |
+| Kohde | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Ei saatavilla todistusaineistosta (lisenssiä/hyväksyttyä indikaatiota ei ole) |
-| Ennustettu uusi indikaatio | Dermatofibrosarcoma protuberans (DFSP) |
-| TxGNN-ennusteen pistemäärä | 99.31% |
-| Todistusaste | L4 |
-| Suomen markkina-asema | Ei markkinoitu |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Odota |
+| Alkuperäinen käyttöaihe | BCR-ABL-positiivinen krooninen myelooinen leukemia |
+| Ennustettu uusi käyttöaihe | Dermatofibrosarcoma protuberans |
+| TxGNN-ennustepistemäärä | 99,31 % |
+| Näytön taso | L4 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 2 (kumpikin peruutettu) |
+| Suositeltu päätös | Hold (odotetaan) |
 
 ---
 
-## Miksi tämä ennuste on järkevä?
+## Miksi ennuste on perusteltu?
 
-Yksityiskohtaiset alkuperäisen indikaation ja muodollisen vaikutusmekanismin kentät on merkitty tietovajeiksi tässä todistusaineistossa. Kuitenkin DFSP-ennusteeseen liitetty uudelleenkäyttöselvitys osoittaa, että nilotinib on toisen sukupolven tyrosiinikinaasin estäjä, joka BCR-ABL:n lisäksi estää myös PDGFR:ää — samaa kohdemolekyyliä, joka on osallisena DFSP:n patogeneesissä.
+Tälle raporttia varten kootussa aineistossa ei ole saatavilla yksityiskohtaista vaikutusmekanismitietoa. Alla oleva mekanistinen perustelu perustuu yleiseen tietoon nilotinibin kinaasiprofiilista, ei toimitettuun aineistoon.
 
-DFSP:tä karakterisoi useimmissa tapauksissa COL1A1-PDGFB-fuusiogene, joka ajaa pysyvää PDGFRB-aktivaatiota ja kasvainten lisääntymistä. Koska nilotinib estää PDGFR:ää, on olemassa uskottava vaikutusmekanismin peruste DFSP:n aktiivisuudelle. Tätä vahvistaa luokkatasoinen edeltävä esimerkki: imatinib, siihen liittyvä TKI PDGFR-estävällä aktiivisuudella, on jo vakiintuneet kliiniset näyttöt (mukaan lukien hyväksytyt indikaatiot joillakin alueilla) DFSP:lle.
+DFSP:lle on tyypillistä COL1A1-PDGFB-fuusio, joka johtaa PDGFRB-reseptorin jatkuvaan autokriiniseen aktivaatioon. Nilotinibi estää BCR-ABL:n lisäksi PDGFR:ää (alfa ja beeta), KIT:iä sekä DDR1/2:ta, joten kohdetasolla ennuste on uskottava.
 
-Siitä huolimatta tämä on tällä hetkellä **luokkatasoinen analogia eikä nilotinibille spesifinen näyttö** — ainoa tukeva julkaisu on yleinen PDGFR-estäjien farmakologian katsaus, ei nilotinibille/DFSP:lle spesifi kliininen tai tapaustutkimus. Nilotinibille ominaisesta soveltuvuudesta DFSP:lle ei ole vielä itsenäisesti osoitettu.
-
----
-
-## Kliinisten tutkimusten näyttö
-
-Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia
+Sama signalointireitti on imatinibin vakiintuneen tehon perusta DFSP:ssä. Nilotinibi voisi siksi olla mekanistisesti läheinen vaihtoehto esimerkiksi imatinibiresistenssin tai -intoleranssin yhteydessä. Korkea TxGNN-pistemäärä (0,993) sopii tähän PDGFR-pohjaiseen yhteyteen, mutta se on laskennallinen ennuste eikä kliininen todiste.
 
 ---
 
-## Kirjallisuuden näyttö
+## Kliininen näyttö
 
-| PMID | Vuosi | Tyyppi | Lehti | Keskeisiä löydöksiä |
-|------|------|------|------|---------|
-| [29408302](https://pubmed.ncbi.nlm.nih.gov/29408302/) | 2018 | Katsaus | Pharmacological research | Käsittelee pienimolekyylisten PDGFR-estäjien (mukaan lukien nilotinib) käyttöä PDGF/PDGFR-signaloinnin aiheuttamien kasvainten hoitamisessa; ei ole spesifi nilotinibille tai DFSP:n kliinisille tuloksille |
+Tällä hetkellä ei ole aiheeseen liittyviä rekisteröityjä kliinisiä tutkimuksia.
 
 ---
 
-## Suomen markkina-tiedot
+## Kirjallisuusnäyttö
 
-Nilotinibille ei ole markkinointilupia tietueissa tällä markkinalla (markkina-asema: Ei markkinoitu, 0 lisenssiä).
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [29408302](https://pubmed.ncbi.nlm.nih.gov/29408302/) | 2018 | Katsaus | Pharmacological Research | Katsaus pienmolekyylisten PDGFR-estäjien roolista kasvainsairauksien hoidossa; PDGF-perhe ja sen signalointi kasvaimissa |
 
 ---
 
-## Sytostaattinen vaikutus
+## Myyntiluvat Suomessa
 
-Nilotinib on antineoplastinen aine (tyrosiinikinaasin estäjä, joka kohdituu BCR-ABL:lle/PDGFR:lle).
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000798 | Tasigna (peruutettu) | – | BCR-ABL-positiivinen krooninen myelooinen leukemia |
+| EMEA/H/C/006315 | Nilotinib Accord (peruutettu) | – | BCR-ABL-positiivinen krooninen myelooinen leukemia |
 
-| Kohta | Sisältö |
+---
+
+## Sytotoksisuus
+
+| Kohde | Sisältö |
 |------|------|
-| Sytostaattisen vaikutuksen luokittelu | Kohdennettu hoito (tyrosiinikinaasin estäjä) |
-| Luuydintyksentämisen riski | Katso pakkauksessa olevan selosteen varoitukset ja varotoimet |
-| Emetogeenisuuden luokittelu | Katso pakkauksessa olevan selosteen varoitukset ja varotoimet |
-| Seurantakohteet | Katso pakkauksessa olevan selosteen varoitukset ja varotoimet |
-| Käsittelysuojaus | Katso pakkauksessa olevan selosteen varoitukset ja varotoimet |
+| Sytotoksisuusluokitus | Kohdennettu hoito (tyrosiinikinaasin estäjä) |
+| Myelosuppression riski | Keskisuuri (KG-aineistossa neutropenia, trombosytopenia ja anemia mainitaan vasta-aihe-/varoitusyhteyksissä) |
+| Oksettavuusluokitus | Matala |
+| Seurantakohteet | Verenkuva, maksa-arvot ja bilirubiini, haiman entsyymit, elektrolyytit (kalium, kalsium, fosfori), verensokeri, EKG (QT-aika) |
+| Käsittelysuojaus | Tarkempi ohjeistus: katso valmisteyhteenvedon varoitukset ja varotoimet |
 
 ---
 
 ## Turvallisuushuomiot
 
-Katso turvallisuustiedoista pakkauksessa olevasta selosteesta.
+- **Tiedossa olevat sairausriskit (tietämyskaaviosta, ei valmisteyhteenvedosta):** Mallin tietämyskaavio liittää nilotinibin vasta-aihe- tai varovaisuusyhteyksiin seuraavissa tiloissa: pitkä QT-oireyhtymä ja familiaalinen pitkä QT-oireyhtymä, torsades de pointes, hypertensio, maksasairaus, sappirakon sairaus, haimatulehdus, trombosytopenia, neutropenia, agranulosytoosi, anemia, hyperglykemia, diabetes ja diabeettinen ketoasidoosi, kaliumin puutos, hyperkalsemia, nefrokalsinoosi, fosforiaineenvaihdunnan häiriöt, hypofosfatemia, hyperbilirubinemia ja Gilbertin oireyhtymä. Nämä perustuvat tietämyskaavioon, eivät virallisiin valmistetietoihin.
+- **Lääkeinteraktiot:** Tarkastettu 100 yhteisvaikutusta. Merkittäviä (Major) ovat mm. deksametasoni, klaritromysiini, pikosulfaatti ja polyetyleeniglykoli (elektrolyyttien kanssa). Kohtalaisia (Moderate) ovat mm. protonipumpun estäjät (omepratsoli, rabepratsoli), H2-salpaajat (famotidiini, ranitidiini, simetidiini), hydrokortisoni, budesonidi, betametasoni, triamsinoloni, pioglitatsoni, loperamidi, bupropioni, aprepitantti, bisakodyyli ja saksagliptiini.
+
+Varoitusten ja vasta-aiheiden osalta katso valmisteyhteenveto.
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Johtopäätös ja jatkotoimet
 
-**Päätös: Odota**
+**Päätös: Hold (odotetaan)**
 
 **Perustelut:**
-Näyttö rajoittuu tällä hetkellä mekanistiseen luokkatasoisen analogiaan (L4, päätösvaihe S1 "Tutkimuskysymys") ilman nilotinibille spesifisiä kliinisiä tutkimuksia tai DFSP:n kirjallisuutta, ja pakkauksessa olevan selosteen turvallisuustietojen estävä tietovahe (DG001) estää jopa alustavan turvallisuusarvion (S1).
+- Ennuste perustuu uskottavaan PDGFR-mekanismiin ja korkeaan TxGNN-pisteeseen, mutta kliinisiä tutkimuksia ei ole ja kirjallisuusnäyttö rajoittuu yhteen yleiseen katsaukseen. Näytön taso on L4. Lisäksi lääkkeellä ei ole voimassa olevaa myyntilupaa Suomessa, ja valmisteyhteenvedon turvallisuustiedot puuttuvat.
 
-**Jotta voidaan edetä, seuraavat tiedot ovat tarpeen:**
-- TFDA/paikallisen pakkauksen selosteen varoitukset ja vasta-aiheet (DG001, Estävä)
-- Vahvistettu vaikutusmekanismin dokumentaatio DrugBankista (DG002)
-- Nilotinibille spesifinen kliininen tai tapaustutkimuksen tasoinen näyttö DFSP:lle (nykyinen kirjallisuus on vain luokkatasoista)
-- Lääke-lääke vuorovaikutusten tiedot (tällä hetkellä ei löytynyt)
-- Alkuperäinen hyväksytty indikaatio ja markkinointihistoria perusvertailua varten
-
+**Eteenpäin siirtyminen edellyttää:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimeasta (estää turvallisuusseulonnan etenemisen)
+- Vaikutusmekanismitietojen täydentäminen DrugBankista
+- DFSP-spesifisen kliinisen ja prekliinisen näytön kartoitus, erityisesti imatinibille resistentit tai sitä sietämättömät potilaat
+- Selvitys nilotinibin saatavuudesta ja myyntiluvan tilasta Suomessa
+- QT-ajan, maksa- ja haimariskien sekä yhteisvaikutusten seurantasuunnitelma
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -2,7 +2,7 @@
 layout: default
 title: Tocofersolan
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 380
+nav_order: 443
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,77 +29,82 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Tokofersolani: Vitemiinitehostosta Amenorreaaan
+# Tokofersolaani: Kolestaasista ja E-vitamiinin puutoksesta amenorreaan
 
-## Yksisäännöllinen yhteenveto
+## Yhden lauseen tiivistelmä
 
-Tokofersolani on vesiliukoinen E-vitamiinin johdannainen (TPGS), jota tiedetään käytettävän rasvaksi absorptioitu liittyvää E-vitamiinin puutosta varten (näyttöpaketti ei sisällä vahvistettuja alkuperäisen indikaation tietoja). TxGNN-malli ennustaa, että se saattaa olla tehokas **Amenorreassa**, mutta tämä ennuste on tällä hetkellä tuettu **ilman kliinisiä tutkimuksia** ja **ilman julkaisuja** — pelkkä pisteet eivät ole riittävä näyttö toimenpiteille.
-
----
-
-## Nopea yleiskatsaus
-
-| Kohta | Sisältö |
-|-------|---------|
-| Alkuperäinen indikaatio | Ei kirjattu näyttöpakettiin; yleisesti tunnettu käyttötarkoitus on E-vitamiinin puutos rasvanksi absorptioitujen häiriöiden/kroonisen kolestasin yhteydessä (vahvistamaton lähdeaineistoihin nähden) |
-| Ennustettu uusi indikaatio | Amenorrea |
-| TxGNN-ennustepisteet | 99.31% |
-| Näyttöjen taso | L5 |
-| Markkinointi Suomessa | ✗ Ei markkinoilla |
-| Myyntiluvan lukumäärä | 0 |
-| Suositeltu päätös | Pidä väliaikaisesti |
+Tokofersolaani on vesiliukoinen E-vitamiinin johdannainen, jota on käytetty kolestaasiin liittyvän E-vitamiinin puutoksen hoitoon.
+TxGNN-malli ennustaa sen voivan olla hyödyllinen **amenorreassa**, mutta ennusteen tueksi ei tässä raportissa käytetyssä aineistossa ole **yhtään kliinistä tutkimusta eikä julkaisua**.
 
 ---
 
-## Miksi tämä ennuste on järkevä?
+## Pikayhteenveto
 
-Tällä hetkellä yksityiskohtaisia toimintamekanismin tietoja ei ole saatavilla (merkitty korkeaksi vakavuusasteisen tietokuilun). Tunnettujen tietojen perusteella tokofersolani on vesiliukoinen tokoferoli (E-vitamiini) esteri, jota käytetään E-vitamiinin puutoksen korjaamiseen, eikä vahvistettua alkuperäisen indikaation tekstiä ole tässä näyttöpaketissa.
+| Kohde | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | Kolestaasi; E-vitamiinin puutos |
+| Ennustettu uusi käyttöaihe | Amenorrea |
+| TxGNN-ennustepisteet | 99,31 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-Ei ole osoitettua fysiologista polkua, joka yhdistäisi E-vitamiinin täydennyksen hypotalamuksen-aivolisäkkeen-munasarjojen akselin modulointiin tai kuukautisjaksotuksen säätöön. TxGNN-mallin yhteys tokoferolani ja amenorrea perustuu yksinomaan graafipohjaiseen ennustepisteisiin (0.993), ilman mekanistista, kliinistä tai kirjallisuusperustaa.
-
-Toinen ehdokas tässä näyttöpaketissa, **akne** (pisteet 99.03%, sijoitus 9278), noudattaa samaa kaavaa — uskottava näköinen antoksidantin/sebin modulaation hypoteesi, mutta ilman yhtäkään tukevaa tutkimusta tai julkaisua. Molempia ennusteita tulisi käsitellä vain hypoteesigeneraattorisignaaaleina, ei tehon näyttöinä.
-
----
-
-## Kliinisten tutkimusten näyttö
-
-Tällä hetkellä ei ole liittyviä kliinisiä tutkimuksia rekisteröity
-
----
-
-## Kirjallisuuden näyttö
-
-Tällä hetkellä ei ole saatavilla liittyvää kirjallisuutta
+Toinen ennustettu käyttöaihe on **akne** (pisteet 99,03 %, näytön taso L5, suositus Hold). Sekin perustuu pelkästään mallin ennusteeseen.
 
 ---
 
-## Markkinointi Suomessa
+## Miksi ennuste voisi olla perusteltu?
 
-Tokofersolani ei ole tällä hetkellä markkinoilla Suomessa (markkinointitila: Ei markkinoilla, 0 myyntilupaa tietueissa). Tuotetason tietoa ei ole saatavilla.
+Lääkkeen vaikutusmekanismia koskevia yksityiskohtaisia tietoja ei ole tällä hetkellä saatavilla. Tokofersolaani on vesiliukoinen E-vitamiinin muoto (TPGS), jonka teho E-vitamiinin puutoksessa kolestaasipotilailla on osoitettu ja jonka vaikutus voi mekanistisesti liittyä ravitsemuksellisen puutoksen korjaamiseen sekä antioksidatiiviseen toimintaan.
 
----
+Amenorrean osalta yhteys on spekulatiivinen: antioksidanttivaikutus tai ravitsemuspuutoksen korjaaminen voisi vaikuttaa lisääntymishormonien toimintaan. Aineisto ei kuitenkaan tue tätä oletusta. Pisteet kuvastavat vain tietämysgraafiin perustuvaa ennustetta.
 
-## Turvallisuus näkökulmat
-
-Turvallisuustiedot saavat viitata pakkausselosteeseen.
-
-*(Huomautus: TFDA:n pakkausseloste varoitukset/vasta-aiheet on merkitty pysäyttäväksi tietokuiluksi — tämä on ratkaistava ennen kuin millään S1 turvallisuuskatsauksella voidaan edetä.)*
+Aknen osalta E-vitamiinin antioksidatiiviset ja tulehdusta vaimentavat ominaisuudet voisivat teoriassa liittyä tautimekanismiin, sillä oksidatiivinen stressi ja tulehdus osallistuvat aknen patogeneesiin. Tätäkään ei ole varmennettu saatavilla olevalla näytöllä.
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Kliinisen tutkimuksen näyttö
 
-**Päätös: Pidä väliaikaisesti**
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
+
+---
+
+## Kirjallisuusnäyttö
+
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
+
+---
+
+## Tiedot Suomen markkinoilta
+
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000920 | Vedrop | – | Kolestaasi; E-vitamiinin puutos |
+
+Myyntilupa on tilaltaan peruutettu, joten valmiste ei ole tällä hetkellä markkinoilla Suomessa.
+
+---
+
+## Turvallisuusnäkökohdat
+
+Turvallisuustiedot ovat valmisteyhteenvedossa. Tässä raportissa käytetystä aineistosta ei löytynyt varoituksia, vasta-aiheita eikä lääkeyhteisvaikutustietoja.
+
+---
+
+## Johtopäätös ja seuraavat askeleet
+
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-- Näyttöjen taso on L5 (pelkkä malliennuste) ilman kliinisiä tutkimuksia tai kirjallisuutta, ja sekä toimintamekanismi että TFDA varoitukset/vasta-aiheet puuttuvat (yksi merkitty pysäyttäväksi, yksi korkean vakavuuden) — tällä hetkellä ei ole perustaa edetä alkuperäisen seulonnan ohi.
+- Ennusteet (amenorrea ja akne) perustuvat pelkästään TxGNN-mallin pisteisiin (näytön taso L5). Kliinisiä tutkimuksia tai julkaisuja ei ole, vaikutusmekanismi puuttuu ja myyntilupa Suomessa on peruutettu.
 
-**Edetäkseen seuraavaa tarvitaan:**
-- TFDA:n pakkausseloste (varoitukset, vasta-aiheet) — Pysäyttävä puute, vaadittu ennen turvallisuutta pre-arviointia (S1)
-- Vahvistetut toimintamekanismin tiedot DrugBankista — Korkean prioriteetin puute, tarvitaan amenorrea/akneen liittyvän mekanistisen uskottavuuden arvioimiseksi
-- Vahvistus lääkkeen alkuperäisistä hyväksytyistä indikaatioista, jotka puuttuvat tällä hetkellä tästä näyttöpaketista
-- Kaikki prekliiniset tai mekanistiset kirjallisuus, joka yhdistää E-vitamiinin/TPGS-polkujen reproduktiiviendokrinologiaan tai dermatologisiin tuloksiin, perustelemaan siirtymisen L5:n yli
-
+**Eteneminen edellyttää seuraavaa:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean sivustolta (estävä tietoaukko turvallisuusseulonnalle)
+- Vaikutusmekanismin tietojen täydentäminen DrugBankista
+- Systemaattinen kirjallisuushaku amenorrean ja aknen osalta sekä prekliinisen tai mekanistisen näytön kartoitus
+- Antoreittien soveltuvuuden arviointi uusille käyttöaiheille
+- Myyntiluvan tilanteen selvittäminen, koska nykyinen lupa on peruutettu
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

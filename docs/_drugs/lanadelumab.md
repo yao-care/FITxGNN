@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Lanadelumab
-parent: Pelkkä mallin ennuste (L5)
-nav_order: 212
-evidence_level: L5
+parent: Vahva näyttö (L1-L2)
+nav_order: 245
+evidence_level: L1
 indication_count: 10
 ---
 
 # Lanadelumab
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,67 +29,99 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Lanadelumab: Näyttöpaketti epätäydellinen – Lääkkeen uudelleenkäyttöarviointi kesken
+# Lanadelumabi: Perinnöllisestä angioedeemasta C1-estäjän puutokseen
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Lanadelumab (DrugBank: DB14597) on käyty läpi tietolinja-alustan kautta, mutta nykyisessä Näyttöpaketissa ei ole **alkuperäisiä indikaatiotietoja**, **TxGNN:n ennustamia indikaatioita** eikä **kahta ratkaisematonta tietovajausta** (yksi kriittinen, yksi korkea vakavuus). Täydellistä lääkkeen uudelleenkäyttöarviointia ei voi valmistua ennen näiden vajauksien korjaamista – tämä raportti dokumentoi nykyisen tietojen tilan ja esittelee etenemiseen tarvittavat vaiheet.
+Lanadelumabi on plasman kallikreiinia estävä monoklonaalinen vasta-aine, jota käytetään perinnöllisen angioedeeman (HAE) kohtausten ehkäisyyn.
+TxGNN-malli ennustaa sen tehoavan **C1-estäjän puutokseen**, mutta tämä on käytännössä sama tautiryhmä kuin alkuperäinen käyttöaihe, joten kyse ei ole varsinaisesta uudelleenkäytöstä.
+Ennusteen tukena on **5 kliinistä tutkimusta** ja **20 julkaisua**.
 
 ---
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | — (tietoja ei haettu) |
-| Ennustettu uusi indikaatio | — (TxGNN-ennusteita ei ole vielä luotu) |
-| TxGNN-ennustepiste | — |
-| Näyttöjen taso | N/A — ennustelinja ei ole tuottanut tuloksia |
-| Suomen markkinatilanne | Ei markkinoilla (0 myyntilupaa) |
-| Myyntilupien lukumäärä | 0 |
-| Suositeltu päätös | **Pidätys** |
+|------|------|
+| Alkuperäinen käyttöaihe | Perinnöllinen angioedeema |
+| Ennustettu uusi käyttöaihe | C1-estäjän puutos |
+| TxGNN-ennusteen pisteet | 99,996 % |
+| Näytön taso | L1 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Etene suojatoimin (Proceed with Guardrails) |
 
 ---
 
-## Miksi mekaniikan analyysi ei ole mahdollista
+## Miksi ennuste on perusteltu?
 
-Tällä hetkellä Lanadelumabin yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla tässä Näyttöpaketissa.
+Yksityiskohtaista vaikutusmekanismitietoa ei ole tämän raportin aineistossa. Lääkkeen tiedetään kuitenkin olevan täysin ihmisperäinen monoklonaalinen vasta-aine, joka estää plasman kallikreiinia (kohdegeeni KLKB1).
 
-Kaksi tietovajausta estävät mekanistisen päättelyvaiheen:
+C1-estäjän puutos (HAE tyyppi I/II) kuuluu samaan tautiryhmään kuin lääkkeen alkuperäinen käyttöaihe. Normaalisti C1-estäjä hillitsee plasman kallikreiinia. Puutostilassa kallikreiinin toiminta riistäytyy hallinnasta, bradykiniinia syntyy liikaa ja seurauksena ovat angioedeemakohtaukset. Suora kallikreiinin esto kohdistuu juuri tähän reittiin.
 
-- **DG002 (korkea vakavuus)** — MOA puuttuu DrugBank-kyselytulosteista. Ilman tätä on mahdotonta muodostaa mekaanista yhteyttä minkä tahansa alkuperäisen indikaation ja ennustetun uuden indikaation välille.
-- **DG001 (kriittinen vakavuus)** — TFDA-pakkauksen sisällön varoituksia ja vasta-aiheita ei ole jäsennetty. Tämä estää pakollisen turvallisuuden esikyselyn (S1) suorittamisen.
-
-Kunnes DG001 on ratkaistu, prosessi **ei voi edetä turvallisuuden arviointiin**. Kunnes DG002 on ratkaistu, yhtään ennustettua indikaatiota ei voida arvioida biologisen uskottavuuden näkökulmasta.
+Korkea ennustepiste kuvastaa siis jo tunnetun käyttöaiheen biologiaa, ei uutta löydöstä. Aineistossa Suomen markkinatilaksi on merkitty "vain peruutettu", mikä on ristiriidassa käynnissä olevien ja päättyneiden tutkimusten sekä myyntilupa-aineiston kanssa. Tilanne tulee tarkistaa ajantasaisista viranomaistiedoista ennen kuin suositukseen luotetaan.
 
 ---
 
-## Suomen markkinatiedot
+## Kliininen tutkimusnäyttö
 
-Lanadelumab ei ole tällä hetkellä markkinoilla Suomessa. Myyntilupoja ei löytynyt sääntelyhallinnon kyselystä, joka toteutettiin 2026-03-29.
+| Tutkimustunnus | Vaihe | Tila | Osallistujat | Keskeiset havainnot |
+|---------|------|------|------|---------|
+| [NCT05460325](https://clinicaltrials.gov/study/NCT05460325) | Vaihe 3 | Päättynyt | 20 | Avoin monikeskustutkimus kiinalaisilla HAE-potilailla; turvallisuus, farmakokinetiikka ja teho 26 viikon hoidossa |
+| [NCT04070326](https://clinicaltrials.gov/study/NCT04070326) | Vaihe 3 | Päättynyt | 21 | SPRING-tutkimus: avoin tutkimus 2–<12-vuotiailla lapsilla; turvallisuus, farmakokinetiikka ja kohtausten ehkäisy |
+| [NCT04180163](https://clinicaltrials.gov/study/NCT04180163) | Vaihe 3 | Päättynyt | 12 | Avoin monikeskustutkimus japanilaisilla HAE-tyypin I/II potilailla; teho ja turvallisuus |
+| [NCT05397431](https://clinicaltrials.gov/study/NCT05397431) | Ei määritelty | Aktiivinen, ei rekrytoi | 155 | Japanilainen markkinoilletulon jälkeinen käyttötutkimus: pitkäaikaiskäytön haitat ja oireiden paraneminen |
+| [NCT04583007](https://clinicaltrials.gov/study/NCT04583007) | Ei määritelty | Ei enää saatavilla | Ei tiedossa | Laajennettu saatavuusohjelma lapsille (2–<12 v) ja ei-histaminergiseen angioedeemaan; kertoo kliinisestä tarpeesta, ei tehoa |
+
+Huomio: tutkimukset ovat pieniä ja avoimia (ei satunnaistettuja), mutta kohdistuvat suoraan HAE:hen.
 
 ---
 
-## Turvallisuusnäkökohtia
+## Kirjallisuusnäyttö
 
-Turvallisuu­stiedot löytyvät pakkauksen sisällöstä.
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/) | 2018 | Satunnaistettu koe (RCT) | JAMA | Lanadelumabi vs. lumelääke HAE-kohtausten ehkäisyssä (HELP-tutkimus) |
+| [34287942](https://pubmed.ncbi.nlm.nih.gov/34287942/) | 2022 | Avoin jatkotutkimus | Allergy | HELP OLE: pitkäaikainen teho ja turvallisuus ≥12-vuotiailla |
+| [40434599](https://pubmed.ncbi.nlm.nih.gov/40434599/) | 2025 | Verkostometa-analyysi | Drugs in R&D | Pitkäaikaisten ehkäisyhoitojen vertailu (mm. garadasimabi, lanadelumabi, C1INH, berotralstaatti) |
+| [30539362](https://pubmed.ncbi.nlm.nih.gov/30539362/) | 2019 | Katsaus / post hoc | BioDrugs | Prekliiniset ja vaiheen I tutkimukset C1-INH-puutoksellisessa HAE:ssa |
+| [39508959](https://pubmed.ncbi.nlm.nih.gov/39508959/) | 2024 | Systemaattinen katsaus | Clin Rev Allergy Immunol | Kohtaukset pitkäaikaisen ehkäisyhoidon aikana |
+| [40504359](https://pubmed.ncbi.nlm.nih.gov/40504359/) | 2025 | Tosielämän havainnointitutkimus | Adv Ther | EMPOWER: pitkäaikainen (enintään 36 kk) teho ja turvallisuus |
+| [30267321](https://pubmed.ncbi.nlm.nih.gov/30267321/) | 2018 | Katsaus | Drugs | Lanadelumabin ensimmäinen globaali hyväksyntä |
+| [31560114](https://pubmed.ncbi.nlm.nih.gov/31560114/) | 2019 | Katsaus | Drugs | Lanadelumabi HAE:n hoidossa; kohtausmäärä pieneni merkittävästi lumeeseen verrattuna |
+| [31234673](https://pubmed.ncbi.nlm.nih.gov/31234673/) | 2019 | Katsaus | Immunotherapy | Kallikreiini-inhibiittorin katsaus; puoliintumisaika 14 vrk |
+| [39836016](https://pubmed.ncbi.nlm.nih.gov/39836016/) | 2025 | Epäsuora vertailu | J Comp Eff Res | Lanadelumabi vs. C1-estäjä alle 12-vuotiailla lapsilla |
+
+---
+
+## Markkinatiedot Suomessa
+
+| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004806 | Takhzyro | – | Perinnöllinen angioedeema (tila: peruutettu) |
+
+---
+
+## Turvallisuusnäkökohdat
+
+- **Yhteisvaikutukset:** Farmakologisessa tietokannassa on yksi kirjattu vuorovaikutus: lääkkeen kohde on plasman kallikreiini (KLKB1), jota se estää. Kyseessä on vaikutusmekanismi, ei kliininen yhteisvaikutus.
+
+Muilta osin tutustu valmisteyhteenvetoon turvallisuustiedoista.
 
 ---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Pidätys**
+**Päätös: Etene suojatoimin (Proceed with Guardrails)**
 
-**Perustelut:**
-Näyttöpaketissa on nolla ennustettua indikaatiota ja se sisältää kriittisen vakavuuden tietovajauden (puuttuvat sääntelyturvallisuustiedot), mikä tekee teknisesti ja eettisesti ennenaikaiseksi antaa mitään lääkkeen uudelleenkäyttösuositusta.
+**Perustelu:**
+- Kolme päättynyttä vaiheen 3 tutkimusta, satunnaistettu HELP-koe ja pitkäaikaisseuranta tukevat tehoa HAE:ssa. Koska kyseessä on käytännössä jo hyväksytty käyttöaihe, varsinaista uudelleenkäyttönäyttöä ei synny.
 
-**Etenemiseen tarvitaan seuraavaa:**
-
-1. **[DG001 — kriittinen]** Lataa Lanadelumabin TFDA-pakkauksen sisältö PDF-muodossa ja jäsennä varoitukset, vasta-aiheet ja erityisväestöjen rajoitukset. Tämä on edellytys, ennen kuin mitään turvallisuuden esiarviointia voidaan suorittaa.
-2. **[DG002 — korkea]** Kyselytä DrugBank API:ta (`/drugs/DB14597`) noutaaksesi vaikutusmekanismin, farmakodynamiikan ja lääkkeen luokat. Tämä vaaditaan mekanistisen uskottavuuden analyysia varten.
-3. **Suorita TxGNN-ennustelinja uudelleen** DB14597:lle tuottaaksesi `predicted_indications` pisteillä, niihin liittyvät kliiniset tutkimukset ja kirjallisuuden.
-4. Kun ennusteet ovat saatavilla, luo Näyttöpaketti uudelleen (v5+) ja suorita täydellinen L1–L5-näytönarviointti.
-
+**Etenemiseksi tarvitaan:**
+- Suomen markkinatilanteen ja myyntiluvan voimassaolon varmistus viranomaislähteistä (aineiston "peruutettu" on ristiriidassa tutkimusnäytön kanssa)
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet turvallisuusarviointia varten
+- Yksityiskohtaiset vaikutusmekanismitiedot
+- Muut ennustetut käyttöaiheet (esim. haimatulehdus, verihiutalesairaudet, myopatiat) perustuvat vain mallin ennusteeseen ilman kliinistä tai kirjallisuusnäyttöä, ja niiden osalta suositus on **odota (Hold)**.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

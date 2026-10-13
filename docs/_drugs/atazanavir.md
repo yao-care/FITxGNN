@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Atazanavir
-parent: Pelkkä mallin ennuste (L5)
-nav_order: 45
-evidence_level: L5
+parent: Kohtalainen näyttö (L3-L4)
+nav_order: 50
+evidence_level: L4
 indication_count: 6
 ---
 
 # Atazanavir
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **6** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,61 +29,84 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Atazanavir: Lääkkeen uudelleenkäytön arviointi — Riittämätön data ennusteelle
+# Atatsanaviiri: HIV-infektion hoidosta simiaaniseen immuunikatoviruksen aiheuttamaan infektioon
 
 ## Yhden lauseen yhteenveto
 
-Atazanavir (DB01072) on HIV-1-proteasin inhibiittori, jota käytetään antiretroviraalisessa hoidossa.
-Nykyinen Evidence Pack ei sisällä **yhtään TxGNN-ennustettuja indikaatioita**, ja kriittiset tiedot, mukaan lukien vaikutusmekanismi, turvallisuusvaroitukset ja vasta-aiheet, puuttuvat.
-Tämä arviointi ei voi edetä kliinisen merkitsevyyden arviointiin, kunnes tunnistetut tietoaukot ratkaistaan.
+Atatsanaviiri on HIV-proteaasin estäjä, jota on alun perin käytetty HIV-infektioiden hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **simiaanisen immuunikatoviruksen (SIV) aiheuttamaan infektioon**, mutta tukena on vain **0 kliinistä tutkimusta** ja **1 julkaisu** (eläinkoe makakeilla, jossa tutkittiin yhdistelmähoitoa).
+Ennuste on käytännössä alkuperäisen viruslääkeindikaation siirtymä eläinmalliin, ei varsinainen uusi ihmisen hoitoindikaatio.
 
 ---
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | HIV-1-infektio (yleinen tieto; ei vahvistettu Evidence Packissa) |
-| Ennustettu uusi indikaatio | Ei ennustetta saatavilla |
-| TxGNN-ennustusten pistemäärä | Ei saatavilla |
-| Todisteiden taso | L5 — Ennusteita ei luotu |
-| Suomen markkinatilanne | Ei markkinoilla |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Pidätettävä |
+|------|------|
+| Alkuperäinen käyttöaihe | HIV-infektiot |
+| Ennustettu uusi käyttöaihe | Simiaaninen immuunikatovirusinfektio (SIV) |
+| TxGNN-ennustepisteet | 99,98 % |
+| Näytön taso | L4 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 3 (kaikki peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Miksi tämä ennuste on järkevä?
+## Miksi ennuste on järkevä?
 
-Tässä Evidence Packissa ei ole yhtään TxGNN-ennustettuja indikaatioita. `predicted_indications`-kenttä on tyhjä taulukko, mikä tarkoittaa, ettei lääkkeen uudelleenkäytön malli ole luonut yhtään mahdollisia uusia indikaatioita atazavaniirille. Ilman vähintään yhtä ennustetta, tämän arvioinnin perustarkoitus — uuden uudelleenkäytön hypoteesin arviointi — ei voi toteutua.
+Yksityiskohtaisia tietoja vaikutusmekanismista ei ole tällä hetkellä saatavilla tähän raporttiin koottujen tietojen perusteella. Tiedossa on, että atatsanaviiri on HIV-proteaasin estäjä, jonka teho HIV-infektiossa on osoitettu, ja mekanistisesti se voisi toimia myös läheisesti sukua olevan lentiviruksen proteaasia vastaan.
 
-Vaikutusmekanismin tiedot on myös tunnistettu korkean vakavuuden tietoaukoksi. Pakkausselosteen varoituksista ja vasta-aiheista saaduissa tuloksissa oli tietoja sääntelylähteistä, mutta niitä ei jäsennetty strukturoiduiksi kentiksi. Ilman vahvistettua MOA:ta ja turvallisuuden perusarvoa, missään alkuperäisen indikaation ja hypoteettisen uuden indikaation välille ei voida rakentaa mekanistista siltaa.
+SIV on HIV:n ei-ihmisprimaattinen vastine, joten proteaasin estäjän vaikutus on biologisesti uskottava. Kyse on kuitenkin pohjimmiltaan alkuperäisestä viruslääkeindikaatiosta eläinmallissa, ei aidosta uudelleenkäyttömahdollisuudesta. Ainoa tukeva lähde koskee yhdistelmähoitoa (HAART), joten atatsanaviirin oma osuus jää erottamatta. Ihmiskäytön kannalta tällä ei ole kliinistä merkitystä.
 
-Atazanavir tunnetaan laajalti HIV-1-proteasin inhibiittorina, joka estää viruspolyproteiinin kypsymistä. Tämä yleistieto on esitetty vain kontekstin vuoksi eikä se korvaa strukturoituja Evidence Pack -tietoja, joita tämä arviointikehys edellyttää.
+---
+
+## Kliiniset tutkimukset
+
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
+
+---
+
+## Kirjallisuusnäyttö
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [20497048](https://pubmed.ncbi.nlm.nih.gov/20497048/) | 2010 | Eläinkoe (makaki) | The Journal of Infectious Diseases | Tehokkaalla antiretroviraalisella yhdistelmähoidolla (HAART) hoidetuilla SIV-makakeilla keskushermoston viruksen replikaatio ja tulehdus olivat vähäisempiä, mutta viraalinen DNA säilyi. |
+
+---
+
+## Markkinatiedot Suomessa
+
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004048 | Atazanavir Viatris (aiemmin Atazanavir Mylan) | – | HIV-infektiot (peruutettu) |
+| EMEA/H/C/000494 | Reyataz | – | HIV-infektiot (peruutettu) |
+| EMEA/H/C/003904 | Evotaz | – | HIV-infektiot (peruutettu) |
 
 ---
 
 ## Turvallisuusnäkökohdat
 
-Turvallisuustiedoista katso pakkausseloste.
+- **Tietokannan mukaiset sairauskohtaiset vasta-aiheet (tietämysgraafi, ei valmisteyhteenvetoteksti)**: maksan vajaatoiminta, maksasairaus, sappirakon sairaus, hyperglykemia, diabetes, diabeettinen ketoasidoosi, krooninen hepatiitti B ja C, hemofilia, hyperbilirubinemia (myös perinnöllinen) ja Gilbertin oireyhtymä, nefrolitiaasi, akuutti virtsahapponefropatia, eteis-kammiokatkos sekä laktaattiasidoosi.
+- **Lääkeyhteisvaikutukset**: tietoja löytyi yhteensä 100 yhteisvaikutuksesta. Merkittäviksi (Major) luokiteltuja ovat mm. famotidiini, ranitidiini, rabepratsoli, omepratsoli, loperamidi, triamsinoloni ja budesonidi. Kohtalaisia (Moderate) ovat mm. asarboosi, hydrokortisoni, metformiini, pioglitatsoni, alogliptiini, aprepitantti, alumiinihydroksidi, betametasoni ja kalsiumkarbonaatti.
+
+Tarkemmat varoitukset ja vasta-aiheet on tarkistettava valmisteyhteenvedosta.
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Johtopäätös ja seuraavat askeleet
 
-**Päätös: Pidätettävä**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Evidence Pack ei sisällä TxGNN-ennustettuja indikaatioita ja siinä on kolme estävää tai korkean vakavuuden tietoaukkoa; uudelleenkäytön hypoteesia ei ole arvioitavana, ja lisäarviointiin tarvittava turvallisuuden perusarvio puuttuu.
+- Ennuste on käytännössä alkuperäisen HIV-indikaation siirtymä eläinmalliin, eikä sillä ole ihmisen hoidon kannalta uutta kliinistä arvoa. Näyttö rajoittuu yhteen makakeilla tehtyyn yhdistelmähoitotutkimukseen, ja kaikki Suomen myyntiluvat on peruutettu.
+- Muut ennusteet (felinen immuunikato, harvinainen neurokehityshäiriö, vanhentunut perinnöllinen hyperlipidemia, AIDS-related complex ja synnynnäinen HIV) eivät tarjoa vahvempaa uudelleenkäyttönäyttöä. Synnynnäisen HIV:n osalta kirjallisuus (L3) koskee lähinnä sikiöaikaisen antiretroviraalialtistuksen turvallisuutta ja tukee turvallisuusarviointia, ei uutta käyttöaihetta.
 
-**Jatkamista varten tarvitaan seuraavaa:**
-
-- **TxGNN-ennuste**: Suorita TxGNN-putkilinja uudelleen DB01072:lle `predicted_indications`-kentän täyttämiseksi; taulukko on tällä hetkellä tyhjä
-- **Vaikutusmekanismi (MOA)**: Hae DrugBank-ohjelmointirajapinnasta DB01072:n farmakodynaamiset ja kohdetiedot
-- **Pakkausselosteen varoitukset ja vasta-aiheet**: Jäsennä TFDA/EMA-pakkausselosteen PDF (kyselylokit osoittavat onnistunutta hakua, mutta ei jäsenneltyä tulosta) `key_warnings` ja `contraindications` -kentiksi
-- **Lääke-lääke-vuorovaikutukset (DDI)**: DDI-kysely palautti `not_found`; suorita kysely uudelleen vaihtoehtoisilla tunnisteilla tai käytä laajempaa DDI-tietokantaa
-- **Markkinahyväksynnän tila Suomessa**: Tarkista EMA/Fimea-rekisteriä vasten; nykyinen `market_status` "Not marketed" saattaa heijastaa Taiwan-rekisteriin kohdistunutta kyselyä eikä Suomen markkinakyselyä
-
+**Eteenpäin siirtyminen edellyttää:**
+- Vaikutusmekanismitietojen täydentämistä
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista ja jäsentämistä (turvallisuusseulonnan edellytys)
+- Atatsanaviirikohtaista (ei yhdistelmähoitoa) näyttöä mahdollisesta uudesta käyttöaiheesta
+- Arviota siitä, onko uudelle käyttöaiheelle ylipäätään tarvetta, koska markkinoilla ei ole voimassa olevia myyntilupia
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

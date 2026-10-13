@@ -2,7 +2,7 @@
 layout: default
 title: Ivosidenib
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 207
+nav_order: 240
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,94 +29,97 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Ivosidenib: IDH1-mutanttisesta AML:sta (ulkoinen viite) bulbaariseen polioon — matalan luottamuksen TxGNN-signaali
+# Ivosidenibi: Akuutista myeloidileukemiasta ja sappitiesyövästä ennustettuun uuteen käyttöaiheeseen (bulbaarinen polio)
 
 ## Yhden lauseen yhteenveto
 
-Ivosidenib (DB14568) ei ole alkuperäisen indikaation eikä Suomen myyntiluvan tietoja tässä näyttöpaketissa; ulkoisesti tunnetuista tiedoista ivosidenib on mutantin IDH1:n kohdistettu pieni molekyyli-estäjä, entsyymiä, joka liittyy AML:ään — tämä on taustatieto, ei aineistosta peräisin oleva tieto. TxGNN-mallin parhaiten sijoitettu ennuste, **bulbaari polio**, ei ole tuettu kliinisillä tutkimuksilla eikä julkaisuilla, ja perustelut-kentässä nimenomaisesti mainitaan, että sillä ei ole tunnistettavissa olevaa mekanistista yhteyttä — todennäköisesti mallin kohina. Kaksi alemmin sijoitettua mutta mekanistisesti johdonmukaisempaa signaalia — **hoitoon liittyvä AML/MDS** (alkylointi-aine- ja säteily-aiheuttama) — pysyvät "Tutkimuskysymys"-tilassa dedikoidun näytön odotuksella.
+Ivosidenibi on mutatoituneen IDH1-entsyymin estäjä, jota on käytetty akuutin myeloidileukemian ja sappitiesyövän (kolangiokarsinooma) hoidossa.
+TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **bulbaarisen polion**, mutta ennustetta tukee **0 kliinistä tutkimusta** ja **0 julkaisua**.
+Ennuste perustuu pelkästään mallilaskentaan, eikä sille ole lääketieteellistä perustetta.
 
 ---
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Ei tiedossa (ei `original_indications`, ei Suomen lisenssejä); ulkoisesti tunnettu IDH1-mutantin AML:nä |
-| Ennustettu uusi indikaatio | Bulbaari polio (sijoitus 1) |
-| TxGNN-ennusteen pistemäärä | 99.31% |
-| Näyttötaso | L5 (vain mallin ennuste, ei tutkimuksia) |
-| Suomen markkinoiden asema | Ei markkinoilla |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | **Odota** |
+|------|------|
+| Alkuperäinen käyttöaihe | Akuutti myeloidileukemia; kolangiokarsinooma |
+| Ennustettu uusi käyttöaihe | Bulbaarinen polio |
+| TxGNN-ennustepistemäärä | 99,31 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Miksi tämä ennuste on järkevä?
+## Miksi ennuste on (tai ei ole) perusteltu?
 
-Yksityiskohtaiset vaikutusmekanismi-tiedot eivät ole saatavilla tässä näyttöpaketissa (`original_moa: [Data Gap]`). Ulkoisesti tunnetuista tiedoista ivosidenib on mutantin IDH1:n kohdistettu pieni molekyyli-estäjä, entsyymiä, joka liittyy AML:ään — tämä on taustatieto, ei aineistosta peräisin oleva tieto.
+Tämän raportin laadintaa varten koottu aineisto ei sisällä yksityiskohtaista vaikutusmekanismitietoa. Tunnetun tiedon mukaan ivosidenibi estää mutatoitunutta IDH1-entsyymiä (isositraattidehydrogenaasi 1), ja sitä käytetään IDH1-mutaatiopositiivisissa syövissä.
 
-Parhaiten sijoitetun ennusteen, **bulbaarin polion**, osalta näyttöpaketin perustelut-kenttä toteaa, että sillä **ei ole tunnistettavissa olevaa mekanistista yhteyttä**: bulbaari polio on akuutti neurologinen sairaus, joka aiheutuu poliovirus-infektiosta aivovarren motoneuronissa, eikä sillä ole tunnettua patologista suhdetta IDH1-entsyymin estoon. Nolla klinisten tutkimusten, nolla kirjallisuuden ja ilman mekanistista perustelua, tämä signaali on parhaiten tulkittavissa mallin kohinaksi tai atypilliseksi assosiaatioksi, ei aidoksi uudelleenkäytön hypoteesiksi.
+Bulbaarinen polio on poliovirusten aiheuttama motoneuronien virusinfektio. IDH1:llä ei tunneta roolia poliovirusten replikaatiossa tai taudin synnyssä, joten uskottavaa mekanistista yhteyttä alkuperäisiin syöpäkäyttöaiheisiin ei ole tunnistettu. Korkea pistemäärä (0,993) on todennäköisesti tietämysgraafin verkostoläheisyyden tuottama artefakti.
 
-Sitä vastoin kaksi alemmin sijoitettua ennustetta — hoitoon liittyvä AML/MDS alkylointi-aineiden jälkeen tai säteily-terapian jälkeen — ovat mekanistisesti johdonmukaisempia: molemmat ovat tunnettuja AML/MDS-sairauden luokan alatyppejä, ja osassa tapauksista voi olla IDH1 R132 mutaatioita, jotka olisivat päällekkäisiä ivosidenib:n tunnetun IDH1-mutantin AML-mekanismin kanssa. Näyttöpaketti ei kuitenkaan sisällä alatyyppi-spesifejä tutkimuksia, kirjallisuutta tai IDH1-mutaatio-esiintyvyyden tietoja näille alatyypeille, joten tämä pysyy epäsuorana, vahvistamattomana johtopäätöksenä (ks. alla).
-
----
-
-## Muut ennustetut indikaatiot (alempi sijoitus, korkeampi mekanistinen uskottavuus)
-
-| Sijoitus | Sairaus | TxGNN-pistemäärä | Näyttötaso | Päätösvaihe | Suositus |
-|----------|---------|-------------------|-----------|-----------|----------|
-| 2 | Alkylointi-aineeseen liittyvä AML/MDS | 99.26% | L4 | S1 | Tutkimuskysymys |
-| 3 | Säteilyyn liittyvä AML/MDS | 99.26% | L4 | S1 | Tutkimuskysymys |
-
-Molemmat ovat hoitoon liittyvät AML/MDS-alatyypyt, joilla on uskottava (vaikkakin vahvistamaton) päällekkäisyys ivosidenib:n tunnetun IDH1-mutantin AML-mekanismin kanssa. Näille alatyypeille ei löydetty klinisiä tutkimuksia tai kirjallisuutta kyseisten lähteiden (ClinicalTrials.gov, ICTRP, PubMed — kaikki palautui 0 tulosta) perusteella.
+Mielenkiintoisempia ennustettuja kohteita ovat sen sijaan alkyloivien aineiden tai säteilyn aiheuttamat hoitoon liittyvät akuutit myeloidileukemiat ja myelodysplastiset oireyhtymät (molemmat pistemäärä 99,26 %). Ne ovat biologisesti uskottavia, koska ivosidenibi on hyväksytty IDH1-mutatoituneeseen akuuttiin myeloidileukemiaan ja näissä alatyypeissä voi esiintyä IDH1-mutaatioita. Hyöty olisi odotettavissa vain IDH1-mutaatiopositiivisilla potilailla. Näille alatyypeille ei kuitenkaan ole toimitettu tutkimuksia eikä kirjallisuutta, joten näyttö rajoittuu mallin ennusteeseen ja epäsuoraan päättelyyn.
 
 ---
 
-## Klinisten tutkimusten näyttö
+## Kliininen tutkimusnäyttö
 
-Tällä hetkellä ei ole rekisteröityjä klinisiä tutkimuksia millekään kolmesta TxGNN:n ennustamasta indikaatiosta (bulbaari polio; hoitoon liittyvä AML/MDS – alkylointi-aine; hoitoon liittyvä AML/MDS – säteily).
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
-## Kirjallisuuden näyttö
+---
 
-Tällä hetkellä ei ole saatavilla kirjallisuutta millekään kolmesta TxGNN:n ennustamasta indikaatiosta.
+## Kirjallisuusnäyttö
 
-## Suomen markkinatiedot
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
-Ivosidenib ei ole tällä hetkellä **markkinoilla Suomessa**. Hyväksynnät eivät ole tiedossa (0 lisenssiä).
+---
+
+## Markkinatiedot Suomessa
+
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/005936 | Tibsovo (Les Laboratoires Servier) | – | Akuutti myeloidileukemia; kolangiokarsinooma (tila: peruutettu) |
 
 ---
 
 ## Sytotoksisuus
 
-Ivosidenib:n ennustetut ja ulkoisesti tunnetut indikaatiot ovat onkologisia/hematologisia (AML/MDS), joten tämä osio on sisällytetty täydellisyyden vuoksi. Luokittelu alla perustuu lääkkeen tunnettuun identiteettiin IDH1-estäjänä (ulkoinen viite); spesifejä toksititeetti-tietoja ei ole tässä näyttöpaketissa.
-
 | Kohta | Sisältö |
-|------|---------|
-| Sytotoksisuuden luokitus | Kohdistettu lääkitys (mutantin IDH1-entsyymin estäjä), ei tavallinen sytotoksinen aine |
-| Luuytimen tukahdutusriski | Katso pakkausselosteen varoitukset ja varotoimet |
-| Pahoinvoin-potentiaalin luokitus | Katso pakkausselosteen varoitukset ja varotoimet |
-| Seurannan kohteet | Katso pakkausselosteen varoitukset ja varotoimet |
-| Käsittelyyn liittyvä suojaus | Katso pakkausselosteen varoitukset ja varotoimet |
+|------|------|
+| Sytotoksisuusluokitus | Kohdennettu hoito (IDH1-estäjä) |
+| Luuytimen suppressio | Tarkempia tietoja ei ole saatavilla; katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Oksentelua aiheuttava vaikutus | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Seurantakohteet | Verenkuva, maksa- ja munuaisarvot (yleinen syöpälääkeseuranta) |
+| Käsittelysuojaus | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+
+---
 
 ## Turvallisuusnäkökohdat
 
-Katso pakkausselosteen turvallisuustiedot.
+**Lääkeinteraktiot:** Tietokannasta löytyi yhteensä 100 interaktiota, joista esimerkkeinä tärkeimmät:
+- **Merkittävät (Major):** aprepitantti, klaritromysiini, dolasetroni, palonosetroni, sisapridi, granisetroni, levofloksasiini
+- **Kohtalaiset (Moderate):** famotidiini, loperamidi, bisakodyyli, pikosulfaatti, polyetyleeniglykoli, saksagliptiini, eliglustaatti, linagliptiini, natriumsulfaatti, risiiniöljy, glyseriini, laktitoli, laktuloosi
+
+Useat merkittävistä interaktioista koskevat lääkkeitä, jotka voivat pidentää QT-aikaa tai joihin vaikuttaa CYP3A4-aineenvaihdunta. Ne vaativat huolellisen arvioinnin yhteiskäytössä.
+
+Muiden turvallisuustietojen osalta tarkista valmisteyhteenveto.
 
 ---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Odota**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Parhaiten sijoitetulla TxGNN-ennusteella (bulbaari polio) ei ole tukevia klinisiä tutkimuksia, ei kirjallisuutta eikä uskottavaa mekanistista yhteyttä — näyttöpaketin omat perustelut tunnistavat sen todennäköisesti mallin kohinaksi. Kaksi mekanistisesti uskottavampaa ennustetta (hoitoon liittyvä AML/MDS) pysyvät varhaisessa "Tutkimuskysymys"-tilassa, jossa ei ole dedikoidusta näytöstä.
+- Bulbaarisen polion ennuste perustuu pelkkään mallilaskentaan (L5), ilman kliinisiä tutkimuksia tai kirjallisuutta, eikä uskottavaa mekanistista yhteyttä ole. Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa.
+- Hoitoon liittyvät akuutit myeloidileukemiat ja myelodysplastiset oireyhtymät ovat biologisesti uskottavampia, mutta nekin vaativat lisänäyttöä.
 
-**Jatkaakseen tarvitaan seuraavaa:**
-- TFDA:n pakkausseloste / varoitukset ja vastaiheet (estävä aukko, DG001)
-- Vahvistetut vaikutusmekanismi-tiedot DrugBank API:n kautta (DG002)
-- Jos jatketaan hoitoon liittyvien AML/MDS-signaalien kanssa: alatyyppi-spesifejä IDH1-mutaatio-esiintyvyyden tietoja ja dedikoitua klinistä tutkimusta tai tapaussarjan näyttöä
-- DDI-tiedon lähteen ratkaisu (nykyinen kysely palautti "not found")
-
+**Jatkotoimiin tarvitaan:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittäminen (estää turvallisuusseulonnan jatkamisen)
+- Vaikutusmekanismitietojen täydentäminen
+- Selvitys siitä, ovatko olemassa olevat akuutin myeloidileukemian tai myelodysplastisen oireyhtymän tutkimukset sisältäneet hoitoon liittyviä tapauksia, sekä IDH1-mutaatiostatuksen vahvistaminen
+- Myyntilupatilanteen selvittäminen Suomessa (nykyinen lupa on peruutettu)
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

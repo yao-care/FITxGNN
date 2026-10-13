@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Tipranavir
-parent: Pelkkä mallin ennuste (L5)
-nav_order: 376
-evidence_level: L5
+parent: Kohtalainen näyttö (L3-L4)
+nav_order: 439
+evidence_level: L4
 indication_count: 10
 ---
 
 # Tipranavir
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,77 +29,91 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Tipranavir: HIV-1-infektiosta kissojen hankkittuun immuunivajaavaisuusoireyhtymään
+# Tipranaviiri: HIV-infektiosta ennustettuun kissan hankinnaiseen immuunipuutosoireyhtymään
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-> Tipranavir (DB00932) on ei-peptidinen HIV-1-proteinaasi-inhibiittori; tämä näyttöpaketti ei sisällä dokumentoitua alkuperäistä indikaatiota tai vaikutusmekanismia (molemmat merkitty tietovajeiksi), mutta lääke tunnetaan laajalti antiretroviraalisena hoitovaihtoehtona hoitoon tutuille HIV-1-infektiopotilaille.
-> TxGNN-mallin parhaaksi sijoittunut ennuste on **kissojen hankittu immuunivajaavaisuusoireyhtymä (FIV)**, pisteytetty arvolla **99.99%**,
-> mutta tukevia kliinisiä tutkimuksia on **0** ja julkaisuja **0**, ja näyttöpaketti itse huomauttaa, että FIV-proteinaasi eroaa rakenteellisesti riittävästi HIV-1-proteinaasista, jotta ristiinestäytyminen on biologisesti epätodennäköistä — tämä tulisi lukea TxGNN-upotusartefaktina, ei uskottavaksi uudelleentarkoituskandidaatiksi.
+Tipranaviiri on HIV-1-proteaasin estäjä, jota on käytetty HIV-infektion hoitoon. TxGNN-malli ennustaa sen mahdolliseksi hoidoksi **kissan hankinnaiseen immuunipuutosoireyhtymään** (pistemäärä 99,99 %), mutta ennusteen tueksi ei ole toistaiseksi **yhtään kliinistä tutkimusta eikä julkaisua**. Ennuste perustuu pelkästään mallin tuottamaan verkostoyhteyteen.
 
 ---
 
-## Pikayhteenveto
+## Pikakatsaus
 
-| Kohde | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Ei dokumentoitu tässä aineistossa (lääke-tason `original_indications`/`original_moa` ovat tietovajeita); julkisesti tunnettu farmakologia: HIV-1-infektio, hoitoon tutuille aikuisille |
-| Ennustettu uusi indikaatio | Kissojen hankittu immuunivajaavaisuusoireyhtymä |
-| TxGNN-ennusteen pisteet | 99.99% |
-| Näytön taso | L5 |
-| Suomen markkinoiden asema | Ei markkinoitu (Not marketed) |
-| Myyntilupien lukumäärä | 0 |
-| Suositeltu päätös | Pidätä |
-
----
-
-## Miksi tämä ennuste on perusteltu?
-
-Yksityiskohtainen tipranavirin vaikutusmekanismi-tieto on merkitty tietovajeeksi lääke-tasolla tässä näyttöpaketissa (DG002, korkea vakavuus). Perustuen mekanistisiin muistiinpanoihin, jotka on liitetty tämän saman paketin alemman sijoituksen saaneisiin kandidaatteihin, tipranavir on ei-peptidinen HIV-1-proteinaasi-inhibiittori, joka estää viruksen lisäämisen estämällä proteinaasivälitteistä Gag-Pol-polyproteiinin pilkkoutumista — mutta tämä on ulkoista/yleistä tietoa, eikä mitään, mitä tämän aineiston lääke-tason kentät itse asiassa tukevat.
-
-Rankkaukseltaan ensimmäiselle ennusteelle FIV ja HIV ovat molemmat lentivirukset, mikä on oletettavasti syy TxGNN-upotuksen samankaltaisuudelle. Kuitenkin näyttöpaketin oma mekanistinen katsaus nimenomaan huomauttaa, että FIV-proteinaasi ja HIV-1-proteinaasi eroavat huomattavasti rakenteeltaan, ja HIV-proteinaasi-inhibiittorit yleensä puuttuvat ristiinestävästä aktiivisuudesta FIV-proteinaasia vastaan. Yhdistettynä nollaan kliinisiin tutkimuksiin, nollaan kirjallisuuteen ja näytön tasoon L5 (vain mallin ennuste), tämä erityinen korkein sijoittunut linkki tulisi käsitellä matalan luottamuksen suhteen, todennäköisesti valeellisena assosiasiona pikemminkin kuin todellisena uudelleentarkoitus-kandidaattina.
-
-Kaksi alemman sijoituksen kandidaattia tässä paketissa ovat mekanistisesti johdonmukaisempia — "AIDS-liittyvä kompleksi" (sijoitus 5) ja "synnynnäinen ihmisen immuunivajaavaisuusinfektio" (sijoitus 6) — koska molemmat sijaitsevat HIV-tautispektrissä, missä proteinaasi-inhibiittorit ovat vakiintuneet lääkekategoria. Silti synnynnäiselle immuunivajaavaisuusinfektiolle haetuista 9 tutkimuksesta arvioitiin olevan "C"-relevanssi, koska mikään niistä ei itse asiassa tutkinut tipranaviiria (ne tutkivat cabotegravia, dolutegraviria tai yleistä antiretroviraalien farmakokinetiikkaa), joten tipranavir-spesifinen kliininen näyttö puuttuu tästä aineistosta myös näille indikaatioille.
+| Kohta | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | HIV-infektiot |
+| Ennustettu uusi käyttöaihe | Kissan hankinnainen immuunipuutosoireyhtymä (feline acquired immunodeficiency syndrome) |
+| TxGNN-ennustepistemäärä | 99,99 % |
+| Näytön taso | L4 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Kliinisen tutkimuksen näyttö
+## Miksi ennuste on perusteltu?
 
-Tällä hetkellä ei ole asiaan liittyviä rekisteröityjä kliinisiä tutkimuksia.
+Tipranaviiri estää HIV-1-viruksen proteaasientsyymiä, joka tarvitaan viruksen kypsymiseen. Yksityiskohtaista vaikutusmekanismitietoa ei ole tässä raportissa käytettävissä, joten mekanistinen arvio perustuu yleiseen tietoon lääkeaineluokasta.
+
+Kissan immuunipuutosvirus (FIV) on lentivirus, jonka proteaasi on rakenteellisesti sukua HIV-1-proteaasille. Siksi ristiin vaikuttaminen on mahdollista. Tipranaviirin ei-peptidimäisen rakenteen on raportoitu estävän joitakin sukulaisretrovirusten proteaaseja in vitro, mutta tästä ei ole tässä aineistossa dataa. Korkea pistemäärä heijastaa todennäköisesti lääkkeen tunnettua HIV-lääkeluokkaa ja verkostoetäisyyttä, ei itsenäistä näyttöä.
+
+Lisäksi valmiste on peruutettu, eikä aineistossa ole dokumentoitua eläinlääkinnällistä käyttöä.
 
 ---
 
-## Kirjallisuuden näyttö
+## Muut ennustetut käyttöaiheet
 
-Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta.
+Aineistossa oli yhteensä 10 ennustetta. Kaikkien suositus on Hold, eikä yhdellekään ole kliinistä tutkimusta tai julkaisuja.
+
+| Sija | Käyttöaihe | Pistemäärä | Näytön taso | Huomio |
+|------|------|------|------|------|
+| 2 | Simiaaninen immuunipuutosvirusinfektio (SIV) | 99,99 % | L4 | Proteaasi on hyvin homologinen HIV-1:n kanssa, mutta kyseessä on HIV:n eläinmalli, ei uusi ihmisen käyttöaihe |
+| 3 | Neurokehityshäiriö, johon liittyy ataksinen kävely, puheen puuttuminen ja aivokuoren valkean aineen väheneminen | 99,99 % | L5 | Uskottavaa mekanistista yhteyttä ei löydy; todennäköisesti mallin artefakti |
+| 4 | Vanhentunut familiaalinen yhdistetty hyperlipidemia | 99,93 % | L5 | HIV-proteaasin estäjät aiheuttavat dyslipidemiaa haittavaikutuksena, joten hoitohyöty on epäuskottava |
+| 5 | AIDS-liitännäisoireyhtymä (ARC) | 99,83 % | L4 | Historiallinen termi oireiselle HIV-taudille; kuuluu jo hyväksyttyyn käyttöaiheeseen |
+| 6 | Synnynnäinen HIV | 99,83 % | L4 | Alaryhmä HIV-infektiossa; lapsi- ja perinataalitutkimuksia ei ole |
+| 7 | Eturauhasen fibrooma | 99,44 % | L5 | Vain ennuste, ei kliinistä näyttöä |
+| 8 | Brennerin kasvain | 99,39 % | L5 | Harvinainen, tyypillisesti hyvänlaatuinen munasarjakasvain, hoito kirurginen |
+| 9 | Lisääntymiselinten hyvänlaatuinen kasvain | 99,39 % | L5 | Laaja kategoria; tipranaviirin vakavat riskit (maksatoksisuus, kallonsisäinen verenvuoto) tekevät hyöty–riskisuhteesta epäedullisen |
+| 10 | Eturauhasen hyvänlaatuinen phyllodes-kasvain | 99,31 % | L5 | Erittäin harvinainen; ei näyttöä |
 
 ---
 
 ## Suomen markkinatiedot
 
-Tipranavir:lla on 0 rekisteröityä myyntilupaa Suomessa (markkinoiden asema: Ei markkinoitu / not marketed), joten tuote-tason taulukko ei ole saatavilla.
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000631 | Aptivus | – | HIV-infektiot |
+
+Myyntilupa (valmistaja Boehringer Ingelheim International GmbH) on peruutettu, eikä voimassa olevia lupia ole.
 
 ---
 
 ## Turvallisuusnäkökohdat
 
-Katso pakkausselosteesta turvallisuustiedot. (Tärkeimmät varoitukset, vasta-aiheet ja DDI-tiedot on kaikki merkitty tietovajeiksi tässä näyttöpaketissa; DG001 — TFDA/Fimea pakkausseloste — on merkitty **estäväksi** vajeeksi, joka estää S1-turvallisuusseulonnan.)
+Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ollut saatavilla, joten niihin tulee perehtyä pakkausselosteesta ja valmisteyhteenvedosta.
+
+**Tietämyskuvaajaan perustuvat vasta-aiheet** (TxGNN/PrimeKG-verkosto, ei valmisteyhteenvedon teksti): maksan vajaatoiminta, maksasairaus, sappirakon sairaus, hyperglykemia, diabetes, diabeettinen ketoasidoosi, krooninen C- ja B-hepatiitti, C-hepatiitti, veren hyytymishäiriöt, hypertriglyseridemia, hyperbilirubinemia (myös perinnöllinen), Gilbertin oireyhtymä, vammat, aivosyöpä ja aivokasvaimet, kallonsisäinen verenvuoto, hepatiitti sekä hemofilia (myös naiskantajien oireinen muoto).
+
+**Lääkeyhteisvaikutukset:** Kyselyssä löytyi yhteensä 100 yhteisvaikutusta, joista tässä on esitetty 20.
+- **Vakavat (Major):** asetyylisalisyylihappo, eluksadoliini.
+- **Kohtalaiset (Moderate):** mm. diabeteslääkkeet (akarboosi, albiglutidi, alogliptiini, metformiini, pioglitatsoni, kanagliflotsiini, klooripropamidi, dapagliflotsiini, dulaglutidi, empagliflotsiini, linagliptiini), loperamidi, deksametasoni, kolihappo, klaritromysiini, magnesiumoksidi, eliglustaatti ja metronidatsoli (paikallinen).
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Johtopäätös ja jatkotoimet
 
-**Päätös: Pidätä**
+**Päätös: Hold**
 
 **Perustelut:**
-- Korkein sijoittunut ennuste (FIV, 99.99% pisteet) ei ole tukevia tutkimuksia tai kirjallisuutta, ja paketin oma mekanistinen katsaus merkitsee sitä todennäköisenä lajien välisen upotusartefaktina pikemminkin kuin todellisena farmakologisena yhteyksenä — näytön taso L5 ei läpäise edes alustavaa seulontaa.
+- Ennusteelle ei ole kliinistä tai kirjallisuusnäyttöä. Lisäksi valmiste on peruutettu Suomessa ja sen turvallisuusprofiili on vakava (mm. maksatoksisuus ja kallonsisäinen verenvuoto).
+- Ennustettu kohde on eläinlääkinnällinen, eikä ihmisen uutta käyttöaihetta ole osoitettu. Useimmat muut ennusteet joko kuuluvat jo HIV-käyttöaiheeseen tai niille ei löydy uskottavaa mekanismia.
 
-**Jatkaakseen tarvitaan seuraavaa:**
-- Ratkaise DG001 (estävä): hanki TFDA/Fimea pakkausseloste vakiintuaksesi varoituksista/vasta-aiheista ennen mitään S1-turvallisuusarviointia.
-- Ratkaise DG002 (korkea): vahvista tipranavirin MOA DrugBank API:n kautta asianmukaisen mekanistisen kytkennän arvioimiseksi.
-- Jos tavoitteena ovat HIV-spektrin indikaatiot FIV:n sijaan, hanki tipranavir-spesifisiä tutkimuksia/kirjallisuutta "AIDS-liittyvälle kompleksille" ja "synnynnäiselle immuunivajaavaisuusinfektiolle" (sijoitus 5–6) — tutkimukset, jotka on tällä hetkellä liitetty synnynnäiseen immuunivajaavaisuusinfektioon, sisältävät kaikki muita aineita (cabotegravir, dolutegravir), ei tipranaviiria.
-- Käsittele sijoitus 4:tä ("perinnöllinen yhdistetty hyperlipidemia") poissulkemisen kandidaattina pikemminkin kuin jatkaa — paketti huomauttaa, että tämä todennäköisesti heijastaa tipranavirin tunnettua dyslipidemia-haittavaikutussignaalin virheellisen oppimisen indikaationa.
-
+**Etenemiseksi tarvitaan:**
+- Vaikutusmekanismin tiedot (MOA), esimerkiksi DrugBankista
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet Fimean sivuilta
+- Prekliiniset in vitro -tiedot tipranaviirin vaikutuksesta FIV-proteaasiin
+- Arvio eläinlääkinnällisen käytön mahdollisuudesta, tarvittavista antoreiteistä ja sääntelypolusta
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

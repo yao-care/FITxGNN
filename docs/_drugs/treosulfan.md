@@ -2,7 +2,7 @@
 layout: default
 title: Treosulfan
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 391
+nav_order: 454
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,59 +29,86 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Treosulfan: Dokumentoimattomasta alkuperäisestä indikaatiosta diabetes-katarraktaan
+# Treosulfaani: Kantasolusiirtoon liittyvästä käytöstä diabeettiseen kaihiin
 
-## Yksirivinen yhteenveto
+## Yhteenveto
 
-Treosulfanin alkuperäinen hyväksytty indikaatio ja vaikutusmekanismi eivät ole kirjattuina saatavilla olevassa tietojoukossa (merkitty tietovajeiksi DG001/DG002). TxGNN-malli ennustaa mahdollisen yhteyden **diabetes-katarraktaan** (pistemäärä 99,01%), mutta tätä ennustetta ei tällä hetkellä tue mikään rekisteröity kliininen tutkimus tai julkaistu kirjallisuus.
+Treosulfaani on alkyloiva solunsalpaaja, jota käytetään kantasolasiirtoa (hematopoieettinen kantasolasiirto) edeltävään valmistelevaan hoitoon. Tekoälypohjainen TxGNN-malli ennustaa sen voivan tehota **diabeettiseen kaihiin**, mutta ennusteen tueksi ei ole löytynyt **yhtään kliinistä tutkimusta eikä julkaisua**. Ennuste perustuu pelkästään mallilaskentaan.
 
-## Pikayleiskatsaus
+---
+
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Ei saatavilla — indikaatioita ei ole arkistoidussa tiedossa (tietovaje) |
-| Ennustettu uusi indikaatio | Diabetes-katarakta |
-| TxGNN-ennusteen pistemäärä | 99,01% |
-| Todistusvoiman taso | L5 |
-| Markkinointistatus Suomessa | Ei markkinoitu |
-| Myönnösten lukumäärä | 0 |
-| Suositeltu päätös | Pidätys |
+|------|------|
+| Alkuperäinen käyttöaihe | Hematopoieettinen kantasolasiirto |
+| Ennustettu uusi käyttöaihe | Diabeettinen kaihi |
+| TxGNN-ennusteen pistemäärä | 99,01 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennuste on järkevä?
+---
 
-Treosulfanin yksityiskohtaisia vaikutusmekanismin tietoja ei ole tällä hetkellä saatavilla, eikä tähän todistusjoukkoon ole kirjattu alkuperäistä indikaatiota. Ilman näitä perustietoja ei ole mahdollista itsenäisesti arvioida, onko treosulfanin tunnetun farmakologian ja diabetes-kataraktan välillä mekanistinen yhteys.
+## Miksi ennuste voisi olla perusteltu?
 
-TxGNN-pistemäärä (99,01%, sijoitus 9439) heijastaa vain verkkoon perustuvaa ennustetta. Ilman kliinisiä tutkimuksia, kirjallisuutta tai MOA-tietoja, jotka vahvistaisivat tai selittäisivät tätä yhteyttä, ennustusta olisi käsiteltävä pikemminkin hypoteesin luontavana kuin kliinisesti toimintakelpoisena tässä vaiheessa.
+Tähän raporttiin koottu aineisto ei sisällä tarkkaa vaikutusmekanismia. Yleisen farmakologisen tiedon mukaan treosulfaani on bifunktionaalinen alkyloiva aine: se muuttuu elimistössä reaktiivisiksi epoksidivälituotteiksi, jotka muodostavat DNA:han ristisidoksia. Tämän vuoksi sitä käytetään luuytimen tuhoavassa valmistelevassa hoidossa ennen kantasolasiirtoa.
 
-## Kliinisten tutkimusten näyttö
+Diabeettisen kaihin taustalla ovat pääasiassa polyolireitin aktivoituminen (aldoosireduktaasi), linssikuitujen osmoottinen ja oksidatiivinen stressi sekä glykaatio. DNA:n alkylointi ei liity näihin prosesseihin, eikä uskottavaa mekanistista yhteyttä alkuperäisen ja ennustetun käyttöaiheen välillä ole havaittavissa. Lisäksi sytotoksinen ja luuydintä lamaava vaikutus olisi merkittävä turvallisuusriski kroonisessa, ei-pahanlaatuisessa ja paikallisessa silmäsairaudessa. Korkea pistemäärä on siis vain mallin tuottama ennuste.
 
-Tällä hetkellä ei ole rekisteröity asiaan liittyviä kliinisiä tutkimuksia.
+---
 
-## Kirjallisuuden näyttö
+## Kliininen tutkimusnäyttö
 
-Tällä hetkellä ei ole asiaan liittyvää kirjallisuutta saatavilla.
+Ennustettuun käyttöaiheeseen ei ole tällä hetkellä rekisteröityjä kliinisiä tutkimuksia.
 
-## Markkinointitiedot Suomessa
+---
 
-Treosulfania ei ole tällä hetkellä markkinoitu Suomessa (arkistoidussa tiedossa 0 myönnöstä).
+## Kirjallisuusnäyttö
 
-## Turvallisuustekijät
+Aiheesta ei ole tällä hetkellä saatavilla kirjallisuutta.
 
-Turvallisuustietoja saa pakkausselosteesta.
+---
 
-## Johtopäätös ja seuraavat vaiheet
+## Suomen markkinatiedot
 
-**Päätös: Pidätys**
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004751 | Trecondi | – | Hematopoieettinen kantasolasiirto (tila: peruutettu) |
+
+---
+
+## Sytotoksisuus
+
+| Kohta | Sisältö |
+|------|------|
+| Sytotoksisuusluokitus | Perinteinen sytotoksinen aine (alkyloiva aine) |
+| Luuydinlama | Korkea (käytetään myeloablatiivisessa valmistelussa) |
+| Oksettavuusluokitus | Tarkempia tietoja ei ole saatavilla; katso valmisteyhteenveto |
+| Seurantakohteet | Täydellinen verenkuva, maksa- ja munuaisarvot; tarkempi seuranta valmisteyhteenvedon mukaan |
+| Käsittelysuojaus | Noudatettava sytotoksisten lääkkeiden käsittelyohjeita |
+
+---
+
+## Turvallisuusnäkökohdat
+
+Turvallisuustietoja varten katso valmisteyhteenveto. Tähän raporttiin koottu aineisto ei sisältänyt varoitus- tai vasta-aihetietoja eikä lääkeinteraktiotietoja.
+
+---
+
+## Johtopäätös ja jatkotoimet
+
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-- Todistusvoiman taso on L5 (pelkkä malliennuste, ei kliinisiä tutkimuksia tai kirjallisuutta), lääke ei ole markkinoitu Suomessa, ja estävä tietovaje (TFDA-pakkausesite / varoitukset, DG001) estää minkä tahansa turvallisuuden esiarvion.
+- Ennuste perustuu pelkästään mallilaskentaan (L5), eikä sille ole kliinistä tai kirjallista tukea. Uskottavaa mekanistista yhteyttä ei ole, ja valmisteen sytotoksinen profiili on huomattava riski silmäsairauden hoidossa. Lisäksi ainoa Suomen myyntilupa on peruutettu.
 
-**Jatkaakseen tarvitaan seuraavaa:**
-- TFDA/EMA-pakkausesite-tiedot — varoitukset, vasta-aiheet, DDI (DG001, estävä)
-- Vahvistettu alkuperäinen indikaatio(t) ja vaikutusmekanismi DrugBankista tai alkuperäisesta pakkausselosteesta (DG002)
-- Kohdennettu kirjallisuus-/kliininen tutkimushaku käyttäen laajennettuja synonyymeja "diabetes-katarraktalle" jätettyjen näyttöjen tarkistamiseksi
-- Terapeuttisen/sytotoksisen luokittelun määrittäminen kun alkuperäinen indikaatio ja MOA-tiedot ovat saatavilla
-
+**Eteneminen edellyttäisi seuraavaa:**
+- Tarkat vaikutusmekanismitiedot (MOA) ja arvio mahdollisesta yhteydestä kaihin patogeneesiin
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittäminen
+- Prekliinistä näyttöä (esim. linssimalleista) ennen kliinisiä pohdintoja
+- Arvio reittien ja lääkemuodon soveltuvuudesta silmän hoitoon sekä riski-hyötyarvio
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

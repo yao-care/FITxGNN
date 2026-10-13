@@ -2,7 +2,7 @@
 layout: default
 title: Risankizumab
 parent: Vahva näyttö (L1-L2)
-nav_order: 326
+nav_order: 380
 evidence_level: L2
 indication_count: 10
 ---
@@ -29,97 +29,101 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Risankitsumabi: psoriasista dermatiitin
+# Risankitsumabi: Psoriaasista ja tulehduksellisista suolistosairauksista ihottumaan (dermatiitti)
 
 ## Yhden lauseen yhteenveto
 
-Risankitsumabi on humanisioitu IgG-monoklonaalinen vasta-aine, joka kohdistuu IL-23:n p19-alayksikköön, ja se hyväksyttiin ensimmäisen kerran Japanissa (2019) psoriasis vulgarista, psoriaattisesta artriitista, yleistyneestä pustuloosisesta psoriasista ja erytrodermisesta psoriasista. TxGNN-malli ennustaa, että se saattaa olla tehokas **dermatiitin** (mukaan lukien atopisen dermatiitin) hoitoon, ja tätä suuntaa tukee tällä hetkellä **7 kliinistä tutkimusta** ja **17 julkaisua**. Näyttö sisältää valmistuneen lumekontrolloidun vaiheen 2 RCT:n keskivaikeasta vakavaan atopisen dermatiitin kanssa, vaikka lääke ei ole tällä hetkellä markkinoilla Suomessa ja keskeisiä turvallisuustietoja puuttuu.
+Risankitsumabi on IL-23:n p19-alayksikköön kohdistuva monoklonaalinen vasta-aine, jota on alun perin käytetty psoriaasin, psoriaattisen niveltulehduksen, haavaisen paksusuolitulehduksen ja Crohnin taudin hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **dermatiittiin (ihottumaan)**.
+Tätä tukee **2 kliinistä tutkimusta** (joista yksi valmistunut vaiheen 2 satunnaistettu tutkimus) ja **20 julkaisua**, mutta tulokset atooppisessa ihottumassa eivät osoita selvää tehoa.
 
 ---
 
-## Pika-yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Psoriasis (psoriasis vulgaris, psoriaattinen artriitti, yleistynyt pustuloosinen/erytroderminen psoriasis — ensimmäisen globaalin hyväksynnän mukaisesti; Suomen lääkelupaa ei ole saatavilla) |
-| Ennustettu uusi indikaatio | Dermatiti |
-| TxGNN-ennustepistemäärä | 99.98 % |
-| Näyttötaso | L2 |
-| Suomen markkinatilanne | Ei markkinoilla |
-| Markkinointilupien lukumäärä | 0 |
-| Suositeltu päätös | Pidätä |
+| Alkuperäinen käyttöaihe | Psoriaasi, psoriaattinen niveltulehdus, haavainen paksusuolitulehdus, Crohnin tauti |
+| Ennustettu uusi käyttöaihe | Dermatiitti (ihottuma) |
+| TxGNN-ennustepistemäärä | 99,98 % |
+| Näytön taso | L2 |
+| Markkinatilanne Suomessa | Vain peruutettu lupa |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Miksi tämä ennuste on järkevä?
+## Miksi ennuste on perusteltu?
 
-Risankitsumabi-mekanismin yksityiskohtaiset alkuperäiset tiedot merkitään tässä näyttöpaketissa tietovajeeksi. Paketti tarjoaa kuitenkin omalla kirjallisuudella ja uudelleenkäyttö-perusteluilla mekanistisen kuvan: risankitsumabi on anti-IL-23 (p19-alayksikkö) monoklonaalinen vasta-aine, joka estää IL-23/Th17-signalointiakselia (PMID 31098898). Tämä polku on tunnettu keratinosyytin hyperproliferaation ja tulehduksellisen toiminnan aiheuttaja psoriasissa, sen alkuperäisessä indikaatiossa.
+Risankitsumabi estää IL-23:n p19-alayksikköä. IL-23/Th17-signalointi vaikuttaa psoriaasin ja joidenkin tulehduksellisten ihofenotyyppien taustalla, mikä antaa uskottavan yhteyden ihottumaan. Yksityiskohtaiset vaikutusmekanismitiedot eivät ole tällä hetkellä saatavilla tähän raporttiin koottuna aineistona, mutta lääkeaineluokan tunnettu vaikutustapa on yllä kuvatun mukainen.
 
-IL-23/Th17-akseli osallistuu myös muihin kroonisiin tulehduksellisiin ihosairauksiin, mukaan lukien atopinen dermatiti, joissa Th2-, Th22- ja yhä enemmän tunnustetut Th17-polut limittyivät. Tämä jaettu immunopatologia on biologinen perusta TxGNN-ennusteelle, joka yhdistää risankitsumabi dermatiitin kanssa.
+Atooppisessa ihottumassa hallitseva reitti on kuitenkin Th2 (IL-4/IL-13). Vaiheen 2 tutkimuksessa IL-23-salpauksesta ei havaittu selvää tehoa tässä tilassa, joten mekanistinen sopivuus on heikko atooppiselle ihottumalle ja vahvempi psoriaasinkaltaisille tai sekafenotyypeille.
 
-Johdonmukaisesti tämän kanssa omistettu vaiheen 2 lumekontrollohtu RCT (NCT03706040) testasi suoraan risankitsumab ia aikuisilla ja nuorilla potilailla, joilla on keskivaikeasta vakavaan atopinen dermatiti, ja todellisen maailman kohortti on ilmoittanut yhdistetystä dupilumabi + risankitsumabi-käytöstä potilailla, joilla on samanaikaisesti atopinen dermatiti ja psoriasis. Merkittävästi kirjallisuus dokumentoi myös tunnustetun paradoksisen haittavaikutus-signaalin — ekseemaattiset/dermatiitin-kaltaiset puhkeamat, jotka ilmaantuvat risankitsumabi-hoidon *aikana* psoriasista (esim. PMID 33185530, 36939506, 41645692) — mikä on kaksiteräinen signaali: se vahvistaa ihon immunologisen aktiivisuuden, joka on merkitsevä dermatiitin poluille, mutta myös flagaa turvallisuushuomion, joka olisi punnittava tehokkuuden rinnalla.
+Erittäin korkea TxGNN-pistemäärä johtuu todennäköisesti lääkkeen vakiintuneesta psoriaasivaikutuksesta ja ihosairauksien läheisyydestä tietoverkossa, ei dermatiittispesifisestä itsenäisestä näytöstä. Kirjallisuudessa kuvataan lisäksi risankitsumabin aikana ilmenneitä ekseemamaisia reaktioita (paradoksaalinen ekseema, noin 1–3 % psoriaasipotilaista), mikä viittaa siihen, että lääke voi joissakin tapauksissa myös laukaista ihottumaa.
 
 ---
 
-## Kliinisten tutkimusten näyttö
+## Kliininen tutkimusnäyttö
 
-| Tutkimusnumero | Vaihe | Tila | Rekrytointi | Tärkeimmät löydökset |
+| Tutkimusnumero | Vaihe | Tila | Osallistujamäärä | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT03706040](https://clinicaltrials.gov/study/NCT03706040) | Vaihe 2 | Valmistunut | 172 | Satunnaistettu, lumekontrollohtu, kaksoissokkoutettu tutkimus risankitsumabista aikuisilla ja nuorilla potilailla, joilla on keskivaikeasta vakavaan atopinen dermatiti — relevanttein tutkimus tähän indikaatioon |
-| [NCT04908475](https://clinicaltrials.gov/study/NCT04908475) | Vaihe 4 | Valmistunut | 352 | Avoin vertailu risankitsumabista vs. apremilastia keskivaikeassa plaakki-psoriasissa; tukee kypsää kliinistä käyttöä tulehduksellisissa ihotaudeissa |
-| [NCT05969223](https://clinicaltrials.gov/study/NCT05969223) | Vaihe 4 | Valmistunut | 214 | Kaksoissokkoutettu tutkimus risankitsumabista keskivaikeasta vakavaan genitaliaali- tai päänahan psoriasissa |
-| [NCT04818385](https://clinicaltrials.gov/study/NCT04818385) | N/A (havainnoiva) | Valmistunut | 240 | Taiwan prospektiivinen kohortti risankitsumabi-vasteen kestävyydestä (PASI 90) vs. muista biologisista lääkkeistä keskivaikeassa plaakki-psoriasissa |
-| [NCT07021495](https://clinicaltrials.gov/study/NCT07021495) | N/A (havainnoiva) | Rekrytointi käynnissä | 840 | Todellisen maailman biomarkkerien profilointi-tutkimus, joka kattaa atopisen dermatiitin, psoriaasin ja muut immuunimedioitua tulehduksellisia ihosairauksia |
-| [NCT07041112](https://clinicaltrials.gov/study/NCT07041112) | N/A (havainnoiva) | Valmistunut | 1000 | Farmakogeneettinen tutkimus 10 vuoden selviytymisestä biologisiin lääkkeisiin ihotaudin psoriasissa ± psoriaattinen artriitti |
-| [NCT07352566](https://clinicaltrials.gov/study/NCT07352566) | Vaihe 4 | Ei vielä rekrytoimassa | 10 | Mikrolaitepohjainen topikaalinen lääkkeiden testauspalvelu atopisen dermatiitin ja psoriaasin osalta; matala suora relevanssi |
+| [NCT03706040](https://clinicaltrials.gov/study/NCT03706040) | Vaihe 2 | Valmistunut | 172 | Satunnaistettu, lumekontrolloitu, kaksoissokkoutettu tutkimus risankitsumabista aikuisilla ja nuorilla, joilla on keskivaikea tai vaikea atooppinen ihottuma. Suoraa näyttöä, mutta tehosignaali on heikko; tulokset tulee varmistaa päätyöstä. |
+| [NCT07352566](https://clinicaltrials.gov/study/NCT07352566) | Vaihe 4 | Ei vielä rekrytoi | 10 | Ihon in situ -mikrolaitteen testaus atooppisessa ihottumassa ja psoriaasissa. Menetelmätutkimus, ei risankitsumabin tehon arviointi; merkitys vähäinen. |
 
 ---
 
-## Kirjallisuuden näyttö
+## Kirjallisuusnäyttö
 
-| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät löydökset |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [36588137](https://pubmed.ncbi.nlm.nih.gov/36588137/) | 2023 | RCT | Dermatology and Therapy | Vaiheen 2 satunnaistettu, kaksoissokkoutettu, lumekontrollohtu tutkimus risankitsumabista keskivaikeassa vakavassa atopisen dermatiitin kanssa, tukien IL-23/IL-22-blokkauksen perustelua AD:ssä |
-| [31098898](https://pubmed.ncbi.nlm.nih.gov/31098898/) | 2019 | Katsaus | Drugs | "Ensimmäinen globaalinen hyväksyntä" -katsaus: risankitsumabi MOA (anti-IL-23 p19) ja alkuperäinen hyväksyntähistoria psoriasis-spektrin sairauksissa |
-| [39201826](https://pubmed.ncbi.nlm.nih.gov/39201826/) | 2024 | Katsaus | Children (Basel) | Biologisten aineiden ja pienten molekyylien narratiivinen katsaus pediatriseen alopecia areataan, psoriasiin, atopisen dermatiitin ja hidrosadeniitti-suppuratiivaan |
-| [33078990](https://pubmed.ncbi.nlm.nih.gov/33078990/) | 2020 | Katsaus | Expert Opinion on Biological Therapy | Katsaus nykyisistä ja nousevista biologisista aineista pediatriseen atopisen dermatiitin hoitoon |
-| [40856907](https://pubmed.ncbi.nlm.nih.gov/40856907/) | 2025 | Katsaus | American Journal of Clinical Dermatology | Systemaattinen katsaus systeemisistä terapioista (mukaan lukien risankitsumabi) erytrodermisen psoriaasin hoitoon |
-| [40794374](https://pubmed.ncbi.nlm.nih.gov/40794374/) | 2025 | Katsaus | Inflammopharmacology | Systemaattinen katsaus interleukiini-inhibiittoreista (incl. IL-23) lichen planuksessa, terapeuttisista ja paradoksaalisista ihoreaktioista |
-| [39668419](https://pubmed.ncbi.nlm.nih.gov/39668419/) | 2025 | Kohortti | International Journal of Dermatology | Yhdistetyn dupilumabi ja risankitsumabi tehokkuus ja turvallisuus potilailla, joilla on samanaikaisesti atopinen dermatiti ja psoriasis |
-| [40071317](https://pubmed.ncbi.nlm.nih.gov/40071317/) | 2025 | Kohortti | Experimental Dermatology | Retrospektiivinen pitkittäistutkimus risankitsumabi-vasteesta potilailla, joilla on historiaa erytrodermisesta psoriasista |
-| [38607726](https://pubmed.ncbi.nlm.nih.gov/38607726/) | 2024 | Katsaus | Military Medicine | Systeeimisten immunomodulatoreiden, mukaan lukien risankitsumabi, uudelleenarviointi psoriaasin ja ekseemasta sotilas-populaatioissa |
-| [37381703](https://pubmed.ncbi.nlm.nih.gov/37381703/) | 2023 | Tapauskertomus | Journal of Dermatological Treatment | Tapaus acrodermatitis continuasta Hallopeausta, jonka risankitsumabi hoiti onnistuneesti ja nopeasti |
+| [36588137](https://pubmed.ncbi.nlm.nih.gov/36588137/) | 2023 | RCT | Dermatology and Therapy | Vaiheen 2 satunnaistettu tutkimus risankitsumabista keskivaikeassa tai vaikeassa atooppisessa ihottumassa |
+| [40856907](https://pubmed.ncbi.nlm.nih.gov/40856907/) | 2025 | Systemaattinen katsaus | Am J Clin Dermatol | Erytrodermisen psoriaasin systeeminen hoito |
+| [40794374](https://pubmed.ncbi.nlm.nih.gov/40794374/) | 2025 | Systemaattinen katsaus | Inflammopharmacology | Interleukiinin estäjien terapeuttiset ja paradoksaaliset vaikutukset punajäkäläs-sairaudessa |
+| [41822639](https://pubmed.ncbi.nlm.nih.gov/41822639/) | 2026 | Systemaattinen katsaus | Cureus | Biologisten lääkkeiden sydän- ja verisuonivaikutukset tulehduksellisissa ihosairauksissa |
+| [31098898](https://pubmed.ncbi.nlm.nih.gov/31098898/) | 2019 | Katsaus | Drugs | Risankitsumabin ensimmäinen maailmanlaajuinen hyväksyntä |
+| [39201826](https://pubmed.ncbi.nlm.nih.gov/39201826/) | 2024 | Katsaus | Children | Biologiset lääkkeet lasten ihosairauksissa |
+| [39668419](https://pubmed.ncbi.nlm.nih.gov/39668419/) | 2025 | Tapaussarja | Int J Dermatol | Dupilumabin ja risankitsumabin yhdistelmä samanaikaisessa atooppisessa ihottumassa ja psoriaasissa |
+| [41645692](https://pubmed.ncbi.nlm.nih.gov/41645692/) | 2026 | Tapausselostus | Dermatology Reports | Upadasitinibi IL-23-estäjien aiheuttaman paradoksaalisen ekseeman hoidossa |
+| [33185530](https://pubmed.ncbi.nlm.nih.gov/33185530/) | 2020 | Tapausselostus | Eur J Dermatol | Ekseemamainen ihottuma psoriaasipotilailla risankitsumabihoidon aikana |
+| [37014149](https://pubmed.ncbi.nlm.nih.gov/37014149/) | 2023 | Tapaussarja | J Cutan Med Surg | Brodalumabin aiheuttama ekseema, hoidon vaihto risankitsumabiin |
 
 ---
 
 ## Suomen markkinatiedot
 
-Risankitsumabi-markkinointilupaa ei ole tällä hetkellä rekisteröity Suomessa (markkinatila: Ei markkinoilla, 0 lupaa).
+| Myyntilupanumero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004759 | Skyrizi | – | Psoriaasi; psoriaattinen niveltulehdus; haavainen paksusuolitulehdus; Crohnin tauti (lupa peruutettu) |
 
 ---
 
-## Turvallisuushuomiot
+## Turvallisuusnäkökohdat
 
-Katso lisätietoja pakkausselosteesta.
+Pakkausselosteen varoituksia ja vasta-aiheita ei ole saatavilla tähän raporttiin koottuna aineistona; tarkista turvallisuustiedot valmisteyhteenvedosta.
 
-*Huomautus: TFDA/EMA-vastaavan pakkausselosteen (varoitukset, vasta-aiheet) hankkiminen merkitään tässä näyttöpaketissa estäväksi tietovajeeksi, mikä tarkoittaa, että muodollista S1-turvallisuus-esiarviointia ei voida tällä hetkellä suorittaa. Erillään tästä kirjallisuuden näyttöperusta nostaa esille toistuvan paradoksisen haittavaikutus-signaalin — ekseemaattiset/dermatiitin-kaltaiset puhkeamat, jotka ilmaantuvat risankitsumabi-hoidon aikana (PMID 33185530, 36939506, 33185535, 41645692, 37014149) — joka olisi otettava huomioon tulevassa turvallisuusarvioinnissa erityisesti dermatiitin indikaation osalta.*
+**Lääkeyhteisvaikutukset:** Yhteensä 78 yhteisvaikutusta on tunnistettu. Merkittävimmät (vakavuus Major):
+- Adalimumabi
+- Barisitinibi
+- Sertolitsumabipegoli
+- Kladribiini
+
+Moderate-tason yhteisvaikutuksia ovat mm. takrolimuusi, siklosporiini, atsatiopriini, anakinra, alemtutsumabi, denosumabi, roflumilastii sekä eräät rokotteet (esim. kolera-, pernarokko- ja jäykkäkouristusrokote). Sinkkivalmisteiden yhteisvaikutukset ovat vähäisiä (Minor).
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Johtopäätös ja jatkotoimet
 
-**Päätös: Pidätä**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Mekanistinen perustelut (IL-23/Th17-blokkaus) ja valmistunut vaiheen 2 RCT atopisen dermatiitin kanssa (L2-näyttö) tarjoavat todellisen tehokkuussignaalin, mutta estävä tietovaje virallisen turvallisuusmerkinän osalta ja lääkkeen puuttuminen Suomen markkinoilta (0 lupaa) tarkoittavat, että turvallisuus-esiarviointia (S1) ei voida tällä hetkellä suorittaa.
+- Ainoa suora vaiheen 2 RCT atooppisessa ihottumassa ei osoita selvää tehoa, ja mekanistinen sopivuus on heikko Th2-vetoisessa taudissa. Lisäksi risankitsumabi voi aiheuttaa paradoksaalista ekseemaa. Muiden ennustettujen käyttöaiheiden (sijat 2–10) näyttö on pelkästään laskennallista (L5). Suomessa ainoa myyntilupa on peruutettu.
 
-**Edetäkseen seuraavaa tarvitaan:**
-- TFDA/EMA-vastaava pakkausseloste (varoitukset ja vasta-aiheet) S1-turvallisuus-esiarviointin täydentämiseksi
-- Vahvistettu alkuperäinen indikaatio ja täydellinen MOA-dokumentointi DrugBankista
-- DDI-datasetti (nykyinen kysely ei palauttanut tuloksia)
-- Kohdistettu katsaus paradoksisen ekseemaattisen reaktion kirjallisuuteen riskin arvioimiseksi, kun lääkettä uudelleenkäytetään primaariksi dermatiitin indikaatioksi
-- Sääntelypolun arviointi Suomen markkinoille pääsystä ottaen huomioon nykyinen "Ei markkinoilla" -tilanne
-
+**Eteenpäin siirtyminen edellyttää:**
+- Vaiheen 2 tutkimuksen (NCT03706040 / PMID 36588137) tehotulosten tarkistamista päätyöstä
+- Tarkempaa rajausta dermatiittifenotyypille, jossa IL-23/Th17-reitti on keskeinen (psoriaasinkaltainen tai sekamuotoinen)
+- Yksityiskohtaisia vaikutusmekanismitietoja
+- Valmisteyhteenvedon turvallisuustietoja (varoitukset, vasta-aiheet)
+- Selvitystä Suomen myyntilupatilanteesta (nykyinen lupa peruutettu)
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

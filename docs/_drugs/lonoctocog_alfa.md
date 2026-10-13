@@ -2,7 +2,7 @@
 layout: default
 title: Lonoctocog Alfa
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 233
+nav_order: 269
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,91 +29,87 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-# LONOCTOCOG ALFA: Tekijän VIII korvaava hoito pseudo-von Willebrandin taudista
+# Lonoctokogi alfa: Hemofilia A:sta pseudo-von Willebrandin tautiin
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-> Lonoctocog alfa on yksketjuinen rekombinantti tekijä VIII (rFVIII) -korvaustuote, joka vaikuttaa sisäisessä hyytymiskaskaadissa (FVIIIa–FIXa -tenaasikomplekksi).
-> TxGNN-malli ennustaa, että se saattaa olla tehokas **pseudo-von Willebrandin taudin** hoitoon,
-> mutta tämä kandidaatti – yhdessä 3 muun verihiutale-häiriön kandidaatin kanssa – **ei ole tukevia kliinisiä tutkimuksia tai kirjallisuutta**, ja lääkkeen mekanistiset perusteet nimenomaan vastustavat biologista uskottavuutta.
-
----
-
-## Nopea yleiskatsaus
-
-| Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Ei vahvistettu — hyväksyttyä lupaa tai indikaatiotekstiä ei ole saatavilla tässä näyttöpaketissa (lääkettä ei ole markkinoilla Suomessa) |
-| Ennustettu uusi indikaatio | Pseudo-von Willebrandin tauti |
-| TxGNN-ennustepisteet | 99.85% |
-| Näyttötaso | L5 (vain mallin ennuste, ei tukevia tutkimuksia) |
-| Suomen markkinatilanne | ✗ Ei markkinoilla |
-| Lupien lukumäärä | 0 |
-| Suositeltu päätös | Pidä |
+Lonoctokogi alfa on rekombinantti, yksiketjuinen ja B-domeenista typistetty hyytymistekijä VIII -valmiste, jota on alun perin käytetty **hemofilia A:n** hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **pseudo-von Willebrandin tautiin** (pistemäärä 99,85 %), mutta ennusteen tueksi ei ole **yhtään kliinistä tutkimusta eikä julkaisua**.
 
 ---
 
-## Miksi tämä ennuste on perusteltu?
+## Pikakatsaus
 
-Yksityiskohtaista vaikutusmekanismin tietoa ei ole saatavilla suoraan (`original_moa` on tietoväli). Uudelleenkäyttöperustelut tässä näyttöpaketissa kuvaavat kuitenkin johdonmukaisesti lonoctocog alfaa yksketjuisenä rekombinantti tekijä VIII (rFVIII) -tuotteena, joka **ei sisällä** von Willebrandin tekijää (VWF), ja joka toimii FVIIIa-kofaktorina sisäisen hyytymisen tenaasikomplekkissa (FVIIIa–FIXa).
-
-Kriittisesti, pseudo-von Willebrandin taudin mekanistinen analyysi selvästi toteaa, että häiriö juontuu **verihiutaleissa tapahtuvan GPIbα-gain-of-function-mutaatiosta** – epänormaalisti lisääntyneestä verihiutaleissa VWF:ään kohdistuvasta affiniteetista, joka kuluttaa korkean molekyylipainon VWF-multimeereja. Patologia sijaitsee verihiutale-reseptorin tasolla, ei hyytymistekijä-tasolla. FVIII-täydennys ei korjaa GPIbα–VWF-sitoutumisen poikkeavuuksia, joten lääkkeen ja tämän indikaation välillä ei ole suoraa mekanistista yhteyttä.
-
-Sama kaava pätee kaikkiin neljään TxGNN-sijoitettuun kandidaattiin (pseudo-vWD, primäärinen verihiutaleista vapautumisen häiriö, Glanzmannin trombasctenia, Scottin oireyhtymä): jokainen on **verihiutale-toiminto- tai verihiutale-reseptori-häiriö**, kun taas lonoctocog alfa kattaa **hyytymistekijän puutoksen**. Näyttöpaketin omien perusteiden mukaan TxGNN:n korkeat pisteet heijastuvat todennäköisesti lähinnä topologiseen läheisyyteen "hemostaasin/hyytymisen" tautiryppään sisällä tietokaavassa, eikä todelliseen farmakologiseen reititykseen. Jopa Scottin oireyhtymiä koskien, jossa FVIIIa on kirjaimellisesti oleellisen entsyymikomplekksin komponentti, vika on verihiutale-kalvon fosfolipidien sekoittumisessa (ANO6), ei FVIII:n saatavuudessa — joten täydennys ei voi palauttaa puuttuvaa biologiaa.
-
----
-
-## Kliinisen tutkimuksen näyttö
-
-Tällä hetkellä ei ole rekisteröityjä kliinisiä tutkimuksia liittyen tähän
+| Kohde | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | Hemofilia A |
+| Ennustettu uusi käyttöaihe | Pseudo-von Willebrandin tauti (verihiutaletyyppinen VWD) |
+| TxGNN-ennusteen pistemäärä | 99,85 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Kirjallisuuden näyttö
+## Miksi ennuste voisi olla perusteltu?
 
-Tällä hetkellä ei ole saatavilla olevaa kirjallisuutta
+Lonoctokogi alfa korvaa hemofilia A:ssa puuttuvan tekijä VIII:n aktiivisuuden. Tarkempaa vaikutusmekanismitietoa ei ole tässä raportissa käytettävissä. Tunnetun tiedon perusteella lääke on rekombinantti FVIII-korvaushoito, jonka teho hemofilia A:ssa on osoitettu.
 
----
+Pseudo-von Willebrandin taudissa vika on verihiutaleiden GPIbα-reseptorin toiminnan lisääntymisessä (gain-of-function). Tämä lisää reseptorin sitoutumista von Willebrand -tekijään (VWF), jolloin suurimolekyylisiä VWF-multimeerejä häviää ja verihiutaleita poistuu verenkierrosta. Teoreettinen yhteys on, että FVIII kiertää verenkierrossa VWF:hen sitoutuneena, joten FVIII-pitoisuus voi laskea VWF:n vähentyessä.
 
-## Suomen markkinatiedot
+Ensisijainen vika on kuitenkin verihiutaleperäinen, eikä FVIII-korvaus korjaa sitä. Korkea TxGNN-pistemäärä on pelkkä laskennallinen ennuste, jota ei tue mekanistinen eikä kliininen aineisto.
 
-Lonoctocog alfa ei tällä hetkellä ole hyväksytty Suomessa (0 lupaa rekistereissä); tämän näyttöpaketin tuote-/annosmuoto-/indikaatiotiedot eivät ole saatavilla.
+Muut mallin ennustamat käyttöaiheet ovat samanlaisia:
 
----
-
-## Turvallisuushuomiot
-
-Turvallisuustiedot löytyvät pakkausselosteesta.
-
----
-
-## Muut TxGNN-luokitellut kandidaatit (ei ensisijaisia)
-
-Täydellisyyden vuoksi, kolme muuta verihiutale-häiriön kandidaattia merkittiin samankaltaisesti korkeilla TxGNN-pisteillä, mutta samalla tutkimusnäytön puutoksella ja samalla mekanistisella erolla (reseptori-/granuuli-/scramblaasivirheistä vs. hyytymistekijän korvaus):
-
-| Sijoitus | Sairaus | TxGNN-pisteet | Näyttötaso | Päätös |
-|------|---------|-------------|-----------------|----------|
-| 2 | Primäärinen verihiutaleista vapautumisen häiriö | 99.84% | L5 | Pidä |
-| 3 | Glanzmannin trombasctenia | 99.76% | L5 | Pidä |
-| 4 | Scottin oireyhtymä | 99.44% | L5 | Pidä |
-
-Missään näistä ei ole rekisteröityjä kliinisiä tutkimuksia tai kirjallisuustukea.
+| Ennustettu käyttöaihe | TxGNN-pistemäärä | Arvio mekanistisesta yhteydestä |
+|------|------|------|
+| Verihiutaleiden primaarinen vapautumishäiriö | 99,84 % | Lääke ei vaikuta verihiutaleiden granulaaritoimintaan; hyöty korkeintaan epäsuora |
+| Glanzmannin trombastenia | 99,76 % | Vika on verihiutaleiden aggregaatiossa (αIIbβ3), FVIII-tasot ovat yleensä normaalit; perustetta tehoon ei löytynyt |
+| Scottin oireyhtymä | 99,44 % | Käsitteellinen yhteys tenaasikompleksin kautta, mutta FVIII:n lisääminen ei korjaa puuttuvaa fosfatidyyliseriinipintaa |
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Kliininen tutkimusnäyttö
 
-**Päätös: Pidä**
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
+
+---
+
+## Kirjallisuusnäyttö
+
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
+
+---
+
+## Tiedot Suomen markkinoilta
+
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004075 | Afstyla | – | Hemofilia A |
+
+Myyntilupa on peruutettu, eikä voimassa olevia myyntilupia ole.
+
+---
+
+## Turvallisuusnäkökohdat
+
+Turvallisuustiedot on tarkistettava valmisteyhteenvedosta. Lääkkeiden yhteisvaikutuksia ei löytynyt kyselyssä.
+
+---
+
+## Johtopäätös ja jatkotoimet
+
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Kaikissa neljässä ennustetussa indikaatiossa tutkimusnäyttö perustuu ainoastaan TxGNN-mallin pisteisiin (L5), eikä kliinisiä tutkimuksia tai kirjallisuusviitteitä ole löydetty 12 kohdennetussa haussa. Lääkkeen mekanistiset perusteet nimenomaan vastustavat biologista uskottavuutta jokaiselle kandidaatille, koska kohdesairaudet ovat verihiutale-toiminto- tai -reseptorivikoja eikä hyytymistekijän puutosta, johon FVIII-korvaus voisi vaikuttaa.
+- Ennuste perustuu pelkästään TxGNN-malliin (L5), eikä tueksi ole kliinisiä tutkimuksia tai kirjallisuutta. Mekanistinen peruste on heikko, koska ensisijainen vika on verihiutaleperäinen. Lisäksi valmisteen myyntilupa Suomessa on peruutettu.
 
-**Jatkaakseen seuraavaa tarvitaan:**
-- Lonoctocog alfan alkuperäinen indikaatio ja säätelyn hyväksymishistoria (tällä hetkellä puuttuu)
-- Vaikutusmekanismi (MOA) -tiedot DrugBankista tai valmistajan merkinnöistä
-- TFDA/Fimean pakkausseloste varoitukset ja vasta-aiheet (tällä hetkellä estävä tietoväli per `DG001`)
-- Riippumaton farmakologinen tai prekliininen perustelut, jotka yhdistävät FVIII-täydennyksen mihinkään neljästä verihiutale-häiriön kandidaatista ennen kuin siirrytään eteenpäin S0:sta
-
+**Eteneminen edellyttää seuraavaa:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen ja läpikäynti (Fimean sivusto), sillä ne puuttuvat ja estävät turvallisuusseulonnan
+- Vaikutusmekanismitietojen täydentäminen (DrugBank)
+- Kirjallisuushaku ja prekliiniset tutkimukset FVIII-korvauksen hyödystä verihiutaleperäisissä vuototaudeissa
+- Selvitys valmisteen saatavuudesta ja myyntiluvan tilasta Suomessa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

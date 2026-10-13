@@ -2,7 +2,7 @@
 layout: default
 title: Etravirine
 parent: Kohtalainen näyttö (L3-L4)
-nav_order: 157
+nav_order: 181
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,72 +29,90 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# ETRAVIRINE: HIV-1-infektiosta Simian Immunodeficiency Virus -infektioon
+# Etraviriini: HIV-infektiosta apinoiden immuunikatovirusinfektioon
 
-## Yhden lauseen yhteenveto
+## Yhden lauseen tiivistelmä
 
-Etravirine on toisen sukupolven ei-nukleosidinen käänteistranskriptaasi-inhibiittori (NNRTI), joka on alun perin kehitetty HIV-1-infektion hoitoon. TxGNN-mallin huippuennuste on **Simian Immunodeficiency Virus (SIV) -infektio**, mutta sitä tukee tällä hetkellä vain **0 kliinistä tutkimusta** ja **1 prekliininen/in vitro -julkaisu**, ja todistusten paketti itse merkitsee mekanistisen perustelun olevan heikko ja suuntasuhteeltaan epävarma.
+Etraviriini on ei-nukleosidirakenteinen käänteiskopioijaentsyymin estäjä (NNRTI), jota on alun perin käytetty HIV-infektion hoitoon.
+TxGNN-malli ennustaa sen mahdollisesti tehoavan **apinoiden immuunikatovirusinfektioon (SIV)**, mutta tukena on vain **1 julkaisu** eikä yhtään kliinistä tutkimusta.
+Ennuste on lähinnä HIV-käyttöaiheen laajennus eläinmallin suuntaan, ei uusi hoitokäyttö ihmiselle.
 
 ---
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | HIV-1-infektio (uudelleenkäyttöä koskevan perustelun mukaan; virallista Suomen lupaa ei ole) |
-| Ennustettu uusi indikaatio | Simian Immunodeficiency Virus (SIV) -infektio |
-| TxGNN-ennustepisteet | 99.98% |
-| Todisteen taso | L4 |
-| Suomen markkinatilanne | ✗ Ei markkinoitu |
-| Lupahakemusten lukumäärä | 0 |
-| Suositeltu päätös | Odotus |
+|------|------|
+| Alkuperäinen käyttöaihe | HIV-infektio |
+| Ennustettu uusi käyttöaihe | Apinoiden immuunikatovirusinfektio (SIV) |
+| TxGNN-ennusteen pistemäärä | 99,98 % |
+| Näytön taso | L4 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Miksi tämä ennuste on perusteltu?
+## Miksi ennuste on järkevä?
 
-Yksityiskohtaisia tietoja vaikutusmekanismista (MOA) ei ole saatavilla tässä todistusten paketissa (MOA on merkitty tietovajeeksi, DG002). Saatavilla olevan tiedon perusteella etravirine kuuluu NNRTI-luokkaan ja on vakiintunut HIV-1-hoidon perustoimijana sitomalla käänteistranskriptaasin (RT) ei-nukleosidiseen siteeseen viruksen replikaation estämiseksi.
+Etraviriini on NNRTI-lääke, joka estää HIV-1:n käänteiskopioijaentsyymiä. Tarkempia mekanismitietoja ei ole tässä raportissa käytettävissä olevassa aineistossa.
 
-SIV ja HIV-1 ovat molemmat lentivirukset, joilla on rakenteellisesti siihen liittyvät käänteistranskriptaasit, mikä selittää oletettavasti TxGNN-upotintamallin tekemän yhteyden näiden välille. Todistusten paketin oma perusteluteksti kuitenkin nimenomaisesti varoittaa, että SIV:n käänteistranskriptaasi eroaa merkittävästi HIV-1:n RT:stä NNRTI-sitteen sekvenssitasolla, ja että useimmat NNRTI:t – mukaan lukien etravirine – osoittavat huomattavasti heikentynyttä aktiivisuutta SIV:a vastaan verrattuna HIV-1:een. Tämä tarkoittaa, että tämän ennusteen taustalla oleva mekanistinen ekstrapolointi on heikko ja sen suuntasuhde epävarma, vakiintuneen lajienvälistä mekanismia vastoin.
+SIV on HIV:n läheinen sukulainen, ja molemmat ovat lentivirusryhmään kuuluvia retroviruksia. Tämän vuoksi ennuste vaikuttaa ensi silmäyksellä uskottavalta. Mekanistisesti se on kuitenkin epävarma: HIV-2 ja SIV ovat luontaisesti vastustuskykyisiä useimmille NNRTI-lääkkeille, joten etraviriinin teho SIV:tä vastaan on kyseenalainen.
 
-Tätä varoitusta tukee se tosiasia, että ainoa tätä indikaatiota varten hankittu kirjallisuusviite on yksittäinen vuodelta 2015 peräisin oleva in vitro-/prekliininen nanopartikkelivetoinen lääkeannostelujärjestelmä käsittelevä tutkimus, joka ei suoraan tutki etravirinin aktiivisuutta SIV:a vastaan. Kliinisiä tutkimuksia, ICTRP-merkintöjä tai SIV:lle spesifisiä antiviraalisen aktiivisuuden tutkimuksia ei ole olemassa. Yhteenvetona tämä ennuste tulisi tulkita mallin tuottamaksi hypoteesiksi, joka vaatii kokeellisen laboratoriovahvistuksen, ei todistusten perusteella tuetuksi uudelleenkäyttösignaaliksi.
+Ainoa löydetty julkaisu käsittelee nanopartikkelipohjaisia antiretroviraalisia lääkeyhdistelmiä HIV:n siirtymisen estossa. Siinä ei testata etraviriinia SIV:ssä suoraan.
 
 ---
 
 ## Kliinisen tutkimuksen näyttö
 
-Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia.
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
 ---
 
-## Kirjallisuuden näyttö
+## Kirjallisuusnäyttö
 
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [26529558](https://pubmed.ncbi.nlm.nih.gov/26529558/) | 2015 | Prekliininen (in vitro) | Molecular Pharmaceutics | Nanopartikkelijärjestelmään perustuva antiretroviruslääkkeiden yhdistelmäannostelu (mukaan lukien NNRTI:t) arvioitiin vapaan ja solu-solun välisen HIV-siirtymisen synergistiselle estämiselle; ei suoraan tutki etravirinin aktiivisuutta SIV:a vastaan. |
+| [26529558](https://pubmed.ncbi.nlm.nih.gov/26529558/) | 2015 | Prekliininen / in vitro | Molecular Pharmaceutics | Nanopartikkelipohjaiset ARV-lääkeyhdistelmät estivät synergistisesti solun ulkoista ja solusta soluun tapahtuvaa HIV-siirtymistä. Etraviriinia ei testattu suoraan SIV:ssä. |
 
 ---
 
-## Turvallisuusnäkökohdat
+## Myyntiluvat Suomessa
 
-Turvallisuustiedot löytyvät pakkausselosteesta.
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000900 | Intelence | – | HIV-infektio (peruutettu) |
+
+---
+
+## Turvallisuushuomiot
+
+- **Lääkeyhteisvaikutukset:** Yhteisvaikutushaussa löytyi yhteensä 100 yhteisvaikutusta. Merkittävimpiä (keskivaikeita) ovat mm. omepratsoli, rabepratsoli, simetidiini, klaritromysiini, metronidatsoli, deksametasoni, hydrokortisoni, betametasoni, triamsinoloni, aprepitantti, pioglitatsoni, glimepiridi, klooripropamidi, saksagliptiini, linagliptiini, dronabinoli, eliglustaatti, naldemedini ja naloksegoli. Ranitidiinin yhteisvaikutus on lievä.
+- **Tietämysgraafin vasta-aiheet (ei valmisteyhteenvedosta):** krooninen hepatiitti C -virusinfektio, hepatiitti C -virusinfektio, krooninen hepatiitti B -virusinfektio, ääreishermoston sairaus ja perifeerinen neuropatia.
+
+Valmisteyhteenvedon varoitukset ja vasta-aiheet ovat tarkistamatta; katso turvallisuustiedot valmisteyhteenvedosta.
 
 ---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Odotus**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Huippusijoituksella oleva ennuste (SIV-infektio) perustuu yksittäiseen epäsuoraan prekliiniseen tutkimukseen, jolla ei ole SIV:a vastaan kohdistuvaa suoraa antiviraalisen aktiivisuuden näyttöä, ja todistusten paketti itse merkitsee RT-sekvenssisen mekanistisen yhteyden olevan heikko ja suuntasuhteeltaan epävarma (L4, S0). Kriittiset lääkkeeseen liittyvät tiedot – TFDA/Fimea-pakkausseloste varoitukset ja vasta-aiheet (esto, DG001) sekä yksityiskohtainen MOA (DG002) – puuttuvat myös, joten tämä ehdokas ei vielä läpäise perustason turvallisuusarvioita.
+- Näyttö rajoittuu yhteen välillisesti aiheeseen liittyvään prekliiniseen julkaisuun, eikä kliinisiä tutkimuksia ole. SIV on lisäksi luontaisesti NNRTI-resistentti, ja ennuste on pikemmin eläinmallin laajennus kuin ihmisen uusi hoitokäyttö. Myyntilupa Suomessa on peruutettu.
 
-**Jatkaakseen seuraavat tiedot ovat tarpeen:**
-- TFDA/Fimea-pakkausseloste tiedot (varoitukset, vasta-aiheet) – tällä hetkellä esto (DG001)
-- Vahvistettu mekanismin yksityiskohdat DrugBankista (DG002)
-- Etravirinin in vitro- tai in vivo -antiviraalisen aktiivisuuden tiedot erityisesti SIV-käänteistranskriptaasia vastaan
-- Linkitetyn todistusjoukon tietojen puhdistaminen: useat alemmille sijoille sijoittuneisiin ennusteisiin liitetyt tutkimukset (esim. sijoitus 4, "synnynnäinen HIV") tutkivat itse asiassa muita antiretrovirusaineita (cabotegravir, rilpivirine, fosdevirine, darunavir) etravirinin sijasta, ja yksi tutkimus (NCT04273165, etravirine Friedreichin ataksian yhteydessä) näyttää väärin luokitelluksi liittyen liittymättömään neuroevolutionaariseen häiriöön (sijoitus 3) – nämä tulisi korjata ennen uudelleenpisteitystä
-- Huomio: sijoitukset 4–5 ("synnynnäinen HIV", "AIDSiin liittyvä kompleksi") toistavat suurelta osin etravirinin olemassa olevaa hyväksyttyä HIV-1-mekanismia uudelleenkäyttösignaalin sijasta; sijoitukset 6–10 joilla ei ole tukevaa näyttöä (L5) ja niiden tulisi jäädä Odotukseen
+**Eteenpäin siirtyminen edellyttää:**
+- Etraviriinin suoraa in vitro -tehotestausta SIV:tä vastaan
+- Yksityiskohtaisia mekanismitietoja (MOA)
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittämistä
+- Arviota siitä, onko ennusteella lainkaan translationaalista arvoa ihmisen hoidolle
 
+### Huomio muista ennusteista
+
+Muista kymmenen parhaan ennusteen joukossa olevista käyttöaiheista ei löytynyt vahvaa näyttöä:
+- **Synnynnäinen HIV** (taso L3): kuuluu alkuperäisen käyttöaiheen piiriin; tukena vain kaksi raskaana olevaa koskeva tapausraportti (2010), joten lasten annostus- ja tehotietoja ei ole.
+- **AIDS-related complex** (L4): kuuluu alkuperäisen HIV-käyttöaiheen piiriin; julkaisut ovat epäsuoria.
+- **Muut ennusteet** (kissan immuunikatoyhtymä, neurokehityshäiriö, eturauhasen fibrooma, Brennerin kasvain, hyvänlaatuiset sukuelinkasvaimet, eturauhasen hyvänlaatuinen phyllodes-kasvain, vanhentunut familiaalinen yhdistetty hyperlipidemia): ei kliinistä näyttöä eikä uskottavaa mekanismia, ja ne ovat todennäköisesti tietämysgraafin artefakteja.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

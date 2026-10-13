@@ -2,7 +2,7 @@
 layout: default
 title: Bupivacaine
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 81
+nav_order: 88
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,63 +29,99 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-# Bupivakaiini: paikallispuudutuksesta akrodermatitis chronica atrophicansiin
+# Bupivakaiini: Akuutin kivun hoidosta ennustettuun käyttöön kroonisessa atrofisessa akrodermatiitissa
 
 ## Yhden lauseen yhteenveto
 
-Bupivakaiini on amidiluokan paikallispuudutusaine, joka estää jänniteherkkiä natriumkanavia vaientaakseen hermojohtumista, ja sitä käytetään kliinisesti paikalliseen ja alueelliseen puudutukseen. TxGNN-malli ennustaa, että se saattaa olla tehokas **akrodermatitis chronica atrophicansissa**, kroonisessa ihomuutoksessa, jonka aiheuttaa *Borrelia burgdorferi* -infektio, mutta tämän ennusteen tueksi on tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua**, ja mallin oman mekanistisen arvioinnin mukaan biologinen yhteys ei ole uskottava.
+Bupivakaiini on pitkävaikutteinen amidityyppinen paikallispuudute, jota on käytetty akuutin kivun hoitoon.
+TxGNN-malli ennustaa sen voivan olla tehokas **kroonisessa atrofisessa akrodermatiitissa (acrodermatitis chronica atrophicans)**,
+mutta tälle suunnalle ei ole toistaiseksi **yhtään kliinistä tutkimusta eikä julkaisua**. Ennuste perustuu pelkästään mallin laskentaan.
 
-## Nopea yleiskatsaus
+---
 
-| Osio | Sisältö |
-|------|--------|
-| Alkuperäinen indikaatio | Paikallispuudutus (amidiluokan paikallispuudutusaine; erityistä hyväksyttyä indikaatiotekstiä ei ole saatavilla) |
-| Ennustettu uusi indikaatio | Akrodermatitis chronica atrophicans |
-| TxGNN-ennusteen pistemäärä | 99.23% |
-| Todisteen taso | L5 |
-| Suomen markkinoiden tila | Ei markkinoilla |
-| Lupa-autorisaatioiden lukumäärä | 0 |
-| Suositeltu päätös | Pidä varauksissa |
+## Pikakatsaus
 
-## Miksi tämä ennuste on kohtuullinen?
+| Kohta | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | Akuutti kipu |
+| Ennustettu uusi käyttöaihe | Krooninen atrofinen akrodermatiitti (acrodermatitis chronica atrophicans) |
+| TxGNN-ennustepisteet | 99,23 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
+| Myyntilupien määrä | 1 |
+| Suositeltu päätös | Hold (odotetaan) |
 
-Yksityiskohtaisia mekanistisen vaikutuksen tietoja ei ole saatavilla strukturoidussa muodossa tälle kandidaatille. Ennusteeseen sisältyvän mekanistisen arvioinnin perusteella bupivakaiini on amidiluokan paikallispuudutusaine, jonka vakiintunut farmakologia on jänniteherkkien natriumkanavien esto, mikä vaimentaa hermostojen johtumista paikalliseen ja alueelliseen puudutukseen.
+---
 
-Akrodermatitis chronica atrophicans on sitä vastoin kroonisen *Borrelia burgdorferi* -infektoin myöhäisen vaiheen ihomuutos, jota ohjaavat krooniset tulehdus ja poikkeava kollageenin aineenvaihdunta, jotka johtavat ihon fibroosin ja atrofian. Natriumkanavien esto ja tätä sairautta taustalla olevia tulehduksellisia tai fibroottisia prosesseja yhdistävää vakiintunutta farmakologista polkua ei ole.
+## Miksi ennuste on (tai ei ole) perusteltu?
 
-Todiste-aineiston oma perustelu tälle ennusteelle toteaa eksplisiittisesti, että uskottavaa mekanistista polkua ei voida muodostaa alkuperäisen MOA-dokumentaation puuttuessa, ja että pistemäärää tulisi käsitellä puhtaana TxGNN-upotussamankaltaisuustuotoksena eikä biologisesti perusteltuna hypoteesina. Kolme muuta kandidaatin indikaatiota (vastasyntyneiden dermatomyosiitti, lapsuusiän interstissiaalinen keuhkosairaus sidekudossairauden seurauksena ja amyopaattinen dermatomyosiitti) arvioitiin myös bupivakaiinille samankaltaisilla korkeilla TxGNN-pisteillä (99,0–99,15%), ja jokainen johtaa samaan johtopäätökseen — tunnetusta immunomodulaattori-, antifibroottisesta tai sairauteen liittyvästä farmakologiasta puuttuu, eikä tutkimuksia tai kirjallisuutta ole. Kaksi näistä (vastasyntyneiden ja lapsuusiän alkamisvaiheessa olevan olosuhteen) herättävät lisäksi turvallisuushuolia bupivakaiinin tunnetun sydäntoksisuuden ja vähennetyn erittymisen vuoksi vastasyntynöissä tai imisiä.
+Yksityiskohtaista vaikutusmekanismia ei ole tässä raportissa käytettävissä. Tiedossa on, että bupivakaiini on pitkävaikutteinen amidityyppinen paikallispuudute, joka salpaa jänniteherkkiä natriumkanavia. Sen teho akuutin kivun hoidossa on osoitettu.
 
-## Kliinisen tutkimuksen todisteet
+Krooninen atrofinen akrodermatiitti on Borrelia-infektion myöhäisvaiheen ihomuutos, jota hoidetaan antibiooteilla. Natriumkanavasalpauksen ja taudin välillä ei ole selvää mekanistista yhteyttä. Ainoa mahdollinen yhteys olisi neuropaattisen kivun oireenmukainen lievitys, mikä on spekulatiivista. Korkea pistemäärä on siis todennäköisesti verkkopohjaisen ennusteen tulos, ei osoitus todellisesta vaikutuksesta.
 
-Tällä hetkellä ei ole asiaan liittyviä rekisteröityjä kliinisiä tutkimuksia
+Muut ennustetut käyttöaiheet ovat samankaltaisia heikosti perusteltuja:
 
-## Kirjallisuuden todisteet
+| Sija | Ennustettu käyttöaihe | TxGNN-pisteet | Huomio |
+|------|------|------|------|
+| 2 | Vastasyntyneen dermatomyosiitti | 99,15 % | Bupivakaiinin tunnettu myotoksisuus on turvallisuushuoli tulehduksellisessa lihassairaudessa; vastasyntyneillä annostelussa tarvitaan lisävarovaisuutta |
+| 3 | Lapsuuden sidekudossairauteen liittyvä sekundaarinen interstitiaalinen keuhkosairaus | 99,11 % | Ei tunnettua anti-fibroottista tai immuunivastetta muokkaavaa vaikutusta |
+| 4 | Amyopaattinen dermatomyosiitti | 99,03 % | Ryhmittyy muiden dermatomyosiitti- ja keuhkosairausennusteiden kanssa, mikä viittaa verkkorakenteesta johtuvaan artefaktaan |
 
-Tällä hetkellä ei ole asiaan liittyvää saatavilla olevaa kirjallisuutta
+---
+
+## Kliininen tutkimusnäyttö
+
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
+
+---
+
+## Kirjallisuusnäyttö
+
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
+
+---
 
 ## Suomen markkinatiedot
 
-Tälle markkinalle ei löydetty bupivakaiinin markkinointilupaa (yhteensä lupa-autorisaatioita: 0; markkinoiden tila: Ei markkinoilla).
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004586 | Exparel liposomal | – | Akuutti kipu |
+
+Tämä myyntilupa on tilassa peruutettu, joten voimassa olevia myyntilupia ei ole.
+
+---
 
 ## Turvallisuusnäkökohdat
 
-Turvallisustietoja löydät pakkausselosteesta.
+**Tietokannan kontraindikaatiot (tietämysgraafista, ei valmisteyhteenvedosta):**
+TxGNN-tietämysgraafin mukaan bupivakaiinin ja seuraavien tilojen välillä on vasta-aiheisuuteen viittaava yhteys. Tiedot eivät perustu valmisteyhteenvedon tekstiin, joten ne on varmistettava virallisista lähteistä:
+- Sydän- ja verisuonisairaudet: verenpainetauti, hypotensio, eteisvärinä, sepelvaltimotauti, sydäninfarkti, sepelvaltimotromboosi, äkillinen sydänpysähdys, sydämen johtumishäiriöt
+- Maksa- ja munuaissairaudet: maksan vajaatoiminta, maksasairaus, munuaissairaus, sappirakkosairaus, märkävirtsanjohdin (pyoureter)
+- Hengityselimet: keuhkoahtaumatauti (COPD), hengitysvajaus
+- Umpieritys ja aineenvaihdunta: kilpirauhasen vajaatoiminta (myös synnynnäinen), myksedeema, diabetes, diabeettinen ketoasidoosi, kaliumin puutos
+- Muut: epilepsia, tulehdukselliset suolistosairaudet, hyvänlaatuinen eturauhasen liikakasvu, ahdaskulmaglaukooma, hemoglobinopatia, päihteiden väärinkäyttö tai riippuvuus
 
-*Huomio: Pakkausselosteen varoitukset/vasta-aiheet ja lääkkeen vuorovaikutusdata tälle kandidaatille on merkitty estäväksi tietovajeeksi (DG001) ja niitä ei ole vielä haettu — tämä on ratkaistava, ennen kuin S1-turvallisuustarkistus voidaan jatkaa.*
+**Lääkeyhteisvaikutukset:** Tietokannasta löytyi yhteensä 56 yhteisvaikutusta. Keskeisimmät:
+- Moderaatit: aprepitantti, liposomaalinen morfiini
+- Vaikeusaste tuntematon, esimerkkejä: pantopratsoli, omepratsoli, lansopratsoli, vankomysiini, atropiini, simvastatiini, prednisoni, deksametasoni, ondansetroni, metronidatsoli, naloksoni, metoklopramidi
 
-## Johtopäätökset ja seuraavat vaiheet
+Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat aineistosta, joten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
-**Päätös: Pidä varauksissa**
+---
 
-**Perustelu:**
-Tällä kandidaatilla on todisteen taso L5 (vain mallin ennuste) nollan tukevan kliinisen tutkimuksen tai kirjallisuuden kanssa, ja mekanistinen perustelu ei itsessään löydä biologisesti uskottavaa yhteyttä bupivakaiinin natriumkanavien blokkausaktiviteetin ja akrodermatitis chronica atrophicansin fibrotiikin tai tulehduksellisen patologian välillä. Lääkkeen markkinoimattoman aseman ja puuttuvan turvallisuusdokumentaation ohella tällä hetkellä ei ole perusteita edetä tämän kandidaatin yli malliennusteen.
+## Johtopäätös ja seuraavat vaiheet
 
-**Edetäkseen tarvitaan seuraava:**
-- TFDA/Fimean pakkausselostedata varoituksista, vasta-aiheista ja lääkkeen vuorovaikutuksista (DG001, Estävä)
-- Vahvistettu alkuperäinen MOA ja hyväksytty indikaatioteksti DrugBankista (DG002, Korkea)
-- Biologisesti perusteltu mekanistinen hypoteesi, joka yhdistää bupivakaiinin kohdistautuneeseen sairaauteen, ennen kuin lisätodisteita on perusteltu kerätä
-- Muiden kolmen yhdessä ennustetun kandidaatin (vastasyntyneiden dermatomyosiitti, lapsuusiän ILD-CTD, amyopaattinen dermatomyosiitti) uudelleenseulonta ei ole suositeltavaa niiden samankaltaisesti tukemattoman perustelun ja pediatristen indikaatioiden vuoksi aiheutuneen turvallisuusriskin vuoksi
+**Päätös: Hold (odotetaan)**
 
+**Perustelut:**
+- Ennuste perustuu pelkästään TxGNN-mallin laskentaan (L5), eikä kliinisiä tutkimuksia tai julkaisuja ole. Mekanistinen yhteys natriumkanavasalpauksen ja Borrelia-infektion myöhäisoireiden välillä puuttuu. Lisäksi Suomessa ainoa myyntilupa on peruutettu.
+
+**Eteneminen edellyttää seuraavaa:**
+- Suomen lääkeviraston (Fimea) valmisteyhteenvedon varoitusten ja vasta-aiheiden hankinta ja läpikäynti (estää nykyisellään turvallisuusseulonnan)
+- Vaikutusmekanismitietojen täydentäminen (esim. DrugBankista)
+- Kirjallisuushaku prekliinisestä tai kliinisestä näytöstä, esimerkiksi neuropaattisen kivun lievityksestä kroonisessa atrofisessa akrodermatiitissa
+- Annostelureitin ja lääkemuodon soveltuvuuden arviointi ennustetulle käyttöaiheelle
+- Dermatomyosiittiin liittyvien ennusteiden osalta myotoksisuusriskin arviointi ennen jatkotarkastelua
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

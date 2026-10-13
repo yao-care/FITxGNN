@@ -2,7 +2,7 @@
 layout: default
 title: Rufinamide
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 336
+nav_order: 390
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,61 +29,69 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Rufinamidi: Opioidista epilepsiasta (Lennouxin-Gastauti-syndroomasta) infektioihin liittyvään epilepsiasyndromaaan (FIRES)
+# Rufinamidi: Epilepsiasta kuumeeseen liittyvään epilepsiaoireyhtymään (FIRES)
 
-## Yhteenveto yhdessä lauseessa
+## Yhden lauseen yhteenveto
 
-Rufinamidi on natrium-kanavan moduloiva antikonvulsantti, joka on kliinisesti käytössä opioidien epilepsiasyndroomeissa, kuten Lennouxin-Gastauti-syndroomassa. TxGNN-malli ennustaa, että se voi olla tehokas **infektioihin liittyvässä epilepsiasyndromaassa (FIRES)**, mutta tätä ennustetta tukee tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua** — se on puhtaasti mallin johtama signaali.
+Rufinamidi on epilepsialääke, jota on käytetty epilepsian hoitoon. TxGNN-malli ennustaa sen voivan tehoa **kuumeeseen liittyvään epilepsiaoireyhtymään (FIRES)**. Ennustetta tukevia **kliinisiä tutkimuksia ei ole** eikä **julkaisuja** ole, joten näyttö perustuu toistaiseksi vain mallin ennusteeseen.
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Opioidit epilepsiasyndromat (Lennouxin-Gastauti-syndroomaa ja vastaavat syndromat) — tunnetun kliinisen käytön perusteella; paikallista myyntilupaa ei ole saatavilla |
-| Ennustettu uusi indikaatio | Infektioihin liittyvä epilepsiasyndrooma (FIRES) |
-| TxGNN:n ennustepisteet | 99,57 % (ranking 4939) |
-| Näytön taso | L5 (pelkästään mallin ennuste, ei tukevia tutkimuksia tai kirjallisuutta) |
-| Markkinatilanne Suomessa | Ei markkinoilla |
-| Myyntilupien lukumäärä | 0 |
-| Suositeltu päätös | Odota |
+|------|------|
+| Alkuperäinen käyttöaihe | Epilepsia |
+| Ennustettu uusi käyttöaihe | Kuumeeseen liittyvä epilepsiaoireyhtymä (FIRES) |
+| TxGNN-ennustepisteet | 99,57 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennuste on perusteltu?
+## Miksi ennuste on perusteltu?
 
-Rufinamidin yksityiskohtaiset virallisten vaikutusmekanismin tiedot ovat tällä hetkellä tietojen puutteen alue. Saatavilla olevien tietojen perusteella rufinamidi toimii jänniteherkän natrium-kanavan modulaattorina, joka pidentää kanavan passiivista tilaa, ja sitä käytetään kliinisesti Lennouxin-Gastauti-syndrooman ja muiden opioidien epilepsiasyndromoiden hoidossa.
+Tämän raportin tietoihin ei sisälly yksityiskohtaista kuvausta rufinamidin vaikutusmekanismista. Tiedossa on, että rufinamidi on epilepsialääke, joka pidentää jänniteherkkien natriumkanavien inaktiivista tilaa. Sen teho epilepsiassa on osoitettu, ja mekanistisesti se voisi olla sovellettavissa myös FIRES-oireyhtymään.
 
-FIRES on akuutti, vakavasti opioidinen status epilepticus -syndrooma, joka on mekanistisesti yhteydessä liialliseen natrium-kanava-välitteiseen aivokuoren yliärsytykseen. Koska rufinamidin tunnistettu mekanismi kohdistuu täsmälleen tähän reititykseen, on teoreettinen perustelu sen käytön laajentamiselle FIRES:iin, mikä on samansuuntainen sen nykyisen roolin kanssa muissa hoitoresistentin epilepsian syndroomaissa.
+FIRES on hoitoresistentti epileptinen enkefalopatia, joka ilmenee kuumeisen sairauden jälkeen ja jonka taustalla on pitkälti hermotulehdus. Natriumkanavien salpaus voisi lievittää kohtauksia oireenmukaisesti, mutta se ei puutu taustalla olevaan sairausprosessiin. Korkea ennustepistemäärä (0,996) heijastaa todennäköisesti mallin verkostossa epilepsiaan liittyvien solmujen läheisyyttä, ei sairauskohtaista näyttöä. Ennusteen tulkinnassa on siksi syytä olla varovainen.
 
-Kuitenkin tämä perustelu perustuu tällä hetkellä vain mekanistiseen uskottavuuteen ja TxGNN-ennuste pisteisiin (0,996). Mikään kliininen tutkimus, ICTRP-tietueet tai vertaisarvioitu kirjallisuus ei tällä hetkellä tue rufinamidin käyttöä erityisesti FIRES:issa.
+### Muut mallin ennustamat käyttöaiheet
 
-## Kliinisen tutkimuksen näyttö
+| Sija | Käyttöaihe | Pisteet | Huomio |
+|------|------|------|------|
+| 2 | Perioraalinen myoklonia ja poissaolot | 99,51 % | Natriumkanavasalpaajat voivat pahentaa poissaolokohtauksia, joten sopivuus on epävarma |
+| 3 | Valoherkkä takaraivolohkoepilepsia | 99,44 % | Lähellä alkuperäistä käyttöaihetta, ei varsinaista uudelleenkäyttöä |
+| 4 | Epätyypillinen lapsuusiän epilepsia, jossa on sentrotemporaalisia piikkejä | 99,44 % | Natriumkanavasalpaajat voivat pahentaa epätyypillisiä piirteitä |
+| 5 | Kryptogeeniset myöhään alkavat epileptiset spasmit | 99,44 % | Epäsuora peruste: näyttöä Lennox-Gastaut-oireyhtymässä |
 
-Ei tällä hetkellä rekisteröityjä tutkimuksia.
+Yhdellekään näistä ei ole kliinisiä tutkimuksia tai julkaisuja.
 
-## Kirjallisuuden näyttö
+## Suomen markkinatiedot
 
-Ei tällä hetkellä saatavilla olevaa kirjallisuutta.
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000660 | Inovelon (Eisai GmbH) | – | Epilepsia (tila: peruutettu) |
 
-## Markkinatiedot Suomesta
+## Turvallisuushuomiot
 
-Rufinamidi ei ole tällä hetkellä markkinoilla Suomessa (0 myyntilupaa), joten tuote-/annoksimuodon yksityiskohtia ei ole saatavilla.
+Tietojoukossa on tunnistettu seuraavat tiedot:
 
-## Turvallisuusnäkökohtia
+- **Tietämyskaavion (PrimeKG) vasta-aihesuhteet** (eivät perustu valmisteyhteenvetoon): maksan vajaatoiminta, ahdistuneisuushäiriö, neuroottinen häiriö, dysteeminen häiriö, maksasairaus, sappirakon sairaus ja leukopenia.
+- **Lääkeyhteisvaikutukset**: tietokannasta löytyi yhteensä 100 yhteisvaikutusta. Esimerkkejä kohtalaisen tason yhteisvaikutuksista: hydrokortisoni, kolekalsiferoli, pioglitatsoni, bupropioni, triamsinoloni, morfiini, betametasoni, kalsitriolia, ondansetroni, metoklopramidi ja prednisoni.
 
-Turvallisuustiedot löytyvät pakkausselosteesta.
+Muilta osin turvallisuustiedoista on tarkistettava valmisteyhteenveto.
 
-## Johtopäätös ja seuraavat vaiheet
+## Johtopäätös ja seuraavat askeleet
 
-**Päätös: Odota**
+**Päätös: Hold (odota)**
 
-**Perustelu:**
-Ennuste on mekanistisesti uskottava, mutta siitä puuttuu täysin kliinisen tutkimuksen tai kirjallisuuden tuki (Näytön taso L5), ja estävä tietojen puute on olemassa pakkausselosteen varoituksista/vasta-aiheista, mikä estää alkuvaiheen turvallisuusarvioinnin (S1).
+**Perustelut:**
+- Ennustetta ei tue yksikään kliininen tutkimus eikä julkaisu (näytön taso L5). Ennuste perustuu mallin verkostoläheisyyteen, ja FIRES:n tulehdusperäinen patologia heikentää mekanistista perustetta. Lisäksi ainoa Suomen myyntilupa on peruutettu.
 
-**Jatkamista varten tarvitaan seuraavaa:**
-- TFDA/Fimean pakkausseloste (varoitukset, vasta-aiheet) — tällä hetkellä estävä
-- Vahvistettu vaikutusmekanismin dokumentaatio DrugBankista
-- Kliininen tutkimus tai tapausraportti erityisesti FIRES:issa
-- Lääkkeiden välisen vuorovaikutuksen tiedot (ei tällä hetkellä löytyneet)
-
+**Jatkoa varten tarvitaan:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankinta Fimeasta (tämä estää turvallisuusseulonnan jatkamisen)
+- Rufinamidin vaikutusmekanismin tiedot DrugBankista
+- Kirjallisuushaku FIRES-potilaiden rufinamidihoidosta ja mahdollisten tutkimusten rekisteröinti
+- Selvitys myyntiluvan peruuntumisen syystä ja valmisteen saatavuudesta Suomessa
+- Annosmuodon ja antoreitin yhteensopivuuden arviointi
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -2,7 +2,7 @@
 layout: default
 title: Mogamulizumab
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 252
+nav_order: 293
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,80 +29,92 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **7** kpl
 
 </div>
 
-# Mogamulizumab: Aikuisten T-soluleukeemiasta/lymfoomasta eturauhaseen virtsaputkeen sijoittuvaan uroteelisytolaarin karsinoomaan
+# Mogamulitsumabi: Sézaryn oireyhtymästä ja sieneiskasvaimesta prostatan virtsaputken urotelikarsinoomaan
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Mogamulizumab on anti-CCR4-monoklonaalinen vasta-aine, jota käytetään tällä hetkellä aikuisten T-soluleukeemiaan/lymfoomaan ja mykoosin fungoidesiin/Sézary-syndroomaan (todistusaineiston mekanistisen perustelun mukaan; ei vahvistettu itsenäisesti Suomen lisensointitietojen perusteella).
-TxGNN-malli ennustaa, että se saattaa olla tehokas **eturauhaseen virtsaputkeen sijoittuvassa uroteelisytolaarin karsinoomassa**, mutta tämä sijoitus perustuu **puhtaasti mallin pisteytyksen perusteella** — **0 kliinistä tutkimusta** ja **0 julkaisua** tukee tätä suuntaa.
+Mogamulitsumabi on CCR4-vasta-aine, jota on alun perin käytetty Sézaryn oireyhtymän ja mycosis fungoides -iholymfooman hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **prostatan virtsaputken urotelikarsinoomaan**,
+mutta aiheesta ei ole **yhtään kliinistä tutkimusta eikä julkaisua**, joten ennuste perustuu pelkästään laskennalliseen malliin.
 
-## Pikayleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Aikuisten T-soluleukeemia/lymfooma; Mykoosin fungoides/Sézary-syndrooma (uudelleenkäyttöperustelutekstin mukaan; strukturoitua lisensointitietoa ei saatavilla) |
-| Ennustettu uusi indikaatio | Eturauhaseen virtsaputkeen sijoittuva uroteelisytolaarin karsinooma |
-| TxGNN-ennusteen pistemäärä | 99.44% |
-| Todistusvahvuus | L5 (vain mallin ennuste, ei tukevia tutkimuksia) |
-| Suomen markkinoiden tila | ✗ Ei markkinoilla |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Odottava |
+|------|------|
+| Alkuperäinen käyttöaihe | Sézaryn oireyhtymä; mycosis fungoides |
+| Ennustettu uusi käyttöaihe | Prostatan virtsaputken urotelikarsinooma |
+| TxGNN-ennustepistemäärä | 99,44 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennuste on perusteltu?
+## Miksi ennuste voisi olla perusteltu?
 
-Tällä hetkellä yksityiskohtaista vaikutusmekanismitietoa ei ole saatavilla strukturoidussa muodossa (merkitty tietoaukoksi). Tarjotun uudelleenkäyttöperustelun perusteella mogamulizumab on anti-CCR4-monoklonaalinen vasta-aine, ja sen tehokkuus aikuisten T-soluleukeemiaan/lymfoomaan ja mykoosin fungoidesiin/Sézary-syndroomaan on osoitettu. CCR4 ilmentyy säätävissä T-soluissa (Tregs), ja mogamulizumabin vaikutusmekanismi sisältää CCR4-positiivisten Tregien poistamisen syöpää vastustavan immuniteetin parantamiseksi.
+Tässä raportissa käytettävissä olevasta aineistosta ei ole saatavilla yksityiskohtaista vaikutusmekanismitietoa. Yleistiedon perusteella mogamulitsumabi on anti-CCR4-monoklonaalinen vasta-aine, joka tuhoaa CCR4-positiivisia soluja, myös säätelijä-T-soluja (Treg), vasta-aineesta riippuvan solujen tappamisen (ADCC) kautta. Sen teho ihon T-solulymfoomissa on osoitettu, ja tämä on alkuperäisen käyttöaiheen perusta.
 
-Teoreettinen yhteys eturauhaseen virtsaputkeen sijoittuvaan uroteelisytolaarin karsinoomaan perustuu havaintoon, että CCR4-positiivisten Tregien infiltraatiota on kuvattu joissakin uroteelisen kasvaimen mikro-ympäristöissä — näiden Tregien poistaminen voisi periaatteessa lievittää paikallista immunosupressiota ja parantaa syöpää vastaan suuntautuvaa immuunivastausta. Tämä yhteys on kuitenkin mekanistinen hypoteesi, joka on johdettu yksinomaan TxGNN-upotusavaruudesta; sitä ei tueta millään esikliinisillä, translaatiotutkimuksellisilla tai kliinisillä tutkimuksilla, jotka olisivat uroteeliselle karsinoomalle erityisiä.
+Ennustettua käyttöaihetta tukeva mekanistinen olettamus on, että Treg-solujen väheneminen urotelikasvaimen mikroympäristössä voisi vahvistaa kasvainimmuniteettia. Tälle ei kuitenkaan ole suoraa näyttöä: CCR4:n ei ole osoitettu ajavan tätä kasvaintyyppiä, ja ennuste on vain laskennallinen. Alkuperäisen käyttöaiheen (T-solulymfooma) ja ennustetun käyttöaiheen (urotelikarsinooma) samankaltaisuutta ei ole arvioitu.
 
-Kun otetaan huomioon kliinisten tutkimusten tai kirjallisuuden täydellinen puute (katso alla), tätä ennustetta tulisi pitää hypoteesin tuottavana signaalina eikä toimenpidekelpoisen uudelleenkäyttöehdokkaan sijaan tällä hetkellä.
+Muista ennustetuista käyttöaiheista biologisesti uskottavin on HHV-8-liitännäinen kasvain (pistemäärä 99,24 %), jossa immuunivasteen väistö ja CCR4-positiiviset Treg-solut voivat vaikuttaa. Sekin on toistaiseksi vain hypoteesi, joka vaatii prekliinistä validointia.
 
-## Kliinisen tutkimuksen todisteet
+## Muut ennustetut käyttöaiheet
 
-Tällä hetkellä ei ole rekisteröity asiaan liittyviä kliinisiä tutkimuksia
+| Sija | Käyttöaihe | TxGNN-pistemäärä | Näytön taso |
+|------|------|------|------|
+| 2 | Munuaisaltaan sarkomatoidi siirtymäsolusyöpä | 99,42 % | L5 |
+| 3 | Virtsarakon infiltroiva sarkomatoidi urotelikarsinooma | 99,40 % | L5 |
+| 4 | Munuaisaltaan papillaarinen urotelikarsinooma | 99,37 % | L5 |
+| 5 | HHV-8-liitännäinen kasvain | 99,24 % | L5 |
+| 6 | Ektomesenkymooma | 99,15 % | L5 |
+| 7 | Pahanlaatuinen ihon rakeissolukasvain | 99,15 % | L5 |
 
-## Kirjallisuuden todisteet
+Kaikilla näillä ennusteilla ei ole kliinisiä tutkimuksia eikä kirjallisuutta, ja suositus on jokaisessa Hold.
 
-Tällä hetkellä ei ole saatavilla asiaan liittyviä kirjallisuuslähteitä
+## Kliininen tutkimusnäyttö
+
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
+
+## Kirjallisuusnäyttö
+
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
 ## Suomen markkinatiedot
 
-Mogamulizumab ei ole tällä hetkellä markkinoilla Suomessa (0 hyväksyntöä tietueessa), joten tuote-/lisensointitietoja ei ole saatavilla.
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004232 | Poteligeo | – | Sézaryn oireyhtymä; mycosis fungoides |
 
-## Sytotoksiisuus
+Myyntilupa on tilassa "peruutettu", eikä voimassa olevia myyntilupia ole.
 
-Mogamulizumab on syöpää vastaan vaikuttava aine (indisoitu T-soluleukeemiaan/lymfoomaan).
+## Sytotoksisuus
 
 | Kohta | Sisältö |
-|------|---------|
-| Sytotoksiisuuden luokittelu | Immunoterapia (anti-CCR4-monoklonaalinen vasta-aine; ei tavanomainen sytotoksinen aine) |
-| Luuydintukahduttamisen riski | Katso pakkausseloste varoitukset ja varotoimet |
-| Emetogeenisuuden luokitus | Katso pakkausseloste varoitukset ja varotoimet |
-| Seurantakohdat | Katso pakkausseloste varoitukset ja varotoimet |
-| Käsittelysuojaus | Katso pakkausseloste varoitukset ja varotoimet |
+|------|------|
+| Sytotoksisuusluokitus | Kohdennettu hoito (monoklonaalinen vasta-aine, anti-CCR4); ei perinteinen sytotoksinen solunsalpaaja |
+| Luuytimen suppression riski | Tietoja ei ole saatavilla; katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Oksettavuusluokitus | Tietoja ei ole saatavilla; katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Seurantakohteet | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Käsittelysuojaus | Katso valmisteyhteenvedon varoitukset ja varotoimet |
 
 ## Turvallisuusnäkökohdat
 
-Katso pakkausselostetta turvallisuustiedoista.
+- **Lääkeyhteisvaikutukset**: Aineistossa on 83 yhteisvaikutusta, joista tässä on esitetty 20. Merkittäviksi (Major) luokiteltuja ovat deferiproni, samarium (153Sm) leksidronaami, adalimumabi ja barisitinibi. Kohtalaisia (Moderate) ovat mm. strontiumkloridi Sr-89, roflumilasti, kloramfenikoli, tsidovudiini, alemtutsumabi, anakinra, atsatiopriini, kanakinumabi, alefasepti sekä jotkin rokotteet (jäykkäkouristus- ja pernaruttorokote). Sinkkivalmisteet (sulfaatti, asetaatti, glukonaatti, kloridi) on luokiteltu vähäisiksi (Minor).
 
-*Huomautus: Suomen pakkausselosteen/varoitusetiketin hakeminen (estävä tietoaukko, DG001) ei ole vielä valmis, joten turvallisuusarvioita (S1 vaihe) ei voida suorittaa ennen tämän ratkaisemista.*
+Varoitukset ja vasta-aiheet: katso valmisteyhteenveto.
 
-## TxGNN:n tunnistama lisäehdokkaat
+## Johtopäätös ja jatkotoimet
 
-Malli tunnisti kuusi muuta matalan luottamuksen ehdokasta samassa pistemäärävälissä (99,15–99,42%), kaikki samankaltaisesti ilman kliinistä tai kirjallisuustukea ja kaikki luokiteltu L5/Odottava: munuaisen pelviksen sarkomatiitti siirtymäsolukarsinooma, tunkeuttava virtsarakkouroteelisytolaarin karsinooma (sarkomatiitti muunnos), munuaisen pelviksen papillaarinen uroteelisytolaarin karsinooma, ihmisen herpesvirus 8 -liittyvä kasvain, ektomesenkymooma ja pahanlaatuinen ihoonsijoittuva rakeisolinen ihosyöpä. Mikään näistä ei oikeuta yksittäistä arviointia edellä olevan korkeimmin sijoitetun ehdokkaan lisäksi.
-
-## Johtopäätös ja seuraavat vaiheet
-
-**Päätös: Odottava**
+**Päätös: Hold**
 
 **Perustelut:**
-TxGNN-pistemäärä on korkea, mutta seitsemälle ennustetulle indikaatiolle ei ole yhtään kliinisen tutkimuksen tai kirjallisuustodistetta, ja mekanistinen perusteltu on vain teoreettinen. Lisäksi Suomen pakkausselosteen/varoitustiedot (estävä aukko) ei ole haettu, joten ehdokas ei voi vielä siirtyä turvallisuuden esikarsintaan (S1).
+- Ennuste perustuu pelkkään TxGNN-malliin (L5), eikä yhtään kliinistä tutkimusta tai julkaisua ole. Lisäksi Suomen myyntilupa on peruutettu ja valmisteyhteenvedon turvallisuustiedot puuttuvat.
 
-**Jatkaakseen tarvitaan seuraavaa:**
-- Suomen (Fimea) pakkausselosteen varoitukset/vasta-aiheet (DG001, estävä)
-- Vahvistettu vaikutusmekanismin yksityiskohta DrugBankista tai alkuperäiskirjallisuudesta (DG002)
-- Esikliininen tai translaatiotieto CCR4/Treg-osallisuudesta erityisesti uroteelisytolaarin karsinoomassa
-- Syntyvät kliinisen tutkimuksen tai tapausselostotiedot ennen tämän ehdokkaan uudelleenarvioita odottavan vaiheen jälkeen
-
+**Etenemiseksi tarvitaan:**
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet Fimean sivustolta (estää turvallisuusseulonnan)
+- Yksityiskohtaiset vaikutusmekanismitiedot (DrugBank)
+- Prekliininen näyttö CCR4:n roolista urotelikarsinoomassa, tai ensisijaisesti HHV-8-liitännäisessä kasvaimessa
+- Selvitys peruutetun myyntiluvan syystä ja valmisteen saatavuudesta Suomessa
+- Alkuperäisen ja ennustetun käyttöaiheen samankaltaisuusarvio sekä antoreittien yhteensopivuuden arviointi
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

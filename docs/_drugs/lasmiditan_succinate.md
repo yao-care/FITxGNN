@@ -2,7 +2,7 @@
 layout: default
 title: Lasmiditan Succinate
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 216
+nav_order: 250
 evidence_level: L5
 indication_count: 0
 ---

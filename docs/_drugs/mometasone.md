@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Mometasone
-parent: Kohtalainen näyttö (L3-L4)
-nav_order: 253
-evidence_level: L4
+parent: Pelkkä mallin ennuste (L5)
+nav_order: 294
+evidence_level: L5
 indication_count: 1
 ---
 
 # Mometasone
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **1** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,79 +29,66 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Mometasone: topikaalista/nasaalisesta kortikosteroidikäytöstä primaariin kutaaniseen T-solujen lymfoomaan
+# Mometasoni: Astmasta ihon primaariseen T-solulymfoomaan
 
 ## Yhden lauseen yhteenveto
 
-Mometasone on korkeavaikutteinen kortikosteroid, jota käytetään yleisesti topikaalisti ja nasaalisti tulehtuneille ihoille ja hengitysteihin (spesifiä hyväksyttyä näytöä ei ole tässä tietojoukossa). TxGNN-malli ennustaa, että se voisi olla tehokas **primaarissa kutaanisessa T-solujen lymfoomassa**, mutta tätä tukee tällä hetkellä vain **0 kliinistä tutkimusta** ja **2 tapausraporttitasoista julkaisua**, ilman mometasoniin spesifisiä tehokkuustietoja.
+Mometasoni on glukokortikoidi, jota on käytetty astman hoidossa (Suomessa myyntiluvallinen yhdistelmävalmiste Enerzair Breezhaler, nykyisin peruutettu).
+TxGNN-malli ennustaa sen voivan tehota **primaariseen ihon T-solulymfoomaan**.
+Ennustetta tukee tällä hetkellä vain **2 tapausselostusta** eikä yhtään kliinistä tutkimusta, joten näyttö on heikko.
 
----
-
-## Nopea yleiskatsaus
+## Pikayhteenveto
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Ei määritelty tietojoukossa (mometasone on topikaalinen/nasaalinen kortikosteroidin luokan lääke; tyypilliset käytöt ovat ihottuma/eksema ja allerginen nuhatauti) |
-| Ennustettu uusi indikaatio | Primaari kutaaninen T-solujen lymfooma |
-| TxGNN-ennusteen pistemäärä | 99.36% |
-| Näyttötaso | L4 |
-| Suomen markkinoille asema | ✗ Ei markkinoitu |
-| Lupien lukumäärä | 0 |
-| Suositeltu päätös | Pidä odotuksessa |
+| Alkuperäinen käyttöaihe | Astma |
+| Ennustettu uusi käyttöaihe | Primaarinen ihon T-solulymfooma |
+| TxGNN-ennusteen pistemäärä | 99,36 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 |
+| Suositeltu päätös | Hold (odota) |
 
----
+## Miksi ennuste on järkevä?
 
-## Miksi tämä ennuste on järkevä?
+Yksityiskohtaista vaikutusmekanismitietoa ei ole tällä hetkellä saatavilla. Tunnetun tiedon perusteella mometasoni on voimakas kortikosteroidi, joka vaikuttaa glukokortikoidireseptorin (NR3C1) agonistina. Tämä tuottaa tulehdusta vähentäviä ja immuunivastetta heikentäviä vaikutuksia ja voi indusoida lymfoidisolujen apoptoosia.
 
-Tällä hetkellä yksityiskohtaiset mometasonin vaikutusmekanismin tiedot eivät ole saatavilla. Tunnettujen farmakologisten tietojen perusteella mometasone on osa korkeavaikutteisten kortikosteroidien luokkaa, ja sen anti-inflammatorinen/immunosuppressiivinen teho iho- ja limakalvon tulehdustiloissa on hyvin vakiintunut.
+Astma ja ihon T-solulymfooma ovat sairautena hyvin erilaisia, mutta yhteinen tekijä on kortikosteroidien immuunisolujen toimintaa muuntava vaikutus. Paikalliset kortikosteroidit ovat vakiintunut ihoon kohdistuva hoito varhaisvaiheen ihon T-solulymfoomassa (esim. laikku- ja plakkivaiheen mycosis fungoides). Mekanismi on siten uskottava.
 
-Mekanistisesti kortikosteroidit estävät kutaanisten lymfosyyttien infiltraation ja vähentävät paikallista sytokiinien vapautumista, mikä on farmakologinen perusta topikaalisten steroidien käytölle ihoon kohdistettuna terapiana varhaisvaiheen kutaanisessa T-solujen lymfoomassa (CTCL)/mycosis fungoides. Tämä on kuitenkin **luokkavaikutus**, jonka jakavat kaikki topikaalit kortikosteroidit, ei mometasoniin spesifisiä näyttöä.
+Pistemäärä 0,99 on kuitenkin pelkkä laskennallinen ennuste. Mometasonikohtaista kliinistä näyttöä ei ole, ja peruutettu myyntilupa rajoittaa käytännön kehitystä.
 
-TxGNN-pistemäärä 99.36% heijastaa todennäköisesti strukturaalista ja mekanistista samankaltaisuusjohtopäätöstä kortikosteroidien luokassa eikä suoraa kliinistä näyttöä mometasonista CTCL:ssä. Molemmat haetut julkaisut kuvaavat mometasonea vain taustaksi/epäonnistuneeksi hoidoksi liittyvien lymfoproliferatiivisten ihosairauksien (pseudolymfooma, mycosis fungoides) tapausraporteissa, ei tutkittuna interventiona tehokkuustuloksineen — joten ennuste tulisi käsitellä tutkimushypoteesina vakiintuneen uudelleenkäyttösignaalin sijasta.
+## Kirjallisuusnäyttö
 
----
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
+|------|-----|------|------|---------|
+| [40821495](https://pubmed.ncbi.nlm.nih.gov/40821495/) | 2025 | Tapausselostus | Proceedings (Baylor University. Medical Center) | Ihon pseudolymfooma (lymfooman kaltainen reaktiivinen tila, ei varsinainen lymfooma) ei reagoinut mometasoni- ja takrolimuusihoitoon; hoito tapinarofilla. Ei tue suoraan mometasonin tehoa lymfoomassa. |
+| [25442255](https://pubmed.ncbi.nlm.nih.gov/25442255/) | 2015 | Tapausselostus | Journal of Cutaneous Pathology | Lapsen CD8+CD56+ mycosis fungoides; tapaus kuvaa harvinaista tautimuotoa, ei mometasonin tehoa. |
 
-## Kliinisen tutkimuksen näyttö
+## Myyntilupatiedot Suomessa
 
-Tällä hetkellä ei ole liittyviä rekisteröityjä kliinisiä tutkimuksia
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/005061 | Enerzair Breezhaler | – | Astma (tila: peruutettu) |
 
----
+## Turvallisuushuomiot
 
-## Kirjallisuuden näyttö
+Tähän raporttiin koottujen tietojen perusteella ei ole saatavilla valmisteyhteenvedon varoituksia tai vasta-aiheita. Tarkista turvallisuustiedot valmisteyhteenvedosta.
 
-| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät havainnot |
-|------|------|------|------|---------|
-| [40821495](https://pubmed.ncbi.nlm.nih.gov/40821495/) | 2025 | Tapausraportti | Proceedings (Baylor University Medical Center) | Tapaus hoitoresistentista kutaanisesta pseudolymfoomasta (T-solujen lymfoproliferatiivinen prosessi, joka jäljittelee CTCL:ää); mometasonea ja takrolimuusta yritettiin, mutta epäonnistuivat ennen siirtymistä tapinarofiin |
-| [25442255](https://pubmed.ncbi.nlm.nih.gov/25442255/) | 2015 | Tapausraportti | Journal of Cutaneous Pathology | Pediatrinen tapaus CD8+CD56+ sytotoksisesta mycosis fungoidesista (primaarin kutaanisen T-solujen lymfooman alatyyppi); mometasonea mainitaan sairauden kliinisessä yhteydessä, ei todetuksi terapeuttiseksi |
+Farmakologinen tieto: mometasoni sitoutuu glukokortikoidireseptoriin (NR3C1). Muita yhteisvaikutuksia ei ole raportoitu.
 
----
+## Johtopäätös ja jatkotoimet
 
-## Suomen markkinatiedot
-
-Mometasonilla ei ole tällä hetkellä markkinointilupaa Suomessa (0 lisenssiä kirjanpidossa).
-
----
-
-## Turvallisuusnäkökohdat
-
-Katso turvallisuustietoja pakkausselosteesta.
-
----
-
-## Johtopäätös ja seuraavat vaiheet
-
-**Päätös: Pidä odotuksessa**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Näyttö on rajoittunut kahteen tapausraporttiin, joissa mometasone näkyy vain taustaksi tai epäonnistuneeksi hoidoksi, ilman kliinisiä tutkimuksia, ilman lääkkeen spesifisiä tehokkuustietoja ja TFDA/pakkausselosteen turvallisuustietojen puutteen kanssa — tämä ei täytä vaatimuksia edes alustavan turvallisuusarvioinnin (S1) kannalta.
+- Ennuste perustuu vain laskennalliseen malliin (L5). Kliinisiä tutkimuksia ei ole, ja kaksi tapausselostusta ei tue mometasonin tehoa. Myyntilupa on lisäksi peruutettu.
 
-**Edistymisen kannalta tarvitaan seuraavaa:**
-- TFDA/valmistajan pakkausseloste, jossa on varoitukset ja vasta-aiheet (tällä hetkellä estää S1 turvallisuusarviointia)
-- Vahvistetut vaikutusmekanismin (MOA) tiedot DrugBankista tai alkuperäisestä kirjallisuudesta
-- Vahvistetut alkuperäiset hyväksynnän näyttöjä (indikatiota) mometasonille
-- Kliiniset tai prekliiniset tutkimukset, jotka arvioivat mometasonea spesifisesti (ei kortikosteroideja luokkana) CTCL:ssä/mycosis fungoidesissa
-- Lääkkeiden välisen vuorovaikutuksen (DDI) tiedot (tällä hetkellä ei saatavilla)
-
+**Eteenpäin siirtyminen edellyttää:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittämistä (Fimea)
+- Vaikutusmekanismitietojen täydentämistä (DrugBank)
+- Mometasonikohtaisen kliinisen tai prekliinisen näytön kartoitusta ihon T-solulymfoomassa
+- Antoreittien ja valmisteiden soveltuvuuden arviointia (iholle annosteltava valmiste vs. astmavalmiste)
+- Markkinatilanteen ja kehityskelpoisuuden arviointia
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -2,7 +2,7 @@
 layout: default
 title: Erdafitinib
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 152
+nav_order: 172
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,94 +29,112 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Erdafitinib: virtsarakon syövästä keuhkojen hypertensiooon
+# Erdafitinibi: Urologisista kasvaimista keuhkoverenpainetautiin
 
-## Yksirivinen yhteenveto
+## Yhden lauseen yhteenveto
 
-> Erdafitinib on pan-FGFR (FGFR1–4) tyrosiinikinaasin inhibiittori, joka on julkisen tiedon mukaan tarkoitettu paikallisesti edenneen tai etäpesäkkeisen FGFR-muuntuneen virtsarakon syövän hoitoon; tätä erityistä indikaatiota ei vahvisteta nykyisessä Näyttöpaketissa (sääntelylliset ja MOA-kentät on merkitty tietojen puutteiksi).
-> TxGNN-mallin paras ennuste on **keuhkojen hypertensio**, mutta sen tueksi ei ole **yhtään kliinistä tutkimusta** eikä **yhtään julkaisua** - ja saatavilla oleva mekanistinen perustelu osoittaa itse asiassa **turvallisuushuoleen** (FGFR-signaalireitin estäminen on yhdistetty keuhkojen hypertension riskiin muiden kinaasin inhibiittorien kanssa) eikä terapeuttiseen hyötyyn.
+Erdafitinibi on FGFR-tyrosiinikinaasin estäjä, jota on käytetty urologisten kasvainten hoitoon. TxGNN-malli ennustaa sen voivan tehota **keuhkoverenpainetautiin** (pulmonary hypertension), mutta ennusteen tueksi ei ole tällä hetkellä **yhtään kliinistä tutkimusta eikä julkaisua**. Näyttö perustuu vain mallin ennusteeseen.
 
 ---
 
-## Pikayleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Virtsarakon syöpä, FGFR2/3-muuntunut (julkinen tieto; ei vahvistettu toimitettujen sääntelyllisten/MOA-tietojen perusteella — katso Tietojen puutteet) |
-| Ennustettu uusi indikaatio | Keuhkojen hypertensio |
-| TxGNN-ennustepistemäärä | 99.38% |
-| Näyttötaso | L5 (vain mallin ennuste, ei tutkimuksia) |
-| Markkinatilanne Suomessa | ✗ Ei markkinoilla |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Odota |
+|------|------|
+| Alkuperäinen käyttöaihe | Urologiset kasvaimet |
+| Ennustettu uusi käyttöaihe | Keuhkoverenpainetauti (pulmonary hypertension) |
+| TxGNN-ennustepisteet | 99,38 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Miksi tämä ennuste on järkevä?
+## Miksi ennuste on perusteltu?
 
-Yksityiskohtaisia toimintamekanismin tietoja ei ole saatavilla tässä Näyttöpaketissa (merkitty korkean vakavuuden tietojen puutteeksi, DG002). Julkisen tiedon perusteella erdafitinib on pan-FGFR-tyrosiinikinaasin inhibiittori, jota käytetään syöpähoitoon; sen tunnettu tehokkuus on FGFR-muuntuneessa virtsarakon syövässä.
+Erdafitinibi on pan-FGFR-estäjä (FGFR1–4), joka estää fibroblastikasvutekijän reseptorien signalointia. Tarkempaa vaikutusmekanismitietoa ei ole tällä hetkellä saatavilla, joten arvio perustuu yleiseen tietoon lääkeaineluokasta.
 
-Toisin kuin tyypillisessä uudelleenkäyttötapauksessa, jossa mekanismi tukee uutta terapeuttista käyttöä, tähän ylimmäksi rankattuun ennusteeseen liittyvät perustelut toimivat **varoituslippuna eikä tehokkuushypoteesina**. FGF/FGFR-signalointi osallistuu keuhkoverisuonten uudelleenmuokkaukseen, ja muut moniydin-kinaasin inhibiittorit (esim. dasatinib) tiedetään laukaisemaan tai pahentamaan keuhkovaltimohypertensiota. Koska erdafitinib vaikuttaa samalla FGFR-akselilla, mallin yhdistys keuhkojen hypertension kanssa on mekanistisesti johdonmukainen lääke-aiheuttaman riskisignaalin kanssa, ei ehdotetun hoitosovelluksen kanssa. Tällä hetkellä ei ole olemassa kliinisiä tutkimuksia, ICTRP-tietoja tai kirjallisuutta, joka tukeisi joko terapeuttista tai epäsuotuisaa suhdetta - tämä on edelleen vain mallin tuotos, joka vaatii turvallisuuteen painottuvaa arviointia ennen jatkotoimia.
+FGF/FGFR-signaloinnin on esitetty osallistuvan keuhkovaltimoiden uudelleenmuovautumiseen sekä sileälihas- ja endoteelisolujen lisääntymiseen keuhkovaltimoverenpainetaudissa. Siksi biologinen peruste on olemassa. Alkuperäinen käyttöaihe (urologiset kasvaimet) ja ennustettu käyttöaihe ovat kuitenkin kliinisesti hyvin kaukana toisistaan, eikä yhteyttä ole osoitettu tutkimuksin.
 
-Tämän paketin alemmin rankatut ehdokkaat osoittavat klassisempaa uudelleenkäyttölogiikkaa (esim. reumatoidi nivelreuma FGFR:n roolin kautta synovian angiogeneesissä, tai brachydactyly-syndactyly-oireyhtymä FGFR:n vakiintuneen roolin kautta luustojen kehityksessä), mutta ne kaikki pysyvät L4–L5 näyttötasolla ilman kliinisen tason tai tutkimustason vahvistusta.
+Ennuste perustuu pelkästään TxGNN-pisteisiin. FGFR:n esto aiheuttaa lisäksi lääkeaineluokalle tyypillisiä haittoja, kuten hyperfosfatemiaa, mikä on otettava huomioon mahdollisessa jatkokehityksessä.
 
----
+### Muut ennustetut käyttöaiheet
 
-## Kliinisten tutkimusten näyttö
+Muut ennusteet ovat samoin vain mallipohjaisia (taso L5, suositus Hold):
 
-Tällä hetkellä ei ole rekisteröity asiaan liittyviä kliinisiä tutkimuksia.
-
----
-
-## Kirjallisuuden näyttö
-
-Tällä hetkellä ei ole saatavilla kirjallisuutta keuhkojen hypertensio-indikaatiota varten spesifisesti. Yksi yleinen viite erdafitiniibin kinaasin inhibiittorin luokkaan havaittiin suhteessa alemmin rankattuun ehdokkaaseen (reumatoidi nivelreuma):
-
-| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät havainnot |
-|------|------|--------|-------|---------|
-| [31862477](https://pubmed.ncbi.nlm.nih.gov/31862477/) | 2020 | Katsaus | Pharmacological Research | FDA-hyväksyttyjen pienimolekyyli-kinaasin inhibiittorien yleiskatsaus (2019 kohortti), jossa erdafitinib on lueteltu neljän vastikään hyväksytyn aineen joukossa; ei käsitele keuhkojen hypertensiota tai reumatoidia nivelreumaa erityisesti. |
+| Ennustettu käyttöaihe | TxGNN-pisteet | Huomio |
+|------|------|------|
+| Kyphoscoliotic heart disease | 99,27 % | Selvää mekanistista yhteyttä FGFR:n estoon ei ole |
+| Amenorrea | 99,26 % | Suoraa mekanistista perustetta ei löydetty; FGFR:n esto voi pahentaa lisääntymisterveyden häiriöitä |
+| Nivelreuma | 99,25 % | Uskottava mutta validoimaton peruste; yksi epäsuora katsausartikkeli |
+| Amyotrofinen lateraaliskleroosi | 99,06 % | Vaikutuksen suunta epäselvä, esto voi olla haitallinen |
+| Brakydaktylia-syndaktylia-oireyhtymä | 99,03 % | Synnynnäinen kehityshäiriö, estäjä tuskin korjaa muodostuneita epämuodostumia |
 
 ---
 
-## Markkinatilanne Suomessa
+## Kliininen näyttö
 
-Erdafitinib **ei ole markkinoilla Suomessa** — mitään markkinointilupaa ei ole rekisteröity (0 lupaa).
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
+
+---
+
+## Kirjallisuusnäyttö
+
+Ensisijaiselle ennusteelle (keuhkoverenpainetauti) ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
+
+Yksi viite löytyi nivelreumaennusteelle (sijalla 4):
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [31862477](https://pubmed.ncbi.nlm.nih.gov/31862477/) | 2020 | Katsaus | Pharmacological research | Yleiskatsaus FDA:n hyväksymien pienmolekyylisten proteiinikinaasinestäjien ominaisuuksiin (mm. erdafitinibi). Ei sisällä nivelreumaa koskevaa erdafitinibitietoa, joten antaa vain epäsuoran taustan. |
+
+---
+
+## Tiedot Suomen markkinoista
+
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/006050 | Balversa | – | Urologiset kasvaimet (tila: peruutettu) |
 
 ---
 
 ## Sytotoksisuus
 
-Erdafitinib on kohdennettu syöpälääke-kinaasin inhibiittori (julkisesti dokumentoitu FGFR-suuntautuneena hoitona virtsarakon syövässä), joten tämä osio sisällytetään huolimatta siitä, että Näyttöpaketin DrugBank-sytotoksisuus-kentät ovat täyttämättömiä.
-
 | Kohta | Sisältö |
-|------|--------|
-| Sytotoksisuus-luokitus | Kohdennettu hoito (FGFR1–4 tyrosiinikinaasin inhibiittori) |
-| Luuydintukahdutuksen riski | Katso pakkauksessa olevan liitteen varoitukset ja varotoimet |
-| Emetogeniteetti-luokitus | Katso pakkauksessa olevan liitteen varoitukset ja varotoimet |
-| Monitoroitavat kohdat | Katso pakkauksessa olevan liitteen varoitukset ja varotoimet |
-| Käsittelyn suojatoimet | Katso pakkauksessa olevan liitteen varoitukset ja varotoimet |
+|------|------|
+| Sytotoksisuusluokitus | Kohdennettu hoito (FGFR-tyrosiinikinaasin estäjä) |
+| Luuydinsuppressioriski | Tarkemmat tiedot puuttuvat; katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Oksentelua aiheuttava vaikutus | Tarkemmat tiedot puuttuvat; katso valmisteyhteenveto |
+| Seurattavat parametrit | Seerumin fosfaatti (FGFR-estäjille tyypillinen hyperfosfatemia), verenkuva sekä maksan ja munuaisten toiminta |
+| Käsittelysuojaus | Katso valmisteyhteenvedon varoitukset ja varotoimet |
 
 ---
 
-## Turvallisuusnäkökulmat
+## Turvallisuushuomiot
 
-Katso pakkauksessa olevan liitteen turvallisuustietoja. (Tärkeimmät varoitukset, vasta-aiheet ja lääkkeen vuorovaikutustiedot on kaikki merkitty tietojen puutteiksi tässä Näyttöpaketissa — TFDA/EU-pakkauksessa olevan liitteen varoitusten hakeminen on merkitty **Esto**-vakavuuden puutteeksi, DG001.)
+**Lääkeinteraktiot:** Tietokannasta löytyi yhteensä 100 interaktiota, joista alla on esimerkkejä.
+
+- **Merkittävä (Major):** kolekalsiferoli, deksametasoni, kalsiumfosfaatti, kalsifediolli, kalsitrioli, kalsiumasetaatti, klaritromysiini, magnesiumoksidi, magnesiumsulfaatti, magnesiumkloridi
+- **Kohtalainen (Moderate):** metformiini, loperamidi, saksagliptiini, eliglustaatti, empagliflotsiini, linagliptiini, naldemedini, naloksegoli, prukalopridi, rifaksimiini
+
+Muista turvallisuustiedoista katso valmisteyhteenveto.
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Johtopäätös ja jatkotoimet
 
-**Päätös: Odota**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Ylimmäksi rankatulla ennusteella (keuhkojen hypertensio) ei ole yhtään kliinistä tai kirjallisuusperustaista näyttöä, ja sen mekanistinen perustelu viittaa pikemminkin turvallisuusriskiin kuin tehokkuussignaaliin — tämä on L5, S0-vaiheen mallin tuotos ilman riippumatonta vahvistusta. Kaikki kuusi ennustettua indikaatiota tässä paketissa ovat L4 tai L5 -tasolla, ja keskeinen turvallisuustieto (pakkauksessa olevan liitteen varoitukset, vasta-aiheet, DDI) ei ole saatavilla, mikä estää jopa alkuperäisen S1-turvallisuusarvion.
+- Kaikki ennusteet perustuvat vain TxGNN-malliin (taso L5) ilman kliinisiä tutkimuksia tai suoraa kirjallisuutta. Ainoa tieto Suomen myyntiluvasta on peruutettu, ja valmisteyhteenvedon turvallisuustiedot puuttuvat.
 
-**Edistymiseksi tarvitaan:**
-- TFDA/EU-pakkauksessa oleva liite (varoitukset, vasta-aiheet) — tällä hetkellä Esto-vakavuuden tietojen puute (DG001)
-- Vahvistettu toimintamekanismi ja alkuperäinen indikaatio DrugBankista — tällä hetkellä Korkea-vakavuuden tietojen puute (DG002)
-- Kohdistettu kirjallisuus-/lääketurvallisuushaku erityisesti FGFR-inhibiittorien ja keuhkojen hypertension riskin osalta (turvallisuussignaali, ei tehokkuus) ennen mitään jatkokehittämismahdollisuuden harkintaa
-- Jos haetaan alemmin rankattuja ehdokkaita (esim. reumatoidi nivelreuma, brachydactyly-syndactyly-oireyhtymä), prekliinisiä mekanistisia tutkimuksia L4/L5 näyttöjen siirtämiseksi
-
+**Jatkotoimien edellytykset:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimeasta
+- Vaikutusmekanismitietojen täydentäminen (DrugBank)
+- Prekliinisen tutkimusnäytön kerääminen FGFR-estosta keuhkoverenpainetaudissa
+- Turvallisuusarvio, erityisesti hyperfosfatemian ja muiden FGFR-estäjille tyypillisten haittojen osalta
+- Annostelureittien ja lääkemuotojen yhteensopivuuden selvitys
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

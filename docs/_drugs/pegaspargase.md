@@ -2,15 +2,15 @@
 layout: default
 title: Pegaspargase
 parent: Vahva näyttö (L1-L2)
-nav_order: 287
-evidence_level: L2
+nav_order: 333
+evidence_level: L1
 indication_count: 10
 ---
 
 # Pegaspargase
 {: .fs-9 }
 
-Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,139 +29,121 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Pegaspargase: Akuutista lymfoblastisesta leukemiasta Hodgkinin lymfoomaan (Ekstranodaalinen NK/T-solu lymfooma)
+# Pegaspargaasi: Precursor-solulymfoblastileukemia/-lymfooma → prekursorilymfoblastilymfooma/-leukemia
 
 ## Yhden lauseen yhteenveto
 
-> Pegaspargase (PEGylöity L-asparaginaasi) on vakiintunut kemoterapiakomponentti akuutissa lymfoblastisessa leukemiassa (ALL)/lymfoblastisessa lymfoomassa, jossa se kuluttaa serumin asparaginiinitasoa valinnollisesti tappakseen asparaginaasisyntaasi-puutteellisia pahanlaatuisia lymfoblasteja.
-> Tämä todistepaketti sisältää **10 TxGNN-luokiteltua kandidaattisairastumusosoitusta**; kahdesta viiden parhaan joukossa (prekursorin lymfoblastinen lymfooma/leukemia ja "akuutti lymfoblastinen leukemia") ovat yksinkertaisesti lääkkeen **olemassa olevat, jo hyväksytyt käyttöindikaatiot** kuin uus hypoteesi.
-> Uskottavin todella **uuden käytön** signaali tässä paketissa on sijoitukseltaan #8 ja merkitty **"Hodgkinin lymfoomaksi,"** mutta lähes kaikki sen tukevat tutkimukset ja kirjallisuus tutkivat itse asiassa **Ekstranodaalista NK/T-solu lymfoomaa (ENKTL)** — erillinen, aggressiivinen non-Hodgkin alaryhmä, jossa asparaginaasipohjaisia skeemoja (SMILE, P-GEMOX, GELOX, DDGP) käytetään jo käytännön toteutuksessa, tukena **18 kliinisen tutkimuksen** ja **20 julkaisun**.
+Pegaspargaasi on pegyloitu L-asparaginaasi, jota on alun perin käytetty prekursorisolujen lymfoblastileukemian ja -lymfooman hoitoon. TxGNN-malli ennustaa sen tehoavan **prekursorilymfoblastilymfoomaan/-leukemiaan**, mutta kyseessä on käytännössä sama sairaus kuin alkuperäinen käyttöaihe. Ennustetta tukee **36 kliinistä tutkimusta** ja **20 julkaisua**, eli kyseessä on vahvistus nykyisestä käytöstä eikä varsinainen uudelleenkäyttö.
 
 ---
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Akuutti lymfoblastinen leukemia (ALL) / Lymfoblastinen lymfooma *(päätellään kliinisen tutkimuksen kontekstista ja uudelleenkäytön perustelusta — `original_indications` kenttä oli tyhjä todistepakettissa)* |
-| Ennustettu uusi indikaatio | Hodgkinin lymfooma (merkintä) — tukevia todisteita vastaa pääasiassa **Ekstranodaalinen NK/T-solu lymfooma (ENKTL)** |
-| TxGNN ennustamispistemäärä | 99.71% (sijoitus 3726 mallin tuloksesta) |
-| Todistustaso | L2 |
-| Suomen markkinatila | Ei markkinoitu |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Tutkimuskysymys |
-
-**Huomio tästä todistupaketista:** Tämä on monisairastumuskohtainen kandidaattipaketti (`candidate_id: TW-DB00059-multi`), joka sisältää 10 luokiteltua TxGNN ennustetta. Alla oleva taulukko tiivistää ne kaikki, jotta lukija ymmärtää koko salkun ennen syvää analyysiä pääkandidaatista.
-
-### Kaikkien TxGNN-Ennustettujen Sairastumusten Salkku Tässä Paketissa
-
-| Sijoitus | Sairauden merkintä | Pistemäärä | Todistustaso | Suositus | Huomio |
-|------|---------------|-------|-----------------|-----------------|------|
-| 1 | Prekursorin lymfoblastinen lymfooma/leukemia | 99.96% | L1 | Jatka varauksilla | **Ei uusi indikaatio** — tämä on lääkkeen ydinperustakausi |
-| 2 | Pregerminalisen keskuksen CLL/SLL | 99.95% | L5 | Pidä odottamassa | Ei tutkimuksia/kirjallisuutta; mekanistisesti heikko (kypsät, hitaasti leviävät B-solut) |
-| 3 | CLL/SLL (IGHV-mutattu alaryhmä) | 99.95% | L5 | Pidä odottamassa | Sama kuin edellä |
-| 4 | Folliculaarinen lymfooma | 99.90% | L5 | Pidä odottamassa | Ei todisteita; indolenttigerminaalikeskus-lymfooma, heikko perusteltu |
-| 5 | Akuutti lymfoblastinen leukemia | 99.89% | L1 | Jatka varauksilla | **Ei uusi indikaatio** — sijoituksen 1 kaksikappale |
-| 6 | Metyylkobalamiiini puute (cblE) | 99.74% | L5 | Pidä odottamassa | Biologisesti epätodennäköinen (B12/MTRR metabolinen vika) — todennäköisesti graafisen melun kohinaa; suosita poissulkemista |
-| 7 | Lymfoidinen neoplasma | 99.71% | L2 | Tutkimuskysymys | Liian laaja merkintä; todisteet päällekkäin merkittävästi olemassa olevien ALL-tutkimusten kanssa |
-| **8** | **Hodgkinin lymfooma** | **99.71%** | **L2** | **Tutkimuskysymys** | **Analysoidaan pääkandidaattina alla — todistusperusta on pääosin ENKTL, ei klassinen Hodgkinin lymfooma** |
-| 9 | CLL/SLL | 99.68% | L5 | Pidä odottamassa | Ei todisteita |
-| 10 | Räjähdysvaiheen CML, BCR-ABL1+ | 99.61% | L3 | Tutkimuskysymys | Uskottava vain jos lymfoidinen räjähdyskriisi; heikko todistus (2 tutkimusta, 1 tapausselostus) |
+| Alkuperäinen käyttöaihe | Prekursorisolujen lymfoblastileukemia-lymfooma |
+| Ennustettu uusi käyttöaihe | Prekursorilymfoblastilymfooma/-leukemia |
+| TxGNN-ennustepisteet | 99,96 % |
+| Näytön taso | L1 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Proceed with Guardrails (eteneminen suojatoimin) |
 
 ---
 
-## Miksi tämä ennuste on järkevä?
+## Miksi ennuste on perusteltu?
 
-Pegaspargase on PEGylöity *E. coli* -peräisen L-asparaginaasi muoto. Pahanlaatuiset lymfoblastit ALL:ssa/lymfoblastisessa lymfoomassa usein puuttuvat asparaginaasisyntaasista (ASNS) ja riippuvat ulkoisesta serumin asparaginasta proteiinisynteesin ylläpitämiseen. Pegaspargase kuluttaa plasma-asparaginiiä, selvästi nälkiintyttäen nämä pahanlaatuiset solut samalla kun säästävät useimmat normaali kudokset — mekanismi, joka on eksplisiittisesti vahvistettu todistepaketin omassa perustelutekstissä, vaikka lääke-tason `original_moa` kenttä itsessään on merkitty tiedon puutteeksi (DG002).
+Pegaspargaasi on E. coli -peräisen L-asparaginaasin pegyloitu muoto, joka hajottaa verenkierrosta asparagiinia. Lymfoblastien asparagiinisyntetaasin ilmentyminen on vähäistä, joten ne ovat riippuvaisia solunulkoisesta asparagiinista. Asparagiinin väheneminen tappaa leukemiasolut valikoivasti. Pegylaatio pidentää kiertoaikaa ja vähentää annostelutiheyttä. Mekanismi on hyvin tunnettu, vaikka tässä käytetyissä tiedoissa lääkkeen vaikutusmekanismikenttä on tyhjä.
 
-Sijoitukset 1 ja 5 tässä paketissa ("prekursorin lymfoblastinen lymfooma/leukemia" ja "akuutti lymfoblastinen leukemia") ovat **eivät uusia hypoteeseja** — ne ovat yksinkertaisesti lääkkeen jo vakiintunutta indikaatiota, jota mallin tulee re-pinnaalla hyvin suurella luottamuksella. Tämä on hyödyllinen mallikalibration signaali (se vahvistaa, että TxGNN oikein tunnistaa pegaspargasen todellisen farmakologian) mutta sillä ei ole uudelleenkäytön arvoa.
+Ennustettu käyttöaihe kuuluu samaan tautikokonaisuuteen kuin alkuperäinen käyttöaihe, joten ennuste vahvistaa nykyistä käyttöä. Samoin toinen suuren pistemäärän ennuste, akuutti lymfoblastileukemia (ALL), on sama tauti eri ontologiatermillä.
 
-Eniten toimintakuntoinen **todella uusi** signaali on sijoitus 8. TxGNN:n sairauden ontologia merkitsee sen "Hodgkinin lymfoomaksi," mutta oleellisesti kaikki liittyvät tutkimukset ja artikkelit (SMILE, P-GEMOX, GELOX, DDGP skeemoja) kuvaavat **Ekstranodaalista NK/T-solu lymfoomaa (ENKTL)** — kypsän NK/T-solun neoplasma, joka, kuten ALL, usein osoittaa matalia ASNS ilmentymisen ja on asparaginiiiriippuvainen, antaen biologisesti johdonmukaisen perustelun asparaginaasipohjaisen hoidon kannalta. ENKTL on biologisesti ja kliinisesti erillään klassisesta Hodgkinin lymfoomasta, joten tämä on hyvin todennäköisesti **ontologia/merkintä kartoituksen ongelma** kuin todellinen Hodgkinin lymfooma signaali. Koska asparaginaasipohjaisia skeemoja ENKTL:lle käytetään jo laajalti Aasian ja Tyynenmeren alueella kliinisessä käytännössä (pääosin länsimaisten merkintöjen ulkopuolella), tämä edustaa uskottavaa "vanhaa lääkettä, jo käyttöön otettua uutta käyttöä" tarinaansa, joka ansaitsee muodollisen merkinnän/merkintä selvennyksen ennen lisätoimia.
+Huomionarvoista on, että pegaspargaasin vaikutus perustuu asparagiiniriippuvuuteen. Siksi sen potentiaali muissa kasvaimissa vaihtelee: esimerkiksi NK/T-solulymfoomassa (ekstranodaalinen) on julkaistu vaiheen 2 tutkimuksia ja retrospektiivistä näyttöä pegaspargaasipohjaisista hoito-ohjelmista, kun taas follikulaarisen lymfooman tai kroonisen lymfaattisen leukemian (CLL) osalta mekanistinen peruste on heikko eikä tutkimusnäyttöä ole.
 
 ---
 
-## Kliiniset tutkimustodisteet
+## Kliininen tutkimusnäyttö
 
-*(Alla esitetyt tutkimukset ovat todisteita, jotka tukevat sijoituksen 8 kandidaattia; lähes kaikki tutkivat ENKTL:ää eikä klassista Hodgkinin lymfoomaa — katso varoitus edellä.)*
+Taulukossa on kymmenen merkityksellisintä tutkimusta (arvosanat A–B ja suurimmat vaiheen 3 tutkimukset).
 
-| Tutkimuksen numero | Vaihe | Tila | Osallistujamäärä | Keskeisiä tuloksia |
+| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT02085655](https://clinicaltrials.gov/study/NCT02085655) | Vaihe 3 | Tuntematon | 264 | Satunnaistettu PA-Gemox:in ja thalidomiidin sekä AspaMetDex-skeeman vertailu NKTCL:ssa |
-| [NCT02631239](https://clinicaltrials.gov/study/NCT02631239) | Vaihe 3 | Tuntematon | 256 | Etopositiidi/deksametasoni/pegaspargase ± metotreksaatti sandwitched säteilyhoidolla vaiheen I–II ENKTL:ssa, nenätyyppi |
-| [NCT02359162](https://clinicaltrials.gov/study/NCT02359162) | Vaihe 3 | Lopetettu | 50 | Satunnaistettu P-Gemox vs. EPOCH ensimmäisen linjan kemoterapiana NK/T-solulymfoomassa |
-| [NCT02918747](https://clinicaltrials.gov/study/NCT02918747) | Vaihe 2 | Tuntematon | 100 | Satunnaistettu P-Gemoxd + säteily vs. P-CHOP + säteily varhaisvaiheen ENKTL:ssa |
-| [NCT02533323](https://clinicaltrials.gov/study/NCT02533323) | Vaihe 2 | Lopetettu | 50 | Pegaspargase-Gemox (P-Gemox) ensimmäisen linjan hoitona uudisksi diagnosoidussa nenätyyppi ENKTL:ssa |
-| [NCT06583083](https://clinicaltrials.gov/study/NCT06583083) | Vaihe 2 | Rekrytoi | 84 | Sintilimab (PD-1 vasta-aine) + P-GEMOX vs. P-GEMOX yksin edistynyt-vaiheen ENKTL:ssa |
-| [NCT02080234](https://clinicaltrials.gov/study/NCT02080234) | Vaihe 2 | Tuntematon | 40 | GELOX (gemcitabiini/oksaliplatini/asparaginaasi) samanaikaisella säteilyhoidolla vaiheen IE/IIE ENKTL:ssa |
-| [NCT02705508](https://clinicaltrials.gov/study/NCT02705508) | Vaihe 2 | Tuntematon | 35 | PEG-ASP + etopositiidi + gemcitabiini (PEG skeema) ensimmäisen linjan hoitona NK/T-solulymfoomalle |
-| [NCT07457177](https://clinicaltrials.gov/study/NCT07457177) | Vaihe 2 | Ei vielä rekrytoimassa | 40 | Golidocitinibi + pegaspargase + anti-PD-1 vasta-aine ensimmäisen linjan hoitona edistynyt ENKTL:ssa |
-| [NCT06953739](https://clinicaltrials.gov/study/NCT06953739) | Vaihe 3 | Ei vielä rekrytoimassa | 60 | Pegaspargase + P-GEMD vs. P-Gemox kohdeltamattomassa varhaisvaiheen (ei ylempi-ilmaekeiskunetään) tai edistynyt ENKTL:ssa |
+| [NCT00905034](https://clinicaltrials.gov/study/NCT00905034) | Vaihe 2 | Valmistunut | 37 | MOAD-hoito-ohjelma (metotreksaatti, vinkristiini, pegyloitu asparaginaasi, deksametasoni) uusiutuneessa tai hoitoon reagoimattomassa ALL:ssa |
+| [NCT00967057](https://clinicaltrials.gov/study/NCT00967057) | Vaihe 3 | Valmistunut | 470 | Kansainvälinen ALLR3-tutkimus uusiutuneessa/refraktaarisessa lasten ALL:ssa, asparaginaasia sisältävä pohja |
+| [NCT00890656](https://clinicaltrials.gov/study/NCT00890656) | Vaihe 2 | Valmistunut | 90 | Tehostettu hyper-CVAD ALL:n uusiutumistilanteessa; pegaspargaasi osana yhdistelmää, joten vaikutusta ei voi erottaa |
+| [NCT02003222](https://clinicaltrials.gov/study/NCT02003222) | Vaihe 3 | Aktiivinen, ei rekrytoi | 488 | Blinatumomabi lisättynä solunsalpaajahoitoon vastadiagnosoidussa aikuisten B-ALL:ssa; pegaspargaasi on solunsalpaajapohjassa |
+| [NCT00103285](https://clinicaltrials.gov/study/NCT00103285) | Vaihe 3 | Valmistunut | 5 377 | Tavallisen riskin B-prekursori-ALL, asparaginaasipohjaisia yhdistelmähoitoja |
+| [NCT01190930](https://clinicaltrials.gov/study/NCT01190930) | Vaihe 3 | Valmistunut | 9 350 | Tavallisen riskin B-ALL tai paikallinen B-lymfoblastilymfooma, riskiin mukautettu solunsalpaajahoito |
+| [NCT03914625](https://clinicaltrials.gov/study/NCT03914625) | Vaihe 3 | Aktiivinen, ei rekrytoi | 6 720 | Blinatumomabi ja solunsalpaajat (mm. pegaspargaasi) tavallisen riskin B-ALL:ssa |
+| [NCT03643276](https://clinicaltrials.gov/study/NCT03643276) | Vaihe 3 | Rekrytoi | 5 000 | AIEOP-BFM ALL 2017 -protokolla lapsilla ja nuorilla |
+| [NCT05602194](https://clinicaltrials.gov/study/NCT05602194) | Vaihe 3 | Aktiivinen, ei rekrytoi | 440 | Levokarnitiini asparaginaasin aiheuttaman maksatoksisuuden ehkäisyssä; koskee turvallisuutta, ei tehoa |
+| [NCT01005914](https://clinicaltrials.gov/study/NCT01005914) | Vaihe 2 | Päättynyt ennenaikaisesti | 11 | PEG-asparaginaasin lisääminen hyper-CVAD-hoitoon vastadiagnosoidussa aikuisten ALL:ssa |
+
+Huomio: monessa tutkimuksessa pegaspargaasi on vain osa hoito-ohjelmaa, joten pegaspargaasin oma osuus tehosta ei ole näistä erotettavissa.
 
 ---
 
-## Kirjallisuustodisteet
+## Kirjallisuusnäyttö
 
-| PMID | Vuosi | Tyyppi | Lehti | Keskeisiä tuloksia |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [27723108](https://pubmed.ncbi.nlm.nih.gov/27723108/) | 2017 | RCT | Hematological Oncology | Vaihe 2 monikeeskisen MESA:n (metotreksaatti/etopositiidi/deksametasoni/pegaspargase) tutkimus uudisksy diagnosoidussa, uusiutuneessa tai vastustuksessa olevassa nenätyyppi ENKTL:ssa; CR 43.5%, ORR 87% |
-| [34449095](https://pubmed.ncbi.nlm.nih.gov/34449095/) | 2021 | Kohortti | American Journal of Hematology | Monikeeskinen peräkkäisen P-GEMOX + säteilyn tutkimus varhaisvaiheen ENKTL:ssa |
-| [29194798](https://pubmed.ncbi.nlm.nih.gov/29194798/) | 2018 | Kohortti | European Journal of Haematology | Monikeeskinen retrospektiivinen GELOXD/P-GEMOXD tehokkuuden ja siedettävyyden tutkimus uudisksy diagnosoidussa nenätyyppi ENKTL:ssa |
-| [2345067](https://pubmed.ncbi.nlm.nih.gov/2345067/) | 1990 | Katsaus/Vaihe 2 | Investigational New Drugs | Vaihe 2 PEG-L-asparaginaasi tutkimus vastustuksessa olevassa non-Hodgkin lymfoomassa (21 potilasta) |
-| [30241515](https://pubmed.ncbi.nlm.nih.gov/30241515/) | 2018 | Kohortti | BMC Cancer | PEG-L-CHOP skeema osoitettiin turvalliseksi ja tehokkaaksi aikuisen ENKTL:ssa alhaisen yliherkkyyden kanssa |
-| [24299319](https://pubmed.ncbi.nlm.nih.gov/24299319/) | 2014 | Tapaussarja | Neoplasma | DDGP skeema (pegaspargase/deksametasoni/sisplaatini/gemcitabiini) uudisksy diagnosoidussa ENKTL:ssa |
-| [37486391](https://pubmed.ncbi.nlm.nih.gov/37486391/) | 2023 | Kohortti | Annals of Hematology | "Sandwich" modifioitu SMILE skeema (sisältäen pegaspargasen) pediatrisessa uudisksy diagnosoidussa ENKTL:ssa |
-| [29764116](https://pubmed.ncbi.nlm.nih.gov/29764116/) | 2019 | Kohortti | Cancer Research and Treatment | Matala kiertävä CD4+ T-solun lukumäärä ennustaa huonoa ennustetta ENKTL:ssä, jota käsitellään pegaspargase-pohjaisella kemoterapialla |
-| [19786301](https://pubmed.ncbi.nlm.nih.gov/19786301/) | 2010 | Tapausselostus | Leukemia Research | Kaksi CHOP-vastustuksessa olevaa ENKTL potilasta vastasivat yksittäiseen pegaspargaasiin |
-| [8481665](https://pubmed.ncbi.nlm.nih.gov/8481665/) | 1993 | Katsaus | Leukemia & Lymphoma | Historiallinen L-asparaginaasi/PEG-asparaginaasi kehityksen ja lymfoidisen-malignanssin sovellusten katsaus |
+| [35271306](https://pubmed.ncbi.nlm.nih.gov/35271306/) | 2022 | RCT | J Clin Oncol | COG AALL1231: bortetsomibi vastadiagnosoidussa T-ALL:ssa ja T-lymfoblastilymfoomassa |
+| [32813610](https://pubmed.ncbi.nlm.nih.gov/32813610/) | 2020 | RCT | J Clin Oncol | COG AALL0434: nelarabiini vastadiagnosoidussa T-ALL:ssa |
+| [27114587](https://pubmed.ncbi.nlm.nih.gov/27114587/) | 2016 | RCT | J Clin Oncol | AALL0232: deksametasoni ja suuriannoksinen metotreksaatti parantavat korkean riskin B-ALL:n ennustetta |
+| [31030380](https://pubmed.ncbi.nlm.nih.gov/31030380/) | 2019 | Katsaus | Drugs | Pegaspargaasi ALL:ssa: pidempi kiertoaika ja mahdollisesti vähäisempi immunogeenisuus natiiviin E. coli -asparaginaasiin verrattuna |
+| [40109190](https://pubmed.ncbi.nlm.nih.gov/40109190/) | 2025 | Katsaus | Haematologica | Asiantuntijapaneelin konsensus asparaginaasin haittavaikutusten tunnistamisesta ja hallinnasta aikuisilla |
+| [37276451](https://pubmed.ncbi.nlm.nih.gov/37276451/) | 2023 | Kohorttitutkimus | Blood Adv | GIMEMA LAL1913: pegaspargaasi lisättynä riskiperusteiseen aikuisten ALL-ohjelmaan |
+| [34228505](https://pubmed.ncbi.nlm.nih.gov/34228505/) | 2021 | Kliininen tutkimus | J Clin Oncol | DFCI 11-001: kalaspargaasipegoli vs. pegaspargaasi lasten ALL:ssa, teho ja toksisuus |
+| [40858769](https://pubmed.ncbi.nlm.nih.gov/40858769/) | 2025 | Kohorttitutkimus | Ann Hematol | Pegaspargaasin siedettävyys vähintään 55-vuotiailla LAL1913-ohjelmassa |
+| [33907490](https://pubmed.ncbi.nlm.nih.gov/33907490/) | 2021 | Katsaus | Blood Lymphat Cancer | Pegaspargaasin kliininen hyöty lapsilla, nuorilla ja nuorilla aikuisilla |
+| [14499708](https://pubmed.ncbi.nlm.nih.gov/14499708/) | 2003 | Katsaus | Adv Drug Deliv Rev | Pegaspargaasin kliinisten tutkimusten katsaus |
 
 ---
 
-## Suomen markkinatiedot
+## Myyntiluvat Suomessa
 
-Pegaspargase:lla ei ole tällä hetkellä **myyntilupaa Suomessa** (`market_status: Not Marketed`, `total_licenses: 0`). Mitään tuotetietoja, annosmuotoja tai hyväksyttyjä merkintötekstejä ei ollut saatavilla tässä todistepakettissa Suomen markkinoille.
+| Myyntilupanumero | Valmistenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/003789 | Oncaspar | Ei tietoa | Prekursorisolujen lymfoblastileukemia-lymfooma (tila: peruutettu) |
 
 ---
 
 ## Sytotoksisuus
 
-Pegaspargase on antineoplastinen lääke, jota käytetään yksinomaan monilääkkeisen kemoterapian yhteydessä hemaattisissa malignansseissa, joten tämä osio koskee.
-
 | Kohta | Sisältö |
 |------|------|
-| Sytotoksisuuden luokitus | Perinteinen sytotoksinen — entsyymin pohjainen, asparaginiiniekuluttava aine (ei DNA-vaurioittava sytotoksinen; mekanismi on metabolinen/proteiinisynteesin estäminen) |
-| Luuytimen tukahduttamisen riski | Alhainen - kohtalainen yksinään käytettäessä — asparaginaasi itsessään ei ole vahvasti luuytimen tukahduttava, mutta se yhdistetään väistämättä luuytimen tukahduttaviin aineisiin (vinkristiini, antrasykliinit, sytarbiini, jne.) ALL/ENKTL skeemoissa, ja yhdistelmäskeeman luuytimen tukahduttaminen on hyvin dokumentoitu yllä olevassa kirjallisuustodisteissa |
-| Pahoinvoinnin aiheuttamiskyky | Matala (asparaginaasi-luokan lääkkeet on yleensä luokiteltu matalaksi pahoinvoinnin aiheuttamisrisikiksi) |
-| Monitoroinnin kohteita | Maksan toiminnon testit (maksatoksisuus), rasva-arvojen mittaus/triglyseeridit (hypertriglyseridemia), hyytymisparametrit — fibrinogeeni, antitrombiini (tromboosin/verenvuodon riski), amylaasi/lipaasin (pankreatiitti), verensokeri (hyperglykemia) ja yliherkkyys seuranta; verensolujen laskenta (CBC) erotusvärityksellä tavallisen yhdistelmäskeeman käytännön mukaan |
-| Käsittelysuojaus | Kyllä — täytyy käsitellä vakio-sytotoksisen/vaarallisen lääkkeen käsittelystandardien mukaisesti (suljettu järjestelmän siirto, henkilösuojaimet) |
-
-*(Yllä olevat myrkyllisyyden kohdat ovat johdettu tämän paketin kirjallisuustodisteista — esim. pankreatiitti, hypertriglyseridemia ja pegaspargasen hepatotoksisuus tapaussarjat/kohorteista — koska DrugBank-tason toksisuus/varoitustiedot eivät olleet suoraan saatavilla tässä todistepakettissa.)*
+| Sytotoksisuusluokka | Entsyymipohjainen syöpälääke (asparagiinia hajottava entsyymi), ei perinteinen DNA-vaurioita aiheuttava sytostaatti |
+| Myelosuppression riski | Ks. valmisteyhteenvedon varoitukset ja käyttöön liittyvät varotoimet |
+| Oksettavuusluokka | Ks. valmisteyhteenvedon varoitukset ja käyttöön liittyvät varotoimet |
+| Seurattavat parametrit | Kirjallisuuden perusteella maksa-arvot, haima (pankreatiitti), triglyseridit, verensokeri ja hyytymisparametrit; lisäksi yliherkkyysreaktioiden seuranta |
+| Käsittelysuojaus | Noudatettava sytotoksisten lääkkeiden käsittelyohjeita |
 
 ---
 
-## Turvallisuushuomiot
+## Turvallisuusnäkökohdat
 
-Viitatkaa pakkausselosteeseen turvallisuustiedoista.
+Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ollut saatavilla tähän raporttiin koottuna aineistona. Kirjallisuudessa kuvatut pegaspargaasiin liittyvät haitat:
 
-*(Sekä `key_warnings` että `contraindications` merkittiin tiedon puutteeksi, ja lääkkeiden väliset vuorovaikutuskyselyt eivät tuottaneet tuloksia tässä todistepakettissa. Huomaa erikseen: Tiedon puute DG001 ilmoittaa, että TFDA/Fimea pakkausselosteen varoitukset ja vasta-aiheet ovat **Estävän**-vakavuusaste puute — tämä täytyy ratkaista ennen kuin mitään S1 turvallisuuden esitutkimusta voidaan jatkaa, riippumatta yllä käsitellystä tehokkuuden todistustasosta.)*
+- **Kirjallisuudessa raportoidut haittavaikutukset**: yliherkkyysreaktiot, maksatoksisuus, haimatulehdus, tromboosi, hypertriglyseridemia ja hyperglykemia. Riski näyttää kasvavan iän ja lihavuuden myötä.
+- **Lääkeyhteisvaikutukset**: tiedoissa on 100 yhteisvaikutusta, joista tarkasteltu osa on luokkaa kohtalainen. Mainittuja ovat mm. kortikosteroidit (hydrokortisoni, deksametasoni, betametasoni, triamsinoloni, budesonidi), diabeteslääkkeet (metformiini, akarboosi, alogliptiini, kanagliflotsiini, dapagliflotsiini, saksagliptiini, albiglutidi, dulaglutidi, klooripropamidi), tetrasykliinit (doksisykliini, tetrasykliini), klaritromysiini, bupropioni, asetyylisalisyylihappo ja kenodeoksikoolihappo.
+
+Muilta osin tarkista turvallisuustiedot valmisteyhteenvedosta.
 
 ---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Tutkimuskysymys**
+**Päätös: Proceed with Guardrails**
 
 **Perustelut:**
-- Kaksi tämän paketin huipuista ennustetta (sijoitukset 1 ja 5) toistavat yksinkertaisesti pegaspargasen olemassa olevaa hyväksyttyä käyttöä ja ne eivät ole uudelleenkäytön arvoa; useat muut (sijoitukset 2, 3, 4, 6, 9) eivät ole tutkimus- tai kirjallisuustodisteita ja ovat todennäköisesti mallin kohinaa, mukaan lukien yksi (cblE, sijoitus 6), joka on biologisesti epätodennäköinen.
-- Ainoa uskottava uuden käytön signaali (sijoitus 8) on sekoitettu sairauden merkinnän ristiriidasta — todellisen maailman todisteet tukevat **Ekstranodaalista NK/T-solu lymfoomaa**, ei klassista Hodgkinin lymfoomaa — ja vaikka ENKTL todistusperusta on todella merkittävä (L2, 18 tutkimusta, 20 julkaisua, mukaan lukien Vaihe 3 RCT:t), sitä ei voida arvioida tai toimia oikein, kunnes sairauden merkinnän kartoitus on varmennettu.
-- Erikseen, tämä kandidaatti on tällä hetkellä estetty **Estävän**-vakavuusaste tiedon puutteella (DG001: puuttuva TFDA/Fimea pakkausseloste varoitukset/vasta-aiheet), mikä estää minkä tahansa turvallisuus esitutkimusta riippumatta tehokkuuden todistusten laadusta.
+- Näyttö on tasoa L1: useita valmistuneita vaiheen 3 tutkimuksia ja laaja kirjallisuus tukevat pegaspargaasia sisältäviä ALL-hoito-ohjelmia. Kyseessä on kuitenkin alkuperäisen käyttöaiheen vahvistus, ei uusi käyttöaihe. Suomessa ainoa myyntilupa on peruutettu, joten saatavuus on selvitettävä.
+- Muiden ennusteiden osalta: laaja "lymfaattinen kasvain" -ryhmä perii ALL-näytön, mutta on liian heterogeeninen yksittäiseksi suositukseksi. Hodgkinin lymfoomalle ei ole suoraa näyttöä (tutkimukset koskevat lasten ALL:ia, ja kirjallisuus NK/T-solulymfoomaa), joten se on tutkimuskysymys. CLL, follikulaarinen lymfooma ja cblE-metyylikobalamiinipuutos ovat pelkkiä ennusteita ilman näyttöä (cblE:n pisteytys on todennäköisesti graafiartefakti), joten niissä suositus on Hold. CML:n blastivaihe on näytöltään epäsuora (Hold).
 
-**Jatkamiseksi tarvitaan seuraavaa:**
-- Varmentaa ja korjata sijoituksen 8 ennusteen sairauden ontologian kartoitus (vahvistaa ENKTL vs. klassinen Hodgkinin lymfooma ennen mitään lisäarvioita)
-- Hankkia TFDA/Fimea pakkausseloste (varoitukset, vasta-aiheet) tiedon puutteen (DG001) ratkaisemiseksi
-- Hankkia muodollinen DrugBank/MOA dokumentaatio tiedon puutteen (DG002) ratkaisemiseksi
-- Jos ENKTL vahvistetaan aiotuksi kohde-indikaatioksi, pyydä päivitettyä todisteiden hakua käyttäen "ekstranodaalinen NK/T-solulymfooma" sairauden kyselytermina "Hodgkinin lymfooma" sijasta
-- Koska markkinointi on nolla Suomessa tällä hetkellä, arvioi toteutettavuus/sääntelyn polku ennen uudelleenkäyttöohjelman aloittamista
-
+**Edetäkseen tarvitaan:**
+- Valmisteyhteenvedon (Fimea/EMA) varoitusten ja vasta-aiheiden hankinta ja läpikäynti (turvallisuusseulonnan estävä tietoaukko)
+- Vaikutusmekanismitietojen täydentäminen (esim. DrugBank)
+- Selvitys valmisteen saatavuudesta Suomessa, koska myyntilupa on peruutettu
+- Haittavaikutusten seurantasuunnitelma (maksa, haima, lipidit, glukoosi, yliherkkyys), erityisesti aikuisilla, iäkkäillä ja ylipainoisilla
+- NK/T-solulymfooman osalta erillinen arvio, jos halutaan tutkia varsinaista uutta käyttöaihetta
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

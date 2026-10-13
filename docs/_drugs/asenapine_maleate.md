@@ -2,7 +2,7 @@
 layout: default
 title: Asenapine Maleate
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 43
+nav_order: 47
 evidence_level: L5
 indication_count: 0
 ---

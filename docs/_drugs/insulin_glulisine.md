@@ -2,7 +2,7 @@
 layout: default
 title: Insulin Glulisine
 parent: Vahva näyttö (L1-L2)
-nav_order: 200
+nav_order: 233
 evidence_level: L1
 indication_count: 10
 ---
@@ -29,90 +29,118 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Insuliini glulisin: diabetuksesta tyypin 1 diabetukseen
+# Insuliiniglulisiini: Diabeteksesta tyypin 1 diabetekseen
 
 ## Yhden lauseen yhteenveto
 
-Insuliini glulisin on nopeasti vaikuttava insuliinianalogi, jota käytetään laajasti verensokerin hallintaan diabetes mellituksessa. TxGNN-malli ennustaa, että se saattaa olla tehokas **tyypin 1 diabetukseen**, ja tällä hetkellä **50 kliinistä tutkimusta** ja **19 julkaisua** tukevat tätä suuntaa — kuitenkin tämä ennustettu "uusi" indikaatio on merkittävästi päällekkäinen insuliinin glulisiinin jo vakiintuneen kliinisen käytön kanssa, joten sitä tulisi lukea näyttöjen vahvuuden validointina eikä todellisesti uutena lääkkeen uudelleenkäyttösignaalina.
+Insuliiniglulisiini on ppikavaikutteinen insuliinianalogi, jota on alun perin käytetty diabeteksen hoitoon. TxGNN-malli ennustaa sen tehoavan **tyypin 1 diabetekseen**, ja tätä suuntaa tukee tällä hetkellä **30 kliinistä tutkimusta** (joista raportissa listataan 10) sekä **20 julkaisua**. Kyseessä ei ole varsinainen uusiokäyttö vaan olemassa olevan käyttöaiheen vahvistus.
 
 ---
 
-## Nopea yleiskatsaus
+## Pikayleiskatsaus
 
-| Kohde | Sisältö |
+| Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Ei dokumentoitu saatavilla olevissa sääntelyaineistoissa (Suomi: ei markkinoilla, ei lupakirjaa); insuliini glulisin on yleensä indikoitu aterian aikaisen verensokerin hallintaan diabetes mellituksessa |
-| Ennustettu uusi indikaatio | Tyypin 1 diabetes mellitus |
-| TxGNN-ennustuspistemäärä | 99.55% |
-| Näyttöjen taso | L1 |
-| Markkinatilanne Suomessa | ✗ Ei markkinoilla |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Etene varautuvin ehdoin |
+| Alkuperäinen käyttöaihe | Diabetes mellitus |
+| Ennustettu uusi käyttöaihe | Tyypin 1 diabetes mellitus |
+| TxGNN-ennustepistemäärä | 99,55 % |
+| Näytön taso | L1 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 |
+| Suositeltu päätös | Proceed with Guardrails (eteneminen suojatoimin) |
 
 ---
 
-## Miksi tämä ennustus on järkevä?
+## Miksi ennuste on perusteltu?
 
-Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla. Tunnettujen tietojen perusteella insuliini glulisin on nopeasti vaikuttava ihmisen insuliinianalogi, joka sitoutuu insuliinireseptoriin ja palauttaa suoraan insuliinin signaloinnin sekä alentaa verensokeria — tämä on peruspharmakolooginen vaikutus, joka on yhteinen kaikille insuliinituotteille, ei uusi mekanismi, jota sovelletaan uusilla tavoilla.
+Insuliiniglulisiini on pikavaikutteinen ihmisinsuliinin analogi, joka sitoutuu insuliinireseptoriin ja laskee veren glukoosipitoisuutta. Tarkkaa vaikutusmekanismia koskevaa tietoa ei ole tähän raporttiin koottu aineistoon sisällytetty, joten mekanismin tarkempi analyysi on rajallinen.
 
-Koska insuliinin korvaaminen on vakiintuneiden hoitokäytäntöjen mukainen hoito absoluuttiselle insuliinin puutokselle, ja tyypin 1 diabetes mellitus määritellään haiman beetasolujen autoimmuuniheikkenemiseksi, joka johtaa täsmälleen tähän puutokseen, lääkkeen ja ennustetun indikaation välinen farmakologinen yhteys on suora ja odotettu eikä tutkiva.
+Alkuperäinen käyttöaihe (diabetes mellitus) ja ennustettu käyttöaihe (tyypin 1 diabetes) ovat käytännössä sama sairausryhmä. Tyypin 1 diabeteksessa elimistö ei tuota riittävästi insuliinia, joten aterioiden yhteydessä annettava pikavaikutteinen insuliini on vakiintunut hoitomuoto. Ennuste on siis mekanistisesti uskottava ja kliinisesti jo vahvistettu.
 
-**Tärkeä huomautus:** näyttöpaketin oma uudelleenkäyttöjen perustelut tunnistavat tämän nimenomaisesti — insuliini glulisin on jo hyväksytty käytettäväksi T1DM:ssä useimmilla markkinoilla, joten tämä ehdokas ei edusta todellista "vanha lääke, uusi käyttö" uudelleenkäyttöä. Erittäin vahva TxGNN-pistemäärä ja suuri tutkimus- ja kirjallisuuspohja heijastavat lääkkeen hyvin vakiintunutta roolia T1DM:n hallinnassa, ei äskettäin löydettyä terapeutista soveltamista. Tämä ehdokas tulkitaan parhaiten mallin validointi-/positiivisen kontrollitapauksena eikä putkiston mahdollisuutena.
+Markkinatilanne on kaupallinen rajoite, ei näytön puute: Apidra-valmisteen myyntilupa on peruutettu.
 
 ---
 
-## Kliinisen tutkimuksen näyttö
+## Kliininen tutkimusnäyttö
 
-| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset löydökset |
+| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT00607087](https://clinicaltrials.gov/study/NCT00607087) | Phase 4 | Valmis | 289 | Osoitti insuliinin glulisiinin paremmuuden aspartiin ja lispron nähden CSII-pumpulla selittämättömiin hyperglykemioihin/infuusion sarjan tukkeutumiseen liittyen T1DM:ssä |
-| [NCT00046150](https://clinicaltrials.gov/study/NCT00046150) | Phase 3 | Valmis | 59 | Monikansallinen glulisiinin (HMR1964) ja aspartin vertailu CSII-pumpun välityksellä; turvallisuuspäätepisteet (tukkeutumiset, HbA1c, hypoglykemia) T1DM:ssä |
-| [NCT00115570](https://clinicaltrials.gov/study/NCT00115570) | Phase 3 | Valmis | 572 | 26 viikon tutkimus: glulisin oli yhtä turvallinen ja tehokas kuin lispro lapsissa ja nuorissa T1DM:n kanssa |
-| [NCT00545337](https://clinicaltrials.gov/study/NCT00545337) | Phase 3 | Valmis | 60 | 26 viikon kansainvälinen tutkimus glulisiinin + glargiinin tehokkuuden (HbA1c) ja turvallisuuden arvioimiseksi T1DM:ssä |
-| [NCT00290979](https://clinicaltrials.gov/study/NCT00290979) | Phase 3 | Valmis | 250 | 28 viikon ei-inferioriteettitutkimus: HMR1964 (glulisin) vs lispro T1DM:ssä |
-| [NCT00397553](https://clinicaltrials.gov/study/NCT00397553) | Phase 3 | Valmis | 104 | Paikallinen tehokkuus- ja turvaisuusdata glulisiinille + glargiinin baasaali-insuliinihoidolle T1DM:ssä |
-| [NCT01204593](https://clinicaltrials.gov/study/NCT01204593) | Phase 4 | Valmis | 206 | Baasaali-bolus-hoito (glargiini + glulisin) aiemmin huonosti hallituissa T1DM-potilaissa; HbA1c-muutos 24 viikolla |
-| [NCT00539448](https://clinicaltrials.gov/study/NCT00539448) | Phase 4 | Valmis | 98 | Avoin monisairaalan tutkimus glargiinin + glulisiinin tehokkuudesta ja annostelusta T1DM:ssä |
-| [NCT00964574](https://clinicaltrials.gov/study/NCT00964574) | Phase 4 | Valmis | 68 | Glulisiinin + glargiinin tehokkuus, turvallisuus ja potilaan tyytyväisyys T1DM:ssä |
-| [NCT00925977](https://clinicaltrials.gov/study/NCT00925977) | N/A | Lopetettu | 44 | Hoitojen tyytyväisyyden ristiintarkastelu: glargiini + glulisin vs NPH + glulisin uusissa diagnoosissa olleissa lapsissa T1DM:n kanssa (tutkimus lopetettu) |
+| [NCT01194245](https://clinicaltrials.gov/study/NCT01194245) | Vaihe 2 | Päättynyt | 135 | Satunnaistettu, kaksoissokkoutettu ristikkäistutkimus: ihonalaiset ater-insuliinit tyypin 1 diabeteksessa |
+| [NCT01848990](https://clinicaltrials.gov/study/NCT01848990) | Vaihe 4 | Päättynyt | 456 | Hyaluronidaasi-esikäsittely insuliinipumpussa (CSII), HbA1c-muutos 6 kk:n kohdalla |
+| [NCT00384085](https://clinicaltrials.gov/study/NCT00384085) | Vaihe 4 | Päättynyt | 588 | Glargiini + glulisiini vs. esisekoitettu insuliini (tyypin 2 diabetes) |
+| [NCT00115570](https://clinicaltrials.gov/study/NCT00115570) | Vaihe 3 | Päättynyt | 572 | Glulisiini vs. lispro lapsilla ja nuorilla, joilla tyypin 1 diabetes |
+| [NCT00290979](https://clinicaltrials.gov/study/NCT00290979) | Vaihe 3 | Päättynyt | 250 | Glulisiinin ei-huonommuus lisproon verrattuna tyypin 1 diabeteksessa (28 vk) |
+| [NCT00467376](https://clinicaltrials.gov/study/NCT00467376) | Vaihe 3 | Päättynyt | 485 | Glulisiini vs. lispro tyypin 1 ja 2 diabeteksessa glargiinin rinnalla |
+| [NCT00607087](https://clinicaltrials.gov/study/NCT00607087) | Vaihe 4 | Päättynyt | 289 | Glulisiini vs. aspartti ja lispro insuliinipumpussa |
+| [NCT00135941](https://clinicaltrials.gov/study/NCT00135941) | Vaihe 3 | Päättynyt | 582 | Glargiini + glulisiini vs. esisekoitettu insuliini, potilaiden raportoimat tulokset |
+| [NCT00397553](https://clinicaltrials.gov/study/NCT00397553) | Vaihe 3 | Päättynyt | 104 | Glulisiinin teho ja turvallisuus tyypin 1 diabeteksessa glargiinin kanssa |
+| [NCT00046150](https://clinicaltrials.gov/study/NCT00046150) | Vaihe 3 | Päättynyt | 59 | Glulisiini vs. aspartti insuliinipumpussa, turvallisuusvertailu |
 
 ---
 
-## Kirjallisuuden näyttö
+## Kirjallisuusnäyttö
 
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
-|------|-----|------|------|---------|
-| [16308840](https://pubmed.ncbi.nlm.nih.gov/16308840/) | 2005 | RCT | Horm Metab Res | Monikansallinen satunnaistettu rinnakkaisryhmä-tutkimus (n=683) glulisiinin ja lispron tehokkuuden ja turvallisuuden vertailussa T1DM:n aikuisissa |
-| [21457066](https://pubmed.ncbi.nlm.nih.gov/21457066/) | 2011 | RCT | Diabetes Technol Ther | Satunnaistettu 3-suuntainen ristiintarkastelu: glulisin vs aspart vs lispro CSII:lla T1DM:ssä |
-| [21291333](https://pubmed.ncbi.nlm.nih.gov/21291333/) | 2011 | RCT | Diabetes Technol Ther | 26 viikon lastentutkimus osoitti glulisiinin ja lispron vertailukelpoista tehokkuutta ja turvallisuutta baasaali-bolus-säännöissä |
-| [19614947](https://pubmed.ncbi.nlm.nih.gov/19614947/) | 2009 | RCT | Diabetes Obes Metab | Glulisiinin ja lispron tehokkuus ja turvallisuus japanilaisissa T1DM-potilaissa käyttämällä glargiinia baasaali-insuliinina |
-| [41366610](https://pubmed.ncbi.nlm.nih.gov/41366610/) | 2026 | RCT | Diabetes Obes Metab | Vaiheen III satunnaistettu tutkimus: biosimilaaripohjainen insuliini glulisin (T-Glu) vs alkuperäinen (R-Glu) — immuunigenisiteetti, tehokkuus, turvallisuus T1DM:ssä |
-| [28544684](https://pubmed.ncbi.nlm.nih.gov/28544684/) | 2017 | Kohortti | Pediatr Int | Glulisiinin 1 vuoden CSII-käyttö 20 lapsessa T1DM:n kanssa; merkittävä parannus aterian jälkeiseen glukoosin hallintaan |
-| [19496630](https://pubmed.ncbi.nlm.nih.gov/19496630/) | 2009 | Katsaus | Drugs | Kattava katsaus insuliinin glulisiinin rooliin diabetes-hallinnassa, mukaan lukien T1DM |
-| [16123473](https://pubmed.ncbi.nlm.nih.gov/16123473/) | 2005 | PK/PD-tutkimus | Diabetes Care | Glulisiinin farmakokinetika ja aterian aikainen glukoosin hallinta vs säännöllinen ihmisen insuliini lapsissa T1DM:n kanssa |
-| [18076215](https://pubmed.ncbi.nlm.nih.gov/18076215/) | 2008 | Katsaus | Clin Pharmacokinet | Insuliinin glulisiinin kliinisen farmakokinetiikan ja farmakodynamiikan katsaus |
-| [16706558](https://pubmed.ncbi.nlm.nih.gov/16706558/) | 2006 | Katsaus | Drugs | Glulisiinin verensokerin hallinnan tehokkuuden katsaus vs säännöllinen ihmisen insuliini T1DM:ssä/T2DM:ssä |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|---------|-----|------|------|---------|
+| [16308840](https://pubmed.ncbi.nlm.nih.gov/16308840/) | 2005 | RCT | Horm Metab Res | Satunnaistettu avoin vertailu glulisiini vs. lispro aikuisilla, joilla tyypin 1 diabetes (683 satunnaistettua) |
+| [19614947](https://pubmed.ncbi.nlm.nih.gov/19614947/) | 2009 | RCT | Diabetes Obes Metab | Glulisiinin ja lispron vertailu japanilaisilla tyypin 1 diabetespotilailla, glargiini perusinsuliinina |
+| [23243636](https://pubmed.ncbi.nlm.nih.gov/23243636/) | 2012 | Systemaattinen katsaus | Drugs Today | Insuliinianalogit lasten ja nuorten tyypin 1 diabeteksessa |
+| [20150026](https://pubmed.ncbi.nlm.nih.gov/20150026/) | 2010 | Systemaattinen katsaus | Endocr Pract | Pikavaikutteiset analogit vs. tavallinen ihmisinsuliini perus-bolus-hoidossa |
+| [35933650](https://pubmed.ncbi.nlm.nih.gov/35933650/) | 2022 | Vertaileva tutkimus | Acta Diabetol | Glulisiini vs. lispro ja aspartti pumppuhoidossa |
+| [19496630](https://pubmed.ncbi.nlm.nih.gov/19496630/) | 2009 | Katsaus | Drugs | Glulisiinin käyttö diabeteksen hoidossa: ei-huonompi tai vastaava teho muihin lyhyt- ja pikavaikutteisiin insuliineihin nähden |
+| [16706558](https://pubmed.ncbi.nlm.nih.gov/16706558/) | 2006 | Katsaus | Drugs | Glulisiinilla samantasoinen glykeeminen kontrolli kuin tavallisella ihmisinsuliinilla tyypin 1 diabeteksessa |
+| [28544684](https://pubmed.ncbi.nlm.nih.gov/28544684/) | 2017 | Tapaussarja | Pediatr Int | Glulisiini insuliinipumpussa 20 lapsella: aterianjälkeiset glukoosiarvot paranivat vuoden seurannassa |
+| [18076215](https://pubmed.ncbi.nlm.nih.gov/18076215/) | 2008 | Farmakologinen katsaus | Clin Pharmacokinet | Glulisiinin farmakokinetiikka ja -dynamiikka: nopeampi vaikutuksen alku ja lyhyempi kesto kuin ihmisinsuliinilla |
+| [25865292](https://pubmed.ncbi.nlm.nih.gov/25865292/) | 2016 | Katsaus | Diabetes Metab Res Rev | Jatkuva ihonalainen insuliini-infuusio: potilasryhmät, turvallisuus ja teho |
 
 ---
 
-## Turvallisuusnäkökohdat
+## Markkinatiedot Suomessa
 
-Viitattavaksi lääkkeen pakkausmerkintöihin sisältyviin turvaisuustietoihin.
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000557 | Apidra | – | Diabetes mellitus |
+
+Tämä myyntilupa on tilassa "peruutettu".
+
+---
+
+## Turvallisuushuomiot
+
+Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole tässä raportissa käytettävissä, joten niiden osalta on tutustuttava valmisteyhteenvetoon.
+
+**Yhteisvaikutukset:** Aineiston mukaan yhteisvaikutuksia on yhteensä 100. Esimerkkejä keskivaikeista (Moderate) yhteisvaikutuksista:
+
+- Sympatomimeetit: fenyylefriini, adrenaliini, pseudoefedriini
+- Beetasalpaaja: asebutololi
+- Beeta-agonistit: formoteroli, salbutamoli
+- Muut diabeteslääkkeet: metformiini, pioglitatsoni, alogliptiini, albiglutidi
+- Hormonit: etinyyliestradioli, estradioli, hydrokortisoni
+- Muut: asetatsoliamidi, doksisykliini, hydrokloorotiatsidi, alpelisibi, etanoli
+
+Lisäksi lieviä (Minor) yhteisvaikutuksia on mm. paikallisesti käytettävien kortikosteroidien (hydrokortisoni, alklometasoni) kanssa.
 
 ---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Etene varautuvin ehdoin**
+**Päätös: Proceed with Guardrails (eteneminen suojatoimin)**
 
 **Perustelut:**
-Näyttöjen vahvuus on korkea (L1: useita valmistuneita vaiheen 3 RCT:ita, jotka tutkivat suoraan insuliinia glulisiinia T1DM:ssä), mutta ennustettu indikaatio on merkittävästi päällekkäinen lääkkeen jo vakiintuneen kliinisen käytön kanssa eikä edusta todellista uudelleenkäyttömahdollisuutta — varautumiset ovat tarpeen varmistaakseen, että tämä käsitellään virallisena rekisteröinti-/validointitapauksena eikä uutena terapeutisena hypoteesina.
+- Tyypin 1 diabetes on insuliinin vakiintunut käyttöaihe. Useat vaiheen 3 ja 4 tutkimukset sekä satunnaistetut julkaisut tukevat glulisiinin tehoa ja turvallisuutta, joten näyttö on vahvaa (L1).
+- Myyntilupa Suomessa on peruutettu, mikä on kaupallinen ja saatavuuteen liittyvä rajoite eikä näytön puute.
 
-**Jatkamisen edellytykset:**
-- TFDA/Fimea-pakkausmerkinnän sisältämät varoitukset, vasta-aiheet ja lääkkeiden yhteisvaikutustiedot (tällä hetkellä estävät turvallisuuden ennakkoarvioinnin — DG001)
-- Vahvistettu vaikutusmekanismin dokumentaatio DrugBankista (DG002)
-- Vahvistus siitä, että "ennustettu uusi indikaatio" heijastaa todellista näyttövajetta Suomessa (0 lupaa, ei markkinoilla) vai yksinkertaisesti rekisteröitävää olemassa olevaa käyttöä, jotta voidaan ohjata tämä oikein markkinoille tulemisen tapauksena eikä uudelleenkäyttötapauksena
+**Jatkoon tarvitaan:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittäminen (Fimean tai EMA:n lähteistä)
+- Yksityiskohtaiset vaikutusmekanismitiedot
+- Selvitys valmisteen saatavuudesta ja myyntiluvan peruutuksen syystä
+- Yhteisvaikutusten (erityisesti muiden diabeteslääkkeiden ja sympatomimeettien) seurantasuunnitelma
 
+---
+
+### Huomio muista ennusteista
+
+Muut ennustetut käyttöaiheet (mm. tiamiinivasteinen toimintahäiriöoireyhtymä, opsismodysplasia, jäykkäraaja- ja jäykkä ihminen -oireyhtymä, autoimmuuninen munasarjatulehdus, lipodystrofiat) perustuvat pelkkään mallin ennusteeseen (L5), eikä niille ole kliinistä tai kirjallista näyttöä. Haimaagenesian osalta insuliinikorvaus on mekanistisesti perusteltu (L4), mutta se hoitaa vain sairauden aiheuttamaa diabetesta. Lipodystrofiat ovat tunnettuja insuliini-injektioiden haittavaikutuksia, joten näiden ennusteiden taustalla on todennäköisesti haittavaikutussignaali, ei hoitohyöty. Näiden osalta suositus on Hold.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

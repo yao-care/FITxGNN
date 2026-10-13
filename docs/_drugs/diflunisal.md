@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Diflunisal
-parent: Vahva näyttö (L1-L2)
-nav_order: 123
-evidence_level: L2
+parent: Pelkkä mallin ennuste (L5)
+nav_order: 141
+evidence_level: L5
 indication_count: 10
 ---
 
 # Diflunisal
 {: .fs-9 }
 
-Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,74 +29,100 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Diflunisal: NSAID-indikaatiosta ankyloivaan spondyliitiin
+# Diflunisaali: Perheellisestä amyloidineuropatiasta ennustettuun selkärankareumaan (ankyloiva spondyliitti)
 
 ## Yhden lauseen yhteenveto
 
-> Diflunisal on salisilaatin johdannainen NSAID, jota on historiallisesti käytetty kipuun ja tulehduksellisiin lihasluusto-olosuhteisiin.
-> Vaikka TxGNN:n yksittäin korkeimmin pisteytetty ennuste (akromesomeelinen dysplasia, Hunter-Thompson-tyyppi) ei ole tuettu todisteella ja sen oma perusteluteksti merkitsee sitä todennäköiseksi väärän positiivisen, sen 5. sijalla oleva ennuste — **Ankyloiva spondyliitti** — on tuettu suoralla vertailevalla satunnaistuksella ja **7 tukevalla julkaisulla**, mikä tekee siitä uskottavamman käyttötarkoituksen muutoskandidaatin tästä todistelupakettista.
+Diflunisaali on tulehduskipulääke (NSAID) ja transtyretiinia (TTR) stabiloiva lääkeaine, jolle on Suomessa myönnetty myyntilupa perinnöllisen amyloidineuropatian hoitoon.
+TxGNN-malli ennustaa sen sopivan useisiin uusiin käyttöaiheisiin. Näistä ainoa edes jossain määrin tuettu on **ankyloiva spondyliitti** (selkärankareuma), jota tukee **0 kliinistä tutkimusta** ja **7 julkaisua**, joista vain yksi on suoraan diflunisaalia koskeva vertaileva tutkimus (vuodelta 1986).
 
-## Nopea katsaus
+---
+
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Ei ole määritetty lähdetiedoissa (lääkeryhmä tunnetaan: salisilaatti-NSAID kipuun/tulehdukseen) |
-| Ennustettu uusi indikaatio | Ankyloiva spondyliitti |
-| TxGNN-ennusteen pistemäärä | 99.98% (sijoitus 373 raakatuloksella; ylennetty johtavaksi kandidaatiksi todisteiden perusteella) |
-| Todisteiden taso | L2 |
-| Suomen markkinan asema | Ei saatavana markkinoilla |
-| Myyntilupien lukumäärä | 0 |
-| Suositeltu päätös | Jatka varauksilla (odottaen estävän turvallisuuden tietoaukon ratkaisua) |
+|------|------|
+| Alkuperäinen käyttöaihe | Perheellinen amyloidineuropatia |
+| Ennustettu uusi käyttöaihe | Akromesomeelinen dysplasia, Hunter-Thompson-tyyppi (TxGNN-sijalla 1); parhaiten tuettu ehdokas: ankyloiva spondyliitti (sija 5) |
+| TxGNN-ennustepistemäärä | 99,99 % (sija 1); ankyloiva spondyliitti 99,98 % |
+| Näytön taso | L5 (sija 1); ankyloiva spondyliitti L3 |
+| Tilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (sija 1); ankyloiva spondyliitti: tutkimuskysymys |
 
-## Miksi tämä ennuste on kohtuullinen?
+---
 
-Tällä hetkellä yksityiskohtaista diflunisal-lääkkeen vaikutusmekanismia ei ole saatavilla tässä todistelupakettissa (tietoaukko, korkea vakavuus). Tunnettujen lääkeryhmän tietojen perusteella diflunisal on salisilaatin johdannainen NSAID; kuten muut tämän ryhmän jäsenet, se estää syklooksigenaasin (COX-1/COX-2), vähentäen prostaglandiinisynteesiä ja tuottaen kipulievittäviä ja tulehduksenvastustavia vaikutuksia.
+## Miksi ennuste on perusteltu?
 
-Ankyloiva spondyliitti (AS) on krooninen tulehduksellinen spondyloartropatia, jossa NSAID:t ovat hyvin vakiintunut ensimmäisen linjan oirehoito. Mekanistinen yhteys on siis suora eikä spekulatiivinen: COX-este vähentää prostaglandiinin välittämää tulehdusta AS:n oireissa, samaa reittiä, jota kohdentavat diklofenaakki, naprokseeni ja pirprofeeni — joilla kaikilla on dokumentoitu tehokkuus AS:ssä alla olevassa kirjallisuudessa.
+Yksityiskohtaista vaikutusmekanismitietoa ei ole tässä aineistossa saatavilla. Tunnetun tiedon perusteella diflunisaali on salisyylihappojohdannainen NSAID-lääke, joka estää syklo-oksigenaasia (COX) ja vähentää prostaglandiinivälitteistä tulehdusta ja kipua. Lisäksi se stabiloi transtyretiinitetrameeriä, mikä selittää sen käytön perinnöllisessä amyloidineuropatiassa.
 
-Merkittävää on, että tämä ei ole puhtaasti analoginen (saman luokan) päätelmä. Yksi julkaisu (PMID 3524970) on suora satunnaistuksella kaksinsokkoutettu tutkimus diflunisal-lääkkeestä AS-potilaissa, mikä antaa vahvemman todisteen kuin tyypilliset lääkkeen uuden käyttötarkoituksen hypoteesit, jotka pohjautuvat vain ryhmävaikutuksiin.
+**Sija 1 (akromesomeelinen dysplasia, Hunter-Thompson-tyyppi):** Tämä on geneettinen luustodysplasia (CDMP1/GDF5-toiminnanmenetys). Diflunisaalin kumpikaan vaikutus ei kohdista GDF5-signalointiin. Hyvin korkea pistemäärä on todennäköisesti tietämyskaavion (knowledge graph) artefakti. Samanlainen arvio koskee muita harvinaisia luusto- ja kehityshäiriöitä (brakyolmia, brakyolmia-amelogenesis imperfecta -oireyhtymä, koloboomainen mikroftalmia-rhizomeelinen dysplasia -oireyhtymä).
 
-## Kliinisen tutkimuksen todisteet
+**Ankyloiva spondyliitti ja tulehduksellinen spondylopatia:** COX:n esto on sama mekanismi, johon NSAID-lääkkeiden teho selkärankareumassa perustuu, ja NSAID-lääkkeet ovat ensilinjan hoitoa. Perustelu on uskottava, mutta se perustuu pääosin lääkeryhmätason päättelyyn. Vakiintuneita vaihtoehtoja (esim. naprokseeni, diklofenaakki) on jo olemassa, joten diflunisaalin lisäarvo on rajallinen.
 
-Tällä hetkellä ei ole asiaan liittyviä rekisteröityjä kliinisiä tutkimuksia.
+**Muut ehdokkaat:** Selkärankareuman alttiusfenotyyppi (spondyloarthropathy, susceptibility to) on epäsuorasti uskottava, mutta se ei ole hoidettava kliininen tila. Myoskleroosin ja häntäluun liikkuvuuden lisääntymisen kohdalla NSAID voisi korkeintaan lievittää oireita epäspesifisesti. Reumatoidisessa vaskuliitissa tarvitaan immunosuppressiota, eikä diflunisaalilla ole sairautta muokkaavaa roolia.
 
-## Kirjallisuuden todisteet
+---
 
-| PMID | Vuosi | Tyyppi | Lehti | Keskeisiä löydöksiä |
-|------|------|--------|------|----------|
-| [3524970](https://pubmed.ncbi.nlm.nih.gov/3524970/) | 1986 | RCT | Clinical Rheumatology | 12 viikon kaksinsokkoutettu RCT (n=38) vertailivat suoraan diflunisal 500 mg kahdesti päivässä vs. phenylbutazone 200 mg kahdesti päivässä AS:ssa; molemmat olivat tehokkaita, diflunisal oli nopeampi ja selvemmin vaikuttava varhaisen kipulievityksen osalta, hyöty säilyi 36 viikon avoimessa jatko-osassa |
-| [2670397](https://pubmed.ncbi.nlm.nih.gov/2670397/) | 1989 | Katsaus (sama luokka: diclofenac) | Clinical Pharmacy | Katsaus diclofenac-lääkkeen farmakologiasta ja tehokkuudesta reumasairauksissa mukaan lukien AS, tukee luokan tason NSAID-perustelua |
-| [6772422](https://pubmed.ncbi.nlm.nih.gov/6772422/) | 1980 | Katsaus (sama luokka: diclofenac) | Drugs | Diclofenac-lääkkeen tehokkuuskatsaus kattaa reumatoidisen artriittin, degeneratiivisen nivelsairaauden ja ankyloivan spondyliittin |
-| [387372](https://pubmed.ncbi.nlm.nih.gov/387372/) | 1979 | Katsaus (sama luokka: naproxen) | Drugs | Naproxen-lääkkeen tehokkuus- ja siedettävyys-katsaus reumasairauksissa, tukee NSAID-luokan vaikutusta spondyloartropatioissa |
-| [3539573](https://pubmed.ncbi.nlm.nih.gov/3539573/) | 1986 | Katsaus (sama luokka: pirprofen) | Drugs | Pirprofen vaihtoehtoisen NSAID-terapian reumatoidisen artriittin, osteoartriittin ja ankyloivan spondyliittin hoidossa |
-| [4062389](https://pubmed.ncbi.nlm.nih.gov/4062389/) | 1985 | Kohorttitutkimus | Annals of the Rheumatic Diseases | 48 viikon tutkimus serum IgA:n ja taudin aktiivisuuden välisestä suhteesta AS-potilaissa phenylbutazone- tai diflunisal-hoidolla; IgA korreloi rintakehän laajentumisen ja lumbaali-fleksion kanssa, ei suora tehokkuustutkimus |
-| [3546687](https://pubmed.ncbi.nlm.nih.gov/3546687/) | 1986 | Kohorttitutkimus | Journal of Rheumatology | Keuhkofunktiotutkimus AS-potilaissa diflunisal- tai phenylbutazone-hoidolla; arvioi keuhkojen restriktiiviä häiriötä ja taudin aktiivisuutta, ei pääasiallinen tehokkuuspääte |
+## Kliininen tutkimusnäyttö
 
-**Rajoitus:** Ainoa diflunisal-spesifinen tehokkuustutkimus (PMID 3524970) on pieni (n=38, vain miehillä), yli 35 vuotta vanha ja vertailivat phenylbutazonia — vertailuainetta, joka on nyt vedetty pois markkinoilta tai merkittävästi rajoitettu useimmissa maissa toksisiteetin vuoksi — eikä plaseboa tai nykyisen NSAID-standardi-hoidon kanssa.
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
+
+---
+
+## Kirjallisuusnäyttö
+
+Alla ankyloivan spondyliitin (sija 5) kirjallisuus. Tulehduksellisen spondylopatian (sija 10) julkaisut ovat samat. Muille ennustetuille käyttöaiheille ei ole kirjallisuutta.
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [3524970](https://pubmed.ncbi.nlm.nih.gov/3524970/) | 1986 | Kliininen vertaileva tutkimus (kaksoissokkoutettu, satunnaistettu) | Clinical Rheumatology | Diflunisaali (500 mg × 2) vs. fenyylibutatsoni 38 miehellä: molemmat lievittivät oireita 12 viikon aikana ja teho säilyi 36 viikon jatkovaiheessa; diflunisaalilla alussa voimakkaampi ja nopeampi kipua lievittävä vaikutus. |
+| [3546687](https://pubmed.ncbi.nlm.nih.gov/3546687/) | 1986 | Kohorttitutkimus | Journal of Rheumatology | Keuhkojen toiminta ja NSAID-hoito (diflunisaali tai fenyylibutatsoni) aktiivisessa selkärankareumassa; ei lääkekohtainen. |
+| [4062389](https://pubmed.ncbi.nlm.nih.gov/4062389/) | 1985 | Kohorttitutkimus | Annals of the Rheumatic Diseases | Seerumin IgA-tasot ja taudin aktiivisuus 38 potilaalla (fenyylibutatsoni tai diflunisaali); ei lääkekohtainen. |
+| [6772422](https://pubmed.ncbi.nlm.nih.gov/6772422/) | 1980 | Katsaus (diklofenaakki, epäsuora) | Drugs | Diklofenaakin käyttö reumataudeissa, mukaan lukien selkärankareuma. |
+| [387372](https://pubmed.ncbi.nlm.nih.gov/387372/) | 1979 | Katsaus (naprokseeni, epäsuora) | Drugs | Naprokseenin farmakologia ja teho reumataudeissa. |
+| [3539573](https://pubmed.ncbi.nlm.nih.gov/3539573/) | 1986 | Katsaus (pirprofeeni, epäsuora) | Drugs | Pirprofeenin teho muun muassa selkärankareumassa. |
+| [2670397](https://pubmed.ncbi.nlm.nih.gov/2670397/) | 1989 | Katsaus (diklofenaakki, epäsuora) | Clinical Pharmacy | Diklofenaakin farmakologia, teho ja haittavaikutukset. |
+
+---
 
 ## Suomen markkinatiedot
 
-Myyntilupa-tietoja ei löytynyt — diflunisal ei ole tällä hetkellä saatavilla Suomessa (0 lupaa).
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/006248 | Attrogy | Ei tietoa | Perheellinen amyloidineuropatia (peruutettu) |
 
-## Turvallisuushuomiot
+---
 
-Katso turvallisuustiedot pakkausselosteesta. Huomaa: TFDA:n/paikallisen pakkausselosteen (varoitukset, vasta-aiheet) kerääminen on avoin **estävä** tietoaukko (DG001) — tämä kandidaatti ei voi suorittaa täyttä S1-turvallisuus-esiarviointia, kunnes lähde on hankittu.
+## Turvallisuusnäkökohdat
 
-## Johtopäätös ja seuraavat vaiheet
+Pakkausselosteen varoituksia ja vasta-aiheita ei ole tässä aineistossa saatavilla, joten niihin on tutustuttava valmisteyhteenvedosta ennen jatkoa.
 
-**Päätös: Jatka varauksilla**
+- **Tietämyskaavion (PrimeKG) mukaiset vasta-aihesuhteet** (eivät ole valmisteen virallista tekstiä): kohonnut verenpaine, munuaissairaus, maksasairaus, sappirakon sairaus, peptinen haavatauti (myös aktiivinen), veren hyytymishäiriöt, sydäninfarkti, sepelvaltimotromboosi, hemoglobinopatia sekä sydän- ja verisuonitaudit yleisesti. Nämä vastaavat NSAID-lääkkeiden tunnettua riskiprofiilia.
+- **Lääkeyhteisvaikutukset:** Yhteensä 100 yhteisvaikutusta löytyi. Näytetyt ovat kaikki tasoa "kohtalainen", muun muassa:
+  - kortikosteroidit (hydrokortisoni, deksametasoni, betametasoni, triamsinoloni, budesonidi)
+  - asetyylisalisyylihappo
+  - mesalatsiini ja balsalatsidi
+  - diabeteslääkkeet (metformiini, klooripropamidi, glimepiridi, insuliinit)
+  - kaliumsitraatti ja kaliumbikarbonaatti
+  - suolen tyhjennysvalmisteet (pikosulfaatti, natriumsulfaatti, polyetyleeniglykoli)
+
+---
+
+## Johtopäätös ja seuraavat askeleet
+
+**Päätös: Hold** (kokonaisuutena). Ankyloivan spondyliitin ja tulehduksellisen spondylopatian osalta suositus on *tutkimuskysymys*.
 
 **Perustelut:**
-Suora satunnaistuksella kaksinsokkoutettu tutkimus ja johdonmukainen saman luokan NSAID-todiste tukevat diflunisal-lääkkeen mekanistista ja kliinistä uskottavuutta ankyloivassa spondyliitissa (L2, S2). Kuitenkin todistelupohja on vanha, pieni ja käyttää vanhentunutta vertailuainetta, sekä estävä turvallisuuden tietoaukko (pakkausseloste / vasta-aiheet) jää ratkaisematta, joten tätä ei vielä voida siirtää "Go"-päätökseen.
+- Parhaiten pistemäärältään sijoittuvat ehdokkaat ovat pääosin harvinaisia geneettisiä luustohäiriöitä, joille ei ole mekanistista perustetta eikä kliinistä näyttöä (L5); korkea pistemäärä on todennäköisesti tietämyskaavion artefakti.
+- Ankyloivalle spondyliitille on uskottava COX-mekanismi ja yksi vanha (1986) pieni vertaileva tutkimus (38 potilasta), mutta näyttö on vanhaa ja rajallista, vakiintuneita NSAID-vaihtoehtoja on, ja diflunisaalin ainoa myyntilupa Suomessa on peruutettu.
 
-**Jatkamiseksi tarvitaan seuraavaa:**
-- Hankkia TFDA:n/paikallinen pakkausseloste (varoitukset, vasta-aiheet) DG001:n estävän tietovajeen ratkaisuun
-- Hankkia virallinen vaikutusmekanismi-dokumentaatio (DrugBank) DG002:n korkean vakavuuden tietovajeen ratkaisuun
-- Arvioida, onko mahdollista toteuttaa modernin vertailutason (vs. plasebo tai nykyisen NSAID-standardi-hoidon) tutkimusta tai kerätä käytännön todisteet, kun otetaan huomioon olemassa olevan tutkimuksen ikä ja vanhentuneet vertailuaineet
-- Selventää alkuperäisen indikaatio-historian, sillä `original_indications` on tyhjä nykyisessä lähdetiedoissa
-
-*Huomio: TxGNN:n korkeimmin pisteytetty ennuste (akromesomeelinen dysplasia, Hunter-Thompson-tyyppi, 99.99%) ja 7 muuta top-10-ennustetta suljettiin pois tästä raportista — jokaisella ei ole kliinistä tutkimusta tai kirjallisuuden tukea ja niiden omat mekanistiset perustelut merkitsevät ne biologisesti epäuskottaviksi diflunisal-NSAID-mekanismille (todennäköisesti mallin häly/väärät positiiviset).*
-
+**Jatkoa varten tarvitaan:**
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet (turvallisuusseulonnan estävä aukko)
+- Yksityiskohtainen vaikutusmekanismitieto
+- Nykyaikainen, riittävän suuri vertaileva tutkimusnäyttö diflunisaalista selkärankareumassa verrattuna nykyisiin NSAID-lääkkeisiin
+- Selvitys valmisteen saatavuudesta ja myyntiluvan tilasta, koska nykyinen lupa on peruutettu
+- Erillinen arvio kardiovaskulaari-, munuais- ja maha-suolikanavariskeistä potilasryhmittäin
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

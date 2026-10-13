@@ -2,7 +2,7 @@
 layout: default
 title: Tegafur
 parent: Vahva näyttö (L1-L2)
-nav_order: 361
+nav_order: 422
 evidence_level: L1
 indication_count: 10
 ---
@@ -29,115 +29,115 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Tegafur: Gastric Cancer -diagnoosista Colonic Neoplasm -diagnoosiin
+# Tegafuuri: Mahasyövän hoidosta paksusuolen kasvaimeen
 
-## Yksisäteinen yhteenveto
+## Yhden lauseen yhteenveto
 
-Tegafur on suun kautta annosteltava fluoropyrimiidiini, 5-fluorourasiilin (5-FU) prodrug, jota on historiallisesti käytetty **mahalaukun syövän** hoitoon. TxGNN-malli ennustaa vahvaa soveltuvuutta **Colonic Neoplasm** -diagnoosiin, mikä on ennuste, jonka takaa jo oleellinen tosielämän näyttö — **30 rekisteröityä kliinistä tutkimusta** (mukaan lukien useita valmistuneita vaiheen 3 RCT-tutkimuksia) ja **20 vertaisarvioitua julkaisua**, pääosin UFT-kombinaation (tegafur + uratsiilin) adjuvanttisäännön kautta.
+Tegafuuri on 5-fluorourasiilin (5-FU) esiaste, jota on alun perin käytetty **mahasyövän** hoitoon. TxGNN-malli ennustaa sen voivan tehota **paksusuolen kasvaimeen** (colonic neoplasm). Tätä suuntaa tukee tällä hetkellä **17 kliinistä tutkimusta** ja **20 julkaisua**, joihin kuuluu useita päättyneitä vaiheen 3 satunnaistettuja tutkimuksia.
 
 ---
 
-## Nopea yleiskatsaus
+## Pikayhteenveto
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Mahalaukun syöpä (tegafurin monoterapian vakiintuneen farmakologian perusteella; virallista Taiwan/Suomen lisenssin tekstiä ei ole saatavilla) |
-| Ennustettu uusi indikaatio | Colonic Neoplasm |
-| TxGNN-ennusteyksikkö | 99.90% |
-| Todisteiden taso | L1 |
-| Suomen markkinoiden tila | Ei ole markkinoilla (Not Marketed) |
-| Lupien lukumäärä | 0 |
-| Suositeltu päätös | Etene varauksilla |
+| Alkuperäinen käyttöaihe | Mahasyöpä (Stomach Neoplasms) |
+| Ennustettu uusi käyttöaihe | Paksusuolen kasvain (colonic neoplasm) |
+| TxGNN-ennustepisteet | 99,90 % |
+| Näytön taso | L1 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Proceed with Guardrails (eteneminen suojatoimin) |
 
 ---
 
-## Miksi tämä ennuste on järkevä?
+## Miksi ennuste on perusteltu?
 
-Tällä hetkellä yksityiskohtaisia mekanismin tietoja ei ole saatavilla näyttöpaketissa (Data Gap DG002). Tunnetun farmakologian perusteella tegafur on 5-FU:n prodrug, jonka aktivoi maksa CYP2A6:n kautta, mikä estää timidylaatisyntaasia ja estää DNA-synteesiä. Se kuuluu fluoropyrimiidiini-antimetaboliitti-luokkaan sekä monoterapiana että UFT-kombinaation osana (tegafur + uratsiilin, jossa uratsiilin estää dihydropyridimiididehydrogenaasin [DPD:n], mikä lisää 5-FU-altistusta). Sen teho mahalaukun syövässä on hyvin vakiintunut, ja mekanistisesti se ulottuu suoraan paksusuolen syöpään.
+Tegafuuri on 5-FU:n esiaste, joka muuntuu elimistössä pääasiassa maksan CYP2A6-entsyymin vaikutuksesta. 5-FU estää tymidylaattisyntaasia ja liittyy RNA:han ja DNA:han, mikä on vakiintunut sytotoksinen vaikutusmekanismi ruoansulatuskanavan adenokarsinoomissa. Uratsiilin kanssa yhdistettynä (UFT) uratsiili estää kilpailevasti DPD-entsyymin aiheuttamaa 5-FU:n hajoamista ja nostaa 5-FU:n pitoisuutta kasvaimessa.
 
-Mahalaukun syöpä ja paksusuolen neoplasia ovat molemmat ruoansulatuskanavaan liittyvät pahanlaatuiset kasvaimet, jotka jakavat saman farmakologisen herkkyyttä fluoropyrimiidiinipohjaisen DNA-synteesin estämiselle. Käytännössä UFT-regimen on jo vakiintuneet postoperatiiviset adjuvanttikemoterapiat paksusuolen syöpään useilla markkinoilla (erityisesti Japanissa), mikä tarkoittaa, että kyse on vähemmän uusista repurposing-hypoteeseista vaan suoran todistusperäisen kliinisen käytön laajentamisesta — mikä näkyy epätavallisen suuressa tämän ennusteen tukevan tutkimus- ja kirjallisuuspohjassa.
+Tällä hetkellä yksityiskohtaisia vaikutusmekanismitietoja ei ole saatavilla tämän raportin tietoaineistossa. Perustelu nojaa tegafuurin tunnettuun farmakologiaan, ei toimitettuun tietueeseen.
+
+Maha- ja paksusuolisyövällä on yhteistä ruoansulatuskanavan adenokarsinoomabiologiaa, minkä vuoksi käyttöaiheen laajentaminen on mekanistisesti uskottavaa. Tegafuuria sisältäviä yhdistelmiä (UFT, S-1) on tutkittu laajasti paksusuolisyövän liitännäishoidossa.
 
 ---
 
-## Kliinisen tutkimuksen näyttö
+## Kliininen tutkimusnäyttö
 
-| Tutkimusnumero | Vaihe | Tila | Osallistujat | Tärkeimmät havainnot |
+Taulukossa on 10 relevanteinta tutkimusta (yhteensä 17 tutkimusta aineistossa).
+
+| Tutkimusnumero | Vaihe | Tila | Osallistujia | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT00378716](https://clinicaltrials.gov/study/NCT00378716) | Vaihe 3 | Valmistunut | 1,608 | UFT+leukoboriini vs 5-FU+leukoboriini, poistettuja vaiheen II/III paksusuolen syöpiä — vertaileva vahvistustutkimus |
-| [NCT00660894](https://clinicaltrials.gov/study/NCT00660894) | Vaihe 3 | Valmistunut | 1,535 | UFT+leukoboriini vs S-1 (TS-1) adjuvanttihoidon vaiheen III paksusuolen syövässä |
-| [NCT00392899](https://clinicaltrials.gov/study/NCT00392899) | Vaihe 3 | Valmistunut | 2,025 | UFT adjuvanttikemoterapia vs tarkkailu kuratiivisesti resektoidussa vaiheen II paksusuolen syövässä |
-| [NCT00152230](https://clinicaltrials.gov/study/NCT00152230) | Vaihe 3 | Valmistunut | 900 | UFT postoperatiivinen adjuvanttikemoterapia vs pelkkä leikkaus, Dukes C kolorektalin syöpä (NSAS-CC) |
-| [NCT00209742](https://clinicaltrials.gov/study/NCT00209742) | Vaihe 3 | Tuntematon | 340 | UFT+LV, UFT+LV/UFT ja UFT+LV+PSK/UFT+PSK -säännösten vertailu, vaiheen III kolorektalin syöpä |
-| [NCT01918852](https://clinicaltrials.gov/study/NCT01918852) | Vaihe 3 | Valmistunut | 161 | SALTO-tutkimus: S-1 vs kapesitabiiini ensimmäisen linjan hoitona metastaattisessa kolorektalin syövässä |
-| [NCT00439517](https://clinicaltrials.gov/study/NCT00439517) | Vaihe 2 | Valmistunut | 302 | FOLFOX-4+setsuksimabi vs UFOX (UFT-pohjainen)+setsuksimabi, ensimmäisen linjan metastaattinen kolorektalin syöpä |
-| [NCT02887365](https://clinicaltrials.gov/study/NCT02887365) | Vaihe 4 | Tuntematon | 300 | Tegafur-uratsiilin ylläpitohoitona vaiheen II MSI-L/MSS paksusuolen syövässä |
-| [NCT01225744](https://clinicaltrials.gov/study/NCT01225744) | Vaihe 2 | Valmistunut | 47 | UFT + setsuksimabi/irinotekaaini/oksaliplatina, ensimmäisen linjan metastaattinen kolorektalin syöpä |
-| [NCT00890188](https://clinicaltrials.gov/study/NCT00890188) | Vaihe 2 | Tuntematon | 34 | UFT + talidomidi edistyneessä kolorektalin syövässä oksialiplatina-pohjaisen kemoterapian jälkeen |
-
-*20 lisätutkimusta haettiin, mutta jätettiin pois tämän taulukon tiiviyden vuoksi (katso täydellinen lista 30:stä näyttöpaketista).*
+| [NCT00378716](https://clinicaltrials.gov/study/NCT00378716) | Vaihe 3 | Päättynyt | 1608 | Suun kautta otettava UFT + leukovoriini vs. 5-FU/LV resekoidussa vaiheen II–III paksusuolisyövässä |
+| [NCT00392899](https://clinicaltrials.gov/study/NCT00392899) | Vaihe 3 | Päättynyt | 2025 | Liitännäis-UFT vs. seuranta radikaalisti leikatussa vaiheen II paksusuolisyövässä |
+| [NCT00660894](https://clinicaltrials.gov/study/NCT00660894) | Vaihe 3 | Päättynyt | 1535 | UFT + leukovoriini vs. S-1 liitännäishoitona vaiheen III paksusuolisyövässä |
+| [NCT00152230](https://clinicaltrials.gov/study/NCT00152230) | Vaihe 3 | Päättynyt | 900 | Leikkauksen jälkeinen UFT vs. pelkkä leikkaus Dukes C -paksusuolisyövässä |
+| [NCT00385970](https://clinicaltrials.gov/study/NCT00385970) | Vaihe 3 | Tuntematon | 380 | UFT + PSK vs. UFT + LV vaiheen IIB/III kolorektaalisyövässä |
+| [NCT03448549](https://clinicaltrials.gov/study/NCT03448549) | Vaihe 3 | Tuntematon | 1191 | SOX (S-1 + oksaliplatiini) vs. XELOX vaiheen III kolorektaalisyövän liitännäishoitona |
+| [NCT00209742](https://clinicaltrials.gov/study/NCT00209742) | Vaihe 3 | Tuntematon | 340 | Leikkauksen jälkeiset UFT+LV-, UFT+LV/UFT- ja UFT+LV+PSK-hoidot vaiheen III kolorektaalisyövässä |
+| [NCT00905047](https://clinicaltrials.gov/study/NCT00905047) | Vaihe 3 | Päättynyt | 89 | Kapesitabiini vs. UFT + foliinihappo potilaan mieltymyksen mukaan (cross-over) pitkälle edenneessä kolorektaalisyövässä |
+| [NCT01225744](https://clinicaltrials.gov/study/NCT01225744) | Vaihe 2 | Päättynyt | 47 | Setuksimabi, irinotekaani, oksaliplatiini ja UFT metastaattisen kolorektaalisyövän ensilinjassa |
+| [NCT00974389](https://clinicaltrials.gov/study/NCT00974389) | Vaihe 2 | Tuntematon | 40 | S-1 + bevasitsumabi uusiutuneessa kolorektaalisyövässä |
 
 ---
 
-## Kirjallisuuden näyttö
+## Kirjallisuusnäyttö
 
-| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät havainnot |
-|------|-----|------|------|---------|
-| [33714860](https://pubmed.ncbi.nlm.nih.gov/33714860/) | 2021 | RCT | ESMO Open | ACTS-CC 02 -tutkimus, päivitetty 5 vuoden selviytyminen: S-1+oksaliplatina (SOX) ei ollut parempi kuin UFT/LV adjuvanttihoidon vaiheen III paksusuolen syövässä |
-| [31917122](https://pubmed.ncbi.nlm.nih.gov/31917122/) | 2020 | RCT | Clin Colorectal Cancer | ACTS-CC 02 vaiheen III tutkimus: SOX vs UFT/LV postoperatiivisena adjuvanttihoidon, korkean riskin vaiheen III paksusuolen syöpä |
-| [33950962](https://pubmed.ncbi.nlm.nih.gov/33950962/) | 2021 | RCT | Medicine | Taiwan-laajuinen kohorttitutkimus ja meta-analyysi: UFT vs 5-FU postoperatiivisena adjuvanttihoidon, vaiheen II/III paksusuolen syöpä |
-| [15108041](https://pubmed.ncbi.nlm.nih.gov/15108041/) | 2004 | RCT | Int J Clin Oncol | Adjuvanttien immunokemoterapian (OK-432) satunnaistettu tutkimus yhdistettynä suun kautta annettaviin pyrimiidiineihin, mukaan lukien UFT, kolorektalin syövässä |
-| [6402917](https://pubmed.ncbi.nlm.nih.gov/6402917/) | 1983 | RCT | Am J Clin Oncol | Suun kautta annettavan tegafurin vertailututkimus IV 5-FU:hun metastaattisessa kolorektalin syövässä |
-| [26347106](https://pubmed.ncbi.nlm.nih.gov/26347106/) | 2015 | RCT (Vaihe 3) | Ann Oncol | JFMC33-0502: satunnaistettu tutkimus UFT/LV adjuvanttikemoterapian kestosta, vaiheen IIB/III paksusuolen syöpä |
-| [16648506](https://pubmed.ncbi.nlm.nih.gov/16648506/) | 2006 | RCT (Vaihe 3) | J Clin Oncol | NSABP C-06: suun kautta annettava UFT+LV vs IV 5-FU+LV, vaiheen II/III paksusuolen karsinooma |
-| [38833114](https://pubmed.ncbi.nlm.nih.gov/38833114/) | 2024 | Prospektiivinen tutkimus | Int J Clin Oncol | JFMC46-1201 loppuanalyysi: UFT/LV adjuvanttisäännön korkean riskin vaiheen II paksusuolen syövässä |
-| [25209093](https://pubmed.ncbi.nlm.nih.gov/25209093/) | 2014 | Katsaus | Clin Colorectal Cancer | Aasialainen konsensus kansainvälisten ohjeiden soveltamisesta metastaattiseen kolorektalin syöpään |
-| [17952521](https://pubmed.ncbi.nlm.nih.gov/17952521/) | 2007 | Katsaus | Surgery Today | UFT postoperatiivisena adjuvanttikemoterapiana kiinteissä kasvaimissa: kliiniset näytteet, mekanismin toiminta ja tulevaisuuden suunta |
-
-*10 lisäjulkaisua haettiin, mutta jätettiin pois tämän taulukon tiiviyden vuoksi (katso täydellinen lista 20:stä näyttöpaketista).*
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|---------|-----|------|------|---------|
+| [16648506](https://pubmed.ncbi.nlm.nih.gov/16648506/) | 2006 | RCT | J Clin Oncol | NSABP C-06: suun kautta otettu UFT + LV verrattuna laskimonsisäiseen 5-FU/LV:iin vaiheen II–III paksusuolisyövässä |
+| [29677641](https://pubmed.ncbi.nlm.nih.gov/29677641/) | 2018 | RCT | Eur J Cancer | SACURA: yhden vuoden liitännäis-UFT vs. pelkkä leikkaus vaiheen II paksusuolisyövässä |
+| [33714860](https://pubmed.ncbi.nlm.nih.gov/33714860/) | 2021 | RCT | ESMO Open | ACTS-CC 02: SOX ei ollut UFT/LV:tä parempi tautivapaassa elossaolossa; päivitetty 5 vuoden elossaolo |
+| [31917122](https://pubmed.ncbi.nlm.nih.gov/31917122/) | 2020 | RCT | Clin Colorectal Cancer | ACTS-CC 02: SOX vs. UFT/LV korkean riskin vaiheen III paksusuolisyövässä |
+| [33950962](https://pubmed.ncbi.nlm.nih.gov/33950962/) | 2021 | Kohortti ja meta-analyysi | Medicine | UFT vs. 5-FU liitännäishoitona vaiheen II–III paksusuolisyövässä (Taiwanin rekisteriaineisto) |
+| [10089948](https://pubmed.ncbi.nlm.nih.gov/10089948/) | 1999 | Meta-analyysi | Jpn J Clin Oncol | Suun kautta otettavat fluoropyrimidiinit liitännäishoitona kolorektaalisyövässä (yksilötason aineisto) |
+| [17952521](https://pubmed.ncbi.nlm.nih.gov/17952521/) | 2007 | Katsaus | Surg Today | UFT liitännäishoitona kiinteissä kasvaimissa: kliininen näyttö ja vaikutusmekanismi |
+| [16111469](https://pubmed.ncbi.nlm.nih.gov/16111469/) | 2005 | Katsaus | Expert Rev Anticancer Ther | Paksusuolisyövän vaihekohtaiset solunsalpaajahoitovaihtoehdot |
+| [25209093](https://pubmed.ncbi.nlm.nih.gov/25209093/) | 2014 | Konsensus | Clin Colorectal Cancer | Aasialainen konsensus metastaattisen kolorektaalisyövän hoidosta |
+| [36676634](https://pubmed.ncbi.nlm.nih.gov/36676634/) | 2022 | Kohortti | Medicina | UFT:n hyöty liitännäishoitona vaiheen IIA paksusuolisyövässä |
 
 ---
 
-## Suomen markkinoiden tiedot
+## Suomen markkinatiedot
 
-Tegafurilla ei tällä hetkellä ole **mitään markkinointilupia rekisteröitynä Suomessa** (markkinoiden tila: Ei ole markkinoilla / Not Marketed, 0 lisenssiä tiedostoissa).
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/001242 | Teysuno | – | Mahasyöpä (Stomach Neoplasms); myyntilupa peruutettu |
 
 ---
 
-## Sytotoksisyys
-
-Tegafur on antineoplaastinen aine (fluoropyrimiidiini-luokka, 5-FU prodrug), joten tämä osio koskee sitä.
+## Solunsalpaajaominaisuudet
 
 | Kohta | Sisältö |
 |------|------|
-| Sytotoksisyysluokitus | Tavanomaiset sytotoksiset (fluoropyrimiidiini-antimetaboliitti) |
-| Myelosuppression-riski | Keskitasoin — leukopenia/neutropenia ilmoitettu UFT-pohjaisissa säännöissä; yleensä lievempi kuin IV 5-FU-sääntöihin verrattuna |
-| Emetegeenisuuden luokitus | Alhainen kunnes kohtalainen (tyypillistä suun kautta annettaville fluoropyrimiidiineille) |
-| Seurannan kohteet | CBC differentiaaliolla, maksan ja munuaisten toiminta, elektrolyytit; DPD/DPYD genotyyppi ennen aloitusta (per NCT05266300, DPYD-genotyyppi käytetään kliinisesti fluoropyrimiidiinin annostuksen ohjailuun ja vakavan myrkyllisyyden välttämiseen) |
-| Käsittelysuoja | Kyllä — on noudatettava sytotoksisten lääkkeiden käsittelysäädöksiä huolimatta suun kautta annostelusta |
+| Sytotoksisuusluokka | Perinteinen sytotoksinen lääke (fluoropyrimidiini, 5-FU:n esiaste) |
+| Luuydinsuppression riski | Keskisuuri (fluoropyrimidiineille tyypillinen; tarkemmat tiedot pakkausselosteesta) |
+| Pahoinvointia aiheuttava vaikutus | Matala–keskisuuri |
+| Seurantakohteet | Verenkuva (erittelylaskenta), maksan ja munuaisten toiminta, elektrolyytit |
+| Käsittelysuojaus | Noudatettava sytotoksisten lääkkeiden käsittelyohjeita |
 
 ---
 
-## Turvallisuusnäkökohdot
+## Turvallisuusnäkökohdat
 
-Turvallisuustiedot löytyvät pakkausselosteesta.
+Tämän raportin tietoaineistossa ei ole saatavilla pakkausselosteen varoituksia, vasta-aiheita eikä lääkeyhteisvaikutustietoja. Turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
+
+Kirjallisuudessa on raportoitu yksittäinen tapaus UFT:hen liittyvästä hemolyyttisestä anemiasta (PMID 11320674).
 
 ---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Etene varauksilla**
+**Päätös: Proceed with Guardrails (eteneminen suojatoimin)**
 
-**Perustelut:**
-Useammat valmistuneet vaiheen 3 RCT-tutkimukset (todisteiden taso L1) jo vakiintuneet UFT/tegafur-pohjaiset sääntöjä tehokkaiksi adjuvanteiksi ja metastaattisena asetuksena paksusuolen syövän hoidossa, mikä antaa tälle ennusteelle vahvaa ulkoista vahvistusta pikemmin kuin puhtaasti spekulatiivisen signaalin. Kuitenkin Suomen-kohtaiset säätely-tila, muodollinen mekanismin toiminta ja turvallisuus/pakkausseloste-tiedot pysyvät saavuttamattomissa, mikä estää täydellistä turvallisuuden arviointia.
+**Perustelu:**
+- Useat päättyneet laajat vaiheen 3 satunnaistetut tutkimukset (esim. NCT00378716, NCT00392899, NCT00660894, NCT00152230) tukevat tegafuuripohjaisten hoitojen käyttöä paksusuolisyövän liitännäishoidossa, joten näytön taso on L1. Tegafuurin ainoa Suomen myyntilupa on kuitenkin peruutettu, eikä turvallisuustietoja ole saatavilla.
 
-**Jatkamiseksi tarvitaan seuraavaa:**
-- TFDA/Fimea pakkausseloste — varoitukset, varotoimet ja vasta-aiheet (Estävä aukko, DG001)
-- Muodollinen mekanismin toiminta dokumentaatio DrugBankista tai vastaavasta lähteestä (DG002)
-- Suomen markkinoinnin valtuutuspolun vahvistaminen, koska lääke on tällä hetkellä markkinoimaton siellä
-- DDI-tietojoukko (nykyinen kysely palautti "not_found") ja DPD/DPYD-pohjainen annostussäännö turvallisuusprotokolla ennen kliinistä käyttöä
-
-*Huomio: Yhdeksän muuta TxGNN-ennustettua tegafurin indikaatiota (esim. ssekumin villoosin adenom, koolon leiomyooma, kolon lymfangioma) kuulostivat myös, mutta niillä on todisteiden taso L4–L5 ilman tai vain sivuuttavaa kliinistä/kirjallisuustutkea ja ne suositellaan **Pidossa**, eivät lisäarviointiin tässä vaiheessa.*
-
+**Eteneminen edellyttää seuraavaa:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankinta ja tarkistus (estävä tietoaukko)
+- Yksityiskohtaiset vaikutusmekanismitiedot DrugBankista
+- Suomen sääntelytilanteen selvitys, koska voimassa olevaa myyntilupaa ei ole
+- DPD-puutoksen testaus- ja turvallisuusseurantasuunnitelma
+- Muut ennustetut käyttöaiheet (hyvänlaatuiset kasvaimet ja muut) jäävät odotustilaan (Hold), koska niistä ei ole näyttöä; peräsuolen ja sigmasuolen liitoskohdan kasvain on käsiteltävä osana kolorektaalista käyttöaihetta
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

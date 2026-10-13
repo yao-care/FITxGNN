@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Rivaroxaban
-parent: Kohtalainen näyttö (L3-L4)
-nav_order: 330
-evidence_level: L4
+parent: Pelkkä mallin ennuste (L5)
+nav_order: 384
+evidence_level: L5
 indication_count: 4
 ---
 
 # Rivaroxaban
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **4** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,67 +29,103 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-# Rivaroxaban: antikoagulaaniterapiasta reumatoidi artriittiin
+# Rivaroksabaani: Tromboembolian ehkäisystä ja hoidosta nivelreumaan
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Rivaroxaban on suora Xa-tekijän estäjä, jota käytetään pääasiassa tromboembolitaudin ehkäisyyn ja hoitoon (esim. laskimotromboembolia, aivohalvausriski eteisen värinässä); tässä aineistossa ei ole strukturoituja alkuperäisen käyttöaiheen tietoja. TxGNN-malli ennustaa, että se saattaa olla tehokas **reumatoidi artriittiin**, ja tällä hetkellä on tunnistetty **0 kliinistä tutkimusta** ja **4 julkaisua** — joista yksikään ei suoraan testaa rivaroxabania RA:n hoitona.
+Rivaroksabaani on suun kautta otettava Xa-tekijän estäjä, jota on alun perin käytetty laskimotromboembolian, keuhkoembolian, eteisvärinän aiheuttaman aivohalvauksen ehkäisyn ja sepelvaltimotaudin hoitoon. TxGNN-malli ennustaa sen voivan tehota **nivelreumaan**, mutta ennuste perustuu pelkästään mallin laskemaan pisteeseen: **kliinisiä tutkimuksia ei ole** eikä löydetty kirjallisuus tutki rivaroksabaanin tehoa nivelreumassa.
 
-## Nopea yleiskatsaus
+---
+
+## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Ei saatavilla nykyisessä aineistossa (lääkettä ei markkinoida Suomessa; tunnetaan yleisesti antikoagulantteina/Xa-tekijän estäjänä) |
-| Ennustettu uusi käyttöaihe | Reumatoidi artriitti |
-| TxGNN-ennusteen pistemäärä | 99.57% |
-| Todistelun taso | L4 |
-| Markkinatilanne Suomessa | Ei markkinoitu |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Odota |
+| Alkuperäinen käyttöaihe | Laskimotromboembolia, keuhkoembolia, akuutti sepelvaltimotautioireyhtymä, aivohalvaus, sepelvaltimotauti, ääreisvaltimotauti, eteisvärinä |
+| Ennustettu uusi käyttöaihe | Nivelreuma |
+| TxGNN-ennustepiste | 99,57 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 4 (kaikki peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennuste on järkevä?
+---
 
-Tällä hetkellä yksityiskohtaisia vaikutusmekanismin tietoja ei ole saatavilla todistelupakkauksessa. Tunnettujen tietojen perusteella rivaroxaban on suora Xa-tekijän estäjä, jota käytetään tromboembolitaudin ehkäisyyn ja hoitoon, eikä sillä ole tunnettua mekanistista vaikutusta tulehduksellisiin tai immuunijärjestelmän väyliin.
+## Miksi ennuste voisi olla perusteltu?
 
-Reumatoidi artriitti (RA) on krooninen tulehduksellinen sairaus, ja kohonneen tulehduksellisen aktiivisuuden tiedetään lisäävän laskimotromboembolia (VTE) -riskiä. Kliinisessä käytännössä RA-potilaat saattavat saada rivaroxabania liitännäisen VTE:n tai eteisen värinän hoitoon — toisin sanoen RA:n *komplikaation* hoitoon, ei RA:n itsensä hoitoon.
+Rivaroksabaanin tarkkaa vaikutusmekanismia koskevia tietoja ei ole tämän raportin aineistossa. Tunnetun luokkatiedon perusteella rivaroksabaani on suora Xa-tekijän estäjä, jonka teho veritulppien hoidossa ja ehkäisyssä on osoitettu, ja mekanistisesti se voisi liittyä nivelreumaan epäsuorasti.
 
-Ei ole näyttöä siitä, että Xa-tekijän esto vaikuttaisi RA:n keskeisiin tulehduksellisiin väyliin (esim. TNF-α, IL-6). Korkea TxGNN-pistemäärä heijastaa todennäköisesti epäsuoraa tietoverkko-assosiaatiota, joka johtuu RA:n ja VTE:n liitännäisyydestä eikä aidon terapeuttisen mekanismin tulosta, ja sitä on tulkittava varauksella.
+Autoimmuunitulehdus on tromboosille altistava tila: nivelreumaan liittyy lisääntynyttä trombiinin muodostusta ja suurentunutta laskimotromboembolian riskiä. Xa-tekijän esto voisi teoriassa vähentää näitä tromboottisia komplikaatioita. Tämä **ei kuitenkaan olisi nivelreuman taudinkulkua muuttavaa hoitoa**, vaan korkeintaan liitännäishoitoa tromboosiriskiin.
 
-## Kliinisen tutkimuksen näyttö
+Alkuperäisen käyttöaiheen (tromboembolia) ja ennustetun käyttöaiheen (nivelreuma) välinen yhteys on siis epäsuora. Samankaltaisuusarviota ei ole vielä tehty.
 
-Tällä hetkellä ei ole saatavilla liittyviä rekisteröityjä kliinisiä tutkimuksia.
+---
 
-## Kirjallisuuden näyttö
+## Kliininen tutkimusnäyttö
 
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
-|------|------|------|------|---------|
-| [29621248](https://pubmed.ncbi.nlm.nih.gov/29621248/) | 2018 | Kohortti | PloS one | Vertaa lääkkeiden hoitoon sitoutumista rivaroxabanin ja apixabanin välillä ei-valvulaarian eteisen värinän potilailla; ei RA-spesifinen. |
-| [33141212](https://pubmed.ncbi.nlm.nih.gov/33141212/) | 2020 | Katsaus | JAMA | Yleinen katsaus alaraajojen laskimotromboembolia-diagnostiikkaan ja hoitoon; ei käsittele RA:ta. |
-| [34175144](https://pubmed.ncbi.nlm.nih.gov/34175144/) | 2021 | Katsaus | La Revue de medecine interne | Käsittelee trombiiniksi-generaatioassayta hyperkoagulaation arvioimiseksi autoimmuunitaudeissa (esim. antifosfoli-lipiidi-syndrooma); RA:n relevanssi on epäsuora. |
-| [41918541](https://pubmed.ncbi.nlm.nih.gov/41918541/) | 2026 | Potilastapaus | Cureus | 88-vuotiaan naisen potilastapaus: RA (steroidihoito), eteisen värinä, toistuvat tromboemboli-tapahtumat antikoagulaaniterapiasta huolimatta — kuvaa RA:ta liitännäissairautena antikoagulaanilla hoidetuilla potilailla, ei RA:n hoitona. |
+Tällä hetkellä ei ole nivelreumaan liittyviä rekisteröityjä kliinisiä tutkimuksia.
+
+---
+
+## Kirjallisuusnäyttö
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [33141212](https://pubmed.ncbi.nlm.nih.gov/33141212/) | 2020 | Katsaus | JAMA | Alaraajojen laskimotromboembolian diagnostiikka ja hoito; syvän laskimotukoksen ilmaantuvuus 88–112/100 000 henkilövuotta ja uusiutumisriski 20–36 % kymmenen vuoden aikana |
+| [34175144](https://pubmed.ncbi.nlm.nih.gov/34175144/) | 2021 | Katsaus | La Revue de médecine interne | Trombiinigeneraatiotesti autoimmuunisairauksissa; autoimmuunitauteihin liittyy hyperkoagulaatiota ja sydän- ja verisuoniriskiä |
+| [29621248](https://pubmed.ncbi.nlm.nih.gov/29621248/) | 2018 | Kohorttitutkimus | PLoS One | Rivaroksabaanin ja apiksabaanin hoitoon sitoutumisen vertailu eteisvärinäpotilailla |
+| [41918541](https://pubmed.ncbi.nlm.nih.gov/41918541/) | 2026 | Tapausselostus | Cureus | Toistuvat embolia-tapahtumat eteisvärinäpotilaalla, jolla oli myös nivelreuma ja suun kautta otettava steroidihoito |
+
+Yksikään julkaisu ei tutki rivaroksabaanin tehoa nivelreuman hoidossa.
+
+---
 
 ## Suomen markkinatiedot
 
-Rivaroxabania ei tällä hetkellä markkinoida Suomessa (0 hyväksyntää saatavilla olevissa tiedoissa); lisenssitietoja ei ole saatavilla.
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/005600 | Rivaroxaban Viatris (aiemmin Rivaroxaban Mylan) | – | Laskimotromboembolia, keuhkoembolia, akuutti sepelvaltimotautioireyhtymä, aivohalvaus, sepelvaltimotauti, ääreisvaltimotauti, eteisvärinä |
+| EMEA/H/C/006643 | Rivaroxaban Koanaa | – | Laskimotromboembolia, keuhkoembolia, laskimotromboosi, aivohalvaus, embolia |
+| EMEA/H/C/005279 | Rivaroxaban Accord | – | Akuutti sepelvaltimotautioireyhtymä, sepelvaltimotauti, ääreisvaltimotauti, laskimotromboembolia, aivohalvaus, eteisvärinä, keuhkoembolia |
+| EMEA/H/C/000944 | Xarelto | – | Nivelen tekonivelleikkaus, laskimotromboembolia |
 
-## Turvallisuusasiat
+Kaikki neljä myyntilupaa on peruutettu.
 
-Turvallisuustiedoissa viitattavaksi pakkauksen seloste. (Huomaa: TFDA/Fimea pakkauksen seloste (varoitukset, vasta-aiheet) — tällä hetkellä kriittinen aukko, joka estää alkuperäisen turvallisuusarvioinnin – katso Seuraavat vaiheet.)
+---
 
-## Johtopäätös ja seuraavat vaiheet
+## Turvallisuusnäkökohdat
 
-**Päätös: Odota**
+- **Tietograafin mukaiset vasta-aiheet** (tietämysgraafista johdettu, ei valmisteyhteenvedon tekstiä): maksan vajaatoiminta, munuaissairaus, ureterin märkäinen tulehdus (pyoureter), maksasairaus, sappirakon sairaus ja veren hyytymishäiriö.
+- **Lääkeyhteisvaikutukset**: tietoja löytyi yhteensä 100 yhteisvaikutuksesta. Merkittävimpiä (Major) ovat:
+  - asetyylisalisyylihappo (suurentunut vuotoriski)
+  - kobisistaatti
+  - deferasiroksi
+  - ibritumomabi tiuksetaani
+  - tositumomabi (I-131)
+- Keskivaikeita (Moderate) yhteisvaikutuksia ovat mm. aprepitantti, deksametasoni, simetidiini, klaritromysiini, mikonatsoli, klotrimatsoli ja sugammadeksi.
+
+Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
+
+---
+
+## Johtopäätös ja jatkotoimet
+
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Huolimatta korkeasta TxGNN-pistemäärästä, ei ole kliinisen tutkimuksen näyttöä ja ei mekanistista tukea rivaroxabanin käytölle RA:n itsensä hoitoon — tunnistetut julkaisut heijastavat RA:ta liitännäissairautena antikoagulaanilla hoidetuilla potilailla, ei RA-kohdistettua tehoa. Yhdessä puuttuvan turvallisuus- ja sääntelyn tiedon kanssa, tämä ehdokas ei täytä etenemiskriteerejä.
+- TxGNN-pistemäärä on erittäin korkea (0,996), mutta näyttö on tasoa L5: kliinisiä tutkimuksia ei ole, eikä kirjallisuus tue rivaroksabaanin käyttöä nivelreuman hoidossa. Mahdollinen hyöty rajoittuisi epäsuoraan tromboosiriskin hallintaan.
+- Lisäksi kaikki Suomen myyntiluvat on peruutettu, ja turvallisuustietojen puute estää etenemisen turvallisuusseulontaan.
 
-**Jotta voitaisiin edetä, tarvitaan seuraavaa:**
-- TFDA/Fimea pakkauksen seloste (varoitukset, vasta-aiheet) — tällä hetkellä kriittinen aukko, joka estää alkuperäisen turvallisuusarvioinnin
-- DrugBank-lähteisen vaikutusmekanismin tiedot
-- RA-spesiifiset mekanistiset tai prekliiniset tutkimukset (esim. Xa-tekijän eston vaikutus nivelkalvon tulehdukseen) aidon signaalin erottamiseksi liitännäisyysperäisestä graafikohinasta
+**Jatkaminen edellyttää seuraavaa:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean sivustolta (estävä tietoaukko)
+- Vaikutusmekanismin tiedot (esim. DrugBankista)
+- Systemaattinen kirjallisuushaku rivaroksabaanin käytöstä nivelreumapotilailla, erityisesti tromboosiprofylaksiassa
+- Samankaltaisuusarvio alkuperäisen ja ennustetun käyttöaiheen välillä sekä antoreittien yhteensopivuuden arviointi
+- Markkinatilanteen selvittäminen, koska voimassa olevia myyntilupia ei ole
 
-**Muut ehdokkaat tästä todistelupakkauksesta** (kihti, HIV-infektiotauti, brakhidaktyylia-syndaktyylia-oireyhtymä) arvioitiin myös, ja kaikki saivat **Odota**-suosituksen, jossa oli heikkompi tai puuttuva mekanistinen perustelu verrattuna reumatoidi artriittiin.
+---
 
+**Muut ennustetut käyttöaiheet (tiedoksi):** kihti (piste 99,51 %), HIV-infektio (99,17 %) ja brakydaktylia-syndaktylia-oireyhtymä (99,10 %) saivat kaikki suosituksen Hold. Kihdelle ja harvinaiselle raajojen epämuodostumalle ei löytynyt uskottavaa mekanistista perustetta. HIV:n osalta kirjallisuus koskee lähinnä rivaroksabaanin yhteisvaikutuksia retroviruslääkkeiden (ritonaviiri, kobisistaatti) kanssa eikä hoitovaikutusta.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -2,7 +2,7 @@
 layout: default
 title: Lusutrombopag
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 239
+nav_order: 275
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,59 +29,90 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Lusutrombopag: kroonisen maksasairauden liittyvästä trombosytopeniasta periytyvään normaalien verihiutaleiden trombosytopeniaan
+# Lusutrombopagi: Trombosytopeniasta perinnölliseen trombosytopeniaan (normaalit verihiutaleet)
 
 ## Yhden lauseen yhteenveto
 
-Lusutrombopag on suun kautta otettava TPO-reseptorin agonisti, jota alun perin käytettiin verihiutaleiden määrän nostamiseen ennen suunniteltuja invasiivisia toimenpiteitä potilaille, joilla on krooninen maksasairaus. TxGNN-malli ennustaa, että sillä voi olla merkitystä **periytyvään normaalien verihiutaleiden trombosytopeniaan**, mutta tätä signaalia ei tällä hetkellä tueta millään **kliinisellä tutkimuksella** tai **julkaisulla** — kyse on puhtaasti laskennallisesta ennusteesta.
+Lusutrombopagi on trombopoietiinireseptorin (TPO-R) agonisti, jota on alun perin käytetty **trombosytopenian** hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **perinnölliseen trombosytopeniaan, jossa verihiutaleet ovat normaalit**, mutta ennusteen tueksi ei ole tällä hetkellä **yhtään kliinistä tutkimusta eikä julkaisua**. Ennuste perustuu pelkästään laskennalliseen malliin.
 
-## Nopea yleiskatsaus
+---
 
-| Kohde | Sisältö |
+## Pikakatsaus
+
+| Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Preoperatiivinen trombosytopenia kroonisen maksasairauden potilaille (näyttöpaketin perustelutekstin mukaan; ei itsenäisesti vahvistettu muodollisen käyttöaiherekisteröinnin perusteella) |
-| Ennustettu uusi käyttöaihe | Periytyvä normaalien verihiutaleiden trombosytopenia |
-| TxGNN-ennustepisteytys | 99.995% (sijaluku 88 kaikkiaan) |
-| Näyttötaso | L5 (vain malli-ennuste) |
-| Markkinatilanne Suomessa | Ei markkinoilla |
-| Lupien lukumäärä | 0 |
-| Suositeltu päätös | Odota |
+| Alkuperäinen käyttöaihe | Trombosytopenia |
+| Ennustettu uusi käyttöaihe | Perinnöllinen trombosytopenia, jossa verihiutaleet ovat normaalit |
+| TxGNN-ennustepisteet | 99,995 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennuste on perusteltu?
+---
 
-Yksityiskohtaista vaikutusmekanismin tietoa on merkitty tietovajeeksi strukturoidussa rekisterissä (DG002). Näyttöpakettiin saatavilla olevan tiedon perusteella lusutrombopag on suun kautta otettava TPO-reseptorin agonisti (TPO-RA), joka stimuloi megakaryosyytin proliferaatiota ja differensiaatiota verihiutaleiden tuotannon lisäämiseksi; sen hyväksytty käyttöaihe on trombosytopenia ennen suunniteltuja invasiivisia toimenpiteitä kroonisen maksasairauden potilaille.
+## Miksi ennuste on perusteltu?
 
-Periytyvä normaalien verihiutaleiden trombosytopenia on verihiutaleiden tuotannon säätelyyn liittyvä häiriö eikä verihiutaleiden toiminnallinen vika, joten TPO-RA-mekanismi (verihiutaleiden tuotannon lisääminen) on periaatteessa biologisesti uskottava tälle käyttöaihelle. Tämä yhteys päätellään kuitenkin puhtaasti TxGNN-embedding-samankaltaisuudesta — tähän mennessä ei ole olemassa kliinisiä tutkimuksia, rekisteritietoja tai julkaistuja tapausselostuksia, jotka yhdistäisivät lusutrombopagiin tässä sairaudessa.
+Lusutrombopagi on TPO-R-agonisti, joka kiihdyttää megakaryosyyttien lisääntymistä ja verihiutaleiden tuotantoa. Yksityiskohtaista vaikutusmekanismitietoa ei ole tällä hetkellä saatavilla tähän raporttiin koottujen tietojen perusteella. Tunnetun lääkeluokan perusteella TPO-R-agonismi voisi periaatteessa nostaa verihiutaleiden määrää myös perinnöllisissä trombosytopenioissa, joissa verihiutaleiden toiminta on säilynyt.
 
-## Kliinisen tutkimuksen näyttö
+Perinnöllisten trombosytopenioiden taustalla oleva geneettinen vika vaihtelee, eikä vastetta TPO-R-agonistille voida olettaa kaikissa tapauksissa. Ennusteen korkea pistemäärä johtuu todennäköisesti siitä, että kohdesairaus sijaitsee tietämysgraafissa lähellä hyväksyttyä trombosytopenian käyttöaihetta. Se ei yksinään ole biologinen todiste tehosta.
 
-Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia
+Muut sijalle 2–10 ennustetut sairaudet jakautuvat kolmeen ryhmään:
+- **Verihiutalemäärän sairaudet** (makrotrombosytopenia ja mitraaliläpän vajaatoiminta, ohimenevä vastasyntyneen trombosytopenia): mekanistinen perustelu on teoriassa olemassa, mutta näyttöä ei ole. Vastasyntyneillä lääkkeen turvallisuus- ja farmakokinetiikkatietoja ei ole, ja tila on itsestään rajoittuva.
+- **Verihiutaleiden toimintahäiriöt** (tiheä rakeisuustauti eli dense granule disease, verihiutaleiden varastopoolin vajaus): ongelma on toiminnassa eikä määrässä, joten TPO-R-agonismi ei korjaisi vikaa.
+- **Neurologiset ja luustosairaudet** (ALS ja siihen liittyvät tilat, polymikrogyria, aksiaalinen spondylometafyseaalinen dysplasia): mekanistista yhteyttä ei ole, ja ne ovat todennäköisesti verkkorakenteesta johtuvia vääriä positiivisia.
 
-## Kirjallisuuden näyttö
+---
 
-Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta
+## Kliininen näyttö
 
-## Markkinatiedot Suomesta
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
-Lusutrombopag-lääkettä ei tällä hetkellä markkinoida Suomessa — rekisterissä ei ole hyväksyntöjä, joten tuotteen/antomuodon/käyttöaihetietoja ei ole saatavilla.
+---
 
-## Turvallisuusnäkökohdat
+## Kirjallisuusnäyttö
 
-Katso turvallisuustietoja pakkausselosteesta. Huomio: TFDA-pakkausselosteen varoitukset ja vasta-aiheet ovat tällä hetkellä estävä tietovajeeksi (DG001) — muodollista S1-turvallisuusseulontaa ei voi suorittaa, kunnes tämä on ratkaistu.
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
-## Johtopäätös ja seuraavat vaiheet
+---
 
-**Päätös: Odota**
+## Suomen markkinatiedot
+
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004720 | Mulpleo (aiemmin Lusutrombopag Shionogi) | – | Trombosytopenia |
+
+Myyntilupa on tilassa "peruutettu", eikä voimassa olevia myyntilupia ole.
+
+---
+
+## Turvallisuushuomiot
+
+**Lääkkeiden yhteisvaikutukset:** Yhteisvaikutushaku tuotti yhteensä 100 tulosta. Raporttia varten koottuihin tietoihin sisältyvistä yhteisvaikutuksista kaikki 20 listattua ovat vaikeusasteeltaan **kohtalaisia**. Keskeisiä esimerkkejä:
+- Makrolidiantibiootit: klaritromysiini, atsitromysiini
+- Statiinit ja sydänlääkkeet: simvastatiini, amiodaroni, nifedipiini
+- Syöpälääkkeet: abirateroni, afatinibi, alpelisibi, kabotsantinibi
+- Muut: hydrokortisoni, eliglustaatti, fidaksomisiini, rolapitantti, tolbutamidi, kobisistaatti, lidokaiini, testosteroni, apremilasti, atatsanaviiri, inkivääri
+
+Varoituksia ja vasta-aiheita koskevia tietoja ei ole saatavilla. Katso ne valmisteyhteenvedosta.
+
+---
+
+## Johtopäätös ja jatkotoimet
+
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Parhaiten sijoittunut ennuste on sinällään luokiteltu "Tutkimuskysymykseksi" (S0), ilman kliinisen tutkimuksen tai kirjallisuuden tukea, ja lääkkeen turvallisuustiedot (TFDA-seloste) ovat estävä vajeeksi, joka estää jopa alustavan turvallisuusseulonnan. Tämän näyttöpaketin muut 9 ennustettua käyttöaihetta (sijaluku 2–10, mukaan lukien kaksi ALS-spektrin sairautta, jotka todennäköisesti heijastavat embedding-tason vääriä positiivisia tuloksia) arvioitiin itsenäisesti Odota-päätökseksi, mikä vahvistaa, että tämä ehdokas ei vielä ole käyttökelpoinen.
+- Ennuste perustuu vain laskennalliseen malliin (näytön taso L5): kliinisiä tutkimuksia ja julkaisuja ei ole, ja Suomessa lääkkeellä on vain peruutettu myyntilupa.
+- Kärkiennusteen mekanistinen perustelu on uskottava, mutta geneettisesti heterogeenisen sairauden vaste on epävarma. Useimmat muut ennusteet ovat todennäköisesti vääriä positiivisia.
 
-**Jotta voitaisiin edetä, tarvitaan seuraavaa:**
-- TFDA/valmistajan pakkausseloste (ratkaisee DG001 — vaaditaan ennen mitään turvallisuusseulontaa)
-- Vahvistettu vaikutusmekanismin yksityiskohta (ratkaisee DG002)
-- Prekliininen tai mekanistinen näyttö, joka suoraan yhdistää TPO-RA-signalointireitin aktiivisuuden periytyvään normaalien verihiutaleiden trombosytopeniaan
-- Jatkuva kirjallisuus- ja tutkimusseuranta, sillä nykyiset PubMed/ClinicalTrials.gov/ICTRP-haut eivät tuottaneet tuloksia
-
+**Etenemiseksi tarvitaan:**
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet Fimeasta tai EMA:n lähteistä (turvallisuusarviointi on tällä hetkellä estetty ilman niitä)
+- Yksityiskohtaiset vaikutusmekanismitiedot (MOA)
+- Kirjallisuushaku TPO-R-agonistien käytöstä perinnöllisissä trombosytopenioissa
+- Selvitys valmisteen peruutuksen syystä ja saatavuudesta Suomessa
+- Perinnöllisen trombosytopenian alatyyppien ja geneettisten vikojen kartoitus, jotta TPO-R-agonistille vastaavat potilaat voidaan tunnistaa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

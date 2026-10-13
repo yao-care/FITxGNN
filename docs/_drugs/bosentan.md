@@ -2,7 +2,7 @@
 layout: default
 title: Bosentan
 parent: Kohtalainen näyttö (L3-L4)
-nav_order: 73
+nav_order: 80
 evidence_level: L4
 indication_count: 9
 ---
@@ -29,88 +29,112 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **9** kpl
 
 </div>
 
-# Bosentan: Keuhkojen valtimohypertensioista nivelreumaan
+# Bosentaani: Systeemisestä skleroosta ja keuhkovaltimoiden verenpainetaudista rajoittuneeseen systeemiseen skleroosiin
 
 ## Yhden lauseen yhteenveto
 
-Bosentan on dual-toimintainen endoteliinin reseptorin antagonisti, jota on historiallisesti käytetty keuhkojen valtimohypertensioissa (PAH) ja tämän näyttöpaketissa olevan kirjallisuuden mukaan systeemisen skleroosin aiheuttamassa verisuonitaudissa. TxGNN-mallin korkeimmin sijoitettu ennustus on **nivelreuma**, mutta tukevat näytöt ovat epäsuoria — ainoa rekisteröity tutkimus kohdistuu itse asiassa jättisoluvaltimotulehdukseen, ei reumaan — ja siihen on tällä hetkellä tukevia tuloksia **1 klinisestä tutkimuksesta (väärä indikaatio)** ja **16 julkaisusta**, joista suurin osa on prekliinisiä/review-tasoa. Huomautus: alemmas sijoitetulla kandidaatilla (rajoitettu systeeminen skleroosi, sijoitus 3) on oleellisesti vahvempi näyttöperusta ja se on merkitty erikseen alla.
+Bosentaani on endoteliinireseptorin salpaaja, jota on alun perin käytetty systeemisen skleroosin ja keuhkovaltimoiden verenpainetaudin hoitoon.
+TxGNN-malli ennustaa sen sopivan parhaiten **nivelreumaan** (sijalla 1 ennustepisteiden mukaan), mutta vahvin näyttö liittyy **rajoittuneeseen systeemiseen skleroosiin** (**20 julkaisua**, ei rekisteröityjä kliinisiä tutkimuksia). Tämä käyttöaihe on kuitenkin päällekkäinen alkuperäisen käyttöaiheen kanssa, joten kyse ei ole aitoa uudelleenkäyttöä.
 
 ---
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Ei saatavilla rakenteellisesti järjestetyssä lääketiedoissa (tietoaukko); tämän näyttöpaketin kirjallisuus kuvaa johdonmukaisesti Bosentania endoteliinin reseptorin antagonistina keuhkojen valtimohypertensioissa |
-| Ennustettu uusi indikaatio | Nivelreuma |
-| TxGNN-ennuste-pistemäärä | 99.80% |
-| Näyttötaso | L4 |
-| Saatavuus Suomessa | ✗ Ei markkinoilla |
-| Lupahyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Pidättäytyminen |
+| Alkuperäinen käyttöaihe | Systeeminen skleroosi; keuhkovaltimoiden verenpainetauti |
+| Ennustettu uusi käyttöaihe (sijalla 1) | Nivelreuma |
+| TxGNN-ennustepisteet (sijalla 1) | 99,80 % |
+| Näytön taso (sijalla 1) | L4 |
+| Vahvimmin tuettu ennuste | Rajoittunut systeeminen skleroosi (99,65 %, taso L3) |
+| Myyntitilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 2 (molemmat peruutettu) |
+| Suositeltu päätös (nivelreuma) | Tutkimuskysymys (ei etenemistä ilman lisänäyttöä) |
+| Suositeltu päätös (rajoittunut systeeminen skleroosi) | Jatka suojatoimin (Proceed with Guardrails) |
 
 ---
 
-## Miksi tämä ennustus on järkevä?
+## Miksi ennuste on perusteltu?
 
-Yksityiskohtaisen toimintamekanismin tiedot eivät ole tällä hetkellä saatavilla (tietoaukko DG002). Tämän näyttöpaketin kirjallisuuden perusteella Bosentan on dual-toimintainen ETA/ETB endoteliinin reseptorin antagonisti, jonka vakiintunut kliininen käyttö on keuhkojen valtimohypertensio ja, off-label käytössä tai laajennetussa yhteydessä, systeemisen skleroosin aiheuttama verisuonitauti.
+Tässä raportissa käytettävissä olevaa tarkkaa vaikutusmekanismitietoa ei ole saatavilla. Tunnetun tiedon perusteella bosentaani on kaksoisendoteliinireseptorin (ETA/ETB) salpaaja, jonka teho keuhkovaltimoiden verenpainetaudissa ja systeemiseen skleroosiin liittyvissä sormihaavoissa on osoitettu, ja mekanistisesti se voi soveltua myös muihin endoteliini-1-välitteisiin sairauksiin.
 
-Perustelut nivelreuman kanssa liittyvälle linkille ovat epäsuoria: kaksi prekliinista tutkimusta osoittavat, että endoteliinin signalointi vaikuttaa tulehdukseen kollageni-indusoitujen ja tsymoosaani-indusoitujen niveltulehduksen hiirimalleissa, ja että Bosentan voi vähentää niveltulehduksen vakavuutta näissä malleissa (PMID 22249931, PMID 18515326). Tämä tukee uskottavaa roolia endoteliinin estossa niveltulehduksen yleisessä mielessä, mutta se on mekanistinen päätelmä eläinten niveltulehdusmalleista, ei reumalle spesifistä kliinistä tai translationaalisesti tutkittua tietoa.
+**Nivelreuma:** Endoteliini-1-signalointi vaikuttaa nivelkalvon tulehdukseen, verisuonipatologiaan ja sytokiinien (TNF-alfa, IL-1beta, LTB4) vapautumiseen. Bosentaani lievensi taudin vaikeusastetta hiiren kollageenin aiheuttamassa niveltulehdusmallissa, jossa TNF-alfalla oli merkitystä. Ihmisistä on vain tietoa bosentaanin käytöstä sidekudossairauteen liittyvässä keuhkovaltimoiden verenpainetaudissa, mikä ei ole nivelreuman hoitoa.
 
-Tärkeää on, että tähän ennustukseen liittyvä ainoa kliininen tutkimus (NCT06957002) ei ole reumaa tutkiva tutkimus — se tutkii Bosentania **jättisoluvaltimotulehduksessa**, eri reumatassussa. Reumalle spesifiä interventiotutkimusta ei tällä hetkellä ole. Tämä kuilu ennustetun indikaation ja todellisen tutkimuspopulaation välillä huomioon ottaen todistusten taso on rajoitettu L4:ään (mekanismi/prekliininen vain), ja tätä kandidaattia tulee käsitellä varhaisen vaiheen hypoteesin pikemminkin kuin kliinisesti tuetun uudelleenkäytön tapauksena.
+**Rajoittunut systeeminen skleroosi:** Endoteliini-1 edistää verisuonipatologiaa, fibroosia ja endoteelin muuntumista mesenkymaaliseksi (EndoMT). Bosentaani ja makitentaani estivät EndoMT:n koeputkikokeessa. Bosentaani on vakiintunut systeemiseen skleroosiin liittyvien sormihaavojen ja keuhkovaltimoiden verenpainetaudin hoidossa. Tämä menee päällekkäin alkuperäisen käyttöaiheen kanssa.
 
----
-
-## Kliinisen tutkimuksen näytöt
-
-| Tutkimusnumero | Vaihe | Tila | Osallistujamäärä | Keskeiset löydökset |
-|---------|------|------|------|---------|
-| [NCT06957002](https://clinicaltrials.gov/study/NCT06957002) | Vaihe 2 | Ei vielä rekrytoitava | 40 | Satunnaistettu, kontrolloitu tutkimus Bosentanista + glukokortikosteroidit vs. glukokortikosteroidit yksin **jättisoluvaltimotulehduksessa** (ei nivelreuma) — päätetapahtuma on epäonnistumisen vapaa eloonjäänti 12 kuukaudessa. Sisällytetty tähän, koska se on ainoa bosentania tutkiva tutkimus, joka on haettu reumahauilla, mutta se kohdistuu erilaiseen sairauden muotoon. |
+Muiden ennustettujen sairauksien (mm. harvinaiset kehityshäiriöoireyhtymät, elastooma, liikakarvoitus) osalta ennuste perustuu pelkästään tietämysgraafiin, eikä niille ole kliinistä tai prekliinistä näyttöä.
 
 ---
 
-## Kirjallisuuden näytöt
+## Kliinisen tutkimuksen näyttö
 
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
+
+---
+
+## Kirjallisuusnäyttö
+
+Alla on rajoittuneen systeemisen skleroosin (vahvimmin tuettu ennuste) keskeisin kirjallisuus.
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [22249931](https://pubmed.ncbi.nlm.nih.gov/22249931/) | 2012 | Prekliininen (kollageni-indusoitu niveltulehdus) | Inflammation Research | Bosentan parantaa kollageni-indusoitua niveltulehdusta hiirissä; TNF-α indusoi endoteliinin systeemi-geenejä |
-| [18515326](https://pubmed.ncbi.nlm.nih.gov/18515326/) | 2008 | Prekliininen (tsymoosaani-indusoitu niveltulehdus) | Journal of Leukocyte Biology | Endoteliinit säätelevät tulehdusta tsymoosaani-indusoitussa niveltulehduksessa LTB4:n, TNF-α:n, CXCL-1:n kautta; ET-1 koholla nivelnestekalvossa |
-| [19969421](https://pubmed.ncbi.nlm.nih.gov/19969421/) | 2010 | Prekliininen (IL-17, antigen-indusoitu niveltulehdus) | Pain | IL-17, keskeinen nivelreuma-sytoviini, aiheuttaa nivelen kipuherkkyyttä hiiren niveltulehdusmalleissa |
-| [16766656](https://pubmed.ncbi.nlm.nih.gov/16766656/) | 2006 | Prekliininen (IL-15) | PNAS | IL-15-indusoitu hypersensitiivisyys (reumaan liittyvä) estetty dual-ETA/ETB reseptorin antagonistilla |
-| [20054770](https://pubmed.ncbi.nlm.nih.gov/20054770/) | 2009 | Tapausraportti | Kardiologia Polska | Lapsi, jolla oli Eisenmenger-oireyhtymä ja juveniilinen nivelreuma, parani kliinisesti bosentanilla (annettu PAH:n vuoksi, ei niveltulehduksen) |
-| [19851110](https://pubmed.ncbi.nlm.nih.gov/19851110/) | 2010 | Katsausartikkeli | Current Opinion in Rheumatology | Reumaan liittyvien ihosairauksien patofysiologia ja hoito |
-| [19487226](https://pubmed.ncbi.nlm.nih.gov/19487226/) | 2009 | Katsausartikkeli | Rheumatology (Oxford) | Verisuonitauti ja PAH sidekudossairauksissa, mukaan lukien nivelreuma |
-| [24268012](https://pubmed.ncbi.nlm.nih.gov/24268012/) | 2014 | Katsausartikkeli | Rheumatic Diseases Clinics of North America | Sidekudossairauksiin liittyvä PAH |
-| [18238768](https://pubmed.ncbi.nlm.nih.gov/18238768/) | 2008 | Katsausartikkeli | American Journal of Health-System Pharmacy | Systeemisen skleroosin komplikaatioiden lääkehoito, mukaan lukien endoteliinin antagonistit |
-| [21165350](https://pubmed.ncbi.nlm.nih.gov/21165350/) | 2010 | Katsausartikkeli | Canadian Respiratory Journal | Keuhkojen hypertension hoito sidekudossairaudesta johtuvassa intersitiaalisessa keuhkosairaudessa |
+| [36974107](https://pubmed.ncbi.nlm.nih.gov/36974107/) | 2023 | Systemaattinen katsaus ja meta-analyysi | J Res Med Sci | Bosentaanin teho systeemiseen skleroosiin liittyvissä sormihaavoissa |
+| [25824427](https://pubmed.ncbi.nlm.nih.gov/25824427/) | 2015 | Systemaattinen katsaus | Rheumatol Int | Raynaud'n ilmiön ja sormihaavojen lääkehoitojen teho systeemisessä skleroosissa |
+| [36278776](https://pubmed.ncbi.nlm.nih.gov/36278776/) | 2025 | Satunnaistettu kontrolloitu tutkimus | Asian Pac J Allergy Immunol | Bosentaani vs. nifedipiini systeemisen skleroosin verisuonipatologian hoidossa |
+| [38956991](https://pubmed.ncbi.nlm.nih.gov/38956991/) | 2024 | Kliiniset suositukset | ARP Rheumatol | Portugalilaiset suositukset Raynaud'n ilmiön ja sormihaavojen hoitoon |
+| [27716320](https://pubmed.ncbi.nlm.nih.gov/27716320/) | 2016 | Prekliininen (in vitro) | Arthritis Res Ther | Bosentaani ja makitentaani estivät EndoMT:n systeemisessä skleroosissa |
+| [19350343](https://pubmed.ncbi.nlm.nih.gov/19350343/) | 2009 | Pilottitutkimus | Clin Rheumatol | Bosentaanilla ei havaittu vaikutusta mikroverenkiertoon rajoittuneessa ihon systeemisessä skleroosissa |
+| [21244767](https://pubmed.ncbi.nlm.nih.gov/21244767/) | 2010 | Havainnoiva retrospektiivinen tutkimus | Int J Immunopathol Pharmacol | Bosentaanin vaikutus Raynaud'n ilmiöön ja ihon fibroosiin |
+| [29900941](https://pubmed.ncbi.nlm.nih.gov/29900941/) | 2016 | Yhden keskuksen kokemus | Arch Rheumatol | Bosentaani sormihaavojen ehkäisyssä ja hoidossa |
+| [18596996](https://pubmed.ncbi.nlm.nih.gov/18596996/) | 2008 | Katsaus | Drugs Today | Bosentaani systeemisessä skleroosissa |
+| [24387049](https://pubmed.ncbi.nlm.nih.gov/24387049/) | 2014 | Katsaus | Expert Opin Drug Saf | Systeemiseen skleroosiin liittyvän keuhkovaltimoiden verenpainetaudin nykyhoidot |
+
+Nivelreuman osalta kirjallisuus rajoittuu pääosin prekliiniseen näyttöön: esimerkiksi [22249931](https://pubmed.ncbi.nlm.nih.gov/22249931/) (2012, hiirimalli, bosentaani lievensi kollageenin aiheuttamaa niveltulehdusta) ja [18515326](https://pubmed.ncbi.nlm.nih.gov/18515326/) (2008, endoteliinit säätelevät tulehdusreaktiota hiirimallissa). Ihmisillä tehtyjä nivelreumatutkimuksia ei ole.
+
+Kihdin osalta ainoa löydetty julkaisu ([41884633](https://pubmed.ncbi.nlm.nih.gov/41884633/), 2026) on endoteliinireseptorin salpaajien haittatapahtumia käsittelevä farmakovigilanssianalyysi. Se ei osoita hoitohyötyä ja voi viitata pikemminkin riskiin.
 
 ---
 
 ## Suomen markkinatiedot
 
-Bosentan **ei ole tällä hetkellä markkinoilla** Suomessa — mikään tuotteen hyväksynnät eivät ole rekisteröidyt (0 lisenssejä).
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000401 | Tracleer (peruutettu) | – | Systeeminen skleroosi; keuhkovaltimoiden verenpainetauti |
+| EMEA/H/C/002644 | Stayveer (peruutettu) | – | Keuhkovaltimoiden verenpainetauti; systeeminen skleroosi |
 
 ---
 
-## Turvallisuuteen liittyvät näkökohdat
+## Turvallisuusnäkökohdat
 
-Viitattava pakkausselosteeseen turvallisuustiedoista. (Bosentanin tärkeimmät varoitukset, vasta-aiheet ja lääkkeiden vuorovaikutukset eivät olleet saatavilla tässä näyttöpaketissa — tietoaukko DG001, merkitty estävänä, ja DG002.)
+Pakkausselosteen varoitus- ja vasta-aihetietoja ei ollut saatavilla tähän raporttiin. Katso turvallisuustiedot valmisteyhteenvedosta.
+
+**Tietämysgraafiin perustuvat mahdolliset vasta-aiheet** (eivät perustu valmisteen myyntiluvan tekstiin): maksan vajaatoiminta, maksasairaus, sappirakon sairaus, trombosytopenia, kongestiivinen sydämen vajaatoiminta, anemia (myös makrosyyttinen), hyperbilirubinemia (myös perinnöllinen), Gilbertin oireyhtymä, lääkkeen aiheuttama maksavaurio, keuhkoedeema ja keuhkojen laskimotukossairaus.
+
+**Lääkeinteraktiot:** Tietoja löytyi yhteensä 100 interaktiosta. Esimerkkeinä kohtalaisen tasoisista interaktioista mainittakoon hydrokortisoni, deksametasoni, betametasoni, triamsinoloni, pioglitatsoni, aprepitantti, metronidatsoli, simetidiini, klaritromysiini, sisapridi, klotrimatsoli sekä SGLT2-estäjät (kanagliflotsiini, dapagliflotsiini, empagliflotsiini, ertugliflotsiini).
+
+**Lisähuomio:** Maksatoksisuuden seuranta ja sikiötoksisuuden (teratogeenisuus) riskienhallinta ovat välttämättömiä suojatoimia.
 
 ---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Pidättäytyminen**
+**Päätös:**
+- **Rajoittunut systeeminen skleroosi: Jatka suojatoimin (Proceed with Guardrails)**
+- **Nivelreuma: Tutkimuskysymys (L4, ei etenemistä ilman lisänäyttöä)**
+- **Muut ennustetut sairaudet: Hold (odota)**
 
 **Perustelut:**
-Nivelreuman ennustus perustuu vain prekliinisten niveltulehdusmallin mekanismi-tietoihin; ainoa siihen liittyvä kliininen tutkimus kohdistuu itse asiassa jättisoluvaltimotulehdukseen, ei reumaan, joten tälle spesifille indikaatiolle ei ole suoraa kliinistä näyttöä. Yhdessä estävän tietoaukon kanssa TFDA:n/pakkausselosteen turvallisuustiedoista, tämä kandidaatti ei voi vielä läpäistä edes alkuperäistä turvallisuusseulontaa (S1).
+- Rajoittuneen systeemisen skleroosin näyttö (L3) koostuu systemaattisesta katsauksesta, katsauksista ja mekanistisesta työstä; rekisteröityjä kliinisiä tutkimuksia ei ollut. Käyttöaihe on lisäksi päällekkäinen alkuperäisen kanssa, joten se ei ole aitoa uudelleenkäyttöä. Vaiheen 3 satunnaistettua tutkimusnäyttöä (esim. RAPIDS-1/2) on laajemmassa kirjallisuudessa, mutta sitä ei sisältynyt tähän aineistoon, eikä tasoa L1/L2 ole sen perusteella annettu.
+- Nivelreuman näyttö on vain prekliinistä (hiirimallit), ja ihmisistä on vain keuhkovaltimoiden verenpainetautiin liittyviä tietoja.
+- Muiden sairauksien ennusteet perustuvat pelkästään tietämysgraafiin.
 
-**Jotta voidaan edetä, seuraavaa tarvitaan:**
-- TFDA:n pakkausseloste / sääntelyyn liittyvät turvallisuustiedot (vasta-aiheet, varoitukset, lääkkeiden vuorovaikutukset) — tällä hetkellä estävä (DG001)
-- Vahvistettu toimintamekanismin dokumentaatio (DG002)
-- Reumalle spesifinen interventiotutkimus tai translationaalinen tutkimus, koska ainoa rekisteröity tutkimus kohdistuu eri sairauden muotoon (GCA)
-- Harkita arviointiresurssien uudelleenpriorisointia **rajoitetun systeemisen skleroosin** (sijoitus 3 tässä näyttöpaketissa) suuntaan, joka osoittaa oleellisesti vahvempia näyttöjä — systeemisen skleroosin kannalta kohdistetun havaintotutkimuksen, systemaattisen katsauksen/meta-analyysin (PMID 36974107) ja mekanistisen in vitro-tiedon endoteliini-johtamasta fibrosista — ja on jo sijoitettu L2/S3:ksi ("Etene varovaisuutta noudattaen") pikemminkin kuin L4/Pidättäytyminen
-
+**Etenemiseksi tarvitaan:**
+- Valmisteyhteenvedon varoitus- ja vasta-aihetietojen hankkiminen Fimean sivustolta (estää tällä hetkellä turvallisuusseulonnan)
+- Yksityiskohtaiset vaikutusmekanismitiedot (MOA)
+- Rekisteröityjen kliinisten tutkimusten tai vaiheen 2/3 satunnaistettujen tutkimusten tulosten kokoaminen rajoittuneen systeemisen skleroosin osalta
+- Nivelreuman osalta ihmisillä tehtävä alustava tutkimus ennen etenemistä
+- Maksan toiminnan seuranta- ja raskauden ehkäisysuunnitelma
+- Selvitys siitä, miksi Suomen myyntiluvat on peruutettu ja onko valmiste muuten saatavilla
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

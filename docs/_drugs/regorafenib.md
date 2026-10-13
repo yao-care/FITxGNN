@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Regorafenib
-parent: Vahva näyttö (L1-L2)
-nav_order: 319
-evidence_level: L2
+parent: Pelkkä mallin ennuste (L5)
+nav_order: 371
+evidence_level: L5
 indication_count: 8
 ---
 
 # Regorafenib
 {: .fs-9 }
 
-Näytön taso: **L2** | Ennustetut käyttöaiheet: **8** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **8** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,100 +29,110 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **8** kpl
 
 </div>
 
-# Regorafenib: paksusuolisyövän/GIST/maksasyövästä liposarkooman hoitoon
+# Regorafenibi: Kolorektaalisyövästä liposarkoomaan
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Regorafenib on suun kautta otettava moni-kinaasi-inhibiittori, joka on alun perin hyväksytty metastaattisen paksusuolisyövän, gastrointestinaalisen strooman eli GIST:n ja maksasyövän hoitoon. TxGNN-malli asettaa **liposarkooman** huipulla olevaksi ennustetuksi uudeksi käyttöindikaatioksi (pisteet 99.76%), mutta **2 omistautunutta kliinista tutkimusta** ja **9 julkaisua**, jotka ovat tällä hetkellä saatavilla, raportoivat itse asiassa, että regorafenib **ei kyennyt osoittamaan tehokkuutta erityisesti liposarkooman osalta**, vaikka se osoitti hyötyä muissa ei-rasvaisten pehmytkudoksen sarkooman alatyypeissä.
+Regorafenibi on suun kautta otettava monikinaasi-estäjä, jota on alun perin käytetty paksu- ja peräsuolen syövän (kolorektaalisyövän) hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **liposarkoomaan**.
+Tätä suuntaa tukee tällä hetkellä **1 kliininen tutkimus** ja **10 julkaisua**, mutta tulokset liposarkoomassa ovat pääosin negatiivisia.
 
 ---
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen käyttöindikaatio | Metastaattinen paksusuolisyöpä, GIST, maksasyöpä (kirjallisuudessa mainitut vakiintuneet globaalit hyväksynnät; Suomen-spesifistä merkintätekstiä ei saatavilla) |
-| Ennustettu uusi käyttöindikaatio | Liposarcoma |
-| TxGNN-ennustepisteet | 99.76% |
-| Näyttöjen taso | L2 |
-| Suomen markkinatilanne | ✗ Ei markkinoilla |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Pidätys |
+|------|------|
+| Alkuperäinen käyttöaihe | Kolorektaalisyöpä (paksu- ja peräsuolen syöpä) |
+| Ennustettu uusi käyttöaihe | Liposarkoomaan |
+| TxGNN-ennustepisteet | 99,76 % |
+| Näytön taso | L1 (huomautus: liposarkoomakohtainen hyöty on rajallinen) |
+| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Proceed with Guardrails (eteneminen varauksin) |
 
 ---
 
-## Miksi tämä ennuste on järkevä?
+## Miksi ennuste on perusteltu?
 
-Regorafenib on suun kautta otettava moni-kinaasi-inhibiittori, joka kohdistuu VEGFR1-3:een, TIE2:een, PDGFR-β:ään, FGFR:ään, KIT:iin, RET:iin ja RAF-1/BRAF:iin. Tämä antiangiogeniikka- ja antistroomamekanismi on biologisesti uskottava pehmytkudoksen sarkoomeille, jotka ovat tyypillisesti erittäin verisuoni-rikkaita kasvaimia, ja se on päällekkäin pazopanibin kanssa, moni-kinaasi-inhibiittorin kanssa, joka on jo hyväksytty ei-rasvaisten pehmytkudoksen sarkoomeille.
+Regorafenibi on monikinaasi-estäjä, joka kohdistuu angiogeneesiä edistäviin kinaaseihin (VEGFR1–3, TIE2), stroomaa koskeviin kinaaseihin (PDGFR, FGFR) sekä onkogeenisiin reseptorityrosiinikinaaseihin (KIT, RET, RAF). Näiden reittien tiedetään ajavan kasvaimen verisuonittumista ja kasvua pehmytkudossarkoomissa, myös liposarkoomassa. Tarkkaa vaikutusmekanismia ei ollut tähän raporttiin koottujen tietojen mukaan saatavilla tietokannasta, joten kuvaus perustuu kirjallisuuden yleiskatsauksiin.
 
-Mekanistinen uskottavuus ei kuitenkaan pidä paikkaansa liposarcoma-spesifiseissä tiedoissa. REGOSARC-tutkimus (NCT01900743) rekrytoi omistautuneen liposarcoma-kohortin ja sen julkaistut tulokset (PMID 29902612) sanovat selvästi, että regorafenib osoitti tehokkuutta leiomyosarkooman, synoviaalisen sarkooman ja muiden ei-rasvaisten sarkoomeissa **mutta ei liposarkooman hoitoon**. SARC024 liposarcoma-kohortti (NCT02048371, raportoitu PMID 32701199:ssä) vahvisti tämän itsenäisesti: tulokset "eivät tue regorafeniibin rutiininkäyttöä tässä potilaspopulaatiossa." Toisin sanoen kaksi erillistä vaihe 2 -tutkimusta, joiden tarkoitus oli nimenomaisesti testata tätä hypoteesia, palauttivat negatiivisia tuloksia liposarkooman osalta, vaikka lääkkeen yleinen kinaasi-esto-perustelu näyttää järkevältä paperilla.
+Alkuperäinen käyttöaihe (kolorektaalisyöpä) ja ennustettu käyttöaihe (liposarkooma) ovat molemmat kiinteitä kasvaimia, joissa angiogeneesin esto voi hidastaa taudin etenemistä. Regorafenibista on satunnaistettua näyttöä pehmytkudossarkoomissa (REGOSARC), mikä tukee ennusteen uskottavuutta.
 
-Tämä on tilanne, jossa TxGNN-verkkopohjainen pistemäärä (99.76%, sijoitus 3120) ja raa'an näyttötason metriikka (L2, tutkimusmäärän/vaiheen perusteella) eivät kuvaa hoitoepäonnistumista — molemmat pätevät tutkimukset toteutettiin ja olivat hyvin suunniteltuja, mutta niiden tulos oli negatiivinen tässä erityisessä syöpäalatyyppissä.
+Tärkeä varauma: REGOSARC-tutkimuksessa hyöty todettiin ei-adiposyyttisissä sarkoomissa, mutta **ei liposarkoomassa**. SARC024-tutkimuksen liposarkoomakohortin tulokset eivät myöskään tue regorafenibin rutiinikäyttöä tässä potilasryhmässä.
 
 ---
 
-## Kliinisen tutkimuksen näyttö
+## Kliininen tutkimusnäyttö
 
-| Tutkimusnumero | Vaihe | Tila | Rekrytointi | Keskeiset löydökset |
+| Tutkimustunnus | Vaihe | Tila | Osallistujia | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT01900743](https://clinicaltrials.gov/study/NCT01900743) | Vaihe 2 | Valmis | 219 | REGOSARC-tutkimus; satunnaistettu, lumekontrolloitu tutkimus 5 sarkooma-kohortin yli, mukaan lukien omistautunut Liposarcoma-kohortti (Kohortti A), potilaissa, joille oli aiemmin annettu antrasykliini-pohjaista kemoterapiaa |
-| [NCT02048371](https://clinicaltrials.gov/study/NCT02048371) | Vaihe 2 | Valmis | 131 | SARC024 basket-tutkimus suun kautta otettavasta regorafeniibista valituissa sarkooma-alatyypeissä, mukaan lukien liposarcoma-spesifinen kohortti |
+| [NCT02048371](https://clinicaltrials.gov/study/NCT02048371) | Vaihe 2 | Päättynyt | 131 | SARC024: suun kautta otettavan regorafenibin tutkimus valituissa sarkoomatyypeissä, mukaan lukien liposarkooma |
 
 ---
 
-## Kirjallisuuden näyttö
+## Kirjallisuusnäyttö
 
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [27751846](https://pubmed.ncbi.nlm.nih.gov/27751846/) | 2016 | RCT | Lancet Oncology | REGOSARC:n ensisijaiset tulokset: regorafeniibin tehokkuus/turvallisuus arvioitiin STS-alatyypeissä potilaissa, joille oli aiemmin annettu antrasykliini-pohjaista kemoterapiaa |
-| [32701199](https://pubmed.ncbi.nlm.nih.gov/32701199/) | 2020 | RCT | The Oncologist | SARC024 liposarcoma-kohortti: tulokset vahvistavat aiemmat tiedot ja **eivät tue regorafeniibin rutiininkäyttöä** hoitoon-kestävässä liposarkoomassa |
-| [29902612](https://pubmed.ncbi.nlm.nih.gov/29902612/) | 2018 | RCT | European Journal of Cancer | Päivitetty REGOSARC-analyysi cross-over-tiedoilla: tehokkuus näytetty leiomyosarkooman/synviaalisen/muiden ei-rasvaisten sarkoomeissa **mutta ei liposarkoomassa** |
-| [28295221](https://pubmed.ncbi.nlm.nih.gov/28295221/) | 2017 | RCT (jälkikäteen) | Cancer | Q-TWiST-analyysi REGOSARC-tutkimuksesta (NCT01900743): laatuun oikaistu PFS-hyöty doksyrubisiini-esihoidetussa edistyneessä ei-rasvaisten sarkooman hoitoon |
-| [25884155](https://pubmed.ncbi.nlm.nih.gov/25884155/) | 2015 | Tutkimusprotokolla | BMC Cancer | REGOSARC-tutkimusprotokolla; perustelut angiogeneesin signaloinnista sarkooman biologiassa |
-| [29931504](https://pubmed.ncbi.nlm.nih.gov/29931504/) | 2018 | Katsaus | Targeted Oncology | Yleiskatsaus regorafeniibin kehittyvästä roolista STS-alatyypeissä, mukaan lukien liposarcoma |
-| [40975452](https://pubmed.ncbi.nlm.nih.gov/40975452/) | 2025 | Katsaus | Critical Reviews in Oncology/Hematology | Katsaus ylläpitohoitostrategioista ensimmäisen linjan hoidon jälkeen edistyneessä STS:n hoitoon |
-| [33290314](https://pubmed.ncbi.nlm.nih.gov/33290314/) | 2021 | RCT (eri lääke, anlotinibi — epäsuora) | Anti-Cancer Drugs | Anlotinibin retrospektiivinen tutkimus WDLS/DDLS:ssä; mainitsee regorafeniibin/pazopaniibin hyväksyttyjä TKI:ita ei-rasvaisten STS-alatyypeissä |
-| [26266019](https://pubmed.ncbi.nlm.nih.gov/26266019/) | 2015 | Kohortti (eri lääke, pazopanibi — epäsuora) | Rare Tumors | Tapausraportti pazopaniibin käyttöoikeuden tarjoamisen perusteluista Ewings-sarkooman varren lisäämiseen SARC024-tutkimukseen |
+| [32701199](https://pubmed.ncbi.nlm.nih.gov/32701199/) | 2020 | RCT | The Oncologist | SARC024:n liposarkoomakohortti: tulokset eivät tue regorafenibin rutiinikäyttöä |
+| [27751846](https://pubmed.ncbi.nlm.nih.gov/27751846/) | 2016 | RCT | The Lancet Oncology | REGOSARC: satunnaistettu, lumekontrolloitu vaiheen 2 tutkimus pitkälle edenneessä pehmytkudossarkoomassa antrasykliinihoidon jälkeen |
+| [29902612](https://pubmed.ncbi.nlm.nih.gov/29902612/) | 2018 | RCT | European Journal of Cancer | REGOSARC-päivitys: teho todettiin muissa kuin adiposyyttisissä sarkoomissa, ei liposarkoomassa |
+| [28295221](https://pubmed.ncbi.nlm.nih.gov/28295221/) | 2017 | RCT:n jälkianalyysi | Cancer | Elämänlaatuun mukautettu analyysi (Q-TWiST) regorafenibin kliinisestä hyödystä |
+| [29931504](https://pubmed.ncbi.nlm.nih.gov/29931504/) | 2018 | Katsaus | Targeted Oncology | Regorafenibin kasvava rooli sarkoomien hoidossa |
+| [40975452](https://pubmed.ncbi.nlm.nih.gov/40975452/) | 2025 | Katsaus | Critical Reviews in Oncology/Hematology | Ylläpitohoito pitkälle edenneen pehmytkudossarkooman ensilinjan hoidon jälkeen |
+| [25884155](https://pubmed.ncbi.nlm.nih.gov/25884155/) | 2015 | Tutkimusprotokolla | BMC Cancer | REGOSARC-tutkimuksen protokolla |
+| [33290314](https://pubmed.ncbi.nlm.nih.gov/33290314/) | 2021 | Retrospektiivinen tutkimus (eri lääke: anlotinibi) | Anti-Cancer Drugs | Anlotinibin teho ja turvallisuus erilaistuneessa/erilaistumattomassa liposarkoomassa |
+| [26266019](https://pubmed.ncbi.nlm.nih.gov/26266019/) | 2015 | Tapausselostus (eri lääke: pdatsopanibi) | Rare Tumors | Perustelee Ewingin sarkooma -haaran lisäämistä SARC024-tutkimukseen |
 
 ---
 
-## Suomen markkinatiedot
+## Tiedot Suomen markkinoilta
 
-Regorafenibillä ei ole tällä hetkellä markkinointikelpoisuuden hyväksyntää Suomessa (0 hyväksyntää; markkinatilanne: ei markkinoilla).
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/002573 | Stivarga (Bayer Pharma AG) | Ei tietoa | Kolorektaalisyöpä (tila: peruutettu) |
 
 ---
 
 ## Sytotoksisuus
 
+Regorafenibi on kohdennettu syöpälääke (monikinaasi-estäjä), ei perinteinen sytostaatti.
+
 | Kohta | Sisältö |
-|------|---------|
-| Sytotoksisuuden luokitus | Kohdistettu terapia (moni-kohteen tyrosiini-kinaasi-inhibiittori: VEGFR1-3, TIE2, PDGFR-β, FGFR, KIT, RET, RAF-1/BRAF) |
-| Luuydinsuppression riski | Alhainen — regorafeniibin ja siihen liittyvien TKI:iden kirjallisuudessa korostuvat käsi-jalka-ihoreaktio, hypertensio, hepatotoksisuus ja proteinuria hallitsevina sivuvaikutuksina luuydinsuppression sijaan |
-| Pahoinvointiriskin luokitus | Alhainen (tyypillistä pienille molekyyleille moni-kinaasi-inhibiittorien joukossa) |
-| Seurantakohdat | Verenpaine, maksan toiminta, munuaisten toiminta/proteinuria, kokonaisverenkuva (CBC), ihotutkimus käsi-jalka-ihoreaktioon |
-| Käsittelysuojaus | Standardit suun kautta otettavan sytostaatin käsittelyvarotoimenpiteet; ei tavanomainen sytotoksinen aine, joka vaatisi sytostaatin valmistelua/käsittelyprotokollaa |
+|------|------|
+| Sytotoksisuusluokitus | Kohdennettu hoito (monikinaasi-estäjä) |
+| Myelosuppressioriski | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Oksettavuusluokitus | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Seurattavat parametrit | Maksan toiminta (kirjallisuudessa raportoitu maksatoksisuus), verenpaine, proteinuria ja iho-oireet (käsi-jalkaihoreaktio) |
+| Käsittelysuojaus | Noudata syöpälääkkeiden käsittelyohjeita |
 
 ---
 
 ## Turvallisuushuomiot
 
-Katso turvallisuustiedoista pakkausseloste. (TFDA/Fimea:n pakkausselosteen varoitukset ja vasta-aiheet on merkitty estäväksi tietoaukoksi eikä niitä ole vielä saatavilla tälle lääkeehdokkaalle.)
+**Lääkeyhteisvaikutukset:** Yhteisvaikutuksia on kirjattu yhteensä 100. Esimerkkejä tärkeimmistä:
+- **Merkittävät (Major):** asetyylisalisyylihappo, deferasiroksi, ibritumomabitiuksetaani, tositumomabi, abtsiksimabi, alteplaasi, antitrombiini III ja apiksabaani. Useat näistä liittyvät verenvuotoriskiin tai hyytymisen vaikutuksiin.
+- **Kohtalaiset (Moderate):** deksametasoni, klaritromysiini, naltreksoni, rosuvastatiini, kobisistaatti, fenfluramiini ja sibutramiini.
+- **Lievät (Minor):** dapagliflotsiini, naloksegoli ja prukalopridi.
+
+Muista turvallisuustiedoista (varoitukset ja vasta-aiheet) katso valmisteyhteenveto.
 
 ---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Pidätys**
+**Päätös: Proceed with Guardrails (eteneminen varauksin)**
 
 **Perustelut:**
-Vaikka TxGNN asettaa liposarkooman huipulla olevaksi ennustetuksi indikaatioksi korkean pistemäärän kanssa, kaksi omistautunutta vaihe 2 -tutkimusta, jotka testasivat tätä hypoteesia suoraan (REGOSARC ja SARC024), molemmat raportoivat, että regorafenib **ei kyennyt osoittamaan tehokkuutta erityisesti liposarkooman osalta**, vaikka se osoitti hyötyä muissa ei-rasvaisten pehmytkudoksen sarkooman alatyypeissä. Näyttöjen määrä (L2) ei ole todiste hyödystä tässä — pätevät tiedot ovat negatiivisia.
+- Regorafenibista on satunnaistettua näyttöä pehmytkudossarkoomissa, mutta nimenomaan liposarkoomassa REGOSARC- ja SARC024-tutkimusten tulokset eivät tue rutiinikäyttöä. Näyttötaso L1 perustuu laajempaan sarkoomanäyttöön, ei liposarkoomakohtaiseen hyötyyn. Lisäksi myyntilupa Suomessa on peruutettu.
 
-**Edetäksemme seuraavaa tarvitaan:**
-- TFDA/Fimea:n pakkausselosteen varoitukset ja vasta-aiheet (tällä hetkellä estävä tietoaukko, DG001)
-- Vahvistettu DrugBank-toimintamekanismin tietue (tällä hetkellä tietoaukko, DG002)
-- Jos tätä indikaatiota harkittaisiin uudelleen, mekanistinen selitys sille, miksi liposarcoma erityisesti ei vastaa hoitoon, ja selvitys siitä, hyötyisikö biomarkkerilla valittu potilasryhmä
-- Negatiivisen liposarcoma-signaalin perusteella, arvioi, onko **selkeäsoluinen munuaiskarsinooma** (sijoitus 3, L2, "Edisty varauksilla", positiivisen yksivarteisen vaihe 2 -tutkimuksen kanssa RCC:ssä) lupaavampi ehdokas tästä samasta näyttöpaketista
-
+**Eteenpäin siirtyminen edellyttää:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista (Fimea) turvallisuusarviointia varten
+- Vaikutusmekanismin tietojen täydentämistä (DrugBank)
+- Myyntiluvan ja saatavuuden tilanteen selvittämistä Suomessa
+- Liposarkoomakohtaisen hyödyn arviointia, esimerkiksi yhdistelmähoitojen tai alatyyppikohtaisten kohorttien avulla
+- Muiden ennustettujen käyttöaiheiden (esim. kirkassoluinen munuaissyöpä, jonka näyttö on varhaisvaiheen ja taso L3) tarkempaa arviointia erikseen; harvinaisista munuaissyövän ja sarkooman alatyypeistä ei ole tutkimusnäyttöä (taso L5, suositus Hold)
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

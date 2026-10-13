@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Levetiracetam
-parent: Kohtalainen näyttö (L3-L4)
-nav_order: 225
-evidence_level: L4
+parent: Pelkkä mallin ennuste (L5)
+nav_order: 261
+evidence_level: L5
 indication_count: 10
 ---
 
 # Levetiracetam
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,84 +29,120 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Levetiracetam: Epilepsiasta visuaaliseen (valoherkkään) epilepsiaan
+# Levetirasetaami: Epilepsiasta status epilepticukseen
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Levetiracetam on vakiintunut toiseen sukupolveen kuuluva antiepileptinen lääke (AED), jota käytetään eniten osittaisen alkuperän ja yleistyneiden kouristuksien hoitoon. TxGNN ennustaa sen voivan olla tehokas myös **visuaalisen epilepsian** (valoherkkyyteen liittyvä tai refleksiivinen kouristusmuoto) hoidossa, ja tätä suuntaa tukee tällä hetkellä **9 kliinistä tutkimusta** ja **20 julkaisua**, vaikka yksikään niistä ei suoraan kohdistu tähän spesifiin refleksiiviseen muotoon.
+Levetirasetaami on epilepsialääke, jota on käytetty epilepsian hoitoon. TxGNN-malli ennustaa sen voivan olla tehokas **status epilepticuksen** hoidossa. Tälle suunnalle löytyy tämän raportin aineistosta **16 kliinistä tutkimusta** ja **20 julkaisua**, joihin kuuluu useita vaiheen 3 satunnaistettuja tutkimuksia. Huomionarvoista on, että status epilepticus on epilepsian läheinen käyttöaihe, joten kyse on pikemminkin vakiintuneesta käytöstä kuin aidosta uudelleenkäytöstä.
 
-## Pikavertailu
+Huomautus: ensimmäinen TxGNN-ennuste (sija 1) on "visuaalinen epilepsia" (näköärsykkeen laukaisema epilepsia), mutta sen näyttö on vain mallipohjaista ja epäsuoraa (taso L4, suositus Hold). Tämä raportti keskittyy status epilepticukseen, koska se on parhaiten tuettu ehdokas. Muut ennusteet on käsitelty lyhyesti lopussa.
+
+---
+
+## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Epilepsia — adjuvanttina/monoterapiana osittaisen alkuperän kouristuksiin sekä adjuvanttina nuorten myokloniksen epilepsian ja primaarin yleistyneen toniklonisen kouristuksen hoitoon (kirjallisuuden tietojen mukaan; Suomen pakkausselosteita ei ole saatavilla) |
-| Ennustettu uusi indikaatio | Visuaalinen epilepsia |
-| TxGNN-ennusteen pistemäärä | 99.98% |
-| Todistusten taso | L4 |
-| Suomen markkinatila | ✗ Ei markkinoilla |
-| Lupakäsittelyjen lukumäärä | 0 |
-| Suositeltu päätös | Pidätä |
+| Alkuperäinen käyttöaihe | Epilepsia |
+| Ennustettu uusi käyttöaihe | Status epilepticus (ensisijaisena ennusteena luettelossa: visuaalinen epilepsia) |
+| TxGNN-ennustepisteet | 99,91 % (status epilepticus); 99,98 % (visuaalinen epilepsia) |
+| Näytön taso | L1 (status epilepticus) |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 9 (kaikki peruutettuja) |
+| Suositeltu päätös | Proceed with Guardrails (status epilepticus) |
 
-## Miksi tämä ennuste on järkevä?
+---
 
-Tässä todistusten paketissa levetiracetaamin yksityiskohtaisia toimintamekanismin tietoja DrugBankista ei ole saatavilla. Tunnetun farmakologian perusteella (joka näkyy myös tämän paketin uudelleenkäyttöargumenteissa) levetiracetam sitoutuu synapsin vesikkeliproteiiniin 2A:han (SV2A), säätelee neurotransmitterien vapauttamista ja vähentää patologista hermosolujen ylisynkronisoitumista — mekanismia, joka on taustalla levetiracetaamin laaja-alaisen antiepileptisen vaikutuksen. 
+## Miksi ennuste on perusteltu?
 
-Visuaalinen epilepsia on refleksiivinen/valoherkkyysperustaisesti laukaistava muoto idiopaattisen yleistyneen epilepsian (IGE) spektrillä — samaan tautiperheen kuuluu levetiracetaamin alkuperäinen indikaatio. Tässä paketissa oleva verkkometaanalyysi (PMID 37378757) vahvistaa antiepileptisten lääkkeiden tehokkuuden laajasti IGE:ssä, ja asiaan liittyvä metaanalyysi (PMID 40450767) tukee levetiracetamia erityisesti IGE:n myokloniksen kouristuksissa, joka on läheisesti refleksiepilepsian kanssa liittyvä muoto.
+Levetirasetaami sitoutuu synaptisen vesikkelin proteiiniin SV2A ja moduloi välittäjäaineiden vapautumista. Tämä vähentää hermosolujen yli-ärtyvyyttä ja kohtauksen leviämistä. Yksityiskohtaista vaikutusmekanismitietoa ei ole tämän raportin aineistossa erikseen saatavilla, mutta SV2A-mekanismi on kuvattu aineiston kirjallisuudessa.
 
-Mekanistisesti SV2A:n välityksellä tapahtuva ylisynkronisoituneen aivokuoren sähköisen aktiivisuuden tukahduttaminen on biologisesti uskottava keino stimulus­laukaistun (visuaalisen) kouristusaktiviteetin hallitsemiseksi. Tätä tukee epäsuorasti tutkimukset, joissa käytetään visuaalisen stimulaation paradigmoja — esimerkiksi NCT04277936 ja NCT04559529, joissa käytettiin visuaalisen kohtausten käsittelyn fMRI-tehtäviä levetiracetaamin vaikutuksesta hippokampuksen yliaktiivisuuteen. Kuitenkaan yksikään tämän aineiston tutkimus ei suoraan rekrytoisi tai mittaisi "visuaalista epilepsiaa" määriteltyinä päätetapahtumina, joten kyse on pikemminkin laajemmista IGE- ja refleksiepilepsiatiedoista tehdystä ekstrapolaatiosta kuin suorasta todistuksesta.
+Epilepsia ja status epilepticus ovat saman sairausryhmän ilmenemismuotoja: status epilepticus on pitkittynyt tai toistuva kohtaus, jota ei saada katkaistua. Bentsodiatsepiinien jälkeen annettavana toisen linjan lääkkeenä levetirasetaamin mekanismi sopii hyvin tähän tilanteeseen. Suuret vaiheen 3 tutkimukset vertaavat sitä suoraan fosfenytoiiniin ja valproaattiin.
 
-## Kliinisen tutkimusaineiston todisteet
+Tärkeä varauma: koska status epilepticus on kliinisesti hyvin lähellä alkuperäistä käyttöaihetta, kyse on pikemminkin käyttöaiheen laajennuksesta kuin täysin uudesta uudelleenkäytöstä.
 
-| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset löydökset |
+---
+
+## Kliininen tutkimusnäyttö
+
+| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT03107507](https://clinicaltrials.gov/study/NCT03107507) | Vaihe 4 | Tuntematon | 40 | Levetiracetamia tutkittiin vaihtoehtona fenobarbitaalille vastasyntyneiden kouristuksiin; ei visuaalisen epilepsian erityisesti |
-| [NCT00203216](https://clinicaltrials.gov/study/NCT00203216) | N/A | Päättynyt | 31 | Avoin tutkimus levetiracetamista migrenienpreventioon, silmien aurassa tai ilman |
-| [NCT04277936](https://clinicaltrials.gov/study/NCT04277936) | Vaihe 2 | Keskeytetty | 1 | Testaa, vähentääkö levetiracetam hippokampuksen yliaktiivisuutta visuaalisen kohtausten käsittelyn fMRI-tehtävällä psykoosissa |
-| [NCT07336992](https://clinicaltrials.gov/study/NCT07336992) | Vaihe 3 | Ei vielä rekrytoija | 580 | Profylaktinen levetiracetam kouristusten ehkäisemiseksi aivojen sisäisen verenvuodon jälkeen; eri potilaspopulaatio |
-| [NCT00855738](https://clinicaltrials.gov/study/NCT00855738) | Vaihe 4 | Päättynyt | 111 | Havainnoiva tutkimus levetiracetamista ja muista AED:stä ensimmäisenä kaksoislääkityksenä paikallisissa epilepsioissa |
-| [NCT00105040](https://clinicaltrials.gov/study/NCT00105040) | Vaihe 2 | Päättynyt | 87 | Satunnaistettu kontrolloitu tutkimus kognitiivisten ja neuropsykologisten vaikutusten levetiracetamista lasten lääkekestävissä osittaisissa kouristuksissa |
-| [NCT04559529](https://clinicaltrials.gov/study/NCT04559529) | Vaihe 2 | Päättynyt | 62 | fMRI-tutkimus levetiracetamin vaikutuksesta hippokampuksen yliaktiivisuuteen visuaalisen kohtausten käsittelyn tehtävällä psykoottisissa häiriöissä |
-| [NCT04573803](https://clinicaltrials.gov/study/NCT04573803) | Vaihe 3 | Ei vielä rekrytoija | 1649 | MAST-tutkimus: AED:n kesto/valinta (mukaan lukien levetiracetam) kouristusten ehkäisemiseksi traumaattisen aivovamman jälkeen |
-| [NCT04833907](https://clinicaltrials.gov/study/NCT04833907) | Vaihe 1/2 | Kutsujen perusteella rekrytoiva | 24 | Geeniterapiatutkimus Canavain taudista; levetiracetam ei ole päätutkimusaine, vain sivuva merkitys |
+| [NCT01960075](https://clinicaltrials.gov/study/NCT01960075) | Vaihe 3 | Päättynyt | 478 | Satunnaistettu, sokkoutettu vertailu: fosfenytoiini, valproaatti ja levetirasetaami bentsodiatsepiinille reagoimattomassa status epilepticuksessa |
+| [NCT01150331](https://clinicaltrials.gov/study/NCT01150331) | Vaihe 3 | Päättynyt | 203 | Laskimonsisäinen levetirasetaami + klonatsepaami vs. pelkkä klonatsepaami sairaalan ulkopuolisessa hoidossa |
+| [NCT02920060](https://clinicaltrials.gov/study/NCT02920060) | Vaihe 2 | Päättynyt | 80 | Levetirasetaami vs. natriumvalproaatti lasten refraktaarisessa konvulsiivisessa status epilepticuksessa |
+| [NCT04926844](https://clinicaltrials.gov/study/NCT04926844) | Vaihe 2 | Päättynyt | 144 | Levetirasetaamin ja midatsolaamin yhdistelmä lasten yleistyneessä konvulsiivisessa status epilepticuksessa |
+| [NCT06403150](https://clinicaltrials.gov/study/NCT06403150) | Vaihe 4 | Päättynyt | 62 | Avoin vertailu: levetirasetaami vs. fosfenytoiini |
+| [NCT07052136](https://clinicaltrials.gov/study/NCT07052136) | Ei määritelty | Päättynyt | 138 | Levetirasetaami vs. valproiinihappo lasten status epilepticuksessa |
+| [NCT07046611](https://clinicaltrials.gov/study/NCT07046611) | Vaihe 2/3 | Rekrytoi | 124 | Ketamiini + levetirasetaami vs. pelkkä levetirasetaami lasten status epilepticuksessa |
+| [NCT06907173](https://clinicaltrials.gov/study/NCT06907173) | Vaihe 3 | Rekrytoi | 770 | Ketamiinin lisähoito levetirasetaamin rinnalla vakiintuneessa status epilepticuksessa |
+| [NCT07098728](https://clinicaltrials.gov/study/NCT07098728) | Ei määritelty | Rekrytoi | 180 | Laskimonsisäinen levetirasetaami vs. fenobarbitaali lapsilla |
+| [NCT00362141](https://clinicaltrials.gov/study/NCT00362141) | Vaihe 2 | Tila tuntematon | 12 | Lisälääkkeenä annetun levetirasetaamin turvallisuus ja siedettävyys |
 
-## Kirjallisuusaineiston todisteet
+Aineistossa on lisäksi muita tutkimuksia (mm. NCT07163572, NCT06067412, NCT04176887, NCT05756621, NCT02056236), joita ei ole listattu tähän.
 
-| PMID | Vuosi | Tyyppi | Julkaisu | Keskeiset löydökset |
-|------|-----|------|------|---------|
-| [21936590](https://pubmed.ncbi.nlm.nih.gov/21936590/) | 2011 | Katsaus | CNS Drugs | Erityiskatsaus levetiracetaamin hyväksytyista indikaatioista: osittaisen alkuperän kouristukset sekä adjuvantti hoito myokloniksen ja GTC-kouristuksissa JME:ssa |
-| [37378757](https://pubmed.ncbi.nlm.nih.gov/37378757/) | 2023 | Verkkometaanalyysi | J Neurol | Vertaa ASM:n tehokkuutta ja turvallisuutta idiopaattisissa yleistyneissä epilepsioissa — tautiperheen, joka sisältää visuaalisen ja valoherkkyyteen liittyvän epilepsian |
-| [40450767](https://pubmed.ncbi.nlm.nih.gov/40450767/) | 2025 | Järjestelmällinen katsaus | Epilepsy Behav | Levetiracetamin tehokkuus myokloniksen kouristuksissa IGE:ssä, refleksiin liittyvä muoto visuaalisen epilepsian kannalta |
-| [34260837](https://pubmed.ncbi.nlm.nih.gov/34260837/) | 2021 | Katsaus | NEJM | Yleinen katsaus kouristuksen alkuhoidosta aikuisilla |
-| [35963261](https://pubmed.ncbi.nlm.nih.gov/35963261/) | 2022 | Satunnaistettu kontrolloitu tutkimus | Lancet Neurol | PEACH-tutkimus: profylaktinen levetiracetam vs. lumelääke kouristusten ehkäisemiseksi aivojen sisäisen verenvuodon jälkeen |
-| [32385134](https://pubmed.ncbi.nlm.nih.gov/32385134/) | 2020 | Satunnaistettu kontrolloitu tutkimus | Pediatrics | Levetiracetam vs. fenobarbitaali vastasyntyneiden kouristuksissa |
-| [38316735](https://pubmed.ncbi.nlm.nih.gov/38316735/) | 2024 | Ohjeistus | Neurocrit Care | Kliinisen käytännön ohjeistus kouristusten profylaksiasta (mukaan lukien levetiracetam) kohtuullisen tai vakavan aivovamman jälkeen |
-| [34286461](https://pubmed.ncbi.nlm.nih.gov/34286461/) | 2022 | Järjestelmällinen katsaus/metaanalyysi | Neurocrit Care | Levetiracetam kouristusten profylaksiassa neurokriittisen hoidon yhteydessä (ICH, TBI, SAH, postneurokirurgia) |
-| [35976303](https://pubmed.ncbi.nlm.nih.gov/35976303/) | 2022 | Katsaus | Arq Neuropsiquiatr | Katsaus statusepileptikuksen diagnostiikkaan, seurantaan ja hoitoon |
-| [39786974](https://pubmed.ncbi.nlm.nih.gov/39786974/) | 2025 | — | Future Oncol | Levetiracetam ja valpraata ensimmäisen linjan antiepileptisina lääkkeinä gliooma-liittyvässä epilepsiassa |
+---
 
-## Suomen markkinatiedot
+## Kirjallisuusnäyttö
 
-Levetiracetam ei ole tällä hetkellä markkinoilla Suomessa tässä aineistossa (0 hyväksymistä saatavilla; Fimean hakutulosten perusteella). Tuotekohtaisia hyväksynnän yksityiskohtia ei ole saatavilla.
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|---------|-----|------|------|---------|
+| [31774955](https://pubmed.ncbi.nlm.nih.gov/31774955/) | 2019 | RCT | N Engl J Med | Kolmen antikonvulsantin satunnaistettu vertailu status epilepticuksessa |
+| [32203691](https://pubmed.ncbi.nlm.nih.gov/32203691/) | 2020 | RCT | Lancet | ESETT: levetirasetaamin, fosfenytoiinin ja valproaatin teho ikäryhmittäin |
+| [33190679](https://pubmed.ncbi.nlm.nih.gov/33190679/) | 2020 | RCT | Health Technol Assess | EcLiPSE: levetirasetaami vaihtoehtona fenytoiinille lasten status epilepticuksessa |
+| [35333156](https://pubmed.ncbi.nlm.nih.gov/35333156/) | 2022 | Näyttösynteesi | Health Technol Assess | Aikuisten konvulsiivisen status epilepticuksen hoito ennen sairaalaa ja päivystyksessä |
+| [38580318](https://pubmed.ncbi.nlm.nih.gov/38580318/) | 2024 | Katsaus | Semin Neurol | Status epilepticuksen lääkehoidon päivitys; fenytoiini, valproaatti ja levetirasetaami vaikuttavat turvallisuudeltaan ja teholtaan samankaltaisilta |
+| [38117319](https://pubmed.ncbi.nlm.nih.gov/38117319/) | 2024 | Katsaus | Intensive Care Med | Status epilepticus tehohoidossa |
+| [38830068](https://pubmed.ncbi.nlm.nih.gov/38830068/) | 2024 | Katsaus | Continuum | Status epilepticuksen akuuttihoito |
+| [39626562](https://pubmed.ncbi.nlm.nih.gov/39626562/) | 2025 | Ohje | Brain Dev | Japanilainen lasten status epilepticuksen hoitosuositus 2023 |
+| [34659919](https://pubmed.ncbi.nlm.nih.gov/34659919/) | 2021 | Katsaus | Cureus | Fenytoiinin ja levetirasetaamin vertailu |
+| [37391637](https://pubmed.ncbi.nlm.nih.gov/37391637/) | 2023 | Katsaus | Pediatr Rev | Bentsodiatsepiinit, levetirasetaami, fosfenytoiini ja valproiinihappo voivat katkaista status epilepticuksen |
+
+---
+
+## Tiedot Suomen markkinoilta
+
+| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000277 | Keppra | – | Epilepsia |
+| EMEA/H/C/002024 | Matever | – | Epilepsia |
+| EMEA/H/C/002290 | Levetiracetam Accord | – | Epilepsia |
+| EMEA/H/C/002305 | Levetiracetam Actavis Group | – | Epilepsia |
+| EMEA/H/C/002783 | Levetiracetam Hospira | – | Epilepsia |
+
+Kaikki yhdeksän myyntilupaa on merkitty peruutetuiksi, eikä voimassa olevia lupia ole. Taulukossa on viisi esimerkkiä.
+
+---
 
 ## Turvallisuushuomiot
 
-Katso turvallisuustiedot pakkausselosteesta. (Levetiracetaamin järjestelmällisiä turvallisuustietoja — keskeisiä varoituksia, vasta-aiheita tai lääkeyhteisvaikutuksia — ei ole saatavilla tässä todistusten paketissa.)
+Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla, joten niihin on tutustuttava valmisteyhteenvedosta.
 
-## Johtopäätös ja seuraavat vaiheet
+- **Tietämyskuvaajaan perustuvat vasta-aihesignaalit** (eivät valmisteyhteenvedon tekstiä): ahdistuneisuushäiriö, neuroottinen häiriö, dystyyminen häiriö, munuaissairaus, maksasairaus, sappirakon sairaus, psykoottiset häiriöt (mm. skitsoaffektiivinen ja skitsofreniformi häiriö), mielenterveyden häiriöt, depersonalisaatiohäiriö, neutropenia, agranulosytoosi, leukopenia ja pansytopenia.
+- **Lääkeyhteisvaikutukset:** haettu yhteensä 100 yhteisvaikutusta. Kohtalaisia ovat mm. morfiini, dronabinoli, metoklopramidi, nabiloni, oopium ja sibutramiini. Useat muut (esim. pantopratsoli, metformiini, omepratsoli, doksisykliini) ovat tasoltaan tuntemattomia.
+- **Kirjallisuudessa raportoidut haitat:** hyponatremia, ientenliikakasvu (tapausraportti), kohtausten paheneminen (LEV-induced seizure aggravation) sekä ärtyneisyys.
 
-**Päätös: Pidätä**
+---
 
-**Perustelut:**
-Visuaalinen epilepsia on biologisesti uskottava levetiracetaamin vakiintuneen IGE/refleksiepilepsian aktiivisuuden jatke, mutta yksikään tämän aineiston tutkimus tai julkaisu ei suoraan kohdistu tähän refleksiiviseen muotoon — todisteet ovat epäsuoria (L4, vain mekanismi/viereinen muoto). Ratkaisevana tekijänä **Estävä**-tasoisesti vakava tietoaukko (puuttuvat TFDA/Fimean pakkausseloste-tiedot) estää tällä hetkellä jopa alkuperäisen turvallisuusarvioinnin (S1) suorittamisen tehokkuustodistusten tasosta riippumatta.
+## Päätelmä ja seuraavat vaiheet
 
-**Jatkamista varten tarvitaan seuraavat:**
-- TFDA/Fimean pakkausseloste-tiedot (varoitukset, vasta-aiheet) — estävä aukko, pakollinen ennen mitään S1-turvallisuusarviointia
-- DrugBankista peräisin olevat toimintamekanismin vahvistukset (SV2A-sitoutuminen, farmakokinetiikka)
-- Erityinen tutkimus tai rekisterikohortti, joka erityisesti rekrytoisi potilaita visuaalisten tai valoherkkyysperustaisesti laukaistuneiden kouristusten kanssa
-- Suomalaisen markkinoinnin luvan tiedot, koska lääkettä ei ole tällä hetkellä markkinoilla siellä
+**Päätös: Proceed with Guardrails** (status epilepticus)
 
-*Huomio: Tässä todistusten paketissa alemman rankin ehdokas — statusepileptikus (sija 9, L1-todisteet, "Edenee varauksellisesti") — on huomattavasti vahvemmalla suoralla tutkimusten tuella (esim. ESETT, PEACH) ja voi vaatia erillisen, korkeamman prioriteetin arvioinnin.*
+**Perustelu:**
+- Kaksi vaiheen 3 satunnaistettua tutkimusta (NCT01960075, NCT01150331) ja useita vaiheen 2 tutkimuksia sekä merkittäviä julkaistuja RCT:itä (ESETT, EcLiPSE) tukevat käyttöä status epilepticuksessa. Näyttö vastaa tasoa L1. Käyttö on kuitenkin lähellä alkuperäistä käyttöaihetta.
+- Suomessa kaikki myyntiluvat on peruutettu, mikä on selvitettävä ennen käyttöönottoa.
 
+**Muut ennusteet (kaikki heikommin tuettuja):**
+- **Startle-epilepsia (säpsähdysepilepsia):** taso L3, Research Question. Pienet avoimet tutkimukset ja tapausraportit, ei RCT:itä.
+- **Audiogeeniset kohtaukset:** taso L3, Research Question. Prekliinistä näyttöä ja kissoilla tehty RCT, ihmisnäyttö puuttuu.
+- **Visuaalinen epilepsia, ajattelun, virtsaamisen ja syömisen laukaisemat kohtaukset, lukukohtaukset:** taso L4, Hold. Kirjallisuus koskee yleisiä kohtauspotilaita eikä näitä tiloja suoraan.
+- **Orgasmin laukaisemat kohtaukset ja beeta-ketotiolaasipuutos:** taso L5, Hold. Pelkkä mallin ennuste. Korkea pistemäärä johtuu todennäköisesti verkostoartefaktista.
+
+**Etenemiseksi tarvitaan:**
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet Fimean sivustolta (puute estää turvallisuusseulonnan).
+- Tarkempi vaikutusmekanismitieto DrugBankista.
+- Selvitys Suomen markkinatilanteesta, koska kaikki myyntiluvat on peruutettu.
+- Hoitolinjan sijoittelu paikallisten hoitosuositusten mukaan, munuaisten toiminnan mukainen annoksen säätö sekä käytöshaittojen (mielialan ja käytöksen muutokset) seuranta.
+- Aiheiden, joissa vain heikkoa näyttöä (startle-epilepsia, audiogeeniset kohtaukset), osalta kontrolloidut tutkimukset ennen jatkokäsittelyä.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

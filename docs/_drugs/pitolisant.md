@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Pitolisant
-parent: Kohtalainen näyttö (L3-L4)
-nav_order: 300
-evidence_level: L4
+parent: Pelkkä mallin ennuste (L5)
+nav_order: 348
+evidence_level: L5
 indication_count: 3
 ---
 
 # Pitolisant
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,89 +29,98 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Pitolisant: narkolepsiastista unettomuuteen
+# Pitolisantti: Narkolepsian ja uniapnean hoidosta unettomuuteen
 
-## Yhden lauseen yhteenveto
+## Yhden lauseen tiivistelmä
 
-Pitolisant on histaminin H3-reseptorin käänteinen agonisti, joka on alun perin kehitetty ja kansainvälisesti hyväksytty narkolepsian (kataplesian kanssa tai ilman) aiheuttaman liiallisen päiväväsymyksen ja uniapnean (OSA) jäännösväsymyksen hoitoon — sitä ei ole tällä hetkellä markkinoitu tässä lainkäyttöalueella. TxGNN-malli ennustaa, että se saattaa olla tehokas **unettomuuden** hoitoon, mutta tämä ennuste on mekanistisesti vastaintuitiivinen (heräämistä edistävä lääke uni-indikaatiolle) ja sitä tuetaan vain **1 vedetyllä pois olevalla, nolla osallistujalla olevalla tutkimuksella** ja **8 julkaisulla**, joista yksikään ei ole suoraan tutkinut unettomuutta.
+Pitolisantti on histamiini H3 -reseptorin käänteisagonisti, jota on käytetty narkolepsian ja obstruktiivisen uniapnean aiheuttaman päiväaikaisen uneliaisuuden hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **unettomuuteen** (insomnia), mutta tälle käyttöaiheelle ei ole **yhtään kliinistä tutkimusta** eikä suoraa kirjallisuutta. Lisäksi mekanistinen perustelu on ristiriitainen, koska lääke lisää valppautta.
 
 ---
 
-## Pikaluettelo
+## Pikayhteenveto
 
 | Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Narkolepsija kataplesian kanssa/ilman, liiallinen päiväväsymys uniapneassa (OSA) (kansainvälisen kirjallisuuden mukaan; paikallista rekisteröintitietoa ei ole saatavilla) |
-| Ennustettu uusi indikaatio | Unettomuus |
-| TxGNN-ennustuspistemäärä | 99.71% |
-| Todisteiden taso | L4 |
-| Markkinatila Taiwanissa | Ei markkinoinnissa |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Pidättyä |
+|------|------|
+| Alkuperäinen käyttöaihe | Obstruktiivinen uniapnea (Ozawade); narkolepsia (Wakix) |
+| Ennustettu uusi käyttöaihe | Unettomuus (insomnia) |
+| TxGNN-ennustepistemäärä | 99,71 % |
+| Näytön taso | L4 (tässä raportissa: käytännössä L5, ei unettomuutta koskevia tutkimuksia) |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 2 (molemmat peruutettu) |
+| Suositeltu päätös | Hold (odota) |
+
+Huomio: toimitetuissa tiedoissa näytön tasoksi on annettu L4, mutta unettomuudesta ei ole kliinisiä tutkimuksia eikä suoraa kirjallisuutta, joten tason voi perustellusti nähdä olevan L5.
 
 ---
 
-## Miksi tämä ennuste on perusteltu?
+## Miksi ennuste on (tai ei ole) uskottava?
 
-Virallista mekanistista vaikutustapaa koskevaa yksityiskohtaista tietoa ei ole tällä hetkellä saatavilla (merkitty korkean vakavuusasteen tietovajeeksi). Tässä todistepaketeissa kerätyn kirjallisuuden perusteella pitolisant on selektiivinen histaminin H3-reseptorin käänteinen agonisti/antagonisti. Estämällä H3-autoreseptoreita se lisää histaminin, noradrenaaliinin ja asetylkoliinin vapautumista aivoissa, mikä tuottaa heräämistä edistävän vaikutuksen. Tämä mekanismi pohjustaa sen hyväksyttyä käyttöä narkolepsian aiheuttamaan liialliseen päiväväsymykseen ja sen tutkimuksellista käyttöä CPAP-hoidettujen uniapnea-potilaiden jäännösväsymyksen hoitoon.
+Pitolisantti on selektiivinen histamiini H3 -reseptorin antagonisti/käänteisagonisti. Se lisää aivojen histaminergistä välitystä ja edistää valppautta. DrugBankista ei saatu yksityiskohtaista vaikutusmekanismia, mutta kirjallisuus tukee tätä kuvausta.
 
-Tämä mekanistinen suunta on **vastoin** ehdotettua uutta indikaatiota. Lääke, joka on suunniteltu lisäämään heräämistä, on farmakologisesti todennäköisemmin aiheuttamassa tai pahentamassa unettomuutta kuin hoitamassa sitä — todellakin, unettomuus on tunnettu haitta-aine H3-reseptorin antagonismin kliinisessä käytössä. Yksittäinen rekisteröity tutkimus tässä todistepaketeissa (NCT02800083) ei ollut todellisuudessa unettomuustutkimus; se kohdistui alkoholin käytön häiriöihin, vedettiin pois ja rekrytoi nolla potilaita, joten se ei tarjoa mitään käyttökelpoista signaalia unen liittyvistä tuloksista. Yksikään kahdeksasta tukijulkaisusta ei tutkinut pitolisantia unettomuuden hoitoon — ne kattavat narkolepsian farmakologian, uniapneaan liittyvän päiväväsymyksen ja yleisen H3-reseptorin biologian.
+Unettomuuden hoidossa pyritään yleensä vähentämään vireystilaa. Pitolisantin vaikutus on siis mekanistisesti päinvastainen, ja unettomuus on lääkkeen tunnettu haittavaikutus. Korkea TxGNN-pistemäärä johtuu todennäköisesti tietämysgraafin läheisyysartefaktasta: uni–valve-biologia on yhteistä, mutta se ei tarkoita hoitohyötyä. Käyttö tähän käyttöaiheeseen on mekanistisesti epäuskottavaa ja mahdollisesti haitallista.
 
-TxGNN-pistemäärä heijastaa todennäköisesti semanttista läheisyyttä "unihäiriö"-käsitteissä mallin upotusavaruudessa (narkolepsija, uniapnea, unettomuus ovat kaikki uni-säätöjä koskevia solmuja) eikä todellista terapeuttista suhdetta. Tämä ennuste tulee käsitellä ehdokkaana, joka vaatii mekanistisen uudelleenarvioinnin, ei validoiduksi uuden käytön johtavaksi indikaatioksi.
-
----
-
-## Kliinisen tutkimuksen näyttö
-
-| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset löydökset |
-|---------|------|------|------|---------|
-| [NCT02800083](https://clinicaltrials.gov/study/NCT02800083) | Vaihe 2 | Vedetty pois | 0 | Suunniteltu arvioimaan pitolisantin vaikutusta alkoholin käytön häiriöihin (raskaisesti juomisen päivien vähentäminen) toissijaisin päätepistein, jotka koskevat mielenterveyden/unen parantamista. Tutkimus vedettiin pois nolla osallistujan kanssa, joten tehokkuus- tai turvallisuustietoja ei kertynyt. |
+Muut ennusteet ovat heikompia tai vain hypoteeseja. ADHD (pistemäärä 99,36 %) on mekanistisesti uskottavampi, koska H3-antagonismi lisää histamiinin, asetyylikoliinin, noradrenaliinin ja dopamiinin vapautumista prefrontaalikuorella. Näyttö on kuitenkin epäsuoraa eikä ADHD-kohtaisia kliinisiä tutkimuksia ole. Faciodigitogenitaalinen syndrooma (Aarskog-Scott, 99,29 %) on todennäköisesti tietämysgraafin artefakta ilman tukevaa näyttöä.
 
 ---
 
-## Kirjallisuuden näyttö
+## Kliininen tutkimusnäyttö
 
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
+Unettomuudesta ei ole tällä hetkellä rekisteröityjä kliinisiä tutkimuksia.
+
+---
+
+## Kirjallisuusnäyttö
+
+Alla olevat julkaisut koskevat pitolisanttia muissa käyttöaiheissa. Yksikään ei osoita tehoa unettomuudessa.
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [36931805](https://pubmed.ncbi.nlm.nih.gov/36931805/) | 2023 | Satunnaistettu kontrolloitu tutkimus | The Lancet. Neurology | Vaihe 3 -tutkimus, joka vahvisti pitolisantin turvallisuuden/tehokkuuden lapsi-narkolepsissa kataplesian kanssa/ilman — ei unettomuustutkimus. |
-| [33121980](https://pubmed.ncbi.nlm.nih.gov/33121980/) | 2021 | Satunnaistettu kontrolloitu tutkimus | Chest | Pitolisant vähensi jäännös-liiallista päiväväsymystä CPAP-yhteensopivilla uniapnea-potilailla — heräämistä edistävä vaikutus, vastakkaiseen suuntaan unettomuuden hoitoon verrattuna. |
-| [31917607](https://pubmed.ncbi.nlm.nih.gov/31917607/) | 2020 | Satunnaistettu kontrolloitu tutkimus | Am J Respir Crit Care Med | Pitolisant paransi päiväväsymystä CPAP-hoitoa kieltäytyvissä uniapnea-potilaissa — taas heräämistä edistävä tulos. |
-| [36169322](https://pubmed.ncbi.nlm.nih.gov/36169322/) | 2022 | Kohortti | Revista de neurología | Todellisen maailman "WAKE-tutkimus" pitolisantin tehokkuudesta/turvallisuudesta hoito-vastustavassa tyypin 1 narkolepsissa. |
-| [34225942](https://pubmed.ncbi.nlm.nih.gov/34225942/) | 2021 | Katsaus | Handbook of Clinical Neurology | Yleinen katsaus aivojen histaminreseptoreihin (H1–H4) terveydessä ja sairauksissa; ei unettomuuskohtaisia tietoja. |
-| [30214155](https://pubmed.ncbi.nlm.nih.gov/30214155/) | 2018 | Katsaus | Drug Design, Development and Therapy | Pitolisantin kehityksen ja terapeuttisen roolin katsaus narkolepsissa. |
-| [34521328](https://pubmed.ncbi.nlm.nih.gov/34521328/) | 2022 | Katsaus | Current Neuropharmacology | Tarkastelee histaminergiisen järjestelmän muutoksia neuropsykiatrisissa häiriöissä; huomioi, että pitolisantia käytetään narkolepsian väsymykseen, vertailussa doksepiin, jota käytetään unettomuuden hoitoon. |
-| [22356925](https://pubmed.ncbi.nlm.nih.gov/22356925/) | 2012 | Katsaus | Clinical Neuropharmacology | Varhainen raportti pitolisantista stimulanttivaihtoehtona hoito-vastustavassa väsymyksessä narkolepsija-katapleksissa. |
-
-Mikään kahdeksasta julkaisusta ei arvioi pitolisantia unettomuuden hoitona; useat kirjallisesti dokumentoivat sen heräämistä edistävän profiilin.
-
----
-
-## Muut ennustetut indikaatiot (alhaisempi prioriteetti, ei yksityiskohtaisesti yllä)
-
-- **ADHD** (pistemäärä 99.36%, Todisteiden taso L5): Mekanistisesti uskottava perusteltu H3-reseptorin välittelemälle aivokuoren heräämiselle/kognitioon liittyville poluille, mutta **nolla rekisteröityjä kliinisia tutkimuksia** ja 7 tukijulkaisua ovat kaikki yleisiä H3-reseptoria farmakologiakatsauksia, ilman suoraa ADHD-tutkimustietoja. Suositus: Pidättyä.
-- **Faciodigitogenitaalioireyhtymä (Aarskog-Scott-oireyhtymä)** (pistemäärä 99.29%, Todisteiden taso L5): Ei tunnistettavaa biologista yhteyttä — tämä on FGD1-geenin mutaatiosta johtuva X-siitoinen kehityssoireyhtymä, joka ei liity histaminin H3-signalointiin. Nolla tutkimuksia, nolla kirjallisuutta. Arvioitu todennäköisesti mallin meluksi harvoista harvinaisista sairaussanastoupotuksista. Suositus: Pidättyä.
+| [36931805](https://pubmed.ncbi.nlm.nih.gov/36931805/) | 2023 | Vaiheen 3 RCT | The Lancet Neurology | Pitolisantin turvallisuus ja teho vähintään 6-vuotiailla lapsilla, joilla on narkolepsia |
+| [33121980](https://pubmed.ncbi.nlm.nih.gov/33121980/) | 2021 | RCT | Chest | Jäännösuneliaisuus CPAP-hoitoa noudattavilla uniapneapotilailla (ei unettomuus) |
+| [31917607](https://pubmed.ncbi.nlm.nih.gov/31917607/) | 2020 | RCT | Am J Respir Crit Care Med | Päiväaikainen uneliaisuus uniapneassa potilailla, jotka kieltäytyvät CPAP-hoidosta (ei unettomuus) |
+| [36169322](https://pubmed.ncbi.nlm.nih.gov/36169322/) | 2022 | Tosielämän kohorttitutkimus | Revista de neurologia | WAKE-tutkimus: pitolisantti narkolepsiassa aiempiin hoitoihin vastaamattomilla potilailla |
+| [41588264](https://pubmed.ncbi.nlm.nih.gov/41588264/) | 2026 | Tosielämän kohorttitutkimus | Neurological Sciences | Pitolisantti lasten narkolepsiassa Kiinassa (40 potilasta) |
+| [30214155](https://pubmed.ncbi.nlm.nih.gov/30214155/) | 2018 | Katsaus | Drug Des Devel Ther | Pitolisantin profiili narkolepsian hoidossa |
+| [34521328](https://pubmed.ncbi.nlm.nih.gov/34521328/) | 2022 | Katsaus | Current Neuropharmacology | Histaminergisen järjestelmän muutokset neuropsykiatrisissa sairauksissa; pitolisantti narkolepsiassa, doksepiini unettomuudessa |
+| [42525367](https://pubmed.ncbi.nlm.nih.gov/42525367/) | 2026 | Katsaus | Neurology and Therapy | Lasten uni häiriöiden nykyiset ja uudet hoidot |
+| [34225942](https://pubmed.ncbi.nlm.nih.gov/34225942/) | 2021 | Katsaus | Handbook of Clinical Neurology | Histamiinireseptorit, agonistit ja antagonistit terveydessä ja sairaudessa |
+| [22356925](https://pubmed.ncbi.nlm.nih.gov/22356925/) | 2012 | Katsaus | Clinical Neuropharmacology | Pitolisantti nuorten narkolepsia-kataplektisessa tilassa |
 
 ---
 
-## Turvallisuusnäkökohdatset
+## Suomen markkinatiedot
 
-Katso pakkausselosteesta turvallisuustietoja.
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/005117 | Ozawade | – | Obstruktiivinen uniapnea (peruutettu) |
+| EMEA/H/C/002616 | Wakix | – | Narkolepsia (peruutettu) |
+
+---
+
+## Turvallisuushuomiot
+
+**Lääkeyhteisvaikutukset:** Yhteisvaikutuskyselyssä löytyi yhteensä 100 yhteisvaikutusta. Toimitetuista tiedoista keskeisimmät:
+- **Merkittävät (Major):** bupropioni, dolasetroni
+- **Kohtalaiset (Moderate), esimerkkejä:** famotidiini, simetidiini, metformiini, morfiini, asetyylisalisyylihappo, klaritromysiini, deksametasoni, hydrokortisoni, budesonidi, empagliflotsiini, eliglustaatti, loperamidi
+
+Pakkausselosteen varoituksia ja vasta-aiheita ei ollut saatavilla, joten ne on tarkistettava valmisteyhteenvedosta.
 
 ---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Pidättyä**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Korkeiten-sijoitettu ennuste (unettomuus) on mekanistisesti epätodennäköinen pitolisantin heräämistä edistävän farmakologian vuoksi, ja sen ainoa liittyvä tutkimus vedettiin pois nolla osallistujan kanssa. Kahdet alemmalla tasolla sijoitetut ennusteet (ADHD, faciodigitogenitaalioireyhtymä) omaaivat entistäkin heikompaa todistusaineistotukea (L5 — mallin ennuste vain, ei kliinistä tai faciodigitogenitaalioireyhtymän tapauksessa mekanistista tukea). Yksikään kolmesta ehdokkaasta ei täytä edellytyksiä edetä S0-vaiheen ohi.
+- Unettomuudesta ei ole kliinisiä tutkimuksia, ja pitolisantin valppautta lisäävä vaikutus on ristiriidassa unettomuuden hoidon kanssa. Korkea ennustepistemäärä on todennäköisesti verkostoartefakta.
+- Lisäksi molemmat Suomen myyntiluvat on peruutettu.
 
-Jotta voitaisiin edetä, seuraava on tarpeen:
-- TFDA/paikallisen pakkausselosteen varoitukset ja vasta-aiheet (tällä hetkellä estävä tietovaie — ei voida suorittaa S1 turvallisuusseulontaa ilman sitä)
-- Vahvistettu DrugBank-mekanismin vaikutustapaa koskeva tietue (tällä hetkellä korkean vakavuusasteen tietovaie)
-- Jos unettomuus pysyy kiinnostuksen kohteena, mekanistinen selitys siitä, kuinka H3-käänteinen agonisti voisi hoitaa pikemminkin kuin aiheuttaa unettomuutta, mieluiten uuden prekliinisen tai kliinisen tiedon kanssa, ennen kuin jatketaan arviointia
-- DDI-tietojoukko (nykyinen kysely palautti ei tuloksia) ennen mitä tahansa turvallisuusarviointia
-
+**Jatkoa varten tarvitaan:**
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet (Fimea), jotta turvallisuusarviointi voidaan aloittaa
+- Yksityiskohtainen vaikutusmekanismitieto (DrugBank)
+- Jos halutaan jatkaa, ADHD on mekanistisesti uskottavampi tutkimuskysymys (suositus: tutkimushypoteesi), mutta se vaatii omat ADHD-kohtaiset tutkimukset
+- Myyntilupien peruutuksen syiden selvittäminen ja lääkemuotojen tiedot
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

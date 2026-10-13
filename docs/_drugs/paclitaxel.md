@@ -2,15 +2,15 @@
 layout: default
 title: Paclitaxel
 parent: Vahva näyttö (L1-L2)
-nav_order: 278
-evidence_level: L1
+nav_order: 323
+evidence_level: L2
 indication_count: 10
 ---
 
 # Paclitaxel
 {: .fs-9 }
 
-Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,90 +29,120 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Paklitakseli: Dokumentoimattomasta alkuperäisestä indikaatiosta naistenrintasyöpään
+# Paklitakseli: Rintasyövästä naisen rintakarsinooman laajempaan käyttöön
 
 ## Yhden lauseen yhteenveto
 
-Paklitakselien alkuperäinen hyväksytty indikaatio ei ole dokumentoitu tässä todistepakkauksessa (Suomen markkinatilanne: **ei markkinoilla**, 0 hyväksyntää arkistossa), joten sitä ei voi sanoa varmuudella täällä.
-TxGNN-malli ennustaa, että se voi olla tehokas **naistenrintasyövässä**, ja tämä suunta on jo tuettu **50 kliinisellä tutkimuksella** ja **20 julkaisulla** todistepakkauksessa — mikä kuvastaa sitä tosiasiaa, että paklitakseli on globaalisti vakiintunut taksaani-kemoterapia, jota käytetään jo rintasyövän hoitoiskemissa.
+Paklitakseli on mikrotubulusten toimintaa estävä solunsalpaaja, jonka alkuperäinen käyttöaihe on rintasyöpä (Suomessa/EU:ssa myös haimasyöpä ja ei-pienisoluinen keuhkosyöpä albumiiniin sidotussa valmisteessa).
+TxGNN-malli ennustaa sen sopivan **naisen rintakarsinoomaan** (pistemäärä 99,995 %). Tämä on käytännössä jo hyväksytyn käyttöaiheen sisällä, joten kyseessä ei ole varsinainen uudelleenkäyttö.
+Aineistossa on tähän suuntaan **yli 30 kliinistä tutkimusta** ja **20 julkaisua**, mutta suuri osa on yhdistelmähoitotutkimuksia.
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|-------|
-| Alkuperäinen indikaatio | Ei dokumentoitu tässä todistepakkauksessa (tietovahe — DrugBank/TFDA-tietueet tyhjät) |
-| Ennustettu uusi indikaatio | Naistenrintasyöpä |
-| TxGNN-ennusteen pistemäärä | 99,995 % (sijaluku #82) |
-| Todisteen taso | L1 |
-| Suomen markkinatilanne | ✗ Ei markkinoilla |
-| Hyväksyntöjen määrä | 0 |
-| Suositeltu päätös | Jatka varmentein |
+|------|------|
+| Alkuperäinen käyttöaihe | Rintasyöpä; haimasyöpä; ei-pienisoluinen keuhkosyöpä |
+| Ennustettu uusi käyttöaihe | Naisen rintakarsinooma |
+| TxGNN-ennustepisteet | 99,995 % |
+| Näytön taso | L2 |
+| Markkinatilanne Suomessa | Vain peruutetut myyntiluvat |
+| Myyntilupien määrä | 4 (kaikki peruutettu) |
+| Suositeltu päätös | Proceed with Guardrails (etene varauksin) |
 
-## Miksi tämä ennuste on järkevä?
+## Miksi ennuste on perusteltu?
 
-Tällä hetkellä paklitakselille ei ole käytettävissä yksityiskohtaista toimintamekanismitietoa tässä tietueessa (merkitty korkean vakavuuden tietovajeeksi, DG002). Todistepakkaukseen tallennetun uudelleenkäyttöperusteen perusteella paklitakseli on taksaani-luokan mikrotubulusta vakauttava aine: se estää spindelin depolymeroitumisen, mikä aiheuttaa mitoottisen pysähdyksen ja apoptoosin nopeasti jakautuvissa soluissa. Tämä mekanismi on hyvin validoitu kliinisesti korkean proliferaaation tuumoreissa.
+Yksityiskohtaista vaikutusmekanismitietoa ei ole tähän raporttiin kerätyssä aineistossa. Tunnetun tiedon mukaan paklitakseli stabiloi mikrotubuluksia, estää mitoottisen karan purkautumisen ja aiheuttaa G2/M-vaiheen pysähtymisen ja apoptoosin nopeasti jakautuvissa syöpäsoluissa.
 
-Naistenrintasyöpä on klassinen korkean mitoottisen osuuden kiinteä tuumori, ja tämä mikrotubulusta vakauttava mekanismi on riippumaton hormoonireseptori- tai HER2-statuksesta — mikä on johdonmukaista sen kanssa, että paklitakseli on jo yksi maailmanlaajuisesti laajimmin tutkituista sytotoksisista perusteista rintasyövän hoitoiskemissa (sekä monoterapiana että yhdistettynä trastuzumabiin, lapatinibiin tai platinayhdistyneisiin aineisiin).
+Rintasyöpä on jo paklitakselin alkuperäinen käyttöaihe, joten ennuste on mekanistisesti johdonmukainen. Vaikutus ei riipu hormonireseptoritilanteesta, minkä vuoksi lääkettä käytetään myös estrogeenireseptorinegatiivisessa (mm. kolmoisnegatiivisessa) ja hormonihoidolle resistentissä taudissa.
 
-Koska alkuperäisen indikaation tiedot puuttuvat tästä tietueesta (ja lääke näkyy markkinoimattomana Suomessa), tämä ennuste toimii vähemmän kuin rotuva mekanistinen harppaus ja pikemminkin **jo vakiintuneen globaalin indikaation vahvistuksena**, joka sattuu puuttumaan paikallisesta arkistossa olevasta sääntelytietueesta.
+Näyttö koostuu pääosin vaiheen 2 ja vaiheen 1 tutkimuksista sekä taksaaneja käsittelevistä katsauksista. Tämän käyttöaiheen joukossa ei ole yhtään vaiheen 3 tutkimusta, jossa paklitakseli olisi tutkimuksen pääkohde.
 
-## Kliinisen tutkimuksen todisteet
+## Kliininen tutkimusnäyttö
 
-| Tutkimusnumero | Vaihe | Tila | Osallistujamäärä | Keskeiset löydökset |
+Taulukossa on kymmenen merkityksellisintä tutkimusta (kaikkiaan aineistossa on yli 30).
+
+| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT00281658](https://clinicaltrials.gov/study/NCT00281658) | Vaihe 3 | Valmistunut | 444 | Lapatinibi + Paklitakseli vs. Lumelääke + Paklitakseli ErbB2:n moninkertaistuneessa metastaattisessa rintasyövässä |
-| [NCT01275677](https://clinicaltrials.gov/study/NCT01275677) | Vaihe 3 | Valmistunut | 3270 | Kemoterapia (ml. viikoittainen paklitakseli) ± trastuzumabi solmukkeiden osallisissa/korkean riskin HER2-matalissa rintasyövässä |
-| [NCT00003088](https://clinicaltrials.gov/study/NCT00003088) | Vaihe 3 | Valmistunut | 2005 | Peräkkäinen doksorubisiini, paklitakseli, syklofosfa miidi vs. rinnakkain AC→paklitakseli solmukkeissa positiivisissa vaihe II/IIIA rintasyövässä |
-| [NCT00431080](https://clinicaltrials.gov/study/NCT00431080) | Vaihe 3 | Valmistunut | 478 | Annokseltaan tiheä FE75C→doktakseli vs. paklitakseli avustava hoito solmukkeissa positiivisessa rintasyövässä |
-| [NCT01901146](https://clinicaltrials.gov/study/NCT01901146) | Vaihe 3 | Valmistunut | 725 | ABP 980 vs. trastuzumabi (molemmat paklitakseliperusteisen toimintajonon kontekstissa) HER2-positiivisessa varhaisessa rintasyövässä |
-| [NCT00513292](https://clinicaltrials.gov/study/NCT00513292) | Vaihe 3 | Valmistunut | 280 | FEC-75→paklitakseli+trastuzumabi vs. paklitakseli+trastuzumabi→FEC-75 HER2-positiivisessa operoitavassa rintasyövässä |
-| [NCT00016276](https://clinicaltrials.gov/study/NCT00016276) | Vaihe 3 | Lopetettu | 396 | AC±deksrasoksaani, jota seuraa viikoittainen paklitakseli±trastuzumabi HER2+ vaihe IIIA–IV rintasyövässä |
-| [NCT00003992](https://clinicaltrials.gov/study/NCT00003992) | Vaihe 2 | Valmistunut | 200 | Paklitakseli + trastuzumabi avustava hoito HER2:n ylilausunnosta kärsivässä vaihe II/IIIA rintasyövässä |
-| [NCT00272987](https://clinicaltrials.gov/study/NCT00272987) | Vaihe 3 | Lopetettu | 63 | Paklitakseli + trastuzumabi + lapatinibi vs. + lumelääke ErbB2:n ylilausunnosta kärsivässä metastaattisessa rintasyövässä |
-| [NCT04753177](https://clinicaltrials.gov/study/NCT04753177) | Vaihe 2/3 | Tuntematon | 120 | Neoadjuvantti yhdistetty hormoniterapia premenopausaalisissa ER+/HER2- paikallisesti edistyneissä rintasyövissä |
+| [NCT00003539](https://clinicaltrials.gov/study/NCT00003539) | Vaihe 2 | Valmis | 50 | Viikoittainen paklitakseli + anti-HER2-vasta-aine metastaattisessa rintasyövässä |
+| [NCT00006120](https://clinicaltrials.gov/study/NCT00006120) | Vaihe 2 | Tuntematon | ei ilmoitettu | Satunnaistettu dosetakselin ja paklitakselin aikataulujen vertailu metastaattisessa rintasyövässä |
+| [NCT00002826](https://clinicaltrials.gov/study/NCT00002826) | Vaihe 2 | Valmis | 36 | PSC 833 -lääkeresistenssin moduloija paklitakselin kanssa |
+| [NCT00934895](https://clinicaltrials.gov/study/NCT00934895) | Vaihe 1/2 | Päättynyt ennenaikaisesti | 27 | Viikoittainen nab-paklitakseli + everolimuusi |
+| [NCT05020860](https://clinicaltrials.gov/study/NCT05020860) | Vaihe 2 | Rekrytoi | 185 | Kliinisen ja patologisen vasteen yhteys neoadjuvanttihoidossa |
+| [NCT00667251](https://clinicaltrials.gov/study/NCT00667251) | Vaihe 3 | Valmis | 652 | Taksaani + lapatinibi vs. trastutsumabi HER2-positiivisessa etäpesäkesyövässä |
+| [NCT00075270](https://clinicaltrials.gov/study/NCT00075270) | Vaihe 3 | Valmis | 580 | Lapatinibi + paklitakseli vs. paklitakseli yksin ensilinjassa |
+| [NCT00553358](https://clinicaltrials.gov/study/NCT00553358) | Vaihe 3 | Valmis | 455 | Neo-ALTTO: neoadjuvantti lapatinibi/trastutsumabi + paklitakseli HER2-positiivisessa taudissa |
+| [NCT00006459](https://clinicaltrials.gov/study/NCT00006459) | Vaihe 3 | Valmis | ei ilmoitettu | Gemsitabiini + paklitakseli vs. paklitakseli yksin |
+| [NCT01822314](https://clinicaltrials.gov/study/NCT01822314) | Vaihe 3 | Valmis | 632 | ETNA: neoadjuvantti nab-paklitakseli vs. liuotinpohjainen paklitakseli |
 
-## Kirjallisuuden todisteet
+Huomio: vaiheen 3 tutkimuksissa paklitakseli on useimmiten osa yhdistelmää tai vertailuhaara, ei itse tutkittava uusi hoito.
 
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
+## Kirjallisuusnäyttö
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [11147586](https://pubmed.ncbi.nlm.nih.gov/11147586/) | 2000 | Kohortti | Cancer | Doksorubisiini + paklitakseli tehokkuus/toksisuus metastaattisessa rintasyövässä; aiemman avustavan antrasykliini-altistuksen merkitys |
-| [31783552](https://pubmed.ncbi.nlm.nih.gov/31783552/) | 2019 | Katsaus | Biomolecules | Paklitakselien mekanistiset ja kliiniset vaikutukset rintasyöpään, mukaan lukien resistanssimekanismit |
-| [9282422](https://pubmed.ncbi.nlm.nih.gov/9282422/) | 1997 | Katsaus | Drug and Therapeutics Bulletin | Paklitakseliin ja doktakseliin liittyvä varhainen katsaus rintasyövän ja munasarjan syövän tehosta |
-| [15305399](https://pubmed.ncbi.nlm.nih.gov/15305399/) | 2004 | Satunnaistettu tutkimus | Cancer | GONO-tutkimus: rinnakkain vs. peräkkäin epirubisiini + paklitakseli ensimmäisen linjan hoitona metastaattisessa rintasyövässä |
-| [39317691](https://pubmed.ncbi.nlm.nih.gov/39317691/) | 2024 | Prekliininen | Chemical Biology & Drug Design | Paklitakseliyhdistelmän terapeuttinen potentiaali rintasarjasiä vastaan in vivo biomarkkerin tunnistamisen kanssa |
-| [39009452](https://pubmed.ncbi.nlm.nih.gov/39009452/) | 2024 | — | Journal for ImmunoTherapy of Cancer | Paklitakselien vaikutus tuumariin liittyviin makrofageihin parantaen PD-1-salpausta TNBC:ssä |
-| [32461977](https://pubmed.ncbi.nlm.nih.gov/32461977/) | 2020 | — | BioMed Research International | Neoadjuvantin epirubisiini/syklofosfa miidi + viikoittaisen paklitakselin/trastuzumabin tosimaailman tehokkuus HER2+ rintasyövässä |
-| [24823476](https://pubmed.ncbi.nlm.nih.gov/24823476/) | 2014 | — | Nature Communications | TEKT4:n germiinimuunnokset, jotka liittyvät rintasyövän resistanssiin paklitakselia vastaan |
-| [17272681](https://pubmed.ncbi.nlm.nih.gov/17272681/) | 2007 | — | Molecular Pharmacology | Statmiinin välittämän resistanssin kääntäminen paklitakselia ja vinblastiinia vastaan rintasarjasyövän soluissa |
-| [14508823](https://pubmed.ncbi.nlm.nih.gov/14508823/) | 2003 | — | Cancer | Yhdistetty trastuzumabi + paklitakseli estää ErbB-2-välitteisen angiogeneesin Aktin kautta tehokkaammin kuin kumpikaan aine yksin |
+| [10791395](https://pubmed.ncbi.nlm.nih.gov/10791395/) | 2000 | Katsaus | Lancet | Taksaanit ovat näyttöön perustuvia hoitoja edenneessä rinta-, keuhko- ja munasarjasyövässä |
+| [9282422](https://pubmed.ncbi.nlm.nih.gov/9282422/) | 1997 | Katsaus | Drug Ther Bull | Paklitakselin ja dosetakselin asema rinta- ja munasarjasyövässä |
+| [11147586](https://pubmed.ncbi.nlm.nih.gov/11147586/) | 2000 | Kliininen tutkimus | Cancer | Doksorubisiini + paklitakseli edenneessä rintasyövässä; aiemman antrasykliinihoidon merkitys |
+| [11745249](https://pubmed.ncbi.nlm.nih.gov/11745249/) | 2001 | Katsaus | Cancer | Paklitakseli tulehduksellisen rintasyövän monimuotohoidossa |
+| [9296218](https://pubmed.ncbi.nlm.nih.gov/9296218/) | 1997 | Annosetsintätutkimus | Ann Oncol | Paklitakseli + syklofosfamidi, suurin siedetty annos |
+| [10898354](https://pubmed.ncbi.nlm.nih.gov/10898354/) | 2000 | Katsaus | Cancer | Rintasyövän solunsalpaajahoidon kehitys |
+| [24823476](https://pubmed.ncbi.nlm.nih.gov/24823476/) | 2014 | Tutkimus | Nat Commun | TEKT4-varianttien yhteys paklitakselille resistenssiin |
+| [20665703](https://pubmed.ncbi.nlm.nih.gov/20665703/) | 2011 | Prekliininen | J Cell Physiol | ZD6474 voimistaa paklitakselin vaikutusta rintasyöpäsoluissa |
+| [39317691](https://pubmed.ncbi.nlm.nih.gov/39317691/) | 2024 | Laskennallinen/prekliininen | Chem Biol Drug Des | Paklitakselin yhdistelmät ja in vivo -biomarkkerit |
+| [7904376](https://pubmed.ncbi.nlm.nih.gov/7904376/) | 1993 | Katsaus | Semin Oncol Nurs | Paklitakselin kehityshistoria |
+
+## Muut ennustetut käyttöaiheet (lyhyesti)
+
+- **Estrogeenireseptorinegatiivinen rintasyöpä** (L2): tukena useita vaiheen 2 tutkimuksia; osa näytöstä koskee nab-paklitakselia, joten näyttö on epäsuoraa.
+- **Hormoniresistentti ja estrogeenireseptoripositiivinen rintasyöpä** (L2): pääosin pieniä vaiheen 1/2 tutkimuksia ja neoadjuvanttitutkimuksia.
+- **Kahdenpuolinen rintakarsinooma, nännikarsinooma** (L4): vain tapausselostuksia.
+- **Ehrlichin kasvain** (L4): hiirimalli, ei ihmisen käyttöaihe.
+- **Parameningeaalinen alveolaarinen/embryonaalinen rabdomyosarkooma ja emättimen botryoidinen rabdomyosarkooma** (L5): vain mallin ennuste, ei tutkimuksia eikä kirjallisuutta.
+
+## Suomen markkinatiedot
+
+| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000778 | Abraxane (peruutettu) | – | Rintasyöpä; haimasyöpä; ei-pienisoluinen keuhkosyöpä |
+| EMEA/H/C/005997 | Apexelsin (peruutettu) | – | Rintasyöpä; haimasyöpä; ei-pienisoluinen keuhkosyöpä |
+| EMEA/H/C/006173 | Naveruclif (peruutettu) | – | Rintasyöpä; haimasyöpä; ei-pienisoluinen keuhkosyöpä |
+| EMEA/H/C/004441 | Pazenir (peruutettu) | – | Rintasyöpä |
+
+Kaikki neljä myyntilupaa ovat peruutettuja, eikä voimassa olevia lupia ole.
 
 ## Sytotoksisuus
 
 | Kohta | Sisältö |
-|------|-------|
-| Sytotoksisuuden luokittelu | Perinteinen sytotoksinen (taksaani-luokka, mikrotubulusta vakauttava aine) |
-| Ydintuottajajen tuottamisen vähenemisen riski | Katso pakkausseloste varoitukset ja varotoimet |
-| Pahoinvointiherkkyys luokittelu | Katso pakkausseloste varoitukset ja varotoimet |
-| Seurantakohteet | Katso pakkausseloste varoitukset ja varotoimet |
-| Käsittelysuojaus | Katso pakkausseloste varoitukset ja varotoimet |
+|------|------|
+| Sytotoksisuusluokitus | Perinteinen solunsalpaaja (taksaani, mikrotubulusten stabilointi) |
+| Myelosuppression riski | Korkea (neutropenia, trombosytopenia ja anemia ovat tavallisia; tietograafi liittää lääkkeen myös agranulosytoosiin) |
+| Oksentelua aiheuttava vaikutus | Matala–kohtalainen |
+| Seurattavat parametrit | Verenkuva erittelyineen, maksa- ja munuaisarvot, perifeerisen neuropatian oireet |
+| Käsittelysuojaus | Noudatettava solunsalpaajien käsittelyohjeita |
+
+Tarkemmat tiedot on tarkistettava valmisteyhteenvedosta.
 
 ## Turvallisuusnäkökohdat
 
-Katso pakkausseloste turvallisuustiedoista.
+Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ole saatavilla, joten niihin tulee tutustua valmisteyhteenvedosta.
+
+- **Tietämyskaavion (PrimeKG) vasta-aiheisiin liittyvät sairaudet** (ei etikettitietoa): munuaissairaus, maksasairaus, sappisairaus, trombosytopenia, neutropenia, agranulosytoosi, anemia, perifeerinen neuropatia, sydäninfarkti, äkillinen sydänpysähdys, astma, diabetes, hyperbilirubinemia/Gilbertin oireyhtymä, hypotensio, psoriaasi sekä ahdistuneisuus- ja neuroottiset häiriöt.
+- **Lääkeyhteisvaikutukset** (kaikkiaan 100 löydöstä, esimerkkejä): kohtalaiset yhteisvaikutukset mm. aprepitantin, simetidiinin, klaritromysiinin, klotrimatsolin, deksametasonin, eliglustaatin, metronidatsolin, mikonatsolin, rolapitantin, rosuvastatiinin, simvastatiinin, tinidatsolin ja troglitatsonin kanssa; vähäisiä askorbiinihapon ja levofloksasiinin kanssa. Moni näistä liittyy CYP-entsyymeihin.
+- **Kirjallisuudessa raportoituja haittoja**: pneumoniitti, silmän sarveiskalvomuutokset, uveiitti, taksaanineuropatia, käsi-jalkaoireyhtymän tyyppinen ihoreaktio.
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Jatka varmentein**
+**Päätös: Proceed with Guardrails (etene varauksin)**
 
-**Perustelut:**
-Naistenrintasyövän todisteiden perusta on vahva (L1, 50 tutkimusta, mukaan lukien useita valmistuneita vaihe 3 satunnaistettuja kontrollittujatutkimuksia N>400:lla, sekä 20 tukevaa julkaisua), mutta tämässä todistepakkauksessa on **Estävä** tietovahe TFDA/Suomen pakkausselosteista (varoitukset, vasta-aiheet) (DG001) ja **Korkean**-vakavuuden vahe muodollisesta toimintamekanismin dokumentaatiosta (DG002), ja lääke on tällä hetkellä rekisteröity markkinoimattomaksi Suomessa.
+**Perustelu:**
+- Rintasyöpä on jo paklitakselin vakiintunut käyttöaihe, ja aineistossa on useita valmistuneita vaiheen 2 ja 3 tutkimuksia. Paklitakselia tutkitaan kuitenkin pääosin yhdistelmähoitojen osana, ja Suomessa ei ole voimassa olevia myyntilupia.
 
-**Jatkaakseen tarvitaan seuraavaa:**
-- TFDA/Suomen pakkausseloste (varoitukset, vasta-aiheet) — vaaditaan ennen kuin S1-turvallisuuden katsaus voi edetä
-- Vahvistettu DrugBank-lähdeksi toimintamekanismin dokumentaatio
-- Suomen markkinoinnin hyväksynnän tilan vahvistaminen (tai reitti/aikataulu markkinoille tulolle)
-- Lääkkeiden välisten vuorovaikutusten (DDI) tiedot, jotka palautuvat tällä hetkellä "ei löytynyt"
-
+**Etenemiseksi tarvitaan:**
+- Valmisteyhteenvedon varoitus- ja vasta-aihetiedot (Fimea) – tämä on estävä tietoaukko.
+- Yksityiskohtaiset vaikutusmekanismitiedot (DrugBank).
+- Arvio voimassa olevan valmisteen saatavuudesta Suomessa, koska kaikki aineiston myyntiluvat on peruutettu.
+- Suoraan paklitakselia (ei nab-muotoa) vertaavat vaiheen 3 -tiedot kolmoisnegatiiviseen ja hormoniresistenttiin tautiin.
+- Turvallisuuden seurantasuunnitelma (verenkuva, neuropatia, maksa- ja munuaistoiminta, CYP-yhteisvaikutukset).
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

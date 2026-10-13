@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Dupilumab
-parent: Kohtalainen näyttö (L3-L4)
-nav_order: 130
-evidence_level: L3
+parent: Vahva näyttö (L1-L2)
+nav_order: 149
+evidence_level: L2
 indication_count: 10
 ---
 
 # Dupilumab
 {: .fs-9 }
 
-Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,87 +29,106 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Dupilumab: Atooppisesta dermatitista keuhkoputkentulehdukseen
+# Dupilumabi: Atooppisesta ihottumasta keuhkoputkentulehdukseen
 
-## Yhden lauseen yhteenveto
+## Yhden virkkeen yhteenveto
 
-Dupilumab on ihmisen monoklonaalinen vasta-aine, joka kohdistuu IL-4Rα-reseptoriin ja estää IL-4/IL-13-signalointia. Tämän aineiston perusteella sillä on vakiintunut käyttö Th2-välitteisissa inflammatorisissa sairauksissa, kuten atooppisessa dermatitissa, astmassa ja eosinofiilistä COPD:ssa. TxGNN-malli ennustaa, että se saattaa olla tehokas myös **keuhkoputkentulehduksessa**, mutta sitä tukee tällä hetkellä vain **1 kliininen tutkimus** (jonka indikaatioissa on ristiriita) ja **6 julkaisua**, joista useimmat käsittelevät itse asiassa astmaa tai COPD:ta pikemminkin kuin keuhkoputkentulehdusta.
-
----
-
-## Pikayleiskatsaus
-
-| Kohde | Sisältö |
-|------|--------|
-| Alkuperäinen käyttöaihe | Ei kirjattu tähän aineistoon (suomalaisia myyntilupauksia ei ole saatavilla); tämän paketin kirjallisuustodisteena osoitetaan, että lääke on hyväksytty atooppiseen dermatitiin, astmaan ja eosinofiilistä COPD:han |
-| Ennustettu uusi käyttöaihe | Keuhkoputkentulehdus |
-| TxGNN-ennusteen pistemäärä | 99.92% (sijoitus 1226) |
-| Todistusaste | L3 |
-| Suomen markkinatila | ✗ Ei markkinoinnissa |
-| Valtuuksien lukumäärä | 0 |
-| Suositeltu päätös | Pidätä |
+Dupilumabi on IL-4Rα-vastaaineeseen perustuva biologinen lääke, jota on käytetty atooppisen ihottuman, prurigon, ruokatorven sairauksien, astman ja sivuontelotulehduksen hoitoon. TxGNN-malli ennustaa sen voivan tehoa myös **keuhkoputkentulehdukseen**. Suoraa näyttöä on vähän: yksi liittyvä **kliininen tutkimus** (krooninen nenän sivuontelotulehdus) ja **11 julkaisua**, jotka koskevat enimmäkseen astmaa ja tyypin 2 COPD:tä.
 
 ---
 
-## Miksi tämä ennuste on perusteltu?
+## Pikakatsaus
 
-Tällä hetkellä yksityiskohtaiset toimintamekanismin tiedot eivät ole saatavilla strukturoidussa lääketietueessa (`original_moa: [Tietoaukko]`). Tukevan kirjallisuuden perusteella dupilumab on täysin ihmisen IgG4-monoklonaalinen vasta-aine, joka sitoutuu jakoon IL-4Rα ja estää interleukinan-4 ja interleukinan-13 aiheuttaman signaloinnin — pääkytokiinit, jotka ohjaavat Th2/tyypin-2 ilmaväylä- ja ihotulehdusta. Sen tehokkuus Th2-välitteisissa sairauksissa (atooppinen dermatitis, keskivaikea-vaikea astma, eosinofiilistä COPD) on hyvin dokumentoitu todistepaketissa.
-
-Keuhkoputkentulehdus — erityisesti pitkittynyt tai eosinofiilistä keuhkoputkentulehdus — voi jakaa saman Th2/eosinofiilijohtoisen inflammaatiota-reitin, jota nähdään astmassa ja COPD:n äkäyksissä, mikä on TxGNN-ennusteen mekanistinen perusta. Kuitenkin "keuhkoputkentulehdus" erillisen diagnostisena merkintänä on laajempi ja epäspesifisempi kuin astma tai COPD, ja sairauksiin kohdistuvat tutkimus- ja kirjallisuustodisteet on pääosin lainattu vierekkäisistä, paremmin tutkituista sairauksista pikemminkin kuin keuhkoputkentulehduksesta itsestään.
-
-Kriittisesti ainoa haettu kliininen tutkimus (NCT04362501) arvioitiin **C (tietojen epäsuhta)** relevanssitarkistuksessa — sen todellinen kohdepopulaatio on krooninen rinosinusiitti ilman nenäpolyypejä (CRSsNP), ei keuhkoputkentulehdus, ja se jakaa vain taustalla olevan Th2-mekanismin. Tämä tarkoittaa, että mekanistinen perusteltu on uskottava, mutta suoria, sairauksiin kohdistuvia kliinisiä todistetta keuhkoputkentulehduksesta puuttuu tällä hetkellä.
+| Kohta | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | Atooppinen ihottuma, prurigo, ruokatorven sairaudet, astma, sivuontelotulehdus |
+| Ennustettu uusi käyttöaihe | Keuhkoputkentulehdus (bronchitis) |
+| TxGNN-ennusteen pistemäärä | 99,92 % |
+| Näytön taso | L2 |
+| Markkinatilanne Suomessa | Vain peruutettu (ei voimassa olevia myyntilupia) |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota; tutkimuskysymys) |
 
 ---
 
-## Kliinisen tutkimuksen todisteet
+## Miksi ennuste on perusteltu?
 
-| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset tulokset |
+Dupilumabi on humanisoitu vasta-aine, joka sitoutuu IL-4-reseptorin α-alayksikköön ja estää siten sekä IL-4:n että IL-13:n signaloinnin. Nämä ovat tyypin 2 tulehduksen keskeisiä välittäjäaineita. Tämä reitti ylläpitää eosinofiilistä hengitystietulehdusta, liiallista limaneritystä ja hengitysteiden uudelleenmuovautumista. Tämän raportin laadinnassa koottu aineisto ei sisältänyt tietokantapohjaista vaikutusmekanismikuvausta, joten mekanismikuvaus perustuu kirjallisuuteen.
+
+Alkuperäiset käyttöaiheet, kuten astma ja sivuontelotulehdus, ovat tyypin 2 tulehdussairauksia. Krooninen keuhkoputkentulehdus on osin päällekkäinen tyypin 2 COPD:n kanssa, jossa dupilumabin tehoa on raportoitu (BOREAS- ja NOTUS-tutkimukset mainitaan kirjallisuudessa). Mekanistisesti ennuste on siten uskottava, mutta vain tyypin 2 -tulehduksen fenotyypin potilailla.
+
+Suoraa näyttöä keuhkoputkentulehduksesta on rajallisesti. Vahvin tuki tulee astma- ja COPD-kirjallisuudesta sekä muutamista eosinofiilistä muovautuvaa keuhkoputkentulehdusta koskevista raporteista.
+
+---
+
+## Kliinisen tutkimuksen näyttö
+
+| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT04362501](https://clinicaltrials.gov/study/NCT04362501) | Vaihe 2 | Valmis | 33 | Satunnaistettu, kaksoissokea, lumelääkeohjattu tutkimus dupilumabista krooniessa rinosinusiitissa ilman nenäpolyypejä (CRSsNP) — **relevanssiasteen C**: todellinen kohdesairaus on CRSsNP, ei keuhkoputkentulehdus; jakaa vain Th2-inflammaatiomekanismin, merkitty indikaation-epäsuhta |
+| [NCT04362501](https://clinicaltrials.gov/study/NCT04362501) | Vaihe 2 | Päättynyt | 33 | Satunnaistettu, kaksoissokkoutettu, lume-kontrolloitu tutkimus dupilumabista kroonisessa sivuontelotulehduksessa ilman nenäpolyyppeja. Ylähengitystiesairaus, joten vain epäsuorasti relevantti, mutta jakaa tyypin 2 -tulehdusmekanismin. |
 
 ---
 
-## Kirjallisuuden todisteet
+## Kirjallisuusnäyttö
 
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset tulokset |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [34597534](https://pubmed.ncbi.nlm.nih.gov/34597534/) | 2022 | RCT-laajennus (TRAVERSE) | Lancet Respir Med | Pitkäaikainen (>1 vuosi) avoin laajennus, joka vahvistaa dupilumab-turvallisuuden ja jatkuvan tehokkuuden keskivaikeassa-vaikeassa **astmassa**, ei erityisesti keuhkoputkentulehduksessa |
-| [32428511](https://pubmed.ncbi.nlm.nih.gov/32428511/) | 2020 | RCT-osattutkimus (kuvantaminen) | Chest | MRI-pohjainen ilmanvaihto-puutteen kuvantaminen prednisonista riippuvaisissa vakavissa astman potilaissa, jotka saavat anti-T2-biologiset hoitoa |
-| [30273510](https://pubmed.ncbi.nlm.nih.gov/30273510/) | 2019 | Järjestelmällinen katsaus/Meta-analyysi | J Asthma | RCT-tutkimusten meta-analyysi dupilumab-tehokkuudesta ja turvallisuudesta hallitsemattomassa **astmassa** |
-| [39904363](https://pubmed.ncbi.nlm.nih.gov/39904363/) | 2025 | Katsaus (COPD) | Tuberc Respir Dis | Kattava katsaus farmakologisista hoidoista (mukaan lukien biologiset lääkkeet) **COPD**:n äkäysten ehkäisyyn |
-| [30196731](https://pubmed.ncbi.nlm.nih.gov/30196731/) | 2018 | Katsaus | Expert Opin Pharmacother | Käsittelee hoitohaasteita tupakoinnin aiheuttamissa ilmaväylä-sairauksissa, kuten krooniessa keuhkoputkentulehduksessa, emfyseemassa ja astma-COPD-päällekkäisyydessä; toteaa, että nämä potilaat on tyypillisesti suljettu pois suurista tutkimuksista |
-| [38488768](https://pubmed.ncbi.nlm.nih.gov/38488768/) | 2024 | Katsaus (pediatrinen muovibronkitis) | Pediatr Pulmonol | Arvioi uusia terapeuttisia vaihtoehtoja eosinofiilistä pediatrista muovia bronkiittiin (tiivistelmä ei ole saatavilla tässä aineistossa) |
+| [34597534](https://pubmed.ncbi.nlm.nih.gov/34597534/) | 2022 | RCT (avoin jatkotutkimus) | Lancet Respir Med | TRAVERSE: dupilumabin pitkäaikaisturvallisuus ja teho kohtalaisessa tai vaikeassa astmassa |
+| [30273510](https://pubmed.ncbi.nlm.nih.gov/30273510/) | 2019 | Meta-analyysi | J Asthma | Dupilumabin teho ja turvallisuus hallitsemattomassa astmassa satunnaistetuissa tutkimuksissa |
+| [39904363](https://pubmed.ncbi.nlm.nih.gov/39904363/) | 2025 | Systemaattinen katsaus | Tuberc Respir Dis | COPD:n pahenemisvaiheiden ehkäisyn lääkehoidot |
+| [42617837](https://pubmed.ncbi.nlm.nih.gov/42617837/) | 2026 | Vertaileva tutkimus | Chest | Mepolitsumabin ja dupilumabin välillä ei merkittävää eroa pahenemisvaiheiden vähentämisessä eosinofiilisessä COPD:ssä |
+| [42839285](https://pubmed.ncbi.nlm.nih.gov/42839285/) | 2026 | Kohortti | Respir Res | Dupilumabin tehokkuus COPD:ssä todellisessa kliinisessä käytössä (Saksa, monikeskus) |
+| [42511891](https://pubmed.ncbi.nlm.nih.gov/42511891/) | 2026 | Kohortti | Biomedicines | 12 potilaan tapaussarja tyypin 2 COPD:ssä, painotus krooniseen keuhkoputkentulehdusfenotyyppiin |
+| [42773542](https://pubmed.ncbi.nlm.nih.gov/42773542/) | 2026 | Katsaus | Eur J Clin Invest | COPD:n hoidon päivitys tulehdusreiteistä kohdennettuihin hoitoihin |
+| [30196731](https://pubmed.ncbi.nlm.nih.gov/30196731/) | 2018 | Katsaus | Expert Opin Pharmacother | Tupakoinnin aiheuttamiin hengitystiesairauksiin (mm. krooninen keuhkoputkentulehdus) liittyvän astman hoidon haasteet |
+| [38488768](https://pubmed.ncbi.nlm.nih.gov/38488768/) | 2024 | Katsaus | Pediatr Pulmonol | Uudet hoidot eosinofiiliseen lasten muovautuvaan keuhkoputkentulehdukseen |
+| [32428511](https://pubmed.ncbi.nlm.nih.gov/32428511/) | 2020 | Kliininen tutkimus | Chest | Anti-T2-biologisen hoidon vaikutus keuhkojen ventilaatioon MRI:llä prednisonista riippuvaisessa astmassa |
 
 ---
 
 ## Suomen markkinatiedot
 
-Tähän aineistoon ei ole kirjattu suomalaisia myyntilupauksia dupilumabille — `market_status: Not marketed (Not Marketed)`, `total_licenses: 0`.
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004390 | Dupixent | – | Atooppinen ihottuma, prurigo, ruokatorven sairaudet, astma, sivuontelotulehdus (tila: peruutettu) |
 
 ---
 
-## Turvallisuushuomioita
+## Turvallisuusnäkökohdat
 
-Turvallisuustiedoista katso pakkausliite.
+Pakkausselosteen varoitus- ja vasta-aihetietoja ei ollut tämän raportin aineistossa saatavilla, joten niiden osalta on tutustuttava valmisteyhteenvetoon.
 
-> Huomautus: **Blocking**-vakavuuden tietoaukko (DG001 — TFDA/Fimea-pakkausliitteen varoitukset ja vasta-aiheet) on kirjattu tähän aineistoon, joka itsessään estää pääsyn S1-turvallisuus-esiarvioinnin vaiheeseen riippumatta siitä, kuinka vahva tehokkuuden todiste on.
+**Lääkeyhteisvaikutukset:** Yhteensä 53 yhteisvaikutusta. Merkittävimmät (vaikeusaste Major):
+- Adalimumabi
+- Baricitinibi
+- Sertolitsumabipegoli
+- Kladribiini
+
+Kohtalaisia (Moderate) yhteisvaikutuksia on mm. varfariinin, roflumilastin, atsatiopriinin, siklosporiinin, denosumabin, anakinran ja dimetyylifumaraatin kanssa. Sinkkivalmisteiden yhteisvaikutukset ovat vähäisiä (Minor).
+
+**Kirjallisuudessa havaitut turvallisuussignaalit:** Muiden ennustettujen käyttöaiheiden kirjallisuudessa on raportoitu dupilumabiin liittyvää pään ja kaulan ihottumaa, psoriaasin kaltaisia ja pustulaarisia ihottumia sekä silmän sidekalvo- ja sarveiskalvotulehduksia. Nämä ovat huomioitava seurantakohteita.
 
 ---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Pidätä**
+**Päätös: Hold**
 
-**Perustelut:**
-- Keuhkoputkentulehdusta koskevan todisteen on heikko: ainoa kliininen tutkimus on vahvistettu indikaation-epäsuhta (todellinen kohde: CRSsNP), ja kirjallisuus pääosin kattaa astman ja COPD:n pikemminkin kuin keuhkoputkentulehdusta.
-- **Blocking**-vakavuuden tietoaukko (puuttuvat pakkausliitteen varoitukset/vasta-aiheet) estää jopa ensimmäisen turvallisuus-seulonnan (S1), riippumatta tehokkuuskysymyksestä.
+**Perustelu:**
+- Suoraa kliinistä näyttöä keuhkoputkentulehduksesta ei ole; ainoa listattu tutkimus koskee kroonista sivuontelotulehdusta. Tuki perustuu astma- ja tyypin 2 COPD -aineistoon. Lisäksi dupilumabin myyntilupa Suomessa on peruutettu.
 
-**Jotta voidaan jatkaa, seuraava on tarpeen:**
-- Hae TFDA/Fimea-pakkausliite (varoitukset, vasta-aiheet) S1-turvallisuus-arviointiesteille (DG001)
-- Vahvista toimintamekanismi DrugBank API -kyselyn kautta (DG002)
-- Hanki keuhkoputkentulehdus-spesifiset (ei astma/COPD-välitystä) kliiniset tutkimukset ja kirjallisuustodisteet, tai virallisesti uudelleenmääritä käyttöaihe paremmin määriteltävään Th2-välitteiseen fenotyyppiin (esim. eosinofiilistä/kroonista keuhkoputkentulehdusta)
-- Erillinen huomautus: toisessa ennustetussa käyttöaiheessa **dermatitis** (2. sijalla) tässä samassa aineistossa on huomattavasti vahvempi todiste (L1, useita valmistuneita vaihe-3/4-RCT-tutkimuksia, "Jatka varauksella") ja se saattaa vaatia priorisoidun arvioinnin keuhkoputkentulehduksen edelle
+**Jatkoa varten tarvitaan:**
+- Vaikutusmekanismitiedot (MOA) täydennettynä tietokannasta
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet Fimeasta
+- Tyypin 2 -fenotyypin (esim. eosinofiilit) tarkka määrittely kroonisen keuhkoputkentulehduksen potilaille
+- Satunnaistettu tutkimus kohdennetussa keuhkoputkentulehdus- tai COPD-populaatiossa
+- Selvitys markkinatilanteesta ja saatavuudesta Suomessa
 
+---
+
+### Huomio muista ennusteista
+
+Toiseksi sijoittunut ennuste, **ihottuma (dermatitis)**, on näytöltään vahvin (taso L1, useita vaiheen 3 RCT-tutkimuksia, päätös Proceed with Guardrails). Se vastaa kuitenkin jo hyväksyttyä käyttöaihetta (atooppinen ihottuma), joten se ei ole varsinaista lääkeuudelleenkäyttöä. Muiden ennusteiden (mm. keloidit, ihottuma-reaktiot) näyttö on heikko tai olematon.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

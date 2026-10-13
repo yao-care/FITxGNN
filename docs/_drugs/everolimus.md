@@ -2,7 +2,7 @@
 layout: default
 title: Everolimus
 parent: Vahva näyttö (L1-L2)
-nav_order: 158
+nav_order: 182
 evidence_level: L2
 indication_count: 10
 ---
@@ -29,95 +29,112 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Everolimus: määrittelemättömästä alkuperäisestä indikaatiosta liposarkooomaan
+# Everolimuusi: Tuberoosiskleroosista liposarkoomaan
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Todistepaketti ei dokumentoi everolimuksen alkuperäistä hyväksyttyä indikaatiota tai vaikutusmekanismia (molemmat merkitty tietovajeiksi), ja lääke ei ole tällä hetkellä markkinoilla Suomessa. TxGNN-malli ennustaa mahdollista tehoa **liposarkooomassa**, mitä tukee **1 kliininen tutkimus** ja **5 julkaisua**, vaikka vahvin suora näyttö toistaiseksi tulee yhdistelmähoitoskeemasta (everolimus + ribociclib) pikemminkin kuin everolimuksen monoterapiasta.
+Everolimuusi on mTOR-estäjä, jota on alun perin käytetty tuberoosiskleroosin sekä munuaissolukarsinooman, rintasyövän ja haimakasvainten hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **liposarkoomaan**.
+Ennusteen tukena on tällä hetkellä **1 kliininen tutkimus** ja **4 julkaisua**, mutta näyttö perustuu yhdistelmähoitoon, eikä everolimuusin osuutta voi erottaa.
 
 ---
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
-| Kohde | Sisältö |
-|------|--------|
-| Alkuperäinen indikaatio | Ei dokumentoitu todistepakettiin (tieto vaje) |
-| Ennustettu uusi indikaatio | Liposarkooma |
-| TxGNN:n ennustepisteet | 99.88% |
+| Kohta | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | Tuberoosiskleroosi |
+| Ennustettu uusi käyttöaihe | Liposarkooma |
+| TxGNN-ennustepistemäärä | 99,88 % |
 | Näytön taso | L2 |
-| Suomen markkinatilanne | Ei markkinoilla |
-| Lupien lukumäärä | 0 |
-| Suositeltu päätös | Pidä varauksessa |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 2 (kaksi peruutettua, ei voimassa olevia) |
+| Suositeltu päätös | Hold (odotetaan lisänäyttöä) |
+
+Huomio: tietoaineiston toisella ennusteella, määrittämättömällä munuaissolukarsinoomalla, on vahvempi näyttö (L1, Proceed with Guardrails). Tämä raportti keskittyy ensisijaiseen ennusteeseen (liposarkooma), ja vaihtoehto on käsitelty päätelmissä.
 
 ---
 
-## Miksi tämä ennuste on järkevä?
+## Miksi ennuste on perusteltu?
 
-Everolimuksen yksityiskohtaiset vaikutusmekanismin tiedot eivät ole saatavilla tässä todistepaketissa (tieto vaje DG002), ja alkuperäistä indikaatiota ei ole dokumentoitu. Tukeva kirjallisuus ja tutkimusten tietueet kuvaavat kuitenkin johdonmukaisesti everolimusta **mTOR (rapamycinin mekanistinen kohde) -estäjäksi** – tämä todetaan suoraan todistepaketin omassa uudelleenkäytön perustelussa (esim. munuaissolususyöpässä: "Everolimus on mTOR-estäjä").
+Yksityiskohtaista vaikutusmekanismitietoa ei ole tällä hetkellä saatavilla tähän raporttiin koottujen tietojen perusteella. Tunnetun tiedon mukaan everolimuusi estää mTORC1-kompleksia, ja sen teho on osoitettu alkuperäisissä käyttöaiheissa. Mekanistisesti se voi soveltua myös liposarkoomaan.
 
-Liposarkooman mekanistinen perustelu perustuu dokumentoituun **Akt-mTOR- ja MAPK-polun aktivaatioon** dedifferentioituneen liposarkooman kasvainäytteissä (PMID 26518767), mikä tarjoaa biologisen perustan mTOR-kohdistetun hoidon käyttölle tässä kasvaimen tyypissä. Tätä vahvistaa aktiivinen Phase 2 -tutkimus (NCT03114527), jossa yhdistetään everolimus CDK4/6-estäjän ribociclibin kanssa edistyneessä dedifferentioituneessa liposarkooma (Ryhmä A) ja leiomyosarkooma (Ryhmä B) jälkeen ≥1 aikaisemmasta systeemisesta hoitosta, joka perustuu prekliiniseen näyttöön synergistisesta kasvun estosta CDK4- ja mTOR-estäjien yhteisvaikutuksesta (PMID 37967116).
+Dedifferentioituneessa liposarkoomassa kasvua ajaa CDK4/MDM2-monistuma. CDK4/6-Rb-reitin ja PI3K/AKT/mTOR-reitin samanaikainen estäminen on uskottava tapa ohittaa kompensoivia signalointireittejä. Siksi everolimuusia on tutkittu yhdessä CDK4/6-estäjä ribosiklibin kanssa.
 
-Tärkeää on, että kaikki nykyinen kliininen näyttö tästä indikaatiosta liittyy everolimukseen **osana yhdistelmähoitoskeemaa**, ei monoterapiana – tälle indikaatiolle ei ole everolimuksen yksittäisaineen tutkimusta tai julkaisua tässä todistepaketissa, mikä rajoittaa everolimuksen itsensä ja kliinisen hyödyn välisen syy-yhteyden vahvuutta tämän kasvaimen tyypissä.
+Rajoitus: näyttö perustuu yhteen yhden haaran vaiheen 2 yhdistelmätutkimukseen, joten everolimuusin oma osuus vaikutukseen jää epäselväksi.
 
 ---
 
-## Kliinisen tutkimuksen näyttö
+## Kliininen tutkimusnäyttö
 
-| Tutkimuksen numero | Vaihe | Tila | Rekrytointi | Tärkeimmät löydökset |
+| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT03114527](https://clinicaltrials.gov/study/NCT03114527) | Vaihe 2 | Aktiivinen, ei rekrytointia | 48 | Arvioi ribociclib + everolimus -yhdistelmää edistyneessä dedifferentioituneessa liposarkooma (Ryhmä A) ja leiomyosarkooma (Ryhmä B) jälkeen ≥1 aikaisemmasta systeemisesta hoitosta, arvioi kaksoishoidon anti-kasvain-aktiivisuutta; everolimus annostetaan 2,5–5 mg/päivä ribociclibin 300 mg/päivä (3 viikkoa päällä/1 viikko pois) rinnalla. |
+| [NCT03114527](https://clinicaltrials.gov/study/NCT03114527) | Vaihe 2 | Käynnissä, ei rekrytoi | 48 | Ribosiklibin ja everolimuusin yhdistelmä edenneessä dedifferentioituneessa liposarkoomassa (DDL) ja leiomyosarkoomassa (LMS) aiemman systeemihoidon jälkeen. Tavoitteena arvioida yhdistelmän kasvainvastaista tehoa. Ei everolimuusi-yksinään-vertailuryhmää. |
 
 ---
 
-## Kirjallisuuden näyttö
+## Kirjallisuusnäyttö
 
-| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät löydökset |
+| PMID | Vuosi | Tyyppi | Julkaisu | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [37967116](https://pubmed.ncbi.nlm.nih.gov/37967116/) | 2024 | RCT | Clinical Cancer Research | Raportoituu SAR-096 Phase 2 -tutkimuksesta ribociclib + everolimus dedifferentioituneissa liposarkooma/leiomyosarkooma; CDK4/6- ja mTOR-rinnakkaisinhibitio osoitti synergistisen kasvun eston prekliinisissä kasvainmalleissa, mikä motivoi yhdistelmätutkimusta. |
-| [36003796](https://pubmed.ncbi.nlm.nih.gov/36003796/) | 2022 | Katsaus | Frontiers in Oncology | Katsaus sarkooman potilasjohdannaisista ortotooppisista siirtomalleista (PDOX) tunnistaen tehokkaat CDK-inhibiittoripohjaiset yhdistelmäterapiat, tukemalla CDK/mTOR-polun kohdentamisen perusteluja sarkoomeissa. |
-| [26518767](https://pubmed.ncbi.nlm.nih.gov/26518767/) | 2016 | Katsaus | Tumour Biology | Osoittaa Akt-mTOR- ja MAPK-polun aktivaation dedifferentioituneissa liposarkooma näytteissä (99 tapausta); in vitro mTOR-inhibitio osoitti anti-kasvain-vaikutusta. |
-| [29848686](https://pubmed.ncbi.nlm.nih.gov/29848686/) | 2018 | Katsaus | Anticancer Research | Mekanistisesti erilaisten syöpälääkkeiden, mukaan lukien liposarkooma-mallien, yhdistelmä eribulinin prekliininen arviointi; ei everolimuksen-spesifinen. |
-| [41991999](https://pubmed.ncbi.nlm.nih.gov/41991999/) | 2026 | Katsaus | Oncogene | Tunnistaa XPO1-estäjän selinexorin häiritsevän dedifferentioituneen liposarkooman ydintranskription sääntelypiirille; erilainen, ei-mTOR terapeuttinen haavoittuvuus. |
+| [37967116](https://pubmed.ncbi.nlm.nih.gov/37967116/) | 2024 | Vaiheen 2 tutkimusraportti | Clin Cancer Res | Ribosiklibin ja everolimuusin yhdistelmä DDL:ssä ja LMS:ssä. Yhdistelmä on osoittanut synergististä kasvunestoa useissa kasvainmalleissa. |
+| [36003796](https://pubmed.ncbi.nlm.nih.gov/36003796/) | 2022 | Katsaus | Front Oncol | Potilasperäiset ortotooppiset ksenograftimallit (PDOX) sarkoomissa; CDK-estäjä palbosiklibin yhdistelmähoidot (epäsuora näyttö). |
+| [41991999](https://pubmed.ncbi.nlm.nih.gov/41991999/) | 2026 | Prekliininen | Oncogene | XPO1-estäjä selinexor heikentää DDLPS-solujen elinkykyä (epäsuora näyttö). |
+| [29848686](https://pubmed.ncbi.nlm.nih.gov/29848686/) | 2018 | Prekliininen | Anticancer Res | Eribuliinin yhdistelmät muiden syöpälääkkeiden kanssa (epäsuora näyttö). |
 
 ---
 
-## Suomen markkinatiedot
+## Myyntilupatiedot Suomessa
 
-Everolimuksella ei ole tällä hetkellä **markkinointilupaa** Suomelle (markkinatilanne: Ei markkinoilla, 0 lupaa rekisteröity). Tuote-tasoisista lääkinnällisistä tiedoista ei ole saatavilla tässä todistepaketissa.
+Kaikki myyntiluvat on peruutettu.
+
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/002311 | Votubia | – | Tuberoosiskleroosi |
+| EMEA/H/C/001038 | Afinitor | – | Munuaissolukarsinooma, rintasyöpä, haimakasvaimet |
 
 ---
 
 ## Sytotoksisuus
 
-| Kohde | Sisältö |
-|------|--------|
-| Sytotoksisuuden luokitus | Kohdennettu terapi (mTOR-estäjä) |
-| Luuytimen tukahduttamisen riski | Katso pakkausliitteen varoitukset ja varotoimet |
-| Oksentamisen aiheuttavuuden luokitus | Katso pakkausliitteen varoitukset ja varotoimet |
-| Seurannan kohteet | Katso pakkausliitteen varoitukset ja varotoimet |
-| Käsittelyssä noudatettavat varotoimet | Katso pakkausliitteen varoitukset ja varotoimet |
+Everolimuusi on syöpälääke (mTOR-estäjä, kohdennettu hoito). Tarkempia toksisuustietoja ei ole tässä aineistossa, joten viitataan valmisteyhteenvedon varoituksiin ja varotoimiin.
+
+| Kohta | Sisältö |
+|------|------|
+| Sytotoksisuusluokitus | Kohdennettu hoito (mTOR-estäjä), ei perinteinen sytostaatti |
+| Myelosuppressioriski | Tietoa ei saatavilla; tietämysgraafin mukaan liittyy trombosytopenia, neutropenia, leukopenia ja anemia |
+| Oksettavuusluokitus | Tietoa ei saatavilla |
+| Seurantakohteet | Verenkuva, maksa- ja munuaistoiminta, verensokeri ja rasva-arvot |
+| Käsittelysuojaus | Noudatettava valmisteyhteenvedon ja paikallisten ohjeiden mukaisia sytotoksisten lääkkeiden käsittelyohjeita |
 
 ---
 
-## Turvallisuutta koskevat näkökohdat
+## Turvallisuusnäkökohdat
 
-Turvallisuustiedot löytyvät pakkausliitteesta. Keskeiset varoitukset, vasta-aiheet tai lääkkeiden väliset vuorovaikutustiedot eivät ole saatavilla tässä todistepaketissa (Fimea/TFDA-pakkausliitteen tiedot muodostavat kriittisen tieto vajeen, DG001).
+Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ole saatavilla, joten niihin tulee tutustua valmisteyhteenvedosta.
+
+- **Tietämysgraafin (PrimeKG) vasta-aiheet:** Ne eivät perustu valmisteen etikettitekstiin. Mukana mm. maksan vajaatoiminta, munuaissairaus, trombosytopenia, neutropenia, leukopenia, anemia, hyperglykemia, diabetes, hyperlipidemia, hypertriglyseridemia, interstitiaalinen keuhkosairaus, stomatiitti, kongestiivinen sydämen vajaatoiminta, perikardiaalinen effuusio ja hemolyyttis-ureeminen oireyhtymä.
+- **Lääkeyhteisvaikutukset (yhteensä 100 kirjattua):**
+  - Merkittävät (Major): amfoterisiini B (myös lipidikompleksi), aprepitantti, deksametasoni, klaritromysiini.
+  - Kohtalaiset (Moderate): diabeteslääkkeet, kuten metformiini, akarboosi, alogliptiini, kanagliflotsiini, dapagliflotsiini, empagliflotsiini, linagliptiini, glimepiridi, klooripropamidi, sekä albiglutidi, dulaglutidi, simetidiini, eliglustaatti ja eluksadoliini.
+  - Vähäiset (Minor): sinkkisulfaatti.
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Päätelmä ja jatkotoimet
 
-**Päätös: Pidä varauksessa**
+**Päätös: Hold**
 
 **Perustelut:**
-Liposarkooman ennuste (L2, päätös vaihe S2) perustuu vain yhteen käynnissä olevaan, valmistumattomaan yhdistelmätutkimukseen ja mekanistiseen/prekliiniseen kirjallisuuteen – tälle kasvaimen tyypille ei ole everolimuksen monoterapianäyttöä. Yhdessä turvallisuus-/merkintätietojen kriittisen tieto vajeen (DG001) kanssa, näytön perusta ei ole vielä riittävä edetä tutkimuskysymyksen ulkopuolelle.
+- Liposarkoomaa tukee vain yksi yhden haaran vaiheen 2 yhdistelmätutkimus, jossa everolimuusin oma vaikutus ei ole erotettavissa. Lisäksi Suomessa ei ole voimassa olevia myyntilupia, ja turvallisuustiedot ovat puutteelliset.
+- Vaihtoehtona toinen ennuste, määrittämätön munuaissolukarsinooma, on näytöltään vahvempi (useita vaiheen 2 tutkimuksia, ASPEN-satunnaistettu tutkimus). Sen suositus on Proceed with Guardrails: ASPENissa everolimuusi ei ylittänyt sunitinibia etenemisvapaassa elinajassa, joten käyttö rajattaisiin valikoituihin potilaisiin. Näyttö koskee ei-kirkassoluista munuaissolukarsinoomaa yleisesti, ei tarkasti tätä alatyyppiä.
 
-**Edetäkseen tarvitaan seuraavaa:**
-- Fimea/TFDA pakkausliite (varoitukset, vasta-aiheet, lääkkeiden väliset vuorovaikutukset) – vaadittu ennen mitä tahansa S1-turvallisuuden esi-arviointia
-- Everolimuksen alkuperäisen indikaation ja vaikutusmekanismin tiedot vahvistettuna (DG002)
-- NCT03114527:n kypsyminen/tulokset (arvioidut valmistuminen 2025-12)
-- Näyttö, joka erottaa everolimuksen itsenäisen vaikutuksen ribociclib-yhdistelmän vaikutuksesta
-
+**Jatkoon tarvitaan:**
+- Valmisteyhteenvedon varoitus- ja vasta-aihetiedot (Fimean sivusto)
+- Yksityiskohtaiset vaikutusmekanismitiedot (DrugBank)
+- Ribosiklibi-everolimuusi-tutkimuksen (NCT03114527) lopputulokset ja everolimuusin osuuden arviointi
+- Selvitys myyntilupien peruutuksen syistä ja valmisteen saatavuudesta Suomessa
+- Turvallisuuden seurantasuunnitelma (verenkuva, maksa, munuaiset, glukoosi, lipidit, keuhkot) sekä yhteisvaikutusten arviointi
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

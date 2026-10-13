@@ -2,7 +2,7 @@
 layout: default
 title: Avanafil
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 49
+nav_order: 54
 evidence_level: L5
 indication_count: 0
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Zonisamide
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 412
+nav_order: 480
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,64 +29,78 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Zonisamidi: Epilepsiasta Touretten oireyhtymään
+# Tsoniamidi: Epilepsiasta Touretten oireyhtymään
 
 ## Yhden lauseen yhteenveto
 
-Zonisamidi on laaja-kirjoilla vaikuttava antiepileptinen lääke (AED), jota käytetään vakiintuneesti osittain alkavien kohtausten apu- tai monolääkkeenä. TxGNN-mallin parhaaksi rankattu ennuste tälle kandidaatille on **Touretten oireyhtymä** (pistemäärä 99,85%), mutta tämä spesifinen ennuste on tällä hetkellä tuettu **nollalla kliinisellä tutkimuksella ja nollalla julkaisulla** — se on puhdas mallin tuotos ilman vahvistavaa näyttöä.
+Tsoniamidi on epilepsialääke, jota on käytetty osittaisten epileptisten kohtausten hoitoon. TxGNN-malli ennustaa sen voivan tehota **Touretten oireyhtymään**, mutta ennusteen tueksi ei ole löytynyt yhtään kliinistä tutkimusta eikä julkaisua. Ennuste perustuu pelkästään laskennalliseen malliin.
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
-| Kohde | Sisältö |
+| Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Epilepsia (osittain alkavat kohtaukset) — tunnetun AED-luokituksen perusteella; virallista Taiwan-lisenssi tekstiä ei saatavilla (lääke on markkinoimaton) |
+| Alkuperäinen käyttöaihe | Osittaiset epilepsiakohtaukset (epilepsia) |
 | Ennustettu uusi käyttöaihe | Touretten oireyhtymä |
-| TxGNN-ennusteen pistemäärä | 99,85% |
-| Näytön taso | L5 (mallin ennuste vain) |
-| Taiwanin markkinatilanne | Ei markkinoitu (Ei markkinoitu) |
-| Valtuuksien lukumäärä | 0 |
-| Suositeltu päätös | Odota |
+| TxGNN-ennustepisteet | 99,85 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 2 (kaikki peruutettuja) |
+| Suositeltu päätös | Hold (odotetaan) |
 
-## Miksi tämä ennuste on järkevä?
+## Miksi ennuste voisi olla perusteltu?
 
-Yksityiskohtaisia toimintamekanismin tietoja ei ole saatavilla tässä näyttöpaketissa (`original_moa` on tietojen puutepaikka). Saatavilla olevien tietojen perusteella zonisamidi kuuluu antiepileptisen lääkkeen (AED) luokkaan, ja sen teho epilepsiassa on kliinisesti ja farmakologisesti hyvin vakiintunut (jännitteestä riippuvaisten natriumkanavien ja T-tyypin kalsiumkanavien modulaatio muun muassa, kuten tässä paketissa oleva AED-kirjallisuus viittaa).
+Tsoniamidin yksityiskohtaista vaikutusmekanismia ei tässä aineistossa ole saatavilla. Yleisen tiedon mukaan lääke salpaa jänniteherkkiä natrium- ja T-tyypin kalsiumkanavia sekä vaikuttaa monoaminergiseen ja glutamaatti-/GABA-välitteiseen viestintään. Mahdollinen yhteys Touretten oireyhtymään voisi liittyä dopaminergisen ja serotonergisen välityksen muokkaamiseen, mutta tämä on spekulatiivista.
 
-Touretten oireyhtymän perusteluksi esitetään, että TxGNN:n korkea pistemäärä voi heijastaa zonisamidin hypoteesin mukaisia dopaminergisia ja serotoninergisia moduloivia vaikutuksia, koska Touretten oireyhtymä on teoreettisesti yhdistetty dopamiinikierron toimintahäiriöihin. Tämä on uskottava mekanistinen *hypoteesi*, ei näyttöön perustuva yhteys — tämän paketin mikään kliininen tutkimus tai julkaisu ei testaa zonisamidia erityisesti Touretten oireyhtymässä.
+Epilepsian ja Touretten oireyhtymän välinen yhteys on heikko: molemmat ovat hermoston häiriöitä, mutta tukea tehosta ei ole. Aineistossa mainittu katsaus (PMID 36005856) kertoo päinvastoin, että epilepsialääkkeet voivat aiheuttaa tic-oireita. Tämä viittaa pikemminkin mahdolliseen turvallisuussignaaliin kuin tehon tukeen.
 
-Kliinisten tutkimusten tai kirjallisuuden täydellisen puuttuessa (näytön taso L5) tämä ennuste tulisi käsitellä vain hypoteesin luomisen signaalina, ei kliinisen tai sääntelyluonteisen toiminnan perustana.
+## Kliiniset tutkimukset
 
-## Kliinisen tutkimuksen näyttö
+Touretten oireyhtymälle ei ole rekisteröityjä kliinisiä tutkimuksia.
 
-Tällä hetkellä ei ole merkityksellisiä rekisteröityjä kliinisiä tutkimuksia.
+## Kirjallisuusnäyttö
 
-## Kirjallisuuden näyttö
+Touretten oireyhtymälle ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
-Tällä hetkellä ei ole saatavilla merkityksellisiä julkaisuja.
+## Muut ennustetut käyttöaiheet
 
-## Taiwanin markkinatiedot
+Aineistossa oli myös muita ennusteita. Näistä merkittävimmät:
 
-Zonisamidia ei ole tällä hetkellä markkinoitu Taiwanissa (0 valtuutusta arkistossa; `total_licenses` = 0, valtuutustietueita ei ole saatavilla).
+| Käyttöaihe | Pisteet | Näytön taso | Huomio |
+|------|------|------|------|
+| Maaninen kaksisuuntainen mielialahäiriö | 99,35 % | L4 | Vain pieniä avoimia tutkimuksia ja katsauksia; raportoitu tsoniamidin aiheuttama mania (PMID 2109869) puhuu käyttöä vastaan |
+| Poissaolokohtausepilepsia | 99,24 % | L3 | Vahvin mekanistinen yhteys (T-tyypin kalsiumkanavat); pieniä kontrolloimattomia tutkimuksia (PMID 15847848, 24907183), ei Phase 2/3 -RCT:tä |
+| Fibromyalgia | 99,20 % | L4 | Ainoa tutkimus (NCT00259636, Phase 4) peruttiin ilman osallistujia |
+| Trikotillomania, methemoglobinemia, Prinzmetalin angina, konjunktiviitti | 99,2–99,8 % | L5 | Ei tutkimuksia eikä uskottavaa mekanismia; todennäköisesti verkkomallin artefakteja |
+
+Näistä poissaolokohtausepilepsia on lähinnä jo hyväksyttyä käyttöä, koska se on epilepsian sisäinen laajennus.
+
+## Suomen markkinatiedot
+
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000577 | Zonegran (peruutettu) | – | Osittaiset epilepsiakohtaukset |
+| EMEA/H/C/004127 | Zonisamide Viatris (aiemmin Zonisamide Mylan) (peruutettu) | – | Epilepsia |
 
 ## Turvallisuusnäkökohdat
 
-Katso pakkausselosteesta turvallisuustiedot. (Tärkeimmät varoitukset, vasta-aiheet ja lääkkeen yhteisvaikutukset eivät ole saatavilla tässä näyttöpaketissa — TFDA pakkausselosteen haku on merkitty **estävä** tietojen puutteeksi, DG001.)
+Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla tähän raporttiin. Tarkista turvallisuustiedot valmisteyhteenvedosta.
 
-## Johtopäätökset ja seuraavat vaiheet
+- **Tietämyskaaviosta (PrimeKG) johdetut vasta-aiheet** (ei lääkevalmisteen tekstistä): munuaissairaus, maksasairaus, sappirakon sairaus, nefrolitiaasi, metabolinen asidoosi, agranulosytoosi ja neutropenia (useita muotoja), ahdistuneisuus-, psykoottiset ja skitsoaffektiiviset häiriöt sekä muut mielenterveyden häiriöt, ripulisairaudet.
+- **Lääkeyhteisvaikutukset** (yhteensä 100 kirjattua): merkittäviä (Major) ovat mm. antikolinergit (atropiini, skopolamiini, hyoskyamiini, glykopyrronium, disyklomiini, klidiinium, trospium, mepenzolaatti, metskopolamiini, propanteliini) sekä metformiini. Kohtalaisia (Moderate) ovat mm. aprepitantti, morfiini, deksametasoni, simetidiini, klaritromysiini, dronabinoli, nabiloni, metoklopramidi ja mikonatsoli.
+- Mielialahäiriöiden yhteydessä on raportoitu tsoniamidin aiheuttamaa maniaa, ja epilepsialääkkeiden psykiatriset haittavaikutukset ovat tunnettu riski.
 
-**Päätös: Odota**
+## Johtopäätös ja seuraavat askeleet
+
+**Päätös: Hold (odotetaan)**
 
 **Perustelut:**
-Touretten oireyhtymän ennuste perustuu pelkästään TxGNN-pisteytykseen, jolle ei ole tukea kliinisissä tutkimuksissa, kirjallisuudessa tai vahvistetusta toimintamekanismista — riittämätön mistään arviointivaiheesta etenemisen perustelemiseksi (S0).
+- Touretten oireyhtymän ennuste on pelkkä laskennallinen tulos (L5) ilman kliinisiä tutkimuksia tai kirjallisuutta, ja epilepsialääkkeisiin liittyy tic-oireiden riski. Lisäksi lääkkeellä ei ole voimassa olevaa myyntilupaa Suomessa.
 
-**Jatkaakseen seuraavaa tarvitaan:**
-- TFDA/sääntelyasetuksen pakkausseloste (varoitukset, vasta-aiheet) — tällä hetkellä estävä (DG001)
-- Vahvistettu toimintamekanismin tieto (DG001/DG002 korjaus DrugBank API:n kautta)
-- Vähintään prekliininen tai tapauksen tasolla oleva näyttö, joka erityisesti yhdistää zonisamidin Touretten oireyhtymään ennen kuin edetään S0:n ohi
-
----
-
-**Huomautus tästä näyttöpaketista:** Tämä kandidaattipaketti sisältää 10 TxGNN-ennustettua zonisamidin käyttöaihetta, joista useilla on aineellisesti vahvempi näyttö kuin parhaaksi rankattu Touretten oireyhtymän osuma — erityisesti **poissaoloepilepsian** (L1, päätösvaihe S3, "Etene varovaisuustoimiin", tuettu 583 potilaan täytetyllä vaiheen 3 satunnaistetulla kontrolloidulla tutkimuksella) ja **maaninen bipolaarinen affektiivinen häiriö** (L2, päätösvaihe S1, "Tutkimuskysymys", tuettu omalla satunnaistetulla kontrolloidulla tutkimuksella, PMID 22506436). Jos repurposing-raportti on toivottu jollekin näille korkeamman näytön omaavista kandidaateista sen sijaan, erillinen raportti tulisi tuottaa käyttäen `predicted_indications[6]` (bipolaarinen) tai `predicted_indications[7]` (poissaoloepilepsian) pääsisäntönä. Useat muut korkean pistemäärän saavat ennusteet (metahemoglobinemian variantit) ovat merkitty perusteluissa mekanistisesti *ristiriitaisiksi* — zonisamidin sulfonamidirakenne on tunnettu metahemoglobinemian riskitekijä, ei hoito — ja niitä tulisi käsitellä turvallisuussignaaleina, ei repurposing-mahdollisuuksina.
-
+**Jatkoa varten tarvitaan:**
+- Tsoniamidin vaikutusmekanismin tiedot (DrugBank)
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet (Fimea)
+- Prekliiniset tai pienet pilottitutkimukset Touretten oireyhtymässä sekä tic-oireiden riskin arviointi
+- Jos halutaan edetä lupaavimpaan suuntaan, poissaolokohtausepilepsian osalta satunnaistettu kontrolloitu tutkimus
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ipilimumab
-parent: Vahva näyttö (L1-L2)
-nav_order: 204
-evidence_level: L2
+parent: Pelkkä mallin ennuste (L5)
+nav_order: 237
+evidence_level: L5
 indication_count: 2
 ---
 
 # Ipilimumab
 {: .fs-9 }
 
-Näytön taso: **L2** | Ennustetut käyttöaiheet: **2** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,114 +29,81 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Ipilimumab: ihoisen melanooman ei-ihoisen muodon potentiaali
+# Ipilimumabi: Melanoomasta koroideremiaan
 
 ## Yhden lauseen yhteenveto
 
-> Ipilimumab on CTLA-4-immuunitarkastuspiste-estäjä, jolla on vakiintunut käyttöosoitus metastaattisessa melanoomassa (markkinoitu globaalisti nimellä Yervoy).
-> TxGNN-malli ennustaa, että se saattaa olla tehokas myös **ei-ihoisen melanooman** (uveaali-, limakalvo-, leptomeningaalisen ja acraalisen alatyyppi) osalta,
-> ja sen tueksi on tällä hetkellä saatavilla **50 kliinistä tutkimusta** ja **5 julkaisua**, vaikka useimmat tutkimukset tutkivat melanoomaa laajasti eivätkä erityisesti ei-ihoisia alatyyppi.
+Ipilimumabi on CTLA-4:ää estävä vasta-aine, jota on käytetty melanooman ja muiden syöpien hoitoon. TxGNN-malli ennustaa sen voivan tehota **koroideremiaan**, perinnölliseen verkkokalvon rappeumaan. Ennusteen tueksi ei kuitenkin ole **yhtään kliinistä tutkimusta eikä julkaisua**, ja ennuste perustuu pelkästään mallilaskentaan.
 
-*Huomautus: TxGNN-malli merkitsi erillisesti **choroidemiaa** korkeamman pistemäärän saaneeksi kandidaatiksi (pistemäärä 0,99, sijoitus 9029), mutta ilman kliinisiä tutkimuksia tai kirjallisuutta, todisteiden tasolla L5 ja Hold-suositus — sen oman perustelun mukaan ei ole tunnettua biologista yhteyttä CTLA-4-estäjään ja mahdollinen mekanistinen ristiriita (immuunitarkastuspiste-estäjät voivat aiheuttaa silmään liittyviä immuunivasteen sivuvaikutuksia, kuten uveitis). Sitä ei käsitellä tämän raportin ensisijaisena kandidaattina.*
+## Pikakatsaus
 
----
+| Kohta | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | Melanooma, munuaissolusyöpä, ei-pienisoluinen keuhkosyöpä, pahanlaatuinen mesoteliooma, kolorektaalinen kasvain |
+| Ennustettu uusi käyttöaihe | Koroideremia |
+| TxGNN-ennustepisteet | 99,06 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
+| Myyntilupien määrä | 1 |
+| Suositeltu päätös | Hold (odota) |
 
-## Pikayleiskatsaus
+## Miksi ennuste on (tai ei ole) perusteltu?
 
-| Kohde | Sisältö |
-|------|--------|
-| Alkuperäinen indikaatio | Metastaattinen melanooma (ipilimumab/Yervoy:n tunnettu julkinen merkintä; ei vahvistettu Suomen lisensointitietojen perusteella — merkintöjä ei tiedostoissa) |
-| Ennustettu uusi indikaatio | Ei-ihoinen melanooma |
-| TxGNN Ennusteen pistemäärä | 99.02% |
-| Todisteiden taso | L2 |
-| Suomen markkinatilanne | Ei markkinoitu |
-| Valtuuksien lukumäärä | 0 |
-| Suositeltu päätös | Edistä turvaraioin |
+Ipilimumabi on CTLA-4:ää estävä vasta-aine. Se vapauttaa T-solujen estoa ja laajentaa kasvainvastaisia T-solivasteita. Yksityiskohtaista vaikutusmekanismitietoa ei ole tähän raporttiin saatavilla, mutta tämä yleisesti tunnettu vaikutustapa selittää, miksi lääke tehoaa melanoomaan ja muihin syöpiin.
 
----
+Koroideremia on X-kromosomaalinen perinnöllinen verkkokalvon rappeuma. Sen aiheuttaa CHM-geenin (REP1) toiminnan menetys. Kyseessä on yhden geenin sairaus, jossa Rab-proteiinien prenylaatio häiriintyy verkkokalvon pigmenttiepiteelissä, valoreseptoreissa ja suonikalvolla. Tauti ei ole immuunivälitteinen eikä syöpä, joten CTLA-4:n esto ei ole mekanistisesti uskottava hoito. Alkuperäisellä ja ennustetulla käyttöaiheella ei siis ole biologista yhteyttä.
 
-## Miksi tämä ennuste on järkevä?
+Korkea TxGNN-pistemäärä (0,99) on todennäköisesti verkostoartefakti eikä kliininen signaali. Lisäksi järjestelmällinen tarkastuspisteen esto voi aiheuttaa immuunivälitteisiä haittavaikutuksia, esimerkiksi uveiittia ja muuta silmätulehdusta. Rappeutuvassa verkkokalvossa se olisi merkittävä turvallisuusriski.
 
-Tällä tietueella on puutteellinen muodollinen vaikutusmekanismi-tieto (DG002). Tunnettujen tietojen ja todistuspaketin oman perustelun perusteella ipilimumab on anti-CTLA-4-monoklonaalinen vasta-aine: se estää CTLA-4-inhibiittorisen tarkastuspiste-reseptorin T-soluissa, vapauttaa jarrut T-solun aktivoinnista ja parantaa anti-tuumori-immuunivasteita. Tämä mekanismi ei ole spesifinen millekään melanooman anatomiselle alkuperälle.
+## Kliininen tutkimusnäyttö
 
-Ei-ihoinen melanooma (uveaali-, limakalvo-, acraalinen ja leptomeningaalinen alatyyppi) on biologisesti erillään ihoisen melanooman mutaatioprofiilin ja ennusteen osalta, mutta CTLA-4-estäjä kohteena olevan immuuniselvitysjärjestelmän taustalla ei ole kudoskohtainen. Koska ipilimumab:in teho melanoomassa laajasti on jo hyvin vakiintunut (mukaan lukien yhdistelmähoidot nivolumab:in kanssa useissa hyväksytyissä ja tutkimuksessa olevissa asetuksissa), mekanistinen laajennus ei-ihoisten alatyypeihin on periaatteellisesti uskottava.
+Koroideremiaan liittyviä kliinisiä tutkimuksia ei ole tällä hetkellä rekisteröity.
 
-Yksi tärkeä varoitus: syöttöpaketti näyttää `original_indications`-arvona tyhjän ja Suomen `market_status`-arvona "not marketed", mikä on itsessään tietoaukko eikä todiste siitä, että melanooma olisi todella uusi indikaatio tälle lääkkeelle. Ipilimumab (Yervoy) sisältää jo melanooman indikaatiot useissa lainkäyttöalueilla. Tämä ennuste tulisi siksi lukea laajasti tutkitun sairauden jo hyväksytyn alaryhmän laajennukseksi, ei kokonaan uudeksi terapeuttiseksi hypoteesiksi — mikä vaikuttaa siihen, kuinka paljon lisätodisteita todella tarvitaan ennen toimenpidettä.
+## Kirjallisuusnäyttö
 
----
-
-## Kliiniset tutkimukset
-
-| Tutkimusnumero | Vaihe | Tila | Osallistujamäärä | Tärkeimmät tulokset |
-|---------|------|------|------|---------|
-| [NCT02224781](https://clinicaltrials.gov/study/NCT02224781) | Phase 3 | Active, not recruiting | 267 | DREAMseq: ipilimumab+nivolumab vs. dabrafenibi+trametinibi:n järjestys BRAF-mutantin edistyneessä melanoomassa; korkean asteen suora todiste ipilimumab-melanooma-mekanismille. |
-| [NCT02939300](https://clinicaltrials.gov/study/NCT02939300) | Phase 2 | Completed | 18 | Ipilimumab + nivolumab leptomeningaalisissa melanooman metastaasissä — suoraan relevantti ei-ihoinen/CNS-levinneisyys-väestö. |
-| [NCT03645928](https://clinicaltrials.gov/study/NCT03645928) | Phase 2 | Recruiting | 245 | TIL-terapia (lifileusel) yhdessä tarkastuspiste-estäjien kanssa kiinteissä kasvaimissa; ipilimumab apuvälineenä, epäsuora tuki. |
-| [NCT04133948](https://clinicaltrials.gov/study/NCT04133948) | Phase 1/2 | Completed | 44 | Neoadjuvantti domatinostat + nivolumab ± ipilimumab Stage III ihoisessa/tuntemattoman alkuperän melanoomassa. |
-| [NCT01654692](https://clinicaltrials.gov/study/NCT01654692) | Phase 2 | Completed | 86 | Ipilimumab + fotemustine resektoimattomassa/metastaattisessa melanoomassa; tukeva yhdistelmätieto. |
-| [NCT01927419](https://clinicaltrials.gov/study/NCT01927419) | Phase 2 | Completed | 142 | RCT nivolumab + ipilimumab vs. ipilimumab monoterapia käsittelemättömässä resektoimattomassa/metastaattisessa melanoomassa. |
-| [NCT01810016](https://clinicaltrials.gov/study/NCT01810016) | Phase 1 | Terminated | 8 | NY-ESO-1-rokote + ipilimumab resektoimattomassa/metastaattisessa melanoomassa; pieni, terminoitu, heikko todiste. |
-| [NCT02452294](https://clinicaltrials.gov/study/NCT02452294) | Phase 2 | Unknown | 22 | Buparlisib melanoomassa, jonka aivometastaadit epäonnistuivat aiemmin ipilimumab:issa; ipilimumab on tausta-aine, ei tutkimusaine. |
-| [NCT01496807](https://clinicaltrials.gov/study/NCT01496807) | Phase 1 | Completed | 31 | Ipilimumab (Yervoy) + peginterferooni (Sylatron) turvallisuus/siedettävyys Stage IIIB/C/IV melanoomassa. |
-| [NCT01940809](https://clinicaltrials.gov/study/NCT01940809) | Phase 1 | Terminated | 15 | Ipilimumab ± dabrafenibi/trametinibi/nivolumab järjestystutkimus BRAF-mutantin metastaattisessa melanoomassa; terminoitu, pieni otanta. |
-
-*Huomautus: haku palautti 50 tutkimusta; paketti arvioi relevanssille vain 10 (1×A, 5×B, 4×C) ja jätti noin 40:n "pending"-arvioita — yllä oleva taulukko luettelee kaikki 10 arvioitua tutkimusta. Yksikään tutkimuksista ei rekrytoi "ei-ihoisen melanooman" kohorttia nimellä; relevanssus päätellään jaetusta mekanismista ja, NCT02939300/NCT02626962-tyyppisissä tutkimuksissa, ei-ihoisten alatyypien (leptomeningaalinen, uveaali) esiintymisestä rekrytoiduissa väestöissä.*
-
----
-
-## Kirjallisuustodisteet
-
-| PMID | Vuosi | Tyyppi | Julkaisu | Tärkeimmät tulokset |
-|------|-----|------|------|---------|
-| [24999899](https://pubmed.ncbi.nlm.nih.gov/24999899/) | 2014 | Kohortti/Laajennettu pääsy | The Medical Journal of Australia | Ipilimumab:in todellisen maailman tehokkuus/siedettävyys ennalta käsitellyissä ihoisissa, **uveaalisissa** ja **limakalvon** melanoomeissa — käsittelee suoraan ei-ihoisia alatyyppi. |
-| [37887546](https://pubmed.ncbi.nlm.nih.gov/37887546/) | 2023 | Kohortti | Current Oncology | Retrospektiivinen anti-PD-1-monoterapian vs. anti-PD-1 + ipilimumab:in vertailu ikäryhmittäin edistyneessä melanoomassa. |
-| [28183255](https://pubmed.ncbi.nlm.nih.gov/28183255/) | 2018 | Katsaus | Current Cancer Drug Targets | Melanooman adjuvantti-hoitojen katsaus; nimenomaisesti huomautetaan, että vain noin 5 % melanoomeista on ei-ihoista ja käsitellään tutkimusympäristöä 2000–2015. |
-| [29466692](https://pubmed.ncbi.nlm.nih.gov/29466692/) | 2018 | Katsaus | Discovery Medicine | Kliininen päivitys anti-PD-1-vasta-aineista yksinään tai yhdessä ipilimumab:in kanssa edistyneessä melanoomassa vakiohoidon etulinjana. |
-| [40236344](https://pubmed.ncbi.nlm.nih.gov/40236344/) | 2025 | Tapauskertomus | Cureus | Tapauskertomus melanoomasta peräisin olevasta paksusuolen metastaasista, jonka hoito immuuniterapialla; osoittaa immuunivasteen liittyviä GI-sivuvaikutuksia ipilimumab-sisältävien järjestysten aikana. |
-
----
+Aiheeseen liittyvää kirjallisuutta ei ole tällä hetkellä saatavilla.
 
 ## Suomen markkinatiedot
 
-Ipilimumab:in tuotevaltuutuksia ei ole tiedostoissa Suomessa (`total_licenses = 0`, `market_status = Not marketed/not marketed`). Tämä on tietoaukko, ei todiste saatavuudesta, koska ipilimumab (Yervoy) on hyväksytty EU/EEA:ssa laajemmin.
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/002213 (peruutettu) | Yervoy | – | Melanooma, munuaissolusyöpä, ei-pienisoluinen keuhkosyöpä, pahanlaatuinen mesoteliooma, kolorektaalinen kasvain |
 
----
+## Sytotoksisuus
 
-## Sytostaattinen vaikutus
-
-Ipilimumab on antineoplastinen aine (käytetään melanooman hoitoon) mutta ei perinteinen sytostaattinen kemoterapia — se on monoklonaalinen vasta-aine immuunitarkastuspiste-estäjä.
-
-| Kohde | Sisältö |
-|------|--------|
-| Sytostaattisen vaikutuksen luokittelu | Immuuniterapia (anti-CTLA-4-monoklonaalinen vasta-aine) |
-| Luuytimen sorkkimisen riski | Matala — immuunitarkastuspiste-estäjät luokkana eivät tyypillisesti aiheuta merkittävää luuytimen sorkkimista, toisin kuin perinteiset sytostaatit |
-| Pahoinvointisuus-luokitus | Matala |
-| Seurantakohdat | Maksatoiminnon kokeet, kilpirauhasen/endokrinaalisen toiminnon, munuaisten toiminnon ja kliinisen seurannan immuunivasteen sivuvaikutuksille (koliiitti, hepatiitti, dermatitis, endokrinopatiaa) pikemminkin kuin rutiinin sytopenia-seuranta |
-| Käsittelysuojaus | Monoklonaalisen vasta-aineen infuusion laitosvaatimukset; ei kuulu sytostaattisen kemoterapian käsittelymääräysten piiriin, mutta paikallisen vaarallisten lääkkeiden politiikan tulee varmistaa |
-
-*Tämä arviointi perustuu CTLA-4-estäjien vakiintuneeseen farmakologisen luokan profiiliin, koska lääkekohtaiset myrkyllisyystiedot eivät palautuneet tähän pakettiin (DG001/DG002).*
-
----
+| Kohta | Sisältö |
+|------|------|
+| Sytotoksisuusluokka | Immunoterapia (CTLA-4:ää estävä vasta-aine), ei tavanomainen sytotoksinen solunsalpaaja |
+| Luuydinsuppression riski | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Oksentelua aiheuttava vaikutus | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Seurantakohteet | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Käsittelysuojaus | Katso valmisteyhteenvedon varoitukset ja varotoimet |
 
 ## Turvallisuusnäkökohdat
 
-Katso tuotetiedotetta turvallisuustiedoista. (Tärkeät varoitukset, vasta-aiheet ja lääkkeiden yhteisvaikutustiedot merkittiin kaikki tietoaukkona tässä paketissa — DG001.)
+- **Lääkkeiden yhteisvaikutukset:** Yhteisvaikutuksia on löytynyt yhteensä 100. Tärkeimmät ovat:
+  - **Merkittävät (Major):** veren hyytymistä estävät lääkkeet, kuten apiksabaani, edoksabaani, betriksabaani, daltepariini, bivalirudiini, desirudiini, argatrobaani ja danaparoidi.
+  - **Kohtalaiset (Moderate):** kortikosteroidit (hydrokortisoni, deksametasoni, prednisoloni, prednisoni, betametasoni, triamsinoloni, budesonidi), metronidatsoli, tinidatsoli, naltreksoni sekä statiinit (rosuvastatiini, simvastatiini).
+- **Silmien immuunivälitteiset haitat:** Systeeminen tarkastuspisteen esto voi aiheuttaa uveiittia ja muuta silmätulehdusta, mikä olisi erityinen huolenaihe rappeutuvassa verkkokalvossa.
 
----
+Muiden varoitusten ja vasta-aiheiden osalta katso valmisteyhteenveto.
 
-## Johtopäätös ja seuraavat vaiheet
+## Huomio: toinen ennustettu käyttöaihe
 
-**Päätös: Edistä turvaraioin**
+Ennustelistan toisella sijalla on **ei-ihomelanooma** (TxGNN-pisteet 99,02 %), jolle on kertynyt selvästi enemmän näyttöä: 23 kliinistä tutkimusta ja 6 julkaisua. Mukana on esimerkiksi vaiheen 2 tutkimus NCT02626962, jossa nivolumabia ja ipilimumabia annettiin uveamelanoomapotilaille (52 potilasta). Näytön taso on kuitenkin vain alustavasti L1, koska vaiheen 3 tutkimus NCT02278887 koskee todennäköisesti solusiirtohoitoa, ja sen yhteys ipilimumabiin on epävarma. Alatyyppikohtainen näyttö on enimmäkseen L2–L3-tasoa. Tämä ennuste kannattaa arvioida erikseen.
 
-**Perustelut:**
-CTLA-4-estäjien mekanismi ei ole anatomisesti spesifinen, ja ipilimumab:lla on jo huomattava melanooman kokeilu- ja kirjallisuustuki, mukaan lukien yksi Phase 3 RCT (DREAMseq) ja omistettu näyttö uveaalisen/limakalvon/leptomeningaalisen alatyypeihin (PMID 24999899, NCT02939300). Kuitenkin useimmat 50 tutkimuksesta tutkivat melanoomaa laajasti pikemminkin kuin ei-ihoisia alatyyppi erityisesti, ja tämä kandidaatti on paremmin kehystetty olemassa olevan indikaation alaryhmän laajennukseksi kuin todella uudeksi uudelleenkäyttöhypoteesiksi — näin ollen turvaraioin eikä ehdoton Go.
+## Johtopäätös ja jatkotoimet
 
-**Jatkamista varten seuraava on tarpeellista:**
-- Virallinen vaikutusmekanismin vahvistus DrugBank:sta (DG002)
-- TFDA/Fimea-pakkausseloste varoitukset, vasta-aiheet ja DDI-tiedot (DG001)
-- Alaryhmä-stratifioitu teho-näyttö ei-ihoisen melanooman osalta (tällä hetkellä päätelty, ei suoraan ilmoitettu, useimmissa tutkimuksissa)
-- Vahvistus todellisesta Suomen/EU-markkinoinnista ja valtuutuksesta, koska "ei markkinoitu" täällä todennäköisesti heijastaa tietoaukkoa pikemminkin kuin todellista saatavuutta
+**Päätös: Hold (odota)**
 
+**Perustelu:**
+- Koroideremiaan ei ole kliinistä eikä kirjallisuusnäyttöä, ja mekanistinen yhteys puuttuu. Ennuste on vain malliperusteinen (L5), ja immuunivälitteisten silmähaittojen riski voi olla haitallinen rappeutuvalle verkkokalvolle.
+
+**Jatkotoimia varten tarvitaan:**
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet Fimean sivustolta.
+- Yksityiskohtaiset vaikutusmekanismitiedot (DrugBank).
+- Prekliinistä tai mekanistista näyttöä CTLA-4-reitin merkityksestä koroideremiassa. Ilman sitä ennustetta ei kannata viedä eteenpäin.
+- Erillinen arviointi ei-ihomelanooman ennusteelle, mukaan lukien tutkimusrekisterien tietojen tarkistus kokotekstien perusteella.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

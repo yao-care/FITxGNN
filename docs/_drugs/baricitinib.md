@@ -2,7 +2,7 @@
 layout: default
 title: Baricitinib
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 62
+nav_order: 68
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,69 +29,69 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# BARICITINIB: Lääkkeen uudelleenkäytön arviointi — Tiedonkeruu epätäydellinen
+# Baricitinibi: Nivelreumasta kolobomatoottiseen mikroftalmia-rhizomeeliseen dysplasiaoireyhtymään
 
-## Yhden lauseen yhteenveto
+## Yhden lauseen tiivistelmä
 
-BARICITINIB on JAK1/JAK2-inhibiittori, joka on hyväksytty useissa maissa reumatoiditta nivelreumaa ja muita tulehdussairauksia vastaan.
-Nykyinen Evidence Pack ei sisällä TxGNN-ennustetuloksia uusille indikaatioille, eikä lääkkeellä ole **markkinointilupaa Suomessa**.
-Täydellinen uudelleenkäytön arviointi ei ole mahdollista, kunnes estävät tietoaukot on korjattu.
+Baricitinibi on JAK1/JAK2-estäjä, jota on alun perin käytetty nivelreuman hoitoon. TxGNN-malli ennustaa sen mahdollisesti tehoavan **kolobomatoottiseen mikroftalmia-rhizomeeliseen dysplasiaoireyhtymään**, mutta ennusteen tueksi ei ole **yhtään kliinistä tutkimusta eikä julkaisua**. Ennuste perustuu pelkästään tietämysgraafipohjaiseen mallilaskentaan.
 
----
-
-## Pika-yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Ei saatavilla Evidence Packissa |
-| Ennustettu uusi indikaatio | TxGNN-ennusteita ei saatavilla |
-| TxGNN-ennusteen pistemäärä | N/A |
-| Todisteiden taso | L5 — Mallin tuotos puuttuu |
-| Suomen markkinatilanne | Ei markkinoitu |
-| Hyväksynnän lukumäärä | 0 |
-| Suositeltu päätös | Odota |
+|------|------|
+| Alkuperäinen käyttöaihe | Nivelreuma |
+| Ennustettu uusi käyttöaihe | Kolobomatoottinen mikroftalmia-rhizomeelinen dysplasiaoireyhtymä |
+| TxGNN-ennustepisteet | 99,94 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 |
+| Suositeltu päätös | Hold (odota) |
 
----
+## Miksi ennuste on perusteltu?
 
-## Miksi täyttä ennuste-analyysia ei voida suorittaa
+Tämän raportin laatimiseen koottu aineisto ei sisällä yksityiskohtaista vaikutusmekanismitietoa. Tiedossa on, että baricitinibi on JAK1/JAK2-estäjä, jonka teho nivelreumassa on osoitettu. Mekanistista yhteyttä tähän harvinaiseen kehityshäiriöoireyhtymään ei kuitenkaan voida aineiston perusteella osoittaa.
 
-Kaksi estävää tietoaukoa estävät vakiomukaisen arvioinnin:
+Ennusteen ainoa tuki on erittäin korkea TxGNN-pistemäärä (0,9994). Se on tietämysgraafiin perustuva laskennallinen ennuste, ei kliinistä näyttöä. Nivelreuma on autoimmuunisairaus ja ennustettu käyttöaihe synnynnäinen kehityshäiriö, joten niiden samankaltaisuutta ei ole voitu arvioida. Mahdollinen yhteys olisi spekulatiivinen ja vaatisi riippumattoman geneettisen ja biologisten signalointireittien validoinnin.
 
-**DG001 (Estävä):** Pakkausselosteen varoitukset ja vasta-aiheet eivät ole käsiteltyjä. Ilman tätä pakollinen S1-turvallisuusseulonta ei voida suorittaa, eikä uudelleenkäytön ehdokkaan arviointia voida turvallisesti jatkaa.
+Toinen TxGNN:n ennustama käyttöaihe on brakydaktylia-syndaktylia-oireyhtymä (pisteet 99,94 %). Sekin on tasolla L5 ilman tutkimuksia tai julkaisuja, ja sille on annettu suositus Hold.
 
-**DG002 (Korkea):** Toimintamekanismin tiedot DrugBankista eivät ole haettu. Ilman sitä on mahdotonta selittää, miksi BARICITINIB:in farmakologia voisi siirtyä uuteen indikaatioon — tämä on arviointikehyksen ydinvaatimus.
+## Kliininen tutkimusnäyttö
 
-Lisäksi `predicted_indications`-kenttä palautti tyhjän taulukon, mikä tarkoittaa, että TxGNN joko ei ole vielä ajettu tälle lääkkeelle tai se ei ole tuottanut rankattuja ehdokkaita. Kaikki seuraavat osiot (kliinisten tutkimusten evidenssi, kirjallisuuden evidenssi, ennustetun indikaation yleiskatsaus) riippuvat tästä tuloksesta eikä niitä voi täyttää.
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
----
+## Kirjallisuusnäyttö
 
-## Tiedot Suomen markkinoista
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
-BARICITINIB:lla ei tällä hetkellä ole **markkinointilupaa** Suomessa. Rekisterissä ei ole rekisteröityjä tuotteita, annostemuotoja tai hyväksyttyjä indikaatioita.
+## Markkinatiedot Suomessa
 
----
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004085 | Olumiant (Eli Lilly Nederland B.V.) | – | Nivelreuma (tila: peruutettu) |
 
-## Turvallisuushuomiot
+## Turvallisuusnäkökohdat
 
-Katso turvallisuustiedot pakkausselosteesta.
+Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut saatavilla, joten ne tulee tarkistaa valmisteyhteenvedosta.
 
----
+**Yhteisvaikutukset:** Yhteisvaikutushaku tuotti yhteensä 100 tulosta. Keskeisiä esimerkkejä:
+
+- **Merkittävä (Major):** kortikosteroidit, kuten hydrokortisoni, triamsinoloni (myös silmälääkemuoto), betametasoni, budesonidi, deksametasoni, prednisolon ja prednisoni. Lisäksi deferipronin sekä radioaktiivisten valmisteiden (ibritumomabi tiuksetaani, jobenguaani I-131, tositumomabi I-131) kanssa.
+- **Kohtalainen (Moderate):** morfiini (myös liposomaalinen), asetyylisalisyylihappo, nitisinoni ja oopiumi.
+- **Lievä (Minor):** sinkkiasetaatti, sinkkiglukonaatti ja sinkkisulfaatti.
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Odota**
+**Päätös: Hold (odota)**
 
-**Perustelu:**
-Evidence Pack on rakenteellisesti epätäydellinen — TxGNN-ennusteet puuttuvat ja Estävä-tason tietoaukko (DG001) estää turvallisuusseulonnan. Tämän ehdokkaan kehittäminen ilman näiden aukkojen ratkaisemista olisi metodologisesti kestämätöntä.
+**Perustelut:**
+- Ennuste perustuu pelkästään TxGNN-pisteisiin (taso L5), eikä tukena ole kliinisiä tutkimuksia, julkaisuja eikä osoitettua mekanistista yhteyttä. Lisäksi Suomen myyntiluvat on peruutettu ja turvallisuustiedot puutteellisia.
 
-**Jatkaakseen tarvitaan seuraavat:**
-
-- **[Estävä — DG001]** Lataa ja jäsennä BARICITINIB:n pakkausseloste PDF TFDA-verkkosivulta poimiaksesi varoitukset ja vasta-aiheet; tämä avaa S1-turvallisuusportin
-- **[Korkea — DG002]** Kysy DrugBank-ohjelmointirajapintaa BARICITINIB:lle (DB11817) saadaksesi toimintamekanismin, lääkkeen kategoriat ja myrkyllisyystiedot
-- **[Vaaditaan]** Aja TxGNN-malli DB11817:lle tuottamaan rankattuja ennustettuja indikaatioita; ilman `predicted_indications`, mitään uudelleenkäytön tavoitetta ei voida arvioida
-- **[Vaaditaan]** Suorita todisteiden keräämisprosessi uudelleen (kliiniset tutkimukset, kirjallisuus) kun ennustettu indikaatio on vahvistettu
-- **[Valinnainen]** Tarkista Fimec:in hyväksyntätilanne kansallisen lääketietokannan kautta mahdollisista viimeaikaisista hyväksynnöistä, joita tässä kyselysyklissä ei ole otettu huomioon
-
+**Eteneminen edellyttää seuraavaa:**
+- Vaikutusmekanismitiedon (MOA) täydentäminen esim. DrugBankista
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean sivuilta
+- Riippumaton geneettinen ja signalointireittien validointi ennustetun oireyhtymän ja JAK1/JAK2-estyksen välillä
+- Prekliiniset tutkimukset ennen kliinisten tutkimusten harkintaa
+- Reittien yhteensopivuuden ja lääkemuotojen arviointi (Suomessa ei tällä hetkellä voimassa olevaa myyntilupaa)
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

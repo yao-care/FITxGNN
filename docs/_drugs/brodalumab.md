@@ -2,7 +2,7 @@
 layout: default
 title: Brodalumab
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 78
+nav_order: 85
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,77 +29,95 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Brodalumab: kohteesta [Original Indication Not on File] Strongyloidiaasiin (merkitty turvavaroitukseksi, ei vahvistetuksi mahdollisuudeksi)
+# Brodalumabi: Psoriaasista ennustettuun strongyloidiaasiin
 
 ## Yhden lauseen yhteenveto
 
-Brodalumab on anti-IL-17RA-monoklonaalinen vasta-aine; Evidence Pack -paketti ei sisällä täytettyjä `original_indications`-kenttiä, joten sen alkuperäisen hyväksynnän käyttöindikaatiota ei voida jäljittää tässä tietojoukossa. TxGNN-mallin parhaiten sijoitettu "uusi indikaatio", **Strongyloidiasis**, on tuettu **0 kliinisellä tutkimuksella** ja **0 julkaisulla**, ja mallin omassa uudelleenkäyttöperustelossa todetaan, että tämä assosiaatio on *mekanistisesti käänteinen* — IL-17-signaalointi on suojaava ruoansulatuskanavan helminttiinfektioita vastaan, joten IL-17RA:n estämisen odotetaan **pahentavan**, ei parantavan, strongyloidiaasia. Tämä kandidaatti tulee lukea mahdolliseksi farmakovigilanssi-signaaleiksi, ei uudelleenkäyttömahdollisuudeksi.
+Brodalumabi on IL-17-reseptori A:n salpaaja, jota on alun perin käytetty psoriaasin hoitoon. TxGNN-malli ennustaa sen mahdollisesti tehoavan **strongyloidiaasiin**, mutta ennusteen tueksi ei ole **yhtään kliinistä tutkimusta eikä julkaisua**. Ennuste perustuu pelkästään laskennalliseen malliin.
 
 ---
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
-| Kohde | Sisältö |
+| Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Ei dokumentoitu tässä Evidence Pack -paketissa (`original_indications` tyhjä, `original_moa` = Data Gap; lääkettä ei ole markkinoitu Suomessa) |
-| Ennustettu uusi indikaatio | Strongyloidiasis |
-| TxGNN-ennusteen pistemäärä | 99.84% |
-| Todistusaste | L5 (vain mallin ennuste, ei tukevia tutkimuksia) |
-| Suomen markkinatilanne | Ei markkinoitu (Ei markkinoitu) |
-| Hyväksynnän määrä | 0 |
-| Suositeltu päätös | Odottava |
+| Alkuperäinen käyttöaihe | Psoriaasi |
+| Ennustettu uusi käyttöaihe | Strongyloidiaasi |
+| TxGNN-ennustepistemäärä | 99,84 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Miksi tämä ennuste on järkevä?
+## Miksi ennuste voisi olla perusteltu?
 
-Tällä hetkellä yksityiskohtaisia vaikutusmekanismitietoja brodalumaabille ei ole saatavilla tässä Evidence Pack -paketissa (`original_moa` = Data Gap). Uudelleenkäyttöperustelun kenttiin upotettujen tietojen perusteella brodalumaabi on kuvattu anti-IL-17RA-monoklonaaliksi vasta-aineeksi, eli IL-17-reseptorisignaloinnin täydelliseksi estäjäksi — samaa luokkaa kuin secukinumab ja ixekizumab, jotka kohdistuvat IL-17-välitteisiin tulehduksellisiin sairauksiin, kuten plakeksi psoriasisiin ja psoriaasiniveliöihin.
+Tämän raportin laadintaa varten koottuna ei ole saatavilla yksityiskohtaista vaikutusmekanismia. Brodalumabi on tiettävästi IL-17-reseptori A:ta salpaava vasta-aine, jonka teho psoriaasissa on osoitettu.
 
-Parhaiten sijoitetun ennusteen, **strongyloidiaasian**, osalta mekanistinen suunta kulkee vastakkaiseen suuntaan terapeuttiseen hypoteesiin verrattuna. IL-17 on keskeinen isäntäpuolustuksen sytokiini ekstrasellulaarisia loisia vastaan, mukaan lukien *Strongyloides stercoralis*. IL-17RA:n estämisen odotetaan heikentävän helminti-vastustusta ja voisi uskottavasti *lisätä* infektioriski tai hyperinfektiosyndrooma alttiille potilaille — tunnettu IL-17-estäjien luokkakohtainen huolenaihe — sen sijaan että se antaisi terapeuttisen hyödyn. Evidence Pack -paketin oma perustelu merkitsee eksplisiittisesti tämän olevan "todennäköisesti käänteinen tai sekaantunut assosiaatio TxGNN-tietokannassa" todellisen hoitosignaalin sijaan, eikä mitään kliinisiä tutkimuksia, ICTRP-tietueita tai kirjallisuutta ole, joka vastustautuisi tälle tulkinnalle.
-
-Jäljellä olevat ehdokkaat top-10-listalla noudattavat samankaltaista mallia: useimmat ovat harvinaisia oftalmologisia/optisen hermon sairauksia (esim. von Hippel anomaly, optinen perineuriitti, episkleriitin alatyyppi) ilman kliinisiä tai kirjallisuustodisteita (L5), ja useissa on sama suunnanmukainen varoitus — IL-17-estäjillä luokkana on dokumentoidut tapausraportit, jotka laukaisevat tai pahentavat demyelinisaatio-/optisen neuriitti-tyyppisiä tapahtumia, jotka tekevät näistä assosiaatioista turvatutkimussignaaliehdokkaita pikemminkin kuin uudelleenkäyttömahdollisuuksia. Sijoitus 2, "silmäsairaus", sisältää yhden linkitetyn tutkimuksen ja yhden julkaisun, mutta tutkimus on yleinen immuuni-välitteisen ihosairauden rekisteri (SKINERGY), joka ei liity oftalmologiaan, ja kirjallisuus on yleinen IL-17-esto-katsaus — kumpikaan ei muodosta tautikohtaisia todisteita.
+Strongyloidiasis-infektion hallinta perustuu pääosin Th2-vasteeseen. IL-17-signalointi osallistuu joiltain osin limakalvojen immuunipuolustukseen ja loisten torjuntaan, mutta IL-17:n salpauksen ei odoteta hyödyttävän tässä taudissa. Teoriassa se voisi jopa heikentää isännän puolustusta. Suora mekanistinen yhteys puuttuu, ja korkea pistemäärä on todennäköisesti laskennallinen artefakti.
 
 ---
 
-## Kliinisten tutkimusten evidenssi
+## Kliinisen tutkimuksen näyttö
 
-Tällä hetkellä ei ole liittyviä kliinisiä tutkimuksia rekisteröityinä.
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
 ---
 
-## Kirjallisuuden evidenssi
+## Kirjallisuusnäyttö
 
-Tällä hetkellä liittyvää kirjallisuutta ei ole saatavilla.
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta strongyloidiaasin osalta.
+
+Muista ennustetuista käyttöaiheista (sijat 2–10) on löytynyt vain epäsuoraa aineistoa, joka koskee silmäsairauksia:
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [42576218](https://pubmed.ncbi.nlm.nih.gov/42576218/) | 2026 | Prekliininen (eläinmalli) | Journal of Translational Medicine | IL-17-reseptorin salpaus brodalumabilla rajoitti kokeellista parodontiittia |
+| [41770262](https://pubmed.ncbi.nlm.nih.gov/41770262/) | 2026 | Tapausselostus | Rheumatology International | Behçetin tauti kehittyi paradoksaalisena reaktiona brodalumabin aloituksen jälkeen potilaalla, jolla oli krooninen ei-bakteerinen osteiitti |
+| [41916603](https://pubmed.ncbi.nlm.nih.gov/41916603/) | 2026 | Lääketurvatoiminta-analyysi | Canadian Journal of Ophthalmology | Systeemilääkkeiden yhteys raportoituihin uveiittitapauksiin |
+
+Nämä julkaisut viittaavat pikemminkin mahdolliseen haittasignaaliin kuin hoitohyötyyn, eivätkä ne tue strongyloidiaasin ennustetta.
 
 ---
 
 ## Suomen markkinatiedot
 
-Brodalumaabilla on 0 rekisteröityä hyväksyntää, eikä sitä ole tällä hetkellä markkinoitu Suomessa (`total_licenses: 0`, `licenses: []`). Tuotetason hyväksynnän tietoja ei ole saatavilla.
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/003959 | Kyntheum | – | Psoriaasi (tila: peruutettu) |
 
 ---
 
 ## Turvallisuushuomiot
 
-Turvallisuu­stiedoista katso pakkauksessa olevaa selosteesta.
+- **Tietokannan vasta-aiheet (tietämysgraafi, ei valmisteyhteenvetoa):** Crohnin tauti, tulehduksellinen suolistosairaus ja Crohnin koliitti.
+- **Yhteisvaikutukset:** Yhteensä 68 yhteisvaikutusta. Merkittäviä (Major) ovat mm.:
+  - adalimumabi
+  - barisitinibi
+  - sertolitsumabipegoli
+  - BCG-rokote (elävä)
+  
+  Kohtalaisia (Moderate) ovat mm. roflumilasti, anakinra, alemtutsumabi, kanakinumabi sekä useat rokotteet. Sinkkivalmisteet ovat vähäisiä (Minor).
 
-Huomio: tämä Evidence Pack -paketti merkitsee TFDA-merkinnän varoituksia/kontraindikaatioita **estäviksi** tietovajiksi (DG001) — turvallisuuden esiarviointi (S1) ei voi edetä, kunnes pakkauksen seloste on haettu ja jäsennetty. Lääkkeen interaktioiden haku ei myöskään palauttanut tuloksia (`query_status: not_found`).
+Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla. Katso lisätiedot valmisteyhteenvedosta.
 
 ---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Odottava**
+**Päätös: Hold (odota)**
 
-**Perustelu:**
-Parhaiten sijoitetulla ennusteella (strongyloidiasis) ei ole tukevia kliinisiä tai kirjallisuustodisteita (L5) ja sen oma mekanistinen perustelu osoittaa vastakkaiseen suuntaan — turvariskiin pikemminkin kuin terapeuttiseen hyötyyn. Mikään ehdokas top-10-listalla ei saavuta todistusastetta L4:ää korkeammaksi, ja ainoa ehdokas, jolla on liittyviä todisteita ("silmäsairaus", L4), ei ole tautikohtainen ja näyttää heijastavan tietokantavastaavuuden epäsuhta.
+**Perustelut:**
+- Strongyloidiaasille ei ole kliinistä eikä kirjallisuusnäyttöä, ja mekanistinen logiikka viittaa jopa mahdolliseen haittaan (isännän puolustuksen heikkeneminen). Suomessa ainoa myyntilupa on peruutettu.
+- Myös muille ennustetuille käyttöaiheille (esim. silmäsairaudet, näköhermon tulehdukset) näyttö on L4–L5-tasoa, ja löydetty aineisto viittaa osin paradoksaalisiin haittoihin.
 
-**Jatkaakseen tarvitaan seuraavaa:**
-- Hae ja jäsennä TFDA/Fimea-pakkauksen seloste sulkeaksesi estävän turvatietovajeen (DG001) ennen S1-arviointia
-- Hanki vahvistetut vaikutusmekanismitiedot DrugBankista (DG002) arvioidaksesi mekanistista uskottavuutta kunnolla
-- Jos "silmäsairaus" jatketaan, supista ensin se tiettyyn IL-17-linkitettyyn silmädiagnoosiin (esim. uveiitti) ja kysy uudelleen tutkimuksia/kirjallisuutta tätä spesifiiä termia vastaan
-- Ohjaa strongyloidiaasian assosiaatio farmakovigilanssi-/signaali-ilmaisun tarkistukseen pikemminkin kuin uudelleenkäyttöputkeen sen mekanistisesti käänteisen suunnan vuoksi
-
+**Eteenpäin siirtyminen edellyttää:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimealta (estävä tietoaukko)
+- Vaikutusmekanismin tietojen täydentämistä (esim. DrugBankista)
+- Prekliinistä tai mekanistista näyttöä IL-17RA-salpauksen vaikutuksesta loisinfektioiden immuniteettiin
+- Crohnin taudin ja tulehduksellisen suolistosairauden vasta-aiheiden huomioimista kaikessa jatkoarvioinnissa
+- Mahdollisesti lupaavampien ennustettujen käyttöaiheiden (esim. uveiitti, tulehdukselliset näköhermosairaudet) täsmällisempää määrittelyä, koska "silmäsairaus" on liian laaja luokka
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

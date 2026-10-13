@@ -2,7 +2,7 @@
 layout: default
 title: Brigatinib
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 75
+nav_order: 82
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,73 +29,101 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Brigatinib: ALK-positiivisesta ei-pienisoluisesta keuhkosyövästä gingivaaliseen fibromatoosiin
+# Brigatinibi: Ei-pienisoluisesta keuhkosyövästä ikenen fibromatoosiin (ennuste)
 
 ## Yhden lauseen yhteenveto
 
-Brigatinib on uuden sukupolven ALK/ROS1-tyrosiinikinaasin estäjä, joka on alun perin kehitetty ALK-positiiviselle ei-pienisoluiselle keuhkosyövälle (NSCLC). TxGNN-mallin korkein-sijoitettu ennuste ehdottaa mahdollista relevanssia **Fibromatosis, Gingival** -tautiin, joka on hyvänlaatuinen sidekudoksen liikakasvun häiriö, mutta tätä suuntaa tukee tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua**, ja mallin oma mekanistinen perusteltu osoittaa, että näiden kahden välillä ei ole tunnetua biologista yhteyttä.
+Brigatinibi on ALK-estäjä, jota on alun perin käytetty ei-pienisoluisen keuhkosyövän (NSCLC) hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **ikenen fibromatoosiin** (ennustepisteet 99,89 %), mutta tälle ennusteelle ei ole **yhtään kliinistä tutkimusta eikä julkaisua**.
+Ennuste perustuu pelkästään tietämysgraafiin, ja näyttö on tasoa **L5**.
 
-## Nopea yleiskatsaus
+---
+
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | ALK-positiivinen ei-pienisoluinen keuhkosyöpä (NSCLC)* |
-| Ennustettu uusi indikaatio | Fibromatosis, Gingival |
-| TxGNN-ennusteen pistemäärä | 99.89% (globaali sijoitus 1633) |
-| Todisteiden taso | L5 (vain mallin ennuste, ei kliinistä tai kirjallisuustukea) |
-| Suomen markkinoiden tila | ✗ Ei markkinoilla |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Odota |
+|------|------|
+| Alkuperäinen käyttöaihe | Ei-pienisoluinen keuhkosyöpä (NSCLC) |
+| Ennustettu uusi käyttöaihe | Ikenen fibromatoosi (fibromatosis, gingival) |
+| TxGNN-ennustepisteet | 99,89 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-*Viralliset `original_indications` ja `original_moa` -kentät on merkitty tämän todistepaketin tietovajeiksi (DG002, korkea vakavuus). Alkuperäinen indikaatio yllä on päätelty tämän paketin muualla olevista kirjallisuusviitteistä (katso sijoitus 5), ei koodatusta lähteestä.
+---
 
-## Miksi tämä ennuste on järkevä?
+## Miksi ennuste on (tai ei ole) perusteltu?
 
-Brigatiniibin virallinen toimintamekanismin tietue on merkitty tietovajeeksi tässä todistepakettissa (DG002, korkea vakavuus). Tässä paketissa muualla olevan kirjallisuuden perusteella brigatiniibin tiedetään toimivan uuden sukupolven ALK/ROS1-tyrosiinikinaasin estäjänä, jolla on aktiivisuus tiettyjä EGFR-mutaatioita vastaan, ja sen tehokkuus ALK-positiivisessa NSCLC:ssä on hyvin selvitetty valmistuneiden vaiheen 3 tutkimusten kautta (esim. ALTA-1L, ALTA-3).
+Brigatinibin tarkkaa vaikutusmekanismia ei ole tämän raportin aineistossa saatavilla. Tiedetään kuitenkin, että brigatinibi on toisen sukupolven ALK-tyrosiinikinaasin estäjä, jonka teho ALK-positiivisessa NSCLC:ssä on osoitettu vaiheen 3 ALTA-1L-tutkimuksessa.
 
-Gingivaali fibromatoosi on kuitenkin hyvänlaatuinen sidekudoksen liikakasvun häiriö ilman tunnettua kuljettaja-kinaasien patologiaa, eikä se ole yhteydessä ALK-, ROS1- tai EGFR-signalointiin. Todistepaketin oma mekanistinen perusteltu tälle ennusteelle toteaa nimenomaisesti, että lääkkeen kinaasin esto-aktiivisuuden ja tämän taudin välillä ei ole "tunnetua mekanistista assosiaatiota".
+Ikenen fibromatoosin ja ALK-positiivisen keuhkosyövän välille ei ole tunnistettu mekanistista yhteyttä. Hyvin korkeat ennustepisteet heijastavat todennäköisesti tietämysgraafin rakennetta, eivät biologista perustetta. Ennuste on siksi hypoteesi, ei näyttöön perustuva johtopäätös.
 
-Koska sekä mekanistinen perusteltu että todisteiden tietue (nolla tutkimusta, nolla kirjallisuutta) viittaavat pois uskottavuudesta, tämä sijoitus-1-ennuste tulisi käsitellä matalan varmuuden mallin artefaktina eikä todellisen uudelleenkäytön signaalina, eikä muita toimintoja vaadita tässä vaiheessa paitsi seurantaa.
+Aineistossa on muita ennusteita, joiden tueksi on jonkin verran kirjallisuutta (esim. NF2-liitännäinen schwannomatoosi, ALK-muutoksia sisältävät muut kasvaimet). Ne eivät kuitenkaan koske ensisijaista ennustetta.
 
-## Kliinisten tutkimusten todisteet
+---
 
-Ei tällä hetkellä olemassa olevia asiaan liittyviä kliinisiä tutkimuksia
+## Kliininen tutkimusnäyttö
 
-## Kirjallisuustodisteet
+Ei tällä hetkellä rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
-Ei tällä hetkellä saatavilla olevaa asiaan liittyvää kirjallisuutta
+---
+
+## Kirjallisuusnäyttö
+
+Ei tällä hetkellä aiheeseen liittyvää kirjallisuutta.
+
+---
 
 ## Suomen markkinatiedot
 
-Brigatinibia ei ole tällä hetkellä markkinoilla Suomessa — hyväksyntöjä ei ole saatavilla (0 lisenssejä).
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004248 | Alunbrig (peruutettu) | – | Ei-pienisoluinen keuhkosyöpä |
+
+---
 
 ## Sytotoksisuus
 
 | Kohta | Sisältö |
-|------|---------|
-| Sytotoksisuusluokitus | Kohdistettu hoito (ALK/ROS1-tyrosiinikinaasin estäjä) |
-| Myelosortuuman riski | Katso pakkausliitteen varoitukset ja varotoimet |
-| Emetogenisuusluokitus | Katso pakkausliitteen varoitukset ja varotoimet |
-| Valvontakohdat | Katso pakkausliitteen varoitukset ja varotoimet |
-| Käsittelyn suojaus | Katso pakkausliitteen varoitukset ja varotoimet |
+|------|------|
+| Sytotoksisuusluokitus | Kohdennettu hoito (ALK-tyrosiinikinaasin estäjä) |
+| Luuydinlamaus | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Oksentelua aiheuttava vaikutus | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Seurantakohteet | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Käsittelysuojaus | Noudatettava sairaalan ohjeita syöpälääkkeiden käsittelystä |
 
-## Turvallisuuden näkökulmat
+---
 
-Katso pakkausliitteen turvallisuustietoja.
+## Turvallisuusnäkökohdat
 
-## Johtopäätös ja seuraavat vaiheet
+- **Lääkeyhteisvaikutukset:** Yhteisvaikutuksia on kirjattu yhteensä 100. Merkittävimpiä (vaikeusaste "Major") ovat:
+  - aprepitantti
+  - deksametasoni
+  - klaritromysiini
 
-**Päätös: Odota**
+  Lisäksi kohtalaisia (Moderate) yhteisvaikutuksia on mm. seuraavien kanssa: happamuutta vähentävät lääkkeet (famotidiini, ranitidiini, rabepratsoli, simetidiini), diabeteslääkkeet (metformiini, pioglitatsoni, akarboosi, alogliptiini, kanagliflotsiini, dapagliflotsiini), loperamidi ja morfiini.
+- **Muu turvallisuussignaali:** Kirjallisuudessa on raportoitu kuolemaan johtanut tuumorilyysioireyhtymä brigatinibihoidon yhteydessä keuhkoadenokarsinoomapotilaalla (tapausselostus, PMID 34987411).
+
+Muilta osin tarkista turvallisuustiedot valmisteyhteenvedosta.
+
+---
+
+## Johtopäätös ja jatkotoimet
+
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Sijoitus-1 ennustetulla indikaatiolla (gingivaali fibromatoosi) ei ole tukevia kliinisiä tutkimuksia tai kirjallisuutta, ja mallin oman mekanistisen perustelun mukaan ei ole tunnettu biologista linkkiä brigatiniibin ALK/ROS1-kinaasin esto-aktiivisuuteen — tämä on L5-tasoinen, pelkästään malliin perustuva signaali ilman todellisen maailman vahvistusta.
+- Ennusteella on korkeat pisteet mutta ei yhtään kliinistä tutkimusta, julkaisua tai tunnistettua mekanistista yhteyttä. Näyttö on vain mallipohjaista (L5).
+- Valmisteen myyntilupa Suomessa on peruutettu, ja valmisteyhteenvedon turvallisuustietoja ei ole saatavilla.
 
-**Jatkaaksesi, seuraava on tarpeen:**
-- TFDA/Fimea pakkausliitteen varoitukset, vasta-aiheet ja yhteisvaikutustiedot (DG001, Estävä — tällä hetkellä täysin puuttuvat)
-- Vahvistettu DrugBank-toimintamekanismi ja lääkkeen luokittelu (DG002)
-- Jos uudelleenkäytön tutkimus jatkuu, uudelleenluokitele paketin matalammin sijoitetut ehdokkaat todellisen kirjallisuuden kanssa (Sijoitukset 5, 8, 10) — niiden tauditunnisteet näyttävät olevan ontologian virheistöjä, jotka peittävät todellista ALK-estäjä-evidenssiä (esim. NF2-liittyvä schwannomatoosi sijoituksessa 10), joka voi olla lupaavampi kuin huipulla sijoittunut ehdokas
-- Kaikki prekliiniset tai mekanistiset tiedot, jotka nimenomaisesti yhdistävät ALK/ROS1/EGFR-polkuja gingivaali fibromatoosin patologiaan, koska niitä ei tällä hetkellä ole olemassa
+**Jatkoon tarvitaan:**
+- Vaikutusmekanismin (MOA) tiedot, esimerkiksi DrugBankista
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet Fimean sivustolta
+- Biologisen perustelun selvittäminen ALK-signaloinnin ja ikenen fibromatoosin välillä
+- Prekliininen tutkimus ennen kliinisiä suunnitelmia
 
+**Huomio muista ennusteista:** NF2-liitännäinen schwannomatoosi (mm. NEJM 2024 -tapaussarja ja prekliiniset tulokset) ja ALK-muutoksia sisältävät muut kasvaimet ovat selvästi vahvempia jatkotutkimuksen aiheita kuin ensisijainen ennuste. Niiden näyttö on kuitenkin rajallista, eikä se koske suoraan tässä arvioitua käyttöaihetta.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

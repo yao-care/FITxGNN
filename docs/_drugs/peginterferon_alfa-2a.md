@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Peginterferon Alfa-2A
-parent: Vahva näyttö (L1-L2)
-nav_order: 289
-evidence_level: L1
+parent: Kohtalainen näyttö (L3-L4)
+nav_order: 335
+evidence_level: L4
 indication_count: 10
 ---
 
 # Peginterferon Alfa-2A
 {: .fs-9 }
 
-Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,107 +29,136 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Peginerfoni alfa-2a: Kroonisesta hepatiitista C krooniseen hepatiittiin B
+# Peginterferoni alfa-2a: Kroonisesta hepatiitti C:stä hepatiitti B -virusinfektioon
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-> Peginerfoni alfa-2a (DrugBank DB00008, tuotenimi Pegasys) on pegyloidun interferonin muoto, jonka alkuperäinen käyttötarkoitus on kroonisen hepatiitin C hoito.
-> TxGNN-malli ennustaa sen voivan olla tehokas myös **kroonisen hepatiitin B (hepatiitti B -viruksen infektio)** hoidossa,
-> ja tätä puoltaa tällä hetkellä **50 kliinistä tutkimusta** ja **20 julkaisua** — vahvin todisteiden kanta kaikista kymmenen ehdokasindikraatiosta tässä todistelypakissa.
-> Huomionarvoista on, että mukaan liittyvä perusteluteksti osoittaa, ettei tämä ole puhtaasti uusi signaali: Peginerfoni alfa-2a on jo kansainvälisesti hyväksytty hoito krooniselle hepatiitille B, joten TxGNN on itse asiassa uudelleen tunnistanut tunnetun, kliinisesti validoidun indikraation.
+Peginterferoni alfa-2a on pitkävaikutteinen interferoni, jota on käytetty kroonisen hepatiitti C:n, kroonisen hepatiitti B:n, aitoa punasolutaudin (polycythemia vera) ja essentiaalisen trombosytemian hoitoon.
+TxGNN-malli ennustaa sen tehoavan **hepatiitti B -virusinfektioon**. Ennuste vahvistaa pääosin jo myyntiluvassa olevan käyttöaiheen, eikä kyse ole varsinaisesta uudelleenkäytöstä.
+Tätä tukee tällä hetkellä **20 kliinistä tutkimusta** ja **20 julkaisua**, joista osa on satunnaistettuja tutkimuksia.
 
 ---
 
-## Pikayleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikraatio | Krooninen hepatiitti C *(vakiintunut julkinen lääketiedon lähde; ei kirjattu jäsennellyiksi todisteasteiksi — ks. tietoaukko DG002)* |
-| Ennustettu uusi indikraatio | Hepatiitti B -viruksen infektio (krooninen hepatiitti B) |
-| TxGNN-ennustuspistemäärä | 99,94 % |
-| Todisteasteen taso | L1 |
-| Suomen markkinoiden tila | ✗ Ei markkinoilla |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Jatka varauksellisesti |
+| Alkuperäinen käyttöaihe | Krooninen hepatiitti C, krooninen hepatiitti B, aito punasolutauti, essentiaalinen trombosytemia |
+| Ennustettu uusi käyttöaihe | Hepatiitti B -virusinfektio |
+| TxGNN-ennustepistemäärä | 99,94 % |
+| Näytön taso | L1 (huomautus: katso alla) |
+| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Proceed with Guardrails (eteneminen suojatoimin) |
 
 ---
 
-## Miksi tämä ennustus on järkevä?
+## Miksi ennuste on perusteltu?
 
-Yksityiskohtaista vaikutusmekanismia koskevaa tietoa ei ole saatavilla todistelypakissa (tietoaukko DG002, korkea vakavuus). Yleisesti tunnetun farmakologisen tiedon perusteella peginerfoni alfa-2a on pegyloidun muodon rekombinantti-interferoni alfa-2a. Se yhdistää **suoraa viruksen vastaista aktiivisuutta** (interferonin indusoimien geenien aktivaatio, jotka estävät viruksen replikaatiota) ja **immuuni-modulaatiovaikutuksiin** (NK-solujen aktivaatio ja Th1-vinoutuvan immuunivasteen edistäminen, joka ajaa HBeAg-serokäännöstä). Tämän ehdokkaan mukaan toimitetun uudelleenkäyttöperustelun mukaan: *"Peginerfoni alfa-2a:lla on kaksois-mekanismi — HBV-replikraation suora viruksen vastainen suppressio sekä immuuni-modulaatio — mikä on HBV-hoidon ytimen farmakologinen perusta. Tämä on jo hyväksytty lääkkeen indikraatio, ei puhtaasti uusi ennustus."*
+Tämän lääkkeen yksityiskohtaista vaikutusmekanismia ei ole tällä hetkellä saatavilla. Tunnetun tiedon perusteella peginterferoni alfa-2a on interferoniluokan lääke, jolla on immuunivastetta muokkaavia ja virusten lisääntymistä estäviä vaikutuksia. Se indusoi interferonin säätelemiä geenejä ja voimistaa HBV-spesifisiä T- ja NK-soluvasteita.
 
-Krooninen hepatiitti B ja krooninen hepatiitti C ovat molemmat hepatotropiset virustartunnat, jotka jakavat interferoni-pohjaisille viruksen vastaisille/immuuni-moduloiville hoitokäytäntöille rakennetun päällekkäisen hoitoparadigman. Tämä mekanistinen päällekkäisyys selittää, miksi lääkkeen hepatiitin C todisteiden pohjalle pääasiassa koulutettu malli nostaisi myös hepatiitin B pintaan hyvin korkealla varmuudella.
+Krooninen hepatiitti B on jo lääkkeen alkuperäinen käyttöaihe. Ennuste on siis pikemminkin vahvistus olemassa olevalle käytölle kuin uusi löydös. Samaa mekanismia hyödynnetään myös hepatiitti C:n hoidossa, joten viruksen vastainen vaikutus on uskottava myös hepatiitti B:ssä.
 
-Yhdenmukainen tämän kanssa, peginerfoni alfa-2a (Pegasys) on hyväksytty kroonisen hepatiitin B hoitoon monilla maailmanlaajuisilla markkinoilla, ja alla oleva kliinisten tutkimusten rekisteri näyttää kypsää, vuosikymmeniä kestävää vaihe 3/4:n todistelua HBeAg-positiivisten ja HBeAg-negatiivisten kroonisen hepatiitin B väestöjen parissa — mikä vahvistaa, että TxGNN-signaali heijastaa aidon, kliinisesti vahvistetun farmakologian sijaan spekulatiivista uudelleenkäyttöhypoteesia.
+Käytännön hoidossa tarvitaan potilasvalintaa (HBeAg-status, HBsAg-taso, genotyyppi) sekä hoidon lopetussääntöjä.
 
 ---
 
-## Kliinisen tutkimuksen todisteet
+## Kliininen tutkimusnäyttö
 
-| Tutkimuksen numero | Vaihe | Tila | Osallistujamäärä | Keskeiset havainnot |
+Alla on keskeisimmät hepatiitti B:tä koskevat tutkimukset. Mukana on myös rekisteröityjä tutkimuksia, joiden kohteena on osin muu virus tai joiden tulokset eivät ole julkisesti saatavilla.
+
+| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT01011738](https://clinicaltrials.gov/study/NCT01011738) | N/A (Havainnoiva) | Valmis | 1 842 | Suuri monipuolinen kohortti, joka arvioi hoidon aikaisia vastaindikaattoreita Pegasysin vasteelle HBeAg-positiivisissa ja HBeAg-negatiivisissa KHB-tapauksissa; arvioi myös tehokkuutta ja turvallisuutta. |
-| [NCT00435825](https://clinicaltrials.gov/study/NCT00435825) | Vaihe 4 | Valmis | 551 | 4-rinnakkainen satunnaistettu kontrolloitu tutkimus vertaamalla PEGASYS 90 vs. 180 mcg 24 vs. 48 viikolla; arvioi HBeAg-serokäännöstä ja turvallisuutta HBeAg-positiivisessa KHB:ssa. |
-| [NCT02604823](https://clinicaltrials.gov/study/NCT02604823) | Vaihe 4 | Valmis | 307 | Pegasysin tehokkuus ja turvallisuus hoitamattomilla, interferoni- tai lamividiinikäsitellyillä HBeAg-positiivisilla KHB-potilailla (48 viikon hoito + 24 viikon seuranta). |
-| [NCT01086085](https://clinicaltrials.gov/study/NCT01086085) | Vaihe 4 | Valmis | 265 | Vasteeseen perustuva hoitostutkimus — nopeat vastajat suorittivat 48 viikon kokonaishoito; hitaat vastajat satunnaistettiin joko pidennettyyn Pegasys-monoterapiaan tai Pegasys + adefovir-yhdistelmään. |
-| [NCT02822547](https://clinicaltrials.gov/study/NCT02822547) | Vaihe 4 | Tuntematon | 253 | Korean tutkimus tunnistamaan kelpoisia henkilöitä Pegasysin hoidon vastavasteeseen perustuvan keskeyttämisen säännölle KHB:ssa. |
-| [NCT00940485](https://clinicaltrials.gov/study/NCT00940485) | Vaihe 4 | Valmis | 200 | Vertasi yhdistelmä- vs. peräkkäistä Pegasys + entekaviiria-hoitoa HBeAg-positiivisilla KHB-potilailla, joita oli ennenkin käsitelty entekaviirillla. |
-| [NCT02908763](https://clinicaltrials.gov/study/NCT02908763) | Vaihe 4 | Tuntematon | 200 | Tutkittiin peginerfoni alfa-alfa-kyvyn saavuttaa HBsAg-häviö/serokäännös matalan replifikaation KHB:ssa, jolla on matalat HBsAg-tasot. |
-| [NCT00973219](https://clinicaltrials.gov/study/NCT00973219) | N/A | Valmis | 151 | Peg-IFN + adefovir vs. Peg-IFN + tenofovir vs. ei hoitoa -ryhmien satunnaistettu kontrolloitu tutkimus HBeAg-negatiivisessa KHB:ssa, jolla on matala viraalikuormitus. |
-| [NCT01706575](https://clinicaltrials.gov/study/NCT01706575) | Vaihe 2b | Valmis | 76 | Avoin tutkimus Pegasysin lisäämisestä nukleosidi(t)di-analogihoidon päälle HBeAg-negatiivisessa genotyyppi D KHB:ssa, jossa HBV-DNA oli pysyvästi suppressoitu; arvioi HBsAg-laskua. |
-| [NCT00436163](https://clinicaltrials.gov/study/NCT00436163) | Vaihe 4 | Valmis | 39 | Baltian jälkimarkkinointi-ohjelma Pegasysin 180 mcg viikoittaisen tehokkuuden/turvallisuuden arvioimiseksi, jota ei ollut ennen käsiteltyjen HBeAg-positiivisten ja -negatiivisten KHB-potilaiden parissa. |
+| [NCT02604823](https://clinicaltrials.gov/study/NCT02604823) | Vaihe 4 | Valmistunut | 307 | Tehon ja turvallisuuden arviointi HBeAg-positiivisessa kroonisessa hepatiitti B:ssä, 48 viikon hoito ja 24 viikon seuranta |
+| [NCT00614471](https://clinicaltrials.gov/study/NCT00614471) | Vaihe 4 | Valmistunut | 219 | Satunnaistettu tutkimus: peginterferoni + entekaviiri hoitoa saamattomilla HBeAg-positiivisilla potilailla |
+| [NCT02474316](https://clinicaltrials.gov/study/NCT02474316) | Vaihe 4 | Tuntematon | 366 | Nukleosidianalogihoidosta siirtyminen peginterferoni + NA -yhdistelmään, HBeAg-serokonversio |
+| [NCT02560649](https://clinicaltrials.gov/study/NCT02560649) | Vaihe 4 | Tuntematon | 324 | Vasteohjattu hoitostrategia NUC-hoitoa saaneilla potilailla, HBsAg:n häviäminen |
+| [NCT03181113](https://clinicaltrials.gov/study/NCT03181113) | Ei määritelty | Valmistunut | 473 | Pitkäaikaishyöty HBeAg-positiivisilla potilailla aiemman peginterferonihoidon jälkeen |
+| [NCT02097004](https://clinicaltrials.gov/study/NCT02097004) | Vaihe 4 | Valmistunut | 111 | Terapeuttinen rokotus + peginterferoni entekaviirivasteen saavuttaneilla, HBsAg-serokonversio |
+| [NCT03084250](https://clinicaltrials.gov/study/NCT03084250) | Vaihe 4 | Tuntematon | 150 | Satunnaistettu tutkimus kirroosipotilailla, joilla on suuri maksasyöpäriski: NA + peginterferoni vs. pelkkä NA |
+| [NCT02570191](https://clinicaltrials.gov/study/NCT02570191) | Vaihe 4 | Valmistunut | 60 | Yhden haaran tutkimus HBeAg-negatiivisessa kroonisessa hepatiitti B:ssä |
+| [NCT00661076](https://clinicaltrials.gov/study/NCT00661076) | Vaihe 3 | Valmistunut | 10 | Peginterferoni + adefoviiri vs. pelkkä peginterferoni; osallistujamäärä erittäin pieni |
+| [NCT01237496](https://clinicaltrials.gov/study/NCT01237496) | Vaihe 3 | Valmistunut | 17 | HBV-spesifiset T-solutvasteet; pieni, pääosin mekanistinen tutkimus |
 
-*Huomio: Yhteensä 50 tutkimusta haettiin tälle indikraatiolle; 10 suoraan asiaankuuluvinta, HBV-spesifistä tutkimusta esitetään edellä.*
+**Huomautus näytön tasosta:** Valmistuneita vaiheen 3 tutkimuksia on kaksi (NCT00661076, n=10; NCT01237496, n=17), joten L1-kriteeri täyttyy muodollisesti. Näiden tutkimusten osallistujamäärät ovat kuitenkin hyvin pieniä, joten tilastollinen painoarvo on vähäinen. Varsinainen näyttö perustuu enemmän laajempiin vaiheen 4 tutkimuksiin ja alla oleviin julkaisuihin.
 
 ---
 
-## Kirjallisuustieto
+## Julkaisunäyttö
 
-| PMID | Vuosi | Tyyppi | Julkaisu | Keskeiset havainnot |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [15987917](https://pubmed.ncbi.nlm.nih.gov/15987917/) | 2005 | Satunnaistettu kontrolloitu tutkimus | The New England Journal of Medicine | Maamerkki-tutkimus vertaamalla Peg-IFN alfa-2a:ta yksinään, Peg-IFN alfa-2a:ta + lamividiiniksi ja lamividiiniksi yksinään HBeAg-positiivisessa KHB:ssa — totesi Peg-IFN alfa-2a:n tehokkuus- ja turvallisuuspohjan KHB:ssa. |
-| [30865588](https://pubmed.ncbi.nlm.nih.gov/30865588/) | 2019 | Systemaattinen katsaus / IPD-metaanalyysi | Antiviral Therapy | Yksilö-osallistuja-tiedon metaanalyysi, joka tunnistaa sopivimmat Peg-IFN alfa-2a:n keskeyttämissäännöt kroonisessa hepatiitissa B. |
-| [30318613](https://pubmed.ncbi.nlm.nih.gov/30318613/) | 2019 | Satunnaistettu kontrolloitu tutkimus (pediatrinen) | Hepatology | Entekaviiriksi + Peg-IFN alfa-2a-yhdistelmä immuunitorantilla, HBeAg-positiivisilla lapsilla, joilla on KHB. |
-| [30549279](https://pubmed.ncbi.nlm.nih.gov/30549279/) | 2019 | Satunnaistettu kontrolloitu tutkimus | Hepatology | Entekaviiriksi + Peg-IFN alfa-2a-yhdistelmä immuunitorantilla aikuisilla, HBeAg-positiivisilla KHB-potilailla. |
-| [18220290](https://pubmed.ncbi.nlm.nih.gov/18220290/) | 2008 | Vaihe III:n rekisteröinti-tutkimusanalyysi | Hepatology | Suuren 271-potilaan vaihe III -tutkimuksen analyysi, joka arvioi kvantitatiivista HBeAg:ta ja HBV-DNA:ta tulosten ennustajaina Peg-IFN alfa-2a-hoidon aikana. |
-| [29715359](https://pubmed.ncbi.nlm.nih.gov/29715359/) | 2018 | Katsaus | JAMA | Kroonisen HBV-infektiolle yleinen katsaus, joka kattaa epidemiologian, luonnollisen historian ja hoitovaihtoehdot mukaan lukien Peg-IFN. |
-| [26700861](https://pubmed.ncbi.nlm.nih.gov/26700861/) | 2015 | Satunnaistettu kontrolloitu tutkimus | Virology Journal | Kaksoissokkotutkimus, joka tutki Peg-IFN alfa-2a-hoidon pitkäaikaisia vaikutuksia japanilaisilla KHB-potilailla. |
-| [33339708](https://pubmed.ncbi.nlm.nih.gov/33339708/) | 2021 | Kohortti | Journal of the Formosan Medical Association | Tutkimus virologisista/immunologisista vastaindikaattoreista pitkäaikaisia tuloksia ennakoiden Peg-IFN alfa-2a-hoidon jälkeen HBeAg-negatiivisessa KHB:ssa. |
-| [31064399](https://pubmed.ncbi.nlm.nih.gov/31064399/) | 2019 | Kohortti | Virology Journal | Serumin HBV RNA -tasot arvioitiin HBeAg-serokäännöksen ennustajana Peg-IFN alfa-2a-hoidon aikana. |
-| [21423260](https://pubmed.ncbi.nlm.nih.gov/21423260/) | 2011 | Katsaus | Nature Reviews Gastroenterology & Hepatology | Hepatiitin B hoitotavoitteiden (viraalin suppressio, HBeAg-serokäännös, HBsAg-häviö) ja hoitovastaindikaattoreiden seurannan katsaus. |
-
-*Huomio: Yhteensä 20 julkaisua haettiin tälle indikraatiolle; 10 asiaankuuluvinta (satunnaistetut kontrolloitujen tutkimusten ja systemaattisten katsausten priorisoiminen) esitetään edellä.*
+| [15987917](https://pubmed.ncbi.nlm.nih.gov/15987917/) | 2005 | RCT | N Engl J Med | Peginterferoni alfa-2a, lamivudiini ja niiden yhdistelmä HBeAg-positiivisessa kroonisessa hepatiitti B:ssä |
+| [30549279](https://pubmed.ncbi.nlm.nih.gov/30549279/) | 2019 | RCT | Hepatology | Entekaviiri + peginterferoni alfa-2a aikuisilla HBeAg-positiivisessa immuunitoleranssivaiheessa |
+| [26299874](https://pubmed.ncbi.nlm.nih.gov/26299874/) | 2016 | Systemaattinen katsaus ja metaanalyysi | Clin Res Hepatol Gastroenterol | Pidennetyn ja tavanomaisen (48 vk) peginterferonihoidon vertailu |
+| [30865588](https://pubmed.ncbi.nlm.nih.gov/30865588/) | 2019 | Systemaattinen katsaus ja yksilötason metaanalyysi | Antivir Ther | Peginterferonihoidon lopetussääntöjen määrittely |
+| [33720089](https://pubmed.ncbi.nlm.nih.gov/33720089/) | 2021 | Satunnaistettu kontrolloitu tutkimus | J Pediatr Gastroenterol Nutr | Peginterferoni + lamivudiini tai entekaviiri lapsilla, joilla on immuunitoleranssivaiheen hepatiitti B |
+| [26700861](https://pubmed.ncbi.nlm.nih.gov/26700861/) | 2015 | Satunnaistettu kaksoissokkotutkimus | Virol J | Peginterferonihoidon pitkäaikaisvaikutukset japanilaisilla potilailla |
+| [32548156](https://pubmed.ncbi.nlm.nih.gov/32548156/) | 2020 | Kohorttitutkimus | World J Clin Cases | Sytokiinit ennustavat virologista vastetta peginterferonihoidossa |
+| [41086952](https://pubmed.ncbi.nlm.nih.gov/41086952/) | 2025 | Kohorttitutkimus | Antiviral Res | Viruksen kvasispesiesten ominaisuudet ennustavat HBsAg-serokonversiota lapsilla |
+| [21978243](https://pubmed.ncbi.nlm.nih.gov/21978243/) | 2011 | Katsaus | Aliment Pharmacol Ther | Kroonisen hepatiitti B:n nykyinen viruslääkehoito |
+| [18221137](https://pubmed.ncbi.nlm.nih.gov/18221137/) | 2006 | Katsaus | Recent Pat Anti-infect Drug Discov | Pegyloidut interferonit kroonisen hepatiitti B:n hoidossa |
 
 ---
 
-## Suomen markkinatiedot
+## Tiedot Suomen markkinoilta
 
-Tätä lääkettä ei ole tällä hetkellä markkinoilla Suomessa — todistelypakissa kirjataan **0 hyväksyntöä** ja ei lisensointeja. Tälle lainkäyttöalueelle ei ole saatavilla dossimuotoa, tuotenimeä tai hyväksytyn indikraation tekstiä.
+| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000395 | Pegasys | – | Krooninen hepatiitti C, krooninen hepatiitti B, aito punasolutauti, essentiaalinen trombosytemia |
+
+Myyntilupa on tilassa "peruutettu", eikä voimassa olevia myyntilupia ole. Valmisteen saatavuus Suomessa on siksi selvitettävä erikseen.
+
+---
+
+## Sytotoksisuus
+
+Peginterferoni alfa-2a ei ole perinteinen sytotoksinen solunsalpaaja, mutta se on käyttöaiheidensa (aito punasolutauti, essentiaalinen trombosytemia) vuoksi myös myeloproliferatiivisissa kasvaimissa käytettävä lääke. Tähän lääkkeeseen ei ole saatavilla yksityiskohtaisia sytotoksisuustietoja. Katso valmisteyhteenvedon varoitukset ja varotoimet. Interferoniluokan lääkkeille tyypillisiä haittoja ovat sytopenia, masennus ja kilpirauhasen toimintahäiriöt, joten verenkuvan, maksa-arvojen ja kilpirauhasarvojen seuranta on tarpeen.
 
 ---
 
 ## Turvallisuusnäkökohdat
 
-Turvakysymyksiä varten viitattava paketti-insert. Mitään jäsennettyä turvallisuustietoa (keskeiset varoitukset, vasta-aiheet tai lääke-lääke-interaktiot) ei ollut saatavilla tälle ehdokkaalle nykyisessä todistelypakissa — tämä on merkitty **Estäväksi** tietoaukoksi (DG001: TFDA/paikallisen pakkausliitteen varoitukset ja vasta-aiheet), joka on ratkaistava ennen kuin turvallisuuden arviointia voidaan jatkaa.
+- **Lääkeaineyhteisvaikutukset:** Yhteisvaikutuksia on tunnistettu yhteensä 100. Tässä on listattu keskeisimmät.
+  - **Merkittävä (Major):** bupropioni, deferipronin, jodiheksoli, jodipamidoli, samarium (153Sm) leksidronaami, eltrombopagi
+  - **Kohtalainen (Moderate):** metronidatsoli, tinidatsoli, naltreksoni, rosuvastatiini, simvastatiini, varfariini, dikumaroli, klorokiini, palifermiini, pegvaliaasi, strontium-89-kloridi sekä suolen tyhjennysvalmisteet (pikosulfaatti, makrogoli, natriumsulfaatti)
+- **Luokkavaikutukset:** Interferonin tyypillisiä haittavaikutuksia ovat sytopenia, masennus ja kilpirauhasen toimintahäiriöt. Näitä on seurattava.
+
+Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat tällä hetkellä, ja ne on haettava ennen jatkoa.
+
+---
+
+## Muut ennustetut käyttöaiheet
+
+Muut ennustetut käyttöaiheet ovat heikosti perusteltuja:
+
+| Ennustettu käyttöaihe | Näytön taso | Huomio |
+|------|------|------|
+| Hepatiitti E -virusinfektio | L4 | Mekanismi uskottava, mutta annetut tutkimukset koskevat HBV:tä; ei HEV-tutkimuksia. Tutkimuskysymys |
+| Hepatiitti A -virusinfektio | L5 | Tutkimukset koskevat HBV:tä tai HCV:tä; tauti yleensä itsestään paraneva ja rokotteella ehkäistävissä. Hold |
+| Eläinten virushepatiitti | L5 | Vain yksi prekliininen siedettävyystutkimus rotilla; ei ihmisen käyttöaihe. Hold |
+| Omskin hemorraginen kuume | L5 | Pelkkä mallin ennuste, ei tutkimuksia. Hold |
+| Kyasanur-metsäkuume | L5 | Pelkkä mallin ennuste, ei tutkimuksia. Hold |
+| Sydämen johtumishäiriö | L5 | Todennäköisesti mallin artefakti; interferoniin liittyy rytmihäiriöitä, joten turvallisuusriski. Hold |
+| Sydänkasvain | L5 | Ei tukevaa näyttöä. Hold |
+| Sydänläppäsairaus | L5 | Ei uskottavaa mekanismia. Hold |
+| Kammioväliseinän synnynnäinen poikkeama | L5 | Rakenteellinen vika, ei lääkehoidon kohde. Hold |
 
 ---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Jatka varauksellisesti**
+**Päätös: Proceed with Guardrails (eteneminen suojatoimin)**
 
-**Perustelu:**
-- Ennustettu indikraatio (krooninen hepatiitti B) on tuettu tämän pakkauksen korkeimmalla todisteasteen tasolla (L1), mukaan lukien maamerkki NEJM:n satunnaistettu kontrolloitu tutkimus, useat vaihe 3/4 -tutkimukset ja 1 842 potilaan havainnoiva kohortti — ja uudelleenkäyttöperustelun mukaan tämä on jo kliinisesti vahvistettu, hyväksytty lääkkeen käyttötarkoitus, eikä spekulatiivinen uusi signaali.
-- Lääkkeen markkinoilla ei kuitenkaan tällä hetkellä ole **nolla hyväksyntöjä Suomessa**, ja **kriittiset turvallisuusasiakirjat (pakkausliitteen varoitukset/vasta-aiheet) puuttuvat kokonaan (Estävä tietoaukko DG001)**, mikä estää tätä ehdokasta selviämästä alkuperäisestä turvallisuuden seulontavaiheesta (S1) tässä lainkäyttöalueella.
+**Perustelut:**
+- Krooninen hepatiitti B on jo lääkkeen alkuperäinen käyttöaihe, ja tuki on laaja: useita vaiheen 3–4 tutkimuksia ja satunnaistettuja tutkimuksia sekä metaanalyysejä. Valmisteen myyntilupa on kuitenkin Suomessa peruutettu, joten saatavuus on rajoite.
 
-**Jatkamiseksi tarvitaan seuraavaa:**
-- Hankkia virallinen Suomen/EU:n tuotteen ominaisuuksien yhteenveto (SmPC) tai vastaava pakkaus-insert DG001:n (Estävä) ratkaisemiseksi ennen turvallisuuden arviointia.
-- Hankkia virallinen vaikutusmekanismi-dokumentaatio DrugBankista tai valmistajalta DG002:n (Korkea) ratkaisemiseksi ja jäykkä mekanistisen uskottavuuden arvioinnin tueksi.
-- Vahvista lääke-lääke-interaktio (DDI) -tieto, koska nykyinen DDI-kysely palautti tuloksia.
-- Selventää sääntely-polkua markkinoiden valtuutukselle Suomessa, koska lääkettä ei ole tällä hetkellä rekisteröity siellä huolimatta vahvistetusta kansainvälisestä hyväksynnästä tälle indikraatiolle.
-
-*Huomio: Yhdeksän muuta ehdokkaan indikraatiota (sijoitukset 2–10) arvioitiin myös tässä todistelypakissa — mukaan lukien hepatiitti E ja hepatiitti A -viruksen infektio, eläimen viraalivirus-hepatiitti ja useat sydämen tilat — mutta kaikki saivat L3–L5-tasot heikon, epäsuoran tai näennäisen epäsopimattomin todistuksella (useampia näyttävät olevan ontologia-kartoitus-artefakteja, esim. "sydämen pahanlaatuisuus" -tutkimuksia, jotka ovat itse asiassa polysytemia vera -tutkimuksia). Nämä suositellaan **Hold** tai enintään **Research Question** -statukselle ja niitä ei käsitellä yksityiskohtaisesti tässä raportissa, joka keskittyy huipulle sijoittuneisiin, hyvin tuettuihin ehdokkaasiin.*
-
+**Eteneminen edellyttää seuraavaa:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean sivuilta (estävä tietoaukko)
+- Vaikutusmekanismin (MOA) tietojen täydentäminen DrugBankista
+- Suomen saatavuuden ja myyntiluvan tilanteen selvittäminen
+- Potilasvalintakriteerit (HBeAg-status, HBsAg-taso, genotyyppi) ja hoidon lopetussäännöt
+- Turvallisuuden seurantasuunnitelma: verenkuva, masennuksen seulonta, kilpirauhasen toiminta sekä merkittävien yhteisvaikutusten tarkistus
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

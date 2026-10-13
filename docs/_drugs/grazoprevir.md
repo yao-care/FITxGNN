@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Grazoprevir
-parent: Kohtalainen näyttö (L3-L4)
-nav_order: 182
-evidence_level: L4
+parent: Vahva näyttö (L1-L2)
+nav_order: 212
+evidence_level: L1
 indication_count: 10
 ---
 
 # Grazoprevir
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,85 +29,127 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Grazoprevir: krooniisesta hepatiitti C:stä HIV-infektiotauteihin
+# Grazopreviiri: Krooninen C-hepatiitti → HIV-infektio (HIV/HCV-yhteisinfektion hoito)
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Grazoprevir on HCV NS3/4A-proteaasi-inhibiittori, jota markkinoidaan osana elbasvir/grazoprevir-yhdistelmää (Zepatier) kroonisen hepatiitti C:n genotyyppien 1/4/6 hoitoon.
-TxGNN-malli ennustaa, että se saattaisi olla tehokas **HIV-infektiotaudissa**, ja siihen on nominaalisesti linkitetty **14 kliinistä tutkimusta** ja **20 julkaisua** —
-kuitenkin tarkemmassa tarkastuksessa kaikki tämä näyttö käsittelee **hepatiitti C:tä** HIV/HCV-koinfektoiduissa potilaissa pikemminkin kuin itse HIV:ää, joten tämän ennusteen mekanistinen perusta on heikko.
+Grazopreviiri on HCV:n NS3/4A-proteaasin estäjä, jota käytetään kroonisen C-hepatiitin hoitoon yhdessä elbasviirin kanssa (Zepatier). TxGNN-malli ennustaa sen sopivan **HIV-infektioon**, ja ennusteen tukena on **10 kliinistä tutkimusta** ja **20 julkaisua**. Aineisto osoittaa kuitenkin hoidon tehon HIV/HCV-yhteisinfektiopotilaiden C-hepatiittiin, ei HIV:n suoraa hoitoa.
 
-## Pikayhteenveto
+---
+
+## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Krooniset hepatiitti C:n viruksen (HCV) genotyyppien 1, 4, 6 infektio (elbasvir/grazoprevir-yhdistelmänä) |
-| Ennustettu uusi indikaatio | HIV-infektiotauti |
-| TxGNN-ennustepistemäärä | 99.73% (sijoitus 3470) |
-| Näyttötaso | L4 |
-| Suomen markkinatilanne | ✗ Ei markkinoilla |
-| Lupien määrä | 0 |
-| Suositeltu päätös | Pidä odotuksissa |
+| Alkuperäinen käyttöaihe | Krooninen C-hepatiitti |
+| Ennustettu uusi käyttöaihe | HIV-infektio (käytännössä HIV/HCV-yhteisinfektion hoito) |
+| TxGNN-ennustepisteet | 99,73 % |
+| Näytön taso | L1 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Proceed with Guardrails (jatka suojatoimin) |
 
-## Miksi tämä ennuste on järkevä?
+---
 
-Tällä hetkellä grazopreviirin yksityiskohtaisia toimintamekanismin tietoja ei ole saatavilla (Tietojen puute). Saatavilla olevan kirjallisuuden perusteella grazoprevir on elbasvir/grazoprevir-kiinteän annoksen yhdistelmän (Zepatier) NS3/4A-proteaasi-inhibiittorin komponentti, ja sen tehokkuus kroonisen HCV-genotyyppien 1, 4 ja 6 infektioita vastaan on hyvin todettu useissa vaihe 2/3 tutkimuksissa.
+## Miksi ennuste on perusteltu?
 
-Ennustettu yhteys HIV-infektiotautiin on mekanistisesti epäuskottava. Grazopreviirin kohde — HCV NS3/4A-seriinproteaasi — ei ole rakenteellisesti tai toiminnallisesti homologinen HIV:n replikointiin tarvittavien entsyymien kanssa (HIV-proteaasi, käänteinen transkriptaasi, integraasi), eikä mikään 14 linkitetystä tutkimuksesta tai 20 julkaisusta raportoi suoraa virusten vastaista aktiviteettia HIV:tä vastaan.
+Yksityiskohtaisia tietoja vaikutusmekanismista ei ole tämän raportin aineistossa saatavilla. Kirjallisuuden mukaan grazopreviiri estää HCV:n NS3/4A-seriiniproteaasia, ja yhdistelmänä elbasviirin (NS5A-estäjä) kanssa se tuottaa korkean pysyvän viruksenvastetason (SVR) genotyypeissä 1, 4 ja 6.
 
-Lähes kaikki tukeva näyttö tulee sen sijaan **HCV-hoidon tutkimuksista HIV/HCV-koinfektoiduissa populaatioissa** (esim. C-EDGE CO-INFECTION ja C-WORTHY tutkimukset), joissa tehokkuuden päätepisteenä on HCV:n kestävä virologinen vastaus (SVR), ei HIV:n virusmäärän vähentäminen tai mikään HIV:tä koskeva kliininen tulos. Todennäköisin selitys on, että TxGNN:n tietoverkko havaitsi vahvan "HCV–HIV-koinfektio" yhtä-aikaisuus-signaalin ja sekoitti sen terapeuttiseksi signaaliksi itse HIV:tä vastaan. Useat näytöt sarjassa on niistä syistä eksplisiittisesti arvioitu "C":ksi (ristiriitainen/sivuava).
+On tärkeää todeta, että grazopreviirilla ei ole osoitettu HIV:n vastaista vaikutusta. HIV käyttää retroviraalista aspartyyliproteaasia, joka eroaa mekanistisesti HCV:n seriiniproteaasista. Korkea TxGNN-pistemäärä kuvastaa todennäköisesti HIV/HCV-yhteisinfektion kontekstia. Käytännössä kyse on hyväksytyn C-hepatiittiaiheen laajentamisesta yhteisinfektoituneeseen potilasryhmään, ei uudesta HIV-hoidosta.
 
-## Kliinisen tutkimuksen näyttö
+Merkittävin varotoimi ovat antiretroviraalisten lääkkeiden yhteisvaikutukset (mm. CYP3A:n ja OATP1B1:n estäjät ja indusoijat).
 
-| Tutkimusnumero | Vaihe | Tila | Rekrytointi | Tärkeimmät havainnot |
+---
+
+## Kliininen tutkimusnäyttö
+
+| Tutkimustunnus | Vaihe | Tila | Osallistujat | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT02105662](https://clinicaltrials.gov/study/NCT02105662) | Vaihe 3 | Valmis | 218 | GZR 100mg + EBR 50mg HCV GT1/4/6:ssa HIV-koinfektoiduilla; päätepisteenä SVR12 **HCV:lle**, ei HIV:lle |
-| [NCT02252016](https://clinicaltrials.gov/study/NCT02252016) | Vaihe 3 | Valmis | 159 | GZR+EBR HCV GT1/4/6:ssa periytyvien verisuoniperäisten häiriöiden kanssa, HIV-koinfektiolla tai ilman; HCV SVR -päätepisteenä |
-| [NCT02785666](https://clinicaltrials.gov/study/NCT02785666) | Vaihe 3 | Valmis | 150 | Treat-counsel-cure-strategia HCV:ssä HIV-positiivisilla MSM:illä (Swiss HCVree Trial); vahvistaa HCV-hoitoreittiä, ei HIV-tehokkuutta |
-| [NCT02600325](https://clinicaltrials.gov/study/NCT02600325) | Vaihe 3 | Valmis | 80 | GZR+EBR akuutin HCV-genotyypin 1/4 osalta HIV-positiivisilla potilailla (DAHHS-2, Alankomaiden kohortti); HCV-parantumisen päätepisteenä |
-| [NCT03823911](https://clinicaltrials.gov/study/NCT03823911) | Vaihe 4 | Valmis | 87 | Kardiovaskulaarisen riskin tulokset HCV:n poistamisen jälkeen verrattuna HIV/HCV-koinfektoiduihin ja HIV-yksittäisiin kontrolliryhmiin |
-| [NCT03098121](https://clinicaltrials.gov/study/NCT03098121) | Vaihe 4 | Valmis | 40 | GZR+EBR tehokkuus/siedettävyys PWID:ssä ja MSM:issä genotyypin 1 HCV:llä ja HIV-koinfektiolla; HCV päätepisteenä |
-| [NCT02897596](https://clinicaltrials.gov/study/NCT02897596) | Vaihe 3 | Tuntematon | 62 | 8 vs 12 viikkoa GZR/EBR:ää varhaiselle krooniiselle HCV GT1/4:lle HIV-koinfektoiduille; HCV SVR ja siedettävyys |
-| [NCT03037151](https://clinicaltrials.gov/study/NCT03037151) | Vaihe 4 | Tuntematon | 100 | Turvallisuus ja fibroosi-parantuminen GZR+EBR:llä kompensoidun maksankirroosin HCV GT1/6:ssa, HIV:n kanssa tai ilman |
-| [NCT02057003](https://clinicaltrials.gov/study/NCT02057003) | N/A | Tuntematon | 1000 | DAA-pohjaisten säännösten todellisen elämän tehokkuus/siedettävyys (sisältäen GZR:n) HIV/HCV-koinfektoiduissa (HEPAVIR-kohortti); HCV päätepisteenä |
-| [NCT03407703](https://clinicaltrials.gov/study/NCT03407703) | N/A | Tuntematon | 50 | 12 viikon EBR+GZR (Zepatier) vaikutus munuaisten toimintaan HCV GT1/4:ssa, HIV:n kanssa tai ilman |
+| [NCT02105662](https://clinicaltrials.gov/study/NCT02105662) | Vaihe 3 | Valmistunut | 218 | Grazopreviiri + elbasviiri hoitoa aiemmin saamattomilla HIV/HCV-yhteisinfektoiduilla; SVR12-teho ja turvallisuus |
+| [NCT02252016](https://clinicaltrials.gov/study/NCT02252016) | Vaihe 3 | Valmistunut | 159 | Kaksoissokkoutettu, lumekontrolloitu; perinnölliset veritaudit, mukana HIV-yhteisinfektio |
+| [NCT02600325](https://clinicaltrials.gov/study/NCT02600325) | Vaihe 3 | Valmistunut | 80 | Akuutti HCV (genotyypit 1/4) HIV-potilailla (DAHHS-2) |
+| [NCT02785666](https://clinicaltrials.gov/study/NCT02785666) | Vaihe 3 | Valmistunut | 150 | "Treat, counsel and cure" -strategia HIV-positiivisilla miehillä, jotka seksuaalisesti kanssakäyvät miesten kanssa (Swiss HCVree) |
+| [NCT02897596](https://clinicaltrials.gov/study/NCT02897596) | Vaihe 3 | Tuntematon | 62 | Varhainen krooninen HCV HIV-yhteisinfektiossa, 8 tai 12 viikon hoito |
+| [NCT03098121](https://clinicaltrials.gov/study/NCT03098121) | Vaihe 4 | Valmistunut | 40 | Peginterferoni/ribaviriinihoitoa saaneet genotyyppi 1 -potilaat, HIV-yhteisinfektio |
+| [NCT03823911](https://clinicaltrials.gov/study/NCT03823911) | Vaihe 4 | Valmistunut | 87 | Sydän- ja verisuoniriski HCV:n eradikaation jälkeen HIV/HCV-potilailla |
+| [NCT04048850](https://clinicaltrials.gov/study/NCT04048850) | Ei vaihetta | Valmistunut | 25 | Havainnoiva kohorttitutkimus; päihteidenkäyttäjät, mukana HIV/HCV-yhteisinfektio |
+| [NCT03407703](https://clinicaltrials.gov/study/NCT03407703) | Ei vaihetta | Tuntematon | 50 | HCV:n paranemisen vaikutus munuaisten toimintaan potilailla, joilla on tai ei ole HIV |
+| [NCT02057003](https://clinicaltrials.gov/study/NCT02057003) | Ei vaihetta | Tuntematon | 1000 | HEPAVIR-kohortti: suoravaikutteisten viruslääkkeiden teho ja siedettävyys HIV/HCV-potilailla |
 
-## Kirjallisuuden näyttö
+Kaikki tutkimukset koskevat HCV:n hoitoa; yksikään ei osoita vaikutusta HIV:hen itseensä.
 
-| PMID | Vuosi | Tyyppi | Lehti | Tärkeimmät havainnot |
+---
+
+## Kirjallisuusnäyttö
+
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [26423374](https://pubmed.ncbi.nlm.nih.gov/26423374/) | 2015 | Avoin tutkimus (C-EDGE CO-INFECTION) | The Lancet HIV | Ei-satunnaistettu tutkimus grazopreviirin+elbasvirin osalta HCV/HIV-koinfektoiduilla; arvioi HCV:n tehokkuutta, turvallisuutta ja siedettävyyttä — päätepisteenä HCV SVR, ei HIV-tuloste |
-| [25467560](https://pubmed.ncbi.nlm.nih.gov/25467560/) | 2015 | RCT, Vaihe 2 (C-WORTHY) | The Lancet | 8 vs 12 viikkoa grazoprevir+elbasvir ± ribaviriiniterapiaa HCV GT1 -monoinfektoiduissa ja HIV/HCV-koinfektoiduissa potilaissa; HCV SVR päätepisteenä |
-| [32246857](https://pubmed.ncbi.nlm.nih.gov/32246857/) | 2020 | Systemaattinen katsaus / Verkkometaanalyysi | J Gastroenterol Hepatol | Vertaa DAA-säännösten (sisältäen grazoprevir/elbasvirin) tehokkuutta/turvallisuutta HCV/HIV-koinfektioissa; tulos on HCV:n parantuminen, ei HIV:n vaimennus |
-| [30745392](https://pubmed.ncbi.nlm.nih.gov/30745392/) | 2019 | PK/DDI tutkimus | Antimicrob Agents Chemother | Farmakokineettinen vuorovaikutus elbasvir/grazopreviirin ja HIV-proteaasin estäjien välillä (ritonaviiri, atazanaviiri, lopinaviiri, darunaviiri) |
-| [30541077](https://pubmed.ncbi.nlm.nih.gov/30541077/) | 2019 | PK/DDI tutkimus | J Antimicrob Chemother | Lääkeaineiden vuorovaikutuspotentiaali elbasvir/grazopreviirin ja HIV-integraasi-estäjien välillä (raltegravir, dolutegravir) |
-| [28689442](https://pubmed.ncbi.nlm.nih.gov/28689442/) | 2017 | Katsaus | Expert Opin Drug Metab Toxicol | Lääkeaineiden vuorovaikutukset DAA:iden ja antiretroviraaliaineiden välillä hepatiitti C:n hoidossa HIV-infektoiduissa potilaissa |
-| [27603877](https://pubmed.ncbi.nlm.nih.gov/27603877/) | 2016 | Katsaus | Expert Rev Clin Pharmacol | Elbasvir/grazopreviirin toimintamekanismi, PK/PD, kliininen käyttö, turvallisuus ja tehokkuus kroonisen HCV GT1/4 osalta |
-| [26849059](https://pubmed.ncbi.nlm.nih.gov/26849059/) | 2016 | Katsaus | Expert Opin Drug Metab Toxicol | Elbasvirin ja grazopreviirin farmakodynamiikka ja farmakokinetika HCV-hoidossa |
-| [28417245](https://pubmed.ncbi.nlm.nih.gov/28417245/) | 2017 | Katsaus | Drugs | Elbasvir/grazoprevir-kiinteän yhdistelmän katsaus kroonisen HCV-genotyyppien 1 ja 4 osalta |
-| [28947524](https://pubmed.ncbi.nlm.nih.gov/28947524/) | 2017 | Katsaus | Am J Health-Syst Pharm | Elbasvir/grazopreviirin kemia, farmakologia, PK/PD, tehokkuus, turvallisuus ja annos HCV-hoidossa |
+| [29344726](https://pubmed.ncbi.nlm.nih.gov/29344726/) | 2018 | Integroitu RCT-analyysi | J Gastroenterol | Elbasviiri/grazopreviiri genotyypin 1b infektiossa (1070 osallistujaa) |
+| [26423374](https://pubmed.ncbi.nlm.nih.gov/26423374/) | 2015 | Avoin tutkimus | Lancet HIV | C-EDGE CO-INFECTION: teho ja turvallisuus HCV/HIV-yhteisinfektiossa |
+| [32246857](https://pubmed.ncbi.nlm.nih.gov/32246857/) | 2020 | Systemaattinen katsaus ja verkosto-meta-analyysi | J Gastroenterol Hepatol | Suoravaikutteisten viruslääkkeiden teho ja turvallisuus HIV/HCV-yhteisinfektiossa |
+| [28417245](https://pubmed.ncbi.nlm.nih.gov/28417245/) | 2017 | Katsaus | Drugs | Elbasviiri/grazopreviiri genotyypeissä 1 ja 4; vaiheen 3 tutkimusten korkeat SVR-luvut |
+| [30233138](https://pubmed.ncbi.nlm.nih.gov/30233138/) | 2018 | Katsaus | Drug Des Devel Ther | Elbasviirin/grazopreviirin turvallisuus ja teho, nykynäyttö |
+| [27603877](https://pubmed.ncbi.nlm.nih.gov/27603877/) | 2016 | Katsaus | Expert Rev Clin Pharmacol | Vaikutusmekanismi, farmakokinetiikka ja kliininen käyttö genotyypeissä 1 ja 4 |
+| [28689442](https://pubmed.ncbi.nlm.nih.gov/28689442/) | 2017 | Katsaus | Expert Opin Drug Metab Toxicol | Lääkeyhteisvaikutukset HIV-potilailla C-hepatiitin hoidon aikana |
+| [30541077](https://pubmed.ncbi.nlm.nih.gov/30541077/) | 2019 | Yhteisvaikutustutkimus | J Antimicrob Chemother | Yhteisvaikutukset HIV-integraasin estäjien (raltegraviiri, dolutegraviiri) kanssa |
+| [30745392](https://pubmed.ncbi.nlm.nih.gov/30745392/) | 2019 | Faasi 1 -tutkimukset | Antimicrob Agents Chemother | Farmakokineettiset yhteisvaikutukset HIV-proteaasinestäjien (ritonaviiri, atatsanaviiri, lopinaviiri, darunaviiri) kanssa |
+| [27091555](https://pubmed.ncbi.nlm.nih.gov/27091555/) | 2016 | Katsaus | Expert Opin Drug Saf | Yhdistelmä estää tehokkaasti NS3/4A-proteaasia ja NS5A:ta, korkea SVR |
+
+---
 
 ## Suomen markkinatiedot
 
-Grazoprevirillä ei ole tällä hetkellä myyntilupaa Suomessa (markkinatilanne: Ei markkinoilla; 0 lupaa). Tuotetasolla lisensoituja tietoja ei ole saatavilla tälle raportille.
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004126 | Zepatier | Ei tietoa | Krooninen C-hepatiitti (tila: peruutettu) |
 
-## Turvallisuushuomiot
+---
 
-Lisätietoja turvallisuudesta saat pakkausselosteesta. TFDA/Fimea-pakkausseloste, jota tarvitaan varoituksien ja vasta-aiheisten arviointiin, ei ole tällä hetkellä saatavilla (tietojen puute DG001, merkitty estäväksi), mikä estää täyden S1-turvallisuusarvioinnin tälle ehdokkaalle.
+## Turvallisuusnäkökohdat
+
+**Lääkeyhteisvaikutukset:** Yhteisvaikutuksia on kirjattu yhteensä 53. Merkittävimpiä (vaikeusaste *Major*) ovat:
+
+- Klaritromysiini
+- Deksametasoni
+- Eluksadoliini
+- Obetikolihappo
+- Rosuvastatiini
+- Simvastatiini
+- Kobisistaatti
+- Eltrombopagi
+- Artesunaatti
+
+Kohtalaisia (*Moderate*) yhteisvaikutuksia on mm. aprepitantin, simetidiinin, klotrimatsolin, mikonatsolin, troglitatsonin, deferasiroksin, tikagrelorin, ivakaftorin, tsafirlukastin, kloramfenikolin ja erytromysiinin kanssa.
+
+Muiden turvallisuustietojen osalta tarkista valmisteyhteenveto.
+
+---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Pidä odotuksissa**
+**Päätös: Proceed with Guardrails (jatka suojatoimin)**
 
 **Perustelut:**
-Ennustetulla grazoprevir–HIV-yhteydellä puuttuu mekanistinen uskottavuus (HCV NS3/4A-proteaasi-inhibitio ei ole merkityksellinen HIV-replikoinille), ja kaikissa viitetyissä kliinisen tutkimuksen ja kirjallisuuden näytöissä mitataan HCV-hoitotuloksia HIV/HCV-koinfektoiduissa populaatioissa sen sijaan että mitattaisiin suoraa anti-HIV-vaikutusta. Tämä malli viittaa voimakkaasti siihen, että TxGNN-ennuste heijastaa tietoverkko-yhtä-aikaisuus-artefaktia pikemminkin kuin todellista uudelleenkäyttösignaalia.
+- Useat valmistuneet vaiheen 3 tutkimukset tukevat grazopreviirin ja elbasviirin tehoa C-hepatiitin hoidossa HIV/HCV-yhteisinfektoiduilla potilailla (näytön taso L1). Näyttö ei kuitenkaan koske HIV:n hoitoa, vaan hyväksytyn C-hepatiittiaiheen laajentamista yhteisinfektioryhmään.
+- Suomessa ainoa myyntilupa on peruutettu, joten käyttö edellyttäisi saatavuuden selvittämistä.
 
-**Jotta voisimme edetä, tarvitaan seuraavaa:**
-- TFDA/Fimea-pakkausseloste tietojen puutteen ratkaisemiseksi (DG001)
-- Vahvistetut toimintamekanismin tiedot grazoprevir-aineelle (DG002)
-- In vitro tai prekliininen näyttö mistä tahansa suorasta anti-HIV-aktiviteetista, jos tätä signaalia halutaan jatkaa
-- Muussa tapauksessa tämä ehdokas pitäisi asettaa toissijaiseksi paremman mekanistisen ja näytöllisen tuen omaavien ennustettujen indikaatioiden hyväksi
+**Jatkaminen edellyttää:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittämistä (Fimea)
+- Vaikutusmekanismin tietojen täydentämistä
+- Antiretroviraalisten lääkkeiden yhteisvaikutusten hallintasuunnitelmaa (erityisesti CYP3A- ja OATP1B1-vaikutukset)
+- Myyntiluvan ja valmisteen saatavuuden selvittämistä Suomessa
 
+---
+
+## Muut ennustetut käyttöaiheet (lyhyesti)
+
+Muilla ennustetuilla käyttöaiheilla näyttö on heikko, eikä niille suositella jatkotoimia tässä vaiheessa:
+
+- **B-hepatiitti (L4, Hold):** HBV:llä ei ole HCV:n proteaasin vastinetta; tutkimukset koskevat HCV:tä.
+- **A-hepatiitti (L4, Hold):** HAV käyttää eri proteaasityyppiä (3C-kysteiiniproteaasi); tutkimukset ovat HCV-tutkimuksia.
+- **E-hepatiitti, eläinten virushepatiitti, simiaaninen ja kissan immuunikatovirusinfektio, harvinainen neurokehityshäiriö (L5, Hold):** ei kliinistä näyttöä eikä uskottavaa mekanismia.
+- **Omskin verenvuotokuume (L5, Hold):** flavivirusproteaasi on etäisesti HCV:n proteaasin sukua, mutta kokeellista näyttöä ei ole.
+- **Kyasanurin metsätauti (L5, tutkimuskysymys):** yksi tietokonesimulaatiotutkimus (PMID 34662258); vaatisi in vitro -validoinnin.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

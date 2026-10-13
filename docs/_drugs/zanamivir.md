@@ -2,7 +2,7 @@
 layout: default
 title: Zanamivir
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 408
+nav_order: 476
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,97 +29,74 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Zanamivir: Influenssasta pyelonefriittiin
+# Tsanamiviiri: Influenssasta pyelonefriittiin
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Zanamivir on neuraminidaasin estäjä, jota käytetään influenssa A ja B -infektioihin. TxGNN-mallin parhaan ennusteen mukaan sillä saattaa olla tehokkuutta **pyelonefriittiin**, mutta tällä yhdistelmällä on tällä hetkellä **0 kliinistä tutkimusta** ja **0 tukevaa julkaisua** — mallin omassa perustelussa se merkitään todennäköisesti graafimeluiksi pikemminkin kuin todelliseksi mekanistiseksi signaaliksi.
+Tsanamiviiri (zanamivir) on neuraminidaasin estäjä, jota on alun perin käytetty ihmisen influenssan hoitoon. TxGNN-malli ennustaa sen voivan tehota **pyelonefriittiin** (munuaisaltaan ja munuaisen tulehdus), mutta ennusteen tukena ei ole yhtään kliinistä tutkimusta eikä yhtään aihetta koskevaa julkaisua. Ennuste on siten vain laskennallinen hypoteesi.
 
----
+## Pikakatsaus
 
-## Lyhyt yleiskatsaus
+| Kohta | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | Ihmisen influenssa |
+| Ennustettu uusi käyttöaihe | Pyelonefriitti |
+| TxGNN-ennustepisteet | 99,84 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-| Kohde | Sisältö |
-|-------|---------|
-| Alkuperäinen indikaatio | Influenssa A/B (päätelty farmakologisesta luokituksesta tämän näytöpaketin tukevassa kirjallisuudessa – Fimean hyväksytyn indikaation tekstiä ei ole saatavilla; katso Markkinatilanne) |
-| Ennustettu uusi indikaatio | Pyelonefriitti |
-| TxGNN:n ennusteen pistemäärä | 99.84% |
-| Näyttötaso | L5 |
-| Suomen markkinatilanne | ✗ Ei markkinoilla (Not marketed) |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Pidä |
+Toinen ennustettu käyttöaihe, tyrosiinin aineenvaihdunnan häiriö (pisteet 99,02 %), on myös L5-tasoa, ja sen kolme löydettyä julkaisua käsittelevät influenssan neuraminidaasin estäjiä eivätkä tyrosiinin aineenvaihduntaa. Sillekään ei ole perusteita edetä.
 
----
+## Miksi ennuste voisi olla perusteltu?
 
-## Miksi tämä ennuste on järkevä?
+Yksityiskohtaisia tietoja tsanamiviirin vaikutusmekanismista ei tätä raporttia varten ollut saatavilla. Tiedetään, että tsanamiviiri on viruksen neuraminidaasia estävä lääke, jonka teho influenzassa on osoitettu.
 
-Tällä hetkellä yksityiskohtaisia toimintamekanismin tietoja DrugBankista ei ole saatavilla (tietoaukko, korkea vakavuus). Liitekirjallisuudessa kerätyn farmakologisen luokituksen perusteella zanamivir on neuraminidaasin estäjä, joka estää influenssa A/B -viruspartikkelien vapautumisen infektoiduista isäntäsoluista — kapeasti kohdennettu antiviraalinen mekanismi, ei laaja-alainen.
+Pyelonefriitti on useimmiten bakteeri-infektio (tavallisimmin *E. coli*), ja mekanistinen yhteys tsanamiviiriin on heikko. Bakteereilla on kyllä neuraminidaasin kaltaisia entsyymejä (sialidaaseja), mutta tsanamiviirilla ei ole osoitettua antibakteerista tehoa eikä tehoa munuaisinfektioon. Korkea pistemäärä on siksi vain hypoteesia tuottava signaali, ei näyttö tehosta.
 
-Pyelonefriitti on bakteeriaalinen ylävirtsateiden infektio. Ei ole tunnettua polkua, joka yhdistäisi viraalisen neuraminidaasin estämisen – tai minkään isäntäsialidaasin välittämän prosessin – bakteeriaalisen pyelonefriiitin patogeneesiin. TxGNN:n 99.84 % pistemäärä heijastaa pelkkää graafi-upotuksen samankaltaisuutta; sitä ei seuraa edes yksi kliininen tutkimus tai julkaisu.
+## Kliininen tutkimusnäyttö
 
-Mallin oma uusintakäytön perusteleminen tälle parille ilmaisee selvästi, että yhteys on kannustamatonta ja todennäköisesti edustaa tietojoukon melua/väärää positiivista pikemminkin kuin uskottavaa biologista signaalia. Täydellisen tukevaan näyttöön puuttuessa ja selkeän mekanistisen epäsopivuuden vuoksi tämä yhdistelmä ei täytä tällä hetkellä vaatimuksia jatkotutkimukselle.
+Toistaiseksi ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
----
+## Kirjallisuusnäyttö
 
-## Kliinisen tutkimuksen näyttö
+Pyelonefriitin osalta aiheeseen liittyvää kirjallisuutta ei ole saatavilla.
 
-Tällä hetkellä rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia ei ole.
-
----
-
-## Kirjallisuuden näyttö
-
-Tällä hetkellä asiaan liittyvää kirjallisuutta ei ole saatavilla.
-
----
-
-## Suomen markkinatiedot
-
-Zanamivir ei tällä hetkellä pidä markkinoikeutta Suomessa (markkinatilanne: Ei markkinoilla / Not marketed). Ei olemassa luetteloitavia lisenssitietueita.
-
----
-
-## Lisäennustettu indikaatio (sijoitus 2): Tyrosiinin aineenvaihdunnan häiriö
-
-Täydellisyyden vuoksi mallin palauttama toinen ehdokas:
-
-| Kohde | Sisältö |
-|-------|---------|
-| TxGNN:n ennusteen pistemäärä | 99.02% (sijoitus 9324) |
-| Näyttötaso | L5 |
-| Suositeltu päätös | Pidä |
-
-Automaattinen haku palautti kolme PubMedin tietuetta, mutta mikään niistä ei käsittele tyrosiinin aineenvaihduntasairautta:
+Toiseen ennustettuun käyttöaiheeseen (tyrosiinin aineenvaihdunnan häiriö) löytyneet julkaisut eivät tue ennustetta:
 
 | PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
-|------|-------|--------|-------|----------------------|
-| [23675925](https://pubmed.ncbi.nlm.nih.gov/23675925/) | 2013 | Katsaus | Infectious Disorders Drug Targets | Oseltamiviirinsisäkkyyden valvonta (H275Y neuraminidaasin mutaatio) – ei liity tyrosiinin aineenvaihduntaan |
-| [25727669](https://pubmed.ncbi.nlm.nih.gov/25727669/) | 2015 | Metodologia | J Mol Recogn | SPR-assay neuraminidaasin estämisen herkkyydelle (zanamivir/oseltamivir vs. H274Y mutantti) – assay-kehitys, ei sairauden kannalta merkityksellinen |
-| [21367898](https://pubmed.ncbi.nlm.nih.gov/21367898/) | 2011 | Perusviirologia | J Virology | N294S neuraminidaasin mutaatio ja H5N1 patogenisyys – ei liity tyrosiinin aineenvaihduntaan |
+|------|-----|------|------|---------|
+| [23675925](https://pubmed.ncbi.nlm.nih.gov/23675925/) | 2013 | Katsaus | Infectious Disorders Drug Targets | Oseltamiviirin resistenssin synty (H275Y-mutaatio) sekä influenssan hallinta ennen pandemiaa, sen aikana ja sen jälkeen |
+| [25727669](https://pubmed.ncbi.nlm.nih.gov/25727669/) | 2015 | In vitro -menetelmätutkimus | Journal of Molecular Recognition | Pintaplasmoniresonanssimääritys neuraminidaasin eston mittaamiseen; villityypin ja H274Y-mutantin herkkyys tsanamiviirille ja oseltamiviirille |
+| [21367898](https://pubmed.ncbi.nlm.nih.gov/21367898/) | 2011 | Prekliininen (virologia/eläin) | Journal of Virology | N294S-mutaation vaikutus H5N1-influenssaviruksen replikaatioon ja patogeenisuuteen |
 
-Nämä vastattiin todennäköisesti satunnaisella termin päällekkäisyydellä (esim. "tyrosiini" ilmaantuu neuraminidaasin mutaation nomenklatuurissa, kuten H274Y/N294S) pikemminkin kuin todellisella sairauden merkityksellisyydellä. Ei tunnettua polkua, joka yhdistäisi viraalisen neuraminidaasin estämisen endogeenisten tyrosiinia metaboloivien entsyymien (esim. FAH, TAT, HPD) kanssa. Myös tämä ehdokas tulisi pidättyä.
+## Tiedot Suomen markkinoilta
 
----
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/004102 | Dectova (peruutettu) | – | Ihmisen influenssa |
 
 ## Turvallisuusnäkökohdat
 
-Katso turvallisuustietoja varten pakkausseloste.
+- **Lääkeyhteisvaikutukset:** Tietokannasta löytyi 8 mahdollista yhteisvaikutusta. Ainoa luokiteltu on kohtalainen: inhaloitava nopeavaikutteinen ihmisinsuliini. Vakavuusluokaltaan tuntemattomia ovat klaritromysiini, loratadiini, montelukasti, ketotifeeni, feksofenadiini, ibuprofeeni ja diklofenaakki.
+- **Tietämysgraafiin perustuvat vasta-aiheet (ei valmisteyhteenvedosta):** epilepsia, krooninen keuhkoahtaumatauti (COPD), vaikea varhain alkava COPD, keuhkoputkisairaus ja delirium. Nämä ovat mallin tuottamia signaaleja, eivät varmennettua valmistetekstin sisältöä.
 
----
+Valmisteyhteenvedon varoitukset ja vasta-aiheet tulee tarkistaa erikseen.
 
-## Johtopäätös ja seuraavat vaiheet
+## Johtopäätös ja jatkotoimet
 
-**Päätös: Pidä**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Molemmat ehdokasindikaatiot on luokiteltu L5:ksi (pelkkä mallin ennuste), nolla tukevia kliinisiä tutkimuksia ja ei genuiinisti merkityksellisiä julkaisuja – mallin omassa mekanistisessa perustelussa molemmat yhdistelmät merkitään todennäköisesti väärillä positiiveiksi pikemminkin kuin uskottaviksi uusintakäytön signaaleiksi.
+- Ennusteen tukena on vain korkea TxGNN-pistemäärä. Kliinistä tai kirjallista näyttöä ei ole, mekanistinen yhteys bakteeriperäiseen pyelonefriittiin on heikko, ja Suomessa ainoa myyntilupa on peruutettu.
 
-**Edistämiseksi tarvitaan seuraavaa:**
-- Hae TFDA/Fimea pakkausselosteen varoitukset ja vasta-aiheet (tällä hetkellä **esto** tietoaukko)
-- Hanki vahvistetut toimintamekanismin tiedot DrugBankista (korkea-vakavuus tietoaukko)
-- Tunnista mikä tahansa kirjallisuus tai prekliiniset tutkimukset, jotka erityisesti yhdistävät zanamivirin pyelonefriittiin tai tyrosiinin aineenvaihdunnan polkuihin – yhtään nykyään ei ole olemassa
-- Jos mitään genuiini tukeva näyttö ei ilmene, alenna tämä ehdokaspari etusijalla korkeamman näyttötason TxGNN-ennustuksiin nähden
-
+**Eteneminen edellyttää:**
+- Vaikutusmekanismin tietojen täydentämistä
+- Valmisteyhteenvedon turvallisuustietojen hankkimista (estää turvallisuusseulonnan)
+- Prekliinistä näyttöä tsanamiviirin vaikutuksesta uropatogeeneihin tai munuaisinfektiomalleihin
+- Selvitystä lääkemuodosta ja antoreitistä (pyelonefriitti edellyttäisi todennäköisesti systeemistä altistusta)
+- Arviota siitä, onko valmiste ylipäätään saatavilla Suomessa myyntiluvan peruutuksen jälkeen
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

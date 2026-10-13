@@ -2,7 +2,7 @@
 layout: default
 title: Lonafarnib
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 232
+nav_order: 268
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,77 +29,93 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Lonafarnib: Progerian oireyhtymästä/hepatiitti D:stä lepraaseen
+# Lonafarnibi: Progeriasta ja laminopatioista lepraan
 
-## Yhden lauseen tiivistelmä
+## Yhden lauseen yhteenveto
 
-Lonafarnib on farnesylyytransferaasin estäjä, jonka tunnettu kliininen/tutkittava käyttö keskittyy Hutchinson-Gilfordin progerian oireyhtymään ja krooniseen hepatiittiin D; tässä näyttöpaketissa ei ole kirjattu mitään TFDA:n tai Suomen hyväksymää indikaatiota.
-TxGNN-malli ennustaa, että se saattaa olla tehokas **lepran** hoidossa, mutta tätä ennustusta tukee tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua**.
-Tämä on puhdas tietoverkkojen korrelaatio, jolla ei ole mekanistista tai empiiristä tukea tähän mennessä.
+Lonafarnibi on farnesyylitransferaasin estäjä, jota on alun perin käytetty progerian ja laminopatioiden hoitoon. TxGNN-malli ennustaa sen voivan tehota **lepraan**, mutta ennustetta ei tue yksikään kliininen tutkimus eikä julkaisu (**0 kliinistä tutkimusta** ja **0 julkaisua**), joten näyttö perustuu pelkästään mallin ennusteeseen.
 
 ---
 
-## Pikayleiskatsaus
+## Pikakatsaus
 
-| Kohde | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Ei saatavilla (indikaatiota ei ole kirjattu; tunnetusta tutkittavasta käytöstä Progerian oireyhtymässä/hepatiitti D:ssä katso perustelutiedot) |
-| Ennustettu uusi indikaatio | Lepra |
-| TxGNN-ennustuspistemäärä | 99.14% (sijoitus 8442) |
+| Kohta | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | Progeria; laminopatiat |
+| Ennustettu uusi käyttöaihe | Lepra |
+| TxGNN-ennustepisteet | 99,14 % |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | ✗ Ei markkinoilla |
-| Myyntilupien lukumäärä | 0 |
-| Suositeltu päätös | Pysäytä |
+| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
+| Myyntilupien lukumäärä | 1 |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Miksi tämä ennustus on järkevä?
+## Miksi ennuste on perusteltu?
 
-Yksityiskohtaista mekanismin vaikuttotietoa ei ole tällä hetkellä saatavilla (merkitty korkeana vakavuutena olevaksi tietorako). Tämän ennustuksen perustelutietojen perusteella Lonafarnib'in tunnettu farmakologia on farnesylyytransferaasin estäminen — se estää sellaisten proteiinien kuin Ras ja hepatiitti D:n viruksen suuren delta-antigenin farnesylointia — mikä on taustalla sen käytölle Progerian oireyhtymässä ja tutkittavalle käytölle kroonisessa hepatiitissa D.
+Lonafarnibi estää farnesyylitransferaasi-entsyymiä ja siten proteiinien farnesylaatiota (esim. progeriini, Ras-perheen proteiinit ja lamiinien prosessointi). Tarkkaa vaikutusmekanismitietoa ei ole tämän raportin aineistossa saatavilla, joten tarkastelu perustuu yleiseen farmakologiaan.
 
-Lepra on *Mycobacterium leprae* -bakteerin aiheuttama sairaus, ja sitä hoidetaan antibiootteilla (dapson, rifampisiini, klofasimiini), jotka vaikuttavat bakteerin soluseinnän synteesiin ja aineenvaihduntareitteihin. Isäntäproteiinin farnesyloinnin estämisen ja antimykobakteeri-aktiviteetin välillä ei ole tunnettua biologista yhteyttä. Perustelutiedot ilmoittavat eksplisiittisesti, että tämä ennustus ei perustu millään mekanistisella hypoteesilla — se on vain laskennallinen assosiaatio tietoverkosta, pahentaen sitä, että itse lääkkeen mekanismin vaikutustieto (MOA) on itsessään tietorako.
+Yhteys lepraan on toistaiseksi spekulatiivinen. *Mycobacterium leprae* -infektio liittyy isäntäsolun lipidiaineenvaihduntaan, Schwannin solujen signalointiin ja makrofagien vasteisiin. Prenylaatiosta riippuvaiset pienet GTPaasit (Ras/Rho/Rab) osallistuvat fagosomien kypsymiseen ja tulehdussignalointiin, joten farnesylaation esto voisi teoriassa vaikuttaa näihin prosesseihin. Tästä ei kuitenkaan ole suoraa näyttöä.
 
-Koska mekanistiselle uskottavuudelle ei ole pohjaa ja tutkimuksia ei ole, tämä ennustus tulee käsitellä vain tutkivaksi eikä valmiiksi jatkoarviointiin lähtevää ehdokasta.
-
----
-
-## Kliinisen tutkimuksen näyttö
-
-Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisia tutkimuksia.
+TxGNN-pistemäärä (0,991) on tietämysgraafipohjainen ennuste, jota ei ole vahvistettu millään tutkimuksella tai julkaisulla. Alkuperäisen käyttöaiheen (progeria, harvinaissairaus) ja lepran välinen samankaltaisuus on vielä arvioimatta.
 
 ---
 
-## Kirjallisuuden näyttö
+## Kliininen tutkimusnäyttö
 
-Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta.
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
 ---
 
-## Suomen markkinatiedot
+## Kirjallisuusnäyttö
 
-Lonafarnibilla ei ole rekisteröity markkinoille saattamisen lupaa (0 lupaa; markkinatilanne: ei markkinoilla).
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
+
+---
+
+## Tiedot Suomen markkinoilta
+
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/005271 | Zokinvy | – | Progeria; laminopatiat |
+
+Myyntilupa on tilassa "peruutettu".
 
 ---
 
 ## Turvallisuusnäkökohdat
 
-Turvakysymysten osalta katso pakkauselosteesta.
+- **Lääkkeiden yhteisvaikutukset**: Yhteisvaikutushaku tuotti yhteensä 100 yhteisvaikutusta, mikä on runsaasti. Esimerkkejä vakavaksi (Major) luokitelluista:
+  - loperamidi
+  - aprepitantti
+  - triamsinoloni
+  - deksametasoni
+  - budesonidi
+  - simetidiini
+  - klaritromysiini
+  - eliglustaatti
+  - naloksegoli
+
+  Kohtalaisiksi (Moderate) luokiteltuja ovat mm. hydrokortisoni, omepratsoli, betametasoni, klooripropamidi, saksagliptiini, empagliflotsiini, oksandroloni ja naldemed```iini.
+- **Huomio lepran hoidon kannalta**: Lonafarnibin tiedetään liittyvän ruoansulatuskanavan haittavaikutuksiin ja CYP3A4-välitteisiin yhteisvaikutuksiin. Rifampisiini, lepran monilääkehoidon osa, on voimakas CYP3A4:n induktori ja voisi odotetusti heikentää lonafarnibialtistusta. Tämä vaikeuttaisi yhteiskäyttöä tavanomaisen lepran hoidon kanssa.
+
+Muiden turvallisuustietojen (varoitukset, vasta-aiheet) osalta katso valmisteyhteenveto.
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Johtopäätös ja seuraavat askeleet
 
-**Päätös: Pysäytä**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Ennustusta tukee vain TxGNN-mallin pistemäärä (L5, S0), ilman kliinisiä tutkimuksia, kirjallisuutta tai uskottavaa mekanistista yhteyttä farnesylyytransferaasin estämisen ja lepran hoidon välillä — tämä ei täytä vaatimuksia turvallisuusseulonnan edistämiselle.
+- Ennuste perustuu yksinomaan tietämysgraafimalliin, eikä sitä tue yksikään kliininen tutkimus tai julkaisu (taso L5). Lisäksi Suomen myyntilupa on peruutettu ja yhteisvaikutuskuorma on suuri, erityisesti lepran vakiohoidon kanssa.
 
-**Jatkaakseen tarvitaan seuraavaa:**
-- TFDA:n/EMA:n pakkausialoste (varoitukset, vasta-aiheet) — tällä hetkellä esto-aineiston rako (DG001)
-- Vahvistettu mekanismin vaikutustieto DrugBankista tai alkuperäisistä lähteistä — korkean vakavuuden rako (DG002)
-- Vähintään prekliiniset tai mekanistiset näytöt, jotka vahvistaisivat antimykobakteeri-vaikutuksen biologisen uskottavuuden
-- Kliinisen tutkimuksen rekistereihin (ClinicalTrials.gov, ICTRP) ja PubMediin tulee palata säännöllisesti uusien näyttöjen seuraamiseksi
-
+**Eteenpäin siirtyminen edellyttää seuraavaa:**
+- Vaikutusmekanismin tarkempi selvitys (DrugBank) ja mekanistisen yhteyden arviointi lepraan
+- Esikliininen näyttö farnesylaation eston vaikutuksesta *M. leprae* -infektioon (solu- ja eläinmallit)
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean sivuilta, sillä turvallisuusarviointi ei voi edetä ilman niitä
+- Yhteisvaikutusten arviointi lepran monilääkehoidon kanssa (erityisesti rifampisiini ja CYP3A4)
+- Myyntilupatilanteen selvittäminen Suomessa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

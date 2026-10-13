@@ -2,7 +2,7 @@
 layout: default
 title: Anagrelide
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 29
+nav_order: 32
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,89 +29,85 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Anagrelidi: Oleellisesta trombosytemiasta reaktiiviseen trombosytoosiin
+# Anagrelidi: Olennaisesta trombosytemiasta reaktiiviseen trombosytoosiin
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Anagrelidi (DrugBank DB00261) on verihiutaleiden määrää alentava aine, jonka vakiintunut kliininen käyttö — tähän näyttöpakettiin sisältyvän kirjallisuuden mukaan — on oleellinen trombosytemia (ET), klonaalinen myeloproliferatiivinen häiriö. TxGNN-malli ennustaa, että se saattaa olla tehokas myös **reaktiiviseen trombosytoosiin**, mutta tätä suuntaa tukee tällä hetkellä vain **0 kliinistä tutkimusta** ja **10 tausta-/katsausartikkelia**, joista mikään ei suoraan testaa anagrelidiä reaktiivisessa trombosytoosissa. Huomionarvoista on, että useat näistä samaisista artikkeleista toteavat, että reaktiivinen trombosytoosi tyypillisesti **ei** vaadi verihiutaleiden määrää alentavaa lääkehoitoa, mikä heikentää pikemmin kuin vahvistaa uudelleenkäyttötapausta.
+Anagrelidi on verihiutaleiden määrää alentava lääke, jota käytetään alun perin **essentiaalisen trombosytemian** hoitoon. TxGNN-malli ennustaa sen voivan olla hyödyllinen **reaktiivisessa trombosytoosissa**, mutta tälle käyttöaiheelle ei ole kliinisiä tutkimuksia, ja kirjallisuus (10 julkaisua) käsittelee pääosin essentiaalista trombosytemiaa, ei reaktiivisen trombosytoosin hoitoa anagrelidilla. Näyttö on käytännössä pelkkää mallin ennustetta.
 
----
-
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Ei dokumentoitu Suomen sääntelyaineistossa (lääkettä ei markkinoida siellä). Tähän näyttöpakettiin sisältyvän kirjallisuuden perusteella anagrelidiä käytetään oleellisen trombosytemia / klonaalisen trombosytoosin hoitoon (esim. PMID 16019501, 38455691) |
-| Ennustettu uusi indikaatio | Reaktiivinen trombosytoosi |
-| TxGNN ennustepisteet | 99.83% (ranking 2305) |
-| Näyttötaso | L4 (vain tausta-/mekanistinen ja tapaus-tason kirjallisuus; yksikään kliininen tutkimus tai tutkimus ei suoraan testaa anagrelidiä tätä indikaatiota varten) |
-| Suomen markkinatilanne | ✗ Ei markkinoida |
-| Lupien lukumäärä | 0 |
-| Suositeltu päätös | Pidä varalla |
+| Alkuperäinen käyttöaihe | Essentiaalinen trombosytemia |
+| Ennustettu uusi käyttöaihe | Reaktiivinen trombosytoosi |
+| TxGNN-ennusteen pistemäärä | 99,83 % |
+| Näytön taso | L4 (kirjallisuus on pääosin katsauksia ja tapausselostuksia, ei suoraa tutkimusnäyttöä uudesta käyttöaiheesta; mallin ennuste on ainoa varsinainen tuki) |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 2 (kaikki peruutettuja, voimassa olevia 0) |
+| Suositeltu päätös | Hold (odota) |
 
----
+## Miksi ennuste voi olla perusteltu?
 
-## Miksi tämä ennuste on perusteltu?
+Tarkkaa vaikutusmekanismia ei ole tällä hetkellä saatavilla kootussa aineistossa. Tunnetun tiedon mukaan anagrelidi alentaa verihiutaleiden määrää estämällä megakaryosyyttien kypsymistä ja erilaistumista, mikä on sen hyväksytyn käytön (essentiaalinen trombosytemia) perusta. Lääkkeen tiedetään myös olevan PDE3-estäjä.
 
-Anagrelidiä koskevia yksityiskohtaisia toimintamekanismin tietoja on tällä hetkellä merkitty tietoaukoksi (DG002, korkea vakavuus) — DrugBank ei palauttanut tässä kyselyssä strukturoitua MOA-sisältöä. Haetun kirjallisuuden perusteella anagrelidiä kuvataan aineeksi, jota käytetään megakaryosyyttien proliferaation tukahduttamiseen ja verihiutaleiden tuotannon vähentämiseen, ja se on sijoitettu busulfaanin, hydroksikarbamiidin ja interferoni-alfan rinnalle klonaalisen trombosytoosin sytoreduktiivisena vaihtoehtona (PMID 7783354, 15270658).
+Reaktiivinen (sekundaarinen) trombosytoosi johtuu taustalla olevasta tilasta, kuten tulehduksesta, raudanpuutteesta, infektiosta tai pernanpoistosta, eikä kloonaalisesta megakaryosyyttien lisääntymisestä. Verihiutaleita alentava vaikutus on siksi teoriassa uskottava, mutta vakiohoito on taustasyyn hoito. Verihiutaleiden alentamista ei yleensä tarvita, koska reaktiiviseen trombosytoosiin liittyvä tromboosiriski on pieni. TxGNN-pistemäärä on todennäköisesti seurausta tilan läheisestä samankaltaisuudesta hyväksytyn käyttöaiheen kanssa, ei itsenäisestä näytöstä.
 
-Ennustetulla uudella indikaatiolla, reaktiivisella trombosytoosilla, on pinnallisesti samanlainen fenotyyppi alkuperäisen indikaation kanssa — molemmat ilmenevät kohonneina verihiutaleiden lukumäärinä. Tämä on todennäköisesti syy siihen, miksi TxGNN-tietokaavio linkitti ne: oleellinen trombosytemia ja reaktiivinen trombosytoosi käsitellään usein yhdessä differentiaalidiagnoosin kirjallisuudessa (PMID 10494240, 17171694, 1994734), mikä luo vahvan solmujen läheisyyden tietokaavissa, vaikka näillä kahdella tilalla on eri taustalla oleva biologia.
+## Kliininen tutkimusnäyttö
 
-Tärkeää on, että tämä sama kirjallisuus toimii oikeastaan vastaan yksinkertaisen uudelleenkäyttölogiikan: reaktiivinen trombosytoosi on toisen taustalla olevan prosessin (infektio, tulehdus, pernan poisto, raudan puute jne.) sekundaarinen vastaus, ja useat tässä paketissa olevat lähteet toteavat eksplisiittisesti, että se "ei vaadi lääkehoitoa" useimmissa tapauksissa (PMID 15270658), toisin kuin klonaalinen trombosytoosi, jossa hoito ohjataan verihiutaleiden lukumäärän kynnysarvoilla ja trombotiikan riskillä (PMID 10494240). Mikä tahansa anagrelidihoito reaktiivisessa trombosytoosissa rajoittuisi todennäköisesti harvinaisiin, vaikeisiin/oireileviin tapauksiin (esim. äärimmäinen hypertromboosytoosi, jossa on pään ja sisäelinten riski, kuten kuvataan trombosyyttaaferesis-katsauksessa, PMID 28380402) — ei yleiseen reaktiiviseen trombosytoosiin, jota ennustettu indikaatio tarkoittaa. Tämä ero tulisi käsitellä varoituslipuksi pikemmin kuin ennusteen vahvistukseksi.
+Tälle käyttöaiheelle ei ole tällä hetkellä rekisteröityjä kliinisiä tutkimuksia.
 
----
+## Kirjallisuusnäyttö
 
-## Kliinisen tutkimuksen näyttö
-
-Tällä hetkellä ei ole liittyviä kliinisiä tutkimuksia rekisteröity.
-
----
-
-## Kirjallisuuden näyttö
-
-| PMID | Vuosi | Tyyppi | Julkaisu | Keskeisiä tuloksia |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [16019501](https://pubmed.ncbi.nlm.nih.gov/16019501/) | 2005 | Katsaus | Leukemia & Lymphoma | Anagrelidihoitoa koskevan kriittinen katsaus oleellisessa trombosytemiassa; erottaa klonaalisen trombosytoosin (vaatii sytoreduktiota) reaktiivisesta trombosytoosista (tavallisesti ei vaadi) |
-| [15270658](https://pubmed.ncbi.nlm.nih.gov/15270658/) | 2004 | Katsaus | Expert Review of Anticancer Therapy | Anagrelidiä koskeva lääkeprofiilit (Agrylin) MOA ja terapeuttinen potentiaali klonaalisen trombosytoosin hoidossa; huomauttaa eksplisiittisesti, että reaktiivinen trombosytoosi ei vaadi hoitoa |
-| [10494240](https://pubmed.ncbi.nlm.nih.gov/10494240/) | 1999 | Katsaus | The Medical Journal of Australia | ET-diagnoosi vaatii reaktiivisen trombosytoosin poissulkemista; hoitokynnyksellä on verihiutaleiden lukumäärä >1000×10⁹/L |
-| [1994734](https://pubmed.ncbi.nlm.nih.gov/1994734/) | 1991 | Katsaus | The American Journal of the Medical Sciences | Trombosytoosin/trombosytemia taustalla olevan patofysiologia ja verihiutaleiden tuotannon sytokinisäätely; ei lääkekohtainen |
-| [7783354](https://pubmed.ncbi.nlm.nih.gov/7783354/) | 1995 | Katsaus | Rinsho Ketsueki (japani) | ET:n diagnoosi/hoitokatsaus; luettelee anagrelidiä aineeksi, joka tukahduttaa megakaryosyyttien proliferaatiota |
-| [28380402](https://pubmed.ncbi.nlm.nih.gov/28380402/) | 2017 | Tapausperustainen katsaus | Leukemia Research | Trombosyyttaaferesisin katsaus äärimmäisessä hypertromboosytoosissa myeloproliferatiivisissa neoplasmoissa; käsittelee lääkinnällisen sytoreduksion rajoja, kun nopea vähentäminen on tarpeen |
-| [17171694](https://pubmed.ncbi.nlm.nih.gov/17171694/) | 2007 | Retrospektiivinen/Havainnoiva | Pediatric Blood & Cancer | Retrospektiivinen analyysi 12 pediatrisesta tapauksesta, jossa verrataan oleellista vs. reaktiivista trombosytemiaa; korostaa diagnostista päällekkäisyyttä |
-| [27276864](https://pubmed.ncbi.nlm.nih.gov/27276864/) | 2016 | Tapauskertomus | Srpski Arhiv za Celokupno Lekarstvo | ET, jossa ankyloiva spondyliitti (tila, joka liittyy reaktiiviseen trombosytoosiin), jota hoidetaan anagrelidiä sekä DMARD-lääkkeitä/etanersepta |
-| [38455691](https://pubmed.ncbi.nlm.nih.gov/38455691/) | 2024 | Tapauskertomus | European Journal of Case Reports in Internal Medicine | Akuutti sydäninfarkti ET-potilaalla, joka käyttää anagrelidihoitoa — turvallisuussignaali, joka liittyy trombotiikan/kardiaalisen riskin |
-| [29851840](https://pubmed.ncbi.nlm.nih.gov/29851840/) | 2018 | Tapauskertomus | Medicine | Perioperatiivisen hoidon ohjaus trombosytoosin osalta digitaalisessa replantaatiossa; ei anagrelidi-spesifinen |
+| [15270658](https://pubmed.ncbi.nlm.nih.gov/15270658/) | 2004 | Katsaus | Expert Rev Anticancer Ther | Anagrelidin vaikutusmekanismit ja terapeuttinen potentiaali; kloonaalinen trombosytoosi voi vaatia hoitoa, reaktiivinen ei |
+| [16019501](https://pubmed.ncbi.nlm.nih.gov/16019501/) | 2005 | Katsaus | Leuk Lymphoma | Kriittinen katsaus anagrelidihoitoon essentiaalisessa trombosytemiassa ja sukulaistiloissa |
+| [10494240](https://pubmed.ncbi.nlm.nih.gov/10494240/) | 1999 | Katsaus | Med J Aust | Essentiaalinen trombosytemia; diagnoosi edellyttää reaktiivisen trombosytoosin poissulkemista |
+| [28380402](https://pubmed.ncbi.nlm.nih.gov/28380402/) | 2017 | Katsaus | Leuk Res | Trombosytafereesin rooli myeloproliferatiivisten neoplasioiden hypertrombosytoosin hoidossa |
+| [7783354](https://pubmed.ncbi.nlm.nih.gov/7783354/) | 1995 | Katsaus | Rinsho Ketsueki | Essentiaalisen trombosytemian diagnostiikka ja hoito (mm. anagrelidi) |
+| [1994734](https://pubmed.ncbi.nlm.nih.gov/1994734/) | 1991 | Katsaus | Am J Med Sci | Trombosytoosin ja trombosytemian kliininen kirjo |
+| [17171694](https://pubmed.ncbi.nlm.nih.gov/17171694/) | 2007 | Retrospektiivinen tutkimus | Pediatr Blood Cancer | Essentiaalinen vs. reaktiivinen trombosytemia lapsilla, 12 tapausta |
+| [38455691](https://pubmed.ncbi.nlm.nih.gov/38455691/) | 2024 | Tapausselostus | Eur J Case Rep Intern Med | Akuutti sydäninfarkti anagrelidilla hoidetulla essentiaalista trombosytemiaa sairastavalla potilaalla |
+| [27276864](https://pubmed.ncbi.nlm.nih.gov/27276864/) | 2016 | Tapausselostus | Srp Arh Celok Lek | Essentiaalinen trombosytemia ja selkärankareuma, hoitona anagrelidi, DMARD-lääkkeet ja etanersepti |
+| [29851840](https://pubmed.ncbi.nlm.nih.gov/29851840/) | 2018 | Tapausselostus | Medicine | Kahden sormen replantaatio pernanpoiston jälkeisessä trombosytoosissa |
 
----
+## Suomen markkinatiedot
 
-## Suomen markkinatieto
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000480 | Xagrid (peruutettu) | – | Essentiaalinen trombosytemia |
+| EMEA/H/C/004585 | Anagrelide Viatris, aiemmin Anagrelide Mylan (peruutettu) | – | Essentiaalinen trombosytemia |
 
-Anagrelidiä ei ole tällä hetkellä markkinoitu Suomessa (0 markkinoille saattolupaa), joten tuote-/indikaatiotietoja ei ole saatavilla.
+## Sytotoksisuus
 
----
+Anagrelidia ei luokitella perinteiseksi solunsalpaajaksi, vaan se on verihiutaleiden muodostusta estävä lääke. Tämän vuoksi sytotoksisten lääkkeiden luokittelua ei sovelleta.
 
-## Turvallisuuteen liittyvät näkökohdat
+## Turvallisuushuomiot
 
-TFDA-pakkauksessa olevista varoituksista ja vasta-aiheista anagrelidiille ei voitu hankkia tietoa tässä kyselyssä (tietoaukko DG001, **Estävä vakavuus** — tämä tietoaukko yksinään estää ehdokkaan alkuvaiheen turvallisuusseulonnan täyttämisen). Lääkkeiden väliset vuorovaikutukset kyselty, mutta sitä ei löytynyt. Kunnes tämä tietoaukko ratkaistaan, katso suoraan anagrelidiä koskevan pakkauselosteen turvallisuustiedoista.
+**Mahdolliset vasta-aiheet tietopohjan mukaan (ei valmisteyhteenvedosta):** Tietämysgraafiin perustuvat ennusteet liittävät lääkkeen seuraaviin tiloihin: maksan vajaatoiminta ja maksasairaus, munuaissairaus, sappirakon sairaus, trombosytopenia, veren hyytymishäiriöt, sydänsairaus ja sydän- ja verisuonisairaudet, anemia (myös makrosyyttinen), interstitiaalinen keuhkosairaus, eosinofiilinen keuhkokuume ja keuhkojen eosinofilia sekä korkean minuuttitilavuuden sydämen vajaatoiminta. Nämä eivät ole valmisteyhteenvedon tekstiä, vaan ne on varmistettava valmisteyhteenvedosta.
 
----
+**Lääkeyhteisvaikutukset:** Yhteisvaikutuksia on kirjattu yhteensä 100, joista esimerkkeinä:
+- **Merkittävät (Major):** sisapridi, klaritromysiini, dolasetroni, granisetroni, levofloksasiini (mahdollisesti QT-ajan pidentymiseen liittyviä)
+- **Kohtalaiset (Moderate):** famotidiini, alosetroni, aprepitantti, asetyylisalisyylihappo, simetidiini, loperamidi, fenfluramiini sekä useita ulosteenpehmentäjiä ja laksatiiveja (esim. bisakodyyli, laktuloosi, magnesiumhydroksidi)
 
-## Johtopäätös ja seuraavat vaiheet
+Valmisteyhteenvedon varoitukset ja vasta-aiheet tulee tarkistaa erikseen.
 
-**Päätös: Pidä varalla**
+## Johtopäätös ja seuraavat askeleet
 
-**Perustelut:**
-- Näyttötaso on parhaimmillaan L4 — ei ole olemassa kliinisiä tutkimuksia, joissa suoraan testattaisiin anagrelidiä reaktiivisessa trombosytoosissa, eikä kirjallisuus ole oikeastaan tueksi; haettu kirjallisuus on tausta-/mekanistinen ja väittää päinvastoin, että useimpia reaktiivisia trombosytoosia ei vaadita verihiutaleiden määrää alentava lääkehoito.
-- Estävän vakavuuden turvallisuustietoaukko (TFDA varoitukset/vasta-aiheet, DG001) tarkoittaa, että tämä ehdokas ei voi edetä turvallisuuden arviointiin riippumatta tehokkuuden näytöistä.
+**Päätös: Hold (odota)**
 
-**Jotta edetään eteenpäin, seuraavaa tarvitaan:**
-- Ratkaise DG001: hanki TFDA/virallisen pakkauselosteen varoitukset ja vasta-aiheet anagrelidiille
-- Ratkaise DG002: hanki vahvistetut toimintamekanismin tiedot DrugBankista
-- Tunnista kliinisesti uskottava reaktiivisen trombosytoosin alaryhmä (esim. vakava/oireilevainen hypertromboosytoosi, jossa on trombotiikan riski), eikä yleinen reaktiivisen trombosytoosin populaatio, ja etsi kaikki tapaussarjat tai tutkimukset, jotka koskevat sitä alaryhmää
-- Selventää, miksi TxGNN sijoitti tämän assosiaation korkealle, kun kirjallisuuden näyttöperusta varoittaa oikeastaan reaktiivisen trombosytoosin rutiinilääkkeistä
+**Perustelu:**
+- Ennuste perustuu lähinnä mallin samankaltaisuuteen hyväksytyn käyttöaiheen kanssa. Kliinisiä tutkimuksia ei ole, ja reaktiivisessa trombosytoosissa verihiutaleiden alentaminen ei yleensä ole aiheellista. Lisäksi lääkkeen kaikki myyntiluvat Suomessa on peruutettu.
 
-*Huomio: Toinen ehdokas-indikaatio, "käänteinen Klippel-Trenaunay-oireyhtymä" (TxGNN-pisteet 99.59%, ranking 4816), arvioitiin myös tälle lääkkeelle. Sille ei ole tukevia kliinisiä tutkimuksia tai kirjallisuutta ja mekanistinen yhteys on epätodennäköinen (Klippel-Trenaunay-spektrin häiriöt liittyvät trombosytopenian/kulutuskoagulopatian, ei trombosytoosin). Sitä arvioidaan näyttötasolla L5 suosituksinaan **Pidä varalla** ja se on hyvin todennäköisesti tietokaavion solmujen läheisyyden artefakti pikemmin kuin aito uudelleenkäyttösignaali; tätä indikaatiota ei suositella jatkotutkimukseen.*
+**Eteenpäin siirtyminen edellyttää:**
+- Vaikutusmekanismin tietojen täydentämistä (DrugBank)
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivuilta
+- Kliinisen tarpeen osoittamista: potilasryhmä, jossa reaktiivinen trombosytoosi on vaikea ja hoitoresistentti
+- Tutkimusnäyttöä (esim. tapaussarjoja tai pilottitutkimus) anagrelidin käytöstä tässä tilassa
+- Selvitystä peruutettujen myyntilupien syistä ja valmisteen saatavuudesta Suomessa
 
+**Sivuhuomio:** Toinen ennustettu käyttöaihe, käänteinen Klippel–Trenaunayn oireyhtymä (TxGNN-pistemäärä 99,59 %), perustuu pelkkään mallin ennusteeseen (L5), eikä sille ole tutkimuksia tai kirjallisuutta. Sille ei voida perustella mekanistista yhteyttä toimitetun aineiston pohjalta, ja suositus on myös Hold.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

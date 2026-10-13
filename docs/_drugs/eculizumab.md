@@ -2,7 +2,7 @@
 layout: default
 title: Eculizumab
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 133
+nav_order: 152
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,61 +29,84 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Ekulitsumabi: Paroksysmaalisen yöllisen hemoglobiinuriasta sykliseen verisolujen muodostukseen
+# Ekulitsumabi: Paroksysmaalisesta yöllisestä hemoglobinuriasta syklisen hematopoieesin ennusteeseen
 
 ## Yhden lauseen yhteenveto
 
-Ekulitsumabi on komplementin C5-estäjä, jonka vakiintunut käyttöaihe on komplementinmedioidut häiriöt, kuten paroksysmaalinen yöllinen hemoglobiinuria (PNH) ja atypillinen hemolyysi-uremiasyndromi (aHUS). TxGNN-malli ennustaa, että se voi olla tehokas **syklisessä verisolujen muodostuksessa**, mutta tämä sijoitus perustuu puhtaasti upotukseen perustuvan samankaltaisuuden pohjalle — **0 kliinistä tutkimusta** ja **0 julkaisua** tukee tätä erityistä yhdistelmää, eikä taustalla olevan sairauden biologia (ELANE-väliintuleva neutrofiilisykli) ole tunnustetulla tavalla yhteydessä komplementtireittiin.
+Ekulitsumabi on komplementin C5-proteiinia estävä vasta-aine, jota on käytetty paroksysmaalisen hemoglobinurian hoitoon. TxGNN-malli ennustaa sen voivan tehota **syklisen hematopoieesin** hoidossa (pistemäärä 99,97 %), mutta ennusteen tueksi ei ole löytynyt **yhtään kliinistä tutkimusta eikä** tautispesifistä **kirjallisuutta**. Ennuste perustuu pelkästään mallin tuottamaan graafipohjaiseen päättelyyn.
 
-## Pikaohjeistus
+---
 
-| Kohde | Sisältö |
-|------|---------|
-| Alkuperäinen käyttöaihe | Komplementinmedioidut häiriöt (PNH, atypillinen HUS) — päätelmä kirjallisuudesta, joka on otettu tähän näyttöpakettiin; ei ole erikseen vahvistettu rakenteisen lääketietueen kautta |
-| Ennustettu uusi käyttöaihe | Syklinen verisolujen muodostus |
-| TxGNN-ennustepisteet | 99,97% |
-| Näyttöjen taso | L5 |
-| Suomen markkinatilanne | ✗ Ei markkinoilla |
-| Markkinointilupapäätösten lukumäärä | 0 |
-| Suositeltu päätös | Odota |
+## Pikakatsaus
 
-## Miksi tämä ennuste on perusteltu?
+| Kohta | Sisältö |
+|------|------|
+| Alkuperäinen käyttöaihe | Paroksysmaalinen hemoglobinuria |
+| Ennustettu uusi käyttöaihe | Syklinen hematopoieesi (cyclic hematopoiesis) |
+| TxGNN-ennustepistemäärä | 99,97 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 3 (kaikki peruutettuja) |
+| Suositeltu päätös | Hold (odota) |
 
-Yksityiskohtaista, lähteillä tuettua vaikutusmekanismin tietoa ekulitsumabista ei ole saatavilla tässä näyttöpaketissa (merkitty korkeimman vakavuuden tietovajeeksi, DG002). Tukevassa kirjallisuudessa ja perustelutietueissa sisältyvien tietojen perusteella ekulitsumabi on humanisaitu monoklonaalinen vasta-aine, joka sitoutuu komplementtiproteiiniin C5 ja estää sen pilkkoutumisen C5a:ksi ja C5b-9:ksi, mikä estää terminaalisen komplementin (kalvohyökkäysmonimerin) aktivaatiota. Tämä mekanismi selittää sen vakiintuneen tehokkuuden komplementinmedioidussa hematologisessa sairaudessa (PNH, aHUS) ja tässä kuvatuissa laadullisissa kirjallisuusglähteissä muissa komplementtiin liittyvissä tiloissa, kuten thrombotisissa mikroangiopatioissa ja CD59-puutossyndroomeissa.
+---
 
-Syklinen verisolujen muodostus on kuitenkin granulosyytin tuotannon jaksoittainen häiriö, jonka aiheuttaa ELANE-mutaatiot (neutrofiilielastaasin mutaatiot), jotka vaikuttavat myeloidisolujen esiasteikkojen erilaistumiseen ja selviytymiseen — reitillä, jolla ei ole tunnettua yhteyttä terminaalisen komplementin aktivaatioon. Tähän kandidaattiin liitetyssä repurposoinnin perustelutekstissä nimenomaisesti todetaan, että ei ole tunnettua mekanismia, jolla C5-esto korjaisi ELANE-aiheuttamaa syklistä häiriötä, ja tämä sijoitus johtuu puhtaasti TxGNN:n opitusta upotukseen perustuvan samankaltaisuudesta sairauksien välillä, ei mistään jaetusta patofysiologiasta.
+## Miksi ennuste voisi olla perusteltu?
 
-Näiden mekanististen eroavuuksien ja täydellisen kliinisten tai kirjallisuuslähtöjen puuttumisen vuoksi tätä ennustetta olisi tulkittava vain hypoteesia luovaksi signaaliksi, ei kliinisesti tuetuksi repurposointimahdollisuudeksi.
+Yksityiskohtaista vaikutusmekanismitietoa ei ole tässä aineistossa saatavilla. Tiedossa on, että ekulitsumabi on monoklonaalinen vasta-aine, joka estää komplementin C5:n ja siten terminaalisen komplementtireitin. Sen teho paroksysmaalisessa yöllisessä hemoglobinuriassa perustuu kontrolloimattoman komplementtiaktivaation estoon.
 
-## Kliinisten tutkimusten näyttö
+Syklinen hematopoieesi (syklinen neutropenia) johtuu pääasiassa ELANE-geenin mutaatioista ja neutrofiilien kypsymishäiriöstä. Aineiston perusteella sille ei tunneta komplementtivälitteistä mekanismia, joten mekanistinen yhteys alkuperäiseen käyttöaiheeseen jää heikoksi. Korkea pistemäärä kuvaa graafipohjaista samankaltaisuutta, ei todennettua biologista perustetta.
 
-Tällä hetkellä ei ole rekisteröityjä vastaavia kliinisiä tutkimuksia.
+Muut mallin korkeimmalle sijoittamat ennusteet (mm. vaikeat synnynnäiset neutropeniat, idiopaattinen aikuisten neutropenia) ovat samankaltaisia: niillekään ei ole kliinistä tai kirjallista tukea eikä uskottavaa C5-yhteyttä.
 
-## Kirjallisuuslähtöjen näyttö
+---
 
-Tällä hetkellä ei ole saatavilla vastaavia kirjallisuuslähtöjä.
+## Kliininen tutkimusnäyttö
 
-## Suomen markkinatiedot
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
-Markkinointilupapäätösten tietueita ei ole saatavilla tälle markkinalle — ekulitsumabi ei ole tällä hetkellä **markkinoilla** tässä alueella (0 lupapäätöstä tiedostoissa).
+---
 
-## Turvallisuushuomiot
+## Kirjallisuusnäyttö
 
-Turvakkautta koskevat tiedot löytyvät pakkaussesite-dokumentista. (TFDA:n pakkausesite-tietoja ei ole vielä saatu — merkitty estävaksi tietovaheeksi, DG001, vaatii muuta ennen kuin voidaan edetä vaiheen 1 turvallisuusarviointiin.)
+Tälle ennusteelle (syklinen hematopoieesi) ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
-## Johtopäätökset ja seuraavat vaiheet
+Huomionarvoista: muiden listalla olevien ennusteiden yhteydessä haetut julkaisut (esim. 20 julkaisua synnynnäisen neutropenia-myelofibroosi-nefromegalia-oireyhtymän kohdalla) käsittelevät ekulitsumabin vakiintuneita käyttöaiheita (PNH, aHUS/TMA, myasthenia gravis, CD59-puutos) eivätkä itse ennustettua tautia. Ne heijastavat hakusanayhteyttä ekulitsumabiin, eivät tautispesifistä näyttöä.
 
-**Päätös: Odota**
+---
+
+## Myyntiluvat Suomessa
+
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000791 | Soliris | – | Paroksysmaalinen hemoglobinuria (peruutettu) |
+| EMEA/H/C/005652 | Bekemv | – | Paroksysmaalinen hemoglobinuria (peruutettu) |
+| EMEA/H/C/006036 | Epysqli | – | Paroksysmaalinen hemoglobinuria (peruutettu) |
+
+---
+
+## Turvallisuusnäkökohdat
+
+- **Yhteisvaikutukset:** Tietokannasta löytyi 4 vähäistä (Minor) yhteisvaikutusta ihmisen immunoglobuliini G -valmisteiden kanssa (laskimoon, ihon alle, lihakseen sekä laskimoon ja ihon alle annosteltavat).
+- **Infektioriski:** Ennusteiden perustelujen mukaan komplementin esto lisää infektioriskiä (erityisesti meningokokki-infektiot). Tämä on erityinen huolenaihe neutropenisilla tai immuunipuutteisilla potilailla, joiden infektioalttius on jo suurentunut.
+
+Varoitusten ja vasta-aiheiden osalta tarkista turvallisuustiedot valmisteyhteenvedosta.
+
+---
+
+## Johtopäätös ja seuraavat askeleet
+
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Ennuste on tuettu vain TxGNN:n upotukseen perustuvan samankaltaisuuden pohjalla (L5, S0), jossa on nolla kliinistä tutkimusta ja nolla kirjallisuuslähtöjä, ja repurposoinnin perusteluteksti itse tunnistaa, ettei ole uskottavaa mekanistista yhteyttä komplementin C5-estontyökalun ja ELANE-aiheuttaman syklisen verisolujen muodostuksen välillä. Huomaa, että 9 muuta TxGNN:n ennustamaa indikaatiota tälle kandidaatille (kaikki synnynnäiset neutropeniat/immuunivajavuussyndroomat) käytiin läpi rinnakkain tämän kanssa ja ne näyttävät samalta mallilta — korkeat samankaltaisuuspisteet mutta ei mekanistista, tutkimus- tai todella aiheeseen liittyvää kirjallisuustukea.
+- Ennuste perustuu vain graafimalliin (L5). Kliinisiä tutkimuksia ja tautispesifistä kirjallisuutta ei ole, eikä C5-eston ja syklisen hematopoieesin välillä ole tunnettua mekanistista yhteyttä. Lisäksi komplementin esto voisi lisätä jo neutropenisten potilaiden infektioriskiä.
 
-**Jotta voitaisiin edetä, seuraavaa tarvitaan:**
-- TFDA:n/paikallisten sääntelyviranomaisten pakkausesite (varoitukset, vasta-aiheet) — tällä hetkellä estävä tietovahe
-- Vahvistettu vaikutusmekanismin dokumentaatio DrugBank:sta tai alkuperäisestä kirjallisuudesta
-- Prekliiniset tai mekanistiset tutkimukset, jotka suoraan yhdistävät komplementtireittiaktiviteetin ELANE-aiheuttamaan neutrofiilisykliin, jos tällainen yhteys koskaan muodostetaan
-- Kirjallisuushaun termien uudelleentarkistus, koska aiemmat kyselyt vastaavista kandidaateista (esim. sijoitus 4 ja sijoitus 10) palautivat osumia, joita ohjasivat avainsanayhtymät eikä sairauksille spesifinen relevanssi
-
+**Jatkoon tarvitaan seuraavaa:**
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet Fimean tiedoista (estää turvallisuusseulonnan jatkamisen)
+- Yksityiskohtainen vaikutusmekanismitieto (esim. DrugBankista)
+- Prekliininen tai mekanistinen näyttö komplementin roolista syklisessä hematopoieesissa
+- Infektioriskin arviointi neutropenisilla potilailla
+- Huomioitava, että kaikki Suomen myyntiluvat ovat peruutettuja, mikä vaikuttaa saatavuuteen
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

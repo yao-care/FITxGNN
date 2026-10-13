@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Alirocumab
-parent: Vahva näyttö (L1-L2)
-nav_order: 23
-evidence_level: L1
+parent: Pelkkä mallin ennuste (L5)
+nav_order: 25
+evidence_level: L5
 indication_count: 10
 ---
 
 # Alirocumab
 {: .fs-9 }
 
-Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,89 +29,93 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Alirokumabi: Hyperkolesterolemiaasta kolesterolin kataboliseen prosessin sairauteen
+# Alirokumabi: Dyslipidemioista kolesterolin kataboliaan liittyvään sairauteen
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Alirokumabi on PCSK9-inhibiittori monoklonaalinen vasta-aine, jota alun perin käytetään LDL-kolesteriinin alentamiseen ja sydän- ja verisuonisairauksien riskin vähentämiseen hyperkolesterolemian potilailla. TxGNN-malli ennustaa, että se saattaa olla tehokas myös **Cholesterol Catabolic Process Disease** -sairaudelle (kategoria, joka sisältää homozygottisen familiarisen hyperkolesterolemian, HoFH), ja sille on saatavilla **1 valmistunut Phase 3 -suhteinen kliininen tutkimus** sekä **19 julkaisua**, jotka tukevat tätä suuntaa. Tämä kandidaatti on pohjimmiltaan alirokumabbin ydinmekanismin jatke eikä mekanistinen harppaus, mikä näkyy sen poikkeuksellisen vahvasta näyttöpohjasta verrattuna lääkkeen muihin ennustettuihin indikaatioihin.
+Alirokumabi on PCSK9:ää estävä vasta-aine, jota on alun perin käytetty dyslipidemioiden hoitoon. TxGNN-malli ennustaa sen voivan olla tehokas oireyhtymässä **X-kromosomaalinen iktyoosi ilman steroidisulfataasin puutosta** (ennustepisteet korkeimmillaan 99,43 %). Tälle ennusteelle ei kuitenkaan löydy kliinistä tai kirjallista näyttöä: **0 kliinistä tutkimusta** ja **0 julkaisua**. Kirjallisuutta löytyy lähinnä muista ennustetuista kohteista, joista kolesterolin kataboliaan liittyvällä sairaudella on 19 julkaisua, mutta ne tukevat pääosin alkuperäistä käyttöaihetta.
 
----
-
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Hyperkolesterolemia / sydän- ja verisuonisairauksien riskin vähentäminen (PCSK9:n esto) — *virallisen hyväksynnän teksti ei ole saatavilla; katso tietoaukko-huomio alla* |
-| Ennustettu uusi indikaatio | Cholesterol Catabolic Process Disease (sisältää homozygottisen familiarisen hyperkolesterolemian) |
-| TxGNN-ennusteen pistemäärä | 99.36% |
-| Näytön taso | L1 |
-| Suomen markkina-asema | ✗ Ei markkinoilla |
-| Lupamääräysten lukumäärä | 0 |
-| Suositeltu päätös | Jatka varauksilla |
+| Alkuperäinen käyttöaihe | Dyslipidemiat |
+| Ennustettu uusi käyttöaihe | X-kromosomaalinen iktyoosi ilman steroidisulfataasin puutosta |
+| TxGNN-ennustepisteet | 99,43 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 1 |
+| Suositeltu päätös | Hold (odota) |
 
----
+Huomio: ennusteluettelon sijalla 5 oleva **kolesterolin kataboliaan liittyvä sairaus** (pisteet 99,36 %) saa näytön tasoksi L3, mutta näyttö tukee lähinnä alkuperäistä käyttöaihetta, ei uutta käyttöä.
 
-## Miksi tämä ennuste on perusteltu?
+## Miksi ennuste on (tai ei ole) perusteltu?
 
-Virallinen DrugBank vaikutusmekanismi -teksti on tällä hetkellä tietoaukko tälle tietueelle. Tässä paketissa kerätyn kirjallisuuden näytön perusteella alirokumabi on ihmisen monoklonaalinen vasta-aine, joka sitoutuu verenkierron PCSK9:ään (proproteinaasi konvertaasi subtilisiiniksi/keksinimuotoiseksi tyypiksi 9) ja estää sen sitoutumisen maksaan LDLR:ään (LDL-reseptori). Estämällä PCSK9:n välittämää LDLR:n hajoamista enemmän LDLR:ää kierrätetään hepatosyytin pinnalle, mikä lisää veresta LDL-kolesteriinin selvittämistä (PMID 39947256, 38185721).
+Tämän lääkkeen toimintamekanismitietoja ei ole tässä raportissa käytettävissä. Tunnetun tiedon mukaan alirokumabi on ihmisen IgG1-monoklonaalinen vasta-aine, joka sitoutuu PCSK9:ään (proproteiinikonvertaasi subtilisiini/keksiini tyyppi 9). Tämä lisää LDL-reseptorien kierrätystä ja vähentää LDL-kolesterolia. Sen teho dyslipidemioissa on osoitettu.
 
-Ennustettu uusi indikaatio, "kolesterolin katabolisen prosessin sairaus", ei ole kaukaa haettu tai spekulatiivinen kohde — se kuvaa kolesteriinin käsittelyn ja selvittämisen häiriöitä, mukaan lukien homozygottinen familiaarinen hyperkolesterolemia (HoFH), sairaus, jota määrittelee vaikeasti heikentynyt LDLR:n toiminta. Koska alirokumabbin koko farmakologia perustuu LDLR:n välittämän selvittämisen parantamiseen, tämä indikaatio sijaitsee suoraan mekanismilla eikä vaadi uutta biologista hypoteesia. Tämä on johdonmukainen sen kanssa, miksi näytön taso täällä (L1) on paljon vahvempi kuin lääkkeen muille TxGNN-ennustetuille indikaatioille (esim. ihtyyoosi, ksantomatoosi tai diafyysinen dyspasia), jotka sisältävät mekanistisesti liittymättömiä tai epäsuoria graafisen yhteyden.
+Ensisijainen ennuste, X-kromosomaalinen iktyoosi ilman steroidisulfataasin puutosta, liittyy ihon kolesterolisulfaatin kertymiseen. PCSK9:n esto ja LDL-kolesterolin lasku eivät ole tunnetusti yhteydessä tähän reittiin. Uskottavaa mekanistista yhteyttä ei ole tunnistettu, joten korkea pistemäärä on vain laskennallinen ennuste.
 
-Tämä tukee, että kirjallisuusperusta sisältää sekä dedikoidut HoFH-hoito-arviot (PMID 39751968) että suuret, pitkäaikaiset turvallisuustiedot ODYSSEY OUTCOMES -ohjelmasta (47,296 potilaan-vuotta, PMID 38658193), mikä osoittaa, että lääke-sairaus -suhde on jo hyvin karakterisoitu todellisen maailman ja kontrolloiduissa asetuksissa, vaikka sitä ei ole arvioitu täällä de novo "uuden indikaation" tutkimuksena.
+Muista ennusteista uskottavin on **ksantomatoosi**: ksantoomat syntyvät lipidien kertymisestä vaikean hyperkolesterolemian yhteydessä, joten LDL-kolesterolin lasku voisi teoriassa pienentää niiden kuormaa. Näyttö on kuitenkin epäsuoraa, eikä sitosterolemian (ABCG5/G8) hyötyä PCSK9-estäjistä tunneta. Useimmille muille ennusteille (esim. kolesterolisynteesin häiriöt, luustodysplasia, rasvahappojen beetaoksidaation häiriöt, perinnöllinen spastinen parapareesi) ei ole mekanistista perustetta, ja kolesterolisynteesin häiriöissä LDL-kolesterolin lisäalentaminen voisi olla jopa haitallista.
 
----
+## Kliininen tutkimusnäyttö
 
-## Kliinisen tutkimuksen näyttö
+Ensisijaiselle ennusteelle ei tällä hetkellä ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia. Sama koskee kaikkia kymmentä ennustettua käyttöaihetta.
 
-| Tutkimusnumero | Vaihe | Tila | Rekrytointi | Keskeisiä löydöksiä |
-|---------|------|------|------|---------|
-| [NCT03207945](https://clinicaltrials.gov/study/NCT03207945) | Phase 3 | Valmistunut | 118 | EPIC-HIV -tutkimus: arvioi PCSK9:n estotyön vaikutusta sydän- ja verisuonisairauksien riskiin ja aterosklerootiseen plaakkiin HIV-positiivisilla dyslipideemiapotilailla; testaa suoraan PCSK9:n estotyön vaikutusta kolesteriinin metaboliaan liittyviin kardiovaskularisiin tuloksiin. |
+## Kirjallisuusnäyttö
 
----
+Ensisijaiselle ennusteelle (X-kromosomaalinen iktyoosi) ei ole saatavilla aiheeseen liittyvää kirjallisuutta. Alla on tärkeimmät julkaisut muista ennustetuista kohteista.
 
-## Kirjallisuuden näyttö
+**Ksantomatoosi (sija 3)**
 
-| PMID | Vuosi | Tyyppi | Lehti | Keskeisiä löydöksiä |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [39751968](https://pubmed.ncbi.nlm.nih.gov/39751968/) | 2025 | Katsaus | Current Atherosclerosis Reports | Tarkastelee uusia farmakologisia hoitoja, mukaan lukien PCSK9-inhibiittorit, homozygottiseen familiariseen hyperkolesterolemiaan (HoFH). |
-| [36739653](https://pubmed.ncbi.nlm.nih.gov/36739653/) | 2023 | Katsaus (RCT-synteesi) | Kardiologia Polska | Syntetisoi näyttöä PCSK9-inhibiittorien vaikutuksesta lipidiparametreihin ja kardiovaskulaaristen tapahtumien vähentämiseen. |
-| [38658193](https://pubmed.ncbi.nlm.nih.gov/38658193/) | 2024 | Turvallisuus/Observaatiotutkimus | European Heart Journal - Cardiovascular Pharmacotherapy | Alirokumabbin turvallisuusanalyysi ODYSSEY OUTCOMES -ohjelmasta, kattaen 47,296 potilaan-vuotta havainnointia. |
-| [39913634](https://pubmed.ncbi.nlm.nih.gov/39913634/) | 2025 | Post hoc RCT-analyysi | Diabetes Care | ODYSSEY OUTCOMES post hoc -analyysi alirokumabbin vaikutuksesta lipoproteini(a):lle, LDL-C:lle ja diabeteksen riskille. |
-| [38185721](https://pubmed.ncbi.nlm.nih.gov/38185721/) | 2024 | Katsaus | Signal Transduction and Targeted Therapy | Kattava katsaus PCSK9-biologiasta ja sen terapeuttisesta kohdentamisesta lipidi- ja ei-lipidisairauksissa. |
-| [38277255](https://pubmed.ncbi.nlm.nih.gov/38277255/) | 2024 | Katsaus | Current Opinion in Lipidology | Päivitys PCSK9:n suhteen kohdennetuista terapioista ja niiden erilaisista vaikutusmekanismeista. |
-| [36422206](https://pubmed.ncbi.nlm.nih.gov/36422206/) | 2022 | Katsaus | Medicina (Kaunas) | Tarkastelee familiarisen hyperkolesterolemian diagnostiikkaa ja hoitoa, mukaan lukien PCSK9:n kohdentavat vaihtoehdot. |
-| [39679827](https://pubmed.ncbi.nlm.nih.gov/39679827/) | 2025 | Katsaus | Pharmacotherapy | Tämänhetkinen katsaus nykyisistä ja nousevista PCSK9:n suhteen kohdennetuista terapioista sydän- ja verisuonisairauksien riskin vähentämiseksi. |
-| [39947256](https://pubmed.ncbi.nlm.nih.gov/39947256/) | 2025 | Katsaus (mekanismi) | Pharmacology & Therapeutics | Vertaa solunsisäisen vs. solunulkoisen PCSK9:n kohdentamisstrategioita, käsittelee alirokumabbia erityisesti. |
-| [37686091](https://pubmed.ncbi.nlm.nih.gov/37686091/) | 2023 | Katsaus | International Journal of Molecular Sciences | Tarkastelee nykyisiä dyslipideemian hoitomenetelmiä, mukaan lukien PCSK9-esto. |
+| [32713907](https://pubmed.ncbi.nlm.nih.gov/32713907/) | 2020 | Tapauskertomus | Internal Medicine | Sitosterolemia, vaikea hyperkolesterolemia ja jänneksantoomat; hoitona ratsimibi ja alirokumabi |
+| [31538826](https://pubmed.ncbi.nlm.nih.gov/31538826/) | 2019 | Tapauskertomus | J Investig Med High Impact Case Rep | Vaikea yhdistetty dyslipidemia monimutkaisella geneettisellä taustalla |
 
----
+**Kolesterolin kataboliaan liittyvä sairaus (sija 5)**
 
-## Suomen markkina-informaatio
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [38658193](https://pubmed.ncbi.nlm.nih.gov/38658193/) | 2024 | Yhdistetty turvallisuusanalyysi | Eur Heart J Cardiovasc Pharmacother | ODYSSEY OUTCOMES: 47 296 potilasvuoden turvallisuusaineisto, alirokumabi vähensi toistuvia iskeemisiä tapahtumia |
+| [38277255](https://pubmed.ncbi.nlm.nih.gov/38277255/) | 2024 | Katsaus | Curr Opin Lipidol | PCSK9-vasta-aineet laskevat LDL-kolesterolia ja sydän- ja verisuonitautiriskiä; uusia estotapoja kehitteillä |
+| [38185721](https://pubmed.ncbi.nlm.nih.gov/38185721/) | 2024 | Katsaus | Signal Transduct Target Ther | PCSK9:n rooli myös maksa-, infektio- ja autoimmuunisairauksissa sekä syövässä |
+| [39751968](https://pubmed.ncbi.nlm.nih.gov/39751968/) | 2025 | Katsaus | Curr Atheroscler Rep | Homotsygoottisen familiaalisen hyperkolesterolemian uudet hoidot |
+| [40911366](https://pubmed.ncbi.nlm.nih.gov/40911366/) | 2025 | Katsaus | Eur Heart J | Lipidejä alentavien kohteiden kehitys |
+| [36739653](https://pubmed.ncbi.nlm.nih.gov/36739653/) | 2023 | Katsaus | Kardiol Pol | PCSK9-estäjät ja sydän- ja verisuonitapahtumien väheneminen |
+| [39679827](https://pubmed.ncbi.nlm.nih.gov/39679827/) | 2025 | Katsaus | Pharmacotherapy | Nykyiset ja kehitteillä olevat PCSK9-hoidot LDL-kolesterolin ja ASCVD-riskin alentamiseksi |
+| [36411665](https://pubmed.ncbi.nlm.nih.gov/36411665/) | 2022 | Katsaus | Biomed Pharmacother | PCSK9-estäjien turvallisuus |
+| [38191052](https://pubmed.ncbi.nlm.nih.gov/38191052/) | 2024 | Prekliininen | Metabolism | PCSK9:n esto ehkäisi ja lievitti kolesterolisappia PPARα-välitteisen CYP7A1-aktivaation kautta |
+| [40841123](https://pubmed.ncbi.nlm.nih.gov/40841123/) | 2025 | Meta-analyysi | Open Heart | PCSK9-kohdennetut hoidot familiaalisessa hyperkolesterolemiassa, 23 satunnaistettua tutkimusta |
 
-Tällä hetkellä alirokumabille ei ole saatavilla myyntilupaa koskevaa tietoa Suomessa (markkina-asema: **Ei markkinoilla**, tiedostossa on 0 valtuutusta).
+Nämä julkaisut tukevat pääosin alkuperäistä käyttöaihetta, eivät uutta käyttöä.
 
----
+## Myyntiluvat Suomessa
 
-## Turvallisuusnäkökohdat
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/003882 | Praluent | – | Dyslipidemiat (tila: peruutettu) |
 
-Turvallisuustietoja saatavilla pakkausselosteesta. Tälle tietueelle ei ole tällä hetkellä saatavilla jäsenneltyjä varoituksia, vasta-aiheita tai lääkkeen yhteisvaikutustietoja — erityisesti virallista TFDA/Fimea-pakkausselostetta (varoitukset ja vasta-aiheet) ei ole vielä haettu, mikä on merkitty Estäviksi tietoaukoksi ja estää tätä ehdokasta saattamasta loppuun lääkintöturvallisuuden esiarviointia (S1) lääkkeen tasolla.
+## Turvallisuushuomioita
 
----
+Tästä raportista puuttuvat valmisteyhteenvedon varoitus- ja vasta-aihetiedot. Turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
-## Johtopäätös ja seuraavat vaiheet
+- **Lääkeyhteisvaikutukset**: Yhteisvaikutushaussa löytyi vain farmakologinen kohde: PCSK9 (alirokumabi on sitä estävä vasta-aine). Varsinaisia lääkeaineyhteisvaikutuksia ei raportoitu.
+- Alirokumabin pitkäaikaisturvallisuudesta on laaja aineisto (ODYSSEY OUTCOMES, 47 296 potilasvuotta), mutta se koskee alkuperäistä käyttöaihetta.
 
-**Päätös: Jatka varauksilla**
+## Johtopäätös ja seuraavat askeleet
+
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Ennustettu indikaatio on mekanistisesti hyvin sopusoinnussa alirokumabbin vakiintuneen farmakologian kanssa (PCSK9:n esto → LDLR:n välittämä kolesteriinin selvittäminen), ja sitä tukevat valmistunut Phase 3 -suhteinen tutkimus sekä merkittävä kirjallisuusperusta, mukaan lukien pitkäaikaiset turvallisuustiedot ODYSSEY OUTCOMES -ohjelmasta. Lääkkeen turvallisuusarvio jää kuitenkin estoon puuttuvan virallisen pakkausselosteen vuoksi, joten varauksilla on oltava ennen jatkotoimia.
+- Ensisijaiselle ennusteelle ei ole kliinistä eikä kirjallista näyttöä eikä uskottavaa mekanistista yhteyttä; korkea pistemäärä on vain laskennallinen. Lisäksi Suomen myyntilupa on peruutettu.
+- Ksantomatoosi on tutkimuskysymyksenä uskottavin jatkosuunta, mutta näyttö on epäsuoraa.
 
-**Edistymiseksi tarvitaan seuraavaa:**
-- Hae virallinen TFDA/Fimea-pakkausseloste (varoitukset, vasta-aiheet) — tällä hetkellä estävä tietoaukko (DG001)
-- Hanki virallinen DrugBank vaikutusmekanismi -dokumentaatio korvaamaan nykyisen tietoaukon (DG002)
-- Selvitä, vastaako "kolesterolin katabolisen prosessin sairaus" TxGNN:n arvioimana todella uutta indikaatiota vai päällekkäin merkittävästi alirokumabbin nykyisen hyväksynnän kanssa HoFH/hyperkolesterolemialle
-- Vahvista antoreitin yhteensopivuus kohdeväestölle (tällä hetkellä merkitty "vireillä")
-- Huomio: muut tämän lääkkeen TxGNN-ennustamat indikaatiot (esim. ksantomatoosi, ihtyyoosi, diafyysinen dyspasia) sisältävät vain L4–L5 -näyttöä ja jäävät **Odotukseen** vahvemman mekanistisen tai kliinisen tuen odotuksella; ne eivät ole osa tätä suositusta.
-
+**Etenemiseksi tarvitaan:**
+- Valmisteyhteenvedon varoitus- ja vasta-aihetiedot (estää turvallisuusseulonnan jatkamisen)
+- Yksityiskohtaiset vaikutusmekanismitiedot (DrugBank)
+- Suora näyttö alirokumabin vaikutuksesta ksantoomiin tai muihin ennustettuihin kohteisiin
+- Selvitys peruutetun myyntiluvan syistä ja nykyisestä saatavuudesta Suomessa
+- Kolesterolin kataboliaan liittyvän sairauden tarkempi määrittely ennen uuden käyttöaiheen väittämistä
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -2,7 +2,7 @@
 layout: default
 title: Desloratadine
 parent: Vahva näyttö (L1-L2)
-nav_order: 120
+nav_order: 138
 evidence_level: L1
 indication_count: 6
 ---
@@ -29,73 +29,88 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Desloratadine: Allergisesta nuhasairauksesta/kroonisesta urtikariasta kylmäurtikariaaksi
+# Desloratadiini: Allergisesta nuhasta ja urtikariasta kylmäurtikariaan
 
-## Yhden lauseen yhteenveto
+## Yhden virkkeen yhteenveto
 
-Desloratadine on toisen sukupolven H1-antihistamiini, jota käytetään yleisesti allergisen nuhan ja kroonisen urtikarian hoitoon. TxGNN-malli ennustaa, että se saattaa olla tehokas **kylmäurtikariaalle (Acquired Cold Urticaria, ACU)**, ja tällä hetkellä **3 kliinistä tutkimusta** ja **7 julkaisua** tukevat tätä suuntaa.
+Desloratadiini on toisen sukupolven antihistamiini, jota on käytetty allergisen nuhan (ympärivuotinen ja kausittainen) ja urtikarian hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **kylmäurtikariaan**,
+ja tätä suuntaa tukee tällä hetkellä **2 kliinistä tutkimusta** ja **6 julkaisua**, joista 3 on satunnaistettuja kontrolloituja tutkimuksia (RCT).
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|--------|
-| Alkuperäinen indikaatio | Allerginen nuhan/krooninen urtikaria (yleinen toisen sukupolven antihistamiinin käyttö; ei dokumentoitu toimitetussa Suomen sääntelytietokannan aineistossa) |
-| Ennustettu uusi indikaatio | Kylmäurtikaria |
-| TxGNN-ennusteen pistemäärä | 99.94% |
-| Todistusaineiston taso | L1 |
-| Markkinatilanne Suomessa | Ei markkinoilla |
-| Myyntilupien lukumäärä | 0 |
-| Suositeltu päätös | Etene varauksilla |
+|------|------|
+| Alkuperäinen käyttöaihe | Ympärivuotinen allerginen nuha, urtikaria, kausittainen allerginen nuha |
+| Ennustettu uusi käyttöaihe | Kylmäurtikaria |
+| TxGNN-ennusteen pistemäärä | 99,94 % |
+| Näytön taso | L1 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 8 (kaikki peruutettuja) |
+| Suositeltu päätös | Proceed with Guardrails (eteneminen suojatoimin) |
 
-## Miksi tämä ennuste on perusteltu?
+## Miksi ennuste on perusteltu?
 
-Yksityiskohtaisia virallisia vaikutusmekanismitietoja ei saatu noudettua DrugBankista tässä todistusaineistopaketissa. Tunnetun farmakologian perusteella desloratadine on selektiivinen, perifeerisesti vaikuttava toisen sukupolven H1-reseptoriantagonisti – loratadiinan aktiivinen metaboliitti.
+Desloratadiini on selektiivinen perifeerinen H1-reseptorin käänteisagonisti. Kylmäurtikariassa syntyy syöttösolujen degranulaatiota ja histamiinin vapautumista, joten H1-salpaus kohdistuu suoraan paukamien ja kutinan muodostumiseen.
 
-Kylmäurtikaria laukeaa kylmän aiheuttamasta iholle sijoittuneiden mastsolujen degranaulaatiosta, jossa histamiinieritys aiheuttaa papu-punetus-vasteen. Koska desloratadine estää suoraan H1-reseptoria tämän histamiinierityksen jälkeisellä asteella, sen vakiintunut antihistamiini-aktiivisuus vastaa kylmäurtikarian patofysiologiaan mekanistisesti pikemminkin kuin vaatii kokonaan uutta toimintamekanismia.
+Satunnaistetut tutkimukset osoittavat, että annoksen nostaminen (jopa 20 mg) parantaa kylmäprovokaation kynnysarvoja. Tämä on linjassa ohjeistuksen kanssa, jonka mukaan toisen sukupolven antihistamiinin annosta suurennetaan kylmäurtikariassa.
 
-Tämä näkyy ennusteen mukana toimitetussa uudelleenkäyttötarkoituksen perustelussa: H1-antihistamiinit ovat jo EAACI/GA²LEN urtikariaohjeiden ensimmäisen valinnan hoito kylmäurtikariaassa, ja desloratadiinitoksin annoksen korotusstrategiat on tutkittu. Tämä antaa TxGNN-ennusteelle suoraa, ohjeistokonsistenttia mekanistista tukea pikemminkin kuin puhtaasti päättelevän yhteyden.
+Lääke on jo hyväksytty urtikarian hoitoon, joten kylmäurtikaria on läheinen alatyyppi eikä kaukainen uudelleenkäyttökohde. Yksityiskohtaiset vaikutusmekanismitiedot eivät ole tällä hetkellä saatavilla, mutta tunnettu H1-salpaus tukee ennustetta.
 
-## Kliinisten tutkimusten todistusaineisto
+## Kliininen tutkimusnäyttö
 
-| Tutkimuksen numero | Vaihe | Tila | Osallistujamäärä | Keskeiset tulokset |
+| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT01444196](https://clinicaltrials.gov/study/NCT01444196) | Phase 4 | Valmistunut | 30 | Monikeskuksinen, kaksoissokkoutettu, annosta korotava tutkimus, joka arvioi desloratadiinitasojen (5/10/20 mg) riittävyyttä kylmäurtikarian oireiden estämiseksi. |
-| [NCT00600847](https://clinicaltrials.gov/study/NCT00600847) | Phase 4 | Valmistunut | 33 | Satunnaistettu, kaksoissokkoutettu, lumekontrolloitu ristiintutkimus, jossa verrataan 5 mg vs. 20 mg desloratadinia kokeellisesti indusoitujen kylmäurtikarian leesioiden osalta (termografia/volumenometria); tutkii hypoteesia, että annoksen korotus (20 mg) on tehokkaampi kuin vakioannos. |
-| [NCT01940393](https://clinicaltrials.gov/study/NCT01940393) | Phase 4 | Valmistunut | 150 | Viiden antihistamiinin (mukaan lukien desloratadini) estävän vaikutuksen arviointi urtikariassa; luokkatasolla verrattava todistusaineisto eikä desloratadinikohtainen. |
+| [NCT01444196](https://clinicaltrials.gov/study/NCT01444196) | Vaihe 4 | Valmistunut | 30 | Monikeskus, kaksoissokkoutettu annoskorotustutkimus (5, 10 ja 20 mg) hankinnaisessa kylmäurtikariassa; selvitettiin riittävä annos oireiden estoon |
+| [NCT00600847](https://clinicaltrials.gov/study/NCT00600847) | Vaihe 4 | Valmistunut | 33 | Satunnaistettu, kaksoissokkoutettu, lumekontrolloitu ristikkäistutkimus; 5 mg vs. 20 mg desloratadiinia kokeellisesti aiheutettuihin urtikarialeesioihin |
 
-## Kirjallisuuden todistusaineisto
+## Kirjallisuusnäyttö
 
-| PMID | Vuosi | Tyyppi | Julkaisu | Keskeiset tulokset |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [14754651](https://pubmed.ncbi.nlm.nih.gov/14754651/) | 2004 | RCT | J Dermatolog Treat | 5 mg desloratadinia 4 päivän ajan testattiin jääkuution provokalla 12 kylmäurtikariapotilaalla ennen ja jälkeen hoitoa. |
-| [19201016](https://pubmed.ncbi.nlm.nih.gov/19201016/) | 2009 | RCT | J Allergy Clin Immunol | Korkea-annoksen desloratadini vähentää papujen tilavuutta ja parantaa kylmäprovokaaation kynnysarvoja vakioannokseen verrattuna ACU-potilailla (satunnaistettu, lumekontrolloitu, ristiintutkimus). |
-| [22242678](https://pubmed.ncbi.nlm.nih.gov/22242678/) | 2012 | RCT | Br J Dermatol | H1-antihistamiinin annoksen korotuksen satunnaistettu kontrolloitu tutkimus, jossa käytettiin kriittisen lämpötilan kynnysarvon mittaamista kylmäurtikariaassa. |
-| [15516152](https://pubmed.ncbi.nlm.nih.gov/15516152/) | 2004 | Katsaus | Drugs | Kroonisen urtikarian etiologia, hoito ja nykyiset/tulevaisuuden hoitovaihtoehdot (mukaan lukien antihistamiiniluokka). |
-| [19032340](https://pubmed.ncbi.nlm.nih.gov/19032340/) | 2008 | Katsaus | Allergy | Ebasteenitä koskevan katsaus allergisessa nuhasairauksessa ja kroonisen idiopaattisen urtikarian osalta; luokkatasolla, ei desloratadinikohtainen. |
-| [29698807](https://pubmed.ncbi.nlm.nih.gov/29698807/) | 2018 | Katsaus/tapaussarja | J Allergy Clin Immunol Pract | Kuvaa ruoka-riippuvaisen kylmäurtikarian fyysisen urtikarian uutena muunnelmana. |
-| [38025339](https://pubmed.ncbi.nlm.nih.gov/38025339/) | 2023 | Tapauskertomus | Qatar Med J | Ensimmäinen raportoitu kylmän indusoimaa urtikariaatapaus mustien muurahaisten purema-aiheisen anafylaksian jälkeen. |
+| [19201016](https://pubmed.ncbi.nlm.nih.gov/19201016/) | 2009 | RCT | J Allergy Clin Immunol | Suuri annos desloratadiinia pienensi paukamatilavuutta ja paransi kylmäprovokaatiokynnyksiä tavanomaiseen annokseen verrattuna |
+| [22242678](https://pubmed.ncbi.nlm.nih.gov/22242678/) | 2012 | RCT | Br J Dermatol | H1-antihistamiinin annoskorotus kylmäurtikariassa; kriittisen lämpötilakynnyksen mittaus |
+| [14754651](https://pubmed.ncbi.nlm.nih.gov/14754651/) | 2004 | RCT | J Dermatolog Treat | 5 mg desloratadiinia 4 päivän ajan esti kylmäurtikariaa 12 potilaalla jääpalakokeessa |
+| [15516152](https://pubmed.ncbi.nlm.nih.gov/15516152/) | 2004 | Katsaus | Drugs | Krooninen urtikaria: etiologia, hoito ja nykyiset sekä tulevat hoitovaihtoehdot |
+| [19032340](https://pubmed.ncbi.nlm.nih.gov/19032340/) | 2008 | Katsaus | Allergy | Ebastiini allergisessa nuhassa ja kroonisessa idiopaattisessa urtikariassa (epäsuora näyttö) |
+| [38025339](https://pubmed.ncbi.nlm.nih.gov/38025339/) | 2023 | Tapausselostus | Qatar Med J | Kylmäurtikaria mustan muurahaisen puremaa seuranneen anafylaksian jälkeen |
 
-## Markkinatiedot Suomesta
+## Suomen markkinatiedot
 
-Desloratadini ei ole tällä hetkellä markkinoilla Suomessa saatavilla olevan sääntelyaineiston mukaisesti, eikä myyntilupakäyttöä löydetty (0 lupaa kirjautuneena).
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000314 | Neoclarityn | – | Ympärivuotinen allerginen nuha, urtikaria, kausittainen allerginen nuha (peruutettu) |
+| EMEA/H/C/002435 | Desloratadine Actavis | – | Ympärivuotinen allerginen nuha, urtikaria, kausittainen allerginen nuha (peruutettu) |
+| EMEA/H/C/002310 | Dasselta | – | Ympärivuotinen allerginen nuha, kausittainen allerginen nuha, urtikaria (peruutettu) |
+| EMEA/H/C/000310 | Azomyr | – | Ympärivuotinen allerginen nuha, urtikaria, kausittainen allerginen nuha (peruutettu) |
+| EMEA/H/C/000313 | Aerius | – | Ympärivuotinen allerginen nuha, urtikaria, kausittainen allerginen nuha (peruutettu) |
+
+Yhteensä myyntilupia on 8, ja kaikki ovat peruutettuja. Taulukossa on esitetty viisi ensimmäistä.
 
 ## Turvallisuusnäkökohdat
 
-Viitakaa pakkausselosteen turvallisuustietoihin.
+Tuotteen valmisteyhteenvedosta ei ole saatavilla varoituksia tai vasta-aiheita, joten turvallisuustiedot tulee tarkistaa valmisteyhteenvedosta.
 
-## Johtopäätös ja seuraavat askeleet
+- **Tietämysgraafin perusteella ilmoitetut mahdolliset vasta-aihe- tai varoitusyhteydet** (perustuvat PrimeKG-tietämysgraafin lääke–sairaus-yhteyksiin, eivät valmisteyhteenvedon tekstiin): kohonnut verenpaine, munuaissairaus, maksasairaus, sappirakon sairaus, diabetes ja diabeettinen ketoasidoosi, hyvänlaatuinen eturauhasen liikakasvu, sepelvaltimotauti ja ateroskleroosi, ahdaskulmaglaukooma sekä kilpirauhasen liikatoiminta (mm. Gravesin tauti ja tyreotoksikoosi).
+- **Lääkeyhteisvaikutukset:** Yhteisvaikutushaussa löytyi yhteensä 100 mahdollista yhteisvaikutusta (esim. kalsitrioli, fentermiini, pantopratsoli, doksisykliini, morfiini, metformiini, omepratsoli, simvastatiini, epinefriini, prednisoni), mutta niiden vakavuusluokkaa ei ole määritetty.
 
-**Päätös: Etene varauksilla**
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Proceed with Guardrails (eteneminen suojatoimin)**
 
 **Perustelut:**
-Kylmäurtikaria on tuettu L1-tason todistusaineistolla, joka sisältää kaksi valmistunutta Phase 4 -tutkimusta, joissa desloratadini erityisesti annosteltiin ACU-potilaille, sekä kolme muuta julkaistua tutkimusta (Juhlin 2004, Siebenhaar 2009, Magerl 2012) mekanismilla, joka on yhdenmukainen EAACI/GA²LEN ohjeiden suosituksiin. Desloratadini ei kuitenkaan ole tällä hetkellä markkinoilla Suomessa, ja TFDA-vastaavia pakkausselostetietoja/turvallisuustietoja (varoitukset, vasta-aiheet, lääkkeiden väliset vuorovaikutukset) ei saatu noudettua, joten turvallisuuden ja sääntelyreitistä tehdyt varaukset ovat välttämättömiä ennen etenemistä.
+- Kylmäurtikariassa on kaksi valmistunutta vaiheen 4 tutkimusta ja useita satunnaistettuja tutkimuksia, jotka tukevat desloratadiinin tehoa ja annosvastetta. Ennuste on mekanistisesti uskottava, ja lääke on jo hyväksytty läheiseen käyttöaiheeseen. Tutkimukset ovat kuitenkin pieniä (n=30–33), ja markkinointiluvat Suomessa on peruutettu.
 
-**Jatkaaksemme tarvitaan seuraavaa:**
-- Virallinen pakkausseloste / merkinnän varoitukset ja vasta-aiheet (tällä hetkellä estävä tietoaukko)
-- Vahvistettu lääkkeen välisten vuorovaikutusten profiili
-- Virallinen vaikutusmekanismin dokumentaatio DrugBankista
-- Sääntelyreitti-arviointi desloratadiiniu kylmäurtikarian merkintää varten markkinoilla, jossa se ei tällä hetkellä ole valtuutettu
+**Eteneminen edellyttää seuraavaa:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen ja läpikäynti (estää nykyisellään turvallisuusseulonnan).
+- Vaikutusmekanismitietojen täydentäminen esimerkiksi DrugBankista.
+- Suurempien annosten (jopa nelinkertainen vakioannos) turvallisuuden arviointi, erityisesti tietämysgraafin esiin nostamien riskiryhmien osalta.
+- Suomen myyntilupatilanteen selvittäminen, sillä kaikki myyntiluvat ovat peruutettuja ja saatavuus on varmistettava.
+- Yhteisvaikutusten vakavuusluokituksen täydentäminen.
 
+### Muut ennustetut käyttöaiheet (ei etenemissuositusta)
+
+Muut ennusteet (nenäontelon sairaus, akuutti laryngofaryngiitti, hoitoresistentti atooppinen ihottuma, atooppinen IgE-vaste ja ruusufinnikonjunktiviitti) jäävät tilaan **Hold**. Niistä on vain prekliinistä tai epäsuoraa näyttöä (L4) tai pelkkä mallin ennuste (L5), eikä desloratadiinia ole tutkittu niissä suoraan.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

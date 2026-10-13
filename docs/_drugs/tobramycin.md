@@ -2,7 +2,7 @@
 layout: default
 title: Tobramycin
 parent: Kohtalainen näyttö (L3-L4)
-nav_order: 378
+nav_order: 441
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,74 +29,87 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Tobramycini: bakteeri-infektioista altistuskeratiittiin
+# Tobramysiini: Kystisen fibroosin hengitystieinfektioista eksponoitumiskeratiittiin
 
 ## Yhden lauseen yhteenveto
 
-Tobramycini on aminoglykosidi-antibiootiksi, joka on vakiintunut käytössä indikaatioissa, kuten kystisen fibroosin keuhkoinfektio ja komplikoidun virtsatieinfektio (mekanististen huomautusten mukaan tässä näyttöpaketissa); sitä ei ole tällä hetkellä markkinoilla Suomessa, eikä alkuperäisen indikaation rekisteridata ole saatavissa. TxGNN-malli ennustaa, että se saattaa olla tehokas **altistuskeratiittiin**, ja siihen liittyy tällä hetkellä **2 kliinistä tutkimusta** (molemmat heikon suoran merkityksen osalta) ja **7 julkaisua**, joista yksikään ei käytä tobramyciniä päätutkimuksen interventioon.
+Tobramysiini on aminoglykosidiantibiootti, jota on alun perin käytetty hengitystieinfektioiden ja kystisen fibroosin hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **eksponoitumiskeratiittiin** (exposure keratitis), mutta ennustetta tukee vain **kirjallisuutta (8 julkaisua, lähinnä tapausselostuksia ja in vitro -tutkimuksia)**, eikä aiheesta ole yhtään kliinistä tutkimusta.
 
-## Nopea yleiskatsaus
+## Pikakatsaus
 
 | Kohta | Sisältö |
-|------|---------|
-| Alkuperäinen indikaatio | Ei dokumentoitu näyttöpaketissa (Suomi: ei markkinoilla, 0 hyväksyntää; `original_indications`-kenttä tyhjä) |
-| Ennustettu uusi indikaatio | Altistuskeratiitti |
-| TxGNN-ennusteen pistemäärä | 99.93% |
-| Näyttötaso | L4 |
-| Suomen markkinatilanne | ✗ Ei markkinoilla |
-| Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Odota |
+|------|------|
+| Alkuperäinen käyttöaihe | Hengitystieinfektiot; kystinen fibroosi |
+| Ennustettu uusi käyttöaihe | Eksponoitumiskeratiitti |
+| TxGNN-ennustepisteet | 99,93 % |
+| Näytön taso | L4 |
+| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Myyntilupien määrä | 2 (molemmat peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennuste on järkevä?
+## Miksi ennuste on perusteltu?
 
-Tällä hetkellä yksityiskohtainen vaikutusmekanismin tieto ei ole saatavilla (merkitty korkean vakavuusasteen datatyhjiöksi). Näyttöpaketin perustelutietoihin perustuen tobramycini on aminoglykosidi-antibiootiksi, joka sitoutuu bakteerin 30S-ribosomiin proteiinin synteesin estämiseksi, jolloin se on bakteeriside-aktiivinen yleisiä Gram-negatiivisia ja Gram-positiivisia patogeeneja vastaan (erityisesti *Pseudomonas aeruginosa* ja *Staphylococcus aureus*); sitä käytetään jo vakiintuneesti CF-keuhkoinfektio ja komplikoidun virtsatieinfektio hoitoon.
+Tämän lääkkeen vaikutusmekanismitietoja ei ole tällä hetkellä saatavilla. Tunnetun tiedon perusteella tobramysiini on laajakirjoinen aminoglykosidiantibiootti, jonka teho gramnegatiivisia bakteereita (mm. *Pseudomonas aeruginosa*) ja stafylokokkeja vastaan on osoitettu hengitystieinfektioissa ja kystisessä fibroosissa. Mekanistisesti se voisi soveltua sarveiskalvon bakteeri-infektioihin.
 
-Altistuskeratiitti johtuu silmäluomen epätäydellisestä sulkeutumisesta, jolloin sarveiskalvo jää kroonisesti altistuneeksi, mikä lisää sekundaarisen bakteeri-infektioriskiä. Mekanistisesti tobramycinin antibakteerinen spektri patogeeneja vastaan, jotka todennäköisimmin aiheuttavat sekundaarisen sarveiskalvon infektioriskiin, tarjoaa perustellun perusteen käyttöön profylaktisena/apu-topikaalina aineena – tämä on yhdenmukainen tobramycinin pitkäaikaisen off-label-käytön kanssa topikaalina oftalmisena antibiootina.
+Eksponoitumiskeratiitti on kuitenkin ensisijaisesti mekaaninen tai kuivumisesta johtuva pintavaurio, ei primaari infektio. Tobramysiinille voisi siksi olla roolia lähinnä sekundaarisen bakteeri-infektion hoidossa tai ehkäisyssä. Kirjallisuudessa on lisäksi in vitro -näyttöä aminoglykosidien sarveiskalvon epiteelitoksisuudesta, mikä on turvallisuushuoli jo vaurioituneella silmän pinnalla.
 
-Näyttöpaketti kuitenkin varoittaa, että aminoglykosideilla on tunnettu sarveiskalvon epiteelin toksisuus (katso PMID 2707046, in vitro -tutkimus tobramyciinista ja muista aminoglykosideista), ja huomioi, että **mikään tämän aineiston tutkimus ei käytä tobramyciniä todellisena interventioon** altistuskeratiitissa. Ennuste tulisi siten lukea mekanistisesti perustellusti, mutta tällä hetkellä ilman lääkkeelle spesifistä kliinistä näyttöä.
+Muiden ennustettujen käyttöaiheiden joukossa **ulkokorvatulehdus (otitis externa)** vaikuttaa mekanistisesti uskottavimmalta, koska *P. aeruginosa* ja *S. aureus* ovat tobramysiinin kattamia pääpatogeeneja. Siitä ei kuitenkaan ole kontrolloituja tutkimuksia annetuissa tiedoissa.
 
-## Kliinisen tutkimuksen näyttö
+## Kliininen tutkimusnäyttö
 
-| Tutkimuksen numero | Vaihe | Tila | Osallistujat | Keskeiset löydökset |
+Ensisijaisesta ennusteesta (eksponoitumiskeratiitti) ei ole rekisteröityjä kliinisiä tutkimuksia.
+
+Tiedoissa on kaksi vaiheen 3 avointa jatkotutkimusta, jotka liittyvät yleisluonteiseen ennusteeseen "post-bacterial disorder". Ne koskevat tobramysiinin inhalaatiojauhetta kystisessä fibroosissa eli nykyistä käyttöaihetta, eivätkä ne tue uutta käyttöaihetta.
+
+| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT06200727](https://clinicaltrials.gov/study/NCT06200727) | N/A | Tuntematon | 170 | Evaluoi platelet-rich fibrin (PRF) -kalvoa neljässä oftalmisessa sairaudessa (makkulan reikä, pterygium, sarveiskalvon haava, post-trabekulektomia). Tobramycini ei ole tutkimuksen interventio (merkityksellisyysluokka C). |
-| [NCT05313828](https://clinicaltrials.gov/study/NCT05313828) | N/A | Tuntematon | 40 | Vertaa dendriittisen sarveiskalvon haavan hoitotapoja, pääasiassa herpes simpleksin viruksen keratiitin osalta; tobramycini ei ole pääinterventio (merkityksellisyysluokka C). |
+| [NCT01069705](https://clinicaltrials.gov/study/NCT01069705) | Vaihe 3 | Päättynyt | 49 | Avoin, yhden haaran jatkotutkimus: tobramysiini-inhalaatiojauheen turvallisuus ja teho *P. aeruginosa* -infektiota sairastavilla kystisen fibroosin potilailla |
+| [NCT00982930](https://clinicaltrials.gov/study/NCT00982930) | Vaihe 3 | Päättynyt | 55 | Avoin, yhden haaran jatkotutkimus: sama lääkevalmiste ja potilasryhmä |
 
-*Huomio: Kumikaan tutkimus ei suoraan tutki tobramyciniä altistuskeratiittiin; molemmat arvioitiin "C" merkityksellisyydeksi lähdenäyttöissä.*
+## Kirjallisuusnäyttö
 
-## Kirjallisuuden näyttö
+Alla on eksponoitumiskeratiittiin liittyvä kirjallisuus. Mukana on vain tobramysiinin kannalta olennaisia julkaisuja.
 
-| PMID | Vuosi | Tyyppi | Julkaisu | Keskeiset löydökset |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [17228760](https://pubmed.ncbi.nlm.nih.gov/17228760/) | 2006 | Kohortti/laboratoriovertailu | Nippon Ganka Gakkai Zasshi | Vertasi MIC:tä ja post-antibiootin vaikutusta antibiootin silmäpistoille (mukaan lukien tobramycini) Japanin kansallisen infektiivisen keratiittin valvonnan isoalaateista. |
-| [2707046](https://pubmed.ncbi.nlm.nih.gov/2707046/) | 1989 | In vitro | Current Eye Research | In vitro -sarveiskalvon epiteelin sytotoksisuustutkimus aminoglykosideista (neomysiini, gentamisiini, **tobramycini**, amikasini) kanin sarveiskalvosoluviljelmissä – kertoo tunnetusta toksisuusriskistä. |
-| [34987857](https://pubmed.ncbi.nlm.nih.gov/34987857/) | 2021 | Tapauskertomus | Oxford Medical Case Reports | Bakteerinen keratiitti, jonka aiheutti monilääkeresistentti *Shewanella algae* ilman mereen liittyvää altistusta. |
-| [11581057](https://pubmed.ncbi.nlm.nih.gov/11581057/) | 2001 | Tapauskertomus | Ophthalmology | *Bacillus cereus* -keratiitti, joka liittyy piilolinssien käyttöön. |
-| [12861116](https://pubmed.ncbi.nlm.nih.gov/12861116/) | 2003 | Tapauskertomus | Eye & Contact Lens | Bilateraalinen MRSA-keratiitti fotorefratiivisen keratektomian jälkeen. |
-| [33847093](https://pubmed.ncbi.nlm.nih.gov/33847093/) | 2021 | Tapaussarja (eläinlääkintä) | Polish Journal of Veterinary Sciences | Feliinin okkulaarisen toksoplasmoosin seroprevalenssi ja hoitotulokset – eri patogeeniluokka, alhainen suora merkitys. |
-| [14574976](https://pubmed.ncbi.nlm.nih.gov/14574976/) | 2003 | Tapauskertomus (liittymätön patologia) | Yan Ke Xue Bao | Parantsentrinen sarveiskalvon dellen Gravesin oftalmopatiassa – liittymätön infektiiviseen keratiittiin. |
+| [42842711](https://pubmed.ncbi.nlm.nih.gov/42842711/) | 2026 | Retrospektiivinen kohorttitutkimus | Cornea | *S. aureus* -keratiitin (MRSA vs. MSSA) ominaisuudet, herkkyysprofiilit, hoitokäytännöt ja tulokset |
+| [2707046](https://pubmed.ncbi.nlm.nih.gov/2707046/) | 1989 | In vitro | Current Eye Research | Aminoglykosidien (mm. tobramysiini) toksisuus kaniinin sarveiskalvon epiteelisoluille |
+| [17228760](https://pubmed.ncbi.nlm.nih.gov/17228760/) | 2006 | In vitro | Nippon Ganka Gakkai Zasshi | Silmätippojen pienin estävä pitoisuus ja antibioottien jälkivaikutus tarttuvan keratiitin eristeillä |
+| [11581057](https://pubmed.ncbi.nlm.nih.gov/11581057/) | 2001 | Tapausselostus | Ophthalmology | Piilolinsseihin liittyvä *Bacillus cereus* -keratiitti |
+| [34987857](https://pubmed.ncbi.nlm.nih.gov/34987857/) | 2021 | Tapausselostus | Oxford Medical Case Reports | Monilääkeresistentin *Shewanella algae* -bakteerin aiheuttama keratiitti potilaalla, joka ei pystynyt sulkemaan silmiään |
+| [12861116](https://pubmed.ncbi.nlm.nih.gov/12861116/) | 2003 | Tapausselostus | Eye & Contact Lens | Molemminpuolinen MRSA-keratiitti fotorefraktiivisen keratektomian jälkeen |
 
-## Suomen markkinatiedot
+Julkaisut ovat pääosin epäsuoria, eikä yksikään niistä osoita tobramysiinin tehoa eksponoitumiskeratiitissa.
 
-Tobramyciinil ei ole tietueissa markkinointihyväksyntää Suomessa (markkinatilanne: Ei markkinoilla; hyväksyntöjen kokonaismäärä: 0).
+## Myyntiluvat Suomessa
+
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/005086 | Vantobra (aiemmin Tobramycin PARI) | – | Hengitystieinfektiot; kystinen fibroosi (peruutettu) |
+| EMEA/H/C/002155 | Tobi Podhaler | – | Kystinen fibroosi; hengitystieinfektiot (peruutettu) |
 
 ## Turvallisuusnäkökohdat
 
-Katso turvallisuustiedot pakkausselosteesta. (Huomio: TFDA/Fimea-pakkausselosteen varoitukset ja vasta-aiheet on merkitty tässä näyttöpaketissa **estäväksi** datatyhjiöksi – katso johtopäätös alla – ja lääkkeiden vuorovaikutuksen haku ei palauttanut tietoja.)
+- **Lääkeaineyhteisvaikutukset:** Tietoja on yhteensä 100 yhteisvaikutuksesta. Vakavaksi (Major) luokiteltuja ovat **magnesiumsulfaatti** ja **mannitoli**. Keskivaikeita (Moderate) ovat mm. amfoterisiini B, vankomysiini, kanamysiini, neomysiini, asetyylisalisyylihappo, protonipumpun estäjät (omepratsoli, lansopratsoli, pantopratsoli, rabepratsoli, deksalansopratsoli) sekä 5-ASA-valmisteet (mesalatsiini, sulfasalatsiini, olsalatsiini, balsalatsidi).
+- **Mahdolliset vasta-aiheet (tietämyskaavioon perustuvat, eivät valmisteyhteenvedon teksti):** munuaissairaus, myasthenia gravis ja muut hermo-lihasliitoksen sairaudet, Parkinsonin tauti, avokulmaglaukooma ja silmän verenpainetauti, *Clostridioides difficile* -koliitti, vastasyntyneen nekrotisoiva enterokoliitti sekä useat silmän infektiot (mm. herpes simplex -keratiitti, virusperäiset ja sieni-infektiot).
+- **Muut huomiot:** Aminoglykosidit voivat aiheuttaa munuais- ja kuulomyrkyllisyyttä. Silmän pinnalle annettuna in vitro -näyttö viittaa sarveiskalvon epiteelitoksisuuteen.
+
+Tarkemmat varoitukset ja vasta-aiheet on tarkistettava valmisteyhteenvedosta.
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Odota**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Näyttö tobramyciipin käytöstä altistuskeratiitissa on vain mekanismin tasolla (L4) – mikään tämän aineiston kliininen tutkimus tai julkaisu ei käytä tobramyciniä todellisena interventioon tälle indikaatiolle, ja tunnettu aminoglykosidi-sarveiskalvotoksisuussignaali (PMID 2707046) edellyttää varovaisuutta. Toisaalta pakkausselosteen turvallisuuskatsaus ei voi edetä ollenkaan: puuttuva TFDA/Fimea-merkkidata on tämän näyttöpaketin estävän vakavuusasteen tyhjiö.
+- Ennuste perustuu lähinnä mallin pisteytykseen (L4). Kliinisiä tutkimuksia ei ole, kirjallisuus on epäsuoraa, ja sarveiskalvon epiteelitoksisuus on huomattava turvallisuushuoli. Tobramysiinillä ei lisäksi ole voimassa olevia myyntilupia Suomessa.
 
-**Jatkaakseen seuraavaa tarvitaan:**
-- TFDA/Fimea-pakkausseloste (varoitukset, vasta-aiheet) – pakollinen ennen S1-turvallisuusseulonnan aloittamista
-- Vahvistettu DrugBank-vaikutusmekanismin tieto tobramyciinille
-- Tobramyciin-spesifinen prekliininen tai kliininen tutkimus altistuskeratiitissa, koska nykytilassa puuttuu lääkkeelle spesifinen näyttö ja aminoglykosideilla tunnettu sarveiskalvon epiteelin toksisuussignaali
-- Selkeytys tobramyciiinin alkuperäisistä hyväksytyistä indikaatioista, koska Suomen rekisterissä ei ole dataa
-
+**Eteneminen edellyttää seuraavaa:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittäminen Fimean sivuilta (estää tällä hetkellä turvallisuusarvioinnin).
+- Vaikutusmekanismitietojen täydentäminen DrugBankista.
+- Silmäkäyttöön soveltuvan valmisteen ja antoreitin saatavuuden selvittäminen.
+- Prekliininen ja kliininen näyttö tobramysiinin hyöty–haitta-suhteesta eksponoitumiskeratiitissa, erityisesti sarveiskalvon toksisuuden osalta.
+- Vaihtoehtoisena tutkimuskohteena voidaan harkita **ulkokorvatulehdusta** (decision stage S1, "Research Question"), jossa mekanistinen peruste on vahvempi. Sen vahvistamiseksi tarvitaan kontrolloituja tutkimuksia.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

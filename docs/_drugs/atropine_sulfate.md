@@ -2,7 +2,7 @@
 layout: default
 title: Atropine Sulfate
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 48
+nav_order: 53
 evidence_level: L5
 indication_count: 0
 ---

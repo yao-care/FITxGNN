@@ -2,7 +2,7 @@
 layout: default
 title: Ranolazine
 parent: Pelkkä mallin ennuste (L5)
-nav_order: 314
+nav_order: 366
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,61 +29,85 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Ranolazine: Alkuperäistä indikaatiota ei dokumentoitu → Ennustettu yhteys Nephrogenic Syndrome of Inappropriate Antidureesiin
+# Ranolatsiini: Kokoa angina pectoriksesta nefrogeeniseen antidiureesin epäasianmukaisen erityksen oireyhtymään (NSIAD)
 
 ## Yhden lauseen yhteenveto
 
-Ranolazinen alkuperäistä indikaatiota ja vaikutusmekanismia ei ole saatavilla nykyisessä todistepaketeissa, eikä lääkettä ole vielä markkinoitu Taiwanissa. TxGNN-malli ennustaa mahdollista yhteyttä **Nephrogenic Syndrome of Inappropriate Antidiureesiin (NSIAD)**, mutta tätä ennustusta tukevat tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua** — se on vain laskennallinen signaali.
+Ranolatsiini on lääke, jota on alun perin käytetty rasitusrintakivun (angina pectoris) hoitoon.
+TxGNN-malli ennustaa sen voivan olla tehokas **nefrogeenisessä antidiureesin epäasianmukaisen erityksen oireyhtymässä (NSIAD)**,
+mutta ennusteen tueksi ei ole tällä hetkellä **yhtään kliinistä tutkimusta eikä julkaisua**, joten näyttö perustuu pelkästään laskennalliseen ennusteeseen.
 
-## Nopea yleiskatsaus
+---
+
+## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Ei dokumentoitu nykyisessä todistepaketeissa (tietoaukko) |
-| Ennustettu uusi indikaatio | Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD) |
-| TxGNN-ennustuspisteet | 99.65% (mallin sijoitus #4278) |
-| Todistetaso | L5 |
-| Taiwan-markkinoiden asema | Ei markkinoitu |
-| Lupien lukumäärä | 0 |
-| Suositeltu päätös | Pidä odottamassa |
+| Alkuperäinen käyttöaihe | Angina pectoris (rasitusrintakipu) |
+| Ennustettu uusi käyttöaihe | Nefrogeeninen antidiureesin epäasianmukaisen erityksen oireyhtymä (NSIAD) |
+| TxGNN-ennustepisteet | 99,65 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
+| Myyntilupien määrä | 1 (peruutettu) |
+| Suositeltu päätös | Hold (odota) |
 
-## Miksi tämä ennustus on järkevä?
+---
 
-Ranolazinen yksityiskohtaiset vaikutusmekanismin tiedot eivät ole tällä hetkellä saatavilla tässä todistepaketeissa, eikä alkuperäistä indikaatiota ole myöskään tietueissa. Ilman tuntemaa vaikutusmekanismia ei ole reseptoria, signaalinsiirtoreittiä tai farmakologista perusteita, joiden nojalla voitaisiin arvioida, voiko ranolazinen vaikutus ulottua NSIAD:iin.
+## Miksi ennuste voi olla perusteltu?
 
-NSIAD itse on harvinainen, X-sidoksinen sairaus, jonka aiheuttavat vasopressiini V2 -reseptorin (AVPR2) gain-of-function-mutaatiot, mikä johtaa epäasianmukaiseen veden varastointiin vasopressiinin tasoista riippumatta. Uskottavan mekanistisen yhteyden luominen edellyttäisi todisteita siitä, että ranolazine on vuorovaikutuksessa AVPR2-signaalinsiirtoreitin, munuaisten veden käsittelymekanismien tai siihen liittyvän kohteen kanssa — mikään näistä ei ole arvioitavissa puuttuvien vaikutusmekanismin tietojen vuoksi.
+Ranolatsiinin alkuperäistä vaikutusmekanismia koskevia tietoja ei ole tällä hetkellä saatavilla. Yleisesti ranolatsiinin kuvataan estävän sydänlihassolun myöhäistä natriumvirtaa (late INa), ja sillä on vaikutuksia myös muihin ionikanaviin ja kuljettajaproteiineihin. Angina pectoriksessa tämä vähentää sydänlihassolun kalsiumkuormitusta ja iskemian haittoja.
 
-Tämän seurauksena tämä ennustus perustuu kokonaan TxGNN-mallin laskettuun samankaltaisuuspisteyteen (99.65%, sijoitus #4278 mallin ehdokasjoukon sisällä), ilman tukevia kliinisiä tutkimuksia, rekistereitä tai kirjallisuustodisteita. Sitä on käsiteltävä varhaisvaiheen hypoteesin muodostamisen signaalina eikä farmakologisesti perustettuina perusteluja.
+NSIAD johtuu vasopressiinin V2-reseptorin (AVPR2) toiminnan lisääntymiseen johtavista mutaatioista. Reseptori on jatkuvasti aktiivinen, jolloin elimistö pidättää vettä vasopressiinista riippumatta. Käyttöaiheet ovat siis patofysiologisesti kaukana toisistaan: suoraa mekanistista yhteyttä myöhäisen natriumvirran eston ja V2-reseptori-/akvaporiini-2-reitin välillä ei ole osoitettu käytettävissä olevissa tiedoissa.
 
-## Kliinisen tutkimuksen todisteet
+Ennuste heijastaa todennäköisesti tietämysgraafin läheisyyttä (esim. yhteisiä naapurisolmuja) eikä välttämättä todellista farmakologista yhteyttä. NSIAD on lisäksi erittäin harvinainen sairaus, jonka hoitovaihtoehdot ovat rajalliset, joten korkeaan ennusteeseen on suhtauduttava varovaisesti. Mikä tahansa yhteys olisi tällä hetkellä spekulatiivinen ja vaatisi testaamista prekliinisissä malleissa.
 
-Tällä hetkellä ei ole rekisteröityjä asiaan liittyviä kliinisiä tutkimuksia
+---
 
-## Kirjallisuustodisteet
+## Kliiniset tutkimukset
 
-Tällä hetkellä ei ole saatavilla asiaan liittyvää kirjallisuutta
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
-## Taiwan-markkinoiden tiedot
+---
 
-Ranolazinia ei ole tällä hetkellä markkinoitu Taiwanissa (0 tuotteen lupaa tietueissa), joten lisenssitaulukko tai tuotteen yksityiskohtataulukko ei ole saatavilla.
+## Kirjallisuusnäyttö
+
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
+
+---
+
+## Markkinatiedot Suomessa
+
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/000805 | Ranexa (aiemmin Latixa) | – | Angina pectoris |
+
+Myyntilupa on tilaltaan peruutettu, eikä voimassa olevia myyntilupia ole.
+
+---
 
 ## Turvallisuusnäkökohdat
 
-Katso turvallisuustiedot pakkausselosteesta. (TFDA:n varoitukset, vasta-aiheet ja lääkkeiden väliset yhteisvaikutukset eivät ole tällä hetkellä saatavilla tälle lääkkeelle Taiwanissa.)
+Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole tässä aineistossa saatavilla, joten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
+
+- **Tietämysgraafin perusteella ilmoitetut vasta-aiheisiin liittyvät sairaudet** (eivät perustu myyntiluvan tekstiin): pitkä QT-oireyhtymä, familiaalinen pitkä QT-oireyhtymä, kääntyvien kärkien takykardia (torsades de pointes), munuaissairaus, märkävirtsaisuus (pyoureter) ja maksakirroosi.
+- **Lääkeyhteisvaikutukset**: kyselyssä löytyi yhteensä 100 yhteisvaikutusta. Merkittävimmät (vaikeusaste *Major*): **aprepitantti, deksametasoni, klaritromysiini, dolasetroni ja eliglustaatti**. Kohtalaisia (*Moderate*) ovat mm. famotidiini, metformiini, loperamidi, bisakodyyli, budesonidi, kanagliflotsiini, dapagliflotsiini ja empagliflotsiini. Lieviä (*Minor*) ovat mm. bupropioni, lorkaseriini ja simetidiini.
+
+---
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Pidä odottamassa**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-Tämä ehdokas on arviointivaiheessa S0 — vaikutusmekanismia ei ole olemassa, alkuperäistä indikaatiota ei ole dokumentoitu, kliinisten tutkimusten tai kirjallisuustodisteiden tukea ei ole olemassa, ja Taiwan-markkinoilla ei ole läsnäoloa. Pelkkä 99.65 % TxGNN-pisteytys ei riitä etenemiselle ilman mekanistista tai empiiristä perusteita.
+- Ainoa tuki on korkea TxGNN-pistemäärä (99,65 %), joka on laskennallinen ennuste eikä kliinistä näyttöä. Kliinisiä tutkimuksia ja kirjallisuutta ei ole, mekanistinen yhteys on osoittamatta, eikä lääkkeellä ole voimassa olevaa myyntilupaa Suomessa.
 
-**Etenemiseksi tarvitaan seuraavaa:**
-- Vahvistettu alkuperäinen indikaatio/indikaatiot ja vaikutusmekanismi (DrugBankin/valmistajan merkinnöin perusteella)
-- TFDA-pakkausselosteesta tiedot varoituksista ja vasta-aiheista (tällä hetkellä estävä tietoaukko, DG001)
-- Kirjallisuus- tai prekliininen tutkimus, joka erityisesti tutkii mahdollista yhteyttä natriumkanava/myöhäisen INa-modulaation (ranolazinen tunnettu farmakologia muilla markkinoilla) ja vasopressiini/AVPR2-välitteisen veden varastoinnin välillä mekanistisen uskottavuuden selvittämiseksi tai poistamiseksi
-- Jatkuva seuranta uusille ranolaziniin ja NSIAD:iin liittyville kliinisille tutkimuksille tai tapaustapahtumaraportille, sillä niitä ei tällä hetkellä ole olemassa
-
+**Etenemiseksi tarvitaan:**
+- Vaikutusmekanismin (MOA) tiedot ja mekanistisen yhteyden analyysi
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet (turvallisuusseulonta ei ole mahdollinen ilman niitä)
+- Prekliiniset tutkimukset (esim. AVPR2/akvaporiini-2-reitin mallit) hypoteesin testaamiseksi
+- Tietämysgraafin ennusteen taustalla olevien yhteyksien selvitys
+- Arvio QT-aikaan, munuaisten ja maksan toimintaan liittyvistä riskeistä sekä merkittävistä yhteisvaikutuksista
+- Selvitys lääkkeen saatavuudesta Suomessa, koska myyntilupa on peruutettu
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

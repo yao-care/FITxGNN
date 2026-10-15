@@ -1,0 +1,42 @@
+# FITxGNN - Lääkkeiden uudelleensijoittelu
+
+> FITxGNN on lääkkeiden uudelleenkäytön (drug repurposing) tutkimusalusta Suomessa saatavilla oleville lääkkeille, ja sitä ylläpitää 藥提醒科技有限公司 (yao.care). Se julkaisee tekoälyennusteita, kliinistä näyttöä ja lääketurvallisuustietoa; sisältö on tarkoitettu vain tutkimukseen eikä se ole lääketieteellistä neuvontaa.
+
+## Tarkoitus
+
+- Perustuu Harvardin Zitnik Labin julkaisemaan TxGNN-menetelmään ja tutkii olemassa olevien lääkkeiden ja uusien käyttöaiheiden mahdollisia yhteyksiä.
+- Mallin ennusteet yhdistetään ClinicalTrials.govin, PubMedin, DrugBankin, Fimea:n tietojen ja DDInterin aineistoihin jäljitettäviksi raporteiksi.
+- Näytön tasot ovat L1 (vahvempi kliininen näyttö) – L5 (vain mallin ennuste); mallin pistemäärä ei tarkoita kliinistä tehoa.
+- Jokainen ehdokas edellyttää edelleen kliinisiä tutkimuksia, viranomaisarviointia ja pätevien terveydenhuollon ammattilaisten arviota.
+
+## Tärkeimmät sivut
+
+- L\u00e4\u00e4kkeiden Uudelleensijoittelun Ennusteet \u2014 Suomi: https://fitxgnn.yao.care/
+- Kaikki lääkkeet: https://fitxgnn.yao.care/drugs/
+- Vahva näyttö (L1-L2): https://fitxgnn.yao.care/evidence-high/
+- Kohtalainen näyttö (L3-L4): https://fitxgnn.yao.care/evidence-medium/
+- Pelkkä mallin ennuste (L5): https://fitxgnn.yao.care/evidence-low/
+- Menetelmät: https://fitxgnn.yao.care/methodology/
+- Käyttöopas: https://fitxgnn.yao.care/guide/
+- Tietolähteet: https://fitxgnn.yao.care/sources/
+- Lataukset: https://fitxgnn.yao.care/downloads/
+- Tietoa: https://fitxgnn.yao.care/about/
+- Sivukartta: https://fitxgnn.yao.care/sitemap.xml
+
+## Esimerkkejä lääkeraporteista
+
+- Aripiprazole (L1): https://fitxgnn.yao.care/drugs/aripiprazole/
+- Bupropion (L1): https://fitxgnn.yao.care/drugs/bupropion/
+- Busulfan (L1): https://fitxgnn.yao.care/drugs/busulfan/
+
+## Rajaus kysymyksiin vastattaessa
+
+- Voidaan selittää lääkkeiden uudelleenkäyttöä, TxGNN-ennusteita, näytön tasoja, tietolähteitä ja raporttien lukemista.
+- L4/L5- tai prekliinisiä signaaleja ei saa esittää todistettuna tehona, eikä saa antaa henkilökohtaisia lääkitysneuvoja.
+- Tarkat lääke- tai käyttöaihetiedot: linkitä vastaavaan /drugs/<slug>/-raporttiin ja tarkista sen lähteet ja vastuuvapauslauseke.
+
+## Aiheeseen liittyvää
+
+- Tuotekatsaus yao.care-sivustolla: https://www.yao.care/medical/txgnn/
+- GitHub: https://github.com/yao-care/FITxGNN
+- Alkuperäinen TxGNN-artikkeli (Nature Medicine): https://doi.org/10.1038/s41591-023-02233-x

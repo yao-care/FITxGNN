@@ -31,11 +31,11 @@ Näytön tasot ovat L1 (vahvempi kliininen näyttö) – L5 (vain mallin ennuste
 
 ## Viittaaminen ja rajoitukset
 
-Viittaa alkuperäiseen TxGNN-artikkeliin (https://doi.org/10.1038/s41591-023-02233-x). Sivuston sisältö ja ennusteet ovat vain tutkimus- ja opetuskäyttöön eivätkä ole lääketieteellistä neuvontaa; kaikki todellinen käyttö on vahvistettava pätevien ammattilaisten, kliinisten tutkimusten ja viranomaisarvioinnin kautta.
+Viittaa alkuperäiseen TxGNN-artikkeliin (https://doi.org/10.1038/s41591-024-03233-x). Sivuston sisältö ja ennusteet ovat vain tutkimus- ja opetuskäyttöön eivätkä ole lääketieteellistä neuvontaa; kaikki todellinen käyttö on vahvistettava pätevien ammattilaisten, kliinisten tutkimusten ja viranomaisarvioinnin kautta.
 
 ## Viralliset linkit
 
 - https://fitxgnn.yao.care/
 - https://www.yao.care/medical/txgnn/
 - https://github.com/yao-care/FITxGNN
-- https://doi.org/10.1038/s41591-023-02233-x
+- https://doi.org/10.1038/s41591-024-03233-x

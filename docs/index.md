@@ -2,11 +2,11 @@
 layout: default
 title: "L\u00e4\u00e4kkeiden Uudelleensijoittelun Ennusteet \u2014 Suomi"
 nav_order: 1
-description: "AI-powered drug repurposing predictions for Finland. Evidence-based analysis of approved medicines for potential new therapeutic indications."
+description: "Tekoälyyn perustuvat lääkkeiden uudelleenkäytön ennusteet Suomelle. Näyttöön perustuva analyysi hyväksyttyjen lääkkeiden mahdollisista uusista käyttöaiheista."
 permalink: /
 ---
 
-# Drug Repurposing Predictions — Finland
+# Lääkkeiden uudelleenkäytön ennusteet — Suomi
 
 This project uses the TxGNN knowledge graph to predict potential new therapeutic uses for medicines approved in Finland.
 

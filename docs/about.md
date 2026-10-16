@@ -81,7 +81,7 @@ kliinikoille suunniteltu lääkkeiden uudelleensijoittelun perusmalli.
 "TxGNN yhdistää tietograafin, jossa on 17 080 biolääketieteellistä entiteettiä, ja käyttää graafineuroverkkoja
 oppiakseen solmujen välisiä monimutkaisia suhteita. Näin se ennustaa lääkkeiden mahdollista tehoa
 harvinaisissa sairauksissa."
-<cite>&mdash; Huang et al., Nature Medicine (2023)</cite>
+<cite>&mdash; Huang et al., Nature Medicine (2024)</cite>
 </blockquote>
 
 ---

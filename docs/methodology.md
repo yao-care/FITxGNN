@@ -48,20 +48,15 @@ automaattisesti näyttöä, näyttö luokitellaan tasoille L1–L5 ja lopuksi an
 
 ---
 
-## Kaksoismoottoriennuste
+## Miten ennusteet syntyvät
 
-Kaksi menetelmää ajetaan rinnakkain, ja luotettavuusmerkintä kertoo, ovatko ne yhtä mieltä:
+TxGNN:n syväoppimismalli (DL) pisteyttää lääke–sairaus-parit. Sen jälkeen poistetaan käyttöaiheet ja vasta-aiheet, jotka on jo kirjattu lääkkeelle TxGNN:n tietograafiin (KG). Lääkesivuilla näytetään siksi vain uudet ennustetut käyttöaiheet, joiden pistemäärä on vähintään 0,99 (enintään 10 lääkettä kohden).
 
-| Menetelmä | Nopeus | Tarkkuus | Kuvaus |
-|--------|-------|-----------|-------------|
-| Tietograafi (KG) | Nopea | Matalampi | Päättely DrugBank-suhteiden ja graafirakenteen pohjalta |
-| Syväoppiminen (DL) | Hidas | Korkeampi | TxGNN-graafineuroverkkomalli |
-
-| Luotettavuus | Lähde | Merkitys |
-|------------|--------|---------|
-| very_high | KG + DL | Molemmat menetelmät ovat yhtä mieltä |
-| high | Vain DL | Korkeat pisteet saanut syväoppimisen tuki |
-| medium | Vain KG | Tietograafin tuki |
+| Vaihe | Tehtävä |
+|-------|---------|
+| Syväoppiminen (DL) | TxGNN:n graafineuroverkko pisteyttää jokaisen lääke–sairaus-parin |
+| Tunnetun käytön tarkistus (KG) | Poistaa tietograafiin jo kirjatut käyttöaiheet ja vasta-aiheet; niitä ei lasketa uusiksi ennusteiksi |
+| Näytön keruu | Hakee ClinicalTrials.gov- ja PubMed-tietokannoista jokaiselle jäljelle jäävälle ennusteelle näyttöä ja antaa näytön tason (L1–L5) |
 
 ---
 

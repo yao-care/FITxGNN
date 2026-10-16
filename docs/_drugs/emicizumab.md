@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 161
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Emicizumab: ennustettu uusi käyttöaihe Pseudo-von Willebrandin tauti (näytön taso L5). Alkuperäinen käyttöaihe: Hemofilia A"
 ---
 
 # Emicizumab

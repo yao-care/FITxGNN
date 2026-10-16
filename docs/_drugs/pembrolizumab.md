@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 337
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Pembrolizumab: ennustettu uusi käyttöaihe Ientenfibromatoosi (fibromatosis, gingival) (näytön taso L5). Alkuperäinen käyttöaihe: Melanooma"
 ---
 
 # Pembrolizumab

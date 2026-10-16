@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 232
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Insulin Glargine: ennustettu uusi käyttöaihe Autoimmuuninen munasarjatulehdus (autoimmune oophoritis) (näytön taso L5). Alkuperäinen käyttöaihe: Diabetes mellitus"
 ---
 
 # Insulin Glargine

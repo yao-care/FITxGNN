@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 298
 evidence_level: L5
 indication_count: 1
+last_modified_at: 2026-10-13
+description: "Nelarabine: ennustettu uusi käyttöaihe Relapsoiva-remittoiva MS-tauti (näytön taso L5). Alkuperäinen käyttöaihe: Prekursori-T-solulymfoblastinen leukemia-lymfooma"
 ---
 
 # Nelarabine

@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 41
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Aprepitant: ennustettu uusi käyttöaihe Nefrogeeninen antidiureesin epäasianmukaisen erityksen oireyhtymä (NS… (näytön taso L5). Alkuperäinen käyttöaihe: Oksentelu, leikkauksen jälkeinen pahoinvointi …"
 ---
 
 # Aprepitant

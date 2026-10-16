@@ -5,6 +5,8 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 310
 evidence_level: L1
 indication_count: 3
+last_modified_at: 2026-10-13
+description: "Obinutuzumab: ennustettu uusi käyttöaihe Follikulaarinen lymfooma (näytön taso L1). Alkuperäinen käyttöaihe: Krooninen B-solulymfaattinen leukemia"
 ---
 
 # Obinutuzumab

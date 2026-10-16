@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 186
 evidence_level: L5
 indication_count: 4
+last_modified_at: 2026-10-13
+description: "Fenfluramine: ennustettu uusi käyttöaihe Proksimaalinen 16p11.2-mikrodeleetiosyndrooma (näytön taso L5). Alkuperäinen käyttöaihe: Myokloniset epilepsiat"
 ---
 
 # Fenfluramine

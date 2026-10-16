@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 219
 evidence_level: L5
 indication_count: 1
+last_modified_at: 2026-10-13
+description: "Icosapent Ethyl: ennustettu uusi käyttöaihe Hemoglobinopatia (näytön taso L5). Alkuperäinen käyttöaihe: Dyslipidemiat"
 ---
 
 # Icosapent Ethyl

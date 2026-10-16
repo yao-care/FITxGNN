@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 48
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Asfotase Alfa: ennustettu uusi käyttöaihe Mitokondrion oksidatiivisen fosforylaation häiriö (ydin-DNA:n poikkea… (näytön taso L5). Alkuperäinen käyttöaihe: Hypofosfatasia"
 ---
 
 # Asfotase Alfa

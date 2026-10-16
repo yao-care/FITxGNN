@@ -5,6 +5,8 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 233
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Insulin Glulisine: ennustettu uusi käyttöaihe Tyypin 1 diabetes mellitus (näytön taso L1). Alkuperäinen käyttöaihe: Diabetes mellitus"
 ---
 
 # Insulin Glulisine

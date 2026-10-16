@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 445
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Tolvaptan: ennustettu uusi käyttöaihe Polykystinen munuaistauti 3 (PKD3) with or without polykystinen maksa… (näytön taso L5). Alkuperäinen käyttöaihe: Epätarkoituksenmukaisen ADH-erityksen oireyhtym…"
 ---
 
 # Tolvaptan

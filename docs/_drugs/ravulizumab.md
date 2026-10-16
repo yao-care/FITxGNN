@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 369
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Ravulizumab: ennustettu uusi käyttöaihe Autosomaalinen resessiivinen vaikea synnynnäinen neutropenia (G6PC3-p… (näytön taso L5). Alkuperäinen käyttöaihe: Paroksysmaalinen hemoglobinuria"
 ---
 
 # Ravulizumab

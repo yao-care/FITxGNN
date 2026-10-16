@@ -5,6 +5,8 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 442
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Tocilizumab: ennustettu uusi käyttöaihe Selkärankareuma (ankyloiva spondyliitti) (näytön taso L2). Alkuperäinen käyttöaihe: Nivelreuma, lastenreuma (nuorten idiopaattinen artriitti)…"
 ---
 
 # Tocilizumab

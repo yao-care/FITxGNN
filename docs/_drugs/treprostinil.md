@@ -5,6 +5,8 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 455
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Treprostinil: ennustettu uusi käyttöaihe Sidekudossairauteen liittyvä keuhkovaltimoverenpainetauti (valittu va… (näytön taso L3). Alkuperäinen käyttöaihe: Keuhkoverenpainetauti (pulmonaalihypertensio)"
 ---
 
 # Treprostinil

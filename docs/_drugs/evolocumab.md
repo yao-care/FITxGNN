@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 183
 evidence_level: L5
 indication_count: 6
+last_modified_at: 2026-10-13
+description: "Evolocumab: ennustettu uusi käyttöaihe Hemofilian oireinen muoto naispuolisilla kantajilla (näytön taso L5). Alkuperäinen käyttöaihe: Dyslipidemiat"
 ---
 
 # Evolocumab

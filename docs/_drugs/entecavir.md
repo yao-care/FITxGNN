@@ -5,6 +5,8 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 167
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Entecavir: ennustettu uusi käyttöaihe Krooninen hepatiitti C -virusinfektio (näytön taso L3). Alkuperäinen käyttöaihe: Hepatiitti B"
 ---
 
 # Entecavir

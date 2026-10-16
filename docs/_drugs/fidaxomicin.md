@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 190
 evidence_level: L5
 indication_count: 9
+last_modified_at: 2026-10-13
+description: "Fidaxomicin: ennustettu uusi käyttöaihe Stafylokokin aiheuttama kuoriutuva ihosyndrooma (staphylococcal scald… (näytön taso L5). Alkuperäinen käyttöaihe: Clostridium-infektiot"
 ---
 
 # Fidaxomicin

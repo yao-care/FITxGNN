@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 353
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Prasterone: ennustettu uusi käyttöaihe Hepariinikofaktori 2:n puutos (näytön taso L5). Alkuperäinen käyttöaihe: Postmenopaussi"
 ---
 
 # Prasterone

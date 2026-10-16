@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 479
 evidence_level: L5
 indication_count: 6
+last_modified_at: 2026-10-13
+description: "Zidovudine: ennustettu uusi käyttöaihe Kissan hankinnainen immuunipuutosoireyhtymä (feline acquired immunode… (näytön taso L5). Alkuperäinen käyttöaihe: HIV-infektio"
 ---
 
 # Zidovudine

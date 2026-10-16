@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 86
 evidence_level: L5
 indication_count: 4
+last_modified_at: 2026-10-13
+description: "Brolucizumab: ennustettu uusi käyttöaihe Tumaperäisistä DNA-poikkeavuuksista johtuva mitokondriaalinen oksidat… (näytön taso L5). Alkuperäinen käyttöaihe: Kostea silmänpohjan ikärappeuma"
 ---
 
 # Brolucizumab

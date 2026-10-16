@@ -5,6 +5,8 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 377
 evidence_level: L4
 indication_count: 5
+last_modified_at: 2026-10-13
+description: "Rilpivirine: ennustettu uusi käyttöaihe Kissan hankinnainen immuunikato (FIV) (näytön taso L4). Alkuperäinen käyttöaihe: HIV-infektiot"
 ---
 
 # Rilpivirine

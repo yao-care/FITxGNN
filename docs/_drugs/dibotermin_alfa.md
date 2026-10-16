@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 140
 evidence_level: L5
 indication_count: 9
+last_modified_at: 2026-10-13
+description: "Dibotermin Alfa: ennustettu uusi käyttöaihe Esotropia (näytön taso L5). Alkuperäinen käyttöaihe: Sääriluun murtumat, sisäinen murtumafiksaatio, selkärangan fuusio"
 ---
 
 # Dibotermin Alfa

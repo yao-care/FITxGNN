@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 261
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Levetiracetam: ennustettu uusi käyttöaihe Status epilepticus (ensisijaisena ennusteena luettelossa: visuaalinen… (näytön taso L5). Alkuperäinen käyttöaihe: Epilepsia"
 ---
 
 # Levetiracetam

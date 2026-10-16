@@ -5,6 +5,8 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 305
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Niraparib: ennustettu uusi käyttöaihe Kystinen neoplasia (cystic neoplasm) (näytön taso L3). Alkuperäinen käyttöaihe: Munanjohtimen, vatsakalvon ja munasarjan kasvaimet"
 ---
 
 # Niraparib

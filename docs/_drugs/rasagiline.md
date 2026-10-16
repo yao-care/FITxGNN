@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 367
 evidence_level: L5
 indication_count: 6
+last_modified_at: 2026-10-13
+description: "Rasagiline: ennustettu uusi käyttöaihe PLA2G6-liitännäinen neurodegeneraatio (näytön taso L5). Alkuperäinen käyttöaihe: Parkinsonin tauti"
 ---
 
 # Rasagiline

@@ -5,6 +5,8 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 467
 evidence_level: L4
 indication_count: 6
+last_modified_at: 2026-10-13
+description: "Vernakalant: ennustettu uusi käyttöaihe Aivohalvaussairaus (stroke disorder) (näytön taso L4). Alkuperäinen käyttöaihe: Eteisvärinä"
 ---
 
 # Vernakalant

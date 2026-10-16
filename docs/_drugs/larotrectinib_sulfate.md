@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 248
 evidence_level: L5
 indication_count: 0
+last_modified_at: 2026-09-19
+description: "Larotrectinib Sulfate: ennustettu uusi käyttöaihe Ei saatavilla — TxGNN ei palauttanut ennustuksia (näytön taso L5). Alkuperäinen käyttöaihe: Sääntelyrekistereitä ei löytynyt (ei markkinoitu Taiwanis…"
 ---
 
 # Larotrectinib Sulfate

@@ -5,6 +5,8 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 399
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Selumetinib: ennustettu uusi käyttöaihe Perifeerinen hermoverhokasvain (schwannooma) (näytön taso L3). Alkuperäinen käyttöaihe: Neurofibromatoosi 1"
 ---
 
 # Selumetinib

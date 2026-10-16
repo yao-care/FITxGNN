@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 458
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Turoctocog Alfa Pegol: ennustettu uusi käyttöaihe Ensisijainen verihiutaleiden vapautumishäiriö (primary release disord… (näytön taso L5). Alkuperäinen käyttöaihe: Hemofilia A"
 ---
 
 # Turoctocog Alfa Pegol

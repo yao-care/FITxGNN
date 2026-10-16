@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 382
 evidence_level: L5
 indication_count: 6
+last_modified_at: 2026-10-13
+description: "Risperidone: ennustettu uusi käyttöaihe Familiaalinen horisontaalinen katseen halvaus ja etenevä skolioosi (näytön taso L5). Alkuperäinen käyttöaihe: Skitsofrenia"
 ---
 
 # Risperidone

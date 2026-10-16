@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 313
 evidence_level: L5
 indication_count: 8
+last_modified_at: 2026-10-13
+description: "Ofatumumab: ennustettu uusi käyttöaihe Krooninen lymfosyyttileukemia / pieni lymfosyyttilymfooma (CLL/SLL) (näytön taso L5). Alkuperäinen käyttöaihe: Relapsoiva-remittoiva multippeliskleroosi"
 ---
 
 # Ofatumumab

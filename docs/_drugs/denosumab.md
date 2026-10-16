@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 137
 evidence_level: L5
 indication_count: 2
+last_modified_at: 2026-10-13
+description: "Denosumab: ennustettu uusi käyttöaihe Vaikea ei-proliferatiivinen diabeettinen retinopatia (toissijainen en… (näytön taso L5). Alkuperäinen käyttöaihe: Luun jättisolukasvain (luukudoksen kasvaimet)"
 ---
 
 # Denosumab

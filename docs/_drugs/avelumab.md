@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 58
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Avelumab: ennustettu uusi käyttöaihe Ihmisen herpesvirus 8:aan liittyvä kasvain (näytön taso L5). Alkuperäinen käyttöaihe: Neuroendokriiniset kasvaimet"
 ---
 
 # Avelumab

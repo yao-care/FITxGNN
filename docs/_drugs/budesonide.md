@@ -5,6 +5,8 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 87
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Budesonide: ennustettu uusi käyttöaihe Atooppinen ekseema (näytön taso L4). Alkuperäinen käyttöaihe: Ruokatorven sairaudet (muut luvat: COPD ja astma)"
 ---
 
 # Budesonide

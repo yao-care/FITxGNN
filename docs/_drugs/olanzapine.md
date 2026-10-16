@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 314
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-13
+description: "Olanzapine: ennustettu uusi käyttöaihe Imeväisen hyvänlaatuinen paroksysmaalinen vinokaula (sijalla 1) (näytön taso L5). Alkuperäinen käyttöaihe: Skitsofrenia"
 ---
 
 # Olanzapine

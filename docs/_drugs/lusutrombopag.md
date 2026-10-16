@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 275
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Lusutrombopag: ennustettu uusi käyttöaihe Perinnöllinen trombosytopenia, jossa verihiutaleet ovat normaalit (näytön taso L5). Alkuperäinen käyttöaihe: Trombosytopenia"
 ---
 
 # Lusutrombopag

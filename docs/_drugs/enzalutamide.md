@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 168
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-13
+description: "Enzalutamide: ennustettu uusi käyttöaihe Eturauhassyövän ja aivosyövän alttius (prostate cancer/brain cancer s… (näytön taso L5). Alkuperäinen käyttöaihe: Eturauhassyöpä"
 ---
 
 # Enzalutamide

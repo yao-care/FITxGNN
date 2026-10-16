@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 347
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Pirfenidone: ennustettu uusi käyttöaihe Ekstrakutaaninen mastosytooma (ensisijainen ennuste) (näytön taso L5). Alkuperäinen käyttöaihe: Idiopaattinen keuhkofibroosi"
 ---
 
 # Pirfenidone

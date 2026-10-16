@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 55
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Avapritinib: ennustettu uusi käyttöaihe Aksiaalinen spondylometafyysinen dysplasia (näytön taso L5). Alkuperäinen käyttöaihe: Maha-suolikanavan stroomakasvaimet (GIST)"
 ---
 
 # Avapritinib

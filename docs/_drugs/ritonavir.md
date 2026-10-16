@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 383
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-13
+description: "Ritonavir: ennustettu uusi käyttöaihe Kissan hankinnainen immuunikatooireyhtymä (FIV) (näytön taso L5). Alkuperäinen käyttöaihe: HIV-infektiot"
 ---
 
 # Ritonavir

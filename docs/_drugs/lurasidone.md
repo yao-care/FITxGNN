@@ -5,6 +5,8 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 274
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Lurasidone: ennustettu uusi käyttöaihe Maaninen kaksisuuntainen mielialahäiriö (näytön taso L3). Alkuperäinen käyttöaihe: Skitsofrenia"
 ---
 
 # Lurasidone

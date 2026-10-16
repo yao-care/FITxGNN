@@ -5,6 +5,8 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 462
 evidence_level: L4
 indication_count: 7
+last_modified_at: 2026-10-13
+description: "Valsartan: ennustettu uusi käyttöaihe Pahanlaatuinen hypertensiivinen munuaissairaus (näytön taso L4). Alkuperäinen käyttöaihe: Sydämen vajaatoiminta (lisäksi verenpainetauti)"
 ---
 
 # Valsartan

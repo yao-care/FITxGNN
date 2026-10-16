@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 324
 evidence_level: L5
 indication_count: 4
+last_modified_at: 2026-10-13
+description: "Palbociclib: ennustettu uusi käyttöaihe Kilpirauhasen liikatoiminta (näytön taso L5). Alkuperäinen käyttöaihe: Rintasyöpä (Breast Neoplasms)"
 ---
 
 # Palbociclib

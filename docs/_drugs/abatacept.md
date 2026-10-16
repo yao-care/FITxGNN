@@ -5,6 +5,8 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 13
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Abatacept: ennustettu uusi käyttöaihe Reumatoidinen vaskuliitti (näytön taso L4). Alkuperäinen käyttöaihe: Nivelpsoriaasi, lastenreuma, nivelreuma"
 ---
 
 # Abatacept

@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 255
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-13
+description: "Lefamulin: ennustettu uusi käyttöaihe Diffuusi iholeishmaniaasi (näytön taso L5). Alkuperäinen käyttöaihe: Bakteeriperäinen keuhkokuume"
 ---
 
 # Lefamulin

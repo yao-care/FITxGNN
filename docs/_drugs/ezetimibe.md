@@ -5,6 +5,8 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 184
 evidence_level: L1
 indication_count: 4
+last_modified_at: 2026-10-13
+description: "Ezetimibe: ennustettu uusi käyttöaihe Hyperlipoproteinemia (näytön taso L1). Alkuperäinen käyttöaihe: Hyperkolesterolemia, dyslipidemiat"
 ---
 
 # Ezetimibe

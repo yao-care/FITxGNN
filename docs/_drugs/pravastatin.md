@@ -5,6 +5,8 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 355
 evidence_level: L4
 indication_count: 9
+last_modified_at: 2026-10-13
+description: "Pravastatin: ennustettu uusi käyttöaihe Homotsygoottinen familiaalinen hyperkolesterolemia (näytön taso L4). Alkuperäinen käyttöaihe: Dyslipidemiat"
 ---
 
 # Pravastatin

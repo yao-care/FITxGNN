@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 264
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Lidocaine: ennustettu uusi käyttöaihe Sidekalvon sairaus (conjunctival disorder). TxGNN:n korkeimmin pistey… (näytön taso L5). Alkuperäinen käyttöaihe: Fysiologinen sukupuolitoimintahäiriö"
 ---
 
 # Lidocaine

@@ -5,6 +5,8 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 121
 evidence_level: L4
 indication_count: 7
+last_modified_at: 2026-10-13
+description: "Cyclosporine: ennustettu uusi käyttöaihe Krooninen granulomatoottinen tauti, autosomaalinen resessiivinen (näytön taso L4). Alkuperäinen käyttöaihe: Keratokonjunktiviitti sicca (kuivasilmäisyys)"
 ---
 
 # Cyclosporine

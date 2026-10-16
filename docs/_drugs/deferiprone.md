@@ -5,6 +5,8 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 133
 evidence_level: L4
 indication_count: 9
+last_modified_at: 2026-10-13
+description: "Deferiprone: ennustettu uusi käyttöaihe Maksaporfyria (näytön taso L4). Alkuperäinen käyttöaihe: Beta-talassemia"
 ---
 
 # Deferiprone

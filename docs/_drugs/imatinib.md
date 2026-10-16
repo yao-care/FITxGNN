@@ -5,6 +5,8 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 223
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Imatinib: ennustettu uusi käyttöaihe Sydämen fibrosarkooma (heart fibrosarcoma) (näytön taso L4). Alkuperäinen käyttöaihe: Prekursorisolu-lymfoblastileukemia/lymfooma…"
 ---
 
 # Imatinib

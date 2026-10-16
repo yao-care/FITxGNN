@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 296
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Mycophenolate Mofetil: ennustettu uusi käyttöaihe HIV-infektio (näytön taso L5). Alkuperäinen käyttöaihe: Elinsiirteen hylkiminen (Graft Rejection)"
 ---
 
 # Mycophenolate Mofetil

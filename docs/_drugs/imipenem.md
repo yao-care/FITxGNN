@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 225
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Imipenem: ennustettu uusi käyttöaihe Diffuusi skleroderma (näytön taso L5). Alkuperäinen käyttöaihe: Gram-negatiiviset bakteeri-infektiot"
 ---
 
 # Imipenem

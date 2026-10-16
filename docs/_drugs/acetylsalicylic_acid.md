@@ -5,6 +5,8 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 17
 evidence_level: L3
 indication_count: 9
+last_modified_at: 2026-10-13
+description: "Acetylsalicylic Acid: ennustettu uusi käyttöaihe Aivorunkoauraiseen migreeni (näytön taso L3). Alkuperäinen käyttöaihe: Akuutti sepelvaltimo-oireyhtymä"
 ---
 
 # Acetylsalicylic Acid

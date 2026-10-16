@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 96
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Canakinumab: ennustettu uusi käyttöaihe Familiaalinen Välimeren kuume, autosomaalisesti dominantti (FMF) (näytön taso L5). Alkuperäinen käyttöaihe: Kryopyriiniin liittyvät jaksoittaiset oireyhtymät"
 ---
 
 # Canakinumab

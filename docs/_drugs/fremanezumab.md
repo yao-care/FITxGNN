@@ -5,6 +5,8 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 196
 evidence_level: L4
 indication_count: 2
+last_modified_at: 2026-10-13
+description: "Fremanezumab: ennustettu uusi käyttöaihe Aivorunkoauraiseen migreeni (migraine with brainstem aura) (näytön taso L4). Alkuperäinen käyttöaihe: Migreeni"
 ---
 
 # Fremanezumab

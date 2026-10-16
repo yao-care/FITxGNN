@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 104
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Cemiplimab: ennustettu uusi käyttöaihe Sappirakon adenosquamous-karsinooma (näytön taso L5). Alkuperäinen käyttöaihe: Okasolusyöpä (Carcinoma, Squamous Cell)"
 ---
 
 # Cemiplimab

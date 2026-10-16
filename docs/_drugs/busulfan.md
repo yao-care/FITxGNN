@@ -5,6 +5,8 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 91
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Busulfan: ennustettu uusi käyttöaihe Myelodysplastinen oireyhtymä (näytön taso L1). Alkuperäinen käyttöaihe: Hematopoieettisten kantasolujen siirto (HSCT)"
 ---
 
 # Busulfan

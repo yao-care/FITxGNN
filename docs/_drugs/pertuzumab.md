@@ -5,6 +5,8 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 342
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Pertuzumab: ennustettu uusi käyttöaihe Progesteronireseptoripositiivinen rintasyöpä (näytön taso L1). Alkuperäinen käyttöaihe: Rintasyöpä"
 ---
 
 # Pertuzumab

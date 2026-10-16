@@ -5,6 +5,8 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 247
 evidence_level: L4
 indication_count: 2
+last_modified_at: 2026-10-13
+description: "Laronidase: ennustettu uusi käyttöaihe Luustoon liittyvä lysosomaalinen kertymäsairaus (näytön taso L4). Alkuperäinen käyttöaihe: Mukopolysakkaridoosi I"
 ---
 
 # Laronidase

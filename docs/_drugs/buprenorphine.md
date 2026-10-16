@@ -5,6 +5,8 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 89
 evidence_level: L4
 indication_count: 6
+last_modified_at: 2026-10-13
+description: "Buprenorphine: ennustettu uusi käyttöaihe Akuutti ajoittainen porfyria (näytön taso L4). Alkuperäinen käyttöaihe: Opioidiriippuvuus (opioidien käyttöön liittyvät häiriöt)"
 ---
 
 # Buprenorphine

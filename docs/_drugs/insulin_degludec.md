@@ -5,6 +5,8 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 230
 evidence_level: L1
 indication_count: 6
+last_modified_at: 2026-10-13
+description: "Insulin Degludec: ennustettu uusi käyttöaihe Tyypin 1 diabetes (type 1 diabetes mellitus) (näytön taso L1). Alkuperäinen käyttöaihe: Diabetes mellitus"
 ---
 
 # Insulin Degludec

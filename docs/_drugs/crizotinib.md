@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 120
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Crizotinib: ennustettu uusi käyttöaihe Ientten fibromatoosi (fibromatosis, gingival) (näytön taso L5). Alkuperäinen käyttöaihe: Ei-pienisoluinen keuhkosyöpä"
 ---
 
 # Crizotinib

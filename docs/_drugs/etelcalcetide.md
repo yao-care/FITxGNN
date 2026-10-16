@@ -5,6 +5,8 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 179
 evidence_level: L4
 indication_count: 4
+last_modified_at: 2026-10-13
+description: "Etelcalcetide: ennustettu uusi käyttöaihe Hyperfosfatemia (näytön taso L4). Alkuperäinen käyttöaihe: Sekundaarinen hyperparatyreoosi"
 ---
 
 # Etelcalcetide

@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 170
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Eptifibatide: ennustettu uusi käyttöaihe Hemoglobinopatia (sirppisolutauti) (näytön taso L5). Alkuperäinen käyttöaihe: Epästabiili angina pectoris"
 ---
 
 # Eptifibatide

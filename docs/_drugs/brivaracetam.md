@@ -5,6 +5,8 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 84
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Brivaracetam: ennustettu uusi käyttöaihe Status epilepticus (toissijaisesti: visual epilepsy… (näytön taso L3). Alkuperäinen käyttöaihe: Epilepsia"
 ---
 
 # Brivaracetam

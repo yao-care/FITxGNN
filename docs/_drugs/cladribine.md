@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 114
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-13
+description: "Cladribine: ennustettu uusi käyttöaihe Parameningeaalinen embryonaalinen rabdomyosarkooma (näytön taso L5). Alkuperäinen käyttöaihe: Karvasoluleukemia (Litak)"
 ---
 
 # Cladribine

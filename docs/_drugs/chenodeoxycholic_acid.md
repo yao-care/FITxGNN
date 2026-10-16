@@ -5,6 +5,8 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 110
 evidence_level: L4
 indication_count: 5
+last_modified_at: 2026-10-13
+description: "Chenodeoxycholic Acid: ennustettu uusi käyttöaihe Homotsygoottinen familiaalinen hyperkolesterolemia (näytön taso L4). Alkuperäinen käyttöaihe: Aivojen jännekeltakasvaimet (CTX)"
 ---
 
 # Chenodeoxycholic Acid

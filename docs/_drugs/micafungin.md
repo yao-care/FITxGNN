@@ -5,6 +5,8 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 290
 evidence_level: L3
 indication_count: 1
+last_modified_at: 2026-10-13
+description: "Micafungin: ennustettu uusi käyttöaihe Virtsatieinfektio (näytön taso L3). Alkuperäinen käyttöaihe: Kandidiaasi"
 ---
 
 # Micafungin

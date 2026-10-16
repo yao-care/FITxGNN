@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 22
 evidence_level: L5
 indication_count: 6
+last_modified_at: 2026-10-13
+description: "Albutrepenonacog Alfa: ennustettu uusi käyttöaihe Pseudo-von Willebrandin tauti (verihiutaletyyppinen von Willebrandin… (näytön taso L5). Alkuperäinen käyttöaihe: Hemofilia B"
 ---
 
 # Albutrepenonacog Alfa

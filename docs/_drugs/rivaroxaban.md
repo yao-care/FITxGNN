@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 384
 evidence_level: L5
 indication_count: 4
+last_modified_at: 2026-10-13
+description: "Rivaroxaban: ennustettu uusi käyttöaihe Nivelreuma (näytön taso L5). Alkuperäinen käyttöaihe: Laskimotromboembolia, keuhkoembolia…"
 ---
 
 # Rivaroxaban

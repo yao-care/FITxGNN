@@ -5,6 +5,8 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 185
 evidence_level: L4
 indication_count: 3
+last_modified_at: 2026-10-13
+description: "Febuxostat: ennustettu uusi käyttöaihe Munuaisperäinen hypourikemia (hypouricemia, renal) (näytön taso L4). Alkuperäinen käyttöaihe: Hyperurikemia, kihti"
 ---
 
 # Febuxostat

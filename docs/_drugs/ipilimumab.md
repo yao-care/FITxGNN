@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 237
 evidence_level: L5
 indication_count: 2
+last_modified_at: 2026-10-13
+description: "Ipilimumab: ennustettu uusi käyttöaihe Koroideremia (näytön taso L5). Alkuperäinen käyttöaihe: Melanooma, munuaissolusyöpä, ei-pienisoluinen keuhkosyöpä…"
 ---
 
 # Ipilimumab

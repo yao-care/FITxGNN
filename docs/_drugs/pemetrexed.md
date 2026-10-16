@@ -5,6 +5,8 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 338
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Pemetrexed: ennustettu uusi käyttöaihe Vatsakalvon pahanlaatuinen mesotelioma (malignant peritoneal mesothel… (näytön taso L2). Alkuperäinen käyttöaihe: Mesotelioomaa"
 ---
 
 # Pemetrexed

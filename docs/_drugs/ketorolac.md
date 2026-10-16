@@ -5,6 +5,8 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 242
 evidence_level: L1
 indication_count: 3
+last_modified_at: 2026-10-13
+description: "Ketorolac: ennustettu uusi käyttöaihe Päänsärkyhäiriö (headache disorder) (näytön taso L1). Alkuperäinen käyttöaihe: Silmänsisäinen linssi-implantaatio"
 ---
 
 # Ketorolac

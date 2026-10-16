@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 278
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-13
+description: "Mecasermin: ennustettu uusi käyttöaihe Monosomia X (Turnerin oireyhtymä) (näytön taso L5). Alkuperäinen käyttöaihe: Laronin oireyhtymä"
 ---
 
 # Mecasermin

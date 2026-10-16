@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 427
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Tenecteplase: ennustettu uusi käyttöaihe Takaseinän alaosan sydäninfarkti (posteroinferior myocardial infarcti… (näytön taso L5). Alkuperäinen käyttöaihe: Sydäninfarkti"
 ---
 
 # Tenecteplase

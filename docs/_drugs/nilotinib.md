@@ -5,6 +5,8 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 303
 evidence_level: L4
 indication_count: 1
+last_modified_at: 2026-10-13
+description: "Nilotinib: ennustettu uusi käyttöaihe Dermatofibrosarcoma protuberans (näytön taso L4). Alkuperäinen käyttöaihe: BCR-ABL-positiivinen krooninen myelooinen leukemia"
 ---
 
 # Nilotinib

@@ -5,6 +5,8 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 291
 evidence_level: L2
 indication_count: 1
+last_modified_at: 2026-10-13
+description: "Midazolam: ennustettu uusi käyttöaihe Unettomuus (insomnia) (näytön taso L2). Alkuperäinen käyttöaihe: Epilepsia"
 ---
 
 # Midazolam

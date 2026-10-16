@@ -5,6 +5,8 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 153
 evidence_level: L4
 indication_count: 3
+last_modified_at: 2026-10-13
+description: "Efavirenz: ennustettu uusi käyttöaihe Apinoiden immuunikatovirusinfektio (simian immunodeficiency virus inf… (näytön taso L4). Alkuperäinen käyttöaihe: HIV-infektio"
 ---
 
 # Efavirenz

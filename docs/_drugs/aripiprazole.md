@@ -5,6 +5,8 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 42
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Aripiprazole: ennustettu uusi käyttöaihe Vakava mielialahäiriö (major affective disorder) (näytön taso L1). Alkuperäinen käyttöaihe: Skitsofrenia"
 ---
 
 # Aripiprazole

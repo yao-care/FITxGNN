@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 415
 evidence_level: L5
 indication_count: 8
+last_modified_at: 2026-10-13
+description: "Tadalafil: ennustettu uusi käyttöaihe Ambras-tyypin yleistynyt synnynnäinen liikakarvoitus (Ambras type hyp… (näytön taso L5). Alkuperäinen käyttöaihe: Erektiohäiriö"
 ---
 
 # Tadalafil

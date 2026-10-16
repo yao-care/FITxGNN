@@ -5,6 +5,8 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 192
 evidence_level: L4
 indication_count: 8
+last_modified_at: 2026-10-13
+description: "Fluticasone Furoate: ennustettu uusi käyttöaihe Atooppinen ihottuma (atopic eczema) (näytön taso L4). Alkuperäinen käyttöaihe: Kausiluonteinen ja ympärivuotinen allerginen nuha (lisäksi COPD ja as…"
 ---
 
 # Fluticasone Furoate

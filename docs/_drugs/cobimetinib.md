@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 118
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Cobimetinib: ennustettu uusi käyttöaihe Amyotrofinen lateraaliskleroosi (ALS) (näytön taso L5). Alkuperäinen käyttöaihe: Melanooma"
 ---
 
 # Cobimetinib

@@ -5,6 +5,8 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 115
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Clofarabine: ennustettu uusi käyttöaihe Myeloidinen leukemia (näytön taso L1). Alkuperäinen käyttöaihe: Prekursorisolujen lymfoblastileukemia-lymfooma"
 ---
 
 # Clofarabine

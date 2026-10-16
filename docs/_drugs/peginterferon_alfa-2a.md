@@ -5,6 +5,8 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 335
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Peginterferon Alfa-2A: ennustettu uusi käyttöaihe Hepatiitti B -virusinfektio (näytön taso L4). Alkuperäinen käyttöaihe: Krooninen hepatiitti C, krooninen hepatiitti B, aito punasolutauti…"
 ---
 
 # Peginterferon Alfa-2A

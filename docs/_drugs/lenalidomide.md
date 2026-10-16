@@ -5,6 +5,8 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 258
 evidence_level: L2
 indication_count: 6
+last_modified_at: 2026-10-13
+description: "Lenalidomide: ennustettu uusi käyttöaihe Myeloidinen leukemia (näytön taso L2). Alkuperäinen käyttöaihe: Multippeli myelooma"
 ---
 
 # Lenalidomide

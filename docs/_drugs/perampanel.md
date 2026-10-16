@@ -5,6 +5,8 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 341
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Perampanel: ennustettu uusi käyttöaihe Status epilepticus (kohtaustila) (näytön taso L3). Alkuperäinen käyttöaihe: Osittaisepilepsiat (Epilepsies, Partial)"
 ---
 
 # Perampanel

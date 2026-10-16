@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 402
 evidence_level: L5
 indication_count: 8
+last_modified_at: 2026-10-13
+description: "Siltuximab: ennustettu uusi käyttöaihe Ekstrakutaaninen mastosytooma (näytön taso L5). Alkuperäinen käyttöaihe: Jättimäinen imusolmukehyperplasia (Castlemanin tauti)"
 ---
 
 # Siltuximab

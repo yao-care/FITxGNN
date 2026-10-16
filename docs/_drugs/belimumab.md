@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 72
 evidence_level: L5
 indication_count: 6
+last_modified_at: 2026-10-13
+description: "Belimumab: ennustettu uusi käyttöaihe Primaarinen verihiutaleiden vapautumishäiriö (primary release disorde… (näytön taso L5). Alkuperäinen käyttöaihe: Systeeminen lupus erythematosus"
 ---
 
 # Belimumab

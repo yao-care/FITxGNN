@@ -5,6 +5,8 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 388
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Rotigotine: ennustettu uusi käyttöaihe Tarkkaavaisuus- ja ylivilkkaushäiriö (ADHD) (näytön taso L4). Alkuperäinen käyttöaihe: Levottomien jalkojen oireyhtymä"
 ---
 
 # Rotigotine

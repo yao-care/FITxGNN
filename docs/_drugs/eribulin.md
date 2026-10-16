@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 174
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Eribulin: ennustettu uusi käyttöaihe Fibroblastinen neoplasma (esim. yksittäinen kuituinen kasvain, SFT) (näytön taso L5). Alkuperäinen käyttöaihe: Rintasyöpä (Breast Neoplasms), liposarkooma"
 ---
 
 # Eribulin

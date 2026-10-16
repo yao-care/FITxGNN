@@ -5,6 +5,8 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 177
 evidence_level: L4
 indication_count: 3
+last_modified_at: 2026-10-13
+description: "Esomeprazole: ennustettu uusi käyttöaihe Duodenogastrinen refluksi (näytön taso L4). Alkuperäinen käyttöaihe: Gastroesofageaalinen refluksi"
 ---
 
 # Esomeprazole

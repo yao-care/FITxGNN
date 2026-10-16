@@ -5,6 +5,8 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 62
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Axitinib: ennustettu uusi käyttöaihe Xp11.2/TFE3-translokaatioon liittyvä munuaissolusyöpä (näytön taso L2). Alkuperäinen käyttöaihe: Munuaissolusyöpä"
 ---
 
 # Axitinib

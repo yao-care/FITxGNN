@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 356
 evidence_level: L5
 indication_count: 6
+last_modified_at: 2026-10-13
+description: "Pregabalin: ennustettu uusi käyttöaihe Tendiniitti (jänteen tulehdus) (näytön taso L5). Alkuperäinen käyttöaihe: Ahdistuneisuushäiriöt ja epilepsia"
 ---
 
 # Pregabalin

@@ -5,6 +5,8 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 332
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Pazopanib: ennustettu uusi käyttöaihe Luokittelematon munuaissolusyöpä (unclassified renal cell carcinoma) (näytön taso L3). Alkuperäinen käyttöaihe: Munuaissolusyöpä (Carcinoma, Renal Cell)"
 ---
 
 # Pazopanib

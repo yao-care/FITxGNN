@@ -5,6 +5,8 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 414
 evidence_level: L1
 indication_count: 3
+last_modified_at: 2026-10-13
+description: "Tacrolimus: ennustettu uusi käyttöaihe Seborrooinen ihottuma (näytön taso L1). Alkuperäinen käyttöaihe: Maksan ja munuaisen siirto"
 ---
 
 # Tacrolimus

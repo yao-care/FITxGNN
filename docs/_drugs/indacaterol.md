@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 228
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Indacaterol: ennustettu uusi käyttöaihe Keuhkoputkisairaus (bronchial disease) (näytön taso L5). Alkuperäinen käyttöaihe: Keuhkoahtaumatauti (COPD), astma"
 ---
 
 # Indacaterol

@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 75
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Bevacizumab: ennustettu uusi käyttöaihe Epiglottiksen kasvain (näytön taso L5). Alkuperäinen käyttöaihe: Paksusuolen ja peräsuolen kasvaimet, rintasyöpä…"
 ---
 
 # Bevacizumab

@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 311
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-13
+description: "Ocrelizumab: ennustettu uusi käyttöaihe HER2-positiivinen rintasyöpä (näytön taso L5). Alkuperäinen käyttöaihe: Multippeliskleroosi"
 ---
 
 # Ocrelizumab

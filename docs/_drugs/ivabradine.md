@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 239
 evidence_level: L5
 indication_count: 6
+last_modified_at: 2026-10-13
+description: "Ivabradine: ennustettu uusi käyttöaihe Hypertrikoosi (hypertrichosis) (näytön taso L5). Alkuperäinen käyttöaihe: Angina pectoris"
 ---
 
 # Ivabradine

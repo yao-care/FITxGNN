@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 339
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Pemigatinib: ennustettu uusi käyttöaihe Monirauhasten neoplasia (multiple endocrine neoplasia) (näytön taso L5). Alkuperäinen käyttöaihe: Kolangiokarsinooma (sappitiesyöpä)"
 ---
 
 # Pemigatinib

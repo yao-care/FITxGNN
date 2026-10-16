@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 286
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Methotrexate: ennustettu uusi käyttöaihe Hodgkinin lymfoomaan (valittu näytön perusteella (näytön taso L5). Alkuperäinen käyttöaihe: Psoriaattinen artriitti, akuutti lymfoblastileukemia/lymfooma…"
 ---
 
 # Methotrexate

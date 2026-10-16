@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 295
 evidence_level: L5
 indication_count: 8
+last_modified_at: 2026-10-13
+description: "Moroctocog Alfa: ennustettu uusi käyttöaihe Primaari verihiutaleiden vapautumishäiriö (näytön taso L5). Alkuperäinen käyttöaihe: Hemofilia A"
 ---
 
 # Moroctocog Alfa

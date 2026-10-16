@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 93
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-13
+description: "Cabotegravir: ennustettu uusi käyttöaihe Nivelreuma (näytön taso L5). Alkuperäinen käyttöaihe: HIV-infektio"
 ---
 
 # Cabotegravir

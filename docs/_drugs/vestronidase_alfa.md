@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 469
 evidence_level: L5
 indication_count: 9
+last_modified_at: 2026-10-13
+description: "Vestronidase Alfa: ennustettu uusi käyttöaihe Scheien oireyhtymä (näytön taso L5). Alkuperäinen käyttöaihe: Mukopolysakkaridoosi VII"
 ---
 
 # Vestronidase Alfa

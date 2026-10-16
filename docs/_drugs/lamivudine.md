@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 244
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-13
+description: "Lamivudine: ennustettu uusi käyttöaihe Kissojen hankittu immuunikatooireyhtymä (FIV) (näytön taso L5). Alkuperäinen käyttöaihe: Krooninen hepatiitti B"
 ---
 
 # Lamivudine

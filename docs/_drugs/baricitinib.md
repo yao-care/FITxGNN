@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 68
 evidence_level: L5
 indication_count: 2
+last_modified_at: 2026-10-13
+description: "Baricitinib: ennustettu uusi käyttöaihe Kolobomatoottinen mikroftalmia-rhizomeelinen dysplasiaoireyhtymä (näytön taso L5). Alkuperäinen käyttöaihe: Nivelreuma"
 ---
 
 # Baricitinib

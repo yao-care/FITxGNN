@@ -5,6 +5,8 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 163
 evidence_level: L4
 indication_count: 3
+last_modified_at: 2026-10-13
+description: "Emtricitabine: ennustettu uusi käyttöaihe Kissan hankinnainen immuunipuutosoireyhtymä (FIV) (näytön taso L4). Alkuperäinen käyttöaihe: HIV-infektiot"
 ---
 
 # Emtricitabine

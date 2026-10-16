@@ -5,6 +5,8 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 26
 evidence_level: L4
 indication_count: 7
+last_modified_at: 2026-10-13
+description: "Aliskiren: ennustettu uusi käyttöaihe Keuhkosairauden ja/tai hypoksian aiheuttama keuhkoverenpainetauti (näytön taso L4). Alkuperäinen käyttöaihe: Verenpainetauti"
 ---
 
 # Aliskiren

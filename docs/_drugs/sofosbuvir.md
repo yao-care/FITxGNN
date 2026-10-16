@@ -5,6 +5,8 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 407
 evidence_level: L2
 indication_count: 8
+last_modified_at: 2026-10-13
+description: "Sofosbuvir: ennustettu uusi käyttöaihe Hepatiitti E -virusinfektio (näytön taso L2). Alkuperäinen käyttöaihe: Krooninen C-hepatiitti"
 ---
 
 # Sofosbuvir

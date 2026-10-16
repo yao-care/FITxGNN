@@ -5,6 +5,8 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 436
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Ticagrelor: ennustettu uusi käyttöaihe Kallonsisäinen valtimokovettumatauti (intracranial arteriosclerosis) (näytön taso L2). Alkuperäinen käyttöaihe: Perifeeriset verisuonisairaudet"
 ---
 
 # Ticagrelor

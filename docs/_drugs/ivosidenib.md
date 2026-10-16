@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 240
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-13
+description: "Ivosidenib: ennustettu uusi käyttöaihe Bulbaarinen polio (näytön taso L5). Alkuperäinen käyttöaihe: Akuutti myeloidileukemia"
 ---
 
 # Ivosidenib

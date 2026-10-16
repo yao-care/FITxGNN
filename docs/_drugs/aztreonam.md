@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 66
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Aztreonam: ennustettu uusi käyttöaihe Hyperamylasemia (sijalla 1 (näytön taso L5). Alkuperäinen käyttöaihe: Gramnegatiiviset bakteeri-infektiot, virtsatieinfektiot…"
 ---
 
 # Aztreonam

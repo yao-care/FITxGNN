@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 368
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Rasburicase: ennustettu uusi käyttöaihe Munuaisperäinen hypourikemia (hypouricemia, renal) (näytön taso L5). Alkuperäinen käyttöaihe: Hyperurikemia"
 ---
 
 # Rasburicase

@@ -5,6 +5,8 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 134
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Defibrotide: ennustettu uusi käyttöaihe Pseudo-von Willebrandin tauti (näytön taso L5). Alkuperäinen käyttöaihe: Maksan suonitukostauti (hepaattinen veno-okklusiivinen tauti)"
 ---
 
 # Defibrotide

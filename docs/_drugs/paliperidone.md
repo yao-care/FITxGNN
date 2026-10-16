@@ -5,6 +5,8 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 325
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-13
+description: "Paliperidone: ennustettu uusi käyttöaihe Hoitoresistentti skitsofrenia (ennusteluettelon sijalla 10) (näytön taso L4). Alkuperäinen käyttöaihe: Skitsofrenia"
 ---
 
 # Paliperidone

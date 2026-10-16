@@ -1,6 +1,6 @@
 {
   "generated": "2026-10-16",
-  "drug_count": 469,
+  "drug_count": 445,
   "indication_count": 1304,
   "drugs": [
     {
@@ -114,30 +114,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Abemaciclib",
-      "slug": "abemaciclib",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "Abiraterone Acetate",
-      "slug": "abiraterone-acetate",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "Acalabrutinib",
-      "slug": "acalabrutinib",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Acetylsalicylic Acid",
@@ -760,38 +736,6 @@
       ]
     },
     {
-      "name": "Angiotensin Ii Acetate",
-      "slug": "angiotensin-ii-acetate",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "Anidulafungin",
-      "slug": "anidulafungin",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "Anifrolumab",
-      "slug": "anifrolumab",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "Apalutamide",
-      "slug": "apalutamide",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Apixaban",
       "slug": "apixaban",
       "brands": [],
@@ -804,14 +748,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Apremilast",
-      "slug": "apremilast",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Aprepitant",
@@ -981,22 +917,6 @@
       ]
     },
     {
-      "name": "Artenimol",
-      "slug": "artenimol",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "Artesunate",
-      "slug": "artesunate",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Asenapine",
       "slug": "asenapine",
       "brands": [],
@@ -1054,14 +974,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Asenapine Maleate",
-      "slug": "asenapine-maleate",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Asfotase Alfa",
@@ -1283,22 +1195,6 @@
       ]
     },
     {
-      "name": "Atropine Sulfate",
-      "slug": "atropine-sulfate",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "Avanafil",
-      "slug": "avanafil",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Avapritinib",
       "slug": "avapritinib",
       "brands": [],
@@ -1417,14 +1313,6 @@
       ]
     },
     {
-      "name": "Avatrombopag Maleate",
-      "slug": "avatrombopag-maleate",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Avelumab",
       "slug": "avelumab",
       "brands": [],
@@ -1518,22 +1406,6 @@
       ]
     },
     {
-      "name": "Avibactam Sodium",
-      "slug": "avibactam-sodium",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "Axicabtagene Ciloleucel",
-      "slug": "axicabtagene-ciloleucel",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Axitinib",
       "slug": "axitinib",
       "brands": [],
@@ -1591,14 +1463,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Azacitidine",
-      "slug": "azacitidine",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Azathioprine",
@@ -1660,14 +1524,6 @@
       ]
     },
     {
-      "name": "Azilsartan Medoxomil",
-      "slug": "azilsartan-medoxomil",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Aztreonam",
       "slug": "aztreonam",
       "brands": [],
@@ -1727,14 +1583,6 @@
       ]
     },
     {
-      "name": "Baloxavir Marboxil",
-      "slug": "baloxavir-marboxil",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Baricitinib",
       "slug": "baricitinib",
       "brands": [],
@@ -1752,14 +1600,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Basiliximab",
-      "slug": "basiliximab",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Bedaquiline",
@@ -8668,14 +8508,6 @@
       ]
     },
     {
-      "name": "Lasmiditan Succinate",
-      "slug": "lasmiditan-succinate",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Latanoprost",
       "slug": "latanoprost",
       "brands": [],
@@ -8713,22 +8545,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Lebrikizumab",
-      "slug": "lebrikizumab",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "Lecanemab",
-      "slug": "lecanemab",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Ledipasvir",
@@ -8812,14 +8628,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Lefamulin Acetate",
-      "slug": "lefamulin-acetate",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Leflunomide",

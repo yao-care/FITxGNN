@@ -36,7 +36,7 @@ Jokainen johtopäätös on jäljitettävissä julkiseen tietolähteeseen — mik
 
 Jokaisella lähteellä on oma lisenssinsä — tarkista se ennen viittaamista:
 
-- **TxGNN**: akateeminen käyttö; viittaa julkaisuun Huang et al. (2023)
+- **TxGNN**: akateeminen käyttö; viittaa julkaisuun Huang et al. (2024)
 - **ClinicalTrials.gov / PubMed**: Yhdysvaltain NIH:n julkista dataa
 - **DrugBank**: ei-kaupallinen käyttö lisenssiehtojen mukaisesti
 - **Fimea**: Suomen lääkeviranomaisen avoimen datan ehtojen alainen
@@ -55,7 +55,7 @@ Jokaisella lähteellä on oma lisenssinsä — tarkista se ennen viittaamista:
 
 ## Tieteellinen viittaus
 
-> Huang, K., et al. (2023). A foundation model for clinician-centered drug repurposing. *Nature Medicine*.
+> Huang, K., et al. (2024). A foundation model for clinician-centered drug repurposing. *Nature Medicine*.
 > [DOI: 10.1038/s41591-024-03233-x](https://doi.org/10.1038/s41591-024-03233-x)
 
 ---

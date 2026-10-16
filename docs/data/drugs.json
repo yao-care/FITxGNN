@@ -1,6 +1,6 @@
 {
   "generated": "2026-10-16",
-  "total_count": 469,
+  "total_count": 445,
   "source": "FITxGNN",
   "drugs": [
     {
@@ -32,36 +32,6 @@
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/abatacept/"
-    },
-    {
-      "slug": "abemaciclib",
-      "name": "Abemaciclib",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/abemaciclib/"
-    },
-    {
-      "slug": "abiraterone-acetate",
-      "name": "Abiraterone Acetate",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/abiraterone-acetate/"
-    },
-    {
-      "slug": "acalabrutinib",
-      "name": "Acalabrutinib",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/acalabrutinib/"
     },
     {
       "slug": "acetylsalicylic-acid",
@@ -244,46 +214,6 @@
       "url": "/drugs/andexanet-alfa/"
     },
     {
-      "slug": "angiotensin-ii-acetate",
-      "name": "Angiotensin Ii Acetate",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/angiotensin-ii-acetate/"
-    },
-    {
-      "slug": "anidulafungin",
-      "name": "Anidulafungin",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/anidulafungin/"
-    },
-    {
-      "slug": "anifrolumab",
-      "name": "Anifrolumab",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/anifrolumab/"
-    },
-    {
-      "slug": "apalutamide",
-      "name": "Apalutamide",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/apalutamide/"
-    },
-    {
       "slug": "apixaban",
       "name": "Apixaban",
       "evidence_level": "L4",
@@ -292,16 +222,6 @@
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/apixaban/"
-    },
-    {
-      "slug": "apremilast",
-      "name": "Apremilast",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/apremilast/"
     },
     {
       "slug": "aprepitant",
@@ -334,26 +254,6 @@
       "url": "/drugs/arsenic-trioxide/"
     },
     {
-      "slug": "artenimol",
-      "name": "Artenimol",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/artenimol/"
-    },
-    {
-      "slug": "artesunate",
-      "name": "Artesunate",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/artesunate/"
-    },
-    {
       "slug": "asenapine",
       "name": "Asenapine",
       "evidence_level": "L5",
@@ -362,16 +262,6 @@
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/asenapine/"
-    },
-    {
-      "slug": "asenapine-maleate",
-      "name": "Asenapine Maleate",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/asenapine-maleate/"
     },
     {
       "slug": "asfotase-alfa",
@@ -424,26 +314,6 @@
       "url": "/drugs/atosiban/"
     },
     {
-      "slug": "atropine-sulfate",
-      "name": "Atropine Sulfate",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/atropine-sulfate/"
-    },
-    {
-      "slug": "avanafil",
-      "name": "Avanafil",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/avanafil/"
-    },
-    {
       "slug": "avapritinib",
       "name": "Avapritinib",
       "evidence_level": "L5",
@@ -462,16 +332,6 @@
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/avatrombopag/"
-    },
-    {
-      "slug": "avatrombopag-maleate",
-      "name": "Avatrombopag Maleate",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/avatrombopag-maleate/"
     },
     {
       "slug": "avelumab",
@@ -494,26 +354,6 @@
       "url": "/drugs/avibactam/"
     },
     {
-      "slug": "avibactam-sodium",
-      "name": "Avibactam Sodium",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/avibactam-sodium/"
-    },
-    {
-      "slug": "axicabtagene-ciloleucel",
-      "name": "Axicabtagene Ciloleucel",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/axicabtagene-ciloleucel/"
-    },
-    {
       "slug": "axitinib",
       "name": "Axitinib",
       "evidence_level": "L2",
@@ -522,16 +362,6 @@
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/axitinib/"
-    },
-    {
-      "slug": "azacitidine",
-      "name": "Azacitidine",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/azacitidine/"
     },
     {
       "slug": "azathioprine",
@@ -544,16 +374,6 @@
       "url": "/drugs/azathioprine/"
     },
     {
-      "slug": "azilsartan-medoxomil",
-      "name": "Azilsartan Medoxomil",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/azilsartan-medoxomil/"
-    },
-    {
       "slug": "aztreonam",
       "name": "Aztreonam",
       "evidence_level": "L5",
@@ -564,16 +384,6 @@
       "url": "/drugs/aztreonam/"
     },
     {
-      "slug": "baloxavir-marboxil",
-      "name": "Baloxavir Marboxil",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/baloxavir-marboxil/"
-    },
-    {
       "slug": "baricitinib",
       "name": "Baricitinib",
       "evidence_level": "L5",
@@ -582,16 +392,6 @@
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/baricitinib/"
-    },
-    {
-      "slug": "basiliximab",
-      "name": "Basiliximab",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/basiliximab/"
     },
     {
       "slug": "bedaquiline",
@@ -2384,16 +2184,6 @@
       "url": "/drugs/lasmiditan/"
     },
     {
-      "slug": "lasmiditan-succinate",
-      "name": "Lasmiditan Succinate",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/lasmiditan-succinate/"
-    },
-    {
       "slug": "latanoprost",
       "name": "Latanoprost",
       "evidence_level": "L4",
@@ -2402,26 +2192,6 @@
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/latanoprost/"
-    },
-    {
-      "slug": "lebrikizumab",
-      "name": "Lebrikizumab",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/lebrikizumab/"
-    },
-    {
-      "slug": "lecanemab",
-      "name": "Lecanemab",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/lecanemab/"
     },
     {
       "slug": "ledipasvir",
@@ -2442,16 +2212,6 @@
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/lefamulin/"
-    },
-    {
-      "slug": "lefamulin-acetate",
-      "name": "Lefamulin Acetate",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/lefamulin-acetate/"
     },
     {
       "slug": "leflunomide",

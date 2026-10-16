@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-13
 description: "Moroctocog Alfa: ennustettu uusi käyttöaihe Primaari verihiutaleiden vapautumishäiriö (näytön taso L5). Alkuperäinen käyttöaihe: Hemofilia A"
+monitor_inn: "MOROCTOCOG ALFA"
+predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "acquired coagulation factor deficiency", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency"]
 ---
 
 # Moroctocog Alfa

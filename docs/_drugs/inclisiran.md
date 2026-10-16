@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Inclisiran: ennustettu uusi käyttöaihe Kaliumin puutostila (potassium deficiency disease) (näytön taso L5). Alkuperäinen käyttöaihe: Hyperkolesterolemia"
+monitor_inn: "INCLISIRAN"
+predicted_indications: ["potassium deficiency disease", "esophageal disease", "atypical coarctation of aorta", "migraine disorder", "non-syndromic esophageal malformation", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "aortic malformation", "esophageal ulcer", "Raynaud disease"]
 ---
 
 # Inclisiran

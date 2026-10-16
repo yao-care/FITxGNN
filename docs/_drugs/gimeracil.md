@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Gimeracil: ennustettu uusi käyttöaihe Paksusuolen kasvain (colonic neoplasm) (näytön taso L1). Alkuperäinen käyttöaihe: Mahasyöpä (Stomach Neoplasms)"
+monitor_inn: "GIMERACIL"
+predicted_indications: ["colonic neoplasm", "cecum villous adenoma", "malignant gastric granular cell tumor", "lipoma of colon", "cecum neuroendocrine tumor G1", "rectosigmoid junction neoplasm", "cardia cancer", "colonic lymphangioma", "colon leiomyoma", "gastric lymphoma"]
 ---
 
 # Gimeracil

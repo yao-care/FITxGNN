@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Lapatinib: ennustettu uusi käyttöaihe Dermatofibrosarkooma protuberans (näytön taso L5). Alkuperäinen käyttöaihe: Rintasyöpä (Breast Neoplasms)"
+monitor_inn: "LAPATINIB"
+predicted_indications: ["dermatofibrosarcoma protuberans"]
 ---
 
 # Lapatinib

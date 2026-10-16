@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-13
 description: "Spironolactone: ennustettu uusi käyttöaihe Hiuspohjan hypotrichosis simplex (näytön taso L5). Alkuperäinen käyttöaihe: Turvotus, sydämen vajaatoiminta, maksakirroosi, askites…"
+monitor_inn: "SPIRONOLACTONE"
+predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
 ---
 
 # Spironolactone

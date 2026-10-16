@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Diroximel Fumarate: ennustettu uusi käyttöaihe Diabeettinen kaihi (näytön taso L5). Alkuperäinen käyttöaihe: Relapsoiva-remittoiva multippeliskleroosi"
+monitor_inn: "DIROXIMEL FUMARATE"
+predicted_indications: ["diabetic cataract", "diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "tetanic cataract", "immature cataract", "cortical cataract", "nuclear senile cataract", "craniostenosis cataract", "diabetes mellitus type 2 associated cataract", "mature cataract"]
 ---
 
 # Diroximel Fumarate

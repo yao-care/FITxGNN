@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-13
 description: "Upadacitinib: ennustettu uusi käyttöaihe Kolobomatoottinen mikroftalmia-rhizomeelinen dysplasiaoireyhtymä (näytön taso L5). Alkuperäinen käyttöaihe: Nivelreuma"
+monitor_inn: "UPADACITINIB"
+predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
 ---
 
 # Upadacitinib

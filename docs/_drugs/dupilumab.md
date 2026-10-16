@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Dupilumab: ennustettu uusi käyttöaihe Keuhkoputkentulehdus (bronchitis) (näytön taso L2). Alkuperäinen käyttöaihe: Atooppinen ihottuma, prurigo, ruokatorven sairaudet, astma…"
+monitor_inn: "DUPILUMAB"
+predicted_indications: ["bronchitis", "dermatitis", "acne keloid", "exanthem (disease)", "neonatal dermatomyositis", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy"]
 ---
 
 # Dupilumab

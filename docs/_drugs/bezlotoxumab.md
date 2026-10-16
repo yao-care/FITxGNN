@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Bezlotoxumab: ennustettu uusi käyttöaihe Akuutti naisen lantion peritoniitti (näytön taso L5). Alkuperäinen käyttöaihe: Pseudomembranoottinen enterokoliitti"
+monitor_inn: "BEZLOTOXUMAB"
+predicted_indications: ["acute female pelvic peritonitis", "embryonic cyst of fallopian tube", "tubal pregnancy", "salpingitis isthmica nodosa", "disease of uterine broad ligament", "lumbar spinal stenosis", "abdominal cystic lymphangioma", "abdominal ectopic pregnancy", "celiac trunk compression syndrome", "pelvic varices"]
 ---
 
 # Bezlotoxumab

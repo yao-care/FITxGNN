@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 6
 last_modified_at: 2026-10-13
 description: "Desloratadine: ennustettu uusi käyttöaihe Kylmäurtikaria (näytön taso L1). Alkuperäinen käyttöaihe: Ympärivuotinen allerginen nuha, urtikaria…"
+monitor_inn: "DESLORATADINE"
+predicted_indications: ["cold urticaria", "nasal cavity disease", "acute laryngopharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "rosacea conjunctivitis"]
 ---
 
 # Desloratadine

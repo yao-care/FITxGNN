@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-13
 description: "Phenylephrine: ennustettu uusi käyttöaihe Nenäontelon sairaus (näytön taso L4). Alkuperäinen käyttöaihe: Silmänsisäinen linssi-implantaatio"
+monitor_inn: "PHENYLEPHRINE"
+predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia"]
 ---
 
 # Phenylephrine

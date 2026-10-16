@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-13
 description: "Tezacaftor: ennustettu uusi käyttöaihe HIV-infektio (HIV infectious disease) (näytön taso L5). Alkuperäinen käyttöaihe: Kystinen fibroosi"
+monitor_inn: "TEZACAFTOR"
+predicted_indications: ["HIV infectious disease", "leprosy", "multiple endocrine neoplasia"]
 ---
 
 # Tezacaftor

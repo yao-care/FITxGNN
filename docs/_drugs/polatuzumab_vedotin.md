@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Polatuzumab Vedotin: ennustettu uusi käyttöaihe HER2-positiivinen rintasyöpä (näytön taso L5). Alkuperäinen käyttöaihe: B-solulymfooma"
+monitor_inn: "POLATUZUMAB VEDOTIN"
+predicted_indications: ["HER2 positive breast carcinoma"]
 ---
 
 # Polatuzumab Vedotin

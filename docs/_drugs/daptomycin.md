@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Daptomycin: ennustettu uusi käyttöaihe Nivelrikko (osteoartriitti) (näytön taso L4). Alkuperäinen käyttöaihe: Gram-positiiviset bakteeri-infektiot, bakteremia…"
+monitor_inn: "DAPTOMYCIN"
+predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "osteoarthritis susceptibility", "gout", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome"]
 ---
 
 # Daptomycin

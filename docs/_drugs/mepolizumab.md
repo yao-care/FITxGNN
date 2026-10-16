@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 5
 last_modified_at: 2026-10-13
 description: "Mepolizumab: ennustettu uusi käyttöaihe Immuunituhoon liittyvä trombosytopenia (thrombocytopenia due to immun… (näytön taso L4). Alkuperäinen käyttöaihe: Astma"
+monitor_inn: "MEPOLIZUMAB"
+predicted_indications: ["thrombocytopenia due to immune destruction", "primary release disorder of platelets", "pseudo-von Willebrand disease", "autoimmune thrombocytopenic", "Glanzmann thrombasthenia"]
 ---
 
 # Mepolizumab

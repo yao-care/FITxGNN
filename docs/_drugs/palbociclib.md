@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-13
 description: "Palbociclib: ennustettu uusi käyttöaihe Kilpirauhasen liikatoiminta (näytön taso L5). Alkuperäinen käyttöaihe: Rintasyöpä (Breast Neoplasms)"
+monitor_inn: "PALBOCICLIB"
+predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic disease", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"]
 ---
 
 # Palbociclib

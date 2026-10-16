@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Tipiracil: ennustettu uusi käyttöaihe Umpisuolen karvainen adenooma (cecum villous adenoma) (näytön taso L5). Alkuperäinen käyttöaihe: Kolorektaalisyöpä (paksu- ja peräsuolen kasvaimet)"
+monitor_inn: "Tipiracil"
+predicted_indications: ["cecum villous adenoma", "lipoma of colon", "rectosigmoid junction neoplasm", "cecum neuroendocrine tumor G1", "colonic lymphangioma", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "cavernous hemangioma of colon", "colorectal gastrointestinal stromal tumor"]
 ---
 
 # Tipiracil

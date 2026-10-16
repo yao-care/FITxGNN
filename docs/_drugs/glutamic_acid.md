@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 4
 last_modified_at: 2026-10-13
 description: "Glutamic Acid: ennustettu uusi käyttöaihe Postmenopausaalinen osteoporoosi (näytön taso L4). Alkuperäinen käyttöaihe: Vaahterasiirappitauti (Maple Syrup Urine Disease)"
+monitor_inn: "glutamic acid"
+predicted_indications: ["postmenopausal osteoporosis", "pregnancy associated osteoporosis", "primary hereditary glaucoma", "gastroparesis (disease)"]
 ---
 
 # Glutamic Acid

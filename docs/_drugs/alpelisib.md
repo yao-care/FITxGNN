@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Alpelisib: ennustettu uusi käyttöaihe Keuhkoverenpainetauti (pulmonary hypertension) (näytön taso L5). Alkuperäinen käyttöaihe: Rintasyöpä"
+monitor_inn: "ALPELISIB"
+predicted_indications: ["pulmonary hypertension"]
 ---
 
 # Alpelisib

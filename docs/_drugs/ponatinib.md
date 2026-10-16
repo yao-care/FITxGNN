@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-13
 description: "Ponatinib: ennustettu uusi käyttöaihe Ienkasvun fibromatoosi (fibromatosis, gingival) (näytön taso L5). Alkuperäinen käyttöaihe: Myeloinen leukemia ja lymfaattinen leukemia"
+monitor_inn: "PONATINIB"
+predicted_indications: ["fibromatosis, gingival", "liposarcoma"]
 ---
 
 # Ponatinib

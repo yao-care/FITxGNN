@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Treprostinil: ennustettu uusi käyttöaihe Sidekudossairauteen liittyvä keuhkovaltimoverenpainetauti (valittu va… (näytön taso L3). Alkuperäinen käyttöaihe: Keuhkoverenpainetauti (pulmonaalihypertensio)"
+monitor_inn: "Treprostinil"
+predicted_indications: ["pulmonary arteriovenous malformation (disease)", "pulmonary arterial hypertension associated with congenital heart disease", "pulmonary arterial hypertension associated with chronic hemolytic anemia", "pulmonary arterial hypertension associated with schistosomiasis", "pulmonary arterial hypertension associated with HIV infection", "pulmonary arterial hypertension associated with connective tissue disease", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita"]
 ---
 
 # Treprostinil

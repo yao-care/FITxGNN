@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-13
 description: "Memantine: ennustettu uusi käyttöaihe Migreeni (migraine disorder) (näytön taso L5). Alkuperäinen käyttöaihe: Alzheimerin tauti"
+monitor_inn: "MEMANTINE"
+predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
 ---
 
 # Memantine

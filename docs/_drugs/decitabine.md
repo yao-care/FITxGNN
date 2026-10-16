@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Decitabine: ennustettu uusi käyttöaihe Lapsuusiän refraktaarinen sytopenia (RCC) (näytön taso L4). Alkuperäinen käyttöaihe: Myeloinen leukemia"
+monitor_inn: "DECITABINE"
+predicted_indications: ["refractory cytopenia of childhood"]
 ---
 
 # Decitabine

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-13
 description: "Oritavancin: ennustettu uusi käyttöaihe Bacteroidaceae-infektio (näytön taso L5). Alkuperäinen käyttöaihe: Pehmytkudosinfektiot"
+monitor_inn: "ORITAVANCIN"
+predicted_indications: ["Bacteroidaceae infectious disease", "ophthalmic herpes zoster", "Mycoplasma pneumoniae pneumonia"]
 ---
 
 # Oritavancin

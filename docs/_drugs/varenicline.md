@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Varenicline: ennustettu uusi käyttöaihe Migreeni (migraine disorder) (näytön taso L5). Alkuperäinen käyttöaihe: Tupakoinnin lopettaminen"
+monitor_inn: "VARENICLINE"
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "congenital hypotrichosis milia", "hypotrichosis simplex of the scalp", "diffuse alopecia areata", "alopecia", "open-angle glaucoma", "primary hereditary glaucoma", "headache disorder", "pulmonary hypertension"]
 ---
 
 # Varenicline

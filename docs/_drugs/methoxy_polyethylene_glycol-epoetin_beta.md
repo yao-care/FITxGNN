@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-13
 description: "Methoxy Polyethylene Glycol-Epoetin Beta: ennustettu uusi käyttöaihe Verihiutaleiden primaarinen vapautumishäiriö (näytön taso L5). Alkuperäinen käyttöaihe: Anemia"
+monitor_inn: "METHOXY POLYETHYLENE GLYCOL-EPOETIN BETA"
+predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "pseudo-von Willebrand disease", "severe nonproliferative diabetic retinopathy", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
 ---
 
 # Methoxy Polyethylene Glycol-Epoetin Beta

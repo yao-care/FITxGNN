@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-13
 description: "Regadenoson: ennustettu uusi käyttöaihe Anafylaksia (näytön taso L5). Alkuperäinen käyttöaihe: Sydänlihaksen perfuusiokuvantaminen"
+monitor_inn: "REGADENOSON"
+predicted_indications: ["anaphylaxis", "food-dependent exercise-induced anaphylaxis", "esotropia", "pseudoallergy"]
 ---
 
 # Regadenoson

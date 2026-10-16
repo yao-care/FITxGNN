@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Niraparib: ennustettu uusi käyttöaihe Kystinen neoplasia (cystic neoplasm) (näytön taso L3). Alkuperäinen käyttöaihe: Munanjohtimen, vatsakalvon ja munasarjan kasvaimet"
+monitor_inn: "NIRAPARIB"
+predicted_indications: ["epiglottis neoplasm", "cystic neoplasm", "benign neoplasm of hypopharynx", "benign neoplasm of tongue", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "tumor of testis and paratestis", "inner ear neoplasm", "pre-malignant neoplasm", "schwannoma of jugular foramen"]
 ---
 
 # Niraparib

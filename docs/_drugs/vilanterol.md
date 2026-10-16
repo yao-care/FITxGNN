@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Vilanterol: ennustettu uusi käyttöaihe Obstruktiivinen keuhkosairaus (näytön taso L1). Alkuperäinen käyttöaihe: Krooninen keuhkoahtaumatauti (COPD)"
+monitor_inn: "VILANTEROL"
+predicted_indications: ["obstructive lung disease", "interstitial emphysema", "hyperlucent lung", "compensatory emphysema", "tracheal stenosis", "bronchial neoplasm (disease)", "congenital lobar emphysema", "respiratory malformation", "tracheal calcification", "laryngotracheitis"]
 ---
 
 # Vilanterol

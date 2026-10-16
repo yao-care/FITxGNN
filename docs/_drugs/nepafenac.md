@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Nepafenac: ennustettu uusi käyttöaihe Silmäsairaus (eye disease) (näytön taso L5). Alkuperäinen käyttöaihe: Leikkauksen jälkeinen kipu"
+monitor_inn: "NEPAFENAC"
+predicted_indications: ["eye disease", "optic papillitis", "hypotrichosis simplex of the scalp", "seborrheic keratosis", "von Hippel anomaly", "congenital hypotrichosis milia", "mcpherson robertson cammarano syndrome", "lagophthalmos", "vulvar inverted follicular keratosis", "vitreous detachment"]
 ---
 
 # Nepafenac

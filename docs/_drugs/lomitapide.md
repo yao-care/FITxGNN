@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Lomitapide: ennustettu uusi käyttöaihe Hyperlipoproteinemia (TxGNN-sijoitus 9 (näytön taso L1). Alkuperäinen käyttöaihe: Hyperkolesterolemia"
+monitor_inn: "LOMITAPIDE"
+predicted_indications: ["marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "dense granule disease", "transient neonatal thrombocytopenia", "thrombocytopenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "hyperlipoproteinemia", "platelet storage pool deficiency"]
 ---
 
 # Lomitapide

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-13
 description: "Carfilzomib: ennustettu uusi käyttöaihe Melanooma (ennusteen sijoitus 5 (näytön taso L5). Alkuperäinen käyttöaihe: Multippeli myelooma"
+monitor_inn: "CARFILZOMIB"
+predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "vulvar melanoma (disease)", "melanoma"]
 ---
 
 # Carfilzomib

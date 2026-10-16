@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Lanadelumab: ennustettu uusi käyttöaihe C1-estäjän puutos (näytön taso L1). Alkuperäinen käyttöaihe: Perinnöllinen angioedeema"
+monitor_inn: "LANADELUMAB"
+predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "pancreatitis", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "Glanzmann thrombasthenia", "antisynthetase syndrome", "focal myositis", "Scott syndrome"]
 ---
 
 # Lanadelumab

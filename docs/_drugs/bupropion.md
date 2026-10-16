@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Bupropion: ennustettu uusi käyttöaihe Aktiivisuus- ja tarkkaavuushäiriö (ADHD) (näytön taso L1). Alkuperäinen käyttöaihe: Lihavuus ja ylipaino"
+monitor_inn: "Bupropion"
+predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "benign paroxysmal torticollis of infancy", "trigeminal nerve neoplasm", "obsolete hypertelorism (disease)"]
 ---
 
 # Bupropion

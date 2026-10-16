@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-13
 description: "Interferon Beta-1B: ennustettu uusi käyttöaihe Harvinaissoluleukemia (hairy cell leukemia) (näytön taso L5). Alkuperäinen käyttöaihe: Multippeliskleroosi"
+monitor_inn: "INTERFERON BETA-1B"
+predicted_indications: ["hairy cell leukemia", "autoimmune disease of central nervous system"]
 ---
 
 # Interferon Beta-1B

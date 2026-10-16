@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-13
 description: "Octreotide: ennustettu uusi käyttöaihe Vulvan käänteinen follikulaarinen keratoosi (näytön taso L5). Alkuperäinen käyttöaihe: Akromegalia"
+monitor_inn: "Octreotide"
+predicted_indications: ["vulvar inverted follicular keratosis", "seborrheic keratosis"]
 ---
 
 # Octreotide

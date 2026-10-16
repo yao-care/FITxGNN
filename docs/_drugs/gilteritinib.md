@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Gilteritinib: ennustettu uusi käyttöaihe Bulbaarinen polio (näytön taso L5). Alkuperäinen käyttöaihe: Akuutti myeloidinen leukemia"
+monitor_inn: "Gilteritinib"
+predicted_indications: ["bulbar polio"]
 ---
 
 # Gilteritinib

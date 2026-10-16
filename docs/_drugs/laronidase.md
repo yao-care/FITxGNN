@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-13
 description: "Laronidase: ennustettu uusi käyttöaihe Luustoon liittyvä lysosomaalinen kertymäsairaus (näytön taso L4). Alkuperäinen käyttöaihe: Mukopolysakkaridoosi I"
+monitor_inn: "LARONIDASE"
+predicted_indications: ["lysosomal storage disease with skeletal involvement", "Sanfilippo syndrome"]
 ---
 
 # Laronidase

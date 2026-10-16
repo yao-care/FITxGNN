@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Micafungin: ennustettu uusi käyttöaihe Virtsatieinfektio (näytön taso L3). Alkuperäinen käyttöaihe: Kandidiaasi"
+monitor_inn: "MICAFUNGIN"
+predicted_indications: ["urinary tract infection (disease)"]
 ---
 
 # Micafungin

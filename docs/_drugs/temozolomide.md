@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 2
 last_modified_at: 2026-10-13
 description: "Temozolomide: ennustettu uusi käyttöaihe Aikuisten astrosyyttinen kasvain (näytön taso L1). Alkuperäinen käyttöaihe: Gliooma"
+monitor_inn: "TEMOZOLOMIDE"
+predicted_indications: ["adult astrocytic tumour", "cauda equina neoplasm"]
 ---
 
 # Temozolomide

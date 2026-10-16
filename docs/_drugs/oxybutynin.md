@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-13
 description: "Oxybutynin: ennustettu uusi käyttöaihe Levottomien jalkojen oireyhtymä (restless legs syndrome) (näytön taso L5). Alkuperäinen käyttöaihe: Pakkotihentymisinkontinenssi (urge-inkontinenssi)"
+monitor_inn: "OXYBUTYNIN"
+predicted_indications: ["restless legs syndrome", "gastroduodenitis", "peptic ulcer disease"]
 ---
 
 # Oxybutynin

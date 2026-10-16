@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Trabectedin: ennustettu uusi käyttöaihe Naispuolinen rintasyöpä (näytön taso L2). Alkuperäinen käyttöaihe: Sarkooma"
+monitor_inn: "TRABECTEDIN"
+predicted_indications: ["female breast carcinoma"]
 ---
 
 # Trabectedin

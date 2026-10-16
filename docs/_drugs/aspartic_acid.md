@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Aspartic Acid: ennustettu uusi käyttöaihe Munuaistiehyeiden asidoosi (renal tubular acidosis) (näytön taso L5). Alkuperäinen käyttöaihe: Vaahterasiirappitauti (Maple Syrup Urine Disease)"
+monitor_inn: "aspartic acid"
+predicted_indications: ["renal tubular acidosis"]
 ---
 
 # Aspartic Acid

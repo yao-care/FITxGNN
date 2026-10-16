@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Anakinra: ennustettu uusi käyttöaihe Autosomaalisesti resessiivinen familiaalinen Välimeren kuume (näytön taso L3). Alkuperäinen käyttöaihe: Nivelreuma"
+monitor_inn: "ANAKINRA"
+predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "autosomal recessive familial Mediterranean fever", "aggressive systemic mastocytosis", "hepatic veno-occlusive disease", "peliosis hepatis", "oligoarticular juvenile idiopathic arthritis without anti-nuclear antibodies", "oligoarticular juvenile idiopathic arthritis with anti-nuclear antibodies", "pyogenic autoinflammatory syndrome", "unclassified autoinflammatory syndrome"]
 ---
 
 # Anakinra

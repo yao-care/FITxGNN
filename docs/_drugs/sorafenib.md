@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Sorafenib: ennustettu uusi käyttöaihe Liposarkooma (näytön taso L2). Alkuperäinen käyttöaihe: Maksasolusyöpä"
+monitor_inn: "SORAFENIB"
+predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "renal cell carcinoma associated with neuroblastoma", "unclassified renal cell carcinoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "childhood kidney cell carcinoma", "female breast carcinoma", "renal pelvis carcinoma", "vulva sarcoma", "dermatofibrosarcoma protuberans"]
 ---
 
 # Sorafenib

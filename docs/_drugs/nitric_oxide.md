@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Nitric Oxide: ennustettu uusi käyttöaihe Epämuodostumaoireyhtymä… (näytön taso L2). Alkuperäinen käyttöaihe: Keuhkoverenpainetauti"
+monitor_inn: "NITRIC OXIDE"
+predicted_indications: ["malformation syndrome with odontal and/or periodontal component", "hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "pulmonary arteriovenous malformation (disease)", "pulmonary arterial hypertension", "pulmonary arterial hypertension associated with congenital heart disease", "pulmonary arterial hypertension associated with connective tissue disease", "pulmonary arterial hypertension associated with chronic hemolytic anemia"]
 ---
 
 # Nitric Oxide

@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Tipranavir: ennustettu uusi käyttöaihe Kissan hankinnainen immuunipuutosoireyhtymä (feline acquired immunode… (näytön taso L4). Alkuperäinen käyttöaihe: HIV-infektiot"
+monitor_inn: "TIPRANAVIR"
+predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "AIDS related complex", "congenital human immunodeficiency virus", "fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "benign prostate phyllodes tumor"]
 ---
 
 # Tipranavir

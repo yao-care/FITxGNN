@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Enoxaparin: ennustettu uusi käyttöaihe Proteiini C:n puutteesta johtuva tromboofilia… (näytön taso L5). Alkuperäinen käyttöaihe: Laskimotromboembolia"
+monitor_inn: "Enoxaparin"
+predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive"]
 ---
 
 # Enoxaparin

@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Teriflunomide: ennustettu uusi käyttöaihe Relapsoiva-remittoiva multippeliskleroosi (näytön taso L1). Alkuperäinen käyttöaihe: Relapsoiva-remittoiva multippeliskleroosi"
+monitor_inn: "TERIFLUNOMIDE"
+predicted_indications: ["relapsing-remitting multiple sclerosis"]
 ---
 
 # Teriflunomide

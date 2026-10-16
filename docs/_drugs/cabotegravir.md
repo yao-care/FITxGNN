@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-13
 description: "Cabotegravir: ennustettu uusi käyttöaihe Nivelreuma (näytön taso L5). Alkuperäinen käyttöaihe: HIV-infektio"
+monitor_inn: "CABOTEGRAVIR"
+predicted_indications: ["rheumatoid arthritis", "sclerosing cholangitis", "bronchitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "severe nonproliferative diabetic retinopathy"]
 ---
 
 # Cabotegravir

@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Eltrombopag: ennustettu uusi käyttöaihe HIV-infektiotauti (näytön taso L3). Alkuperäinen käyttöaihe: Idiopaattinen trombosytopeeninen purppura"
+monitor_inn: "ELTROMBOPAG"
+predicted_indications: ["HIV infectious disease"]
 ---
 
 # Eltrombopag

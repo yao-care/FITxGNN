@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Parathyroid Hormone: ennustettu uusi käyttöaihe Migreenihäiriö (migraine disorder) (näytön taso L4). Alkuperäinen käyttöaihe: Hypoparatyreoosi"
+monitor_inn: "PARATHYROID HORMONE"
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "amenorrhea (disease)", "Raynaud disease", "non-syndromic esophageal malformation", "migraine with or without aura, susceptibility to", "esophageal disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "erectile dysfunction (disease)"]
 ---
 
 # Parathyroid Hormone

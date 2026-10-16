@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-13
 description: "Ertapenem: ennustettu uusi käyttöaihe Bakteeriniveltulehdus (vaihtoehtoinen ennuste: Staphylococcus aureus… (näytön taso L5). Alkuperäinen käyttöaihe: Bakteeri-infektiot"
+monitor_inn: "Ertapenem"
+predicted_indications: ["bacterial arthritis", "staphylococcus aureus infection"]
 ---
 
 # Ertapenem

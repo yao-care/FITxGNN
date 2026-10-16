@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-13
 description: "Regorafenib: ennustettu uusi käyttöaihe Liposarkoomaan (näytön taso L5). Alkuperäinen käyttöaihe: Kolorektaalisyöpä (paksu- ja peräsuolen syöpä)"
+monitor_inn: "REGORAFENIB"
+predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "clear cell renal carcinoma", "renal cell carcinoma associated with neuroblastoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "unclassified renal cell carcinoma", "childhood kidney cell carcinoma", "vulva sarcoma"]
 ---
 
 # Regorafenib

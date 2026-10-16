@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-13
 description: "Clopidogrel: ennustettu uusi käyttöaihe Migreeni, johon liittyy aivorunkoaura (sijalla 2: migreenihäiriö) (näytön taso L5). Alkuperäinen käyttöaihe: Perifeeriset verisuonisairaudet, aivohalvaus…"
+monitor_inn: "CLOPIDOGREL"
+predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "rheumatoid arthritis", "osteoarthritis susceptibility"]
 ---
 
 # Clopidogrel

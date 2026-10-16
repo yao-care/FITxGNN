@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-13
 description: "Tenofovir Alafenamide: ennustettu uusi käyttöaihe Simiaani-immuunikatovirusinfektio (SIV) (näytön taso L4). Alkuperäinen käyttöaihe: Hepatiitti B (HIV-infektio muissa valmisteissa)"
+monitor_inn: "TENOFOVIR ALAFENAMIDE"
+predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 ---
 
 # Tenofovir Alafenamide

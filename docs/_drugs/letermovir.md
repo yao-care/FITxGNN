@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Letermovir: ennustettu uusi käyttöaihe Vulvovaginaalinen kandidiaasi (näytön taso L5). Alkuperäinen käyttöaihe: Sytomegalovirusinfektiot"
+monitor_inn: "LETERMOVIR"
+predicted_indications: ["vulvovaginal candidiasis"]
 ---
 
 # Letermovir

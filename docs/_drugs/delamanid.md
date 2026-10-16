@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 7
 last_modified_at: 2026-10-13
 description: "Delamanid: ennustettu uusi käyttöaihe Inaktiivinen tuberkuloosi (ennustettu uusi käyttöaihe… (näytön taso L2). Alkuperäinen käyttöaihe: Monilääkeresistentti tuberkuloosi"
+monitor_inn: "DELAMANID"
+predicted_indications: ["tuberculosis, bovine", "inactive tuberculosis", "tuberculosis, avian", "tuberculoma", "tuberculous ascites", "allergic urticaria", "cutaneous tuberculosis"]
 ---
 
 # Delamanid

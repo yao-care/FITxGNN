@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Tasimelteon: ennustettu uusi käyttöaihe Bilateraalinen parasagittaalinen parieto-oksipitaalinen polymikrogyria (näytön taso L5). Alkuperäinen käyttöaihe: Vuorokausirytmin unihäiriöt"
+monitor_inn: "TASIMELTEON"
+predicted_indications: ["bilateral parasagittal parieto-occipital polymicrogyria", "insomnia (disease)", "amyotrophic lateral sclerosis", "endogenous depression", "axial spondylometaphyseal dysplasia", "monomelic amyotrophy", "amyotrophic lateral sclerosis, susceptibility to", "lower motor neuron syndrome with late-adult onset", "Mills syndrome", "amyotrohpic lateral sclerosis type 22"]
 ---
 
 # Tasimelteon

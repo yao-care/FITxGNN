@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Eptinezumab: ennustettu uusi käyttöaihe Aivorunkoauraan liittyvä migreeni (näytön taso L4). Alkuperäinen käyttöaihe: Migreeni"
+monitor_inn: "EPTINEZUMAB"
+predicted_indications: ["migraine with brainstem aura"]
 ---
 
 # Eptinezumab

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Idebenone: ennustettu uusi käyttöaihe Maksaporfyria (näytön taso L5). Alkuperäinen käyttöaihe: Leberin perinnöllinen näköhermon surkastuma"
+monitor_inn: "IDEBENONE"
+predicted_indications: ["hepatic porphyria", "idiopathic copper-associated cirrhosis", "primitive portal vein thrombosis", "hepatoportal sclerosis", "hepatopulmonary syndrome", "early-onset familial noncirrhotic portal hypertension", "immune-mediated necrotizing myopathy", "osteogenesis imperfecta-retinopathy-seizures-intellectual disability syndrome", "antisynthetase syndrome", "focal myositis"]
 ---
 
 # Idebenone

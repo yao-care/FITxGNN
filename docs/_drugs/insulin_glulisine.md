@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Insulin Glulisine: ennustettu uusi käyttöaihe Tyypin 1 diabetes mellitus (näytön taso L1). Alkuperäinen käyttöaihe: Diabetes mellitus"
+monitor_inn: "INSULIN GLULISINE"
+predicted_indications: ["type 1 diabetes mellitus", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "focal stiff limb syndrome", "classic stiff person syndrome", "autoimmune oophoritis", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
 ---
 
 # Insulin Glulisine

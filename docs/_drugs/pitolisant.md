@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-13
 description: "Pitolisant: ennustettu uusi käyttöaihe Unettomuus (insomnia) (näytön taso L5). Alkuperäinen käyttöaihe: Obstruktiivinen uniapnea (Ozawade)"
+monitor_inn: "PITOLISANT"
+predicted_indications: ["insomnia (disease)", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome"]
 ---
 
 # Pitolisant

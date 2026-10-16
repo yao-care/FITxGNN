@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Vandetanib: ennustettu uusi käyttöaihe Munuaissolukarsinooma (näytön taso L5). Alkuperäinen käyttöaihe: Kilpirauhasen kasvaimet"
+monitor_inn: "VANDETANIB"
+predicted_indications: ["renal cell carcinoma (disease)", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal cell carcinoma associated with neuroblastoma", "unclassified renal cell carcinoma", "renal pelvis carcinoma", "clear cell renal carcinoma", "childhood kidney cell carcinoma", "renal carcinoma", "angiolipoma", "familial spontaneous pneumothorax"]
 ---
 
 # Vandetanib

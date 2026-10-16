@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-13
 description: "Ferric Maltol: ennustettu uusi käyttöaihe Plummer-Vinsonin oireyhtymä (näytön taso L5). Alkuperäinen käyttöaihe: Raudanpuuteanemia"
+monitor_inn: "FERRIC MALTOL"
+predicted_indications: ["Plummer-Vinson syndrome", "vitamin B12- and folate-independent constitutional megaloblastic anemia", "IRIDA syndrome"]
 ---
 
 # Ferric Maltol

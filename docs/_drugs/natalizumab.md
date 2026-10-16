@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-13
 description: "Natalizumab: ennustettu uusi käyttöaihe Keuhkoputkentulehdus (bronchitis) (näytön taso L5). Alkuperäinen käyttöaihe: Aaltoileva multippeliskleroosi (relapsoiva-remittoiva MS) ja multippe…"
+monitor_inn: "NATALIZUMAB"
+predicted_indications: ["bronchitis", "parapsoriasis", "psoriasis", "severe nonproliferative diabetic retinopathy", "acute lichenoid pityriasis"]
 ---
 
 # Natalizumab

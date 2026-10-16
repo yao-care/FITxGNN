@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-13
 description: "Fentanyl: ennustettu uusi käyttöaihe Nefrogeeninen antidiureesioireyhtymä (nephrogenic syndrome of inappro… (näytön taso L5). Alkuperäinen käyttöaihe: Kipu"
+monitor_inn: "FENTANYL"
+predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
 ---
 
 # Fentanyl

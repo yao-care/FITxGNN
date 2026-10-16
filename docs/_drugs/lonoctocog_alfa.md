@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-13
 description: "Lonoctocog Alfa: ennustettu uusi käyttöaihe Pseudo-von Willebrandin tauti (verihiutaletyyppinen VWD) (näytön taso L5). Alkuperäinen käyttöaihe: Hemofilia A"
+monitor_inn: "LONOCTOCOG ALFA"
+predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome"]
 ---
 
 # Lonoctocog Alfa

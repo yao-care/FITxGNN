@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Entecavir: ennustettu uusi käyttöaihe Krooninen hepatiitti C -virusinfektio (näytön taso L3). Alkuperäinen käyttöaihe: Hepatiitti B"
+monitor_inn: "ENTECAVIR"
+predicted_indications: ["chronic hepatitis C virus infection", "hepatitis B virus infection", "HIV infectious disease", "hepatitis C virus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hepatitis, viral, animal", "hepatitis E virus infection", "hepatitis A virus infection"]
 ---
 
 # Entecavir

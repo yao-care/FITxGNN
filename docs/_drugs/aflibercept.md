@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Aflibercept: ennustettu uusi käyttöaihe Esotropia (näytön taso L5). Alkuperäinen käyttöaihe: Kostea silmänpohjan ikärappeuma, makulaturvotus…"
+monitor_inn: "AFLIBERCEPT"
+predicted_indications: ["esotropia"]
 ---
 
 # Aflibercept

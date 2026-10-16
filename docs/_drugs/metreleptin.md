@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Metreleptin: ennustettu uusi käyttöaihe Familiaalinen yleistynyt lentiginoosi (näytön taso L5). Alkuperäinen käyttöaihe: Familiaalinen osittainen lipodystrofia"
+monitor_inn: "METRELEPTIN"
+predicted_indications: ["familial generalized lentiginosis", "gastrocutaneous syndrome", "Moynahan syndrome", "rhabdoid tumor", "osteopathia striata-pigmentary dermopathy-white forelock syndrome", "congenital multiple café-au-lait macules-increased sister chromatid exchange syndrome", "acromelanosis", "leukonychia totalis-acanthosis-nigricans-like lesions-abnormal hair syndrome", "benign neoplasm of adrenal gland", "peripheral nerve schwannoma"]
 ---
 
 # Metreleptin

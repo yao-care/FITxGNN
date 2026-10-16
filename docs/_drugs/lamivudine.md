@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-13
 description: "Lamivudine: ennustettu uusi käyttöaihe Kissojen hankittu immuunikatooireyhtymä (FIV) (näytön taso L5). Alkuperäinen käyttöaihe: Krooninen hepatiitti B"
+monitor_inn: "LAMIVUDINE"
+predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "chronic hepatitis C virus infection"]
 ---
 
 # Lamivudine

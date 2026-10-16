@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-13
 description: "Formoterol: ennustettu uusi käyttöaihe Hengityselinten epämuodostuma (näytön taso L5). Alkuperäinen käyttöaihe: Krooninen keuhkoahtaumatauti (COPD)"
+monitor_inn: "formoterol"
+predicted_indications: ["respiratory malformation", "bronchitis", "Rienhoff syndrome", "obstructive lung disease", "asthma", "asthma-related traits, susceptibility to"]
 ---
 
 # Formoterol

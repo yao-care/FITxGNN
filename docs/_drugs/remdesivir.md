@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-13
 description: "Remdesivir: ennustettu uusi käyttöaihe Multippeli endokriininen neoplasia (näytön taso L5). Alkuperäinen käyttöaihe: COVID-19-virusinfektio"
+monitor_inn: "REMDESIVIR"
+predicted_indications: ["multiple endocrine neoplasia", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "homozygous familial hypercholesterolemia"]
 ---
 
 # Remdesivir

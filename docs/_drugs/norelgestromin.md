@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Norelgestromin: ennustettu uusi käyttöaihe Amenorrea (näytön taso L5). Alkuperäinen käyttöaihe: Ehkäisy"
+monitor_inn: "NORELGESTROMIN"
+predicted_indications: ["amenorrhea (disease)"]
 ---
 
 # Norelgestromin

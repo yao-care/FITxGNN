@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Ethinylestradiol: ennustettu uusi käyttöaihe Kohonnut plasman sinkki (zinc, elevated plasma) (näytön taso L5). Alkuperäinen käyttöaihe: Ehkäisy"
+monitor_inn: "Ethinylestradiol"
+predicted_indications: ["zinc, elevated plasma"]
 ---
 
 # Ethinylestradiol

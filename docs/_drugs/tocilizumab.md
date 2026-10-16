@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Tocilizumab: ennustettu uusi käyttöaihe Selkärankareuma (ankyloiva spondyliitti) (näytön taso L2). Alkuperäinen käyttöaihe: Nivelreuma, lastenreuma (nuorten idiopaattinen artriitti)…"
+monitor_inn: "TOCILIZUMAB"
+predicted_indications: ["ankylosing spondylitis", "rheumatoid vasculitis", "hypermobility of coccyx", "spondyloarthropathy, susceptibility to", "inflammatory spondylopathy", "Kummell disease", "polyarticular juvenile rheumatoid arthritis", "vertebral disease", "mendelian susceptibility to mycobacterial diseases due to complete IL12B deficiency", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"]
 ---
 
 # Tocilizumab

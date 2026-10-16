@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-13
 description: "Silodosin: ennustettu uusi käyttöaihe Ambras-tyypin synnynnäinen yleistynyt liikakarvoitus (näytön taso L5). Alkuperäinen käyttöaihe: Eturauhasen hyvänlaatuinen liikakasvu"
+monitor_inn: "SILODOSIN"
+predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
 ---
 
 # Silodosin

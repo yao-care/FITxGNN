@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Olaparib: ennustettu uusi käyttöaihe Naisten rintasyöpä (näytön taso L1). Alkuperäinen käyttöaihe: Munasarjasyöpä, rintasyöpä, haimasyöpä…"
+monitor_inn: "OLAPARIB"
+predicted_indications: ["female breast carcinoma"]
 ---
 
 # Olaparib

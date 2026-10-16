@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Levetiracetam: ennustettu uusi käyttöaihe Status epilepticus (ensisijaisena ennusteena luettelossa: visuaalinen… (näytön taso L5). Alkuperäinen käyttöaihe: Epilepsia"
+monitor_inn: "LEVETIRACETAM"
+predicted_indications: ["visual epilepsy", "orgasm-induced seizures", "thinking seizures", "micturation-induced seizures", "audiogenic seizures", "eating seizures", "startle epilepsy", "reading seizures", "status epilepticus", "beta-ketothiolase deficiency"]
 ---
 
 # Levetiracetam

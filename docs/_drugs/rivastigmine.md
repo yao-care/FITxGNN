@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Rivastigmine: ennustettu uusi käyttöaihe Glaukooma (näytön taso L4). Alkuperäinen käyttöaihe: Dementia, Alzheimerin tauti, Parkinsonin tauti"
+monitor_inn: "RIVASTIGMINE"
+predicted_indications: ["glaucoma"]
 ---
 
 # Rivastigmine

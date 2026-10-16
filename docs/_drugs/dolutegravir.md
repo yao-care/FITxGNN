@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-13
 description: "Dolutegravir: ennustettu uusi käyttöaihe Apinoiden immuunikatovirusinfektio (simian immunodeficiency virus inf… (näytön taso L4). Alkuperäinen käyttöaihe: HIV-infektio"
+monitor_inn: "DOLUTEGRAVIR"
+predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 ---
 
 # Dolutegravir

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-13
 description: "Netarsudil: ennustettu uusi käyttöaihe Primaarinen perinnöllinen glaukooma (näytön taso L5). Alkuperäinen käyttöaihe: Avokulmaglaukooma ja silmänpainetauti (okulaarinen hypertensio)"
+monitor_inn: "NETARSUDIL"
+predicted_indications: ["primary hereditary glaucoma", "glaucoma"]
 ---
 
 # Netarsudil

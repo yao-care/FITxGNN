@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Lumacaftor: ennustettu uusi käyttöaihe Lepra (näytön taso L5). Alkuperäinen käyttöaihe: Kystinen fibroosi"
+monitor_inn: "LUMACAFTOR"
+predicted_indications: ["leprosy"]
 ---
 
 # Lumacaftor

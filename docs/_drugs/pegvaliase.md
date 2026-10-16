@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-13
 description: "Pegvaliase: ennustettu uusi käyttöaihe Diabeettinen retinopatia (näytön taso L5). Alkuperäinen käyttöaihe: Fenyyliketonuria"
+monitor_inn: "PEGVALIASE"
+predicted_indications: ["diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "diabetic cataract"]
 ---
 
 # Pegvaliase

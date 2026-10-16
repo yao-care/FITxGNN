@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Topotecan: ennustettu uusi käyttöaihe Naisen rintasyöpä (näytön taso L3). Alkuperäinen käyttöaihe: Kohdunkaulan syöpä"
+monitor_inn: "TOPOTECAN"
+predicted_indications: ["female breast carcinoma", "adult germ cell tumor", "testicular yolk sac tumor, hepatoid pattern", "enteric pattern testicular yolk sac tumor", "polyvesicular vitelline pattern testicular yolk sac tumor", "testicular yolk sac tumor, macrocystic pattern", "testicular yolk sac tumor, solid pattern", "reticular pattern testicular yolk sac tumor", "testicular yolk sac tumor, endodermal sinus pattern", "testicular yolk sac tumor, papillary pattern"]
 ---
 
 # Topotecan

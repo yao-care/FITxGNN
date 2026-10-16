@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Glucagon: ennustettu uusi käyttöaihe Ärtyneen suolen oireyhtymä (IBS) (näytön taso L3). Alkuperäinen käyttöaihe: Diabetes mellitus"
+monitor_inn: "GLUCAGON"
+predicted_indications: ["irritable bowel syndrome"]
 ---
 
 # Glucagon

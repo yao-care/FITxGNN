@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-13
 description: "Trastuzumab Emtansine: ennustettu uusi käyttöaihe Progesteronireseptorinegatiivinen rintasyöpä (pääasiallinen tarkastel… (näytön taso L5). Alkuperäinen käyttöaihe: Rintasyöpä"
+monitor_inn: "TRASTUZUMAB EMTANSINE"
+predicted_indications: ["normal breast-like subtype of breast carcinoma", "progesterone-receptor positive breast cancer", "progesterone-receptor negative breast cancer", "breast tumor luminal A or B"]
 ---
 
 # Trastuzumab Emtansine

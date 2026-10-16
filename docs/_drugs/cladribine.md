@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-13
 description: "Cladribine: ennustettu uusi käyttöaihe Parameningeaalinen embryonaalinen rabdomyosarkooma (näytön taso L5). Alkuperäinen käyttöaihe: Karvasoluleukemia (Litak)"
+monitor_inn: "CLADRIBINE"
+predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "liver sarcoma"]
 ---
 
 # Cladribine

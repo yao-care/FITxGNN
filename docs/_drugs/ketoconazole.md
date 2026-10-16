@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Ketoconazole: ennustettu uusi käyttöaihe Akne (näytön taso L4). Alkuperäinen käyttöaihe: Cushingin oireyhtymä"
+monitor_inn: "KETOCONAZOLE"
+predicted_indications: ["acne (disease)"]
 ---
 
 # Ketoconazole

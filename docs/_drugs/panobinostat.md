@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Panobinostat: ennustettu uusi käyttöaihe Myeloidileukemia (näytön taso L5). Alkuperäinen käyttöaihe: Multippeli myelooma"
+monitor_inn: "panobinostat"
+predicted_indications: ["myeloid leukemia"]
 ---
 
 # Panobinostat

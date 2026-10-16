@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Bevacizumab: ennustettu uusi käyttöaihe Epiglottiksen kasvain (näytön taso L5). Alkuperäinen käyttöaihe: Paksusuolen ja peräsuolen kasvaimet, rintasyöpä…"
+monitor_inn: "BEVACIZUMAB"
+predicted_indications: ["epiglottis neoplasm", "benign neoplasm of tongue", "tumor of testis and paratestis", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "cystic neoplasm", "nasal cavity inverting papilloma", "mesenchymoma", "schwannoma of jugular foramen"]
 ---
 
 # Bevacizumab

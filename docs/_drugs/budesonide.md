@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Budesonide: ennustettu uusi käyttöaihe Atooppinen ekseema (näytön taso L4). Alkuperäinen käyttöaihe: Ruokatorven sairaudet (muut luvat: COPD ja astma)"
+monitor_inn: "BUDESONIDE"
+predicted_indications: ["atopic eczema", "bronchitis", "dermatitis, atopic", "polyp of vocal cord", "polyp of middle ear", "epulis", "fibroepithelial polyp", "uterine polyp", "polyp of frontal sinus", "polyp of external auditory canal"]
 ---
 
 # Budesonide

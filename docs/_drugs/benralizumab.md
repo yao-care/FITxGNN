@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-13
 description: "Benralizumab: ennustettu uusi käyttöaihe Dermatiitti (ennustesijalla 2 (näytön taso L5). Alkuperäinen käyttöaihe: Astma"
+monitor_inn: "BENRALIZUMAB"
+predicted_indications: ["thrombocytopenia due to immune destruction", "dermatitis", "acne keloid", "neonatal dermatomyositis", "amyopathic dermatomyositis"]
 ---
 
 # Benralizumab

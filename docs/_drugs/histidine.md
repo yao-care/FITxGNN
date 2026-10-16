@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-13
 description: "Histidine: ennustettu uusi käyttöaihe Gastropareesi (näytön taso L5). Alkuperäinen käyttöaihe: Vaahterasiirappitauti (Maple Syrup Urine Disease)"
+monitor_inn: "histidine"
+predicted_indications: ["gastroparesis (disease)", "sclerosing cholangitis"]
 ---
 
 # Histidine

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Avelumab: ennustettu uusi käyttöaihe Ihmisen herpesvirus 8:aan liittyvä kasvain (näytön taso L5). Alkuperäinen käyttöaihe: Neuroendokriiniset kasvaimet"
+monitor_inn: "AVELUMAB"
+predicted_indications: ["human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "adenosine deaminase deficiency", "reticular dysgenesis", "Immunoerythromyeloid hypoplasia", "non-severe combined immunodeficiency", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma"]
 ---
 
 # Avelumab

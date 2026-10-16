@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Thyrotropin Alfa: ennustettu uusi käyttöaihe Migreenihäiriö (näytön taso L5). Alkuperäinen käyttöaihe: Kilpirauhasen kasvaimet"
+monitor_inn: "THYROTROPIN ALFA"
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Raynaud disease", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "kyphoscoliotic heart disease", "postural orthostatic tachycardia syndrome", "hyperthyroidism"]
 ---
 
 # Thyrotropin Alfa

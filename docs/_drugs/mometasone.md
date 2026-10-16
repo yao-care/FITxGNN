@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Mometasone: ennustettu uusi käyttöaihe Primaarinen ihon T-solulymfooma (näytön taso L5). Alkuperäinen käyttöaihe: Astma"
+monitor_inn: "MOMETASONE"
+predicted_indications: ["primary cutaneous T-cell lymphoma"]
 ---
 
 # Mometasone

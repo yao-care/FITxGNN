@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-13
 description: "Selpercatinib: ennustettu uusi käyttöaihe Keuhkoverenpainetauti (pulmonary hypertension) (näytön taso L5). Alkuperäinen käyttöaihe: Ei-pienisoluinen keuhkosyöpä"
+monitor_inn: "SELPERCATINIB"
+predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura"]
 ---
 
 # Selpercatinib

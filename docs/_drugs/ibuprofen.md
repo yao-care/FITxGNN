@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-13
 description: "Ibuprofen: ennustettu uusi käyttöaihe Akromesomeelinen dysplasia, Hunter-Thompson-tyyppi (näytön taso L5). Alkuperäinen käyttöaihe: Avoin valtimotiehyt (Ductus arteriosus, patent)"
+monitor_inn: "IBUPROFEN"
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
 ---
 
 # Ibuprofen

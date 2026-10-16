@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-13
 description: "Enzalutamide: ennustettu uusi käyttöaihe Eturauhassyövän ja aivosyövän alttius (prostate cancer/brain cancer s… (näytön taso L5). Alkuperäinen käyttöaihe: Eturauhassyöpä"
+monitor_inn: "ENZALUTAMIDE"
+predicted_indications: ["prostate cancer/brain cancer susceptibility", "prostate leiomyoma", "Brenner tumor", "fibroma of prostate", "benign reproductive system neoplasm", "male reproductive organ cancer", "benign prostate phyllodes tumor"]
 ---
 
 # Enzalutamide

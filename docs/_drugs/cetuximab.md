@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Cetuximab: ennustettu uusi käyttöaihe Lapsuuden keuhkoputken adenoomat/karsinoidit (näytön taso L5). Alkuperäinen käyttöaihe: Pään ja kaulan kasvaimet"
+monitor_inn: "CETUXIMAB"
+predicted_indications: ["bronchial adenomas/carcinoids childhood", "non-seminomatous lesion", "ductal or ductular proliferation", "chondroid hamartoma", "tumor of testis and paratestis", "odontogenic cyst", "thyroglossal duct cyst", "cystic neoplasm", "epiglottis neoplasm", "pre-malignant neoplasm"]
 ---
 
 # Cetuximab

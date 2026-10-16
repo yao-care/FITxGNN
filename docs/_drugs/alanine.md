@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Alanine: ennustettu uusi käyttöaihe Gastropareesi (näytön taso L5). Alkuperäinen käyttöaihe: Vaahterasiirappitauti (MSUD)"
+monitor_inn: "alanine"
+predicted_indications: ["gastroparesis (disease)"]
 ---
 
 # Alanine

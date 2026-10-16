@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Temoporfin: ennustettu uusi käyttöaihe Nenänielun teratoomaa (nasopharyngeal teratoma) (näytön taso L5). Alkuperäinen käyttöaihe: Pään ja kaulan alueen kasvaimet"
+monitor_inn: "TEMOPORFIN"
+predicted_indications: ["nasopharyngeal teratoma", "odontogenic cyst", "pre-malignant neoplasm", "epiglottis neoplasm", "tumor of testis and paratestis", "cystic neoplasm", "benign neoplasm of floor of mouth", "benign neoplasm of tongue", "benign neoplasm of hypopharynx", "cervical neuroblastoma"]
 ---
 
 # Temoporfin

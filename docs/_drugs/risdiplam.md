@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Risdiplam: ennustettu uusi käyttöaihe Akne (näytön taso L5). Alkuperäinen käyttöaihe: Spinaalinen lihasatrofia"
+monitor_inn: "RISDIPLAM"
+predicted_indications: ["acne (disease)"]
 ---
 
 # Risdiplam

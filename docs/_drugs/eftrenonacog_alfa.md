@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-13
 description: "Eftrenonacog Alfa: ennustettu uusi käyttöaihe Pseudo-von Willebrandin tauti (verihiutaletyyppinen VWD) (näytön taso L5). Alkuperäinen käyttöaihe: Hemofilia B"
+monitor_inn: "EFTRENONACOG ALFA"
+predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia"]
 ---
 
 # Eftrenonacog Alfa

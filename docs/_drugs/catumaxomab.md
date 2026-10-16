@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-13
 description: "Catumaxomab: ennustettu uusi käyttöaihe Vaikea ei-proliferatiivinen diabeettinen retinopatia (näytön taso L5). Alkuperäinen käyttöaihe: Askites"
+monitor_inn: "CATUMAXOMAB"
+predicted_indications: ["severe nonproliferative diabetic retinopathy", "drug-induced osteoporosis", "diabetic retinopathy"]
 ---
 
 # Catumaxomab

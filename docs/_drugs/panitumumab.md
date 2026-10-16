@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-13
 description: "Panitumumab: ennustettu uusi käyttöaihe Lääkkeen aiheuttama osteoporoosi (näytön taso L5). Alkuperäinen käyttöaihe: Paksu- ja peräsuolen kasvaimet (kolorektaalikasvaimet)"
+monitor_inn: "PANITUMUMAB"
+predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy"]
 ---
 
 # Panitumumab

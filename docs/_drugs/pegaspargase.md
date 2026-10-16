@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Pegaspargase: ennustettu uusi käyttöaihe Prekursorilymfoblastilymfooma/-leukemia (näytön taso L1). Alkuperäinen käyttöaihe: Prekursorisolujen lymfoblastileukemia-lymfooma"
+monitor_inn: "PEGASPARGASE"
+predicted_indications: ["precursor lymphoblastic lymphoma/leukemia", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "follicular lymphoma", "acute lymphoblastic leukemia", "methylcobalamin deficiency type cblE", "lymphoid neoplasm", "Hodgkins lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive"]
 ---
 
 # Pegaspargase

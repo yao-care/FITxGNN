@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-13
 description: "Relebactam: ennustettu uusi käyttöaihe Hyperamylasemia (näytön taso L5). Alkuperäinen käyttöaihe: Gramnegatiiviset bakteeri-infektiot"
+monitor_inn: "Relebactam"
+predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia"]
 ---
 
 # Relebactam

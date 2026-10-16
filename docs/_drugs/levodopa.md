@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Levodopa: ennustettu uusi käyttöaihe Rasmussenin subakuutti enkefaliitti (näytön taso L5). Alkuperäinen käyttöaihe: Parkinsonin tauti"
+monitor_inn: "LEVODOPA"
+predicted_indications: ["Rasmussen subacute encephalitis"]
 ---
 
 # Levodopa

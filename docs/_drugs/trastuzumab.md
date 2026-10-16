@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Trastuzumab: ennustettu uusi käyttöaihe Progesteronireseptorinegatiivinen rintasyöpä (näytön taso L5). Alkuperäinen käyttöaihe: Mahalaukun syöpä ja rintasyöpä"
+monitor_inn: "TRASTUZUMAB"
+predicted_indications: ["normal breast-like subtype of breast carcinoma", "progesterone-receptor positive breast cancer", "progesterone-receptor negative breast cancer", "breast tumor luminal A or B", "malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "kidney pelvis sarcomatoid transitional cell carcinoma", "prostatic urethra urothelial carcinoma"]
 ---
 
 # Trastuzumab

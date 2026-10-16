@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Asenapine: ennustettu uusi käyttöaihe Verkkokalvon dystrofia… (näytön taso L5). Alkuperäinen käyttöaihe: Kaksisuuntainen mielialahäiriö"
+monitor_inn: "Asenapine"
+predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "syndromic myopia", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy", "major affective disorder"]
 ---
 
 # Asenapine

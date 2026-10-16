@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Ceftolozane: ennustettu uusi käyttöaihe Gonokokkiuretriitti (näytön taso L5). Alkuperäinen käyttöaihe: Bakteeri-infektiot"
+monitor_inn: "Ceftolozane"
+predicted_indications: ["gonococcal urethritis", "Ureaplasma urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "urogenital tuberculosis", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease"]
 ---
 
 # Ceftolozane

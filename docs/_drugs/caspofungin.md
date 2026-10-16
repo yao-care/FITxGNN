@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Caspofungin: ennustettu uusi käyttöaihe Gastriinin erityksen poikkeavuus (gastrin secretion abnormality) (näytön taso L5). Alkuperäinen käyttöaihe: Kandidiaasi"
+monitor_inn: "CASPOFUNGIN"
+predicted_indications: ["gastrin secretion abnormality"]
 ---
 
 # Caspofungin

@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 8
 last_modified_at: 2026-10-13
 description: "Sofosbuvir: ennustettu uusi käyttöaihe Hepatiitti E -virusinfektio (näytön taso L2). Alkuperäinen käyttöaihe: Krooninen C-hepatiitti"
+monitor_inn: "SOFOSBUVIR"
+predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "chronic hepatitis B virus infection", "Kyasanur forest disease", "HIV infectious disease"]
 ---
 
 # Sofosbuvir

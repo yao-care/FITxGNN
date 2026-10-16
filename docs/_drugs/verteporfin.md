@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Verteporfin: ennustettu uusi käyttöaihe Tumaperäisten DNA-poikkeavuuksien aiheuttama mitokondriaalinen oksida… (näytön taso L5). Alkuperäinen käyttöaihe: Rappeuttava likinäköisyys, silmänpohjan rappe…"
+monitor_inn: "VERTEPORFIN"
+predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies"]
 ---
 
 # Verteporfin

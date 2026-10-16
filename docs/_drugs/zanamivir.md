@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-13
 description: "Zanamivir: ennustettu uusi käyttöaihe Pyelonefriitti (näytön taso L5). Alkuperäinen käyttöaihe: Ihmisen influenssa"
+monitor_inn: "ZANAMIVIR"
+predicted_indications: ["pyelonephritis", "disorder of tyrosine metabolism"]
 ---
 
 # Zanamivir

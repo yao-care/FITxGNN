@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-13
 description: "Lasmiditan: ennustettu uusi käyttöaihe Aivorunkoauraan liittyvä migreeni (näytön taso L4). Alkuperäinen käyttöaihe: Migreeni"
+monitor_inn: "Lasmiditan"
+predicted_indications: ["migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
 ---
 
 # Lasmiditan

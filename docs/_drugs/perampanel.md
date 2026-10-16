@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Perampanel: ennustettu uusi käyttöaihe Status epilepticus (kohtaustila) (näytön taso L3). Alkuperäinen käyttöaihe: Osittaisepilepsiat (Epilepsies, Partial)"
+monitor_inn: "PERAMPANEL"
+predicted_indications: ["visual epilepsy", "startle epilepsy", "orgasm-induced seizures", "audiogenic seizures", "micturation-induced seizures", "eating seizures", "thinking seizures", "reading seizures", "beta-ketothiolase deficiency", "status epilepticus"]
 ---
 
 # Perampanel

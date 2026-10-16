@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Duloxetine: ennustettu uusi käyttöaihe Pakko-oireinen häiriö (OCD) (näytön taso L2). Alkuperäinen käyttöaihe: Hermokipu, vakava masennus, ahdistuneisuushäiriöt…"
+monitor_inn: "DULOXETINE"
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "obsessive-compulsive disorder", "paranoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "schizoid personality disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type"]
 ---
 
 # Duloxetine

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Cerliponase Alfa: ennustettu uusi käyttöaihe Scheien oireyhtymä (näytön taso L5). Alkuperäinen käyttöaihe: Neuronaaliset seroidilipofuskinoosit"
+monitor_inn: "CERLIPONASE ALFA"
+predicted_indications: ["Scheie syndrome", "Hurler syndrome", "lysosomal storage disease with skeletal involvement", "cholesteryl ester storage disease", "Gaucher disease", "familial encephalopathy with neuroserpin inclusion bodies", "Wolman disease with hypolipoproteinemia and acanthocytosis", "myoclonic epilepsy, juvenile, susceptibility to", "proximal myopathy with extrapyramidal signs", "autosomal ichthyosis syndrome with fatal disease course"]
 ---
 
 # Cerliponase Alfa

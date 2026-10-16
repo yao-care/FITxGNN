@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 6
 last_modified_at: 2026-10-13
 description: "Buprenorphine: ennustettu uusi käyttöaihe Akuutti ajoittainen porfyria (näytön taso L4). Alkuperäinen käyttöaihe: Opioidiriippuvuus (opioidien käyttöön liittyvät häiriöt)"
+monitor_inn: "BUPRENORPHINE"
+predicted_indications: ["acute intermittent porphyria", "lingual-facial-buccal dyskinesia", "chronic tic disorder", "continuous spikes and waves during sleep", "extrapyramidal and movement disease", "benign shuddering attacks"]
 ---
 
 # Buprenorphine

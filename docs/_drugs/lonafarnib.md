@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Lonafarnib: ennustettu uusi käyttöaihe Lepra (näytön taso L5). Alkuperäinen käyttöaihe: Progeria"
+monitor_inn: "LONAFARNIB"
+predicted_indications: ["leprosy"]
 ---
 
 # Lonafarnib

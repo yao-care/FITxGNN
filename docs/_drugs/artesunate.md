@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Artesunate
 parent: Pelkkä mallin ennuste (L5)

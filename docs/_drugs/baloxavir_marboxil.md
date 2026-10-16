@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Baloxavir Marboxil
 parent: Pelkkä mallin ennuste (L5)

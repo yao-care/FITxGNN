@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Angiotensin Ii Acetate
 parent: Pelkkä mallin ennuste (L5)

@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Lebrikizumab
 parent: Pelkkä mallin ennuste (L5)

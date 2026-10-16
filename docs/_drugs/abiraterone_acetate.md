@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Abiraterone Acetate
 parent: Pelkkä mallin ennuste (L5)

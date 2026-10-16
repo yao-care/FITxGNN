@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Asenapine Maleate
 parent: Pelkkä mallin ennuste (L5)

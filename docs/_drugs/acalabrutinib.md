@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Acalabrutinib
 parent: Pelkkä mallin ennuste (L5)

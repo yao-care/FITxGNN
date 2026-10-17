@@ -11,7 +11,7 @@
 
 ## Tärkeimmät sivut
 
-- L\u00e4\u00e4kkeiden Uudelleensijoittelun Ennusteet \u2014 Suomi: https://fitxgnn.yao.care/
+- Lääkkeiden Uudelleensijoittelun Ennusteet — Suomi: https://fitxgnn.yao.care/
 - Kaikki lääkkeet: https://fitxgnn.yao.care/drugs/
 - Vahva näyttö (L1-L2): https://fitxgnn.yao.care/evidence-high/
 - Kohtalainen näyttö (L3-L4): https://fitxgnn.yao.care/evidence-medium/

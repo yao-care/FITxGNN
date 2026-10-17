@@ -1,12 +1,12 @@
 {
   "generated": "2026-10-17",
-  "total_drugs": 445,
+  "total_drugs": 444,
   "level_counts": {
     "L1": 32,
     "L2": 36,
     "L3": 24,
     "L4": 73,
-    "L5": 280
+    "L5": 279
   },
   "all_drugs": [
     {
@@ -1304,12 +1304,6 @@
       "slug": "laronidase",
       "level": "L4",
       "indication_count": 2
-    },
-    {
-      "name": "Larotrectinib Sulfate",
-      "slug": "larotrectinib_sulfate",
-      "level": "L5",
-      "indication_count": 0
     },
     {
       "name": "Lasmiditan",

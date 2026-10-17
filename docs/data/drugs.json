@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-16",
-  "total_count": 445,
+  "generated": "2026-10-17",
+  "total_count": 444,
   "source": "FITxGNN",
   "drugs": [
     {
@@ -2162,16 +2162,6 @@
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/laronidase/"
-    },
-    {
-      "slug": "larotrectinib-sulfate",
-      "name": "Larotrectinib Sulfate",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/larotrectinib-sulfate/"
     },
     {
       "slug": "lasmiditan",

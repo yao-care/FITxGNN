@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-16",
-  "drug_count": 445,
+  "generated": "2026-10-17",
+  "drug_count": 444,
   "indication_count": 1304,
   "drugs": [
     {
@@ -8474,14 +8474,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Larotrectinib Sulfate",
-      "slug": "larotrectinib-sulfate",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Lasmiditan",

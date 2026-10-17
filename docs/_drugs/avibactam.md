@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-13
 description: "Avibactam: ennustettu uusi käyttöaihe Streptokokkipneumonia (näytön taso L4). Alkuperäinen käyttöaihe: Bakteeripneumonia, pehmytkudosinfektiot, keuhkokuume…"
 monitor_inn: "AVIBACTAM"
-predicted_indications: ["streptococcal pneumonia", "influenza, severe, susceptibility to", "ureter tuberculosis", "urinary schistosomiasis", "hyperamylasemia", "polyclonal hyperviscosity syndrome"]
+predicted_indications: ["influenza, severe, susceptibility to", "ureter tuberculosis", "urinary schistosomiasis", "hyperamylasemia", "polyclonal hyperviscosity syndrome"]
 ---
 
 # Avibactam

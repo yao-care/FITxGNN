@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-13
 description: "Valsartan: ennustettu uusi käyttöaihe Pahanlaatuinen hypertensiivinen munuaissairaus (näytön taso L4). Alkuperäinen käyttöaihe: Sydämen vajaatoiminta (lisäksi verenpainetauti)"
 monitor_inn: "VALSARTAN"
-predicted_indications: ["malignant hypertensive renal disease", "chronic pulmonary heart disease", "Prinzmetal angina"]
+predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "chronic pulmonary heart disease", "Prinzmetal angina"]
 ---
 
 # Valsartan

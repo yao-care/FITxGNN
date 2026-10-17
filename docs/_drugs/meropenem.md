@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Meropenem: ennustettu uusi käyttöaihe Bakteeriperäinen niveltulehdus (bacterial arthritis) (näytön taso L4). Alkuperäinen käyttöaihe: Virtsatieinfektiot, bakteremia, bakteeri-infektiot…"
 monitor_inn: "Meropenem"
-predicted_indications: ["bacterial arthritis", "epiglottitis", "staphylococcus aureus infection", "laryngitis", "paratyphoid fever", "urinary tract infection (disease)", "Lyme disease", "Peptostreptococcus infectious disease", "Ureaplasma urethritis", "gonococcal urethritis"]
+predicted_indications: ["bacterial arthritis", "epiglottitis", "staphylococcus aureus infection", "laryngitis", "paratyphoid fever", "Lyme disease", "Peptostreptococcus infectious disease", "Ureaplasma urethritis", "gonococcal urethritis"]
 ---
 
 # Meropenem

@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-13
 description: "Irbesartan: ennustettu uusi käyttöaihe Pahanlaatuinen renovaskulaarinen hypertensio (näytön taso L5). Alkuperäinen käyttöaihe: Verenpainetauti"
 monitor_inn: "IRBESARTAN"
-predicted_indications: ["malignant hypertensive renal disease"]
+predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism"]
 ---
 
 # Irbesartan

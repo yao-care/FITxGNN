@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Bempedoic Acid: ennustettu uusi käyttöaihe Kilpirauhasen liikatoiminta (hyperthyroidism) (näytön taso L5). Alkuperäinen käyttöaihe: Hyperkolesterolemia"
 monitor_inn: "BEMPEDOIC ACID"
-predicted_indications: ["hyperthyroidism", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "malignant catarrh", "infectious bovine rhinotracheitis", "cytomegalovirus infection", "homozygous familial hypercholesterolemia", "hyperthyroxinemia", "drug-induced osteoporosis", "multiple endocrine neoplasia", "pregnancy associated osteoporosis"]
+predicted_indications: ["hyperthyroidism", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "malignant catarrh", "infectious bovine rhinotracheitis", "cytomegalovirus infection", "hyperthyroxinemia", "drug-induced osteoporosis", "multiple endocrine neoplasia", "pregnancy associated osteoporosis"]
 ---
 
 # Bempedoic Acid

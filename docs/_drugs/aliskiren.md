@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-13
 description: "Aliskiren: ennustettu uusi käyttöaihe Keuhkosairauden ja/tai hypoksian aiheuttama keuhkoverenpainetauti (näytön taso L4). Alkuperäinen käyttöaihe: Verenpainetauti"
 monitor_inn: "ALISKIREN"
-predicted_indications: ["malignant hypertensive renal disease", "chronic pulmonary heart disease", "cerebrovascular disorder"]
+predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "chronic pulmonary heart disease", "cerebrovascular disorder"]
 ---
 
 # Aliskiren

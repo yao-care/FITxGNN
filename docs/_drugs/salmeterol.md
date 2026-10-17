@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-13
 description: "Salmeterol: ennustettu uusi käyttöaihe Keuhkoputkentulehdus (bronchitis) (näytön taso L1). Alkuperäinen käyttöaihe: Astma"
 monitor_inn: "salmeterol"
-predicted_indications: ["bronchitis", "respiratory malformation", "obstructive lung disease", "Rienhoff syndrome", "asthma-related traits, susceptibility to", "atopic eczema"]
+predicted_indications: ["bronchitis", "respiratory malformation", "obstructive lung disease", "Rienhoff syndrome", "atopic eczema"]
 ---
 
 # Salmeterol

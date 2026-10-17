@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Idelalisib: ennustettu uusi käyttöaihe Manttelisolulymfooma (näytön taso L2). Alkuperäinen käyttöaihe: Non-Hodgkin-lymfooma"
 monitor_inn: "IDELALISIB"
-predicted_indications: ["mantle cell lymphoma", "Hodgkins lymphoma", "lymphoma, non-Hodgkin, familial", "myeloid leukemia", "chronic myelogenous leukemia, BCR-ABL1 positive", "small intestinal Burkitt lymphoma", "colon adenocarcinoma"]
+predicted_indications: ["mantle cell lymphoma", "Hodgkins lymphoma", "myeloid leukemia", "chronic myelogenous leukemia, BCR-ABL1 positive", "small intestinal Burkitt lymphoma", "colon adenocarcinoma"]
 ---
 
 # Idelalisib

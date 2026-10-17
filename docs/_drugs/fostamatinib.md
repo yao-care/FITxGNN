@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-10-13
 description: "Fostamatinib: ennustettu uusi käyttöaihe Autosomaalinen trombosytopenia, normaalit verihiutaleet (näytön taso L5). Alkuperäinen käyttöaihe: Trombosytopenia"
 monitor_inn: "Fostamatinib"
-predicted_indications: ["autosomal thrombocytopenia with normal platelets", "non-syndromic esophageal malformation"]
+predicted_indications: ["non-syndromic esophageal malformation"]
 ---
 
 # Fostamatinib

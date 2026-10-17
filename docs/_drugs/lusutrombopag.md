@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Lusutrombopag: ennustettu uusi käyttöaihe Perinnöllinen trombosytopenia, jossa verihiutaleet ovat normaalit (näytön taso L5). Alkuperäinen käyttöaihe: Trombosytopenia"
 monitor_inn: "LUSUTROMBOPAG"
-predicted_indications: ["dense granule disease", "platelet storage pool deficiency", "amyotrophic lateral sclerosis", "lower motor neuron syndrome with late-adult onset", "amyotrophic lateral sclerosis, susceptibility to", "bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia"]
+predicted_indications: ["marcothrombocytopenia with mitral valve insufficiency", "dense granule disease", "platelet storage pool deficiency", "amyotrophic lateral sclerosis", "lower motor neuron syndrome with late-adult onset", "amyotrophic lateral sclerosis, susceptibility to", "bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia"]
 ---
 
 # Lusutrombopag
@@ -27,7 +27,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmaseutin arviointiraportti
 

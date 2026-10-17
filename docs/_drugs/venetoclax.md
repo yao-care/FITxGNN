@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Venetoclax: ennustettu uusi käyttöaihe Myeloinen leukemia (tietoaineiston ykkösennuste: KLL/SLL:n alatyyppi… (näytön taso L5). Alkuperäinen käyttöaihe: Krooninen B-solulymfaattinen leukemia"
 monitor_inn: "VENETOCLAX"
-predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "Hodgkins lymphoma", "myeloid leukemia", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma", "acute myeloid leukemia with t(8;21)(q22;q22) translocation"]
+predicted_indications: ["Hodgkins lymphoma", "myeloid leukemia", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma"]
 ---
 
 # Venetoclax
@@ -27,7 +27,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmaseutin arviointiraportti
 

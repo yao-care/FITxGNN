@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-13
 description: "Rimegepant: ennustettu uusi käyttöaihe Migreeni, johon liittyy aivorunkoaura (näytön taso L3). Alkuperäinen käyttöaihe: Migreenihäiriöt"
 monitor_inn: "RIMEGEPANT"
-predicted_indications: ["migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
+predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
 ---
 
 # Rimegepant
@@ -27,7 +27,7 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **6** kpl
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmaseutin arviointiraportti
 

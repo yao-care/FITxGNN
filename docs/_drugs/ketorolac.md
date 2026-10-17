@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-13
 description: "Ketorolac: ennustettu uusi käyttöaihe Päänsärkyhäiriö (headache disorder) (näytön taso L1). Alkuperäinen käyttöaihe: Silmänsisäinen linssi-implantaatio"
 monitor_inn: "KETOROLAC"
-predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigeminal autonomic cephalalgia"]
+predicted_indications: ["headache disorder", "trigeminal autonomic cephalalgia"]
 ---
 
 # Ketorolac
@@ -27,7 +27,7 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **3** kpl
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmaseutin arviointiraportti
 

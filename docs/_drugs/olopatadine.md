@@ -7,8 +7,6 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Olopatadine: ennustettu uusi käyttöaihe Ruusufinnin sidekalvotulehdus (rosacea conjunctivitis) (näytön taso L5). Alkuperäinen käyttöaihe: Allerginen sidekalvotulehdus"
-monitor_inn: "Olopatadine"
-predicted_indications: ["rosacea conjunctivitis"]
 ---
 
 # Olopatadine
@@ -27,7 +25,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmaseutin arviointiraportti
 

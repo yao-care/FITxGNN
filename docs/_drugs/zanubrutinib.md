@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-13
 description: "Zanubrutinib: ennustettu uusi käyttöaihe Myeloidinen leukemia (näytön taso L5). Alkuperäinen käyttöaihe: Waldenströmin makroglobulinemia"
 monitor_inn: "ZANUBRUTINIB"
-predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "Ewing sarcoma", "neuroblastoma"]
+predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "Ewing sarcoma", "neuroblastoma"]
 ---
 
 # Zanubrutinib
@@ -27,7 +27,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmaseutin arviointiraportti
 

@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-13
 description: "Pseudoephedrine: ennustettu uusi käyttöaihe Nenäontelon sairaus (nasal cavity disease) (näytön taso L4). Alkuperäinen käyttöaihe: Kausiluontoinen allerginen nuha"
 monitor_inn: "pseudoephedrine"
-predicted_indications: ["allergic urticaria"]
+predicted_indications: ["acute laryngopharyngitis", "allergic urticaria"]
 ---
 
 # Pseudoephedrine
@@ -27,7 +27,7 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmaseutin arviointiraportti
 

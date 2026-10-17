@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-13
 description: "Obinutuzumab: ennustettu uusi käyttöaihe Follikulaarinen lymfooma (näytön taso L1). Alkuperäinen käyttöaihe: Krooninen B-solulymfaattinen leukemia"
 monitor_inn: "OBINUTUZUMAB"
-predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "follicular lymphoma"]
+predicted_indications: ["follicular lymphoma"]
 ---
 
 # Obinutuzumab
@@ -27,7 +27,7 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **3** kpl
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmaseutin arviointiraportti
 

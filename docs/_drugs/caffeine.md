@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Caffeine: ennustettu uusi käyttöaihe Nenäontelon sairaus (nasal cavity disease) (näytön taso L4). Alkuperäinen käyttöaihe: Apnea"
 monitor_inn: "Caffeine"
-predicted_indications: ["nasal cavity disease", "thrombotic disease", "papillary conjunctivitis", "neuralgia", "glossodynia", "coccygodynia", "vein disease"]
+predicted_indications: ["nasal cavity disease", "thrombotic disease", "acute laryngopharyngitis", "papillary conjunctivitis", "neuralgia", "glossodynia", "coccygodynia", "vein disease"]
 ---
 
 # Caffeine
@@ -27,7 +27,7 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmaseutin arviointiraportti
 

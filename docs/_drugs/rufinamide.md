@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-13
 description: "Rufinamide: ennustettu uusi käyttöaihe Kuumeeseen liittyvä epilepsiaoireyhtymä (FIRES) (näytön taso L5). Alkuperäinen käyttöaihe: Epilepsia"
 monitor_inn: "RUFINAMIDE"
-predicted_indications: ["perioral myoclonia with absences", "cryptogenic late-onset epileptic spasms"]
+predicted_indications: ["perioral myoclonia with absences"]
 ---
 
 # Rufinamide
@@ -27,7 +27,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmaseutin arviointiraportti
 

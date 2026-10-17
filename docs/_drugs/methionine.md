@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Methionine: ennustettu uusi käyttöaihe Akne (näytön taso L4). Alkuperäinen käyttöaihe: Vaahterasiirappitauti (Maple Syrup Urine Disease)"
 monitor_inn: "methionine"
-predicted_indications: ["acne (disease)", "severe nonproliferative diabetic retinopathy", "craniostenosis cataract", "mature cataract", "diabetes mellitus type 2 associated cataract", "nuclear senile cataract", "cortical cataract", "tetanic cataract", "immature cataract", "diabetic cataract"]
+predicted_indications: ["severe nonproliferative diabetic retinopathy", "craniostenosis cataract", "mature cataract", "diabetes mellitus type 2 associated cataract", "nuclear senile cataract", "cortical cataract", "tetanic cataract", "immature cataract", "diabetic cataract"]
 ---
 
 # Methionine
@@ -27,7 +27,7 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmaseutin arviointiraportti
 

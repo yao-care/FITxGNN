@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Brivaracetam: ennustettu uusi käyttöaihe Status epilepticus (toissijaisesti: visual epilepsy… (näytön taso L3). Alkuperäinen käyttöaihe: Epilepsia"
 monitor_inn: "BRIVARACETAM"
-predicted_indications: ["orgasm-induced seizures", "eating seizures", "micturation-induced seizures", "audiogenic seizures", "thinking seizures", "beta-ketothiolase deficiency"]
+predicted_indications: ["beta-ketothiolase deficiency"]
 ---
 
 # Brivaracetam
@@ -27,7 +27,7 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmaseutin arviointiraportti
 

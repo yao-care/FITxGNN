@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Pazopanib: ennustettu uusi käyttöaihe Luokittelematon munuaissolusyöpä (unclassified renal cell carcinoma) (näytön taso L3). Alkuperäinen käyttöaihe: Munuaissolusyöpä (Carcinoma, Renal Cell)"
 monitor_inn: "PAZOPANIB"
-predicted_indications: ["fibroblastic neoplasm"]
+predicted_indications: ["ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
 ---
 
 # Pazopanib
@@ -27,7 +27,7 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmaseutin arviointiraportti
 

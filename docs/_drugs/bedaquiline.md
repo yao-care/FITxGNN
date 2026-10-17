@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Bedaquiline: ennustettu uusi käyttöaihe Inaktiivinen tuberkuloosi (latentti tuberkuloosi-infektio / taudin eh… (näytön taso L2). Alkuperäinen käyttöaihe: Monilääkeresistentti tuberkuloosi"
 monitor_inn: "Bedaquiline"
-predicted_indications: ["tuberculosis, bovine", "tuberculosis, avian", "tuberculous ascites", "tuberculoma", "inactive tuberculosis", "vulvovaginal candidiasis", "fascioliasis", "urea cycle disorder", "cutaneous tuberculosis", "esophageal candidiasis"]
+predicted_indications: ["vulvovaginal candidiasis", "fascioliasis", "urea cycle disorder", "esophageal candidiasis"]
 ---
 
 # Bedaquiline
@@ -27,7 +27,7 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmaseutin arviointiraportti
 

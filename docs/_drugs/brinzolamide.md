@@ -7,8 +7,6 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Brinzolamide: ennustettu uusi käyttöaihe Primaarinen perinnöllinen glaukooma (näytön taso L5). Alkuperäinen käyttöaihe: Avokulmaglaukooma"
-monitor_inn: "BRINZOLAMIDE"
-predicted_indications: ["primary hereditary glaucoma"]
 ---
 
 # Brinzolamide
@@ -27,7 +25,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmaseutin arviointiraportti
 

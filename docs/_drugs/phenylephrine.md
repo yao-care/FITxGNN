@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-13
 description: "Phenylephrine: ennustettu uusi käyttöaihe Nenäontelon sairaus (näytön taso L4). Alkuperäinen käyttöaihe: Silmänsisäinen linssi-implantaatio"
 monitor_inn: "PHENYLEPHRINE"
-predicted_indications: ["trigeminal autonomic cephalalgia"]
+predicted_indications: ["acute laryngopharyngitis", "trigeminal autonomic cephalalgia"]
 ---
 
 # Phenylephrine
@@ -27,7 +27,7 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmaseutin arviointiraportti
 

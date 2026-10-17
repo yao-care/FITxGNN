@@ -7,8 +7,6 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Erenumab: ennustettu uusi käyttöaihe Aivorunkoauraan liittyvä migreeni (näytön taso L4). Alkuperäinen käyttöaihe: Migreeni (Migraine Disorders)"
-monitor_inn: "ERENUMAB"
-predicted_indications: ["migraine with brainstem aura"]
 ---
 
 # Erenumab
@@ -27,7 +25,7 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **1** kpl
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmaseutin arviointiraportti
 

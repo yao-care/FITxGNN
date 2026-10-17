@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-10-13
 description: "Fremanezumab: ennustettu uusi käyttöaihe Aivorunkoauraiseen migreeni (migraine with brainstem aura) (näytön taso L4). Alkuperäinen käyttöaihe: Migreeni"
 monitor_inn: "FREMANEZUMAB"
-predicted_indications: ["migraine with brainstem aura", "atrophoderma vermiculata"]
+predicted_indications: ["atrophoderma vermiculata"]
 ---
 
 # Fremanezumab
@@ -27,7 +27,7 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **2** kpl
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmaseutin arviointiraportti
 

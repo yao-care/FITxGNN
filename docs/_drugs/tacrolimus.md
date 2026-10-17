@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-13
 description: "Tacrolimus: ennustettu uusi käyttöaihe Seborrooinen ihottuma (näytön taso L1). Alkuperäinen käyttöaihe: Maksan ja munuaisen siirto"
 monitor_inn: "TACROLIMUS"
-predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
+predicted_indications: ["parapsoriasis"]
 ---
 
 # Tacrolimus
@@ -27,7 +27,7 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **3** kpl
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmaseutin arviointiraportti
 

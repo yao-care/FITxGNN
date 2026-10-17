@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-13
 description: "Glycine: ennustettu uusi käyttöaihe Nenäontelon sairaus (näytön taso L5). Alkuperäinen käyttöaihe: Vaahterasiirappitauti (MSUD)"
+monitor_inn: "glycine"
+predicted_indications: ["acute laryngopharyngitis"]
 ---
 
 # Glycine
@@ -25,7 +27,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmaseutin arviointiraportti
 

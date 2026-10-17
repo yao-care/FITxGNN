@@ -27,7 +27,7 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **6** kpl
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Farmaseutin arviointiraportti
 

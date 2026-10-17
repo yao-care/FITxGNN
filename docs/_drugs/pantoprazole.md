@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-13
 description: "Pantoprazole: ennustettu uusi käyttöaihe Aktiivinen peptinen haavatauti (näytön taso L1). Alkuperäinen käyttöaihe: Gastroesofageaalinen refluksi"
 monitor_inn: "PANTOPRAZOLE"
-predicted_indications: ["active peptic ulcer disease", "gastrojejunal ulcer", "peptic ulcer perforation", "duodenogastric reflux", "duodenal obstruction", "duodenal ulcer (disease)"]
+predicted_indications: ["duodenal obstruction"]
 ---
 
 # Pantoprazole

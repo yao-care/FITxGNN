@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-13
 description: "Lenalidomide: ennustettu uusi käyttöaihe Myeloidinen leukemia (näytön taso L2). Alkuperäinen käyttöaihe: Multippeli myelooma"
 monitor_inn: "LENALIDOMIDE"
-predicted_indications: ["myeloid leukemia", "unclassified myelodysplastic syndrome", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts", "partial deletion of the long arm of chromosome 5"]
+predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts", "partial deletion of the long arm of chromosome 5"]
 ---
 
 # Lenalidomide

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Tenecteplase: ennustettu uusi käyttöaihe Takaseinän alaosan sydäninfarkti (posteroinferior myocardial infarcti… (näytön taso L5). Alkuperäinen käyttöaihe: Sydäninfarkti"
 monitor_inn: "TENECTEPLASE"
-predicted_indications: ["posteroinferior myocardial infarction", "posterolateral myocardial infarction", "septal myocardial infarction", "congenital coronary artery anomaly", "coronary stenosis", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "hemolytic anemia due to glucophosphate isomerase deficiency", "pyropoikilocytosis, hereditary", "pyruvate kinase deficiency of red cells"]
+predicted_indications: ["congenital coronary artery anomaly", "coronary stenosis", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "hemolytic anemia due to glucophosphate isomerase deficiency", "pyropoikilocytosis, hereditary", "pyruvate kinase deficiency of red cells"]
 ---
 
 # Tenecteplase

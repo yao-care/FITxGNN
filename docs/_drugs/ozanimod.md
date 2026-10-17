@@ -7,8 +7,6 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Ozanimod: ennustettu uusi käyttöaihe Etenevä uusiutuva MS-tauti (progressive relapsing multiple sclerosis) (näytön taso L4). Alkuperäinen käyttöaihe: Uusiutuva-remittoiva MS-tauti"
-monitor_inn: "Ozanimod"
-predicted_indications: ["progressive relapsing multiple sclerosis"]
 ---
 
 # Ozanimod

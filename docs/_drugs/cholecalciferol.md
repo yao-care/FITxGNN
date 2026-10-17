@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-13
 description: "Cholecalciferol: ennustettu uusi käyttöaihe Munuaisluustotauti (renal osteodystrophy) (näytön taso L2). Alkuperäinen käyttöaihe: Postmenopausaalinen osteoporoosi"
 monitor_inn: "Cholecalciferol"
-predicted_indications: ["familial isolated hypoparathyroidism due to impaired PTH secretion", "acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "Dahlberg-Borer-Newcomer syndrome", "hypophosphatemic rickets", "renal osteodystrophy", "renal tubular acidosis"]
+predicted_indications: ["acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "Dahlberg-Borer-Newcomer syndrome", "renal tubular acidosis"]
 ---
 
 # Cholecalciferol

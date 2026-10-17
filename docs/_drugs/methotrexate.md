@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Methotrexate: ennustettu uusi käyttöaihe Hodgkinin lymfoomaan (valittu näytön perusteella (näytön taso L5). Alkuperäinen käyttöaihe: Psoriaattinen artriitti, akuutti lymfoblastileukemia/lymfooma…"
 monitor_inn: "METHOTREXATE"
-predicted_indications: ["pulmonary blastoma", "primary pulmonary lymphoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung", "Hodgkins lymphoma", "rhabdomyosarcoma (disease)", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
+predicted_indications: ["pulmonary blastoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 ---
 
 # Methotrexate

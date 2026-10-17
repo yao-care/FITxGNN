@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Ranibizumab: ennustettu uusi käyttöaihe Vaikea ei-proliferatiivinen diabeettinen retinopatia (näytön taso L5). Alkuperäinen käyttöaihe: Kostea silmänpohjan ikärappeuma, makulaturvotus…"
 monitor_inn: "RANIBIZUMAB"
-predicted_indications: ["severe nonproliferative diabetic retinopathy", "immature cataract", "mature cataract", "diabetes mellitus type 2 associated cataract", "tetanic cataract", "craniostenosis cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "hemorrhagic disease of newborn"]
+predicted_indications: ["immature cataract", "mature cataract", "diabetes mellitus type 2 associated cataract", "tetanic cataract", "craniostenosis cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "hemorrhagic disease of newborn"]
 ---
 
 # Ranibizumab

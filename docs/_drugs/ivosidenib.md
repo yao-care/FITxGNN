@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-13
 description: "Ivosidenib: ennustettu uusi käyttöaihe Bulbaarinen polio (näytön taso L5). Alkuperäinen käyttöaihe: Akuutti myeloidileukemia"
 monitor_inn: "IVOSIDENIB"
-predicted_indications: ["bulbar polio", "acute myeloid leukemia and myelodysplastic syndromes related to alkylating agent", "acute myeloid leukemia and myelodysplastic syndromes related to radiation"]
+predicted_indications: ["bulbar polio"]
 ---
 
 # Ivosidenib

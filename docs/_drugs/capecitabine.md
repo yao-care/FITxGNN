@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Capecitabine: ennustettu uusi käyttöaihe Mahalaukun adenokarsinooma ja mahalaukun proksimaalinen polypoosi (en… (näytön taso L5). Alkuperäinen käyttöaihe: Paksusuolen syöpä, rintasyöpä, kolorektaalis…"
 monitor_inn: "CAPECITABINE"
-predicted_indications: ["gastric adenocarcinoma and proximal polyposis of the stomach", "microinvasive gastric cancer", "gastric tubular adenocarcinoma", "signet ring cell gastric adenocarcinoma", "gastric cardia adenocarcinoma", "carcinoma of stomach, salivary gland type", "gastric pylorus carcinoma", "gastric body carcinoma", "Epstein-Barr virus-associated gastric carcinoma", "malignant gastric granular cell tumor"]
+predicted_indications: ["gastric adenocarcinoma and proximal polyposis of the stomach", "gastric tubular adenocarcinoma", "signet ring cell gastric adenocarcinoma", "gastric cardia adenocarcinoma"]
 ---
 
 # Capecitabine

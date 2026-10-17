@@ -6,9 +6,9 @@ nav_order: 263
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-monitor_inn: "LEVOFLOXACIN"
-predicted_indications: ["punctate epithelial keratoconjunctivitis", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder"]
 description: "Levofloxacin: ennustettu uusi käyttöaihe Pistemäinen epiteliaalinen keratokonjunktiviitti (näytön taso L5). Alkuperäinen käyttöaihe: Kystinen fibroosi"
+monitor_inn: "LEVOFLOXACIN"
+predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder"]
 ---
 
 # Levofloxacin

@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-13
 description: "Insulin Degludec: ennustettu uusi käyttöaihe Tyypin 1 diabetes (type 1 diabetes mellitus) (näytön taso L1). Alkuperäinen käyttöaihe: Diabetes mellitus"
 monitor_inn: "INSULIN DEGLUDEC"
-predicted_indications: ["type 1 diabetes mellitus", "autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome"]
+predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome"]
 ---
 
 # Insulin Degludec

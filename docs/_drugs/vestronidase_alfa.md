@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-10-13
 description: "Vestronidase Alfa: ennustettu uusi käyttöaihe Scheien oireyhtymä (näytön taso L5). Alkuperäinen käyttöaihe: Mukopolysakkaridoosi VII"
 monitor_inn: "VESTRONIDASE ALFA"
-predicted_indications: ["Scheie syndrome", "lysosomal storage disease with skeletal involvement", "Hurler syndrome", "Sanfilippo syndrome", "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye", "ptosis-vocal cord paralysis syndrome", "ptosis-strabismus-ectopic pupils syndrome", "ptosis-upper ocular movement limitation-absence of lacrimal punctum syndrome", "congenital Horner syndrome (disease)"]
+predicted_indications: ["camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye", "ptosis-vocal cord paralysis syndrome", "ptosis-strabismus-ectopic pupils syndrome", "ptosis-upper ocular movement limitation-absence of lacrimal punctum syndrome", "congenital Horner syndrome (disease)"]
 ---
 
 # Vestronidase Alfa

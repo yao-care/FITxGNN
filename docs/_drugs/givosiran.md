@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Givosiran: ennustettu uusi käyttöaihe Hepatoportaaliskleroosi (näytön taso L5). Alkuperäinen käyttöaihe: Maksaperäiset porfyriat (Porphyrias, Hepatic)"
 monitor_inn: "GIVOSIRAN"
-predicted_indications: ["hepatoportal sclerosis", "primitive portal vein thrombosis", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "idiopathic copper-associated cirrhosis", "chronic hepatitis C virus infection", "glycogen storage disease due to hepatic glycogen synthase deficiency", "chronic hepatitis B virus infection", "porphyria due to ALA dehydratase deficiency", "disorder of phenylalanine metabolism"]
+predicted_indications: ["hepatoportal sclerosis", "primitive portal vein thrombosis", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "idiopathic copper-associated cirrhosis", "chronic hepatitis C virus infection", "glycogen storage disease due to hepatic glycogen synthase deficiency", "chronic hepatitis B virus infection", "disorder of phenylalanine metabolism"]
 ---
 
 # Givosiran

@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-13
 description: "Risperidone: ennustettu uusi käyttöaihe Familiaalinen horisontaalinen katseen halvaus ja etenevä skolioosi (näytön taso L5). Alkuperäinen käyttöaihe: Skitsofrenia"
 monitor_inn: "RISPERIDONE"
-predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "asperger syndrome, susceptibility to", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania", "major affective disorder"]
+predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "asperger syndrome, susceptibility to", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania"]
 ---
 
 # Risperidone

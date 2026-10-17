@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Vonicog Alfa: ennustettu uusi käyttöaihe Primaarinen verihiutaleiden vapautumishäiriö (näytön taso L5). Alkuperäinen käyttöaihe: von Willebrandin tauti"
 monitor_inn: "VONICOG ALFA"
-predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "pseudo-von Willebrand disease", "hemophilia", "Scott syndrome", "acquired coagulation factor deficiency", "Von Willebrand disease, X-linked form", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency"]
+predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "hemophilia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency"]
 ---
 
 # Vonicog Alfa

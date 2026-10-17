@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-13
 description: "Golimumab: ennustettu uusi käyttöaihe Reumatoidivaskuliitti (sijoitus 1) (näytön taso L5). Alkuperäinen käyttöaihe: Nivelpsoriaasi, selkärankareuma, haavainen paksusuolitulehdus…"
 monitor_inn: "GOLIMUMAB"
-predicted_indications: ["rheumatoid vasculitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "polyarticular juvenile rheumatoid arthritis"]
+predicted_indications: ["hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease"]
 ---
 
 # Golimumab

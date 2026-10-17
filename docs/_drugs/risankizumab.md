@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Risankizumab: ennustettu uusi käyttöaihe Dermatiitti (ihottuma) (näytön taso L2). Alkuperäinen käyttöaihe: Psoriaasi, psoriaattinen niveltulehdus, haavainen paksusuolitulehdus…"
 monitor_inn: "RISANKIZUMAB"
-predicted_indications: ["dermatitis", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acrodermatitis chronica atrophicans", "acne keloid", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
+predicted_indications: ["neonatal dermatomyositis", "amyopathic dermatomyositis", "acrodermatitis chronica atrophicans", "acne keloid", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "acute lichenoid pityriasis"]
 ---
 
 # Risankizumab

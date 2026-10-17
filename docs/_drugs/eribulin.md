@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Eribulin: ennustettu uusi käyttöaihe Fibroblastinen neoplasma (esim. yksittäinen kuituinen kasvain, SFT) (näytön taso L5). Alkuperäinen käyttöaihe: Rintasyöpä (Breast Neoplasms), liposarkooma"
 monitor_inn: "ERIBULIN"
-predicted_indications: ["autosomal recessive familial Mediterranean fever", "dermatofibrosarcoma protuberans", "pleural mesothelioma", "malignant peritoneal mesothelioma", "ovarian myxoid liposarcoma", "pleural adenomatoid tumor", "pleural biphasic mesothelioma", "fibroblastic neoplasm", "pleural epithelioid mesothelioma", "heart fibrosarcoma"]
+predicted_indications: ["autosomal recessive familial Mediterranean fever", "dermatofibrosarcoma protuberans", "pleural mesothelioma", "malignant peritoneal mesothelioma", "pleural adenomatoid tumor", "pleural biphasic mesothelioma", "fibroblastic neoplasm", "pleural epithelioid mesothelioma", "heart fibrosarcoma"]
 ---
 
 # Eribulin

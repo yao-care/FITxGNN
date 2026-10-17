@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-10-13
 description: "Deferiprone: ennustettu uusi käyttöaihe Maksaporfyria (näytön taso L4). Alkuperäinen käyttöaihe: Beta-talassemia"
 monitor_inn: "DEFERIPRONE"
-predicted_indications: ["hepatic porphyria", "idiopathic copper-associated cirrhosis", "hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "primitive portal vein thrombosis", "pyruvate kinase deficiency of red cells", "beta-thalassemia with other manifestations", "pyropoikilocytosis, hereditary"]
+predicted_indications: ["hepatic porphyria", "idiopathic copper-associated cirrhosis", "hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "primitive portal vein thrombosis", "pyruvate kinase deficiency of red cells", "pyropoikilocytosis, hereditary"]
 ---
 
 # Deferiprone

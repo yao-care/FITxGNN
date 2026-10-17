@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Melphalan: ennustettu uusi käyttöaihe Gonadaalinen itusolukasvain (näytön taso L2). Alkuperäinen käyttöaihe: Multippeli myelooma, Hodgkinin tauti, non-Hodgkin-lymfooma…"
 monitor_inn: "Melphalan"
-predicted_indications: ["gonadal germ cell tumor", "ovarian primitive germ cell tumor", "choriocarcinoma of ovary", "female breast carcinoma", "malignant non-epithelial tumor of ovary", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma"]
+predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma"]
 ---
 
 # Melphalan

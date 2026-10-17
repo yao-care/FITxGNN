@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Peginterferon Alfa-2A: ennustettu uusi käyttöaihe Hepatiitti B -virusinfektio (näytön taso L4). Alkuperäinen käyttöaihe: Krooninen hepatiitti C, krooninen hepatiitti B, aito punasolutauti…"
 monitor_inn: "PEGINTERFERON ALFA-2A"
-predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "heart conduction disease", "heart neoplasm", "heart valve disease", "congenital anomaly of ventricular septum"]
+predicted_indications: ["hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "heart conduction disease", "heart neoplasm", "heart valve disease", "congenital anomaly of ventricular septum"]
 ---
 
 # Peginterferon Alfa-2A

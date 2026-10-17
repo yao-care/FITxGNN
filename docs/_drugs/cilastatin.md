@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Cilastatin: ennustettu uusi käyttöaihe Staphylococcus aureus -infektio (näytön taso L5). Alkuperäinen käyttöaihe: Gramnegatiiviset bakteeri-infektiot"
 monitor_inn: "Cilastatin"
-predicted_indications: ["staphylococcus aureus infection", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "sinusitis", "paranasal sinus neoplasm (disease)", "pneumonia", "paratyphoid fever", "bronchitis", "diffuse scleroderma", "salmonellosis"]
+predicted_indications: ["staphylococcus aureus infection", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "sinusitis", "paranasal sinus neoplasm (disease)", "paratyphoid fever", "bronchitis", "diffuse scleroderma", "salmonellosis"]
 ---
 
 # Cilastatin

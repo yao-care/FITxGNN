@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-13
 description: "Bupivacaine: ennustettu uusi käyttöaihe Krooninen atrofinen akrodermatiitti (acrodermatitis chronica atrophic… (näytön taso L5). Alkuperäinen käyttöaihe: Akuutti kipu"
 monitor_inn: "BUPIVACAINE"
-predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis"]
+predicted_indications: ["neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis"]
 ---
 
 # Bupivacaine

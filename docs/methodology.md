@@ -91,8 +91,7 @@ Tuotteen yleiskuvaus: <https://www.yao.care/medical/txgnn/>.
 
 Itse TxGNN-mallin on kehittänyt Zitnik Lab Harvard Medical Schoolissa, ja se on julkaistu
 *Nature Medicine* -lehdessä. Tämä alusta on tuotantojärjestelmä, jonka 藥提醒科技有限公司 on rakentanut
-kyseisen mallin päälle. Se kattaa kansallisten lääkerekisteritietojen integroinnin, tietograafiin ja
-syväoppimiseen perustuvan kaksoisennusteen, PubMed- ja ClinicalTrials-näytön luokittelun sekä
+kyseisen mallin päälle. Se kattaa kansallisten lääkerekisteritietojen integroinnin, syväoppimiseen perustuvan ennusteen, josta tietograafiin jo kirjatut käyttöaiheet on suljettu pois, PubMed- ja ClinicalTrials-näytön luokittelun sekä
 SMART on FHIR -integraation potilastietojärjestelmiin.
 
 ---

@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-13
 description: "Ezetimibe: ennustettu uusi käyttöaihe Hyperlipoproteinemia (näytön taso L1). Alkuperäinen käyttöaihe: Hyperkolesterolemia, dyslipidemiat"
 monitor_inn: "EZETIMIBE"
-predicted_indications: ["cholesterol-ester transfer protein deficiency"]
+predicted_indications: ["hyperlipoproteinemia", "cholesterol-ester transfer protein deficiency"]
 ---
 
 # Ezetimibe

@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-13
 description: "Bexarotene: ennustettu uusi käyttöaihe Primaarinen ihon B-solulymfooma (näytön taso L5). Alkuperäinen käyttöaihe: Ihon T-solulymfooma"
 monitor_inn: "BEXAROTENE"
-predicted_indications: ["primary cutaneous B-cell lymphoma", "lymphosarcoma"]
+predicted_indications: ["primary cutaneous B-cell lymphoma", "Sezary syndrome", "lymphosarcoma"]
 ---
 
 # Bexarotene

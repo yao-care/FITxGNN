@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Telmisartan: ennustettu uusi käyttöaihe Prinzmetalin angiina (näytön taso L5). Alkuperäinen käyttöaihe: Kohonnut verenpaine (hypertensio)"
 monitor_inn: "TELMISARTAN"
-predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyloidosis", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "intracerebral hemorrhage"]
+predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyloidosis", "cerebral artery occlusion", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "intracerebral hemorrhage", "Braddock syndrome"]
 ---
 
 # Telmisartan

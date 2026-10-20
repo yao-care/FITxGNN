@@ -7,8 +7,6 @@ evidence_level: L1
 indication_count: 2
 last_modified_at: 2026-10-13
 description: "Tazobactam: ennustettu uusi käyttöaihe Keuhkokuume (toissijainen ennuste: virtsatieinfektio) (näytön taso L1). Alkuperäinen käyttöaihe: Bakteeri-infektiot"
-monitor_inn: "Tazobactam"
-predicted_indications: ["urinary tract infection (disease)"]
 ---
 
 # Tazobactam

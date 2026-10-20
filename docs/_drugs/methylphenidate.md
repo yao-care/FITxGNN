@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-13
 description: "Methylphenidate: ennustettu uusi käyttöaihe Faciodigitogenitaalinen oireyhtymä (näytön taso L5). Alkuperäinen käyttöaihe: Tarkkaavaisuus- ja ylivilkkaushäiriö (ADHD)"
 monitor_inn: "Methylphenidate"
-predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "dysthymic disorder"]
+predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "dysthymic disorder"]
 ---
 
 # Methylphenidate

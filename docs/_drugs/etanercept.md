@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-13
 description: "Etanercept: ennustettu uusi käyttöaihe Reumaattinen vaskuliitti (näytön taso L4). Alkuperäinen käyttöaihe: Nivelreuma, lastenreuma, nivelpsoriaasi, spondyloartropatiat…"
 monitor_inn: "ETANERCEPT"
-predicted_indications: ["inflammatory spondylopathy", "vertebral disease"]
+predicted_indications: ["hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
 ---
 
 # Etanercept

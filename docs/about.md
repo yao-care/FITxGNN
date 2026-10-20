@@ -92,7 +92,7 @@ harvinaisissa sairauksissa."
 <tr><th>Tyyppi</th><th>Lähde</th><th>Kuvaus</th></tr>
 </thead>
 <tbody>
-<tr><td>Tekoälyennuste</td><td><a href="https://zitniklab.hms.harvard.edu/projects/TxGNN/">TxGNN</a></td><td>Harvardin tietograafiin perustuva ennustemalli</td></tr>
+<tr><td>Tekoälyennuste</td><td><a href="https://zitniklab.hms.harvard.edu/projects/TxGNN/">TxGNN</a></td><td>Harvardin graafineuroverkko, koulutettu tietograafilla</td></tr>
 <tr><td>Kliiniset tutkimukset</td><td><a href="https://clinicaltrials.gov/">ClinicalTrials.gov</a></td><td>Maailmanlaajuinen kliinisten tutkimusten rekisteri</td></tr>
 <tr><td>Kirjallisuus</td><td><a href="https://pubmed.ncbi.nlm.nih.gov/">PubMed</a></td><td>Biolääketieteellisen kirjallisuuden tietokanta</td></tr>
 <tr><td>Lääketiedot</td><td><a href="https://go.drugbank.com/">DrugBank</a></td><td>Lääke- ja kohdemolekyylitietokanta</td></tr>

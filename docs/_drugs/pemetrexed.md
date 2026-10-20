@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-13
 description: "Pemetrexed: ennustettu uusi käyttöaihe Vatsakalvon pahanlaatuinen mesotelioma (malignant peritoneal mesothel… (näytön taso L2). Alkuperäinen käyttöaihe: Mesotelioomaa"
 monitor_inn: "PEMETREXED"
-predicted_indications: ["pleural adenomatoid tumor", "pericardium cancer", "iminoglycinuria"]
+predicted_indications: ["pleural adenomatoid tumor", "pleural biphasic mesothelioma", "pericardium cancer", "well differentiated papillary mesothelioma", "lymphohistiocytoid mesothelioma", "iminoglycinuria"]
 ---
 
 # Pemetrexed

@@ -3,7 +3,7 @@ layout: default
 title: Menetelmät
 nav_order: 91
 permalink: /methodology/
-description: "Miten FITxGNN tuottaa ja validoi ennusteet: TxGNN-tietograafiennuste, näytön kerääminen, L1–L5-luokittelu ja päätössuositukset."
+description: "Miten FITxGNN tuottaa ja validoi ennusteet: TxGNN-mallin (syväoppiminen) ennuste, näytön kerääminen, L1–L5-luokittelu ja päätössuositukset."
 ---
 
 # Menetelmät
@@ -17,13 +17,13 @@ Tekoälyennusteesta näytön luokitteluun — jokaisen ehdokkaan arviolla on jä
 ## Kokonaisprosessi
 
 <p class="key-answer" data-question="Miten FITxGNN tuottaa ennusteensa?">
-Alusta käyttää neljävaiheista prosessia: TxGNN-tietograafimalli ennustaa mahdollisia
+Alusta käyttää neljävaiheista prosessia: TxGNN-malli (syväoppiminen) ennustaa mahdollisia
 lääkkeen ja sairauden välisiä yhteyksiä, minkä jälkeen jokaiselle ennustetulle parille kerätään
 automaattisesti näyttöä, näyttö luokitellaan tasoille L1–L5 ja lopuksi annetaan päätössuositus.
 </p>
 
 <ol class="actionable-steps">
-<li><strong>TxGNN-ennuste</strong>: lääkkeen ja sairauden väliset suhteet ennustetaan tietograafin ja graafineuroverkkojen yhdistelmällä.</li>
+<li><strong>TxGNN-ennuste</strong>: lääkkeen ja sairauden väliset suhteet ennustaa TxGNN-malli (syväoppiminen: biolääketieteellisellä tietograafilla koulutettu graafineuroverkko).</li>
 <li><strong>Näytön kerääminen</strong>: jokaiselle ennustetulle parille kerätään näyttöä lähteistä ClinicalTrials.gov, PubMed, DrugBank ja Fimea.</li>
 <li><strong>Näytön luokittelu</strong>: luokitus tasoille L1–L5, joissa L1 on vahvin (useita vaiheen 3 RCT-tutkimuksia) ja L5 tarkoittaa pelkkää mallin ennustetta.</li>
 <li><strong>Päätössuositus</strong>: Go, Proceed, Consider, Explore tai Hold näytön tason perusteella.</li>

@@ -1,18 +1,8 @@
 {
-  "fetched_at": "2026-10-25T14:36:42.666025+00:00",
+  "fetched_at": "2026-10-25T17:55:07.732447+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
-    {
-      "id": "80b112525aea",
-      "title": "600 000 suomalaiselle määrätään tätä lääkettä, vaikka osalla oireiden todellinen syy voi olla aivan toinen - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTFpiZmVYRjlGWjJCMXBiTHlLNVMwMFd3WllXNVNRZEthd0RLV0lmZHc5M3BDVDE0ZjFXVEoxZ3d4aXRuWTlrMUhTcU15d1QzVkx3Q1lQNGFLLWFnY2tzMWhGc0hwNGN0aV8wWVJlalBBNjZoN0JqZUhmNVdFODFDamE2aTM?oc=5",
-      "published": "2026-10-23T11:05:09+00:00",
-      "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
-      }
-    },
     {
       "id": "d47754bf7d73",
       "title": "Tehokas apu migreeniin ilman kalliita lääkkeitä – erikoislääkäri paljastaa toimivat keinot: ”Auttavat yllättävän monia” - Ilta-Sanomat",
@@ -21,6 +11,16 @@
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
+      }
+    },
+    {
+      "id": "80b112525aea",
+      "title": "600 000 suomalaiselle määrätään tätä lääkettä, vaikka osalla oireiden todellinen syy voi olla aivan toinen - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTFpiZmVYRjlGWjJCMXBiTHlLNVMwMFd3WllXNVNRZEthd0RLV0lmZHc5M3BDVDE0ZjFXVEoxZ3d4aXRuWTlrMUhTcU15d1QzVkx3Q1lQNGFLLWFnY2tzMWhGc0hwNGN0aV8wWVJlalBBNjZoN0JqZUhmNVdFODFDamE2aTM?oc=5",
+      "published": "2026-10-23T11:05:09+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
       }
     },
     {
@@ -374,16 +374,6 @@
       }
     },
     {
-      "id": "7d52a3f36f9a",
-      "title": "Lääkkeiden hinnat muuttuivat - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWDhPOWJpZndkUlNtZTA2TzdpbjBTWHhvdDJZUzFScEl0NTFqcWZNUjlJZmg5eUZvdHlHc0xDY0xpZndIQjhoTlR5eDNTNE1JdU8yWXBWajRiX2VTV0gzVHBkZG02dnYwWldyTkRLeExGMkM3ekNRMkN3MWRrbXhIbUUxUTU?oc=5",
-      "published": "2026-01-03T08:00:00+00:00",
-      "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
-      }
-    },
-    {
       "id": "554d47140e03",
       "title": "Kaksi yleistä lääkettä, joilla voi olla yllättäviä terveyshyötyjä – toinen voi auttaa rasvamaksaan - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9NUEUtNW94amFENi1aam11MlN4ekRvanNoVWgzMjVuVWNLNHJyTklxdEFVOWxKdHk2czlDS0pObzFNNmlyRW5COFdOLUhTbENMWjd1MERhWXptZFQw?oc=5",
@@ -391,6 +381,16 @@
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
+      }
+    },
+    {
+      "id": "7d52a3f36f9a",
+      "title": "Lääkkeiden hinnat muuttuivat - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWDhPOWJpZndkUlNtZTA2TzdpbjBTWHhvdDJZUzFScEl0NTFqcWZNUjlJZmg5eUZvdHlHc0xDY0xpZndIQjhoTlR5eDNTNE1JdU8yWXBWajRiX2VTV0gzVHBkZG02dnYwWldyTkRLeExGMkM3ekNRMkN3MWRrbXhIbUUxUTU?oc=5",
+      "published": "2026-01-03T08:00:00+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
       }
     },
     {

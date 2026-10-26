@@ -1,18 +1,8 @@
 {
-  "fetched_at": "2026-10-25T22:51:48.265939+00:00",
+  "fetched_at": "2026-10-26T00:47:21.366707+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
-    {
-      "id": "d47754bf7d73",
-      "title": "Tehokas apu migreeniin ilman kalliita lääkkeitä – erikoislääkäri paljastaa toimivat keinot: ”Auttavat yllättävän monia” - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9jVFEyRjZvN2l5UndCSElpeHhVUDFnX0FFY01rQWJZRDBVRWNRSl9Vc3NaR2pBRk0yeWJ3N0oxd3FMMGFXQlo0SnEwb2JfNEgtQVhvdmFMc29zUUVV?oc=5",
-      "published": "2026-10-25T12:00:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
-      }
-    },
     {
       "id": "80b112525aea",
       "title": "600 000 suomalaiselle määrätään tätä lääkettä, vaikka osalla oireiden todellinen syy voi olla aivan toinen - Iltalehti",
@@ -24,10 +14,20 @@
       }
     },
     {
+      "id": "d47754bf7d73",
+      "title": "Tehokas apu migreeniin ilman kalliita lääkkeitä – erikoislääkäri paljastaa toimivat keinot: ”Auttavat yllättävän monia” - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9jVFEyRjZvN2l5UndCSElpeHhVUDFnX0FFY01rQWJZRDBVRWNRSl9Vc3NaR2pBRk0yeWJ3N0oxd3FMMGFXQlo0SnEwb2JfNEgtQVhvdmFMc29zUUVV?oc=5",
+      "published": "2026-10-25T12:00:00+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
+      }
+    },
+    {
       "id": "3c6baacfc708",
       "title": "Syöpähoidoissa tapahtunut merkittävä muutos - Iltalehti",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5HUEg0RFA5VFQ4VEZiZTVvTDY4Q3V0UmI1dHRiWVJKcFlaLVhLX05TbHk3alRzcDBYRnBLWUdHTTJ3LWNUQWJtY3FaTGI5VDJWaVJvcWpyRng4VWhRRFNhb3Uxei1jcWZLMkJrczIxZlVXVHVlNTZVbA?oc=5",
-      "published": "2026-10-25T08:57:57+00:00",
+      "published": "2026-10-26T00:06:41+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
@@ -98,16 +98,6 @@
       "title": "Käytätkö tätä lääkettä nukahtamiseen? Uusi ohje hämmentää: Ei suositella - Iltalehti",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNU0czRzI5RmU0QlVSWkstd2FFdTcyZnBnUmhmbll6cHNncVBYWm1sSHZVMUtLc05zaElpaXFVaWdzZFB0b2c2akRyNGlnZHp4SXdCcUFzX2FCSW1YcUZBWlM0YUJfandSUWxVZmtqVXNRbGQtMnIxR05KWnIzNUxmVUJidWg?oc=5",
       "published": "2026-10-14T07:00:00+00:00",
-      "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
-      }
-    },
-    {
-      "id": "b2bd31371a04",
-      "title": "SSRI-lääkkeen kääntöpuoli tulee yllätyksenä – Kahdeksan piinaavaa sivuoiretta - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9xNnZvdWZUeExPb2lwNjlaanNPWW81bHlVRVp5S01WZi1fbjIzellmb3FFWmVQSmlySVVTcFo0cGU5WWlGUlo4N3pVX18wdVZQanVFRVgxNUtYOVhBRzZtVW1VUnNBa19pWVVBaFo0MWVXWkJyR1gzMElQaw?oc=5",
-      "published": "2026-10-21T10:48:30+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
@@ -974,12 +964,12 @@
       }
     },
     {
-      "id": "f896343b0313",
-      "title": "Naiskeho, mieslääkkeet - helsinki.fi",
+      "id": "908b4cf14ccc",
+      "title": "Naiskeho, mieslääkkeet - Helsinki.fi",
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9sal83eUcxREU3b281RFhiXzY2TWNoZHYyX1JqTjVDbnFRR3J2Y3lOX0FvSFVJT3BZZW5kOHBhR2w4VW1hanFMSmV2LVNVTWRHNTlzRWlrSVhtSktfZEVaQjl3MXJNdGtzZ3h1OVFNWnl6RGVjZE9od3d6dzE?oc=5",
       "published": "2025-04-28T07:00:00+00:00",
       "source": {
-        "name": "helsinki.fi",
+        "name": "Helsinki.fi",
         "url": "https://www.helsinki.fi"
       }
     },
@@ -998,6 +988,16 @@
       "title": "SYÖPÄ Kehitteillä lupaava uusi lääke melanoomaan: pysäyttää etenemisen jopa 90-prosenttisesti - Iltalehti",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9TVVU2SXJReFBsWmJMamdkN1diUWVDTTJ2NlNpUGRza3FJRFA0aE1iUHplWE9ZV2MtZmgydEo4YUJtNTllcXA1MXh2dGxnZGxoZHZXdVlPMThnWXFEaWRqTQ?oc=5",
       "published": "2017-01-06T08:00:00+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
+      }
+    },
+    {
+      "id": "85e11107d849",
+      "title": "Suomalaisten yleinen lääke aiheuttanut vakavia oireita alkoholin kanssa - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5aRThFcUozZWRzNVE3SjlsRDlSUlJublpSYlNFRzhXYTVQN0Nva201M1J4SHh0d0hKTjhLYmIzTXowc2lmd1RkS3UtdE1sYzk5TGdsUk5ZNVFIcUg5cnd6MmlzOXljMzlYOG41NVJUb3NuY1RvSHdVTWU5RXNIdw?oc=5",
+      "published": "2023-12-31T08:00:00+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"

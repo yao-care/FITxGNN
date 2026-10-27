@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Rasagiliini: Parkinsonin taudista PLA2G6-liitännäiseen neurodegeneraatioon
+## Rasagiliini: Parkinsonin taudista PLA2G6-liitännäiseen neurodegeneraatioon
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Simoktokogi alfa: Hemofilia A:sta pseudo-von Willebrandin tautiin
+## Simoktokogi alfa: Hemofilia A:sta pseudo-von Willebrandin tautiin
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

@@ -33,7 +33,8 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Grazopreviiri: Krooninen C-hepatiitti → HIV-infektio (HIV/HCV-yhteisinfektion hoito)
+## Grazopreviiri: Krooninen C-hepatiitti → HIV-infektio (HIV/HCV-yhteisinfektion hoito)
+{: .text-alpha }
 
 ## Yhteenveto
 

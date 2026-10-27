@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Rotigotiini: Parkinsonin taudista ja levottomien jalkojen oireyhtymästä tarkaksyn- ja ylivilkkaushäiriöön (ADHD)
+## Rotigotiini: Parkinsonin taudista ja levottomien jalkojen oireyhtymästä tarkaksyn- ja ylivilkkaushäiriöön (ADHD)
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

@@ -33,7 +33,8 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Paklitakseli: Rintasyövästä naisen rintakarsinooman laajempaan käyttöön
+## Paklitakseli: Rintasyövästä naisen rintakarsinooman laajempaan käyttöön
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

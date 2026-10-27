@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Levetirasetaami: Epilepsiasta status epilepticukseen
+## Levetirasetaami: Epilepsiasta status epilepticukseen
+{: .text-alpha }
 
 ## Yhteenveto
 

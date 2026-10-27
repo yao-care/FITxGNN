@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Selinexor: Multippelista myeloomasta lääkkeen aiheuttamaan osteoporoosiin
+## Selinexor: Multippelista myeloomasta lääkkeen aiheuttamaan osteoporoosiin
+{: .text-alpha }
 
 ## Yhteenveto
 

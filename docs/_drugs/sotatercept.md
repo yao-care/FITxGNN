@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Sotatercepti: Keuhkoverenpainetaudista akuuttiin lymfoblastileukemiaan
+## Sotatercepti: Keuhkoverenpainetaudista akuuttiin lymfoblastileukemiaan
+{: .text-alpha }
 
 ## Yhteenveto
 

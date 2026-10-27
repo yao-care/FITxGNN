@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Pregabaliini: Ahdistuneisuushäiriöistä ja epilepsiasta jänteen tulehdukseen (tendiniitti)
+## Pregabaliini: Ahdistuneisuushäiriöistä ja epilepsiasta jänteen tulehdukseen (tendiniitti)
+{: .text-alpha }
 
 ## Yhteenveto
 

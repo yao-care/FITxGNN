@@ -33,7 +33,8 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Glukagoni: Diabeteksesta ärtyneen suolen oireyhtymään
+## Glukagoni: Diabeteksesta ärtyneen suolen oireyhtymään
+{: .text-alpha }
 
 ## Yhteenveto
 

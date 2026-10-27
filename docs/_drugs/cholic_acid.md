@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Kolihappo: Ruoansulatuselinten sairauksista ja synnynnäisistä aineenvaihduntahäiriöistä HIV-infektioon
+## Kolihappo: Ruoansulatuselinten sairauksista ja synnynnäisistä aineenvaihduntahäiriöistä HIV-infektioon
+{: .text-alpha }
 
 ## Yhteenveto
 

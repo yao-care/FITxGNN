@@ -33,7 +33,8 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Merkaptopuriini: Imenninnäisleukemiasta myeloidiseen leukemiaan
+## Merkaptopuriini: Imenninnäisleukemiasta myeloidiseen leukemiaan
+{: .text-alpha }
 
 ## Yhteenveto
 

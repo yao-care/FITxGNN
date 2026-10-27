@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Nevirapiini: HIV-infektion hoidosta kissan immuunikatoon
+## Nevirapiini: HIV-infektion hoidosta kissan immuunikatoon
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

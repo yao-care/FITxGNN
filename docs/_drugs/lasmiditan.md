@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Lasmiditaani: Migreenistä aivorunkoauraan liittyvään migreeniin
+## Lasmiditaani: Migreenistä aivorunkoauraan liittyvään migreeniin
+{: .text-alpha }
 
 ## Yhteenveto
 

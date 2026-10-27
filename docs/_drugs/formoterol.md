@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Formoteroli: Keuhkoahtaumataudista hengityselinten epämuodostumaan
+## Formoteroli: Keuhkoahtaumataudista hengityselinten epämuodostumaan
+{: .text-alpha }
 
 ## Yhteenveto
 

@@ -33,7 +33,8 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Ambrisentaani: Keuhkovaltimoverenpaineesta sidekudossairauteen liittyvään keuhkovaltimoverenpaineeseen
+## Ambrisentaani: Keuhkovaltimoverenpaineesta sidekudossairauteen liittyvään keuhkovaltimoverenpaineeseen
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

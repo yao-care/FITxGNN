@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-# Lonoctokogi alfa: Hemofilia A:sta pseudo-von Willebrandin tautiin
+## Lonoctokogi alfa: Hemofilia A:sta pseudo-von Willebrandin tautiin
+{: .text-alpha }
 
 ## Yhteenveto
 

@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Olopatadiini: allergisesta sidekalvotulehduksesta ruusufinnin sidekalvotulehdukseen
+## Olopatadiini: allergisesta sidekalvotulehduksesta ruusufinnin sidekalvotulehdukseen
+{: .text-alpha }
 
 ## Yhden virkkeen yhteenveto
 

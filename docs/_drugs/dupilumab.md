@@ -33,7 +33,8 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Dupilumabi: Atooppisesta ihottumasta keuhkoputkentulehdukseen
+## Dupilumabi: Atooppisesta ihottumasta keuhkoputkentulehdukseen
+{: .text-alpha }
 
 ## Yhden virkkeen yhteenveto
 

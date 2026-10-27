@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Baricitinibi: Nivelreumasta kolobomatoottiseen mikroftalmia-rhizomeeliseen dysplasiaoireyhtymään
+## Baricitinibi: Nivelreumasta kolobomatoottiseen mikroftalmia-rhizomeeliseen dysplasiaoireyhtymään
+{: .text-alpha }
 
 ## Yhden lauseen tiivistelmä
 

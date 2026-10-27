@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **7** kpl
 
 </div>
 
-# Pleriksafori: Multippeli myelooma ja kantasolusiirto → indolentti plasmasolumyelooma
+## Pleriksafori: Multippeli myelooma ja kantasolusiirto → indolentti plasmasolumyelooma
+{: .text-alpha }
 
 ## Yhden virkkeen yhteenveto
 

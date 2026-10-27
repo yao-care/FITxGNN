@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-# Abaloparatidi: Postmenopausaalisesta osteoporoosista ei-syndrooman ruokatorven epämuodostumaan
+## Abaloparatidi: Postmenopausaalisesta osteoporoosista ei-syndrooman ruokatorven epämuodostumaan
+{: .text-alpha }
 
 ## Yhteenveto
 

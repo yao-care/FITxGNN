@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Mykofenolaattimofetiili: Elinsiirteen hylkimisen estosta HIV-infektioon
+## Mykofenolaattimofetiili: Elinsiirteen hylkimisen estosta HIV-infektioon
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

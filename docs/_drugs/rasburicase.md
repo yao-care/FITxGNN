@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Rasburikaasi: Hyperurikemian hoidosta munuaisperäiseen hypourikemiaan
+## Rasburikaasi: Hyperurikemian hoidosta munuaisperäiseen hypourikemiaan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

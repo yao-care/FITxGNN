@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Levofloksasiini: Hengitystieinfektioista ja kystisestä fibroosista monoklonaaliseen gammopatiaan
+## Levofloksasiini: Hengitystieinfektioista ja kystisestä fibroosista monoklonaaliseen gammopatiaan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

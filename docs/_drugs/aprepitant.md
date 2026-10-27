@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Aprepitantti: Pahoinvoinnin ja oksentelun hoidosta nefrogeeniseen antidiureesin epäasianmukaisen erityksen oireyhtymään (NSIAD)
+## Aprepitantti: Pahoinvoinnin ja oksentelun hoidosta nefrogeeniseen antidiureesin epäasianmukaisen erityksen oireyhtymään (NSIAD)
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

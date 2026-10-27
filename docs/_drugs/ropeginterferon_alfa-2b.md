@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Ropeginterferoni alfa-2b: Polycythaemia veran hoidosta ennustettuun Laubry-Pezzin oireyhtymään
+## Ropeginterferoni alfa-2b: Polycythaemia veran hoidosta ennustettuun Laubry-Pezzin oireyhtymään
+{: .text-alpha }
 
 ## Yhteenveto
 

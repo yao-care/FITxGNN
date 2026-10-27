@@ -33,7 +33,8 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Pegaspargaasi: Precursor-solulymfoblastileukemia/-lymfooma → prekursorilymfoblastilymfooma/-leukemia
+## Pegaspargaasi: Precursor-solulymfoblastileukemia/-lymfooma → prekursorilymfoblastilymfooma/-leukemia
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

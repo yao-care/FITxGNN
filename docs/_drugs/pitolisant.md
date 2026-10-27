@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Pitolisantti: Narkolepsian ja uniapnean hoidosta unettomuuteen
+## Pitolisantti: Narkolepsian ja uniapnean hoidosta unettomuuteen
+{: .text-alpha }
 
 ## Yhden lauseen tiivistelmä
 

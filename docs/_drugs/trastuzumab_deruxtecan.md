@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Trastutsumabideruksekaani: Rintasyövästä lääkkeen aiheuttamaan osteoporoosiin
+## Trastutsumabideruksekaani: Rintasyövästä lääkkeen aiheuttamaan osteoporoosiin
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

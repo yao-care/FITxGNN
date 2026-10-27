@@ -33,7 +33,8 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **7** kpl
 
 </div>
 
-# Ikatibantti: Perinnöllisestä angioedeemasta C1-estäjän puutokseen
+## Ikatibantti: Perinnöllisestä angioedeemasta C1-estäjän puutokseen
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

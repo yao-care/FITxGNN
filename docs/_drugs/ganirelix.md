@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Ganireliksi: Hedelmöityshoidoista hypertrikoosiin
+## Ganireliksi: Hedelmöityshoidoista hypertrikoosiin
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Glysiini: Vaahterasiirappitaudista nenäontelon sairauteen
+## Glysiini: Vaahterasiirappitaudista nenäontelon sairauteen
+{: .text-alpha }
 
 ## Yhden virkkeen yhteenveto
 

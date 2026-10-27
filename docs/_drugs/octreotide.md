@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Oktreotidi: Akromegaliasta vulvan käänteiseen follikulaariseen keratoosiin
+## Oktreotidi: Akromegaliasta vulvan käänteiseen follikulaariseen keratoosiin
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

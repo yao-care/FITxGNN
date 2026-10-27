@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Leflunomidi: Nivelreumasta ja nivelpsoriaasista brakydaktylia-syndaktylia-oireyhtymään
+## Leflunomidi: Nivelreumasta ja nivelpsoriaasista brakydaktylia-syndaktylia-oireyhtymään
+{: .text-alpha }
 
 ## Yhteenveto
 

@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-# Regadenosoni: Sydänlihaksen perfuusiokuvantamisesta anafylaksiaan
+## Regadenosoni: Sydänlihaksen perfuusiokuvantamisesta anafylaksiaan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

@@ -31,7 +31,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-# Trastutsumabiemtansiini: Rintasyövästä progesteronireseptorinegatiiviseen rintasyöpään
+## Trastutsumabiemtansiini: Rintasyövästä progesteronireseptorinegatiiviseen rintasyöpään
+{: .text-alpha }
 
 ## Yhteenveto
 

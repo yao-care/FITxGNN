@@ -32,7 +32,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 
 </div>
 
-# ABIRATERONE ACETATE: Lääkkeen uudelleenkäytön arviointi — riittämättömät tiedot arvioinnille
+## ABIRATERONE ACETATE: Lääkkeen uudelleenkäytön arviointi — riittämättömät tiedot arvioinnille
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

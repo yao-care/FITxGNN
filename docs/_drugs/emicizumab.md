@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Emisitsumabi: Hemofilia A:sta hankinnaiseen hemofilia A:han (ennustettu uusi käyttöaihe: hankinnainen hyytymistekijän puutos)
+## Emisitsumabi: Hemofilia A:sta hankinnaiseen hemofilia A:han (ennustettu uusi käyttöaihe: hankinnainen hyytymistekijän puutos)
+{: .text-alpha }
 
 ## Yhden lauseen tiivistelmä
 

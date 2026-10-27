@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Ranibitsumabi: Kosteasta silmänpohjan rappeumasta vaikeaan ei-proliferatiiviseen diabeettiseen retinopatiaan
+## Ranibitsumabi: Kosteasta silmänpohjan rappeumasta vaikeaan ei-proliferatiiviseen diabeettiseen retinopatiaan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

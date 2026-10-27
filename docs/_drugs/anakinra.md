@@ -33,7 +33,8 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Anakinra: Nivelreumasta familiaaliseen Välimeren kuumeeseen
+## Anakinra: Nivelreumasta familiaaliseen Välimeren kuumeeseen
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Rivastigmiini: Dementiasta ja Alzheimerin taudista glaukoomaan
+## Rivastigmiini: Dementiasta ja Alzheimerin taudista glaukoomaan
+{: .text-alpha }
 
 ## Yhteenveto
 

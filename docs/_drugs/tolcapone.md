@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Tolkaponi: Parkinsonin taudista Rasmussenin subakuuttiin enkefaliittiin
+## Tolkaponi: Parkinsonin taudista Rasmussenin subakuuttiin enkefaliittiin
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

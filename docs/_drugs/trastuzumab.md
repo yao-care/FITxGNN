@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Trastutsumabi: Rintasyövästä ja mahalaukun syövästä ennustettuun uuteen käyttöaiheeseen (progesteronireseptorinegatiivinen rintasyöpä)
+## Trastutsumabi: Rintasyövästä ja mahalaukun syövästä ennustettuun uuteen käyttöaiheeseen (progesteronireseptorinegatiivinen rintasyöpä)
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

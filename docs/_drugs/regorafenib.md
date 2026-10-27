@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **8** kpl
 
 </div>
 
-# Regorafenibi: Kolorektaalisyövästä liposarkoomaan
+## Regorafenibi: Kolorektaalisyövästä liposarkoomaan
+{: .text-alpha }
 
 ## Yhteenveto
 

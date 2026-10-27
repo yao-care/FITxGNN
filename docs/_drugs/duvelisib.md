@@ -33,7 +33,8 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Duvelisibi: kroonisesta lymfaattisesta leukemiasta Hodgkinin lymfoomaan
+## Duvelisibi: kroonisesta lymfaattisesta leukemiasta Hodgkinin lymfoomaan
+{: .text-alpha }
 
 ## Yhteenveto
 

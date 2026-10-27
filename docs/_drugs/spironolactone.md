@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Spironolaktoni: Turvotuksesta ja sydämen vajaatoiminnasta hiuspohjan hypotrichosis simplexiin
+## Spironolaktoni: Turvotuksesta ja sydämen vajaatoiminnasta hiuspohjan hypotrichosis simplexiin
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

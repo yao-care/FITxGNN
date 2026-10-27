@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Tagraxofuspi: Lymfoomasta ennustettuun esotropiaan
+## Tagraxofuspi: Lymfoomasta ennustettuun esotropiaan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

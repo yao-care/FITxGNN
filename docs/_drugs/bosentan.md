@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **9** kpl
 
 </div>
 
-# Bosentaani: Systeemisestä skleroosta ja keuhkovaltimoiden verenpainetaudista rajoittuneeseen systeemiseen skleroosiin
+## Bosentaani: Systeemisestä skleroosta ja keuhkovaltimoiden verenpainetaudista rajoittuneeseen systeemiseen skleroosiin
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

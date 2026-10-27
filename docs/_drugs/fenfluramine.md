@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-# Fenfluramiini: Myokloonisesta epilepsiasta proksimaaliseen 16p11.2-mikrodeleetiosyndroomaan
+## Fenfluramiini: Myokloonisesta epilepsiasta proksimaaliseen 16p11.2-mikrodeleetiosyndroomaan
+{: .text-alpha }
 
 ## Yhteenveto
 

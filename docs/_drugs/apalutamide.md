@@ -32,7 +32,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 
 </div>
 
-# Apalutamidi: Uudelleenkäyttöarviointi — Ei ennusteita saatavilla
+## Apalutamidi: Uudelleenkäyttöarviointi — Ei ennusteita saatavilla
+{: .text-alpha }
 
 ## Yhteenveto
 

@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Eribuliini: Rintasyövästä ja liposarkoomasta fibroblastiseen neoplasmaan
+## Eribuliini: Rintasyövästä ja liposarkoomasta fibroblastiseen neoplasmaan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

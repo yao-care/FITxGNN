@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Kemiplimabi: Levyepiteelisyövästä (okasolusyöpä) sappirakon adenosquamous-karsinoomaan
+## Kemiplimabi: Levyepiteelisyövästä (okasolusyöpä) sappirakon adenosquamous-karsinoomaan
+{: .text-alpha }
 
 ## Yhteenveto
 

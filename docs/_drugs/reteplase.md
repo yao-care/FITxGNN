@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Reteplaasi: Sydäninfarktista posteroinferiorisen sydäninfarktin ennustettuun käyttöaiheeseen
+## Reteplaasi: Sydäninfarktista posteroinferiorisen sydäninfarktin ennustettuun käyttöaiheeseen
+{: .text-alpha }
 
 ## Yhden virkkeen yhteenveto
 

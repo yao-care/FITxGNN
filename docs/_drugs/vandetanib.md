@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Vandetanibi: Kilpirauhasen kasvaimesta munuaissolukarsinoomaan
+## Vandetanibi: Kilpirauhasen kasvaimesta munuaissolukarsinoomaan
+{: .text-alpha }
 
 ## Yhteenveto
 

@@ -33,7 +33,8 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Aspartinsuliini: Diabeteksesta tyypin 1 diabetekseen
+## Aspartinsuliini: Diabeteksesta tyypin 1 diabetekseen
+{: .text-alpha }
 
 ## Yhteenveto
 

@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Upadasitinibi: reumatoidiniveltulehduksesta kohti kolobomatoottisen mikroftalmia-rhizomeelisen dysplasiaoireyhtymän ennustetta
+## Upadasitinibi: reumatoidiniveltulehduksesta kohti kolobomatoottisen mikroftalmia-rhizomeelisen dysplasiaoireyhtymän ennustetta
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

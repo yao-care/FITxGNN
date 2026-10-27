@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Ivosidenibi: Akuutista myeloidileukemiasta ja sappitiesyövästä ennustettuun uuteen käyttöaiheeseen (bulbaarinen polio)
+## Ivosidenibi: Akuutista myeloidileukemiasta ja sappitiesyövästä ennustettuun uuteen käyttöaiheeseen (bulbaarinen polio)
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

@@ -33,7 +33,8 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Loksapiini: Skitsofreniasta ja kaksisuuntaisesta mielialahäiriöstä maaniseen kaksisuuntaiseen mielialahäiriöön
+## Loksapiini: Skitsofreniasta ja kaksisuuntaisesta mielialahäiriöstä maaniseen kaksisuuntaiseen mielialahäiriöön
+{: .text-alpha }
 
 ## Yhteenveto
 

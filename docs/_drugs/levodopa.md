@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Levodopa: Parkinsonin taudista Rasmussenin subakuuttiin enkefaliittiin
+## Levodopa: Parkinsonin taudista Rasmussenin subakuuttiin enkefaliittiin
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

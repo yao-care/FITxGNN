@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Empagliflotsiini: Tyypin 2 diabeteksesta fokaaliseen jäykän raajan oireyhtymään
+## Empagliflotsiini: Tyypin 2 diabeteksesta fokaaliseen jäykän raajan oireyhtymään
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

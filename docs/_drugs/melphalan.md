@@ -33,7 +33,8 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Melfalaani: Hematologisista syövistä gonadaaliseen itusolukasvaimeen
+## Melfalaani: Hematologisista syövistä gonadaaliseen itusolukasvaimeen
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

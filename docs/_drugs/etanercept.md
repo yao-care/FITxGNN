@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Etanerseptti: Nivelreumasta ennustettuun reumaattiseen vaskuliittiin
+## Etanerseptti: Nivelreumasta ennustettuun reumaattiseen vaskuliittiin
+{: .text-alpha }
 
 ## Yhteenveto
 

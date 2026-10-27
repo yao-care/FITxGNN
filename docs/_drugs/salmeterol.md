@@ -33,7 +33,8 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **7** kpl
 
 </div>
 
-# Salmeteroli: Astmasta keuhkoputkentulehdukseen
+## Salmeteroli: Astmasta keuhkoputkentulehdukseen
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

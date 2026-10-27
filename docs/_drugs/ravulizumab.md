@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Ravulitsumabi: Paroksysmaalisesta hemoglobinuriasta synnynnäiseen vaikeaan neutropeniaan (G6PC3-puutos)
+## Ravulitsumabi: Paroksysmaalisesta hemoglobinuriasta synnynnäiseen vaikeaan neutropeniaan (G6PC3-puutos)
+{: .text-alpha }
 
 ## Yhteenveto
 

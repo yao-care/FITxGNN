@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-# Metyylifenidaatti: Tarkkaavaisuus- ja ylivilkkaushäiriön hoidosta kohti faciodigitogenitaalista oireyhtymää
+## Metyylifenidaatti: Tarkkaavaisuus- ja ylivilkkaushäiriön hoidosta kohti faciodigitogenitaalista oireyhtymää
+{: .text-alpha }
 
 ## Yhteenveto
 

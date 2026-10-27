@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Hydroksokobalamiini: Myrkytyksen hoidosta ruokatorven suonikohjuihin
+## Hydroksokobalamiini: Myrkytyksen hoidosta ruokatorven suonikohjuihin
+{: .text-alpha }
 
 ## Yhden lauseen tiivistelmä
 

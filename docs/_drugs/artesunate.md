@@ -32,7 +32,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 
 </div>
 
-# Artesunaatti: Riittämättömät tiedot uudelleenkäyttöarvioinnissa
+## Artesunaatti: Riittämättömät tiedot uudelleenkäyttöarvioinnissa
+{: .text-alpha }
 
 ## Yhteenveto yhdessä lauseessa
 

@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Tobramysiini: Kystisen fibroosin hengitystieinfektioista eksponoitumiskeratiittiin
+## Tobramysiini: Kystisen fibroosin hengitystieinfektioista eksponoitumiskeratiittiin
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

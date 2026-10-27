@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Paliperidoni: Skitsofreniasta hoitoresistenttiin skitsofreniaan
+## Paliperidoni: Skitsofreniasta hoitoresistenttiin skitsofreniaan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

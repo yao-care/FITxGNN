@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-# Brolutsitsumabi: Silmänpohjan kosteasta ikärappeumasta ennustettuun mitokondriaaliseen oksidatiiviseen fosforylaatiohäiriöön
+## Brolutsitsumabi: Silmänpohjan kosteasta ikärappeumasta ennustettuun mitokondriaaliseen oksidatiiviseen fosforylaatiohäiriöön
+{: .text-alpha }
 
 ## Yhteenveto
 

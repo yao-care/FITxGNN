@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Asenapiini: Kaksisuuntaisesta mielialahäiriöstä verkkokalvon dystrofiaan
+## Asenapiini: Kaksisuuntaisesta mielialahäiriöstä verkkokalvon dystrofiaan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

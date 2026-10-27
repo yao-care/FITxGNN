@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-# Memantiini: Alzheimerin taudista migreeniin
+## Memantiini: Alzheimerin taudista migreeniin
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

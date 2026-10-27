@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Setrorelix: Munasolujen kypsytyksestä hypertrikoosiin
+## Setrorelix: Munasolujen kypsytyksestä hypertrikoosiin
+{: .text-alpha }
 
 Huom. otsikon lääkenimi korjataan: **Cetrorelix (setroreliksi): Ovulaation induktiosta hypertrikoosiin**
 

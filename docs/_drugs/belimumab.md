@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Belimumabi: Systeemisestä lupuksesta primaariseen verihiutaleiden vapautumishäiriöön
+## Belimumabi: Systeemisestä lupuksesta primaariseen verihiutaleiden vapautumishäiriöön
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

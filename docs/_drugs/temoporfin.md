@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Temoporfiini: Päästä ja kaulasta levyepiteelisyövästä nenänielun teratoomaan
+## Temoporfiini: Päästä ja kaulasta levyepiteelisyövästä nenänielun teratoomaan
+{: .text-alpha }
 
 ## Yhteenveto
 

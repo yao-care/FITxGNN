@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **8** kpl
 
 </div>
 
-# Tadalafiili: Erektiohäiriöstä ja keuhkovaltimoverenpaineesta ennustettuun uuteen käyttöaiheeseen (Ambras-tyypin yleistynyt synnynnäinen liikakarvoitus)
+## Tadalafiili: Erektiohäiriöstä ja keuhkovaltimoverenpaineesta ennustettuun uuteen käyttöaiheeseen (Ambras-tyypin yleistynyt synnynnäinen liikakarvoitus)
+{: .text-alpha }
 
 ## Yhteenveto
 

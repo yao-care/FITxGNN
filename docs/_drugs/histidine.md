@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Histidiini: Vaahterasiirappitaudista mahalaukun vajaatoimintaan (gastropareesi)
+## Histidiini: Vaahterasiirappitaudista mahalaukun vajaatoimintaan (gastropareesi)
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

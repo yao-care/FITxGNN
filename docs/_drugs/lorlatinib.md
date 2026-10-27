@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Lorlatinibi: Ei-pienisoluisen keuhkosyövän hoidosta ehdotettuun uuteen käyttöaiheeseen (ientiehytkasvainen fibromatoosi)
+## Lorlatinibi: Ei-pienisoluisen keuhkosyövän hoidosta ehdotettuun uuteen käyttöaiheeseen (ientiehytkasvainen fibromatoosi)
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

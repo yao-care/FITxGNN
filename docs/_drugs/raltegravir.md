@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Raltegraviiri: HIV-infektiosta apinoiden immuunikatovirusinfektioon
+## Raltegraviiri: HIV-infektiosta apinoiden immuunikatovirusinfektioon
+{: .text-alpha }
 
 ## Yhden lauseen tiivistelmä
 

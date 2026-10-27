@@ -33,7 +33,8 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Everolimuusi: Tuberoosiskleroosista liposarkoomaan
+## Everolimuusi: Tuberoosiskleroosista liposarkoomaan
+{: .text-alpha }
 
 ## Yhteenveto
 

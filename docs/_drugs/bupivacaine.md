@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-# Bupivakaiini: Akuutin kivun hoidosta ennustettuun käyttöön kroonisessa atrofisessa akrodermatiitissa
+## Bupivakaiini: Akuutin kivun hoidosta ennustettuun käyttöön kroonisessa atrofisessa akrodermatiitissa
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

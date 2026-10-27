@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Voksilapreviiri: Kroonisesta C-hepatiitista B-hepatiittivirusinfektioon
+## Voksilapreviiri: Kroonisesta C-hepatiitista B-hepatiittivirusinfektioon
+{: .text-alpha }
 
 ## Yhden lauseen tiivistelmä
 

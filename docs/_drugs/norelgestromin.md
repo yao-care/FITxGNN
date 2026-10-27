@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Norelgestromiini: Ehkäisystä kohti amenorreaa
+## Norelgestromiini: Ehkäisystä kohti amenorreaa
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

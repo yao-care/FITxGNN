@@ -31,7 +31,8 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Obinututsumabi: Kroonisesta lymfaattisesta leukemiasta follikulaariseen lymfoomaan
+## Obinututsumabi: Kroonisesta lymfaattisesta leukemiasta follikulaariseen lymfoomaan
+{: .text-alpha }
 
 ## Yhteenveto
 

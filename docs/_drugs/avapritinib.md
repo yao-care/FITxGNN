@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Avapritinibi: Maha-suolikanavan stroomakasvaimesta aksiaaliseen spondylometafyysiseen dysplasiaan
+## Avapritinibi: Maha-suolikanavan stroomakasvaimesta aksiaaliseen spondylometafyysiseen dysplasiaan
+{: .text-alpha }
 
 ## Yhteenveto
 

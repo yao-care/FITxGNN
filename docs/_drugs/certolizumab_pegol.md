@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Certolitsumabipegoli: Nivelreumasta reumatoidiseen vaskuliittiin
+## Certolitsumabipegoli: Nivelreumasta reumatoidiseen vaskuliittiin
+{: .text-alpha }
 
 ## Yhden virkkeen yhteenveto
 

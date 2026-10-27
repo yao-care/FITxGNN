@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **7** kpl
 
 </div>
 
-# Mogamulitsumabi: Sézaryn oireyhtymästä ja sieneiskasvaimesta prostatan virtsaputken urotelikarsinoomaan
+## Mogamulitsumabi: Sézaryn oireyhtymästä ja sieneiskasvaimesta prostatan virtsaputken urotelikarsinoomaan
+{: .text-alpha }
 
 ## Yhteenveto
 

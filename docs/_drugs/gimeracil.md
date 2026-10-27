@@ -33,7 +33,8 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Gimeracil: Mahasyövästä paksusuolen kasvaimeen
+## Gimeracil: Mahasyövästä paksusuolen kasvaimeen
+{: .text-alpha }
 
 ## Yhteenveto
 

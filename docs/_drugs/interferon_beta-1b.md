@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Interferoni beeta-1b: Multippeliskleroosista harvinaissoluleukemiaan
+## Interferoni beeta-1b: Multippeliskleroosista harvinaissoluleukemiaan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

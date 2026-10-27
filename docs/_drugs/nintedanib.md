@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Nintedanib: Idiopaattisesta keuhkofibroosista dermatofibrosarcoma protuberansiin
+## Nintedanib: Idiopaattisesta keuhkofibroosista dermatofibrosarcoma protuberansiin
+{: .text-alpha }
 
 ## Yhden virkkeen yhteenveto
 

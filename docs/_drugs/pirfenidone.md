@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Pirfenidoni: Idiopaattisesta keuhkofibroosista fibroblastiseen neoplasiaan
+## Pirfenidoni: Idiopaattisesta keuhkofibroosista fibroblastiseen neoplasiaan
+{: .text-alpha }
 
 ## Yhteenveto
 

@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Eptifibatidi: Sepelvaltimotaudin hoidosta sirppisoluanemian ja hemoglobinopatioiden tutkimukseen
+## Eptifibatidi: Sepelvaltimotaudin hoidosta sirppisoluanemian ja hemoglobinopatioiden tutkimukseen
+{: .text-alpha }
 
 ## Yhteenveto
 

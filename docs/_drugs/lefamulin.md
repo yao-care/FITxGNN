@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Lefamuliini: Yhteisöhankitun bakteeripneumonian hoidosta diffuusiin iholeishmaniaasiin
+## Lefamuliini: Yhteisöhankitun bakteeripneumonian hoidosta diffuusiin iholeishmaniaasiin
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

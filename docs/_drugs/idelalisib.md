@@ -33,7 +33,8 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Idelalisibi: Kroonisesta lymfaattisesta leukemiasta ja non-Hodgkin-lymfoomasta manttelisolulymfoomaan
+## Idelalisibi: Kroonisesta lymfaattisesta leukemiasta ja non-Hodgkin-lymfoomasta manttelisolulymfoomaan
+{: .text-alpha }
 
 ## Yhteenveto
 

@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Catumaxomabi: Askiteksesta vaikeaan ei-proliferatiiviseen diabeettiseen retinopatiaan
+## Catumaxomabi: Askiteksesta vaikeaan ei-proliferatiiviseen diabeettiseen retinopatiaan
+{: .text-alpha }
 
 ## Yhteenveto
 

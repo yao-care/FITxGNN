@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **7** kpl
 
 </div>
 
-# Aliskireeni: Verenpainetaudista keuhkoverenpainetautiin liittyvään hypoksiaan
+## Aliskireeni: Verenpainetaudista keuhkoverenpainetautiin liittyvään hypoksiaan
+{: .text-alpha }
 
 ## Yhteenveto
 

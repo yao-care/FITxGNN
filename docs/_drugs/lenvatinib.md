@@ -33,7 +33,8 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Lenvatinibi: Kilpirauhassyövästä ja munuaissolusyövästä liposarkoomaan
+## Lenvatinibi: Kilpirauhassyövästä ja munuaissolusyövästä liposarkoomaan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

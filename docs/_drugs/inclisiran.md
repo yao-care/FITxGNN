@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Inklisirani: Hypokolesterolemian hoidosta ennustettuun uuteen käyttöaiheeseen (kaliumin puutostila)
+## Inklisirani: Hypokolesterolemian hoidosta ennustettuun uuteen käyttöaiheeseen (kaliumin puutostila)
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

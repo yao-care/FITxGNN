@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Imipeneemi: Gram-negatiivisten bakteeri-infektioiden hoidosta Staphylococcus aureus -infektioon
+## Imipeneemi: Gram-negatiivisten bakteeri-infektioiden hoidosta Staphylococcus aureus -infektioon
+{: .text-alpha }
 
 ## Yhden lauseen tiivistelmä
 

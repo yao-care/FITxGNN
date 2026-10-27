@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Avelumabi: Neuroendokriinisista kasvaimista HHV-8-liitännäiseen kasvaimeen
+## Avelumabi: Neuroendokriinisista kasvaimista HHV-8-liitännäiseen kasvaimeen
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Sebelipase alfa: synnynnäisistä lipidiaineenvaihdunnan häiriöistä Scheien oireyhtymään
+## Sebelipase alfa: synnynnäisistä lipidiaineenvaihdunnan häiriöistä Scheien oireyhtymään
+{: .text-alpha }
 
 ## Yhteenveto
 

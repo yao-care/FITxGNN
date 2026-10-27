@@ -33,7 +33,8 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Omalitsumabi: Astmasta ja nokkosihottumasta keuhkoputkentulehdukseen
+## Omalitsumabi: Astmasta ja nokkosihottumasta keuhkoputkentulehdukseen
+{: .text-alpha }
 
 ## Yhteenveto
 

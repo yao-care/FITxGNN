@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Maraviroki: HIV-infektiosta monirauhasneoplasiaan
+## Maraviroki: HIV-infektiosta monirauhasneoplasiaan
+{: .text-alpha }
 
 ## Yhteenveto
 

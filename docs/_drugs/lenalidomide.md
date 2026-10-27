@@ -33,7 +33,8 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Lenalidomidi: Multippelin myelooman hoidosta myeloidiseen leukemiaan
+## Lenalidomidi: Multippelin myelooman hoidosta myeloidiseen leukemiaan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

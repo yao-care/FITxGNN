@@ -33,7 +33,8 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Vilanteroli: Krooniseen keuhkoahtaumatautiin käytetystä lääkkeestä ennustettuun obstruktiiviseen keuhkosairauteen
+## Vilanteroli: Krooniseen keuhkoahtaumatautiin käytetystä lääkkeestä ennustettuun obstruktiiviseen keuhkosairauteen
+{: .text-alpha }
 
 ## Yhteenveto
 

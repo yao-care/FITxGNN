@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Riluzoli: Amyotrofisesta lateraaliskleroosista polymikrogyriaan
+## Riluzoli: Amyotrofisesta lateraaliskleroosista polymikrogyriaan
+{: .text-alpha }
 
 ## Yhteenveto
 

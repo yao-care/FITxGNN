@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 
 </div>
 
-# Fidaksomisiini: Clostridium-infektioista stafylokokin aiheuttamaan kuoriutuvaan ihosyndroomaan
+## Fidaksomisiini: Clostridium-infektioista stafylokokin aiheuttamaan kuoriutuvaan ihosyndroomaan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

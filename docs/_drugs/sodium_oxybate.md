@@ -33,7 +33,8 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Natriumoksibaatti: narkolepsiasta ja kataplexiasta unettomuuteen
+## Natriumoksibaatti: narkolepsiasta ja kataplexiasta unettomuuteen
+{: .text-alpha }
 
 ## Yhteenveto
 

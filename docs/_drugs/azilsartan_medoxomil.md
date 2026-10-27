@@ -32,7 +32,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 
 </div>
 
-# Azilsartan-medoksoomiili: Uudelleenkäyttöarviointi — riittämätön tieto jatkamiseen
+## Azilsartan-medoksoomiili: Uudelleenkäyttöarviointi — riittämätön tieto jatkamiseen
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

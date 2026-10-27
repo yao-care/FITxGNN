@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Insuliiniglargiini: Diabeteksesta autoimmuuniseen munasarjatulehdukseen
+## Insuliiniglargiini: Diabeteksesta autoimmuuniseen munasarjatulehdukseen
+{: .text-alpha }
 
 ## Yhden lauseen tiivistelmä
 

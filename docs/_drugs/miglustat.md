@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Miglustaatti: Gaucherin taudista Tay-Sachsin tautiin
+## Miglustaatti: Gaucherin taudista Tay-Sachsin tautiin
+{: .text-alpha }
 
 ## Yhteenveto
 

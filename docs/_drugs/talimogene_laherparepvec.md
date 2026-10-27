@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **7** kpl
 
 </div>
 
-# Talimogeenilaherparepvek: melanoomasta ennustettuun uuteen käyttöaiheeseen (CMM7)
+## Talimogeenilaherparepvek: melanoomasta ennustettuun uuteen käyttöaiheeseen (CMM7)
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

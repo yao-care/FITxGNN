@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Romiplostiimi: Idiopaattisesta trombosytopeenisesta purppurasta ensisijaiseen verihiutaleiden vapautumishäiriöön
+## Romiplostiimi: Idiopaattisesta trombosytopeenisesta purppurasta ensisijaiseen verihiutaleiden vapautumishäiriöön
+{: .text-alpha }
 
 ## Yhteenveto
 

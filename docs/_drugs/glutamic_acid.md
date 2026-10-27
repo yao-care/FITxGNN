@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-# Glutamiinihappo: Vaahterasiirappitaudista postmenopausaaliseen osteoporoosiin
+## Glutamiinihappo: Vaahterasiirappitaudista postmenopausaaliseen osteoporoosiin
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

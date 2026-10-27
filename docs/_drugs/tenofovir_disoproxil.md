@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-# Tenofoviiridisoproksiili: HIV-infektiosta apinoiden immuunikatovirusinfektioon
+## Tenofoviiridisoproksiili: HIV-infektiosta apinoiden immuunikatovirusinfektioon
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

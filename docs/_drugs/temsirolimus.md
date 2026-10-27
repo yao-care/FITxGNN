@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Temsirolimuusi: Munuaissolusyövästä liposarkoomaan
+## Temsirolimuusi: Munuaissolusyövästä liposarkoomaan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

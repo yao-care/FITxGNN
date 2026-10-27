@@ -32,7 +32,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 
 </div>
 
-# Baloxavir marboxil: Arviointiraportti — Riittämätön data uudelleenkäytön analyysin luomiseksi
+## Baloxavir marboxil: Arviointiraportti — Riittämätön data uudelleenkäytön analyysin luomiseksi
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

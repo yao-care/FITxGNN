@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Efavirentsi: HIV-infektiosta apinoiden immuunikatovirusinfektioon (SIV)
+## Efavirentsi: HIV-infektiosta apinoiden immuunikatovirusinfektioon (SIV)
+{: .text-alpha }
 
 ## Yhteenveto
 

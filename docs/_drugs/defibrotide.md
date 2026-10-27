@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Defibrotidi: Maksasuonten tukkeumataudista pseudo-von Willebrandin tautiin
+## Defibrotidi: Maksasuonten tukkeumataudista pseudo-von Willebrandin tautiin
+{: .text-alpha }
 
 ## Yhden virkkeen yhteenveto
 

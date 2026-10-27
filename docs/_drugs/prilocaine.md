@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Prilokaiini: Sukupuolitoimintojen häiriöiden hoidosta neuralgian tutkimuskysymykseen
+## Prilokaiini: Sukupuolitoimintojen häiriöiden hoidosta neuralgian tutkimuskysymykseen
+{: .text-alpha }
 
 ## Yhden lauseen tiivistelmä
 

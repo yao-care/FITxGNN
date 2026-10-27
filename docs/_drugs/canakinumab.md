@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Kanakinumabi: Jaksoittaisista kryopyriiniin liittyvistä oireyhtymistä familiaaliseen Välimeren kuumeeseen
+## Kanakinumabi: Jaksoittaisista kryopyriiniin liittyvistä oireyhtymistä familiaaliseen Välimeren kuumeeseen
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

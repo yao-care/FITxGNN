@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Ferrimaltoli: Raudanpuuteanemiasta Plummer-Vinsonin oireyhtymään
+## Ferrimaltoli: Raudanpuuteanemiasta Plummer-Vinsonin oireyhtymään
+{: .text-alpha }
 
 ## Yhteenveto
 

@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Elafibranor: Primaarisesta sappikirroosista kohti amenorreaa
+## Elafibranor: Primaarisesta sappikirroosista kohti amenorreaa
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

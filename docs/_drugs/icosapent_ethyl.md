@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Ikosapenttietyyli: Dyslipidemiasta hemoglobinopatiaan
+## Ikosapenttietyyli: Dyslipidemiasta hemoglobinopatiaan
+{: .text-alpha }
 
 ## Yhteenveto
 

@@ -33,7 +33,8 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Insuliiniglulisiini: Diabeteksesta tyypin 1 diabetekseen
+## Insuliiniglulisiini: Diabeteksesta tyypin 1 diabetekseen
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

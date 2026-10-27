@@ -32,7 +32,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 
 </div>
 
-# Avatrombopag maleate: Lääkkeen uusiokäytön arvio — TxGNN-ennusteita ei saatavilla
+## Avatrombopag maleate: Lääkkeen uusiokäytön arvio — TxGNN-ennusteita ei saatavilla
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

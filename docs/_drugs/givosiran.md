@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Givosiraani: Maksan porfyriasta hepatoportaaliskleroosiin
+## Givosiraani: Maksan porfyriasta hepatoportaaliskleroosiin
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

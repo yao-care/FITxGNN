@@ -33,7 +33,8 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Rimegepantti: Migreenistä migreeniin, johon liittyy aivorunkoaura
+## Rimegepantti: Migreenistä migreeniin, johon liittyy aivorunkoaura
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

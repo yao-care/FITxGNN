@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Ketokonatsoli: Cushingin oireyhtymästä aknen hoitoon
+## Ketokonatsoli: Cushingin oireyhtymästä aknen hoitoon
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

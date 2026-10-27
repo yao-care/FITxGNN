@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Ekulitsumabi: Paroksysmaalisesta yöllisestä hemoglobinuriasta syklisen hematopoieesin ennusteeseen
+## Ekulitsumabi: Paroksysmaalisesta yöllisestä hemoglobinuriasta syklisen hematopoieesin ennusteeseen
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

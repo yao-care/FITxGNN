@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Fenyylefriini: Silmänsisäisen linssi-implantaation ja leikkauksen jälkeisen kivun hoidosta nenäontelon sairauteen
+## Fenyylefriini: Silmänsisäisen linssi-implantaation ja leikkauksen jälkeisen kivun hoidosta nenäontelon sairauteen
+{: .text-alpha }
 
 ## Yhden lauseen tiivistelmä
 

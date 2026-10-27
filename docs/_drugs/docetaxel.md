@@ -33,7 +33,8 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Dosetakseli: Alkuperäisistä syöpäkäyttöaiheista rintasyöpään (naisen rintakarsinooma)
+## Dosetakseli: Alkuperäisistä syöpäkäyttöaiheista rintasyöpään (naisen rintakarsinooma)
+{: .text-alpha }
 
 ## Yhteenveto
 

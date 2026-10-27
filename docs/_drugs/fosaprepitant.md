@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Fosaprepitantti: Oksentelun ja syövän hoidosta nefrogeeniseen antidiureesisyndroomaan (NSIAD)
+## Fosaprepitantti: Oksentelun ja syövän hoidosta nefrogeeniseen antidiureesisyndroomaan (NSIAD)
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

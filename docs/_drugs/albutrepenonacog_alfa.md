@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Albutrepenonakogi alfa: Hemofilia B:n hoidosta pseudo-von Willebrandin tautiin
+## Albutrepenonakogi alfa: Hemofilia B:n hoidosta pseudo-von Willebrandin tautiin
+{: .text-alpha }
 
 ## Yhteenveto
 

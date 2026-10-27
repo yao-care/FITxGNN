@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **7** kpl
 
 </div>
 
-# Siklosporiini: silmän kuivuuden hoidosta kroonisen granulomatoottisen taudin hoitoon
+## Siklosporiini: silmän kuivuuden hoidosta kroonisen granulomatoottisen taudin hoitoon
+{: .text-alpha }
 
 ## Yhteenveto
 

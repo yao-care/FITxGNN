@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Lopinaviiri: HIV-infektiosta apinoiden immuunikatovirusinfektioon
+## Lopinaviiri: HIV-infektiosta apinoiden immuunikatovirusinfektioon
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

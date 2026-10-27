@@ -33,7 +33,8 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-# Ezetimibi: Hyperkolesterolemiasta hyperlipoproteinemiaan
+## Ezetimibi: Hyperkolesterolemiasta hyperlipoproteinemiaan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

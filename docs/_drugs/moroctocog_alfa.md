@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **8** kpl
 
 </div>
 
-# Moroktokogi alfa: Hemofilia A:sta primaariin verihiutaleiden vapautumishäiriöön
+## Moroktokogi alfa: Hemofilia A:sta primaariin verihiutaleiden vapautumishäiriöön
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

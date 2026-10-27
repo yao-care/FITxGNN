@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Natalitsumabi: Multippeliskleroosista keuhkoputkentulehdukseen
+## Natalitsumabi: Multippeliskleroosista keuhkoputkentulehdukseen
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

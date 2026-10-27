@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Tsanamiviiri: Influenssasta pyelonefriittiin
+## Tsanamiviiri: Influenssasta pyelonefriittiin
+{: .text-alpha }
 
 ## Yhteenveto
 

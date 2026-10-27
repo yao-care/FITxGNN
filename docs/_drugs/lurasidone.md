@@ -33,7 +33,8 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Lurasidoni: Skitsofreniasta maaniseen kaksisuuntaiseen mielialahäiriöön
+## Lurasidoni: Skitsofreniasta maaniseen kaksisuuntaiseen mielialahäiriöön
+{: .text-alpha }
 
 ## Yhteenveto
 

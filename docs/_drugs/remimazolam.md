@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Remimatsolaami: Tajuissa olevasta sedaatiosta unettomuuteen
+## Remimatsolaami: Tajuissa olevasta sedaatiosta unettomuuteen
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

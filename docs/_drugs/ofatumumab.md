@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **8** kpl
 
 </div>
 
-# Ofatumumabi: Multippeliskleroosista krooniseen lymfosyyttileukemiaan / pieneen lymfosyyttilymfoomaan (CLL/SLL)
+## Ofatumumabi: Multippeliskleroosista krooniseen lymfosyyttileukemiaan / pieneen lymfosyyttilymfoomaan (CLL/SLL)
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

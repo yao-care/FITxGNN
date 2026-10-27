@@ -33,7 +33,8 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **9** kpl
 
 </div>
 
-# Asetyylisalisyylihappo: Sydän- ja verisuonitautien ehkäisystä aivorunkoauraiseen migreeniin
+## Asetyylisalisyylihappo: Sydän- ja verisuonitautien ehkäisystä aivorunkoauraiseen migreeniin
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

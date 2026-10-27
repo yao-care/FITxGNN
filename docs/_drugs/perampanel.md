@@ -33,7 +33,8 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Perampaneeli: Osittaisepilepsiasta status epilepticukseen
+## Perampaneeli: Osittaisepilepsiasta status epilepticukseen
+{: .text-alpha }
 
 ## Yhteenveto
 

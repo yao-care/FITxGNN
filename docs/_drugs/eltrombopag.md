@@ -33,7 +33,8 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Eltrombopaagi: Idiopaattisesta trombosytopeenisesta purppurasta HIV-infektioon
+## Eltrombopaagi: Idiopaattisesta trombosytopeenisesta purppurasta HIV-infektioon
+{: .text-alpha }
 
 ## Yhteenveto
 

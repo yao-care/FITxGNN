@@ -33,7 +33,8 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Tegafuuri: Mahasyövän hoidosta paksusuolen kasvaimeen
+## Tegafuuri: Mahasyövän hoidosta paksusuolen kasvaimeen
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Keftolotsaani: Bakteeri-infektioista gonokokkiuretriittiin
+## Keftolotsaani: Bakteeri-infektioista gonokokkiuretriittiin
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

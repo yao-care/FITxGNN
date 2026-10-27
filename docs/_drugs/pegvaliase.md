@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Pegvaliaasi: Fenyyliketonuriasta diabeettiseen retinopatiaan
+## Pegvaliaasi: Fenyyliketonuriasta diabeettiseen retinopatiaan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

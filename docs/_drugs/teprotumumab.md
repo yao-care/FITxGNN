@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Teprotumumabi: Kilpirauhasen silmäsairaudesta (Gravesin oftalmopatia) ennustettuun uuteen käyttöaiheeseen monosomia X
+## Teprotumumabi: Kilpirauhasen silmäsairaudesta (Gravesin oftalmopatia) ennustettuun uuteen käyttöaiheeseen monosomia X
+{: .text-alpha }
 
 ## Yhteenveto
 

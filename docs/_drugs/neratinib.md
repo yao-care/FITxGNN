@@ -31,7 +31,8 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-# Neratinibi: Rintasyövästä progesteronireseptoripositiiviseen rintasyöpään
+## Neratinibi: Rintasyövästä progesteronireseptoripositiiviseen rintasyöpään
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

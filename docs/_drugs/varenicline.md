@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Vareniklinii: Tupakoinnin lopettamisesta migreeniin
+## Vareniklinii: Tupakoinnin lopettamisesta migreeniin
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

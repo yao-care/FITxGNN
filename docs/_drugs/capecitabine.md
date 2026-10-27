@@ -31,7 +31,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Kapesitabiini: Mahasyövästä ja rintasyövästä mahalaukun adenokarsinooman alatyyppeihin
+## Kapesitabiini: Mahasyövästä ja rintasyövästä mahalaukun adenokarsinooman alatyyppeihin
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

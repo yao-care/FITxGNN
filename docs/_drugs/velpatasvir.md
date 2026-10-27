@@ -33,7 +33,8 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Velpatasviiri: Krooninen hepatiitti C -> hepatiitti B -virusinfektio (ennuste)
+## Velpatasviiri: Krooninen hepatiitti C -> hepatiitti B -virusinfektio (ennuste)
+{: .text-alpha }
 
 ## Yhteenveto
 

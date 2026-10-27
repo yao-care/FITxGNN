@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Tsoniamidi: Epilepsiasta Touretten oireyhtymään
+## Tsoniamidi: Epilepsiasta Touretten oireyhtymään
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

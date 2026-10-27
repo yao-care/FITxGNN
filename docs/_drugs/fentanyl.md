@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Fentanyyli: Kivusta ja syövästä nefrogeeniseen antidiureesioireyhtymään (SIADH-tyyppinen tila)
+## Fentanyyli: Kivusta ja syövästä nefrogeeniseen antidiureesioireyhtymään (SIADH-tyyppinen tila)
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

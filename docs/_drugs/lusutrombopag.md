@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Lusutrombopagi: Trombosytopeniasta perinnölliseen trombosytopeniaan (normaalit verihiutaleet)
+## Lusutrombopagi: Trombosytopeniasta perinnölliseen trombosytopeniaan (normaalit verihiutaleet)
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

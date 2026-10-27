@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Dolutegraviiri: HIV-infektiosta apinoiden immuunikatovirusinfektioon
+## Dolutegraviiri: HIV-infektiosta apinoiden immuunikatovirusinfektioon
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

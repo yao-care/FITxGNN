@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Dabigatraanieteksilaatti: Laskimotromboembolian estosta kohti primaarista sklerosoivaa kolangiittia
+## Dabigatraanieteksilaatti: Laskimotromboembolian estosta kohti primaarista sklerosoivaa kolangiittia
+{: .text-alpha }
 
 ## Yhteenveto
 

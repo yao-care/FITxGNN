@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Esomepratsoli: Refluksitaudista duodenogastriseen refluksiin
+## Esomepratsoli: Refluksitaudista duodenogastriseen refluksiin
+{: .text-alpha }
 
 ## Yhteenveto
 

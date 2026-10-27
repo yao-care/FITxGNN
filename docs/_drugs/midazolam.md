@@ -33,7 +33,8 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Midatsolaami: Epilepsiasta unettomuuteen
+## Midatsolaami: Epilepsiasta unettomuuteen
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

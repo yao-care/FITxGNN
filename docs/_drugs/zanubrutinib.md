@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Zanubrutinibi: Waldenströmin makroglobulinemiasta myeloidiseen leukemiaan
+## Zanubrutinibi: Waldenströmin makroglobulinemiasta myeloidiseen leukemiaan
+{: .text-alpha }
 
 ## Yhteenveto
 

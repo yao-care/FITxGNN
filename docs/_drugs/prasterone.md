@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Prasteroni: Postmenopaussasta hepariinikofaktori 2:n puutokseen
+## Prasteroni: Postmenopaussasta hepariinikofaktori 2:n puutokseen
+{: .text-alpha }
 
 ## Yhden virkkeen yhteenveto
 

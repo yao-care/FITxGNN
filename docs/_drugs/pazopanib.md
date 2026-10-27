@@ -33,7 +33,8 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Patsopanibi: munuaissolusyövästä uniklassifioimattomaan munuaissolusyöpään
+## Patsopanibi: munuaissolusyövästä uniklassifioimattomaan munuaissolusyöpään
+{: .text-alpha }
 
 ## Yhteenveto
 

@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Amifampridiini: Lambert-Eatonin myasteenisesta oireyhtymästä glaukoomaan
+## Amifampridiini: Lambert-Eatonin myasteenisesta oireyhtymästä glaukoomaan
+{: .text-alpha }
 
 ## Yhteenveto
 

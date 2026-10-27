@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **8** kpl
 
 </div>
 
-# Flutikasonifuroaatti: Allergisesta nuhasta, keuhkoahtaumataudista ja astmasta atooppiseen ihottumaan
+## Flutikasonifuroaatti: Allergisesta nuhasta, keuhkoahtaumataudista ja astmasta atooppiseen ihottumaan
+{: .text-alpha }
 
 ## Yhteenveto
 

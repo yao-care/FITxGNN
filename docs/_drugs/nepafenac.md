@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Nepafenaakki: Leikkauksen jälkeisestä kivusta silmäsairauksiin
+## Nepafenaakki: Leikkauksen jälkeisestä kivusta silmäsairauksiin
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

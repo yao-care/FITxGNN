@@ -33,7 +33,8 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **7** kpl
 
 </div>
 
-# Delamanidi: monilääkeresistentin tuberkuloosin hoidosta inaktiiviseen tuberkuloosiin
+## Delamanidi: monilääkeresistentin tuberkuloosin hoidosta inaktiiviseen tuberkuloosiin
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Indakaterolli: Keuhkoahtaumataudista ja astmasta keuhkoputkisairauteen
+## Indakaterolli: Keuhkoahtaumataudista ja astmasta keuhkoputkisairauteen
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

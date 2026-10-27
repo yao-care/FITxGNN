@@ -33,7 +33,8 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Lomitapidi: Hypokolesterolemiasta hyperlipoproteinemiaan
+## Lomitapidi: Hypokolesterolemiasta hyperlipoproteinemiaan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

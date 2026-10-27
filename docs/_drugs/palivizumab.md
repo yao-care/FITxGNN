@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Palivitsumabi: Hengitysteiden synsytiaaliviruksen (RSV) infektioista kohti hyvänlaatuista kielen kasvainta
+## Palivitsumabi: Hengitysteiden synsytiaaliviruksen (RSV) infektioista kohti hyvänlaatuista kielen kasvainta
+{: .text-alpha }
 
 ## Yhteenveto
 

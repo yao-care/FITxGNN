@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-# Sasituzumabigovitekaani: Rintasyövästä lääkkeen aiheuttamaan osteoporoosiin
+## Sasituzumabigovitekaani: Rintasyövästä lääkkeen aiheuttamaan osteoporoosiin
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

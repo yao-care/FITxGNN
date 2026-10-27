@@ -32,7 +32,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 
 </div>
 
-# Angiotensiini II-asetaatti: Lääkkeen uudelleenkäyttöarvioinnin raportti
+## Angiotensiini II-asetaatti: Lääkkeen uudelleenkäyttöarvioinnin raportti
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

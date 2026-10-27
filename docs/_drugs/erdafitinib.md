@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Erdafitinibi: Urologisista kasvaimista keuhkoverenpainetautiin
+## Erdafitinibi: Urologisista kasvaimista keuhkoverenpainetautiin
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

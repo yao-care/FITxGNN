@@ -33,7 +33,8 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Niraparibi: Munasarjasyövästä kystiseen neoplasiaan
+## Niraparibi: Munasarjasyövästä kystiseen neoplasiaan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

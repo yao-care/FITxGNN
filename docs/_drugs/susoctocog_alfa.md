@@ -33,7 +33,8 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Susoktokogialfa: Hemofilia A:sta hemofiliaan (hankinnainen hemofilia A)
+## Susoktokogialfa: Hemofilia A:sta hemofiliaan (hankinnainen hemofilia A)
+{: .text-alpha }
 
 ## Yhteenveto
 

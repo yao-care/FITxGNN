@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Pembrolitsumabi: Melanoomasta ja muista syövistä ienfibromatoosiin
+## Pembrolitsumabi: Melanoomasta ja muista syövistä ienfibromatoosiin
+{: .text-alpha }
 
 ## Yhteenveto
 

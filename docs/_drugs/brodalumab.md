@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Brodalumabi: Psoriaasista ennustettuun strongyloidiaasiin
+## Brodalumabi: Psoriaasista ennustettuun strongyloidiaasiin
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

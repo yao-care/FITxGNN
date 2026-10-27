@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Imiglusidaasi: Gaucherin taudista Hurlerin oireyhtymään
+## Imiglusidaasi: Gaucherin taudista Hurlerin oireyhtymään
+{: .text-alpha }
 
 ## Yhteenveto
 

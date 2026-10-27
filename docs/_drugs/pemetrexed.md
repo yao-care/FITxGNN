@@ -33,7 +33,8 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Pemetreksedi: Mesoteliooman alkuperäisestä käytöstä vatsakalvon pahanlaatuiseen mesotelioomaan
+## Pemetreksedi: Mesoteliooman alkuperäisestä käytöstä vatsakalvon pahanlaatuiseen mesotelioomaan
+{: .text-alpha }
 
 ## Yhteenveto
 

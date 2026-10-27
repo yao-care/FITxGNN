@@ -33,7 +33,8 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Busulfaani: Elinsiirteen esihoidosta myelodysplastiseen oireyhtymään
+## Busulfaani: Elinsiirteen esihoidosta myelodysplastiseen oireyhtymään
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

@@ -32,7 +32,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 
 </div>
 
-# ASENAPINE MALEATE: Arviointi odottavana — Kriittiset tietoaukot
+## ASENAPINE MALEATE: Arviointi odottavana — Kriittiset tietoaukot
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

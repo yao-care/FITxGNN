@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-# Irbesartaani: Verenpainetaudista pahanlaatuiseen renovaskulaariseen hypertensioon
+## Irbesartaani: Verenpainetaudista pahanlaatuiseen renovaskulaariseen hypertensioon
+{: .text-alpha }
 
 ## Yhden lauseen tiivistelmä
 

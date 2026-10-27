@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Seriini: Vaivaishaaralaisen vaahterasiirappitaudin hoidosta ennustettuun familiaaliseen viskeraaliseen myopatiaan
+## Seriini: Vaivaishaaralaisen vaahterasiirappitaudin hoidosta ennustettuun familiaaliseen viskeraaliseen myopatiaan
+{: .text-alpha }
 
 ## Yhteenveto
 

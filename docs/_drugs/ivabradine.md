@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Ivabradiini: Angina pectoriksesta ja sydämen vajaatoiminnasta hypertrikoosiin
+## Ivabradiini: Angina pectoriksesta ja sydämen vajaatoiminnasta hypertrikoosiin
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

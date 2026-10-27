@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **9** kpl
 
 </div>
 
-# Deferipron: Beta-talassemiasta ja rautakuormasta maksaporfyriaan
+## Deferipron: Beta-talassemiasta ja rautakuormasta maksaporfyriaan
+{: .text-alpha }
 
 ## Yhteenveto
 

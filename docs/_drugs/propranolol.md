@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Propranololi: Infantiilin hemangiooman hoidosta distaaliseen myopatiaan (Tateyama-tyyppi)
+## Propranololi: Infantiilin hemangiooman hoidosta distaaliseen myopatiaan (Tateyama-tyyppi)
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

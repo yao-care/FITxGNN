@@ -33,7 +33,8 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Klofarabiini: Uusiutuneesta/refraktaarisesta lymfoblastileukemiasta myeloidiseen leukemiaan
+## Klofarabiini: Uusiutuneesta/refraktaarisesta lymfoblastileukemiasta myeloidiseen leukemiaan
+{: .text-alpha }
 
 ## Yhteenveto
 

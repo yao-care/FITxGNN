@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Reslitsumabi: Astmasta immuunivälitteiseen trombosytopeniaan
+## Reslitsumabi: Astmasta immuunivälitteiseen trombosytopeniaan
+{: .text-alpha }
 
 ## Yhteenveto
 

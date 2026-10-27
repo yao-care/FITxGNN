@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Turoktokogialfa pegoli: Hemofilia A:sta ensisijaiseen verihiutaleiden vapautumishäiriöön
+## Turoktokogialfa pegoli: Hemofilia A:sta ensisijaiseen verihiutaleiden vapautumishäiriöön
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

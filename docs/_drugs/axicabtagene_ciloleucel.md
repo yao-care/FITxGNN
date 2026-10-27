@@ -32,7 +32,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 
 </div>
 
-# Aksikabtageen siloleuseeli: Uudelleenkäyttöarviointi — riittämätön näyttöpaketti
+## Aksikabtageen siloleuseeli: Uudelleenkäyttöarviointi — riittämätön näyttöpaketti
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

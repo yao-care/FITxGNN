@@ -32,7 +32,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 
 </div>
 
-# Artenimol (DB11638): Näyttöpaketti epätäydellinen — Uudelleenkäytön arviointi odottaa
+## Artenimol (DB11638): Näyttöpaketti epätäydellinen — Uudelleenkäytön arviointi odottaa
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

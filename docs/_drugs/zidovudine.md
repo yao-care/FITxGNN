@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Tsidovudiini: HIV-infektiosta ennustettuun uuteen käyttöaiheeseen (kissan hankinnainen immuunipuutosoireyhtymä)
+## Tsidovudiini: HIV-infektiosta ennustettuun uuteen käyttöaiheeseen (kissan hankinnainen immuunipuutosoireyhtymä)
+{: .text-alpha }
 
 ## Yhteenveto
 

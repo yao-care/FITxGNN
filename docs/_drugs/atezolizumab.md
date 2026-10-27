@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Atetsolitsumabi: Virtsarakon uroteelikarsinoomasta ja muista alkuperäisistä käyttöaiheista prostatan virtsaputken uroteelikarsinoomaan
+## Atetsolitsumabi: Virtsarakon uroteelikarsinoomasta ja muista alkuperäisistä käyttöaiheista prostatan virtsaputken uroteelikarsinoomaan
+{: .text-alpha }
 
 ## Yhteenveto
 

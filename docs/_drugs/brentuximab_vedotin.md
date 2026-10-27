@@ -33,7 +33,8 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Brentuksimabivedotiini: Hodgkinin lymfoomasta follikulaariseen lymfoomaan
+## Brentuksimabivedotiini: Hodgkinin lymfoomasta follikulaariseen lymfoomaan
+{: .text-alpha }
 
 ## Yhteenveto
 

@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 
 </div>
 
-# Vestronidaasialfa: Mukopolysakkaridoosi VII:n hoidosta Scheien oireyhtymään
+## Vestronidaasialfa: Mukopolysakkaridoosi VII:n hoidosta Scheien oireyhtymään
+{: .text-alpha }
 
 ## Yhden lauseen tiivistelmä
 

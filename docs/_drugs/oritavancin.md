@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Oritavantsiini: Ihon pehmytkudosinfektioista Bacteroidaceae-infektioon
+## Oritavantsiini: Ihon pehmytkudosinfektioista Bacteroidaceae-infektioon
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

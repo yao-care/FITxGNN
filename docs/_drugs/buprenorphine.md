@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Buprenorfiini: opioidiriippuvuuden hoidosta akuuttiin ajoittaiseen porfyriaan
+## Buprenorfiini: opioidiriippuvuuden hoidosta akuuttiin ajoittaiseen porfyriaan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Eflornitiini: Hirsutismista esotropiaan
+## Eflornitiini: Hirsutismista esotropiaan
+{: .text-alpha }
 
 ## Yhteenveto
 

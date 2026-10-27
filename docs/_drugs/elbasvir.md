@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Elbasviiri: Krooniseen hepatiitti C:hen käytetystä lääkeaineesta hepatiitti B -virusinfektioon
+## Elbasviiri: Krooniseen hepatiitti C:hen käytetystä lääkeaineesta hepatiitti B -virusinfektioon
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Mannitoli: Kystisen fibroosin hoidosta nefrogeeniseen antidiureesin epäasianmukaiseen oireyhtymään
+## Mannitoli: Kystisen fibroosin hoidosta nefrogeeniseen antidiureesin epäasianmukaiseen oireyhtymään
+{: .text-alpha }
 
 ## Yhteenveto
 

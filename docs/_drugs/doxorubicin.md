@@ -33,7 +33,8 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Doksorubisiini: Rintasyövästä Ewingin sarkoomaan
+## Doksorubisiini: Rintasyövästä Ewingin sarkoomaan
+{: .text-alpha }
 
 ## Yhteenveto
 

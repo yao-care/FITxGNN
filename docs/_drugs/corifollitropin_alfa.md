@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **8** kpl
 
 </div>
 
-# Korifollitropiini alfa: Avusteisesta lisääntymisestä ja ovulaation induktiosta gastroduodeniittiin
+## Korifollitropiini alfa: Avusteisesta lisääntymisestä ja ovulaation induktiosta gastroduodeniittiin
+{: .text-alpha }
 
 ## Yhteenveto
 

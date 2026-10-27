@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Sakubitriili: Sydämen vajaatoiminnasta diabeettiseen nefropatiaan
+## Sakubitriili: Sydämen vajaatoiminnasta diabeettiseen nefropatiaan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

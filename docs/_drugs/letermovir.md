@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Letermoviiri: Sytomegalovirusinfektiosta vulvovaginaaliseen kandidiaasiin
+## Letermoviiri: Sytomegalovirusinfektiosta vulvovaginaaliseen kandidiaasiin
+{: .text-alpha }
 
 ## Yhteenveto
 

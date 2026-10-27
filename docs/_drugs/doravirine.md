@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Doravirini: HIV-infektiosta kissan immuunipuutosoireyhtymään
+## Doravirini: HIV-infektiosta kissan immuunipuutosoireyhtymään
+{: .text-alpha }
 
 ## Yhteenveto
 

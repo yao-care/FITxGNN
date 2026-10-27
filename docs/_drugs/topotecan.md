@@ -33,7 +33,8 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Topotekaani: Kohdunkaulan ja pienisoluisen keuhkosyövän hoidosta naisen rintasyöpään
+## Topotekaani: Kohdunkaulan ja pienisoluisen keuhkosyövän hoidosta naisen rintasyöpään
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

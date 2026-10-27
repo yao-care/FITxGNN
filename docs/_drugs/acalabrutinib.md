@@ -32,7 +32,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 
 </div>
 
-# ACALABRUTINIB: Lääkkeen uudelleenkäyttötarkoituksen arviointi — Riittämättömät ennustustiedot
+## ACALABRUTINIB: Lääkkeen uudelleenkäyttötarkoituksen arviointi — Riittämättömät ennustustiedot
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Imikimodi: Aktiinisesta keratoosista esisyövällisiin kasvaimiin
+## Imikimodi: Aktiinisesta keratoosista esisyövällisiin kasvaimiin
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

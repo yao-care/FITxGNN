@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-# Darunaviiri: HIV-infektiosta apinoiden immuunikatovirusinfektioon
+## Darunaviiri: HIV-infektiosta apinoiden immuunikatovirusinfektioon
+{: .text-alpha }
 
 ## Yhden virkkeen yhteenveto
 

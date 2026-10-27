@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Latanoprosti: Avoimen kulmakaihin hoidosta primaariseen perinnölliseen glaukoomaan
+## Latanoprosti: Avoimen kulmakaihin hoidosta primaariseen perinnölliseen glaukoomaan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

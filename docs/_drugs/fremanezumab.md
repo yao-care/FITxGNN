@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Fremanezumabi: Migreenistä aivorunkoauraiseen migreeniin
+## Fremanezumabi: Migreenistä aivorunkoauraiseen migreeniin
+{: .text-alpha }
 
 ## Yhteenveto
 

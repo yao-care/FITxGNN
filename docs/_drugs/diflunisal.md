@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Diflunisaali: Perheellisestä amyloidineuropatiasta ennustettuun selkärankareumaan (ankyloiva spondyliitti)
+## Diflunisaali: Perheellisestä amyloidineuropatiasta ennustettuun selkärankareumaan (ankyloiva spondyliitti)
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

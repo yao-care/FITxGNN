@@ -33,7 +33,8 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Takrolimuusi: Elinsiirteiden hyljinnän estosta ja atooppisesta ihottumasta seborrooiseen ihottumaan
+## Takrolimuusi: Elinsiirteiden hyljinnän estosta ja atooppisesta ihottumasta seborrooiseen ihottumaan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

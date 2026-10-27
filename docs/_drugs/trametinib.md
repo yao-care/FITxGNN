@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Trametinibi: melanoomasta kohti choroideremiaa – ennuste ei ole biologisesti perusteltu
+## Trametinibi: melanoomasta kohti choroideremiaa – ennuste ei ole biologisesti perusteltu
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

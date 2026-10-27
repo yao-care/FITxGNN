@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Kaspofungiini: Candidiasista ja aspergilloosista gastriinin erityksen poikkeavuuteen
+## Kaspofungiini: Candidiasista ja aspergilloosista gastriinin erityksen poikkeavuuteen
+{: .text-alpha }
 
 ## Yhden virkkeen yhteenveto
 

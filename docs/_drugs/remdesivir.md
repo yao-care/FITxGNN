@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Remdesiviiri: COVID-19-infektiosta moniin endokriiniseen neoplasiaan
+## Remdesiviiri: COVID-19-infektiosta moniin endokriiniseen neoplasiaan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

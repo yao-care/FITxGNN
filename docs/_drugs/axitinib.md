@@ -33,7 +33,8 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Aksitinibi: Munuaissolusyövästä Xp11.2/TFE3-translokaatioon liittyvään munuaissolusyöpään
+## Aksitinibi: Munuaissolusyövästä Xp11.2/TFE3-translokaatioon liittyvään munuaissolusyöpään
+{: .text-alpha }
 
 ## Yhteenveto
 

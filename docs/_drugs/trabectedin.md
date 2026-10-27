@@ -33,7 +33,8 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Trabektediini: Sarkoomasta ja munasarjasyövästä naispuoliseen rintasyöpään
+## Trabektediini: Sarkoomasta ja munasarjasyövästä naispuoliseen rintasyöpään
+{: .text-alpha }
 
 ## Yhteenveto
 

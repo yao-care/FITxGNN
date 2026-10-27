@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Mekaseermiini: Laronin oireyhtymästä monosomia X:ään (Turnerin oireyhtymä)
+## Mekaseermiini: Laronin oireyhtymästä monosomia X:ään (Turnerin oireyhtymä)
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Silodosiini: Hyvänlaatuisesta eturauhasen liikakasvusta ennustettuun Ambras-tyypin synnynnäiseen yleistyneeseen liikakarvoitukseen
+## Silodosiini: Hyvänlaatuisesta eturauhasen liikakasvusta ennustettuun Ambras-tyypin synnynnäiseen yleistyneeseen liikakarvoitukseen
+{: .text-alpha }
 
 ## Yhteenveto
 

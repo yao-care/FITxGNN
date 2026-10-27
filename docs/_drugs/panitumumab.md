@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Panitumumabi: Paksusuolen kasvaimista lääkkeen aiheuttamaan osteoporoosiin
+## Panitumumabi: Paksusuolen kasvaimista lääkkeen aiheuttamaan osteoporoosiin
+{: .text-alpha }
 
 ## Yhteenveto
 

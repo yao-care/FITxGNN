@@ -33,7 +33,8 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Insulindegludek: Diabeteksesta tyypin 1 diabetekseen
+## Insulindegludek: Diabeteksesta tyypin 1 diabetekseen
+{: .text-alpha }
 
 ## Yhteenveto
 

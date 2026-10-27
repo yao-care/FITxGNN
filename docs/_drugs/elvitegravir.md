@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Elvitegraviiri: HIV-infektiosta apinoiden immuunikatovirusinfektioon (SIV)
+## Elvitegraviiri: HIV-infektiosta apinoiden immuunikatovirusinfektioon (SIV)
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

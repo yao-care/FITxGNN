@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Ranolatsiini: Kokoa angina pectoriksesta nefrogeeniseen antidiureesin epäasianmukaisen erityksen oireyhtymään (NSIAD)
+## Ranolatsiini: Kokoa angina pectoriksesta nefrogeeniseen antidiureesin epäasianmukaisen erityksen oireyhtymään (NSIAD)
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

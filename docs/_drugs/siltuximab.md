@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **8** kpl
 
 </div>
 
-# Siltuksimabi: Giant Lymph Node Hyperplasiasta (Castlemanin tauti) ekstrakutaaniseen mastosytoomaan
+## Siltuksimabi: Giant Lymph Node Hyperplasiasta (Castlemanin tauti) ekstrakutaaniseen mastosytoomaan
+{: .text-alpha }
 
 ## Yhteenveto
 

@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Kenodeoksikolihappo: Aivojen jännekeltakasvaimesta (CTX) perinnölliseen homotsygoottiseen hyperkolesterolemiaan
+## Kenodeoksikolihappo: Aivojen jännekeltakasvaimesta (CTX) perinnölliseen homotsygoottiseen hyperkolesterolemiaan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

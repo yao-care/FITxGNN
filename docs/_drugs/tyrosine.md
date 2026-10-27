@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Tyrosiini: Vaahterasiirappitaudista kauda equina -oireyhtymään
+## Tyrosiini: Vaahterasiirappitaudista kauda equina -oireyhtymään
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

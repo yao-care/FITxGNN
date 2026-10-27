@@ -33,7 +33,8 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **8** kpl
 
 </div>
 
-# Sofosbuviiri: Krooninen C-hepatiitti → hepatiitti E -virusinfektio
+## Sofosbuviiri: Krooninen C-hepatiitti → hepatiitti E -virusinfektio
+{: .text-alpha }
 
 ## Yhden virkkeen yhteenveto
 

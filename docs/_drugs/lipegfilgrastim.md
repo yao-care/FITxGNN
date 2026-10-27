@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Lipegfilgrastiimi: Neutropenian hoidosta primaariseen verihiutaleiden vapautumishäiriöön
+## Lipegfilgrastiimi: Neutropenian hoidosta primaariseen verihiutaleiden vapautumishäiriöön
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

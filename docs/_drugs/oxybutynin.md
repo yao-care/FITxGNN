@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Oksibutyniini: Ylivilkkaan virtsarakon oireista levottomien jalkojen oireyhtymään
+## Oksibutyniini: Ylivilkkaan virtsarakon oireista levottomien jalkojen oireyhtymään
+{: .text-alpha }
 
 ## Yhteenveto
 

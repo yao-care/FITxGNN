@@ -31,7 +31,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Netarsudiili: Avokulmaglaukoomasta primaariseen perinnölliseen glaukoomaan
+## Netarsudiili: Avokulmaglaukoomasta primaariseen perinnölliseen glaukoomaan
+{: .text-alpha }
 
 ## Yhteenveto
 

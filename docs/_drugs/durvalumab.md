@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Durvalumabi: Ei-pienisoluisesta keuhkosyövästä eturauhasen virtsaputken urotelikarsinoomaan
+## Durvalumabi: Ei-pienisoluisesta keuhkosyövästä eturauhasen virtsaputken urotelikarsinoomaan
+{: .text-alpha }
 
 ## Yhteenveto
 

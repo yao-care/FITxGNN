@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Vonikogi alfa: von Willebrandin taudista primaariin verihiutaleiden vapautumishäiriöön
+## Vonikogi alfa: von Willebrandin taudista primaariin verihiutaleiden vapautumishäiriöön
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

@@ -32,7 +32,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 
 </div>
 
-# Atropiinin sulfaatti: uudelleenkäyttöehdokas — riittämätön tietoaineisto täydelliseen arviointiin
+## Atropiinin sulfaatti: uudelleenkäyttöehdokas — riittämätön tietoaineisto täydelliseen arviointiin
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

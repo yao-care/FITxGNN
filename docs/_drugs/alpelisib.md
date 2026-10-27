@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Alpelisibi: Rintasyövästä keuhkoverenpainetautiin
+## Alpelisibi: Rintasyövästä keuhkoverenpainetautiin
+{: .text-alpha }
 
 ## Yhteenveto
 

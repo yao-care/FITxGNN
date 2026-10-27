@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Safinamidi: Parkinsonin taudista Rasmussenin subakuuttiin enkefaliittiin
+## Safinamidi: Parkinsonin taudista Rasmussenin subakuuttiin enkefaliittiin
+{: .text-alpha }
 
 ## Yhteenveto
 

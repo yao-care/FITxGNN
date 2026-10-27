@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Alirokumabi: Dyslipidemioista kolesterolin kataboliaan liittyvään sairauteen
+## Alirokumabi: Dyslipidemioista kolesterolin kataboliaan liittyvään sairauteen
+{: .text-alpha }
 
 ## Yhteenveto
 

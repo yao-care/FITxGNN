@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-# Etelcalcetide: Sekundaarisesta hyperparatyreoosista hyperfosfatemiaan
+## Etelcalcetide: Sekundaarisesta hyperparatyreoosista hyperfosfatemiaan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Eftrenonogi alfa: Hemofilia B:stä pseudo-von Willebrandin tautiin
+## Eftrenonogi alfa: Hemofilia B:stä pseudo-von Willebrandin tautiin
+{: .text-alpha }
 
 ## Yhteenveto
 

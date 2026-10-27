@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Laronidaasi: Mukopolysakkaridoosi I:stä luustoon liittyvään lysosomaaliseen kertymäsairauteen
+## Laronidaasi: Mukopolysakkaridoosi I:stä luustoon liittyvään lysosomaaliseen kertymäsairauteen
+{: .text-alpha }
 
 ## Yhteenveto
 

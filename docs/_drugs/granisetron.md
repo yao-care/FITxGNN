@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Granisetroni: Pahoinvoinnin ja oksentelun hoidosta maaniseen kaksisuuntaiseen mielialahäiriöön
+## Granisetroni: Pahoinvoinnin ja oksentelun hoidosta maaniseen kaksisuuntaiseen mielialahäiriöön
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

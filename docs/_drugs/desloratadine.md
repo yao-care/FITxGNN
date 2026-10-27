@@ -33,7 +33,8 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Desloratadiini: Allergisesta nuhasta ja urtikariasta kylmäurtikariaan
+## Desloratadiini: Allergisesta nuhasta ja urtikariasta kylmäurtikariaan
+{: .text-alpha }
 
 ## Yhden virkkeen yhteenveto
 

@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 
 </div>
 
-# Iloprosti: Keuhkoverenpainetaudista keuhkovaltimoverenpainetautiin, johon liittyy synnynnäinen sydänvika
+## Iloprosti: Keuhkoverenpainetaudista keuhkovaltimoverenpainetautiin, johon liittyy synnynnäinen sydänvika
+{: .text-alpha }
 
 ## Yhteenveto
 

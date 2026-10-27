@@ -33,7 +33,8 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Deksametasoni: Silmä- ja myeloomakäytöstä hiustenlähtöön (alopecia areata)
+## Deksametasoni: Silmä- ja myeloomakäytöstä hiustenlähtöön (alopecia areata)
+{: .text-alpha }
 
 ## Yhden lauseen tiivistelmä
 

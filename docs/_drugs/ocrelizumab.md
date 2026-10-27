@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Okrelitsumabi: Multippeliskleroosista HER2-positiiviseen rintasyöpään
+## Okrelitsumabi: Multippeliskleroosista HER2-positiiviseen rintasyöpään
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

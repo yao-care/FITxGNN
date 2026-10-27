@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Hydrokortisoni: Lisämunuaisen vajaatoiminnasta kaljuuntumiseen (alopecia areata)
+## Hydrokortisoni: Lisämunuaisen vajaatoiminnasta kaljuuntumiseen (alopecia areata)
+{: .text-alpha }
 
 ## Yhteenveto
 

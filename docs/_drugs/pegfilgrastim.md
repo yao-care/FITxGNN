@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Pegfilgrastiimi: Neutropeniasta vaikeaan ei-proliferatiiviseen diabeettiseen retinopatiaan
+## Pegfilgrastiimi: Neutropeniasta vaikeaan ei-proliferatiiviseen diabeettiseen retinopatiaan
+{: .text-alpha }
 
 ## Yhteenveto
 

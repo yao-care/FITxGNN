@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **7** kpl
 
 </div>
 
-# Fenofibraatti: Dyslipidemiasta homotsygoottiseen familiaaliseen hyperkolesterolemiaan
+## Fenofibraatti: Dyslipidemiasta homotsygoottiseen familiaaliseen hyperkolesterolemiaan
+{: .text-alpha }
 
 ## Yhteenveto
 

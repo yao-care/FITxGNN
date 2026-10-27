@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Rilpiviriini: HIV-infektiosta felinin immuunikatoon (ennustettu uusi käyttöaihe)
+## Rilpiviriini: HIV-infektiosta felinin immuunikatoon (ennustettu uusi käyttöaihe)
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

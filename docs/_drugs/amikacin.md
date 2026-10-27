@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Amikasiini: Hengitystieinfektioista paratyfoidikuumeeseen
+## Amikasiini: Hengitystieinfektioista paratyfoidikuumeeseen
+{: .text-alpha }
 
 ## Yhden lauseen tiivistelmä
 

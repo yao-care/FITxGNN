@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-# Roksadustaatti: Kroonisen munuaisten vajaatoiminnan anemiasta kuivasilmäisyyteen
+## Roksadustaatti: Kroonisen munuaisten vajaatoiminnan anemiasta kuivasilmäisyyteen
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

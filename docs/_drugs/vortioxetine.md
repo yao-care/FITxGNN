@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Vortioksetiini: Vakavasta masennuksesta neuroottiseen häiriöön
+## Vortioksetiini: Vakavasta masennuksesta neuroottiseen häiriöön
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

@@ -33,7 +33,8 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Lanadelumabi: Perinnöllisestä angioedeemasta C1-estäjän puutokseen
+## Lanadelumabi: Perinnöllisestä angioedeemasta C1-estäjän puutokseen
+{: .text-alpha }
 
 ## Yhteenveto
 

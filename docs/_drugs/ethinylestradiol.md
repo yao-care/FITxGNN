@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Etinyyliestradioli: Ehkäisystä kohonneeseen plasman sinkkipitoisuuteen
+## Etinyyliestradioli: Ehkäisystä kohonneeseen plasman sinkkipitoisuuteen
+{: .text-alpha }
 
 ## Yhden lauseen tiivistelmä
 

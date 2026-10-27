@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 
 </div>
 
-# Dantroleeni: Maligna hypertermia – alkuperäisestä käyttöaiheesta ennustettuun käyttöaiheeseen (maligna hypertermia, alttius)
+## Dantroleeni: Maligna hypertermia – alkuperäisestä käyttöaiheesta ennustettuun käyttöaiheeseen (maligna hypertermia, alttius)
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

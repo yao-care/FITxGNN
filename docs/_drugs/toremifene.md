@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Toremifeeni: Rintasyövästä HIV-infektioon
+## Toremifeeni: Rintasyövästä HIV-infektioon
+{: .text-alpha }
 
 ## Yhteenveto
 

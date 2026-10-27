@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Risdiplami: Selkälihasatrofiasta aknen ennustettuun hoitoon
+## Risdiplami: Selkälihasatrofiasta aknen ennustettuun hoitoon
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

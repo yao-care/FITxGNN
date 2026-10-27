@@ -33,7 +33,8 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Sunitinibi: Alkuperäisistä käyttöaiheista (GIST, munuaissolusyöpä, neuroendokriiniset kasvaimet) liposarkoomaan
+## Sunitinibi: Alkuperäisistä käyttöaiheista (GIST, munuaissolusyöpä, neuroendokriiniset kasvaimet) liposarkoomaan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

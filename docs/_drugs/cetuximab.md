@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Cetuksimabi: pään ja kaulan sekä paksu- ja peräsuolen kasvaimista lasten keuhkoputken adenoomiin/karsinoideihin
+## Cetuksimabi: pään ja kaulan sekä paksu- ja peräsuolen kasvaimista lasten keuhkoputken adenoomiin/karsinoideihin
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

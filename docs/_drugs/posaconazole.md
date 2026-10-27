@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Posakonatsoli: Sieni-infektioista pneumokystoosiin
+## Posakonatsoli: Sieni-infektioista pneumokystoosiin
+{: .text-alpha }
 
 ## Yhden virkkeen yhteenveto
 

@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Silastatiini: Gramnegatiivisista bakteeri-infektioista Staphylococcus aureus -infektioon
+## Silastatiini: Gramnegatiivisista bakteeri-infektioista Staphylococcus aureus -infektioon
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

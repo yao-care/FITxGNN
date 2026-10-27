@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Alaniini: Vaahterasiirappitaudista gastropareesiin
+## Alaniini: Vaahterasiirappitaudista gastropareesiin
+{: .text-alpha }
 
 ## Yhteenveto
 

@@ -33,7 +33,8 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Mikafungiini: Kandidoosista virtsatieinfektioon
+## Mikafungiini: Kandidoosista virtsatieinfektioon
+{: .text-alpha }
 
 ## Yhden lauseen tiivistelmä
 

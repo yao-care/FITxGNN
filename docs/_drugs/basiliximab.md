@@ -32,7 +32,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 
 </div>
 
-# Basiliximab: Elimistön siirtymisen hylkäämisen estosta — TxGNN-uudelleenkäyttöennusteet eivät ole saatavilla
+## Basiliximab: Elimistön siirtymisen hylkäämisen estosta — TxGNN-uudelleenkäyttöennusteet eivät ole saatavilla
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

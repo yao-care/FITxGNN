@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Benralitsumabi: Astmasta atooppiseen ihottumaan (dermatiitti)
+## Benralitsumabi: Astmasta atooppiseen ihottumaan (dermatiitti)
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

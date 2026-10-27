@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Metotreksaatti: Nivelreumasta ja psoriaasista Hodgkinin lymfoomaan
+## Metotreksaatti: Nivelreumasta ja psoriaasista Hodgkinin lymfoomaan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

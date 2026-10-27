@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Tolvaptaani: Epätarkoituksenmukaisen ADH-erityksen oireyhtymästä (SIADH) polykystiseen munuaistautiin
+## Tolvaptaani: Epätarkoituksenmukaisen ADH-erityksen oireyhtymästä (SIADH) polykystiseen munuaistautiin
+{: .text-alpha }
 
 ## Yhden lauseen tiivistelmä
 

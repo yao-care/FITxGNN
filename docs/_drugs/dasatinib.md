@@ -33,7 +33,8 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Dasatinibi: Kroonisesta myelooisesta leukemiasta Ewingin sarkoomaan
+## Dasatinibi: Kroonisesta myelooisesta leukemiasta Ewingin sarkoomaan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

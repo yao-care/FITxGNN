@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Brigatinibi: Ei-pienisoluisesta keuhkosyövästä ikenen fibromatoosiin (ennuste)
+## Brigatinibi: Ei-pienisoluisesta keuhkosyövästä ikenen fibromatoosiin (ennuste)
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

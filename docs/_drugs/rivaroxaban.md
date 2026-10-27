@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-# Rivaroksabaani: Tromboembolian ehkäisystä ja hoidosta nivelreumaan
+## Rivaroksabaani: Tromboembolian ehkäisystä ja hoidosta nivelreumaan
+{: .text-alpha }
 
 ## Yhteenveto
 

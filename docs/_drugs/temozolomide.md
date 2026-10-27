@@ -33,7 +33,8 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Temotsolomidi: Gliooman hoidosta aikuisten astrosyyttiseen kasvaimeen
+## Temotsolomidi: Gliooman hoidosta aikuisten astrosyyttiseen kasvaimeen
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

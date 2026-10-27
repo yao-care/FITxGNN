@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Kabotsantinibi: Munasolusyövästä ja kilpirauhasen kasvaimista luokittelemattomaan munuaissolusyöpään
+## Kabotsantinibi: Munasolusyövästä ja kilpirauhasen kasvaimista luokittelemattomaan munuaissolusyöpään
+{: .text-alpha }
 
 ## Yhteenveto
 

@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Alglukosidaasi alfa: Pompen taudista aikuisten polyglukosaanikappaletautiin
+## Alglukosidaasi alfa: Pompen taudista aikuisten polyglukosaanikappaletautiin
+{: .text-alpha }
 
 ## Yhteenveto
 

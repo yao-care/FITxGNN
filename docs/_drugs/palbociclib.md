@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-# Palbosiklibi: Rintasyövästä nivelreumaan
+## Palbosiklibi: Rintasyövästä nivelreumaan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

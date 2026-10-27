@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Decitabiini: Myeloisesta leukemiasta lasten refraktaariseen sytopeniaan
+## Decitabiini: Myeloisesta leukemiasta lasten refraktaariseen sytopeniaan
+{: .text-alpha }
 
 ## Yhteenveto
 

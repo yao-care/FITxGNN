@@ -33,7 +33,8 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Duloksetiini: Masennuksesta ja hermokivusta pakko-oireiseen häiriöön
+## Duloksetiini: Masennuksesta ja hermokivusta pakko-oireiseen häiriöön
+{: .text-alpha }
 
 ## Yhteenveto
 

@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Asparagiinihappo: Vaahterasiirappitaudista munuaistiehyeiden asidoosiin
+## Asparagiinihappo: Vaahterasiirappitaudista munuaistiehyeiden asidoosiin
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

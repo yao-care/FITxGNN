@@ -33,7 +33,8 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Solriamfetoli: Unettomuuden ja uniapnean päiväväsymyksestä ADHD:n hoitoon
+## Solriamfetoli: Unettomuuden ja uniapnean päiväväsymyksestä ADHD:n hoitoon
+{: .text-alpha }
 
 ## Yhteenveto
 

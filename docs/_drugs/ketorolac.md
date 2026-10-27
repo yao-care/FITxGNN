@@ -33,7 +33,8 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Ketorolaakki: Leikkauksen jälkeisestä kivusta päänsärkyhäiriöön
+## Ketorolaakki: Leikkauksen jälkeisestä kivusta päänsärkyhäiriöön
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

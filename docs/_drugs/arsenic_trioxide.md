@@ -33,7 +33,8 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Arseenitrioksidi: Äkillisestä promyelosyyttileukemiasta myelodysplastiseen oireyhtymään
+## Arseenitrioksidi: Äkillisestä promyelosyyttileukemiasta myelodysplastiseen oireyhtymään
+{: .text-alpha }
 
 ## Yhteenveto
 

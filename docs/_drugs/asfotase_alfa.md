@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Asfotaasi alfa: Hypofosfatasiasta mitokondrion oksidatiivisen fosforylaation häiriöön (ydin-DNA:n poikkeavuudet)
+## Asfotaasi alfa: Hypofosfatasiasta mitokondrion oksidatiivisen fosforylaation häiriöön (ydin-DNA:n poikkeavuudet)
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

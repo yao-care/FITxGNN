@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Lakosamidi: Epilepsiasta migreeniin
+## Lakosamidi: Epilepsiasta migreeniin
+{: .text-alpha }
 
 ## Yhteenveto
 

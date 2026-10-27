@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Pemigatinibi: Sappitiehyiden syövästä (kolangiokarsinooma) monirauhasten neoplasiaan (multiple endocrine neoplasia)
+## Pemigatinibi: Sappitiehyiden syövästä (kolangiokarsinooma) monirauhasten neoplasiaan (multiple endocrine neoplasia)
+{: .text-alpha }
 
 ## Yhteenveto
 

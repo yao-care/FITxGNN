@@ -33,7 +33,8 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **8** kpl
 
 </div>
 
-# Tryptofaani: Vaahterasiirappitaudista levottomien jalkojen oireyhtymään
+## Tryptofaani: Vaahterasiirappitaudista levottomien jalkojen oireyhtymään
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

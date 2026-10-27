@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Lumakaftori: Kystisestä fibroosista lepraan
+## Lumakaftori: Kystisestä fibroosista lepraan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

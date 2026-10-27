@@ -31,7 +31,8 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Olaparibi: Alkuperäisestä käyttöaiheesta (munasarja-, rinta-, haima- ja eturauhassyöpä) ennustettuun käyttöaiheeseen naisten rintasyöpä
+## Olaparibi: Alkuperäisestä käyttöaiheesta (munasarja-, rinta-, haima- ja eturauhassyöpä) ennustettuun käyttöaiheeseen naisten rintasyöpä
+{: .text-alpha }
 
 ## Yhteenveto
 

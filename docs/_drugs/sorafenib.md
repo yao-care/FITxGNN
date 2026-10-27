@@ -33,7 +33,8 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Sorafenibi: Maksasolusyövästä ja munuaissolusyövästä liposarkoomaan
+## Sorafenibi: Maksasolusyövästä ja munuaissolusyövästä liposarkoomaan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

@@ -33,7 +33,8 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Ledipasviiri: Krooniseen hepatiitti C:hen käytetystä lääkeaineesta hepatiitti B -virusinfektioon
+## Ledipasviiri: Krooniseen hepatiitti C:hen käytetystä lääkeaineesta hepatiitti B -virusinfektioon
+{: .text-alpha }
 
 ## Yhteenveto
 

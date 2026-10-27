@@ -33,7 +33,8 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Entekaviiri: Hepatiitti B:n hoidosta krooniseen hepatiitti C -virusinfektioon
+## Entekaviiri: Hepatiitti B:n hoidosta krooniseen hepatiitti C -virusinfektioon
+{: .text-alpha }
 
 ## Yhteenveto
 

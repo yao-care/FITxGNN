@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **9** kpl
 
 </div>
 
-# Sytarabiini: Akuutista myeloisesta leukemiasta pienisoluiseen keuhkosyöpään
+## Sytarabiini: Akuutista myeloisesta leukemiasta pienisoluiseen keuhkosyöpään
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Rufinamidi: Epilepsiasta kuumeeseen liittyvään epilepsiaoireyhtymään (FIRES)
+## Rufinamidi: Epilepsiasta kuumeeseen liittyvään epilepsiaoireyhtymään (FIRES)
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

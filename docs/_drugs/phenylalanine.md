@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Fenyylialaniini: Vaahterasiirappitaudista kolangiitti-sklerosoivaan (sclerosing cholangitis)
+## Fenyylialaniini: Vaahterasiirappitaudista kolangiitti-sklerosoivaan (sclerosing cholangitis)
+{: .text-alpha }
 
 ## Yhteenveto
 

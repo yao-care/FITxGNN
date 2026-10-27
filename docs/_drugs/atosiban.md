@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Atosibaani: Ennenaikaisesta synnytyksestä primaariin perinnölliseen glaukoomaan
+## Atosibaani: Ennenaikaisesta synnytyksestä primaariin perinnölliseen glaukoomaan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

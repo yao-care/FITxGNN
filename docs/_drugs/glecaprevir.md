@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Glekapreviiri: Krooniseen hepatiitti C:n hoidosta HIV-infektioon (ennuste)
+## Glekapreviiri: Krooniseen hepatiitti C:n hoidosta HIV-infektioon (ennuste)
+{: .text-alpha }
 
 ## Yhden lauseen tiivistelmä
 

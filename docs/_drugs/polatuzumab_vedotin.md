@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Polatutsumabivedotiini: Alkuperäisestä B-solulymfooman käytöstä ennustettuun HER2-positiiviseen rintasyöpään
+## Polatutsumabivedotiini: Alkuperäisestä B-solulymfooman käytöstä ennustettuun HER2-positiiviseen rintasyöpään
+{: .text-alpha }
 
 ## Yhden lauseen tiivistelmä
 

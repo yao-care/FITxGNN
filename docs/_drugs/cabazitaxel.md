@@ -33,7 +33,8 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Kabatsitakseli: Eturauhassyövästä naisten rintasyöpään
+## Kabatsitakseli: Eturauhassyövästä naisten rintasyöpään
+{: .text-alpha }
 
 ## Yhteenveto
 

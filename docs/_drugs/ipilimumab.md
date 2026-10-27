@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Ipilimumabi: Melanoomasta koroideremiaan
+## Ipilimumabi: Melanoomasta koroideremiaan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

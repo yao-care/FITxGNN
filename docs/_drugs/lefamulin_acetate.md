@@ -32,7 +32,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 
 </div>
 
-# Lefamulin asetaatti: Arviointiraportti — Riittämätön tieto uudelleenosittamisen arviointiin
+## Lefamulin asetaatti: Arviointiraportti — Riittämätön tieto uudelleenosittamisen arviointiin
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

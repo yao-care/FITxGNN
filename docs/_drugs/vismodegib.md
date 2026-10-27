@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Vismodegibi: tyvisolusyövästä laajasti nodulaariseen medulloblastoomaan
+## Vismodegibi: tyvisolusyövästä laajasti nodulaariseen medulloblastoomaan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

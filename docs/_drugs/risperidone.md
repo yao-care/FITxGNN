@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Risperidoni: Skitsofreniasta familiaaliseen horisontaaliseen katseen halvaukseen ja etenevään skolioosiin
+## Risperidoni: Skitsofreniasta familiaaliseen horisontaaliseen katseen halvaukseen ja etenevään skolioosiin
+{: .text-alpha }
 
 ## Yhteenveto
 

@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Anagrelidi: Olennaisesta trombosytemiasta reaktiiviseen trombosytoosiin
+## Anagrelidi: Olennaisesta trombosytemiasta reaktiiviseen trombosytoosiin
+{: .text-alpha }
 
 ## Yhteenveto
 

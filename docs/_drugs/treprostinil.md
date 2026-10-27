@@ -33,7 +33,8 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Treprostiniili: keuhkoverenpainetaudista keuhkoverenpainetaudin alamuotoon (sidekudossairauteen liittyvä PAH)
+## Treprostiniili: keuhkoverenpainetaudista keuhkoverenpainetaudin alamuotoon (sidekudossairauteen liittyvä PAH)
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

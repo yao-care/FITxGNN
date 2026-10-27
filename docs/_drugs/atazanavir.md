@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Atatsanaviiri: HIV-infektion hoidosta simiaaniseen immuunikatoviruksen aiheuttamaan infektioon
+## Atatsanaviiri: HIV-infektion hoidosta simiaaniseen immuunikatoviruksen aiheuttamaan infektioon
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

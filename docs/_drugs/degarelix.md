@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Degareliksi: Eturauhassyövästä ennustettuun uuteen käyttöaiheeseen – hypertrikoosi
+## Degareliksi: Eturauhassyövästä ennustettuun uuteen käyttöaiheeseen – hypertrikoosi
+{: .text-alpha }
 
 ## Yhteenveto
 

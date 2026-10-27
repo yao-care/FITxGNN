@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Ertapeneemi: Bakteeri-infektioista bakteeriniveltulehdukseen
+## Ertapeneemi: Bakteeri-infektioista bakteeriniveltulehdukseen
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

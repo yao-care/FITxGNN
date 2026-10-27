@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Verteporfiini: Rappeutuneesta silmänpohjan ja likinäköisyyden hoidosta mitokondriaaliseen oksidatiivisen fosforylaation häiriöön
+## Verteporfiini: Rappeutuneesta silmänpohjan ja likinäköisyyden hoidosta mitokondriaaliseen oksidatiivisen fosforylaation häiriöön
+{: .text-alpha }
 
 ## Yhteenveto
 

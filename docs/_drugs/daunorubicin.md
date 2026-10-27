@@ -33,7 +33,8 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Daunorubisiini: Akuutista myeloidisesta leukemiasta Hodgkinin lymfoomaan
+## Daunorubisiini: Akuutista myeloidisesta leukemiasta Hodgkinin lymfoomaan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

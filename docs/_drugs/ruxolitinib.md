@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Ruksolitinibi: vitiligosta ja myeloproliferatiivisista sairauksista hemofagosyyttiseen oireyhtymään (infektioon liittyvä)
+## Ruksolitinibi: vitiligosta ja myeloproliferatiivisista sairauksista hemofagosyyttiseen oireyhtymään (infektioon liittyvä)
+{: .text-alpha }
 
 ## Yhteenveto
 

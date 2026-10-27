@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Apiksabaani: Tromboembolian ehkäisystä migreeniin
+## Apiksabaani: Tromboembolian ehkäisystä migreeniin
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Lapatinibi: Rintasyövästä dermatofibrosarkooma protuberansiin
+## Lapatinibi: Rintasyövästä dermatofibrosarkooma protuberansiin
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

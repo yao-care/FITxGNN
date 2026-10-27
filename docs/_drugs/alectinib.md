@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Alektinibi: Ei-pienisoluisesta keuhkosyövästä ientyvien kuitukasvaimeen (gingivaalinen fibromatoosi)
+## Alektinibi: Ei-pienisoluisesta keuhkosyövästä ientyvien kuitukasvaimeen (gingivaalinen fibromatoosi)
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

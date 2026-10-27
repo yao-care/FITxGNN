@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Vildagliptiini: tyypin 2 diabeteksesta klassiseen jäykän ihmisen oireyhtymään
+## Vildagliptiini: tyypin 2 diabeteksesta klassiseen jäykän ihmisen oireyhtymään
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Tenekteplaasi: Sydäninfarktista koronaarisen ahtauman hoitoon
+## Tenekteplaasi: Sydäninfarktista koronaarisen ahtauman hoitoon
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

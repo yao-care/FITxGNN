@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 
 </div>
 
-# Larotrectinib-sulfaatti: NTRK-fuusiota kantavista kiinteistä kasvaimista — TxGNN-ennusteet eivät saatavilla
+## Larotrectinib-sulfaatti: NTRK-fuusiota kantavista kiinteistä kasvaimista — TxGNN-ennusteet eivät saatavilla
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

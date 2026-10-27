@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Relebaktaami: Gramnegatiivisten bakteeri-infektioiden hoidosta hyperamylasemiaan
+## Relebaktaami: Gramnegatiivisten bakteeri-infektioiden hoidosta hyperamylasemiaan
+{: .text-alpha }
 
 ## Yhteenveto
 

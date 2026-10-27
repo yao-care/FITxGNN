@@ -31,7 +31,8 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Teriflunomidi: Relapsoivasta-remittoivasta MS-taudista relapsoivaan-remittoivaan MS-tautiin
+## Teriflunomidi: Relapsoivasta-remittoivasta MS-taudista relapsoivaan-remittoivaan MS-tautiin
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

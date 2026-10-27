@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Telmisartaani: Verenpainelääkkeestä Prinzmetalin angiinaan
+## Telmisartaani: Verenpainelääkkeestä Prinzmetalin angiinaan
+{: .text-alpha }
 
 ## Yhteenveto
 

@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **9** kpl
 
 </div>
 
-# Pravastatiini: Dyslipidemioista homotsygoottiseen familiaaliseen hyperkolesterolemiaan
+## Pravastatiini: Dyslipidemioista homotsygoottiseen familiaaliseen hyperkolesterolemiaan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

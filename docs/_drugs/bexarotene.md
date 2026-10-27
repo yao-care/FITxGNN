@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Beksaroteeni: Ihon T-solulymfoomasta primaariseen ihon B-solulymfoomaan
+## Beksaroteeni: Ihon T-solulymfoomasta primaariseen ihon B-solulymfoomaan
+{: .text-alpha }
 
 ## Yhteenveto
 

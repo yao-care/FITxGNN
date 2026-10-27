@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Filgrastiimi: Neutropenian ja kantasolusiirron tukihoidosta trombosyyttien toimintahäiriöihin (platelet-type bleeding disorder)
+## Filgrastiimi: Neutropenian ja kantasolusiirron tukihoidosta trombosyyttien toimintahäiriöihin (platelet-type bleeding disorder)
+{: .text-alpha }
 
 ## Yhteenveto
 

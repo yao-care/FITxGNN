@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Orlistaatti: Lihavuuden hoidosta hypervitaminoosiin
+## Orlistaatti: Lihavuuden hoidosta hypervitaminoosiin
+{: .text-alpha }
 
 ## Yhteenveto
 

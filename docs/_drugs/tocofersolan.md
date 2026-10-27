@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Tokofersolaani: Kolestaasista ja E-vitamiinin puutoksesta amenorreaan
+## Tokofersolaani: Kolestaasista ja E-vitamiinin puutoksesta amenorreaan
+{: .text-alpha }
 
 ## Yhden lauseen tiivistelmä
 

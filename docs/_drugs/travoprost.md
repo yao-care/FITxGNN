@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Travoprosti: glaukoomasta ja silmänpainetaudista viskeraaliseen kalsifylaksiaan
+## Travoprosti: glaukoomasta ja silmänpainetaudista viskeraaliseen kalsifylaksiaan
+{: .text-alpha }
 
 ## Yhteenveto
 

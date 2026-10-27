@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Kofeiini: Apnean hoidosta nenäontelon sairauteen
+## Kofeiini: Apnean hoidosta nenäontelon sairauteen
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

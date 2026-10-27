@@ -31,7 +31,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Eptinezumabi: Migreenistä aivorunkoauraan liittyvään migreeniin
+## Eptinezumabi: Migreenistä aivorunkoauraan liittyvään migreeniin
+{: .text-alpha }
 
 ## Yhden virkkeen yhteenveto
 

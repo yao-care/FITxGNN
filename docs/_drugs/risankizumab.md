@@ -33,7 +33,8 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Risankitsumabi: Psoriaasista ja tulehduksellisista suolistosairauksista ihottumaan (dermatiitti)
+## Risankitsumabi: Psoriaasista ja tulehduksellisista suolistosairauksista ihottumaan (dermatiitti)
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

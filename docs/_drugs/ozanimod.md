@@ -31,7 +31,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Ozanimodi: Uusiutuvasta MS-taudista etenevään uusiutuvaan MS-tautiin
+## Ozanimodi: Uusiutuvasta MS-taudista etenevään uusiutuvaan MS-tautiin
+{: .text-alpha }
 
 ## Yhteenveto
 

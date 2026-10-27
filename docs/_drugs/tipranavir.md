@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Tipranaviiri: HIV-infektiosta ennustettuun kissan hankinnaiseen immuunipuutosoireyhtymään
+## Tipranaviiri: HIV-infektiosta ennustettuun kissan hankinnaiseen immuunipuutosoireyhtymään
+{: .text-alpha }
 
 ## Yhteenveto
 

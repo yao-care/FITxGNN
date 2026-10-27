@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Gilteritinibi: Akuutista myeloidisesta leukemiasta bulbaariseen polioon
+## Gilteritinibi: Akuutista myeloidisesta leukemiasta bulbaariseen polioon
+{: .text-alpha }
 
 ## Yhteenveto
 

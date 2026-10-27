@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Parathormoni: Hypoparatyreoosista migreeniin
+## Parathormoni: Hypoparatyreoosista migreeniin
+{: .text-alpha }
 
 ## Yhteenveto
 

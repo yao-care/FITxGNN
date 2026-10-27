@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Adalimumabi: Nivelreumasta reumatoidiseen vaskuliittiin
+## Adalimumabi: Nivelreumasta reumatoidiseen vaskuliittiin
+{: .text-alpha }
 
 ## Yhteenveto
 

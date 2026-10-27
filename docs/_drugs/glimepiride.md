@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 
 </div>
 
-# Glimepiridi: Tyypin 2 diabeteksesta fokaaliseen jäykän raajan oireyhtymään
+## Glimepiridi: Tyypin 2 diabeteksesta fokaaliseen jäykän raajan oireyhtymään
+{: .text-alpha }
 
 ## Yhteenveto
 

@@ -33,7 +33,8 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Selumetinibi: Neurofibromatoosi 1:stä perifeeriseen hermoverhokasvaimeen (schwannoomaan)
+## Selumetinibi: Neurofibromatoosi 1:stä perifeeriseen hermoverhokasvaimeen (schwannoomaan)
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

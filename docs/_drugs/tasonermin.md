@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Tasonermiini: Sarkoomasta eturauhasen virtsaputken urotelikarsinoomaan
+## Tasonermiini: Sarkoomasta eturauhasen virtsaputken urotelikarsinoomaan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

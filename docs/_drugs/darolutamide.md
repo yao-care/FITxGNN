@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Darolutamidi: Eturauhassyövän hoidosta ennustettuun uuteen käyttöaiheeseen (homotsygoottinen familiaalinen hyperkolesterolemia)
+## Darolutamidi: Eturauhassyövän hoidosta ennustettuun uuteen käyttöaiheeseen (homotsygoottinen familiaalinen hyperkolesterolemia)
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

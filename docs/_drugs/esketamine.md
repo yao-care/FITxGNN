@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Esketamiini: Masennuslääkkeestä agorafobiaan
+## Esketamiini: Masennuslääkkeestä agorafobiaan
+{: .text-alpha }
 
 ## Yhteenveto
 

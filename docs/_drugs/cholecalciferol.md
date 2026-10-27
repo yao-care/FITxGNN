@@ -33,7 +33,8 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **7** kpl
 
 </div>
 
-# Kolekalsiferoli: Postmenopausaalisesta osteoporoosista munuaisluustotautiin (renal osteodystrophy)
+## Kolekalsiferoli: Postmenopausaalisesta osteoporoosista munuaisluustotautiin (renal osteodystrophy)
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

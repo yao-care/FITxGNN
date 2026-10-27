@@ -33,7 +33,8 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Amlodipiini: Verenpainetaudista aivorunkoinfarktiin
+## Amlodipiini: Verenpainetaudista aivorunkoinfarktiin
+{: .text-alpha }
 
 ## Yhden virkkeen yhteenveto
 

@@ -32,7 +32,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 
 </div>
 
-# Anidulafungin: Arviointiraportti — Uudelleenkäyttökohteita ei tunnistettu
+## Anidulafungin: Arviointiraportti — Uudelleenkäyttökohteita ei tunnistettu
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

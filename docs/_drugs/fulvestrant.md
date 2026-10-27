@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Fulvestrantti: rintasyövästä HIV-infektioon (tutkimuskysymys)
+## Fulvestrantti: rintasyövästä HIV-infektioon (tutkimuskysymys)
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Nitisinoni: Tyrosinemiasta munatuubulusten asidoosiin
+## Nitisinoni: Tyrosinemiasta munatuubulusten asidoosiin
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

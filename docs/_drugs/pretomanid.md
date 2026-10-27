@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Pretomanidi: Monilääkeresistentin tuberkuloosin hoidosta ennustettuun kandidoosiin
+## Pretomanidi: Monilääkeresistentin tuberkuloosin hoidosta ennustettuun kandidoosiin
+{: .text-alpha }
 
 ## Yhteenveto
 

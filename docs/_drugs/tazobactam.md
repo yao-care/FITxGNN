@@ -31,13 +31,15 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Tatsobaktaami: Bakteeri-infektioista keuhkokuumeeseen
+## Tatsobaktaami: Bakteeri-infektioista keuhkokuumeeseen
+{: .text-alpha }
 
 > Huom. otsikossa lääkkeen nimi on Tatsobaktaami (Tazobactam).
 
 Korjaus: otsikko alla varsinaisessa muodossa.
 
-# Tazobactam: Bakteeri-infektioista keuhkokuumeeseen
+## Tazobactam: Bakteeri-infektioista keuhkokuumeeseen
+{: .text-alpha }
 
 ## Yhden virkkeen yhteenveto
 

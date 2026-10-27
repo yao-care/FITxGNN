@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Pibrentasviiri: Krooniseen hepatiitti C:hen käytetystä lääkkeestä ennustettuun hepatiitti B -virusinfektioon
+## Pibrentasviiri: Krooniseen hepatiitti C:hen käytetystä lääkkeestä ennustettuun hepatiitti B -virusinfektioon
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

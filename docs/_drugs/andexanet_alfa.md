@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-# Andeksanetti alfa: Lääkkeeseen liittyvistä haittavaikutuksista Glanzmannin trombasteniaan
+## Andeksanetti alfa: Lääkkeeseen liittyvistä haittavaikutuksista Glanzmannin trombasteniaan
+{: .text-alpha }
 
 ## Yhteenveto
 

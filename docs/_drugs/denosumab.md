@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Denosumabi: luuston sairauksista diabeettiseen retinopatiaan
+## Denosumabi: luuston sairauksista diabeettiseen retinopatiaan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

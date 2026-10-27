@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-# Raloksifeeni: Postmenopausaalisesta osteoporoosista pohjukaissuolen haavaumaan
+## Raloksifeeni: Postmenopausaalisesta osteoporoosista pohjukaissuolen haavaumaan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

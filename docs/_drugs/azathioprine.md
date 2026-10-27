@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Atsatiopriini: Siirtokudoksen hylkimisreaktiosta kolobomatoottiseen mikroftalmia-rhizomeelinen dysplasia -oireyhtymään
+## Atsatiopriini: Siirtokudoksen hylkimisreaktiosta kolobomatoottiseen mikroftalmia-rhizomeelinen dysplasia -oireyhtymään
+{: .text-alpha }
 
 ## Yhteenveto
 

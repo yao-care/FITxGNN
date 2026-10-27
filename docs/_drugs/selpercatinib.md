@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Selpercatinibi: Ei-pienisoluisesta keuhkosyövästä ja kilpirauhasen kasvaimista keuhkoverenpainetautiin
+## Selpercatinibi: Ei-pienisoluisesta keuhkosyövästä ja kilpirauhasen kasvaimista keuhkoverenpainetautiin
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

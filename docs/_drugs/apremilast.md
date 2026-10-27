@@ -32,7 +32,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 
 </div>
 
-# Apremilast: Näyttöpaketti epätäydellinen — odotetaan TxGNN-ennusteen tuloksia
+## Apremilast: Näyttöpaketti epätäydellinen — odotetaan TxGNN-ennusteen tuloksia
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

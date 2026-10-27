@@ -33,7 +33,8 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Pantopratsoli: Refluksitaudista aktiiviseen peptiseen haavatautiin
+## Pantopratsoli: Refluksitaudista aktiiviseen peptiseen haavatautiin
+{: .text-alpha }
 
 ## Yhteenveto
 

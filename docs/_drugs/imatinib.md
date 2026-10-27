@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Imatinibi: Kroonisesta myelooisesta leukemiasta sydämen fibrosarkoomaan
+## Imatinibi: Kroonisesta myelooisesta leukemiasta sydämen fibrosarkoomaan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

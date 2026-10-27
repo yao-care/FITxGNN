@@ -32,7 +32,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 
 </div>
 
-# Lasmiditan sukkinaatti: Arviointi pidätetty — riittämättömät tiedot
+## Lasmiditan sukkinaatti: Arviointi pidätetty — riittämättömät tiedot
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

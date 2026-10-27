@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Bempedoiinihappo: Hyperkolesterolemiasta kilpirauhasen liikatoimintaan
+## Bempedoiinihappo: Hyperkolesterolemiasta kilpirauhasen liikatoimintaan
+{: .text-alpha }
 
 ## Yhteenveto
 

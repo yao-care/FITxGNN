@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Peginterferoni alfa-2a: Kroonisesta hepatiitti C:stä hepatiitti B -virusinfektioon
+## Peginterferoni alfa-2a: Kroonisesta hepatiitti C:stä hepatiitti B -virusinfektioon
+{: .text-alpha }
 
 ## Yhteenveto
 

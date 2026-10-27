@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Mepolitsumabi: Astmasta immuunivälitteiseen trombosytopeniaan
+## Mepolitsumabi: Astmasta immuunivälitteiseen trombosytopeniaan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

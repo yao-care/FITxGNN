@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Metreleptiini: Familiaalisesta osittaisesta lipodystrofiasta familiaaliseen yleistyneeseen lentiginoosiin
+## Metreleptiini: Familiaalisesta osittaisesta lipodystrofiasta familiaaliseen yleistyneeseen lentiginoosiin
+{: .text-alpha }
 
 ## Yhteenveto
 

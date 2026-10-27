@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Seritinibi: Ei-pienisoluisesta keuhkosyövästä ikenen fibromatoosiin (gingival fibromatosis)
+## Seritinibi: Ei-pienisoluisesta keuhkosyövästä ikenen fibromatoosiin (gingival fibromatosis)
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

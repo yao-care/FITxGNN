@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Kobisistaatti: HIV-infektiosta simiaaniimmuunikatovirusinfektioon
+## Kobisistaatti: HIV-infektiosta simiaaniimmuunikatovirusinfektioon
+{: .text-alpha }
 
 ## Yhden lauseen tiivistelmä
 

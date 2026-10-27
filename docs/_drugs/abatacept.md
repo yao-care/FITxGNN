@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Abatasepti: Nivelreumasta reumatoidiseen vaskuliittiin
+## Abatasepti: Nivelreumasta reumatoidiseen vaskuliittiin
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

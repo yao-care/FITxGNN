@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Tyrotropiini alfa: Kilpirauhasen kasvaimista migreenihäiriöön
+## Tyrotropiini alfa: Kilpirauhasen kasvaimista migreenihäiriöön
+{: .text-alpha }
 
 ## Yhteenveto
 

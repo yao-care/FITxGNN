@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Ritonaviiri: HIV-infektion hoidosta felinin immuunikatoon (ennuste)
+## Ritonaviiri: HIV-infektion hoidosta felinin immuunikatoon (ennuste)
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

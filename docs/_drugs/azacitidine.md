@@ -32,7 +32,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 
 </div>
 
-# Azacitidine: uudelleenkäytön analyysi — todistepaketti epätäydellinen
+## Azacitidine: uudelleenkäytön analyysi — todistepaketti epätäydellinen
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

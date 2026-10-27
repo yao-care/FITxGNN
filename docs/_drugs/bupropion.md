@@ -33,7 +33,8 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Bupropioni: Lihavuudesta ja ylipainosta aktiivisuus- ja tarkkaavuushäiriöön (ADHD)
+## Bupropioni: Lihavuudesta ja ylipainosta aktiivisuus- ja tarkkaavuushäiriöön (ADHD)
+{: .text-alpha }
 
 ## Yhteenveto
 

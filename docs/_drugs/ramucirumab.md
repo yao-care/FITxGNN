@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Ramusirumabi: Mahasyövän hoidosta kohdun ligamentin adenokarsinoomaan
+## Ramusirumabi: Mahasyövän hoidosta kohdun ligamentin adenokarsinoomaan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

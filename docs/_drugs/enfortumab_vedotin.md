@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 
 </div>
 
-# Enfortumabivedotiini: Urotelisyövästä ennustettuun uuteen käyttöaiheeseen (lepra)
+## Enfortumabivedotiini: Urotelisyövästä ennustettuun uuteen käyttöaiheeseen (lepra)
+{: .text-alpha }
 
 ## Yhteenveto
 

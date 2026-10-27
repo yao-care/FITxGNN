@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Serliponaasialfa: Neuronaalisesta seroidilipofuskinoosista Scheien oireyhtymään
+## Serliponaasialfa: Neuronaalisesta seroidilipofuskinoosista Scheien oireyhtymään
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

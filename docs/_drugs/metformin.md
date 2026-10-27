@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Metformiini: Tyypin 2 diabeteksesta fokaaliseen jäykän raajan oireyhtymään
+## Metformiini: Tyypin 2 diabeteksesta fokaaliseen jäykän raajan oireyhtymään
+{: .text-alpha }
 
 ## Yhden lauseen tiivistelmä
 

@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Meropeneemi: Bakteeri-infektioista bakteeriperäiseen niveltulehdukseen
+## Meropeneemi: Bakteeri-infektioista bakteeriperäiseen niveltulehdukseen
+{: .text-alpha }
 
 ## Yhden lauseen tiivistelmä
 

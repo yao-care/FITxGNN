@@ -33,7 +33,8 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Aripipratsoli: Skitsofreniasta vakavaan mielialahäiriöön
+## Aripipratsoli: Skitsofreniasta vakavaan mielialahäiriöön
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

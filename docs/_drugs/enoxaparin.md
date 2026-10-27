@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Enoksapariini: Laskimotromboembolian hoidosta proteiini C:n puutteesta johtuvaan trombofiliaan
+## Enoksapariini: Laskimotromboembolian hoidosta proteiini C:n puutteesta johtuvaan trombofiliaan
+{: .text-alpha }
 
 ## Yhteenveto
 

@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Tivozanibi: Munuaissolusyövästä endocervikaaliseen karsinoomaan
+## Tivozanibi: Munuaissolusyövästä endocervikaaliseen karsinoomaan
+{: .text-alpha }
 
 ## Yhteenveto
 

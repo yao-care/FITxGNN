@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Fostamatinib: Trombosytopeniasta ennustettuun autosomaaliseen trombosytopeniaan (normaalit verihiutaleet)
+## Fostamatinib: Trombosytopeniasta ennustettuun autosomaaliseen trombosytopeniaan (normaalit verihiutaleet)
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

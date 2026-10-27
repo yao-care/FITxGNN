@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Lonafarnibi: Progeriasta ja laminopatioista lepraan
+## Lonafarnibi: Progeriasta ja laminopatioista lepraan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Palonosetroni: Pahoinvoinnin ja oksentelun hoidosta migreeniin
+## Palonosetroni: Pahoinvoinnin ja oksentelun hoidosta migreeniin
+{: .text-alpha }
 
 ## Yhteenveto
 

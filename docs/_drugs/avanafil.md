@@ -32,7 +32,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 
 </div>
 
-# Avanafil: Lääkkeen uudelleenkäytön arviointi — Epätäydellinen näyttöpaketti
+## Avanafil: Lääkkeen uudelleenkäytön arviointi — Epätäydellinen näyttöpaketti
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

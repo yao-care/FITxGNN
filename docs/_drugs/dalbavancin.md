@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Dalbavansiini: Ihon ja pehmytkudoksen bakteeri-infektioista postinfektiiviseen vaskuliittiin
+## Dalbavansiini: Ihon ja pehmytkudoksen bakteeri-infektioista postinfektiiviseen vaskuliittiin
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

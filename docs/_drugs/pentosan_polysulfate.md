@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Pentosaanipolysulfaatti: Interstitiaalisesta kystiitista primaariseen verihiutaleiden vapautumishäiriöön
+## Pentosaanipolysulfaatti: Interstitiaalisesta kystiitista primaariseen verihiutaleiden vapautumishäiriöön
+{: .text-alpha }
 
 ## Yhteenveto
 

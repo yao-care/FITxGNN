@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Idebenoni: Leberin perinnöllisestä näköhermon surkastumasta maksaporfyriaan
+## Idebenoni: Leberin perinnöllisestä näköhermon surkastumasta maksaporfyriaan
+{: .text-alpha }
 
 ## Yhteenveto
 

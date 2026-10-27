@@ -32,7 +32,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 
 </div>
 
-# Avibactam-natrium: Uudelleenkäytön arviointi epäselvä — TxGNN-ennusteita ei ole saatavilla
+## Avibactam-natrium: Uudelleenkäytön arviointi epäselvä — TxGNN-ennusteita ei ole saatavilla
+{: .text-alpha }
 
 ## Yksisäikeinen yhteenveto
 

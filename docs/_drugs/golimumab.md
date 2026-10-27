@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Golimumabi: Nivelreumasta tulehdukselliseen selkärankasairauteen
+## Golimumabi: Nivelreumasta tulehdukselliseen selkärankasairauteen
+{: .text-alpha }
 
 ## Yhteenveto
 

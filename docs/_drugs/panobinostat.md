@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Panobinostaatti: multippelin myelooman hoidosta myeloidileukemiaan
+## Panobinostaatti: multippelin myelooman hoidosta myeloidileukemiaan
+{: .text-alpha }
 
 ## Yhteenveto
 

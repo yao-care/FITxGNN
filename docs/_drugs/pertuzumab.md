@@ -33,7 +33,8 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Pertutsumabi: Rintasyövästä progesteronireseptoripositiiviseen rintasyöpään
+## Pertutsumabi: Rintasyövästä progesteronireseptoripositiiviseen rintasyöpään
+{: .text-alpha }
 
 ## Yhteenveto
 

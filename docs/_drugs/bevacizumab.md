@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Bevasitsumabi: Alkuperäisistä syöpäindikaatioista ennustettuun kystiseen neoplasiaan
+## Bevasitsumabi: Alkuperäisistä syöpäindikaatioista ennustettuun kystiseen neoplasiaan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Tasimelteoni: Vuorokausirytmihäiriöistä lasten unettomuuteen
+## Tasimelteoni: Vuorokausirytmihäiriöistä lasten unettomuuteen
+{: .text-alpha }
 
 ## Yhden lauseen tiivistelmä
 

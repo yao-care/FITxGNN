@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **8** kpl
 
 </div>
 
-# Klopidogreeli: Sepelvaltimotaudin ja aivoinfarktin ehkäisystä migreeniin
+## Klopidogreeli: Sepelvaltimotaudin ja aivoinfarktin ehkäisystä migreeniin
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

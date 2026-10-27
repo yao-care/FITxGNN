@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Ziconotide: Kivusta migreeniin
+## Ziconotide: Kivusta migreeniin
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

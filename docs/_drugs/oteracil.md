@@ -33,7 +33,8 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Oteraciili: mahasyövästä paksusuolen kasvaimeen
+## Oteraciili: mahasyövästä paksusuolen kasvaimeen
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

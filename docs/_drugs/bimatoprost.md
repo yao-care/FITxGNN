@@ -33,7 +33,8 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Bimatoprosti: glaukoomasta hiustenlähtöön (alopecia)
+## Bimatoprosti: glaukoomasta hiustenlähtöön (alopecia)
+{: .text-alpha }
 
 ## Yhteenveto
 

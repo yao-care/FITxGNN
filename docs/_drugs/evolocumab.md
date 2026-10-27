@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Evolokumabi: Dyslipidemiasta ja hyperkolesterolemiasta ennustettuun hemofilian oireiseen kantajuuteen
+## Evolokumabi: Dyslipidemiasta ja hyperkolesterolemiasta ennustettuun hemofilian oireiseen kantajuuteen
+{: .text-alpha }
 
 ## Yhteenveto
 

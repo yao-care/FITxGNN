@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Dronedaroni: Eteisvärinän hoidosta aivohalvaukseen (stroke disorder)
+## Dronedaroni: Eteisvärinän hoidosta aivohalvaukseen (stroke disorder)
+{: .text-alpha }
 
 ## Yhteenveto
 

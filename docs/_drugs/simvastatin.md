@@ -33,7 +33,8 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **8** kpl
 
 </div>
 
-# Simvastatiini: Dyslipidemioista familiaaliseen hyperkolesterolemiaan
+## Simvastatiini: Dyslipidemioista familiaaliseen hyperkolesterolemiaan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

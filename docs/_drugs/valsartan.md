@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **7** kpl
 
 </div>
 
-# Valsartaani: Verenpainetaudista ja sydämen vajaatoiminnasta pahanlaatuiseen hypertensiiviseen munuaissairauteen
+## Valsartaani: Verenpainetaudista ja sydämen vajaatoiminnasta pahanlaatuiseen hypertensiiviseen munuaissairauteen
+{: .text-alpha }
 
 ## Yhteenveto
 

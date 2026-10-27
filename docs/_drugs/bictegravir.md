@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Bictegraviiri: HIV-infektiosta apinoiden immuunikatovirusinfektioon
+## Bictegraviiri: HIV-infektiosta apinoiden immuunikatovirusinfektioon
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

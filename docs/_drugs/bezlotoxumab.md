@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Bezlotoksumabi: Pseudomembranoottisesta enterokoliitista akuuttiin naisen lantion peritoniittiin
+## Bezlotoksumabi: Pseudomembranoottisesta enterokoliitista akuuttiin naisen lantion peritoniittiin
+{: .text-alpha }
 
 ## Yhteenveto
 

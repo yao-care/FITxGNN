@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Tekovirimaatti: Isorokkoinfektioista ennustettuun uuteen käyttöaiheeseen (hordeolum)
+## Tekovirimaatti: Isorokkoinfektioista ennustettuun uuteen käyttöaiheeseen (hordeolum)
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

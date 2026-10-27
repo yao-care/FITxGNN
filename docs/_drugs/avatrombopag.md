@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Avatrombopaagi: Trombosytopeniasta marcothrombocytopenia with mitral valve insufficiency -ennusteeseen
+## Avatrombopaagi: Trombosytopeniasta marcothrombocytopenia with mitral valve insufficiency -ennusteeseen
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

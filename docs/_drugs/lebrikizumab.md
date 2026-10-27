@@ -32,7 +32,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 
 </div>
 
-# Lebrikizumab: Riittämätön tieto uudelleenkäyttöarvioinnille
+## Lebrikizumab: Riittämätön tieto uudelleenkäyttöarvioinnille
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

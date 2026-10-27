@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Budesoni: Esofagiitista ja keuhkosairauksista kohti ennustettua uutta käyttöaihetta – atooppinen ekseema
+## Budesoni: Esofagiitista ja keuhkosairauksista kohti ennustettua uutta käyttöaihetta – atooppinen ekseema
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

@@ -33,7 +33,8 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Brivarasetaami: Epilepsiasta status epilepticukseen
+## Brivarasetaami: Epilepsiasta status epilepticukseen
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

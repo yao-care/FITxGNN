@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Mometasoni: Astmasta ihon primaariseen T-solulymfoomaan
+## Mometasoni: Astmasta ihon primaariseen T-solulymfoomaan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

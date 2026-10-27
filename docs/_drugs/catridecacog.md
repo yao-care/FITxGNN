@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Catridekakogi: Perinnöllisistä hyytymishäiriöistä primaariseen verihiutaleiden vapautumishäiriöön
+## Catridekakogi: Perinnöllisistä hyytymishäiriöistä primaariseen verihiutaleiden vapautumishäiriöön
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

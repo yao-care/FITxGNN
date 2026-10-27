@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Avibaktaami: Bakteeri-infektioista streptokokkipneumoniaan
+## Avibaktaami: Bakteeri-infektioista streptokokkipneumoniaan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

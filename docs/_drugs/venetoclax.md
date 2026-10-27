@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Venetoklaksi: Kroonisesta lymfaattisesta leukemiasta myeloidiseen leukemiaan
+## Venetoklaksi: Kroonisesta lymfaattisesta leukemiasta myeloidiseen leukemiaan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

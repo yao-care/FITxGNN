@@ -32,7 +32,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 
 </div>
 
-# ABEMACICLIB: Lääkkeen uudelleenkäyttötarkoituksen arviointiraportti
+## ABEMACICLIB: Lääkkeen uudelleenkäyttötarkoituksen arviointiraportti
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

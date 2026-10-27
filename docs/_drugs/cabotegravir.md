@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Kabotegraviiri: HIV-infektiosta nivelreumaan
+## Kabotegraviiri: HIV-infektiosta nivelreumaan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

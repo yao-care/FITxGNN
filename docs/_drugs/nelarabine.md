@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Nelarabiini: Prekursori-T-solulymfoblastisesta leukemia-lymfoomasta relapsoivaan-remittoivaan MS-tautiin
+## Nelarabiini: Prekursori-T-solulymfoblastisesta leukemia-lymfoomasta relapsoivaan-remittoivaan MS-tautiin
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

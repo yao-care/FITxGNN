@@ -33,11 +33,13 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **7** kpl
 
 </div>
 
-# Kladribiini: Karvasoluleukemiasta ja MS-taudista parameningeaaliseen alveolaariseen... embryonaaliseen rabdomyosarkoomaan
+## Kladribiini: Karvasoluleukemiasta ja MS-taudista parameningeaaliseen alveolaariseen... embryonaaliseen rabdomyosarkoomaan
+{: .text-alpha }
 
 > Huomio: otsikko tarkennetaan alla. Alkuperäiset käyttöaiheet ovat karvasoluleukemia ja multippeliskleroosi; ennustettu uusi käyttöaihe on parameningeaalinen embryonaalinen rabdomyosarkooma.
 
-# Kladribiini: karvasoluleukemiasta parameningeaaliseen embryonaaliseen rabdomyosarkoomaan
+## Kladribiini: karvasoluleukemiasta parameningeaaliseen embryonaaliseen rabdomyosarkoomaan
+{: .text-alpha }
 
 ## Yhteenveto
 

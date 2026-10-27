@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Aflibersepti: Silmänsisäisistä verisuonisairauksista esotropiaan
+## Aflibersepti: Silmänsisäisistä verisuonisairauksista esotropiaan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

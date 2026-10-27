@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Metioniini: Vaahterasiirappitaudista akneen
+## Metioniini: Vaahterasiirappitaudista akneen
+{: .text-alpha }
 
 ## Yhden virkkeen yhteenveto
 

@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Agomelatiini: Vakavasta masennushäiriöstä melankoliaan
+## Agomelatiini: Vakavasta masennushäiriöstä melankoliaan
+{: .text-alpha }
 
 ## Yhteenveto
 

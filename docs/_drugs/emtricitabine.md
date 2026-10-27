@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Emtrisitabiini: HIV-infektiosta kissan immuunipuutosoireyhtymään
+## Emtrisitabiini: HIV-infektiosta kissan immuunipuutosoireyhtymään
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

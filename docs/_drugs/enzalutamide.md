@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **7** kpl
 
 </div>
 
-# Enzalutamidi: Eturauhassyövästä ennustettuun uuteen käyttöaiheeseen "prostate cancer/brain cancer susceptibility"
+## Enzalutamidi: Eturauhassyövästä ennustettuun uuteen käyttöaiheeseen "prostate cancer/brain cancer susceptibility"
+{: .text-alpha }
 
 ## Yhteenveto
 

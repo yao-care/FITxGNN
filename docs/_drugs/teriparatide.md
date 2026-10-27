@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Teriparatidi: Osteoporoosista pohjukaissuolen haavaumaan
+## Teriparatidi: Osteoporoosista pohjukaissuolen haavaumaan
+{: .text-alpha }
 
 ## Yhden lauseen tiivistelmä
 

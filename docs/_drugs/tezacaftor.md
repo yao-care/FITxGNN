@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Tezakaftori: Kystisesta fibroosista ennustettuun HIV-infektioon
+## Tezakaftori: Kystisesta fibroosista ennustettuun HIV-infektioon
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

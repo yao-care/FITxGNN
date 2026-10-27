@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Prukalopridi: Ummetuksesta ennustettuun uuteen käyttöaiheeseen – hypoalfalipoproteinemia
+## Prukalopridi: Ummetuksesta ennustettuun uuteen käyttöaiheeseen – hypoalfalipoproteinemia
+{: .text-alpha }
 
 ## Yhteenveto
 

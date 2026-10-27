@@ -33,7 +33,8 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Sirolimuusi: Kasvaimiin liittyvästä kudososien kasvusta (tuberoosiskleroosi, siirteen hylkiminen) liposarkoomaan
+## Sirolimuusi: Kasvaimiin liittyvästä kudososien kasvusta (tuberoosiskleroosi, siirteen hylkiminen) liposarkoomaan
+{: .text-alpha }
 
 ## Yhden lauseen tiivistelmä
 

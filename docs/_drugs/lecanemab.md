@@ -32,7 +32,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 
 </div>
 
-# Lecanemab: Alzheimerin tauti — TxGNN-ennusteiden puuttuvia tietoja
+## Lecanemab: Alzheimerin tauti — TxGNN-ennusteiden puuttuvia tietoja
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

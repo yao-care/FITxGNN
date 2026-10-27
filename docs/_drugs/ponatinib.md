@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-# Ponatinibi: Leukemiasta ienkasvun fibromatoosiin
+## Ponatinibi: Leukemiasta ienkasvun fibromatoosiin
+{: .text-alpha }
 
 ## Yhteenveto
 

@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Atstreonaami: Bakteeri-infektioista gonokokkiuretriittiin
+## Atstreonaami: Bakteeri-infektioista gonokokkiuretriittiin
+{: .text-alpha }
 
 ## Yhden virkkeen yhteenveto
 

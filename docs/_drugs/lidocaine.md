@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Lidokaiini: Sukupuolitoimintahäiriön hoidosta sidekalvon sairauteen
+## Lidokaiini: Sukupuolitoimintahäiriön hoidosta sidekalvon sairauteen
+{: .text-alpha }
 
 ## Yhteenveto
 

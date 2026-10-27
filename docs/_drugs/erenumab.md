@@ -31,7 +31,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Erenumabi: Migreenistä aivorunkoauraan liittyvään migreeniin
+## Erenumabi: Migreenistä aivorunkoauraan liittyvään migreeniin
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

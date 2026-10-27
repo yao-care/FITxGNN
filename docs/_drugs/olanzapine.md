@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Olantsapiini: Skitsofreniasta ja kaksisuuntaisesta mielialahäiriöstä agorafobiaan
+## Olantsapiini: Skitsofreniasta ja kaksisuuntaisesta mielialahäiriöstä agorafobiaan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

@@ -31,7 +31,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Brinsolamidi: Avokulmaglaukoomasta ja silmänpainetaudista primaariseen perinnölliseen glaukoomaan
+## Brinsolamidi: Avokulmaglaukoomasta ja silmänpainetaudista primaariseen perinnölliseen glaukoomaan
+{: .text-alpha }
 
 ## Yhteenveto
 

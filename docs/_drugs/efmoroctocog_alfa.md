@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Efmoroktokogi alfa: Hemofilia A:sta pseudo-von Willebrandin tautiin
+## Efmoroktokogi alfa: Hemofilia A:sta pseudo-von Willebrandin tautiin
+{: .text-alpha }
 
 ## Yhteenveto
 

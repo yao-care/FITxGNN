@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Gefitinibi: Ei-pienisoluisesta keuhkosyövästä ientenfibromatoosiin
+## Gefitinibi: Ei-pienisoluisesta keuhkosyövästä ientenfibromatoosiin
+{: .text-alpha }
 
 ## Yhden lauseen tiivistelmä
 

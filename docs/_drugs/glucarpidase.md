@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Glukarpidaasi: Metabolisista haittavaikutuksesta diabeettiseen kaihiin
+## Glukarpidaasi: Metabolisista haittavaikutuksesta diabeettiseen kaihiin
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

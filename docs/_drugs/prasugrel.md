@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Prasugreeli: Akuutista sepelvaltimotautioireyhtymästä migreeniin
+## Prasugreeli: Akuutista sepelvaltimotautioireyhtymästä migreeniin
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

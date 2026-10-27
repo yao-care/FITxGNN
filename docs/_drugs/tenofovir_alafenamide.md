@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Tenofoviirialafenamidi: Hepatiitti B:stä ja HIV-infektiosta ennustettuun uuteen käyttöaiheeseen (simiaani-immuunikatovirusinfektio)
+## Tenofoviirialafenamidi: Hepatiitti B:stä ja HIV-infektiosta ennustettuun uuteen käyttöaiheeseen (simiaani-immuunikatovirusinfektio)
+{: .text-alpha }
 
 ## Yhteenveto
 

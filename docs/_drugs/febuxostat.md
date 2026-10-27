@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Febuksostaatti: Kihdistä ja hyperurikemiasta kohti munuaisperäistä hypourikemiaa
+## Febuksostaatti: Kihdistä ja hyperurikemiasta kohti munuaisperäistä hypourikemiaa
+{: .text-alpha }
 
 ## Yhteenveto
 

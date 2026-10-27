@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 
 </div>
 
-# Pioglitatsoni: Tyypin 2 diabeteksesta opsismodysplasiaan
+## Pioglitatsoni: Tyypin 2 diabeteksesta opsismodysplasiaan
+{: .text-alpha }
 
 ## Yhteenveto
 

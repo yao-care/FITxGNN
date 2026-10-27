@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **7** kpl
 
 </div>
 
-# Metoksipolyetyleeniglykoli-epoetiini beeta: Anemiasta ja kroonisesta munuaisten vajaatoiminnasta verihiutaleiden primaariseen vapautumishäiriöön
+## Metoksipolyetyleeniglykoli-epoetiini beeta: Anemiasta ja kroonisesta munuaisten vajaatoiminnasta verihiutaleiden primaariseen vapautumishäiriöön
+{: .text-alpha }
 
 ## Yhteenveto
 

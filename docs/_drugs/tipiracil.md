@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Tipirasiili: Kolorektaalisyövästä kohti umpisuolen karvaista adenoomaa
+## Tipirasiili: Kolorektaalisyövästä kohti umpisuolen karvaista adenoomaa
+{: .text-alpha }
 
 ## Yhden virkkeen yhteenveto
 

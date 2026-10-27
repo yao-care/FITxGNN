@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Kaplasitsumabi: Hankinnaisesta TTP:stä verihiutaleiden vapautumishäiriöön
+## Kaplasitsumabi: Hankinnaisesta TTP:stä verihiutaleiden vapautumishäiriöön
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

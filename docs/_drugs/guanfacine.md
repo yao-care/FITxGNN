@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **7** kpl
 
 </div>
 
-# Guanfasiini: ADHD:sta faciodigitogenitaaliseen oireyhtymään
+## Guanfasiini: ADHD:sta faciodigitogenitaaliseen oireyhtymään
+{: .text-alpha }
 
 ## Yhteenveto
 

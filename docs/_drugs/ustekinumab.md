@@ -33,7 +33,8 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Ustekinumabi: Psoriaasista ja tulehduksellisista suolistosairauksista ihottumaan (dermatiitti)
+## Ustekinumabi: Psoriaasista ja tulehduksellisista suolistosairauksista ihottumaan (dermatiitti)
+{: .text-alpha }
 
 ## Yhteenveto
 

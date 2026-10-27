@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Deferasiroksi: Raudan ylikuormituksesta HIV-infektioon
+## Deferasiroksi: Raudan ylikuormituksesta HIV-infektioon
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

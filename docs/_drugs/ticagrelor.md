@@ -33,7 +33,8 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Tikagrelori: Perifeerisistä verisuonisairauksista ja akuutista sepelvaltimo-oireyhtymästä kallonsisäiseen valtimokovettumatautiin
+## Tikagrelori: Perifeerisistä verisuonisairauksista ja akuutista sepelvaltimo-oireyhtymästä kallonsisäiseen valtimokovettumatautiin
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **7** kpl
 
 </div>
 
-# Ibuprofeeni: Avoautuneesta valtimotiehyestä (PDA) akromesomeeliseen dysplasiaan (Hunter-Thompson-tyyppi)
+## Ibuprofeeni: Avoautuneesta valtimotiehyestä (PDA) akromesomeeliseen dysplasiaan (Hunter-Thompson-tyyppi)
+{: .text-alpha }
 
 ## Yhden lauseen tiivistelmä
 

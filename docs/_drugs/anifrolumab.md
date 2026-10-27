@@ -32,7 +32,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 
 </div>
 
-# Anifrolumab: Systemisesta Lupus Erythematosusista — Ei TxGNN-ennustettuja uudelleenkäyttöindikaatioita saatavilla
+## Anifrolumab: Systemisesta Lupus Erythematosusista — Ei TxGNN-ennustettuja uudelleenkäyttöindikaatioita saatavilla
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

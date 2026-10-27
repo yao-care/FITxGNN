@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-# Vernakalantti: Eteisvärinän hoidosta aivohalvaussairauteen
+## Vernakalantti: Eteisvärinän hoidosta aivohalvaussairauteen
+{: .text-alpha }
 
 ## Yhden virkkeen tiivistelmä
 

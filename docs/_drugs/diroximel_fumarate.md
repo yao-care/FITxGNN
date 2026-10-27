@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Diroksimeelifumaraatti: Relapsoivasta MS-taudista ennustettuun diabeettiseen kaihiin
+## Diroksimeelifumaraatti: Relapsoivasta MS-taudista ennustettuun diabeettiseen kaihiin
+{: .text-alpha }
 
 ## Yhteenveto
 

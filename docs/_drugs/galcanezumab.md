@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Galkanetsumabi: Migreenistä hepariinin kofaktori 2:n puutokseen
+## Galkanetsumabi: Migreenistä hepariinin kofaktori 2:n puutokseen
+{: .text-alpha }
 
 ## Yhteenveto
 

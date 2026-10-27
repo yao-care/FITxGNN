@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Nilotinibi: Kroonisesta myelooisesta leukemiasta dermatofibrosarcoma protuberansiin
+## Nilotinibi: Kroonisesta myelooisesta leukemiasta dermatofibrosarcoma protuberansiin
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

@@ -33,7 +33,8 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Typpioksidi: Keuhkoverenpainetaudista hampaiston ja/tai igenkudoksen poikkeavuuksia sisältävään epämuodostumaoireyhtymään
+## Typpioksidi: Keuhkoverenpainetaudista hampaiston ja/tai igenkudoksen poikkeavuuksia sisältävään epämuodostumaoireyhtymään
+{: .text-alpha }
 
 ## Yhden lauseen tiivistelmä
 

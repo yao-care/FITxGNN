@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Treosulfaani: Kantasolusiirtoon liittyvästä käytöstä diabeettiseen kaihiin
+## Treosulfaani: Kantasolusiirtoon liittyvästä käytöstä diabeettiseen kaihiin
+{: .text-alpha }
 
 ## Yhteenveto
 

@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-# Lamivudiini: Kroonisesta hepatiitti B:stä ja HIV-infektiosta kissojen immuunikatoviruksen (FIV) hoitoon
+## Lamivudiini: Kroonisesta hepatiitti B:stä ja HIV-infektiosta kissojen immuunikatoviruksen (FIV) hoitoon
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

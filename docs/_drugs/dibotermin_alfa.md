@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 
 </div>
 
-# Dibotermiini alfa: Luuvaurioiden hoidosta esotropiaan
+## Dibotermiini alfa: Luuvaurioiden hoidosta esotropiaan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

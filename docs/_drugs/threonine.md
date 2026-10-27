@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-# Treoniini: Vaahterasiirappitaudista gastropareesiin
+## Treoniini: Vaahterasiirappitaudista gastropareesiin
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

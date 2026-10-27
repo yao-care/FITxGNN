@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-# Tildrakitsumabi: Psoriaasista vaikeaan proliferatiivista edeltävään diabeettiseen retinopatiaan
+## Tildrakitsumabi: Psoriaasista vaikeaan proliferatiivista edeltävään diabeettiseen retinopatiaan
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

@@ -33,7 +33,8 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Bedakiliini: Monilääkeresistentistä tuberkuloosista latentin tuberkuloosi-infektion ehkäisyyn
+## Bedakiliini: Monilääkeresistentistä tuberkuloosista latentin tuberkuloosi-infektion ehkäisyyn
+{: .text-alpha }
 
 ## Yhteenveto
 

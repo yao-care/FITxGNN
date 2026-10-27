@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-# Linaklotidi: Ärtyvän suolen oireyhtymästä cauda equina -oireyhtymään
+## Linaklotidi: Ärtyvän suolen oireyhtymästä cauda equina -oireyhtymään
+{: .text-alpha }
 
 ## Yhteenveto
 

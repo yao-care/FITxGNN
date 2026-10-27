@@ -33,7 +33,8 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-# Epinefriini: Anafylaksiasta obstruktiiviseen keuhkosairauteen
+## Epinefriini: Anafylaksiasta obstruktiiviseen keuhkosairauteen
+{: .text-alpha }
 
 ## Yhden virkkeen yhteenveto
 

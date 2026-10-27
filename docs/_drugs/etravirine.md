@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Etraviriini: HIV-infektiosta apinoiden immuunikatovirusinfektioon
+## Etraviriini: HIV-infektiosta apinoiden immuunikatovirusinfektioon
+{: .text-alpha }
 
 ## Yhden lauseen tiivistelmä
 

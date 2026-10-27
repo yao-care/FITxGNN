@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Entakaponi: Parkinsonin taudista PLA2G6-assosioituneeseen neurodegeneraatioon
+## Entakaponi: Parkinsonin taudista PLA2G6-assosioituneeseen neurodegeneraatioon
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

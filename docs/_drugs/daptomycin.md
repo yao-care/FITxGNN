@@ -33,7 +33,8 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Daptomysiini: Gram-positiivisten bakteeri-infektioiden hoidosta nivelrikkoon
+## Daptomysiini: Gram-positiivisten bakteeri-infektioiden hoidosta nivelrikkoon
+{: .text-alpha }
 
 ## Yhteenveto
 

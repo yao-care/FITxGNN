@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Crizotinib: Ei-pienisoluisesta keuhkosyövästä ennustettuun ientten fibromatoosiin
+## Crizotinib: Ei-pienisoluisesta keuhkosyövästä ennustettuun ientten fibromatoosiin
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

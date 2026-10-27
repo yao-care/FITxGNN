@@ -33,7 +33,8 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-# Ihmisinsuliini: Diabeteksesta autoimmuuniooforiittiin
+## Ihmisinsuliini: Diabeteksesta autoimmuuniooforiittiin
+{: .text-alpha }
 
 ## Yhteenveto
 

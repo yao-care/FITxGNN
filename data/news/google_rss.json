@@ -1,16 +1,16 @@
 {
-  "fetched_at": "2026-10-26T21:57:58.683558+00:00",
+  "fetched_at": "2026-10-27T01:02:51.553211+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
     {
-      "id": "3c6baacfc708",
-      "title": "Syöpähoidoissa tapahtunut merkittävä muutos - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5HUEg0RFA5VFQ4VEZiZTVvTDY4Q3V0UmI1dHRiWVJKcFlaLVhLX05TbHk3alRzcDBYRnBLWUdHTTJ3LWNUQWJtY3FaTGI5VDJWaVJvcWpyRng4VWhRRFNhb3Uxei1jcWZLMkJrczIxZlVXVHVlNTZVbA?oc=5",
-      "published": "2026-10-26T21:19:57+00:00",
+      "id": "d57dc6b13db6",
+      "title": "Kysely | Oletko jättänyt terveyteesi liittyvän hoidon tai lääkkeet väliin rahan takia? - Länsi-Savo",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5adU1GLXVvRmFTei1GaWxYNWNHeThUdDBEYkJ5RHpPTllRTkZsWmZjR3ZOc0h6djRPLXhCYkdIbFQyUU14bXNKVjlUV1dtVm9HRlpNdFhMNU8?oc=5",
+      "published": "2026-10-26T17:00:00+00:00",
       "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
+        "name": "Länsi-Savo",
+        "url": "https://www.lansi-savo.fi"
       }
     },
     {
@@ -34,6 +34,16 @@
       }
     },
     {
+      "id": "80b112525aea",
+      "title": "600 000 suomalaiselle määrätään tätä lääkettä, vaikka osalla oireiden todellinen syy voi olla aivan toinen - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTFpiZmVYRjlGWjJCMXBiTHlLNVMwMFd3WllXNVNRZEthd0RLV0lmZHc5M3BDVDE0ZjFXVEoxZ3d4aXRuWTlrMUhTcU15d1QzVkx3Q1lQNGFLLWFnY2tzMWhGc0hwNGN0aV8wWVJlalBBNjZoN0JqZUhmNVdFODFDamE2aTM?oc=5",
+      "published": "2026-10-23T11:05:09+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
+      }
+    },
+    {
       "id": "6b090eda3a6d",
       "title": "Terveys | Potilaat diagnosoivat itsensä tekoälyllä ja pettyvät sitten lääkäriin, Hannu Lauerma on huomannut - Kankaanpään Seutu",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5kMEdxS3dBX0xIS29XZFcya3BSWm5Ua0FTbzlMT2dlVk1STnZLYzB6VFdSUUF4N1VwTkJPdlY4cWcxazVRQVgwSUU0Mm1CZ2x6eFBodE9nZkJCT19LdnpGRTF2ZGthU0hKWlBwZWdYR1o5cU0?oc=5",
@@ -44,10 +54,10 @@
       }
     },
     {
-      "id": "80b112525aea",
-      "title": "600 000 suomalaiselle määrätään tätä lääkettä, vaikka osalla oireiden todellinen syy voi olla aivan toinen - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTFpiZmVYRjlGWjJCMXBiTHlLNVMwMFd3WllXNVNRZEthd0RLV0lmZHc5M3BDVDE0ZjFXVEoxZ3d4aXRuWTlrMUhTcU15d1QzVkx3Q1lQNGFLLWFnY2tzMWhGc0hwNGN0aV8wWVJlalBBNjZoN0JqZUhmNVdFODFDamE2aTM?oc=5",
-      "published": "2026-10-23T11:05:09+00:00",
+      "id": "07256e16a9cd",
+      "title": "Älä koskaan syö karkkia, jos sinulla on nämä lääkkeet - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbE40X1BtdVIzTnNtZC02UTNpZzRqbFprQzZZc1VERjd1dE9TczBqa000YXd4SlJjOUY5ZElPNjFURkRWNDVHU0lPMTR1R01XOVRzSnZjV1lUN1ZLTVlSNzB4blpHSnlVOXlySnV4ak5Bc0JZZnBnWmF5Y1FwSlpxbi12MWk?oc=5",
+      "published": "2026-10-08T07:00:00+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
@@ -94,10 +104,10 @@
       }
     },
     {
-      "id": "07256e16a9cd",
-      "title": "Älä koskaan syö karkkia, jos sinulla on nämä lääkkeet - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbE40X1BtdVIzTnNtZC02UTNpZzRqbFprQzZZc1VERjd1dE9TczBqa000YXd4SlJjOUY5ZElPNjFURkRWNDVHU0lPMTR1R01XOVRzSnZjV1lUN1ZLTVlSNzB4blpHSnlVOXlySnV4ak5Bc0JZZnBnWmF5Y1FwSlpxbi12MWk?oc=5",
-      "published": "2026-10-08T07:00:00+00:00",
+      "id": "bea8e5972f2b",
+      "title": "Pelättyyn syöpään löydettiin uusi lääke - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQOXpuZnFUbHNvYklTQkZtT01CUGRCbzIteEZ4a3dMeUtVNzNnY2lVQ2U0eVRiS1Y3dlJWSngyVFpFeFpIRnRJQlFzelltNzJQMGZ0ODY0Xy1ZazViYTJzdVZLZXhHMHB0RDB4dGZXYUJEQndxQmx5bUZheUlCTXNYc2VZb1g?oc=5",
+      "published": "2026-10-21T07:56:15+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
@@ -114,10 +124,10 @@
       }
     },
     {
-      "id": "bea8e5972f2b",
-      "title": "Pelättyyn syöpään löydettiin uusi lääke - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQOXpuZnFUbHNvYklTQkZtT01CUGRCbzIteEZ4a3dMeUtVNzNnY2lVQ2U0eVRiS1Y3dlJWSngyVFpFeFpIRnRJQlFzelltNzJQMGZ0ODY0Xy1ZazViYTJzdVZLZXhHMHB0RDB4dGZXYUJEQndxQmx5bUZheUlCTXNYc2VZb1g?oc=5",
-      "published": "2026-10-21T07:56:15+00:00",
+      "id": "463b4a933e17",
+      "title": "Suosittu lääke poistuu markkinoilta – Koskee tuhansia suomalaisia - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOeF9fdVIyRUFQejh0NVhBQVZiTVdZOHNWTmdVODRtV2VoNmhKaWZJSjYwd3NrR2pjSDVLNWl6bkFFeEpMZThDR1I4WGlTbV80SE82OFBYZnBURDlJVXZZMFhyaE9ScDl5bm13ZzlNbFNUem1NOEZuSmtxamFKY2tLOTNSS3Y?oc=5",
+      "published": "2026-10-06T07:00:00+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
@@ -134,10 +144,10 @@
       }
     },
     {
-      "id": "463b4a933e17",
-      "title": "Suosittu lääke poistuu markkinoilta – Koskee tuhansia suomalaisia - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOeF9fdVIyRUFQejh0NVhBQVZiTVdZOHNWTmdVODRtV2VoNmhKaWZJSjYwd3NrR2pjSDVLNWl6bkFFeEpMZThDR1I4WGlTbV80SE82OFBYZnBURDlJVXZZMFhyaE9ScDl5bm13ZzlNbFNUem1NOEZuSmtxamFKY2tLOTNSS3Y?oc=5",
-      "published": "2026-10-06T07:00:00+00:00",
+      "id": "115a21f2abe2",
+      "title": "Jos sinulla on nämä lääkkeet, älä syö karkkia – Nyt puhuu professori: ”Pitäisi välttää” - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdklheklvMTNTSFJCdFkyS20tZlhkRF9hMnNGN2lldF9XSzRHek5nVFVuNmk2YzlHY3N5RmpkQ19CS3VNWVpDWFduZUhwRHlGTVdPQmFzbFZrSGlONFBlYUtMMDFLSDM2czM2cDIxNTdkMlJvM0d5NEprSG5ERXBHbmI5d00?oc=5",
+      "published": "2026-10-13T07:00:00+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
@@ -154,10 +164,10 @@
       }
     },
     {
-      "id": "115a21f2abe2",
-      "title": "Jos sinulla on nämä lääkkeet, älä syö karkkia – Nyt puhuu professori: ”Pitäisi välttää” - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdklheklvMTNTSFJCdFkyS20tZlhkRF9hMnNGN2lldF9XSzRHek5nVFVuNmk2YzlHY3N5RmpkQ19CS3VNWVpDWFduZUhwRHlGTVdPQmFzbFZrSGlONFBlYUtMMDFLSDM2czM2cDIxNTdkMlJvM0d5NEprSG5ERXBHbmI5d00?oc=5",
-      "published": "2026-10-13T07:00:00+00:00",
+      "id": "3c6baacfc708",
+      "title": "Syöpähoidoissa tapahtunut merkittävä muutos - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5HUEg0RFA5VFQ4VEZiZTVvTDY4Q3V0UmI1dHRiWVJKcFlaLVhLX05TbHk3alRzcDBYRnBLWUdHTTJ3LWNUQWJtY3FaTGI5VDJWaVJvcWpyRng4VWhRRFNhb3Uxei1jcWZLMkJrczIxZlVXVHVlNTZVbA?oc=5",
+      "published": "2026-10-25T08:57:57+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
@@ -354,6 +364,16 @@
       }
     },
     {
+      "id": "eb1494e5d598",
+      "title": "Kolesterolilääkkeiden käyttöön liittyy huolestuttava piirre - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA2NTJrTjdoSnRfRXdwUzFPc3hRRElPaUNZVkwwYUVGTmFCcXZuU0xBWkF5YW9id3lpY1F1SndjUS1sT243eThtVXh2TWhWUE1qYnVIUlpJVTR0TVVk?oc=5",
+      "published": "2026-06-25T07:00:00+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
+      }
+    },
+    {
       "id": "bbb6ee35d88c",
       "title": "Syötkö samanaikaisesti yli neljää eri lääkettä? Tämän vaivan riski lisääntyy - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB6cDVyUUZOX1N2em15bldOdmhRTkZRczc2cENCNHFvS2pXVnJWd1FILUpmdjVRWWlQam5meC1DRlJld24walZzYUwxbTJGekFIWFhlNVVxcERfSVhl?oc=5",
@@ -411,16 +431,6 @@
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
-      }
-    },
-    {
-      "id": "31ae1e7e0a19",
-      "title": "Asiantuntija paljastaa: Yksi yleinen lääke voi olla kuin myrkkyä muistisairaalle - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdGwyQVVrVWFjck45akUxY3dFY3VkeGF2YmhCM2R2Y0dEQXpBZ0Vmem1TTTI4VDFtb1owZkk5ZDd6cmUyVUhpZmVzYl9ZM0w0T01ZaWs4MDJUVFAtV2d0cGNTeVowTjRqT3FaWkM5RzlGYVJISG1sekJuU0JtTnpQVm5aVF8?oc=5",
-      "published": "2026-05-06T07:00:00+00:00",
-      "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
       }
     },
     {
@@ -664,16 +674,6 @@
       }
     },
     {
-      "id": "dfab3bd3fa58",
-      "title": "Hormonikorvauslääke loppui Pohjoismaista – Raija Ek kärsi niin, että oli jo lähdössä apteekkimatkalle Kroatiaan - Yle",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBlMkpac214alQxSzdENmhkQVFRSHRJZGk5d3BBaHJrb0Z6dHRSXzVmZGdXT0FwTFQ0Skw1cnI2eWJFdw?oc=5",
-      "published": "2024-07-23T07:00:00+00:00",
-      "source": {
-        "name": "Yle",
-        "url": "https://yle.fi"
-      }
-    },
-    {
       "id": "b32566657bfc",
       "title": "Empatia voi parantaa tehokkaammin kuin lääke – mutta miksi? - Hyvä Terveys",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNGdhWUVkeTdGU3h0WWFqYUFiQzIzVmlOSVp4dlRiUFVvb3RHajRockdROWtKQ2ZTdGVBaGdWSzVHZENIYlNiS2Nla3ZkYWJJU21KZVZ5MVNtaXE0bGRDRlI4bzRfbnN6a3dnaDNzVzBlWnY0RFQ1NUZ4OGhqYjJaMkFIQ2VEbnJPRmFoX29GZ2c1UkdFbkJ0Y2dxNDZ3SXNaVG5NM0dnYw?oc=5",
@@ -761,6 +761,16 @@
       "source": {
         "name": "Helsingin Uutiset",
         "url": "https://www.helsinginuutiset.fi"
+      }
+    },
+    {
+      "id": "b7f548f7032e",
+      "title": "Professori kumoaa verenpainelääkkeisiin liittyvät harhaluulot – tarkistimme seitsemän väittämää, joista vain harva on totta - Yle",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1WMFIzWXJCX2tVdnlIOG1nc2NOdXozbDdFSHVfdmhjS1FVaTUwYm94Ujk0QjZ6WTVQOTVpU2xMUHd3UQ?oc=5",
+      "published": "2023-11-28T08:00:00+00:00",
+      "source": {
+        "name": "Yle",
+        "url": "https://yle.fi"
       }
     },
     {
@@ -924,16 +934,6 @@
       }
     },
     {
-      "id": "76a0bd5ac6df",
-      "title": "Tutkimus: Nämä yleiset lääkkeet voivat olla haitaksi suolistollesi - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9zVExHQV9ldkxNZUxOMXN6WEh1QWdBc090SWtYSHNUVDhWTElTVUg4Nm8tVVpMM3RSQ0VoaGw3WnRVWmlRYTFrN2JzZ1FTaXRlQlAyMTZ6eDJvX09Q?oc=5",
-      "published": "2025-11-04T08:00:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
-      }
-    },
-    {
       "id": "abb6780e0552",
       "title": "Alopecian eli pälvikaljun hoitoon on ensimmäistä kertaa löydetty lupaava lääke – Suomessa hoito ei ole Kela-korvattava - Yle",
       "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1HUEFCVGxUM3dPMFJNdjJHeTMyNHQwcXlSUEZnUnl2NDRyNjRQWHk2QXV5U0VtdG9wZTNPS2tSdzc1UQ?oc=5",
@@ -941,6 +941,16 @@
       "source": {
         "name": "Yle",
         "url": "https://yle.fi"
+      }
+    },
+    {
+      "id": "76a0bd5ac6df",
+      "title": "Tutkimus: Nämä yleiset lääkkeet voivat olla haitaksi suolistollesi - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9zVExHQV9ldkxNZUxOMXN6WEh1QWdBc090SWtYSHNUVDhWTElTVUg4Nm8tVVpMM3RSQ0VoaGw3WnRVWmlRYTFrN2JzZ1FTaXRlQlAyMTZ6eDJvX09Q?oc=5",
+      "published": "2025-11-04T08:00:00+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
       }
     },
     {
@@ -954,16 +964,6 @@
       }
     },
     {
-      "id": "aebd829ad98c",
-      "title": "Kelan lääkekorvausten määrä noussut jo lähes kahteen miljardiin – ADHD-lääkkeiden käytön kasvu jatkuu voimakkaana - Yle",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE4tXzRkaUJEVHFEMUw0dXZoeS1NZWxLeW5hZHhORnMxSUJqRHlVYUZLY09VWUxBeE5xMThjcVh1c2ctUQ?oc=5",
-      "published": "2025-02-25T08:00:00+00:00",
-      "source": {
-        "name": "Yle",
-        "url": "https://yle.fi"
-      }
-    },
-    {
       "id": "fd1e3a3f7728",
       "title": "Päihdelääkärien hätähuuto: Tärkeä lääke loppuu koko Suomesta - Iltalehti",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSG50UnBGSzVhUHNxS1JHbldXcWRhYXpHeFkzendhLTY3dFozTXV1TmF5c1FtOE15UlFTcThfZHVLX3h1Y0swYTNqdzRmdTJaMDRGNU9aX202TGs2MDJQXzZlNHhzWkYzUDlLSHpDNnV6bXQ0UjV2b3JIYW9WLWZiM3ZIWUo?oc=5",
@@ -971,16 +971,6 @@
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
-      }
-    },
-    {
-      "id": "e3de84d459bc",
-      "title": "Karmeita mokia lääkkeiden käytössä: Suuri osa sairastuneista ei edes hae niitä apteekista – ja yhtä moni nielee ne väärin - Yle",
-      "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9HYmtfWUlncHNWdDJvcWhPZVNYNEpGM0NfaWdoZnFkdjlORHpHRmlSV2M3cnhoYTA1NDZlUklHaw?oc=5",
-      "published": "2016-09-15T07:00:00+00:00",
-      "source": {
-        "name": "Yle",
-        "url": "https://yle.fi"
       }
     },
     {
@@ -994,10 +984,20 @@
       }
     },
     {
-      "id": "a402f4fe296a",
-      "title": "Lääkäri tyrmää jännityslääkkeen – \"Auttavat vain hetkellisesti\" - Yle",
-      "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9SUm5iNEozTi1tSG81YzhGV1BZZThNWGJPWDF5LVMxVGdNbi1JYXhFSkN4a25FQTRBcnhIS1pSZw?oc=5",
-      "published": "2015-07-13T07:00:00+00:00",
+      "id": "e3de84d459bc",
+      "title": "Karmeita mokia lääkkeiden käytössä: Suuri osa sairastuneista ei edes hae niitä apteekista – ja yhtä moni nielee ne väärin - Yle",
+      "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9HYmtfWUlncHNWdDJvcWhPZVNYNEpGM0NfaWdoZnFkdjlORHpHRmlSV2M3cnhoYTA1NDZlUklHaw?oc=5",
+      "published": "2016-09-15T07:00:00+00:00",
+      "source": {
+        "name": "Yle",
+        "url": "https://yle.fi"
+      }
+    },
+    {
+      "id": "aebd829ad98c",
+      "title": "Kelan lääkekorvausten määrä noussut jo lähes kahteen miljardiin – ADHD-lääkkeiden käytön kasvu jatkuu voimakkaana - Yle",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE4tXzRkaUJEVHFEMUw0dXZoeS1NZWxLeW5hZHhORnMxSUJqRHlVYUZLY09VWUxBeE5xMThjcVh1c2ctUQ?oc=5",
+      "published": "2025-02-25T08:00:00+00:00",
       "source": {
         "name": "Yle",
         "url": "https://yle.fi"

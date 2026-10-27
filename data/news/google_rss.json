@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-10-27T05:57:32.731975+00:00",
+  "fetched_at": "2026-10-27T06:54:42.124539+00:00",
   "source": "Google News Health RSS",
-  "count": 52,
+  "count": 51,
   "articles": [
     {
       "id": "d57dc6b13db6",
@@ -44,16 +44,6 @@
       }
     },
     {
-      "id": "bea8e5972f2b",
-      "title": "Pelättyyn syöpään löydettiin uusi lääke - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQOXpuZnFUbHNvYklTQkZtT01CUGRCbzIteEZ4a3dMeUtVNzNnY2lVQ2U0eVRiS1Y3dlJWSngyVFpFeFpIRnRJQlFzelltNzJQMGZ0ODY0Xy1ZazViYTJzdVZLZXhHMHB0RDB4dGZXYUJEQndxQmx5bUZheUlCTXNYc2VZb1g?oc=5",
-      "published": "2026-10-21T07:56:15+00:00",
-      "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
-      }
-    },
-    {
       "id": "f5c71ad608ba",
       "title": "Suomeen perustetaan FinTrials vauhdittamaan kliinisiä lääke- ja laitetutkimuksia - Sosiaali- ja terveysministeriö",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZXZ2UnkwWWpZenNqS0F1Y2hRdlRnTjFxNmNwN3FYRnc3Z2NKd2lkVHhqeXRQM2RjMDZIRmtjMllCMTNERzlZQ3pNc0c2eTVUREtpbFRzdFNpNVRFYkVDaHFaek9rSjBzejl1RWxGejVGMzV0VHRSdWxfU3ZDQzhvUDNFbEl1Rks0Q1ZvU2F0YnFSVWxvQzBYeVJBdG0?oc=5",
@@ -64,13 +54,13 @@
       }
     },
     {
-      "id": "cabe751ee597",
-      "title": "Tämä yleinen lääke voi hälyttää huumetestissä - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5HQlA2eWpzQURBTGlIUmxncEJJaUdaUWVJakc3SlVXMlRqLUpsZjZ3eEozb1lpWlB4eHNtZW5tMmZuWFlNOHRZd184OVRSdnB2VmkxN09RaE9DNWVE?oc=5",
-      "published": "2026-08-23T07:00:00+00:00",
+      "id": "cb9169c23a48",
+      "title": "Automaatio tehostaa lääkkeiden potilaskohtaista jakoa ja parantaa potilasturvallisuutta - Helsinki.fi",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORzMySU01ZTFZSVd4VVBwTThpYXVMSGJJclR2QnpLSGItOVhLTUFldWJKVWR0Z09kcjBzMHVkRXRxTVViY1JjeDlwRmlnbzBZWGk5T3lReEdWekFQbEtCNFA0NGljODAzUUtEUjRlQjJ4VkN0QkN4bFZFUWlqSDQ0dWY1T3hDeXBZdzFOa08yc3ZqbVJnUzItSkRXQ29zNzFnc0EybFNfdkZ6U0dWTElQYnJQQnpnTmM3YzBoM2w1SFJXUnRsQzV3ZVl3?oc=5",
+      "published": "2026-03-11T07:00:00+00:00",
       "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
+        "name": "Helsinki.fi",
+        "url": "https://www.helsinki.fi"
       }
     },
     {
@@ -81,6 +71,16 @@
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
+      }
+    },
+    {
+      "id": "cabe751ee597",
+      "title": "Tämä yleinen lääke voi hälyttää huumetestissä - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5HQlA2eWpzQURBTGlIUmxncEJJaUdaUWVJakc3SlVXMlRqLUpsZjZ3eEozb1lpWlB4eHNtZW5tMmZuWFlNOHRZd184OVRSdnB2VmkxN09RaE9DNWVE?oc=5",
+      "published": "2026-08-23T07:00:00+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
       }
     },
     {
@@ -104,10 +104,10 @@
       }
     },
     {
-      "id": "3c6baacfc708",
-      "title": "Syöpähoidoissa tapahtunut merkittävä muutos - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5HUEg0RFA5VFQ4VEZiZTVvTDY4Q3V0UmI1dHRiWVJKcFlaLVhLX05TbHk3alRzcDBYRnBLWUdHTTJ3LWNUQWJtY3FaTGI5VDJWaVJvcWpyRng4VWhRRFNhb3Uxei1jcWZLMkJrczIxZlVXVHVlNTZVbA?oc=5",
-      "published": "2026-10-25T08:57:57+00:00",
+      "id": "bea8e5972f2b",
+      "title": "Pelättyyn syöpään löydettiin uusi lääke - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQOXpuZnFUbHNvYklTQkZtT01CUGRCbzIteEZ4a3dMeUtVNzNnY2lVQ2U0eVRiS1Y3dlJWSngyVFpFeFpIRnRJQlFzelltNzJQMGZ0ODY0Xy1ZazViYTJzdVZLZXhHMHB0RDB4dGZXYUJEQndxQmx5bUZheUlCTXNYc2VZb1g?oc=5",
+      "published": "2026-10-21T07:56:15+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
@@ -124,13 +124,13 @@
       }
     },
     {
-      "id": "cb9169c23a48",
-      "title": "Automaatio tehostaa lääkkeiden potilaskohtaista jakoa ja parantaa potilasturvallisuutta - Helsinki.fi",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORzMySU01ZTFZSVd4VVBwTThpYXVMSGJJclR2QnpLSGItOVhLTUFldWJKVWR0Z09kcjBzMHVkRXRxTVViY1JjeDlwRmlnbzBZWGk5T3lReEdWekFQbEtCNFA0NGljODAzUUtEUjRlQjJ4VkN0QkN4bFZFUWlqSDQ0dWY1T3hDeXBZdzFOa08yc3ZqbVJnUzItSkRXQ29zNzFnc0EybFNfdkZ6U0dWTElQYnJQQnpnTmM3YzBoM2w1SFJXUnRsQzV3ZVl3?oc=5",
-      "published": "2026-03-11T07:00:00+00:00",
+      "id": "3c6baacfc708",
+      "title": "Syöpähoidoissa tapahtunut merkittävä muutos - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5HUEg0RFA5VFQ4VEZiZTVvTDY4Q3V0UmI1dHRiWVJKcFlaLVhLX05TbHk3alRzcDBYRnBLWUdHTTJ3LWNUQWJtY3FaTGI5VDJWaVJvcWpyRng4VWhRRFNhb3Uxei1jcWZLMkJrczIxZlVXVHVlNTZVbA?oc=5",
+      "published": "2026-10-25T08:57:57+00:00",
       "source": {
-        "name": "Helsinki.fi",
-        "url": "https://www.helsinki.fi"
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
       }
     },
     {
@@ -144,13 +144,13 @@
       }
     },
     {
-      "id": "45fd296f05bb",
-      "title": "Tämä lääke voi tehdä hampaille pahaa – ”Odota puoli tuntia” - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaFpXa01RNnlKNEo2ZmdCMjhOTWRpTk9mRm1QWG5qZFNNbW4zOXFTTFJmdHdaYjNENi1xN3hmSDc1bXp3S1h6Ujc0N2szRDR4OS1TaEtBRllnNDNsbGlHeEtvMmItSDNmeHRMMjF0YnF0MU1EekNCNVNuRTMtOE94X18xRHg?oc=5",
-      "published": "2026-05-22T07:00:00+00:00",
+      "id": "75a58a192298",
+      "title": "Näistä lääkkeistä tarvitset matkalle todistuksen – muuten voit joutua lentokentällä ongelmiin - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE51S2tjaWQ5TUhJQ2hxcnlsaU96TlRMUTF6eEYxM0ZiVk1kM2RHRS1iMHNSUGQ4SkNzWEt1WVRBclJMdHNkd2RUZ282TjRTTmdNQ0Vaek41MEVtLWlv?oc=5",
+      "published": "2026-04-19T07:00:00+00:00",
       "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
       }
     },
     {
@@ -174,6 +174,26 @@
       }
     },
     {
+      "id": "45fd296f05bb",
+      "title": "Tämä lääke voi tehdä hampaille pahaa – ”Odota puoli tuntia” - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaFpXa01RNnlKNEo2ZmdCMjhOTWRpTk9mRm1QWG5qZFNNbW4zOXFTTFJmdHdaYjNENi1xN3hmSDc1bXp3S1h6Ujc0N2szRDR4OS1TaEtBRllnNDNsbGlHeEtvMmItSDNmeHRMMjF0YnF0MU1EekNCNVNuRTMtOE94X18xRHg?oc=5",
+      "published": "2026-05-22T07:00:00+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
+      }
+    },
+    {
+      "id": "81e458c874e2",
+      "title": "Suomessa vauhdilla leviävän seksitaudin hoitoon läpimurto - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQYU51ZGdpaGVtX0kyQ210N1huT0FvaldTZzF0NzdpVXphUzZDbHRBaHBHZDNDcExCQjNKbGNvb1RqQlB4WHMwSEJYdUgyLUV6QmE0SDZZelhLd2owNDhqa3VtM1kxMmJacWNybTBwRVI0cWVIaHQ3OUxlS0FnUWZCb0c3OFc?oc=5",
+      "published": "2025-12-16T08:00:00+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
+      }
+    },
+    {
       "id": "37a73fbcb87d",
       "title": "Liike on lääke, mutta mikä saisi meidät liikkumaan enemmän? - Helsinki.fi",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxON0RGUmUtaFMtTzRnekJMSlVqLUVpZlFaZEtkV2Yxc1N6cUJDX2lWQW1CMTFTQ29CYzdpU0Nlc2lmUDZ0Q2ZmdEhFWVFtb0g2SDZ6dzNKRV9hd3BFUDQ0RUo0czJZWVY5SkdVYmRnb1JPZXlOY1NYaGR5NVQzTUVXbU9mNllMVWpFU25OZ2NyN0N6LXdzVHY4cG9sZ1VnNHdjczE1MVBrcEc?oc=5",
@@ -181,16 +201,6 @@
       "source": {
         "name": "Helsinki.fi",
         "url": "https://www.helsinki.fi"
-      }
-    },
-    {
-      "id": "75a58a192298",
-      "title": "Näistä lääkkeistä tarvitset matkalle todistuksen – muuten voit joutua lentokentällä ongelmiin - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE51S2tjaWQ5TUhJQ2hxcnlsaU96TlRMUTF6eEYxM0ZiVk1kM2RHRS1iMHNSUGQ4SkNzWEt1WVRBclJMdHNkd2RUZ282TjRTTmdNQ0Vaek41MEVtLWlv?oc=5",
-      "published": "2026-04-19T07:00:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
       }
     },
     {
@@ -211,6 +221,16 @@
       "source": {
         "name": "Yle",
         "url": "https://yle.fi"
+      }
+    },
+    {
+      "id": "76a0bd5ac6df",
+      "title": "Tutkimus: Nämä yleiset lääkkeet voivat olla haitaksi suolistollesi - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9zVExHQV9ldkxNZUxOMXN6WEh1QWdBc090SWtYSHNUVDhWTElTVUg4Nm8tVVpMM3RSQ0VoaGw3WnRVWmlRYTFrN2JzZ1FTaXRlQlAyMTZ6eDJvX09Q?oc=5",
+      "published": "2025-11-04T08:00:00+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
       }
     },
     {
@@ -354,16 +374,6 @@
       }
     },
     {
-      "id": "76a0bd5ac6df",
-      "title": "Tutkimus: Nämä yleiset lääkkeet voivat olla haitaksi suolistollesi - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9zVExHQV9ldkxNZUxOMXN6WEh1QWdBc090SWtYSHNUVDhWTElTVUg4Nm8tVVpMM3RSQ0VoaGw3WnRVWmlRYTFrN2JzZ1FTaXRlQlAyMTZ6eDJvX09Q?oc=5",
-      "published": "2025-11-04T08:00:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
-      }
-    },
-    {
       "id": "bbbc1319946c",
       "title": "Onko edullinen rinnakkaislääke huonompi kuin alkuperäinen? Apteekkari kertoo totuuden - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9iTHFPUTZMZDAySTRKdWFKT01xX3lCQWJkdUpHMlRacTR5dEhQeUhidmRQckk4NUpKUVhSZE9nOFBQQWFlVzgxTkNBOWhySVNMT21QUGNwUGY5NlVl?oc=5",
@@ -381,16 +391,6 @@
       "source": {
         "name": "Hyvä Terveys",
         "url": "https://www.hyvaterveys.fi"
-      }
-    },
-    {
-      "id": "81e458c874e2",
-      "title": "Suomessa vauhdilla leviävän seksitaudin hoitoon läpimurto - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQYU51ZGdpaGVtX0kyQ210N1huT0FvaldTZzF0NzdpVXphUzZDbHRBaHBHZDNDcExCQjNKbGNvb1RqQlB4WHMwSEJYdUgyLUV6QmE0SDZZelhLd2owNDhqa3VtM1kxMmJacWNybTBwRVI0cWVIaHQ3OUxlS0FnUWZCb0c3OFc?oc=5",
-      "published": "2025-12-16T08:00:00+00:00",
-      "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
       }
     },
     {
@@ -511,16 +511,6 @@
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
-      }
-    },
-    {
-      "id": "2f523a03b740",
-      "title": "Tällainen verenpaine on kaikista vaarallisin – Tutkijoiden yllättävä havainto - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9udi1mT1ZyVjhpZFdWWTV3bjZ3TDBDdTdwZ2o2U3BXaVZxbTFsMXA4eE81M3Jwd0ZLSVlUS1lpbk9yNUhsTmNGQnIzYk1kM0VjTUp4bVN3ZTVWVC1lMm5QbXdiSHU3aWswcnJJVGpfMXFjQmRwYlBLeg?oc=5",
-      "published": "2024-02-02T08:00:00+00:00",
-      "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
       }
     }
   ]

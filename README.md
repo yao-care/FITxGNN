@@ -19,7 +19,7 @@ Laakkeiden uudelleenkayton ennusteita Finland Fimea-hyvaksytyille laakkeille TxG
 
 | Kohde | Maaerae |
 |------|------|
-| **Laaekeraportteja** | 466 |
+| **Laaekeraportteja** | 444 |
 | **Ennusteita yhteensae** | 2,539,217 |
 | **Ainutlaatuisia laaekkeitae** | 641 |
 | **Ainutlaatuisia indikaatioita** | 17,041 |

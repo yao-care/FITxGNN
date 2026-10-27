@@ -113,7 +113,7 @@ harvinaisissa sairauksissa."
 
 | Kohde | Arvo |
 |------|-------|
-| Lääkeraportteja | {{ site.drugs.size }} |
+| Lääkeraportteja | {{ site.data.drug_stats.total_drugs }} |
 | Lääkeviranomainen | Fimea |
 | Käyttöönotettuja sivustoja | 30 maata / aluetta |
 

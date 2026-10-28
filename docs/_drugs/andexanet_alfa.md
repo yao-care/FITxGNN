@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "ANDEXANET ALFA"
 predicted_indications: ["Glanzmann thrombasthenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "hemophilia"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Andexanet Alfa: ennustettu uusi käyttöaihe Glanzmannin trombasteenia (Glanzmann thrombasthenia) (näytön taso L5). Alkuperäinen käyttöaihe: Drug-Related Side Effects and Adverse Reactions"
 ---
 

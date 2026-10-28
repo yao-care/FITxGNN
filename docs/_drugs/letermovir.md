@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 260
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "LETERMOVIR"
 predicted_indications: ["vulvovaginal candidiasis"]
 description: "Letermovir: ennustettu uusi käyttöaihe Vulvovaginal candidiasis (näytön taso L5). Alkuperäinen käyttöaihe: Cytomegalovirus Infections"

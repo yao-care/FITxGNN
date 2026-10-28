@@ -5,7 +5,7 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 412
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Sunitinib: ennustettu uusi käyttöaihe Liposarkooma (näytön taso L2). Alkuperäinen käyttöaihe: Maha-suolikanavan stroomakasvaimet (GIST), munuaissolusyöpä…"
 monitor_inn: "SUNITINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "angiolipoma", "heart fibrosarcoma"]

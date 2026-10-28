@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "ERIBULIN"
 predicted_indications: ["autosomal recessive familial Mediterranean fever", "dermatofibrosarcoma protuberans", "pleural mesothelioma", "malignant peritoneal mesothelioma", "pleural adenomatoid tumor", "pleural biphasic mesothelioma", "fibroblastic neoplasm", "pleural epithelioid mesothelioma", "heart fibrosarcoma"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Eribulin: ennustettu uusi käyttöaihe Autosomaalinen resessiivinen familiaalinen Välimeren kuume (autosomal recessive familial Mediterranean fever) (näytön taso L5). Alkuperäinen käyttöaihe: Breast Ne…"
 ---
 

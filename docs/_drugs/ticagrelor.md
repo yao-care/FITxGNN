@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 436
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Ticagrelor: ennustettu uusi käyttöaihe Kallonsisäinen valtimokovettumatauti (intracranial arteriosclerosis) (näytön taso L2). Alkuperäinen käyttöaihe: Perifeeriset verisuonisairaudet"
 monitor_inn: "TICAGRELOR"
 predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arteriosclerosis", "priapism", "ischemic disease", "May-Thurner syndrome", "livedo reticularis", "vascular ectasia", "angiodysplasia", "venous thromboembolism"]

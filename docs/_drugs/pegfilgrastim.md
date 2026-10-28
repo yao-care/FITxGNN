@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 334
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Pegfilgrastim: ennustettu uusi käyttöaihe Vaikea ei-proliferatiivinen diabeettinen retinopatia (toissijaisesti… (näytön taso L5). Alkuperäinen käyttöaihe: Neutropenia, kuumeinen neutropenia…"
 monitor_inn: "PEGFILGRASTIM"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]

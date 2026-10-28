@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 421
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Tecovirimat: ennustettu uusi käyttöaihe Ohrainen (hordeolum) (näytön taso L5). Alkuperäinen käyttöaihe: Poksvirusinfektiot, lehmärokko, apinarokko, vacciniarokko, isorokko"
 monitor_inn: "TECOVIRIMAT"
 predicted_indications: ["hordeolum", "vibrio infectious disease", "Klebsiella infectious disease", "noma", "coinfection", "infective dermatitis associated with HTLV-1", "Arterivirus infectious disease", "arbovirus infection", "escherichia coli infection"]

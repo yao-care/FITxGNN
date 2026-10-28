@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "ILOPROST"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "pulmonary arteriovenous malformation (disease)", "diffuse alopecia areata"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Iloprost: ennustettu uusi käyttöaihe Päänahan yksinkertainen hypotrikoosi (hypotrichosis simplex of the scalp) (näytön taso L5). Alkuperäinen käyttöaihe: Hypertension, Pulmonary"
 ---
 

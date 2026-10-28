@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 294
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "MOMETASONE"
 predicted_indications: ["primary cutaneous T-cell lymphoma"]
 description: "Mometasone: ennustettu uusi käyttöaihe Primaarinen ihon T-solulymfooma (primary cutaneous T-cell lymphoma) (näytön taso L5). Alkuperäinen käyttöaihe: Asthma"

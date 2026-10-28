@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "GALCANEZUMAB"
 predicted_indications: ["heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Galcanezumab: ennustettu uusi käyttöaihe Hepariinikofaktori 2:n puutos (heparin cofactor 2 deficiency) (näytön taso L5). Alkuperäinen käyttöaihe: Migraine Disorders"
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "CAPECITABINE"
 predicted_indications: ["gastric adenocarcinoma and proximal polyposis of the stomach"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Capecitabine: ennustettu uusi käyttöaihe Mahalaukun adenokarsinooma ja mahalaukun proksimaalinen polypoosi (gastric adenocarcinoma and proximal polyposis of the… (näytön taso L5). Alkuperäinen käyttö…"
 ---
 

@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 265
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Linaclotide: ennustettu uusi käyttöaihe Cauda equina -oireyhtymä (näytön taso L5). Alkuperäinen käyttöaihe: Ärtyvän suolen oireyhtymä"
 monitor_inn: "LINACLOTIDE"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "insomnia (disease)"]

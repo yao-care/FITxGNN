@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 186
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Fenfluramine: ennustettu uusi käyttöaihe Proksimaalinen 16p11.2-mikrodeleetiosyndrooma (näytön taso L5). Alkuperäinen käyttöaihe: Myokloniset epilepsiat"
 monitor_inn: "Fenfluramine"
 predicted_indications: ["proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "obsolete hypertelorism (disease)", "frontorhiny"]

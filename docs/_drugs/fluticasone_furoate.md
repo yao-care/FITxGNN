@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 192
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Fluticasone Furoate: ennustettu uusi käyttöaihe Atooppinen ihottuma (atopic eczema) (näytön taso L4). Alkuperäinen käyttöaihe: Kausiluonteinen ja ympärivuotinen allerginen nuha (lisäksi COPD ja as…"
 monitor_inn: "FLUTICASONE FUROATE"
 predicted_indications: ["atopic eczema", "bronchitis", "2-hydroxyethyl methacrylate sensitization", "dermatitis, atopic", "contact dermatitis", "occupational dermatitis", "phototoxic dermatitis"]

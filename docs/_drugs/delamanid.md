@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "DELAMANID"
 predicted_indications: ["allergic urticaria"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Delamanid: ennustettu uusi käyttöaihe Allerginen nokkosihottuma (allergic urticaria) (näytön taso L5). Alkuperäinen käyttöaihe: Tuberculosis, Multidrug-Resistant"
 ---
 

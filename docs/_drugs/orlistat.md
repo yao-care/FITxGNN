@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 319
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Orlistat: ennustettu uusi käyttöaihe Hypervitaminoosi (näytön taso L5). Alkuperäinen käyttöaihe: Lihavuus"
 monitor_inn: "ORLISTAT"
 predicted_indications: ["hypervitaminosis"]

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "GRANISETRON"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "acute contagious conjunctivitis", "angioedema", "allergic urticaria", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "bronchitis", "cold urticaria", "conjunctivitis"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Granisetron: ennustettu uusi käyttöaihe Manian kaksisuuntainen mielialahäiriö (manic bipolar affective disorder) (näytön taso L5). Alkuperäinen käyttöaihe: Vomiting"
 ---
 

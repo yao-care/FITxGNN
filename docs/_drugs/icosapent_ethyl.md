@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "ICOSAPENT ETHYL"
 predicted_indications: ["hemoglobinopathy"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Icosapent Ethyl: ennustettu uusi käyttöaihe Hemoglobinopatia (hemoglobinopathy) (näytön taso L5). Alkuperäinen käyttöaihe: Dyslipidemias"
 ---
 

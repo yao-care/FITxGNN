@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "DECITABINE"
 predicted_indications: ["refractory cytopenia of childhood"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Decitabine: ennustettu uusi käyttöaihe Lapsuusiän refraktaarinen sytopenia (refractory cytopenia of childhood) (näytön taso L5). Alkuperäinen käyttöaihe: Leukemia, Myeloid"
 ---
 

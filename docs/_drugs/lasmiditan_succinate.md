@@ -3,18 +3,18 @@ noindex: true
 sitemap: false
 layout: default
 title: Lasmiditan Succinate
-parent: Pelkkä mallin ennuste (L5)
+parent: Vain tunnetut käytöt (ei uusia ennusteita)
 nav_order: 250
-evidence_level: L5
-indication_count: 0
-last_modified_at: 2026-09-19
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Lasmiditan Succinate
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
+Näytön taso: **N/A** | Ennustetut käyttöaiheet: **0** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,45 +33,18 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **0** kpl
 
 </div>
 
-## Lasmiditan sukkinaatti: Arviointi pidätetty — riittämättömät tiedot
+## Lasmiditan Succinate
 {: .text-alpha }
-
-## Yhden lauseen yhteenveto
-
-Lasmiditan sukkinaatti on lääke, jolla ei tällä hetkellä ole rekisteröityjä hyväksyntöjä Suomessa.
-Tämä näyttöpaketti sisältää **ei TxGNN-ennustettuja indikaatioita**, ja kriittiset tietojen puutteet — mukaan lukien vaikutusmekanismi, alkuperäiset hyväksytyt indikaatiot ja turvallisuustiedot — estävät merkittävän lääkkeen uudelleenkäytön arviointia tässä vaiheessa.
-Ilman ennustettujen indikaatioiden tietoja, näytön tason arviointia ja kliinisten tutkimusten tarkastelua ei voida suorittaa.
 
 ## Pikayleiskatsaus
 
 | Kohta | Sisältö |
 |-------|---------|
-| Alkuperäinen indikaatio | Ei saatavilla tässä näyttöpaketissa |
-| Ennustettu uusi indikaatio | Ei mitään palautettu TxGNN:ltä |
-| TxGNN-ennusteen pistemäärä | Ei saatavilla |
-| Näytön taso | L5 — mallin ennustetiedot puuttuvat |
+| Alkuperäinen indikaatio | Migraine Disorders |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suomen markkinoiden asema | Ei markkinoilla |
 | Hyväksyntöjen lukumäärä | 0 |
-| Suositeltu päätös | Pidätä |
-
-## Turvallisuutta koskevat näkökohdat
-
-Katso valmisteyhteenvedosta turvallisuustietoja.
-
-## Johtopäätökset ja seuraavat vaiheet
-
-**Päätös: Pidätä**
-
-**Perustelut:**
-Tämä näyttöpaketti ei sisällä TxGNN-ennustettuja indikaatioita ja siitä puuttuvat kaikki arvioinnin edellyttämät lääkkeen perustiedot; uudelleenkäyttöehdokkaan analyysia ei voida suorittaa ennen näiden puutteiden ratkaisemista.
-
-**Jatkaaksemme tarvitaan seuraavaa:**
-
-- **TxGNN-ennusteen tulokset** — `predicted_indications` taulukko on tyhjä; suorita TxGNN-prosessi uudelleen tälle lääkkeelle saadaksesi ehdokas-indikaatiot pisteillä ja näyttölinkeillä
-- **Vaikutusmekanismi (MOA)** — kysele DrugBank-rajapintaa (DrugBank-tietue löydettiin kyselylokin ID 3:n mukaan, mutta MOA:ta ei purettu näyttöpakettiin)
-- **Alkuperäinen(et) hyväksytty(t) indikaatio(t)** — `original_indications` on tyhjä; hae valmisteyhteenvedosta (kyselylokin ID 4 osoittaa onnistuneen hakemisen — jäsennä ja täytä)
-- **Turvallisuusvaroitukset ja vasta-aiheet** — valmisteyhteenveto haettiin onnistuneesti (kyselylokin ID 4); jäsennä ja täytä `key_warnings` ja `contraindications`
-- **Lääkeinteraktioiden tiedot** — DDI-kysely palautti not_found; harkitse vaihtoehtoisten lähteiden kyselyä (esim. DrugBank-interaktio-API, SFINX)
 
 ## Vastuuvapauslauseke
 

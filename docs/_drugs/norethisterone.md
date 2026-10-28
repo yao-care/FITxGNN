@@ -5,7 +5,7 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 309
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Norethisterone: ennustettu uusi käyttöaihe Amenorrea (näytön taso L4). Alkuperäinen käyttöaihe: Myooma (leiomyooma)"
 monitor_inn: "Norethisterone"
 predicted_indications: ["amenorrhea (disease)"]

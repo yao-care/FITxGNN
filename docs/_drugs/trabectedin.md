@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 448
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "TRABECTEDIN"
 predicted_indications: ["female breast carcinoma"]
 description: "Trabectedin: ennustettu uusi käyttöaihe Female breast carcinoma (näytön taso L5). Alkuperäinen käyttöaihe: Sarcoma"

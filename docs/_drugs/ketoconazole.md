@@ -5,7 +5,7 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 241
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Ketoconazole: ennustettu uusi käyttöaihe Akne (näytön taso L4). Alkuperäinen käyttöaihe: Cushingin oireyhtymä"
 monitor_inn: "KETOCONAZOLE"
 predicted_indications: ["acne (disease)"]

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "EVOLOCUMAB"
 predicted_indications: ["symptomatic form of hemophilia in female carriers", "familial apolipoprotein C-II deficiency", "thrombocytopenic purpura", "factor XI deficiency", "hemophilia A with vascular abnormality", "disease of catalytic activity"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Evolocumab: ennustettu uusi käyttöaihe Hemofilian oireinen muoto naispuolisilla kantajilla (symptomatic form of hemophilia in female carriers) (näytön taso L5). Alkuperäinen käyttöaihe: Dyslipidemias"
 ---
 

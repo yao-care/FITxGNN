@@ -5,7 +5,7 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 395
 evidence_level: L1
 indication_count: 5
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Salmeterol: ennustettu uusi käyttöaihe Keuhkoputkentulehdus (bronchitis) (näytön taso L1). Alkuperäinen käyttöaihe: Astma"
 monitor_inn: "salmeterol"
 predicted_indications: ["bronchitis", "respiratory malformation", "obstructive lung disease", "Rienhoff syndrome", "atopic eczema"]

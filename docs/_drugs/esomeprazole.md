@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "ESOMEPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Esomeprazole: ennustettu uusi käyttöaihe Duodenaalinen tukos (duodenal obstruction) (näytön taso L5). Alkuperäinen käyttöaihe: Gastroesophageal Reflux"
 ---
 

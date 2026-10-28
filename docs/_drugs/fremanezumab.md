@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "FREMANEZUMAB"
 predicted_indications: ["atrophoderma vermiculata"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Fremanezumab: ennustettu uusi käyttöaihe atrofoderma vermiculata (atrophoderma vermiculata) (näytön taso L5). Alkuperäinen käyttöaihe: Migraine Disorders"
 ---
 

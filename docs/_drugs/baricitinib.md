@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "BARICITINIB"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Baricitinib: ennustettu uusi käyttöaihe Kolobomatoottinen mikroftalmia-rizomeelinen dysplasia -oireyhtymä (colobomatous microphthalmia-rhizomelic dysplasia syn… (näytön taso L5). Alkuperäinen käyttöa…"
 ---
 

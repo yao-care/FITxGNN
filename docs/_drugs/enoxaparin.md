@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Enoxaparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Enoxaparin: ennustettu uusi käyttöaihe Proteiini C:n puutteesta johtuva trombofilia, autosomaalinen resessiivinen (thrombophilia due to protein C deficiency… (näytön taso L5). Alkuperäinen käyttöaihe…"
 ---
 

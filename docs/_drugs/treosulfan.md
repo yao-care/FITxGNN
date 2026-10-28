@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 454
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Treosulfan: ennustettu uusi käyttöaihe Diabeettinen kaihi (näytön taso L5). Alkuperäinen käyttöaihe: Hematopoieettinen kantasolasiirto"
 monitor_inn: "TREOSULFAN"
 predicted_indications: ["diabetic cataract"]

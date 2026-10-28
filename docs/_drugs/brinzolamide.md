@@ -5,7 +5,7 @@ parent: Vain tunnetut käytöt (ei uusia ennusteita)
 nav_order: 83
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Brinzolamide: known uses and market status in Finland; currently no new candidate indication"
 predicted_indications: []
 ---

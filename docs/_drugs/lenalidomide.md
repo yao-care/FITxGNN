@@ -5,7 +5,7 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 258
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "LENALIDOMIDE"
 predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]
 description: "Lenalidomide: ennustettu uusi käyttöaihe Myeloid leukemia (näytön taso L2). Alkuperäinen käyttöaihe: Multiple Myeloma"

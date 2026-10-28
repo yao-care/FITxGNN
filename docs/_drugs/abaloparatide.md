@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "ABALOPARATIDE"
 predicted_indications: ["non-syndromic esophageal malformation", "esophageal disease", "amenorrhea (disease)", "esophageal ulcer"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Abaloparatide: ennustettu uusi käyttöaihe Ei-syndrooma ruokatorven epämuodostuma (non-syndromic esophageal malformation) (näytön taso L5). Alkuperäinen käyttöaihe: Osteoporosis, Postmenopausal"
 ---
 

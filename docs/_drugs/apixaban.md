@@ -5,7 +5,7 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 39
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Apixaban: ennustettu uusi käyttöaihe Migreeni (migraine disorder) (näytön taso L4). Alkuperäinen käyttöaihe: Nivelleikkaus (artroplastia), laskimotromboembolia"
 monitor_inn: "APIXABAN"
 predicted_indications: ["migraine disorder"]

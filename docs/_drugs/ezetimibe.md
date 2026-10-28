@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "EZETIMIBE"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Ezetimibe: ennustettu uusi käyttöaihe Kolesterolin esterinsiirtoproteiinin puutos (cholesterol-ester transfer protein deficiency) (näytön taso L5). Alkuperäinen käyttöaihe: Hypercholesterolemia"
 ---
 

@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 240
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "IVOSIDENIB"
 predicted_indications: ["bulbar polio"]
 description: "Ivosidenib: ennustettu uusi käyttöaihe Bulbaarinen polio (bulbar polio) (näytön taso L5). Alkuperäinen käyttöaihe: Leukemia, Myeloid, Acute"

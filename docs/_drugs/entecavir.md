@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "ENTECAVIR"
 predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "hepatitis C virus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hepatitis, viral, animal", "hepatitis E virus infection", "hepatitis A virus infection"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Entecavir: ennustettu uusi käyttöaihe Krooninen hepatiitti C -virusinfektio (chronic hepatitis C virus infection) (näytön taso L5). Alkuperäinen käyttöaihe: Hepatitis B"
 ---
 

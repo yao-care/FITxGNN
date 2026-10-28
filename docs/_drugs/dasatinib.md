@@ -5,7 +5,7 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 129
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Dasatinib: ennustettu uusi käyttöaihe Ewingin sarkoomaa (Ewing sarcoma) (näytön taso L2). Alkuperäinen käyttöaihe: Prekursorisolu-lymfoblastileukemia/lymfooma"
 monitor_inn: "DASATINIB"
 predicted_indications: ["Ewing sarcoma", "liposarcoma", "fibromatosis, gingival", "dermatofibrosarcoma protuberans", "ovarian myxoid liposarcoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung"]

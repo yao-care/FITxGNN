@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 362
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Raloxifene: ennustettu uusi käyttöaihe Pohjukaissuolen haavauma (duodenal ulcer) (näytön taso L5). Alkuperäinen käyttöaihe: Postmenopausaalinen osteoporoosi"
 monitor_inn: "Raloxifene"
 predicted_indications: ["duodenal ulcer (disease)", "hypoalphalipoproteinemia", "duodenal obstruction", "duodenogastric reflux"]

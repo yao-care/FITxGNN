@@ -5,7 +5,7 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 335
 evidence_level: L1
 indication_count: 9
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "PEGINTERFERON ALFA-2A"
 predicted_indications: ["hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "heart conduction disease", "heart neoplasm", "heart valve disease", "congenital anomaly of ventricular septum"]
 description: "Peginterferon Alfa-2A: ennustettu uusi käyttöaihe Hepatitis E virus infection (näytön taso L1). Alkuperäinen käyttöaihe: Hepatitis C, Chronic"

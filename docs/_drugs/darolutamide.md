@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "DAROLUTAMIDE"
 predicted_indications: ["homozygous familial hypercholesterolemia", "multiple endocrine neoplasia", "HIV infectious disease"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Darolutamide: ennustettu uusi käyttöaihe Homotsygoottinen familiaalinen hyperkolesterolemia (homozygous familial hypercholesterolemia) (näytön taso L5). Alkuperäinen käyttöaihe: Prostatic Neoplasms, …"
 ---
 

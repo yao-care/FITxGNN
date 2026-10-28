@@ -3,7 +3,7 @@ layout: default
 title: Trastuzumab Emtansine
 parent: Vain tunnetut käytöt (ei uusia ennusteita)
 nav_order: 452
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Trastuzumab Emtansine: tunnetut käyttöaiheet ja markkinatilanne Suomessa; tällä hetkellä ei uutta ehdokasindikaatiota"
 predicted_indications: []
 indication_count: 0

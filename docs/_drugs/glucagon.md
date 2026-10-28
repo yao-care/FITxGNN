@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "GLUCAGON"
 predicted_indications: ["irritable bowel syndrome"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Glucagon: ennustettu uusi käyttöaihe Ärtyvän suolen oireyhtymä (irritable bowel syndrome) (näytön taso L5). Alkuperäinen käyttöaihe: Diabetes Mellitus"
 ---
 

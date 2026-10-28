@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 247
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "LARONIDASE"
 predicted_indications: ["lysosomal storage disease with skeletal involvement", "Sanfilippo syndrome"]
 description: "Laronidase: ennustettu uusi käyttöaihe Lysosomal storage disease with skeletal involvement (näytön taso L5). Alkuperäinen käyttöaihe: Mucopolysaccharidosis I"

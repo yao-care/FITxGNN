@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "ELAFIBRANOR"
 predicted_indications: ["amenorrhea (disease)"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Elafibranor: ennustettu uusi käyttöaihe Amenorrea (amenorrhea (disease)) (näytön taso L5). Alkuperäinen käyttöaihe: Liver Cirrhosis, Biliary"
 ---
 

@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 370
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 description: "Regadenoson: ennustettu uusi käyttöaihe Anafylaksia (näytön taso L5). Alkuperäinen käyttöaihe: Sydänlihaksen perfuusiokuvantaminen"
 monitor_inn: "REGADENOSON"
 predicted_indications: ["anaphylaxis", "food-dependent exercise-induced anaphylaxis", "esotropia", "pseudoallergy"]

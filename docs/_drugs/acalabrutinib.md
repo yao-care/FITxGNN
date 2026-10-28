@@ -7,7 +7,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 16
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-09-19
+last_modified_at: 2026-10-28
 predicted_indications: []
 ---
 

@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 392
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "SACITUZUMAB GOVITECAN"
 predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic cataract"]
 description: "Sacituzumab Govitecan: ennustettu uusi käyttöaihe Lääkkeen aiheuttama osteoporoosi (drug-induced osteoporosis) (näytön taso L5). Alkuperäinen käyttöaihe: Breast Neoplasms"

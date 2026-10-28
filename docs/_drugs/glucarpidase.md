@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "GLUCARPIDASE"
 predicted_indications: ["diabetic cataract", "diabetic retinopathy", "craniostenosis cataract", "tetanic cataract", "diabetes mellitus type 2 associated cataract", "immature cataract", "mature cataract", "nuclear senile cataract", "cortical cataract", "senile cataract"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Glucarpidase: ennustettu uusi käyttöaihe Diabeettinen kaihi (diabetic cataract) (näytön taso L5). Alkuperäinen käyttöaihe: Metabolic Side Effects of Drugs and Substances"
 ---
 

@@ -5,7 +5,7 @@ parent: Vain tunnetut käytöt (ei uusia ennusteita)
 nav_order: 431
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Teriflunomide: tunnetut käyttöaiheet ja markkinatilanne Suomessa; tällä hetkellä ei uutta ehdokasindikaatiota"
 predicted_indications: []
 ---

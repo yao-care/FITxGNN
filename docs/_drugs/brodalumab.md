@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "BRODALUMAB"
 predicted_indications: ["strongyloidiasis", "eye disease", "vitamin deficiency disorder", "von Hippel anomaly", "optic perineuritis", "chronic relapsing inflammatory optic neuropathy", "isolated optic neuritis", "recurrent idiopathic neuroretinitis", "nodular episcleritis", "episcleritis periodica fugax"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Brodalumab: ennustettu uusi käyttöaihe Suolistomatotauti (strongyloidiasis) (näytön taso L5). Alkuperäinen käyttöaihe: Psoriasis"
 ---
 

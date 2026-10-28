@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 255
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "Lefamulin"
 predicted_indications: ["leishmaniasis, diffuse cutaneous", "polyclonal hyperviscosity syndrome", "hyperamylasemia"]
 description: "Lefamulin: ennustettu uusi käyttöaihe Leishmaniasis, diffuse cutaneous (näytön taso L5). Alkuperäinen käyttöaihe: Pneumonia, Bacterial"

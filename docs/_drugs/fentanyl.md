@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 188
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-13
-description: "Fentanyl: ennustettu uusi käyttöaihe Nefrogeeninen antidiureesioireyhtymä (nephrogenic syndrome of inappro… (näytön taso L5). Alkuperäinen käyttöaihe: Kipu"
+last_modified_at: 2026-10-28
 monitor_inn: "FENTANYL"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
+description: "Fentanyl: ennustettu uusi käyttöaihe Nefrogeeninen antidiureesioireyhtymä (nephrogenic syndrome of inappropriate antidiuresis) (näytön taso L5). Alkuperäinen käyttöaihe: Pain"
 ---
 
 # Fentanyl
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-## Fentanyyli: nefrogeeninen antidiureesioireyhtymä (TxGNN-mallin ennuste)
+## Fentanyl: Nefrogeeninen antidiureesioireyhtymä (nephrogenic syndrome of inappropriate antidiuresis)
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -46,7 +46,7 @@ Ennuste perustuu yksinomaan mallin tuottamaan tietoon, joten näyttö on heikkoa
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Kipu; syöpä |
+| Alkuperäinen käyttöaihe | Pain;Cancer |
 | Ennustettu uusi käyttöaihe | Nefrogeeninen antidiureesioireyhtymä (nephrogenic syndrome of inappropriate antidiuresis) |
 | TxGNN-ennustepisteet | 0.9946 |
 | Näytön taso | L5 |
@@ -60,7 +60,7 @@ Fentanyylin tarkka vaikutusmekanismi ei ole tässä aineistossa saatavilla. Ylei
 
 Nefrogeeninen antidiureesioireyhtymä johtuu vasopressiini V2 -reseptorin (AVPR2) tai harvemmin GNAS-geenin toimintaa lisäävistä muutoksista. Opioidit voivat vaikuttaa vasopressiinin eritykseen keskushermoston kautta ja aiheuttaa SIADH:n kaltaisia vaikutuksia. Tämä vaikutus kohdistuu kuitenkin reseptorin yläpuolelle, eikä sen odottaisi korjaavan jatkuvasti aktiivista munuaisen V2-reseptoria. Opioidien aiheuttama antidiureesi olisi pikemminkin haittavaikutus kuin hyöty. Aineiston perusteella uskottavaa hoidollista perustetta ei voida esittää.
 
-**Toinen ennuste: Touretten oireyhtymä** (pisteet 99,05 %, näytön taso L5, suositus Hold). Endogeeninen opioidijärjestelmä muokkaa tässä taudissa merkityksellisiä aivopiirejä, ja pienissä tutkimuksissa on selvitetty opioidireseptorien muokkaajia tic-häiriöissä. Tämä on vain spekulatiivinen ja epäsuora peruste. Fentanyylin riippuvuus-, hengityslama- ja väärinkäyttöriskit ovat suuret, ja krooniseen kehityshäiriöön on olemassa vakiintuneita hoitoja (alfa-2-agonistit, antipsykootit, käyttäytymisterapia CBIT).
+**Toinen ennuste: Touretten oireyhtymä** (pisteet 0.9905, näytön taso L5, suositus Hold). Endogeeninen opioidijärjestelmä muokkaa tässä taudissa merkityksellisiä aivopiirejä, ja pienissä tutkimuksissa on selvitetty opioidireseptorien muokkaajia tic-häiriöissä. Tämä on vain spekulatiivinen ja epäsuora peruste. Fentanyylin riippuvuus-, hengityslama- ja väärinkäyttöriskit ovat suuret, ja krooniseen kehityshäiriöön on olemassa vakiintuneita hoitoja (alfa-2-agonistit, antipsykootit, käyttäytymisterapia CBIT).
 
 ## Kliininen tutkimusnäyttö
 

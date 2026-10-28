@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 377
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "RILPIVIRINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Rilpivirine: ennustettu uusi käyttöaihe Feline acquired immunodeficiency syndrome (näytön taso L5). Alkuperäinen käyttöaihe: HIV Infections"
@@ -47,7 +47,7 @@ TxGNN-malli ennustaa sen voivan tehota **kissan hankinnaiseen immuunikatoon (FIV
 |------|------|
 | Alkuperäinen käyttöaihe | HIV Infections |
 | Ennustettu uusi käyttöaihe | Feline acquired immunodeficiency syndrome |
-| TxGNN-ennustepisteet | 99,97 % |
+| TxGNN-ennustepisteet | 0.9997 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 6/6) |
 | Myyntilupien määrä | 6 (voimassa: 6) |
@@ -65,10 +65,8 @@ Kyseessä on eläinlääkinnällinen käyttöaihe, joten se ei ole ihmisille suu
 
 | Ennuste | Pisteet | Näytön taso | Huomio |
 |------|------|------|------|
-| Apinoiden immuunikatovirusinfektio (SIV) | 99,97 % | L4 | Prekliinistä makakitutkimusta (pitkävaikutteinen rilpiviriini, usein kabotegraviirin kanssa). Ei ihmisen kliininen kohde. |
-| Neurokehityshäiriö (ataksinen kävely, puheen puuttuminen) | 99,97 % | L5 | Ei uskottavaa mekanistista yhteyttä, ei tutkimuksia. Mahdollinen graafiartefakti. |
-| AIDS-related complex | 99,56 % | L4 | Historiallinen termi oireiselle HIV:lle, päällekkäinen nykyisen käyttöaiheen kanssa. |
-| Synnynnäinen HIV | 99,56 % | L3 | Havaintotutkimuksia ja tapauskertomuksia raskauden aikaisesta käytöstä, lähinnä kabotegraviiri/rilpiviriini-yhdistelmästä. |
+| Apinoiden immuunikatovirusinfektio (SIV) | 0.9997 | L4 | Prekliinistä makakitutkimusta (pitkävaikutteinen rilpiviriini, usein kabotegraviirin kanssa). Ei ihmisen kliininen kohde. |
+| Neurokehityshäiriö (ataksinen kävely, puheen puuttuminen) | 0.9997 | L5 | Ei uskottavaa mekanistista yhteyttä, ei tutkimuksia. Mahdollinen graafiartefakti. |
 
 ## Kliininen tutkimusnäyttö
 

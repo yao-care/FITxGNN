@@ -5,10 +5,10 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 371
 evidence_level: L1
 indication_count: 8
-last_modified_at: 2026-10-13
-description: "Regorafenib: ennustettu uusi käyttöaihe Liposarkoomaan (näytön taso L5). Alkuperäinen käyttöaihe: Kolorektaalisyöpä (paksu- ja peräsuolen syöpä)"
+last_modified_at: 2026-10-28
 monitor_inn: "REGORAFENIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "clear cell renal carcinoma", "renal cell carcinoma associated with neuroblastoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "unclassified renal cell carcinoma", "childhood kidney cell carcinoma", "vulva sarcoma"]
+description: "Regorafenib: ennustettu uusi käyttöaihe Liposarkoomaan (liposarcoma) (näytön taso L1). Alkuperäinen käyttöaihe: Colorectal Neoplasms"
 ---
 
 # Regorafenib
@@ -33,7 +33,7 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **8** kpl
 
 </div>
 
-## Regorafenibi: Kolorektaalisyövästä liposarkoomaan
+## Regorafenib: Liposarkoomaan (liposarcoma)
 {: .text-alpha }
 
 ## Yhteenveto
@@ -48,9 +48,9 @@ Tätä suuntaa tukee tällä hetkellä **1 kliininen tutkimus** ja **10 julkaisu
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Kolorektaalisyöpä (paksu- ja peräsuolen syöpä) |
-| Ennustettu uusi käyttöaihe | Liposarkoomaan |
-| TxGNN-ennustepisteet | 99,76 % |
+| Alkuperäinen käyttöaihe | Colorectal Neoplasms |
+| Ennustettu uusi käyttöaihe | Liposarkoomaan (liposarcoma) |
+| TxGNN-ennustepisteet | 0.9976 |
 | Näytön taso | L1 (huomautus: liposarkoomakohtainen hyöty on rajallinen) |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |

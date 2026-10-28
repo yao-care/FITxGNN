@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 384
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-13
-description: "Rivaroxaban: ennustettu uusi käyttöaihe Nivelreuma (näytön taso L5). Alkuperäinen käyttöaihe: Laskimotromboembolia, keuhkoembolia…"
+last_modified_at: 2026-10-28
 monitor_inn: "RIVAROXABAN"
 predicted_indications: ["rheumatoid arthritis", "gout", "HIV infectious disease", "brachydactyly-syndactyly syndrome"]
+description: "Rivaroxaban: ennustettu uusi käyttöaihe Nivelreuma (rheumatoid arthritis) (näytön taso L5). Alkuperäinen käyttöaihe: Venous Thromboembolism"
 ---
 
 # Rivaroxaban
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-## Rivaroksabaani: nivelreuma
+## Rivaroxaban: Nivelreuma (rheumatoid arthritis)
 {: .text-alpha }
 
 ## Yhteenveto
@@ -46,8 +46,8 @@ Rivaroksabaani on suun kautta otettava Xa-tekijän estäjä, jota on alun perin 
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Laskimotromboembolia, keuhkoembolia, akuutti sepelvaltimotautioireyhtymä, aivohalvaus, sepelvaltimotauti, ääreisvaltimotauti, eteisvärinä |
-| Ennustettu uusi käyttöaihe | Nivelreuma |
+| Alkuperäinen käyttöaihe | Venous Thromboembolism;Pulmonary Embolism;Acute Coronary Syndrome;Stroke;Coronary Artery Disease;Peripheral Arterial Disease;Atrial Fibrillation; Venous Thromboembolism;Pulmonary Embolism;Venous Thrombosis;Stroke;Embolism; Acute Coronary Syndrome;Coronary Artery Disease;Peripheral Arterial Disease;V |
+| Ennustettu uusi käyttöaihe | Nivelreuma (rheumatoid arthritis) |
 | TxGNN-ennustepiste | 0,9957 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 4/4) |
@@ -130,7 +130,7 @@ Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 ---
 
-**Muut ennustetut käyttöaiheet (tiedoksi):** kihti (piste 99,51 %), HIV-infektio (99,17 %) ja brakydaktylia-syndaktylia-oireyhtymä (99,10 %) saivat kaikki suosituksen Hold. Kihdelle ja harvinaiselle raajojen epämuodostumalle ei löytynyt uskottavaa mekanistista perustetta. HIV:n osalta kirjallisuus koskee lähinnä rivaroksabaanin yhteisvaikutuksia retroviruslääkkeiden (ritonaviiri, kobisistaatti) kanssa eikä hoitovaikutusta.
+**Muut ennustetut käyttöaiheet (tiedoksi):** kihti (piste 0.9951), HIV-infektio (0.9917) ja brakydaktylia-syndaktylia-oireyhtymä (0.9910) saivat kaikki suosituksen Hold. Kihdelle ja harvinaiselle raajojen epämuodostumalle ei löytynyt uskottavaa mekanistista perustetta. HIV:n osalta kirjallisuus koskee lähinnä rivaroksabaanin yhteisvaikutuksia retroviruslääkkeiden (ritonaviiri, kobisistaatti) kanssa eikä hoitovaikutusta.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 298
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "NELARABINE"
 predicted_indications: ["relapsing-remitting multiple sclerosis"]
 description: "Nelarabine: ennustettu uusi käyttöaihe Relapsing-remitting multiple sclerosis (näytön taso L5). Alkuperäinen käyttöaihe: Precursor T-Cell Lymphoblastic Leukemia-Lymphoma"
@@ -48,7 +48,7 @@ mutta ennusteen tueksi ei ole tällä hetkellä **yhtään kliinistä tutkimusta
 |------|------|
 | Alkuperäinen käyttöaihe | Precursor T-Cell Lymphoblastic Leukemia-Lymphoma |
 | Ennustettu uusi käyttöaihe | Relapsing-remitting multiple sclerosis |
-| TxGNN-ennustepisteet | 99,43 % |
+| TxGNN-ennustepisteet | 0.9943 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |

@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 356
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "PREGABALIN"
 predicted_indications: ["tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]
 description: "Pregabalin: ennustettu uusi käyttöaihe Tendinitis (näytön taso L5). Alkuperäinen käyttöaihe: Anxiety Disorders"
@@ -48,7 +48,7 @@ Pregabaliinia on käytetty alun perin **epilepsian ja ahdistuneisuushäiriöiden
 |------|------|
 | Alkuperäinen käyttöaihe | Anxiety Disorders;Epilepsy; Epilepsy;Anxiety Disorders;Neuralgia; Anxiety Disorders;Neuralgia;Epilepsy |
 | Ennustettu uusi käyttöaihe | Tendinitis |
-| TxGNN-ennustepisteet | 99,71 % |
+| TxGNN-ennustepisteet | 0.9971 |
 | Näytön taso | L5 (ei suoraa kliinistä näyttöä; epäsuora kirjallisuus) |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 6/6) |
 | Myyntilupien määrä | 6 (voimassa: 6) |

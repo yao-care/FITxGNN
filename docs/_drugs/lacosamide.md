@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 243
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "LACOSAMIDE"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "insomnia (disease)", "migraine with brainstem aura", "myofascial pain syndrome", "obsessive-compulsive disorder", "papillary conjunctivitis"]
 description: "Lacosamide: ennustettu uusi käyttöaihe Manic bipolar affective disorder (näytön taso L5). Alkuperäinen käyttöaihe: Epilepsies, Partial"
@@ -48,7 +48,7 @@ Lakosamidi on epilepsialääke, jota on käytetty osittaisalkuisten epilepsiakoh
 |------|------|
 | Alkuperäinen käyttöaihe | Epilepsies, Partial; Epilepsy |
 | Ennustettu uusi käyttöaihe | Manic bipolar affective disorder |
-| TxGNN-ennustepisteet | 99,87 % |
+| TxGNN-ennustepisteet | 0.9987 |
 | Näytön taso | L5 (varauksin, ks. alla) |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 4/4) |
 | Myyntilupien määrä | 4 (voimassa: 4) |
@@ -136,7 +136,7 @@ Seuraavat ennusteet perustuvat enimmäkseen pelkkään malliin:
 
 | Käyttöaihe | Näytön taso | Suositus |
 |------|------|------|
-| Maaninen kaksisuuntainen mielialahäiriö (ennustepisteet 99,96 %) | L5 | Tutkimuskysymys; vain retrospektiivinen 30 päivän vertailu, pieni avoin pilotti ja tapausselostuksia |
+| Maaninen kaksisuuntainen mielialahäiriö (ennustepisteet 0.9996) | L5 | Tutkimuskysymys; vain retrospektiivinen 30 päivän vertailu, pieni avoin pilotti ja tapausselostuksia |
 | Tourette-oireyhtymä | L5 | Hold; epilepsialääkkeiden aiheuttamia tikkejä käsittelevä katsaus viittaa pikemminkin haittaan |
 | Trikotillomania | L5 | Hold; ei näyttöä |
 | Nefrogeeninen antidiureesioireyhtymä | L5 | Hold; ei uskottavaa mekanismia |

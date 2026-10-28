@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 336
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "PEGVALIASE"
 predicted_indications: ["diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "diabetic cataract"]
 description: "Pegvaliase: ennustettu uusi käyttöaihe Diabetic retinopathy (näytön taso L5). Alkuperäinen käyttöaihe: Phenylketonurias"
@@ -50,13 +50,13 @@ Ennuste perustuu siis pelkästään laskennalliseen mallinnukseen.
 |------|------|
 | Alkuperäinen käyttöaihe | Phenylketonurias |
 | Ennustettu uusi käyttöaihe | Diabetic retinopathy |
-| TxGNN-ennustepisteet | 99,17 % |
+| TxGNN-ennustepisteet | 0.9917 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odotetaan) |
 
-Muut mallin ennustamat käyttöaiheet: vaikea ei-proliferatiivinen diabeettinen retinopatia (99,16 %) ja diabeettinen kaihi (99,11 %). Kaikkien näytön taso on L5 ja suositus Hold.
+Muut mallin ennustamat käyttöaiheet: vaikea ei-proliferatiivinen diabeettinen retinopatia (0.9916) ja diabeettinen kaihi (0.9911). Kaikkien näytön taso on L5 ja suositus Hold.
 
 ---
 

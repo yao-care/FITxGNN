@@ -5,10 +5,10 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 270
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-13
-description: "Lopinavir: ennustettu uusi käyttöaihe Apinoiden immuunikatovirusinfektio (SIV) (näytön taso L4). Alkuperäinen käyttöaihe: HIV-infektiot"
+last_modified_at: 2026-10-28
 monitor_inn: "LOPINAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Lopinavir: ennustettu uusi käyttöaihe Apinoiden immuunikatovirusinfektio (simian immunodeficiency virus infection) (näytön taso L4). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin"
 ---
 
 # Lopinavir
@@ -33,7 +33,7 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-## Lopinaviiri: HIV-infektiosta apinoiden immuunikatovirusinfektioon
+## Lopinavir: Apinoiden immuunikatovirusinfektio (simian immunodeficiency virus infection)
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -46,9 +46,9 @@ Lopinaviiri on HIV-proteaasin estäjä, jota on alun perin käytetty HIV-infekti
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | HIV-infektiot |
-| Ennustettu uusi käyttöaihe | Apinoiden immuunikatovirusinfektio (SIV) |
-| TxGNN-ennustepisteet | 99,90 % |
+| Alkuperäinen käyttöaihe | Ei kirjattu paikallisiin tietoihin |
+| Ennustettu uusi käyttöaihe | Apinoiden immuunikatovirusinfektio (simian immunodeficiency virus infection) |
+| TxGNN-ennustepisteet | 0.9990 |
 | Näytön taso | L4 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
 | Myyntilupien määrä | 2 (voimassa: 2) |
@@ -63,8 +63,8 @@ Lopinaviiri on HIV-1-proteaasin estäjä. Tarkempaa vaikutusmekanismitietoa ei o
 Käytettävissä oleva näyttö perustuu ei-ihmisapinoilla (makakeilla) tehtyihin SIV- ja SHIV-malleihin, ja se on epäsuoraa ihmiskäytön kannalta. SIV-infektio on HIV:n tutkimus- ja eläinlääketieteellinen malli, ei erillinen ihmisen käyttöaihe. Ennuste ei siis tuo uutta kliinistä hoitomahdollisuutta.
 
 Muut ennustetut käyttöaiheet ovat heikommin perusteltuja:
-- **Kissojen immuunikatooireyhtymä (FIV):** Pisteet ovat yhtä korkeat (99,90 %), mutta ne heijastavat todennäköisesti tietämysgraafin läheisyyttä HIV:hen, ei suoraa näyttöä. FIV-proteaasin substraatti- ja estäjäspesifisyys eroaa HIV-1:stä. Tauti on eläinlääketieteellinen, eikä tutkimuksia tai kirjallisuutta ole. Näytön taso on L5.
-- **Harvinainen neurokehityshäiriö (ataksinen kävely, puheen puuttuminen, aivokuoren valkoisen aineen väheneminen):** Pisteet ovat 99,90 %, mutta HIV-proteaasin estolla ei tunnistettu mekanistista yhteyttä tähän geneettiseen sairauteen. Tutkimuksia tai kirjallisuutta ei ole. Näytön taso on L5.
+- **Kissojen immuunikatooireyhtymä (FIV):** Pisteet ovat yhtä korkeat (0.9990), mutta ne heijastavat todennäköisesti tietämysgraafin läheisyyttä HIV:hen, ei suoraa näyttöä. FIV-proteaasin substraatti- ja estäjäspesifisyys eroaa HIV-1:stä. Tauti on eläinlääketieteellinen, eikä tutkimuksia tai kirjallisuutta ole. Näytön taso on L5.
+- **Harvinainen neurokehityshäiriö (ataksinen kävely, puheen puuttuminen, aivokuoren valkoisen aineen väheneminen):** Pisteet ovat 0.9990, mutta HIV-proteaasin estolla ei tunnistettu mekanistista yhteyttä tähän geneettiseen sairauteen. Tutkimuksia tai kirjallisuutta ei ole. Näytön taso on L5.
 
 ---
 

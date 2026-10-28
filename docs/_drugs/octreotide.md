@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 312
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "Octreotide"
 predicted_indications: ["vulvar inverted follicular keratosis", "seborrheic keratosis"]
 description: "Octreotide: ennustettu uusi käyttöaihe Vulvar inverted follicular keratosis (näytön taso L5). Alkuperäinen käyttöaihe: Acromegaly"
@@ -46,7 +46,7 @@ Oktreotidi on somatostatiinianalogi, jota on alun perin käytetty akromegalian h
 |------|------|
 | Alkuperäinen käyttöaihe | Acromegaly |
 | Ennustettu uusi käyttöaihe | Vulvar inverted follicular keratosis |
-| TxGNN-ennustepisteet | 99,58 % |
+| TxGNN-ennustepisteet | 0.9958 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |
@@ -60,7 +60,7 @@ Yhteyttä hyvänlaatuiseen follikulaariseen keratinosyyttileesioon ei voida joht
 
 ### Toinen ennuste: seborrooinen keratoosi
 
-Toiseksi sijoittui **seborrooinen keratoosi** (pisteet 99,55 %). Sekään ei ole saanut tuekseen kliinisiä tutkimuksia tai julkaisuja. Hypoteesina on, että somatostatiinireseptorien kautta välittyvä signalointi voisi vaikuttaa keratinosyyttien kasvutekijäreitteihin (esim. IGF-1 ja EGFR), mutta tämä on varmistamaton. Tila on hyvänlaatuinen ja hoidetaan yksinkertaisilla paikallisilla toimenpiteillä, joten systeemisen injektoitavan peptidin hyöty–haitta-suhde on ilman tukevaa näyttöä epäsuotuisa. Kahden ennusteen todennäköisesti samankaltainen profiili viittaa siihen, etteivät ne ole toisistaan riippumatonta näyttöä.
+Toiseksi sijoittui **seborrooinen keratoosi** (pisteet 0.9955). Sekään ei ole saanut tuekseen kliinisiä tutkimuksia tai julkaisuja. Hypoteesina on, että somatostatiinireseptorien kautta välittyvä signalointi voisi vaikuttaa keratinosyyttien kasvutekijäreitteihin (esim. IGF-1 ja EGFR), mutta tämä on varmistamaton. Tila on hyvänlaatuinen ja hoidetaan yksinkertaisilla paikallisilla toimenpiteillä, joten systeemisen injektoitavan peptidin hyöty–haitta-suhde on ilman tukevaa näyttöä epäsuotuisa. Kahden ennusteen todennäköisesti samankaltainen profiili viittaa siihen, etteivät ne ole toisistaan riippumatonta näyttöä.
 
 ## Kliininen tutkimusnäyttö
 

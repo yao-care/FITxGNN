@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 443
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-13
-description: "Tocofersolan: ennustettu uusi käyttöaihe Amenorrea (näytön taso L5). Alkuperäinen käyttöaihe: Kolestaasi"
+last_modified_at: 2026-10-28
 monitor_inn: "TOCOFERSOLAN"
 predicted_indications: ["amenorrhea (disease)", "acne (disease)"]
+description: "Tocofersolan: ennustettu uusi käyttöaihe Amenorrea (amenorrhea (disease)) (näytön taso L5). Alkuperäinen käyttöaihe: Cholestasis"
 ---
 
 # Tocofersolan
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-## Tokofersolaani: Kolestaasista ja E-vitamiinin puutoksesta amenorreaan
+## Tocofersolan: Amenorrea (amenorrhea (disease))
 {: .text-alpha }
 
 ## Yhden lauseen tiivistelmä
@@ -47,15 +47,15 @@ TxGNN-malli ennustaa sen voivan olla hyödyllinen **amenorreassa**, mutta ennust
 
 | Kohde | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Kolestaasi; E-vitamiinin puutos |
-| Ennustettu uusi käyttöaihe | Amenorrea |
-| TxGNN-ennustepisteet | 99,31 % |
+| Alkuperäinen käyttöaihe | Cholestasis;Vitamin E Deficiency |
+| Ennustettu uusi käyttöaihe | Amenorrea (amenorrhea (disease)) |
+| TxGNN-ennustepisteet | 0.9931 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
-Toinen ennustettu käyttöaihe on **akne** (pisteet 99,03 %, näytön taso L5, suositus Hold). Sekin perustuu pelkästään mallin ennusteeseen.
+Toinen ennustettu käyttöaihe on **akne** (pisteet 0.9903, näytön taso L5, suositus Hold). Sekin perustuu pelkästään mallin ennusteeseen.
 
 ---
 

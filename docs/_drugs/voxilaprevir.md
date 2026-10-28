@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 475
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "voxilaprevir"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "HIV infectious disease", "chronic hepatitis B virus infection", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
-description: "Voxilaprevir: ennustettu uusi käyttöaihe Hepatitis B virus infection (näytön taso L5). Alkuperäinen käyttöaihe: Hepatitis C, Chronic"
+description: "Voxilaprevir: ennustettu uusi käyttöaihe Hepatitis B virus infection (näytön taso L5). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin"
 ---
 
 # Voxilaprevir
@@ -46,9 +46,9 @@ Voksilapreviiri on HCV:n NS3/4A-proteaasin estäjä, jota on käytetty kroonisen
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Hepatitis C, Chronic |
+| Alkuperäinen käyttöaihe | Ei kirjattu paikallisiin tietoihin |
 | Ennustettu uusi käyttöaihe | Hepatitis B virus infection |
-| TxGNN-ennustepisteet | 99,84 % |
+| TxGNN-ennustepisteet | 0.9984 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |

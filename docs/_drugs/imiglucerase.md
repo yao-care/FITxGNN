@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 224
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "IMIGLUCERASE"
 predicted_indications: ["Hurler syndrome", "Scheie syndrome", "benign neoplasm of adrenal gland", "autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease"]
 description: "Imiglucerase: ennustettu uusi käyttöaihe Hurler syndrome (näytön taso L5). Alkuperäinen käyttöaihe: Gaucher Disease"
@@ -47,7 +47,7 @@ TxGNN-malli ennustaa sen voivan tehota **Hurlerin oireyhtymään** (MPS I), mutt
 |------|------|
 | Alkuperäinen käyttöaihe | Gaucher Disease |
 | Ennustettu uusi käyttöaihe | Hurler syndrome |
-| TxGNN-ennustepisteet | 99,52 % |
+| TxGNN-ennustepisteet | 0.9952 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |
@@ -65,10 +65,10 @@ Mekanistisesti ennuste on heikko: entsyymi ja substraatti ovat eri, joten imiglu
 
 | Sija | Sairaus | Pisteet | Näytön taso | Arvio |
 |---|---|---|---|---|
-| 2 | Scheien oireyhtymä | 99,29 % | L5 | MPS I:n lievä muoto; sama puute kuin Hurlerin oireyhtymässä, ei suoraa näyttöä |
-| 3 | Lisämunuaisen hyvänlaatuinen kasvain | 99,28 % | L5 | Uskottavaa mekanistista yhteyttä ei tunnistettu |
-| 4 | Autosomaalinen ikytoosioireyhtymä, kuolemaan johtava kulku | 99,24 % | L5 | Heikko, spekulatiivinen yhteys ihon seramidiaineenvaihdunnan kautta; suonensisäinen hoito tuskin tavoittaa orvaskettä |
-| 5 | Kolesterolinestereiden kertymätauti | 99,12 % | L5 | Aiheuttaja on lysosomaalisen happaman lipaasin puute; erityishoito on sebelipaasi alfa |
+| 2 | Scheien oireyhtymä | 0.9929 | L5 | MPS I:n lievä muoto; sama puute kuin Hurlerin oireyhtymässä, ei suoraa näyttöä |
+| 3 | Lisämunuaisen hyvänlaatuinen kasvain | 0.9928 | L5 | Uskottavaa mekanistista yhteyttä ei tunnistettu |
+| 4 | Autosomaalinen ikytoosioireyhtymä, kuolemaan johtava kulku | 0.9924 | L5 | Heikko, spekulatiivinen yhteys ihon seramidiaineenvaihdunnan kautta; suonensisäinen hoito tuskin tavoittaa orvaskettä |
+| 5 | Kolesterolinestereiden kertymätauti | 0.9912 | L5 | Aiheuttaja on lysosomaalisen happaman lipaasin puute; erityishoito on sebelipaasi alfa |
 
 Kaikkien suositus on toistaiseksi Hold.
 

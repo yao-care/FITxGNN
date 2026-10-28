@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 314
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "OLANZAPINE"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 description: "Olanzapine: ennustettu uusi käyttöaihe Benign paroxysmal torticollis of infancy (näytön taso L5). Alkuperäinen käyttöaihe: Schizophrenia"
@@ -50,7 +50,7 @@ Raportissa arvioidaan kolme ennustettua käyttöaihetta; agorafobia ja dystymia 
 |------|------|
 | Alkuperäinen käyttöaihe | Schizophrenia;Bipolar Disorder |
 | Ennustettu uusi käyttöaihe | Benign paroxysmal torticollis of infancy |
-| TxGNN-ennustepisteet | Vinokaula 99,54 %; agorafobia 99,47 %; dystymia 99,28 % |
+| TxGNN-ennustepisteet | Vinokaula 0.9954; agorafobia 0.9947; dystymia 99,28 % |
 | Näytön taso | Vinokaula L5; agorafobia L3; dystymia L3 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 9/9) |
 | Myyntilupien määrä | 9 (voimassa: 9) |

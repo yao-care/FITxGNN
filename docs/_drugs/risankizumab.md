@@ -5,10 +5,10 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 380
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-13
-description: "Risankizumab: ennustettu uusi käyttöaihe Dermatiitti (ihottuma) (näytön taso L2). Alkuperäinen käyttöaihe: Psoriaasi, psoriaattinen niveltulehdus, haavainen paksusuolitulehdus…"
+last_modified_at: 2026-10-28
 monitor_inn: "RISANKIZUMAB"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acrodermatitis chronica atrophicans", "acne keloid", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
+description: "Risankizumab: ennustettu uusi käyttöaihe Dermatiitti (dermatitis) (näytön taso L2). Alkuperäinen käyttöaihe: Psoriasis"
 ---
 
 # Risankizumab
@@ -33,7 +33,7 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Risankitsumabi: Psoriaasista ja tulehduksellisista suolistosairauksista ihottumaan (dermatiitti)
+## Risankizumab: Dermatiitti (dermatitis)
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -48,9 +48,9 @@ Tätä tukee **2 kliinistä tutkimusta** (joista yksi valmistunut vaiheen 2 satu
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Psoriaasi, psoriaattinen niveltulehdus, haavainen paksusuolitulehdus, Crohnin tauti |
-| Ennustettu uusi käyttöaihe | Dermatiitti (ihottuma) |
-| TxGNN-ennustepistemäärä | 99,98 % |
+| Alkuperäinen käyttöaihe | Psoriasis;Arthritis, Psoriatic;Colitis, Ulcerative;Crohn Disease |
+| Ennustettu uusi käyttöaihe | Dermatiitti (dermatitis) |
+| TxGNN-ennustepistemäärä | 0.9998 |
 | Näytön taso | L2 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |

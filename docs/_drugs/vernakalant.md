@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 467
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-13
-description: "Vernakalant: ennustettu uusi käyttöaihe Aivohalvaussairaus (stroke disorder) (näytön taso L4). Alkuperäinen käyttöaihe: Eteisvärinä"
+last_modified_at: 2026-10-28
 monitor_inn: "Vernakalant"
 predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "sarcoglycanopathy", "Wildervanck syndrome", "ABri amyloidosis"]
+description: "Vernakalant: ennustettu uusi käyttöaihe Aivohalvaussairaus (stroke disorder) (näytön taso L5). Alkuperäinen käyttöaihe: Atrial Fibrillation"
 ---
 
 # Vernakalant
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-## Vernakalantti: Eteisvärinän hoidosta aivohalvaussairauteen
+## Vernakalant: Aivohalvaussairaus (stroke disorder)
 {: .text-alpha }
 
 ## Yhden virkkeen tiivistelmä
@@ -47,9 +47,9 @@ TxGNN-malli ennustaa sen voivan olla tehokas **aivohalvaussairauteen (stroke dis
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Eteisvärinä |
+| Alkuperäinen käyttöaihe | Atrial Fibrillation |
 | Ennustettu uusi käyttöaihe | Aivohalvaussairaus (stroke disorder) |
-| TxGNN-ennustepisteet | 99,83 % |
+| TxGNN-ennustepisteet | 0.9983 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |

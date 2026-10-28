@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 99
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-13
-description: "Carfilzomib: ennustettu uusi käyttöaihe Melanooma (ennusteen sijoitus 5 (näytön taso L5). Alkuperäinen käyttöaihe: Multippeli myelooma"
+last_modified_at: 2026-10-28
 monitor_inn: "CARFILZOMIB"
 predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "vulvar melanoma (disease)", "melanoma"]
+description: "Carfilzomib: ennustettu uusi käyttöaihe CMM7 (näytön taso L5). Alkuperäinen käyttöaihe: Multiple Myeloma"
 ---
 
 # Carfilzomib
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-## Karfiltsomibi: Multippelin myelooman hoidosta melanoomaan
+## Carfilzomib: CMM7
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -47,9 +47,9 @@ TxGNN-malli ennustaa sen voivan tehota **melanoomaan** (ennustepisteet 0,9903), 
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Multippeli myelooma |
-| Ennustettu uusi käyttöaihe | Melanooma (ennusteen sijoitus 5; korkeimman pistemäärän ennuste on CMM7, 99,37 %) |
-| TxGNN-ennustepisteet | 99,03 % (melanooma) |
+| Alkuperäinen käyttöaihe | Multiple Myeloma |
+| Ennustettu uusi käyttöaihe | CMM7 |
+| TxGNN-ennustepisteet | 0.9903 (melanooma) |
 | Näytön taso | L5 (melanooma); muut ennusteet L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |

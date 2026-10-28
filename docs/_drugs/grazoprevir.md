@@ -5,10 +5,10 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 212
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-13
-description: "Grazoprevir: ennustettu uusi käyttöaihe HIV-infektio (käytännössä HIV/HCV-yhteisinfektion hoito) (näytön taso L1). Alkuperäinen käyttöaihe: Krooninen C-hepatiitti"
+last_modified_at: 2026-10-28
 monitor_inn: "GRAZOPREVIR"
 predicted_indications: ["HIV infectious disease", "hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Grazoprevir: ennustettu uusi käyttöaihe HIV-infektio (HIV infectious disease) (näytön taso L1). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin"
 ---
 
 # Grazoprevir
@@ -33,7 +33,7 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Grazopreviiri: Krooninen C-hepatiitti → HIV-infektio (HIV/HCV-yhteisinfektion hoito)
+## Grazoprevir: HIV-infektio (HIV infectious disease)
 {: .text-alpha }
 
 ## Yhteenveto
@@ -46,9 +46,9 @@ Grazopreviiri on HCV:n NS3/4A-proteaasin estäjä, jota käytetään kroonisen C
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Krooninen C-hepatiitti |
-| Ennustettu uusi käyttöaihe | HIV-infektio (käytännössä HIV/HCV-yhteisinfektion hoito) |
-| TxGNN-ennustepisteet | 99,73 % |
+| Alkuperäinen käyttöaihe | Ei kirjattu paikallisiin tietoihin |
+| Ennustettu uusi käyttöaihe | HIV-infektio (HIV infectious disease) |
+| TxGNN-ennustepisteet | 0.9973 |
 | Näytön taso | L1 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |

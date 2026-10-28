@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 447
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-13
-description: "Toremifene: ennustettu uusi käyttöaihe HIV-infektio (näytön taso L5). Alkuperäinen käyttöaihe: Rintasyöpä (Breast Neoplasms)"
+last_modified_at: 2026-10-28
 monitor_inn: "TOREMIFENE"
 predicted_indications: ["HIV infectious disease"]
+description: "Toremifene: ennustettu uusi käyttöaihe HIV-infektio (HIV infectious disease) (näytön taso L5). Alkuperäinen käyttöaihe: Breast Neoplasms"
 ---
 
 # Toremifene
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-## Toremifeeni: Rintasyövästä HIV-infektioon
+## Toremifene: HIV-infektio (HIV infectious disease)
 {: .text-alpha }
 
 ## Yhteenveto
@@ -47,9 +47,9 @@ TxGNN-malli ennustaa sen voivan tehota **HIV-infektioon**, mutta ennuste perustu
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Rintasyöpä (Breast Neoplasms) |
-| Ennustettu uusi käyttöaihe | HIV-infektio |
-| TxGNN-ennustepistemäärä | 99,41 % |
+| Alkuperäinen käyttöaihe | Breast Neoplasms |
+| Ennustettu uusi käyttöaihe | HIV-infektio (HIV infectious disease) |
+| TxGNN-ennustepistemäärä | 0.9941 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |

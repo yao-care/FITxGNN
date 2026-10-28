@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 326
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-13
-description: "Palivizumab: ennustettu uusi käyttöaihe Hyvänlaatuinen kielen kasvain (benign neoplasm of tongue) (näytön taso L5). Alkuperäinen käyttöaihe: Hengitysteiden synsytiaaliviruksen (RSV) infektiot"
+last_modified_at: 2026-10-28
 monitor_inn: "PALIVIZUMAB"
 predicted_indications: ["benign neoplasm of tongue", "epiglottis neoplasm", "cervical neuroblastoma", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "tumor of testis and paratestis", "cystic neoplasm", "schwannoma of jugular foramen", "mesenchymoma", "thyroglossal duct cyst"]
+description: "Palivizumab: ennustettu uusi käyttöaihe Hyvänlaatuinen kielen kasvain (benign neoplasm of tongue) (näytön taso L5). Alkuperäinen käyttöaihe: Respiratory Syncytial Virus Infections"
 ---
 
 # Palivizumab
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Palivitsumabi: Hyvänlaatuinen kielen kasvain
+## Palivizumab: Hyvänlaatuinen kielen kasvain (benign neoplasm of tongue)
 {: .text-alpha }
 
 ## Yhteenveto
@@ -48,7 +48,7 @@ Ennuste on siten puhtaasti laskennallinen.
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Hengitysteiden synsytiaaliviruksen (RSV) infektiot |
+| Alkuperäinen käyttöaihe | Respiratory Syncytial Virus Infections |
 | Ennustettu uusi käyttöaihe | Hyvänlaatuinen kielen kasvain (benign neoplasm of tongue) |
 | TxGNN-ennustepisteet | 0,9994 |
 | Näytön taso | L5 |
@@ -68,16 +68,16 @@ Sama pätee muihin yhdeksään korkeimmalle sijoittuneeseen ennusteeseen (kaikki
 
 | Sija | Ennustettu käyttöaihe | TxGNN-pisteet |
 |---|---|---|
-| 1 | Hyvänlaatuinen kielen kasvain | 99,94 % |
-| 2 | Kurkunkannen kasvain | 99,94 % |
-| 3 | Kaulan neuroblastooma | 99,94 % |
-| 4 | Hyvänlaatuinen alasnielun kasvain | 99,94 % |
-| 5 | Hyvänlaatuinen suunpohjan kasvain | 99,94 % |
-| 6 | Kiveksen ja kivesapuelimien kasvain | 99,94 % |
-| 7 | Kystinen kasvain | 99,94 % |
-| 8 | Kaulalaskimoaukon (jugulaarinen foramen) schwannooma | 99,94 % |
-| 9 | Mesenkymooma | 99,94 % |
-| 10 | Kilpirauhasen kielikanavan kysta | 99,94 % |
+| 1 | Hyvänlaatuinen kielen kasvain | 0.9994 |
+| 2 | Kurkunkannen kasvain | 0.9994 |
+| 3 | Kaulan neuroblastooma | 0.9994 |
+| 4 | Hyvänlaatuinen alasnielun kasvain | 0.9994 |
+| 5 | Hyvänlaatuinen suunpohjan kasvain | 0.9994 |
+| 6 | Kiveksen ja kivesapuelimien kasvain | 0.9994 |
+| 7 | Kystinen kasvain | 0.9994 |
+| 8 | Kaulalaskimoaukon (jugulaarinen foramen) schwannooma | 0.9994 |
+| 9 | Mesenkymooma | 0.9994 |
+| 10 | Kilpirauhasen kielikanavan kysta | 0.9994 |
 
 Yhdellekään näistä ei ole tunnistettu mekanistista yhteyttä.
 

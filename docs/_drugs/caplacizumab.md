@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 98
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-13
-description: "Caplacizumab: ennustettu uusi käyttöaihe Verihiutaleiden primaarinen vapautumishäiriö (näytön taso L5). Alkuperäinen käyttöaihe: Trombootinen trombosytopeeninen purppura (TTP)"
+last_modified_at: 2026-10-28
 monitor_inn: "CAPLACIZUMAB"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "fetal and neonatal alloimmune thrombocytopenia", "hemophilia", "platelet-type bleeding disorder"]
+description: "Caplacizumab: ennustettu uusi käyttöaihe Verihiutaleiden primaarinen vapautumishäiriö (primary release disorder of platelets) (näytön taso L5). Alkuperäinen käyttöaihe: Purpura, Thrombotic Thrombocyt…"
 ---
 
 # Caplacizumab
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 
 </div>
 
-## Kaplasitsumabi: Verihiutaleiden primaarinen vapautumishäiriö
+## Caplacizumab: Verihiutaleiden primaarinen vapautumishäiriö (primary release disorder of platelets)
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -48,8 +48,8 @@ Vahva näyttö koskee vain alkuperäistä TTP-käyttöaihetta (7 kliinistä tutk
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Trombootinen trombosytopeeninen purppura (TTP) |
-| Ennustettu uusi käyttöaihe | Verihiutaleiden primaarinen vapautumishäiriö |
+| Alkuperäinen käyttöaihe | Purpura, Thrombotic Thrombocytopenic |
+| Ennustettu uusi käyttöaihe | Verihiutaleiden primaarinen vapautumishäiriö (primary release disorder of platelets) |
 | TxGNN-ennustepisteet | 1,0000 |
 | Näytön taso | L5 (uusi käyttöaihe); alkuperäisen TTP-käyttöaiheen näyttö L1 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
@@ -65,7 +65,7 @@ Yksityiskohtaista vaikutusmekanismitietoa ei ole tämän raportin aineistossa sa
 Ennustettu indikaatio, verihiutaleiden vapautumishäiriö, on verihiutaleiden sisäinen eritysvika, joka ei ole vWF-välitteinen. vWF–verihiutaleet-sidoksen estäminen voisi pahentaa vuotoa. Korkea TxGNN-pistemäärä perustuu todennäköisesti vain tietoverkon läheisyyteen TTP:hen (trombosytopenia), eikä sille ole mekanistista tai kliinistä tukea.
 
 Muut korkeimmin pisteytetyt ennusteet noudattavat samaa kaavaa:
-- **Pseudo-von Willebrandin tauti** (99,99 %): ainoa, jolla on teoreettinen mekanistinen peruste (GPIbα:n toimintaa lisäävät mutaatiot), mutta ei kliinistä tai prekliinistä näyttöä, ja vuotoriski on huolestuttava.
+- **Pseudo-von Willebrandin tauti** (1.0000): ainoa, jolla on teoreettinen mekanistinen peruste (GPIbα:n toimintaa lisäävät mutaatiot), mutta ei kliinistä tai prekliinistä näyttöä, ja vuotoriski on huolestuttava.
 - **Glanzmannin trombasteenia, Scottin oireyhtymä, kollageenireseptoridefekti, perinnöllinen trombosytopenia, hemofilia, verihiutaletyyppinen vuotohäiriö:** kaplasitsumabi heikentäisi primaarista hemostaasia ja lisäisi vuotoriskiä, eikä se korjaa taustalla olevaa vikaa.
 - **Sikiön ja vastasyntyneen alloimmuunitrombosytopenia:** lääke ei kohdista immuunimekanismiin, ja vuotoriski (aivoverenvuoto) on merkittävä.
 

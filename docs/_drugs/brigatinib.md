@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 82
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-13
-description: "Brigatinib: ennustettu uusi käyttöaihe Ikenen fibromatoosi (fibromatosis, gingival) (näytön taso L5). Alkuperäinen käyttöaihe: Ei-pienisoluinen keuhkosyöpä (NSCLC)"
+last_modified_at: 2026-10-28
 monitor_inn: "BRIGATINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "pulmonary sulcus neoplasm", "lung germ cell tumor", "junctional epidermolysis bullosa", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
+description: "Brigatinib: ennustettu uusi käyttöaihe Ikenen fibromatoosi (fibromatosis, gingival) (näytön taso L5). Alkuperäinen käyttöaihe: Carcinoma, Non-Small-Cell Lung"
 ---
 
 # Brigatinib
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 
 </div>
 
-## Brigatinibi: Ei-pienisoluisesta keuhkosyövästä ikenen fibromatoosiin (ennuste)
+## Brigatinib: Ikenen fibromatoosi (fibromatosis, gingival)
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -48,9 +48,9 @@ Ennuste perustuu pelkästään tietämysgraafiin, ja näyttö on tasoa **L5**.
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Ei-pienisoluinen keuhkosyöpä (NSCLC) |
+| Alkuperäinen käyttöaihe | Carcinoma, Non-Small-Cell Lung |
 | Ennustettu uusi käyttöaihe | Ikenen fibromatoosi (fibromatosis, gingival) |
-| TxGNN-ennustepisteet | 99,89 % |
+| TxGNN-ennustepisteet | 0.9989 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |

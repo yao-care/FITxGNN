@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 477
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "ZANUBRUTINIB"
 predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "Ewing sarcoma", "neuroblastoma"]
 description: "Zanubrutinib: ennustettu uusi käyttöaihe Myeloid leukemia (näytön taso L5). Alkuperäinen käyttöaihe: Waldenstrom Macroglobulinemia"
@@ -49,7 +49,7 @@ TxGNN-malli ennustaa sen voivan tehota **myeloidiseen leukemiaan**, mutta ennust
 |------|------|
 | Alkuperäinen käyttöaihe | Waldenstrom Macroglobulinemia |
 | Ennustettu uusi käyttöaihe | Myeloid leukemia |
-| TxGNN-ennustepisteet | 99,65 % |
+| TxGNN-ennustepisteet | 0.9965 |
 | Näytön taso | L5 (suora näyttö puuttuu; epäsuora, lymfaattisia syöpiä koskeva näyttö) |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |

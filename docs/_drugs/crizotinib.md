@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 120
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-13
-description: "Crizotinib: ennustettu uusi käyttöaihe Ientten fibromatoosi (fibromatosis, gingival) (näytön taso L5). Alkuperäinen käyttöaihe: Ei-pienisoluinen keuhkosyöpä"
+last_modified_at: 2026-10-28
 monitor_inn: "CRIZOTINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "pulmonary sulcus neoplasm", "lung germ cell tumor", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "junctional epidermolysis bullosa", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
+description: "Crizotinib: ennustettu uusi käyttöaihe Ientten fibromatoosi (fibromatosis, gingival) (näytön taso L5). Alkuperäinen käyttöaihe: Carcinoma, Non-Small-Cell Lung"
 ---
 
 # Crizotinib
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 
 </div>
 
-## Crizotinib: Ei-pienisoluisesta keuhkosyövästä ennustettuun ientten fibromatoosiin
+## Crizotinib: Ientten fibromatoosi (fibromatosis, gingival)
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -48,9 +48,9 @@ Tämän raportin tiedoissa vahvimmat ennusteet liittyvät muihin kohteisiin (esi
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Ei-pienisoluinen keuhkosyöpä |
+| Alkuperäinen käyttöaihe | Carcinoma, Non-Small-Cell Lung |
 | Ennustettu uusi käyttöaihe | Ientten fibromatoosi (fibromatosis, gingival) |
-| TxGNN-ennustepistemäärä | 99,81 % |
+| TxGNN-ennustepistemäärä | 0.9981 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |

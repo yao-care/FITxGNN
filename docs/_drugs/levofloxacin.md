@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 263
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "LEVOFLOXACIN"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder"]
 description: "Levofloxacin: ennustettu uusi käyttöaihe Punctate epithelial keratoconjunctivitis (näytön taso L5). Alkuperäinen käyttöaihe: Cystic Fibrosis"
@@ -51,7 +51,7 @@ Huomio: ennusteluettelon ensimmäinen kohde, pistemäisen epiteliaalisen keratok
 | Alkuperäinen indikaatio | Cystic Fibrosis;Respiratory Tract Infections |
 | Ennustettu uusi indikaatio (ensimmäinen) | Punctate epithelial keratoconjunctivitis |
 | TxGNN-ennustepistemäärä (ensimmäinen) | 0.9992 |
-| Lupaavin jatkotarkasteltava ennuste | Monoklonaalinen gammopatia (99,81 %) |
+| Lupaavin jatkotarkasteltava ennuste | Monoklonaalinen gammopatia (0.9981) |
 | Näytön taso | L5 (ensimmäinen ennuste); L4 (monoklonaalinen gammopatia, septinen paiseruttto) |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |

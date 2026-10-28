@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 237
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "IPILIMUMAB"
 predicted_indications: ["choroideremia"]
 description: "Ipilimumab: ennustettu uusi käyttöaihe Choroideremia (näytön taso L5). Alkuperäinen käyttöaihe: Melanoma"
@@ -46,7 +46,7 @@ Ipilimumabi on CTLA-4:ää estävä vasta-aine, jota on käytetty melanooman ja 
 |------|------|
 | Alkuperäinen käyttöaihe | Melanoma;Carcinoma, Renal Cell;Carcinoma, Non-Small-Cell Lung;Mesothelioma, Malignant;Colorectal Neoplasms |
 | Ennustettu uusi käyttöaihe | Choroideremia |
-| TxGNN-ennustepisteet | 99,06 % |
+| TxGNN-ennustepisteet | 0.9906 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |

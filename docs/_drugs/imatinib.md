@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 223
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-13
-description: "Imatinib: ennustettu uusi käyttöaihe Sydämen fibrosarkooma (heart fibrosarcoma) (näytön taso L4). Alkuperäinen käyttöaihe: Prekursorisolu-lymfoblastileukemia/lymfooma…"
+last_modified_at: 2026-10-28
 monitor_inn: "IMATINIB"
 predicted_indications: ["heart fibrosarcoma", "fibroblastic neoplasm", "conventional fibrosarcoma", "kidney fibrosarcoma", "low grade fibromyxoid sarcoma", "liposarcoma", "liver fibrosarcoma", "autosomal recessive familial Mediterranean fever", "ovarian myxoid liposarcoma", "familial rhabdoid tumor"]
+description: "Imatinib: ennustettu uusi käyttöaihe Sydämen fibrosarkooma (heart fibrosarcoma) (näytön taso L5). Alkuperäinen käyttöaihe: Precursor Cell Lymphoblastic Leukemia-Lymphoma"
 ---
 
 # Imatinib
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Imatinibi: Kroonisesta myelooisesta leukemiasta sydämen fibrosarkoomaan
+## Imatinib: Sydämen fibrosarkooma (heart fibrosarcoma)
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -46,9 +46,9 @@ Vahvempaa tukea saavat muut ennustetut kohteet, kuten liposarkooma (3 vaiheen 1/
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Prekursorisolu-lymfoblastileukemia/lymfooma, dermatofibrosarcoma protuberans, myelodysplastiset/myeloproliferatiiviset sairaudet, krooninen myelooinen leukemia (BCR-ABL-positiivinen), hypereosinofiilinen oireyhtymä (Glivec-valmisteella lisäksi GIST) |
+| Alkuperäinen käyttöaihe | Precursor Cell Lymphoblastic Leukemia-Lymphoma;Dermatofibrosarcoma;Myelodysplastic-Myeloproliferative Diseases;Leukemia, Myelogenous, Chronic, BCR-ABL Positive;Hypereosinophilic Syndrome; Leukemia, Myelogenous, Chronic, BCR-ABL Positive;Precursor Cell Lymphoblastic Leukemia-Lymphoma;Myelodysplastic- |
 | Ennustettu uusi käyttöaihe | Sydämen fibrosarkooma (heart fibrosarcoma) |
-| TxGNN-ennustepistemäärä | 99,94 % |
+| TxGNN-ennustepistemäärä | 0.9994 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 3/3) |
 | Myyntilupien määrä | 3 (voimassa: 3) |

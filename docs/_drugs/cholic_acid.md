@@ -5,10 +5,10 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 112
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-13
-description: "Cholic Acid: ennustettu uusi käyttöaihe HIV-infektio (näytön taso L4). Alkuperäinen käyttöaihe: Ruoansulatuselinten sairaudet"
+last_modified_at: 2026-10-28
 monitor_inn: "CHOLIC ACID"
 predicted_indications: ["HIV infectious disease", "obsolete familial combined hyperlipidemia", "homozygous familial hypercholesterolemia", "biotin metabolic disease", "vitamin deficiency disorder", "hereditary hemochromatosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hemosiderosis", "disorder of phenylalanine metabolism", "bone Paget disease"]
+description: "Cholic Acid: ennustettu uusi käyttöaihe HIV-infektio (HIV infectious disease) (näytön taso L4). Alkuperäinen käyttöaihe: Digestive System Diseases"
 ---
 
 # Cholic Acid
@@ -33,7 +33,7 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Kolihappo: Ruoansulatuselinten sairauksista ja synnynnäisistä aineenvaihduntahäiriöistä HIV-infektioon
+## Cholic Acid: HIV-infektio (HIV infectious disease)
 {: .text-alpha }
 
 ## Yhteenveto
@@ -47,9 +47,9 @@ TxGNN-malli ennustaa sen voivan tehota **HIV-infektioon**, mutta ennusteen tuken
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Ruoansulatuselinten sairaudet; synnynnäiset aineenvaihduntahäiriöt |
-| Ennustettu uusi käyttöaihe | HIV-infektio |
-| TxGNN-ennustepistemäärä | 99,79 % |
+| Alkuperäinen käyttöaihe | Digestive System Diseases;Metabolism, Inborn Errors |
+| Ennustettu uusi käyttöaihe | HIV-infektio (HIV infectious disease) |
+| TxGNN-ennustepistemäärä | 0.9979 |
 | Näytön taso | L4 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien lukumäärä | 1 (voimassa: 1) |

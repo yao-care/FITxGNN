@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 419
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "TASONERMIN"
 predicted_indications: ["prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant", "renal pelvis papillary urothelial carcinoma", "HER2 positive breast carcinoma", "uterine ligament adenocarcinoma", "endocervical carcinoma", "uterine ligament serous adenocarcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament clear cell adenocarcinoma"]
 description: "Tasonermin: ennustettu uusi käyttöaihe Prostatic urethra urothelial carcinoma (näytön taso L5). Alkuperäinen käyttöaihe: Sarcoma"
@@ -48,7 +48,7 @@ Tasonermiini on yhdistelmä-DNA-tekniikalla valmistettu TNF-alfa, jota on käyte
 |------|------|
 | Alkuperäinen käyttöaihe | Sarcoma |
 | Ennustettu uusi käyttöaihe | Prostatic urethra urothelial carcinoma |
-| TxGNN-ennustepisteet | 99,81 % |
+| TxGNN-ennustepisteet | 0.9981 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |
@@ -66,15 +66,15 @@ Muut kymmenen parhaan ennusteen joukossa olevat käyttöaiheet:
 
 | Sija | Ennustettu käyttöaihe | Pisteet |
 |------|------|------|
-| 2 | Munuaisaltaan sarkomatoidi siirtymäsolusyöpä | 99,80 % |
-| 3 | Virtsarakon infiltroiva urotelikarsinooma, sarkomatoidivariantti | 99,79 % |
-| 4 | Munuaisaltaan papillaarinen urotelikarsinooma | 99,79 % |
-| 5 | HER2-positiivinen rintasyöpä | 99,70 % |
-| 6 | Kohdun ligamentin adenokarsinooma | 99,62 % |
-| 7 | Kohdunkaulan kanavan karsinooma | 99,61 % |
-| 8 | Kohdun ligamentin seroosi adenokarsinooma | 99,61 % |
-| 9 | Kohdunkaulan adenoidikystinen karsinooma | 99,60 % |
-| 10 | Kohdun ligamentin kirkassoluinen adenokarsinooma | 99,59 % |
+| 2 | Munuaisaltaan sarkomatoidi siirtymäsolusyöpä | 0.9980 |
+| 3 | Virtsarakon infiltroiva urotelikarsinooma, sarkomatoidivariantti | 0.9979 |
+| 4 | Munuaisaltaan papillaarinen urotelikarsinooma | 0.9979 |
+| 5 | HER2-positiivinen rintasyöpä | 0.9970 |
+| 6 | Kohdun ligamentin adenokarsinooma | 0.9962 |
+| 7 | Kohdunkaulan kanavan karsinooma | 0.9961 |
+| 8 | Kohdun ligamentin seroosi adenokarsinooma | 0.9961 |
+| 9 | Kohdunkaulan adenoidikystinen karsinooma | 0.9960 |
+| 10 | Kohdun ligamentin kirkassoluinen adenokarsinooma | 0.9959 |
 
 Kaikkien näiden näyttötaso on L5 ja suositus Hold.
 

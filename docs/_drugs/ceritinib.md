@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 105
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-13
-description: "Ceritinib: ennustettu uusi käyttöaihe Ikenen fibromatoosi (fibromatosis, gingival) (näytön taso L5). Alkuperäinen käyttöaihe: Ei-pienisoluinen keuhkosyöpä"
+last_modified_at: 2026-10-28
 monitor_inn: "CERITINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "lung germ cell tumor", "pulmonary sulcus neoplasm", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome", "junctional epidermolysis bullosa"]
+description: "Ceritinib: ennustettu uusi käyttöaihe Ikenen fibromatoosi (fibromatosis, gingival) (näytön taso L5). Alkuperäinen käyttöaihe: Carcinoma, Non-Small-Cell Lung"
 ---
 
 # Ceritinib
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 
 </div>
 
-## Seritinibi: Ei-pienisoluisesta keuhkosyövästä ikenen fibromatoosiin (gingival fibromatosis)
+## Ceritinib: Ikenen fibromatoosi (fibromatosis, gingival)
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -47,9 +47,9 @@ TxGNN-malli ennustaa sen mahdolliseksi lääkkeeksi **ikenen fibromatoosiin**, m
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Ei-pienisoluinen keuhkosyöpä |
+| Alkuperäinen käyttöaihe | Carcinoma, Non-Small-Cell Lung |
 | Ennustettu uusi käyttöaihe | Ikenen fibromatoosi (fibromatosis, gingival) |
-| TxGNN-ennustepistemäärä | 99,86 % |
+| TxGNN-ennustepistemäärä | 0.9986 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |

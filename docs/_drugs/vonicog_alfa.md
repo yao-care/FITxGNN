@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "VONICOG ALFA"
 predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "hemophilia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency"]
-last_modified_at: 2026-10-23
-description: "Vonicog Alfa: ennustettu uusi käyttöaihe Primaarinen verihiutaleiden vapautumishäiriö (näytön taso L5). Alkuperäinen käyttöaihe: von Willebrandin tauti"
+last_modified_at: 2026-10-28
+description: "Vonicog Alfa: ennustettu uusi käyttöaihe Primaarinen verihiutaleiden vapautumishäiriö (primary release disorder of platelets) (näytön taso L5). Alkuperäinen käyttöaihe: von Willebrand Diseases"
 ---
 
 # Vonicog Alfa
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **8** kpl
 
 </div>
 
-## Vonicog alfa: Primaarinen verihiutaleiden vapautumishäiriö
+## Vonicog Alfa: Primaarinen verihiutaleiden vapautumishäiriö (primary release disorder of platelets)
 {: .text-alpha }
 
 ## Yhteenveto
@@ -45,8 +45,8 @@ TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **primaarisen verihiutal
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | von Willebrandin tauti |
-| Ennustettu uusi käyttöaihe | Primaarinen verihiutaleiden vapautumishäiriö |
+| Alkuperäinen käyttöaihe | von Willebrand Diseases |
+| Ennustettu uusi käyttöaihe | Primaarinen verihiutaleiden vapautumishäiriö (primary release disorder of platelets) |
 | TxGNN-ennustepisteet | 0,9998 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
@@ -65,13 +65,13 @@ Seuraavista ei löytynyt kliinisiä tutkimuksia. Taulukko kuvaa tässä aineisto
 
 | Sija | Sairaus | TxGNN-pisteet | Näytön taso | Mekanistinen arvio |
 |---|---|---|---|---|
-| 2 | Glanzmannin trombasteenia | 99,98 % | L5 | Vika verihiutaleiden integriini αIIbβ3:ssa (fibrinogeenireseptori); VWF vaikuttaa tätä vaihetta aiemmin, joten lisä-VWF ei oletettavasti palauta aggregaatiota |
-| 3 | Hemofilia | 99,95 % | L5 | VWF kantaa tekijä VIII:aa, joten biologinen yhteys on uskottava, mutta hemofiliassa puuttuvan tekijän korvaus on vakiohoito; haetut julkaisut koskevat von Willebrandin tautia, eivät hemofiliaa |
-| 4 | Scottin oireyhtymä | 99,95 % | L5 | Fosfatidyyliseriinin esiintuonnin häiriö (TMEM16F/ANO6), joka on riippumaton VWF:stä |
-| 5 | Hankinnainen hyytymistekijän puutos | 99,94 % | L5 | Heterogeeninen ryhmä; yhteys vain, jos VWF- tai tekijä VIII -pitoisuudet ovat mukana |
-| 6 | Kollageenireseptorivirheestä johtuva vuototaipumus | 99,92 % | L5 | Verihiutaleen reseptori puuttuu, joten lisä-VWF tuskin korvaa sitä |
-| 7 | Synnynnäisen trombosytopenian aiheuttama vuotohäiriö | 99,92 % | L5 | Vuoto johtuu verihiutaleviasta; esim. Bernard–Soulierin oireyhtymässä VWF:n reseptori on viallinen |
-| 8 | "Flood factor deficiency" | 99,90 % | L5 | Epäselvä tai epästandardi nimi; mekanismia ei voi määrittää, ja merkintä tulisi tarkistaa ontologiasta |
+| 2 | Glanzmannin trombasteenia | 0.9998 | L5 | Vika verihiutaleiden integriini αIIbβ3:ssa (fibrinogeenireseptori); VWF vaikuttaa tätä vaihetta aiemmin, joten lisä-VWF ei oletettavasti palauta aggregaatiota |
+| 3 | Hemofilia | 0.9995 | L5 | VWF kantaa tekijä VIII:aa, joten biologinen yhteys on uskottava, mutta hemofiliassa puuttuvan tekijän korvaus on vakiohoito; haetut julkaisut koskevat von Willebrandin tautia, eivät hemofiliaa |
+| 4 | Scottin oireyhtymä | 0.9995 | L5 | Fosfatidyyliseriinin esiintuonnin häiriö (TMEM16F/ANO6), joka on riippumaton VWF:stä |
+| 5 | Hankinnainen hyytymistekijän puutos | 0.9994 | L5 | Heterogeeninen ryhmä; yhteys vain, jos VWF- tai tekijä VIII -pitoisuudet ovat mukana |
+| 6 | Kollageenireseptorivirheestä johtuva vuototaipumus | 0.9992 | L5 | Verihiutaleen reseptori puuttuu, joten lisä-VWF tuskin korvaa sitä |
+| 7 | Synnynnäisen trombosytopenian aiheuttama vuotohäiriö | 0.9992 | L5 | Vuoto johtuu verihiutaleviasta; esim. Bernard–Soulierin oireyhtymässä VWF:n reseptori on viallinen |
+| 8 | "Flood factor deficiency" | 0.9990 | L5 | Epäselvä tai epästandardi nimi; mekanismia ei voi määrittää, ja merkintä tulisi tarkistaa ontologiasta |
 
 Hemofiliasta on haettu neljä julkaisua, mutta ne koskevat rVWF:n käyttöä von Willebrandin taudissa (ehkäisyhoito, farmakokinetiikka, laboratoriomääritykset ja leikkauksenaikaiset näkökohdat). Ne eivät tutki vonicog alfaa hemofiliassa, joten ne eivät kelpaa suoraksi näytöksi. Siksi hemofilian näytön taso on tässä raportissa L5.
 

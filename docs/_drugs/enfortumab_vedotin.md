@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 164
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-13
-description: "Enfortumab Vedotin: ennustettu uusi käyttöaihe Lepra (näytön taso L5). Alkuperäinen käyttöaihe: Siirtymäsolusyöpä (urotelikarsinooma)"
+last_modified_at: 2026-10-28
 monitor_inn: "ENFORTUMAB VEDOTIN"
 predicted_indications: ["leprosy", "multiple endocrine neoplasia", "cytomegalovirus infection", "candidiasis", "cerebral infarction", "HIV infectious disease", "homozygous familial hypercholesterolemia", "infectious bovine rhinotracheitis", "malignant catarrh"]
+description: "Enfortumab Vedotin: ennustettu uusi käyttöaihe Lepra (leprosy) (näytön taso L5). Alkuperäinen käyttöaihe: Carcinoma, Transitional Cell"
 ---
 
 # Enfortumab Vedotin
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 
 </div>
 
-## Enfortumabivedotiini: Urotelisyövästä ennustettuun uuteen käyttöaiheeseen (lepra)
+## Enfortumab Vedotin: Lepra (leprosy)
 {: .text-alpha }
 
 ## Yhteenveto
@@ -47,8 +47,8 @@ TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **lepran**, mutta ennust
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Siirtymäsolusyöpä (urotelikarsinooma); virtsatiesyövät |
-| Ennustettu uusi käyttöaihe | Lepra |
+| Alkuperäinen käyttöaihe | Carcinoma, Transitional Cell;Urologic Neoplasms |
+| Ennustettu uusi käyttöaihe | Lepra (leprosy) |
 | TxGNN-ennustepisteet | 0.9953 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
@@ -65,10 +65,10 @@ Mikään käytettävissä oleva tieto ei yhdistä Nectin-4-kohdennusta tai mikro
 
 Muut mallin tuottamat ennusteet ovat samalla tavalla heikosti perusteltuja:
 
-- **Multippeli endokriininen neoplasia** (99,43 %): spekulatiivinen, ei tutkimuksia eikä kirjallisuutta. Syöpäindikaationa ennakkoon uskottavampi kuin infektiot, mutta näyttöä ei ole.
-- **Sytomegalovirusinfektio** (99,36 %, L4): ainoa julkaisu on tapausselostus vaikeasta haavaisesta ruokatorvitulehduksesta enfortumabivedotiini–pembrolitsumabi-hoidon jälkeen. Se on haittatapahtumailmoitus, joka viittaa pikemminkin riskiin kuin hyötyyn.
-- **Kandidiaasi** (99,30 %, L4): ainoa julkaisu on FAERS-lääketurvatutkimus vasta-aine-lääkekonjugaattien riskisignaaleista virtsarakkosyövässä. Se puhuu käyttöä vastaan.
-- **Aivoinfarkti** (99,23 %), **HIV-infektio** (99,19 %), **homotsygoottinen familiaalinen hyperkolesterolemia** (99,18 %): ei uskottavaa mekanistista yhteyttä, ei tutkimuksia.
+- **Multippeli endokriininen neoplasia** (0.9943): spekulatiivinen, ei tutkimuksia eikä kirjallisuutta. Syöpäindikaationa ennakkoon uskottavampi kuin infektiot, mutta näyttöä ei ole.
+- **Sytomegalovirusinfektio** (0.9936, L4): ainoa julkaisu on tapausselostus vaikeasta haavaisesta ruokatorvitulehduksesta enfortumabivedotiini–pembrolitsumabi-hoidon jälkeen. Se on haittatapahtumailmoitus, joka viittaa pikemminkin riskiin kuin hyötyyn.
+- **Kandidiaasi** (0.9930, L4): ainoa julkaisu on FAERS-lääketurvatutkimus vasta-aine-lääkekonjugaattien riskisignaaleista virtsarakkosyövässä. Se puhuu käyttöä vastaan.
+- **Aivoinfarkti** (0.9923), **HIV-infektio** (0.9919), **homotsygoottinen familiaalinen hyperkolesterolemia** (0.9918): ei uskottavaa mekanistista yhteyttä, ei tutkimuksia.
 - **Nautojen tarttuva nuha (IBR)** ja **malignikatarri** (0.9913): eläintauteja, jotka eivät liity ihmisen lääkehoitoon; todennäköisesti mallin oppimia samankaltaisuuksia, ei biologista näyttöä.
 
 ---

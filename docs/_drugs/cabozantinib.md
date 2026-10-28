@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 94
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-13
-description: "Cabozantinib: ennustettu uusi käyttöaihe Liposarkooma (näytön taso L5). Alkuperäinen käyttöaihe: Munuaissolusyöpä, maksasolusyöpä"
+last_modified_at: 2026-10-28
 monitor_inn: "CABOZANTINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "angiolipoma"]
+description: "Cabozantinib: ennustettu uusi käyttöaihe Liposarkooma (liposarcoma) (näytön taso L5). Alkuperäinen käyttöaihe: Carcinoma, Renal Cell"
 ---
 
 # Cabozantinib
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-## Kabotsantinibi: Liposarkooma
+## Cabozantinib: Liposarkooma (liposarcoma)
 {: .text-alpha }
 
 ## Yhteenveto
@@ -44,8 +44,8 @@ Kabotsantinibi on monikinaasi-inhibiittori, jota on käytetty munuaissolusyövä
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Munuaissolusyöpä, maksasolusyöpä |
-| Ennustettu uusi käyttöaihe | Liposarkooma |
+| Alkuperäinen käyttöaihe | Carcinoma, Renal Cell;Carcinomas, Hepatocellular; Thyroid Neoplasms |
+| Ennustettu uusi käyttöaihe | Liposarkooma (liposarcoma) |
 | TxGNN-ennustepisteet | 0,9983 |
 | Näytön taso | L5 (liposarkooma); L1 (munuaissyöpä, joka on jo alkuperäinen käyttöaihe) |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
@@ -133,16 +133,12 @@ Varoitusten ja vasta-aiheiden osalta katso valmisteyhteenveto.
 
 | Ennuste | Pisteet | Näytön taso | Päätös |
 |------|------|------|------|
-| Liposarkooma | 99,83 % | L5 | Hold / tutkimuskysymys |
-| Munasarjan myksoidi liposarkooma | 99,80 % | L5 | Hold |
-| Xp11.2/TFE3-translokaatioon liittyvä munuaissyöpä | 99,75 % | L2 | Proceed with Guardrails |
-| Neuroblastoomaan liittyvä munuaissyöpä | 99,75 % | L5 | Hold |
-| Luokittelematon munuaissolusyöpä | 99,75 % | L2 | Proceed with Guardrails |
-| Lasten munuaissolusyöpä | 99,68 % | L2 | Proceed with Guardrails |
-| Munuaiskarsinooma | 99,66 % | L5 | Proceed with Guardrails (jo alkuperäinen käyttöaihe) |
-| Amyotrofinen lateraaliskleroosi | 99,66 % | L5 | Hold |
-| Parasagittaalinen parieto-okkipitaalinen polymikrogyria | 99,63 % | L5 | Hold |
-| Angiolipooma | 99,62 % | L5 | Hold |
+| Liposarkooma | 0.9983 | L5 | Hold / tutkimuskysymys |
+| Munasarjan myksoidi liposarkooma | 0.9980 | L5 | Hold |
+| Munuaiskarsinooma | 0.9966 | L5 | Proceed with Guardrails (jo alkuperäinen käyttöaihe) |
+| Amyotrofinen lateraaliskleroosi | 0.9966 | L5 | Hold |
+| Parasagittaalinen parieto-okkipitaalinen polymikrogyria | 0.9963 | L5 | Hold |
+| Angiolipooma | 0.9963 | L5 | Hold |
 
 Munuaiskarsinooman L1-näyttö perustuu vaiheen 3 tutkimuksiin (METEOR, CheckMate 9ER, CONTACT-03, COSMIC-313), mutta kyseessä on vakiintunut käyttö eikä aito uudelleenkäyttö. ALS:n, polymikrogyrian ja angiolipooman ennusteet vaikuttavat graafin tuottamilta artefakteilta.
 

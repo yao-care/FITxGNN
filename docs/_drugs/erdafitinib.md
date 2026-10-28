@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 172
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-13
-description: "Erdafitinib: ennustettu uusi käyttöaihe Keuhkoverenpainetauti (pulmonary hypertension) (näytön taso L5). Alkuperäinen käyttöaihe: Urologiset kasvaimet"
+last_modified_at: 2026-10-28
 monitor_inn: "ERDAFITINIB"
 predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease", "amenorrhea (disease)", "rheumatoid arthritis", "amyotrophic lateral sclerosis", "brachydactyly-syndactyly syndrome"]
+description: "Erdafitinib: ennustettu uusi käyttöaihe Keuhkoverenpainetauti (pulmonary hypertension) (näytön taso L5). Alkuperäinen käyttöaihe: Urologic Neoplasms"
 ---
 
 # Erdafitinib
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-## Erdafitinibi: Urologisista kasvaimista keuhkoverenpainetautiin
+## Erdafitinib: Keuhkoverenpainetauti (pulmonary hypertension)
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -46,9 +46,9 @@ Erdafitinibi on FGFR-tyrosiinikinaasin estäjä, jota on käytetty urologisten k
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Urologiset kasvaimet |
+| Alkuperäinen käyttöaihe | Urologic Neoplasms |
 | Ennustettu uusi käyttöaihe | Keuhkoverenpainetauti (pulmonary hypertension) |
-| TxGNN-ennustepisteet | 99,38 % |
+| TxGNN-ennustepisteet | 0.9938 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |
@@ -70,11 +70,11 @@ Muut ennusteet ovat samoin vain mallipohjaisia (taso L5, suositus Hold):
 
 | Ennustettu käyttöaihe | TxGNN-pisteet | Huomio |
 |------|------|------|
-| Kyphoscoliotic heart disease | 99,27 % | Selvää mekanistista yhteyttä FGFR:n estoon ei ole |
-| Amenorrea | 99,26 % | Suoraa mekanistista perustetta ei löydetty; FGFR:n esto voi pahentaa lisääntymisterveyden häiriöitä |
-| Nivelreuma | 99,25 % | Uskottava mutta validoimaton peruste; yksi epäsuora katsausartikkeli |
-| Amyotrofinen lateraaliskleroosi | 99,06 % | Vaikutuksen suunta epäselvä, esto voi olla haitallinen |
-| Brakydaktylia-syndaktylia-oireyhtymä | 99,03 % | Synnynnäinen kehityshäiriö, estäjä tuskin korjaa muodostuneita epämuodostumia |
+| Kyphoscoliotic heart disease | 0.9927 | Selvää mekanistista yhteyttä FGFR:n estoon ei ole |
+| Amenorrea | 0.9926 | Suoraa mekanistista perustetta ei löydetty; FGFR:n esto voi pahentaa lisääntymisterveyden häiriöitä |
+| Nivelreuma | 0.9925 | Uskottava mutta validoimaton peruste; yksi epäsuora katsausartikkeli |
+| Amyotrofinen lateraaliskleroosi | 0.9906 | Vaikutuksen suunta epäselvä, esto voi olla haitallinen |
+| Brakydaktylia-syndaktylia-oireyhtymä | 0.9903 | Synnynnäinen kehityshäiriö, estäjä tuskin korjaa muodostuneita epämuodostumia |
 
 ---
 

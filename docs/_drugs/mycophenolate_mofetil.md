@@ -5,10 +5,10 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 296
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-13
-description: "Mycophenolate Mofetil: ennustettu uusi käyttöaihe HIV-infektio (näytön taso L5). Alkuperäinen käyttöaihe: Elinsiirteen hylkiminen (Graft Rejection)"
+last_modified_at: 2026-10-28
 monitor_inn: "MYCOPHENOLATE MOFETIL"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "bone Paget disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "multiple sclerosis", "hemosiderosis", "Heiner syndrome", "African iron overload", "neonatal hemochromatosis"]
+description: "Mycophenolate Mofetil: ennustettu uusi käyttöaihe HIV-infektio (HIV infectious disease) (näytön taso L2). Alkuperäinen käyttöaihe: Graft Rejection"
 ---
 
 # Mycophenolate Mofetil
@@ -33,7 +33,7 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Mykofenolaattimofetiili: Elinsiirteen hylkimisen estosta HIV-infektioon
+## Mycophenolate Mofetil: HIV-infektio (HIV infectious disease)
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -46,9 +46,9 @@ Mykofenolaattimofetiili on immunosuppressiivinen lääke, jota on alun perin kä
 
 | Kohde | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Elinsiirteen hylkiminen (Graft Rejection) |
-| Ennustettu uusi käyttöaihe | HIV-infektio |
-| TxGNN-ennustepisteet | 99,86 % |
+| Alkuperäinen käyttöaihe | Graft Rejection |
+| Ennustettu uusi käyttöaihe | HIV-infektio (HIV infectious disease) |
+| TxGNN-ennustepisteet | 0.9986 |
 | Näytön taso | L2 (huomio: tämä taso on annettu aineistossa; HIV-tutkimuksista yksikään ei ole vahvistava vaiheen 3 RCT) |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 4/4) |
 | Myyntilupien määrä | 4 (voimassa: 4) |

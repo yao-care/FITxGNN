@@ -5,10 +5,10 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 355
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "PRAVASTATIN"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "hypoalphalipoproteinemia", "cholesterol-ester transfer protein deficiency"]
-description: "Pravastatin: ennustettu uusi käyttöaihe HIV infectious disease (näytön taso L4). Alkuperäinen käyttöaihe: Dyslipidemias"
+description: "Pravastatin: ennustettu uusi käyttöaihe HIV infectious disease (näytön taso L4). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin"
 ---
 
 # Pravastatin
@@ -46,7 +46,7 @@ Pravastatiini on HMG-CoA-reduktaasin estäjä (statiini), jota on alun perin kä
 
 | Kohde | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Dyslipidemias |
+| Alkuperäinen käyttöaihe | Ei kirjattu paikallisiin tietoihin |
 | Ennustettu uusi käyttöaihe | HIV infectious disease |
 | TxGNN-ennustepisteet | 99,95 % |
 | Näytön taso | L4 |
@@ -62,7 +62,7 @@ Pravastatiini estää HMG-CoA-reduktaasia ja lisää maksan LDL-reseptorien mä�
 
 Homotsygoottisessa familiaalisessa hyperkolesterolemiassa LDL-reseptorin toiminta puuttuu tai on vakavasti heikentynyt, joten statiinien teho on rajallinen. Ennuste on siten lähinnä alkuperäisen dyslipidemia-käyttöaiheen laajennus, ei aito uudelleenkäyttö. Kirjallisuudessa todetaan myös, että statiinit eivät ole kovin tehokkaita tässä tautimuodossa.
 
-Samasta aineistosta nousi esiin myös läheisempi ehdokas: **heterotsygoottinen familiaalinen hyperkolesterolemia** (ennustepisteet 99,34 %, näytön taso L3, suositus "Proceed with Guardrails"). Siitä on suoraa lapsipotilaiden näyttöä pravastatiinille (farmakokinetiikka- ja farmakodynamiikkatutkimus, Cochrane-katsaukset ja 20 vuoden seuranta lapsilla). Se on käyttöaiheena lähempänä alkuperäistä, ja sitä kannattaa tarkastella ensisijaisena jatkosuuntana.
+Siitä on suoraa lapsipotilaiden näyttöä pravastatiinille (farmakokinetiikka- ja farmakodynamiikkatutkimus, Cochrane-katsaukset ja 20 vuoden seuranta lapsilla). Se on käyttöaiheena lähempänä alkuperäistä, ja sitä kannattaa tarkastella ensisijaisena jatkosuuntana.
 
 ---
 

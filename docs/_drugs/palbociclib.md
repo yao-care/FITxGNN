@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 324
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-13
-description: "Palbociclib: ennustettu uusi käyttöaihe Kilpirauhasen liikatoiminta (näytön taso L5). Alkuperäinen käyttöaihe: Rintasyöpä (Breast Neoplasms)"
+last_modified_at: 2026-10-28
 monitor_inn: "PALBOCICLIB"
 predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic disease", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"]
+description: "Palbociclib: ennustettu uusi käyttöaihe Kilpirauhasen liikatoiminta (hyperthyroidism) (näytön taso L5). Alkuperäinen käyttöaihe: Breast Neoplasms"
 ---
 
 # Palbociclib
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-## Palbosiklibi: Kilpirauhasen liikatoiminta
+## Palbociclib: Kilpirauhasen liikatoiminta (hyperthyroidism)
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -46,15 +46,15 @@ Palbosiklibi on CDK4/6-estäjä, jota on alun perin käytetty rintasyövän hoit
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Rintasyöpä (Breast Neoplasms) |
-| Ennustettu uusi käyttöaihe (sijalla 1) | Kilpirauhasen liikatoiminta |
-| TxGNN-ennustepistemäärä | 0,9944 |
+| Alkuperäinen käyttöaihe | Breast Neoplasms |
+| Ennustettu uusi käyttöaihe (sijalla 1) | Kilpirauhasen liikatoiminta (hyperthyroidism) |
+| TxGNN-ennustepistemäärä | 0.9944 |
 | Näyttötaso | L5 (sijalla 1); nivelreuma L4 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
-Muut ennusteet: nivelreuma (99,36 %, L4, tutkimuskysymys), tromboottinen sairaus (99,32 %, L4, Hold) ja kilpirauhashormonin reseptori beetan mutaatiosta johtuva kilpirauhashormoniresistenssi (99,30 %, L5, Hold).
+Muut ennusteet: nivelreuma (0.9936, L4, tutkimuskysymys), tromboottinen sairaus (0.9932, L4, Hold) ja kilpirauhashormonin reseptori beetan mutaatiosta johtuva kilpirauhashormoniresistenssi (0.9930, L5, Hold).
 
 ## Miksi ennuste on perusteltu?
 

@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 440
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "TIVOZANIB"
 predicted_indications: ["endocervical carcinoma", "uterine ligament adenocarcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "cervical adenosquamous carcinoma, glassy cell variant", "uterine ligament endometrioid adenocarcinoma", "uterine ligament mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma", "cervical mucinous adenocarcinoma, minimal deviation variant"]
 description: "Tivozanib: ennustettu uusi käyttöaihe Endocervical carcinoma (näytön taso L5). Alkuperäinen käyttöaihe: Carcinoma, Renal Cell"
@@ -46,7 +46,7 @@ Tivozanibi on VEGF-reseptorin tyrosiinikinaasin estäjä, jota on alun perin kä
 |------|------|
 | Alkuperäinen käyttöaihe | Carcinoma, Renal Cell |
 | Ennustettu uusi käyttöaihe | Endocervical carcinoma |
-| TxGNN-ennustepisteet | 99,81 % |
+| TxGNN-ennustepisteet | 0.9981 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |

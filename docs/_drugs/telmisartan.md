@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 423
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "TELMISARTAN"
 predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyloidosis", "cerebral artery occlusion", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "intracerebral hemorrhage", "Braddock syndrome"]
 description: "Telmisartan: ennustettu uusi käyttöaihe Prinzmetal angina (näytön taso L5). Alkuperäinen käyttöaihe: Hypertension"
@@ -48,9 +48,9 @@ Parhaiten tuettu uusi suunta on **aivoverenvuodon (ICH) uusiutumisen ehkäisy**,
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Hypertension; Essential Hypertension |
+| Alkuperäinen käyttöaihe | Hypertension |
 | Ennustettu uusi käyttöaihe (sijalla 1) | Prinzmetal angina |
-| TxGNN-ennustepisteet | 99,98 % |
+| TxGNN-ennustepisteet | 0.9998 |
 | Näytön taso | L5 (sijalla 1 oleva ennuste); vahvin vaihtoehtoinen käyttöaihe: aivoverenvuoto, L2 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 12/12) |
 | Myyntilupien määrä | 12 (voimassa: 12) |

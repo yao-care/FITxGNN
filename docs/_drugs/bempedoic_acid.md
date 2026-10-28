@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 73
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-13
-description: "Bempedoic Acid: ennustettu uusi käyttöaihe Kilpirauhasen liikatoiminta (hyperthyroidism) (näytön taso L5). Alkuperäinen käyttöaihe: Hyperkolesterolemia"
+last_modified_at: 2026-10-28
 monitor_inn: "BEMPEDOIC ACID"
 predicted_indications: ["hyperthyroidism", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "malignant catarrh", "infectious bovine rhinotracheitis", "cytomegalovirus infection", "hyperthyroxinemia", "drug-induced osteoporosis", "multiple endocrine neoplasia", "pregnancy associated osteoporosis"]
+description: "Bempedoic Acid: ennustettu uusi käyttöaihe Kilpirauhasen liikatoiminta (hyperthyroidism) (näytön taso L5). Alkuperäinen käyttöaihe: Hypercholesterolemia"
 ---
 
 # Bempedoic Acid
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 
 </div>
 
-## Bempedoiinihappo: Hyperkolesterolemiasta kilpirauhasen liikatoimintaan
+## Bempedoic Acid: Kilpirauhasen liikatoiminta (hyperthyroidism)
 {: .text-alpha }
 
 ## Yhteenveto
@@ -44,9 +44,9 @@ Bempedoiinihappo on kolesterolia alentava lääke, jota on käytetty hyperkolest
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Hyperkolesterolemia; dyslipidemiat |
+| Alkuperäinen käyttöaihe | Hypercholesterolemia;Dyslipidemias |
 | Ennustettu uusi käyttöaihe | Kilpirauhasen liikatoiminta (hyperthyroidism) |
-| TxGNN-ennustepisteet | 99,61 % |
+| TxGNN-ennustepisteet | 0.9961 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
 | Myyntilupien määrä | 2 (voimassa: 2) |
@@ -58,7 +58,7 @@ Bempedoiinihappo on ATP-sitraattilyaasin estäjä. Se on maksassa ACSVL1-entsyym
 
 Tunnettua mekanistista yhteyttä lääkkeen vaikutuksen ja kilpirauhashormonin liikaeritykseen ei ole. Korkea pistemäärä perustuu graafipohjaiseen ennusteeseen, eikä sille löydy uskottavaa biologista selitystä. Alkuperäinen käyttöaihe (rasva-aineenvaihdunnan häiriöt) ja kilpirauhasen liikatoiminta ovat myös kliinisesti kaukana toisistaan. Ennustetta tulee siksi pitää hypoteesina, ei tulosta.
 
-Tämän lääkkeen ennusteista vain homotsygoottinen familiaalinen hyperkolesterolemia (sijalla 6) on selvästi lähellä alkuperäistä käyttöaihetta. Siitä on kirjallisuutta, mukaan lukien tosielämän arvio (PMID 41274797), mutta se on laajennus nykyisen käyttöaiheen sisällä eikä varsinaista uudelleenkäyttöä. Hyperthyroidismille vastaavaa näyttöä ei ole.
+Siitä on kirjallisuutta, mukaan lukien tosielämän arvio (PMID 41274797), mutta se on laajennus nykyisen käyttöaiheen sisällä eikä varsinaista uudelleenkäyttöä. Hyperthyroidismille vastaavaa näyttöä ei ole.
 
 ## Kliininen tutkimusnäyttö
 

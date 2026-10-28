@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 417
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-13
-description: "Talimogene Laherparepvec: ennustettu uusi käyttöaihe CMM7 (näytön taso L5). Alkuperäinen käyttöaihe: Melanooma"
+last_modified_at: 2026-10-28
 monitor_inn: "TALIMOGENE LAHERPAREPVEC"
 predicted_indications: ["CMM7", "glottis squamous cell carcinoma", "lung occult squamous cell carcinoma", "rectal cloacogenic carcinoma", "gallbladder adenosquamous carcinoma"]
+description: "Talimogene Laherparepvec: ennustettu uusi käyttöaihe CMM7 (näytön taso L5). Alkuperäinen käyttöaihe: Melanoma"
 ---
 
 # Talimogene Laherparepvec
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-## Talimogeenilaherparepvek: melanoomasta ennustettuun uuteen käyttöaiheeseen (CMM7)
+## Talimogene Laherparepvec: CMM7
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -46,9 +46,9 @@ Talimogeenilaherparepvek (T-VEC) on onkolyyttinen herpes simplex -virus tyypin 1
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Melanooma |
+| Alkuperäinen käyttöaihe | Melanoma |
 | Ennustettu uusi käyttöaihe | CMM7 |
-| TxGNN-ennustepistemäärä | 99,20 % |
+| TxGNN-ennustepistemäärä | 0.9920 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien lukumäärä | 1 (voimassa: 1) |

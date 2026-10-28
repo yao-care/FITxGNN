@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 289
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "METRELEPTIN"
 predicted_indications: ["familial generalized lentiginosis", "gastrocutaneous syndrome", "Moynahan syndrome", "rhabdoid tumor", "osteopathia striata-pigmentary dermopathy-white forelock syndrome", "congenital multiple café-au-lait macules-increased sister chromatid exchange syndrome", "acromelanosis", "leukonychia totalis-acanthosis-nigricans-like lesions-abnormal hair syndrome", "benign neoplasm of adrenal gland", "peripheral nerve schwannoma"]
 description: "Metreleptin: ennustettu uusi käyttöaihe Familial generalized lentiginosis (näytön taso L5). Alkuperäinen käyttöaihe: Lipodystrophy, Familial Partial"
@@ -49,7 +49,7 @@ TxGNN-malli ennustaa sen voivan tehota **familiaaliseen yleistyneeseen lentigino
 |------|------|
 | Alkuperäinen käyttöaihe | Lipodystrophy, Familial Partial |
 | Ennustettu uusi käyttöaihe | Familial generalized lentiginosis |
-| TxGNN-ennustepisteet | 99,71 % |
+| TxGNN-ennustepisteet | 0.9971 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |

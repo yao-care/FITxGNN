@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 464
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-13
-description: "Varenicline: ennustettu uusi käyttöaihe Migreeni (migraine disorder) (näytön taso L5). Alkuperäinen käyttöaihe: Tupakoinnin lopettaminen"
+last_modified_at: 2026-10-28
 monitor_inn: "VARENICLINE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "congenital hypotrichosis milia", "hypotrichosis simplex of the scalp", "diffuse alopecia areata", "alopecia", "open-angle glaucoma", "primary hereditary glaucoma", "headache disorder", "pulmonary hypertension"]
+description: "Varenicline: ennustettu uusi käyttöaihe Migreeni (migraine disorder) (näytön taso L5). Alkuperäinen käyttöaihe: Tobacco Use Cessation"
 ---
 
 # Varenicline
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Vareniklinii: Tupakoinnin lopettamisesta migreeniin
+## Varenicline: Migreeni (migraine disorder)
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -46,9 +46,9 @@ Vareniklinii on nikotiinireseptorien osittaisagonisti, jota on alun perin käyte
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Tupakoinnin lopettaminen |
+| Alkuperäinen käyttöaihe | Tobacco Use Cessation |
 | Ennustettu uusi käyttöaihe | Migreeni (migraine disorder) |
-| TxGNN-ennustepistemäärä | 99,92 % |
+| TxGNN-ennustepistemäärä | 0.9992 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |

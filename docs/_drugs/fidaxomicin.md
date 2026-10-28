@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 190
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-13
-description: "Fidaxomicin: ennustettu uusi käyttöaihe Stafylokokin aiheuttama kuoriutuva ihosyndrooma (staphylococcal scald… (näytön taso L5). Alkuperäinen käyttöaihe: Clostridium-infektiot"
+last_modified_at: 2026-10-28
 monitor_inn: "FIDAXOMICIN"
 predicted_indications: ["staphylococcal scalded skin syndrome", "bullous impetigo", "inhalational botulism", "impetigo", "toxin-mediated infectious botulism", "vulvovaginal candidiasis", "hordeolum", "staphylococcus aureus pneumonia", "punctate epithelial keratoconjunctivitis"]
+description: "Fidaxomicin: ennustettu uusi käyttöaihe Stafylokokin aiheuttama kuoriutuva ihosyndrooma (staphylococcal scalded skin syndrome) (näytön taso L5). Alkuperäinen käyttöaihe: Clostridium Infections"
 ---
 
 # Fidaxomicin
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 
 </div>
 
-## Fidaksomisiini: Stafylokokin aiheuttama kuoriutuva ihosyndrooma
+## Fidaxomicin: Stafylokokin aiheuttama kuoriutuva ihosyndrooma (staphylococcal scalded skin syndrome)
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -44,7 +44,7 @@ Fidaksomisiini on makrosyklinen, kapeakirjoinen antibiootti, jota on alun perin 
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Clostridium-infektiot |
+| Alkuperäinen käyttöaihe | Clostridium Infections |
 | Ennustettu uusi käyttöaihe | Stafylokokin aiheuttama kuoriutuva ihosyndrooma (staphylococcal scalded skin syndrome) |
 | TxGNN-ennustepisteet | 0,9971 |
 | Näytön taso | L5 |
@@ -64,13 +64,13 @@ Mallin muut ennusteet ovat samansuuntaisia: kaikilla on näytön taso L5 ja suos
 
 | Sija | Käyttöaihe | Pisteet | Keskeinen huomio |
 |------|------|------|------|
-| 2 | Rakkulainen impetigo | 99,70 % | Suun kautta annettu lääke ei saavuta ihokudosta; paikallista valmistetta ei ole; vaihtoehtoja on |
-| 3 | Inhalaatiobotulismi | 99,69 % | Toksiinivälitteinen; hoito on antitoksiini ja tukihoito; heikko mekanistinen peruste |
-| 4 | Impetigo | 99,68 % | Ei ihoon tarkoitettua valmistetta; tehokkaita paikallislääkkeitä on (mm. mupirosiini, retapamuliini) |
-| 5 | Toksiinivälitteinen infektiivinen botulismi | 99,66 % | Teoreettinen peruste suolistoon rajoittuvalle kolonisaatiolle, mutta spekulatiivinen |
-| 6 | Vulvovaginaalinen kandidiaasi | 99,65 % | Sieni-infektio; ei tunnettua sienivaikutusta; todennäköisesti mallin artefakti |
-| 7 | Rapykkä (hordeolum) | 99,64 % | Ei silmä- tai paikallisvalmistetta; imeytyminen mitätöntä |
-| 8 | *Staphylococcus aureus* -keuhkokuume | 99,21 % | Keuhkokudoksen pitoisuudet jäisivät riittämättömiksi; vakiintuneita lääkkeitä on |
+| 2 | Rakkulainen impetigo | 0.9970 | Suun kautta annettu lääke ei saavuta ihokudosta; paikallista valmistetta ei ole; vaihtoehtoja on |
+| 3 | Inhalaatiobotulismi | 0.9969 | Toksiinivälitteinen; hoito on antitoksiini ja tukihoito; heikko mekanistinen peruste |
+| 4 | Impetigo | 0.9968 | Ei ihoon tarkoitettua valmistetta; tehokkaita paikallislääkkeitä on (mm. mupirosiini, retapamuliini) |
+| 5 | Toksiinivälitteinen infektiivinen botulismi | 0.9966 | Teoreettinen peruste suolistoon rajoittuvalle kolonisaatiolle, mutta spekulatiivinen |
+| 6 | Vulvovaginaalinen kandidiaasi | 0.9965 | Sieni-infektio; ei tunnettua sienivaikutusta; todennäköisesti mallin artefakti |
+| 7 | Rapykkä (hordeolum) | 0.9964 | Ei silmä- tai paikallisvalmistetta; imeytyminen mitätöntä |
+| 8 | *Staphylococcus aureus* -keuhkokuume | 0.9921 | Keuhkokudoksen pitoisuudet jäisivät riittämättömiksi; vakiintuneita lääkkeitä on |
 | 9 | Pistemäinen epiteliaalinen keratokonjunktiviitti | 0,9902 | Usein virus- tai tulehdusperäinen; ei selvää kohdetta; todennäköisesti mallin artefakti |
 
 ## Kliininen tutkimusnäyttö

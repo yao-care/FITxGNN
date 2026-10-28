@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 303
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-13
-description: "Nilotinib: ennustettu uusi käyttöaihe Dermatofibrosarcoma protuberans (näytön taso L4). Alkuperäinen käyttöaihe: BCR-ABL-positiivinen krooninen myelooinen leukemia"
+last_modified_at: 2026-10-28
 monitor_inn: "NILOTINIB"
 predicted_indications: ["dermatofibrosarcoma protuberans"]
+description: "Nilotinib: ennustettu uusi käyttöaihe Dermatofibrosarcoma protuberans (näytön taso L5). Alkuperäinen käyttöaihe: Leukemia, Myelogenous, Chronic, BCR-ABL Positive"
 ---
 
 # Nilotinib
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-## Nilotinibi: Kroonisesta myelooisesta leukemiasta dermatofibrosarcoma protuberansiin
+## Nilotinib: Dermatofibrosarcoma protuberans
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -48,9 +48,9 @@ Tukena on tällä hetkellä **0 kliinistä tutkimusta** ja **1 julkaisu** (katsa
 
 | Kohde | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | BCR-ABL-positiivinen krooninen myelooinen leukemia |
+| Alkuperäinen käyttöaihe | Leukemia, Myelogenous, Chronic, BCR-ABL Positive |
 | Ennustettu uusi käyttöaihe | Dermatofibrosarcoma protuberans |
-| TxGNN-ennustepistemäärä | 99,31 % |
+| TxGNN-ennustepistemäärä | 0.9931 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
 | Myyntilupien määrä | 2 (voimassa: 2) |

@@ -5,7 +5,7 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 463
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "VANDETANIB"
 predicted_indications: ["renal cell carcinoma (disease)", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal cell carcinoma associated with neuroblastoma", "unclassified renal cell carcinoma", "renal pelvis carcinoma", "clear cell renal carcinoma", "childhood kidney cell carcinoma", "renal carcinoma", "angiolipoma", "familial spontaneous pneumothorax"]
 description: "Vandetanib: ennustettu uusi käyttöaihe Renal cell carcinoma (disease) (näytön taso L2). Alkuperäinen käyttöaihe: Thyroid Neoplasms"
@@ -46,7 +46,7 @@ Vandetanibi on monikinaasi-inhibiittori, jota on alun perin käytetty kilpirauha
 |------|------|
 | Alkuperäinen käyttöaihe | Thyroid Neoplasms |
 | Ennustettu uusi käyttöaihe | Renal cell carcinoma (disease) |
-| TxGNN-ennustepisteet | 99,92 % |
+| TxGNN-ennustepisteet | 0.9992 |
 | Näytön taso | L2 (varovainen arvio: valmistuneita vaiheen 2 tutkimuksia on, mutta tuloksia ei ole raportoitu, eikä vaiheen 3 RCT-tutkimuksia ole) |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |

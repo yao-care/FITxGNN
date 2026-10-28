@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "LIDOCAINE"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "papillary conjunctivitis", "rosacea conjunctivitis", "exposure keratitis", "atopic conjunctivitis", "conjunctival disorder", "nephrotic syndrome", "non-human animal disease", "tinea corporis", "sporadic idiopathic steroid-resistant nephrotic syndrome"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Lidocaine: ennustettu uusi käyttöaihe Punctate epithelial keratoconjunctivitis (näytön taso L5). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin"
 ---
 
@@ -48,7 +48,7 @@ Lidokaiini on paikallispuudute, jonka Suomessa myyntiluvan saanut valmiste Forta
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |
 | Ennustettu uusi käyttöaihe | Punctate epithelial keratoconjunctivitis |
-| TxGNN-ennustepiste | 99,99 % |
+| TxGNN-ennustepiste | 0.9999 |
 | Näytön taso | L5 |
 | Tilanne Suomessa | Markkinoilla |
 | Lupien määrä | 1 myyntilupa (keskitetty EMA-lupa) |

@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 341
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "PERAMPANEL"
 predicted_indications: ["beta-ketothiolase deficiency"]
 description: "Perampanel: ennustettu uusi käyttöaihe Beta-ketothiolase deficiency (näytön taso L5). Alkuperäinen käyttöaihe: Epilepsies, Partial"
@@ -53,7 +53,7 @@ Perampaneeli on AMPA-reseptorin antagonisti, jota on alun perin käytetty ositta
 | Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Proceed with Guardrails (eteneminen suojatoimin) |
 
-Huomio: tulos on valittu ennusteista, joissa status epilepticuksella on vahvin näyttö. Korkeimmin pisteytetty ennuste (näköärsykkeen laukaisema epilepsia, 99,92 %) perustuu vain epäsuoraan näyttöön eikä sisällä kliinisiä tutkimuksia.
+Huomio: tulos on valittu ennusteista, joissa status epilepticuksella on vahvin näyttö.
 
 ---
 

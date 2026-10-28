@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 479
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-13
-description: "Zidovudine: ennustettu uusi käyttöaihe Kissan hankinnainen immuunipuutosoireyhtymä (feline acquired immunode… (näytön taso L5). Alkuperäinen käyttöaihe: HIV-infektio"
+last_modified_at: 2026-10-28
 monitor_inn: "ZIDOVUDINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
+description: "Zidovudine: ennustettu uusi käyttöaihe Kissan hankinnainen immuunipuutosoireyhtymä (feline acquired immunodeficiency syndrome) (näytön taso L5). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tiet…"
 ---
 
 # Zidovudine
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-## Tsidovudiini: HIV-infektiosta ennustettuun uuteen käyttöaiheeseen (kissan hankinnainen immuunipuutosoireyhtymä)
+## Zidovudine: Kissan hankinnainen immuunipuutosoireyhtymä (feline acquired immunodeficiency syndrome)
 {: .text-alpha }
 
 ## Yhteenveto
@@ -48,9 +48,9 @@ Tämä ennuste ei ole ihmisen lääkkeen uudelleenkäyttöä. Raportin lopussa a
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | HIV-infektio |
+| Alkuperäinen käyttöaihe | Ei kirjattu paikallisiin tietoihin |
 | Ennustettu uusi käyttöaihe | Kissan hankinnainen immuunipuutosoireyhtymä (feline acquired immunodeficiency syndrome) |
-| TxGNN-ennustepistemäärä | 99,96 % |
+| TxGNN-ennustepistemäärä | 0.9996 |
 | Näytön taso | L5 (eläin- ja prekliininen näyttö) |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
 | Myyntilupien määrä | 2 (voimassa: 2) |

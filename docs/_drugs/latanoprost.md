@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 251
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "LATANOPROST"
 predicted_indications: ["visceral calciphylaxis", "hypotrichosis simplex of the scalp", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "congenital hypotrichosis milia", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis"]
 description: "Latanoprost: ennustettu uusi käyttöaihe Visceral calciphylaxis (näytön taso L5). Alkuperäinen käyttöaihe: Glaucoma, Open-Angle"
@@ -48,7 +48,7 @@ Tälle suunnalle ei ole tällä hetkellä **yhtään kliinistä tutkimusta eikä
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Glaucoma, Open-Angle; Glaucoma, Open-Angle;Ocular Hypertension |
+| Alkuperäinen käyttöaihe | Glaucoma, Open-Angle |
 | Ennustettu uusi käyttöaihe | Visceral calciphylaxis |
 | TxGNN-ennustepistemäärä | 0.9983 |
 | Näytön taso | L5 |
@@ -117,7 +117,7 @@ Muilta osin tarkemmat turvallisuustiedot, varoitukset ja vasta-aiheet löytyvät
 **Päätös: Hold**
 
 **Perustelut:**
-- Ennuste on korkea (99,88 %), mutta näyttö on vain L4-tasoa: ei kliinisiä tutkimuksia eikä kirjallisuutta. Lisäksi lasten ja kehityksellisten glaukoomien vaste lääkehoitoon on usein heikko, ja Suomessa kaikki tunnetut myyntiluvat on peruutettu.
+- Lisäksi lasten ja kehityksellisten glaukoomien vaste lääkehoitoon on usein heikko, ja Suomessa kaikki tunnetut myyntiluvat on peruutettu.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimeasta (estää tällä hetkellä turvallisuusseulonnan)

@@ -5,10 +5,10 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 132
 evidence_level: L4
 indication_count: 5
-last_modified_at: 2026-10-13
-description: "Deferasirox: ennustettu uusi käyttöaihe HIV-infektio (näytön taso L4). Alkuperäinen käyttöaihe: Raudan ylikuormitus"
+last_modified_at: 2026-10-28
 monitor_inn: "DEFERASIROX"
 predicted_indications: ["HIV infectious disease", "chronic hepatitis C virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "dermatofibrosarcoma protuberans"]
+description: "Deferasirox: ennustettu uusi käyttöaihe HIV-infektio (HIV infectious disease) (näytön taso L4). Alkuperäinen käyttöaihe: Iron Overload"
 ---
 
 # Deferasirox
@@ -33,7 +33,7 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-## Deferasiroksi: Raudan ylikuormituksesta HIV-infektioon
+## Deferasirox: HIV-infektio (HIV infectious disease)
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -46,9 +46,9 @@ Deferasiroksi on rautaa sitova kelaattori, jota on alun perin käytetty raudan y
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Raudan ylikuormitus; beetatalassemia |
-| Ennustettu uusi käyttöaihe | HIV-infektio |
-| TxGNN-ennustepistemäärä | 99,40 % |
+| Alkuperäinen käyttöaihe | Iron Overload;beta-Thalassemia; beta-Thalassemia;Iron Overload |
+| Ennustettu uusi käyttöaihe | HIV-infektio (HIV infectious disease) |
+| TxGNN-ennustepistemäärä | 0.9940 |
 | Näytön taso | L4 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 3/3) |
 | Myyntilupien määrä | 3 (voimassa: 3) |

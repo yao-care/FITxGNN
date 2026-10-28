@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 72
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-13
-description: "Belimumab: ennustettu uusi käyttöaihe Primaarinen verihiutaleiden vapautumishäiriö (primary release disorde… (näytön taso L5). Alkuperäinen käyttöaihe: Systeeminen lupus erythematosus"
+last_modified_at: 2026-10-28
 monitor_inn: "BELIMUMAB"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "fetal and neonatal alloimmune thrombocytopenia", "severe nonproliferative diabetic retinopathy", "autosomal dominant macrothrombocytopenia"]
+description: "Belimumab: ennustettu uusi käyttöaihe Primaarinen verihiutaleiden vapautumishäiriö (primary release disorder of platelets) (näytön taso L5). Alkuperäinen käyttöaihe: Lupus Erythematosus, Systemic"
 ---
 
 # Belimumab
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-## Belimumabi: Verihiutaleiden primaarinen vapautumishäiriö
+## Belimumab: Primaarinen verihiutaleiden vapautumishäiriö (primary release disorder of platelets)
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -46,7 +46,7 @@ Belimumabi on BLyS (BAFF) -proteiinia neutraloiva monoklonaalinen vasta-aine, jo
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Systeeminen lupus erythematosus |
+| Alkuperäinen käyttöaihe | Lupus Erythematosus, Systemic |
 | Ennustettu uusi käyttöaihe | Primaarinen verihiutaleiden vapautumishäiriö (primary release disorder of platelets) |
 | TxGNN-ennustepisteet | 0,9996 |
 | Näytön taso | L5 |
@@ -68,11 +68,11 @@ Samassa aineistossa ennustettiin myös seuraavat. Kaikilla näytön taso on L5, 
 
 | Sija | Sairaus | TxGNN-pisteet | Arvio |
 |------|------|------|------|
-| 2 | Pseudo-von Willebrandin tauti | 99,96 % | Geneettinen GP1BA-reseptoripoikkeama, ei immuunivälitteinen; BLyS:n eston perustelu puuttuu |
-| 3 | Glanzmannin trombasteenia | 99,88 % | Perinnöllinen integriini αIIbβ3:n puutos; vain spekulatiivinen yhteys verihiutaleensiirron jälkeisiin allovasta-aineisiin |
-| 4 | Sikiön ja vastasyntyneen alloimmuunitrombosytopenia (FNAIT) | 99,59 % | Biologisesti uskottavin: äidin IgG-allovasta-aineet tuhoavat sikiön verihiutaleita. Belimumabi ei ole vakiintunut hoito (vakiohoito IVIG ja anti-FcRn), ja raskauden sekä sikiöaltistuksen turvallisuus vaatisi huolellista arviointia |
-| 5 | Vaikea ei-proliferatiivinen diabeettinen retinopatia | 99,05 % | Mikroverisuonitauti (hyperglykemia, VEGF, tulehdus); BAFF:n rooli ei ole osoitettu |
-| 6 | Autosomaalisesti vallitseva makrotrombosytopenia | 99,04 % | Perinnöllinen verihiutaleiden tuotannon tai tukirangan häiriö (esim. MYH9, TUBB1, ACTN1); ei mekanistista yhteyttä |
+| 2 | Pseudo-von Willebrandin tauti | 0.9996 | Geneettinen GP1BA-reseptoripoikkeama, ei immuunivälitteinen; BLyS:n eston perustelu puuttuu |
+| 3 | Glanzmannin trombasteenia | 0.9988 | Perinnöllinen integriini αIIbβ3:n puutos; vain spekulatiivinen yhteys verihiutaleensiirron jälkeisiin allovasta-aineisiin |
+| 4 | Sikiön ja vastasyntyneen alloimmuunitrombosytopenia (FNAIT) | 0.9959 | Biologisesti uskottavin: äidin IgG-allovasta-aineet tuhoavat sikiön verihiutaleita. Belimumabi ei ole vakiintunut hoito (vakiohoito IVIG ja anti-FcRn), ja raskauden sekä sikiöaltistuksen turvallisuus vaatisi huolellista arviointia |
+| 5 | Vaikea ei-proliferatiivinen diabeettinen retinopatia | 0.9905 | Mikroverisuonitauti (hyperglykemia, VEGF, tulehdus); BAFF:n rooli ei ole osoitettu |
+| 6 | Autosomaalisesti vallitseva makrotrombosytopenia | 0.9904 | Perinnöllinen verihiutaleiden tuotannon tai tukirangan häiriö (esim. MYH9, TUBB1, ACTN1); ei mekanistista yhteyttä |
 
 ---
 

@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 126
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-13
-description: "Daptomycin: ennustettu uusi käyttöaihe Nivelrikko (osteoartriitti) (näytön taso L4). Alkuperäinen käyttöaihe: Gram-positiiviset bakteeri-infektiot, bakteremia…"
+last_modified_at: 2026-10-28
 monitor_inn: "DAPTOMYCIN"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "gout", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome"]
+description: "Daptomycin: ennustettu uusi käyttöaihe Osteoarthritis (näytön taso L5). Alkuperäinen käyttöaihe: Gram-Positive Bacterial Infections"
 ---
 
 # Daptomycin
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 
 </div>
 
-## Daptomysiini: Gram-positiivisten bakteeri-infektioiden hoidosta nivelrikkoon
+## Daptomycin: Osteoarthritis
 {: .text-alpha }
 
 ## Yhteenveto
@@ -47,9 +47,9 @@ TxGNN-malli ennustaa sen voivan olla tehokas **nivelrikon** hoidossa, mutta ennu
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Gram-positiiviset bakteeri-infektiot, bakteremia, pehmytkudosinfektiot, bakteeriperäinen endokardiitti |
-| Ennustettu uusi käyttöaihe | Nivelrikko (osteoartriitti) |
-| TxGNN-ennusteen pistemäärä | 0,9986 |
+| Alkuperäinen käyttöaihe | Gram-Positive Bacterial Infections;Bacteremia;Soft Tissue Infections;Endocarditis, Bacterial; Soft Tissue Infections;Skin Diseases, Bacterial |
+| Ennustettu uusi käyttöaihe | Osteoarthritis |
+| TxGNN-ennusteen pistemäärä | 0.9986 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
 | Myyntilupien määrä | 2 (voimassa: 2) |
@@ -96,10 +96,10 @@ Alla on nivelrikkoon liittyvät keskeisimmät julkaisut. Yksikään ei tutki dap
 
 | Sija | Sairaus | TxGNN-pisteet | Näytön taso | Huomio |
 |------|------|------|------|------|
-| 2 | Nivelreuma | 99,84 % | L5 | Prekliininen näyttö (hiiren kollageeniartriittimalli, NF-κB); ei ihmistutkimuksia; tutkimuskysymys |
-| 3 | Nivelrikkoalttius | 99,79 % | L5 | Geneettinen alttiusentiteetti, ei hoidettava tila; kirjallisuus ei liity aiheeseen |
-| 4 | Kihti | 99,79 % | L5 | Ainoa löydös on haittatapahtuma: daptomysiinin aiheuttama rabdomyolyysi ja siihen liittynyt akuutti kihtinivelrikko; viittaa mahdolliseen haittaan |
-| 5–10 | Pseudoakondroplasia, Hunter-Thompsonin tyypin akromesomeelinen dysplasia, brakyolmia, brakydaktyylia-syndaktyliaoireyhtymä, kolobomatoottinen mikroftalmia-rizomeelinen dysplasia -oireyhtymä, brakyolmia-amelogenesis imperfecta -oireyhtymä | 99,62–99,75 % | L5 | Harvinaisia geneettisiä oireyhtymiä; ei tutkimuksia, kirjallisuutta eikä mekanistista perustetta |
+| 2 | Nivelreuma | 0.9984 | L5 | Prekliininen näyttö (hiiren kollageeniartriittimalli, NF-κB); ei ihmistutkimuksia; tutkimuskysymys |
+| 3 | Nivelrikkoalttius | 0.9979 | L5 | Geneettinen alttiusentiteetti, ei hoidettava tila; kirjallisuus ei liity aiheeseen |
+| 4 | Kihti | 0.9979 | L5 | Ainoa löydös on haittatapahtuma: daptomysiinin aiheuttama rabdomyolyysi ja siihen liittynyt akuutti kihtinivelrikko; viittaa mahdolliseen haittaan |
+| 5–10 | Pseudoakondroplasia, Hunter-Thompsonin tyypin akromesomeelinen dysplasia, brakyolmia, brakydaktyylia-syndaktyliaoireyhtymä, kolobomatoottinen mikroftalmia-rizomeelinen dysplasia -oireyhtymä, brakyolmia-amelogenesis imperfecta -oireyhtymä | 99,62–0.9975 | L5 | Harvinaisia geneettisiä oireyhtymiä; ei tutkimuksia, kirjallisuutta eikä mekanistista perustetta |
 
 ---
 

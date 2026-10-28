@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 295
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "MOROCTOCOG ALFA"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "acquired coagulation factor deficiency", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency"]
 description: "Moroctocog Alfa: ennustettu uusi käyttöaihe Primary release disorder of platelets (näytön taso L5). Alkuperäinen käyttöaihe: Hemophilia A"
@@ -47,7 +47,7 @@ TxGNN-malli ennustaa sen voivan tehota **primaariin verihiutaleiden vapautumish�
 |------|------|
 | Alkuperäinen käyttöaihe | Hemophilia A |
 | Ennustettu uusi käyttöaihe | Primary release disorder of platelets |
-| TxGNN-ennustepisteet | 99,97 % |
+| TxGNN-ennustepisteet | 0.9997 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |
@@ -65,13 +65,13 @@ Mallin muut ennusteet ovat samalla tasolla (kaikki L5, ei tutkimus- tai kirjalli
 
 | Sija | Sairaus | Pisteet | Mekanistinen arvio |
 |------|------|------|------|
-| 2 | Pseudo-von Willebrandin tauti | 99,97 % | Löyhä epäsuora yhteys (VWF kantaa tekijä VIII:aa), mutta perusvika on verihiutaleissa (GPIbα) |
-| 3 | Glanzmannin trombasteenia | 99,96 % | Vika integriini αIIbβ3:ssa; tekijä VIII ei korjaa sitä. Tavanomaisesti hoidetaan verihiutalesiirrolla ja rekombinantilla tekijä VIIa:lla |
-| 4 | Hankinnainen hyytymistekijän puutos | 99,88 % | Biologisesti uskottavin, mutta hankinnaisessa hemofiliassa vasta-aineet neutraloivat tekijä VIII:n, joten korvaushoito on usein tehotonta ja ohitushoidot ovat ensisijaisia |
-| 5 | Scottin oireyhtymä | 99,86 % | Heikko epäsuora yhteys; puuttuvaa kalvopintaa (TMEM16F/ANO6) ei voi korvata tekijä VIII:lla |
-| 6 | Kollageenireseptorivirheestä johtuva verenvuotoalttius | 99,73 % | Vika verihiutaleiden reseptorisignaloinnissa; ennuste heijastaa verkostolähiyttä |
-| 7 | Synnynnäisestä trombosytopeniasta johtuva verenvuotohäiriö | 99,72 % | Syy on verihiutaleiden vähäisyys; tarvitaan verihiutalesiirto tai trombopoieettinen hoito |
-| 8 | "Flood factor deficiency" | 99,11 % | Ei tunnistettu vakiintunut sairausnimike, mahdollinen ontologiavirhe; tunnistus on varmistettava |
+| 2 | Pseudo-von Willebrandin tauti | 0.9997 | Löyhä epäsuora yhteys (VWF kantaa tekijä VIII:aa), mutta perusvika on verihiutaleissa (GPIbα) |
+| 3 | Glanzmannin trombasteenia | 0.9997 | Vika integriini αIIbβ3:ssa; tekijä VIII ei korjaa sitä. Tavanomaisesti hoidetaan verihiutalesiirrolla ja rekombinantilla tekijä VIIa:lla |
+| 4 | Hankinnainen hyytymistekijän puutos | 0.9988 | Biologisesti uskottavin, mutta hankinnaisessa hemofiliassa vasta-aineet neutraloivat tekijä VIII:n, joten korvaushoito on usein tehotonta ja ohitushoidot ovat ensisijaisia |
+| 5 | Scottin oireyhtymä | 0.9986 | Heikko epäsuora yhteys; puuttuvaa kalvopintaa (TMEM16F/ANO6) ei voi korvata tekijä VIII:lla |
+| 6 | Kollageenireseptorivirheestä johtuva verenvuotoalttius | 0.9973 | Vika verihiutaleiden reseptorisignaloinnissa; ennuste heijastaa verkostolähiyttä |
+| 7 | Synnynnäisestä trombosytopeniasta johtuva verenvuotohäiriö | 0.9972 | Syy on verihiutaleiden vähäisyys; tarvitaan verihiutalesiirto tai trombopoieettinen hoito |
+| 8 | "Flood factor deficiency" | 0.9911 | Ei tunnistettu vakiintunut sairausnimike, mahdollinen ontologiavirhe; tunnistus on varmistettava |
 
 ## Kliininen tutkimusnäyttö
 

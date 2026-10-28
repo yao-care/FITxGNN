@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "TEMOZOLOMIDE"
 predicted_indications: ["cauda equina neoplasm"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Temozolomide: ennustettu uusi käyttöaihe Cauda equina neoplasm (näytön taso L5). Alkuperäinen käyttöaihe: Glioma"
 ---
 
@@ -48,7 +48,7 @@ Tätä suuntaa tukee tällä hetkellä **0 kliinistä tutkimusta** ja **3 julkai
 |------|------|
 | Alkuperäinen käyttöaihe | Glioma |
 | Ennustettu uusi käyttöaihe | Cauda equina neoplasm |
-| TxGNN-ennustepisteet | 99,30 % |
+| TxGNN-ennustepisteet | 0.9930 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 5/5) |
 | Myyntilupien määrä | 5 (voimassa: 5) |

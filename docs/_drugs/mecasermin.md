@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 278
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "MECASERMIN"
 predicted_indications: ["monosomy X", "Wolman disease with hypolipoproteinemia and acanthocytosis", "esophageal varices with bleeding", "esophageal varices without bleeding"]
 description: "Mecasermin: ennustettu uusi käyttöaihe Monosomy X (näytön taso L5). Alkuperäinen käyttöaihe: Laron Syndrome"
@@ -48,7 +48,7 @@ Mekaseermiini on yhdistelmä-DNA-tekniikalla valmistettu IGF-1 (insuliinin kalta
 |------|------|
 | Alkuperäinen käyttöaihe | Laron Syndrome |
 | Ennustettu uusi käyttöaihe | Monosomy X |
-| TxGNN-ennustepisteet | 99,59 % |
+| TxGNN-ennustepisteet | 0.9959 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |
@@ -62,7 +62,7 @@ Tästä lääkkeestä ei tällä hetkellä ole saatavilla yksityiskohtaista vaik
 
 Turnerin oireyhtymälle on tyypillistä lyhytkasvuisuus, ja kasvuhormoni on vakiintunut hoito. Mekanistinen peruste on siis uskottava mutta heikko: Turnerin oireyhtymää sairastavilla IGF-1-vaste on yleensä normaali tai koholla, eikä taustalla ole ensisijaisesti IGF-1-puutosta. Korkea TxGNN-pistemäärä (0,9959) on pelkkä laskennallinen ennuste, eikä sitä tue mikään kliininen tai kirjallisuusnäyttö.
 
-Muut ennustetut käyttöaiheet (sijat 2–5) ovat mekanistisesti vielä heikommin perusteltuja. Biologisesti uskottavin ehdokas on **kasvuhormoniresistenssioireyhtymä, johon liittyy immuunisäätelyn häiriö (autosomaalinen dominantti, tyyppi 2)** (sija 3, pisteet 99,06 %). Se muistuttaa mekanismiltaan Laronin oireyhtymää (STAT5B-liitännäinen signalointi), ja mekaseermiini ohittaa vialliset kasvuhormonin signaalit. IGF-1 ei kuitenkaan korjaa immuunisäätelyn häiriötä, eikä tutkimusnäyttöä ole. Sitä kannattaa tarkastella erillisessä kirjallisuuskatsauksessa.
+Muut ennustetut käyttöaiheet (sijat 2–5) ovat mekanistisesti vielä heikommin perusteltuja. Se muistuttaa mekanismiltaan Laronin oireyhtymää (STAT5B-liitännäinen signalointi), ja mekaseermiini ohittaa vialliset kasvuhormonin signaalit. IGF-1 ei kuitenkaan korjaa immuunisäätelyn häiriötä, eikä tutkimusnäyttöä ole. Sitä kannattaa tarkastella erillisessä kirjallisuuskatsauksessa.
 
 ---
 

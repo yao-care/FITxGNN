@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 227
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-13
-description: "Inclisiran: ennustettu uusi käyttöaihe Kaliumin puutostila (potassium deficiency disease) (näytön taso L5). Alkuperäinen käyttöaihe: Hyperkolesterolemia"
+last_modified_at: 2026-10-28
 monitor_inn: "INCLISIRAN"
 predicted_indications: ["potassium deficiency disease", "esophageal disease", "atypical coarctation of aorta", "migraine disorder", "non-syndromic esophageal malformation", "migraine with brainstem aura", "aortic malformation", "esophageal ulcer", "Raynaud disease"]
+description: "Inclisiran: ennustettu uusi käyttöaihe Kaliumin puutostila (potassium deficiency disease) (näytön taso L5). Alkuperäinen käyttöaihe: Hypercholesterolemia"
 ---
 
 # Inclisiran
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 
 </div>
 
-## Inklisirani: Hypokolesterolemian hoidosta ennustettuun uuteen käyttöaiheeseen (kaliumin puutostila)
+## Inclisiran: Kaliumin puutostila (potassium deficiency disease)
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -46,9 +46,9 @@ Inklisirani on PCSK9:ää kohdistava siRNA-lääke, jota käytetään alun perin
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Hyperkolesterolemia; dyslipidemiat |
+| Alkuperäinen käyttöaihe | Hypercholesterolemia;Dyslipidemias |
 | Ennustettu uusi käyttöaihe | Kaliumin puutostila (potassium deficiency disease) |
-| TxGNN-ennustepistemäärä | 99,93 % |
+| TxGNN-ennustepistemäärä | 0.9993 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |

@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 27
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-13
-description: "Alpelisib: ennustettu uusi käyttöaihe Keuhkoverenpainetauti (pulmonary hypertension) (näytön taso L5). Alkuperäinen käyttöaihe: Rintasyöpä"
+last_modified_at: 2026-10-28
 monitor_inn: "ALPELISIB"
 predicted_indications: ["pulmonary hypertension"]
+description: "Alpelisib: ennustettu uusi käyttöaihe Keuhkoverenpainetauti (pulmonary hypertension) (näytön taso L5). Alkuperäinen käyttöaihe: Breast Neoplasms"
 ---
 
 # Alpelisib
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-## Alpelisibi: Rintasyövästä keuhkoverenpainetautiin
+## Alpelisib: Keuhkoverenpainetauti (pulmonary hypertension)
 {: .text-alpha }
 
 ## Yhteenveto
@@ -46,9 +46,9 @@ Alpelisibi on PI3K-alfa-estäjä, jota on alun perin käytetty rintasyövän hoi
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Rintasyöpä |
+| Alkuperäinen käyttöaihe | Breast Neoplasms |
 | Ennustettu uusi käyttöaihe | Keuhkoverenpainetauti (pulmonary hypertension) |
-| TxGNN-ennustepistemäärä | 99,03 % |
+| TxGNN-ennustepistemäärä | 0.9903 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |

@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 350
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "POLATUZUMAB VEDOTIN"
 predicted_indications: ["HER2 positive breast carcinoma"]
 description: "Polatuzumab Vedotin: ennustettu uusi käyttöaihe HER2 positive breast carcinoma (näytön taso L5). Alkuperäinen käyttöaihe: Lymphoma, B-Cell"
@@ -47,7 +47,7 @@ TxGNN-malli ennustaa sen voivan tehota **HER2-positiiviseen rintasyöpään**, m
 |------|------|
 | Alkuperäinen käyttöaihe | Lymphoma, B-Cell |
 | Ennustettu uusi käyttöaihe | HER2 positive breast carcinoma |
-| TxGNN-ennustepisteet | 99,34 % |
+| TxGNN-ennustepisteet | 0.9934 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |

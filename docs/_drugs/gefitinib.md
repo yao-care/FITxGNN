@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 200
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-13
-description: "Gefitinib: ennustettu uusi käyttöaihe Ientenfibromatoosi (fibromatosis, gingival) (näytön taso L5). Alkuperäinen käyttöaihe: Ei-pienisoluinen keuhkosyöpä"
+last_modified_at: 2026-10-28
 monitor_inn: "GEFITINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung", "lung benign neoplasm", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome", "lung germ cell tumor", "pulmonary sulcus neoplasm", "junctional epidermolysis bullosa"]
+description: "Gefitinib: ennustettu uusi käyttöaihe Ientenfibromatoosi (fibromatosis, gingival) (näytön taso L5). Alkuperäinen käyttöaihe: Carcinoma, Non-Small-Cell Lung"
 ---
 
 # Gefitinib
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 
 </div>
 
-## Gefitinibi: Ei-pienisoluisesta keuhkosyövästä ientenfibromatoosiin
+## Gefitinib: Ientenfibromatoosi (fibromatosis, gingival)
 {: .text-alpha }
 
 ## Yhden lauseen tiivistelmä
@@ -48,9 +48,9 @@ Ennuste perustuu siis pelkästään mallin laskemaan pisteytykseen.
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Ei-pienisoluinen keuhkosyöpä |
+| Alkuperäinen käyttöaihe | Carcinoma, Non-Small-Cell Lung |
 | Ennustettu uusi käyttöaihe | Ientenfibromatoosi (fibromatosis, gingival) |
-| TxGNN-ennustepisteet | 99,89 % |
+| TxGNN-ennustepisteet | 0.9989 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |
@@ -84,15 +84,15 @@ Ensisijaisen ennusteen lisäksi aineistossa on yhdeksän muuta ennustetta. Yksik
 
 | Sija | Ennustettu käyttöaihe | Pisteet | Näytön taso | Huomio |
 |------|------|------|------|------|
-| 2 | Keuhkon fibrooma | 99,86 % | L5 | Ei tutkimuksia eikä kirjallisuutta; hyvänlaatuisten kuitukasvainten ei tiedetä olevan EGFR-riippuvaisia |
-| 3 | Inkluusiokappalemyopatia, varhain alkava Paget-tauti ja/tai otsa-ohimolohkodementia | 99,86 % | L5 | Ei tutkimuksia; tauti johtuu VCP-mutaatioista, eikä yhteyttä EGFR-estoon ole osoitettu |
-| 4 | Keuhkon hamartooma | 99,86 % | L5 | Ei tutkimuksia; pisteet heijastavat todennäköisesti läheisyyttä keuhkokasvaindiagnooseihin |
-| 5 | Keuhkoporttisyöpä | 99,86 % | L5 | Vain yksi tapausraportti poikkeuksellisen hyvästä hoitovasteesta; ei erillinen käyttöaihe, vaan keuhkosyövän esiintymismuoto |
-| 6 | Keuhkon hyvänlaatuinen kasvain | 99,85 % | L4 | Kirjallisuus koskee pääosin ei-pienisoluista keuhkosyöpää, ei hyvänlaatuisia kasvaimia |
-| 7 | Leukomelanoderma-infantilismi-kehitysvammaisuus-hypodontia-hypotrikoosi-oireyhtymä | 99,84 % | L5 | Haetut julkaisut eivät koske tätä oireyhtymää |
-| 8 | Keuhkon alkiosolukasvain | 99,84 % | L5 | Ainoa tutkimus (NCT00068497) koskee pään ja kaulan syöpää ja ei-pienisoluista keuhkosyöpää, joten se ei ole relevantti |
-| 9 | Keuhkon yläsulkuksen kasvain | 99,84 % | L5 | Kasvaimet ovat tyypillisesti ei-pienisoluisia keuhkosyöpiä, mutta kaksi löytynyttä julkaisua ei koske gefitinibiä tässä kasvaintyypissä |
-| 10 | Junktionaalinen epidermolysis bullosa | 99,84 % | L5 | Ei tutkimuksia; EGFR-esto aiheuttaa ihotoksisuutta, mikä puhuu hyödyn puolesta heikosti |
+| 2 | Keuhkon fibrooma | 0.9986 | L5 | Ei tutkimuksia eikä kirjallisuutta; hyvänlaatuisten kuitukasvainten ei tiedetä olevan EGFR-riippuvaisia |
+| 3 | Inkluusiokappalemyopatia, varhain alkava Paget-tauti ja/tai otsa-ohimolohkodementia | 0.9986 | L5 | Ei tutkimuksia; tauti johtuu VCP-mutaatioista, eikä yhteyttä EGFR-estoon ole osoitettu |
+| 4 | Keuhkon hamartooma | 0.9986 | L5 | Ei tutkimuksia; pisteet heijastavat todennäköisesti läheisyyttä keuhkokasvaindiagnooseihin |
+| 5 | Keuhkoporttisyöpä | 0.9986 | L5 | Vain yksi tapausraportti poikkeuksellisen hyvästä hoitovasteesta; ei erillinen käyttöaihe, vaan keuhkosyövän esiintymismuoto |
+| 6 | Keuhkon hyvänlaatuinen kasvain | 0.9985 | L4 | Kirjallisuus koskee pääosin ei-pienisoluista keuhkosyöpää, ei hyvänlaatuisia kasvaimia |
+| 7 | Leukomelanoderma-infantilismi-kehitysvammaisuus-hypodontia-hypotrikoosi-oireyhtymä | 0.9984 | L5 | Haetut julkaisut eivät koske tätä oireyhtymää |
+| 8 | Keuhkon alkiosolukasvain | 0.9984 | L5 | Ainoa tutkimus (NCT00068497) koskee pään ja kaulan syöpää ja ei-pienisoluista keuhkosyöpää, joten se ei ole relevantti |
+| 9 | Keuhkon yläsulkuksen kasvain | 0.9984 | L5 | Kasvaimet ovat tyypillisesti ei-pienisoluisia keuhkosyöpiä, mutta kaksi löytynyttä julkaisua ei koske gefitinibiä tässä kasvaintyypissä |
+| 10 | Junktionaalinen epidermolysis bullosa | 0.9984 | L5 | Ei tutkimuksia; EGFR-esto aiheuttaa ihotoksisuutta, mikä puhuu hyödyn puolesta heikosti |
 
 ---
 

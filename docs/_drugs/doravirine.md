@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 145
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-13
-description: "Doravirine: ennustettu uusi käyttöaihe Kissan hankinnainen immuunipuutosoireyhtymä (feline acquired immunode… (näytön taso L5). Alkuperäinen käyttöaihe: HIV-infektiot"
+last_modified_at: 2026-10-28
 monitor_inn: "DORAVIRINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Doravirine: ennustettu uusi käyttöaihe Kissan hankinnainen immuunipuutosoireyhtymä (feline acquired immunodeficiency syndrome) (näytön taso L5). Alkuperäinen käyttöaihe: HIV Infections"
 ---
 
 # Doravirine
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-## Doravirini: Kissan hankinnainen immuunikatooireyhtymä
+## Doravirine: Kissan hankinnainen immuunipuutosoireyhtymä (feline acquired immunodeficiency syndrome)
 {: .text-alpha }
 
 ## Yhteenveto
@@ -46,7 +46,7 @@ Doravirini on HIV-1-infektion hoitoon tarkoitettu ei-nukleosidinen käänteiskop
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | HIV-infektiot |
+| Alkuperäinen käyttöaihe | HIV Infections |
 | Ennustettu uusi käyttöaihe | Kissan hankinnainen immuunipuutosoireyhtymä (feline acquired immunodeficiency syndrome) |
 | TxGNN-ennustepisteet | 0,9993 |
 | Näytön taso | L5 |
@@ -64,7 +64,7 @@ Yhteys on kuitenkin heikko. NNRTI-lääkkeet tehoavat yleensä huonosti FIV:hen,
 
 ### Muut ennustetut käyttöaiheet
 
-- **Apinoiden immuunipuutosvirusinfektio (SIV)**, pisteet 99,93 %: SIV on HIV:n läheinen sukulainen, ja SIV/makaki-malleja käytetään antiretroviraalisessa tutkimuksessa. SIV (erityisesti SIVmac) on kuitenkin luontaisesti resistentti monille NNRTI-lääkkeille, mikä heikentää perustetta. Ainoa liitetty julkaisu koskee islatravirii, ei doravirinia, joten se antaa vain epäsuoraa, lääkeluokan tasoista taustaa.
+- **Apinoiden immuunipuutosvirusinfektio (SIV)**, pisteet 0.9993: SIV on HIV:n läheinen sukulainen, ja SIV/makaki-malleja käytetään antiretroviraalisessa tutkimuksessa. SIV (erityisesti SIVmac) on kuitenkin luontaisesti resistentti monille NNRTI-lääkkeille, mikä heikentää perustetta. Ainoa liitetty julkaisu koskee islatravirii, ei doravirinia, joten se antaa vain epäsuoraa, lääkeluokan tasoista taustaa.
 - **Neurokehityshäiriö, johon liittyy ataksinen kävely, puheen puuttuminen ja aivokuoren valkoisen aineen väheneminen**, pisteet 0,9991: HIV-1-NNRTI-vaikutuksen ja tämän harvinaisen perinnöllisen sairauden välillä ei havaittu uskottavaa mekanistista yhteyttä. Korkea pistemäärä on todennäköisesti tietoverkon artefakti.
 
 ---

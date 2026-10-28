@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 311
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "OCRELIZUMAB"
 predicted_indications: ["HER2 positive breast carcinoma", "normal breast-like subtype of breast carcinoma", "progesterone-receptor positive breast cancer", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer"]
 description: "Ocrelizumab: ennustettu uusi käyttöaihe HER2 positive breast carcinoma (näytön taso L5). Alkuperäinen käyttöaihe: Multiple Sclerosis"
@@ -46,7 +46,7 @@ Okrelitsumabi on CD20-vasta-aine, jota käytetään alun perin multippeliskleroo
 |------|------|
 | Alkuperäinen käyttöaihe | Multiple Sclerosis |
 | Ennustettu uusi käyttöaihe | HER2 positive breast carcinoma |
-| TxGNN-ennustepisteet | 99,89 % |
+| TxGNN-ennustepisteet | 0.9989 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |

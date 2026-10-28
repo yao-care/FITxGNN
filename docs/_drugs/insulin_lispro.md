@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 235
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-13
-description: "Insulin Lispro: ennustettu uusi käyttöaihe Autoimmuuninen munasarjatulehdus (autoimmune oophoritis) (näytön taso L5). Alkuperäinen käyttöaihe: Diabetes mellitus"
+last_modified_at: 2026-10-28
 monitor_inn: "INSULIN LISPRO"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "pancreatic agenesis", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
+description: "Insulin Lispro: ennustettu uusi käyttöaihe Autoimmuuninen munasarjatulehdus (autoimmune oophoritis) (näytön taso L5). Alkuperäinen käyttöaihe: Diabetes Mellitus"
 ---
 
 # Insulin Lispro
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 
 </div>
 
-## Insuliinilispro: Diabeteksesta autoimmuuniseen munasarjatulehdukseen (autoimmune oophoritis)
+## Insulin Lispro: Autoimmuuninen munasarjatulehdus (autoimmune oophoritis)
 {: .text-alpha }
 
 ## Yhteenveto
@@ -47,9 +47,9 @@ TxGNN-malli ennustaa sen voivan tehota **autoimmuuniseen munasarjatulehdukseen**
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Diabetes mellitus |
+| Alkuperäinen käyttöaihe | Diabetes Mellitus |
 | Ennustettu uusi käyttöaihe | Autoimmuuninen munasarjatulehdus (autoimmune oophoritis) |
-| TxGNN-ennustepisteet | 99,78 % |
+| TxGNN-ennustepisteet | 0.9978 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 4/4) |
 | Myyntilupien määrä | 4 (voimassa: 4) |
@@ -69,14 +69,14 @@ Aineistossa oli yhteensä yhdeksän ennustetta, ja kaikkien näyttö on heikko (
 
 | Sija | Sairaus | Pisteet | Näyttö | Tulkinta |
 |------|------|------|------|------|
-| 2 | Tiamiinille vasteinen toimintahäiriö­oireyhtymä | 99,37 % | L5 | Todennäköisesti heijastaa diabeteskomponenttia, ei uutta käyttöä |
-| 3 | Klassinen jäykän ihmisen oireyhtymä | 99,36 % | L5 | Liittyy GAD-vasta-aineisiin ja tyypin 1 diabeteksen samanaikaisuuteen; insuliini hoitaa diabetesta, ei neurologista sairautta |
-| 4 | Fokaalinen jäykän raajan oireyhtymä | 99,36 % | L5 | Sama artefakti kuin edellä |
-| 5 | Opsismodysplasia | 99,34 % | L5 | Polkutason yhteys (INPPL1/SHIP2), vaikutussuunta ja kliininen merkitys tuntemattomia |
-| 6 | Lääkeaiheuttama paikallinen lipodystrofia | 99,09 % | L5 | Insuliini voi aiheuttaa tilan; kyse on turvallisuushuomiosta, ei uudesta käytöstä |
-| 7 | Haiman agenesia | 99,09 % | L4 | Insuliinikorvaus on perusteltu, mutta käytännössä sama kuin alkuperäinen diabetesindikaatio |
-| 8 | Sentrifugaalinen lipodystrofia | 99,04 % | L5 | Perusteltu käyttö puuttuu |
-| 9 | Paineen aiheuttama paikallinen lipoatrofia | 99,03 % | L5 | Pelkkä laskennallinen ennuste |
+| 2 | Tiamiinille vasteinen toimintahäiriö­oireyhtymä | 0.9937 | L5 | Todennäköisesti heijastaa diabeteskomponenttia, ei uutta käyttöä |
+| 3 | Klassinen jäykän ihmisen oireyhtymä | 0.9936 | L5 | Liittyy GAD-vasta-aineisiin ja tyypin 1 diabeteksen samanaikaisuuteen; insuliini hoitaa diabetesta, ei neurologista sairautta |
+| 4 | Fokaalinen jäykän raajan oireyhtymä | 0.9936 | L5 | Sama artefakti kuin edellä |
+| 5 | Opsismodysplasia | 0.9934 | L5 | Polkutason yhteys (INPPL1/SHIP2), vaikutussuunta ja kliininen merkitys tuntemattomia |
+| 6 | Lääkeaiheuttama paikallinen lipodystrofia | 0.9909 | L5 | Insuliini voi aiheuttaa tilan; kyse on turvallisuushuomiosta, ei uudesta käytöstä |
+| 7 | Haiman agenesia | 0.9909 | L4 | Insuliinikorvaus on perusteltu, mutta käytännössä sama kuin alkuperäinen diabetesindikaatio |
+| 8 | Sentrifugaalinen lipodystrofia | 0.9904 | L5 | Perusteltu käyttö puuttuu |
+| 9 | Paineen aiheuttama paikallinen lipoatrofia | 0.9903 | L5 | Pelkkä laskennallinen ennuste |
 
 ---
 

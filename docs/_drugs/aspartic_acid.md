@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 49
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-13
-description: "Aspartic Acid: ennustettu uusi käyttöaihe Munuaistiehyeiden asidoosi (renal tubular acidosis) (näytön taso L5). Alkuperäinen käyttöaihe: Vaahterasiirappitauti (Maple Syrup Urine Disease)"
+last_modified_at: 2026-10-28
 monitor_inn: "aspartic acid"
 predicted_indications: ["renal tubular acidosis"]
+description: "Aspartic Acid: ennustettu uusi käyttöaihe Munuaistiehyeiden asidoosi (renal tubular acidosis) (näytön taso L5). Alkuperäinen käyttöaihe: Maple Syrup Urine Disease"
 ---
 
 # Aspartic Acid
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-## Asparagiinihappo: Vaahterasiirappitaudista munuaistiehyeiden asidoosiin
+## Aspartic Acid: Munuaistiehyeiden asidoosi (renal tubular acidosis)
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -46,9 +46,9 @@ Asparagiinihappo on aminohappo, jota Maapliv-valmisteessa on käytetty vaahteras
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Vaahterasiirappitauti (Maple Syrup Urine Disease) |
+| Alkuperäinen käyttöaihe | Maple Syrup Urine Disease |
 | Ennustettu uusi käyttöaihe | Munuaistiehyeiden asidoosi (renal tubular acidosis) |
-| TxGNN-ennustepistemäärä | 99,47 % |
+| TxGNN-ennustepistemäärä | 0.9947 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |

@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 363
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "RALTEGRAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Raltegravir: ennustettu uusi käyttöaihe Feline acquired immunodeficiency syndrome (näytön taso L5). Alkuperäinen käyttöaihe: HIV Infections"
@@ -48,7 +48,7 @@ Raltegraviiri on HIV-integraasin estäjä, jota on alun perin käytetty **HIV-in
 |------|------|
 | Alkuperäinen käyttöaihe | HIV Infections |
 | Ennustettu uusi käyttöaihe | Feline acquired immunodeficiency syndrome |
-| TxGNN-ennustepisteet | 99,78 % |
+| TxGNN-ennustepisteet | 0.9978 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |

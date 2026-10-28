@@ -5,7 +5,7 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 407
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "SOFOSBUVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "chronic hepatitis B virus infection", "Kyasanur forest disease", "HIV infectious disease"]
 description: "Sofosbuvir: ennustettu uusi käyttöaihe Hepatitis B virus infection (näytön taso L2). Alkuperäinen käyttöaihe: Hepatitis C, Chronic"
@@ -50,7 +50,7 @@ Sofosbuviiri on C-hepatiittiviruksen (HCV) RNA-polymeraasia estävä nukleotidia
 |------|------|
 | Alkuperäinen käyttöaihe | Hepatitis C, Chronic |
 | Ennustettu uusi käyttöaihe | Hepatitis B virus infection |
-| TxGNN-ennustepisteet | 99,49 % |
+| TxGNN-ennustepisteet | 0.9949 |
 | Näytön taso | L2 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 4/4) |
 | Myyntilupien määrä | 4 (voimassa: 4) |
@@ -98,12 +98,12 @@ Kliiniset signaalit ovat kuitenkin ristiriitaisia. Pilottitutkimuksessa virusmä
 
 | Indikaatio | Pisteet | Näytön taso | Arvio |
 |------|------|------|------|
-| Hepatiitti B -virusinfektio (ml. krooninen) | 99,77 % / 99,46 % | L2 | Sofosbuviirilla ei tunneta suoraa vaikutusta HBV:n käänteiskopioijaentsyymiin. Tutkimukset koskevat HCV/HBV-yhteisinfektiota, jossa HBV:n uudelleenaktivoituminen on tunnistettu riski. Kyse on turvallisuudesta, ei uudelleenkäytöstä. Pieni vaiheen 2 tutkimus (ledipasviiri/sofosbuviiri, n=21; PMID 36045503) on yhden haaran eikä osoita HBV-tehoa. |
-| Hepatiitti A -virusinfektio | 99,48 % | L4 | Vain yksi soluviljelmäkoe (PMID 29653132); kliinistä näyttöä ei ole. Luetellut tutkimukset ovat HCV-tutkimuksia. |
-| Hepatiitti, virus, eläin | 99,48 % | L4 | Laaja, epäspesifinen luokka ilman ihmistutkimuksia; näyttö epäsuoraa. |
-| Omskin hemorraginen kuume | 99,47 % | L5 | Vain mallin ennuste; ei tutkimuksia eikä julkaisuja. |
-| Kyasanur-metsätauti | 99,45 % | L5 | Yksi biokemiallinen koe (PMID 36521285); ei solu-, eläin- tai kliinistä dataa. |
-| HIV-infektio | 99,23 % | L4 | Ei HIV-vaikutusta; tutkimukset koskevat HCV:n hoitoa HIV-yhteisinfektiopotilailla. Hyödyllinen lähinnä yhteisinfektion turvallisuus- ja yhteisvaikutusarvioinnissa. |
+| Hepatiitti B -virusinfektio (ml. krooninen) | 0.9977 / 0.9946 | L2 | Sofosbuviirilla ei tunneta suoraa vaikutusta HBV:n käänteiskopioijaentsyymiin. Tutkimukset koskevat HCV/HBV-yhteisinfektiota, jossa HBV:n uudelleenaktivoituminen on tunnistettu riski. Kyse on turvallisuudesta, ei uudelleenkäytöstä. Pieni vaiheen 2 tutkimus (ledipasviiri/sofosbuviiri, n=21; PMID 36045503) on yhden haaran eikä osoita HBV-tehoa. |
+| Hepatiitti A -virusinfektio | 0.9948 | L4 | Vain yksi soluviljelmäkoe (PMID 29653132); kliinistä näyttöä ei ole. Luetellut tutkimukset ovat HCV-tutkimuksia. |
+| Hepatiitti, virus, eläin | 0.9948 | L4 | Laaja, epäspesifinen luokka ilman ihmistutkimuksia; näyttö epäsuoraa. |
+| Omskin hemorraginen kuume | 0.9947 | L5 | Vain mallin ennuste; ei tutkimuksia eikä julkaisuja. |
+| Kyasanur-metsätauti | 0.9945 | L5 | Yksi biokemiallinen koe (PMID 36521285); ei solu-, eläin- tai kliinistä dataa. |
+| HIV-infektio | 0.9923 | L4 | Ei HIV-vaikutusta; tutkimukset koskevat HCV:n hoitoa HIV-yhteisinfektiopotilailla. Hyödyllinen lähinnä yhteisinfektion turvallisuus- ja yhteisvaikutusarvioinnissa. |
 
 ---
 

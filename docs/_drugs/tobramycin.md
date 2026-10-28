@@ -5,7 +5,7 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 441
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "TOBRAMYCIN"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
 description: "Tobramycin: ennustettu uusi käyttöaihe Exposure keratitis (näytön taso L4). Alkuperäinen käyttöaihe: Respiratory Tract Infections"
@@ -47,7 +47,7 @@ TxGNN-malli ennustaa sen voivan tehota **eksponoitumiskeratiittiin** (exposure k
 |------|------|
 | Alkuperäinen käyttöaihe | Respiratory Tract Infections;Cystic Fibrosis; Cystic Fibrosis;Respiratory Tract Infections |
 | Ennustettu uusi käyttöaihe | Exposure keratitis |
-| TxGNN-ennustepisteet | 99,93 % |
+| TxGNN-ennustepisteet | 0.9993 |
 | Näytön taso | L4 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
 | Myyntilupien määrä | 2 (voimassa: 2) |

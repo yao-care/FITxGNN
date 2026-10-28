@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 382
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "RISPERIDONE"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania", "major affective disorder"]
 description: "Risperidone: ennustettu uusi käyttöaihe Gaze palsy, familial horizontal, with progressive scoliosis (näytön taso L5). Alkuperäinen käyttöaihe: Schizophrenia"
@@ -48,7 +48,7 @@ Risperidoni on antipsykootti, jota on alun perin käytetty skitsofrenian hoitoon
 |------|------|
 | Alkuperäinen käyttöaihe | Schizophrenia |
 | Ennustettu uusi käyttöaihe | Gaze palsy, familial horizontal, with progressive scoliosis |
-| TxGNN-ennustepisteet | 99,76 % |
+| TxGNN-ennustepisteet | 0.9976 |
 | Näytön taso | L5 (vain mallin ennuste) |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |
@@ -101,11 +101,10 @@ Samalle lääkkeelle on tehty muitakin ennusteita, joista osa on huomattavasti p
 
 | Sija | Käyttöaihe | TxGNN-pisteet | Näytön taso | Päätös |
 |------|------|------|------|------|
-| 2 | Aspergerin oireyhtymä (alttius) | 99,74 % | L5 | Hold |
-| 3 | Amelocerebrohypohidroottinen oireyhtymä | 99,69 % | L5 | Hold |
-| 4 | Phelan-McDermidin oireyhtymä | 99,59 % | L4 | Tutkimuskysymys |
-| 5 | Trikotillomania | 99,51 % | L4 | Tutkimuskysymys |
-| 6 | Vakava mielialahäiriö (masennus ja kaksisuuntainen mielialahäiriö) | 99,11 % | L1 | Proceed with Guardrails |
+| 3 | Amelocerebrohypohidroottinen oireyhtymä | 0.9969 | L5 | Hold |
+| 4 | Phelan-McDermidin oireyhtymä | 0.9959 | L4 | Tutkimuskysymys |
+| 5 | Trikotillomania | 0.9951 | L4 | Tutkimuskysymys |
+| 6 | Vakava mielialahäiriö (masennus ja kaksisuuntainen mielialahäiriö) | 0.9911 | L1 | Proceed with Guardrails |
 
 - **Vakava mielialahäiriö (sija 6):** vahvin näyttö koko aineistossa. Kaksi valmistunutta vaiheen 3 tutkimusta, joissa risperidonia käytettiin lisälääkkeenä SSRI-lääkkeille hoitoresistentissä masennuksessa, tukevat ennustetta: [NCT00095134](https://clinicaltrials.gov/study/NCT00095134) (n=630) ja [NCT00044681](https://clinicaltrials.gov/study/NCT00044681) (n=258). Lisäksi on vaiheen 3 lumekontrolloitu tutkimus kaksisuuntaisessa mielialahäiriössä, [NCT00277654](https://clinicaltrials.gov/study/NCT00277654) (n=111). Järjestelmällisiä katsauksia ja verkkometa-analyysejä on useita, esimerkiksi [34986373](https://pubmed.ncbi.nlm.nih.gov/34986373/) (2022) ja [35861202](https://pubmed.ncbi.nlm.nih.gov/35861202/) (2023), ja ne tukevat vaatimatonta tehoa. Suositeltavat varotoimet: rajaus hoitoresistenttiin tai lisälääkitykseen, aineenvaihdunnan, prolaktiinin, ekstrapyramidaalioireiden ja uneliaisuuden seuranta sekä voimassa olevan myyntilupatilanteen vahvistaminen.
 - **Trikotillomania (sija 5):** näyttö koostuu tapausselostuksista ja pienistä tapaussarjoista (1997–2014), joissa risperidoni on lisätty SSRI-lääkkeen rinnalle, sekä uudesta hoitokatsauksesta ([38797877](https://pubmed.ncbi.nlm.nih.gov/38797877/), 2025). Kontrolloituja tutkimuksia ei ole, ja julkaisuharha on todennäköinen.

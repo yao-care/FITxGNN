@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 268
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-13
-description: "Lonafarnib: ennustettu uusi käyttöaihe Lepra (näytön taso L5). Alkuperäinen käyttöaihe: Progeria"
+last_modified_at: 2026-10-28
 monitor_inn: "LONAFARNIB"
 predicted_indications: ["leprosy"]
+description: "Lonafarnib: ennustettu uusi käyttöaihe Lepra (leprosy) (näytön taso L5). Alkuperäinen käyttöaihe: Progeria"
 ---
 
 # Lonafarnib
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-## Lonafarnibi: Progeriasta ja laminopatioista lepraan
+## Lonafarnib: Lepra (leprosy)
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -46,9 +46,9 @@ Lonafarnibi on farnesyylitransferaasin estäjä, jota on alun perin käytetty pr
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Progeria; laminopatiat |
-| Ennustettu uusi käyttöaihe | Lepra |
-| TxGNN-ennustepisteet | 99,14 % |
+| Alkuperäinen käyttöaihe | Progeria;Laminopathies |
+| Ennustettu uusi käyttöaihe | Lepra (leprosy) |
+| TxGNN-ennustepisteet | 0.9914 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien lukumäärä | 1 (voimassa: 1) |

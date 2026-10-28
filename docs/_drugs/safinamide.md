@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 394
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "safinamide"
 predicted_indications: ["Rasmussen subacute encephalitis", "myelitis", "PLA2G6-associated neurodegeneration"]
 description: "Safinamide: ennustettu uusi käyttöaihe Rasmussenin subakuutti enkefaliitti (Rasmussen subacute encephalitis) (näytön taso L5). Alkuperäinen käyttöaihe: Parkinson Disease"
@@ -55,7 +55,7 @@ TxGNN-malli ennustaa sen voivan olla hyödyllinen **Rasmussenin subakuutissa enk
 | Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
-Muut mallin ennusteet samalle lääkkeelle: myeliitti (99,46 %) ja PLA2G6-assosioitunut neurodegeneraatio (99,22 %). Näistäkään ei ole kliinistä tai kirjallisuusnäyttöä.
+Muut mallin ennusteet samalle lääkkeelle: myeliitti (0.9946) ja PLA2G6-assosioitunut neurodegeneraatio (0.9922). Näistäkään ei ole kliinistä tai kirjallisuusnäyttöä.
 
 ---
 

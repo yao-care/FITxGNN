@@ -5,7 +5,7 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 414
 evidence_level: L1
 indication_count: 2
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "TACROLIMUS"
 predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
 description: "Tacrolimus: ennustettu uusi käyttöaihe Seborrheic dermatitis (näytön taso L1). Alkuperäinen käyttöaihe: Liver Transplantation"
@@ -46,7 +46,7 @@ Takrolimuusi on kalsineuriinin estäjä, jota on alun perin käytetty maksan ja 
 |------|------|
 | Alkuperäinen käyttöaihe | Liver Transplantation;Kidney Transplantation; Graft Rejection; Dermatitis, Atopic |
 | Ennustettu uusi käyttöaihe | Seborrheic dermatitis |
-| TxGNN-ennustepisteet | 99,26 % |
+| TxGNN-ennustepisteet | 0.9926 |
 | Näytön taso | L1 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 5/5) |
 | Myyntilupien määrä | 5 (voimassa: 5) |

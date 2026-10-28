@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 411
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "SPIRONOLACTONE"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
 description: "Spironolactone: ennustettu uusi käyttöaihe Hypotrichosis simplex of the scalp (näytön taso L5). Alkuperäinen käyttöaihe: Edema"
@@ -49,7 +49,7 @@ Ennusteen tueksi ei kuitenkaan ole tällä hetkellä yhtään kliinistä tutkimu
 |------|------|
 | Alkuperäinen käyttöaihe | Edema;Heart Failure;Liver Cirrhosis;Ascites;Nephrotic Syndrome;Hyperaldosteronism;Essential Hypertension |
 | Ennustettu uusi käyttöaihe | Hypotrichosis simplex of the scalp |
-| TxGNN-ennustepisteet | 99,26 % |
+| TxGNN-ennustepisteet | 0.9926 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |
@@ -63,7 +63,7 @@ Spironolaktoni on mineralokortikoidireseptorin salpaaja, jolla on lisäksi antia
 
 Hiuspohjan hypotrichosis simplex on harvinainen perinnöllinen hiustenlähtösairaus, jonka aiheuttavat geenivariantit (esim. CDSN, APCDD1, RPL21). Se ei ole ensisijaisesti androgeenivälitteinen. Yhteys spironolaktonin alkuperäisiin käyttöaiheisiin (nestetasapaino, sydän- ja verisuonisairaudet, aldosteronin liikatuotanto) on siten heikko, ja mekanistinen perustelu on spekulatiivinen.
 
-Korkea ennustepiste (0,993) perustuu todennäköisesti tietämysgraafin läheisyyteen muiden hiusfenotyyppien kanssa, ei validoituun mekanismiin. Toinen ennustettu käyttöaihe, synnynnäinen hypotrichosis milia (pisteet 99,04 %), on samoin harvinainen synnynnäinen kehityshäiriö, eikä sillekään voitu osoittaa suoraa mekanistista yhteyttä. Sekin on tässä L5-tasoa ja suositus on Hold.
+Korkea ennustepiste (0,993) perustuu todennäköisesti tietämysgraafin läheisyyteen muiden hiusfenotyyppien kanssa, ei validoituun mekanismiin. Toinen ennustettu käyttöaihe, synnynnäinen hypotrichosis milia (pisteet 0.9904), on samoin harvinainen synnynnäinen kehityshäiriö, eikä sillekään voitu osoittaa suoraa mekanistista yhteyttä. Sekin on tässä L5-tasoa ja suositus on Hold.
 
 ---
 

@@ -5,10 +5,10 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 429
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-10-13
-description: "Tenofovir Disoproxil: ennustettu uusi käyttöaihe Apinoiden immuunikatovirusinfektio (SIV) (näytön taso L4). Alkuperäinen käyttöaihe: HIV-infektio (Viread: myös krooninen hepatiitti B)"
+last_modified_at: 2026-10-28
 monitor_inn: "TENOFOVIR DISOPROXIL"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
+description: "Tenofovir Disoproxil: ennustettu uusi käyttöaihe Apinoiden immuunikatovirusinfektio (simian immunodeficiency virus infection) (näytön taso L4). Alkuperäinen käyttöaihe: HIV Infections"
 ---
 
 # Tenofovir Disoproxil
@@ -33,7 +33,7 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-## Tenofoviiridisoproksiili: HIV-infektiosta apinoiden immuunikatovirusinfektioon
+## Tenofovir Disoproxil: Apinoiden immuunikatovirusinfektio (simian immunodeficiency virus infection)
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -46,9 +46,9 @@ Tenofoviiridisoproksiili on nukleotidirakenteinen käänteiskopioijaentsyymin es
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | HIV-infektio (Viread: myös krooninen hepatiitti B) |
-| Ennustettu uusi käyttöaihe | Apinoiden immuunikatovirusinfektio (SIV) |
-| TxGNN-ennustepisteet | 99,95 % |
+| Alkuperäinen käyttöaihe | HIV Infections; Hepatitis B, Chronic;HIV Infections |
+| Ennustettu uusi käyttöaihe | Apinoiden immuunikatovirusinfektio (simian immunodeficiency virus infection) |
+| TxGNN-ennustepisteet | 0.9995 |
 | Näytön taso | L4 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 14/14) |
 | Myyntilupien määrä | 14 (voimassa: 14) |

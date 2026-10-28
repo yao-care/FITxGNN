@@ -5,10 +5,10 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 462
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "VALSARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
-description: "Valsartan: ennustettu uusi käyttöaihe Malignant hypertensive renal disease (näytön taso L4). Alkuperäinen käyttöaihe: Heart Failure"
+description: "Valsartan: ennustettu uusi käyttöaihe Malignant hypertensive renal disease (näytön taso L4). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin"
 ---
 
 # Valsartan
@@ -48,9 +48,9 @@ Ennusteelle ei ole kliinisiä tutkimuksia, ja **1 julkaisu** on vain epäsuora, 
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Heart Failure; Hypertension |
+| Alkuperäinen käyttöaihe | Ei kirjattu paikallisiin tietoihin |
 | Ennustettu uusi käyttöaihe | Malignant hypertensive renal disease |
-| TxGNN-ennustepisteet | 99,97 % |
+| TxGNN-ennustepisteet | 0.9997 |
 | Näytön taso | L4 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 9/9) |
 | Myyntilupien määrä | 9 (voimassa: 9) |
@@ -102,12 +102,12 @@ Toissijaisen ennusteen (pahanlaatuinen renovaskulaarinen hypertensio) tuki:
 
 | Käyttöaihe | TxGNN-pisteet | Näytön taso | Huomio |
 |------|------|------|------|
-| Pahanlaatuinen renovaskulaarinen hypertensio | 99,97 % | L4 | Esikliininen AT1-salpausnäyttö; varovaisuus kahdenpuolisessa munuaisvaltimon ahtaumassa |
-| Keuhkoverenpainetauti, epäselvä monitekijäinen mekanismi | 99,97 % | L5 | Vain mallin ennuste |
-| Keuhkoverenpainetauti keuhkosairauden tai hypoksian vuoksi | 99,97 % | L4 | Epäsuora, esikliininen näyttö (HIF-1α, ajoittainen hypoksia); suurin osa julkaisuista koskee sakubitriili/valsartaania tai muita malleja |
-| Braddockin oireyhtymä | 99,96 % | L5 | Vain mallin ennuste; harvinainen sairaus |
-| Krooninen keuhkosydänsairaus | 99,58 % | L4 | Sydämen vajaatoiminnan näyttö vahvaa, mutta ei suoraan tähän tilaan; esikliininen ARNI-tutkimus oikean kammion remodelingista |
-| Prinzmetalin angina | 99,45 % | L5 | Ainoa julkaisu ei liity valsartaaniin tai tilaan |
+| Pahanlaatuinen renovaskulaarinen hypertensio | 0.9997 | L4 | Esikliininen AT1-salpausnäyttö; varovaisuus kahdenpuolisessa munuaisvaltimon ahtaumassa |
+| Keuhkoverenpainetauti, epäselvä monitekijäinen mekanismi | 0.9997 | L5 | Vain mallin ennuste |
+| Keuhkoverenpainetauti keuhkosairauden tai hypoksian vuoksi | 0.9997 | L4 | Epäsuora, esikliininen näyttö (HIF-1α, ajoittainen hypoksia); suurin osa julkaisuista koskee sakubitriili/valsartaania tai muita malleja |
+| Braddockin oireyhtymä | 0.9996 | L5 | Vain mallin ennuste; harvinainen sairaus |
+| Krooninen keuhkosydänsairaus | 0.9958 | L4 | Sydämen vajaatoiminnan näyttö vahvaa, mutta ei suoraan tähän tilaan; esikliininen ARNI-tutkimus oikean kammion remodelingista |
+| Prinzmetalin angina | 0.9945 | L5 | Ainoa julkaisu ei liity valsartaaniin tai tilaan |
 
 ---
 

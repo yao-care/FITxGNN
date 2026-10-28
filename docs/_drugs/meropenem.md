@@ -5,10 +5,10 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 283
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-13
-description: "Meropenem: ennustettu uusi käyttöaihe Bakteeriperäinen niveltulehdus (bacterial arthritis) (näytön taso L4). Alkuperäinen käyttöaihe: Virtsatieinfektiot, bakteremia, bakteeri-infektiot…"
+last_modified_at: 2026-10-28
 monitor_inn: "Meropenem"
 predicted_indications: ["bacterial arthritis", "epiglottitis", "staphylococcus aureus infection", "laryngitis", "paratyphoid fever", "Lyme disease", "Peptostreptococcus infectious disease", "Ureaplasma urethritis", "gonococcal urethritis"]
+description: "Meropenem: ennustettu uusi käyttöaihe Bakteeriperäinen niveltulehdus (bacterial arthritis) (näytön taso L4). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin"
 ---
 
 # Meropenem
@@ -33,7 +33,7 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **9** kpl
 
 </div>
 
-## Meropeneemi: Bakteeriperäinen niveltulehdus
+## Meropenem: Bakteeriperäinen niveltulehdus (bacterial arthritis)
 {: .text-alpha }
 
 ## Yhden lauseen tiivistelmä
@@ -48,7 +48,7 @@ Raporttiin koottu aineisto sisältää myös yhdeksän muuta ennustettua käytt�
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Virtsatieinfektiot, bakteremia, bakteeri-infektiot, hengitystieinfektiot, keuhkokuume, ventilaattoriin liittyvä keuhkokuume |
+| Alkuperäinen käyttöaihe | Ei kirjattu paikallisiin tietoihin |
 | Ennustettu uusi käyttöaihe | Bakteeriperäinen niveltulehdus (bacterial arthritis) |
 | TxGNN-ennustepisteet | 0,9992 |
 | Näytön taso | L4 |
@@ -120,15 +120,14 @@ Virtsatieinfektio (jo hyväksytty käyttöaihe), vahvin näyttö:
 
 | Käyttöaihe | Pisteet | Näytön taso | Suositus | Huomio |
 |---|---|---|---|---|
-| Epiglottiitti | 99,91 % | L4 | Hold | Ei suoraa kliinistä näyttöä; ensilinjan lääkkeitä on saatavilla |
-| *Staphylococcus aureus* -infektio | 99,85 % | L3 | Tutkimuskysymys | Rajoittuu tiettyihin MSSA- tai yhdistelmähoitotilanteisiin; MRSA:ta karbapeneemit eivät kata |
-| Laryngiitti | 99,59 % | L5 | Hold | Pääosin virusperäinen; kirjallisuus ei tue käyttöä |
-| Paratyfoidikuume | 99,57 % | L4 | Tutkimuskysymys | Varavaihtoehto XDR-kannoissa; ei suoraa tehonäyttöä |
-| Virtsatieinfektio | 99,52 % | L1 | Proceed with Guardrails | Jo hyväksytty käyttöaihe |
-| Borrelioosi | 99,46 % | L5 | Hold | Vain in vitro -tutkimus; vakiohoidot tehokkaita |
-| Peptostreptokokki-infektio | 99,37 % | L5 | Hold | Ei tutkimuksia eikä kirjallisuutta |
-| Ureaplasma-virtsaputkitulehdus | 99,33 % | L5 | Hold | Ureaplasmalla ei ole soluseinää, joten beetalaktaamit eivät mekanistisesti tehoa; todennäköisesti väärä positiivinen |
-| Gonokokkiuretriitti | 99,33 % | L5 | Hold | Ei näyttöä; keftriaksonipohjaiset hoidot vakiintuneita ja huoli antibioottien järkevästä käytöstä |
+| Epiglottiitti | 0.9991 | L4 | Hold | Ei suoraa kliinistä näyttöä; ensilinjan lääkkeitä on saatavilla |
+| *Staphylococcus aureus* -infektio | 0.9985 | L3 | Tutkimuskysymys | Rajoittuu tiettyihin MSSA- tai yhdistelmähoitotilanteisiin; MRSA:ta karbapeneemit eivät kata |
+| Laryngiitti | 0.9959 | L5 | Hold | Pääosin virusperäinen; kirjallisuus ei tue käyttöä |
+| Paratyfoidikuume | 0.9957 | L4 | Tutkimuskysymys | Varavaihtoehto XDR-kannoissa; ei suoraa tehonäyttöä |
+| Borrelioosi | 0.9946 | L5 | Hold | Vain in vitro -tutkimus; vakiohoidot tehokkaita |
+| Peptostreptokokki-infektio | 0.9937 | L5 | Hold | Ei tutkimuksia eikä kirjallisuutta |
+| Ureaplasma-virtsaputkitulehdus | 0.9933 | L5 | Hold | Ureaplasmalla ei ole soluseinää, joten beetalaktaamit eivät mekanistisesti tehoa; todennäköisesti väärä positiivinen |
+| Gonokokkiuretriitti | 0.9933 | L5 | Hold | Ei näyttöä; keftriaksonipohjaiset hoidot vakiintuneita ja huoli antibioottien järkevästä käytöstä |
 
 ---
 

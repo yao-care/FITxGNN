@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 281
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-13
-description: "Mepolizumab: ennustettu uusi käyttöaihe Immuunituhoon liittyvä trombosytopenia (thrombocytopenia due to immun… (näytön taso L4). Alkuperäinen käyttöaihe: Astma"
+last_modified_at: 2026-10-28
 monitor_inn: "MEPOLIZUMAB"
 predicted_indications: ["thrombocytopenia due to immune destruction", "primary release disorder of platelets", "pseudo-von Willebrand disease", "autoimmune thrombocytopenic", "Glanzmann thrombasthenia"]
+description: "Mepolizumab: ennustettu uusi käyttöaihe Immuunituhoon liittyvä trombosytopenia (thrombocytopenia due to immune destruction) (näytön taso L5). Alkuperäinen käyttöaihe: Asthma"
 ---
 
 # Mepolizumab
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-## Mepolitsumabi: Immuunituhoon liittyvä trombosytopenia
+## Mepolizumab: Immuunituhoon liittyvä trombosytopenia (thrombocytopenia due to immune destruction)
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -44,7 +44,7 @@ Mepolitsumabi on anti-IL-5-vasta-aine, jota on alun perin käytetty astman hoito
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Astma |
+| Alkuperäinen käyttöaihe | Asthma |
 | Ennustettu uusi käyttöaihe | Immuunituhoon liittyvä trombosytopenia (thrombocytopenia due to immune destruction) |
 | TxGNN-ennustepisteet | 0,9966 |
 | Näytön taso | L5 |
@@ -76,10 +76,10 @@ Aineistossa on myös muita ennusteita, joilla on vielä heikompi tuki:
 
 | Ennustettu käyttöaihe | TxGNN-pisteet | Näytön taso | Huomio |
 |------|------|------|------|
-| Verihiutaleiden primaarinen vapautumishäiriö | 99,61 % | L5 | Ainoa lähde on hypereosinofiilisen oireyhtymän (HES) hoitoa käsittelevä katsaus ([PMID 20565230](https://pubmed.ncbi.nlm.nih.gov/20565230/), 2010), joka ei käsittele verihiutaleiden toimintaa. IL-5:n eston ja verihiutaleiden eritysvikojen välillä ei tunneta mekanistista yhteyttä. |
-| Pseudo-von Willebrandin tauti | 99,44 % | L5 | Johtuu verihiutaleiden GPIbα-reseptorin toiminnanlisäysmuutoksista. Yhteyttä IL-5:n estoon ei tunneta. Ei tutkimuksia eikä kirjallisuutta. |
-| Autoimmuuni trombosytopenia | 99,33 % | L5 | Todennäköisesti päällekkäinen immuunitrombosytopenian kanssa. Ei tutkimuksia eikä kirjallisuutta. Perustelu on spekulatiivinen. |
-| Glanzmannin trombastenia | 99,28 % | L5 | Perinnöllinen verihiutaleiden integriini αIIbβ3:n vika. Uskottavaa mekanistista yhteyttä ei ole. Ei kliinistä näyttöä. |
+| Verihiutaleiden primaarinen vapautumishäiriö | 0.9961 | L5 | Ainoa lähde on hypereosinofiilisen oireyhtymän (HES) hoitoa käsittelevä katsaus ([PMID 20565230](https://pubmed.ncbi.nlm.nih.gov/20565230/), 2010), joka ei käsittele verihiutaleiden toimintaa. IL-5:n eston ja verihiutaleiden eritysvikojen välillä ei tunneta mekanistista yhteyttä. |
+| Pseudo-von Willebrandin tauti | 0.9944 | L5 | Johtuu verihiutaleiden GPIbα-reseptorin toiminnanlisäysmuutoksista. Yhteyttä IL-5:n estoon ei tunneta. Ei tutkimuksia eikä kirjallisuutta. |
+| Autoimmuuni trombosytopenia | 0.9933 | L5 | Todennäköisesti päällekkäinen immuunitrombosytopenian kanssa. Ei tutkimuksia eikä kirjallisuutta. Perustelu on spekulatiivinen. |
+| Glanzmannin trombastenia | 0.9928 | L5 | Perinnöllinen verihiutaleiden integriini αIIbβ3:n vika. Uskottavaa mekanistista yhteyttä ei ole. Ei kliinistä näyttöä. |
 
 ## Suomen markkinatiedot
 

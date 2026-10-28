@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 284
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-13
-description: "Metformin: ennustettu uusi käyttöaihe Fokaalinen jäykän raajan oireyhtymä (näytön taso L5). Alkuperäinen käyttöaihe: Tyypin 2 diabetes"
+last_modified_at: 2026-10-28
 monitor_inn: "METFORMIN"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy"]
+description: "Metformin: ennustettu uusi käyttöaihe Fokaalinen jäykän raajan oireyhtymä (focal stiff limb syndrome) (näytön taso L5). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin"
 ---
 
 # Metformin
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-## Metformiini: Tyypin 2 diabeteksesta fokaaliseen jäykän raajan oireyhtymään
+## Metformin: Fokaalinen jäykän raajan oireyhtymä (focal stiff limb syndrome)
 {: .text-alpha }
 
 ## Yhden lauseen tiivistelmä
@@ -48,9 +48,9 @@ Ennusteen tueksi ei ole tällä hetkellä **yhtään kliinistä tutkimusta eikä
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Tyypin 2 diabetes |
-| Ennustettu uusi käyttöaihe | Fokaalinen jäykän raajan oireyhtymä |
-| TxGNN-ennustepistemäärä | 99,45 % |
+| Alkuperäinen käyttöaihe | Ei kirjattu paikallisiin tietoihin |
+| Ennustettu uusi käyttöaihe | Fokaalinen jäykän raajan oireyhtymä (focal stiff limb syndrome) |
+| TxGNN-ennustepistemäärä | 0.9945 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 19/19) |
 | Myyntilupien määrä | 19 (voimassa: 19) |
@@ -68,9 +68,9 @@ Korkea pistemäärä voi heijastaa graafipohjaista yhteyttä: jäykän ihmisen o
 
 Muita ennustettuja käyttöaiheita (kaikilla näytön taso L5 ja suositus Hold):
 - klassinen jäykän ihmisen oireyhtymä (pistemäärä 0,9945)
-- opsismodysplasia (99,40 %)
-- tiamiinille vastaava toimintahäiriöoireyhtymä (99,40 %)
-- lääkeaineen aiheuttama paikallinen lipodystrofia (99,06 %)
+- opsismodysplasia (0.9940)
+- tiamiinille vastaava toimintahäiriöoireyhtymä (0.9940)
+- lääkeaineen aiheuttama paikallinen lipodystrofia (0.9906)
 
 ---
 

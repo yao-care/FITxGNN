@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 398
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-13
-description: "Selpercatinib: ennustettu uusi käyttöaihe Keuhkoverenpainetauti (pulmonary hypertension) (näytön taso L5). Alkuperäinen käyttöaihe: Ei-pienisoluinen keuhkosyöpä"
+last_modified_at: 2026-10-28
 monitor_inn: "SELPERCATINIB"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura"]
+description: "Selpercatinib: ennustettu uusi käyttöaihe Keuhkoverenpainetauti (pulmonary hypertension) (näytön taso L5). Alkuperäinen käyttöaihe: Carcinoma, Non-Small-Cell Lung"
 ---
 
 # Selpercatinib
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-## Selpercatinibi: Ei-pienisoluisesta keuhkosyövästä ja kilpirauhasen kasvaimista keuhkoverenpainetautiin
+## Selpercatinib: Keuhkoverenpainetauti (pulmonary hypertension)
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -44,9 +44,9 @@ Selpercatinibi on kohdennettu lääke, jota on alun perin käytetty ei-pienisolu
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Ei-pienisoluinen keuhkosyöpä; kilpirauhasen kasvaimet |
+| Alkuperäinen käyttöaihe | Carcinoma, Non-Small-Cell Lung;Thyroid Neoplasms |
 | Ennustettu uusi käyttöaihe | Keuhkoverenpainetauti (pulmonary hypertension) |
-| TxGNN-ennustepistemäärä | 99,18 % |
+| TxGNN-ennustepistemäärä | 0.9918 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |
@@ -58,7 +58,7 @@ Tällä hetkellä lääkkeen yksityiskohtaista vaikutusmekanismia koskevia tieto
 
 Kerätyn aineiston perusteella ei voida osoittaa mekanistista yhteyttä selektiivisen RET-estämisen ja keuhkoverisuonten uudelleenmuovautumisen välillä. Alkuperäisen käyttöaiheen (syöpä) ja ennustetun käyttöaiheen (verisuonisairaus) välinen samankaltaisuus on arvioimatta. TxGNN-pistemäärä on erittäin korkea, mutta se on graafipohjainen ennuste, ei kliininen todiste.
 
-Muita mallin ennustamia käyttöaiheita ovat migreeni (99,17 %) ja aivorunkoauraan liittyvä migreeni (99,05 %). Kummallekaan ei ole kliinisiä tutkimuksia tai kirjallisuutta. Jälkimmäinen on migreenin alatyyppi, joten se todennäköisesti jakaa saman mallipohjaisen signaalin eikä tuo itsenäistä näyttöä.
+Muita mallin ennustamia käyttöaiheita ovat migreeni (0.9917) ja aivorunkoauraan liittyvä migreeni (0.9905). Kummallekaan ei ole kliinisiä tutkimuksia tai kirjallisuutta. Jälkimmäinen on migreenin alatyyppi, joten se todennäköisesti jakaa saman mallipohjaisen signaalin eikä tuo itsenäistä näyttöä.
 
 ## Kliininen tutkimusnäyttö
 

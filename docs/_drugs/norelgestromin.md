@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 308
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-13
-description: "Norelgestromin: ennustettu uusi käyttöaihe Amenorrea (näytön taso L5). Alkuperäinen käyttöaihe: Ehkäisy"
+last_modified_at: 2026-10-28
 monitor_inn: "NORELGESTROMIN"
 predicted_indications: ["amenorrhea (disease)"]
+description: "Norelgestromin: ennustettu uusi käyttöaihe Amenorrea (amenorrhea (disease)) (näytön taso L5). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin"
 ---
 
 # Norelgestromin
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-## Norelgestromiini: Ehkäisystä kohti amenorreaa
+## Norelgestromin: Amenorrea (amenorrhea (disease))
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -46,9 +46,9 @@ Norelgestromiini on progestiini, jota on käytetty ehkäisyyn ehkäisylaastariss
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Ehkäisy |
-| Ennustettu uusi käyttöaihe | Amenorrea |
-| TxGNN-ennustepistemäärä | 99,51 % |
+| Alkuperäinen käyttöaihe | Ei kirjattu paikallisiin tietoihin |
+| Ennustettu uusi käyttöaihe | Amenorrea (amenorrhea (disease)) |
+| TxGNN-ennustepistemäärä | 0.9951 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |

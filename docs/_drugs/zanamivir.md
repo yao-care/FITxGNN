@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 476
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "ZANAMIVIR"
 predicted_indications: ["pyelonephritis", "disorder of tyrosine metabolism"]
 description: "Zanamivir: ennustettu uusi käyttöaihe Pyelonephritis (näytön taso L5). Alkuperäinen käyttöaihe: Influenza, Human"
@@ -46,13 +46,13 @@ Tsanamiviiri (zanamivir) on neuraminidaasin estäjä, jota on alun perin käytet
 |------|------|
 | Alkuperäinen käyttöaihe | Influenza, Human |
 | Ennustettu uusi käyttöaihe | Pyelonephritis |
-| TxGNN-ennustepisteet | 99,84 % |
+| TxGNN-ennustepisteet | 0.9984 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
-Toinen ennustettu käyttöaihe, tyrosiinin aineenvaihdunnan häiriö (pisteet 99,02 %), on myös L5-tasoa, ja sen kolme löydettyä julkaisua käsittelevät influenssan neuraminidaasin estäjiä eivätkä tyrosiinin aineenvaihduntaa. Sillekään ei ole perusteita edetä.
+Toinen ennustettu käyttöaihe, tyrosiinin aineenvaihdunnan häiriö (pisteet 0.9902), on myös L5-tasoa, ja sen kolme löydettyä julkaisua käsittelevät influenssan neuraminidaasin estäjiä eivätkä tyrosiinin aineenvaihduntaa. Sillekään ei ole perusteita edetä.
 
 ## Miksi ennuste voisi olla perusteltu?
 

@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 428
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "TENOFOVIR ALAFENAMIDE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Tenofovir Alafenamide: ennustettu uusi käyttöaihe Feline acquired immunodeficiency syndrome (näytön taso L5). Alkuperäinen käyttöaihe: Hepatitis B"
@@ -48,7 +48,7 @@ Aineistossa on **8 julkaisua** (prekliinisiä eläinkokeita), mutta **ei yhtää
 
 | Kohde | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Hepatitis B; HIV Infections |
+| Alkuperäinen käyttöaihe | Hepatitis B |
 | Ennustettu uusi käyttöaihe | Feline acquired immunodeficiency syndrome |
 | TxGNN-ennustepistemäärä | 0.9989 |
 | Näytön taso | L5 |
@@ -56,7 +56,7 @@ Aineistossa on **8 julkaisua** (prekliinisiä eläinkokeita), mutta **ei yhtää
 | Myyntilupien määrä | 8 (voimassa: 8) |
 | Suositeltu päätös | Hold (tutkimuskysymys, ei etene kliiniseen vaiheeseen) |
 
-Huomio: aineiston kaksi muuta ennustetta ovat heikommin perusteltuja. Kissan immuunikatoon (feline acquired immunodeficiency syndrome, 99,89 %) ei ole tutkimus- eikä kirjallisuusnäyttöä (L5), ja harvinaiseen neurokehityshäiriöön (99,87 %) ei löydy uskottavaa mekanistista yhteyttä (L5). Tämä raportti keskittyy sijalla 1 olevan ennusteen sijaan ensisijaisesti sijan 2 ennusteeseen, koska vain sille on kirjallisuutta.
+Huomio: aineiston kaksi muuta ennustetta ovat heikommin perusteltuja. Kissan immuunikatoon (feline acquired immunodeficiency syndrome, 0.9989) ei ole tutkimus- eikä kirjallisuusnäyttöä (L5), ja harvinaiseen neurokehityshäiriöön (0.9987) ei löydy uskottavaa mekanistista yhteyttä (L5). Tämä raportti keskittyy sijalla 1 olevan ennusteen sijaan ensisijaisesti sijan 2 ennusteeseen, koska vain sille on kirjallisuutta.
 
 ---
 

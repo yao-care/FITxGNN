@@ -5,7 +5,7 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 329
 evidence_level: L1
 indication_count: 1
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "panobinostat"
 predicted_indications: ["myeloid leukemia"]
 description: "Panobinostat: ennustettu uusi käyttöaihe Myeloid leukemia (näytön taso L1). Alkuperäinen käyttöaihe: Multiple Myeloma"
@@ -50,7 +50,7 @@ Suuntaa tukee tällä hetkellä **16 kliinistä tutkimusta** ja **20 julkaisua**
 |------|------|
 | Alkuperäinen käyttöaihe | Multiple Myeloma |
 | Ennustettu uusi käyttöaihe | Myeloid leukemia |
-| TxGNN-ennustepisteet | 99,70 % |
+| TxGNN-ennustepisteet | 0.9970 |
 | Näytön taso | L1 (muodollisesti; ks. huomautus alla) |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |

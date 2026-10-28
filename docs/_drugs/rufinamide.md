@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 390
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "RUFINAMIDE"
 predicted_indications: ["perioral myoclonia with absences"]
 description: "Rufinamide: ennustettu uusi käyttöaihe Perioral myoclonia with absences (näytön taso L5). Alkuperäinen käyttöaihe: Epilepsy"
@@ -62,10 +62,7 @@ FIRES on hoitoresistentti epileptinen enkefalopatia, joka ilmenee kuumeisen sair
 
 | Sija | Käyttöaihe | Pisteet | Huomio |
 |------|------|------|------|
-| 2 | Perioraalinen myoklonia ja poissaolot | 99,51 % | Natriumkanavasalpaajat voivat pahentaa poissaolokohtauksia, joten sopivuus on epävarma |
-| 3 | Valoherkkä takaraivolohkoepilepsia | 99,44 % | Lähellä alkuperäistä käyttöaihetta, ei varsinaista uudelleenkäyttöä |
-| 4 | Epätyypillinen lapsuusiän epilepsia, jossa on sentrotemporaalisia piikkejä | 99,44 % | Natriumkanavasalpaajat voivat pahentaa epätyypillisiä piirteitä |
-| 5 | Kryptogeeniset myöhään alkavat epileptiset spasmit | 99,44 % | Epäsuora peruste: näyttöä Lennox-Gastaut-oireyhtymässä |
+| 2 | Perioraalinen myoklonia ja poissaolot | 0.9951 | Natriumkanavasalpaajat voivat pahentaa poissaolokohtauksia, joten sopivuus on epävarma |
 
 Yhdellekään näistä ei ole kliinisiä tutkimuksia tai julkaisuja.
 

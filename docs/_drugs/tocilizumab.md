@@ -5,10 +5,10 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 442
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-10-13
-description: "Tocilizumab: ennustettu uusi käyttöaihe Selkärankareuma (ankyloiva spondyliitti) (näytön taso L2). Alkuperäinen käyttöaihe: Nivelreuma, lastenreuma (nuorten idiopaattinen artriitti)…"
+last_modified_at: 2026-10-28
 monitor_inn: "TOCILIZUMAB"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
+description: "Tocilizumab: ennustettu uusi käyttöaihe Selkärankareuma (ankylosing spondylitis) (näytön taso L2). Alkuperäinen käyttöaihe: Arthritis, Rheumatoid"
 ---
 
 # Tocilizumab
@@ -33,7 +33,7 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-## Tosilitsumabi: Nivelreumasta selkärankareumaan
+## Tocilizumab: Selkärankareuma (ankylosing spondylitis)
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -48,9 +48,9 @@ Tätä tukee **4 kliinistä tutkimusta** (joista 2 vaiheen 3 satunnaistettua tut
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Nivelreuma, lastenreuma (nuorten idiopaattinen artriitti), sytokiinipäästöoireyhtymä, jättisoluarteriitti, COVID-19 |
-| Ennustettu uusi käyttöaihe | Selkärankareuma (ankyloiva spondyliitti) |
-| TxGNN-ennustepisteet | 99,99 % |
+| Alkuperäinen käyttöaihe | Arthritis, Rheumatoid;Arthritis, Juvenile Rheumatoid;Cytokine Release Syndrome;Giant Cell Arteritis;COVID-19 virus infection; Arthritis, Rheumatoid;Arthritis, Juvenile Rheumatoid;Cytokine Release Syndrome;COVID-19 virus infection; Arthritis, Rheumatoid;Cytokine Release Syndrome;Arthritis, Juvenile R |
+| Ennustettu uusi käyttöaihe | Selkärankareuma (ankylosing spondylitis) |
+| TxGNN-ennustepisteet | 0.9999 |
 | Näytön taso | L2 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 4/4) |
 | Myyntilupien määrä | 4 (voimassa: 4) |

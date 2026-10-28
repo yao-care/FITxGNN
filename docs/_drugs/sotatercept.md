@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 410
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "SOTATERCEPT"
 predicted_indications: ["acute lymphoblastic leukemia (disease)", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "drug-induced osteoporosis", "diabetic cataract", "HER2 positive breast carcinoma", "transitional cell carcinoma", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant"]
 description: "Sotatercept: ennustettu uusi käyttöaihe Acute lymphoblastic leukemia (disease) (näytön taso L5). Alkuperäinen käyttöaihe: Hypertension, Pulmonary"
@@ -48,7 +48,7 @@ Ennusteen tueksi ei ole tässä raportissa käytettävissä **yhtään kliinist�
 |------|------|
 | Alkuperäinen käyttöaihe | Hypertension, Pulmonary |
 | Ennustettu uusi käyttöaihe | Acute lymphoblastic leukemia (disease) |
-| TxGNN-ennustepisteet | 99,78 % |
+| TxGNN-ennustepisteet | 0.9978 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |
@@ -66,15 +66,15 @@ Mallin muut kärkiennusteet ovat samalla tavoin vailla kliinistä tai kirjallisu
 
 | Sija | Käyttöaihe | Pisteet | Huomio |
 |------|------|------|------|
-| 2 | Vaikea ei-proliferatiivinen diabeettinen retinopatia | 99,77 % | Mahdollinen yhteys verkkokalvon verisuonten uudelleenmuovautumiseen on hypoteesi |
-| 3 | Diabeettinen retinopatia | 99,72 % | Silmäturvallisuus on arvioitava ensin (verenvuodot, telangiektasiat) |
-| 4 | Lääkeaineen aiheuttama osteoporoosi | 99,65 % | Aktiviinisignalointi vaikuttaa luuaineenvaihduntaan, ihmisvaikutus varmistamatta |
-| 5 | Diabeettinen kaihi | 99,49 % | Mekanistista perustetta ei voida muodostaa |
-| 6 | HER2-positiivinen rintasyöpä | 99,43 % | Spekulatiivinen; vaikutus kasvainbiologiaan voi olla ennakoimaton |
-| 7 | Transitionaalisoluinen karsinooma | 99,39 % | TGF-beeta-reitti liittyy virtsarakon syövän etenemiseen, suoraa näyttöä ei ole |
-| 8 | Eturauhasen virtsaputken uroteelikarsinooma | 99,36 % | Todennäköisesti graafin läheisyyden tuottama artefakti |
-| 9 | Munuaisaltaan sarkomatoidi transitionaalisoluinen karsinooma | 99,36 % | Harvinainen muoto, ontologialähtöinen ennuste |
-| 10 | Infiltroiva rakon sarkomatoidi uroteelikarsinooma | 99,34 % | Harvinainen muoto, todennäköinen graafiartefakti |
+| 2 | Vaikea ei-proliferatiivinen diabeettinen retinopatia | 0.9977 | Mahdollinen yhteys verkkokalvon verisuonten uudelleenmuovautumiseen on hypoteesi |
+| 3 | Diabeettinen retinopatia | 0.9972 | Silmäturvallisuus on arvioitava ensin (verenvuodot, telangiektasiat) |
+| 4 | Lääkeaineen aiheuttama osteoporoosi | 0.9965 | Aktiviinisignalointi vaikuttaa luuaineenvaihduntaan, ihmisvaikutus varmistamatta |
+| 5 | Diabeettinen kaihi | 0.9949 | Mekanistista perustetta ei voida muodostaa |
+| 6 | HER2-positiivinen rintasyöpä | 0.9943 | Spekulatiivinen; vaikutus kasvainbiologiaan voi olla ennakoimaton |
+| 7 | Transitionaalisoluinen karsinooma | 0.9939 | TGF-beeta-reitti liittyy virtsarakon syövän etenemiseen, suoraa näyttöä ei ole |
+| 8 | Eturauhasen virtsaputken uroteelikarsinooma | 0.9936 | Todennäköisesti graafin läheisyyden tuottama artefakti |
+| 9 | Munuaisaltaan sarkomatoidi transitionaalisoluinen karsinooma | 0.9936 | Harvinainen muoto, ontologialähtöinen ennuste |
+| 10 | Infiltroiva rakon sarkomatoidi uroteelikarsinooma | 0.9934 | Harvinainen muoto, todennäköinen graafiartefakti |
 
 ## Kliinisen tutkimuksen näyttö
 

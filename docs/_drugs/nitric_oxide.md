@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 307
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "NITRIC OXIDE"
 predicted_indications: ["malformation syndrome with odontal and/or periodontal component", "hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "pulmonary arteriovenous malformation (disease)", "pulmonary arterial hypertension associated with congenital heart disease", "pulmonary arterial hypertension associated with connective tissue disease", "pulmonary arterial hypertension associated with chronic hemolytic anemia"]
 description: "Nitric Oxide: ennustettu uusi käyttöaihe Malformation syndrome with odontal and/or periodontal component (näytön taso L5). Alkuperäinen käyttöaihe: Hypertension, Pulmonary"
@@ -49,7 +49,7 @@ Typpioksidia (inhaloitava) on käytetty keuhkoverenpainetaudin ja hengitysvajauk
 | Alkuperäinen käyttöaihe | Hypertension, Pulmonary;Respiratory Insufficiency |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Ennustettu uusi käyttöaihe | Malformation syndrome with odontal and/or periodontal component |
-| TxGNN-ennustepisteet | 99,57 % |
+| TxGNN-ennustepisteet | 0.9957 |
 | Näytön taso | L5 (vain mallin ennuste) |
 | Tilanne Suomessa | Vain peruutettuja myyntilupia |
 | Myyntilupien määrä | 1 (voimassa: 1) |

@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "AVIBACTAM"
 predicted_indications: ["ureter tuberculosis", "urinary schistosomiasis", "hyperamylasemia", "polyclonal hyperviscosity syndrome"]
-last_modified_at: 2026-10-23
-description: "Avibactam: ennustettu uusi käyttöaihe Uretertuberkuloosi (näytön taso L5). Alkuperäinen käyttöaihe: Bakteerin aiheuttama keuhkokuume, pehmytkudosinfektiot, keuhkokuume…"
+last_modified_at: 2026-10-28
+description: "Avibactam: ennustettu uusi käyttöaihe Uretertuberkuloosi (ureter tuberculosis) (näytön taso L5). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin"
 ---
 
 # Avibactam
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-## Avibaktaami: Uretertuberkuloosi
+## Avibactam: Uretertuberkuloosi (ureter tuberculosis)
 {: .text-alpha }
 
 ## Yhteenveto
@@ -45,9 +45,9 @@ TxGNN-malli ennustaa sen voivan tehota **uretertuberkuloosiin**, mutta ennustett
 
 | Kohde | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Bakteerin aiheuttama keuhkokuume, pehmytkudosinfektiot, keuhkokuume, virtsatieinfektiot, gramnegatiiviset bakteeri-infektiot |
-| Ennustettu uusi käyttöaihe | Uretertuberkuloosi |
-| TxGNN-ennusteen pistemäärä | 0,9911 |
+| Alkuperäinen käyttöaihe | Ei kirjattu paikallisiin tietoihin |
+| Ennustettu uusi käyttöaihe | Uretertuberkuloosi (ureter tuberculosis) |
+| TxGNN-ennusteen pistemäärä | 0.9911 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
 | Myyntilupien määrä | 2 (voimassa: 2) |
@@ -96,8 +96,8 @@ Turvallisuustiedot löytyvät valmisteyhteenvedosta.
 Muut ennusteet ovat heikommin perusteltuja, ja kaikilla näyttötaso on L5 sekä suositus Hold:
 
 - **Virtsatieskistosomiaasi** (pistemäärä 0,9906): ei selkeää mekanistista perustetta; avibaktaamilla ei tunneta lois-vaikutusta. Ennuste heijastaa todennäköisesti verkkoyhteyttä virtsatieinfektioihin.
-- **Hyperamylasemia** (99,01 %): laboratoriolöydös, johon ei ole uskottavaa mekanismia; ennuste on todennäköisesti tietämysgraafin artefakti.
-- **Polyklonaalinen hyperviskositeettioireyhtymä** (99,01 %): avibaktaamilla ei ole immuunivastetta tai veren juoksevuutta muuttavaa vaikutusta.
+- **Hyperamylasemia** (0.9901): laboratoriolöydös, johon ei ole uskottavaa mekanismia; ennuste on todennäköisesti tietämysgraafin artefakti.
+- **Polyklonaalinen hyperviskositeettioireyhtymä** (0.9901): avibaktaamilla ei ole immuunivastetta tai veren juoksevuutta muuttavaa vaikutusta.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

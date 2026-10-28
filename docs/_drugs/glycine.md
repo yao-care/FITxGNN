@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 209
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-13
-description: "Glycine: ennustettu uusi käyttöaihe Nenäontelon sairaus (näytön taso L5). Alkuperäinen käyttöaihe: Vaahterasiirappitauti (MSUD)"
+last_modified_at: 2026-10-28
 monitor_inn: "glycine"
 predicted_indications: ["nasal cavity disease"]
+description: "Glycine: ennustettu uusi käyttöaihe Nenäontelon sairaus (nasal cavity disease) (näytön taso L5). Alkuperäinen käyttöaihe: Maple Syrup Urine Disease"
 ---
 
 # Glycine
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-## Glysiini: Nenäontelon sairaus
+## Glycine: Nenäontelon sairaus (nasal cavity disease)
 {: .text-alpha }
 
 ## Yhden virkkeen yhteenveto
@@ -44,8 +44,8 @@ Glysiini (kauppanimi Maapliv) on aminohappo, jonka alkuperäinen käyttöaihe on
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Vaahterasiirappitauti (MSUD) |
-| Ennustettu uusi käyttöaihe | Nenäontelon sairaus |
+| Alkuperäinen käyttöaihe | Maple Syrup Urine Disease |
+| Ennustettu uusi käyttöaihe | Nenäontelon sairaus (nasal cavity disease) |
 | TxGNN-ennustepisteet | 0,9985 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
@@ -58,7 +58,6 @@ Tällä hetkellä yksityiskohtaista vaikutusmekanismia koskevia tietoja ei ole s
 
 TxGNN-pistemäärä on hyvin korkea (0,9985), mutta se on pelkkä mallipohjainen ennuste. Ennustetta ei voida verrata tunnettuun mekanismiin, eikä aineistossa ole glysiinikohtaista tietoa, joka yhdistäisi sen nenäontelon patologiaan. Ennustetta ei siksi voida pitää uskottavana ilman lisänäyttöä.
 
-Toinen ennustettu käyttöaihe, **akuutti laryngofaryngiitti** (pisteet 99,84 %), on samassa tilanteessa: sille ei ole kliinisiä tutkimuksia eikä julkaisuja.
 
 ## Kliininen tutkimusnäyttö
 

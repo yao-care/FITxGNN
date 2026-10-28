@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 468
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "VERTEPORFIN"
 predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies"]
 description: "Verteporfin: ennustettu uusi käyttöaihe Mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies (näytön taso L5). Alkuperäinen käyttöaihe: Myopia, Degenerative"
@@ -48,7 +48,7 @@ Verteporfiini on valoherkistäjä, jota on alun perin käytetty rappeuttavan lik
 |------|------|
 | Alkuperäinen käyttöaihe | Myopia, Degenerative;Macular Degeneration |
 | Ennustettu uusi käyttöaihe | Mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies |
-| TxGNN-ennustepisteet | 99,49 % |
+| TxGNN-ennustepisteet | 0.9949 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |

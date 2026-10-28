@@ -48,7 +48,7 @@ Pravastatiini on HMG-CoA-reduktaasin estäjä (statiini), jota on alun perin kä
 |------|------|
 | Alkuperäinen käyttöaihe | Ei kirjattu paikallisiin tietoihin |
 | Ennustettu uusi käyttöaihe | HIV infectious disease |
-| TxGNN-ennustepisteet | 99,95 % |
+| TxGNN-ennustepisteet | 0.9974 |
 | Näytön taso | L4 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |

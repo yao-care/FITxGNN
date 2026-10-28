@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 333
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "PEGASPARGASE"
 predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "follicular lymphoma", "methylcobalamin deficiency type cblE", "lymphoid neoplasm", "Hodgkins lymphoma", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive"]
 description: "Pegaspargase: ennustettu uusi käyttöaihe Pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma (näytön taso L5). Alkuperäinen käyttöaihe: Precursor Cell Lymphoblastic Leukemia-Ly…"
@@ -48,7 +48,7 @@ Pegaspargaasi on pegyloitu L-asparaginaasi, jota on alun perin käytetty prekurs
 |------|------|
 | Alkuperäinen käyttöaihe | Precursor Cell Lymphoblastic Leukemia-Lymphoma |
 | Ennustettu uusi käyttöaihe | Pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma |
-| TxGNN-ennustepisteet | 99,96 % |
+| TxGNN-ennustepisteet | 0.9995 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |

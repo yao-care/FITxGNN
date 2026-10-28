@@ -46,7 +46,7 @@ Rufinamidi on epilepsialääke, jota on käytetty epilepsian hoitoon. TxGNN-mall
 |------|------|
 | Alkuperäinen käyttöaihe | Epilepsy |
 | Ennustettu uusi käyttöaihe | Perioral myoclonia with absences |
-| TxGNN-ennustepisteet | 99,57 % |
+| TxGNN-ennustepisteet | 0.9951 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |

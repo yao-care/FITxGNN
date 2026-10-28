@@ -49,7 +49,7 @@ Huomautus: ensimmäinen TxGNN-ennuste (sija 1) on "visuaalinen epilepsia" (näk�
 |------|------|
 | Alkuperäinen käyttöaihe | Epilepsy |
 | Ennustettu uusi käyttöaihe | Beta-ketothiolase deficiency |
-| TxGNN-ennustepisteet | 0.9990 (status epilepticus); 99,98 % (visuaalinen epilepsia) |
+| TxGNN-ennustepisteet | 0.9990 |
 | Näytön taso | L5 (status epilepticus) |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 9/9) |
 | Myyntilupien määrä | 9 (voimassa: 9) |

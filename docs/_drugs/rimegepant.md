@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 379
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "RIMEGEPANT"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
 description: "Rimegepant: ennustettu uusi käyttöaihe Atrophoderma vermiculata (näytön taso L5). Alkuperäinen käyttöaihe: Migraine Disorders"
@@ -48,7 +48,7 @@ Rimegepantti on CGRP-reseptorin salpaaja, jota on alun perin käytetty migreenin
 |------|------|
 | Alkuperäinen käyttöaihe | Migraine Disorders |
 | Ennustettu uusi käyttöaihe | Atrophoderma vermiculata |
-| TxGNN-ennustepisteet | 99,94 % |
+| TxGNN-ennustepisteet | 0.9976 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |

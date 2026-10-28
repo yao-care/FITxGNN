@@ -5,7 +5,7 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 332
 evidence_level: L3
 indication_count: 6
-last_modified_at: 2026-10-13
+last_modified_at: 2026-10-28
 monitor_inn: "PAZOPANIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
 description: "Pazopanib: ennustettu uusi käyttöaihe Liposarcoma (näytön taso L3). Alkuperäinen käyttöaihe: Carcinoma, Renal Cell"
@@ -48,7 +48,7 @@ Patsopanibi on VEGFR-, PDGFR- ja c-KIT-reseptoreita estävä tyrosiinikinaasi-in
 |------|------|
 | Alkuperäinen käyttöaihe | Carcinoma, Renal Cell |
 | Ennustettu uusi käyttöaihe | Liposarcoma |
-| TxGNN-ennustepisteet | 99,63 % |
+| TxGNN-ennustepisteet | 0.9959 |
 | Näytön taso | L3 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |

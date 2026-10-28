@@ -50,7 +50,7 @@ Raportissa arvioidaan kolme ennustettua käyttöaihetta; agorafobia ja dystymia 
 |------|------|
 | Alkuperäinen käyttöaihe | Schizophrenia;Bipolar Disorder |
 | Ennustettu uusi käyttöaihe | Benign paroxysmal torticollis of infancy |
-| TxGNN-ennustepisteet | Vinokaula 0.9954; agorafobia 0.9947; dystymia 99,28 % |
+| TxGNN-ennustepisteet | 0.9954 |
 | Näytön taso | Vinokaula L5; agorafobia L3; dystymia L3 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 9/9) |
 | Myyntilupien määrä | 9 (voimassa: 9) |

@@ -50,10 +50,10 @@ Ennuste perustuu pelkästään laskennalliseen mallinnukseen.
 |------|------|
 | Alkuperäinen käyttöaihe | HIV-infektiot |
 | Ennustettu uusi käyttöaihe | Monirauhasneoplasia (multiple endocrine neoplasia) |
-| TxGNN-ennusteen pistemäärä | 99,82 % |
+| TxGNN-ennusteen pistemäärä | 0,9982 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -62,7 +62,7 @@ Ennuste perustuu pelkästään laskennalliseen mallinnukseen.
 
 Maraviroki on CCR5-kemokiinireseptorin antagonisti. Tälle raportille koottu aineisto ei sisällä yksityiskohtaista vaikutusmekanismitietoa, joten mekanismianalyysi jää rajalliseksi.
 
-Annettujen tietojen perusteella ei löydy tuettua mekanistista yhteyttä HIV-infektion ja monirauhasneoplasian välille. Korkea TxGNN-pistemäärä (0,998) on ainoastaan laskennallinen ennuste, eikä sitä tue yksikään tutkimus tai julkaisu.
+Annettujen tietojen perusteella ei löydy tuettua mekanistista yhteyttä HIV-infektion ja monirauhasneoplasian välille. Korkea TxGNN-mallin (syväoppiminen) pistemäärä (0,9982) on ainoastaan laskennallinen ennuste, joka voi heijastaa mallin oppimia samankaltaisuuksia sairauksien välillä, ei biologista näyttöä.
 
 ### Muut ennustetut käyttöaiheet
 
@@ -70,8 +70,8 @@ Mallin muista ennusteista kaksi on mekanismin kannalta mielenkiintoisempia:
 
 | Sija | Käyttöaihe | Pistemäärä | Näytön taso | Huomio |
 |------|------|------|------|------|
-| 3 | Primaarinen ihon T-solulymfooma | 99,72 % | L5 | Kemokiinireseptorit osallistuvat T-solujen kulkeutumiseen; ainoa julkaisu on yleiskatsaus ACKR1:stä, ei maravirokispesifinen |
-| 10 | HER2-positiivinen rintasyöpä | 99,22 % | L4 | CCL5–CCR5-akseli voi välittää trastutsumabiresistenssiä (prekliininen tutkimus); CCR5:n salpaus on teoriassa mahdollinen tapa kumota resistenssi |
+| 3 | Primaarinen ihon T-solulymfooma | 0,9972 | L5 | Kemokiinireseptorit osallistuvat T-solujen kulkeutumiseen; ainoa julkaisu on yleiskatsaus ACKR1:stä, ei maravirokispesifinen |
+| 10 | HER2-positiivinen rintasyöpä | 0,9922 | L4 | CCL5–CCR5-akseli voi välittää trastutsumabiresistenssiä (prekliininen tutkimus); CCR5:n salpaus on teoriassa mahdollinen tapa kumota resistenssi |
 
 Muiden ennusteiden (aknen, lapsuusiän lupuksen, ihon B-solulymfooman, kandidiaasin, komplementti 4a -puutoksen ja sytomegaloviruksen) tueksi ei ole maravirokia koskevaa suoraa näyttöä.
 

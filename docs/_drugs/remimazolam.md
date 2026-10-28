@@ -6,9 +6,9 @@ nav_order: 374
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-13
-description: "Remimazolam: ennustettu uusi käyttöaihe Unettomuus (insomnia) (näytön taso L5). Alkuperäinen käyttöaihe: Tajuissaan tehtävä sedaatio"
 monitor_inn: "remimazolam"
 predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium"]
+description: "Remimazolam: ennustettu uusi käyttöaihe Insomnia (disease) (näytön taso L5). Alkuperäinen käyttöaihe: Conscious Sedation"
 ---
 
 # Remimazolam
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-## Remimatsolaami: Tajuissa olevasta sedaatiosta unettomuuteen
+## Remimazolam: Insomnia (disease)
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -47,12 +47,12 @@ TxGNN-malli ennustaa sen voivan tehota **unettomuuteen** (toisena ennusteena alk
 
 | Kohde | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Tajuissaan tehtävä sedaatio |
-| Ennustettu uusi käyttöaihe | Unettomuus (insomnia) |
-| TxGNN-ennusteen pistemäärä | 99,91 % |
+| Alkuperäinen käyttöaihe | Conscious Sedation |
+| Ennustettu uusi käyttöaihe | Insomnia (disease) |
+| TxGNN-ennusteen pistemäärä | 0.9991 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -63,7 +63,7 @@ Tässä raportissa käytettävissä olevassa aineistossa ei ole tarkkaa vaikutus
 
 Alkuperäinen käyttöaihe (sedaatio) ja unettomuus liittyvät molemmat keskushermoston estoon GABA-järjestelmän kautta. Lääkkeen hyvin lyhyt vaikutusaika (nopea esteraasihajoaminen) voisi auttaa nukahtamisessa, mutta tuskin ylläpitää untaa. Lisäksi lääke on kehitetty vain suonensisäiseen käyttöön toimenpidesedaatiossa ja anestesiassa. Suun kautta otettavaa valmistetta ei ole kuvattu, mikä heikentää soveltuvuutta pitkäaikaiseen unettomuuden hoitoon.
 
-Toinen ennuste, **alkoholin vieroitusdelirium** (pistemäärä 99,30 %), nojaa samaan luokkamekanismiin: bentsodiatsepiinit ovat vieroitusoireiden vakiohoito. Nopea vaikutuksen alkaminen, lyhyt puoliintumisaika ja elimistä riippumaton aineenvaihdunta voisivat teoriassa sallia tarkan annostelun tehohoidossa. Lyhyt vaikutusaika voi kuitenkin aiheuttaa rebound-oireita ja vaatia toistuvaa tai jatkuvaa annostelua. Etua vakiintuneisiin lääkkeisiin (diatsepaami, loratsepaami, fenobarbitaali) nähden ei ole osoitettu.
+Toinen ennuste, **alkoholin vieroitusdelirium** (pistemäärä 0,9930), nojaa samaan luokkamekanismiin: bentsodiatsepiinit ovat vieroitusoireiden vakiohoito. Nopea vaikutuksen alkaminen, lyhyt puoliintumisaika ja elimistä riippumaton aineenvaihdunta voisivat teoriassa sallia tarkan annostelun tehohoidossa. Lyhyt vaikutusaika voi kuitenkin aiheuttaa rebound-oireita ja vaatia toistuvaa tai jatkuvaa annostelua. Etua vakiintuneisiin lääkkeisiin (diatsepaami, loratsepaami, fenobarbitaali) nähden ei ole osoitettu.
 
 ---
 

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Niraparib
-parent: Kohtalainen näyttö (L3-L4)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 305
-evidence_level: L3
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Niraparib: ennustettu uusi käyttöaihe Kystinen neoplasia (cystic neoplasm) (näytön taso L3). Alkuperäinen käyttöaihe: Munanjohtimen, vatsakalvon ja munasarjan kasvaimet"
 monitor_inn: "NIRAPARIB"
 predicted_indications: ["epiglottis neoplasm", "cystic neoplasm", "benign neoplasm of hypopharynx", "benign neoplasm of tongue", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "tumor of testis and paratestis", "inner ear neoplasm", "pre-malignant neoplasm", "schwannoma of jugular foramen"]
+description: "Niraparib: ennustettu uusi käyttöaihe Epiglottis neoplasm (näytön taso L5). Alkuperäinen käyttöaihe: Fallopian Tube Neoplasms"
 ---
 
 # Niraparib
 {: .fs-9 }
 
-Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Niraparibi: Munasarjasyövästä kystiseen neoplasiaan
+## Niraparib: Epiglottis neoplasm
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -48,12 +48,12 @@ Niraparibi on PARP-estäjä, jota on käytetty munasarja-, munanjohdin- ja vatsa
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Munanjohtimen, vatsakalvon ja munasarjan kasvaimet; kastraatioresistentti eturauhassyöpä |
-| Ennustettu uusi käyttöaihe | Kystinen neoplasia (cystic neoplasm) |
-| TxGNN-ennustepistemäärä | 99,99 % |
-| Näytön taso | L3 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien lukumäärä | 2 (molemmat peruttu) |
+| Alkuperäinen käyttöaihe | Fallopian Tube Neoplasms;Peritoneal Neoplasms;Ovarian Neoplasms; Prostatic Neoplasms, Castration-Resistant |
+| Ennustettu uusi käyttöaihe | Epiglottis neoplasm |
+| TxGNN-ennustepistemäärä | 0.9999 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Myyntilupien lukumäärä | 2 (voimassa: 2) |
 | Suositeltu päätös | Hold (odota; tutkimuskysymys jatkotarkasteluun) |
 
 ---
@@ -101,8 +101,8 @@ Vaiheen 3 satunnaistettuja tutkimuksia ei ole.
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/004249 | Zejula | – | Munanjohtimen, vatsakalvon ja munasarjan kasvaimet (peruttu) |
-| EMEA/H/C/005932 | Akeega | – | Kastraatioresistentti eturauhassyöpä (peruttu) |
+| EMEA/H/C/004249 | Zejula | – | Munanjohtimen, vatsakalvon ja munasarjan kasvaimet (voimassa) |
+| EMEA/H/C/005932 | Akeega | – | Kastraatioresistentti eturauhassyöpä (voimassa) |
 
 ---
 

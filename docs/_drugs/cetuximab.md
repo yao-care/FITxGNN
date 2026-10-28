@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 109
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-13
-description: "Cetuximab: ennustettu uusi käyttöaihe Lapsuuden keuhkoputken adenoomat/karsinoidit (näytön taso L5). Alkuperäinen käyttöaihe: Pään ja kaulan kasvaimet"
 monitor_inn: "CETUXIMAB"
 predicted_indications: ["bronchial adenomas/carcinoids childhood", "non-seminomatous lesion", "ductal or ductular proliferation", "chondroid hamartoma", "tumor of testis and paratestis", "odontogenic cyst", "thyroglossal duct cyst", "cystic neoplasm", "epiglottis neoplasm", "pre-malignant neoplasm"]
+last_modified_at: 2026-10-27
+description: "Cetuximab: ennustettu uusi käyttöaihe Lapsuusiän keuhkoputken adenoomat/karsinoidit (bronchial adenomas/carcinoids childhood) (näytön taso L5). Alkuperäinen käyttöaihe: Head and Neck Neoplasms"
 ---
 
 # Cetuximab
@@ -33,103 +33,82 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Cetuksimabi: pään ja kaulan sekä paksu- ja peräsuolen kasvaimista lasten keuhkoputken adenoomiin/karsinoideihin
+## Setuksimabi: EGFR-vasta-aine → Lapsuusiän keuhkoputken adenoomat/karsinoidit (bronchial adenomas/carcinoids childhood)
 {: .text-alpha }
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Cetuksimabi on EGFR-reseptoria (epidermaalisen kasvutekijän reseptori) salpaava vasta-aine, jota on alun perin käytetty pään ja kaulan kasvainten sekä paksu- ja peräsuolen kasvainten hoitoon.
-TxGNN-malli ennustaa sen voivan tehota **lapsuuden keuhkoputken adenoomiin/karsinoideihin**.
-Ennuste perustuu pelkästään malliin: tälle käyttöaiheelle ei ole **yhtään kliinistä tutkimusta eikä julkaisua**.
-
----
+Setuksimabi on monoklonaalinen vasta-aine, joka estää epidermaalisen kasvutekijän reseptorin (EGFR) toimintaa.
+TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **lapsuusiän keuhkoputken adenoomat/karsinoidit (bronchial adenomas/carcinoids childhood)**.
+Ennusteen tueksi ei ole löytynyt yhtään kliinistä tutkimusta eikä julkaisua, joten kyseessä on pelkkä mallin ennuste.
 
 ## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Pään ja kaulan kasvaimet; paksu- ja peräsuolen kasvaimet |
-| Ennustettu uusi käyttöaihe | Lapsuuden keuhkoputken adenoomat/karsinoidit |
-| TxGNN-ennustepistemäärä | 99,95 % |
+| Alkuperäinen käyttöaihe | Head and Neck Neoplasms;Colorectal Neoplasms |
+| Ennustettu uusi käyttöaihe | Lapsuusiän keuhkoputken adenoomat/karsinoidit (bronchial adenomas/carcinoids childhood) |
+| TxGNN-ennusteen pistemäärä | 0,9995 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
-| Myyntilupien määrä | 1 |
-| Suositeltu päätös | Hold (odota) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
+| Suositeltu päätös | Hold (odotetaan) |
 
----
+## Miksi ennuste voi olla perusteltu?
 
-## Miksi ennuste on (tai ei ole) perusteltu?
+Yksityiskohtaista vaikutusmekanismitietoa ei ole tässä raportissa käytetyssä aineistossa. Tiedetään, että setuksimabi on vasta-aine, joka sitoutuu EGFR-reseptoriin ja estää sen kautta kulkevaa kasvusignalointia.
 
-Cetuksimabi on monoklonaalinen vasta-aine, joka sitoutuu EGFR-reseptoriin ja estää sen signaloinnin. Tästä syystä sitä käytetään EGFR:ää ilmentävissä kasvaimissa, kuten metastasoituneessa paksu- ja peräsuolisyövässä sekä pään ja kaulan levyepiteelisyövässä. Yksityiskohtaista vaikutusmekanismitietoa ei ollut tähän raporttiin koottuna kokonaisuudessaan. Kohdereseptoria koskeva tieto on kuitenkin saatavilla.
+Ennuste perustuu mallin tunnistamaan samankaltaisuuteen lääkkeen ja kohdesairauden välillä. EGFR-salpauksen ja lapsuusiän keuhkoputken karsinoidien välillä ei ole kuitenkaan osoitettu mekanistista yhteyttä. Sitä, että nämä kasvaimet olisivat riippuvaisia EGFR-signaloinnista, ei ole todistettu.
 
-Alkuperäiset käyttöaiheet ovat EGFR-riippuvaisia epiteelikasvaimia. Lasten keuhkoputken karsinoidit ovat hermoston ja umpirauhasten (neuroendokriinisia) kasvaimia, joiden EGFR-riippuvuutta ei ole osoitettu. Mekanistinen yhteys on siis heikko, ja korkea pistemäärä kuvaa lähinnä mallin sisäistä päätelmää.
+Korkea pistemäärä on siis vain mallin tulos, eikä se yksin riitä perusteeksi kliiniselle käytölle.
 
----
-
-## Kliiniset tutkimukset
+## Kliininen tutkimusnäyttö
 
 Tälle käyttöaiheelle ei ole tällä hetkellä rekisteröityjä kliinisiä tutkimuksia.
 
----
-
 ## Kirjallisuusnäyttö
 
-Aiheesta ei ole tällä hetkellä saatavilla kirjallisuutta.
+Tälle käyttöaiheelle ei ole tällä hetkellä saatavilla aiheeseen liittyvää kirjallisuutta.
 
----
+## Suomen markkinatiedot
 
-## Tiedot Suomen markkinoilta
-
-| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/000558 | Erbitux (Merck Europe B.V.) | Ei tiedossa | Pään ja kaulan kasvaimet; paksu- ja peräsuolen kasvaimet |
-
-Tämä myyntilupa on tilassa "peruutettu".
-
----
+| Myyntiluvan numero | Tuotenimi | Valmistaja |
+|---------|------|------|
+| EMEA/H/C/000558 | Erbitux | Merck Europe B.V. |
 
 ## Sytotoksisuus
 
 | Kohta | Sisältö |
 |------|------|
-| Sytotoksisuusluokitus | Kohdennettu hoito (EGFR-vasta-aine) |
+| Sytotoksisuusluokitus | Täsmähoito (EGFR:ää estävä monoklonaalinen vasta-aine), ei perinteinen solunsalpaaja |
 | Luuydinsuppression riski | Katso valmisteyhteenvedon varoitukset ja varotoimet |
-| Oksentelua aiheuttavuus | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Oksentelua aiheuttava vaikutus | Katso valmisteyhteenvedon varoitukset ja varotoimet |
 | Seurattavat parametrit | Katso valmisteyhteenvedon varoitukset ja varotoimet |
 | Käsittelysuojaus | Katso valmisteyhteenvedon varoitukset ja varotoimet |
 
-Ennusteen perustelutekstissä mainitaan tunnetuiksi haittavaikutuksiksi infuusioreaktiot ja ihotoksisuus.
+## Turvallisuushuomiot
 
----
+Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole tässä aineistossa saatavilla, joten niiden osalta on tarkistettava valmisteyhteenveto.
 
-## Turvallisuusnäkökohdat
+**Lääkeyhteisvaikutukset** (yhteensä 20 tietokantahavaintoa):
+- **Merkittävät (Major):** aminolevulinihappo, talidomidi.
+- **Kohtalaiset (Moderate):**
+  - protonipumpun estäjät (rabepratsoli, omepratsoli, deksansoprasoli, esomepratsoli, lansopratsoli, pantopratsoli);
+  - solunsalpaajat (kapesitabiini, karboplatiini, sisplatiini, fluorourasiili, oksaliplatiini, omasetaksiinimepesuksinaatti);
+  - muut: metoksaleeni, paikallinen aminolevulinihappo, paikallinen metyyliaminolevulinaatti, idelalisibi, verteporfiini.
 
-- **Yhteisvaikutukset:** Yhteisvaikutushaussa löytyi 19 lääkeaineparia. Merkittäviä (Major) yhteisvaikutuksia ovat:
-  - aminolevulinaatti
-  - talidomidi
+## Johtopäätös ja seuraavat askeleet
 
-  Kohtalaisia (Moderate) yhteisvaikutuksia ovat:
-  - protonipumpun estäjät (rabepratsoli, omepratsoli, deksilansopratsoli, esomepratsoli, lansopratsoli, pantopratsoli)
-  - solunsalpaajat (kapesitabiini, karboplatiini, sisplatiini, fluorourasiili, oksaliplatiini, omasetaksiinimepesuksinaatti)
-  - muut: metoksaleeni, paikallinen aminolevulinaatti, paikallinen metyyliaminolevulinaatti, idelalisibi, verteporfiini
-
-Muiden turvallisuustietojen osalta katso valmisteyhteenveto.
-
----
-
-## Johtopäätös ja seuraavat vaiheet
-
-**Päätös: Hold (odota)**
+**Päätös: Hold (odotetaan)**
 
 **Perustelut:**
-- Ennuste perustuu vain malliin (L5). Kliinisiä tutkimuksia ja kirjallisuutta ei ole, eikä EGFR-riippuvuutta lasten keuhkoputken karsinoideissa ole osoitettu.
-- Lisäksi Suomessa ainoa myyntilupa on peruutettu.
+- Ennuste perustuu pelkkään mallin pistemäärään (0,9995), eikä tukena ole yhtään kliinistä tutkimusta tai julkaisua. Mekanistista EGFR-riippuvuutta ei ole osoitettu, joten näyttötaso on L5.
 
-**Jatkoa varten tarvitaan:**
-- Valmisteyhteenvedon varoitukset ja vasta-aiheet (puuttuvat tällä hetkellä ja estävät turvallisuusarvioinnin etenemisen)
-- Vaikutusmekanismin tarkempi kuvaus ja prekliininen näyttö EGFR:n roolista keuhkoputken karsinoideissa
-- Selvitys myyntiluvan peruuntumisen syystä ja lääkkeen saatavuudesta Suomessa
-- Mallin muiden ennustettujen käyttöaiheiden tarkastelu: "kystinen kasvain" ja "esiasteinen kasvain" (L2) sisältävät kliinisiä tutkimuksia ja ovat tämän ennusteen kohdetta lupaavampia jatkotutkimuksen aiheita.
+**Etenemiseksi tarvitaan:**
+- Prekliininen tai kirjallisuuteen perustuva selvitys EGFR:n merkityksestä lapsuusiän keuhkoputken karsinoideissa.
+- Yksityiskohtaiset vaikutusmekanismitiedot.
+- Valmisteyhteenvedon turvallisuustiedot (varoitukset ja vasta-aiheet), erityisesti lapsipotilaita koskien.
+- Hyöty–haitta-arvio, jossa huomioidaan EGFR-vasta-aineiden tyypilliset haittavaikutukset, kuten infuusioreaktiot ja ihotoksisuus.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

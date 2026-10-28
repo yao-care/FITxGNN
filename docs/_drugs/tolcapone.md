@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Tolkaponi: Parkinsonin taudista Rasmussenin subakuuttiin enkefaliittiin
+## Tolkaponi: Rasmussenin subakuutti enkefaliitti
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -48,10 +48,10 @@ Tolkaponi on COMT-estäjä, jota on alun perin käytetty Parkinsonin taudin hoit
 |------|------|
 | Alkuperäinen käyttöaihe | Parkinsonin tauti |
 | Ennustettu uusi käyttöaihe | Rasmussenin subakuutti enkefaliitti |
-| TxGNN-ennustepisteet | 99,93 % |
+| TxGNN-ennustepisteet | 0,9993 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -84,7 +84,7 @@ Tällä hetkellä ei ole aiheeseen liittyvää kirjallisuutta Rasmussenin enkefa
 
 | Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/000132 | Tasmar (Viatris Healthcare Limited) | – | Parkinsonin tauti (myyntilupa peruttu) |
+| EMEA/H/C/000132 | Tasmar (Viatris Healthcare Limited) | – | Parkinsonin tauti (myyntilupa voimassa) |
 
 ---
 

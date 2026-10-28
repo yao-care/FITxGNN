@@ -6,9 +6,9 @@ nav_order: 440
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Tivozanib: ennustettu uusi käyttöaihe Endocervikaalinen karsinooma (näytön taso L5). Alkuperäinen käyttöaihe: Munuaissolusyöpä (Carcinoma, Renal Cell)"
 monitor_inn: "TIVOZANIB"
 predicted_indications: ["endocervical carcinoma", "uterine ligament adenocarcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "cervical adenosquamous carcinoma, glassy cell variant", "uterine ligament endometrioid adenocarcinoma", "uterine ligament mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma", "cervical mucinous adenocarcinoma, minimal deviation variant"]
+description: "Tivozanib: ennustettu uusi käyttöaihe Endocervical carcinoma (näytön taso L5). Alkuperäinen käyttöaihe: Carcinoma, Renal Cell"
 ---
 
 # Tivozanib
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Tivozanibi: Munuaissolusyövästä endocervikaaliseen karsinoomaan
+## Tivozanib: Endocervical carcinoma
 {: .text-alpha }
 
 ## Yhteenveto
@@ -44,12 +44,12 @@ Tivozanibi on VEGF-reseptorin tyrosiinikinaasin estäjä, jota on alun perin kä
 
 | Kohde | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Munuaissolusyöpä (Carcinoma, Renal Cell) |
-| Ennustettu uusi käyttöaihe | Endocervikaalinen karsinooma |
+| Alkuperäinen käyttöaihe | Carcinoma, Renal Cell |
+| Ennustettu uusi käyttöaihe | Endocervical carcinoma |
 | TxGNN-ennustepisteet | 99,81 % |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste on perusteltu?
@@ -58,7 +58,7 @@ Tämän raportin aineistossa lääkkeen vaikutusmekanismitietoa ei ole saatavill
 
 Angiogeneesillä on merkitystä myös kohdunkaulansyövässä, ja VEGF:ää estävällä bevasitsumabilla on vakiintunut asema pitkälle edenneen taudin hoidossa. Siksi biologinen perustelu on uskottava. Munuaissolusyöpä ja kohdunkaulan syöpä ovat kuitenkin hyvin erilaisia kasvaimia, eikä aineistossa ole tutkimustietoa, joka osoittaisi tivozanibin tehoavan kohdunkaulan syöpään.
 
-Ennuste on vahvasti laskennallinen. Se voi heijastaa tautien välisiä suhteita tietograafissa eikä välttämättä taudin omaa biologiaa. Muut korkealle sijoittuneet ennusteet (esim. kohdunkaulan adenoidikystinen karsinooma ja kohdunkaulan limaa tuottavat adenokarsinoomat sekä kohdun nivelsiteen adenokarsinoomat) ovat hyvin harvinaisia alatyyppejä, joille ei myöskään ole omaa näyttöä.
+Ennuste on vahvasti laskennallinen. Muut korkealle sijoittuneet ennusteet (esim. kohdunkaulan adenoidikystinen karsinooma ja kohdunkaulan limaa tuottavat adenokarsinoomat sekä kohdun nivelsiteen adenokarsinoomat) ovat hyvin harvinaisia alatyyppejä, joille ei myöskään ole omaa näyttöä.
 
 ## Kliininen tutkimusnäyttö
 

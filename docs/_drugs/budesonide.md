@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Budesonide
-parent: Kohtalainen näyttö (L3-L4)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 87
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-13
-description: "Budesonide: ennustettu uusi käyttöaihe Atooppinen ekseema (näytön taso L4). Alkuperäinen käyttöaihe: Ruokatorven sairaudet (muut luvat: COPD ja astma)"
 monitor_inn: "BUDESONIDE"
 predicted_indications: ["atopic eczema", "bronchitis", "dermatitis, atopic", "polyp of vocal cord", "polyp of middle ear", "epulis", "fibroepithelial polyp", "uterine polyp", "polyp of frontal sinus", "polyp of external auditory canal"]
+last_modified_at: 2026-10-27
+description: "Budesonide: ennustettu uusi käyttöaihe Atooppinen ekseema (atopic eczema) (näytön taso L5). Alkuperäinen käyttöaihe: Esophageal Diseases"
 ---
 
 # Budesonide
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,108 +33,84 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Budesoni: Esofagiitista ja keuhkosairauksista kohti ennustettua uutta käyttöaihetta – atooppinen ekseema
+## Budesonidi: glukokortikoidi → atooppinen ekseema (atopic eczema)
 {: .text-alpha }
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Budesoni on glukokortikoidi, jota on käytetty Suomessa (EU-myyntiluvilla) ruokatorven sairauksien sekä keuhkoahtaumataudin (COPD) ja astman hoitoon.
-TxGNN-malli ennustaa sen voivan tehoa **atooppiseen ekseemaan**, mutta tälle käyttöaiheelle ei ole yhtään kliinistä tutkimusta ja **19 julkaisusta** vain yksi on suoraan aiheeseen liittyvä, ja sekin on prekliininen lääkemuotoilututkimus.
-
----
+Budesonidi on paikallisesti vaikuttava glukokortikoidi, jota käytetään tulehduksellisissa hengitystie- ja ruokatorvisairauksissa. TxGNN-malli ennustaa sen voivan tehota sairauteen **atooppinen ekseema (atopic eczema)**. Tälle ennusteelle ei ole kliinisiä tutkimuksia, ja kerätty kirjallisuus on pääosin epäsuoraa, joten näyttö on heikko.
 
 ## Pikakatsaus
 
-| Kohta | Sisältö |
+| Kohde | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Ruokatorven sairaudet (muut luvat: COPD ja astma) |
-| Ennustettu uusi käyttöaihe | Atooppinen ekseema |
-| TxGNN-ennustepistemäärä | 99,96 % |
-| Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja lupia |
-| Lupien lukumäärä | 6 (kaikki peruutettuja) |
+| Alkuperäinen käyttöaihe | Esophageal Diseases; Pulmonary Disease, Chronic Obstructive;Asthma; Asthma;Pulmonary Disease, Chronic Obstructive; Pulmonary Disease, Chronic Obstructive |
+| Ennustettu uusi käyttöaihe | Atooppinen ekseema (atopic eczema) |
+| TxGNN-ennustepistemäärä | 0,9996 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 6/6) |
+| Myyntilupien määrä | 6 (voimassa: 6) |
 | Suositeltu päätös | Hold (odota) |
 
----
+## Miksi ennuste on uskottava?
 
-## Miksi ennuste on perusteltu?
+Budesonidin vaikutusmekanismitietoja ei ole tämän raportin aineistossa saatavilla. Tunnetusti budesonidi on glukokortikoidi, jolla on laaja tulehdusta ja immuunivastetta vaimentava vaikutus. Tämä on periaatteessa yhteensopiva atooppiseen ekseemaan liittyvän tyypin 2 tulehduksen kanssa.
 
-Tämän raportin laatimiseen koottu aineisto ei sisällä yksityiskohtaista vaikutusmekanismitietoa. Tunnetun tiedon perusteella budesoni on paikallisesti vaikuttava glukokortikoidi, jonka teho tulehduksellisissa sairauksissa (ruokatorvi, hengitystiet) on osoitettu, ja mekanistisesti se voisi soveltua myös atooppiseen ekseemaan.
-
-Glukokortikoidina budesoni estää tulehdusta edistävien sytokiinien ja kemokiinien ilmentymistä sekä immuunisolujen kulkeutumista tulehtuneeseen kudokseen. Atooppinen ekseema on tyypin 2 tulehdussairaus, joten vaikutus on uskottava. Alkuperäiset käyttöaiheet (eosinofiilinen ruokatorvitulehdus, astma, COPD) ovat myös limakalvojen tulehdussairauksia, mikä tukee yhteyttä.
-
-Korkea ennustepistemäärä ei kuitenkaan ole kliinisen näytön korvike. Haetussa kirjallisuudessa korostuvat kontaktiallergia ja kortikosteroidien yliherkkyys, mikä on pikemminkin varoitus kuin tuki.
-
-Huomionarvoista on myös, että tietoaineiston toiseksi sijoittuva ennuste, **bronkiitti** (pistemäärä 99,81 %), on näytöltään vahvempi: siitä on Vaiheen 2 tutkimuksia ja tason L2 näyttö. Se voisi olla jatkoarvioinnissa kiinnostavampi kohde.
-
----
+Ennusteen tueksi ei kuitenkaan ole kliinistä näyttöä. Kerätty kirjallisuus käsittelee pääosin kontaktiallergiaa, kortikosteroidiyliherkkyyttä tai muita allergisia sairauksia. Ainoa suoraan aiheeseen liittyvä julkaisu on vuoden 2024 prekliininen formulaatiotutkimus, jossa budesonidia sisältäviä nanopartikkeleita muotoiltiin hydrogeeleiksi atooppisen ihottuman paikallishoitoon. Korkea pistemäärä ei siis perustu kliiniseen näyttöön.
 
 ## Kliininen tutkimusnäyttö
 
-Atooppisesta ekseemasta ei ole tällä hetkellä rekisteröityjä kliinisiä tutkimuksia.
-
----
+Aiheeseen ei ole tällä hetkellä rekisteröityjä kliinisiä tutkimuksia.
 
 ## Kirjallisuusnäyttö
 
-Näytön laatu on heikko; suurin osa julkaisuista käsittelee kontaktiallergiaa tai muita sairauksia. Valikoima tärkeimmistä:
+Suoraan atooppiseen ihottumaan liittyvät, valikoidut julkaisut:
 
 | PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [38275852](https://pubmed.ncbi.nlm.nih.gov/38275852/) | 2024 | Prekliininen lääkemuotoilu | Gels | Budesonidia sisältävät nanopartikkelit hydrogeelissä lasten atooppisen ihottuman paikallishoitoon; ainoa suoraan relevantti julkaisu |
-| [9496795](https://pubmed.ncbi.nlm.nih.gov/9496795/) | 1998 | Avoin kliininen tutkimus (14 lasta) | Pediatric Dermatology | Paikallisen budesonin vaikutus lasten lyhytaikaiseen kasvuun atooppisessa ihottumassa (knemometria) |
-| [16428071](https://pubmed.ncbi.nlm.nih.gov/16428071/) | 2006 | Laboratoriotutkimus | Int Immunopharmacol | Budesoni, mutta ei takrolimuusi, vaikuttaa ihmisen keratinosyyttien immuunitoimintoihin |
-| [8864369](https://pubmed.ncbi.nlm.nih.gov/8864369/) | 1996 | Kliininen tutkimus | Dermatology | Paikallisten kortikosteroidien vaikutus luun ja kollageenin vaihtuvuuteen atooppista ihottumaa sairastavilla lapsilla |
-| [21062310](https://pubmed.ncbi.nlm.nih.gov/21062310/) | 2010 | Satunnaistettu, lumekontrolloitu (koirat) | J Vet Pharmacol Ther | Budesonidihoitoaine vähensi ihottumaa ja kutinaa koirien atooppisessa ihottumassa (eläintutkimus) |
-| [14616123](https://pubmed.ncbi.nlm.nih.gov/14616123/) | 2003 | Katsaus | Allergy | Kortikosteroidiallergia astmapotilailla |
-| [33931866](https://pubmed.ncbi.nlm.nih.gov/33931866/) | 2021 | Epikutaanitestitutkimus | Contact Dermatitis | Budesoni on kortikosteroidiyliherkkyyden merkkiaine; allergia on vähentynyt |
+| [38275852](https://pubmed.ncbi.nlm.nih.gov/38275852/) | 2024 | Prekliininen formulaatiotutkimus | Gels | Budesonidia sisältävät pH-herkät nanopartikkelit hydrogeeleissä atooppisen ihottuman paikallishoitoon |
+| [9496795](https://pubmed.ncbi.nlm.nih.gov/9496795/) | 1998 | Avoin kliininen tutkimus | Pediatric Dermatology | Paikallisen budesonidin vaikutus lasten lyhytaikaiseen kasvuun atooppisessa ihottumassa (polvimittaus) |
+| [16428071](https://pubmed.ncbi.nlm.nih.gov/16428071/) | 2006 | Solutason tutkimus | International Immunopharmacology | Budesonidi vaikutti ihmisen normaalien keratinosyyttien immuunitoimintoihin, takrolimuusi ei |
+| [35056927](https://pubmed.ncbi.nlm.nih.gov/35056927/) | 2021 | Ex vivo -tutkimus | Pharmaceutics | Keinoja budesonidin pidättymisen parantamiseksi ihossa |
+| [14616123](https://pubmed.ncbi.nlm.nih.gov/14616123/) | 2003 | Katsaus/tutkimus | Allergy | Kortikosteroidiallergia astmapotilailla |
+| [33931866](https://pubmed.ncbi.nlm.nih.gov/33931866/) | 2021 | Epikutaanitestitutkimus | Contact Dermatitis | Budesonidiallergian esiintyvyys Italiassa; trendi laskeva |
 | [37927648](https://pubmed.ncbi.nlm.nih.gov/37927648/) | 2023 | Tapausselostus | Cureus | Steroidin aiheuttama angioedeema ja urtikaria potilaalla, jolla on atooppinen ihottuma |
-| [31705907](https://pubmed.ncbi.nlm.nih.gov/31705907/) | 2020 | Katsaus | J Allergy Clin Immunol | Eosinofiilisen esofagiitin uudet hoidot (liittyy alkuperäiseen käyttöaiheeseen) |
 
----
+Huomio: valtaosa löydetyistä julkaisuista käsittelee kontaktisensitisaatiota tai haittavaikutuksia, ei hoidon tehoa.
 
-## Markkinatiedot Suomessa
+## Myyntiluvat Suomessa
 
-| Lupanumero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+| Myyntilupanumero | Tuotenimi | Lääkemuoto | Käyttöaihe |
 |---------|------|------|-----------|
 | EMEA/H/C/004655 | Jorveza | – | Ruokatorven sairaudet |
-| EMEA/H/C/002348 | DuoResp Spiromax | – | COPD, astma |
-| EMEA/H/C/004882 | GoResp Digihaler | – | Astma, COPD |
-| EMEA/H/C/003890 | BiResp Spiromax | – | COPD, astma |
-| EMEA/H/C/004983 | Trixeo Aerosphere | – | COPD |
-
-Kaikki kuusi lupaa on tilaltaan peruutettuja; voimassa olevia lupia ei ole. (Kuudes lupa, Riltrava Aerosphere, COPD, on jätetty taulukosta pois enimmäismäärän 5 vuoksi.)
-
----
+| EMEA/H/C/002348 | DuoResp Spiromax | – | Keuhkoahtaumatauti; astma |
+| EMEA/H/C/004882 | GoResp Digihaler | – | Astma; keuhkoahtaumatauti |
+| EMEA/H/C/003890 | BiResp Spiromax | – | Keuhkoahtaumatauti; astma |
+| EMEA/H/C/004983 | Trixeo Aerosphere | – | Keuhkoahtaumatauti |
 
 ## Turvallisuusnäkökohdat
 
-**Lääkeyhteisvaikutukset** (yhteensä 100 tunnistettua; esimerkkejä):
-- **Merkittävät (Major):** adalimumabi, fosamprenaviiri
-- **Kohtalaiset (Moderate):** mm. tsidovudiini, isotretinoiini, asebutololi, ketorolaakki, nifedipiini, ibuprofeeni, etinyyliestradioli, aldesleukiini, alemtutsumabi, fluvoksamiini
-- **Vähäiset (Minor):** formoteroli, salbutamoli
+Tarkista turvallisuustiedot valmisteyhteenvedosta.
 
-**Tietämysgraafiin perustuvat vasta-aiheet** (ei lääkevalmisteyhteenvedon teksti, vaan mallin tietämysgraafin yhteydet): mm. verenpainetauti, epilepsia, maksasairaus, sappirakon sairaus, hyperglykemia, sydämen vajaatoiminta, herpes simplex -silmätulehdus (keratiitti), tuhkarokko sekä useat aivolisäkkeen vajaatoimintaan ja kasvuhormonipuutokseen liittyvät tilat.
+Lääkeinteraktioita on kirjattu runsaasti. Merkittäviksi (Major) luokiteltuja ovat esimerkiksi:
+- adalimumabi
+- fosamprenaviiri
 
-**Kirjallisuudesta nousevat huomiot:** kortikosteroidien kontaktiallergia, paikallisten steroidien mahdollinen systeeminen vaikutus ja kasvun hidastuminen lapsilla sekä lisämunuaisen suppressio.
+Useat muut yhteisvaikutukset on luokiteltu kohtalaisiksi (esim. tsidovudiini, ibuprofeeni, nifedipiini, ketorolaakki, fluvoksamiini).
 
-Täydelliset varoitukset ja vasta-aiheet on tarkistettava valmisteyhteenvedosta.
-
----
-
-## Johtopäätös ja seuraavat vaiheet
+## Johtopäätös ja seuraavat askeleet
 
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Atooppiselle ekseemalle ei ole yhtään kliinistä tutkimusta, ja ainoa suoraan relevantti julkaisu on prekliininen lääkemuotoilututkimus. Korkea TxGNN-pistemäärä ei ole kliinisen näytön tukema. Budesonilla ei lisäksi ole Suomessa voimassa olevaa myyntilupaa.
+Ennusteella on korkea pistemäärä, mutta kliinisiä tutkimuksia ei ole eikä suoraa kliinistä näyttöä. Ainoa suoraan relevantti julkaisu on prekliininen formulaatiotutkimus, ja kirjallisuus painottuu kortikosteroidiallergiaan.
 
-**Jatkoon edettäessä tarvitaan:**
-- Valmisteyhteenvedon varoitusten ja vasta-aiheiden haku Fimeasta (puute estää turvallisuusseulonnan)
-- Vaikutusmekanismitietojen täydentäminen DrugBankista
-- Selvitys antoreitistä ja lääkemuodosta (paikallinen iholle sopiva valmiste vs. nykyiset inhalaatio- ja suun kautta otettavat valmisteet)
-- Kontrolloidut kliiniset tutkimukset ekseemassa, huomioiden kontaktiallergian ja systeemisen imeytymisen riski lapsilla
-- Harkittava ennusteen **bronkiitti** (L2, Vaiheen 2 tutkimukset) priorisointia jatkoarvioinnissa, sillä sen näyttö on selvästi vahvempi kuin ekseemalla
+**Eteenpäin siirtyminen edellyttää:**
+- kontrolloituja kliinisiä tutkimuksia budesonidin tehosta ja turvallisuudesta atooppisessa ekseemassa
+- iholle soveltuvan valmistemuodon ja antoreitin arviointia (nykyiset luvat koskevat hengitystie- ja ruokatorvikäyttöä)
+- vaikutusmekanismitietojen täydentämistä
+- valmisteyhteenvedon varoitusten ja vasta-aiheiden kokoamista
+- kortikosteroidiyliherkkyyden ja systeemisen imeytymisen (esim. lasten kasvu) arviointia
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -4,17 +4,17 @@ title: Palonosetron
 parent: Kohtalainen näyttö (L3-L4)
 nav_order: 327
 evidence_level: L4
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-13
 description: "Palonosetron: ennustettu uusi käyttöaihe Migreeni (migraine disorder) (näytön taso L4). Alkuperäinen käyttöaihe: Oksentelu, pahoinvointi (syöpähoitoihin liittyvä)"
 monitor_inn: "PALONOSETRON"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
 ---
 
 # Palonosetron
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **5** kpl
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **4** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Palonosetroni on 5-HT3-reseptorin salpaaja, jota on alun perin käytetty syöpä
 |------|------|
 | Alkuperäinen käyttöaihe | Oksentelu, pahoinvointi (syöpähoitoihin liittyvä) |
 | Ennustettu uusi käyttöaihe | Migreeni (migraine disorder) |
-| TxGNN-ennusteen pistemäärä | 99,74 % |
+| TxGNN-ennusteen pistemäärä | 0,9974 |
 | Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 3 (kaikki peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 3/3) |
+| Myyntilupien määrä | 3 (voimassa: 3) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -60,7 +60,7 @@ Palonosetroni on 5-HT3-reseptorin salpaaja, jota on alun perin käytetty syöpä
 
 Palonosetroni on 5-HT3-reseptorin salpaaja. Yksityiskohtaista vaikutusmekanismia koskevia tietoja ei ole tällä hetkellä saatavilla. Tunnetun lääkeluokan perusteella serotoniinisignalointi liittyy migreenin patofysiologiaan, mikä antaa uskottavan mutta heikon mekanistisen perustelun korkealle pistemäärälle.
 
-Alkuperäinen käyttöaihe (pahoinvointi ja oksentelu) ja migreeni ovat kuitenkin kliinisesti kaukana toisistaan, vaikka pahoinvointi on migreenin yleinen oireyhtymän osa. Ennuste perustunee ennen kaikkea tietograafin migreeniryhmään ja lääkeluokan ominaisuuksiin.
+Alkuperäinen käyttöaihe (pahoinvointi ja oksentelu) ja migreeni ovat kuitenkin kliinisesti kaukana toisistaan, vaikka pahoinvointi on migreenin yleinen oireyhtymän osa. Pistemäärä tulee TxGNN-mallista (syväoppiminen), ja se voi heijastaa mallin oppimia samankaltaisuuksia toisiinsa liittyvien sairauksien välillä, ei biologista näyttöä.
 
 Saatavilla oleva kirjallisuus ei tue hyötyä: ainoa migreeniin liittyvä julkaisu kuvaa palonosetronin aiheuttamaa migreenityyppistä päänsärkyä. Ennustetta ei siis tue kliininen aineisto, ja käytettävissä oleva näyttö viittaa hyötyä vastaan.
 
@@ -109,7 +109,7 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole tässä aineistossa saat
 
 **Perustelut:**
 - Ennuste perustuu pelkkään laskennalliseen malliin (korkea pistemäärä), eikä kliinisiä tutkimuksia ole. Ainoa asiaan liittyvä julkaisu osoittaa palonosetronin voivan aiheuttaa migreenityyppistä päänsärkyä, ja lääkkeellä ei ole voimassa olevia myyntilupia Suomessa.
-- Muut ennustetut käyttöaiheet (migreeni aivorunko-oireilla, migreenialttius, atrophoderma vermiculata, ulerythema ophryogenes) ovat joko samaa migreeniryhmää ilman omaa näyttöä tai mekanistisesti perusteettomia, ja ne ovat todennäköisesti tietograafin artefakteja.
+- Muut ennustetut käyttöaiheet (migreeni aivorunko-oireilla, atrophoderma vermiculata, ulerythema ophryogenes) ovat joko samaa migreeniryhmää ilman omaa näyttöä tai mekanistisesti perusteettomia, ja ne voivat heijastaa TxGNN-mallin (syväoppiminen) oppimia samankaltaisuuksia sairauksien välillä, eivät biologista näyttöä.
 
 **Jatkotoimet:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankinta (Fimea) turvallisuusarviointia varten

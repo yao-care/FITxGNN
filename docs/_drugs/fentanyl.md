@@ -33,13 +33,13 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-## Fentanyyli: Kivusta ja syövästä nefrogeeniseen antidiureesioireyhtymään (SIADH-tyyppinen tila)
+## Fentanyyli: nefrogeeninen antidiureesioireyhtymä (TxGNN-mallin ennuste)
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 
 Fentanyyli on voimakas opioidi, jota on alun perin käytetty kivun ja syöpäkivun hoitoon.
-TxGNN-malli ennustaa sen mahdollisesti tehoavan **nefrogeeniseen antidiureesioireyhtymään** (ennustepisteet 99,5 %), mutta ennusteen tueksi ei ole **yhtään kliinistä tutkimusta eikä julkaisua**.
+TxGNN-malli (deep learning) ennustaa sen mahdollisesti tehoavan **nefrogeeniseen antidiureesioireyhtymään** (ennustepisteet 0.9946), mutta ennusteen tueksi ei ole **yhtään kliinistä tutkimusta eikä julkaisua**. Pisteet tulevat TxGNN-mallista (deep learning) ja voivat kuvastaa mallin oppimia samankaltaisuuksia sairauksien välillä, eivät biologista näyttöä.
 Ennuste perustuu yksinomaan mallin tuottamaan tietoon, joten näyttö on heikkoa.
 
 ## Pikakatsaus
@@ -48,10 +48,10 @@ Ennuste perustuu yksinomaan mallin tuottamaan tietoon, joten näyttö on heikkoa
 |------|------|
 | Alkuperäinen käyttöaihe | Kipu; syöpä |
 | Ennustettu uusi käyttöaihe | Nefrogeeninen antidiureesioireyhtymä (nephrogenic syndrome of inappropriate antidiuresis) |
-| TxGNN-ennustepisteet | 99,46 % |
+| TxGNN-ennustepisteet | 0.9946 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 3 (kaikki peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 3/3) |
+| Myyntilupien määrä | 3 (voimassa: 3) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste voisi olla perusteltu?

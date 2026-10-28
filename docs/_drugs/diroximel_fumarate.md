@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Diroksimeelifumaraatti: Relapsoivasta MS-taudista ennustettuun diabeettiseen kaihiin
+## Drug: ennustettu uusi käyttöaihe diabeettinen kaihi
 {: .text-alpha }
 
 ## Yhteenveto
@@ -48,10 +48,10 @@ mutta ennusteen tueksi ei ole toistaiseksi **yhtään kliinistä tutkimusta eik�
 |------|------|
 | Alkuperäinen käyttöaihe | Relapsoiva-remittoiva multippeliskleroosi |
 | Ennustettu uusi käyttöaihe | Diabeettinen kaihi |
-| TxGNN-ennustepistemäärä | 99,999 % |
+| TxGNN-ennustepistemäärä | 1,0000 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste on perusteltu?

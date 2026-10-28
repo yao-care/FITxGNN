@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Imikimodi: Aktiinisesta keratoosista esisyövällisiin kasvaimiin
+## Imikimodi: Esisyövällinen kasvain
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -48,10 +48,10 @@ Imikimodi on paikallisesti iholle levitettävä immuunivastetta muokkaava lääk
 |------|------|
 | Alkuperäinen käyttöaihe | Keratoosi, aktiininen keratoosi |
 | Ennustettu uusi käyttöaihe | Esisyövällinen kasvain (pre-malignant neoplasm) |
-| TxGNN-ennustepisteet | 99,92 % |
-| Näytön taso | L1 (huomautus alla) |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 2 (molemmat peruutettu) |
+| TxGNN-ennustepisteet | 0.9992 |
+| Näytön taso | L5 (huomautus alla) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Myyntilupien määrä | 2 (voimassa: 2) |
 | Suositeltu päätös | Proceed with Guardrails (eteneminen suojatoimin) |
 
 *Huomautus näytön tasosta:* Taso L1 on kerätyssä aineistossa annettu luokitus. Aineistossa on kuitenkin vain yksi valmistunut vaiheen 3 tutkimus (n=20, ei kontrolliryhmää) ja yksi ennenaikaisesti päättynyt tutkimus (n=9). L1-ehto eli vähintään kaksi valmistunutta vaiheen 3 satunnaistettua tutkimusta ei täyty tiukasti tulkittuna. Näyttö on käytännössä heikompaa, noin L2–L3-tasoa.

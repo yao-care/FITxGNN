@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Laronidase
-parent: Kohtalainen näyttö (L3-L4)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 247
-evidence_level: L4
+evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-13
-description: "Laronidase: ennustettu uusi käyttöaihe Luustoon liittyvä lysosomaalinen kertymäsairaus (näytön taso L4). Alkuperäinen käyttöaihe: Mukopolysakkaridoosi I"
 monitor_inn: "LARONIDASE"
 predicted_indications: ["lysosomal storage disease with skeletal involvement", "Sanfilippo syndrome"]
+description: "Laronidase: ennustettu uusi käyttöaihe Lysosomal storage disease with skeletal involvement (näytön taso L5). Alkuperäinen käyttöaihe: Mucopolysaccharidosis I"
 ---
 
 # Laronidase
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **2** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-## Laronidaasi: Mukopolysakkaridoosi I:stä luustoon liittyvään lysosomaaliseen kertymäsairauteen
+## Laronidase: Lysosomal storage disease with skeletal involvement
 {: .text-alpha }
 
 ## Yhteenveto
 
 Laronidaasi on rekombinantti alfa-L-iduronidaasientsyymi, jota on alun perin käytetty entsyymikorvaushoitona **mukopolysakkaridoosi I:n (MPS I)** hoidossa.
-TxGNN-malli ennustaa sen voivan tehota **luustoon liittyvään lysosomaaliseen kertymäsairauteen** (pistemäärä 99,3 %), mutta tämä indikaatio on käytännössä päällekkäinen alkuperäisen käyttöaiheen kanssa.
 Ennusteen tueksi on **0 kliinistä tutkimusta** ja **4 julkaisua** (katsauksia, yksi soluviljelytutkimus ja yksi tapausselostus). Näyttö on mallin ennusteen tasolla.
 
 ---
@@ -48,12 +47,12 @@ Ennusteen tueksi on **0 kliinistä tutkimusta** ja **4 julkaisua** (katsauksia, 
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Mukopolysakkaridoosi I |
-| Ennustettu uusi käyttöaihe | Luustoon liittyvä lysosomaalinen kertymäsairaus |
-| TxGNN-ennustepistemäärä | 99,3 % |
-| Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Alkuperäinen käyttöaihe | Mucopolysaccharidosis I |
+| Ennustettu uusi käyttöaihe | Lysosomal storage disease with skeletal involvement |
+| TxGNN-ennustepistemäärä | 0.9931 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odotetaan) |
 
 ---
@@ -118,7 +117,7 @@ Muut turvallisuustiedot: katso valmisteyhteenveto.
 
 ## Toissijainen ennuste: Sanfilippon oireyhtymä
 
-TxGNN ennustaa laronidaasille myös **Sanfilippon oireyhtymää (MPS III)** (pistemäärä 99,2 %, näytön taso L4, suositus: Hold). Kliinisiä tutkimuksia ei ole.
+Kliinisiä tutkimuksia ei ole.
 
 Sanfilippon oireyhtymä johtuu muiden heparaanisulfaattia hajottavien entsyymien (SGSH, NAGLU, HGSNAT, GNS) puutteesta, ei alfa-L-iduronidaasin puutteesta. Entsymaattista perustetta ei siis ole. Sairaus on lisäksi pääosin neuronopaattinen, eikä laskimoon annettava laronidaasi läpäise veri-aivoestettä tehokkaasti. Haetut julkaisut koskevat MPS I:tä (mm. lumekontrolloitu RCT, [PMID 15126990](https://pubmed.ncbi.nlm.nih.gov/15126990/), ja biosimilaarivertailu, [PMID 40830667](https://pubmed.ncbi.nlm.nih.gov/40830667/)), eivät MPS III:a. Korkea pistemäärä heijastaa todennäköisesti glykosaminoglykaanireitin läheisyyttä verkostossa, ei kliinistä tai mekanistista näyttöä.
 ## Vastuuvapauslauseke

@@ -4,7 +4,7 @@ title: Simoctocog Alfa
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 403
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Simoctocog Alfa: ennustettu uusi käyttöaihe Pseudo-von Willebrandin tauti (näytön taso L5). Alkuperäinen käyttöaihe: Hemofilia A"
 monitor_inn: "SIMOCTOCOG ALFA"
@@ -14,7 +14,7 @@ predicted_indications: ["pseudo-von Willebrand disease", "primary release disord
 # Simoctocog Alfa
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ mutta tätä suuntaa tukevia **kliinisiä tutkimuksia ei ole lainkaan** eikä **
 |------|------|
 | Alkuperäinen käyttöaihe | Hemofilia A |
 | Ennustettu uusi käyttöaihe | Pseudo-von Willebrandin tauti |
-| TxGNN-ennusteen pistemäärä | 99,997 % |
+| TxGNN-ennusteen pistemäärä | 1,0000 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 2 (kaikki peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Myyntilupien määrä | 2 (voimassa: 2) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -72,16 +72,15 @@ Aineistossa on yhteensä 10 ennustettua käyttöaihetta. Kaikilla näytön taso 
 
 | Sija | Ennustettu käyttöaihe | Pistemäärä | Lyhyt arvio |
 |------|------|------|------|
-| 1 | Pseudo-von Willebrandin tauti | 99,997 % | Teoreettinen yhteys VWF:n kautta, perusvika verihiutalelähtöinen |
-| 2 | Verihiutaleiden primaarinen vapautumishäiriö | 99,997 % | Verihiutaleiden granulaatioeritys; FVIII ei korjaa |
-| 3 | Glanzmannin trombasteenia | 99,995 % | Aggregaatiovika; FVIII ei korjaa, heikko peruste |
-| 4 | Scottin oireyhtymä | 99,969 % | Löyhä reittiyhteys, FVIII ei korjaa puuttuvaa kalvopintaa |
-| 5 | Hankinnainen hyytymistekijän puutos | 99,952 % | Mekanistisesti uskottavin, mutta alatyyppi on määriteltävä (esim. hankinnainen hemofilia A:n estovasta-aineet) |
-| 6 | Kollageenireseptorivirheestä johtuva verenvuotoalttius | 99,921 % | FVIII ei kohdista vikaan |
-| 7 | Synnynnäisestä trombosytopeniasta johtuva verenvuotohäiriö | 99,917 % | FVIII ei korjaa verihiutaleiden vähyyttä |
-| 8 | Sikiön ja vastasyntyneen alloimmuunitrombosytopenia | 99,845 % | Todennäköisesti verkoston artefakti |
-| 9 | Hemofilia A ja verisuoniston poikkeavuus | 99,779 % | Alkuperäisen käyttöaiheen alatyyppi, ei varsinaista uudelleenkäyttöä |
-| 10 | Tromboottinen trombosytopeeninen purppura (TTP) | 99,724 % | Mahdollinen turvallisuusriski, ei uudelleenkäyttömahdollisuus |
+| 1 | Pseudo-von Willebrandin tauti | 1,0000 | Teoreettinen yhteys VWF:n kautta, perusvika verihiutalelähtöinen |
+| 2 | Verihiutaleiden primaarinen vapautumishäiriö | 1,0000 | Verihiutaleiden granulaatioeritys; FVIII ei korjaa |
+| 3 | Glanzmannin trombasteenia | 1,0000 | Aggregaatiovika; FVIII ei korjaa, heikko peruste |
+| 4 | Scottin oireyhtymä | 0,9997 | Löyhä reittiyhteys, FVIII ei korjaa puuttuvaa kalvopintaa |
+| 5 | Hankinnainen hyytymistekijän puutos | 0,9995 | Mekanistisesti uskottavin, mutta alatyyppi on määriteltävä (esim. hankinnainen hemofilia A:n estovasta-aineet) |
+| 6 | Kollageenireseptorivirheestä johtuva verenvuotoalttius | 0,9992 | FVIII ei kohdista vikaan |
+| 7 | Synnynnäisestä trombosytopeniasta johtuva verenvuotohäiriö | 0,9992 | FVIII ei korjaa verihiutaleiden vähyyttä |
+| 8 | Sikiön ja vastasyntyneen alloimmuunitrombosytopenia | 0,9984 | Todennäköisesti verkoston artefakti |
+| 10 | Tromboottinen trombosytopeeninen purppura (TTP) | 0,9972 | Mahdollinen turvallisuusriski, ei uudelleenkäyttömahdollisuus |
 
 ---
 

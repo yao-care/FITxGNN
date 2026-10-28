@@ -4,7 +4,7 @@ title: Brigatinib
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 82
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Brigatinib: ennustettu uusi käyttöaihe Ikenen fibromatoosi (fibromatosis, gingival) (näytön taso L5). Alkuperäinen käyttöaihe: Ei-pienisoluinen keuhkosyöpä (NSCLC)"
 monitor_inn: "BRIGATINIB"
@@ -14,7 +14,7 @@ predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma 
 # Brigatinib
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 ## Yhden lauseen yhteenveto
 
 Brigatinibi on ALK-estäjä, jota on alun perin käytetty ei-pienisoluisen keuhkosyövän (NSCLC) hoitoon.
-TxGNN-malli ennustaa sen voivan tehota **ikenen fibromatoosiin** (ennustepisteet 99,89 %), mutta tälle ennusteelle ei ole **yhtään kliinistä tutkimusta eikä julkaisua**.
+TxGNN-malli ennustaa sen voivan tehota **ikenen fibromatoosiin** (ennustepisteet 0,9989), mutta tälle ennusteelle ei ole **yhtään kliinistä tutkimusta eikä julkaisua**.
 Ennuste perustuu pelkästään tietämysgraafiin, ja näyttö on tasoa **L5**.
 
 ---
@@ -52,8 +52,8 @@ Ennuste perustuu pelkästään tietämysgraafiin, ja näyttö on tasoa **L5**.
 | Ennustettu uusi käyttöaihe | Ikenen fibromatoosi (fibromatosis, gingival) |
 | TxGNN-ennustepisteet | 99,89 % |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

@@ -6,9 +6,9 @@ nav_order: 312
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-13
-description: "Octreotide: ennustettu uusi käyttöaihe Vulvan käänteinen follikulaarinen keratoosi (näytön taso L5). Alkuperäinen käyttöaihe: Akromegalia"
 monitor_inn: "Octreotide"
 predicted_indications: ["vulvar inverted follicular keratosis", "seborrheic keratosis"]
+description: "Octreotide: ennustettu uusi käyttöaihe Vulvar inverted follicular keratosis (näytön taso L5). Alkuperäinen käyttöaihe: Acromegaly"
 ---
 
 # Octreotide
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-## Oktreotidi: Akromegaliasta vulvan käänteiseen follikulaariseen keratoosiin
+## Octreotide: Vulvar inverted follicular keratosis
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -44,12 +44,12 @@ Oktreotidi on somatostatiinianalogi, jota on alun perin käytetty akromegalian h
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Akromegalia |
-| Ennustettu uusi käyttöaihe | Vulvan käänteinen follikulaarinen keratoosi |
+| Alkuperäinen käyttöaihe | Acromegaly |
+| Ennustettu uusi käyttöaihe | Vulvar inverted follicular keratosis |
 | TxGNN-ennustepisteet | 99,58 % |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste voisi olla perusteltu?

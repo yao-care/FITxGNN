@@ -4,17 +4,17 @@ title: Glycine
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 209
 evidence_level: L5
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-10-13
 description: "Glycine: ennustettu uusi käyttöaihe Nenäontelon sairaus (näytön taso L5). Alkuperäinen käyttöaihe: Vaahterasiirappitauti (MSUD)"
 monitor_inn: "glycine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
+predicted_indications: ["nasal cavity disease"]
 ---
 
 # Glycine
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-## Glysiini: Vaahterasiirappitaudista nenäontelon sairauteen
+## Glysiini: Nenäontelon sairaus
 {: .text-alpha }
 
 ## Yhden virkkeen yhteenveto
@@ -46,17 +46,17 @@ Glysiini (kauppanimi Maapliv) on aminohappo, jonka alkuperäinen käyttöaihe on
 |------|------|
 | Alkuperäinen käyttöaihe | Vaahterasiirappitauti (MSUD) |
 | Ennustettu uusi käyttöaihe | Nenäontelon sairaus |
-| TxGNN-ennustepisteet | 99,85 % |
+| TxGNN-ennustepisteet | 0,9985 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste voisi olla perusteltu?
 
 Tällä hetkellä yksityiskohtaista vaikutusmekanismia koskevia tietoja ei ole saatavilla. Tunnetun tiedon perusteella glysiini on elimistön yleinen aminohappo ja estävä välittäjäaine. Sen tehosta vaahterasiirappitaudissa on myyntilupaan johtanut näyttö, mutta mekanistista yhteyttä nenäontelon sairauksiin ei voida osoittaa.
 
-TxGNN-pistemäärä on hyvin korkea (0,998), mutta se on pelkkä mallipohjainen ennuste. Ennustetta ei voida verrata tunnettuun mekanismiin, eikä aineistossa ole glysiinikohtaista tietoa, joka yhdistäisi sen nenäontelon patologiaan. Ennustetta ei siksi voida pitää uskottavana ilman lisänäyttöä.
+TxGNN-pistemäärä on hyvin korkea (0,9985), mutta se on pelkkä mallipohjainen ennuste. Ennustetta ei voida verrata tunnettuun mekanismiin, eikä aineistossa ole glysiinikohtaista tietoa, joka yhdistäisi sen nenäontelon patologiaan. Ennustetta ei siksi voida pitää uskottavana ilman lisänäyttöä.
 
 Toinen ennustettu käyttöaihe, **akuutti laryngofaryngiitti** (pisteet 99,84 %), on samassa tilanteessa: sille ei ole kliinisiä tutkimuksia eikä julkaisuja.
 

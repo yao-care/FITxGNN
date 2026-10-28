@@ -4,17 +4,17 @@ title: Mercaptopurine
 parent: Vahva näyttö (L1-L2)
 nav_order: 282
 evidence_level: L2
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-13
-description: "Mercaptopurine: ennustettu uusi käyttöaihe Myeloidinen leukemia (näytön taso L2). Alkuperäinen käyttöaihe: Lymfaattinen leukemia"
 monitor_inn: "mercaptopurine"
 predicted_indications: ["myeloid leukemia", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pulmonary blastoma", "Hodgkins lymphoma", "primary pulmonary lymphoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung"]
+description: "Mercaptopurine: ennustettu uusi käyttöaihe Myeloid leukemia (näytön taso L2). Alkuperäinen käyttöaihe: Leukemia, Lymphoid"
 ---
 
 # Mercaptopurine
 {: .fs-9 }
 
-Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L2** | Ennustetut käyttöaiheet: **8** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Merkaptopuriini: Imenninnäisleukemiasta myeloidiseen leukemiaan
+## Mercaptopurine: Myeloid leukemia
 {: .text-alpha }
 
 ## Yhteenveto
@@ -48,12 +48,12 @@ Merkaptopuriini on puriiniantimetaboliitti, jota on alun perin käytetty lymfaat
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Lymfaattinen leukemia |
-| Ennustettu uusi käyttöaihe | Myeloidinen leukemia |
+| Alkuperäinen käyttöaihe | Leukemia, Lymphoid |
+| Ennustettu uusi käyttöaihe | Myeloid leukemia |
 | TxGNN-ennustepisteet | 99,94 % |
 | Näytön taso | L2 |
-| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
-| Myyntilupien lukumäärä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien lukumäärä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota; tutkimuskysymys) |
 
 ---

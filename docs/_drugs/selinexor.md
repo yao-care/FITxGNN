@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-## Selinexor: Multippelista myeloomasta lääkkeen aiheuttamaan osteoporoosiin
+## Selinexor: Lääkkeen aiheuttama osteoporoosi
 {: .text-alpha }
 
 ## Yhteenveto
@@ -47,10 +47,10 @@ TxGNN-malli ennustaa sen voivan tehota **lääkkeen aiheuttamaan osteoporoosiin*
 |------|------|
 | Alkuperäinen käyttöaihe | Multippeli myelooma |
 | Ennustettu uusi käyttöaihe | Lääkkeen aiheuttama osteoporoosi |
-| TxGNN-ennustepistemäärä | 99,22 % |
+| TxGNN-ennustepistemäärä | 0,9922 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste voisi olla perusteltu?
@@ -107,7 +107,7 @@ Muuta turvallisuustietoa: ks. valmisteyhteenveto.
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu pelkästään korkeaan TxGNN-pistemäärään (99,22 %), eikä tukena ole kliinisiä tutkimuksia, kirjallisuutta eikä varmennettua mekanismia. Lääkkeen haittaprofiili on lisäksi epäedullinen luustoindikaatiolle, ja Suomessa ainoa myyntilupa on peruutettu.
+- Ennuste perustuu pelkästään korkeaan TxGNN-pistemäärään (0,9922), eikä tukena ole kliinisiä tutkimuksia, kirjallisuutta eikä varmennettua mekanismia. Lääkkeen haittaprofiili on lisäksi epäedullinen luustoindikaatiolle, ja Suomessa ainoa myyntilupa on peruutettu.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimeasta (turvallisuusarvion estävä tietoaukko)

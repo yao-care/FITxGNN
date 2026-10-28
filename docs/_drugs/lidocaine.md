@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 264
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-13
-description: "Lidocaine: ennustettu uusi käyttöaihe Sidekalvon sairaus (conjunctival disorder). TxGNN:n korkeimmin pistey… (näytön taso L5). Alkuperäinen käyttöaihe: Fysiologinen sukupuolitoimintahäiriö"
 monitor_inn: "LIDOCAINE"
-predicted_indications: ["punctate epithelial keratoconjunctivitis", "papillary conjunctivitis", "rosacea conjunctivitis", "exposure keratitis", "atopic conjunctivitis", "conjunctival disorder", "nephrotic syndrome", "non-human animal disease", "sporadic idiopathic steroid-resistant nephrotic syndrome"]
+predicted_indications: ["punctate epithelial keratoconjunctivitis", "papillary conjunctivitis", "rosacea conjunctivitis", "exposure keratitis", "atopic conjunctivitis", "conjunctival disorder", "nephrotic syndrome", "non-human animal disease", "tinea corporis", "sporadic idiopathic steroid-resistant nephrotic syndrome"]
+last_modified_at: 2026-10-23
+description: "Lidocaine: ennustettu uusi käyttöaihe Punctate epithelial keratoconjunctivitis (näytön taso L5). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin"
 ---
 
 # Lidocaine
@@ -33,110 +33,88 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Lidokaiini: Sukupuolitoimintahäiriön hoidosta sidekalvon sairauteen
+## Lidocaine: Punctate epithelial keratoconjunctivitis
 {: .text-alpha }
 
-## Yhteenveto
+## Yhden lauseen yhteenveto
 
-Lidokaiini on natriumkanavan salpaaja ja paikallispuudute. Suomessa sen ainoa tässä aineistossa oleva myyntilupa (Fortacin) koskee fysiologista sukupuolitoimintahäiriötä. TxGNN-malli ennustaa lääkkeelle ensisijaisesti silmän pintaan liittyviä sairauksia, ja seuraavassa tarkastellaan **sidekalvon sairautta (conjunctival disorder)**, koska siitä on aineistossa eniten tietoa: **2 kliinistä tutkimusta** ja **20 julkaisua**. Tutkimukset koskevat kuitenkin lähinnä puudutusta leikkauksissa, eivät sairauden hoitoa.
-
----
+Lidokaiini on paikallispuudute, jonka Suomessa myyntiluvan saanut valmiste Fortacin on tarkoitettu fysiologisen seksuaalisen toimintahäiriön hoitoon. TxGNN-malli ennustaa korkeimmalle sijalle silmän pintaan liittyvän sairauden, **pisteittäisen epiteliaalisen keratokonjunktiviitin**, mutta tälle ei ole yhtään kliinistä tutkimusta eikä julkaisua. Tarkasteltavista ennusteista eniten tutkimusnäyttöä on sidekalvon sairauksista (**2 kliinistä tutkimusta** ja useita julkaisuja), mutta ne koskevat lähinnä leikkauspuudutusta, eivät taustalla olevan sairauden hoitoa.
 
 ## Pikakatsaus
 
-| Kohde | Sisältö |
+| Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Fysiologinen sukupuolitoimintahäiriö |
-| Ennustettu uusi käyttöaihe | Sidekalvon sairaus (conjunctival disorder). TxGNN:n korkeimmin pisteytetty ennuste on pistemäinen epiteliaalinen keratokonjunktiviitti. |
-| TxGNN-ennustepisteet | 99,84 % (sidekalvon sairaus); korkein ennuste 99,99 % (pistemäinen epiteliaalinen keratokonjunktiviitti) |
-| Näytön taso | L4 (sidekalvon sairaus); useimmilla muilla ennusteilla L5 |
-| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Alkuperäinen käyttöaihe | Ei kirjattu paikallisiin tietoihin |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
+| Ennustettu uusi käyttöaihe | Punctate epithelial keratoconjunctivitis |
+| TxGNN-ennustepiste | 99,99 % |
+| Näytön taso | L5 |
+| Tilanne Suomessa | Markkinoilla |
+| Lupien määrä | 1 myyntilupa (keskitetty EMA-lupa) |
 | Suositeltu päätös | Hold (odota) |
 
----
+Huom. sijalla 6 oleva "sidekalvon sairaus" -ennuste on tutkituin, mutta sen näyttö koskee pääosin puudutuskäyttöä (ks. alla). Tämä raportti keskittyy pääasiassa ensisijaiseen ennusteeseen.
 
-## Miksi ennuste on perusteltu?
+## Miksi ennuste voisi olla perusteltu?
 
-Mekanismitietoa (MOA) ei ole tällä hetkellä saatavilla tähän raporttiin koottujen tietojen perusteella. Tiedossa on kuitenkin, että lidokaiini on jänniteherkkien natriumkanavien salpaaja, jota käytetään paikallispuudutteena. Sen teho alkuperäisessä käyttöaiheessa perustuu paikalliseen hermotoiminnan vaimennukseen, ja mekanistisesti sama vaikutus voisi lievittää sidekalvon ja sarveiskalvon pinnan hermojen välittämää kipua.
+Tämän raportin varten kootuissa tiedoissa ei ole tällä hetkellä yksityiskohtaista vaikutusmekanismia. Tiedetään, että lidokaiini on natriumkanavan salpaaja ja paikallispuudute, jonka teho tunnetussa käyttöaiheessaan on osoitettu. Mekanistisesti se voisi lievittää silmän pinnan sairauksien oireita, kuten kipua.
 
-On tärkeää erottaa oireenmukainen lievitys taudin hoidosta. Lidokaiini ei vaikuta silmän pinnan sairauksien tulehdukselliseen, allergiseen tai rakenteelliseen taustaan. Esimerkiksi ruusufinnin silmäoireet johtuvat meibomin rauhasten toimintahäiriöstä ja tulehduksesta, eikä natriumkanavan salpaus vaikuta niihin. Lisäksi pitkäaikainen paikallispuudutteen käyttö on tunnetusti haitallista sarveiskalven epiteelille ja voi heikentää paranemista.
+Ennuste perustuu pääosin tietämysgraafin verkostolähellisyyteen, ei osoitettuun vaikutusmekanismiin. Lidokaiini ei hoida taustalla olevaa epiteelisairautta, ja pitkäaikaisen paikallispuudutteen käytön tiedetään vahingoittavan sarveiskalvon epiteeliä. Terapeuttinen rooli on siksi epätodennäköinen. Sama koskee muita silmäennusteita (papillaarinen konjunktiviitti, ruusufinnikonjunktiviitti, altistumiskeratiitti): niissä mahdollinen hyöty olisi korkeintaan oireenmukaista.
 
-Epäsuoraa tukea on atooppisen konjunktiviitin osalta: tuore perustutkimus (2023) kuvaa hermo–pikarisolu-yhteyden roolin allergeenien nopeassa läpäisyssä, mikä viittaa siihen, että sensorinen hermovälitys voisi olla hoitokohde. Lidokaiinin hoitovaikutusta ei kuitenkaan ole tässä tutkittu.
+## Kliiniset tutkimukset
 
----
-
-## Kliininen tutkimusnäyttö
-
-Sidekalvon sairauden ennusteesta löytyi kaksi tutkimusta. Muille ennusteille ei löytynyt kliinisiä tutkimuksia.
+Ensisijaiselle ennusteelle (pisteittäinen epiteliaalinen keratokonjunktiviitti) ei ole rekisteröityjä kliinisiä tutkimuksia. Läheisimmin liittyvästä "sidekalvon sairaus" -ennusteesta löytyi seuraavat:
 
 | Tutkimusnumero | Vaihe | Tila | Osallistujia | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT05978687](https://clinicaltrials.gov/study/NCT05978687) | Vaihe 4 | Valmistunut | 41 | Lidokaiinigeeli verrattuna sidekalvonalaiseen puudutusinjektioon pterygiumin poistoleikkauksessa. Tutkii puudutuksen antotapaa, ei sairauden hoitoa. |
-| [NCT01350024](https://clinicaltrials.gov/study/NCT01350024) | Ei sovellettavissa | Valmistunut | 34 | Kahden paikallispuudutustavan vertailu leikkauksen jälkeisessä kivussa ylä-luomen riippuluomen (ptoosi) leikkauksessa. Koskee toimenpiteen kipua, ei sidekalvon sairautta. |
-
----
+| [NCT05978687](https://clinicaltrials.gov/study/NCT05978687) | Vaihe 4 | Valmistunut | 41 | Lidokaiinigeeli vs. sidekalvonalainen ksylokaiinipistos pterygiumin poistossa; kyse puudutustavan vertailusta, ei uudesta käyttöaiheesta |
+| [NCT01350024](https://clinicaltrials.gov/study/NCT01350024) | Ei määritelty | Valmistunut | 34 | Leikkauksen jälkeisen kivun vertailu kahdella paikallispuudutustavalla luomen riippuluomen leikkauksessa; yhteys sidekalvon sairauteen vähäinen |
 
 ## Kirjallisuusnäyttö
 
-Alla on valikoima sidekalvon sairauden ennusteeseen liittyvistä julkaisuista. Satunnaistetut tutkimukset on asetettu etusijalle, minkä jälkeen katsaukset.
+Ensisijaiselle ennusteelle ei ole saatavilla kirjallisuutta. Alla valikoima sidekalvon sairauteen liittyvistä julkaisuista:
 
 | PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [18989343](https://pubmed.ncbi.nlm.nih.gov/18989343/) | 2009 | Satunnaistettu kontrolloitu tutkimus | Eye | Lidokaiinigeeli 2 % verrattuna tetrakaiinitippoihin ainoana paikallispuudutteena primaarisessa pterygiumleikkauksessa. |
-| [29135709](https://pubmed.ncbi.nlm.nih.gov/29135709/) | 2018 | Pilottitutkimus | Cornea | Sidekalvonalainen injektio verrattuna 2 % ja 5 % lidokaiinigeeliin pterygiumleikkauksessa. |
-| [15799734](https://pubmed.ncbi.nlm.nih.gov/15799734/) | 2005 | Kliininen tutkimus | Acta Ophthalmol Scand | 2 % lidokaiinigeelin teho pterygiumleikkauksen puudutuksessa. |
-| [16954710](https://pubmed.ncbi.nlm.nih.gov/16954710/) | 2006 | Kliininen tutkimus | Ophthalmologica | Viskoosin lidokaiinin vaikutus pterygiumleikkauksen jälkeiseen kipuun. |
-| [33361408](https://pubmed.ncbi.nlm.nih.gov/33361408/) | 2021 | Avoin prospektiivinen tutkimus ja meta-analyysi | J Neurol Neurosurg Psychiatry | SUNCT- ja SUNA-päänsärkyoireyhtymien lääkehoito. Neurologinen käyttöaihe, jossa sidekalvon punoitus on oire. |
-| [38415675](https://pubmed.ncbi.nlm.nih.gov/38415675/) | 2024 | Katsaus | Cephalalgia | SUNHA-oireyhtymien kiistakysymykset ja päivitys. Nykyhoidot ovat tehottomia. |
-| [19250287](https://pubmed.ncbi.nlm.nih.gov/19250287/) | 2009 | Katsaus (turvallisuus) | Cephalalgia | Lidokaiinin neuropsykiatriset haittavaikutukset. Omassa 20 potilaan sarjassa haittoja oli kaikilla, yleisimmin neuropsykiatrisia (75 %) ja sydänoireita (50 %). |
-| [23330822](https://pubmed.ncbi.nlm.nih.gov/23330822/) | 2013 | Havainnoiva tutkimus | Curr Eye Res | Eri puudutteiden ja paikallisen tulehduksenestohoidon teho lasiaisinjektion jälkeisessä silmäkivussa. |
-| [10696746](https://pubmed.ncbi.nlm.nih.gov/10696746/) | 2000 | Kliininen tutkimus | Retina | Paikallispuudutus takaosan lasiaisleikkauksessa. |
-| [37819721](https://pubmed.ncbi.nlm.nih.gov/37819721/) | 2023 | Prekliininen perustutkimus | JCI Insight | Hermo–pikarisolu-yhteys edistää allergista konjunktiviittia nopean antigeeniläpäisyn kautta. |
+| [18989343](https://pubmed.ncbi.nlm.nih.gov/18989343/) | 2009 | Satunnaistettu koe (RCT) | Eye | Lidokaiinigeeli vs. tetrakaiinitipat ainoana puudutteena pterygiumleikkauksessa |
+| [29135709](https://pubmed.ncbi.nlm.nih.gov/29135709/) | 2018 | Pilottitutkimus | Cornea | Sidekalvonalainen pistos vs. 2 % ja 5 % lidokaiinigeeli pterygiumleikkauksessa |
+| [15799734](https://pubmed.ncbi.nlm.nih.gov/15799734/) | 2005 | Kliininen tutkimus | Acta Ophthalmol Scand | 2 % lidokaiinigeelin teho pterygiumleikkauksen puudutuksessa |
+| [16954710](https://pubmed.ncbi.nlm.nih.gov/16954710/) | 2006 | Kliininen tutkimus | Ophthalmologica | Viskoosin lidokaiinin kipua lievittävä vaikutus pterygiumleikkauksen jälkeen |
+| [33361408](https://pubmed.ncbi.nlm.nih.gov/33361408/) | 2021 | Avoin prospektiivinen tutkimus ja meta-analyysi | J Neurol Neurosurg Psychiatry | SUNCT/SUNA-päänsärkyjen lääkehoito; neurologinen käyttöaihe, jonka nimi vain sattuu sisältämään sidekalvon punoituksen |
+| [19250287](https://pubmed.ncbi.nlm.nih.gov/19250287/) | 2009 | Katsaus | Cephalalgia | Lidokaiinin neuropsykiatriset haittavaikutukset päänsäryn hoidossa |
+| [37819721](https://pubmed.ncbi.nlm.nih.gov/37819721/) | 2023 | Prekliininen | JCI Insight | Hermo–pikarisolu-yhteys edistää allergista konjunktiviittia; vain epäsuora mekanistinen vihje |
 
-Kirjallisuus keskittyy pääosin puudutukseen leikkauksissa sekä päänsärkyoireyhtymiin. Se ei osoita lidokaiinin hoitavan sidekalvon sairautta.
+Muiden ennusteiden osalta kirjallisuus on vähäistä: altistumiskeratiittiin liittyy vain metamfetamiinin väärinkäyttäjien keratiittia käsittelevä tapaussarja (PMID 8862924), nefroottiseen oireyhtymään farmakokineettisiä ja turvallisuusraportteja (PMID 7037263, PMID 41995267), eikä näistä mikään osoita lidokaiinin hoitohyötyä.
 
----
+## Tiedot Suomen markkinoilta
 
-## Markkinatiedot Suomessa
-
-| Myyntilupanumero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/002693 | Fortacin | Ei tiedossa | Fysiologinen sukupuolitoimintahäiriö (peruutettu) |
+| EMEA/H/C/002693 | Fortacin | Ei tiedossa | Fysiologinen seksuaalinen toimintahäiriö |
 
----
+Luettelo on tämän raportin tietojen mukaan täydellinen (1 lupa).
 
-## Turvallisuushuomiot
+## Turvallisuusnäkökohdat
 
-Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla, joten niihin on tutustuttava valmisteyhteenvedosta.
+Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ole tässä aineistossa saatavilla, joten niitä on tarkasteltava valmisteyhteenvedosta.
 
-**Tietämyskannasta johdetut mahdolliset vasta-aiheet** (TxGNN-tietämyskannan lääke–sairaus-yhteyksiä, ei valmisteyhteenvedon tekstiä): kohonnut verenpaine, maksan vajaatoiminta ja maksasairaudet, maksakirroosi, epilepsia, munuaissairaus, lisämunuaisen vajaatoiminta (Addisonin tauti), kilpirauhasen vajaatoiminta, avokulmaglaukooma, osteoporoosi, psykoottiset häiriöt ja skitsofrenia, sieni-infektiot, kaliumin puutos sekä gastriitti.
+- **Tietämysgraafissa kirjatut vasta-aiheet** (eivät ole myyntiluvan teksti): mm. verenpainetauti, maksan vajaatoiminta ja kirroosi, epilepsia, munuaissairaus, avokulmaglaukooma, lisämunuaisen vajaatoiminta, kilpirauhasen vajaatoiminta, psykoottiset häiriöt ja osteoporoosi.
+- **Lääkeyhteisvaikutukset:** tietokannassa on 100 kirjattua yhteisvaikutusta. Merkittäväksi (Major) luokiteltu on **bupropioni**. Kohtalaisia (Moderate) ovat mm. aprepitantti, simetidiini, liposomaalinen morfiini, obeettikolihappo, pikosulfaatti, natriumsulfaatti ja polyetyleeniglykoli (elektrolyyttien kanssa).
+- **Ennustekohtaiset huomiot:** pitkäaikainen paikallispuudute voi heikentää sarveiskalvon paranemista ja räpäytysrefleksiä. Nefroottisessa oireyhtymässä alhainen albumiini nostaa vapaan lidokaiinin osuutta, ja lidokaiini voi aiheuttaa methemoglobinemiaa (PMID 41995267). Intravenoosisessa käytössä on raportoitu neuropsykiatrisia haittoja (PMID 19250287).
 
-**Lääkeyhteisvaikutukset** (kaikkiaan 100 löydöstä esimerkkejä):
-- **Merkittävä (Major):** bupropioni
-- **Kohtalainen (Moderate):** aprepitantti, simetidiini, liposomaalinen morfiini, obetikolihappo, polyeteeniglykoli (3350, elektrolyytit), pikosulfaatti, natriumsulfaatti
-- **Lievä (Minor):** deksametasoni, kanamysiini, neomysiini, omepratsoli, streptomysiini, troglitatsoni
-
-**Kirjallisuudesta nousseet turvallisuushuomiot:**
-- Lidokaiinin neuropsykiatriset ja sydänhaitat ovat yleisiä suonensisäisessä käytössä (PMID 19250287).
-- Lapsella on raportoitu vaikea methemoglobinemia (47,6 %), kun lidokaiinia ja bentsokaiinia käytettiin paikallisesti ja kotrimoksatsolia systeemisesti (PMID 41995267).
-- Nefroottisessa oireyhtymässä ja munuaissairauksissa lidokaiinin vapaa pitoisuus voi muuttua proteiinisitoutumisen muutosten vuoksi (PMID 7037263).
-
----
-
-## Johtopäätös ja seuraavat vaiheet
+## Johtopäätös ja seuraavat askeleet
 
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Kaikki ennusteet perustuvat pääosin mallipohjaiseen ennusteeseen. Sidekalvon sairauden kaksi valmistunutta tutkimusta koskevat leikkauspuudutusta, eivät sairauden hoitoa, eikä aineistossa ole vaiheen 3 satunnaistettuja tutkimuksia. Lisäksi paikallispuudutteiden pitkäaikaiskäyttö voi vahingoittaa sarveiskalvoa, ja ainoa Suomen myyntilupa on peruutettu.
+- Ensisijaiselle ennusteelle ei ole kliinistä tutkimusta eikä kirjallisuutta, joten näytön taso on L5. Mekanistinen perustelu on heikko, ja pitkäaikainen paikallispuudutus voi jopa vahingoittaa sarveiskalvoa. Sidekalvon sairauden ympärillä oleva näyttö koskee toimenpidepuudutusta jo tunnetulla käyttöaiheella, ei uutta hoitokäyttöä.
 
-**Etenemiseksi tarvitaan:**
-- Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvitys Fimean tiedoista (estää tällä hetkellä turvallisuusarvioinnin).
-- Yksityiskohtainen vaikutusmekanismitieto (MOA) DrugBankista.
-- Tarkka, yksittäinen käyttöaihe (esim. oireenmukainen kivunlievitys silmän pinnan vauriossa) laajan "sidekalvon sairaus" -luokan sijaan.
-- Kontrolloidut tutkimukset, joissa lidokaiinia verrataan sairauden hoitoon, sekä arvio sarveiskalvon toksisuudesta toistuvassa käytössä.
-- Antoreitin ja lääkemuodon yhteensopivuuden arviointi (silmään sopiva valmiste).
+**Jatkoa varten tarvitaan:**
+- Vaikutusmekanismitiedot (MOA)
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet Fimean sivuilta
+- Prekliininen tai kliininen tutkimusnäyttö ennustetusta sairaudesta
+- Arvio silmän pinnan toksisuudesta toistuvassa käytössä ja soveltuvuudesta antoreitin kannalta (Fortacin on eri antoreittiä käyttävä valmiste)
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Abacavir
-parent: Kohtalainen näyttö (L3-L4)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 11
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-13
 description: "Abacavir: ennustettu uusi käyttöaihe Apinoiden immuunikatovirusinfektio (SIV) (näytön taso L4). Alkuperäinen käyttöaihe: HIV-infektiot"
@@ -14,7 +14,7 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 # Abacavir
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Abakaviiri on nukleosidirakenteinen käänteiskopioijaentsyymin estäjä, jota o
 |------|------|
 | Alkuperäinen käyttöaihe | HIV-infektiot |
 | Ennustettu uusi käyttöaihe | Apinoiden immuunikatovirusinfektio (SIV) |
-| TxGNN-ennusteen pistemäärä | 99,79 % |
-| Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 4 (kaikki peruutettu) |
+| TxGNN-ennusteen pistemäärä | 0,9979 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 4/4) |
+| Myyntilupien määrä | 4 (voimassa: 4) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -118,8 +118,8 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat, joten tarkista ne val
 ### Huomio muista ennustetuista käyttöaiheista
 
 Samassa aineistossa on kaksi muuta ennustetta, joilla ei ole merkittävää uudelleenkäyttösignaalia ihmislääketieteessä:
-- **Kissan hankinnainen immuunikatooireyhtymä (FIV)**: pistemäärä 99,79 %, näytön taso L4. Tukena on yksi prekliininen yhdistelmähoitotutkimus (PMID [11684314](https://pubmed.ncbi.nlm.nih.gov/11684314/), 2002, Antiviral Research), jossa abakaviirin osuutta ei voi erottaa. Eläinlääketieteellinen käyttöaihe. Päätös: Hold.
-- **Harvinainen neurokehityshäiriö (ataksinen kävely, puheen puuttuminen, aivokuoren valkean aineen väheneminen)**: pistemäärä 99,78 %, näytön taso L5. Kliinisiä kokeita tai kirjallisuutta ei ole, eikä mekanistista yhteyttä ole havaittavissa. Päätös: Hold.
+- **Kissan hankinnainen immuunikatooireyhtymä (FIV)**: pistemäärä 0,9979, näytön taso L4. Tukena on yksi prekliininen yhdistelmähoitotutkimus (PMID [11684314](https://pubmed.ncbi.nlm.nih.gov/11684314/), 2002, Antiviral Research), jossa abakaviirin osuutta ei voi erottaa. Eläinlääketieteellinen käyttöaihe. Päätös: Hold.
+- **Harvinainen neurokehityshäiriö (ataksinen kävely, puheen puuttuminen, aivokuoren valkean aineen väheneminen)**: pistemäärä 0,9978, näytön taso L5. Kliinisiä kokeita tai kirjallisuutta ei ole, eikä mekanistista yhteyttä ole havaittavissa. Päätös: Hold.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

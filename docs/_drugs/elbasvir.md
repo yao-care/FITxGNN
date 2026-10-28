@@ -48,10 +48,10 @@ Elbasviiri on HCV:n NS5A-proteiinin estäjä, jota käytetään yhdessä grazopr
 |------|------|
 | Alkuperäinen käyttöaihe | Krooninen hepatiitti C |
 | Ennustettu uusi käyttöaihe | Hepatiitti B -virusinfektio |
-| TxGNN-ennustepistemäärä | 99,71 % |
+| TxGNN-ennustepistemäärä | 0,9971 |
 | Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -62,7 +62,7 @@ Elbasviiri on HCV:n NS5A-proteiinin estäjä, ja se on tarkoitettu käytettävä
 
 HBV:llä ei ole NS5A-homologia, joten suoraa kohdepohjaista perustetta hepatiitti B:n hoidolle ei ole. Korkea ennustepistemäärä heijastaa todennäköisesti verkkoetäisyyttä muihin hepatiittiviruksiin tietämysgraafissa. Ennustetta voidaan pitää hypoteesina, ei perusteltuna uudelleenkäyttösignaalina.
 
-Muista ennusteista huomionarvoinen on hepatiitti E (pistemäärä 99,66 %). Vuonna 2026 julkaistun in vitro -tutkimuksen (PMID 42347219) mukaan elbasviiri estää HEV:n sisäänpääsyä soluun ja yhdessä ribaviriinin kanssa saa aikaan pysyvän viruksen vähenemisen. Mekanismi eroaa NS5A:n eston mekanismista. Tulos on esikliininen, ja saatavilla oli vain otsikkotason tieto, joten tutkimuksen asetelma ja vahvuus on vahvistettava. Itsenäinen toistaminen sekä in vivo- ja kliininen validointi puuttuvat.
+Muista ennusteista huomionarvoinen on hepatiitti E (pistemäärä 0,9966). Vuonna 2026 julkaistun in vitro -tutkimuksen (PMID 42347219) mukaan elbasviiri estää HEV:n sisäänpääsyä soluun ja yhdessä ribaviriinin kanssa saa aikaan pysyvän viruksen vähenemisen. Mekanismi eroaa NS5A:n eston mekanismista. Tulos on esikliininen, ja saatavilla oli vain otsikkotason tieto, joten tutkimuksen asetelma ja vahvuus on vahvistettava. Itsenäinen toistaminen sekä in vivo- ja kliininen validointi puuttuvat.
 
 ---
 

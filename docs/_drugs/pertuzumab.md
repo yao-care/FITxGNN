@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pertuzumab
-parent: Vahva näyttö (L1-L2)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 342
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-13
-description: "Pertuzumab: ennustettu uusi käyttöaihe Progesteronireseptoripositiivinen rintasyöpä (näytön taso L1). Alkuperäinen käyttöaihe: Rintasyöpä"
 monitor_inn: "PERTUZUMAB"
 predicted_indications: ["ectomesenchymoma", "malignant cutaneous granular cell skin tumor", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma"]
+description: "Pertuzumab: ennustettu uusi käyttöaihe Ectomesenchymoma (näytön taso L5). Alkuperäinen käyttöaihe: Breast Neoplasms"
 ---
 
 # Pertuzumab
 {: .fs-9 }
 
-Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Pertutsumabi: Rintasyövästä progesteronireseptoripositiiviseen rintasyöpään
+## Pertuzumab: Ectomesenchymoma
 {: .text-alpha }
 
 ## Yhteenveto
@@ -46,12 +46,12 @@ Pertutsumabi on HER2-reseptorin dimerisaatiota estävä vasta-aine, jota on alun
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Rintasyöpä |
-| Ennustettu uusi käyttöaihe | Progesteronireseptoripositiivinen rintasyöpä |
-| TxGNN-ennustepistemäärä | 99,93 % |
-| Näytön taso | L1 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 2 (molemmat peruutettu) |
+| Alkuperäinen käyttöaihe | Breast Neoplasms |
+| Ennustettu uusi käyttöaihe | Ectomesenchymoma |
+| TxGNN-ennustepistemäärä | 0.9971 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Myyntilupien määrä | 2 (voimassa: 2) |
 | Suositeltu päätös | Etene suojatoimin (Proceed with Guardrails) |
 
 ---

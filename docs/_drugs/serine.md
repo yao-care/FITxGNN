@@ -4,17 +4,17 @@ title: Serine
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 400
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-13
-description: "Serine: ennustettu uusi käyttöaihe Familiaalinen viskeraalinen myopatia (näytön taso L5). Alkuperäinen käyttöaihe: Vaahterasiirappitauti (Maple Syrup Urine Disease)"
 monitor_inn: "serine"
 predicted_indications: ["familial visceral myopathy", "intestinal obstruction", "myopathic intestinal pseudoobstruction", "unclassified intestinal pseudoobstruction", "neuronal intestinal dysplasia, type B", "intestinal pseudoobstruction, neuronal, chronic idiopathic, X-linked", "exercise-induced malignant hyperthermia", "aqueous misdirection"]
+description: "Serine: ennustettu uusi käyttöaihe Familial visceral myopathy (näytön taso L5). Alkuperäinen käyttöaihe: Maple Syrup Urine Disease"
 ---
 
 # Serine
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **8** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Seriini: Vaivaishaaralaisen vaahterasiirappitaudin hoidosta ennustettuun familiaaliseen viskeraaliseen myopatiaan
+## Serine: Familial visceral myopathy
 {: .text-alpha }
 
 ## Yhteenveto
@@ -46,12 +46,12 @@ Seriini on aminohappo, jonka Maapliv-valmiste oli alun perin hyväksytty **vaaht
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Vaahterasiirappitauti (Maple Syrup Urine Disease) |
-| Ennustettu uusi käyttöaihe | Familiaalinen viskeraalinen myopatia |
+| Alkuperäinen käyttöaihe | Maple Syrup Urine Disease |
+| Ennustettu uusi käyttöaihe | Familial visceral myopathy |
 | TxGNN-ennustepisteet | 99,99 % |
 | Näytön taso | L5 (vain mallin ennuste) |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

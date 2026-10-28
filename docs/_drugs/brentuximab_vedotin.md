@@ -33,7 +33,7 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Brentuksimabivedotiini: Hodgkinin lymfoomasta follikulaariseen lymfoomaan
+## Brentuksimabivedotiini: follikulaarinen lymfooma
 {: .text-alpha }
 
 ## Yhteenveto
@@ -50,10 +50,10 @@ Suuntaa tukee tällä hetkellä **6 kliinistä tutkimusta** ja **20 julkaisua**,
 |------|------|
 | Alkuperäinen käyttöaihe | Non-Hodgkin-lymfooma; Hodgkinin tauti |
 | Ennustettu uusi käyttöaihe | Follikulaarinen lymfooma |
-| TxGNN-ennustepistemäärä | 99,89 % |
+| TxGNN-ennustepistemäärä | 0,9989 |
 | Näytön taso | L2 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota lisänäyttöä) |
 
 ---

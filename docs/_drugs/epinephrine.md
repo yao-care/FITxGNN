@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Epinephrine
-parent: Vahva näyttö (L1-L2)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 169
-evidence_level: L1
-indication_count: 4
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-13
 description: "Epinephrine: ennustettu uusi käyttöaihe Obstruktiivinen keuhkosairaus (näytön taso L1). Alkuperäinen käyttöaihe: Anafylaksia"
 monitor_inn: "EPINEPHRINE"
-predicted_indications: ["obstructive lung disease", "food-dependent exercise-induced anaphylaxis", "Rienhoff syndrome", "respiratory malformation"]
+predicted_indications: ["obstructive lung disease", "Rienhoff syndrome", "respiratory malformation"]
 ---
 
 # Epinephrine
 {: .fs-9 }
 
-Näytön taso: **L1** | Ennustetut käyttöaiheet: **4** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-## Epinefriini: Anafylaksiasta obstruktiiviseen keuhkosairauteen
+## Epinefriini: Obstruktiivinen keuhkosairaus
 {: .text-alpha }
 
 ## Yhden virkkeen yhteenveto
@@ -50,10 +50,10 @@ ja tätä suuntaa tukee tällä hetkellä **15 kliinistä tutkimusta** ja **20 j
 |------|------|
 | Alkuperäinen käyttöaihe | Anafylaksia |
 | Ennustettu uusi käyttöaihe | Obstruktiivinen keuhkosairaus |
-| TxGNN-ennusteen pistemäärä | 99,71 % |
-| Näytön taso | L1 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| TxGNN-ennusteen pistemäärä | 0,9971 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Proceed with Guardrails (eteneminen suojatoimin) |
 
 ---

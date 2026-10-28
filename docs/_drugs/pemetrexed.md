@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pemetrexed
-parent: Vahva näyttö (L1-L2)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 338
-evidence_level: L2
-indication_count: 10
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-13
-description: "Pemetrexed: ennustettu uusi käyttöaihe Vatsakalvon pahanlaatuinen mesotelioma (malignant peritoneal mesothel… (näytön taso L2). Alkuperäinen käyttöaihe: Mesotelioomaa"
 monitor_inn: "PEMETREXED"
-predicted_indications: ["pleural adenomatoid tumor", "pleural biphasic mesothelioma", "pericardium cancer", "well differentiated papillary mesothelioma", "lymphohistiocytoid mesothelioma", "iminoglycinuria"]
+predicted_indications: ["pleural adenomatoid tumor", "pericardium cancer", "iminoglycinuria"]
+description: "Pemetrexed: ennustettu uusi käyttöaihe Pleural adenomatoid tumor (näytön taso L5). Alkuperäinen käyttöaihe: Mesothelioma"
 ---
 
 # Pemetrexed
 {: .fs-9 }
 
-Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Pemetreksedi: Mesoteliooman alkuperäisestä käytöstä vatsakalvon pahanlaatuiseen mesotelioomaan
+## Pemetrexed: Pleural adenomatoid tumor
 {: .text-alpha }
 
 ## Yhteenveto
@@ -48,12 +48,12 @@ ja tätä suuntaa tukee tällä hetkellä **7 kliinistä tutkimusta** ja **20 ju
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Mesotelioomaa; ei-pienisoluinen keuhkosyöpä |
-| Ennustettu uusi käyttöaihe | Vatsakalvon pahanlaatuinen mesotelioma (malignant peritoneal mesothelioma) |
-| TxGNN-ennusteen pistemäärä | 99,99 % |
-| Näytön taso | L2 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 4 (kaikki peruutettu) |
+| Alkuperäinen käyttöaihe | Mesothelioma;Carcinoma, Non-Small-Cell Lung; Carcinoma, Non-Small-Cell Lung;Mesothelioma |
+| Ennustettu uusi käyttöaihe | Pleural adenomatoid tumor |
+| TxGNN-ennusteen pistemäärä | 0.9999 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 4/4) |
+| Myyntilupien määrä | 4 (voimassa: 4) |
 | Suositeltu päätös | Etene suojatoimin (Proceed with Guardrails) |
 
 ---

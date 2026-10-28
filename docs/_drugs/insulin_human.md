@@ -6,9 +6,9 @@ nav_order: 234
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Insulin Human: ennustettu uusi käyttöaihe Autoimmuuniooforiitti (näytön taso L5). Alkuperäinen käyttöaihe: Diabetes mellitus"
 monitor_inn: "INSULIN HUMAN"
 predicted_indications: ["autoimmune oophoritis", "classic stiff person syndrome", "focal stiff limb syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "pancreatic agenesis", "idiopathic localized lipodystrophy"]
+description: "Insulin Human: ennustettu uusi käyttöaihe Autoimmune oophoritis (näytön taso L5). Alkuperäinen käyttöaihe: Diabetes Mellitus"
 ---
 
 # Insulin Human
@@ -33,13 +33,13 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Ihmisinsuliini: Diabeteksesta autoimmuuniooforiittiin
+## Insulin Human: Autoimmune oophoritis
 {: .text-alpha }
 
 ## Yhteenveto
 
 Ihmisinsuliinia on käytetty diabeteksen (Diabetes Mellitus) hoitoon.
-TxGNN-malli ennustaa sen voivan olla tehokas **autoimmuuniooforiitin** hoidossa (pistemäärä 99,84 %),
+TxGNN-malli ennustaa sen voivan olla tehokas **autoimmuuniooforiitin** hoidossa (pistemäärä 0,9984),
 mutta ennusteen tueksi ei ole **yhtään kliinistä tutkimusta eikä julkaisua**. Ennuste on pelkkä tietämysgraafipohjainen laskennallinen päätelmä.
 
 ---
@@ -48,12 +48,12 @@ mutta ennusteen tueksi ei ole **yhtään kliinistä tutkimusta eikä julkaisua**
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Diabetes mellitus |
-| Ennustettu uusi käyttöaihe | Autoimmuuniooforiitti |
-| TxGNN-ennustepistemäärä | 99,84 % |
+| Alkuperäinen käyttöaihe | Diabetes Mellitus |
+| Ennustettu uusi käyttöaihe | Autoimmune oophoritis |
+| TxGNN-ennustepistemäärä | 0.9984 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 5 (kaikki peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 5/5) |
+| Myyntilupien määrä | 5 (voimassa: 5) |
 | Suositeltu päätös | Hold (pidätetään) |
 
 ---
@@ -72,16 +72,16 @@ Tiedoissa on yhteensä 10 ennustetta, ja kaikilla on näytön taso L5 (yhdellä 
 
 | Sija | Sairaus | Pistemäärä | Taso | Arvio |
 |------|------|------|------|------|
-| 1 | Autoimmuuniooforiitti | 99,84 % | L5 | Todennäköisesti liitännäissairausartefakta |
-| 2 | Klassinen jäykän ihmisen oireyhtymä | 99,81 % | L5 | Anti-GAD65-autoimmuniteetti ja diabetes; ei hoidollista perustetta |
-| 3 | Paikallinen jäykän raajan oireyhtymä | 99,81 % | L5 | Sama kuin edellä |
-| 4 | Tiamiinille vastaava toimintahäiriöoireyhtymä | 99,80 % | L5 | Insuliini hoitaa vain diabeteskomponenttia; ei uutta käyttöaihetta |
-| 5 | Opsismodysplasia | 99,79 % | L5 | INPPL1 (SHIP2) säätelee insuliinisignalointia; spekulatiivinen |
-| 6 | Lääkkeen aiheuttama paikallinen lipodystrofia | 99,72 % | L5 | Insuliini on tunnettu aiheuttaja; todennäköisesti virheellinen positiivinen |
-| 7 | Sentrifugaalinen lipodystrofia | 99,70 % | L5 | Löyhä teoreettinen yhteys |
-| 8 | Paineen aiheuttama paikallinen lipoatrofia | 99,70 % | L5 | Todennäköisesti lipodystrofialuokan artefakta |
-| 9 | Haiman agenesia | 99,70 % | L4 | Insuliinikorvaus on perusteltua, mutta kattuu jo nykyisellä diabetesindikaatiolla |
-| 10 | Idiopaattinen paikallinen lipodystrofia | 99,68 % | L5 | Ei tuettua hoidollista perustetta |
+| 1 | Autoimmuuniooforiitti | 0,9984 | L5 | Todennäköisesti liitännäissairausartefakta |
+| 2 | Klassinen jäykän ihmisen oireyhtymä | 0,9981 | L5 | Anti-GAD65-autoimmuniteetti ja diabetes; ei hoidollista perustetta |
+| 3 | Paikallinen jäykän raajan oireyhtymä | 0,9981 | L5 | Sama kuin edellä |
+| 4 | Tiamiinille vastaava toimintahäiriöoireyhtymä | 0,9980 | L5 | Insuliini hoitaa vain diabeteskomponenttia; ei uutta käyttöaihetta |
+| 5 | Opsismodysplasia | 0,9979 | L5 | INPPL1 (SHIP2) säätelee insuliinisignalointia; spekulatiivinen |
+| 6 | Lääkkeen aiheuttama paikallinen lipodystrofia | 0,9972 | L5 | Insuliini on tunnettu aiheuttaja; todennäköisesti virheellinen positiivinen |
+| 7 | Sentrifugaalinen lipodystrofia | 0,9970 | L5 | Löyhä teoreettinen yhteys |
+| 8 | Paineen aiheuttama paikallinen lipoatrofia | 0,9970 | L5 | Todennäköisesti lipodystrofialuokan artefakta |
+| 9 | Haiman agenesia | 0,9970 | L4 | Insuliinikorvaus on perusteltua, mutta kattuu jo nykyisellä diabetesindikaatiolla |
+| 10 | Idiopaattinen paikallinen lipodystrofia | 0,9968 | L5 | Ei tuettua hoidollista perustetta |
 
 ---
 

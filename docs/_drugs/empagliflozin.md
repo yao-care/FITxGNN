@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 162
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-13
-description: "Empagliflozin: ennustettu uusi käyttöaihe Fokaalinen jäykän raajan oireyhtymä (näytön taso L5). Alkuperäinen käyttöaihe: Tyypin 2 diabetes…"
 monitor_inn: "EMPAGLIFLOZIN"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia"]
+last_modified_at: 2026-10-27
+description: "Empagliflozin: ennustettu uusi käyttöaihe Fokaalinen jäykän raajan oireyhtymä (focal stiff limb syndrome) (näytön taso L5). Alkuperäinen käyttöaihe: Diabetes Mellitus, Type 2"
 ---
 
 # Empagliflozin
@@ -33,13 +33,12 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-## Empagliflotsiini: Tyypin 2 diabeteksesta fokaaliseen jäykän raajan oireyhtymään
+## Empagliflotsiini: SGLT2-estäjä → fokaalinen jäykän raajan oireyhtymä (focal stiff limb syndrome)
 {: .text-alpha }
 
-## Yhden lauseen yhteenveto
+## Yhden lauseen tiivistelmä
 
-Empagliflotsiini on SGLT2:n estäjä, jota käytetään alun perin tyypin 2 diabeteksen, sydämen vajaatoiminnan ja kroonisen munuaisten vajaatoiminnan hoitoon.
-TxGNN-malli ennustaa sen voivan tehota **fokaaliseen jäykän raajan oireyhtymään** (focal stiff limb syndrome), mutta ennuste perustuu pelkästään laskennalliseen malliin: **kliinisiä tutkimuksia on 0 ja julkaisuja 0**.
+Empagliflotsiini on natrium-glukoosi-kuljettajaproteiini 2:n (SGLT2) estäjä, joka vähentää glukoosin takaisinimeytymistä munuaisissa. TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **fokaalisen jäykän raajan oireyhtymän (focal stiff limb syndrome)**. Ennusteen tueksi ei ole tällä hetkellä yhtään kliinistä tutkimusta eikä julkaisua, joten kyse on pelkästä laskennallisesta ennusteesta.
 
 ---
 
@@ -47,83 +46,73 @@ TxGNN-malli ennustaa sen voivan tehota **fokaaliseen jäykän raajan oireyhtymä
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Tyypin 2 diabetes, sydämen vajaatoiminta ja krooninen munuaisten vajaatoiminta |
-| Ennustettu uusi käyttöaihe | Fokaalinen jäykän raajan oireyhtymä |
-| TxGNN-ennustepistemäärä | 99,06 % |
+| Alkuperäinen käyttöaihe | Diabetes Mellitus, Type 2;Heart Failure;Renal Insufficiency, Chronic; Diabetes Mellitus, Type 2 |
+| Ennustettu uusi käyttöaihe | Fokaalinen jäykän raajan oireyhtymä (focal stiff limb syndrome) |
+| TxGNN-ennustepisteet | 0,9906 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 3 (kaikki peruutettuja) |
-| Suositeltu päätös | Hold (odota) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 3/3) |
+| Myyntilupien määrä | 3 (voimassa: 3) |
+| Suositeltu päätös | Hold (odotetaan) |
 
 ---
 
-## Miksi ennuste on (tai ei ole) perusteltu?
+## Miksi ennuste voisi olla perusteltu?
 
-Tämän raportin laatimiseen koottujen tietojen mukaan empagliflotsiinin yksityiskohtaiset vaikutusmekanismitiedot eivät ole saatavilla. Yleisesti tiedetään, että empagliflotsiini estää SGLT2-kuljettajaa munuaisissa ja vähentää glukoosin takaisinimeytymistä.
+Empagliflotsiinin tarkkaa vaikutusmekanismia ei ole tällä hetkellä saatavilla tässä raportissa käytetyssä aineistossa. Tiedetään, että empagliflotsiini kuuluu SGLT2-estäjiin, jotka vähentävät glukoosin takaisinimeytymistä munuaistiehyissä. Tämä mekanismi liittyy aineenvaihdunta- sekä sydän- ja munuaissairauksiin.
 
-Fokaalinen jäykän raajan oireyhtymä kuuluu jäykän ihmisen oireyhtymän (stiff person syndrome) kirjoon. Se on harvinainen autoimmuuni- ja neurologinen sairaus, johon liittyy tyypillisesti heikentynyt GABAergisen estovaikutuksen toiminta (esim. GAD65-vasta-aineet). SGLT2:n estolla ja tämän reitin välillä ei ole tunnistettavaa uskottavaa yhteyttä.
+Fokaalinen jäykän raajan oireyhtymä kuuluu jäykän ihmisen oireyhtymän (stiff-person) kirjoon. Siihen liittyy tyypillisesti heikentynyt GABA-välitteinen estovaikutus keskushermostossa, esimerkiksi anti-GAD65-vasta-aineiden vuoksi. SGLT2:n estolle ei tunneta yhteyttä tähän signaalireittiin.
 
-Sama pistemäärä (0,9906) on myös klassisella jäykän ihmisen oireyhtymällä, mikä viittaa siihen, että korkea pistemäärä on todennäköisesti graafipohjainen artefakti eikä näyttöä tehosta. Alkuperäisen ja uuden käyttöaiheen samankaltaisuutta ei ole arvioitu.
-
-**Muut ennustetut käyttöaiheet** (kaikilla L5-taso, ei kliinisiä tutkimuksia eikä julkaisuja, suositus Hold):
-
-| Sija | Sairaus | TxGNN-pistemäärä | Huomio |
-|------|------|------|------|
-| 2 | Klassinen jäykän ihmisen oireyhtymä | 99,06 % | Autoimmuunisairaus, johon liittyy GAD65-vasta-aineita; SGLT2:n estolla ei tunnettua roolia |
-| 3 | Opsismodysplasia | 99,03 % | Harvinainen luustodysplasia (INPPL1/SHIP2-mutaatiot); yhteys olisi spekulatiivinen |
+Aineiston perusteella uskottavaa mekanistista yhteyttä lääkkeen ja taudin välillä ei voida osoittaa. Korkea pistemäärä on laskennallinen ennuste, ei näyttöä tehosta. Sama pistemäärä on myös läheisellä sairaudella, klassisella jäykän ihmisen oireyhtymällä, mikä viittaa mallin artefaktiin eikä itsenäiseen todisteeseen.
 
 ---
 
-## Kliiniset tutkimukset
+## Kliininen tutkimusnäyttö
 
-Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
+Tällä hetkellä aiheeseen ei ole rekisteröity kliinisiä tutkimuksia.
 
 ---
 
 ## Kirjallisuusnäyttö
 
-Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
+Tällä hetkellä aiheesta ei ole saatavilla kirjallisuutta.
 
 ---
 
-## Tietoa Suomen markkinoista
+## Markkinatiedot Suomessa
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/002677 | Jardiance | – | Tyypin 2 diabetes, sydämen vajaatoiminta, krooninen munuaisten vajaatoiminta |
-| EMEA/H/C/003833 | Glyxambi | – | Tyypin 2 diabetes |
-| EMEA/H/C/003770 | Synjardy | – | Tyypin 2 diabetes |
+| EMEA/H/C/002677 | Jardiance | – | Tyypin 2 diabetes; sydämen vajaatoiminta; krooninen munuaisten vajaatoiminta |
 
-Kaikki kolme myyntilupaa on merkitty peruutetuiksi.
+Huomautus: muut aineistossa olevat luvat (Glyxambi, Synjardy) koskevat yhdistelmävalmisteita, joten niitä ei käytetä kuvaamaan yksittäisen vaikuttavan aineen markkinatilannetta.
 
 ---
 
 ## Turvallisuushuomioita
 
-**Lääkeyhteisvaikutukset:** Yhteisvaikutushaussa löytyi yhteensä 100 yhteisvaikutusta. Esimerkkejä keskivaikeista (Moderate) yhteisvaikutuksista:
-- Sympatomimeetit ja keuhkoputkia laajentavat lääkkeet: fenyylefriini, pseudoefedriini, epinefriini, salbutamoli, formoteroli
-- Verenpaine- ja sydänlääkkeet: asebutololi, nifedipiini, fosinopriili, furosemidi
-- Muut: asetatsoliamidi, etinyyliestradioli, hydrokortisoni, etanoli, fosamprenaviiri, fosfenytoiini, fostamatinibi, fostemsaviiri, gemifloksasiini
+**Lääkkeiden yhteisvaikutukset:** Yhteisvaikutushaussa löytyi yhteensä 100 yhteisvaikutusta. Esimerkkejä keskivaikeista (Moderate) yhteisvaikutuksista:
+- Fenyyliefriini, asebutololi, asetatsoliamidi, formoteroli, pseudoefedriini
+- Nifedipiini, adrenaliini, etinyyliestradioli, hydrokortisoni, salbutamoli
+- Etanoli, fosinopriili, furosemidi, fosfenytoiini
 
-Vähäisiä (Minor) yhteisvaikutuksia ovat paikallisesti käytettävä hydrokortisoni ja alklometasoni.
+Lieviä (Minor) yhteisvaikutuksia on mm. paikallisesti käytettävien hydrokortisonin ja alklometasonin kanssa.
 
-Muuten turvallisuustietoja varten on tutustuttava valmisteyhteenvetoon.
+Muiden turvallisuustietojen osalta katso valmisteyhteenveto.
 
 ---
 
-## Johtopäätös ja seuraavat askeleet
+## Johtopäätös ja jatkotoimet
 
-**Päätös: Hold (odota)**
+**Päätös: Hold (odotetaan)**
 
-**Perustelut:**
-- Ennuste perustuu pelkästään laskennalliseen malliin (L5), eikä kliinisiä tutkimuksia tai julkaisuja ole. Uskottavaa mekanistista yhteyttä SGLT2:n eston ja jäykän ihmisen oireyhtymän välillä ei ole tunnistettu, ja identtinen pistemäärä kahdella läheisellä sairaudella viittaa mallin artefaktiin. Lisäksi kaikki Suomen myyntiluvat on peruutettu.
+**Perustelu:**
+Ennusteelle ei ole kliinistä eikä kirjallista tukea, eikä uskottavaa mekanistista yhteyttä lääkkeen ja taudin välillä ole osoitettu. Korkea pistemäärä (0,9906) on pelkkä laskennallinen ennuste, ja näytön taso on L5.
 
-**Eteenpäin siirtymiseksi tarvitaan:**
-- Yksityiskohtaiset vaikutusmekanismitiedot (MOA)
-- Valmisteyhteenvedon varoitukset ja vasta-aiheet (Fimea), joita ei ole vielä saatu
-- Prekliiniset tai mekanistiset tutkimukset, jotka tukisivat yhteyttä GABAergiseen toimintaan tai autoimmuuniprosesseihin
-- Selvitys peruutettujen myyntilupien syistä ja nykyisestä kauppanimien tilanteesta Suomessa
-- Reittien yhteensopivuuden ja alkuperäisen käyttöaiheen samankaltaisuuden arviointi
+**Jatkoon etenemiseksi tarvitaan:**
+- Tarkka vaikutusmekanismitieto (MOA) ja arvio mahdollisesta yhteydestä GABAergiseen signalointiin
+- Systemaattinen kirjallisuushaku ja prekliiniset tutkimukset
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet turvallisuusarviota varten
+- Reitti- ja lääkemuotoyhteensopivuuden arviointi
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

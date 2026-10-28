@@ -6,9 +6,9 @@ nav_order: 348
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-13
-description: "Pitolisant: ennustettu uusi käyttöaihe Unettomuus (insomnia) (näytön taso L5). Alkuperäinen käyttöaihe: Obstruktiivinen uniapnea (Ozawade)"
 monitor_inn: "PITOLISANT"
 predicted_indications: ["insomnia (disease)", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome"]
+description: "Pitolisant: ennustettu uusi käyttöaihe Insomnia (disease) (näytön taso L5). Alkuperäinen käyttöaihe: Sleep Apnea, Obstructive"
 ---
 
 # Pitolisant
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-## Pitolisantti: Narkolepsian ja uniapnean hoidosta unettomuuteen
+## Pitolisant: Insomnia (disease)
 {: .text-alpha }
 
 ## Yhden lauseen tiivistelmä
@@ -47,12 +47,12 @@ TxGNN-malli ennustaa sen voivan tehota **unettomuuteen** (insomnia), mutta täll
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Obstruktiivinen uniapnea (Ozawade); narkolepsia (Wakix) |
-| Ennustettu uusi käyttöaihe | Unettomuus (insomnia) |
-| TxGNN-ennustepistemäärä | 99,71 % |
-| Näytön taso | L4 (tässä raportissa: käytännössä L5, ei unettomuutta koskevia tutkimuksia) |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 2 (molemmat peruutettu) |
+| Alkuperäinen käyttöaihe | Sleep Apnea, Obstructive; Narcolepsy |
+| Ennustettu uusi käyttöaihe | Insomnia (disease) |
+| TxGNN-ennustepistemäärä | 0.9971 |
+| Näytön taso | L5 (tässä raportissa: käytännössä L5, ei unettomuutta koskevia tutkimuksia) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Myyntilupien määrä | 2 (voimassa: 2) |
 | Suositeltu päätös | Hold (odota) |
 
 Huomio: toimitetuissa tiedoissa näytön tasoksi on annettu L4, mutta unettomuudesta ei ole kliinisiä tutkimuksia eikä suoraa kirjallisuutta, joten tason voi perustellusti nähdä olevan L5.
@@ -65,7 +65,7 @@ Pitolisantti on selektiivinen histamiini H3 -reseptorin antagonisti/käänteisag
 
 Unettomuuden hoidossa pyritään yleensä vähentämään vireystilaa. Pitolisantin vaikutus on siis mekanistisesti päinvastainen, ja unettomuus on lääkkeen tunnettu haittavaikutus. Korkea TxGNN-pistemäärä johtuu todennäköisesti tietämysgraafin läheisyysartefaktasta: uni–valve-biologia on yhteistä, mutta se ei tarkoita hoitohyötyä. Käyttö tähän käyttöaiheeseen on mekanistisesti epäuskottavaa ja mahdollisesti haitallista.
 
-Muut ennusteet ovat heikompia tai vain hypoteeseja. ADHD (pistemäärä 99,36 %) on mekanistisesti uskottavampi, koska H3-antagonismi lisää histamiinin, asetyylikoliinin, noradrenaliinin ja dopamiinin vapautumista prefrontaalikuorella. Näyttö on kuitenkin epäsuoraa eikä ADHD-kohtaisia kliinisiä tutkimuksia ole. Faciodigitogenitaalinen syndrooma (Aarskog-Scott, 99,29 %) on todennäköisesti tietämysgraafin artefakta ilman tukevaa näyttöä.
+Muut ennusteet ovat heikompia tai vain hypoteeseja. ADHD (pistemäärä 0,9936) on mekanistisesti uskottavampi, koska H3-antagonismi lisää histamiinin, asetyylikoliinin, noradrenaliinin ja dopamiinin vapautumista prefrontaalikuorella. Näyttö on kuitenkin epäsuoraa eikä ADHD-kohtaisia kliinisiä tutkimuksia ole. Faciodigitogenitaalinen syndrooma (Aarskog-Scott, 0,9929) on todennäköisesti tietämysgraafin artefakta ilman tukevaa näyttöä.
 
 ---
 

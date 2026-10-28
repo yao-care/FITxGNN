@@ -6,9 +6,9 @@ nav_order: 356
 evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-13
-description: "Pregabalin: ennustettu uusi käyttöaihe Tendiniitti (jänteen tulehdus) (näytön taso L5). Alkuperäinen käyttöaihe: Ahdistuneisuushäiriöt ja epilepsia"
 monitor_inn: "PREGABALIN"
 predicted_indications: ["tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]
+description: "Pregabalin: ennustettu uusi käyttöaihe Tendinitis (näytön taso L5). Alkuperäinen käyttöaihe: Anxiety Disorders"
 ---
 
 # Pregabalin
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-## Pregabaliini: Ahdistuneisuushäiriöistä ja epilepsiasta jänteen tulehdukseen (tendiniitti)
+## Pregabalin: Tendinitis
 {: .text-alpha }
 
 ## Yhteenveto
@@ -46,12 +46,12 @@ Pregabaliinia on käytetty alun perin **epilepsian ja ahdistuneisuushäiriöiden
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Ahdistuneisuushäiriöt ja epilepsia |
-| Ennustettu uusi käyttöaihe | Tendiniitti (jänteen tulehdus) |
+| Alkuperäinen käyttöaihe | Anxiety Disorders;Epilepsy; Epilepsy;Anxiety Disorders;Neuralgia; Anxiety Disorders;Neuralgia;Epilepsy |
+| Ennustettu uusi käyttöaihe | Tendinitis |
 | TxGNN-ennustepisteet | 99,71 % |
-| Näytön taso | L4 (ei suoraa kliinistä näyttöä; epäsuora kirjallisuus) |
-| Markkinatilanne Suomessa | Ei voimassa olevia myyntilupia (vain peruutettuja) |
-| Myyntilupien määrä | 6 (kaikki peruutettuja) |
+| Näytön taso | L5 (ei suoraa kliinistä näyttöä; epäsuora kirjallisuus) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 6/6) |
+| Myyntilupien määrä | 6 (voimassa: 6) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -132,7 +132,7 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet tulee tarkistaa erikseen.
 - selvitys pregabaliinivalmisteiden nykyisestä saatavuudesta Suomessa, koska keskitetyt myyntiluvat on peruutettu
 - turvallisuuden seurantasuunnitelma erityisesti munuaisten vajaatoimintaa sairastaville sekä opioidien tai muiden keskushermostoa lamaavien lääkkeiden käyttäjille
 
-**Huomio muista ennusteista:** Samasta aineistosta **migreeni** (sijalla 5, TxGNN-pisteet 99,47 %) on selvästi paremmin tuettu kuin tendiniitti. Siitä löytyy mm. lasten satunnaistettuja kokeita (pregabaliini vs. propranololi ja natriumvalproaatti) sekä prekliinistä näyttöä kortikaalisen leviävän depression estosta. Aikuisten vaiheen 3 tutkimus (NCT00447369) kuitenkin peruttiin ilman tuloksia. Migreeniä kannattaa tarkastella erillisenä tutkimuskysymyksenä.
+**Huomio muista ennusteista:** Samasta aineistosta **migreeni** (sijalla 5, TxGNN-pisteet 0,9947) on selvästi paremmin tuettu kuin tendiniitti. Siitä löytyy mm. lasten satunnaistettuja kokeita (pregabaliini vs. propranololi ja natriumvalproaatti) sekä prekliinistä näyttöä kortikaalisen leviävän depression estosta. Aikuisten vaiheen 3 tutkimus (NCT00447369) kuitenkin peruttiin ilman tuloksia. Migreeniä kannattaa tarkastella erillisenä tutkimuskysymyksenä.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

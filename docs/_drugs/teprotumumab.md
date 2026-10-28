@@ -6,9 +6,9 @@ nav_order: 430
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Teprotumumab: ennustettu uusi käyttöaihe Monosomia X (näytön taso L5). Alkuperäinen käyttöaihe: Gravesin oftalmopatia"
 monitor_inn: "TEPROTUMUMAB"
 predicted_indications: ["monosomy X", "esophageal varices with bleeding", "esophageal varices without bleeding", "mixed gonadal dysgenesis", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Turner syndrome due to structural X chromosome anomalies", "mosaic monosomy X", "sex chromosome disorder of sex development", "varicose disease", "X chromosome number anomaly"]
+description: "Teprotumumab: ennustettu uusi käyttöaihe Monosomy X (näytön taso L5). Alkuperäinen käyttöaihe: Graves Ophthalmopathy"
 ---
 
 # Teprotumumab
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Teprotumumabi: Kilpirauhasen silmäsairaudesta (Gravesin oftalmopatia) ennustettuun uuteen käyttöaiheeseen monosomia X
+## Teprotumumab: Monosomy X
 {: .text-alpha }
 
 ## Yhteenveto
@@ -47,12 +47,12 @@ TxGNN-malli ennustaa sen mahdolliseksi hoidoksi **monosomia X:ään** (Turnerin 
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Gravesin oftalmopatia |
-| Ennustettu uusi käyttöaihe | Monosomia X |
-| TxGNN-ennustepistemäärä | 99,79 % |
+| Alkuperäinen käyttöaihe | Graves Ophthalmopathy |
+| Ennustettu uusi käyttöaihe | Monosomy X |
+| TxGNN-ennustepistemäärä | 0.9979 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odotetaan) |
 
 ---
@@ -61,7 +61,7 @@ TxGNN-malli ennustaa sen mahdolliseksi hoidoksi **monosomia X:ään** (Turnerin 
 
 Yksityiskohtaista vaikutusmekanismitietoa ei ole tällä hetkellä saatavilla tähän raporttiin koottuna. Tunnetun tiedon mukaan teprotumumabi on IGF-1R:n (insuliinin kaltaisen kasvutekijä 1:n reseptorin) estäjä, ja sen teho Gravesin oftalmopatiassa on osoitettu.
 
-Monosomia X:n (Turnerin oireyhtymä) ja Gravesin oftalmopatian välillä ei ole tunnistettavissa uskottavaa mekanistista yhteyttä. Turnerin oireyhtymä on kromosomipoikkeavuus, jonka hoito perustuu kasvuhormoniin ja estrogeenikorvaukseen. IGF-1R:n esto vaikuttaisi teoriassa kasvuhormoni–IGF-1-akselin hoitoa vastaan eikä sen tueksi. Erittäin korkea pistemäärä (0,998) on todennäköisesti seurausta tietämysgraafin rakenteesta, ei riippumattomasta näytöstä.
+Monosomia X:n (Turnerin oireyhtymä) ja Gravesin oftalmopatian välillä ei ole tunnistettavissa uskottavaa mekanistista yhteyttä. Turnerin oireyhtymä on kromosomipoikkeavuus, jonka hoito perustuu kasvuhormoniin ja estrogeenikorvaukseen. IGF-1R:n esto vaikuttaisi teoriassa kasvuhormoni–IGF-1-akselin hoitoa vastaan eikä sen tueksi. Erittäin korkea pistemäärä (0,9979) on todennäköisesti seurausta tietämysgraafin rakenteesta, ei riippumattomasta näytöstä.
 
 Muut kymmenen parhaan joukossa olevat ennusteet (mm. ruokatorven suonikohjut, sekamuotoinen gonadaalinen dysgenesia, Turnerin oireyhtymän variantit, mitokondrioiden oksidatiiviset fosforylaatiohäiriöt ja suonikohjutauti) eivät myöskään saa mekanistista tai kliinistä tukea. Useat niistä muodostavat samaan sukukromosomipoikkeavuuksien ryhmään kuuluvan klusterin, mikä viittaa korreloituneeseen graafisignaaliin.
 

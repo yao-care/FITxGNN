@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Loxapine
-parent: Kohtalainen näyttö (L3-L4)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 272
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Loxapine: ennustettu uusi käyttöaihe Maaninen kaksisuuntainen mielialahäiriö (näytön taso L3). Alkuperäinen käyttöaihe: Skitsofrenia"
 monitor_inn: "LOXAPINE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "syndromic myopia", "atypical glycine encephalopathy"]
+description: "Loxapine: ennustettu uusi käyttöaihe Retinal dystrophy with or without extraocular anomalies (näytön taso L5). Alkuperäinen käyttöaihe: Schizophrenia"
 ---
 
 # Loxapine
 {: .fs-9 }
 
-Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Loksapiini: Skitsofreniasta ja kaksisuuntaisesta mielialahäiriöstä maaniseen kaksisuuntaiseen mielialahäiriöön
+## Loxapine: Retinal dystrophy with or without extraocular anomalies
 {: .text-alpha }
 
 ## Yhteenveto
@@ -48,12 +48,12 @@ Tätä tukee **20 julkaisua** (pääosin katsauksia), mutta **ei yhtään rekist
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Skitsofrenia; kaksisuuntainen mielialahäiriö |
-| Ennustettu uusi käyttöaihe | Maaninen kaksisuuntainen mielialahäiriö |
-| TxGNN-ennustepistemäärä | 99,99 % |
-| Näytön taso | L3 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 |
+| Alkuperäinen käyttöaihe | Schizophrenia;Bipolar Disorder |
+| Ennustettu uusi käyttöaihe | Retinal dystrophy with or without extraocular anomalies |
+| TxGNN-ennustepistemäärä | 0.9995 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Etene suojatoimin (Proceed with Guardrails) |
 
 ---

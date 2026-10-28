@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-## Rivaroksabaani: Tromboembolian ehkäisystä ja hoidosta nivelreumaan
+## Rivaroksabaani: nivelreuma
 {: .text-alpha }
 
 ## Yhteenveto
@@ -48,10 +48,10 @@ Rivaroksabaani on suun kautta otettava Xa-tekijän estäjä, jota on alun perin 
 |------|------|
 | Alkuperäinen käyttöaihe | Laskimotromboembolia, keuhkoembolia, akuutti sepelvaltimotautioireyhtymä, aivohalvaus, sepelvaltimotauti, ääreisvaltimotauti, eteisvärinä |
 | Ennustettu uusi käyttöaihe | Nivelreuma |
-| TxGNN-ennustepiste | 99,57 % |
+| TxGNN-ennustepiste | 0,9957 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 4 (kaikki peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 4/4) |
+| Myyntilupien määrä | 4 (voimassa: 4) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -118,7 +118,7 @@ Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- TxGNN-pistemäärä on erittäin korkea (0,996), mutta näyttö on tasoa L5: kliinisiä tutkimuksia ei ole, eikä kirjallisuus tue rivaroksabaanin käyttöä nivelreuman hoidossa. Mahdollinen hyöty rajoittuisi epäsuoraan tromboosiriskin hallintaan.
+- TxGNN-pistemäärä on erittäin korkea (0,9957), mutta näyttö on tasoa L5: kliinisiä tutkimuksia ei ole, eikä kirjallisuus tue rivaroksabaanin käyttöä nivelreuman hoidossa. Mahdollinen hyöty rajoittuisi epäsuoraan tromboosiriskin hallintaan.
 - Lisäksi kaikki Suomen myyntiluvat on peruutettu, ja turvallisuustietojen puute estää etenemisen turvallisuusseulontaan.
 
 **Jatkaminen edellyttää seuraavaa:**

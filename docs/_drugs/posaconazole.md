@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Posaconazole
-parent: Kohtalainen näyttö (L3-L4)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 352
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
-description: "Posaconazole: ennustettu uusi käyttöaihe Pneumokystoosi (näytön taso L4). Alkuperäinen käyttöaihe: Kandidiaasi, mykoosit, koksidioidomykoosi, aspergilloosi"
 monitor_inn: "POSACONAZOLE"
 predicted_indications: ["pneumocystosis"]
+description: "Posaconazole: ennustettu uusi käyttöaihe Pneumocystosis (näytön taso L5). Alkuperäinen käyttöaihe: Candidiasis"
 ---
 
 # Posaconazole
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **1** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-## Posakonatsoli: Sieni-infektioista pneumokystoosiin
+## Posaconazole: Pneumocystosis
 {: .text-alpha }
 
 ## Yhden virkkeen yhteenveto
@@ -46,12 +46,12 @@ Posakonatsoli on triatsoliryhmän sienilääke, jota on alun perin käytetty kan
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Kandidiaasi, mykoosit, koksidioidomykoosi, aspergilloosi |
-| Ennustettu uusi käyttöaihe | Pneumokystoosi |
-| TxGNN-ennustepistemäärä | 99,77 % |
-| Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 3 (kaikki peruutettu) |
+| Alkuperäinen käyttöaihe | Candidiasis;Mycoses;Coccidioidomycosis;Aspergillosis; Mycoses |
+| Ennustettu uusi käyttöaihe | Pneumocystosis |
+| TxGNN-ennustepistemäärä | 0.9977 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 3/3) |
+| Myyntilupien määrä | 3 (voimassa: 3) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-## Panitumumabi: Paksusuolen kasvaimista lääkkeen aiheuttamaan osteoporoosiin
+## Panitumumabi: Lääkkeen aiheuttama osteoporoosi
 {: .text-alpha }
 
 ## Yhteenveto
@@ -48,10 +48,10 @@ Panitumumabi on EGFR-vasta-aine, jota on alun perin käytetty paksu- ja peräsuo
 |------|------|
 | Alkuperäinen käyttöaihe | Paksu- ja peräsuolen kasvaimet (kolorektaalikasvaimet) |
 | Ennustettu uusi käyttöaihe | Lääkkeen aiheuttama osteoporoosi |
-| TxGNN-ennusteen pistemäärä | 99,13 % |
+| TxGNN-ennusteen pistemäärä | 0,9913 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -127,7 +127,7 @@ Muuta turvallisuustietoa, kuten varoituksia ja vasta-aiheita, katso valmisteyhte
 
 ## Muu ennustettu käyttöaihe (sija 2)
 
-Toiseksi sijoittui **vaikea ei-proliferatiivinen diabeettinen retinopatia** (TxGNN-pistemäärä 99,05 %, näytön taso L5, suositus Hold). Ennusteen tueksi ei ole kliinisiä tutkimuksia eikä kirjallisuutta. EGFR-signaloinnin yhteys verkkokalvon verisuoni- ja tulehdusprosesseihin on vain yleistä taustatietoa. Panitumumabi on suuri IgG2-vasta-aine, jota ei ole testattu silmänsisäisesti, ja siihen liittyy systeemisiä EGFR:ään liittyviä haittoja (esim. iho- ja elektrolyyttihäiriöt). Hyöty–riskisuhde on epäselvä, koska anti-VEGF-hoito on vakiintunutta.
+Toiseksi sijoittui **vaikea ei-proliferatiivinen diabeettinen retinopatia** (TxGNN-pistemäärä 0,9905, näytön taso L5, suositus Hold). Ennusteen tueksi ei ole kliinisiä tutkimuksia eikä kirjallisuutta. EGFR-signaloinnin yhteys verkkokalvon verisuoni- ja tulehdusprosesseihin on vain yleistä taustatietoa. Panitumumabi on suuri IgG2-vasta-aine, jota ei ole testattu silmänsisäisesti, ja siihen liittyy systeemisiä EGFR:ään liittyviä haittoja (esim. iho- ja elektrolyyttihäiriöt). Hyöty–riskisuhde on epäselvä, koska anti-VEGF-hoito on vakiintunutta.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -6,9 +6,9 @@ nav_order: 244
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-13
-description: "Lamivudine: ennustettu uusi käyttöaihe Kissojen hankittu immuunikatooireyhtymä (FIV) (näytön taso L5). Alkuperäinen käyttöaihe: Krooninen hepatiitti B"
 monitor_inn: "LAMIVUDINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "chronic hepatitis C virus infection"]
+description: "Lamivudine: ennustettu uusi käyttöaihe Feline acquired immunodeficiency syndrome (näytön taso L5). Alkuperäinen käyttöaihe: Hepatitis B, Chronic"
 ---
 
 # Lamivudine
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-## Lamivudiini: Kroonisesta hepatiitti B:stä ja HIV-infektiosta kissojen immuunikatoviruksen (FIV) hoitoon
+## Lamivudine: Feline acquired immunodeficiency syndrome
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -48,12 +48,12 @@ Tämä on tutkimuskysymys, ei ihmisille tarkoitettu uusi käyttöaihe.
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Krooninen hepatiitti B; HIV-infektio |
-| Ennustettu uusi käyttöaihe | Kissojen hankittu immuunikatooireyhtymä (FIV) |
-| TxGNN-ennustepistemäärä | 99,93 % |
-| Näytön taso | L3 (rajoittuu eläimillä tehtyihin kohorttitutkimuksiin ja prekliiniseen näyttöön; ihmisillä ei tutkimuksia) |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia (ei markkinoilla) |
-| Myyntilupien määrä | 10 (kaikki peruutettuja) |
+| Alkuperäinen käyttöaihe | Hepatitis B, Chronic; HIV Infections |
+| Ennustettu uusi käyttöaihe | Feline acquired immunodeficiency syndrome |
+| TxGNN-ennustepistemäärä | 0.9993 |
+| Näytön taso | L5 (rajoittuu eläimillä tehtyihin kohorttitutkimuksiin ja prekliiniseen näyttöön; ihmisillä ei tutkimuksia) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 10/10) |
+| Myyntilupien määrä | 10 (voimassa: 10) |
 | Suositeltu päätös | Hold (odotetaan; jatkotutkimus tutkimuskysymyksenä) |
 
 ---

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lasmiditan
-parent: Kohtalainen näyttö (L3-L4)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 249
-evidence_level: L4
-indication_count: 3
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-13
-description: "Lasmiditan: ennustettu uusi käyttöaihe Aivorunkoauraan liittyvä migreeni (näytön taso L4). Alkuperäinen käyttöaihe: Migreeni"
 monitor_inn: "Lasmiditan"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
+description: "Lasmiditan: ennustettu uusi käyttöaihe Atrophoderma vermiculata (näytön taso L5). Alkuperäinen käyttöaihe: Migraine Disorders"
 ---
 
 # Lasmiditan
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-## Lasmiditaani: Migreenistä aivorunkoauraan liittyvään migreeniin
+## Lasmiditan: Atrophoderma vermiculata
 {: .text-alpha }
 
 ## Yhteenveto
@@ -46,12 +46,12 @@ Lasmiditaani on selektiivinen 5-HT1F-reseptoriagonisti, jota on alun perin käyt
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Migreeni |
-| Ennustettu uusi käyttöaihe | Aivorunkoauraan liittyvä migreeni |
-| TxGNN-ennusteen pistemäärä | 99,92 % |
-| Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Alkuperäinen käyttöaihe | Migraine Disorders |
+| Ennustettu uusi käyttöaihe | Atrophoderma vermiculata |
+| TxGNN-ennusteen pistemäärä | 0.9959 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -120,7 +120,7 @@ Turvallisuustiedot on tarkistettava valmisteyhteenvedosta. Farmakologiatiedoissa
 
 ## Huomio muista ennusteista
 
-Kaksi muuta TxGNN-ennustetta, *atrophoderma vermiculata* (99,59 %) ja *ulerythema ophryogenes* (99,46 %), eivät perustu kliiniseen eivätkä kirjallisuusnäyttöön (L5). Tunnistettua mekanistista yhteyttä lasmiditaanin 5-HT1F-vaikutukseen ei ole, joten ne todennäköisesti heijastavat tietämysgraafin läheisyyttä eivätkä biologista merkitystä. Suositus molemmille on Hold.
+Kaksi muuta TxGNN-ennustetta, *atrophoderma vermiculata* (0,9959) ja *ulerythema ophryogenes* (0,9946), eivät perustu kliiniseen eivätkä kirjallisuusnäyttöön (L5). Tunnistettua mekanistista yhteyttä lasmiditaanin 5-HT1F-vaikutukseen ei ole, joten ne todennäköisesti heijastavat tietämysgraafin läheisyyttä eivätkä biologista merkitystä. Suositus molemmille on Hold.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

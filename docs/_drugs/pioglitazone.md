@@ -49,10 +49,10 @@ TxGNN-malli ennustaa sen voivan tehota **opsismodysplasiaan** (harvinainen luust
 |------|------|
 | Alkuperäinen käyttöaihe | Tyypin 2 diabetes |
 | Ennustettu uusi käyttöaihe | Opsismodysplasia |
-| TxGNN-ennusteen pistemäärä | 99,59 % |
+| TxGNN-ennusteen pistemäärä | 0,9959 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 6 (kaikki peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 6/6) |
+| Myyntilupien määrä | 6 (voimassa: 6) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -85,14 +85,14 @@ Aineistossa on myös muita ennusteita, joista yhdellekään ei ole kliinistä tu
 
 | Sija | Sairaus | TxGNN-pistemäärä | Huomio |
 |------|------|------|------|
-| 2 | Paikallinen jäykkä raaja -oireyhtymä | 99,50 % | Autoimmuuni, GABA-erginen häiriö; ei suoraa yhteyttä |
-| 3 | Klassinen stiff person -oireyhtymä | 99,50 % | Autoimmuuni; vain teoreettinen PPAR-gamma-immunomodulaatio |
-| 4 | Tiamiinille vastaava toimintahäiriöoireyhtymä | 99,48 % | Yhteys spekulatiivinen |
-| 5 | Lääkkeen aiheuttama paikallinen lipodystrofia | 99,30 % | PPAR-gamma-adipogeneesi teoreettisesti relevantti, hyöty todentamatta |
-| 6 | Sentrifugaalinen lipodystrofia | 99,26 % | Harvinainen, paikallinen; ei näyttöä |
-| 7 | Paineen aiheuttama paikallinen lipoatrofia | 99,24 % | Mekaaninen prosessi; ei tukevaa dataa |
-| 8 | Idiopaattinen paikallinen lipodystrofia | 99,19 % | Etiologia epäselvä; ei näyttöä |
-| 9 | Haiman agenesia | 99,18 % | Ks. alla |
+| 2 | Paikallinen jäykkä raaja -oireyhtymä | 0,9950 | Autoimmuuni, GABA-erginen häiriö; ei suoraa yhteyttä |
+| 3 | Klassinen stiff person -oireyhtymä | 0,9950 | Autoimmuuni; vain teoreettinen PPAR-gamma-immunomodulaatio |
+| 4 | Tiamiinille vastaava toimintahäiriöoireyhtymä | 0,9948 | Yhteys spekulatiivinen |
+| 5 | Lääkkeen aiheuttama paikallinen lipodystrofia | 0,9930 | PPAR-gamma-adipogeneesi teoreettisesti relevantti, hyöty todentamatta |
+| 6 | Sentrifugaalinen lipodystrofia | 0,9926 | Harvinainen, paikallinen; ei näyttöä |
+| 7 | Paineen aiheuttama paikallinen lipoatrofia | 0,9924 | Mekaaninen prosessi; ei tukevaa dataa |
+| 8 | Idiopaattinen paikallinen lipodystrofia | 0,9919 | Etiologia epäselvä; ei näyttöä |
+| 9 | Haiman agenesia | 0,9918 | Ks. alla |
 
 Haiman agenesian (sija 9) osalta haetut 7 julkaisua (mm. PMID [20859539](https://pubmed.ncbi.nlm.nih.gov/20859539/), [23680744](https://pubmed.ncbi.nlm.nih.gov/23680744/)) käsittelevät tyypin 2 diabetesta ja tiatsolidiinidionien yleistä farmakologiaa, eivät haiman agenesiaa. Ne kuvaavat lääkkeen tunnettua käyttöaihetta, eivät uudelleenkäyttönäyttöä. Pioglitatsoni vaatii jäännösinsuliinintuotantoa, eikä se voi korvata puuttuvaa insuliinia; hoitostandardi on insuliini.
 

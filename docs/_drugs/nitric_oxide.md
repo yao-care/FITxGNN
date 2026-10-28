@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Nitric Oxide
-parent: Vahva näyttö (L1-L2)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 307
-evidence_level: L2
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Nitric Oxide: ennustettu uusi käyttöaihe Epämuodostumaoireyhtymä… (näytön taso L2). Alkuperäinen käyttöaihe: Keuhkoverenpainetauti"
 monitor_inn: "NITRIC OXIDE"
 predicted_indications: ["malformation syndrome with odontal and/or periodontal component", "hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "pulmonary arteriovenous malformation (disease)", "pulmonary arterial hypertension associated with congenital heart disease", "pulmonary arterial hypertension associated with connective tissue disease", "pulmonary arterial hypertension associated with chronic hemolytic anemia"]
+description: "Nitric Oxide: ennustettu uusi käyttöaihe Malformation syndrome with odontal and/or periodontal component (näytön taso L5). Alkuperäinen käyttöaihe: Hypertension, Pulmonary"
 ---
 
 # Nitric Oxide
 {: .fs-9 }
 
-Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Typpioksidi: Keuhkoverenpainetaudista hampaiston ja/tai igenkudoksen poikkeavuuksia sisältävään epämuodostumaoireyhtymään
+## Nitric Oxide: Malformation syndrome with odontal and/or periodontal component
 {: .text-alpha }
 
 ## Yhden lauseen tiivistelmä
@@ -46,12 +46,13 @@ Typpioksidia (inhaloitava) on käytetty keuhkoverenpainetaudin ja hengitysvajauk
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Keuhkoverenpainetauti; hengitysvajaus |
-| Ennustettu uusi käyttöaihe | Epämuodostumaoireyhtymä, johon liittyy hampaiston ja/tai igenkudoksen poikkeavuus |
+| Alkuperäinen käyttöaihe | Hypertension, Pulmonary;Respiratory Insufficiency |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Ennustettu uusi käyttöaihe | Malformation syndrome with odontal and/or periodontal component |
 | TxGNN-ennustepisteet | 99,57 % |
 | Näytön taso | L5 (vain mallin ennuste) |
 | Tilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

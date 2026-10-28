@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-## Pentosaanipolysulfaatti: Interstitiaalisesta kystiitista primaariseen verihiutaleiden vapautumishäiriöön
+## Pentosaanipolysulfaatti: Primaarinen verihiutaleiden vapautumishäiriö
 {: .text-alpha }
 
 ## Yhteenveto
@@ -49,10 +49,10 @@ TxGNN-malli ennustaa sen voivan tehota **primaariseen verihiutaleiden vapautumis
 |------|------|
 | Alkuperäinen käyttöaihe | Interstitiaalinen kystiitti |
 | Ennustettu uusi käyttöaihe | Primaarinen verihiutaleiden vapautumishäiriö (primary release disorder of platelets) |
-| TxGNN-ennustepistemäärä | 99,71 % |
+| TxGNN-ennustepistemäärä | 0,9971 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutetut myyntiluvat |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -69,8 +69,8 @@ Ennuste perustuu siis vain korkeaan TxGNN-pistemäärään, eikä sitä ole vali
 
 | Sija | Ennustettu käyttöaihe | TxGNN-pistemäärä | Näytön taso | Huomio |
 |------|------|------|------|------|
-| 2 | Glanzmannin trombasteenia | 99,65 % | L5 | Sairaudessa verihiutaleiden integriini αIIbβ3 (GPIIb/IIIa) on puutteellinen tai toimimaton. Lääkkeellä ei ole tunnettua mekanismia vian korjaamiseksi, ja sen antikoagulanttivaikutus voi lisätä verenvuotoriskiä. |
-| 3 | Pseudo-von Willebrandin tauti | 99,62 % | L5 | Verihiutaleiden GPIbα:n toimintaa lisäävä vika. Rikkipitoiset polysakkaridit voivat teoriassa sitoutua von Willebrand -tekijään, mutta hyödystä ei ole näyttöä ja verenvuototaipumus voi pahentua. |
+| 2 | Glanzmannin trombasteenia | 0,9965 | L5 | Sairaudessa verihiutaleiden integriini αIIbβ3 (GPIIb/IIIa) on puutteellinen tai toimimaton. Lääkkeellä ei ole tunnettua mekanismia vian korjaamiseksi, ja sen antikoagulanttivaikutus voi lisätä verenvuotoriskiä. |
+| 3 | Pseudo-von Willebrandin tauti | 0,9962 | L5 | Verihiutaleiden GPIbα:n toimintaa lisäävä vika. Rikkipitoiset polysakkaridit voivat teoriassa sitoutua von Willebrand -tekijään, mutta hyödystä ei ole näyttöä ja verenvuototaipumus voi pahentua. |
 
 ---
 

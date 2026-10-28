@@ -4,7 +4,7 @@ title: Sorafenib
 parent: Vahva näyttö (L1-L2)
 nav_order: 409
 evidence_level: L2
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-13
 description: "Sorafenib: ennustettu uusi käyttöaihe Liposarkooma (näytön taso L2). Alkuperäinen käyttöaihe: Maksasolusyöpä"
 monitor_inn: "SORAFENIB"
@@ -14,7 +14,7 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "female bre
 # Sorafenib
 {: .fs-9 }
 
-Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L2** | Ennustetut käyttöaiheet: **6** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Sorafenibi on monikinaasi-inhibiittori, jota on alun perin käytetty maksasolusy
 |------|------|
 | Alkuperäinen käyttöaihe | Maksasolusyöpä; munuaissolusyöpä |
 | Ennustettu uusi käyttöaihe | Liposarkooma |
-| TxGNN-ennusteen pistemäärä | 99,82 % |
+| TxGNN-ennusteen pistemäärä | 0,9982 |
 | Näytön taso | L2 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

@@ -50,10 +50,10 @@ Toissijainen ennuste, **liposarkooma**, perustuu yhteen prekliiniseen tutkimukse
 |------|------|
 | Alkuperäinen käyttöaihe | Myeloinen leukemia ja lymfaattinen leukemia |
 | Ennustettu uusi käyttöaihe | Ienkasvun fibromatoosi (fibromatosis, gingival) |
-| TxGNN-ennusteen pistemäärä | 99,04 % |
+| TxGNN-ennusteen pistemäärä | 0,9904 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettu (ei markkinoilla) |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -125,7 +125,7 @@ Sydän- ja verisuoni- sekä tromboosiriskeistä on huomattava, että ne ovat tä
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu vain korkeaan TxGNN-pistemäärään (99,04 %), eikä sen tueksi ole kliinisiä tutkimuksia tai kirjallisuutta (näyttötaso L5). Lisäksi lääke ei ole tällä hetkellä markkinoilla Suomessa (ainoa myyntilupa peruutettu), ja turvallisuustiedot puuttuvat.
+- Ennuste perustuu vain korkeaan TxGNN-pistemäärään (0,9904), eikä sen tueksi ole kliinisiä tutkimuksia tai kirjallisuutta (näyttötaso L5). Lisäksi lääke ei ole tällä hetkellä markkinoilla Suomessa (ainoa myyntilupa peruutettu), ja turvallisuustiedot puuttuvat.
 
 **Eteenpäin siirtymiseksi tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankinta ja läpikäynti (estää nykyisellään turvallisuusseulonnan)

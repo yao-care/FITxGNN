@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Brivaracetam
-parent: Kohtalainen näyttö (L3-L4)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 84
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Brivaracetam: ennustettu uusi käyttöaihe Status epilepticus (toissijaisesti: visual epilepsy… (näytön taso L3). Alkuperäinen käyttöaihe: Epilepsia"
 monitor_inn: "BRIVARACETAM"
 predicted_indications: ["beta-ketothiolase deficiency"]
+description: "Brivaracetam: ennustettu uusi käyttöaihe Beta-ketothiolase deficiency (näytön taso L5). Alkuperäinen käyttöaihe: Epilepsy"
 ---
 
 # Brivaracetam
 {: .fs-9 }
 
-Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +32,7 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Brivarasetaami: Epilepsiasta status epilepticukseen
+## Brivaracetam: Beta-ketothiolase deficiency
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -48,12 +47,12 @@ Huomio: raportti keskittyy sijalla 2 olevaan status epilepticukseen, koska sille
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Epilepsia |
-| Ennustettu uusi käyttöaihe | Status epilepticus (toissijaisesti: visual epilepsy, sijalla 1 TxGNN-pisteillä) |
-| TxGNN-ennusteen pistemäärä | 99,40 % (status epilepticus); visual epilepsy 99,51 % |
-| Näytön taso | L3 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Alkuperäinen käyttöaihe | Epilepsy |
+| Ennustettu uusi käyttöaihe | Beta-ketothiolase deficiency |
+| TxGNN-ennusteen pistemäärä | 0.9914 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota lisänäyttöä) |
 
 ---
@@ -66,7 +65,7 @@ Kirjallisuuden mukaan brivarasetaami sitoutuu SV2A:han 15–30 kertaa levetirase
 
 Alkuperäinen käyttöaihe (epilepsia) ja uusi käyttöaihe (status epilepticus) liittyvät samaan sairausryhmään: status epilepticus on kohtauksen lakkaamismekanismien pettämisestä johtuva tila. Kaksi systemaattista katsausta (PMID 31342405, 32278203) kokoaa suurelta osin havainnoivaa ja retrospektiivistä tietoa suonensisäisestä brivarasetaamista. Ne tukevat tasoa L3, eivät L1/L2-tasoa. Refraktaarin status epilepticuksen ohjeistustason katsaus (PMID 32822230) ei vakiinnuta brivarasetaamia standardihoidoksi.
 
-Sijan 1 ennuste (visual epilepsy) perustuu todennäköisesti sairauden läheisyyteen epilepsiaan tietämysverkostossa, ei erityiseen näyttöön. Haettu kirjallisuus ei käsittele valoherkkää epilepsiaa suoraan.
+Haettu kirjallisuus ei käsittele valoherkkää epilepsiaa suoraan.
 
 ---
 
@@ -119,7 +118,7 @@ Muilta osin turvallisuustiedot (varoitukset, vasta-aiheet) tulee tarkistaa valmi
 **Päätös: Hold**
 
 **Perustelut:**
-- Status epilepticuksen näyttö on tasoa L3: se perustuu pääosin havainnoiviin tutkimuksiin ja systemaattisiin katsauksiin, ja ainoa kliininen tutkimus (NCT07163572) on vaiheeltaan NA ilman tuloksia. Lisäksi brivarasetaamin myyntilupa Suomessa on peruutettu, ja valmisteyhteenvedon turvallisuustiedot puuttuvat. Muut ennustetut käyttöaiheet ovat joko L4 tai L5 eikä niille ole kohdennettua näyttöä; esimerkiksi beta-ketotiolaasipuutos on todennäköisesti tietämysverkoston artefakti.
+- Status epilepticuksen näyttö on tasoa L3: se perustuu pääosin havainnoiviin tutkimuksiin ja systemaattisiin katsauksiin, ja ainoa kliininen tutkimus (NCT07163572) on vaiheeltaan NA ilman tuloksia. Lisäksi brivarasetaamin myyntilupa Suomessa on peruutettu, ja valmisteyhteenvedon turvallisuustiedot puuttuvat.
 
 **Jatkoon tarvitaan:**
 - NCT07163572:n tulokset ja suunnittelun (satunnaistus, sokkoutus) varmistaminen

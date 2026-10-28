@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Nevirapine
-parent: Kohtalainen näyttö (L3-L4)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 302
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-13
-description: "Nevirapine: ennustettu uusi käyttöaihe Kissan hankinnainen immuunikato (FIV) (näytön taso L4). Alkuperäinen käyttöaihe: HIV-infektio"
 monitor_inn: "NEVIRAPINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Nevirapine: ennustettu uusi käyttöaihe Feline acquired immunodeficiency syndrome (näytön taso L5). Alkuperäinen käyttöaihe: HIV Infections"
 ---
 
 # Nevirapine
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-## Nevirapiini: HIV-infektion hoidosta kissan immuunikatoon
+## Nevirapine: Feline acquired immunodeficiency syndrome
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -48,12 +48,12 @@ Kyseessä on eläinlääketieteellinen käyttöaihe, jolla ei ole suoraa merkity
 
 | Kohde | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | HIV-infektio |
-| Ennustettu uusi käyttöaihe | Kissan hankinnainen immuunikato (FIV) |
-| TxGNN-ennustepistemäärä | 99,85 % |
-| Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Alkuperäinen käyttöaihe | HIV Infections |
+| Ennustettu uusi käyttöaihe | Feline acquired immunodeficiency syndrome |
+| TxGNN-ennustepistemäärä | 0.9985 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -66,7 +66,7 @@ FIV on HIV:n tavoin lentivirus, jolla on samankaltainen käänteiskopioijaentsyy
 
 Muut ennustetut käyttöaiheet:
 - **Apinan immuunikatovirusinfektio (SIV)**: Luonnollinen SIV on yleensä luontaisesti resistentti NNRTI-lääkkeille. Vaikutus havaitaan lähinnä SHIV-rakenteissa, joissa on HIV-1:n käänteiskopioijaentsyymi. Näyttö on prekliinistä ja malleihin perustuvaa (L4).
-- **Neurokehityshäiriö (ataksinen kävely, puheen puuttuminen, aivokuoren valkoisen aineen vähyys)**: Selvää mekanistista yhteyttä ei löydy, eikä tukevaa kirjallisuutta ole (L5). Pistemäärä 99,82 % on pelkkä laskennallinen ennuste.
+- **Neurokehityshäiriö (ataksinen kävely, puheen puuttuminen, aivokuoren valkoisen aineen vähyys)**: Selvää mekanistista yhteyttä ei löydy, eikä tukevaa kirjallisuutta ole (L5). Pistemäärä 0,9982 on pelkkä laskennallinen ennuste.
 
 ---
 

@@ -4,7 +4,7 @@ title: Bempedoic Acid
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 73
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Bempedoic Acid: ennustettu uusi käyttöaihe Kilpirauhasen liikatoiminta (hyperthyroidism) (näytön taso L5). Alkuperäinen käyttöaihe: Hyperkolesterolemia"
 monitor_inn: "BEMPEDOIC ACID"
@@ -14,7 +14,7 @@ predicted_indications: ["hyperthyroidism", "resistance to thyroid hormone due to
 # Bempedoic Acid
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,8 +48,8 @@ Bempedoiinihappo on kolesterolia alentava lääke, jota on käytetty hyperkolest
 | Ennustettu uusi käyttöaihe | Kilpirauhasen liikatoiminta (hyperthyroidism) |
 | TxGNN-ennustepisteet | 99,61 % |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruttuja myyntilupia (ei aktiivista myyntilupaa) |
-| Myyntilupien määrä | 2 (molemmat peruttu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Myyntilupien määrä | 2 (voimassa: 2) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste on (tai ei ole) perusteltu?
@@ -72,8 +72,8 @@ Tällä hetkellä ei ole aiheeseen liittyvää kirjallisuutta.
 
 | Myyntiluvan numero | Valmisteen nimi | Hyväksytty käyttöaihe | Tila |
 |---------|------|-----------|------|
-| EMEA/H/C/004958 | Nilemdo | Hyperkolesterolemia; dyslipidemiat | Peruttu |
-| EMEA/H/C/004959 | Nustendi | Hyperkolesterolemia; dyslipidemiat | Peruttu |
+| EMEA/H/C/004958 | Nilemdo | Hyperkolesterolemia; dyslipidemiat | Voimassa |
+| EMEA/H/C/004959 | Nustendi | Hyperkolesterolemia; dyslipidemiat | Voimassa |
 
 ## Turvallisuushuomiot
 

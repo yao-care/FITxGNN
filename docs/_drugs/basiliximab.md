@@ -8,6 +8,7 @@ nav_order: 69
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-19
+predicted_indications: []
 ---
 
 # Basiliximab
@@ -51,7 +52,8 @@ Tämä raportti dokumentoi tietojen tilan ja suosittelee seuraavat vaiheet, jotk
 | Ennustettu uusi indikaatio | Ei saatavilla — TxGNN-ennuste-pipeline palautti ei kandidaatteja |
 | TxGNN-ennustepistemäärä | N/A |
 | Todistusaineiston taso | N/A — Ei ennustetta arvioitavaksi |
-| Suomen markkinatilantieto | Ei markkinoilla |
+| Suomen markkinatilantieto | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Hyväksyntöjen lukumäärä | 0 |
 | Suositeltu päätös | **Odota** |
 

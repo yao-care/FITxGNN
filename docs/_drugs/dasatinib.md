@@ -4,7 +4,7 @@ title: Dasatinib
 parent: Vahva näyttö (L1-L2)
 nav_order: 129
 evidence_level: L2
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Dasatinib: ennustettu uusi käyttöaihe Ewingin sarkoomaa (Ewing sarcoma) (näytön taso L2). Alkuperäinen käyttöaihe: Prekursorisolu-lymfoblastileukemia/lymfooma"
 monitor_inn: "DASATINIB"
@@ -14,7 +14,7 @@ predicted_indications: ["Ewing sarcoma", "liposarcoma", "fibromatosis, gingival"
 # Dasatinib
 {: .fs-9 }
 
-Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L2** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ mutta ennusteen tukena on vain **2 kliinistä tutkimusta** ja **useita enimmäks
 |------|------|
 | Alkuperäinen käyttöaihe | Prekursorisolu-lymfoblastileukemia/lymfooma; krooninen myelooinen leukemia, BCR-ABL-positiivinen |
 | Ennustettu uusi käyttöaihe | Ewingin sarkoomaa (Ewing sarcoma) |
-| TxGNN-ennusteen pistemäärä | 99,90 % |
+| TxGNN-ennusteen pistemäärä | 0,9990 |
 | Näytön taso | L2 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 2 (molemmat peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Myyntilupien määrä | 2 (voimassa: 2) |
 | Suositeltu päätös | Hold (odottamaan; ennuste on tutkimuskysymys, ei vielä siirtokelpoinen) |
 
 ---

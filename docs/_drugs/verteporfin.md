@@ -6,9 +6,9 @@ nav_order: 468
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
-description: "Verteporfin: ennustettu uusi käyttöaihe Tumaperäisten DNA-poikkeavuuksien aiheuttama mitokondriaalinen oksida… (näytön taso L5). Alkuperäinen käyttöaihe: Rappeuttava likinäköisyys, silmänpohjan rappe…"
 monitor_inn: "VERTEPORFIN"
 predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies"]
+description: "Verteporfin: ennustettu uusi käyttöaihe Mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies (näytön taso L5). Alkuperäinen käyttöaihe: Myopia, Degenerative"
 ---
 
 # Verteporfin
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-## Verteporfiini: Rappeutuneesta silmänpohjan ja likinäköisyyden hoidosta mitokondriaaliseen oksidatiivisen fosforylaation häiriöön
+## Verteporfin: Mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies
 {: .text-alpha }
 
 ## Yhteenveto
@@ -46,12 +46,12 @@ Verteporfiini on valoherkistäjä, jota on alun perin käytetty rappeuttavan lik
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Rappeuttava likinäköisyys, silmänpohjan rappeuma |
-| Ennustettu uusi käyttöaihe | Tumaperäisten DNA-poikkeavuuksien aiheuttama mitokondriaalinen oksidatiivisen fosforylaation häiriö |
+| Alkuperäinen käyttöaihe | Myopia, Degenerative;Macular Degeneration |
+| Ennustettu uusi käyttöaihe | Mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies |
 | TxGNN-ennustepisteet | 99,49 % |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

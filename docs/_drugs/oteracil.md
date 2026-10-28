@@ -33,7 +33,7 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Oteraciili: mahasyövästä paksusuolen kasvaimeen
+## Oteraciili: Paksusuolen kasvain
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -50,10 +50,10 @@ Suuntaa tukee tällä hetkellä **6 kliinistä tutkimusta** ja **10 julkaisua**,
 |------|------|
 | Alkuperäinen käyttöaihe | Mahasyöpä (Stomach Neoplasms) |
 | Ennustettu uusi käyttöaihe | Paksusuolen kasvain (colonic neoplasm) |
-| TxGNN-ennustepistemäärä | 99,99 % |
+| TxGNN-ennustepistemäärä | 0,9999 |
 | Näytön taso | L1 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Proceed with Guardrails (jatka suojatoimin) |
 
 ---

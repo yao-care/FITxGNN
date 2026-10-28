@@ -50,10 +50,10 @@ Ennusteen tukena on tällä hetkellä **6 kliinistä tutkimusta** (joista 2 suor
 |------|------|
 | Alkuperäinen käyttöaihe | Psoriasis, psoriaattinen niveltulehdus, Crohnin tauti, haavainen paksusuolitulehdus |
 | Ennustettu uusi käyttöaihe | Dermatiitti |
-| TxGNN-ennusteen pistemäärä | 99,99 % |
+| TxGNN-ennusteen pistemäärä | 0,9999 |
 | Näytön taso | L2 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia (ei voimassa olevia) |
-| Myyntilupien määrä | 13 (kaikki peruutettuja) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 13/13) |
+| Myyntilupien määrä | 13 (voimassa: 13) |
 | Suositeltu päätös | Hold (odota; jatkotutkimus tarpeen) |
 
 ---

@@ -6,9 +6,9 @@ nav_order: 373
 evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-13
-description: "Remdesivir: ennustettu uusi käyttöaihe Multippeli endokriininen neoplasia (näytön taso L5). Alkuperäinen käyttöaihe: COVID-19-virusinfektio"
 monitor_inn: "REMDESIVIR"
 predicted_indications: ["multiple endocrine neoplasia", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "homozygous familial hypercholesterolemia"]
+description: "Remdesivir: ennustettu uusi käyttöaihe Multiple endocrine neoplasia (näytön taso L5). Alkuperäinen käyttöaihe: COVID-19 virus infection"
 ---
 
 # Remdesivir
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-## Remdesiviiri: COVID-19-infektiosta moniin endokriiniseen neoplasiaan
+## Remdesivir: Multiple endocrine neoplasia
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -48,12 +48,12 @@ Ennuste perustuu pelkästään tietoverkkoon pohjautuvaan mallinnukseen.
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | COVID-19-virusinfektio |
-| Ennustettu uusi käyttöaihe | Multippeli endokriininen neoplasia |
-| TxGNN-ennustepistemäärä | 99,50 % |
+| Alkuperäinen käyttöaihe | COVID-19 virus infection |
+| Ennustettu uusi käyttöaihe | Multiple endocrine neoplasia |
+| TxGNN-ennustepistemäärä | 0.9950 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -68,11 +68,11 @@ Multippeli endokriininen neoplasia on perinnöllinen kasvainoireyhtymä (esim. M
 
 | Sija | Käyttöaihe | Pistemäärä | Näytön taso | Huomio |
 |---|---|---|---|---|
-| 2 | HIV-infektio | 99,32 % | L4 | Käsitteellinen yhteys (RNA-virus, nukleotidianalogi), mutta HIV-spesifistä vaikutusta ei ole osoitettu |
-| 3 | Kissan hankinnainen immuunikatooireyhtymä | 99,07 % | L5 | Eläinlääketieteellinen käyttöaihe, ei tukea |
-| 4 | Apinan immuunikatovirusinfektio (SIV) | 99,07 % | L5 | Lähinnä eläinmalli, ei kliininen käyttöaihe |
-| 5 | Neurokehityshäiriö (ataksinen kävely, puheen puuttuminen) | 99,03 % | L5 | Ei uskottavaa mekanistista yhteyttä |
-| 6 | Homotsygoottinen familiaalinen hyperkolesterolemia | 99,03 % | L5 | Ei uskottavaa mekanistista yhteyttä |
+| 2 | HIV-infektio | 0,9932 | L4 | Käsitteellinen yhteys (RNA-virus, nukleotidianalogi), mutta HIV-spesifistä vaikutusta ei ole osoitettu |
+| 3 | Kissan hankinnainen immuunikatooireyhtymä | 0,9907 | L5 | Eläinlääketieteellinen käyttöaihe, ei tukea |
+| 4 | Apinan immuunikatovirusinfektio (SIV) | 0,9907 | L5 | Lähinnä eläinmalli, ei kliininen käyttöaihe |
+| 5 | Neurokehityshäiriö (ataksinen kävely, puheen puuttuminen) | 0,9903 | L5 | Ei uskottavaa mekanistista yhteyttä |
+| 6 | Homotsygoottinen familiaalinen hyperkolesterolemia | 0,9903 | L5 | Ei uskottavaa mekanistista yhteyttä |
 
 ---
 

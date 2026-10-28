@@ -4,7 +4,7 @@ title: Crizotinib
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 120
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Crizotinib: ennustettu uusi käyttöaihe Ientten fibromatoosi (fibromatosis, gingival) (näytön taso L5). Alkuperäinen käyttöaihe: Ei-pienisoluinen keuhkosyöpä"
 monitor_inn: "CRIZOTINIB"
@@ -14,7 +14,7 @@ predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma 
 # Crizotinib
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -52,8 +52,8 @@ Tämän raportin tiedoissa vahvimmat ennusteet liittyvät muihin kohteisiin (esi
 | Ennustettu uusi käyttöaihe | Ientten fibromatoosi (fibromatosis, gingival) |
 | TxGNN-ennustepistemäärä | 99,81 % |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain mitätöityjä myyntilupia |
-| Myyntilupien määrä | 1 (mitätöity) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

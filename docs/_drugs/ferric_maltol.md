@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 189
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-13
-description: "Ferric Maltol: ennustettu uusi käyttöaihe Plummer-Vinsonin oireyhtymä (näytön taso L5). Alkuperäinen käyttöaihe: Raudanpuuteanemia"
 monitor_inn: "FERRIC MALTOL"
 predicted_indications: ["Plummer-Vinson syndrome", "vitamin B12- and folate-independent constitutional megaloblastic anemia", "IRIDA syndrome"]
+last_modified_at: 2026-10-27
+description: "Ferric Maltol: ennustettu uusi käyttöaihe Plummer-Vinsonin oireyhtymä (Plummer-Vinson syndrome) (näytön taso L5). Alkuperäinen käyttöaihe: Anemia, Iron-Deficiency"
 ---
 
 # Ferric Maltol
@@ -33,89 +33,63 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-## Ferrimaltoli: Raudanpuuteanemiasta Plummer-Vinsonin oireyhtymään
+## Ferrimaltoli: rautalisä → Plummer-Vinsonin oireyhtymä (Plummer-Vinson syndrome)
 {: .text-alpha }
 
 ## Yhteenveto
 
-Ferrimaltoli on suun kautta otettava rautavalmiste, jota on käytetty raudanpuuteanemian hoitoon.
-TxGNN-malli ennustaa, että sillä voisi olla käyttöä **Plummer-Vinsonin oireyhtymän** hoidossa.
-Ennusteen tueksi ei ole **yhtään kliinistä tutkimusta eikä julkaisua**, joten näyttö perustuu pelkästään mallin laskennalliseen ennusteeseen.
-
----
+Ferrimaltoli on suun kautta otettava rautavalmiste, jonka paikallisissa lupatiedoissa on rautaa koskeva käyttöaihe. TxGNN-malli ennustaa sen mahdolliseksi uudeksi käyttöaiheeksi **Plummer-Vinsonin oireyhtymän (Plummer-Vinson syndrome)**. Ennusteen tueksi ei ole toistaiseksi **yhtään kliinistä tutkimusta eikä julkaisua**, joten näyttö perustuu pelkkään mallin ennusteeseen.
 
 ## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Raudanpuuteanemia |
-| Ennustettu uusi käyttöaihe | Plummer-Vinsonin oireyhtymä |
-| TxGNN-ennustepistemäärä | 99,98 % |
+| Alkuperäinen käyttöaihe | Anemia, Iron-Deficiency |
+| Ennustettu uusi käyttöaihe | Plummer-Vinsonin oireyhtymä (Plummer-Vinson syndrome) |
+| TxGNN-ennusteen pistemäärä | 0,9998 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
-
----
 
 ## Miksi ennuste on perusteltu?
 
-Tässä raportissa käytetyissä tiedoissa ei ole saatavilla yksityiskohtaista vaikutusmekanismia. Tunnetun tiedon perusteella ferrimaltoli on suun kautta annettava raudankorvaushoito, jonka teho raudanpuuteanemiassa on osoitettu, ja mekanistisesti se voisi soveltua myös Plummer-Vinsonin oireyhtymään.
+Tämän selvityksen yhteydessä koottu aineisto ei sisällä yksityiskohtaista tietoa ferrimaltolin vaikutusmekanismista. Ferrimaltoli on suun kautta otettava rautakorvaushoito, jonka teho raudanpuuteanemiassa on tunnettu.
 
-Plummer-Vinsonin oireyhtymälle (myös Paterson-Brown-Kelly-oireyhtymä) ovat tyypillisiä raudanpuuteanemia, ruokatorven kalvomaiset ahtaumat (esophageal web), nielemisvaikeus ja kielitulehdus. Taustalla olevan raudanpuutteen korjaaminen on tämän tilan hoidon perusperiaate, joten ennuste on mekanistisesti uskottava.
+Plummer-Vinsonin oireyhtymälle (jota kutsutaan myös Paterson-Brown-Kelly-oireyhtymäksi) ovat tyypillisiä raudanpuuteanemia, nielemisvaikeus ruokatorven kalvomuodostumien vuoksi sekä kielitulehdus. Taustalla olevan raudanpuutteen korjaaminen on mekanistisesti uskottavaa ja kuuluu tämän tilan hoidon perusperiaatteisiin.
 
-Ennusteeseen on kuitenkin suhtauduttava varovasti. Erittäin korkea pistemäärä johtuu todennäköisesti siitä, että lääkkeellä on jo raudanpuuteanemian käyttöaihe ja että se sijaitsee tietämysgraafissa lähellä tätä tautia, eikä riippumattomasta näytöstä. Ruokatorven ahtauma on lisäksi rakenteellinen ongelma, johon pelkkä rautahoito ei todennäköisesti riitä.
-
-### Muut ennustetut käyttöaiheet
-
-| Sija | Sairaus | TxGNN-pistemäärä | Arvio |
-|------|------|------|------|
-| 2 | B12- ja foolihaposta riippumaton konstitutionaalinen megaloblastinen anemia | 99,98 % | Mekanistinen perustelu heikko: megaloblastiset muutokset eivät yleensä johdu raudanpuutteesta. Rauta olisi relevanttia vain, jos samanaikainen raudanpuute on todettu. |
-| 3 | IRIDA-oireyhtymä (raudalle reagoimaton raudanpuuteanemia) | 99,33 % | Tauti johtuu TMPRSS6-mutaatioista ja liian korkeasta hepsidiinitasosta, joka estää raudan imeytymistä suolesta. Suun kautta annettava rauta on määritelmällisesti yleensä tehotonta. Ferrimaltoli imeytyy eri reittiä kuin rauta(II)suolat, mikä on teoreettinen peruste, mutta se on silti riippuvainen suoliston imeytymisestä. Pelkkä hypoteesi. |
-
----
+Pistemäärä 0,9998 on kuitenkin todennäköisesti seurausta lääkkeen tunnetusta raudanpuuteanemiaan liittyvästä asemasta ja mallin sisäisestä läheisyydestä, ei itsenäisestä näytöstä. Ruokatorven kalvomuodostumat ovat rakenteellisia, eikä niiden odoteta korjaantuvan pelkällä raudalla. Lisäksi lupa on tilassa "peruutettu", mikä rajoittaa käytännön saatavuutta.
 
 ## Kliininen tutkimusnäyttö
 
-Ei tällä hetkellä rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
-
----
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
 ## Kirjallisuusnäyttö
 
-Ei tällä hetkellä saatavilla aiheeseen liittyvää kirjallisuutta.
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
----
+## Suomen markkinatiedot
 
-## Myyntiluvat Suomessa
-
-| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+| Lupanumero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/002733 | Feraccru (Norgine B.V.) | – | Raudanpuuteanemia (tila: peruutettu) |
+| EMEA/H/C/002733 | Feraccru | – | Raudanpuuteanemia |
 
----
+## Turvallisuushuomiot
 
-## Turvallisuusnäkökohdat
+Turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
-- **Tietämysgraafiin perustuvat vasta-aiheet** (TxGNN-tietämysgraafi, ei valmisteyhteenvedon teksti): perinnöllinen hemokromatoosi, hemosideroosi, raudan aineenvaihdunnan häiriöt ja Wilsonin tauti. Nämä ovat johdonmukaisia rautavalmisteiden yleisten varoitusten kanssa (raudan ylikuormitus), mutta ne tulee varmistaa valmisteyhteenvedosta.
-
-Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta. Yhteisvaikutuksia ei löytynyt tietokannasta.
-
----
-
-## Johtopäätös ja jatkotoimet
+## Johtopäätös ja seuraavat askeleet
 
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Kaikki kolme ennustetta perustuvat vain mallin laskennalliseen tulokseen (taso L5) ilman kliinisiä tutkimuksia tai kirjallisuutta. Lisäksi valmisteen ainoa myyntilupa Suomessa on peruutettu, mikä rajoittaa käytännön saatavuutta.
+- Ennusteelle ei ole kliinistä tai kirjallista tukea (näytön taso L5), ja mekanistinen peruste on osin epävarma, koska kalvomuodostumat ovat rakenteellisia.
 
-**Jatkoon siirtyminen edellyttää seuraavia:**
-- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean sivuilta (estää turvallisuusarvioinnin etenemisen)
-- Vaikutusmekanismin (MOA) tiedot DrugBankista
-- Kirjallisuushaku ja kliinisten tutkimusten haku Plummer-Vinsonin oireyhtymästä ja rautahoidosta
-- Ennusteen tarkastelu erityisesti Plummer-Vinsonin oireyhtymän osalta, koska se on mekanistisesti uskottavin kandidaatti
-- Selvitys valmisteen saatavuudesta, koska myyntilupa on peruutettu
+**Etenemiseksi tarvitaan:**
+- Kirjallisuushaku ja kliinisten tutkimusten kartoitus Plummer-Vinsonin oireyhtymän raudankorvaushoidosta
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden tarkistaminen Fimean sivustolta
+- Yksityiskohtaiset tiedot vaikutusmekanismista
+- Lupatilanteen ja valmisteen saatavuuden selvittäminen
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

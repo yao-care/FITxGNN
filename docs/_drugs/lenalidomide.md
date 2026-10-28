@@ -4,17 +4,17 @@ title: Lenalidomide
 parent: Vahva näyttö (L1-L2)
 nav_order: 258
 evidence_level: L2
-indication_count: 6
+indication_count: 4
 last_modified_at: 2026-10-13
-description: "Lenalidomide: ennustettu uusi käyttöaihe Myeloidinen leukemia (näytön taso L2). Alkuperäinen käyttöaihe: Multippeli myelooma"
 monitor_inn: "LENALIDOMIDE"
-predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts", "partial deletion of the long arm of chromosome 5"]
+predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]
+description: "Lenalidomide: ennustettu uusi käyttöaihe Myeloid leukemia (näytön taso L2). Alkuperäinen käyttöaihe: Multiple Myeloma"
 ---
 
 # Lenalidomide
 {: .fs-9 }
 
-Näytön taso: **L2** | Ennustetut käyttöaiheet: **6** kpl
+Näytön taso: **L2** | Ennustetut käyttöaiheet: **4** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-## Lenalidomidi: Multippelin myelooman hoidosta myeloidiseen leukemiaan
+## Lenalidomide: Myeloid leukemia
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -48,12 +48,12 @@ Ennusteen tukena on tällä hetkellä **43 kliinistä tutkimusta** ja **19 julka
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Multippeli myelooma |
-| Ennustettu uusi käyttöaihe | Myeloidinen leukemia |
-| TxGNN-ennustepistemäärä | 99,49 % |
+| Alkuperäinen käyttöaihe | Multiple Myeloma; Multiple Myeloma;Lymphoma, Mantle-Cell;Myelodysplastic Syndromes |
+| Ennustettu uusi käyttöaihe | Myeloid leukemia |
+| TxGNN-ennustepistemäärä | 0.9949 |
 | Näytön taso | L2 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 3 (kaikki peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 3/3) |
+| Myyntilupien määrä | 3 (voimassa: 3) |
 | Suositeltu päätös | Hold (odotus) |
 
 ---

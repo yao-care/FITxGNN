@@ -48,10 +48,10 @@ Lumakaftori on CFTR-korjaaja, jota on käytetty kystisen fibroosin hoitoon. TxGN
 |------|------|
 | Alkuperäinen käyttöaihe | Kystinen fibroosi |
 | Ennustettu uusi käyttöaihe | Lepra |
-| TxGNN-ennusteen pistemäärä | 99,44 % |
+| TxGNN-ennusteen pistemäärä | 0,9944 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
-| Myyntilupien määrä | 1 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -60,7 +60,7 @@ Lumakaftori on CFTR-korjaaja, jota on käytetty kystisen fibroosin hoitoon. TxGN
 
 Lääkkeen alkuperäisestä vaikutusmekanismista ei ole tässä raportissa käytettävissä tietoa. Yleisen tiedon mukaan lumakaftori on CFTR-korjaaja, joka parantaa F508del-CFTR-proteiinin laskostumista ja kulkeutumista solun pinnalle. Tämä mekanismi liittyy spesifisesti kystiseen fibroosiin.
 
-Tunnettua reittiä, joka yhdistäisi CFTR-korjauksen *Mycobacterium leprae* -infektioon tai lepran isäntäpuolustukseen ja hermovaurioon, ei ole osoitettu. Korkea pistemäärä (0,994) on tiedonlouhintaan perustuva laskennallinen ennuste, jota mikään kliininen tai julkaistu näyttö ei vahvista. Mahdollinen yhteys, esimerkiksi isäntä–patogeeni-vuorovaikutusten tai proteiinien kuljetusreittien kautta, on tässä vaiheessa spekulatiivinen ja vaatisi prekliinistä validointia.
+Tunnettua reittiä, joka yhdistäisi CFTR-korjauksen *Mycobacterium leprae* -infektioon tai lepran isäntäpuolustukseen ja hermovaurioon, ei ole osoitettu. Korkea pistemäärä (0,9944) on tiedonlouhintaan perustuva laskennallinen ennuste, jota mikään kliininen tai julkaistu näyttö ei vahvista. Mahdollinen yhteys, esimerkiksi isäntä–patogeeni-vuorovaikutusten tai proteiinien kuljetusreittien kautta, on tässä vaiheessa spekulatiivinen ja vaatisi prekliinistä validointia.
 
 ---
 

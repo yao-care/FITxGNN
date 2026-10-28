@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Methionine
-parent: Kohtalainen näyttö (L3-L4)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 285
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-13
-description: "Methionine: ennustettu uusi käyttöaihe Akne (näytön taso L4). Alkuperäinen käyttöaihe: Vaahterasiirappitauti (Maple Syrup Urine Disease)"
 monitor_inn: "methionine"
-predicted_indications: ["acne (disease)", "severe nonproliferative diabetic retinopathy", "craniostenosis cataract", "mature cataract", "nuclear senile cataract", "cortical cataract", "tetanic cataract", "immature cataract", "diabetic cataract"]
+predicted_indications: ["acne (disease)", "severe nonproliferative diabetic retinopathy", "craniostenosis cataract", "mature cataract", "diabetes mellitus type 2 associated cataract", "nuclear senile cataract", "cortical cataract", "tetanic cataract", "immature cataract", "diabetic cataract"]
+last_modified_at: 2026-10-23
+description: "Methionine: ennustettu uusi käyttöaihe Akne (näytön taso L5). Alkuperäinen käyttöaihe: Vaahterasiirappitauti (MSUD)"
 ---
 
 # Methionine
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -36,83 +36,86 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 ## Metioniini: Vaahterasiirappitaudista akneen
 {: .text-alpha }
 
-## Yhden virkkeen yhteenveto
+## Yhden lauseen tiivistelmä
 
-Metioniini on välttämätön aminohappo, jonka valmistetta (Maapliv) on käytetty vaahterasiirappitaudin (MSUD) hoitoon. TxGNN-malli ennustaa sen voivan tehota **aknen** hoitoon, mutta ennusteen tueksi ei ole yhtään kliinistä tutkimusta ja vain **2 julkaisua**, jotka ovat kaukana suorasta näytöstä. Näyttö on käytännössä pelkkä mallin laskennallinen ennuste.
+Metioniini on aminohappo, jota käytetään Suomessa (EMA-myyntilupa) vaahterasiirappitaudin (MSUD) hoitoon. TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **aknen**, mutta tälle ennusteelle ei ole kliinisiä tutkimuksia, ja löytyneet kaksi julkaisua ovat vain sivujuonteita (homokysteiini ja yksihiilimetabolia). Näyttö on siis käytännössä pelkkä mallin ennuste.
 
-## Pikayhteenveto
+## Pikayleiskatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Vaahterasiirappitauti (Maple Syrup Urine Disease) |
+| Alkuperäinen käyttöaihe | Vaahterasiirappitauti (MSUD) |
 | Ennustettu uusi käyttöaihe | Akne |
-| TxGNN-ennustepistemäärä | 99,9996 % |
-| Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| TxGNN-ennusteen pistemäärä | 1,0000 |
+| Näytön taso | L5 |
+| Tilanne Suomen markkinoilla | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
-## Miksi ennuste on perusteltu?
+## Miksi ennuste voisi olla perusteltu?
 
-Tämän raportin laatimiseen kerätyissä tiedoissa ei ole kuvausta metioniinin vaikutusmekanismista. Metioniini on rikkipitoinen aminohappo, joka osallistuu yhden hiilen aineenvaihduntaan ja homokysteiinin muodostumiseen. Alkuperäisessä käyttöaiheessa (MSUD) sen rooli liittyy aminohappoaineenvaihdunnan hallintaan.
+Metioniinin vaikutusmekanismista ei ole tässä raportissa käytettävissä yksityiskohtaista tietoa. Tiedossa on, että metioniini on rikkipitoinen välttämätön aminohappo ja osa yksihiilimetaboliaa ja homokysteiinin aineenvaihduntaa. Sen käyttö vaahterasiirappitaudissa on hyväksytty, mutta mekanistinen yhteys aknen hoitoon on epäselvä.
 
-Aknen ja metioniinin välillä ei ole suoraa mekanistista yhteyttä. Ainoa läheinen havainto on havainnoiva tutkimus, jossa isotretinoiinihoitoa saaneilla kystisen aknen potilailla plasman homokysteiinipitoisuus oli koholla. Homokysteiini on metioniinikierron aineenvaihduntatuote. Yhteys on korkeintaan epäsuora, eikä se osoita metioniinin hoitavan aknea. Lisäksi metioniinilisä voisi nostaa homokysteiinipitoisuutta. Korkea pistemäärä on pelkkä laskennallinen ennuste.
+Kerätyssä aineistossa ei ole osoitettu suoraa mekanistista yhteyttä metioniinin ja aknen välillä. Kaksi löytynyttä julkaisua koskee homokysteiiniä ja metioniini-/folaattikiertoa: toinen on tapausselostus MTHFR-mutaatiosta vastasyntyneellä (jolla oli myös vastasyntyneiden akne), toinen kuvaa kohonneita homokysteiinipitoisuuksia kystisen aknen isotretinoiinihoidon aikana. Ne viittaavat korkeintaan siihen, että yksihiilimetabolia liittyy aknehoidon vaikutuksiin, eivät metioniinin hoidolliseen rooliin. Hyvin korkea pistemäärä on laskennallinen ennuste.
 
 ## Kliiniset tutkimukset
 
-Aknea koskevia kliinisiä tutkimuksia ei ole rekisteröity.
+Tälle käyttöaiheelle ei ole tällä hetkellä rekisteröityjä kliinisiä tutkimuksia.
 
 ## Kirjallisuusnäyttö
 
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [11277950](https://pubmed.ncbi.nlm.nih.gov/11277950/) | 2001 | Kohorttitutkimus | Int J Dermatol | Isotretinoiinihoitoa kystiseen akneen saavilla potilailla plasman homokysteiinitasot olivat koholla. |
-| [39357918](https://pubmed.ncbi.nlm.nih.gov/39357918/) | 2024 | Tapausselostus | BMJ Case Reports | Vastasyntyneellä uusi MTHFR-mutaatio, johon liittyi enkefalopatia, hiustenlähtö ja marfanoidipiirteitä; vastasyntyneen akne oli yksi iho-oire. Ei liity aknen hoitoon. |
+| [11277950](https://pubmed.ncbi.nlm.nih.gov/11277950/) | 2001 | Kohorttitutkimus | Int J Dermatol | Plasman homokysteiinipitoisuudet olivat koholla kystisen aknen isotretinoiinihoitoa saaneilla potilailla |
+| [39357918](https://pubmed.ncbi.nlm.nih.gov/39357918/) | 2024 | Tapausselostus | BMJ Case Reports | Uusi MTHFR-mutaatio vastasyntyneellä: enkefalopatia, hiustenlähtö, marfanoidipiirteet ja vastasyntyneiden akne |
 
-## Myyntiluvat Suomessa
+## Tiedot Suomen markkinoilta
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/005557 | Maapliv | – | Vaahterasiirappitauti (peruutettu) |
+| EMEA/H/C/005557 | Maapliv | – | Vaahterasiirappitauti |
 
-## Turvallisuushuomiot
+Myyntilupien määrä: 1 (keskitetty EU-myyntilupa, yksiaineinen valmiste, voimassa).
 
-**Tiedossa olevat rajoitukset ja riskit:**
+## Turvallisuushuomioita
 
-- **Lääkeaineyhteisvaikutukset** (viisi kirjattua):
-  - Lääkehiili: kohtalainen
-  - Efedriini: lievä
-  - Pseudoefedriini: lievä
-  - Meksiletiini: lievä
-  - Flekainidi: lievä
-- **Tietämyskuvaajaan perustuvat mahdolliset vasta-aiheet** (eivät ole valmisteyhteenvedon tekstiä): mm. kohonnut verenpaine, munuaissairaudet (krooninen munuaisten vajaatoiminta, munuaiskivitauti), diabetes ja diabeettinen ketoasidoosi, sydän- ja verisuonitaudit, hyperlipidemia, hyperkalsemia, fenyyliketonuria sekä digitalismyrkytys ja kammiovärinä. Nämä on tarkistettava ennen mitään jatkoselvitystä.
+Pakkausselosteen varoituksista ja vasta-aiheista ei ole saatavilla tietoa; niiltä osin on syytä tarkistaa valmisteyhteenveto.
 
-Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat kerätyistä tiedoista, joten niihin on tutustuttava valmisteyhteenvedosta.
+- **Tietämysgraafissa kirjatut vasta-aiherelaatiot** (eivät ole valmisteyhteenvedon tekstiä): mm. kohonnut verenpaine, munuaissairaudet (krooninen munuaisten vajaatoiminta, loppuvaiheen munuaisten vajaatoiminta, munuaiskivitauti), sydän- ja verisuonitaudit, hyperlipidemia, diabetes ja diabeettinen ketoasidoosi, hyperkalsemia, sarkoidoosi, digitalismyrkytys, kammiovärinä sekä fenyyliketonuria ja fenyylialaniinin aineenvaihdunnan häiriöt.
+- **Lääkeinteraktiot** (5 kirjattua): kohtalainen yhteisvaikutus lääkehiilen kanssa; lievät yhteisvaikutukset efedriinin, pseudoefedriinin, meksiletiinin ja flekainidin kanssa.
 
-## Johtopäätös ja seuraavat vaiheet
+## Johtopäätös ja seuraavat askeleet
 
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Aknen osalta ei ole kliinistä tutkimusta eikä suoraa mekanistista näyttöä, ja metioniinilisä voi nostaa homokysteiinia. Myyntilupa on lisäksi peruutettu.
+- Aknelle ei ole kliinisiä tutkimuksia eikä suoraa mekanistista näyttöä; kaksi julkaisua on vain sivuavia. Korkea TxGNN-pistemäärä on pelkkä laskennallinen ennuste.
 
-**Jatkoa varten tarvitaan:**
-- Tiedot vaikutusmekanismista (DrugBank)
-- Valmisteyhteenvedon varoitukset ja vasta-aiheet Fimean sivuilta
-- Prekliininen tai mekanistinen tutkimus metioniinin ja aknen välisestä yhteydestä sekä homokysteiiniriskin arviointi
-- Reittien ja lääkemuodon soveltuvuuden arviointi (tiedot puuttuvat)
+**Eteenpäin siirtyminen edellyttää:**
+- Metioniinin vaikutusmekanismin selvittämistä
+- Prekliinistä tai mekanistista näyttöä metioniinin roolista aknessa
+- Valmisteyhteenvedon turvallisuustietojen läpikäyntiä (varoitukset, vasta-aiheet)
+- Reittien ja lääkemuodon yhteensopivuuden arviointia aknen hoitoon
 
-## Muut ennustetut käyttöaiheet (lyhyesti)
+---
 
-Ennusteissa on myös silmäsairauksia. Kaikkien suositus on Hold, paitsi diabeettinen kaihi, jonka osalta suositus on tutkimuskysymys.
+## Muut ennustetut käyttöaiheet (tiivistelmä)
 
-| Käyttöaihe | Näytön taso | Huomio |
-|------|------|------|
-| Diabeettinen kaihi | L4 | Johdonmukaisin mekanistinen perustelu: metioniinisulfoksidireduktaasi B1 (MsrB1) korjaa hhapettuneita metioniinitähteitä, ja sen hiljentäminen pahentaa sokerin aiheuttamaa linssiepiteelisolujen apoptoosia. Näyttö on soluperusteista, katsauksia ja havainnoivaa, eikä ihmisillä ole interventiotietoa. Kohonnut homokysteiini voi kääntää vaikutuksen haitalliseksi. |
-| Ydinkaihi (senile nuclear) | L4 | Linssiproteiinien metioniinin hapettuminen on todettu, mutta metioniinia ei ole testattu hoitona. |
-| Aivokuorikaihi (cortical) | L4 | Epäsuora näyttö, pääosin ydinkaihista; ei metioniini-interventiodataa. |
-| Vaikea ei-proliferatiivinen diabeettinen retinopatia | L5 | Vain ennuste |
-| Craniostenosis-kaihi, kypsä kaihi, tyypin 2 diabetekseen liittyvä kaihi, tetaaninen kaihi, ei-kypsä kaihi | L5 | Vain ennuste; ei tutkimuksia eikä kirjallisuutta |
+Aineistossa oli myös muita ennusteita, jotka ovat kaikki päätökseltään Hold tai Research Question (tutkimuskysymys):
+
+| Ennustettu käyttöaihe | TxGNN-pistemäärä | Näytön taso | Huomio |
+|------|------|------|------|
+| Vaikea ei-proliferatiivinen diabeettinen retinopatia | 1,0000 | L5 | Ei tutkimuksia eikä kirjallisuutta |
+| Kraniostenoosi-kaihi | 1,0000 | L5 | Ei näyttöä |
+| Kypsä kaihi | 1,0000 | L5 | Vain yleinen linssin hapetusstressin teoria |
+| Tyypin 2 diabetekseen liittyvä kaihi | 1,0000 | L5 | Ei kohdennettua näyttöä |
+| Ydinkaihi (seniili) | 1,0000 | L5 | Katso alla |
+| Aivokuorikaihi | 1,0000 | L5 | Katso alla |
+| Tetaaninen kaihi | 1,0000 | L5 | Liittyy hypokalsemiaan, ei metioniinimekanismia |
+| Kypsymätön kaihi | 1,0000 | L5 | Ei näyttöä |
+| Diabeettinen kaihi | 1,0000 | L5 | Katso alla |
+
+Huomio näytön tasosta: ydinkaihin, aivokuorikaihin ja diabeettisen kaihin kohdalla löytyneet julkaisut ovat prekliinisiä tai mekanistisia (linssiproteiinien hapettuminen, metioniinisulfoksidireduktaasi MsrB1, homokysteiinikatsaus), eikä yksikään tutkinut suoraan metioniinia hoitona kyseisessä sairaudessa. Siksi kaikkien näiden taso on tässä raportissa L5, vaikka alkuperäisessä aineistossa oli annettu L4. Metioniinin hapettuminen linssiproteiineissa on vauriomerkki, eikä se osoita, että metioniinin lisääminen olisi hyödyllistä; se voisi jopa olla haitallista. Diabeettinen kaihi on näistä johdonmukaisimmin perusteltu jatkotutkimuksen aihe (Research Question), mutta kliinistä näyttöä ei ole.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

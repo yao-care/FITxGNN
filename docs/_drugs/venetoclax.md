@@ -4,17 +4,17 @@ title: Venetoclax
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 466
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-13
-description: "Venetoclax: ennustettu uusi käyttöaihe Myeloinen leukemia (tietoaineiston ykkösennuste: KLL/SLL:n alatyyppi… (näytön taso L5). Alkuperäinen käyttöaihe: Krooninen B-solulymfaattinen leukemia"
 monitor_inn: "VENETOCLAX"
 predicted_indications: ["Hodgkins lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma"]
+description: "Venetoclax: ennustettu uusi käyttöaihe Hodgkins lymphoma (näytön taso L5). Alkuperäinen käyttöaihe: Leukemia, Lymphocytic, Chronic, B-Cell"
 ---
 
 # Venetoclax
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Venetoklaksi: Kroonisesta lymfaattisesta leukemiasta myeloidiseen leukemiaan
+## Venetoclax: Hodgkins lymphoma
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 
 Venetoklaksi on suun kautta otettava BCL-2-estäjä, jonka alkuperäinen käyttöaihe on krooninen B-solulymfaattinen leukemia (KLL).
-TxGNN-malli ennustaa sen voivan tehota ensisijaisesti **myeloiseen leukemiaan** (pistemäärä 99,47 %). Tämän suunnan tukena on tähän raporttiin koottujen tietojen mukaan **34 kliinistä tutkimusta** ja **20 julkaisua**.
+Tämän suunnan tukena on tähän raporttiin koottujen tietojen mukaan **34 kliinistä tutkimusta** ja **20 julkaisua**.
 Tietoaineiston ykkösennuste (KLL/SLL:n alatyyppi) on käytännössä jo hyväksytty käyttöaihe, joten myeloinen leukemia on ensimmäinen todellinen uudelleenkäyttökohde.
 
 ---
@@ -48,12 +48,12 @@ Tietoaineiston ykkösennuste (KLL/SLL:n alatyyppi) on käytännössä jo hyväks
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Krooninen B-solulymfaattinen leukemia |
-| Ennustettu uusi käyttöaihe | Myeloinen leukemia (tietoaineiston ykkösennuste: KLL/SLL:n alatyyppi, joka ei ole aito uusi käyttöaihe) |
-| TxGNN-ennusteen pistemäärä | 99,47 % (myeloinen leukemia); KLL/SLL-alatyyppi 99,55 % |
-| Näytön taso | L1 (myeloinen leukemia) |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Alkuperäinen käyttöaihe | Leukemia, Lymphocytic, Chronic, B-Cell |
+| Ennustettu uusi käyttöaihe | Hodgkins lymphoma |
+| TxGNN-ennusteen pistemäärä | 0.9951 |
+| Näytön taso | L5 (myeloinen leukemia) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Etene suojatoimin (myeloinen leukemia) |
 
 **Huomio:** Raportti keskittyy myeloiseen leukemiaan, koska se on ensimmäinen ennuste, jolla on aito uudelleenkäyttöpotentiaali ja vahva näyttö. Tietoaineiston ykkös- ja kakkossijan ennusteet ovat KLL/SLL:n molekulaarisia alatyyppejä, jotka kuuluvat jo hyväksytyn käyttöaiheen piiriin.
@@ -112,9 +112,6 @@ Lisäksi tietoaineistossa on useita muita myeloiseen leukemiaan liittyviä vaihe
 
 ## Tiedot Suomen markkinoilta
 
-| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/004106 | Venclyxto (AbbVie Deutschland GmbH & Co. KG) | Ei ilmoitettu | Krooninen B-solulymfaattinen leukemia (tila: peruutettu) |
 
 ---
 

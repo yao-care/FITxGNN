@@ -4,17 +4,17 @@ title: Inclisiran
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 227
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Inclisiran: ennustettu uusi käyttöaihe Kaliumin puutostila (potassium deficiency disease) (näytön taso L5). Alkuperäinen käyttöaihe: Hyperkolesterolemia"
 monitor_inn: "INCLISIRAN"
-predicted_indications: ["potassium deficiency disease", "esophageal disease", "atypical coarctation of aorta", "migraine disorder", "non-syndromic esophageal malformation", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "aortic malformation", "esophageal ulcer", "Raynaud disease"]
+predicted_indications: ["potassium deficiency disease", "esophageal disease", "atypical coarctation of aorta", "migraine disorder", "non-syndromic esophageal malformation", "migraine with brainstem aura", "aortic malformation", "esophageal ulcer", "Raynaud disease"]
 ---
 
 # Inclisiran
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,7 +38,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 ## Yhden lauseen yhteenveto
 
-Inklisirani on PCSK9:ää kohdistava siRNA-lääke, jota käytetään alun perin hyperkolesterolemian ja dyslipidemioiden hoitoon. TxGNN-malli ennustaa sen sopivan parhaiten käyttöaiheeseen **kaliumin puutostila** (pistemäärä 99,93 %), mutta ennusteen tueksi ei ole **yhtään kliinistä tutkimusta eikä julkaisua**. Ennuste perustuu pelkästään malliin.
+Inklisirani on PCSK9:ää kohdistava siRNA-lääke, jota käytetään alun perin hyperkolesterolemian ja dyslipidemioiden hoitoon. TxGNN-malli ennustaa sen sopivan parhaiten käyttöaiheeseen **kaliumin puutostila** (pistemäärä 0,9993), mutta ennusteen tueksi ei ole **yhtään kliinistä tutkimusta eikä julkaisua**. Ennuste perustuu pelkästään malliin.
 
 ---
 
@@ -50,8 +50,8 @@ Inklisirani on PCSK9:ää kohdistava siRNA-lääke, jota käytetään alun perin
 | Ennustettu uusi käyttöaihe | Kaliumin puutostila (potassium deficiency disease) |
 | TxGNN-ennustepistemäärä | 99,93 % |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

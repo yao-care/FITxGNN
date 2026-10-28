@@ -6,9 +6,9 @@ nav_order: 358
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Prilocaine: ennustettu uusi käyttöaihe Papillaarinen konjunktiviitti (ensisijainen ennuste) (näytön taso L5). Alkuperäinen käyttöaihe: Fysiologinen sukupuolitoimintojen häiriö"
 monitor_inn: "PRILOCAINE"
 predicted_indications: ["papillary conjunctivitis", "manic bipolar affective disorder", "bronchitis", "migraine disorder", "neuralgia", "migraine with brainstem aura", "atopic eczema", "allergic asthma", "rhinitis", "rosacea conjunctivitis"]
+description: "Prilocaine: ennustettu uusi käyttöaihe Papillary conjunctivitis (näytön taso L5). Alkuperäinen käyttöaihe: Sexual Dysfunction, Physiological"
 ---
 
 # Prilocaine
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Prilokaiini: Sukupuolitoimintojen häiriöiden hoidosta neuralgian tutkimuskysymykseen
+## Prilocaine: Papillary conjunctivitis
 {: .text-alpha }
 
 ## Yhden lauseen tiivistelmä
@@ -47,12 +47,12 @@ TxGNN-malli ennustaa sen parhaiten pistemäärällä sopivan indikaatioksi **pap
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Fysiologinen sukupuolitoimintojen häiriö |
-| Ennustettu uusi käyttöaihe | Papillaarinen konjunktiviitti (ensisijainen ennuste); näyttöön perustuen merkittävin ehdokas on neuralgia |
-| TxGNN-ennustepistemäärä | 99,78 % (papillaarinen konjunktiviitti); neuralgia 99,34 % |
+| Alkuperäinen käyttöaihe | Sexual Dysfunction, Physiological |
+| Ennustettu uusi käyttöaihe | Papillary conjunctivitis |
+| TxGNN-ennustepistemäärä | 0.9978 |
 | Näytön taso | L5 (papillaarinen konjunktiviitti); L3 (neuralgia) |
-| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (papillaarinen konjunktiviitti); neuralgia: tutkimuskysymys, jatkoselvitys suositeltava |
 
 ---

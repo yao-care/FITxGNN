@@ -4,17 +4,17 @@ title: Idelalisib
 parent: Vahva näyttö (L1-L2)
 nav_order: 221
 evidence_level: L2
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-13
-description: "Idelalisib: ennustettu uusi käyttöaihe Manttelisolulymfooma (näytön taso L2). Alkuperäinen käyttöaihe: Non-Hodgkin-lymfooma"
 monitor_inn: "IDELALISIB"
 predicted_indications: ["mantle cell lymphoma", "Hodgkins lymphoma", "myeloid leukemia", "chronic myelogenous leukemia, BCR-ABL1 positive", "small intestinal Burkitt lymphoma", "colon adenocarcinoma"]
+description: "Idelalisib: ennustettu uusi käyttöaihe Mantle cell lymphoma (näytön taso L2). Alkuperäinen käyttöaihe: Lymphoma, Non-Hodgkin"
 ---
 
 # Idelalisib
 {: .fs-9 }
 
-Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L2** | Ennustetut käyttöaiheet: **6** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Idelalisibi: Kroonisesta lymfaattisesta leukemiasta ja non-Hodgkin-lymfoomasta manttelisolulymfoomaan
+## Idelalisib: Mantle cell lymphoma
 {: .text-alpha }
 
 ## Yhteenveto
@@ -48,12 +48,12 @@ Ennustetta tukevat tähän raporttiin koottujen tietojen mukaan **5 kliinistä t
 
 | Kohde | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Non-Hodgkin-lymfooma; krooninen B-solulymfaattinen leukemia |
-| Ennustettu uusi käyttöaihe | Manttelisolulymfooma |
-| TxGNN-ennustepistemäärä | 99,84 % |
+| Alkuperäinen käyttöaihe | Lymphoma, Non-Hodgkin;Leukemia, Lymphocytic, Chronic, B-Cell |
+| Ennustettu uusi käyttöaihe | Mantle cell lymphoma |
+| TxGNN-ennustepistemäärä | 0.9984 |
 | Näytön taso | L2 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 Huomio: tietojen mukainen pisteytys luokittelee manttelisolulymfooman tutkimuskysymykseksi (S1). Koska satunnaistettua näyttöä manttelisolulymfoomasta ei ole ja myyntilupa on peruutettu, päätös on varovainen.

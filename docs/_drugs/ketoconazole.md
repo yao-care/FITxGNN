@@ -50,10 +50,10 @@ Aihetta tukee tällä hetkellä **1 kliininen tutkimus** (paikallisesti levitett
 |------|------|
 | Alkuperäinen käyttöaihe | Cushingin oireyhtymä |
 | Ennustettu uusi käyttöaihe | Akne |
-| TxGNN-ennusteen pistemäärä | 99,80 % |
+| TxGNN-ennusteen pistemäärä | 0,9980 |
 | Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

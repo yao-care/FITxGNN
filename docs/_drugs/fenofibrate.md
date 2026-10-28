@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Fenofibrate
-parent: Kohtalainen näyttö (L3-L4)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 187
-evidence_level: L4
-indication_count: 7
-last_modified_at: 2026-10-13
-description: "Fenofibrate: ennustettu uusi käyttöaihe Homotsygoottinen familiaalinen hyperkolesterolemia (näytön taso L4). Alkuperäinen käyttöaihe: Dyslipidemiat"
+evidence_level: L5
+indication_count: 1
 monitor_inn: "FENOFIBRATE"
-predicted_indications: ["homozygous familial hypercholesterolemia", "hyperlipoproteinemia", "cholesterol-ester transfer protein deficiency", "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency", "hyperlipidemia due to hepatic triglyceride lipase deficiency", "hypercholesterolemia, autosomal dominant"]
+predicted_indications: ["cholesterol-ester transfer protein deficiency"]
+last_modified_at: 2026-10-27
+description: "Fenofibrate: ennustettu uusi käyttöaihe Kolesteryyliesterisiirtoproteiinin puutos (cholesterol-ester transfer protein deficiency) (näytön taso L5). Alkuperäinen käyttöaihe: Dyslipidemias"
 ---
 
 # Fenofibrate
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **7** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,96 +33,71 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **7** kpl
 
 </div>
 
-## Fenofibraatti: Dyslipidemiasta homotsygoottiseen familiaaliseen hyperkolesterolemiaan
+## Fenofibraatti: PPARα-agonisti → kolesteryyliesterisiirtoproteiinin puutos (cholesterol-ester transfer protein deficiency)
 {: .text-alpha }
 
 ## Yhteenveto
 
-Fenofibraatti on rasva-aineenvaihdunnan häiriöiden (dyslipidemioiden) hoitoon tarkoitettu lääke. TxGNN-malli ennustaa sen voivan tehota **homotsygoottiseen familiaaliseen hyperkolesterolemiaan**. Ennusteen tueksi on vain **1 kliininen tutkimus**, joka koskee toista lääkettä (alirokumabi), ja **10 julkaisua**, jotka ovat pääosin yleisiä lipidilääkitystä käsitteleviä katsauksia. Fenofibraattia koskevaa suoraa näyttöä on hyvin vähän.
-
----
+Fenofibraatti on PPARα-agonisti, jota käytetään dyslipidemioiden hoitoon. TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **kolesteryyliesterisiirtoproteiinin puutoksen (cholesterol-ester transfer protein deficiency)**. Ennustetta tukee vain **3 julkaisua** (kaikki prekliinisiä tai mekanistisia), eikä kliinisiä tutkimuksia ole.
 
 ## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Dyslipidemiat |
-| Ennustettu uusi käyttöaihe | Homotsygoottinen familiaalinen hyperkolesterolemia |
-| TxGNN-ennustepisteet | 99,91 % |
-| Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 2 (molemmat peruutettu) |
+| Alkuperäinen käyttöaihe | Dyslipidemias |
+| Ennustettu uusi käyttöaihe | Kolesteryyliesterisiirtoproteiinin puutos (cholesterol-ester transfer protein deficiency) |
+| TxGNN-ennustepistemäärä | 0,9961 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Myyntilupien määrä | 2 (voimassa: 2) |
 | Suositeltu päätös | Hold (odota) |
 
----
+## Miksi ennuste voisi olla perusteltu?
 
-## Miksi ennuste on perusteltu?
+Tämän raportin tietoihin ei sisälly yksityiskohtaista vaikutusmekanismitietoa. Tiedetään kuitenkin, että fenofibraatti on PPARα-agonisti, joka nostaa HDL-kolesterolia ja laskee triglyseridejä.
 
-Fenofibraatti aktivoi PPARα-reseptoria. Aktivaatio lisää lipoproteiinilipaasin toimintaa, vähentää ApoC-III:n määrää ja tehostaa rasvahappojen hapettumista. Näin se laskee pääasiassa triglyseridejä ja VLDL-kolesterolia ja nostaa HDL-kolesterolia. LDL-kolesterolia se laskee vain vähän. Tämä sopii hyvin sekamuotoiseen dyslipidemiaan ja korkeisiin triglyseridipitoisuuksiin.
+Kolesteryyliesterisiirtoproteiinin (CETP) puutokselle on tyypillistä selvästi koholla oleva HDL-kolesteroli ja heikentynyt kolesteryyliesterien siirto HDL:stä apoB-pitoisiin lipoproteiineihin. Kerätyssä kirjallisuudessa on mekanistista päällekkäisyyttä: PPARα-agonismi yhdessä CETP:n eston kanssa muuttaa HDL- ja LDL-tasoja hiirimallissa, ja fenofibraatti indusoi fosfolipidisiirtoproteiinin (PLTP) geeniä, mikä edistää HDL-partikkelien suurenemista.
 
-Homotsygoottinen familiaalinen hyperkolesterolemia johtuu pääasiassa LDL-reseptorin toimintahäiriöstä. Siksi PPARα-aktivaatio tuskin laskee LDL-kolesterolia merkittävästi. Yhteys alkuperäiseen käyttöaiheeseen on lähinnä se, että molemmat ovat lipidihäiriöitä. Mekanistisesti yhteys on heikko.
-
-Korkea ennustepistemäärä johtuu todennäköisesti siitä, että tauti sijaitsee tietoverkossa lähellä muita lipidihäiriöitä. Se ei kerro lääkekohtaisesta näytöstä. Ainoa fenofibraattia koskeva ihmistutkimus tässä yhteydessä on vuodelta 1984. Siinä yksi homotsygoottista tautimuotoa sairastava potilas sai suurimman kolesterolilaskun osana laajempaa tyypin II hyperlipoproteinemiapotilaiden ryhmää.
-
----
+Ennusteen kliininen perustelu on kuitenkin heikko. CETP:n puutos on jo korkean HDL:n fenotyyppi, joten HDL:ää nostavalle tai lipidejä laskevalle lääkkeelle ei ole selvää hoidollista perustetta. Korkea pistemäärä heijastaa todennäköisesti läheisyyttä lipidiaineenvaihdunnan verkostossa eikä todellista hoitosuhdetta. Näyttö on epäsuoraa ja mekanistista.
 
 ## Kliininen tutkimusnäyttö
 
-| Tutkimustunnus | Vaihe | Tila | Osallistujia | Keskeiset havainnot |
-|---------|------|------|------|---------|
-| [NCT03510715](https://clinicaltrials.gov/study/NCT03510715) | Vaihe 3 | Päättynyt | 18 | Avoin tutkimus alirokumabista 8–17-vuotiailla lapsilla ja nuorilla, joilla on homotsygoottinen familiaalinen hyperkolesterolemia. Tutkimus ei koske fenofibraattia, joten se ei anna suoraa näyttöä tästä lääkkeestä. |
-
----
+Aiheeseen liittyviä kliinisiä tutkimuksia ei ole tällä hetkellä rekisteröity.
 
 ## Kirjallisuusnäyttö
 
 | PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [6593751](https://pubmed.ncbi.nlm.nih.gov/6593751/) | 1984 | Kohorttitutkimus | Pharmacological Research Communications | 22 tyypin II hyperlipoproteinemiapotilasta sai fenofibraattia 4–12 kuukautta. Kokonaiskolesteroli laski keskimäärin 22 % ja LDL-kolesteroli 24 %. Yhdellä homotsygoottista tautimuotoa sairastavalla potilaalla lasku oli suurin. |
-| [2042836](https://pubmed.ncbi.nlm.nih.gov/2042836/) | 1991 | Katsaus | Annals of the New York Academy of Sciences | Lasten ja nuorten dyslipidemian lääke- ja leikkaushoidot. Fenofibraatti mainitaan yhtenä lääkkeenä, jolla on saatu kolesterolia laskevia tuloksia. |
-| [24734312](https://pubmed.ncbi.nlm.nih.gov/24734312/) | 2014 | Farmakokineettinen yhteisvaikutustutkimus | Pharmacotherapy | Lomitapidin (homotsygoottisen tautimuodon lääke) yhteisvaikutukset useiden lipidilääkkeiden, myös fenofibraatin, kanssa. |
-| [37979722](https://pubmed.ncbi.nlm.nih.gov/37979722/) | 2024 | Katsaus | Indian Heart Journal | Statiinien ulkopuoliset lipidilääkkeet. Fenofibraatin selkein käyttöaihe on triglyseridipitoisuus yli 500 mg/dl, ja sen vaikutus sydän- ja verisuonitapahtumiin on vähäinen. |
-| [28437620](https://pubmed.ncbi.nlm.nih.gov/28437620/) | 2017 | Hoitosuositus | Endocrine Practice | AACE/ACE:n suositukset dyslipidemian hoidosta ja sydän- ja verisuonitautien ehkäisystä (yleinen suositus). |
-| [35499807](https://pubmed.ncbi.nlm.nih.gov/35499807/) | 2022 | Katsaus | Current Atherosclerosis Reports | Dyslipidemian hoito raskauden aikana. |
-| [14620392](https://pubmed.ncbi.nlm.nih.gov/14620392/) | 2003 | Katsaus | Pharmacotherapy | Ezetimibi, selektiivinen kolesterolin imeytymisen estäjä. Ei koske fenofibraattia. |
+| [20332533](https://pubmed.ncbi.nlm.nih.gov/20332533/) | 2010 | Prekliininen | J Cardiovasc Pharmacol Ther | CETP:n esto ja PPARα-agonismi (fenofibraatti) nostivat HDL-kolesterolia ja laskivat LDL-kolesterolia ihmisen apoB100/CETP-siirtogeenisillä hiirillä |
+| [11342537](https://pubmed.ncbi.nlm.nih.gov/11342537/) | 2001 | Prekliininen | J Biol Chem | Fenofibraatti indusoi PLTP-geeniä, mikä selittää HDL:n suurenemisen hiirillä |
+| [30271349](https://pubmed.ncbi.nlm.nih.gov/30271349/) | 2018 | Prekliininen | Front Physiol | HDL-tason ja ulosteen kolesterolin sekä kolesterolin effluksikyvyn korrelaation puute korostaa HDL:n toiminnallisuuden merkitystä |
 
-Muut haussa löytyneet julkaisut ovat statiineja ja PCSK9:n estäjiä käsitteleviä katsauksia, eikä niillä ole suoraa yhteyttä fenofibraattiin.
+Yksikään julkaisu ei tutki CETP:n puutoksen hoitoa potilailla.
 
----
+## Suomen markkinatiedot
 
-## Markkinatiedot Suomessa
-
-| Myyntiluvan numero | Valmisteen nimi | Valmistaja | Hyväksytty käyttöaihe | Tila |
-|---------|------|------|-----------|------|
-| EMEA/H/C/002559 | Cholib | Viatris Healthcare Limited | Dyslipidemiat | Peruutettu |
-| EMEA/H/C/001243 | Pravafenix | Laboratoires SMB S.A. | Dyslipidemiat | Peruutettu |
-
----
+| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/002559 | Cholib | – | Dyslipidemiat |
+| EMEA/H/C/001243 | Pravafenix | – | Dyslipidemiat |
 
 ## Turvallisuushuomioita
 
-Valmisteyhteenvedon varoitukset ja vasta-aiheet eivät olleet tämän raportin aineistossa. Turvallisuustiedot tulee tarkistaa valmisteyhteenvedosta.
+- **Yhteisvaikutukset:** Kerättyjen tietojen mukaan kohtalaisia yhteisvaikutuksia on mm. seuraavien kanssa: asetoheksamidi, klooripropamidi, glimepiridi, glipitsidi, glyburidi (sulfonyyliureat), useat insuliinivalmisteet, kenodeoksikolihappo ja esomepratsoli. Yhteisvaikutuksia on kirjattu yhteensä 100.
 
-- **Tietämyskuvaajaan perustuvat mahdolliset vasta-aiheet** (TxGNN/PrimeKG, ei lääkevalmisteen myyntiluvan tekstiä): maksan vajaatoiminta ja maksasairaudet, haimatulehdus, sappirakkosairaudet ja sappikivet, lihassairaudet ja rabdomyolyysi, munuaisten vajaatoiminta, trombosytopenia, anemia sekä leukopenia ja neutropenia.
-- **Yhteisvaikutukset:** aineistoon on kirjattu 100 yhteisvaikutusta. Esimerkkejä ovat keskivaikeaksi luokitellut yhteisvaikutukset sulfonyyliureoiden (glimepiridi, glipitsidi, glibenklamidi, asetoheksamidi, klooripropamidi), erilaisten insuliinien, kenodeoksikolihapon ja esomepratsolin kanssa.
+Muuhun turvallisuustietoon, kuten varoituksiin ja vasta-aiheisiin, on perehdyttävä valmisteyhteenvedosta.
 
----
-
-## Johtopäätös ja jatkotoimet
+## Johtopäätös ja seuraavat askeleet
 
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Fenofibraatin vaikutusmekanismi (pääasiassa triglyseridien lasku) ei vastaa homotsygoottisen familiaalisen hyperkolesterolemian taustalla olevaa LDL-reseptorin toimintahäiriötä. Ainoa liitetty tutkimus koskee alirokumabia, ja fenofibraattia koskeva ihmisnäyttö rajoittuu yhteen 1980-luvun potilastapaukseen. Korkea ennustepistemäärä on laskennallinen eikä lääkekohtainen näyttö.
-- Lisäksi Suomessa ei ole voimassa olevia myyntilupia.
+- Ennusteelle ei ole suoraa tutkimusnäyttöä: kirjallisuus on prekliinistä ja koskee vain lähellä olevaa lipidibiologiaa. CETP:n puutos on jo korkean HDL:n tila, joten hoidollinen peruste puuttuu.
 
-**Jatkaminen edellyttää:**
-- fenofibraattia koskevaa kontrolloitua tutkimusnäyttöä homotsygoottisessa tautimuodossa
-- tarkempaa vaikutusmekanismin analyysia ja perusteluja sille, miksi PPARα-aktivaation pitäisi laskea LDL-kolesterolia LDL-reseptorin puutoksessa
-- valmisteyhteenvedon turvallisuustietojen tarkistamista
-- arviota tilanteesta, jossa voimassa olevia myyntilupia ei ole
-
-Samassa ennusteaineistossa **hyperlipoproteinemia** (toinen ennustettu käyttöaihe) saa selvästi vahvemman tuen, sillä siitä on useita päättyneitä vaiheen 3 satunnaistettuja tutkimuksia. Se vastaa kuitenkin pääosin lääkkeen nykyistä käyttöaihetta, joten kyse on lähinnä vahvistuksesta eikä uudesta käyttökohteesta.
+**Jatkoon tarvitaan:**
+- Selvitys siitä, onko fenofibraatilla kliinistä hyötyä CETP:n puutoksessa (potilastason tutkimukset tai tapausraportit)
+- Yksityiskohtaiset vaikutusmekanismitiedot
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet turvallisuusarviointia varten
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

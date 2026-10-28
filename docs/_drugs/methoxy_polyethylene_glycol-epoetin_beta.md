@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **7** kpl
 
 </div>
 
-## Metoksipolyetyleeniglykoli-epoetiini beeta: Anemiasta ja kroonisesta munuaisten vajaatoiminnasta verihiutaleiden primaariseen vapautumishäiriöön
+## Metoksipolyetyleeniglykoli-epoetiini beeta: Primaarinen verihiutaleiden vapautumishäiriö
 {: .text-alpha }
 
 ## Yhteenveto
@@ -49,10 +49,10 @@ TxGNN-malli ennustaa sen mahdollisesti tehoavan **verihiutaleiden primaariseen v
 |------|------|
 | Alkuperäinen käyttöaihe | Anemia; krooninen munuaisten vajaatoiminta |
 | Ennustettu uusi käyttöaihe | Verihiutaleiden primaarinen vapautumishäiriö |
-| TxGNN-ennusteen pistemäärä | 99,36 % |
+| TxGNN-ennusteen pistemäärä | 0,9936 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -71,12 +71,12 @@ Samat ongelmat koskevat muita ennusteita. Kaikilla on taso L5 ja suositus Hold:
 
 | Sija | Sairaus | TxGNN-pistemäärä | Huomio |
 |---|---|---|---|
-| 2 | Glanzmannin trombastenia | 99,30 % | EPO ei korjaa integriini αIIbβ3:n puutosta |
-| 3 | Pseudo-von Willebrandin tauti | 99,25 % | Ei tunnettua mekanistista yhteyttä |
-| 4 | Vaikea ei-proliferatiivinen diabeettinen retinopatia | 99,15 % | EPO voi edistää verisuonten uudismuodostusta, joten vaikutus voi olla haitallinen |
-| 5 | Hepariinin kofaktori 2:n puutos | 99,10 % | Tromboosiriski huolestuttava |
-| 6 | Antitrombiinin puutos, tyyppi 2 | 99,07 % | Perinnöllinen tromboosialttius, turvallisuushuoli |
-| 7 | Tekijä V:n liikatoiminta ja spontaani tromboosi | 99,04 % | Tromboosiriski vastaisi hoidon tarkoitusta |
+| 2 | Glanzmannin trombastenia | 0,9930 | EPO ei korjaa integriini αIIbβ3:n puutosta |
+| 3 | Pseudo-von Willebrandin tauti | 0,9925 | Ei tunnettua mekanistista yhteyttä |
+| 4 | Vaikea ei-proliferatiivinen diabeettinen retinopatia | 0,9915 | EPO voi edistää verisuonten uudismuodostusta, joten vaikutus voi olla haitallinen |
+| 5 | Hepariinin kofaktori 2:n puutos | 0,9910 | Tromboosiriski huolestuttava |
+| 6 | Antitrombiinin puutos, tyyppi 2 | 0,9907 | Perinnöllinen tromboosialttius, turvallisuushuoli |
+| 7 | Tekijä V:n liikatoiminta ja spontaani tromboosi | 0,9904 | Tromboosiriski vastaisi hoidon tarkoitusta |
 
 ---
 

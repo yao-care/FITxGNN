@@ -33,7 +33,7 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-## Natriumoksibaatti: narkolepsiasta ja kataplexiasta unettomuuteen
+## Natriumoksibaatti: Unettomuus (insomnia)
 {: .text-alpha }
 
 ## Yhteenveto
@@ -50,10 +50,10 @@ Tätä suuntaa tukee tällä hetkellä **3 kliinistä tutkimusta** (joista yksi 
 |------|------|
 | Alkuperäinen käyttöaihe | Kataplexia; narkolepsia |
 | Ennustettu uusi käyttöaihe | Unettomuus (insomnia) |
-| TxGNN-ennustepistemäärä | 99,997 % |
+| TxGNN-ennustepistemäärä | 1,0000 |
 | Näytön taso | L2 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

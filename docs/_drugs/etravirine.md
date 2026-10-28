@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Etravirine
-parent: Kohtalainen näyttö (L3-L4)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 181
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 8
 last_modified_at: 2026-10-13
 description: "Etravirine: ennustettu uusi käyttöaihe Apinoiden immuunikatovirusinfektio (SIV) (näytön taso L4). Alkuperäinen käyttöaihe: HIV-infektio"
 monitor_inn: "ETRAVIRINE"
@@ -14,7 +14,7 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 # Etravirine
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **8** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Ennuste on lähinnä HIV-käyttöaiheen laajennus eläinmallin suuntaan, ei uusi
 |------|------|
 | Alkuperäinen käyttöaihe | HIV-infektio |
 | Ennustettu uusi käyttöaihe | Apinoiden immuunikatovirusinfektio (SIV) |
-| TxGNN-ennusteen pistemäärä | 99,98 % |
-| Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| TxGNN-ennusteen pistemäärä | 0,9998 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

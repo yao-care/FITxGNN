@@ -6,7 +6,7 @@ nav_order: 366
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
-description: "Ranolazine: ennustettu uusi käyttöaihe Nefrogeeninen antidiureesin epäasianmukaisen erityksen oireyhtymä (NS… (näytön taso L5). Alkuperäinen käyttöaihe: Angina pectoris (rasitusrintakipu)"
+description: "Ranolazine: ennustettu uusi käyttöaihe Nefrogeeninen antidiureesioireyhtymä (näytön taso L5). Alkuperäinen käyttöaihe: Angina pectoris (rasitusrintakipu)"
 monitor_inn: "RANOLAZINE"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-## Ranolatsiini: Kokoa angina pectoriksesta nefrogeeniseen antidiureesin epäasianmukaisen erityksen oireyhtymään (NSIAD)
+## Ranolatsiini: Uusi ennustettu käyttöaihe nefrogeeninen antidiureesioireyhtymä
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -50,10 +50,10 @@ mutta ennusteen tueksi ei ole tällä hetkellä **yhtään kliinistä tutkimusta
 |------|------|
 | Alkuperäinen käyttöaihe | Angina pectoris (rasitusrintakipu) |
 | Ennustettu uusi käyttöaihe | Nefrogeeninen antidiureesin epäasianmukaisen erityksen oireyhtymä (NSIAD) |
-| TxGNN-ennustepisteet | 99,65 % |
+| TxGNN-ennustepisteet | 0,9965 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -104,7 +104,7 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole tässä aineistossa saat
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ainoa tuki on korkea TxGNN-pistemäärä (99,65 %), joka on laskennallinen ennuste eikä kliinistä näyttöä. Kliinisiä tutkimuksia ja kirjallisuutta ei ole, mekanistinen yhteys on osoittamatta, eikä lääkkeellä ole voimassa olevaa myyntilupaa Suomessa.
+- Ainoa tuki on korkea TxGNN-pistemäärä (0,9965), joka on laskennallinen ennuste eikä kliinistä näyttöä. Kliinisiä tutkimuksia ja kirjallisuutta ei ole, mekanistinen yhteys on osoittamatta, eikä lääkkeellä ole voimassa olevaa myyntilupaa Suomessa.
 
 **Etenemiseksi tarvitaan:**
 - Vaikutusmekanismin (MOA) tiedot ja mekanistisen yhteyden analyysi

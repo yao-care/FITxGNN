@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Trabectedin
-parent: Vahva näyttö (L1-L2)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 448
-evidence_level: L2
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
-description: "Trabectedin: ennustettu uusi käyttöaihe Naispuolinen rintasyöpä (näytön taso L2). Alkuperäinen käyttöaihe: Sarkooma"
 monitor_inn: "TRABECTEDIN"
 predicted_indications: ["female breast carcinoma"]
+description: "Trabectedin: ennustettu uusi käyttöaihe Female breast carcinoma (näytön taso L5). Alkuperäinen käyttöaihe: Sarcoma"
 ---
 
 # Trabectedin
 {: .fs-9 }
 
-Näytön taso: **L2** | Ennustetut käyttöaiheet: **1** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-## Trabektediini: Sarkoomasta ja munasarjasyövästä naispuoliseen rintasyöpään
+## Trabectedin: Female breast carcinoma
 {: .text-alpha }
 
 ## Yhteenveto
@@ -44,12 +44,12 @@ Trabektediini on solunsalpaaja, jota on käytetty pehmytkudossarkooman ja munasa
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Sarkooma; munasarjasyöpä |
-| Ennustettu uusi käyttöaihe | Naispuolinen rintasyöpä |
-| TxGNN-ennustepistemäärä | 99,73 % |
-| Näytön taso | L2 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 2 (molemmat peruutettu) |
+| Alkuperäinen käyttöaihe | Sarcoma;Ovarian Neoplasms; Ovarian Neoplasms;Sarcoma |
+| Ennustettu uusi käyttöaihe | Female breast carcinoma |
+| TxGNN-ennustepistemäärä | 0.9973 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Myyntilupien määrä | 2 (voimassa: 2) |
 | Suositeltu päätös | Hold (odotetaan lisänäyttöä) |
 
 ## Miksi ennuste on perusteltu?

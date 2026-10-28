@@ -50,8 +50,8 @@ Grazopreviiri on HCV:n NS3/4A-proteaasin estäjä, jota käytetään kroonisen C
 | Ennustettu uusi käyttöaihe | HIV-infektio (käytännössä HIV/HCV-yhteisinfektion hoito) |
 | TxGNN-ennustepisteet | 99,73 % |
 | Näytön taso | L1 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Proceed with Guardrails (jatka suojatoimin) |
 
 ---

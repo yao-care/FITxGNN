@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Peginterferon Alfa-2A
-parent: Kohtalainen näyttö (L3-L4)
+parent: Vahva näyttö (L1-L2)
 nav_order: 335
-evidence_level: L4
-indication_count: 10
+evidence_level: L1
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Peginterferon Alfa-2A: ennustettu uusi käyttöaihe Hepatiitti B -virusinfektio (näytön taso L4). Alkuperäinen käyttöaihe: Krooninen hepatiitti C, krooninen hepatiitti B, aito punasolutauti…"
 monitor_inn: "PEGINTERFERON ALFA-2A"
 predicted_indications: ["hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "heart conduction disease", "heart neoplasm", "heart valve disease", "congenital anomaly of ventricular septum"]
+description: "Peginterferon Alfa-2A: ennustettu uusi käyttöaihe Hepatitis E virus infection (näytön taso L1). Alkuperäinen käyttöaihe: Hepatitis C, Chronic"
 ---
 
 # Peginterferon Alfa-2A
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L1** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Peginterferoni alfa-2a: Kroonisesta hepatiitti C:stä hepatiitti B -virusinfektioon
+## Peginterferon Alfa-2A: Hepatitis E virus infection
 {: .text-alpha }
 
 ## Yhteenveto
@@ -48,12 +48,12 @@ Tätä tukee tällä hetkellä **20 kliinistä tutkimusta** ja **20 julkaisua**,
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Krooninen hepatiitti C, krooninen hepatiitti B, aito punasolutauti, essentiaalinen trombosytemia |
-| Ennustettu uusi käyttöaihe | Hepatiitti B -virusinfektio |
-| TxGNN-ennustepistemäärä | 99,94 % |
+| Alkuperäinen käyttöaihe | Hepatitis C, Chronic;Hepatitis B, Chronic;Polycythemia Vera;Thrombocythemia, Essential |
+| Ennustettu uusi käyttöaihe | Hepatitis E virus infection |
+| TxGNN-ennustepistemäärä | 0.9983 |
 | Näytön taso | L1 (huomautus: katso alla) |
-| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Proceed with Guardrails (eteneminen suojatoimin) |
 
 ---

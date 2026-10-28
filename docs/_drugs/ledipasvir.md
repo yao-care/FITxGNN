@@ -50,10 +50,10 @@ Tätä suuntaa tukee **5 kliinistä tutkimusta** ja **20 julkaisua**, mutta suor
 |------|------|
 | Alkuperäinen käyttöaihe | Krooninen hepatiitti C |
 | Ennustettu uusi käyttöaihe | Hepatiitti B -virusinfektio |
-| TxGNN-ennusteen pistemäärä | 99,91 % |
+| TxGNN-ennusteen pistemäärä | 0,9991 |
 | Näytön taso | L2 |
-| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

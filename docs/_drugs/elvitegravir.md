@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 160
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-13
-description: "Elvitegravir: ennustettu uusi käyttöaihe Simiaaninen immuunikatovirusinfektio (SIV) (näytön taso L5). Alkuperäinen käyttöaihe: HIV-infektiot"
 monitor_inn: "ELVITEGRAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+last_modified_at: 2026-10-27
+description: "Elvitegravir: ennustettu uusi käyttöaihe Kissan hankinnainen immuunikatooireyhtymä (feline acquired immunodeficiency syndrome) (näytön taso L5). Alkuperäinen käyttöaihe: HIV Infections"
 ---
 
 # Elvitegravir
@@ -33,88 +33,73 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-## Elvitegraviiri: HIV-infektiosta apinoiden immuunikatovirusinfektioon (SIV)
+## Elvitegraviiri: HIV-integraasin estäjä → Kissan hankinnainen immuunikatooireyhtymä (feline acquired immunodeficiency syndrome)
 {: .text-alpha }
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Elvitegraviiri on integraasin estäjä, jota on alun perin käytetty HIV-infektion hoidossa. TxGNN-malli ennustaa sen voivan tehota myös **simiaaniseen immuunikatovirusinfektioon (SIV)**, ja tätä suuntaa tukee tällä hetkellä **8 julkaisua** (kaikki prekliinisiä), mutta **ei yhtään kliinistä tutkimusta**.
+Elvitegraviiri on HIV-1-integraasin estäjä (strand transfer -inhibiittori), jota käytetään HIV-infektion hoidossa.
+TxGNN-malli ennustaa sen voivan tehota tautiin **kissan hankinnainen immuunikatooireyhtymä (feline acquired immunodeficiency syndrome)**.
+Tätä ennustetta tukevia kliinisiä tutkimuksia tai julkaisuja ei ole: näyttö on **pelkkää mallin ennustetta**.
 
-Huomio: TxGNN:n kolmesta ennusteesta pisimmälle edennyt on SIV-infektio (todistusaste L4). Ensimmäisenä sijoittunut ennuste, kissan immuunikatooireyhtymä, perustuu pelkkään mallilaskentaan (L5). Tämä raportti keskittyy SIV-infektioon, koska se on ainoa ennuste, jolle on olemassa kirjallisuutta. Muut ennusteet on käsitelty lyhyesti kohdassa "Muut ennusteet".
-
-## Pikayhteenveto
+## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | HIV-infektiot |
-| Ennustettu uusi käyttöaihe | Simiaaninen immuunikatovirusinfektio (SIV) |
-| TxGNN-ennustepisteet | 99,89 % |
-| Todistusaste | L4 (prekliiniset tutkimukset) |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien lukumäärä | 2 (kaikki peruutettu) |
-| Suositeltu päätös | Hold (tutkimuskysymys, ei etene kehitykseen sellaisenaan) |
+| Alkuperäinen käyttöaihe | HIV Infections |
+| Ennustettu uusi käyttöaihe | Kissan hankinnainen immuunikatooireyhtymä (feline acquired immunodeficiency syndrome) |
+| TxGNN-ennustepistemäärä | 0,9989 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Myyntilupien määrä | 2 (voimassa: 2) |
+| Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste on perusteltu?
 
-Tämän lääkkeen vaikutusmekanismitiedot eivät ole saatavilla kaikilta osin tähän raporttiin kootussa aineistossa. Tunnetun tiedon perusteella elvitegraviiri on HIV-1:n integraasin siirtoreaktion estäjä (INSTI). Sen teho HIV-infektioon on osoitettu, ja mekanistisesti se voi soveltua myös lähisukuisiin lentiviruksiin.
+Elvitegraviiri estää HIV-1:n integraasientsyymiä ja siten viruksen cDNA:n liittymistä isäntäsolun genomiin. Yksityiskohtaisia mekanismitietoja ei ole tässä raportissa käytetyissä tiedoissa saatavilla, mutta tunnettu lääkeluokka on selvä.
 
-SIV on HIV:n läheinen sukulainen, ja sen integraasi on herkkä integraasin estäjille. Kirjallisuudessa on in vitro -tutkimuksia SIVmac239-viruksen herkkyydestä ja resistenssiprofiileista INSTI-lääkkeille. Lisäksi makakeilla on tutkittu tenofoviirialafenamidin ja elvitegraviirin yhdistelmää sisältäviä paikallisia insertteja SHIV-altistuksen jälkeisessä suojassa.
+Kissan immuunikatovirus (FIV) on HIV:n tavoin lentivirus, ja sen integraasientsyymi on rakenteellisesti sukua HIV-1-integraasille. Teoriassa vaikutus on siksi mahdollinen. Elvitegraviirin ristireaktiivisuutta FIV-integraasin kanssa ei kuitenkaan ole osoitettu käytettävissä olevassa aineistossa.
 
-Nämä tulokset tukevat mekanistista uskottavuutta ja mallin hyödyllisyyttä, mutta eivät kliinistä tehoa ihmisillä. SIV ei ole ihmisen tauti, joten arvo on lähinnä translationaalisena HIV-mallina, ja HIV on jo hyväksytty käyttöaihe.
+Kyseessä on lisäksi eläinlääkinnällinen käyttöaihe, joten ihmislääkkeille tarkoitetut kehityspolut eivät sovellu suoraan. Korkea pistemäärä on laskennallinen ennuste, ei näyttöä tehosta.
 
-## Kliiniset tutkimukset
+## Kliininen tutkimusnäyttö
 
-Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
+Tähän ennustettuun käyttöaiheeseen ei ole tällä hetkellä rekisteröityjä kliinisiä tutkimuksia.
 
 ## Kirjallisuusnäyttö
 
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
-|------|-----|------|------|---------|
-| [38134382](https://pubmed.ncbi.nlm.nih.gov/38134382/) | 2024 | Prekliininen (eläinmalli) | The Journal of Infectious Diseases | TAF/elvitegraviiri-insertit suojasivat makakeja vaginaalisen SHIV-altistuksen jälkeen (aiemmin 93 % ennen ja 100 % altistuksen jälkeen annettuna) |
-| [41342257](https://pubmed.ncbi.nlm.nih.gov/41342257/) | 2026 | Prekliininen (eläinmalli) | The Journal of Infectious Diseases | Paikalliset TAF/elvitegraviiri-insertit antoivat osittaisen altistuksen jälkeisen suojan (82,9 %) peräsuolen SHIV-mallissa |
-| [17977962](https://pubmed.ncbi.nlm.nih.gov/17977962/) | 2008 | Prekliininen (in vitro) | Journal of Virology | Elvitegraviirin laaja retroviruslääkeaktiivisuus ja resistenssiprofiili |
-| [39559349](https://pubmed.ncbi.nlm.nih.gov/39559349/) | 2024 | Prekliininen (humanisoitu hiirimalli) | Frontiers in Immunology | Kaksikäyttöinen hiirimalli viruslääkestrategioiden testaamiseen sekä SIV:tä että HIV:tä vastaan |
-| [25583721](https://pubmed.ncbi.nlm.nih.gov/25583721/) | 2015 | Prekliininen (in vitro) | Antimicrobial Agents and Chemotherapy | Simiaanityyppinen HIV mallina integraasin estäjien resistenssin tutkimiseen |
-| [24920794](https://pubmed.ncbi.nlm.nih.gov/24920794/) | 2014 | Prekliininen (in vitro) | Journal of Virology | HIV-integraasin resistenssimutaatioiden vaikutus SIVmac239:n herkkyyteen INSTI-lääkkeille |
-| [26378179](https://pubmed.ncbi.nlm.nih.gov/26378179/) | 2015 | Prekliininen (in vitro) | Journal of Virology | INSTI-lääkkeiden resistenssiprofiilit SIVmac239:ssä |
-| [28923862](https://pubmed.ncbi.nlm.nih.gov/28923862/) | 2017 | Prekliininen (in vitro) | Antimicrobial Agents and Chemotherapy | Bictegraviirin ja kabotegraviirin aktiivisuus INSTI-resistenttiä SIVmac239:ää ja HIV-1:tä vastaan |
-
-Huomio: useissa tutkimuksissa elvitegraviirin oma osuus ei selviä pelkistä otsikoista ja tiivistelmien alusta.
+Tähän ennustettuun käyttöaiheeseen ei ole tällä hetkellä saatavilla kirjallisuutta.
 
 ## Myyntiluvat Suomessa
 
-| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/004042 | Genvoya | – | HIV-infektiot (peruutettu) |
-| EMEA/H/C/002574 | Stribild | – | HIV-infektiot (peruutettu) |
+| EMEA/H/C/004042 | Genvoya | – | HIV Infections |
+| EMEA/H/C/002574 | Stribild | – | HIV Infections |
 
-## Turvallisuushuomioita
+## Turvallisuushuomiot
 
-Lääkeinteraktioita on kirjattu yhteensä 27, ja niistä on tässä listattu esimerkkejä (lähde: DDInter).
+Turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
-- **Merkittävät (Major) yhteisvaikutukset**: sinkkivalmisteet (sinkkiasetaatti, -glukonaatti, -sulfaatti, -kloridi), lumakaftori, apalutamidi.
-- **Kohtalaiset (Moderate) yhteisvaikutukset**: mm. antasidit ja magnesium-, alumiini- ja kalsiumvalmisteet (todennäköisesti imeytymistä heikentävä vaikutus), deksametasoni, diklofenaakki, orlistaatti, etinyyliestradioli, elagolix, somatotropiini, natriumsitraatti ja natriumbikarbonaatti.
+Lääkkeiden yhteisvaikutuksia on kirjattu yhteensä 27. Merkittäviä (Major) yhteisvaikutuksia on ainakin seuraavien kanssa:
+- sinkkiasetaatti, sinkkiglukonaatti, sinkkisulfaatti ja sinkkikloridi
+- lumakaftori
+- apalutamidi
 
-Muista turvallisuustiedoista (varoitukset, vasta-aiheet) tulee tarkistaa valmisteyhteenveto.
-
-## Muut ennusteet
-
-- **Kissan immuunikatooireyhtymä (FIV)**, TxGNN 99,89 %, L5: ei tutkimuksia eikä kirjallisuutta. FIV-integraasi on rakenteellisesti sukua HIV-1:n integraasille, joten vaikutus on periaatteessa mahdollinen, mutta sitä ei ole osoitettu. Kyseessä on eläinlääkinnällinen käyttöaihe. Suositus: Hold.
-- **Neurokehityshäiriö (ataksinen kävely, puheen puuttuminen, aivokuoren valkean aineen väheneminen)**, TxGNN 99,87 %, L5: ei mekanistista perustetta, ei tutkimuksia eikä kirjallisuutta. Suositus: Hold.
+Kohtalaisia (Moderate) yhteisvaikutuksia on mm. deksametasonin, antasidien (magnesiumoksidi, alumiinihydroksidi, kalsiumkarbonaatti, magaldraatti, magnesiumkarbonaatti, magnesiumhydroksidi), natriumsitraatin, natriumbikarbonaatin, orlistaatin, diklofenaakin, elagoliksin, somatropiinin ja etinyyliestradiolin kanssa.
 
 ## Johtopäätös ja seuraavat askeleet
 
-**Päätös: Hold**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-- Näyttö rajoittuu prekliinisiin tutkimuksiin (L4), eikä kliinisiä tutkimuksia ole. SIV ei ole ihmisen tauti, joten ennusteen arvo on lähinnä mallitutkimuksessa. Lisäksi elvitegraviirin myyntiluvat Suomessa on kaikki peruutettu.
+Ennuste perustuu pelkästään mallin laskennalliseen pistemäärään, eikä kliinisiä tutkimuksia tai kirjallisuutta ole. Käyttöaihe on lisäksi eläinlääkinnällinen.
 
-**Eteenpäin siirtymiseksi tarvitaan:**
-- Vaikutusmekanismitietojen täydentäminen (DrugBank).
-- Valmisteyhteenvetojen varoitusten ja vasta-aiheiden kerääminen Fimean tai EMA:n lähteistä (ratkaiseva puute turvallisuusarvioinnissa).
-- Elvitegraviirin osuuden erottaminen niissä prekliinisissä tutkimuksissa, joissa tutkittiin useita INSTI-lääkkeitä.
-- Päätös siitä, onko SIV/FIV-suunta kiinnostava vain tutkimusmallina, koska se ei ole ihmisen käyttöaihe.
-- Markkinatilanteen selvittäminen, koska kaikki Suomen myyntiluvat on peruutettu.
+**Jatkotoimiin tarvitaan:**
+- In vitro -tutkimus elvitegraviirin vaikutuksesta FIV-integraasiin
+- Tarkemmat vaikutusmekanismia koskevat tiedot
+- Arvio eläinlääkinnällisestä kehityspolusta ja sääntelystä
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden kokoaminen
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

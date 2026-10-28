@@ -4,17 +4,17 @@ title: Vismodegib
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 472
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-13
-description: "Vismodegib: ennustettu uusi käyttöaihe Laajasti nodulaarinen medulloblastooma (näytön taso L5). Alkuperäinen käyttöaihe: Tyvisolusyöpä (Carcinoma, Basal Cell)"
 monitor_inn: "VISMODEGIB"
-predicted_indications: ["medulloblastoma with extensive nodularity", "xeroderma pigmentosum", "annular epidermolytic ichthyosis", "epidermolysis bullosa simplex with mottled pigmentation", "prostate cancer/brain cancer susceptibility", "Brenner tumor", "cutaneous adenocystic carcinoma", "prostate leiomyoma", "benign neoplasm of sweat gland"]
+predicted_indications: ["medulloblastoma with extensive nodularity", "xeroderma pigmentosum", "annular epidermolytic ichthyosis", "epidermolysis bullosa simplex with mottled pigmentation", "Brenner tumor", "cutaneous adenocystic carcinoma", "prostate leiomyoma", "benign neoplasm of sweat gland"]
+description: "Vismodegib: ennustettu uusi käyttöaihe Medulloblastoma with extensive nodularity (näytön taso L5). Alkuperäinen käyttöaihe: Carcinoma, Basal Cell"
 ---
 
 # Vismodegib
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **8** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Vismodegibi: tyvisolusyövästä laajasti nodulaariseen medulloblastoomaan
+## Vismodegib: Medulloblastoma with extensive nodularity
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -46,12 +46,12 @@ Vismodegibi on suun kautta otettava Hedgehog-signalointireitin estäjä, jota on
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Tyvisolusyöpä (Carcinoma, Basal Cell) |
-| Ennustettu uusi käyttöaihe | Laajasti nodulaarinen medulloblastooma |
-| TxGNN-ennustepistemäärä | 99,93 % |
+| Alkuperäinen käyttöaihe | Carcinoma, Basal Cell |
+| Ennustettu uusi käyttöaihe | Medulloblastoma with extensive nodularity |
+| TxGNN-ennustepistemäärä | 0.9993 |
 | Näytön taso | L5 (vain mallin ennuste) |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -116,7 +116,7 @@ Muista turvallisuustiedoista, kuten varoituksista ja vasta-aiheista, katso valmi
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu pelkästään TxGNN-pistemäärään (99,93 %), eikä tukena ole kliinisiä tutkimuksia eikä kirjallisuutta (näytön taso L5).
+- Ennuste perustuu pelkästään TxGNN-pistemäärään (0,9993), eikä tukena ole kliinisiä tutkimuksia eikä kirjallisuutta (näytön taso L5).
 - Suomessa vismodegibin myyntiluvat on peruutettu, ja turvallisuusprofiili (teratogeenisuus) vaatii huolellista harkintaa.
 
 **Etenemiseksi tarvitaan:**

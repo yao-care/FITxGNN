@@ -46,10 +46,10 @@ Apiksabaani on suoraan vaikuttava tekijä Xa:n estäjä, jota on alun perin käy
 |------|------|
 | Alkuperäinen käyttöaihe | Nivelleikkaus (artroplastia), laskimotromboembolia |
 | Ennustettu uusi käyttöaihe | Migreeni (migraine disorder) |
-| TxGNN-ennusteen pistemäärä | 99,02 % |
+| TxGNN-ennusteen pistemäärä | 0,9902 |
 | Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 2 (kaikki peruutettuja) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Myyntilupien määrä | 2 (voimassa: 2) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste on perusteltu?

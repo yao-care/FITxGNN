@@ -6,9 +6,9 @@ nav_order: 347
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Pirfenidone: ennustettu uusi käyttöaihe Ekstrakutaaninen mastosytooma (ensisijainen ennuste) (näytön taso L5). Alkuperäinen käyttöaihe: Idiopaattinen keuhkofibroosi"
 monitor_inn: "PIRFENIDONE"
 predicted_indications: ["extracutaneous mastocytoma", "dermatofibrosarcoma protuberans", "aggressive systemic mastocytosis", "heart fibrosarcoma", "conventional fibrosarcoma", "autosomal recessive familial Mediterranean fever", "kidney fibrosarcoma", "hepatic infarction", "fibroblastic neoplasm", "low grade fibromyxoid sarcoma"]
+description: "Pirfenidone: ennustettu uusi käyttöaihe Ekstrakutaaninen mastosytooma (ensisijainen ennuste) (näytön taso L5). Alkuperäinen käyttöaihe: Idiopathic Pulmonary Fibrosis"
 ---
 
 # Pirfenidone
@@ -33,13 +33,13 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Pirfenidoni: Idiopaattisesta keuhkofibroosista fibroblastiseen neoplasiaan
+## Pirfenidone: Ekstrakutaaninen mastosytooma (ensisijainen ennuste); parhaiten tuettu: fibroblastinen neoplasia (extracutaneous mastocytoma)
 {: .text-alpha }
 
 ## Yhteenveto
 
 Pirfenidoni on fibroosia estävä lääke, jota on käytetty idiopaattisen keuhkofibroosin hoitoon.
-TxGNN-malli ennustaa, että se voisi tehota ensisijaisena ennusteena nousseeseen kohteeseen **ekstrakutaaninen mastosytooma** (pistemäärä 99,71 %), mutta tälle ei löydy kliinistä näyttöä.
+TxGNN-malli ennustaa, että se voisi tehota ensisijaisena ennusteena nousseeseen kohteeseen **ekstrakutaaninen mastosytooma** (pistemäärä 0,9971), mutta tälle ei löydy kliinistä näyttöä.
 Parhaiten tuettu ennustettu kohde on **fibroblastinen neoplasia** (sija 9), jonka tukena on **6 julkaisua** (lähinnä soluviljelytutkimuksia ja tapausselosteita) eikä yhtään rekisteröityä kliinistä tutkimusta.
 
 > Huomautus: raportti noudattaa ennusteiden järjestystä ensisijaisen ennusteen mukaan. Koska sijalla 1 ei ole lainkaan näyttöä, kohdan 9 ennuste on käsitelty erikseen näyttöosioissa.
@@ -50,12 +50,12 @@ Parhaiten tuettu ennustettu kohde on **fibroblastinen neoplasia** (sija 9), jonk
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Idiopaattinen keuhkofibroosi |
-| Ennustettu uusi käyttöaihe | Ekstrakutaaninen mastosytooma (ensisijainen ennuste); parhaiten tuettu: fibroblastinen neoplasia |
-| TxGNN-ennusteen pistemäärä | 99,71 % (ekstrakutaaninen mastosytooma); 99,23 % (fibroblastinen neoplasia) |
+| Alkuperäinen käyttöaihe | Idiopathic Pulmonary Fibrosis;Lung Diseases;Respiratory Tract Diseases; Idiopathic Pulmonary Fibrosis |
+| Ennustettu uusi käyttöaihe | Ekstrakutaaninen mastosytooma (ensisijainen ennuste); parhaiten tuettu: fibroblastinen neoplasia (extracutaneous mastocytoma) |
+| TxGNN-ennusteen pistemäärä | 0.9971 |
 | Näytön taso | L5 (ensisijainen ennuste); L4 (fibroblastinen neoplasia) |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 3 (kaikki peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 3/3) |
+| Myyntilupien määrä | 3 (voimassa: 3) |
 | Suositeltu päätös | Hold (odotetaan) |
 
 ---

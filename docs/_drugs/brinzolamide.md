@@ -1,18 +1,19 @@
 ---
 layout: default
 title: Brinzolamide
-parent: Pelkkä mallin ennuste (L5)
+parent: Vain tunnetut käytöt (ei uusia ennusteita)
 nav_order: 83
-evidence_level: L5
-indication_count: 1
-last_modified_at: 2026-10-13
-description: "Brinzolamide: ennustettu uusi käyttöaihe Primaarinen perinnöllinen glaukooma (näytön taso L5). Alkuperäinen käyttöaihe: Avokulmaglaukooma"
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Brinzolamide: known uses and market status in Finland; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Brinzolamide
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
+Näytön taso: **N/A** | Ennustetut käyttöaiheet: **0** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,64 +32,47 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-## Brinsolamidi: Avokulmaglaukoomasta ja silmänpainetaudista primaariseen perinnölliseen glaukoomaan
+<!-- known-uses-page -->
+<!-- description: Brinzolamide: known uses and market status in Finland; currently no new candidate indication -->
+## Brinzolamide: tunnetut käyttöaiheet ja markkinatilanne Suomessa
 {: .text-alpha }
 
 ## Yhteenveto
+TxGNN-mallin tälle lääkeaineelle tuottamat ehdokkaat ovat kaikki jo tunnettuja käyttöaiheita. Siksi Brinzolamide-valmisteelle ei tällä hetkellä ole uutta ennustettua käyttöaihetta. Alla on lueteltu mallin ehdokkaiden joukossa olevat tunnetut käyttöaiheet ja markkinatilanne Suomessa.
 
-Brinsolamidi on hiilihappoanhydraasi II:n estäjä, jota on alun perin käytetty avokulmaglaukooman ja kohonneen silmänpaineen hoitoon.
-TxGNN-malli ennustaa sen voivan tehota **primaariseen perinnölliseen glaukoomaan**,
-mutta tälle käyttöaiheelle ei ole **yhtään kliinistä tutkimusta eikä julkaisua**, joten ennuste perustuu pelkästään malliin.
-
----
-
-## Pikayhteenveto
-
+## Pikakatsaus
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Avokulmaglaukooma; kohonnut silmänpaine |
-| Ennustettu uusi käyttöaihe | Primaarinen perinnöllinen glaukooma |
-| TxGNN-ennusteen pistemäärä | 99,48 % |
-| Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 3 (kaikki peruutettu) |
-| Suositeltu päätös | Hold (odota) |
+| Uudet ennustetut käyttöaiheet | Ei yhtään (kaikki jäljitettävissä olevat mallin ehdokkaat ovat tunnettuja käyttöaiheita) |
+| Tunnetut käyttöaiheet mallin ehdokkaiden joukossa | 1 |
+| Näytön taso | Ei sovellettavissa |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 3/3) |
+| Myyntilupien määrä | 3 (voimassa: 3) |
 
----
+## Tunnetut käyttöaiheet mallin ehdokkaiden joukossa
 
-## Miksi ennuste on järkevä?
+### Hyväksytty (lupa tai valmisteyhteenveto tukee)
+| Käyttöaihe | Lähde |
+|------|------|
+| Primaarinen perinnöllinen glaukooma (primary hereditary glaucoma) | Lupa toisessa maassa; hyväksytty käyttöaihe: glaucoma |
 
-Yksityiskohtaisia tietoja brinsolamidin vaikutusmekanismista ei ole tässä aineistossa saatavilla. Seuraava perustuu lääkeryhmän yleiseen tietoon, ei aineiston tietueeseen: brinsolamidi estää hiilihappoanhydraasi II -entsyymiä, mikä vähentää kammiovesinesteen eritystä ja laskee silmänpainetta.
+### Liittyy hyväksyttyyn käyttöaiheeseen (sama tautiryhmä)
+| Käyttöaihe | Hyväksytty ryhmä |
+|------|------|
+| Ei yhtään | Ei yhtään |
 
-Silmänpaineen alentaminen on yhteinen hoitotavoite kaikissa glaukoomatyypeissä. Primaarinen perinnöllinen glaukooma (esim. primaarinen synnynnäinen glaukooma) on läheistä sukua hyväksytylle käyttöaiheelle, avokulmaglaukoomalle. Tämä todennäköisesti selittää korkean TxGNN-pistemäärän.
-
-Rajoituksia on kuitenkin merkittävästi. Perinnöllisiä, erityisesti synnynnäisiä glaukoomamuotoja hoidetaan yleensä kirurgisesti, ja paikalliset hiilihappoanhydraasin estäjät ovat tavallisesti vain tukihoitoa tai väliaikainen ratkaisu. Lapsipotilailla on lisäksi huomioitava systeemiset happo-emästasapainovaikutukset ja sulfonamidiyliherkkyys.
-
----
-
-## Kliininen tutkimusnäyttö
-
-Tälle käyttöaiheelle ei tällä hetkellä ole rekisteröityjä kliinisiä tutkimuksia.
-
----
-
-## Kirjallisuusnäyttö
-
-Aiheesta ei tällä hetkellä ole saatavilla kirjallisuutta.
-
----
+### Mallin oppimat yhteydet (hyväksyntää ei löytynyt)
+| Käyttöaihe |
+|------|
+| Ei yhtään |
 
 ## Markkinatiedot Suomessa
 
-| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/000267 | Azopt | – | Avokulmaglaukooma; kohonnut silmänpaine |
-| EMEA/H/C/000960 | Azarga | – | Avokulmaglaukooma; kohonnut silmänpaine |
-| EMEA/H/C/003698 | Simbrinza | – | Kohonnut silmänpaine; avokulmaglaukooma |
-
-Kaikkien kolmen myyntiluvan tila on peruutettu.
-
----
+| Myyntilupa | Valmiste | Lääkemuoto | Tila |
+|------|------|------|------|
+| EMEA/H/C/000267 | brinzolamide |  | Voimassa |
+| EMEA/H/C/000960 | brinzolamide;timolol maleate |  | Voimassa |
+| EMEA/H/C/003698 | brinzolamide;brimonidine tartrate |  | Voimassa |
 
 ## Turvallisuusnäkökohdat
 
@@ -98,21 +82,6 @@ Muuten turvallisuustiedot (varoitukset ja vasta-aiheet) on tarkistettava valmist
 
 ---
 
-## Johtopäätös ja jatkotoimet
-
-**Päätös: Hold (odota)**
-
-**Perustelut:**
-- Ennuste perustuu pelkästään malliin (L5): kliinisiä tutkimuksia ja kirjallisuutta ei ole, ja vaikutusmekanismitieto sekä valmisteyhteenvedon turvallisuustiedot puuttuvat. Lisäksi perinnöllisiä glaukoomamuotoja hoidetaan pääosin kirurgisesti, ja kaikki Suomen myyntiluvat on peruutettu.
-
-**Eteenpäin siirtyminen edellyttää:**
-- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivustolta (estävä tietoaukko)
-- Vaikutusmekanismin vahvistamista DrugBankista
-- Kirjallisuushakua ja kliinisten tutkimusten kartoitusta primaarisesta perinnöllisestä glaukoomasta, erityisesti lapsipotilaista
-- Lääkemuotojen ja antoreittien yhteensopivuuden arviointia
-- Lapsipotilaiden turvallisuuden arviointia (happo-emästasapaino, sulfonamidiyliherkkyys)
-- Yhteisvaikutusten vakavuusluokkien selvittämistä
-- Markkinatilanteen selvittämistä, koska voimassa olevia myyntilupia ei ole
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Hydrocortisone
-parent: Pelkkä mallin ennuste (L5)
+parent: Vahva näyttö (L1-L2)
 nav_order: 215
-evidence_level: L5
-indication_count: 10
+evidence_level: L1
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Hydrocortisone: ennustettu uusi käyttöaihe Alopecia areata (läiskäkaljuus) (näytön taso L5). Alkuperäinen käyttöaihe: Lisämunuaisen vajaatoiminta"
 monitor_inn: "HYDROCORTISONE"
@@ -14,7 +14,7 @@ predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvi
 # Hydrocortisone
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L1** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN-malli ennustaa sen voivan tehota **alopecia areataan** (läiskäkaljuus), 
 |------|------|
 | Alkuperäinen käyttöaihe | Lisämunuaisen vajaatoiminta; synnynnäinen lisämunuaisen liikakasvu |
 | Ennustettu uusi käyttöaihe | Alopecia areata (läiskäkaljuus) |
-| TxGNN-ennusteen pistemäärä | 99,97 % |
+| TxGNN-ennusteen pistemäärä | 0,9997 |
 | Näytön taso | L1 (muodollisesti; katso huomio alla) |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 3 (kaikki peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 3/3) |
+| Myyntilupien määrä | 3 (voimassa: 3) |
 | Suositeltu päätös | Hold (odota) |
 
 > **Huomio näytön tasosta:** L1-luokitus perustuu muodollisesti valmistuneeseen vaiheen 3 satunnaistettuun tutkimukseen. Tutkimuksessa hydrokortisoni oli kuitenkin matalatehoinen vertailuvalmiste, eikä tutkimus osoita sen tehoa. Käytännössä näyttö on heikompaa kuin luokitus antaa ymmärtää.

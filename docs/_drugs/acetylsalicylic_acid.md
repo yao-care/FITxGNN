@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Acetylsalicylic Acid
-parent: Kohtalainen näyttö (L3-L4)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 17
-evidence_level: L3
-indication_count: 9
-last_modified_at: 2026-10-13
-description: "Acetylsalicylic Acid: ennustettu uusi käyttöaihe Aivorunkoauraiseen migreeni (näytön taso L3). Alkuperäinen käyttöaihe: Akuutti sepelvaltimo-oireyhtymä"
+evidence_level: L5
+indication_count: 8
 monitor_inn: "ACETYLSALICYLIC ACID"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "trigeminal autonomic cephalalgia", "thrombotic disease", "thrombophilia"]
+last_modified_at: 2026-10-27
+description: "Acetylsalicylic Acid: ennustettu uusi käyttöaihe Vermikulaarinen atrofoderma (atrophoderma vermiculata) (näytön taso L5). Alkuperäinen käyttöaihe: Acute Coronary Syndrome"
 ---
 
 # Acetylsalicylic Acid
 {: .fs-9 }
 
-Näytön taso: **L3** | Ennustetut käyttöaiheet: **9** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **8** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,103 +33,66 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **9** kpl
 
 </div>
 
-## Asetyylisalisyylihappo: Sydän- ja verisuonitautien ehkäisystä aivorunkoauraiseen migreeniin
+## Asetyylisalisyylihappo: verihiutaleiden COX-1-estäjä → vermikulaarinen atrofoderma (atrophoderma vermiculata)
 {: .text-alpha }
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Asetyylisalisyylihappoa (aspiriinia) käytetään alun perin akuutin sepelvaltimo-oireyhtymän ja sydäninfarktin hoidossa. TxGNN-malli ennustaa sen voivan tehota **aivorunkoauraiseen migreeniin** (migraine with brainstem aura). Ennustetta tukee **0 kliinistä tutkimusta** ja **20 julkaisua**, jotka koskevat pääosin auralliseen migreeniin yleisesti, eivät aivorunkoauraan erityisesti.
-
----
+Asetyylisalisyylihappo on verihiutaleiden aggregaatiota estävä lääkeaine. TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **vermikulaarisen atrofodermán (atrophoderma vermiculata)**. Tätä ennustetta tukevia kliinisiä tutkimuksia tai julkaisuja ei ole löytynyt, joten näyttö on pelkkä mallin laskennallinen ennuste.
 
 ## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Akuutti sepelvaltimo-oireyhtymä; sydäninfarkti |
-| Ennustettu uusi käyttöaihe | Aivorunkoauraiseen migreeni |
-| TxGNN-ennusteen pistemäärä | 99,94 % |
-| Näytön taso | L3 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 3 (kaikki peruutettuja) |
-| Suositeltu päätös | Hold (odota lisänäyttöä) |
+| Alkuperäinen käyttöaihe | Acute Coronary Syndrome;Myocardial Infarction |
+| Ennustettu uusi käyttöaihe | Vermikulaarinen atrofoderma (atrophoderma vermiculata) |
+| TxGNN-ennustepisteet | 0,9959 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 3/3) |
+| Myyntilupien määrä | 3 (voimassa: 3) |
+| Suositeltu päätös | Hold (odota) |
 
----
+## Miksi ennuste voisi olla perusteltu?
 
-## Miksi ennuste on perusteltu?
+Tiedoissa ei ole tällä hetkellä kuvausta lääkkeen vaikutusmekanismista. Asetyylisalisyylihapon tunnettu vaikutus on verihiutaleiden COX-1-entsyymin estäminen, mikä vähentää tromboksaani A2:n tuotantoa ja verihiutaleiden aggregaatiota.
 
-Tämän lääkkeen yksityiskohtaista vaikutusmekanismia ei ole tässä raportissa käytettävissä. Tiedossa on, että aspiriini estää verihiutaleiden COX-1-entsyymiä, vähentää tromboksaani A2:n muodostumista ja sitä kautta verihiutaleiden aggregaatiota. Sillä on myös tulehdusta lievittäviä vaikutuksia.
-
-Alkuperäinen käyttöaihe (sepelvaltimotaudin äkilliset tapahtumat) liittyy verihiutaleiden aktivaatioon ja tromboosiin. Migreenissä on esitetty, että verihiutalevetoiset mikroemboliat tai tulehdukselliset laukaisijat voisivat osallistua aivokuoren leviävän lamaannuksen (cortical spreading depression) syntyyn. Lisäksi aspiriinin on havaittu aktivoivan kipua vaimentavaa aivorunkorefleksiä päänsärkypotilailla (PMID 1589237).
-
-Näyttö on kuitenkin epäsuoraa. Se perustuu pääosin auralliseen migreeniin yleisesti, ei aivorunkoauraan erityisesti. Takautuva tutkimus tukee aspiriinia auran ehkäisyssä, mutta ohjeistus- ja järjestelmällinen katsausnäyttö on rajallista.
-
----
+Vermikulaarinen atrofoderma on hiusfollikkeleihin liittyvä keratoottinen ihohäiriö. Sen taustalla ei tunneta verihiutaleiden toimintaan liittyvää patologiaa, jota antiplatelettihoito voisi kohdentaa. Yhteyttä lääkkeen vaikutustavan ja sairauden välillä ei siis voida tunnistaa. Korkea pistemäärä on laskennallinen ennuste, eikä se kerro hoidon tehosta.
 
 ## Kliininen tutkimusnäyttö
 
-Tälle käyttöaiheelle ei ole tällä hetkellä rekisteröityjä kliinisiä tutkimuksia.
-
----
+Tästä käyttöaiheesta ei ole tällä hetkellä rekisteröityjä kliinisiä tutkimuksia.
 
 ## Kirjallisuusnäyttö
 
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
-|------|-----|------|------|---------|
-| [39989443](https://pubmed.ncbi.nlm.nih.gov/39989443/) | 2025 | Järjestelmällinen katsaus | Headache | Selvittää antitromboottisten lääkkeiden roolia migreenin ehkäisyssä |
-| [19708964](https://pubmed.ncbi.nlm.nih.gov/19708964/) | 2009 | Ohjeistus | Eur J Neurol | EFNS:n päivitetty migreenin lääkehoito-ohjeistus |
-| [16796580](https://pubmed.ncbi.nlm.nih.gov/16796580/) | 2006 | Ohjeistus | Eur J Neurol | EFNS:n alkuperäinen migreenin lääkehoito-ohjeistus |
-| [25729594](https://pubmed.ncbi.nlm.nih.gov/25729594/) | 2014 | Takautuva kohorttitutkimus | Curr Health Sci J | 203 auralliseen migreeniin sairastavaa; pieniannoksista aspiriinia sai 95 potilasta (46,8 %), muuta ehkäisyhoitoa 108. Arvioitiin tehoa ja siedettävyyttä |
-| [10448545](https://pubmed.ncbi.nlm.nih.gov/10448545/) | 1999 | Satunnaistettu kaksoissokkotutkimus | Cephalalgia | Suonensisäinen asetyylisalisyylihappolysinaatti verrattuna ihonalaiseen sumatriptaaniin ja lumeeseen akuutissa migreenikohtauksessa (278 potilasta) |
-| [9606899](https://pubmed.ncbi.nlm.nih.gov/9606899/) | 1998 | Kliininen tutkimus | Zh Nevrol Psikhiatr | Aspiriinin 1000, 500 ja 100 mg annokset aurattoman migreenin ehkäisyssä (105 potilasta) |
-| [1589237](https://pubmed.ncbi.nlm.nih.gov/1589237/) | 1992 | Satunnaistettu kokeellinen tutkimus | Pain | Aspiriini aktivoi kipua vaimentavaa aivorunkorefleksiä päänsärkypotilailla ja terveillä |
-| [15265054](https://pubmed.ncbi.nlm.nih.gov/15265054/) | 2004 | Kokeellinen tutkimus | Cephalalgia | Suonensisäisen aspiriinin ja suun kautta otetun tsolmitriptaanin kipua vaimentavat mekanismit migreenipotilailla |
-| [18806984](https://pubmed.ncbi.nlm.nih.gov/18806984/) | 2008 | Katsaus | Der Nervenarzt | Beetasalpaajien vaihtoehdot migreenin ehkäisyssä |
-| [26908949](https://pubmed.ncbi.nlm.nih.gov/26908949/) | 2016 | Satunnaistettu tutkimus (ei aspiriinia) | Eur Heart J | Avoimen foramen ovalen sulkeminen auralliseen migreeniin; tutkimus ei koske aspiriinia |
-
----
-
-## Markkinatiedot Suomessa
-
-| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/001143 | DuoPlavin | – | Akuutti sepelvaltimo-oireyhtymä; sydäninfarkti |
-| EMEA/H/C/004996 | Clopidogrel / Acetylsalicylic acid Viatris (aiemmin Mylan) | – | Akuutti sepelvaltimo-oireyhtymä; sydäninfarkti |
-| EMEA/H/C/001144 | Clopidogrel/Acetylsalicylic acid Zentiva (aiemmin DuoCover) | – | Akuutti sepelvaltimo-oireyhtymä; sydäninfarkti |
-
-Kaikki kolme myyntilupaa on peruutettu, ja kaikki ovat klopidogreelin kanssa yhdistelmävalmisteita.
-
----
+Tästä käyttöaiheesta ei ole tällä hetkellä saatavilla aiheeseen liittyvää kirjallisuutta.
 
 ## Turvallisuushuomiot
 
-**Lääkeinteraktiot:** Tiedossa on 100 mahdollista yhteisvaikutusta. Merkittäviä (Major) ovat muun muassa:
+**Lääkkeiden yhteisvaikutukset:** Yhteisvaikutustietokannasta löytyi 100 yhteisvaikutusta. Merkittäviksi (Major) luokiteltuja ovat muun muassa:
+
+- akalabrutinibi
 - asetatsoliamidi
 - ketorolaakki
+- trastutsumabiemtansiini
 - ibuprofeeni
 - fondaparinuuksi
-- akalabrutinibi
-- trastutsumabiemtansiini
 
-Kohtalaisia (Moderate) ovat muun muassa nifedipiini, hydrokortisoni, etanoli, alendronihappo, fluvoksamiini, fosinopriili ja gemifloksasiini. Lieviä (Minor) ovat muun muassa kofeiini, rabepratsoli, asebutololi, fosfenytoiini ja furosemidi. Vaikutukset liittyvät pääosin verenvuotoriskin lisääntymiseen tai muihin farmakologisiin yhteisvaikutuksiin.
+Lisäksi tietokannassa on kohtalaisiksi (Moderate) luokiteltuja yhteisvaikutuksia, esimerkiksi abtsiksimabin, nifedipiinin, hydrokortisonin, etanolin ja fosinopriilin kanssa. Kofeiinin, rabepratsolin ja furosemidin yhteisvaikutukset on luokiteltu lieviksi (Minor).
 
-Lisäksi valmisteyhteenvedon varoitukset ja vasta-aiheet tulee tarkistaa ennen jatkoa.
+Muuta turvallisuustietoa varten on tutustuttava valmisteyhteenvetoon.
 
----
+## Johtopäätös ja jatkotoimet
 
-## Johtopäätös ja seuraavat vaiheet
-
-**Päätös: Hold**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennusteen pistemäärä on korkea, mutta aivorunkoauraiselle migreenille ei ole kliinisiä tutkimuksia. Näyttö on epäsuoraa ja perustuu pääosin yleiseen aurallisen migreenin kirjallisuuteen, ja ainoa aspiriinia koskeva ehkäisytutkimus on takautuva. Kaikki Suomen myyntiluvat on lisäksi peruutettu.
+Ennusteelle ei ole kliinistä eikä kirjallista näyttöä, eikä lääkkeen vaikutustavan ja sairauden välillä ole tunnistettavaa mekanistista yhteyttä. Näytön taso on L5, eli kyse on vain mallin ennusteesta.
 
-**Jatkoa varten tarvitaan:**
-- Valmisteyhteenvedon varoitusten ja vasta-aiheiden kerääminen Fimean sivustolta
-- Vaikutusmekanismin tiedot (esim. DrugBankista)
-- Satunnaistettu, aivorunkoaurainen potilasryhmä huomioiva tutkimus aspiriinista migreenin ehkäisyssä
-- Verenvuotoriskin arviointi ja lääkeinteraktioiden hallintasuunnitelma
-- Selvitys käytettävästä annosmuodosta ja antoreitistä sekä Suomen markkinatilanteesta (nykyiset myyntiluvat peruutettu)
+**Eteenpäin siirtymiseksi tarvitaan:**
+- Kirjallisuushaku ja prekliiniset tai mekanistiset tutkimukset, jotka osoittaisivat uskottavan biologisen yhteyden sairauteen
+- Tiedot lääkkeen vaikutusmekanismista (MOA)
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden kokoaminen turvallisuusarviointia varten
+- Arvio annosteluteiden soveltuvuudesta ihosairauden hoitoon
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

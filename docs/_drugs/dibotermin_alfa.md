@@ -50,8 +50,8 @@ Dibotermiini alfa on yhdistelmä-DNA-tekniikalla valmistettu ihmisen luun morfog
 | Ennustettu uusi käyttöaihe | Esotropia |
 | TxGNN-ennustepistemäärä | 99,97 % |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien lukumäärä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien lukumäärä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

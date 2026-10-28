@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-## Doravirini: HIV-infektiosta kissan immuunipuutosoireyhtymään
+## Doravirini: Kissan hankinnainen immuunikatooireyhtymä
 {: .text-alpha }
 
 ## Yhteenveto
@@ -48,10 +48,10 @@ Doravirini on HIV-1-infektion hoitoon tarkoitettu ei-nukleosidinen käänteiskop
 |------|------|
 | Alkuperäinen käyttöaihe | HIV-infektiot |
 | Ennustettu uusi käyttöaihe | Kissan hankinnainen immuunipuutosoireyhtymä (feline acquired immunodeficiency syndrome) |
-| TxGNN-ennustepisteet | 99,93 % |
+| TxGNN-ennustepisteet | 0,9993 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 2 (kaikki peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Myyntilupien määrä | 2 (voimassa: 2) |
 | Suositeltu päätös | Hold (odotetaan) |
 
 ---
@@ -65,7 +65,7 @@ Yhteys on kuitenkin heikko. NNRTI-lääkkeet tehoavat yleensä huonosti FIV:hen,
 ### Muut ennustetut käyttöaiheet
 
 - **Apinoiden immuunipuutosvirusinfektio (SIV)**, pisteet 99,93 %: SIV on HIV:n läheinen sukulainen, ja SIV/makaki-malleja käytetään antiretroviraalisessa tutkimuksessa. SIV (erityisesti SIVmac) on kuitenkin luontaisesti resistentti monille NNRTI-lääkkeille, mikä heikentää perustetta. Ainoa liitetty julkaisu koskee islatravirii, ei doravirinia, joten se antaa vain epäsuoraa, lääkeluokan tasoista taustaa.
-- **Neurokehityshäiriö, johon liittyy ataksinen kävely, puheen puuttuminen ja aivokuoren valkoisen aineen väheneminen**, pisteet 99,91 %: HIV-1-NNRTI-vaikutuksen ja tämän harvinaisen perinnöllisen sairauden välillä ei havaittu uskottavaa mekanistista yhteyttä. Korkea pistemäärä on todennäköisesti tietoverkon artefakti.
+- **Neurokehityshäiriö, johon liittyy ataksinen kävely, puheen puuttuminen ja aivokuoren valkoisen aineen väheneminen**, pisteet 0,9991: HIV-1-NNRTI-vaikutuksen ja tämän harvinaisen perinnöllisen sairauden välillä ei havaittu uskottavaa mekanistista yhteyttä. Korkea pistemäärä on todennäköisesti tietoverkon artefakti.
 
 ---
 

@@ -48,10 +48,10 @@ Tagraxofuspi on CD123-kohdennettu sytotoksinen fuusioproteiini (kurkkumätätoks
 |------|------|
 | Alkuperäinen käyttöaihe | Lymfooma |
 | Ennustettu uusi käyttöaihe | Esotropia |
-| TxGNN-ennustepistemäärä | 99,73 % |
+| TxGNN-ennustepistemäärä | 0,9973 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -60,7 +60,7 @@ Tagraxofuspi on CD123-kohdennettu sytotoksinen fuusioproteiini (kurkkumätätoks
 
 Ennuste ei ole mekanistisesti perusteltu. Yksityiskohtaista vaikutusmekanismitietoa ei ole tämän raporttia varten koottuna aineistona saatavilla. Tunnetun tiedon mukaan tagraxofuspi on CD123:a (IL-3-reseptorin alfa-ketju) kantaviin pahanlaatuisiin soluihin kohdistuva sytotoksiini, jonka teho perustuu solujen tuhoamiseen toksiinin avulla.
 
-Esotropia on silmien asennon hallinnan häiriö, eikä siihen tunneta CD123-riippuvaista patologiaa. Korkea TxGNN-pistemäärä (0,997) on graafipohjainen ennuste, jolla ei ole kliinistä eikä kirjallisuuteen perustuvaa tukea. Alkuperäisen käyttöaiheen (lymfooma) ja ennustetun käyttöaiheen samankaltaisuutta ei ole arvioitu.
+Esotropia on silmien asennon hallinnan häiriö, eikä siihen tunneta CD123-riippuvaista patologiaa. Korkea TxGNN-pistemäärä (0,9973) tulee TxGNN-mallista (syväoppiminen) ja voi heijastaa mallin oppimia samankaltaisuuksia toisiinsa liittyvien sairauksien välillä, ei biologista näyttöä. Ennusteella ei ole kliinistä eikä kirjallisuuteen perustuvaa tukea. Alkuperäisen käyttöaiheen (lymfooma) ja ennustetun käyttöaiheen samankaltaisuutta ei ole arvioitu.
 
 Muut kymmenen parhaan joukossa olevat ennusteet ovat samankaltaisia: ennustetut käyttöaiheet ovat pääosin hyvänlaatuisia tai epämääräisiä kasvaimia ja kystia (esim. esiasteiset kasvaimet, sisäkorvan kasvain, kielen hyvänlaatuinen kasvain, kilpirauhasen tiehyen kysta). Niille ei ole osoitettu CD123-yhteyttä, ja yleensä hoitona on leikkaus tai seuranta. Systeeminen, runsaasti haittavaikutuksia aiheuttava sytotoksiini (mm. kapillaarivuotooireyhtymä) ei sovi näihin tilanteisiin.
 

@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-## Treosulfaani: Kantasolusiirtoon liittyvästä käytöstä diabeettiseen kaihiin
+## Treosulfaani: Diabeettinen kaihi
 {: .text-alpha }
 
 ## Yhteenveto
@@ -48,10 +48,10 @@ Treosulfaani on alkyloiva solunsalpaaja, jota käytetään kantasolasiirtoa (hem
 |------|------|
 | Alkuperäinen käyttöaihe | Hematopoieettinen kantasolasiirto |
 | Ennustettu uusi käyttöaihe | Diabeettinen kaihi |
-| TxGNN-ennusteen pistemäärä | 99,01 % |
+| TxGNN-ennusteen pistemäärä | 0,9901 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

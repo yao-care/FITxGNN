@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Insulin Detemir
-parent: Vahva näyttö (L1-L2)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 231
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Insulin Detemir: ennustettu uusi käyttöaihe Tyypin 1 diabetes mellitus (näytön taso L1). Alkuperäinen käyttöaihe: Diabetes mellitus"
 monitor_inn: "INSULIN DETEMIR"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
+description: "Insulin Detemir: ennustettu uusi käyttöaihe Autoimmune oophoritis (näytön taso L5). Alkuperäinen käyttöaihe: Diabetes Mellitus"
 ---
 
 # Insulin Detemir
 {: .fs-9 }
 
-Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Insulindetemir: Diabeteksesta tyypin 1 diabetekseen
+## Insulin Detemir: Autoimmune oophoritis
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -48,12 +48,12 @@ Tukena on yli **30 kliinistä tutkimusta** ja **20 julkaisua**, ja Suomessa valm
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Diabetes mellitus |
-| Ennustettu uusi käyttöaihe | Tyypin 1 diabetes mellitus |
-| TxGNN-ennustepistemäärä | 99,77 % |
-| Näytön taso | L1 |
-| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Alkuperäinen käyttöaihe | Diabetes Mellitus |
+| Ennustettu uusi käyttöaihe | Autoimmune oophoritis |
+| TxGNN-ennustepistemäärä | 0.9967 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Proceed with Guardrails (jatka suojatoimin) |
 
 ---

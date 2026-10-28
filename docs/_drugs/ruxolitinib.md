@@ -6,9 +6,9 @@ nav_order: 391
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Ruxolitinib: ennustettu uusi käyttöaihe Kohdunrungon perivaskulaarinen epiteloidisolukasvain (PEComa) (näytön taso L5). Alkuperäinen käyttöaihe: Vitiligo"
 monitor_inn: "Ruxolitinib"
 predicted_indications: ["uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lymphangioleiomyomatosis", "liposarcoma", "familial rhabdoid tumor", "lung PEComa", "ovarian myxoid liposarcoma", "hemophagocytic syndrome associated with an infection", "acquired hemophagocytic lymphohistiocytosis associated with malignant disease"]
+description: "Ruxolitinib: ennustettu uusi käyttöaihe Uterine corpus perivascular epithelioid cell tumor (näytön taso L5). Alkuperäinen käyttöaihe: Vitiligo"
 ---
 
 # Ruxolitinib
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Ruksolitinibi: vitiligosta ja myeloproliferatiivisista sairauksista hemofagosyyttiseen oireyhtymään (infektioon liittyvä)
+## Ruxolitinib: Uterine corpus perivascular epithelioid cell tumor
 {: .text-alpha }
 
 ## Yhteenveto
@@ -45,11 +45,12 @@ TxGNN-malli ennustaa sen voivan tehota ensisijaisesti sairauteen **kohdunrungon 
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Vitiligo; myeloproliferatiiviset sairaudet, polycythemia vera ja graft-versus-host-tauti |
-| Ennustettu uusi käyttöaihe (ensimmäinen ennuste) | Kohdunrungon perivaskulaarinen epiteloidisolukasvain (PEComa) |
-| TxGNN-ennustepistemäärä | 99,73 % |
+| Alkuperäinen käyttöaihe | Vitiligo; Myeloproliferative Disorders;Polycythemia Vera;Graft vs Host Disease |
+| Ennustettu uusi käyttöaihe (ensimmäinen ennuste) | Uterine corpus perivascular epithelioid cell tumor |
+| TxGNN-ennustepistemäärä | 0.9973 |
 | Näytön taso | L5 (ensimmäinen ennuste); parhaiten tuettu ehdokas: infektioon liittyvä HLH, L3 |
-| Markkinatilanne Suomessa | Vain peruutettuja lupia |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Myyntilupien määrä | 2 (voimassa: 2) |
 | Lupien määrä | 2 (molemmat peruutettu) |
 | Suositeltu päätös | Hold (ensimmäinen ennuste); Proceed with Guardrails (infektioon liittyvä HLH) |
 

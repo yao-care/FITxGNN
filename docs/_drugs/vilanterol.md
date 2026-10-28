@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Vilanterol
-parent: Vahva näyttö (L1-L2)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 470
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-13
-description: "Vilanterol: ennustettu uusi käyttöaihe Obstruktiivinen keuhkosairaus (näytön taso L1). Alkuperäinen käyttöaihe: Krooninen keuhkoahtaumatauti (COPD)"
 monitor_inn: "VILANTEROL"
 predicted_indications: ["hyperlucent lung", "tracheal stenosis", "bronchial neoplasm (disease)", "respiratory malformation", "tracheal calcification", "laryngotracheitis"]
+description: "Vilanterol: ennustettu uusi käyttöaihe Hyperlucent lung (näytön taso L5). Alkuperäinen käyttöaihe: Pulmonary Disease, Chronic Obstructive"
 ---
 
 # Vilanterol
 {: .fs-9 }
 
-Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Vilanteroli: Krooniseen keuhkoahtaumatautiin käytetystä lääkkeestä ennustettuun obstruktiiviseen keuhkosairauteen
+## Vilanterol: Hyperlucent lung
 {: .text-alpha }
 
 ## Yhteenveto
@@ -48,12 +48,12 @@ Aiheesta on koottu **28 kliinistä tutkimusta** ja **20 julkaisua**, ja näyttö
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Krooninen keuhkoahtaumatauti (COPD) |
-| Ennustettu uusi käyttöaihe | Obstruktiivinen keuhkosairaus |
-| TxGNN-ennustepistemäärä | 99,97 % |
-| Näytön taso | L1 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 2 (molemmat peruutettu) |
+| Alkuperäinen käyttöaihe | Pulmonary Disease, Chronic Obstructive |
+| Ennustettu uusi käyttöaihe | Hyperlucent lung |
+| TxGNN-ennustepistemäärä | 0.9972 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Myyntilupien määrä | 2 (voimassa: 2) |
 | Suositeltu päätös | Proceed with Guardrails (eteneminen suojatoimin) |
 
 ---
@@ -64,7 +64,7 @@ Vilanteroli on pitkävaikutteinen beeta2-adrenoseptoriagonisti, joka rentouttaa 
 
 Obstruktiivinen keuhkosairaus on joko sama kuin alkuperäinen käyttöaihe (COPD) tai sen läheinen luokka. Ennuste on siksi uskottava, mutta se on pikemminkin olemassa olevan käytön vahvistus kuin uusi käyttöaihe. Näyttöä tuovat useat vilanterolia sisältävien yhdistelmähoitojen (flutikasonifuroaatti/vilanteroli sekä flutikasonifuroaatti/umeklidinium/vilanteroli) kolmannen vaiheen satunnaistetut tutkimukset, kuten IMPACT ja FULFIL.
 
-Muut ennustetut käyttöaiheet (esim. interstitiaalinen emfyseema, hyperlusenssi keuhko, kompensatorinen emfyseema, henkitorven ahtauma, synnynnäinen lobaarinen emfyseema, henkitorven kalkkeutuminen, laryngotrakeiitti ja hengitysteiden epämuodostuma) eivät saa kliinistä tukea. Niiden pisteet näyttävät johtuvan tietograafin samankaltaisuudesta emfyseeman ja COPD:n kanssa. Keuhkoputkien kasvain (bronkiaalinen neoplasma) on tukihoitoon liittyvä tapaus: COPD-potilaiden keuhkosyöpäleikkauksen yhteydessä tutkitaan kaksoisbronkodilataattorihoidon vaikutusta keuhkojen toimintaan, mutta se ei hoida kasvainta itseään.
+Muut ennustetut käyttöaiheet (esim. interstitiaalinen emfyseema, hyperlusenssi keuhko, kompensatorinen emfyseema, henkitorven ahtauma, synnynnäinen lobaarinen emfyseema, henkitorven kalkkeutuminen, laryngotrakeiitti ja hengitysteiden epämuodostuma) eivät saa kliinistä tukea. Keuhkoputkien kasvain (bronkiaalinen neoplasma) on tukihoitoon liittyvä tapaus: COPD-potilaiden keuhkosyöpäleikkauksen yhteydessä tutkitaan kaksoisbronkodilataattorihoidon vaikutusta keuhkojen toimintaan, mutta se ei hoida kasvainta itseään.
 
 ---
 

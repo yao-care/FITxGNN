@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Rilpivirine
-parent: Kohtalainen näyttö (L3-L4)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 377
-evidence_level: L4
-indication_count: 5
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-13
-description: "Rilpivirine: ennustettu uusi käyttöaihe Kissan hankinnainen immuunikato (FIV) (näytön taso L4). Alkuperäinen käyttöaihe: HIV-infektiot"
 monitor_inn: "RILPIVIRINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Rilpivirine: ennustettu uusi käyttöaihe Feline acquired immunodeficiency syndrome (näytön taso L5). Alkuperäinen käyttöaihe: HIV Infections"
 ---
 
 # Rilpivirine
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **5** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-## Rilpiviriini: HIV-infektiosta felinin immuunikatoon (ennustettu uusi käyttöaihe)
+## Rilpivirine: Feline acquired immunodeficiency syndrome
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -45,12 +45,12 @@ TxGNN-malli ennustaa sen voivan tehota **kissan hankinnaiseen immuunikatoon (FIV
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | HIV-infektiot |
-| Ennustettu uusi käyttöaihe | Kissan hankinnainen immuunikato (FIV) |
+| Alkuperäinen käyttöaihe | HIV Infections |
+| Ennustettu uusi käyttöaihe | Feline acquired immunodeficiency syndrome |
 | TxGNN-ennustepisteet | 99,97 % |
-| Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 6 (kaikki peruutettu) |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 6/6) |
+| Myyntilupien määrä | 6 (voimassa: 6) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste on perusteltu?

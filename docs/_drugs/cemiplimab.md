@@ -4,17 +4,17 @@ title: Cemiplimab
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 104
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Cemiplimab: ennustettu uusi käyttöaihe Sappirakon adenosquamous-karsinooma (näytön taso L5). Alkuperäinen käyttöaihe: Okasolusyöpä (Carcinoma, Squamous Cell)"
+indication_count: 6
 monitor_inn: "CEMIPLIMAB"
 predicted_indications: ["gallbladder adenosquamous carcinoma", "rectal cloacogenic carcinoma", "external ear basal cell carcinoma", "adenosquamous prostate carcinoma", "urethral verrucous carcinoma", "pancreatic adenosquamous carcinoma"]
+last_modified_at: 2026-10-27
+description: "Cemiplimab: ennustettu uusi käyttöaihe Sappirakon adenoskvamoosisyöpä (gallbladder adenosquamous carcinoma) (näytön taso L5). Alkuperäinen käyttöaihe: Carcinoma, Squamous Cell"
 ---
 
 # Cemiplimab
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,84 +33,83 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Kemiplimabi: Levyepiteelisyövästä (okasolusyöpä) sappirakon adenosquamous-karsinoomaan
+## Cemiplimabi: PD-1-estäjä → sappirakon adenoskvamoosisyöpä (gallbladder adenosquamous carcinoma)
 {: .text-alpha }
 
-## Yhteenveto
+## Yhden lauseen yhteenveto
 
-Kemiplimabi on PD-1-estäjävasta-aine, jota on alun perin käytetty okasolusyövän (Carcinoma, Squamous Cell) hoidossa. TxGNN-malli ennustaa sen voivan tehota ensisijaisesti **sappirakon adenosquamous-karsinoomaan**, mutta ennusteen tueksi ei tässä aineistossa ole yhtään kliinistä koetta eikä julkaisua. Näyttö on siis pelkkää mallin ennustetta.
+Cemiplimabi on PD-1-reseptoria salpaava vasta-aine, jota käytetään ihon levyepiteelisyövän hoidossa. TxGNN-malli ennustaa, että se voisi tehota **sappirakon adenoskvamoosisyöpään (gallbladder adenosquamous carcinoma)**. Tälle taudille ei ole tähän raporttiin koottujen tietojen mukaan kliinisiä tutkimuksia eikä julkaisuja, joten ennuste perustuu pelkästään mallilaskentaan.
 
 ## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Okasolusyöpä (Carcinoma, Squamous Cell) |
-| Ennustettu uusi käyttöaihe | Sappirakon adenosquamous-karsinooma |
-| TxGNN-ennusteen pistemäärä | 99,99 % |
+| Alkuperäinen käyttöaihe | Carcinoma, Squamous Cell |
+| Ennustettu uusi käyttöaihe | Sappirakon adenoskvamoosisyöpä (gallbladder adenosquamous carcinoma) |
+| TxGNN-ennusteen pistemäärä | 0,9999 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
-| Suositeltu päätös | Hold (odota) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
+| Suositeltu päätös | Odota (Hold) |
 
 ## Miksi ennuste on perusteltu?
 
-Yksityiskohtaista vaikutusmekanismitietoa ei tässä aineistossa ole saatavilla. Farmakologiatietojen mukaan kemiplimabi on vasta-aine, joka sitoutuu PD-1-reseptoriin (PDCD1, CD279) ja estää PD-1/PD-L1-vuorovaikutuksen (IC50 < 1 nM ELISA-kokeessa). Tämä palauttaa T-solujen kykyä tunnistaa syöpäsoluja. Lääke on hyväksytty mm. ihon okasolusyövän hoitoon ja ei-pienisoluisen keuhkosyövän ensilinjan hoitoon.
+Yksityiskohtaista vaikutusmekanismitietoa ei tällä hetkellä ole saatavilla kootuissa tiedoissa. Tiedossa on, että cemiplimabi on ihmisen PD-1-reseptoriin (PDCD1) sitoutuva vasta-aine. Se estää PD-1:n ja PD-L1:n välisen vuorovaikutuksen (IC50 alle 1 nM ELISA-kokeessa). Tämä voi palauttaa T-solujen kykyä tunnistaa kasvainsoluja.
 
-Sappirakon adenosquamous-karsinoomassa on okasolukomponentti, minkä vuoksi PD-1-salpaus voisi periaatteessa tehota. Tämä on kuitenkin vain mekanistinen oletus, jota ei ole tässä aineistossa testattu.
+Ennustetun taudin levyepiteelikomponentti voisi periaatteessa reagoida PD-1-salpaukseen, koska cemiplimabi tehoaa levyepiteelisyöpään. Tätä ei ole kuitenkaan testattu käytettävissä olevassa aineistossa. Korkea pistemäärä on laskennallinen ennuste, ei kliininen todiste.
 
-Saman mallin muita ennusteita ovat mm. kurkunpään okasolusyövät (glottis, supraglottis), sinonasaalinen okasolusyöpä, keuhkon okasolusyöpä, peräsuolen kloakogeeninen karsinooma, haiman adenosquamous-karsinooma, eturauhasen adenosquamous-karsinooma ja virtsaputken verrukoosikarsinooma. Näistä mikään ei ole saanut kliinistä näyttöä aineistossa. Pään ja kaulan sekä keuhkon okasolusyövissä PD-1-estäjillä on luokkatasolla käyttöä, kun taas haiman ja eturauhasen kasvaimet reagoivat tyypillisesti huonosti PD-1-monoterapiaan.
-
-Ainoa julkaisu liittyy toiseen ennusteeseen: **ulkokorvan tyvisolusyöpä** (sijalla 4), jossa on yksi tapausselostus. Tämä on aineiston vahvin yksittäinen signaali, mutta se ei koske ensisijaista ennustetta.
-
-## Kliiniset tutkimukset
+## Kliininen tutkimusnäyttö
 
 Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
 ## Kirjallisuusnäyttö
 
-Ensisijaiselle ennusteelle (sappirakon adenosquamous-karsinooma) ei ole saatavilla kirjallisuutta. Lähimpänä oleva yksittäinen julkaisu koskee sijalla 4 olevaa ennustetta:
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
-|------|-----|------|------|---------|
-| [34157152](https://pubmed.ncbi.nlm.nih.gov/34157152/) | 2021 | Tapausselostus | Clinical and Experimental Dermatology | Pitkäkestoinen vaste kemiplimabihoidon lopettamisen jälkeen potilaalla, jolla oli paikallisesti edennyt tyvisolusyöpä |
-
-## Myyntiluvat Suomessa
+## Markkinatiedot Suomessa
 
 | Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/004844 | Libtayo | – | Okasolusyöpä (Carcinoma, Squamous Cell); tila: peruutettu |
+| EMEA/H/C/004844 | Libtayo | – | Carcinoma, Squamous Cell |
 
-## Sytotoksisuus
-
-Kemiplimabi on syöpälääke, mutta kyseessä on immuunisyöpälääke (PD-1-estäjä), ei perinteinen sytotoksinen solunsalpaaja.
+## Kasvainlääkkeen sytotoksisuus
 
 | Kohta | Sisältö |
 |------|------|
-| Luokitus | Immunoterapia (PD-1-estäjävasta-aine) |
-| Luuydinsuppression riski | Ks. valmisteyhteenvedon varoitukset ja käyttöön liittyvät varotoimet |
-| Oksentelua aiheuttava vaikutus | Ks. valmisteyhteenvedon varoitukset ja käyttöön liittyvät varotoimet |
-| Seurantakohteet | Ks. valmisteyhteenvedon varoitukset ja käyttöön liittyvät varotoimet |
-| Käsittelysuojaus | Ks. valmisteyhteenvedon varoitukset ja käyttöön liittyvät varotoimet |
+| Luokitus | Immunoterapia (PD-1-estäjä), ei perinteinen sytotoksinen solunsalpaaja |
+| Luuydinsuppression riski | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Pahoinvointia aiheuttava vaikutus | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Seurannassa huomioitavat asiat | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Käsittelysuojaus | Katso valmisteyhteenvedon varoitukset ja varotoimet |
 
 ## Turvallisuusnäkökohdat
 
-- **Lääkeinteraktiot:** Yhteensä 10 kirjattua yhteisvaikutusta. Yhdeksän kortikosteroidia on luokiteltu kohtalaisiksi (Moderate): hydrokortisoni, triamsinoloni, deksametasoni, betametasoni, budesonidi, prednisoloni, prednisoni, metyyliprednisolooni ja deflatsakortti. Lisäksi kirjattu on lääkkeen kohdereseptori PD-1 (PDCD1), joka kuvaa vaikutuskohdetta eikä varsinaista interaktiota.
+**Yhteisvaikutukset:** Tietojen mukaan cemiplimabilla on kohtalaisen tason (Moderate) yhteisvaikutuksia seuraavien kortikosteroidien kanssa:
 
-Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
+- hydrokortisoni
+- triamsinoloni
+- deksametasoni
+- betametasoni
+- budesonidi
+- prednisolooni
+- prednisoni
+- metyyliprednisolooni
+- deflatsakorti
 
-## Johtopäätös ja jatkotoimet
+Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
-**Päätös: Hold (odota)**
+## Johtopäätös ja seuraavat askeleet
 
-**Perustelut:**
-- Ennuste perustuu pelkästään laskennalliseen malliin (L5), eikä sille ole kliinisiä tutkimuksia eikä kirjallisuutta. Lisäksi lääkkeen myyntilupa Suomessa on peruutettu.
+**Päätös: Odota (Hold)**
 
-**Jatkoon etenemiseksi tarvitaan:**
-- Valmisteyhteenvedon varoitusten ja vasta-aiheiden kokoaminen (estää turvallisuusseulonnan nykytilassa)
-- Vaikutusmekanismin tarkempi dokumentointi
-- Kirjallisuushaku ja kliinisten tutkimusten haku sappirakon adenosquamous-karsinoomasta sekä muista ennustetuista okasolukasvaimista
-- Ulkokorvan tyvisolusyövän (L4, "Research Question") jatkoselvitys: tapausselostuksen laajempi arviointi ja mahdollinen tutkimuskysymyksen muotoilu
-- Myyntiluvan peruuntumisen syyn ja nykyisen saatavuuden selvittäminen Suomessa
+**Perustelu:**
+Ennuste perustuu ainoastaan mallilaskentaan, eikä sappirakon adenoskvamoosisyövästä ole kliinisiä tutkimuksia tai julkaisuja. Näytön taso on siksi L5.
+
+**Eteenpäin siirtyminen edellyttää:**
+- Kirjallisuushakua ja mahdollisten tapausselostusten tai prekliinisten tutkimusten kartoitusta kyseisestä taudista
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden jäsentämistä Fimean aineistosta
+- Vaikutusmekanismin tarkempaa kuvausta ja sen arviointia tämän taudin kasvainbiologiassa (esim. PD-L1-ekspressio, kasvaimen mutaatiotaakka)
+- Suunnitelmaa varhaisen vaiheen kliiniselle tutkimukselle tai kohortille, jos aihetta halutaan viedä eteenpäin
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -50,10 +50,10 @@ Näyttö on pelkkää mallipohjaista ennustetta.
 |------|------|
 | Alkuperäinen käyttöaihe | Pään ja kaulan alueen kasvaimet; levyepiteelisyöpä |
 | Ennustettu uusi käyttöaihe | Nenänielun teratoomaa (nasopharyngeal teratoma) |
-| TxGNN-ennusteen pistemäärä | 99,78 % |
+| TxGNN-ennusteen pistemäärä | 0,9978 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odotetaan) |
 
 ---

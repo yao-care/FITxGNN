@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Mycophenolate Mofetil
-parent: Pelkkä mallin ennuste (L5)
+parent: Vahva näyttö (L1-L2)
 nav_order: 296
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Mycophenolate Mofetil: ennustettu uusi käyttöaihe HIV-infektio (näytön taso L5). Alkuperäinen käyttöaihe: Elinsiirteen hylkiminen (Graft Rejection)"
@@ -14,7 +14,7 @@ predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder w
 # Mycophenolate Mofetil
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,8 +50,8 @@ Mykofenolaattimofetiili on immunosuppressiivinen lääke, jota on alun perin kä
 | Ennustettu uusi käyttöaihe | HIV-infektio |
 | TxGNN-ennustepisteet | 99,86 % |
 | Näytön taso | L2 (huomio: tämä taso on annettu aineistossa; HIV-tutkimuksista yksikään ei ole vahvistava vaiheen 3 RCT) |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 4 (kaikki peruttu, voimassa 0) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 4/4) |
+| Myyntilupien määrä | 4 (voimassa: 4) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -96,10 +96,10 @@ Näyttö on kuitenkin vaatimatonta. Pienet varhaiset tutkimukset ja yksi satunna
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/000884 | Myfenax | – | Elinsiirteen hylkiminen (peruttu) |
-| EMEA/H/C/001218 | Myclausen | – | Elinsiirteen hylkiminen (peruttu) |
-| EMEA/H/C/000082 | CellCept | – | Elinsiirteen hylkiminen (peruttu) |
-| EMEA/H/C/000882 | Mycophenolate mofetil Teva | – | Elinsiirteen hylkiminen (peruttu) |
+| EMEA/H/C/000884 | Myfenax | – | Elinsiirteen hylkiminen (voimassa) |
+| EMEA/H/C/001218 | Myclausen | – | Elinsiirteen hylkiminen (voimassa) |
+| EMEA/H/C/000082 | CellCept | – | Elinsiirteen hylkiminen (voimassa) |
+| EMEA/H/C/000882 | Mycophenolate mofetil Teva | – | Elinsiirteen hylkiminen (voimassa) |
 
 ---
 

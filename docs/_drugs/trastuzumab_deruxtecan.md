@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-## Trastutsumabideruksekaani: Rintasyövästä lääkkeen aiheuttamaan osteoporoosiin
+## Trastutsumabideruksekaani: Lääkkeen aiheuttama osteoporoosi
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -48,10 +48,10 @@ Trastutsumabideruksekaani on HER2-kohdennettu vasta-aine–lääkekonjugaatti, j
 |------|------|
 | Alkuperäinen käyttöaihe | Rintasyöpä (Breast Neoplasms) |
 | Ennustettu uusi käyttöaihe | Lääkkeen aiheuttama osteoporoosi |
-| TxGNN-ennustepistemäärä | 99,31 % |
+| TxGNN-ennustepistemäärä | 0,9931 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -60,9 +60,9 @@ Trastutsumabideruksekaani on HER2-kohdennettu vasta-aine–lääkekonjugaatti, j
 
 Tämän lääkkeen alkuperäisestä vaikutusmekanismista ei ole tällä hetkellä saatavilla yksityiskohtaista tietoa. Tunnetun tiedon perusteella trastutsumabideruksekaani on HER2-kohdennettu vasta-aine–lääkekonjugaatti, jonka kuormana on topoisomeraasi I:n estäjä (deruksekaani). Sen teho HER2-positiivisessa rintasyövässä on osoitettu.
 
-Tämän raportin käytettävissä olevan datan perusteella HER2-kohdentamisen tai topoisomeraasi I:n eston ja lääkkeen aiheuttaman osteoporoosin ehkäisyn tai hoidon välillä ei ole tunnettua biologista yhteyttä. Korkea TxGNN-pistemäärä (0,993) on pelkkä tietograafiin perustuva ennuste, jota mikään kliininen tai kirjallisuusnäyttö ei tue.
+Tämän raportin käytettävissä olevan datan perusteella HER2-kohdentamisen tai topoisomeraasi I:n eston ja lääkkeen aiheuttaman osteoporoosin ehkäisyn tai hoidon välillä ei ole tunnettua biologista yhteyttä. Korkea TxGNN-pistemäärä (0,9931) on pelkkä TxGNN-mallin (syväoppiminen) tuottama ennuste, jota mikään kliininen tai kirjallisuusnäyttö ei tue.
 
-Ennuste voi heijastaa pikemminkin tietograafin sisäistä läheisyyttä, esimerkiksi yhteisiä liittymiä syöpälääkkeiden tai luukatoa aiheuttavien hoitojen kanssa, kuin todellista hoitovaikutusta. Lisäksi solunsalpaajakuorma ja syövän tukihoidon konteksti voivat pikemminkin lisätä luuston terveyteen liittyviä huolia.
+Pistemäärä tulee TxGNN-mallista (syväoppiminen) ja voi heijastaa mallin oppimia samankaltaisuuksia toisiinsa liittyvien sairauksien välillä, ei biologista näyttöä eikä todellista hoitovaikutusta. Lisäksi solunsalpaajakuorma ja syövän tukihoidon konteksti voivat pikemminkin lisätä luuston terveyteen liittyviä huolia.
 
 ---
 

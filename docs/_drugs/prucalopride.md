@@ -6,9 +6,9 @@ nav_order: 360
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Prucalopride: ennustettu uusi käyttöaihe Hypoalfalipoproteinemia (näytön taso L5). Alkuperäinen käyttöaihe: Ummetus"
 monitor_inn: "Prucalopride"
 predicted_indications: ["hypoalphalipoproteinemia", "homozygous familial hypercholesterolemia", "duodenal ulcer (disease)", "oral candidiasis", "obsolete familial combined hyperlipidemia", "amyloidosis (disease)", "strongyloidiasis", "HIV infectious disease", "primary amyloidosis", "acquired amyloid peripheral neuropathy"]
+description: "Prucalopride: ennustettu uusi käyttöaihe Hypoalphalipoproteinemia (näytön taso L5). Alkuperäinen käyttöaihe: Constipation"
 ---
 
 # Prucalopride
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Prukalopridi: Ummetuksesta ennustettuun uuteen käyttöaiheeseen – hypoalfalipoproteinemia
+## Prucalopride: Hypoalphalipoproteinemia
 {: .text-alpha }
 
 ## Yhteenveto
@@ -48,12 +48,12 @@ mutta ennusteen tueksi ei ole löytynyt **yhtään kliinistä tutkimusta eikä j
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Ummetus |
-| Ennustettu uusi käyttöaihe | Hypoalfalipoproteinemia |
-| TxGNN-ennustepistemäärä | 99,82 % |
+| Alkuperäinen käyttöaihe | Constipation |
+| Ennustettu uusi käyttöaihe | Hypoalphalipoproteinemia |
+| TxGNN-ennustepistemäärä | 0.9982 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

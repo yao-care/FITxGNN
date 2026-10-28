@@ -6,9 +6,9 @@ nav_order: 336
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-13
-description: "Pegvaliase: ennustettu uusi käyttöaihe Diabeettinen retinopatia (näytön taso L5). Alkuperäinen käyttöaihe: Fenyyliketonuria"
 monitor_inn: "PEGVALIASE"
 predicted_indications: ["diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "diabetic cataract"]
+description: "Pegvaliase: ennustettu uusi käyttöaihe Diabetic retinopathy (näytön taso L5). Alkuperäinen käyttöaihe: Phenylketonurias"
 ---
 
 # Pegvaliase
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-## Pegvaliaasi: Fenyyliketonuriasta diabeettiseen retinopatiaan
+## Pegvaliase: Diabetic retinopathy
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -48,12 +48,12 @@ Ennuste perustuu siis pelkästään laskennalliseen mallinnukseen.
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Fenyyliketonuria |
-| Ennustettu uusi käyttöaihe | Diabeettinen retinopatia |
+| Alkuperäinen käyttöaihe | Phenylketonurias |
+| Ennustettu uusi käyttöaihe | Diabetic retinopathy |
 | TxGNN-ennustepisteet | 99,17 % |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruttu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odotetaan) |
 
 Muut mallin ennustamat käyttöaiheet: vaikea ei-proliferatiivinen diabeettinen retinopatia (99,16 %) ja diabeettinen kaihi (99,11 %). Kaikkien näytön taso on L5 ja suositus Hold.
@@ -86,7 +86,7 @@ Ei tällä hetkellä aiheeseen liittyvää kirjallisuutta.
 
 | Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/004744 | Palynziq | – | Fenyyliketonuria (tila: peruttu) |
+| EMEA/H/C/004744 | Palynziq | – | Fenyyliketonuria (tila: voimassa) |
 
 Valmistaja: BioMarin International Limited.
 

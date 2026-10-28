@@ -50,8 +50,8 @@ Vareniklinii on nikotiinireseptorien osittaisagonisti, jota on alun perin käyte
 | Ennustettu uusi käyttöaihe | Migreeni (migraine disorder) |
 | TxGNN-ennustepistemäärä | 99,92 % |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odotetaan) |
 
 ---

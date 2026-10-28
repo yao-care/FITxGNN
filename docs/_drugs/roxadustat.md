@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-## Roksadustaatti: Kroonisen munuaisten vajaatoiminnan anemiasta kuivasilmäisyyteen
+## Roksadustaatti: Kuivasilmäisyys
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -47,10 +47,10 @@ TxGNN-malli ennustaa sen voivan olla tehokas **kuivasilmäisyyden** hoidossa, mu
 |------|------|
 | Alkuperäinen käyttöaihe | Anemia; krooninen munuaisten vajaatoiminta |
 | Ennustettu uusi käyttöaihe | Kuivasilmäisyys (dry eye syndrome) |
-| TxGNN-ennusteen pistemäärä | 99,51 % |
+| TxGNN-ennusteen pistemäärä | 0,9951 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste on perusteltu?
@@ -59,15 +59,15 @@ Roksadustaatti estää HIF-prolyylihydroksylaasientsyymejä (mm. EGLN2) ja vakau
 
 HIF-signalointi vaikuttaa tulehdukseen, hypoksiavasteisiin sekä epiteelin ja sarveiskalvon korjautumiseen. Siksi teoreettinen yhteys silmän pinnan sairauksiin on olemassa. Alkuperäinen käyttöaihe (anemia) ja kuivasilmäisyys ovat kuitenkin kliinisesti hyvin kaukana toisistaan, eikä yhtäläisyyttä alkuperäiseen käyttöaiheeseen ole arvioitu.
 
-Vaikutus on lisäksi kontekstiriippuvainen: HIF:n aktivointi voi edistää uudissuonittumista ja vaikuttaa tulehdukseen kumpaankin suuntaan. Korkea pistemäärä (0,995) on laskennallinen ennuste, ei näyttöä tehosta.
+Vaikutus on lisäksi kontekstiriippuvainen: HIF:n aktivointi voi edistää uudissuonittumista ja vaikuttaa tulehdukseen kumpaankin suuntaan. Korkea pistemäärä (0,9951) on laskennallinen ennuste, ei näyttöä tehosta.
 
 ### Muut mallin ennustamat käyttöaiheet
 
 | Sija | Käyttöaihe | Pistemäärä | Näytön taso | Huomio |
 |------|------|------|------|------|
-| 2 | Luun Pagetin tauti | 99,12 % | L5 | Spekulatiivinen yhteys luun uudelleenmuovautumiseen; vaikutussuunta epävarma (HIF voi lisätä myös osteoklastogeneesiä). Vakiohoitona bisfosfonaatit. |
-| 3 | Dentinogenesis imperfecta | 99,06 % | L5 | Geneettinen rakenneproteiinivika (pääosin DSPP); mekanistinen yhteys heikko. |
-| 4 | Levyepiteelisyöpä | 99,02 % | L5 | HIF-aktivaatio liittyy kasvaimen etenemiseen ja hoitoresistenssiin, joten kyse on pikemminkin turvallisuushuolesta kuin hoitoperusteesta. |
+| 2 | Luun Pagetin tauti | 0,9912 | L5 | Spekulatiivinen yhteys luun uudelleenmuovautumiseen; vaikutussuunta epävarma (HIF voi lisätä myös osteoklastogeneesiä). Vakiohoitona bisfosfonaatit. |
+| 3 | Dentinogenesis imperfecta | 0,9906 | L5 | Geneettinen rakenneproteiinivika (pääosin DSPP); mekanistinen yhteys heikko. |
+| 4 | Levyepiteelisyöpä | 0,9902 | L5 | HIF-aktivaatio liittyy kasvaimen etenemiseen ja hoitoresistenssiin, joten kyse on pikemminkin turvallisuushuolesta kuin hoitoperusteesta. |
 
 ## Kliininen tutkimusnäyttö
 

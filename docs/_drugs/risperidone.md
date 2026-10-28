@@ -4,17 +4,17 @@ title: Risperidone
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 382
 evidence_level: L5
-indication_count: 6
+indication_count: 5
 last_modified_at: 2026-10-13
-description: "Risperidone: ennustettu uusi käyttöaihe Familiaalinen horisontaalinen katseen halvaus ja etenevä skolioosi (näytön taso L5). Alkuperäinen käyttöaihe: Skitsofrenia"
 monitor_inn: "RISPERIDONE"
-predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "asperger syndrome, susceptibility to", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania", "major affective disorder"]
+predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania", "major affective disorder"]
+description: "Risperidone: ennustettu uusi käyttöaihe Gaze palsy, familial horizontal, with progressive scoliosis (näytön taso L5). Alkuperäinen käyttöaihe: Schizophrenia"
 ---
 
 # Risperidone
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-## Risperidoni: Skitsofreniasta familiaaliseen horisontaaliseen katseen halvaukseen ja etenevään skolioosiin
+## Risperidone: Gaze palsy, familial horizontal, with progressive scoliosis
 {: .text-alpha }
 
 ## Yhteenveto
@@ -46,12 +46,12 @@ Risperidoni on antipsykootti, jota on alun perin käytetty skitsofrenian hoitoon
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Skitsofrenia |
-| Ennustettu uusi käyttöaihe | Familiaalinen horisontaalinen katseen halvaus ja etenevä skolioosi |
+| Alkuperäinen käyttöaihe | Schizophrenia |
+| Ennustettu uusi käyttöaihe | Gaze palsy, familial horizontal, with progressive scoliosis |
 | TxGNN-ennustepisteet | 99,76 % |
 | Näytön taso | L5 (vain mallin ennuste) |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia, ei voimassa olevia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

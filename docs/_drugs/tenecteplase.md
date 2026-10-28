@@ -4,17 +4,17 @@ title: Tenecteplase
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 427
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-13
-description: "Tenecteplase: ennustettu uusi käyttöaihe Takaseinän alaosan sydäninfarkti (posteroinferior myocardial infarcti… (näytön taso L5). Alkuperäinen käyttöaihe: Sydäninfarkti"
 monitor_inn: "TENECTEPLASE"
 predicted_indications: ["congenital coronary artery anomaly", "coronary stenosis", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "hemolytic anemia due to glucophosphate isomerase deficiency", "pyropoikilocytosis, hereditary", "pyruvate kinase deficiency of red cells"]
+description: "Tenecteplase: ennustettu uusi käyttöaihe Congenital coronary artery anomaly (näytön taso L5). Alkuperäinen käyttöaihe: Myocardial Infarction"
 ---
 
 # Tenecteplase
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **7** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Tenekteplaasi: Sydäninfarktista koronaarisen ahtauman hoitoon
+## Tenecteplase: Congenital coronary artery anomaly
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -46,12 +46,12 @@ Tenekteplaasi on fibriinispesifinen kudosplasminogeeniaktivaattori, jota on alun
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Sydäninfarkti |
-| Ennustettu uusi käyttöaihe (sijalla 1) | Takaseinän alaosan sydäninfarkti (posteroinferior myocardial infarction) |
-| TxGNN-ennustepistemäärä | 99,87 % |
+| Alkuperäinen käyttöaihe | Myocardial Infarction |
+| Ennustettu uusi käyttöaihe (sijalla 1) | Congenital coronary artery anomaly |
+| TxGNN-ennustepistemäärä | 0.9961 |
 | Näytön taso | L5 (sijalla 1); L3 koronaarisen ahtauman osalta (sijalla 5) |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 Muut ennusteet (sijat 2–10) ovat pääosin joko sydäninfarktin alatyyppejä (takaseinän ja sivuseinän infarkti, väliseinäinfarkti; L5–L4) tai mekanistisesti perustelemattomia (synnynnäinen sepelvaltimopoikkeama, kromosomi 16:n lyhyen haaran osittainen deleetio, beetatalassemia, punasolujen entsyymivika- ja kalvosairaudet; kaikki L5).

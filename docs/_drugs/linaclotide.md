@@ -49,10 +49,10 @@ TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **cauda equina -oireyhty
 |------|------|
 | Alkuperäinen käyttöaihe | Ärtyvän suolen oireyhtymä |
 | Ennustettu uusi käyttöaihe | Cauda equina -oireyhtymä |
-| TxGNN-ennusteen pistemäärä | 99,96 % |
+| TxGNN-ennusteen pistemäärä | 0,9996 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odotetaan) |
 
 ---
@@ -64,8 +64,8 @@ Linaklotidi on GC-C-agonisti, joka vaikuttaa paikallisesti suolen epiteelissä. 
 Suoraa mekanistista yhteyttä cauda equina -oireyhtymään ei ole osoitettu. Tila on lannerangan hermojuurten puristusvamma, joka vaatii neurokirurgista hoitoa. Ainoa uskottava päällekkäisyys on neurogeenisen suolen toimintahäiriön (ummetuksen) oireenmukainen lievitys, ei taustalla olevan sairauden hoito. Korkea pistemäärä (0,9996) johtuu todennäköisesti siitä, että tietämysgraafissa suolen ja virtsarakon oireet ovat yhteisiä naapureita.
 
 Muut ennustetut käyttöaiheet ovat samalla tavoin heikosti perusteltuja:
-- **Neurogeeninen virtsarakko** (pistemäärä 99,89 %): linaklotidin vaikutus rajoittuu pääosin suolen luumeniin, eikä suoraa vaikutusta rakon toimintaan odoteta. Tautitermi on lisäksi merkitty ontologiassa vanhentuneeksi, mikä heikentää ennusteen tulkittavuutta.
-- **Unettomuus** (pistemäärä 99,51 %): linaklotidi ei vaikuta merkittävästi keskushermostoon. Ainoa epäsuora yhteys on, että ärtyvän suolen oireiden lievittyminen voisi parantaa unen laatua.
+- **Neurogeeninen virtsarakko** (pistemäärä 0,9989): linaklotidin vaikutus rajoittuu pääosin suolen luumeniin, eikä suoraa vaikutusta rakon toimintaan odoteta. Tautitermi on lisäksi merkitty ontologiassa vanhentuneeksi, mikä heikentää ennusteen tulkittavuutta.
+- **Unettomuus** (pistemäärä 0,9951): linaklotidi ei vaikuta merkittävästi keskushermostoon. Ainoa epäsuora yhteys on, että ärtyvän suolen oireiden lievittyminen voisi parantaa unen laatua.
 
 ---
 

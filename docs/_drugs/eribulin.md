@@ -4,17 +4,17 @@ title: Eribulin
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 174
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Eribulin: ennustettu uusi käyttöaihe Fibroblastinen neoplasma (esim. yksittäinen kuituinen kasvain, SFT) (näytön taso L5). Alkuperäinen käyttöaihe: Rintasyöpä (Breast Neoplasms), liposarkooma"
+indication_count: 9
 monitor_inn: "ERIBULIN"
-predicted_indications: ["autosomal recessive familial Mediterranean fever", "dermatofibrosarcoma protuberans", "pleural mesothelioma", "malignant peritoneal mesothelioma", "ovarian myxoid liposarcoma", "pleural adenomatoid tumor", "pleural biphasic mesothelioma", "fibroblastic neoplasm", "pleural epithelioid mesothelioma", "heart fibrosarcoma"]
+predicted_indications: ["autosomal recessive familial Mediterranean fever", "dermatofibrosarcoma protuberans", "pleural mesothelioma", "malignant peritoneal mesothelioma", "pleural adenomatoid tumor", "pleural biphasic mesothelioma", "fibroblastic neoplasm", "pleural epithelioid mesothelioma", "heart fibrosarcoma"]
+last_modified_at: 2026-10-27
+description: "Eribulin: ennustettu uusi käyttöaihe Autosomaalinen resessiivinen familiaalinen Välimeren kuume (autosomal recessive familial Mediterranean fever) (näytön taso L5). Alkuperäinen käyttöaihe: Breast Ne…"
 ---
 
 # Eribulin
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,113 +33,76 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Eribuliini: Rintasyövästä ja liposarkoomasta fibroblastiseen neoplasmaan
+## Eribuliini: mikrotubulusdynamiikkaa estävä solunsalpaaja → autosomaalinen resessiivinen familiaalinen Välimeren kuume (autosomal recessive familial Mediterranean fever)
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 
-Eribuliini on mikrotubuluksiin kohdistuva solunsalpaaja, jota on käytetty rintasyövän ja liposarkooman hoitoon.
-TxGNN-malli ennustaa sen voivan tehota **fibroblastiseen neoplasmaan** (ennustepisteet 99,36 %).
-Tätä suuntaa tukee tällä hetkellä **1 valmistunut vaiheen 2 kliininen tutkimus** ja **8 julkaisua**, joista useimmat ovat prekliinisiä.
+Eribuliini on mikrotubulusten dynamiikkaa estävä solunsalpaaja. TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **autosomaalisen resessiivisen familiaalisen Välimeren kuumeen (autosomal recessive familial Mediterranean fever)**. Tälle ennusteelle ei ole tässä raportissa käytetyssä aineistossa yhtään kliinistä koetta eikä julkaisua, joten tuki perustuu pelkästään mallin ennustepisteeseen.
 
-Huomio: ennustelistan ensimmäinen kohde on perinnöllinen välimeren kuume (pisteet 99,82 %), mutta sille ei löytynyt lainkaan tutkimusnäyttöä. Tässä raportissa tarkastellaan lähemmin kohdetta, jolla on vahvin näyttö (sija 8, fibroblastinen neoplasma). Muut ennustetut kohteet käsitellään lyhyesti lopussa.
-
----
-
-## Pikakatsaus
+## Pikayhteenveto
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Rintasyöpä (Breast Neoplasms), liposarkooma |
-| Ennustettu uusi käyttöaihe | Fibroblastinen neoplasma (esim. yksittäinen kuituinen kasvain, SFT) |
-| TxGNN-ennustepisteet | 99,36 % |
-| Näytön taso | L2 (rajattu: yksi valmistunut vaiheen 2 tutkimus, yksihaarainen, ei tuloksia saatavilla) |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 3 (kaikki peruutettuja, voimassa 0) |
-| Suositeltu päätös | Hold (odottaa; jatkotutkimuskysymys, kunnes tulokset on arvioitu) |
+| Alkuperäinen käyttöaihe | Breast Neoplasms;Liposarcoma |
+| Ennustettu uusi käyttöaihe | Autosomaalinen resessiivinen familiaalinen Välimeren kuume (autosomal recessive familial Mediterranean fever) |
+| TxGNN-ennustepiste | 0,9982 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 3/3) |
+| Myyntilupien määrä | 3 (voimassa: 3) |
+| Suositeltu päätös | Hold (odota) |
 
----
+## Miksi ennuste voisi olla perusteltu?
 
-## Miksi ennuste on järkevä?
+Eribuliinin yksityiskohtaista vaikutusmekanismia ei ole tässä aineistossa saatavilla. Yleisesti eribuliini tunnetaan mikrotubulusten dynamiikkaa estävänä solunsalpaajana, ja sen käyttö liittyy kiinteisiin kasvaimiin.
 
-Yksityiskohtaista vaikutusmekanismitietoa ei ole tällä hetkellä saatavilla tähän raporttiin kootussa aineistossa. Tunnetun tiedon mukaan eribuliini on mikrotubulusten dynamiikkaa estävä aine (antitubuliini), jonka teho pehmytkudossarkoomissa, kuten liposarkoomassa, on osoitettu. Mekanistisesti se voi soveltua myös muihin mesenkymaalisiin kasvaimiin.
+Familiaalinen Välimeren kuume on autoinflammatorinen sairaus, jonka taustalla on pyriini-inflammasomin säätelyhäiriö ja jota hoidetaan tavallisesti kolkisiinilla. Yhteys tubuliiniin sitoutumisen kautta on teoriassa mahdollinen, mutta spekulatiivinen. Eribuliinin haittavaikutusprofiili (neutropenia, neuropatia) tekee käytöstä ei-pahanlaatuisessa tulehdussairaudessa epäedullista. Korkea pistemäärä on todennäköisesti mallin artefakti.
 
-Alkuperäinen käyttöaihe liposarkooma on pehmytkudossarkooma, ja fibroblastiset kasvaimet (esim. yksittäinen kuituinen kasvain, fibrosarkooma, myksofibrosarkooma) kuuluvat samaan laajempaan mesenkymaalisten kasvainten ryhmään. Solunsalpaajan antimitoottinen vaikutus voi siksi olla relevantti myös niissä.
+## Kliininen näyttö
 
-Tukea antavat prekliiniset työt fibrosarkoomasoluilla: eribuliinin ja rekombinantin metioninaasin synergia sekä eribuliiniresistenssin tutkimus. Potilasjohdetussa SFT-ksenograftimallissa eribuliinin arveltiin myös olevan mahdollisesti tehokas. Nämä ovat kuitenkin epäsuoraa näyttöä.
-
----
-
-## Kliininen tutkimusnäyttö
-
-| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset havainnot |
-|---------|------|------|------|---------|
-| [NCT03840772](https://clinicaltrials.gov/study/NCT03840772) (ERASING) | Vaihe 2 | Valmistunut | 16 | Eribuliinin vaiheen 2 tutkimus pitkälle edenneessä yksittäisessä kuituisessa kasvaimessa (SFT); tehoa koskevia tuloksia ei ollut saatavilla |
-
----
+Tälle ennusteelle ei ole tällä hetkellä rekisteröityjä kliinisiä kokeita.
 
 ## Kirjallisuusnäyttö
 
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
-|---------|------|------|------|---------|
-| [38136399](https://pubmed.ncbi.nlm.nih.gov/38136399/) | 2023 | Katsaus | Cancers | Ekstrameningeaalisten SFT-kasvainten diagnostiikka ja hoito |
-| [28284173](https://pubmed.ncbi.nlm.nih.gov/28284173/) | 2017 | Prekliininen (ksenografti) | Eur J Cancer | SFT-ksenograftit ennustivat doksorubisiini/dakarbatsiinin tehon; trabektediini tai eribuliini mahdollisesti tehokkaita |
-| [38423656](https://pubmed.ncbi.nlm.nih.gov/38423656/) | 2024 | Prekliininen (in vitro) | Anticancer Res | Rekombinantin metioninaasin ja eribuliinin voimakas synergia fibrosarkoomasoluissa, ei normaaleissa fibroblasteissa |
-| [39197933](https://pubmed.ncbi.nlm.nih.gov/39197933/) | 2024 | Prekliininen (in vitro) | Anticancer Res | Metioninaasi lisäsi eribuliinin tehoa 16-kertaisesti eribuliiniresistenteissä HT1080-soluissa |
-| [40295012](https://pubmed.ncbi.nlm.nih.gov/40295012/) | 2025 | Prekliininen | In Vivo | Eribuliinin ja metioniinirajoituksen yhdistelmä pysäytti eribuliiniresistentit fibrosarkoomasolut nude-hiirissä |
-| [35906852](https://pubmed.ncbi.nlm.nih.gov/35906852/) | 2023 | Tapausselostus | Genes Chromosomes Cancer | Entrektinibin vaste NTRK3-fuusiopositiivisessa MPNST:ssä (ei suoraan eribuliiniin liittyvä) |
-| [39625530](https://pubmed.ncbi.nlm.nih.gov/39625530/) | 2024 | Prekliininen (solulinja) | Hum Cell | Uuden myksofibrosarkoomasolulinjan SMU-MFS luonnehdinta |
-| [34383271](https://pubmed.ncbi.nlm.nih.gov/34383271/) | 2021 | Prekliininen (solulinja) | Hum Cell | Uuden myksofibrosarkoomasolulinjan NCC-MFS4-C1 luonnehdinta |
+Tälle ennusteelle ei ole tällä hetkellä saatavilla kirjallisuutta.
 
----
-
-## Suomen markkinatiedot
+## Tiedot Suomen markkinoilta
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/002084 | Halaven (Eisai GmbH) | – | Rintasyöpä; liposarkooma (peruutettu) |
-| EMEA/H/C/006134 | Mevlyq (YES Pharmaceutical Development Services GmbH) | – | Rintasyöpä; liposarkooma (peruutettu) |
-| EMEA/H/C/006191 | Eribulin Baxter (Baxter Holding B.V.) | – | Rintasyöpä; liposarkooma (peruutettu) |
-
----
+| EMEA/H/C/002084 | Halaven | – | Breast Neoplasms;Liposarcoma |
+| EMEA/H/C/006134 | Mevlyq | – | Breast Neoplasms;Liposarcoma |
+| EMEA/H/C/006191 | Eribulin Baxter | – | Breast Neoplasms;Liposarcoma |
 
 ## Sytotoksisuus
 
 | Kohta | Sisältö |
 |------|------|
-| Sytotoksisuusluokitus | Perinteinen solunsalpaaja (mikrotubulusdynamiikan estäjä) |
-| Luuydinsuppression riski | Kohtalainen–korkea; tietograafin mukaan neutropenia, agranulosytoosi ja trombosytopenia ovat relevantteja |
-| Oksettavuusluokitus | Matala–kohtalainen (yleisen lääkeryhmän perusteella) |
-| Seurattavat parametrit | Verenkuva erittelylaskennalla, maksa- ja munuaisarvot, elektrolyytit (erityisesti kalium ja magnesium), EKG (QT-aika), perifeerisen neuropatian oireet |
-| Käsittelysuojaus | Solunsalpaajien käsittelyohjeiden mukaiset suojatoimet tarvitaan |
+| Sytotoksisuusluokitus | Tavanomainen solunsalpaaja (mikrotubulusdynamiikan estäjä) |
+| Luuydinsuppression riski | Korkea (neutropenia ja trombosytopenia ovat tunnettuja riskejä) |
+| Oksetusriskin luokitus | Matala–keskitaso |
+| Seurantakohteet | Verenkuva erittelylaskennalla, maksa- ja munuaisarvot, elektrolyytit (kalium), EKG (QT-aika), perifeerisen neuropatian oireet |
+| Käsittelysuojaus | Noudatettava solunsalpaajien käsittelyohjeita |
 
-Tarkemmat tiedot: katso valmisteyhteenvedon varoitukset ja varotoimet.
+## Turvallisuusnäkökohdat
 
----
+- **Lääkkeiden yhteisvaikutukset**: Yhteisvaikutuksia on kirjattu yhteensä 100. Merkittävimpiä (Major) ovat dolasetronin ja sisapridin kanssa kirjatut yhteisvaikutukset. Keskivaikeita (Moderate) ovat mm. famotidiini, loperamidi, klaritromysiini, levofloksasiini, metronidatsoli, ondansetroni, palonosetroni, rosuvastatiini ja simvastatiini sekä useat laksatiivit.
+- **Sairaudet, joissa varovaisuutta on syytä noudattaa** (aineistossa kirjatut vasta-aiheisuuteen viittaavat tilat, eivät valmisteyhteenvedon teksti): pitkä QT-oireyhtymä, familiaalinen pitkä QT-oireyhtymä, trombosytopenia, kaliumin puutos, neutropenia, agranulosytoosi, perifeerisen hermoston sairaus, perifeerinen neuropatia ja ummetus.
 
-## Turvallisuushuomiot
+Tarkemmat turvallisuustiedot ovat valmisteyhteenvedossa.
 
-- **Tietograafiin perustuvat vasta-aiheisiin liittyvät sairaudet** (eivät valmisteyhteenvedon tekstiä): pitkä QT-oireyhtymä (myös synnynnäinen), trombosytopenia, kaliumin puutos, neutropenia, agranulosytoosi, perifeerisen hermoston sairaus, perifeerinen neuropatia ja ummetus.
-- **Lääkeyhteisvaikutukset:** tietoja löytyi 100 yhteisvaikutuksesta. Vakavat (Major) yhteisvaikutukset, jotka näkyvät listatuista: **dolasetroni** ja **sisapridi** (todennäköisesti QT-ajan pidentymiseen liittyen). Kohtalaisia ovat mm. famotidiini, loperamidi, bisakodyyli, klaritromysiini, levofloksasiini, metronidatsoli, ondansetroni, palonosetroni, rosuvastatiini, simvastatiini, tinidatsoli sekä useat laksatiivit (laktuloosi, laktitoli, polyetyleeniglykoli, natriumsulfaatti, risiiniöljy, pikosulfaatti).
+## Johtopäätös ja seuraavat askeleet
 
-Valmisteyhteenvedon varoitukset ja vasta-aiheet eivät olleet saatavilla, joten niihin tulee tutustua erikseen.
-
----
-
-## Johtopäätös ja seuraavat vaiheet
-
-**Päätös: Hold (jatkotutkimuskysymys)**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-- Fibroblastisen neoplasman osalta on yksi valmistunut, pieni (n=16) vaiheen 2 tutkimus, jonka tuloksia ei ollut saatavilla, sekä prekliinistä tukea. Näyttö ei vielä riitä etenemiseen. Lisäksi eribuliinin myyntiluvat Suomessa on peruutettu, mikä rajoittaa käytännön saatavuutta.
-- Muiden ennustettujen kohteiden (mm. perinnöllinen välimeren kuume, eri mesotelioomat, sydämen fibrosarkooma, munasarjan myksoidi liposarkooma) tukena on vain TxGNN-pisteet tai epäsuora päättely, eikä niistä löytynyt tutkimuksia. Perinnöllisen välimeren kuumeen korkeat pisteet ovat todennäköisesti mallin artefakti, ja eribuliinin toksisuusprofiili (neutropenia, neuropatia) puhuu sen käyttöä vastaan ei-maligniin tulehdussairauteen. Rakkulaisen ihon fibrosarkooman (DFSP) osalta on vain yleinen pehmytkudossarkoomien solunsalpaajahoitokatsaus (L4), eikä kohdekohtaista näyttöä ole.
+- Ennusteella ei ole kliinistä eikä kirjallisuusnäyttöä, ja pistemäärä (0,9982) on ainoa tuki. Eribuliinin toksisuusprofiili on epäedullinen ei-pahanlaatuisessa tulehdussairaudessa, joten ennuste on todennäköisesti mallin artefakti.
 
-**Edetäkseen tarvitaan:**
-- ERASING-tutkimuksen (NCT03840772) tehotulokset (objektiivinen vaste, etenemisvapaa elinaika) ja niiden kriittinen arviointi
-- Valmisteyhteenvedon varoitukset ja vasta-aiheet (estävä tietoaukko turvallisuusseulonnalle), haettavissa Fimean sivustolta
-- Yksityiskohtainen vaikutusmekanismitieto (DrugBank)
-- Selvitys eribuliinin markkinatilanteesta ja saatavuudesta Suomessa myyntilupien peruuttamisen jälkeen
-- QT-aikaan ja luuydinsuppressioon liittyvä turvallisuuden seurantasuunnitelma
+**Eteneminen edellyttäisi:**
+- Prekliinistä näyttöä eribuliinin vaikutuksesta pyriini-inflammasomiin tai FMF-malleissa
+- Vaikutusmekanismitietojen täydentämistä
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden jäsentämistä
+- Hyöty–haitta-arviota suhteessa vakiohoitoon (kolkisiini)
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

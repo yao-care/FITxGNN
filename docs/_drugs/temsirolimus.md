@@ -48,10 +48,10 @@ Temsirolimuusi on mTOR-estäjä, jota on alun perin käytetty munuaissolusyövä
 |------|------|
 | Alkuperäinen käyttöaihe | Munuaissolusyöpä; manttelisolulymfooma |
 | Ennustettu uusi käyttöaihe | Liposarkooma |
-| TxGNN-ennustepistemäärä | 99,54 % |
-| Näytön taso | L2 (varovainen tulkinta: valmistuneita vaiheen 1/2 ja 2 tutkimuksia on, mutta ne eivät ole liposarkoomakohtaisia satunnaistettuja tutkimuksia) |
-| Markkinatilanne Suomessa | Vain peruttu myyntilupa |
-| Myyntilupien määrä | 1 (peruttu) |
+| TxGNN-ennustepistemäärä | 0,9954 |
+| Näytön taso | L5 (varovainen tulkinta: valmistuneita vaiheen 1/2 ja 2 tutkimuksia on, mutta ne eivät ole liposarkoomakohtaisia satunnaistettuja tutkimuksia) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -87,7 +87,7 @@ Pistemäärä on laskennallinen ennuste eikä korvaa kliinistä näyttöä.
 
 | Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/000799 | Torisel | – | Munuaissolusyöpä; manttelisolulymfooma (tila: peruttu) |
+| EMEA/H/C/000799 | Torisel | – | Munuaissolusyöpä; manttelisolulymfooma (tila: voimassa) |
 
 ---
 

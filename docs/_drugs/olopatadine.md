@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-## Olopatadiini: allergisesta sidekalvotulehduksesta ruusufinnin sidekalvotulehdukseen
+## Olopatadiini: ruusufinnin sidekalvotulehdus
 {: .text-alpha }
 
 ## Yhden virkkeen yhteenveto
@@ -48,10 +48,10 @@ Olopatadiini on lääkeaine, jota on käytetty allergisen sidekalvotulehduksen h
 |------|------|
 | Alkuperäinen käyttöaihe | Allerginen sidekalvotulehdus |
 | Ennustettu uusi käyttöaihe | Ruusufinnin sidekalvotulehdus (rosacea conjunctivitis) |
-| TxGNN-ennustepistemäärä | 99,41 % |
+| TxGNN-ennustepistemäärä | 0,9941 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -62,7 +62,7 @@ Olopatadiini on histamiini H1 -reseptorin salpaaja, jolla on myös syöttösoluj
 
 Silmän ruusufinni on pääosin meibomin rauhasten toimintahäiriön, kyynelfilmin epävakauden ja synnynnäiseen immuunijärjestelmään liittyvän tulehduksen ajama tila. Myös Demodex-punkit ja mikrobitekijät voivat vaikuttaa. Syöttösolujen ja histamiinin osuus on mahdollista, mutta sitä ei ole osoitettu pääasialliseksi tekijäksi.
 
-Mahdollinen hyöty rajoittuisi siksi todennäköisesti kutinan tai allergiatyyppisen tulehduksen oireenmukaiseen lievitykseen. Korkea TxGNN-pistemäärä (0,994) on pelkkä laskennallinen ennuste. Se heijastaa todennäköisesti tiedonhallintaverkoston läheisyyttä allergiseen sidekalvotulehdukseen, eikä sitä tule pitää kliinisenä näyttönä.
+Mahdollinen hyöty rajoittuisi siksi todennäköisesti kutinan tai allergiatyyppisen tulehduksen oireenmukaiseen lievitykseen. Korkea TxGNN-pistemäärä (0,9941) on pelkkä laskennallinen ennuste. Se heijastaa todennäköisesti tiedonhallintaverkoston läheisyyttä allergiseen sidekalvotulehdukseen, eikä sitä tule pitää kliinisenä näyttönä.
 
 ---
 

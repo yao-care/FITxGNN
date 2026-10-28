@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 198
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-13
-description: "Galcanezumab: ennustettu uusi käyttöaihe Hepariinin kofaktori 2:n puutos (näytön taso L5). Alkuperäinen käyttöaihe: Migreeni"
 monitor_inn: "GALCANEZUMAB"
 predicted_indications: ["heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
+last_modified_at: 2026-10-27
+description: "Galcanezumab: ennustettu uusi käyttöaihe Hepariinikofaktori 2:n puutos (heparin cofactor 2 deficiency) (näytön taso L5). Alkuperäinen käyttöaihe: Migraine Disorders"
 ---
 
 # Galcanezumab
@@ -33,95 +33,65 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-## Galkanetsumabi: Migreenistä hepariinin kofaktori 2:n puutokseen
+## Galkanetsumabi: CGRP-vasta-aine → hepariinikofaktori 2:n puutos (heparin cofactor 2 deficiency)
 {: .text-alpha }
 
-## Yhteenveto
+## Yhden lauseen yhteenveto
 
-Galkanetsumabi on CGRP-neuropeptidiin (kalsitoniinigeeniin liittyvä peptidi) sitoutuva monoklonaalinen vasta-aine, jota käytetään migreenin ehkäisyyn.
-TxGNN-malli ennustaa sen voivan tehota **hepariinin kofaktori 2:n puutokseen**, mutta ennusteen tueksi ei ole löytynyt **yhtään kliinistä tutkimusta eikä yhtään julkaisua**.
-Ennuste perustuu pelkästään mallin laskennalliseen tulokseen.
-
----
+Galkanetsumabi on CGRP-neuropeptidiin (calcitonin gene-related peptide) sitoutuva monoklonaalinen vasta-aine, jota käytetään migreenin ehkäisyyn. TxGNN-malli ennustaa sen voivan soveltua indikaatioon **hepariinikofaktori 2:n puutos (heparin cofactor 2 deficiency)**, mutta ennusteen tueksi ei ole löytynyt yhtään kliinistä tutkimusta eikä julkaisua. Ennuste perustuu pelkästään mallilaskentaan.
 
 ## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Migreeni |
-| Ennustettu uusi käyttöaihe | Hepariinin kofaktori 2:n puutos |
-| TxGNN-ennustepisteet | 99,50 % |
+| Alkuperäinen käyttöaihe | Migraine Disorders |
+| Ennustettu uusi käyttöaihe | Hepariinikofaktori 2:n puutos (heparin cofactor 2 deficiency) |
+| TxGNN-ennustepistemäärä | 0,9950 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
----
+## Miksi ennuste voisi olla perusteltu?
 
-## Miksi ennuste on (tai ei ole) perusteltu?
+Tarkempaa tietoa galkanetsumabin vaikutusmekanismista ei tässä aineistossa ole saatavilla. Tiedetään, että galkanetsumabi on monoklonaalinen vasta-aine, joka sitoutuu CGRP:hen ja neutraloi sen vaikutuksen. Tätä hyödynnetään migreenin ehkäisyssä.
 
-Tähän raporttiin koottu aineisto ei sisällä tarkkaa vaikutusmekanismitietoa. Tiedetään, että galkanetsumabi on CGRP:tä neutraloiva vasta-aine, jonka teho migreenin ehkäisyssä on osoitettu.
+Hepariinikofaktori 2:n puutos on perinnöllinen trombofilia, jossa trombiinin esto on heikentynyt (SERPIND1-geeni). CGRP-signalointia ei tiedetä osalliseksi hyytymiskaskadissa eikä hepariinikofaktori II:n toiminnassa. CGRP:tä neutraloivan vasta-aineen ei siten odoteta korjaavan serpiinin puutosta.
 
-Hepariinin kofaktori 2:n puutos on perinnöllinen tromboosialttius (SERPIND1-geeni), jossa trombiinin esto on heikentynyt. CGRP-signalointia ei tunneta osaksi hyytymiskaskadia tai hepariinin kofaktori II:n toimintaa. Uskottavaa mekanistista yhteyttä alkuperäisen ja ennustetun käyttöaiheen välillä ei siis ole tunnistettu. CGRP:tä neutraloivan vasta-aineen ei voida odottaa korjaavan seriinientsyymi-inhibiittorin (serpiinin) puutosta.
+Korkea pistemäärä on graafipohjainen laskennallinen ennuste, eikä se yksinään todista tehoa. Uskottavaa mekanistista yhteyttä alkuperäisen käyttöaiheen ja ennustetun käyttöaiheen välillä ei ole tunnistettu. Aineistossa on kaksi muuta samankaltaisen pistemäärän saanutta trombofiliaennustetta (0,9941 ja 0,9941), mikä viittaa pikemminkin järjestelmälliseen mallin artefaktiin kuin lääkekohtaiseen biologiaan.
 
-Korkea pistemäärä (0,995) on graafipohjainen ennuste, eikä se yksin ole näyttöä tehosta.
+## Kliininen tutkimusnäyttö
 
-### Muut ennustetut käyttöaiheet
-
-Samalla mallilla ennustettiin kaksi muuta, hyvin samankaltaisilla pisteillä varustettua tromboosialttiuteen liittyvää tilaa:
-
-| Sija | Ennustettu käyttöaihe | TxGNN-pisteet | Näytön taso | Suositus |
-|---|------|------|------|------|
-| 2 | Antitrombiinin puutos, tyyppi 2 | 99,41 % | L5 | Hold |
-| 3 | Tekijä V:n liikatuotanto ja spontaani tromboosi | 99,41 % | L5 | Hold |
-
-Kolmen ennusteen samankaltaiset pisteet ja yhteinen tromboositeema viittaavat pikemminkin järjestelmälliseen graafiartefaktaan kuin lääkekohtaiseen biologiaan. Mekanistista yhteyttä ei ole tunnistettu kummassakaan.
-
----
-
-## Kliiniset tutkimukset
-
-Ei tällä hetkellä rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
-
----
+Tällä hetkellä aiheeseen liittyviä kliinisiä tutkimuksia ei ole rekisteröity.
 
 ## Kirjallisuusnäyttö
 
-Ei tällä hetkellä aiheeseen liittyvää kirjallisuutta.
+Tällä hetkellä aiheeseen liittyvää kirjallisuutta ei ole saatavilla.
 
----
-
-## Tietoa Suomen markkinoista
+## Markkinatiedot Suomessa
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
 | EMEA/H/C/004648 | Emgality | – | Migreeni |
 
-Myyntilupa on tilassa "peruutettu", eikä Suomessa ole voimassa olevaa myyntilupaa.
-
----
-
 ## Turvallisuusnäkökohdat
 
-Tämän raportin tietoihin ei sisälly valmisteyhteenvedon varoituksia tai vasta-aiheita, eikä yhteisvaikutustietoja löytynyt. Turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
+Turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
-Huomioitavaa: CGRP:llä on verisuonia laajentavia tehtäviä. CGRP-estäjän käyttöä potilailla, joilla on tromboosialttius, tulisi arvioida erikseen turvallisuuden näkökulmasta ennen mitään jatkotutkimuksia. Tämä ei kuitenkaan viittaa hoidolliseen hyötyyn.
+Huomioitavaa: CGRP:llä on verisuonia laajentavia tehtäviä, joten CGRP-salpauksen käyttö potilailla, joilla on taipumus tromboosiin, edellyttäisi erillistä turvallisuusarviointia ennen jatkotutkimuksia.
 
----
-
-## Johtopäätös ja seuraavat vaiheet
+## Johtopäätös ja seuraavat askeleet
 
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu vain mallin laskennalliseen pisteeseen (L5): kliinisiä tutkimuksia ja julkaisuja ei ole, eikä uskottavaa mekanistista yhteyttä tunnistettu. Lisäksi Suomen myyntilupa on peruutettu.
+- Ennusteelle ei ole kliinistä eikä kirjallisuusnäyttöä, eikä uskottavaa mekanistista yhteyttä tunnistettu. Korkea pistemäärä (0,9950) on pelkkä laskennallinen ennuste.
 
-**Eteenpäin siirtyminen edellyttäisi:**
-- Valmisteyhteenvedon (Fimea) varoitusten ja vasta-aiheiden hankkimista ja läpikäyntiä, mikä estää turvallisuusseulonnan etenemisen
-- Vaikutusmekanismitietojen täydentämistä (esim. DrugBank)
-- Perustelua sille, miksi CGRP:n esto voisi vaikuttaa hyytymisjärjestelmään, sekä prekliinistä tai kirjallisuusnäyttöä
-- Tromboottisen turvallisuuden arviointia CGRP-salpauksen osalta
-- Myyntiluvan peruutuksen syyn ja nykyisen saatavuuden selvittämistä Suomessa
+**Jatkotoimiin tarvitaan:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden kokoaminen
+- Vaikutusmekanismitietojen täydentäminen
+- Perusteltu biologinen hypoteesi CGRP-salpauksen ja hepariinikofaktori 2:n toiminnan yhteydestä ennen minkään tutkimuksen suunnittelua
+- Trombo-embolisen turvallisuuden arviointi
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

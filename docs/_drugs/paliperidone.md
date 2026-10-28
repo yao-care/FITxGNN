@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Paliperidone
-parent: Kohtalainen näyttö (L3-L4)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 325
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Paliperidone: ennustettu uusi käyttöaihe Hoitoresistentti skitsofrenia (ennusteluettelon sijalla 10) (näytön taso L4). Alkuperäinen käyttöaihe: Skitsofrenia"
 monitor_inn: "PALIPERIDONE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "syndromic myopia", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "atypical glycine encephalopathy"]
+description: "Paliperidone: ennustettu uusi käyttöaihe Retinal dystrophy with or without extraocular anomalies (näytön taso L5). Alkuperäinen käyttöaihe: Schizophrenia"
 ---
 
 # Paliperidone
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Paliperidoni: Skitsofreniasta hoitoresistenttiin skitsofreniaan
+## Paliperidone: Retinal dystrophy with or without extraocular anomalies
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -46,12 +46,12 @@ Paliperidoni on psykoosilääke, jota on alun perin käytetty skitsofrenian ja p
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Skitsofrenia; psykoottiset häiriöt |
-| Ennustettu uusi käyttöaihe | Hoitoresistentti skitsofrenia (ennusteluettelon sijalla 10) |
+| Alkuperäinen käyttöaihe | Schizophrenia;Psychotic Disorders |
+| Ennustettu uusi käyttöaihe | Retinal dystrophy with or without extraocular anomalies |
 | TxGNN-ennustepisteet | 99,80 % |
-| Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 > Huomio: ennusteluettelon sijat 1–9 ovat harvinaisia perinnöllisiä tai rakenteellisia sairauksia (esim. verkkokalvon dystrofia, X-kromosomaalinen myopia, hydranenkefalia). Niille ei löytynyt kliinisiä tutkimuksia eikä kirjallisuutta, eikä uskottavaa mekanistista yhteyttä, ja ne ovat todennäköisesti graafipohjaisia artefakteja. Tämä raportti keskittyy sijan 10 ennusteeseen, jolla on ainoana tukevaa aineistoa.

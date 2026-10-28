@@ -39,7 +39,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 ## Yhteenveto
 
 Oksibutyniini on antikolinergisesti vaikuttava lääke, jota on alun perin käytetty pakkotihentymisinkontinenssin (urge-inkontinenssin) hoitoon.
-TxGNN-malli ennustaa sen voivan tehota **levottomien jalkojen oireyhtymään** (pistemäärä 99,7 %), mutta ennusteelle ei ole kliinisiä tutkimuksia eikä kirjallisuutta, joten näyttö on **pelkkää mallin ennustetta**.
+TxGNN-malli (syväoppiminen) ennustaa sen voivan tehota **levottomien jalkojen oireyhtymään** (pistemäärä 0,9974), mutta ennusteelle ei ole kliinisiä tutkimuksia eikä kirjallisuutta, joten näyttö on **pelkkää mallin ennustetta**.
 Muista ennustetuista käyttöaiheista mahdollinen vatsa-pohjukaissuolitulehdus (gastroduodeniitti) ja ruokatorven/mahalaukun haavatauti (peptinen haavauma) on myös arvioitu, mutta niidenkin näyttö on heikkoa.
 
 ---
@@ -50,10 +50,10 @@ Muista ennustetuista käyttöaiheista mahdollinen vatsa-pohjukaissuolitulehdus (
 |------|------|
 | Alkuperäinen käyttöaihe | Pakkotihentymisinkontinenssi (urge-inkontinenssi) |
 | Ennustettu uusi käyttöaihe | Levottomien jalkojen oireyhtymä (restless legs syndrome) |
-| TxGNN-ennusteen pistemäärä | 99,74 % |
+| TxGNN-ennusteen pistemäärä | 0,9974 |
 | Näytön taso | L5 (pelkkä mallin ennuste) |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -64,7 +64,7 @@ Oksibutyniini on muskariinireseptoreita salpaava lääke, jolla on spasmolyyttis
 
 Levottomien jalkojen oireyhtymä liittyy pääasiassa dopamiinivälitteisen toiminnan ja raudan aineenvaihdunnan häiriöihin. Oksibutyniinin antikolinergisen vaikutuksen ja tämän sairauden välillä ei ole aineiston perusteella uskottavaa mekanistista reittiä. Antikolinergit voivat lisäksi joillakin potilailla jopa pahentaa oireita. Korkea pistemäärä on siis mallin laskema ennuste, jota ei tue biologinen perustelu.
 
-Toisena ja kolmantena ennustettuina käyttöaiheina ovat gastroduodeniitti (pistemäärä 99,6 %) ja peptinen haavauma (99,3 %). Antikolinergiset lääkkeet vähentävät teoriassa mahalaukun eritystä ja liikkuvuutta, ja niitä on historiallisesti käytetty haavataudin hoidossa. Nykyään ne on kuitenkin korvattu protonipumpun estäjillä ja H2-salpaajilla. Lisäksi oksibutyniini voi heikentää ruokatorven alasulkijalihaksen jännitystä ja aiheuttaa refluksiesofagiittia, mikä puhuu käyttöä vastaan happoperäisissä ylävatsan sairauksissa.
+Toisena ja kolmantena ennustettuina käyttöaiheina ovat gastroduodeniitti (pistemäärä 0,9962) ja peptinen haavauma (0,9931). Antikolinergiset lääkkeet vähentävät teoriassa mahalaukun eritystä ja liikkuvuutta, ja niitä on historiallisesti käytetty haavataudin hoidossa. Nykyään ne on kuitenkin korvattu protonipumpun estäjillä ja H2-salpaajilla. Lisäksi oksibutyniini voi heikentää ruokatorven alasulkijalihaksen jännitystä ja aiheuttaa refluksiesofagiittia, mikä puhuu käyttöä vastaan happoperäisissä ylävatsan sairauksissa.
 
 ---
 

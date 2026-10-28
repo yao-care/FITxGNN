@@ -50,8 +50,8 @@ Ramusirumabi on VEGFR2-reseptoria estävä vasta-aine, jota on alun perin käyte
 | Ennustettu uusi käyttöaihe | Kohdun ligamentin adenokarsinooma |
 | TxGNN-ennustepisteet | 99,95 % |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain mitätöity myyntilupa |
-| Myyntilupien määrä | 1 (mitätöity) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odotetaan) |
 
 ---

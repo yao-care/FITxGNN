@@ -33,7 +33,7 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-## Buprenorfiini: opioidiriippuvuuden hoidosta akuuttiin ajoittaiseen porfyriaan
+## Buprenorfiini: akuutti ajoittainen porfyria
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -48,10 +48,10 @@ Buprenorfiini on osittainen mu-opioidireseptorin agonisti, jota on alun perin k�
 |------|------|
 | Alkuperäinen käyttöaihe | Opioidiriippuvuus (opioidien käyttöön liittyvät häiriöt) |
 | Ennustettu uusi käyttöaihe | Akuutti ajoittainen porfyria |
-| TxGNN-ennusteen pistemäärä | 99,41 % |
+| TxGNN-ennusteen pistemäärä | 0,9941 |
 | Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 4 (kaikki peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 4/4) |
+| Myyntilupien määrä | 4 (voimassa: 4) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -60,7 +60,7 @@ Buprenorfiini on osittainen mu-opioidireseptorin agonisti, jota on alun perin k�
 
 Tämän raportin tietoihin ei sisälly yksityiskohtaista vaikutusmekanismia. Tiedetään, että buprenorfiini on osittainen mu-opioidireseptorin agonisti ja kappa-reseptorin antagonisti, ja sen teho opioidiriippuvuuden hoidossa on osoitettu.
 
-Akuutissa ajoittaisessa porfyriassa taustalla on hemin biosynteesin häiriö ja ALA-syntaasin ylisäätely. Buprenorfiinin ja tämän patologian välillä ei ole tunnistettavaa uskottavaa mekanistista yhteyttä. Korkea TxGNN-pistemäärä (0,994) ei saa tukea kliinisestä tai mekanistisesta näytöstä.
+Akuutissa ajoittaisessa porfyriassa taustalla on hemin biosynteesin häiriö ja ALA-syntaasin ylisäätely. Buprenorfiinin ja tämän patologian välillä ei ole tunnistettavaa uskottavaa mekanistista yhteyttä. Korkea TxGNN-pistemäärä (0,9941) ei saa tukea kliinisestä tai mekanistisesta näytöstä.
 
 Ainoa löydetty julkaisu käsittelee lääkkeiden turvallisuutta leikkauksenaikaisessa anestesiassa porfyriapotilaalla, ei hoidon tehoa. Buprenorfiinin turvallisuus porfyriassa (porfyrinogeenisuus) olisi selvitettävä erikseen ennen jatkoarviointia.
 

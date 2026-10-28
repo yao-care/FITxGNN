@@ -49,10 +49,10 @@ TxGNN-malli ennustaa sen voivan tehota **alopecia areataan** (pälyhiuspuuska), 
 |------|------|
 | Alkuperäinen käyttöaihe | Makulaödeema, uveiitti |
 | Ennustettu uusi käyttöaihe | Alopecia areata |
-| TxGNN-ennusteen pistemäärä | 99,99 % |
+| TxGNN-ennusteen pistemäärä | 0,9999 |
 | Näytön taso | L2 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 2 (molemmat peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Myyntilupien määrä | 2 (voimassa: 2) |
 | Suositeltu päätös | Proceed with Guardrails (eteneminen suojatoimin) |
 
 ---

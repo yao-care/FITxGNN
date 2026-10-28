@@ -48,10 +48,10 @@ Tryptofaani on välttämätön aminohappo, jolle on myönnetty myyntilupa (Maapl
 |------|------|
 | Alkuperäinen käyttöaihe | Vaahterasiirappitauti (Maple Syrup Urine Disease) |
 | Ennustettu uusi käyttöaihe | Levottomien jalkojen oireyhtymä (restless legs syndrome) |
-| TxGNN-ennusteen pistemäärä | 99,72 % |
+| TxGNN-ennusteen pistemäärä | 0,9972 |
 | Näytön taso | L3 |
-| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

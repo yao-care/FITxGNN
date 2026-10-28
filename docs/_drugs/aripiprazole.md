@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Aripiprazole
-parent: Vahva näyttö (L1-L2)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 42
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Aripiprazole: ennustettu uusi käyttöaihe Vakava mielialahäiriö (major affective disorder) (näytön taso L1). Alkuperäinen käyttöaihe: Skitsofrenia"
 monitor_inn: "ARIPIPRAZOLE"
-predicted_indications: ["major affective disorder", "gaze palsy, familial horizontal, with progressive scoliosis", "asperger syndrome, susceptibility to", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
+predicted_indications: ["major affective disorder", "gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
 ---
 
 # Aripiprazole
 {: .fs-9 }
 
-Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Aripipratsoli: Skitsofreniasta vakavaan mielialahäiriöön
+## Aripipratsoli: Vakava mielialahäiriö
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -50,10 +50,10 @@ ja tätä suuntaa tukee tällä hetkellä **34 kliinistä tutkimusta** ja **20 j
 |------|------|
 | Alkuperäinen käyttöaihe | Skitsofrenia; kaksisuuntainen mielialahäiriö |
 | Ennustettu uusi käyttöaihe | Vakava mielialahäiriö (major affective disorder) |
-| TxGNN-ennustepistemäärä | 99,62 % |
-| Näytön taso | L1 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 6 (kaikki peruutettuja) |
+| TxGNN-ennustepistemäärä | 0,9962 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 6/6) |
+| Myyntilupien määrä | 6 (voimassa: 6) |
 | Suositeltu päätös | Proceed with Guardrails (eteneminen suojatoimin) |
 
 ---
@@ -142,7 +142,7 @@ Seurattavia haittavaikutuksia ovat tutkimusaineiston mukaan akatisia, metabolise
 
 ## Muut ennustetut käyttöaiheet
 
-Tutkimusnäytön osalta toinen merkittävä ennuste on **trikotillomania** (pistemäärä 99,26 %, näytön taso L3, suositus: tutkimuskysymys). Siitä on kaksi tutkimusta (avoin tutkimus NCT00947154, n=12; vaiheen 2 lumekontrolloitu NCT05545891, ei vielä rekrytoi) sekä tapausselostuksia ja avoin tutkimus (PMID 21694623). Kirjallisuudessa on kuitenkin myös raportteja, joissa aripipratsoli itse aiheuttaa trikotillomaniaa tai pakko-oireista käytöstä, joten turvallisuussignaali on ristiriitainen.
+Tutkimusnäytön osalta toinen merkittävä ennuste on **trikotillomania** (pistemäärä 0,9926, näytön taso L3, suositus: tutkimuskysymys). Siitä on kaksi tutkimusta (avoin tutkimus NCT00947154, n=12; vaiheen 2 lumekontrolloitu NCT05545891, ei vielä rekrytoi) sekä tapausselostuksia ja avoin tutkimus (PMID 21694623). Kirjallisuudessa on kuitenkin myös raportteja, joissa aripipratsoli itse aiheuttaa trikotillomaniaa tai pakko-oireista käytöstä, joten turvallisuussignaali on ristiriitainen.
 
 Muille kahdeksalle ennusteelle (mm. Phelan-McDermidin oireyhtymä, Aspergerin oireyhtymän alttius, hydranenkefalia) ei löytynyt kliinisiä tutkimuksia eikä kirjallisuutta. Ne ovat pelkkiä laskennallisia ennusteita (L5, suositus: Hold).
 

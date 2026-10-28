@@ -4,17 +4,17 @@ title: Pravastatin
 parent: Kohtalainen näyttö (L3-L4)
 nav_order: 355
 evidence_level: L4
-indication_count: 9
+indication_count: 6
 last_modified_at: 2026-10-13
-description: "Pravastatin: ennustettu uusi käyttöaihe Homotsygoottinen familiaalinen hyperkolesterolemia (näytön taso L4). Alkuperäinen käyttöaihe: Dyslipidemiat"
 monitor_inn: "PRAVASTATIN"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "hypoalphalipoproteinemia", "cholesterol-ester transfer protein deficiency"]
+description: "Pravastatin: ennustettu uusi käyttöaihe HIV infectious disease (näytön taso L4). Alkuperäinen käyttöaihe: Dyslipidemias"
 ---
 
 # Pravastatin
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **9** kpl
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **6** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **9** kpl
 
 </div>
 
-## Pravastatiini: Dyslipidemioista homotsygoottiseen familiaaliseen hyperkolesterolemiaan
+## Pravastatin: HIV infectious disease
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 
 Pravastatiini on HMG-CoA-reduktaasin estäjä (statiini), jota on alun perin käytetty dyslipidemioiden hoitoon.
-TxGNN-malli ennustaa sen voivan tehota **homotsygoottiseen familiaaliseen hyperkolesterolemiaan**, mutta ennustetta tukevat suorat tutkimukset puuttuvat: **ainoa listattu kliininen tutkimus** koskee toista lääkettä (alirokumabi) ja kirjallisuus on pääosin yleisiä katsauksia.
 
 ---
 
@@ -47,12 +46,12 @@ TxGNN-malli ennustaa sen voivan tehota **homotsygoottiseen familiaaliseen hyperk
 
 | Kohde | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Dyslipidemiat |
-| Ennustettu uusi käyttöaihe | Homotsygoottinen familiaalinen hyperkolesterolemia |
+| Alkuperäinen käyttöaihe | Dyslipidemias |
+| Ennustettu uusi käyttöaihe | HIV infectious disease |
 | TxGNN-ennustepisteet | 99,95 % |
 | Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

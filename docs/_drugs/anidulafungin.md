@@ -8,6 +8,7 @@ nav_order: 36
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-19
+predicted_indications: []
 ---
 
 # Anidulafungin
@@ -49,7 +50,8 @@ Anidulafungin (DB00362) on ekinokandiini-tyypin antimikoottinen aine, jonka käy
 | Ennustettu uusi indikaatio | Ei mikään — TxGNN ei palauttanut kandidaatteja |
 | TxGNN-ennusteen pistemäärä | N/A |
 | Näyttöaste | L5 — Vain mallin ennuste; ei kandidaatteja arviointiin |
-| Suomen markkinatilanne | Ei markkinoilla |
+| Suomen markkinatilanne | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Hyväksyntöjen lukumäärä | 0 |
 | Suositeltu päätös | **Odota** |
 

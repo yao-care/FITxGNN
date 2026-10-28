@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 213
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-13
-description: "Guanfacine: ennustettu uusi käyttöaihe Faciodigitogenitaalinen oireyhtymä (näytön taso L5). Alkuperäinen käyttöaihe: Tarkkaavaisuus- ja ylivilkkaushäiriö (ADHD)"
 monitor_inn: "Guanfacine"
 predicted_indications: ["faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "trichotillomania", "manic bipolar affective disorder", "restless legs syndrome", "Tourette syndrome"]
+last_modified_at: 2026-10-27
+description: "Guanfacine: ennustettu uusi käyttöaihe Faciodigitogenitaalinen oireyhtymä (faciodigitogenital syndrome) (näytön taso L5). Alkuperäinen käyttöaihe: Attention Deficit Disorder with Hyperactivity"
 ---
 
 # Guanfacine
@@ -33,67 +33,78 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **7** kpl
 
 </div>
 
-## Guanfasiini: ADHD:sta faciodigitogenitaaliseen oireyhtymään
+## Guanfasiini: α2A-adrenergisen reseptorin agonisti → faciodigitogenitaalinen oireyhtymä (faciodigitogenital syndrome)
 {: .text-alpha }
 
-## Yhteenveto
+## Yhden lauseen yhteenveto
 
-Guanfasiini on alfa-2A-adrenergisen reseptorin agonisti, jota käytetään **tarkkaavaisuus- ja ylivilkkaushäiriön (ADHD)** hoitoon. TxGNN-malli ennustaa sen mahdolliseksi lääkkeeksi **faciodigitogenitaaliseen oireyhtymään** (Aarskog-Scottin oireyhtymä). Ennustetta tukee **0 kliinistä tutkimusta** ja **0 julkaisua**, joten se perustuu pelkästään mallin laskemaan pistemäärään.
+Guanfasiini on keskushermostoon vaikuttava α2A-adrenergisen reseptorin agonisti. TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi faciodigitogenitaalisen oireyhtymän (faciodigitogenital syndrome), mutta ennusteen tueksi ei ole löytynyt yhtään kliinistä tutkimusta eikä julkaisua. Ennuste perustuu pelkästään mallilaskentaan.
+
+---
 
 ## Pikakatsaus
 
-| Kohde | Sisältö |
+| Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Tarkkaavaisuus- ja ylivilkkaushäiriö (ADHD) |
-| Ennustettu uusi käyttöaihe | Faciodigitogenitaalinen oireyhtymä |
-| TxGNN-ennustepisteet | 99,97 % |
+| Alkuperäinen käyttöaihe | Attention Deficit Disorder with Hyperactivity |
+| Ennustettu uusi käyttöaihe | Faciodigitogenitaalinen oireyhtymä (faciodigitogenital syndrome) |
+| TxGNN-ennustepisteet | 0,9997 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 2 (molemmat peruutettu) |
-| Suositeltu päätös | Hold (odota) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Myyntilupien määrä | 2 (voimassa: 2) |
+| Suositeltu päätös | Hold (pidätetään) |
 
-## Miksi ennuste on (tai ei ole) järkevä?
+---
 
-Guanfasiini vaikuttaa alfa-2-adrenergisiin reseptoreihin. Tähän tarkoitukseen kootun tiedon mukaan sen kohteita ovat alfa-2A-, alfa-2B- ja alfa-2C-reseptorit. Yksityiskohtaista vaikutusmekanismia koskevaa kuvausta ei ole saatavilla. ADHD:ssa vaikutuksen uskotaan välittyvän otsalohkon (prefrontaalisen aivokuoren) alfa-2A-reseptorien kautta, ja se tukee tarkkaavaisuutta ja toiminnanohjausta.
+## Miksi ennuste on (tai ei ole) perusteltu?
 
-Faciodigitogenitaalinen oireyhtymä on X-kromosomiin kytkeytyvä kehityshäiriö, jonka aiheuttavat FGD1-geenin mutaatiot. Guanfasiinilla ei tunneta yhteyttä tähän signalointireittiin, eikä mekanistista yhteyttä alkuperäiseen käyttöaiheeseen ole osoitettu. Hyvin korkea pistemäärä on pelkkä mallin ennuste, eikä sen tueksi ole tutkimuksia tai kirjallisuutta. Ennustetta ei siksi voida pitää biologisesti perusteltuna.
+Tämän raporttia varten koottujen tietojen perusteella guanfasiinin tarkempaa vaikutusmekanismia ei ole saatavilla. Tiedossa on, että guanfasiini sitoutuu α2A-, α2B- ja α2C-adrenergisiin reseptoreihin ja vaikuttaa erityisesti aivokuoren etuosan noradrenergiseen signalointiin, joka tukee tarkkaavuutta ja toiminnanohjausta.
+
+Faciodigitogenitaalinen oireyhtymä (Aarskog-Scottin oireyhtymä) on X-kromosomaalinen kehityshäiriö, jonka aiheuttavat FGD1-geenin mutaatiot. Guanfasiinin ja tämän mekanismin välillä ei tunneta yhteyttä. Mekanistista perustetta ei siis ole osoitettu, ja hyvin korkea pistemäärä on pelkkä mallin ennuste.
+
+---
 
 ## Kliininen tutkimusnäyttö
 
-Tähän käyttöaiheeseen ei ole tällä hetkellä rekisteröityjä kliinisiä tutkimuksia.
+Ei tällä hetkellä aiheeseen liittyviä rekisteröityjä kliinisiä tutkimuksia.
+
+---
 
 ## Kirjallisuusnäyttö
 
-Tähän käyttöaiheeseen ei ole tällä hetkellä saatavilla aiheeseen liittyvää kirjallisuutta.
+Ei tällä hetkellä aiheeseen liittyvää kirjallisuutta.
 
-## Markkinatiedot Suomessa
+---
 
-| Myyntiluvan numero | Valmisteen nimi | Valmistaja | Hyväksytty käyttöaihe | Tila |
-|---------|------|------|-----------|------|
-| EMEA/H/C/006312 | Paxneury | Neuraxpharm Pharmaceuticals S.L. | Tarkkaavaisuus- ja ylivilkkaushäiriö (ADHD) | Peruutettu |
-| EMEA/H/C/003759 | Intuniv | Takeda Pharmaceuticals International AG Ireland | Tarkkaavaisuus- ja ylivilkkaushäiriö (ADHD) | Peruutettu |
+## Tiedot Suomen markkinoilta
+
+| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+|---------|------|------|-----------|
+| EMEA/H/C/006312 | Paxneury | – | Tarkkaavaisuus- ja ylivilkkaushäiriö |
+| EMEA/H/C/003759 | Intuniv | – | Tarkkaavaisuus- ja ylivilkkaushäiriö |
+
+---
 
 ## Turvallisuushuomiot
 
-- **Tietämysgraafiin perustuvat vasta-aiheet** (TxGNN:n PrimeKG-graafin lääke–tauti-yhteydet, eivät valmisteyhteenvedon tekstiä): ortostaattinen hypotensio, posturaalinen ortostaattinen takykardiaoireyhtymä, monisysteemiatrofia, hypotensiiviset tilat, sydäninfarkti, sepelvaltimotauti, sepelvaltimotromboosi, aivoverenkiertohäiriöt, eteis-kammiokatkos ja sydämen johtumishäiriöt (AV-dissosiaatio, sydänkatkos), krooninen munuaissairaus, munuaisten vajaatoiminta (myös loppuvaiheen), maksasairaus, sappirakkosairaus, ummetus, hemoglobinopatia sekä ahdistuneisuus-, neuroottiset ja dysteemiset häiriöt.
-- **Farmakologiset kohteet:** alfa-2A-, alfa-2B- ja alfa-2C-adrenoseptorit.
+Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ole saatavilla tähän raporttiin koottuina, joten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
-Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole tässä saatavilla. Varsinaiset turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
+Lääkeyhteisvaikutukset: Farmakologiatietojen mukaan guanfasiini sitoutuu α2A-, α2B- ja α2C-adrenergisiin reseptoreihin. Nämä ovat lääkkeen kohdereseptoreita, eivät yksittäisiä yhteisvaikutuslääkkeitä.
 
-## Johtopäätös ja jatkotoimet
+---
 
-**Päätös: Hold (odota)**
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Hold (pidätetään)**
 
 **Perustelut:**
-- Ennuste on pelkkä mallin tuottama pistemäärä. Mekanistista yhteyttä, kliinisiä tutkimuksia tai kirjallisuutta ei ole, ja lisäksi Suomessa ei ole voimassa olevaa myyntilupaa.
+- Ennuste perustuu pelkästään mallilaskentaan: kliinisiä tutkimuksia ja julkaisuja ei ole, eikä guanfasiinin ja FGD1-mutaatioon liittyvän kehityshäiriön välillä tunneta mekanistista yhteyttä.
 
-**Jatkoon etenemiseksi tarvitaan:**
-- Perustelu sille, miten alfa-2A-agonismi liittyisi FGD1-mutaatioihin ja oireyhtymän biologiaan, sekä prekliinistä näyttöä.
-- Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittäminen.
-- Tarkempi vaikutusmekanismia koskeva tieto.
-- Voimassa olevien valmisteiden saatavuuden selvittäminen Suomessa.
-
-**Huomio muista ehdokkaista:** Tähän raporttiin kootussa aineistossa guanfasiinin selvästi parhaiten tuettu ennustettu käyttöaihe on **Touretten oireyhtymä**. Siitä on valmis kolmannen vaiheen satunnaistettu lumekontrolloitu tutkimus (NCT00004376, n=35) ja neljännen vaiheen tutkimus (NCT01547000, n=34), ja siitä on saatavilla myös ohjeistus- ja järjestelmällisiä katsauksia. Kyseisen käyttöaiheen arviointi erillisenä raporttina on suositeltavaa.
+**Eteenpäin siirtyminen edellyttäisi:**
+- Biologisesti perusteltua mekanistista hypoteesia ja prekliinistä näyttöä
+- Vaikutusmekanismin tietojen täydentämistä
+- Valmisteyhteenvedon turvallisuustietojen tarkistamista ja jäsentämistä
+- Myyntilupien tilanteen varmistamista Suomessa ennen jatkoselvityksiä
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-## Fenfluramiini: Myokloonisesta epilepsiasta proksimaaliseen 16p11.2-mikrodeleetiosyndroomaan
+## Fenfluramiini: Proksimaalinen 16p11.2-mikrodeleetiosyndrooma
 {: .text-alpha }
 
 ## Yhteenveto
@@ -47,10 +47,10 @@ TxGNN-malli ennustaa lääkkeen voivan sopia **proksimaalisen 16p11.2-mikrodelee
 |------|------|
 | Alkuperäinen käyttöaihe | Myokloniset epilepsiat |
 | Ennustettu uusi käyttöaihe | Proksimaalinen 16p11.2-mikrodeleetiosyndrooma |
-| TxGNN-ennusteen pistemäärä | 99,93 % |
+| TxGNN-ennusteen pistemäärä | 0,9993 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste voisi olla perusteltu?

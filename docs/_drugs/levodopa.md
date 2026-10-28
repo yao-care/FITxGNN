@@ -6,9 +6,9 @@ nav_order: 262
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
-description: "Levodopa: ennustettu uusi käyttöaihe Rasmussenin subakuutti enkefaliitti (näytön taso L5). Alkuperäinen käyttöaihe: Parkinsonin tauti"
 monitor_inn: "LEVODOPA"
 predicted_indications: ["Rasmussen subacute encephalitis"]
+description: "Levodopa: ennustettu uusi käyttöaihe Rasmussenin subakuutti enkefaliitti (Rasmussen subacute encephalitis) (näytön taso L5). Alkuperäinen käyttöaihe: Parkinson Disease"
 ---
 
 # Levodopa
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-## Levodopa: Parkinsonin taudista Rasmussenin subakuuttiin enkefaliittiin
+## Levodopa: Rasmussenin subakuutti enkefaliitti (Rasmussen subacute encephalitis)
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -44,12 +44,12 @@ Levodopa on dopamiinin esiaste, jota on alun perin käytetty Parkinsonin taudin 
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Parkinsonin tauti |
-| Ennustettu uusi käyttöaihe | Rasmussenin subakuutti enkefaliitti |
-| TxGNN-ennusteen pistemäärä | 99,06 % |
+| Alkuperäinen käyttöaihe | Parkinson Disease |
+| Ennustettu uusi käyttöaihe | Rasmussenin subakuutti enkefaliitti (Rasmussen subacute encephalitis) |
+| TxGNN-ennusteen pistemäärä | 0.9906 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 4 (kaikki peruutettuja) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 4/4) |
+| Myyntilupien määrä | 4 (voimassa: 4) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste on (tai ei ole) perusteltu?
@@ -58,7 +58,7 @@ Levodopan vaikutusmekanismitietoja ei ole tällä hetkellä saatavilla. Tiedetä
 
 Rasmussenin enkefaliitti on harvinainen, toispuoleinen ja krooninen tulehduksellinen aivosairaus. Sen taustalla on T-soluvälitteinen ja mahdollisesti myös autovasta-ainevälitteinen patologia. Tyypillisiä piirteitä ovat vaikeahoitoiset paikallisalkuiset kohtaukset ja etenevä aivopuoliskon surkastuminen.
 
-Tunnettua mekanistista yhteyttä lääkkeen ja sairauden välillä ei ole. Korkea pistemäärä (0,99) on vain tietämysgraafin tuottama ennuste, ja se voi heijastaa yhteisiä neurologisia sairausassosiaatioita eikä biologisesti validoitua mekanismia. Dopamiinikorvaushoidon ei odoteta vaikuttavan sairauden tulehduksellisiin tai immuunivälitteisiin taustatekijöihin. Lisäksi dopaminergiset lääkkeet voivat joissakin tilanteissa laskea kouristuskynnystä, mikä on mahdollinen turvallisuusriski.
+Tunnettua mekanistista yhteyttä lääkkeen ja sairauden välillä ei ole. Korkea pistemäärä (0,9906) on vain tietämysgraafin tuottama ennuste, ja se voi heijastaa yhteisiä neurologisia sairausassosiaatioita eikä biologisesti validoitua mekanismia. Dopamiinikorvaushoidon ei odoteta vaikuttavan sairauden tulehduksellisiin tai immuunivälitteisiin taustatekijöihin. Lisäksi dopaminergiset lääkkeet voivat joissakin tilanteissa laskea kouristuskynnystä, mikä on mahdollinen turvallisuusriski.
 
 ## Myyntiluvat Suomessa
 

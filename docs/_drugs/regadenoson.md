@@ -48,13 +48,13 @@ Regadenosoni on diagnostinen lääkeaine, jota on alun perin käytetty sydänlih
 |------|------|
 | Alkuperäinen käyttöaihe | Sydänlihaksen perfuusiokuvantaminen |
 | Ennustettu uusi käyttöaihe | Anafylaksia |
-| TxGNN-ennusteen pistemäärä | 99,85 % |
+| TxGNN-ennusteen pistemäärä | 0,9985 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
-Muut ennustetut käyttöaiheet (pistemäärä): ruoka-aineriippuvainen rasituksen aiheuttama anafylaksia (99,74 %), esotropia (99,12 %) ja pseudoallergia (99,12 %). Kaikkien näytön taso on L5.
+Muut ennustetut käyttöaiheet (pistemäärä): ruoka-aineriippuvainen rasituksen aiheuttama anafylaksia (0,9974), esotropia (0,9912) ja pseudoallergia (0,9912). Kaikkien näytön taso on L5.
 
 ---
 

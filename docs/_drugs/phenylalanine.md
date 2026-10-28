@@ -6,7 +6,7 @@ nav_order: 343
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-13
-description: "Phenylalanine: ennustettu uusi käyttöaihe Sklerosoiva kolangiitti (näytön taso L5). Alkuperäinen käyttöaihe: Vaahterasiirappitauti (MSUD)"
+description: "Phenylalanine: ennustettu uusi käyttöaihe sklerosoiva kolangiitti (näytön taso L5). Alkuperäinen käyttöaihe: Vaahterasiirappitauti (MSUD)"
 monitor_inn: "phenylalanine"
 predicted_indications: ["sclerosing cholangitis", "congenital prothrombin deficiency"]
 ---
@@ -49,10 +49,10 @@ TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **sklerosoivan kolangiit
 |------|------|
 | Alkuperäinen käyttöaihe | Vaahterasiirappitauti (MSUD) |
 | Ennustettu uusi käyttöaihe | Sklerosoiva kolangiitti |
-| TxGNN-ennustepistemäärä | 99,43 % |
+| TxGNN-ennustepistemäärä | 0,9943 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -63,7 +63,7 @@ Tämän raportin tarpeisiin koottu aineisto ei sisällä tietoa fenyylialaniinin
 
 Ainoa löydetty vihje liittyy aromaattisten aminohappojen aineenvaihdunnan muutoksiin kolestaattisissa maksasairauksissa: yhdessä tutkimuksessa plasman tyrosiinipitoisuutta (fenyylialaniinin aineenvaihduntatuote) tarkasteltiin suhteessa uupumukseen primaarisessa biliaarisessa kolangiitissa ja primaarisessa sklerosoivassa kolangiitissa. Tämä ei kuitenkaan tue fenyylialaniinia hoitona.
 
-Toinen ennustettu käyttöaihe, synnynnäinen protrombiinin puutos, on vielä heikommin perusteltu. Ei ole uskottavaa mekanismia, jolla fenyylialaniini korjaisi koagulaatiotekijä II:n puutosta. Korkea pistemäärä (99,26 %) on todennäköisesti graafipohjaisen mallin artefakti.
+Toinen ennustettu käyttöaihe, synnynnäinen protrombiinin puutos, on vielä heikommin perusteltu. Ei ole uskottavaa mekanismia, jolla fenyylialaniini korjaisi koagulaatiotekijä II:n puutosta. Korkea pistemäärä (0,9926) on todennäköisesti graafipohjaisen mallin artefakti.
 
 ---
 

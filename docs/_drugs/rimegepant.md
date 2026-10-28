@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Rimegepant
-parent: Kohtalainen näyttö (L3-L4)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 379
-evidence_level: L3
-indication_count: 6
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-13
-description: "Rimegepant: ennustettu uusi käyttöaihe Migreeni, johon liittyy aivorunkoaura (näytön taso L3). Alkuperäinen käyttöaihe: Migreenihäiriöt"
 monitor_inn: "RIMEGEPANT"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
+description: "Rimegepant: ennustettu uusi käyttöaihe Atrophoderma vermiculata (näytön taso L5). Alkuperäinen käyttöaihe: Migraine Disorders"
 ---
 
 # Rimegepant
 {: .fs-9 }
 
-Näytön taso: **L3** | Ennustetut käyttöaiheet: **6** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-## Rimegepantti: Migreenistä migreeniin, johon liittyy aivorunkoaura
+## Rimegepant: Atrophoderma vermiculata
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 
-Rimegepantti on CGRP-reseptorin salpaaja, jota on alun perin käytetty migreenin hoitoon. TxGNN-malli ennustaa sen voivan tehota **aivorunkoauraan liittyvään migreeniin** (migraine with brainstem aura). Aiheesta on koottu **15 julkaisua**, mutta ei yhtään kliinistä tutkimusta, ja näyttö koskee yleistä migreeniä, joten se on tämän alatyypin osalta epäsuoraa.
+Rimegepantti on CGRP-reseptorin salpaaja, jota on alun perin käytetty migreenin hoitoon. Aiheesta on koottu **15 julkaisua**, mutta ei yhtään kliinistä tutkimusta, ja näyttö koskee yleistä migreeniä, joten se on tämän alatyypin osalta epäsuoraa.
 
 ---
 
@@ -46,12 +46,12 @@ Rimegepantti on CGRP-reseptorin salpaaja, jota on alun perin käytetty migreenin
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Migreenihäiriöt |
-| Ennustettu uusi käyttöaihe | Migreeni, johon liittyy aivorunkoaura |
+| Alkuperäinen käyttöaihe | Migraine Disorders |
+| Ennustettu uusi käyttöaihe | Atrophoderma vermiculata |
 | TxGNN-ennustepisteet | 99,94 % |
-| Näytön taso | L3 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

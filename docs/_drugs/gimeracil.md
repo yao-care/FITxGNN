@@ -4,7 +4,7 @@ title: Gimeracil
 parent: Vahva näyttö (L1-L2)
 nav_order: 202
 evidence_level: L1
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-13
 description: "Gimeracil: ennustettu uusi käyttöaihe Paksusuolen kasvain (colonic neoplasm) (näytön taso L1). Alkuperäinen käyttöaihe: Mahasyöpä (Stomach Neoplasms)"
 monitor_inn: "GIMERACIL"
@@ -14,7 +14,7 @@ predicted_indications: ["colonic neoplasm", "cecum villous adenoma", "lipoma of 
 # Gimeracil
 {: .fs-9 }
 
-Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L1** | Ennustetut käyttöaiheet: **7** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Gimeracil: Mahasyövästä paksusuolen kasvaimeen
+## Gimeracil: Paksusuolen kasvain
 {: .text-alpha }
 
 ## Yhteenveto
@@ -50,10 +50,10 @@ Ennustetta tukee tällä hetkellä **6 kliinistä tutkimusta** ja **12 julkaisua
 |------|------|
 | Alkuperäinen käyttöaihe | Mahasyöpä (Stomach Neoplasms) |
 | Ennustettu uusi käyttöaihe | Paksusuolen kasvain (colonic neoplasm) |
-| TxGNN-ennustepistemäärä | 99,88 % |
+| TxGNN-ennustepistemäärä | 0,9988 |
 | Näytön taso | L1 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Proceed with Guardrails (eteneminen suojatoimin) |
 
 ---

@@ -4,17 +4,17 @@ title: Tocilizumab
 parent: Vahva näyttö (L1-L2)
 nav_order: 442
 evidence_level: L2
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-13
 description: "Tocilizumab: ennustettu uusi käyttöaihe Selkärankareuma (ankyloiva spondyliitti) (näytön taso L2). Alkuperäinen käyttöaihe: Nivelreuma, lastenreuma (nuorten idiopaattinen artriitti)…"
 monitor_inn: "TOCILIZUMAB"
-predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "spondyloarthropathy, susceptibility to", "inflammatory spondylopathy", "Kummell disease", "vertebral disease", "mendelian susceptibility to mycobacterial diseases due to complete IL12B deficiency"]
+predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
 ---
 
 # Tocilizumab
 {: .fs-9 }
 
-Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L2** | Ennustetut käyttöaiheet: **5** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -52,8 +52,8 @@ Tätä tukee **4 kliinistä tutkimusta** (joista 2 vaiheen 3 satunnaistettua tut
 | Ennustettu uusi käyttöaihe | Selkärankareuma (ankyloiva spondyliitti) |
 | TxGNN-ennustepisteet | 99,99 % |
 | Näytön taso | L2 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 4 (kaikki peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 4/4) |
+| Myyntilupien määrä | 4 (voimassa: 4) |
 | Suositeltu päätös | Hold (odota; tutkimuskysymys, ei vielä etenemistä) |
 
 Huomio: näytön taso L2 on määritetty muodollisesti tutkimusasetelman perusteella. Molemmat tutkimukset keskeytettiin, joten käytännössä näyttö tehosta on heikko.

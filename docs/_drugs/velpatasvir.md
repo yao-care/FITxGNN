@@ -48,10 +48,10 @@ Velpatasviiri on HCV:n NS5A-estäjä, jota on alun perin käytetty kroonisen hep
 |------|------|
 | Alkuperäinen käyttöaihe | Krooninen hepatiitti C |
 | Ennustettu uusi käyttöaihe | Hepatiitti B -virusinfektio |
-| TxGNN-ennusteen pistemäärä | 99,87 % |
+| TxGNN-ennusteen pistemäärä | 0,9987 |
 | Näytön taso | L3 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 2 (molemmat peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Myyntilupien määrä | 2 (voimassa: 2) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

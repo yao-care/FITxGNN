@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Perampanel
-parent: Kohtalainen näyttö (L3-L4)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 341
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Perampanel: ennustettu uusi käyttöaihe Status epilepticus (kohtaustila) (näytön taso L3). Alkuperäinen käyttöaihe: Osittaisepilepsiat (Epilepsies, Partial)"
 monitor_inn: "PERAMPANEL"
 predicted_indications: ["beta-ketothiolase deficiency"]
+description: "Perampanel: ennustettu uusi käyttöaihe Beta-ketothiolase deficiency (näytön taso L5). Alkuperäinen käyttöaihe: Epilepsies, Partial"
 ---
 
 # Perampanel
 {: .fs-9 }
 
-Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +32,7 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Perampaneeli: Osittaisepilepsiasta status epilepticukseen
+## Perampanel: Beta-ketothiolase deficiency
 {: .text-alpha }
 
 ## Yhteenveto
@@ -46,12 +45,12 @@ Perampaneeli on AMPA-reseptorin antagonisti, jota on alun perin käytetty ositta
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Osittaisepilepsiat (Epilepsies, Partial) |
-| Ennustettu uusi käyttöaihe | Status epilepticus (kohtaustila) |
-| TxGNN-ennustepistemäärä | 99,77 % |
-| Näytön taso | L3 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Alkuperäinen käyttöaihe | Epilepsies, Partial |
+| Ennustettu uusi käyttöaihe | Beta-ketothiolase deficiency |
+| TxGNN-ennustepistemäärä | 0.9979 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Proceed with Guardrails (eteneminen suojatoimin) |
 
 Huomio: tulos on valittu ennusteista, joissa status epilepticuksella on vahvin näyttö. Korkeimmin pisteytetty ennuste (näköärsykkeen laukaisema epilepsia, 99,92 %) perustuu vain epäsuoraan näyttöön eikä sisällä kliinisiä tutkimuksia.

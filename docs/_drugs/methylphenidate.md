@@ -6,9 +6,9 @@ nav_order: 288
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-13
-description: "Methylphenidate: ennustettu uusi käyttöaihe Faciodigitogenitaalinen oireyhtymä (näytön taso L5). Alkuperäinen käyttöaihe: Tarkkaavaisuus- ja ylivilkkaushäiriö (ADHD)"
 monitor_inn: "Methylphenidate"
 predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "dysthymic disorder"]
+description: "Methylphenidate: ennustettu uusi käyttöaihe Faciodigitogenitaalinen oireyhtymä (faciodigitogenital syndrome) (näytön taso L5). Alkuperäinen käyttöaihe: Attention Deficit Disorder with Hyperactivity"
 ---
 
 # Methylphenidate
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-## Metyylifenidaatti: Tarkkaavaisuus- ja ylivilkkaushäiriön hoidosta kohti faciodigitogenitaalista oireyhtymää
+## Methylphenidate: Faciodigitogenitaalinen oireyhtymä (faciodigitogenital syndrome)
 {: .text-alpha }
 
 ## Yhteenveto
@@ -45,12 +45,12 @@ TxGNN-malli ennustaa sen tehoavan **faciodigitogenitaaliseen oireyhtymään** (A
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Tarkkaavaisuus- ja ylivilkkaushäiriö (ADHD) |
-| Ennustettu uusi käyttöaihe | Faciodigitogenitaalinen oireyhtymä |
-| TxGNN-ennustepistemäärä | 100,00 % (0,99998) |
+| Alkuperäinen käyttöaihe | Attention Deficit Disorder with Hyperactivity |
+| Ennustettu uusi käyttöaihe | Faciodigitogenitaalinen oireyhtymä (faciodigitogenital syndrome) |
+| TxGNN-ennustepistemäärä | 1.0000 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste voisi olla järkevä?

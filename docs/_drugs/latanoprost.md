@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Latanoprost
-parent: Kohtalainen näyttö (L3-L4)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 251
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Latanoprost: ennustettu uusi käyttöaihe Primaarinen perinnöllinen glaukooma (näytön taso L4). Alkuperäinen käyttöaihe: Avokulmaglaukooma"
 monitor_inn: "LATANOPROST"
 predicted_indications: ["visceral calciphylaxis", "hypotrichosis simplex of the scalp", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "congenital hypotrichosis milia", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis"]
+description: "Latanoprost: ennustettu uusi käyttöaihe Visceral calciphylaxis (näytön taso L5). Alkuperäinen käyttöaihe: Glaucoma, Open-Angle"
 ---
 
 # Latanoprost
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Latanoprosti: Avoimen kulmakaihin hoidosta primaariseen perinnölliseen glaukoomaan
+## Latanoprost: Visceral calciphylaxis
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -48,12 +48,12 @@ Tälle suunnalle ei ole tällä hetkellä **yhtään kliinistä tutkimusta eikä
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Avokulmaglaukooma |
-| Ennustettu uusi käyttöaihe | Primaarinen perinnöllinen glaukooma |
-| TxGNN-ennustepistemäärä | 99,88 % |
-| Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 2 (molemmat peruutettu) |
+| Alkuperäinen käyttöaihe | Glaucoma, Open-Angle; Glaucoma, Open-Angle;Ocular Hypertension |
+| Ennustettu uusi käyttöaihe | Visceral calciphylaxis |
+| TxGNN-ennustepistemäärä | 0.9983 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Myyntilupien määrä | 2 (voimassa: 2) |
 | Suositeltu päätös | Hold (odotetaan lisänäyttöä) |
 
 ---
@@ -72,13 +72,13 @@ Varauksena: lasten ja kehityksellisten glaukoomien lääkehoitovaste on usein he
 
 | Sija | Sairaus | Pistemäärä | Näytön taso | Arvio |
 |------|------|------|------|------|
-| 2 | Viskeraalinen kalsifylaksia | 99,83 % | L5 | Hold, ei selvää mekanistista yhteyttä |
-| 3 | Hiuskarvojen niukkuus (hypotrichosis simplex, hiuspohja) | 99,81 % | L4 | Tutkimuskysymys, prostaglandiinit voivat stimuloida hiusfolliikkeleita, mutta perinnöllisessä tilassa teho on osoittamatta |
-| 4–6 | Rintakehän yläaukeaman oireyhtymät (valtimo-, laskimo-, hermoperäinen) | 99,72–99,78 % | L5 | Hold, mekaaniset puristustilat, ei mekanistista yhteyttä |
-| 7 | Synnynnäinen hypotrichosis milia | 99,71 % | L5 | Hold, heikko epäsuora peruste |
-| 8 | Mahalaukun angiodysplasia | 99,70 % | L5 | Hold, systeeminen vasodilataatio voisi olla haitallista |
-| 9 | Sinivarvasoireyhtymä | 99,69 % | L5 | Hold, vain heikko luokkatason peruste |
-| 10 | Lymfangiektasia | 99,67 % | L5 | Hold, ei kliinistä näyttöä |
+| 2 | Viskeraalinen kalsifylaksia | 0,9983 | L5 | Hold, ei selvää mekanistista yhteyttä |
+| 3 | Hiuskarvojen niukkuus (hypotrichosis simplex, hiuspohja) | 0,9981 | L5 | Tutkimuskysymys, prostaglandiinit voivat stimuloida hiusfolliikkeleita, mutta perinnöllisessä tilassa teho on osoittamatta |
+| 4–6 | Rintakehän yläaukeaman oireyhtymät (valtimo-, laskimo-, hermoperäinen) | 99,72–0,9978 | L5 | Hold, mekaaniset puristustilat, ei mekanistista yhteyttä |
+| 7 | Synnynnäinen hypotrichosis milia | 0,9971 | L5 | Hold, heikko epäsuora peruste |
+| 8 | Mahalaukun angiodysplasia | 0,9970 | L5 | Hold, systeeminen vasodilataatio voisi olla haitallista |
+| 9 | Sinivarvasoireyhtymä | 0,9969 | L5 | Hold, vain heikko luokkatason peruste |
+| 10 | Lymfangiektasia | 0,9967 | L5 | Hold, ei kliinistä näyttöä |
 
 ---
 

@@ -33,12 +33,12 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Ekulitsumabi: Paroksysmaalisesta yöllisestä hemoglobinuriasta syklisen hematopoieesin ennusteeseen
+## Ekulitsumabi: syklinen hematopoieesi TxGNN-ennusteena
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 
-Ekulitsumabi on komplementin C5-proteiinia estävä vasta-aine, jota on käytetty paroksysmaalisen hemoglobinurian hoitoon. TxGNN-malli ennustaa sen voivan tehota **syklisen hematopoieesin** hoidossa (pistemäärä 99,97 %), mutta ennusteen tueksi ei ole löytynyt **yhtään kliinistä tutkimusta eikä** tautispesifistä **kirjallisuutta**. Ennuste perustuu pelkästään mallin tuottamaan graafipohjaiseen päättelyyn.
+Ekulitsumabi on komplementin C5-proteiinia estävä vasta-aine, jota on käytetty paroksysmaalisen hemoglobinurian hoitoon. TxGNN-malli ennustaa sen voivan tehota **syklisen hematopoieesin** hoidossa (pistemäärä 0,9997), mutta ennusteen tueksi ei ole löytynyt **yhtään kliinistä tutkimusta eikä** tautispesifistä **kirjallisuutta**. Ennuste perustuu pelkästään mallin tuottamaan graafipohjaiseen päättelyyn.
 
 ---
 
@@ -48,10 +48,10 @@ Ekulitsumabi on komplementin C5-proteiinia estävä vasta-aine, jota on käytett
 |------|------|
 | Alkuperäinen käyttöaihe | Paroksysmaalinen hemoglobinuria |
 | Ennustettu uusi käyttöaihe | Syklinen hematopoieesi (cyclic hematopoiesis) |
-| TxGNN-ennustepistemäärä | 99,97 % |
+| TxGNN-ennustepistemäärä | 0,9997 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 3 (kaikki peruutettuja) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 3/3) |
+| Myyntilupien määrä | 3 (voimassa: 3) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

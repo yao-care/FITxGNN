@@ -6,9 +6,9 @@ nav_order: 411
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-13
-description: "Spironolactone: ennustettu uusi käyttöaihe Hiuspohjan hypotrichosis simplex (näytön taso L5). Alkuperäinen käyttöaihe: Turvotus, sydämen vajaatoiminta, maksakirroosi, askites…"
 monitor_inn: "SPIRONOLACTONE"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
+description: "Spironolactone: ennustettu uusi käyttöaihe Hypotrichosis simplex of the scalp (näytön taso L5). Alkuperäinen käyttöaihe: Edema"
 ---
 
 # Spironolactone
@@ -33,13 +33,12 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-## Spironolaktoni: Turvotuksesta ja sydämen vajaatoiminnasta hiuspohjan hypotrichosis simplexiin
+## Spironolactone: Hypotrichosis simplex of the scalp
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 
 Spironolaktoni on mineralokortikoidireseptorin salpaaja, jota on alun perin käytetty turvotuksen, sydämen vajaatoiminnan, maksakirroosin, askiteksen, nefroottisen oireyhtymän, hyperaldosteronismin ja verenpainetaudin hoitoon.
-TxGNN-malli ennustaa sen voivan tehota **hiuspohjan hypotrichosis simplexiin** (ennustepisteet 99,3 %).
 Ennusteen tueksi ei kuitenkaan ole tällä hetkellä yhtään kliinistä tutkimusta eikä julkaisua, joten näyttö perustuu pelkästään mallin ennusteeseen.
 
 ---
@@ -48,12 +47,12 @@ Ennusteen tueksi ei kuitenkaan ole tällä hetkellä yhtään kliinistä tutkimu
 
 | Kohde | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Turvotus, sydämen vajaatoiminta, maksakirroosi, askites, nefroottinen oireyhtymä, hyperaldosteronismi, essentiaalinen hypertensio |
-| Ennustettu uusi käyttöaihe | Hiuspohjan hypotrichosis simplex |
+| Alkuperäinen käyttöaihe | Edema;Heart Failure;Liver Cirrhosis;Ascites;Nephrotic Syndrome;Hyperaldosteronism;Essential Hypertension |
+| Ennustettu uusi käyttöaihe | Hypotrichosis simplex of the scalp |
 | TxGNN-ennustepisteet | 99,26 % |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

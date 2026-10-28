@@ -33,7 +33,7 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Omalitsumabi: Astmasta ja nokkosihottumasta keuhkoputkentulehdukseen
+## Omalitsumabi: Keuhkoputkentulehdus
 {: .text-alpha }
 
 ## Yhteenveto
@@ -46,10 +46,10 @@ Omalitsumabi on IgE-vasta-aine, jota on alun perin käytetty astman, nokkosihott
 |------|------|
 | Alkuperäinen käyttöaihe | Astma, nokkosihottuma, nuha |
 | Ennustettu uusi käyttöaihe | Keuhkoputkentulehdus (bronchitis) |
-| TxGNN-ennustepistemäärä | 99,99 % |
+| TxGNN-ennustepistemäärä | 1,0000 |
 | Näytön taso | L2 |
-| Markkinatilanne Suomessa | Vain peruutetut myyntiluvat |
-| Myyntilupien määrä | 2 (kaikki peruutettuja) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Myyntilupien määrä | 2 (voimassa: 2) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste on perusteltu?

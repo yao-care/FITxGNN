@@ -4,17 +4,17 @@ title: Methotrexate
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 286
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-13
-description: "Methotrexate: ennustettu uusi käyttöaihe Hodgkinin lymfoomaan (valittu näytön perusteella (näytön taso L5). Alkuperäinen käyttöaihe: Psoriaattinen artriitti, akuutti lymfoblastileukemia/lymfooma…"
 monitor_inn: "METHOTREXATE"
 predicted_indications: ["pulmonary blastoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "Hodgkins lymphoma", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
+description: "Methotrexate: ennustettu uusi käyttöaihe Pulmonary blastoma (näytön taso L5). Alkuperäinen käyttöaihe: Arthritis, Psoriatic"
 ---
 
 # Methotrexate
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **7** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Metotreksaatti: Nivelreumasta ja psoriaasista Hodgkinin lymfoomaan
+## Methotrexate: Pulmonary blastoma
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -42,7 +42,7 @@ Metotreksaatti on antifolaatti, jota on alun perin käytetty nivelreuman, psoria
 TxGNN-malli ennustaa sen voivan tehota ensisijaisesti **Hodgkinin lymfoomaan** (todistusaineiston perusteella vahvin ehdokas), ja myös keuhkosyöpiin ja lymfoomiin sekä rabdomyosarkoomaan.
 Hodgkinin lymfoomasta on koottu **44 kliinistä tutkimusta** ja **20 julkaisua**, mutta suuri osa niistä koskee muita sairauksia tai metotreksaatin käyttöä tukihoitona.
 
-> Huomautus: ennusteluettelon sijalla 1 on keuhkoblastooma (pulmonary blastoma, TxGNN-pistemäärä 99,45 %), mutta siitä ei löytynyt lainkaan tutkimus- tai kirjallisuusnäyttöä. Tämä raportti keskittyy Hodgkinin lymfoomaan, koska sen näyttö on listan vahvin. Muut ehdokkaat on käsitelty lyhyesti kohdassa "Muut ennustetut käyttöaiheet".
+> Huomautus: ennusteluettelon sijalla 1 on keuhkoblastooma (pulmonary blastoma, TxGNN-pistemäärä 0,9945), mutta siitä ei löytynyt lainkaan tutkimus- tai kirjallisuusnäyttöä. Tämä raportti keskittyy Hodgkinin lymfoomaan, koska sen näyttö on listan vahvin. Muut ehdokkaat on käsitelty lyhyesti kohdassa "Muut ennustetut käyttöaiheet".
 
 ---
 
@@ -50,12 +50,13 @@ Hodgkinin lymfoomasta on koottu **44 kliinistä tutkimusta** ja **20 julkaisua**
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Psoriaattinen artriitti, akuutti lymfoblastileukemia/lymfooma, psoriaasi, nivelreuma |
-| Ennustettu uusi käyttöaihe | Hodgkinin lymfoomaan (valittu näytön perusteella; TxGNN-sijalla 1 keuhkoblastooma) |
-| TxGNN-ennustepistemäärä | 99,32 % (Hodgkinin lymfooma); keuhkoblastooma 99,45 % |
-| Näytön taso | L2 (Hodgkinin lymfooma); keuhkoblastoomalla L5 |
+| Alkuperäinen käyttöaihe | Arthritis, Psoriatic;Precursor Cell Lymphoblastic Leukemia-Lymphoma;Psoriasis;Arthritis, Rheumatoid;Arthritis; Arthritis, Psoriatic;Psoriasis;Arthritis, Juvenile Rheumatoid;Arthritis, Rheumatoid |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Ennustettu uusi käyttöaihe | Pulmonary blastoma |
+| TxGNN-ennustepistemäärä | 0.9945 |
+| Näytön taso | L5 (Hodgkinin lymfooma); keuhkoblastoomalla L5 |
 | Tilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 2 (molemmat peruutettu) |
+| Myyntilupien määrä | 2 (voimassa: 2) |
 | Suositeltu päätös | Hold (odotetaan) – tutkimuskysymys, ei valmis käyttöönottoon |
 
 ---
@@ -155,13 +156,11 @@ maksan vajaatoiminta ja maksasairaus, munuaissairaus, ohutsuolen ja mahahaavasai
 
 | Sija | Sairaus | Pistemäärä | Näytön taso | Huomio |
 |---|---|---|---|---|
-| 1 | Keuhkoblastooma | 99,45 % | L5 | Vain laskennallinen ennuste |
-| 2 | Primaarinen keuhkolymfooma | 99,45 % | L4 | Epäsuora kirjallisuus (suuriannoksinen metotreksaatti keskushermostolymfoomassa); ei keuhkospesifistä tutkimusta |
-| 3 | Pienisoluinen keuhkosyöpä | 99,43 % | L3 | Neljä tutkimusta, lähes kaikki ei-pienisoluisessa keuhkosyövässä; pienisoluisen keuhkosyövän kirjallisuus on vanhaa (1981–1992) |
-| 4 | Keuhkon hyvin erilaistunut sikiötyyppinen adenokarsinooma | 99,42 % | L5 | Ei tutkimusnäyttöä |
-| 6 | Rabdomyosarkooma | 99,25 % | L2 | Vaiheen 2 tutkimus suuriannoksisella metotreksaatilla (PMID 9329466) lasten pitkälle edenneessä rabdomyosarkoomassa; metotreksaatti ei kuulu standardihoitoon |
-| 7–8 | Kroonisen lymfaattisen leukemian alatyypit | 99,23 % | L5 | Ei tutkimusnäyttöä |
-| 9–10 | Parameningeaalinen ja vaginan botryoidi-rabdomyosarkooma | 99,21 % | L5 | Ei alatyyppikohtaista näyttöä |
+| 1 | Keuhkoblastooma | 0,9945 | L5 | Vain laskennallinen ennuste |
+| 2 | Primaarinen keuhkolymfooma | 0,9945 | L5 | Epäsuora kirjallisuus (suuriannoksinen metotreksaatti keskushermostolymfoomassa); ei keuhkospesifistä tutkimusta |
+| 4 | Keuhkon hyvin erilaistunut sikiötyyppinen adenokarsinooma | 0,9942 | L5 | Ei tutkimusnäyttöä |
+| 6 | Rabdomyosarkooma | 0,9925 | L2 | Vaiheen 2 tutkimus suuriannoksisella metotreksaatilla (PMID 9329466) lasten pitkälle edenneessä rabdomyosarkoomassa; metotreksaatti ei kuulu standardihoitoon |
+| 9–10 | Parameningeaalinen ja vaginan botryoidi-rabdomyosarkooma | 0,9921 | L5 | Ei alatyyppikohtaista näyttöä |
 
 ---
 

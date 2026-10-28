@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Avibactam
-parent: Kohtalainen näyttö (L3-L4)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 59
-evidence_level: L4
-indication_count: 6
-last_modified_at: 2026-10-13
-description: "Avibactam: ennustettu uusi käyttöaihe Streptokokkipneumonia (näytön taso L4). Alkuperäinen käyttöaihe: Bakteeripneumonia, pehmytkudosinfektiot, keuhkokuume…"
+evidence_level: L5
+indication_count: 4
 monitor_inn: "AVIBACTAM"
-predicted_indications: ["influenza, severe, susceptibility to", "ureter tuberculosis", "urinary schistosomiasis", "hyperamylasemia", "polyclonal hyperviscosity syndrome"]
+predicted_indications: ["ureter tuberculosis", "urinary schistosomiasis", "hyperamylasemia", "polyclonal hyperviscosity syndrome"]
+last_modified_at: 2026-10-23
+description: "Avibactam: ennustettu uusi käyttöaihe Uretertuberkuloosi (näytön taso L5). Alkuperäinen käyttöaihe: Bakteerin aiheuttama keuhkokuume, pehmytkudosinfektiot, keuhkokuume…"
 ---
 
 # Avibactam
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **6** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,96 +33,71 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-## Avibaktaami: Bakteeri-infektioista streptokokkipneumoniaan
+## Avibaktaami: Uretertuberkuloosi
 {: .text-alpha }
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Avibaktaami on beetalaktamaasin estäjä, jota käytetään yhdessä keftatsidiimin kanssa gramnegatiivisten bakteeri-infektioiden, virtsatieinfektioiden, pehmytkudosinfektioiden ja keuhkokuumeen hoitoon.
-TxGNN-malli ennustaa sen voivan tehota **streptokokkipneumoniaan**, mutta ennusteelle ei ole tällä hetkellä **yhtään kliinistä tutkimusta eikä julkaisua**. Näyttö on pelkkää mallipohjaista ennustetta.
-
----
+Avibaktaami on beetalaktamaasin estäjä, jota käytetään yhdessä keftatsidiimin kanssa gramnegatiivisten bakteeri-infektioiden, virtsatieinfektioiden, keuhkokuumeen ja pehmytkudosinfektioiden hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **uretertuberkuloosiin**, mutta ennustetta tukee tällä hetkellä **0 kliinistä tutkimusta** ja **0 julkaisua**. Kyseessä on pelkkä mallin ennuste.
 
 ## Pikakatsaus
 
-| Kohta | Sisältö |
+| Kohde | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Bakteeripneumonia, pehmytkudosinfektiot, keuhkokuume, virtsatieinfektiot ja gramnegatiiviset bakteeri-infektiot |
-| Ennustettu uusi käyttöaihe | Streptokokkipneumonia |
-| TxGNN-ennusteen pisteet | 99,70 % |
-| Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 2 (molemmat peruutettu) |
+| Alkuperäinen käyttöaihe | Bakteerin aiheuttama keuhkokuume, pehmytkudosinfektiot, keuhkokuume, virtsatieinfektiot, gramnegatiiviset bakteeri-infektiot |
+| Ennustettu uusi käyttöaihe | Uretertuberkuloosi |
+| TxGNN-ennusteen pistemäärä | 0,9911 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Myyntilupien määrä | 2 (voimassa: 2) |
 | Suositeltu päätös | Hold (odota) |
 
----
+## Miksi ennuste voisi olla perusteltu?
 
-## Miksi ennuste on perusteltu (tai ei)?
+Tämän raportin tietoihin ei sisälly yksityiskohtaista vaikutusmekanismia. Avibaktaami on diatsabisyklo-oktaaniryhmän, ei-beetalaktaamirakenteinen beetalaktamaasin estäjä, jota markkinoidaan yhdistelmänä keftatsidiimin kanssa. Sen teho on osoitettu gramnegatiivisissa bakteeri-infektioissa, myös virtsatieinfektioissa.
 
-Tällä hetkellä yksityiskohtaista vaikutusmekanismitietoa ei ole saatavilla tähän raporttiin koottujen tietojen perusteella. Yleisesti avibaktaami on beetalaktamaasin estäjä, joka estää luokkien A ja C sekä joidenkin luokan D entsyymien toimintaa. Sillä ei ole merkittävää omaa antibakteerista vaikutusta, ja sitä käytetään keftatsidiimin kanssa.
-
-Alkuperäiset käyttöaiheet (mm. bakteeripneumonia) ja ennustettu streptokokkipneumonia ovat samaa tautiryhmää, ja tämä todennäköisesti selittää korkean pistemäärän. Mekanistinen tuki on kuitenkin heikko: *Streptococcus pneumoniae* -bakteerin beetalaktaamiresistenssi johtuu pääasiassa muuntuneista penisilliiniä sitovista proteiineista, ei beetalaktamaaseista. Beetalaktamaasin estäjästä on siksi vähän hyötyä.
-
-Ennuste kuvastaa siis todennäköisesti lääkkeen yhteyttä bakteeripneumoniaan tietoverkossa, ei uutta vaikutusmekanismia.
-
----
-
-## Muut TxGNN-ennusteet
-
-Raporttia varten koottu data sisälsi viisi muuta ennustetta. Yhdellekään ei ole kliinistä tutkimusta tai kirjallisuutta.
-
-| Sija | Ennustettu käyttöaihe | Pisteet | Näytön taso | Arvio |
-|------|------|------|------|------|
-| 2 | Vaikean influenssan alttius | 99,28 % | L5 | Ei uskottavaa suoraa mekanismia; avibaktaamilla ei ole antiviraalista vaikutusta. Epäsuora yhteys vain sekundaarisen bakteeripneumonian kautta. |
-| 3 | Virtsanjohtimen tuberkuloosi | 99,11 % | L5 | Teoreettinen prekliininen peruste: *M. tuberculosis* tuottaa A-luokan beetalaktamaasia (BlaC), jota avibaktaamityyppiset estäjät voivat estää in vitro. Kliinistä näyttöä ei ole. |
-| 4 | Virtsatieskistosomiaasi | 99,06 % | L5 | Loinen, jolla ei ole relevanttia kohdetta; ennuste johtuu todennäköisesti yhteydestä virtsatieinfektioihin. |
-| 5 | Hyperamylasemia | 99,01 % | L5 | Laboratoriolöydös, ei infektio; todennäköisesti verkkopohjainen artefakti. Voi olla merkityksellinen korkeintaan haittavaikutussignaalina. |
-| 6 | Polyklonaalinen hyperviskositeettioireyhtymä | 99,01 % | L5 | Ei tunnettua mekanismia; sama pistemäärä kuin hyperamylasemialla viittaa yleiseen, biologiaan sitomattomaan ennusteeseen. |
-
----
+Mahdollinen, mutta todistamaton yhteys: avibaktaamin tiedetään yleisen tietämyksen perusteella estävän *Mycobacterium tuberculosis* -bakteerin luokan A beetalaktamaasia (BlaC), ja prekliinisessä tutkimuksessa on selvitetty beetalaktaami–estäjä-yhdistelmiä tuberkuloosia vastaan. Virtsatieindikaatio antaa jonkin farmakokineettisen perustelun altistukselle virtsateissä. Uretertuberkuloosi on kuitenkin harvinainen virtsaelinten tuberkuloosin muoto, joka vaatii usean mykobakteerilääkkeen hoitoa. Ennuste on laskennallinen, eikä sitä tue mikään tähän ennusteeseen liittyvä tutkimus.
 
 ## Kliininen tutkimusnäyttö
 
 Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
----
-
 ## Kirjallisuusnäyttö
 
 Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
----
-
-## Suomen markkinatiedot
+## Markkinatiedot Suomessa
 
 | Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/004027 | Zavicefta | – | Bakteeripneumonia, pehmytkudosinfektiot, keuhkokuume, virtsatieinfektiot, gramnegatiiviset bakteeri-infektiot |
-| EMEA/H/C/006113 | Emblaveo | – | Gramnegatiiviset bakteeri-infektiot, virtsatieinfektiot, sairaalakeuhkokuume, pehmytkudosinfektiot |
+| EMEA/H/C/004027 | Zavicefta | – | Bakteerin aiheuttama keuhkokuume, pehmytkudosinfektiot, keuhkokuume, virtsatieinfektiot, gramnegatiiviset bakteeri-infektiot |
+| EMEA/H/C/006113 | Emblaveo | – | Gramnegatiiviset bakteeri-infektiot, virtsatieinfektiot, sairaalahoitoon liittyvä keuhkokuume, pehmytkudosinfektiot |
 
-Molemmat myyntiluvat on merkitty peruutetuiksi, eikä voimassa olevia myyntilupia ole.
+## Turvallisuusnäkökohdat
 
----
+Turvallisuustiedot löytyvät valmisteyhteenvedosta.
 
-## Turvallisuushuomiot
-
-Turvallisuustiedot löytyvät valmisteyhteenvedosta. Tähän raporttiin koottu data ei sisältänyt varoituksia, vasta-aiheita tai yhteisvaikutustietoja.
-
----
-
-## Johtopäätös ja seuraavat vaiheet
+## Johtopäätös ja jatkotoimet
 
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennusteelle ei ole kliinistä tutkimusta eikä kirjallisuutta, ja mekanistinen peruste on heikko, koska pneumokokin beetalaktaamiresistenssi ei perustu beetalaktamaaseihin. Lisäksi kaikki Suomen myyntiluvat on peruutettu.
+- Ennuste perustuu pelkästään mallin laskennalliseen pisteytykseen (L5): uretertuberkuloosista ei ole kliinisiä tutkimuksia eikä julkaisuja, ja mekanistinen yhteys on vain oletus.
 
-**Jatkoa varten tarvitaan:**
-- Vaikutusmekanismitiedot (MOA) täydennettynä
-- Valmisteyhteenvedon turvallisuustiedot (varoitukset ja vasta-aiheet), jotka estävät turvallisuusseulonnan etenemisen
-- Prekliininen tai kliininen näyttö avibaktaami–beetalaktaami-yhdistelmän tehosta pneumokokki-infektioissa
-- Selvitys peruutettujen myyntilupien syistä ja nykyisestä saatavuudesta Suomessa
-- Antoreittien yhteensopivuuden arviointi
+**Jatkotoimia varten tarvitaan:**
+- Prekliiniset in vitro -tiedot avibaktaamin (yhdessä beetalaktaamin kanssa) tehosta *M. tuberculosis* -kantoja vastaan
+- Yksityiskohtaiset vaikutusmekanismitiedot
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet turvallisuusarviointia varten
+- Kirjallisuushaku genitourinaarisen tuberkuloosin hoidosta beetalaktaami–estäjä-yhdistelmillä
+
+## Muut ennustetut käyttöaiheet (tiedoksi)
+
+Muut ennusteet ovat heikommin perusteltuja, ja kaikilla näyttötaso on L5 sekä suositus Hold:
+
+- **Virtsatieskistosomiaasi** (pistemäärä 0,9906): ei selkeää mekanistista perustetta; avibaktaamilla ei tunneta lois-vaikutusta. Ennuste heijastaa todennäköisesti verkkoyhteyttä virtsatieinfektioihin.
+- **Hyperamylasemia** (99,01 %): laboratoriolöydös, johon ei ole uskottavaa mekanismia; ennuste on todennäköisesti tietämysgraafin artefakti.
+- **Polyklonaalinen hyperviskositeettioireyhtymä** (99,01 %): avibaktaamilla ei ole immuunivastetta tai veren juoksevuutta muuttavaa vaikutusta.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

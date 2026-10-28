@@ -6,9 +6,9 @@ nav_order: 407
 evidence_level: L2
 indication_count: 8
 last_modified_at: 2026-10-13
-description: "Sofosbuvir: ennustettu uusi käyttöaihe Hepatiitti E -virusinfektio (näytön taso L2). Alkuperäinen käyttöaihe: Krooninen C-hepatiitti"
 monitor_inn: "SOFOSBUVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "chronic hepatitis B virus infection", "Kyasanur forest disease", "HIV infectious disease"]
+description: "Sofosbuvir: ennustettu uusi käyttöaihe Hepatitis B virus infection (näytön taso L2). Alkuperäinen käyttöaihe: Hepatitis C, Chronic"
 ---
 
 # Sofosbuvir
@@ -33,14 +33,14 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **8** kpl
 
 </div>
 
-## Sofosbuviiri: Krooninen C-hepatiitti → hepatiitti E -virusinfektio
+## Sofosbuvir: Hepatitis B virus infection
 {: .text-alpha }
 
 ## Yhden virkkeen yhteenveto
 
 Sofosbuviiri on C-hepatiittiviruksen (HCV) RNA-polymeraasia estävä nukleotidianalogi, jota on alun perin käytetty kroonisen C-hepatiitin hoitoon. TxGNN-malli ennustaa lääkkeen voivan tehota ensisijaisesti **hepatiitti E -virusinfektioon** (HEV), jota tukee **2 kliinistä tutkimusta** ja **20 julkaisua**. Näyttö on kuitenkin vielä alustavaa: kliininen aineisto on pieni, yhden haaran pilottitutkimus.
 
-> Huomio: Ennusteiden listalla ensimmäisenä on hepatiitti B -virusinfektio (pistemäärä 99,77 %), mutta sen mekanistinen perusta on heikko (ks. alla). Tässä raportissa pääindikaatioksi on valittu hepatiitti E, koska sen biologinen perustelu ja suora kliininen näyttö ovat vahvimmat. Muut ennustetut indikaatiot käsitellään lyhyesti omassa kohdassaan.
+> Huomio: Ennusteiden listalla ensimmäisenä on hepatiitti B -virusinfektio (pistemäärä 0,9977), mutta sen mekanistinen perusta on heikko (ks. alla). Tässä raportissa pääindikaatioksi on valittu hepatiitti E, koska sen biologinen perustelu ja suora kliininen näyttö ovat vahvimmat. Muut ennustetut indikaatiot käsitellään lyhyesti omassa kohdassaan.
 
 ---
 
@@ -48,12 +48,12 @@ Sofosbuviiri on C-hepatiittiviruksen (HCV) RNA-polymeraasia estävä nukleotidia
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Krooninen C-hepatiitti |
-| Ennustettu uusi käyttöaihe | Hepatiitti E -virusinfektio |
+| Alkuperäinen käyttöaihe | Hepatitis C, Chronic |
+| Ennustettu uusi käyttöaihe | Hepatitis B virus infection |
 | TxGNN-ennustepisteet | 99,49 % |
 | Näytön taso | L2 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 4 (kaikki peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 4/4) |
+| Myyntilupien määrä | 4 (voimassa: 4) |
 | Suositeltu päätös | Proceed with Guardrails (etene suojatoimin) |
 
 ---

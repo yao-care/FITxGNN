@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Atstreonaami: Bakteeri-infektioista gonokokkiuretriittiin
+## Atstreonaami: hyperamylasemia
 {: .text-alpha }
 
 ## Yhden virkkeen yhteenveto
@@ -49,10 +49,10 @@ TxGNN-malli ennustaa sen voivan tehota ensisijaisesti kohteeseen **hyperamylasem
 |------|------|
 | Alkuperäinen käyttöaihe | Gramnegatiiviset bakteeri-infektiot, virtsatieinfektiot, sairaalaperäinen keuhkokuume, pehmytkudosinfektiot |
 | Ennustettu uusi käyttöaihe | Hyperamylasemia (sijalla 1; näyttöön perustuen kiinnostavin on gonokokkiuretriitti, sijalla 4) |
-| TxGNN-ennustepistemäärä | 99,73 % (hyperamylasemia); 99,59 % (gonokokkiuretriitti) |
+| TxGNN-ennustepistemäärä | 0,9973 (hyperamylasemia); 0,9959 (gonokokkiuretriitti) |
 | Näytön taso | L5 (hyperamylasemia); L3 (gonokokkiuretriitti) |
-| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) – gonokokkiuretriitti: jatkotutkimuskysymys |
 
 ---

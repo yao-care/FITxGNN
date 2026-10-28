@@ -47,10 +47,10 @@ TxGNN-malli ennustaa sen voivan olla hyödyllinen **hypervitaminoosin** hoidossa
 |------|------|
 | Alkuperäinen käyttöaihe | Lihavuus |
 | Ennustettu uusi käyttöaihe | Hypervitaminoosi |
-| TxGNN-ennusteen pistemäärä | 99,42 % |
+| TxGNN-ennusteen pistemäärä | 0,9942 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutetut myyntiluvat |
-| Myyntilupien määrä | 2 (kaikki peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Myyntilupien määrä | 2 (voimassa: 2) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste on perusteltu?

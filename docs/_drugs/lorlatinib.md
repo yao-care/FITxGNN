@@ -4,7 +4,7 @@ title: Lorlatinib
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 271
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Lorlatinib: ennustettu uusi käyttöaihe Ientiehytkasvainen fibromatoosi (fibromatosis, gingival) (näytön taso L5). Alkuperäinen käyttöaihe: Ei-pienisoluinen keuhkosyöpä (NSCLC)"
 monitor_inn: "LORLATINIB"
@@ -14,7 +14,7 @@ predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma 
 # Lorlatinib
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN-malli ennustaa sen voivan tehota ensisijaisesti kohteeseen **ientiehytkasv
 |------|------|
 | Alkuperäinen käyttöaihe | Ei-pienisoluinen keuhkosyöpä (NSCLC) |
 | Ennustettu uusi käyttöaihe | Ientiehytkasvainen fibromatoosi (fibromatosis, gingival) |
-| TxGNN-ennusteen pistemäärä | 99,81 % |
+| TxGNN-ennusteen pistemäärä | 0,9981 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -61,7 +61,7 @@ TxGNN-malli ennustaa sen voivan tehota ensisijaisesti kohteeseen **ientiehytkasv
 
 Tästä lääkkeestä ei tällä hetkellä ole saatavilla yksityiskohtaisia vaikutusmekanismitietoja tähän raporttiin koottuun aineistoon. Tunnetun tiedon perusteella lorlatinibi on kolmannen sukupolven aivoihin läpäisevä ALK/ROS1-tyrosiinikinaasin estäjä, jonka teho ALK-positiivisessa NSCLC:ssä on osoitettu.
 
-Ientiehytkasvainen fibromatoosi on hyvänlaatuinen sidekudoksen liikakasvu, eikä aineiston perusteella ole tunnistettu mitään ALK-ohjautuvaa patologiaa, joka yhdistäisi sen lorlatinibin vaikutuskohteeseen. Mekanistista yhteyttä ei ole havaittu. Korkea pistemäärä (0,998) heijastaa todennäköisesti tietämysgraafin rakennetta, ei biologista perustetta.
+Ientenfibromatoosi on hyvänlaatuinen sidekudoksen liikakasvu, eikä aineiston perusteella ole tunnistettu mitään ALK-ohjautuvaa patologiaa, joka yhdistäisi sen lorlatinibin vaikutuskohteeseen. Mekanistista yhteyttä ei ole havaittu. Korkea pistemäärä (0,9981) tulee TxGNN-mallista (syväoppiminen) ja voi heijastaa mallin oppimia samankaltaisuuksia toisiinsa liittyvien sairauksien välillä, ei biologista näyttöä.
 
 Muiden korkeimmalle sijoittuneiden ennusteiden (mm. keuhkon fibrooma, keuhkon hamartooma, keuhkon hilusalueen karsinooma) kohdalla ennusteet liittyvät todennäköisesti lääkkeen hyväksyttyyn keuhkosyöpäkäyttöaiheeseen. Ne eivät ole itsenäisiä uusia käyttöaiheita.
 

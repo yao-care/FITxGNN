@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Nintedanib
-parent: Kohtalainen näyttö (L3-L4)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 304
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-13
 description: "Nintedanib: ennustettu uusi käyttöaihe Dermatofibrosarcoma protuberans (näytön taso L4). Alkuperäinen käyttöaihe: Idiopaattinen keuhkofibroosi (sekä interstitiaaliset keuhkosairaudet…"
@@ -14,7 +14,7 @@ predicted_indications: ["dermatofibrosarcoma protuberans", "liposarcoma", "ovari
 # Nintedanib
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Nintedanibi on tyrosiinikinaasin estäjä, jota on käytetty idiopaattisen keuhk
 |------|------|
 | Alkuperäinen käyttöaihe | Idiopaattinen keuhkofibroosi (sekä interstitiaaliset keuhkosairaudet, systeeminen skleroosi ja ei-pienisoluinen keuhkosyöpä) |
 | Ennustettu uusi käyttöaihe | Dermatofibrosarcoma protuberans |
-| TxGNN-ennusteen pistemäärä | 99,15 % |
-| Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 4 (kaikki peruutettuja) |
+| TxGNN-ennusteen pistemäärä | 0,9915 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 4/4) |
+| Myyntilupien määrä | 4 (voimassa: 4) |
 | Suositeltu päätös | Hold (odotus) |
 
 ---
@@ -133,8 +133,8 @@ Varoituksia ja vasta-aiheita koskevat tiedot eivät olleet saatavilla; niiden os
 
 | Sijoitus | Käyttöaihe | TxGNN-pistemäärä | Näytön taso | Suositus |
 |------|------|------|------|------|
-| 2 | Liposarkooma | 99,13 % | L5 | Hold |
-| 3 | Munasarjan myksoidi liposarkooma | 99,12 % | L5 | Hold |
+| 2 | Liposarkooma | 0,9913 | L5 | Hold |
+| 3 | Munasarjan myksoidi liposarkooma | 0,9912 | L5 | Hold |
 
 Kummallekaan ei löytynyt kliinisiä tutkimuksia eikä kirjallisuutta, ja ennusteet ovat pelkästään laskennallisia.
 ## Vastuuvapauslauseke

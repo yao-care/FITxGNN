@@ -4,17 +4,17 @@ title: Rufinamide
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 390
 evidence_level: L5
-indication_count: 5
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Rufinamide: ennustettu uusi käyttöaihe Kuumeeseen liittyvä epilepsiaoireyhtymä (FIRES) (näytön taso L5). Alkuperäinen käyttöaihe: Epilepsia"
 monitor_inn: "RUFINAMIDE"
 predicted_indications: ["perioral myoclonia with absences"]
+description: "Rufinamide: ennustettu uusi käyttöaihe Perioral myoclonia with absences (näytön taso L5). Alkuperäinen käyttöaihe: Epilepsy"
 ---
 
 # Rufinamide
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-## Rufinamidi: Epilepsiasta kuumeeseen liittyvään epilepsiaoireyhtymään (FIRES)
+## Rufinamide: Perioral myoclonia with absences
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -44,12 +44,12 @@ Rufinamidi on epilepsialääke, jota on käytetty epilepsian hoitoon. TxGNN-mall
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Epilepsia |
-| Ennustettu uusi käyttöaihe | Kuumeeseen liittyvä epilepsiaoireyhtymä (FIRES) |
+| Alkuperäinen käyttöaihe | Epilepsy |
+| Ennustettu uusi käyttöaihe | Perioral myoclonia with absences |
 | TxGNN-ennustepisteet | 99,57 % |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste on perusteltu?

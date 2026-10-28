@@ -4,17 +4,17 @@ title: Thyrotropin Alfa
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 435
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Thyrotropin Alfa: ennustettu uusi käyttöaihe Migreenihäiriö (näytön taso L5). Alkuperäinen käyttöaihe: Kilpirauhasen kasvaimet"
 monitor_inn: "THYROTROPIN ALFA"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Raynaud disease", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "kyphoscoliotic heart disease", "postural orthostatic tachycardia syndrome", "hyperthyroidism"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Raynaud disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "kyphoscoliotic heart disease", "postural orthostatic tachycardia syndrome", "hyperthyroidism"]
 ---
 
 # Thyrotropin Alfa
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,8 +50,8 @@ Tyrotropiini alfa on yhdistelmä-DNA-tekniikalla valmistettu kilpirauhasta stimu
 | Ennustettu uusi käyttöaihe | Migreenihäiriö |
 | TxGNN-ennustepisteet | 99,98 % |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

@@ -50,10 +50,10 @@ Ennuste perustuu pelkästään verkostopohjaiseen laskennalliseen päättelyyn.
 |------|------|
 | Alkuperäinen käyttöaihe | Angina pectoris; sydämen vajaatoiminta |
 | Ennustettu uusi käyttöaihe | Hypertrikoosi (hypertrichosis) |
-| TxGNN-ennustepistemäärä | 99,79 % |
+| TxGNN-ennustepistemäärä | 0,9979 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 5 (kaikki peruutettuja) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 5/5) |
+| Myyntilupien määrä | 5 (voimassa: 5) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -62,7 +62,7 @@ Ennuste perustuu pelkästään verkostopohjaiseen laskennalliseen päättelyyn.
 
 Ivabradiini estää HCN-kanavia (sydämen sinussolmun If-virta eli ns. "funny current"), mikä hidastaa sydämen sykettä. Tarkempaa vaikutusmekanismitietoa ei tällä hetkellä ole saatavilla tähän raporttiin koottua aineistoa varten.
 
-Teoreettisesti HCN-kanavia, mukaan lukien HCN4, esiintyy myös karvatupen soluissa, ja ne voisivat vaikuttaa follikkelin ärtyvyyteen ja kasvusykliin. Tämä yhteys on kuitenkin vain hypoteesi. Korkea TxGNN-pistemäärä (0,998) on verkostopohjainen ennuste, jolle ei löydy tukea tutkimuksista tai kirjallisuudesta.
+Teoreettisesti HCN-kanavia, mukaan lukien HCN4, esiintyy myös karvatupen soluissa, ja ne voisivat vaikuttaa follikkelin ärtyvyyteen ja kasvusykliin. Tämä yhteys on kuitenkin vain hypoteesi. Korkea TxGNN-pistemäärä (0,9979) on verkostopohjainen ennuste, jolle ei löydy tukea tutkimuksista tai kirjallisuudesta.
 
 Alkuperäisen käyttöaiheen (sydänsairaudet) ja ennustetun käyttöaiheen (kosmeettinen/ihon liitteisiin liittyvä tila) välillä ei ole selvää kliinistä samankaltaisuutta. Lisäksi syketta alentavan lääkkeen käyttö ei-sydänperäiseen, kosmeettiseen tilaan johtaisi epäedulliseen hyöty-haittasuhteeseen (bradykardia, fosfeenit eli valoilmiöt, eteisvärinä).
 

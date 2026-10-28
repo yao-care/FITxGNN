@@ -33,7 +33,7 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-## Darunaviiri: HIV-infektiosta apinoiden immuunikatovirusinfektioon
+## Darunaviiri: Apinoiden immuunikatovirusinfektio
 {: .text-alpha }
 
 ## Yhden virkkeen yhteenveto
@@ -50,10 +50,10 @@ Ennustetta tukee tällä hetkellä **0 kliinistä tutkimusta** ja **4 julkaisua*
 |------|------|
 | Alkuperäinen käyttöaihe | HIV-infektio |
 | Ennustettu uusi käyttöaihe | Apinoiden immuunikatovirusinfektio (SIV) |
-| TxGNN-ennusteen pistemäärä | 99,97 % |
+| TxGNN-ennusteen pistemäärä | 0,9997 |
 | Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutetut myyntiluvat |
-| Myyntilupien määrä | 5 (kaikki peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 5/5) |
+| Myyntilupien määrä | 5 (voimassa: 5) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -62,13 +62,13 @@ Ennustetta tukee tällä hetkellä **0 kliinistä tutkimusta** ja **4 julkaisua*
 
 Darunaviirin tarkkaa vaikutusmekanismia koskevia tietoja ei ole tällä hetkellä saatavilla tähän raporttiin koottuna. Tunnetun tiedon mukaan darunaviiri on HIV-1-proteaasin estäjä, sen teho HIV-infektiossa on osoitettu, ja mekanistisesti se voi soveltua myös lähisukuisen SIV-viruksen aiheuttamaan infektioon.
 
-SIV on HIV:n kanssa läheistä sukua oleva lentivirus. Proteaasin estäminen on todennäköisesti säilynyt toimintatapa eri lentivirusten välillä, joten mekanistinen perustelu on vahva. Korkea ennustepistemäärä heijastaa todennäköisesti SIV:n ja HIV:n rakenteellista samankaltaisuutta tietograafissa.
+SIV on HIV:n kanssa läheistä sukua oleva lentivirus. Proteaasin estäminen on todennäköisesti säilynyt toimintatapa eri lentivirusten välillä, joten mekanistinen perustelu on vahva. Korkea ennustepistemäärä tulee TxGNN-mallista (syväoppiminen) ja voi heijastaa mallin oppimia samankaltaisuuksia sukulaissairauksien välillä, ei biologista näyttöä.
 
 Tämä ei kuitenkaan ole varsinaista lääkkeen uudelleenkäyttöä uuteen ihmisten sairauteen. Kyse on olennaisesti samasta lääkeryhmän vaikutuksesta kuin hyväksytyssä HIV-käyttöaiheessa, laajennettuna ei-ihmisprimaattimalliin. Löydetyt tutkimukset koskevat SIV-infektoituja makakeja, joita on hoidettu yhdistelmähoidoilla (cART) ja lisälääkkeillä. Otsikoiden perusteella darunaviirin oma osuus ei ole varmistettavissa, ja se voi olla vain yksi monilääkehoidon osa.
 
 Muut ennustetut käyttöaiheet ovat heikommin perusteltuja:
 - **Kissan immuunikatooireyhtymä (FIV):** eläinlääketieteellinen käyttöaihe, jolla ei ole merkitystä ihmisen hoidossa. FIV-proteaasi eroaa HIV-1-proteaasista, joten tehoa ei voi olettaa. Tutkimuksia ei löytynyt.
-- **Harvinainen neurokehityshäiriö (ataksinen kävely, puheen puuttuminen):** uskottavaa mekanistista yhteyttä ei ole, ja ennuste on todennäköisesti tietograafin artefakti.
+- **Harvinainen neurokehityshäiriö (ataksinen kävely, puheen puuttuminen):** uskottavaa mekanistista yhteyttä ei ole, ja pistemäärä tulee TxGNN-mallista (syväoppiminen) ja voi heijastaa mallin oppimia samankaltaisuuksia sukulaissairauksien välillä, ei biologista näyttöä.
 - **Vanhentunut familiaalinen yhdistetty hyperlipidemia:** tauti on merkitty ontologiassa vanhentuneeksi. Proteaasin estäjät voivat pahentaa rasva-arvoja, joten vaikutussuunta voi olla hoidolle päinvastainen.
 
 ---

@@ -49,10 +49,10 @@ TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **lepran**, mutta ennust
 |------|------|
 | Alkuperäinen käyttöaihe | Siirtymäsolusyöpä (urotelikarsinooma); virtsatiesyövät |
 | Ennustettu uusi käyttöaihe | Lepra |
-| TxGNN-ennustepisteet | 99,53 % |
+| TxGNN-ennustepisteet | 0.9953 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -61,7 +61,7 @@ TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **lepran**, mutta ennust
 
 Tämän raportin laatimiseen koottu aineisto ei sisällä yksityiskohtaista vaikutusmekanismitietoa. Tunnetun tiedon mukaan enfortumabivedotiini on Nectin-4-kohdennettu vasta-aine-lääkekonjugaatti, jonka MMAE-osa tuhoaa Nectin-4:ää ilmentäviä kasvainsoluja häiritsemällä mikrotubuluksia. Teho urotelisyövässä on osoitettu.
 
-Mikään käytettävissä oleva tieto ei yhdistä Nectin-4-kohdennusta tai mikrotubulusten häirintää *Mycobacterium leprae* -infektioon. Korkea TxGNN-pistemäärä (0,995) on laskennallinen ennuste, ja se johtuu todennäköisesti tietograafin rakenteesta eikä biologisesta yhteydestä.
+Mikään käytettävissä oleva tieto ei yhdistä Nectin-4-kohdennusta tai mikrotubulusten häirintää *Mycobacterium leprae* -infektioon. Korkea TxGNN-pistemäärä (0.9953) on laskennallinen ennuste, ja se tulee TxGNN-mallista (syväoppiminen). Se voi heijastaa mallin oppimia samankaltaisuuksia toisiinsa liittyvien tautien välillä, ei biologista näyttöä.
 
 Muut mallin tuottamat ennusteet ovat samalla tavalla heikosti perusteltuja:
 
@@ -69,7 +69,7 @@ Muut mallin tuottamat ennusteet ovat samalla tavalla heikosti perusteltuja:
 - **Sytomegalovirusinfektio** (99,36 %, L4): ainoa julkaisu on tapausselostus vaikeasta haavaisesta ruokatorvitulehduksesta enfortumabivedotiini–pembrolitsumabi-hoidon jälkeen. Se on haittatapahtumailmoitus, joka viittaa pikemminkin riskiin kuin hyötyyn.
 - **Kandidiaasi** (99,30 %, L4): ainoa julkaisu on FAERS-lääketurvatutkimus vasta-aine-lääkekonjugaattien riskisignaaleista virtsarakkosyövässä. Se puhuu käyttöä vastaan.
 - **Aivoinfarkti** (99,23 %), **HIV-infektio** (99,19 %), **homotsygoottinen familiaalinen hyperkolesterolemia** (99,18 %): ei uskottavaa mekanistista yhteyttä, ei tutkimuksia.
-- **Nautojen tarttuva nuha (IBR)** ja **malignikatarri** (99,13 %): eläintauteja, jotka eivät liity ihmisen lääkehoitoon; todennäköisiä tietograafin artefakteja.
+- **Nautojen tarttuva nuha (IBR)** ja **malignikatarri** (0.9913): eläintauteja, jotka eivät liity ihmisen lääkehoitoon; todennäköisesti mallin oppimia samankaltaisuuksia, ei biologista näyttöä.
 
 ---
 

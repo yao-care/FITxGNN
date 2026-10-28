@@ -6,9 +6,9 @@ nav_order: 263
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Levofloxacin: ennustettu uusi käyttöaihe Pistemäinen epiteliaalinen keratokonjunktiviitti (näytön taso L5). Alkuperäinen käyttöaihe: Kystinen fibroosi"
 monitor_inn: "LEVOFLOXACIN"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder"]
+description: "Levofloxacin: ennustettu uusi käyttöaihe Punctate epithelial keratoconjunctivitis (näytön taso L5). Alkuperäinen käyttöaihe: Cystic Fibrosis"
 ---
 
 # Levofloxacin
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Levofloksasiini: Hengitystieinfektioista ja kystisestä fibroosista monoklonaaliseen gammopatiaan
+## Levofloxacin: Punctate epithelial keratoconjunctivitis
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -42,19 +42,19 @@ Levofloksasiini on fluorokinoloniryhmän laajakirjoinen antibiootti, jota on kä
 TxGNN-malli ennustaa sen voivan olla hyödyllinen **monoklonaalisessa gammopatiassa** (rank 7), mutta tuki perustuu infektioiden ehkäisyyn myeloomapotilailla, ei itse sairauden hoitoon.
 Aineistossa on **0 kliinistä tutkimusrekisteröintiä** ja **20 julkaisua** tälle indikaatiolle, joiden joukossa on yksi vaiheen 3 RCT (TEAMM).
 
-Huomio: ennusteluettelon ensimmäinen kohde, pistemäisen epiteliaalisen keratokonjunktiviitin ennuste (pistemäärä 99,92 %), perustuu vain yhteen mikrosporidiaepidemiaa kuvaavaan julkaisuun, jota ei voida pitää tukena. Tässä raportissa on siksi arvioitu tarkemmin kolmea kohdetta: ensimmäistä ennustetta, monoklonaalista gammopatiaa (vahvin kliininen aineisto) ja septistä paiseruttoa (vahvin mekanistinen peruste).
+Huomio: ennusteluettelon ensimmäinen kohde, pistemäisen epiteliaalisen keratokonjunktiviitin ennuste (pistemäärä 0,9992), perustuu vain yhteen mikrosporidiaepidemiaa kuvaavaan julkaisuun, jota ei voida pitää tukena. Tässä raportissa on siksi arvioitu tarkemmin kolmea kohdetta: ensimmäistä ennustetta, monoklonaalista gammopatiaa (vahvin kliininen aineisto) ja septistä paiseruttoa (vahvin mekanistinen peruste).
 
 ## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Kystinen fibroosi; hengitystieinfektiot |
-| Ennustettu uusi indikaatio (ensimmäinen) | Pistemäinen epiteliaalinen keratokonjunktiviitti |
-| TxGNN-ennustepistemäärä (ensimmäinen) | 99,92 % |
+| Alkuperäinen indikaatio | Cystic Fibrosis;Respiratory Tract Infections |
+| Ennustettu uusi indikaatio (ensimmäinen) | Punctate epithelial keratoconjunctivitis |
+| TxGNN-ennustepistemäärä (ensimmäinen) | 0.9992 |
 | Lupaavin jatkotarkasteltava ennuste | Monoklonaalinen gammopatia (99,81 %) |
 | Näytön taso | L5 (ensimmäinen ennuste); L4 (monoklonaalinen gammopatia, septinen paiseruttto) |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota); monoklonaalinen gammopatia ja septinen paiserutto: tutkimuskysymys |
 
 ## Miksi ennuste on perusteltu?

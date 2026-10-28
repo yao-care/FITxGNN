@@ -6,9 +6,9 @@ nav_order: 298
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
-description: "Nelarabine: ennustettu uusi käyttöaihe Relapsoiva-remittoiva MS-tauti (näytön taso L5). Alkuperäinen käyttöaihe: Prekursori-T-solulymfoblastinen leukemia-lymfooma"
 monitor_inn: "NELARABINE"
 predicted_indications: ["relapsing-remitting multiple sclerosis"]
+description: "Nelarabine: ennustettu uusi käyttöaihe Relapsing-remitting multiple sclerosis (näytön taso L5). Alkuperäinen käyttöaihe: Precursor T-Cell Lymphoblastic Leukemia-Lymphoma"
 ---
 
 # Nelarabine
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-## Nelarabiini: Prekursori-T-solulymfoblastisesta leukemia-lymfoomasta relapsoivaan-remittoivaan MS-tautiin
+## Nelarabine: Relapsing-remitting multiple sclerosis
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -46,12 +46,12 @@ mutta ennusteen tueksi ei ole tällä hetkellä **yhtään kliinistä tutkimusta
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Prekursori-T-solulymfoblastinen leukemia-lymfooma |
-| Ennustettu uusi käyttöaihe | Relapsoiva-remittoiva MS-tauti |
+| Alkuperäinen käyttöaihe | Precursor T-Cell Lymphoblastic Leukemia-Lymphoma |
+| Ennustettu uusi käyttöaihe | Relapsing-remitting multiple sclerosis |
 | TxGNN-ennustepisteet | 99,43 % |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste voi olla perusteltu?

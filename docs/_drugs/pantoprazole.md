@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pantoprazole
-parent: Vahva näyttö (L1-L2)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 330
-evidence_level: L1
-indication_count: 6
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Pantoprazole: ennustettu uusi käyttöaihe Aktiivinen peptinen haavatauti (näytön taso L1). Alkuperäinen käyttöaihe: Gastroesofageaalinen refluksi"
 monitor_inn: "PANTOPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
+description: "Pantoprazole: ennustettu uusi käyttöaihe Duodenal obstruction (näytön taso L5). Alkuperäinen käyttöaihe: Gastroesophageal Reflux"
 ---
 
 # Pantoprazole
 {: .fs-9 }
 
-Näytön taso: **L1** | Ennustetut käyttöaiheet: **6** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-## Pantopratsoli: Refluksitaudista aktiiviseen peptiseen haavatautiin
+## Pantoprazole: Duodenal obstruction
 {: .text-alpha }
 
 ## Yhteenveto
@@ -44,12 +44,12 @@ Pantopratsoli on protonipumpun estäjä, jota on alun perin käytetty mahalaukun
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Gastroesofageaalinen refluksi |
-| Ennustettu uusi käyttöaihe | Aktiivinen peptinen haavatauti |
-| TxGNN-ennustepistemäärä | 99,69 % |
-| Evidenssitaso | L1 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 3 (kaikki peruutettuja) |
+| Alkuperäinen käyttöaihe | Gastroesophageal Reflux |
+| Ennustettu uusi käyttöaihe | Duodenal obstruction |
+| TxGNN-ennustepistemäärä | 0.9921 |
+| Evidenssitaso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 3/3) |
+| Myyntilupien määrä | 3 (voimassa: 3) |
 | Suositeltu päätös | Etene suojatoimin (Proceed with Guardrails) |
 
 ## Miksi ennuste on perusteltu?

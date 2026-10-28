@@ -33,12 +33,12 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Rasburikaasi: Hyperurikemian hoidosta munuaisperäiseen hypourikemiaan
+## Rasburikaasi: Munuaisperäinen hypourikemia
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 
-Rasburikaasi on rekombinantti urikaasientsyymi, jota on alun perin käytetty **hyperurikemian** hoitoon. TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **munuaisperäisen hypourikemian** (pistemäärä 99,99 %), mutta ennusteen tueksi ei ole **yhtään kliinistä tutkimusta eikä julkaisua**, ja mekanistinen perustelu on vastakkainen: lääke laskee virtsahappoa, joka on tässä sairaudessa jo valmiiksi matala.
+Rasburikaasi on rekombinantti urikaasientsyymi, jota on alun perin käytetty **hyperurikemian** hoitoon. TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **munuaisperäisen hypourikemian** (pistemäärä 0,9999), mutta ennusteen tueksi ei ole **yhtään kliinistä tutkimusta eikä julkaisua**, ja mekanistinen perustelu on vastakkainen: lääke laskee virtsahappoa, joka on tässä sairaudessa jo valmiiksi matala.
 
 ## Pikayleiskatsaus
 
@@ -46,10 +46,10 @@ Rasburikaasi on rekombinantti urikaasientsyymi, jota on alun perin käytetty **h
 |------|------|
 | Alkuperäinen käyttöaihe | Hyperurikemia |
 | Ennustettu uusi käyttöaihe | Munuaisperäinen hypourikemia (hypouricemia, renal) |
-| TxGNN-ennustepistemäärä | 99,99 % |
+| TxGNN-ennustepistemäärä | 0,9999 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste on (tai ei ole) perusteltu?

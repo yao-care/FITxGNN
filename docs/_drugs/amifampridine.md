@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-## Amifampridiini: Lambert-Eatonin myasteenisesta oireyhtymästä glaukoomaan
+## Amifampridiini: glaukooma
 {: .text-alpha }
 
 ## Yhteenveto
@@ -46,10 +46,10 @@ Amifampridiini on lääke, jota on alun perin käytetty Lambert-Eatonin myasteen
 |------|------|
 | Alkuperäinen käyttöaihe | Lambert-Eatonin myasteeninen oireyhtymä |
 | Ennustettu uusi käyttöaihe | Glaukooma |
-| TxGNN-ennustepisteet | 99,71 % |
+| TxGNN-ennustepisteet | 0,9971 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 2 (molemmat peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Myyntilupien määrä | 2 (voimassa: 2) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste on perusteltu?
@@ -58,7 +58,7 @@ Tässä raportissa käytetyistä tiedoista ei ole saatavilla yksityiskohtaista v
 
 Yhteys glaukoomaan on toistaiseksi vain teoreettinen. Se voisi liittyä hermosolujen ärtyvyyden tai verkkokalvon gangliosolujen toiminnan muokkaamiseen, mutta tätä tukevaa mekanistista tietoa ei ole. Alkuperäisen ja uuden käyttöaiheen samankaltaisuutta ei ole arvioitu. Silmään annosteluun ei myöskään ole perustetta, ja reittien yhteensopivuus on arvioimatta.
 
-Toinen mallin ennustama käyttöaihe on akuutti ajoittainen porfyria (pistemäärä 99,32 %). Sekin on pelkkä mallin ennuste ilman kliinistä tai kirjallisuusnäyttöä. Amifampridiinin kouristuskynnystä laskeva vaikutus on huolenaihe tässä taudissa, koska akuuteissa kohtauksissa voi esiintyä kouristuksia.
+Toinen mallin ennustama käyttöaihe on akuutti ajoittainen porfyria (pistemäärä 0,9932). Sekin on pelkkä mallin ennuste ilman kliinistä tai kirjallisuusnäyttöä. Amifampridiinin kouristuskynnystä laskeva vaikutus on huolenaihe tässä taudissa, koska akuuteissa kohtauksissa voi esiintyä kouristuksia.
 
 ## Kliininen tutkimusnäyttö
 

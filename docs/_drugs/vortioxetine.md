@@ -4,17 +4,17 @@ title: Vortioxetine
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 474
 evidence_level: L5
-indication_count: 5
+indication_count: 2
 last_modified_at: 2026-10-13
 description: "Vortioxetine: ennustettu uusi käyttöaihe Neuroottinen häiriö (näytön taso L5). Alkuperäinen käyttöaihe: Vakava masennustila (Depressive Disorder, Major)"
 monitor_inn: "VORTIOXETINE"
-predicted_indications: ["neurotic disorder", "melancholia", "benign paroxysmal torticollis of infancy", "dysthymic disorder"]
+predicted_indications: ["neurotic disorder", "benign paroxysmal torticollis of infancy"]
 ---
 
 # Vortioxetine
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-## Vortioksetiini: Vakavasta masennuksesta neuroottiseen häiriöön
+## Vortioksetiini: Neuroottinen häiriö
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -46,10 +46,10 @@ Vortioksetiini on masennuslääke, jota on alun perin käytetty vakavan masennus
 |------|------|
 | Alkuperäinen käyttöaihe | Vakava masennustila (Depressive Disorder, Major) |
 | Ennustettu uusi käyttöaihe | Neuroottinen häiriö |
-| TxGNN-ennusteen pistemäärä | 99,24 % |
+| TxGNN-ennusteen pistemäärä | 0,9924 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste on perusteltu?

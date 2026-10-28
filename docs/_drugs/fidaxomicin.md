@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 
 </div>
 
-## Fidaksomisiini: Clostridium-infektioista stafylokokin aiheuttamaan kuoriutuvaan ihosyndroomaan
+## Fidaksomisiini: Stafylokokin aiheuttama kuoriutuva ihosyndrooma
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -46,10 +46,10 @@ Fidaksomisiini on makrosyklinen, kapeakirjoinen antibiootti, jota on alun perin 
 |------|------|
 | Alkuperäinen käyttöaihe | Clostridium-infektiot |
 | Ennustettu uusi käyttöaihe | Stafylokokin aiheuttama kuoriutuva ihosyndrooma (staphylococcal scalded skin syndrome) |
-| TxGNN-ennustepisteet | 99,71 % |
+| TxGNN-ennustepisteet | 0,9971 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste on järkevä – tai ei?
@@ -71,7 +71,7 @@ Mallin muut ennusteet ovat samansuuntaisia: kaikilla on näytön taso L5 ja suos
 | 6 | Vulvovaginaalinen kandidiaasi | 99,65 % | Sieni-infektio; ei tunnettua sienivaikutusta; todennäköisesti mallin artefakti |
 | 7 | Rapykkä (hordeolum) | 99,64 % | Ei silmä- tai paikallisvalmistetta; imeytyminen mitätöntä |
 | 8 | *Staphylococcus aureus* -keuhkokuume | 99,21 % | Keuhkokudoksen pitoisuudet jäisivät riittämättömiksi; vakiintuneita lääkkeitä on |
-| 9 | Pistemäinen epiteliaalinen keratokonjunktiviitti | 99,02 % | Usein virus- tai tulehdusperäinen; ei selvää kohdetta; todennäköisesti mallin artefakti |
+| 9 | Pistemäinen epiteliaalinen keratokonjunktiviitti | 0,9902 | Usein virus- tai tulehdusperäinen; ei selvää kohdetta; todennäköisesti mallin artefakti |
 
 ## Kliininen tutkimusnäyttö
 

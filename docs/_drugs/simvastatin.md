@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Simvastatin
-parent: Vahva näyttö (L1-L2)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 404
-evidence_level: L1
-indication_count: 8
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-13
-description: "Simvastatin: ennustettu uusi käyttöaihe Familiaalinen hyperkolesterolemia (näytön taso L1). Alkuperäinen käyttöaihe: Dyslipidemiat"
 monitor_inn: "SIMVASTATIN"
 predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Simvastatin: ennustettu uusi käyttöaihe Brain stem infarction (näytön taso L5). Alkuperäinen käyttöaihe: Dyslipidemias"
 ---
 
 # Simvastatin
 {: .fs-9 }
 
-Näytön taso: **L1** | Ennustetut käyttöaiheet: **8** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **8** kpl
 
 </div>
 
-## Simvastatiini: Dyslipidemioista familiaaliseen hyperkolesterolemiaan
+## Simvastatin: Brain stem infarction
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -46,12 +46,12 @@ Simvastatiini on statiini, jota on alun perin käytetty dyslipidemioiden hoitoon
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Dyslipidemiat |
-| Ennustettu uusi käyttöaihe | Familiaalinen hyperkolesterolemia |
-| TxGNN-ennustepistemäärä | 99,63 % |
-| Näytön taso | L1 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Alkuperäinen käyttöaihe | Dyslipidemias |
+| Ennustettu uusi käyttöaihe | Brain stem infarction |
+| TxGNN-ennustepistemäärä | 0.9941 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Proceed with Guardrails (eteneminen suojatoimin) |
 
 ---

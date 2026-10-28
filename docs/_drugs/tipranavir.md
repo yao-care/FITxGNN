@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Tipranavir
-parent: Kohtalainen näyttö (L3-L4)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 439
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 8
 last_modified_at: 2026-10-13
 description: "Tipranavir: ennustettu uusi käyttöaihe Kissan hankinnainen immuunipuutosoireyhtymä (feline acquired immunode… (näytön taso L4). Alkuperäinen käyttöaihe: HIV-infektiot"
 monitor_inn: "TIPRANAVIR"
@@ -14,7 +14,7 @@ predicted_indications: ["feline acquired immunodeficiency syndrome", "simian imm
 # Tipranavir
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **8** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Tipranaviiri: HIV-infektiosta ennustettuun kissan hankinnaiseen immuunipuutosoireyhtymään
+## Tipranaviiri: Kissan hankinnainen immuunikatooireyhtymä
 {: .text-alpha }
 
 ## Yhteenveto
 
-Tipranaviiri on HIV-1-proteaasin estäjä, jota on käytetty HIV-infektion hoitoon. TxGNN-malli ennustaa sen mahdolliseksi hoidoksi **kissan hankinnaiseen immuunipuutosoireyhtymään** (pistemäärä 99,99 %), mutta ennusteen tueksi ei ole toistaiseksi **yhtään kliinistä tutkimusta eikä julkaisua**. Ennuste perustuu pelkästään mallin tuottamaan verkostoyhteyteen.
+Tipranaviiri on HIV-1-proteaasin estäjä, jota on käytetty HIV-infektion hoitoon. TxGNN-malli ennustaa sen mahdolliseksi hoidoksi **kissan hankinnaiseen immuunipuutosoireyhtymään** (pistemäärä 0,9999), mutta ennusteen tueksi ei ole toistaiseksi **yhtään kliinistä tutkimusta eikä julkaisua**. Ennuste perustuu pelkästään mallin tuottamaan verkostoyhteyteen.
 
 ---
 
@@ -48,10 +48,10 @@ Tipranaviiri on HIV-1-proteaasin estäjä, jota on käytetty HIV-infektion hoito
 |------|------|
 | Alkuperäinen käyttöaihe | HIV-infektiot |
 | Ennustettu uusi käyttöaihe | Kissan hankinnainen immuunipuutosoireyhtymä (feline acquired immunodeficiency syndrome) |
-| TxGNN-ennustepistemäärä | 99,99 % |
-| Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| TxGNN-ennustepistemäärä | 0,9999 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -72,15 +72,13 @@ Aineistossa oli yhteensä 10 ennustetta. Kaikkien suositus on Hold, eikä yhdell
 
 | Sija | Käyttöaihe | Pistemäärä | Näytön taso | Huomio |
 |------|------|------|------|------|
-| 2 | Simiaaninen immuunipuutosvirusinfektio (SIV) | 99,99 % | L4 | Proteaasi on hyvin homologinen HIV-1:n kanssa, mutta kyseessä on HIV:n eläinmalli, ei uusi ihmisen käyttöaihe |
-| 3 | Neurokehityshäiriö, johon liittyy ataksinen kävely, puheen puuttuminen ja aivokuoren valkean aineen väheneminen | 99,99 % | L5 | Uskottavaa mekanistista yhteyttä ei löydy; todennäköisesti mallin artefakti |
-| 4 | Vanhentunut familiaalinen yhdistetty hyperlipidemia | 99,93 % | L5 | HIV-proteaasin estäjät aiheuttavat dyslipidemiaa haittavaikutuksena, joten hoitohyöty on epäuskottava |
-| 5 | AIDS-liitännäisoireyhtymä (ARC) | 99,83 % | L4 | Historiallinen termi oireiselle HIV-taudille; kuuluu jo hyväksyttyyn käyttöaiheeseen |
-| 6 | Synnynnäinen HIV | 99,83 % | L4 | Alaryhmä HIV-infektiossa; lapsi- ja perinataalitutkimuksia ei ole |
-| 7 | Eturauhasen fibrooma | 99,44 % | L5 | Vain ennuste, ei kliinistä näyttöä |
-| 8 | Brennerin kasvain | 99,39 % | L5 | Harvinainen, tyypillisesti hyvänlaatuinen munasarjakasvain, hoito kirurginen |
-| 9 | Lisääntymiselinten hyvänlaatuinen kasvain | 99,39 % | L5 | Laaja kategoria; tipranaviirin vakavat riskit (maksatoksisuus, kallonsisäinen verenvuoto) tekevät hyöty–riskisuhteesta epäedullisen |
-| 10 | Eturauhasen hyvänlaatuinen phyllodes-kasvain | 99,31 % | L5 | Erittäin harvinainen; ei näyttöä |
+| 2 | Simiaaninen immuunipuutosvirusinfektio (SIV) | 0,9999 | L5 | Proteaasi on hyvin homologinen HIV-1:n kanssa, mutta kyseessä on HIV:n eläinmalli, ei uusi ihmisen käyttöaihe |
+| 3 | Neurokehityshäiriö, johon liittyy ataksinen kävely, puheen puuttuminen ja aivokuoren valkean aineen väheneminen | 0,9999 | L5 | Uskottavaa mekanistista yhteyttä ei löydy; todennäköisesti mallin artefakti |
+| 4 | Vanhentunut familiaalinen yhdistetty hyperlipidemia | 0,9993 | L5 | HIV-proteaasin estäjät aiheuttavat dyslipidemiaa haittavaikutuksena, joten hoitohyöty on epäuskottava |
+| 7 | Eturauhasen fibrooma | 0,9944 | L5 | Vain ennuste, ei kliinistä näyttöä |
+| 8 | Brennerin kasvain | 0,9939 | L5 | Harvinainen, tyypillisesti hyvänlaatuinen munasarjakasvain, hoito kirurginen |
+| 9 | Lisääntymiselinten hyvänlaatuinen kasvain | 0,9939 | L5 | Laaja kategoria; tipranaviirin vakavat riskit (maksatoksisuus, kallonsisäinen verenvuoto) tekevät hyöty–riskisuhteesta epäedullisen |
+| 10 | Eturauhasen hyvänlaatuinen phyllodes-kasvain | 0,9931 | L5 | Erittäin harvinainen; ei näyttöä |
 
 ---
 

@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Nitisinoni: Tyrosinemiasta munatuubulusten asidoosiin
+## Nitisinoni: Tyrosinemiasta munuaisten tubulusasidoosiin
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -48,10 +48,10 @@ Nitisinoni on lääke, jota on alun perin käytetty tyrosinemioiden hoitoon. TxG
 |------|------|
 | Alkuperäinen käyttöaihe | Tyrosinemiat |
 | Ennustettu uusi käyttöaihe | Munuaisten tubulusasidoosi (renal tubular acidosis) |
-| TxGNN-ennustepistemäärä | 99,96 % |
+| TxGNN-ennustepistemäärä | 0,9996 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 2 (molemmat peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Myyntilupien määrä | 2 (voimassa: 2) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -68,11 +68,11 @@ Seuraavissa ennusteissa näyttö on yhtä heikkoa tai heikompaa:
 
 | Sija | Sairaus | Pistemäärä | Näytön taso | Huomio |
 |------|------|------|------|------|
-| 2 | Galaktosemia | 99,95 % | L4 | Vain katsausartikkeleita, joissa sairaudet mainitaan samassa yhteydessä (maksavaikutukset); ei yhteistä kohdetta |
-| 3 | Serpinopatia (toksinen serpiinipolymerisaatio) | 99,90 % | L5 | Vain mallin ennuste |
-| 4 | C1-estäjän puutos | 99,90 % | L5 | Vain mallin ennuste |
-| 5 | Glykogeenin varastosairaus | 99,89 % | L4 | Vain yksi lasten maksasairauksia käsittelevä katsaus |
-| 6–10 | Aikuisten polyglukosaanikehotauti, GSD tyyppi I, Griscellin oireyhtymä, X-kromosomaalinen krooninen granulomatoottinen tauti, ermine-fenotyyppi | 99,86–99,88 % | L5 | Vain mallin ennuste, ei näyttöä |
+| 2 | Galaktosemia | 0,9995 | L5 | Vain katsausartikkeleita, joissa sairaudet mainitaan samassa yhteydessä (maksavaikutukset); ei yhteistä kohdetta |
+| 3 | Serpinopatia (toksinen serpiinipolymerisaatio) | 0,9990 | L5 | Vain mallin ennuste |
+| 4 | C1-estäjän puutos | 0,9990 | L5 | Vain mallin ennuste |
+| 5 | Glykogeenin varastosairaus | 0,9989 | L5 | Vain yksi lasten maksasairauksia käsittelevä katsaus |
+| 6–10 | Aikuisten polyglukosaanikehotauti, GSD tyyppi I, Griscellin oireyhtymä, X-kromosomaalinen krooninen granulomatoottinen tauti, ermine-fenotyyppi | 99,86–0,9988 | L5 | Vain mallin ennuste, ei näyttöä |
 
 ---
 

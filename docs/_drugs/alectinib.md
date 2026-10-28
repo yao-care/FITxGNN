@@ -4,7 +4,7 @@ title: Alectinib
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 23
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Alectinib: ennustettu uusi käyttöaihe Gingivaalinen fibromatoosi (näytön taso L5). Alkuperäinen käyttöaihe: Ei-pienisoluinen keuhkosyöpä"
 monitor_inn: "Alectinib"
@@ -14,7 +14,7 @@ predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma 
 # Alectinib
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Alektinibi on ALK-tyrosiinikinaasin estäjä, jota käytetään ALK-positiivisen
 |------|------|
 | Alkuperäinen käyttöaihe | Ei-pienisoluinen keuhkosyöpä |
 | Ennustettu uusi käyttöaihe | Gingivaalinen fibromatoosi |
-| TxGNN-ennusteen pistemäärä | 99,97 % |
+| TxGNN-ennusteen pistemäärä | 0,9997 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

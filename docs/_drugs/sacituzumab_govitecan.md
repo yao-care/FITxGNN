@@ -6,9 +6,9 @@ nav_order: 392
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-13
-description: "Sacituzumab Govitecan: ennustettu uusi käyttöaihe Lääkkeen aiheuttama osteoporoosi (näytön taso L5). Alkuperäinen käyttöaihe: Rintasyöpä"
 monitor_inn: "SACITUZUMAB GOVITECAN"
 predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic cataract"]
+description: "Sacituzumab Govitecan: ennustettu uusi käyttöaihe Lääkkeen aiheuttama osteoporoosi (drug-induced osteoporosis) (näytön taso L5). Alkuperäinen käyttöaihe: Breast Neoplasms"
 ---
 
 # Sacituzumab Govitecan
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-## Sasituzumabigovitekaani: Rintasyövästä lääkkeen aiheuttamaan osteoporoosiin
+## Sacituzumab Govitecan: Lääkkeen aiheuttama osteoporoosi (drug-induced osteoporosis)
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -48,12 +48,12 @@ Ennuste perustuu pelkästään mallin laskemaan pisteytykseen.
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Rintasyöpä; kolmoisnegatiivinen rintasyöpä |
-| Ennustettu uusi käyttöaihe | Lääkkeen aiheuttama osteoporoosi |
-| TxGNN-ennusteen pistemäärä | 99,78 % |
+| Alkuperäinen käyttöaihe | Breast Neoplasms;Triple Negative Breast Neoplasms |
+| Ennustettu uusi käyttöaihe | Lääkkeen aiheuttama osteoporoosi (drug-induced osteoporosis) |
+| TxGNN-ennusteen pistemäärä | 0.9978 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -64,7 +64,7 @@ Tällä hetkellä tarkkaa vaikutusmekanismia koskevaa tietoa ei ole saatavilla t
 
 Alkuperäisen käyttöaiheen (syöpä) ja ennustetun käyttöaiheen (lääkkeen aiheuttama osteoporoosi) välillä ei ole tuettua mekanistista yhteyttä. Uskottavaa biologista perustetta osteoporoosin hoidolle ei ole. Sytotoksinen solusalpaajahoito todennäköisemmin heikentää luuston terveyttä, esimerkiksi luuytimen toiminnan heikkenemisen ja sukupuolirauhasvaikutusten kautta.
 
-Korkea TxGNN-pistemäärä (0,998) on pelkkä mallin ennuste, jota mikään tutkimus tai julkaisu ei tue. Muut mallin ennustamat käyttöaiheet (vaikea ei-proliferatiivinen diabeettinen retinopatia 99,69 %, diabeettinen retinopatia 99,60 % ja diabeettinen kaihi 99,12 %) ovat samalla tavalla vailla mekanistista tai kliinistä tukea. Retinopatiaennusteet ovat lisäksi päällekkäisiä, joten ne johtuvat todennäköisesti samasta mallisignaalista eivätkä ole riippumatonta näyttöä.
+Korkea TxGNN-pistemäärä (0,9978) on pelkkä mallin ennuste, jota mikään tutkimus tai julkaisu ei tue. Muut mallin ennustamat käyttöaiheet (vaikea ei-proliferatiivinen diabeettinen retinopatia 0,9969, diabeettinen retinopatia 0,9960 ja diabeettinen kaihi 0,9912) ovat samalla tavalla vailla mekanistista tai kliinistä tukea. Retinopatiaennusteet ovat lisäksi päällekkäisiä, joten ne johtuvat todennäköisesti samasta mallisignaalista eivätkä ole riippumatonta näyttöä.
 
 ---
 

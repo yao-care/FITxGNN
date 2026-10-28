@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-## Catridekakogi: Perinnöllisistä hyytymishäiriöistä primaariseen verihiutaleiden vapautumishäiriöön
+## Catridekakogi: primaarinen verihiutaleiden vapautumishäiriö
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -46,10 +46,10 @@ Catridekakogi on yhdistelmä-DNA-tekniikalla valmistettu hyytymistekijä XIII:n 
 |------|------|
 | Alkuperäinen käyttöaihe | Perinnölliset hyytymishäiriöt |
 | Ennustettu uusi käyttöaihe | Primaarinen verihiutaleiden vapautumishäiriö |
-| TxGNN-ennustepistemäärä | 99,29 % |
+| Verihiutaleiden primaarinen vapautumishäiriö |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste voisi olla perusteltu?
@@ -59,8 +59,8 @@ Catridekakogi on rekombinantti hyytymistekijä XIII:n A-alayksikkö, joka ristis
 Verihiutaleiden vapautumishäiriöissä vika on verihiutaleiden rakeiden sisällössä tai eritystoiminnassa, ei tekijä XIII:n puutteessa. Hyöty olisi korkeintaan välillistä: vahvempi fibriinihyytymän vakaus verihiutaleiden toimintahäiriön jatkona. Tämä on spekulatiivista, ja korkea pistemäärä on pelkkä mallin ennuste.
 
 Samankaltaisia heikosti perusteltuja ennusteita mallilla on myös kahdelle muulle sairaudelle:
-- **Pseudo-von Willebrandin tauti** (pistemäärä 99,29 %): vika on verihiutaleiden GPIbα-reseptorin toimintaa lisäävässä mutaatiossa. Tekijä XIII:n A-alayksikkö ei vaikuta tähän reitiin, ja yhteys rajoittuisi välilliseen fibriinihyytymän vahvistumiseen.
-- **Glanzmannin trombastenia** (pistemäärä 99,15 %): vika on integriini αIIbβ3:n puutteessa tai toimintahäiriössä. Catridekakogi vaikuttaa vasta myöhemmin hyytymisessä eikä korjaa aggregaatiohäiriötä. Vakiintuneita hoitoja ovat verihiutaleensiirrot, rekombinantti tekijä VIIa ja antifibrinolyytit.
+- **Pseudo-von Willebrandin tauti** (pistemäärä 0,9929): vika on verihiutaleiden GPIbα-reseptorin toimintaa lisäävässä mutaatiossa. Tekijä XIII:n A-alayksikkö ei vaikuta tähän reitiin, ja yhteys rajoittuisi välilliseen fibriinihyytymän vahvistumiseen.
+- **Glanzmannin trombastenia** (pistemäärä 0,9915): vika on integriini αIIbβ3:n puutteessa tai toimintahäiriössä. Catridekakogi vaikuttaa vasta myöhemmin hyytymisessä eikä korjaa aggregaatiohäiriötä. Vakiintuneita hoitoja ovat verihiutaleensiirrot, rekombinantti tekijä VIIa ja antifibrinolyytit.
 
 ## Kliininen tutkimusnäyttö
 

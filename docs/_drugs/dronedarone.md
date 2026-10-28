@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Dronedarone
-parent: Pelkkä mallin ennuste (L5)
+parent: Kohtalainen näyttö (L3-L4)
 nav_order: 147
-evidence_level: L5
-indication_count: 10
+evidence_level: L3
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Dronedarone: ennustettu uusi käyttöaihe Aivohalvaus (stroke disorder) (näytön taso L5). Alkuperäinen käyttöaihe: Eteisvärinä"
 monitor_inn: "DRONEDARONE"
-predicted_indications: ["stroke disorder", "obsolete susceptibility to ischemic stroke", "ABri amyloidosis", "cerebrovascular disorder", "brain stem infarction", "sick sinus syndrome 2, autosomal dominant", "duodenal obstruction", "cerebral artery occlusion", "sarcoglycanopathy", "Wildervanck syndrome"]
+predicted_indications: ["stroke disorder", "ABri amyloidosis", "cerebrovascular disorder", "brain stem infarction", "sick sinus syndrome 2, autosomal dominant", "duodenal obstruction", "cerebral artery occlusion", "sarcoglycanopathy", "Wildervanck syndrome"]
 ---
 
 # Dronedarone
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L3** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Dronedaroni on monikanavasalpaaja, jota on alun perin käytetty **eteisvärinän
 |------|------|
 | Alkuperäinen käyttöaihe | Eteisvärinä |
 | Ennustettu uusi käyttöaihe | Aivohalvaus (stroke disorder) |
-| TxGNN-ennusteen pistemäärä | 99,97 % |
+| TxGNN-ennusteen pistemäärä | 0,9997 |
 | Näytön taso | L3 (katsaukset ja havainnoivat tutkimukset; ei omaa aivohalvaus-päätetapahtumaan tähtäävää koetta) |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

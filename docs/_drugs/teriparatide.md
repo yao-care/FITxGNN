@@ -4,7 +4,7 @@ title: Teriparatide
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 432
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Teriparatide: ennustettu uusi käyttöaihe Pohjukaissuolen haavauma (näytön taso L5). Alkuperäinen käyttöaihe: Osteoporoosi"
 monitor_inn: "TERIPARATIDE"
@@ -14,7 +14,7 @@ predicted_indications: ["duodenal ulcer (disease)", "non-syndromic esophageal ma
 # Teriparatide
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Teriparatidi: Osteoporoosista pohjukaissuolen haavaumaan
+## Teriparatidi: Pohjukaissuolen haavauma
 {: .text-alpha }
 
 ## Yhden lauseen tiivistelmä
@@ -49,10 +49,10 @@ TxGNN-malli ennustaa sen voivan tehota **pohjukaissuolen haavaumaan** (duodenal 
 |------|------|
 | Alkuperäinen käyttöaihe | Osteoporoosi; postmenopausaalinen osteoporoosi |
 | Ennustettu uusi käyttöaihe | Pohjukaissuolen haavauma |
-| TxGNN-ennusteen pistemäärä | 99,86 % |
+| TxGNN-ennusteen pistemäärä | 0,9986 |
 | Näytön taso | L5 (vain mallin ennuste) |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 7 (kaikki peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 7/7) |
+| Myyntilupien määrä | 7 (voimassa: 7) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -115,7 +115,6 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet on tarkistettava Fimean valmiste
 - Prekliininen tai mekanistinen näyttö ennen kliinisiä jatkoaskelia
 - Tuotteiden saatavuuden varmistaminen, koska kaikki myyntiluvat on peruutettu
 
-**Huomio muista ennusteista:** Samassa ennustelistassa raskauteen liittyvä osteoporoosi (pregnancy associated osteoporosis, pistemäärä 99,55 %) saa selvästi vahvemman näytön. Siitä on teriparatidia koskevia kohorttitutkimuksia ja järjestelmällisiä katsauksia (näytön taso L3, suositus Proceed with Guardrails). Tämä on luonnollisempi jatkotutkimuksen kohde kuin pohjukaissuolen haavauma.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

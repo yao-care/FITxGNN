@@ -6,9 +6,9 @@ nav_order: 357
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-13
-description: "Pretomanid: ennustettu uusi käyttöaihe Kandidoosi (näytön taso L5). Alkuperäinen käyttöaihe: Monilääkeresistentti tuberkuloosi"
 monitor_inn: "PRETOMANID"
 predicted_indications: ["candidiasis", "leprosy", "coronary artery disease", "myocardial ischemia", "anomalous left coronary artery from the pulmonary artery"]
+description: "Pretomanid: ennustettu uusi käyttöaihe Candidiasis (näytön taso L5). Alkuperäinen käyttöaihe: Tuberculosis, Multidrug-Resistant"
 ---
 
 # Pretomanid
@@ -33,13 +33,13 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-## Pretomanidi: Monilääkeresistentin tuberkuloosin hoidosta ennustettuun kandidoosiin
+## Pretomanid: Candidiasis
 {: .text-alpha }
 
 ## Yhteenveto
 
 Pretomanidi on nitroimidatsooksatsiinien ryhmän lääke, jota on käytetty monilääkeresistentin tuberkuloosin hoitoon.
-TxGNN-malli ennustaa sen voivan tehota **kandidoosiin** (pistemäärä 99,69 %), mutta ennusteelle ei löydy tukea kliinisistä tutkimuksista eikä kirjallisuudesta: **0 kliinistä tutkimusta** ja **0 julkaisua**.
+TxGNN-malli ennustaa sen voivan tehota **kandidoosiin** (pistemäärä 0,9969), mutta ennusteelle ei löydy tukea kliinisistä tutkimuksista eikä kirjallisuudesta: **0 kliinistä tutkimusta** ja **0 julkaisua**.
 Ennuste perustuu pelkästään tietämysgraafiin, ja tässä raportissa se arvioidaan heikosti perustelluksi.
 
 ---
@@ -48,12 +48,12 @@ Ennuste perustuu pelkästään tietämysgraafiin, ja tässä raportissa se arvio
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Monilääkeresistentti tuberkuloosi |
-| Ennustettu uusi käyttöaihe | Kandidoosi |
-| TxGNN-ennustepistemäärä | 99,69 % |
+| Alkuperäinen käyttöaihe | Tuberculosis, Multidrug-Resistant |
+| Ennustettu uusi käyttöaihe | Candidiasis |
+| TxGNN-ennustepistemäärä | 0.9969 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odotetaan) |
 
 ---
@@ -66,7 +66,7 @@ Candida-sienillä ei ole tätä aktivaatioreittiä eikä mykobakteerien solusein
 
 Ennustelistan muut kohteet eivät myöskään ole vahvempia:
 
-- **Lepra** (pistemäärä 99,27 %): *M. leprae* on sukua tuberkuloosibakteerille, joten periaatteessa yhteys on uskottavampi. *M. leprae* on kuitenkin menettänyt suuren osan genomistaan, eikä ole osoitettu, että sillä on pretomanidin tarvitsema Ddn-aktivaatioreitti. Kaikki kahdeksan löydettyä julkaisua koskevat lääkeresistenttiä tuberkuloosia, ei lepraa. Lepran hoitoon on lisäksi vakiintunut monilääkehoito (dapsoni, rifampisiini, klofatsimiini).
+- **Lepra** (pistemäärä 0,9927): *M. leprae* on sukua tuberkuloosibakteerille, joten periaatteessa yhteys on uskottavampi. *M. leprae* on kuitenkin menettänyt suuren osan genomistaan, eikä ole osoitettu, että sillä on pretomanidin tarvitsema Ddn-aktivaatioreitti. Kaikki kahdeksan löydettyä julkaisua koskevat lääkeresistenttiä tuberkuloosia, ei lepraa. Lepran hoitoon on lisäksi vakiintunut monilääkehoito (dapsoni, rifampisiini, klofatsimiini).
 - **Sepelvaltimotauti** (99,25 %), **sydänlihasiskemia** (99,17 %) ja **sepelvaltimon poikkeava erkaneminen keuhkovaltimosta** (99,08 %): sydän- ja verisuonitaudeille ei ole havaittavissa uskottavaa mekanistista yhteyttä, ja korkeat pisteet johtuvat todennäköisesti tietämysgraafin yhteisestä naapurustosta. Sepelvaltimon poikkeava erkaneminen on harvinainen synnynnäinen rakennepoikkeama, jota hoidetaan leikkauksella.
 
 ---

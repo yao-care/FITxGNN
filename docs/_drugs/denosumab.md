@@ -33,13 +33,13 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-## Denosumabi: luuston sairauksista diabeettiseen retinopatiaan
+## Denosumabi: vaikea ei-proliferatiivinen diabeettinen retinopatia
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 
 Denosumabi on RANKL-estäjä, jota on alun perin käytetty luun jättisolukasvaimen ja postmenopausaalisen osteoporoosin (luun resorption) hoitoon.
-TxGNN-malli ennustaa sen voivan tehota **vaikeaan ei-proliferatiiviseen diabeettiseen retinopatiaan** (pistemäärä 99,6 %) ja **diabeettiseen retinopatiaan** (99,2 %).
+TxGNN-malli (syväoppiminen) ennustaa sen voivan tehota **vaikeaan ei-proliferatiiviseen diabeettiseen retinopatiaan** (pistemäärä 0.9963) ja **diabeettiseen retinopatiaan** (0.9923).
 Kumpaankaan indikaatioon ei ole **yhtään kliinistä tutkimusta**, ja diabeettisen retinopatian osalta on vain **2 epäsuoraa julkaisua**, joten näyttö on heikkoa.
 
 ---
@@ -50,9 +50,9 @@ Kumpaankaan indikaatioon ei ole **yhtään kliinistä tutkimusta**, ja diabeetti
 |------|------|
 | Alkuperäinen käyttöaihe | Luun jättisolukasvain (luukudoksen kasvaimet); postmenopausaalinen osteoporoosi ja luun resorptio |
 | Ennustettu uusi käyttöaihe | Vaikea ei-proliferatiivinen diabeettinen retinopatia (toissijainen ennuste: diabeettinen retinopatia) |
-| TxGNN-ennustepistemäärä | 99,63 % (diabeettinen retinopatia: 99,23 %) |
+| TxGNN-ennustepistemäärä | 0.9963 (diabeettinen retinopatia: 0.9923) |
 | Näytön taso | L5 (vaikea ei-proliferatiivinen diabeettinen retinopatia); L4 (diabeettinen retinopatia) |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: vähintään 20) |
 | Myyntilupien määrä | 20 (kaikki peruutettuja) |
 | Suositeltu päätös | Hold (odotetaan) |
 

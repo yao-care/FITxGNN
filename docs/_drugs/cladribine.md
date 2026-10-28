@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 114
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-13
-description: "Cladribine: ennustettu uusi käyttöaihe Parameningeaalinen embryonaalinen rabdomyosarkooma (näytön taso L5). Alkuperäinen käyttöaihe: Karvasoluleukemia (Litak)"
 monitor_inn: "CLADRIBINE"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "liver sarcoma"]
+last_modified_at: 2026-10-27
+description: "Cladribine: ennustettu uusi käyttöaihe Parameningeaalinen alkioperäinen rabdomyosarkooma (parameningeal embryonal rhabdomyosarcoma) (näytön taso L5). Alkuperäinen käyttöaihe: Leukemia, Hairy Cell"
 ---
 
 # Cladribine
@@ -33,97 +33,78 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **7** kpl
 
 </div>
 
-## Kladribiini: Karvasoluleukemiasta ja MS-taudista parameningeaaliseen alveolaariseen... embryonaaliseen rabdomyosarkoomaan
+## Kladribiini: puriinianalogi → parameningeaalinen alkioperäinen rabdomyosarkooma (parameningeal embryonal rhabdomyosarcoma)
 {: .text-alpha }
 
-> Huomio: otsikko tarkennetaan alla. Alkuperäiset käyttöaiheet ovat karvasoluleukemia ja multippeliskleroosi; ennustettu uusi käyttöaihe on parameningeaalinen embryonaalinen rabdomyosarkooma.
+## Yhden lauseen yhteenveto
 
-## Kladribiini: karvasoluleukemiasta parameningeaaliseen embryonaaliseen rabdomyosarkoomaan
-{: .text-alpha }
-
-## Yhteenveto
-
-Kladribiini on puriininukleosidianalogi, jota on alun perin käytetty karvasoluleukemian ja multippeliskleroosin hoitoon.
-TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **parameningeaalisen embryonaalisen rabdomyosarkooman**,
-mutta ennusteen tueksi ei ole **yhtään kliinistä tutkimusta eikä yhtään julkaisua**. Ennuste perustuu pelkästään mallin laskemaan tietämysgraafin läheisyyteen.
+Kladribiini on puriininukleosidianalogi, jota käytetään lymfosyytteihin ja monosyytteihin kohdistuvassa solusalpaavassa hoidossa.
+TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **parameningeaalisen alkioperäisen rabdomyosarkooman (parameningeal embryonal rhabdomyosarcoma)**.
+Ennusteen tueksi ei ole **yhtään kliinistä tutkimusta eikä julkaisua**, joten kyseessä on vain mallin tuottama laskennallinen ennuste.
 
 ## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Karvasoluleukemia (Litak); multippeliskleroosi (Mavenclad) |
-| Ennustettu uusi käyttöaihe | Parameningeaalinen embryonaalinen rabdomyosarkooma |
-| TxGNN-ennustepisteet | 99,77 % |
+| Alkuperäinen käyttöaihe | Leukemia, Hairy Cell; Multiple Sclerosis |
+| Ennustettu uusi käyttöaihe | Parameningeaalinen alkioperäinen rabdomyosarkooma (parameningeal embryonal rhabdomyosarcoma) |
+| TxGNN-ennustepisteet | 0,9977 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 2 (molemmat peruutettu) |
-| Suositeltu päätös | Hold (odota) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Myyntilupien määrä | 2 (voimassa: 2) |
+| Suositeltu päätös | Hold (odottaa) |
 
-## Miksi ennuste voisi olla perusteltu?
+## Miksi ennuste on perusteltu?
 
-Kladribiini eli 2-kloorideoksiadenosiini on adenosiinideaminaasia kestävä puriininukleosidianalogi. Se kertyy soluihin, joissa deoksisytidiinikinaasin aktiivisuus on korkea, ja aiheuttaa DNA-juosteen katkeamisia ja apoptoosin, pääasiassa lymfosyyteissä ja monosyyteissä. Tämä selittää sen tehon lymfoidisissa kasvaimissa (karvasoluleukemia) ja immuunivälitteisessä MS-taudissa.
+Kladribiini eli 2-kloori-deoksiadenosiini on puriininukleosidianalogi, joka kestää adenosiinideaminaasin hajotusta. Se kertyy soluihin, joissa deoksisytidiinikinaasin aktiivisuus on korkea, ja aiheuttaa DNA-juosteiden katkeamista sekä apoptoosia pääasiassa lymfosyyteissä ja monosyyteissä.
 
-Rabdomyosarkooma on kiinteä mesenkymaalinen kasvain, eikä kladribiinin vaikutusmekanismille tunneta vakiintunutta perustetta tässä taudissa. Korkea pistemäärä heijastaa todennäköisesti graafin läheisyyttä muihin rabdomyosarkoomasolmuihin, ei tunnettua biologista yhteyttä. Yksityiskohtaista vaikutusmekanismitietoa ei ole tämän raportin aineistossa saatavilla. Ennuste on siis toistaiseksi vain hypoteesi.
+Tämä mekanismi ei kuitenkaan suoraan selitä vaikutusta rabdomyosarkoomaan, joka on kiinteä mesenkymaalinen kasvain. Ennuste perustuu vain TxGNN-mallin laskemaan pisteeseen, eikä sille ole tunnistettu tautikohtaista biologista perustetta. Samankaltaisuus alkuperäisen käyttöaiheen kanssa on toistaiseksi arvioimatta.
 
-Muut samalla pistemäärätasolla ennustetut aiheet (esim. emättimen botryoidi-rabdomyosarkooma, sappitiehyen rabdomyosarkooma, eturauhasen embryonaalinen rabdomyosarkooma, rabdomyosarkooma yleisesti) ovat pitkälti päällekkäisiä, ja niiden taustalla on todennäköisesti sama graafisignaali.
+Tähän raporttiin koottujen tietojen perusteella ennuste on siis hypoteesi, ei vahvistettu hoitosuuntaus.
 
 ## Kliininen tutkimusnäyttö
 
-Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
+Tähän ennusteeseen ei tällä hetkellä ole rekisteröityjä kliinisiä tutkimuksia.
 
 ## Kirjallisuusnäyttö
 
-Parameningeaaliselle embryonaaliselle rabdomyosarkoomalle ei löytynyt aiheeseen liittyvää kirjallisuutta.
+Tähän ennusteeseen ei tällä hetkellä ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
-Ainoa graafin seitsemänteen ennusteeseen (maksasarkooma) liitetty julkaisu ei tue ensisijaista ennustetta, mutta mainittakoon se avoimuuden vuoksi:
+## Suomen markkinatiedot
 
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
-|------|-----|------|------|---------|
-| [15241520](https://pubmed.ncbi.nlm.nih.gov/15241520/) | 2004 | Tapausselostus | Der Hautarzt | Kladribiinilla onnistunut hoito ns. kytevässä systeemisessä mastosytoosissa; hematologinen kasvain, ei maksasarkooma, joten näyttö on korkeintaan epäsuoraa |
-
-## Myyntiluvat Suomessa
-
-| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/000504 | Litak | – | Karvasoluleukemia (peruutettu) |
-| EMEA/H/C/004230 | Mavenclad | – | Multippeliskleroosi (peruutettu) |
+| EMEA/H/C/000504 | Litak | – | Ohjelma täyttää tiedon |
+| EMEA/H/C/004230 | Mavenclad | – | Ohjelma täyttää tiedon |
 
-## Sytotoksisuus
-
-Kladribiini on solunsalpaaja (nukleosidianalogi), joten seuraavat tiedot koskevat sitä. Aineistossa ei ole yksityiskohtaisia toksisuustietoja, joten tiedot perustuvat lääkeryhmään ja tietämysgraafin vasta-aiheisiin; tarkemmat tiedot on tarkistettava valmisteyhteenvedosta.
+## Solunsalpaajan ominaisuudet
 
 | Kohta | Sisältö |
 |------|------|
-| Sytotoksisuusluokitus | Perinteinen sytotoksinen lääke (puriininukleosidianalogi) |
-| Luuydinsuppression riski | Korkea (tietämysgraafin mukaan neutropenia, trombosytopenia, agranulosytoosi ja anemia ovat vasta-aiheisiin liittyviä tiloja) |
-| Oksennusta aiheuttavuus | Ei tietoa aineistossa; katso valmisteyhteenveto |
-| Seurantakohteet | Verenkuva erittelylaskennalla, maksa- ja munuaisarvot |
-| Käsittelysuojaus | Sytotoksisten lääkkeiden käsittelyohjeiden noudattaminen |
+| Luokitus | Perinteinen solunsalpaaja (puriininukleosidianalogi) |
+| Luuytimen suppressio | Luuydinsuppressio ja sytopeniat ovat mahdollisia; tarkempia tietoja ei ole koottu tähän raporttiin |
+| Oksettavuusluokitus | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Seurattavat parametrit | Verenkuva (erittelylaskennalla), maksa- ja munuaisarvot |
+| Käsittelyn suojaus | Noudatettava solunsalpaajien käsittelyohjeita |
 
 ## Turvallisuushuomiot
 
-- **Tietämysgraafin vasta-aiheet** (eivät ole valmisteyhteenvedon tekstiä): munuaissairaus, pyoureter, trombosytopenia, hyperurikemia, neutropenia, agranulosytoosi, ääreishermoston sairaus, perifeerinen neuropatia, anemia ja makrosyyttinen anemia.
-- **Lääkeyhteisvaikutukset:** yhteensä 100 yhteisvaikutusta. Merkittäviä (Major) ovat mm.:
-  - kortikosteroidit: hydrokortisoni, triamsinoloni, deksametasoni, betametasoni, budesonidi, prednisolooni, prednisoni
-  - deferipronI
-  - radiofarmaseuttiset ja radioimmunoterapeuttiset valmisteet: ibritumomabitiuksetaani, jobenguaani (I-131), tositumomabi (I-131), samarium (153Sm) leksidronaami, strontium-89-kloridi
-  - Keskivaikeita (Moderate): palifermiini, dipyridamoli, silostatsoli, eltrombopagi.
+- **Lääkeyhteisvaikutukset**: Yhteisvaikutustietokannasta löytyi yhteensä 100 yhteisvaikutusta. Merkittäviksi (Major) luokiteltuja ovat muun muassa kortikosteroidit (hydrokortisoni, triamsinoloni, deksametasoni, betametasoni, budesonidi, prednisolooni, prednisoni), deferipronii sekä radioaktiiviset valmisteet (ibritumomabitiuksetaani, jobenguaani I-131, tositumomabi, samarium-153-leksidronaami, strontium-89-kloridi). Kohtalaisia (Moderate) ovat muun muassa palifermiini, dipyridamoli, silostatsoli ja eltrombopagi.
 
-Valmisteyhteenvedon varoitukset ja vasta-aiheet eivät ole tämän raportin aineistossa, joten ne on tarkistettava erikseen.
+Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Hold (odota)**
+**Päätös: Hold (odottaa)**
 
 **Perustelut:**
-- Ennuste perustuu pelkästään tietämysgraafin pistemäärään (L5). Kliinisiä tutkimuksia ja kohdennettua kirjallisuutta ei ole, eikä kladribiinin mekanismille ole tunnettua perustetta rabdomyosarkoomassa. Lisäksi molemmat Suomen myyntiluvat on peruutettu ja luuydinsuppression riski on merkittävä.
+Ennuste perustuu pelkästään TxGNN-mallin pisteeseen (0,9977), eikä sen tueksi ole kliinisiä tutkimuksia, julkaisuja eikä tautikohtaista mekanistista perustetta. Näytön taso on L5.
 
-**Eteneminen edellyttää:**
-- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista (Fimea)
-- Vaikutusmekanismitietojen täydentämistä (DrugBank)
-- Prekliinistä näyttöä (esim. solulinja- ja eläinkokeet rabdomyosarkoomassa, deoksisytidiinikinaasin ilmentyminen kasvaimessa)
-- Systemaattista kirjallisuushakua rabdomyosarkoomasta ja kladribiinista
-- Selvitystä siitä, onko valmiste Suomessa saatavilla, kun myyntiluvat on peruutettu
+**Jatkotoimenpiteet:**
+- Prekliiniset tutkimukset kladribiinin vaikutuksesta rabdomyosarkoomasoluihin
+- Systemaattinen kirjallisuushaku aiheesta
+- Mekanismitietojen (MOA) täydentäminen
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden kokoaminen ennen turvallisuusarviota
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -50,8 +50,8 @@ Alpelisibi on PI3K-alfa-estäjä, jota on alun perin käytetty rintasyövän hoi
 | Ennustettu uusi käyttöaihe | Keuhkoverenpainetauti (pulmonary hypertension) |
 | TxGNN-ennustepistemäärä | 99,03 % |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

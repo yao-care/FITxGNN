@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 124
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-13
-description: "Dalbavancin: ennustettu uusi käyttöaihe Postinfektiiviset vaskuliitti (näytön taso L5). Alkuperäinen käyttöaihe: Pehmytkudosinfektiot"
 monitor_inn: "Dalbavancin"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "otitis externa", "ophthalmic herpes zoster", "infectious mononucleosis", "orbital cellulitis"]
+last_modified_at: 2026-10-27
+description: "Dalbavancin: ennustettu uusi käyttöaihe Infektion jälkeinen vaskuliitti (postinfectious vasculitis) (näytön taso L5). Alkuperäinen käyttöaihe: Soft Tissue Infections"
 ---
 
 # Dalbavancin
@@ -33,103 +33,80 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Dalbavansiini: Ihon ja pehmytkudoksen bakteeri-infektioista postinfektiiviseen vaskuliittiin
+## Dalbavansiini: lipoglykopeptidiantibiootti → infektion jälkeinen vaskuliitti (postinfectious vasculitis)
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 
-Dalbavansiini on lipoglykopeptidiantibiootti, jota on alun perin käytetty ihon ja pehmytkudoksen bakteeri-infektioiden hoitoon.
-TxGNN-malli ennustaa sen voivan tehota **postinfektiiviseen vaskuliittiin**, mutta ennusteen tueksi ei ole tällä hetkellä **yhtään kliinistä tutkimusta eikä julkaisua** (näytön taso L5, pelkkä mallin ennuste).
+Dalbavansiini on lipoglykopeptidiantibiootti, joka vaikuttaa grampositiivisiin bakteereihin. TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **infektion jälkeisen vaskuliitin (postinfectious vasculitis)**. Ennusteen tueksi ei ole tässä raportissa käytetyissä tiedoissa yhtään kliinistä tutkimusta eikä julkaisua, joten ennuste perustuu pelkästään laskennalliseen mallinnukseen.
 
 ---
 
 ## Pikakatsaus
 
-| Kohde | Sisältö |
+| Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Pehmytkudosinfektiot; bakteeriset ihosairaudet |
-| Ennustettu uusi käyttöaihe | Postinfektiiviset vaskuliitti |
-| TxGNN-ennusteen pistemäärä | 99,76 % |
+| Alkuperäinen käyttöaihe | Soft Tissue Infections;Skin Diseases, Bacterial |
+| Ennustettu uusi käyttöaihe | Infektion jälkeinen vaskuliitti (postinfectious vasculitis) |
+| TxGNN-ennusteen pistemäärä | 0,9976 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 |
-| Suositeltu päätös | Hold (odotetaan) |
-
-Huomio: ensimmäisen ennusteen lisäksi tarkasteltiin yhteensä 10 ennustettua käyttöaihetta (ks. alla).
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
+| Suositeltu päätös | Hold (odota) |
 
 ---
 
-## Miksi ennuste on (tai ei ole) perusteltu?
+## Miksi ennuste on perusteltu?
 
-Tämän raportin yhteydessä koottu aineisto ei sisällä yksityiskohtaista vaikutusmekanismitietoa. Tiedossa on, että dalbavansiini on lipoglykopeptidiantibiootti, joka vaikuttaa grampositiivisten bakteerien soluseinän synteesiin. Sen teho ihon ja pehmytkudoksen infektioissa on osoitettu, ja pitkä puoliintumisaika mahdollistaa harvoin annosteltavan hoidon.
+Dalbavansiini on pitkävaikutteinen lipoglykopeptidiantibiootti, joka estää grampositiivisten bakteerien soluseinän synteesiä. Tarkempia mekanismitietoja ei ole tässä raportissa käytetyissä tiedoissa saatavilla.
 
-Postinfektiivinen vaskuliitti on infektion jälkeinen immuunivälitteinen prosessi. Antibakteerinen lääke ei odotettavasti hoida sitä suoraan. Yhteys voisi olla vain epäsuora, jos sairautta ylläpitäisi pitkittynyt grampositiivinen infektioliipaukseen. Korkea pistemäärä on laskennallinen ennuste, jota ei tue yksikään tutkimus tai julkaisu, ja se heijastaa todennäköisesti verkoston läheisyyttä infektioon liittyviin käsitteisiin.
-
-### Muut ennustetut käyttöaiheet
-
-| Sija | Käyttöaihe | Pistemäärä | Näytön taso | Arvio |
-|------|------|------|------|------|
-| 1 | Postinfektiiviset vaskuliitti | 99,76 % | L5 | Vain epäsuora yhteys, Hold |
-| 2 | Bakteeri-infektion jälkeinen häiriö | 99,76 % | L5 | Epäspesifinen luokka, Hold |
-| 3 | Infektion jälkeinen oireyhtymä | 99,76 % | L5 | Immuunivälitteinen, ei selvää mekanismia, Hold |
-| 4 | Infektiivinen virtsaputken ahtauma | 99,74 % | L5 | Antibiootti ei kumoa arpeutumaa, Hold |
-| 5 | Chagasin kardiomyopatia | 99,72 % | L5 | Alkueläinperäinen, ei uskottava, Hold |
-| 6 | Infektioon liittyvä hemolyyttis-ureeminen oireyhtymä | 99,72 % | L5 | Toksiinivälitteinen, antibiootit voivat olla haitallisia, Hold |
-| 7 | Ulkokorvatulehdus | 99,70 % | L5 | Pseudomonas-kattavuus puuttuu, Hold |
-| 8 | Silmän vyöruusu | 99,25 % | L5 | Virustauti, ei mekanismia, Hold |
-| 9 | Tarttuva mononukleoosi | 99,16 % | L5 | Virustauti, ei mekanismia, Hold |
-| 10 | Silmäkuopan selluliitti | 99,02 % | L4 | Mekanistisesti uskottavin, tutkimuskysymys |
-
-**Silmäkuopan selluliitti** on ennusteista uskottavin: sen tavallisia aiheuttajia (S. aureus, myös MRSA, ja streptokokit) dalbavansiinin kattavuus koskee, ja se liittyy hyväksyttyyn ihon ja pehmytkudoksen infektioiden käyttöaiheeseen. Näyttö on kuitenkin vain epäsuoraa. Silmäkuopan ja silmän kudoksiin tunkeutumista ei ole kuvattu, ja tavanomainen suonensisäinen hoito yhdessä kirurgisen hoidon kanssa on jo tehokas. Pitkä puoliintumisaika voisi mahdollistaa kerta-annoksen tai jatkohoidon, mutta se vaatii ensin farmakokineettistä ja tapauskohtaista näyttöä.
+Infektion jälkeinen vaskuliitti on immuunivälitteinen tila, joka kehittyy infektion jälkeen. Antibiootin ei sen vuoksi odoteta hoitavan sitä suoraan. Yhteys voisi olla vain epäsuora: jos pitkittynyt grampositiivinen infektio toimii tulehdusreaktion laukaisijana, bakteerin eliminointi voisi teoriassa auttaa. Korkea pistemäärä on pelkkä laskennallinen ennuste, eikä sitä tue kliininen tai julkaistu näyttö.
 
 ---
 
 ## Kliininen tutkimusnäyttö
 
-Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
+Tällä hetkellä aiheeseen liittyviä kliinisiä tutkimuksia ei ole rekisteröity.
 
 ---
 
 ## Kirjallisuusnäyttö
 
-Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
+Tällä hetkellä aiheeseen liittyvää kirjallisuutta ei ole saatavilla.
 
 ---
 
-## Tiedot Suomen markkinoilta
+## Tietoa Suomen markkinoista
 
-| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/002840 | Xydalba (AbbVie Deutschland GmbH & Co. KG) | – | Pehmytkudosinfektiot; bakteeriset ihosairaudet |
-
-Tämä myyntilupa on peruutettu, eikä Suomessa ole voimassa olevaa myyntilupaa.
+| EMEA/H/C/002840 | Xydalba | – | Ihon ja pehmytkudoksen bakteeri-infektiot |
 
 ---
 
-## Turvallisuusnäkökohdat
+## Turvallisuushuomiot
 
-- **Lääkkeiden yhteisvaikutukset**: Löytyi 3 keskivaikeaksi luokiteltua yhteisvaikutusta:
-  - pikosulfaatti (Picosulfuric acid)
-  - etinyyliestradioli (Ethinylestradiol)
-  - mykofenolihappo (Mycophenolic acid)
+**Lääkeyhteisvaikutukset** (kolme kohtalaista yhteisvaikutusta):
+- pikosulfaattihappo (kohtalainen)
+- etinyyliestradioli (kohtalainen)
+- mykofenolihappo (kohtalainen)
 
-Muuta turvallisuustietoa varten katso valmisteyhteenveto. Lisäksi infektioon liittyvässä hemolyyttis-ureemisessa oireyhtymässä (Shiga-toksiiniin liittyvä muoto) antibiootit voivat olla haitallisia.
+Muuta turvallisuustietoa saa valmisteyhteenvedosta.
 
 ---
 
-## Johtopäätös ja seuraavat vaiheet
+## Johtopäätös ja seuraavat askeleet
 
-**Päätös: Hold (odotetaan)**
+**Päätös: Hold (odota)**
 
-**Perustelut:**
-- Kaikki ennusteet perustuvat pelkkään mallin laskentaan ilman kliinisiä tutkimuksia tai julkaisuja, ja useimmilta puuttuu uskottava mekanismi. Myös tuote on Suomessa vain peruutettuna, mikä rajoittaa käytännön toteutettavuutta. Silmäkuopan selluliittia voidaan tarkastella jatkotutkimuksen kysymyksenä.
+**Perustelu:**
+- Ennusteella on korkea pistemäärä (0,9976), mutta kliinistä tutkimusta tai julkaisua ei ole, ja mekanistinen yhteys on vain epäsuora. Näytön taso on L5.
 
-**Eteenpäin siirtyminen edellyttää:**
-- Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittämistä (kriittinen puute)
-- Yksityiskohtaisten vaikutusmekanismitietojen täydentämistä
-- Silmäkuopan selluliitin osalta farmakokineettistä tietoa kudoksiin tunkeutumisesta sekä tapauskohtaista näyttöä
-- Kirjallisuushaun ja tutkimusrekisterihaun tekemistä uudelleen valitulle käyttöaiheelle
-- Myyntiluvan ja saatavuuden tilanteen selvittämistä Suomessa
+**Jatkoon tarvitaan:**
+- Tutkimusnäyttöä, joka käsittelee suoraan infektion jälkeistä vaskuliittia (tapausraportit, retrospektiiviset aineistot tai kliiniset tutkimukset)
+- Tarkempi kuvaus vaikutusmekanismista
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet turvallisuusarviointia varten
+- Arvio siitä, voiko jokin pitkittynyt grampositiivinen infektio toimia taudin laukaisijana tässä potilasryhmässä
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

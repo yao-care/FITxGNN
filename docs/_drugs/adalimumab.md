@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Adalimumab
-parent: Kohtalainen näyttö (L3-L4)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 18
-evidence_level: L4
-indication_count: 6
-last_modified_at: 2026-10-13
-description: "Adalimumab: ennustettu uusi käyttöaihe Reumatoidinen vaskuliitti (näytön taso L4). Alkuperäinen käyttöaihe: Nivelreuma, nivelpsoriaasi, psoriaasi, selkärankareuma, uveiitti…"
+evidence_level: L5
+indication_count: 3
 monitor_inn: "ADALIMUMAB"
-predicted_indications: ["hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
+predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
+last_modified_at: 2026-10-27
+description: "Adalimumab: ennustettu uusi käyttöaihe Häntäluun hypermobiliteetti (hypermobility of coccyx) (näytön taso L5). Alkuperäinen käyttöaihe: Arthritis, Rheumatoid"
 ---
 
 # Adalimumab
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **6** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,121 +33,68 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-## Adalimumabi: Nivelreumasta reumatoidiseen vaskuliittiin
+## Adalimumabi: TNF-alfa-estäjä → Häntäluun hypermobiliteetti (hypermobility of coccyx)
 {: .text-alpha }
 
 ## Yhteenveto
 
-Adalimumabi on TNF-alfaa estävä monoklonaalinen vasta-aine, jota on käytetty nivelreuman, nivelpsoriaasin, selkärankareuman, psoriaasin, uveiitin, ulseratiivisen koliitin, Crohnin taudin, märkivän hikirauhastulehduksen ja lastenreuman hoitoon.
-TxGNN-malli ennustaa sen voivan tehota **reumatoidiseen vaskuliittiin** (pistemäärä 99,80 %).
-Tätä suuntaa tukee kuitenkin vain **1 kliininen tutkimus** (epäsuora yhteys) ja muutama tapausselostus, joten näyttö on heikkoa.
-
-Huomio: tälle raportille koottu aineisto sisältää kuusi ennustettua käyttöaihetta. Pääkohteena on pistemäärältään korkein (reumatoidinen vaskuliitti). Muut ennusteet on käsitelty lyhyesti kohdassa "Muut ennustetut käyttöaiheet".
-
----
+Adalimumabi on TNF-alfa-estäjänä toimiva monoklonaalinen vasta-aine. TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **häntäluun hypermobiliteetin (hypermobility of coccyx)**. Ennusteen tueksi ei ole yhtään kliinistä tutkimusta eikä julkaisua, joten ennuste perustuu pelkästään laskennalliseen mallinnukseen.
 
 ## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Nivelreuma, nivelpsoriaasi, psoriaasi, selkärankareuma, uveiitti, märkivä hikirauhastulehdus, ulseratiivinen koliitti, Crohnin tauti, lastenreuma |
-| Ennustettu uusi käyttöaihe | Reumatoidinen vaskuliitti |
-| TxGNN-ennustepistemäärä | 99,80 % |
-| Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 11 (kaikki peruutettuja, 0 voimassa olevaa) |
-| Suositeltu päätös | Hold (odota) |
+| Alkuperäinen käyttöaihe | Arthritis, Rheumatoid;Arthritis, Psoriatic;Psoriasis;Spondylitis, Ankylosing;Uveitis;Hidradenitis Suppurativa;Colitis, Ulcerative;Crohn Disease;Arthritis, Juvenile Rheumatoid; Arthritis, Rheumatoid;Arthritis, Psoriatic;Spondylitis, Ankylosing;Uveitis;Hidradenitis Suppurativa;Colitis, Ulcerative;Arth |
+| Ennustettu uusi käyttöaihe | Häntäluun hypermobiliteetti (hypermobility of coccyx) |
+| TxGNN-ennustepisteet | 0,9977 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 11/11) |
+| Myyntilupien määrä | 11 (voimassa: 11) |
+| Suositeltu päätös | Odotetaan |
 
----
+## Miksi ennuste voisi olla perusteltu?
 
-## Miksi ennuste on järkevä?
+Tässä käytettävissä olevassa aineistossa ei ole yksityiskohtaista tietoa vaikutusmekanismista. Adalimumabi tunnetaan TNF-alfa-sytokiinin estäjänä, ja sen teho TNF-välitteisissä tulehdussairauksissa on osoitettu.
 
-Yksityiskohtaista vaikutusmekanismia (MOA) ei ole tällä hetkellä saatavilla tietokannasta. Tunnetun tiedon perusteella adalimumabi on TNF-alfaa neutraloiva täysin ihmisperäinen vasta-aine, jonka teho nivelreumassa on osoitettu, ja mekanistisesti se voi soveltua myös reumatoidiseen vaskuliittiin.
-
-Reumatoidinen vaskuliitti on nivelreuman vakava nivelen ulkopuolinen komplikaatio, jossa TNF-alfan välittämä tulehdus on keskeisessä asemassa. TNF:n esto on siksi biologisesti uskottavaa. Perussairaus eli nivelreuma kuuluu jo adalimumabin hyväksyttyihin käyttöaiheisiin.
-
-Kliininen näyttö rajoittuu kuitenkin tapausselostuksiin. Lisäksi anti-TNF-hoidon aikana on raportoitu paradoksaalista vaskuliittia ja autoimmuuniilmiöitä (esim. antifosfolipidisyndrooma, ANCA-assosioitunut nefriitti), mikä herättää turvallisuushuolia.
-
----
+Häntäluun hypermobiliteetti on kuitenkin pääasiassa mekaaninen ja rakenteellinen tila. Sen taustalla ei ole tunnistettu TNF-välitteistä tulehdusmekanismia. Mekanistinen yhteys alkuperäiseen käyttöaiheeseen on siksi heikko eikä ole vahvistettu. Korkea ennustepistemäärä (0,9977) on laskennallinen tulos, eikä se yksinään osoita kliinistä hyötyä.
 
 ## Kliininen tutkimusnäyttö
 
-| Tutkimusnumero | Vaihe | Tila | Osallistujia | Keskeiset havainnot |
-|---------|------|------|------|---------|
-| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Vaihe 2 | Rekrytoi | 80 | Immunosuppressanttihoidon taukoaminen reumapotilailla olkapään tekonivelleikkauksen yhteydessä; ei testaa adalimumabia vaskuliitissa, joten yhteys on vain epäsuora |
-
----
+Tällä hetkellä aiheeseen ei ole rekisteröity kliinisiä tutkimuksia.
 
 ## Kirjallisuusnäyttö
 
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
-|------|-----|------|------|---------|
-| [25133007](https://pubmed.ncbi.nlm.nih.gov/25133007/) | 2014 | Tapausselostus | Case Rep Rheumatol | Nivelreumapotilaan sormien vaskuliitti reagoi hyvin adalimumabiin |
-| [30773522](https://pubmed.ncbi.nlm.nih.gov/30773522/) | 2019 | Tapausselostus | Intern Med | Akuutti keuhkoverenpainekriisi adalimumabin annoksen vähentämisen jälkeen reumatoidisessa vaskuliitissa |
-| [23559388](https://pubmed.ncbi.nlm.nih.gov/23559388/) | 2013 | Tapausselostus ja katsaus | Clin Rheumatol | Adalimumabiin liittyvä antifosfolipidisyndrooma; katsaus anti-TNF-lääkkeiden ja vaskuliitin yhteyteen |
-| [36418100](https://pubmed.ncbi.nlm.nih.gov/36418100/) | 2023 | Tapausselostus | Intern Med | ANCA-assosioitu nefriitti abataseptin ja adalimumabin aikana; tosilitsumabi lievensi tilaa |
-| [28719435](https://pubmed.ncbi.nlm.nih.gov/28719435/) | 2018 | Tapausselostus | Am J Dermatopathol | Leukosytoklastinen vaskuliitti adalimumabihoidon yhteydessä |
-| [28123776](https://pubmed.ncbi.nlm.nih.gov/28123776/) | 2017 | Rekisteritutkimus | RMD Open | TNF-estäjähoitoon liittyvien lupus- ja vaskuliittityyppisten tapahtumien riski nivelreumassa |
-| [31491879](https://pubmed.ncbi.nlm.nih.gov/31491879/) | 2019 | Verkostometa-analyysi | Int J Mol Sci | TNF-estäjät vähentävät nivelvaurioita nivelreumassa vastaavasti (36 RCT-tutkimusta) |
-| [16979537](https://pubmed.ncbi.nlm.nih.gov/16979537/) | 2006 | Katsaus | Best Pract Res Clin Rheumatol | Anti-TNF-hoidon ongelmat, mm. tuberkuloosin uudelleenaktivoituminen |
-| [15742457](https://pubmed.ncbi.nlm.nih.gov/15742457/) | 2005 | Katsaus | J Rheumatol Suppl | TNF-estäjien tehon vertailu nivelreumassa |
+Tällä hetkellä aiheesta ei ole saatavilla kirjallisuutta.
 
----
+## Markkinatiedot Suomessa
 
-## Suomen markkinatiedot
+Lääkevalmisteen markkinatilanne Suomessa on paikallisten lupatietojen mukaan "markkinoilla". Lupataulukko ja lupamäärä täydentyvät ohjelmallisesti.
 
-Adalimumabilla on 11 myyntilupaa (EU-keskitetyt luvat), mutta kaikki ovat tilassa "peruutettu".
+## Turvallisuushuomiot
 
-| Myyntilupanumero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/000481 | Humira | – | Selkärankareuma, lastenreuma, uveiitti, ulseratiivinen koliitti, psoriaasi, nivelpsoriaasi, Crohnin tauti, nivelreuma |
-| EMEA/H/C/004475 | Idacio | – | Nivelreuma, nivelpsoriaasi, psoriaasi, selkärankareuma, uveiitti, märkivä hikirauhastulehdus, ulseratiivinen koliitti... |
-| EMEA/H/C/004320 | Hyrimoz | – | Nivelreuma, nivelpsoriaasi, selkärankareuma, uveiitti, märkivä hikirauhastulehdus, ulseratiivinen koliitti... |
-| EMEA/H/C/005188 | Yuflyma | – | Nivelreuma, nivelpsoriaasi, psoriaasi, selkärankareuma, uveiitti, märkivä hikirauhastulehdus, ulseratiivinen koliitti... |
-| EMEA/H/C/004879 | Amsparity | – | Nivelreuma, nivelpsoriaasi, psoriaasi, selkärankareuma, uveiitti, märkivä hikirauhastulehdus, ulseratiivinen koliitti... |
+**Lääkeyhteisvaikutukset** (tähän raporttiin koottujen tietojen mukaan yhteensä 100 kirjattua yhteisvaikutusta; keskeisimmät):
 
-Taulukossa on viisi 11 myyntiluvasta.
+- **Merkittävät (Major):**
+  - Kortikosteroidit: betametasoni, budesonidi, deksametasoni, hydrokortisoni, prednisolooni, prednisoni ja triamsinoloni (myös silmään annettava).
+  - Deferiparoni.
+  - Radioaktiiviset ja radioleimatut valmisteet: ibritumomabitiuksetaani, jobenguaani (I-131), tositumomabi ja tositumomabi (I-131).
+- **Kohtalaiset (Moderate):** metronidatsoli, tinidatsoli, rosuvastatiini ja simvastatiini.
+- **Vähäiset (Minor):** sinkkiasetaatti, sinkkiglukonaatti ja sinkkisulfaatti.
 
----
+Varoitusten ja vasta-aiheiden osalta katso valmisteyhteenveto.
 
-## Turvallisuusnäkökohdat
+## Johtopäätös ja seuraavat askeleet
 
-Lääkevalmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut saatavilla tälle raportille, joten ne tulee tarkistaa valmisteyhteenvedosta.
+**Päätös: Odotetaan**
 
-**Yhteisvaikutukset** (yhteensä 100 tunnistettua, alla keskeisimmät):
-- **Merkittävä (Major):** kortikosteroidit (betametasoni, budesonidi, deksametasoni, hydrokortisoni, prednisolooni, prednisoni, triamsinoloni, myös silmäkäyttöinen triamsinoloni), deferipronI sekä radioaktiiviset valmisteet (ibritumomabi tiuxetaani, jobenguaani I-131, tositumomabi, tositumomabi I-131)
-- **Kohtalainen (Moderate):** metronidatsoli, tinidatsoli, rosuvastatiini, simvastatiini
-- **Lievä (Minor):** sinkkiasetaatti, sinkkiglukonaatti, sinkkisulfaatti
+**Perustelu:**
+Ennuste perustuu vain laskennalliseen malliin, eikä tukena ole kliinisiä tutkimuksia tai kirjallisuutta. Lisäksi TNF-välitteistä tulehdusmekanismia ei ole osoitettu mekaanisessa, rakenteellisessa häntäluun tilassa.
 
-**Kirjallisuudessa havaitut turvallisuussignaalit:** TB:n uudelleenaktivoituminen, infektioriski, paradoksaalinen vaskuliitti, lupuksen kaltaiset reaktiot, antifosfolipidisyndrooma ja munuaishaitat anti-TNF-hoidon aikana.
-
----
-
-## Muut ennustetut käyttöaiheet
-
-| Sija | Käyttöaihe | TxGNN-pistemäärä | Näytön taso | Suositus | Huomio |
-|------|------|------|------|------|------|
-| 2 | Häntäluun hypermobiliteetti | 99,77 % | L5 | Hold | Ei tutkimuksia eikä kirjallisuutta; TNF-välitteistä mekanismia ei tunnistettu |
-| 3 | Tulehduksellinen selkärankasairaus | 99,77 % | L1 | Proceed with Guardrails | Päällekkäinen selkärankareuman kanssa; useita vaihe 3 -tutkimuksia (mm. [NCT00939003](https://clinicaltrials.gov/study/NCT00939003), [NCT00478660](https://clinicaltrials.gov/study/NCT00478660), [NCT02714322](https://clinicaltrials.gov/study/NCT02714322)); pääosin käyttöaiheen mukaista käyttöä, ei uutta uudelleenkäyttöä |
-| 4 | Kümmellin tauti | 99,74 % | L5 | Hold | Ei näyttöä; sairaus on pääosin iskeeminen ja mekaaninen |
-| 5 | Polyartikulaarinen lastenreuma | 99,72 % | L1 | Proceed with Guardrails | Vaihe 3 -satunnaistettu lumekontrolloitu tutkimus ([NCT00048542](https://clinicaltrials.gov/study/NCT00048542), n=171) ja RCT ([PMID 18716298](https://pubmed.ncbi.nlm.nih.gov/18716298/)); jo hyväksytty käyttöaihe |
-| 6 | Selkärankasairaus (yleinen) | 99,18 % | L4 | Tutkimuskysymys | Käsite liian laaja; näyttö koskee vain tulehduksellista spondyloartriittia |
-
----
-
-## Johtopäätös ja jatkotoimet
-
-**Päätös: Hold (odota)**
-
-**Perustelut:**
-- Reumatoidisen vaskuliitin näyttö rajoittuu tapausselostuksiin, eikä yksikään tutkimus testaa adalimumabia suoraan tähän käyttöaiheeseen. Samalla anti-TNF-hoitoon liittyy raportoitua paradoksaalista vaskuliittia, ja Suomessa kaikki myyntiluvat on peruutettu.
-
-**Eteenpäin siirtyminen edellyttää:**
-- Lääkevalmisteyhteenvedon varoitus- ja vasta-aihetietojen hankkimista Fimean sivustolta (estää turvallisuusarvioinnin etenemisen)
-- Yksityiskohtaisia vaikutusmekanismitietoja (MOA) DrugBankista
-- Kontrolloituja tai vähintään havainnoivia tutkimuksia adalimumabista reumatoidisessa vaskuliitissa sekä paradoksaalisen vaskuliitin riskin arviointia
-- Myyntilupatilanteen selvittämistä Suomessa (kaikki 11 lupaa peruutettu)
-- Ennusteiden 3 ja 5 osalta on kyse jo hyväksytyistä käyttöaiheista, joten niitä ei tule pitää uusina uudelleenkäyttölöydöksinä
+**Eteneminen edellyttää seuraavaa:**
+- Mekanismitietojen (MOA) täydentäminen ja perusteltu hypoteesi TNF-estäjän roolista häntäluun hypermobiliteetissa.
+- Systemaattinen kirjallisuushaku, jolla selvitetään, onko tilan ja TNF-estäjähoidon yhteydestä mitään prekliinistä tai kliinistä näyttöä.
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden kokoaminen ennen turvallisuusarviointia.
+- Hoidon antoreittiä ja kohdekudoksen saavutettavuutta koskevan arvion tekeminen.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

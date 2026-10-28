@@ -4,7 +4,7 @@ title: Alglucosidase Alfa
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 24
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-13
 description: "Alglucosidase Alfa: ennustettu uusi käyttöaihe Aikuisten polyglukosaanikappaletauti (näytön taso L5). Alkuperäinen käyttöaihe: Glykogeenin varastotauti tyyppi II (Pompen tauti)"
 monitor_inn: "ALGLUCOSIDASE ALFA"
@@ -14,7 +14,7 @@ predicted_indications: ["adult polyglucosan body disease", "congenital entropion
 # Alglucosidase Alfa
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **8** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN-malli ennustaa sen voivan tehota **aikuisten polyglukosaanikappaletautiin*
 |------|------|
 | Alkuperäinen käyttöaihe | Glykogeenin varastotauti tyyppi II (Pompen tauti) |
 | Ennustettu uusi käyttöaihe | Aikuisten polyglukosaanikappaletauti |
-| TxGNN-ennusteen pistemäärä | 99,47 % |
+| TxGNN-ennusteen pistemäärä | 0,9947 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -66,7 +66,7 @@ Aikuisten polyglukosaanikappaletauti johtuu glykogeenia haaroittavan entsyymin (
 Yhteyttä heikentävät kuitenkin merkittävästi seuraavat seikat:
 - Polyglukosaani kertyy pääasiassa solulimaan, ei lysosomiin, joten lysosomaalinen GAA tuskin tavoittaa patologista substraattia.
 - Entsyymi ei läpäise veriaivoestettä tehokkaasti.
-- Korkea pistemäärä (0,995) on vain laskennallinen ennuste, eikä sitä tue kliininen näyttö tai kirjallisuus.
+- Korkea pistemäärä (0,9947) on vain laskennallinen ennuste, eikä sitä tue kliininen näyttö tai kirjallisuus.
 
 Muut ennustetut käyttöaiheet (sijat 2–10) ovat vielä heikommin perusteltuja:
 - **GBE1-puutoksen aiheuttamat glykogeenin varastotaudin muodot (GSD IV, perinataalinen kuolemaan johtava ja synnynnäinen neuromuskulaarinen muoto):** yhteys perustuu vain yhteiseen glykogeeniaineenvaihduntaan. GAA ei korvaa puuttuvaa haaroittavaa entsyymiä, joten perimmäistä vikaa ei korjata.

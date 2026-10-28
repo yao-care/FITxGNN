@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-## Catumaxomabi: Askiteksesta vaikeaan ei-proliferatiiviseen diabeettiseen retinopatiaan
+## Catumaxomabi: Vaikea ei-proliferatiivinen diabeettinen retinopatia
 {: .text-alpha }
 
 ## Yhteenveto
@@ -50,10 +50,10 @@ mutta ennusteen tueksi ei ole **yhtään kliinistä tutkimusta eikä julkaisua**
 |------|------|
 | Alkuperäinen käyttöaihe | Askites |
 | Ennustettu uusi käyttöaihe | Vaikea ei-proliferatiivinen diabeettinen retinopatia |
-| TxGNN-ennusteen pistemäärä | 99,64 % |
+| TxGNN-ennusteen pistemäärä | 0,9964 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -129,8 +129,8 @@ Samalla ennustelistalla olivat myös seuraavat, joilla on sama heikko näyttöta
 
 | Sija | Käyttöaihe | TxGNN-pistemäärä | Huomio |
 |------|------|------|------|
-| 2 | Lääkeaineen aiheuttama osteoporoosi | 99,58 % | Yhteyttä EpCAM/CD3-välitteisen T-solutuhon ja luuston uudistumisen (RANKL/OPG) välillä ei ole; sytokiinien vapautuminen voisi vaikuttaa luun vaihduntaan haitallisesti. |
-| 3 | Diabeettinen retinopatia | 99,47 % | Edellisen laajempi yläluokka; ennusteet perustuvat samaan signaaliin, joten ne eivät vahvista toisiaan. |
+| 2 | Lääkeaineen aiheuttama osteoporoosi | 0,9958 | Yhteyttä EpCAM/CD3-välitteisen T-solutuhon ja luuston uudistumisen (RANKL/OPG) välillä ei ole; sytokiinien vapautuminen voisi vaikuttaa luun vaihduntaan haitallisesti. |
+| 3 | Diabeettinen retinopatia | 0,9947 | Edellisen laajempi yläluokka; ennusteet perustuvat samaan signaaliin, joten ne eivät vahvista toisiaan. |
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-## Kaspofungiini: Candidiasista ja aspergilloosista gastriinin erityksen poikkeavuuteen
+## Kaspofungiini: Gastriinin erityksen poikkeavuus
 {: .text-alpha }
 
 ## Yhden virkkeen yhteenveto
@@ -48,10 +48,10 @@ Kaspofungiini on ekinokandiiniryhmän sienilääke, jota on alun perin käytetty
 |------|------|
 | Alkuperäinen käyttöaihe | Kandidiaasi; aspergilloosi |
 | Ennustettu uusi käyttöaihe | Gastriinin erityksen poikkeavuus (gastrin secretion abnormality) |
-| TxGNN-ennusteen pistemäärä | 99,44 % |
+| TxGNN-ennusteen pistemäärä | 0,9944 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -60,7 +60,7 @@ Kaspofungiini on ekinokandiiniryhmän sienilääke, jota on alun perin käytetty
 
 Tämän lääkkeen yksityiskohtaista vaikutusmekanismia koskevia tietoja ei ole tällä hetkellä saatavilla kootussa aineistossa. Yleisen farmakologisen tiedon mukaan kaspofungiini on ekinokandiini, joka estää beeta-(1,3)-D-glukaanisyntaasia ja häiritsee sienen soluseinän synteesiä. Sen teho kandidiaasissa ja aspergilloosissa on osoitettu.
 
-Tunnettua mekanistista yhteyttä tämän vaikutuksen ja gastriinin säätelyn välillä ei ole. Mikään tunnettu reitti ei yhdistä lääkettä G-soluihin, gastriinia erittäviin kasvaimiin (gastrinooma) tai mahahapon erityksen fysiologiaan. Hyvin korkea pistemäärä (0,994) on tietämysgraafiin perustuva ennuste. Se voi johtua verkostotason yhteyksistä, kuten jaetuista geeni- tai reittinaapureista, eikä välttämättä todellisesta farmakologisesta vaikutuksesta. Ennustetta on siksi tulkittava varovasti.
+Tunnettua mekanistista yhteyttä tämän vaikutuksen ja gastriinin säätelyn välillä ei ole. Mikään tunnettu reitti ei yhdistä lääkettä G-soluihin, gastriinia erittäviin kasvaimiin (gastrinooma) tai mahahapon erityksen fysiologiaan. Hyvin korkea pistemäärä (0,9944) on tietämysgraafiin perustuva ennuste. Se voi johtua verkostotason yhteyksistä, kuten jaetuista geeni- tai reittinaapureista, eikä välttämättä todellisesta farmakologisesta vaikutuksesta. Ennustetta on siksi tulkittava varovasti.
 
 ---
 

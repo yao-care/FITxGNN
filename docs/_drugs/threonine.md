@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-## Treoniini: Vaahterasiirappitaudista gastropareesiin
+## Treoniini: Gastropareesi
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -46,10 +46,10 @@ Treoniini on välttämätön aminohappo, jota on käytetty vaahterasiirappitaudi
 |------|------|
 | Alkuperäinen käyttöaihe | Vaahterasiirappitauti (MSUD) |
 | Ennustettu uusi käyttöaihe | Gastropareesi |
-| TxGNN-ennustepistemäärä | 99,32 % |
+| TxGNN-ennustepistemäärä | 0,9932 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste voi olla perusteltu?

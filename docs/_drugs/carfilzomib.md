@@ -39,7 +39,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 ## Yhden lauseen yhteenveto
 
 Karfiltsomibi on proteasomi-inhibiittori, jota on alun perin käytetty multippelin myelooman hoitoon.
-TxGNN-malli ennustaa sen voivan tehota **melanoomaan** (ennustepisteet 99,03 %), mutta tukena on vain **4 julkaisua** (prekliinisiä tai laskennallisia tutkimuksia) eikä yhtään kliinistä tutkimusta.
+TxGNN-malli ennustaa sen voivan tehota **melanoomaan** (ennustepisteet 0,9903), mutta tukena on vain **4 julkaisua** (prekliinisiä tai laskennallisia tutkimuksia) eikä yhtään kliinistä tutkimusta.
 
 ---
 
@@ -50,9 +50,9 @@ TxGNN-malli ennustaa sen voivan tehota **melanoomaan** (ennustepisteet 99,03 %),
 | Alkuperäinen käyttöaihe | Multippeli myelooma |
 | Ennustettu uusi käyttöaihe | Melanooma (ennusteen sijoitus 5; korkeimman pistemäärän ennuste on CMM7, 99,37 %) |
 | TxGNN-ennustepisteet | 99,03 % (melanooma) |
-| Näytön taso | L4 (melanooma); muut ennusteet L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Näytön taso | L5 (melanooma); muut ennusteet L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (pidätetään); melanoomalle tutkimuskysymys jatkoselvitystä varten |
 
 ---

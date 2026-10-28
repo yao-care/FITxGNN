@@ -4,17 +4,17 @@ title: Valsartan
 parent: Kohtalainen näyttö (L3-L4)
 nav_order: 462
 evidence_level: L4
-indication_count: 7
+indication_count: 6
 last_modified_at: 2026-10-13
-description: "Valsartan: ennustettu uusi käyttöaihe Pahanlaatuinen hypertensiivinen munuaissairaus (näytön taso L4). Alkuperäinen käyttöaihe: Sydämen vajaatoiminta (lisäksi verenpainetauti)"
 monitor_inn: "VALSARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
+description: "Valsartan: ennustettu uusi käyttöaihe Malignant hypertensive renal disease (näytön taso L4). Alkuperäinen käyttöaihe: Heart Failure"
 ---
 
 # Valsartan
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **7** kpl
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **6** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **7** kpl
 
 </div>
 
-## Valsartaani: Verenpainetaudista ja sydämen vajaatoiminnasta pahanlaatuiseen hypertensiiviseen munuaissairauteen
+## Valsartan: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## Yhteenveto
@@ -48,12 +48,12 @@ Ennusteelle ei ole kliinisiä tutkimuksia, ja **1 julkaisu** on vain epäsuora, 
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Sydämen vajaatoiminta (lisäksi verenpainetauti) |
-| Ennustettu uusi käyttöaihe | Pahanlaatuinen hypertensiivinen munuaissairaus |
+| Alkuperäinen käyttöaihe | Heart Failure; Hypertension |
+| Ennustettu uusi käyttöaihe | Malignant hypertensive renal disease |
 | TxGNN-ennustepisteet | 99,97 % |
 | Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 9 (kaikki peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 9/9) |
+| Myyntilupien määrä | 9 (voimassa: 9) |
 | Suositeltu päätös | Hold (odotetaan) |
 
 ---

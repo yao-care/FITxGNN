@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Deferiprone
-parent: Kohtalainen näyttö (L3-L4)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 133
-evidence_level: L4
-indication_count: 9
-last_modified_at: 2026-10-13
-description: "Deferiprone: ennustettu uusi käyttöaihe Maksaporfyria (näytön taso L4). Alkuperäinen käyttöaihe: Beta-talassemia"
+evidence_level: L5
+indication_count: 8
 monitor_inn: "DEFERIPRONE"
 predicted_indications: ["hepatic porphyria", "idiopathic copper-associated cirrhosis", "hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "primitive portal vein thrombosis", "pyruvate kinase deficiency of red cells", "pyropoikilocytosis, hereditary"]
+last_modified_at: 2026-10-27
+description: "Deferiprone: ennustettu uusi käyttöaihe Maksaporfyria (hepatic porphyria) (näytön taso L5). Alkuperäinen käyttöaihe: beta-Thalassemia"
 ---
 
 # Deferiprone
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **9** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **8** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,92 +33,75 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **9** kpl
 
 </div>
 
-## Deferipron: Beta-talassemiasta ja rautakuormasta maksaporfyriaan
+## Deferiproni: rautakelaattori → maksaporfyria (hepatic porphyria)
 {: .text-alpha }
 
 ## Yhteenveto
 
-Deferipron on suun kautta otettava rautakelaattori, jota on alun perin käytetty beta-talassemian yhteydessä esiintyvän rautakuorman hoitoon.
-TxGNN-malli ennustaa sen voivan tehota **maksaporfyriaan**,
-mutta ennusteen tukena on toistaiseksi vain **2 julkaisua** (prekliinisiä tutkimuksia) eikä yhtään rekisteröityä kliinistä tutkimusta.
+Deferiproni on suun kautta otettava rautakelaattori. Sen paikallisissa myyntiluvissa hyväksytty käyttöaihe liittyy beetatalassemiaan ja rautakuormaan. TxGNN-malli ennustaa, että lääkkeestä voisi olla hyötyä **maksaporfyriassa (hepatic porphyria)**. Tukena on **0 kliinistä tutkimusta** ja **2 julkaisua**, jotka ovat prekliinisiä tai mallitutkimuksia, joten näyttö on heikko.
 
----
-
-## Pikakatsaus
+## Pikayhteenveto
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Beta-talassemia; rautakuorma |
-| Ennustettu uusi käyttöaihe | Maksaporfyria |
-| TxGNN-ennustepistemäärä | 99,20 % |
-| Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 2 (molemmat peruutettu) |
-| Suositeltu päätös | Hold (odota) – käsitellään tutkimuskysymyksenä |
-
----
+| Alkuperäinen käyttöaihe | beta-Thalassemia;Iron Overload; Iron Overload;beta-Thalassemia |
+| Ennustettu uusi käyttöaihe | Maksaporfyria (hepatic porphyria) |
+| TxGNN-ennustepistemäärä | 0,9920 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Myyntilupien määrä | 2 (voimassa: 2) |
+| Suositeltu päätös | Hold |
 
 ## Miksi ennuste on perusteltu?
 
-Tässä raportissa käytetyssä aineistossa ei ole saatavilla yksityiskohtaista vaikutusmekanismitietoa. Tiedossa on kuitenkin, että deferipron on rautakelaattori, jonka teho rautakuorman hoidossa beta-talassemiassa on osoitettu, ja mekanistisesti se voi soveltua myös sellaisiin sairauksiin, joissa rauta on osa taudin syntymekanismia.
+Yksityiskohtaista vaikutusmekanismitietoa ei ole tällä hetkellä saatavilla. Tiedetään, että deferiproni on rautakelaattori, jonka teho rautakuorman hoidossa on osoitettu. Mekanistisesti se voisi soveltua sairauksiin, joissa rauta osallistuu taudin syntyyn.
 
-Porfyrioissa raudalla on patogeeninen rooli. Porphyria cutanea tardassa (PCT) maksan runsas rautapitoisuus estää uroporfyrinogeenidekarboksylaasin toimintaa. Synnynnäisessä erytropoieettisessa porfyriassa raudan kelaatio voi vähentää hemin synteesin virtaa ja porfyriinien kertymistä.
+Porfyrioissa raudalla on patogeneettinen rooli. Porphyria cutanea tardassa maksan rautakertymä estää uroporfyrinogeenidekarboksylaasin toimintaa. Synnynnäisessä erytropoieettisessa porfyriassa raudan kelaatio voi vähentää hemin synteesin virtaa ja porfyriinien kertymistä. Haetut kaksi julkaisua tukevat tätä rautariippuvaa mekanismia, mutta vain prekliinisessä tai pienimuotoisessa asetelmassa.
 
-Haetut kaksi julkaisua tukevat tätä rautariippuvaista mekanismia: vuoden 2020 tutkimus synnynnäisestä erytropoieettisesta porfyriasta ja vuoden 2007 hiirimalli uroporfyriasta. Ne ovat kuitenkin prekliinisiä tai pienimuotoisia tutkimuksia, eivätkä ne ole kliinisiä tutkimuksia maksaporfyriapotilailla.
-
----
+Ennuste ei siis perustu suoraan maksaporfyriaa koskeviin kliinisiin tutkimuksiin. Mekanistinen yhteys on uskottava, mutta se on vielä todentamatta ihmisillä.
 
 ## Kliininen tutkimusnäyttö
 
 Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
----
-
 ## Kirjallisuusnäyttö
 
 | PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [32678895](https://pubmed.ncbi.nlm.nih.gov/32678895/) | 2020 | Prekliininen | Blood | Raudan kelaatio lievitti hemolyyttistä anemiaa ja ihon valoherkkyyttä synnynnäisen erytropoieettisen porfyrian mallissa |
-| [17854053](https://pubmed.ncbi.nlm.nih.gov/17854053/) | 2007 | Prekliininen (hiirimalli) | Hepatology | Suun kautta otettavaa rautakelaattoria (deferipronia) ja rautaköyhää ruokavaliota verrattiin maksan uroporfyriinin kertymiseen PCT-hiirimallissa |
+| [32678895](https://pubmed.ncbi.nlm.nih.gov/32678895/) | 2020 | Prekliininen / tapaustason (synnynnäinen erytropoieettinen porfyria, malli) | Blood | Raudan kelaatio lievitti hemolyyttistä anemiaa ja ihon valoherkkyyttä synnynnäisessä erytropoieettisessa porfyriassa. |
+| [17854053](https://pubmed.ncbi.nlm.nih.gov/17854053/) | 2007 | Prekliininen (hiirimalli) | Hepatology | Suun kautta otettavaa rautakelaattoria (deferiproni) verrattiin rautaköyhään ruokavalioon uroporfyriassa porphyria cutanea tarda -hiirimallissa; arvioitiin maksan raudan vähentämisen vaikutusta uroporfyriinin kertymiseen. |
 
----
+Kumpikaan julkaisu ei ole kliininen tutkimus maksaporfyriapotilailla.
 
-## Myyntiluvat Suomessa
+## Tiedot Suomen markkinoilta
 
-| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/000236 | Ferriprox (peruutettu) | – | Beta-talassemia; rautakuorma |
-| EMEA/H/C/004710 | Deferiprone Lipomed (peruutettu) | – | Rautakuorma; beta-talassemia |
-
----
+| EMEA/H/C/000236 | Ferriprox | Ei kirjattu | Beetatalassemia; rautakuorma |
+| EMEA/H/C/004710 | Deferiprone Lipomed | Ei kirjattu | Rautakuorma; beetatalassemia |
 
 ## Turvallisuusnäkökohdat
 
-**Lääkeaineyhteisvaikutukset:** Yhteisvaikutustietokannasta löytyi yhteensä 100 yhteisvaikutusta. Aineistossa luetelluista tasoltaan kohtalaisia (Moderate) ovat muun muassa:
-- Kalsiumia sisältävät valmisteet (kalsiumfosfaatti, -asetaatti, -karbonaatti, -sitraatti, -glukonaatti, -laktaatti)
-- Magnesiumia sisältävät valmisteet (magnesiumoksidi, -karbonaatti, -kloridi, -sitraatti, -hydroksidi, -sulfaatti)
+**Lääkeyhteisvaikutukset** (tälle raportille koottujen tietojen mukaan yhteensä 100 kirjattua yhteisvaikutusta; keskivaikeiksi luokiteltuja mm.):
+- Kalsiumvalmisteet (kalsiumfosfaatti, -asetaatti, -karbonaatti, -sitraatti, -glukonaatti, -laktaatti)
+- Magnesiumvalmisteet (magnesiumoksidi, -karbonaatti, -kloridi, -sitraatti, -hydroksidi, -sulfaatti)
 - Alumiinihydroksidi, magaldraatti, attapulgiitti, kaoliini ja sukralfaatti
 - Rauta
 
-Nämä ovat pääosin antasideja ja metalli-ioneja sisältäviä valmisteita, jotka voivat sitoutua kelaattoriin. Antoajankohtien huolellinen erottelu on syytä selvittää valmisteyhteenvedosta.
+Nämä ovat pääosin antasideja ja kationeja sisältäviä valmisteita, jotka voivat sitoa kelaattoria. Muuta turvallisuustietoa varten tutustu valmisteyhteenvetoon.
 
-Lisäksi valmisteyhteenvedon varoitukset ja vasta-aiheet tulee tarkistaa, sillä niitä ei ole tässä aineistossa saatavilla.
+## Johtopäätös ja seuraavat askeleet
 
----
+**Päätös: Hold**
 
-## Johtopäätös ja jatkotoimet
+**Perustelu:**
+Maksaporfyriaa koskevaa suoraa kliinistä tai julkaistua tutkimusnäyttöä ei ole, ja olemassa oleva tuki on prekliinistä ja koskee lähisairauksia. Ennuste on vielä tutkimuskysymys, ei toimintasuositus.
 
-**Päätös: Hold (odota)**
-
-**Perustelut:**
-- Maksaporfyrian ennuste perustuu korkeaan TxGNN-pisteeseen ja kahteen prekliiniseen tutkimukseen. Kliinistä näyttöä ei ole. Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa, ja turvallisuustiedot (varoitukset, vasta-aiheet) puuttuvat, mikä estää etenemisen turvallisuusseulontaan.
-
-**Etenemiseksi tarvitaan:**
-- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen ja läpikäynti (estävä aukko)
-- Vaikutusmekanismitietojen täydentäminen
-- Maksaporfyrian (erityisesti PCT) kliinisten tutkimusten ja tapaussarjojen kartoitus
-- Selvitys siitä, miksi myyntiluvat on peruutettu, ja mahdollisen saatavuuden arviointi Suomessa
-- Muut ennustetut käyttöaiheet (esim. pyruvaattikinaasin puutos, beta-talassemian muut ilmenemismuodot) ovat joko vailla näyttöä tai päällekkäisiä alkuperäisen käyttöaiheen kanssa, joten niitä ei suositella ensisijaisiksi.
+**Jatkoa varten tarvitaan:**
+- Yksityiskohtaiset vaikutusmekanismitiedot
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet turvallisuusarviointia varten
+- Prekliininen validointi maksaporfyriamalleissa ja sen jälkeen pienet kliiniset tutkimukset
+- Arvio raudan kelaation hyöty–haittasuhteesta porfyriapotilailla (mm. neutropenia- ja agranulosytoosiriskin seuranta)
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

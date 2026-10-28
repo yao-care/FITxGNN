@@ -48,10 +48,10 @@ Histidiini on aminohappo, jonka valmiste (Maapliv) oli alun perin tarkoitettu va
 |------|------|
 | Alkuperäinen käyttöaihe | Vaahterasiirappitauti (Maple Syrup Urine Disease) |
 | Ennustettu uusi käyttöaihe | Gastropareesi |
-| TxGNN-ennusteen pistemäärä | 99,55 % |
+| TxGNN-ennusteen pistemäärä | 0,9955 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Tipirasiili: Kolorektaalisyövästä kohti umpisuolen karvaista adenoomaa
+## Tipirasiili: Umpisuolen karvainen adenooma
 {: .text-alpha }
 
 ## Yhden virkkeen yhteenveto
@@ -48,10 +48,10 @@ Tipirasiili on tymidiinifosforylaasin estäjä, jota käytetään yhdessä trifl
 |------|------|
 | Alkuperäinen käyttöaihe | Kolorektaalisyöpä (paksu- ja peräsuolen kasvaimet) |
 | Ennustettu uusi käyttöaihe | Umpisuolen karvainen adenooma (cecum villous adenoma) |
-| TxGNN-ennusteen pistemäärä | 99,99 % |
+| TxGNN-ennusteen pistemäärä | 0,9999 |
 | Näytön taso | L5 (vain mallin ennuste) |
-| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

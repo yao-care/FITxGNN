@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 194
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-13
-description: "Fosaprepitant: ennustettu uusi käyttöaihe Nefrogeeninen antidiureesisyndrooma (NSIAD) (näytön taso L5). Alkuperäinen käyttöaihe: Oksentelu"
 monitor_inn: "FOSAPREPITANT"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "pneumocystosis", "leprosy", "Cryptococcal meningitis", "multiple endocrine neoplasia", "intracranial abscess", "retinitis", "Plasmodium falciparum malaria", "echinococcus granulosus infectious disease", "hyperargininemia"]
+last_modified_at: 2026-10-27
+description: "Fosaprepitant: ennustettu uusi käyttöaihe Nefrogeeninen sopimattoman antidiureesin oireyhtymä (nephrogenic syndrome of inappropriate antidiuresis) (näytön taso L5). Alkuperäinen käyttöaihe: Vomiting"
 ---
 
 # Fosaprepitant
@@ -33,94 +33,64 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Fosaprepitantti: Oksentelun ja syövän hoidosta nefrogeeniseen antidiureesisyndroomaan (NSIAD)
+## Fosaprepitantti: NK1-reseptorin salpaaja → nefrogeeninen sopimattoman antidiureesin oireyhtymä (nephrogenic syndrome of inappropriate antidiuresis)
 {: .text-alpha }
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Fosaprepitantti on aprepitantin esilääke ja NK1-reseptorin salpaaja, jota on alun perin käytetty oksentelun (syöpähoitoihin liittyvä pahoinvointi) ehkäisyyn. TxGNN-malli ennustaa sen mahdollisesti tehoavan ensisijaisesti **nefrogeeniseen antidiureesisyndroomaan (NSIAD)**, mutta ennustetta tukevat vain mallin laskennalliset tulokset: **0 kliinistä tutkimusta** ja **0 julkaisua** tälle indikaatiolle.
-
----
+Fosaprepitantti on aprepitantin aihiolääke ja NK1-reseptorin (tachykiniini-1) salpaaja. TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **nefrogeenisen sopimattoman antidiureesin oireyhtymän (nephrogenic syndrome of inappropriate antidiuresis)**. Tämän suunnan tueksi ei ole löydetty yhtään kliinistä tutkimusta eikä julkaisua, joten ennuste perustuu pelkästään mallin laskentaan.
 
 ## Pikakatsaus
 
-| Kohde | Sisältö |
+| Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Oksentelu; syöpä |
-| Ennustettu uusi käyttöaihe | Nefrogeeninen antidiureesisyndrooma (NSIAD) |
-| TxGNN-ennustepistemäärä | 99,92 % |
+| Alkuperäinen käyttöaihe | Vomiting;Cancer |
+| Ennustettu uusi käyttöaihe | Nefrogeeninen sopimattoman antidiureesin oireyhtymä (nephrogenic syndrome of inappropriate antidiuresis) |
+| TxGNN-ennusteen pistemäärä | 0,9992 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
----
+## Miksi ennuste voisi olla perusteltu?
 
-## Miksi ennuste on (tai ei ole) perusteltu?
+Fosaprepitantin yksityiskohtaista vaikutusmekanismia ei ole saatavilla kootuissa tiedoissa. Tunnetun luokituksen mukaan se on aprepitantin aihiolääke, ja aprepitantti salpaa NK1-reseptoria, johon substanssi P sitoutuu.
 
-Yksityiskohtaista vaikutusmekanismitietoa (MOA) ei ole tällä hetkellä saatavilla. Tunnetun tiedon perusteella fosaprepitantti on aprepitantin esilääke, ja se salpaa NK1-reseptoria (substanssi P:n reseptori). Sen teho oksentelun ehkäisyssä on osoitettu.
+Nefrogeeninen sopimattoman antidiureesin oireyhtymä johtuu vasopressiinin V2-reseptorin (AVPR2) toiminnanlisäysmuunnoksista. Substanssi P:n ja NK1-signaloinnin ei tiedetä osallistuvan tähän reittiin. Uskottavaa mekanistista yhteyttä ei siis voida osoittaa.
 
-NSIAD johtuu vasopressiinin V2-reseptorin (AVPR2) toimintaa lisäävistä muutoksista. Substanssi P/NK1-signalointi ei tunnetusti osallistu tähän reaktioketjuun, joten mekanistista yhteyttä alkuperäiseen käyttöaiheeseen ei voida osoittaa. Korkea pistemäärä on pelkästään graafipohjainen ennuste, eikä sitä tue kliininen tai kirjallisuusnäyttö.
+Korkea pistemäärä on pelkästään verkostopohjainen laskennallinen ennuste. Sitä ei pidä tulkita kliiniseksi näytöksi.
 
-Muut korkeimmin pisteytetyt ennusteet (pneumokystoosi, lepra, kryptokokkimeningiitti, multippeli endokriininen neoplasia, aivojen sisäinen paise, malaria, echinokokkoosi, hyperargininemia) ovat samoin ilman tukevaa näyttöä ja ilman uskottavaa mekanismia. Ainoa poikkeus on **retiniitti** (sijalla 7, pistemäärä 99,68 %), jossa on yksi prekliininen julkaisu (ks. alla). Sen näyttötaso on L4 ja luokitus "tutkimuskysymys".
+## Kliininen tutkimusnäyttö
 
----
-
-## Kliiniset tutkimukset
-
-Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia (ei NSIAD:lle eikä muille kymmenelle ennustetulle käyttöaiheelle).
-
----
+Tällä hetkellä aiheeseen liittyviä kliinisiä tutkimuksia ei ole rekisteröity.
 
 ## Kirjallisuusnäyttö
 
-NSIAD:lle ei ole saatavilla aiheeseen liittyvää kirjallisuutta. Ainoa löydetty julkaisu koskee sijalla 7 olevaa retiniittiä:
+Tällä hetkellä aiheeseen liittyvää kirjallisuutta ei ole saatavilla.
 
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
-|------|-----|------|------|---------|
-| [32058829](https://pubmed.ncbi.nlm.nih.gov/32058829/) | 2021 | Prekliininen (hiirimalli) | Ocular Immunology and Inflammation | UVR-B-säteilyn aiheuttama NK1-reseptorin ilmentyminen silmäkudoksissa estyi fosaprepitantilla sekä altistetussa että altistamattomassa silmässä. Näyttö on epäsuoraa: tutkimus koskee UV-vauriota, ei retiniittiä, eikä ihmistutkimuksia ole. |
+## Tiedot Suomen markkinoilta
 
----
-
-## Myyntilupatiedot Suomessa
-
-| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/000743 | Ivemend | – | Oksentelu; syöpä (tila: peruutettu) |
+| EMEA/H/C/000743 | Ivemend | – | Oksentelu; syöpä |
 
----
+## Turvallisuushuomiot
 
-## Sytotoksisuus
+- **Lääkeaineyhteisvaikutukset**: Yhteisvaikutustietokannasta löytyi yhteensä 100 yhteisvaikutusta. Merkittäviksi (Major) luokiteltuja ovat muun muassa eliglustaatti ja naloksegoli. Keskivaikeiksi (Moderate) luokiteltuja ovat muun muassa deksametasoni, hydrokortisoni, betametasoni, budesonidi, triamsinoloni, klaritromysiini, simetidiini, pioglitatsoni, glimepiridi, nateglinidi, saksagliptiini, rabepratsoli, lansopratsoli, mikonatsoli, dronabinoli, alosetroni ja naldemediini.
 
-Fosaprepitantti on syöpähoitoihin liittyvän pahoinvoinnin ehkäisyyn käytettävä tukihoito eikä sytotoksinen syöpälääke, joten tätä osiota ei sovelleta.
-
----
-
-## Turvallisuusnäkökohdat
-
-- **Tietämysgraafin mukaiset vasta-aiheet:** maksan vajaatoiminta (peräisin TxGNN-tietämysgraafista, ei valmisteyhteenvedosta).
-- **Lääkeyhteisvaikutukset:** tarkistettuja yhteisvaikutuksia on yhteensä 100. Merkittäviä (Major) ovat:
-  - eliglustaatti
-  - naloksegoli
-
-  Kohtalaisia (Moderate) ovat mm. deksametasoni, hydrokortisoni, betametasoni, budesonidi, triamsinoloni, klaritromysiini, simetidiini, mikonatsoli, pioglitatsoni, glimepiridi, nateglinidi, saksagliptiini, lansopratsoli, rabepratsoli, alosetroni, dronabinoli ja naldemedini.
-
-Muilta osin tarkista turvallisuustiedot valmisteyhteenvedosta.
-
----
+Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 ## Johtopäätös ja seuraavat vaiheet
 
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste on pelkkä graafipohjainen laskennallinen tulos (L5). Kliinisiä tutkimuksia ja kirjallisuutta ei ole, eikä NK1-salpauksen ja NSIAD:n (V2-reseptorin aktivoituminen) välillä ole uskottavaa mekanistista yhteyttä. Lisäksi ainoa Suomen myyntilupa on peruutettu.
+- Ennusteelle ei ole kliinistä eikä kirjallista näyttöä, eikä uskottavaa mekanistista yhteyttä NK1-salpauksen ja V2-reseptorivälitteisen sairauden välillä ole. Näytön taso on L5.
 
-**Jatkoa varten tarvitaan:**
-- Valmisteyhteenvedon varoitukset ja vasta-aiheet Fimeasta (estävä tietoaukko turvallisuusseulonnalle)
-- Vaikutusmekanismitiedot (MOA) DrugBankista
-- Mekanistinen arviointi NK1/substanssi P -reitin ja AVPR2-välitteisen NSIAD:n yhteydestä
-- Retiniitti voidaan harkita jatkotutkimuskysymyksenä: tarvitaan lisää prekliinistä näyttöä ja sopivuusarvio antoreiteille (silmään vai systeemisesti)
+**Jatkoon tarvitaan:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden kerääminen ja jäsentäminen
+- Vaikutusmekanismitietojen täydentäminen
+- Prekliiniset tutkimukset, jotka selvittävät NK1-signaloinnin mahdollista roolia AVPR2-välitteisessä antidiureesissa, ennen kuin jatkoa harkitaan
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

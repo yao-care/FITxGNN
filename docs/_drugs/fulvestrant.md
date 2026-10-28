@@ -33,7 +33,7 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Fulvestrantti: rintasyövästä HIV-infektioon (tutkimuskysymys)
+## Fulvestrantti: HIV-infektio (tutkimuskysymys)
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -46,10 +46,10 @@ Fulvestrantti on estrogeenireseptorin antagonisti ja hajottaja, jota on alun per
 |------|------|
 | Alkuperäinen käyttöaihe | Rintasyöpä (Breast Neoplasms) |
 | Ennustettu uusi käyttöaihe | HIV-infektio |
-| TxGNN-ennustepistemäärä | 99,91 % |
+| TxGNN-ennustepistemäärä | 0,9991 |
 | Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 2 (molemmat peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Myyntilupien määrä | 2 (voimassa: 2) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste on perusteltu?
@@ -58,7 +58,7 @@ Fulvestrantin yksityiskohtaista vaikutusmekanismitietoa ei ole tässä aineistos
 
 Vuonna 2026 julkaistussa esikliinisessä tutkimuksessa tarkasteltiin, miten estrogeenireseptorin ligandit ja HIV:n latenssia purkavat aineet vaikuttavat ERα:han CD4+ T-soluissa. Tutkimus antaa uskottavan mutta epäsuoran mekanistisen yhteyden: ER voi vaikuttaa HIV:n transkriptioon ja latenssiin. Tutkimuksessa fulvestranttia käytettiin ER:n estäjänä.
 
-Ennuste perustuu silti pääosin laskennalliseen malliin. Korkea pistemäärä (0,999) ei yksin osoita kliinistä hyötyä, eikä HIV-käyttöaiheesta ole kliinisiä tutkimuksia.
+Ennuste perustuu silti pääosin laskennalliseen malliin. Korkea pistemäärä (0,9991) ei yksin osoita kliinistä hyötyä, eikä HIV-käyttöaiheesta ole kliinisiä tutkimuksia.
 
 ## Kliininen tutkimusnäyttö
 

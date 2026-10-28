@@ -50,8 +50,8 @@ Tenofoviiridisoproksiili on nukleotidirakenteinen käänteiskopioijaentsyymin es
 | Ennustettu uusi käyttöaihe | Apinoiden immuunikatovirusinfektio (SIV) |
 | TxGNN-ennustepisteet | 99,95 % |
 | Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 14 (kaikki peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 14/14) |
+| Myyntilupien määrä | 14 (voimassa: 14) |
 | Suositeltu päätös | Hold (odotettava) |
 
 ---

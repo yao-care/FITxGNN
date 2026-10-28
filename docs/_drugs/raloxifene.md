@@ -48,25 +48,25 @@ mutta ennusteen tueksi ei ole tällä hetkellä **yhtään kliinistä tutkimusta
 |------|------|
 | Alkuperäinen käyttöaihe | Postmenopausaalinen osteoporoosi |
 | Ennustettu uusi käyttöaihe | Pohjukaissuolen haavauma (duodenal ulcer) |
-| TxGNN-ennusteen pistemäärä | 99,72 % |
+| TxGNN-ennusteen pistemäärä | 0,9972 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 3 (kaikki peruutettu, voimassa olevia 0) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 3/3) |
+| Myyntilupien määrä | 3 (voimassa: 3) |
 | Suositeltu päätös | Hold (odota) |
 
 Muut ennustetut käyttöaiheet (kaikki näytön tasolla L5 ja suositus Hold):
 
 | Sija | Käyttöaihe | TxGNN-pistemäärä |
 |------|------|------|
-| 2 | Hypoalfalipoproteinemia (matala HDL) | 99,65 % |
-| 3 | Pohjukaissuolen tukos | 99,64 % |
-| 4 | Duodenogastrinen refluksi | 99,59 % |
+| 2 | Hypoalfalipoproteinemia (matala HDL) | 0,9965 |
+| 3 | Pohjukaissuolen tukos | 0,9964 |
+| 4 | Duodenogastrinen refluksi | 0,9959 |
 
 ## Miksi ennuste voisi olla perusteltu?
 
 Raloksifeenin vaikutusmekanismitietoja ei ole tällä hetkellä saatavilla. Tiedossa on, että raloksifeeni on SERM-lääke, joka sitoutuu estrogeenireseptoreihin alfa (ESR1) ja beeta (ESR2) sekä GPER-reseptoriin. Sen teho postmenopausaalisessa osteoporoosissa on osoitettu.
 
-Pohjukaissuolen haavauman patofysiologiaan (H. pylori -infektio, mahahapon eritys, tulehduskipulääkkeiden aiheuttama vaurio) ei tämän aineiston perusteella ole osoitettavissa mekanistista yhteyttä raloksifeeniin. Korkea pistemäärä (0,997) on pelkkä mallin tuottama ennuste, eikä alkuperäisen ja uuden käyttöaiheen välistä samankaltaisuutta ole vielä arvioitu.
+Pohjukaissuolen haavauman patofysiologiaan (H. pylori -infektio, mahahapon eritys, tulehduskipulääkkeiden aiheuttama vaurio) ei tämän aineiston perusteella ole osoitettavissa mekanistista yhteyttä raloksifeeniin. Korkea pistemäärä (0,9972) on pelkkä mallin tuottama ennuste, eikä alkuperäisen ja uuden käyttöaiheen välistä samankaltaisuutta ole vielä arvioitu.
 
 Muiden ennusteiden osalta: raloksifeeni muuttaa lipidiarvoja (laskee LDL-kolesterolia ja kokonaiskolesterolia), joten vaikutus lipoproteiinien aineenvaihduntaan on biologisesti mahdollinen. Raloksifeeni kuitenkin vaikuttaa HDL-kolesteroliin yleensä vain vähän. Pohjukaissuolen tukos on pääosin rakenteellinen tai mekaaninen tila, johon SERM-lääkkeellä ei ole uskottavaa vaikutusta. Duodenogastrinen refluksi on liikkuvuus- ja pylorustoiminnan häiriö, johon raloksifeenilla ei ole tunnettua vaikutusta. Korkeat pistemäärät heijastavat todennäköisesti läheisyyttä tietämysgraafissa, ei todellista hoitopotentiaalia.
 

@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 86
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-13
-description: "Brolucizumab: ennustettu uusi käyttöaihe Tumaperäisistä DNA-poikkeavuuksista johtuva mitokondriaalinen oksidat… (näytön taso L5). Alkuperäinen käyttöaihe: Kostea silmänpohjan ikärappeuma"
 monitor_inn: "BROLUCIZUMAB"
 predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "esophageal varices without bleeding", "esophageal varices with bleeding", "exocrine pancreatic insufficiency"]
+last_modified_at: 2026-10-27
+description: "Brolucizumab: ennustettu uusi käyttöaihe Mitokondrion oksidatiivisen fosforylaation häiriö ydin-DNA:n poikkeavuuksien vuoksi (mitochondrial oxidative phosphoryl… (näytön taso L5). Alkuperäinen käyttö…"
 ---
 
 # Brolucizumab
@@ -33,90 +33,63 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-## Brolutsitsumabi: Silmänpohjan kosteasta ikärappeumasta ennustettuun mitokondriaaliseen oksidatiiviseen fosforylaatiohäiriöön
+## Brolusitsumabi: VEGF-A:ta estävä vasta-ainefragmentti → mitokondrion oksidatiivisen fosforylaation häiriö ydin-DNA:n poikkeavuuksien vuoksi (mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies)
 {: .text-alpha }
 
-## Yhteenveto
+## Yhden lauseen yhteenveto
 
-Brolutsitsumabi on VEGF-A:ta estävä vasta-ainefragmentti (scFv), jota on käytetty kostean silmänpohjan ikärappeuman hoitoon.
-TxGNN-malli ennustaa sen voivan vaikuttaa **tumaperäisistä DNA-poikkeavuuksista johtuvaan mitokondriaaliseen oksidatiiviseen fosforylaatiohäiriöön**.
-Ennusteelle ei kuitenkaan ole **yhtään kliinistä tutkimusta eikä julkaisua**, joten näyttö perustuu pelkästään mallin laskennalliseen ennusteeseen.
-
----
+Brolusitsumabi on VEGF-A:ta estävä yksiketjuinen vasta-ainefragmentti (scFv), jota käytetään silmänpohjan kosteaan ikärappeumaan. TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **mitokondrion oksidatiivisen fosforylaation häiriön ydin-DNA:n poikkeavuuksien vuoksi (mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies)**. Ennusteen tueksi ei ole löydetty yhtään kliinistä tutkimusta eikä julkaisua, joten ennuste perustuu pelkkään mallilaskentaan.
 
 ## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Kostea silmänpohjan ikärappeuma |
-| Ennustettu uusi käyttöaihe | Tumaperäisistä DNA-poikkeavuuksista johtuva mitokondriaalinen oksidatiivisen fosforylaation häiriö |
-| TxGNN-ennustepisteet | 99,67 % |
+| Alkuperäinen käyttöaihe | Wet Macular Degeneration |
+| Ennustettu uusi käyttöaihe | Mitokondrion oksidatiivisen fosforylaation häiriö ydin-DNA:n poikkeavuuksien vuoksi (mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies) |
+| TxGNN-ennusteen pistemäärä | 0,9967 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
----
+## Miksi ennuste on perusteltu – tai ei?
 
-## Miksi ennuste on (tai ei ole) perusteltu?
+Yksityiskohtaisia tietoja brolusitsumabin vaikutusmekanismista ei ole tässä raportissa käytettävissä olevassa aineistossa. Tiedossa on, että lääke on VEGF-A:ta estävä vasta-ainefragmentti, joka on tarkoitettu silmänsisäiseen käyttöön.
 
-Brolutsitsumabi on VEGF-A:ta estävä yksiketjuinen vasta-ainefragmentti, joka on hyväksytty kosteaan silmänpohjan ikärappeumaan. Tarkkaa vaikutusmekanismia koskevaa tietoa ei ole tämän raportin aineistossa saatavilla.
+Aineistosta ei löydy selvää mekanistista yhteyttä VEGF-A:n eston ja ydin-DNA:n poikkeavuuksista johtuvien oksidatiivisen fosforylaation häiriöiden välillä. Pistemäärä voi heijastaa epäsuoria verkostoyhteyksiä, esimerkiksi hypoksiaan tai angiogeneesiin liittyviä reittejä, mutta tätä ei ole osoitettu.
 
-Aineiston perusteella ei ole osoitettavissa selvää mekanistista yhteyttä VEGF-A:n estoon ja tumaperäisiin oksidatiivisen fosforylaation häiriöihin. Korkea pistemäärä (0,997) on verkkopohjainen ennuste, joka voi heijastaa epäsuoria yhteyksiä, kuten hypoksiaan tai angiogeneesiin liittyviä reittejä. Sille ei ole kliinistä tai kirjallisuuteen perustuvaa tukea.
+Lisäksi mitokondriosairaus on systeeminen ja geneettisesti heterogeeninen tila. Silmänsisäisesti annettavalla anti-VEGF-valmisteella ei ole uskottavaa perustetta riittävälle systeemiselle altistukselle. Ennustetta on siksi pidettävä hyvin alustavana.
 
-Lisäksi mitokondriaalinen sairaus on systeeminen ja geneettisesti heterogeeninen tila. Silmänsisäisesti annettavalla anti-VEGF-lääkkeellä ei ole uskottavaa perustetta systeemiselle altistukselle, joten ennustetta on pidettävä erittäin epävarmana.
+## Kliininen näyttö
 
----
+Tähän käyttöaiheeseen ei ole tällä hetkellä rekisteröityjä kliinisiä tutkimuksia.
 
-## Muut mallin ennustamat käyttöaiheet
+## Kirjallisuusnäyttö
 
-Aineistossa on lisäksi kolme muuta ennustetta, joilla ei ole kliinistä tutkimusta eikä kirjallisuutta (kaikilla näytön taso L5, suositus Hold):
+Aiheesta ei ole tällä hetkellä saatavilla kirjallisuutta.
 
-| Ennustettu käyttöaihe | TxGNN-pisteet | Huomio |
-|------|------|------|
-| Ruokatorven suonikohjut ilman verenvuotoa | 99,12 % | VEGF-välitteinen kollateraalisuonten muodostus antaa vain löyhän teoreettisen perustelun. Systeeminen anti-VEGF-hoito voi lisätä verenvuoto- ja tromboembolia-riskiä. |
-| Ruokatorven suonikohjut verenvuodon kanssa | 99,12 % | Anti-VEGF-lääkkeisiin liittyy verenvuotoriski, joten käyttö aktiivisessa vuodossa on merkittävä turvallisuushuoli. |
-| Haiman ulkoeritystoiminnan vajaus | 99,07 % | VEGF-A:n eston ja haimatoiminnan välillä ei ole ilmeistä mekanistista yhteyttä. Hoitona on tyypillisesti entsyymikorvaus. |
+## Markkinatiedot Suomessa
 
----
-
-## Suomen markkinatiedot
-
-| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/004913 | Beovu | – | Kostea silmänpohjan ikärappeuma (myyntilupa peruutettu) |
-
----
+| EMEA/H/C/004913 | Beovu | – | Kostea silmänpohjan ikärappeuma |
 
 ## Turvallisuusnäkökohdat
 
-Tälle valmisteelle ei ole saatavilla pakkausselosteen varoituksia tai vasta-aiheita. Katso turvallisuustiedot valmisteyhteenvedosta.
-
-Lääketietämysverkosta (PrimeKG) johdetut lääkkeen ja sairauden väliset vasta-aihesuhteet, jotka eivät perustu valmisteen myyntiluvan tekstiin, liittyvät seuraaviin sairauksiin:
-- uveiitti
-- värikalvon sairaus
-- sädekehän sairaus
-- panuveiitti
-- silmän infektiosairaus
-- sidekalvotulehdus
-
-Lääkeinteraktioita ei löytynyt aineistosta.
-
----
+Aineistossa ei ole lääkevalmisteyhteenvedon varoituksia tai vasta-aiheita. Lääkkeiden yhteisvaikutuksista ei löytynyt tietoja. Turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 ## Johtopäätös ja seuraavat vaiheet
 
 **Päätös: Hold (odota)**
 
-**Perustelut:**
-- Ennusteilla ei ole kliinistä tutkimusnäyttöä eikä kirjallisuutta (L5), ja mekanistinen yhteys on heikko tai puuttuu. Lääke on lisäksi suunniteltu silmänsisäiseen käyttöön, ja Suomessa sen ainoa myyntilupa on peruutettu.
+**Perustelu:**
+Ennusteen tueksi ei ole kliinisiä tutkimuksia eikä julkaisuja, eikä uskottavaa mekanistista yhteyttä ole osoitettu. Silmänsisäinen anti-VEGF-valmiste ei sovellu systeemiseen mitokondriosairauteen. Näytön taso on L5.
 
-**Etenemiseksi tarvitaan:**
-- Vaikutusmekanismia koskevat tiedot (MOA)
-- Valmisteyhteenvedon varoitukset ja vasta-aiheet, joita ilman turvallisuusseulontaan ei voida edetä
-- Prekliinistä tai mekanistista näyttöä jostakin ennustetusta käyttöaiheesta
-- Arvio antoreitin soveltuvuudesta (silmänsisäinen vs. systeeminen anto)
-- Systeemisen anti-VEGF-altistuksen verenvuoto- ja tromboembolia-riskien arviointi
+**Eteenpäin siirtyminen edellyttää:**
+- Vaikutusmekanismin tietojen täydentämistä
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittämistä
+- Prekliinistä näyttöä, joka osoittaa VEGF-A:n eston merkityksen kyseisessä sairaudessa
+- Arviota antoreitin soveltuvuudesta ja systeemisestä altistuksesta
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

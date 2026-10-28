@@ -6,9 +6,9 @@ nav_order: 295
 evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-13
-description: "Moroctocog Alfa: ennustettu uusi käyttöaihe Primaari verihiutaleiden vapautumishäiriö (näytön taso L5). Alkuperäinen käyttöaihe: Hemofilia A"
 monitor_inn: "MOROCTOCOG ALFA"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "acquired coagulation factor deficiency", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency"]
+description: "Moroctocog Alfa: ennustettu uusi käyttöaihe Primary release disorder of platelets (näytön taso L5). Alkuperäinen käyttöaihe: Hemophilia A"
 ---
 
 # Moroctocog Alfa
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **8** kpl
 
 </div>
 
-## Moroktokogi alfa: Hemofilia A:sta primaariin verihiutaleiden vapautumishäiriöön
+## Moroctocog Alfa: Primary release disorder of platelets
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -45,12 +45,12 @@ TxGNN-malli ennustaa sen voivan tehota **primaariin verihiutaleiden vapautumish�
 
 | Kohde | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Hemofilia A |
-| Ennustettu uusi käyttöaihe | Primaari verihiutaleiden vapautumishäiriö |
+| Alkuperäinen käyttöaihe | Hemophilia A |
+| Ennustettu uusi käyttöaihe | Primary release disorder of platelets |
 | TxGNN-ennustepisteet | 99,97 % |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odotetaan) |
 
 ## Miksi ennuste voisi olla perusteltu?

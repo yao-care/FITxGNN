@@ -49,10 +49,10 @@ TxGNN-malli ennustaa sen voivan tehota **Ambras-tyypin yleistyneeseen synnynnäi
 |------|------|
 | Alkuperäinen käyttöaihe | Erektiohäiriö |
 | Ennustettu uusi käyttöaihe | Ambras-tyypin yleistynyt synnynnäinen liikakarvoitus (Ambras type hypertrichosis universalis congenita) |
-| TxGNN-ennusteen pistemäärä | 99,98 % |
+| TxGNN-ennusteen pistemäärä | 0,9998 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 6 (kaikki peruutettuja) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 6/6) |
+| Myyntilupien määrä | 6 (voimassa: 6) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

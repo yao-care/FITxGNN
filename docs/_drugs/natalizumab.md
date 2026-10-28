@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-## Natalitsumabi: Multippeliskleroosista keuhkoputkentulehdukseen
+## Natalitsumabi: Keuhkoputkentulehdus
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -50,10 +50,10 @@ Ennuste perustuu pelkästään mallilaskentaan, ja sitä on pidettävä todennä
 |------|------|
 | Alkuperäinen käyttöaihe | Aaltoileva multippeliskleroosi (relapsoiva-remittoiva MS) ja multippeliskleroosi |
 | Ennustettu uusi käyttöaihe | Keuhkoputkentulehdus (bronchitis) |
-| TxGNN-ennusteen pistemäärä | 99,46 % |
+| TxGNN-ennusteen pistemäärä | 0,9946 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 2 (molemmat peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Myyntilupien määrä | 2 (voimassa: 2) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -106,7 +106,7 @@ Muiden ennustettujen käyttöaiheiden kirjallisuus (psoriaasi, parapsoriaasi, ak
 **Päätös: Hold (odota)**
 
 **Perustelu:**
-- Korkeasta TxGNN-pistemäärästä (0,995) huolimatta ennusteelle ei ole kliinistä eikä kirjallista tukea (taso L5). Lääkkeen PML-riski ja infektioalttiuden lisääntyminen tekevät riski-hyötysuhteesta epäedullisen keuhkoputkentulehduksessa. Lisäksi Suomessa kaikki myyntiluvat on peruutettu.
+- Korkeasta TxGNN-pistemäärästä (0,9946) huolimatta ennusteelle ei ole kliinistä eikä kirjallista tukea (taso L5). Lääkkeen PML-riski ja infektioalttiuden lisääntyminen tekevät riski-hyötysuhteesta epäedullisen keuhkoputkentulehduksessa. Lisäksi Suomessa kaikki myyntiluvat on peruutettu.
 
 **Eteneminen edellyttäisi seuraavaa:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankinta ja läpikäynti Fimeasta (estää tällä hetkellä turvallisuusseulonnan)

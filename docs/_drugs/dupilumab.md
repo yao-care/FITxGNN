@@ -4,7 +4,7 @@ title: Dupilumab
 parent: Vahva näyttö (L1-L2)
 nav_order: 149
 evidence_level: L2
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Dupilumab: ennustettu uusi käyttöaihe Keuhkoputkentulehdus (bronchitis) (näytön taso L2). Alkuperäinen käyttöaihe: Atooppinen ihottuma, prurigo, ruokatorven sairaudet, astma…"
 monitor_inn: "DUPILUMAB"
@@ -14,7 +14,7 @@ predicted_indications: ["bronchitis", "acne keloid", "exanthem (disease)", "neon
 # Dupilumab
 {: .fs-9 }
 
-Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L2** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Dupilumabi: Atooppisesta ihottumasta keuhkoputkentulehdukseen
+## Dupilumabi: Keuhkoputkentulehdus
 {: .text-alpha }
 
 ## Yhden virkkeen yhteenveto
@@ -48,10 +48,10 @@ Dupilumabi on IL-4Rα-vastaaineeseen perustuva biologinen lääke, jota on käyt
 |------|------|
 | Alkuperäinen käyttöaihe | Atooppinen ihottuma, prurigo, ruokatorven sairaudet, astma, sivuontelotulehdus |
 | Ennustettu uusi käyttöaihe | Keuhkoputkentulehdus (bronchitis) |
-| TxGNN-ennusteen pistemäärä | 99,92 % |
+| TxGNN-ennusteen pistemäärä | 0,9992 |
 | Näytön taso | L2 |
-| Markkinatilanne Suomessa | Vain peruutettu (ei voimassa olevia myyntilupia) |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota; tutkimuskysymys) |
 
 ---
@@ -133,7 +133,7 @@ Kohtalaisia (Moderate) yhteisvaikutuksia on mm. varfariinin, roflumilastin, atsa
 
 ### Huomio muista ennusteista
 
-Toiseksi sijoittunut ennuste, **ihottuma (dermatitis)**, on näytöltään vahvin (taso L1, useita vaiheen 3 RCT-tutkimuksia, päätös Proceed with Guardrails). Se vastaa kuitenkin jo hyväksyttyä käyttöaihetta (atooppinen ihottuma), joten se ei ole varsinaista lääkeuudelleenkäyttöä. Muiden ennusteiden (mm. keloidit, ihottuma-reaktiot) näyttö on heikko tai olematon.
+Ennusteiden (mm. keloidit) näyttö on heikko tai olematon.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

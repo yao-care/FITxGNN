@@ -48,10 +48,10 @@ Tezakaftori on CFTR-proteiinin korjaaja (korjaaja eli korrektori), jota on alun 
 |------|------|
 | Alkuperäinen käyttöaihe | Kystinen fibroosi |
 | Ennustettu uusi käyttöaihe | HIV-infektio (HIV infectious disease) |
-| TxGNN-ennusteen pistemäärä | 99,24 % |
+| TxGNN-ennusteen pistemäärä | 0,9924 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 3 (kaikki peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 3/3) |
+| Myyntilupien määrä | 3 (voimassa: 3) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -60,9 +60,9 @@ Tezakaftori on CFTR-proteiinin korjaaja (korjaaja eli korrektori), jota on alun 
 
 Tämän raportin laatimiseen koottuun aineistoon ei sisälly yksityiskohtaista vaikutusmekanismitietoa. Tiedossa on, että tezakaftori on CFTR-korjaaja, joka parantaa CFTR-proteiinin laskostumista ja kulkeutumista solun pinnalle. Sitä käytetään kystisen fibroosin hoidossa kiinteänä yhdistelmänä muiden CFTR-modulaattorien kanssa (Symdeko, Trikafta ja Alyftrek).
 
-Aineistossa ei ole mitään, mikä yhdistäisi CFTR-korjauksen HIV:n patofysiologiaan. Korkea TxGNN-pistemäärä (0,992) on pelkkä laskennallinen ennuste, eikä sen tueksi ole kliinistä näyttöä tai kirjallisuutta. Alkuperäisen ja uuden käyttöaiheen samankaltaisuutta ei ole arvioitu.
+Aineistossa ei ole mitään, mikä yhdistäisi CFTR-korjauksen HIV:n patofysiologiaan. Korkea TxGNN-pistemäärä (0,9924) on pelkkä laskennallinen ennuste, eikä sen tueksi ole kliinistä näyttöä tai kirjallisuutta. Alkuperäisen ja uuden käyttöaiheen samankaltaisuutta ei ole arvioitu.
 
-Samaa mallia on ennustettu myös muille käyttöaiheille: lepra (pistemäärä 99,14 %) ja multippeli endokriininen neoplasia (99,06 %). Myöskään näille ei ole löytynyt mekanistista yhteyttä, kliinisiä tutkimuksia tai kirjallisuutta.
+Samaa mallia on ennustettu myös muille käyttöaiheille: lepra (pistemäärä 0,9914) ja multippeli endokriininen neoplasia (0,9906). Myöskään näille ei ole löytynyt mekanistista yhteyttä, kliinisiä tutkimuksia tai kirjallisuutta.
 
 ---
 

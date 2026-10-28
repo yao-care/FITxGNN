@@ -6,9 +6,9 @@ nav_order: 292
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Miglustat: ennustettu uusi käyttöaihe Tay-Sachsin tauti (näytön taso L5). Alkuperäinen käyttöaihe: Gaucherin tauti"
 monitor_inn: "MIGLUSTAT"
 predicted_indications: ["autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease", "Krabbe disease", "metachromatic leukodystrophy", "Wolman disease with hypolipoproteinemia and acanthocytosis", "encephalopathy due to prosaposin deficiency", "Tay-Sachs disease", "benign neoplasm of adrenal gland", "recessive X-linked ichthyosis", "fatty acid hydroxylase-associated neurodegeneration"]
+description: "Miglustat: ennustettu uusi käyttöaihe Autosomal ichthyosis syndrome with fatal disease course (näytön taso L5). Alkuperäinen käyttöaihe: Gaucher Disease"
 ---
 
 # Miglustat
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Miglustaatti: Gaucherin taudista Tay-Sachsin tautiin
+## Miglustat: Autosomal ichthyosis syndrome with fatal disease course
 {: .text-alpha }
 
 ## Yhteenveto
@@ -48,12 +48,12 @@ Tätä suuntaa tukee tällä hetkellä **4 kliinistä tutkimusta** ja **11 julka
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Gaucherin tauti; Niemann-Pickin tauti |
-| Ennustettu uusi käyttöaihe | Tay-Sachsin tauti |
-| TxGNN-ennusteen pistemäärä | 99,75 % |
-| Näytön taso | L1 (huomioitava: tutkimukset ovat pieniä tai keskeytyneitä, ks. alla) |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 5 (kaikki peruutettuja) |
+| Alkuperäinen käyttöaihe | Gaucher Disease;Niemann-Pick Diseases; Gaucher Disease; Glycogen Storage Disease Type II |
+| Ennustettu uusi käyttöaihe | Autosomal ichthyosis syndrome with fatal disease course |
+| TxGNN-ennusteen pistemäärä | 0.9983 |
+| Näytön taso | L5 (huomioitava: tutkimukset ovat pieniä tai keskeytyneitä, ks. alla) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 5/5) |
+| Myyntilupien määrä | 5 (voimassa: 5) |
 | Suositeltu päätös | Hold (odotetaan lisänäyttöä) |
 
 *Huomio:* Tay-Sachsin taudin ennuste on aineistossa listan seitsemäs. Se on kuitenkin ainoa ennuste, jolle löytyy kliinistä näyttöä, joten raportti keskittyy siihen. Muut yhdeksän ennustetta perustuvat pelkkään mallin ennusteeseen (L5), eikä niille ole tutkimuksia tai kirjallisuutta.

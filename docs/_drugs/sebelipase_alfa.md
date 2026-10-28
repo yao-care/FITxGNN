@@ -4,7 +4,7 @@ title: Sebelipase Alfa
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 396
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Sebelipase Alfa: ennustettu uusi käyttöaihe Scheien oireyhtymä (näytön taso L5). Alkuperäinen käyttöaihe: Synnynnäiset lipidiaineenvaihdunnan häiriöt"
 monitor_inn: "SEBELIPASE ALFA"
@@ -14,7 +14,7 @@ predicted_indications: ["Scheie syndrome", "Hurler syndrome", "growth hormone in
 # Sebelipase Alfa
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Sebelipase alfa: synnynnäisistä lipidiaineenvaihdunnan häiriöistä Scheien oireyhtymään
+## Sebelipase alfa: Scheien oireyhtymä
 {: .text-alpha }
 
 ## Yhteenveto
@@ -49,10 +49,10 @@ TxGNN-malli ennustaa sille vaikutusta **Scheien oireyhtymään** (lievä MPS I -
 |------|------|
 | Alkuperäinen käyttöaihe | Synnynnäiset lipidiaineenvaihdunnan häiriöt |
 | Ennustettu uusi käyttöaihe | Scheien oireyhtymä |
-| TxGNN-ennustepistemäärä | 99,80 % |
+| TxGNN-ennustepistemäärä | 0,9980 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruttuja myyntilupia |
-| Myyntilupien määrä | 1 (peruttu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odotetaan) |
 
 ---
@@ -83,7 +83,7 @@ Tällä hetkellä ei ole aiheeseen liittyvää kirjallisuutta.
 
 | Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/004004 | Kanuma | – | Synnynnäiset lipidiaineenvaihdunnan häiriöt (lupa peruttu) |
+| EMEA/H/C/004004 | Kanuma | – | Synnynnäiset lipidiaineenvaihdunnan häiriöt (lupa voimassa) |
 
 ---
 

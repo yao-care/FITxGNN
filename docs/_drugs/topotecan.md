@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Topotecan
-parent: Kohtalainen näyttö (L3-L4)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 446
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-13
 description: "Topotecan: ennustettu uusi käyttöaihe Naisen rintasyöpä (näytön taso L3). Alkuperäinen käyttöaihe: Kohdunkaulan syöpä"
 monitor_inn: "TOPOTECAN"
@@ -14,7 +14,7 @@ predicted_indications: ["female breast carcinoma", "adult germ cell tumor"]
 # Topotecan
 {: .fs-9 }
 
-Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Topotekaani: Kohdunkaulan ja pienisoluisen keuhkosyövän hoidosta naisen rintasyöpään
+## Topotekaani: Naisen rintasyöpä
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -50,10 +50,10 @@ Tulos on tutkimuskysymys, ei vielä valmis hoitosuositus.
 |------|------|
 | Alkuperäinen käyttöaihe | Kohdunkaulan syöpä; pienisoluinen keuhkosyöpä |
 | Ennustettu uusi käyttöaihe | Naisen rintasyöpä |
-| TxGNN-ennusteen pistemäärä | 99,92 % |
-| Näytön taso | L3 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 3 (kaikki peruutettuja) |
+| TxGNN-ennusteen pistemäärä | 0,9992 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 3/3) |
+| Myyntilupien määrä | 3 (voimassa: 3) |
 | Suositeltu päätös | Hold (odotetaan) |
 
 ---
@@ -149,8 +149,7 @@ Useiden lääkkeiden (mm. omepratsoli, ondansetroni, deksametasoni, morfiini) yh
 
 ### Muut ennustetut käyttöaiheet (lyhyesti)
 
-- **Aikuisten sukusolukasvain** (TxGNN 99,57 %, L2, Research Question): näyttö tulee pääosin lasten ja nuorten uusiutuneista kiinteistä kasvaimista (neuroblastooma, aivokasvaimet, retinoblastooma). Suoraa aikuisten sukusolukasvaindataa on vain vähän.
-- **Kiveksen keltuaiskasvaimen histologiset alatyypit** (7 kappaletta, TxGNN 99,49 %, L5, Hold): ei tutkimuksia eikä kirjallisuutta, vain laskennallinen ennuste. Nämä ovat laajemman sukusolukasvainmerkinnän alatyyppejä.
+- **Aikuisten sukusolukasvain** (TxGNN 0,9957, L2, Research Question): näyttö tulee pääosin lasten ja nuorten uusiutuneista kiinteistä kasvaimista (neuroblastooma, aivokasvaimet, retinoblastooma). Suoraa aikuisten sukusolukasvaindataa on vain vähän.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

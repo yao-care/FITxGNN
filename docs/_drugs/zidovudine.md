@@ -4,7 +4,7 @@ title: Zidovudine
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 479
 evidence_level: L5
-indication_count: 6
+indication_count: 4
 last_modified_at: 2026-10-13
 description: "Zidovudine: ennustettu uusi käyttöaihe Kissan hankinnainen immuunipuutosoireyhtymä (feline acquired immunode… (näytön taso L5). Alkuperäinen käyttöaihe: HIV-infektio"
 monitor_inn: "ZIDOVUDINE"
@@ -14,7 +14,7 @@ predicted_indications: ["feline acquired immunodeficiency syndrome", "simian imm
 # Zidovudine
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 ## Yhteenveto
 
 Tsidovudiini (tsidovudiini, AZT) on nukleosidirakenteinen käänteiskopioijaentsyymin estäjä, jota on alun perin käytetty HIV-infektion hoitoon.
-TxGNN-malli ennustaa sen sopivan parhaiten **kissan hankinnaiseen immuunipuutosoireyhtymään** (pistemäärä 99,96 %), mutta ennusteen tukena on vain eläinkokeita ja **ei yhtään rekisteröityä kliinistä tutkimusta**.
+TxGNN-malli ennustaa sen sopivan parhaiten **kissan hankinnaiseen immuunipuutosoireyhtymään** (pistemäärä 0,9996), mutta ennusteen tukena on vain eläinkokeita ja **ei yhtään rekisteröityä kliinistä tutkimusta**.
 Tämä ennuste ei ole ihmisen lääkkeen uudelleenkäyttöä. Raportin lopussa arvioidaan lisäksi viittä muuta ennustetta, joista kaksi (AIDS-liitännäisoireyhtymä ja synnynnäinen HIV) kuuluu alkuperäisen HIV-käyttöaiheen piiriin.
 
 ---
@@ -51,9 +51,9 @@ Tämä ennuste ei ole ihmisen lääkkeen uudelleenkäyttöä. Raportin lopussa a
 | Alkuperäinen käyttöaihe | HIV-infektio |
 | Ennustettu uusi käyttöaihe | Kissan hankinnainen immuunipuutosoireyhtymä (feline acquired immunodeficiency syndrome) |
 | TxGNN-ennustepistemäärä | 99,96 % |
-| Näytön taso | L4 (eläin- ja prekliininen näyttö) |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 2 (molemmat peruutettu) |
+| Näytön taso | L5 (eläin- ja prekliininen näyttö) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Myyntilupien määrä | 2 (voimassa: 2) |
 | Suositeltu päätös | Hold (ihmiskäyttöä ajatellen tämä ennuste on tutkimuskysymys) |
 
 ---
@@ -138,11 +138,9 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet eivät ole tämän raportin aine
 
 | Ennuste | Pistemäärä | Näytön taso | Arvio |
 |------|------|------|------|
-| Simian immuunipuutosvirusinfektio | 99,96 % | L4 | Makakitutkimukset tukevat tehoa (esim. vastasyntyneiden suojaus, altistuksen jälkeinen estohoito), mutta kyseessä on HIV:n eläinmalli eli alkuperäisen käyttöaiheen tukeminen, ei uusi ihmisen käyttöaihe |
-| Neurokehityshäiriö (ataksia, puheen puuttuminen, aivojen valkean aineen väheneminen) | 99,96 % | L5 | Vain mallin ennuste. Uskottavaa mekanistista yhteyttä, tutkimuksia tai kirjallisuutta ei ole; tsidovudiinin mitokondrio- ja hermostohaitat puhuvat käyttöä vastaan. Hold |
-| Familiaalinen yhdistetty hyperlipidemia (vanhentunut termi) | 99,62 % | L5 | Ei näyttöä; termi on vanhentunut, ja NRTI-lääkkeisiin liittyy dyslipidemiaa ja lipodystrofiaa, joten haitta on todennäköisempi kuin hyöty. Hold |
-| AIDS-liitännäisoireyhtymä (ARC) | 99,19 % | L1 | Kuuluu alkuperäiseen HIV-käyttöaiheeseen; vaiheen 3 RCT-näyttöä (NCT00001011). Proceed with Guardrails |
-| Synnynnäinen HIV | 99,19 % | L1 | Kuuluu HIV-kirjoon; vakiintunut äidistä lapseen -tartunnan ehkäisy (PMID 7913986). Proceed with Guardrails |
+| Simian immuunipuutosvirusinfektio | 0,9996 | L5 | Makakitutkimukset tukevat tehoa (esim. vastasyntyneiden suojaus, altistuksen jälkeinen estohoito), mutta kyseessä on HIV:n eläinmalli eli alkuperäisen käyttöaiheen tukeminen, ei uusi ihmisen käyttöaihe |
+| Neurokehityshäiriö (ataksia, puheen puuttuminen, aivojen valkean aineen väheneminen) | 0,9996 | L5 | Vain mallin ennuste. Uskottavaa mekanistista yhteyttä, tutkimuksia tai kirjallisuutta ei ole; tsidovudiinin mitokondrio- ja hermostohaitat puhuvat käyttöä vastaan. Hold |
+| Familiaalinen yhdistetty hyperlipidemia (vanhentunut termi) | 0,9962 | L5 | Ei näyttöä; termi on vanhentunut, ja NRTI-lääkkeisiin liittyy dyslipidemiaa ja lipodystrofiaa, joten haitta on todennäköisempi kuin hyöty. Hold |
 
 Kaksi viimeistä ennustetta eivät ole aitoa uudelleenkäyttöä, koska ARC on historiallinen termi, joka sisältyy nykyään HIV-infektioon.
 

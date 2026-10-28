@@ -8,6 +8,7 @@ nav_order: 61
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-19
+predicted_indications: []
 ---
 
 # Axicabtagene Ciloleucel
@@ -51,7 +52,8 @@ Suositeltu toimenpide on korjata kaikki estävät/korkean vakavuuden tietoaukot 
 | Ennustettu uusi indikaatio | Ei mitään — TxGNN ei palauttanut ennusteita |
 | TxGNN-ennusteen pistemäärä | N/A |
 | Näyttötaso | N/A (ei ennusteita luotu) |
-| Suomen markkinatilanne | Ei markkinoilla (0 hyväksyntää) |
+| Suomen markkinatilanne | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Hyväksyntöjen lukumäärä | 0 |
 | Suositeltu päätös | **Pidätys** |
 

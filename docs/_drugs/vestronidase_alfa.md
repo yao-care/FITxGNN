@@ -49,10 +49,10 @@ TxGNN-malli ennustaa sen voivan tehota **Scheien oireyhtymään**, mutta ennuste
 |------|------|
 | Alkuperäinen käyttöaihe | Mukopolysakkaridoosi VII |
 | Ennustettu uusi käyttöaihe | Scheien oireyhtymä |
-| TxGNN-ennusteen pistemäärä | 99,90 % |
+| TxGNN-ennusteen pistemäärä | 0,9990 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

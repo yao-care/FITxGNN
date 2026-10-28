@@ -4,17 +4,17 @@ title: Enzalutamide
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 168
 evidence_level: L5
-indication_count: 7
-last_modified_at: 2026-10-13
-description: "Enzalutamide: ennustettu uusi käyttöaihe Eturauhassyövän ja aivosyövän alttius (prostate cancer/brain cancer s… (näytön taso L5). Alkuperäinen käyttöaihe: Eturauhassyöpä"
+indication_count: 5
 monitor_inn: "ENZALUTAMIDE"
 predicted_indications: ["prostate leiomyoma", "Brenner tumor", "fibroma of prostate", "benign reproductive system neoplasm", "benign prostate phyllodes tumor"]
+last_modified_at: 2026-10-27
+description: "Enzalutamide: ennustettu uusi käyttöaihe Eturauhasen leiomyooma (prostate leiomyoma) (näytön taso L5). Alkuperäinen käyttöaihe: Prostatic Neoplasms"
 ---
 
 # Enzalutamide
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **7** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,110 +33,78 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **7** kpl
 
 </div>
 
-## Enzalutamidi: Eturauhassyövästä ennustettuun uuteen käyttöaiheeseen "prostate cancer/brain cancer susceptibility"
+## Enzalutamidi: androgeenireseptorin estäjä → eturauhasen leiomyooma (prostate leiomyoma)
 {: .text-alpha }
 
 ## Yhteenveto
 
-Enzalutamidi on androgeenireseptorin estäjä, jota on alun perin käytetty eturauhassyövän hoitoon.
-TxGNN-malli ennustaa sen sopivan ensisijaisesti käyttöaiheeseen **eturauhassyövän ja aivosyövän alttius** (pistemäärä 99,7 %), mutta ennusteelle ei löydy suoraa kliinistä tukea: **tälle käyttöaiheelle ei ole yhtään kliinistä tutkimusta eikä julkaisua**.
-Muiden ennusteiden joukossa laajin ryhmä, "miehen lisääntymiselinten syöpä", sisältää runsaasti tutkimuksia (**34 kliinistä tutkimusta** ja **20 julkaisua**), mutta ne koskevat lähes yksinomaan eturauhassyöpää eli jo hyväksyttyä käyttöaihetta.
+Enzalutamidi on androgeenireseptorin signalointia estävä lääkeaine. Paikallisten myyntilupatietojen mukaan sitä on käytetty eturauhasen kasvainten hoitoon. TxGNN-malli ennustaa, että se voisi olla vaikuttava aineelle **eturauhasen leiomyooma (prostate leiomyoma)**, mutta tähän suuntaan ei tämän raportin aineiston perusteella löydy yhtään kliinistä tutkimusta eikä julkaisua.
 
-## Pikakatsaus
+## Pikayhteenveto
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Eturauhassyöpä |
-| Ennustettu uusi käyttöaihe | Eturauhassyövän ja aivosyövän alttius (prostate cancer/brain cancer susceptibility) |
-| TxGNN-ennustepisteet | 99,71 % |
+| Alkuperäinen käyttöaihe | Prostatic Neoplasms |
+| Ennustettu uusi käyttöaihe | Eturauhasen leiomyooma (prostate leiomyoma) |
+| TxGNN-ennustepisteet | 0,9957 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 3 (kaikki peruutettu) |
-| Suositeltu päätös | Hold (odotetaan) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 3/3) |
+| Myyntilupien määrä | 3 (voimassa: 3) |
+| Suositeltu päätös | Odota (Hold) |
 
-## Miksi ennuste on järkevä (tai ei)?
+## Miksi ennuste voisi olla perusteltu?
 
-Yksityiskohtaisia vaikutusmekanismitietoja ei ole tämän raportin aineistossa saatavilla. Tunnetun tiedon mukaan enzalutamidi on androgeenireseptorin signalointia estävä lääke: se estää androgeenin sitoutumista reseptoriin, reseptorin siirtymistä solun tumaan ja sen sitoutumista DNA:han. Sen teho eturauhassyövässä on osoitettu.
+Aineiston perusteella enzalutamidin yksityiskohtaista vaikutusmekanismia ei ole saatavilla. Tiedossa on, että lääke on lupatietojen mukaan käytössä eturauhasen kasvaimiin, ja sen tiedetään kirjallisuudessa vaikuttavan androgeenireseptorin signalointireittiin.
 
-Ennustettu kohde on todennäköisesti tietämysgraafin geneettiseen alttiuteen liittyvä solmu, joka liittyy eturauhassyöpään. Alttiusfenotyyppi ei ole hoidettava sairaustila, eikä aineistossa ole mekanistista tai kliinistä tietoa, joka tukisi enzalutamidin käyttöä aivosyövässä. Korkea pistemäärä kertoo todennäköisesti graafin rakenteesta, ei terapeuttisesta mahdollisuudesta.
-
-Myös muut ennusteet (eturauhasen leiomyooma, Brennerin kasvain, eturauhasen fibrooma, eturauhasen hyvänlaatuinen phyllodes-kasvain) perustuvat pääosin anatomiseen tai kasvainhierarkian läheisyyteen eturauhassyövän kanssa. Androgeenireseptoririippuvuudesta ei ole näyttöä, eikä niistä löytynyt tutkimuksia tai julkaisuja.
+Eturauhasen leiomyooma on harvinainen hyvänlaatuinen eturauhasen mesenkymaalinen kasvain. Ennuste perustuu todennäköisesti kasvaimen anatomiseen ja ontologiseen läheisyyteen eturauhassyöpään, ei tunnettuun mekanismiin. Ei ole näyttöä siitä, että androgeenireseptorisignalointi ajaisi tätä kasvainta. Mekanistinen yhteys on siksi heikko ja spekulatiivinen.
 
 ## Kliininen tutkimusnäyttö
 
-Ensisijaiselle ennusteelle (eturauhassyövän ja aivosyövän alttius) ei ole kliinisiä tutkimuksia. Tutkimuksia löytyi vain laajemmalle ryhmälle "miehen lisääntymiselinten syöpä". Ne koskevat eturauhassyöpää, joten ne eivät tue uutta käyttöaihetta. Tärkeimmät:
-
-| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset havainnot |
-|---------|------|------|------|---------|
-| [NCT02446405](https://clinicaltrials.gov/study/NCT02446405) | Vaihe 3 | Aktiivinen, ei rekrytoi | 1125 | ENZAMET: enzalutamidi vs. tavanomainen antiandrogeeni androgeenideprivaatiohoidon rinnalla uudessa etäpesäkkeisessä eturauhassyövässä |
-| [NCT06551324](https://clinicaltrials.gov/study/NCT06551324) | Vaihe 3 | Aktiivinen, ei rekrytoi | 600 | Mevrometostaatti + enzalutamidi vs. enzalutamidi tai dosetakseli abirateronihoidon jälkeen etenevässä kastraatioresistentissä eturauhassyövässä |
-| [NCT03834493](https://clinicaltrials.gov/study/NCT03834493) | Vaihe 3 | Päättynyt ennenaikaisesti | 1244 | KEYNOTE-641: pembrolitsumabi + enzalutamidi vs. lumelääke + enzalutamidi kastraatioresistentissä eturauhassyövässä |
-| [NCT07751133](https://clinicaltrials.gov/study/NCT07751133) | Vaihe 3 | Rekrytoi | 1500 | Androgeenireseptorireitin estäjien pienennetyt annokset etäpesäkkeisessä eturauhassyövässä |
-| [NCT06496581](https://clinicaltrials.gov/study/NCT06496581) | Vaihe 3 | Rekrytoi | 500 | Tavanomainen hoito ± 177Lu-PSMA-617 hormoniherkässä etäpesäkkeisessä eturauhassyövässä (enzalutamidi todennäköisesti taustahoitoa) |
-| [NCT06059118](https://clinicaltrials.gov/study/NCT06059118) | Vaihe 2 | Rekrytoi | 50 | DFMO ja suuriannoksinen testosteroni vuorotellen enzalutamidin kanssa kastraatioresistentissä eturauhassyövässä |
-| [NCT07512076](https://clinicaltrials.gov/study/NCT07512076) | Vaihe 2 | Ei vielä rekrytoi | 26 | Enzalutamidin annoksen optimointi iäkkäillä potilailla, joilla on edennyt eturauhassyöpä |
-| [NCT03297385](https://clinicaltrials.gov/study/NCT03297385) | Vaihe 2 | Päättynyt | 50 | Androgeenireseptorin genomiikka ja transkriptomiikka neoadjuvanttisen androgeeniestohoidon jälkeen |
-| [NCT04332744](https://clinicaltrials.gov/study/NCT04332744) | Vaihe 2 | Päättynyt | 54 | Talatsopariibi + enzalutamidi hormonaalisesti hoitamattomassa etäpesäkkeisessä eturauhassyövässä |
-| [NCT06582628](https://clinicaltrials.gov/study/NCT06582628) | Vaihe 2 | Rekrytoi | 78 | Talatsopariibi + enzalutamidi ensilinjan hoitona androgeenireseptorireitin estäjän jälkeen |
+Tällä hetkellä aiheeseen liittyviä kliinisiä tutkimuksia ei ole rekisteröity.
 
 ## Kirjallisuusnäyttö
 
-Ensisijaiselle ennusteelle ei löytynyt julkaisuja. Alla on laajemman ryhmän "miehen lisääntymiselinten syöpä" julkaisuja, jotka koskevat eturauhassyöpää.
-
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
-|------|-----|------|------|---------|
-| [42223064](https://pubmed.ncbi.nlm.nih.gov/42223064/) | 2026 | RCT | N Engl J Med | PARP:n ja androgeenisignaloinnin esto + ADT etäpesäkkeisessä eturauhassyövässä; aiemmassa tutkimuksessa talatsopariibin lisääminen enzalutamidiin pidensi etenemisvapaata ja kokonaiselossaoloaikaa |
-| [32534790](https://pubmed.ncbi.nlm.nih.gov/32534790/) | 2020 | Katsaus | Trends Cancer | Edenneen eturauhassyövän hoidon edistysaskeleet, mukaan lukien enzalutamidi |
-| [28655021](https://pubmed.ncbi.nlm.nih.gov/28655021/) | 2017 | Katsaus | JAMA | Eturauhassyövän diagnostiikka ja hoito |
-| [33773874](https://pubmed.ncbi.nlm.nih.gov/33773874/) | 2021 | Katsaus | Eur Urol | Potilasvalinta ja hoitojärjestys kastraatioresistentissä eturauhassyövässä dosetakselin ja abirateronin/enzalutamidin jälkeen |
-| [32673844](https://pubmed.ncbi.nlm.nih.gov/32673844/) | 2020 | Katsaus | Cancer Treat Res Commun | Ei-etäpesäkkeisen kastraatioresistentin eturauhassyövän hoidon kehitys |
-| [29460922](https://pubmed.ncbi.nlm.nih.gov/29460922/) | 2018 | Katsaus | Nat Rev Urol | Solujen plastisuus ja neuroendokriininen fenotyyppi lääkeresistenssin taustalla |
-| [37844613](https://pubmed.ncbi.nlm.nih.gov/37844613/) | 2023 | Prekliininen | Nature | Myeloidisolujen kemotaksiksen estäminen hoitoresistenssin kumoamiseksi |
-| [34489465](https://pubmed.ncbi.nlm.nih.gov/34489465/) | 2021 | Prekliininen | Nat Commun | Yksisolusekvensointi: enzalutamidiresistenssiin liittyvät solupopulaatiot |
-| [25151012](https://pubmed.ncbi.nlm.nih.gov/25151012/) | 2015 | Prekliininen | Eur Urol | AZD5363 + enzalutamidi viivästyttää enzalutamidiresistenssiä prekliinisissä malleissa |
-| [33542074](https://pubmed.ncbi.nlm.nih.gov/33542074/) | 2021 | Prekliininen | Clin Cancer Res | Enzalutamidiresistenssiin liittyvät BCL-2- ja IKKB-riippuvuudet |
+Tällä hetkellä aiheeseen liittyvää kirjallisuutta ei ole saatavilla.
 
 ## Myyntiluvat Suomessa
 
-| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/006299 | Enzalutamide Viatris (peruutettu) | – | Eturauhassyöpä |
-| EMEA/H/C/002639 | Xtandi (peruutettu) | – | Eturauhassyöpä |
-| EMEA/H/C/006612 | Enzalutamide Accordpharma (peruutettu) | – | Eturauhassyöpä |
+| EMEA/H/C/006299 | Enzalutamide Viatris | – | Prostatic Neoplasms |
+| EMEA/H/C/002639 | Xtandi | – | Prostatic Neoplasms |
+| EMEA/H/C/006612 | Enzalutamide Accordpharma | – | Prostatic Neoplasms |
 
-## Sytotoksisuus
+## Syöpälääkkeen sytotoksisuus
 
 | Kohta | Sisältö |
 |------|------|
-| Sytotoksisuusluokitus | Kohdennettu hoito (hormonaalinen, androgeenireseptorin estäjä); ei perinteinen sytotoksinen solunsalpaaja |
-| Luuydinsuppression riski | Tietoa ei ole saatavilla tässä aineistossa; katso valmisteyhteenvedon varoitukset ja varotoimet |
-| Pahoinvointia aiheuttavuus | Katso valmisteyhteenvedon varoitukset ja varotoimet |
-| Seurattavat parametrit | Katso valmisteyhteenvedon varoitukset ja varotoimet |
-| Käsittelysuojaus | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Sytotoksisuusluokitus | Kohdennettu hoito (androgeenireseptorin estäjä), ei perinteinen sytostaatti |
+| Luuydinsuppression riski | Katso valmisteyhteenvedon varoitukset ja käyttöön liittyvät varotoimet |
+| Pahoinvointia aiheuttava vaikutus | Katso valmisteyhteenvedon varoitukset ja käyttöön liittyvät varotoimet |
+| Seurattavat parametrit | Katso valmisteyhteenvedon varoitukset ja käyttöön liittyvät varotoimet |
+| Käsittelyn suojaus | Katso valmisteyhteenvedon varoitukset ja käyttöön liittyvät varotoimet |
 
-## Turvallisuusnäkökohdat
+## Turvallisuushuomiot
 
-Varoituksista ja vasta-aiheista ei ole tietoa tässä aineistossa. Katso turvallisuustiedot valmisteyhteenvedosta.
+Aineistoon on koottu yhteensä 100 lääkeyhteisvaikutusta, joista tässä on esimerkkejä:
 
-**Lääkeinteraktiot:** Aineistossa on yhteensä 100 mahdollista interaktiota. Enzalutamidi on voimakas CYP3A4:n indusoija, mikä selittää interaktioiden suuren määrän. Esimerkkejä:
+- **Merkittävät (Major):** bupropioni, dolasetroni, eliglustaatti
+- **Kohtalaiset (Moderate):** famotidiini, rabepratsoli, omepratsoli, hydrokortisoni, deksametasoni, klaritromysiini, aprepitantti, loperamidi, empagliflotsiini, linagliptiini, saksagliptiini
 
-- **Merkittävä (Major):** bupropioni, dolasetroni, eliglustaatti
-- **Kohtalainen (Moderate):** famotidiini, rabepratsoli, omepratsoli, hydrokortisoni, deksametasoni, aprepitantti, klaritromysiini, loperamidi, alosetroni, alvimopaani, bisakodyyli, klooripropamidi, pikosulfaatti, polyetyleeniglykoli (elektrolyyttien kanssa), saksagliptiini, empagliflotsiini, linagliptiini
+Muiden turvallisuustietojen osalta tarkista valmisteyhteenveto.
 
 ## Johtopäätös ja jatkotoimet
 
-**Päätös: Hold (odotetaan)**
+**Päätös: Odota (Hold)**
 
-**Perustelu:**
-- Ensisijaisen ennusteen (eturauhassyövän ja aivosyövän alttius) korkea TxGNN-pistemäärä heijastaa todennäköisesti graafin rakennetta, ja alttiusfenotyyppi ei ole hoidettava sairaus. Näyttöä ei ole (L5), ja kaikki muut ennusteet ovat samalla tasolla ilman tutkimuksia.
-- Laajan ryhmän "miehen lisääntymiselinten syöpä" tutkimukset (mm. ENZAMET ja MEVPRO-1) koskevat eturauhassyöpää, joten ne vahvistavat vain nykyistä käyttöä eivätkä ole aitoa uudelleenkäyttönäyttöä. Niitä ei pidä tulkita näytöksi muista miehen lisääntymiselinten syövistä, kuten kivesten tai peniksen syövästä. Ryhmän järjestelmäkohtainen arvio olisi "Proceed with Guardrails", mutta se rajautuu vain eturauhassyöpään.
+**Perustelut:**
+- Ennuste perustuu mallin antamaan korkeaan pistemäärään, mutta sille ei löydy kliinistä tai kirjallisuusnäyttöä, eikä androgeenireseptoririippuvuudesta tässä kasvaintyypissä ole näyttöä. Näytön taso on L5.
 
-**Jatkoon tarvitaan:**
-- Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittäminen (estää turvallisuusseulonnan jatkamisen)
-- Vaikutusmekanismitietojen täydentäminen (DrugBank)
-- Selvitys siitä, miksi kaikki Suomen myyntiluvat on peruutettu, sekä sääntelytilanteen tarkistus
-- Lääkeinteraktioiden arviointi (CYP3A4-induktio)
-- Mahdollisen uuden käyttöaiheen biologisen perustan osoittaminen (esim. androgeenireseptoririippuvuus) ennen jatkoa
+**Eteenpäin siirtyminen edellyttää:**
+- Tietoa siitä, ohjaako androgeenireseptorisignalointi eturauhasen leiomyoomaa (prekliiniset tai kudostason tutkimukset)
+- Yksityiskohtaista vaikutusmekanismitietoa
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden läpikäyntiä
+- Arviota siitä, onko kyseisen harvinaisen hyvänlaatuisen kasvaimen hoidolle kliinistä tarvetta ja tutkimuksen toteutettavuutta
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

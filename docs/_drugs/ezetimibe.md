@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ezetimibe
-parent: Vahva näyttö (L1-L2)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 184
-evidence_level: L1
-indication_count: 4
-last_modified_at: 2026-10-13
-description: "Ezetimibe: ennustettu uusi käyttöaihe Hyperlipoproteinemia (näytön taso L1). Alkuperäinen käyttöaihe: Hyperkolesterolemia, dyslipidemiat"
+evidence_level: L5
+indication_count: 1
 monitor_inn: "EZETIMIBE"
-predicted_indications: ["hyperlipoproteinemia", "cholesterol-ester transfer protein deficiency"]
+predicted_indications: ["cholesterol-ester transfer protein deficiency"]
+last_modified_at: 2026-10-27
+description: "Ezetimibe: ennustettu uusi käyttöaihe Kolesterolin esterinsiirtoproteiinin puutos (cholesterol-ester transfer protein deficiency) (näytön taso L5). Alkuperäinen käyttöaihe: Hypercholesterolemia"
 ---
 
 # Ezetimibe
 {: .fs-9 }
 
-Näytön taso: **L1** | Ennustetut käyttöaiheet: **4** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,124 +33,74 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-## Ezetimibi: Hyperkolesterolemiasta hyperlipoproteinemiaan
+## Ezetimibi: kolesterolin imeytymisen estäjä → kolesterolin esterinsiirtoproteiinin puutos (cholesterol-ester transfer protein deficiency)
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 
-Ezetimibi on kolesterolin imeytymisen estäjä, jota on alun perin käytetty hyperkolesterolemian ja dyslipidemioiden hoitoon.
-TxGNN-malli ennustaa sen sopivan **hyperlipoproteinemian** hoitoon, ja tätä suuntaa tukee tällä hetkellä **40 kliinistä tutkimusta** ja **20 julkaisua**.
-Ennuste on käytännössä lähellä nykyistä käyttöaihetta, joten kyse ei ole varsinaisesta uudelleenkäytöstä.
-
----
+Ezetimibi on kolesterolin imeytymistä suolistossa estävä lääkeaine, jota käytetään veren rasva-arvojen hoitoon. TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **kolesterolin esterinsiirtoproteiinin puutoksen (cholesterol-ester transfer protein deficiency)**. Tälle ennusteelle ei ole tällä hetkellä **yhtään kliinistä tutkimusta** eikä suoraan tätä sairautta käsittelevää julkaisua, joten näyttö perustuu pelkkään mallin ennusteeseen.
 
 ## Pikayhteenveto
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Hyperkolesterolemia, dyslipidemiat |
-| Ennustettu uusi käyttöaihe | Hyperlipoproteinemia |
-| TxGNN-ennustepistemäärä | 99,63 % |
-| Näyttötaso | L1 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
-| Suositeltu päätös | Proceed with Guardrails (eteneminen suojatoimin) |
-
----
+| Alkuperäinen käyttöaihe | Hypercholesterolemia;Dyslipidemias |
+| Ennustettu uusi käyttöaihe | Kolesterolin esterinsiirtoproteiinin puutos (cholesterol-ester transfer protein deficiency) |
+| TxGNN-ennusteen pistemäärä | 0,9909 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
+| Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste on perusteltu?
 
-Ezetimibi estää NPC1L1-välitteistä kolesterolin imeytymistä ohutsuolessa ja alentaa siten LDL-kolesterolia. Yksityiskohtaista vaikutusmekanismitietoa ei ole tällä hetkellä saatavilla kokoamassamme aineistossa, mutta mekanismi on kirjallisuudessa hyvin tunnettu.
+Ezetimibi estää NPC1L1-proteiinin välittämää kolesterolin imeytymistä suolistosta ja alentaa siten LDL-kolesterolia. Yksityiskohtaiset vaikutusmekanismitiedot eivät ole tässä aineistossa saatavilla.
 
-Hyperlipoproteinemia on mekanismiltaan sama tila kuin alkuperäinen käyttöaihe, hyperkolesterolemia ja dyslipidemia. Siksi ennuste on päällekkäinen nykyisen käyttöaiheen kanssa. Korkea pistemäärä on tämän mukainen.
+Kolesterolin esterinsiirtoproteiinin (CETP) puutos on perinnöllinen tila, jolle on tyypillistä korkea HDL-kolesteroli ja muuttunut lipoproteiinien aineenvaihdunta. Se ei yleensä ole tila, joka vaatisi lääkehoitoa. Yhteys ezetimibiin on vain yleinen rasva-aineenvaihduntaan liittyvä yhteys.
 
-Toiseksi sijoittuva ennuste, **familiaalinen hyperkolesterolemia** (pistemäärä 99,38 %), on myös kliinisesti uskottava. Ezetimibi täydentää statiinihoitoa ja sisältyy suosituksiin. Homotsygoottisessa muodossa, jossa LDL-reseptoritoiminta puuttuu, vaste on heikompi, joten hyöty tulee lähinnä statiinin lisälääkkeenä.
+Pistemäärä 0,9909 on mallin ennuste, ei kliinistä näyttöä. Koottu aineisto ei sisällä suoraa mekanistista tai kliinistä näyttöä siitä, että ezetimibilla olisi hoidollista merkitystä tässä tilassa.
 
-Kaksi muuta ennustetta ovat heikosti perusteltuja:
-- **Kolesteroli-7α-hydroksylaasin puutoksesta johtuva hyperkolesterolemia** (99,25 %): vain yksi prekliininen tutkimus, ei kliinisiä tutkimuksia (näyttötaso L4, päätös Hold).
-- **Kolesteroliesterin siirtäjäproteiinin (CETP) puutos** (99,09 %): tilassa HDL on korkea ja LDL tavallisesti matala tai normaali, joten LDL:ää alentavalle lääkkeelle on vähän perusteita (näyttötaso L5, päätös Hold).
+## Kliininen tutkimusnäyttö
 
----
-
-## Kliininen näyttö
-
-Taulukossa on hyperlipoproteinemian kannalta tärkeimmät tutkimukset.
-
-| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset havainnot |
-|---------|------|------|------|---------|
-| [NCT01984424](https://clinicaltrials.gov/study/NCT01984424) | Vaihe 3 | Päättynyt | 511 | Evolokumabi vs. ezetimibi potilailla, jotka eivät siedä statiinia lihashaittojen vuoksi; ezetimibi vertailuvalmiste |
-| [NCT00753883](https://clinicaltrials.gov/study/NCT00753883) | Vaihe 4 | Päättynyt | 40 | Ezetimibi yksin vs. statiini hyperkolesterolemiassa; pieni avoin tutkimus |
-| [NCT03847506](https://clinicaltrials.gov/study/NCT03847506) | Vaihe 4 | Päättynyt | 127 | Ezetimibi/rosuvastatiini ja kandesartaani/amlodipiini potilailla, joilla on verenpainetauti ja hyperlipidemia |
-| [NCT00092833](https://clinicaltrials.gov/study/NCT00092833) | Vaihe 3 | Keskeytetty | 49 | Avoin käyttötutkimus ezetimibillä homotsygoottisessa familiaalisessa hyperkolesterolemiassa tai sitosterolemiassa |
-| [NCT00705211](https://clinicaltrials.gov/study/NCT00705211) | Ei sovellu | Päättynyt | 1 794 | 52 viikon japanilainen havainnoiva pitkäaikaisturvallisuustutkimus |
-| [NCT00271817](https://clinicaltrials.gov/study/NCT00271817) | Vaihe 3 | Päättynyt | 1 220 | Ezetimibi/simvastatiini ja niasiini IIa- tai IIb-tyypin hyperlipidemiassa |
-| [NCT00092573](https://clinicaltrials.gov/study/NCT00092573) | Vaihe 3 | Päättynyt | 576 | Fenofibraatin ja ezetimibin yhdistelmä sekamuotoisessa hyperlipidemiassa |
-| [NCT00093899](https://clinicaltrials.gov/study/NCT00093899) | Vaihe 3 | Päättynyt | 611 | Ezetimibi/simvastatiini ja fenofibraatti sekamuotoisessa hyperlipidemiassa |
-| [NCT00552097](https://clinicaltrials.gov/study/NCT00552097) | Vaihe 3 | Päättynyt | 720 | ENHANCE: ezetimibi + simvastatiini vs. pelkkä simvastatiini heterotsygoottisessa FH:ssa |
-| [NCT01043380](https://clinicaltrials.gov/study/NCT01043380) | Vaihe 4 | Päättynyt | 245 | Sepelvaltimoplakin regressio ezetimibillä vs. statiinilla (IVUS) |
-
-Familiaalisen hyperkolesterolemian suoraa RCT-näyttöä ovat mm. [NCT00867165](https://clinicaltrials.gov/study/NCT00867165) (vaihe 3, lumekontrolloitu, 138 lasta, ezetimibi-monoterapia) ja [NCT03884452](https://clinicaltrials.gov/study/NCT03884452) (vaihe 3, 50 potilasta, ezetimibi statiinin lisänä homotsygoottisessa FH:ssa). Kahdelle viimeiselle ennusteelle ei ole kliinisiä tutkimuksia.
-
----
+Tällä hetkellä aiheeseen liittyviä kliinisiä tutkimuksia ei ole rekisteröity.
 
 ## Kirjallisuusnäyttö
 
 | PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
-|---------|------|------|------|---------|
-| [41206969](https://pubmed.ncbi.nlm.nih.gov/41206969/) | 2026 | RCT | JAMA | Oraalinen PCSK9-estäjä enlisitidi heterotsygoottisessa FH:ssa |
-| [37850379](https://pubmed.ncbi.nlm.nih.gov/37850379/) | 2024 | RCT | Circulation | Inklisiraani homotsygoottisessa FH:ssa (ORION-5) |
-| [35101175](https://pubmed.ncbi.nlm.nih.gov/35101175/) | 2022 | Kohorttitutkimus | Lancet | Homotsygoottisen FH:n maailmanlaajuinen kokemus |
-| [35593194](https://pubmed.ncbi.nlm.nih.gov/35593194/) | 2022 | Katsaus | J Cardiovasc Pharmacol Ther | Kattava katsaus PCSK9-estäjiin |
-| [40682836](https://pubmed.ncbi.nlm.nih.gov/40682836/) | 2025 | Katsaus | Mol Med Rep | Hyperlipidemian lääkehoidon edistysaskeleet |
-| [33766264](https://pubmed.ncbi.nlm.nih.gov/33766264/) | 2021 | Katsaus | J Am Coll Cardiol | Uudet LDL-kolesterolia alentavat hoidot statiinien, ezetimibin ja PCSK9-estäjien rinnalla |
-| [23956253](https://pubmed.ncbi.nlm.nih.gov/23956253/) | 2013 | Konsensuslausuma | Eur Heart J | FH on alidiagnosoitu ja alihoidettu; suositukset seulontaan ja hoitoon |
-| [14727947](https://pubmed.ncbi.nlm.nih.gov/14727947/) | 2003 | Katsaus | Am J Cardiovasc Drugs | Ezetimibin farmakologia: estää kolesterolin ja kasvisterolien imeytymistä suolessa |
-| [25939291](https://pubmed.ncbi.nlm.nih.gov/25939291/) | 2015 | Katsaus | Cardiol Clin | FH:n hoitovaihtoehdot, mukaan lukien ezetimibi |
-| [34943976](https://pubmed.ncbi.nlm.nih.gov/34943976/) | 2021 | Prekliininen | Cells | NPC1L1:n puutos lisää sappihappovarastoa hiirillä (liittyy CYP7A1-puutosennusteeseen) |
-
-Useimmat julkaisut ovat katsauksia tai tutkimuksia muilla lääkkeillä, joissa ezetimibi on vain taustahoito. Suoraa ezetimibin satunnaistettua näyttöä kirjallisuudesta on vähän.
-
----
+|------|-----|------|------|---------|
+| [40911366](https://pubmed.ncbi.nlm.nih.gov/40911366/) | 2025 | Katsaus | European Heart Journal | Katsaus rasva-arvoja alentavien hoitojen kohteisiin: LDL-kolesterolin lisäksi triglyseridit, apoB ja Lp(a) vaikuttavat jäännösriskiin. Ei käsittele suoraan CETP-puutosta. |
+| [31779098](https://pubmed.ncbi.nlm.nih.gov/31779098/) | 2019 | Prekliininen eläintutkimus | International Journal of Molecular Sciences | Hamsterimalli hyperlipidemian ja PCSK9-vasta-aineen tehon arviointiin. Ei käsittele ezetimibia eikä CETP-puutosta suoraan. |
 
 ## Suomen markkinatiedot
 
-| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/004959 | Nustendi | Ei tietoa | Hyperkolesterolemia; dyslipidemiat |
-
-Myyntilupa on peruutettu, eikä Suomessa ole voimassa olevia myyntilupia.
-
----
+| EMEA/H/C/004959 | Nustendi | – | Hypercholesterolemia;Dyslipidemias |
 
 ## Turvallisuushuomioita
 
-- **Lääkeaineyhteisvaikutukset:** Yhteensä 100 mahdollista yhteisvaikutusta löytyi. Kohtalaisiksi luokitellut:
-  - kenodeoksikolihappo
-  - eluksadoliini
-  - rosuvastatiini
-  - simvastatiini
-  
-  Muiden (esim. metformiini, omepratsoli, morfiini, doksisykliini) vaikutusluokka on tuntematon.
-- **Tietämysgraafin mukaiset vasta-aiheisiin liitetyt sairaudet** (ei valmisteyhteenvetoteksti): haimatulehdus, maksasairaus, sappirakon sairaus, myopatia, lihassairaudet, rabdomyolyysi, päihteiden väärinkäyttö tai riippuvuus. Nämä on tarkistettava valmisteyhteenvedosta.
+Turvallisuustiedot ovat saatavilla valmisteyhteenvedosta.
 
-Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat tästä aineistosta, joten ne on tarkistettava ennen etenemistä.
+**Lääkeyhteisvaikutukset:** Yhteisvaikutustietokannasta löytyi yhteensä 100 yhteisvaikutusta. Kohtalaisiksi luokiteltuja ovat:
+- kenodeoksikolihappo
+- eluksadoliini
+- rosuvastatiini
+- simvastatiini
 
----
+Useiden muiden lääkeaineiden (mm. kalsitrioli, pantopratsoli, glimepiridi, metformiini, omepratsoli, morfiini) yhteisvaikutusten vaikeusastetta ei ole määritetty.
 
-## Johtopäätös ja seuraavat vaiheet
+## Johtopäätös ja seuraavat askeleet
 
-**Päätös: Proceed with Guardrails (eteneminen suojatoimin)**
+**Päätös: Hold (odota)**
 
-**Perustelut:**
-- Hyperlipoproteinemia ja familiaalinen hyperkolesterolemia ovat mekanismiltaan samaa kolesterolin imeytymisen estoa kuin nykyinen käyttöaihe. Useat vaiheen 3 tutkimukset tukevat näyttöä (L1). Kaksi muuta ennustetta (CYP7A1-puutos ja CETP-puutos) tulee pitää tilassa Hold, koska kliinistä näyttöä ei ole.
-- Suomessa ei ole voimassa olevaa myyntilupaa, ja turvallisuustiedot puuttuvat.
+**Perustelu:**
+Ennuste perustuu pelkästään mallin laskemaan pistemäärään. Kliinisiä tutkimuksia ei ole, eikä yksikään lähde käsittele suoraan tätä sairautta. CETP-puutos ei myöskään yleensä vaadi hoitoa, joten kliininen tarve on epäselvä.
 
-**Etenemiseen tarvitaan:**
-- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankinta (Fimean sivusto), koska tämä estää turvallisuusarvioinnin jatkamisen.
-- Vaikutusmekanismitietojen täydentäminen (DrugBank).
-- Myyntilupatilanteen selvitys, sillä Nustendi on peruutettu, ja sen selvittäminen, onko muita ezetimibia sisältäviä valmisteita saatavilla.
-- Tarkempi arvio ezetimibin omasta vaikutuksesta, koska monissa tutkimuksissa se on vain vertailu- tai taustahoito.
-- Yhteisvaikutusten (erityisesti statiinit) ja lihas- ja maksaturvallisuuden seurantasuunnitelma.
+**Jatkoon tarvitaan:**
+- Selvitys siitä, onko CETP-puutoksessa hoidettavaa kliinistä ongelmaa
+- Suoraa mekanistista tai kliinistä näyttöä ezetimibin hyödystä tässä tilassa
+- Yksityiskohtaiset vaikutusmekanismitiedot (MOA)
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden kokoaminen Fimean lähteistä
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

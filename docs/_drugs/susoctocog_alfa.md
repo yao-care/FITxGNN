@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Susoctocog Alfa
-parent: Kohtalainen näyttö (L3-L4)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 413
-evidence_level: L3
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Susoctocog Alfa: ennustettu uusi käyttöaihe Hemofilia (näytön taso L3). Alkuperäinen käyttöaihe: Hemofilia A"
+evidence_level: L5
+indication_count: 8
 monitor_inn: "SUSOCTOCOG ALFA"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "congenital factor XIII deficiency", "adenosine deaminase deficiency"]
+last_modified_at: 2026-10-27
+description: "Susoctocog Alfa: ennustettu uusi käyttöaihe Primaarinen verihiutaleiden vapautumishäiriö (primary release disorder of platelets) (näytön taso L5). Alkuperäinen käyttöaihe: Hemofilia A"
 ---
 
 # Susoctocog Alfa
 {: .fs-9 }
 
-Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **8** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,96 +33,63 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Susoktokogialfa: Hemofilia A:sta hemofiliaan (hankinnainen hemofilia A)
+## Susoktokogialfa: rekombinantti sian tekijä VIII -korvaushoito → primaarinen verihiutaleiden vapautumishäiriö (primary release disorder of platelets)
 {: .text-alpha }
 
-## Yhteenveto
+## Yhden lauseen yhteenveto
 
-Susoktokogialfa on yhdistelmä-DNA-tekniikalla valmistettu, B-domeenista vapaa porsaan sekvenssin tekijä VIII -valmiste, jota on alun perin käytetty **hemofilia A:n** hoitoon (Suomessa kauppanimi Obizur).
-TxGNN-malli ennustaa sen voivan olla hyödyllinen **hemofilian** hoidossa (pistemäärä 99,74 %).
-Tätä tukee **1 kliininen tutkimus** (havainnoiva seurantatutkimus) ja **20 julkaisua**, mutta suurin osa näytöstä koskee jo hyväksyttyä käyttöaihetta (hankinnainen hemofilia A), joten kyse ei ole varsinaisesti uudesta käyttöaiheesta.
-
----
+Susoktokogialfa on B-domeenista vapaa rekombinantti sian sekvenssin tekijä VIII -valmiste, jota käytetään hemofilia A:n hoitoon. TxGNN-malli ennustaa sen voivan tehota sairauteen **primaarinen verihiutaleiden vapautumishäiriö (primary release disorder of platelets)**. Ennusteen tueksi ei kuitenkaan ole löytynyt yhtään kliinistä tutkimusta eikä julkaisua, joten näyttö perustuu pelkkään mallin ennusteeseen.
 
 ## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
 | Alkuperäinen käyttöaihe | Hemofilia A |
-| Ennustettu uusi käyttöaihe | Hemofilia (rank 1 -ennuste, jolla on näyttöä: hemofilia; TxGNN-sijoitus 3316) |
-| TxGNN-ennustepistemäärä | 99,74 % |
-| Näytön taso | L3 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
-| Suositeltu päätös | Proceed with Guardrails (eteneminen suojatoimin) |
-
-**Huomio ennusteiden järjestyksestä:** TxGNN-listan kolme parhaiten sijoittunutta ennustetta (verihiutaleiden vapautumishäiriö, pseudo-von Willebrandin tauti ja Glanzmannin trombasteenia) eivät saa tukea tutkimuksista, kirjallisuudesta eikä mekanismista (taso L5, päätös Hold). Tämä raportti keskittyy ensimmäiseen ennusteeseen, jolla on todellista näyttöä, eli hemofiliaan. Lisäksi hankinnaisen hyytymistekijävajauksen (sijoitus 5) näyttö on samansuuntainen.
-
----
+| Ennustettu uusi käyttöaihe | Primaarinen verihiutaleiden vapautumishäiriö (primary release disorder of platelets) |
+| TxGNN-ennustepisteet | 0,9994 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
+| Suositeltu päätös | Odota (Hold) |
 
 ## Miksi ennuste on perusteltu?
 
-Susoktokogialfa korvaa puuttuvan tai estetyn tekijä VIII:n aktiivisuuden. Sen porsaan sekvenssi reagoi heikosti ihmisen tekijä VIII:aa vastaan muodostuneiden vasta-aineiden (inhibiittorien) kanssa, joten valmiste voi toimia silloin, kun tavallinen ihmisen tekijä VIII neutraloituu. Tarkempia mekanismitietoja (MOA) ei ole tässä aineistossa saatavilla.
+Yksityiskohtaisia tietoja vaikutusmekanismista ei ole tällä hetkellä saatavilla. Tiedossa on, että susoktokogialfa on B-domeenista vapaa rekombinantti sian sekvenssin tekijä VIII, jonka teho hemofilia A:ssa (tekijä VIII:n puutos) on osoitettu.
 
-Hemofilia ja alkuperäinen käyttöaihe ovat samaa sairausryhmää: kyse on tekijä VIII:n puutteesta tai toiminnan estymisestä. Ennusteen vahvin tuki koskee hankinnaista hemofilia A:ta, joka on valmisteen ydinkäyttöaihe, ei uusi käyttöaihe. Synnynnäinen hemofilia A inhibiittoreiden kanssa on uskottava laajennus, ja siitä on vaiheen 3 yhden haaran tutkimus leikkauspotilailla sekä in vitro -tutkimus, mutta näyttö on rajallista.
+Verihiutaleiden vapautumishäiriö on kuitenkin verihiutaleiden toiminnan laadullinen häiriö, ei tekijä VIII:n puutos. Siksi tekijä VIII:n korvaamiselle ei ole selvää mekanistista perustetta tässä sairaudessa. Korkea ennustepistemäärä heijastaa todennäköisesti sairauksien läheisyyttä verenvuotohäiriöiden verkostossa eikä todellista hoidollista yhteyttä.
 
-Muut kärkiennusteet (trombosyyttitoiminnan häiriöt, tekijä XIII:n puutos, adenosiinideaminaasin puutos) perustuvat todennäköisesti vain verkon läheisyyteen tietograafissa, eikä niille ole mekanistista perustetta.
-
----
+Muut mallin tuottamat ennusteet (pseudo-von Willebrandin tauti, Glanzmannin trombasteenia, Scottin oireyhtymä, kollageenireseptorivika, perinnöllinen trombosytopenia, synnynnäinen tekijä XIII:n puutos ja adenosiinideaminaasin puutos) kärsivät samasta ongelmasta: mikään niistä ei liity tekijä VIII:n puutokseen, eikä yhdellekään löytynyt kliinistä näyttöä.
 
 ## Kliininen tutkimusnäyttö
 
-| Tutkimusnumero | Vaihe | Tila | Osallistujamäärä | Keskeiset havainnot |
-|---------|------|------|------|---------|
-| [NCT06461533](https://clinicaltrials.gov/study/NCT06461533) | Ei määritelty (seurantatutkimus) | Rekrytoi | 25 | Japanilainen kaikkien tapausten myyntiluvan jälkeinen seuranta: susoktokogialfan haittavaikutukset ja teho hankinnaisen hemofilia A:n verenvuodoissa |
-
----
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
 ## Kirjallisuusnäyttö
 
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
-|---------|-----|------|------|---------|
-| [39158833](https://pubmed.ncbi.nlm.nih.gov/39158833/) | 2024 | Vaiheen II/III avoin tutkimus | Int J Hematol | Teho ja turvallisuus japanilaisilla hankinnaista hemofilia A:ta sairastavilla aikuisilla (NCT04580407) |
-| [38317504](https://pubmed.ncbi.nlm.nih.gov/38317504/) | 2024 | Vaiheen 3 yhden haaran tutkimus | Haemophilia | Porsaan rekombinantti tekijä VIII synnynnäistä hemofilia A:ta sairastavilla, joilla on inhibiittoreita ja jotka tarvitsevat leikkaushoitoa |
-| [37584309](https://pubmed.ncbi.nlm.nih.gov/37584309/) | 2023 | Tosielämän kohorttitutkimus | Haemophilia | Myyntiluvan jälkeinen turvallisuus ja tehokkuus hankinnaisessa hemofilia A:ssa |
-| [27098420](https://pubmed.ncbi.nlm.nih.gov/27098420/) | 2016 | Katsaus | Drugs | Katsaus: monikansallisessa vaiheen II/III tutkimuksessa tehokas ja yleensä hyvin siedetty vakavissa verenvuodoissa (n = 28) |
-| [32698943](https://pubmed.ncbi.nlm.nih.gov/32698943/) | 2020 | Retrospektiivinen kohortti | Blood Transfus | Italialainen monikeskusrekisteri, yhdeksän iäkästä potilasta |
-| [37510704](https://pubmed.ncbi.nlm.nih.gov/37510704/) | 2023 | Tapaussarja ja kirjallisuuskatsaus | J Clin Med | Leikkaukset ja profylaksia hankinnaisessa hemofiliassa |
-| [35765670](https://pubmed.ncbi.nlm.nih.gov/35765670/) | 2022 | In vitro -tutkimus | Res Pract Thromb Haemost | Korjaa trombiinin muodostusta synnynnäistä hemofilia A:ta sairastavien plasmassa, joissa on inhibiittoreita |
-| [40812597](https://pubmed.ncbi.nlm.nih.gov/40812597/) | 2025 | Farmakokineettinen tutkimus | J Thromb Haemost | Farmakokineettiset strategiat tekijä VIII -tason tarkkaan hallintaan |
-| [29051804](https://pubmed.ncbi.nlm.nih.gov/29051804/) | 2017 | Katsaus | Ther Adv Hematol | Katsaus porsaan sekvenssin tekijä VIII:aan hankinnaisessa hemofilia A:ssa |
-| [31448877](https://pubmed.ncbi.nlm.nih.gov/31448877/) | 2020 | Aineistoanalyysi | J Thromb Haemost | Ristiinreagoivat inhibiittorit rpFVIII:aa vastaan (GTH-AH 01/2010 -tutkimus) |
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
----
+## Tiedot Suomen markkinoilta
 
-## Markkinatiedot Suomessa
-
-| Myyntilupanumero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/002792 | Obizur | – | Hemofilia A (tila: peruutettu) |
+| EMEA/H/C/002792 | Obizur | – | Hemofilia A |
 
----
-
-## Turvallisuushuomioita
-
-Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla tässä aineistossa. Lääkeyhteisvaikutuksia ei löytynyt.
+## Turvallisuusnäkökohdat
 
 Turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
----
-
 ## Johtopäätös ja jatkotoimet
 
-**Päätös: Proceed with Guardrails (eteneminen suojatoimin)**
+**Päätös: Odota (Hold)**
 
 **Perustelut:**
-- Hemofilian ja hankinnaisen hyytymistekijävajauksen ennusteet perustuvat pääosin jo hyväksyttyyn käyttöaiheeseen, ja näyttö koostuu vaiheen II/III -tutkimuksesta, tosielämän aineistoista, tapaussarjoista ja katsauksista. Satunnaistettuja vaiheen 2 tai 3 tutkimuksia ei tunnistettu. Muut kärkiennusteet (L5) tulee pitää odotustilassa (Hold).
+Ennuste perustuu yksinomaan mallin tuottamaan verkostolähäisyyteen. Kliinistä tai kirjallisuusnäyttöä ei ole, eikä tekijä VIII:n korvaushoito vastaa verihiutaleiden toimintahäiriön mekanismia.
 
 **Jatkoon tarvitaan:**
-- Valmisteyhteenvedon turvallisuustiedot (varoitukset ja vasta-aiheet) Fimeasta, mikä on estävä tietoaukko
-- Tarkempi vaikutusmekanismitieto (MOA) esimerkiksi DrugBankista
-- Myyntiluvan peruutuksen syyn ja valmisteen saatavuuden selvitys Suomessa, koska ainoa myyntilupa on peruutettu
-- Synnynnäisen hemofilia A:n ja inhibiittoreiden käyttöaiheen laajennuksen näytön arviointi erikseen
+- Valmisteyhteenvedon varoitus- ja vasta-aihetietojen kokoaminen
+- Vaikutusmekanismitietojen täydentäminen
+- Prekliininen tai mekanistinen näyttö, joka osoittaa tekijä VIII:n merkityksen verihiutaleiden vapautumishäiriössä
+- Reittien yhteensopivuuden ja samankaltaisuuden arviointi alkuperäiseen käyttöaiheeseen nähden
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

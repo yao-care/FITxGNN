@@ -52,8 +52,8 @@ Tätä tukee **2 kliinistä tutkimusta** (joista yksi valmistunut vaiheen 2 satu
 | Ennustettu uusi käyttöaihe | Dermatiitti (ihottuma) |
 | TxGNN-ennustepistemäärä | 99,98 % |
 | Näytön taso | L2 |
-| Markkinatilanne Suomessa | Vain peruutettu lupa |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

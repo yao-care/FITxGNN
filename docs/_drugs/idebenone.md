@@ -6,9 +6,9 @@ nav_order: 220
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Idebenone: ennustettu uusi käyttöaihe Maksaporfyria (näytön taso L5). Alkuperäinen käyttöaihe: Leberin perinnöllinen näköhermon surkastuma"
 monitor_inn: "IDEBENONE"
 predicted_indications: ["hepatic porphyria", "idiopathic copper-associated cirrhosis", "primitive portal vein thrombosis", "hepatoportal sclerosis", "hepatopulmonary syndrome", "early-onset familial noncirrhotic portal hypertension", "immune-mediated necrotizing myopathy", "osteogenesis imperfecta-retinopathy-seizures-intellectual disability syndrome", "antisynthetase syndrome", "focal myositis"]
+description: "Idebenone: ennustettu uusi käyttöaihe Maksaporfyria (hepatic porphyria) (näytön taso L5). Alkuperäinen käyttöaihe: Optic Atrophy, Hereditary, Leber"
 ---
 
 # Idebenone
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Idebenoni: Leberin perinnöllisestä näköhermon surkastumasta maksaporfyriaan
+## Idebenone: Maksaporfyria (hepatic porphyria)
 {: .text-alpha }
 
 ## Yhteenveto
@@ -47,12 +47,12 @@ TxGNN-malli ennustaa sen voivan tehota **maksaporfyriaan**, mutta ennusteen tuek
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Leberin perinnöllinen näköhermon surkastuma |
-| Ennustettu uusi käyttöaihe | Maksaporfyria |
-| TxGNN-ennusteen pistemäärä | 99,92 % |
+| Alkuperäinen käyttöaihe | Optic Atrophy, Hereditary, Leber |
+| Ennustettu uusi käyttöaihe | Maksaporfyria (hepatic porphyria) |
+| TxGNN-ennusteen pistemäärä | 0.9992 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -61,9 +61,9 @@ TxGNN-malli ennustaa sen voivan tehota **maksaporfyriaan**, mutta ennusteen tuek
 
 Tämän lääkkeen alkuperäisestä vaikutusmekanismista ei ole tällä hetkellä saatavilla yksityiskohtaista tietoa. Tiedetään, että idebenoni on koentsyymi Q10:n lyhytketjuinen synteettinen bentsokinonianalogi, jolla on antioksidanttisia ominaisuuksia ja joka tukee elektroninsiirtoketjun toimintaa. Sen teho Leberin perinnöllisessä näköhermon surkastumassa liittyy mitokondrioiden toimintahäiriöön.
 
-Oksidatiivinen stressi ja mitokondrioiden toimintahäiriö voivat olla yksi porfyriaan liittyvän maksavaurion taustatekijä, mutta tätä ei ole todennettu. Yhteys perustuu yksinomaan tietograafipohjaiseen TxGNN-ennusteeseen, eikä suoraa mekanistista näyttöä ole.
+Oksidatiivinen stressi ja mitokondrioiden toimintahäiriö voivat olla yksi porfyriaan liittyvän maksavaurion taustatekijä, mutta tätä ei ole todennettu.
 
-Muut ennustetut käyttöaiheet (esim. idiopaattinen kupariin liittyvä kirroosi, hepatopulmonaalinen oireyhtymä, immuunivälitteinen nekrotisoiva myopatia) ovat samalla tavoin L5-tasoisia. Joidenkin kohdalla (porttilaskimotromboosi, hepatoportaalinen skleroosi, perheellinen ei-kirrottinen portaalihypertensio) mekanistista yhteyttä ei ole lainkaan, ja korkea pistemäärä heijastaa todennäköisesti tietograafin maksasairausklusterin samankaltaisuutta, ei biologiaa.
+Muut ennustetut käyttöaiheet (esim. idiopaattinen kupariin liittyvä kirroosi, hepatopulmonaalinen oireyhtymä, immuunivälitteinen nekrotisoiva myopatia) ovat samalla tavoin L5-tasoisia.
 
 ---
 

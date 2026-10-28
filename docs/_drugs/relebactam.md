@@ -49,10 +49,10 @@ TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **hyperamylasemian**, mu
 |------|------|
 | Alkuperäinen käyttöaihe | Gramnegatiiviset bakteeri-infektiot |
 | Ennustettu uusi käyttöaihe | Hyperamylasemia |
-| TxGNN-ennusteen pistemäärä | 99,22 % |
+| TxGNN-ennusteen pistemäärä | 0,9922 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
-| Myyntilupien lukumäärä | 1 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien lukumäärä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -63,7 +63,7 @@ Tämän ennusteen perusteita ei voida tukea käytettävissä olevalla aineistoll
 
 Hyperamylasemia on yleensä laboratoriolöydös tai taustalla olevan sairauden (esim. haimatulehdus, munuaisten vajaatoiminta) oire, eikä varsinainen hoidettava kohdesairaus. Erittäin korkea pistemäärä on mallin ennuste, joka johtuu todennäköisesti verkkopohjaisista assosiaatioista.
 
-Samaa pistemäärää ei kannata tulkita sairauskohtaiseksi signaaliksi: ennuste on identtinen myös toiselle kohteelle (polyklonaalinen hyperviskositeettioireyhtymä, 99,22 %), mikä viittaa mallin yhteiseen artefaktaan. Kolmas ennuste, synnynnäinen analbuminemia (99,08 %), on samoin vailla mekanistista perustetta: beetalaktamaasin estäjä ei voi korjata albumiinin synteesiä koskevaa geenivirhettä.
+Samaa pistemäärää ei kannata tulkita sairauskohtaiseksi signaaliksi: ennuste on identtinen myös toiselle kohteelle (polyklonaalinen hyperviskositeettioireyhtymä, 0,9922), mikä viittaa mallin yhteiseen artefaktaan. Kolmas ennuste, synnynnäinen analbuminemia (0,9908), on samoin vailla mekanistista perustetta: beetalaktamaasin estäjä ei voi korjata albumiinin synteesiä koskevaa geenivirhettä.
 
 ---
 

@@ -4,17 +4,17 @@ title: Telmisartan
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 423
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Telmisartan: ennustettu uusi käyttöaihe Prinzmetalin angiina (näytön taso L5). Alkuperäinen käyttöaihe: Kohonnut verenpaine (hypertensio)"
 monitor_inn: "TELMISARTAN"
 predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyloidosis", "cerebral artery occlusion", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "intracerebral hemorrhage", "Braddock syndrome"]
+description: "Telmisartan: ennustettu uusi käyttöaihe Prinzmetal angina (näytön taso L5). Alkuperäinen käyttöaihe: Hypertension"
 ---
 
 # Telmisartan
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Telmisartaani: Verenpainelääkkeestä Prinzmetalin angiinaan
+## Telmisartan: Prinzmetal angina
 {: .text-alpha }
 
 ## Yhteenveto
 
 Telmisartaani on angiotensiini II -reseptorin (AT1) salpaaja, jota on alun perin käytetty **kohonneen verenpaineen** hoitoon.
-TxGNN-malli ennustaa sen voivan tehota **Prinzmetalin angiinaan** (pistemäärä 99,98 %), mutta tälle ennusteelle ei ole kliinistä eikä kirjallista tukea.
+TxGNN-malli ennustaa sen voivan tehota **Prinzmetalin angiinaan** (pistemäärä 0,9998), mutta tälle ennusteelle ei ole kliinistä eikä kirjallista tukea.
 Parhaiten tuettu uusi suunta on **aivoverenvuodon (ICH) uusiutumisen ehkäisy**, jossa on **3 kliinistä tutkimusta** ja **12 julkaisua**. Tutkimuksessa telmisartaani on kuitenkin osa kolmen lääkkeen yhdistelmävalmistetta.
 
 ---
@@ -48,12 +48,12 @@ Parhaiten tuettu uusi suunta on **aivoverenvuodon (ICH) uusiutumisen ehkäisy**,
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Kohonnut verenpaine (hypertensio) |
-| Ennustettu uusi käyttöaihe (sijalla 1) | Prinzmetalin angiina |
+| Alkuperäinen käyttöaihe | Hypertension; Essential Hypertension |
+| Ennustettu uusi käyttöaihe (sijalla 1) | Prinzmetal angina |
 | TxGNN-ennustepisteet | 99,98 % |
 | Näytön taso | L5 (sijalla 1 oleva ennuste); vahvin vaihtoehtoinen käyttöaihe: aivoverenvuoto, L2 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 12 (kaikki peruutettuja, 0 voimassa olevaa) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 12/12) |
+| Myyntilupien määrä | 12 (voimassa: 12) |
 | Suositeltu päätös | Hold (odotetaan) |
 
 ---

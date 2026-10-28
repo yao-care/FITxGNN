@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Ticagrelor
-parent: Vahva näyttö (L1-L2)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 436
-evidence_level: L2
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Ticagrelor: ennustettu uusi käyttöaihe Kallonsisäinen valtimokovettumatauti (intracranial arteriosclerosis) (näytön taso L2). Alkuperäinen käyttöaihe: Perifeeriset verisuonisairaudet"
 monitor_inn: "TICAGRELOR"
@@ -14,7 +14,7 @@ predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arterioscle
 # Ticagrelor
 {: .fs-9 }
 
-Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Suuntaa tukee tällä hetkellä **2 kliinistä tutkimusta** ja **2 julkaisua**, 
 |------|------|
 | Alkuperäinen käyttöaihe | Perifeeriset verisuonisairaudet; akuutti sepelvaltimo-oireyhtymä |
 | Ennustettu uusi käyttöaihe | Kallonsisäinen valtimokovettumatauti (intracranial arteriosclerosis) |
-| TxGNN-ennusteen pistemäärä | 99,97 % |
-| Näytön taso | L2 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| TxGNN-ennusteen pistemäärä | 0,9997 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 Huomio päätöksestä: pelkkä pistemäärä ja käynnissä oleva vaiheen 3 tutkimus eivät vielä riitä etenemiseen. Päätös on perusteltu konservatiivisesti, koska tulokset puuttuvat ja turvallisuustiedot ovat vajaat (ks. Johtopäätös).
@@ -127,7 +127,7 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat tästä aineistosta, j
 
 ## Muut ennustetut käyttöaiheet (lyhyt yhteenveto)
 
-Muista ennusteista vahvin näyttö on käyttöaiheella **iskeeminen sairaus (ischemic disease)** (pistemäärä 99,64 %, näytön taso L1, suositus Proceed with Guardrails). Siitä on useita suuria satunnaistettuja tutkimuksia (mm. TWILIGHT, THEMIS, CHANCE-2-tyyppiset tutkimukset ja sepelvaltimoohitusleikkauksen jälkeinen ACS-tutkimus). Se kuitenkin menee suurelta osin päällekkäin jo hyväksyttyjen käyttöaiheiden kanssa, joten kyseessä on pikemminkin käyttöaiheen laajennus kuin aito uudelleenkäyttö. Muilla ennusteilla (Mönckebergin arterioskleroosi, priapismi, May–Thurnerin oireyhtymä, livedo reticularis, suoliliepeen verisuonitukos, verisuonten ektasia, angiodysplasia, laskimotromboembolia) ei ole kliinistä näyttöä tikagrelorista, ja ne on merkitty tilaan Hold. Angiodysplasian kohdalla ennuste viittaa todennäköisemmin turvallisuusriskiin (verenvuoto) kuin hoitohyötyyn.
+Muista ennusteista vahvin näyttö on käyttöaiheella **iskeeminen sairaus (ischemic disease)** (pistemäärä 0,9964, näytön taso L1, suositus Proceed with Guardrails). Siitä on useita suuria satunnaistettuja tutkimuksia (mm. TWILIGHT, THEMIS, CHANCE-2-tyyppiset tutkimukset ja sepelvaltimoohitusleikkauksen jälkeinen ACS-tutkimus). Se kuitenkin menee suurelta osin päällekkäin jo hyväksyttyjen käyttöaiheiden kanssa, joten kyseessä on pikemminkin käyttöaiheen laajennus kuin aito uudelleenkäyttö. Muilla ennusteilla (Mönckebergin arterioskleroosi, priapismi, May–Thurnerin oireyhtymä, livedo reticularis, suoliliepeen verisuonitukos, verisuonten ektasia, angiodysplasia, laskimotromboembolia) ei ole kliinistä näyttöä tikagrelorista, ja ne on merkitty tilaan Hold. Angiodysplasian kohdalla ennuste viittaa todennäköisemmin turvallisuusriskiin (verenvuoto) kuin hoitohyötyyn.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

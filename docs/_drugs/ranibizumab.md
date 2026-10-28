@@ -4,17 +4,17 @@ title: Ranibizumab
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 365
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Ranibizumab: ennustettu uusi käyttöaihe Vaikea ei-proliferatiivinen diabeettinen retinopatia (näytön taso L5). Alkuperäinen käyttöaihe: Kostea silmänpohjan ikärappeuma, makulaturvotus…"
 monitor_inn: "RANIBIZUMAB"
 predicted_indications: ["immature cataract", "mature cataract", "diabetes mellitus type 2 associated cataract", "tetanic cataract", "craniostenosis cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "hemorrhagic disease of newborn"]
+description: "Ranibizumab: ennustettu uusi käyttöaihe Immature cataract (näytön taso L5). Alkuperäinen käyttöaihe: Wet Macular Degeneration"
 ---
 
 # Ranibizumab
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Ranibitsumabi: Kosteasta silmänpohjan rappeumasta vaikeaan ei-proliferatiiviseen diabeettiseen retinopatiaan
+## Ranibizumab: Immature cataract
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -48,12 +48,12 @@ Tätä suuntaa tukee **18 julkaisua**, mutta tähän käyttöaiheeseen ei ole an
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Kostea silmänpohjan ikärappeuma, makulaturvotus, diabeettinen retinopatia ja diabeteksen komplikaatiot |
-| Ennustettu uusi käyttöaihe | Vaikea ei-proliferatiivinen diabeettinen retinopatia |
-| TxGNN-ennustepistemäärä | 99,99 % |
-| Näytön taso | L1 (perustuu kirjallisuuteen, ei annettuihin tutkimusrekistereihin; ks. alla) |
-| Markkinatilanne Suomessa | Vain peruutetut myyntiluvat |
-| Myyntilupien määrä | 7 (kaikki peruutettuja) |
+| Alkuperäinen käyttöaihe | Wet Macular Degeneration;Macular Edema;Diabetic Retinopathy;Diabetes Complications; Wet Macular Degeneration;Macular Edema;Diabetes Complications;Myopia, Degenerative;Choroidal Neovascularization; Wet Macular Degeneration;Macular Edema;Choroidal Neovascularization;Diabetes Complications; Wet Macular |
+| Ennustettu uusi käyttöaihe | Immature cataract |
+| TxGNN-ennustepistemäärä | 0.9999 |
+| Näytön taso | L5 (perustuu kirjallisuuteen, ei annettuihin tutkimusrekistereihin; ks. alla) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 7/7) |
+| Myyntilupien määrä | 7 (voimassa: 7) |
 | Suositeltu päätös | Etene suojatoimin (Proceed with Guardrails) |
 
 ---
@@ -70,7 +70,6 @@ Kirjallisuudessa on RIDE/RISE-tutkimusten analyysejä, joissa diabeettinen retin
 
 ## Kliininen tutkimusnäyttö
 
-Ennustettuun käyttöaiheeseen (vaikea ei-proliferatiivinen diabeettinen retinopatia) ei ole tällä hetkellä rekisteröityjä kliinisiä tutkimuksia.
 
 ---
 

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Amikacin
-parent: Kohtalainen näyttö (L3-L4)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 30
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-13
-description: "Amikacin: ennustettu uusi käyttöaihe Paratyfoidikuume (näytön taso L4). Alkuperäinen käyttöaihe: Hengitystieinfektiot"
 monitor_inn: "Amikacin"
 predicted_indications: ["paratyphoid fever", "diffuse scleroderma", "punctate epithelial keratoconjunctivitis", "typhoid fever", "epiglottitis", "salmonellosis", "congenital analbuminemia", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "meningococcemia"]
+last_modified_at: 2026-10-27
+description: "Amikacin: ennustettu uusi käyttöaihe Paratyfoidikuume (paratyphoid fever) (näytön taso L5). Alkuperäinen käyttöaihe: Respiratory Tract Infections"
 ---
 
 # Amikacin
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,106 +33,81 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Amikasiini: Hengitystieinfektioista paratyfoidikuumeeseen
+## Amikasiini: aminoglykosidiantibiootti → paratyfoidikuume (paratyphoid fever)
 {: .text-alpha }
 
-## Yhden lauseen tiivistelmä
+## Yhteenveto
 
-Amikasiini on aminoglykosidiantibiootti, jonka Suomessa tunnettu lupa (liposomaalinen Arikayce) koskee hengitystieinfektioita.
-TxGNN-malli ennustaa sen voivan tehota **paratyfoidikuumeeseen**, mutta ennusteen tukena on vain **0 kliinistä tutkimusta** ja **8 julkaisua**, jotka ovat pääosin epidemiologisia ja antibiogrammitutkimuksia. Suoraa tehoa osoittavaa näyttöä ei ole.
-
----
+Amikasiini on aminoglykosidiantibiootti, jota käytetään gramnegatiivisten bakteerien aiheuttamien infektioiden hoitoon. TxGNN-malli ennustaa, että se voisi soveltua **paratyfoidikuumeen (paratyphoid fever)** hoitoon. Näyttö on kuitenkin heikko: kyseistä tautia koskevia kliinisiä lääketutkimuksia ei ole, ja kirjallisuus koostuu pääosin epidemiologisista ja herkkyysseurantatutkimuksista.
 
 ## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Hengitystieinfektiot |
-| Ennustettu uusi käyttöaihe | Paratyfoidikuume |
-| TxGNN-ennusteen pistemäärä | 99,82 % |
-| Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja lupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Alkuperäinen käyttöaihe | Respiratory Tract Infections |
+| Ennustettu uusi käyttöaihe | Paratyfoidikuume (paratyphoid fever) |
+| TxGNN-ennustepistemäärä | 0,9982 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
-
----
 
 ## Miksi ennuste on perusteltu?
 
-Tämän raportin laatimiseen koottu aineisto ei sisällä yksityiskohtaista vaikutusmekanismitietoa. Tunnetun tiedon perusteella amikasiini kuuluu aminoglykosidien ryhmään, sen teho gramnegatiivisia bakteereja vastaan on osoitettu, ja mekanistisesti se voisi olla sovellettavissa *Salmonella paratyphi* -infektioon.
+Yksityiskohtaista vaikutusmekanismia ei ole tällä hetkellä saatavilla. Tunnetun tiedon perusteella amikasiini kuuluu aminoglykosideihin, joilla on aktiivisuutta gramnegatiivisia bakteereja vastaan. *Salmonella paratyphi* on gramnegatiivinen bakteeri, joten biologinen uskottavuus on olemassa.
 
-Alkuperäinen käyttöaihe (hengitystieinfektiot) ja ennustettu käyttöaihe ovat molemmat bakteeri-infektioita. Yhteys perustuu pääosin amikasiinin yleiseen antibakteeriseen vaikutukseen eikä spesifiseen mekanismiin.
-
-Ennusteeseen on kuitenkin suhtauduttava varauksella. Aminoglykosidit läpäisevät soluja huonosti, ja *Salmonella* on fakultatiivinen solunsisäinen taudinaiheuttaja. Siksi aminoglykosideja ei kliinisesti suositella lavantautiryhmän (enteerisen kuumeen) hoitoon. Julkaisut ovat pääosin epidemiologiaa ja herkkyysseurantaa, eikä suoraa tehoa osoittavaa näyttöä ole.
-
----
+Mekanistista yhteyttä heikentää kuitenkin se, että aminoglykosidit läpäisevät solun sisään heikosti, ja salmonella on fakultatiivinen solunsisäinen taudinaiheuttaja. Siksi aminoglykosideja ei suositella lavantautityyppisen (enteerisen) kuumeen hoitoon, ja vaihtoehtoisia, vakiintuneita hoitoja on olemassa. Ennuste jää siis lähinnä mallipohjaiseksi signaaliksi.
 
 ## Kliiniset tutkimukset
 
-Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
-
----
+Tähän ennustettuun käyttöaiheeseen ei ole tällä hetkellä rekisteröityjä kliinisiä tutkimuksia.
 
 ## Kirjallisuusnäyttö
 
+Alla on koottu aineistosta tärkeimmät julkaisut. Yksikään niistä ei osoita amikasiinin tehoa paratyfoidikuumeessa.
+
 | PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [10505326](https://pubmed.ncbi.nlm.nih.gov/10505326/) | 1999 | Tapausselostus | Pediatric Hematology and Oncology | Leukemiaa sairastavan lapsen *S. paratyphi B* -sapen­rakkotulehdus hoidettiin onnistuneesti kefepiimillä, amikasiinilla ja granulosyyttikasvutekijällä |
-| [2516600](https://pubmed.ncbi.nlm.nih.gov/2516600/) | 1989 | Kliininen tutkimus | Mikrobiyoloji Bülteni | 48 potilasta, joilla klassiseen hoitoon resistentti paratyphi B -infektio; antibioottien käyttö ja tulokset |
-| [18383953](https://pubmed.ncbi.nlm.nih.gov/18383953/) | 2007 | Kohorttitutkimus | J Indian Med Assoc | 145 lasta, joilla veriviljelypositiivinen enteerinen kuume; antibioottiherkkyyskuvio |
-| [8354556](https://pubmed.ncbi.nlm.nih.gov/8354556/) | 1993 | Epidemiologia | Indian J Pathol Microbiol | Monilääkeresistentit *S. typhi* -kannat olivat herkkiä aminoglykosideille, myös amikasiinille |
-| [16410091](https://pubmed.ncbi.nlm.nih.gov/16410091/) | 2006 | Tapaussarja | J Pediatr Surg | Lasten pernaabsessien hoito neula-aspiraatiolla ja antibiooteilla |
-| [14596347](https://pubmed.ncbi.nlm.nih.gov/14596347/) | 2003 | Epidemiologia | New Microbiologica | *S. typhi*- ja *S. paratyphi* -tapausten esiintyvyys Jordaniassa |
-| [27407999](https://pubmed.ncbi.nlm.nih.gov/27407999/) | 2007 | Epidemiologia | Med J Armed Forces India | Kloramfenikoliherkkyyden paluu enteerisessä kuumeessa |
-| [30724049](https://pubmed.ncbi.nlm.nih.gov/30724049/) | 2018 | Mikrobiologia | Pak J Biol Sci | *S. paratyphi* -kantojen eristys ja tunnistus Quettassa |
+| [18383953](https://pubmed.ncbi.nlm.nih.gov/18383953/) | 2007 | Kohorttitutkimus | J Indian Med Assoc | Lasten enteerisen kuumeen kliininen ja mikrobiologinen profiili sekä *S. typhi*- ja *S. paratyphi* -kantojen antibioottiherkkyys |
+| [2516600](https://pubmed.ncbi.nlm.nih.gov/2516600/) | 1989 | Kliininen tutkimus | Mikrobiyoloji Bülteni | 48 potilasta, paratyphi B -infektiot, klassiselle hoidolle resistentit kannat ja antibioottihoitojen tulokset |
+| [10505326](https://pubmed.ncbi.nlm.nih.gov/10505326/) | 1999 | Tapausselostus | Pediatr Hematol Oncol | *S. paratyphi B* -bakteerin aiheuttama kolekystiitti leukemialapsella; hoitona mm. kefepiimi, amikasiini ja granulosyyttikasvutekijä |
+| [27407999](https://pubmed.ncbi.nlm.nih.gov/27407999/) | 2007 | Seurantatutkimus | Med J Armed Forces India | Kloramfenikoliherkkyyden palautuminen enteerisessä kuumeessa Pohjois-Intiassa |
+| [14596347](https://pubmed.ncbi.nlm.nih.gov/14596347/) | 2003 | Epidemiologinen seuranta | New Microbiol | *S. typhi*- ja *S. paratyphi* -esiintyvyys Jordaniassa |
+| [30724049](https://pubmed.ncbi.nlm.nih.gov/30724049/) | 2018 | Mikrobiologinen seuranta | Pak J Biol Sci | *S. paratyphi* -kantojen eristys enteerisen kuumeen potilailta Quettassa |
+| [26905550](https://pubmed.ncbi.nlm.nih.gov/26905550/) | 2014 | Antibiogrammiseuranta | JNMA | Veriviljelyeristeiden esiintyvyys ja antibiogrammi opetussairaalassa |
+| [16410091](https://pubmed.ncbi.nlm.nih.gov/16410091/) | 2006 | Tapaussarja | J Pediatr Surg | Lasten pernaabsessien hoito perkutaanisella dreneerauksella ja antibiooteilla |
 
-Satunnaistettuja kontrolloituja tutkimuksia ei ole. Samaan suuntaan viittaa myös lavantaudin (rank 4) aineisto, jossa amikasiinin in vitro -herkkyys on osoitettu (PMID 19554971), mutta pienessä vertailussa amikasiinin kliininen teho oli vain 36,4 % ofloksasiinin 100 %:iin verrattuna (PMID 2598731).
+## Suomen markkinatiedot
 
----
-
-## Markkinatiedot Suomessa
-
-| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/005264 | Arikayce liposomal | Ei tiedossa | Hengitystieinfektiot |
+| EMEA/H/C/005264 | Arikayce liposomal | – | Hengitystieinfektiot |
 
-Lupa on tilassa "peruutettu", eikä voimassa olevia lupia ole.
-
----
+Tätä lupaa koskeva tieto on koottu paikallisista lupatiedoista.
 
 ## Turvallisuushuomiot
 
-**Tietograafiin perustuvat vasta-aiheet** (TxGNN-tietograafin vasta-aihesuhteet, ei valmisteyhteenvedon teksti):
-- Munuaissairaus, märkävirtsanjohdin (pyoureter), nefrokalsinoosi
-- Hyperkalsemia ja fosforiaineenvaihdunnan häiriöt
-- Keskushermostoperäinen huimaus
-- Myasthenia gravis (myös aikuisiän muoto) ja neuromuskulaariliitoksen sairaudet
-- Parkinsonismi ja Parkinsonin tauti
+Pakkausselosteen varoitus- ja vasta-aihetietoja ei ole tämän raportin aineistossa saatavilla. Turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
-**Lääkeyhteisvaikutukset:** Yhteisvaikutuksia löytyi yhteensä 100, ja tässä esitetään osa niistä.
-- **Merkittävät (Major):** magnesiumsulfaatti, mannitoli
-- **Kohtalaiset (Moderate):** amfoterisiini B (useat muodot), kanamysiini, neomysiini, asetyylisalisyylihappo, mesalatsiini, balsalatsidi, olsalatsiini, eksenatidi sekä protonipumpun estäjät (omepratsoli, esomepratsoli, lansopratsoli, pantopratsoli, rabepratsoli, deksansopratsoli)
+**Yhteisvaikutukset:** Aineistossa on kirjattu yhteensä 100 mahdollista yhteisvaikutusta. Vakavammiksi (Major) luokiteltuja ovat:
+- magnesiumsulfaatti
+- mannitoli
 
-Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla, joten ne on tarkistettava Fimean valmisteyhteenvedosta.
-
----
+Merkittävä osa muista esimerkeistä on luokiteltu keskivaikeiksi (Moderate), mm. amfoterisiini B (useat muodot), kanamysiini, neomysiini, asetyylisalisyylihappo sekä protonipumpun estäjät (omepratsoli, esomepratsoli, lansopratsoli, pantopratsoli, rabepratsoli, deksalansopratsoli).
 
 ## Johtopäätös ja jatkotoimet
 
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu lähinnä malliin ja epäsuoriin tietoihin (herkkyys- ja seurantatutkimukset, tapausselostukset). Aminoglykosidien huono solunsisäinen läpäisy ja olemassa olevat tehokkaammat hoidot (atsitromysiini, keftriaksoni, fluorokinolonit) heikentävät käyttöaiheen uskottavuutta. Lisäksi Suomessa ei ole voimassa olevaa lupaa.
+Kyseistä tautia suoraan tutkivaa kliinistä tutkimusta tai kirjallisuutta, joka osoittaisi tehon, ei ole; julkaisut ovat epidemiologisia, herkkyysseurantoja tai tapausselostuksia. Lisäksi aminoglykosidien heikko solunsisäinen läpäisy ja vakiintuneet vaihtoehtoiset hoidot heikentävät ennusteen kliinistä uskottavuutta.
 
-**Jatkoon siirtyminen edellyttää:**
-- Fimean valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittämistä (estää turvallisuusseulonnan)
-- Vaikutusmekanismitietojen täydentämistä (esim. DrugBankista)
-- Kontrolloitua kliinistä näyttöä amikasiinin tehosta enteerisessä kuumeessa
-- Tarkempaa selvitystä lääkemuodosta ja antoreitistä, sillä reittiyhteensopivuutta ei ole arvioitu
-
----
-
-**Huomio muista ennusteista:** Muut ennustetut käyttöaiheet (diffuusi skleroderma, punktaattinen epiteliaalinen keratokonjunktiviitti, epiglottiitti, kongenitaalinen analbuminemia, hyperamylasemia, polyklonaalinen hyperviskositeettioireyhtymä) perustuvat pelkkään mallin ennusteeseen ilman kliinistä näyttöä (L5). Lavantauti, salmonelloosi ja meningokokkemia saivat tason L4, mutta niilläkin näyttö on epäsuoraa. Kaikkien suositus on Hold.
+**Eteenpäin siirtyminen edellyttäisi:**
+- Vaikutusmekanismia koskevien tietojen täydentämistä
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittämistä
+- Kontrolloitua kliinistä tai vähintään prekliinistä näyttöä amikasiinin tehosta *Salmonella paratyphi* -infektiossa, mukaan lukien solunsisäinen teho
+- Vertailua nykyisiin standardihoitoihin (atsitromysiini, keftriaksoni, fluorokinolonit)
+- Arviota annostelureitistä ja munuais- ja kuulotoksisuusriskin hallinnasta
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

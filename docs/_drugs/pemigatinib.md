@@ -4,17 +4,17 @@ title: Pemigatinib
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 339
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Pemigatinib: ennustettu uusi käyttöaihe Monirauhasten neoplasia (multiple endocrine neoplasia) (näytön taso L5). Alkuperäinen käyttöaihe: Kolangiokarsinooma (sappitiesyöpä)"
 monitor_inn: "PEMIGATINIB"
-predicted_indications: ["multiple endocrine neoplasia", "amenorrhea (disease)", "HER2 positive breast carcinoma", "cytomegalovirus infection", "infectious bovine rhinotracheitis", "malignant catarrh", "amyotrophic lateral sclerosis", "amyotrohpic lateral sclerosis type 22", "amyotrophic lateral sclerosis, susceptibility to", "axial spondylometaphyseal dysplasia"]
+predicted_indications: ["multiple endocrine neoplasia", "amenorrhea (disease)", "HER2 positive breast carcinoma", "cytomegalovirus infection", "infectious bovine rhinotracheitis", "malignant catarrh", "amyotrophic lateral sclerosis", "amyotrohpic lateral sclerosis type 22", "axial spondylometaphyseal dysplasia"]
 ---
 
 # Pemigatinib
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN-malli ennustaa sen voivan tehota **monirauhasten neoplasiaan (MEN)**, mutt
 |------|------|
 | Alkuperäinen käyttöaihe | Kolangiokarsinooma (sappitiesyöpä) |
 | Ennustettu uusi käyttöaihe | Monirauhasten neoplasia (multiple endocrine neoplasia) |
-| TxGNN-ennusteen pistemäärä | 99,71 % |
+| TxGNN-ennusteen pistemäärä | 0,9971 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

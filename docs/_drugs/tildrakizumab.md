@@ -6,9 +6,9 @@ nav_order: 437
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-13
-description: "Tildrakizumab: ennustettu uusi käyttöaihe Vaikea ei-proliferatiivinen diabeettinen retinopatia (näytön taso L5). Alkuperäinen käyttöaihe: Psoriaasi"
 monitor_inn: "TILDRAKIZUMAB"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic cataract", "drug-induced osteoporosis"]
+description: "Tildrakizumab: ennustettu uusi käyttöaihe Vaikea ei-proliferatiivinen diabeettinen retinopatia (severe nonproliferative diabetic retinopathy) (näytön taso L5). Alkuperäinen käyttöaihe: Psoriasis"
 ---
 
 # Tildrakizumab
@@ -33,8 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-## Tildrakitsumabi: Psoriaasista vaikeaan proliferatiivista edeltävään diabeettiseen retinopatiaan
-{: .text-alpha }
+Tildrakitsumabi: Psoriaasista vaikeaan ei-proliferatiiviseen diabeettiseen retinopatiaan
 
 ## Yhden lauseen yhteenveto
 
@@ -47,12 +46,12 @@ TxGNN-malli ennustaa sen voivan tehota **vaikeaan ei-proliferatiiviseen diabeett
 
 | Kohde | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Psoriaasi |
-| Ennustettu uusi käyttöaihe | Vaikea ei-proliferatiivinen diabeettinen retinopatia |
-| TxGNN-ennustepistemäärä | 99,63 % |
+| Alkuperäinen käyttöaihe | Psoriasis |
+| Ennustettu uusi käyttöaihe | Vaikea ei-proliferatiivinen diabeettinen retinopatia (severe nonproliferative diabetic retinopathy) |
+| TxGNN-ennustepistemäärä | 0.9963 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -69,9 +68,9 @@ Lisäksi suuri vasta-ainemolekyyli läpäisee silmän kudokset huonosti systeemi
 
 | Sija | Käyttöaihe | TxGNN-pistemäärä | Näytön taso | Huomio |
 |---|---|---|---|---|
-| 2 | Diabeettinen retinopatia | 99,53 % | L5 | Sama perustelu kuin sijalla 1; ei tutkimuksia eikä julkaisuja |
-| 3 | Diabeettinen kaihi | 99,21 % | L5 | Selvää mekanistista yhteyttä ei ole; todennäköisesti graafin läheisyydestä johtuva artefakti. Leikkaus on ratkaiseva hoito |
-| 4 | Lääkkeiden aiheuttama osteoporoosi | 99,20 % | L5 | IL-23/IL-17 vaikuttaa luun uudelleenmuodostukseen, joten yhteys on uskottava mutta epäsuora; vain hypoteesi prekliiniseen tutkimukseen |
+| 2 | Diabeettinen retinopatia | 0,9953 | L5 | Sama perustelu kuin sijalla 1; ei tutkimuksia eikä julkaisuja |
+| 3 | Diabeettinen kaihi | 0,9921 | L5 | Selvää mekanistista yhteyttä ei ole; todennäköisesti graafin läheisyydestä johtuva artefakti. Leikkaus on ratkaiseva hoito |
+| 4 | Lääkkeiden aiheuttama osteoporoosi | 0,9920 | L5 | IL-23/IL-17 vaikuttaa luun uudelleenmuodostukseen, joten yhteys on uskottava mutta epäsuora; vain hypoteesi prekliiniseen tutkimukseen |
 
 ---
 
@@ -114,7 +113,7 @@ Pakkausselosteen varoituksia ja vasta-aiheita ei ollut käytettävissä. Tarkist
 **Päätös: Hold (odota)**
 
 **Perustelu:**
-- Ennusteen pistemäärä on korkea (99,63 %), mutta näyttö on tasoa L5: ei kliinisiä tutkimuksia, ei julkaisuja eikä prekliinistä aineistoa. Lisäksi systeemisen vasta-aineen silmäpenetraatio on rajallinen ja vakiintuneet hoidot ovat vahvoja. Myyntilupakin on Suomessa peruutettu.
+- Ennusteen pistemäärä on korkea (0,9963), mutta näyttö on tasoa L5: ei kliinisiä tutkimuksia, ei julkaisuja eikä prekliinistä aineistoa. Lisäksi systeemisen vasta-aineen silmäpenetraatio on rajallinen ja vakiintuneet hoidot ovat vahvoja. Myyntilupakin on Suomessa peruutettu.
 
 **Jatkaminen edellyttää seuraavaa:**
 - Vaikutusmekanismin (MOA) tietojen täydentäminen

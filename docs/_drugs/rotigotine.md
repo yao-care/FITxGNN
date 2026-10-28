@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Rotigotine
-parent: Kohtalainen näyttö (L3-L4)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 388
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Rotigotine: ennustettu uusi käyttöaihe Tarkkaavaisuus- ja ylivilkkaushäiriö (ADHD) (näytön taso L4). Alkuperäinen käyttöaihe: Levottomien jalkojen oireyhtymä"
 monitor_inn: "ROTIGOTINE"
 predicted_indications: ["attention deficit-hyperactivity disorder", "schizophrenia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "faciodigitogenital syndrome", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "atypical glycine encephalopathy", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited"]
+description: "Rotigotine: ennustettu uusi käyttöaihe Tarkkaavaisuus- ja ylivilkkaushäiriö (attention deficit-hyperactivity disorder) (näytön taso L5). Alkuperäinen käyttöaihe: Restless Legs Syndrome"
 ---
 
 # Rotigotine
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Rotigotiini: Parkinsonin taudista ja levottomien jalkojen oireyhtymästä tarkaksyn- ja ylivilkkaushäiriöön (ADHD)
+## Rotigotine: Tarkkaavaisuus- ja ylivilkkaushäiriö (attention deficit-hyperactivity disorder)
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -47,12 +47,12 @@ TxGNN-malli ennustaa sen voivan tehota **tarkkaavaisuus- ja ylivilkkaushäiriö�
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Levottomien jalkojen oireyhtymä; Parkinsonin tauti |
-| Ennustettu uusi käyttöaihe | Tarkkaavaisuus- ja ylivilkkaushäiriö (ADHD) |
-| TxGNN-ennustepistemäärä | 99,997 % |
-| Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Alkuperäinen käyttöaihe | Restless Legs Syndrome;Parkinson Disease |
+| Ennustettu uusi käyttöaihe | Tarkkaavaisuus- ja ylivilkkaushäiriö (attention deficit-hyperactivity disorder) |
+| TxGNN-ennustepistemäärä | 1.0000 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -104,8 +104,8 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat, joten niihin on tutus
 
 | Sija | Sairaus | Pistemäärä | Näytön taso | Huomio |
 |---|---|---|---|---|
-| 2 | Skitsofrenia | 99,996 % | L4 | Prodopaminergisistä lääkkeistä negatiivisten oireiden hoidossa on järjestelmällinen katsaus ja meta-analyysi, mutta agonismi voi pahentaa positiivisia oireita tai aiheuttaa psykoosin; rotigotiinia ei ole kliinisesti tutkittu |
-| 3–10 | Harvinaiset synnynnäiset, aineenvaihdunta-, verkkokalvo- ja hermostosairaudet sekä X-kromosomaalinen likinäköisyys | 99,992–99,995 % | L5 | Ei tukevaa tutkimus- tai kirjallisuusnäyttöä; mekanistinen yhteys heikko tai puuttuu |
+| 2 | Skitsofrenia | 1,0000 | L5 | Prodopaminergisistä lääkkeistä negatiivisten oireiden hoidossa on järjestelmällinen katsaus ja meta-analyysi, mutta agonismi voi pahentaa positiivisia oireita tai aiheuttaa psykoosin; rotigotiinia ei ole kliinisesti tutkittu |
+| 3–10 | Harvinaiset synnynnäiset, aineenvaihdunta-, verkkokalvo- ja hermostosairaudet sekä X-kromosomaalinen likinäköisyys | 99,992–1,0000 | L5 | Ei tukevaa tutkimus- tai kirjallisuusnäyttöä; mekanistinen yhteys heikko tai puuttuu |
 
 ---
 

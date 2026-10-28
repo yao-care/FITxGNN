@@ -4,17 +4,17 @@ title: Riluzole
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 378
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Riluzole: ennustettu uusi käyttöaihe Bilateraalinen parasagittaalinen parieto-okkipitaalinen polymikrogyria (näytön taso L5). Alkuperäinen käyttöaihe: Amyotrofinen lateraaliskleroosi (ALS)"
 monitor_inn: "RILUZOLE"
 predicted_indications: ["bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia", "lower motor neuron syndrome with late-adult onset", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "lethal arthrogryposis-anterior horn cell disease syndrome", "monomelic amyotrophy", "Mills syndrome", "autosomal dominant mitochondrial myopathy with exercise intolerance", "amyotrohpic lateral sclerosis type 22"]
+description: "Riluzole: ennustettu uusi käyttöaihe Bilateral parasagittal parieto-occipital polymicrogyria (näytön taso L5). Alkuperäinen käyttöaihe: Amyotrophic Lateral Sclerosis"
 ---
 
 # Riluzole
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Riluzoli: Amyotrofisesta lateraaliskleroosista polymikrogyriaan
+## Riluzole: Bilateral parasagittal parieto-occipital polymicrogyria
 {: .text-alpha }
 
 ## Yhteenveto
@@ -47,12 +47,12 @@ TxGNN-malli ennustaa sen voivan tehota **bilateraaliseen parasagittaaliseen pari
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Amyotrofinen lateraaliskleroosi (ALS) |
-| Ennustettu uusi käyttöaihe | Bilateraalinen parasagittaalinen parieto-okkipitaalinen polymikrogyria |
-| TxGNN-ennusteen pistemäärä | 99,99 % |
+| Alkuperäinen käyttöaihe | Amyotrophic Lateral Sclerosis |
+| Ennustettu uusi käyttöaihe | Bilateral parasagittal parieto-occipital polymicrogyria |
+| TxGNN-ennusteen pistemäärä | 0.9999 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 2 (kaikki peruutettuja) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Myyntilupien määrä | 2 (voimassa: 2) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -73,15 +73,15 @@ Seuraavista ennusteista yksikään ei sisällä kliinisiä tutkimuksia. Näytön
 
 | Sija | Sairaus | Pistemäärä | Huomio |
 |------|------|------|------|
-| 2 | Aksiaalinen spondylometafyysinen dysplasia | 99,99 % | Ei ilmeistä mekanistista perustetta; todennäköisesti verkoston artefakti |
-| 3 | Aikuisiän alkuinen alemman motoneuronin oireyhtymä | 99,99 % | Epäsuora analogia ALS:ään |
-| 4 | Trikomegalia-verkkokalvon pigmenttirappeuma-kääpiökasvuoireyhtymä | 99,99 % | Mekanistista yhteyttä ei voida osoittaa |
-| 5 | Letaali artrogrypoosi-etusarvisolusairausoireyhtymä | 99,99 % | Löyhä yhteys ALS:ään; ekstrapolointi aikuisten tiedoista ei ole realistista |
-| 6 | Monomeelinen amyotrofia | 99,99 % | Yleensä itsestään rajoittuva; hyödyn osoittaminen vaikeaa |
-| 7 | Millsin oireyhtymä | 99,98 % | ALS/primaarisen lateraaliskleroosin kirjoon kuuluva; suoraa näyttöä ei ole |
-| 8 | ALS, alttius | 99,98 % | Vastaa jo hyväksyttyä käyttöaihetta; näytön taso L4 |
-| 9 | Autosomaalisesti vallitseva mitokondriaalinen myopatia | 99,98 % | Selvää mekanistista yhteyttä ei ole |
-| 10 | ALS tyyppi 22 | 99,98 % | Luokkatason perustelu ALS:n kautta; tautinimessä kirjoitusvirhe, mikä voi haitata kirjallisuushakua |
+| 2 | Aksiaalinen spondylometafyysinen dysplasia | 0,9999 | Ei ilmeistä mekanistista perustetta; todennäköisesti verkoston artefakti |
+| 3 | Aikuisiän alkuinen alemman motoneuronin oireyhtymä | 0,9999 | Epäsuora analogia ALS:ään |
+| 4 | Trikomegalia-verkkokalvon pigmenttirappeuma-kääpiökasvuoireyhtymä | 0,9999 | Mekanistista yhteyttä ei voida osoittaa |
+| 5 | Letaali artrogrypoosi-etusarvisolusairausoireyhtymä | 0,9999 | Löyhä yhteys ALS:ään; ekstrapolointi aikuisten tiedoista ei ole realistista |
+| 6 | Monomeelinen amyotrofia | 0,9999 | Yleensä itsestään rajoittuva; hyödyn osoittaminen vaikeaa |
+| 7 | Millsin oireyhtymä | 0,9998 | ALS/primaarisen lateraaliskleroosin kirjoon kuuluva; suoraa näyttöä ei ole |
+| 8 | ALS, alttius | 0,9998 | Vastaa jo hyväksyttyä käyttöaihetta; näytön taso L4 |
+| 9 | Autosomaalisesti vallitseva mitokondriaalinen myopatia | 0,9998 | Selvää mekanistista yhteyttä ei ole |
+| 10 | ALS tyyppi 22 | 0,9998 | Luokkatason perustelu ALS:n kautta; tautinimessä kirjoitusvirhe, mikä voi haitata kirjallisuushakua |
 
 ---
 

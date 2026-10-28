@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 157
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-13
-description: "Elafibranor: ennustettu uusi käyttöaihe Amenorrea (näytön taso L5). Alkuperäinen käyttöaihe: Sappikirroosi (Liver Cirrhosis, Biliary)"
 monitor_inn: "ELAFIBRANOR"
 predicted_indications: ["amenorrhea (disease)"]
+last_modified_at: 2026-10-27
+description: "Elafibranor: ennustettu uusi käyttöaihe Amenorrea (amenorrhea (disease)) (näytön taso L5). Alkuperäinen käyttöaihe: Liver Cirrhosis, Biliary"
 ---
 
 # Elafibranor
@@ -33,80 +33,66 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-## Elafibranor: Primaarisesta sappikirroosista kohti amenorreaa
+## Elafibranori: PPARα/δ-agonisti → amenorrea (amenorrhea (disease))
 {: .text-alpha }
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Elafibranor on PPAR-agonisti, jota käytetään primaarisen sappitiekolangiitin (sappikirroosin) hoitoon. TxGNN-malli ennustaa, että sillä voisi olla vaikutusta **amenorreaan**, mutta ennusteen tueksi ei ole tällä hetkellä **yhtään kliinistä tutkimusta eikä julkaisua**. Ennuste perustuu pelkästään laskennalliseen malliin.
+Elafibranori on PPARα- ja PPARδ-reseptoreihin sitoutuva agonisti. Tietokoneellinen TxGNN-malli ennustaa sen mahdolliseksi uudeksi käyttöaiheeksi **amenorrean (amenorrhea (disease))**. Ennusteen tueksi ei ole toistaiseksi yhtään kliinistä tutkimusta eikä julkaisua, joten näyttö perustuu pelkästään mallin ennusteeseen.
 
----
-
-## Pikakatsaus
+## Pikayhteenveto
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Sappikirroosi (Liver Cirrhosis, Biliary) |
-| Ennustettu uusi käyttöaihe | Amenorrea |
-| TxGNN-ennustepistemäärä | 99,86 % |
+| Alkuperäinen käyttöaihe | Liver Cirrhosis, Biliary |
+| Ennustettu uusi käyttöaihe | Amenorrea (amenorrhea (disease)) |
+| TxGNN-ennustepisteet | 0,9986 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
-
----
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Elafibranor on kaksoisagonisti, joka aktivoi PPARα- ja PPARδ-reseptoreita (PPARA ja PPARD). Maksassa se muuttuu pääasialliseksi aktiiviseksi metaboliitikseen GFT-1007. Prekliinisissä tutkimuksissa se vähensi maksan rasvan kertymistä, tulehdusta ja fibroosia. Lääkkeen kehitys alkoi NASH-maksasairauden hoitona, mutta kehitys lopetettiin vuonna 2020, kun vaihe 3 -tutkimuksen väliarvioinnissa teho ei ylittänyt lumelääkettä. Lääke uudelleensijoitettiin primaarisen sappitiekolangiitin hoitoon: FDA hyväksyi sen kesäkuussa 2024 ja EMA syyskuussa 2024.
+Elafibranori on PPARα:n (PPARA) ja PPARβ/δ:n (PPARD) agonisti. Näiden ydinreseptorien kautta välittyy rasva- ja glukoosiaineenvaihdunnan, insuliiniherkkyyden ja tulehduksen säätely. Elafibranori muuttuu maksassa päämetaboliitikseen GFT-1007. Esikliinisissä tutkimuksissa se vähensi maksan rasvan kertymistä, tulehdusta ja fibroosia.
 
-Yhteys amenorreaan on spekulatiivinen. PPAR-signalointi vaikuttaa rasva- ja sokeriaineenvaihduntaan, insuliiniherkkyyteen ja tulehdukseen. Nämä voisivat periaatteessa vaikuttaa munasarjojen tai hypotalamus–aivolisäke–sukurauhanen-akselin toimintaan, kuten PCOS:ään liittyvässä amenorreassa. Tälle reitille ei kuitenkaan ole tässä raportissa käytetyssä aineistossa tukea.
+Mahdollinen, mutta varmentamaton selitys on, että PPAR-signalointi voisi vaikuttaa aineenvaihdunnan kautta munasarjojen tai hypotalamus–aivolisäke–sukurauhasakselin toimintaan, esimerkiksi PCOS:ään liittyvässä amenorreassa. Tälle reitille ei ole kokoamissamme tiedoissa tukea, joten se on spekulatiivinen. Amenorrea on lisäksi heterogeeninen oire (hypotalaaminen, aivolisäkeperäinen, munasarja-, kohtu- tai raskauteen liittyvä syy), eikä ennuste määritä alatyyppiä.
 
-Lisäksi amenorrea on heterogeeninen oire (hypotalaaminen, aivolisäkkeen, munasarjojen, kohdun tai raskauteen liittyvä syy), eikä ennuste määritä alatyyppiä. Alkuperäisen ja uuden käyttöaiheen samankaltaisuutta ei ole arvioitu. Tarkempaa vaikutusmekanismitietoa ei ole saatavilla.
+Yksityiskohtaista vaikutusmekanismitietoa ei tähän raporttiin koottu tietoihin sisältynyt kokonaisena kuvauksena, joten mekanistinen arvio jää alustavaksi.
 
----
+## Kliininen näyttö
 
-## Kliininen tutkimusnäyttö
-
-Ei tällä hetkellä rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
-
----
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
 ## Kirjallisuusnäyttö
 
-Ei tällä hetkellä aiheeseen liittyvää kirjallisuutta.
+Tällä hetkellä ei ole aiheeseen liittyvää kirjallisuutta.
 
----
+## Markkinatiedot Suomessa
 
-## Suomen markkinatiedot
-
-| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/006231 | Iqirvo (Ipsen Pharma) | – | Sappikirroosi (Liver Cirrhosis, Biliary); tila: peruutettu |
-
----
+| EMEA/H/C/006231 | Iqirvo | – | Liver Cirrhosis, Biliary |
 
 ## Turvallisuusnäkökohdat
 
-Turvallisuustiedot on tarkistettava valmisteyhteenvedosta. Tähän raporttiin koottu aineisto ei sisällä varoituksia tai vasta-aiheita.
+Vuorovaikutustietoja ei ole kirjattu lääkeaineiden välisinä yhteisvaikutuksina, vaan farmakologisina kohdetietoina: elafibranori vaikuttaa PPARα- ja PPARβ/δ-reseptoreihin.
 
-Lääkkeen kehitysvaiheen tutkimuksissa (vaihe 1/2) ei havaittu erityisiä turvallisuussignaaleja. Vuorovaikutushaussa ei löytynyt lääkeaineyhteisvaikutuksia; ainoastaan lääkkeen farmakologiset kohteet (PPARα ja PPARδ) tunnistettiin.
+Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
----
-
-## Johtopäätös ja seuraavat vaiheet
+## Johtopäätös ja seuraavat askeleet
 
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu ainoastaan korkeaan TxGNN-pisteeseen (99,86 %), joka on laskennallinen eikä kliininen näyttö. Kliinisiä tutkimuksia ja julkaisuja ei ole, ja näytön taso on L5. Lisäksi lääkkeen myyntilupa Suomessa on peruutettu.
+- Ennuste perustuu ainoastaan korkeaan mallipisteeseen (0,9986), eikä sitä tue yksikään kliininen tutkimus tai julkaisu. Näytön taso on L5.
 
-**Edetäkseen tarvitaan seuraavaa:**
-- Valmisteyhteenvedon varoitukset ja vasta-aiheet (esimerkiksi Fimean sivustolta), jotta turvallisuusarviointi voidaan tehdä
-- Vaikutusmekanismin tarkempi kuvaus (esim. DrugBankista) ja mekanistisen yhteyden analyysi PPARα/δ-signaloinnin ja amenorrean välillä
-- Amenorrean alatyypin määrittely (esim. PCOS-liitännäinen) ja prekliininen tai kirjallisuuteen perustuva tuki kyseiselle alatyypille
-- Alkuperäisen ja uuden käyttöaiheen samankaltaisuuden sekä antoreittien yhteensopivuuden arviointi
-- Myyntilupatilanteen selvittäminen, koska Suomessa ei ole voimassa olevaa myyntilupaa
+**Etenemiseksi tarvitaan:**
+- Kirjallisuus- ja tutkimushaku, joka koskee suoraan amenorreaa ja PPAR-agonisteja
+- Amenorrean alatyypin täsmentäminen, jossa mekanismi voisi olla relevantti
+- Yksityiskohtaiset vaikutusmekanismitiedot
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet turvallisuusarviota varten
+- Esikliininen tai mekanistinen selvitys PPAR-reittien yhteydestä lisääntymishormonien akseliin
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

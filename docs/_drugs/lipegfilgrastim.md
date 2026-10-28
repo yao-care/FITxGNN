@@ -6,9 +6,9 @@ nav_order: 266
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-13
-description: "Lipegfilgrastim: ennustettu uusi käyttöaihe Primaarinen verihiutaleiden vapautumishäiriö (näytön taso L5). Alkuperäinen käyttöaihe: Ei saatavilla koottujen tietojen perusteella (lääkkeen tiedetään ol…"
 monitor_inn: "LIPEGFILGRASTIM"
 predicted_indications: ["primary release disorder of platelets", "severe nonproliferative diabetic retinopathy", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "diabetic retinopathy"]
+description: "Lipegfilgrastim: ennustettu uusi käyttöaihe Primaarinen verihiutaleiden vapautumishäiriö (primary release disorder of platelets) (näytön taso L5). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin ti…"
 ---
 
 # Lipegfilgrastim
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-## Lipegfilgrastiimi: Neutropenian hoidosta primaariseen verihiutaleiden vapautumishäiriöön
+## Lipegfilgrastim: Primaarinen verihiutaleiden vapautumishäiriö (primary release disorder of platelets)
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -46,12 +46,12 @@ Lipegfilgrastiimi on pegyloitu G-CSF-kasvutekijän analogi, jota käytetään ne
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Ei saatavilla koottujen tietojen perusteella (lääkkeen tiedetään olevan G-CSF-analogi, jota käytetään neutropenian hoidossa) |
-| Ennustettu uusi käyttöaihe | Primaarinen verihiutaleiden vapautumishäiriö |
-| TxGNN-ennusteen pistemäärä | 99,93 % |
+| Alkuperäinen käyttöaihe | Ei kirjattu paikallisiin tietoihin |
+| Ennustettu uusi käyttöaihe | Primaarinen verihiutaleiden vapautumishäiriö (primary release disorder of platelets) |
+| TxGNN-ennusteen pistemäärä | 0.9993 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -66,10 +66,10 @@ Muut ennustetut käyttöaiheet ovat samalla tavalla heikosti perusteltuja:
 
 | Sija | Ennustettu käyttöaihe | TxGNN-pistemäärä | Näytön taso | Huomio |
 |------|------|------|------|------|
-| 2 | Vaikea ei-proliferatiivinen diabeettinen retinopatia | 99,91 % | L5 | Vain spekulatiivinen yhteys progenitorisolujen mobilisaation kautta; voi myös edistää patologista uudisverisuonten muodostusta |
-| 3 | Pseudo-von Willebrandin tauti | 99,91 % | L5 | Johtuu verihiutaleiden GPIbα-geenin toiminnanvahvistumisvarianteista; uskottavaa mekanistista yhteyttä ei ole |
-| 4 | Glanzmannin trombasteenia | 99,91 % | L5 | Johtuu integriini αIIbβ3:n puutteesta tai toimintahäiriöstä; G-CSF:llä ei tunnettua vaikutusta |
-| 5 | Diabeettinen retinopatia | 99,75 % | L5 | Spekulatiivinen yhteys; verkkokalvon uudisverisuonten pahenemisen riski on selvitettävä |
+| 2 | Vaikea ei-proliferatiivinen diabeettinen retinopatia | 0,9991 | L5 | Vain spekulatiivinen yhteys progenitorisolujen mobilisaation kautta; voi myös edistää patologista uudisverisuonten muodostusta |
+| 3 | Pseudo-von Willebrandin tauti | 0,9991 | L5 | Johtuu verihiutaleiden GPIbα-geenin toiminnanvahvistumisvarianteista; uskottavaa mekanistista yhteyttä ei ole |
+| 4 | Glanzmannin trombasteenia | 0,9991 | L5 | Johtuu integriini αIIbβ3:n puutteesta tai toimintahäiriöstä; G-CSF:llä ei tunnettua vaikutusta |
+| 5 | Diabeettinen retinopatia | 0,9975 | L5 | Spekulatiivinen yhteys; verkkokalvon uudisverisuonten pahenemisen riski on selvitettävä |
 
 ---
 

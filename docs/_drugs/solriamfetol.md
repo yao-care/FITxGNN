@@ -6,9 +6,9 @@ nav_order: 408
 evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Solriamfetol: ennustettu uusi käyttöaihe Tarkkaavaisuus- ja ylivilkkaushäiriö (ADHD) (näytön taso L1). Alkuperäinen käyttöaihe: Narkolepsia"
 monitor_inn: "Solriamfetol"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "insomnia (disease)", "attention deficit hyperactivity disorder, inattentive type", "chondromyxoid fibroma", "specific developmental disorder", "variably protease-sensitive prionopathy", "multiple system atrophy", "postural orthostatic tachycardia syndrome", "disorder of peroxisomal alpha-, beta- and omega-oxidation"]
+description: "Solriamfetol: ennustettu uusi käyttöaihe Tarkkaavaisuus- ja ylivilkkaushäiriö (attention deficit-hyperactivity disorder) (näytön taso L1). Alkuperäinen käyttöaihe: Narcolepsy"
 ---
 
 # Solriamfetol
@@ -33,7 +33,7 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Solriamfetoli: Unettomuuden ja uniapnean päiväväsymyksestä ADHD:n hoitoon
+## Solriamfetol: Tarkkaavaisuus- ja ylivilkkaushäiriö (attention deficit-hyperactivity disorder)
 {: .text-alpha }
 
 ## Yhteenveto
@@ -48,12 +48,12 @@ Suuntaa tukee tällä hetkellä **5 kliinistä tutkimusta** (mm. valmistunut vai
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Narkolepsia; obstruktiivinen uniapnea |
-| Ennustettu uusi käyttöaihe | Tarkkaavaisuus- ja ylivilkkaushäiriö (ADHD) |
-| TxGNN-ennustepistemäärä | 99,99 % |
+| Alkuperäinen käyttöaihe | Narcolepsy;Sleep Apnea, Obstructive |
+| Ennustettu uusi käyttöaihe | Tarkkaavaisuus- ja ylivilkkaushäiriö (attention deficit-hyperactivity disorder) |
+| TxGNN-ennustepistemäärä | 0.9999 |
 | Näytön taso | L1 |
-| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Proceed with Guardrails (eteneminen suojatoimin) |
 
 ---

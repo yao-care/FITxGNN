@@ -4,17 +4,17 @@ title: Phenylephrine
 parent: Kohtalainen näyttö (L3-L4)
 nav_order: 344
 evidence_level: L4
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-13
 description: "Phenylephrine: ennustettu uusi käyttöaihe Nenäontelon sairaus (näytön taso L4). Alkuperäinen käyttöaihe: Silmänsisäinen linssi-implantaatio"
 monitor_inn: "PHENYLEPHRINE"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia"]
+predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
 ---
 
 # Phenylephrine
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **2** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-## Fenyylefriini: Silmänsisäisen linssi-implantaation ja leikkauksen jälkeisen kivun hoidosta nenäontelon sairauteen
+## Fenyylefriini: nenäontelon sairaus
 {: .text-alpha }
 
 ## Yhden lauseen tiivistelmä
@@ -48,10 +48,10 @@ Fenyylefriini on alfa-1-adrenergisen reseptorin agonisti, jota Suomessa on käyt
 |------|------|
 | Alkuperäinen käyttöaihe | Silmänsisäinen linssi-implantaatio; leikkauksen jälkeinen kipu |
 | Ennustettu uusi käyttöaihe | Nenäontelon sairaus |
-| TxGNN-ennustepistemäärä | 99,97 % |
+| TxGNN-ennustepistemäärä | 0,9997 |
 | Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odottaa) |
 
 ---
@@ -65,8 +65,8 @@ Nenän limakalvolla sama verisuonia supistava vaikutus vähentää turvotusta, t
 Suoraa kontrolloitua näyttöä pelkän fenyylefriinin tehosta nenäontelon sairauksissa ei kuitenkaan ole. Alkuperäinen käyttöaihe (silmäleikkaus) ja ennustettu käyttöaihe (nenän limakalvon sairaus) eroavat toisistaan selvästi, joten yhteys perustuu lähinnä yhteiseen farmakologiseen vaikutukseen, ei samaan sairausmekanismiin.
 
 Kaksi muuta mallin ennustamaa käyttöaihetta ovat heikommin perusteltuja:
-- **Akuutti laryngofaryngiitti** (pistemäärä 99,97 %): ei kliinisiä tutkimuksia eikä julkaisuja. Verisuonia supistavan vaikutuksen hyöty on spekulatiivinen, ja näyttö on L5-tasoa.
-- **Trigeminaalinen autonominen päänsärky** (pistemäärä 99,30 %): julkaisut ovat pupillometrisiä havaintotutkimuksia, joissa fenyylefriiniä käytettiin diagnostisena koeaineena, ei hoitona. Hoitohyötyä ei ole osoitettu, ja sympatomimeetti voisi lisätä riskejä.
+- **Akuutti laryngofaryngiitti** (pistemäärä 0,9997): ei kliinisiä tutkimuksia eikä julkaisuja. Verisuonia supistavan vaikutuksen hyöty on spekulatiivinen, ja näyttö on L5-tasoa.
+- **Trigeminaalinen autonominen päänsärky** (pistemäärä 0,9930): julkaisut ovat pupillometrisiä havaintotutkimuksia, joissa fenyylefriiniä käytettiin diagnostisena koeaineena, ei hoitona. Hoitohyötyä ei ole osoitettu, ja sympatomimeetti voisi lisätä riskejä.
 
 ---
 

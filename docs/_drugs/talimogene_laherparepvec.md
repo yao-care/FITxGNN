@@ -4,7 +4,7 @@ title: Talimogene Laherparepvec
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 417
 evidence_level: L5
-indication_count: 7
+indication_count: 5
 last_modified_at: 2026-10-13
 description: "Talimogene Laherparepvec: ennustettu uusi käyttöaihe CMM7 (näytön taso L5). Alkuperäinen käyttöaihe: Melanooma"
 monitor_inn: "TALIMOGENE LAHERPAREPVEC"
@@ -14,7 +14,7 @@ predicted_indications: ["CMM7", "glottis squamous cell carcinoma", "lung occult 
 # Talimogene Laherparepvec
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **7** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,8 +50,8 @@ Talimogeenilaherparepvek (T-VEC) on onkolyyttinen herpes simplex -virus tyypin 1
 | Ennustettu uusi käyttöaihe | CMM7 |
 | TxGNN-ennustepistemäärä | 99,20 % |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien lukumäärä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien lukumäärä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -68,12 +68,10 @@ Samalla aineistolla ennustettiin myös muita sairauksia. Kaikilla on näytön ta
 
 | Sija | Sairaus | Pistemäärä | Huomio |
 |------|------|------|------|
-| 2 | Lasten leptomeningeaalinen melanooma | 99,15 % | Aivo-selkäydinnesteeseen annostelu, veri-aivoesteen läpäisy sekä HSV:hen liittyvän aivotulehduksen riski herättävät merkittäviä turvallisuuskysymyksiä |
-| 3 | Epiteloidisoluinen uveamelanooma | 99,13 % | Biologialtaan erilainen kuin ihomelanooma; tarvitaan ensin prekliinistä työtä ja paikallisen annostelun selvitystä |
-| 4 | Äänirakosen levyepiteelisyöpä | 99,07 % | Kasvain on tavoitettavissa kasvaimensisäiseen injektioon, mutta yhteys perustuu vain malliin |
-| 5 | Keuhkon okkultti levyepiteelisyöpä | 99,05 % | Kasvain on pieni eikä kuvantamalla havaittavissa, joten injektio on käytännössä vaikea |
-| 6 | Peräsuolen kloakogeeninen syöpä | 99,01 % | Mahdollisesti paikallisesti injisoitavissa, mutta yhteys on spekulatiivinen |
-| 7 | Sappirakon adenosquamous-syöpä | 99,01 % | Harvinainen ja aggressiivinen; suora injektio teknisesti vaikea |
+| 4 | Äänirakosen levyepiteelisyöpä | 0,9907 | Kasvain on tavoitettavissa kasvaimensisäiseen injektioon, mutta yhteys perustuu vain malliin |
+| 5 | Keuhkon okkultti levyepiteelisyöpä | 0,9905 | Kasvain on pieni eikä kuvantamalla havaittavissa, joten injektio on käytännössä vaikea |
+| 6 | Peräsuolen kloakogeeninen syöpä | 0,9901 | Mahdollisesti paikallisesti injisoitavissa, mutta yhteys on spekulatiivinen |
+| 7 | Sappirakon adenosquamous-syöpä | 0,9901 | Harvinainen ja aggressiivinen; suora injektio teknisesti vaikea |
 
 ---
 

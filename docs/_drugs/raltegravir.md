@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Raltegravir
-parent: Kohtalainen näyttö (L3-L4)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 363
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-13
-description: "Raltegravir: ennustettu uusi käyttöaihe Apinoiden immuunikatovirusinfektio (SIV) (näytön taso L4). Alkuperäinen käyttöaihe: HIV-infektiot"
 monitor_inn: "RALTEGRAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Raltegravir: ennustettu uusi käyttöaihe Feline acquired immunodeficiency syndrome (näytön taso L5). Alkuperäinen käyttöaihe: HIV Infections"
 ---
 
 # Raltegravir
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-## Raltegraviiri: HIV-infektiosta apinoiden immuunikatovirusinfektioon
+## Raltegravir: Feline acquired immunodeficiency syndrome
 {: .text-alpha }
 
 ## Yhden lauseen tiivistelmä
@@ -46,12 +46,12 @@ Raltegraviiri on HIV-integraasin estäjä, jota on alun perin käytetty **HIV-in
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | HIV-infektiot |
-| Ennustettu uusi käyttöaihe | Apinoiden immuunikatovirusinfektio (SIV) |
+| Alkuperäinen käyttöaihe | HIV Infections |
+| Ennustettu uusi käyttöaihe | Feline acquired immunodeficiency syndrome |
 | TxGNN-ennustepisteet | 99,78 % |
-| Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (tutkimuskysymys, ei etene kliiniseen kehitykseen) |
 
 Huomio: ennusteista sijalla 1 on kissan immuunikatooireyhtymä (FIV, eläinlääketieteellinen käyttöaihe, näyttötaso L5) ja sijalla 3 harvinainen neurokehityshäiriö (näyttötaso L5). Tämä raportti keskittyy sijalla 2 olevaan SIV-ennusteeseen, jolle on kertynyt eniten näyttöä.

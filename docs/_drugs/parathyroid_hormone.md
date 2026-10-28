@@ -4,17 +4,17 @@ title: Parathyroid Hormone
 parent: Kohtalainen näyttö (L3-L4)
 nav_order: 331
 evidence_level: L4
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Parathyroid Hormone: ennustettu uusi käyttöaihe Migreenihäiriö (migraine disorder) (näytön taso L4). Alkuperäinen käyttöaihe: Hypoparatyreoosi"
 monitor_inn: "PARATHYROID HORMONE"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "amenorrhea (disease)", "Raynaud disease", "non-syndromic esophageal malformation", "migraine with or without aura, susceptibility to", "esophageal disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "erectile dysfunction (disease)"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "amenorrhea (disease)", "Raynaud disease", "non-syndromic esophageal malformation", "esophageal disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "erectile dysfunction (disease)"]
 ---
 
 # Parathyroid Hormone
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Parathormoni (PTH) on kalsiumaineenvaihduntaa säätelevä hormoni, jota on käy
 |------|------|
 | Alkuperäinen käyttöaihe | Hypoparatyreoosi |
 | Ennustettu uusi käyttöaihe | Migreenihäiriö (migraine disorder) |
-| TxGNN-ennusteen pistemäärä | 99,98 % |
+| TxGNN-ennusteen pistemäärä | 0,9998 |
 | Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

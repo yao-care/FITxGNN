@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 76
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-13
-description: "Bexarotene: ennustettu uusi käyttöaihe Primaarinen ihon B-solulymfooma (näytön taso L5). Alkuperäinen käyttöaihe: Ihon T-solulymfooma"
 monitor_inn: "BEXAROTENE"
 predicted_indications: ["primary cutaneous B-cell lymphoma", "Sezary syndrome", "lymphosarcoma"]
+last_modified_at: 2026-10-27
+description: "Bexarotene: ennustettu uusi käyttöaihe Primaarinen ihon B-solulymfooma (primary cutaneous B-cell lymphoma) (näytön taso L5). Alkuperäinen käyttöaihe: Lymphoma, T-Cell, Cutaneous"
 ---
 
 # Bexarotene
@@ -33,116 +33,87 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-## Beksaroteeni: Ihon T-solulymfoomasta primaariseen ihon B-solulymfoomaan
+## Beksaroteeni: retinoidi-X-reseptorin (RXR) agonisti → primaarinen ihon B-solulymfooma (primary cutaneous B-cell lymphoma)
 {: .text-alpha }
 
 ## Yhteenveto
 
-Beksaroteeni on selektiivinen retinoidi-X-reseptorin (RXR) agonisti, jota on alun perin käytetty ihon T-solulymfooman hoitoon. TxGNN-malli ennustaa sen voivan olla tehokas **primaarisessa ihon B-solulymfoomassa**, mutta tälle ennusteelle ei ole kliinisiä tutkimuksia, ja kirjallisuus on vain yleisluonteista katsausaineistoa (**0 kliinistä tutkimusta** ja **10 julkaisua**, joista yksikään ei osoita beksaroteenin tehoa B-solulymfoomassa).
-
-Aineistossa on myös kaksi muuta ennustetta (Sézaryn oireyhtymä ja lymfosarkooma). Niistä Sézaryn oireyhtymä on käytännössä alkuperäisen T-solulymfoomaindikaation sisäinen tarkennus. Ne käsitellään lyhyesti lopussa.
-
----
+Beksaroteeni on selektiivinen retinoidi-X-reseptorin agonisti, jota käytetään systeemisesti ihon T-solulymfooman hoitoon. TxGNN-malli ennustaa, että se voisi olla tehokas **primaarisessa ihon B-solulymfoomassa (primary cutaneous B-cell lymphoma)**. Tätä ennustetta tukee vain yleisluonteista kirjallisuutta: **0 kliinistä tutkimusta** ja **10 julkaisua**, joista mikään ei tutki beksaroteenia B-solulymfoomassa.
 
 ## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Ihon T-solulymfooma |
-| Ennustettu uusi käyttöaihe | Primaarinen ihon B-solulymfooma |
-| TxGNN-ennustepistemäärä | 99,44 % |
+| Alkuperäinen käyttöaihe | Lymphoma, T-Cell, Cutaneous |
+| Ennustettu uusi käyttöaihe | Primaarinen ihon B-solulymfooma (primary cutaneous B-cell lymphoma) |
+| TxGNN-ennustepistemäärä | 0,9944 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
-| Suositeltu päätös | Hold (odota) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
+| Suositeltu päätös | Hold (odottaa) |
 
----
+## Miksi ennuste on perusteltu?
 
-## Miksi ennuste voi olla perusteltu?
+Tämän raportin aineistossa ei ole saatavilla yksityiskohtaista vaikutusmekanismitietoa. Beksaroteeni tunnetaan selektiivisenä RXR-agonistina: RXR:n aktivointi ohjaa geenien luentaa ja voi saada pahanlaatuiset T-solut apoptoosiin sekä muuttaa niiden erilaistumista. Teho ihon T-solulymfoomassa on osoitettu.
 
-Beksaroteenin tarkkaa vaikutusmekanismia koskevia tietoja ei ole tässä aineistossa saatavilla. Tunnetun tiedon mukaan beksaroteeni on RXR-agonisti, joka aktivoi geenien luentaa säätelevät RXR-reseptorit. Tämä ohjaa solujen kasvua, erilaistumista ja apoptoosia, ja ihon T-solulymfoomassa se saa pahanlaatuiset T-solut kuolemaan ja muuttaa niiden erilaistumista.
+Ennusteen korkea pistemäärä heijastaa todennäköisesti ihon lymfoomien samankaltaisuutta mallin verkostossa eikä B-soluspesifistä biologiaa. Aineistossa ei ole osoitettu mekanismia, joka yhdistäisi RXR-agonismin B-solulymfoomaan. Mekanistinen yhteys on siksi spekulatiivinen.
 
-Ihon T- ja B-solulymfoomat ovat molemmat primaarisia ihon lymfoomia, ja ne luokitellaan samaan WHO/EORTC-järjestelmään. Tämä todennäköisesti selittää korkean TxGNN-pistemäärän: malli näyttää heijastavan ihon lymfoomien välistä läheisyyttä verkostossa, ei B-solukohtaista biologiaa.
+## Kliininen tutkimusnäyttö
 
-Aineistossa ei ole osoitettu B-soluspesifistä mekanismia, joka yhdistäisi RXR-agonismin ihon B-solulymfoomaan. Ennuste on siksi heikosti perusteltu eikä sitä voi pitää mekanistisesti vahvistettuna.
-
----
-
-## Kliiniset tutkimukset
-
-Ennustetulle käyttöaiheelle (primaarinen ihon B-solulymfooma) ei ole tällä hetkellä rekisteröityjä kliinisiä tutkimuksia.
-
----
+Ennustettua tautia (primaarinen ihon B-solulymfooma) koskevia kliinisiä tutkimuksia ei ole rekisteröity.
 
 ## Kirjallisuusnäyttö
 
 | PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [31932947](https://pubmed.ncbi.nlm.nih.gov/31932947/) | 2020 | Katsaus | Der Pathologe | Ihon lymfoomien oirekuva, diagnostiikka ja hoito; beksaroteeni mainitaan systeemisenä hoitona pitkälle edenneessä T-solulymfoomassa ja Sézaryn oireyhtymässä |
-| [31511903](https://pubmed.ncbi.nlm.nih.gov/31511903/) | 2019 | Katsaus | Der Hautarzt | Sama sisältö kuin edellä; beksaroteeni T-solulymfoomien systeemihoitona |
-| [14616487](https://pubmed.ncbi.nlm.nih.gov/14616487/) | 2003 | Katsaus | Australas J Dermatol | Primaaristen ihon lymfoomien hoito T- ja B-solutyypeissä; retinoidit mainitaan klassisena hoitovaihtoehtona |
-| [20806174](https://pubmed.ncbi.nlm.nih.gov/20806174/) | 2010 | Katsaus | Therapeutische Umschau | Ihon lymfoomien luokittelu ja yleiskuva |
-| [19786826](https://pubmed.ncbi.nlm.nih.gov/19786826/) | 2009 | Katsaus | Skin Pharmacol Physiol | Uudet ja kokeelliset ihoon kohdistuvat hoidot ihon lymfoomissa |
-| [29881891](https://pubmed.ncbi.nlm.nih.gov/29881891/) | 2018 | Tapaussarja | Der Hautarzt | 163 primaarisen ihon lymfooman potilaan tapaussarja |
-| [15861527](https://pubmed.ncbi.nlm.nih.gov/15861527/) | 2005 | Tapausselostus | Croat Med J | EBV-liitännäinen ihon B-solulymfooma mycosis fungoides -potilaalla, hoito paikallisella asikloviirilla (ei beksaroteenia) |
-| [23941646](https://pubmed.ncbi.nlm.nih.gov/23941646/) | 2013 | Tapaussarja | J Cutan Pathol | Follikulaarisen T-auttajasolulymfooman diagnostiset sudenkuopat (T-solutyyppi) |
-| [22508770](https://pubmed.ncbi.nlm.nih.gov/22508770/) | 2012 | Tapaussarja | Arch Dermatol | Ihon follikulaarinen T-auttajasolulymfooma, 5 tapausta (T-solutyyppi) |
-| [15636695](https://pubmed.ncbi.nlm.nih.gov/15636695/) | 2004 | Tapausselostus | Clin Lymphoma | Lymfomatoidi papuloosi ja anaplastinen suurisolulymfooma (ei B-solutyyppi) |
+| [20806174](https://pubmed.ncbi.nlm.nih.gov/20806174/) | 2010 | Katsaus | Therapeutische Umschau | Ihon T- ja B-solulymfoomien luokittelu ja hoito (WHO/EORTC) |
+| [14616487](https://pubmed.ncbi.nlm.nih.gov/14616487/) | 2003 | Katsaus | Australas J Dermatol | Primaaristen ihon lymfoomien hoito; retinoidit mainitaan klassisena hoitona |
+| [31932947](https://pubmed.ncbi.nlm.nih.gov/31932947/) | 2020 | Katsaus | Der Pathologe | Ihon lymfoomat; beksaroteeni mainitaan systeemisenä hoitona Sézaryn oireyhtymässä |
+| [31511903](https://pubmed.ncbi.nlm.nih.gov/31511903/) | 2019 | Katsaus | Der Hautarzt | Ihon lymfoomien kliininen kuva ja hoito; beksaroteeni myöhäisvaiheen T-solulymfoomissa |
+| [19786826](https://pubmed.ncbi.nlm.nih.gov/19786826/) | 2009 | Katsaus | Skin Pharmacol Physiol | Uudet ihoon kohdistuvat hoidot ihon lymfoomissa |
+| [29881891](https://pubmed.ncbi.nlm.nih.gov/29881891/) | 2018 | Tapaussarja | Der Hautarzt | 163 primaarisen ihon lymfooman potilasta |
+| [23941646](https://pubmed.ncbi.nlm.nih.gov/23941646/) | 2013 | Tapausraportti | J Cutan Pathol | T-solualatyyppi, ei B-solulymfooma |
+| [22508770](https://pubmed.ncbi.nlm.nih.gov/22508770/) | 2012 | Tapaussarja | Arch Dermatol | T-solualatyyppi, ei B-solulymfooma |
+| [15861527](https://pubmed.ncbi.nlm.nih.gov/15861527/) | 2005 | Tapausraportti | Croat Med J | EBV-liitännäinen ihon B-solulymfooma, hoito asikloviirilla (ei beksaroteenia) |
+| [15636695](https://pubmed.ncbi.nlm.nih.gov/15636695/) | 2004 | Tapausraportti | Clin Lymphoma | Lymfomatoidi papuloosi / ALCL, ei B-solulymfooma |
 
-Yksikään julkaisu ei osoita beksaroteenin tehoa ihon B-solulymfoomassa.
+Mikään julkaisu ei tutki beksaroteenia primaarisessa ihon B-solulymfoomassa.
 
----
+## Suomen markkinatiedot
 
-## Markkinatiedot Suomessa
-
-| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/000326 | Targretin | – | Ihon T-solulymfooma (peruutettu) |
+| EMEA/H/C/000326 | Targretin | – | Ihon T-solulymfooma |
 
----
-
-## Sytotoksisuus
+## Solunsalpaajaominaisuudet
 
 | Kohta | Sisältö |
 |------|------|
-| Sytotoksisuusluokka | Kohdennettu hoito / retinoidi (RXR-agonisti) |
-| Myelosuppression riski | Katso valmisteyhteenvedon varoitukset ja varotoimet |
-| Oksentelua aiheuttavuus | Katso valmisteyhteenvedon varoitukset ja varotoimet |
-| Seurantakohteet | Lipidit (triglyseridit), kilpirauhastoiminta, maksa-arvot ja verenkuva |
-| Käsittelysuojaus | Teratogeeninen, joten raskaana olevien tulee välttää altistumista; noudata sytostaattien käsittelyohjeita |
+| Luokitus | Kohdennettu hoito (rexinoidi, RXR-agonisti) |
+| Myelosuppressioriski | Katso valmisteyhteenvedon varoitukset ja käyttöön liittyvät varotoimet |
+| Pahoinvointia aiheuttavuus | Katso valmisteyhteenvedon varoitukset ja käyttöön liittyvät varotoimet |
+| Seurantakohteet | Lipidiarvot (triglyseridit), kilpirauhasen toiminta, maksa-arvot ja verenkuva; kirjallisuudessa beksaroteeniin liittyvä sentraalinen kilpirauhasen vajaatoiminta (PMID 30903705) |
+| Käsittelysuojaus | Noudatettava sytostaattien käsittelyohjeita; teratogeenisuuden vuoksi raskauden ehkäisy on tarpeen |
 
----
+## Turvallisuushuomioita
 
-## Turvallisuushuomiot
+- **Lääkeyhteisvaikutukset:** Aineistossa on 100 yhteisvaikutusta. Merkittäviksi (Major) luokiteltuja ovat mm. albiglutidi, alogliptiini, dulaglutidi, eksenatidi ja eluksadoliini sekä eluksadoliinin kaltainen eluksadoliini-ryhmä eli eluxadoline; kohtalaisia (Moderate) ovat mm. hydrokortisoni, deksametasoni, triamsinoloni, betametasoni sekä sulfonyyliureat (glimepiridi, glipitsidi, glibenklamidi).
+- **Vasta-aiheet ja riskitilat:** Tutkimustietokannan mukaan riskitiloja ovat mm. maksan vajaatoiminta, haimatulehdus, sappitiesairaudet, kilpirauhasen vajaatoiminta, diabetes, ketoasidoosi ja leukopenia. Tämä ei ole valmisteyhteenvedon teksti.
 
-- **Mahdolliset vasta-aiheet (tietämyskaaviosta, ei valmisteyhteenvedosta):** maksan vajaatoiminta, haimatulehdus, maksasairaus, sappirakon sairaus, kilpirauhasen vajaatoiminta, diabetes, diabeettinen ketoasidoosi, leukopenia, sappitiesairaus ja obstruktiivinen keltaisuus.
-- **Lääkeyhteisvaikutukset:** yhteensä 100 tunnistettua yhteisvaikutusta. Merkittäviä (Major) ovat mm. albiglutidi, alogliptiini, dulaglutidi, eluksadoliini ja eksenatidi. Kohtalaisia (Moderate) ovat mm. hydrokortisoni, deksametasoni, triamsinoloni, betametasoni, glimepiridi, glipitsidi, glibenklamidi ja sisapridi.
-- **Lääkeryhmälle tyypilliset haitat kirjallisuudessa:** keskushermostoperäinen kilpirauhasen vajaatoiminta (PMID 30903705).
-
----
+Tarkemmat varoitukset ja vasta-aiheet on tarkistettava valmisteyhteenvedosta.
 
 ## Johtopäätös ja jatkotoimet
 
-**Päätös: Hold (odota)**
+**Päätös: Hold (odottaa)**
 
 **Perustelut:**
-- Ennuste perustuu pelkästään mallin pistemäärään. Kliinisiä tutkimuksia ei ole, kirjallisuus ei käsittele beksaroteenin käyttöä B-solulymfoomassa, eikä B-soluspesifistä mekanismia ole osoitettu.
-- Suomen myyntilupa on peruutettu ja valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat, joten turvallisuusarviota ei voi viedä eteenpäin.
+- Ennusteella on korkea pistemäärä (0,9944), mutta yksikään tutkimus tai julkaisu ei käsittele beksaroteenia primaarisessa ihon B-solulymfoomassa, joten näytön taso on L5. B-soluspesifistä mekanismia ei ole osoitettu.
 
-**Eteenpäin siirtymiseksi tarvitaan:**
-- Beksaroteenin vaikutusmekanismin tiedot (esim. DrugBankista)
-- Valmisteyhteenvedon varoitukset ja vasta-aiheet Fimean sivuilta
-- Prekliininen tai mekanistinen näyttö RXR-agonismin vaikutuksesta ihon B-solulymfoomassa
-- Selvitys valmisteen saatavuudesta Suomessa
-
----
-
-## Liite: muut aineiston ennusteet
-
-| Ennuste | TxGNN-pistemäärä | Näytön taso | Päätös | Huomio |
-|------|------|------|------|------|
-| Sézaryn oireyhtymä | 99,29 % | L1 | Proceed with Guardrails | Kuuluu samaan T-solulymfoomaperheeseen kuin alkuperäinen käyttöaihe, joten kyse on pikemmin käyttöaiheen vahvistamisesta kuin uudelleenkäytöstä. Tukena 7 kliinistä tutkimusta (mm. vaiheen 3 satunnaistettu tutkimus [NCT00056056](https://clinicaltrials.gov/study/NCT00056056), 93 potilasta, päättyi ennenaikaisesti) ja useita katsauksia. Valvontaa vaativat hypertriglyseridemia, keskushermostoperäinen kilpirauhasen vajaatoiminta ja teratogeenisuus (ehkäisy välttämätön). |
-| Lymfosarkooma | 99,12 % | L3 | Research Question | Epätarkka vanha nimitys, jonka tutkimukset ovat käytännössä T-solulymfoomatutkimuksia. Näyttöä ei voi laskea kahteen kertaan Sézaryn oireyhtymän kanssa, ja tarkka tautimääritelmä tarvitaan ennen suositusta. |
+**Edetäkseen tarvitaan:**
+- Prekliinistä tai mekanistista näyttöä RXR-agonismin vaikutuksesta B-solulymfoomasoluihin
+- Vaikutusmekanismitiedot ja valmisteyhteenvedon turvallisuustiedot
+- Tarvittaessa pienet tutkijalähtöiset tutkimukset B-solulymfoomapotilailla
+- Yhteisvaikutusten, lipidien ja kilpirauhasen seurantasuunnitelma sekä raskauden ehkäisyn varmistaminen
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

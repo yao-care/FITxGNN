@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Aliskiren
-parent: Kohtalainen näyttö (L3-L4)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 26
-evidence_level: L4
-indication_count: 7
-last_modified_at: 2026-10-13
-description: "Aliskiren: ennustettu uusi käyttöaihe Keuhkosairauden ja/tai hypoksian aiheuttama keuhkoverenpainetauti (näytön taso L4). Alkuperäinen käyttöaihe: Verenpainetauti"
+evidence_level: L5
+indication_count: 6
 monitor_inn: "ALISKIREN"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "cerebrovascular disorder"]
+last_modified_at: 2026-10-27
+description: "Aliskiren: ennustettu uusi käyttöaihe Keuhkosairaudesta ja/tai hypoksiasta johtuva keuhkoverenpainetauti (pulmonary hypertension owing to lung disease and/or… (näytön taso L5). Alkuperäinen käyttöaih…"
 ---
 
 # Aliskiren
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **7** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,55 +33,45 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **7** kpl
 
 </div>
 
-## Aliskireeni: Verenpainetaudista keuhkoverenpainetautiin liittyvään hypoksiaan
+## Aliskireeni: reniinin estäjä → keuhkoverenpainetauti, joka johtuu keuhkosairaudesta ja/tai hypoksiasta (pulmonary hypertension owing to lung disease and/or hypoxia)
 {: .text-alpha }
 
 ## Yhteenveto
 
-Aliskireeni on suoraan reniiniä estävä lääke, jota on alun perin käytetty **verenpainetaudin** hoitoon. TxGNN-malli ennustaa sen voivan tehostaa hoitoa **keuhkoverenpainetaudissa, joka johtuu keuhkosairaudesta ja/tai hypoksiasta**. Ennusteen tukena ei ole yhtään kliinistä tutkimusta eikä ihmisillä tehtyä tutkimusta, vaan ainoastaan **4 julkaisua**, jotka ovat prekliinisiä tai mekanistisia.
-
----
+Aliskireeni on suora reniininestäjä, joka vähentää angiotensiini II:n muodostumista. Tämän raportin pääennuste, TxGNN-malli, ehdottaa sen voivan olla hyödyllinen **keuhkosairaudesta ja/tai hypoksiasta johtuvassa keuhkoverenpainetaudissa (pulmonary hypertension owing to lung disease and/or hypoxia)**. Tukena on vain neljä prekliinistä julkaisua eikä yhtään kliinistä tutkimusta, joten näyttö on heikkoa.
 
 ## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Verenpainetauti |
-| Ennustettu uusi käyttöaihe | Keuhkosairauden ja/tai hypoksian aiheuttama keuhkoverenpainetauti |
-| TxGNN-ennustepisteet | 99,98 % |
-| Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Alkuperäinen käyttöaihe | Hypertension |
+| Ennustettu uusi käyttöaihe | Keuhkosairaudesta ja/tai hypoksiasta johtuva keuhkoverenpainetauti (pulmonary hypertension owing to lung disease and/or hypoxia) |
+| TxGNN-ennusteen pistemäärä | 0,9998 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
-
----
 
 ## Miksi ennuste on perusteltu?
 
-Aliskireenin vaikutusmekanismin tarkkoja tietoja ei ole tässä aineistossa saatavilla. Tiedetään kuitenkin, että aliskireeni estää reniiniä ja vähentää siten angiotensiini II:n muodostumista. Sen teho verenpainetaudissa on osoitettu, ja mekanistisesti se voisi soveltua myös toiseen verenkiertoelimistön sairauteen, jossa reniini-angiotensiinijärjestelmä (RAS) on aktivoitunut.
+Aliskireeni estää reniiniä, joka on reniini-angiotensiinijärjestelmän (RAS) nopeutta rajoittava vaihe, ja vähentää siten angiotensiini II:n tuotantoa. Yksityiskohtaisia vaikutusmekanismitietoja ei ole tässä aineistossa saatavilla.
 
-Rottatutkimuksissa kroonisen jaksottaisen hypoksian on yhdistetty paikalliseen ja verenkierron RAS-aktivaatioon, sympaattiseen yliaktiivisuuteen ja eteisten uudelleenmuovautumiseen. Aliskireeni lievensi eteisten uudelleenmuovautumista tässä mallissa. Tämä on uskottava RAS-perusteinen mekanismi.
+Rottien kroonista ajoittaista hypoksiaa koskevissa kokeissa RAS:n aktivaatio on yhdistetty sympaattiseen yliaktiivisuuteen ja eteisten uudelleenmuovautumiseen, ja aliskireeni lievensi eteisten uudelleenmuovautumista tässä mallissa. Tämä antaa uskottavan RAS-pohjaisen mekanismin hypoksiaan liittyville kudosvaikutuksille.
 
-Näyttö on kuitenkin epäsuoraa: se perustuu eläin- tai soluviljelytutkimuksiin hypoksian kudosvaikutuksista, ei keuhkoverisuonten sairauteen. Ihmisillä ei ole tutkimuksia keuhkoverenpainetaudissa. Erittäin korkea TxGNN-pistemäärä on laskennallinen ennuste, eikä se korvaa kliinistä näyttöä.
+Näyttö on kuitenkin epäsuoraa: se perustuu eläin- ja soluviljelytutkimuksiin, jotka eivät koske keuhkoverisuonitautia, eikä ihmisistä ole tietoja keuhkoverenpainetaudissa. Yksikään viitatuista tutkimuksista ei tutki tätä sairautta suoraan, joten näytön taso on L5. Korkea TxGNN-pistemäärä on laskennallinen ennuste, ei kliininen todiste.
 
----
-
-## Kliininen tutkimusnäyttö
+## Kliiniset tutkimukset
 
 Tälle käyttöaiheelle ei ole tällä hetkellä rekisteröityjä kliinisiä tutkimuksia.
-
----
 
 ## Kirjallisuusnäyttö
 
 | PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [32982180](https://pubmed.ncbi.nlm.nih.gov/32982180/) | 2020 | Prekliininen (rotta) | Drug Des Devel Ther | Aliskireenin mahdolliset vaikutukset eteisten uudelleenmuovautumiseen rotilla, joilla oli krooninen jaksottainen hypoksia |
-| [29645283](https://pubmed.ncbi.nlm.nih.gov/29645283/) | 2018 | Prekliininen (rotta) | J Physiol | Jaksottaisen hypoksian jälkeinen sympaattinen aktivaatio välittyy verenkierron angiotensiini II:n kautta |
-| [39133776](https://pubmed.ncbi.nlm.nih.gov/39133776/) | 2024 | Prekliininen (in vitro) | Am J Physiol Regul Integr Comp Physiol | Angiotensiini II:n vapautuminen aivokudoksesta; aivojen RAS:n olemassaolo on edelleen kiistanalainen |
-| [26502369](https://pubmed.ncbi.nlm.nih.gov/26502369/) | 2016 | Prekliininen/mekanistinen | Transplantation | Kalsineuriinin estäjät lisäävät paikallista reniinin ja VEGF:n tuotantoa munuaisen keräysputkissa |
-
----
+| [32982180](https://pubmed.ncbi.nlm.nih.gov/32982180/) | 2020 | Prekliininen (rotta) | Drug Des Devel Ther | Aliskireenin mahdolliset vaikutukset kroonisen ajoittaisen hypoksian aiheuttamaan eteisten uudelleenmuovautumiseen rotilla |
+| [29645283](https://pubmed.ncbi.nlm.nih.gov/29645283/) | 2018 | Prekliininen (rotta) | J Physiol | Ajoittaisen hypoksian jälkeinen sympaattinen aktivaatio välittyy verenkierron angiotensiini II:n kautta |
+| [39133776](https://pubmed.ncbi.nlm.nih.gov/39133776/) | 2024 | Prekliininen (in vitro) | Am J Physiol Regul Integr Comp Physiol | Angiotensiini II:n vapautuminen aivokudosviipaleista |
+| [26502369](https://pubmed.ncbi.nlm.nih.gov/26502369/) | 2016 | Prekliininen/mekanistinen | Transplantation | Kalsineuriinin estäjät lisäävät paikallista reniinituotantoa munuaisten kokoojaputkissa |
 
 ## Suomen markkinatiedot
 
@@ -89,53 +79,28 @@ Tälle käyttöaiheelle ei ole tällä hetkellä rekisteröityjä kliinisiä tut
 |---------|------|------|-----------|
 | EMEA/H/C/000780 | Rasilez | – | Verenpainetauti |
 
-Myyntilupa on peruutettu.
+## Turvallisuushuomiot
 
----
+Turvallisuustietoja on syytä tarkastella pakkausselosteesta ja valmisteyhteenvedosta. Tässä aineistossa ei ole saatavilla myyntiluvan varoitus- tai vasta-aihetekstejä.
 
-## Turvallisuushuomioita
-
-**Lääkeyhteisvaikutukset:** Aineistossa on 100 yhteisvaikutusta, joista osa on merkitykseltään kohtalaisia. Keskeisiä ovat:
-- kortikosteroidit (hydrokortisoni, prednisoloni, prednisoni, deksametasoni, betametasoni, budesonidi)
-- SGLT2-estäjät (kanagliflotsiini, dapagliflotsiini, empagliflotsiini, ertugliflotsiini)
-- kaliumvalmisteet (kaliumkloridi, -bikarbonaatti, -sitraatti, -glukonaatti)
-- asetyylisalisyylihappo, klaritromysiini, aprepitantti, atsolisienilääkkeet (klotrimatsoli, mikonatsoli) ja eliglustaatti
-
-**Tietämyskannan mukaiset vasta-aiheet** (TxGNN-tietämyskannan lääke–sairaus-yhteyksiin perustuvia, ei valmisteyhteenvedon tekstiä): maksan vajaatoiminta ja maksasairaus, haimatulehdus, sappirakon sairaudet, angioedeema (myös perinnöllinen ja RAS-estäjien aiheuttama), systeeminen lupus erythematosus, kaliumin puutos, diabetes ja diabeettinen ketoasidoosi, neutropenia ja agranulosytoosi, hypotensio, hyperparatyreoosi, maksakooma ja -enkefalopatia, anuria, kihti, hyperkalsemia, munuaisen kalkkeutuminen, fosfaattiaineenvaihdunnan häiriöt, munuaisvaltimon ahtauma ja munuaisten vajaatoiminta.
-
-Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole tässä aineistossa saatavilla; niiden tarkistaminen on pakollista ennen etenemistä.
-
----
+**Lääkeyhteisvaikutukset:** Aineistossa on kirjattu 100 yhteisvaikutusta. Esimerkkejä kohtalaisen tason yhteisvaikutuksista:
+- Kortikosteroidit: hydrokortisoni, deksametasoni, prednisoloni, prednisoni, betametasoni, budesonidi
+- Kaliumvalmisteet: kaliumkloridi, kaliumsitraatti, kaliumglukonaatti, kaliumbikarbonaatti
+- SGLT2-estäjät: kanagliflotsiini, dapagliflotsiini, empagliflotsiini, ertugliflotsiini
+- Muut: asetyylisalisyylihappo, aprepitantti, klaritromysiini, mikonatsoli, klotrimatsoli, eliglustaatti
 
 ## Johtopäätös ja jatkotoimet
 
 **Päätös: Hold (odota)**
 
-**Perustelu:**
-- Ennuste perustuu lähinnä laskennalliseen pisteytykseen ja epäsuoriin eläinkokeisiin. Ihmisillä ei ole tutkimuksia keuhkoverenpainetaudissa, eikä kliinisiä tutkimuksia ole rekisteröity. Lisäksi lääkkeen myyntilupa Suomessa on peruutettu.
+**Perustelut:**
+- Ennusteella ei ole suoraa kliinistä tai prekliinistä näyttöä keuhkoverenpainetaudista, vain epäsuoria eläinkokeita hypoksiaan liittyvistä kudosvaikutuksista. Näytön taso on L5.
 
 **Etenemiseksi tarvitaan:**
-- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean sivustolta (estää turvallisuusarvion etenemisen)
-- Yksityiskohtainen vaikutusmekanismitieto (esim. DrugBankista)
-- Aliskireenia suoraan keuhkoverenpainetaudin eläinmalleissa (keuhkovaltimopaine, oikean kammion uudelleenmuovautuminen) selvittävät prekliiniset tutkimukset
-- Arvio lääkkeen saatavuudesta ja antoreiteistä, koska myyntilupa on peruutettu
-
----
-
-## Muut ennustetut käyttöaiheet (lisätiedoksi)
-
-Samasta ennusteaineistosta nousi esiin myös muita käyttöaiheita, joista yksikään ei ylitä tasoa L4–L5, paitsi aivoverisuonisairaus (L3):
-
-| Käyttöaihe | TxGNN-pisteet | Näytön taso | Huomio |
-|------|------|------|------|
-| Keuhkoverenpainetauti, monitekijäinen/epäselvä mekanismi | 99,98 % | L5 | Ei tutkimuksia eikä kirjallisuutta |
-| Maligniin verenpainetautiin liittyvä munuaissairaus | 99,98 % | L5 | Ainoa julkaisu ei koske aliskireenia |
-| Maligni renovaskulaarinen verenpainetauti | 99,98 % | L4 | Vain katsaus; reaktiivinen reniinieritys voi rajoittaa tehoa |
-| Braddockin oireyhtymä | 99,97 % | L5 | Ei tutkimuksia eikä kirjallisuutta |
-| Krooninen keuhkosydänsairaus | 99,78 % | L4 | Ainoa lähde on konferenssikatsaus |
-| Aivoverisuonisairaus | 99,19 % | L3 | Suositus: tutkimuskysymys (ei hoitosuositus) |
-
-Aivoverisuonisairauden tukena on yksi vaiheen 2/3 ateroskleroosin kuvantamistutkimus (NCT01417104, päättynyt ennenaikaisesti, 71 osallistujaa), prekliinisiä aivohalvausmalleja sekä ALTITUDE-tutkimuksen analyysejä, jotka nostivat esiin turvallisuushuolia RAS-estäjien yhdistelmähoidoissa (hypotensio, iskeeminen aivohalvaus).
+- Aliskireenin vaikutusta keuhkoverisuonitautimalleissa (esim. hypoksian aiheuttama keuhkoverenpainetauti) selvittäviä prekliinisiä tutkimuksia
+- Vaikutusmekanismia koskevat tiedot
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet turvallisuusarviointia varten
+- Turvallisuusarvio, jossa huomioidaan RAS-salpaajayhdistelmiin liittyvät huolenaiheet ja hypotension riski
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

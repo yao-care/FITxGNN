@@ -4,17 +4,17 @@ title: Ipilimumab
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 237
 evidence_level: L5
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Ipilimumab: ennustettu uusi käyttöaihe Koroideremia (näytön taso L5). Alkuperäinen käyttöaihe: Melanooma, munuaissolusyöpä, ei-pienisoluinen keuhkosyöpä…"
 monitor_inn: "IPILIMUMAB"
 predicted_indications: ["choroideremia"]
+description: "Ipilimumab: ennustettu uusi käyttöaihe Choroideremia (näytön taso L5). Alkuperäinen käyttöaihe: Melanoma"
 ---
 
 # Ipilimumab
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-## Ipilimumabi: Melanoomasta koroideremiaan
+## Ipilimumab: Choroideremia
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -44,12 +44,12 @@ Ipilimumabi on CTLA-4:ää estävä vasta-aine, jota on käytetty melanooman ja 
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Melanooma, munuaissolusyöpä, ei-pienisoluinen keuhkosyöpä, pahanlaatuinen mesoteliooma, kolorektaalinen kasvain |
-| Ennustettu uusi käyttöaihe | Koroideremia |
+| Alkuperäinen käyttöaihe | Melanoma;Carcinoma, Renal Cell;Carcinoma, Non-Small-Cell Lung;Mesothelioma, Malignant;Colorectal Neoplasms |
+| Ennustettu uusi käyttöaihe | Choroideremia |
 | TxGNN-ennustepisteet | 99,06 % |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
-| Myyntilupien määrä | 1 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste on (tai ei ole) perusteltu?
@@ -58,7 +58,7 @@ Ipilimumabi on CTLA-4:ää estävä vasta-aine. Se vapauttaa T-solujen estoa ja 
 
 Koroideremia on X-kromosomaalinen perinnöllinen verkkokalvon rappeuma. Sen aiheuttaa CHM-geenin (REP1) toiminnan menetys. Kyseessä on yhden geenin sairaus, jossa Rab-proteiinien prenylaatio häiriintyy verkkokalvon pigmenttiepiteelissä, valoreseptoreissa ja suonikalvolla. Tauti ei ole immuunivälitteinen eikä syöpä, joten CTLA-4:n esto ei ole mekanistisesti uskottava hoito. Alkuperäisellä ja ennustetulla käyttöaiheella ei siis ole biologista yhteyttä.
 
-Korkea TxGNN-pistemäärä (0,99) on todennäköisesti verkostoartefakti eikä kliininen signaali. Lisäksi järjestelmällinen tarkastuspisteen esto voi aiheuttaa immuunivälitteisiä haittavaikutuksia, esimerkiksi uveiittia ja muuta silmätulehdusta. Rappeutuvassa verkkokalvossa se olisi merkittävä turvallisuusriski.
+Lisäksi järjestelmällinen tarkastuspisteen esto voi aiheuttaa immuunivälitteisiä haittavaikutuksia, esimerkiksi uveiittia ja muuta silmätulehdusta. Rappeutuvassa verkkokalvossa se olisi merkittävä turvallisuusriski.
 
 ## Kliininen tutkimusnäyttö
 
@@ -95,7 +95,7 @@ Muiden varoitusten ja vasta-aiheiden osalta katso valmisteyhteenveto.
 
 ## Huomio: toinen ennustettu käyttöaihe
 
-Ennustelistan toisella sijalla on **ei-ihomelanooma** (TxGNN-pisteet 99,02 %), jolle on kertynyt selvästi enemmän näyttöä: 23 kliinistä tutkimusta ja 6 julkaisua. Mukana on esimerkiksi vaiheen 2 tutkimus NCT02626962, jossa nivolumabia ja ipilimumabia annettiin uveamelanoomapotilaille (52 potilasta). Näytön taso on kuitenkin vain alustavasti L1, koska vaiheen 3 tutkimus NCT02278887 koskee todennäköisesti solusiirtohoitoa, ja sen yhteys ipilimumabiin on epävarma. Alatyyppikohtainen näyttö on enimmäkseen L2–L3-tasoa. Tämä ennuste kannattaa arvioida erikseen.
+Mukana on esimerkiksi vaiheen 2 tutkimus NCT02626962, jossa nivolumabia ja ipilimumabia annettiin uveamelanoomapotilaille (52 potilasta). Näytön taso on kuitenkin vain alustavasti L1, koska vaiheen 3 tutkimus NCT02278887 koskee todennäköisesti solusiirtohoitoa, ja sen yhteys ipilimumabiin on epävarma. Alatyyppikohtainen näyttö on enimmäkseen L2–L3-tasoa. Tämä ennuste kannattaa arvioida erikseen.
 
 ## Johtopäätös ja jatkotoimet
 

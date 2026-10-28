@@ -4,7 +4,7 @@ title: Caplacizumab
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 98
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Caplacizumab: ennustettu uusi käyttöaihe Verihiutaleiden primaarinen vapautumishäiriö (näytön taso L5). Alkuperäinen käyttöaihe: Trombootinen trombosytopeeninen purppura (TTP)"
 monitor_inn: "CAPLACIZUMAB"
@@ -14,7 +14,7 @@ predicted_indications: ["primary release disorder of platelets", "pseudo-von Wil
 # Caplacizumab
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Kaplasitsumabi: Hankinnaisesta TTP:stä verihiutaleiden vapautumishäiriöön
+## Kaplasitsumabi: Verihiutaleiden primaarinen vapautumishäiriö
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -50,10 +50,10 @@ Vahva näyttö koskee vain alkuperäistä TTP-käyttöaihetta (7 kliinistä tutk
 |------|------|
 | Alkuperäinen käyttöaihe | Trombootinen trombosytopeeninen purppura (TTP) |
 | Ennustettu uusi käyttöaihe | Verihiutaleiden primaarinen vapautumishäiriö |
-| TxGNN-ennustepisteet | 99,99 % |
+| TxGNN-ennustepisteet | 1,0000 |
 | Näytön taso | L5 (uusi käyttöaihe); alkuperäisen TTP-käyttöaiheen näyttö L1 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

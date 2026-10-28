@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-## Alaniini: Vaahterasiirappitaudista gastropareesiin
+## Alaniini: Gastropareesi
 {: .text-alpha }
 
 ## Yhteenveto
@@ -49,10 +49,10 @@ TxGNN-malli ennustaa, että se voisi olla hyödyllinen **gastropareesin** hoidos
 |------|------|
 | Alkuperäinen käyttöaihe | Vaahterasiirappitauti (MSUD) |
 | Ennustettu uusi käyttöaihe | Gastropareesi |
-| TxGNN-ennustepisteet | 99,37 % |
+| TxGNN-ennustepisteet | 0,9937 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Imiglucerase
-parent: Kohtalainen näyttö (L3-L4)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 224
-evidence_level: L4
+evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-13
-description: "Imiglucerase: ennustettu uusi käyttöaihe Hurlerin oireyhtymä (näytön taso L4). Alkuperäinen käyttöaihe: Gaucherin tauti"
 monitor_inn: "IMIGLUCERASE"
 predicted_indications: ["Hurler syndrome", "Scheie syndrome", "benign neoplasm of adrenal gland", "autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease"]
+description: "Imiglucerase: ennustettu uusi käyttöaihe Hurler syndrome (näytön taso L5). Alkuperäinen käyttöaihe: Gaucher Disease"
 ---
 
 # Imiglucerase
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **5** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-## Imiglusidaasi: Gaucherin taudista Hurlerin oireyhtymään
+## Imiglucerase: Hurler syndrome
 {: .text-alpha }
 
 ## Yhteenveto
@@ -45,12 +45,12 @@ TxGNN-malli ennustaa sen voivan tehota **Hurlerin oireyhtymään** (MPS I), mutt
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Gaucherin tauti |
-| Ennustettu uusi käyttöaihe | Hurlerin oireyhtymä |
+| Alkuperäinen käyttöaihe | Gaucher Disease |
+| Ennustettu uusi käyttöaihe | Hurler syndrome |
 | TxGNN-ennustepisteet | 99,52 % |
-| Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste voi vaikuttaa uskottavalta?
@@ -65,7 +65,7 @@ Mekanistisesti ennuste on heikko: entsyymi ja substraatti ovat eri, joten imiglu
 
 | Sija | Sairaus | Pisteet | Näytön taso | Arvio |
 |---|---|---|---|---|
-| 2 | Scheien oireyhtymä | 99,29 % | L4 | MPS I:n lievä muoto; sama puute kuin Hurlerin oireyhtymässä, ei suoraa näyttöä |
+| 2 | Scheien oireyhtymä | 99,29 % | L5 | MPS I:n lievä muoto; sama puute kuin Hurlerin oireyhtymässä, ei suoraa näyttöä |
 | 3 | Lisämunuaisen hyvänlaatuinen kasvain | 99,28 % | L5 | Uskottavaa mekanistista yhteyttä ei tunnistettu |
 | 4 | Autosomaalinen ikytoosioireyhtymä, kuolemaan johtava kulku | 99,24 % | L5 | Heikko, spekulatiivinen yhteys ihon seramidiaineenvaihdunnan kautta; suonensisäinen hoito tuskin tavoittaa orvaskettä |
 | 5 | Kolesterolinestereiden kertymätauti | 99,12 % | L5 | Aiheuttaja on lysosomaalisen happaman lipaasin puute; erityishoito on sebelipaasi alfa |

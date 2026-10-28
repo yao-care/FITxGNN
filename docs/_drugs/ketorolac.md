@@ -48,10 +48,10 @@ Ketorolaakki on tulehduskipulääke (NSAID), jonka hyväksytty käyttöaihe on s
 |------|------|
 | Alkuperäinen käyttöaihe | Silmänsisäinen linssi-implantaatio; leikkauksen jälkeinen kipu |
 | Ennustettu uusi käyttöaihe | Päänsärkyhäiriö (headache disorder) |
-| TxGNN-ennusteen pistemäärä | 99,43 % |
+| TxGNN-ennusteen pistemäärä | 0,9943 |
 | Näytön taso | L1 |
-| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
-| Myyntilupien määrä | 1 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Proceed with Guardrails (eteneminen suojatoimin) |
 
 ---
@@ -64,7 +64,7 @@ Alkuperäinen käyttöaihe eli leikkauksen jälkeinen kipu ja uusi käyttöaihe 
 
 Ennustettu käyttö on myös kliinisessä käytössä: kirjallisuuden mukaan ketorolaakkia käytetään ensilinjan akuuttihoitona migreenissä erityisesti lapsilla.
 
-Toinen ennuste, **tihkuvastaanotto: trigeminaalinen autonominen päänsärky** (esim. cluster-päänsärky), on teoreettisesti perusteltu, mutta suora näyttö on heikkoa. Ennuste **ruusufinnin sidekalvotulehdus** perustuu pelkkään mallin pistemäärään (99,40 %) ilman tutkimuksia tai julkaisuja.
+Toinen ennuste, **tihkuvastaanotto: trigeminaalinen autonominen päänsärky** (esim. cluster-päänsärky), on teoreettisesti perusteltu, mutta suora näyttö on heikkoa. Ennuste **ruusufinnin sidekalvotulehdus** perustuu pelkkään mallin pistemäärään (0,9940) ilman tutkimuksia tai julkaisuja.
 
 ---
 

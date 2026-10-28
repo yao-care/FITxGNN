@@ -6,9 +6,9 @@ nav_order: 350
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
-description: "Polatuzumab Vedotin: ennustettu uusi käyttöaihe HER2-positiivinen rintasyöpä (näytön taso L5). Alkuperäinen käyttöaihe: B-solulymfooma"
 monitor_inn: "POLATUZUMAB VEDOTIN"
 predicted_indications: ["HER2 positive breast carcinoma"]
+description: "Polatuzumab Vedotin: ennustettu uusi käyttöaihe HER2 positive breast carcinoma (näytön taso L5). Alkuperäinen käyttöaihe: Lymphoma, B-Cell"
 ---
 
 # Polatuzumab Vedotin
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-## Polatutsumabivedotiini: Alkuperäisestä B-solulymfooman käytöstä ennustettuun HER2-positiiviseen rintasyöpään
+## Polatuzumab Vedotin: HER2 positive breast carcinoma
 {: .text-alpha }
 
 ## Yhden lauseen tiivistelmä
@@ -45,19 +45,19 @@ TxGNN-malli ennustaa sen voivan tehota **HER2-positiiviseen rintasyöpään**, m
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | B-solulymfooma |
-| Ennustettu uusi käyttöaihe | HER2-positiivinen rintasyöpä |
+| Alkuperäinen käyttöaihe | Lymphoma, B-Cell |
+| Ennustettu uusi käyttöaihe | HER2 positive breast carcinoma |
 | TxGNN-ennustepisteet | 99,34 % |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odotetaan) |
 
 ## Miksi ennuste voisi olla perusteltu?
 
 Tämän raportin laatimiseksi koottu aineisto ei sisällä yksityiskohtaista vaikutusmekanismitietoa. Tiedossa on, että polatutsumabivedotiini on vasta-aine-lääkekonjugaatti, joka kohdistuu CD79b:hen (B-solureseptorin osa) ja vie solun sisään mikrotubuluksia häiritsevää MMAE-yhdistettä (monometyyliauristatiini E).
 
-Alkuperäinen käyttöaihe ja ennustettu käyttöaihe eivät ole mekanistisesti lähellä toisiaan. CD79b ei ole tunnettu kohde HER2-positiivisessa rintasyövässä, eikä aineistosta löytynyt suoraa mekanistista yhteyttä. Korkea pistemäärä (0,993) on pelkkä mallin tuottama ennuste.
+Alkuperäinen käyttöaihe ja ennustettu käyttöaihe eivät ole mekanistisesti lähellä toisiaan. CD79b ei ole tunnettu kohde HER2-positiivisessa rintasyövässä, eikä aineistosta löytynyt suoraa mekanistista yhteyttä. Korkea pistemäärä (0,9934) on pelkkä mallin tuottama ennuste.
 
 Epäsuora perustelu on, että MMAE on hyötykuormana myös muissa vasta-aine-lääkekonjugaateissa ja mikrotubuluksiin kohdistuvilla hyötykuormilla on tehoa rintasyövässä. Tämä edellyttäisi kuitenkin kohdeantigeenin ilmentymistä, eikä CD79b:n ilmentymiselle rintakudoksessa ole tukea.
 

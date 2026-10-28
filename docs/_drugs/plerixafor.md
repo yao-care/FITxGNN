@@ -4,17 +4,17 @@ title: Plerixafor
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 349
 evidence_level: L5
-indication_count: 7
+indication_count: 6
 last_modified_at: 2026-10-13
-description: "Plerixafor: ennustettu uusi käyttöaihe Indolentti plasmasolumyelooma (näytön taso L5). Alkuperäinen käyttöaihe: Multippeli myelooma, hematopoieettinen kantasolusiirto, lymfooma"
 monitor_inn: "PLERIXAFOR"
 predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "bronchitis", "vulvar melanoma (disease)", "myeloid leukemia"]
+description: "Plerixafor: ennustettu uusi käyttöaihe CMM7 (näytön taso L5). Alkuperäinen käyttöaihe: Multiple Myeloma"
 ---
 
 # Plerixafor
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **7** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **7** kpl
 
 </div>
 
-## Pleriksafori: Multippeli myelooma ja kantasolusiirto → indolentti plasmasolumyelooma
+## Plerixafor: CMM7
 {: .text-alpha }
 
 ## Yhden virkkeen yhteenveto
@@ -50,12 +50,12 @@ Vahvin tutkimusnäyttö koskee toista ennustettua käyttöaihetta, **myeloidileu
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Multippeli myelooma, hematopoieettinen kantasolusiirto, lymfooma |
-| Ennustettu uusi käyttöaihe | Indolentti plasmasolumyelooma |
-| TxGNN-ennustepistemäärä | 99,97 % |
+| Alkuperäinen käyttöaihe | Multiple Myeloma;Hematopoietic Stem Cell Transplantation;Lymphoma; Multiple Myeloma;Hematopoietic Stem Cell Transplantation |
+| Ennustettu uusi käyttöaihe | CMM7 |
+| TxGNN-ennustepistemäärä | 0.9934 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutetut myyntiluvat |
-| Myyntilupien määrä | 2 (molemmat peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Myyntilupien määrä | 2 (voimassa: 2) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -86,12 +86,12 @@ Muut ennusteet ovat laskennallisia, ja niistä ei ole tutkimusnäyttöä:
 
 | Käyttöaihe | TxGNN-pistemäärä | Näytön taso | Huomio |
 |------|------|------|------|
-| Myeloidileukemia | 99,02 % | L2 | Katso alla |
-| CMM7 | 99,34 % | L5 | Tautientiteetti epäselvä; heikko teoreettinen yhteys melanoomaan |
-| Lasten leptomeningeaalinen melanooma | 99,30 % | L5 | Pleriksaforin pääsy keskushermostoon rajallinen |
-| Epiteloidisoluinen uveamelanooma | 99,27 % | L5 | Vain teoreettinen CXCR4-perustelu |
-| Keuhkoputkentulehdus | 99,22 % | L5 | Ei selvää mekanistista perustetta; todennäköisesti graafin artefakti |
-| Vulvan melanooma | 99,17 % | L5 | Heikko teoreettinen yhteys |
+| Myeloidileukemia | 0,9902 | L2 | Katso alla |
+| CMM7 | 0,9934 | L5 | Tautientiteetti epäselvä; heikko teoreettinen yhteys melanoomaan |
+| Lasten leptomeningeaalinen melanooma | 0,9930 | L5 | Pleriksaforin pääsy keskushermostoon rajallinen |
+| Epiteloidisoluinen uveamelanooma | 0,9927 | L5 | Vain teoreettinen CXCR4-perustelu |
+| Keuhkoputkentulehdus | 0,9922 | L5 | Ei selvää mekanistista perustetta; todennäköisesti graafin artefakti |
+| Vulvan melanooma | 0,9917 | L5 | Heikko teoreettinen yhteys |
 
 ### Myeloidileukemia (näytön taso L2)
 

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Glutamic Acid
-parent: Kohtalainen näyttö (L3-L4)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 208
-evidence_level: L4
+evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-13
-description: "Glutamic Acid: ennustettu uusi käyttöaihe Postmenopausaalinen osteoporoosi (näytön taso L4). Alkuperäinen käyttöaihe: Vaahterasiirappitauti (Maple Syrup Urine Disease)"
 monitor_inn: "glutamic acid"
 predicted_indications: ["postmenopausal osteoporosis", "pregnancy associated osteoporosis", "primary hereditary glaucoma", "gastroparesis (disease)"]
+last_modified_at: 2026-10-27
+description: "Glutamic Acid: ennustettu uusi käyttöaihe Postmenopausaalinen osteoporoosi (postmenopausal osteoporosis) (näytön taso L5). Alkuperäinen käyttöaihe: Maple Syrup Urine Disease"
 ---
 
 # Glutamic Acid
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **4** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,97 +33,86 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-## Glutamiinihappo: Vaahterasiirappitaudista postmenopausaaliseen osteoporoosiin
+## Glutamiinihappo: aminohappo → postmenopausaalinen osteoporoosi (postmenopausal osteoporosis)
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 
-Glutamiinihappoa (Maapliv) on käytetty vaahterasiirappitaudin (Maple Syrup Urine Disease) hoitoon. TxGNN-malli ennustaa sen voivan tehota **postmenopausaaliseen osteoporoosiin**, mutta aiheesta ei ole yhtään kliinistä tutkimusta, ja löydetyistä **10 julkaisusta** yksikään ei osoita glutamiinihapon tehoa lääkkeenä tähän käyttöaiheeseen. Ennuste on siten lähinnä laskennallinen tutkimushypoteesi.
+Glutamiinihappo on aminohappo, jota käytetään lääkevalmisteena Suomessa myyntiluvan saaneessa Maapliv-valmisteessa. TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **postmenopausaalisen osteoporoosin (postmenopausal osteoporosis)**. Tälle taudille ei ole rekisteröityjä kliinisiä tutkimuksia, eikä yksikään kirjallisuushaussa löytynyt julkaisu tutki glutamiinihappoa suoraan lääkkeenä tähän sairauteen, joten näyttö on toistaiseksi vain mallin ennuste.
 
----
-
-## Pikakatsaus
+## Pikayhteenveto
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Vaahterasiirappitauti (Maple Syrup Urine Disease) |
-| Ennustettu uusi käyttöaihe | Postmenopausaalinen osteoporoosi |
-| TxGNN-ennustepistemäärä | 99,34 % |
-| Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia (ei markkinoilla) |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Alkuperäinen käyttöaihe | Maple Syrup Urine Disease |
+| Ennustettu uusi käyttöaihe | Postmenopausaalinen osteoporoosi (postmenopausal osteoporosis) |
+| TxGNN-ennusteen pistemäärä | 0,9934 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
----
+## Miksi ennuste voi olla perusteltu?
 
-## Miksi ennuste voisi olla perusteltu?
+Glutamiinihapon vaikutusmekanismitietoja ei ole tällä hetkellä saatavilla. Tiedossa on, että glutamiinihappo on elimistön luonnollinen aminohappo ja välittäjäaine, ja luukudoksessa on osteoblasteissa ja osteoklasteissa glutamaattireseptoreita. Glutamaattisignaloinnin rooli luun uusiutumisessa on uskottava mutta toistaiseksi todistamaton yhteys.
 
-Glutamiinihapon vaikutusmekanismitietoja ei ole tämän raportin aineistossa saatavilla. Tunnetun tiedon perusteella glutamiinihappo on elimistön luontainen aminohappo ja välittäjäaine, ja sen vaikutus vaahterasiirappitaudissa liittyy aminohapposubstraattien aineenvaihduntaan. Mekanistista yhteyttä uuteen käyttöaiheeseen ei voida tämän aineiston perusteella luotettavasti analysoida.
+Haussa löytyneet julkaisut eivät kuitenkaan tue ennustetta suoraan. Useimmat koskevat D3- ja K2-vitamiinihoitoa, jossa luun osteokalsiinin glutamiinihappotähteet karboksyloituvat; tämä ei tarkoita glutamiinihapon käyttöä lääkkeenä. Yksi hiirikoe (munasarjat poistetuilla hiirillä) raportoi glutamiinihapon lieventävän estrogeenin puutteesta johtuvia vaihdevuosien kaltaisia oireita. Pieni ihmistutkimus tarkasteli polymeeristä poly-gamma-glutamiinihappoa ja kalsiumin imeytymistä vaihdevuosien jälkeisillä naisilla, mutta polymeeri ei ole sama asia kuin glutamiinihappo.
 
-Luuston glutamaattisignalointi (osteoblastien ja osteoklastien glutamaattireseptorit) on uskottava mutta todistamaton yhteys. Epäsuoraa tukea antaa yksi hiiritutkimus (PMID 26144993), jossa glutamiinihappo lievitti estrogeenin puutteesta johtuvia vaihdevuosioireiden kaltaisia oireita munasarjansa menettäneillä hiirillä. Lisäksi pieni ihmistutkimus (PMID 18187428) tarkasteli poly-gamma-glutamiinihappoa (polymeeriä, ei glutamiinihappoa sellaisenaan) ja kalsiumin imeytymistä vaihdevuodet ohittaneilla naisilla.
-
-Suurin osa löydetyistä artikkeleista käsittelee D3- ja K2-vitamiinihoitoa. K-vitamiini edistää osteokalsiinin glutamiinihappotähteiden gamma-karboksylaatiota, mutta nämä tutkimukset eivät testaa glutamiinihappoa lääkkeenä. Korkea TxGNN-pistemäärä on laskennallinen ennuste, jota tutkimukset eivät vahvista.
-
----
+Korkea pistemäärä on laskennallinen ennuste, jota kokeelliset tai kliiniset tutkimukset eivät ole vahvistaneet. Näytön taso on siksi L5.
 
 ## Kliininen tutkimusnäyttö
 
-Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
-
----
+Tällä hetkellä aiheeseen ei ole rekisteröity kliinisiä tutkimuksia.
 
 ## Kirjallisuusnäyttö
 
+Taulukossa on aiheeseen liittyvimmät julkaisut. Yksikään niistä ei tutki glutamiinihappoa lääkkeenä postmenopausaalisessa osteoporoosissa.
+
 | PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [19172219](https://pubmed.ncbi.nlm.nih.gov/19172219/) | 2009 | Satunnaistettu avoin tutkimus | J Bone Miner Metab | K2-vitamiini (menatetrenoni) lisäsi osteokalsiinin gamma-karboksylaatiota ja luun vaihduntaa 109 potilaalla; glutamiinihappoa ei testattu |
+| [26144993](https://pubmed.ncbi.nlm.nih.gov/26144993/) | 2015 | Eläinkoe | Nutrition Research | Glutamiinihappo lievensi estrogeenin puutteesta johtuvia vaihdevuosien kaltaisia oireita munasarjat poistetuilla hiirillä |
+| [18187428](https://pubmed.ncbi.nlm.nih.gov/18187428/) | 2007 | Pieni ihmistutkimus | J Am Coll Nutr | Poly-gamma-glutamiinihapon akuutti vaikutus kalsiumin imeytymiseen vaihdevuosien jälkeisillä naisilla |
+| [19172219](https://pubmed.ncbi.nlm.nih.gov/19172219/) | 2009 | Satunnaistettu avoin tutkimus | J Bone Miner Metab | Menatetrenoni (K2-vitamiini) lisäsi osteokalsiinin gamma-karboksylaatiota 109 potilaalla |
 | [14529146](https://pubmed.ncbi.nlm.nih.gov/14529146/) | 2003 | Kliininen tutkimus | Keio J Med | D3- ja/tai K2-vitamiinihoito postmenopausaalisessa osteoporoosissa |
-| [14584089](https://pubmed.ncbi.nlm.nih.gov/14584089/) | 2003 | Kliininen tutkimus | Yonsei Med J | K2-vitamiinin ja bisfosfonaatin yhdistelmähoito |
-| [18187428](https://pubmed.ncbi.nlm.nih.gov/18187428/) | 2007 | Pieni ihmistutkimus (crossover) | J Am Coll Nutr | Poly-gamma-glutamiinihapon akuutti vaikutus kalsiumin imeytymiseen |
-| [26144993](https://pubmed.ncbi.nlm.nih.gov/26144993/) | 2015 | Eläinkoe | Nutr Res | Glutamiinihappo lievitti estrogeenin puutteen aiheuttamia oireita hiirillä |
-| [34529430](https://pubmed.ncbi.nlm.nih.gov/34529430/) | 2021 | Prekliininen | Nano Lett | Luuhun kohdennetut polymeerivesikkelit estradiolin annosteluun |
+| [14584089](https://pubmed.ncbi.nlm.nih.gov/14584089/) | 2003 | Kliininen tutkimus | Yonsei Med J | K2-vitamiinin ja bisfosfonaatin yhdistelmähoito osteoporoosissa |
+| [34529430](https://pubmed.ncbi.nlm.nih.gov/34529430/) | 2021 | Prekliininen | Nano Letters | Luuhun kohdennettu polymeeriveside estradiolin annosteluun |
 | [29437025](https://pubmed.ncbi.nlm.nih.gov/29437025/) | 2018 | Geneettinen assosiaatiotutkimus | Endocr Metab Immune Disord Drug Targets | VKORC1-polymorfismin yhteys osteoporoosiin |
-| [11668761](https://pubmed.ncbi.nlm.nih.gov/11668761/) | 2001 | Katsaus | Tidsskr Nor Laegeforen | K-vitamiini norjalaisessa ruokavaliossa ja osteoporoosi |
 
----
+## Tiedot Suomen markkinoilta
 
-## Markkinatiedot Suomessa
-
-| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/005557 | Maapliv (peruutettu) | – | Vaahterasiirappitauti (Maple Syrup Urine Disease) |
+| EMEA/H/C/005557 | Maapliv | – | Vaahterasiirappitauti |
 
----
+## Turvallisuushuomiot
 
-## Turvallisuusnäkökohdat
+Pakkausselosteen varoitus- ja vasta-aihetietoja ei ollut tämän raportin aineistossa, joten niihin on tutustuttava valmisteyhteenvedosta.
 
-- **Yhteisvaikutukset:** Tietokannassa on 5 kohtalaisen tason yhteisvaikutusta, kaikki amfetamiinin kaltaisten aineiden kanssa: amfetamiini, bentsfetamiini, deksamfetamiini, lisdeksamfetamiini ja metamfetamiini.
-- **Tietämysgraafiin perustuvat mahdolliset vasta-aiheet** (ei valmisteyhteenvedon tekstiä): munuaissairaudet (mm. krooninen munuaisten vajaatoiminta, loppuvaiheen munuaisten vajaatoiminta, munuaiskivitauti, nefrokalsinoosi), hyperkalsemiaan ja kalsiumaineenvaihduntaan liittyvät tilat (hyperparatyreoosi, sarkoidoosi, maligniteetin humoraalinen hyperkalsemia, fosforiaineenvaihdunnan häiriö), sydän- ja verisuonitaudit (mm. kammiovärinä, digitalismyrkytys) sekä fenyyliketonuria ja muut fenyylialaniinin aineenvaihdunnan häiriöt.
+**Yhteisvaikutukset:** Aineistossa on 5 kohtalaista (Moderate) yhteisvaikutusta amfetamiinin kaltaisten lääkkeiden kanssa:
+- amfetamiini
+- bentsfetamiini
+- deksamfetamiini
+- lisdeksamfetamiini
+- metamfetamiini
 
-Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat aineistosta, joten ne on tarkistettava Fimean valmisteyhteenvedosta.
+**Huomioitavat sairaudet:** Tietokannan lääke–sairaus-suhteiden perusteella glutamiinihapon käytössä on syytä olla varovainen mm. seuraavissa tiloissa (ei pakkausselosteen tietoa):
+- munuaissairaudet, krooninen munuaisten vajaatoiminta ja munuaiskivitauti
+- hyperkalsemia, hyperparatyreoosi ja sarkoidoosi
+- sydän- ja verisuonisairaudet sekä digitalismyrkytys
+- fenyyliketonuria ja fenyylialaniinin aineenvaihdunnan häiriöt
 
----
-
-## Johtopäätös ja seuraavat vaiheet
+## Johtopäätös ja seuraavat askeleet
 
 **Päätös: Hold (odota)**
 
-**Perustelu:**
-- Glutamiinihapon käytöstä postmenopausaalisen osteoporoosin hoidossa ei ole suoraa kliinistä näyttöä. Epäsuora tuki rajoittuu yhteen hiiritutkimukseen ja polymeerimuotoa koskevaan pieneen ihmistutkimukseen. Suuri osa kirjallisuudesta käsittelee K- ja D-vitamiinia. Valmiste on lisäksi Suomessa vain peruutettuna, ja munuais- ja sydänsairauksia koskevat mahdolliset vasta-aiheet edellyttävät huolellista selvitystä, koska osteoporoosipotilaat ovat usein iäkkäitä.
+**Perustelut:**
+- Ennuste perustuu vain laskennalliseen malliin. Kliinisiä tutkimuksia ei ole, eikä yksikään julkaisu tutki glutamiinihappoa lääkkeenä postmenopausaalisessa osteoporoosissa. Näytön taso on L5.
 
-**Jatkotoimet:**
-- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean sivuilta (estää turvallisuusseulonnan etenemisen).
-- Vaikutusmekanismitietojen täydentäminen DrugBankista.
-- Prekliiniset tutkimukset glutamaattisignaloinnista luusoluissa ja glutamiinihapon vaikutuksesta luun tiheyteen.
-- Annosmuodon ja antoreitin soveltuvuuden arviointi, koska nykyinen valmiste on kehitetty toiseen käyttöön.
-
----
-
-### Muut ennustetut käyttöaiheet (lyhyesti)
-
-- **Raskauteen liittyvä osteoporoosi** (pistemäärä 99,18 %): ei tutkimuksia eikä kirjallisuutta, näytön taso L5, Hold. Raskaus asettaa lisäturvallisuusrajoituksia.
-- **Primaarinen perinnöllinen glaukooma** (pistemäärä 99,13 %): ei tutkimuksia eikä kirjallisuutta, näytön taso L5, Hold. Glutamaatin aiheuttama verkkokalvon gangliosolujen eksitotoksisuus viittaa siihen, että glutamiinihapon lisäys voisi olla haitallista, joten ennusteen suunta on kyseenalainen.
-- **Mahalaukun vajaatoiminta (gastropareesi)** (pistemäärä 99,11 %): löydetyt 3 artikkelia koskevat autoimmuunigastropareesia ja GAD65-vasta-aineita, eikä yksikään tutki glutamiinihappoa. Yhteys johtuu todennäköisesti hakusanojen päällekkäisyydestä. Näytön taso L5, Hold.
+**Eteenpäin siirtyminen edellyttää:**
+- vaikutusmekanismitietojen täydentämistä, erityisesti glutamaattisignaloinnin roolia luun aineenvaihdunnassa
+- prekliinistä näyttöä glutamiinihaposta luun tiheyden ja luunmurtumien suhteen
+- valmisteyhteenvedon turvallisuustietojen kokoamista, erityisesti munuais-, sydän- ja kalsiumaineenvaihdunnan riskit
+- tarvittaessa pienen kontrolloidun tutkimuksen suunnittelua vasta, kun edellä mainittu tuki on olemassa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

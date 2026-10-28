@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Vernakalant
-parent: Kohtalainen näyttö (L3-L4)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 467
-evidence_level: L4
-indication_count: 6
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-13
 description: "Vernakalant: ennustettu uusi käyttöaihe Aivohalvaussairaus (stroke disorder) (näytön taso L4). Alkuperäinen käyttöaihe: Eteisvärinä"
 monitor_inn: "Vernakalant"
-predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "obsolete susceptibility to ischemic stroke", "sarcoglycanopathy", "Wildervanck syndrome", "ABri amyloidosis"]
+predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "sarcoglycanopathy", "Wildervanck syndrome", "ABri amyloidosis"]
 ---
 
 # Vernakalant
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **6** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,9 @@ TxGNN-malli ennustaa sen voivan olla tehokas **aivohalvaussairauteen (stroke dis
 | Alkuperäinen käyttöaihe | Eteisvärinä |
 | Ennustettu uusi käyttöaihe | Aivohalvaussairaus (stroke disorder) |
 | TxGNN-ennustepisteet | 99,83 % |
-| Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -63,7 +63,7 @@ Yksityiskohtaista vaikutusmekanismitietoa ei ole tämän raportin aineistossa sa
 
 Yhteys aivohalvaukseen on epäsuora. Eteisvärinä on merkittävä sydänperäisen aivohalvauksen syy, joten sinusrytmin palauttaminen voisi teoriassa vähentää tromboembolian riskiä. Mikään aineisto ei kuitenkaan osoita, että vernakalantti ehkäisee tai hoitaa aivohalvausta. Rytmin palauttaminen ei myöskään ole osoitettu korvaavan antikoagulaatiota.
 
-Erittäin korkea TxGNN-pisteytys (0,998) heijastaa todennäköisesti tietämysgraafin eteisvärinä–aivohalvaus-yhteyttä eikä itsenäistä hoitovaikutusta. Lisäksi lääkkeen oma turvallisuusprofiili edellyttää varovaisuutta potilailla, joilla on äskettäinen aivo- tai sydänvaltimotapahtuma.
+Erittäin korkea TxGNN-pisteytys (0,9983) heijastaa todennäköisesti tietämysgraafin eteisvärinä–aivohalvaus-yhteyttä eikä itsenäistä hoitovaikutusta. Lisäksi lääkkeen oma turvallisuusprofiili edellyttää varovaisuutta potilailla, joilla on äskettäinen aivo- tai sydänvaltimotapahtuma.
 
 ---
 

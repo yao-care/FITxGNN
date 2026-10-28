@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 165
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-13
-description: "Enoxaparin: ennustettu uusi käyttöaihe Proteiini C:n puutteesta johtuva tromboofilia… (näytön taso L5). Alkuperäinen käyttöaihe: Laskimotromboembolia"
 monitor_inn: "Enoxaparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive"]
+last_modified_at: 2026-10-27
+description: "Enoxaparin: ennustettu uusi käyttöaihe Proteiini C:n puutteesta johtuva trombofilia, autosomaalinen resessiivinen (thrombophilia due to protein C deficiency… (näytön taso L5). Alkuperäinen käyttöaihe…"
 ---
 
 # Enoxaparin
@@ -33,83 +33,66 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-## Enoksapariini: Laskimotromboembolian hoidosta proteiini C:n puutteesta johtuvaan trombofiliaan
+## Enoksapariini: pienimolekyylinen hepariini → Proteiini C:n puutteesta johtuva trombofilia, autosomaalinen resessiivinen (thrombophilia due to protein C deficiency, autosomal recessive)
 {: .text-alpha }
 
 ## Yhteenveto
 
-Enoksapariini on pienimolekyylinen hepariini, jota on alun perin käytetty **laskimotromboembolian** hoitoon ja ehkäisyyn.
-TxGNN-malli ennustaa sen voivan tehota **autosomaalisesti resessiivisesti periytyvään proteiini C:n puutteesta johtuvaan tromboofiliaan**.
-Ennusteen tueksi ei tällä hetkellä ole **yhtään kliinistä tutkimusta eikä julkaisua**, vaan näyttö perustuu pelkästään mallin ennusteeseen.
-
----
+Enoksapariini on pienimolekyylinen hepariini, jota käytetään laskimotromboembolian hoitoon ja ehkäisyyn. TxGNN-malli ennustaa sen voivan olla hyödyllinen indikaatiossa **proteiini C:n puutteesta johtuva trombofilia, autosomaalinen resessiivinen (thrombophilia due to protein C deficiency, autosomal recessive)**. Ennusteen tueksi ei ole tässä raportissa käytettävissä yhtään kliinistä tutkimusta eikä julkaisua, joten näyttö perustuu pelkästään malliennusteeseen.
 
 ## Pikakatsaus
 
 | Kohde | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Laskimotromboembolia |
-| Ennustettu uusi käyttöaihe | Proteiini C:n puutteesta johtuva tromboofilia, autosomaalisesti resessiivinen |
-| TxGNN-ennustepistemäärä | 99,58 % |
+| Alkuperäinen käyttöaihe | Venous Thromboembolism |
+| Ennustettu uusi käyttöaihe | Proteiini C:n puutteesta johtuva trombofilia, autosomaalinen resessiivinen (thrombophilia due to protein C deficiency, autosomal recessive) |
+| TxGNN-ennusteen pistemäärä | 0,9958 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
-
----
 
 ## Miksi ennuste on perusteltu?
 
-Enoksapariini on pienimolekyylinen hepariini, joka voimistaa antitrombiinin vaikutusta ja estää erityisesti tekijä Xa:ta sekä vähäisemmässä määrin trombiinia. Lääkkeen alkuperäisen vaikutusmekanismin tietoja ei ole tämän raportin aineistossa saatavilla, joten mekanismikuvaus perustuu yleiseen farmakologiseen tietoon.
+Enoksapariini on pienimolekyylinen hepariini, joka vahvistaa antitrombiinin vaikutusta ja estää erityisesti tekijä Xa:ta sekä vähäisemmässä määrin trombiinia. Tämän raportin tietoihin ei sisälly yksityiskohtaista vaikutusmekanismitietoa, joten mekanismikuvaus perustuu yleiseen farmakologiseen tietoon.
 
-Proteiini C:n puutos heikentää elimistön omaa antikoagulaatioreittiä, joka inaktivoi tekijöitä Va ja VIIIa, ja johtaa suurentuneeseen veritulppariskiin. Alkuperäinen käyttöaihe (laskimotromboembolia) vastaa taudin keskeistä kliinistä ilmenemismuotoa, joten hyytymiskaskadiin kohdistuva antikoagulaatio on mekanistisesti uskottava.
+Proteiini C:n puutos heikentää elimistön omaa antikoagulaatioreittiä, jossa aktivoitu proteiini C inaktivoi tekijät Va ja VIIIa. Seurauksena on suurentunut taipumus veritulppiin. Koska enoksapariini vaikuttaa veren hyytymiskaskadiin ja sitä käytetään laskimotromboembolian hoidossa, sen käyttö tulpan ehkäisyssä tai hoidossa on mekanistisesti uskottavaa.
 
-Ennuste ei kuitenkaan perustu muuhun kuin mallin pistemäärään. Vaikeassa tai homotsygoottisessa proteiini C:n puutoksessa hepariiniryhmän lääkkeitä käytetään yleensä osana laajempaa hoitoa (esim. proteiini C -konsentraatti ja siirtymä varfariiniin), eikä tätä voi varmistaa käytettävissä olevasta aineistosta.
-
----
+Ennuste on kuitenkin vain mallilaskelma. Vaikeassa tai homotsygoottisessa proteiini C:n puutoksessa hepariiniryhmän lääkkeet ovat yleensä vain osa laajempaa hoitoa (esimerkiksi proteiini C -konsentraatti ja siirtymä varfariiniin), eikä tätä voi varmistaa käytettävissä olevista tiedoista. Lääkkeen toimintamekanismin tai tutkimusnäytön puute rajoittaa arviota.
 
 ## Kliininen tutkimusnäyttö
 
-Tähän ennusteeseen liittyviä kliinisiä tutkimuksia ei tällä hetkellä ole rekisteröity.
-
----
+Tällä hetkellä aiheeseen liittyviä kliinisiä tutkimuksia ei ole rekisteröity.
 
 ## Kirjallisuusnäyttö
 
-Aiheeseen liittyvää kirjallisuutta ei tällä hetkellä ole saatavilla.
+Tällä hetkellä aiheeseen liittyvää kirjallisuutta ei ole saatavilla.
 
----
+## Suomen markkinatiedot
 
-## Tiedot Suomen markkinoilta
-
-| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/004264 | Inhixa | – | Laskimotromboembolia (tila: peruutettu) |
-
----
+| EMEA/H/C/004264 | Inhixa | Ei tiedossa | Laskimotromboembolia |
 
 ## Turvallisuusnäkökohdat
 
-Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut tämän raportin aineistossa saatavilla, joten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
+Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ole tässä aineistossa saatavilla, joten turvallisuustiedot tulee tarkistaa valmisteyhteenvedosta.
 
-- **Tietämyskaavioon perustuvat vasta-aiheet** (ei valmisteyhteenvedon teksti): maksan vajaatoiminta, veritaudit, trombosytopenia (mukaan lukien hepariinin aiheuttama), osteoporoosi, hyytymishäiriöt, hemofilia, haavainen paksusuolitulehdus ja tulehdukselliset suolistosairaudet, aktiivinen peptinen haavatauti, sappitiesairaudet, obstruktiivinen keltaisuus, antitrombiini III:n puutos, verkkokalvosairaudet (mm. diabeettinen ja hypertensiivinen retinopatia), infektiivinen endokardiitti, kallonsisäinen ja aivoverenvuoto, istukan irtoaminen sekä verihiutaleiden toiminnan häiriöt (mm. Glanzmannin tauti).
-- **Yhteisvaikutukset:** Farmakologiatietokannassa enoksapariinin kohteeksi on kirjattu serpiiniperhe C:n jäsen 1 (SERPINC1, antitrombiini). Kyseessä on lääkkeen vaikutuskohde, ei kliinisesti luokiteltu lääkeyhteisvaikutus.
+Lääkeyhteisvaikutuksista aineistossa on yksi farmakologinen kohdemerkintä: enoksapariinin kohteena on SERPINC1 (antitrombiini III), mikä vastaa sen tunnettua vaikutustapaa. Yhteisvaikutuksen vakavuusluokkaa ei ole annettu.
 
----
-
-## Johtopäätös ja seuraavat vaiheet
+## Johtopäätös ja seuraavat askeleet
 
 **Päätös: Hold (odota)**
 
-**Perustelut:**
-- Ennuste perustuu vain TxGNN-pistemäärään (L5), eikä tukevia kliinisiä tutkimuksia tai julkaisuja ole. Lisäksi Suomessa ainoa myyntilupa on peruutettu ja turvallisuustiedot puuttuvat.
+**Perustelu:**
+Ennuste perustuu ainoastaan TxGNN-mallin pistemäärään (0,9958), eikä tukevia kliinisiä tutkimuksia tai julkaisuja ole. Valmisteyhteenvedon turvallisuustiedot puuttuvat, joten turvallisuusarviota ei voi tehdä.
 
-**Eteenpäin siirtyminen edellyttää:**
-- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivuilta
-- Vaikutusmekanismin tietojen täydentämistä
-- Kirjallisuushakua proteiini C:n puutoksen antikoagulaatiohoidosta (hepariinit, proteiini C -konsentraatti, varfariini)
-- Selvitystä siitä, onko enoksapariinia sisältäviä valmisteita saatavilla Suomessa
-- Asiantuntija-arviota (hematologia) hoidon asemasta vaikeassa proteiini C:n puutoksessa
+**Jatkoa varten tarvitaan:**
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankinta Fimeasta
+- Yksityiskohtaiset vaikutusmekanismitiedot
+- Systemaattinen kirjallisuushaku proteiini C:n puutoksen antikoagulaatiohoidosta (tapausraportit, rekisteritutkimukset, hoitosuositukset)
+- Arvio enoksapariinin asemasta suhteessa proteiini C -konsentraattiin ja varfariiniin
+- Reittien ja annostelun yhteensopivuuden arviointi
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -6,9 +6,9 @@ nav_order: 410
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Sotatercept: ennustettu uusi käyttöaihe Akuutti lymfoblastileukemia (näytön taso L5). Alkuperäinen käyttöaihe: Keuhkoverenpainetauti (pulmonaalihypertensio)"
 monitor_inn: "SOTATERCEPT"
 predicted_indications: ["acute lymphoblastic leukemia (disease)", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "drug-induced osteoporosis", "diabetic cataract", "HER2 positive breast carcinoma", "transitional cell carcinoma", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant"]
+description: "Sotatercept: ennustettu uusi käyttöaihe Acute lymphoblastic leukemia (disease) (näytön taso L5). Alkuperäinen käyttöaihe: Hypertension, Pulmonary"
 ---
 
 # Sotatercept
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Sotatercepti: Keuhkoverenpainetaudista akuuttiin lymfoblastileukemiaan
+## Sotatercept: Acute lymphoblastic leukemia (disease)
 {: .text-alpha }
 
 ## Yhteenveto
@@ -46,12 +46,12 @@ Ennusteen tueksi ei ole tässä raportissa käytettävissä **yhtään kliinist�
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Keuhkoverenpainetauti (pulmonaalihypertensio) |
-| Ennustettu uusi käyttöaihe | Akuutti lymfoblastileukemia |
+| Alkuperäinen käyttöaihe | Hypertension, Pulmonary |
+| Ennustettu uusi käyttöaihe | Acute lymphoblastic leukemia (disease) |
 | TxGNN-ennustepisteet | 99,78 % |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste on perusteltu?

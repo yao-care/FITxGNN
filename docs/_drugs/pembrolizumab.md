@@ -4,7 +4,7 @@ title: Pembrolizumab
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 337
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Pembrolizumab: ennustettu uusi käyttöaihe Ientenfibromatoosi (fibromatosis, gingival) (näytön taso L5). Alkuperäinen käyttöaihe: Melanooma"
 monitor_inn: "PEMBROLIZUMAB"
@@ -14,7 +14,7 @@ predicted_indications: ["fibromatosis, gingival", "inclusion body myopathy with 
 # Pembrolizumab
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Pembrolitsumabi: Melanoomasta ja muista syövistä ienfibromatoosiin
+## Pembrolitsumabi: Ientenfibromatoosi
 {: .text-alpha }
 
 ## Yhteenveto
@@ -48,10 +48,10 @@ Ennustetta ei tue yksikään kliininen tutkimus eikä julkaisu, joten näyttö o
 |------|------|
 | Alkuperäinen käyttöaihe | Melanooma; Hodgkinin tauti; munuaissolusyöpä; ei-pienisoluinen keuhkosyöpä; siirtymäsoluinen syöpä; pään ja kaulan levyepiteelisyöpä; urologiset kasvaimet; kohdun limakalvon kasvaimet |
 | Ennustettu uusi käyttöaihe | Ientenfibromatoosi (fibromatosis, gingival) |
-| TxGNN-ennustepistemäärä | 99,40 % |
+| TxGNN-ennustepistemäärä | 0,9940 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste voisi olla perusteltu?

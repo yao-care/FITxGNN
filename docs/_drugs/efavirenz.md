@@ -49,10 +49,10 @@ TxGNN-malli ennustaa sen voivan tehota **apinoiden immuunikatovirusinfektioon (S
 |------|------|
 | Alkuperäinen käyttöaihe | HIV-infektio |
 | Ennustettu uusi käyttöaihe | Apinoiden immuunikatovirusinfektio (simian immunodeficiency virus infection) |
-| TxGNN-ennusteen pistemäärä | 99,80 % |
+| TxGNN-ennusteen pistemäärä | 0,9980 |
 | Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 5 (kaikki peruutettuja) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 5/5) |
+| Myyntilupien määrä | 5 (voimassa: 5) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

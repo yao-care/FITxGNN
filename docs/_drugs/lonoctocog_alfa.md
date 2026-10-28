@@ -39,7 +39,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 ## Yhteenveto
 
 Lonoctokogi alfa on rekombinantti, yksiketjuinen ja B-domeenista typistetty hyytymistekijä VIII -valmiste, jota on alun perin käytetty **hemofilia A:n** hoitoon.
-TxGNN-malli ennustaa sen voivan tehota **pseudo-von Willebrandin tautiin** (pistemäärä 99,85 %), mutta ennusteen tueksi ei ole **yhtään kliinistä tutkimusta eikä julkaisua**.
+TxGNN-malli ennustaa sen voivan tehota **pseudo-von Willebrandin tautiin** (pistemäärä 0,9985), mutta ennusteen tueksi ei ole **yhtään kliinistä tutkimusta eikä julkaisua**.
 
 ---
 
@@ -49,10 +49,10 @@ TxGNN-malli ennustaa sen voivan tehota **pseudo-von Willebrandin tautiin** (pist
 |------|------|
 | Alkuperäinen käyttöaihe | Hemofilia A |
 | Ennustettu uusi käyttöaihe | Pseudo-von Willebrandin tauti (verihiutaletyyppinen VWD) |
-| TxGNN-ennusteen pistemäärä | 99,85 % |
+| TxGNN-ennusteen pistemäärä | 0,9985 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -69,9 +69,9 @@ Muut mallin ennustamat käyttöaiheet ovat samanlaisia:
 
 | Ennustettu käyttöaihe | TxGNN-pistemäärä | Arvio mekanistisesta yhteydestä |
 |------|------|------|
-| Verihiutaleiden primaarinen vapautumishäiriö | 99,84 % | Lääke ei vaikuta verihiutaleiden granulaaritoimintaan; hyöty korkeintaan epäsuora |
-| Glanzmannin trombastenia | 99,76 % | Vika on verihiutaleiden aggregaatiossa (αIIbβ3), FVIII-tasot ovat yleensä normaalit; perustetta tehoon ei löytynyt |
-| Scottin oireyhtymä | 99,44 % | Käsitteellinen yhteys tenaasikompleksin kautta, mutta FVIII:n lisääminen ei korjaa puuttuvaa fosfatidyyliseriinipintaa |
+| Verihiutaleiden primaarinen vapautumishäiriö | 0,9984 | Lääke ei vaikuta verihiutaleiden granulaaritoimintaan; hyöty korkeintaan epäsuora |
+| Glanzmannin trombastenia | 0,9976 | Vika on verihiutaleiden aggregaatiossa (αIIbβ3), FVIII-tasot ovat yleensä normaalit; perustetta tehoon ei löytynyt |
+| Scottin oireyhtymä | 0,9944 | Käsitteellinen yhteys tenaasikompleksin kautta, mutta FVIII:n lisääminen ei korjaa puuttuvaa fosfatidyyliseriinipintaa |
 
 ---
 

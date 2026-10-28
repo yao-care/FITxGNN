@@ -4,17 +4,17 @@ title: Pazopanib
 parent: Kohtalainen näyttö (L3-L4)
 nav_order: 332
 evidence_level: L3
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-13
-description: "Pazopanib: ennustettu uusi käyttöaihe Luokittelematon munuaissolusyöpä (unclassified renal cell carcinoma) (näytön taso L3). Alkuperäinen käyttöaihe: Munuaissolusyöpä (Carcinoma, Renal Cell)"
 monitor_inn: "PAZOPANIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
+description: "Pazopanib: ennustettu uusi käyttöaihe Liposarcoma (näytön taso L3). Alkuperäinen käyttöaihe: Carcinoma, Renal Cell"
 ---
 
 # Pazopanib
 {: .fs-9 }
 
-Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L3** | Ennustetut käyttöaiheet: **6** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Patsopanibi: munuaissolusyövästä uniklassifioimattomaan munuaissolusyöpään
+## Pazopanib: Liposarcoma
 {: .text-alpha }
 
 ## Yhteenveto
 
-Patsopanibi on VEGFR-, PDGFR- ja c-KIT-reseptoreita estävä tyrosiinikinaasi-inhibiittori, jota on alun perin käytetty munuaissolusyövän hoitoon. TxGNN-malli ennustaa sen voivan tehota ensisijaisesti **luokittelemattomaan munuaissolusyöpään** (ennustepisteet 99,63 %). Tätä ennustetta tukee **6 kirjallisuusviitettä** ilman rekisteröityjä kliinisiä tutkimuksia. Vahvin näyttö koskee kuitenkin toista ennustettua käyttöaihetta, **liposarkoomaa**, jonka tukena on 6 kliinistä tutkimusta ja 20 julkaisua.
+Patsopanibi on VEGFR-, PDGFR- ja c-KIT-reseptoreita estävä tyrosiinikinaasi-inhibiittori, jota on alun perin käytetty munuaissolusyövän hoitoon. Tätä ennustetta tukee **6 kirjallisuusviitettä** ilman rekisteröityjä kliinisiä tutkimuksia. Vahvin näyttö koskee kuitenkin toista ennustettua käyttöaihetta, **liposarkoomaa**, jonka tukena on 6 kliinistä tutkimusta ja 20 julkaisua.
 
 ---
 
@@ -46,12 +46,12 @@ Patsopanibi on VEGFR-, PDGFR- ja c-KIT-reseptoreita estävä tyrosiinikinaasi-in
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Munuaissolusyöpä (Carcinoma, Renal Cell) |
-| Ennustettu uusi käyttöaihe | Luokittelematon munuaissolusyöpä (unclassified renal cell carcinoma) |
+| Alkuperäinen käyttöaihe | Carcinoma, Renal Cell |
+| Ennustettu uusi käyttöaihe | Liposarcoma |
 | TxGNN-ennustepisteet | 99,63 % |
 | Näytön taso | L3 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (pidätetään) |
 
 *Huom.* Ennusteen sijoitus listalla on 3, mutta sijat 1–3 ovat samalla pistemäärällä. Luokittelematon munuaissolusyöpä on näistä ainoa, jolle löytyi kirjallisuutta. Näyttö on rajallista, joten päätössuositus on varovainen.

@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-## Bictegraviiri: HIV-infektiosta apinoiden immuunikatovirusinfektioon
+## Bictegraviiri: Kissan hankinnainen immuunikatooireyhtymä
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -46,10 +46,10 @@ Bictegraviiri on HIV-1-integraasin siirtovaiheen estäjä (INSTI), jota on alun 
 |------|------|
 | Alkuperäinen käyttöaihe | HIV-infektiot |
 | Ennustettu uusi käyttöaihe | Kissan hankinnainen immuunikatooireyhtymä (feline acquired immunodeficiency syndrome) |
-| TxGNN-ennustepistemäärä | 99,82 % |
+| TxGNN-ennustepistemäärä | 0,9982 |
 | Näytön taso | L5 (pelkkä mallin ennuste) |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 Huomio: seuraavaksi sijoittuvalla ennusteella (SIV-infektio) näytön taso on L4 ja suositus "tutkimuskysymys". Kolmas ennuste (neurokehityshäiriö) on L5-tasoa ja todennäköisesti virheellinen positiivinen löydös.
@@ -62,7 +62,7 @@ Yksityiskohtaista vaikutusmekanismia koskevaa tietoa ei ole tällä hetkellä sa
 
 **Apinoiden immuunikatovirus (SIV).** SIV on läheistä sukua HIV:lle ja sen integraasi on rakenteeltaan samankaltainen, joten INSTI-lääkkeet ovat mekanistisesti uskottavia. Aineiston tutkimus (PMID 28923862) tarjoaa suoraa in vitro -näyttöä bictegraviirin tehosta integraasi-inhibiittoriresistenttiä SIVmac239-virusta vastaan. SIV tartuttaa ihmisapinoita ja muita kädellisiä, joten kyse on prekliinisestä tai eläinmallia koskevasta käyttöaiheesta, ei ihmisen hoidosta.
 
-**Neurokehityshäiriö.** Uskottavaa mekanistista yhteyttä ei löytynyt. Bictegraviiri estää viruksen integraasia, eikä tunnettua ihmisen homologia tai reittiä, joka yhdistäisi sen tähän geneettiseen häiriöön, ole. Korkea pistemäärä (0,998) voi olla tietämysgraafin artefakti.
+**Neurokehityshäiriö.** Uskottavaa mekanistista yhteyttä ei löytynyt. Bictegraviiri estää viruksen integraasia, eikä tunnettua ihmisen homologia tai reittiä, joka yhdistäisi sen tähän geneettiseen häiriöön, ole. Korkea pistemäärä (0,9976) tulee TxGNN-mallista (syväoppiminen) ja voi heijastaa mallin oppimia samankaltaisuuksia toisiinsa liittyvien sairauksien välillä, ei biologista näyttöä.
 
 ## Kliininen tutkimusnäyttö
 

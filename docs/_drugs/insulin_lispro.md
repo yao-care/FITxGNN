@@ -51,8 +51,8 @@ TxGNN-malli ennustaa sen voivan tehota **autoimmuuniseen munasarjatulehdukseen**
 | Ennustettu uusi käyttöaihe | Autoimmuuninen munasarjatulehdus (autoimmune oophoritis) |
 | TxGNN-ennustepisteet | 99,78 % |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 4 (kaikki peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 4/4) |
+| Myyntilupien määrä | 4 (voimassa: 4) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

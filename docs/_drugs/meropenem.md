@@ -4,7 +4,7 @@ title: Meropenem
 parent: Kohtalainen näyttö (L3-L4)
 nav_order: 283
 evidence_level: L4
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Meropenem: ennustettu uusi käyttöaihe Bakteeriperäinen niveltulehdus (bacterial arthritis) (näytön taso L4). Alkuperäinen käyttöaihe: Virtsatieinfektiot, bakteremia, bakteeri-infektiot…"
 monitor_inn: "Meropenem"
@@ -14,7 +14,7 @@ predicted_indications: ["bacterial arthritis", "epiglottitis", "staphylococcus a
 # Meropenem
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Meropeneemi: Bakteeri-infektioista bakteeriperäiseen niveltulehdukseen
+## Meropeneemi: Bakteeriperäinen niveltulehdus
 {: .text-alpha }
 
 ## Yhden lauseen tiivistelmä
@@ -50,10 +50,10 @@ Raporttiin koottu aineisto sisältää myös yhdeksän muuta ennustettua käytt�
 |------|------|
 | Alkuperäinen käyttöaihe | Virtsatieinfektiot, bakteremia, bakteeri-infektiot, hengitystieinfektiot, keuhkokuume, ventilaattoriin liittyvä keuhkokuume |
 | Ennustettu uusi käyttöaihe | Bakteeriperäinen niveltulehdus (bacterial arthritis) |
-| TxGNN-ennustepisteet | 99,92 % |
+| TxGNN-ennustepisteet | 0,9992 |
 | Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota; jatkotutkimuskysymys) |
 
 ---

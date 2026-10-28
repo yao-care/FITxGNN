@@ -46,10 +46,10 @@ Kabotegraviiri on HIV-integraasin estäjä, jota on alun perin käytetty HIV-inf
 |------|------|
 | Alkuperäinen käyttöaihe | HIV-infektio |
 | Ennustettu uusi käyttöaihe | Nivelreuma |
-| TxGNN-ennusteen pistemäärä | 99,45 % |
+| TxGNN-ennusteen pistemäärä | 0,9945 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 2 (molemmat peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Myyntilupien määrä | 2 (voimassa: 2) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste voisi olla perusteltu?

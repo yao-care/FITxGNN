@@ -6,9 +6,9 @@ nav_order: 401
 evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-13
-description: "Silodosin: ennustettu uusi käyttöaihe Ambras-tyypin synnynnäinen yleistynyt liikakarvoitus (näytön taso L5). Alkuperäinen käyttöaihe: Eturauhasen hyvänlaatuinen liikakasvu"
 monitor_inn: "SILODOSIN"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
+description: "Silodosin: ennustettu uusi käyttöaihe Ambras type hypertrichosis universalis congenita (näytön taso L5). Alkuperäinen käyttöaihe: Prostatic Hyperplasia"
 ---
 
 # Silodosin
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-## Silodosiini: Hyvänlaatuisesta eturauhasen liikakasvusta ennustettuun Ambras-tyypin synnynnäiseen yleistyneeseen liikakarvoitukseen
+## Silodosin: Ambras type hypertrichosis universalis congenita
 {: .text-alpha }
 
 ## Yhteenveto
@@ -47,12 +47,12 @@ TxGNN-malli ennustaa sen voivan tehota **Ambras-tyypin synnynnäiseen yleistynee
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Eturauhasen hyvänlaatuinen liikakasvu |
-| Ennustettu uusi käyttöaihe | Ambras-tyypin synnynnäinen yleistynyt liikakarvoitus |
-| TxGNN-ennustepistemäärä | 99,99 % |
+| Alkuperäinen käyttöaihe | Prostatic Hyperplasia |
+| Ennustettu uusi käyttöaihe | Ambras type hypertrichosis universalis congenita |
+| TxGNN-ennustepistemäärä | 0.9999 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 3 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 3/3) |
+| Myyntilupien määrä | 3 (voimassa: 3) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

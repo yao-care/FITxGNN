@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Insulin Aspart
-parent: Vahva näyttö (L1-L2)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 229
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 8
 last_modified_at: 2026-10-13
-description: "Insulin Aspart: ennustettu uusi käyttöaihe Tyypin 1 diabetes mellitus (näytön taso L1). Alkuperäinen käyttöaihe: Diabetes mellitus"
 monitor_inn: "INSULIN ASPART"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy"]
+description: "Insulin Aspart: ennustettu uusi käyttöaihe Autoimmune oophoritis (näytön taso L5). Alkuperäinen käyttöaihe: Diabetes Mellitus"
 ---
 
 # Insulin Aspart
 {: .fs-9 }
 
-Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **8** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Aspartinsuliini: Diabeteksesta tyypin 1 diabetekseen
+## Insulin Aspart: Autoimmune oophoritis
 {: .text-alpha }
 
 ## Yhteenveto
 
 Aspartinsuliini on ppikavaikutteinen insuliinianalogi, jota on alun perin käytetty diabeteksen hoitoon.
-TxGNN-malli ennustaa sen soveltuvan **tyypin 1 diabetekseen**, mutta kyseessä ei ole varsinainen lääkkeen uudelleenkäyttö, koska tyypin 1 diabetes kuuluu lääkkeen alkuperäisen käyttöaiheen piiriin.
 Ennustetta tukee tämän raportin aineistossa **30 kliinistä tutkimusta** ja **20 julkaisua**, joista useat ovat vaiheen 3 satunnaistettuja tutkimuksia.
 
 ---
@@ -48,12 +47,12 @@ Ennustetta tukee tämän raportin aineistossa **30 kliinistä tutkimusta** ja **
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Diabetes mellitus |
-| Ennustettu uusi käyttöaihe | Tyypin 1 diabetes mellitus |
+| Alkuperäinen käyttöaihe | Diabetes Mellitus |
+| Ennustettu uusi käyttöaihe | Autoimmune oophoritis |
 | TxGNN-ennustepisteet | 99,95 % |
-| Näytön taso | L1 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 7 (kaikki peruutettuja) |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 7/7) |
+| Myyntilupien määrä | 7 (voimassa: 7) |
 | Suositeltu päätös | Proceed with Guardrails (eteneminen suojatoimin) |
 
 ---
@@ -62,7 +61,7 @@ Ennustetta tukee tämän raportin aineistossa **30 kliinistä tutkimusta** ja **
 
 Yksityiskohtaista vaikutusmekanismia koskevia tietoja ei ole tämän raportin aineistossa saatavilla. Tunnetun farmakologian perusteella aspartinsuliini on pikavaikutteinen insuliinianalogi, joka sitoutuu insuliinireseptoriin ja korvaa tyypin 1 diabeteksessa puuttuvaa elimistön omaa insuliinia.
 
-Tyypin 1 diabetes on diabeteksen alatyyppi, joten ennuste vastaa lääkkeen vakiintunutta käyttöä. Korkea TxGNN-pistemäärä (0,9995) on sopusoinnussa tämän kanssa. Vaiheen 3 tutkimukset tukevat suoraan tehoa ja turvallisuutta.
+Korkea TxGNN-pistemäärä (0,9992) on sopusoinnussa tämän kanssa. Vaiheen 3 tutkimukset tukevat suoraan tehoa ja turvallisuutta.
 
 Muut ennustetut sairaudet (esim. autoimmuuni-ooforiitti, opsismodysplasia, jäykän ihmisen oireyhtymä ja lipodystrofiat) perustuvat pelkkään mallin ennusteeseen, eikä niille löydy kliinistä näyttöä tai uskottavaa mekanistista yhteyttä. Paikallinen lipodystrofia on lisäksi insuliini-injektioiden tunnettu haittavaikutus, joten ennuste on todennäköisesti tietämysgraafin artefakti. Pysyvässä vastasyntyneiden diabeteksessa ja haiman agenesiassa insuliinikorvaus on mekanistisesti perusteltua ja vakiohoitoa, mutta aspartinsuliinille ei ole omia tutkimuksia.
 

@@ -4,17 +4,17 @@ title: Ziconotide
 parent: Kohtalainen näyttö (L3-L4)
 nav_order: 478
 evidence_level: L4
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Ziconotide: ennustettu uusi käyttöaihe Migreenihäiriö (migraine disorder) (näytön taso L4). Alkuperäinen käyttöaihe: Selkäydinkanavaan annettavat injektiot"
 monitor_inn: "ZICONOTIDE"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "cauda equina syndrome", "obesity disorder", "transient ischemic attack (disease)", "open-angle glaucoma", "obsolete neurogenic bladder (disease)", "migraine with or without aura, susceptibility to", "primary hereditary glaucoma", "preeclampsia"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "cauda equina syndrome", "obesity disorder", "transient ischemic attack (disease)", "open-angle glaucoma", "obsolete neurogenic bladder (disease)", "primary hereditary glaucoma", "preeclampsia"]
 ---
 
 # Ziconotide
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -52,8 +52,8 @@ Tätä tukee tällä hetkellä **0 kliinistä tutkimusta** ja **3 julkaisua** (l
 | Ennustettu uusi käyttöaihe | Migreenihäiriö (migraine disorder) |
 | TxGNN-ennustepistemäärä | 99,92 % |
 | Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien lukumäärä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien lukumäärä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) – tutkimuskysymys jatkotarkasteluun |
 
 ---

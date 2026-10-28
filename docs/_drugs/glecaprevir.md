@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 204
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-13
-description: "Glecaprevir: ennustettu uusi käyttöaihe HIV-infektio (näytön taso L5). Alkuperäinen käyttöaihe: Krooninen hepatiitti C"
 monitor_inn: "GLECAPREVIR"
 predicted_indications: ["HIV infectious disease", "hepatitis B virus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+last_modified_at: 2026-10-27
+description: "Glecaprevir: ennustettu uusi käyttöaihe HIV-infektio (HIV infectious disease) (näytön taso L5). Alkuperäinen käyttöaihe: Hepatitis C, Chronic"
 ---
 
 # Glecaprevir
@@ -33,103 +33,89 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Glekapreviiri: Krooniseen hepatiitti C:n hoidosta HIV-infektioon (ennuste)
+## Glekapreviiri: HCV:n NS3/4A-proteaasin estäjä → HIV-infektio (HIV infectious disease)
 {: .text-alpha }
 
-## Yhden lauseen tiivistelmä
+## Yhteenveto
 
-Glekapreviiri on HCV:n NS3/4A-proteaasin estäjä, jota käytetään yhdessä pibrentasviirin kanssa kroonisen hepatiitti C:n hoitoon.
-TxGNN-malli ennustaa sen voivan tehota **HIV-infektioon**, mutta ennuste perustuu lähinnä HIV/HCV-samanaikaisinfektion potilasjoukkoon eikä todelliseen HIV-vaikutukseen.
-Aiheeseen liittyy **7 kliinistä tutkimusta** ja **20 julkaisua**, mutta yksikään niistä ei testaa HIV:n hoitoa.
-
----
+Glekapreviiri on hepatiitti C -viruksen NS3/4A-proteaasin estäjä, jota käytetään yhdistelmävalmisteessa pibrentasviirin kanssa. TxGNN-malli ennustaa, että sen käyttö voisi olla perusteltua **HIV-infektiossa (HIV infectious disease)**. Aineistossa on **7 kliinistä tutkimusta** ja **20 julkaisua**, mutta ne koskevat lähes yksinomaan HCV:n hoitoa HIV/HCV-yhteisinfektiossa, eivät HIV:n hoitoa sinänsä.
 
 ## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Krooninen hepatiitti C |
-| Ennustettu uusi käyttöaihe | HIV-infektio |
-| TxGNN-ennustepisteet | 99,87 % |
-| Näytön taso | L2 (ennusteen mukaan; käytännössä näyttö koskee HCV:tä, ei HIV:tä) |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Alkuperäinen käyttöaihe | Hepatitis C, Chronic |
+| Ennustettu uusi käyttöaihe | HIV-infektio (HIV infectious disease) |
+| TxGNN-ennustepistemäärä | 0,9987 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
----
+Näytön taso on L5: yksikään lähde ei tutki glekapreviirin tehoa HIV-infektioon itseensä. Tutkimusten päätetapahtuma oli HCV:n pysyvä virologinen vaste (SVR12), ei HIV-vaste.
 
-## Miksi ennuste on perusteltu – ja missä sen rajat ovat?
+## Miksi ennuste on perusteltu?
 
-Yksityiskohtaista vaikutusmekanismitietoa ei ole tässä raportissa käytettävissä. Tunnetun tiedon mukaan glekapreviiri estää HCV:n NS3/4A-proteaasia, ja sen teho kroonisessa hepatiitti C:ssä on osoitettu. Sillä ei tunneta suoraa HIV-vastaista vaikutusta.
+Tämän raportin tietojen mukaan glekapreviirin tarkkaa vaikutusmekanismia ei ole saatavilla yksityiskohtaisesti. Tunnettua on, että glekapreviiri kohdistuu HCV:n NS3/4A-proteaasiin, eikä sillä ole osoitettua suoraa HIV-vastaista vaikutusta.
 
-Ennusteen taustalla on todennäköisesti HIV:n ja HCV:n läheisyys tietämysverkossa sekä se, että monet potilaat kärsivät molemmista infektioista. Glekapreviiri/pibrentasviiri hoitaa tällöin vain HCV-osuutta. Kyseessä on potilasjoukkojen päällekkäisyys, ei näyttö lääkkeen uudelleenkäytöstä HIV:n hoidossa.
+Ennusteen taustalla näyttää olevan HIV:n ja HCV:n päällekkäinen potilasjoukko. Noin 25–30 % HIV-infektoiduista Euroopassa ja Yhdysvalloissa on myös HCV-infektoituneita, ja glekapreviiri/pibrentasviiri hoitaa yhteisinfektiossa HCV-osuuden. Korkea pistemäärä heijastaa todennäköisesti tautien läheisyyttä verkostossa, ei todellista antiretroviraalista mekanismia. Kyse on potilaspopulaatioiden limittymisestä, ei näytöstä lääkkeen uudelleenkäytöstä HIV:n hoidossa.
 
-Muut ennustetut kohteet (mm. hepatiitti B, A ja E, eläinten immuunikatovirukset, Omskin verenvuotokuume, Kyasanur-metsätauti sekä eräs geneettinen kehityshäiriö) eivät saa tukea mekanismista, tutkimuksista tai kirjallisuudesta. Flavivirusten (Omsk, Kyasanur) proteaasit muistuttavat HCV:n proteaasia vain etäisesti, eikä tehosta ole dataa.
+## Kliininen näyttö
 
----
-
-## Kliininen tutkimusnäyttö
-
-Kaikki tutkimukset koskevat HCV:n hoitoa, osassa mukana HIV-samanaikaisinfektiota. Yksikään ei mittaa HIV-tulosta.
-
-| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset havainnot |
+| Tutkimusnumero | Vaihe | Tila | Osallistujia | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT02738138](https://clinicaltrials.gov/study/NCT02738138) | Vaihe 3 | Valmistunut | 153 | EXPEDITION-2: glekapreviiri/pibrentasviirin teho ja turvallisuus HCV/HIV-1-samanaikaisinfektiossa; päätetapahtuma HCV:n paraneminen |
-| [NCT03235349](https://clinicaltrials.gov/study/NCT03235349) | Vaihe 3 | Valmistunut | 160 | Aasialaiset aikuiset, kompensoitu kirroosi, HIV-samanaikaisinfektio mahdollinen |
-| [NCT03222583](https://clinicaltrials.gov/study/NCT03222583) | Vaihe 3 | Valmistunut | 546 | Satunnaistettu, lumekontrolloitu; aasialaiset ei-kirroottiset potilaat, HIV-samanaikaisinfektio mahdollinen |
-| [NCT02634008](https://clinicaltrials.gov/study/NCT02634008) | Vaihe 3 | Valmistunut | 83 | Pilottitutkimus vastikään saadussa HCV-infektiossa, HIV-samanaikaisinfektio mahdollinen; painopiste muissa DAA-hoidoissa |
-| [NCT04042740](https://clinicaltrials.gov/study/NCT04042740) | Vaihe 2 | Valmistunut | 45 | PURGE-C: 4 viikon hoito akuutissa HCV:ssä, HIV-1-samanaikaisinfektio mahdollinen |
-| [NCT03823911](https://clinicaltrials.gov/study/NCT03823911) | Vaihe 4 | Valmistunut | 87 | Sydän- ja verisuoniriski HCV:n paranemisen jälkeen HIV/HCV-potilailla |
-| [NCT07040319](https://clinicaltrials.gov/study/NCT07040319) | Vaihe 1/2 | Rekrytoi | 30 | Farmakokinetiikka ja turvallisuus raskauden aikana HCV:ssä, HIV mahdollinen |
-
----
+| [NCT02738138](https://clinicaltrials.gov/study/NCT02738138) | Vaihe 3 | Päättynyt | 153 | EXPEDITION-2: teho ja turvallisuus HCV/HIV-1-yhteisinfektiossa; päätetapahtuma HCV:n paraneminen |
+| [NCT03235349](https://clinicaltrials.gov/study/NCT03235349) | Vaihe 3 | Päättynyt | 160 | Aasialaiset potilaat, kompensoitu kirroosi, HIV-yhteisinfektio sallittu |
+| [NCT03222583](https://clinicaltrials.gov/study/NCT03222583) | Vaihe 3 | Päättynyt | 546 | Satunnaistettu, lumekontrolloitu; ei kirroosia, HIV-yhteisinfektio sallittu |
+| [NCT02634008](https://clinicaltrials.gov/study/NCT02634008) | Vaihe 3 | Päättynyt | 83 | Äskettäin saadun HCV:n pilottitutkimus, osalla HIV-yhteisinfektio |
+| [NCT04042740](https://clinicaltrials.gov/study/NCT04042740) | Vaihe 2 | Päättynyt | 45 | PURGE-C: 4 viikon hoito akuutissa HCV:ssä, osalla HIV-yhteisinfektio |
+| [NCT03823911](https://clinicaltrials.gov/study/NCT03823911) | Vaihe 4 | Päättynyt | 87 | Sydän- ja verisuoniriskit HCV:n eradikaation jälkeen HIV/HCV-potilailla |
+| [NCT07040319](https://clinicaltrials.gov/study/NCT07040319) | Vaihe 1/2 | Rekrytoi | 30 | Farmakokinetiikka ja turvallisuus raskaudessa, HIV-yhteisinfektio mukana |
 
 ## Kirjallisuusnäyttö
 
 | PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [37671831](https://pubmed.ncbi.nlm.nih.gov/37671831/) | 2023 | Kohorttitutkimus | J Antimicrob Chemother | Glekapreviiri/pibrentasviirin vaste HIV/HCV-samanaikaisinfektiossa käytännön hoidossa |
-| [39697370](https://pubmed.ncbi.nlm.nih.gov/39697370/) | 2024 | Käytännön hoidon tutkimus | Clin Exp Hepatol | Teho ja turvallisuus HIV/HCV-potilailla, joilla bictegraviiri/emtrisitabiini/tenofoviirialafenamidi |
-| [38293756](https://pubmed.ncbi.nlm.nih.gov/38293756/) | 2024 | Systemaattinen katsaus | Liver Int | DAA-lääkkeiden teho ja turvallisuus lapsilla ja nuorilla |
-| [31284039](https://pubmed.ncbi.nlm.nih.gov/31284039/) | 2019 | Systemaattinen katsaus | Int J Antimicrob Agents | Kokonaisuudessaan 97,8 %:n SVR12-osuus 13 tutkimuksessa (3 082 potilasta) |
+| [37671831](https://pubmed.ncbi.nlm.nih.gov/37671831/) | 2023 | Kohorttitutkimus | J Antimicrob Chemother | Glekapreviiri/pibrentasviiri-vaste HIV/HCV-yhteisinfektiopotilailla kliinisessä käytännössä |
+| [39697370](https://pubmed.ncbi.nlm.nih.gov/39697370/) | 2024 | Havainnoiva | Clin Exp Hepatol | Teho ja turvallisuus HIV/HCV-potilailla, joilla biktegraviiri/emtrisitabiini/tenofoviirialafenamidi |
+| [31284039](https://pubmed.ncbi.nlm.nih.gov/31284039/) | 2019 | Systemaattinen katsaus ja meta-analyysi | Int J Antimicrob Agents | 13 tutkimusta, 3 082 potilasta; kokonaisSVR12 97,8 % HCV:ssä |
+| [38293756](https://pubmed.ncbi.nlm.nih.gov/38293756/) | 2024 | Systemaattinen katsaus | Liver Int | DAA-lääkkeiden teho ja turvallisuus lapsilla ja nuorilla HCV:ssä |
 | [30499343](https://pubmed.ncbi.nlm.nih.gov/30499343/) | 2019 | Katsaus | Future Microbiol | Glekapreviiri/pibrentasviiri kroonisen HCV:n hoidossa |
 | [31114957](https://pubmed.ncbi.nlm.nih.gov/31114957/) | 2019 | Katsaus | Clin Pharmacokinet | HCV-lääkkeiden farmakokineettiset ja farmakodynaamiset näkökohdat |
-| [29595065](https://pubmed.ncbi.nlm.nih.gov/29595065/) | 2018 | Katsaus | Expert Opin Pharmacother | Proteaasinestäjähoito HCV:ssä; HIV/HCV-samanaikaisinfektio yleinen |
-| [41311021](https://pubmed.ncbi.nlm.nih.gov/41311021/) | 2026 | Katsaus | Curr Opin HIV AIDS | Vastikään saatu HCV-infektio HIV-positiivisilla |
-| [41297677](https://pubmed.ncbi.nlm.nih.gov/41297677/) | 2026 | Yhden haaran vaiheen IIIb tutkimus | J Hepatol | 8 viikon hoito akuutissa HCV:ssä |
-| [30982721](https://pubmed.ncbi.nlm.nih.gov/30982721/) | 2019 | Katsaus | Lancet Gastroenterol Hepatol | HCV-infektio lapsilla ja nuorilla |
+| [41311021](https://pubmed.ncbi.nlm.nih.gov/41311021/) | 2026 | Katsaus | Curr Opin HIV AIDS | Äskettäin saatu HCV HIV-infektoiduilla |
+| [41297677](https://pubmed.ncbi.nlm.nih.gov/41297677/) | 2026 | Yksihaarainen vaihe 3b | J Hepatol | 8 viikon hoito akuutissa HCV:ssä |
+| [35431505](https://pubmed.ncbi.nlm.nih.gov/35431505/) | 2022 | Havainnoiva | World J Gastroenterol | DAA-lääkkeiden teho HIV:n ja HCV-genotyypin 6 yhteisinfektiossa |
+| [29595065](https://pubmed.ncbi.nlm.nih.gov/29595065/) | 2018 | Katsaus | Expert Opin Pharmacother | Proteaasinestäjähoito HCV:ssä |
 
----
+## Markkinatiedot Suomessa
 
-## Tiedot Suomen markkinoilta
-
-| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/004430 | Maviret (AbbVie Deutschland GmbH & Co. KG) | Ei tietoa | Krooninen hepatiitti C (lupa peruutettu) |
+| EMEA/H/C/004430 | Maviret | Ei tietoa | Ei tietoa |
 
----
+Maviret on yhdistelmävalmiste, joten sen myyntilupaa ei voi käyttää kuvaamaan yksittäisen vaikuttavan aineen asemaa.
 
-## Turvallisuusnäkökohdat
+## Turvallisuushuomioita
 
-- **Lääkkeiden yhteisvaikutukset:** Yhteensä 57 yhteisvaikutusta. Vakavia (Major) ovat mm. **rosuvastatiini**, **simvastatiini** ja **edoksabaani**. Kohtalaisia (Moderate) ovat mm. deksametasoni, esomepratsoli, omepratsoli, apiksabaani, kobisistaatti, deferasiroksi ja griseofulviini. Lieviä (Minor) ovat mm. fidaksomisiini, naloksegoli ja prukalopridi.
-- Muiden varoitusten ja vasta-aiheiden osalta katso valmisteyhteenveto.
-- Lisähuomio: HBV:n uudelleenaktivoituminen HCV-DAA-hoidon aikana on turvallisuuskysymys, ei tehosignaali.
+**Yhteisvaikutukset:** Yhteisvaikutuksia on kirjattu yhteensä 57. Merkittävimmät:
+- **Vakavat (Major):** rosuvastatiini, simvastatiini, edoksabaani.
+- **Kohtalaiset (Moderate):** deksametasoni, esomepratsoli, omepratsoli, apiksabaani, betriksabaani, kobisistaatti, deferasiroksi, metreleptiini, naldemediini, trogitatsoni, lusutrombopagi, revefenasiini, griseofulviini.
+- **Lievät (Minor):** fidaksomisiini, naloksegoli, prukalopridi, indakaterolii.
 
----
+Muiden turvallisuustietojen osalta katso valmisteyhteenveto.
 
 ## Johtopäätös ja jatkotoimet
 
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Korkea TxGNN-pistemäärä heijastaa todennäköisesti HIV:n ja HCV:n yhteisesiintyvyyttä, ei glekapreviirin todellista HIV-vaikutusta. Tutkimukset mittaavat HCV:n paranemista, eivät HIV-tuloksia. Kaikissa muissa ennustetuissa kohteissa näyttö on olematonta tai epäsuoraa, ja hepatiitti A:n runsas tutkimusmäärä johtuu HCV-tutkimusten virheellisestä kohdistumisesta.
+- Glekapreviirilla ei ole osoitettua HIV-vastaista vaikutusta. Tutkimukset mittasivat HCV:n paranemista HIV/HCV-yhteisinfektiossa, ja korkea pistemäärä heijastaa todennäköisesti tautien läheisyyttä eikä lääkkeen uudelleenkäyttömahdollisuutta.
 
-**Jatkotoimet:**
-- Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittäminen (Fimea), jotta turvallisuusseulonta on mahdollinen.
-- Vaikutusmekanismitiedon täydentäminen (DrugBank).
-- In vitro -tutkimus glekapreviirin mahdollisesta HIV-vaikutuksesta ennen kliinisiä toimia.
-- Markkinatilanteen selvittäminen: Suomessa on vain peruutettu myyntilupa.
-- Yhteisvaikutusten (erityisesti statiinit ja edoksabaani) arviointi, jos hoitoa harkitaan HIV/HCV-potilaille.
+**Jatkoon tarvitaan:**
+- In vitro -tutkimukset glekapreviirin vaikutuksesta HIV-proteaasiin ja HIV:n replikaatioon.
+- Yksityiskohtaiset vaikutusmekanismitiedot.
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet.
+- Jos yhteisinfektio on todellinen kiinnostuksen kohde, kyse on HCV:n hoidosta eikä uudesta HIV-käyttöaiheesta; tämä pitäisi arvioida erillisenä kysymyksenä.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

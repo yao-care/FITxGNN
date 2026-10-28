@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-## Palbosiklibi: Rintasyövästä nivelreumaan
+## Palbosiklibi: Kilpirauhasen liikatoiminta
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -48,10 +48,10 @@ Palbosiklibi on CDK4/6-estäjä, jota on alun perin käytetty rintasyövän hoit
 |------|------|
 | Alkuperäinen käyttöaihe | Rintasyöpä (Breast Neoplasms) |
 | Ennustettu uusi käyttöaihe (sijalla 1) | Kilpirauhasen liikatoiminta |
-| TxGNN-ennustepistemäärä | 99,44 % |
+| TxGNN-ennustepistemäärä | 0,9944 |
 | Näyttötaso | L5 (sijalla 1); nivelreuma L4 |
-| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 Muut ennusteet: nivelreuma (99,36 %, L4, tutkimuskysymys), tromboottinen sairaus (99,32 %, L4, Hold) ja kilpirauhashormonin reseptori beetan mutaatiosta johtuva kilpirauhashormoniresistenssi (99,30 %, L5, Hold).

@@ -50,8 +50,8 @@ Lonafarnibi on farnesyylitransferaasin estäjä, jota on alun perin käytetty pr
 | Ennustettu uusi käyttöaihe | Lepra |
 | TxGNN-ennustepisteet | 99,14 % |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
-| Myyntilupien lukumäärä | 1 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien lukumäärä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -62,7 +62,7 @@ Lonafarnibi estää farnesyylitransferaasi-entsyymiä ja siten proteiinien farne
 
 Yhteys lepraan on toistaiseksi spekulatiivinen. *Mycobacterium leprae* -infektio liittyy isäntäsolun lipidiaineenvaihduntaan, Schwannin solujen signalointiin ja makrofagien vasteisiin. Prenylaatiosta riippuvaiset pienet GTPaasit (Ras/Rho/Rab) osallistuvat fagosomien kypsymiseen ja tulehdussignalointiin, joten farnesylaation esto voisi teoriassa vaikuttaa näihin prosesseihin. Tästä ei kuitenkaan ole suoraa näyttöä.
 
-TxGNN-pistemäärä (0,991) on tietämysgraafipohjainen ennuste, jota ei ole vahvistettu millään tutkimuksella tai julkaisulla. Alkuperäisen käyttöaiheen (progeria, harvinaissairaus) ja lepran välinen samankaltaisuus on vielä arvioimatta.
+TxGNN-pistemäärä (0,9914) on tietämysgraafipohjainen ennuste, jota ei ole vahvistettu millään tutkimuksella tai julkaisulla. Alkuperäisen käyttöaiheen (progeria, harvinaissairaus) ja lepran välinen samankaltaisuus on vielä arvioimatta.
 
 ---
 

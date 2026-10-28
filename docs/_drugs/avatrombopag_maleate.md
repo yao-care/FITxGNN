@@ -8,6 +8,7 @@ nav_order: 57
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-19
+predicted_indications: []
 ---
 
 # Avatrombopag Maleate
@@ -51,7 +52,8 @@ Tätä arviota ei voida saattaa loppuun, kunnes tietoputken puutteet korjataan.
 | Ennustettu uusi indikaatio | Ei yhtään — TxGNN ei palauttanut ennusteita |
 | TxGNN-ennusteen pistemäärä | Ei saatavilla |
 | Todistusten taso | Ei arvioitavissa |
-| Suomen markkinatilanne | Ei markkinoilla |
+| Suomen markkinatilanne | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Lupapäätösten lukumäärä | 0 |
 | Suositeltu päätös | **Odota** |
 

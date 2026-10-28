@@ -4,17 +4,17 @@ title: Tasimelteon
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 418
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Tasimelteon: ennustettu uusi käyttöaihe Bilateraalinen parasagittaalinen parieto-oksipitaalinen polymikrogyria (näytön taso L5). Alkuperäinen käyttöaihe: Vuorokausirytmin unihäiriöt"
 monitor_inn: "TASIMELTEON"
-predicted_indications: ["bilateral parasagittal parieto-occipital polymicrogyria", "insomnia (disease)", "amyotrophic lateral sclerosis", "endogenous depression", "axial spondylometaphyseal dysplasia", "monomelic amyotrophy", "amyotrophic lateral sclerosis, susceptibility to", "lower motor neuron syndrome with late-adult onset", "Mills syndrome", "amyotrohpic lateral sclerosis type 22"]
+predicted_indications: ["bilateral parasagittal parieto-occipital polymicrogyria", "insomnia (disease)", "amyotrophic lateral sclerosis", "endogenous depression", "axial spondylometaphyseal dysplasia", "monomelic amyotrophy", "lower motor neuron syndrome with late-adult onset", "Mills syndrome", "amyotrohpic lateral sclerosis type 22"]
+description: "Tasimelteon: ennustettu uusi käyttöaihe Bilateral parasagittal parieto-occipital polymicrogyria (näytön taso L5). Alkuperäinen käyttöaihe: Sleep Disorders, Circadian Rhythm"
 ---
 
 # Tasimelteon
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Tasimelteoni: Vuorokausirytmihäiriöistä lasten unettomuuteen
+## Tasimelteon: Bilateral parasagittal parieto-occipital polymicrogyria
 {: .text-alpha }
 
 ## Yhden lauseen tiivistelmä
@@ -46,12 +46,12 @@ Tasimelteoni on melatoniinireseptorien agonisti, jota on alun perin käytetty vu
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Vuorokausirytmin unihäiriöt |
-| Ennustettu uusi käyttöaihe (sijalla 1) | Bilateraalinen parasagittaalinen parieto-oksipitaalinen polymikrogyria |
+| Alkuperäinen käyttöaihe | Sleep Disorders, Circadian Rhythm |
+| Ennustettu uusi käyttöaihe (sijalla 1) | Bilateral parasagittal parieto-occipital polymicrogyria |
 | TxGNN-ennustepisteet | 99,48 % |
 | Näytön taso | L5 (sijalla 1); parhaiten tuettu ehdokas, unettomuus, L3 |
-| Suomen markkinatilanne | Vain peruutettu myyntilupa |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Suomen markkinatilanne | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota); unettomuus: tutkimuskysymys |
 
 Huomio: korkein pistemäärä ei vastaa parasta näyttöä. Seuraavissa osioissa keskitytään sen vuoksi myös sijan 2 (unettomuus) ja sijan 4 (masennus) ehdokkaisiin.

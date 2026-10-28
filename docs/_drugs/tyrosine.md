@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Tyrosiini: Vaahterasiirappitaudista kauda equina -oireyhtymään
+## Tyrosiini: Cauda equina -oireyhtymä
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -48,10 +48,10 @@ Tyrosiini (kauppanimi Maapliv) on aminohappovalmiste, joka on alun perin hyväks
 |------|------|
 | Alkuperäinen käyttöaihe | Vaahterasiirappitauti (MSUD) |
 | Ennustettu uusi käyttöaihe | Cauda equina -oireyhtymä |
-| TxGNN-ennustepistemäärä | 99,77 % |
+| TxGNN-ennustepistemäärä | 0,9977 |
 | Todistusaste | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -62,7 +62,7 @@ Tyrosiinin vaikutusmekanismitietoja ei ole tällä hetkellä saatavilla. Tyrosii
 
 Cauda equina -oireyhtymä on selkäydinkanavan alaosan hermojuurten puristustila. Sen ja vaahterasiirappitaudin välillä ei ole tunnistettavaa farmakologista tai mekanistista yhteyttä. Tyrosiinin ja puristusperäisen radikulopatian tai ristiluun hermojuurivaurion välille ei ole dokumentoitua uskottavaa mekanismia.
 
-Korkea pistemäärä (0,998) on siten tulkittava varoen: se on tietämysgraafin ennuste, ei kliininen tai mekanistinen näyttö.
+Korkea pistemäärä (0,9977) on siten tulkittava varoen: se on tietämysgraafin ennuste, ei kliininen tai mekanistinen näyttö.
 
 ---
 
@@ -92,15 +92,15 @@ Samasta ennusteluettelosta seuraavat sijat eivät myöskään saa tukea kliinisi
 
 | Sija | Sairaus | Pistemäärä | Todistusaste | Huomio |
 |---|---|---|---|---|
-| 2 | Neurogeeninen virtsarakko (vanhentunut termi) | 99,55 % | L5 | Ontologiassa vanhentunut solmu, ennuste voi olla artefakti |
-| 3 | Ahdaskulmaglaukooma | 99,54 % | L5 | Julkaisut käsittelevät glaukooman biologiaa, eivät tyrosiinihoitoa |
-| 4 | Hypertyreoosi | 99,51 % | L5 | Yksi tutkimus (NCT06264544, ei vielä rekrytoi) testaa sinkki-seleeni-tyrosiinivalmistetta; tyrosiinin vaikutus todennäköisesti epäedullinen |
-| 5 | POTS | 99,46 % | L4 | Vain yksi tapauskertomus, jossa käytettiin tyrosiinihydroksylaasin estäjää (vastakkainen vaikutus) |
-| 6 | Hypertyroksinemia | 99,46 % | L5 | Vain eläin- ja mutaatiotutkimuksia |
-| 7 | Kilpirauhashormonireseptori-beeta-mutaation aiheuttama hormoniresistenssi | 99,40 % | L5 | Reseptorivika, jota esiaste ei korjaisi |
-| 8 | Traumaattinen glaukooma | 99,35 % | L5 | Vain yleinen verkkokalvokatsaus |
-| 9 | Vesihumorin virheellinen kulku | 99,35 % | L5 | Ei tutkimuksia eikä kirjallisuutta |
-| 10 | Neovaskulaarinen glaukooma | 99,32 % | L5 | Katsaukset eivät liity tyrosiiniin |
+| 2 | Neurogeeninen virtsarakko (vanhentunut termi) | 0,9955 | L5 | Ontologiassa vanhentunut solmu, ennuste voi olla artefakti |
+| 3 | Ahdaskulmaglaukooma | 0,9954 | L5 | Julkaisut käsittelevät glaukooman biologiaa, eivät tyrosiinihoitoa |
+| 4 | Hypertyreoosi | 0,9951 | L5 | Yksi tutkimus (NCT06264544, ei vielä rekrytoi) testaa sinkki-seleeni-tyrosiinivalmistetta; tyrosiinin vaikutus todennäköisesti epäedullinen |
+| 5 | POTS | 0,9946 | L4 | Vain yksi tapauskertomus, jossa käytettiin tyrosiinihydroksylaasin estäjää (vastakkainen vaikutus) |
+| 6 | Hypertyroksinemia | 0,9946 | L5 | Vain eläin- ja mutaatiotutkimuksia |
+| 7 | Kilpirauhashormonireseptori-beeta-mutaation aiheuttama hormoniresistenssi | 0,9940 | L5 | Reseptorivika, jota esiaste ei korjaisi |
+| 8 | Traumaattinen glaukooma | 0,9935 | L5 | Vain yleinen verkkokalvokatsaus |
+| 9 | Vesihumorin virheellinen kulku | 0,9935 | L5 | Ei tutkimuksia eikä kirjallisuutta |
+| 10 | Neovaskulaarinen glaukooma | 0,9932 | L5 | Katsaukset eivät liity tyrosiiniin |
 
 ---
 

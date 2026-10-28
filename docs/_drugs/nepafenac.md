@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Nepafenac
-parent: Pelkkä mallin ennuste (L5)
+parent: Vahva näyttö (L1-L2)
 nav_order: 299
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Nepafenac: ennustettu uusi käyttöaihe Silmäsairaus (eye disease) (näytön taso L5). Alkuperäinen käyttöaihe: Leikkauksen jälkeinen kipu"
@@ -14,7 +14,7 @@ predicted_indications: ["eye disease", "optic papillitis", "hypotrichosis simple
 # Nepafenac
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Nepafenaakki: Leikkauksen jälkeisestä kivusta silmäsairauksiin
+## Nepafenaakki: Silmäsairaus
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -50,10 +50,10 @@ Ennuste on lähellä lääkkeen nykyistä käyttöä, joten kyse on pikemminkin 
 |------|------|
 | Alkuperäinen käyttöaihe | Leikkauksen jälkeinen kipu; silmäkirurgiset toimenpiteet |
 | Ennustettu uusi käyttöaihe | Silmäsairaus (eye disease) |
-| TxGNN-ennustepistemäärä | 99,85 % |
+| TxGNN-ennustepistemäärä | 0,9985 |
 | Näytön taso | L1 (ks. huomautus alla) |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Etene suojatoimin (Proceed with Guardrails) |
 
 *Huomautus:* L1-luokitus perustuu laajoihin satunnaistettuihin vaiheen 2 tutkimuksiin, vaiheen 3 tutkimuksiin sekä järjestelmälliseen katsaukseen. Tiukempi arvioija voisi pitää tasoa varovaisemmin L2:na, mikäli vaaditaan vahvistettuja vaiheen 3 tuloksia juuri tästä käyttöaiheesta.

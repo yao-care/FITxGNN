@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Cholecalciferol
-parent: Vahva näyttö (L1-L2)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 111
-evidence_level: L2
-indication_count: 7
-last_modified_at: 2026-10-13
-description: "Cholecalciferol: ennustettu uusi käyttöaihe Munuaisluustotauti (renal osteodystrophy) (näytön taso L2). Alkuperäinen käyttöaihe: Postmenopausaalinen osteoporoosi"
+evidence_level: L5
+indication_count: 4
 monitor_inn: "Cholecalciferol"
-predicted_indications: ["familial isolated hypoparathyroidism due to impaired PTH secretion", "acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "Dahlberg-Borer-Newcomer syndrome", "hypophosphatemic rickets", "renal osteodystrophy", "renal tubular acidosis"]
+predicted_indications: ["acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "renal osteodystrophy", "renal tubular acidosis"]
+last_modified_at: 2026-10-27
+description: "Cholecalciferol: ennustettu uusi käyttöaihe Akromesomelinen dysplasia, Campailla–Martinelli-tyyppi (acromesomelic dysplasia, Campailla Martinelli type) (näytön taso L5). Alkuperäinen käyttöaihe: Oste…"
 ---
 
 # Cholecalciferol
 {: .fs-9 }
 
-Näytön taso: **L2** | Ennustetut käyttöaiheet: **7** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,101 +33,66 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **7** kpl
 
 </div>
 
-## Kolekalsiferoli: Postmenopausaalisesta osteoporoosista munuaisluustotautiin (renal osteodystrophy)
+## Kolekalsiferoli: D3-vitamiini → akromesomelinen dysplasia, Campailla–Martinelli-tyyppi (acromesomelic dysplasia, Campailla Martinelli type)
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 
-Kolekalsiferoli (D3-vitamiini) on ollut Suomessa lupien mukaan käytössä postmenopausaalisen osteoporoosin hoidossa alendronaatin kanssa yhdistelmävalmisteissa. TxGNN-malli ennustaa sen voivan tehota **munuaisluustotautiin (renal osteodystrophy)**. Tätä suuntaa tukee **2 kliinistä tutkimusta** ja **20 julkaisua**, mutta näyttö koostuu pääosin korvaavista (surrogaatti) tulosmuuttujista.
+Kolekalsiferoli (D3-vitamiini) on luonnollinen D-vitamiinin muoto, jota käytetään luuston kalsium- ja fosfaattiaineenvaihdunnan tukemiseen. TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi harvinaisen luuston kehityshäiriön, **akromesomelinen dysplasia, Campailla–Martinelli-tyyppi (acromesomelic dysplasia, Campailla Martinelli type)**. Tälle ennusteelle ei kuitenkaan löydy yhtään kliinistä tutkimusta eikä julkaisua, joten näyttö perustuu pelkkään mallin laskemaan ennusteeseen.
 
----
-
-## Pikakatsaus
+## Pikayleiskatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Postmenopausaalinen osteoporoosi |
-| Ennustettu uusi käyttöaihe | Munuaisluustotauti (renal osteodystrophy) |
-| TxGNN-ennustepistemäärä | 99,11 % |
-| Näytön taso | L2 |
-| Markkinatilanne Suomessa | Vain peruutettuja lupia |
-| Myyntilupien määrä | 3 (kaikki peruutettu) |
-| Suositeltu päätös | Proceed with Guardrails (eteneminen suojatoimin) |
+| Alkuperäinen käyttöaihe | Osteoporosis, Postmenopausal |
+| Ennustettu uusi käyttöaihe | Akromesomelinen dysplasia, Campailla–Martinelli-tyyppi (acromesomelic dysplasia, Campailla Martinelli type) |
+| TxGNN-ennustepistemäärä | 0,9978 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 3/3) |
+| Myyntilupien määrä | 3 (voimassa: 3) |
+| Suositeltu päätös | Hold (odota) |
 
-Huomio: paremman TxGNN-pistemäärän saaneilla ennusteilla (sijat 1–5) ei ole riittävää näyttöä tai ne ovat mekanistisesti heikosti perusteltuja, joten tässä raportissa arvioidaan ensisijaisesti sitä ennustetta, jolla on vahvin tukeva näyttö (sija 6).
+## Miksi ennuste voisi olla perusteltu?
 
----
+Tällä hetkellä yksityiskohtaista vaikutusmekanismitietoa ei ole saatavilla. Kolekalsiferoli on D-vitamiinin esiaste, joka muuntuu elimistössä aktiiviseen muotoon ja osallistuu kalsiumin ja fosfaatin imeytymiseen sekä luun mineralisaatioon.
 
-## Miksi ennuste on järkevä?
-
-Yksityiskohtaista vaikutusmekanismitietoa ei tällä hetkellä ole saatavilla. Tunnetun tiedon perusteella kolekalsiferoli on esihormoni: maksa muuttaa sen 25-hydroksi-D-vitamiiniksi ja munuainen edelleen aktiiviseksi kalsitrioliksi, joka säätelee kalsiumin ja fosfaatin imeytymistä sekä luun mineralisaatiota. Sen teho osteoporoosin yhteydessä perustuu juuri luuaineenvaihdunnan tukemiseen.
-
-Munuaisluustotauti kuuluu kroonisen munuaistaudin mineraali- ja luuhäiriöihin (CKD-MBD). D-vitamiinin puutos edistää sekundaarista hyperparatyreoosia ja luustosairautta. Kolekalsiferoli täydentää 25(OH)D-varastoa, josta kalsitrioli muodostuu paikallisesti ja munuaisessa, ja voi joillakin potilailla laskea PTH-tasoa. Luustoon liittyvä yhteinen mekanismi tekee ennusteesta uskottavan.
-
-Rajoitus: näyttö koskee pääosin biokemiallisia merkkiaineita (25(OH)D, PTH), ei murtumia eikä luun histologiaa. Edistyneessä munuaisten vajaatoiminnassa aktiivisen D-vitamiinin tai kalsimimeettien tarve ei poistu.
-
----
+Ennustettu sairaus on harvinainen perinnöllinen luuston kehityshäiriö. Saatavilla olevien tietojen perusteella D-vitamiinin yhteys tähän sairauteen on vain yleinen ja epäspesifinen: D-vitamiinilla on rooli luuston mineraaliaineenvaihdunnassa, mutta sairauden taustalla oleva geneettinen mekanismi ei ole sellainen, jonka D-vitamiinin tiedetään korjaavan. Korkea pistemäärä on laskennallinen ennuste, eikä se osoita todellista tehoa.
 
 ## Kliininen tutkimusnäyttö
 
-| Tutkimusnumero | Vaihe | Tila | Osallistujia | Keskeiset havainnot |
-|---------|------|------|------|---------|
-| [NCT00752401](https://clinicaltrials.gov/study/NCT00752401) | Vaihe 3 | Tuntematon | 200 | Satunnaistettu, lumekontrolloitu tutkimus: kolekalsiferolikorvaus D-vitamiinipuutteisilla munuaisensiirtopotilailla; arvioidaan siirron jälkeistä tulosta (GFR, kreatiniini, hylkimisreaktiot, infektiot, CRP). Painopiste puutoksen korjauksessa, ei munuaisluustotaudissa sinänsä. |
-| [NCT00285467](https://clinicaltrials.gov/study/NCT00285467) | Ei määritelty (NA) | Päättynyt | 55 | Kolekalsiferolin ja doksercalsiferolin vertailu kroonisen munuaistaudin (vaiheet 3–4) sekundaarisessa hyperparatyreoosissa; pieni otos, korvaavat tulosmuuttujat. |
-
----
+Tälle ennusteelle ei ole tällä hetkellä rekisteröityjä kliinisiä tutkimuksia.
 
 ## Kirjallisuusnäyttö
 
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
-|------|-----|------|------|---------|
-| [34747516](https://pubmed.ncbi.nlm.nih.gov/34747516/) | 2022 | RCT (toissijainen analyysi) | J Bone Miner Res | Kolekalsiferolilisä hidasti luukatoa munuaisensiirron jälkeen (193 potilasta, 11 kk interventio). |
-| [38397979](https://pubmed.ncbi.nlm.nih.gov/38397979/) | 2024 | Havainnoiva kliininen tutkimus | Biomedicines | Suuriannoksisen kolekalsiferolin teho ja turvallisuus hemodialyysipotilailla, joilla 25(OH)D-puutos. |
-| [39597015](https://pubmed.ncbi.nlm.nih.gov/39597015/) | 2024 | Havainnoiva tutkimus | Medicina (Kaunas) | Korkean 25(OH)D-tason tavoittelu kolekalsiferolilla voi hyödyttää hemodialyysipotilaita; vaikutus CKD-MBD:hen vaihteleva. |
-| [35200136](https://pubmed.ncbi.nlm.nih.gov/35200136/) | 2022 | Prospektiivinen kontrolloitu tutkimus | Clin Nephrol | D-vitamiinisterolien vaikutus luun histologiaan dialyysiä edeltävillä potilailla. |
-| [30274806](https://pubmed.ncbi.nlm.nih.gov/30274806/) | 2019 | Katsaus | Nefrologia | Natiivin D-vitamiinin rooli dialyysiä edeltävässä kroonisessa munuaistaudissa on edelleen epäselvä. |
-| [33922902](https://pubmed.ncbi.nlm.nih.gov/33922902/) | 2021 | Katsaus | Nutrients | D-vitamiinin vaikutukset luuhomeostaasiin ja sydän- ja verisuonijärjestelmään CKD-potilailla ja munuaisensiirron saajilla. |
-| [30297082](https://pubmed.ncbi.nlm.nih.gov/30297082/) | 2018 | Työpajaraportti | Am J Kidney Dis | National Kidney Foundationin raportti D-vitamiinin roolista CKD-vaiheissa 3–4; hoito on edelleen kiistanalaista. |
-| [34626363](https://pubmed.ncbi.nlm.nih.gov/34626363/) | 2022 | Katsaus | J Nephrol | Pitkävaikutteinen kalsifediolihoito sekundaarisessa hyperparatyreoosissa CKD-vaiheissa 3–4. |
-| [20671739](https://pubmed.ncbi.nlm.nih.gov/20671739/) | 2010 | Katsaus | Kidney Int Suppl | Munuaisluustauti, sekundaarinen hyperparatyreoosi ja D-vitamiinin puutos liittyvät kuolleisuuteen. |
-| [6264838](https://pubmed.ncbi.nlm.nih.gov/6264838/) | 1981 | Katsaus | Ann Clin Lab Sci | Sekundaarinen hyperparatyreoosi kroonisessa munuaisten vajaatoiminnassa ja munuaisluustotaudin kuva. |
-
----
+Tälle ennusteelle ei ole tällä hetkellä saatavilla aiheeseen liittyvää kirjallisuutta.
 
 ## Suomen markkinatiedot
 
-| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/000619 | Fosavance (peruutettu) | – | Postmenopausaalinen osteoporoosi |
-| EMEA/H/C/000759 | Adrovance (peruutettu) | – | Postmenopausaalinen osteoporoosi |
-| EMEA/H/C/001180 | Vantavo (aiemmin Alendronate sodium and colecalciferol, MSD) (peruutettu) | – | Postmenopausaalinen osteoporoosi |
+| EMEA/H/C/000619 | Fosavance | – | Postmenopausaalinen osteoporoosi |
+| EMEA/H/C/000759 | Adrovance | – | Postmenopausaalinen osteoporoosi |
+| EMEA/H/C/001180 | Vantavo (aiemmin Alendronate sodium and colecalciferol, MSD) | – | Postmenopausaalinen osteoporoosi |
 
----
+Luettelo on kooste paikallisista myyntilupatiedoista.
 
-## Turvallisuusnäkökohdat
+## Turvallisuushuomioita
 
-- **Tietokannan vasta-aiheet (tietämysgraafi, ei valmisteyhteenvedon teksti):** graafissa kolekalsiferoliin liittyy vasta-aiherelaatioita muun muassa seuraaviin tiloihin: munuaissairaus, maksasairaus, hyperparatyreoosi, hyperkalsemia, nefrokalsinoosi, fosforiaineenvaihdunnan häiriöt, sarkoidoosi, diabetes, eteisvärinä, verenpainetauti, sappisairaudet, gastriitti, hyperlipidemia, rautaaineenvaihdunnan häiriöt, Wilsonin tauti, primaarinen hyperoksaluria sekä rinta- ja eturauhassyöpä. Lista ei ole etiketin vasta-aiheluettelo, ja se tulee varmistaa valmisteyhteenvedosta. Munuaissairaus, hyperkalsemia ja nefrokalsinoosi ovat erityisen olennaisia tässä käyttöaiheessa.
-- **Lääkeyhteisvaikutukset:** Yhteisvaikutushaussa löytyi yksi farmakologinen merkintä: kolekalsiferolin metaboliitti on ligandi hiiren Farnesoid X receptor-β -reseptorille (Nr1h5). Kliinistä merkitystä ei ole osoitettu.
-- **Kirjallisuudesta nousevat signaalit:** D-vitamiinin yliannostus on raportoitu lapsella, jolla oli distaalinen tubulaarinen asidoosi (PMID 14575620), ja 1-alfa-hydroksyloidun D-vitamiinin intoksikaatio liittyi kallon ennenaikaiseen luutumiseen (PMID 6538374). Nämä korostavat annosvalvonnan tarvetta.
+Turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
-Valmisteyhteenvedon varoitukset ja vasta-aiheet tulee tarkistaa pakkausselosteesta ja valmisteyhteenvedosta.
+Lääkeaineyhteisvaikutuksista on kirjattu yksi farmakologinen merkintä: kolekalsiferolin (D3-vitamiinin) on kuvattu kohdistuvan hiiren farnesoidi X -reseptori-β:aan. Kliinistä merkitystä ei ole määritetty.
 
----
+## Johtopäätös ja jatkotoimet
 
-## Johtopäätös ja seuraavat askeleet
-
-**Päätös: Proceed with Guardrails (eteneminen suojatoimin)**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-- Munuaisluustotaudille on yksi Vaihe 3 -RCT (tila tuntematon) ja yksi päättynyt vertailututkimus sekä hemodialyysi- ja siirtopotilaiden tutkimuksia, mutta näyttö perustuu biokemiallisiin korvaaviin tulosmuuttujiin eikä vahvistettua valmista Vaihe 3 -tulosta ole, joten taso on L2 eikä L1.
-- Muiden ennusteiden (esim. familiaalinen eristetty hypoparatyreoosi, akromesomeelinen dysplasia, kraniofasiaalinen konodysplasia, Dahlberg-Borer-Newcomer-oireyhtymä) pistemäärät ovat korkeita, mutta niille ei ole tutkimusnäyttöä (taso L5) ja suositus on Hold. Dahlberg-Borer-Newcomer-oireyhtymän kirjallisuushaku vaikuttaa tunnistusvirheeltä. Hypofosfatemiseen rakitiikkiin (L4) ja munuaistubulaariseen asidoosiin (L4) näyttö on vain tapausselostuksia ja katsauksia.
+- Ennusteelle ei ole kliinistä tutkimusta eikä kirjallisuutta, ja mekanistinen yhteys on vain yleinen ja spekulatiivinen. Pelkkä korkea mallipistemäärä ei riitä perusteeksi jatkotoimille.
 
-**Eteenpäin siirtymiseksi tarvitaan:**
-- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankinta (Fimean pakkausseloste); tämä on turvallisuusseulonnan estävä tietoaukko.
-- Vaikutusmekanismitietojen täydentäminen (DrugBank).
-- Näyttöä kovista päätetapahtumista (murtumat, luun histologia) munuaisluustotaudissa, ei vain 25(OH)D- ja PTH-arvoista.
-- Seurantasuunnitelma: kalsium, fosfaatti ja PTH; hyperkalsemian välttäminen; käyttö aktiivisen D-vitamiinin tai kalsimimeettien lisänä, ei korvaajana.
-- Suomen markkinatilanteen selvitys: kaikki kolme lupaa on peruutettu, ja kolekalsiferolia sisältävät yhdistelmävalmisteet ovat siis poistuneet markkinoilta.
+**Etenemiseksi tarvitaan:**
+- Tarkempi vaikutusmekanismitieto ja arvio siitä, voisiko D-vitamiini vaikuttaa tämän sairauden patofysiologiaan
+- Prekliiniset tai kirjallisuuteen perustuvat selvitykset sairauden ja D-vitamiinin yhteydestä
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet turvallisuusarviota varten
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

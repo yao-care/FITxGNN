@@ -4,7 +4,7 @@ title: Salmeterol
 parent: Vahva näyttö (L1-L2)
 nav_order: 395
 evidence_level: L1
-indication_count: 7
+indication_count: 5
 last_modified_at: 2026-10-13
 description: "Salmeterol: ennustettu uusi käyttöaihe Keuhkoputkentulehdus (bronchitis) (näytön taso L1). Alkuperäinen käyttöaihe: Astma"
 monitor_inn: "salmeterol"
@@ -14,7 +14,7 @@ predicted_indications: ["bronchitis", "respiratory malformation", "obstructive l
 # Salmeterol
 {: .fs-9 }
 
-Näytön taso: **L1** | Ennustetut käyttöaiheet: **7** kpl
+Näytön taso: **L1** | Ennustetut käyttöaiheet: **5** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **7** kpl
 
 </div>
 
-## Salmeteroli: Astmasta keuhkoputkentulehdukseen
+## Salmeteroli: Keuhkoputkentulehdus
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -48,10 +48,10 @@ Salmeteroli on pitkävaikutteinen beeta2-agonisti, jota on alun perin käytetty 
 |------|------|
 | Alkuperäinen käyttöaihe | Astma |
 | Ennustettu uusi käyttöaihe | Keuhkoputkentulehdus (bronchitis) |
-| TxGNN-ennustepisteet | 99,92 % |
+| TxGNN-ennustepisteet | 0,9992 |
 | Näytön taso | L1 |
-| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Proceed with Guardrails (eteneminen suojatoimin) |
 
 ---

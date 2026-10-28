@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Atosibaani: Ennenaikaisesta synnytyksestä primaariin perinnölliseen glaukoomaan
+## Atosibaani: Primaarin perinnöllisen glaukooman (primary hereditary glaucoma) mahdollinen uusi käyttöaihe
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -48,10 +48,10 @@ Atosibaani on oksitosiini- ja vasopressiinireseptorien salpaaja, jota on käytet
 |------|------|
 | Alkuperäinen käyttöaihe | Ennenaikainen synnytys |
 | Ennustettu uusi käyttöaihe | Primaarinen perinnöllinen glaukooma |
-| TxGNN-ennusteen pistemäärä | 99,92 % |
+| TxGNN-ennusteen pistemäärä | 0,9992 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 2 (molemmat peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Myyntilupien määrä | 2 (voimassa: 2) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

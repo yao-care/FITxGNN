@@ -6,7 +6,7 @@ nav_order: 369
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Ravulizumab: ennustettu uusi käyttöaihe Autosomaalinen resessiivinen vaikea synnynnäinen neutropenia (G6PC3-p… (näytön taso L5). Alkuperäinen käyttöaihe: Paroksysmaalinen hemoglobinuria"
+description: "Ravulizumab: ennustettu uusi käyttöaihe Autosomaalinen resessiivinen vaikea synnynnäinen neutropenia (G6PC3-puutos) (näytön taso L5). Alkuperäinen käyttöaihe: Paroksysmaalinen hemoglobinuria"
 monitor_inn: "RAVULIZUMAB"
 predicted_indications: ["autosomal recessive severe congenital neutropenia due to G6PC3 deficiency", "cyclic hematopoiesis", "primary hyperoxaluria", "severe congenital neutropenia", "autosomal recessive severe congenital neutropenia due to CXCR2 deficiency", "primary immunodeficiency syndrome due to p14 deficiency", "pseudo-von Willebrand disease", "X-linked severe congenital neutropenia", "primary release disorder of platelets", "megaloblastic anemia (disease)"]
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Ravulitsumabi: Paroksysmaalisesta hemoglobinuriasta synnynnäiseen vaikeaan neutropeniaan (G6PC3-puutos)
+## Ravulitsumabi: Paroksysmaalisesta hemoglobinuriasta → Autosomaalinen resessiivinen vaikea synnynnäinen neutropenia (G6PC3-puutos)
 {: .text-alpha }
 
 ## Yhteenveto
@@ -50,10 +50,10 @@ mutta ennusteelle ei ole tällä hetkellä **yhtään kliinistä tutkimusta eik�
 |------|------|
 | Alkuperäinen käyttöaihe | Paroksysmaalinen hemoglobinuria |
 | Ennustettu uusi käyttöaihe | Autosomaalinen resessiivinen vaikea synnynnäinen neutropenia (G6PC3-puutos) |
-| TxGNN-ennusteen pistemäärä | 99,96 % |
+| TxGNN-ennusteen pistemäärä | 0,9996 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

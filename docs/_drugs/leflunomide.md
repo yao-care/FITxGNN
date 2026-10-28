@@ -6,9 +6,9 @@ nav_order: 257
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-13
-description: "Leflunomide: ennustettu uusi käyttöaihe Brakydaktylia-syndaktylia-oireyhtymä (näytön taso L5). Alkuperäinen käyttöaihe: Nivelreuma"
 monitor_inn: "LEFLUNOMIDE"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
+description: "Leflunomide: ennustettu uusi käyttöaihe Brachydactyly-syndactyly syndrome (näytön taso L5). Alkuperäinen käyttöaihe: Arthritis, Rheumatoid"
 ---
 
 # Leflunomide
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-## Leflunomidi: Nivelreumasta ja nivelpsoriaasista brakydaktylia-syndaktylia-oireyhtymään
+## Leflunomide: Brachydactyly-syndactyly syndrome
 {: .text-alpha }
 
 ## Yhteenveto
@@ -46,12 +46,12 @@ Leflunomidi on immuunivastetta muokkaava lääke, jota on käytetty nivelreuman 
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Nivelreuma; nivelpsoriaasi |
-| Ennustettu uusi käyttöaihe | Brakydaktylia-syndaktylia-oireyhtymä |
-| TxGNN-ennusteen pistemäärä | 99,93 % |
+| Alkuperäinen käyttöaihe | Arthritis, Rheumatoid;Arthritis, Psoriatic; Arthritis, Rheumatoid |
+| Ennustettu uusi käyttöaihe | Brachydactyly-syndactyly syndrome |
+| TxGNN-ennusteen pistemäärä | 0.9993 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 4 (kaikki peruutettuja) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 4/4) |
+| Myyntilupien määrä | 4 (voimassa: 4) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -64,7 +64,7 @@ DHODH liittyy myös raajojen kehitykseen: DHODH-geenin mutaatiot aiheuttavat Mil
 
 Alkuperäinen käyttöaihe (autoimmuuni nivelsairaus) ja ennustettu käyttöaihe (synnynnäinen luuston epämuodostuma) eroavat toisistaan olennaisesti. Brakydaktylia-syndaktylia-oireyhtymät ovat rakenteellisia kehityshäiriöitä, joille ei tunneta lääkkeellistä korjausta. Leflunomidin aktiivinen metaboliitti teriflunomidi on lisäksi teratogeeninen eli sikiövaurioita aiheuttava. Mekanistinen yhteys on siis spekulatiivinen.
 
-Toinen ennuste, kolobomatoottinen mikroftalmia-rhizomeelinen dysplasia -oireyhtymä (pistemäärä 99,93 %), on samalla tavoin pelkkä graafiennuste ilman tukevaa näyttöä. Siinä on kyse silmän ja raajojen rakenteellisista epämuodostumista, joiden lääkehoito vakiintuneessa sairaudessa on biologisesti epäuskottavaa.
+Toinen ennuste, kolobomatoottinen mikroftalmia-rhizomeelinen dysplasia -oireyhtymä (pistemäärä 0,9993), on samalla tavoin pelkkä graafiennuste ilman tukevaa näyttöä. Siinä on kyse silmän ja raajojen rakenteellisista epämuodostumista, joiden lääkehoito vakiintuneessa sairaudessa on biologisesti epäuskottavaa.
 
 ---
 

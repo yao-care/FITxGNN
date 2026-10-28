@@ -52,8 +52,8 @@ mutta tälle suunnalle ei ole toistaiseksi **yhtään kliinistä tutkimusta eik�
 | Ennustettu uusi käyttöaihe | Krooninen atrofinen akrodermatiitti (acrodermatitis chronica atrophicans) |
 | TxGNN-ennustepisteet | 99,23 % |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
-| Myyntilupien määrä | 1 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odotetaan) |
 
 ---

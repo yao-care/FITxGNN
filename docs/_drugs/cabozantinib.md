@@ -4,7 +4,7 @@ title: Cabozantinib
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 94
 evidence_level: L5
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-13
 description: "Cabozantinib: ennustettu uusi käyttöaihe Liposarkooma (näytön taso L5). Alkuperäinen käyttöaihe: Munuaissolusyöpä, maksasolusyöpä"
 monitor_inn: "CABOZANTINIB"
@@ -14,7 +14,7 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "amyotrophi
 # Cabozantinib
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Kabotsantinibi: Munasolusyövästä ja kilpirauhasen kasvaimista luokittelemattomaan munuaissolusyöpään
+## Kabotsantinibi: Liposarkooma
 {: .text-alpha }
 
 ## Yhteenveto
 
-Kabotsantinibi on monikinaasi-inhibiittori, jota on käytetty munuaissolusyövän, maksasolusyövän ja kilpirauhasen kasvainten hoitoon. TxGNN-malli ennustaa sen voivan tehota **liposarkoomaan** (ennustepisteet 99,83 %). Tälle ennusteelle on tällä hetkellä **1 kliininen tutkimus** ja **1 julkaisu**, ja näyttö on rajallista. Vahvin näyttö liittyy **luokittelemattomaan munuaissolusyöpään**, jota tukee **4 vaiheen 2 tutkimusta** ja **7 julkaisua**. Munuaissolusyöpä kuuluu kuitenkin jo lääkkeen alkuperäisiin käyttöaiheisiin.
+Kabotsantinibi on monikinaasi-inhibiittori, jota on käytetty munuaissolusyövän, maksasolusyövän ja kilpirauhasen kasvainten hoitoon. TxGNN-malli ennustaa sen voivan tehota **liposarkoomaan** (ennustepisteet 0,9983). Tälle ennusteelle on tällä hetkellä **1 kliininen tutkimus** ja **1 julkaisu**, ja näyttö on rajallista. Vahvin näyttö liittyy **luokittelemattomaan munuaissolusyöpään**, jota tukee **4 vaiheen 2 tutkimusta** ja **7 julkaisua**. Munuaissolusyöpä kuuluu kuitenkin jo lääkkeen alkuperäisiin käyttöaiheisiin.
 
 ## Pikakatsaus
 
@@ -46,10 +46,10 @@ Kabotsantinibi on monikinaasi-inhibiittori, jota on käytetty munuaissolusyövä
 |------|------|
 | Alkuperäinen käyttöaihe | Munuaissolusyöpä, maksasolusyöpä |
 | Ennustettu uusi käyttöaihe | Liposarkooma |
-| TxGNN-ennustepisteet | 99,83 % |
-| Näytön taso | L2 (liposarkooma); L1 (munuaissyöpä, joka on jo alkuperäinen käyttöaihe) |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 2 (molemmat peruutettu) |
+| TxGNN-ennustepisteet | 0,9983 |
+| Näytön taso | L5 (liposarkooma); L1 (munuaissyöpä, joka on jo alkuperäinen käyttöaihe) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Myyntilupien määrä | 2 (voimassa: 2) |
 | Suositeltu päätös | Hold (liposarkooma); Proceed with Guardrails (luokittelematon munuaissolusyöpä) |
 
 **Huomio:** ennustelistalla liposarkooma on sijalla 1, mutta sen tuki on pienen satunnaistetun vaiheen 2 tutkimuksen varassa. Seuraavat kohdat keskittyvät ensisijaiseen ennusteeseen, ja lopussa on lyhyt vertailu muihin ennusteisiin.
@@ -70,7 +70,6 @@ Luokittelemattoman munuaissolusyövän kohdalla perustelu on vahvempi: MET- ja V
 |---------|------|------|------|---------|
 | [NCT05836571](https://clinicaltrials.gov/study/NCT05836571) | Vaihe 2 | Aktiivinen, ei rekrytoi | 66 | Satunnaistettu tutkimus: ipilimumabi + nivolumabi verrattuna samaan yhdistelmään kabotsantinibin kanssa pitkälle edenneessä pehmytkudossarkoomassa. Tuloksia ei vielä ole. |
 
-### Luokittelematon munuaissolusyöpä (ennuste 5)
 
 | Tutkimusnumero | Vaihe | Tila | Osallistujia | Keskeiset havainnot |
 |---------|------|------|------|---------|
@@ -134,13 +133,13 @@ Varoitusten ja vasta-aiheiden osalta katso valmisteyhteenveto.
 
 | Ennuste | Pisteet | Näytön taso | Päätös |
 |------|------|------|------|
-| Liposarkooma | 99,83 % | L2 | Hold / tutkimuskysymys |
+| Liposarkooma | 99,83 % | L5 | Hold / tutkimuskysymys |
 | Munasarjan myksoidi liposarkooma | 99,80 % | L5 | Hold |
 | Xp11.2/TFE3-translokaatioon liittyvä munuaissyöpä | 99,75 % | L2 | Proceed with Guardrails |
 | Neuroblastoomaan liittyvä munuaissyöpä | 99,75 % | L5 | Hold |
 | Luokittelematon munuaissolusyöpä | 99,75 % | L2 | Proceed with Guardrails |
 | Lasten munuaissolusyöpä | 99,68 % | L2 | Proceed with Guardrails |
-| Munuaiskarsinooma | 99,66 % | L1 | Proceed with Guardrails (jo alkuperäinen käyttöaihe) |
+| Munuaiskarsinooma | 99,66 % | L5 | Proceed with Guardrails (jo alkuperäinen käyttöaihe) |
 | Amyotrofinen lateraaliskleroosi | 99,66 % | L5 | Hold |
 | Parasagittaalinen parieto-okkipitaalinen polymikrogyria | 99,63 % | L5 | Hold |
 | Angiolipooma | 99,62 % | L5 | Hold |

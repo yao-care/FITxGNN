@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-## Eflornitiini: Hirsutismista esotropiaan
+## Eflornitiini: Esotropia
 {: .text-alpha }
 
 ## Yhteenveto
@@ -48,13 +48,13 @@ Eflornitiini on ornitiinidekarboksylaasia (ODC) estävä vaikuttava aine, jota o
 |------|------|
 | Alkuperäinen käyttöaihe | Hirsutismi |
 | Ennustettu uusi käyttöaihe | Esotropia |
-| TxGNN-ennustepistemäärä | 99,85 % |
+| TxGNN-ennustepistemäärä | 0,9985 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odotetaan) |
 
-Toinen ennustettu käyttöaihe, neurotrofinen keratopatia, sai pistemäärän 99,38 %. Sekin on näytön tasolla L5 ja suositus on Hold.
+Toinen ennustettu käyttöaihe, neurotrofinen keratopatia, sai pistemäärän 0,9938. Sekin on näytön tasolla L5 ja suositus on Hold.
 
 ---
 
@@ -62,7 +62,7 @@ Toinen ennustettu käyttöaihe, neurotrofinen keratopatia, sai pistemäärän 99
 
 Eflornitiini on peruuttamaton ornitiinidekarboksylaasin estäjä. Entsyymi on polyamiinien biosynteesin nopeutta rajoittava vaihe. Aineen vaikutusmekanismin tietoja ei ole koottuun aineistoon kirjattu, joten tässä esitetty kuvaus perustuu yleiseen farmakologiseen tietoon. Paikallisesti ainetta käytetään kasvojen hirsutismiin ja injektiona afrikkalaiseen unitautiin. Joulukuussa 2023 FDA hyväksyi sen suun kautta otettavaksi ylläpitohoidoksi suuren riskin neuroblastoomassa.
 
-Hirsutismin ja esotropian välillä ei ole tunnistettavaa mekanistista yhteyttä. Esotropiassa on kyse silmälihasten tasapainosta, taittovirheistä tai akkommodaatiosta sekä silmien asennon hermostollisesta ohjauksesta. Kerätty aineisto ei tue ODC:n eston yhteyttä näihin mekanismeihin. Hyvin korkea pistemäärä voi johtua tietämysverkon (knowledge graph) artefakteista, joten sitä tulee tulkita varoen.
+Hirsutismin ja esotropian välillä ei ole tunnistettavaa mekanistista yhteyttä. Esotropiassa on kyse silmälihasten tasapainosta, taittovirheistä tai akkommodaatiosta sekä silmien asennon hermostollisesta ohjauksesta. Kerätty aineisto ei tue ODC:n eston yhteyttä näihin mekanismeihin. Hyvin korkea pistemäärä tulee TxGNN-mallista (syväoppiminen) ja voi heijastaa mallin oppimia samankaltaisuuksia sairauksien välillä, ei biologista näyttöä, joten sitä tulee tulkita varoen.
 
 Neurotrofisen keratopatian kohdalla polyamiinien rooli solujen kasvussa ja haavan paranemisessa antaa vain spekulatiivisen yhteyden. Polyamiinisynteesin esto heikentäisi todennäköisemmin epiteelin lisääntymistä ja paranemista kuin edistäisi sitä. Silmään annettavan eflornitiinin turvallisuutta ei myöskään ole kuvattu.
 

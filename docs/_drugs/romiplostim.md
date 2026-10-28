@@ -33,13 +33,13 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Romiplostiimi: Idiopaattisesta trombosytopeenisesta purppurasta ensisijaiseen verihiutaleiden vapautumishäiriöön
+## Romiplostiimi: Primaarinen verihiutaleiden vapautumishäiriö
 {: .text-alpha }
 
 ## Yhteenveto
 
 Romiplostiimi on trombopoietiinireseptorin (MPL) agonisti, jota on alun perin käytetty idiopaattisen trombosytopeenisen purppuran (ITP) hoitoon.
-TxGNN-malli ennustaa sen mahdollisesti tehoavan **ensisijaiseen verihiutaleiden vapautumishäiriöön** (pistemäärä 99,99 %), mutta ennusteelle ei löydy suoraa tukea: **kliinisiä tutkimuksia ei ole** ja **ainoa julkaisu** käsittelee immuunitrombosytopeniaa, ei tätä sairautta.
+TxGNN-malli ennustaa sen mahdollisesti tehoavan **ensisijaiseen verihiutaleiden vapautumishäiriöön** (pistemäärä 0,9999), mutta ennusteelle ei löydy suoraa tukea: **kliinisiä tutkimuksia ei ole** ja **ainoa julkaisu** käsittelee immuunitrombosytopeniaa, ei tätä sairautta.
 
 ## Pikakatsaus
 
@@ -47,10 +47,10 @@ TxGNN-malli ennustaa sen mahdollisesti tehoavan **ensisijaiseen verihiutaleiden 
 |------|------|
 | Alkuperäinen käyttöaihe | Idiopaattinen trombosytopeeninen purppura (ITP) |
 | Ennustettu uusi käyttöaihe | Ensisijainen verihiutaleiden vapautumishäiriö |
-| TxGNN-ennusteen pistemäärä | 99,99 % |
+| TxGNN-ennusteen pistemäärä | 0,9999 |
 | Näytön taso | L5 (vain mallin ennuste) |
-| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste on (tai ei ole) perusteltu?
@@ -77,15 +77,15 @@ Aineistossa oli yhteensä 10 ennustetta. Kaikki muut paitsi yksi ovat L5-tasoa i
 
 | Sija | Sairaus | TxGNN-pistemäärä | Näytön taso | Suositus | Huomio |
 |---|------|------|------|------|------|
-| 2 | Pseudo-von Willebrandin tauti | 99,99 % | L5 | Hold | Reseptorivika (GPIbα); verihiutaleiden lisääminen ei korjaa sitä |
-| 3 | Glanzmannin trombasteenia | 99,99 % | L5 | Hold | Laadullinen vika, verihiutalemäärä normaali |
-| 4 | Sikiön ja vastasyntyneen alloimmuunitrombosytopenia (FNAIT) | 99,99 % | L4 | Tutkimuskysymys | Vain epäsuoraa kirjallisuutta (ITP, raskaus, vastasyntyneet) |
-| 5 | Scottin oireyhtymä | 99,97 % | L5 | Hold | Fosfatidyyliseriinin altistumisen vika; määrän lisääminen ei auta |
-| 6 | Perinnöllisestä trombosytopeniasta johtuva verenvuotohäiriö | 99,95 % | L5 | Hold | Mekanistisesti uskottava, mutta testaamaton; vaste vaihtelee geenityypin mukaan |
-| 7 | Kollageenireseptorivikaan liittyvä verenvuotoalttius | 99,95 % | L5 | Hold | Laadullinen toimintahäiriö |
-| 8 | Verihiutaletyyppinen verenvuotohäiriö | 99,93 % | L5 | Hold | Laaja ryhmä; epäspesifinen ennuste |
-| 9 | Autosomaalisesti dominantti makrotrombosytopenia | 99,88 % | L5 | Hold | Osalla potilaista oireeton, hoitoa ei tarvita |
-| 10 | Ehlers-Danlosin oireyhtymä, fibronektineeminen tyyppi | 99,85 % | L5 | Hold | Sidekudossairaus; todennäköisesti verkoston artefakti |
+| 2 | Pseudo-von Willebrandin tauti | 0,9999 | L5 | Hold | Reseptorivika (GPIbα); verihiutaleiden lisääminen ei korjaa sitä |
+| 3 | Glanzmannin trombasteenia | 0,9999 | L5 | Hold | Laadullinen vika, verihiutalemäärä normaali |
+| 4 | Sikiön ja vastasyntyneen alloimmuunitrombosytopenia (FNAIT) | 0,9999 | L5 | Tutkimuskysymys | Vain epäsuoraa kirjallisuutta (ITP, raskaus, vastasyntyneet) |
+| 5 | Scottin oireyhtymä | 0,9997 | L5 | Hold | Fosfatidyyliseriinin altistumisen vika; määrän lisääminen ei auta |
+| 6 | Perinnöllisestä trombosytopeniasta johtuva verenvuotohäiriö | 0,9995 | L5 | Hold | Mekanistisesti uskottava, mutta testaamaton; vaste vaihtelee geenityypin mukaan |
+| 7 | Kollageenireseptorivikaan liittyvä verenvuotoalttius | 0,9995 | L5 | Hold | Laadullinen toimintahäiriö |
+| 8 | Verihiutaletyyppinen verenvuotohäiriö | 0,9993 | L5 | Hold | Laaja ryhmä; epäspesifinen ennuste |
+| 9 | Autosomaalisesti dominantti makrotrombosytopenia | 0,9988 | L5 | Hold | Osalla potilaista oireeton, hoitoa ei tarvita |
+| 10 | Ehlers-Danlosin oireyhtymä, fibronektineeminen tyyppi | 0,9985 | L5 | Hold | Sidekudossairaus; todennäköisesti verkoston artefakti |
 
 Näistä lupaavin jatkotutkimuksen kohde on FNAIT. Romiplostiimi voisi periaatteessa nostaa verihiutalemäärää, mutta se ei pysäytä alloimmuuniprosessia. Istukan läpäisy sekä sikiön ja vastasyntyneen turvallisuus ovat ratkaisematta, eikä yksikään löydetty julkaisu testaa romiplostiimia FNAIT:ssa.
 

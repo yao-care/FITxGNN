@@ -46,10 +46,10 @@ Etelcalcetide on laskimoon annosteltava kalsimimeetti, jota on käytetty sekunda
 |------|------|
 | Alkuperäinen käyttöaihe | Sekundaarinen hyperparatyreoosi |
 | Ennustettu uusi käyttöaihe | Hyperfosfatemia |
-| TxGNN-ennusteen pistemäärä | 99,42 % |
+| TxGNN-ennusteen pistemäärä | 0,9942 |
 | Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste on perusteltu?

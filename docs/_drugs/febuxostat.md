@@ -33,7 +33,7 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-## Febuksostaatti: Kihdistä ja hyperurikemiasta kohti munuaisperäistä hypourikemiaa
+## Febuksostaatti: Munuaisperäinen hypourikemia
 {: .text-alpha }
 
 ## Yhteenveto
@@ -49,10 +49,10 @@ TxGNN-malli ennustaa sen voivan olla hyödyllinen **munuaisperäisessä hypourik
 |------|------|
 | Alkuperäinen käyttöaihe | Hyperurikemia, kihti |
 | Ennustettu uusi käyttöaihe | Munuaisperäinen hypourikemia (hypouricemia, renal) |
-| TxGNN-ennustepistemäärä | 99,99 % |
+| TxGNN-ennustepistemäärä | 0,9999 |
 | Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 3 (kaikki peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 3/3) |
+| Myyntilupien määrä | 3 (voimassa: 3) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -109,8 +109,8 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet eivät ole tämän raportin aine
 
 ## Muut ennustetut käyttöaiheet (lyhyesti)
 
-- **Osittainen HPRT-puutos** (TxGNN 99,98 %, L4): mekanistisesti uskottava virtsahapon tuotannon hallinnassa, mutta löydetty kirjallisuus on tapausraportteja, joissa febuksostaatin tuloksia ei kuvata. Suositus: tutkimuskysymys.
-- **Lesch-Nyhanin oireyhtymä** (TxGNN 99,68 %, L4): febuksostaatti voisi vaikuttaa vain aineenvaihdunnalliseen osaan, ei neurologisiin ja käytösoireisiin. Lasten käyttö on off-label, ja turvallisuustietoa on vähän. Suositus: tutkimuskysymys.
+- **Osittainen HPRT-puutos** (TxGNN 0,9998, L4): mekanistisesti uskottava virtsahapon tuotannon hallinnassa, mutta löydetty kirjallisuus on tapausraportteja, joissa febuksostaatin tuloksia ei kuvata. Suositus: tutkimuskysymys.
+- **Lesch-Nyhanin oireyhtymä** (TxGNN 0,9968, L4): febuksostaatti voisi vaikuttaa vain aineenvaihdunnalliseen osaan, ei neurologisiin ja käytösoireisiin. Lasten käyttö on off-label, ja turvallisuustietoa on vähän. Suositus: tutkimuskysymys.
 
 ---
 

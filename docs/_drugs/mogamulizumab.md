@@ -6,9 +6,9 @@ nav_order: 293
 evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-13
-description: "Mogamulizumab: ennustettu uusi käyttöaihe Prostatan virtsaputken urotelikarsinooma (näytön taso L5). Alkuperäinen käyttöaihe: Sézaryn oireyhtymä"
 monitor_inn: "MOGAMULIZUMAB"
 predicted_indications: ["prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant", "renal pelvis papillary urothelial carcinoma", "human herpesvirus 8-related tumor", "ectomesenchymoma", "malignant cutaneous granular cell skin tumor"]
+description: "Mogamulizumab: ennustettu uusi käyttöaihe Prostatic urethra urothelial carcinoma (näytön taso L5). Alkuperäinen käyttöaihe: Sezary Syndrome"
 ---
 
 # Mogamulizumab
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **7** kpl
 
 </div>
 
-## Mogamulitsumabi: Sézaryn oireyhtymästä ja sieneiskasvaimesta prostatan virtsaputken urotelikarsinoomaan
+## Mogamulizumab: Prostatic urethra urothelial carcinoma
 {: .text-alpha }
 
 ## Yhteenveto
@@ -46,12 +46,12 @@ mutta aiheesta ei ole **yhtään kliinistä tutkimusta eikä julkaisua**, joten 
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Sézaryn oireyhtymä; mycosis fungoides |
-| Ennustettu uusi käyttöaihe | Prostatan virtsaputken urotelikarsinooma |
-| TxGNN-ennustepistemäärä | 99,44 % |
+| Alkuperäinen käyttöaihe | Sezary Syndrome;Mycosis Fungoides |
+| Ennustettu uusi käyttöaihe | Prostatic urethra urothelial carcinoma |
+| TxGNN-ennustepistemäärä | 0.9944 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste voisi olla perusteltu?
@@ -60,18 +60,18 @@ Tässä raportissa käytettävissä olevasta aineistosta ei ole saatavilla yksit
 
 Ennustettua käyttöaihetta tukeva mekanistinen olettamus on, että Treg-solujen väheneminen urotelikasvaimen mikroympäristössä voisi vahvistaa kasvainimmuniteettia. Tälle ei kuitenkaan ole suoraa näyttöä: CCR4:n ei ole osoitettu ajavan tätä kasvaintyyppiä, ja ennuste on vain laskennallinen. Alkuperäisen käyttöaiheen (T-solulymfooma) ja ennustetun käyttöaiheen (urotelikarsinooma) samankaltaisuutta ei ole arvioitu.
 
-Muista ennustetuista käyttöaiheista biologisesti uskottavin on HHV-8-liitännäinen kasvain (pistemäärä 99,24 %), jossa immuunivasteen väistö ja CCR4-positiiviset Treg-solut voivat vaikuttaa. Sekin on toistaiseksi vain hypoteesi, joka vaatii prekliinistä validointia.
+Muista ennustetuista käyttöaiheista biologisesti uskottavin on HHV-8-liitännäinen kasvain (pistemäärä 0,9924), jossa immuunivasteen väistö ja CCR4-positiiviset Treg-solut voivat vaikuttaa. Sekin on toistaiseksi vain hypoteesi, joka vaatii prekliinistä validointia.
 
 ## Muut ennustetut käyttöaiheet
 
 | Sija | Käyttöaihe | TxGNN-pistemäärä | Näytön taso |
 |------|------|------|------|
-| 2 | Munuaisaltaan sarkomatoidi siirtymäsolusyöpä | 99,42 % | L5 |
-| 3 | Virtsarakon infiltroiva sarkomatoidi urotelikarsinooma | 99,40 % | L5 |
-| 4 | Munuaisaltaan papillaarinen urotelikarsinooma | 99,37 % | L5 |
-| 5 | HHV-8-liitännäinen kasvain | 99,24 % | L5 |
-| 6 | Ektomesenkymooma | 99,15 % | L5 |
-| 7 | Pahanlaatuinen ihon rakeissolukasvain | 99,15 % | L5 |
+| 2 | Munuaisaltaan sarkomatoidi siirtymäsolusyöpä | 0,9942 | L5 |
+| 3 | Virtsarakon infiltroiva sarkomatoidi urotelikarsinooma | 0,9940 | L5 |
+| 4 | Munuaisaltaan papillaarinen urotelikarsinooma | 0,9937 | L5 |
+| 5 | HHV-8-liitännäinen kasvain | 0,9924 | L5 |
+| 6 | Ektomesenkymooma | 0,9915 | L5 |
+| 7 | Pahanlaatuinen ihon rakeissolukasvain | 0,9915 | L5 |
 
 Kaikilla näillä ennusteilla ei ole kliinisiä tutkimuksia eikä kirjallisuutta, ja suositus on jokaisessa Hold.
 

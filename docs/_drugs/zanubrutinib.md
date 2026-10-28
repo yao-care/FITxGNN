@@ -6,9 +6,9 @@ nav_order: 477
 evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-13
-description: "Zanubrutinib: ennustettu uusi käyttöaihe Myeloidinen leukemia (näytön taso L5). Alkuperäinen käyttöaihe: Waldenströmin makroglobulinemia"
 monitor_inn: "ZANUBRUTINIB"
 predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "Ewing sarcoma", "neuroblastoma"]
+description: "Zanubrutinib: ennustettu uusi käyttöaihe Myeloid leukemia (näytön taso L5). Alkuperäinen käyttöaihe: Waldenstrom Macroglobulinemia"
 ---
 
 # Zanubrutinib
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-## Zanubrutinibi: Waldenströmin makroglobulinemiasta myeloidiseen leukemiaan
+## Zanubrutinib: Myeloid leukemia
 {: .text-alpha }
 
 ## Yhteenveto
@@ -47,12 +47,12 @@ TxGNN-malli ennustaa sen voivan tehota **myeloidiseen leukemiaan**, mutta ennust
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Waldenströmin makroglobulinemia |
-| Ennustettu uusi käyttöaihe | Myeloidinen leukemia |
+| Alkuperäinen käyttöaihe | Waldenstrom Macroglobulinemia |
+| Ennustettu uusi käyttöaihe | Myeloid leukemia |
 | TxGNN-ennustepisteet | 99,65 % |
-| Näytön taso | L4 (suora näyttö puuttuu; epäsuora, lymfaattisia syöpiä koskeva näyttö) |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Näytön taso | L5 (suora näyttö puuttuu; epäsuora, lymfaattisia syöpiä koskeva näyttö) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -139,7 +139,7 @@ Kirjallisuudessa on lisäksi nostettu esiin BTK-estäjiin liittyvä hepatiitti B
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Korkeasta TxGNN-pisteestä (99,65 %) huolimatta myeloidista leukemiaa koskevaa suoraa kliinistä tai prekliinistä näyttöä ei ole. Ainoa liittyvä tutkimus on vaiheen 1 tutkimus, jossa zanubrutinibi on vain yhdistelmäkumppani, ja kirjallisuus koskee lymfaattisia syöpiä. Lisäksi lääkkeellä ei ole Suomessa voimassa olevaa myyntilupaa.
+- Korkeasta TxGNN-pisteestä (0,9965) huolimatta myeloidista leukemiaa koskevaa suoraa kliinistä tai prekliinistä näyttöä ei ole. Ainoa liittyvä tutkimus on vaiheen 1 tutkimus, jossa zanubrutinibi on vain yhdistelmäkumppani, ja kirjallisuus koskee lymfaattisia syöpiä. Lisäksi lääkkeellä ei ole Suomessa voimassa olevaa myyntilupaa.
 
 **Jatkotoimiin tarvitaan:**
 - Vaikutusmekanismia koskevat tiedot (MOA) ja BTK-signaloinnin merkityksen arviointi myeloidisessa leukemiassa

@@ -51,8 +51,8 @@ TxGNN-malli ennustaa sen voivan tehota **HIV-infektioon**, mutta ennuste perustu
 | Ennustettu uusi käyttöaihe | HIV-infektio |
 | TxGNN-ennustepistemäärä | 99,41 % |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

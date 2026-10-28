@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 77
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-13
-description: "Bezlotoxumab: ennustettu uusi käyttöaihe Akuutti naisen lantion peritoniitti (näytön taso L5). Alkuperäinen käyttöaihe: Pseudomembranoottinen enterokoliitti"
 monitor_inn: "BEZLOTOXUMAB"
 predicted_indications: ["acute female pelvic peritonitis", "embryonic cyst of fallopian tube", "tubal pregnancy", "salpingitis isthmica nodosa", "disease of uterine broad ligament", "lumbar spinal stenosis", "abdominal cystic lymphangioma", "abdominal ectopic pregnancy", "celiac trunk compression syndrome", "pelvic varices"]
+last_modified_at: 2026-10-27
+description: "Bezlotoxumab: ennustettu uusi käyttöaihe Akuutti naisen lantion peritoniitti (acute female pelvic peritonitis) (näytön taso L5). Alkuperäinen käyttöaihe: Enterocolitis, Pseudomembranous"
 ---
 
 # Bezlotoxumab
@@ -33,78 +33,64 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Bezlotoksumabi: Pseudomembranoottisesta enterokoliitista akuuttiin naisen lantion peritoniittiin
+## Bezlotoksumabi: monoklonaalinen vasta-aine (C. difficile -toksiini B:n neutralointi) → akuutti naisen lantion peritoniitti (acute female pelvic peritonitis)
 {: .text-alpha }
 
 ## Yhteenveto
 
-Bezlotoksumabi on monoklonaalinen vasta-aine, jota käytettiin alun perin pseudomembranoottisen enterokoliitin (*Clostridioides difficile* -infektion) hoidossa.
-TxGNN-malli ennustaa sen voivan tehota **akuuttiin naisen lantion peritoniittiin**, mutta ennusteelle ei ole tällä hetkellä **yhtään kliinistä tutkimusta eikä julkaisua**. Ennuste perustuu pelkästään graafipohjaiseen mallinnukseen.
-
----
+Bezlotoksumabi on monoklonaalinen vasta-aine, joka neutraloi Clostridioides difficile -bakteerin toksiini B:n. TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **akuutin naisen lantion peritoniitin (acute female pelvic peritonitis)**. Ennusteen tueksi ei ole löytynyt yhtään kliinistä tutkimusta eikä julkaisua, joten näyttö perustuu pelkästään mallin laskennalliseen ennusteeseen.
 
 ## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Pseudomembranoottinen enterokoliitti |
-| Ennustettu uusi käyttöaihe | Akuutti naisen lantion peritoniitti |
-| TxGNN-ennusteen pistemäärä | 99,89 % |
+| Alkuperäinen käyttöaihe | Enterocolitis, Pseudomembranous |
+| Ennustettu uusi käyttöaihe | Akuutti naisen lantion peritoniitti (acute female pelvic peritonitis) |
+| TxGNN-ennusteen pistemäärä | 0,9989 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
-| Suositeltu päätös | Hold (odottaa) |
-
----
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
+| Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste on (tai ei ole) perusteltu?
 
-Tällä hetkellä yksityiskohtaista vaikutusmekanismitietoa ei ole saatavilla tähän raporttiin koottujen tietojen perusteella. Yleisesti tiedetään, että bezlotoksumabi on monoklonaalinen vasta-aine, joka neutraloi *C. difficile* -bakteerin toksiini B:n. Sen teho on osoitettu *C. difficile* -infektion uusiutumisen ehkäisyssä, mutta mekanistista yhteyttä lantion peritoniittiin ei ole tunnistettu.
+Yksityiskohtaista vaikutusmekanismitietoa ei ole tämän raportin aineistossa saatavilla. Tunnetun tiedon mukaan bezlotoksumabi on vasta-aine, joka sitoutuu C. difficile -toksiini B:hen ja estää sen vaikutuksen suolen epiteeliin. Sen teho perustuu siis yhden bakteeritoksiinin neutralointiin.
 
-Lantion peritoniitti on tyypillisesti polymikrobinen, sukupuolielimistä ylöspäin leviävä tulehdus, eikä sen taustalla ole toksiini B -välitteistä mekanismia. Korkea TxGNN-pistemäärä (0,9989) heijastaa todennäköisesti tietämysgraafin läheisyyttä liittyvien termien välillä, ei biologista relevanssia.
+Akuutti naisen lantion peritoniitti on tyypillisesti usean eri bakteerin aiheuttama tulehdus, joka etenee sukuelimistä ylöspäin. C. difficile -toksiini B:llä ei tunneta olevan roolia sen synnyssä. Uskottavaa mekanistista yhteyttä alkuperäiseen käyttöaiheeseen ei siten ole havaittavissa.
 
-Samoin muut kymmenen parhaan ennusteen joukossa olevat käyttöaiheet (mm. munanjohtimen alkionaiset kystat, munanjohdinraskaus, kapean nodulaarinen salpingiitti, leveän kohtusiteen sairaudet, lannerangan ahtauma, vatsan kystinen lymfangiooma, vatsaontelon ulkopuolinen raskaus, keliakiatyvin kompressio-oireyhtymä ja lantion suonikohjut) eivät saa mekanistista tukea. Kaikkien näiden näytön taso on L5 ja suositus Hold.
+Korkea pistemäärä (0,9989) on graafipohjaisen mallin laskennallinen tulos, eikä se yksinään osoita biologista tai kliinistä hyötyä. Pistemäärä ei myöskään korvaa tutkimusnäyttöä.
 
----
+## Kliininen tutkimusnäyttö
 
-## Kliiniset tutkimukset
-
-Ennustettuun käyttöaiheeseen ei ole tällä hetkellä rekisteröityjä kliinisiä tutkimuksia.
-
----
+Tällä hetkellä aiheeseen liittyviä kliinisiä tutkimuksia ei ole rekisteröity.
 
 ## Kirjallisuusnäyttö
 
-Aiheeseen ei ole tällä hetkellä saatavilla liittyvää kirjallisuutta.
+Tällä hetkellä aiheeseen liittyvää kirjallisuutta ei ole saatavilla.
 
----
+## Myyntiluvat Suomessa
 
-## Suomen markkinatiedot
-
-| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/004136 | Zinplava (Merck Sharp & Dohme B.V.) | – | Pseudomembranoottinen enterokoliitti (tila: peruutettu) |
+| EMEA/H/C/004136 | Zinplava | – | Ei kirjattu paikallisiin tietoihin |
 
----
+## Turvallisuushuomiot
 
-## Turvallisuushuomioita
+Turvallisuustietoja (varoitukset, vasta-aiheet, yhteisvaikutukset) ei ole tämän raportin aineistossa saatavilla. Katso turvallisuustiedot valmisteyhteenvedosta.
 
-Turvallisuustiedot on tarkistettava valmisteyhteenvedosta. Lääkeinteraktioita ei löytynyt tähän raporttiin koottujen tietojen perusteella.
+## Johtopäätös ja seuraavat askeleet
 
----
+**Päätös: Hold (odota)**
 
-## Johtopäätös ja jatkotoimet
+**Perustelu:**
+Ennuste perustuu pelkästään mallin laskennalliseen pistemäärään. Mekanistista yhteyttä, kliinisiä tutkimuksia tai julkaisuja ei ole, ja näytön taso on L5.
 
-**Päätös: Hold (odottaa)**
-
-**Perustelut:**
-- Ennuste perustuu ainoastaan laskennalliseen malliin, eikä sille ole kliinistä tai kirjallista näyttöä eikä uskottavaa mekanistista yhteyttä. Lisäksi valmisteen myyntilupa Suomessa on peruutettu.
-
-**Jatkaminen edellyttäisi seuraavaa:**
-- Vaikutusmekanismitietojen täydentäminen (esim. DrugBankista)
-- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean sivustolta
-- Biologisen perustelun ja prekliinisen näytön selvittäminen ennen mitään jatkoarviointia
-- Valmisteen saatavuuden selvittäminen, koska myyntilupa on peruutettu
+**Eteneminen edellyttäisi:**
+- Biologisesti perusteltua hypoteesia siitä, miten toksiini B:n neutralointi liittyisi lantion peritoniittiin
+- Prekliinistä tai kliinistä tutkimusnäyttöä juuri tästä sairaudesta
+- Vaikutusmekanismitietojen täydentämistä
+- Valmisteyhteenvedon turvallisuustietojen kokoamista ja arviointia
+- Valmisteen markkinasaatavuuden selvittämistä
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

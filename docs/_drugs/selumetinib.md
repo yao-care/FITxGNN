@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Selumetinib
-parent: Kohtalainen näyttö (L3-L4)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 399
-evidence_level: L3
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Selumetinib: ennustettu uusi käyttöaihe Perifeerinen hermoverhokasvain (schwannooma) (näytön taso L3). Alkuperäinen käyttöaihe: Neurofibromatoosi 1"
 monitor_inn: "Selumetinib"
 predicted_indications: ["familial generalized lentiginosis", "gastrocutaneous syndrome", "rhabdoid tumor", "congenital multiple café-au-lait macules-increased sister chromatid exchange syndrome", "acromelanosis", "Moynahan syndrome", "leukonychia totalis-acanthosis-nigricans-like lesions-abnormal hair syndrome", "osteopathia striata-pigmentary dermopathy-white forelock syndrome", "peripheral nerve schwannoma", "microcystic/reticular schwannoma"]
+description: "Selumetinib: ennustettu uusi käyttöaihe Familial generalized lentiginosis (näytön taso L5). Alkuperäinen käyttöaihe: Neurofibromatosis 1"
 ---
 
 # Selumetinib
 {: .fs-9 }
 
-Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,14 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Selumetinibi: Neurofibromatoosi 1:stä perifeeriseen hermoverhokasvaimeen (schwannoomaan)
+## Selumetinib: Familial generalized lentiginosis
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 
 Selumetinibi on MEK1/2-estäjä, jota on alun perin käytetty neurofibromatoosi 1:n (NF1) hoitoon. TxGNN-malli ennustaa sen voivan tehota ensisijaisesti kohteeseen **perifeerinen hermoverhokasvain (schwannooma)**. Tätä tukee **3 kliinistä tutkimusta** ja **6 julkaisua**, mutta näyttö on vielä alustavaa: yksi tutkimus on päättynyt ennenaikaisesti ja kaksi ei ole vielä alkanut.
 
-> Huomautus: Ennusteluettelon sijalla 1 on "familiaalinen yleistynyt lentiginoosi" (pistemäärä 99,96 %), mutta sille ei löytynyt lainkaan tutkimuksia tai kirjallisuutta. Siksi raportti keskittyy sijalla 9 olevaan schwannoomaan, jonka näyttö on luettelon vahvin (taso L3). Pistemäärä ja muut taulukon tiedot koskevat tätä valittua indikaatiota.
+> Huomautus: Ennusteluettelon sijalla 1 on "familiaalinen yleistynyt lentiginoosi" (pistemäärä 0,9996), mutta sille ei löytynyt lainkaan tutkimuksia tai kirjallisuutta. Siksi raportti keskittyy sijalla 9 olevaan schwannoomaan, jonka näyttö on luettelon vahvin (taso L3). Pistemäärä ja muut taulukon tiedot koskevat tätä valittua indikaatiota.
 
 ---
 
@@ -48,12 +48,12 @@ Selumetinibi on MEK1/2-estäjä, jota on alun perin käytetty neurofibromatoosi 
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Neurofibromatoosi 1 |
-| Ennustettu uusi käyttöaihe | Perifeerinen hermoverhokasvain (schwannooma) |
-| TxGNN-ennustepistemäärä | 99,95 % |
-| Näytön taso | L3 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Alkuperäinen käyttöaihe | Neurofibromatosis 1 |
+| Ennustettu uusi käyttöaihe | Familial generalized lentiginosis |
+| TxGNN-ennustepistemäärä | 0.9996 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odotetaan lisänäyttöä); tutkimuskysymyksenä jatkettava |
 
 ---

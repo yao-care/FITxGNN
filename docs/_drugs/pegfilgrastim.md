@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-## Pegfilgrastiimi: Neutropeniasta vaikeaan ei-proliferatiiviseen diabeettiseen retinopatiaan
+## Pegfilgrastiimi: Vaikea ei-proliferatiivinen diabeettinen retinopatia
 {: .text-alpha }
 
 ## Yhteenveto
@@ -49,10 +49,10 @@ TxGNN-malli ennustaa sen voivan tehota **vaikeaan ei-proliferatiiviseen diabeett
 |------|------|
 | Alkuperäinen käyttöaihe | Neutropenia, kuumeinen neutropenia, solunsalpaajahoidon aiheuttama kuumeinen neutropenia (syöpäpotilaat) |
 | Ennustettu uusi käyttöaihe | Vaikea ei-proliferatiivinen diabeettinen retinopatia (toissijaisesti diabeettinen retinopatia yleisesti) |
-| TxGNN-ennustepistemäärä | 99,89 % |
+| TxGNN-ennustepistemäärä | 0,9989 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 11 (kaikki peruutettuja, voimassa olevia 0) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 11/11) |
+| Myyntilupien määrä | 11 (voimassa: 11) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -61,7 +61,7 @@ TxGNN-malli ennustaa sen voivan tehota **vaikeaan ei-proliferatiiviseen diabeett
 
 Tässä raportissa käytettävissä olevassa aineistossa ei ole yksityiskohtaista vaikutusmekanismitietoa. Tiedetään, että pegfilgrastiimi on pitkävaikutteinen G-CSF, joka lisää neutrofiilien tuotantoa ja mobilisoi hematopoieettisia kantasoluja. Sen teho neutropeniassa on osoitettu, mutta mekanistista yhteyttä diabeettiseen retinopatiaan ei ole osoitettu.
 
-Spekulatiivinen yhteys voisi olla endoteelin progenitorisolujen mobilisaatio verisuonten korjaamiseksi. Toisaalta diabeettisessa retinopatiassa on kyse mikroverisuonivauriosta ja tulehduksesta, ja G-CSF:n aiheuttama neutrofiilien aktivaatio voisi päinvastoin pahentaa verkkokalvon tulehdusta. Korkea pistemäärä (0,999) on pelkkä mallin ennuste, jota ei tue mikään tutkimus. Toinen ennuste, diabeettinen retinopatia (pistemäärä 99,73 %), on todennäköisesti sama signaali kuin vaikea ei-proliferatiivinen muoto.
+Spekulatiivinen yhteys voisi olla endoteelin progenitorisolujen mobilisaatio verisuonten korjaamiseksi. Toisaalta diabeettisessa retinopatiassa on kyse mikroverisuonivauriosta ja tulehduksesta, ja G-CSF:n aiheuttama neutrofiilien aktivaatio voisi päinvastoin pahentaa verkkokalvon tulehdusta. Korkea pistemäärä (0,9989) on pelkkä mallin ennuste, jota ei tue mikään tutkimus. Toinen ennuste, diabeettinen retinopatia (pistemäärä 0,9973), on todennäköisesti sama signaali kuin vaikea ei-proliferatiivinen muoto.
 
 ---
 

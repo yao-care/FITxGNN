@@ -4,7 +4,7 @@ title: Sirolimus
 parent: Kohtalainen näyttö (L3-L4)
 nav_order: 405
 evidence_level: L3
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-13
 description: "Sirolimus: ennustettu uusi käyttöaihe Liposarkooma (näytön taso L3). Alkuperäinen käyttöaihe: Angiofibrooma, tuberoosiskleroosi"
 monitor_inn: "SIROLIMUS"
@@ -14,7 +14,7 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine co
 # Sirolimus
 {: .fs-9 }
 
-Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L3** | Ennustetut käyttöaiheet: **7** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Sirolimuusi: Kasvaimiin liittyvästä kudososien kasvusta (tuberoosiskleroosi, siirteen hylkiminen) liposarkoomaan
+## Sirolimuusi: Liposarkooma
 {: .text-alpha }
 
 ## Yhden lauseen tiivistelmä
@@ -52,10 +52,10 @@ Vahvin näyttö kohdistuu ennustelistan viidenteen kohteeseen, **lymfangioleiomy
 |------|------|
 | Alkuperäinen käyttöaihe | Angiofibrooma, tuberoosiskleroosi |
 | Ennustettu uusi käyttöaihe | Liposarkooma |
-| TxGNN-ennustepistemäärä | 99,89 % |
+| TxGNN-ennustepistemäärä | 0,9989 |
 | Näytön taso | L3 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 2 (molemmat peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Myyntilupien määrä | 2 (voimassa: 2) |
 | Suositeltu päätös | Hold (odota) liposarkooman osalta; LAM: Proceed with Guardrails (eteneminen suojatoimin) |
 
 ---
@@ -153,13 +153,12 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat aineistosta, joten ne 
 
 | Sija | Sairaus | Pistemäärä | Näytön taso | Suositus |
 |---|---|---|---|---|
-| 2 | Munasarjan myksoidi liposarkooma | 99,85 % | L5 | Hold |
-| 3 | Kohdun PEComa | 99,80 % | L4 | Tutkimuskysymys |
-| 4 | Hyvänlaatuinen PEComa | 99,80 % | L4 | Tutkimuskysymys |
-| **5** | **Lymfangioleiomyomatoosi (LAM)** | **99,79 %** | **L1** | **Proceed with Guardrails** |
-| 6–8 | Munuaissolusyövän harvinaiset alatyypit | 99,66 % | L5 | Hold |
-| 9 | Keuhkojen PEComa | 99,63 % | L2 | Tutkimuskysymys |
-| 10 | Ulkosynnyttimien sarkooma | 99,62 % | L5 | Hold |
+| 2 | Munasarjan myksoidi liposarkooma | 0,9985 | L5 | Hold |
+| 3 | Kohdun PEComa | 0,9980 | L5 | Tutkimuskysymys |
+| 4 | Hyvänlaatuinen PEComa | 0,9980 | L5 | Tutkimuskysymys |
+| **5** | **Lymfangioleiomyomatoosi (LAM)** | **0,9979** | **L5** | **Proceed with Guardrails** |
+| 9 | Keuhkojen PEComa | 0,9963 | L5 | Tutkimuskysymys |
+| 10 | Ulkosynnyttimien sarkooma | 0,9962 | L5 | Hold |
 
 **Lymfangioleiomyomatoosi (LAM)** on selvästi vahvimmin tuettu ennuste. Vaiheen 3 MILES-tutkimus ([NCT00414648](https://clinicaltrials.gov/study/NCT00414648), 89 potilasta, valmistunut) osoitti sirolimuusin vakauttavan keuhkojen toimintaa. Lisäksi vaiheen 3 varhaisvaiheen tutkimus ([NCT03150914](https://clinicaltrials.gov/study/NCT03150914), 60 potilasta, käynnissä), useita vaiheen 2 tutkimuksia ja pitkäaikaisturvallisuutta seuraava MIDAS-tutkimus ([NCT02432560](https://clinicaltrials.gov/study/NCT02432560), 600 potilasta) tukevat käyttöaihetta.
 

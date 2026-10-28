@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tenofovir Alafenamide
-parent: Kohtalainen näyttö (L3-L4)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 428
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-13
-description: "Tenofovir Alafenamide: ennustettu uusi käyttöaihe Simiaani-immuunikatovirusinfektio (SIV) (näytön taso L4). Alkuperäinen käyttöaihe: Hepatiitti B (HIV-infektio muissa valmisteissa)"
 monitor_inn: "TENOFOVIR ALAFENAMIDE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Tenofovir Alafenamide: ennustettu uusi käyttöaihe Feline acquired immunodeficiency syndrome (näytön taso L5). Alkuperäinen käyttöaihe: Hepatitis B"
 ---
 
 # Tenofovir Alafenamide
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-## Tenofoviirialafenamidi: Hepatiitti B:stä ja HIV-infektiosta ennustettuun uuteen käyttöaiheeseen (simiaani-immuunikatovirusinfektio)
+## Tenofovir Alafenamide: Feline acquired immunodeficiency syndrome
 {: .text-alpha }
 
 ## Yhteenveto
@@ -48,12 +48,12 @@ Aineistossa on **8 julkaisua** (prekliinisiä eläinkokeita), mutta **ei yhtää
 
 | Kohde | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Hepatiitti B (HIV-infektio muissa valmisteissa) |
-| Ennustettu uusi käyttöaihe | Simiaani-immuunikatovirusinfektio (SIV) |
-| TxGNN-ennustepistemäärä | 99,89 % |
-| Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 8 (kaikki peruutettu) |
+| Alkuperäinen käyttöaihe | Hepatitis B; HIV Infections |
+| Ennustettu uusi käyttöaihe | Feline acquired immunodeficiency syndrome |
+| TxGNN-ennustepistemäärä | 0.9989 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 8/8) |
+| Myyntilupien määrä | 8 (voimassa: 8) |
 | Suositeltu päätös | Hold (tutkimuskysymys, ei etene kliiniseen vaiheeseen) |
 
 Huomio: aineiston kaksi muuta ennustetta ovat heikommin perusteltuja. Kissan immuunikatoon (feline acquired immunodeficiency syndrome, 99,89 %) ei ole tutkimus- eikä kirjallisuusnäyttöä (L5), ja harvinaiseen neurokehityshäiriöön (99,87 %) ei löydy uskottavaa mekanistista yhteyttä (L5). Tämä raportti keskittyy sijalla 1 olevan ennusteen sijaan ensisijaisesti sijan 2 ennusteeseen, koska vain sille on kirjallisuutta.

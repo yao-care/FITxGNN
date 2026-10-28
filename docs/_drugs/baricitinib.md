@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 68
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-13
-description: "Baricitinib: ennustettu uusi käyttöaihe Kolobomatoottinen mikroftalmia-rhizomeelinen dysplasiaoireyhtymä (näytön taso L5). Alkuperäinen käyttöaihe: Nivelreuma"
 monitor_inn: "BARICITINIB"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
+last_modified_at: 2026-10-27
+description: "Baricitinib: ennustettu uusi käyttöaihe Kolobomatoottinen mikroftalmia-rizomeelinen dysplasia -oireyhtymä (colobomatous microphthalmia-rhizomelic dysplasia syn… (näytön taso L5). Alkuperäinen käyttöa…"
 ---
 
 # Baricitinib
@@ -33,70 +33,68 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-## Baricitinibi: Nivelreumasta kolobomatoottiseen mikroftalmia-rhizomeeliseen dysplasiaoireyhtymään
+## Baricitinibi: JAK-estäjä → kolobomatoottinen mikroftalmia-rizomeelinen dysplasia -oireyhtymä (colobomatous microphthalmia-rhizomelic dysplasia syndrome)
 {: .text-alpha }
 
-## Yhden lauseen tiivistelmä
+## Yhteenveto
 
-Baricitinibi on JAK1/JAK2-estäjä, jota on alun perin käytetty nivelreuman hoitoon. TxGNN-malli ennustaa sen mahdollisesti tehoavan **kolobomatoottiseen mikroftalmia-rhizomeeliseen dysplasiaoireyhtymään**, mutta ennusteen tueksi ei ole **yhtään kliinistä tutkimusta eikä julkaisua**. Ennuste perustuu pelkästään tietämysgraafipohjaiseen mallilaskentaan.
+Baricitinibi on JAK1- ja JAK2-kinaasien estäjä, jota käytetään tulehdukselliseen nivelsairauteen. TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi harvinaisen kehityshäiriön, **kolobomatoottisen mikroftalmia-rizomeelisen dysplasia -oireyhtymän (colobomatous microphthalmia-rhizomelic dysplasia syndrome)**. Ennusteen tukena ei ole yhtään kliinistä tutkimusta eikä julkaisua, joten näyttö perustuu pelkästään mallin ennusteeseen.
 
-## Pikakatsaus
+## Pikayhteenveto
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Nivelreuma |
-| Ennustettu uusi käyttöaihe | Kolobomatoottinen mikroftalmia-rhizomeelinen dysplasiaoireyhtymä |
-| TxGNN-ennustepisteet | 99,94 % |
+| Alkuperäinen käyttöaihe | Arthritis, Rheumatoid |
+| Ennustettu uusi käyttöaihe | Kolobomatoottinen mikroftalmia-rizomeelinen dysplasia -oireyhtymä (colobomatous microphthalmia-rhizomelic dysplasia syndrome) |
+| TxGNN-ennustepisteet | 0,9994 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
-## Miksi ennuste on perusteltu?
+## Miksi ennuste voisi olla perusteltu?
 
-Tämän raportin laatimiseen koottu aineisto ei sisällä yksityiskohtaista vaikutusmekanismitietoa. Tiedossa on, että baricitinibi on JAK1/JAK2-estäjä, jonka teho nivelreumassa on osoitettu. Mekanistista yhteyttä tähän harvinaiseen kehityshäiriöoireyhtymään ei kuitenkaan voida aineiston perusteella osoittaa.
+Tätä raporttia varten koottu aineisto ei sisällä yksityiskohtaista tietoa vaikutusmekanismista. Baricitinibi tunnetaan JAK1/JAK2-estäjänä, mutta sen yhteyttä tähän harvinaiseen synnynnäiseen kehityshäiriöön ei ole osoitettu.
 
-Ennusteen ainoa tuki on erittäin korkea TxGNN-pistemäärä (0,9994). Se on tietämysgraafiin perustuva laskennallinen ennuste, ei kliinistä näyttöä. Nivelreuma on autoimmuunisairaus ja ennustettu käyttöaihe synnynnäinen kehityshäiriö, joten niiden samankaltaisuutta ei ole voitu arvioida. Mahdollinen yhteys olisi spekulatiivinen ja vaatisi riippumattoman geneettisen ja biologisten signalointireittien validoinnin.
-
-Toinen TxGNN:n ennustama käyttöaihe on brakydaktylia-syndaktylia-oireyhtymä (pisteet 99,94 %). Sekin on tasolla L5 ilman tutkimuksia tai julkaisuja, ja sille on annettu suositus Hold.
+Aineistossa ei ole biologista reittiä, joka yhdistäisi JAK-signalointia silmän ja raajojen kehityshäiriöön. Ennusteen ainoa tuki on korkea mallipistemäärä (0,9994), joka on laskennallinen ennuste eikä kliinistä näyttöä. Mahdollinen yhteys olisi spekulatiivinen, ja se vaatisi riippumattoman geneettisen ja signaalireittitason validoinnin.
 
 ## Kliininen tutkimusnäyttö
 
-Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
+Tästä käyttöaiheesta ei ole tällä hetkellä rekisteröityjä kliinisiä tutkimuksia.
 
 ## Kirjallisuusnäyttö
 
-Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
+Aiheesta ei ole tällä hetkellä saatavilla kirjallisuutta.
 
-## Markkinatiedot Suomessa
+## Suomen markkinatiedot
 
-| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/004085 | Olumiant (Eli Lilly Nederland B.V.) | – | Nivelreuma (tila: peruutettu) |
+| EMEA/H/C/004085 | Olumiant | – | Arthritis, Rheumatoid |
 
 ## Turvallisuusnäkökohdat
 
-Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut saatavilla, joten ne tulee tarkistaa valmisteyhteenvedosta.
+Pakkausselosteen varoituksia ja vasta-aiheita ei ole tässä aineistossa saatavilla, joten niihin on tutustuttava valmisteyhteenvedosta.
 
-**Yhteisvaikutukset:** Yhteisvaikutushaku tuotti yhteensä 100 tulosta. Keskeisiä esimerkkejä:
+**Yhteisvaikutukset:** Yhteisvaikutushaussa löytyi yhteensä 100 yhteisvaikutusta. Merkittäviksi (Major) luokiteltuja ovat muun muassa:
+- kortikosteroidit: hydrokortisoni, triamsinoloni (myös silmään annettava), betametasoni, budesonidi, deksametasoni, prednisolooni ja prednisoni
+- deferiproni
+- radioaktiiviset valmisteet: ibritumomabitiuksetaani, jobenguaani (I-131) ja tositumomabi (I-131)
 
-- **Merkittävä (Major):** kortikosteroidit, kuten hydrokortisoni, triamsinoloni (myös silmälääkemuoto), betametasoni, budesonidi, deksametasoni, prednisolon ja prednisoni. Lisäksi deferipronin sekä radioaktiivisten valmisteiden (ibritumomabi tiuksetaani, jobenguaani I-131, tositumomabi I-131) kanssa.
-- **Kohtalainen (Moderate):** morfiini (myös liposomaalinen), asetyylisalisyylihappo, nitisinoni ja oopiumi.
-- **Lievä (Minor):** sinkkiasetaatti, sinkkiglukonaatti ja sinkkisulfaatti.
+Kohtalaisia (Moderate) ovat muun muassa morfiini (myös liposomaalinen), asetyylisalisyylihappo, nitisinoni ja oopiumi. Sinkkivalmisteet (asetaatti, glukonaatti, sulfaatti) on luokiteltu lieviksi (Minor).
 
 ## Johtopäätös ja seuraavat vaiheet
 
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu pelkästään TxGNN-pisteisiin (taso L5), eikä tukena ole kliinisiä tutkimuksia, julkaisuja eikä osoitettua mekanistista yhteyttä. Lisäksi Suomen myyntiluvat on peruutettu ja turvallisuustiedot puutteellisia.
+- Ennusteella ei ole kliinistä eikä kirjallisuusnäyttöä (näytön taso L5), eikä mekanistista yhteyttä baricitinibin vaikutukseen ole osoitettu. Korkea pistemäärä ei yksin riitä etenemiseen.
 
-**Eteneminen edellyttää seuraavaa:**
-- Vaikutusmekanismitiedon (MOA) täydentäminen esim. DrugBankista
-- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean sivuilta
-- Riippumaton geneettinen ja signalointireittien validointi ennustetun oireyhtymän ja JAK1/JAK2-estyksen välillä
-- Prekliiniset tutkimukset ennen kliinisten tutkimusten harkintaa
-- Reittien yhteensopivuuden ja lääkemuotojen arviointi (Suomessa ei tällä hetkellä voimassa olevaa myyntilupaa)
+**Etenemiseksi tarvitaan:**
+- Baricitinibin vaikutusmekanismin tiedot ja JAK-signaloinnin yhteyden selvittäminen tähän oireyhtymään
+- Riippumaton geneettinen ja signaalireittitason validointi sekä prekliiniset tutkimukset
+- Valmisteyhteenvedon turvallisuustietojen (varoitukset, vasta-aiheet) kokoaminen ja arviointi
+- Arvio siitä, soveltuuko lääkkeen antoreitti ja kohdepotilasryhmä (synnynnäinen kehityshäiriö) tähän käyttöön
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

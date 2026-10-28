@@ -6,9 +6,9 @@ nav_order: 280
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-13
-description: "Memantine: ennustettu uusi käyttöaihe Migreeni (migraine disorder) (näytön taso L5). Alkuperäinen käyttöaihe: Alzheimerin tauti"
 monitor_inn: "MEMANTINE"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
+description: "Memantine: ennustettu uusi käyttöaihe Pulmonary hypertension (näytön taso L5). Alkuperäinen käyttöaihe: Alzheimer Disease"
 ---
 
 # Memantine
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-## Memantiini: Alzheimerin taudista migreeniin
+## Memantine: Pulmonary hypertension
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -44,12 +44,12 @@ Memantiini on NMDA-reseptorin salpaaja, jota on alun perin käytetty Alzheimerin
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Alzheimerin tauti |
-| Ennustettu uusi käyttöaihe | Migreeni (migraine disorder) |
+| Alkuperäinen käyttöaihe | Alzheimer Disease |
+| Ennustettu uusi käyttöaihe | Pulmonary hypertension |
 | TxGNN-ennustepisteet | 99,52 % |
-| Näytön taso | L1 (muodollisesti; käytännössä rajallinen, ks. perustelut) |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 8 (kaikki peruutettuja) |
+| Näytön taso | L5 (muodollisesti; käytännössä rajallinen, ks. perustelut) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 8/8) |
+| Myyntilupien määrä | 8 (voimassa: 8) |
 | Suositeltu päätös | Hold (odota) |
 
 Huomio: tiedoissa ensimmäisenä listattu ennuste on keuhkoverenpainetauti (pisteet 99,54 %, näytön taso L5). Tässä raportissa pääpainopisteenä on migreeni, koska sen näyttö on vahvin. Muut ennusteet on käsitelty lyhyesti perustelujen yhteydessä.

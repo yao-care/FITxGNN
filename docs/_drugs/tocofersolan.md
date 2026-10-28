@@ -51,8 +51,8 @@ TxGNN-malli ennustaa sen voivan olla hyödyllinen **amenorreassa**, mutta ennust
 | Ennustettu uusi käyttöaihe | Amenorrea |
 | TxGNN-ennustepisteet | 99,31 % |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 Toinen ennustettu käyttöaihe on **akne** (pisteet 99,03 %, näytön taso L5, suositus Hold). Sekin perustuu pelkästään mallin ennusteeseen.

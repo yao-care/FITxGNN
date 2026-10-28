@@ -33,7 +33,7 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-## Dolutegraviiri: HIV-infektiosta apinoiden immuunikatovirusinfektioon
+## Dolutegraviiri: Apinoiden immuunikatovirusinfektio
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -47,10 +47,10 @@ TxGNN-malli ennustaa sen voivan tehota **apinoiden immuunikatovirusinfektioon (S
 |------|------|
 | Alkuperäinen käyttöaihe | HIV-infektio |
 | Ennustettu uusi käyttöaihe | Apinoiden immuunikatovirusinfektio (simian immunodeficiency virus infection) |
-| TxGNN-ennusteen pistemäärä | 99,85 % |
+| TxGNN-ennusteen pistemäärä | 0,9985 |
 | Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 4 (kaikki peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 4/4) |
+| Myyntilupien määrä | 4 (voimassa: 4) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste on järkevä?
@@ -114,7 +114,7 @@ Muiden turvallisuustietojen osalta katso valmisteyhteenveto.
 
 **Muut ennusteet (arvioitu lyhyesti):**
 - *Kissan hankinnainen immuunikatooireyhtymä (FIV):* Vain yksi eläinkoe (PMID 37112803), jossa dolutegraviiria käytettiin yhdistelmähoidossa. Eläinlääkinnällinen käyttöaihe, ei kliinisiä tutkimuksia. Päätös: Hold.
-- *Neurokehityshäiriö (ataksinen kävely, puheen puuttuminen, aivokuoren valkean aineen väheneminen):* Pelkkä mallin ennuste ilman tutkimuksia tai kirjallisuutta, eikä mekanistista yhteyttä ole. Todennäköisesti tietograafin artefakti. Päätös: Hold.
+- *Neurokehityshäiriö (ataksinen kävely, puheen puuttuminen, aivokuoren valkean aineen väheneminen):* Pelkkä TxGNN-mallin (syväoppiminen) ennuste ilman tutkimuksia tai kirjallisuutta, eikä mekanistista yhteyttä ole. Pistemäärä voi heijastaa mallin oppimia samankaltaisuuksia toisiinsa liittyvien sairauksien välillä, ei biologista näyttöä. Päätös: Hold.
 
 **Jatkotoimiin tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden kerääminen Fimean sivuilta (tällä hetkellä puuttuu ja estää turvallisuusseulonnan)

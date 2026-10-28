@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-## Belimumabi: Systeemisestä lupuksesta primaariseen verihiutaleiden vapautumishäiriöön
+## Belimumabi: Verihiutaleiden primaarinen vapautumishäiriö
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -48,10 +48,10 @@ Belimumabi on BLyS (BAFF) -proteiinia neutraloiva monoklonaalinen vasta-aine, jo
 |------|------|
 | Alkuperäinen käyttöaihe | Systeeminen lupus erythematosus |
 | Ennustettu uusi käyttöaihe | Primaarinen verihiutaleiden vapautumishäiriö (primary release disorder of platelets) |
-| TxGNN-ennustepisteet | 99,96 % |
+| TxGNN-ennustepisteet | 0,9996 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

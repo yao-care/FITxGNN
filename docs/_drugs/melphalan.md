@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Melphalan
-parent: Vahva näyttö (L1-L2)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 279
-evidence_level: L2
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-13
-description: "Melphalan: ennustettu uusi käyttöaihe Gonadaalinen itusolukasvain (näytön taso L2). Alkuperäinen käyttöaihe: Multippeli myelooma, Hodgkinin tauti, non-Hodgkin-lymfooma…"
 monitor_inn: "Melphalan"
 predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma"]
+description: "Melphalan: ennustettu uusi käyttöaihe Female breast carcinoma (näytön taso L5). Alkuperäinen käyttöaihe: Multiple Myeloma"
 ---
 
 # Melphalan
 {: .fs-9 }
 
-Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Melfalaani: Hematologisista syövistä gonadaaliseen itusolukasvaimeen
+## Melphalan: Female breast carcinoma
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -48,12 +48,12 @@ Tätä suuntaa tukee tällä hetkellä **7 kliinistä tutkimusta** ja **1 julkai
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Multippeli myelooma, Hodgkinin tauti, non-Hodgkin-lymfooma, prekursorisolujen lymfoblastileukemia/-lymfooma, akuutti myeloidileukemia, neuroblastooma, munasarjakasvaimet, hematopoieettinen kantasolusiirto |
-| Ennustettu uusi käyttöaihe | Gonadaalinen itusolukasvain |
-| TxGNN-ennustepistemäärä | 99,77 % |
-| Näytön taso | L2 |
-| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Alkuperäinen käyttöaihe | Multiple Myeloma;Hodgkin Disease;Lymphoma, Non-Hodgkin;Precursor Cell Lymphoblastic Leukemia-Lymphoma;Leukemia, Myeloid, Acute;Neuroblastoma;Ovarian Neoplasms;Hematopoietic Stem Cell Transplantation |
+| Ennustettu uusi käyttöaihe | Female breast carcinoma |
+| TxGNN-ennustepistemäärä | 0.9967 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota lisänäyttöä); jatkotutkimuskysymyksenä (Research Question) |
 
 ---
@@ -125,11 +125,8 @@ Tarkemmat tiedot: ks. valmisteyhteenvedon varoitukset ja varotoimet.
 
 | Käyttöaihe | Pistemäärä | Näytön taso | Päätös |
 |------|------|------|------|
-| Munasarjan primitiivinen itusolukasvain | 99,75 % | L3 | Research Question |
-| Naisen rintasyöpä | 99,67 % | L2 | Research Question (suuriannoshoidoilla ei ole selvää eloonjäämishyötyä tavanomaiseen hoitoon verrattuna) |
-| Munasarjan koriokarsinooma | 99,74 % | L5 | Hold |
-| Munasarjan ei-epiteliaalinen pahanlaatuinen kasvain | 99,55 % | L5 | Hold |
-| Peräsuolen, paksusuolen, sappirakon, kohdunkaulan ja kohdun limaa tuottavat adenokarsinoomat | 99,25–99,38 % | L5 | Hold |
+| Naisen rintasyöpä | 0,9967 | L5 | Research Question (suuriannoshoidoilla ei ole selvää eloonjäämishyötyä tavanomaiseen hoitoon verrattuna) |
+| Peräsuolen, paksusuolen, sappirakon, kohdunkaulan ja kohdun limaa tuottavat adenokarsinoomat | 99,25–0,9938 | L5 | Hold |
 
 ---
 

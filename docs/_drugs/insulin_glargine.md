@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Insuliiniglargiini: Diabeteksesta autoimmuuniseen munasarjatulehdukseen
+## Insuliiniglargiini: Autoimmuuninen munasarjatulehdus
 {: .text-alpha }
 
 ## Yhden lauseen tiivistelmä
@@ -49,10 +49,10 @@ TxGNN-malli ennustaa sen voivan tehota **autoimmuuniseen munasarjatulehdukseen**
 |------|------|
 | Alkuperäinen käyttöaihe | Diabetes mellitus |
 | Ennustettu uusi käyttöaihe | Autoimmuuninen munasarjatulehdus (autoimmune oophoritis) |
-| TxGNN-ennustepisteet | 99,88 % |
+| TxGNN-ennustepisteet | 0.9988 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 5 (kaikki peruutettu, voimassa 0) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 5/5) |
+| Myyntilupien määrä | 5 (voimassa: 5) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

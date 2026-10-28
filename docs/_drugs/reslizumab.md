@@ -6,9 +6,9 @@ nav_order: 375
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-13
-description: "Reslizumab: ennustettu uusi käyttöaihe Immuunituhoon liittyvä trombosytopenia (näytön taso L5). Alkuperäinen käyttöaihe: Astma"
 monitor_inn: "RESLIZUMAB"
 predicted_indications: ["thrombocytopenia due to immune destruction", "primary release disorder of platelets"]
+description: "Reslizumab: ennustettu uusi käyttöaihe Immuunituhoon liittyvä trombosytopenia (thrombocytopenia due to immune destruction) (näytön taso L5). Alkuperäinen käyttöaihe: Asthma"
 ---
 
 # Reslizumab
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-## Reslitsumabi: Astmasta immuunivälitteiseen trombosytopeniaan
+## Reslizumab: Immuunituhoon liittyvä trombosytopenia (thrombocytopenia due to immune destruction)
 {: .text-alpha }
 
 ## Yhteenveto
@@ -44,21 +44,21 @@ Reslitsumabi on anti-IL-5-monoklonaalinen vasta-aine, jota on alun perin käytet
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Astma |
-| Ennustettu uusi käyttöaihe | Immuunituhoon liittyvä trombosytopenia |
-| TxGNN-ennustepisteet | 99,53 % |
+| Alkuperäinen käyttöaihe | Asthma |
+| Ennustettu uusi käyttöaihe | Immuunituhoon liittyvä trombosytopenia (thrombocytopenia due to immune destruction) |
+| TxGNN-ennustepisteet | 0,9953 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste voisi olla perusteltu?
 
 Reslitsumabi on anti-IL-5-vasta-aine, joka vähentää eosinofiilien signalointia. Tarkempaa vaikutusmekanismia koskevia tietoja ei ole tämän raportin aineistossa saatavilla.
 
-Immuunivälitteisen trombosytopenian (esim. ITP) taustalla ovat pääasiassa autovasta-aineiden aiheuttama verihiutaleiden tuho ja heikentynyt megakaryopoieesi. Tunnettua mekanistista yhteyttä IL-5-reittiin ei ole. Mahdollinen yhteys olisi spekulatiivinen, esimerkiksi eosinofiilien tai Th2-aktiivisuuden osuus joissakin potilasryhmissä. Erittäin korkea TxGNN-pistemäärä (0,995) on vain laskennallinen ennuste.
+Immuunivälitteisen trombosytopenian (esim. ITP) taustalla ovat pääasiassa autovasta-aineiden aiheuttama verihiutaleiden tuho ja heikentynyt megakaryopoieesi. Tunnettua mekanistista yhteyttä IL-5-reittiin ei ole. Mahdollinen yhteys olisi spekulatiivinen, esimerkiksi eosinofiilien tai Th2-aktiivisuuden osuus joissakin potilasryhmissä. Erittäin korkea TxGNN-pistemäärä (0,9953) on vain laskennallinen ennuste.
 
-Toinen ennustettu käyttöaihe, primaarinen verihiutaleiden vapautumishäiriö (pistemäärä 99,26 %), on myös heikosti perusteltu: kyseessä on verihiutaleiden oma toimintahäiriö (rakeiden eritys), jossa IL-5-reitin osuutta ei tunneta.
+Toinen ennustettu käyttöaihe, primaarinen verihiutaleiden vapautumishäiriö (pistemäärä 0,9925), on myös heikosti perusteltu: kyseessä on verihiutaleiden oma toimintahäiriö (rakeiden eritys), jossa IL-5-reitin osuutta ei tunneta.
 
 ## Kliininen tutkimusnäyttö
 

@@ -50,8 +50,8 @@ Deferasiroksi on rautaa sitova kelaattori, jota on alun perin käytetty raudan y
 | Ennustettu uusi käyttöaihe | HIV-infektio |
 | TxGNN-ennustepistemäärä | 99,40 % |
 | Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 3 (kaikki peruutettu, voimassa 0) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 3/3) |
+| Myyntilupien määrä | 3 (voimassa: 3) |
 | Suositeltu päätös | Hold (tutkimuskysymys) |
 
 ---

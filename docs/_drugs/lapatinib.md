@@ -6,9 +6,9 @@ nav_order: 246
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
-description: "Lapatinib: ennustettu uusi käyttöaihe Dermatofibrosarkooma protuberans (näytön taso L5). Alkuperäinen käyttöaihe: Rintasyöpä (Breast Neoplasms)"
 monitor_inn: "LAPATINIB"
 predicted_indications: ["dermatofibrosarcoma protuberans"]
+description: "Lapatinib: ennustettu uusi käyttöaihe Dermatofibrosarcoma protuberans (näytön taso L5). Alkuperäinen käyttöaihe: Breast Neoplasms"
 ---
 
 # Lapatinib
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-## Lapatinibi: Rintasyövästä dermatofibrosarkooma protuberansiin
+## Lapatinib: Dermatofibrosarcoma protuberans
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -44,12 +44,12 @@ Lapatinibi on kaksoisvaikutteinen EGFR/HER2-tyrosiinikinaasin estäjä, jota on 
 
 | Kohde | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Rintasyöpä (Breast Neoplasms) |
-| Ennustettu uusi käyttöaihe | Dermatofibrosarkooma protuberans |
-| TxGNN-ennustepistemäärä | 99,3 % |
+| Alkuperäinen käyttöaihe | Breast Neoplasms |
+| Ennustettu uusi käyttöaihe | Dermatofibrosarcoma protuberans |
+| TxGNN-ennustepistemäärä | 0.9930 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odotetaan) |
 
 ## Miksi ennuste voi olla perusteltu?
@@ -100,7 +100,7 @@ Muuta turvallisuustietoa varten katso valmisteyhteenveto.
 **Päätös: Hold (odotetaan)**
 
 **Perustelut:**
-- Vaikka TxGNN-pistemäärä on korkea (99,3 %), ennuste on pelkkä laskennallinen ehdotus ilman kliinisiä tutkimuksia tai julkaisuja (näyttötaso L5). Lapatinibilla ei ole osoitettua vaikutusta DFSP:n pääajuriin PDGFRB:hen, ja DFSP:lle on jo vakiintunut kohdennettu hoito (imatinibi). Lisäksi Suomen myyntilupa on peruutettu.
+- Vaikka TxGNN-pistemäärä on korkea (0,9930), ennuste on pelkkä laskennallinen ehdotus ilman kliinisiä tutkimuksia tai julkaisuja (näyttötaso L5). Lapatinibilla ei ole osoitettua vaikutusta DFSP:n pääajuriin PDGFRB:hen, ja DFSP:lle on jo vakiintunut kohdennettu hoito (imatinibi). Lisäksi Suomen myyntilupa on peruutettu.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Vaikutusmekanismitietojen täydentämistä (esim. DrugBankista) ja mekanistisen yhteyden arviointia DFSP:hen

@@ -33,7 +33,7 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Tegafuuri: Mahasyövän hoidosta paksusuolen kasvaimeen
+## Tegafuuri: Paksusuolen kasvain
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -48,10 +48,10 @@ Tegafuuri on 5-fluorourasiilin (5-FU) esiaste, jota on alun perin käytetty **ma
 |------|------|
 | Alkuperäinen käyttöaihe | Mahasyöpä (Stomach Neoplasms) |
 | Ennustettu uusi käyttöaihe | Paksusuolen kasvain (colonic neoplasm) |
-| TxGNN-ennustepisteet | 99,90 % |
+| TxGNN-ennustepisteet | 0,9990 |
 | Näytön taso | L1 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Proceed with Guardrails (eteneminen suojatoimin) |
 
 ---

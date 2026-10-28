@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Insulin Glulisine
-parent: Vahva näyttö (L1-L2)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 233
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Insulin Glulisine: ennustettu uusi käyttöaihe Tyypin 1 diabetes mellitus (näytön taso L1). Alkuperäinen käyttöaihe: Diabetes mellitus"
 monitor_inn: "INSULIN GLULISINE"
 predicted_indications: ["thiamine-responsive dysfunction syndrome", "opsismodysplasia", "focal stiff limb syndrome", "classic stiff person syndrome", "autoimmune oophoritis", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
+description: "Insulin Glulisine: ennustettu uusi käyttöaihe Thiamine-responsive dysfunction syndrome (näytön taso L5). Alkuperäinen käyttöaihe: Diabetes Mellitus"
 ---
 
 # Insulin Glulisine
 {: .fs-9 }
 
-Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Insuliiniglulisiini: Diabeteksesta tyypin 1 diabetekseen
+## Insulin Glulisine: Thiamine-responsive dysfunction syndrome
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -46,12 +46,12 @@ Insuliiniglulisiini on ppikavaikutteinen insuliinianalogi, jota on alun perin k�
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Diabetes mellitus |
-| Ennustettu uusi käyttöaihe | Tyypin 1 diabetes mellitus |
-| TxGNN-ennustepistemäärä | 99,55 % |
-| Näytön taso | L1 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 |
+| Alkuperäinen käyttöaihe | Diabetes Mellitus |
+| Ennustettu uusi käyttöaihe | Thiamine-responsive dysfunction syndrome |
+| TxGNN-ennustepistemäärä | 0.9947 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Proceed with Guardrails (eteneminen suojatoimin) |
 
 ---
@@ -60,7 +60,7 @@ Insuliiniglulisiini on ppikavaikutteinen insuliinianalogi, jota on alun perin k�
 
 Insuliiniglulisiini on pikavaikutteinen ihmisinsuliinin analogi, joka sitoutuu insuliinireseptoriin ja laskee veren glukoosipitoisuutta. Tarkkaa vaikutusmekanismia koskevaa tietoa ei ole tähän raporttiin koottu aineistoon sisällytetty, joten mekanismin tarkempi analyysi on rajallinen.
 
-Alkuperäinen käyttöaihe (diabetes mellitus) ja ennustettu käyttöaihe (tyypin 1 diabetes) ovat käytännössä sama sairausryhmä. Tyypin 1 diabeteksessa elimistö ei tuota riittävästi insuliinia, joten aterioiden yhteydessä annettava pikavaikutteinen insuliini on vakiintunut hoitomuoto. Ennuste on siis mekanistisesti uskottava ja kliinisesti jo vahvistettu.
+Tyypin 1 diabeteksessa elimistö ei tuota riittävästi insuliinia, joten aterioiden yhteydessä annettava pikavaikutteinen insuliini on vakiintunut hoitomuoto. Ennuste on siis mekanistisesti uskottava ja kliinisesti jo vahvistettu.
 
 Markkinatilanne on kaupallinen rajoite, ei näytön puute: Apidra-valmisteen myyntilupa on peruutettu.
 

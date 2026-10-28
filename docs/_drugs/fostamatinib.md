@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-## Fostamatinib: Trombosytopeniasta ennustettuun autosomaaliseen trombosytopeniaan (normaalit verihiutaleet)
+## Fostamatinib: Autosomaalinen trombosytopenia, normaalit verihiutaleet
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -46,10 +46,10 @@ Fostamatinibi on Suomessa (EU-keskitetyn myyntiluvan kautta) trombosytopenian ho
 |------|------|
 | Alkuperäinen käyttöaihe | Trombosytopenia |
 | Ennustettu uusi käyttöaihe | Autosomaalinen trombosytopenia, normaalit verihiutaleet |
-| TxGNN-ennusteen pistemäärä | 99,45 % |
+| TxGNN-ennusteen pistemäärä | 0,9945 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettu (ei voimassa olevaa myyntilupaa) |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste voisi olla perusteltu?
@@ -58,7 +58,7 @@ Fostamatinibi on R406:n esilääke, ja R406 on pernan tyrosiinikinaasin (SYK) es
 
 TxGNN-pistemäärä on erittäin korkea, mutta se näyttää johtuvan verkostollisesta läheisyydestä alkuperäiseen trombosytopenia-käyttöaiheeseen. Ennustettu sairaus viittaa perinnölliseen (autosomaaliseen) verihiutaleiden määrän häiriöön, joka todennäköisesti ei ole immuunivälitteinen. Tällöin vasta-ainevälitteistä verihiutaleiden poistumaa ei ole, eikä SYK:n estolle ole selvää mekanistista perustetta. Ennustetta tulee siksi pitää vain laskennallisena signaalina.
 
-Toinen ennustettu käyttöaihe, **ei-oireyhtymälliset ruokatorven epämuodostumat** (pistemäärä 99,05 %), ei saa mitään mekanistista tukea. Kyseessä ovat sikiökauden ruoansulatuskanavan kehityshäiriöistä johtuvat synnynnäiset rakenteelliset viat (esim. ruokatorven atresia, tracheoesofageaalifisteli). SYK:n esto vaikuttaa immuunisolujen signalointiin eikä korjaa anatomisia kehityshäiriöitä. Korkea pistemäärä on todennäköisesti tietämysgraafin artefakti, ja tila vaatii yleensä kirurgista korjausta.
+Toinen ennustettu käyttöaihe, **ei-oireyhtymälliset ruokatorven epämuodostumat** (pistemäärä 0,9905), ei saa mitään mekanistista tukea. Kyseessä ovat sikiökauden ruoansulatuskanavan kehityshäiriöistä johtuvat synnynnäiset rakenteelliset viat (esim. ruokatorven atresia, tracheoesofageaalifisteli). SYK:n esto vaikuttaa immuunisolujen signalointiin eikä korjaa anatomisia kehityshäiriöitä. Korkea pistemäärä on todennäköisesti tietämysgraafin artefakti, ja tila vaatii yleensä kirurgista korjausta.
 
 ## Kliiniset tutkimukset
 

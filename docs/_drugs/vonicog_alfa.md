@@ -4,17 +4,17 @@ title: Vonicog Alfa
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 473
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Vonicog Alfa: ennustettu uusi käyttöaihe Primaarinen verihiutaleiden vapautumishäiriö (näytön taso L5). Alkuperäinen käyttöaihe: von Willebrandin tauti"
+indication_count: 8
 monitor_inn: "VONICOG ALFA"
-predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency"]
+predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "hemophilia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency"]
+last_modified_at: 2026-10-23
+description: "Vonicog Alfa: ennustettu uusi käyttöaihe Primaarinen verihiutaleiden vapautumishäiriö (näytön taso L5). Alkuperäinen käyttöaihe: von Willebrandin tauti"
 ---
 
 # Vonicog Alfa
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **8** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Vonikogi alfa: von Willebrandin taudista primaariin verihiutaleiden vapautumishäiriöön
+## Vonicog alfa: Primaarinen verihiutaleiden vapautumishäiriö
 {: .text-alpha }
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Vonikogi alfa (rekombinantti von Willebrand -tekijä) on alun perin tarkoitettu von Willebrandin taudin hoitoon. TxGNN-malli ennustaa sen voivan tehota **primaariin verihiutaleiden vapautumishäiriöön**, mutta ennuste perustuu pelkästään tietämysgraafin pisteytykseen: tähän indikaatioon ei ole **yhtään kliinistä tutkimusta eikä julkaisua**.
-
----
+Vonicog alfa on yhdistelmä-DNA-tekniikalla valmistettu von Willebrand -tekijä (rVWF), jota käytetään von Willebrandin taudin hoitoon.
+TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **primaarisen verihiutaleiden vapautumishäiriön**, mutta ennustetta tukevia **kliinisiä tutkimuksia on 0** ja **julkaisuja on 0**. Ennuste perustuu pelkästään malliin.
 
 ## Pikakatsaus
 
@@ -48,80 +47,66 @@ Vonikogi alfa (rekombinantti von Willebrand -tekijä) on alun perin tarkoitettu 
 |------|------|
 | Alkuperäinen käyttöaihe | von Willebrandin tauti |
 | Ennustettu uusi käyttöaihe | Primaarinen verihiutaleiden vapautumishäiriö |
-| TxGNN-ennustepisteet | 99,98 % |
+| TxGNN-ennustepisteet | 0,9998 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
-| Myyntilupien määrä | 1 (peruutettu) |
-| Suositeltu päätös | Hold (odota) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
+| Suositeltu päätös | Hold (odotetaan) |
 
----
+## Miksi ennuste on (tai ei ole) perusteltu?
 
-## Miksi ennuste on perusteltu?
+Yksityiskohtaista vaikutusmekanismitietoa ei ole tällä hetkellä saatavilla. Tunnetun tiedon perusteella vonicog alfa on rekombinantti von Willebrand -tekijä, joka välittää verihiutaleiden tarttumista ja kasautumista verisuonivauriokohdassa ja toimii tekijä VIII:n kantajana.
 
-Vonikogi alfa on rekombinantti von Willebrand -tekijä (VWF), joka välittää verihiutaleiden tarttumista ja aggregaatiota verisuonivaurion kohdalla ja kuljettaa mukanaan tekijä VIII:aa. Tämän raportin aineistossa ei ole tarkempaa kuvausta lääkkeen vaikutusmekanismista, joten arvio perustuu yleiseen tietoon VWF:n toiminnasta.
+Verihiutaleiden vapautumishäiriössä verihiutaleiden omien rakeiden sisällön vapautuminen on sisäisesti häiriintynyt. Ulkoisesti annettu VWF ei oletettavasti korjaa tätä vikaa, joten mekanistinen yhteys on heikko. Ennuste perustuu vain mallin laskemaan pisteeseen, eikä sitä tue yksikään tutkimus.
 
-Primaarisessa verihiutaleiden vapautumishäiriössä vika on verihiutaleiden omissa rakeissa ja eritystoiminnassa. Ulkoisen VWF:n antamisen ei oleteta korjaavan tätä sisäistä vikaa. Ennuste on siis vain tietämysgraafin tuottama eikä sillä ole kliinistä tai kirjallisuuteen perustuvaa tukea. Mekanistinen peruste on heikko.
+## Muut mallin ennustamat käyttöaiheet
 
-Muiden korkealle pisteytettyjen ennusteiden mekanistinen uskottavuus vaihtelee:
+Seuraavista ei löytynyt kliinisiä tutkimuksia. Taulukko kuvaa tässä aineistossa arvioidun mekanistisen perustelun.
 
-- **Hemofilia** (piste 99,95 %): VWF stabiloi elimistön oman tekijä VIII:n, joten peruste on olemassa. Tuotetta ei kuitenkaan ole hyväksytty tähän käyttöön.
-- **Hankinnainen hyytymistekijän puutos** ja **X-kromosomaalinen von Willebrandin tauti**: lähellä alkuperäistä käyttöaihetta, mutta suoraa näyttöä ei ole.
-- **Pseudo-von Willebrandin tauti**: johtuu GPIb-alfa-reseptorin toiminnanlisäysmutaatiosta, ja lisä-VWF voi olla vain osittain hyödyllistä tai jopa haitallista.
-- **Glanzmannin trombasthenia, Scottin oireyhtymä, kollageenireseptorin viasta johtuva verenvuototaipumus ja synnynnäinen trombosytopenia**: vika on verihiutaleissa tai reseptoreissa, eikä lisä-VWF korjaa sitä.
-- **"Flood factor deficiency"**: nimeä ei voitu yhdistää tunnettuun kliiniseen kokonaisuuteen, ja ennustetta tulee käsitellä varovaisesti.
+| Sija | Sairaus | TxGNN-pisteet | Näytön taso | Mekanistinen arvio |
+|---|---|---|---|---|
+| 2 | Glanzmannin trombasteenia | 99,98 % | L5 | Vika verihiutaleiden integriini αIIbβ3:ssa (fibrinogeenireseptori); VWF vaikuttaa tätä vaihetta aiemmin, joten lisä-VWF ei oletettavasti palauta aggregaatiota |
+| 3 | Hemofilia | 99,95 % | L5 | VWF kantaa tekijä VIII:aa, joten biologinen yhteys on uskottava, mutta hemofiliassa puuttuvan tekijän korvaus on vakiohoito; haetut julkaisut koskevat von Willebrandin tautia, eivät hemofiliaa |
+| 4 | Scottin oireyhtymä | 99,95 % | L5 | Fosfatidyyliseriinin esiintuonnin häiriö (TMEM16F/ANO6), joka on riippumaton VWF:stä |
+| 5 | Hankinnainen hyytymistekijän puutos | 99,94 % | L5 | Heterogeeninen ryhmä; yhteys vain, jos VWF- tai tekijä VIII -pitoisuudet ovat mukana |
+| 6 | Kollageenireseptorivirheestä johtuva vuototaipumus | 99,92 % | L5 | Verihiutaleen reseptori puuttuu, joten lisä-VWF tuskin korvaa sitä |
+| 7 | Synnynnäisen trombosytopenian aiheuttama vuotohäiriö | 99,92 % | L5 | Vuoto johtuu verihiutaleviasta; esim. Bernard–Soulierin oireyhtymässä VWF:n reseptori on viallinen |
+| 8 | "Flood factor deficiency" | 99,90 % | L5 | Epäselvä tai epästandardi nimi; mekanismia ei voi määrittää, ja merkintä tulisi tarkistaa ontologiasta |
 
----
+Hemofiliasta on haettu neljä julkaisua, mutta ne koskevat rVWF:n käyttöä von Willebrandin taudissa (ehkäisyhoito, farmakokinetiikka, laboratoriomääritykset ja leikkauksenaikaiset näkökohdat). Ne eivät tutki vonicog alfaa hemofiliassa, joten ne eivät kelpaa suoraksi näytöksi. Siksi hemofilian näytön taso on tässä raportissa L5.
 
 ## Kliininen tutkimusnäyttö
 
-Tällä hetkellä ei ole rekisteröityjä kliinisiä tutkimuksia, jotka liittyisivät ennustettuun käyttöaiheeseen.
-
----
+Ennustetusta käyttöaiheesta (primaarinen verihiutaleiden vapautumishäiriö) ei ole tällä hetkellä rekisteröityjä kliinisiä tutkimuksia.
 
 ## Kirjallisuusnäyttö
 
-Ennustetulle ykkösindikaatiolle (primaarinen verihiutaleiden vapautumishäiriö) ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
+Ennustetusta käyttöaiheesta ei ole tällä hetkellä saatavilla aiheeseen liittyvää kirjallisuutta.
 
-Epäsuorasti liittyvää kirjallisuutta löytyi vain hemofilia-ennusteelle (sijalla 4). Nämä julkaisut koskevat von Willebrandin tautia, eivät hemofiliaa:
-
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
-|------|-----|------|------|---------|
-| [35439298](https://pubmed.ncbi.nlm.nih.gov/35439298/) | 2022 | Vaiheen 3 kliininen tutkimus | Blood | Rekombinantti VWF -profylaksia vaikeassa von Willebrandin taudissa aikuisilla |
-| [37332615](https://pubmed.ncbi.nlm.nih.gov/37332615/) | 2023 | Farmakokineettinen/farmakodynaaminen vertailu | Journal of Blood Medicine | Rekombinantin ja plasmaperäisen VWF:n vertailu tyypin 3 von Willebrandin taudissa |
-| [31298165](https://pubmed.ncbi.nlm.nih.gov/31298165/) | 2019 | Katsaus | Current Pharmaceutical Design | Uudet hemostaattiset lääkkeet: anestesiologiset näkökohdat leikkauksen aikana |
-| [37926687](https://pubmed.ncbi.nlm.nih.gov/37926687/) | 2024 | Laboratoriotutkimus/kysely | Haemophilia | Rekombinantin ja plasmaperäisen VWF:n laboratorioanalytiikka |
-
----
-
-## Suomen markkinatiedot
+## Markkinatiedot Suomessa
 
 | Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
 | EMEA/H/C/004454 | Veyvondi | – | von Willebrandin tauti |
 
-Myyntilupa (valmistaja Baxalta Innovations GmbH) on tilassa "peruutettu", eikä voimassa olevia myyntilupia ole.
+Myyntilupa on keskitetty EU-lupa (valmistaja Baxalta Innovations GmbH), ja se on voimassa.
 
----
+## Turvallisuushuomiot
 
-## Turvallisuusnäkökohdat
+Turvallisuustiedot on tarkistettava valmisteyhteenvedosta. Lääkeinteraktioita ei löytynyt tässä raportissa käytetystä aineistosta.
 
-Turvallisuustiedot on tarkistettava valmisteyhteenvedosta. Lääkeyhteisvaikutuksia ei löytynyt kyselyssä.
+## Johtopäätös ja jatkotoimet
 
----
-
-## Johtopäätös ja seuraavat vaiheet
-
-**Päätös: Hold (odota)**
+**Päätös: Hold (odotetaan)**
 
 **Perustelut:**
-- Ennuste perustuu pelkkään mallipisteytykseen (L5), eikä sille ole kliinistä tai kirjallisuusnäyttöä. Mekanistinen peruste on heikko, koska verihiutaleiden sisäistä vikaa ei korjata lisäämällä VWF:ää. Lisäksi Suomen myyntilupa on peruutettu.
+- Ennuste perustuu vain malliin: sen tueksi ei ole kliinisiä tutkimuksia eikä julkaisuja, ja mekanistinen yhteys on heikko, koska ulkoinen VWF ei korjaa verihiutaleiden sisäistä vapautumisvikaa.
 
-**Eteenpäin siirtyminen edellyttää:**
-- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivustolta (turvallisuusarvio on tällä hetkellä estetty ilman niitä)
-- Vaikutusmekanismitietojen täydentämistä DrugBankista
-- Prekliinistä tai mekanistista näyttöä ennustetusta käyttöaiheesta
-- Mahdollista painopisteen siirtämistä hemofilia A:han, jossa VWF:n ja tekijä VIII:n yhteys antaa uskottavamman perusteen, sekä hemofiliaspesifistä kliinistä dataa
-- Myyntiluvan peruutuksen syyn ja nykyisen saatavuuden selvittämistä Suomessa
+**Jatkaminen edellyttäisi:**
+- Yksityiskohtaisia vaikutusmekanismitietoja
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden tarkistusta
+- Prekliinistä tai mekanistista näyttöä siitä, että rVWF vaikuttaa verihiutaleiden vapautumishäiriöön
+- Ensisijaisen ennusteen lisäksi hemofilian ja Glanzmannin trombasteenian osalta suoria tutkimuksia vonicog alfalla
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

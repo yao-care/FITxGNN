@@ -4,7 +4,7 @@ title: Lenvatinib
 parent: Vahva näyttö (L1-L2)
 nav_order: 259
 evidence_level: L2
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-13
 description: "Lenvatinib: ennustettu uusi käyttöaihe Liposarkooma (näytön taso L2). Alkuperäinen käyttöaihe: Kilpirauhasen kasvaimet (Lenvima)"
 monitor_inn: "lenvatinib"
@@ -14,7 +14,7 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipom
 # Lenvatinib
 {: .fs-9 }
 
-Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L2** | Ennustetut käyttöaiheet: **5** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -46,10 +46,10 @@ Lenvatinibi on moniin tyrosiinikinaasireseptoreihin kohdistuva estäjä, jota on
 |------|------|
 | Alkuperäinen käyttöaihe | Kilpirauhasen kasvaimet (Lenvima); munuaissolusyöpä (Kisplyx) |
 | Ennustettu uusi käyttöaihe | Liposarkooma |
-| TxGNN-ennusteen pistemäärä | 99,51 % |
+| TxGNN-ennusteen pistemäärä | 0,9951 |
 | Näytön taso | L2 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 2 (molemmat peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Myyntilupien määrä | 2 (voimassa: 2) |
 | Suositeltu päätös | Hold (odota lisänäyttöä) |
 
 ## Miksi ennuste on perusteltu?

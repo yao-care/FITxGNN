@@ -4,7 +4,7 @@ title: Trametinib
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 449
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
 description: "Trametinib: ennustettu uusi käyttöaihe Choroideremia (sijalla 1). Käytännössä merkityksellisin vaihtoehto: e… (näytön taso L5). Alkuperäinen käyttöaihe: Melanooma"
 monitor_inn: "TRAMETINIB"
@@ -14,7 +14,7 @@ predicted_indications: ["choroideremia"]
 # Trametinib
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Trametinibi: melanoomasta kohti choroideremiaa – ennuste ei ole biologisesti perusteltu
+## Trametinibi: choroideremia – ennuste ei ole biologisesti perusteltu
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -46,17 +46,17 @@ Trametinibi on MEK1/2-estäjä, jota käytetään melanooman hoitoon. TxGNN-mall
 |------|------|
 | Alkuperäinen käyttöaihe | Melanooma |
 | Ennustettu uusi käyttöaihe | Choroideremia (sijalla 1). Käytännössä merkityksellisin vaihtoehto: ei-ihomelanooma (sijalla 2) |
-| TxGNN-ennustepisteet | 99,31 % (choroideremia); 99,30 % (ei-ihomelanooma) |
+| TxGNN-ennustepisteet | 0,9931 (choroideremia) |
 | Näytön taso | L5 (choroideremia); L2 (ei-ihomelanooma) |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (choroideremia); Proceed with Guardrails (ei-ihomelanooma) |
 
 ## Miksi ennuste on perusteltu (tai ei)?
 
 Tämän raportin käytettävissä olevissa tiedoissa ei ole yksityiskohtaista vaikutusmekanismikuvausta. Tunnetun tiedon perusteella trametinibi on allosteerinen MEK1/2-estäjä (kohteet MAP2K1 ja MAP2K2), ja sen teho BRAF V600 -mutaatiopositiivisessa melanoomassa on osoitettu yhdistelmänä dabrafenibin kanssa.
 
-**Choroideremia:** Tauti on X-kromosomaalinen verkkokalvon rappeumasairaus, jonka aiheuttaa CHM (REP1) -geenin toiminnan menetys. Sillä ei ole tunnettua yhteyttä MAPK/MEK-reitin riippuvuuteen. Korkea pistemäärä (0,993) on todennäköisesti verkon etenemisen tuottama artefakti, eikä sitä tule pitää biologisena tukena.
+**Choroideremia:** Tauti on X-kromosomaalinen verkkokalvon rappeumasairaus, jonka aiheuttaa CHM (REP1) -geenin toiminnan menetys. Sillä ei ole tunnettua yhteyttä MAPK/MEK-reitin riippuvuuteen. Korkea pistemäärä (0,9931) on todennäköisesti verkon etenemisen tuottama artefakti, eikä sitä tule pitää biologisena tukena.
 
 **Ei-ihomelanooma:** Limakalvo-, uvea- ja muiden sijaintien melanoomissa on BRAF- tai NRAS-ohjautuvia MAPK-aktiivisia alaryhmiä, joten MEK:n esto on mekanistisesti uskottavaa. Uveamelanooman taustalla ovat pääosin GNAQ/GNA11-muutokset ja niiden alavirran MAPK-signalointi, mikä tukee MEK-estäjäyhdistelmiä. Hyväksytty ihomelanooman käyttöaihe (BRAF V600, yhdessä dabrafenibin kanssa) antaa läheisen biologisen esikuvan. Näyttö on kuitenkin alatyypeittäin heterogeenista ja enimmäkseen pieniä tai varhaisen vaiheen tutkimuksia.
 

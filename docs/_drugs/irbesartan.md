@@ -4,17 +4,17 @@ title: Irbesartan
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 238
 evidence_level: L5
-indication_count: 4
+indication_count: 3
 last_modified_at: 2026-10-13
-description: "Irbesartan: ennustettu uusi käyttöaihe Pahanlaatuinen renovaskulaarinen hypertensio (näytön taso L5). Alkuperäinen käyttöaihe: Verenpainetauti"
 monitor_inn: "IRBESARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism"]
+description: "Irbesartan: ennustettu uusi käyttöaihe Malignant hypertensive renal disease (näytön taso L5). Alkuperäinen käyttöaihe: Hypertension"
 ---
 
 # Irbesartan
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-## Irbesartaani: Verenpainetaudista pahanlaatuiseen renovaskulaariseen hypertensioon
+## Irbesartan: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## Yhden lauseen tiivistelmä
@@ -47,12 +47,12 @@ TxGNN-malli ennustaa sen voivan tehota **pahanlaatuiseen renovaskulaariseen hype
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Verenpainetauti |
-| Ennustettu uusi käyttöaihe | Pahanlaatuinen renovaskulaarinen hypertensio |
-| TxGNN-ennustepistemäärä | 99,31 % |
+| Alkuperäinen käyttöaihe | Hypertension |
+| Ennustettu uusi käyttöaihe | Malignant hypertensive renal disease |
+| TxGNN-ennustepistemäärä | 0.9931 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 10 (kaikki peruutettuja, voimassa olevia 0) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 10/10) |
+| Myyntilupien määrä | 10 (voimassa: 10) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -63,9 +63,9 @@ Irbesartaani salpaa AT1-reseptoria ja estää angiotensiini II:n verisuonia supi
 
 Renovaskulaarisessa hypertensiossa munuaisvaltimon ahtauma aktivoi reniini-angiotensiinijärjestelmää, joten yhteys alkuperäiseen käyttöaiheeseen on ilmeinen. Kyse on pikemminkin alkuperäisen verenpainelääkityksen laajennuksesta kuin aidosta uudelleenkäytöstä. Huomionarvoista on, että AT1-salpaajiin liittyy varoitus molemminpuolisessa munuaisvaltimon ahtaumassa, jossa ne voivat johtaa akuuttiin munuaisten vajaatoimintaan.
 
-Toinen korkeimman pistemäärän ennuste, **pahanlaatuinen hypertensiivinen munuaissairaus**, on pistemäärältään identtinen (99,31 %). Tämä viittaa siihen, että ennusteet johtuvat todennäköisesti samasta tietoverkon naapurustosta eivätkä ole toisistaan riippumatonta näyttöä. Angiotensiini II:n aiheuttama verisuonivaurio ja glomerulaarinen hypertensio tekevät yhteydestä uskottavan, mutta pahanlaatuisen (kiihtyneen) hypertension tilannetta ei tue yksikään tutkimus.
+Toinen korkeimman pistemäärän ennuste, **pahanlaatuinen hypertensiivinen munuaissairaus**, on pistemäärältään identtinen (0,9931). Tämä viittaa siihen, että ennusteet johtuvat todennäköisesti samasta tietoverkon naapurustosta eivätkä ole toisistaan riippumatonta näyttöä. Angiotensiini II:n aiheuttama verisuonivaurio ja glomerulaarinen hypertensio tekevät yhteydestä uskottavan, mutta pahanlaatuisen (kiihtyneen) hypertension tilannetta ei tue yksikään tutkimus.
 
-Muita ennustettuja käyttöaiheita ovat keuhkoverenpainetaudin muodot (pistemäärä 99,25 %). Hypoksiaan liittyvää keuhkoverenpainetautia tukee vain prekliininen aineisto (ks. alla), ja epäselvän monitekijäisen keuhkoverenpainetaudin kohdalla näyttöä ei ole lainkaan.
+Muita ennustettuja käyttöaiheita ovat keuhkoverenpainetaudin muodot (pistemäärä 0,9925). Hypoksiaan liittyvää keuhkoverenpainetautia tukee vain prekliininen aineisto (ks. alla), ja epäselvän monitekijäisen keuhkoverenpainetaudin kohdalla näyttöä ei ole lainkaan.
 
 ---
 

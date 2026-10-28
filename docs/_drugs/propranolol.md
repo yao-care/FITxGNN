@@ -4,7 +4,7 @@ title: Propranolol
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 359
 evidence_level: L5
-indication_count: 6
+indication_count: 4
 last_modified_at: 2026-10-13
 description: "Propranolol: ennustettu uusi käyttöaihe Distaalinen myopatia, Tateyama-tyyppi (näytön taso L5). Alkuperäinen käyttöaihe: Hemangiooma"
 monitor_inn: "Propranolol"
@@ -14,7 +14,7 @@ predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy w
 # Propranolol
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-## Propranololi: Infantiilin hemangiooman hoidosta distaaliseen myopatiaan (Tateyama-tyyppi)
+## Propranololi: Distaalinen myopatia, Tateyama-tyyppi
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -50,10 +50,10 @@ Tämän ennusteen todistusaste on vain mallipohjainen (L5). Vahvempaa tukea on l
 |------|------|
 | Alkuperäinen käyttöaihe | Hemangiooma |
 | Ennustettu uusi käyttöaihe | Distaalinen myopatia, Tateyama-tyyppi |
-| TxGNN-ennusteen pistemäärä | 99,40 % |
+| TxGNN-ennusteen pistemäärä | 0,9940 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -64,7 +64,7 @@ Propranololin vaikutusmekanismitietoja ei ole tässä raportissa käytettäviss�
 
 Distaalinen myopatia (Tateyama-tyyppi) on harvinainen lihassairaus, eikä sillä tunneta beetaadrenergistä mekanismia. Aineiston perusteella ennustetta tukee vain graafipohjainen mallipisteytys. Mekanistista yhteyttä alkuperäiseen käyttöaiheeseen ei voida osoittaa, joten ennuste on tässä vaiheessa spekulatiivinen.
 
-Muut ennustelistan kohteet (pistemäärät 99,1–99,3 %):
+Muut ennustelistan kohteet (pistemäärät 99,1–0,9930):
 
 - **Synnynnäinen myopatia, jossa ohuita filamentteja liikaa:** rakenteellinen sarkomeerihäiriö, uskottavaa beetasalpauksen perustetta ei ole. Ei näyttöä.
 - **Urheiluharjoittelun aiheuttama hypertrofinen kardiomyopatia:** beetasalpaus voisi periaatteessa vähentää sympaattista aktiivisuutta, mutta kyse on fysiologisesta sopeutumasta, joka ei yleensä vaadi lääkehoitoa. Ei näyttöä.
@@ -127,7 +127,7 @@ Lääkeyhteisvaikutuksista ei ole kliinisesti luokiteltua tietoa. Saatavilla on 
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ensisijaiselle ennusteelle (distaalinen myopatia, Tateyama-tyyppi) ei ole kliinisiä tutkimuksia, julkaisuja eikä mekanistista perustetta. Näytön taso on L5 ja korkea pistemäärä (99,4 %) perustuu vain graafimalliin.
+- Ensisijaiselle ennusteelle (distaalinen myopatia, Tateyama-tyyppi) ei ole kliinisiä tutkimuksia, julkaisuja eikä mekanistista perustetta. Näytön taso on L5 ja korkea pistemäärä (0,9940) perustuu vain graafimalliin.
 - Suomessa ainoa myyntilupa on peruutettu, ja vasta-aihesignaalit koskevat myös lihassairauksia.
 
 **Etenemiseksi tarvitaan:**

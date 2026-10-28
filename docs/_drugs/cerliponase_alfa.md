@@ -4,17 +4,17 @@ title: Cerliponase Alfa
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 106
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Cerliponase Alfa: ennustettu uusi käyttöaihe Scheien oireyhtymä (näytön taso L5). Alkuperäinen käyttöaihe: Neuronaaliset seroidilipofuskinoosit"
 monitor_inn: "CERLIPONASE ALFA"
-predicted_indications: ["Scheie syndrome", "Hurler syndrome", "lysosomal storage disease with skeletal involvement", "cholesteryl ester storage disease", "Gaucher disease", "familial encephalopathy with neuroserpin inclusion bodies", "Wolman disease with hypolipoproteinemia and acanthocytosis", "myoclonic epilepsy, juvenile, susceptibility to", "proximal myopathy with extrapyramidal signs", "autosomal ichthyosis syndrome with fatal disease course"]
+predicted_indications: ["Scheie syndrome", "Hurler syndrome", "lysosomal storage disease with skeletal involvement", "cholesteryl ester storage disease", "Gaucher disease", "familial encephalopathy with neuroserpin inclusion bodies", "Wolman disease with hypolipoproteinemia and acanthocytosis", "proximal myopathy with extrapyramidal signs", "autosomal ichthyosis syndrome with fatal disease course"]
 ---
 
 # Cerliponase Alfa
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Serliponaasialfa: Neuronaalisesta seroidilipofuskinoosista Scheien oireyhtymään
+## Serliponaasialfa: Scheien oireyhtymä
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -49,10 +49,10 @@ TxGNN-malli ennustaa sen voivan tehota **Scheien oireyhtymään**, mutta ennuste
 |------|------|
 | Alkuperäinen käyttöaihe | Neuronaaliset seroidilipofuskinoosit |
 | Ennustettu uusi käyttöaihe | Scheien oireyhtymä |
-| TxGNN-ennustepisteet | 99,98 % |
+| TxGNN-ennustepisteet | 0.9998 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

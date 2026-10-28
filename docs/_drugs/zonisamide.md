@@ -4,17 +4,17 @@ title: Zonisamide
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 480
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Zonisamide: ennustettu uusi käyttöaihe Touretten oireyhtymä (näytön taso L5). Alkuperäinen käyttöaihe: Osittaiset epilepsiakohtaukset (epilepsia)"
 monitor_inn: "ZONISAMIDE"
 predicted_indications: ["Tourette syndrome", "trichotillomania", "methemoglobinemia, alpha type", "methemoglobinemia", "Prinzmetal angina", "methemoglobin reductase deficiency", "manic bipolar affective disorder", "fibromyalgia", "conjunctivitis"]
+description: "Zonisamide: ennustettu uusi käyttöaihe Tourette syndrome (näytön taso L5). Alkuperäinen käyttöaihe: Epilepsies, Partial"
 ---
 
 # Zonisamide
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Tsoniamidi: Epilepsiasta Touretten oireyhtymään
+## Zonisamide: Tourette syndrome
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -44,12 +44,12 @@ Tsoniamidi on epilepsialääke, jota on käytetty osittaisten epileptisten kohta
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Osittaiset epilepsiakohtaukset (epilepsia) |
-| Ennustettu uusi käyttöaihe | Touretten oireyhtymä |
+| Alkuperäinen käyttöaihe | Epilepsies, Partial; Epilepsy |
+| Ennustettu uusi käyttöaihe | Tourette syndrome |
 | TxGNN-ennustepisteet | 99,85 % |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 2 (kaikki peruutettuja) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Myyntilupien määrä | 2 (voimassa: 2) |
 | Suositeltu päätös | Hold (odotetaan) |
 
 ## Miksi ennuste voisi olla perusteltu?
@@ -72,7 +72,7 @@ Aineistossa oli myös muita ennusteita. Näistä merkittävimmät:
 
 | Käyttöaihe | Pisteet | Näytön taso | Huomio |
 |------|------|------|------|
-| Maaninen kaksisuuntainen mielialahäiriö | 99,35 % | L4 | Vain pieniä avoimia tutkimuksia ja katsauksia; raportoitu tsoniamidin aiheuttama mania (PMID 2109869) puhuu käyttöä vastaan |
+| Maaninen kaksisuuntainen mielialahäiriö | 99,35 % | L5 | Vain pieniä avoimia tutkimuksia ja katsauksia; raportoitu tsoniamidin aiheuttama mania (PMID 2109869) puhuu käyttöä vastaan |
 | Poissaolokohtausepilepsia | 99,24 % | L3 | Vahvin mekanistinen yhteys (T-tyypin kalsiumkanavat); pieniä kontrolloimattomia tutkimuksia (PMID 15847848, 24907183), ei Phase 2/3 -RCT:tä |
 | Fibromyalgia | 99,20 % | L4 | Ainoa tutkimus (NCT00259636, Phase 4) peruttiin ilman osallistujia |
 | Trikotillomania, methemoglobinemia, Prinzmetalin angina, konjunktiviitti | 99,2–99,8 % | L5 | Ei tutkimuksia eikä uskottavaa mekanismia; todennäköisesti verkkomallin artefakteja |

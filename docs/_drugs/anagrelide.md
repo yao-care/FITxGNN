@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Anagrelide
-parent: Pelkkä mallin ennuste (L5)
+parent: Kohtalainen näyttö (L3-L4)
 nav_order: 32
-evidence_level: L5
+evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-13
 description: "Anagrelide: ennustettu uusi käyttöaihe Reaktiivinen trombosytoosi (näytön taso L5). Alkuperäinen käyttöaihe: Essentiaalinen trombosytemia"
@@ -14,7 +14,7 @@ predicted_indications: ["reactive thrombocytosis", "inverse Klippel-Trenaunay sy
 # Anagrelide
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **2** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-## Anagrelidi: Olennaisesta trombosytemiasta reaktiiviseen trombosytoosiin
+## Anagrelidi: Reaktiivinen trombosytoosi
 {: .text-alpha }
 
 ## Yhteenveto
@@ -46,10 +46,10 @@ Anagrelidi on verihiutaleiden määrää alentava lääke, jota käytetään alu
 |------|------|
 | Alkuperäinen käyttöaihe | Essentiaalinen trombosytemia |
 | Ennustettu uusi käyttöaihe | Reaktiivinen trombosytoosi |
-| TxGNN-ennusteen pistemäärä | 99,83 % |
+| TxGNN-ennusteen pistemäärä | 0,9983 |
 | Näytön taso | L4 (kirjallisuus on pääosin katsauksia ja tapausselostuksia, ei suoraa tutkimusnäyttöä uudesta käyttöaiheesta; mallin ennuste on ainoa varsinainen tuki) |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 2 (kaikki peruutettuja, voimassa olevia 0) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Myyntilupien määrä | 2 (voimassa: 2) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste voi olla perusteltu?
@@ -112,7 +112,7 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet tulee tarkistaa erikseen.
 - Tutkimusnäyttöä (esim. tapaussarjoja tai pilottitutkimus) anagrelidin käytöstä tässä tilassa
 - Selvitystä peruutettujen myyntilupien syistä ja valmisteen saatavuudesta Suomessa
 
-**Sivuhuomio:** Toinen ennustettu käyttöaihe, käänteinen Klippel–Trenaunayn oireyhtymä (TxGNN-pistemäärä 99,59 %), perustuu pelkkään mallin ennusteeseen (L5), eikä sille ole tutkimuksia tai kirjallisuutta. Sille ei voida perustella mekanistista yhteyttä toimitetun aineiston pohjalta, ja suositus on myös Hold.
+**Sivuhuomio:** Toinen ennustettu käyttöaihe, käänteinen Klippel–Trenaunayn oireyhtymä (TxGNN-pistemäärä 0,9959), perustuu pelkkään mallin ennusteeseen (L5), eikä sille ole tutkimuksia tai kirjallisuutta. Sille ei voida perustella mekanistista yhteyttä toimitetun aineiston pohjalta, ja suositus on myös Hold.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

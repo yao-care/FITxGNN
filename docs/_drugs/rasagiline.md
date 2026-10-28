@@ -33,13 +33,13 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-## Rasagiliini: Parkinsonin taudista PLA2G6-liitännäiseen neurodegeneraatioon
+## Rasagiliini: PLA2G6-liitännäinen neurodegeneraatio
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 
 Rasagiliini on MAO-B:n estäjä, jota on käytetty Parkinsonin taudin hoitoon.
-TxGNN-malli ennustaa sen voivan tehota **PLA2G6-liitännäiseen neurodegeneraatioon** (pistemäärä 99,7 %), mutta ennusteen tueksi ei ole toistaiseksi **yhtään kliinistä tutkimusta eikä julkaisua**. Näyttö perustuu pelkkään mallin ennusteeseen.
+TxGNN-malli ennustaa sen voivan tehota **PLA2G6-liitännäiseen neurodegeneraatioon** (pistemäärä 0,9971), mutta ennusteen tueksi ei ole toistaiseksi **yhtään kliinistä tutkimusta eikä julkaisua**. Näyttö perustuu pelkkään mallin ennusteeseen.
 
 ## Pikakatsaus
 
@@ -47,10 +47,10 @@ TxGNN-malli ennustaa sen voivan tehota **PLA2G6-liitännäiseen neurodegeneraati
 |------|------|
 | Alkuperäinen käyttöaihe | Parkinsonin tauti |
 | Ennustettu uusi käyttöaihe | PLA2G6-liitännäinen neurodegeneraatio |
-| TxGNN-ennusteen pistemäärä | 99,71 % |
+| TxGNN-ennusteen pistemäärä | 0,9971 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 3 (kaikki peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 3/3) |
+| Myyntilupien määrä | 3 (voimassa: 3) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste on perusteltu?
@@ -59,7 +59,7 @@ Rasagiliini on peruuttamaton MAO-B:n estäjä. Se lisää dopamiinin saatavuutta
 
 PLA2G6-liitännäiseen neurodegeneraatioon kuuluu muun muassa PLA2G6:een liittyvä dystonia-parkinsonismi, jossa esiintyy dopaminergisten hermosolujen menetystä ja alfa-synukleiinipatologiaa. Tämä muistuttaa Parkinsonin taudin patologiaa, joten parkinsonismin osalta yhteys on uskottava.
 
-Yhteys perustuu kuitenkin vain TxGNN-ennusteeseen ja yhteiseen patologiaan. Päättely ei päde infantiiliin neuroaksonaaliseen dystrofiaan. Muut aineiston ennustetut käyttöaiheet (Rasmussenin enkefaliitti, myeliitti, transaldolaasipuutos, polymikrogyria) ovat mekanistisesti vielä heikommin perusteltuja. Lähimpänä alkuperäistä käyttöaihetta on nuorten parkinsonismi (Huntin tyyppi, pistemäärä 99,25 %), joka on mahdollinen tutkimuskysymys esimerkiksi retrospektiivisen kohortti- tai rekisteritutkimuksen muodossa.
+Yhteys perustuu kuitenkin vain TxGNN-ennusteeseen ja yhteiseen patologiaan. Päättely ei päde infantiiliin neuroaksonaaliseen dystrofiaan. Muut aineiston ennustetut käyttöaiheet (Rasmussenin enkefaliitti, myeliitti, transaldolaasipuutos, polymikrogyria) ovat mekanistisesti vielä heikommin perusteltuja. Lähimpänä alkuperäistä käyttöaihetta on nuorten parkinsonismi (Huntin tyyppi, pistemäärä 0,9925), joka on mahdollinen tutkimuskysymys esimerkiksi retrospektiivisen kohortti- tai rekisteritutkimuksen muodossa.
 
 ## Kliininen näyttö
 

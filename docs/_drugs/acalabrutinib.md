@@ -8,6 +8,7 @@ nav_order: 16
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-19
+predicted_indications: []
 ---
 
 # Acalabrutinib
@@ -88,7 +89,8 @@ Acalabrutinib ei ole tällä hetkellä markkinoilla Taiwanissa. TFDA-lisenssejä
 | Kohta | Sisältö |
 |------|---------|
 | TFDA-lupa | Ei mitään (0 lupaa) |
-| Markkinatilanne | Ei markkinoilla (Ei markkinoilla) |
+| Markkinatilanne | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 
 > **Huomio:** Acalabrutinib on markkinoilla kansainvälisesti brändin nimellä **Calquence®** (AstraZeneca) ja se on saanut hyväksynnän Yhdysvaltain FDA:lta, EMA:lta ja muista sääntelyviranomaisista CLL/SLL:lle ja MCL:lle.
 

@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Emtricitabine
-parent: Kohtalainen näyttö (L3-L4)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 163
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-13
 description: "Emtricitabine: ennustettu uusi käyttöaihe Kissan hankinnainen immuunipuutosoireyhtymä (FIV) (näytön taso L4). Alkuperäinen käyttöaihe: HIV-infektiot"
@@ -14,7 +14,7 @@ predicted_indications: ["feline acquired immunodeficiency syndrome", "simian imm
 # Emtricitabine
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-## Emtrisitabiini: HIV-infektiosta kissan immuunipuutosoireyhtymään
+## Emtrisitabiini: Kissan hankinnainen immuunikatooireyhtymä
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -50,10 +50,10 @@ Tukena on **0 kliinistä tutkimusta** ja **1 julkaisu** (prekliininen), joten n�
 |------|------|
 | Alkuperäinen käyttöaihe | HIV-infektiot |
 | Ennustettu uusi käyttöaihe | Kissan hankinnainen immuunipuutosoireyhtymä (FIV) |
-| TxGNN-ennusteen pistemäärä | 99,92 % |
-| Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 18 (kaikki peruutettuja) |
+| TxGNN-ennusteen pistemäärä | 0,9992 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 18/18) |
+| Myyntilupien määrä | 18 (voimassa: 18) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

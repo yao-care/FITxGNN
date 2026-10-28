@@ -4,17 +4,17 @@ title: Trastuzumab
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 450
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-13
-description: "Trastuzumab: ennustettu uusi käyttöaihe Progesteronireseptorinegatiivinen rintasyöpä (näytön taso L5). Alkuperäinen käyttöaihe: Mahalaukun syöpä ja rintasyöpä"
 monitor_inn: "TRASTUZUMAB"
 predicted_indications: ["malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "kidney pelvis sarcomatoid transitional cell carcinoma", "prostatic urethra urothelial carcinoma"]
+description: "Trastuzumab: ennustettu uusi käyttöaihe Malignant cutaneous granular cell skin tumor (näytön taso L5). Alkuperäinen käyttöaihe: Stomach Neoplasms"
 ---
 
 # Trastuzumab
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Trastutsumabi: Rintasyövästä ja mahalaukun syövästä ennustettuun uuteen käyttöaiheeseen (progesteronireseptorinegatiivinen rintasyöpä)
+## Trastuzumab: Malignant cutaneous granular cell skin tumor
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 
-Trastutsumabi on HER2-reseptoriin kohdistuva monoklonaalinen vasta-aine, jota on alun perin käytetty rintasyövän ja mahalaukun syövän hoitoon. TxGNN-malli ennustaa sen tehoavan myös **progesteronireseptorinegatiiviseen rintasyöpään** (ennusteen pistemäärä 99,90 %). Tämän suunnan tueksi on koottu **16 kliinistä tutkimusta** ja **20 julkaisua**. Käytännössä kyseessä on jo vakiintunut käyttö HER2-positiivisessa rintasyövässä, ei varsinainen uudelleenkäyttö.
+Trastutsumabi on HER2-reseptoriin kohdistuva monoklonaalinen vasta-aine, jota on alun perin käytetty rintasyövän ja mahalaukun syövän hoitoon. Tämän suunnan tueksi on koottu **16 kliinistä tutkimusta** ja **20 julkaisua**. Käytännössä kyseessä on jo vakiintunut käyttö HER2-positiivisessa rintasyövässä, ei varsinainen uudelleenkäyttö.
 
 *Huom. ennustelistan ensimmäinen kohde (rank 1) on "normal breast-like" -alatyyppi, jonka näyttö on heikko (L4, Hold). Tässä raportissa pääasiallisena tarkasteltavana käyttöaiheena on rank 3, jolla on vahvin ja tulkinnallisesti selkein näyttö HER2-positiivisessa populaatiossa. Muut ennustetut käyttöaiheet on koottu loppuun.*
 
@@ -48,12 +48,12 @@ Trastutsumabi on HER2-reseptoriin kohdistuva monoklonaalinen vasta-aine, jota on
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Mahalaukun syöpä ja rintasyöpä |
-| Ennustettu uusi käyttöaihe | Progesteronireseptorinegatiivinen rintasyöpä |
-| TxGNN-ennusteen pistemäärä | 99,90 % |
-| Näytön taso | L1 (useita valmistuneita vaiheen 3 satunnaistettuja tutkimuksia HER2-positiivisessa rintasyövässä) |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 11 (kaikki peruutettuja) |
+| Alkuperäinen käyttöaihe | Stomach Neoplasms;Breast Neoplasms; Breast Neoplasms;Stomach Neoplasms; Breast Neoplasms |
+| Ennustettu uusi käyttöaihe | Malignant cutaneous granular cell skin tumor |
+| TxGNN-ennusteen pistemäärä | 0.9948 |
+| Näytön taso | L5 (useita valmistuneita vaiheen 3 satunnaistettuja tutkimuksia HER2-positiivisessa rintasyövässä) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 11/11) |
+| Myyntilupien määrä | 11 (voimassa: 11) |
 | Suositeltu päätös | Proceed with Guardrails (eteneminen suojatoimin) |
 
 ---
@@ -145,10 +145,6 @@ Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 | Käyttöaihe | Pistemäärä | Näytön taso | Suositus |
 |------|------|------|------|
-| Normal breast-like -alatyypin rintasyöpä | 99,90 % | L4 | Hold |
-| Progesteronireseptoripositiivinen rintasyöpä | 99,90 % | L1 | Proceed with Guardrails |
-| Luminaalinen A- tai B-rintakasvain | 99,90 % | L1 | Proceed with Guardrails (vain HER2-positiivinen luminaalinen B) |
-| Maligni ihon granulaarisolukasvain, ektomesenkymoomi, HHV-8-liitännäinen kasvain, välikorvan neuroendokriininen kasvain, munuaisaltaan sarkomatoidi siirtymäsolusyöpä, eturauhasen virtsaputken urotelikarsinooma | 99,0–99,5 % | L5 | Hold (ei tutkimus- eikä kirjallisuusnäyttöä) |
 
 ---
 

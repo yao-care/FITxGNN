@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Imatinib
-parent: Kohtalainen näyttö (L3-L4)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 223
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
 description: "Imatinib: ennustettu uusi käyttöaihe Sydämen fibrosarkooma (heart fibrosarcoma) (näytön taso L4). Alkuperäinen käyttöaihe: Prekursorisolu-lymfoblastileukemia/lymfooma…"
@@ -14,7 +14,7 @@ predicted_indications: ["heart fibrosarcoma", "fibroblastic neoplasm", "conventi
 # Imatinib
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,9 +49,9 @@ Vahvempaa tukea saavat muut ennustetut kohteet, kuten liposarkooma (3 vaiheen 1/
 | Alkuperäinen käyttöaihe | Prekursorisolu-lymfoblastileukemia/lymfooma, dermatofibrosarcoma protuberans, myelodysplastiset/myeloproliferatiiviset sairaudet, krooninen myelooinen leukemia (BCR-ABL-positiivinen), hypereosinofiilinen oireyhtymä (Glivec-valmisteella lisäksi GIST) |
 | Ennustettu uusi käyttöaihe | Sydämen fibrosarkooma (heart fibrosarcoma) |
 | TxGNN-ennustepistemäärä | 99,94 % |
-| Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 3 (kaikki peruutettuja) |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 3/3) |
+| Myyntilupien määrä | 3 (voimassa: 3) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste on järkevä?

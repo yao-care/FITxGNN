@@ -4,17 +4,17 @@ title: Prasugrel
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 354
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Prasugrel: ennustettu uusi käyttöaihe Keuhkoverenpainetauti (näytön taso L5). Alkuperäinen käyttöaihe: Akuutti sepelvaltimotautioireyhtymä, epästabiili angina pectoris…"
 monitor_inn: "PRASUGREL"
-predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura", "kyphoscoliotic heart disease", "rheumatoid arthritis", "homozygous familial hypercholesterolemia", "hypoalphalipoproteinemia", "migraine with or without aura, susceptibility to", "brachydactyly-syndactyly syndrome", "leprosy"]
+predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura", "kyphoscoliotic heart disease", "rheumatoid arthritis", "homozygous familial hypercholesterolemia", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "leprosy"]
 ---
 
 # Prasugrel
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Prasugreeli: Akuutista sepelvaltimotautioireyhtymästä migreeniin
+## Prasugreeli: Keuhkoverenpainetauti
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 
 Prasugreeli on verihiutaleiden aggregaatiota estävä lääke, jota on alun perin käytetty akuutin sepelvaltimotautioireyhtymän, epästabiilin angina pectoriksen ja sydäninfarktin hoitoon.
-TxGNN-malli ennustaa sen voivan tehota ensisijaisesti **keuhkoverenpainetautiin** (pistemäärä 99,88 %), mutta tälle ennusteelle ei ole kliinistä tukea. Parhaiten tuettu uusi suunta on **migreeni** (erityisesti avoimeen foramen ovaleen eli PFO:hon liittyvä migreeni), jota tukee **2 kliinistä tutkimusta** ja **2 julkaisua**, mutta näyttö on epäsuoraa ja heikkoa.
+TxGNN-malli ennustaa sen voivan tehota ensisijaisesti **keuhkoverenpainetautiin** (pistemäärä 0,9988), mutta tälle ennusteelle ei ole kliinistä tukea. Parhaiten tuettu uusi suunta on **migreeni** (erityisesti avoimeen foramen ovaleen eli PFO:hon liittyvä migreeni), jota tukee **2 kliinistä tutkimusta** ja **2 julkaisua**, mutta näyttö on epäsuoraa ja heikkoa.
 
 ## Pikakatsaus
 
@@ -49,11 +49,11 @@ Taulukossa on esitetty sekä mallin ensimmäinen ennuste että parhaiten tuettu 
 |------|------|
 | Alkuperäinen käyttöaihe | Akuutti sepelvaltimotautioireyhtymä, epästabiili angina pectoris, sydäninfarkti |
 | Ennustettu uusi käyttöaihe (sijalla 1) | Keuhkoverenpainetauti |
-| TxGNN-ennustepisteet (sijalla 1) | 99,88 % |
+| TxGNN-ennustepisteet (sijalla 1) | 0,9988 |
 | Näytön taso (sijalla 1) | L5 |
 | Parhaiten tuettu vaihtoehto | Migreeni (PFO-alaryhmä): 99,88 %, näytön taso L3 |
-| Suomen markkinatilanne | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Suomen markkinatilanne | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (keuhkoverenpainetauti); migreenin osalta tutkimuskysymys, jota voi jatkaa varovaisuusperiaatteella |
 
 ## Miksi ennuste on perusteltu?

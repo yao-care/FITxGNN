@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Fluticasone Furoate
-parent: Kohtalainen näyttö (L3-L4)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 192
-evidence_level: L4
-indication_count: 8
+evidence_level: L5
+indication_count: 7
 last_modified_at: 2026-10-13
 description: "Fluticasone Furoate: ennustettu uusi käyttöaihe Atooppinen ihottuma (atopic eczema) (näytön taso L4). Alkuperäinen käyttöaihe: Kausiluonteinen ja ympärivuotinen allerginen nuha (lisäksi COPD ja as…"
 monitor_inn: "FLUTICASONE FUROATE"
@@ -14,7 +14,7 @@ predicted_indications: ["atopic eczema", "bronchitis", "2-hydroxyethyl methacryl
 # Fluticasone Furoate
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **8** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **7** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **8** kpl
 
 </div>
 
-## Flutikasonifuroaatti: Allergisesta nuhasta, keuhkoahtaumataudista ja astmasta atooppiseen ihottumaan
+## Flutikasonifuroaatti: Atooppinen ihottuma
 {: .text-alpha }
 
 ## Yhteenveto
@@ -47,10 +47,10 @@ TxGNN-malli ennustaa sen voivan tehota **atooppiseen ihottumaan**, mutta tälle 
 |------|------|
 | Alkuperäinen käyttöaihe | Kausiluonteinen ja ympärivuotinen allerginen nuha (lisäksi COPD ja astma) |
 | Ennustettu uusi käyttöaihe | Atooppinen ihottuma (atopic eczema) |
-| TxGNN-ennusteen pistemäärä | 99,98 % |
-| Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia (ei markkinoilla) |
-| Myyntilupien määrä | 5 (kaikki peruutettu) |
+| TxGNN-ennusteen pistemäärä | 0,9998 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 5/5) |
+| Myyntilupien määrä | 5 (voimassa: 5) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste on perusteltu?
@@ -65,14 +65,13 @@ Muut ennusteet ovat vielä heikommin tuettuja. Keuhkoputkentulehduksella (bronki
 
 | Ennustettu käyttöaihe | TxGNN-pistemäärä | Näytön taso | Suositus |
 |------|------|------|------|
-| Atooppinen ihottuma | 99,98 % | L4 | Hold |
-| Bronkiitti | 99,89 % | L3 | Tutkimuskysymys |
-| 2-hydroksietyylimetakrylaattiherkistyminen | 99,87 % | L5 | Hold |
-| Atooppinen dermatiitti (sama käsite kuin ensimmäinen) | 99,81 % | L4 | Hold |
-| Kontaktidermatiitti | 99,46 % | L5 | Hold |
-| Astman alttiuspiirteet | 99,37 % | L5 | Hold |
-| Ammattiperäinen ihottuma | 99,33 % | L5 | Hold |
-| Fototoksinen ihottuma | 99,12 % | L5 | Hold |
+| Atooppinen ihottuma | 0,9998 | L5 | Hold |
+| Bronkiitti | 0,9989 | L5 | Tutkimuskysymys |
+| 2-hydroksietyylimetakrylaattiherkistyminen | 0,9987 | L5 | Hold |
+| Atooppinen dermatiitti (sama käsite kuin ensimmäinen) | 0,9981 | L5 | Hold |
+| Kontaktidermatiitti | 0,9946 | L5 | Hold |
+| Ammattiperäinen ihottuma | 0,9933 | L5 | Hold |
+| Fototoksinen ihottuma | 0,9912 | L5 | Hold |
 
 ## Kliininen tutkimusnäyttö
 

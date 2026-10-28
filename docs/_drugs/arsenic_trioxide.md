@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Arsenic Trioxide
-parent: Vahva näyttö (L1-L2)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 43
-evidence_level: L2
+evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-13
-description: "Arsenic Trioxide: ennustettu uusi käyttöaihe Myelodysplastinen oireyhtymä (näytön taso L2). Alkuperäinen käyttöaihe: Akuutti promyelosyyttileukemia"
 monitor_inn: "ARSENIC TRIOXIDE"
 predicted_indications: ["unclassified myelodysplastic syndrome", "refractory cytopenia of childhood", "severe congenital hypochromic anemia with ringed sideroblasts", "aregenerative anemia", "partial deletion of the long arm of chromosome 5", "myelodysplastic syndrome", "Ewing sarcoma", "dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma"]
+last_modified_at: 2026-10-27
+description: "Arsenic Trioxide: ennustettu uusi käyttöaihe Myelodysplastinen oireyhtymä, luokittelematon (unclassified myelodysplastic syndrome) (näytön taso L5). Alkuperäinen käyttöaihe: Leukemia, Promyelocytic, …"
 ---
 
 # Arsenic Trioxide
 {: .fs-9 }
 
-Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,147 +33,92 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Arseenitrioksidi: Äkillisestä promyelosyyttileukemiasta myelodysplastiseen oireyhtymään
+## Arsenikkitrioksidi: syöpälääke (apoptoosin ja erilaistumisen induktio) → Myelodysplastinen oireyhtymä, luokittelematon (unclassified myelodysplastic syndrome)
 {: .text-alpha }
 
 ## Yhteenveto
 
-Arseenitrioksidi on syöpälääke, jota on käytetty akuutin promyelosyyttileukemian hoitoon.
-TxGNN-malli ennustaa sen voivan tehota **myelodysplastiseen oireyhtymään (MDS)**, ja tätä suuntaa tukee tällä hetkellä **19 kliinistä tutkimusta** ja **20 julkaisua**, joista yksi on järjestelmällinen katsaus ja meta-analyysi.
-Näyttö koostuu pääosin pienistä vaiheen 1 ja 2 tutkimuksista, eikä vaiheen 3 satunnaistettua tutkimusta ole.
+Arsenikkitrioksidi on syöpälääke, jota käytetään leukemian hoitoon. TxGNN-malli ennustaa sen voivan tehota tautiin **myelodysplastinen oireyhtymä, luokittelematon (unclassified myelodysplastic syndrome)**. Tälle nimenomaiselle diagnoosille ei ole kuitenkaan löytynyt yhtään kliinistä tutkimusta eikä julkaisua, joten näyttö perustuu pelkkään mallin ennusteeseen.
 
----
-
-## Pikakatsaus
+## Pikayhteenveto
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Akuutti promyelosyyttileukemia |
-| Ennustettu uusi käyttöaihe | Myelodysplastinen oireyhtymä |
-| TxGNN-ennustepistemäärä | 99,91 % |
-| Näytön taso | L2 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 3 (kaikki peruutettu) |
-| Suositeltu päätös | Jatka varotoimin (Proceed with Guardrails) |
-
-Huomio: tässä raportissa tarkastellaan ensisijaisesti sijalla 6 olevaa ennustetta (MDS), koska se on näytöltään vahvin. Listan ensimmäinen ennuste (luokittelematon MDS) perustuu pelkkään mallin ennusteeseen (L5), eikä siihen ole liitetty tutkimuksia tai kirjallisuutta. Muut ennusteet on koottu loppuun.
-
----
+| Alkuperäinen käyttöaihe | Leukemia, Promyelocytic, Acute |
+| Ennustettu uusi käyttöaihe | Myelodysplastinen oireyhtymä, luokittelematon (unclassified myelodysplastic syndrome) |
+| TxGNN-ennustepistemäärä | 0,9993 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 3/3) |
+| Myyntilupien määrä | 3 (voimassa: 3) |
+| Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste on perusteltu?
 
-Yksityiskohtaisia vaikutusmekanismitietoja ei ole tällä hetkellä saatavilla lähdetiedoista. Tutkimuskirjallisuuden perusteella arseenitrioksidi käynnistää myeloidisoluissa apoptoosin ja erilaistumisen, vaikuttaa NF-κB/FLIP-signalointiin ja BCL2-perheen geeneihin sekä voi palauttaa TP53-toimintaa.
+Tämän lääkkeen yksityiskohtaista vaikutusmekanismia ei ole tällä hetkellä saatavilla kokoamissamme tiedoissa. Tunnetun tiedon perusteella arsenikkitrioksidi on solukuolemaa (apoptoosia) ja solujen erilaistumista edistävä syöpälääke, jonka teho verenkiertoelimistön syöpätaudissa on osoitettu, ja mekanistisesti se voisi soveltua myös myelodysplastisiin oireyhtymiin.
 
-Akuutti promyelosyyttileukemia ja MDS ovat molemmat luuytimen myeloisia pahanlaatuisia sairauksia. MDS voi edetä akuutiksi myeloidileukemiaksi, joten lääkkeen vaikutus myeloidisoluihin tekee ennusteesta biologisesti uskottavan.
+Epäsuoraa tukea antaa arsenikkitrioksidin vaikutus laajemmassa myelodysplastisten oireyhtymien ryhmässä: apoptoosin induktio sekä NF-kB- ja FLIP-signaloinnin muuntelu. Tätä ei ole kuitenkaan osoitettu juuri tälle alatyypille.
 
-Näyttö on kuitenkin rajallista: useita tutkimuksia on keskeytetty, potilasmäärät ovat pieniä, eikä vaiheen 3 satunnaistettu tutkimus osoita hyötyä suoraan. Siksi näytön taso on L2.
+## Kliininen tutkimusnäyttö
 
----
-
-## Kliiniset tutkimukset
-
-Taulukossa on 10 relevanteimpana pidettyä tutkimusta (yhteensä 19 tutkimusta MDS-ennusteessa).
-
-| Tutkimusnumero | Vaihe | Tila | Osallistujia | Keskeiset havainnot |
-|---------|------|------|------|---------|
-| [NCT00251511](https://clinicaltrials.gov/study/NCT00251511) | Vaihe 2 | Keskeytetty | 60 | Arseenitrioksidi + talidomidi MDS:ssä kaikissa riskiluokissa |
-| [NCT00093366](https://clinicaltrials.gov/study/NCT00093366) | Vaihe 1/2 | Päättynyt | 32 | Arseenitrioksidi + etanersepti pitkälle edenneessä MDS:ssä |
-| [NCT00621023](https://clinicaltrials.gov/study/NCT00621023) | Vaihe 2 | Päättynyt | 7 | Pilotti: detsitabiini + arseenitrioksidi + askorbiinihappo, turvallisuus |
-| [NCT00671697](https://clinicaltrials.gov/study/NCT00671697) | Vaihe 1 | Päättynyt | 13 | Detsitabiini + arseenitrioksidi + askorbiinihappo MDS:ssä ja AML:ssä |
-| [NCT00195104](https://clinicaltrials.gov/study/NCT00195104) | Vaihe 1/2 | Päättynyt | 87 | Arseenitrioksidi + pieniannoksinen sytarabiini korkean riskin MDS:ssä |
-| [NCT02190695](https://clinicaltrials.gov/study/NCT02190695) | Vaihe 2 | Päättynyt | 92 | Detsitabiini vs. detsitabiini + karboplatiini vs. detsitabiini + arseeni, AML/MDS |
-| [NCT00003395](https://clinicaltrials.gov/study/NCT00003395) | Vaihe 1 | Päättynyt | ei ilmoitettu | Annosvaihtelututkimus pitkälle edenneissä hematologisissa syövissä |
-| [NCT06670222](https://clinicaltrials.gov/study/NCT06670222) | Vaihe 1 | Rekrytoi | 24 | Oraalinen arseeni matalan riskin MDS:ssä ESA-hoidon ja luspaterseptin jälkeen |
-| [NCT06778187](https://clinicaltrials.gov/study/NCT06778187) | Vaihe 2 | Rekrytoi | 30 | Oraalinen arseenitrioksidi TP53-mutatoituneissa myeloisissa pahanlaatuisuuksissa |
-| [NCT07737769](https://clinicaltrials.gov/study/NCT07737769) | Vaihe 1 | Ei vielä rekrytoi | 20 | TP53:n reaktivointi allogeenisessa kantasolusiirrossa |
-
----
+Tähän ennusteeseen liittyviä kliinisiä tutkimuksia ei ole tällä hetkellä rekisteröity.
 
 ## Kirjallisuusnäyttö
 
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
-|------|-----|------|------|---------|
-| [37908176](https://pubmed.ncbi.nlm.nih.gov/37908176/) | 2023 | Järjestelmällinen katsaus ja meta-analyysi | Hematology | Arseenia sisältävien hoito-ohjelmien teho ja haittatapahtumat MDS:ssä |
-| [20956016](https://pubmed.ncbi.nlm.nih.gov/20956016/) | 2011 | Vaiheen 1/2 kliininen tutkimus | Leukemia Research | Arseeni + pieniannoksinen sytarabiini: täydellinen remissio 17 %:lla (49 potilasta) |
-| [17920679](https://pubmed.ncbi.nlm.nih.gov/17920679/) | 2008 | Kliininen tutkimus | Leukemia Research | Arseeni + talidomidi + retinoiinihappo korkeamman riskin MDS:ssä |
-| [22964015](https://pubmed.ncbi.nlm.nih.gov/22964015/) | 2012 | Mekanistinen/kliininen | J Hematol Oncol | Arseeni ja askorbiinihappo vaikuttavat BCL2-perheen geeneihin MDS-potilailla |
-| [16105982](https://pubmed.ncbi.nlm.nih.gov/16105982/) | 2005 | Mekanistinen (in vitro) | Blood | NF-κB ja FLIP arseenin aiheuttamassa apoptoosissa MDS:ssä |
-| [18282365](https://pubmed.ncbi.nlm.nih.gov/18282365/) | 2007 | Katsaus | Clin Lymphoma Myeloma | Arseenitrioksidin uusi tutkimusnäyttö leukemioissa ja MDS:ssä |
-| [20425329](https://pubmed.ncbi.nlm.nih.gov/20425329/) | 2006 | Katsaus | Curr Hematol Malig Rep | Arseenin proapoptoottiset, antiproliferatiiviset ja antiangiogeneettiset vaikutukset MDS:ssä |
-| [38816179](https://pubmed.ncbi.nlm.nih.gov/38816179/) | 2024 | Prekliininen | Immunopharmacol Immunotoxicol | Realgarin ja arseenitrioksidin immunologiset vaikutukset MDS-hiirimallissa |
-| [41398777](https://pubmed.ncbi.nlm.nih.gov/41398777/) | 2025 | Prekliininen | Medicine | Triptolidi + arseeni aiheuttaa MDS-solujen apoptoosin NF-κB-reitin estolla |
-| [27665715](https://pubmed.ncbi.nlm.nih.gov/27665715/) | 2016 | Prekliininen | Mol Med Rep | Arseeni ja triptolidi indusoivat synergistisesti apoptoosia SKM-1-solulinjassa |
+Aiheeseen liittyvää kirjallisuutta ei ole tällä hetkellä saatavilla.
 
----
+## Tiedot Suomen markkinoilta
 
-## Myyntiluvat Suomessa
-
-| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/005218 | Arsenic trioxide medac | Ei ilmoitettu | Akuutti promyelosyyttileukemia (peruutettu) |
-| EMEA/H/C/005175 | Arsenic trioxide Accord | Ei ilmoitettu | Akuutti promyelosyyttileukemia (peruutettu) |
-| EMEA/H/C/000388 | Trisenox | Ei ilmoitettu | Akuutti promyelosyyttileukemia (peruutettu) |
-
----
+| EMEA/H/C/005218 | Arsenic trioxide medac | – | Hyväksytty käyttöaihe ei ole kirjattu paikallisiin tietoihin |
+| EMEA/H/C/005175 | Arsenic trioxide Accord | – | Hyväksytty käyttöaihe ei ole kirjattu paikallisiin tietoihin |
+| EMEA/H/C/000388 | Trisenox | – | Hyväksytty käyttöaihe ei ole kirjattu paikallisiin tietoihin |
 
 ## Sytotoksisuus
 
 | Kohta | Sisältö |
 |------|------|
-| Sytotoksisuusluokitus | Syöpälääke (arseeniyhdiste); tarkempaa luokitusta ei ole saatavilla |
-| Luuydinsuppression riski | Tarkempia tietoja ei ole saatavilla, ks. valmisteyhteenveto |
-| Oksettavuusluokitus | Ks. valmisteyhteenvedon varoitukset ja varotoimet |
-| Seurantakohteet | Sydänfilmi (QT-aika), elektrolyytit (kalium, magnesium), maksa- ja munuaisarvot, verenkuva |
+| Sytotoksisuusluokitus | Perinteinen sytotoksinen syöpälääke (arseeniyhdiste) |
+| Luuytimen suppression riski | Perehdy valmisteyhteenvedon varoituksiin ja varotoimiin |
+| Oksettavuusluokitus | Perehdy valmisteyhteenvedon varoituksiin ja varotoimiin |
+| Seurattavat parametrit | Veriarvot, maksan ja munuaisten toiminta, elektrolyytit (erityisesti kalium ja magnesium) sekä QT-aika EKG:stä |
 | Käsittelysuojaus | Noudatettava sytotoksisten lääkkeiden käsittelyohjeita |
-
----
 
 ## Turvallisuushuomiot
 
-**Tietämyskuvaajan (TxGNN) vasta-aiheisiin liittyvät sairaudet** (eivät perustu valmisteyhteenvetoon): pitkä QT-oireyhtymä, familiaalinen pitkä QT-oireyhtymä, kääntyvien kärkien takykardia (torsades de pointes), munuaissairaus, märkävirtsanjohdin (pyoureter), maksasairaus, sappirakon sairaus, kaliumin puutos ja eteis-kammiokatkos.
+**Sairaudet, joiden yhteydessä lääkkeen käyttöä on syytä arvioida erityisen tarkasti** (lääketieto-organisaation tietokannan mukaan, ei valmisteyhteenvedon teksti):
+- pitkä QT-oireyhtymä, myös perinnöllinen muoto
+- kääntyvien kärkien takykardia (torsades de pointes)
+- munuaissairaus
+- maksasairaus
+- sappirakon sairaus
+- kaliumin puutos
+- eteis-kammiokatkos
+- märkävirtsaisuus (pyoureter)
 
-**Lääkeyhteisvaikutukset** (kaikkiaan 100 löydöstä näytetään esimerkkejä):
-- **Merkittävät (Major):** hydrokortisoni, amfoterisiini B (useat valmisteet), sisapridi, klaritromysiini, dolasetroni, granisetroni, levofloksasiini. Monet liittyvät QT-ajan pitenemiseen tai elektrolyyttihäiriöihin.
-- **Kohtalaiset (Moderate):** famotidiini, loperamidi, bisakodyyli, risiiniöljy, glyseriini, laktitoli, laktuloosi, magnesiumsitraatti, magnesiumhydroksidi.
-- **Vähäinen (Minor):** metronidatsoli.
+**Lääkeyhteisvaikutukset:** Yhteisvaikutuksia on kirjattu yhteensä 100. Merkittäviä (Major) ovat muun muassa:
+- hydrokortisoni
+- amfoterisiini B (useat muodot)
+- sisapridi
+- klaritromysiini
+- dolasetroni
+- granisetroni
+- levofloksasiini
 
-Muita turvallisuuteen liittyviä seurantakohtia ovat ennusteen perusteluissa mainitut QT-ajan pidentyminen, erilaistumisoireyhtymä ja arseenitoksisuus.
+Keskivaikeita (Moderate) ovat muun muassa famotidiini, loperamidi, bisakodyyli, laktuloosi ja magnesiumsitraatti.
 
----
+## Johtopäätös ja seuraavat askeleet
 
-## Muut ennustetut käyttöaiheet
-
-| Sija | Käyttöaihe | TxGNN-pistemäärä | Näytön taso | Suositus |
-|---|---|---|---|---|
-| 1 | Luokittelematon myelodysplastinen oireyhtymä | 99,93 % | L5 | Odota (Hold) |
-| 2 | Lapsuusiän refraktaarinen sytopenia | 99,93 % | L4 | Odota |
-| 3 | Vaikea synnynnäinen hypokrominen anemia, rengassideroblastit | 99,93 % | L5 | Odota |
-| 4 | Aregeneratiivinen anemia | 99,92 % | L3 | Tutkimuskysymys |
-| 5 | Kromosomin 5 pitkän haaran osittainen deleetio | 99,92 % | L5 | Odota |
-| 7 | Ewingin sarkooma | 99,89 % | L3 | Tutkimuskysymys |
-| 8 | Dermatofibrosarcoma protuberans | 99,77 % | L5 | Odota |
-| 9 | Liposarkooma | 99,75 % | L5 | Odota |
-| 10 | Munasarjan myksoidi liposarkooma | 99,70 % | L5 | Odota |
-
-Huomionarvoisia:
-- **Aregeneratiivinen anemia:** pienet kliiniset sarjat tulehduksellisessa/refraktaarisessa vaikeassa aplastisessa anemiassa. Yhdessä sarjassa (5 potilasta) kaikki saavuttivat vasteen (PMID 23044093), mutta toisessa tutkimuksessa ei havaittu vastetta yhdelläkään potilaalla ja tutkimus keskeytettiin (PMID 29075064). Näyttö on ristiriitaista.
-- **Ewingin sarkooma:** näyttö on pääosin prekliinistä (Hedgehog/GLI-reitin esto, etoposidin tehostuminen). Yksi päättynyt vaiheen 2 tutkimus lasten kiinteissä kasvaimissa (22 potilasta, [NCT00024258](https://clinicaltrials.gov/study/NCT00024258)) ei anna Ewing-spesifistä tehotietoa.
-
----
-
-## Johtopäätös ja seuraavat vaiheet
-
-**Päätös: Jatka varotoimin (Proceed with Guardrails)** (koskee MDS-ennustetta)
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-- MDS:stä on useita vaiheen 1 ja 2 tutkimuksia sekä meta-analyysi, ja mekanistinen peruste on uskottava. Tutkimukset ovat kuitenkin pieniä, useita on keskeytetty, eikä vaiheen 3 tutkimusta ole. Myyntiluvat Suomessa on peruutettu, joten käyttö edellyttäisi tutkimus- tai erityislupakäyttöä.
+Ennusteen pistemäärä on erittäin korkea, mutta juuri tälle luokittelemattomalle myelodysplastiselle oireyhtymälle ei ole löytynyt tutkimuksia eikä julkaisuja. Näyttö on siis pelkkää mallin ennustetta (L5). Laajemmasta myelodysplastisten oireyhtymien ryhmästä on olemassa tutkimuksia, mutta ne eivät koske tätä alatyyppiä suoraan.
 
-**Eteenpäin siirtyminen edellyttää:**
-- Valmisteyhteenvedon (Fimea) varoitusten ja vasta-aiheiden hankkimista ja läpikäyntiä, sillä ne puuttuvat tällä hetkellä, ja turvallisuusseulonta on ilman niitä estynyt.
-- Vaikutusmekanismitietojen täydentämistä (esim. DrugBankista).
-- Turvallisuusseurantasuunnitelmaa: QT-aika, elektrolyytit, erilaistumisoireyhtymän seuranta, maksa- ja munuaisarvot sekä yhteisvaikutusten (erityisesti QT-aikaa pidentävät lääkkeet) hallinta.
-- Meneillään olevien tutkimusten tulosten seurantaa (mm. NCT06670222, NCT06778187) ja tarvittaessa vaiheen 3 tutkimuksen suunnittelua.
-- Myyntiluvan tilanteen selvittämistä Suomessa, koska kaikki kolme lupaa on peruutettu.
+**Eteenpäin siirtymiseksi tarvitaan:**
+- Tähän alatyyppiin kohdistuvaa kliinistä tai prekliinistä tutkimusnäyttöä
+- Yksityiskohtaiset vaikutusmekanismitiedot
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden läpikäynti
+- Turvallisuusseurantasuunnitelma (QT-aika, elektrolyytit, erilaistumisoireyhtymä)
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -52,8 +52,8 @@ Ennusteen tueksi ei ole tällä hetkellä **yhtään kliinistä tutkimusta eikä
 | Ennustettu uusi käyttöaihe | Fokaalinen jäykän raajan oireyhtymä |
 | TxGNN-ennustepistemäärä | 99,45 % |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 19 (kaikki peruutettuja, voimassa 0) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 19/19) |
+| Myyntilupien määrä | 19 (voimassa: 19) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -67,7 +67,7 @@ Fokaalinen jäykän raajan oireyhtymä kuuluu jäykän ihmisen oireyhtymän (sti
 Korkea pistemäärä voi heijastaa graafipohjaista yhteyttä: jäykän ihmisen oireyhtymä esiintyy usein yhdessä tyypin 1 diabeteksen ja muiden autoimmuunisairauksien kanssa. Tämä yhteisesiintyvyys ei kuitenkaan tue metformiinin hoitovaikutusta.
 
 Muita ennustettuja käyttöaiheita (kaikilla näytön taso L5 ja suositus Hold):
-- klassinen jäykän ihmisen oireyhtymä (pistemäärä 99,45 %)
+- klassinen jäykän ihmisen oireyhtymä (pistemäärä 0,9945)
 - opsismodysplasia (99,40 %)
 - tiamiinille vastaava toimintahäiriöoireyhtymä (99,40 %)
 - lääkeaineen aiheuttama paikallinen lipodystrofia (99,06 %)

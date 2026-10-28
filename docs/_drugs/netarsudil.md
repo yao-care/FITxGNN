@@ -1,18 +1,19 @@
 ---
 layout: default
 title: Netarsudil
-parent: Pelkkä mallin ennuste (L5)
+parent: Vain tunnetut käytöt (ei uusia ennusteita)
 nav_order: 301
-evidence_level: L5
-indication_count: 2
-last_modified_at: 2026-10-13
-description: "Netarsudil: ennustettu uusi käyttöaihe Primaarinen perinnöllinen glaukooma (näytön taso L5). Alkuperäinen käyttöaihe: Avokulmaglaukooma ja silmänpainetauti (okulaarinen hypertensio)"
+last_modified_at: 2026-10-23
+description: "Netarsudil: tunnetut käyttöaiheet ja markkinatilanne Suomessa; tällä hetkellä ei uutta ehdokasindikaatiota"
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Netarsudil
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
+Näytön taso: **N/A** | Ennustetut käyttöaiheet: **0** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,48 +32,44 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-## Netarsudiili: Avokulmaglaukoomasta primaariseen perinnölliseen glaukoomaan
+<!-- known-uses-page -->
+<!-- description: Netarsudil: tunnetut käyttötarkoitukset ja markkinatilanne Suomessa; tällä hetkellä ei uutta ehdokasindikaatiota -->
+## Netarsudil
 {: .text-alpha }
 
 ## Yhteenveto
-
-Netarsudiili on Rho-kinaasin (ROCK) estäjä, jota on käytetty avokulmaglaukooman ja silmänpainetaudin hoitoon silmätippana. TxGNN-malli ennustaa sen voivan tehota myös **primaariseen perinnölliseen glaukoomaan**. Tälle nimenomaiselle käyttöaiheelle ei kuitenkaan ole **yhtään rekisteröityä kliinistä tutkimusta eikä julkaisua**, joten ennuste perustuu toistaiseksi vain laskennalliseen malliin.
+Mallin Netarsudil-lääkkeelle tuottamat ehdokkaat ovat kaikki jo tunnettuja käyttötarkoituksia, joten uutta ennustettua indikaatiota ei tällä hetkellä ole. Kaksi jäljitettävää ehdokasta liittyy glaukoomaan: toinen on hyväksytty käyttöaihe ja toinen kuuluu samaan tautiryhmään hyväksytyn käyttöaiheen kanssa.
 
 ## Pikakatsaus
-
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Avokulmaglaukooma ja silmänpainetauti (okulaarinen hypertensio) |
-| Ennustettu uusi käyttöaihe | Primaarinen perinnöllinen glaukooma |
-| TxGNN-ennusteen pistemäärä | 99,50 % |
-| Näytön taso | L5 (vain mallin ennuste) |
-| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
-| Myyntilupien määrä | 1 (peruutettu) |
-| Suositeltu päätös | Hold (odota) |
+| Uudet ennustetut indikaatiot | Ei yhtään (kaikki jäljitettävissä olevat mallin ehdokkaat ovat tunnettuja käyttötarkoituksia) |
+| Tunnetut käyttötarkoitukset mallin ehdokkaiden joukossa | 2 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 
-## Miksi ennuste on perusteltu?
+## Tunnetut käyttötarkoitukset mallin ehdokkaiden joukossa
 
-Netarsudiili estää Rho-kinaasia (ROCK1 ja ROCK2) sekä norepinefriinin kuljettajaproteiinia (NET). Estämällä ROCK-entsyymejä se lisää veden poistumista silmän trabekkeliverkon kautta. Lisäksi se laskee episkleraalisen laskimon painetta ja vähentää kammiovesituotantoa. Näiden vaikutusten ansiosta silmänpaine laskee. Esikliinisissä kinaasiseulonnoissa ROCK1 ja ROCK2 tunnistettiin tärkeimmiksi silmänpainetta laskeviksi kohteiksi.
+### Hyväksytty (myyntiluvan tai valmisteyhteenvedon tukema)
+| Käyttöaihe | Lähde |
+|------|------|
+| Glaukooma (glaucoma) | Myyntilupa Suomessa; hyväksytty käyttöaihe: open-angle glaucoma |
 
-Primaarinen perinnöllinen glaukooma on glaukooman muoto, johon liittyy usein heikentynyt kammioveden ulosvirtaus. Tästä syystä ulosvirtausta parantava mekanismi voisi olla sille periaatteessa merkityksellinen. Ennusteen korkea pistemäärä kuvastaa todennäköisesti ennen kaikkea tämän käyttöaiheen läheistä ontologista suhdetta jo hyväksyttyyn avokulmaglaukoomaan. Se ei ole riippumaton näyttö tehosta perinnöllisessä glaukoomassa.
+### Liittyy hyväksyttyyn käyttöaiheeseen (sama tautiryhmä)
+| Käyttöaihe | Hyväksytty ryhmä |
+|------|------|
+| Primaarinen perinnöllinen glaukooma (primary hereditary glaucoma) | glaucoma |
 
-Tälle käyttöaiheelle ei siis ole vielä suoraa kliinistä tai kirjallista tukea. Samalla mekanismilla on kuitenkin laaja näyttö hyväksytyssä käyttöaiheessa. Sitä käsittelevät useat vaiheen 3 tutkimukset ja satunnaistetut vertailut, esimerkiksi netarsudiili verrattuna timololiin sekä netarsudiilin ja latanoprostin kiinteä yhdistelmä. Tätä näyttöä ei voi sellaisenaan siirtää perinnölliseen glaukoomaan.
-
-## Kliiniset tutkimukset
-
-Tällä hetkellä ei ole rekisteröityjä kliinisiä tutkimuksia, jotka koskisivat nimenomaan primaarista perinnöllistä glaukoomaa.
-
-## Kirjallisuusnäyttö
-
-Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta primaarisen perinnöllisen glaukooman osalta.
+### Aiemmin tunnetut yhteydet (hyväksyntää ei löytynyt)
+| Käyttöaihe |
+|------|
+| Ei yhtään |
 
 ## Markkinatiedot Suomessa
 
-| Myyntiluvan numero | Valmisteen nimi | Valmistaja | Hyväksytty käyttöaihe | Tila |
-|---------|------|------|-----------|------|
-| EMEA/H/C/004583 | Rhokiinsa | Santen Oy | Avokulmaglaukooma ja silmänpainetauti | Peruutettu |
-
-Netarsudiilin ja latanoprostin kiinteä yhdistelmä (Roclanda) on saanut EU:n myyntiluvan tammikuussa 2021 avokulmaglaukooman ja silmänpainetaudin hoitoon. Sitä ei ole tässä taulukossa, koska Suomen myyntilupatiedoissa on vain yksi, peruutettu lupa.
+| Myyntilupa | Valmiste | Lääkemuoto | Tila |
+|------|------|------|------|
+| EMEA/H/C/004583 | netarsudil |  | Voimassa |
 
 ## Turvallisuusnäkökohdat
 
@@ -86,21 +83,6 @@ Netarsudiilin ja latanoprostin kiinteä yhdistelmä (Roclanda) on saanut EU:n my
 
 Muista turvallisuustiedoista, kuten varoituksista ja vasta-aiheista, katso valmisteyhteenveto.
 
-## Johtopäätös ja jatkotoimet
-
-**Päätös: Hold (odota)**
-
-**Perustelut:**
-- Ennuste perinnölliselle glaukoomalle on pelkkä mallin tulos (L5), eikä sille ole kliinistä tai kirjallista näyttöä.
-- Laaja näyttö koskee hyväksyttyä avokulmaglaukooman ja silmänpainetaudin käyttöaihetta, joten se ei ole varsinaista lääkkeen uudelleenkäyttöä.
-- Suomessa ainoa myyntilupa on peruutettu.
-
-**Jatkoon tarvitaan:**
-- Perinnöllisen glaukooman alatyyppeihin kohdistuvia esikliinisiä tai kliinisiä tutkimuksia
-- Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvitys Fimean lähteistä
-- Yksityiskohtaisen vaikutusmekanismin vahvistus esimerkiksi DrugBankista
-- Markkinatilanteen ja myyntilupien tilan tarkistus ennen kaupallista tai sääntelyyn liittyvää suunnittelua
-- Silmäturvallisuuden seurantasuunnitelma, jos jatkotutkimuksiin edetään
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

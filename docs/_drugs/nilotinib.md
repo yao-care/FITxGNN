@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Nilotinib
-parent: Kohtalainen näyttö (L3-L4)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 303
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Nilotinib: ennustettu uusi käyttöaihe Dermatofibrosarcoma protuberans (näytön taso L4). Alkuperäinen käyttöaihe: BCR-ABL-positiivinen krooninen myelooinen leukemia"
@@ -14,7 +14,7 @@ predicted_indications: ["dermatofibrosarcoma protuberans"]
 # Nilotinib
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **1** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -51,9 +51,9 @@ Tukena on tällä hetkellä **0 kliinistä tutkimusta** ja **1 julkaisu** (katsa
 | Alkuperäinen käyttöaihe | BCR-ABL-positiivinen krooninen myelooinen leukemia |
 | Ennustettu uusi käyttöaihe | Dermatofibrosarcoma protuberans |
 | TxGNN-ennustepistemäärä | 99,31 % |
-| Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 2 (kumpikin peruutettu) |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Myyntilupien määrä | 2 (voimassa: 2) |
 | Suositeltu päätös | Hold (odotetaan) |
 
 ---
@@ -64,7 +64,7 @@ Tälle raporttia varten kootussa aineistossa ei ole saatavilla yksityiskohtaista
 
 DFSP:lle on tyypillistä COL1A1-PDGFB-fuusio, joka johtaa PDGFRB-reseptorin jatkuvaan autokriiniseen aktivaatioon. Nilotinibi estää BCR-ABL:n lisäksi PDGFR:ää (alfa ja beeta), KIT:iä sekä DDR1/2:ta, joten kohdetasolla ennuste on uskottava.
 
-Sama signalointireitti on imatinibin vakiintuneen tehon perusta DFSP:ssä. Nilotinibi voisi siksi olla mekanistisesti läheinen vaihtoehto esimerkiksi imatinibiresistenssin tai -intoleranssin yhteydessä. Korkea TxGNN-pistemäärä (0,993) sopii tähän PDGFR-pohjaiseen yhteyteen, mutta se on laskennallinen ennuste eikä kliininen todiste.
+Sama signalointireitti on imatinibin vakiintuneen tehon perusta DFSP:ssä. Nilotinibi voisi siksi olla mekanistisesti läheinen vaihtoehto esimerkiksi imatinibiresistenssin tai -intoleranssin yhteydessä. Korkea TxGNN-pistemäärä (0,9931) sopii tähän PDGFR-pohjaiseen yhteyteen, mutta se on laskennallinen ennuste eikä kliininen todiste.
 
 ---
 

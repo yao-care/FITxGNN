@@ -33,7 +33,7 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-## Midatsolaami: Epilepsiasta unettomuuteen
+## Midatsolaami: Unettomuus (insomnia)
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -48,10 +48,10 @@ Midatsolaami on lyhytvaikutteinen bentsodiatsepiini, jonka Suomessa rekisteröit
 |------|------|
 | Alkuperäinen käyttöaihe | Epilepsia |
 | Ennustettu uusi käyttöaihe | Unettomuus (insomnia) |
-| TxGNN-ennusteen pistemäärä | 99,74 % |
+| TxGNN-ennusteen pistemäärä | 0,9974 |
 | Näytön taso | L2 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

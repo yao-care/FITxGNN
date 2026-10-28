@@ -50,10 +50,10 @@ mutta ennusteen tueksi ei ole **yhtään kliinistä tutkimusta eikä julkaisua**
 |------|------|
 | Alkuperäinen käyttöaihe | Hypofosfatasia |
 | Ennustettu uusi käyttöaihe | Mitokondrion oksidatiivisen fosforylaation häiriö (ydin-DNA:n poikkeavuudet) |
-| TxGNN-ennusteen pistemäärä | 99,95 % |
+| TxGNN-ennusteen pistemäärä | 0,9995 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -72,15 +72,15 @@ Aineistossa oli yhteensä kymmenen ennustetta, joilla kaikilla näytön taso on 
 
 | Sija | Ennustettu käyttöaihe | Pistemäärä | Huomio |
 |------|------|------|------|
-| 2 | Steelin oireyhtymä | 99,91 % | Luustofenotyypin päällekkäisyys; patogeneesi liittyy kollageeni XXVII:ään |
-| 3 | Haiman ulkoerityksen vajaatoiminta | 99,89 % | Hoidetaan suun kautta otettavilla haimaentsyymeillä; ei korvaa haiman entsyymejä |
-| 4 | Scheien oireyhtymä | 99,85 % | Lysosomaalinen varastosairaus, hoitona laronidaasi |
-| 5 | Hurlerin oireyhtymä | 99,75 % | Ei vaikutusta glykosaminoglykaanien hajotukseen |
-| 6 | Lysosomaalinen varastosairaus, johon liittyy luustomuutoksia | 99,73 % | Ei korjaa lysosomaalista perussyytä |
-| 7 | Perheellinen apolipoproteiini C-II:n puutos | 99,71 % | Ei biologista perustetta; todennäköisesti graafiartefakti |
-| 8 | Ruokatorven suonikohjut, vuotavat | 99,68 % | Portaalihypertensio; ei yhteyttä |
-| 9 | Ruokatorven suonikohjut, ei vuotoa | 99,68 % | Sama pistemäärä kuin edellisellä, jaettu graafiesitys |
-| 10 | Kystinoosi | 99,65 % | Systiinin kuljetushäiriö; hoitona kysteamiini |
+| 2 | Steelin oireyhtymä | 0,9991 | Luustofenotyypin päällekkäisyys; patogeneesi liittyy kollageeni XXVII:ään |
+| 3 | Haiman ulkoerityksen vajaatoiminta | 0,9989 | Hoidetaan suun kautta otettavilla haimaentsyymeillä; ei korvaa haiman entsyymejä |
+| 4 | Scheien oireyhtymä | 0,9985 | Lysosomaalinen varastosairaus, hoitona laronidaasi |
+| 5 | Hurlerin oireyhtymä | 0,9975 | Ei vaikutusta glykosaminoglykaanien hajotukseen |
+| 6 | Lysosomaalinen varastosairaus, johon liittyy luustomuutoksia | 0,9973 | Ei korjaa lysosomaalista perussyytä |
+| 7 | Perheellinen apolipoproteiini C-II:n puutos | 0,9971 | Ei biologista perustetta; todennäköisesti graafiartefakti |
+| 8 | Ruokatorven suonikohjut, vuotavat | 0,9968 | Portaalihypertensio; ei yhteyttä |
+| 9 | Ruokatorven suonikohjut, ei vuotoa | 0,9968 | Sama pistemäärä kuin edellisellä, jaettu graafiesitys |
+| 10 | Kystinoosi | 0,9965 | Systiinin kuljetushäiriö; hoitona kysteamiini |
 
 ---
 

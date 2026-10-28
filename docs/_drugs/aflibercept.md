@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-## Aflibersepti: Silmänsisäisistä verisuonisairauksista esotropiaan
+## Aflibersepti: Esotropia
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -49,10 +49,10 @@ TxGNN-malli ennustaa sen voivan tehota **esotropiaan** (silmien sisäänpäin k�
 |------|------|
 | Alkuperäinen käyttöaihe | Kostea silmänpohjan ikärappeuma, makulaturvotus, verkkokalvon laskimotukos, suonikalvon neovaskularisaatio ja diabeteksen komplikaatiot |
 | Ennustettu uusi käyttöaihe | Esotropia |
-| TxGNN-ennustepisteet | 99,38 % |
+| TxGNN-ennustepisteet | 0.9938 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 14 (kaikki peruutettuja) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 14/14) |
+| Myyntilupien määrä | 14 (voimassa: 14) |
 | Suositeltu päätös | Hold (odotetaan) |
 
 ---
@@ -61,7 +61,7 @@ TxGNN-malli ennustaa sen voivan tehota **esotropiaan** (silmien sisäänpäin k�
 
 Aflibersepti toimii VEGF-A:n, VEGF-B:n ja istukkakasvutekijän (PlGF) loustoimijana ("trap"), ja sitä annetaan silmänsisäisesti verkkokalvon verisuoni- ja uudissuonisairauksiin. Yksityiskohtaista vaikutusmekanismitietoa ei ole tähän raporttiin koottu aineistossa saatavilla, mikä rajoittaa mekanistista arviointia.
 
-Esotropia on silmien asentovirhe, jonka taustalla ovat tyypillisesti hermo-lihasperäiset, taittovirheisiin liittyvät tai kahden silmän yhteisnäön tekijät. Kerätyn aineiston perusteella aflibersepitin ja esotropian välille ei löydy suoraa mekanistista yhteyttä. Korkea pistemäärä (0,994) on tietograafipohjainen ennuste, joka todennäköisesti heijastaa yhteisiä silmäsairauksiin liittyviä assosiaatioita eikä biologista perustetta.
+Esotropia on silmien asentovirhe, jonka taustalla ovat tyypillisesti hermo-lihasperäiset, taittovirheisiin liittyvät tai kahden silmän yhteisnäön tekijät. Kerätyn aineiston perusteella aflibersepitin ja esotropian välille ei löydy suoraa mekanistista yhteyttä. Korkea pistemäärä (0,9938) tulee TxGNN-mallista (syväoppiminen) ja heijastaa todennäköisesti malliin oppimia yhtäläisyyksiä toisiinsa liittyvien sairauksien välillä, ei biologista perustetta.
 
 VEGF-estäjiä on tutkittu silmäsairauksissa, jotka voivat aiheuttaa toissijaisesti kierosilmäisyyttä (esim. keskosen retinopatia), mutta yhteys on epäsuora eikä todista vaikutusta esotropiaan itseensä.
 

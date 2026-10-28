@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Turoktokogialfa: Hemofilia A:sta ensisijaiseen verihiutaleiden vapautumishäiriöön
+## Turoktokogialfa: Primaarinen verihiutaleiden vapautumishäiriö
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -48,10 +48,10 @@ Turoktokogialfa on rekombinantti, B-domeenista typistetty ihmisen tekijä VIII, 
 |------|------|
 | Alkuperäinen käyttöaihe | Hemofilia A |
 | Ennustettu uusi käyttöaihe | Ensisijainen verihiutaleiden vapautumishäiriö (primary release disorder of platelets) |
-| TxGNN-ennustepistemäärä | 99,99 % |
+| TxGNN-ennustepistemäärä | 0,9999 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odotetaan) |
 
 ---

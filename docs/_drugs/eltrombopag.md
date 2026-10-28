@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Eltrombopag
-parent: Kohtalainen näyttö (L3-L4)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 159
-evidence_level: L3
+evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-13
-description: "Eltrombopag: ennustettu uusi käyttöaihe HIV-infektiotauti (näytön taso L3). Alkuperäinen käyttöaihe: Idiopaattinen trombosytopeeninen purppura"
 monitor_inn: "ELTROMBOPAG"
 predicted_indications: ["HIV infectious disease"]
+last_modified_at: 2026-10-27
+description: "Eltrombopag: ennustettu uusi käyttöaihe HIV-infektio (HIV infectious disease) (näytön taso L5). Alkuperäinen käyttöaihe: Purpura, Thrombocytopenic, Idiopathic"
 ---
 
 # Eltrombopag
 {: .fs-9 }
 
-Näytön taso: **L3** | Ennustetut käyttöaiheet: **1** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,104 +33,82 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-## Eltrombopaagi: Idiopaattisesta trombosytopeenisesta purppurasta HIV-infektioon
+## Eltrombopagi: trombopoietiinireseptorin agonisti → HIV-infektio (HIV infectious disease)
 {: .text-alpha }
 
-## Yhteenveto
+## Yhden lauseen yhteenveto
 
-Eltrombopaagi on trombopoietiinireseptorin (TPO-R) agonisti, jota on alun perin käytetty idiopaattisen trombosytopeenisen purppuran ja aplastisen anemian hoitoon.
-TxGNN-malli ennustaa sen voivan olla hyödyllinen **HIV-infektiotaudissa**, mutta ennuste perustuu todennäköisesti HIV:hen liittyvän trombosytopenian ja luuydinvajeen hoitoon, ei suoraan viruslääkevaikutukseen.
-Tukena on **1 kliininen tutkimus** (päättynyt ennenaikaisesti, HIV-potilaspopulaatio varmistamatta) ja **8 julkaisua**, joista suurin osa on tapausselostuksia ja katsauksia.
+Eltrombopagi on suun kautta otettava trombopoietiinireseptorin (TPO-R) agonisti, joka lisää verihiutaleiden tuotantoa. Ennustemalli TxGNN nostaa sen mahdolliseksi lääkkeeksi **HIV-infektioon (HIV infectious disease)**. Suora näyttö on vähäistä: tähän tautiin liittyviä tutkimuksia ovat lähinnä tapauskuvaukset HIV-potilaiden veriarvo-ongelmista ja yksi soluviljelykoe. Yksikään kerätyistä tutkimuksista ei osoita lääkkeen tehoa itse HIV-infektioon.
 
----
-
-## Pikakatsaus
+## Pikayhteenveto
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Idiopaattinen trombosytopeeninen purppura; aplastinen anemia |
-| Ennustettu uusi käyttöaihe | HIV-infektiotauti |
-| TxGNN-ennustepistemäärä | 99,26 % |
-| Näytön taso | L3 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
-| Suositeltu päätös | Hold (odotetaan lisänäyttöä; jatkotutkimuskysymys) |
-
----
+| Alkuperäinen käyttöaihe | Purpura, Thrombocytopenic, Idiopathic;Anemia, Aplastic |
+| Ennustettu uusi käyttöaihe | HIV-infektio (HIV infectious disease) |
+| TxGNN-ennustepisteet | 0,9926 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
+| Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste on perusteltu?
 
-Eltrombopaagi on TPO-reseptorin agonisti, joka stimuloi megakaryopoieesia ja nostaa verihiutaleiden määrää. Yksityiskohtaisia vaikutusmekanismitietoja ei ole tämän raportin aineistossa saatavilla, joten mekanismiperustelu nojaa tunnettuun TPO-R-agonistien lääkeaineluokan farmakologiaan.
+Eltrombopagi sitoutuu trombopoietiinireseptoriin ja stimuloi megakaryopoieesia eli verihiutaleiden muodostumista luuytimessä. Lääkkeen alkuperäistä vaikutusmekanismia koskevaa tietoa ei ole tähän raporttiin kerätyssä aineistossa. Tässä arviossa mekanismi perustuu TPO-reseptoriagonistien tunnettuun lääkeryhmävaikutukseen.
 
-HIV-infektioon liittyy usein trombosytopenia (HIV-liitännäinen ITP, immuunirekonstituutioon liittyvä trombosytopenia) ja joskus aplastinen anemia. Koska eltrombopaagin alkuperäiset käyttöaiheet ovat ITP ja aplastinen anemia, yhteys on tukihoidollinen: HIV:hen liittyvän trombosytopenian ja luuydinvajeen hoito. Korkea TxGNN-pistemäärä on linjassa tämän jaetun trombosytopenia/ITP-biologian kanssa.
+Yhteys HIV-infektioon on todennäköisimmin tukihoidollinen, ei viruslääkemäinen. HIV-infektioon liittyy usein veriarvojen häiriöitä, kuten HIV-liitännäinen immuunitrombosytopenia, immuunijärjestelmän palautumiseen liittyvä trombosytopenia ja HIV:hen liittyvä aplastinen anemia. Korkea ennustepiste on sopusoinnussa tämän yhteisen trombosytopenian biologian kanssa. Se ei yksinään osoita antiviraalista vaikutusta.
 
-Yksi in vitro -seulonta (PMID 32977702) tunnisti eltrombopaagin yhdeksi FDA:n hyväksymistä yhdisteistä, jotka muokkaavat HIV-1:n proviraalista transkriptiota. Tämä on vain hypoteesia tuottava signaali, ei näyttöä kliinisestä antiviraalisesta tehosta.
-
----
+Yksi soluviljelyseulonta (PMID 32977702) tunnisti eltrombopagin mahdollisena HIV-1:n provirustranskription muokkaajana. Tulos on vain hypoteesia synnyttävä, eikä se ole kliininen näyttö.
 
 ## Kliininen tutkimusnäyttö
 
 | Tutkimusnumero | Vaihe | Tila | Osallistujia | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT00678587](https://clinicaltrials.gov/study/NCT00678587) | Vaihe 3 | Päättynyt ennenaikaisesti | 292 | Satunnaistettu, kaksoissokkoutettu, lumekontrolloitu tutkimus: väheneekö verihiutalesiirtojen tarve kroonista maksasairautta sairastavilla trombosytopeenisilla potilailla ennen elektiivisiä toimenpiteitä. HIV-populaatiota ei ole vahvistettu. |
+| [NCT00678587](https://clinicaltrials.gov/study/NCT00678587) | Vaihe 3 | Päättynyt ennenaikaisesti | 292 | Satunnaistettu, kaksoissokkoutettu, lumekontrolloitu tutkimus. Selvitti, vähentääkö eltrombopagi verihiutaleensiirtojen tarvetta kroonista maksasairautta ja trombosytopeniaa sairastavilla potilailla ennen suunniteltuja toimenpiteitä. |
 
-Tutkimuksen relevanssi arvioitiin luokkaan B. Ennenaikaisen päättymisen vuoksi sitä ei voida pitää vahvistavana vaiheen 3 näyttönä. Potilaspopulaatio ja päättymisen syy on tarkistettava ClinicalTrials.govista.
-
----
+Tutkimus ei vahvista, että siihen osallistui HIV-potilaita. Koska se päättyi ennenaikaisesti, sitä ei voi pitää vahvistavana vaiheen 3 näyttönä HIV-infektiolle.
 
 ## Kirjallisuusnäyttö
 
 | PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [25504472](https://pubmed.ncbi.nlm.nih.gov/25504472/) | 2015 | Tapaussarja | J Int Assoc Provid AIDS Care | TPO-reseptoriagonistien (eltrombopaagi, romiplostiimi) alustava kokemus refraktaarissa HIV-liitännäisessä ITP:ssä |
-| [25333665](https://pubmed.ncbi.nlm.nih.gov/25333665/) | 2014 | Tapausselostus | AIDS | HIV:hen liittyvä vaikea aplastinen anemia hoidettiin onnistuneesti eltrombopaagilla; havaittiin mahdollinen immuunimodulatorinen vaikutus |
-| [22992580](https://pubmed.ncbi.nlm.nih.gov/22992580/) | 2012 | Tapausselostus | AIDS | Eltrombopaagi onnistui refraktaarissa HIV:hen liittyvässä immuunirekonstituutiotrombosytopeniassa ilman pernanpoistoa |
-| [19932434](https://pubmed.ncbi.nlm.nih.gov/19932434/) | 2009 | Katsaus | Hematol Oncol Clin North Am | Krooniset infektiot (HCV, HIV, H. pylori) voivat aiheuttaa pitkittynyttä trombosytopeniaa; infektion hoito parantaa usein tilannetta |
-| [19245929](https://pubmed.ncbi.nlm.nih.gov/19245929/) | 2009 | Katsaus | Semin Hematol | Hepatiitti- ja muiden infektioiden aiheuttamien immuunitrombosytopenioiden hoitostrategiat |
-| [32977702](https://pubmed.ncbi.nlm.nih.gov/32977702/) | 2020 | In vitro -seulonta | Viruses | Eltrombopaagi löytyi FDA-hyväksyttyjen lääkkeiden joukosta HIV-1:n proviraalisen transkription modulaattorina |
-| [28043314](https://pubmed.ncbi.nlm.nih.gov/28043314/) | 2016 | Tapausselostus | J Coll Physicians Surg Pak | Hepatiitti B:hen liittyvä megaloblastinen anemia ja vaikea trombosytopenia (epäsuora relevanssi) |
-| [24128106](https://pubmed.ncbi.nlm.nih.gov/24128106/) | 2013 | Tapausselostus | Farm Hosp | Eltrombopaagi trombosytopeniassa kroonisessa hepatiitti C:ssä, kaksi tapausta (epäsuora relevanssi) |
+| [25504472](https://pubmed.ncbi.nlm.nih.gov/25504472/) | 2015 | Tapaussarja | J Int Assoc Provid AIDS Care | Trombopoietiinireseptorin agonistien (eltrombopagi, romiplostiimi) alkukokemuksia hoitoon reagoimattomassa HIV-liitännäisessä immuunitrombosytopeniassa. |
+| [22992580](https://pubmed.ncbi.nlm.nih.gov/22992580/) | 2012 | Tapausselostus | AIDS | Eltrombopagi onnistui hoitamaan hoitoon reagoimattoman HIV:hen liittyvän immuunijärjestelmän palautumisen trombosytopenian ilman pernanpoistoa. |
+| [25333665](https://pubmed.ncbi.nlm.nih.gov/25333665/) | 2014 | Tapausselostus | AIDS | HIV:hen liittyvä vaikea aplastinen anemia hoidettiin onnistuneesti eltrombopagilla. Havaittiin myös mahdollinen immuunisäätelyvaikutus. |
+| [32977702](https://pubmed.ncbi.nlm.nih.gov/32977702/) | 2020 | Soluviljelyseulonta | Viruses | Hyväksyttyjen lääkkeiden kirjastosta etsittiin HIV-1:n provirustranskription muokkaajia. |
+| [19932434](https://pubmed.ncbi.nlm.nih.gov/19932434/) | 2009 | Katsaus | Hematol Oncol Clin North Am | Krooniset infektiot (mm. HIV) voivat aiheuttaa pitkittyvää trombosytopeniaa. |
+| [19245929](https://pubmed.ncbi.nlm.nih.gov/19245929/) | 2009 | Katsaus | Semin Hematol | Hepatiittien ja muiden infektioiden aiheuttamien immuunitrombosytopenioiden hoitostrategiat. |
+| [28043314](https://pubmed.ncbi.nlm.nih.gov/28043314/) | 2016 | Tapausselostus | J Coll Physicians Surg Pak | Hepatiitti B:hen liittyvä makrosyyttinen anemia ja vaikea trombosytopenia. Epäsuora yhteys. |
+| [24128106](https://pubmed.ncbi.nlm.nih.gov/24128106/) | 2013 | Tapausselostus | Farm Hosp | Eltrombopagi trombosytopeniassa kahdella kroonista hepatiitti C:tä sairastavalla potilaalla. Epäsuora yhteys. |
 
-Satunnaistettuja kontrolloituja HIV-tutkimuksia ei ole. Näyttö koostuu tapausselostuksista, tapaussarjasta ja katsauksista.
-
----
+Kerätty aineisto sisältää vain tapauskuvauksia, katsauksia ja yhden soluviljelykokeen. Satunnaistettuja tutkimuksia HIV-infektiosta ei ole.
 
 ## Suomen markkinatiedot
 
-| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/001110 | Revolade | – | Idiopaattinen trombosytopeeninen purppura; aplastinen anemia (tila: peruutettu) |
+Eltrombopagin markkinatilanne Suomessa on tietojen mukaan "markkinoilla". Lupatiedot ja niiden lukumäärä lisätään sivulle ohjelmallisesti lupatietueista.
 
----
+## Turvallisuusnäkökohdat
 
-## Turvallisuushuomioita
+- **Keskeiset varoitukset ja vasta-aiheet:** Tähän raporttiin kerätyssä aineistossa ei ole valmisteyhteenvedon varoituksia tai vasta-aiheita. Katso ne valmisteyhteenvedosta.
+- **Lääkeyhteisvaikutukset:** Aineistossa on 100 yhteisvaikutusta, joista tässä on keskeisimmät.
+  - **Merkittävä (Major):** eluksadoliini.
+  - **Kohtalainen (Moderate):** glyburidi.
+  - **Kohtalainen (Moderate), monivalenttiset kationit ja antasidit:** kalsiumvalmisteet (fosfaatti, asetaatti, karbonaatti, sitraatti, glukonaatti, laktaatti ja muut), magnesiumvalmisteet (oksidi, karbonaatti, kloridi, sitraatti, glukonaatti, hydroksidi), alumiinihydroksidi, magaldraatti, kaoliini, attapulgiitti ja rauta.
 
-Seuraavat tiedot ovat peräisin TxGNN-tietämysgraafista (PrimeKG), eivät valmisteyhteenvedosta. Ne ovat viitteellisiä lääke–tauti-vasta-aiheyhteyksiä:
+## Johtopäätös ja jatkotoimet
 
-- **Graafissa vasta-aiheiksi merkityt tilat**: munuaissairaus, märkäinen virtsanjohdinpaise, maksasairaus, sappirakkosairaus, akuutti maksan vajaatoiminta, hepatiitti, anemia, makrosyyttinen anemia, hyperbilirubinemia, perinnöllinen hyperbilirubinemia, Gilbertin oireyhtymä, leukopenia, myelodysplastinen oireyhtymä, trombosytoosi, maksalaskimotukos, Budd–Chiarin oireyhtymä.
-- **Lääkeyhteisvaikutukset** (100 löydöstä; esimerkit):
-  - **Merkittävä (Major)**: eluksadoliini.
-  - **Kohtalainen (Moderate)**: monivalenttisia kationeja sisältävät valmisteet, kuten kalsiumvalmisteet (fosfaatti, asetaatti, karbonaatti, sitraatti, glukonaatti, laktaatti), magnesiumvalmisteet (oksidi, hydroksidi, karbonaatti, kloridi, sitraatti, glukonaatti), alumiinihydroksidi, attapulgiitti, kaoliini, magaldraatti ja rauta; lisäksi glyburidi.
-
-Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat tästä aineistosta, ja ne on tarkistettava valmisteyhteenvedosta. Maksasairauksiin ja HIV-potilaiden usein samanaikaisiin maksaongelmiin liittyvät signaalit vaativat erityistä huomiota.
-
----
-
-## Johtopäätös ja seuraavat askeleet
-
-**Päätös: Hold**
+**Päätös: Hold (odota)**
 
 **Perustelut:**
-- Näyttö HIV-käyttöaiheelle on heikkoa (L3): vain tapausselostuksia, tapaussarja, katsauksia ja yksi in vitro -signaali. Ainoa vaiheen 3 tutkimus päättyi ennenaikaisesti eikä sen HIV-populaatiota ole vahvistettu. Ehdokas on tässä vaiheessa tutkimuskysymys, ei etenemiskelpoinen hanke.
-- Ennuste tukee lähinnä HIV:hen liittyvän trombosytopenian hoitoa, ei HIV:n antiviraalista hoitoa. Lisäksi Suomen ainoa myyntilupa on peruutettu, ja turvallisuusseulontaa ei voida tehdä ilman valmisteyhteenvedon tietoja.
+- Mikään kerätyistä tutkimuksista ei tutki eltrombopagia suoraan HIV-infektion hoitona. Tapauskuvaukset koskevat HIV-potilaiden veriarvo-ongelmia, ja soluviljelykoe tuottaa vain hypoteesin. Siksi näytön taso on L5.
+- Korkea ennustepiste (0,9926) kuvastaa lähinnä yhteistä trombosytopenian biologiaa, ei osoitettua vaikutusta HIV:hen.
 
-**Jatkoon tarvitaan:**
-- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankinta (Fimea), jotta turvallisuusseulonta voidaan tehdä.
-- Vaikutusmekanismitietojen täydentäminen (DrugBank).
-- NCT00678587:n potilaspopulaation ja päättymissyyn tarkistus.
-- Tarkempi määrittely, tavoitellaanko HIV:hen liittyvän trombosytopenian hoitoa vai antiviraalista vaikutusta.
-- Kontrolloidut tutkimukset HIV-liitännäisestä ITP:stä tai luuydinvajeesta sekä lisäselvitys Suomen myyntilupatilanteesta ja saatavuudesta.
-- Maksaturvallisuuden ja lääkeyhteisvaikutusten (erityisesti antasidit, kationivalmisteet ja eluksadoliini) arviointi HIV-potilasryhmässä.
+**Eteenpäin siirtymiseksi tarvitaan:**
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet, joita aineistosta puuttuu ja jotka estävät turvallisuusarvion jatkamisen.
+- Tarkka vaikutusmekanismitieto lääketietokannasta.
+- Tutkimuksen NCT00678587 potilasjoukon ja ennenaikaisen päättymisen syyn tarkistus ClinicalTrials.gov-sivustolta.
+- Hypoteesin täsmentäminen: tavoitteena on joko HIV-liitännäisen trombosytopenian ja luuydinvajauksen tukihoito tai mahdollinen suora vaikutus virukseen.
+- Kontrolloitu tai prospektiivinen tutkimusnäyttö HIV-potilailla sekä soluviljelyhavainnon toistaminen ja vahvistaminen.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

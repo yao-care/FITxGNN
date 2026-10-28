@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Daptomycin
-parent: Kohtalainen näyttö (L3-L4)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 126
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Daptomycin: ennustettu uusi käyttöaihe Nivelrikko (osteoartriitti) (näytön taso L4). Alkuperäinen käyttöaihe: Gram-positiiviset bakteeri-infektiot, bakteremia…"
 monitor_inn: "DAPTOMYCIN"
-predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "osteoarthritis susceptibility", "gout", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome"]
+predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "gout", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome"]
 ---
 
 # Daptomycin
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ TxGNN-malli ennustaa sen voivan olla tehokas **nivelrikon** hoidossa, mutta ennu
 |------|------|
 | Alkuperäinen käyttöaihe | Gram-positiiviset bakteeri-infektiot, bakteremia, pehmytkudosinfektiot, bakteeriperäinen endokardiitti |
 | Ennustettu uusi käyttöaihe | Nivelrikko (osteoartriitti) |
-| TxGNN-ennusteen pistemäärä | 99,86 % |
-| Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 2 (kaikki peruutettuja) |
+| TxGNN-ennusteen pistemäärä | 0,9986 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Myyntilupien määrä | 2 (voimassa: 2) |
 | Suositeltu päätös | Hold (odotetaan) |
 
 ---
@@ -63,7 +63,7 @@ Tämän raportin laadinnassa käytetyissä tiedoissa daptomysiinin yksityiskohta
 
 Nivelrikon osalta ei ole havaittavissa suoraa yhteyttä daptomysiinin ja rappeumaperäisen nivelrikon välillä. Löydetty kirjallisuus käsittelee daptomysiinin käyttöä luu- ja niveli-infektioissa (mukaan lukien tekonivelinfektiot), mikä on antibakteerista käyttöä alkuperäisen käyttöaiheen piirissä, ei nivelrikon hoitoa. Korkea TxGNN-pistemäärä heijastaa todennäköisesti osteoartikulaaristen infektioiden ja nivelrikon semanttista läheisyyttä. Tulehdusta lievittävää tai rustoa suojaavaa mekanismia ei ole osoitettu.
 
-Mielenkiintoisempi tutkimussuunta on **nivelreuma** (TxGNN-pisteet 99,84 %). Prekliininen tutkimus (PMID 39571268, 2025) viittaa siihen, että daptomysiini lievittää kollageenin aiheuttamaa niveltulehdusta hiirimallissa vaimentamalla tulehdussytokiineja ja NF-κB-signalointia. Tuore johdannaisia koskeva tutkimus (2025) tukee samaa suuntaa. Näyttö on kuitenkin vain eläin- ja solumalleista, ja tuloksia ei ole replikoitu eikä ihmistutkimuksia ole.
+Mielenkiintoisempi tutkimussuunta on **nivelreuma** (TxGNN-pisteet 0,9984). Prekliininen tutkimus (PMID 39571268, 2025) viittaa siihen, että daptomysiini lievittää kollageenin aiheuttamaa niveltulehdusta hiirimallissa vaimentamalla tulehdussytokiineja ja NF-κB-signalointia. Tuore johdannaisia koskeva tutkimus (2025) tukee samaa suuntaa. Näyttö on kuitenkin vain eläin- ja solumalleista, ja tuloksia ei ole replikoitu eikä ihmistutkimuksia ole.
 
 ---
 
@@ -96,7 +96,7 @@ Alla on nivelrikkoon liittyvät keskeisimmät julkaisut. Yksikään ei tutki dap
 
 | Sija | Sairaus | TxGNN-pisteet | Näytön taso | Huomio |
 |------|------|------|------|------|
-| 2 | Nivelreuma | 99,84 % | L4 | Prekliininen näyttö (hiiren kollageeniartriittimalli, NF-κB); ei ihmistutkimuksia; tutkimuskysymys |
+| 2 | Nivelreuma | 99,84 % | L5 | Prekliininen näyttö (hiiren kollageeniartriittimalli, NF-κB); ei ihmistutkimuksia; tutkimuskysymys |
 | 3 | Nivelrikkoalttius | 99,79 % | L5 | Geneettinen alttiusentiteetti, ei hoidettava tila; kirjallisuus ei liity aiheeseen |
 | 4 | Kihti | 99,79 % | L5 | Ainoa löydös on haittatapahtuma: daptomysiinin aiheuttama rabdomyolyysi ja siihen liittynyt akuutti kihtinivelrikko; viittaa mahdolliseen haittaan |
 | 5–10 | Pseudoakondroplasia, Hunter-Thompsonin tyypin akromesomeelinen dysplasia, brakyolmia, brakydaktyylia-syndaktyliaoireyhtymä, kolobomatoottinen mikroftalmia-rizomeelinen dysplasia -oireyhtymä, brakyolmia-amelogenesis imperfecta -oireyhtymä | 99,62–99,75 % | L5 | Harvinaisia geneettisiä oireyhtymiä; ei tutkimuksia, kirjallisuutta eikä mekanistista perustetta |

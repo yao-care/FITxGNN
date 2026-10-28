@@ -48,10 +48,10 @@ Setroreliksi on GnRH-reseptorin antagonisti, jota käytetään hedelmöityshoido
 |------|------|
 | Alkuperäinen käyttöaihe | Ovulaatio; ovulaation induktio |
 | Ennustettu uusi käyttöaihe | Hypertrikoosi |
-| TxGNN-ennustepisteet | 99,98 % |
+| TxGNN-ennustepisteet | 0,9998 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste on (tai ei ole) perusteltu?

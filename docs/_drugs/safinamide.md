@@ -6,9 +6,9 @@ nav_order: 394
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-13
-description: "Safinamide: ennustettu uusi käyttöaihe Rasmussenin subakuutti enkefaliitti (näytön taso L5). Alkuperäinen käyttöaihe: Parkinsonin tauti"
 monitor_inn: "safinamide"
 predicted_indications: ["Rasmussen subacute encephalitis", "myelitis", "PLA2G6-associated neurodegeneration"]
+description: "Safinamide: ennustettu uusi käyttöaihe Rasmussenin subakuutti enkefaliitti (Rasmussen subacute encephalitis) (näytön taso L5). Alkuperäinen käyttöaihe: Parkinson Disease"
 ---
 
 # Safinamide
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-## Safinamidi: Parkinsonin taudista Rasmussenin subakuuttiin enkefaliittiin
+## Safinamide: Rasmussenin subakuutti enkefaliitti (Rasmussen subacute encephalitis)
 {: .text-alpha }
 
 ## Yhteenveto
@@ -47,12 +47,12 @@ TxGNN-malli ennustaa sen voivan olla hyödyllinen **Rasmussenin subakuutissa enk
 
 | Kohde | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Parkinsonin tauti |
-| Ennustettu uusi käyttöaihe | Rasmussenin subakuutti enkefaliitti |
-| TxGNN-ennusteen pistemäärä | 99,63 % |
+| Alkuperäinen käyttöaihe | Parkinson Disease |
+| Ennustettu uusi käyttöaihe | Rasmussenin subakuutti enkefaliitti (Rasmussen subacute encephalitis) |
+| TxGNN-ennusteen pistemäärä | 0.9963 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 Muut mallin ennusteet samalle lääkkeelle: myeliitti (99,46 %) ja PLA2G6-assosioitunut neurodegeneraatio (99,22 %). Näistäkään ei ole kliinistä tai kirjallisuusnäyttöä.

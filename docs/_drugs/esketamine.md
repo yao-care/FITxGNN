@@ -46,10 +46,10 @@ Esketamiini on NMDA-reseptorin salpaaja, jota on alun perin käytetty **masennuk
 |------|------|
 | Alkuperäinen käyttöaihe | Depressiivinen häiriö |
 | Ennustettu uusi käyttöaihe | Agorafobia |
-| TxGNN-ennusteen pistemäärä | 99,57 % |
+| TxGNN-ennusteen pistemäärä | 0,9957 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste voisi olla perusteltu?
@@ -98,7 +98,7 @@ Muista turvallisuustiedoista, kuten varoituksista ja vasta-aiheista, katso valmi
 
 ## Huomio toisesta ennusteesta
 
-Toinen ennuste, **imeväisikäisten hyvänlaatuinen kohtauksittainen kaularankakouristus (benign paroxysmal torticollis of infancy)**, sai pistemäärän 99,49 %. Sille ei ole kliinistä eikä kirjallista näyttöä, eikä uskottavaa mekanistista yhteyttä voida osoittaa. Esketamiinille ei ole vakiintunutta pediatrista käyttöä tähän tilaan, ja NMDA-salpauksen neurokehityksellisiä riskejä imeväisillä on pidettävä vakavina. Korkea pistemäärä johtuu todennäköisesti verkkopohjaisesta artefaktasta. Suositus on **Hold**.
+Toinen ennuste, **imeväisikäisten hyvänlaatuinen kohtauksittainen kaularankakouristus (benign paroxysmal torticollis of infancy)**, sai pistemäärän 0,9949. Sille ei ole kliinistä eikä kirjallista näyttöä, eikä uskottavaa mekanistista yhteyttä voida osoittaa. Esketamiinille ei ole vakiintunutta pediatrista käyttöä tähän tilaan, ja NMDA-salpauksen neurokehityksellisiä riskejä imeväisillä on pidettävä vakavina. Korkea pistemäärä johtuu todennäköisesti verkkopohjaisesta artefaktasta. Suositus on **Hold**.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

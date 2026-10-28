@@ -48,10 +48,10 @@ Interferoni beeta-1b on lääke, jota on alun perin käytetty multippeliskleroos
 |------|------|
 | Alkuperäinen käyttöaihe | Multippeliskleroosi |
 | Ennustettu uusi käyttöaihe | Harvinaissoluleukemia (hairy cell leukemia) |
-| TxGNN-ennusteen pistemäärä | 99,16 % |
+| TxGNN-ennusteen pistemäärä | 0,9916 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -110,7 +110,7 @@ Muiden turvallisuustietojen osalta tutustu valmisteyhteenvetoon.
 **Päätös: Hold (odota)**
 
 **Perustelu:**
-- Ennusteen pistemäärä on korkea (99,16 %), mutta harvinaissolulleukemiaan ei ole kliinisiä tutkimuksia eikä kirjallisuutta, joten näyttötaso on L5 (vain mallin ennuste). Lisäksi Betaferonin myyntilupa Suomessa on peruutettu.
+- Ennusteen pistemäärä on korkea (0,9916), mutta harvinaissolulleukemiaan ei ole kliinisiä tutkimuksia eikä kirjallisuutta, joten näyttötaso on L5 (vain mallin ennuste). Lisäksi Betaferonin myyntilupa Suomessa on peruutettu.
 
 **Eteenpäin siirtyminen edellyttää seuraavaa:**
 - Vaikutusmekanismin (MOA) tietojen täydentäminen

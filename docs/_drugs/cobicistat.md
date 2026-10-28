@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 117
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-13
-description: "Cobicistat: ennustettu uusi käyttöaihe Simiaaniimmuunikatovirusinfektio (SIV) (näytön taso L5). Alkuperäinen käyttöaihe: HIV-infektio"
 monitor_inn: "COBICISTAT"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+last_modified_at: 2026-10-27
+description: "Cobicistat: ennustettu uusi käyttöaihe Simiaaninen immuunikatovirusinfektio (simian immunodeficiency virus infection) (näytön taso L5). Alkuperäinen käyttöaihe: HIV Infections"
 ---
 
 # Cobicistat
@@ -33,84 +33,67 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-## Kobisistaatti: HIV-infektiosta simiaaniimmuunikatovirusinfektioon
+## Kobisistaatti: farmakokineettinen tehostaja (CYP3A-estäjä) → simiaaninen immuunikatovirusinfektio (simian immunodeficiency virus infection)
 {: .text-alpha }
 
-## Yhden lauseen tiivistelmä
+## Yhden lauseen yhteenveto
 
-Kobisistaatti on farmakokineettinen tehostaja (CYP3A:n estäjä), jota käytetään HIV-infektion hoidossa yhdessä muiden antiretroviraalisten lääkkeiden kanssa. TxGNN-malli ennustaa sen voivan sopia **simiaaniimmuunikatovirusinfektion (SIV)** hoitoon, mutta ennusteen tueksi ei ole löydetty **yhtään kliinistä tutkimusta eikä julkaisua**. Ennuste perustuu pelkästään laskennalliseen malliin.
+Kobisistaatti on CYP3A-entsyymiä estävä farmakokineettinen tehostaja, jota käytetään yhdessä HIV-lääkkeiden kanssa. TxGNN-malli ennustaa sen voivan olla hyödyllinen indikaatiossa **simiaaninen immuunikatovirusinfektio (simian immunodeficiency virus infection)**. Ennusteen tueksi ei tässä aineistossa ole yhtään kliinistä tutkimusta eikä julkaisua, joten näyttö perustuu pelkästään mallin laskennalliseen ennusteeseen.
 
 ## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | HIV-infektio |
-| Ennustettu uusi käyttöaihe | Simiaaniimmuunikatovirusinfektio (SIV) |
-| TxGNN-ennustepisteet | 99,92 % |
+| Alkuperäinen käyttöaihe | HIV Infections |
+| Ennustettu uusi käyttöaihe | Simiaaninen immuunikatovirusinfektio (simian immunodeficiency virus infection) |
+| TxGNN-ennustepiste | 0,9992 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 6 (kaikki peruutettu) |
-| Suositeltu päätös | Hold (odota) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 6/6) |
+| Myyntilupien määrä | 6 (voimassa: 6) |
+| Suositeltu päätös | Odota (Hold) |
 
 ## Miksi ennuste on perusteltu?
 
-Kobisistaatti estää CYP3A-entsyymiä ja nostaa siten samanaikaisesti annettujen CYP3A:n kautta metaboloituvien antiretroviraalisten lääkkeiden (esim. elvitegraviiri, atatsanaviiri, darunaviiri) pitoisuuksia. Sillä itsellään ei ole suoraa antiviraalista vaikutusta. Tarkempi vaikutusmekanismitieto ei ole tällä hetkellä saatavilla.
+Kobisistaatin vaikutusmekanismitietoja ei ole tässä aineistossa saatavilla. Tiedetään, että kobisistaatti estää CYP3A-entsyymiä ja tehostaa siten samanaikaisesti annettujen, CYP3A:n kautta metaboloituvien HIV-lääkkeiden (esim. elvitegraviiri, atatsanaviiri, darunaviiri) pitoisuuksia. Sillä itsellään ei ole omaa antiviraalista vaikutusta.
 
-SIV on HIV:n läheinen lentivirussukulainen, mikä todennäköisesti selittää mallin korkean pistemäärän: graafipohjainen malli yhdistää taudit samaan virusluokkaan ja lääkkeen tunnettuun HIV-käyttöön. Yhteys on pääteltyä, ei osoitettua. Hyöty riippuisi aina siitä, että samanaikaisesti annettavaa antiretroviraalista lääkettä tehostetaan.
+SIV on HIV:n läheinen lentivirussukulainen, mikä todennäköisesti selittää korkean ennustepisteen. Mahdollinen hyöty riippuisi siitä, että samanaikaisesti annettua antiretroviraalista lääkettä tehostettaisiin. Yhteys on päätelty, ei osoitettu. Lisäksi SIV-infektio on eläinmalli- ja prekliininen tila, ei ihmisen kliininen käyttöaihe.
 
-On myös huomattava, että SIV-infektio on eläinmalli- ja prekliininen tila, ei ihmisen kliininen käyttöaihe. Siksi ennusteella on rajallinen merkitys ihmisille suunnatussa lääkeuusiokäytössä.
+## Kliininen näyttö
 
-### Muut ennustetut käyttöaiheet
-
-Aineistossa on kaksi muuta ennustetta, joilla on sama tai lähes sama pistemäärä:
-
-- **Kissan hankinnainen immuunikatooireyhtymä (FIV)**: pistemäärä 99,92 %. Kyseessä on HIV:n kanssa sukua oleva lentivirus, mikä selittää korkean pistemäärän. Tukevaa kliinistä tai kirjallisuusnäyttöä ei ole, ja käyttöaihe on eläinlääketieteellinen. Ennuste on vain laskennallinen.
-- **Harvinainen perinnöllinen hermoston kehityshäiriö (ataktinen kävely, puheen puuttuminen, aivokuoren valkean aineen väheneminen)**: pistemäärä 99,91 %. Uskottavaa mekanistista yhteyttä ei ole tunnistettu, koska kobisistaatin farmakologia ei kohdistu taudin taustalla olevaan patologiaan. Korkea pistemäärä on todennäköisesti tietokantaperäinen artefakti.
-
-## Kliininen tutkimusnäyttö
-
-Ei tällä hetkellä aiheeseen liittyviä rekisteröityjä kliinisiä tutkimuksia.
+Tällä hetkellä aiheeseen liittyviä kliinisiä tutkimuksia ei ole rekisteröity.
 
 ## Kirjallisuusnäyttö
 
-Ei tällä hetkellä aiheeseen liittyvää kirjallisuutta.
+Tällä hetkellä aiheeseen liittyvää kirjallisuutta ei ole saatavilla.
 
 ## Suomen markkinatiedot
 
-| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/002572 | Tybost | – | HIV-infektio |
-| EMEA/H/C/002819 | Rezolsta | – | HIV-infektio |
-| EMEA/H/C/003904 | Evotaz | – | HIV-infektio |
-| EMEA/H/C/004042 | Genvoya | – | HIV-infektio |
-| EMEA/H/C/004391 | Symtuza | – | HIV-infektio |
+| EMEA/H/C/002572 | Tybost | – | HIV Infections |
+| EMEA/H/C/002819 | Rezolsta | – | HIV Infections |
+| EMEA/H/C/003904 | Evotaz | – | HIV Infections |
+| EMEA/H/C/004042 | Genvoya | – | HIV Infections |
+| EMEA/H/C/004391 | Symtuza | – | HIV Infections |
 
-Kaikki myyntiluvat on merkitty peruutetuiksi. Taulukossa on esitetty viisi kuudesta myyntiluvasta (kuudes: Stribild, EMEA/H/C/002574, myös peruutettu).
+## Turvallisuushuomioita
 
-## Turvallisuusnäkökohdat
+- **Yhteisvaikutukset**: Aineistossa on 100 kirjattua yhteisvaikutusta. Merkittäviksi (Major) luokiteltuja ovat mm. loperamidi, triamsinoloni, sisapridi ja budesonidi. Kohtalaisia (Moderate) ovat mm. hydrokortisoni, aprepitantti, betametasoni, deksametasoni, klaritromysiini, metoklopramidi ja repaglinidi. Lievä (Minor) on prukalopridi.
 
-- **Lääkeyhteisvaikutukset**: Yhteisvaikutuksia on kirjattu yhteensä 100. Esimerkkejä tärkeimmistä:
-  - **Merkittävät (Major)**: loperamidi, triamsinoloni, sisapridi, budesonidi
-  - **Kohtalaiset (Moderate)**: hydrokortisoni, aprepitantti, betametasoni, deksametasoni, klotrimatsoli, klaritromysiini, metoklopramidi, repaglinidi, fenfluramiini
-  - **Vähäiset (Minor)**: prukalopridi
+Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
-  Yhteisvaikutusten suuri määrä johtuu kobisistaatin voimakkaasta CYP3A-estovaikutuksesta ja heikentää uusiokäytön perusteita.
+## Johtopäätös ja seuraavat askeleet
 
-Varoituksista ja vasta-aiheista saa tietoa valmisteyhteenvedosta.
+**Päätös: Odota (Hold)**
 
-## Johtopäätös ja jatkotoimet
+**Perustelut:**
+- Ennuste perustuu pelkästään mallin laskennalliseen pisteeseen, eikä sitä tue yksikään tutkimus tai julkaisu. Kobisistaatilla ei ole omaa antiviraalista tehoa, ja SIV-infektio on eläinmalliin liittyvä tila, ei ihmisen käyttöaihe.
 
-**Päätös: Hold (odota)**
-
-**Perustelu:**
-- Kaikki kolme ennustetta perustuvat pelkästään laskennalliseen malliin (näytön taso L5), eikä niiden tueksi ole kliinisiä tutkimuksia tai julkaisuja. Kaksi ennustetta koskee eläinlääketieteellisiä tai prekliinisiä tiloja, ja kolmannelle ei löydy mekanistista yhteyttä. Lisäksi yhteisvaikutuksia on runsaasti ja kaikki Suomen myyntiluvat on peruutettu.
-
-**Eteneminen edellyttäisi seuraavaa:**
-- Vaikutusmekanismitietojen (MOA) täydentäminen esimerkiksi DrugBankista
-- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen ja jäsentäminen Fimean sivustolta (turvallisuusseulonnan edellytys)
-- Prekliinisen tai kirjallisuusnäytön kartoitus ennustetuista käyttöaiheista
-- Arvio siitä, onko ennustetuilla käyttöaiheilla relevanssia ihmisten lääkeuusiokäytön kannalta
-- Myyntilupatilanteen selvittäminen, koska kaikki myyntiluvat on peruutettu
+**Eteenpäin siirtyminen edellyttää:**
+- Prekliinisiä tutkimuksia, joissa tarkastellaan kobisistaatin tehostajavaikutusta SIV-mallissa
+- Vaikutusmekanismitietojen täydentämistä
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden kokoamista
+- Yhteisvaikutusriskin arviointia (100 kirjattua yhteisvaikutusta)
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

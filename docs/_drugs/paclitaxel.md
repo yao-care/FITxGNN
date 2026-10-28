@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Paclitaxel
-parent: Vahva näyttö (L1-L2)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 323
-evidence_level: L2
-indication_count: 10
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-13
-description: "Paclitaxel: ennustettu uusi käyttöaihe Naisen rintakarsinooma (näytön taso L2). Alkuperäinen käyttöaihe: Rintasyöpä"
 monitor_inn: "PACLITAXEL"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
+description: "Paclitaxel: ennustettu uusi käyttöaihe Parameningeal embryonal rhabdomyosarcoma (näytön taso L5). Alkuperäinen käyttöaihe: Breast Neoplasms"
 ---
 
 # Paclitaxel
 {: .fs-9 }
 
-Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,25 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Paklitakseli: Rintasyövästä naisen rintakarsinooman laajempaan käyttöön
+## Paclitaxel: Parameningeal embryonal rhabdomyosarcoma
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 
 Paklitakseli on mikrotubulusten toimintaa estävä solunsalpaaja, jonka alkuperäinen käyttöaihe on rintasyöpä (Suomessa/EU:ssa myös haimasyöpä ja ei-pienisoluinen keuhkosyöpä albumiiniin sidotussa valmisteessa).
-TxGNN-malli ennustaa sen sopivan **naisen rintakarsinoomaan** (pistemäärä 99,995 %). Tämä on käytännössä jo hyväksytyn käyttöaiheen sisällä, joten kyseessä ei ole varsinainen uudelleenkäyttö.
+Tämä on käytännössä jo hyväksytyn käyttöaiheen sisällä, joten kyseessä ei ole varsinainen uudelleenkäyttö.
 Aineistossa on tähän suuntaan **yli 30 kliinistä tutkimusta** ja **20 julkaisua**, mutta suuri osa on yhdistelmähoitotutkimuksia.
 
 ## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Rintasyöpä; haimasyöpä; ei-pienisoluinen keuhkosyöpä |
-| Ennustettu uusi käyttöaihe | Naisen rintakarsinooma |
+| Alkuperäinen käyttöaihe | Breast Neoplasms;Pancreatic Neoplasms;Carcinoma, Non-Small-Cell Lung; Breast Neoplasms |
+| Ennustettu uusi käyttöaihe | Parameningeal embryonal rhabdomyosarcoma |
 | TxGNN-ennustepisteet | 99,995 % |
-| Näytön taso | L2 |
-| Markkinatilanne Suomessa | Vain peruutetut myyntiluvat |
-| Myyntilupien määrä | 4 (kaikki peruutettu) |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 4/4) |
+| Myyntilupien määrä | 4 (voimassa: 4) |
 | Suositeltu päätös | Proceed with Guardrails (etene varauksin) |
 
 ## Miksi ennuste on perusteltu?
@@ -120,7 +120,6 @@ Kaikki neljä myyntilupaa ovat peruutettuja, eikä voimassa olevia lupia ole.
 | Kohta | Sisältö |
 |------|------|
 | Sytotoksisuusluokitus | Perinteinen solunsalpaaja (taksaani, mikrotubulusten stabilointi) |
-| Myelosuppression riski | Korkea (neutropenia, trombosytopenia ja anemia ovat tavallisia; tietograafi liittää lääkkeen myös agranulosytoosiin) |
 | Oksentelua aiheuttava vaikutus | Matala–kohtalainen |
 | Seurattavat parametrit | Verenkuva erittelyineen, maksa- ja munuaisarvot, perifeerisen neuropatian oireet |
 | Käsittelysuojaus | Noudatettava solunsalpaajien käsittelyohjeita |

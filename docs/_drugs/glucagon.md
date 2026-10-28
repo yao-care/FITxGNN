@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Glucagon
-parent: Kohtalainen näyttö (L3-L4)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 206
-evidence_level: L3
+evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-13
-description: "Glucagon: ennustettu uusi käyttöaihe Ärtyneen suolen oireyhtymä (IBS) (näytön taso L3). Alkuperäinen käyttöaihe: Diabetes mellitus"
 monitor_inn: "GLUCAGON"
 predicted_indications: ["irritable bowel syndrome"]
+last_modified_at: 2026-10-27
+description: "Glucagon: ennustettu uusi käyttöaihe Ärtyvän suolen oireyhtymä (irritable bowel syndrome) (näytön taso L5). Alkuperäinen käyttöaihe: Diabetes Mellitus"
 ---
 
 # Glucagon
 {: .fs-9 }
 
-Näytön taso: **L3** | Ennustetut käyttöaiheet: **1** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,100 +33,84 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-## Glukagoni: Diabeteksesta ärtyneen suolen oireyhtymään
+## Glukagoni: proglukagonista johdettu peptidihormoni → ärtyvän suolen oireyhtymä (irritable bowel syndrome)
 {: .text-alpha }
 
-## Yhteenveto
+## Yhden lauseen yhteenveto
 
-Glukagonia on käytetty diabeteksen hoitoon liittyvissä käyttöaiheissa (Fimean lupatiedoissa käyttöaihe on "Diabetes mellitus").
-TxGNN-malli ennustaa, että se voisi olla hyödyllinen **ärtyneen suolen oireyhtymässä (IBS)**.
-Tukena on **2 kliinistä tutkimusta** ja **20 julkaisua**, mutta lähes kaikki koskevat GLP-1-lääkkeitä, eivät glukagonia itseään. Näyttö tukee siis ennemmin lääkeryhmää tai signalointireittiä kuin glukagonia suoraan.
+Glukagoni on proglukagonista johdettu peptidihormoni, jolla on vaikutuksia ruoansulatuskanavan sileään lihakseen ja liikkuvuuteen.
+TxGNN-malli ennustaa sen voivan olla hyödyllinen indikaatiossa **ärtyvän suolen oireyhtymä (irritable bowel syndrome)**.
+Tätä suuntaa tukee tällä hetkellä **2 kliinistä tutkimusta** ja **20 julkaisua**, mutta lähes kaikki näyttö koskee GLP-1:tä ja sen analogeja, ei glukagonia itseään.
 
----
-
-## Pikakatsaus
+## Pikayhteenveto
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Diabetes mellitus |
-| Ennustettu uusi käyttöaihe | Ärtyneen suolen oireyhtymä (IBS) |
-| TxGNN-ennustepisteet | 99,24 % |
-| Näytön taso | L3 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 2 (molemmat peruutettu) |
-| Suositeltu päätös | Hold (odotetaan) |
-
----
+| Alkuperäinen käyttöaihe | Diabetes Mellitus |
+| Ennustettu uusi käyttöaihe | Ärtyvän suolen oireyhtymä (irritable bowel syndrome) |
+| TxGNN-ennustepisteet | 0,9924 |
+| Näytön taso | L5 |
+| Suomen markkinatilanne | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Myyntilupien määrä | 2 (voimassa: 2) |
+| Suositeltu päätös | Hold |
 
 ## Miksi ennuste on perusteltu?
 
-Glukagoni on proglukagonista johdettu peptidi, joka vaikuttaa glukagonireseptoriin. Sen tiedetään myös estävän ruoansulatuskanavan sileän lihaksen toimintaa ja suolen liikkuvuutta. Tämän vuoksi sitä käytetään apuaineena ruoansulatuskanavan kuvantamistutkimuksissa. Tämä antaa uskottavan yhteyden IBS:n oireisiin, kuten poikkeavaan suolen liikkuvuuteen ja viskeraaliseen kipuun.
+Tarkkaa vaikutusmekanismia koskevia tietoja ei ole tällä hetkellä saatavilla. Glukagoni on proglukagonista johdettu peptidi, joka vaikuttaa glukagonireseptoriin. Sillä tiedetään olevan ruoansulatuskanavan sileää lihasta rentouttava ja liikkuvuutta hillitsevä vaikutus, mikä on perustana sen käytölle diagnostisena apuna ruoansulatuskanavan kuvantamisessa.
 
-Tutkimusnäyttö koskee kuitenkin pääosin GLP-1:tä ja sen analogeja (esim. ROSE-010) sekä GLP-1-reseptoriagonisteja. Ne ovat samaa proglukagonialkuperää ja estävät myös suolen liikkuvuutta, mutta vaikuttavat eri reseptorin kautta. Erittäin korkea TxGNN-pistemäärä on laskennallinen ennuste, ja se heijastaa todennäköisesti verkostotason läheisyyttä.
+Ärtyvän suolen oireyhtymään liittyy poikkeava suolen liikkuvuus ja viskeraalinen kipu, joten liikkuvuutta hillitsevä vaikutus voisi mekanistisesti olla yhteydessä oireisiin. Tämä on kuitenkin vain uskottava hypoteesi.
 
-Tällä hetkellä yksityiskohtaisia tietoja lääkkeen vaikutusmekanismista ei ole saatavilla, joten reseptoritason päättelyä ei voitu tämän aineiston perusteella varmentaa.
+Tärkeä rajoitus: kliiniset tutkimukset ja suurin osa kirjallisuudesta koskevat GLP-1:tä ja sen analogeja (esim. ROSE-010), jotka vaikuttavat eri reseptoriin kuin glukagoni. Näyttö tukee siten lähinnä lääkeaineryhmää tai signalointireittiä, ei glukagonia suoraan. Erittäin korkea ennustepiste on laskennallinen tulos, ja se heijastaa todennäköisesti verkostollista läheisyyttä.
 
----
+## Kliininen tutkimusnäyttö
 
-## Kliiniset tutkimukset
-
-| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset havainnot |
+| Tutkimusnumero | Vaihe | Tila | Osallistujamäärä | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT01056107](https://clinicaltrials.gov/study/NCT01056107) | Vaihe 1/2 | Valmistunut | 52 | ROSE-010:n (GLP-1-analogi) vaikutus ruoansulatuskanavan motoriikkaan ummetusvaltaista IBS:ää sairastavilla naisilla. Väestö on relevantti, mutta lääke ei ole glukagoni. |
-| [NCT02731664](https://clinicaltrials.gov/study/NCT02731664) | Vaihe 1 | Valmistunut | 12 | Natiivin GLP-1:n ja ROSE-010:n vaikutus mahalaukun, pohjukaissuolen ja ohutsuolen motoriikkaan aterian jälkeen. Ei IBS-potilaita eikä glukagonia; vain epäsuora mekanistinen tuki. |
-
----
+| [NCT01056107](https://clinicaltrials.gov/study/NCT01056107) | Vaihe 1/2 | Päättynyt | 52 | GLP-1-analogi ROSE-010:n vaikutus ruoansulatuskanavan motoriikkaan naisilla, joilla on ummetusvaltainen ärtyvän suolen oireyhtymä. Väestö on relevantti, mutta lääke ei ole glukagoni. |
+| [NCT02731664](https://clinicaltrials.gov/study/NCT02731664) | Vaihe 1 | Päättynyt | 12 | Natiivin GLP-1:n ja ROSE-010:n vaikutus mahalaukun, pohjukaissuolen ja ohutsuolen liikkuvuuteen aterian jälkeen. Epäsuora mekanistinen tuki; ei IBS-potilaita. |
 
 ## Kirjallisuusnäyttö
 
-| PMID | Vuosi | Tyyppi | Julkaisu | Keskeiset havainnot |
-|---------|-----|------|------|---------|
-| [40134805](https://pubmed.ncbi.nlm.nih.gov/40134805/) | 2025 | Systemaattinen katsaus ja meta-analyysi | Front Endocrinol | GLP-1-reseptoriagonistit ja IBS; GLP-1 ja ROSE-010 hidastavat suolen liikkuvuutta IBS-potilailla. |
-| [38997662](https://pubmed.ncbi.nlm.nih.gov/38997662/) | 2024 | Systemaattinen katsaus | J Headache Pain | GLP-1-reseptoriagonistit päänsärky- ja kipuhäiriöissä. |
-| [35234561](https://pubmed.ncbi.nlm.nih.gov/35234561/) | 2022 | Kliinisen tutkimuksen ristiinanalyysi | Scand J Gastroenterol | ROSE-010 lievitti IBS-kohtausten kipua; analyysi sopivimman potilasryhmän tunnistamiseksi. |
-| [40697433](https://pubmed.ncbi.nlm.nih.gov/40697433/) | 2025 | Kohorttitutkimus | Ann Gastroenterol | GLP-1-reseptoriagonistien määräämis- ja lopettamiskäytännöt IBS-potilailla. |
-| [30444291](https://pubmed.ncbi.nlm.nih.gov/30444291/) | 2019 | Katsaus | Exp Physiol | L-solujen ja GLP-1:n rooli IBS:n patofysiologiassa. |
-| [25427821](https://pubmed.ncbi.nlm.nih.gov/25427821/) | 2015 | Katsaus | Adv Exp Med Biol | Aerosolina annettava GLP-1 diabeteksen ja IBS:n hoidossa. |
-| [30023410](https://pubmed.ncbi.nlm.nih.gov/30023410/) | 2018 | Katsaus | Cell Mol Gastroenterol Hepatol | Aivo-suoli-mikrobiomi-akselin vuorovaikutukset. |
-| [41480755](https://pubmed.ncbi.nlm.nih.gov/41480755/) | 2026 | Katsaus | J Clin Invest | Suoli-aivovuorovaikutusten mekanismit ja kliiniset vaikutukset. |
-| [26765585](https://pubmed.ncbi.nlm.nih.gov/26765585/) | 2016 | Katsaus | Expert Opin Investig Drugs | Uudet tutkittavat lääkkeet ummetusvaltaiseen IBS:ään. |
-| [40880735](https://pubmed.ncbi.nlm.nih.gov/40880735/) | 2025 | Tutkimus | Front Nutr | Verenkierron GLP-1-pitoisuus nousi matalan FODMAP-ruokavalion jälkeen IBS-potilailla. |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
+|------|-----|------|------|---------|
+| [40134805](https://pubmed.ncbi.nlm.nih.gov/40134805/) | 2025 | Systemaattinen katsaus | Frontiers in endocrinology | GLP-1-reseptoriagonistit ja ärtyvän suolen oireyhtymän paraneminen; GLP-1 ja ROSE-010 hillitsevät suolen liikkuvuutta. |
+| [35234561](https://pubmed.ncbi.nlm.nih.gov/35234561/) | 2022 | Kliininen alaryhmäanalyysi | Scandinavian journal of gastroenterology | ROSE-010 lievitti kipua IBS-kohtauksissa; analyysi sopivimman potilasryhmän tunnistamiseksi. |
+| [30444291](https://pubmed.ncbi.nlm.nih.gov/30444291/) | 2019 | Katsaus | Experimental physiology | L-solujen ja GLP-1:n rooli ärtyvän suolen oireyhtymän patofysiologiassa. |
+| [40697433](https://pubmed.ncbi.nlm.nih.gov/40697433/) | 2025 | Kohorttitutkimus | Annals of gastroenterology | GLP-1-reseptoriagonistien määräys- ja lopetuskäytännöt IBS-potilailla. |
+| [40880735](https://pubmed.ncbi.nlm.nih.gov/40880735/) | 2025 | Tutkimus | Frontiers in nutrition | Kiertävä GLP-1 nousi low FODMAP -ruokavalion jälkeen IBS-potilailla. |
+| [25427821](https://pubmed.ncbi.nlm.nih.gov/25427821/) | 2015 | Katsaus | Advances in experimental medicine and biology | Aerosolina annosteltu GLP-1 diabeteksen ja ärtyvän suolen oireyhtymän hoidossa. |
+| [26765585](https://pubmed.ncbi.nlm.nih.gov/26765585/) | 2016 | Katsaus | Expert opinion on investigational drugs | Kehitteillä olevat lääkeaineet ummetusvaltaiseen IBS:ään. |
+| [41974246](https://pubmed.ncbi.nlm.nih.gov/41974246/) | 2026 | Katsaus | Clinical gastroenterology and hepatology | IBS:n hoidon aukot ja perifeeristä viskeraalista afferenttia moduloivat tulevat hoidot. |
+| [30023410](https://pubmed.ncbi.nlm.nih.gov/30023410/) | 2018 | Katsaus | Cellular and molecular gastroenterology and hepatology | Aivo-suoli-mikrobiomi-akselin kaksisuuntaiset vuorovaikutukset. |
+| [41480755](https://pubmed.ncbi.nlm.nih.gov/41480755/) | 2026 | Katsaus | The Journal of clinical investigation | Suoli-aivovuorovaikutusten mekanismit ja inkretiinipohjaiset hoidot. |
 
-Yksikään julkaisu ei tutki glukagonia suoraan IBS:n hoidossa.
+Yksikään lähteistä ei tutki glukagonia itseään ärtyvän suolen oireyhtymän hoidossa.
 
----
+## Suomen markkinatiedot
 
-## Markkinatiedot Suomessa
-
-| Myyntilupanumero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/005391 | Ogluo (peruutettu) | – | Diabetes mellitus |
-| EMEA/H/C/003848 | Baqsimi (peruutettu) | – | Diabetes mellitus |
-
----
+| EMEA/H/C/005391 | Ogluo | – | – |
+| EMEA/H/C/003848 | Baqsimi | – | – |
 
 ## Turvallisuushuomiot
 
-**Lääkeyhteisvaikutukset:** Yhteisvaikutuksia on kirjattu yhteensä 25, ja kaikki tässä esitetyt ovat vähäisiä (Minor). Tärkeimmät:
-- Varfariini
-- Beetasalpaajat, mm. asebutololi, atenololi, bisoprololi, karvediloli, metoprololi, propranololi, nadololi, labetaloli, sotaloli ja timololi (myös silmätippamuodot)
+**Yhteisvaikutukset:** Yhteisvaikutustietokannasta löytyi yhteensä 25 yhteisvaikutusta. Kaikki luetellut ovat luokkaa lievä (Minor). Näihin kuuluvat varfariini ja useat beetasalpaajat, kuten asebutololi, atenololi, bisoprololi, karvedilolli, metoprololi, propranololi, sotaloli, nadololi ja labetaloli.
 
-Muiden turvallisuustietojen osalta katso valmisteyhteenveto.
+Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
----
+## Johtopäätös ja seuraavat askeleet
 
-## Johtopäätös ja seuraavat vaiheet
+**Päätös: Hold**
 
-**Päätös: Hold (odotetaan)**
+**Perustelut:**
+- Kliininen ja kirjallisuusnäyttö koskee GLP-1:tä ja sen analogeja, ei glukagonia. Yksikään viitatuista tutkimuksista ei tutki glukagonia ärtyvän suolen oireyhtymässä, joten näytön taso on L5. Korkea ennustepiste on pelkkä mallin laskennallinen tulos.
 
-**Perustelu:**
-- Näyttö koskee GLP-1-lääkkeitä eikä glukagonia, ja ne vaikuttavat eri reseptorin kautta. Lisäksi glukagonin myyntiluvat Suomessa on peruutettu, joten ennuste on toistaiseksi tutkimuskysymys.
-
-**Eteenpäin siirtyminen edellyttää:**
-- Yksityiskohtaiset vaikutusmekanismitiedot (MOA), joilla glukagonireseptoritason päättely voidaan varmentaa
-- Fimean valmisteyhteenvedon varoitus- ja vasta-aihetietojen hankinta ja tarkastus (turvallisuusseulonta on tällä hetkellä estynyt)
-- Glukagonia itseään IBS-potilailla tutkivaa prekliinistä tai kliinistä näyttöä
-- Selvitys glukagonin antoreiteistä ja lääkemuodoista IBS-käyttöön sekä myyntilupatilanteen tarkistus
+**Jatkoon tarvitaan:**
+- Vaikutusmekanismitiedot (MOA) glukagonista reseptoritason päättelyn varmistamiseksi
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet (Fimea)
+- Suora prekliininen tai kliininen tutkimus glukagonista ärtyvän suolen oireyhtymässä
+- Arvio glukagonin ja GLP-1-analogien reseptorivaikutusten erosta suolen liikkuvuuteen
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

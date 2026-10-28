@@ -4,17 +4,17 @@ title: Mecasermin
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 278
 evidence_level: L5
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-13
-description: "Mecasermin: ennustettu uusi käyttöaihe Monosomia X (Turnerin oireyhtymä) (näytön taso L5). Alkuperäinen käyttöaihe: Laronin oireyhtymä"
 monitor_inn: "MECASERMIN"
 predicted_indications: ["monosomy X", "Wolman disease with hypolipoproteinemia and acanthocytosis", "esophageal varices with bleeding", "esophageal varices without bleeding"]
+description: "Mecasermin: ennustettu uusi käyttöaihe Monosomy X (näytön taso L5). Alkuperäinen käyttöaihe: Laron Syndrome"
 ---
 
 # Mecasermin
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-## Mekaseermiini: Laronin oireyhtymästä monosomia X:ään (Turnerin oireyhtymä)
+## Mecasermin: Monosomy X
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -46,12 +46,12 @@ Mekaseermiini on yhdistelmä-DNA-tekniikalla valmistettu IGF-1 (insuliinin kalta
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Laronin oireyhtymä |
-| Ennustettu uusi käyttöaihe | Monosomia X (Turnerin oireyhtymä) |
+| Alkuperäinen käyttöaihe | Laron Syndrome |
+| Ennustettu uusi käyttöaihe | Monosomy X |
 | TxGNN-ennustepisteet | 99,59 % |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -60,7 +60,7 @@ Mekaseermiini on yhdistelmä-DNA-tekniikalla valmistettu IGF-1 (insuliinin kalta
 
 Tästä lääkkeestä ei tällä hetkellä ole saatavilla yksityiskohtaista vaikutusmekanismitietoa. Mekaseermiini on kuitenkin IGF-1:n yhdistelmä-DNA-muoto, ja sen teho Laronin oireyhtymässä (vaikea primaarinen IGF-1-puutos, kasvuhormonin epäherkkyys) on osoitettu. Mekaseermiini korvaa puuttuvan IGF-1:n suoraan ja toimii kasvuhormonin vaikutusketjun loppupäässä.
 
-Turnerin oireyhtymälle on tyypillistä lyhytkasvuisuus, ja kasvuhormoni on vakiintunut hoito. Mekanistinen peruste on siis uskottava mutta heikko: Turnerin oireyhtymää sairastavilla IGF-1-vaste on yleensä normaali tai koholla, eikä taustalla ole ensisijaisesti IGF-1-puutosta. Korkea TxGNN-pistemäärä (0,996) on pelkkä laskennallinen ennuste, eikä sitä tue mikään kliininen tai kirjallisuusnäyttö.
+Turnerin oireyhtymälle on tyypillistä lyhytkasvuisuus, ja kasvuhormoni on vakiintunut hoito. Mekanistinen peruste on siis uskottava mutta heikko: Turnerin oireyhtymää sairastavilla IGF-1-vaste on yleensä normaali tai koholla, eikä taustalla ole ensisijaisesti IGF-1-puutosta. Korkea TxGNN-pistemäärä (0,9959) on pelkkä laskennallinen ennuste, eikä sitä tue mikään kliininen tai kirjallisuusnäyttö.
 
 Muut ennustetut käyttöaiheet (sijat 2–5) ovat mekanistisesti vielä heikommin perusteltuja. Biologisesti uskottavin ehdokas on **kasvuhormoniresistenssioireyhtymä, johon liittyy immuunisäätelyn häiriö (autosomaalinen dominantti, tyyppi 2)** (sija 3, pisteet 99,06 %). Se muistuttaa mekanismiltaan Laronin oireyhtymää (STAT5B-liitännäinen signalointi), ja mekaseermiini ohittaa vialliset kasvuhormonin signaalit. IGF-1 ei kuitenkaan korjaa immuunisäätelyn häiriötä, eikä tutkimusnäyttöä ole. Sitä kannattaa tarkastella erillisessä kirjallisuuskatsauksessa.
 

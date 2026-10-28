@@ -6,9 +6,9 @@ nav_order: 255
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-13
-description: "Lefamulin: ennustettu uusi käyttöaihe Diffuusi iholeishmaniaasi (näytön taso L5). Alkuperäinen käyttöaihe: Bakteeriperäinen keuhkokuume"
 monitor_inn: "Lefamulin"
 predicted_indications: ["leishmaniasis, diffuse cutaneous", "polyclonal hyperviscosity syndrome", "hyperamylasemia"]
+description: "Lefamulin: ennustettu uusi käyttöaihe Leishmaniasis, diffuse cutaneous (näytön taso L5). Alkuperäinen käyttöaihe: Pneumonia, Bacterial"
 ---
 
 # Lefamulin
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-## Lefamuliini: Yhteisöhankitun bakteeripneumonian hoidosta diffuusiin iholeishmaniaasiin
+## Lefamulin: Leishmaniasis, diffuse cutaneous
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -48,12 +48,12 @@ Ennuste perustuu siis pelkästään mallilaskentaan (todistetaso **L5**).
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Bakteeriperäinen keuhkokuume; yhteisöhankitut infektiot |
-| Ennustettu uusi käyttöaihe | Diffuusi iholeishmaniaasi |
-| TxGNN-ennustepistemäärä | 99,24 % |
+| Alkuperäinen käyttöaihe | Pneumonia, Bacterial;Community-Acquired Infections |
+| Ennustettu uusi käyttöaihe | Leishmaniasis, diffuse cutaneous |
+| TxGNN-ennustepistemäärä | 0.9924 |
 | Todistetaso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien lukumäärä | 1 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien lukumäärä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -62,7 +62,7 @@ Ennuste perustuu siis pelkästään mallilaskentaan (todistetaso **L5**).
 
 Lefamuliini estää bakteerien proteiinisynteesiä sitoutumalla 50S-ribosomialayksikön peptidyylitransferaasikeskukseen. Yksityiskohtaisia mekanismitietoja (MOA) ei ole tässä raportissa käytettävissä olevassa aineistossa.
 
-Leishmania on aitotumallinen alkueläin, joten bakteeriribosomiin kohdistuva vaikutus ei suoraan sovi siihen. Mahdollinen teho edellyttäisi vaikutusta loisen mitokondrio- tai muiden soluelinten ribosomeihin. Tämä on spekulatiivista, eikä käytettävissä oleva aineisto tue sitä. Korkea TxGNN-pistemäärä (0,992) on tietämysgraafiin perustuva ennuste, ei biologinen todiste.
+Leishmania on aitotumallinen alkueläin, joten bakteeriribosomiin kohdistuva vaikutus ei suoraan sovi siihen. Mahdollinen teho edellyttäisi vaikutusta loisen mitokondrio- tai muiden soluelinten ribosomeihin. Tämä on spekulatiivista, eikä käytettävissä oleva aineisto tue sitä. Korkea TxGNN-pistemäärä (0,9924) on tietämysgraafiin perustuva ennuste, ei biologinen todiste.
 
 Alkuperäisen ja uuden käyttöaiheen välinen samankaltaisuusarvio on vielä kesken. Molemmat ovat infektioita, mutta taudinaiheuttajat ja hoitokohteet eroavat selvästi.
 
@@ -117,7 +117,7 @@ Muiden turvallisuustietojen osalta tutustu valmisteyhteenvetoon.
 
 ---
 
-*Huomio muista ennustetuista käyttöaiheista:* Polyklonaalinen hyperviskositeettisyndrooma ja hyperamylasemia (molemmat pistemäärä 99,10 %) sijoittuivat myös tasolle L5 ja suositus on Hold. Uskottavaa mekanistista yhteyttä ei ole havaittu. Hyperamylasemia on laboratoriolöydös, joten sitä tulisi tarkastella pikemmin haittavaikutus- tai seurantakysymyksenä kuin uutena käyttöaiheena.
+*Huomio muista ennustetuista käyttöaiheista:* Polyklonaalinen hyperviskositeettisyndrooma ja hyperamylasemia (molemmat pistemäärä 0,9910) sijoittuivat myös tasolle L5 ja suositus on Hold. Uskottavaa mekanistista yhteyttä ei ole havaittu. Hyperamylasemia on laboratoriolöydös, joten sitä tulisi tarkastella pikemmin haittavaikutus- tai seurantakysymyksenä kuin uutena käyttöaiheena.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

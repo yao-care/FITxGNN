@@ -1,18 +1,19 @@
 ---
 layout: default
 title: Neratinib
-parent: Vahva näyttö (L1-L2)
+parent: Vain tunnetut käytöt (ei uusia ennusteita)
 nav_order: 300
-evidence_level: L2
-indication_count: 4
-last_modified_at: 2026-10-13
-description: "Neratinib: ennustettu uusi käyttöaihe Progesteronireseptoripositiivinen rintasyöpä (näytön taso L2). Alkuperäinen käyttöaihe: Rintasyöpä"
+last_modified_at: 2026-10-23
+description: "Neratinib: tunnetut käyttöaiheet ja markkinatilanne Suomessa; tällä hetkellä ei uutta ehdokasindikaatiota"
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Neratinib
 {: .fs-9 }
 
-Näytön taso: **L2** | Ennustetut käyttöaiheet: **4** kpl
+Näytön taso: **N/A** | Ennustetut käyttöaiheet: **0** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,62 +32,47 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-## Neratinibi: Rintasyövästä progesteronireseptoripositiiviseen rintasyöpään
+<!-- known-uses-page -->
+<!-- description: Neratinib: tunnetut käyttötarkoitukset ja markkinatilanne Suomessa; tällä hetkellä ei uutta ehdokasindikaatiota -->
+## Neratinib
 {: .text-alpha }
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
+TxGNN-mallin Neratinibille tuottamat ehdokkaat ovat kaikki jo tunnettuja käyttötarkoituksia, joten uutta ennustettua indikaatiota ei tällä hetkellä ole. Mallin neljä ehdokasta kuuluvat samaan tautiryhmään (rintasyöpä) kuin hyväksytty käyttöaihe. Ne eivät kuitenkaan ole itsenäisesti hyväksyttyjä käyttöaiheita.
 
-Neratinibi on peruuttamattomasti sitoutuva HER-tyrosiinikinaasin estäjä, jota on alun perin käytetty rintasyövän hoitoon.
-TxGNN-malli ennustaa sen voivan tehota **progesteronireseptoripositiiviseen rintasyöpään**,
-ja tätä suuntaa tukee tällä hetkellä **1 aktiivinen kliininen tutkimus** (toinen tutkimus on peruttu) sekä **12 julkaisua**, joihin kuuluu faasin 3 satunnaistettu tutkimus (ExteNET).
-
-## Pikayhteenveto
-
+## Pikakatsaus
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Rintasyöpä |
-| Ennustettu uusi käyttöaihe | Progesteronireseptoripositiivinen rintasyöpä |
-| TxGNN-ennusteen pistemäärä | 99,68 % |
-| Näytön taso | L2 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
-| Suositeltu päätös | Proceed with Guardrails (eteneminen suojatoimin) |
+| Uudet ennustetut indikaatiot | Ei yhtään (kaikki jäljitettävissä olevat mallin ehdokkaat ovat tunnettuja käyttötarkoituksia) |
+| Tunnetut käyttötarkoitukset mallin ehdokkaiden joukossa | 4 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 
-## Miksi ennuste on perusteltu?
+## Tunnetut käyttötarkoitukset mallin ehdokkaiden joukossa
 
-Yksityiskohtaista vaikutusmekanismitietoa ei ole tämän raportin aineistossa saatavilla. Tunnetun tiedon perusteella neratinibi on peruuttamaton pan-HER-tyrosiinikinaasin estäjä (EGFR/HER2/HER4), jonka teho rintasyövässä on osoitettu, ja mekanistisesti se voi soveltua myös progesteronireseptoripositiivisen rintasyövän hoitoon.
+### Hyväksytyt (luvan tai valmisteyhteenvedon tukemat)
+| Käyttöaihe | Lähde |
+|------|------|
+| ei yhtään | – |
 
-Progesteronireseptoripositiivinen tauti on pääosin hormonireseptoripositiivista (HR+). HR+/HER2+-kasvaimissa HER2- ja estrogeenireseptorisignaloinnin kaksisuuntainen ylikuuluminen ylläpitää endokriinihoitoresistenssiä. HER2:n eston yhdistäminen endokriiniseen hoitoon on siksi biologisesti perusteltua.
+### Hyväksyttyyn käyttöaiheeseen liittyvät (sama tautiryhmä)
+| Käyttöaihe | Hyväksytty tautiryhmä |
+|------|------|
+| progesteronireseptoripositiivinen rintasyöpä (progesterone-receptor positive breast cancer) | rintasyöpä (breast cancer) |
+| rintasyövän normaalin kaltainen alatyyppi (normal breast-like subtype of breast carcinoma) | rintasyöpä (breast cancer) |
+| progesteronireseptorinegatiivinen rintasyöpä (progesterone-receptor negative breast cancer) | rintasyöpä (breast cancer) |
+| luminaalinen A- tai B-tyypin rintakasvain (breast tumor luminal A or B) | rintasyöpä (breast cancer) |
 
-Kyse on pikemminkin jo hyväksytyn lääkeryhmän käytöstä rintasyövässä kuin varsinaisesta uudelleenkäytöstä, joten näyttö tarkentaa lähinnä HR+-alaryhmää. Muista ennustetuista käyttöaiheista "normaalin kaltainen rintasyövän alatyyppi" jää ilman tutkimusnäyttöä (taso L5, Hold). Progesteronireseptorinegatiivisessa rintasyövässä näyttö on pääosin yhteistä laajemman HER2+-ohjelman kanssa eikä spesifistä PR-negatiiviselle taudille. Luminaali A- tai B -kasvaimissa näyttö on mutaatiovetoista (SUMMIT, plasmaMATCH) ja pääosin yksihaaraisia tai korittomia (basket) asetelmia (taso L3, tutkimuskysymys).
-
-## Kliininen tutkimusnäyttö
-
-| Tutkimusnumero | Vaihe | Tila | Osallistujamäärä | Keskeiset havainnot |
-|---------|------|------|------|---------|
-| [NCT04886531](https://clinicaltrials.gov/study/NCT04886531) | Vaihe 2 | Rekrytoi | 30 | Leikkausta edeltävä neratinibi, aromataasinestäjä ja trastutsumabi ER+/HER2+ -syövässä; tuloksia ei vielä |
-| [NCT04901299](https://clinicaltrials.gov/study/NCT04901299) | Vaihe 2 | Peruttu | 0 | Fulvestrantti + neratinibi aiemmin hoidetussa HR+/HER2-negatiivisessa etäpesäkesyövässä; ei osallistujia, ei näyttöä |
-
-## Kirjallisuusnäyttö
-
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
-|------|-----|------|------|---------|
-| [26874901](https://pubmed.ncbi.nlm.nih.gov/26874901/) | 2016 | RCT (vaihe 3) | Lancet Oncol | ExteNET: 12 kk neratinibia trastutsumabipohjaisen liitännäishoidon jälkeen varhaisessa HER2+ rintasyövässä |
-| [27406346](https://pubmed.ncbi.nlm.nih.gov/27406346/) | 2016 | RCT (vaihe 2) | N Engl J Med | I-SPY 2: neratinibin adaptiivinen satunnaistaminen varhaisessa rintasyövässä neoadjuvanttihoitona |
-| [37597578](https://pubmed.ncbi.nlm.nih.gov/37597578/) | 2023 | Vaihe 2 | Ann Oncol | SUMMIT: neratinibi + fulvestrantti + trastutsumabi HR+, HER2-mutatoituneessa etäpesäkesyövässä |
-| [41116969](https://pubmed.ncbi.nlm.nih.gov/41116969/) | 2025 | Vaihe 1b/2 | Ther Adv Med Oncol | Neoadjuvanttineratinibi tulehduksellisessa rintasyövässä (HER2+ tai HR+/HER2-) |
-| [35640077](https://pubmed.ncbi.nlm.nih.gov/35640077/) | 2022 | Ohjeistus | J Clin Oncol | ASCO:n päivitetty ohjeistus edenneen HER2+ rintasyövän systeemihoitoon |
-| [29784737](https://pubmed.ncbi.nlm.nih.gov/29784737/) | 2018 | Ohjeistus | J Natl Compr Canc Netw | NCCN-ohjeistuspäivitys rintasyövästä, mm. CDK4/6-estäjät ER+ -syövässä |
-| [33726508](https://pubmed.ncbi.nlm.nih.gov/33726508/) | 2021 | Katsaus | Future Oncol | HR+/HER2+ rintasyövän hoidon nykysuuntaukset, hormonaalisen ja HER2-kohdennetun hoidon yhdistelmät |
-| [32139271](https://pubmed.ncbi.nlm.nih.gov/32139271/) | 2020 | Katsaus | Clin Breast Cancer | Asiantuntijaryhmän pyöreän pöydän keskustelu HER2+ rintasyövän hoidosta |
-| [39153126](https://pubmed.ncbi.nlm.nih.gov/39153126/) | 2024 | Kohortti | Breast Cancer Res Treat | Liitännäisneratinibin käyttö ja siedettävyys HR+/HER2+ -syövässä; maha-suolikanavan haitat johtavat usein hoidon keskeytykseen |
-| [41499317](https://pubmed.ncbi.nlm.nih.gov/41499317/) | 2026 | Kohortti | Oncology | Liitännäisneratinibin määräämistrendit HR+/HER2+ -syövässä nykykäytännössä |
+### Suhteet, jotka on kirjattu lähdetietoihin (hyväksyntää ei löytynyt)
+| Käyttöaihe |
+|------|
+| ei yhtään |
 
 ## Markkinatiedot Suomessa
 
-| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/004030 (peruttu) | Nerlynx | – | Rintasyöpä |
+| Myyntilupa | Valmiste | Lääkemuoto | Tila |
+|------|------|------|------|
+| EMEA/H/C/004030 | neratinib |  | Voimassa |
 
 ## Sytotoksisuus
 
@@ -111,19 +97,6 @@ Kyse on pikemminkin jo hyväksytyn lääkeryhmän käytöstä rintasyövässä k
 
 Varoituksista ja vasta-aiheista katso valmisteyhteenveto.
 
-## Johtopäätös ja seuraavat vaiheet
-
-**Päätös: Proceed with Guardrails**
-
-**Perustelut:**
-- Neratinibin teho HER2+ rintasyövässä on osoitettu faasin 3 tutkimuksessa (ExteNET), ja HR+/HER2+ -alaryhmästä on kliinistä ja mekanistista tukea. PR-spesifistä, valmistunutta faasin 3 -näyttöä ei kuitenkaan ole, ja ainoa relevantti käynnissä oleva tutkimus on pieni faasin 2 -tutkimus ilman tuloksia. Suomessa ainoa myyntilupa on peruttu.
-
-**Eteneminen edellyttää seuraavaa:**
-- Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittäminen (tämä estää turvallisuusseulonnan jatkamisen)
-- Vaikutusmekanismitietojen täydentäminen
-- NCT04886531-tutkimuksen tulosten seuranta
-- Ripulin ehkäisy- ja seurantasuunnitelma sekä yhteisvaikutusten hallinta, erityisesti happoa vähentävien lääkkeiden osalta
-- Myyntiluvan peruutuksen syiden ja Suomen markkinasaatavuuden selvittäminen
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

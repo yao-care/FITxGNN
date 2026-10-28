@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pseudoephedrine
-parent: Kohtalainen näyttö (L3-L4)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 361
-evidence_level: L4
-indication_count: 3
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-13
 description: "Pseudoephedrine: ennustettu uusi käyttöaihe Nenäontelon sairaus (nasal cavity disease) (näytön taso L4). Alkuperäinen käyttöaihe: Kausiluontoinen allerginen nuha"
 monitor_inn: "pseudoephedrine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "allergic urticaria"]
+predicted_indications: ["nasal cavity disease", "allergic urticaria"]
 ---
 
 # Pseudoephedrine
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-## Pseudoefedriini: Kausiluontoisesta allergisesta nuhasta nenäontelon sairauteen
+## Pseudoefedriini: Nenäontelon sairaus
 {: .text-alpha }
 
 ## Yhteenveto
@@ -50,10 +50,10 @@ Näyttö on siis vielä esikliinisellä tasolla.
 |------|------|
 | Alkuperäinen käyttöaihe | Kausiluontoinen allerginen nuha |
 | Ennustettu uusi käyttöaihe | Nenäontelon sairaus (nasal cavity disease) |
-| TxGNN-ennusteen pistemäärä | 99,75 % |
-| Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| TxGNN-ennusteen pistemäärä | 0,9975 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -62,7 +62,7 @@ Näyttö on siis vielä esikliinisellä tasolla.
 
 Pseudoefedriini on sympatomimeetti, joka vapauttaa norepinefriiniä (epäsuora vaikutus) ja stimuloi suoraan alfa-adrenergisiä reseptoreja. Seurauksena nenän limakalvon verisuonet supistuvat ja nenän tukkoisuus vähenee. Tämä mekanismi on päätelty yleisen farmakologian pohjalta, sillä tähän raporttiin koottu aineisto ei sisällä virallista vaikutusmekanismikuvausta.
 
-Alkuperäinen käyttöaihe (kausiluontoinen allerginen nuha) ja ennustettu käyttöaihe (nenäontelon sairaudet laajasti) liittyvät molemmat nenän limakalvon turvotukseen ja tukkoisuuteen. Verisuonia supistava vaikutus voisi siksi lievittää oireita myös muissa nenän sairauksissa, esimerkiksi ei-allergisessa nuhassa. Korkea pistemäärä (0,997) heijastaa todennäköisesti tätä päällekkäisyyttä.
+Alkuperäinen käyttöaihe (kausiluontoinen allerginen nuha) ja ennustettu käyttöaihe (nenäontelon sairaudet laajasti) liittyvät molemmat nenän limakalvon turvotukseen ja tukkoisuuteen. Verisuonia supistava vaikutus voisi siksi lievittää oireita myös muissa nenän sairauksissa, esimerkiksi ei-allergisessa nuhassa. Korkea pistemäärä (0,9975) heijastaa todennäköisesti tätä päällekkäisyyttä.
 
 Aineistossa ei kuitenkaan ole pseudoefedriinillä tehtyjä kliinisiä tutkimuksia tässä laajemmassa käyttöaiheessa. Hyöty olisi lisäksi korkeintaan oireenmukaista.
 

@@ -6,9 +6,9 @@ nav_order: 460
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-13
-description: "Upadacitinib: ennustettu uusi käyttöaihe Kolobomatoottinen mikroftalmia-rhizomeelinen dysplasiaoireyhtymä (näytön taso L5). Alkuperäinen käyttöaihe: Nivelreuma"
 monitor_inn: "UPADACITINIB"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
+description: "Upadacitinib: ennustettu uusi käyttöaihe Colobomatous microphthalmia-rhizomelic dysplasia syndrome (näytön taso L5). Alkuperäinen käyttöaihe: Arthritis, Rheumatoid"
 ---
 
 # Upadacitinib
@@ -33,23 +33,23 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-## Upadasitinibi: reumatoidiniveltulehduksesta kohti kolobomatoottisen mikroftalmia-rhizomeelisen dysplasiaoireyhtymän ennustetta
+## Upadacitinib: Colobomatous microphthalmia-rhizomelic dysplasia syndrome
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 
-Upadasitinibi on lääke, jota on alun perin käytetty nivelreuman hoitoon. TxGNN-malli ennustaa sen voivan tehota **kolobomatoottiseen mikroftalmia-rhizomeelisen dysplasiaoireyhtymään** (ennustepisteet 99,6 %), mutta ennusteen tukena ei ole yhtään kliinistä tutkimusta eikä julkaisua. Näyttö on pelkkää mallin ennustetta (taso L5).
+Upadasitinibi on lääke, jota on alun perin käytetty nivelreuman hoitoon. Näyttö on pelkkää mallin ennustetta (taso L5).
 
 ## Pikayhteenveto
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Nivelreuma |
-| Ennustettu uusi käyttöaihe | Kolobomatoottinen mikroftalmia-rhizomeelinen dysplasiaoireyhtymä |
+| Alkuperäinen käyttöaihe | Arthritis, Rheumatoid |
+| Ennustettu uusi käyttöaihe | Colobomatous microphthalmia-rhizomelic dysplasia syndrome |
 | TxGNN-ennustepisteet | 99,6 % |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste on (tai ei ole) perusteltu?

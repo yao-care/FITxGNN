@@ -4,17 +4,17 @@ title: Vildagliptin
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 471
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Vildagliptin: ennustettu uusi käyttöaihe Klassinen jäykän ihmisen oireyhtymä (näytön taso L5). Alkuperäinen käyttöaihe: Tyypin 2 diabetes"
 monitor_inn: "VILDAGLIPTIN"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
+description: "Vildagliptin: ennustettu uusi käyttöaihe Classic stiff person syndrome (näytön taso L5). Alkuperäinen käyttöaihe: Diabetes Mellitus, Type 2"
 ---
 
 # Vildagliptin
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Vildagliptiini: tyypin 2 diabeteksesta klassiseen jäykän ihmisen oireyhtymään
+## Vildagliptin: Classic stiff person syndrome
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -46,12 +46,12 @@ Vildagliptiini on suun kautta otettava DPP-4:n estäjä, jota on käytetty tyypi
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Tyypin 2 diabetes |
-| Ennustettu uusi käyttöaihe | Klassinen jäykän ihmisen oireyhtymä |
-| TxGNN-ennustepistemäärä | 99,88 % |
+| Alkuperäinen käyttöaihe | Diabetes Mellitus, Type 2 |
+| Ennustettu uusi käyttöaihe | Classic stiff person syndrome |
+| TxGNN-ennustepistemäärä | 0.9988 |
 | Näytön taso | L5 (vain mallin ennuste) |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 7 (kaikki peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 7/7) |
+| Myyntilupien määrä | 7 (voimassa: 7) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -60,7 +60,7 @@ Vildagliptiini on suun kautta otettava DPP-4:n estäjä, jota on käytetty tyypi
 
 Tiedot vildagliptiinin vaikutusmekanismista eivät ole tässä aineistossa saatavilla. Farmakologiset tiedot osoittavat, että lääke sitoutuu DPP-4-entsyymiin sekä DPP-8:aan, DPP-9:ään ja TRPV4:ään. Diabeteksessa DPP-4:n esto nostaa aktiivisen GLP-1:n ja GIP:n pitoisuuksia ja parantaa sokeritasapainoa.
 
-Jäykän ihmisen oireyhtymä on autoimmuuninen neurologinen sairaus, joka liittyy usein GAD65-vasta-aineisiin. DPP-4:n eston ei tiedetä vaikuttavan sen taudinkulkuun. Aineiston perusteella ei löydy tukea mekanistiselle yhteydelle. Korkea pistemäärä (99,88 %) on graafipohjaisen mallin tulos, ja se heijastaa todennäköisesti verkoston läheisyyttä muihin sairauksiin, ei biologista perustetta. Ennustetta on siksi pidettävä hypoteesina, ei näyttönä.
+Jäykän ihmisen oireyhtymä on autoimmuuninen neurologinen sairaus, joka liittyy usein GAD65-vasta-aineisiin. DPP-4:n eston ei tiedetä vaikuttavan sen taudinkulkuun. Aineiston perusteella ei löydy tukea mekanistiselle yhteydelle. Korkea pistemäärä (0,9988) on graafipohjaisen mallin tulos, ja se heijastaa todennäköisesti verkoston läheisyyttä muihin sairauksiin, ei biologista perustetta. Ennustetta on siksi pidettävä hypoteesina, ei näyttönä.
 
 ---
 
@@ -102,7 +102,7 @@ Farmakologisessa aineistossa on neljä kohdetta: DPP-4, DPP-8, DPP-9 ja TRPV4. N
 
 ## Muut ennustetut käyttöaiheet: tyypin 1 diabetes
 
-Mallin kymmenestä ennusteesta vain yhdellä on merkittävästi näyttöä: **tyypin 1 diabetes** (pistemäärä 99,37 %, näytön taso **L2**, suositus "tutkimuskysymys"). Muut ennusteet, kuten jäykän ihmisen oireyhtymä, lipodystrofiat ja haiman agenesia, ovat pelkkiä malliennusteita ilman tukevaa näyttöä.
+Muut ennusteet, kuten jäykän ihmisen oireyhtymä, lipodystrofiat ja haiman agenesia, ovat pelkkiä malliennusteita ilman tukevaa näyttöä.
 
 **Mekanistinen perustelu:** DPP-4:n esto nostaa GLP-1:tä ja GIP:tä ja vähentää glukagonin eritystä hyperglykemiassa. Glukagonin vastasäätely hypoglykemiassa säilyy (NCT01147276, PMID 22855332). Mahdollinen hyöty jäännös-beetasolutoiminnolle ja tulehdukselle on vielä todistamatta.
 

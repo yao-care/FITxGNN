@@ -6,9 +6,9 @@ nav_order: 453
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Travoprost: ennustettu uusi käyttöaihe Viskeraalinen kalsifylaksia (näytön taso L5). Alkuperäinen käyttöaihe: Avokulmaglaukooma"
 monitor_inn: "TRAVOPROST"
 predicted_indications: ["visceral calciphylaxis", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis", "idiopathic spontaneous coronary artery dissection", "hemangioendothelioma"]
+description: "Travoprost: ennustettu uusi käyttöaihe Visceral calciphylaxis (näytön taso L5). Alkuperäinen käyttöaihe: Glaucoma, Open-Angle"
 ---
 
 # Travoprost
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Travoprosti: glaukoomasta ja silmänpainetaudista viskeraaliseen kalsifylaksiaan
+## Travoprost: Visceral calciphylaxis
 {: .text-alpha }
 
 ## Yhteenveto
@@ -46,12 +46,12 @@ Travoprosti on prostaglandiini F2-alfa -analogi, jota on käytetty avokulmaglauk
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Avokulmaglaukooma; silmänpainetauti |
-| Ennustettu uusi käyttöaihe | Viskeraalinen kalsifylaksia |
-| TxGNN-ennusteen pistemäärä | 99,99 % |
+| Alkuperäinen käyttöaihe | Glaucoma, Open-Angle;Ocular Hypertension; Ocular Hypertension;Glaucoma, Open-Angle |
+| Ennustettu uusi käyttöaihe | Visceral calciphylaxis |
+| TxGNN-ennusteen pistemäärä | 1.0000 |
 | Näyttötaso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 3 (kaikki peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 3/3) |
+| Myyntilupien määrä | 3 (voimassa: 3) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

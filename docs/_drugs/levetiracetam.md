@@ -4,17 +4,16 @@ title: Levetiracetam
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 261
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Levetiracetam: ennustettu uusi käyttöaihe Status epilepticus (ensisijaisena ennusteena luettelossa: visuaalinen… (näytön taso L5). Alkuperäinen käyttöaihe: Epilepsia"
 monitor_inn: "LEVETIRACETAM"
 predicted_indications: ["beta-ketothiolase deficiency"]
+description: "Levetiracetam: ennustettu uusi käyttöaihe Beta-ketothiolase deficiency (näytön taso L5). Alkuperäinen käyttöaihe: Epilepsy"
 ---
 
 # Levetiracetam
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +32,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Levetirasetaami: Epilepsiasta status epilepticukseen
+## Levetiracetam: Beta-ketothiolase deficiency
 {: .text-alpha }
 
 ## Yhteenveto
@@ -48,12 +47,12 @@ Huomautus: ensimmäinen TxGNN-ennuste (sija 1) on "visuaalinen epilepsia" (näk�
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Epilepsia |
-| Ennustettu uusi käyttöaihe | Status epilepticus (ensisijaisena ennusteena luettelossa: visuaalinen epilepsia) |
+| Alkuperäinen käyttöaihe | Epilepsy |
+| Ennustettu uusi käyttöaihe | Beta-ketothiolase deficiency |
 | TxGNN-ennustepisteet | 99,91 % (status epilepticus); 99,98 % (visuaalinen epilepsia) |
-| Näytön taso | L1 (status epilepticus) |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 9 (kaikki peruutettuja) |
+| Näytön taso | L5 (status epilepticus) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 9/9) |
+| Myyntilupien määrä | 9 (voimassa: 9) |
 | Suositeltu päätös | Proceed with Guardrails (status epilepticus) |
 
 ---

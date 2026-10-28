@@ -46,17 +46,17 @@ Mikafungiini on kandidiaasin hoitoon tarkoitettu ekinokandiiniryhmän sienilää
 |------|------|
 | Alkuperäinen käyttöaihe | Kandidiaasi |
 | Ennustettu uusi käyttöaihe | Virtsatieinfektio |
-| TxGNN-ennusteen pistemäärä | 99,03 % |
+| TxGNN-ennusteen pistemäärä | 0,9903 |
 | Näytön taso | L3 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste on perusteltu?
 
 Tämän raportin tietoihin ei sisälly yksityiskohtaista vaikutusmekanismitietoa, joten seuraava perustuu lääkeryhmän yleiseen tietoon. Mikafungiini on ekinokandiini, joka estää 1,3-beeta-D-glukaanisyntaasia ja häiritsee siten sienen soluseinän synteesiä Candida-lajeilla.
 
-Candida-virtsatieinfektio (kandiduria) on saman lääkkeen hyväksytyn Candida-kirjon sisällä. Kyse on siis infektiokohdan laajentamisesta, ei uudesta mekanismista. Korkea TxGNN-pistemäärä (0,99) sopii tähän mekanistiseen yhteyteen.
+Candida-virtsatieinfektio (kandiduria) on saman lääkkeen hyväksytyn Candida-kirjon sisällä. Kyse on siis infektiokohdan laajentamisesta, ei uudesta mekanismista. Korkea TxGNN-pistemäärä (0,9903) sopii tähän mekanistiseen yhteyteen.
 
 Keskeinen farmakologinen varauma on, että ekinokandiinien aktiivisen lääkeaineen erittyminen virtsaan on vähäistä, mikä on perinteisesti rajoittanut niiden käyttöä virtsatieinfektioissa. Yksi tutkimus (PMID 27424599) kuitenkin raportoi virtsan mikafungiinipitoisuuksien riittävän Candida-virtsatieinfektioiden hoitoon. Lisäksi useat tapaussarjat ja -kuvaukset kuvaavat kandiduriasta paranemista myös lajeilla *C. glabrata* ja *C. krusei*, jotka ovat usein flukonatsoliresistenttejä.
 

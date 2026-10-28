@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Temozolomide
-parent: Vahva näyttö (L1-L2)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 425
-evidence_level: L1
-indication_count: 2
-last_modified_at: 2026-10-13
-description: "Temozolomide: ennustettu uusi käyttöaihe Aikuisten astrosyyttinen kasvain (näytön taso L1). Alkuperäinen käyttöaihe: Gliooma"
+evidence_level: L5
+indication_count: 1
 monitor_inn: "TEMOZOLOMIDE"
-predicted_indications: ["adult astrocytic tumour", "cauda equina neoplasm"]
+predicted_indications: ["cauda equina neoplasm"]
+last_modified_at: 2026-10-23
+description: "Temozolomide: ennustettu uusi käyttöaihe Cauda equina neoplasm (näytön taso L5). Alkuperäinen käyttöaihe: Glioma"
 ---
 
 # Temozolomide
 {: .fs-9 }
 
-Näytön taso: **L1** | Ennustetut käyttöaiheet: **2** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,116 +33,88 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-## Temotsolomidi: Gliooman hoidosta aikuisten astrosyyttiseen kasvaimeen
+## Temozolomide: Cauda equina neoplasm
 {: .text-alpha }
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Temotsolomidi on suun kautta otettava alkyloiva solunsalpaaja, jota on alun perin käytetty gliooman hoitoon. TxGNN-malli ennustaa sen voivan tehota **aikuisten astrosyyttiseen kasvaimeen**, ja ennusteen tukena on tällä hetkellä **2 kliinistä tutkimusta** ja **20 julkaisua**. Astrosyyttinen kasvain kuuluu käytännössä jo hyväksytyn gliooman-käyttöaiheen piiriin, joten kyse ei ole varsinaisesta uudelleenkäytöstä.
-
----
+Temotsolomidi on suun kautta otettava alkyloiva solunsalpaaja, jota käytetään gliooman hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **cauda equina -kasvaimeen**.
+Tätä suuntaa tukee tällä hetkellä **0 kliinistä tutkimusta** ja **3 julkaisua** (kaikki tapauskertomuksia, joista vain yksi koskee suoraan cauda equinan alueen kasvainta).
 
 ## Pikakatsaus
 
-| Kohta | Sisältö |
+| Kohde | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Gliooma |
-| Ennustettu uusi käyttöaihe | Aikuisten astrosyyttinen kasvain |
-| TxGNN-ennustepisteet | 99,36 % |
-| Näytön taso | L1 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 5 (kaikki peruutettuja) |
-| Suositeltu päätös | Etene suojatoimin (Proceed with Guardrails) |
-
----
+| Alkuperäinen käyttöaihe | Glioma |
+| Ennustettu uusi käyttöaihe | Cauda equina neoplasm |
+| TxGNN-ennustepisteet | 99,30 % |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 5/5) |
+| Myyntilupien määrä | 5 (voimassa: 5) |
+| Suositeltu päätös | Hold (odotetaan lisänäyttöä) |
 
 ## Miksi ennuste on perusteltu?
 
-Temotsolomidi on alkyloiva aine, joka metyloi DNA:ta (guaniinin O6- ja N7-asemat sekä adeniinin N3-asema). Sen sytotoksisuus riippuu MGMT-promoottorin metylaatiotilasta, joka ennustaa hoitovastetta astrosyyttisissä kasvaimissa ja glioblastoomassa. Yksityiskohtaista vaikutusmekanismitietoa ei ole tähän raporttiin koottu aineiston mukana, joten mekanismikuvaus perustuu yleisesti tunnettuun tietoon.
+Yhteen kootuissa tiedoissa ei ole kuvausta vaikutusmekanismista. Yleisen farmakologisen tiedon mukaan temotsolomidi metyloi DNA:ta (guaniinin O6- ja N7-asemat sekä adeniinin N3-asema), mikä aiheuttaa DNA-vaurioita ja kasvainsolujen apoptoosin. Lääke läpäisee veri-aivoesteen ja on hyväksytty gliooman hoitoon.
 
-Gliooma on kasvainryhmä, johon astrosyyttiset kasvaimet kuuluvat. Ennustettu käyttöaihe on siis alkuperäisen käyttöaiheen alaryhmä. Tämä selittää korkean ennustepistemäärän ja sen, että näyttöä on runsaasti, mutta se tarkoittaa myös, ettei kyse ole aidosti uudesta käyttöaiheesta.
+Cauda equinan kasvaimet ovat useimmiten myksopapillaarisia ependymoomia, jotka ovat neuroepiteliaalisia kasvaimia ja jakavat osan biologiastaan gliooman kanssa. Mekanistinen yhteys on uskottava, mutta teho riippuisi todennäköisesti MGMT-promoottorin metylaatiostatuksesta, jota aineistossa ei ole raportoitu.
 
-Aineiston mukaan lääkkeen markkinatila ("vain peruutettuja") ja vaikutusmekanismitieto tulee varmistaa ajantasaisista viranomaislähteistä ennen kuin suosituksen perusteella toimitaan.
-
----
+TxGNN-pistemäärä on laskennallinen ennuste eikä kliinistä näyttöä.
 
 ## Kliininen tutkimusnäyttö
 
-| Tutkimusnumero | Vaihe | Tila | Osallistujia | Keskeiset havainnot |
-|---------|------|------|------|---------|
-| [NCT00052455](https://clinicaltrials.gov/study/NCT00052455) | Vaihe 3 | Valmistunut | 500 | Satunnaistettu vertailu: temotsolomidi vs. PCV uusiutuneessa WHO-asteen III–IV astrosyyttisessä kasvaimessa. Suora vertailu kohdesairaudessa. |
-| [NCT00960492](https://clinicaltrials.gov/study/NCT00960492) | Vaihe 1 | Valmistunut | 26 | Annoksen määritys ja farmakokinetiikka: kabotsantinibi (XL184) yhdessä temotsolomidin ja sädehoidon kanssa glioblastoomassa. Rajallinen tehonäyttö temotsolomidille. |
-
----
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
 ## Kirjallisuusnäyttö
 
 | PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [15758009](https://pubmed.ncbi.nlm.nih.gov/15758009/) | 2005 | RCT | N Engl J Med | Sädehoito + temotsolomidi vs. pelkkä sädehoito glioblastoomassa (tehon ja turvallisuuden vertailu). |
-| [19269895](https://pubmed.ncbi.nlm.nih.gov/19269895/) | 2009 | RCT | Lancet Oncol | EORTC-NCIC-tutkimuksen 5 vuoden seuranta: temotsolomidi + sädehoito vs. pelkkä sädehoito glioblastoomassa. |
-| [22578793](https://pubmed.ncbi.nlm.nih.gov/22578793/) | 2012 | RCT | Lancet Oncol | NOA-08: temotsolomidi vs. sädehoito iäkkäillä pahanlaatuista astrosytoomaa sairastavilla. |
-| [30782343](https://pubmed.ncbi.nlm.nih.gov/30782343/) | 2019 | RCT | Lancet | CeTeG/NOA-09: lomustiini-temotsolomidi vs. pelkkä temotsolomidi MGMT-metyloidussa glioblastoomassa. |
-| [26670971](https://pubmed.ncbi.nlm.nih.gov/26670971/) | 2015 | RCT | JAMA | Kasvainta hoitavat sähkökentät (TTFields) + temotsolomidi vs. pelkkä temotsolomidi. |
-| [29260225](https://pubmed.ncbi.nlm.nih.gov/29260225/) | 2017 | RCT | JAMA | TTFields + ylläpitotemotsolomidi vs. pelkkä temotsolomidi: vaikutus eloonjääntiin. |
-| [24552317](https://pubmed.ncbi.nlm.nih.gov/24552317/) | 2014 | RCT | N Engl J Med | Bevasitsumabi vakiohoidon (temotsolomidi + sädehoito) lisänä vasta diagnosoidussa glioblastoomassa. |
-| [39480453](https://pubmed.ncbi.nlm.nih.gov/39480453/) | 2024 | RCT | JAMA Oncol | Veliparibin lisääminen temotsolomidiin MGMT-metyloidussa glioblastoomassa. |
-| [34898238](https://pubmed.ncbi.nlm.nih.gov/34898238/) | 2022 | Hoitosuositus | J Clin Oncol | ASCO-SNO-suositus aikuisten diffuusien astrosyyttisten ja oligodendrogliaalisten kasvainten hoidosta. |
-| [27668386](https://pubmed.ncbi.nlm.nih.gov/27668386/) | 2016 | Katsaus | Clin J Oncol Nurs | Glioblastooman ja sen hoitovaihtoehtojen yleiskatsaus. |
+| [29270703](https://pubmed.ncbi.nlm.nih.gov/29270703/) | 2018 | Tapauskertomus | European Spine Journal | Temotsolomidilla havaittiin huomattava teho uusiutuneeseen selkärangan myksopapillaariseen ependymoomaan (kasvain syntyy selkäytimen päätesäikeestä); tapauksessa oli toistuvia uusiutumia ja aivo-selkäydinnesteen kautta tapahtunutta leviämistä. |
+| [42760727](https://pubmed.ncbi.nlm.nih.gov/42760727/) | 2026 | Tapauskertomus | Medicine | Nenän alueen NUT-karsinooma, jossa toistuvia hoitovasteita monimuotoisessa hoidossa sädehoito mukaan lukien; ei suoraan cauda equina -kasvain. |
+| [18706663](https://pubmed.ncbi.nlm.nih.gov/18706663/) | 2009 | Tapauskertomus | Neuro-Chirurgie | Epätyypillinen neuromeningeaalinen kryptokokkoosi lapsella, jota hoidettiin pontiinigliooman vuoksi; ei koske temotsolomidin tehoa cauda equina -kasvaimeen. |
 
----
+## Myyntiluvat Suomessa
 
-## Suomen markkinatiedot
-
-| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/001125 | Temozolomide Accord | – | Gliooma (peruutettu) |
-| EMEA/H/C/001126 | Temozolomide Teva | – | Gliooma (peruutettu) |
-| EMEA/H/C/002198 | Temozolomide Sun | – | Gliooma (peruutettu) |
-| EMEA/H/C/000229 | Temodal | – | Gliooma (peruutettu) |
-| EMEA/H/C/001124 | Temomedac | – | Gliooma (peruutettu) |
-
----
+| EMEA/H/C/001125 | Temozolomide Accord | – | Gliooma |
+| EMEA/H/C/001126 | Temozolomide Teva | – | Gliooma |
+| EMEA/H/C/002198 | Temozolomide Sun | – | Gliooma |
+| EMEA/H/C/000229 | Temodal | – | Gliooma |
+| EMEA/H/C/001124 | Temomedac | – | Gliooma |
 
 ## Sytotoksisuus
 
-| Kohta | Sisältö |
+| Kohde | Sisältö |
 |------|------|
-| Sytotoksisuusluokitus | Perinteinen sytotoksinen lääke (alkyloiva aine) |
-| Myelosuppression riski | Merkittävä: tietämyskaavion vasta-aihetiedoissa mainitaan trombosytopenia, neutropenia, pansytopenia ja aplastinen anemia. Tarkempi riskiluokitus: katso valmisteyhteenveto. |
-| Oksennusta aiheuttava vaikutus | Katso valmisteyhteenvedon varoitukset ja huomautukset |
-| Seurattavat parametrit | Verenkuva (erittelylaskennalla), maksa- ja munuaisarvot |
+| Sytotoksisuusluokitus | Perinteinen sytotoksinen lääke (alkyloiva aine, imidatsotetratsiini) |
+| Luuydinsuppression riski | Kohtalainen; neutropenia ja trombosytopenia ovat tunnettuja haittoja |
+| Oksentelua aiheuttava vaikutus | Kohtalainen |
+| Seurattavat parametrit | Verenkuva (erittelylaskenta mukaan lukien), maksan ja munuaisten toiminta |
 | Käsittelysuojaus | Noudatettava sytotoksisten lääkkeiden käsittelyohjeita |
 
----
+Tarkemmat tiedot on tarkistettava valmisteyhteenvedosta.
 
-## Turvallisuushuomiot
+## Turvallisuusnäkökohdat
 
-- **Tietämyskaavioon (PrimeKG) perustuvat vasta-aiheet** (eivät valmisteyhteenvedon tekstiä): maksan vajaatoiminta, trombosytopenia, neutropenia, agranulosytoosi, anemia, makrosyyttinen anemia, pneumokystoosi, pansytopenia, lymfopenia, myelodysplastinen oireyhtymä, idiopaattinen aplastinen anemia ja aplastinen anemia.
-- **Lääkeyhteisvaikutukset**: tietokannasta löytyi yhteensä 100 yhteisvaikutusta. Kohtalaiseksi luokiteltu: naltreksoni. Vähäiseksi luokiteltu: levofloksasiini. Muiden (esim. pantopratsoli, omepratsoli, metformiini, morfiini, prednisoni, hydrokortisoni) vaikeusaste on tuntematon.
+- **Tietämysgraafissa kirjatut vasta-aiheisiin liittyvät tilat** (TxGNN-tietämysgraafi, ei valmisteyhteenvedon teksti): maksan vajaatoiminta, trombosytopenia, neutropenia, agranulosytoosi, anemia, makrosyyttinen anemia, pneumokystoosi, pansytopenia, lymfopenia, myelodysplastinen oireyhtymä, idiopaattinen aplastinen anemia ja aplastinen anemia.
+- **Lääkeyhteisvaikutukset**: tietokannassa on yhteensä 100 yhteisvaikutusta. Merkittävimmät luokitellut: naltreksoni (kohtalainen) ja levofloksasiini (lievä). Monen muun lääkkeen (mm. pantopratsoli, omepratsoli, metformiini, morfiini, prednisoni) vaikutustaso on luokittelematon.
 
-Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat tästä aineistosta; ne on tarkistettava valmisteyhteenvedosta.
-
----
+Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 ## Johtopäätös ja jatkotoimet
 
-**Päätös: Etene suojatoimin (Proceed with Guardrails)**
+**Päätös: Hold**
 
 **Perustelut:**
-- Valmistunut vaiheen 3 satunnaistettu tutkimus (NCT00052455, n=500) sekä useat satunnaistetut tutkimukset ja hoitosuositus tukevat temotsolomidia astrosyyttisissä kasvaimissa. Näytön taso on L1. Ennuste on kuitenkin pääosin alkuperäisen käyttöaiheen alaryhmä, ja Suomessa kaikki myyntiluvat on peruutettu.
+Ainoa suoraan aihetta koskeva näyttö on yksi tapauskertomus myksopapillaarisesta ependymoomasta, eikä kliinisiä tutkimuksia ole. Näytön taso on siksi L5, ja ennuste perustuu pääosin malliin ja mekanistiseen päättelyyn.
 
-**Eteneminen edellyttää:**
-- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hakemista Fimeasta (turvallisuusseulonta on tältä osin estetty)
-- Vaikutusmekanismitietojen täydentämistä (esim. DrugBankista)
-- Myyntilupatilanteen ja saatavuuden varmistamista Suomessa
-- Verenkuvan seurantasuunnitelmaa luuydinsuppression vuoksi
-
----
-
-## Toinen ennuste: cauda equina -kasvain (tutkimuskysymys)
-
-TxGNN-pistemäärä on 99,30 %, mutta näytön taso on **L4** ja suositus on **tutkimuskysymys**, ei etenemispäätös. Kliinisiä tutkimuksia ei ole. Näyttö rajoittuu yhteen tapauskertomukseen, jossa temotsolomidi tehosi uusiutuneeseen spinaaliseen myksopapillaariseen ependymoomaan ([PMID 29270703](https://pubmed.ncbi.nlm.nih.gov/29270703/), 2018). Kaksi muuta haettua julkaisua (nenän NUT-karsinooma ja neuromeningeaalinen kryptokokkoosi) eivät liity tähän käyttöaiheeseen.
+**Jatkoon tarvitaan:**
+- Systemaattinen kirjallisuushaku temotsolomidista myksopapillaarisessa ependymoomassa ja muissa cauda equinan kasvaimissa
+- Vaikutusmekanismitiedot ja MGMT-metylaatiostatuksen merkitys
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden tarkistus
+- Prospektiivinen tai rekisteripohjainen selvitys tehosta ja turvallisuudesta
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

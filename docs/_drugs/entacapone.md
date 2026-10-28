@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Entakaponi: Parkinsonin taudista PLA2G6-assosioituneeseen neurodegeneraatioon
+## Entakaponi: PLA2G6-liitännäinen neurodegeneraatio
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -48,10 +48,10 @@ Entakaponi on COMT-estäjä, jota on alun perin käytetty **Parkinsonin taudin**
 |------|------|
 | Alkuperäinen käyttöaihe | Parkinsonin tauti |
 | Ennustettu uusi käyttöaihe | PLA2G6-assosioitunut neurodegeneraatio |
-| TxGNN-ennusteen pistemäärä | 99,76 % |
+| TxGNN-ennusteen pistemäärä | 0,9976 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 7 (kaikki peruutettuja) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 7/7) |
+| Myyntilupien määrä | 7 (voimassa: 7) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

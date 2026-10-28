@@ -4,17 +4,17 @@ title: Avatrombopag
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 56
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Avatrombopag: ennustettu uusi käyttöaihe Marcothrombocytopenia with mitral valve insufficiency (näytön taso L5). Alkuperäinen käyttöaihe: Trombosytopenia"
 monitor_inn: "Avatrombopag"
-predicted_indications: ["marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "transient neonatal thrombocytopenia", "dense granule disease", "amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "lower motor neuron syndrome with late-adult onset", "amyotrophic lateral sclerosis, susceptibility to", "Mills syndrome", "monomelic amyotrophy"]
+predicted_indications: ["marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "transient neonatal thrombocytopenia", "dense granule disease", "amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "lower motor neuron syndrome with late-adult onset", "Mills syndrome", "monomelic amyotrophy"]
 ---
 
 # Avatrombopag
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Avatrombopaagi on trombopoietiinireseptorin (TPO-R) agonisti, jota on alun perin
 |------|------|
 | Alkuperäinen käyttöaihe | Trombosytopenia |
 | Ennustettu uusi käyttöaihe | Marcothrombocytopenia with mitral valve insufficiency |
-| TxGNN-ennustepisteet | 99,995 % |
+| TxGNN-ennustepisteet | 1.0000 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruttuja myyntilupia |
-| Myyntilupien määrä | 1 (peruttu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -65,7 +65,7 @@ Alkuperäinen käyttöaihe, trombosytopenia, ja ennustettu käyttöaihe ovat mol
 Muut ennustetut käyttöaiheet ovat heikommin perusteltuja:
 - **Hereditary thrombocytopenia with normal platelets** ja **transient neonatal thrombocytopenia**: mekanismi on uskottava, mutta tautinimike on epäselvä (mahdollinen ontologia-artefakti) tai tila paranee itsestään, eikä vastasyntyneiden turvallisuustietoa ole.
 - **Dense granule disease**: kyseessä on ensisijaisesti verihiutaleiden toimintahäiriö, joten verihiutalemäärän nosto auttaisi vain osittain.
-- **ALS-sairauden ja muiden motoneuronisairauksien** (lower motor neuron syndrome, Mills syndrome, monomelic amyotrophy), sekä **polymicrogyria**: biologista yhteyttä TPO-R-agonismiin ei havaittu. Korkeat pisteet johtuvat todennäköisesti verkoston läheisyydestä tietograafissa.
+- **ALS-sairauden ja muiden motoneuronisairauksien** (lower motor neuron syndrome, Mills syndrome, monomelic amyotrophy), sekä **polymicrogyria**: biologista yhteyttä TPO-R-agonismiin ei havaittu. Korkeat pisteet (0.9999) tulevat TxGNN-mallista (deep learning) ja voivat heijastaa mallin oppimia samankaltaisuuksia sairauksien välillä, eivät biologista näyttöä.
 
 ---
 
@@ -73,7 +73,7 @@ Muut ennustetut käyttöaiheet ovat heikommin perusteltuja:
 
 | Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/004722 | Doptelet | – | Trombosytopenia (peruttu) |
+| EMEA/H/C/004722 | Doptelet | – | Trombosytopenia (voimassa) |
 
 ---
 

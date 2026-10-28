@@ -8,6 +8,7 @@ nav_order: 65
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-19
+predicted_indications: []
 ---
 
 # Azilsartan Medoxomil
@@ -50,7 +51,8 @@ Azilsartan-medoksoomiili (DrugBank: DB08822) on lääkekandidaatti, jota arvioid
 | Ennustettu uusi lääkeindikaatio | Ei ennusteita luotu |
 | TxGNN-ennustepistemäärä | — |
 | Näyttötaso | — |
-| Suomen markkinatilanne | Ei markkinoilla |
+| Suomen markkinatilanne | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Hyväksyntöjen määrä | 0 |
 | Suositeltu päätös | **Pidätys** |
 

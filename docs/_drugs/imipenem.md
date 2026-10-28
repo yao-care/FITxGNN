@@ -6,9 +6,9 @@ nav_order: 225
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Imipenem: ennustettu uusi käyttöaihe Diffuusi skleroderma (näytön taso L5). Alkuperäinen käyttöaihe: Gram-negatiiviset bakteeri-infektiot"
 monitor_inn: "Imipenem"
 predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "sinusitis", "chronic rhinosinusitis", "typhoid fever", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "staphylococcus aureus infection", "eosinophilia-myalgia syndrome"]
+description: "Imipenem: ennustettu uusi käyttöaihe Diffuse scleroderma (näytön taso L5). Alkuperäinen käyttöaihe: Gram-Negative Bacterial Infections"
 ---
 
 # Imipenem
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Imipeneemi: Gram-negatiivisten bakteeri-infektioiden hoidosta Staphylococcus aureus -infektioon
+## Imipenem: Diffuse scleroderma
 {: .text-alpha }
 
 ## Yhden lauseen tiivistelmä
@@ -42,7 +42,7 @@ Imipeneemi on karbapeneemiantibiootti, jota on alun perin käytetty Gram-negatii
 TxGNN-malli ennustaa sen voivan olla tehokas mm. **Staphylococcus aureus -infektioon** (tarkasteltu, koska siitä löytyy eniten kliinistä näyttöä), mutta mallin korkeimmin pisteyttämä ennuste on **diffuusi skleroderma**.
 Tämän kohteen tueksi on **2 kliinistä tutkimusta** ja **18 julkaisua**; useimpien muiden ennusteiden tuki on vain epäsuoraa herkkyys- ja resistenssitutkimuksiin perustuvaa tietoa.
 
-> Huomio: ennusteen sijalla 1 on diffuusi skleroderma (TxGNN-pistemäärä 99,99 %), mutta sille ei löytynyt yhtään tutkimusta eikä mekanistista perustetta. Tässä raportissa pääpainona on siksi ennuste, jolla on vahvin näyttö (sija 9, Staphylococcus aureus -infektio). Muut ennusteet käsitellään yhteenvetona.
+> Huomio: ennusteen sijalla 1 on diffuusi skleroderma (TxGNN-pistemäärä 0,9999), mutta sille ei löytynyt yhtään tutkimusta eikä mekanistista perustetta. Tässä raportissa pääpainona on siksi ennuste, jolla on vahvin näyttö (sija 9, Staphylococcus aureus -infektio). Muut ennusteet käsitellään yhteenvetona.
 
 ---
 
@@ -50,13 +50,13 @@ Tämän kohteen tueksi on **2 kliinistä tutkimusta** ja **18 julkaisua**; useim
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Gram-negatiiviset bakteeri-infektiot |
-| Ennustettu uusi käyttöaihe (korkein pistemäärä) | Diffuusi skleroderma |
-| Ennustettu uusi käyttöaihe (vahvin näyttö) | Staphylococcus aureus -infektio |
-| TxGNN-ennustepistemäärä | 99,99 % (diffuusi skleroderma); 99,95 % (S. aureus -infektio) |
+| Alkuperäinen käyttöaihe | Gram-Negative Bacterial Infections |
+| Ennustettu uusi käyttöaihe (korkein pistemäärä) | Diffuse scleroderma |
+| Ennustettu uusi käyttöaihe (vahvin näyttö) | Diffuse scleroderma |
+| TxGNN-ennustepistemäärä | 0.9999 |
 | Näytön taso | L5 (skleroderma); L3 (S. aureus -infektio) |
-| Suomen markkinatilanne | Vain peruutettu myyntilupa |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Suomen markkinatilanne | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota); S. aureus -infektio: tutkimuskysymys jatkoselvitykseen |
 
 ---

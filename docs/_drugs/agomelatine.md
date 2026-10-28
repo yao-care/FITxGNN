@@ -4,17 +4,17 @@ title: Agomelatine
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 20
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-13
 description: "Agomelatine: ennustettu uusi käyttöaihe Benign paroxysmal torticollis of infancy (näytön taso L5). Alkuperäinen käyttöaihe: Vakava masennushäiriö"
 monitor_inn: "AGOMELATINE"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "neurotic disorder", "melancholia", "Ohdo syndrome and variants", "dysthymic disorder", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type", "Keppen-Lubinsky syndrome"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "neurotic disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type", "Keppen-Lubinsky syndrome"]
 ---
 
 # Agomelatine
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **7** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Agomelatiini: Vakavasta masennushäiriöstä melankoliaan
+## Agomelatiini: imeväisikäisten hyvänlaatuinen kohtauksittainen kaularankakouristus
 {: .text-alpha }
 
 ## Yhteenveto
@@ -50,10 +50,10 @@ Tässä raportissa tarkastellaan lisäksi vahvimmin tuettua ennustetta, **melank
 |------|------|
 | Alkuperäinen käyttöaihe | Vakava masennushäiriö |
 | Ennustettu uusi käyttöaihe (sija 1) | Benign paroxysmal torticollis of infancy |
-| TxGNN-ennustepistemäärä | 99,96 % |
+| TxGNN-ennustepistemäärä | 0,9996 |
 | Näyttötaso | L5 (sija 1); parhaiten tuetuilla ennusteilla (melankolia, neuroottinen masennus, dystymia) L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste on perusteltu (tai ei)?

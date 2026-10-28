@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-## Eftrenonogi alfa: Hemofilia B:stä pseudo-von Willebrandin tautiin
+## Eftrenonogi alfa: Hemofilia B:stä Pseudo-von Willebrandin tautiin (verihiutaletyyppinen VWD)
 {: .text-alpha }
 
 ## Yhteenveto
@@ -49,10 +49,10 @@ TxGNN-malli ennustaa sen voivan tehota **pseudo-von Willebrandin tautiin**, mutt
 |------|------|
 | Alkuperäinen käyttöaihe | Hemofilia B |
 | Ennustettu uusi käyttöaihe | Pseudo-von Willebrandin tauti (verihiutaletyyppinen VWD) |
-| TxGNN-ennustepistemäärä | 99,48 % |
+| TxGNN-ennustepistemäärä | 0,9948 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -69,8 +69,8 @@ Muut ennustetut käyttöaiheet noudattavat samaa kaavaa:
 
 | Sija | Ennustettu käyttöaihe | Pistemäärä | Näytön taso | Arvio |
 |------|------|------|------|------|
-| 2 | Verihiutaleiden primaari vapautumishäiriö | 99,42 % | L5 | Tekijä IX ei korjaa verihiutaleiden sisäistä toimintahäiriötä |
-| 3 | Glanzmannin trombasteenia | 99,28 % | L5 | Vika on integriini αIIbβ3:ssa; tekijä IX ei korjaa aggregaatiohäiriötä |
+| 2 | Verihiutaleiden primaari vapautumishäiriö | 0,9942 | L5 | Tekijä IX ei korjaa verihiutaleiden sisäistä toimintahäiriötä |
+| 3 | Glanzmannin trombasteenia | 0,9928 | L5 | Vika on integriini αIIbβ3:ssa; tekijä IX ei korjaa aggregaatiohäiriötä |
 
 ---
 

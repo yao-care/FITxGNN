@@ -6,9 +6,9 @@ nav_order: 294
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
-description: "Mometasone: ennustettu uusi käyttöaihe Primaarinen ihon T-solulymfooma (näytön taso L5). Alkuperäinen käyttöaihe: Astma"
 monitor_inn: "MOMETASONE"
 predicted_indications: ["primary cutaneous T-cell lymphoma"]
+description: "Mometasone: ennustettu uusi käyttöaihe Primaarinen ihon T-solulymfooma (primary cutaneous T-cell lymphoma) (näytön taso L5). Alkuperäinen käyttöaihe: Asthma"
 ---
 
 # Mometasone
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-## Mometasoni: Astmasta ihon primaariseen T-solulymfoomaan
+## Mometasone: Primaarinen ihon T-solulymfooma (primary cutaneous T-cell lymphoma)
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -46,12 +46,12 @@ Ennustetta tukee tällä hetkellä vain **2 tapausselostusta** eikä yhtään kl
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Astma |
-| Ennustettu uusi käyttöaihe | Primaarinen ihon T-solulymfooma |
-| TxGNN-ennusteen pistemäärä | 99,36 % |
+| Alkuperäinen käyttöaihe | Asthma |
+| Ennustettu uusi käyttöaihe | Primaarinen ihon T-solulymfooma (primary cutaneous T-cell lymphoma) |
+| TxGNN-ennusteen pistemäärä | 0.9936 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste on järkevä?
@@ -60,7 +60,7 @@ Yksityiskohtaista vaikutusmekanismitietoa ei ole tällä hetkellä saatavilla. T
 
 Astma ja ihon T-solulymfooma ovat sairautena hyvin erilaisia, mutta yhteinen tekijä on kortikosteroidien immuunisolujen toimintaa muuntava vaikutus. Paikalliset kortikosteroidit ovat vakiintunut ihoon kohdistuva hoito varhaisvaiheen ihon T-solulymfoomassa (esim. laikku- ja plakkivaiheen mycosis fungoides). Mekanismi on siten uskottava.
 
-Pistemäärä 0,99 on kuitenkin pelkkä laskennallinen ennuste. Mometasonikohtaista kliinistä näyttöä ei ole, ja peruutettu myyntilupa rajoittaa käytännön kehitystä.
+Pistemäärä 0,9936 on kuitenkin pelkkä TxGNN-mallin (syväoppiminen) laskennallinen ennuste. Mometasonikohtaista kliinistä näyttöä ei ole.
 
 ## Kirjallisuusnäyttö
 

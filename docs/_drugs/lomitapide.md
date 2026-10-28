@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lomitapide
-parent: Vahva näyttö (L1-L2)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 267
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Lomitapide: ennustettu uusi käyttöaihe Hyperlipoproteinemia (TxGNN-sijoitus 9 (näytön taso L1). Alkuperäinen käyttöaihe: Hyperkolesterolemia"
 monitor_inn: "LOMITAPIDE"
-predicted_indications: ["marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "dense granule disease", "transient neonatal thrombocytopenia", "thrombocytopenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "hyperlipoproteinemia", "platelet storage pool deficiency"]
+predicted_indications: ["marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "dense granule disease", "transient neonatal thrombocytopenia", "thrombocytopenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "platelet storage pool deficiency"]
+description: "Lomitapide: ennustettu uusi käyttöaihe Marcothrombocytopenia with mitral valve insufficiency (näytön taso L5). Alkuperäinen käyttöaihe: Hypercholesterolemia"
 ---
 
 # Lomitapide
 {: .fs-9 }
 
-Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Lomitapidi: Hypokolesterolemiasta hyperlipoproteinemiaan
+## Lomitapide: Marcothrombocytopenia with mitral valve insufficiency
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -44,12 +44,12 @@ Lomitapidi on suun kautta otettava MTP-estäjä (mikrosomaalinen triglyseridien 
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Hyperkolesterolemia |
-| Ennustettu uusi käyttöaihe | Hyperlipoproteinemia (TxGNN-sijoitus 9; ensimmäiset 8 ennustetta koskevat verihiutalesairauksia, joille ei löydy tukea) |
-| TxGNN-ennustepistemäärä | 99,74 % |
-| Näytön taso | L1 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Alkuperäinen käyttöaihe | Hypercholesterolemia |
+| Ennustettu uusi käyttöaihe | Marcothrombocytopenia with mitral valve insufficiency |
+| TxGNN-ennustepistemäärä | 0.9992 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Proceed with Guardrails (jatka suojatoimin) |
 
 > Huomio: Aineistossa korkeimmat TxGNN-pisteet saivat verihiutaleiden ja hyytymisen häiriöt (esim. perinnölliset trombosytopeniat, Glanzmannin trombasteenia). Näille ei löydy mekanistista yhteyttä, kliinisiä tutkimuksia eikä kirjallisuutta (näytön taso L5, päätös Hold). Tämä raportti keskittyy hyperlipoproteinemiaan, jonka näyttö on ainoa merkittävä.

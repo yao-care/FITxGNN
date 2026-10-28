@@ -6,9 +6,9 @@ nav_order: 383
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-13
-description: "Ritonavir: ennustettu uusi käyttöaihe Kissan hankinnainen immuunikatooireyhtymä (FIV) (näytön taso L5). Alkuperäinen käyttöaihe: HIV-infektiot"
 monitor_inn: "RITONAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Ritonavir: ennustettu uusi käyttöaihe Kissan hankinnainen immuunikatooireyhtymä (feline acquired immunodeficiency syndrome) (näytön taso L5). Alkuperäinen käyttöaihe: HIV Infections"
 ---
 
 # Ritonavir
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-## Ritonaviiri: HIV-infektion hoidosta felinin immuunikatoon (ennuste)
+## Ritonavir: Kissan hankinnainen immuunikatooireyhtymä (feline acquired immunodeficiency syndrome)
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -47,12 +47,13 @@ TxGNN-malli ennustaa sen voivan tehota **kissan hankinnaiseen immuunikatoon (FIV
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | HIV-infektiot |
-| Ennustettu uusi käyttöaihe | Kissan hankinnainen immuunikatooireyhtymä (FIV) |
-| TxGNN-ennustepisteet | 99,92 % |
+| Alkuperäinen käyttöaihe | HIV Infections |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 5/5) |
+| Ennustettu uusi käyttöaihe | Kissan hankinnainen immuunikatooireyhtymä (feline acquired immunodeficiency syndrome) |
+| TxGNN-ennustepisteet | 0,9992 |
 | Näytön taso | L5 (pääkohde); SIV-infektiolla L4 |
 | Tilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 5 (kaikki peruutettu) |
+| Myyntilupien määrä | 5 (voimassa: 5) |
 | Suositeltu päätös | Hold (pitäminen odotustilassa) |
 
 Huomio: ennustettu kohde on eläintauti, joten kyseessä ei ole ihmisen uusi käyttöaihe. Toiseksi sijoittuva SIV-infektio on puolestaan HIV:n eläinmalli. Kolmantena on harvinainen perinnöllinen neurokehityshäiriö, jolle ei löydy uskottavaa mekanistista yhteyttä.

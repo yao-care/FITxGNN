@@ -50,8 +50,8 @@ Lopinaviiri on HIV-proteaasin estäjä, jota on alun perin käytetty HIV-infekti
 | Ennustettu uusi käyttöaihe | Apinoiden immuunikatovirusinfektio (SIV) |
 | TxGNN-ennustepisteet | 99,90 % |
 | Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 2 (molemmat peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Myyntilupien määrä | 2 (voimassa: 2) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Vandetanib
-parent: Pelkkä mallin ennuste (L5)
+parent: Vahva näyttö (L1-L2)
 nav_order: 463
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Vandetanib: ennustettu uusi käyttöaihe Munuaissolukarsinooma (näytön taso L5). Alkuperäinen käyttöaihe: Kilpirauhasen kasvaimet"
 monitor_inn: "VANDETANIB"
 predicted_indications: ["renal cell carcinoma (disease)", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal cell carcinoma associated with neuroblastoma", "unclassified renal cell carcinoma", "renal pelvis carcinoma", "clear cell renal carcinoma", "childhood kidney cell carcinoma", "renal carcinoma", "angiolipoma", "familial spontaneous pneumothorax"]
+description: "Vandetanib: ennustettu uusi käyttöaihe Renal cell carcinoma (disease) (näytön taso L2). Alkuperäinen käyttöaihe: Thyroid Neoplasms"
 ---
 
 # Vandetanib
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Vandetanibi: Kilpirauhasen kasvaimesta munuaissolukarsinoomaan
+## Vandetanib: Renal cell carcinoma (disease)
 {: .text-alpha }
 
 ## Yhteenveto
@@ -44,12 +44,12 @@ Vandetanibi on monikinaasi-inhibiittori, jota on alun perin käytetty kilpirauha
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Kilpirauhasen kasvaimet |
-| Ennustettu uusi käyttöaihe | Munuaissolukarsinooma |
+| Alkuperäinen käyttöaihe | Thyroid Neoplasms |
+| Ennustettu uusi käyttöaihe | Renal cell carcinoma (disease) |
 | TxGNN-ennustepisteet | 99,92 % |
 | Näytön taso | L2 (varovainen arvio: valmistuneita vaiheen 2 tutkimuksia on, mutta tuloksia ei ole raportoitu, eikä vaiheen 3 RCT-tutkimuksia ole) |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste on perusteltu?

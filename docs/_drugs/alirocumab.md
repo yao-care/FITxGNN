@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 25
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-13
-description: "Alirocumab: ennustettu uusi käyttöaihe X-kromosomaalinen iktyoosi ilman steroidisulfataasin puutosta (näytön taso L5). Alkuperäinen käyttöaihe: Dyslipidemiat"
 monitor_inn: "ALIROCUMAB"
 predicted_indications: ["ichthyosis, X-linked, without steroid sulfatase deficiency", "disorder of other vitamins and cofactors metabolism and transport", "xanthomatosis (disease)", "46,XY disorder of sexual development due to dihydrotestosterone backdoor pathway biosynthesis defect", "cholesterol catabolic process disease", "46,XY disorder of sex development due to a cholesterol synthesis defect", "dappled diaphyseal dysplasia", "neutral lipid storage disease", "3-hydroxyacyl-CoA dehydrogenase deficiency", "spastic paraplegia-optic atrophy-neuropathy and spastic paraplegia-optic atrophy-neuropathy-related disorder"]
+last_modified_at: 2026-10-27
+description: "Alirocumab: ennustettu uusi käyttöaihe X-kromosomaalinen iktyoosi ilman steroidisulfataasin puutosta (ichthyosis, X-linked… (näytön taso L5). Alkuperäinen käyttöaihe: Dyslipidemias"
 ---
 
 # Alirocumab
@@ -33,94 +33,62 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Alirokumabi: Dyslipidemioista kolesterolin kataboliaan liittyvään sairauteen
+## Alirokumabi: PCSK9:ää estävä monoklonaalinen vasta-aine → X-kromosomaalinen iktyoosi ilman steroidisulfataasin puutosta (ichthyosis, X-linked, without steroid sulfatase deficiency)
 {: .text-alpha }
 
 ## Yhteenveto
 
-Alirokumabi on PCSK9:ää estävä vasta-aine, jota on alun perin käytetty dyslipidemioiden hoitoon. TxGNN-malli ennustaa sen voivan olla tehokas oireyhtymässä **X-kromosomaalinen iktyoosi ilman steroidisulfataasin puutosta** (ennustepisteet korkeimmillaan 99,43 %). Tälle ennusteelle ei kuitenkaan löydy kliinistä tai kirjallista näyttöä: **0 kliinistä tutkimusta** ja **0 julkaisua**. Kirjallisuutta löytyy lähinnä muista ennustetuista kohteista, joista kolesterolin kataboliaan liittyvällä sairaudella on 19 julkaisua, mutta ne tukevat pääosin alkuperäistä käyttöaihetta.
+Alirokumabi on PCSK9:ää (proproteiinikonvertaasi subtilisiini/keksiini tyyppi 9) estävä monoklonaalinen vasta-aine, jota käytetään dyslipidemian hoitoon. TxGNN-malli ennustaa, että se voisi soveltua **X-kromosomaaliseen iktyoosiin ilman steroidisulfataasin puutosta (ichthyosis, X-linked, without steroid sulfatase deficiency)**. Tätä ennustetta tukevia kliinisiä tutkimuksia tai julkaisuja ei ole: näyttö on **0 kliinistä tutkimusta** ja **0 julkaisua**, joten ennuste perustuu pelkästään mallilaskentaan.
 
 ## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Dyslipidemiat |
-| Ennustettu uusi käyttöaihe | X-kromosomaalinen iktyoosi ilman steroidisulfataasin puutosta |
-| TxGNN-ennustepisteet | 99,43 % |
+| Alkuperäinen käyttöaihe | Dyslipidemias |
+| Ennustettu uusi käyttöaihe | X-kromosomaalinen iktyoosi ilman steroidisulfataasin puutosta (ichthyosis, X-linked, without steroid sulfatase deficiency) |
+| TxGNN-ennustepistemäärä | 0,9943 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 |
-| Suositeltu päätös | Hold (odota) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
+| Suositeltu päätös | Hold (odotetaan) |
 
-Huomio: ennusteluettelon sijalla 5 oleva **kolesterolin kataboliaan liittyvä sairaus** (pisteet 99,36 %) saa näytön tasoksi L3, mutta näyttö tukee lähinnä alkuperäistä käyttöaihetta, ei uutta käyttöä.
+## Miksi ennuste on perusteltu?
 
-## Miksi ennuste on (tai ei ole) perusteltu?
+Tämän raportin varten koottuihin tietoihin ei sisälly alirokumabin yksityiskohtaista vaikutusmekanismia. Tiedetään kuitenkin, että alirokumabi sitoutuu PCSK9:ään, jolloin LDL-reseptorien kierrätys lisääntyy ja LDL-kolesterolin puhdistuma tehostuu.
 
-Tämän lääkkeen toimintamekanismitietoja ei ole tässä raportissa käytettävissä. Tunnetun tiedon mukaan alirokumabi on ihmisen IgG1-monoklonaalinen vasta-aine, joka sitoutuu PCSK9:ään (proproteiinikonvertaasi subtilisiini/keksiini tyyppi 9). Tämä lisää LDL-reseptorien kierrätystä ja vähentää LDL-kolesterolia. Sen teho dyslipidemioissa on osoitettu.
+Ennustetun sairauden ja alirokumabin vaikutustavan välillä ei tunnisteta uskottavaa mekanistista yhteyttä. X-kromosomaalinen iktyoosi liittyy steroidisulfataasiin ja kolesterolisulfaatin kertymiseen ihossa, eikä PCSK9:n esto tai LDL-kolesterolin lasku tunnetusti vaikuta tähän reittiin. Korkea pistemäärä on siten vain laskennallinen ennuste, eikä se yksin riitä perustelemaan käyttöä.
 
-Ensisijainen ennuste, X-kromosomaalinen iktyoosi ilman steroidisulfataasin puutosta, liittyy ihon kolesterolisulfaatin kertymiseen. PCSK9:n esto ja LDL-kolesterolin lasku eivät ole tunnetusti yhteydessä tähän reittiin. Uskottavaa mekanistista yhteyttä ei ole tunnistettu, joten korkea pistemäärä on vain laskennallinen ennuste.
+## Kliinisen tutkimuksen näyttö
 
-Muista ennusteista uskottavin on **ksantomatoosi**: ksantoomat syntyvät lipidien kertymisestä vaikean hyperkolesterolemian yhteydessä, joten LDL-kolesterolin lasku voisi teoriassa pienentää niiden kuormaa. Näyttö on kuitenkin epäsuoraa, eikä sitosterolemian (ABCG5/G8) hyötyä PCSK9-estäjistä tunneta. Useimmille muille ennusteille (esim. kolesterolisynteesin häiriöt, luustodysplasia, rasvahappojen beetaoksidaation häiriöt, perinnöllinen spastinen parapareesi) ei ole mekanistista perustetta, ja kolesterolisynteesin häiriöissä LDL-kolesterolin lisäalentaminen voisi olla jopa haitallista.
-
-## Kliininen tutkimusnäyttö
-
-Ensisijaiselle ennusteelle ei tällä hetkellä ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia. Sama koskee kaikkia kymmentä ennustettua käyttöaihetta.
+Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
 
 ## Kirjallisuusnäyttö
 
-Ensisijaiselle ennusteelle (X-kromosomaalinen iktyoosi) ei ole saatavilla aiheeseen liittyvää kirjallisuutta. Alla on tärkeimmät julkaisut muista ennustetuista kohteista.
-
-**Ksantomatoosi (sija 3)**
-
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
-|------|-----|------|------|---------|
-| [32713907](https://pubmed.ncbi.nlm.nih.gov/32713907/) | 2020 | Tapauskertomus | Internal Medicine | Sitosterolemia, vaikea hyperkolesterolemia ja jänneksantoomat; hoitona ratsimibi ja alirokumabi |
-| [31538826](https://pubmed.ncbi.nlm.nih.gov/31538826/) | 2019 | Tapauskertomus | J Investig Med High Impact Case Rep | Vaikea yhdistetty dyslipidemia monimutkaisella geneettisellä taustalla |
-
-**Kolesterolin kataboliaan liittyvä sairaus (sija 5)**
-
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
-|------|-----|------|------|---------|
-| [38658193](https://pubmed.ncbi.nlm.nih.gov/38658193/) | 2024 | Yhdistetty turvallisuusanalyysi | Eur Heart J Cardiovasc Pharmacother | ODYSSEY OUTCOMES: 47 296 potilasvuoden turvallisuusaineisto, alirokumabi vähensi toistuvia iskeemisiä tapahtumia |
-| [38277255](https://pubmed.ncbi.nlm.nih.gov/38277255/) | 2024 | Katsaus | Curr Opin Lipidol | PCSK9-vasta-aineet laskevat LDL-kolesterolia ja sydän- ja verisuonitautiriskiä; uusia estotapoja kehitteillä |
-| [38185721](https://pubmed.ncbi.nlm.nih.gov/38185721/) | 2024 | Katsaus | Signal Transduct Target Ther | PCSK9:n rooli myös maksa-, infektio- ja autoimmuunisairauksissa sekä syövässä |
-| [39751968](https://pubmed.ncbi.nlm.nih.gov/39751968/) | 2025 | Katsaus | Curr Atheroscler Rep | Homotsygoottisen familiaalisen hyperkolesterolemian uudet hoidot |
-| [40911366](https://pubmed.ncbi.nlm.nih.gov/40911366/) | 2025 | Katsaus | Eur Heart J | Lipidejä alentavien kohteiden kehitys |
-| [36739653](https://pubmed.ncbi.nlm.nih.gov/36739653/) | 2023 | Katsaus | Kardiol Pol | PCSK9-estäjät ja sydän- ja verisuonitapahtumien väheneminen |
-| [39679827](https://pubmed.ncbi.nlm.nih.gov/39679827/) | 2025 | Katsaus | Pharmacotherapy | Nykyiset ja kehitteillä olevat PCSK9-hoidot LDL-kolesterolin ja ASCVD-riskin alentamiseksi |
-| [36411665](https://pubmed.ncbi.nlm.nih.gov/36411665/) | 2022 | Katsaus | Biomed Pharmacother | PCSK9-estäjien turvallisuus |
-| [38191052](https://pubmed.ncbi.nlm.nih.gov/38191052/) | 2024 | Prekliininen | Metabolism | PCSK9:n esto ehkäisi ja lievitti kolesterolisappia PPARα-välitteisen CYP7A1-aktivaation kautta |
-| [40841123](https://pubmed.ncbi.nlm.nih.gov/40841123/) | 2025 | Meta-analyysi | Open Heart | PCSK9-kohdennetut hoidot familiaalisessa hyperkolesterolemiassa, 23 satunnaistettua tutkimusta |
-
-Nämä julkaisut tukevat pääosin alkuperäistä käyttöaihetta, eivät uutta käyttöä.
+Tällä hetkellä ei ole aiheeseen liittyvää kirjallisuutta.
 
 ## Myyntiluvat Suomessa
 
-| Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
+| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/003882 | Praluent | – | Dyslipidemiat (tila: peruutettu) |
+| EMEA/H/C/003882 | Praluent | – | Dyslipidemiat |
 
-## Turvallisuushuomioita
+## Turvallisuushuomiot
 
-Tästä raportista puuttuvat valmisteyhteenvedon varoitus- ja vasta-aihetiedot. Turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
+Turvallisuustietoja varten tulee tutustua valmisteyhteenvetoon.
 
-- **Lääkeyhteisvaikutukset**: Yhteisvaikutushaussa löytyi vain farmakologinen kohde: PCSK9 (alirokumabi on sitä estävä vasta-aine). Varsinaisia lääkeaineyhteisvaikutuksia ei raportoitu.
-- Alirokumabin pitkäaikaisturvallisuudesta on laaja aineisto (ODYSSEY OUTCOMES, 47 296 potilasvuotta), mutta se koskee alkuperäistä käyttöaihetta.
+Lääkeyhteisvaikutuksista on koottu yksi farmakologinen merkintä: alirokumabin kohde on PCSK9 (proproteiinikonvertaasi subtilisiini/keksiini tyyppi 9). Tämä kuvaa lääkkeen vaikutuskohdetta, ei kliinistä lääkeaineyhteisvaikutusta toisen lääkkeen kanssa.
 
-## Johtopäätös ja seuraavat askeleet
+## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Hold (odota)**
+**Päätös: Hold (odotetaan)**
 
 **Perustelut:**
-- Ensisijaiselle ennusteelle ei ole kliinistä eikä kirjallista näyttöä eikä uskottavaa mekanistista yhteyttä; korkea pistemäärä on vain laskennallinen. Lisäksi Suomen myyntilupa on peruutettu.
-- Ksantomatoosi on tutkimuskysymyksenä uskottavin jatkosuunta, mutta näyttö on epäsuoraa.
+- Ennuste perustuu pelkästään mallilaskentaan, eikä siihen liity kliinisiä tutkimuksia, julkaisuja eikä uskottavaa mekanistista yhteyttä. Näytön taso on L5.
 
 **Etenemiseksi tarvitaan:**
-- Valmisteyhteenvedon varoitus- ja vasta-aihetiedot (estää turvallisuusseulonnan jatkamisen)
-- Yksityiskohtaiset vaikutusmekanismitiedot (DrugBank)
-- Suora näyttö alirokumabin vaikutuksesta ksantoomiin tai muihin ennustettuihin kohteisiin
-- Selvitys peruutetun myyntiluvan syistä ja nykyisestä saatavuudesta Suomessa
-- Kolesterolin kataboliaan liittyvän sairauden tarkempi määrittely ennen uuden käyttöaiheen väittämistä
+- Mekanistinen perustelu PCSK9:n eston ja kolesterolisulfaatin kertymisen välille sekä prekliiniset tutkimukset
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden kartoitus
+- Alirokumabin vaikutusmekanismitietojen täydentäminen
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

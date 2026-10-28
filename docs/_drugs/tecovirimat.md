@@ -4,7 +4,7 @@ title: Tecovirimat
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 421
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Tecovirimat: ennustettu uusi käyttöaihe Ohrainen (hordeolum) (näytön taso L5). Alkuperäinen käyttöaihe: Poksvirusinfektiot, lehmärokko, apinarokko, vacciniarokko, isorokko"
 monitor_inn: "TECOVIRIMAT"
@@ -14,7 +14,7 @@ predicted_indications: ["hordeolum", "vibrio infectious disease", "Klebsiella in
 # Tecovirimat
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Tämän ennusteen näyttö on pelkkää mallin ennustetta (taso L5).
 |------|------|
 | Alkuperäinen käyttöaihe | Poksvirusinfektiot, lehmärokko, apinarokko, vacciniarokko, isorokko |
 | Ennustettu uusi käyttöaihe | Ohrainen (hordeolum) |
-| TxGNN-ennusteen pistemäärä | 99,66 % |
+| TxGNN-ennusteen pistemäärä | 0,9966 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odotetaan) |
 
 ---

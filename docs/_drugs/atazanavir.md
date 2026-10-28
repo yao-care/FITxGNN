@@ -4,17 +4,17 @@ title: Atazanavir
 parent: Kohtalainen näyttö (L3-L4)
 nav_order: 50
 evidence_level: L4
-indication_count: 6
-last_modified_at: 2026-10-13
-description: "Atazanavir: ennustettu uusi käyttöaihe Simiaaninen immuunikatovirusinfektio (SIV) (näytön taso L4). Alkuperäinen käyttöaihe: HIV-infektiot"
+indication_count: 4
 monitor_inn: "ATAZANAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
+last_modified_at: 2026-10-27
+description: "Atazanavir: ennustettu uusi käyttöaihe Simiaaninen immuunikatovirusinfektio (simian immunodeficiency virus infection) (näytön taso L4). Alkuperäinen käyttöaihe: HIV Infections"
 ---
 
 # Atazanavir
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **6** kpl
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **4** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,85 +33,80 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **6** kpl
 
 </div>
 
-## Atatsanaviiri: HIV-infektion hoidosta simiaaniseen immuunikatoviruksen aiheuttamaan infektioon
+## Atatsanaviiri: HIV-proteaasin estäjä → simiaaninen immuunikatovirusinfektio (simian immunodeficiency virus infection)
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 
-Atatsanaviiri on HIV-proteaasin estäjä, jota on alun perin käytetty HIV-infektioiden hoitoon.
-TxGNN-malli ennustaa sen voivan tehota **simiaanisen immuunikatoviruksen (SIV) aiheuttamaan infektioon**, mutta tukena on vain **0 kliinistä tutkimusta** ja **1 julkaisu** (eläinkoe makakeilla, jossa tutkittiin yhdistelmähoitoa).
-Ennuste on käytännössä alkuperäisen viruslääkeindikaation siirtymä eläinmalliin, ei varsinainen uusi ihmisen hoitoindikaatio.
-
----
+Atatsanaviiri on HIV-proteaasin estäjä. TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **simiaanisen immuunikatovirusinfektion (simian immunodeficiency virus infection)**. Tätä tukee **yksi julkaisu** (makakeilla tehty eläintutkimus), eikä kliinisiä tutkimuksia ole rekisteröity.
 
 ## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | HIV-infektiot |
-| Ennustettu uusi käyttöaihe | Simiaaninen immuunikatovirusinfektio (SIV) |
-| TxGNN-ennustepisteet | 99,98 % |
+| Alkuperäinen käyttöaihe | HIV Infections |
+| Ennustettu uusi käyttöaihe | Simiaaninen immuunikatovirusinfektio (simian immunodeficiency virus infection) |
+| TxGNN-ennustepistemäärä | 0,9998 |
 | Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 3 (kaikki peruutettu) |
-| Suositeltu päätös | Hold (odota) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 3/3) |
+| Myyntilupien määrä | 3 (voimassa: 3) |
+| Suositeltu päätös | Odota |
 
----
+## Miksi ennuste on perusteltu?
 
-## Miksi ennuste on järkevä?
+Tähän raporttiin kootuissa tiedoissa ei ole saatavilla yksityiskohtaista vaikutusmekanismia. Atatsanaviiri kuuluu HIV-proteaasin estäjiin. Se estää viruksen proteaasientsyymiä, jota tarvitaan viruspartikkelien kypsymiseen.
 
-Yksityiskohtaisia tietoja vaikutusmekanismista ei ole tällä hetkellä saatavilla tähän raporttiin koottujen tietojen perusteella. Tiedossa on, että atatsanaviiri on HIV-proteaasin estäjä, jonka teho HIV-infektiossa on osoitettu, ja mekanistisesti se voisi toimia myös läheisesti sukua olevan lentiviruksen proteaasia vastaan.
+Simiaaninen immuunikatovirus (SIV) on HIV:n läheinen sukulainen ja sen ihmisen ulkopuolinen alkuperäisprimaattien vastine. Proteaasin estäjän vaikutus SIV:iin on siksi mekanistisesti uskottava. Kyse on kuitenkin pikemminkin saman viruslääkevaikutuksen siirtämisestä eläinmalliin kuin aidosta uudelleenkäyttömahdollisuudesta ihmisten uuteen sairauteen. Ainoa tukeva julkaisu koskee yhdistelmähoitoa (HAART), joten atatsanaviirin oma osuus vaikutuksesta ei erotu siitä. Ihmisillä tehtävää kliinistä tutkimusta tälle käyttöaiheelle ei ole.
 
-SIV on HIV:n ei-ihmisprimaattinen vastine, joten proteaasin estäjän vaikutus on biologisesti uskottava. Kyse on kuitenkin pohjimmiltaan alkuperäisestä viruslääkeindikaatiosta eläinmallissa, ei aidosta uudelleenkäyttömahdollisuudesta. Ainoa tukeva lähde koskee yhdistelmähoitoa (HAART), joten atatsanaviirin oma osuus jää erottamatta. Ihmiskäytön kannalta tällä ei ole kliinistä merkitystä.
-
----
-
-## Kliiniset tutkimukset
+## Kliininen tutkimusnäyttö
 
 Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
-
----
 
 ## Kirjallisuusnäyttö
 
 | PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [20497048](https://pubmed.ncbi.nlm.nih.gov/20497048/) | 2010 | Eläinkoe (makaki) | The Journal of Infectious Diseases | Tehokkaalla antiretroviraalisella yhdistelmähoidolla (HAART) hoidetuilla SIV-makakeilla keskushermoston viruksen replikaatio ja tulehdus olivat vähäisempiä, mutta viraalinen DNA säilyi. |
+| [20497048](https://pubmed.ncbi.nlm.nih.gov/20497048/) | 2010 | Eläintutkimus (makakit) | The Journal of Infectious Diseases | Tehokkaalla antiretroviraalisella yhdistelmähoidolla (HAART) hoidetuilla SIV-infektoituneilla makakeilla viruksen replikaatio ja tulehdus keskushermostossa olivat vähäisempiä, mutta virus-DNA säilyi. |
 
----
+## Suomen markkinatiedot
 
-## Markkinatiedot Suomessa
+Suomen lupatietojen mukaan valmiste on markkinoilla. Lupakohtaisia tietoja ei toisteta tässä.
 
-| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
-|---------|------|------|-----------|
-| EMEA/H/C/004048 | Atazanavir Viatris (aiemmin Atazanavir Mylan) | – | HIV-infektiot (peruutettu) |
-| EMEA/H/C/000494 | Reyataz | – | HIV-infektiot (peruutettu) |
-| EMEA/H/C/003904 | Evotaz | – | HIV-infektiot (peruutettu) |
+## Turvallisuushuomiot
 
----
+**Lääkeaineyhteisvaikutukset**: Yhteisvaikutushauissa löytyi yhteensä 100 yhteisvaikutusta. Seuraavat luokiteltiin vakaviksi (Major):
 
-## Turvallisuusnäkökohdat
+- Famotidiini
+- Ranitidiini
+- Rabepratsoli
+- Omepratsoli
+- Loperamidi
+- Triamsinoloni
+- Budesonidi
 
-- **Tietokannan mukaiset sairauskohtaiset vasta-aiheet (tietämysgraafi, ei valmisteyhteenvetoteksti)**: maksan vajaatoiminta, maksasairaus, sappirakon sairaus, hyperglykemia, diabetes, diabeettinen ketoasidoosi, krooninen hepatiitti B ja C, hemofilia, hyperbilirubinemia (myös perinnöllinen) ja Gilbertin oireyhtymä, nefrolitiaasi, akuutti virtsahapponefropatia, eteis-kammiokatkos sekä laktaattiasidoosi.
-- **Lääkeyhteisvaikutukset**: tietoja löytyi yhteensä 100 yhteisvaikutuksesta. Merkittäviksi (Major) luokiteltuja ovat mm. famotidiini, ranitidiini, rabepratsoli, omepratsoli, loperamidi, triamsinoloni ja budesonidi. Kohtalaisia (Moderate) ovat mm. asarboosi, hydrokortisoni, metformiini, pioglitatsoni, alogliptiini, aprepitantti, alumiinihydroksidi, betametasoni ja kalsiumkarbonaatti.
+Lisäksi löytyi useita kohtalaisia (Moderate) yhteisvaikutuksia, esimerkiksi:
 
-Tarkemmat varoitukset ja vasta-aiheet on tarkistettava valmisteyhteenvedosta.
+- Akarboosi
+- Metformiini
+- Pioglitatsoni
+- Hydrokortisoni
+- Alumiinihydroksidi
+- Kalsiumkarbonaatti
 
----
+Muiden varoitusten ja vasta-aiheiden osalta katso valmisteyhteenveto.
 
 ## Johtopäätös ja seuraavat askeleet
 
-**Päätös: Hold (odota)**
+**Päätös: Odota**
 
-**Perustelut:**
-- Ennuste on käytännössä alkuperäisen HIV-indikaation siirtymä eläinmalliin, eikä sillä ole ihmisen hoidon kannalta uutta kliinistä arvoa. Näyttö rajoittuu yhteen makakeilla tehtyyn yhdistelmähoitotutkimukseen, ja kaikki Suomen myyntiluvat on peruutettu.
-- Muut ennusteet (felinen immuunikato, harvinainen neurokehityshäiriö, vanhentunut perinnöllinen hyperlipidemia, AIDS-related complex ja synnynnäinen HIV) eivät tarjoa vahvempaa uudelleenkäyttönäyttöä. Synnynnäisen HIV:n osalta kirjallisuus (L3) koskee lähinnä sikiöaikaisen antiretroviraalialtistuksen turvallisuutta ja tukee turvallisuusarviointia, ei uutta käyttöaihetta.
+**Perustelu:**
+Ennustetta tukee vain yksi eläintutkimus, jossa hoitona oli yhdistelmähoito eikä atatsanaviiri yksin. Kliinisiä tutkimuksia ei ole, ja ennuste koskee eläinvirusta, jolla on vähän merkitystä ihmisten hoidossa. Näyttö riittää L4-tasolle mutta ei etenemiseen.
 
-**Eteenpäin siirtyminen edellyttää:**
-- Vaikutusmekanismitietojen täydentämistä
-- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista ja jäsentämistä (turvallisuusseulonnan edellytys)
-- Atatsanaviirikohtaista (ei yhdistelmähoitoa) näyttöä mahdollisesta uudesta käyttöaiheesta
-- Arviota siitä, onko uudelle käyttöaiheelle ylipäätään tarvetta, koska markkinoilla ei ole voimassa olevia myyntilupia
+**Etenemiseksi tarvitaan:**
+- Yksityiskohtaiset vaikutusmekanismitiedot (MOA)
+- Atatsanaviirin omaa vaikutusta SIV-infektioon selvittävät prekliiniset tutkimukset
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden kokoaminen turvallisuusarviointia varten
+- Arvio siitä, onko ennusteella käytännön merkitystä ihmisten kliinisessä hoidossa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

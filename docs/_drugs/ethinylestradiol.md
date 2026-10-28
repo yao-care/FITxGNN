@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-## Etinyyliestradioli: Ehkäisystä kohonneeseen plasman sinkkipitoisuuteen
+## Etinyyliestradioli: Ehkäisystä – Kohonnut plasman sinkki
 {: .text-alpha }
 
 ## Yhden lauseen tiivistelmä
@@ -48,10 +48,10 @@ Etinyyliestradioli on estrogeeni, jota on käytetty alun perin ehkäisyyn. TxGNN
 |------|------|
 | Alkuperäinen käyttöaihe | Ehkäisy |
 | Ennustettu uusi käyttöaihe | Kohonnut plasman sinkki (zinc, elevated plasma) |
-| TxGNN-ennusteen pistemäärä | 99,63 % |
+| TxGNN-ennusteen pistemäärä | 0,9963 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
-| Myyntilupien määrä | 1 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

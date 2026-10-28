@@ -6,9 +6,9 @@ nav_order: 245
 evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Lanadelumab: ennustettu uusi käyttöaihe C1-estäjän puutos (näytön taso L1). Alkuperäinen käyttöaihe: Perinnöllinen angioedeema"
 monitor_inn: "LANADELUMAB"
 predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "pancreatitis", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "Glanzmann thrombasthenia", "antisynthetase syndrome", "focal myositis", "Scott syndrome"]
+description: "Lanadelumab: ennustettu uusi käyttöaihe C1-estäjän puutos (C1 inhibitor deficiency) (näytön taso L1). Alkuperäinen käyttöaihe: Angioedemas, Hereditary"
 ---
 
 # Lanadelumab
@@ -33,7 +33,7 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Lanadelumabi: Perinnöllisestä angioedeemasta C1-estäjän puutokseen
+## Lanadelumab: C1-estäjän puutos (C1 inhibitor deficiency)
 {: .text-alpha }
 
 ## Yhteenveto
@@ -48,12 +48,12 @@ Ennusteen tukena on **5 kliinistä tutkimusta** ja **20 julkaisua**.
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Perinnöllinen angioedeema |
-| Ennustettu uusi käyttöaihe | C1-estäjän puutos |
+| Alkuperäinen käyttöaihe | Angioedemas, Hereditary |
+| Ennustettu uusi käyttöaihe | C1-estäjän puutos (C1 inhibitor deficiency) |
 | TxGNN-ennusteen pisteet | 99,996 % |
 | Näytön taso | L1 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Etene suojatoimin (Proceed with Guardrails) |
 
 ---

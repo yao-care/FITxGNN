@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Rivastigmine
-parent: Kohtalainen näyttö (L3-L4)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 385
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-13
 description: "Rivastigmine: ennustettu uusi käyttöaihe Glaukooma (näytön taso L4). Alkuperäinen käyttöaihe: Dementia, Alzheimerin tauti, Parkinsonin tauti"
@@ -14,7 +14,7 @@ predicted_indications: ["glaucoma"]
 # Rivastigmine
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **1** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -46,10 +46,10 @@ Rivastigmiini on kolinesteraasin estäjä, jota on alun perin käytetty **dement
 |------|------|
 | Alkuperäinen käyttöaihe | Dementia, Alzheimerin tauti, Parkinsonin tauti |
 | Ennustettu uusi käyttöaihe | Glaukooma |
-| TxGNN-ennusteen pistemäärä | 99,27 % |
-| Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 6 (kaikki peruutettuja) |
+| TxGNN-ennusteen pistemäärä | 0,9927 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 6/6) |
+| Myyntilupien määrä | 6 (voimassa: 6) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste on perusteltu?

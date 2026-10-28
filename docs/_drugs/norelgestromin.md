@@ -50,15 +50,15 @@ Norelgestromiini on progestiini, jota on käytetty ehkäisyyn ehkäisylaastariss
 | Ennustettu uusi käyttöaihe | Amenorrea |
 | TxGNN-ennustepistemäärä | 99,51 % |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
-| Myyntilupien määrä | 1 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
 
 ## Miksi ennuste on perusteltu?
 
-Norelgestromiini on progestiini ja norgestimaatin aktiivinen metaboliitti. Ehkäisylaastarissa sitä annetaan yhdessä etinyyliestradiolin kanssa. Progestiinit voivat estää hypotalamus–aivolisäke–munasarja-akselin toimintaa ja aiheuttaa kohdun limakalvon surkastumista. Progestiinihoitoa käytetään joissakin sekundaarisen amenorrean muodoissa, esimerkiksi tyhjennysvuodon käynnistämiseen tai kohdun limakalvon suojaamiseen. Korkea pistemäärä (0,995) heijastaa todennäköisesti tätä lääkeryhmätason yhteyttä muihin progestiineihin.
+Norelgestromiini on progestiini ja norgestimaatin aktiivinen metaboliitti. Ehkäisylaastarissa sitä annetaan yhdessä etinyyliestradiolin kanssa. Progestiinit voivat estää hypotalamus–aivolisäke–munasarja-akselin toimintaa ja aiheuttaa kohdun limakalvon surkastumista. Progestiinihoitoa käytetään joissakin sekundaarisen amenorrean muodoissa, esimerkiksi tyhjennysvuodon käynnistämiseen tai kohdun limakalvon suojaamiseen. Korkea pistemäärä (0,9951) heijastaa todennäköisesti tätä lääkeryhmätason yhteyttä muihin progestiineihin.
 
 Ennusteeseen liittyy kuitenkin merkittäviä varauksia. Amenorrea on hormonaalisten ehkäisyvalmisteiden tunnettu vaikutus eikä vakiintunut hoidon kohde. Lisäksi lääkkeen vaikutusmekanismitietoja ei ole saatavilla tähän raporttiin koottujen tietojen perusteella. Ennustetta ei siis tue lääkekohtainen näyttö. Hypotalamisessa tai hypoestrogeenisessa amenorreassa pelkkä progestiinivalmiste tai yhdistelmäehkäisy ei välttämättä palauta fysiologista kiertoa ja voi peittää taustalla olevan syyn.
 

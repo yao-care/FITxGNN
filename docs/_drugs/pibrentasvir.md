@@ -33,7 +33,7 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Pibrentasviiri: Krooniseen hepatiitti C:hen käytetystä lääkkeestä ennustettuun hepatiitti B -virusinfektioon
+## Pibrentasviiri: Krooniseen hepatiitti C:hen käytetystä lääkkeestä ennustettuun Hepatiitti B -virusinfektioon
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -50,10 +50,10 @@ Ennustus perustuu käytännössä vain malliin, eikä sitä tue mekanistinen per
 |------|------|
 | Alkuperäinen käyttöaihe | Krooninen hepatiitti C |
 | Ennustettu uusi käyttöaihe | Hepatiitti B -virusinfektio |
-| TxGNN-ennustepisteet | 99,84 % |
+| TxGNN-ennustepisteet | 0,9984 |
 | Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

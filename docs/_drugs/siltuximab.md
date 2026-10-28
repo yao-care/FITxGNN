@@ -6,9 +6,9 @@ nav_order: 402
 evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-13
-description: "Siltuximab: ennustettu uusi käyttöaihe Ekstrakutaaninen mastosytooma (näytön taso L5). Alkuperäinen käyttöaihe: Jättimäinen imusolmukehyperplasia (Castlemanin tauti)"
 monitor_inn: "SILTUXIMAB"
 predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "hepatic veno-occlusive disease", "peliosis hepatis", "Kaposi's sarcoma (disease)", "autosomal recessive familial Mediterranean fever", "aggressive systemic mastocytosis", "autosomal dominant familial periodic fever"]
+description: "Siltuximab: ennustettu uusi käyttöaihe Ekstrakutaaninen mastosytooma (extracutaneous mastocytoma) (näytön taso L5). Alkuperäinen käyttöaihe: Giant Lymph Node Hyperplasia"
 ---
 
 # Siltuximab
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **8** kpl
 
 </div>
 
-## Siltuksimabi: Giant Lymph Node Hyperplasiasta (Castlemanin tauti) ekstrakutaaniseen mastosytoomaan
+## Siltuximab: Ekstrakutaaninen mastosytooma (extracutaneous mastocytoma)
 {: .text-alpha }
 
 ## Yhteenveto
@@ -47,12 +47,12 @@ TxGNN-malli ennustaa sen voivan tehota **ekstrakutaaniseen mastosytoomaan**, mut
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Jättimäinen imusolmukehyperplasia (Castlemanin tauti) |
-| Ennustettu uusi käyttöaihe | Ekstrakutaaninen mastosytooma |
-| TxGNN-ennustepistemäärä | 99,64 % |
+| Alkuperäinen käyttöaihe | Giant Lymph Node Hyperplasia |
+| Ennustettu uusi käyttöaihe | Ekstrakutaaninen mastosytooma (extracutaneous mastocytoma) |
+| TxGNN-ennustepistemäärä | 0.9964 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -65,7 +65,7 @@ IL-6:lla voi olla rooli syöttösolubiologiassa, mutta tämä on spekulatiivista
 
 Ennustelistalla on myös muita kohteita, joista yksi on poikkeuksellisesti hieman tuettu:
 
-- **Kaposin sarkooma** (pistemäärä 99,28 %, näytön taso L4): Kaposin sarkoomaan ja multisentriseen Castlemanin tautiin liittyy molempiin HHV-8-viruksen osallisuus, ja virus-IL-6 sekä ihmisen IL-6 ajavat HHV-8-liitännäistä tautia. Tämä antaa biologisesti uskottavan, mutta epäsuoran yhteyden siltuksimabiin. Ainoa julkaisu (PMID 39970477) on katsaus Castlemanin taudin etiologioista, ei siltuksimabitutkimus Kaposin sarkoomassa.
+- **Kaposin sarkooma** (pistemäärä 0,9928, näytön taso L4): Kaposin sarkoomaan ja multisentriseen Castlemanin tautiin liittyy molempiin HHV-8-viruksen osallisuus, ja virus-IL-6 sekä ihmisen IL-6 ajavat HHV-8-liitännäistä tautia. Tämä antaa biologisesti uskottavan, mutta epäsuoran yhteyden siltuksimabiin. Ainoa julkaisu (PMID 39970477) on katsaus Castlemanin taudin etiologioista, ei siltuksimabitutkimus Kaposin sarkoomassa.
 - Muut ennusteet (maksainfarkti, maksan veno-okklusiivinen tauti, peliosis hepatis, familiaalinen Välimeren kuume, aggressiivinen systeeminen mastosytoosi, autosomaalisesti dominantti familiaalinen jaksoittainen kuume) perustuvat pelkästään malliin, eikä niille ole toimitettu tutkimus- tai kirjallisuusnäyttöä.
 
 ---
@@ -115,7 +115,7 @@ Huomionarvoista on, että IL-6:n esto voi palauttaa tiettyjen CYP450-entsyymien 
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennustetta tukee vain korkea TxGNN-pistemäärä (99,64 %). Kliinisiä tutkimuksia ja kirjallisuutta ei ole, joten näytön taso on L5. Lisäksi lääkkeen Suomen myyntilupa on peruutettu.
+- Ennustetta tukee vain korkea TxGNN-pistemäärä (0,9964). Kliinisiä tutkimuksia ja kirjallisuutta ei ole, joten näytön taso on L5. Lisäksi lääkkeen Suomen myyntilupa on peruutettu.
 - Kaposin sarkooma on ennustelistan ainoa kohde, jolla on epäsuora biologinen perustelu (HHV-8 ja IL-6), ja se voisi olla jatkoselvityksen tutkimuskysymys (L4).
 
 **Eteenpäin siirtyminen edellyttää:**

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lurasidone
-parent: Kohtalainen näyttö (L3-L4)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 274
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Lurasidone: ennustettu uusi käyttöaihe Maaninen kaksisuuntainen mielialahäiriö (näytön taso L3). Alkuperäinen käyttöaihe: Skitsofrenia"
 monitor_inn: "LURASIDONE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "syndromic myopia", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
+description: "Lurasidone: ennustettu uusi käyttöaihe Retinal dystrophy with or without extraocular anomalies (näytön taso L5). Alkuperäinen käyttöaihe: Schizophrenia"
 ---
 
 # Lurasidone
 {: .fs-9 }
 
-Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Lurasidoni: Skitsofreniasta maaniseen kaksisuuntaiseen mielialahäiriöön
+## Lurasidone: Retinal dystrophy with or without extraocular anomalies
 {: .text-alpha }
 
 ## Yhteenveto
@@ -46,12 +46,12 @@ Suoraa näyttöä on vähän: ainoa aiheeseen liittyvä kliininen tutkimus **per
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Skitsofrenia |
-| Ennustettu uusi käyttöaihe | Maaninen kaksisuuntainen mielialahäiriö |
-| TxGNN-ennustepistemäärä | 99,98 % |
-| Näytön taso | L3 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Alkuperäinen käyttöaihe | Schizophrenia |
+| Ennustettu uusi käyttöaihe | Retinal dystrophy with or without extraocular anomalies |
+| TxGNN-ennustepistemäärä | 0.9995 |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste on järkevä?
@@ -110,7 +110,7 @@ Tärkeä rajoitus: CANMAT/ISBD-ohjeistot ja meta-analyysit tukevat lurasidonia p
 
 ## Muut ennustetut käyttöaiheet
 
-Muut yhdeksän ennustetta (verkkokalvon rappeumat, hydranenkefalia, glykosylaatiohäiriö, polymikrogyria, lähinäköisyyden muodot, Charcot-Marie-Tooth 1G ja epätyypillinen glysiini-enkefalopatia) ovat TxGNN-pistemäärältään korkeita (yli 99,9 %), mutta niillä ei ole kliinisiä tutkimuksia eikä kirjallisuutta, eikä uskottavaa vaikutusmekanismia. Näyttötaso on L5 ja suositus Hold.
+Näyttötaso on L5 ja suositus Hold.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pegaspargase
-parent: Vahva näyttö (L1-L2)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 333
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 7
 last_modified_at: 2026-10-13
-description: "Pegaspargase: ennustettu uusi käyttöaihe Prekursorilymfoblastilymfooma/-leukemia (näytön taso L1). Alkuperäinen käyttöaihe: Prekursorisolujen lymfoblastileukemia-lymfooma"
 monitor_inn: "PEGASPARGASE"
 predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "follicular lymphoma", "methylcobalamin deficiency type cblE", "lymphoid neoplasm", "Hodgkins lymphoma", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive"]
+description: "Pegaspargase: ennustettu uusi käyttöaihe Pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma (näytön taso L5). Alkuperäinen käyttöaihe: Precursor Cell Lymphoblastic Leukemia-Ly…"
 ---
 
 # Pegaspargase
 {: .fs-9 }
 
-Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **7** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Pegaspargaasi: Precursor-solulymfoblastileukemia/-lymfooma → prekursorilymfoblastilymfooma/-leukemia
+## Pegaspargase: Pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -46,12 +46,12 @@ Pegaspargaasi on pegyloitu L-asparaginaasi, jota on alun perin käytetty prekurs
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Prekursorisolujen lymfoblastileukemia-lymfooma |
-| Ennustettu uusi käyttöaihe | Prekursorilymfoblastilymfooma/-leukemia |
+| Alkuperäinen käyttöaihe | Precursor Cell Lymphoblastic Leukemia-Lymphoma |
+| Ennustettu uusi käyttöaihe | Pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma |
 | TxGNN-ennustepisteet | 99,96 % |
-| Näytön taso | L1 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Näytön taso | L5 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Proceed with Guardrails (eteneminen suojatoimin) |
 
 ---

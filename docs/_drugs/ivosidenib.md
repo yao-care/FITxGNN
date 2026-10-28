@@ -4,17 +4,17 @@ title: Ivosidenib
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 240
 evidence_level: L5
-indication_count: 3
+indication_count: 1
 last_modified_at: 2026-10-13
-description: "Ivosidenib: ennustettu uusi käyttöaihe Bulbaarinen polio (näytön taso L5). Alkuperäinen käyttöaihe: Akuutti myeloidileukemia"
 monitor_inn: "IVOSIDENIB"
 predicted_indications: ["bulbar polio"]
+description: "Ivosidenib: ennustettu uusi käyttöaihe Bulbaarinen polio (bulbar polio) (näytön taso L5). Alkuperäinen käyttöaihe: Leukemia, Myeloid, Acute"
 ---
 
 # Ivosidenib
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-## Ivosidenibi: Akuutista myeloidileukemiasta ja sappitiesyövästä ennustettuun uuteen käyttöaiheeseen (bulbaarinen polio)
+## Ivosidenib: Bulbaarinen polio (bulbar polio)
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -48,12 +48,12 @@ Ennuste perustuu pelkästään mallilaskentaan, eikä sille ole lääketieteelli
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Akuutti myeloidileukemia; kolangiokarsinooma |
-| Ennustettu uusi käyttöaihe | Bulbaarinen polio |
-| TxGNN-ennustepistemäärä | 99,31 % |
+| Alkuperäinen käyttöaihe | Leukemia, Myeloid, Acute;Cholangiocarcinoma |
+| Ennustettu uusi käyttöaihe | Bulbaarinen polio (bulbar polio) |
+| TxGNN-ennustepistemäärä | 0.9931 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -62,9 +62,9 @@ Ennuste perustuu pelkästään mallilaskentaan, eikä sille ole lääketieteelli
 
 Tämän raportin laadintaa varten koottu aineisto ei sisällä yksityiskohtaista vaikutusmekanismitietoa. Tunnetun tiedon mukaan ivosidenibi estää mutatoitunutta IDH1-entsyymiä (isositraattidehydrogenaasi 1), ja sitä käytetään IDH1-mutaatiopositiivisissa syövissä.
 
-Bulbaarinen polio on poliovirusten aiheuttama motoneuronien virusinfektio. IDH1:llä ei tunneta roolia poliovirusten replikaatiossa tai taudin synnyssä, joten uskottavaa mekanistista yhteyttä alkuperäisiin syöpäkäyttöaiheisiin ei ole tunnistettu. Korkea pistemäärä (0,993) on todennäköisesti tietämysgraafin verkostoläheisyyden tuottama artefakti.
+Bulbaarinen polio on poliovirusten aiheuttama motoneuronien virusinfektio. IDH1:llä ei tunneta roolia poliovirusten replikaatiossa tai taudin synnyssä, joten uskottavaa mekanistista yhteyttä alkuperäisiin syöpäkäyttöaiheisiin ei ole tunnistettu. Korkea pistemäärä (0,9931) on todennäköisesti tietämysgraafin verkostoläheisyyden tuottama artefakti.
 
-Mielenkiintoisempia ennustettuja kohteita ovat sen sijaan alkyloivien aineiden tai säteilyn aiheuttamat hoitoon liittyvät akuutit myeloidileukemiat ja myelodysplastiset oireyhtymät (molemmat pistemäärä 99,26 %). Ne ovat biologisesti uskottavia, koska ivosidenibi on hyväksytty IDH1-mutatoituneeseen akuuttiin myeloidileukemiaan ja näissä alatyypeissä voi esiintyä IDH1-mutaatioita. Hyöty olisi odotettavissa vain IDH1-mutaatiopositiivisilla potilailla. Näille alatyypeille ei kuitenkaan ole toimitettu tutkimuksia eikä kirjallisuutta, joten näyttö rajoittuu mallin ennusteeseen ja epäsuoraan päättelyyn.
+Ne ovat biologisesti uskottavia, koska ivosidenibi on hyväksytty IDH1-mutatoituneeseen akuuttiin myeloidileukemiaan ja näissä alatyypeissä voi esiintyä IDH1-mutaatioita. Hyöty olisi odotettavissa vain IDH1-mutaatiopositiivisilla potilailla. Näille alatyypeille ei kuitenkaan ole toimitettu tutkimuksia eikä kirjallisuutta, joten näyttö rajoittuu mallin ennusteeseen ja epäsuoraan päättelyyn.
 
 ---
 

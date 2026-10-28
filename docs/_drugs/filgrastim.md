@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Filgrastiimi: Neutropenian ja kantasolusiirron tukihoidosta trombosyyttien toimintahäiriöihin (platelet-type bleeding disorder)
+## Filgrastiimi: Neutropenian ja kantasolusiirron tukihoidosta primaariseen verihiutaleiden vapautumishäiriöön (Primaarinen verihiutaleiden vapautumishäiriö)
 {: .text-alpha }
 
 ## Yhteenveto
@@ -50,10 +50,10 @@ Ennusteen tueksi ei ole kliinisiä tutkimuksia eikä julkaisuja. Ainoa muuhun en
 |------|------|
 | Alkuperäinen käyttöaihe | Hematopoieettinen kantasolusiirto; syöpä |
 | Ennustettu uusi käyttöaihe | Primary release disorder of platelets |
-| TxGNN-ennusteen pistemäärä | 99,998 % |
+| TxGNN-ennusteen pistemäärä | 1,0000 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 7 (kaikki peruutettu, voimassa 0) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 7/7) |
+| Myyntilupien määrä | 7 (voimassa: 7) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

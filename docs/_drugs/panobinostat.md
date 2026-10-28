@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Panobinostat
-parent: Pelkkä mallin ennuste (L5)
+parent: Vahva näyttö (L1-L2)
 nav_order: 329
-evidence_level: L5
+evidence_level: L1
 indication_count: 1
 last_modified_at: 2026-10-13
-description: "Panobinostat: ennustettu uusi käyttöaihe Myeloidileukemia (näytön taso L5). Alkuperäinen käyttöaihe: Multippeli myelooma"
 monitor_inn: "panobinostat"
 predicted_indications: ["myeloid leukemia"]
+description: "Panobinostat: ennustettu uusi käyttöaihe Myeloid leukemia (näytön taso L1). Alkuperäinen käyttöaihe: Multiple Myeloma"
 ---
 
 # Panobinostat
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
+Näytön taso: **L1** | Ennustetut käyttöaiheet: **1** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-## Panobinostaatti: multippelin myelooman hoidosta myeloidileukemiaan
+## Panobinostat: Myeloid leukemia
 {: .text-alpha }
 
 ## Yhteenveto
@@ -48,12 +48,12 @@ Suuntaa tukee tällä hetkellä **16 kliinistä tutkimusta** ja **20 julkaisua**
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Multippeli myelooma |
-| Ennustettu uusi käyttöaihe | Myeloidileukemia |
+| Alkuperäinen käyttöaihe | Multiple Myeloma |
+| Ennustettu uusi käyttöaihe | Myeloid leukemia |
 | TxGNN-ennustepisteet | 99,70 % |
 | Näytön taso | L1 (muodollisesti; ks. huomautus alla) |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (pidätetään) |
 
 *Huomautus näytön tasosta:* L1 perustuu yhteen Phase 3 -tutkimukseen (NCT04326764). Se päättyi ennenaikaisesti vain 52 potilaan jälkeen, joten se ei täytä L1-kriteeriä "vähintään kaksi valmistunutta Phase 3 -satunnaistettua tutkimusta". Käytännössä näyttö on heikompaa, noin L2–L3.

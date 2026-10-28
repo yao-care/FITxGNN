@@ -5,10 +5,10 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 103
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-13
-description: "Ceftolozane: ennustettu uusi käyttöaihe Gonokokkiuretriitti (näytön taso L5). Alkuperäinen käyttöaihe: Bakteeri-infektiot"
 monitor_inn: "Ceftolozane"
 predicted_indications: ["gonococcal urethritis", "Ureaplasma urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "urogenital tuberculosis", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease"]
+last_modified_at: 2026-10-27
+description: "Ceftolozane: ennustettu uusi käyttöaihe Gonokokki-uretriitti (gonococcal urethritis) (näytön taso L5). Alkuperäinen käyttöaihe: Bacterial Infections"
 ---
 
 # Ceftolozane
@@ -33,82 +33,66 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Keftolotsaani: Bakteeri-infektioista gonokokkiuretriittiin
+## Keftolotsaani: kefalosporiiniantibiootti → gonokokki-uretriitti (gonococcal urethritis)
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 
-Keftolotsaani on kefalosporiiniantibiootti, jota on alun perin käytetty bakteeri-infektioiden hoitoon. TxGNN-malli ennustaa sen voivan tehota **gonokokkiuretriittiin**, mutta ennusteen tueksi ei ole tässä raportissa käytetyssä aineistossa yhtään kliinistä tutkimusta eikä kohdennettua kirjallisuutta. Näyttö on siten pelkkää mallin ennustetta.
+Keftolotsaani on kefalosporiiniryhmän antibiootti, jonka paikallisissa lupatiedoissa on kirjattu käyttö bakteeri-infektioihin. TxGNN-malli ennustaa, että se voisi tehota **gonokokki-uretriittiin (gonococcal urethritis)**. Ennusteen tueksi ei ole toistaiseksi yhtään kliinistä tutkimusta eikä julkaisua, joten näyttö perustuu pelkästään mallin ennusteeseen.
 
 ## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Bakteeri-infektiot |
-| Ennustettu uusi käyttöaihe | Gonokokkiuretriitti |
-| TxGNN-ennusteen pistemäärä | 99,89 % |
+| Alkuperäinen käyttöaihe | Bacterial Infections |
+| Ennustettu uusi käyttöaihe | Gonokokki-uretriitti (gonococcal urethritis) |
+| TxGNN-ennustepistemäärä | 0,9989 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 |
-| Suositeltu päätös | Hold (odota) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
+| Suositeltu päätös | Odota (Hold) |
 
-## Miksi ennuste on (tai ei ole) perusteltu?
+## Miksi ennuste on perusteltu?
 
-Tässä käytetyssä aineistossa ei ole saatavilla yksityiskohtaista tietoa keftolotsaanin vaikutusmekanismista. Tunnetun tiedon perusteella keftolotsaani on kefalosporiini, jonka teho gramnegatiivisia bakteereita vastaan on osoitettu. Mekanistisesti se voisi siis soveltua myös bakteeriperäiseen virtsaputken tulehdukseen.
+Yksityiskohtaisia tietoja vaikutusmekanismista ei tällä hetkellä ole saatavilla. Tiedossa olevan perusteella keftolotsaani on kefalosporiini, jonka teho useita gramnegatiivisia bakteereja vastaan on osoitettu. Mekanistisesti se voisi siksi soveltua myös bakteerin aiheuttamaan virtsaputken tulehdukseen.
 
-Keftolotsaanin tehoa *Neisseria gonorrhoeae* -bakteeriin ei kuitenkaan ole vakiintuneesti osoitettu, eikä se ole gonorrean vakiohoito (siihen käytetään keftriaksonia). Korkea pistemäärä on mallin ennuste, jota ei tue kliininen tai kirjallisuusnäyttö.
+Ennusteen uskottavuutta heikentää kuitenkin se, että keftolotsaanin tehoa Neisseria gonorrhoeae -bakteeria vastaan ei ole varmistettu. Lääke ei myöskään ole gonorrean vakiohoito, vaan siihen käytetään keftriaksonia. Pistemäärä on pelkkä mallin ennuste, eikä sille ole tutkimus- tai kirjallisuustukea käytettävissä olevissa tiedoissa.
 
-### Muut ennustetut käyttöaiheet
+## Kliininen tutkimusnäyttö
 
-Mallin muista kymmenen parhaan ennusteen joukosta:
-
-| Sija | Ennustettu käyttöaihe | Pisteet | Näytön taso | Arvio |
-|---|---|---|---|---|
-| 2 | Ureaplasma-uretriitti | 99,89 % | L5 | Ureaplasmalla ei ole soluseinää, joten beetalaktaamin teho on epätodennäköinen. |
-| 3 | Kohdun tulehdussairaus | 99,88 % | L5 | Epäsuora uskottavuus (gramnegatiiviset bakteerit, ei kattavaa anaerobi- ja klamydiakattavuutta). Ei tutkimuksia. |
-| 4 | Ksantogranulomatoottinen pyelonefriitti | 99,88 % | L4 | Pyelonefriitti on hyväksytty käyttöaihe, mutta tämä krooninen muoto vaatii tyypillisesti leikkaushoidon. Antibiootti on vain tukihoito. |
-| 5–10 | Polyklonaalinen hyperviskositeettioireyhtymä, hyperamylasemia, urogenitaalinen tuberkuloosi, synnynnäinen analbuminemia, veriryhmäyhteensopimattomuus, esiasteinen hematologinen sairaus | 99,1–99,5 % | L5 | Ei uskottavaa antibakteerista mekanismia, todennäköisesti verkkomallin artefakteja. Tuberkuloosibakteeri on luontaisesti resistentti useimmille beetalaktaameille. |
-
-## Kliiniset tutkimukset
-
-Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
+Tällä hetkellä aiheeseen liittyviä kliinisiä tutkimuksia ei ole rekisteröity.
 
 ## Kirjallisuusnäyttö
 
-Ensisijaiselle ennusteelle (gonokokkiuretriitti) ei ole saatavilla kirjallisuutta. Ainoa aineistossa oleva julkaisu liittyy neljänteen ennusteeseen (ksantogranulomatoottinen pyelonefriitti):
+Tällä hetkellä aiheeseen liittyvää kirjallisuutta ei ole saatavilla.
 
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
-|------|-----|------|------|---------|
-| [26658652](https://pubmed.ncbi.nlm.nih.gov/26658652/) | 2016 | Katsaus | Current Opinion in Infectious Diseases | Yleiskatsaus kuumeisiin virtsatieinfektioihin, pyelonefriittiin ja urosepsikseen. Epäsuora näyttö. |
+## Markkinatiedot Suomessa
 
-## Tiedot Suomen markkinoilta
-
-| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+| Myyntilupanumero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/003772 | Zerbaxa (Merck Sharp & Dohme B.V.) | – | Bakteeri-infektiot (tila: peruutettu) |
+| EMEA/H/C/003772 | Zerbaxa | – | Bakteeri-infektiot |
 
 ## Turvallisuusnäkökohdat
 
-**Lääkeaineyhteisvaikutukset** (11 kirjattua, kaikki vaikeusasteeltaan kohtalaisia):
-- Aminoglykosidit: kanamysiini, neomysiini, streptomysiini, amikasiini (myös liposomaalinen) ja gentamysiini
-- Antikoagulantit: varfariini ja dikumaroli
-- Muut: kloramfenikoli, etinyyliestradiol ja mykofenolihappo
+**Lääkeyhteisvaikutukset** (11 kirjattua, kaikki vaikeusasteeltaan kohtalaisia):
+- Aminoglykosidit: kanamysiini, neomysiini, streptomysiini, amikasiini, amikasiini (liposomaalinen) ja gentamisiini
+- Antikoagulantit: dikumaroli ja varfariini
+- Muut: kloramfenikoli, etinyyliestradioli ja mykofenolihappo
 
-Muita turvallisuustietoja (varoitukset, vasta-aiheet) ei ole saatavilla. Katso turvallisuustiedot valmisteyhteenvedosta.
+Muista turvallisuustiedoista, kuten varoituksista ja vasta-aiheista, katso valmisteyhteenveto.
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Hold (odota)**
+**Päätös: Odota (Hold)**
 
 **Perustelut:**
-- Ennuste perustuu vain mallin pistemäärään (L5). Tukevia kliinisiä tutkimuksia tai kirjallisuutta ei ole, ja gonorrean vakiohoito on jo olemassa. Suomen myyntilupa on lisäksi peruutettu.
-- Useimmilla muilla ennusteilla ei ole uskottavaa mekanismia, ja ne näyttävät mallin artefakteilta.
+- Ennuste perustuu pelkästään malliin: kliinisiä tutkimuksia tai julkaisuja gonokokki-uretriitista ei ole, eikä keftolotsaanin tehoa gonokokkia vastaan ole osoitettu. Gonorrean vakiohoito on jo olemassa.
 
-**Etenemiseksi tarvitaan:**
-- Valmisteyhteenvedon varoitukset ja vasta-aiheet Fimean lähteistä (estävä tietoaukko turvallisuusarvioinnille)
-- Vaikutusmekanismitiedot DrugBankista
-- In vitro -herkkyystiedot keftolotsaanin tehosta *N. gonorrhoeae* -bakteeriin
-- Selvitys myyntiluvan peruuttamisen syistä ja valmisteen saatavuudesta Suomessa
+**Eteenpäin siirtyminen edellyttää:**
+- Laboratoriotietoa keftolotsaanin (ja tatsobaktaamiyhdistelmän) in vitro -tehosta Neisseria gonorrhoeae -kannoille
+- Vaikutusmekanismitietojen täydentämistä
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden kokoamista ja turvallisuusarviota
+- Kliinisten tutkimusten tai tapaustietojen kartoitusta ennen jatkopäätöstä
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

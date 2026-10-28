@@ -47,10 +47,10 @@ TxGNN-malli ennustaa sen voivan tehota **hypertrikoosiin** erittäin korkealla p
 |------|------|
 | Alkuperäinen käyttöaihe | Avustetut lisääntymistekniikat, ovulaation induktio, naisen hedelmättömyys |
 | Ennustettu uusi käyttöaihe | Hypertrikoosi |
-| TxGNN-ennustepistemäärä | 99,98 % |
+| TxGNN-ennustepistemäärä | 0,9998 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 2 (molemmat peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Myyntilupien määrä | 2 (voimassa: 2) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste on (tai ei ole) perusteltu?

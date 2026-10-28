@@ -6,9 +6,9 @@ nav_order: 318
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-13
-description: "Oritavancin: ennustettu uusi käyttöaihe Bacteroidaceae-infektio (näytön taso L5). Alkuperäinen käyttöaihe: Pehmytkudosinfektiot"
 monitor_inn: "ORITAVANCIN"
 predicted_indications: ["Bacteroidaceae infectious disease", "ophthalmic herpes zoster", "Mycoplasma pneumoniae pneumonia"]
+description: "Oritavancin: ennustettu uusi käyttöaihe Bacteroidaceae infectious disease (näytön taso L5). Alkuperäinen käyttöaihe: Soft Tissue Infections"
 ---
 
 # Oritavancin
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-## Oritavantsiini: Ihon pehmytkudosinfektioista Bacteroidaceae-infektioon
+## Oritavancin: Bacteroidaceae infectious disease
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -48,12 +48,12 @@ Ennuste perustuu pelkästään mallin laskemaan pisteytykseen.
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Pehmytkudosinfektiot; bakteerien aiheuttamat ihosairaudet |
-| Ennustettu uusi käyttöaihe | Bacteroidaceae-infektio |
+| Alkuperäinen käyttöaihe | Soft Tissue Infections;Skin Diseases, Bacterial |
+| Ennustettu uusi käyttöaihe | Bacteroidaceae infectious disease |
 | TxGNN-ennustepisteet | 99,48 % |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien lukumäärä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien lukumäärä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -62,7 +62,7 @@ Ennuste perustuu pelkästään mallin laskemaan pisteytykseen.
 
 Oritavantsiini on lipoglykopeptidi, joka estää bakteerin soluseinän synteesiä (transglykosylaatio ja transpeptidaatio) ja häiritsee solukalvon eheyttä. Nämä mekanismit tehoavat pääasiassa gram-positiivisiin bakteereihin, mikä sopii yhteen alkuperäisen käyttöaiheen (ihon ja pehmytkudosten infektiot) kanssa. Tarkkaa vaikutusmekanismitietoa ei ole tässä aineistossa saatavilla, joten mekanistinen arviointi perustuu yleiseen farmakologiseen tietoon.
 
-Bacteroidaceae-heimon bakteerit (esim. *Bacteroides*-lajit) ovat gram-negatiivisia anaerobeja, joilla on ulkokalvo. Glykopeptidit eivät yleensä läpäise sitä, joten biologinen yhteys on heikko, vaikka TxGNN-pisteet ovat korkeat (0,995). Pisteet ovat pelkkä mallin ennuste, eikä sitä tue mikään kliininen tai kirjallinen näyttö.
+Bacteroidaceae-heimon bakteerit (esim. *Bacteroides*-lajit) ovat gram-negatiivisia anaerobeja, joilla on ulkokalvo. Glykopeptidit eivät yleensä läpäise sitä, joten biologinen yhteys on heikko, vaikka TxGNN-pisteet ovat korkeat (0,9948). Pisteet ovat pelkkä mallin ennuste, eikä sitä tue mikään kliininen tai kirjallinen näyttö.
 
 Muut mallin korkealle pisteyttämät ennusteet ovat vielä heikommin perusteltuja:
 - **Silmän herpes zoster** (pisteet 99,03 %): Oritavantsiinilla ei ole tunnettua antiviraalista vaikutusta, ja hoito perustuu viruslääkkeisiin. Korkeat pisteet johtuvat todennäköisesti tietämysgraafin rakenteesta.

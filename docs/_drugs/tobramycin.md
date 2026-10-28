@@ -6,9 +6,9 @@ nav_order: 441
 evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Tobramycin: ennustettu uusi käyttöaihe Eksponoitumiskeratiitti (näytön taso L4). Alkuperäinen käyttöaihe: Hengitystieinfektiot"
 monitor_inn: "TOBRAMYCIN"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
+description: "Tobramycin: ennustettu uusi käyttöaihe Exposure keratitis (näytön taso L4). Alkuperäinen käyttöaihe: Respiratory Tract Infections"
 ---
 
 # Tobramycin
@@ -33,7 +33,7 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Tobramysiini: Kystisen fibroosin hengitystieinfektioista eksponoitumiskeratiittiin
+## Tobramycin: Exposure keratitis
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -45,12 +45,12 @@ TxGNN-malli ennustaa sen voivan tehota **eksponoitumiskeratiittiin** (exposure k
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Hengitystieinfektiot; kystinen fibroosi |
-| Ennustettu uusi käyttöaihe | Eksponoitumiskeratiitti |
+| Alkuperäinen käyttöaihe | Respiratory Tract Infections;Cystic Fibrosis; Cystic Fibrosis;Respiratory Tract Infections |
+| Ennustettu uusi käyttöaihe | Exposure keratitis |
 | TxGNN-ennustepisteet | 99,93 % |
 | Näytön taso | L4 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 2 (molemmat peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Myyntilupien määrä | 2 (voimassa: 2) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste on perusteltu?

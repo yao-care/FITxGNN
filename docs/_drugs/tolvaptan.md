@@ -4,17 +4,17 @@ title: Tolvaptan
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 445
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
-description: "Tolvaptan: ennustettu uusi käyttöaihe Polykystinen munuaistauti 3 (PKD3) with or without polykystinen maksa… (näytön taso L5). Alkuperäinen käyttöaihe: Epätarkoituksenmukaisen ADH-erityksen oireyhtym…"
 monitor_inn: "TOLVAPTAN"
 predicted_indications: ["renal-hepatic-pancreatic dysplasia", "karyomegalic interstitial nephritis", "thoracic malformation", "Joubert syndrome with renal defect", "adult familial nephronophthisis-spastic quadriparesia syndrome", "Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
+description: "Tolvaptan: ennustettu uusi käyttöaihe Renal-hepatic-pancreatic dysplasia (näytön taso L5). Alkuperäinen käyttöaihe: Inappropriate ADH Syndrome"
 ---
 
 # Tolvaptan
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Tolvaptaani: Epätarkoituksenmukaisen ADH-erityksen oireyhtymästä (SIADH) polykystiseen munuaistautiin
+## Tolvaptan: Renal-hepatic-pancreatic dysplasia
 {: .text-alpha }
 
 ## Yhden lauseen tiivistelmä
@@ -48,12 +48,12 @@ Tätä tukee **20 julkaisua** (mukana kaksi satunnaistettua kontrolloitua tutkim
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Epätarkoituksenmukaisen ADH-erityksen oireyhtymä (SIADH); autosomaalisesti vallitseva polykystinen munuaistauti |
-| Ennustettu uusi käyttöaihe | Polykystinen munuaistauti 3 (PKD3) with or without polykystinen maksasairaus |
-| TxGNN-ennusteen pistemäärä | 99,99 % |
-| Näytön taso | L1 (perustuu ADPKD:n keskeisiin RCT-tutkimuksiin; päätelmä alatyyppiin on ekstrapolaatio) |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 3 (kaikki peruutettu) |
+| Alkuperäinen käyttöaihe | Inappropriate ADH Syndrome; Polycystic Kidney, Autosomal Dominant |
+| Ennustettu uusi käyttöaihe | Renal-hepatic-pancreatic dysplasia |
+| TxGNN-ennusteen pistemäärä | 0.9998 |
+| Näytön taso | L5 (perustuu ADPKD:n keskeisiin RCT-tutkimuksiin; päätelmä alatyyppiin on ekstrapolaatio) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 3/3) |
+| Myyntilupien määrä | 3 (voimassa: 3) |
 | Suositeltu päätös | Proceed with Guardrails (Jatka suojatoimin) |
 
 ---

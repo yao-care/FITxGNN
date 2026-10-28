@@ -6,9 +6,9 @@ nav_order: 419
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Tasonermin: ennustettu uusi käyttöaihe Eturauhasen virtsaputken urotelikarsinooma (näytön taso L5). Alkuperäinen käyttöaihe: Sarkooma"
 monitor_inn: "TASONERMIN"
 predicted_indications: ["prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant", "renal pelvis papillary urothelial carcinoma", "HER2 positive breast carcinoma", "uterine ligament adenocarcinoma", "endocervical carcinoma", "uterine ligament serous adenocarcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament clear cell adenocarcinoma"]
+description: "Tasonermin: ennustettu uusi käyttöaihe Prostatic urethra urothelial carcinoma (näytön taso L5). Alkuperäinen käyttöaihe: Sarcoma"
 ---
 
 # Tasonermin
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Tasonermiini: Sarkoomasta eturauhasen virtsaputken urotelikarsinoomaan
+## Tasonermin: Prostatic urethra urothelial carcinoma
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -46,12 +46,12 @@ Tasonermiini on yhdistelmä-DNA-tekniikalla valmistettu TNF-alfa, jota on käyte
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Sarkooma |
-| Ennustettu uusi käyttöaihe | Eturauhasen virtsaputken urotelikarsinooma |
+| Alkuperäinen käyttöaihe | Sarcoma |
+| Ennustettu uusi käyttöaihe | Prostatic urethra urothelial carcinoma |
 | TxGNN-ennustepisteet | 99,81 % |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

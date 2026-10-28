@@ -6,7 +6,7 @@ nav_order: 46
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-13
-description: "Asenapine: ennustettu uusi käyttöaihe Verkkokalvon dystrofia… (näytön taso L5). Alkuperäinen käyttöaihe: Kaksisuuntainen mielialahäiriö"
+description: "Asenapine: ennustettu uusi käyttöaihe Verkkokalvon dystrofia, johon voi liittyä silmän ulkopuolisia poikkeavuuksia (näytön taso L5). Alkuperäinen käyttöaihe: Kaksisuuntainen mielialahäiriö"
 monitor_inn: "Asenapine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "syndromic myopia", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy", "major affective disorder"]
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Asenapiini: Kaksisuuntaisesta mielialahäiriöstä verkkokalvon dystrofiaan
+## Asenapiini: Verkkokalvon dystrofia, johon voi liittyä silmän ulkopuolisia poikkeavuuksia
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -48,10 +48,10 @@ Asenapiini on epätyypillinen antipsykootti, jota on käytetty kaksisuuntaisen m
 |------|------|
 | Alkuperäinen käyttöaihe | Kaksisuuntainen mielialahäiriö |
 | Ennustettu uusi käyttöaihe | Verkkokalvon dystrofia, johon voi liittyä silmän ulkopuolisia poikkeavuuksia |
-| TxGNN-ennusteen pistemäärä | 99,77 % |
+| TxGNN-ennusteen pistemäärä | 0,9977 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettu myyntilupa |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

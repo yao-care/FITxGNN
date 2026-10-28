@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Turoktokogialfa pegoli: Hemofilia A:sta ensisijaiseen verihiutaleiden vapautumishäiriöön
+## Turoktokogialfa pegoli: Primaarinen verihiutaleiden vapautumishäiriö
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -50,10 +50,10 @@ Ennuste perustuu vain mallin laskemaan graafietäisyyteen, eikä mekanistista pe
 |------|------|
 | Alkuperäinen käyttöaihe | Hemofilia A |
 | Ennustettu uusi käyttöaihe | Ensisijainen verihiutaleiden vapautumishäiriö (primary release disorder of platelets) |
-| TxGNN-ennusteen pistemäärä | 99,997 % |
+| TxGNN-ennusteen pistemäärä | 1,0000 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

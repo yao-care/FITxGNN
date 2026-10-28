@@ -48,10 +48,10 @@ Ropeginterferoni alfa-2b on pegyloitu interferoni, jota käytetään alun perin 
 |------|------|
 | Alkuperäinen käyttöaihe | Polycythaemia vera |
 | Ennustettu uusi käyttöaihe | Laubry-Pezzin oireyhtymä |
-| TxGNN-ennusteen pistemäärä | 99,93 % |
+| TxGNN-ennusteen pistemäärä | 0,9993 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -86,16 +86,16 @@ Kymmenestä ylimmästä ennusteesta kaikilla on näytön taso L5 ja suositus Hol
 
 | Sija | Ennustettu käyttöaihe | TxGNN-pistemäärä |
 |------|------|------|
-| 1 | Laubry-Pezzin oireyhtymä | 99,93 % |
-| 2 | Kammiovälikaivon aneurysma | 99,92 % |
-| 3 | Geneettinen syndroominen Pierre Robinin oireyhtymä | 99,92 % |
-| 4 | Kromosomipoikkeavuuteen liittyvä Pierre Robinin oireyhtymä | 99,92 % |
-| 5 | Kromosomin 7 pitkän haaran osittainen deleetio | 99,92 % |
-| 6 | Fukoglykaanisynteesin häiriö | 99,92 % |
-| 7 | Jeunen oireyhtymä ja situs inversus | 99,92 % |
-| 8 | Kromosomin 22 pitkän haaran osittainen deleetio | 99,92 % |
-| 9 | Orofasiaalinen huulihalkio-oireyhtymä | 99,91 % |
-| 10 | Keuhkoläpän sairaus | 99,91 % |
+| 1 | Laubry-Pezzin oireyhtymä | 0,9993 |
+| 2 | Kammiovälikaivon aneurysma | 0,9992 |
+| 3 | Geneettinen syndroominen Pierre Robinin oireyhtymä | 0,9992 |
+| 4 | Kromosomipoikkeavuuteen liittyvä Pierre Robinin oireyhtymä | 0,9992 |
+| 5 | Kromosomin 7 pitkän haaran osittainen deleetio | 0,9992 |
+| 6 | Fukoglykaanisynteesin häiriö | 0,9992 |
+| 7 | Jeunen oireyhtymä ja situs inversus | 0,9992 |
+| 8 | Kromosomin 22 pitkän haaran osittainen deleetio | 0,9992 |
+| 9 | Orofasiaalinen huulihalkio-oireyhtymä | 0,9991 |
+| 10 | Keuhkoläpän sairaus | 0,9991 |
 
 ---
 

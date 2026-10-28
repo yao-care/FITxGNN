@@ -4,7 +4,7 @@ title: Ceritinib
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 105
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-13
 description: "Ceritinib: ennustettu uusi käyttöaihe Ikenen fibromatoosi (fibromatosis, gingival) (näytön taso L5). Alkuperäinen käyttöaihe: Ei-pienisoluinen keuhkosyöpä"
 monitor_inn: "CERITINIB"
@@ -14,7 +14,7 @@ predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma 
 # Ceritinib
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -51,8 +51,8 @@ TxGNN-malli ennustaa sen mahdolliseksi lääkkeeksi **ikenen fibromatoosiin**, m
 | Ennustettu uusi käyttöaihe | Ikenen fibromatoosi (fibromatosis, gingival) |
 | TxGNN-ennustepistemäärä | 99,86 % |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 1 (peruutettu) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

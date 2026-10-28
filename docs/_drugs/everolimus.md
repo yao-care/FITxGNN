@@ -4,7 +4,7 @@ title: Everolimus
 parent: Vahva näyttö (L1-L2)
 nav_order: 182
 evidence_level: L2
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-13
 description: "Everolimus: ennustettu uusi käyttöaihe Liposarkooma (näytön taso L2). Alkuperäinen käyttöaihe: Tuberoosiskleroosi"
 monitor_inn: "EVEROLIMUS"
@@ -14,7 +14,7 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofib
 # Everolimus
 {: .fs-9 }
 
-Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L2** | Ennustetut käyttöaiheet: **8** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Ennusteen tukena on tällä hetkellä **1 kliininen tutkimus** ja **4 julkaisua*
 |------|------|
 | Alkuperäinen käyttöaihe | Tuberoosiskleroosi |
 | Ennustettu uusi käyttöaihe | Liposarkooma |
-| TxGNN-ennustepistemäärä | 99,88 % |
+| TxGNN-ennustepistemäärä | 0,9988 |
 | Näytön taso | L2 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 2 (kaksi peruutettua, ei voimassa olevia) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Myyntilupien määrä | 2 (voimassa: 2) |
 | Suositeltu päätös | Hold (odotetaan lisänäyttöä) |
 
 Huomio: tietoaineiston toisella ennusteella, määrittämättömällä munuaissolukarsinoomalla, on vahvempi näyttö (L1, Proceed with Guardrails). Tämä raportti keskittyy ensisijaiseen ennusteeseen (liposarkooma), ja vaihtoehto on käsitelty päätelmissä.

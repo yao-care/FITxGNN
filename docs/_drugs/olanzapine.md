@@ -4,17 +4,17 @@ title: Olanzapine
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 314
 evidence_level: L5
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-13
-description: "Olanzapine: ennustettu uusi käyttöaihe Imeväisen hyvänlaatuinen paroksysmaalinen vinokaula (sijalla 1) (näytön taso L5). Alkuperäinen käyttöaihe: Skitsofrenia"
 monitor_inn: "OLANZAPINE"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "dysthymic disorder"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
+description: "Olanzapine: ennustettu uusi käyttöaihe Benign paroxysmal torticollis of infancy (näytön taso L5). Alkuperäinen käyttöaihe: Schizophrenia"
 ---
 
 # Olanzapine
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-## Olantsapiini: Skitsofreniasta ja kaksisuuntaisesta mielialahäiriöstä agorafobiaan
+## Olanzapine: Benign paroxysmal torticollis of infancy
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 
 Olantsapiini on psykoosilääke, jota on alun perin käytetty skitsofrenian ja kaksisuuntaisen mielialahäiriön hoitoon.
-TxGNN-malli ennustaa sen voivan tehota ensisijaisesti **agorafobiaan** (pisteet 99,47 %), mutta tukena on vain **0 kliinistä tutkimusta** ja **6 julkaisua**, joista vain yksi on avoin ilman kontrolliryhmää tehty tutkimus.
+TxGNN-malli ennustaa sen voivan tehota ensisijaisesti **agorafobiaan** (pisteet 0,9947), mutta tukena on vain **0 kliinistä tutkimusta** ja **6 julkaisua**, joista vain yksi on avoin ilman kontrolliryhmää tehty tutkimus.
 Raportissa arvioidaan kolme ennustettua käyttöaihetta; agorafobia ja dystymia ovat tutkimuskysymyksiä, kun taas imeväisen hyvänlaatuinen paroksysmaalinen vinokaula on vain laskennallinen ennuste.
 
 ---
@@ -48,12 +48,12 @@ Raportissa arvioidaan kolme ennustettua käyttöaihetta; agorafobia ja dystymia 
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Skitsofrenia; kaksisuuntainen mielialahäiriö |
-| Ennustettu uusi käyttöaihe | Imeväisen hyvänlaatuinen paroksysmaalinen vinokaula (sijalla 1); agorafobia (sijalla 2) ja dystymia (sijalla 3) arvioidaan jäljempänä |
+| Alkuperäinen käyttöaihe | Schizophrenia;Bipolar Disorder |
+| Ennustettu uusi käyttöaihe | Benign paroxysmal torticollis of infancy |
 | TxGNN-ennustepisteet | Vinokaula 99,54 %; agorafobia 99,47 %; dystymia 99,28 % |
 | Näytön taso | Vinokaula L5; agorafobia L3; dystymia L3 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 9 (kaikki peruutettuja, voimassa olevia 0) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 9/9) |
+| Myyntilupien määrä | 9 (voimassa: 9) |
 | Suositeltu päätös | Vinokaula: Hold (odota); agorafobia ja dystymia: tutkimuskysymys, ei etene suoraan käyttöönottoon |
 
 ---

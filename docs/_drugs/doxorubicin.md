@@ -4,17 +4,17 @@ title: Doxorubicin
 parent: Vahva näyttö (L1-L2)
 nav_order: 146
 evidence_level: L2
-indication_count: 10
-last_modified_at: 2026-10-13
-description: "Doxorubicin: ennustettu uusi käyttöaihe Ewingin sarkooma (näytön taso L2). Alkuperäinen käyttöaihe: Rintasyöpä (Myocet liposomaalinen)"
+indication_count: 8
 monitor_inn: "Doxorubicin"
-predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "ganglioneuroblastoma (disease)"]
+predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)"]
+last_modified_at: 2026-10-27
+description: "Doxorubicin: ennustettu uusi käyttöaihe Ewingin sarkooma (Ewing sarcoma) (näytön taso L2). Alkuperäinen käyttöaihe: Breast Neoplasms"
 ---
 
 # Doxorubicin
 {: .fs-9 }
 
-Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L2** | Ennustetut käyttöaiheet: **8** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,140 +33,101 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Doksorubisiini: Rintasyövästä Ewingin sarkoomaan
+## Doksorubisiini: topoisomeraasi II:n estäjä ja DNA:han kiinnittyvä antrasykliini → Ewingin sarkooma (Ewing sarcoma)
 {: .text-alpha }
 
 ## Yhteenveto
 
-Doksorubisiini on antrasykliiniryhmän solunsalpaaja, jota on alun perin käytetty rintasyövän, munasarjasyövän, multippelin myelooman ja Kaposin sarkooman hoitoon.
-TxGNN-malli ennustaa sen voivan tehota **Ewingin sarkoomaan**.
-Aiheesta on koottu **27 kliinistä tutkimusta** ja **20 julkaisua**, joista useat ovat satunnaistettuja vaiheen 3 tutkimuksia. Niissä doksorubisiini on kuitenkin osa monilääkehoitoa.
-
----
+Doksorubisiini on antrasykliinisytostaatti, jota käytetään syöpälääkkeenä. Sen vaikutus perustuu topoisomeraasi II:n estoon ja DNA:han kiinnittymiseen. TxGNN-malli ennustaa sen voivan sopia käyttöaiheeseen **Ewingin sarkooma (Ewing sarcoma)**. Ennusteen tukena on tässä raportissa koottujen tietojen mukaan **26 kliinistä tutkimusta** ja **20 julkaisua**. Doksorubisiini on kuitenkin näissä tutkimuksissa osa monilääkehoitoa, joten sen oma osuus tehosta jää erottamatta.
 
 ## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Rintasyöpä (Myocet liposomaalinen); Caelyx: Kaposin sarkooma, multippeli myelooma, munasarjasyöpä, rintasyöpä |
-| Ennustettu uusi käyttöaihe | Ewingin sarkooma |
-| TxGNN-ennustepisteet | 99,90 % |
+| Alkuperäinen käyttöaihe | Breast Neoplasms; Sarcoma, Kaposi;Multiple Myeloma;Ovarian Neoplasms;Breast Neoplasms |
+| Ennustettu uusi käyttöaihe | Ewingin sarkooma (Ewing sarcoma) |
+| TxGNN-ennusteen pistemäärä | 0,9990 |
 | Näytön taso | L2 |
-| Markkinatilanne Suomessa | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 2 (kaikki peruutettu) |
-| Suositeltu päätös | Proceed with Guardrails (eteneminen suojatoimin) |
-
----
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Myyntilupien määrä | 2 (voimassa: 2) |
+| Suositeltu päätös | Etene varauksin |
 
 ## Miksi ennuste on perusteltu?
 
-Doksorubisiini on topoisomeraasi II:n estäjä ja DNA:han liittyvä interkalaattori. Sen kohdemolekyyli on TOP2A. Tarkempaa mekanismitietoa ei tässä aineistossa ole saatavilla, eikä lääkkeen sitoutumisaffiniteetista kohteeseensa ole julkista tietoa.
+Doksorubisiini on topoisomeraasi II:n estäjä ja DNA:han kiinnittyvä antrasykliini. Sen sytotoksinen vaikutus kohdistuu nopeasti jakautuviin soluihin, mikä sopii pieniä pyöreitä soluja sisältäviin kasvaimiin, kuten Ewingin sarkoomaan. Yksityiskohtaista vaikutusmekanismitietoa ei ole tässä aineistossa kattavasti saatavilla, mutta farmakologiatiedot tukevat kohteena olevaa TOP2A-entsyymiä.
 
-Rintasyöpä ja Ewingin sarkooma ovat kumpikin nopeasti jakautuvia kasvaimia, joihin antrasykliinin DNA:ta vaurioittava vaikutus soveltuu. Doksorubisiini on jo nyt keskeinen osa Ewingin sarkooman monilääkehoitoja (VDC/IE, VAC, VAI).
+Doksorubisiini kuuluu jo nyt Ewingin sarkooman monilääkehoito-ohjelmien perustaan (VDC/IE, VAC, VAI). Tuoreet satunnaistetut tutkimukset, kuten EE2012, Euro Ewing 2012 ja ganitumabin vaiheen 3 tutkimus, ovat tutkineet näitä hoito-ohjelmia, mutta doksorubisiini ei niissä ole erillisenä tutkittavana muuttujana. Näyttö tukee siis doksorubisiinia sisältäviä yhdistelmiä, ei doksorubisiinille ominaista vaikutusta.
 
-Ennuste on siis uskottava, mutta tuki koskee doksorubisiinia sisältäviä yhdistelmähoitoja. Aineisto ei erottele doksorubisiinille ominaista vaikutusta muista lääkkeistä.
-
----
+Kumulatiivinen sydäntoksisuus on keskeinen varotoimi erityisesti lapsilla ja nuorilla aikuisilla. Deksratsoksaania on tutkittu tähän tarkoitukseen tutkimuksissa NCT00038142 ja NCT00003667.
 
 ## Kliininen tutkimusnäyttö
 
-Tiedot koskevat Ewingin sarkoomaa. Taulukossa on 10 relevanteinta tutkimusta (yhteensä 27 löytynyttä).
-
-| Tutkimusnumero | Vaihe | Tila | Osallistujat | Keskeiset havainnot |
+| Tutkimusnumero | Vaihe | Tila | Osallistujamäärä | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT00006734](https://clinicaltrials.gov/study/NCT00006734) | Vaihe 3 | Päättynyt | 587 | Satunnaistettu vertailu kemoterapian tihennetystä aikataulusta Ewingin sarkoomassa |
-| [NCT01231906](https://clinicaltrials.gov/study/NCT01231906) | Vaihe 3 | Päättynyt | 642 | Vinkristiini-topotekaani-syklofosfamidin lisääminen vakiohoitoon (sis. doksorubisiinin) ei-metastaattisessa Ewingin sarkoomassa |
+| [NCT00003667](https://clinicaltrials.gov/study/NCT00003667) | Vaihe 2 | Päättynyt | Ei ilmoitettu | Satunnaistettu: vinkristiini, doksorubisiini, syklofosfamidi ja deksratsoksaani ± ImmTher, uusi korkean riskin Ewingin sarkooma |
+| [NCT00038142](https://clinicaltrials.gov/study/NCT00038142) | Vaihe 2 | Keskeytetty | 46 | Sama hoito-ohjelma (VACdxr); ennenaikainen päättyminen rajoittaa johtopäätöksiä |
+| [NCT00002466](https://clinicaltrials.gov/study/NCT00002466) | Vaihe 2 | Päättynyt | Ei ilmoitettu | Yhdistelmäkemoterapia ja sädehoito, perifeeriset neuroektodermaaliset kasvaimet ja Ewingin sarkooma |
+| [NCT00949325](https://clinicaltrials.gov/study/NCT00949325) | Vaihe 1/2 | Päättynyt | 24 | Temsirolimuusi + liposomaalinen doksorubisiini uusiutuneessa sarkoomassa |
+| [NCT00002601](https://clinicaltrials.gov/study/NCT00002601) | Vaihe 2 | Päättynyt | 13 | Suuriannoksinen doksorubisiini/ifosfamidi, sitten melfalaani ja sisplatiini |
+| [NCT01231906](https://clinicaltrials.gov/study/NCT01231906) | Vaihe 3 | Päättynyt | 642 | Vinkristiini-topotekaani-syklofosfamidi lisättynä vakiohoitoon (mm. doksorubisiini), ei-metastaattinen Ewingin sarkooma |
+| [NCT00006734](https://clinicaltrials.gov/study/NCT00006734) | Vaihe 3 | Päättynyt | 587 | Kemoterapian tihentäminen Ewingin sarkoomassa |
+| [NCT02306161](https://clinicaltrials.gov/study/NCT02306161) | Vaihe 3 | Aktiivinen, ei rekrytoi | 312 | Ganitumabi lisättynä monilääkekemoterapiaan, metastaattinen Ewingin sarkooma |
 | [NCT02063022](https://clinicaltrials.gov/study/NCT02063022) | Vaihe 3 | Päättynyt | 278 | Annosintensifikaatio ei-metastaattisessa Ewingin sarkoomassa |
-| [NCT02306161](https://clinicaltrials.gov/study/NCT02306161) | Vaihe 3 | Aktiivinen, ei rekrytoi | 312 | Ganitumabin lisääminen monilääkehoitoon metastaattisessa Ewingin sarkoomassa |
-| [NCT00020566](https://clinicaltrials.gov/study/NCT00020566) | Vaihe 3 | Tila tuntematon | 1200 | EURO-E.W.I.N.G.99: Eurooppalainen Ewing-tutkimus, kemoterapia ± sädehoito/kantasolusiirto |
-| [NCT00038142](https://clinicaltrials.gov/study/NCT00038142) | Vaihe 2 | Keskeytetty | 46 | VAC + deksratsoksaani ± ImmTher korkean riskin Ewingin sarkoomassa; varhainen keskeytys rajoittaa johtopäätöksiä |
-| [NCT00003667](https://clinicaltrials.gov/study/NCT00003667) | Vaihe 2 | Päättynyt | ei ilmoitettu | Satunnaistettu VAC + deksratsoksaani ± ImmTher; liittyy sydämensuojaan |
-| [NCT00002466](https://clinicaltrials.gov/study/NCT00002466) | Vaihe 2 | Päättynyt | ei ilmoitettu | Yhdistelmäkemoterapia ja sädehoito PNET- ja Ewingin sarkoomassa |
-| [NCT00949325](https://clinicaltrials.gov/study/NCT00949325) | Vaihe 1/2 | Päättynyt | 24 | Temsirolimuusi + liposomaalinen doksorubisiini uusiutuneissa sarkoomissa |
-| [NCT07194044](https://clinicaltrials.gov/study/NCT07194044) | Vaihe 1 | Rekrytoi | 15 | Metastaattisen Ewingin sarkooman aikataulutehostettu hoito; ei vielä tuloksia |
-
----
+| [NCT00020566](https://clinicaltrials.gov/study/NCT00020566) | Vaihe 3 | Tila tuntematon | 1200 | EURO-E.W.I.N.G.99, eurooppalainen Ewingin kasvainten tutkimus |
 
 ## Kirjallisuusnäyttö
 
 | PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
-|---------|-----|------|------|---------|
-| [12594313](https://pubmed.ncbi.nlm.nih.gov/12594313/) | 2003 | RCT | N Engl J Med | Ifosfamidin ja etoposidin lisääminen vakiohoitoon vasta diagnosoidussa Ewingin sarkoomassa |
-| [36522207](https://pubmed.ncbi.nlm.nih.gov/36522207/) | 2022 | RCT (vaihe 3) | Lancet | EE2012: kahden kemoterapiaohjelman vertailu |
-| [36669140](https://pubmed.ncbi.nlm.nih.gov/36669140/) | 2023 | RCT (vaihe 3) | J Clin Oncol | Ganitumabi ja tihennetty kemoterapia metastaattisessa Ewingin sarkoomassa |
+|------|-----|------|------|---------|
+| [12594313](https://pubmed.ncbi.nlm.nih.gov/12594313/) | 2003 | RCT | N Engl J Med | Ifosfamidin ja etoposidin lisääminen vakiokemoterapiaan uudessa Ewingin sarkoomassa |
+| [36522207](https://pubmed.ncbi.nlm.nih.gov/36522207/) | 2022 | RCT | Lancet | Kahden kemoterapiahoito-ohjelman vertailu (EE2012), vaihe 3 |
+| [36669140](https://pubmed.ncbi.nlm.nih.gov/36669140/) | 2023 | RCT | J Clin Oncol | Ganitumabi ja tihennetty kemoterapia metastaattisessa Ewingin sarkoomassa |
 | [23091096](https://pubmed.ncbi.nlm.nih.gov/23091096/) | 2012 | RCT | J Clin Oncol | Tihennetty kemoterapia paikallisessa Ewingin sarkoomassa |
-| [31952545](https://pubmed.ncbi.nlm.nih.gov/31952545/) | 2020 | RCT-protokolla | Trials | EURO EWING 2012 -tutkimuksen protokolla |
-| [37403815](https://pubmed.ncbi.nlm.nih.gov/37403815/) | 2023 | Konsensussuositus | Cancer | Kansallisen Ewing-työryhmän hoitosuositukset |
-| [20152770](https://pubmed.ncbi.nlm.nih.gov/20152770/) | 2010 | Katsaus | Lancet Oncol | Elinaikaennuste on parantunut noin 10 %:sta noin 75 %:iin paikallisessa taudissa |
-| [26304893](https://pubmed.ncbi.nlm.nih.gov/26304893/) | 2015 | Katsaus | J Clin Oncol | Nykyhoito ja yhteistyön tuomat kehityssuunnat |
+| [31952545](https://pubmed.ncbi.nlm.nih.gov/31952545/) | 2020 | RCT (protokolla) | Trials | Euro Ewing 2012 -tutkimuksen protokolla |
+| [37403815](https://pubmed.ncbi.nlm.nih.gov/37403815/) | 2023 | Konsensussuositus | Cancer | Kansallisen Ewingin sarkooman tuumorilautakunnan hoitosuositukset |
+| [26304893](https://pubmed.ncbi.nlm.nih.gov/26304893/) | 2015 | Katsaus | J Clin Oncol | Ewingin sarkooman nykyhoito ja tulevaisuuden suuntaukset |
+| [20152770](https://pubmed.ncbi.nlm.nih.gov/20152770/) | 2010 | Katsaus | Lancet Oncol | Ewingin sarkooman hoito; eloonjäämisen paraneminen noin 75 prosenttiin paikallisessa taudissa |
 | [1833556](https://pubmed.ncbi.nlm.nih.gov/1833556/) | 1991 | Annosintensiteettianalyysi | J Natl Cancer Inst | Doksorubisiinin annosintensiteetin vaikutus vasteeseen osteosarkoomassa ja Ewingin sarkoomassa |
-| [37651654](https://pubmed.ncbi.nlm.nih.gov/37651654/) | 2023 | Pitkäaikaisseuranta | J Clin Oncol | Tihennetyllä kemoterapialla hoidettujen paikallisen Ewingin sarkooman potilaiden pitkäaikaistulokset |
-
----
+| [37651654](https://pubmed.ncbi.nlm.nih.gov/37651654/) | 2023 | Pitkäaikaisseuranta | J Clin Oncol | Tihennetyn kemoterapian pitkän aikavälin tulokset (AEWS0031) |
 
 ## Markkinatiedot Suomessa
 
-| Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
+| Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/000297 | Myocet liposomal (aiemmin Myocet) | Ei ilmoitettu | Rintasyöpä (peruutettu) |
-| EMEA/H/C/000089 | Caelyx pegylated liposomal | Ei ilmoitettu | Kaposin sarkooma, multippeli myelooma, munasarjasyöpä, rintasyöpä (peruutettu) |
-
----
+| EMEA/H/C/000297 | Myocet liposomal (aiemmin Myocet) | Ei ilmoitettu | Breast Neoplasms |
+| EMEA/H/C/000089 | Caelyx pegylated liposomal | Ei ilmoitettu | Sarcoma, Kaposi;Multiple Myeloma;Ovarian Neoplasms;Breast Neoplasms |
 
 ## Sytotoksisuus
 
 | Kohta | Sisältö |
 |------|------|
-| Sytotoksisuusluokka | Tavanomainen sytotoksinen solunsalpaaja (antrasykliini, topoisomeraasi II:n estäjä) |
-| Luuytimen suppression riski | Korkea (neutropenia, trombosytopenia ja anemia tunnetaan tähän lääkeryhmään liittyvinä; tietokannan ristiriitaisuudet viittaavat verenkuvahaittoihin) |
-| Oksettavuusluokka | Keskitasoinen–korkea (lääkeryhmän tyypillinen luokitus) |
-| Seurantakohteet | Verenkuva (differentiaalilaskenta), maksa- ja munuaisarvot, sydämen toiminta (kumulatiivinen annos, sydämen ultraääni) |
-| Käsittelysuojaus | Sytostaattien käsittelyä koskevien ohjeiden mukaiset suojatoimet tarpeen |
-
----
+| Sytotoksisuusluokitus | Perinteinen sytotoksinen lääke (antrasykliini, topoisomeraasi II:n estäjä) |
+| Luuytimen suppression riski | Korkea; neutropenia, trombosytopenia ja anemia ovat tunnettuja riskejä |
+| Oksettavuusluokitus | Kohtalainen–korkea |
+| Seurattavat parametrit | Täydellinen verenkuva erittelyineen, maksa- ja munuaisarvot, sydämen toiminta (kumulatiivinen annos, sydämen kaikukuvaus) |
+| Käsittelysuojaus | Sytostaattien käsittelyä koskevien määräysten mukainen suojaus on välttämätön |
 
 ## Turvallisuusnäkökohdat
 
-Pakkausselosteen varoitus- ja vasta-aihetietoja ei ollut saatavilla. Seuraavat tiedot perustuvat tietämysgraafiin (lääke–sairaus-vasta-aiheyhteydet), eivät valmisteyhteenvetoon:
+Valmistetekstin varoitus- ja vasta-aiheet eivät ole tässä aineistossa saatavilla, joten niiden osalta on tutustuttava valmisteyhteenvetoon.
 
-- **Tietämysgraafin mukaiset mahdolliset vasta-aiheet / varovaisuutta vaativat tilat**: sydänsairaudet (mm. sydämen vajaatoiminta, kardiomyopatia, johtumishäiriöt, äkillinen sydänpysähdys), maksan vajaatoiminta ja maksasairaus, hyperbilirubinemia, luuydinsuppressio (neutropenia, agranulosytoosi, leukopenia, trombosytopenia, anemia), infektiosairaudet sekä G6PD-puutos.
-- **Lääkeyhteisvaikutukset**: Aineistossa ei ole varsinaisia lääke–lääke-yhteisvaikutuksia. Farmakologiatieto kuvaa vain kohdemolekyylin (TOP2A).
-- **Muut huomiot**: Kumulatiivinen kardiotoksisuus on keskeinen riski erityisesti lapsilla ja nuorilla aikuisilla; deksratsoksaanin käyttöä on tutkittu (NCT00038142, NCT00003667). Topoisomeraasi II:n estäjiin liittyy myös hoidon jälkeisen akuutin myeloisen leukemian riski.
-
-Tarkemmat varoitukset ja vasta-aiheet on tarkistettava pakkausselosteesta.
-
----
+Aineistossa on lisäksi huomioitavia riskejä:
+- **Sydäntoksisuus**: kumulatiivinen sydäntoksisuus on keskeinen varotoimi erityisesti lapsilla ja nuorilla aikuisilla. Sydämen vajaatoiminta, kardiomyopatia ja muut sydänsairaudet on tunnistettu vasta-aihe- tai varoitusalueiksi.
+- **Muut huomioitavat tilat**: maksan vajaatoiminta tai maksasairaus, trombosytopenia, neutropenia, leukopenia, anemia ja agranulosytoosi.
+- **Yhteisvaikutukset**: farmakologiatietojen mukaan doksorubisiinin kohde on topoisomeraasi II alfa (TOP2A). Lääkeyhteisvaikutuksia ei ole luokiteltu vaikeusasteen mukaan.
 
 ## Johtopäätös ja seuraavat vaiheet
 
-**Päätös: Proceed with Guardrails (eteneminen suojatoimin)**
+**Päätös: Etene varauksin**
 
 **Perustelut:**
-- Ewingin sarkoomassa on useita satunnaistettuja vaiheen 3 tutkimuksia, joissa doksorubisiini on vakiohoidon osa. Näyttö koskee kuitenkin yhdistelmähoitoja, ei doksorubisiinin erillistä vaikutusta.
-- Suomessa kaikki myyntiluvat on peruutettu, ja pakkausselosteen turvallisuustiedot puuttuvat, mikä estää etenemisen turvallisuusseulontaan.
+- Doksorubisiini on jo osa Ewingin sarkooman monilääkehoito-ohjelmia, ja siitä on useita satunnaistettuja tutkimuksia. Näyttö koskee kuitenkin yhdistelmähoitoja, ei doksorubisiinia erillisenä tekijänä, ja sydäntoksisuus vaatii tiukkaa seurantaa.
 
-**Etenemiseksi tarvitaan:**
-- Pakkausselosteen varoitusten ja vasta-aiheiden hankinta Fimean sivustolta (estävä tietoaukko)
-- Yksityiskohtainen vaikutusmekanismitieto (MOA) esim. DrugBankista
-- Selvitys myyntiluvan tilanteesta ja saatavilla olevista valmisteista Suomessa
-- Sydänturvallisuuden seurantasuunnitelma (kumulatiivinen annos, deksratsoksaanin käyttö, erityisesti lapset ja nuoret aikuiset)
-- Doksorubisiinin oman vaikutuksen arviointi erotettuna muista yhdistelmähoidon lääkkeistä
-
----
-
-## Muut ennustetut käyttöaiheet (lyhyt yhteenveto)
-
-| Käyttöaihe | TxGNN-pisteet | Näytön taso | Päätös |
-|------|------|------|------|
-| Rabdomyosarkooma | 99,70 % | L1 | Proceed with Guardrails |
-| Pleuropulmonaalinen blastooma | 99,85 % | L3 | Proceed with Guardrails |
-| Primaarinen keuhkolymfooma | 99,85 % | L4 | Hold |
-| Krooninen myelooinen leukemia (BCR-ABL1+) | 99,77 % | L4 | Hold |
-| Monosyyttileukemia | 99,74 % | L4 | Hold |
-| Parameningeaalinen embryonaalinen rabdomyosarkooma | 99,71 % | L4 | Hold |
-| Ganglioneuroblastooma | 99,70 % | L4 | Hold |
-| Emättimen botryoidi-tyypin embryonaalinen rabdomyosarkooma | 99,72 % | L4 | Hold |
-| Keuhkon hyvin erilaistunut sikiötyyppinen adenokarsinooma | 99,86 % | L5 | Hold |
+**Etenemiseen tarvitaan:**
+- Valmisteyhteenvedon varoitus- ja vasta-ainetietojen kerääminen
+- Yksityiskohtaisten vaikutusmekanismitietojen täydentäminen
+- Sydänturvallisuuden seurantasuunnitelma (kumulatiivinen annos, deksratsoksaanin käyttö) lapsille ja nuorille aikuisille
+- Doksorubisiinin oman osuuden arviointi yhdistelmähoidoissa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

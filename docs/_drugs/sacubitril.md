@@ -6,9 +6,9 @@ nav_order: 393
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-13
-description: "Sacubitril: ennustettu uusi käyttöaihe Diabeettinen nefropatia (muut ennusteet: aivojen pienten suonten taut… (näytön taso L5). Alkuperäinen käyttöaihe: Sydämen vajaatoiminta"
 monitor_inn: "SACUBITRIL"
 predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy"]
+description: "Sacubitril: ennustettu uusi käyttöaihe Brain small vessel disease 1 with or without ocular anomalies (näytön taso L5). Alkuperäinen käyttöaihe: Heart Failure"
 ---
 
 # Sacubitril
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-## Sakubitriili: Sydämen vajaatoiminnasta diabeettiseen nefropatiaan
+## Sacubitril: Brain small vessel disease 1 with or without ocular anomalies
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -44,12 +44,12 @@ Sakubitriili on neprilysiinin estäjä, jota on alun perin käytetty sydämen va
 
 | Kohde | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Sydämen vajaatoiminta |
-| Ennustettu uusi käyttöaihe | Diabeettinen nefropatia (muut ennusteet: aivojen pienten suonten tauti 1, perinnöllinen hematuria-verkkokalvon valtimoiden mutkaisuus-kontraktuurasyndrooma, nivelreuma, hemoglobinopatia) |
-| TxGNN-ennusteen pistemäärä | 99,50 % (diabeettinen nefropatia); korkeimmin pisteytetty ennuste, aivojen pienten suonten tauti 1: 99,58 % |
-| Näytön taso | L3 (diabeettinen nefropatia); muut ennusteet L5 |
-| Suomen markkinatilanne | Vain peruutettuja myyntilupia |
-| Myyntilupien määrä | 2 (kaikki peruutettuja) |
+| Alkuperäinen käyttöaihe | Heart Failure |
+| Ennustettu uusi käyttöaihe | Brain small vessel disease 1 with or without ocular anomalies |
+| TxGNN-ennusteen pistemäärä | 0.9958 |
+| Näytön taso | L5 (diabeettinen nefropatia); muut ennusteet L5 |
+| Suomen markkinatilanne | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Myyntilupien määrä | 2 (voimassa: 2) |
 | Suositeltu päätös | Hold (pitoon); diabeettisen nefropatian osalta jatkotutkimuskysymys |
 
 ## Miksi ennuste on perusteltu?

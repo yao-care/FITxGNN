@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 437
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 monitor_inn: "TILDRAKIZUMAB"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic cataract", "drug-induced osteoporosis"]
 description: "Tildrakizumab: ennustettu uusi käyttöaihe Vaikea ei-proliferatiivinen diabeettinen retinopatia (severe nonproliferative diabetic retinopathy) (näytön taso L5). Alkuperäinen käyttöaihe: Psoriasis"
@@ -34,6 +34,9 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 </div>
 
 Tildrakitsumabi: Psoriaasista vaikeaan ei-proliferatiiviseen diabeettiseen retinopatiaan
+
+## Tildrakizumab: Vaikea ei-proliferatiivinen diabeettinen retinopatia (severe nonproliferative diabetic retinopathy)
+{: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 

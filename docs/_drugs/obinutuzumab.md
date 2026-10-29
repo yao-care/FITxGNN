@@ -3,7 +3,7 @@ layout: default
 title: Obinutuzumab
 parent: Vain tunnetut käytöt (ei uusia ennusteita)
 nav_order: 310
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Obinutuzumab: tunnetut käyttöaiheet ja markkinatilanne Suomessa; tällä hetkellä ei uutta ehdokasindikaatiota"
 predicted_indications: []
 indication_count: 0
@@ -58,8 +58,6 @@ TxGNN-mallin ehdokkaat lääkkeelle Obinutuzumab ovat kaikki jo tunnettuja käyt
 ### Hyväksyttyyn käyttöaiheeseen liittyvät (sama tautiryhmä)
 | Käyttöaihe | Hyväksytty ryhmä |
 |------|------|
-| Esiasteen kutiaisvaiheen (pregerminal center) krooninen lymfaattinen leukemia / pienisoluinen lymfosyyttilymfooma (pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma) | cll |
-| Krooninen lymfaattinen leukemia / pienisoluinen lymfosyyttilymfooma, johon liittyy immunoglobuliinin raskaan ketjun muuttuvan alueen geenin somaattinen hypermutaatio (chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation) | cll |
 
 ### Tietämysgraafissa kirjatut suhteet (hyväksyntää ei löytynyt)
 | Käyttöaihe |

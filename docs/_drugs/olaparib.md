@@ -3,7 +3,7 @@ layout: default
 title: Olaparib
 parent: Vain tunnetut käytöt (ei uusia ennusteita)
 nav_order: 315
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Olaparib: tunnetut käyttöaiheet ja markkinatilanne Suomessa; tällä hetkellä ei uutta ehdokasindikaatiota"
 predicted_indications: []
 indication_count: 0
@@ -58,7 +58,6 @@ TxGNN-mallin (pistemäärä ≥ 0,99) tuottamat ehdokkaat lääkkeelle Olaparib 
 ### Liittyy hyväksyttyyn käyttöaiheeseen (sama tautiryhmä)
 | Käyttöaihe | Hyväksytty tautiryhmä |
 |------|------|
-| naisen rintasyöpä (female breast carcinoma) | rintasyöpä (breast cancer) |
 
 ### TxGNN-mallin (syväoppiminen) löytämät yhteydet (hyväksyntää ei löytynyt)
 | Käyttöaihe |

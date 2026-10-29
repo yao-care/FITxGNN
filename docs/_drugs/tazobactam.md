@@ -3,7 +3,7 @@ layout: default
 title: Tazobactam
 parent: Vain tunnetut käytöt (ei uusia ennusteita)
 nav_order: 420
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Tazobactam: tunnetut käyttöaiheet ja markkinatilanne Suomessa; tällä hetkellä ei uutta ehdokasindikaatiota"
 predicted_indications: []
 indication_count: 0
@@ -58,7 +58,6 @@ TxGNN-syväoppimismallin (pistemäärä ≥ 0,99) tuottamat ehdokkaat lääkeain
 ### Hyväksyttyyn käyttöaiheeseen liittyvät (sama tautiryhmä)
 | Käyttöaihe | Hyväksytty tautiryhmä |
 |------|------|
-| virtsatieinfektio (urinary tract infection (disease)) | urinary tract infection |
 
 ### Mallin oppimat yhteydet, jotka voivat heijastaa samankaltaisuuksia sairauksien välillä (hyväksyntää ei löytynyt)
 | Käyttöaihe |

@@ -3,7 +3,7 @@ layout: default
 title: Eptinezumab
 parent: Vain tunnetut käytöt (ei uusia ennusteita)
 nav_order: 171
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Eptinezumab: tunnetut käyttöaiheet ja markkinatilanne Suomessa; tällä hetkellä ei uutta ehdokasindikaatiota"
 predicted_indications: []
 indication_count: 0
@@ -58,7 +58,6 @@ TxGNN-mallin ehdokkaat lääkkeelle Eptinezumab ovat kaikki jo tunnettuja käytt
 ### Liittyy hyväksyttyyn käyttöaiheeseen (sama tautiryhmä)
 | Käyttöaihe | Hyväksytty tautiryhmä |
 |------|------|
-| aivorunkoauraan liittyvä migreeni (migraine with brainstem aura) | migraine |
 
 ### TxGNN-mallin (syväoppiminen) tunnistamat yhteydet (hyväksyntää ei löytynyt)
 | Käyttöaihe |

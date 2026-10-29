@@ -3,7 +3,7 @@ layout: default
 title: Neratinib
 parent: Vain tunnetut käytöt (ei uusia ennusteita)
 nav_order: 300
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Neratinib: tunnetut käyttöaiheet ja markkinatilanne Suomessa; tällä hetkellä ei uutta ehdokasindikaatiota"
 predicted_indications: []
 indication_count: 0
@@ -58,10 +58,6 @@ TxGNN-mallin Neratinibille tuottamat ehdokkaat ovat kaikki jo tunnettuja käytt�
 ### Hyväksyttyyn käyttöaiheeseen liittyvät (sama tautiryhmä)
 | Käyttöaihe | Hyväksytty tautiryhmä |
 |------|------|
-| progesteronireseptoripositiivinen rintasyöpä (progesterone-receptor positive breast cancer) | rintasyöpä (breast cancer) |
-| rintasyövän normaalin kaltainen alatyyppi (normal breast-like subtype of breast carcinoma) | rintasyöpä (breast cancer) |
-| progesteronireseptorinegatiivinen rintasyöpä (progesterone-receptor negative breast cancer) | rintasyöpä (breast cancer) |
-| luminaalinen A- tai B-tyypin rintakasvain (breast tumor luminal A or B) | rintasyöpä (breast cancer) |
 
 ### Suhteet, jotka on kirjattu lähdetietoihin (hyväksyntää ei löytynyt)
 | Käyttöaihe |

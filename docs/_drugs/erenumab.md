@@ -3,7 +3,7 @@ layout: default
 title: Erenumab
 parent: Vain tunnetut käytöt (ei uusia ennusteita)
 nav_order: 173
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Erenumab: tunnetut käyttöaiheet ja markkinatilanne Suomessa; tällä hetkellä ei uutta ehdokasindikaatiota"
 predicted_indications: []
 indication_count: 0
@@ -58,7 +58,6 @@ TxGNN-mallin (pistemäärä ≥ 0,99) tälle lääkkeelle tuottamat ehdokkaat ov
 ### Hyväksyttyyn käyttöaiheeseen liittyvät (sama tautiryhmä)
 | Käyttöaihe | Hyväksytty ryhmä |
 |------|------|
-| aivorunkoauraan liittyvä migreeni (migraine with brainstem aura) | migreeni (migraine) |
 
 ### Mallin (TxGNN, syväoppiminen) tunnistamat yhteydet (hyväksyntää ei löytynyt)
 | Käyttöaihe |

@@ -3,7 +3,7 @@ layout: default
 title: Trastuzumab Emtansine
 parent: Vain tunnetut käytöt (ei uusia ennusteita)
 nav_order: 452
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Trastuzumab Emtansine: tunnetut käyttöaiheet ja markkinatilanne Suomessa; tällä hetkellä ei uutta ehdokasindikaatiota"
 predicted_indications: []
 indication_count: 0
@@ -58,10 +58,6 @@ TxGNN-syväoppimismallin (pistemäärä ≥ 0,99) tuottamat ehdokkaat tälle lä
 ### Liittyy hyväksyttyyn käyttöaiheeseen (sama tautiryhmä)
 | Käyttöaihe | Hyväksytty tautiryhmä |
 |------|------|
-| Rintasyövän normaalin rintakudoksen kaltainen alatyyppi (normal breast-like subtype of breast carcinoma) | rintasyöpä (breast cancer) |
-| Progesteronireseptoripositiivinen rintasyöpä (progesterone-receptor positive breast cancer) | rintasyöpä (breast cancer) |
-| Progesteronireseptorinegatiivinen rintasyöpä (progesterone-receptor negative breast cancer) | rintasyöpä (breast cancer) |
-| Luminaalinen A- tai B-rintakasvain (breast tumor luminal A or B) | rintasyöpä (breast cancer) |
 
 ### TxGNN-mallin (syväoppiminen) tunnistamat yhteydet (hyväksyntää ei löydetty)
 | Käyttöaihe |

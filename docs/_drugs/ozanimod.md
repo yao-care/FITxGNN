@@ -3,7 +3,7 @@ layout: default
 title: Ozanimod
 parent: Vain tunnetut käytöt (ei uusia ennusteita)
 nav_order: 322
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Ozanimod: tunnetut käyttöaiheet ja markkinatilanne Suomessa; tällä hetkellä ei uutta ehdokasindikaatiota"
 predicted_indications: []
 indication_count: 0
@@ -63,7 +63,6 @@ TxGNN-syväoppimismallin (pistemäärä ≥ 0,99) Ozanimodille tuottamat ehdokka
 ### Tietämysgraafiin kirjatut relaatiot (hyväksyntää ei löydetty)
 | Indikaatio |
 |------|
-| progressiivinen relapsoiva multippeliskleroosi (progressive relapsing multiple sclerosis) |
 
 ## Market information
 

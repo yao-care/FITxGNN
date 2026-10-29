@@ -3,7 +3,7 @@ layout: default
 title: Netarsudil
 parent: Vain tunnetut käytöt (ei uusia ennusteita)
 nav_order: 301
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Netarsudil: tunnetut käyttöaiheet ja markkinatilanne Suomessa; tällä hetkellä ei uutta ehdokasindikaatiota"
 predicted_indications: []
 indication_count: 0
@@ -58,7 +58,6 @@ Mallin Netarsudil-lääkkeelle tuottamat ehdokkaat ovat kaikki jo tunnettuja kä
 ### Liittyy hyväksyttyyn käyttöaiheeseen (sama tautiryhmä)
 | Käyttöaihe | Hyväksytty ryhmä |
 |------|------|
-| Primaarinen perinnöllinen glaukooma (primary hereditary glaucoma) | glaucoma |
 
 ### Aiemmin tunnetut yhteydet (hyväksyntää ei löytynyt)
 | Käyttöaihe |

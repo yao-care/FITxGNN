@@ -31,6 +31,11 @@ description: "Kaikki lääkkeiden validointiraportit ja näytön tasojen tilasto
 
 ---
 
+<!-- local-home:start（母目錄 .claude/gen_local_home_20261029.py 產生，勿手改）-->
+Luettelo perustuu myyntilupatietoihin ([Fimea](https://fimea.fi/), Suomi).
+
+<!-- local-home:end -->
+
 ## Näytön tasojen jakauma
 
 | Näytön taso | Lääkkeitä | Kuvaus |

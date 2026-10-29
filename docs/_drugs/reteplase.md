@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 376
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 monitor_inn: "RETEPLASE"
 predicted_indications: ["congenital coronary artery anomaly", "coronary stenosis", "heparin cofactor 2 deficiency", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "antithrombin deficiency type 2", "hemolytic anemia due to glucophosphate isomerase deficiency"]
 description: "Reteplase: ennustettu uusi käyttöaihe Congenital coronary artery anomaly (näytön taso L5). Alkuperäinen käyttöaihe: Myocardial Infarction"
@@ -49,8 +49,8 @@ TxGNN-malli ennustaa sen voivan tehota **posteroinferioriseen sydäninfarktiin**
 | Ennustettu uusi käyttöaihe | Congenital coronary artery anomaly |
 | TxGNN-ennusteen pistemäärä | 0.9980 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
-| Myyntilupien määrä | 1 (voimassa: 1) |
+| Markkinatilanne Suomessa | Ei markkinoilla (perutut luvat: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 0) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste on perusteltu?

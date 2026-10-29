@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "BEZLOTOXUMAB"
 predicted_indications: ["acute female pelvic peritonitis", "embryonic cyst of fallopian tube", "tubal pregnancy", "salpingitis isthmica nodosa", "disease of uterine broad ligament", "lumbar spinal stenosis", "abdominal cystic lymphangioma", "abdominal ectopic pregnancy", "celiac trunk compression syndrome", "pelvic varices"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Bezlotoxumab: ennustettu uusi käyttöaihe Akuutti naisen lantion peritoniitti (acute female pelvic peritonitis) (näytön taso L5). Alkuperäinen käyttöaihe: Enterocolitis, Pseudomembranous"
 ---
 
@@ -48,8 +48,8 @@ Bezlotoksumabi on monoklonaalinen vasta-aine, joka neutraloi Clostridioides diff
 | Ennustettu uusi käyttöaihe | Akuutti naisen lantion peritoniitti (acute female pelvic peritonitis) |
 | TxGNN-ennusteen pistemäärä | 0,9989 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
-| Myyntilupien määrä | 1 (voimassa: 1) |
+| Markkinatilanne Suomessa | Ei markkinoilla (perutut luvat: 1/1) |
+| Myyntilupien määrä | 1 (voimassa: 0) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste on (tai ei ole) perusteltu?

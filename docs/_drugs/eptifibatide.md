@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "EPTIFIBATIDE"
 predicted_indications: ["rheumatoid arthritis", "sickle cell-hemoglobin d disease syndrome", "sickle cell-beta-thalassemia disease syndrome", "sickle cell-hemoglobin E disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-hemoglobin c disease syndrome", "hemoglobinopathy", "female breast carcinoma", "beta-thalassemia with other manifestations", "partial deletion of the short arm of chromosome 16"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Eptifibatide: ennustettu uusi käyttöaihe Nivelreuma (rheumatoid arthritis) (näytön taso L5). Alkuperäinen käyttöaihe: Angina, Unstable"
 ---
 
@@ -48,8 +48,8 @@ Eptifibatidi on verihiutaleiden GP IIb/IIIa (alfa-IIb-beeta-3) -reseptorin salpa
 | Ennustettu uusi käyttöaihe | Nivelreuma (rheumatoid arthritis) |
 | TxGNN-ennustepistemäärä | 0,9999 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
-| Myyntilupien määrä | 2 (voimassa: 2) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/2) |
+| Myyntilupien määrä | 2 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste on perusteltu?

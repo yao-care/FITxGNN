@@ -5,7 +5,7 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 153
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Efavirenz: ennustettu uusi käyttöaihe Apinoiden immuunikatovirusinfektio (simian immunodeficiency virus inf… (näytön taso L4). Alkuperäinen käyttöaihe: HIV-infektio"
 monitor_inn: "EFAVIRENZ"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -51,8 +51,8 @@ TxGNN-malli ennustaa sen voivan tehota **apinoiden immuunikatovirusinfektioon (S
 | Ennustettu uusi käyttöaihe | Apinoiden immuunikatovirusinfektio (simian immunodeficiency virus infection) |
 | TxGNN-ennusteen pistemäärä | 0,9980 |
 | Näytön taso | L4 |
-| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 5/5) |
-| Myyntilupien määrä | 5 (voimassa: 5) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 4/5) |
+| Myyntilupien määrä | 5 (voimassa: 4) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

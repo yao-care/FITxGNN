@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 229
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 monitor_inn: "INSULIN ASPART"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy"]
 description: "Insulin Aspart: ennustettu uusi käyttöaihe Autoimmune oophoritis (näytön taso L5). Alkuperäinen käyttöaihe: Diabetes Mellitus"
@@ -51,8 +51,8 @@ Ennustetta tukee tämän raportin aineistossa **30 kliinistä tutkimusta** ja **
 | Ennustettu uusi käyttöaihe | Autoimmune oophoritis |
 | TxGNN-ennustepisteet | 0.9992 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 7/7) |
-| Myyntilupien määrä | 7 (voimassa: 7) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 6/7) |
+| Myyntilupien määrä | 7 (voimassa: 6) |
 | Suositeltu päätös | Proceed with Guardrails (eteneminen suojatoimin) |
 
 ---

@@ -5,7 +5,7 @@ parent: Vahva näyttö (L1-L2)
 nav_order: 461
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Ustekinumab: ennustettu uusi käyttöaihe Dermatiitti (näytön taso L2). Alkuperäinen käyttöaihe: Psoriasis, psoriaattinen niveltulehdus, Crohnin tauti…"
 monitor_inn: "USTEKINUMAB"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "acne keloid", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
@@ -52,8 +52,8 @@ Ennusteen tukena on tällä hetkellä **6 kliinistä tutkimusta** (joista 2 suor
 | Ennustettu uusi käyttöaihe | Dermatiitti |
 | TxGNN-ennusteen pistemäärä | 0,9999 |
 | Näytön taso | L2 |
-| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 13/13) |
-| Myyntilupien määrä | 13 (voimassa: 13) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 12/13) |
+| Myyntilupien määrä | 13 (voimassa: 12) |
 | Suositeltu päätös | Hold (odota; jatkotutkimus tarpeen) |
 
 ---

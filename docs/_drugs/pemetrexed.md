@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 338
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 monitor_inn: "PEMETREXED"
 predicted_indications: ["pleural adenomatoid tumor", "pericardium cancer", "iminoglycinuria"]
 description: "Pemetrexed: ennustettu uusi käyttöaihe Pleural adenomatoid tumor (näytön taso L5). Alkuperäinen käyttöaihe: Mesothelioma"
@@ -52,8 +52,8 @@ ja tätä suuntaa tukee tällä hetkellä **7 kliinistä tutkimusta** ja **20 ju
 | Ennustettu uusi käyttöaihe | Pleural adenomatoid tumor |
 | TxGNN-ennusteen pistemäärä | 0.9999 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 4/4) |
-| Myyntilupien määrä | 4 (voimassa: 4) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 3/4) |
+| Myyntilupien määrä | 4 (voimassa: 3) |
 | Suositeltu päätös | Etene suojatoimin (Proceed with Guardrails) |
 
 ---

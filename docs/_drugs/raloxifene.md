@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 362
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Raloxifene: ennustettu uusi käyttöaihe Pohjukaissuolen haavauma (duodenal ulcer) (näytön taso L5). Alkuperäinen käyttöaihe: Postmenopausaalinen osteoporoosi"
 monitor_inn: "Raloxifene"
 predicted_indications: ["duodenal ulcer (disease)", "hypoalphalipoproteinemia", "duodenal obstruction", "duodenogastric reflux"]
@@ -50,8 +50,8 @@ mutta ennusteen tueksi ei ole tällä hetkellä **yhtään kliinistä tutkimusta
 | Ennustettu uusi käyttöaihe | Pohjukaissuolen haavauma (duodenal ulcer) |
 | TxGNN-ennusteen pistemäärä | 0,9972 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 3/3) |
-| Myyntilupien määrä | 3 (voimassa: 3) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/3) |
+| Myyntilupien määrä | 3 (voimassa: 2) |
 | Suositeltu päätös | Hold (odota) |
 
 Muut ennustetut käyttöaiheet (kaikki näytön tasolla L5 ja suositus Hold):
@@ -74,7 +74,7 @@ Muiden ennusteiden osalta: raloksifeeni muuttaa lipidiarvoja (laskee LDL-koleste
 
 | Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe | Tila |
 |---------|------|------|-----------|------|
-| EMEA/H/C/000185 | Optruma | – | Postmenopausaalinen osteoporoosi | Peruutettu |
+| EMEA/H/C/000185 | Optruma | – | Postmenopausaalinen osteoporoosi | Withdrawn |
 | EMEA/H/C/000184 | Evista | – | Postmenopausaalinen osteoporoosi | Peruutettu |
 | EMEA/H/C/001075 | Raloxifene Teva | – | Postmenopausaalinen osteoporoosi | Peruutettu |
 

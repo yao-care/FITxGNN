@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-30T09:08:06.638110+00:00",
+  "fetched_at": "2026-10-30T16:17:43.380383+00:00",
   "source": "Google News Health RSS",
   "count": 49,
   "articles": [
@@ -24,16 +24,6 @@
       }
     },
     {
-      "id": "d57dc6b13db6",
-      "title": "Kysely | Oletko jättänyt terveyteesi liittyvän hoidon tai lääkkeet väliin rahan takia? - Länsi-Savo",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5adU1GLXVvRmFTei1GaWxYNWNHeThUdDBEYkJ5RHpPTllRTkZsWmZjR3ZOc0h6djRPLXhCYkdIbFQyUU14bXNKVjlUV1dtVm9HRlpNdFhMNU8?oc=5",
-      "published": "2026-10-26T17:00:00+00:00",
-      "source": {
-        "name": "Länsi-Savo",
-        "url": "https://www.lansi-savo.fi"
-      }
-    },
-    {
       "id": "61af997fb1cb",
       "title": "Suomalaiset keksivät aivan uuden ratkaisun: merikontti, joka muuttuu minikokoiseksi lääketehtaaksi - Yle",
       "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9uQ29QVkJqYzdpNkdVNlkzX2k3RGhJTzdadnBfcTBMYWFrT3Z6WU5MdzlCUGUtUFRnUERydkNJR2dRZw?oc=5",
@@ -41,6 +31,16 @@
       "source": {
         "name": "Yle",
         "url": "https://yle.fi"
+      }
+    },
+    {
+      "id": "d57dc6b13db6",
+      "title": "Kysely | Oletko jättänyt terveyteesi liittyvän hoidon tai lääkkeet väliin rahan takia? - Länsi-Savo",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5adU1GLXVvRmFTei1GaWxYNWNHeThUdDBEYkJ5RHpPTllRTkZsWmZjR3ZOc0h6djRPLXhCYkdIbFQyUU14bXNKVjlUV1dtVm9HRlpNdFhMNU8?oc=5",
+      "published": "2026-10-26T17:00:00+00:00",
+      "source": {
+        "name": "Länsi-Savo",
+        "url": "https://www.lansi-savo.fi"
       }
     },
     {
@@ -54,13 +54,13 @@
       }
     },
     {
-      "id": "bea8e5972f2b",
-      "title": "Pelättyyn syöpään löydettiin uusi lääke - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQOXpuZnFUbHNvYklTQkZtT01CUGRCbzIteEZ4a3dMeUtVNzNnY2lVQ2U0eVRiS1Y3dlJWSngyVFpFeFpIRnRJQlFzelltNzJQMGZ0ODY0Xy1ZazViYTJzdVZLZXhHMHB0RDB4dGZXYUJEQndxQmx5bUZheUlCTXNYc2VZb1g?oc=5",
-      "published": "2026-10-21T07:00:00+00:00",
+      "id": "cb9169c23a48",
+      "title": "Automaatio tehostaa lääkkeiden potilaskohtaista jakoa ja parantaa potilasturvallisuutta - Helsinki.fi",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORzMySU01ZTFZSVd4VVBwTThpYXVMSGJJclR2QnpLSGItOVhLTUFldWJKVWR0Z09kcjBzMHVkRXRxTVViY1JjeDlwRmlnbzBZWGk5T3lReEdWekFQbEtCNFA0NGljODAzUUtEUjRlQjJ4VkN0QkN4bFZFUWlqSDQ0dWY1T3hDeXBZdzFOa08yc3ZqbVJnUzItSkRXQ29zNzFnc0EybFNfdkZ6U0dWTElQYnJQQnpnTmM3YzBoM2w1SFJXUnRsQzV3ZVl3?oc=5",
+      "published": "2026-03-11T07:00:00+00:00",
       "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
+        "name": "Helsinki.fi",
+        "url": "https://www.helsinki.fi"
       }
     },
     {
@@ -74,6 +74,16 @@
       }
     },
     {
+      "id": "bea8e5972f2b",
+      "title": "Pelättyyn syöpään löydettiin uusi lääke - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQOXpuZnFUbHNvYklTQkZtT01CUGRCbzIteEZ4a3dMeUtVNzNnY2lVQ2U0eVRiS1Y3dlJWSngyVFpFeFpIRnRJQlFzelltNzJQMGZ0ODY0Xy1ZazViYTJzdVZLZXhHMHB0RDB4dGZXYUJEQndxQmx5bUZheUlCTXNYc2VZb1g?oc=5",
+      "published": "2026-10-21T07:00:00+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
+      }
+    },
+    {
       "id": "20c31c563c98",
       "title": "Kela päätti lopettaa kalliiden lääkkeiden korvaamisen – HUSin ylilääkäri: Voi eriarvoistaa potilaita - Yle",
       "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9SZWdYajFZb3ViLVl1LVdpVUhBejZkNVF6SWYyUHc4bVMtdlVtZWJMTmM0STVZMXkwU0luaktQWnhGQQ?oc=5",
@@ -81,16 +91,6 @@
       "source": {
         "name": "Yle",
         "url": "https://yle.fi"
-      }
-    },
-    {
-      "id": "80b112525aea",
-      "title": "600 000 suomalaiselle määrätään tätä lääkettä, vaikka osalla oireiden todellinen syy voi olla aivan toinen - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTFpiZmVYRjlGWjJCMXBiTHlLNVMwMFd3WllXNVNRZEthd0RLV0lmZHc5M3BDVDE0ZjFXVEoxZ3d4aXRuWTlrMUhTcU15d1QzVkx3Q1lQNGFLLWFnY2tzMWhGc0hwNGN0aV8wWVJlalBBNjZoN0JqZUhmNVdFODFDamE2aTM?oc=5",
-      "published": "2026-10-23T11:05:09+00:00",
-      "source": {
-        "name": "Iltalehti",
-        "url": "https://www.iltalehti.fi"
       }
     },
     {
@@ -104,43 +104,13 @@
       }
     },
     {
-      "id": "3c6baacfc708",
-      "title": "Syöpähoidoissa tapahtunut merkittävä muutos - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5HUEg0RFA5VFQ4VEZiZTVvTDY4Q3V0UmI1dHRiWVJKcFlaLVhLX05TbHk3alRzcDBYRnBLWUdHTTJ3LWNUQWJtY3FaTGI5VDJWaVJvcWpyRng4VWhRRFNhb3Uxei1jcWZLMkJrczIxZlVXVHVlNTZVbA?oc=5",
-      "published": "2026-10-25T08:57:57+00:00",
+      "id": "80b112525aea",
+      "title": "600 000 suomalaiselle määrätään tätä lääkettä, vaikka osalla oireiden todellinen syy voi olla aivan toinen - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTFpiZmVYRjlGWjJCMXBiTHlLNVMwMFd3WllXNVNRZEthd0RLV0lmZHc5M3BDVDE0ZjFXVEoxZ3d4aXRuWTlrMUhTcU15d1QzVkx3Q1lQNGFLLWFnY2tzMWhGc0hwNGN0aV8wWVJlalBBNjZoN0JqZUhmNVdFODFDamE2aTM?oc=5",
+      "published": "2026-10-23T11:05:09+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
-      }
-    },
-    {
-      "id": "cb9169c23a48",
-      "title": "Automaatio tehostaa lääkkeiden potilaskohtaista jakoa ja parantaa potilasturvallisuutta - Helsinki.fi",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORzMySU01ZTFZSVd4VVBwTThpYXVMSGJJclR2QnpLSGItOVhLTUFldWJKVWR0Z09kcjBzMHVkRXRxTVViY1JjeDlwRmlnbzBZWGk5T3lReEdWekFQbEtCNFA0NGljODAzUUtEUjRlQjJ4VkN0QkN4bFZFUWlqSDQ0dWY1T3hDeXBZdzFOa08yc3ZqbVJnUzItSkRXQ29zNzFnc0EybFNfdkZ6U0dWTElQYnJQQnpnTmM3YzBoM2w1SFJXUnRsQzV3ZVl3?oc=5",
-      "published": "2026-03-11T07:00:00+00:00",
-      "source": {
-        "name": "Helsinki.fi",
-        "url": "https://www.helsinki.fi"
-      }
-    },
-    {
-      "id": "554d47140e03",
-      "title": "Kaksi yleistä lääkettä, joilla voi olla yllättäviä terveyshyötyjä – toinen voi auttaa rasvamaksaan - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9NUEUtNW94amFENi1aam11MlN4ekRvanNoVWgzMjVuVWNLNHJyTklxdEFVOWxKdHk2czlDS0pObzFNNmlyRW5COFdOLUhTbENMWjd1MERhWXptZFQw?oc=5",
-      "published": "2026-08-11T07:00:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
-      }
-    },
-    {
-      "id": "fec884287619",
-      "title": "Näistä lääkkeistä tarvitset matkalle todistuksen – muuten voit joutua lentokentällä ongelmiin - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5zdmNQYzNhRFRxMGlKUHl5RXNyS3BnakQxQlFfdEdzbWh4R3dIVlphaFMtdnlCU1RPNUxGQWJvX0hFRENkX1Bsc2YtMDdEZGd3RlljeHZGMURyTWcz?oc=5",
-      "published": "2026-07-16T07:00:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
       }
     },
     {
@@ -151,6 +121,26 @@
       "source": {
         "name": "helsinki.fi",
         "url": "https://www.helsinki.fi"
+      }
+    },
+    {
+      "id": "3c6baacfc708",
+      "title": "Syöpähoidoissa tapahtunut merkittävä muutos - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5HUEg0RFA5VFQ4VEZiZTVvTDY4Q3V0UmI1dHRiWVJKcFlaLVhLX05TbHk3alRzcDBYRnBLWUdHTTJ3LWNUQWJtY3FaTGI5VDJWaVJvcWpyRng4VWhRRFNhb3Uxei1jcWZLMkJrczIxZlVXVHVlNTZVbA?oc=5",
+      "published": "2026-10-25T08:57:57+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
+      }
+    },
+    {
+      "id": "554d47140e03",
+      "title": "Kaksi yleistä lääkettä, joilla voi olla yllättäviä terveyshyötyjä – toinen voi auttaa rasvamaksaan - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9NUEUtNW94amFENi1aam11MlN4ekRvanNoVWgzMjVuVWNLNHJyTklxdEFVOWxKdHk2czlDS0pObzFNNmlyRW5COFdOLUhTbENMWjd1MERhWXptZFQw?oc=5",
+      "published": "2026-08-11T07:00:00+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
       }
     },
     {
@@ -171,6 +161,16 @@
       "source": {
         "name": "Yle",
         "url": "https://yle.fi"
+      }
+    },
+    {
+      "id": "fec884287619",
+      "title": "Näistä lääkkeistä tarvitset matkalle todistuksen – muuten voit joutua lentokentällä ongelmiin - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5zdmNQYzNhRFRxMGlKUHl5RXNyS3BnakQxQlFfdEdzbWh4R3dIVlphaFMtdnlCU1RPNUxGQWJvX0hFRENkX1Bsc2YtMDdEZGd3RlljeHZGMURyTWcz?oc=5",
+      "published": "2026-07-16T07:00:00+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
       }
     },
     {
@@ -221,6 +221,16 @@
       "source": {
         "name": "helsinki.fi",
         "url": "https://www.helsinki.fi"
+      }
+    },
+    {
+      "id": "76a0bd5ac6df",
+      "title": "Tutkimus: Nämä yleiset lääkkeet voivat olla haitaksi suolistollesi - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9zVExHQV9ldkxNZUxOMXN6WEh1QWdBc090SWtYSHNUVDhWTElTVUg4Nm8tVVpMM3RSQ0VoaGw3WnRVWmlRYTFrN2JzZ1FTaXRlQlAyMTZ6eDJvX09Q?oc=5",
+      "published": "2025-11-04T08:00:00+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
       }
     },
     {
@@ -324,16 +334,6 @@
       }
     },
     {
-      "id": "76a0bd5ac6df",
-      "title": "Tutkimus: Nämä yleiset lääkkeet voivat olla haitaksi suolistollesi - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9zVExHQV9ldkxNZUxOMXN6WEh1QWdBc090SWtYSHNUVDhWTElTVUg4Nm8tVVpMM3RSQ0VoaGw3WnRVWmlRYTFrN2JzZ1FTaXRlQlAyMTZ6eDJvX09Q?oc=5",
-      "published": "2025-11-04T08:00:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
-      }
-    },
-    {
       "id": "bbbc1319946c",
       "title": "Onko edullinen rinnakkaislääke huonompi kuin alkuperäinen? Apteekkari kertoo totuuden - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9iTHFPUTZMZDAySTRKdWFKT01xX3lCQWJkdUpHMlRacTR5dEhQeUhidmRQckk4NUpKUVhSZE9nOFBQQWFlVzgxTkNBOWhySVNMT21QUGNwUGY5NlVl?oc=5",
@@ -374,20 +374,20 @@
       }
     },
     {
-      "id": "5365b5f51ca5",
-      "title": "Yskään on luonnon hoitokeino – toimii jopa paremmin kuin lääke - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5UbVZoQW5IMVJQVWJHRnhaVENRaXFmRndMY3RaU0tZdUhJcW9ISWFCd3ZVNDlXc3BSaDJOY0lLM2RMdjJBTUJ6MEc3d21kYXJFT3dmNUJ4anp1VjdN?oc=5",
-      "published": "2024-10-26T07:00:00+00:00",
+      "id": "213903fae655",
+      "title": "Alzheimer-lääke mullistaa hampaiden hoidon – Kasvavatko reiät pian umpeen? - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9JYmM3NHdrZkp4R0JNbWtsRzQwRno1TTc4QkRYWVBTX0xpeEJHVWtocFYyN2JGa3dEMWw5cVczZjhWa3l6TWE3dkRJaDF3c3B6UjB1cWg2SHFyejVO?oc=5",
+      "published": "2017-01-21T08:00:00+00:00",
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
       }
     },
     {
-      "id": "213903fae655",
-      "title": "Alzheimer-lääke mullistaa hampaiden hoidon – Kasvavatko reiät pian umpeen? - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9JYmM3NHdrZkp4R0JNbWtsRzQwRno1TTc4QkRYWVBTX0xpeEJHVWtocFYyN2JGa3dEMWw5cVczZjhWa3l6TWE3dkRJaDF3c3B6UjB1cWg2SHFyejVO?oc=5",
-      "published": "2017-01-21T08:00:00+00:00",
+      "id": "5365b5f51ca5",
+      "title": "Yskään on luonnon hoitokeino – toimii jopa paremmin kuin lääke - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5UbVZoQW5IMVJQVWJHRnhaVENRaXFmRndMY3RaU0tZdUhJcW9ISWFCd3ZVNDlXc3BSaDJOY0lLM2RMdjJBTUJ6MEc3d21kYXJFT3dmNUJ4anp1VjdN?oc=5",
+      "published": "2024-10-26T07:00:00+00:00",
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"

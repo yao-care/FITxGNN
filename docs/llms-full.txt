@@ -25,7 +25,7 @@ Näytön tasot ovat L1 (vahvempi kliininen näyttö) – L5 (vain mallin ennuste
 
 ## Esimerkkejä lääkeraporteista
 
-- Aripiprazole (L1): https://fitxgnn.yao.care/drugs/aripiprazole/
+- Aripiprazole (L5): https://fitxgnn.yao.care/drugs/aripiprazole/
 - Bupropion (L1): https://fitxgnn.yao.care/drugs/bupropion/
 - Busulfan (L1): https://fitxgnn.yao.care/drugs/busulfan/
 

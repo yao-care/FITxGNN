@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 7
 monitor_inn: "ICATIBANT"
 predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "Glanzmann thrombasthenia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Icatibant: ennustettu uusi käyttöaihe C1-estäjän puutos (C1 inhibitor deficiency) (näytön taso L1). Alkuperäinen käyttöaihe: Angioedemas, Hereditary"
 ---
 
@@ -48,7 +48,7 @@ Ikatibantti on selektiivinen bradykiniinin B2-reseptorin salpaaja, jota käytet�
 | Ennustettu uusi käyttöaihe | C1-estäjän puutos (C1 inhibitor deficiency) |
 | TxGNN-ennustepisteet | 0,9999 |
 | Näytön taso | L1 |
-| Suomen markkinatilanne | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
 | Myyntilupien määrä | 2 (voimassa: 2) |
 | Suositeltu päätös | Edetä suojatoimin |
 

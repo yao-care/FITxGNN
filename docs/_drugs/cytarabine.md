@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "CYTARABINE"
 predicted_indications: ["small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "upper aerodigestive tract neoplasm", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "neuroblastoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Cytarabine: ennustettu uusi käyttöaihe Pienisoluinen keuhkosyöpä (small cell lung carcinoma) (näytön taso L5). Alkuperäinen käyttöaihe: Leukemia, Myeloid, Acute"
 ---
 
@@ -48,7 +48,7 @@ Sytarabiini on pyrimidiininukleosidiantimetaboliitti, joka estää DNA-synteesi�
 | Ennustettu uusi käyttöaihe | Pienisoluinen keuhkosyöpä (small cell lung carcinoma) |
 | TxGNN-ennustepisteet | 0,9978 |
 | Näytön taso | L5 |
-| Suomen markkinatilanne | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Odota (Hold) |
 

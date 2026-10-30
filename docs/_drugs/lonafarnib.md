@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 268
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "LONAFARNIB"
 predicted_indications: ["leprosy"]
 description: "Lonafarnib: ennustettu uusi käyttöaihe Lepra (leprosy) (näytön taso L5). Alkuperäinen käyttöaihe: Progeria"
@@ -51,7 +51,7 @@ Lonafarnibi on farnesyylitransferaasin estäjä, jota on alun perin käytetty pr
 | TxGNN-ennustepisteet | 0.9914 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
-| Myyntilupien lukumäärä | 1 (voimassa: 1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

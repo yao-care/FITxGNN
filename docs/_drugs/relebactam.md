@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 372
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Relebactam: ennustettu uusi käyttöaihe Hyperamylasemia (näytön taso L5). Alkuperäinen käyttöaihe: Gramnegatiiviset bakteeri-infektiot"
 monitor_inn: "Relebactam"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia"]
@@ -52,7 +52,7 @@ TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **hyperamylasemian**, mu
 | TxGNN-ennusteen pistemäärä | 0,9922 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
-| Myyntilupien lukumäärä | 1 (voimassa: 1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

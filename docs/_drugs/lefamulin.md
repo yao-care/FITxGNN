@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 255
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Lefamulin"
 predicted_indications: ["leishmaniasis, diffuse cutaneous", "polyclonal hyperviscosity syndrome", "hyperamylasemia"]
 description: "Lefamulin: ennustettu uusi käyttöaihe Leishmaniasis, diffuse cutaneous (näytön taso L5). Alkuperäinen käyttöaihe: Pneumonia, Bacterial"
@@ -53,7 +53,7 @@ Ennuste perustuu siis pelkästään mallilaskentaan (todistetaso **L5**).
 | TxGNN-ennustepistemäärä | 0.9924 |
 | Todistetaso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
-| Myyntilupien lukumäärä | 1 (voimassa: 1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

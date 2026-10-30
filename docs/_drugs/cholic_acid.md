@@ -5,7 +5,7 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 112
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "CHOLIC ACID"
 predicted_indications: ["HIV infectious disease", "obsolete familial combined hyperlipidemia", "homozygous familial hypercholesterolemia", "biotin metabolic disease", "vitamin deficiency disorder", "hereditary hemochromatosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hemosiderosis", "disorder of phenylalanine metabolism", "bone Paget disease"]
 description: "Cholic Acid: ennustettu uusi käyttöaihe HIV-infektio (HIV infectious disease) (näytön taso L4). Alkuperäinen käyttöaihe: Digestive System Diseases"
@@ -52,7 +52,7 @@ TxGNN-malli ennustaa sen voivan tehota **HIV-infektioon**, mutta ennusteen tuken
 | TxGNN-ennustepistemäärä | 0.9979 |
 | Näytön taso | L4 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
-| Myyntilupien lukumäärä | 1 (voimassa: 1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

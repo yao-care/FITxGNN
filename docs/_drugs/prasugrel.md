@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 354
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "PRASUGREL"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura", "kyphoscoliotic heart disease", "rheumatoid arthritis", "homozygous familial hypercholesterolemia", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "leprosy"]
 description: "Prasugrel: ennustettu uusi käyttöaihe Keuhkoverenpainetauti (pulmonary hypertension) (näytön taso L5). Alkuperäinen käyttöaihe: Acute Coronary Syndrome"
@@ -52,7 +52,7 @@ Taulukossa on esitetty sekä mallin ensimmäinen ennuste että parhaiten tuettu 
 | TxGNN-ennustepisteet (sijalla 1) | 0,9988 |
 | Näytön taso (sijalla 1) | L5 |
 | Parhaiten tuettu vaihtoehto | Migreeni (PFO-alaryhmä): 0.9988, näytön taso L3 |
-| Suomen markkinatilanne | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (keuhkoverenpainetauti); migreenin osalta tutkimuskysymys, jota voi jatkaa varovaisuusperiaatteella |
 

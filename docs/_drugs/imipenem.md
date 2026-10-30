@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 225
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Imipenem"
 predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "sinusitis", "chronic rhinosinusitis", "typhoid fever", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "staphylococcus aureus infection", "eosinophilia-myalgia syndrome"]
 description: "Imipenem: ennustettu uusi käyttöaihe Diffuse scleroderma (näytön taso L5). Alkuperäinen käyttöaihe: Gram-Negative Bacterial Infections"
@@ -55,7 +55,7 @@ Tämän kohteen tueksi on **2 kliinistä tutkimusta** ja **18 julkaisua**; useim
 | Ennustettu uusi käyttöaihe (vahvin näyttö) | Diffuse scleroderma |
 | TxGNN-ennustepistemäärä | 0.9999 |
 | Näytön taso | L5 (skleroderma); L3 (S. aureus -infektio) |
-| Suomen markkinatilanne | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota); S. aureus -infektio: tutkimuskysymys jatkoselvitykseen |
 

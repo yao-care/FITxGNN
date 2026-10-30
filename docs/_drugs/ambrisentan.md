@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "AMBRISENTAN"
 predicted_indications: ["pulmonary arteriovenous malformation (disease)", "malformation syndrome with odontal and/or periodontal component", "hypotrichosis simplex of the scalp", "hypertrichosis (disease)", "syndrome with a Dandy-Walker malformation as major feature"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Ambrisentan: ennustettu uusi käyttöaihe Keuhkojen valtimolaskimomuodostuma (pulmonary arteriovenous malformation) (näytön taso L5). Alkuperäinen käyttöaihe: Hypertension, Pulmonary"
 ---
 
@@ -48,7 +48,7 @@ Ambrisentaani on endoteliini A -reseptorin salpaaja. TxGNN-malli ennustaa sen vo
 | Ennustettu uusi käyttöaihe | Keuhkojen valtimolaskimomuodostuma (pulmonary arteriovenous malformation) |
 | TxGNN-ennusteen pistemäärä | 0,9941 |
 | Näytön taso | L5 |
-| Suomen markkinatilanne | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
 | Myyntilupien määrä | 2 (voimassa: 2) |
 | Suositeltu päätös | Odota (Hold) |
 

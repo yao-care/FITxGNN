@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 140
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "DIBOTERMIN ALFA"
 predicted_indications: ["esotropia", "HER2 positive breast carcinoma", "progesterone-receptor positive breast cancer", "normal breast-like subtype of breast carcinoma", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer", "non-syndromic esophageal malformation", "multifocal choroiditis", "atypical coarctation of aorta"]
 description: "Dibotermin Alfa: ennustettu uusi käyttöaihe Esotropia (näytön taso L5). Alkuperäinen käyttöaihe: Tibial Fractures"
@@ -51,7 +51,7 @@ Dibotermiini alfa on yhdistelmä-DNA-tekniikalla valmistettu ihmisen luun morfog
 | TxGNN-ennustepistemäärä | 0.9997 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
-| Myyntilupien lukumäärä | 1 (voimassa: 1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

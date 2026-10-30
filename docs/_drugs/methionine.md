@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "methionine"
 predicted_indications: ["acne (disease)", "severe nonproliferative diabetic retinopathy", "craniostenosis cataract", "mature cataract", "diabetes mellitus type 2 associated cataract", "nuclear senile cataract", "cortical cataract", "tetanic cataract", "immature cataract", "diabetic cataract"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Methionine: ennustettu uusi käyttöaihe Akne (näytön taso L5). Alkuperäinen käyttöaihe: Vaahterasiirappitauti (MSUD)"
 ---
 
@@ -48,7 +48,7 @@ Metioniini on aminohappo, jota käytetään Suomessa (EMA-myyntilupa) vaahterasi
 | Ennustettu uusi käyttöaihe | Akne |
 | TxGNN-ennusteen pistemäärä | 1,0000 |
 | Näytön taso | L5 |
-| Tilanne Suomen markkinoilla | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 

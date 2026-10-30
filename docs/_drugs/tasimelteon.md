@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 418
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "TASIMELTEON"
 predicted_indications: ["bilateral parasagittal parieto-occipital polymicrogyria", "insomnia (disease)", "amyotrophic lateral sclerosis", "endogenous depression", "axial spondylometaphyseal dysplasia", "monomelic amyotrophy", "lower motor neuron syndrome with late-adult onset", "Mills syndrome", "amyotrohpic lateral sclerosis type 22"]
 description: "Tasimelteon: ennustettu uusi käyttöaihe Bilateral parasagittal parieto-occipital polymicrogyria (näytön taso L5). Alkuperäinen käyttöaihe: Sleep Disorders, Circadian Rhythm"
@@ -50,7 +50,7 @@ Tasimelteoni on melatoniinireseptorien agonisti, jota on alun perin käytetty vu
 | Ennustettu uusi käyttöaihe (sijalla 1) | Bilateral parasagittal parieto-occipital polymicrogyria |
 | TxGNN-ennustepisteet | 0.9948 |
 | Näytön taso | L5 (sijalla 1); parhaiten tuettu ehdokas, unettomuus, L3 |
-| Suomen markkinatilanne | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota); unettomuus: tutkimuskysymys |
 

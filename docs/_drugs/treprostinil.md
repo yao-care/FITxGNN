@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 455
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Treprostinil"
 predicted_indications: ["pulmonary arteriovenous malformation (disease)", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita"]
 description: "Treprostinil: ennustettu uusi käyttöaihe Pulmonary arteriovenous malformation (disease) (näytön taso L5). Alkuperäinen käyttöaihe: Hypertension, Pulmonary"
@@ -52,7 +52,7 @@ Tätä tukee tällä hetkellä **19 julkaisua** (mm. satunnaistettu lumekontroll
 | Ennustettu uusi käyttöaihe | Pulmonary arteriovenous malformation (disease) |
 | TxGNN-ennustepistemäärä | 0.9970 |
 | Näytön taso | L5 |
-| Suomen markkinatilanne | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Proceed with Guardrails (CTD-PAH); muut ennusteet Hold tai tutkimuskysymys |
 

@@ -3,7 +3,7 @@ layout: default
 title: Erenumab
 parent: Vain tunnetut käytöt (ei uusia ennusteita)
 nav_order: 173
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 description: "Erenumab: tunnetut käyttöaiheet ja markkinatilanne Suomessa; tällä hetkellä ei uutta ehdokasindikaatiota"
 predicted_indications: []
 indication_count: 0
@@ -45,7 +45,7 @@ TxGNN-mallin (pistemäärä ≥ 0,99) tälle lääkkeelle tuottamat ehdokkaat ov
 |------|------|
 | Uudet ennustetut käyttöaiheet | Ei yhtään (kaikki jäljitettävissä olevat mallin ehdokkaat ovat tunnettuja käyttöaiheita) |
 | Tunnetut käyttöaiheet mallin ehdokkaiden joukossa | 1 |
-| Markkinatilanne maassa Suomi | Markkinoilla (voimassa olevia lupia: 1/1) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |
 
 ## Tunnetut käyttöaiheet mallin ehdokkaiden joukossa

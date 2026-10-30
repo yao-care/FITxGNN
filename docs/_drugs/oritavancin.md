@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 318
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "ORITAVANCIN"
 predicted_indications: ["Bacteroidaceae infectious disease", "ophthalmic herpes zoster", "Mycoplasma pneumoniae pneumonia"]
 description: "Oritavancin: ennustettu uusi käyttöaihe Bacteroidaceae infectious disease (näytön taso L5). Alkuperäinen käyttöaihe: Soft Tissue Infections"
@@ -53,7 +53,7 @@ Ennuste perustuu pelkästään mallin laskemaan pisteytykseen.
 | TxGNN-ennustepisteet | 0.9948 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
-| Myyntilupien lukumäärä | 1 (voimassa: 1) |
+| Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

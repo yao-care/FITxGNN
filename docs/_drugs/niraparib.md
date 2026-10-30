@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 305
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "NIRAPARIB"
 predicted_indications: ["epiglottis neoplasm", "cystic neoplasm", "benign neoplasm of hypopharynx", "benign neoplasm of tongue", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "tumor of testis and paratestis", "inner ear neoplasm", "pre-malignant neoplasm", "schwannoma of jugular foramen"]
 description: "Niraparib: ennustettu uusi käyttöaihe Epiglottis neoplasm (näytön taso L5). Alkuperäinen käyttöaihe: Fallopian Tube Neoplasms"
@@ -53,7 +53,7 @@ Niraparibi on PARP-estäjä, jota on käytetty munasarja-, munanjohdin- ja vatsa
 | TxGNN-ennustepistemäärä | 0.9999 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
-| Myyntilupien lukumäärä | 2 (voimassa: 2) |
+| Myyntilupien määrä | 2 (voimassa: 2) |
 | Suositeltu päätös | Hold (odota; tutkimuskysymys jatkotarkasteluun) |
 
 ---

@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 393
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "SACUBITRIL"
 predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy"]
 description: "Sacubitril: ennustettu uusi käyttöaihe Brain small vessel disease 1 with or without ocular anomalies (näytön taso L5). Alkuperäinen käyttöaihe: Heart Failure"
@@ -48,7 +48,7 @@ Sakubitriili on neprilysiinin estäjä, jota on alun perin käytetty sydämen va
 | Ennustettu uusi käyttöaihe | Brain small vessel disease 1 with or without ocular anomalies |
 | TxGNN-ennusteen pistemäärä | 0.9958 |
 | Näytön taso | L5 (diabeettinen nefropatia); muut ennusteet L5 |
-| Suomen markkinatilanne | Markkinoilla (voimassa olevia lupia: 2/2) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
 | Myyntilupien määrä | 2 (voimassa: 2) |
 | Suositeltu päätös | Hold (pitoon); diabeettisen nefropatian osalta jatkotutkimuskysymys |
 

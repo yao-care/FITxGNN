@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "DUVELISIB"
 predicted_indications: ["Hodgkins lymphoma", "myeloid leukemia", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "mantle cell lymphoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-31
 description: "Duvelisib: ennustettu uusi käyttöaihe Hodgkinin lymfooma (Hodgkins lymphoma) (näytön taso L5). Alkuperäinen käyttöaihe: Leukemia, Lymphocytic, Chronic, B-Cell"
 ---
 
@@ -48,7 +48,7 @@ Duvelisibi on suun kautta otettava kaksoisestäjä, joka kohdistuu PI3K-δ- ja P
 | Ennustettu uusi käyttöaihe | Hodgkinin lymfooma (Hodgkins lymphoma) |
 | TxGNN-ennusteen pistemäärä | 0,9994 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Ei markkinoilla (perutut luvat: 1/1) |
+| Markkinatilanne Suomessa | Keskitetty EU-myyntilupa (EMA) peruttu (1/1) – kansallisia myyntilupia (Fimea) ei ole tässä käytetyissä tiedoissa |
 | Myyntilupien määrä | 1 (voimassa: 0) |
 | Suositeltu päätös | Hold (odotetaan lisänäyttöä) |
 

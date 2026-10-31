@@ -5,7 +5,7 @@ parent: Kohtalainen näyttö (L3-L4)
 nav_order: 331
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Parathyroid Hormone: ennustettu uusi käyttöaihe Migreenihäiriö (migraine disorder) (näytön taso L4). Alkuperäinen käyttöaihe: Hypoparatyreoosi"
 monitor_inn: "PARATHYROID HORMONE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "amenorrhea (disease)", "Raynaud disease", "non-syndromic esophageal malformation", "esophageal disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "erectile dysfunction (disease)"]
@@ -50,8 +50,8 @@ Parathormoni (PTH) on kalsiumaineenvaihduntaa säätelevä hormoni, jota on käy
 | Ennustettu uusi käyttöaihe | Migreenihäiriö (migraine disorder) |
 | TxGNN-ennusteen pistemäärä | 0,9998 |
 | Näytön taso | L4 |
-| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
-| Myyntilupien määrä | 1 (voimassa: 1) |
+| Markkinatilanne Suomessa | Keskitetty EU-myyntilupa (EMA) peruttu (1/1) – kansallisia myyntilupia (Fimea) ei ole tässä käytetyissä tiedoissa |
+| Myyntilupien määrä | 1 (voimassa: 0) |
 | Suositeltu päätös | Hold (odota) |
 
 ---
@@ -109,7 +109,7 @@ Muuta turvallisuustietoa ei ole saatavilla. Tarkista varoitukset ja vasta-aiheet
 
 **Perustelu:**
 - Migreeniennusteella on korkea mallipistemäärä, mutta näyttö on epäsuoraa: yksi geneettinen tutkimus ja havainnoivia kalsium- ja D-vitamiinitutkimuksia. Interventiotutkimuksia ei ole, eikä vaikutussuuntaa tunneta.
-- Suomessa ainoa myyntilupa (Natpar) on peruutettu, joten valmiste ei ole markkinoilla.
+- Keskitetty EU-myyntilupa (EMA, Natpar) on peruttu; kansallisia myyntilupia (Fimea) ei ole tässä käytetyissä tiedoissa.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Vaikutusmekanismin selvittämistä (agonismi vai antagonismi PTH1R-reitillä) ja prekliinistä näyttöä

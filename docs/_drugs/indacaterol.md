@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 228
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "INDACATEROL"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "headache disorder", "trigeminal autonomic cephalalgia", "paratenonitis", "calcific tendinitis", "hypertrichosis (disease)", "bronchial disease", "myositis", "anaphylaxis", "Ambras type hypertrichosis universalis congenita"]
 description: "Indacaterol: ennustettu uusi käyttöaihe Nephrogenic syndrome of inappropriate antidiuresis (näytön taso L5). Alkuperäinen käyttöaihe: Pulmonary Disease, Chronic Obstructive"
@@ -52,8 +52,8 @@ Tutkimukset kuitenkin koskevat pääosin jo hyväksyttyjä käyttöaiheita, jote
 | Ennustettu uusi käyttöaihe | Nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN-ennustepistemäärä | 0.9954 |
 | Näytön taso | L5 (muodollisesti; ks. huomautus alla) |
-| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 10/10) |
-| Myyntilupien määrä | 10 (voimassa: 10) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 8/10) |
+| Myyntilupien määrä | 10 (voimassa: 8) |
 | Suositeltu päätös | Hold (odotetaan) |
 
 *Huomautus:* L1-taso perustuu siihen, että valmistetta koskevia valmistuneita vaiheen 3 satunnaistettuja tutkimuksia on useita. Tutkimukset kuitenkin tutkivat jo hyväksyttyjä käyttöaiheita (astma, COPD), joten taso kuvaa näyttöä tunnetusta käytöstä, ei uudesta käyttöaiheesta.

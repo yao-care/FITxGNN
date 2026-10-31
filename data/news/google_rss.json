@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-10-31T07:36:48.195916+00:00",
+  "fetched_at": "2026-10-31T13:56:20.339997+00:00",
   "source": "Google News Health RSS",
-  "count": 49,
+  "count": 52,
   "articles": [
     {
       "id": "0921ae52f7b2",
@@ -14,10 +14,10 @@
       }
     },
     {
-      "id": "07256e16a9cd",
-      "title": "Älä koskaan syö karkkia, jos sinulla on nämä lääkkeet - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbE40X1BtdVIzTnNtZC02UTNpZzRqbFprQzZZc1VERjd1dE9TczBqa000YXd4SlJjOUY5ZElPNjFURkRWNDVHU0lPMTR1R01XOVRzSnZjV1lUN1ZLTVlSNzB4blpHSnlVOXlySnV4ak5Bc0JZZnBnWmF5Y1FwSlpxbi12MWk?oc=5",
-      "published": "2026-10-08T07:00:00+00:00",
+      "id": "53a4e4e8191d",
+      "title": "Tämä reseptivapaa aine voi poistaa ruusufinnin piinaavat oireet - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQXFVNmFNTWZKaG5TNWRNcUVwODczc0N3b251Nm9DZ3o4R3BMcklmRkh0UmcyZUVmeEowYTEybS14dUFBS3U2YzNwbjcxV1MyZnVuSWNiYlAydnFNcnFlM05VaGotZUNBcml6eVMtb1hURzFWSGN3SlhlZ01lQ2NZQ3BTSHM?oc=5",
+      "published": "2026-10-28T04:01:44+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
@@ -64,33 +64,13 @@
       }
     },
     {
-      "id": "cabe751ee597",
-      "title": "Tämä yleinen lääke voi hälyttää huumetestissä - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5HQlA2eWpzQURBTGlIUmxncEJJaUdaUWVJakc3SlVXMlRqLUpsZjZ3eEozb1lpWlB4eHNtZW5tMmZuWFlNOHRZd184OVRSdnB2VmkxN09RaE9DNWVE?oc=5",
-      "published": "2026-08-23T07:00:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
-      }
-    },
-    {
-      "id": "80b112525aea",
-      "title": "600 000 suomalaiselle määrätään tätä lääkettä, vaikka osalla oireiden todellinen syy voi olla aivan toinen - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTFpiZmVYRjlGWjJCMXBiTHlLNVMwMFd3WllXNVNRZEthd0RLV0lmZHc5M3BDVDE0ZjFXVEoxZ3d4aXRuWTlrMUhTcU15d1QzVkx3Q1lQNGFLLWFnY2tzMWhGc0hwNGN0aV8wWVJlalBBNjZoN0JqZUhmNVdFODFDamE2aTM?oc=5",
-      "published": "2026-10-23T11:05:09+00:00",
+      "id": "07256e16a9cd",
+      "title": "Älä koskaan syö karkkia, jos sinulla on nämä lääkkeet - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbE40X1BtdVIzTnNtZC02UTNpZzRqbFprQzZZc1VERjd1dE9TczBqa000YXd4SlJjOUY5ZElPNjFURkRWNDVHU0lPMTR1R01XOVRzSnZjV1lUN1ZLTVlSNzB4blpHSnlVOXlySnV4ak5Bc0JZZnBnWmF5Y1FwSlpxbi12MWk?oc=5",
+      "published": "2026-10-08T07:00:00+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
-      }
-    },
-    {
-      "id": "20c31c563c98",
-      "title": "Kela päätti lopettaa kalliiden lääkkeiden korvaamisen – HUSin ylilääkäri: Voi eriarvoistaa potilaita - Yle",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9SZWdYajFZb3ViLVl1LVdpVUhBejZkNVF6SWYyUHc4bVMtdlVtZWJMTmM0STVZMXkwU0luaktQWnhGQQ?oc=5",
-      "published": "2026-07-13T07:00:00+00:00",
-      "source": {
-        "name": "Yle",
-        "url": "https://yle.fi"
       }
     },
     {
@@ -104,10 +84,30 @@
       }
     },
     {
-      "id": "bea8e5972f2b",
-      "title": "Pelättyyn syöpään löydettiin uusi lääke - Iltalehti",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQOXpuZnFUbHNvYklTQkZtT01CUGRCbzIteEZ4a3dMeUtVNzNnY2lVQ2U0eVRiS1Y3dlJWSngyVFpFeFpIRnRJQlFzelltNzJQMGZ0ODY0Xy1ZazViYTJzdVZLZXhHMHB0RDB4dGZXYUJEQndxQmx5bUZheUlCTXNYc2VZb1g?oc=5",
-      "published": "2026-10-21T07:00:00+00:00",
+      "id": "20c31c563c98",
+      "title": "Kela päätti lopettaa kalliiden lääkkeiden korvaamisen – HUSin ylilääkäri: Voi eriarvoistaa potilaita - Yle",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9SZWdYajFZb3ViLVl1LVdpVUhBejZkNVF6SWYyUHc4bVMtdlVtZWJMTmM0STVZMXkwU0luaktQWnhGQQ?oc=5",
+      "published": "2026-07-13T07:00:00+00:00",
+      "source": {
+        "name": "Yle",
+        "url": "https://yle.fi"
+      }
+    },
+    {
+      "id": "cabe751ee597",
+      "title": "Tämä yleinen lääke voi hälyttää huumetestissä - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5HQlA2eWpzQURBTGlIUmxncEJJaUdaUWVJakc3SlVXMlRqLUpsZjZ3eEozb1lpWlB4eHNtZW5tMmZuWFlNOHRZd184OVRSdnB2VmkxN09RaE9DNWVE?oc=5",
+      "published": "2026-08-23T07:00:00+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
+      }
+    },
+    {
+      "id": "80b112525aea",
+      "title": "600 000 suomalaiselle määrätään tätä lääkettä, vaikka osalla oireiden todellinen syy voi olla aivan toinen - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTFpiZmVYRjlGWjJCMXBiTHlLNVMwMFd3WllXNVNRZEthd0RLV0lmZHc5M3BDVDE0ZjFXVEoxZ3d4aXRuWTlrMUhTcU15d1QzVkx3Q1lQNGFLLWFnY2tzMWhGc0hwNGN0aV8wWVJlalBBNjZoN0JqZUhmNVdFODFDamE2aTM?oc=5",
+      "published": "2026-10-23T07:00:00+00:00",
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
@@ -121,6 +121,16 @@
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
+      }
+    },
+    {
+      "id": "bea8e5972f2b",
+      "title": "Pelättyyn syöpään löydettiin uusi lääke - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQOXpuZnFUbHNvYklTQkZtT01CUGRCbzIteEZ4a3dMeUtVNzNnY2lVQ2U0eVRiS1Y3dlJWSngyVFpFeFpIRnRJQlFzelltNzJQMGZ0ODY0Xy1ZazViYTJzdVZLZXhHMHB0RDB4dGZXYUJEQndxQmx5bUZheUlCTXNYc2VZb1g?oc=5",
+      "published": "2026-10-21T07:00:00+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
       }
     },
     {
@@ -224,16 +234,6 @@
       }
     },
     {
-      "id": "76a0bd5ac6df",
-      "title": "Tutkimus: Nämä yleiset lääkkeet voivat olla haitaksi suolistollesi - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9zVExHQV9ldkxNZUxOMXN6WEh1QWdBc090SWtYSHNUVDhWTElTVUg4Nm8tVVpMM3RSQ0VoaGw3WnRVWmlRYTFrN2JzZ1FTaXRlQlAyMTZ6eDJvX09Q?oc=5",
-      "published": "2025-11-04T08:00:00+00:00",
-      "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
-      }
-    },
-    {
       "id": "ab6cb1071079",
       "title": "Terveys | Älylääke osaa kertoa, onko se otettu vai ei – tulevaisuuden lääkkeet saatetaan myös tulostaa potilaskohtaisesti - Helsingin Uutiset",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE80XzlzblNVbFc3cUVqMGZpdERuTktKc1V5OWtrQzEwcTRWcWM3MmZZdnVmUkgzTzF0YThXWjJQN1pXZDhCN2s5OXhhVjJZdVdubkxIZlMyQzZ6UQ?oc=5",
@@ -241,6 +241,16 @@
       "source": {
         "name": "Helsingin Uutiset",
         "url": "https://www.helsinginuutiset.fi"
+      }
+    },
+    {
+      "id": "76a0bd5ac6df",
+      "title": "Tutkimus: Nämä yleiset lääkkeet voivat olla haitaksi suolistollesi - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9zVExHQV9ldkxNZUxOMXN6WEh1QWdBc090SWtYSHNUVDhWTElTVUg4Nm8tVVpMM3RSQ0VoaGw3WnRVWmlRYTFrN2JzZ1FTaXRlQlAyMTZ6eDJvX09Q?oc=5",
+      "published": "2025-11-04T08:00:00+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
       }
     },
     {
@@ -254,20 +264,20 @@
       }
     },
     {
-      "id": "6b45b3c559e1",
-      "title": "Yllättävä päätös: Suomalaisten lääkäreiden hehkuttama lääke sai täystyrmäyksen Euroopassa - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9yY1BBRzIzdmZ5MHllcG9uMFA1dlR4dVR6Nzd2MzlBaGRYV3gtV1Npd0loWlMwSkRWcDloTFpEWjBRODZfSEkxRkI3YnJUVDRMV3dVak5IUE9GbW5s?oc=5",
-      "published": "2024-08-01T07:00:00+00:00",
+      "id": "ce041284b4c6",
+      "title": "Tämä on Suomen suosituin lääke - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1nYlYzb1ZEeldZdDM4MzJ6V2lIVXM1V0hyVUYwQjhtU0hoT0ptdHFjMUgtdllsbkl4RkRla0FkTXB1Y0JUUkNBSnhXTkpROU16dmJ0QmhLMjZPQl9X?oc=5",
+      "published": "2025-06-11T07:00:00+00:00",
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
       }
     },
     {
-      "id": "ce041284b4c6",
-      "title": "Tämä on Suomen suosituin lääke - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1nYlYzb1ZEeldZdDM4MzJ6V2lIVXM1V0hyVUYwQjhtU0hoT0ptdHFjMUgtdllsbkl4RkRla0FkTXB1Y0JUUkNBSnhXTkpROU16dmJ0QmhLMjZPQl9X?oc=5",
-      "published": "2025-06-11T07:00:00+00:00",
+      "id": "6b45b3c559e1",
+      "title": "Yllättävä päätös: Suomalaisten lääkäreiden hehkuttama lääke sai täystyrmäyksen Euroopassa - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9yY1BBRzIzdmZ5MHllcG9uMFA1dlR4dVR6Nzd2MzlBaGRYV3gtV1Npd0loWlMwSkRWcDloTFpEWjBRODZfSEkxRkI3YnJUVDRMV3dVak5IUE9GbW5s?oc=5",
+      "published": "2024-08-01T07:00:00+00:00",
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
@@ -414,6 +424,16 @@
       }
     },
     {
+      "id": "42f25517e281",
+      "title": "Suomalaiset sortuvat yleiseen virheeseen lääkkeiden säilyttämisessä – näin nopeasti lääkkeet vanhenevat - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB3QkZEbzRQazFZcEdvNGtZaG9tTVNkZGxSektYRG1Rd0VoT1BWS0ZpLWxEZXpqRnFTc3NzSXdDSlVMd25ZUGVvOGtSbzJIb3g0SE1CZ2dOTGs4M2tD?oc=5",
+      "published": "2020-06-30T07:00:00+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
+      }
+    },
+    {
       "id": "8118f0d8f6b7",
       "title": "Näiden lääkkeiden kanssa alkoholi ei sovi: ”Tällä cocktaililla aika moni on poistunut keskuudestamme” - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE04NE5Bbm93WVE3VnhuNk9hS1NMQm93N3F2MTF5bHRMVkJwNUdaRXdnamhnSTBEbGZXanJrSHlFY0tQYmxIYUN2LUpHVHNjSk9sUGVaRnJVUXl1S3Vt?oc=5",
@@ -474,6 +494,16 @@
       }
     },
     {
+      "id": "07bd6e96eda5",
+      "title": "Ethän tee yleistä virhettä Buranan kanssa? Nämä tavalliset lääkkeet eivät sovi yhteen – asiantuntija varoittaa myös ”hengenvaarallisesta pommista” - Ilta-Sanomat",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBmeHYtRzMtaC1mdGdIQ05XazdtbWxKUFJobVpYMWphY3B3Y0tOSTlKaFdlTVMyc0hyUjJvQS1oLTQtblQ2MHBJMnFqRzhJWkRqS0xzTUhaeDY2RHBx?oc=5",
+      "published": "2019-06-06T07:00:00+00:00",
+      "source": {
+        "name": "Ilta-Sanomat",
+        "url": "https://www.is.fi"
+      }
+    },
+    {
       "id": "ad0f5dbfe4f8",
       "title": "Hyvä olo - Ilta-Sanomat",
       "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5jWGFWMWJUMmNSVVdRQWJ2Q19XUEtmQVhaUFNOcFVvWGJMV2tSTFhyQnI4MWpSRmI5ZUVVME92cw?oc=5",
@@ -484,13 +514,13 @@
       }
     },
     {
-      "id": "07bd6e96eda5",
-      "title": "Ethän tee yleistä virhettä Buranan kanssa? Nämä tavalliset lääkkeet eivät sovi yhteen – asiantuntija varoittaa myös ”hengenvaarallisesta pommista” - Ilta-Sanomat",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBmeHYtRzMtaC1mdGdIQ05XazdtbWxKUFJobVpYMWphY3B3Y0tOSTlKaFdlTVMyc0hyUjJvQS1oLTQtblQ2MHBJMnFqRzhJWkRqS0xzTUhaeDY2RHBx?oc=5",
-      "published": "2019-06-06T07:00:00+00:00",
+      "id": "2f523a03b740",
+      "title": "Tällainen verenpaine on kaikista vaarallisin – Tutkijoiden yllättävä havainto - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9udi1mT1ZyVjhpZFdWWTV3bjZ3TDBDdTdwZ2o2U3BXaVZxbTFsMXA4eE81M3Jwd0ZLSVlUS1lpbk9yNUhsTmNGQnIzYk1kM0VjTUp4bVN3ZTVWVC1lMm5QbXdiSHU3aWswcnJJVGpfMXFjQmRwYlBLeg?oc=5",
+      "published": "2024-02-02T08:00:00+00:00",
       "source": {
-        "name": "Ilta-Sanomat",
-        "url": "https://www.is.fi"
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
       }
     }
   ]

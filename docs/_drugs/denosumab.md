@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 137
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Denosumab: ennustettu uusi käyttöaihe Vaikea ei-proliferatiivinen diabeettinen retinopatia (toissijainen en… (näytön taso L5). Alkuperäinen käyttöaihe: Luun jättisolukasvain (luukudoksen kasvaimet)"
 monitor_inn: "DENOSUMAB"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
@@ -53,7 +53,7 @@ Kumpaankaan indikaatioon ei ole **yhtään kliinistä tutkimusta**, ja diabeetti
 | TxGNN-ennustepistemäärä | 0.9963 (diabeettinen retinopatia: 0.9923) |
 | Näytön taso | L5 (vaikea ei-proliferatiivinen diabeettinen retinopatia); L4 (diabeettinen retinopatia) |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: vähintään 20) |
-| Myyntilupien määrä | 20 (kaikki peruutettuja) |
+| Myyntilupien määrä | vähintään 20 |
 | Suositeltu päätös | Hold (odotetaan) |
 
 ---

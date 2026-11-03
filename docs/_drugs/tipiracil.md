@@ -4,17 +4,17 @@ title: Tipiracil
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 438
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-28
-description: "Tipiracil: ennustettu uusi käyttöaihe Umpisuolen karvainen adenooma (cecum villous adenoma) (näytön taso L5). Alkuperäinen käyttöaihe: Kolorektaalisyöpä (paksu- ja peräsuolen kasvaimet)"
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "Tipiracil"
-predicted_indications: ["cecum villous adenoma", "lipoma of colon", "rectosigmoid junction neoplasm", "cecum neuroendocrine tumor G1", "colonic lymphangioma", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "cavernous hemangioma of colon", "colorectal gastrointestinal stromal tumor"]
+predicted_indications: ["cecum villous adenoma", "lipoma of colon", "cecum neuroendocrine tumor G1", "colonic lymphangioma", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "cavernous hemangioma of colon", "colorectal gastrointestinal stromal tumor"]
+description: "Tipiracil: ennustettu uusi käyttöaihe Umpisuolen villoosi adenooma (cecum villous adenoma) (näytön taso L5). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin"
 ---
 
 # Tipiracil
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,104 +33,66 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Tipirasiili: Umpisuolen karvainen adenooma
+## Tipiracil: Umpisuolen villoosi adenooma (cecum villous adenoma)
 {: .text-alpha }
 
-## Yhden virkkeen yhteenveto
+## Yhteenveto
 
-Tipirasiili on tymidiinifosforylaasin estäjä, jota käytetään yhdessä trifluridiinin kanssa kolorektaalisyövän hoidossa. TxGNN-malli ennustaa sen mahdollisesti sopivan **umpisuolen karvaisen adenooman (cecum villous adenoma)** hoitoon, mutta tälle ennusteelle ei löytynyt **yhtään kliinistä tutkimusta eikä julkaisua**. Ennuste perustuu lähinnä sairauksien läheisyyteen tautiluokituksessa, ei osoitettuun lääkevaikutukseen.
-
----
+Tipiracil on tymidiinifosforylaasin estäjä, jota käytetään yhdessä trifluridiinin kanssa. TxGNN-malli ennustaa sen voivan olla hyödyllinen indikaatiossa **umpisuolen villoosi adenooma (cecum villous adenoma)**. Tämän suunnan tueksi ei ole löytynyt yhtään kliinistä tutkimusta eikä julkaisua, joten ennuste perustuu pelkästään mallin laskemaan pisteytykseen.
 
 ## Pikakatsaus
 
-| Kohta | Sisältö |
+| Kohde | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Kolorektaalisyöpä (paksu- ja peräsuolen kasvaimet) |
-| Ennustettu uusi käyttöaihe | Umpisuolen karvainen adenooma (cecum villous adenoma) |
-| TxGNN-ennusteen pistemäärä | 0,9999 |
-| Näytön taso | L5 (vain mallin ennuste) |
+| Alkuperäinen käyttöaihe | Ei kirjattu paikallisiin tietoihin |
+| Ennustettu uusi käyttöaihe | Umpisuolen villoosi adenooma (cecum villous adenoma) |
+| TxGNN-ennustepisteet | 0.9999 |
+| Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |
-| Suositeltu päätös | Hold (odota) |
+| Suositeltu päätös | Odota (Hold) |
 
----
+## Miksi ennuste voisi olla perusteltu?
 
-## Miksi ennuste on (tai ei ole) perusteltu?
+Tipiracil estää tymidiinifosforylaasi-entsyymiä. Lääkettä käytetään yhdessä trifluridiinin kanssa metastasoituneen paksusuolen ja peräsuolen syövän hoidossa: tipiracil hidastaa trifluridiinin hajoamista ja pidentää sen vaikutusta. Tarkempaa vaikutusmekanismia koskevia tietoja ei tähän raporttiin koottu aineistoon sisälly.
 
-Tipirasiili estää tymidiinifosforylaasia, entsyymiä, joka hajottaa trifluridiinia. Yhdistelmävalmisteessa (trifluridiini/tipirasiili, Lonsurf) tipirasiili pitää trifluridiinin pitoisuuden korkeampana, ja trifluridiini toimii solunsalpaajana. Tipirasiili ei itse ole syöpälääke. Tarkempaa vaikutusmekanismitietoa ei ole tällä hetkellä saatavilla.
-
-Karvainen adenooma on paksusuolen syövän esiaste, jota hoidetaan tyypillisesti tähystyksessä tai leikkauksella. Korkea TxGNN-pistemäärä heijastaa anatomista ja tautiluokituksellista läheisyyttä kolorektaalisyöpään, ei osoitettua farmakologista hyötyä. Solunsalpaajahoidon tarve hyvänlaatuisessa tai esiastevaiheen leesiossa on kyseenalainen.
-
-Muut ennustetut käyttöaiheet viittaavat samaan suuntaan: useimmat ovat hyvänlaatuisia kasvaimia (lipooma, leiomyooma, hemangiooma, lymfangiooma), joille ei ole uskottavaa mekanistista yhteyttä lääkkeeseen. Peräsuolen ja sigmasuolen liitoksen kasvain kuuluu todennäköisesti jo nykyisen käyttöaiheen piiriin, joten se ei ole varsinainen uusi käyttöaihe.
-
----
+Villoosi adenooma on paksusuolen esiasteleesio, jota hoidetaan tyypillisesti tähystyksessä tai leikkauksella. Korkea ennustepistemäärä heijastaa todennäköisesti anatomista ja tautiluokituksellista läheisyyttä paksusuolen kasvaimiin, ei osoitettua farmakologista hyötyä. Solunsalpaajahoidon tarpeesta tässä esiasteessa ei ole näyttöä.
 
 ## Kliininen tutkimusnäyttö
 
-Tälle ennusteelle ei ole tällä hetkellä rekisteröityjä kliinisiä tutkimuksia.
-
----
+Tällä hetkellä ei ole kirjattuja aiheeseen liittyviä kliinisiä tutkimuksia.
 
 ## Kirjallisuusnäyttö
 
-Ensisijaiselle ennusteelle (umpisuolen karvainen adenooma) ei ole tällä hetkellä saatavilla kirjallisuutta.
+Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
-Läheisesti liittyvälle ennusteelle "umpisuolen sairaus" (cecal disease) löytyi kolme tapausselostetta. Ne koskevat metastasoitunutta kolorektaalisyöpää eivätkä osoita tehoa uudessa käyttöaiheessa:
-
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
-|------|-----|------|------|---------|
-| [32655959](https://pubmed.ncbi.nlm.nih.gov/32655959/) | 2020 | Tapausselostus | Case Reports in Oncological Medicine | Syöpälääkkeiden uudelleenanto potilaalla, jolla oli hoitoresistentti metastasoitunut kolorektaalisyöpä |
-| [30677817](https://pubmed.ncbi.nlm.nih.gov/30677817/) | 2018 | Tapausselostus | Dermatology Online Journal | Trifluridiini/tipirasiili-hoidon jälkeinen leukosytoklastinen vaskuliitti ja myöhään alkanut Henoch-Schönleinin purppura |
-| [30692384](https://pubmed.ncbi.nlm.nih.gov/30692384/) | 2018 | Tapausselostus | Gan to Kagaku Ryoho | Tietokonetomografiaohjatun keliakiapunoksen neurolyysin vaste paksusuolisyövän uusiutumiseen liittyvässä kivussa |
-
-Nämä tukevat vain epäsuorasti ja tuovat esiin lähinnä turvallisuussignaaleja.
-
----
-
-## Markkinatiedot Suomessa
+## Suomen markkinatiedot
 
 | Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
 | EMEA/H/C/003897 | Lonsurf | – | Kolorektaalisyöpä (tila: peruutettu) |
 
----
-
-## Solunsalpaajaominaisuudet
-
-Tipirasiili on käyttöaiheessaan osa solunsalpaajayhdistelmää (trifluridiini/tipirasiili) kolorektaalisyövän hoidossa.
-
-| Kohta | Sisältö |
-|------|------|
-| Luokitus | Yhdistelmän trifluridiini-osa on tavanomainen solunsalpaaja (tymidiinianalogi); tipirasiili on entsyymin estäjä |
-| Luuydinlama | Yhdistelmävalmisteella tunnettu riski (esim. neutropenia, leukopenia) |
-| Oksettavuusluokitus | Katso valmisteyhteenvedon varoitukset ja huomautukset |
-| Seurantakohteet | Verenkuva, maksa- ja munuaisarvot |
-| Käsittelysuojaus | Katso valmisteyhteenvedon varoitukset ja huomautukset |
-
----
+Myyntilupa on voimassa (1 lupa, joka on voimassa). Valmiste on yhdistelmävalmiste, joka sisältää myös trifluridiinia.
 
 ## Turvallisuusnäkökohdat
 
-- **Yhteisvaikutukset:** Farmakologiatietokannasta löytyi yksi merkintä: tipirasiilin kohteeksi on kuvattu SARS-CoV-2:n ei-rakenteellinen proteiini 15. Kliinisesti merkittäviä lääkeyhteisvaikutuksia ei ole tämän perusteella tunnistettu.
-- **Kirjallisuudesta nousseet turvallisuussignaalit:** Trifluridiini/tipirasiili-hoidon jälkeen on raportoitu leukosytoklastista vaskuliittia ja Henoch-Schönleinin purppuraa (tapausselostus).
+**Lääkkeiden yhteisvaikutukset**: Farmakologiatietokannasta löytyi yksi kirjaus, jonka mukaan tipiracil kohdistuu SARS-CoV-2:n ei-rakenteelliseen proteiiniin 15 (CoV Non-structural protein 15). Kliinistä yhteisvaikutusluokitusta ei ole annettu.
 
-Muuta turvallisuustietoa varten katso valmisteyhteenveto.
+Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
----
+## Johtopäätös ja seuraavat askeleet
 
-## Johtopäätös ja jatkotoimet
-
-**Päätös: Hold (odota)**
+**Päätös: Odota (Hold)**
 
 **Perustelut:**
-- Ennustetta tukee vain malli (L5): ei kliinisiä tutkimuksia eikä kohdennettua kirjallisuutta. Ennustetut kohteet ovat pääosin hyvänlaatuisia leesioita, joille solunsalpaajahoidolla ei ole mekanistista perustetta. Lisäksi Suomen myyntilupa on peruutettu.
+- Ennuste perustuu vain mallin pisteytykseen (taso L5). Aiheesta ei ole kliinisiä tutkimuksia eikä kirjallisuutta, eikä farmakologista perustetta solunsalpaajahoidolle hyvänlaatuisessa esiasteleesiossa ole.
 
-**Jatkoon etenemiseksi tarvitaan:**
-- Valmisteyhteenvedon varoitukset ja vasta-aiheet (Fimea), jotka estävät turvallisuusarvioinnin jatkamisen
-- Yksityiskohtaiset vaikutusmekanismitiedot
-- Prekliiniset tai mekanistiset tutkimukset karvaisen adenooman osalta
-- Selvitys myyntiluvan peruuntumisen syystä ja nykyisestä saatavuudesta Suomessa
+**Eteenpäin siirtyminen edellyttää:**
+- Prekliinistä tai mekanistista näyttöä tymidiinifosforylaasin eston merkityksestä villoosissa adenoomassa
+- Yksityiskohtaista vaikutusmekanismitietoa
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden kokoamista
+- Hyöty–haitta-arviota suhteessa nykyisiin tähystys- ja leikkaushoitoihin
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

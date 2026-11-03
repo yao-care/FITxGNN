@@ -3,7 +3,7 @@ layout: default
 title: Tietoa
 nav_order: 90
 permalink: /about/
-description: "FITxGNN on 藥提醒科技有限公司:n (yao.care) kehittämä lääkkeiden uudelleensijoittelun ennustealusta, joka perustuu Harvardin TxGNN-malliin ja kattaa Fimean hyväksymät lääkkeet Suomessa."
+description: "FITxGNN on 藥提醒科技有限公司:n (yao.care) kehittämä lääkkeiden uudelleensijoittelun ennustealusta, joka perustuu Harvardin TxGNN-malliin ja kattaa EU:n keskitetyssä menettelyssä (EMA) myyntiluvan saaneet lääkkeet, jotka ovat voimassa myös Suomessa."
 ---
 
 # Tietoa
@@ -19,7 +19,7 @@ Nopeutamme lääkkeiden uudelleensijoittelun näytön validointia tekoälyn avul
 <p class="key-answer" data-question="Mikä FITxGNN on?">
 <strong>FITxGNN</strong> on lääkkeiden uudelleensijoittelun tutkimusta tukeva alusta, joka perustuu
 Harvardin yliopiston Zitnik Labin <em>Nature Medicine</em> -lehdessä julkaisemaan TxGNN-malliin.
-Se ennustaa käyttöaiheiden laajentamista Fimean Suomessa hyväksymille lääkkeille. Tekoälyn
+Se ennustaa käyttöaiheiden laajentamista lääkkeille, jotka ovat saaneet myyntiluvan EU:n keskitetyssä menettelyssä (EMA) ja ovat voimassa myös Suomessa. Tekoälyn
 ennustepisteiden lisäksi alusta yhdistää kliinistä näyttöä ClinicalTrials.gov-palvelusta ja
 PubMedistä, jotta tutkijat voivat nopeasti arvioida kunkin ennusteen uskottavuutta.
 </p>
@@ -38,7 +38,7 @@ Tuotteen yleiskuvaus: <https://www.yao.care/medical/txgnn/>.
 
 Itse TxGNN-mallin on kehittänyt Zitnik Lab Harvard Medical Schoolissa, ja se on julkaistu
 *Nature Medicine* -lehdessä. Tämä alusta on tuotantojärjestelmä, jonka 藥提醒科技有限公司 on rakentanut
-kyseisen mallin päälle. Se kattaa kansallisten lääkerekisteritietojen integroinnin, syväoppimiseen perustuvan ennusteen, josta tietograafiin jo kirjatut käyttöaiheet on suljettu pois, PubMed- ja ClinicalTrials-näytön luokittelun sekä
+kyseisen mallin päälle. Se kattaa EMA:n myyntilupatietojen integroinnin, syväoppimiseen perustuvan ennusteen, josta tietograafiin jo kirjatut käyttöaiheet on suljettu pois, PubMed- ja ClinicalTrials-näytön luokittelun sekä
 SMART on FHIR -integraation potilastietojärjestelmiin.
 
 ---
@@ -104,7 +104,7 @@ Ennusteiden, näytön ja lääketietojen lähteet sekä niiden lisenssit ja päi
 | Kohde | Arvo |
 |------|-------|
 | Lääkeraportteja | {{ site.data.drug_stats.total_drugs }} |
-| Lääkeviranomainen | Fimea |
+| Myyntilupatiedot | EMA (EU:n keskitetyt myyntiluvat) |
 | Käyttöönotettuja sivustoja | 30 maata / aluetta |
 
 ---

@@ -19,9 +19,9 @@ Näytön tasot ovat L1 (vahvempi kliininen näyttö) – L5 (vain mallin ennuste
 - `/evidence-low/` Pelkkä mallin ennuste (L5) — FITxGNN:n L5-tason ehdokkaat: pelkkä mallin ennuste, ilman kliinistä tai kirjallisuusnäyttöä.
 - `/methodology/` Menetelmät — Miten FITxGNN tuottaa ja validoi ennusteet: TxGNN-syväoppimismallin ennusteet, näytön kerääminen, L1–L5-luokittelu ja päätössuositukset.
 - `/guide/` Käyttöopas — FITxGNN-käyttöopas: miten lääkkeitä haetaan, miten näytön tasoja luetaan ja miten suosituksia tulkitaan.
-- `/sources/` Tietolähteet — FITxGNN:n taustalla olevat tietolähteet: Fimean myyntilupatiedot, TxGNN, ClinicalTrials.gov, PubMed ja DrugBank.
+- `/sources/` Tietolähteet — FITxGNN:n taustalla olevat tietolähteet: EMA:n Medicines report (EU:n keskitetyt myyntiluvat), TxGNN, ClinicalTrials.gov, PubMed ja DrugBank.
 - `/downloads/` Lataukset — FITxGNN:n avoimen datan lataukset: FHIR-resurssit, ennustetulokset ja hakuindeksi.
-- `/about/` Tietoa — FITxGNN on 藥提醒科技有限公司:n (yao.care) kehittämä lääkkeiden uudelleensijoittelun ennustealusta, joka perustuu Harvardin TxGNN-malliin ja kattaa Fimean hyväksymät lääkkeet Suomessa.
+- `/about/` Tietoa — FITxGNN on 藥提醒科技有限公司:n (yao.care) kehittämä lääkkeiden uudelleensijoittelun ennustealusta, joka perustuu Harvardin TxGNN-malliin ja kattaa EU:n keskitetyssä menettelyssä (EMA) myyntiluvan saaneet lääkkeet, jotka ovat voimassa myös Suomessa.
 
 ## Esimerkkejä lääkeraporteista
 

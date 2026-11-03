@@ -24,7 +24,7 @@ automaattisesti näyttöä, näyttö luokitellaan tasoille L1–L5 ja lopuksi an
 
 <ol class="actionable-steps">
 <li><strong>TxGNN-ennuste</strong>: TxGNN-malli ennustaa lääkkeen ja sairauden välisiä suhteita. Se on syväoppimismalli: graafineuroverkko, joka on koulutettu biolääketieteellisellä tietograafilla.</li>
-<li><strong>Näytön kerääminen</strong>: jokaiselle ennustetulle parille kerätään näyttöä lähteistä ClinicalTrials.gov, PubMed, DrugBank ja Fimea.</li>
+<li><strong>Näytön kerääminen</strong>: jokaiselle ennustetulle parille kerätään näyttöä lähteistä ClinicalTrials.gov, PubMed, DrugBank ja EMA:n Medicines report.</li>
 <li><strong>Näytön luokittelu</strong>: luokitus tasoille L1–L5, joissa L1 on vahvin (useita vaiheen 3 RCT-tutkimuksia) ja L5 tarkoittaa pelkkää mallin ennustetta.</li>
 <li><strong>Päätössuositus</strong>: Go, Proceed, Consider, Explore tai Hold näytön tason perusteella.</li>
 </ol>
@@ -62,7 +62,7 @@ TxGNN:n syväoppimismalli (DL) pisteyttää lääke–sairaus-parit. Sen jälkee
 
 ## Viranomaistietojen integrointi
 
-Suomen lääkkeiden myyntilupatiedot ovat peräisin Fimealta. Vaikuttavien aineiden nimet
+Lääkkeiden myyntilupatiedot ovat peräisin EMA:n Medicines reportista (EU:n keskitetyt myyntiluvat). Vaikuttavien aineiden nimet
 kohdennetaan DrugBank-sanastoon; aineet, joita ei voida kohdentaa — kasviuutteet, rokotteet,
 apuaineet ja muut DrugBankiin luetteloimattomat — jätetään ennusteen ulkopuolelle.
 

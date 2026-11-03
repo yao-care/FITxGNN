@@ -4,17 +4,17 @@ title: Vestronidase Alfa
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 469
 evidence_level: L5
-indication_count: 9
-last_modified_at: 2026-10-28
-description: "Vestronidase Alfa: ennustettu uusi käyttöaihe Scheien oireyhtymä (näytön taso L5). Alkuperäinen käyttöaihe: Mukopolysakkaridoosi VII"
+indication_count: 8
+last_modified_at: 2026-11-03
 monitor_inn: "VESTRONIDASE ALFA"
-predicted_indications: ["Scheie syndrome", "lysosomal storage disease with skeletal involvement", "Hurler syndrome", "Sanfilippo syndrome", "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye", "ptosis-vocal cord paralysis syndrome", "ptosis-strabismus-ectopic pupils syndrome", "ptosis-upper ocular movement limitation-absence of lacrimal punctum syndrome", "congenital Horner syndrome (disease)"]
+predicted_indications: ["Scheie syndrome", "Hurler syndrome", "Sanfilippo syndrome", "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye", "ptosis-vocal cord paralysis syndrome", "ptosis-strabismus-ectopic pupils syndrome", "ptosis-upper ocular movement limitation-absence of lacrimal punctum syndrome", "congenital Horner syndrome (disease)"]
+description: "Vestronidase Alfa: ennustettu uusi käyttöaihe Scheien oireyhtymä (Scheie syndrome) (näytön taso L5). Alkuperäinen käyttöaihe: Mucopolysaccharidosis VII"
 ---
 
 # Vestronidase Alfa
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **8** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,14 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 
 </div>
 
-## Vestronidaasialfa: Mukopolysakkaridoosi VII:n hoidosta Scheien oireyhtymään
+## Vestronidase Alfa: Scheien oireyhtymä (Scheie syndrome)
 {: .text-alpha }
 
 ## Yhden lauseen tiivistelmä
 
-Vestronidaasialfa on rekombinantti ihmisen beetaglukuronidaasi, jota on käytetty entsyymikorvaushoitona **mukopolysakkaridoosi VII:n (MPS VII)** hoidossa.
-TxGNN-malli ennustaa sen voivan tehota **Scheien oireyhtymään**, mutta ennusteelle ei ole kliinisiä tutkimuksia eikä kirjallisuutta (**0 kliinistä tutkimusta, 0 julkaisua**). Näyttö perustuu pelkästään mallin ennusteeseen.
+Vestronidaasi alfa on rekombinantti ihmisen beetaglukuronidaasi, entsyymikorvaushoito, joka on Suomessa lupa-asiakirjoissa kirjattu mukopolysakkaridoosi VII:n hoitoon.
+TxGNN-malli ennustaa sen voivan tehota **Scheien oireyhtymään (Scheie syndrome)**.
+Ennusteen tueksi ei tällä hetkellä ole **yhtään kliinistä tutkimusta eikä julkaisua**, joten kyseessä on pelkkä mallin ennuste.
 
 ---
 
@@ -47,9 +48,9 @@ TxGNN-malli ennustaa sen voivan tehota **Scheien oireyhtymään**, mutta ennuste
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Mukopolysakkaridoosi VII |
-| Ennustettu uusi käyttöaihe | Scheien oireyhtymä |
-| TxGNN-ennusteen pistemäärä | 0,9990 |
+| Alkuperäinen käyttöaihe | Mucopolysaccharidosis VII |
+| Ennustettu uusi käyttöaihe | Scheien oireyhtymä (Scheie syndrome) |
+| TxGNN-ennustepistemäärä | 0.9990 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |
@@ -57,55 +58,41 @@ TxGNN-malli ennustaa sen voivan tehota **Scheien oireyhtymään**, mutta ennuste
 
 ---
 
-## Miksi ennuste voisi olla perusteltu?
+## Miksi ennuste on perusteltu?
 
-Tässä raportissa käytettävissä ei ole yksityiskohtaisia tietoja vaikutusmekanismista. Tiedossa on, että vestronidaasialfa on rekombinantti ihmisen beetaglukuronidaasi, joka hajottaa glykosaminoglykaaneja (GAG), ja sen teho MPS VII:ssä on osoitettu.
+Scheien oireyhtymä (lievä MPS I) johtuu alfa-L-iduronidaasin puutteesta, joka johtaa dermataani- ja heparaanisulfaatin kertymiseen. Vestronidaasi alfa on rekombinantti ihmisen beetaglukuronidaasi, joka pilkkoo glykosaminoglykaaneja, dermataanisulfaatti mukaan lukien. Lääkkeellä ja sairaudella on siis mahdollisesti yhteinen substraattireitti.
 
-Scheien oireyhtymä (lievä MPS I) johtuu alfa-L-iduronidaasin (IDUA) puutteesta, joka johtaa dermataani- ja heparaanisulfaatin kertymiseen. Vestronidaasialfa hajottaa glykosaminoglykaaneja, dermataanisulfaatti mukaan lukien, joten sairauksilla on jaettu substraattireitti.
+Mekanistinen yhteys on kuitenkin heikko. Lääke ei korvaa puuttuvaa IDUA-entsyymiä, ja substraatin on ensin käsiteltävä iduronidaasin toimesta. Korkea TxGNN-pistemäärä on vain laskennallinen ennuste. Lisäksi tälle sairaudelle on jo olemassa hyväksytty IDUA-entsyymikorvaushoito (laronidaasi).
 
-Mekanistinen yhteys on kuitenkin heikko. Lääke ei korvaa puuttuvaa IDUA-entsyymiä, ja substraatin on ensin kulkeuduttava iduronidaasin kautta. Lisäksi tälle sairaudelle on jo olemassa hyväksytty IDUA-entsyymikorvaushoito (laronidaasi). Korkea pistemäärä on siis vain mallin ennuste.
+Lääkkeen yksityiskohtaisia vaikutusmekanismitietoja ei ole tämän raportin tiedoissa saatavilla.
 
 ---
 
-## Kliiniset tutkimukset
+## Kliininen tutkimusnäyttö
 
-Ensisijaiselle ennusteelle (Scheien oireyhtymä) ei ole rekisteröityjä kliinisiä tutkimuksia.
-
-Vertailun vuoksi: kolmanneksi sijoittuneelle ennusteelle, Hurlerin oireyhtymälle, löytyi yksi tutkimus:
-
-| Tutkimusnumero | Vaihe | Tila | Osallistujia | Keskeiset havainnot |
-|---------|------|------|------|---------|
-| [NCT04532047](https://clinicaltrials.gov/study/NCT04532047) | Vaihe 1 | Rekrytoi | 10 | PEARL: kohdunsisäisen sikiöaikaisen entsyymikorvaushoidon turvallisuus ja toteutettavuus lysosomaalisissa kertymäsairauksissa. Ei tehotietoja; vestronidaasialfan käyttöä Hurlerin oireyhtymässä ei voida vahvistaa. |
+Scheien oireyhtymää koskevia kliinisiä tutkimuksia ei tällä hetkellä ole rekisteröity.
 
 ---
 
 ## Kirjallisuusnäyttö
 
-Scheien oireyhtymälle ei ole aiheeseen liittyvää kirjallisuutta.
-
-Vertailun vuoksi: Sanfilippon oireyhtymän ennusteen yhteydessä haetut julkaisut koskevat MPS VII:ää, eivät Sanfilippon oireyhtymää, joten ne ovat vain epäsuoraa näyttöä:
-
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
-|------|-----|------|------|---------|
-| [32063397](https://pubmed.ncbi.nlm.nih.gov/32063397/) | 2020 | Kliininen tutkimus | Molecular Genetics and Metabolism | Vaiheen 3 satunnaistetun, lumekontrolloidun tutkimuksen (NCT02377921) 12 osallistujaa: virtsan GAG-pitoisuus laski merkittävästi; pitkäaikaisturvallisuus ja teho MPS VII:ssä. |
-| [30467742](https://pubmed.ncbi.nlm.nih.gov/30467742/) | 2019 | PK/PD-mallinnus | Clinical Pharmacokinetics | Annoksen optimointi MPS VII:ssä kolmen tutkimuksen perusteella. |
-| [29478819](https://pubmed.ncbi.nlm.nih.gov/29478819/) | 2018 | Tutkimusasetelman kuvaus | Molecular Genetics and Metabolism | Uudenlainen "Blind Start" -asetelma ultraharvinaisen MPS VII:n tutkimiseen. |
+Scheien oireyhtymää koskevaa kirjallisuutta ei tällä hetkellä ole saatavilla.
 
 ---
 
-## Suomen markkinatiedot
+## Tiedot Suomen markkinoilta
 
 | Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
 | EMEA/H/C/004438 | Mepsevii | – | Mukopolysakkaridoosi VII (tila: peruutettu) |
 
+Lupa on voimassa; valmistaja on Ultragenyx Germany GmbH.
+
 ---
 
 ## Turvallisuusnäkökohdat
 
-Turvallisuustiedot on tarkistettava valmisteyhteenvedosta. Tässä raportissa käytettävissä olevat tiedot eivät sisällä varoituksia, vasta-aiheita tai yhteisvaikutustietoja.
-
-Ennustetuista käyttöaiheista Sanfilippon oireyhtymän osalta on huomattava, että suuri suonensisäinen proteiini ei oletettavasti läpäise veri-aivoesteä merkittävästi, mikä rajoittaa hyötyä keskushermosto-oireisiin.
+Turvallisuustiedot, katso valmisteyhteenveto.
 
 ---
 
@@ -113,15 +100,15 @@ Ennustetuista käyttöaiheista Sanfilippon oireyhtymän osalta on huomattava, et
 
 **Päätös: Hold (odota)**
 
-**Perustelu:**
-Ennuste Scheien oireyhtymälle perustuu vain malliin (L5), eikä sille ole kliinisiä tutkimuksia tai kirjallisuutta. Mekanistinen yhteys on heikko, koska lääke ei korvaa puuttuvaa IDUA-entsyymiä, ja hyväksytty hoito (laronidaasi) on jo olemassa. Lääkkeen myyntilupa Suomessa on lisäksi peruutettu.
+**Perustelut:**
+Ennuste perustuu pelkkään malliin: kliinisiä tutkimuksia tai julkaisuja Scheien oireyhtymästä ei ole, ja mekanistinen yhteys on heikko, koska lääke ei korvaa puuttuvaa IDUA-entsyymiä. Lisäksi hyväksytty IDUA-entsyymikorvaushoito on jo olemassa.
 
-**Jatkoa varten tarvitaan:**
-- Valmisteyhteenvedon turvallisuustiedot (varoitukset ja vasta-aiheet), jotka ovat estävä tietoaukko
-- Yksityiskohtaiset vaikutusmekanismitiedot
-- Prekliinistä näyttöä siitä, hajottaako vestronidaasialfa IDUA-puutteessa kertyvää substraattia
-- Arvio lääkkeen saatavuudesta ja annosteluteistä, koska myyntilupa on peruutettu
-- Muut ennusteet (esim. Hurlerin ja Sanfilippon oireyhtymä, rajatut silmä- ja luustosairaudet) ovat joko heikosti perusteltuja tai ilman mekanistista yhteyttä, eikä niitä suositella jatkotutkimukseen ilman uutta näyttöä. Hurlerin oireyhtymä voidaan pitää tutkimuskysymyksenä (L4).
+**Eteenpäin siirtyminen edellyttää:**
+- Prekliinistä tai mekanistista näyttöä siitä, että beetaglukuronidaasi voi vähentää glykosaminoglykaanien kertymistä IDUA-puutteessa
+- Yksityiskohtaisia vaikutusmekanismitietoja
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden läpikäyntiä
+- Vertailua olemassa olevaan laronidaasihoitoon
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

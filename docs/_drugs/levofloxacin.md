@@ -4,17 +4,17 @@ title: Levofloxacin
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 263
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-28
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "LEVOFLOXACIN"
-predicted_indications: ["punctate epithelial keratoconjunctivitis", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder"]
-description: "Levofloxacin: ennustettu uusi käyttöaihe Punctate epithelial keratoconjunctivitis (näytön taso L5). Alkuperäinen käyttöaihe: Cystic Fibrosis"
+predicted_indications: ["punctate epithelial keratoconjunctivitis", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder"]
+description: "Levofloxacin: ennustettu uusi käyttöaihe Pistemäinen epiteelin keratokonjunktiviitti (punctate epithelial keratoconjunctivitis) (näytön taso L5). Alkuperäinen käyttöaihe: Cystic Fibrosis"
 ---
 
 # Levofloxacin
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,99 +33,110 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Levofloxacin: Punctate epithelial keratoconjunctivitis
+## Levofloxacin: Pistemäinen epiteelin keratokonjunktiviitti (punctate epithelial keratoconjunctivitis)
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 
-Levofloksasiini on fluorokinoloniryhmän laajakirjoinen antibiootti, jota on käytetty kystisen fibroosin yhteydessä esiintyvien hengitystieinfektioiden hoitoon.
-TxGNN-malli ennustaa sen voivan olla hyödyllinen **monoklonaalisessa gammopatiassa** (rank 7), mutta tuki perustuu infektioiden ehkäisyyn myeloomapotilailla, ei itse sairauden hoitoon.
-Aineistossa on **0 kliinistä tutkimusrekisteröintiä** ja **20 julkaisua** tälle indikaatiolle, joiden joukossa on yksi vaiheen 3 RCT (TEAMM).
+Levofloksasiini on laajakirjoinen fluorokinoloniryhmän antibakteerinen lääke. TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **pistemäisen epiteelin keratokonjunktiviitin (punctate epithelial keratoconjunctivitis)** pistemäärällä 0,9992. Ennusteen tueksi ei ole rekisteröityjä kliinisiä tutkimuksia, ja löytynyt yksi julkaisu koskee eri tautia, joten näyttö on toistaiseksi vain mallin ennusteen varassa.
 
-Huomio: ennusteluettelon ensimmäinen kohde, pistemäisen epiteliaalisen keratokonjunktiviitin ennuste (pistemäärä 0,9992), perustuu vain yhteen mikrosporidiaepidemiaa kuvaavaan julkaisuun, jota ei voida pitää tukena. Tässä raportissa on siksi arvioitu tarkemmin kolmea kohdetta: ensimmäistä ennustetta, monoklonaalista gammopatiaa (vahvin kliininen aineisto) ja septistä paiseruttoa (vahvin mekanistinen peruste).
+---
 
 ## Pikakatsaus
 
-| Kohta | Sisältö |
+| Kohde | Sisältö |
 |------|------|
-| Alkuperäinen indikaatio | Cystic Fibrosis;Respiratory Tract Infections |
-| Ennustettu uusi indikaatio (ensimmäinen) | Punctate epithelial keratoconjunctivitis |
-| TxGNN-ennustepistemäärä (ensimmäinen) | 0.9992 |
-| Lupaavin jatkotarkasteltava ennuste | Monoklonaalinen gammopatia (0.9981) |
-| Näytön taso | L5 (ensimmäinen ennuste); L4 (monoklonaalinen gammopatia, septinen paiseruttto) |
+| Alkuperäinen käyttöaihe | Cystic Fibrosis;Respiratory Tract Infections |
+| Ennustettu uusi käyttöaihe | Pistemäinen epiteelin keratokonjunktiviitti (punctate epithelial keratoconjunctivitis) |
+| TxGNN-ennustepistemäärä | 0.9992 |
+| Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |
-| Suositeltu päätös | Hold (odota); monoklonaalinen gammopatia ja septinen paiserutto: tutkimuskysymys |
+| Suositeltu päätös | Odota |
+
+---
 
 ## Miksi ennuste on perusteltu?
 
-Yksityiskohtaista vaikutusmekanismitietoa ei ole tällä hetkellä saatavilla aineistosta. Tunnetun tiedon perusteella levofloksasiini on fluorokinoloni, joka estää bakteerin DNA-gyraasia ja topoisomeraasi IV:ää, ja sen teho bakteeri-infektioissa on osoitettu. Mekanistisesti se voi soveltua uusiin indikaatioihin vain, jos taustalla on bakteeriperäinen tai infektioon liittyvä tekijä.
+Levofloksasiinin vaikutusmekanismia koskevia yksityiskohtaisia tietoja ei ole tämän raportin aineistossa. Se kuuluu fluorokinolonien ryhmään, ja sen antibakteerinen teho on tunnettu. Mekanistisesti se voisi olla käyttökelpoinen silmän pinnan bakteeriperäisissä tulehduksissa, ja paikallisesti annosteltuja fluorokinoloneja käytetään silmätulehduksiin.
 
-**Pistemäinen epiteliaalinen keratokonjunktiviitti:** ainoa löydetty julkaisu kuvaa mikrosporidien aiheuttamaa silmätulehdusepidemiaa uima-allasveden saastumisen yhteydessä. Fluorokinoloneilla ei ole vakiintunutta tehoa mikrosporidioihin, joten yhteys on heikko. Korkea pistemäärä ei saa tukea kliinisestä näytöstä.
+Ennustetun taudin ja lääkkeen antibakteerisen vaikutuksen välinen yhteys on kuitenkin heikko. Ainoa löytynyt julkaisu kuvaa mikrosporidien aiheuttamaa, siis ei-bakteeriperäistä, keratokonjunktiviittiepidemiaa. Fluorokinoloneilla ei tiedetä olevan vakiintunutta tehoa mikrosporidiin. Korkea pistemäärä on siksi vain laskennallinen löydös, jota kliininen näyttö ei tue. Yhteyden vahvistaminen vaatisi lisätutkimuksia.
 
-**Monoklonaalinen gammopatia:** näyttö liittyy infektioiden ehkäisyyn multippelia myeloomaa sairastavilla. TEAMM-tutkimuksessa (satunnaistettu, kaksoissokkoutettu, lumekontrolloitu vaiheen 3 koe, äskettäin diagnosoitu myelooma) levofloksasiini vähensi kuumeisia jaksoja ja kuolemia ensimmäisten 12 hoitoviikon aikana. Väestö (oireinen myelooma) poikkeaa esiasteesta (MGUS), eikä näyttö osoita vaikutusta itse plasmasolusairauteen. Kyse on siis tukihoidosta, ei sairauden hoidosta.
-
-**Septinen paiserutto:** levofloksasiini estää Yersinia pestis -bakteerin kasvua, joten mekanismi on suora. Eläinmalleissa (afrikkalainen vihermarakatti) levofloksasiini paransi keuhkopaiseruton, ja tämä on ollut perusteena FDA:n hyväksynnälle eläintehosäännön (Animal Rule) nojalla. Hiirillä tulokset ovat vaihtelevia. Ihmisillä tehtyjä kliinisiä tutkimuksia ei löytynyt.
+---
 
 ## Kliininen tutkimusnäyttö
 
-Tällä hetkellä ei ole rekisteröityjä kliinisiä tutkimuksia, jotka liittyisivät ennustettuihin indikaatioihin.
+Tähän käyttöaiheeseen ei ole tällä hetkellä rekisteröityjä kliinisiä tutkimuksia.
+
+---
 
 ## Kirjallisuusnäyttö
 
-Alla on monoklonaalisen gammopatian vahvimmat julkaisut (RCT ja kohorttitutkimukset ensin) sekä septisen paiseruton keskeiset eläinkokeet.
-
-**Monoklonaalinen gammopatia (myeloomapotilaat)**
-
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [31668592](https://pubmed.ncbi.nlm.nih.gov/31668592/) | 2019 | RCT (vaihe 3) | Lancet Oncol | TEAMM: levofloksasiiniprofylaksi vvasta diagnosoidussa myeloomassa, monikeskus, kaksoissokkoutettu, lumekontrolloitu |
-| [31690402](https://pubmed.ncbi.nlm.nih.gov/31690402/) | 2019 | RCT-yhteenveto | Health Technol Assess | TEAMM-tutkimuksen laajempi raportti infektioiden ehkäisystä |
-| [29080369](https://pubmed.ncbi.nlm.nih.gov/29080369/) | 2018 | Kohortti | Clin Transplant | Siprofloksasiinin ja levofloksasiinin vertailu autologisessa kantasolusiirrossa myeloomapotilailla (297 potilasta) |
-| [26150022](https://pubmed.ncbi.nlm.nih.gov/26150022/) | 2015 | Kohortti | Biol Blood Marrow Transplant | Levofloksasiiniprofylaksin vaikutus verenmyrkytyksiin ja kuumeeseen neutropeniassa |
-| [37573150](https://pubmed.ncbi.nlm.nih.gov/37573150/) | 2023 | Kohortti | Transpl Infect Dis | Infektiokomplikaatiot autologisen kantasolusiirron jälkeen myeloomapotilailla |
-| [32172361](https://pubmed.ncbi.nlm.nih.gov/32172361/) | 2020 | Katsaus | Curr Hematol Malig Rep | Myeloomapotilaiden tukihoito, mukaan lukien infektiot |
-| [32304873](https://pubmed.ncbi.nlm.nih.gov/32304873/) | 2020 | Katsaus/kommentti | Biol Blood Marrow Transplant | Fluorokinoloniprofylaksi autologisessa kantasolusiirrossa on edelleen kiistanalaista |
-| [25212681](https://pubmed.ncbi.nlm.nih.gov/25212681/) | 2014 | Havainnointitutkimus | Int J Hematol | Levofloksasiiniprofylaksi bortetsomibia saavilla myeloomapotilailla (80 potilasta) |
+| [30055152](https://pubmed.ncbi.nlm.nih.gov/30055152/) | 2018 | Epidemiaraportti | American Journal of Ophthalmology | Kuvaus Taiwanissa uima-altaan veden saastumiseen liittyneestä mikrosporidien aiheuttamasta keratokonjunktiviittiepidemiasta. Julkaisu ei tutki levofloksasiinin tehoa. |
 
-**Septinen paiserutto**
+Julkaisu ei tutki ennustettua tautia suoraan eikä arvioi levofloksasiinia hoitona.
 
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset löydökset |
-|------|-----|------|------|---------|
-| [32435805](https://pubmed.ncbi.nlm.nih.gov/32435805/) | 2020 | Eläinkoe (kädellinen) | Clin Infect Dis | Hoidon viivästymisen vaikutus siprofloksasiinin ja levofloksasiinin tehoon keuhkopaiseruttomallissa |
-| [21347450](https://pubmed.ncbi.nlm.nih.gov/21347450/) | 2011 | Eläinkoe (kädellinen) | PLoS Negl Trop Dis | Levofloksasiini paransi kokeellisen keuhkopaiseruton |
-| [17517837](https://pubmed.ncbi.nlm.nih.gov/17517837/) | 2007 | Eläinkoe (in vitro -malli) | Antimicrob Agents Chemother | Streptomysiinin ja levofloksasiinin vertailu, resistenssin kehittyminen |
-| [32435803](https://pubmed.ncbi.nlm.nih.gov/32435803/) | 2020 | Katsaus | Clin Infect Dis | Kädellismalli ja antimikrobien hyväksyntä FDA:n eläintehosäännön nojalla |
+---
 
-## Myyntiluvat Suomessa
+## Markkinatiedot Suomessa
 
 | Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
 | EMEA/H/C/002789 | Quinsair | – | Kystinen fibroosi; hengitystieinfektiot (peruutettu) |
 
-## Turvallisuusnäkökohdat
+---
 
-- **Mahdolliset vasta-aiheet ja riskitilat (tietämysgraafista, ei valmisteyhteenvedosta):** pitkä QT-oireyhtymä ja torsades de pointes, epilepsia, maksasairaus ja lääkeaiheuttama maksavaurio, trombosytopenia, leukopenia ja pansytopenia, kaliumin puutos, jännetulehdus, diabetes ja diabeettinen ketoasidoosi, perifeerinen neuropatia, rabdomyolyysi, Clostridium difficile -koliitti, munuaisten vajaatoiminta, myasthenia gravis, sydänlihaksen iskemia ja sepelvaltimotauti.
-- **Lääkeyhteisvaikutukset:** tietokannassa on yhteensä 100 yhteisvaikutusta. Merkittäviksi (Major) luokiteltuja ovat muun muassa tramadoli ja hydrokortisoni. Kohtalaisia (Moderate) ovat muun muassa abirateroni, asarbosi, famotidiini, formoteroli, ketorolaakki, adenosiini, ibuprofeeni, etinyyliestradioli, metformiini, pioglitatsoni ja alfutsosiini. Lieviä (Minor) ovat muun muassa paklitakseli ja aldesleukiini.
+## Turvallisuushuomioita
 
-Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole tässä aineistossa saatavilla, joten ne tulee tarkistaa Fimean valmisteyhteenvedosta.
+**Lääkeinteraktiot:** Käytettävissä olevaan tietoon on kirjattu yhteensä 100 interaktiota. Merkittävimpiä (vaikeusaste "merkittävä") ovat:
+- tramadoli
+- hydrokortisoni
 
-Myeloomahoidoissa on lisäksi otettava huomioon fluorokinoloniresistenssi, C. difficile -riski sekä jänne-, QT- ja keskushermostohaitat.
+Kohtalaisia interaktioita on kirjattu muun muassa seuraavien kanssa:
+- abirateroni
+- asarboosi
+- famotidiini
+- formoteroli
+- ketorolaakki
+- ibuprofeeni
+- etinyyliestradioli
+- metformiini
+- pioglitatsoni
+- salbutamoli
 
-## Johtopäätös ja seuraavat askeleet
+**Varovaisuutta vaativat tilat:** Tähän raporttiin koottujen tietojen mukaan seuraavat tilat edellyttävät erityistä huolellisuutta (ei pakkausselosteen tekstiä):
+- sydämen rytmihäiriöt (pitkä QT-oireyhtymä, torsades de pointes)
+- epilepsia
+- jännetulehdukset
+- myasthenia gravis
+- perifeerinen neuropatia
+- maksasairaudet
+- munuaisten vajaatoiminta
+- diabetes
+- *Clostridium difficile* -koliitti
+- verisolujen vähyys
 
-**Päätös: Hold (odota)**
+Pakkausselosteen varoituksia ja vasta-aiheita ei ole saatavilla. Tarkista ne Fimean pakkausselosteesta.
+
+---
+
+## Johtopäätös ja seuraavat vaiheet
+
+**Päätös: Odota**
 
 **Perustelut:**
-- Ensimmäisen ennusteen (pistemäinen epiteliaalinen keratokonjunktiviitti) näyttö on olematon, ja mekanistinen yhteys on heikko. Monoklonaalisen gammopatian näyttö koskee infektioiden ehkäisyä oireisessa myeloomassa, ei esiastetilan tai sairauden hoitoa. Septisen paiseruton näyttö on eläinmalleissa, ja sen vahvuutena on suora mekanismi. Molemmat voidaan merkitä tutkimuskysymyksiksi (Research Question), mutta ei etenemiseksi sellaisenaan.
-- Fimean valmisteyhteenvedon turvallisuustiedot puuttuvat, mikä estää etenemisen turvallisuusseulontaan. Lisäksi markkinatilanne (vain peruutettu lupa) voi vaikuttaa saatavuuteen.
+- Ennusteella on korkea pistemäärä (0,9992), mutta kliinisiä tutkimuksia ei ole. Ainoa julkaisu koskee eri etiologian (mikrosporidi) keratokonjunktiviittia, joten näytön taso on L5.
+- Levofloksasiinin tunnettu vaikutus on antibakteerinen, eikä se tue tehoa tässä taudissa.
 
-**Eteenpäin siirtyminen edellyttää:**
-- Fimean valmisteyhteenvedon varoitusten ja vasta-aiheiden hakeminen ja jäsentäminen
-- Vaikutusmekanismitietojen täydentäminen DrugBankista
-- Monoklonaalinen gammopatia: arvio TEAMM-tutkimuksen soveltuvuudesta MGUS-potilaisiin sekä riski-hyötyarvio resistenssin, C. difficile -riskin ja yhteisvaikutusten kannalta
-- Septinen paiserutto: ihmisaineiston ja nykyisten hoitosuositusten selvittäminen sekä valmisteen saatavuuden varmistaminen
-- Muut ennusteet (hyperamylasemia, polyklonaalinen hyperviskositeettioireyhtymä, synnynnäinen analbuminemia, veriryhmäyhteensopimattomuus, esiasteiset hematologiset sairaudet, hematologiseen sairauteen liittyvä neuropatia, synnynnäiset hematologiset häiriöt): ei perusteltua jatkotutkimusta nykyisen aineiston perusteella
+**Etenemiseksi tarvitaan:**
+- Kirjallisuushaku ja arvio siitä, onko pistemäisen epiteelin keratokonjunktiviitin hoidossa tai taudinaiheuttajissa yhteys fluorokinolonien vaikutukseen.
+- Vaikutusmekanismia koskevat tiedot.
+- Pakkausselosteen turvallisuustiedot (varoitukset, vasta-aiheet).
+- Arvio antoreitistä, sillä silmän pintaan sopiva valmiste edellyttäisi paikallista antoa.
+- Prekliiniset tai pienimuotoiset kliiniset tutkimukset, ennen kuin ennustetta voidaan viedä eteenpäin.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

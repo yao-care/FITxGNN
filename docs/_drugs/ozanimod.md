@@ -64,7 +64,7 @@ TxGNN-syväoppimismallin (pistemäärä ≥ 0,99) Ozanimodille tuottamat ehdokka
 | Indikaatio |
 |------|
 
-## Market information
+## Markkinatiedot Suomessa
 
 | Myyntilupa | Valmiste | Lääkemuoto | Tila |
 |------|------|------|------|

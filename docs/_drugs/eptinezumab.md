@@ -64,7 +64,7 @@ TxGNN-mallin ehdokkaat lääkkeelle Eptinezumab ovat kaikki jo tunnettuja käytt
 |------|
 | Ei yhtään |
 
-## Market information
+## Markkinatiedot Suomessa
 
 | Myyntilupa | Valmiste | Lääkemuoto | Tila |
 |------|------|------|------|

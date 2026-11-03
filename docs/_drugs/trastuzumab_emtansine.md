@@ -64,7 +64,7 @@ TxGNN-syväoppimismallin (pistemäärä ≥ 0,99) tuottamat ehdokkaat tälle lä
 |------|
 | Ei yhtään |
 
-## Market information
+## Markkinatiedot Suomessa
 
 | Myyntilupa | Valmiste | Lääkemuoto | Tila |
 |------|------|------|------|

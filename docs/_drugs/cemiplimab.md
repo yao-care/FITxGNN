@@ -8,7 +8,7 @@ indication_count: 5
 monitor_inn: "CEMIPLIMAB"
 predicted_indications: ["gallbladder adenosquamous carcinoma", "rectal cloacogenic carcinoma", "adenosquamous prostate carcinoma", "urethral verrucous carcinoma", "pancreatic adenosquamous carcinoma"]
 last_modified_at: 2026-11-03
-description: "Cemiplimab: ennustettu uusi käyttöaihe Sappirakon adenoskvamoosisyöpä (gallbladder adenosquamous carcinoma) (näytön taso L5). Alkuperäinen käyttöaihe: Carcinoma, Squamous Cell"
+description: "Cemiplimab: ennustettu uusi käyttöaihe Sappirakon adenoskvamoosi karsinooma (gallbladder adenosquamous carcinoma) (näytön taso L5). Alkuperäinen käyttöaihe: Carcinoma, Squamous Cell"
 ---
 
 # Cemiplimab
@@ -33,30 +33,30 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-## Cemiplimabi: PD-1-estäjä → sappirakon adenoskvamoosisyöpä (gallbladder adenosquamous carcinoma)
+## Cemiplimab: Sappirakon adenoskvamoosi karsinooma (gallbladder adenosquamous carcinoma)
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 
-Cemiplimabi on PD-1-reseptoria salpaava vasta-aine, jota käytetään ihon levyepiteelisyövän hoidossa. TxGNN-malli ennustaa, että se voisi tehota **sappirakon adenoskvamoosisyöpään (gallbladder adenosquamous carcinoma)**. Tälle taudille ei ole tähän raporttiin koottujen tietojen mukaan kliinisiä tutkimuksia eikä julkaisuja, joten ennuste perustuu pelkästään mallilaskentaan.
+Cemiplimabi on PD-1-immuunipisteen estäjä (vasta-aine), jota käytetään paikallisten myyntilupatietojen mukaan levyepiteelisyövän hoitoon. TxGNN-malli ennustaa sen voivan tehota **sappirakon adenoskvamoosiin karsinoomaan (gallbladder adenosquamous carcinoma)**. Tätä suuntaa tukevia kliinisiä tutkimuksia tai julkaisuja ei ole tässä raportissa käytetyssä aineistossa yhtään, joten ennuste perustuu pelkästään laskennalliseen malliin.
 
 ## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
 | Alkuperäinen käyttöaihe | Carcinoma, Squamous Cell |
-| Ennustettu uusi käyttöaihe | Sappirakon adenoskvamoosisyöpä (gallbladder adenosquamous carcinoma) |
-| TxGNN-ennusteen pistemäärä | 0,9999 |
+| Ennustettu uusi käyttöaihe | Sappirakon adenoskvamoosi karsinooma (gallbladder adenosquamous carcinoma) |
+| TxGNN-ennustepisteet | 0.9999 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |
-| Suositeltu päätös | Odota (Hold) |
+| Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste on perusteltu?
 
-Yksityiskohtaista vaikutusmekanismitietoa ei tällä hetkellä ole saatavilla kootuissa tiedoissa. Tiedossa on, että cemiplimabi on ihmisen PD-1-reseptoriin (PDCD1) sitoutuva vasta-aine. Se estää PD-1:n ja PD-L1:n välisen vuorovaikutuksen (IC50 alle 1 nM ELISA-kokeessa). Tämä voi palauttaa T-solujen kykyä tunnistaa kasvainsoluja.
+Cemiplimabi sitoutuu ihmisen PD-1-reseptoriin (PDCD1, CD279) ja estää sen vuorovaikutuksen PD-L1:n kanssa (IC50 alle 1 nM ELISA-kokeessa). Näin se vapauttaa T-solujen tuumorivastetta. Tarkempaa mekanismikuvausta ei ole tässä aineistossa saatavilla.
 
-Ennustetun taudin levyepiteelikomponentti voisi periaatteessa reagoida PD-1-salpaukseen, koska cemiplimabi tehoaa levyepiteelisyöpään. Tätä ei ole kuitenkaan testattu käytettävissä olevassa aineistossa. Korkea pistemäärä on laskennallinen ennuste, ei kliininen todiste.
+Alkuperäinen käyttöaihe on levyepiteelikarsinooma, ja kliinisissä tutkimuksissa noin puolet edenneestä ihon levyepiteelisyöpää sairastavista potilaista vastasi hoitoon. Sappirakon adenoskvamoosi karsinoomassa on levyepiteelikomponentti, minkä vuoksi PD-1-salpaus voisi periaatteessa olla mekanistisesti mahdollinen. Tätä ei ole kuitenkaan testattu tässä aineistossa, eikä kasvaimen samankaltaisuutta alkuperäiseen käyttöaiheeseen ole arvioitu tarkemmin. Korkea pistemäärä on laskennallinen ennuste, ei kliininen todiste.
 
 ## Kliininen tutkimusnäyttö
 
@@ -66,50 +66,41 @@ Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkim
 
 Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
-## Markkinatiedot Suomessa
+## Suomen markkinatiedot
 
 | Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
 | EMEA/H/C/004844 | Libtayo | – | Carcinoma, Squamous Cell |
 
-## Kasvainlääkkeen sytotoksisuus
+## Sytotoksisuus
 
 | Kohta | Sisältö |
 |------|------|
-| Luokitus | Immunoterapia (PD-1-estäjä), ei perinteinen sytotoksinen solunsalpaaja |
-| Luuydinsuppression riski | Katso valmisteyhteenvedon varoitukset ja varotoimet |
-| Pahoinvointia aiheuttava vaikutus | Katso valmisteyhteenvedon varoitukset ja varotoimet |
-| Seurannassa huomioitavat asiat | Katso valmisteyhteenvedon varoitukset ja varotoimet |
-| Käsittelysuojaus | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Sytotoksisuusluokitus | Immunoterapia (PD-1-estäjä), ei perinteinen sytotoksinen solunsalpaaja |
+| Luuydinsuppression riski | Matala; tarkempia tietoja ei ole saatavilla |
+| Oksettavuusluokitus | Matala |
+| Seurattavat parametrit | Täydellinen verenkuva, maksa- ja munuaisarvot sekä umpierityksen toiminta (esim. kilpirauhasarvot) |
+| Käsittelysuojaus | Tarkista valmisteyhteenvedon ohjeet |
 
-## Turvallisuusnäkökohdat
+## Turvallisuushuomioita
 
-**Yhteisvaikutukset:** Tietojen mukaan cemiplimabilla on kohtalaisen tason (Moderate) yhteisvaikutuksia seuraavien kortikosteroidien kanssa:
+- **Lääkeaineyhteisvaikutukset:** Tietokannassa on kirjattu 9 kohtalaisen tason yhteisvaikutusta kortikosteroidien kanssa: hydrokortisoni, triamsinoloni, deksametasoni, betametasoni, budesonidi, prednisoloni, prednisoni, metyyliprednisoloni ja deflatsakorti. Kortikosteroidit voivat heikentää immuunivasteeseen perustuvan hoidon tehoa.
 
-- hydrokortisoni
-- triamsinoloni
-- deksametasoni
-- betametasoni
-- budesonidi
-- prednisolooni
-- prednisoni
-- metyyliprednisolooni
-- deflatsakorti
-
-Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
+Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 ## Johtopäätös ja seuraavat askeleet
 
-**Päätös: Odota (Hold)**
+**Päätös: Hold (odota)**
 
-**Perustelu:**
-Ennuste perustuu ainoastaan mallilaskentaan, eikä sappirakon adenoskvamoosisyövästä ole kliinisiä tutkimuksia tai julkaisuja. Näytön taso on siksi L5.
+**Perustelut:**
+Ennuste perustuu pelkkään laskennalliseen malliin (L5), eikä sappirakon adenoskvamoosista karsinoomaa koskevia tutkimuksia tai julkaisuja ole. Mekanistinen yhteys on uskottava mutta testaamaton.
 
 **Eteenpäin siirtyminen edellyttää:**
-- Kirjallisuushakua ja mahdollisten tapausselostusten tai prekliinisten tutkimusten kartoitusta kyseisestä taudista
-- Valmisteyhteenvedon varoitusten ja vasta-aiheiden jäsentämistä Fimean aineistosta
-- Vaikutusmekanismin tarkempaa kuvausta ja sen arviointia tämän taudin kasvainbiologiassa (esim. PD-L1-ekspressio, kasvaimen mutaatiotaakka)
-- Suunnitelmaa varhaisen vaiheen kliiniselle tutkimukselle tai kohortille, jos aihetta halutaan viedä eteenpäin
+- Kirjallisuushaku ja tutkimusrekisterihaku sappirakon adenoskvamoosista karsinoomasta ja PD-1-estäjistä
+- Tarkempi mekanismi- ja kasvainbiologiatieto (esim. PD-L1-ilmentyminen, mutaatiotaakka)
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden läpikäynti
+- Alustava prekliininen tai varhaisen vaiheen kliininen selvitys
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

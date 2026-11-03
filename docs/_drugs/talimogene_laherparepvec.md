@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-03
 monitor_inn: "TALIMOGENE LAHERPAREPVEC"
 predicted_indications: ["glottis squamous cell carcinoma", "lung occult squamous cell carcinoma", "rectal cloacogenic carcinoma", "gallbladder adenosquamous carcinoma"]
-description: "Talimogene Laherparepvec: ennustettu uusi käyttöaihe Glottis squamous cell carcinoma (näytön taso L5). Alkuperäinen käyttöaihe: Melanoma"
+description: "Talimogene Laherparepvec: ennustettu uusi käyttöaihe Glottisen levyepiteelisyöpä (glottis squamous cell carcinoma) (näytön taso L5). Alkuperäinen käyttöaihe: Melanoma"
 ---
 
 # Talimogene Laherparepvec
@@ -33,111 +33,73 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 
 </div>
 
-## Talimogene Laherparepvec: Glottis squamous cell carcinoma
+## Talimogene Laherparepvec: Glottisen levyepiteelisyöpä (glottis squamous cell carcinoma)
 {: .text-alpha }
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Talimogeenilaherparepvek (T-VEC) on onkolyyttinen herpes simplex -virus tyypin 1 -valmiste, jota on alun perin käytetty melanooman hoitoon. Ennusteen tueksi ei kuitenkaan ole yhtään kliinistä tutkimusta eikä julkaisua, joten ennuste perustuu pelkästään mallin laskentaan.
-
----
+Talimogeenilaherparepvek on onkolyyttinen herpesvirusvalmiste, jota käytetään melanoomassa. TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **glottisen levyepiteelisyövän (glottis squamous cell carcinoma)**. Ennusteen tueksi ei tässä raportissa käytetyissä tiedoissa ole yhtään kliinistä tutkimusta eikä julkaisua, joten näyttö perustuu pelkkään mallin ennusteeseen.
 
 ## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
 | Alkuperäinen käyttöaihe | Melanoma |
-| Ennustettu uusi käyttöaihe | Glottis squamous cell carcinoma |
-| TxGNN-ennustepistemäärä | 0.9907 |
+| Ennustettu uusi käyttöaihe | Glottisen levyepiteelisyöpä (glottis squamous cell carcinoma) |
+| TxGNN-ennusteen pistemäärä | 0.9907 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
----
-
 ## Miksi ennuste on perusteltu?
 
-Yksityiskohtaisia vaikutusmekanismitietoja (MOA) ei ole tällä hetkellä saatavilla. Tunnetun tiedon perusteella T-VEC on onkolyyttinen HSV-1-virus, joka lisääntyy kasvaimen sisällä ja jonka tiedetään kiihdyttävän GM-CSF:n välityksellä kasvainvastaista immuunivastetta. Sen teho melanoomassa on osoitettu, ja mekanismi voisi periaatteessa soveltua myös CMM7:ään.
+Valmisteen yksityiskohtaista vaikutusmekanismia ei ole tässä aineistossa saatavilla. Tiedossa on, että talimogeenilaherparepvek on onkolyyttinen virusvalmiste, joka annetaan suoraan kasvaimeen. Mekanistisesti voidaan olettaa, että onkolyyttinen vaikutus ja immuunivasteen aktivointi voisivat soveltua myös muihin levyepiteelikasvaimiin.
 
-CMM7 on ihomelanooman alatyyppi, joten se kuuluu käytännössä samaan tautiluokkaan kuin alkuperäinen käyttöaihe. Korkea ennustepistemäärä heijastaa todennäköisesti tautien läheisyyttä tietämysgraafissa, ei itsenäistä näyttöä. Tämä ei siksi ole aito lääkkeen uudelleenkäyttösignaali.
+Glottinen levyepiteelisyöpä on pään ja kaulan alueen levyepiteelisyöpä, joka voi olla ulottuvilla kasvaimensisäistä injektiota varten. Tämä tekee antoreitin näkökulmasta ennusteen ajateltavissa. Yhteys on kuitenkin spekulatiivinen ja perustuu vain mallin ennusteeseen. Aiempaa onkolyyttisillä herpesviruksilla tehtyä pään ja kaulan syövän tutkimusta ei sisältynyt tähän aineistoon, joten sitä ei voida käyttää näytön tason arvioinnissa. Antoreittien yhteensopivuutta ei ole vielä arvioitu.
 
-### Muut ennustetut käyttöaiheet
+## Kliininen tutkimusnäyttö
 
-Samalla aineistolla ennustettiin myös muita sairauksia. Kaikilla on näytön taso L5, eikä yhdellekään ole kliinisiä tutkimuksia tai julkaisuja.
-
-| Sija | Sairaus | Pistemäärä | Huomio |
-|------|------|------|------|
-| 4 | Äänirakosen levyepiteelisyöpä | 0,9907 | Kasvain on tavoitettavissa kasvaimensisäiseen injektioon, mutta yhteys perustuu vain malliin |
-| 5 | Keuhkon okkultti levyepiteelisyöpä | 0,9905 | Kasvain on pieni eikä kuvantamalla havaittavissa, joten injektio on käytännössä vaikea |
-| 6 | Peräsuolen kloakogeeninen syöpä | 0,9901 | Mahdollisesti paikallisesti injisoitavissa, mutta yhteys on spekulatiivinen |
-| 7 | Sappirakon adenosquamous-syöpä | 0,9901 | Harvinainen ja aggressiivinen; suora injektio teknisesti vaikea |
-
----
-
-## Kliiniset tutkimukset
-
-Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
-
----
+Tällä hetkellä aiheeseen liittyviä kliinisiä tutkimuksia ei ole rekisteröity.
 
 ## Kirjallisuusnäyttö
 
-Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
+Tällä hetkellä aiheeseen liittyvää kirjallisuutta ei ole saatavilla.
 
----
-
-## Tietoa Suomen markkinoista
+## Suomen markkinatiedot
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
 | EMEA/H/C/002771 | Imlygic | – | Melanooma |
 
-Myyntilupa (valmistaja Amgen Europe B.V.) on tilassa "peruutettu", eli Suomessa ei ole voimassa olevaa myyntilupaa.
+## Turvallisuushuomioita
 
----
+Lääkkeiden yhteisvaikutuksia on aineistossa kirjattu yhteensä 100. Merkittäviksi (Major) luokiteltuja ovat muun muassa:
 
-## Sytotoksisuus
+- kortikosteroidit: hydrokortisoni, triamsinoloni, deksametasoni, betametasoni, budesonidi, prednisoni ja prednisolooni
+- deksratsoksaani
+- radioaktiiviset ja radioleimatut valmisteet: jobenguaani (I-131), ibritumomabitiuksetaani sekä tositumomabi (myös I-131-leimattu)
+- levamisoli, trimetreksaatti ja merkaptopuriini
+- dupilumabi
 
-| Kohta | Sisältö |
-|------|------|
-| Sytotoksisuusluokitus | Immunoterapia / onkolyyttinen virusterapia (ei perinteinen sytostaatti) |
-| Luuydinsuppression riski | Tarkempia tietoja ei ole; katso valmisteyhteenvedon varoitukset ja varotoimet |
-| Oksettavuusluokitus | Tarkempia tietoja ei ole; katso valmisteyhteenvedon varoitukset ja varotoimet |
-| Seurantakohteet | Katso valmisteyhteenvedon varoitukset ja varotoimet |
-| Käsittelysuojaus | Katso valmisteyhteenvedon varoitukset ja varotoimet; kyseessä on elävä virusvalmiste |
+Kohtalaisiksi (Moderate) luokiteltuja ovat asikloviiri (myös paikallisesti annosteltuna) ja penciklovir (paikallinen). Antiviraalisten lääkkeiden osalta yhteisvaikutus on ymmärrettävä, koska valmiste on elävä herpesvirus.
 
----
+Lisäturvallisuustietoja varten tulee tutustua valmisteyhteenvetoon.
 
-## Turvallisuusnäkökohdat
-
-Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ole saatavilla tätä raporttia varten, joten ne tulee tarkistaa valmisteyhteenvedosta.
-
-**Lääkeyhteisvaikutukset:** Yhteisvaikutushaussa löytyi yhteensä 100 yhteisvaikutusta. Keskeisimmät:
-
-- **Merkittävät (Major) yhteisvaikutukset:**
-  - kortikosteroidit: hydrokortisoni, triamsinoloni (myös silmään annosteltava), deksametasoni, betametasoni, budesonidi, prednisoni ja prednisolooni
-  - deksratsoksaani
-  - radioaktiiviset valmisteet: jobenguaani (I-131), ibritumomabitiuksetaani, tositumomabi (I-131) ja tositumomabi
-  - levamisoli, trimetreksaatti ja merkaptopuriini
-  - dupilumabi
-- **Kohtalaiset (Moderate) yhteisvaikutukset:** asikloviiri (myös paikallinen) ja penkiklovir (paikallinen). Näillä on käytännön merkitystä, koska antiviraalit voivat heikentää herpesvirukseen perustuvan valmisteen tehoa.
-
----
-
-## Johtopäätös ja jatkotoimet
+## Johtopäätös ja seuraavat askeleet
 
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu pelkästään malliin (L5), eikä tukevia kliinisiä tutkimuksia tai julkaisuja ole. Lisäksi Suomen myyntilupa on peruutettu.
+Ennuste perustuu ainoastaan mallin pistemäärään, eikä glottisen levyepiteelisyövän tueksi ole kliinisiä tutkimuksia tai julkaisuja. Näytön taso on siksi L5.
 
-**Jatkoon tarvitaan:**
-- Valmisteyhteenvedon varoitus- ja vasta-aihetiedot Fimean sivustolta (estää turvallisuusseulonnan etenemisen)
-- Yksityiskohtaiset vaikutusmekanismitiedot (MOA) DrugBankista
-- Kliinisten tutkimusten ja kirjallisuuden systemaattinen haku erityisesti kärkiehdokkaille
-- Kasvaintyyppikohtainen antoreittien ja annostelun toteutettavuusarvio, erityisesti leptomeningeaaliselle ja uveamelanoomalle (turvallisuus ja lasten käyttö)
-- Selvitys valmisteen saatavuudesta Suomessa myyntiluvan peruutuksen jälkeen
+**Eteenpäin siirtymiseksi tarvitaan:**
+- Kirjallisuushaku ja tutkimusrekisterihaku onkolyyttisistä herpesviruksista pään ja kaulan levyepiteelisyövissä
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvitys (Fimea)
+- Vaikutusmekanismitiedot (MOA) mekanistisen yhteyden arvioimiseksi
+- Arvio kasvaimensisäisen annon toteutettavuudesta glottisessa kasvaimessa
+- Prekliiniset tai varhaisen vaiheen kliiniset tiedot tästä käyttöaiheesta
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

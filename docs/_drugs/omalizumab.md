@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Omalizumab
-parent: Vahva näyttö (L1-L2)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 317
-evidence_level: L2
+evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-11-03
 monitor_inn: "OMALIZUMAB"
 predicted_indications: ["bronchitis", "atopic eczema", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
-description: "Omalizumab: ennustettu uusi käyttöaihe Keuhkoputkentulehdus (bronchitis) (näytön taso L2). Alkuperäinen käyttöaihe: Asthma"
+description: "Omalizumab: ennustettu uusi käyttöaihe Keuhkoputkentulehdus (bronchitis) (näytön taso L5). Alkuperäinen käyttöaihe: Asthma"
 ---
 
 # Omalizumab
 {: .fs-9 }
 
-Näytön taso: **L2** | Ennustetut käyttöaiheet: **9** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,7 +38,7 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **9** kpl
 
 ## Yhteenveto
 
-Omalitsumabi on IgE-vasta-aine, jota on alun perin käytetty astman, nokkosihottuman ja nuhan hoitoon. TxGNN-malli ennustaa sen voivan tehota **keuhkoputkentulehdukseen**. Tätä tukee vain **2 kliinistä tutkimusta** ja **7 julkaisua**, eikä yksikään niistä kohdista suoraan keuhkoputkentulehdukseen. Näyttö on siis heikkoa.
+Omalitsumabi on IgE:hen sitoutuva monoklonaalinen vasta-aine, jota käytetään Suomessa markkinoilla olevissa valmisteissa. TxGNN-malli ennustaa sen voivan olla hyödyllinen indikaatiossa **keuhkoputkentulehdus (bronchitis)**. Tätä suuntaa tukee tämän raportin aineistossa **2 kliinistä tutkimusta** ja **7 julkaisua**, mutta yksikään niistä ei tutki keuhkoputkentulehdusta suoraan.
 
 ## Pikakatsaus
 
@@ -46,69 +46,62 @@ Omalitsumabi on IgE-vasta-aine, jota on alun perin käytetty astman, nokkosihott
 |------|------|
 | Alkuperäinen käyttöaihe | Asthma;Urticaria;Rhinitis; Asthma;Urticaria |
 | Ennustettu uusi käyttöaihe | Keuhkoputkentulehdus (bronchitis) |
-| TxGNN-ennustepistemäärä | 1.0000 |
-| Näytön taso | L2 |
+| TxGNN-ennustepisteet | 1.0000 |
+| Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
 | Myyntilupien määrä | 2 (voimassa: 2) |
 | Suositeltu päätös | Hold (odota) |
 
 ## Miksi ennuste on perusteltu?
 
-Yksityiskohtaisia tietoja vaikutusmekanismista (MOA) ei ole tässä raportissa käytettävissä. Farmakologiatietojen mukaan omalitsumabin kohde on immunoglobuliini E:n raskas ketju (IGHE). Lääke sitoo vapaata IgE:tä ja vähentää sen yhteyttä syöttösolujen ja basofiilien reseptoreihin. Tämä vähentää allergista hengitystietulehdusta.
+Omalitsumabi sitoutuu vapaaseen IgE:hen ja vähentää sen määrää sekä FcεRI-reseptorin ilmentymistä useissa solutyypeissä. Tämä vähentää allergista hengitysteiden tulehdusta. Tarkempaa mekanismitietoa ei ole tämän raportin aineistossa saatavilla.
 
-Alkuperäisistä käyttöaiheista erityisesti astma on hengitysteiden tulehdussairaus. Mekanismi voisi siksi periaatteessa olla hyödyksi myös keuhkoputkien tulehdustiloissa, joissa on allerginen tai eosinofiilinen osatekijä. Esimerkiksi astman ja kroonisen keuhkoputkentulehduksen tai COPD:n päällekkäisyystilassa (asthma-COPD overlap) omalitsumabista on joitakin havaintoja.
-
-Näyttö koskee kuitenkin astmaa ja päällekkäisyysfenotyyppejä, ei keuhkoputkentulehdusta sellaisenaan. Kahdesta kerätystä tutkimuksesta kumpikaan ei kohdista suoraan keuhkoputkentulehdukseen. TxGNN:n korkea pistemäärä kuvaa siis lähinnä verkostoassosiaatiota, ei osoitettua kliinistä hyötyä.
+Mekanistisesti hyöty voisi ulottua hengitystiesairauksiin, joissa on allerginen komponentti, kuten astman ja kroonisen keuhkoputkentulehduksen päällekkäisyystilaan. Aineisto koskee kuitenkin astmaa ja päällekkäisyysfenotyyppejä, ei keuhkoputkentulehdusta itsessään. Ennuste on siksi tässä vaiheessa malliin perustuva hypoteesi.
 
 ## Kliininen tutkimusnäyttö
 
 | Tutkimusnumero | Vaihe | Tila | Osallistujia | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT02049294](https://clinicaltrials.gov/study/NCT02049294) | Vaihe 2/3 | Päättynyt | 11 | Satunnaistettu, kaksoissokkoutettu, lumekontrolloitu tutkimus omalitsumabin prednisonia säästävästä vaikutuksesta potilailla, joilla on astma ja pysyvä eosinofiilinen keuhkoputkentulehdus. Otos on hyvin pieni. |
-| [NCT02477332](https://clinicaltrials.gov/study/NCT02477332) | Vaihe 2 | Päättynyt | 382 | Annosvaihtelututkimus (QGE031) kroonisessa spontaanissa nokkosihottumassa, lumekontrolloitu ja aktiivikontrolloitu. Yhteys keuhkoputkentulehdukseen on vain välillinen. |
+| [NCT02049294](https://clinicaltrials.gov/study/NCT02049294) | Vaihe 2/3 | Päättynyt | 11 | Lumekontrolloitu tutkimus omalitsumabin prednisonia säästävästä vaikutuksesta potilailla, joilla on astma ja eosinofiilinen keuhkoputkentulehdus. Otos on hyvin pieni. |
+| [NCT02477332](https://clinicaltrials.gov/study/NCT02477332) | Vaihe 2 | Päättynyt | 382 | Annoshakututkimus (QGE031) kroonisessa spontaanissa urtikariassa. Yhteys keuhkoputkentulehdukseen on epäsuora. |
 
 ## Kirjallisuusnäyttö
 
 | PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [21121874](https://pubmed.ncbi.nlm.nih.gov/21121874/) | 2011 | Kohorttitutkimus | Curr Med Res Opin | Yhdistetty analyysi omalitsumabin turvallisuudesta ja siedettävyydestä allergista astmaa sairastavilla lapsilla. |
-| [35369622](https://pubmed.ncbi.nlm.nih.gov/35369622/) | 2022 | Kohorttitutkimus | Postepy Dermatol Alergol | Biologiset hoidot voivat sopia keski-ikäisille tai iäkkäille potilaille, joilla on vaikea allerginen astma ja COPD-päällekkäisyys. |
-| [16222080](https://pubmed.ncbi.nlm.nih.gov/16222080/) | 2005 | Katsaus | Clin Rev Allergy Immunol | Omalitsumabi vähentää vapaata IgE:tä ja on tehokas keskivaikeassa ja vaikeassa pysyvässä astmassa. |
-| [30196731](https://pubmed.ncbi.nlm.nih.gov/30196731/) | 2018 | Katsaus | Expert Opin Pharmacother | Tupakoinnin aiheuttamat hengitystiesairaudet (mm. krooninen keuhkoputkentulehdus) astmapotilailla. Lääkehoidon valinta on epävarmaa, koska nämä potilaat on yleensä suljettu tutkimuksista pois. |
-| [26466493](https://pubmed.ncbi.nlm.nih.gov/26466493/) | 2015 | Katsaus | Masui | Astman tai kroonisen keuhkoputkentulehduksen potilaiden leikkausta edeltävä hoito. Omalitsumabi mainitaan vaikean allergisen astman vaihtoehtona. |
-| [17663923](https://pubmed.ncbi.nlm.nih.gov/17663923/) | 2007 | Katsaus | Allergol Immunopathol | Yleiskatsaus monoklonaalisiin vasta-aineisiin lasten hoidossa ja ehkäisyssä. |
-| [31478531](https://pubmed.ncbi.nlm.nih.gov/31478531/) | 2019 | Tapausselostus | J Investig Allergol Clin Immunol | Harvinainen muovinen keuhkoputkentulehdus (plastic bronchitis) bronkiaalisen termoplastian jälkeen. |
+| [35369622](https://pubmed.ncbi.nlm.nih.gov/35369622/) | 2022 | Kohorttitutkimus | Postepy Dermatol Alergol | Omalitsumabi keski-ikäisillä ja iäkkäillä potilailla, joilla on vaikea allerginen astma ja keuhkoahtaumataudin päällekkäisyys |
+| [21121874](https://pubmed.ncbi.nlm.nih.gov/21121874/) | 2011 | Kohorttitutkimus | Curr Med Res Opin | Omalitsumabin turvallisuus ja siedettävyys lapsilla, joilla on allerginen astma |
+| [16222080](https://pubmed.ncbi.nlm.nih.gov/16222080/) | 2005 | Katsaus | Clin Rev Allergy Immunol | Omalitsumabi astman hoidossa: hyväksyntä ja markkinoille tulon jälkeiset kokemukset |
+| [30196731](https://pubmed.ncbi.nlm.nih.gov/30196731/) | 2018 | Katsaus | Expert Opin Pharmacother | Tupakoinnin aiheuttamiin hengitystiesairauksiin (mm. krooninen keuhkoputkentulehdus) liittyvän astman hoidon haasteet |
+| [26466493](https://pubmed.ncbi.nlm.nih.gov/26466493/) | 2015 | Katsaus | Masui | Astmaa tai kroonista keuhkoputkentulehdusta sairastavien potilaiden leikkausta edeltävä hoito |
+| [17663923](https://pubmed.ncbi.nlm.nih.gov/17663923/) | 2007 | Katsaus | Allergol Immunopathol | Monoklonaaliset vasta-aineet lastenlääketieteessä |
+| [31478531](https://pubmed.ncbi.nlm.nih.gov/31478531/) | 2019 | Tapausselostus | J Investig Allergol Clin Immunol | Harvinainen plastinen keuhkoputkentulehdus keuhkoputkien termoplastiikan jälkeen |
 
-## Suomen markkinatiedot
+## Myyntiluvat Suomessa
 
 | Myyntiluvan numero | Valmisteen nimi | Hyväksytty käyttöaihe |
 |---------|------|-----------|
 | EMEA/H/C/000606 | Xolair (Novartis Europharm Limited), peruutettu | Astma, nokkosihottuma, nuha |
 | EMEA/H/C/005958 | Omlyclo (Celltrion Healthcare Hungary Kft.), peruutettu | Astma, nokkosihottuma |
 
-## Turvallisuusnäkökohdat
+## Turvallisuus
 
-**Lääkeaineyhteisvaikutukset:** Yhteisvaikutushaussa löytyi yhteensä 8 kirjausta.
-- **Kohtalainen:** omasetaksiinimepesuksinaatti.
-- **Lievät:** sinkkisulfaatti, sinkkiasetaatti, sinkkiglukonaatti, sinkkikloridi, echinacea ja E-vitamiini.
-- Lisäksi farmakologiatiedoissa on kohdetieto (IgE-ketju IGHE), joka ei ole varsinainen yhteisvaikutus.
+Pakkausselosteen varoituksia ja vasta-aiheita ei ole saatavilla tämän raportin aineistossa; niiden osalta on viitattava valmisteyhteenvetoon.
 
-Varoituksia ja vasta-aiheita koskevia valmisteyhteenvedon tietoja ei ollut saatavilla. Tarkista turvallisuustiedot valmisteyhteenvedosta.
+**Yhteisvaikutukset:** Yhteisvaikutuksia löytyi 8. Useimmat ovat vähäisiä (sinkkivalmisteet: sulfaatti, asetaatti, glukonaatti ja kloridi; echinacea; E-vitamiini). Kohtalaiseksi luokiteltu yhteisvaikutus on omasetaksiinimepesuksinaatin kanssa.
 
 ## Johtopäätös ja jatkotoimet
 
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ainoa keuhkoputkentulehdukseen liittyvä tutkimus on hyvin pieni (11 osallistujaa), ja se koski potilaita, joilla oli astma ja eosinofiilinen keuhkoputkentulehdus. Muu näyttö koskee astmaa ja päällekkäisyystilaa, ei keuhkoputkentulehdusta sellaisenaan.
-- Myyntiluvat ovat Suomessa kaikki peruutettuja.
-- Samalle lääkkeelle kerätyissä muissa ennusteissa "obstruktiivinen keuhkosairaus" on selvästi paremmin tuettu (tutkittu astmassa, osin jo hyväksytty käyttöaihe, COPD-tutkimus meneillään). Se on perustellumpi jatkotarkastelun kohde kuin keuhkoputkentulehdus.
+- Yksikään aineiston tutkimus ei tutki omalitsumabia keuhkoputkentulehduksessa suoraan: kliiniset tutkimukset koskevat astmaa ja urtikariaa, ja kirjallisuus astmaa tai päällekkäisyystiloja. Näytön taso on siten L5, vaikka mallin ennustepiste on korkea.
 
-**Jatkoon etenemiseksi tarvitaan:**
-- Valmisteyhteenvedon varoitukset ja vasta-aiheet (esto turvallisuusarvioinnin jatkamiselle).
-- Yksityiskohtaiset vaikutusmekanismitiedot.
-- Suurempi, suoraan keuhkoputkentulehdukseen tai eosinofiiliseen keuhkoputkentulehdukseen kohdistuva satunnaistettu tutkimus.
-- Selvitys siitä, onko omalitsumabille voimassa olevaa myyntilupaa tai saatavilla olevaa valmistetta Suomessa.
+**Etenemiseksi tarvitaan:**
+- Tutkimuksia, jotka kohdistuvat suoraan keuhkoputkentulehduspotilaisiin (erityisesti eosinofiilinen tai allerginen fenotyyppi)
+- Yksityiskohtaiset vaikutusmekanismitiedot
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet turvallisuusarviointia varten
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

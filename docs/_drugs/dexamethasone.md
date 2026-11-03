@@ -36,103 +36,76 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 ## Dexamethasone: Alopecia mucinosa
 {: .text-alpha }
 
-## Yhden lauseen tiivistelmä
+## Yhteenveto
 
-Deksametasoni on voimakas glukokortikoidi, jota on Suomessa hyväksytty makulaödeeman ja uveiitin (Ozurdex) sekä multippelin myelooman (Neofordex) hoitoon.
-TxGNN-malli ennustaa sen voivan tehota **alopecia areataan** (pälyhiuspuuska), ja ennustetta tukee **22 kirjallisuusviitettä**, joista vain osa on suoraan relevantteja, mutta **ei yhtään rekisteröityä kliinistä tutkimusta**.
+Deksametasoni on glukokortikoidi, jota käytetään Suomessa silmän makulaturvotuksen ja uveiitin sekä multippelin myelooman hoitoon. TxGNN-malli ennustaa sen voivan olla hyödyllinen indikaatiossa **alopecia mucinosa (alopecia mucinosa)**. Ennusteen tueksi ei ole löytynyt yhtään kliinistä tutkimusta eikä julkaisua, joten näyttö perustuu pelkästään mallin ennusteeseen.
 
----
-
-## Pikakatsaus
+## Pikayhteenveto
 
 | Kohta | Sisältö |
 |------|------|
 | Alkuperäinen käyttöaihe | Macular Edema;Uveitis; Multiple Myeloma |
 | Ennustettu uusi käyttöaihe | Alopecia mucinosa |
-| TxGNN-ennusteen pistemäärä | 0.9999 |
+| TxGNN-ennustepisteet | 0.9999 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
 | Myyntilupien määrä | 2 (voimassa: 2) |
-| Suositeltu päätös | Proceed with Guardrails (eteneminen suojatoimin) |
+| Suositeltu päätös | Hold (odotetaan) |
 
----
+## Miksi ennuste on mahdollinen?
 
-## Miksi ennuste on perusteltu?
+Tässä käytettävissä olevassa aineistossa ei ole yksityiskohtaista tietoa deksametasonin vaikutusmekanismista. Tiedossa on, että deksametasoni on glukokortikoidi, jonka tulehdusta vähentävä ja immuunivastetta hillitsevä vaikutus on osoitettu sen nykyisissä käyttöaiheissa.
 
-Deksametasoni on voimakas glukokortikoidi, joka vaimentaa hiusfolliikkeleihin kohdistuvaa autoimmuunihyökkäystä alopecia areatassa. Se vähentää T-solujen välittämää tulehdusta ja sytokiinien (esim. IFN-gamma) vapautumista follikkelin ympäriltä ja auttaa palauttamaan follikkelin immuuniprivilegion. Kirjallisuudessa käytetään usein suun kautta otettavaa minipulssihoitoa (esim. 5 mg kahdesti viikossa), jolla rajoitetaan kumulatiivista steroidialtistusta.
-
-Alkuperäiset käyttöaiheet (silmän tulehdukselliset tilat ja multippeli myelooma) hyödyntävät deksametasonin tulehdusta ja immuunivastetta vaimentavia vaikutuksia. Alopecia areata on autoimmuunivälitteinen tulehdussairaus, joten sama vaikutusmekanismi on perusteltu myös siinä.
-
-Yksityiskohtaista vaikutusmekanismitietoa ei ole tähän raporttiin koottu tietoihin sisältynyt. Edellä kuvattu mekanismi perustuu glukokortikoidien yleisesti tunnettuun farmakologiaan.
-
----
+Ennusteen korkea pistemäärä johtuu todennäköisesti siitä, että alopecia mucinosa muistuttaa muita tulehduksellisia hiustenlähtösairauksia. Mahdollinen mekanistinen yhteys, eli tulehdusta hillitsevä vaikutus follikkelia ympäröivässä lymfosyyttisoluinfiltraatissa, on toistaiseksi spekulatiivinen. Deksametasonin käyttöä tähän sairauteen tukevaa kliinistä tai kirjallista näyttöä ei ole.
 
 ## Kliininen tutkimusnäyttö
 
-Toistaiseksi ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia.
-
----
+Tähän ennusteeseen liittyviä kliinisiä tutkimuksia ei ole tällä hetkellä rekisteröity.
 
 ## Kirjallisuusnäyttö
 
-| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
-|------|-----|------|------|---------|
-| [36086930](https://pubmed.ncbi.nlm.nih.gov/36086930/) | 2022 | RCT | Dermatologic Therapy | Satunnaistettu avoin tutkimus (30 lasta): suun kautta otettava pieniannoksinen deksametasoni-minipulssi verrattuna DPCP-kontaktisensibilisaatioon vaikeassa lasten alopecia areatassa |
-| [39042154](https://pubmed.ncbi.nlm.nih.gov/39042154/) | 2024 | Katsaus | Archives of Dermatological Research | Verkostometa-analyysi: systeemiset steroidit, JAK-estäjät ja kontaktiimmunoterapia vaikeassa alopecia areatassa |
-| [36461625](https://pubmed.ncbi.nlm.nih.gov/36461625/) | 2023 | Katsaus | Pediatric Dermatology | Lasten pulssiannoksisen kortikosteroidihoidon annostus ja haittavaikutukset alopecia areatassa |
-| [35330017](https://pubmed.ncbi.nlm.nih.gov/35330017/) | 2022 | Kohorttitutkimus | Journal of Clinical Medicine | Prospektiivinen kohortti: suun kautta otettavan minipulssihoidon teho ja turvallisuus sekä hoitovasteeseen liittyvät tekijät |
-| [36070222](https://pubmed.ncbi.nlm.nih.gov/36070222/) | 2022 | Kohorttitutkimus | Dermatologic Therapy | Monikeskustutkimus: suun kautta otettava deksametasoni-minipulssi keskivaikeassa tai vaikeassa alopecia areatassa |
-| [41872082](https://pubmed.ncbi.nlm.nih.gov/41872082/) | 2026 | Kohorttitutkimus | European Journal of Dermatology | 19 potilaan retrospektiivinen tarkastelu: paikallinen kortikosteroidi ja barisitinibi, deksametasonipulssi hoitoon vastaamattomille |
-| [10535249](https://pubmed.ncbi.nlm.nih.gov/10535249/) | 1999 | Kohorttitutkimus | Journal of Dermatology | 30 potilasta: 5 mg deksametasonia kahdesti viikossa laaja-alaisessa alopecia areatassa |
-| [41243342](https://pubmed.ncbi.nlm.nih.gov/41243342/) | 2025 | Tapausselostus | Journal of Dermatological Treatment | Vaikean alopecia areatan pysyvä remissio deksametasoni-minipulssilla, kun JAK-estäjät eivät tule kyseeseen |
-| [23960401](https://pubmed.ncbi.nlm.nih.gov/23960401/) | 2013 | Tapausselostus | International Journal of Trichology | Fenolointi ja laskimonsisäiset deksametasonipulssit alopecia areatassa |
+Tähän ennusteeseen liittyvää kirjallisuutta ei ole tällä hetkellä saatavilla.
 
----
-
-## Myyntiluvat Suomessa
+## Tiedot Suomen markkinoilta
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
 | EMEA/H/C/001140 | Ozurdex (peruutettu) | – | Makulaödeema, uveiitti |
 | EMEA/H/C/004071 | Neofordex (peruutettu) | – | Multippeli myelooma |
 
----
-
 ## Sytotoksisuus
 
 | Kohta | Sisältö |
 |------|------|
-| Sytotoksisuusluokitus | Ei perinteinen sytostaatti; glukokortikoidi, jota käytetään myeloomahoidoissa yhdistelmähoidon osana |
-| Myelosuppressioriski | Matala (ei tyypillinen luuydinlama yksittäisaineena) |
-| Oksettavuusluokitus | Matala |
-| Seurantakohteet | Verenkuva, verensokeri, verenpaine, elektrolyytit, maksa- ja munuaisarvot |
-| Käsittelysuojaus | Tarkista valmisteyhteenvedosta |
+| Sytotoksisuusluokka | Ei tavanomainen sytotoksinen solunsalpaaja (glukokortikoidi) |
+| Luuytimen suppressio | Perehdy valmisteyhteenvedon varoituksiin ja varotoimiin |
+| Oksettavuusluokka | Perehdy valmisteyhteenvedon varoituksiin ja varotoimiin |
+| Seurattavat parametrit | Perehdy valmisteyhteenvedon varoituksiin ja varotoimiin |
+| Käsittelysuojaus | Perehdy valmisteyhteenvedon varoituksiin ja varotoimiin |
 
----
+## Turvallisuusnäkökohdat
 
-## Turvallisuushuomioita
+Valmisteyhteenvedon varoitus- ja vasta-aiheistietoja ei ollut käytettävissä, joten niihin tulee tutustua valmisteyhteenvedosta.
 
-- **Vasta-aiheet (tietämysgraafista, ei valmisteyhteenvedosta):** hypertensio, epilepsia, hyperglykemia, kongestiivinen sydämen vajaatoiminta, tuhkarokko, herpes simplex -keratiitti, urea-kierron häiriöt (esim. sitrullinemia, hyperargininemia) sekä erilaiset aivolisäkkeen vajaatoimintatilat.
-- **Lääkeinteraktiot:** tietoja on kertynyt 100 interaktiosta. Merkittäviä (Major) ovat mm. fentanyyli ja adalimumabi. Kohtalaisia (Moderate) ovat mm. paklitakseli, tsidovudiini, isotretinoiini, nifedipiini, ibuprofeeni, ketorolaakki ja asetatsoliamidi.
-- **Seurattavat steroidihaitat:** HPA-akselin suppressio, aineenvaihdunnalliset vaikutukset ja luukato. Oireiden uusiutuminen hoidon lopettamisen jälkeen on myös mahdollista.
+**Lääkeyhteisvaikutukset:** Yhteisvaikutustietokannasta löytyi yhteensä 100 yhteisvaikutusta. Merkittävimpiä (vaikeusaste "merkittävä") ovat:
+- Fentanyyli
+- Adalimumabi
 
-Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ole saatavilla, joten niihin on tutustuttava erikseen.
+Kohtalaisia yhteisvaikutuksia on mm. seuraavien kanssa: tsidovudiini, paklitakseli, isotretinoiini, abemasiklibi, asalabrutinibi, asetatsoliamidi, nifedipiini, ibuprofeeni ja ketorolaakki.
 
----
+## Johtopäätös ja seuraavat vaiheet
 
-## Johtopäätös ja jatkotoimet
+**Päätös: Hold (odotetaan)**
 
-**Päätös: Proceed with Guardrails (eteneminen suojatoimin)**
+**Perustelu:**
+Ennuste perustuu ainoastaan laskennalliseen malliin (näytön taso L5), eikä sen tueksi ole kliinisiä tutkimuksia tai julkaisuja. Mekanistinen yhteys on spekulatiivinen.
 
-**Perustelut:**
-- Alopecia areatan osalta on satunnaistettu tutkimus ja useita kohorttitutkimuksia, jotka tukevat minipulssihoitoa, mutta tutkimukset ovat pieniä eikä rekisteröityjä kliinisiä tutkimuksia ole. Muut yhPäätös muille ennustetuille käyttöaiheille (esim. alopecia mucinosa, telogen effluvium, folliculitis decalvans) on Hold, koska niiden näyttö on vain mallipohjaista (L5).
+**Jatkotoimenpiteet:**
+- Systemaattinen kirjallisuushaku deksametasonin käytöstä alopecia mucinosan hoidossa
+- Vaikutusmekanismia koskevien tietojen täydentäminen
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden läpikäynti
+- Selvitys sopivasta antoreitistä (esim. paikallinen tai intralesionaalinen) ja sen soveltuvuudesta
 
-**Etenemiseksi tarvitaan:**
-- Valmisteyhteenvedon varoitukset ja vasta-aiheet (Fimea), joita ei ole saatavilla; tämä on turvallisuusarvioinnin estävä aukko.
-- Yksityiskohtainen vaikutusmekanismitieto (DrugBank).
-- Suomessa on tällä hetkellä vain peruutettuja myyntilupia, joten saatavuus ja tarvittava lääkemuoto (suun kautta otettava) on selvitettävä.
-- Suurempi, vertailevaa satunnaistettua tutkimusnäyttöä erityisesti JAK-estäjiin verrattuna sekä uusiutumisten ja pitkäaikaishaittojen seuranta.
-- Seurantasuunnitelma steroidihaitoille (verensokeri, verenpaine, luuntiheys, HPA-akseli).
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

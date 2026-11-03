@@ -12,6 +12,8 @@ description: "FITxGNN:n L1–L2-tason uudelleensijoitteluehdokkaat, joita tukeva
 Ehdokkaat, jotka voidaan asettaa etusijalle kliinisessä arvioinnissa
 </p>
 
+Millä näistä lääkkeistä on tutkimusnäyttöä ennustetulle uudelle käyttöaiheelle, ja kuinka moneen rekisteröityyn tutkimukseen viitataan? Katso [Lääkkeet, joiden uudelle käyttöaiheelle on kliinistä tutkimusnäyttöä]({{ '/clinical-trial-evidence/' | relative_url }}).
+
 ---
 
 ## Kriteerit

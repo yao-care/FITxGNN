@@ -15,6 +15,7 @@ Näytön tasot ovat L1 (vahvempi kliininen näyttö) – L5 (vain mallin ennuste
 - `/` Lääkkeiden Uudelleensijoittelun Ennusteet — Suomi — Tekoälyyn perustuvat lääkkeiden uudelleenkäytön ennusteet Suomelle. Näyttöön perustuva analyysi hyväksyttyjen lääkkeiden mahdollisista uusista käyttöaiheista.
 - `/drugs/` Kaikki lääkkeet — Kaikki lääkkeiden validointiraportit ja näytön tasojen tilastot FITxGNN:ssä.
 - `/evidence-high/` Vahva näyttö (L1-L2) — FITxGNN:n L1–L2-tason uudelleensijoitteluehdokkaat, joita tukevat kliiniset tutkimukset tai järjestelmälliset katsaukset.
+- `/clinical-trial-evidence/` Lääkkeet, joiden uudelle käyttöaiheelle on tutkimusnäyttöä — EU:n keskitetysti luvitetut lääkkeet (EMA), joiden TxGNN:n ennustamalle uudelle käyttöaiheelle on tutkimusnäyttöä (L1-L2): käyttöaihe, taso, tutkimukset.
 - `/evidence-medium/` Kohtalainen näyttö (L3-L4) — FITxGNN:n L3–L4-tason uudelleensijoitteluehdokkaat, joita tukee havainnoiva tai prekliininen näyttö.
 - `/evidence-low/` Pelkkä mallin ennuste (L5) — FITxGNN:n L5-tason ehdokkaat: pelkkä mallin ennuste, ilman kliinistä tai kirjallisuusnäyttöä.
 - `/methodology/` Menetelmät — Miten FITxGNN tuottaa ja validoi ennusteet: TxGNN-syväoppimismallin ennusteet, näytön kerääminen, L1–L5-luokittelu ja päätössuositukset.

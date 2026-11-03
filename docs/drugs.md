@@ -36,6 +36,8 @@ Luettelo perustuu EU:n keskitettyihin myyntilupiin ([EMA Medicines report](https
 
 <!-- local-home:end -->
 
+Poiminta: [Lääkkeet, joiden uudelle käyttöaiheelle on kliinistä tutkimusnäyttöä]({{ '/clinical-trial-evidence/' | relative_url }}) (L1–L2, ennustettu käyttöaihe ja viitattujen rekisteröityjen tutkimusten määrä).
+
 ## Näytön tasojen jakauma
 
 | Näytön taso | Lääkkeitä | Kuvaus |

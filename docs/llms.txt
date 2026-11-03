@@ -14,6 +14,7 @@
 - Lääkkeiden Uudelleensijoittelun Ennusteet — Suomi: https://fitxgnn.yao.care/
 - Kaikki lääkkeet: https://fitxgnn.yao.care/drugs/
 - Vahva näyttö (L1-L2): https://fitxgnn.yao.care/evidence-high/
+- Lääkkeet, joiden uudelle käyttöaiheelle on tutkimusnäyttöä: https://fitxgnn.yao.care/clinical-trial-evidence/
 - Kohtalainen näyttö (L3-L4): https://fitxgnn.yao.care/evidence-medium/
 - Pelkkä mallin ennuste (L5): https://fitxgnn.yao.care/evidence-low/
 - Menetelmät: https://fitxgnn.yao.care/methodology/

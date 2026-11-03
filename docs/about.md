@@ -87,18 +87,8 @@ harvinaisissa sairauksissa."
 
 ## Tietolähteet
 
-<table class="comparison-table">
-<thead>
-<tr><th>Tyyppi</th><th>Lähde</th><th>Kuvaus</th></tr>
-</thead>
-<tbody>
-<tr><td>Tekoälyennuste</td><td><a href="https://zitniklab.hms.harvard.edu/projects/TxGNN/">TxGNN</a></td><td>Harvardin graafineuroverkko, koulutettu tietograafilla</td></tr>
-<tr><td>Kliiniset tutkimukset</td><td><a href="https://clinicaltrials.gov/">ClinicalTrials.gov</a></td><td>Maailmanlaajuinen kliinisten tutkimusten rekisteri</td></tr>
-<tr><td>Kirjallisuus</td><td><a href="https://pubmed.ncbi.nlm.nih.gov/">PubMed</a></td><td>Biolääketieteellisen kirjallisuuden tietokanta</td></tr>
-<tr><td>Lääketiedot</td><td><a href="https://go.drugbank.com/">DrugBank</a></td><td>Lääke- ja kohdemolekyylitietokanta</td></tr>
-<tr><td>Myyntilupatiedot</td><td><a href="https://fimea.fi/">Fimea</a></td><td>Suomen lääkkeiden myyntilupatiedot</td></tr>
-</tbody>
-</table>
+Ennusteiden, näytön ja lääketietojen lähteet sekä niiden lisenssit ja päivitystiheys on koottu
+<a href="{{ '/sources/' | relative_url }}">Tietolähteet</a>-sivulle.
 
 ---
 

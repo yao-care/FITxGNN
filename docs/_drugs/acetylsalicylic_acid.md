@@ -4,17 +4,17 @@ title: Acetylsalicylic Acid
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 17
 evidence_level: L5
-indication_count: 8
+indication_count: 7
 monitor_inn: "ACETYLSALICYLIC ACID"
-predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "trigeminal autonomic cephalalgia", "thrombotic disease", "thrombophilia"]
-last_modified_at: 2026-10-28
-description: "Acetylsalicylic Acid: ennustettu uusi käyttöaihe Vermikulaarinen atrofoderma (atrophoderma vermiculata) (näytön taso L5). Alkuperäinen käyttöaihe: Acute Coronary Syndrome"
+predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "trigeminal autonomic cephalalgia", "thrombophilia"]
+last_modified_at: 2026-11-03
+description: "Acetylsalicylic Acid: ennustettu uusi käyttöaihe Matomainen ihoatrofia (atrophoderma vermiculata) (näytön taso L5). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin"
 ---
 
 # Acetylsalicylic Acid
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **8** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **7** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,43 +33,54 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **8** kpl
 
 </div>
 
-## Asetyylisalisyylihappo: verihiutaleiden COX-1-estäjä → vermikulaarinen atrofoderma (atrophoderma vermiculata)
+## Acetylsalicylic Acid: Matomainen ihoatrofia (atrophoderma vermiculata)
 {: .text-alpha }
 
 ## Yhteenveto
 
-Asetyylisalisyylihappo on verihiutaleiden aggregaatiota estävä lääkeaine. TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **vermikulaarisen atrofodermán (atrophoderma vermiculata)**. Tätä ennustetta tukevia kliinisiä tutkimuksia tai julkaisuja ei ole löytynyt, joten näyttö on pelkkä mallin laskennallinen ennuste.
+Asetyylisalisyylihappo on verihiutaleiden toimintaa estävä lääkeaine, jota käytetään laajasti sydän- ja verisuonisairauksien hoidossa. TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **matomaisen ihoatrofian (atrophoderma vermiculata)**. Ennusteen tueksi ei ole **yhtään kliinistä tutkimusta eikä julkaisua**, joten kyseessä on pelkkä laskennallinen ennuste.
 
 ## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Acute Coronary Syndrome;Myocardial Infarction |
-| Ennustettu uusi käyttöaihe | Vermikulaarinen atrofoderma (atrophoderma vermiculata) |
-| TxGNN-ennustepisteet | 0,9959 |
+| Alkuperäinen käyttöaihe | Ei kirjattu paikallisiin tietoihin |
+| Ennustettu uusi käyttöaihe | Matomainen ihoatrofia (atrophoderma vermiculata) |
+| TxGNN-ennusteen pistemäärä | 0.9959 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 3/3) |
 | Myyntilupien määrä | 3 (voimassa: 3) |
-| Suositeltu päätös | Hold (odota) |
+| Suositeltu päätös | Odota |
 
 ## Miksi ennuste voisi olla perusteltu?
 
-Tiedoissa ei ole tällä hetkellä kuvausta lääkkeen vaikutusmekanismista. Asetyylisalisyylihapon tunnettu vaikutus on verihiutaleiden COX-1-entsyymin estäminen, mikä vähentää tromboksaani A2:n tuotantoa ja verihiutaleiden aggregaatiota.
+Tähän raporttiin koottu aineisto ei sisällä tarkkaa vaikutusmekanismia. Asetyylisalisyylihapon tiedetään yleisesti estävän verihiutaleiden tromboksaani A2:n tuotantoa syklo-oksigenaasin kautta. Tämä selittää sen antitromboottisen vaikutuksen.
 
-Vermikulaarinen atrofoderma on hiusfollikkeleihin liittyvä keratoottinen ihohäiriö. Sen taustalla ei tunneta verihiutaleiden toimintaan liittyvää patologiaa, jota antiplatelettihoito voisi kohdentaa. Yhteyttä lääkkeen vaikutustavan ja sairauden välillä ei siis voida tunnistaa. Korkea pistemäärä on laskennallinen ennuste, eikä se kerro hoidon tehosta.
+Matomainen ihoatrofia on karvatuppien alueen ihon surkastumishäiriö, jossa ei tunneta verihiutaleiden toimintaan liittyvää sairausmekanismia. Mekanistista yhteyttä lääkeaineen ja sairauden välillä ei siis ole pystytty tunnistamaan. Korkea pistemäärä kuvaa ennustemallin laskennallista läheisyyttä, ei kliinistä näyttöä. Läheisyys voi johtua verkostotason yhteyksistä muihin ihon surkastumishäiriöihin.
 
 ## Kliininen tutkimusnäyttö
 
-Tästä käyttöaiheesta ei ole tällä hetkellä rekisteröityjä kliinisiä tutkimuksia.
+Tälle käyttöaiheelle ei ole rekisteröity kliinisiä tutkimuksia.
 
 ## Kirjallisuusnäyttö
 
-Tästä käyttöaiheesta ei ole tällä hetkellä saatavilla aiheeseen liittyvää kirjallisuutta.
+Tälle käyttöaiheelle ei ole saatavilla kirjallisuutta.
 
-## Turvallisuushuomiot
+## Myyntiluvat Suomessa
 
-**Lääkkeiden yhteisvaikutukset:** Yhteisvaikutustietokannasta löytyi 100 yhteisvaikutusta. Merkittäviksi (Major) luokiteltuja ovat muun muassa:
+Seuraavat valmisteet ovat voimassa olevia myyntilupia. Kaikki ovat yhdistelmävalmisteita, joissa asetyylisalisyylihappo on yhdessä klopidogreelin kanssa. Niiden perusteella ei voi päätellä, miten pelkkä asetyylisalisyylihappo on hyväksytty tai markkinoilla.
 
+| Myyntilupanumero | Valmisteen nimi | Valmistaja |
+|---------|------|------|
+| EMEA/H/C/001143 | DuoPlavin | Sanofi Winthrop Industrie |
+| EMEA/H/C/004996 | Clopidogrel / Acetylsalicylic acid Viatris (aiemmin Clopidogrel / Acetylsalicylic acid Mylan) | Mylan Pharmaceuticals Limited |
+| EMEA/H/C/001144 | Clopidogrel/Acetylsalicylic acid Zentiva (aiemmin DuoCover) | Sanofi-Aventis Groupe |
+
+## Turvallisuushuomioita
+
+Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ollut käytettävissä tätä raporttia varten. Niiden osalta on tutustuttava valmisteyhteenvetoon.
+
+**Lääkeyhteisvaikutukset:** Yhteisvaikutuksia on kirjattu yhteensä 100. Vakavaksi (Major) luokiteltuja ovat muun muassa:
 - akalabrutinibi
 - asetatsoliamidi
 - ketorolaakki
@@ -77,22 +88,27 @@ Tästä käyttöaiheesta ei ole tällä hetkellä saatavilla aiheeseen liittyvä
 - ibuprofeeni
 - fondaparinuuksi
 
-Lisäksi tietokannassa on kohtalaisiksi (Moderate) luokiteltuja yhteisvaikutuksia, esimerkiksi abtsiksimabin, nifedipiinin, hydrokortisonin, etanolin ja fosinopriilin kanssa. Kofeiinin, rabepratsolin ja furosemidin yhteisvaikutukset on luokiteltu lieviksi (Minor).
-
-Muuta turvallisuustietoa varten on tutustuttava valmisteyhteenvetoon.
+Kohtalaisia (Moderate) ovat esimerkiksi:
+- abtsiksimabi
+- nifedipiini
+- hydrokortisoni
+- etanoli
+- alendronihappo
+- fluvoksamiini
 
 ## Johtopäätös ja jatkotoimet
 
-**Päätös: Hold (odota)**
+**Päätös: Odota**
 
 **Perustelut:**
-Ennusteelle ei ole kliinistä eikä kirjallista näyttöä, eikä lääkkeen vaikutustavan ja sairauden välillä ole tunnistettavaa mekanistista yhteyttä. Näytön taso on L5, eli kyse on vain mallin ennusteesta.
+Ennuste perustuu pelkästään malliin. Siihen ei liity kliinisiä tutkimuksia eikä kirjallisuutta, eikä uskottavaa mekanistista yhteyttä ole tunnistettu. Näytön taso on L5.
 
-**Eteenpäin siirtymiseksi tarvitaan:**
-- Kirjallisuushaku ja prekliiniset tai mekanistiset tutkimukset, jotka osoittaisivat uskottavan biologisen yhteyden sairauteen
-- Tiedot lääkkeen vaikutusmekanismista (MOA)
-- Valmisteyhteenvedon varoitusten ja vasta-aiheiden kokoaminen turvallisuusarviointia varten
-- Arvio annosteluteiden soveltuvuudesta ihosairauden hoitoon
+**Etenemiseksi tarvitaan:**
+- Vaikutusmekanismia koskevat tiedot sekä arvio siitä, miten verihiutaleiden toiminnan esto liittyisi tämän ihosairauden patologiaan.
+- Systemaattinen kirjallisuushaku sairauden tunnetuista hoidoista ja patogeneesistä sekä prekliiniset tai tapaussarjatason havainnot.
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden tarkistus sekä turvallisuusarvio kohdepotilasryhmälle.
+- Selvitys antoreitistä ja annostelusta, sillä reittien soveltuvuutta ei ole arvioitu.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

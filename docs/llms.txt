@@ -5,7 +5,7 @@
 ## Tarkoitus
 
 - Perustuu Harvardin Zitnik Labin julkaisemaan TxGNN-menetelmään ja tutkii olemassa olevien lääkkeiden ja uusien käyttöaiheiden mahdollisia yhteyksiä.
-- Mallin ennusteet yhdistetään ClinicalTrials.govin, PubMedin, DrugBankin, Fimea:n tietojen ja DDInterin aineistoihin jäljitettäviksi raporteiksi.
+- Mallin ennusteet yhdistetään ClinicalTrials.govin, PubMedin, DrugBankin, EMA:n Medicines reportin tietojen ja DDInterin aineistoihin jäljitettäviksi raporteiksi.
 - Näytön tasot ovat L1 (vahvempi kliininen näyttö) – L5 (vain mallin ennuste); mallin pistemäärä ei tarkoita kliinistä tehoa.
 - Jokainen ehdokas edellyttää edelleen kliinisiä tutkimuksia, viranomaisarviointia ja pätevien terveydenhuollon ammattilaisten arviota.
 

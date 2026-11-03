@@ -32,7 +32,7 @@ description: "Kaikki lääkkeiden validointiraportit ja näytön tasojen tilasto
 ---
 
 <!-- local-home:start（母目錄 .claude/gen_local_home_20261029.py 產生，勿手改）-->
-Luettelo perustuu myyntilupatietoihin ([Fimea](https://fimea.fi/), Suomi).
+Luettelo perustuu EU:n keskitettyihin myyntilupiin ([EMA Medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx), voimassa myös Suomessa).
 
 <!-- local-home:end -->
 

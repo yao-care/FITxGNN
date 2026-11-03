@@ -1,6 +1,6 @@
 title: FITxGNN - Lääkkeiden uudelleensijoittelu
 lang: "fi"
-description: Ennusteet Fimean Suomessa hyväksymien lääkkeiden uudelleensijoittelusta, perustuu TxGNN-malliin
+description: Ennusteet EU:n keskitetyssä menettelyssä (EMA) myyntiluvan saaneiden, myös Suomessa voimassa olevien lääkkeiden uudelleensijoittelusta, perustuu TxGNN-malliin
 remote_theme: just-the-docs/just-the-docs
 url: https://fitxgnn.yao.care
 baseurl: ""

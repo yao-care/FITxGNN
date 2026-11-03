@@ -6,7 +6,7 @@
 [![Website](https://img.shields.io/badge/Website-fitxgnn.yao.care-blue)](https://fitxgnn.yao.care)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Laakkeiden uudelleenkayton ennusteita Finland Fimea-hyvaksytyille laakkeille TxGNN-mallilla.
+Laakkeiden uudelleenkayton ennusteita EU:n keskitetyn myyntiluvan (EMA) saaneille laakkeille (Finland) TxGNN-mallilla.
 
 ## Vastuuvapauslauseke
 
@@ -73,7 +73,7 @@ uv run python scripts/run_kg_prediction.py
 
 | Mittari | Arvo |
 |------|------|
-| Fimea Laaekkeitae yhteensae | 1,850 |
+| EMA (keskitetyt myyntiluvat) Laaekkeitae yhteensae | 1,850 |
 | Kartoitettu DrugBankiin | 1,334 (72.1%) |
 | Uudelleenkaeytoeen ehdokkaat | 2,395 |
 
@@ -131,7 +131,7 @@ TxGNN-pistemaeaerae edustaa mallin luottamusta laake-sairauspariin, vaihteluvael
 flowchart TD
     A["TxGNN-ennustetulokset"] --> B
     subgraph B["Step 1: DrugBundle Collector"]
-        B1["Laaeketaso: Fimea, DDI, DrugBank"]
+        B1["Laaeketaso: EMA, DDI, DrugBank"]
         B2["Indikaatiotaso: ClinicalTrials, PubMed, ICTRP"]
     end
     B --> |"drug_bundle.json"| C
@@ -154,7 +154,7 @@ flowchart TD
 
 | Tiedosto | Lataus |
 |------|------|
-| Fimea Tiedot | [EMA Medicines Data (proxy for Finnish-authorized medicines)](https://www.ema.europa.eu/en/medicines/download-medicine-data) |
+| EMA Tiedot | [EMA Medicines Report (EU:n keskitetyt myyntiluvat)](https://www.ema.europa.eu/en/medicines/download-medicine-data) |
 | node.csv | [Harvard Dataverse](https://dataverse.harvard.edu/api/access/datafile/7144482) |
 | kg.csv | [Harvard Dataverse](https://dataverse.harvard.edu/api/access/datafile/7144484) |
 | edges.csv | [Harvard Dataverse](https://dataverse.harvard.edu/api/access/datafile/7144483) |
@@ -216,7 +216,7 @@ PYTHONPATH=src python -m fitxgnn.predict.txgnn_model
 
 | Kategoria | Tiedot | Lahde | Huomautus |
 |------|------|------|------|
-| **Laaeketiedot** | Fimea | [EMA Medicines Data (proxy for Finnish-authorized medicines)](https://www.ema.europa.eu/en/medicines/download-medicine-data) | Finland |
+| **Laaeketiedot** | EMA | [EMA Medicines Report (EU:n keskitetyt myyntiluvat)](https://www.ema.europa.eu/en/medicines/download-medicine-data) | Finland |
 | **Tietograafi** | TxGNN KG | [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IXA7BM) | 17,080 diseases, 7,957 drugs |
 | **Laaeketietokanta** | DrugBank | [DrugBank](https://go.drugbank.com/) | Laakeainekartoitus |
 | **Laakeinteraktiot** | DDInter 2.0 | [DDInter](https://ddinter2.scbdd.com/) | DDI-parit |
@@ -302,7 +302,7 @@ FITxGNN/
 
 ```mermaid
 flowchart TD
-    FDA["Fimea Tiedot"] --> proc["process_fda_data.py"]
+    FDA["EMA Tiedot"] --> proc["process_fda_data.py"]
     TxGNN["TxGNN Tiedot"] --> prep["prepare_external_data.py"]
 
     proc --> json["fi_fda_drugs.json"]

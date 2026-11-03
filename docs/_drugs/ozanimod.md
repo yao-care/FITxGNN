@@ -3,7 +3,7 @@ layout: default
 title: Ozanimod
 parent: Vain tunnetut käytöt (ei uusia ennusteita)
 nav_order: 322
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-03
 description: "Ozanimod: tunnetut käyttöaiheet ja markkinatilanne Suomessa; tällä hetkellä ei uutta ehdokasindikaatiota"
 predicted_indications: []
 indication_count: 0
@@ -41,6 +41,7 @@ Näytön taso: **N/A** | Ennustetut käyttöaiheet: **0** kpl
 TxGNN-syväoppimismallin (pistemäärä ≥ 0,99) Ozanimodille tuottamat ehdokkaat ovat kaikki jo tunnettuja käyttötarkoituksia. Siksi uutta ennustettua indikaatiota ei tällä hetkellä ole. Ainoa jäljitettävissä oleva ehdokas on tietämysgraafissa kirjattu relaatio, jolle ei ole löydetty hyväksyntää.
 
 ## Pikakatsaus
+
 | Kohta | Sisältö |
 |------|------|
 | Uudet ennustetut indikaatiot | Ei ole (kaikki jäljitettävissä olevat mallin ehdokkaat ovat tunnettuja käyttötarkoituksia) |
@@ -51,16 +52,19 @@ TxGNN-syväoppimismallin (pistemäärä ≥ 0,99) Ozanimodille tuottamat ehdokka
 ## Mallin ehdokkaiden joukossa olevat tunnetut käyttötarkoitukset
 
 ### Hyväksytty (myyntiluvan tai valmisteyhteenvedon tukema)
+
 | Indikaatio | Lähde |
 |------|------|
 | ei ole | ei ole |
 
 ### Liittyy hyväksyttyyn indikaatioon (sama tautiryhmä)
+
 | Indikaatio | Hyväksytty tautiryhmä |
 |------|------|
 | ei ole | ei ole |
 
 ### Tietämysgraafiin kirjatut relaatiot (hyväksyntää ei löydetty)
+
 | Indikaatio |
 |------|
 

@@ -5,7 +5,7 @@ parent: Vain tunnetut käytöt (ei uusia ennusteita)
 nav_order: 431
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Teriflunomide: tunnetut käyttöaiheet ja markkinatilanne Suomessa; tällä hetkellä ei uutta ehdokasindikaatiota"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Näytön taso: **N/A** | Ennustetut käyttöaiheet: **0** kpl
 TxGNN-syväoppimismalli (pistemäärä ≥ 0,99) tuotti Teriflunomide-valmisteelle ehdokkaita, mutta kaikki lähteeseen jäljitettävissä olevat ehdokkaat ovat jo tunnettuja käyttöaiheita. Siksi tällä hetkellä ei ole uutta ennustettua käyttöaihetta. Tunnettu käyttöaihe on relapsoiva-remittoiva multippeliskleroosi, jolle valmisteella on myyntilupa Suomessa.
 
 ## Pikakatsaus
+
 | Kohde | Sisältö |
 |------|------|
 | Uudet ennustetut käyttöaiheet | Ei yhtään (kaikki jäljitettävissä olevat mallin ehdokkaat ovat tunnettuja käyttöaiheita) |
@@ -52,16 +53,19 @@ TxGNN-syväoppimismalli (pistemäärä ≥ 0,99) tuotti Teriflunomide-valmisteel
 ## Tunnetut käyttöaiheet mallin ehdokkaiden joukossa
 
 ### Hyväksytty (myyntiluvan tai valmisteyhteenvedon tukema)
+
 | Käyttöaihe | Lähde |
 |------|------|
 | relapsoiva-remittoiva multippeliskleroosi (relapsing-remitting multiple sclerosis) | myyntilupa Suomessa; hyväksytty käyttöaihe: multiple sclerosis |
 
 ### Liittyy hyväksyttyyn käyttöaiheeseen (sama tautiryhmä)
+
 | Käyttöaihe | Hyväksytty tautiryhmä |
 |------|------|
 | Ei yhtään | Ei yhtään |
 
 ### Mallin oppimat yhteydet (hyväksyntää ei löytynyt)
+
 | Käyttöaihe |
 |------|
 | Ei yhtään |

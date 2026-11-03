@@ -3,7 +3,7 @@ layout: default
 title: Olaparib
 parent: Vain tunnetut käytöt (ei uusia ennusteita)
 nav_order: 315
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Olaparib: tunnetut käyttöaiheet ja markkinatilanne Suomessa; tällä hetkellä ei uutta ehdokasindikaatiota"
 predicted_indications: []
 indication_count: 0
@@ -41,6 +41,7 @@ Näytön taso: **N/A** | Ennustetut käyttöaiheet: **0** kpl
 TxGNN-mallin (pistemäärä ≥ 0,99) tuottamat ehdokkaat lääkkeelle Olaparib ovat kaikki jo tunnettuja käyttöaiheita, joten uutta ennustettua käyttöaihetta ei tällä hetkellä ole. Mallin ehdokkaista yksi liittyy samaan tautiryhmään kuin hyväksytty käyttöaihe. Sitä ei ole kuitenkaan merkitty sellaisenaan hyväksytyksi tai luvan mukaiseksi käyttöaiheeksi.
 
 ## Pikakatsaus
+
 | Kohde | Sisältö |
 |------|------|
 | Uudet ennustetut käyttöaiheet | Ei yhtään (kaikki jäljitettävissä olevat mallin ehdokkaat ovat tunnettuja käyttöaiheita) |
@@ -51,15 +52,18 @@ TxGNN-mallin (pistemäärä ≥ 0,99) tuottamat ehdokkaat lääkkeelle Olaparib 
 ## Tunnetut käyttöaiheet mallin ehdokkaiden joukossa
 
 ### Hyväksytyt (myyntiluvan tai valmisteyhteenvedon tukemat)
+
 | Käyttöaihe | Lähde |
 |------|------|
 | ei yhtään | – |
 
 ### Liittyy hyväksyttyyn käyttöaiheeseen (sama tautiryhmä)
+
 | Käyttöaihe | Hyväksytty tautiryhmä |
 |------|------|
 
 ### TxGNN-mallin (syväoppiminen) löytämät yhteydet (hyväksyntää ei löytynyt)
+
 | Käyttöaihe |
 |------|
 | ei yhtään |

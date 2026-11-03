@@ -3,7 +3,7 @@ layout: default
 title: Obinutuzumab
 parent: Vain tunnetut käytöt (ei uusia ennusteita)
 nav_order: 310
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-03
 description: "Obinutuzumab: tunnetut käyttöaiheet ja markkinatilanne Suomessa; tällä hetkellä ei uutta ehdokasindikaatiota"
 predicted_indications: []
 indication_count: 0
@@ -41,6 +41,7 @@ Näytön taso: **N/A** | Ennustetut käyttöaiheet: **0** kpl
 TxGNN-mallin ehdokkaat lääkkeelle Obinutuzumab ovat kaikki jo tunnettuja käyttöaiheita, joten uutta ennustettua käyttöaihetta ei tällä hetkellä ole. Mallin ehdokkaat liittyvät kroonisen lymfaattisen leukemian (CLL) tautiryhmään, joka vastaa hyväksyttyä käyttöaihetta. Nämä ehdokkaat eivät itsessään ole hyväksyttyjä käyttöaiheita.
 
 ## Pikakatsaus
+
 | Kohta | Sisältö |
 |------|------|
 | Uudet ennustetut käyttöaiheet | Ei yhtään (kaikki jäljitettävissä olevat mallin ehdokkaat ovat tunnettuja käyttöaiheita) |
@@ -51,15 +52,18 @@ TxGNN-mallin ehdokkaat lääkkeelle Obinutuzumab ovat kaikki jo tunnettuja käyt
 ## Tunnetut käyttöaiheet mallin ehdokkaiden joukossa
 
 ### Hyväksytyt (lupa tai valmisteyhteenveto tukee)
+
 | Käyttöaihe | Lähde |
 |------|------|
 | ei yhtään | ei yhtään |
 
 ### Hyväksyttyyn käyttöaiheeseen liittyvät (sama tautiryhmä)
+
 | Käyttöaihe | Hyväksytty ryhmä |
 |------|------|
 
 ### Tietämysgraafissa kirjatut suhteet (hyväksyntää ei löytynyt)
+
 | Käyttöaihe |
 |------|
 | ei yhtään |

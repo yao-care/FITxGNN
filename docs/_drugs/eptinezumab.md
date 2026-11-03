@@ -3,7 +3,7 @@ layout: default
 title: Eptinezumab
 parent: Vain tunnetut käytöt (ei uusia ennusteita)
 nav_order: 171
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Eptinezumab: tunnetut käyttöaiheet ja markkinatilanne Suomessa; tällä hetkellä ei uutta ehdokasindikaatiota"
 predicted_indications: []
 indication_count: 0
@@ -41,6 +41,7 @@ Näytön taso: **N/A** | Ennustetut käyttöaiheet: **0** kpl
 TxGNN-mallin ehdokkaat lääkkeelle Eptinezumab ovat kaikki jo tunnettuja käyttöaiheita. Siksi uutta ennustettua käyttöaihetta ei tällä hetkellä ole. Mallin ainoa jäljitettävissä oleva ehdokas kuuluu samaan tautiryhmään kuin hyväksytty käyttöaihe.
 
 ## Pikakatsaus
+
 | Kohta | Sisältö |
 |------|------|
 | Uudet ennustetut käyttöaiheet | Ei yhtään (kaikki jäljitettävissä olevat mallin ehdokkaat ovat tunnettuja käyttöaiheita) |
@@ -51,15 +52,18 @@ TxGNN-mallin ehdokkaat lääkkeelle Eptinezumab ovat kaikki jo tunnettuja käytt
 ## Tunnetut käyttöaiheet mallin ehdokkaiden joukossa
 
 ### Hyväksytty (myyntiluvan tai valmisteyhteenvedon tukema)
+
 | Käyttöaihe | Lähde |
 |------|------|
 | Ei yhtään | – |
 
 ### Liittyy hyväksyttyyn käyttöaiheeseen (sama tautiryhmä)
+
 | Käyttöaihe | Hyväksytty tautiryhmä |
 |------|------|
 
 ### TxGNN-mallin (syväoppiminen) tunnistamat yhteydet (hyväksyntää ei löytynyt)
+
 | Käyttöaihe |
 |------|
 | Ei yhtään |

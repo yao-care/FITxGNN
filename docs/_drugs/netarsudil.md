@@ -3,7 +3,7 @@ layout: default
 title: Netarsudil
 parent: Vain tunnetut käytöt (ei uusia ennusteita)
 nav_order: 301
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-03
 description: "Netarsudil: tunnetut käyttöaiheet ja markkinatilanne Suomessa; tällä hetkellä ei uutta ehdokasindikaatiota"
 predicted_indications: []
 indication_count: 0
@@ -41,6 +41,7 @@ Näytön taso: **N/A** | Ennustetut käyttöaiheet: **0** kpl
 Mallin Netarsudil-lääkkeelle tuottamat ehdokkaat ovat kaikki jo tunnettuja käyttötarkoituksia, joten uutta ennustettua indikaatiota ei tällä hetkellä ole. Kaksi jäljitettävää ehdokasta liittyy glaukoomaan: toinen on hyväksytty käyttöaihe ja toinen kuuluu samaan tautiryhmään hyväksytyn käyttöaiheen kanssa.
 
 ## Pikakatsaus
+
 | Kohta | Sisältö |
 |------|------|
 | Uudet ennustetut indikaatiot | Ei yhtään (kaikki jäljitettävissä olevat mallin ehdokkaat ovat tunnettuja käyttötarkoituksia) |
@@ -51,15 +52,18 @@ Mallin Netarsudil-lääkkeelle tuottamat ehdokkaat ovat kaikki jo tunnettuja kä
 ## Tunnetut käyttötarkoitukset mallin ehdokkaiden joukossa
 
 ### Hyväksytty (myyntiluvan tai valmisteyhteenvedon tukema)
+
 | Käyttöaihe | Lähde |
 |------|------|
 | Glaukooma (glaucoma) | Myyntilupa Suomessa; hyväksytty käyttöaihe: open-angle glaucoma |
 
 ### Liittyy hyväksyttyyn käyttöaiheeseen (sama tautiryhmä)
+
 | Käyttöaihe | Hyväksytty ryhmä |
 |------|------|
 
 ### Aiemmin tunnetut yhteydet (hyväksyntää ei löytynyt)
+
 | Käyttöaihe |
 |------|
 | Ei yhtään |

@@ -3,7 +3,7 @@ layout: default
 title: Trastuzumab Emtansine
 parent: Vain tunnetut käytöt (ei uusia ennusteita)
 nav_order: 452
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Trastuzumab Emtansine: tunnetut käyttöaiheet ja markkinatilanne Suomessa; tällä hetkellä ei uutta ehdokasindikaatiota"
 predicted_indications: []
 indication_count: 0
@@ -41,6 +41,7 @@ Näytön taso: **N/A** | Ennustetut käyttöaiheet: **0** kpl
 TxGNN-syväoppimismallin (pistemäärä ≥ 0,99) tuottamat ehdokkaat tälle lääkkeelle ovat kaikki jo tunnettuja käyttöaiheita, joten uutta ennustettua indikaatiota ei tällä hetkellä ole. Kaikki neljä ehdokasta kuuluvat samaan tautiryhmään (rintasyöpä) kuin hyväksytty käyttöaihe. Ne eivät silti ole sellaisinaan lupaan tai valmisteyhteenvetoon perustuvia hyväksyttyjä käyttöaiheita.
 
 ## Pikakatsaus
+
 | Kohta | Sisältö |
 |------|------|
 | Uudet ennustetut indikaatiot | Ei yhtään (kaikki jäljitettävissä olevat mallin ehdokkaat ovat tunnettuja käyttöaiheita) |
@@ -51,15 +52,18 @@ TxGNN-syväoppimismallin (pistemäärä ≥ 0,99) tuottamat ehdokkaat tälle lä
 ## Tunnetut käyttöaiheet mallin ehdokkaiden joukossa
 
 ### Hyväksytty (lupa tai valmisteyhteenveto tukee)
+
 | Käyttöaihe | Lähde |
 |------|------|
 | Ei yhtään | – |
 
 ### Liittyy hyväksyttyyn käyttöaiheeseen (sama tautiryhmä)
+
 | Käyttöaihe | Hyväksytty tautiryhmä |
 |------|------|
 
 ### TxGNN-mallin (syväoppiminen) tunnistamat yhteydet (hyväksyntää ei löydetty)
+
 | Käyttöaihe |
 |------|
 | Ei yhtään |

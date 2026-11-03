@@ -3,7 +3,7 @@ layout: default
 title: Neratinib
 parent: Vain tunnetut käytöt (ei uusia ennusteita)
 nav_order: 300
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-03
 description: "Neratinib: tunnetut käyttöaiheet ja markkinatilanne Suomessa; tällä hetkellä ei uutta ehdokasindikaatiota"
 predicted_indications: []
 indication_count: 0
@@ -41,6 +41,7 @@ Näytön taso: **N/A** | Ennustetut käyttöaiheet: **0** kpl
 TxGNN-mallin Neratinibille tuottamat ehdokkaat ovat kaikki jo tunnettuja käyttötarkoituksia, joten uutta ennustettua indikaatiota ei tällä hetkellä ole. Mallin neljä ehdokasta kuuluvat samaan tautiryhmään (rintasyöpä) kuin hyväksytty käyttöaihe. Ne eivät kuitenkaan ole itsenäisesti hyväksyttyjä käyttöaiheita.
 
 ## Pikakatsaus
+
 | Kohta | Sisältö |
 |------|------|
 | Uudet ennustetut indikaatiot | Ei yhtään (kaikki jäljitettävissä olevat mallin ehdokkaat ovat tunnettuja käyttötarkoituksia) |
@@ -51,15 +52,18 @@ TxGNN-mallin Neratinibille tuottamat ehdokkaat ovat kaikki jo tunnettuja käytt�
 ## Tunnetut käyttötarkoitukset mallin ehdokkaiden joukossa
 
 ### Hyväksytyt (luvan tai valmisteyhteenvedon tukemat)
+
 | Käyttöaihe | Lähde |
 |------|------|
 | ei yhtään | – |
 
 ### Hyväksyttyyn käyttöaiheeseen liittyvät (sama tautiryhmä)
+
 | Käyttöaihe | Hyväksytty tautiryhmä |
 |------|------|
 
 ### Suhteet, jotka on kirjattu lähdetietoihin (hyväksyntää ei löytynyt)
+
 | Käyttöaihe |
 |------|
 | ei yhtään |

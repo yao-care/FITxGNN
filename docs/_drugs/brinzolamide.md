@@ -5,7 +5,7 @@ parent: Vain tunnetut käytöt (ei uusia ennusteita)
 nav_order: 83
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Brinzolamide: known uses and market status in Finland; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Näytön taso: **N/A** | Ennustetut käyttöaiheet: **0** kpl
 TxGNN-mallin tälle lääkeaineelle tuottamat ehdokkaat ovat kaikki jo tunnettuja käyttöaiheita. Siksi Brinzolamide-valmisteelle ei tällä hetkellä ole uutta ennustettua käyttöaihetta. Alla on lueteltu mallin ehdokkaiden joukossa olevat tunnetut käyttöaiheet ja markkinatilanne Suomessa.
 
 ## Pikakatsaus
+
 | Kohta | Sisältö |
 |------|------|
 | Uudet ennustetut käyttöaiheet | Ei yhtään (kaikki jäljitettävissä olevat mallin ehdokkaat ovat tunnettuja käyttöaiheita) |
@@ -52,16 +53,19 @@ TxGNN-mallin tälle lääkeaineelle tuottamat ehdokkaat ovat kaikki jo tunnettuj
 ## Tunnetut käyttöaiheet mallin ehdokkaiden joukossa
 
 ### Hyväksytty (lupa tai valmisteyhteenveto tukee)
+
 | Käyttöaihe | Lähde |
 |------|------|
 | Primaarinen perinnöllinen glaukooma (primary hereditary glaucoma) | Lupa toisessa maassa; hyväksytty käyttöaihe: glaucoma |
 
 ### Liittyy hyväksyttyyn käyttöaiheeseen (sama tautiryhmä)
+
 | Käyttöaihe | Hyväksytty ryhmä |
 |------|------|
 | Ei yhtään | Ei yhtään |
 
 ### Mallin oppimat yhteydet (hyväksyntää ei löytynyt)
+
 | Käyttöaihe |
 |------|
 | Ei yhtään |

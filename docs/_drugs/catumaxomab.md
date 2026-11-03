@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 102
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 description: "Catumaxomab: ennustettu uusi käyttöaihe Vaikea ei-proliferatiivinen diabeettinen retinopatia (näytön taso L5). Alkuperäinen käyttöaihe: Askites"
 monitor_inn: "CATUMAXOMAB"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "drug-induced osteoporosis", "diabetic retinopathy"]
@@ -131,6 +131,7 @@ Samalla ennustelistalla olivat myös seuraavat, joilla on sama heikko näyttöta
 |------|------|------|------|
 | 2 | Lääkeaineen aiheuttama osteoporoosi | 0,9958 | Yhteyttä EpCAM/CD3-välitteisen T-solutuhon ja luuston uudistumisen (RANKL/OPG) välillä ei ole; sytokiinien vapautuminen voisi vaikuttaa luun vaihduntaan haitallisesti. |
 | 3 | Diabeettinen retinopatia | 0,9947 | Edellisen laajempi yläluokka; ennusteet perustuvat samaan signaaliin, joten ne eivät vahvista toisiaan. |
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

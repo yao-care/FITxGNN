@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 243
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-03
 monitor_inn: "LACOSAMIDE"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "insomnia (disease)", "migraine with brainstem aura", "myofascial pain syndrome", "obsessive-compulsive disorder", "papillary conjunctivitis"]
 description: "Lacosamide: ennustettu uusi käyttöaihe Manic bipolar affective disorder (näytön taso L5). Alkuperäinen käyttöaihe: Epilepsies, Partial"
@@ -145,6 +145,7 @@ Seuraavat ennusteet perustuvat enimmäkseen pelkkään malliin:
 | Myofaskiaalinen kipuoireyhtymä | L2 | Tutkimuskysymys; päättynyt vaiheen 2 tutkimus ([NCT00401830](https://clinicaltrials.gov/study/NCT00401830), n=159, fibromyalgia), tuloksia ei ole saatavilla |
 | Pakko-oireinen häiriö | L5 | Hold; ainoa tutkimus koskee alkoholin käyttöä |
 | Papillaarinen konjunktiviitti | L5 | Hold; ei näyttöä |
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

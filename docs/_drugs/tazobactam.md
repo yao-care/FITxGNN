@@ -3,7 +3,7 @@ layout: default
 title: Tazobactam
 parent: Vain tunnetut käytöt (ei uusia ennusteita)
 nav_order: 420
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Tazobactam: tunnetut käyttöaiheet ja markkinatilanne Suomessa; tällä hetkellä ei uutta ehdokasindikaatiota"
 predicted_indications: []
 indication_count: 0
@@ -41,6 +41,7 @@ Näytön taso: **N/A** | Ennustetut käyttöaiheet: **0** kpl
 TxGNN-syväoppimismallin (pistemäärä ≥ 0,99) tuottamat ehdokkaat lääkeaineelle Tazobactam ovat kaikki jo tunnettuja käyttöaiheita. Siksi uutta ennustettua käyttöaihetta ei tällä hetkellä ole. Alla on lueteltu mallin ehdokkaiden joukossa olevat tunnetut käyttöaiheet ja niiden tausta.
 
 ## Pikakatsaus
+
 | Kohta | Sisältö |
 |------|------|
 | Uudet ennustetut käyttöaiheet | Ei yhtään (kaikki jäljitettävissä olevat mallin ehdokkaat ovat tunnettuja käyttöaiheita) |
@@ -51,15 +52,18 @@ TxGNN-syväoppimismallin (pistemäärä ≥ 0,99) tuottamat ehdokkaat lääkeain
 ## Tunnetut käyttöaiheet mallin ehdokkaiden joukossa
 
 ### Hyväksytyt (lupa tai valmisteyhteenveto tukee)
+
 | Käyttöaihe | Lähde |
 |------|------|
 | keuhkokuume (pneumonia) | lupa toisessa maassa; hyväksytty käyttöaihe: hospital-acquired pneumonia (hap), including ventilator associated pneumonia (vap). consideration should be given to official guidance on the appropriate use of antibacterial agents |
 
 ### Hyväksyttyyn käyttöaiheeseen liittyvät (sama tautiryhmä)
+
 | Käyttöaihe | Hyväksytty tautiryhmä |
 |------|------|
 
 ### Mallin oppimat yhteydet, jotka voivat heijastaa samankaltaisuuksia sairauksien välillä (hyväksyntää ei löytynyt)
+
 | Käyttöaihe |
 |------|
 | Ei yhtään |

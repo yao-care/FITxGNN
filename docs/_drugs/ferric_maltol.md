@@ -4,17 +4,17 @@ title: Ferric Maltol
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 189
 evidence_level: L5
-indication_count: 3
+indication_count: 2
 monitor_inn: "FERRIC MALTOL"
-predicted_indications: ["Plummer-Vinson syndrome", "vitamin B12- and folate-independent constitutional megaloblastic anemia", "IRIDA syndrome"]
-last_modified_at: 2026-10-28
-description: "Ferric Maltol: ennustettu uusi käyttöaihe Plummer-Vinsonin oireyhtymä (Plummer-Vinson syndrome) (näytön taso L5). Alkuperäinen käyttöaihe: Anemia, Iron-Deficiency"
+predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "IRIDA syndrome"]
+last_modified_at: 2026-11-03
+description: "Ferric Maltol: ennustettu uusi käyttöaihe Vitamin B12- and folate-independent constitutional megaloblastic anemia (näytön taso L5). Alkuperäinen käyttöaihe: Anemia, Iron-Deficiency"
 ---
 
 # Ferric Maltol
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,20 +33,20 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
 
 </div>
 
-## Ferrimaltoli: rautalisä → Plummer-Vinsonin oireyhtymä (Plummer-Vinson syndrome)
+## Ferric Maltol: Vitamin B12- and folate-independent constitutional megaloblastic anemia
 {: .text-alpha }
 
 ## Yhteenveto
 
-Ferrimaltoli on suun kautta otettava rautavalmiste, jonka paikallisissa lupatiedoissa on rautaa koskeva käyttöaihe. TxGNN-malli ennustaa sen mahdolliseksi uudeksi käyttöaiheeksi **Plummer-Vinsonin oireyhtymän (Plummer-Vinson syndrome)**. Ennusteen tueksi ei ole toistaiseksi **yhtään kliinistä tutkimusta eikä julkaisua**, joten näyttö perustuu pelkkään mallin ennusteeseen.
+Ferrimaltoli on suun kautta otettava rautavalmiste, jonka paikallisissa lupatiedoissa on rautaa koskeva käyttöaihe. Ennusteen tueksi ei ole toistaiseksi **yhtään kliinistä tutkimusta eikä julkaisua**, joten näyttö perustuu pelkkään mallin ennusteeseen.
 
 ## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
 | Alkuperäinen käyttöaihe | Anemia, Iron-Deficiency |
-| Ennustettu uusi käyttöaihe | Plummer-Vinsonin oireyhtymä (Plummer-Vinson syndrome) |
-| TxGNN-ennusteen pistemäärä | 0,9998 |
+| Ennustettu uusi käyttöaihe | Vitamin B12- and folate-independent constitutional megaloblastic anemia |
+| TxGNN-ennusteen pistemäärä | 0.9998 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Icatibant
-parent: Vahva näyttö (L1-L2)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 218
-evidence_level: L1
-indication_count: 7
+evidence_level: L5
+indication_count: 6
 monitor_inn: "ICATIBANT"
-predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "Glanzmann thrombasthenia"]
-last_modified_at: 2026-10-30
-description: "Icatibant: ennustettu uusi käyttöaihe C1-estäjän puutos (C1 inhibitor deficiency) (näytön taso L1). Alkuperäinen käyttöaihe: Angioedemas, Hereditary"
+predicted_indications: ["serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "Glanzmann thrombasthenia"]
+last_modified_at: 2026-11-03
+description: "Icatibant: ennustettu uusi käyttöaihe Serpinopathy with toxic serpin polymerization (näytön taso L5). Alkuperäinen käyttöaihe: Angioedemas, Hereditary"
 ---
 
 # Icatibant
 {: .fs-9 }
 
-Näytön taso: **L1** | Ennustetut käyttöaiheet: **7** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,21 +33,21 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **7** kpl
 
 </div>
 
-## Ikatibantti: bradykiniinin B2-reseptorin salpaaja → C1-estäjän puutos (C1 inhibitor deficiency)
+## Icatibant: Serpinopathy with toxic serpin polymerization
 {: .text-alpha }
 
 ## Yhteenveto
 
-Ikatibantti on selektiivinen bradykiniinin B2-reseptorin salpaaja, jota käytetään perinnöllisen angioedeeman akuuttien kohtausten hoitoon. TxGNN-malli ennustaa sen sopivan **C1-estäjän puutoksen (C1 inhibitor deficiency)** hoitoon. Ennusteen tukena on tässä raportissa **11 kliinistä tutkimusta** ja **20 julkaisua**, joista osa koskee suoraan ikatibanttia.
+Ikatibantti on selektiivinen bradykiniinin B2-reseptorin salpaaja, jota käytetään perinnöllisen angioedeeman akuuttien kohtausten hoitoon. Ennusteen tukena on tässä raportissa **11 kliinistä tutkimusta** ja **20 julkaisua**, joista osa koskee suoraan ikatibanttia.
 
 ## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
 | Alkuperäinen käyttöaihe | Angioedemas, Hereditary |
-| Ennustettu uusi käyttöaihe | C1-estäjän puutos (C1 inhibitor deficiency) |
-| TxGNN-ennustepisteet | 0,9999 |
-| Näytön taso | L1 |
+| Ennustettu uusi käyttöaihe | Serpinopathy with toxic serpin polymerization |
+| TxGNN-ennustepisteet | 0.9999 |
+| Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
 | Myyntilupien määrä | 2 (voimassa: 2) |
 | Suositeltu päätös | Edetä suojatoimin |

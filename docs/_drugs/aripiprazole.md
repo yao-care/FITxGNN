@@ -4,17 +4,17 @@ title: Aripiprazole
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 42
 evidence_level: L5
-indication_count: 9
-last_modified_at: 2026-10-28
-description: "Aripiprazole: ennustettu uusi käyttöaihe Vakava mielialahäiriö (major affective disorder) (näytön taso L1). Alkuperäinen käyttöaihe: Skitsofrenia"
+indication_count: 8
+last_modified_at: 2026-11-03
 monitor_inn: "ARIPIPRAZOLE"
-predicted_indications: ["major affective disorder", "gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
+predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
+description: "Aripiprazole: ennustettu uusi käyttöaihe Gaze palsy, familial horizontal, with progressive scoliosis (näytön taso L5). Alkuperäinen käyttöaihe: Schizophrenia"
 ---
 
 # Aripiprazole
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **8** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 
 </div>
 
-## Aripipratsoli: Vakava mielialahäiriö
+## Aripiprazole: Gaze palsy, familial horizontal, with progressive scoliosis
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -48,9 +48,9 @@ ja tätä suuntaa tukee tällä hetkellä **34 kliinistä tutkimusta** ja **20 j
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Skitsofrenia; kaksisuuntainen mielialahäiriö |
-| Ennustettu uusi käyttöaihe | Vakava mielialahäiriö (major affective disorder) |
-| TxGNN-ennustepistemäärä | 0,9962 |
+| Alkuperäinen käyttöaihe | Schizophrenia;Bipolar Disorder; Schizophrenia |
+| Ennustettu uusi käyttöaihe | Gaze palsy, familial horizontal, with progressive scoliosis |
+| TxGNN-ennustepistemäärä | 0.9960 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 6/6) |
 | Myyntilupien määrä | 6 (voimassa: 6) |

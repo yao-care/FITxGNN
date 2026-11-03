@@ -4,17 +4,17 @@ title: Talimogene Laherparepvec
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 417
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-30
+indication_count: 4
+last_modified_at: 2026-11-03
 monitor_inn: "TALIMOGENE LAHERPAREPVEC"
-predicted_indications: ["CMM7", "glottis squamous cell carcinoma", "lung occult squamous cell carcinoma", "rectal cloacogenic carcinoma", "gallbladder adenosquamous carcinoma"]
-description: "Talimogene Laherparepvec: ennustettu uusi käyttöaihe CMM7 (näytön taso L5). Alkuperäinen käyttöaihe: Melanoma"
+predicted_indications: ["glottis squamous cell carcinoma", "lung occult squamous cell carcinoma", "rectal cloacogenic carcinoma", "gallbladder adenosquamous carcinoma"]
+description: "Talimogene Laherparepvec: ennustettu uusi käyttöaihe Glottis squamous cell carcinoma (näytön taso L5). Alkuperäinen käyttöaihe: Melanoma"
 ---
 
 # Talimogene Laherparepvec
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **4** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-## Talimogene Laherparepvec: CMM7
+## Talimogene Laherparepvec: Glottis squamous cell carcinoma
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 
-Talimogeenilaherparepvek (T-VEC) on onkolyyttinen herpes simplex -virus tyypin 1 -valmiste, jota on alun perin käytetty melanooman hoitoon. TxGNN-malli ennustaa sen voivan tehota **ihomelanooman alatyyppiin CMM7**. Ennusteen tueksi ei kuitenkaan ole yhtään kliinistä tutkimusta eikä julkaisua, joten ennuste perustuu pelkästään mallin laskentaan.
+Talimogeenilaherparepvek (T-VEC) on onkolyyttinen herpes simplex -virus tyypin 1 -valmiste, jota on alun perin käytetty melanooman hoitoon. Ennusteen tueksi ei kuitenkaan ole yhtään kliinistä tutkimusta eikä julkaisua, joten ennuste perustuu pelkästään mallin laskentaan.
 
 ---
 
@@ -47,8 +47,8 @@ Talimogeenilaherparepvek (T-VEC) on onkolyyttinen herpes simplex -virus tyypin 1
 | Kohta | Sisältö |
 |------|------|
 | Alkuperäinen käyttöaihe | Melanoma |
-| Ennustettu uusi käyttöaihe | CMM7 |
-| TxGNN-ennustepistemäärä | 0.9920 |
+| Ennustettu uusi käyttöaihe | Glottis squamous cell carcinoma |
+| TxGNN-ennustepistemäärä | 0.9907 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |
@@ -130,7 +130,7 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ole saatavilla tätä rapo
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu pelkästään malliin (L5), eikä tukevia kliinisiä tutkimuksia tai julkaisuja ole. Ensisijainen ennuste (CMM7) on käytännössä alkuperäinen melanoomakäyttöaihe, eikä siten aito uudelleenkäyttöehdotus. Lisäksi Suomen myyntilupa on peruutettu.
+- Ennuste perustuu pelkästään malliin (L5), eikä tukevia kliinisiä tutkimuksia tai julkaisuja ole. Lisäksi Suomen myyntilupa on peruutettu.
 
 **Jatkoon tarvitaan:**
 - Valmisteyhteenvedon varoitus- ja vasta-aihetiedot Fimean sivustolta (estää turvallisuusseulonnan etenemisen)

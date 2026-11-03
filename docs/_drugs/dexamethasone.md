@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Dexamethasone
-parent: Vahva näyttö (L1-L2)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 139
-evidence_level: L2
-indication_count: 10
-last_modified_at: 2026-10-28
-description: "Dexamethasone: ennustettu uusi käyttöaihe Alopecia areata (näytön taso L2). Alkuperäinen käyttöaihe: Makulaödeema, uveiitti"
+evidence_level: L5
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "DEXAMETHASONE"
-predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
+predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
+description: "Dexamethasone: ennustettu uusi käyttöaihe Alopecia mucinosa (näytön taso L5). Alkuperäinen käyttöaihe: Macular Edema"
 ---
 
 # Dexamethasone
 {: .fs-9 }
 
-Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Deksametasoni: Silmä- ja myeloomakäytöstä hiustenlähtöön (alopecia areata)
+## Dexamethasone: Alopecia mucinosa
 {: .text-alpha }
 
 ## Yhden lauseen tiivistelmä
@@ -47,10 +47,10 @@ TxGNN-malli ennustaa sen voivan tehota **alopecia areataan** (pälyhiuspuuska), 
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Makulaödeema, uveiitti |
-| Ennustettu uusi käyttöaihe | Alopecia areata |
-| TxGNN-ennusteen pistemäärä | 0,9999 |
-| Näytön taso | L2 |
+| Alkuperäinen käyttöaihe | Macular Edema;Uveitis; Multiple Myeloma |
+| Ennustettu uusi käyttöaihe | Alopecia mucinosa |
+| TxGNN-ennusteen pistemäärä | 0.9999 |
+| Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
 | Myyntilupien määrä | 2 (voimassa: 2) |
 | Suositeltu päätös | Proceed with Guardrails (eteneminen suojatoimin) |

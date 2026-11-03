@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Oteracil
-parent: Vahva näyttö (L1-L2)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 320
-evidence_level: L1
-indication_count: 10
-last_modified_at: 2026-10-28
-description: "Oteracil: ennustettu uusi käyttöaihe Paksusuolen kasvain (colonic neoplasm) (näytön taso L1). Alkuperäinen käyttöaihe: Mahasyöpä (Stomach Neoplasms)"
+evidence_level: L5
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "OTERACIL"
-predicted_indications: ["colonic neoplasm", "cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "rectosigmoid junction neoplasm", "benign neoplasm of cecum", "colonic lymphangioma", "colon leiomyoma", "cavernous hemangioma of colon"]
+predicted_indications: ["cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "rectosigmoid junction neoplasm", "benign neoplasm of cecum", "colonic lymphangioma", "colon leiomyoma", "cavernous hemangioma of colon"]
+description: "Oteracil: ennustettu uusi käyttöaihe Cecum villous adenoma (näytön taso L5). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin"
 ---
 
 # Oteracil
 {: .fs-9 }
 
-Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Oteraciili: Paksusuolen kasvain
+## Oteracil: Cecum villous adenoma
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 
 Oteraciili on S-1-yhdistelmävalmisteen (tegafuuri + gimerasiili + oteraciili) osa, jota on alun perin käytetty mahasyövän hoitoon.
-TxGNN-malli ennustaa sen voivan olla hyödyllinen **paksusuolen kasvaimen (colonic neoplasm)** hoidossa.
 Suuntaa tukee tällä hetkellä **6 kliinistä tutkimusta** ja **10 julkaisua**, mutta tulokset koskevat S-1-yhdistelmää kokonaisuutena, eivät oteraciilia yksinään.
 
 ---
@@ -48,10 +47,10 @@ Suuntaa tukee tällä hetkellä **6 kliinistä tutkimusta** ja **10 julkaisua**,
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Mahasyöpä (Stomach Neoplasms) |
-| Ennustettu uusi käyttöaihe | Paksusuolen kasvain (colonic neoplasm) |
-| TxGNN-ennustepistemäärä | 0,9999 |
-| Näytön taso | L1 |
+| Alkuperäinen käyttöaihe | Ei kirjattu paikallisiin tietoihin |
+| Ennustettu uusi käyttöaihe | Cecum villous adenoma |
+| TxGNN-ennustepistemäärä | 0.9998 |
+| Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Proceed with Guardrails (jatka suojatoimin) |

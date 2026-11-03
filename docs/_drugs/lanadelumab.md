@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lanadelumab
-parent: Vahva näyttö (L1-L2)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 245
-evidence_level: L1
-indication_count: 10
-last_modified_at: 2026-10-28
+evidence_level: L5
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "LANADELUMAB"
-predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "pancreatitis", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "Glanzmann thrombasthenia", "antisynthetase syndrome", "focal myositis", "Scott syndrome"]
-description: "Lanadelumab: ennustettu uusi käyttöaihe C1-estäjän puutos (C1 inhibitor deficiency) (näytön taso L1). Alkuperäinen käyttöaihe: Angioedemas, Hereditary"
+predicted_indications: ["serpinopathy with toxic serpin polymerization", "pancreatitis", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "Glanzmann thrombasthenia", "antisynthetase syndrome", "focal myositis", "Scott syndrome"]
+description: "Lanadelumab: ennustettu uusi käyttöaihe Serpinopathy with toxic serpin polymerization (näytön taso L5). Alkuperäinen käyttöaihe: Angioedemas, Hereditary"
 ---
 
 # Lanadelumab
 {: .fs-9 }
 
-Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Lanadelumab: C1-estäjän puutos (C1 inhibitor deficiency)
+## Lanadelumab: Serpinopathy with toxic serpin polymerization
 {: .text-alpha }
 
 ## Yhteenveto
@@ -49,9 +49,9 @@ Ennusteen tukena on **5 kliinistä tutkimusta** ja **20 julkaisua**.
 | Kohta | Sisältö |
 |------|------|
 | Alkuperäinen käyttöaihe | Angioedemas, Hereditary |
-| Ennustettu uusi käyttöaihe | C1-estäjän puutos (C1 inhibitor deficiency) |
-| TxGNN-ennusteen pisteet | 99,996 % |
-| Näytön taso | L1 |
+| Ennustettu uusi käyttöaihe | Serpinopathy with toxic serpin polymerization |
+| TxGNN-ennusteen pisteet | 0.9999 |
+| Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Etene suojatoimin (Proceed with Guardrails) |

@@ -4,17 +4,17 @@ title: Formoterol
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 193
 evidence_level: L5
-indication_count: 3
+indication_count: 2
 monitor_inn: "formoterol"
-predicted_indications: ["respiratory malformation", "bronchitis", "Rienhoff syndrome"]
-last_modified_at: 2026-10-28
+predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
+last_modified_at: 2026-11-03
 description: "Formoterol: ennustettu uusi käyttöaihe Hengitystieepämuodostuma (respiratory malformation) (näytön taso L5). Alkuperäinen käyttöaihe: Pulmonary Disease, Chronic Obstructive"
 ---
 
 # Formoterol
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **3** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 {: .fs-6 .fw-300 }
 
 ---

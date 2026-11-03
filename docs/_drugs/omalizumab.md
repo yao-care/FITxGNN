@@ -4,17 +4,17 @@ title: Omalizumab
 parent: Vahva näyttö (L1-L2)
 nav_order: 317
 evidence_level: L2
-indication_count: 10
-last_modified_at: 2026-10-28
-description: "Omalizumab: ennustettu uusi käyttöaihe Keuhkoputkentulehdus (bronchitis) (näytön taso L2). Alkuperäinen käyttöaihe: Astma, nokkosihottuma, nuha"
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "OMALIZUMAB"
-predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
+predicted_indications: ["bronchitis", "atopic eczema", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
+description: "Omalizumab: ennustettu uusi käyttöaihe Keuhkoputkentulehdus (bronchitis) (näytön taso L2). Alkuperäinen käyttöaihe: Asthma"
 ---
 
 # Omalizumab
 {: .fs-9 }
 
-Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L2** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Omalitsumabi: Keuhkoputkentulehdus
+## Omalizumab: Keuhkoputkentulehdus (bronchitis)
 {: .text-alpha }
 
 ## Yhteenveto
@@ -44,9 +44,9 @@ Omalitsumabi on IgE-vasta-aine, jota on alun perin käytetty astman, nokkosihott
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Astma, nokkosihottuma, nuha |
+| Alkuperäinen käyttöaihe | Asthma;Urticaria;Rhinitis; Asthma;Urticaria |
 | Ennustettu uusi käyttöaihe | Keuhkoputkentulehdus (bronchitis) |
-| TxGNN-ennustepistemäärä | 1,0000 |
+| TxGNN-ennustepistemäärä | 1.0000 |
 | Näytön taso | L2 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
 | Myyntilupien määrä | 2 (voimassa: 2) |

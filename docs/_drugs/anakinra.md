@@ -4,17 +4,17 @@ title: Anakinra
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 33
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 monitor_inn: "ANAKINRA"
-predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "autosomal recessive familial Mediterranean fever", "aggressive systemic mastocytosis", "hepatic veno-occlusive disease", "peliosis hepatis", "oligoarticular juvenile idiopathic arthritis without anti-nuclear antibodies", "oligoarticular juvenile idiopathic arthritis with anti-nuclear antibodies", "pyogenic autoinflammatory syndrome", "unclassified autoinflammatory syndrome"]
-last_modified_at: 2026-10-28
+predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "aggressive systemic mastocytosis", "hepatic veno-occlusive disease", "peliosis hepatis", "oligoarticular juvenile idiopathic arthritis without anti-nuclear antibodies", "oligoarticular juvenile idiopathic arthritis with anti-nuclear antibodies", "pyogenic autoinflammatory syndrome", "unclassified autoinflammatory syndrome"]
+last_modified_at: 2026-11-03
 description: "Anakinra: ennustettu uusi käyttöaihe Ekstrakutaaninen mastosytooma (extracutaneous mastocytoma) (näytön taso L5). Alkuperäinen käyttöaihe: Arthritis, Rheumatoid"
 ---
 
 # Anakinra
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---

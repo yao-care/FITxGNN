@@ -4,17 +4,17 @@ title: Laronidase
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 247
 evidence_level: L5
-indication_count: 2
-last_modified_at: 2026-10-28
+indication_count: 1
+last_modified_at: 2026-11-03
 monitor_inn: "LARONIDASE"
-predicted_indications: ["lysosomal storage disease with skeletal involvement", "Sanfilippo syndrome"]
-description: "Laronidase: ennustettu uusi käyttöaihe Lysosomal storage disease with skeletal involvement (näytön taso L5). Alkuperäinen käyttöaihe: Mucopolysaccharidosis I"
+predicted_indications: ["Sanfilippo syndrome"]
+description: "Laronidase: ennustettu uusi käyttöaihe Sanfilippo syndrome (näytön taso L5). Alkuperäinen käyttöaihe: Mucopolysaccharidosis I"
 ---
 
 # Laronidase
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
 
 </div>
 
-## Laronidase: Lysosomal storage disease with skeletal involvement
+## Laronidase: Sanfilippo syndrome
 {: .text-alpha }
 
 ## Yhteenveto
@@ -48,8 +48,8 @@ Ennusteen tueksi on **0 kliinistä tutkimusta** ja **4 julkaisua** (katsauksia, 
 | Kohta | Sisältö |
 |------|------|
 | Alkuperäinen käyttöaihe | Mucopolysaccharidosis I |
-| Ennustettu uusi käyttöaihe | Lysosomal storage disease with skeletal involvement |
-| TxGNN-ennustepistemäärä | 0.9931 |
+| Ennustettu uusi käyttöaihe | Sanfilippo syndrome |
+| TxGNN-ennustepistemäärä | 0.9922 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |

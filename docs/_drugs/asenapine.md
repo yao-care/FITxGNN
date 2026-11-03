@@ -4,17 +4,17 @@ title: Asenapine
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 46
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-28
-description: "Asenapine: ennustettu uusi käyttöaihe Verkkokalvon dystrofia, johon voi liittyä silmän ulkopuolisia poikkeavuuksia (näytön taso L5). Alkuperäinen käyttöaihe: Kaksisuuntainen mielialahäiriö"
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "Asenapine"
-predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "syndromic myopia", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy", "major affective disorder"]
+predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "syndromic myopia", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
+description: "Asenapine: ennustettu uusi käyttöaihe Verkkokalvon dystrofia, johon voi liittyä silmän ulkopuolisia poikkeavuuksia (retinal dystrophy with or without extraocular anomalies) (näytön taso L5)."
 ---
 
 # Asenapine
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Asenapiini: Verkkokalvon dystrofia, johon voi liittyä silmän ulkopuolisia poikkeavuuksia
+## Asenapine: Verkkokalvon dystrofia, johon voi liittyä silmän ulkopuolisia poikkeavuuksia (retinal dystrophy with or without extraocular anomalies)
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
@@ -46,9 +46,9 @@ Asenapiini on epätyypillinen antipsykootti, jota on käytetty kaksisuuntaisen m
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Kaksisuuntainen mielialahäiriö |
-| Ennustettu uusi käyttöaihe | Verkkokalvon dystrofia, johon voi liittyä silmän ulkopuolisia poikkeavuuksia |
-| TxGNN-ennusteen pistemäärä | 0,9977 |
+| Alkuperäinen käyttöaihe | Bipolar Disorder |
+| Ennustettu uusi käyttöaihe | Verkkokalvon dystrofia, johon voi liittyä silmän ulkopuolisia poikkeavuuksia (retinal dystrophy with or without extraocular anomalies) |
+| TxGNN-ennusteen pistemäärä | 0.9977 |
 | Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |
@@ -116,7 +116,7 @@ Julkaisuissa mainitaan lisäksi uneliaisuus, akatisia ja painonnousu antipsykoot
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden kerääminen Fimean aineistosta
 - Selvitys antoreitistä: asenapiini on sublingvaalinen valmiste, ja silmäsairauteen tarvittaisiin todennäköisesti toinen antotapa
 
-**Huomio:** Saman lääkkeen korkeimman pistemäärän ehdokkaista vain "major affective disorder" (rankattu kymmenenneksi) saa tukea kirjallisuudesta (mm. satunnaistettujen tutkimusten meta-analyysi). Se on kuitenkin lääkkeen alkuperäinen käyttöaihe, joten kyse on uudelleen löydetystä käyttöaiheesta eikä aidosta uudelleenkäytöstä.
+Se on kuitenkin lääkkeen alkuperäinen käyttöaihe, joten kyse on uudelleen löydetystä käyttöaiheesta eikä aidosta uudelleenkäytöstä.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

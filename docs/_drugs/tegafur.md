@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tegafur
-parent: Vahva näyttö (L1-L2)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 422
-evidence_level: L1
-indication_count: 10
-last_modified_at: 2026-10-28
-description: "Tegafur: ennustettu uusi käyttöaihe Paksusuolen kasvain (colonic neoplasm) (näytön taso L1). Alkuperäinen käyttöaihe: Mahasyöpä (Stomach Neoplasms)"
+evidence_level: L5
+indication_count: 8
+last_modified_at: 2026-11-03
 monitor_inn: "TEGAFUR"
-predicted_indications: ["colonic neoplasm", "cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "rectosigmoid junction neoplasm", "colonic lymphangioma", "cavernous hemangioma of colon"]
+predicted_indications: ["cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "colonic lymphangioma", "cavernous hemangioma of colon"]
+description: "Tegafur: ennustettu uusi käyttöaihe Cecum villous adenoma (näytön taso L5). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin"
 ---
 
 # Tegafur
 {: .fs-9 }
 
-Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **8** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Tegafuuri: Paksusuolen kasvain
+## Tegafur: Cecum villous adenoma
 {: .text-alpha }
 
 ## Yhden lauseen yhteenveto
 
-Tegafuuri on 5-fluorourasiilin (5-FU) esiaste, jota on alun perin käytetty **mahasyövän** hoitoon. TxGNN-malli ennustaa sen voivan tehota **paksusuolen kasvaimeen** (colonic neoplasm). Tätä suuntaa tukee tällä hetkellä **17 kliinistä tutkimusta** ja **20 julkaisua**, joihin kuuluu useita päättyneitä vaiheen 3 satunnaistettuja tutkimuksia.
+Tegafuuri on 5-fluorourasiilin (5-FU) esiaste, jota on alun perin käytetty **mahasyövän** hoitoon. Tätä suuntaa tukee tällä hetkellä **17 kliinistä tutkimusta** ja **20 julkaisua**, joihin kuuluu useita päättyneitä vaiheen 3 satunnaistettuja tutkimuksia.
 
 ---
 
@@ -46,10 +46,10 @@ Tegafuuri on 5-fluorourasiilin (5-FU) esiaste, jota on alun perin käytetty **ma
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Mahasyöpä (Stomach Neoplasms) |
-| Ennustettu uusi käyttöaihe | Paksusuolen kasvain (colonic neoplasm) |
-| TxGNN-ennustepisteet | 0,9990 |
-| Näytön taso | L1 |
+| Alkuperäinen käyttöaihe | Ei kirjattu paikallisiin tietoihin |
+| Ennustettu uusi käyttöaihe | Cecum villous adenoma |
+| TxGNN-ennustepisteet | 0.9986 |
+| Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Proceed with Guardrails (eteneminen suojatoimin) |

@@ -4,17 +4,17 @@ title: Ertapenem
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 175
 evidence_level: L5
-indication_count: 2
+indication_count: 1
 monitor_inn: "Ertapenem"
-predicted_indications: ["bacterial arthritis", "staphylococcus aureus infection"]
-last_modified_at: 2026-10-28
+predicted_indications: ["bacterial arthritis"]
+last_modified_at: 2026-11-03
 description: "Ertapenem: ennustettu uusi käyttöaihe Bakteeriperäinen niveltulehdus (bacterial arthritis) (näytön taso L5). Alkuperäinen käyttöaihe: Bacterial Infections"
 ---
 
 # Ertapenem
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **2** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 {: .fs-6 .fw-300 }
 
 ---

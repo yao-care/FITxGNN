@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Gimeracil
-parent: Vahva näyttö (L1-L2)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 202
-evidence_level: L1
-indication_count: 7
-last_modified_at: 2026-10-28
-description: "Gimeracil: ennustettu uusi käyttöaihe Paksusuolen kasvain (colonic neoplasm) (näytön taso L1). Alkuperäinen käyttöaihe: Mahasyöpä (Stomach Neoplasms)"
+evidence_level: L5
+indication_count: 6
+last_modified_at: 2026-11-03
 monitor_inn: "GIMERACIL"
-predicted_indications: ["colonic neoplasm", "cecum villous adenoma", "lipoma of colon", "cecum neuroendocrine tumor G1", "rectosigmoid junction neoplasm", "colonic lymphangioma", "colon leiomyoma"]
+predicted_indications: ["cecum villous adenoma", "lipoma of colon", "cecum neuroendocrine tumor G1", "rectosigmoid junction neoplasm", "colonic lymphangioma", "colon leiomyoma"]
+description: "Gimeracil: ennustettu uusi käyttöaihe Cecum villous adenoma (näytön taso L5). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin"
 ---
 
 # Gimeracil
 {: .fs-9 }
 
-Näytön taso: **L1** | Ennustetut käyttöaiheet: **7** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **6** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **7** kpl
 
 </div>
 
-## Gimeracil: Paksusuolen kasvain
+## Gimeracil: Cecum villous adenoma
 {: .text-alpha }
 
 ## Yhteenveto
 
 Gimeracil on S-1-yhdistelmävalmisteen (tegafuuri + gimeracil + oteracil) DPD-entsyymiä estävä osa, ja sitä on alun perin käytetty mahasyövän hoidossa.
-TxGNN-malli ennustaa sen voivan tehota **paksusuolen kasvaimeen** (colonic neoplasm).
 Ennustetta tukee tällä hetkellä **6 kliinistä tutkimusta** ja **12 julkaisua**, joista suurin osa on kuitenkin tapausselostuksia.
 
 ---
@@ -48,10 +47,10 @@ Ennustetta tukee tällä hetkellä **6 kliinistä tutkimusta** ja **12 julkaisua
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Mahasyöpä (Stomach Neoplasms) |
-| Ennustettu uusi käyttöaihe | Paksusuolen kasvain (colonic neoplasm) |
-| TxGNN-ennustepistemäärä | 0,9988 |
-| Näytön taso | L1 |
+| Alkuperäinen käyttöaihe | Ei kirjattu paikallisiin tietoihin |
+| Ennustettu uusi käyttöaihe | Cecum villous adenoma |
+| TxGNN-ennustepistemäärä | 0.9982 |
+| Näytön taso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Proceed with Guardrails (eteneminen suojatoimin) |

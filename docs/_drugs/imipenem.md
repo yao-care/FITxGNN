@@ -4,17 +4,17 @@ title: Imipenem
 parent: Pelkkä mallin ennuste (L5)
 nav_order: 225
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-30
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "Imipenem"
-predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "sinusitis", "chronic rhinosinusitis", "typhoid fever", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "staphylococcus aureus infection", "eosinophilia-myalgia syndrome"]
-description: "Imipenem: ennustettu uusi käyttöaihe Diffuse scleroderma (näytön taso L5). Alkuperäinen käyttöaihe: Gram-Negative Bacterial Infections"
+predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "sinusitis", "chronic rhinosinusitis", "typhoid fever", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "eosinophilia-myalgia syndrome"]
+description: "Imipenem: ennustettu uusi käyttöaihe Diffuse scleroderma (näytön taso L5). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tietoihin"
 ---
 
 # Imipenem
 {: .fs-9 }
 
-Näytön taso: **L5** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,7 +50,7 @@ Tämän kohteen tueksi on **2 kliinistä tutkimusta** ja **18 julkaisua**; useim
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Gram-Negative Bacterial Infections |
+| Alkuperäinen käyttöaihe | Ei kirjattu paikallisiin tietoihin |
 | Ennustettu uusi käyttöaihe (korkein pistemäärä) | Diffuse scleroderma |
 | Ennustettu uusi käyttöaihe (vahvin näyttö) | Diffuse scleroderma |
 | TxGNN-ennustepistemäärä | 0.9999 |

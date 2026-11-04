@@ -3,18 +3,18 @@ layout: default
 title: Panobinostat
 parent: Vahva näyttö (L1-L2)
 nav_order: 329
-evidence_level: L1
+evidence_level: L2
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-04
 monitor_inn: "panobinostat"
 predicted_indications: ["myeloid leukemia"]
-description: "Panobinostat: ennustettu uusi käyttöaihe Myeloid leukemia (näytön taso L1). Alkuperäinen käyttöaihe: Multiple Myeloma"
+description: "Panobinostat: ennustettu uusi käyttöaihe Myeloinen leukemia (myeloid leukemia) (näytön taso L2). Alkuperäinen käyttöaihe: Multiple Myeloma"
 ---
 
 # Panobinostat
 {: .fs-9 }
 
-Näytön taso: **L1** | Ennustetut käyttöaiheet: **1** kpl
+Näytön taso: **L2** | Ennustetut käyttöaiheet: **1** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,80 +33,64 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-## Panobinostat: Myeloid leukemia
+## Panobinostat: Myeloinen leukemia (myeloid leukemia)
 {: .text-alpha }
 
 ## Yhteenveto
 
-Panobinostaatti on histonideasetylaasin (HDAC) estäjä, jota on alun perin käytetty multippelin myelooman hoitoon.
-TxGNN-malli ennustaa sen voivan tehota **myeloidileukemiaan**.
-Suuntaa tukee tällä hetkellä **16 kliinistä tutkimusta** ja **20 julkaisua**. Näyttö koostuu pääosin varhaisen vaiheen tutkimuksista ja prekliinisistä töistä.
-
----
+Panobinostaatti on histonideasetylaasin (HDAC) estäjä, jota käytetään Suomessa multippelin myelooman hoitoon. TxGNN-malli ennustaa, että se voisi tehota **myeloiseen leukemiaan (myeloid leukemia)**. Aiheesta on koottujen tietojen mukaan **16 kliinistä tutkimusta** ja **20 julkaisua**, joista osa koskee suoraan akuuttia myeloista leukemiaa (AML).
 
 ## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
 | Alkuperäinen käyttöaihe | Multiple Myeloma |
-| Ennustettu uusi käyttöaihe | Myeloid leukemia |
-| TxGNN-ennustepisteet | 0.9970 |
-| Näytön taso | L1 (muodollisesti; ks. huomautus alla) |
+| Ennustettu uusi käyttöaihe | Myeloinen leukemia (myeloid leukemia) |
+| TxGNN-ennusteen pistemäärä | 0.9970 |
+| Näytön taso | L2 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |
-| Suositeltu päätös | Hold (pidätetään) |
-
-*Huomautus näytön tasosta:* L1 perustuu yhteen Phase 3 -tutkimukseen (NCT04326764). Se päättyi ennenaikaisesti vain 52 potilaan jälkeen, joten se ei täytä L1-kriteeriä "vähintään kaksi valmistunutta Phase 3 -satunnaistettua tutkimusta". Käytännössä näyttö on heikompaa, noin L2–L3.
-
----
+| Suositeltu päätös | Proceed with Guardrails (etene suojatoimin) |
 
 ## Miksi ennuste on perusteltu?
 
-Tämän lääkkeen vaikutusmekanismitiedot eivät ole saatavilla kokoamassamme aineistossa. Seuraava päättely perustuu lääkeryhmän yleisesti tunnettuihin ominaisuuksiin. Panobinostaatti on pan-HDAC-estäjä. Myeloidisissa leukemioissa (AML, MDS, CML) epigeneettinen vaimentuminen ja onkogeenisten fuusioproteiinien rekrytoimat HDAC-entsyymit estävät solujen erilaistumista. HDAC:n esto palauttaa histonien asetylaation, aktivoi uudelleen kasvaimenestäjägeenejä sekä edistää erilaistumista ja apoptoosia.
+Panobinostaatti on pan-HDAC-estäjä. Myeloisissa leukemioissa (AML, myelodysplastinen oireyhtymä, CML) epigeneettinen vaimennus ja onkogeenisten fuusioproteiinien rekrytoimat HDAC-entsyymit estävät solujen erilaistumista. HDAC:n esto palauttaa histonien asetylaation, aktivoi uudelleen kasvainsuppressorigeenejä sekä edistää erilaistumista ja apoptoosia.
 
-Sekä multippeli myelooma että myeloidileukemia ovat veren ja luuytimen pahanlaatuisia sairauksia, joissa epigeneettinen säätely on häiriintynyt. Lääkkeen teho myeloomassa osoittaa sen vaikuttavan hematologisiin syöpäsoluihin. Mekanismi voi siksi soveltua myös myeloidileukemiaan.
+Tarkkaa vaikutusmekanismia ei ole saatavilla koottujen tietojen perusteella, joten yhteys on päätelty lääkeaineluokan tunnetuista ominaisuuksista. Prekliiniset tutkimukset viittaavat lisäksi siihen, että panobinostaatti voi aktivoida plasmasytoidisia dendriittisoluja ja IFNAR-signalointia, mikä tukee leukemiasolujen erilaistumista. Lääkkeen on havaittu toimivan yhdessä hypometyloivien aineiden (atsasitidiini), solunsalpaajien (idarubisiini/sytarabiini, fludarabiini/sytarabiini) ja tyrosiinikinaasi-inhibiittorien (imatinibi) kanssa.
 
-Lisäksi panobinostaatilla voi olla yhteisvaikutuksia hypometyloivien aineiden (atsasitidiini), solunsalpaajien (idarubisiini/sytarabiini, fludarabiini/sytarabiini) ja tyrosiinikinaasi-inhibiittorien (imatinibi) kanssa. Prekliiniset työt viittaavat myös immuunivälitteiseen erilaistumisvaikutukseen plasmasytoidisten dendriittisolujen aktivaation ja IFNAR-signaloinnin kautta. Erittäin korkea TxGNN-pistemäärä (0,997) on yhdenmukainen tämän kanssa, mutta ei korvaa kliinistä näyttöä.
+Korkea pistemäärä (0,9970) on linjassa kliinisen näytön kanssa, mutta ei korvaa sitä.
 
----
-
-## Kliininen tutkimusnäyttö
-
-Alla on tärkeimmät tutkimukset 16:sta löydetystä.
+## Kliininen näyttö
 
 | Tutkimusnumero | Vaihe | Tila | Osallistujia | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT04326764](https://clinicaltrials.gov/study/NCT04326764) | Phase 3 | Päättynyt ennenaikaisesti | 52 | Panobinostaatti-ylläpitohoito ja luovuttajan lymfosyyti-infuusiot vs. pelkät infuusiot suuren riskin AML/MDS-potilailla kantasolusiirron jälkeen; todennäköisesti alitehoinen |
-| [NCT00946647](https://clinicaltrials.gov/study/NCT00946647) | Phase 1/2 | Valmistunut | 113 | Suun kautta otettava panobinostaatti + atsasitidiini vs. pelkkä atsasitidiini MDS-, CMML- ja AML-potilailla |
-| [NCT00880269](https://clinicaltrials.gov/study/NCT00880269) | Phase 2 | Valmistunut | 59 | Panobinostaatti yksinään refraktaarisessa AML:ssä |
-| [NCT01055483](https://clinicaltrials.gov/study/NCT01055483) | Phase 1 | Valmistunut | 59 | Panobinostaatti + sytarabiini + mitoksantroni uusiutuneessa tai refraktaarisessa AML:ssä |
-| [NCT00691938](https://clinicaltrials.gov/study/NCT00691938) | Phase 1/2 | Valmistunut | 52 | Panobinostaatti + desitabiini ≥ 60-vuotiailla suuren riskin MDS/AML-potilailla |
-| [NCT01242774](https://clinicaltrials.gov/study/NCT01242774) | Phase 1 | Valmistunut | 46 | Panobinostaatti + idarubisiini ja sytarabiini AML:n induktiohoidossa; turvallisuus ja siedettävyys |
-| [NCT00840346](https://clinicaltrials.gov/study/NCT00840346) | Phase 1/2 | Valmistunut | 46 | Panobinostaatti + idarubisiini ja sytarabiini ≥ 65-vuotiailla uusilla AML-potilailla |
-| [NCT01451268](https://clinicaltrials.gov/study/NCT01451268) | Phase 1/2 | Tila tuntematon | 62 | Panobinostaatti-ylläpito kantasolusiirron jälkeen (PANOBEST) |
-| [NCT01463046](https://clinicaltrials.gov/study/NCT01463046) | Phase 1 | Valmistunut | 29 | Annoksen määritys yhdessä sytarabiinin ja daunorubisiinin kanssa iäkkäillä AML-potilailla |
-| [NCT01321346](https://clinicaltrials.gov/study/NCT01321346) | Phase 1 | Valmistunut | 30 | Annoksen määritys lapsilla, joilla on refraktaarisia hematologisia syöpiä |
+| [NCT04326764](https://clinicaltrials.gov/study/NCT04326764) | Vaihe 3 | Päättynyt ennenaikaisesti | 52 | Panobinostaatti-ylläpitohoito luovuttajan lymfosyyttiinfuusioiden kanssa vs. pelkät infuusiot suuren riskin AML/MDS-potilailla kantasolusiirron jälkeen; tutkimus keskeytettiin, teho jäi epäselväksi |
+| [NCT00880269](https://clinicaltrials.gov/study/NCT00880269) | Vaihe 2 | Päättynyt | 59 | Suun kautta otettava panobinostaatti yksin refraktaarisessa AML:ssä |
+| [NCT00946647](https://clinicaltrials.gov/study/NCT00946647) | Vaihe 1b/2 | Päättynyt | 113 | Panobinostaatti + atsasitidiini vs. pelkkä atsasitidiini MDS-, CMML- ja AML-potilailla |
+| [NCT00840346](https://clinicaltrials.gov/study/NCT00840346) | Vaihe 1/2 | Päättynyt | 46 | Panobinostaatti + idarubisiini ja sytarabiini vähintään 65-vuotiailla vasta diagnosoiduilla AML-potilailla |
+| [NCT00691938](https://clinicaltrials.gov/study/NCT00691938) | Vaihe 1/2 | Päättynyt | 52 | Panobinostaatti + desitabiini suuren riskin MDS:ssä tai AML:ssä (≥ 60 v) |
+| [NCT01055483](https://clinicaltrials.gov/study/NCT01055483) | Vaihe 1b | Päättynyt | 59 | Panobinostaatti + sytarabiini ja mitoksantroni uusiutuneessa tai refraktaarisessa AML:ssä |
+| [NCT01242774](https://clinicaltrials.gov/study/NCT01242774) | Vaihe 1b | Päättynyt | 46 | Annoksen määritys yhdessä idarubisiinin ja sytarabiinin kanssa AML:n induktiohoidossa |
+| [NCT01463046](https://clinicaltrials.gov/study/NCT01463046) | Vaihe 1 | Päättynyt | 29 | Annoksen määritys ja alustava näyttö yhdessä sytarabiinin ja daunorubisiinin kanssa iäkkäillä potilailla |
+| [NCT01451268](https://clinicaltrials.gov/study/NCT01451268) | Vaihe 1/2 | Tila tuntematon | 62 | Panobinostaatti-ylläpito kantasolusiirron jälkeen suuren riskin MDS/AML-potilailla |
+| [NCT00449761](https://clinicaltrials.gov/study/NCT00449761) | Vaihe 2 | Päättynyt ennenaikaisesti | 27 | Kiihtyvän tai blastivaiheen CML, resistentti vähintään kahdelle TKI-lääkkeelle |
 
-Muita tutkimuksia ovat muun muassa panobinostaatti + imatinibi CML:ssä (NCT00686218), pediatrinen AML/MDS (NCT02676323), CML:n kiihtynyt vaihe ja blastivaihe (NCT00449761) sekä kroonisen vaiheen CML (NCT00451035). Nämä tutkimukset olivat pieniä tai päättyivät ennenaikaisesti.
-
----
+Tutkimukset kohdistuvat suoraan myeloiseen leukemiaan, erityisesti AML:ään. Vaiheen 3 tutkimus päättyi ennenaikaisesti ilman tuloksia, ja useimmat muut ovat vaiheen 1–2 tutkimuksia, joten näyttö on alustavaa.
 
 ## Kirjallisuusnäyttö
 
 | PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [24413064](https://pubmed.ncbi.nlm.nih.gov/24413064/) | 2014 | Kliininen Phase Ib/II -tutkimus | Blood Cancer J | Panobinostaatti + atsasitidiini 39 potilaalla (AML 29, MDS 10); maksimaalisesti siedetty annos ja alustava teho |
-| [32809242](https://pubmed.ncbi.nlm.nih.gov/32809242/) | 2020 | Kliininen tutkimus | Cancer | Turvallisuus, farmakokinetiikka ja farmakodynamiikka lapsilla ja nuorilla aikuisilla, joilla on uusiutunut AML |
-| [27485472](https://pubmed.ncbi.nlm.nih.gov/27485472/) | 2016 | Katsaus | Expert Opin Investig Drugs | Panobinostaatti akuutin myeloidileukemian hoidossa |
-| [23826641](https://pubmed.ncbi.nlm.nih.gov/23826641/) | 2013 | Katsaus | Expert Opin Investig Drugs | Panobinostaatti lymfoidisissa ja myeloidisissa pahanlaatuisissa kasvaimissa |
-| [31739588](https://pubmed.ncbi.nlm.nih.gov/31739588/) | 2019 | Katsaus | Cancers | HDAC-estäjät akuutissa myeloidileukemiassa |
-| [38965693](https://pubmed.ncbi.nlm.nih.gov/38965693/) | 2024 | Hoitosuositus | Pediatr Blood Cancer | Uusiutuneen/refraktaarisen Down-oireyhtymään liittyvän myeloidileukemian hoito; atsasitidiini ± panobinostaatti yhtenä vaihtoehtona (ei panobinostaattispesifinen) |
-| [35311997](https://pubmed.ncbi.nlm.nih.gov/35311997/) | 2022 | Prekliininen (mekanistinen) | Cancer Discov | Panobinostaatin AML-solujen erilaistumisvaikutus edellyttää plasmasytoidisten dendriittisolujen aktivaatiota ja IFNAR-signalointia |
+| [24413064](https://pubmed.ncbi.nlm.nih.gov/24413064/) | 2014 | Kliininen vaihe Ib/II | Blood Cancer J | Panobinostaatti + atsasitidiini AML- ja suuren riskin MDS-potilailla, 39 potilasta; määritettiin siedetty annos ja alustava teho |
+| [32809242](https://pubmed.ncbi.nlm.nih.gov/32809242/) | 2020 | Kliininen tutkimus | Cancer | Turvallisuus, farmakokinetiikka ja farmakodynamiikka lapsilla ja nuorilla aikuisilla uusiutuneessa AML:ssä |
+| [27485472](https://pubmed.ncbi.nlm.nih.gov/27485472/) | 2016 | Katsaus | Expert Opin Investig Drugs | Panobinostaatti akuutin myelooisen leukemian hoidossa |
+| [23826641](https://pubmed.ncbi.nlm.nih.gov/23826641/) | 2013 | Katsaus | Expert Opin Investig Drugs | Panobinostaatti lymfaattisissa ja myeloisissa maligniteeteissa |
+| [31739588](https://pubmed.ncbi.nlm.nih.gov/31739588/) | 2019 | Katsaus | Cancers | HDAC-estäjät akuutissa myeloisessa leukemiassa |
+| [35311997](https://pubmed.ncbi.nlm.nih.gov/35311997/) | 2022 | Prekliininen | Cancer Discov | Panobinostaatin aiheuttama AML:n erilaistuminen perustuu plasmasytoidisten dendriittisolujen aktivaatioon |
 | [25612941](https://pubmed.ncbi.nlm.nih.gov/25612941/) | 2015 | Prekliininen | Leuk Res | Panobinostaatti + marizomibi AML- ja bortetsomibiresistenteissä malleissa |
-| [27725868](https://pubmed.ncbi.nlm.nih.gov/27725868/) | 2016 | Prekliininen | Am J Transl Res | Synergistinen vaikutus ABT-199:n (venetoklaksi) kanssa AML-soluissa ex vivo |
-| [26529495](https://pubmed.ncbi.nlm.nih.gov/26529495/) | 2015 | Prekliininen | Cancer Biol Ther | Synergia MK-1775:n (Wee1-estäjä) kanssa AML-soluissa |
-
----
+| [27725868](https://pubmed.ncbi.nlm.nih.gov/27725868/) | 2016 | Prekliininen | Am J Transl Res | Synergia ABT-199:n (venetoklaksi) kanssa AML-soluissa |
+| [26529495](https://pubmed.ncbi.nlm.nih.gov/26529495/) | 2015 | Prekliininen | Cancer Biol Ther | Synergia MK-1775:n kanssa AML-soluissa |
+| [30891950](https://pubmed.ncbi.nlm.nih.gov/30891950/) | 2019 | Prekliininen | Mol Genet Genomic Med | Panobinostaatti ja natriumbutyraatti aiheuttavat CML-solujen apoptoosin |
 
 ## Myyntiluvat Suomessa
 
@@ -114,50 +98,47 @@ Muita tutkimuksia ovat muun muassa panobinostaatti + imatinibi CML:ssä (NCT0068
 |---------|------|------|-----------|
 | EMEA/H/C/003725 | Farydak (peruutettu) | – | Multippeli myelooma |
 
----
-
-## Solunsalpaajaominaisuudet
+## Solunsalpaajan ominaisuudet
 
 | Kohta | Sisältö |
 |------|------|
-| Luokitus | Kohdennettu hoito / epigeneettinen lääke (pan-HDAC-estäjä) |
-| Luuydinsuppression riski | Tämän hoitoryhmän lääkkeillä luuydinsuppressio on tavallinen; tarkemmat tiedot on tarkistettava valmisteyhteenvedosta |
-| Pahoinvointia aiheuttava vaikutus | Valmisteyhteenvedon mukaan |
-| Seurantakohteet | Verenkuva (erittelylaskenta), maksa- ja munuaisarvot, elektrolyytit |
-| Käsittelysuojaus | Noudatettava solunsalpaajien käsittelyä koskevia ohjeita |
+| Sytotoksisuusluokka | Kohdennettu hoito (HDAC-estäjä) |
+| Luuytimen suppression riski | Tarkempia tietoja ei ole saatavilla; katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Oksentelua aiheuttava vaikutus | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Seurattavat parametrit | Verenkuva, maksa- ja munuaisarvot, elektrolyytit |
+| Käsittelyn suojaus | Noudatettava sytotoksisten lääkkeiden käsittelyohjeita |
 
-Tarkemmat tiedot on tarkistettava valmisteyhteenvedon varoituksista ja käyttöön liittyvistä varotoimista.
+## Turvallisuushuomioita
 
----
+Varoituksista ja vasta-aiheista ei ole koottuja tietoja, joten niiden osalta on tutustuttava valmisteyhteenvetoon.
 
-## Turvallisuusnäkökohdat
+**Lääkeyhteisvaikutukset:** Koottujen tietojen mukaan yhteisvaikutuksia on yhteensä 527. Merkittäviksi (Major) luokiteltuja ovat mm.:
+- asetyylisalisyylihappo
+- klaritromysiini
+- levofloksasiini
+- dolasetroni
+- palonosetroni
+- eliglustaatti
+- pikosulfaatti
+- polyetyleeniglykoli (3350, elektrolyytit)
+- natriumsulfaatti
 
-**Lääkeyhteisvaikutukset:** Yhteisvaikutuksia on kirjattu yhteensä 527. Esimerkkejä:
+Kohtalaisia (Moderate) ovat mm. famotidiini, loperamidi, aprepitantti, deksametasoni, bisakodyyli, simetidiini, naltreksoni, metoklopramidi, metreleptiini ja mikonatsoli. Metronidatsoli on luokiteltu lieväksi (Minor).
 
-- **Merkittävät (Major):** asetyylisalisyylihappo, klaritromysiini, levofloksasiini, dolasetroni, palonosetroni, eliglustaatti, pikosulfaatti, polyeteeniglykoli (3350, elektrolyyttien kanssa), natriumsulfaatti
-- **Kohtalaiset (Moderate):** famotidiini, loperamidi, aprepitantti, deksametasoni, bisakodyyli, simetidiini, naltreksoni, metoklopramidi, metreleptiini, mikonatsoli
-- **Lievät (Minor):** metronidatsoli
+## Johtopäätös ja seuraavat vaiheet
 
-Useat merkittävistä yhteisvaikutuksista koskevat lääkkeitä, jotka voivat vaikuttaa sydämen QT-aikaan tai joita käytetään syöpähoidon oheislääkityksenä (pahoinvointilääkkeet, suolen tyhjennysvalmisteet). Käyttöä suunniteltaessa on tarkistettava potilaan koko lääkitys.
-
-Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
-
----
-
-## Johtopäätös ja jatkotoimet
-
-**Päätös: Hold (pidätetään)**
+**Päätös: Proceed with Guardrails (etene suojatoimin)**
 
 **Perustelut:**
-- Mekanistinen peruste on uskottava ja varhaisen vaiheen tutkimuksia on paljon, mutta ainoa Phase 3 -tutkimus päättyi ennenaikaisesti 52 potilaan jälkeen, eikä sen tuloksia ole vahvistettu. Lisäksi lääkevalmisteen myyntiluvat Suomessa on peruutettu, mikä vaikeuttaa saatavuutta.
-- Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat, joten turvallisuusarviointia ei voida viedä eteenpäin.
+- Useat vaiheen 1–2 tutkimukset, mm. yksittäisaineena (NCT00880269) ja yhdistelmänä (NCT00946647, NCT00840346), ovat tutkineet panobinostaattia AML:ssä, ja mekanistinen peruste on uskottava. Ainoa vaiheen 3 tutkimus (NCT04326764) päättyi ennenaikaisesti ilman tuloksia, joten näyttö on suuntaa-antavaa eikä vahvistavaa. Näytön taso on L2.
 
-**Jatkaminen edellyttää:**
-- NCT04326764-tutkimuksen tulosten hankkimista ja arviointia
-- Valmisteyhteenvedon (varoitukset ja vasta-aiheet) hankkimista Fimean sivustolta
-- Vaikutusmekanismitietojen täydentämistä DrugBankista
-- Selvitystä lääkkeen saatavuudesta Suomessa, koska myyntiluvat on peruutettu
-- Arviota siitä, mitkä yhdistelmähoidot (esim. atsasitidiini) ovat lupaavimpia, sekä yhteisvaikutusten (erityisesti QT-aikaan vaikuttavien lääkkeiden) hallintasuunnitelmaa
+**Eteneminen edellyttää:**
+- Päättyneiden AML-tutkimusten tulosten (teho, eloonjääminen, haittavaikutukset) arviointia ja NCT04326764:n keskeyttämisen syiden selvittämistä
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden kokoamista
+- Tarkempaa vaikutusmekanismia koskevien tietojen täydentämistä
+- Yhteisvaikutusten, erityisesti QT-aikaan vaikuttavien lääkkeiden, riskinarviointia
+- Potilasryhmäkohtaista turvallisuusseurantasuunnitelmaa
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

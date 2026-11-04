@@ -3,18 +3,18 @@ layout: default
 title: Hydrocortisone
 parent: Vahva näyttö (L1-L2)
 nav_order: 215
-evidence_level: L1
+evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-10-28
-description: "Hydrocortisone: ennustettu uusi käyttöaihe Alopecia areata (läiskäkaljuus) (näytön taso L5). Alkuperäinen käyttöaihe: Lisämunuaisen vajaatoiminta"
+last_modified_at: 2026-11-04
 monitor_inn: "HYDROCORTISONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
+description: "Hydrocortisone: ennustettu uusi käyttöaihe Pälvikaljuus (alopecia areata) (näytön taso L2). Alkuperäinen käyttöaihe: Adrenal Insufficiency"
 ---
 
 # Hydrocortisone
 {: .fs-9 }
 
-Näytön taso: **L1** | Ennustetut käyttöaiheet: **9** kpl
+Näytön taso: **L2** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,64 +33,52 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **9** kpl
 
 </div>
 
-## Hydrokortisoni: Lisämunuaisen vajaatoiminnasta kaljuuntumiseen (alopecia areata)
+## Hydrocortisone: Pälvikaljuus (alopecia areata)
 {: .text-alpha }
 
 ## Yhteenveto
 
-Hydrokortisoni on glukokortikoidi, jota on alun perin käytetty lisämunuaisen vajaatoiminnan ja synnynnäisen lisämunuaisen liikakasvun hoitoon.
-TxGNN-malli ennustaa sen voivan tehota **alopecia areataan** (läiskäkaljuus), mutta näyttö on rajallista: yhteensä **1 kliininen tutkimus** (jossa hydrokortisoni oli vain vertailuvalmiste) ja **20 julkaisua**, joista suurin osa on vanhoja tapauskuvauksia.
-
----
+Hydrokortisoni on lyhytvaikutteinen glukokortikoidi, jota käytetään lisämunuaisen vajaatoiminnan korvaushoidossa. TxGNN-malli ennustaa sen voivan olla hyödyllinen **pälvikaljuuden (alopecia areata)** hoidossa. Tukena on **1 kliininen tutkimus** ja **20 julkaisua**, mutta hydrokortisoni oli tutkimuksessa vain vertailuvalmiste, joten suora näyttö tehosta on rajallista.
 
 ## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Lisämunuaisen vajaatoiminta; synnynnäinen lisämunuaisen liikakasvu |
-| Ennustettu uusi käyttöaihe | Alopecia areata (läiskäkaljuus) |
-| TxGNN-ennusteen pistemäärä | 0,9997 |
-| Näytön taso | L1 (muodollisesti; katso huomio alla) |
+| Alkuperäinen käyttöaihe | Adrenal Insufficiency; Adrenal Hyperplasia, Congenital |
+| Ennustettu uusi käyttöaihe | Pälvikaljuus (alopecia areata) |
+| TxGNN-ennustepistemäärä | 0.9997 |
+| Näyttötaso | L2 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 3/3) |
 | Myyntilupien määrä | 3 (voimassa: 3) |
-| Suositeltu päätös | Hold (odota) |
-
-> **Huomio näytön tasosta:** L1-luokitus perustuu muodollisesti valmistuneeseen vaiheen 3 satunnaistettuun tutkimukseen. Tutkimuksessa hydrokortisoni oli kuitenkin matalatehoinen vertailuvalmiste, eikä tutkimus osoita sen tehoa. Käytännössä näyttö on heikompaa kuin luokitus antaa ymmärtää.
-
----
+| Suositeltu päätös | Proceed with Guardrails (jatka varauksin) |
 
 ## Miksi ennuste on perusteltu?
 
-Hydrokortisonin vaikutusmekanismitietoja ei ole tämän raportin aineistossa saatavilla. Tiedetään kuitenkin, että hydrokortisoni on glukokortikoidi, jolla on tulehdusta ja immuunivastetta vaimentava vaikutus.
+Hydrokortisoni on glukokortikoidi, jolla on tulehdusta ja immuunivastetta vaimentava vaikutus. Tarkempi vaikutusmekanismitieto ei ole käytettävissä tähän raporttiin kootuissa tiedoissa.
 
-Alopecia areata on T-solujen välittämä autoimmuunisairaus, jossa immuunijärjestelmä hyökkää hiusrakkuloita vastaan. Paikallisen immuuniaktiivisuuden vaimentaminen on siksi mekanistisesti uskottavaa. Kortikosteroidien intralesionaalisesta tai systeemisestä käytöstä on historiallisia raportteja 1950-luvulta alkaen.
+Pälvikaljuus on T-solujen välittämä autoimmuunisairaus, jossa immuunijärjestelmä hyökkää hiusfolliklien kimppuun. Paikallisen immuuniaktiivisuuden vaimentaminen on siksi mekanistisesti uskottavaa. Kortikosteroidien käytöstä on vanhoja kuvauksia vuosilta 1956–1958, joissa on käytetty suonensisäisesti ihoon (leesion sisään) annettua tai systeemistä hoitoa.
 
-Hydrokortisoni 1 % -emulsiovoide on kuitenkin matalatehoinen valmiste. Lapsilla tehdyssä satunnaistetussa tutkimuksessa se toimi vertailuvalmisteena, ja se tuskin on tähän käyttöaiheeseen optimaalinen kortikosteroidi.
+Hydrokortisoni 1 % -emulsiovoide on kuitenkin heikkotehoinen valmiste, eikä se todennäköisesti ole paras kortikosteroidivalinta tähän käyttöaiheeseen. Lasten satunnaistetussa tutkimuksessa sitä käytettiin vertailuvalmisteena.
 
----
-
-## Kliininen tutkimusnäyttö
+## Kliininen näyttö
 
 | Tutkimusnumero | Vaihe | Tila | Osallistujia | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT01453686](https://clinicaltrials.gov/study/NCT01453686) | Vaihe 3 | Valmistunut | 41 | Klobetasolipropionaatti 0,05 % vs. hydrokortisoni 1 % -voide lasten alopecia areatassa. Hydrokortisoni oli matalatehoinen vertailuvalmiste, joten tutkimus ei osoita sen tehoa. Pieni otoskoko rajoittaa johtopäätöksiä. |
-
----
+| [NCT01453686](https://clinicaltrials.gov/study/NCT01453686) | Vaihe 3 | Päättynyt | 41 | Satunnaistettu tutkimus lapsilla: klobetasolipropionaatti 0,05 % voide vs. hydrokortisoni 1 % voide. Hydrokortisoni oli heikkotehoinen vertailuvalmiste, joten tutkimus ei osoita sen tehoa. Pieni otoskoko rajoittaa päätelmiä. |
 
 ## Kirjallisuusnäyttö
 
 | PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [24226568](https://pubmed.ncbi.nlm.nih.gov/24226568/) | 2014 | RCT | JAMA Dermatology | Klobetasolipropionaatti 0,05 % vs. hydrokortisoni 1 % lasten alopecia areatassa |
-| [15692503](https://pubmed.ncbi.nlm.nih.gov/15692503/) | 2005 | Tapauskuvaus | J Am Acad Dermatol | Neljä synnynnäisen alopecia areatan tapausta; hoitoina mm. minoksidiili ja paikalliset steroidit |
-| [13368875](https://pubmed.ncbi.nlm.nih.gov/13368875/) | 1956 | Historiallinen tapaussarja | Medical Times | Alopecia areatan hoito kortisonilla, hydrokortisonilla ja niiden johdannaisilla |
-| [13610145](https://pubmed.ncbi.nlm.nih.gov/13610145/) | 1958 | Tapauskuvaus | Der Hautarzt | Hiusten kasvu hydrokortisonin ihonsisäisen injektion jälkeen |
-| [13525930](https://pubmed.ncbi.nlm.nih.gov/13525930/) | 1958 | Katsaus | J Med Soc New Jersey | Alopecia areatan ja muiden yleisten hiuspohjan ongelmien yleiskatsaus |
-| [19289325](https://pubmed.ncbi.nlm.nih.gov/19289325/) | 2009 | Tapauskuvaus | Endocr Pract | Autoimmuuni polyglandulaarinen oireyhtymä tyyppi 3, johon liittyi alopecia universalis |
+| [24226568](https://pubmed.ncbi.nlm.nih.gov/24226568/) | 2014 | Satunnaistettu koe | JAMA Dermatology | Klobetasolipropionaatti 0,05 % vs. hydrokortisoni 1 % lasten pälvikaljuudessa |
+| [15692503](https://pubmed.ncbi.nlm.nih.gov/15692503/) | 2005 | Tapausselostus | J Am Acad Dermatol | Neljä synnynnäisen pälvikaljuuden tapausta, hoitona mm. minoksidiili ja paikalliset steroidit |
+| [13368875](https://pubmed.ncbi.nlm.nih.gov/13368875/) | 1956 | Tapaussarja | Medical Times | Pälvikaljuuden hoito kortisonilla, hydrokortisonilla ja niiden johdoksilla |
+| [13610145](https://pubmed.ncbi.nlm.nih.gov/13610145/) | 1958 | Tapausselostus | Der Hautarzt | Hiusten kasvu ihonsisäisen hydrokortisonipistoksen jälkeen |
+| [13525930](https://pubmed.ncbi.nlm.nih.gov/13525930/) | 1958 | Katsaus | J Med Soc New Jersey | Pälvikaljuus ja muut yleiset hiuspohjan ongelmat |
+| [24326563](https://pubmed.ncbi.nlm.nih.gov/24326563/) | 2013 | Prekliininen (hiiri) | J Investig Dermatol Symp Proc | Lisäkilpirauhashormonin agonistit pälvikaljuuden hiirimallissa; ei koske hydrokortisonia |
+| [28094416](https://pubmed.ncbi.nlm.nih.gov/28094416/) | 2017 | Eläinten tapausselostus | Tierarztl Prax | Koiran pälvikaljuus; paikallinen hydrokortisoniaseponaatti oli tehoton |
 
----
-
-## Myyntiluvat Suomessa
+## Suomen markkinatiedot
 
 | Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
@@ -98,36 +86,27 @@ Hydrokortisoni 1 % -emulsiovoide on kuitenkin matalatehoinen valmiste. Lapsilla 
 | EMEA/H/C/002185 | Plenadren | – | Lisämunuaisen vajaatoiminta |
 | EMEA/H/C/005105 | Efmody | – | Synnynnäinen lisämunuaisen liikakasvu |
 
-Kaikki kolme myyntilupaa on peruutettu.
+## Turvallisuushuomioita
 
----
+Pakkausselosteen varoitus- ja vasta-aihetietoja ei ole saatavilla tähän raporttiin kootuissa tiedoissa, joten ne on tarkistettava valmisteyhteenvedosta.
 
-## Turvallisuusnäkökohdat
+**Lääkeyhteisvaikutukset:** Tietoja on kirjattu 100 yhteisvaikutuksesta. Merkittävin on **adalimumabi (vakava)**. Useita kohtalaisia yhteisvaikutuksia on mm. seuraavien kanssa: tsidovudiini, isotretinoiini, asetatsoliamidi, ibuprofeeni, ketorolaakki, nifedipiini, etinyyliestradioli, akarboosi, asebutololi ja aldesleukiini. Lieviä yhteisvaikutuksia on mm. formoterolin ja salbutamolin kanssa.
 
-Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut saatavilla. Tutustu turvallisuustietoihin valmisteyhteenvedosta.
+**Lääkkeen ja sairauden väliset huomiot:** Aiemmissa tiedoissa hydrokortisonin käyttöön on liitetty varovaisuutta mm. seuraavissa tiloissa: verenpainetauti, epilepsia, mahahaava, munuais- ja maksasairaudet, hyperglykemia sekä herpes simplex -silmätulehdus ja muut virusinfektiot.
 
-**Tietämysgraafiin perustuvat vasta-aiheet** (ei valmisteyhteenvetoteksti): graafissa hydrokortisoniin liitetään mm. seuraavat sairaudet: kohonnut verenpaine, epilepsia, mahahaava, munuais- ja maksasairaudet, sappirakon sairaudet, hyperglykemia, tuhkarokko, herpes simplex -silmätulehdus (keratiitti), HPV-infektiot (mm. syylät) sekä useat aivolisäkkeen vajaatoimintaan liittyvät tilat.
+## Johtopäätös ja seuraavat askeleet
 
-**Lääkeyhteisvaikutukset:** kyselyssä löytyi yhteensä 100 yhteisvaikutusta. Merkittävin on:
-- **Adalimumabi** (vakava, Major)
-
-Useita kohtalaisia (Moderate) yhteisvaikutuksia on mm. seuraavien kanssa: tsidovudiini, isotretinoiini, akarboosi, asetatsoliamidi, ketorolaakki, nifedipiini, ibuprofeeni, etinyyliestradioli, albiglutidi, aldesleukiini ja alemtutsumabi. Lieviä (Minor) yhteisvaikutuksia on mm. formoterolin ja salbutamolin kanssa.
-
----
-
-## Johtopäätös ja seuraavat vaiheet
-
-**Päätös: Hold (odota)**
+**Päätös: Proceed with Guardrails (jatka varauksin)**
 
 **Perustelut:**
-- Ainoa vaiheen 3 tutkimus käytti hydrokortisonia vain matalatehoisena vertailuvalmisteena, eikä se osoita hydrokortisonin tehoa alopecia areatassa. Muu näyttö on pääosin vanhoja tapauskuvauksia, ja Suomessa kaikki myyntiluvat on peruutettu.
-- Vaihtoehtoiset ennustetut käyttöaiheet (esim. alopecia mucinosa, telogen effluvium, follikuliitti decalvans) eivät saa tukea kliinisestä näytöstä (L4–L5).
+Näyttötaso on L2: pälvikaljuudesta on yksi päättynyt satunnaistettu lasten tutkimus, jossa hydrokortisoni oli kuitenkin vain heikkotehoinen vertailuvalmiste, sekä vanhoja tapaussarjoja leesionsisäisestä hydrokortisonista. Mekanistinen peruste on uskottava, mutta hydrokortisonin oma teho ei ole osoitettu.
 
-**Jatkoon tarvitaan:**
-- Valmisteyhteenvedon varoitus- ja vasta-aihetiedot (estävä tietoaukko)
-- Vaikutusmekanismitiedot DrugBankista
-- Suora vertaileva tutkimus hydrokortisonista (esim. intralesionaalinen anto) alopecia areatassa, tai selvitys siitä, tarjoaako hydrokortisoni etua tehokkaampiin kortikosteroideihin verrattuna
-- Reittien ja lääkemuotojen yhteensopivuuden arviointi (paikallinen vs. systeeminen)
+**Jatkoa varten tarvitaan:**
+- Hydrokortisonia tutkimusvalmisteena käyttävät kontrolloidut tutkimukset (tai vertailu tehokkaampiin kortikosteroideihin)
+- Vaikutusmekanismitiedot
+- Pakkausselosteen varoitus- ja vasta-aihetiedot
+- Annostus- ja antoreittiarvio (paikallinen vs. leesionsisäinen), koska nykyiset myyntiluvat koskevat suun kautta otettavia valmisteita
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

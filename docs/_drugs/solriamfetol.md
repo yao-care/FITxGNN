@@ -3,18 +3,18 @@ layout: default
 title: Solriamfetol
 parent: Vahva näyttö (L1-L2)
 nav_order: 408
-evidence_level: L1
+evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-04
 monitor_inn: "Solriamfetol"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "insomnia (disease)", "attention deficit hyperactivity disorder, inattentive type", "chondromyxoid fibroma", "specific developmental disorder", "variably protease-sensitive prionopathy", "multiple system atrophy", "postural orthostatic tachycardia syndrome", "disorder of peroxisomal alpha-, beta- and omega-oxidation"]
-description: "Solriamfetol: ennustettu uusi käyttöaihe Tarkkaavaisuus- ja ylivilkkaushäiriö (attention deficit-hyperactivity disorder) (näytön taso L1). Alkuperäinen käyttöaihe: Narcolepsy"
+description: "Solriamfetol: ennustettu uusi käyttöaihe Tarkkaavuus- ja ylivilkkaushäiriö (attention deficit-hyperactivity disorder) (näytön taso L2). Alkuperäinen käyttöaihe: Narcolepsy"
 ---
 
 # Solriamfetol
 {: .fs-9 }
 
-Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
+Näytön taso: **L2** | Ennustetut käyttöaiheet: **10** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,12 @@ Näytön taso: **L1** | Ennustetut käyttöaiheet: **10** kpl
 
 </div>
 
-## Solriamfetol: Tarkkaavaisuus- ja ylivilkkaushäiriö (attention deficit-hyperactivity disorder)
+## Solriamfetol: Tarkkaavuus- ja ylivilkkaushäiriö (attention deficit-hyperactivity disorder)
 {: .text-alpha }
 
 ## Yhteenveto
 
-Solriamfetoli on valmiste, jota on alun perin käytetty narkolepsian ja obstruktiivisen uniapnean aiheuttaman päiväväsymyksen hoitoon.
-TxGNN-malli ennustaa sen voivan tehota **tarkkaavaisuus- ja ylivilkkaushäiriön (ADHD)** hoidossa.
-Suuntaa tukee tällä hetkellä **5 kliinistä tutkimusta** (mm. valmistunut vaiheen 3 tutkimus aikuisilla) ja **6 julkaisua**.
+Solriamfetoli on valveillaoloa edistävä lääkeaine, joka estää dopamiinin ja noradrenaliinin takaisinottoa. TxGNN-malli ennustaa sen voivan tehota **tarkkaavuus- ja ylivilkkaushäiriöön (attention deficit-hyperactivity disorder)**. Suunnan tukena on **5 kliinistä tutkimusta** ja **6 julkaisua**, joista yksi on aikuisilla tehty satunnaistettu lumekontrolloitu pilottitutkimus. Näyttötaso on L2.
 
 ---
 
@@ -49,20 +47,22 @@ Suuntaa tukee tällä hetkellä **5 kliinistä tutkimusta** (mm. valmistunut vai
 | Kohta | Sisältö |
 |------|------|
 | Alkuperäinen käyttöaihe | Narcolepsy;Sleep Apnea, Obstructive |
-| Ennustettu uusi käyttöaihe | Tarkkaavaisuus- ja ylivilkkaushäiriö (attention deficit-hyperactivity disorder) |
-| TxGNN-ennustepistemäärä | 0.9999 |
-| Näytön taso | L1 |
+| Ennustettu uusi käyttöaihe | Tarkkaavuus- ja ylivilkkaushäiriö (attention deficit-hyperactivity disorder) |
+| TxGNN-ennusteen pistemäärä | 0.9999 |
+| Näyttötaso | L2 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |
-| Suositeltu päätös | Proceed with Guardrails (eteneminen suojatoimin) |
+| Suositeltu päätös | Etene varauksin |
 
 ---
 
 ## Miksi ennuste on perusteltu?
 
-Yksityiskohtaista vaikutusmekanismitietoa ei ole tällä hetkellä saatavilla kootussa aineistossa. Yleisen farmakologisen tiedon mukaan solriamfetoli on kaksoisvaikutteinen dopamiinin ja noradrenaliinin takaisinoton estäjä. Tämä mekanismi perustuu yleiseen tietoon, ei raportin aineistoon. Aineiston lääkevuorovaikutustiedot osoittavat, että se sitoutuu noradrenaliinin kuljettajaan (NET) ja dopamiinin kuljettajaan (DAT).
+Tämän raportin yhteydessä koottu aineisto ei sisällä yksityiskohtaista vaikutusmekanismitietoa. Yleisen farmakologisen tiedon mukaan solriamfetoli on dopamiinin ja noradrenaliinin takaisinoton estäjä. Tämä mekanismi on tunnistettu myös farmakologisten kohdetietojen perusteella (noradrenaliinin kuljettaja NET ja dopamiinin kuljettaja DAT).
 
-Katekoliamiinivälitteisen signaloinnin vahvistaminen prefrontaalisissa piireissä on ADHD-lääkehoidon vakiintunut periaate, kuten metyylifenidaatilla ja atomoksetiinilla. Päiväväsymyksen ja tarkkaamattomuuden hoito liittyvät siten samaan välittäjäainejärjestelmään. Lisäksi kirjallisuuden mukaan solriamfetolin sympatomimeettiset ominaisuudet vastaavat ADHD-lääkkeiden ominaisuuksia, ja sitä tutkitaan vaihtoehtona stimulanttilääkkeille.
+Katekoliamiinivälitteisen signaloinnin vahvistaminen otsalohkon piireissä on ADHD:n lääkehoidon vakiintunut vaikutustapa, kuten metyylifenidaatilla ja atomoksetiinilla. Siksi solriamfetolin mekanismi on suoraan merkityksellinen tarkkaamattomuuden ja ylivilkkauden oireille. Lääkkeen on myös tutkittu olevan vaihtoehto stimulanttilääkkeille ADHD:n hoidossa.
+
+Ennuste on mekanistisesti uskottava, mutta tehosta ei vielä ole julkaistuja vahvistavia vaiheen 3 tuloksia. Valmistuneen aikuisten vaiheen 3 tutkimuksen tulokset tulee tarkistaa ennen lopullista suositusta.
 
 ---
 
@@ -70,10 +70,10 @@ Katekoliamiinivälitteisen signaloinnin vahvistaminen prefrontaalisissa piireiss
 
 | Tutkimusnumero | Vaihe | Tila | Osallistujia | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT05972044](https://clinicaltrials.gov/study/NCT05972044) | Vaihe 3 | Valmistunut | 516 | Satunnaistettu, kaksoissokkoutettu, lumekontrolloitu tutkimus (FOCUS) aikuisten ADHD:ssa; tulokset tulee varmistaa |
-| [NCT04839562](https://clinicaltrials.gov/study/NCT04839562) | Vaihe 2/3 | Valmistunut | 66 | Kaksoissokkoutettu, lumekontrolloitu pilottitutkimus aikuisilla (18–65 v) |
-| [NCT07717892](https://clinicaltrials.gov/study/NCT07717892) | Vaihe 3 | Rekrytoi | 468 | 6 viikon lumekontrolloitu tutkimus nuorilla (12–<18 v) |
-| [NCT07717879](https://clinicaltrials.gov/study/NCT07717879) | Vaihe 3 | Rekrytoi | 468 | 6 viikon lumekontrolloitu tutkimus lapsilla (6–<12 v) |
+| [NCT05972044](https://clinicaltrials.gov/study/NCT05972044) | Vaihe 3 | Valmistunut | 516 | Satunnaistettu, kaksoissokkoutettu, lumekontrolloitu FOCUS-tutkimus aikuisten ADHD:ssa; tulokset tulee varmistaa |
+| [NCT04839562](https://clinicaltrials.gov/study/NCT04839562) | Vaihe 2/3 | Valmistunut | 66 | Kaksoissokkoutettu lumekontrolloitu pilottitutkimus 18–65-vuotiailla aikuisilla; liittyy vuoden 2023 julkaisuun |
+| [NCT07717892](https://clinicaltrials.gov/study/NCT07717892) | Vaihe 3 | Rekrytoi | 468 | 6 viikon lumekontrolloitu tutkimus 12–<18-vuotiailla nuorilla; tuloksia ei vielä |
+| [NCT07717879](https://clinicaltrials.gov/study/NCT07717879) | Vaihe 3 | Rekrytoi | 468 | 6 viikon lumekontrolloitu tutkimus 6–<12-vuotiailla lapsilla; tuloksia ei vielä |
 | [NCT07773883](https://clinicaltrials.gov/study/NCT07773883) | Vaihe 3 | Osallistujat kutsutaan | 300 | Avoin pitkäaikaisturvallisuustutkimus lapsilla ja nuorilla |
 
 ---
@@ -81,17 +81,17 @@ Katekoliamiinivälitteisen signaloinnin vahvistaminen prefrontaalisissa piireiss
 ## Kirjallisuusnäyttö
 
 | PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
-|---------|------|------|------|---------|
-| [37819836](https://pubmed.ncbi.nlm.nih.gov/37819836/) | 2023 | RCT | J Clin Psychiatry | Aikuisten ADHD:n kaksoissokkoutettu, lumekontrolloitu 6 viikon pilottitutkimus (annos 75 tai 150 mg), jossa arvioitiin tehoa ja siedettävyyttä |
-| [38771653](https://pubmed.ncbi.nlm.nih.gov/38771653/) | 2024 | Katsaus | Expert Opin Pharmacother | ADHD:n lääkehoidon uudet vaihtoehdot stimulanttien rinnalle |
-| [40986064](https://pubmed.ncbi.nlm.nih.gov/40986064/) | 2025 | Katsaus | Expert Opin Pharmacother | ADHD:n uudet hoitovaihtoehdot, painopisteenä vaiheen 3 tutkimukset |
-| [33870884](https://pubmed.ncbi.nlm.nih.gov/33870884/) | 2022 | Katsaus/kommentaari | CNS Spectrums | Solriamfetoli ADHD:n hoidossa |
-| [41621729](https://pubmed.ncbi.nlm.nih.gov/41621729/) | 2026 | Katsaus | Pharmacol Ther | Aikuisten ADHD:n lääkkeelliset, neuromodulaatio- ja psykoterapeuttiset hoidot |
-| [34534876](https://pubmed.ncbi.nlm.nih.gov/34534876/) | 2021 | Katsaus | Epilepsy Behav | Epilepsiaan liittyvän päiväväsymyksen lääkkeet; ADHD mainitaan liitännäissairautena |
+|------|-----|------|------|---------|
+| [37819836](https://pubmed.ncbi.nlm.nih.gov/37819836/) | 2023 | RCT | The Journal of Clinical Psychiatry | Aikuisten ADHD:n satunnaistettu, kaksoissokkoutettu, lumekontrolloitu 6 viikon pilottitutkimus (60 osallistujaa), annokset 75 mg tai 150 mg |
+| [38771653](https://pubmed.ncbi.nlm.nih.gov/38771653/) | 2024 | Katsaus | Expert Opinion on Pharmacotherapy | ADHD:n lääkehoidon uudet vaihtoehdot stimulanttien ulkopuolella |
+| [40986064](https://pubmed.ncbi.nlm.nih.gov/40986064/) | 2025 | Katsaus | Expert Opinion on Pharmacotherapy | Vaiheen 3 tutkimukset potentiaalisista uusista ADHD-hoidoista |
+| [33870884](https://pubmed.ncbi.nlm.nih.gov/33870884/) | 2022 | Katsaus/kommentti | CNS Spectrums | Solriamfetoli ADHD:n hoidossa |
+| [41621729](https://pubmed.ncbi.nlm.nih.gov/41621729/) | 2026 | Katsaus | Pharmacology & Therapeutics | Aikuisten ADHD:n farmakologiset, neuromodulatiiviset ja psykoterapeuttiset hoidot |
+| [34534876](https://pubmed.ncbi.nlm.nih.gov/34534876/) | 2021 | Katsaus | Epilepsy & Behavior | Epilepsiapotilaiden päiväaikainen uneliaisuus ja tarkkaavuushäiriöt |
 
 ---
 
-## Suomen markkinatiedot
+## Tiedot Suomen markkinoilta
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
@@ -101,31 +101,25 @@ Katekoliamiinivälitteisen signaloinnin vahvistaminen prefrontaalisissa piireiss
 
 ## Turvallisuusnäkökohdat
 
-**Lääkkeiden yhteisvaikutukset:** Farmakologisen tarkastelun mukaan solriamfetoli vaikuttaa noradrenaliinin kuljettajaan (NET) ja dopamiinin kuljettajaan (DAT). Varsinaisia luokiteltuja yhteisvaikutuksia ei ole kuvattu.
+Turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
-Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta. Varoitusten ja vasta-aiheiden tiedot puuttuvat tällä hetkellä, mikä on estävä aukko turvallisuusarvioinnin kannalta.
+Farmakologisen kyselyn mukaan solriamfetoli vaikuttaa noradrenaliinin kuljettajaan (NET) ja dopamiinin kuljettajaan (DAT). Tämä liittyy sympatomimeettisiin vaikutuksiin, joten verenpaineen ja sykkeen seuranta on perusteltua.
 
 ---
 
 ## Johtopäätös ja jatkotoimet
 
-**Päätös: Proceed with Guardrails (eteneminen suojatoimin)**
+**Päätös: Etene varauksin**
 
 **Perustelut:**
-- Aikuisten ADHD:ssa on valmistunut vaiheen 3 tutkimus ja vaiheen 2/3 pilotti, ja lapsilla sekä nuorilla on käynnissä kolme vaiheen 3 tutkimusta. Mekanismi sopii ADHD:n lääkehoidon periaatteisiin. Tulokset eivät kuitenkaan ole vielä käytettävissä aineistossa, ja Suomen myyntilupa on peruutettu.
+- Aikuisilla on yksi valmistunut vaiheen 3 lumekontrolloitu tutkimus ja yksi vaiheen 2/3 pilottitutkimus, ja pilotista on julkaistu satunnaistettu tutkimus. Lasten ja nuorten vaiheen 3 tutkimukset ovat vielä käynnissä, joten näyttötaso on L2.
 
 **Eteneminen edellyttää seuraavaa:**
-- Valmistuneen FOCUS-tutkimuksen (NCT05972044) tulosten varmistaminen.
-- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimealta.
-- Vaikutusmekanismin vahvistaminen DrugBankista.
-- Sydän- ja verisuoniturvallisuuden (verenpaine, syke) seurantasuunnitelma.
-- Suomen myyntilupatilanteen selvittäminen, sillä nykyinen lupa on peruutettu.
+- Valmistuneen FOCUS-tutkimuksen (NCT05972044) tehoa ja turvallisuutta koskevien tulosten tarkistaminen
+- Lasten ja nuorten vaiheen 3 tutkimusten tulokset
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden läpikäynti
+- Sydän- ja verisuoniturvallisuuden seurantasuunnitelma
 
----
-
-### Huomio muista ennusteista
-
-Muista ennustetuista käyttöaiheista vain unettomuudella on tutkimusnäyttöä (päiväväsymykseen ja väsymykseen kohdistuvat tutkimukset). Sen mekanismi on valvetta edistävälle lääkkeelle epäintuitiivinen, joten sitä tulee tulkita varovasti. Muille käyttöaiheille ei ole kliinistä näyttöä, ja ne ovat tilassa Hold.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

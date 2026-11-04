@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Apixaban
-parent: Kohtalainen näyttö (L3-L4)
+parent: Pelkkä mallin ennuste (L5)
 nav_order: 39
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
-description: "Apixaban: ennustettu uusi käyttöaihe Migreeni (migraine disorder) (näytön taso L4). Alkuperäinen käyttöaihe: Nivelleikkaus (artroplastia), laskimotromboembolia"
+last_modified_at: 2026-11-04
 monitor_inn: "APIXABAN"
 predicted_indications: ["migraine disorder"]
+description: "Apixaban: ennustettu uusi käyttöaihe Migreeni (migraine disorder) (näytön taso L5). Alkuperäinen käyttöaihe: Arthroplasty"
 ---
 
 # Apixaban
 {: .fs-9 }
 
-Näytön taso: **L4** | Ennustetut käyttöaiheet: **1** kpl
+Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,75 +33,80 @@ Näytön taso: **L4** | Ennustetut käyttöaiheet: **1** kpl
 
 </div>
 
-## Apiksabaani: Tromboembolian ehkäisystä migreeniin
+## Apixaban: Migreeni (migraine disorder)
 {: .text-alpha }
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Apiksabaani on suoraan vaikuttava tekijä Xa:n estäjä, jota on alun perin käytetty laskimotromboembolian ehkäisyyn ja hoitoon sekä aivohalvauksen ehkäisyyn nivelleikkausten yhteydessä. TxGNN-malli ennustaa sen voivan tehota **migreeniin**, mutta tuki on heikko: tätä varten koottu aineisto sisältää **1 epäsuorasti liittyvän kliinisen tutkimuksen** ja **3 julkaisua**, joista kaksi on yksittäisiä tapausselostuksia ja ne antavat keskenään ristiriitaisia tuloksia.
+Apiksabaani on suora tekijä Xa:n estäjä, jota käytetään veritulppien ehkäisyyn ja hoitoon. TxGNN-malli ennustaa sen mahdolliseksi käyttöaiheeksi **migreenin (migraine disorder)**. Suoraa tutkimusnäyttöä ei kuitenkaan ole: näyttötaso on **L5**, ja saatavilla olevat tapausselostukset viittaavat jopa migreenin pahenemiseen tai oireiden jatkumiseen apiksabaanilla.
 
 ## Pikakatsaus
 
 | Kohta | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Nivelleikkaus (artroplastia), laskimotromboembolia |
+| Alkuperäinen käyttöaihe | Arthroplasty;Venous Thromboembolism; Venous Thromboembolism;Stroke;Arthroplasty |
 | Ennustettu uusi käyttöaihe | Migreeni (migraine disorder) |
-| TxGNN-ennusteen pistemäärä | 0,9902 |
-| Näytön taso | L4 |
+| TxGNN-ennustepisteet | 0.9902 |
+| Näyttötaso | L5 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
 | Myyntilupien määrä | 2 (voimassa: 2) |
 | Suositeltu päätös | Hold (odota) |
 
-## Miksi ennuste on perusteltu?
+## Miksi ennuste voisi olla perusteltu?
 
-Tässä raportissa käytetyssä aineistossa ei ole saatavilla yksityiskohtaista vaikutusmekanismitietoa. Tiedossa on, että apiksabaani on suora Xa-tekijän estäjä, jonka teho laskimotromboembolian ja aivohalvauksen ehkäisyssä on osoitettu ja joka voisi mekanistisesti liittyä tiloihin, joissa tromboosilla on osuutensa.
+Tässä raportissa käytetyissä tiedoissa apiksabaanin yksityiskohtaista vaikutusmekanismia ei ole saatavilla. Tiedetään, että apiksabaani estää suoraan hyytymistekijä Xa:ta ja siten trombiinin muodostumista.
 
-Ehdotettu yhteys migreeniin on epäsuora. Auralliseen migreeniin on esitetty liittyvän paradoksaalinen embolia avoimen foramen ovalen (PFO) kautta, mikrotromboosit tai suurentunut hyytymistaipumus, esimerkiksi fosfolipidivasta-aineiden yhteydessä. Tällöin antitromboottinen hoito voisi vähentää aurasta ja kohtauksia.
+Ehdotettu yhteys migreeniin on epäsuora. Aurallisen migreenin on esitetty liittyvän avoimen foramen ovalen kautta tapahtuvaan paradoksaaliseen embolisaatioon, mikrotrombeihin tai suotuisaan hyytymistaipumukseen (esim. fosfolipidivasta-aineet). Tällöin antitromboottinen hoito voisi teoriassa vähentää auroja tai kohtauksia.
 
-Yhteys on kuitenkin epävarma. Tapausselostukset osoittavat eri suuntiin: yhdessä aurallinen migreeni paheni apiksabaanin aloituksen jälkeen, toisessa oireet hävisivät varfariinilla mutta eivät apiksabaanilla. Mahdollinen vaikutus ei siis ole yleinen antikoagulanttien luokkavaikutus, eikä välttämättä koske Xa-tekijän estoa. Korkea TxGNN-pistemäärä on laskennallinen ennuste eikä korvaa kliinistä näyttöä.
+Tapausselostukset ovat kuitenkin ristiriitaisia: toisessa aurallinen migreeni paheni apiksabaanin aloituksen jälkeen, toisessa oireet hävisivät varfariinilla mutta eivät apiksabaanilla. Mahdollinen vaikutus ei siis ole antikoagulaatioluokan yhteinen eikä välttämättä koske Xa:n estoa. Korkea pistemäärä on laskennallinen ennuste, ei kliinistä näyttöä.
 
-## Kliininen tutkimusnäyttö
+## Kliininen näyttö
 
-| Tutkimustunnus | Vaihe | Tila | Osallistujia | Keskeiset havainnot |
+| Tutkimusnumero | Vaihe | Tila | Osallistujia | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT00562289](https://clinicaltrials.gov/study/NCT00562289) | Vaihe 3 | Valmistunut | 664 | Avoimen foramen ovalen sulku tai antikoagulantit verrattuna verihiutaleiden estoon aivohalvauksen uusiutumisen ehkäisyssä. Ei suoraa migreeninäyttöä; apiksabaania ei mainita nimeltä. Yhteys on korkeintaan epäsuora PFO–migreeni-hypoteesin kautta. |
+| [NCT00562289](https://clinicaltrials.gov/study/NCT00562289) | Vaihe 3 | Päättynyt | 664 | Avoimen foramen ovalen sulku tai antikoagulantit vs. verihiutaleiden estäjät aivohalvauksen uusiutumisen ehkäisyssä. Migreeni ei ollut ensisijainen tavoite eikä apiksabaania nimetä; vain heikko epäsuora yhteys. |
 
 ## Kirjallisuusnäyttö
 
 | PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
-|---------|-----|------|------|---------|
-| [33402037](https://pubmed.ncbi.nlm.nih.gov/33402037/) | 2021 | Retrospektiivinen tutkimus (75 potilasta) | Lupus | Antitromboottisen hoidon vaste refraktaarisessa migreenissä potilailla, joilla on fosfolipidivasta-aineita. Tutkimuksen rakenne, käytetyt lääkkeet ja apiksabaanin osuus on vielä varmistettava. |
-| [37582651](https://pubmed.ncbi.nlm.nih.gov/37582651/) | 2023 | Tapausselostus ja kirjallisuuskatsaus | The Neurologist | Aurallinen migreeni paheni apiksabaanin aloituksen jälkeen. Suorien antikoagulanttien vaikutus migreeniin on epäselvä ja kirjallisuus niukkaa ja ristiriitaista. |
-| [28960288](https://pubmed.ncbi.nlm.nih.gov/28960288/) | 2017 | Tapausselostus | Headache | 55-vuotiaan naisen aurallinen migreeni oli remissiossa 12 vuotta varfariinilla, oireet palasivat kolmessa viikossa apiksabaaniin vaihdettaessa ja hävisivät uudelleen varfariinilla. |
+|------|-----|------|------|---------|
+| [37582651](https://pubmed.ncbi.nlm.nih.gov/37582651/) | 2023 | Tapausselostus ja kirjallisuuskatsaus | The Neurologist | Aurallinen migreeni paheni apiksabaanin aloituksen jälkeen; suorien antikoagulanttien vaikutuksesta migreeniin on niukasti ja ristiriitaista tietoa. |
+| [28960288](https://pubmed.ncbi.nlm.nih.gov/28960288/) | 2017 | Tapausselostus | Headache | Aurallinen migreeni oli remissiossa varfariinilla 12 vuotta, mutta oireet palasivat apiksabaanilla ja hävisivät uudelleen varfariinilla. |
+| [33402037](https://pubmed.ncbi.nlm.nih.gov/33402037/) | 2021 | Retrospektiivinen tutkimus (75 potilasta) | Lupus | Antitromboottinen hoito refraktaarisessa migreenissä potilailla, joilla on fosfolipidivasta-aineita; tutkimuksen asetelma ja apiksabaanin merkitys vaativat tarkistamista. |
 
-## Myyntitiedot Suomessa
+## Tiedot Suomen markkinoilta
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
 | EMEA/H/C/002148 | Eliquis | – | Nivelleikkaus, laskimotromboembolia |
 | EMEA/H/C/005358 | Apixaban Accord | – | Laskimotromboembolia, aivohalvaus, nivelleikkaus |
 
-Molemmat myyntiluvat on peruutettu.
+## Turvallisuushuomiot
 
-## Turvallisuusnäkökohdat
+Varoituksista ja vasta-aiheista ei ole saatavilla tietoa, joten niitä ei luetella. Tarkista ne valmisteyhteenvedosta.
 
-Pakkausselosteen varoitus- ja vasta-aihetietoja ei ole saatavilla tätä raporttia varten koottuun aineistoon, joten niihin on tutustuttava valmisteyhteenvedosta.
+**Yhteisvaikutukset:** Yhteisvaikutustietokannassa on yhteensä 100 apiksabaanin yhteisvaikutusta. Merkittäviksi (Major) luokiteltuja ovat mm.:
+- asetyylisalisyylihappo (verenvuotoriskin kasvu)
+- kobisistaatti
+- deferasiroksi
+- ibritumomabitiuksetaani
+- tositumomabi (myös I-131)
 
-- **Lääkeyhteisvaikutukset**: Yhteisvaikutushaussa löytyi yhteensä 100 yhteisvaikutusta. Esimerkkeinä vaikeusasteeltaan **merkittäviä (Major)** yhteisvaikutuksia ovat asetyylisalisyylihappo (lisääntynyt verenvuotoriski), kobisistaatti, deferasiroksi, ibritumomabitiuksetaani ja tositumomabi (I-131). **Kohtalaisia (Moderate)** ovat mm. aprepitantti, klaritromysiini, klotrimatsoli, deksametasoni, mikonatsoli, rolapitantti ja sugammadeksi.
+Kohtalaisia (Moderate) ovat mm. aprepitantti, klaritromysiini, klotrimatsoli, deksametasoni, mikonatsoli ja rolapitantti.
 
-## Johtopäätös ja seuraavat vaiheet
+## Johtopäätös ja seuraavat askeleet
 
 **Päätös: Hold (odota)**
 
-**Perustelu:**
-- Ennuste perustuu lähinnä malliin: kliininen tutkimus ei käsittele migreeniä, ja tapausselostukset ovat ristiriitaisia, osa jopa viittaa oireiden pahenemiseen apiksabaanilla. Lisäksi Suomen myyntiluvat on peruutettu ja turvallisuustiedot puuttuvat.
+**Perustelut:**
+- Migreenille ei ole suoraa tutkimusnäyttöä (taso L5). Saatavilla olevat tapausselostukset viittaavat pahenemiseen tai tehottomuuteen apiksabaanilla, ja korkea ennustepiste on vain laskennallinen.
 
-**Eteneminen edellyttää seuraavaa:**
-- Mekanismitiedon (MOA) täydentäminen ja Xa-tekijän eston mahdollisen yhteyden migreeniin arviointi
-- Valmisteyhteenvedon varoitusten ja vasta-aiheiden kokoaminen turvallisuusarviointia varten
-- Tutkimuksen PMID 33402037 rakenteen ja apiksabaanin osuuden tarkistaminen
-- Ennen kliinistä jatkoa tarvitaan satunnaistettu tutkimus tai vähintään järjestelmällinen näyttö apiksabaanin vaikutuksesta migreeniin, mieluiten PFO- tai fosfolipidivasta-ainepotilailla
-- Myyntiluvan tilanteen selvittäminen Suomessa
+**Etenemiseksi tarvitaan:**
+- Tarkempi vaikutusmekanismitieto ja mekanistinen perustelu Xa:n estolle migreenissä
+- Valmisteyhteenvedon varoitukset ja vasta-aiheet
+- Tutkimuksen 33402037 asetelman ja käytettyjen lääkkeiden tarkistus
+- Kontrolloidut tutkimukset, joissa migreeni on päätetapahtuma, ennen mitään kliinistä harkintaa
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

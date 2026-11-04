@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-03",
+  "generated": "2026-11-04",
   "total_drugs": 444,
   "level_counts": {
-    "L1": 12,
-    "L2": 22,
-    "L3": 6,
+    "L1": 8,
+    "L2": 23,
+    "L3": 9,
     "L4": 25,
     "L5": 367
   },
@@ -138,7 +138,7 @@
     {
       "name": "Apixaban",
       "slug": "apixaban",
-      "level": "L4",
+      "level": "L5",
       "indication_count": 1
     },
     {
@@ -498,7 +498,7 @@
     {
       "name": "Cilastatin",
       "slug": "cilastatin",
-      "level": "L5",
+      "level": "L3",
       "indication_count": 9
     },
     {
@@ -552,7 +552,7 @@
     {
       "name": "Cytarabine",
       "slug": "cytarabine",
-      "level": "L5",
+      "level": "L3",
       "indication_count": 9
     },
     {
@@ -702,7 +702,7 @@
     {
       "name": "Dronedarone",
       "slug": "dronedarone",
-      "level": "L3",
+      "level": "L4",
       "indication_count": 9
     },
     {
@@ -714,7 +714,7 @@
     {
       "name": "Dupilumab",
       "slug": "dupilumab",
-      "level": "L2",
+      "level": "L5",
       "indication_count": 9
     },
     {
@@ -1110,7 +1110,7 @@
     {
       "name": "Hydrocortisone",
       "slug": "hydrocortisone",
-      "level": "L1",
+      "level": "L2",
       "indication_count": 9
     },
     {
@@ -1344,7 +1344,7 @@
     {
       "name": "Lenvatinib",
       "slug": "lenvatinib",
-      "level": "L2",
+      "level": "L3",
       "indication_count": 5
     },
     {
@@ -1692,7 +1692,7 @@
     {
       "name": "Omalizumab",
       "slug": "omalizumab",
-      "level": "L5",
+      "level": "L2",
       "indication_count": 9
     },
     {
@@ -1764,7 +1764,7 @@
     {
       "name": "Panobinostat",
       "slug": "panobinostat",
-      "level": "L1",
+      "level": "L2",
       "indication_count": 1
     },
     {
@@ -2016,7 +2016,7 @@
     {
       "name": "Regorafenib",
       "slug": "regorafenib",
-      "level": "L1",
+      "level": "L2",
       "indication_count": 8
     },
     {
@@ -2238,13 +2238,13 @@
     {
       "name": "Solriamfetol",
       "slug": "solriamfetol",
-      "level": "L1",
+      "level": "L2",
       "indication_count": 10
     },
     {
       "name": "Sorafenib",
       "slug": "sorafenib",
-      "level": "L2",
+      "level": "L5",
       "indication_count": 6
     },
     {
@@ -2568,7 +2568,7 @@
     {
       "name": "Vandetanib",
       "slug": "vandetanib",
-      "level": "L2",
+      "level": "L3",
       "indication_count": 10
     },
     {

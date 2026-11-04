@@ -3,18 +3,18 @@ layout: default
 title: Dronedarone
 parent: Kohtalainen näyttö (L3-L4)
 nav_order: 147
-evidence_level: L3
+evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-28
-description: "Dronedarone: ennustettu uusi käyttöaihe Aivohalvaus (stroke disorder) (näytön taso L5). Alkuperäinen käyttöaihe: Eteisvärinä"
+last_modified_at: 2026-11-04
 monitor_inn: "DRONEDARONE"
 predicted_indications: ["stroke disorder", "ABri amyloidosis", "cerebrovascular disorder", "brain stem infarction", "sick sinus syndrome 2, autosomal dominant", "duodenal obstruction", "cerebral artery occlusion", "sarcoglycanopathy", "Wildervanck syndrome"]
+description: "Dronedarone: ennustettu uusi käyttöaihe Aivohalvaus (stroke disorder) (näytön taso L4). Alkuperäinen käyttöaihe: Atrial Fibrillation"
 ---
 
 # Dronedarone
 {: .fs-9 }
 
-Näytön taso: **L3** | Ennustetut käyttöaiheet: **9** kpl
+Näytön taso: **L4** | Ennustetut käyttöaiheet: **9** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,63 +33,51 @@ Näytön taso: **L3** | Ennustetut käyttöaiheet: **9** kpl
 
 </div>
 
-## Dronedaroni: Eteisvärinän hoidosta aivohalvaukseen (stroke disorder)
+## Dronedarone: Aivohalvaus (stroke disorder)
 {: .text-alpha }
 
 ## Yhteenveto
 
-Dronedaroni on monikanavasalpaaja, jota on alun perin käytetty **eteisvärinän** hoitoon. TxGNN-malli ennustaa sen voivan olla hyödyllinen **aivohalvauksen (stroke disorder)** yhteydessä. Tämän suunnan tukena on tällä hetkellä **0 kliinistä tutkimusta** ja **20 julkaisua**, joista suurin osa on eteisvärinää käsitteleviä katsauksia. Vahvin näyttö liittyy läheiseen ennusteeseen "aivoverisuonisairaus", jossa on lisäksi ATHENA-tutkimuksen post hoc -analyyseja.
-
----
+Dronedaroni on monikanavasalpaaja, joka kuuluu sydämen rytmihäiriölääkkeisiin. TxGNN-malli ennustaa sille mahdollista hyötyä **aivohalvauksessa (stroke disorder)**. Suoraa tutkimusta ei ole: aivohalvaus esiintyy vain rytmihäiriötutkimusten tulosmuuttujana, ja lisäksi on yksi prekliininen tutkimus. Rekisteröityjä kliinisiä lääketutkimuksia ei ole, ja aineistossa on **10 tähän suuntaan liittyvää julkaisua**.
 
 ## Pikakatsaus
 
-| Kohta | Sisältö |
+| Kohde | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Eteisvärinä |
+| Alkuperäinen käyttöaihe | Atrial Fibrillation |
 | Ennustettu uusi käyttöaihe | Aivohalvaus (stroke disorder) |
-| TxGNN-ennusteen pistemäärä | 0,9997 |
-| Näytön taso | L3 (katsaukset ja havainnoivat tutkimukset; ei omaa aivohalvaus-päätetapahtumaan tähtäävää koetta) |
+| TxGNN-ennustepistemäärä | 0.9997 |
+| Näytön taso | L4 |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
----
-
 ## Miksi ennuste on perusteltu?
 
-Tämän raportin aineistossa ei ole saatavilla yksityiskohtaista vaikutusmekanismitietoa. Tunnetun tiedon perusteella dronedaroni on monikanavasalpaaja (III-luokan rytmihäiriölääke), jonka teho eteisvärinässä on osoitettu ja joka voi mekanistisesti soveltua myös aivohalvauksen ehkäisyyn eteisvärinäpotilailla. Kirjallisuuden mukaan se estää natrium-, kalium- ja kalsiumvirtoja.
+Tälle raporttia varten koottuun aineistoon ei sisälly tarkkaa vaikutusmekanismikuvausta. Tunnetusti dronedaroni on monikanavasalpaaja, joka vaikuttaa sydämen rytmiin ja sykkeeseen. Rytmihäiriöistä johtuvat veritulpat ovat merkittävä aivohalvauksen syy. Rytmin ja sykkeen hallinta voisi siksi epäsuorasti vähentää aivohalvauksen riskiä.
 
-Eteisvärinä on merkittävä kardioembolisen aivohalvauksen syy. Rytmin ja sykkeen hallinta voi siksi välillisesti vähentää aivohalvauksen riskiä. Hyöty vaikuttaa liittyvän eteisvärinän hoitoon eikä erilliseen aivohalvausmekanismiin. Korkea TxGNN-pistemäärä kuvastaa todennäköisesti eteisvärinän ja aivohalvauksen välistä yhteyttä tietoverkossa, ei itsenäistä näyttöä.
+Hyöty näyttää liittyvän rytmihäiriön hoitoon eikä erilliseen aivohalvausmekanismiin. Prekliininen tutkimus (PMID 28992468) osoitti dronedaronilla veren hyytymistä ja verihiutaleiden toimintaa estäviä vaikutuksia, jotka eivät selity pelkällä rytmivaikutuksella. Tämä on vasta mekanistinen vihje, ei kliininen näyttö.
 
-Yksi tutkimus (PMID 28992468) viittaa siihen, että dronedaronilla voi olla veren hyytymistä ja verihiutaleiden toimintaa vähentäviä vaikutuksia riippumatta sen rytmihäiriövaikutuksesta. Tämä on mahdollinen lisäselitys, mutta tulos vaatii vahvistusta.
-
----
+Tulosta on tulkittava varovasti. Ennusteen korkea pistemäärä kuvaa todennäköisesti rytmihäiriön ja aivohalvauksen välistä yhteyttä eikä itsenäistä näyttöä. Pysyvää rytmihäiriötä sairastavilla suuririskisillä potilailla dronedaroni lisäsi vakavia sydän- ja verisuonitapahtumia (PMID 22082198), joten vaikutus riippuu potilasryhmästä.
 
 ## Kliininen tutkimusnäyttö
 
-Tällä hetkellä ei ole aiheeseen liittyviä rekisteröityjä kliinisiä tutkimuksia.
-
----
+Tällä hetkellä aiheeseen liittyviä kliinisiä tutkimuksia ei ole rekisteröity.
 
 ## Kirjallisuusnäyttö
 
-Taulukossa on tärkeimmät julkaisut. Osa on poimittu läheisemmän ennusteen "aivoverisuonisairaus" kirjallisuudesta, koska niissä käsitellään dronedaronin vaikutusta aivohalvaukseen.
-
 | PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [22082198](https://pubmed.ncbi.nlm.nih.gov/22082198/) | 2011 | RCT (PALLAS) | N Engl J Med | Dronedaroni suuren riskin pysyvässä eteisvärinässä; tavoitteena vähentää merkittäviä verisuonitapahtumia |
-| [22149318](https://pubmed.ncbi.nlm.nih.gov/22149318/) | 2011 | Systemaattinen katsaus ja metaanalyysi (post hoc) | Am J Cardiovasc Drugs | Dronedaroni ja aivohalvauksen ilmaantuvuus paroksysmaalisessa tai persistoivassa eteisvärinässä; viitteitä riskin pienenemisestä |
-| [20396635](https://pubmed.ncbi.nlm.nih.gov/20396635/) | 2010 | RCT:n post hoc -analyysi | Clin Interv Aging | Dronedaronin vaikutus aivohalvauksen vähenemiseen eteisvärinässä ja -flutterissa |
-| [21296333](https://pubmed.ncbi.nlm.nih.gov/21296333/) | 2011 | RCT:n post hoc -analyysi (ATHENA) | Am J Cardiol | Dronedaronin rytmiä ja sykettä hallitsevat vaikutukset |
-| [28992468](https://pubmed.ncbi.nlm.nih.gov/28992468/) | 2017 | Prekliininen/mekanistinen | Atherosclerosis | Dronedaroni vähensi ATHENA-tutkimuksessa aivohalvausta ja TIA-kohtauksia; mahdollisia veren hyytymistä ja verihiutaleita estäviä vaikutuksia |
-| [40387892](https://pubmed.ncbi.nlm.nih.gov/40387892/) | 2025 | RCT:n sekundaarianalyysi | Clin Res Cardiol | Amiodaronin ja dronedaronin turvallisuus ja teho aikaisessa rytmin hallinnassa (EAST-AFNET 4) |
-| [37485722](https://pubmed.ncbi.nlm.nih.gov/37485722/) | 2023 | Kohortti | Circ Arrhythm Electrophysiol | Dronedaroni vs. sotaloli veteraaneilla, joilla on eteisvärinä |
-| [41152878](https://pubmed.ncbi.nlm.nih.gov/41152878/) | 2025 | Kohortti | BMC Med | Suorien antikoagulanttien ja yhteisvaikutteisten rytmihäiriölääkkeiden samanaikainen käyttö, aivohalvaus- ja verenvuotoriski |
-| [22366819](https://pubmed.ncbi.nlm.nih.gov/22366819/) | 2012 | Katsaus | Cardiovasc Drugs Ther | Dronedaronin pleiotrooppiset vaikutukset sydämen ja aivojen iskemia-reperfuusiovauriossa |
-| [22166900](https://pubmed.ncbi.nlm.nih.gov/22166900/) | 2012 | Katsaus | Lancet | Eteisvärinän hoidon kehitys ja aivohalvauksen riskin arviointi |
-
----
+| [22149318](https://pubmed.ncbi.nlm.nih.gov/22149318/) | 2011 | Meta-analyysi (satunnaistettujen tutkimusten post hoc) | Am J Cardiovasc Drugs | Dronedaroni näytti vähentävän aivohalvauksen ilmaantuvuutta jaksoittaista tai pysyvää rytmihäiriötä sairastavilla |
+| [20396635](https://pubmed.ncbi.nlm.nih.gov/20396635/) | 2010 | RCT (post hoc) | Clin Interv Aging | Aivohalvauksen väheneminen ATHENA-tutkimuksen jälkianalyysissä |
+| [21296333](https://pubmed.ncbi.nlm.nih.gov/21296333/) | 2011 | RCT (post hoc) | Am J Cardiol | ATHENA-tutkimuksen rytmiä ja sykettä hallitsevat vaikutukset |
+| [22082198](https://pubmed.ncbi.nlm.nih.gov/22082198/) | 2011 | RCT | N Engl J Med | Pysyvää rytmihäiriötä sairastavilla suuririskisillä potilailla vakavien sydän- ja verisuonitapahtumien riski kasvoi |
+| [40387892](https://pubmed.ncbi.nlm.nih.gov/40387892/) | 2025 | RCT (sekundaarianalyysi) | Clin Res Cardiol | Amiodaronin ja dronedaronin turvallisuus ja teho EAST-AFNET 4 -tutkimuksessa |
+| [28496906](https://pubmed.ncbi.nlm.nih.gov/28496906/) | 2013 | Kohorttitutkimus | J Atr Fibrillation | Sydän- ja verisuonitapahtumien ja aivohalvauksen riski dronedaronilla verrattuna muihin rytmilääkkeisiin |
+| [28992468](https://pubmed.ncbi.nlm.nih.gov/28992468/) | 2017 | Prekliininen tutkimus | Atherosclerosis | Dronedaronilla veren hyytymistä ja verihiutaleita estäviä vaikutuksia, jotka eivät selity rytmivaikutuksella |
+| [41152878](https://pubmed.ncbi.nlm.nih.gov/41152878/) | 2025 | Kohorttitutkimus | BMC Med | Suun kautta otettavien antikoagulanttien ja yhteisvaikutteisten rytmilääkkeiden samanaikaisen käytön vaikutus aivohalvauksen ja verenvuodon riskiin |
+| [22366819](https://pubmed.ncbi.nlm.nih.gov/22366819/) | 2012 | Katsaus | Cardiovasc Drugs Ther | Dronedaronin monivaikutteiset vaikutukset sydämen ja aivojen iskemia-reperfuusiovauriossa |
+| [20730068](https://pubmed.ncbi.nlm.nih.gov/20730068/) | 2010 | Katsaus | Vasc Health Risk Manag | Hyväksyntä ja teho; jälkianalyysin mukaan aivohalvausriski saattaa pienentyä |
 
 ## Markkinatiedot Suomessa
 
@@ -97,31 +85,34 @@ Taulukossa on tärkeimmät julkaisut. Osa on poimittu läheisemmän ennusteen "a
 |---------|------|------|-----------|
 | EMEA/H/C/001043 | Multaq (peruutettu) | – | Eteisvärinä |
 
----
-
 ## Turvallisuusnäkökohdat
 
-- **Tietoverkon (PrimeKG) mukaiset vasta-aiheet:** pitkä QT -oireyhtymä (myös perinnöllinen), torsades de pointes, maksan vajaatoiminta, kaliumin puutos, eteis-kammiokatkos, sairas sinus -oireyhtymä (myös perinnöllinen). Nämä perustuvat tietoverkon yhteyksiin, eivät valmisteyhteenvedon tekstiin.
-- **Lääkeaineyhteisvaikutukset:** Aineistossa on 100 mahdollista yhteisvaikutusta. Merkittäviksi (Major) luokiteltuja ovat mm. hydrokortisoni, amfoterisiini B (useat valmisteet), loperamidi, klaritromysiini, pikosulfaatti, polyetyleeniglykoli (elektrolyyttien kanssa) ja dolasetroni. Kohtalaisia (Moderate) ovat mm. famotidiini, aprepitantti, deksametasoni, budesonidi, simetidiini ja saksagliptiini.
-- **Muut huomiot:** Kirjallisuuden mukaan dronedaroni on vasta-aiheinen pysyvässä eteisvärinässä ja dekompensoituneessa sydämen vajaatoiminnassa (PALLAS, ANDROMEDA), mikä rajoittaa mahdollista käyttöä aivohalvauksen ehkäisyssä. PALLAS-tutkimuksessa pysyvää eteisvärinää sairastavilla aivohalvaus- ja sydän- ja verisuonitapahtumat lisääntyivät. Vaikutus riippuu siis potilasryhmästä. Samanaikainen käyttö suorien antikoagulanttien kanssa on yhteisvaikutusriski.
+**Lääkeyhteisvaikutukset:** Yhteisvaikutustietokannassa on yhteensä 100 yhteisvaikutusta. Merkittäviksi (Major) luokiteltuja ovat muun muassa:
+- hydrokortisoni
+- amfoterisiini B (myös lipidikompleksi-, kolesterolisulfaatti- ja liposomaalinen muoto)
+- loperamidi
+- klaritromysiini
+- pikosulfaatti
+- polyetyleeniglykoli (3350, elektrolyyttien kanssa)
+- dolasetroni
 
-Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat tästä aineistosta, joten ne on tarkistettava valmisteyhteenvedosta.
+Lisäksi kirjallisuudessa on nostettu esiin antikoagulanttien ja yhteisvaikutteisten rytmilääkkeiden samanaikaiseen käyttöön liittyvä turvallisuuskysymys (PMID 41152878). Se on olennainen, jos dronedaronia harkittaisiin aivohalvauksen ehkäisyyn.
 
----
+Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 ## Johtopäätös ja jatkotoimet
 
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Näyttö on epäsuoraa ja perustuu pääosin ATHENA-tutkimuksen post hoc -analyyseihin sekä katsauksiin. Omaa aivohalvaus-päätetapahtumaan tähtäävää tutkimusta ei ole, ja kliinisiä tutkimuksia ei ole rekisteröity. PALLAS-tutkimus osoitti haittoja pysyvässä eteisvärinässä, ja valmisteen myyntiluvat Suomessa on peruutettu. Korkea TxGNN-pistemäärä ei yksinään riitä perusteeksi.
+- Mikään tutkimus ei testaa dronedaronia aivohalvauksen ehkäisyyn ensisijaisena tavoitteena. Näyttö on epäsuoraa (L4): aivohalvaus on vain sivutulos rytmihäiriötutkimuksissa, ja lisäksi on yksi prekliininen tutkimus.
+- Vaikutus riippuu potilasryhmästä, sillä pysyvää rytmihäiriötä sairastavilla riskit kasvoivat. Lisäksi antikoagulanttien kanssa on yhteisvaikutusriski.
 
-**Jatkoon tarvitaan:**
-- Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvitys Fimeasta (estää tällä hetkellä turvallisuusarvioinnin)
-- Yksityiskohtaiset vaikutusmekanismitiedot (esim. DrugBankista)
-- Aivohalvausta ensisijaisena päätetapahtumana käyttävä tutkimus tai tarkempi meta-analyysi paroksysmaalista tai persistoivaa eteisvärinää sairastavista
-- Yhteisvaikutusten (erityisesti suorien antikoagulanttien) ja potilasvalinnan turvallisuussuunnitelma
-- Arvio myyntiluvan uudelleenhakemisen tai muun saatavuuden mahdollisuuksista Suomessa
+**Etenemiseksi tarvitaan:**
+- Aivohalvaus ensisijaisena tulosmuuttujana oleva satunnaistettu tutkimus tai vähintään erillinen vaikuttavuusanalyysi sopivassa potilasryhmässä.
+- Tarkka vaikutusmekanismitieto ja jatkotutkimukset dronedaronin veren hyytymistä ja verihiutaleita estävistä vaikutuksista.
+- Valmisteyhteenvedon varoitusten ja vasta-aiheiden läpikäynti sekä yhteisvaikutusten, erityisesti antikoagulanttien, turvallisuusarvio.
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

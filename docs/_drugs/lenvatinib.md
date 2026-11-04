@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lenvatinib
-parent: Vahva näyttö (L1-L2)
+parent: Kohtalainen näyttö (L3-L4)
 nav_order: 259
-evidence_level: L2
+evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-10-28
-description: "Lenvatinib: ennustettu uusi käyttöaihe Liposarkooma (näytön taso L2). Alkuperäinen käyttöaihe: Kilpirauhasen kasvaimet (Lenvima)"
+last_modified_at: 2026-11-04
 monitor_inn: "lenvatinib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax", "endocrine-cerebro-osteodysplasia syndrome"]
+description: "Lenvatinib: ennustettu uusi käyttöaihe Liposarkooma (liposarcoma) (näytön taso L3). Alkuperäinen käyttöaihe: Thyroid Neoplasms"
 ---
 
 # Lenvatinib
 {: .fs-9 }
 
-Näytön taso: **L2** | Ennustetut käyttöaiheet: **5** kpl
+Näytön taso: **L3** | Ennustetut käyttöaiheet: **5** kpl
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,93 +33,87 @@ Näytön taso: **L2** | Ennustetut käyttöaiheet: **5** kpl
 
 </div>
 
-## Lenvatinibi: Kilpirauhassyövästä ja munuaissolusyövästä liposarkoomaan
+## Lenvatinib: Liposarkooma (liposarcoma)
 {: .text-alpha }
 
-## Yhden lauseen yhteenveto
+## Yhteenveto
 
-Lenvatinibi on moniin tyrosiinikinaasireseptoreihin kohdistuva estäjä, jota on käytetty kilpirauhassyövän ja munuaissolusyövän hoitoon. TxGNN-malli ennustaa sen voivan tehota **liposarkoomaan**, ja tätä suuntaa tukee tällä hetkellä **1 kliininen tutkimus** ja **4 julkaisua**. Näyttö on kuitenkin vielä vähäistä: se perustuu pääosin yhteen yhden haaran vaiheen Ib/II tutkimukseen.
+Lenvatinibi on useiden reseptorityrosiinikinaasien estäjä, jota käytetään Suomessa syöpälääkkeenä. TxGNN-malli ennustaa, että se voisi tehota **liposarkoomaan (liposarcoma)**. Näyttöä on **1 valmistunut vaiheen Ib/II kliininen tutkimus** ja **4 julkaisua**, joista yksi raportoi samaa tutkimusta. Näyttötaso on **L3**, koska satunnaistettuja tutkimuksia ei ole.
 
-## Pikayleiskatsaus
+## Pikakatsaus
 
-| Kohta | Sisältö |
+| Kohde | Sisältö |
 |------|------|
-| Alkuperäinen käyttöaihe | Kilpirauhasen kasvaimet (Lenvima); munuaissolusyöpä (Kisplyx) |
-| Ennustettu uusi käyttöaihe | Liposarkooma |
-| TxGNN-ennusteen pistemäärä | 0,9951 |
-| Näytön taso | L2 |
+| Alkuperäinen käyttöaihe | Thyroid Neoplasms; Carcinoma, Renal Cell |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
 | Myyntilupien määrä | 2 (voimassa: 2) |
-| Suositeltu päätös | Hold (odota lisänäyttöä) |
+| Ennustettu uusi käyttöaihe | Liposarkooma (liposarcoma) |
+| TxGNN-ennustepistemäärä | 0.9951 |
+| Näyttötaso | L3 |
+| Tilanne Suomessa | Markkinoilla |
+| Suositeltu päätös | Hold |
 
 ## Miksi ennuste on perusteltu?
 
-Tämän raportin tietojen mukaan lenvatinibin yksityiskohtaista vaikutusmekanismia ei ole saatavilla. Tutkimuskirjallisuuden perusteella lenvatinibi estää VEGFR1–3-, FGFR1–4-, PDGFRα-, RET- ja KIT-reseptoreita. Tämä voi hillitä kasvaimen verisuonten muodostumista ja kasvusignalointia pehmytkudossarkoomissa.
+Lenvatinibi estää VEGFR1–3-, FGFR1–4-, PDGFRα-, RET- ja KIT-reseptoreita. Näiden estäminen voi vähentää kasvaimen verisuonten muodostusta ja kasvusignalointia pehmytkudossarkoomissa. Yksityiskohtaista vaikutusmekanismitietoa ei ole tähän raporttiin koottu, joten mekanismikuvaus perustuu tunnettuihin kohdereseptoreihin.
 
-Alkuperäiset käyttöaiheet (kilpirauhassyöpä ja munuaissolusyöpä) ovat angiogeneesistä riippuvaisia kasvaimia. Liposarkooman kohdalla perustelu on epäsuorempi. Eribuliini, joka on mikrotubulusten estäjä, on osoittanut prekliinistä synergiaa kohdennettujen lääkkeiden kanssa, joten yhdistelmä on mekanistisesti uskottava. Lisäksi CDK4-biomarkkeritutkimus viittaa siihen, että liposarkoomassa on muitakin merkityksellisiä signalointireittejä, koska erilaistumattomissa ja hyvin erilaistuneissa tyypeissä CDK4/MDM2 on monistunut.
-
-Lenvatinibin ja alkuperäisten käyttöaiheiden samankaltaisuutta ei ole aineistossa arvioitu, joten päätelmä perustuu mekanistiseen järkeilyyn eikä suoraan vertailuun.
+Eribuliini on mikrotubulusten estäjä, ja prekliinisissä tutkimuksissa sillä on todettu yhteisvaikutusta kohdennettujen lääkkeiden kanssa. Yhdistelmä on siksi mekanistisesti uskottava. Lisäksi CDK4-biomarkkeritutkimus viittaa siihen, että liposarkoomassa (erityisesti dedifferentioituneessa ja hyvin erilaistuneessa muodossa) on lisäksi muita merkityksellisiä signalointireittejä.
 
 ## Kliininen tutkimusnäyttö
 
-| Tutkimuksen tunnus | Vaihe | Tila | Osallistujia | Keskeiset havainnot |
+| Tutkimusnumero | Vaihe | Tila | Osallistujia | Keskeiset havainnot |
 |---------|------|------|------|---------|
-| [NCT03526679](https://clinicaltrials.gov/study/NCT03526679) | Vaihe 1/2 | Päättynyt | 30 | LEADER-tutkimus: lenvatinibin ja eribuliinin yhdistelmän turvallisuus ja teho levinneessä rasvakudoksen sarkoomassa ja leiomyosarkoomassa. Yhden haaran, ei-satunnaistettu, joten vertailevaa tehoa ei voida arvioida. |
+| [NCT03526679](https://clinicaltrials.gov/study/NCT03526679) | Vaihe 1/2 | Valmistunut | 30 | LEADER-tutkimus: lenvatinibin ja eribuliinin yhdistelmä levinneessä rasvasolusarkoomassa ja leiomyosarkoomassa; yhden haaran tutkimus, turvallisuus ja teho |
 
 ## Kirjallisuusnäyttö
 
-| PMID | Vuosi | Tyyppi | Julkaisu | Keskeiset havainnot |
+| PMID | Vuosi | Tyyppi | Lehti | Keskeiset havainnot |
 |------|-----|------|------|---------|
-| [36129471](https://pubmed.ncbi.nlm.nih.gov/36129471/) | 2022 | Vaihe Ib/II, yksihaarainen | Clin Cancer Res | Lenvatinibin ja eribuliinin turvallisuus ja teho edenneessä liposarkoomassa ja leiomyosarkoomassa (LEADER). |
-| [39103896](https://pubmed.ncbi.nlm.nih.gov/39103896/) | 2024 | Prekliininen / biomarkkeri | Exp Hematol Oncol | CDK4 prognostisena biomarkkerina pehmytkudossarkoomassa; CDK4:n eston synergistinen vaikutus erilaistumattomassa liposarkoomassa. |
-| [29848686](https://pubmed.ncbi.nlm.nih.gov/29848686/) | 2018 | Prekliininen | Anticancer Res | Eribuliinin laaja-alainen prekliininen kasvainvaikutus ja yhdistelmät eri tavoin vaikuttavien syöpälääkkeiden kanssa. |
-| [34326745](https://pubmed.ncbi.nlm.nih.gov/34326745/) | 2021 | Tapausselostus | Case Rep Oncol | Erilaistumattoman liposarkooman keuhkometastaasin selvä pieneneminen yksilöllisessä hoidossa. |
+| [36129471](https://pubmed.ncbi.nlm.nih.gov/36129471/) | 2022 | Vaiheen Ib/II yhden haaran tutkimus | Clinical Cancer Research | Lenvatinibi + eribuliini levinneessä liposarkoomassa ja leiomyosarkoomassa (LEADER) |
+| [39103896](https://pubmed.ncbi.nlm.nih.gov/39103896/) | 2024 | Prekliininen / biomarkkeritutkimus | Experimental Hematology & Oncology | CDK4 prognostisena merkkiaineena pehmytkudossarkoomissa; estäjien yhteisvaikutus dedifferentioituneessa liposarkoomassa |
+| [29848686](https://pubmed.ncbi.nlm.nih.gov/29848686/) | 2018 | Prekliininen | Anticancer Research | Eribuliinin laaja-alainen prekliininen teho ja yhdistelmät muiden syöpälääkkeiden kanssa |
+| [34326745](https://pubmed.ncbi.nlm.nih.gov/34326745/) | 2021 | Tapausselostus | Case Reports in Oncology | Dedifferentioituneen liposarkooman keuhkometastaasin kasvaimen pieneneminen yksilöllisellä hoidolla |
 
-## Myyntilupatiedot Suomessa
+## Myyntiluvat Suomessa
 
 | Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
 | EMEA/H/C/003727 | Lenvima | – | Kilpirauhasen kasvaimet (peruutettu) |
 | EMEA/H/C/004224 | Kisplyx | – | Munuaissolusyöpä (peruutettu) |
 
-## Solunsalpaajaominaisuudet
+## Kemoterapian tyyppiset ominaisuudet (sytotoksisuus)
 
-| Kohta | Sisältö |
+| Kohde | Sisältö |
 |------|------|
-| Luokitus | Kohdennettu hoito (moniin kinaaseihin kohdistuva tyrosiinikinaasin estäjä), ei perinteinen solunsalpaaja |
-| Luuydinsuppression riski | Tietoa ei ole saatavilla; katso valmisteyhteenvedon varoitukset ja varotoimet |
-| Pahoinvointiriski | Tietoa ei ole saatavilla; katso valmisteyhteenvedon varoitukset ja varotoimet |
-| Seurantakohteet | Katso valmisteyhteenvedon varoitukset ja varotoimet |
-| Käsittelysuojaus | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Luokitus | Kohdennettu hoito (monikinaasin estäjä) |
+| Luuydinsuppressio | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Pahoinvointia aiheuttava vaikutus | Katso valmisteyhteenvedon varoitukset ja varotoimet |
+| Seurantakohteet | Katso valmisteyhteenveto |
+| Käsittelysuojaus | Katso valmisteyhteenveto |
 
-## Turvallisuushuomioita
+## Turvallisuusnäkökohdat
 
-**Lääkeyhteisvaikutukset:** Yhteisvaikutuksia on tiedossa yhteensä 260. Merkittävimpiä:
+**Yhteisvaikutukset:** Tähän raporttiin koottujen tietojen mukaan yhteisvaikutuksia on kirjattu yhteensä 260. Merkittävimpiä:
 - **Vakavat (Major):** dolasetroni, sisapridi
-- **Kohtalaiset (Moderate):** mm. famotidiini, loperamidi, klaritromysiini, levofloksasiini, granisetroni, palonosetroni, naltreksoni sekä useita laksatiiveja (bisakodyyli, laktuloosi, magnesiumsitraatti, magnesiumhydroksidi)
+- **Kohtalaiset (Moderate):** mm. famotidiini, loperamidi, klaritromysiini, levofloksasiini, palonosetroni, granisetroni, naltreksoni sekä useat laksatiivit (bisakodyyli, laktuloosi, magnesiumsitraatti, magnesiumhydroksidi)
 - **Lievät (Minor):** metronidatsoli
 
-Varoituksia ja vasta-aiheita koskevat tiedot puuttuvat tästä aineistosta. Tarkista ne valmisteyhteenvedosta.
+Muista turvallisuustiedoista, kuten varoituksista ja vasta-aiheista, katso valmisteyhteenveto.
 
-## Johtopäätös ja seuraavat vaiheet
+## Johtopäätös ja seuraavat askeleet
 
 **Päätös: Hold**
 
 **Perustelut:**
-- Liposarkooman näyttö perustuu yhteen päättyneeseen yhden haaran vaiheen Ib/II tutkimukseen (n=30), jossa lenvatinibia annettiin eribuliinin kanssa. Lenvatinibin oma vaikutus ei siten erotu. Muu näyttö on prekliinistä tai tapausselostuksia.
-- Lenvatinibilla ei ole voimassa olevaa myyntilupaa Suomessa (molemmat luvat peruutettu), eikä turvallisuustietoja (varoitukset, vasta-aiheet) ole saatavilla, mikä estää turvallisuusseulonnan.
+Ennusteen tueksi on yksi yhden haaran vaiheen Ib/II tutkimus (30 potilasta) ilman satunnaistettua vertailua, joten näyttötaso on L3. Tulos antaa suoran kliinisen signaalin, mutta ei vertailevaa tehoa.
 
-**Jatkoa varten tarvitaan:**
-- Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean sivustolta
-- Vaikutusmekanismin tietojen täydentäminen (esim. DrugBank)
-- Satunnaistettu tai vertaileva tutkimusnäyttö liposarkoomasta sekä LEADER-tutkimuksen tulosten (teho, turvallisuus) tarkempi arviointi
-- Selvitys myyntiluvan peruuttamisen syistä ja nykyisistä saatavuusväylistä Suomessa
+**Jatkoon tarvitaan:**
+- Satunnaistettu, vertaileva tutkimus liposarkoomassa
+- Liposarkooman alatyyppikohtaiset tehoanalyysit (esim. dedifferentioitunut ja myksoidi)
+- Valmisteyhteenvedon turvallisuustietojen tarkistus ja hoidon riski–hyötyarvio kohdepotilasryhmässä
+- Yhteisvaikutusten arviointi, erityisesti QT-aikaa pidentävien lääkkeiden kanssa
+- Yksityiskohtaiset vaikutusmekanismitiedot
 
----
-
-### Huomio muista ennustetuista käyttöaiheista
-
-Muiden ennusteiden joukossa lenvatinibin munuaissyöpä (sijalla 7) on jo alkuperäinen käyttöaihe, joten kyse on olemassa olevan käytön vahvistuksesta eikä varsinaisesta uudelleenkäytöstä. Sitä tukevat mm. vaiheen 3 CLEAR-tutkimus (NCT02811861) ja satunnaistettu vaiheen 2 tutkimus (PMID 26482279). Tämän käyttöaiheen näyttötaso on L1. Muiden alempana olevien ennusteiden (esim. lastenmunuaissyöpä, angiolipooma) näyttö perustuu pelkkään malliennusteeseen (L5), ja ne suositellaan pidettäväksi odotustilassa (Hold).
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

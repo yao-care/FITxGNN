@@ -3,10 +3,10 @@
   "total_drugs": 444,
   "level_counts": {
     "L1": 8,
-    "L2": 23,
+    "L2": 22,
     "L3": 9,
     "L4": 25,
-    "L5": 367
+    "L5": 368
   },
   "all_drugs": [
     {
@@ -1692,7 +1692,7 @@
     {
       "name": "Omalizumab",
       "slug": "omalizumab",
-      "level": "L2",
+      "level": "L5",
       "indication_count": 9
     },
     {

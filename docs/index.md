@@ -8,18 +8,29 @@ permalink: /
 
 # Lääkkeiden uudelleenkäytön ennusteet — Suomi
 
-This project uses the TxGNN graph neural network to predict potential new therapeutic uses for medicines approved in Finland.
+Tämä projekti käyttää TxGNN-graafineuroverkkoa ennustamaan Suomessa hyväksyttyjen lääkkeiden mahdollisia uusia terapeuttisia käyttöaiheita.
 
-**Disclaimer**: This content is for research purposes only and does not constitute medical advice. All drug repurposing predictions require clinical validation before application.
+**Vastuuvapauslauseke**: Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön, eikä se ole lääketieteellinen neuvo. Kaikki lääkkeiden uudelleensijoittelua koskevat ennusteet edellyttävät kliinistä validointia ennen käyttöä.
 
 ---
 
 <!-- local-home:start（母目錄 .claude/gen_local_home_20261029.py 產生，勿手改）-->
 ## Suomi: sivuston kattavuus
 
-Sivustolla on julkaistu raportit **{{ site.data.drug_stats.total_drugs }}** lääkkeestä, jotka sisältyvät myyntilupatietoihin ([Fimea](https://fimea.fi/), Suomi).
+Sivustolla on julkaistu raportit **{{ site.data.drug_stats.total_drugs }}** lääkkeestä, joilla on EU:n keskitetty myyntilupa ([EMA Medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx), voimassa myös Suomessa).
 
-Raportit näytön tason mukaan: L1 {{ site.data.drug_stats.level_counts.L1 }} · L2 {{ site.data.drug_stats.level_counts.L2 }} · L3 {{ site.data.drug_stats.level_counts.L3 }} · L4 {{ site.data.drug_stats.level_counts.L4 }} · L5 {{ site.data.drug_stats.level_counts.L5 }}
+Aineisto: [EMA Medicines report](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx); se ladataan ja verrataan automaattisesti joka viikko (maanantaisin). Lisätietoja: [Tietolähteet]({{ '/sources/' | relative_url }}).
+
+Raportit näytön tason mukaan:
+
+| Näytön taso | Raportit | Osuus |
+|---|---|---|
+| L1 | {{ site.data.drug_stats.level_counts.L1 }} | {{ site.data.drug_stats.level_counts.L1 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+| L2 | {{ site.data.drug_stats.level_counts.L2 }} | {{ site.data.drug_stats.level_counts.L2 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+| L3 | {{ site.data.drug_stats.level_counts.L3 }} | {{ site.data.drug_stats.level_counts.L3 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+| L4 | {{ site.data.drug_stats.level_counts.L4 }} | {{ site.data.drug_stats.level_counts.L4 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+| L5 | {{ site.data.drug_stats.level_counts.L5 }} | {{ site.data.drug_stats.level_counts.L5 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+{% assign na = site.data.drug_stats.total_drugs | minus: site.data.drug_stats.level_counts.L1 | minus: site.data.drug_stats.level_counts.L2 | minus: site.data.drug_stats.level_counts.L3 | minus: site.data.drug_stats.level_counts.L4 | minus: site.data.drug_stats.level_counts.L5 %}{% if na > 0 %}| N/A | {{ na }} | {{ na | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |{% endif %}
 
 ### Sivuston vahvimman näytön lääkkeet
 
@@ -28,27 +39,17 @@ Raportit näytön tason mukaan: L1 {{ site.data.drug_stats.level_counts.L1 }} ·
 | [Bupropion](/drugs/bupropion/) | L1 |
 | [Busulfan](/drugs/busulfan/) | L1 |
 | [Grazoprevir](/drugs/grazoprevir/) | L1 |
-| [Lanadelumab](/drugs/lanadelumab/) | L1 |
 | [Nepafenac](/drugs/nepafenac/) | L1 |
-| [Oteracil](/drugs/oteracil/) | L1 |
-| [Solriamfetol](/drugs/solriamfetol/) | L1 |
-| [Tegafur](/drugs/tegafur/) | L1 |
-| [Hydrocortisone](/drugs/hydrocortisone/) | L1 |
 | [Peginterferon Alfa-2A](/drugs/peginterferon-alfa-2a/) | L1 |
+| [Clofarabine](/drugs/clofarabine/) | L1 |
+| [Ketorolac](/drugs/ketorolac/) | L1 |
+| [Tacrolimus](/drugs/tacrolimus/) | L1 |
+| [Brentuximab Vedotin](/drugs/brentuximab-vedotin/) | L2 |
+| [Ledipasvir](/drugs/ledipasvir/) | L2 |
 
 <!-- local-home:end -->
 
 ## Kehittäjästä
 
-Tämän alustan on kehittänyt ja sitä ylläpitää **藥提醒科技有限公司** (yao.care, yritysrekisterinumero
-83620786, 12F, No. 220, Sec. 2, Taiwan Blvd., West Dist., Taichung City, Taiwan).
-
-FITxGNN on yhtiön "TxGNN Drug Repurposing" -tuotelinjan Suomen sivusto.
-Sama järjestelmä on otettu käyttöön 30 maassa ja alueella, kukin nimellä `{CC}TxGNN`
-(JpTxGNN, UsTxGNN, DETxGNN ja niin edelleen) osoitteessa `{cc}txgnn.yao.care`.
-Tuotteen yleiskuvaus: <https://www.yao.care/medical/txgnn/>.
-
-Itse TxGNN-mallin on kehittänyt Zitnik Lab Harvard Medical Schoolissa, ja se on julkaistu
-*Nature Medicine* -lehdessä. Tämä alusta on tuotantojärjestelmä, jonka 藥提醒科技有限公司 on rakentanut
-kyseisen mallin päälle. Se kattaa kansallisten lääkerekisteritietojen integroinnin, syväoppimiseen perustuvan ennusteen, josta tietograafiin jo kirjatut käyttöaiheet on suljettu pois, PubMed- ja ClinicalTrials-näytön luokittelun sekä
-SMART on FHIR -integraation potilastietojärjestelmiin.
+Tämän alustan on kehittänyt ja sitä ylläpitää **藥提醒科技有限公司** (yao.care). Yhtiön tiedot, TxGNN-mallin
+tausta ja tuotelinjan kaikki sivustot löytyvät <a href="{{ '/about/' | relative_url }}">Tietoa</a>-sivulta.

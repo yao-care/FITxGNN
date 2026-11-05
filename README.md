@@ -24,9 +24,6 @@ Laakkeiden uudelleenkayton ennusteita EU:n keskitetyn myyntiluvan (EMA) saaneill
 | **Ainutlaatuisia laaekkeitae** | 641 |
 | **Ainutlaatuisia indikaatioita** | 17,041 |
 | **DDI-tiedot** | 160,235 |
-| **DFI-tiedot** | 857 |
-| **DHI-tiedot** | 35 |
-| **DDSI-tiedot** | 8,359 |
 | **FHIR-resurssit** | 466 MK / 2,395 CUD |
 
 ### Naeytoetasojakauma
@@ -220,7 +217,7 @@ PYTHONPATH=src python -m fitxgnn.predict.txgnn_model
 | **Tietograafi** | TxGNN KG | [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IXA7BM) | 17,080 diseases, 7,957 drugs |
 | **Laaeketietokanta** | DrugBank | [DrugBank](https://go.drugbank.com/) | Laakeainekartoitus |
 | **Laakeinteraktiot** | DDInter | [DDInter](https://ddinter2.scbdd.com/) | DDI-parit |
-| **Laakeinteraktiot** | Guide to PHARMACOLOGY | [IUPHAR/BPS](https://www.guidetopharmacology.org/) | Hyvaksytyt laakeinteraktiot |
+| **Laakeinteraktiot** | Guide to PHARMACOLOGY | [IUPHAR/BPS](https://www.guidetopharmacology.org/) | Hyvaksyttyjen laakkeiden laake-kohde-tiedot (ei yhteisvaikutuksia) |
 | **Kliiniset tutkimukset** | ClinicalTrials.gov | [CT.gov API v2](https://clinicaltrials.gov/data-api/api) | Kliinisten tutkimusten rekisteri |
 | **Kliiniset tutkimukset** | WHO ICTRP | [ICTRP API](https://apps.who.int/trialsearch/api/v1/search) | Kansainvaelinen kliinisten tutkimusten alusta |
 | **Kirjallisuus** | PubMed | [NCBI E-utilities](https://eutils.ncbi.nlm.nih.gov/entrez/eutils/) | Laaketieteellinen kirjallisuushaku |

@@ -20,27 +20,28 @@ Laakkeiden uudelleenkayton ennusteita EU:n keskitetyn myyntiluvan (EMA) saaneill
 | Kohde | Maaerae |
 |------|------|
 | **Laaekeraportteja** | 444 |
-| **Ennusteita yhteensae** | 2,539,217 |
-| **Ainutlaatuisia laaekkeitae** | 641 |
+| **Ennusteita yhteensae** | 2,645,422 |
+| **Ainutlaatuisia laaekkeitae** | 673 |
 | **Ainutlaatuisia indikaatioita** | 17,041 |
 | **DDI-tiedot** | 160,235 |
-| **FHIR-resurssit** | 466 MK / 2,395 CUD |
+| **FHIR-resurssit** | 557 MK / 3,018 CUD |
 
 ### Naeytoetasojakauma
 
 | Naeytoetaso | Raporttien maaerae | Kuvaus |
 |---------|-------|------|
-| **L1** | 0 | Useita vaiheen 3 RCT:itae |
-| **L2** | 0 | Yksittaeinen RCT tai useita vaiheen 2 |
-| **L3** | 0 | Havainnointitutkimuksia |
-| **L4** | 0 | Prekliinisiaeresearchaanistisia tutkimuksia |
-| **L5** | 466 | Vain laskennallinen ennuste |
+| **L1** | 8 | Useita vaiheen 3 RCT:itae |
+| **L2** | 22 | Yksittaeinen RCT tai useita vaiheen 2 |
+| **L3** | 9 | Havainnointitutkimuksia |
+| **L4** | 25 | Prekliinisiaeresearchaanistisia tutkimuksia |
+| **L5** | 368 | Vain laskennallinen ennuste |
+| **N/A** | 12 | Vain tunnetut käytöt (ei uusia ennusteita) |
 
 ### Lahteen mukaan
 
 | Lahde | Ennusteita |
 |------|------|
-| DL | 2,536,822 |
+| DL | 2,643,027 |
 | KG + DL | 2,149 |
 | KG | 246 |
 
@@ -49,9 +50,9 @@ Laakkeiden uudelleenkayton ennusteita EU:n keskitetyn myyntiluvan (EMA) saaneill
 | Luottamus | Ennusteita |
 |------|------|
 | very_high | 1,688 |
-| high | 117,105 |
-| medium | 231,216 |
-| low | 2,189,208 |
+| high | 121,959 |
+| medium | 243,715 |
+| low | 2,278,060 |
 
 ---
 
@@ -70,8 +71,8 @@ uv run python scripts/run_kg_prediction.py
 
 | Mittari | Arvo |
 |------|------|
-| EMA (keskitetyt myyntiluvat) Laaekkeitae yhteensae | 1,850 |
-| Kartoitettu DrugBankiin | 1,334 (72.1%) |
+| EMA (keskitetyt myyntiluvat) Laaekkeitae yhteensae | 1,862 |
+| Kartoitettu DrugBankiin | 1,397 (75.0%) |
 | Uudelleenkaeytoeen ehdokkaat | 2,395 |
 
 ### Syvaoppimismenetelma
@@ -83,8 +84,8 @@ PYTHONPATH=src python -m fitxgnn.predict.txgnn_model
 
 | Mittari | Arvo |
 |------|------|
-| DL-ennusteita yhteensae | 1,472,850 |
-| Ainutlaatuisia laaekkeitae | 641 |
+| DL-ennusteita yhteensae | 1,536,027 |
+| Ainutlaatuisia laaekkeitae | 673 |
 | Ainutlaatuisia indikaatioita | 17,041 |
 
 ### Pistetulkinta

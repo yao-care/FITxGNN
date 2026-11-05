@@ -3,13 +3,13 @@ layout: default
 title: Tietosuojaseloste
 nav_order: 95
 permalink: /privacy-policy/
-description: "FITxGNN:n tietosuojaseloste: tämä on staattinen sivusto, joka ei kerää henkilötietoja."
+description: "FITxGNN:n tietosuojaseloste: staattinen sivusto ilman käyttäjätilejä ja lomakkeita; se käyttää Google Analytics 4:n analytiikkaevästeitä käyttötilastoihin."
 ---
 
 # Tietosuojaseloste
 
 <div class="key-takeaway">
-Tämä on staattinen sivusto — rekisteröitymistä ei tarvita eikä tunnistettavia henkilötietoja kerätä.
+Tämä on staattinen sivusto — ei rekisteröitymistä eikä lomakkeita. Sivusto käyttää Google Analytics 4:n analytiikkaevästeitä käyttötilastojen laatimiseen.
 </div>
 
 ---
@@ -17,9 +17,11 @@ Tämä on staattinen sivusto — rekisteröitymistä ei tarvita eikä tunnistett
 ## Mitä keräämme
 
 <p class="key-answer" data-question="Kerääkö FITxGNN henkilötietoja?">
-<strong>Ei.</strong> Tätä sivustoa ylläpidetään GitHub Pagesissa puhtaasti staattisena sivustona.
-Sivustolla ei ole tilijärjestelmää, lomakkeita eikä seurantaevästeitä. Emme kerää nimiä,
-sähköpostiosoitteita, potilastietoja emmekä mitään tunnistettavia henkilötietoja.
+<strong>Vain käyttötilastoja Google Analytics 4:n avulla.</strong> Tätä sivustoa ylläpidetään GitHub Pagesissa puhtaasti
+staattisena sivustona. Sivustolla ei ole tilijärjestelmää eikä lomakkeita, emmekä kerää nimiä, sähköpostiosoitteita
+tai potilastietoja. Sivusto käyttää Google Analytics 4:n analytiikkaevästeitä käyttötilastojen laatimiseen (katsotut
+sivut, viittaava sivusto, vierityssyvyys ja sivulla vietetty aika). Evästeet asetetaan, kun sivu latautuu;
+hakusanoja, lomakkeiden sisältöä tai URL-osoitteen kyselyparametreja ei lähetetä.
 </p>
 
 ---
@@ -38,14 +40,18 @@ käytäntöjensä mukaisesti:
 | rxnav.nlm.nih.gov | SMART-sovellus: sähköisestä potilastietojärjestelmästä luettujen lääkkeiden RxNorm-koodit lähetetään NLM:n RxNav-rajapintaan vaikuttavan aineen nimen hakemiseksi (ei potilaan tunnistetietoja) | [NLM:n verkkokäytännöt](https://www.nlm.nih.gov/web_policies.html) |
 
 Kun käynnistät SMART on FHIR -sovelluksen itse, se pyytää lääkitystietoja
-potilastietojärjestelmästäsi. Nämä tiedot <strong>käsitellään kokonaan selaimessasi</strong>; niitä ei
-koskaan lähetetä tämän sivuston palvelimille eikä niitä tallenneta.
+potilastietojärjestelmästäsi. Potilaan henkilöllisyyttä ja potilastietojärjestelmän tietoja <strong>ei lähetetä tämän
+sivuston palvelimille</strong> (sivusto on staattinen eikä sillä ole taustapalvelinta), eikä sivusto tallenna niitä.
+Lääkenimien täsmäyttämiseksi sovellus lähettää lääkkeiden RxNorm-koodit Yhdysvaltain kansallisen lääketieteellisen
+kirjaston (NLM) RxNav-palveluun; koodit eivät sisällä potilaan tunnistetietoja. Kun pyydät kliinisiä tutkimuksia,
+lääkkeen nimi ja käyttöaihe lähetetään ClinicalTrials.gov-palveluun.
 
 ---
 
 ## Rekisteröidyn oikeudet
 
-Koska tämä sivusto ei kerää henkilötietoja, mitään ei ole tarkastettavana, oikaistavana tai poistettavana.
+Sivustolla ei ole käyttäjätilejä, eikä se tallenna henkilötietoja omille palvelimille (niitä ei ole). Käyttötilastot
+kerää Google Analytics 4; voit estää tai poistaa sen evästeet selaimesi asetuksista.
 Tätä selostetta koskevissa kysymyksissä ota yhteyttä osoitteeseen service@yao.care.
 
 ---

@@ -23,7 +23,7 @@ Laakkeiden uudelleenkayton ennusteita EU:n keskitetyn myyntiluvan (EMA) saaneill
 | **Ennusteita yhteensae** | 2,539,217 |
 | **Ainutlaatuisia laaekkeitae** | 641 |
 | **Ainutlaatuisia indikaatioita** | 17,041 |
-| **DDI-tiedot** | 302,516 |
+| **DDI-tiedot** | 160,235 |
 | **DFI-tiedot** | 857 |
 | **DHI-tiedot** | 35 |
 | **DDSI-tiedot** | 8,359 |
@@ -219,7 +219,7 @@ PYTHONPATH=src python -m fitxgnn.predict.txgnn_model
 | **Laaeketiedot** | EMA | [EMA Medicines Report (EU:n keskitetyt myyntiluvat)](https://www.ema.europa.eu/en/medicines/download-medicine-data) | Finland |
 | **Tietograafi** | TxGNN KG | [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IXA7BM) | 17,080 diseases, 7,957 drugs |
 | **Laaeketietokanta** | DrugBank | [DrugBank](https://go.drugbank.com/) | Laakeainekartoitus |
-| **Laakeinteraktiot** | DDInter 2.0 | [DDInter](https://ddinter2.scbdd.com/) | DDI-parit |
+| **Laakeinteraktiot** | DDInter | [DDInter](https://ddinter2.scbdd.com/) | DDI-parit |
 | **Laakeinteraktiot** | Guide to PHARMACOLOGY | [IUPHAR/BPS](https://www.guidetopharmacology.org/) | Hyvaksytyt laakeinteraktiot |
 | **Kliiniset tutkimukset** | ClinicalTrials.gov | [CT.gov API v2](https://clinicaltrials.gov/data-api/api) | Kliinisten tutkimusten rekisteri |
 | **Kliiniset tutkimukset** | WHO ICTRP | [ICTRP API](https://apps.who.int/trialsearch/api/v1/search) | Kansainvaelinen kliinisten tutkimusten alusta |

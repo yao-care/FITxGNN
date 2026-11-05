@@ -32,8 +32,10 @@ käytäntöjensä mukaisesti:
 | Palvelu | Käyttötarkoitus | Tietosuojaseloste |
 |---------|---------|----------------|
 | GitHub Pages | Sivuston ylläpito | [GitHub Privacy Statement](https://docs.github.com/site-policy/privacy-policies/github-privacy-statement) |
-| cdn.jsdelivr.net | Kaaviokirjasto | Staattisten resurssien CDN |
-| giscus | Kommentit (kun käytössä) | [giscus](https://giscus.app/) |
+| Google Analytics 4 (www.googletagmanager.com, google-analytics.com) | Käyntitilastot (katsotut sivut, viittaava sivu); käyttää analytiikkaevästeitä. Hakusanoja, lomakkeiden sisältöä tai URL-parametreja ei lähetetä. | [Googlen tietosuojakäytäntö](https://policies.google.com/privacy) |
+| cdn.jsdelivr.net | Skriptikirjastot: d3-kaaviot kaikilla sivuilla; Fuse.js nimien vertailuun ja SMART on FHIR -asiakaskirjasto SMART-sivuilla | [jsDelivrin tietosuojakäytäntö](https://www.jsdelivr.com/terms/privacy-policy-jsdelivr-net) |
+| clinicaltrials.gov | Kliinisten tutkimusten haku SMART-sivuilla: vain kun pyydät sitä, lääkkeen ja käyttöaiheen nimet lähetetään ClinicalTrials.gov-rajapintaan | [NLM:n verkkokäytännöt](https://www.nlm.nih.gov/web_policies.html) |
+| rxnav.nlm.nih.gov | SMART-sovellus: sähköisestä potilastietojärjestelmästä luettujen lääkkeiden RxNorm-koodit lähetetään NLM:n RxNav-rajapintaan vaikuttavan aineen nimen hakemiseksi (ei potilaan tunnistetietoja) | [NLM:n verkkokäytännöt](https://www.nlm.nih.gov/web_policies.html) |
 
 Kun käynnistät SMART on FHIR -sovelluksen itse, se pyytää lääkitystietoja
 potilastietojärjestelmästäsi. Nämä tiedot <strong>käsitellään kokonaan selaimessasi</strong>; niitä ei

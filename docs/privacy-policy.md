@@ -32,7 +32,7 @@ käytäntöjensä mukaisesti:
 | Palvelu | Käyttötarkoitus | Tietosuojaseloste |
 |---------|---------|----------------|
 | GitHub Pages | Sivuston ylläpito | [GitHub Privacy Statement](https://docs.github.com/site-policy/privacy-policies/github-privacy-statement) |
-| d3js.org | Kaaviokirjasto | Staattisten resurssien CDN |
+| cdn.jsdelivr.net | Kaaviokirjasto | Staattisten resurssien CDN |
 | giscus | Kommentit (kun käytössä) | [giscus](https://giscus.app/) |
 
 Kun käynnistät SMART on FHIR -sovelluksen itse, se pyytää lääkitystietoja

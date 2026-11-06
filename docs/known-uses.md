@@ -10,7 +10,7 @@ description: "Näiden lääkkeiden kaikki TxGNN-mallin ehdokkaat ovat jo tunnett
 
 Näiden lääkkeiden kaikki TxGNN-mallin ehdokkaat ovat jo tunnettuja käyttöjä (kirjattu tietograafiin tai myyntilupaan), joten uutta ennustettua käyttöaihetta ei ole. Jokaisella sivulla on tunnetut käytöt ja paikallinen markkinatilanne.
 
-{% assign known_drugs = site.drugs | where: "evidence_level", "N/A" | sort: "title" %}
+{% assign known_drugs = site.drugs | where: "evidence_level", "N/A" | where_exp: "d", "d.noindex != true" | sort: "title" %}
 
 **{{ known_drugs.size }} lääkettä**
 

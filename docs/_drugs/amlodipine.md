@@ -6,7 +6,7 @@ nav_order: 31
 evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-28
-description: "Amlodipine: ennustettu uusi käyttöaihe Aivorunkoinfarkti (näytön taso L3). Alkuperäinen käyttöaihe: Verenpainetauti (hypertensio)"
+description: "Amlodipine: ennustettu uusi käyttöaihe Aivorunkoinfarkti (näytön taso L5). Alkuperäinen käyttöaihe: Verenpainetauti (hypertensio)"
 monitor_inn: "AMLODIPINE"
 predicted_indications: ["brain stem infarction", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "cerebral artery occlusion", "Braddock syndrome", "MRI defined brain infarct", "ABri amyloidosis", "intracerebral hemorrhage"]
 ---

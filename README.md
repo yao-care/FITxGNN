@@ -24,7 +24,7 @@ Laakkeiden uudelleenkayton ennusteita EU:n keskitetyn myyntiluvan (EMA) saaneill
 | **Ainutlaatuisia laaekkeitae** | 673 |
 | **Ainutlaatuisia indikaatioita** | 17,041 |
 | **DDI-tiedot** | 160,235 |
-| **FHIR-resurssit** | 557 MK / 3,018 CUD |
+| **FHIR-resurssit** | 550 MK / 3,018 CUD |
 
 ### Naeytoetasojakauma
 

@@ -6,7 +6,7 @@ nav_order: 446
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-28
-description: "Topotecan: ennustettu uusi käyttöaihe Naisen rintasyöpä (näytön taso L3). Alkuperäinen käyttöaihe: Kohdunkaulan syöpä"
+description: "Topotecan: ennustettu uusi käyttöaihe Naisen rintasyöpä (näytön taso L5). Alkuperäinen käyttöaihe: Kohdunkaulan syöpä"
 monitor_inn: "TOPOTECAN"
 predicted_indications: ["female breast carcinoma", "adult germ cell tumor"]
 ---

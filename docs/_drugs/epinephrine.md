@@ -6,7 +6,7 @@ nav_order: 169
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-28
-description: "Epinephrine: ennustettu uusi käyttöaihe Obstruktiivinen keuhkosairaus (näytön taso L1). Alkuperäinen käyttöaihe: Anafylaksia"
+description: "Epinephrine: ennustettu uusi käyttöaihe Obstruktiivinen keuhkosairaus (näytön taso L5). Alkuperäinen käyttöaihe: Anafylaksia"
 monitor_inn: "EPINEPHRINE"
 predicted_indications: ["obstructive lung disease", "Rienhoff syndrome", "respiratory malformation"]
 ---

@@ -98,8 +98,6 @@ Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 |---------|------|------|-----------|
 | EMEA/H/C/000206 | Beromun | – | Sarkooma |
 
-Myyntilupa on peruutettu (valmistaja: Belpharma s.a.). Voimassa olevia myyntilupia ei ole.
-
 ---
 
 ## Sytotoksisuus
@@ -125,14 +123,14 @@ Turvallisuustiedot löytyvät valmisteyhteenvedosta. Lääkeyhteisvaikutuksia ei
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu pelkästään tietämysgraafimalliin: kliinisiä tutkimuksia, julkaisuja tai mekanistista näyttöä ei ole. Lisäksi valmisteen myyntilupa Suomessa on peruutettu eikä turvallisuustietoja ole saatavilla.
+- Ennuste perustuu pelkästään tietämysgraafimalliin: kliinisiä tutkimuksia, julkaisuja tai mekanistista näyttöä ei ole.
 
 **Jatkoon tarvitaan seuraavaa:**
 - Vaikutusmekanismin (MOA) tiedot DrugBankista
 - Fimean valmisteyhteenvedon varoitukset ja vasta-aiheet (estää turvallisuusseulonnan jatkamisen)
 - Prekliininen näyttö tasonermiinin vaikutuksesta urotelikarsinoomaan
 - Arvio annostelureitin soveltuvuudesta (alueellinen perfuusio vs. systeeminen käyttö)
-- Selvitys valmisteen saatavuudesta, koska myyntilupa on peruutettu
+- Selvitys valmisteen saatavuudesta
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

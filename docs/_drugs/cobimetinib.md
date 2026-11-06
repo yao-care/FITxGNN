@@ -123,7 +123,7 @@ Kohtalaisiksi (Moderate) luokiteltuja ovat muun muassa simetidiini, klotrimatsol
 **Päätös: Hold (odota)**
 
 **Perustelu:**
-- Ennuste perustuu yksinomaan TxGNN-malliin (taso L5): aineistossa ei ole yhtään kliinistä tutkimusta tai julkaisua. Lisäksi lääkkeen myyntilupa Suomessa on peruutettu ja aivoihin pääsy on selvittämättä.
+- Ennuste perustuu yksinomaan TxGNN-malliin (taso L5): aineistossa ei ole yhtään kliinistä tutkimusta tai julkaisua. Aivoihin pääsy on selvittämättä.
 
 **Jatkoa varten tarvitaan:**
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (Fimea), jotka estävät turvallisuusseulonnan jatkamisen
@@ -131,7 +131,7 @@ Kohtalaisiksi (Moderate) luokiteltuja ovat muun muassa simetidiini, klotrimatsol
 - Prekliiniset tiedot MEK-eston vaikutuksesta ALS-malleissa
 - Selvitys kobimetinibin veri-aivoesteen läpäisystä
 - Kirjallisuus- ja tutkimusrekisterihaku ALS:n ja MEK-estäjien yhteydestä
-- Arvio lääkkeen saatavuudesta Suomessa, koska myyntilupa on peruutettu
+- Arvio lääkkeen saatavuudesta Suomessa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

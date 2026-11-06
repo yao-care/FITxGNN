@@ -116,7 +116,7 @@ Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu vain graafipohjaiseen malliin (L5). Kliinisiä tutkimuksia ei ole, eikä seritinibin kohteiden (ALK/ROS1/IGF-1R) ja ikenen fibromatoosin välillä ole tunnistettu mekanistista yhteyttä. Lisäksi seritinibin myyntilupa Suomessa on peruutettu.
+- Ennuste perustuu vain graafipohjaiseen malliin (L5). Kliinisiä tutkimuksia ei ole, eikä seritinibin kohteiden (ALK/ROS1/IGF-1R) ja ikenen fibromatoosin välillä ole tunnistettu mekanistista yhteyttä.
 
 **Jatkotoimien edellytyksenä tarvitaan:**
 - Vaikutusmekanismitiedot (MOA), jotta mekanistinen yhteys voidaan arvioida

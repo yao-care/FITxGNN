@@ -89,8 +89,6 @@ Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkim
 | EMEA/H/C/000563 | Aloxi | – | Oksentelu, syöpä |
 | EMEA/H/C/003728 | Akynzeo | – | Oksentelu, kasvaimet, pahoinvointi, syöpä |
 
-Kaikki kolme myyntilupaa on peruutettu.
-
 ---
 
 ## Turvallisuusnäkökohdat
@@ -108,7 +106,7 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole tässä aineistossa saat
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu pelkkään laskennalliseen malliin (korkea pistemäärä), eikä kliinisiä tutkimuksia ole. Ainoa asiaan liittyvä julkaisu osoittaa palonosetronin voivan aiheuttaa migreenityyppistä päänsärkyä, ja lääkkeellä ei ole voimassa olevia myyntilupia Suomessa.
+- Ennuste perustuu pelkkään laskennalliseen malliin (korkea pistemäärä), eikä kliinisiä tutkimuksia ole. Ainoa asiaan liittyvä julkaisu osoittaa palonosetronin voivan aiheuttaa migreenityyppistä päänsärkyä.
 - Muut ennustetut käyttöaiheet (migreeni aivorunko-oireilla, atrophoderma vermiculata, ulerythema ophryogenes) ovat joko samaa migreeniryhmää ilman omaa näyttöä tai mekanistisesti perusteettomia, ja ne voivat heijastaa TxGNN-mallin (syväoppiminen) oppimia samankaltaisuuksia sairauksien välillä, eivät biologista näyttöä.
 
 **Jatkotoimet:**
@@ -116,7 +114,6 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole tässä aineistossa saat
 - Yksityiskohtaisen vaikutusmekanismin tiedot (DrugBank)
 - Systemaattinen kirjallisuushaku palonosetronin tai muiden 5-HT3-salpaajien vaikutuksesta migreeniin (prekliiniset ja kliiniset tutkimukset)
 - QT-riskin ja yhteisvaikutusten (erityisesti triptaanit) arviointi mahdollista migreenikäyttöä varten
-- Selvitys myyntilupien peruuttamisen syistä ja valmisteen saatavuudesta Suomessa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

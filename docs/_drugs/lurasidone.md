@@ -100,7 +100,7 @@ Tärkeä rajoitus: CANMAT/ISBD-ohjeistot ja meta-analyysit tukevat lurasidonia p
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ainoa maniaa koskeva tutkimus peruttiin ilman osallistujia, ja kirjallisuus tukee lurasidonia lähinnä masennusvaiheessa, joten näyttö maniasta on epäsuoraa. Lisäksi lääkkeellä ei ole voimassa olevaa myyntilupaa Suomessa.
+- Ainoa maniaa koskeva tutkimus peruttiin ilman osallistujia, ja kirjallisuus tukee lurasidonia lähinnä masennusvaiheessa, joten näyttö maniasta on epäsuoraa.
 
 **Etenemiseen tarvitaan:**
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (Fimea), jotta turvallisuusarviointi voidaan tehdä

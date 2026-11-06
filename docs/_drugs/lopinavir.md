@@ -108,7 +108,7 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut saatavilla, joten ni
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- SIV on HIV:n eläinmalli, joten ennuste on pääosin päällekkäinen alkuperäisen käyttöaiheen kanssa eikä tuo uutta ihmisen hoitomahdollisuutta. Näyttö on vain prekliinistä (L4), kliinisiä tutkimuksia ei ole, ja lääkkeen myyntiluvat Suomessa on peruutettu.
+- SIV on HIV:n eläinmalli, joten ennuste on pääosin päällekkäinen alkuperäisen käyttöaiheen kanssa eikä tuo uutta ihmisen hoitomahdollisuutta. Näyttö on vain prekliinistä (L4), kliinisiä tutkimuksia ei ole.
 
 **Jatkoa varten tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean sivuilta (estää turvallisuusseulonnan jatkamisen).

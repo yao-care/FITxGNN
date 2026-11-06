@@ -104,13 +104,13 @@ Muita turvallisuustietoja, kuten varoituksia ja vasta-aiheita, on tarkasteltava 
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu vain TxGNN-malliin (L5). Kliinisiä tutkimuksia ei ole, kirjallisuus ei käsittele keuhkoverenpainetautia, eikä mekanistista yhteyttä voida arvioida. Lisäksi Suomessa on vain peruutettu myyntilupa.
+- Ennuste perustuu vain TxGNN-malliin (L5). Kliinisiä tutkimuksia ei ole, kirjallisuus ei käsittele keuhkoverenpainetautia, eikä mekanistista yhteyttä voida arvioida.
 
 **Jatkaminen edellyttää seuraavaa:**
 - Vaikutusmekanismin (MOA) tiedot, jotta RET-estämisen ja keuhkoverisuonten uudelleenmuovautumisen välinen yhteys voidaan arvioida
 - Prekliininen tai mekanistinen näyttö selpercatinibin vaikutuksesta keuhkoverenpainetaudissa
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (turvallisuusarvioinnin estävä tietopuute)
-- Suomen markkinatilanteen ja saatavuuden selvittäminen, koska myyntilupa on peruutettu
+- Suomen markkinatilanteen ja saatavuuden selvittäminen
 - Haittatapahtumien, erityisesti verenpaineeseen liittyvien, arviointi osana turvallisuutta
 ## Vastuuvapauslauseke
 

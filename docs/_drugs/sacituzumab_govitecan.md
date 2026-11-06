@@ -117,7 +117,7 @@ Kohtalaisiksi (Moderate) luokiteltuja ovat mm. alefaseptin, alemtutsumabin, anak
 
 **Perustelut:**
 - Ennuste perustuu vain mallin pistemäärään (näytön taso L5). Kliinisiä tutkimuksia tai julkaisuja ei ole, eikä mekanistista yhteyttä ole osoitettu.
-- Lääke on sytotoksinen, ja riski-hyötysuhde ei-maligniin tilaan on epäedullinen. Lisäksi Suomen myyntilupa on peruutettu.
+- Lääke on sytotoksinen, ja riski-hyötysuhde ei-maligniin tilaan on epäedullinen.
 
 **Jatkoa varten tarvitaan:**
 - Tarkka vaikutusmekanismitieto (MOA) ja arvio sen yhteydestä luun aineenvaihduntaan

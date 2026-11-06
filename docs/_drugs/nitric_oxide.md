@@ -112,8 +112,6 @@ Aineistossa on myös muita ennusteita, joiden näyttö on parempi kuin ensisijai
 |---------|------|------|-----------|
 | EMEA/H/C/000337 | INOmax (Linde Healthcare AB) | – | Keuhkoverenpainetauti; hengitysvajaus |
 
-Tämä myyntilupa on peruutettu, eikä voimassa olevia lupia ole.
-
 ---
 
 ## Turvallisuusnäkökohdat
@@ -130,7 +128,7 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ollut saatavilla tätä rapo
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu vain TxGNN-mallin pisteisiin. Kliinisiä tutkimuksia ei ole, eikä kirjallisuus testaa typpioksidia hoitona. Uskottavaa vaikutusmekanismia ei ole osoitettu, ja myyntilupakin on peruutettu.
+- Ennuste perustuu vain TxGNN-mallin pisteisiin. Kliinisiä tutkimuksia ei ole, eikä kirjallisuus testaa typpioksidia hoitona. Uskottavaa vaikutusmekanismia ei ole osoitettu.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Vaikutusmekanismitietoja ja tutkimushypoteesin siitä, miten typpioksidi voisi vaikuttaa hampaiston tai igenkudoksen kehityshäiriöön

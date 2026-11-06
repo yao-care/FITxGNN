@@ -82,8 +82,6 @@ Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 |---------|------|------|-----------|
 | EMEA/H/C/000379 | Cancidas (aiemmin Caspofungin MSD) | – | Kandidiaasi; aspergilloosi |
 
-Tämä myyntilupa on tilassa "peruutettu". Voimassa olevia myyntilupia ei ole.
-
 ---
 
 ## Turvallisuusnäkökohdat
@@ -104,7 +102,7 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla, joten niihin
 
 **Perustelut:**
 - Ennuste perustuu vain tietämysgraafimalliin (L5). Kliinistä tai kirjallisuusnäyttöä ei ole, eikä uskottavaa mekanistista yhteyttä kaspofungiinin vaikutuksen ja gastriinin säätelyn välillä ole osoitettu.
-- Lääkkeellä ei ole voimassa olevaa myyntilupaa Suomessa, ja valmisteyhteenvedon turvallisuustiedot puuttuvat.
+- Valmisteyhteenvedon turvallisuustiedot puuttuvat.
 
 **Eteenpäin siirtymiseksi tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankinta ja jäsentäminen Fimean sivustolta (estävä tietoaukko)

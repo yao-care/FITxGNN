@@ -85,7 +85,7 @@ Tällä hetkellä ei ole tendiniittiin liittyviä rekisteröityjä kliinisiä tu
 
 ## Markkinatiedot Suomessa
 
-Kaikki 6 myyntilupaa ovat keskitettyjä EU-myyntilupia, ja ne on peruutettu. Taulukossa on 5 niistä.
+Taulukossa on 5 niistä.
 
 | Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Myyntilupaan hyväksytty käyttöaihe | Tila |
 |---------|------|------|-----------|------|
@@ -124,12 +124,12 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet tulee tarkistaa erikseen.
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Tendiniittiennuste perustuu vain TxGNN-malliin. Kliinisiä tutkimuksia ei ole, eikä kirjallisuus osoita pregabaliinin hoitavan tendiniittiä itseään. Lisäksi kaikki Suomen myyntiluvat on peruutettu.
+- Tendiniittiennuste perustuu vain TxGNN-malliin. Kliinisiä tutkimuksia ei ole, eikä kirjallisuus osoita pregabaliinin hoitavan tendiniittiä itseään.
 
 **Eteenpäin siirtymiseksi tarvitaan:**
 - tendiniittiä (esim. tendinopatia, kiertäjäkalvosin- tai akillesjänneperäinen kipu) suoraan tutkivia kontrolloituja tutkimuksia
 - valmisteyhteenvedon varoitusten ja vasta-aiheiden selvitys sekä yksityiskohtaisemmat vaikutusmekanismitiedot
-- selvitys pregabaliinivalmisteiden nykyisestä saatavuudesta Suomessa, koska keskitetyt myyntiluvat on peruutettu
+- selvitys pregabaliinivalmisteiden nykyisestä saatavuudesta Suomessa
 - turvallisuuden seurantasuunnitelma erityisesti munuaisten vajaatoimintaa sairastaville sekä opioidien tai muiden keskushermostoa lamaavien lääkkeiden käyttäjille
 
 **Huomio muista ennusteista:** Samasta aineistosta **migreeni** (sijalla 5, TxGNN-pisteet 0,9947) on selvästi paremmin tuettu kuin tendiniitti. Siitä löytyy mm. lasten satunnaistettuja kokeita (pregabaliini vs. propranololi ja natriumvalproaatti) sekä prekliinistä näyttöä kortikaalisen leviävän depression estosta. Aikuisten vaiheen 3 tutkimus (NCT00447369) kuitenkin peruttiin ilman tuloksia. Migreeniä kannattaa tarkastella erillisenä tutkimuskysymyksenä.

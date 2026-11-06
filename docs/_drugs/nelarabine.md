@@ -107,7 +107,7 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetiedot on vielä hankittava.
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu vain korkeaan TxGNN-pisteeseen (näytön taso L5), eikä tukevia tutkimuksia tai julkaisuja ole. Nelarabiinin tunnettu neurotoksisuus, myös demyelinaatio, on vakava turvallisuushuoli MS-taudissa. Lisäksi Suomessa on vain peruutettu myyntilupa ja yhteisvaikutuksia on runsaasti.
+- Ennuste perustuu vain korkeaan TxGNN-pisteeseen (näytön taso L5), eikä tukevia tutkimuksia tai julkaisuja ole. Nelarabiinin tunnettu neurotoksisuus, myös demyelinaatio, on vakava turvallisuushuoli MS-taudissa. Yhteisvaikutuksia on runsaasti.
 
 **Eteenpäin siirtymiseksi tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden haku ja analysointi (Fimea)

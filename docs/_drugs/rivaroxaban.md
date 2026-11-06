@@ -94,8 +94,6 @@ Yksikään julkaisu ei tutki rivaroksabaanin tehoa nivelreuman hoidossa.
 | EMEA/H/C/005279 | Rivaroxaban Accord | – | Akuutti sepelvaltimotautioireyhtymä, sepelvaltimotauti, ääreisvaltimotauti, laskimotromboembolia, aivohalvaus, eteisvärinä, keuhkoembolia |
 | EMEA/H/C/000944 | Xarelto | – | Nivelen tekonivelleikkaus, laskimotromboembolia |
 
-Kaikki neljä myyntilupaa on peruutettu.
-
 ---
 
 ## Turvallisuusnäkökohdat
@@ -119,14 +117,13 @@ Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 **Perustelut:**
 - TxGNN-pistemäärä on erittäin korkea (0,9957), mutta näyttö on tasoa L5: kliinisiä tutkimuksia ei ole, eikä kirjallisuus tue rivaroksabaanin käyttöä nivelreuman hoidossa. Mahdollinen hyöty rajoittuisi epäsuoraan tromboosiriskin hallintaan.
-- Lisäksi kaikki Suomen myyntiluvat on peruutettu, ja turvallisuustietojen puute estää etenemisen turvallisuusseulontaan.
+- Turvallisuustietojen puute estää etenemisen turvallisuusseulontaan.
 
 **Jatkaminen edellyttää seuraavaa:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean sivustolta (estävä tietoaukko)
 - Vaikutusmekanismin tiedot (esim. DrugBankista)
 - Systemaattinen kirjallisuushaku rivaroksabaanin käytöstä nivelreumapotilailla, erityisesti tromboosiprofylaksiassa
 - Samankaltaisuusarvio alkuperäisen ja ennustetun käyttöaiheen välillä sekä antoreittien yhteensopivuuden arviointi
-- Markkinatilanteen selvittäminen, koska voimassa olevia myyntilupia ei ole
 
 ---
 

@@ -117,13 +117,12 @@ Muista turvallisuustiedoista (varoitukset, vasta-aiheet) katso valmisteyhteenvet
 **Päätös: Hold**
 
 **Perustelut:**
-- Rintasyöpää koskevaa vaiheen 2 näyttöä on (mm. satunnaistettu tutkimus ja BRCA-mutaatiotutkimus), ja mekanistinen perusta on uskottava. Ainoa rekisteröity kliininen tutkimus on kuitenkin QT-turvallisuustutkimus, eikä vaiheen 3 tehonäyttöä ole. Lisäksi molemmat Suomen myyntiluvat on peruutettu, eikä valmisteyhteenvedon turvallisuustietoja ole saatavilla.
+- Rintasyöpää koskevaa vaiheen 2 näyttöä on (mm. satunnaistettu tutkimus ja BRCA-mutaatiotutkimus), ja mekanistinen perusta on uskottava. Ainoa rekisteröity kliininen tutkimus on kuitenkin QT-turvallisuustutkimus, eikä vaiheen 3 tehonäyttöä ole.
 
 **Jatkamiseksi tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimealta
 - Vaikutusmekanismitietojen täydentäminen (DrugBank)
 - Rintasyöpää koskevien vaiheen 2 tutkimusten tulosten arviointi tarkemmin (teho, osallistujaryhmät, haittavaikutukset), erityisesti BRCA-mutaatiota kantavien ja kolmoisnegatiivisten potilaiden osalta
-- Selvitys myyntiluvan peruuttamisen syistä ja valmisteen saatavuudesta Suomessa
 - Suunnitelma myelosuppression ja maksatoksisuuden seurannasta sekä yhteisvaikutusten (erityisesti klaritromysiini) hallinnasta
 ## Vastuuvapauslauseke
 

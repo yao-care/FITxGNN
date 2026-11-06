@@ -86,8 +86,6 @@ Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 |---------|------|------|-----------|
 | EMEA/H/C/000805 | Ranexa (aiemmin Latixa) | – | Angina pectoris |
 
-Myyntilupa on tilaltaan peruutettu, eikä voimassa olevia myyntilupia ole.
-
 ---
 
 ## Turvallisuusnäkökohdat
@@ -104,7 +102,7 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole tässä aineistossa saat
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ainoa tuki on korkea TxGNN-pistemäärä (0,9965), joka on laskennallinen ennuste eikä kliinistä näyttöä. Kliinisiä tutkimuksia ja kirjallisuutta ei ole, mekanistinen yhteys on osoittamatta, eikä lääkkeellä ole voimassa olevaa myyntilupaa Suomessa.
+- Ainoa tuki on korkea TxGNN-pistemäärä (0,9965), joka on laskennallinen ennuste eikä kliinistä näyttöä.
 
 **Etenemiseksi tarvitaan:**
 - Vaikutusmekanismin (MOA) tiedot ja mekanistisen yhteyden analyysi
@@ -112,7 +110,7 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole tässä aineistossa saat
 - Prekliiniset tutkimukset (esim. AVPR2/akvaporiini-2-reitin mallit) hypoteesin testaamiseksi
 - Tietämysgraafin ennusteen taustalla olevien yhteyksien selvitys
 - Arvio QT-aikaan, munuaisten ja maksan toimintaan liittyvistä riskeistä sekä merkittävistä yhteisvaikutuksista
-- Selvitys lääkkeen saatavuudesta Suomessa, koska myyntilupa on peruutettu
+- Selvitys lääkkeen saatavuudesta Suomessa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

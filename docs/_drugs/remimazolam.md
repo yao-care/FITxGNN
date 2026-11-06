@@ -85,7 +85,7 @@ Tällä hetkellä ei ole aiheeseen liittyvää kirjallisuutta.
 |---------|------|------|-----------|
 | EMEA/H/C/005246 | Byfavo | – | Tajuissaan tehtävä sedaatio (tila: peruutettu) |
 
-Valmistaja: Paion Pharma GmbH. Voimassa olevia myyntilupia ei ole.
+Valmistaja: Paion Pharma GmbH.
 
 ---
 
@@ -104,7 +104,7 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet tulee tarkistaa valmisteyhteenve
 **Päätös: Hold (odota)**
 
 **Perustelu:**
-- Ennuste on mekanistisesti uskottava, mutta sille ei ole kliinistä tai kirjallisuusnäyttöä (L5). Lisäksi lääkkeellä on vain peruutettu myyntilupa Suomessa, se on tarkoitettu vain suonensisäiseen käyttöön ja sen vaikutus on hyvin lyhyt, mikä rajoittaa soveltuvuutta unettomuuteen.
+- Ennuste on mekanistisesti uskottava, mutta sille ei ole kliinistä tai kirjallisuusnäyttöä (L5). Se on tarkoitettu vain suonensisäiseen käyttöön ja sen vaikutus on hyvin lyhyt, mikä rajoittaa soveltuvuutta unettomuuteen.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivustolta (estävä tietoaukko turvallisuusseulonnalle)

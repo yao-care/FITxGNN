@@ -86,8 +86,6 @@ Tähän käyttöaiheeseen ei ole tällä hetkellä rekisteröityjä kliinisiä t
 |---------|------|------|-----------|
 | EMEA/H/C/004804 | Piqray | – | Rintasyöpä (tila: peruutettu) |
 
-Voimassa olevia myyntilupia ei ole.
-
 ---
 
 ## Sytotoksisuus
@@ -122,14 +120,13 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole tässä aineistossa saat
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu vain TxGNN-mallin pistemäärään (L5), eikä kliinisiä tutkimuksia tai tehoa tukevaa kirjallisuutta ole. Ainoa kirjallisuushavainto viittaa mahdolliseen keuhkohaittaan, ja Suomessa ei ole voimassa olevaa myyntilupaa.
+- Ennuste perustuu vain TxGNN-mallin pistemäärään (L5), eikä kliinisiä tutkimuksia tai tehoa tukevaa kirjallisuutta ole. Ainoa kirjallisuushavainto viittaa mahdolliseen keuhkohaittaan.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivuilta (nykyinen estävä tietoaukko turvallisuusarvioinnille)
 - Vaikutusmekanismitietojen (MOA) täydentämistä DrugBankista
 - Prekliinistä näyttöä PI3K-alfa-estäjistä keuhkoverenpainetaudin eläinmalleissa
 - Keuhkohaittojen (mm. interstitiaalinen keuhkosairaus) riskin arviointia keuhkoverenpainetautipotilailla
-- Myyntiluvan peruutuksen syiden ja nykyisen saatavuuden selvittämistä
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

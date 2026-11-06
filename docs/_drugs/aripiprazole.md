@@ -108,8 +108,6 @@ Huomautus: aineistossa oleva meta-analyysi PMID 38669232 on vedetty pois (retrac
 
 ## Suomen markkinatiedot
 
-Aripipratsolin myyntiluvat ovat kaikki peruutettuja. Voimassa olevia myyntilupia ei ole.
-
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
 | EMEA/H/C/000471 | Abilify | – | Skitsofrenia; kaksisuuntainen mielialahäiriö |
@@ -117,8 +115,6 @@ Aripipratsolin myyntiluvat ovat kaikki peruutettuja. Voimassa olevia myyntilupia
 | EMEA/H/C/003803 | Aripiprazole Mylan Pharma | – | Skitsofrenia; kaksisuuntainen mielialahäiriö |
 | EMEA/H/C/003899 | Aripiprazole Zentiva | – | Skitsofrenia; kaksisuuntainen mielialahäiriö |
 | EMEA/H/C/004008 | Aripiprazole Sandoz | – | Skitsofrenia; kaksisuuntainen mielialahäiriö |
-
-Lisäksi yksi peruutettu lupa: Aripiprazole Accord (EMEA/H/C/004021).
 
 ---
 
@@ -158,7 +154,7 @@ Muille kahdeksalle ennusteelle (mm. Phelan-McDermidin oireyhtymä, Aspergerin oi
 **Etenemiseksi tarvitaan:**
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (Fimean sivustolta); tämä puute estää turvallisuusseulonnan jatkamisen
 - Yksityiskohtainen vaikutusmekanismitieto (DrugBank)
-- Selvitys siitä, miten Suomen myyntilupatilanne (kaikki luvat peruutettu) vaikuttaa käytännön saatavuuteen
+- Selvitys siitä, miten Suomen myyntilupatilanne vaikuttaa käytännön saatavuuteen
 - Seurantasuunnitelma akatisialle, metabolisille haitoille ja impulssikontrollin häiriöille sekä diabetes- ja sydän- ja verisuoniriskipotilaille
 - Trikotillomanian osalta vaiheen 2 tutkimuksen (NCT05545891) tulokset ennen jatkoarviointia
 ## Vastuuvapauslauseke

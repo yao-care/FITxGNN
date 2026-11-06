@@ -109,7 +109,7 @@ Näiden lääkkeiden käyttäjillä verensokeritason seuranta on tärkeää.
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu pelkästään TxGNN-mallin pisteytykseen (L5), eikä tueksi ole kliinisiä tutkimuksia, kirjallisuutta eikä uskottavaa mekanismia. Lisäksi Suomen myyntilupa on peruutettu.
+- Ennuste perustuu pelkästään TxGNN-mallin pisteytykseen (L5), eikä tueksi ole kliinisiä tutkimuksia, kirjallisuutta eikä uskottavaa mekanismia.
 
 **Eteneminen edellyttää seuraavaa:**
 - Vaikutusmekanismin (MOA) tietojen täydentäminen

@@ -108,7 +108,6 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut tämän raportin ain
 
 **Perustelut:**
 - Ennuste perustuu lähes pelkästään malliin: kliinisiä tutkimuksia ei ole, eikä ainoa julkaisu tue tehoa. Mekanistista yhteyttä sairauden patologiaan ei ole, ja lääkkeen porfyriaturvallisuus on epäselvä.
-- Lisäksi kaikki neljä suomalaista myyntilupaa on peruutettu.
 
 **Jatkoa varten tarvitaan:**
 - Valmisteyhteenvedon varoitus- ja vasta-aihetiedot (Fimea)

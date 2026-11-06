@@ -109,7 +109,6 @@ Muilta osin turvallisuustietoja varten tulee tutustua valmisteyhteenvetoon.
 
 **Perustelut:**
 - Ennuste perustuu pelkästään TxGNN-mallin pistemäärään, eikä sen tueksi ole kliinisiä tutkimuksia, kirjallisuutta tai uskottavaa mekanistista yhteyttä. IGF-1R:n esto voisi jopa toimia Turnerin oireyhtymän kasvua tukevaa hoitoa vastaan.
-- Lisäksi lääkkeen myyntilupa Suomessa on peruutettu.
 
 **Jatkoa varten tarvitaan:**
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (Fimean sivustolta), koska turvallisuusarviointia ei voida ilman niitä viedä eteenpäin

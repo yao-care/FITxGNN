@@ -89,8 +89,6 @@ Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 |---------|------|------|-----------|
 | EMEA/H/C/004232 | Poteligeo | – | Sézaryn oireyhtymä; mycosis fungoides |
 
-Myyntilupa on tilassa "peruutettu", eikä voimassa olevia myyntilupia ole.
-
 ## Sytotoksisuus
 
 | Kohta | Sisältö |
@@ -112,13 +110,12 @@ Varoitukset ja vasta-aiheet: katso valmisteyhteenveto.
 **Päätös: Hold**
 
 **Perustelut:**
-- Ennuste perustuu pelkkään TxGNN-malliin (L5), eikä yhtään kliinistä tutkimusta tai julkaisua ole. Lisäksi Suomen myyntilupa on peruutettu ja valmisteyhteenvedon turvallisuustiedot puuttuvat.
+- Ennuste perustuu pelkkään TxGNN-malliin (L5), eikä yhtään kliinistä tutkimusta tai julkaisua ole. Valmisteyhteenvedon turvallisuustiedot puuttuvat.
 
 **Etenemiseksi tarvitaan:**
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet Fimean sivustolta (estää turvallisuusseulonnan)
 - Yksityiskohtaiset vaikutusmekanismitiedot (DrugBank)
 - Prekliininen näyttö CCR4:n roolista urotelikarsinoomassa, tai ensisijaisesti HHV-8-liitännäisessä kasvaimessa
-- Selvitys peruutetun myyntiluvan syystä ja valmisteen saatavuudesta Suomessa
 - Alkuperäisen ja ennustetun käyttöaiheen samankaltaisuusarvio sekä antoreittien yhteensopivuuden arviointi
 ## Vastuuvapauslauseke
 

@@ -118,12 +118,11 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut tämän raportin ain
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Parhaiten pisteytetyt ennusteet ovat jo hyväksytyn sydäninfarktiaiheen alatyyppejä, eikä niille ole omaa kliinistä näyttöä (L5–L4). Ainoa kohtalaisesti tuettu suunta, koronaarinen ahtauma (L3, tutkimuskysymys), perustuu pieniin, heterogeenisiin ja pääosin havainnoiviin tutkimuksiin. Lisäksi ainoa Suomen myyntilupa on peruutettu, ja turvallisuustiedot puuttuvat.
+- Parhaiten pisteytetyt ennusteet ovat jo hyväksytyn sydäninfarktiaiheen alatyyppejä, eikä niille ole omaa kliinistä näyttöä (L5–L4). Ainoa kohtalaisesti tuettu suunta, koronaarinen ahtauma (L3, tutkimuskysymys), perustuu pieniin, heterogeenisiin ja pääosin havainnoiviin tutkimuksiin.
 
 **Etenemiseksi tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankinta ja jäsentäminen (estävä tietopuute)
 - Vaikutusmekanismitietojen täydentäminen (esim. DrugBank)
-- Tarkennus myyntiluvan tilasta Suomessa (peruutuksen syy ja mahdolliset muut tenekteplaasivalmisteet)
 - Sepelvaltimonsisäisen annostelun osalta satunnaistettuja, riittävän suuria tutkimuksia sekä reittiyhteensopivuuden arviointi
 - Verenvuotoriskin hallintasuunnitelma yhteiskäytössä antikoagulanttien ja verihiutaleiden estäjien kanssa
 - Selvitys siitä, onko sydäninfarktin alatyyppien erottelu ylipäätään uusi käyttöaihe vai jo katettu nykyisellä käyttöaiheella

@@ -69,8 +69,6 @@ Tunnettua mekanistista yhteyttä lääkkeen ja sairauden välillä ei ole. Korke
 | EMEA/H/C/002785 | Corbilta (aiemmin Levodopa/Carbidopa/Entacapone Sandoz) | – | Parkinsonin tauti |
 | EMEA/H/C/002441 | Levodopa/Carbidopa/Entacapone Orion | – | Parkinsonin tauti |
 
-Kaikki neljä myyntilupaa on peruutettu.
-
 ## Turvallisuusnäkökohdat
 
 - **Tietämysgraafiin perustuvat vasta-aiheet** (PrimeKG-tietämysgraafin lääke–sairaus-yhteydet, ei valmisteyhteenvedon teksti): muun muassa epilepsia, psykoottiset häiriöt, ahdaskulmaglaukooma, sydäninfarkti ja sydämen rytmi- tai johtumishäiriöt, maksa- ja munuaissairaus, mahahaava, diabetes ja diabeettinen ketoasidoosi, melanooma, ortostaattinen hypotensio sekä lääkkeen aiheuttama dyskinesia. Epilepsia on erityisen merkityksellinen, koska Rasmussenin enkefaliitin keskeinen oire on kohtauksellisuus.
@@ -83,7 +81,7 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat tällä hetkellä aine
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu vain mallin pistemäärään: kliinisiä tutkimuksia ja kirjallisuutta ei ole, eikä tunnettua mekanistista yhteyttä ole. Lisäksi dopaminergiset lääkkeet voivat heikentää kouristuskynnystä, ja kaikki Suomen myyntiluvat on peruutettu.
+- Ennuste perustuu vain mallin pistemäärään: kliinisiä tutkimuksia ja kirjallisuutta ei ole, eikä tunnettua mekanistista yhteyttä ole. Lisäksi dopaminergiset lääkkeet voivat heikentää kouristuskynnystä.
 
 **Jatkoa varten tarvitaan:**
 - Levodopan vaikutusmekanismitiedot (esim. DrugBankista)

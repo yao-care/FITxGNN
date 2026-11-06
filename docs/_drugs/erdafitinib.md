@@ -132,7 +132,7 @@ Muista turvallisuustiedoista katso valmisteyhteenveto.
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Kaikki ennusteet perustuvat vain TxGNN-malliin (taso L5) ilman kliinisiä tutkimuksia tai suoraa kirjallisuutta. Ainoa tieto Suomen myyntiluvasta on peruutettu, ja valmisteyhteenvedon turvallisuustiedot puuttuvat.
+- Kaikki ennusteet perustuvat vain TxGNN-malliin (taso L5) ilman kliinisiä tutkimuksia tai suoraa kirjallisuutta. Valmisteyhteenvedon turvallisuustiedot puuttuvat.
 
 **Jatkotoimien edellytykset:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimeasta

@@ -112,7 +112,7 @@ Alla on keskeisimmät hepatiitti B:tä koskevat tutkimukset. Mukana on myös rek
 |---------|------|------|-----------|
 | EMEA/H/C/000395 | Pegasys | – | Krooninen hepatiitti C, krooninen hepatiitti B, aito punasolutauti, essentiaalinen trombosytemia |
 
-Myyntilupa on tilassa "peruutettu", eikä voimassa olevia myyntilupia ole. Valmisteen saatavuus Suomessa on siksi selvitettävä erikseen.
+Valmisteen saatavuus Suomessa on siksi selvitettävä erikseen.
 
 ---
 
@@ -156,7 +156,7 @@ Muut ennustetut käyttöaiheet ovat heikosti perusteltuja:
 **Päätös: Proceed with Guardrails (eteneminen suojatoimin)**
 
 **Perustelut:**
-- Krooninen hepatiitti B on jo lääkkeen alkuperäinen käyttöaihe, ja tuki on laaja: useita vaiheen 3–4 tutkimuksia ja satunnaistettuja tutkimuksia sekä metaanalyysejä. Valmisteen myyntilupa on kuitenkin Suomessa peruutettu, joten saatavuus on rajoite.
+- Krooninen hepatiitti B on jo lääkkeen alkuperäinen käyttöaihe, ja tuki on laaja: useita vaiheen 3–4 tutkimuksia ja satunnaistettuja tutkimuksia sekä metaanalyysejä.
 
 **Eteneminen edellyttää seuraavaa:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean sivuilta (estävä tietoaukko)

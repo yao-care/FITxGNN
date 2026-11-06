@@ -139,7 +139,6 @@ Muuten turvallisuustiedot ovat valmisteyhteenvedosta: tämän raportin aineistos
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet Fimean tai EMA:n lähteistä (ilman näitä turvallisuusarviointia ei voi viedä eteenpäin)
 - Yksityiskohtaiset vaikutusmekanismitiedot (esim. DrugBankista)
 - Prekliininen tai mekanistinen näyttö pseudo-von Willebrandin taudista, ainoasta ennusteesta, jolla on teoreettinen perustelu, sekä vuotoriskin arviointi
-- Myyntiluvan tilan selvitys: Suomessa on vain peruutettu lupa, mikä tulee täsmentää alueellisen sääntelytilanteen kanssa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

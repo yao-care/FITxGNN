@@ -113,7 +113,7 @@ Koska lääkkeellä on antikoagulanttivaikutus ja tietämysgraafi liittää sen 
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu pelkästään TxGNN-mallin korkeaan pistemäärään (näytön taso L5), eikä kliinistä tai kirjallisuusnäyttöä ole. Lääkkeen antikoagulanttivaikutus voi lisäksi pahentaa ennustettuja verenvuotohäiriöitä, ja Suomessa ainoa myyntilupa on peruutettu.
+- Ennuste perustuu pelkästään TxGNN-mallin korkeaan pistemäärään (näytön taso L5), eikä kliinistä tai kirjallisuusnäyttöä ole. Lääkkeen antikoagulanttivaikutus voi lisäksi pahentaa ennustettuja verenvuotohäiriöitä.
 
 **Jatkotoimien edellytyksenä on:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean sivustolta, sillä turvallisuusarviointia ei voida ilman niitä viedä eteenpäin

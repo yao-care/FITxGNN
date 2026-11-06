@@ -127,14 +127,13 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat aineistosta, joten tar
 **Päätös: Hold**
 
 **Perustelut:**
-- Ewingin sarkoomaa tukee prekliininen SRC-mekanismi, mutta kliininen teho yksittäislääkkeenä on jäänyt heikoksi: ainoa merkittävä tutkimus oli ei-spesifi sarkoomatutkimus ja Ewing-spesifinen lastentutkimus keskeytettiin 7 potilaalla. Lisäksi Suomessa ei ole voimassa olevia myyntilupia. Ennuste kannattaa käsitellä tutkimuskysymyksenä.
+- Ewingin sarkoomaa tukee prekliininen SRC-mekanismi, mutta kliininen teho yksittäislääkkeenä on jäänyt heikoksi: ainoa merkittävä tutkimus oli ei-spesifi sarkoomatutkimus ja Ewing-spesifinen lastentutkimus keskeytettiin 7 potilaalla. Ennuste kannattaa käsitellä tutkimuskysymyksenä.
 - Muista ennusteista myeloidinen leukemia on tuettu parhaiten (L1), mutta valtaosa näytöstä koskee jo hyväksyttyä KML-käyttöaihetta, joten kyse ei ole varsinaisesta uudelleenkäytöstä. Todellista uutta suuntaa edustaa vaiheen 3 tutkimus ydinsitojatekijä-AML:ssä (PMID 41490515), jossa hyödynnetään KIT-mutaatioita.
 
 **Jatkoon tarvitaan:**
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (Fimean sivusto)
 - Yksityiskohtainen vaikutusmekanismitieto (DrugBank)
 - Ewing-spesifiset, yhdistelmähoitoja tai biomarkkerivalintaa koskevat tutkimukset (esim. RIST-hoito)
-- Selvitys myyntilupien peruuttamisen syistä ja valmisteen saatavuudesta Suomessa
 - Turvallisuuden seurantasuunnitelma, erityisesti QT-aika, sydän- ja nestekertymäriskit sekä interaktiot happamuutta vähentävien lääkkeiden kanssa
 ## Vastuuvapauslauseke
 

@@ -118,14 +118,14 @@ Varoituksia ja vasta-aiheita koskevat tiedot eivät olleet saatavilla; niiden os
 **Päätös: Hold (odotus)**
 
 **Perustelut:**
-- Ennuste perustuu mekanistisesti uskottavaan PDGFR-yhteyteen, mutta tukena on vain yksi yleiskatsaus eikä yhtään kliinistä tai nintedanibia koskevaa prekliinistä tutkimusta. Imatinibi on DFSP:ssa jo vakiintunut hoito, joten nintedanibin lisäarvo on epäselvä. Lisäksi kaikki nintedanibin myyntiluvat Suomessa on peruutettu.
+- Ennuste perustuu mekanistisesti uskottavaan PDGFR-yhteyteen, mutta tukena on vain yksi yleiskatsaus eikä yhtään kliinistä tai nintedanibia koskevaa prekliinistä tutkimusta. Imatinibi on DFSP:ssa jo vakiintunut hoito, joten nintedanibin lisäarvo on epäselvä.
 
 **Jatkoa varten tarvitaan:**
 - Nintedanibia koskevat prekliiniset tiedot (esim. DFSP-solulinjat ja eläinmallit)
 - Vertailu imatinibiin sekä resistenssin tai imatinibi-intoleranssin tilanteen arviointi
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (Fimean tiedot), jotta turvallisuusarviointi voidaan tehdä
 - Vaikutusmekanismitietojen täydentäminen DrugBankista
-- Selvitys valmisteen saatavuudesta Suomessa, koska voimassa olevia myyntilupia ei ole
+- Selvitys valmisteen saatavuudesta Suomessa
 
 ---
 

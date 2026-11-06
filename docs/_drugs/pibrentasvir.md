@@ -119,7 +119,6 @@ Turvallisuustiedot on tarkistettava valmisteyhteenvedosta. Tähän raporttiin ko
 
 **Perustelut:**
 - Pibrentasviirin NS5A-kohde puuttuu HBV:ltä, eikä HBV-käytölle ole kliinistä tai kirjallisuusnäyttöä. Korkea mallipiste on todennäköisesti tietoverkon artefakti.
-- Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa (vain peruutettu).
 
 **Jatkotoimia varten tarvitaan:**
 - Pibrentasviirin vaikutusmekanismitiedot (DrugBank)

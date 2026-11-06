@@ -115,14 +115,13 @@ Yleisesti ottaen yhteisvaikutukset liittyvät pääosin muihin immuunivastetta h
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennusteet perustuvat pelkästään TxGNN-mallin laskentaan (L5), eikä yhtään kliinistä tutkimusta tai julkaisua tue niitä. Useimmissa ennustetuissa sairauksissa mekanistinen yhteys BLyS:n estoon puuttuu. Lisäksi Suomessa on vain peruutettu myyntilupa.
+- Ennusteet perustuvat pelkästään TxGNN-mallin laskentaan (L5), eikä yhtään kliinistä tutkimusta tai julkaisua tue niitä. Useimmissa ennustetuissa sairauksissa mekanistinen yhteys BLyS:n estoon puuttuu.
 
 **Edetäkseen tarvitaan seuraavaa:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden kokoaminen Fimean sivustolta (estää turvallisuusseulonnan jatkamisen)
 - Vaikutusmekanismitiedot (MOA) DrugBankista
 - Systemaattinen kirjallisuushaku ja tutkimusrekisterihaku erityisesti FNAIT:lle, joka on mekanistisesti uskottavin ehdokas
 - FNAIT:n osalta raskauden ja sikiöaltistuksen turvallisuuden arviointi sekä vertailu nykyiseen vakiohoitoon (IVIG, anti-FcRn)
-- Selvitys peruutetun myyntiluvan syistä ja nykyisestä saatavuudesta Suomessa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

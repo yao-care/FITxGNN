@@ -109,8 +109,6 @@ Pysyvän vastasyntyneiden diabeteksen osalta on yksi katsaus insuliinihoidosta (
 
 ## Markkinatiedot Suomessa
 
-Kaikki seitsemän myyntilupaa on peruutettu.
-
 | Myyntilupanumero | Tuotenimi | Lääkemuoto | Käyttöaihe |
 |---------|------|------|-----------|
 | EMEA/H/C/000308 | NovoMix | – | Diabetes mellitus |
@@ -134,7 +132,7 @@ Huomioitavaa: paikallinen lipodystrofia on tunnettu insuliini-injektioiden haitt
 **Päätös: Proceed with Guardrails (eteneminen suojatoimin)**
 
 **Perustelut:**
-- Tyypin 1 diabeteksen näyttö on vahva (useita päättyneitä vaiheen 3 tutkimuksia), mutta kyseessä on lääkkeen vakiintunut alkuperäinen käyttöaihe, ei uusi käyttöaihe. Kaikki Suomen myyntiluvat on peruutettu, joten suositus riippuu valmisteen saatavuudesta ja siitä, mitä valmistetta tarkoitetaan.
+- Tyypin 1 diabeteksen näyttö on vahva (useita päättyneitä vaiheen 3 tutkimuksia), mutta kyseessä on lääkkeen vakiintunut alkuperäinen käyttöaihe, ei uusi käyttöaihe.
 - Muut ennustetut käyttöaiheet (sijat 2–10) ovat joko pelkkiä malliennusteita (Hold) tai vain epäsuorasti tuettuja tutkimuskysymyksiä (pysyvä vastasyntyneiden diabetes, haiman agenesia).
 
 **Jatkoon tarvitaan:**

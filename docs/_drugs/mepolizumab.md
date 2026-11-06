@@ -97,14 +97,12 @@ Turvallisuustiedot on tarkistettava valmisteyhteenvedosta. Aineistossa ei ole ti
 
 **Perustelut:**
 - Ennuste perustuu lähes kokonaan laskennalliseen malliin. Tukena on vain yksi tapausselostus eikä yhtään kliinistä tutkimusta, ja mekanistinen yhteys immuunitrombosytopeniaan on heikko.
-- Myyntilupa Suomessa on peruutettu, mikä rajoittaa käytännön etenemismahdollisuuksia.
 
 **Eteneminen edellyttää seuraavaa:**
 - Vaikutusmekanismia koskevien tietojen täydentäminen
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittäminen Fimean lähteistä (turvallisuusarvioinnin estävä tietoaukko)
 - Systemaattinen kirjallisuushaku immuunitrombosytopeniasta, erityisesti eosinofiliaan liittyvistä tapauksista
 - Prekliininen tai mekanistinen tutkimus IL-5-eston roolista verihiutaleiden immuunituhossa
-- Myyntilupatilanteen selvittäminen (peruutuksen syy ja mahdollinen uusi lupa)
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

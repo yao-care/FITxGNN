@@ -76,8 +76,6 @@ Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 |---------|------|------|-----------|
 | EMEA/H/C/002284 | NovoThirteen | – | Perinnölliset hyytymishäiriöt |
 
-Myyntilupa on peruutettu (valmistaja Novo Nordisk A/S), eikä voimassa olevia myyntilupia ole.
-
 ## Turvallisuushuomioita
 
 Turvallisuustietoja varten tutustu valmisteyhteenvetoon. Raporttia varten koottu aineisto ei sisältänyt varoituksia, vasta-aiheita eikä tunnistettuja yhteisvaikutuksia.
@@ -87,13 +85,13 @@ Turvallisuustietoja varten tutustu valmisteyhteenvetoon. Raporttia varten koottu
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu pelkästään malliin (L5). Kliinisiä tutkimuksia tai julkaisuja ei ole, mekanistinen yhteys on heikko ja välillinen, eikä valmisteella ole voimassa olevaa myyntilupaa Suomessa.
+- Ennuste perustuu pelkästään malliin (L5).
 
 **Etenemiseksi tarvitaan:**
 - Valmisteyhteenvedon turvallisuustiedot (varoitukset ja vasta-aiheet), joita ilman turvallisuusseulontaa ei voi aloittaa
 - Yksityiskohtaiset vaikutusmekanismitiedot (MOA)
 - Prekliinistä tai kliinistä näyttöä hyödystä verihiutaleiden toimintahäiriöissä
-- Selvitys valmisteen saatavuudesta, koska myyntilupa on peruutettu
+- Selvitys valmisteen saatavuudesta
 - Antoreitin yhteensopivuuden arviointi
 ## Vastuuvapauslauseke
 

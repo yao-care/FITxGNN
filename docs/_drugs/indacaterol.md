@@ -118,8 +118,6 @@ Huomautus: kaksi lähdettä (PMID 32653074 ja 34783265) on luokiteltu RCT-tyyppi
 | EMEA/H/C/002679 | Ultibro Breezhaler | – | Keuhkoahtaumatauti (COPD) |
 | EMEA/H/C/005516 | Bemrist Breezhaler | – | Astma |
 
-Kaikki 10 myyntilupaa on peruutettu, eikä voimassa olevia lupia ole.
-
 ---
 
 ## Turvallisuushuomiot
@@ -143,7 +141,7 @@ Täydelliset turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 **Päätös: Hold (odotetaan)**
 
 **Perustelut:**
-- Näyttö koskee pääosin jo hyväksyttyjä käyttöaiheita (astma, COPD), joten se ei osoita uutta uudelleenkäyttöä. Lisäksi kaikki Suomen myyntiluvat on peruutettu, joten kaupallinen ja sääntelyllinen tilanne on epäselvä.
+- Näyttö koskee pääosin jo hyväksyttyjä käyttöaiheita (astma, COPD), joten se ei osoita uutta uudelleenkäyttöä.
 - Muiden ennustettujen käyttöaiheiden (esim. päänsärky, myosiitti, anafylaksia) tukena ei ole kliinistä näyttöä eikä uskottavaa mekanismia.
 
 **Eteenpäin siirtyminen edellyttää:**

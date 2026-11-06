@@ -111,7 +111,7 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ollut saatavilla tähän rap
 **Päätös: Hold (odottaa)**
 
 **Perustelut:**
-- Mekanismi on uskottava nenäontelon sairaudessa, mutta rekisteröityjä kliinisiä tutkimuksia ei ole, ja kirjallisuus on epäsuoraa tai yhdistelmävalmisteisiin perustuvaa. Näytön taso on L4. Suomessa ei ole voimassa olevaa myyntilupaa, ja valmisteyhteenvedon turvallisuustiedot puuttuvat.
+- Mekanismi on uskottava nenäontelon sairaudessa, mutta rekisteröityjä kliinisiä tutkimuksia ei ole, ja kirjallisuus on epäsuoraa tai yhdistelmävalmisteisiin perustuvaa. Näytön taso on L4. Valmisteyhteenvedon turvallisuustiedot puuttuvat.
 
 **Eteenpäin siirtymiseksi tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean sivustolta (turvallisuusarvioinnin estävä puute)

@@ -75,8 +75,6 @@ Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 | EMEA/H/C/005839 | Amifampridine SERB | – | Lambert-Eatonin myasteeninen oireyhtymä; paraneoplastiset oireyhtymät, hermoston; hermoston kasvaimet; paraneoplastiset oireyhtymät; hermoston sairaudet... |
 | EMEA/H/C/001032 | Firdapse (aiemmin Zenas) | – | Lambert-Eatonin myasteeninen oireyhtymä |
 
-Molemmat myyntiluvat on peruutettu, joten valmistetta ei tällä hetkellä ole voimassa olevalla myyntiluvalla.
-
 ## Turvallisuusnäkökohdat
 
 - **Lääkeaineyhteisvaikutukset:** Tietokannasta löytyi yhteensä 68 yhteisvaikutusta. Vakavuudeltaan **merkittäväksi (Major)** luokiteltu on bupropioni. Muut esimerkit ovat **kohtalaisia (Moderate)**:
@@ -94,14 +92,13 @@ Muista varoituksista ja vasta-aiheista tietoja ei ole saatavilla. Tarkista ne va
 
 **Perustelut:**
 - Ennuste perustuu pelkästään TxGNN-mallin pisteisiin (näytön taso L5). Kliinisiä tutkimuksia, kirjallisuutta tai mekanistista tukea ei ole.
-- Kouristusriski, 68 yhteisvaikutusta ja peruutetut myyntiluvat lisäävät kehitystyön epävarmuutta.
+- Kouristusriski, 68 yhteisvaikutusta.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Vaikutusmekanismin tietojen täydentämistä (esim. DrugBankista).
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimeasta ja turvallisuusarviota ennen jatkoa.
 - Prekliinisiä tai mekanistisia tutkimuksia amifampridiinin ja glaukooman yhteydestä.
 - Antoreitin ja silmään kohdistuvan annostelun arviointia.
-- Markkinatilanteen selvittämistä, koska voimassa olevia myyntilupia ei ole.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

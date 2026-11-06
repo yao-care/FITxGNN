@@ -122,7 +122,7 @@ Huomattava osa vakavista yhteisvaikutuksista koskee hyytymiseen vaikuttavia valm
 **Päätös: Hold (pidätetään)**
 
 **Perustelut:**
-- Melanoomaennusteen tukena on vain prekliinistä ja laskennallista näyttöä (L4), ja muiden ennusteiden osalta pelkkä mallipohjainen ennuste (L5). Kliinisiä tutkimuksia ei ole, eikä ihmisellä ole osoitettu tehoa tai turvallisuutta melanoomassa. Lisäksi Suomen myyntiluvat on peruutettu.
+- Melanoomaennusteen tukena on vain prekliinistä ja laskennallista näyttöä (L4), ja muiden ennusteiden osalta pelkkä mallipohjainen ennuste (L5). Kliinisiä tutkimuksia ei ole, eikä ihmisellä ole osoitettu tehoa tai turvallisuutta melanoomassa.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Valmisteyhteenvedon varoitus- ja vasta-aihetietojen hankkimista Fimean sivustolta (nykyinen estävä tietoaukko)
@@ -130,7 +130,7 @@ Huomattava osa vakavista yhteisvaikutuksista koskee hyytymiseen vaikuttavia valm
 - Lisää prekliinistä näyttöä ihmisen melanoomasolulinjoista ja eläinmalleista, ensisijaisesti ihomelanoomasta
 - Altistuksen ja annostelun arviointia, mukaan lukien aivo-selkäydinnesteeseen pääsy leptomeningeaalisessa taudissa
 - Yhteisvaikutusten ja turvallisuuden arviointia kohdepotilasryhmille, erityisesti lapsille
-- Suomen myyntilupatilanteen selvittämistä, koska voimassa olevia myyntilupia ei ole
+- Suomen myyntilupatilanteen selvittämistä
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

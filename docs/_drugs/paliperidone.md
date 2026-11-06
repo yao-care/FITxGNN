@@ -115,13 +115,12 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut saatavilla, joten ni
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Näyttö on epäsuoraa: kolmessa vaiheen 4 tutkimuksessa paliperidonin rooli on epäselvä tai tutkimus on päättynyt ennenaikaisesti, ja kirjallisuus koostuu yleisistä katsauksista. Ennuste on laajennus alkuperäisen käyttöaiheen sisällä, ja hoitoresistentin skitsofrenian ensisijainen hoito on klotsapiini. Lisäksi Suomen myyntilupa on peruutettu.
+- Näyttö on epäsuoraa: kolmessa vaiheen 4 tutkimuksessa paliperidonin rooli on epäselvä tai tutkimus on päättynyt ennenaikaisesti, ja kirjallisuus koostuu yleisistä katsauksista. Ennuste on laajennus alkuperäisen käyttöaiheen sisällä, ja hoitoresistentin skitsofrenian ensisijainen hoito on klotsapiini.
 - Ennusteluettelon muut yhdhistoriallisesti korkeapisteiset ennusteet (sijat 1–9) eivät saa tukea mistään aineistosta.
 
 **Jatkoon tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankinta ja jäsentäminen Fimean sivustolta (estävä tietoaukko)
 - Vaikutusmekanismitietojen täydentäminen DrugBankista
-- Myyntilupatilanteen tarkistus (aineiston mukaan vain peruutettu lupa, mikä tulee varmistaa)
 - Kontrolloidut tutkimukset, joissa paliperidonia verrataan suoraan hoitoresistentin skitsofrenian vakiohoitoon
 - Turvallisuuden seurantasuunnitelma (QT-aika, aineenvaihdunta, verenkuva)
 ## Vastuuvapauslauseke

@@ -110,7 +110,7 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla, joten niihin
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste on mekanistisesti uskottava, mutta tueksi ei ole kliinisiä tutkimuksia, ja näyttö koostuu pääosin eläinmalleista ja katsauksesta (L4). Ainoa suora vertaileva tutkimus on vuodelta 2001. Valmisteen myyntilupa on lisäksi peruutettu, ja turvallisuustiedot puuttuvat.
+- Ennuste on mekanistisesti uskottava, mutta tueksi ei ole kliinisiä tutkimuksia, ja näyttö koostuu pääosin eläinmalleista ja katsauksesta (L4). Ainoa suora vertaileva tutkimus on vuodelta 2001.
 - Muut ennustetut käyttöaiheet ovat heikommin perusteltuja: akuutin kurkunpää-nielutulehduksen osalta ei ole lainkaan näyttöä (L5), ja allergisen nokkosihottuman osalta kirjallisuus koskee antihistamiineja, ei pseudoefedriiniä (L5).
 
 **Jatkoon tarvitaan:**

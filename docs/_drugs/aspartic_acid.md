@@ -112,7 +112,7 @@ Erityisesti munuaissairauteen liittyvä signaali on huomionarvoinen, koska ennus
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu vain TxGNN-mallin pisteytykseen (näytön taso L5). Kliinisiä tutkimuksia ei ole, kirjallisuus ei tue asparagiinihapon tehoa munuaistiehyeiden asidoosissa, ja suomalainen myyntilupa on peruutettu.
+- Ennuste perustuu vain TxGNN-mallin pisteytykseen (näytön taso L5). Kliinisiä tutkimuksia ei ole, kirjallisuus ei tue asparagiinihapon tehoa munuaistiehyeiden asidoosissa.
 - Turvallisuustiedot puuttuvat, ja tietämysgraafi liittää asparagiinihapon munuaissairauteen vasta-aiheena.
 
 **Eteneminen edellyttää seuraavaa:**
@@ -120,7 +120,6 @@ Erityisesti munuaissairauteen liittyvä signaali on huomionarvoinen, koska ennus
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankinta ja turvallisuusarvio, erityisesti munuaisiin liittyen
 - Prekliiniset tai varhaiset kliiniset tutkimukset, jotka osoittavat vaikutuksen happo-emästasapainoon
 - Antoreittien ja valmistemuodon yhteensopivuuden arviointi
-- Peruutetun myyntiluvan syyn ja markkinatilanteen selvittäminen
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

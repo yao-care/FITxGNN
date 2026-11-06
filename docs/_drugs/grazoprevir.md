@@ -136,7 +136,6 @@ Muiden turvallisuustietojen osalta tarkista valmisteyhteenveto.
 
 **Perustelut:**
 - Useat valmistuneet vaiheen 3 tutkimukset tukevat grazopreviirin ja elbasviirin tehoa C-hepatiitin hoidossa HIV/HCV-yhteisinfektoiduilla potilailla (näytön taso L1). Näyttö ei kuitenkaan koske HIV:n hoitoa, vaan hyväksytyn C-hepatiittiaiheen laajentamista yhteisinfektioryhmään.
-- Suomessa ainoa myyntilupa on peruutettu, joten käyttö edellyttäisi saatavuuden selvittämistä.
 
 **Jatkaminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittämistä (Fimea)

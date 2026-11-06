@@ -107,7 +107,7 @@ Muuta turvallisuustietoa: ks. valmisteyhteenveto.
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu pelkästään korkeaan TxGNN-pistemäärään (0,9922), eikä tukena ole kliinisiä tutkimuksia, kirjallisuutta eikä varmennettua mekanismia. Lääkkeen haittaprofiili on lisäksi epäedullinen luustoindikaatiolle, ja Suomessa ainoa myyntilupa on peruutettu.
+- Ennuste perustuu pelkästään korkeaan TxGNN-pistemäärään (0,9922), eikä tukena ole kliinisiä tutkimuksia, kirjallisuutta eikä varmennettua mekanismia. Lääkkeen haittaprofiili on lisäksi epäedullinen luustoindikaatiolle.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimeasta (turvallisuusarvion estävä tietoaukko)

@@ -79,7 +79,7 @@ Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
 ## Myyntilupatiedot Suomessa
 
-Kaikki 11 myyntilupaa on peruutettu. Alla on lupia, joista käyttöaihetieto oli saatavilla, sekä muut keskeiset valmisteet.
+Alla on lupia, joista käyttöaihetieto oli saatavilla, sekä muut keskeiset valmisteet.
 
 | Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
@@ -116,14 +116,14 @@ Useat näistä ovat solunsalpaajia tai sädelääkkeitä, joiden kanssa myelosup
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu pelkästään TxGNN-mallin pistemäärään (L5). Kliinisiä tutkimuksia ja julkaisuja ei ole, eikä mekanistista yhteyttä ole osoitettu. G-CSF:n pro-inflammatorinen vaikutus voisi jopa pahentaa verkkokalvon tilaa. Lisäksi kaikki myyntiluvat Suomessa on peruutettu.
+- Ennuste perustuu pelkästään TxGNN-mallin pistemäärään (L5). Kliinisiä tutkimuksia ja julkaisuja ei ole, eikä mekanistista yhteyttä ole osoitettu. G-CSF:n pro-inflammatorinen vaikutus voisi jopa pahentaa verkkokalvon tilaa.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Vaikutusmekanismitietojen täydentämistä (esim. DrugBankista)
 - Valmisteyhteenvedon turvallisuustietojen (varoitukset, vasta-aiheet) hankkimista Fimean sivustolta
 - Prekliinistä näyttöä G-CSF:n vaikutuksesta diabeettisen retinopatian malleissa, mukaan lukien tulehdusriskin arviointi
 - Kirjallisuushakua aiheesta sekä reittien ja lääkemuotojen soveltuvuuden arviointia (silmänsisäinen vs. ihonalainen anto)
-- Selvitystä siitä, onko valmistetta saatavilla Suomen markkinoilla, koska nykyiset myyntiluvat on peruutettu
+- Selvitystä siitä, onko valmistetta saatavilla Suomen markkinoilla
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

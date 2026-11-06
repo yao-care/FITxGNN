@@ -119,7 +119,7 @@ Huomattavaa on, että vasta-aihelistalla ovat useat infektiot ja neutropenia, mi
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- HIV-käyttöaiheelle on uskottava mekanistinen perustelu, mutta ainoa suoraan relevantti tutkimus peruttiin ilman osallistujia, eikä vaiheen 3 näyttöä HIV-tehosta ole. Lääkkeen immunosuppressiivinen luonne ja infektioihin liittyvät vasta-aiheet heikentävät hyöty-haittasuhdetta. Lisäksi kaikki Suomen myyntiluvat on peruttu.
+- HIV-käyttöaiheelle on uskottava mekanistinen perustelu, mutta ainoa suoraan relevantti tutkimus peruttiin ilman osallistujia, eikä vaiheen 3 näyttöä HIV-tehosta ole. Lääkkeen immunosuppressiivinen luonne ja infektioihin liittyvät vasta-aiheet heikentävät hyöty-haittasuhdetta.
 
 **Jatkoa varten tarvitaan:**
 - Valmisteyhteenvedon varoitus- ja vasta-aihetiedot (puuttuvat tästä aineistosta)

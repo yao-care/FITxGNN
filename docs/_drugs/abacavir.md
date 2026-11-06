@@ -87,8 +87,6 @@ Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä kokeit
 | EMEA/H/C/002754 | Triumeq | – | HIV-infektiot |
 | EMEA/H/C/000338 | Trizivir | – | HIV-infektiot |
 
-Kaikki neljä myyntilupaa on peruutettu.
-
 ---
 
 ## Turvallisuusnäkökohdat
@@ -111,7 +109,7 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat, joten tarkista ne val
 **Eteenpäin siirtyminen edellyttäisi:**
 - Suomen valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista, mikä on estävä tietoaukko turvallisuusarvioinnille.
 - Vaikutusmekanismitietojen täydentämistä lääketietokannasta.
-- Selkeää ihmislääketieteellistä perustetta käyttöaiheelle ennen jatkoselvityksiä, sillä myyntiluvat on tällä hetkellä peruutettu.
+- Selkeää ihmislääketieteellistä perustetta käyttöaiheelle ennen jatkoselvityksiä.
 
 ---
 

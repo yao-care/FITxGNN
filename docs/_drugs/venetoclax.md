@@ -112,7 +112,6 @@ Lisäksi tietoaineistossa on useita muita myeloiseen leukemiaan liittyviä vaihe
 
 ## Tiedot Suomen markkinoilta
 
-
 ---
 
 ## Solunsalpaajaominaisuudet
@@ -150,7 +149,6 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet on tarkistettava valmisteyhteenv
 **Jatkoa varten tarvitaan:**
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (Fimean sivustolta); tämä estää turvallisuusseulonnan jatkamisen
 - Yksityiskohtaiset vaikutusmekanismitiedot (DrugBank)
-- Suomen myyntiluvan tilan selvitys: nykyinen myyntilupa on peruutettu, joten saatavuus ja hyväksytyt käyttöaiheet on varmistettava
 - Ratkaisevien AML-tutkimusten (esim. VIALE-A) tulosten tarkistus
 - CYP3A-/atsolivuorovaikutusten hallintasuunnitelma, kasvainhajoamisoireyhtymän ja myelosuppression seurantasuunnitelma sekä resistenssimekanismien (MCL-1, TP53, monosyyttinen fenotyyppi) arviointi
 ## Vastuuvapauslauseke

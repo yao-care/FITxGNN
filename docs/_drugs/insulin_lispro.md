@@ -105,8 +105,6 @@ Ensisijaisesta ennusteesta (autoimmuuninen munasarjatulehdus) ei ole saatavilla 
 | EMEA/H/C/000393 | Liprolog | – | Diabetes mellitus |
 | EMEA/H/C/005037 | Lyumjev (aiemmin Liumjev) | – | Diabetes mellitus |
 
-Kaikki neljä myyntilupaa on peruutettu.
-
 ---
 
 ## Turvallisuusnäkökohdat
@@ -130,13 +128,11 @@ Varoitus- ja vasta-aiheita koskevat tiedot ovat puutteelliset, joten niiden osal
 
 **Perustelut:**
 - Ennuste on pelkkä laskennallinen tulos (L5): kliinisiä tutkimuksia ja julkaisuja ei ole, eikä suoraa vaikutusmekanismia ole osoitettu. Useat muut ennusteet näyttävät johtuvan diabeteksen samanaikaisuudesta tai lääkkeen tunnetuista haitoista.
-- Lisäksi kaikki Suomen myyntiluvat on peruutettu.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Vaikutusmekanismitietojen (MOA) täydentämistä (esim. DrugBankista)
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivuilta (estää tällä hetkellä turvallisuusseulonnan)
 - Kohdennettua kirjallisuushakua insuliinin ja autoimmuunisen munasarjatulehduksen yhteydestä sekä prekliinisiä tutkimuksia
-- Myyntilupatilanteen selvittämistä, koska voimassa olevia lupia ei ole
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

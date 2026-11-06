@@ -125,7 +125,6 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla, joten ne on 
 
 **Perustelut:**
 - Useat päättyneet vaiheen 3 tutkimukset tukevat inhaloidun epinefriinin tehoa ja turvallisuutta astmassa, ja bronkioliitista on satunnaistettuja tutkimuksia sekä Cochrane-katsauksia. Mekanismi sopii hyvin hengitysteiden ahtautumiseen. Bronkioliitissa näyttö on kuitenkin ristiriitaista ja osin yhdistelmähoitoihin perustuvaa, ja sydän- ja verisuoniriskit vaativat rajauksia.
-- Suomessa ainoa myyntilupa on peruutettu, joten valmistetta ei tällä hetkellä ole markkinoilla.
 
 **Eteneminen edellyttää seuraavaa:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean sivuilta (estävä tietoaukko turvallisuusseulonnalle).

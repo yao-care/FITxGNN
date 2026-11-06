@@ -94,14 +94,13 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet tulee tarkistaa erikseen.
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennusteen tukena on vain korkea TxGNN-pistemäärä. Kliinistä tai kirjallista näyttöä ei ole, mekanistinen yhteys bakteeriperäiseen pyelonefriittiin on heikko, ja Suomessa ainoa myyntilupa on peruutettu.
+- Ennusteen tukena on vain korkea TxGNN-pistemäärä. Kliinistä tai kirjallista näyttöä ei ole, mekanistinen yhteys bakteeriperäiseen pyelonefriittiin on heikko.
 
 **Eteneminen edellyttää:**
 - Vaikutusmekanismin tietojen täydentämistä
 - Valmisteyhteenvedon turvallisuustietojen hankkimista (estää turvallisuusseulonnan)
 - Prekliinistä näyttöä tsanamiviirin vaikutuksesta uropatogeeneihin tai munuaisinfektiomalleihin
 - Selvitystä lääkemuodosta ja antoreitistä (pyelonefriitti edellyttäisi todennäköisesti systeemistä altistusta)
-- Arviota siitä, onko valmiste ylipäätään saatavilla Suomessa myyntiluvan peruutuksen jälkeen
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

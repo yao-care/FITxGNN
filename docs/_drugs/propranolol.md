@@ -128,7 +128,6 @@ Lääkeyhteisvaikutuksista ei ole kliinisesti luokiteltua tietoa. Saatavilla on 
 
 **Perustelut:**
 - Ensisijaiselle ennusteelle (distaalinen myopatia, Tateyama-tyyppi) ei ole kliinisiä tutkimuksia, julkaisuja eikä mekanistista perustetta. Näytön taso on L5 ja korkea pistemäärä (0,9940) perustuu vain graafimalliin.
-- Suomessa ainoa myyntilupa on peruutettu, ja vasta-aihesignaalit koskevat myös lihassairauksia.
 
 **Etenemiseksi tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden haku Fimeasta (estää turvallisuusseulonnan jatkamisen)

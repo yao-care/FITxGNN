@@ -102,8 +102,6 @@ Huomattavaa: unettomuudesta ei ole satunnaistettua isoa tutkimusta, ja suurin os
 |---------|------|------|-----------|
 | EMEA/H/C/000593 | Xyrem | – | Kataplexia; narkolepsia |
 
-Tämä myyntilupa on peruutettu, eikä Suomessa ole voimassa olevaa myyntilupaa.
-
 ---
 
 ## Turvallisuusnäkökohdat
@@ -128,7 +126,7 @@ Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Unettomuudesta on yksi pieni vaiheen 2 satunnaistettu tutkimus (n = 48), joten näyttö on rajallista. Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa, ja valmisteen väärinkäyttöriski, hengityslama ja runsaat keskushermostoa lamaavat yhteisvaikutukset rajoittavat laajaa käyttöä unettomuuspotilailla.
+- Unettomuudesta on yksi pieni vaiheen 2 satunnaistettu tutkimus (n = 48), joten näyttö on rajallista.
 
 **Jatkaminen edellyttää seuraavaa:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen (tällä hetkellä aukko, joka estää turvallisuusseulonnan).

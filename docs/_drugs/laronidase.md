@@ -105,7 +105,7 @@ Muut turvallisuustiedot: katso valmisteyhteenveto.
 **Päätös: Hold (odotetaan)**
 
 **Perustelut:**
-- Ennustettu indikaatio on suurelta osin päällekkäinen jo hyväksytyn MPS I -käyttöaiheen kanssa, eikä siitä ole suoraa kliinistä näyttöä. Valmisteen myyntilupa Suomessa on lisäksi peruutettu.
+- Ennustettu indikaatio on suurelta osin päällekkäinen jo hyväksytyn MPS I -käyttöaiheen kanssa, eikä siitä ole suoraa kliinistä näyttöä.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Vaikutusmekanismitietojen täydentämistä

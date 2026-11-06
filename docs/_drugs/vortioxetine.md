@@ -111,13 +111,12 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ole tässä aineistossa sa
 
 **Perustelut:**
 - Pääennusteelle "neuroottinen häiriö" ei ole kliinisiä tutkimuksia, ja ainoa kirjallisuusviite ei arvioi vortioksetiinia (näytön taso L5). Ennuste on lähinnä uudelleennimeäminen jo hyväksytylle MDD-käyttöaiheelle, ei aito uudelleenkäyttömahdollisuus.
-- Melankolialle on L1-tasoista MDD-näyttöä, mutta se on epäsuoraa melankoliselle alatyypille. Lisäksi Suomessa on vain peruutettu myyntilupa, mikä heikentää toteutettavuutta.
+- Melankolialle on L1-tasoista MDD-näyttöä, mutta se on epäsuoraa melankoliselle alatyypille.
 
 **Jatkoon tarvitaan:**
 - Valmisteyhteenvedon varoitus- ja vasta-aihetiedot (turvallisuusseulonnan edellytys)
 - Yksityiskohtaiset vaikutusmekanismitiedot
 - Melankolisten piirteiden alaryhmäanalyysi olemassa olevista MDD-vaiheen 3 tutkimuksista
-- Peruutetun myyntiluvan tilan ja syyn selvitys sekä nykyisen markkinasaatavuuden vahvistus
 - Dysteemisen häiriön ja neuroottisen masennuksen osalta kohdennettuja tutkimuksia tai kirjallisuutta
 ## Vastuuvapauslauseke
 

@@ -112,7 +112,7 @@ Fenyyliketonuria on näistä selkeimmin ilmeinen vasta-aihe, sillä fenyylialani
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu pelkästään laskennalliseen malliin (L5). Kliinisiä tutkimuksia ei ole, kirjallisuus on vain sivuavaa, eikä mekanistista yhteyttä voida osoittaa. Lisäksi ainoa Suomen myyntilupa on peruutettu.
+- Ennuste perustuu pelkästään laskennalliseen malliin (L5). Kliinisiä tutkimuksia ei ole, kirjallisuus on vain sivuavaa, eikä mekanistista yhteyttä voida osoittaa.
 
 **Jatkoa varten tarvitaan:**
 - Vaikutusmekanismin tiedot (esim. DrugBankista)

@@ -88,7 +88,7 @@ Tällä hetkellä ei ole aiheeseen liittyviä rekisteröityjä kliinisiä tutkim
 
 ## Suomen markkinatiedot
 
-Kaikki 18 myyntilupaa on peruutettu. Valmisteet on listattu keskitetyillä EU-myyntiluvilla (EMEA), ja kaikissa käyttöaihe on HIV-infektiot. Alla viisi esimerkkiä:
+Valmisteet on listattu keskitetyillä EU-myyntiluvilla (EMEA), ja kaikissa käyttöaihe on HIV-infektiot. Alla viisi esimerkkiä:
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
@@ -118,14 +118,13 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut saatavilla; tarkista
 
 **Perustelut:**
 - Ennuste koskee eläintautia (FIV), eikä kliinisiä tutkimuksia ole. Näyttö on vain prekliinistä (L4), ja korkea TxGNN-pistemäärä kuvaa verkostosamankaltaisuutta, ei tehoa.
-- Kaikki Suomen myyntiluvat on peruutettu, ja valmisteyhteenvedon turvallisuustiedot puuttuvat, joten turvallisuusseulontaan ei voi edetä.
+- Valmisteyhteenvedon turvallisuustiedot puuttuvat, joten turvallisuusseulontaan ei voi edetä.
 
 **Jatkaminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivuilta
 - Vaikutusmekanismitietojen täydentämistä (DrugBank)
 - Selkeää päätöstä siitä, onko eläinlääkinnällinen käyttöaihe tämän arvioinnin kannalta relevantti
 - FIV:n osalta kontrolloituja tutkimuksia emtrisitabiinilla yksinään, sillä nykyinen näyttö koskee yhdistelmähoitoa
-- Markkinatilanteen selvittämistä, koska voimassa olevia myyntilupia ei ole
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

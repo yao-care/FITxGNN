@@ -107,8 +107,6 @@ Useat muut korkean pistemäärän ennusteet (hengityselinten epämuodostuma, Rie
 |---------|------|------|-----------|
 | EMEA/H/C/004881 | Seffalair Spiromax | Ei tietoa | Astma (tila: peruutettu) |
 
-Valmisteen ainoa myyntilupa on peruutettu, joten valmisteen saatavuus on tarkistettava.
-
 ---
 
 ## Turvallisuushuomiot
@@ -134,7 +132,7 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat koostetusta aineistost
 **Etenemiseksi tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden haku (Fimea), sillä turvallisuusseulonta on tältä osin estynyt
 - Yksityiskohtaiset vaikutusmekanismitiedot (DrugBank)
-- Valmisteen saatavuuden varmistaminen Suomessa, koska myyntilupa on peruutettu
+- Valmisteen saatavuuden varmistaminen Suomessa
 - Turvallisuuden seurantasuunnitelma: yhteiskäyttö inhaloitavan kortikosteroidin kanssa, sydän- ja verisuoniriskit sekä yhteisvaikutukset (erityisesti klaritromysiini)
 - Muiden ennusteiden osalta: atooppinen ekseema on tutkimuskysymys (vain prekliinistä näyttöä), ja hengityselinten epämuodostuma, Rienhoffin oireyhtymä sekä astmaan liittyvät taipumukset ovat tilassa Hold
 ## Vastuuvapauslauseke

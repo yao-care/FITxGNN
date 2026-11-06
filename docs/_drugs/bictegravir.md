@@ -98,7 +98,7 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole tässä aineistossa saat
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ensisijaisesti ennustetulle käyttöaiheelle (FIV) on vain mallin ennuste ilman kliinistä tai kirjallista näyttöä. Käyttöaihe on lisäksi eläinlääkinnällinen. Lääkkeellä ei ole voimassa olevaa myyntilupaa Suomessa. SIV-käyttöaihe on tutkimuskysymys (L4), ja neurokehityshäiriöennuste on todennäköisesti virheellinen positiivinen.
+- Ensisijaisesti ennustetulle käyttöaiheelle (FIV) on vain mallin ennuste ilman kliinistä tai kirjallista näyttöä. Käyttöaihe on lisäksi eläinlääkinnällinen. SIV-käyttöaihe on tutkimuskysymys (L4), ja neurokehityshäiriöennuste on todennäköisesti virheellinen positiivinen.
 
 **Eteneminen edellyttää seuraavaa:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimeasta (estävä tietoaukko turvallisuusseulonnan kannalta)

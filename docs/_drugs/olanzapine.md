@@ -105,7 +105,7 @@ Imeväisen hyvänlaatuiseen paroksysmaaliseen vinokaulaan liittyvää kirjallisu
 
 ## Markkinatiedot Suomessa
 
-Kaikki yhdeksän myyntilupaa ovat tilassa "peruutettu". Valmisteet on lueteltu alla (näytetään enintään 5).
+Valmisteet on lueteltu alla (näytetään enintään 5).
 
 | Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
@@ -140,7 +140,6 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut tämän raportin ain
 - Vinokaulan ennuste on pelkkä laskennallinen tulos ilman tutkimuksia tai kirjallisuutta, mekanistista yhteyttä ei ole, ja antipsykootit aiheuttavat imeväisille turvallisuusriskejä.
 - Agorafobian osalta näyttö rajoittuu pieneen avoimeen tutkimukseen, tapausselostuksiin ja katsauksiin; metabolisten haittojen ja sedaation vuoksi käyttöä voi harkita korkeintaan hoitoresistenteissä tapauksissa.
 - Dystymian osalta ei ole olantsapiinispesifistä kontrolloitua näyttöä, ja osa kirjallisuudesta koskee muita lääkkeitä.
-- Olantsapiinin myyntiluvat Suomessa on kaikki peruutettu, mikä vaikuttaa käytännön saatavuuteen.
 
 **Jatkoon tarvitaan:**
 - Valmisteyhteenvedon varoitus- ja vasta-aihetiedot (estää turvallisuusseulonnan etenemisen)

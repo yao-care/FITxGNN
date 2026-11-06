@@ -97,7 +97,7 @@ Ennustettuihin käyttöaiheisiin liittyen aineistossa todetaan, että munasarjoj
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu pelkästään graafipohjaiseen mallipisteytykseen (L5). Kliinistä tai kirjallisuusnäyttöä ei ole, uskottavaa mekanismia ei ole tunnistettu, ja Suomessa valmisteen ainoa myyntilupa on peruutettu.
+- Ennuste perustuu pelkästään graafipohjaiseen mallipisteytykseen (L5). Kliinistä tai kirjallisuusnäyttöä ei ole, uskottavaa mekanismia ei ole tunnistettu.
 
 **Jatkotoimiin tarvitaan:**
 - Vaikutusmekanismitiedot (MOA), esimerkiksi DrugBankista

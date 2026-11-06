@@ -106,13 +106,12 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut käytettävissä, jo
 **Päätös: Hold (odota)**
 
 **Perustelu:**
-- Ennuste perustuu pelkästään mallin pistemäärään (näytön taso L5), eikä tukena ole kliinisiä tutkimuksia eikä julkaisuja. Lisäksi lääkkeen ainoa myyntilupa Suomessa on peruutettu ja turvallisuustiedoissa on aukkoja.
+- Ennuste perustuu pelkästään mallin pistemäärään (näytön taso L5), eikä tukena ole kliinisiä tutkimuksia eikä julkaisuja. Turvallisuustiedoissa on aukkoja.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankintaa (Fimean sivusto), sillä puute estää turvallisuusseulonnan.
 - Vaikutusmekanismin tietojen täydentämistä (esim. DrugBank).
 - Prekliinistä tai mekanistista näyttöä, ensisijaisesti PLA2G6-assosioituneen neurodegeneraation osalta, joka on ennusteista uskottavin.
-- Selvitystä peruutetun myyntiluvan syystä ja valmisteen saatavuudesta Suomessa.
 - Antoreittien yhteensopivuuden arviointia uudelle käyttöaiheelle.
 ## Vastuuvapauslauseke
 

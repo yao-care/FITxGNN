@@ -76,8 +76,6 @@ Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 |---------|------|------|-----------|
 | EMEA/H/C/000233 | Cetrotide (Merck Europe B.V.) | – | Ovulaatio; ovulaation induktio |
 
-Myyntilupa on tilassa "peruutettu".
-
 ## Turvallisuusnäkökohdat
 
 Lääkkeen tunnetut yhteisvaikutukset: tietokannassa on vain farmakologinen kohdemerkintä (GnRH1-reseptori), ei kliinisesti merkittäviä lääkeyhteisvaikutuksia.
@@ -89,7 +87,7 @@ Muuten turvallisuustiedot on luettava valmisteyhteenvedosta.
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Kaikki 10 ennustetta perustuvat pelkkään mallilaskentaan (L5), eikä niille ole kliinisiä tutkimuksia tai julkaisuja. Ensisijaisen ennusteen (hypertrikoosi) mekanistinen yhteys on heikko, ja valmisteen myyntilupa Suomessa on peruutettu.
+- Kaikki 10 ennustetta perustuvat pelkkään mallilaskentaan (L5), eikä niille ole kliinisiä tutkimuksia tai julkaisuja. Ensisijaisen ennusteen (hypertrikoosi) mekanistinen yhteys on heikko.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Valmisteyhteenvedon varoitus- ja vasta-aihetietojen hankkimista (Fimea)

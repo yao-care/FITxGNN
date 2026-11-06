@@ -62,8 +62,6 @@ Tipranaviiri estää HIV-1-viruksen proteaasientsyymiä, joka tarvitaan viruksen
 
 Kissan immuunipuutosvirus (FIV) on lentivirus, jonka proteaasi on rakenteellisesti sukua HIV-1-proteaasille. Siksi ristiin vaikuttaminen on mahdollista. Tipranaviirin ei-peptidimäisen rakenteen on raportoitu estävän joitakin sukulaisretrovirusten proteaaseja in vitro, mutta tästä ei ole tässä aineistossa dataa. Korkea pistemäärä heijastaa todennäköisesti lääkkeen tunnettua HIV-lääkeluokkaa ja verkostoetäisyyttä, ei itsenäistä näyttöä.
 
-Lisäksi valmiste on peruutettu, eikä aineistossa ole dokumentoitua eläinlääkinnällistä käyttöä.
-
 ---
 
 ## Muut ennustetut käyttöaiheet
@@ -88,8 +86,6 @@ Aineistossa oli yhteensä 10 ennustetta. Kaikkien suositus on Hold, eikä yhdell
 |---------|------|------|-----------|
 | EMEA/H/C/000631 | Aptivus | – | HIV-infektiot |
 
-Myyntilupa (valmistaja Boehringer Ingelheim International GmbH) on peruutettu, eikä voimassa olevia lupia ole.
-
 ---
 
 ## Turvallisuusnäkökohdat
@@ -109,7 +105,7 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ollut saatavilla, joten niih
 **Päätös: Hold**
 
 **Perustelut:**
-- Ennusteelle ei ole kliinistä tai kirjallisuusnäyttöä. Lisäksi valmiste on peruutettu Suomessa ja sen turvallisuusprofiili on vakava (mm. maksatoksisuus ja kallonsisäinen verenvuoto).
+- Ennusteelle ei ole kliinistä tai kirjallisuusnäyttöä. Sen turvallisuusprofiili on vakava (mm. maksatoksisuus ja kallonsisäinen verenvuoto).
 - Ennustettu kohde on eläinlääkinnällinen, eikä ihmisen uutta käyttöaihetta ole osoitettu. Useimmat muut ennusteet joko kuuluvat jo HIV-käyttöaiheeseen tai niille ei löydy uskottavaa mekanismia.
 
 **Etenemiseksi tarvitaan:**

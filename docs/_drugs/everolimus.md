@@ -91,8 +91,6 @@ Rajoitus: näyttö perustuu yhteen yhden haaran vaiheen 2 yhdistelmätutkimuksee
 
 ## Myyntilupatiedot Suomessa
 
-Kaikki myyntiluvat on peruutettu.
-
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
 | EMEA/H/C/002311 | Votubia | – | Tuberoosiskleroosi |
@@ -131,14 +129,13 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ole saatavilla, joten niih
 **Päätös: Hold**
 
 **Perustelut:**
-- Liposarkoomaa tukee vain yksi yhden haaran vaiheen 2 yhdistelmätutkimus, jossa everolimuusin oma vaikutus ei ole erotettavissa. Lisäksi Suomessa ei ole voimassa olevia myyntilupia, ja turvallisuustiedot ovat puutteelliset.
+- Liposarkoomaa tukee vain yksi yhden haaran vaiheen 2 yhdistelmätutkimus, jossa everolimuusin oma vaikutus ei ole erotettavissa. Turvallisuustiedot ovat puutteelliset.
 - Vaihtoehtona toinen ennuste, määrittämätön munuaissolukarsinooma, on näytöltään vahvempi (useita vaiheen 2 tutkimuksia, ASPEN-satunnaistettu tutkimus). Sen suositus on Proceed with Guardrails: ASPENissa everolimuusi ei ylittänyt sunitinibia etenemisvapaassa elinajassa, joten käyttö rajattaisiin valikoituihin potilaisiin. Näyttö koskee ei-kirkassoluista munuaissolukarsinoomaa yleisesti, ei tarkasti tätä alatyyppiä.
 
 **Jatkoon tarvitaan:**
 - Valmisteyhteenvedon varoitus- ja vasta-aihetiedot (Fimean sivusto)
 - Yksityiskohtaiset vaikutusmekanismitiedot (DrugBank)
 - Ribosiklibi-everolimuusi-tutkimuksen (NCT03114527) lopputulokset ja everolimuusin osuuden arviointi
-- Selvitys myyntilupien peruutuksen syistä ja valmisteen saatavuudesta Suomessa
 - Turvallisuuden seurantasuunnitelma (verenkuva, maksa, munuaiset, glukoosi, lipidit, keuhkot) sekä yhteisvaikutusten arviointi
 ## Vastuuvapauslauseke
 

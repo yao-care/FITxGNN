@@ -84,7 +84,7 @@ Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 |---------|------|------|-----------|
 | EMEA/H/C/005697 | Korjuny | – | Askites (tila: peruutettu) |
 
-Valmisteen EU-myyntilupa peruutettiin aiemmin valmistajan pyynnöstä kaupallisista syistä (2017), ja farmakologiatietojen mukaan pahanlaatuisen askiteksen myyntilupa on myönnetty uudelleen vuoden 2025 alussa. Fimean tietojen mukaan myyntilupa on kuitenkin tällä hetkellä merkitty vain peruutetuksi, mikä rajoittaa kehityksen käytännön toteutettavuutta.
+Valmisteen EU-myyntilupa peruutettiin aiemmin valmistajan pyynnöstä kaupallisista syistä (2017), ja farmakologiatietojen mukaan pahanlaatuisen askiteksen myyntilupa on myönnetty uudelleen vuoden 2025 alussa.
 
 ---
 
@@ -113,7 +113,7 @@ Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu pelkästään laskennalliseen malliin (L5), eikä sen tueksi ole kliinisiä tutkimuksia tai julkaisuja. Mekanistista yhteyttä EpCAM/CD3-välitteisen vaikutuksen ja diabeettisen retinopatian välillä ei ole, ja immuuniaktivaatio voisi olla verkkokalvolle haitallista. Myyntilupa on lisäksi peruutettu.
+- Ennuste perustuu pelkästään laskennalliseen malliin (L5), eikä sen tueksi ole kliinisiä tutkimuksia tai julkaisuja. Mekanistista yhteyttä EpCAM/CD3-välitteisen vaikutuksen ja diabeettisen retinopatian välillä ei ole, ja immuuniaktivaatio voisi olla verkkokalvolle haitallista.
 
 **Jatkaminen edellyttäisi:**
 - Vaikutusmekanismitietojen täydentämistä (esim. DrugBankista)

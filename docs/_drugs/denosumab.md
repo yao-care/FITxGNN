@@ -89,7 +89,7 @@ Kumpikaan julkaisu ei testaa denosumabia diabeettisessa retinopatiassa, joten ne
 
 ## Tiedot Suomen markkinoilta
 
-Kaikki 20 myyntilupaa on peruutettu. Alla viisi esimerkkiä.
+Alla viisi esimerkkiä.
 
 | Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
@@ -131,7 +131,7 @@ Muuta turvallisuustietoa, kuten varoituksia ja vasta-aiheita, katso valmisteyhte
 
 **Perustelut:**
 - Ennuste perustuu lähes yksinomaan TxGNN-mallin korkeaan pistemäärään. Kliinisiä tutkimuksia ei ole, ja kaksi julkaisua ovat vain epäsuoraa, diabetekseen liittyvää näyttöä, joka ei testaa denosumabia retinopatiassa.
-- Suomessa kaikki denosumabin myyntiluvat on peruutettu, ja turvallisuustietoja ei ole saatavilla.
+- Turvallisuustietoja ei ole saatavilla.
 
 **Jatkotoimiin tarvitaan:**
 - Denosumabin vaikutusmekanismitiedot (MOA), jotta mekanistinen yhteys retinopatiaan voidaan arvioida

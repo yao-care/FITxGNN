@@ -110,14 +110,14 @@ Muiden turvallisuustietojen osalta tutustu valmisteyhteenvetoon.
 **Päätös: Hold (odota)**
 
 **Perustelu:**
-- Ennusteen pistemäärä on korkea (0,9916), mutta harvinaissolulleukemiaan ei ole kliinisiä tutkimuksia eikä kirjallisuutta, joten näyttötaso on L5 (vain mallin ennuste). Lisäksi Betaferonin myyntilupa Suomessa on peruutettu.
+- Ennusteen pistemäärä on korkea (0,9916), mutta harvinaissolulleukemiaan ei ole kliinisiä tutkimuksia eikä kirjallisuutta, joten näyttötaso on L5 (vain mallin ennuste).
 
 **Eteenpäin siirtyminen edellyttää seuraavaa:**
 - Vaikutusmekanismin (MOA) tietojen täydentäminen
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen ja analysointi (Fimea) turvallisuusarviointia varten
 - Prekliininen ja kirjallisuuteen perustuva selvitys interferoni beeta-1b:n vaikutuksesta harvinaissolulleukemiassa sekä vertailu interferoni alfaan
 - Reittien ja lääkemuotojen yhteensopivuuden arviointi
-- Myyntiluvan tilanteen selvittäminen (nykyinen lupa on peruutettu)
+- Myyntiluvan tilanteen selvittäminen
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

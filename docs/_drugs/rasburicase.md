@@ -91,7 +91,7 @@ Aiheeseen liittyvää kirjallisuutta ei ole tällä hetkellä saatavilla.
 **Päätös: Hold (odota)**
 
 **Perustelu:**
-- Ennusteiden tueksi ei ole kliinistä tai kirjallista näyttöä (taso L5), ja ykkösennusteen mekanismi on lääkkeen vaikutukselle vastakkainen. Suomessa ainoa myyntilupa on peruutettu.
+- Ennusteiden tueksi ei ole kliinistä tai kirjallista näyttöä (taso L5), ja ykkösennusteen mekanismi on lääkkeen vaikutukselle vastakkainen.
 
 **Jatkoa varten tarvitaan:**
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (turvallisuusseulonnan estävä aukko)

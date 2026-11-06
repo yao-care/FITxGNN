@@ -103,14 +103,14 @@ Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 **Päätös: Hold (odota)**
 
 **Perustelu:**
-Näyttö koostuu pääosin kohorttitutkimuksista, tapaussarjoista ja tapauskuvauksista (taso L3), eikä rekisteröityjä kliinisiä tutkimuksia ole. Valmisteyhteenvedon turvallisuustiedot puuttuvat, ja Suomessa ainoa myyntilupa on peruutettu. Ennuste on mekanistisesti uskottava, mutta se on toistaiseksi tutkimuskysymys.
+Näyttö koostuu pääosin kohorttitutkimuksista, tapaussarjoista ja tapauskuvauksista (taso L3), eikä rekisteröityjä kliinisiä tutkimuksia ole. Valmisteyhteenvedon turvallisuustiedot puuttuvat. Ennuste on mekanistisesti uskottava, mutta se on toistaiseksi tutkimuskysymys.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimeasta (estää turvallisuusarvioinnin jatkamisen)
 - Vaikutusmekanismitietojen täydentämistä DrugBankista
 - Kontrolloitujen tutkimusten tai järjestelmällisen katsauksen kartoittamista kandiduriasta
 - Virtsan lääkepitoisuuksia ja kliinistä vastetta koskevan lisänäytön arviointia
-- Myyntiluvan ja saatavuuden selvittämistä Suomessa, koska voimassa olevaa myyntilupaa ei ole
+- Myyntiluvan ja saatavuuden selvittämistä Suomessa
 - Munuaisten vajaatoimintaa sairastavien potilaiden turvallisuussuunnitelmaa
 ## Vastuuvapauslauseke
 

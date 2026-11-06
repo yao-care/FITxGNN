@@ -113,7 +113,7 @@ Lisäksi kirjallisuudessa nostetaan esiin lisämunuaisen suppression mahdollisuu
 **Päätös: Hold (odota)**
 
 **Perustelu:**
-- Ennuste on biologisesti uskottava, mutta näyttö on vain epäsuoraa (L4): kliinisiä tutkimuksia ei ole eikä flutikasonifuroaattia ole tutkittu atooppisessa ihottumassa. Lisäksi kaikki Suomen myyntiluvat on peruutettu.
+- Ennuste on biologisesti uskottava, mutta näyttö on vain epäsuoraa (L4): kliinisiä tutkimuksia ei ole eikä flutikasonifuroaattia ole tutkittu atooppisessa ihottumassa.
 
 **Jatkoa varten tarvitaan:**
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (estävä tietoaukko turvallisuusarvioinnille)

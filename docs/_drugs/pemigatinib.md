@@ -121,14 +121,13 @@ Varoituksia ja vasta-aiheita koskevia tietoja ei ole saatavilla; katso turvallis
 **Päätös: Hold (odota)**
 
 **Perustelu:**
-- Ennuste perustuu pelkästään TxGNN-mallin pistemäärään (L5), eikä tukevia kliinisiä tutkimuksia tai julkaisuja ole. Lisäksi valmisteen kaikki Suomen myyntiluvat on peruutettu, ja turvallisuustiedot puuttuvat.
+- Ennuste perustuu pelkästään TxGNN-mallin pistemäärään (L5), eikä tukevia kliinisiä tutkimuksia tai julkaisuja ole.
 
 **Eteneminen edellyttää seuraavaa:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean verkkosivuilta (estävä tietoaukko turvallisuusarvioinnille)
 - Vaikutusmekanismitiedon täydentäminen DrugBankista
 - Systemaattinen kirjallisuushaku FGFR-estäjistä MEN-oireyhtymissä sekä prekliiniset mekanismitutkimukset
 - Harkittava ensisijaisena kohteena HER2-positiivista rintasyöpää, jolla on uskottavampi biologinen peruste, sekä tämän kohteen kohdennettu kirjallisuusarvio
-- Myyntilupatilanteen selvittäminen (peruutuksen syy ja saatavuus Suomessa)
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

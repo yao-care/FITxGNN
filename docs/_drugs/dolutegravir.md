@@ -91,8 +91,6 @@ Kaikki alla olevat tutkimukset ovat prekliinisiä tai eläinkokeellisia, eikä i
 | EMEA/H/C/004427 | Juluca | – | HIV-infektio |
 | EMEA/H/C/002754 | Triumeq | – | HIV-infektio |
 
-Kaikki neljä myyntilupaa on merkitty peruutetuiksi.
-
 ## Turvallisuusnäkökohdat
 
 **Yhteisvaikutukset:** Yhteisvaikutuksia on kirjattu yhteensä 62. Merkittäviksi (Major) luokiteltuja ovat erityisesti kationeja sisältävät valmisteet, jotka voivat heikentää dolutegraviirin imeytymistä:
@@ -110,7 +108,7 @@ Muiden turvallisuustietojen osalta katso valmisteyhteenveto.
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Näyttö on vain prekliinistä (L4). SIV on eläinmallitauti, joten ennuste vahvistaa lähinnä mekanismia ja mallia, ei potilaille suunnattua uudelleenkäyttömahdollisuutta. Lisäksi Suomessa kaikki dolutegraviirin myyntiluvat on peruutettu.
+- Näyttö on vain prekliinistä (L4). SIV on eläinmallitauti, joten ennuste vahvistaa lähinnä mekanismia ja mallia, ei potilaille suunnattua uudelleenkäyttömahdollisuutta.
 
 **Muut ennusteet (arvioitu lyhyesti):**
 - *Kissan hankinnainen immuunikatooireyhtymä (FIV):* Vain yksi eläinkoe (PMID 37112803), jossa dolutegraviiria käytettiin yhdistelmähoidossa. Eläinlääkinnällinen käyttöaihe, ei kliinisiä tutkimuksia. Päätös: Hold.
@@ -119,7 +117,6 @@ Muiden turvallisuustietojen osalta katso valmisteyhteenveto.
 **Jatkotoimiin tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden kerääminen Fimean sivuilta (tällä hetkellä puuttuu ja estää turvallisuusseulonnan)
 - Yksityiskohtainen vaikutusmekanismitieto DrugBankista
-- Selvitys dolutegraviirin myyntilupien peruuntumisen syistä Suomessa
 - Päätös siitä, onko aiheella ihmisten hoidon kannalta merkitystä, vai käytetäänkö sitä vain eläinmallin tutkimukseen
 ## Vastuuvapauslauseke
 

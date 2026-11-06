@@ -123,7 +123,7 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut saatavilla. Tutustu 
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu pelkästään TxGNN-malliin (taso L5), eikä tueksi ole kliinisiä tutkimuksia tai kirjallisuutta. Lisäksi Celsentrin myyntilupa Suomessa on peruutettu.
+- Ennuste perustuu pelkästään TxGNN-malliin (taso L5), eikä tueksi ole kliinisiä tutkimuksia tai kirjallisuutta.
 - HER2-positiivisen rintasyövän CCL5–CCR5-akseli on kiinnostavin tutkimushypoteesi (L4), mutta se on vasta prekliinisellä tasolla.
 
 **Jatkotoimet:**
@@ -131,7 +131,7 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut saatavilla. Tutustu 
 - Täydentää vaikutusmekanismitiedot (esim. DrugBankista).
 - Tehdä kohdennettu kirjallisuushaku monirauhasneoplasiasta ja CCR5-reitistä.
 - Selvittää HER2-positiivisen rintasyövän tutkimushypoteesi prekliinisin kokein ennen kliinistä arviointia.
-- Arvioida lääkkeen saatavuus Suomessa, koska myyntilupa on peruutettu.
+- Arvioida lääkkeen saatavuus Suomessa.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

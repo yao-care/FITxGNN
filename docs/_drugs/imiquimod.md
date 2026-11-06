@@ -99,8 +99,6 @@ Ennusteen piirissä on myös useita muita kohteita, joista suurimmalla osalla ei
 | EMEA/H/C/002387 | Zyclara | – | Keratoosi, aktiininen keratoosi (peruutettu) |
 | EMEA/H/C/000179 | Aldara | – | Kondyloomat, keratoosi, aktiininen keratoosi, tyvisolusyöpä (peruutettu) |
 
-Molemmat myyntiluvat ovat peruutettuja, joten voimassa olevaa myyntilupaa Suomessa ei ole.
-
 ---
 
 ## Sytotoksisuus
@@ -137,7 +135,7 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet eivät ole tässä aineistossa s
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankinta Fimeasta (estää turvallisuusarvioinnin etenemisen).
 - Yksityiskohtaiset vaikutusmekanismitiedot (esim. DrugBankista).
 - Riittävän kokoiset satunnaistetut tutkimukset intraepiteliaalisista neoplasioista (kohdunkaula, ulkosynnyttimet, peräaukko).
-- Selvitys Suomen myyntilupatilanteesta (kaikki luvat peruutettu) ja mahdollisista saatavuusvaihtoehdoista.
+- Selvitys Suomen myyntilupatilanteesta ja mahdollisista saatavuusvaihtoehdoista.
 - Valoherkkyyden, autoimmuunisairauksien ja suun alueen pahanlaatuistumisriskin turvallisuussuunnitelma.
 ## Vastuuvapauslauseke
 

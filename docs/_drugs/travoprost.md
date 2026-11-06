@@ -118,8 +118,6 @@ Lisäksi yksi tapauskertomus ([19107053](https://pubmed.ncbi.nlm.nih.gov/1910705
 | EMEA/H/C/002738 | Izba | – | Silmänpainetauti; avokulmaglaukooma (peruutettu) |
 | EMEA/H/C/000665 | DuoTrav | – | Avokulmaglaukooma; silmänpainetauti (peruutettu) |
 
-Kaikki kolme myyntilupaa on peruutettu.
-
 ---
 
 ## Turvallisuusnäkökohdat
@@ -137,7 +135,7 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet tulee tarkistaa erikseen valmist
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu ainoastaan TxGNN-mallin pistemäärään (L5). Ennustetulle käyttöaiheelle ei ole kliinisiä tutkimuksia eikä julkaisuja, ja paikallisen silmälääkkeen vähäinen systeeminen altistus tekee mekanistisesta yhteydestä epätodennäköisen. Lisäksi kaikki Suomen myyntiluvat on peruutettu.
+- Ennuste perustuu ainoastaan TxGNN-mallin pistemäärään (L5). Ennustetulle käyttöaiheelle ei ole kliinisiä tutkimuksia eikä julkaisuja, ja paikallisen silmälääkkeen vähäinen systeeminen altistus tekee mekanistisesta yhteydestä epätodennäköisen.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimealta (nykyinen estävä tietoaukko turvallisuusarvioinnille)

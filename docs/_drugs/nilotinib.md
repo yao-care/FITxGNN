@@ -117,7 +117,7 @@ Varoitusten ja vasta-aiheiden osalta katso valmisteyhteenveto.
 **Päätös: Hold (odotetaan)**
 
 **Perustelut:**
-- Ennuste perustuu uskottavaan PDGFR-mekanismiin ja korkeaan TxGNN-pisteeseen, mutta kliinisiä tutkimuksia ei ole ja kirjallisuusnäyttö rajoittuu yhteen yleiseen katsaukseen. Näytön taso on L4. Lisäksi lääkkeellä ei ole voimassa olevaa myyntilupaa Suomessa, ja valmisteyhteenvedon turvallisuustiedot puuttuvat.
+- Ennuste perustuu uskottavaan PDGFR-mekanismiin ja korkeaan TxGNN-pisteeseen, mutta kliinisiä tutkimuksia ei ole ja kirjallisuusnäyttö rajoittuu yhteen yleiseen katsaukseen. Näytön taso on L4. Valmisteyhteenvedon turvallisuustiedot puuttuvat.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimeasta (estää turvallisuusseulonnan etenemisen)

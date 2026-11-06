@@ -130,7 +130,7 @@ Varoituksista ja vasta-aiheista tietoa ei ole saatavilla; ne on tarkistettava va
 
 **Perustelut:**
 - Ennuste perustuu pelkästään TxGNN-pisteisiin (näytön taso L5). Kliinisiä tutkimuksia tai tukevaa kirjallisuutta ei ole, eikä biologista yhteyttä lepraan ole osoitettu.
-- Ainoat muihin ennusteisiin liittyvät julkaisut ovat haittatapahtumaraportteja, jotka viittaavat riskiin eikä hyötyyn. Lisäksi Suomen myyntilupa on peruutettu.
+- Ainoat muihin ennusteisiin liittyvät julkaisut ovat haittatapahtumaraportteja, jotka viittaavat riskiin eikä hyötyyn.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivuilta (estää turvallisuusseulonnan jatkamisen)

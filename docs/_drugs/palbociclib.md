@@ -112,7 +112,7 @@ Lisäksi valmisteyhteenvedon varoitukset ja vasta-aiheet tulee tarkistaa pakkaus
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ensisijaisella ennusteella (kilpirauhasen liikatoiminta) ei ole kliinisiä tutkimuksia, kirjallisuutta eikä mekanistista perustetta, ja näyttö on tasoa L5. Myyntilupa Suomessa on peruutettu. Nivelreuma on kiinnostavin jatkotutkimuksen kohde (L4: tapausselostus ja prekliininen näyttö), mutta se on vielä tutkimuskysymys, ei valmis siirtymään kliiniseen käyttöön.
+- Ensisijaisella ennusteella (kilpirauhasen liikatoiminta) ei ole kliinisiä tutkimuksia, kirjallisuutta eikä mekanistista perustetta, ja näyttö on tasoa L5. Nivelreuma on kiinnostavin jatkotutkimuksen kohde (L4: tapausselostus ja prekliininen näyttö), mutta se on vielä tutkimuskysymys, ei valmis siirtymään kliiniseen käyttöön.
 
 **Jatkoa varten tarvitaan:**
 - Valmisteyhteenvedon vasta-aiheet ja varoitukset (estävä tietoaukko turvallisuusarvioinnin etenemiselle)
@@ -120,7 +120,6 @@ Lisäksi valmisteyhteenvedon varoitukset ja vasta-aiheet tulee tarkistaa pakkaus
 - Nivelreuman osalta: eläinmallivahvistus ja pieni varhaisen vaiheen kliininen tutkimus, jossa huomioidaan luuydinsuppressio ja infektioriski
 - Tromboosin osalta: ei jatkotutkimusta hoitokäyttöön; huomioitava vain turvallisuusriskinä
 - Arvio lääkeyhteisvaikutuksista (erityisesti CYP3A4-estäjät, kuten klaritromysiini ja kobisistaatti)
-- Selvitys peruutetun myyntiluvan syystä ja nykyisestä saatavuudesta Suomessa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

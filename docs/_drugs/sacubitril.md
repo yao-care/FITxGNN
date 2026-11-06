@@ -107,13 +107,13 @@ Muiden turvallisuustietojen (varoitukset, vasta-aiheet) osalta katso valmisteyht
 **Päätös: Hold (pitoon)**
 
 **Perustelut:**
-- Diabeettisen nefropatian osalta näyttö on pääosin prekliinistä ja epäsuoraa (L3); ainoa kliininen tutkimus (vaihe 4, n=297) on tilaltaan tuntematon eikä tuloksia ole raportoitu. Muut ennusteet perustuvat pelkkään mallipisteytykseen (L5). Lisäksi Suomessa ei ole voimassa olevia myyntilupia, ja valmisteyhteenvedon turvallisuustiedot puuttuvat.
+- Diabeettisen nefropatian osalta näyttö on pääosin prekliinistä ja epäsuoraa (L3); ainoa kliininen tutkimus (vaihe 4, n=297) on tilaltaan tuntematon eikä tuloksia ole raportoitu. Muut ennusteet perustuvat pelkkään mallipisteytykseen (L5). Valmisteyhteenvedon turvallisuustiedot puuttuvat.
 
 **Eteenpäin siirtymiseksi tarvitaan:**
 - NCT06501651-tutkimuksen tulokset tai uudet satunnaistetut tutkimukset diabeettisen nefropatian munuaistulosmuuttujilla
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankinta Fimean sivustolta (estävä tietoaukko turvallisuusseulonnalle)
 - Vaikutusmekanismitietojen täydentäminen (DrugBank)
-- Selvitys valmisteen markkinoilla olosta Suomessa (kaikki myyntiluvat peruutettu)
+- Selvitys valmisteen markkinoilla olosta Suomessa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

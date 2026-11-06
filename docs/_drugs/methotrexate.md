@@ -120,8 +120,6 @@ Osa kirjallisuudesta koskee metotreksaattiin liittyviä lymfoproliferatiivisia s
 | EMEA/H/C/003756 | Jylamvo | Ei tiedossa | Psoriaattinen artriitti, akuutti lymfoblastileukemia/lymfooma, psoriaasi, nivelreuma... (peruutettu) |
 | EMEA/H/C/003983 | Nordimet | Ei tiedossa | Psoriaattinen artriitti, psoriaasi, lasten nivelreuma, nivelreuma (peruutettu) |
 
-Molemmat myyntiluvat on peruutettu, joten voimassa olevia yksittäisvalmisteen myyntilupia ei ole.
-
 ---
 
 ## Sytotoksisuus
@@ -170,7 +168,7 @@ maksan vajaatoiminta ja maksasairaus, munuaissairaus, ohutsuolen ja mahahaavasai
 
 **Perustelut:**
 - Hodgkinin lymfoomassa on historiallista näyttöä metotreksaattia sisältävästä VBM-hoidosta, mutta tutkimukset ovat pieniä ja vanhoja, ja niissä on raportoitu keuhkotoksisuutta. Rekisteröidyt tutkimukset eivät testaa metotreksaattia suoraan Hodgkinin lymfoomassa.
-- Suomessa ei ole voimassa olevaa myyntilupaa, ja valmisteyhteenvedon turvallisuustiedot puuttuvat. Aineiston mukaan tämä estää etenemisen turvallisuusseulontaan.
+- Valmisteyhteenvedon turvallisuustiedot puuttuvat. Aineiston mukaan tämä estää etenemisen turvallisuusseulontaan.
 
 **Etenemiseksi tarvitaan:**
 - Suomen lääkeviraston (Fimea) valmisteyhteenvedon varoitukset ja vasta-aiheet

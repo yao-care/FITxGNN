@@ -87,7 +87,7 @@ Katso turvallisuustiedot pakkausselosteesta.
 Tälle kandidaatille ei ole luotu TxGNN-uudelleenkäyttöennusteita, ja kaksi kriittistä tietoaukkoa — turvallisuusvaroitukset/vasta-aiheet (Estävän vakavuusasteen) ja toimintamekanismi (Korkean vakavuusasteen) — ovat edelleen ratkaisematta. Merkityksellistä lääkkeen uudelleenkäyttöarviointia ei voida tuottaa tämän Evidence Pack -paketin nykyisestä tilasta.
 
 **Jatkamiseksi tarvitaan seuraavaa:**
-- **[Estävä — DG001]** Lataa ja jäsennä pakkausseloste-PDF TFDA-verkkosivustolta keskeisten varoitusten ja vasta-aiheisten purkamiseksi
+- **[Estävä — DG001]** Lataa ja jäsennä pakkausseloste-PDF keskeisten varoitusten ja vasta-aiheisten purkamiseksi
 - **[Korkea — DG002]** Hae DrugBank-API:sta toimintamekanismin tiedot DB08822:lle
 - **[Vaadittu]** Suorita TxGNN-ennuste-pipeline uudelleen DB08822:lle uudelleenkäyttöehdokkaiden tuottamiseksi
 - **[Vaadittu]** Luo Evidence Pack kokonaisuudessaan uudelleen (tavoite v5), kun kaikki lähtötiedot ovat saatavilla, ja lähetä sitten uudelleen arviointia varten

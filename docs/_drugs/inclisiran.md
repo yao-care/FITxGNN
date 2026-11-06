@@ -91,8 +91,6 @@ Tällä hetkellä aiheeseen liittyvää kirjallisuutta ei ole saatavilla.
 |---------|------|------|-----------|
 | EMEA/H/C/005333 | Leqvio | – | Hyperkolesterolemia; dyslipidemiat |
 
-Huomaa: tämä myyntilupa on tilaltaan peruutettu, eikä voimassa olevia myyntilupia ole.
-
 ---
 
 ## Turvallisuushuomiot

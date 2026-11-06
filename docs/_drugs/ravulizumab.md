@@ -90,7 +90,7 @@ Muiden turvallisuustietojen osalta katso valmisteyhteenveto.
 **Päätös: Hold (odota)**
 
 **Perustelu:**
-Ennuste perustuu pelkkään mallilaskentaan (L5): kliinisiä tutkimuksia ja julkaisuja ei ole, eikä biologista yhteyttä C5-eston ja G6PC3-puutoksen välillä ole osoitettu. Lisäksi meningokokki-infektio on tietämyskaavion mukaan vasta-aihe, ja Suomessa lääkkeen ainoa myyntilupa on peruutettu.
+Ennuste perustuu pelkkään mallilaskentaan (L5): kliinisiä tutkimuksia ja julkaisuja ei ole, eikä biologista yhteyttä C5-eston ja G6PC3-puutoksen välillä ole osoitettu. Lisäksi meningokokki-infektio on tietämyskaavion mukaan vasta-aihe.
 
 **Jatkaminen edellyttää:**
 - Yksityiskohtaiset vaikutusmekanismitiedot (MOA), esimerkiksi DrugBankista

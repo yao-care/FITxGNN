@@ -108,7 +108,7 @@ Muuta turvallisuustietoa (varoitukset, vasta-aiheet) ei ole saatavilla; tarkista
 **Päätös: Hold**
 
 **Perustelut:**
-- Ennuste perustuu pelkkään mallipisteytykseen (L5), eikä sille ole kliinistä tutkimusta tai kirjallisuutta. Lääkkeen vähäinen imeytyminen heikentää uskottavuutta systeemisissä ja kudoskohteissa, ja vakiintuneita hoitoja on olemassa. Lisäksi Suomen myyntilupa on peruutettu.
+- Ennuste perustuu pelkkään mallipisteytykseen (L5), eikä sille ole kliinistä tutkimusta tai kirjallisuutta. Lääkkeen vähäinen imeytyminen heikentää uskottavuutta systeemisissä ja kudoskohteissa, ja vakiintuneita hoitoja on olemassa.
 
 **Etenemiseksi tarvitaan seuraavat tiedot tai toimet:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittäminen (estää turvallisuusarvioinnin jatkamisen)

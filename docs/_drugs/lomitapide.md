@@ -98,8 +98,6 @@ Kaikki tutkimukset ovat yhden haaran tai avoimia, eikä satunnaistettuja vertail
 |---------|------|------|-----------|
 | EMEA/H/C/002578 | Lojuxta | – | Hyperkolesterolemia (tila: peruutettu) |
 
-Ainoa myyntilupa on peruutettu, joten valmisteen saatavuus Suomessa tulee varmistaa.
-
 ## Turvallisuusnäkökohdat
 
 - **Lääkeyhteisvaikutukset:** Tietokannasta löytyi yhteensä 100 mahdollista yhteisvaikutusta. Merkittäviksi (Major) luokiteltuja ovat mm. akarboosi, doksisykliini, pioglitatsoni, bupropioni, aprepitantti, tetrasykliini, kenodeoksikoolihappo, klaritromysiini, minosykliini, naltreksoni, oksandrolonii ja oksymetoloni. Kohtalaisia (Moderate) ovat mm. ranitidiini, loperamidi, budesonidi, simetidiini, saksagliptiini, eliglustaatti ja linagliptiini.
@@ -114,7 +112,7 @@ Ainoa myyntilupa on peruutettu, joten valmisteen saatavuus Suomessa tulee varmis
 - Verihiutaleiden ja hyytymisen häiriöitä koskevat ennusteet (sijat 1–8 ja 10) perustuvat vain graafimalliin, eikä niille ole mekanismia tai kliinistä näyttöä, joten niiden suositus on Hold.
 
 **Jatkaminen edellyttää:**
-- Valmisteen saatavuuden selvittäminen Suomessa, koska ainoa myyntilupa on peruutettu
+- Valmisteen saatavuuden selvittäminen Suomessa
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden kokoaminen (tiedot puuttuvat)
 - Yksityiskohtaisen vaikutusmekanismitiedon täydentäminen lääketietokannasta
 - Maksan toiminnan ja rasvamaksan seurantasuunnitelma sekä yhteisvaikutusten (erityisesti CYP3A4) hallintasuunnitelma

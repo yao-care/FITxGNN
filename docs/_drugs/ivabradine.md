@@ -84,8 +84,6 @@ Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
 ## Tiedot Suomen markkinoilta
 
-Kaikki viisi myyntilupaa on peruutettu.
-
 | Myyntiluvan numero | Tuotenimi | Valmistaja | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
 | EMEA/H/C/000598 | Corlentor | Les Laboratoires Servier | Angina pectoris; sydämen vajaatoiminta |
@@ -114,7 +112,7 @@ Muista turvallisuustiedoista (varoitukset, vasta-aiheet) tarkemmat tiedot löyty
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu ainoastaan TxGNN-mallin verkostopäättelyyn (näytön taso L5), eikä siitä ole kliinisiä tutkimuksia eikä julkaisuja. Lisäksi sykettä hidastavan lääkkeen riski-hyötysuhde ei-sydänperäisessä kosmeettisessa tilassa on epäedullinen, ja kaikki Suomen myyntiluvat on peruutettu.
+- Ennuste perustuu ainoastaan TxGNN-mallin verkostopäättelyyn (näytön taso L5), eikä siitä ole kliinisiä tutkimuksia eikä julkaisuja. Lisäksi sykettä hidastavan lääkkeen riski-hyötysuhde ei-sydänperäisessä kosmeettisessa tilassa on epäedullinen.
 
 **Eteneminen edellyttäisi seuraavaa:**
 - Vaikutusmekanismin (MOA) tietojen täydentäminen.

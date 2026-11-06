@@ -94,8 +94,6 @@ Alkuperäinen käyttöaihe (valtimoperäinen tromboosi sydämessä ja raajoissa)
 |---------|------|------|-----------|
 | EMEA/H/C/001241 | Brilique (AstraZeneca AB) | Ei tiedossa | Perifeeriset verisuonisairaudet; akuutti sepelvaltimo-oireyhtymä |
 
-Tämä myyntilupa on tilassa "peruutettu", eikä voimassa olevia lupia ole.
-
 ---
 
 ## Turvallisuusnäkökohdat
@@ -114,7 +112,7 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat tästä aineistosta, j
 
 **Perustelut:**
 - Ennusteen pistemäärä on korkea ja mekanismi uskottava, ja suora vaiheen 3 -tutkimus (CAPTIVA) on käynnissä. Tuloksia ei kuitenkaan vielä ole, eikä tikagrelorin roolia yksittäisenä haarana ole aineistossa vahvistettu, joten näyttö jää L2-tasolle eikä L1:een.
-- Valmisteen myyntilupa Suomessa on peruutettu, ja valmisteyhteenvedon turvallisuustiedot puuttuvat. Kallonsisäisen verenvuodon vasta-aihe edellyttää tarkkaa riski–hyötyarviota.
+- Valmisteyhteenvedon turvallisuustiedot puuttuvat. Kallonsisäisen verenvuodon vasta-aihe edellyttää tarkkaa riski–hyötyarviota.
 
 **Etenemiseksi tarvitaan:**
 - CAPTIVA-tutkimuksen tulokset (ensisijaiset päätetapahtumat ja tikagrelori-haaran tulokset).

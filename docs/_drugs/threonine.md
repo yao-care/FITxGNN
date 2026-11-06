@@ -85,7 +85,7 @@ Lääkkeiden yhteisvaikutuksia ei löytynyt kyselyssä. Muilta osin turvallisuus
 **Päätös: Hold (odota)**
 
 **Perustelu:**
-- Ennuste perustuu vain korkeaan TxGNN-pistemäärään (L5). Kliinisiä tutkimuksia ja kirjallisuutta ei ole, vaikutusmekanismi puuttuu ja ainoa myyntilupa on peruutettu.
+- Ennuste perustuu vain korkeaan TxGNN-pistemäärään (L5). Kliinisiä tutkimuksia ja kirjallisuutta ei ole, vaikutusmekanismi puuttuu.
 
 **Eteenpäin siirtymiseksi tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden haku Fimeasta, sillä niiden puute estää turvallisuusarvioinnin.

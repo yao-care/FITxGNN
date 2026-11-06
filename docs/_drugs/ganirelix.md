@@ -99,7 +99,7 @@ Varoituksista ja vasta-aiheista tarkemmat tiedot löytyvät valmisteyhteenvedost
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste on pelkkä laskennallinen tulos (L5) ilman kliinisiä tutkimuksia tai kirjallisuutta, ja mekanistinen yhteys hypertrikoosiin on heikko. Lisäksi valmisteiden myyntiluvat Suomessa on peruutettu.
+- Ennuste on pelkkä laskennallinen tulos (L5) ilman kliinisiä tutkimuksia tai kirjallisuutta, ja mekanistinen yhteys hypertrikoosiin on heikko.
 
 **Jatkaminen edellyttää:**
 - Valmisteyhteenvedon varoitus- ja vasta-aihetietojen hankkimista Fimeasta (estää tällä hetkellä turvallisuusseulonnan)

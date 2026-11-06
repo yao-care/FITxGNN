@@ -100,8 +100,6 @@ Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkim
 | EMEA/H/C/002819 | Rezolsta | – | HIV-infektio |
 | EMEA/H/C/004391 | Symtuza | – | HIV-infektio |
 
-Kaikki viisi myyntilupaa on merkitty peruutetuiksi.
-
 ---
 
 ## Turvallisuushuomiot
@@ -119,7 +117,7 @@ Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste on mekanistisesti uskottava, mutta se koskee apinoiden SIV-infektiota eikä uutta ihmisen sairautta. Näyttö on vain prekliinistä, eikä darunaviirin omaa osuutta voi erottaa yhdistelmähoidoista. Lisäksi kaikki Suomen myyntiluvat on peruutettu.
+- Ennuste on mekanistisesti uskottava, mutta se koskee apinoiden SIV-infektiota eikä uutta ihmisen sairautta. Näyttö on vain prekliinistä, eikä darunaviirin omaa osuutta voi erottaa yhdistelmähoidoista.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista (Fimea) turvallisuusarviointia varten

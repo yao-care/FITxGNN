@@ -92,8 +92,6 @@ Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 |---------|------|------|-----------|
 | EMEA/H/C/004586 | Exparel liposomal | – | Akuutti kipu |
 
-Tämä myyntilupa on tilassa peruutettu, joten voimassa olevia myyntilupia ei ole.
-
 ---
 
 ## Turvallisuusnäkökohdat
@@ -119,7 +117,7 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat aineistosta, joten tur
 **Päätös: Hold (odotetaan)**
 
 **Perustelut:**
-- Ennuste perustuu pelkästään TxGNN-mallin laskentaan (L5), eikä kliinisiä tutkimuksia tai julkaisuja ole. Mekanistinen yhteys natriumkanavasalpauksen ja Borrelia-infektion myöhäisoireiden välillä puuttuu. Lisäksi Suomessa ainoa myyntilupa on peruutettu.
+- Ennuste perustuu pelkästään TxGNN-mallin laskentaan (L5), eikä kliinisiä tutkimuksia tai julkaisuja ole. Mekanistinen yhteys natriumkanavasalpauksen ja Borrelia-infektion myöhäisoireiden välillä puuttuu.
 
 **Eteneminen edellyttää seuraavaa:**
 - Suomen lääkeviraston (Fimea) valmisteyhteenvedon varoitusten ja vasta-aiheiden hankinta ja läpikäynti (estää nykyisellään turvallisuusseulonnan)

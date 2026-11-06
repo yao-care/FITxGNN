@@ -121,14 +121,14 @@ Moderate-tason yhteisvaikutuksia ovat mm. takrolimuusi, siklosporiini, atsatiopr
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ainoa suora vaiheen 2 RCT atooppisessa ihottumassa ei osoita selvää tehoa, ja mekanistinen sopivuus on heikko Th2-vetoisessa taudissa. Lisäksi risankitsumabi voi aiheuttaa paradoksaalista ekseemaa. Muiden ennustettujen käyttöaiheiden (sijat 2–10) näyttö on pelkästään laskennallista (L5). Suomessa ainoa myyntilupa on peruutettu.
+- Ainoa suora vaiheen 2 RCT atooppisessa ihottumassa ei osoita selvää tehoa, ja mekanistinen sopivuus on heikko Th2-vetoisessa taudissa. Lisäksi risankitsumabi voi aiheuttaa paradoksaalista ekseemaa. Muiden ennustettujen käyttöaiheiden (sijat 2–10) näyttö on pelkästään laskennallista (L5).
 
 **Eteenpäin siirtyminen edellyttää:**
 - Vaiheen 2 tutkimuksen (NCT03706040 / PMID 36588137) tehotulosten tarkistamista päätyöstä
 - Tarkempaa rajausta dermatiittifenotyypille, jossa IL-23/Th17-reitti on keskeinen (psoriaasinkaltainen tai sekamuotoinen)
 - Yksityiskohtaisia vaikutusmekanismitietoja
 - Valmisteyhteenvedon turvallisuustietoja (varoitukset, vasta-aiheet)
-- Selvitystä Suomen myyntilupatilanteesta (nykyinen lupa peruutettu)
+- Selvitystä Suomen myyntilupatilanteesta
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

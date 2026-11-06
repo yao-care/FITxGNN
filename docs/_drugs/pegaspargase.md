@@ -140,13 +140,13 @@ Muilta osin tarkista turvallisuustiedot valmisteyhteenvedosta.
 **Päätös: Proceed with Guardrails**
 
 **Perustelut:**
-- Näyttö on tasoa L1: useita valmistuneita vaiheen 3 tutkimuksia ja laaja kirjallisuus tukevat pegaspargaasia sisältäviä ALL-hoito-ohjelmia. Kyseessä on kuitenkin alkuperäisen käyttöaiheen vahvistus, ei uusi käyttöaihe. Suomessa ainoa myyntilupa on peruutettu, joten saatavuus on selvitettävä.
+- Näyttö on tasoa L1: useita valmistuneita vaiheen 3 tutkimuksia ja laaja kirjallisuus tukevat pegaspargaasia sisältäviä ALL-hoito-ohjelmia. Kyseessä on kuitenkin alkuperäisen käyttöaiheen vahvistus, ei uusi käyttöaihe.
 - Muiden ennusteiden osalta: laaja "lymfaattinen kasvain" -ryhmä perii ALL-näytön, mutta on liian heterogeeninen yksittäiseksi suositukseksi. Hodgkinin lymfoomalle ei ole suoraa näyttöä (tutkimukset koskevat lasten ALL:ia, ja kirjallisuus NK/T-solulymfoomaa), joten se on tutkimuskysymys. CLL, follikulaarinen lymfooma ja cblE-metyylikobalamiinipuutos ovat pelkkiä ennusteita ilman näyttöä (cblE:n pisteytys on todennäköisesti graafiartefakti), joten niissä suositus on Hold. CML:n blastivaihe on näytöltään epäsuora (Hold).
 
 **Edetäkseen tarvitaan:**
 - Valmisteyhteenvedon (Fimea/EMA) varoitusten ja vasta-aiheiden hankinta ja läpikäynti (turvallisuusseulonnan estävä tietoaukko)
 - Vaikutusmekanismitietojen täydentäminen (esim. DrugBank)
-- Selvitys valmisteen saatavuudesta Suomessa, koska myyntilupa on peruutettu
+- Selvitys valmisteen saatavuudesta Suomessa
 - Haittavaikutusten seurantasuunnitelma (maksa, haima, lipidit, glukoosi, yliherkkyys), erityisesti aikuisilla, iäkkäillä ja ylipainoisilla
 - NK/T-solulymfooman osalta erillinen arvio, jos halutaan tutkia varsinaista uutta käyttöaihetta
 ## Vastuuvapauslauseke

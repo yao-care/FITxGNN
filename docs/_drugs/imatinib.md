@@ -92,8 +92,6 @@ Viite ei käsittele sydämen fibrosarkoomaa suoraan.
 | EMEA/H/C/002585 | Imatinib Teva | Ei tiedossa | Krooninen myelooinen leukemia (BCR-ABL-positiivinen), prekursorisolu-lymfoblastileukemia/lymfooma, myelodysplastiset... |
 | EMEA/H/C/000406 | Glivec | Ei tiedossa | Prekursorisolu-lymfoblastileukemia/lymfooma, ruoansulatuskanavan stroomakasvaimet, dermatofibrosarkooma... |
 
-Kaikki kolme myyntilupaa on peruutettu.
-
 ## Sytotoksisuus
 
 | Kohta | Sisältö |
@@ -117,13 +115,12 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat aineistosta. Tarkista 
 
 **Perustelut:**
 - Sydämen fibrosarkoomalle ei ole kliinisiä kokeita eikä kohdekohtaista näyttöä, vain yksi yleinen katsaus. Mekanistinen yhteys on ekstrapolaatio DFSP:stä.
-- Lisäksi Suomen myyntiluvat on kaikki peruutettu ja turvallisuustiedoista puuttuu valmisteyhteenveto, joten etenemistä ei voi tässä vaiheessa perustella.
+- Turvallisuustiedoista puuttuu valmisteyhteenveto, joten etenemistä ei voi tässä vaiheessa perustella.
 
 **Etenemiseksi tarvitaan:**
 - Fimean valmisteyhteenvedon varoitukset ja vasta-aiheet (estävä tietopuute turvallisuusseulonnalle)
 - Yksityiskohtainen vaikutusmekanismitieto (esim. DrugBankista)
 - Kohdekohtaista näyttöä sydämen fibrosarkoomasta (tapausraportit, prekliiniset mallit, PDGFR/KIT-tila)
-- Arvio myyntiluvan peruutusten vaikutuksesta saatavuuteen Suomessa
 - Vertailu muihin ennustettuihin kohteisiin: liposarkooma (näytön taso L2, vaikka mekanistinen sopivuus on heikko) ja fibroblastinen kasvain/DFSP-alatyypit ovat todennäköisesti tutkimuskysymyksinä vahvempia kuin sydämen fibrosarkooma
 ## Vastuuvapauslauseke
 

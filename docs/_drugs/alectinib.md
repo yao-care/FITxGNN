@@ -111,7 +111,7 @@ Kirjallisuudessa on raportoitu alektinibiin liittyviä haittatapahtumia, kuten h
 **Päätös: Hold (odota)**
 
 **Perustelu:**
-- Ennuste perustuu vain tietoverkkoon: kliinisiä tutkimuksia ja aiheeseen liittyvää kirjallisuutta ei ole, ALK-mekanismia ei tunneta, ja Suomessa ainoa myyntilupa on peruutettu.
+- Ennuste perustuu vain tietoverkkoon: kliinisiä tutkimuksia ja aiheeseen liittyvää kirjallisuutta ei ole, ALK-mekanismia ei tunneta.
 
 **Jatkotoimenpiteet:**
 - Hankittava valmisteyhteenveto (varoitukset ja vasta-aiheet) Fimean sivustolta, sillä sen puute estää turvallisuusarvioinnin.

@@ -99,8 +99,6 @@ Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
 ## Suomen markkinatiedot
 
-Kaikki viisi myyntilupaa on peruutettu, eikä voimassa olevia lupia ole.
-
 | Myyntilupanumero | Tuotenimi | Valmistaja | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
 | EMEA/H/C/000442 | Protaphane | Novo Nordisk A/S | Diabetes mellitus |
@@ -134,7 +132,6 @@ Lisäksi ennusteisiin liittyy periaatteellinen turvallisuushuomio: insuliini aih
 
 **Perustelut:**
 - Ennusteiden tueksi ei ole kliinisiä tutkimuksia eikä julkaisuja, ja korkeat TxGNN-pistemäärät selittyvät todennäköisesti liitännäissairauksilla tai insuliinin haittavaikutuksilla, ei hoidollisella mekanismilla.
-- Suomessa ei ole voimassa olevaa myyntilupaa, ja vaikutusmekanismia sekä valmisteyhteenvedon varoituksia ja vasta-aiheita koskevat tiedot puuttuvat (puute on merkitty estäväksi turvallisuusseulonnan kannalta).
 
 **Jatkoon etenemiseksi tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankinta Fimean sivustolta

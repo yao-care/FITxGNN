@@ -107,7 +107,7 @@ Lääkeaineiden yhteisvaikutuksista ei ole kliinisiä yhteisvaikutustietoja. Far
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ensisijaisella ennusteella (faciodigitogenitaalinen oireyhtymä) ei ole kliinisiä tutkimuksia, kirjallisuutta eikä tunnistettua mekanistista yhteyttä, joten näyttö on tasoa L5 (pelkkä mallin ennuste). Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa.
+- Ensisijaisella ennusteella (faciodigitogenitaalinen oireyhtymä) ei ole kliinisiä tutkimuksia, kirjallisuutta eikä tunnistettua mekanistista yhteyttä, joten näyttö on tasoa L5 (pelkkä mallin ennuste).
 
 **Jatkoa varten tarvitaan:**
 - Valmisteyhteenvedon varoitus- ja vasta-aihetiedot Fimeasta

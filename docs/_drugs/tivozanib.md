@@ -100,14 +100,13 @@ Muiden turvallisuustietojen osalta, kuten varoitukset ja vasta-aiheet, katso val
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu pelkästään TxGNN-mallin laskennalliseen pistemäärään (näytön taso L5), eikä siihen ole kliinistä tai kirjallista tukea. Lisäksi lääkkeen myyntilupa Suomessa on peruutettu ja kohdetaudit ovat hyvin harvinaisia.
+- Ennuste perustuu pelkästään TxGNN-mallin laskennalliseen pistemäärään (näytön taso L5), eikä siihen ole kliinistä tai kirjallista tukea. Kohdetaudit ovat hyvin harvinaisia.
 
 **Jatkoa varten tarvitaan:**
 - Vaikutusmekanismitiedot (MOA) DrugBankista
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet Fimean sivustolta (nykyinen puute estää turvallisuusarvioinnin)
 - Prekliiniset tai kliiniset tutkimukset tivozanibista kohdunkaulan syövässä
 - Selvitys siitä, voidaanko näyttöä ekstrapoloida laajemmasta kohdunkaulansyöpäaineistosta harvinaisiin alatyyppeihin
-- Selvitys valmisteen saatavuudesta Suomessa myyntiluvan peruutuksen jälkeen
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

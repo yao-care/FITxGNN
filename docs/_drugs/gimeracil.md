@@ -130,13 +130,13 @@ Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 **Päätös: Proceed with Guardrails (eteneminen suojatoimin)**
 
 **Perustelut:**
-- Valmistunut vaiheen 3 satunnaistettu tutkimus (NCT00660894, 1535 potilasta) ja toinen laaja vaiheen 3 tutkimus (NCT03448549, tila tuntematon) testaavat S-1:tä paksusuolisyövässä, ja mekanistinen yhteys on vahva. Toisen tutkimuksen tulokset ovat kuitenkin varmistamatta, ja gimeracilia ei käytetä yksinään vaan vain S-1-yhdistelmässä. Lisäksi Teysunon myyntilupa Suomessa on peruutettu.
+- Valmistunut vaiheen 3 satunnaistettu tutkimus (NCT00660894, 1535 potilasta) ja toinen laaja vaiheen 3 tutkimus (NCT03448549, tila tuntematon) testaavat S-1:tä paksusuolisyövässä, ja mekanistinen yhteys on vahva. Toisen tutkimuksen tulokset ovat kuitenkin varmistamatta, ja gimeracilia ei käytetä yksinään vaan vain S-1-yhdistelmässä.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista (merkittävä aukko).
 - Yksityiskohtaisten vaikutusmekanismitietojen täydentämistä.
 - Tutkimusten NCT00660894 ja NCT03448549 tulosten varmistamista.
-- Suunnitelmaa S-1-valmisteen saatavuudesta Suomessa, koska myyntilupa on peruutettu.
+- Suunnitelmaa S-1-valmisteen saatavuudesta Suomessa.
 - Turvallisuusseurantasuunnitelmaa, erityisesti hematologisen toksisuuden ja ihoreaktioiden osalta.
 ## Vastuuvapauslauseke
 

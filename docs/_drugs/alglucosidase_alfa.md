@@ -105,7 +105,7 @@ Turvallisuustiedot on tarkistettava valmisteyhteenvedosta. Lääkkeiden yhteisva
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu pelkästään laskennalliseen malliin (L5), eikä sitä tue yksikään kliininen tutkimus tai julkaisu. Lisäksi mekanistiset esteet (solulimaan kertyvä substraatti, veriaivoesteen läpäisemättömyys) tekevät hoitovaikutuksesta epätodennäköisen. Myyntilupa Suomessa on peruutettu.
+- Ennuste perustuu pelkästään laskennalliseen malliin (L5), eikä sitä tue yksikään kliininen tutkimus tai julkaisu. Lisäksi mekanistiset esteet (solulimaan kertyvä substraatti, veriaivoesteen läpäisemättömyys) tekevät hoitovaikutuksesta epätodennäköisen.
 
 **Jatkoon siirtyminen edellyttää seuraavaa:**
 - Vaikutusmekanismitietojen täydentäminen (MOA).

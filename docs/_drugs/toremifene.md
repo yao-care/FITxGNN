@@ -113,7 +113,7 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ole saatavilla tämän rap
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste on pelkkää mallipäättelyä (L5). Ainoa tukeva julkaisu on prekliininen sienitautitutkimus, joka ei osoita vaikutusta HIV-infektioon, eikä kliinisiä tutkimuksia ole. Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa ja QT-aikaan liittyvät turvallisuushuolet ovat merkittäviä.
+- Ennuste on pelkkää mallipäättelyä (L5). Ainoa tukeva julkaisu on prekliininen sienitautitutkimus, joka ei osoita vaikutusta HIV-infektioon, eikä kliinisiä tutkimuksia ole. QT-aikaan liittyvät turvallisuushuolet ovat merkittäviä.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittämistä (estävä tietoaukko)

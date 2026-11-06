@@ -114,7 +114,7 @@ Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 **Päätös: Hold**
 
 **Perustelut:**
-- Ennuste on puhtaasti laskennallinen (L5): kliinistä tutkimusta tai julkaisua ei ole, eikä uskottavaa mekanismia hepariinikofaktori 2:n puutoksen korjaamiseksi tunneta. Lisäksi valmisteen myyntilupa Suomessa on peruutettu.
+- Ennuste on puhtaasti laskennallinen (L5): kliinistä tutkimusta tai julkaisua ei ole, eikä uskottavaa mekanismia hepariinikofaktori 2:n puutoksen korjaamiseksi tunneta.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Vaikutusmekanismitietojen täydentämistä (DrugBank)

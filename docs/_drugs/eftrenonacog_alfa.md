@@ -92,7 +92,7 @@ Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 |---------|------|------|-----------|
 | EMEA/H/C/004142 | Alprolix | – | Hemofilia B |
 
-Myyntilupa on peruutettu, eikä Suomessa ole voimassa olevia myyntilupia. Valmistaja on Swedish Orphan Biovitrum AB (publ).
+Valmistaja on Swedish Orphan Biovitrum AB (publ).
 
 ---
 
@@ -107,7 +107,7 @@ Turvallisuustiedot on tarkistettava valmisteyhteenvedosta. Lääkeinteraktioita 
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu pelkästään TxGNN-malliin (L5), eikä tukevia kliinisiä tutkimuksia tai julkaisuja ole. Kaikissa kolmessa ennustetussa käyttöaiheessa vika on verihiutaleissa tai VWF-akselilla, ei tekijä IX:ssä, joten mekanistinen peruste puuttuu. Lisäksi valmisteen myyntilupa on peruutettu.
+- Ennuste perustuu pelkästään TxGNN-malliin (L5), eikä tukevia kliinisiä tutkimuksia tai julkaisuja ole. Kaikissa kolmessa ennustetussa käyttöaiheessa vika on verihiutaleissa tai VWF-akselilla, ei tekijä IX:ssä, joten mekanistinen peruste puuttuu.
 
 **Jatkaminen edellyttäisi seuraavaa:**
 - Vaikutusmekanismitietojen (MOA) täydentäminen DrugBankista

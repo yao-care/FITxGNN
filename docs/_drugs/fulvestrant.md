@@ -96,14 +96,14 @@ Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Näyttö HIV-käyttöaiheelle on vain esikliinistä ja epäsuoraa, kliinisiä tutkimuksia ei ole. Lisäksi Suomessa kaikki fulvestrantin myyntiluvat on peruutettu.
+- Näyttö HIV-käyttöaiheelle on vain esikliinistä ja epäsuoraa, kliinisiä tutkimuksia ei ole.
 - Muut ennusteet ovat joko laskennallisia ilman tukea (esim. SIV, kissan immuunikato, akne, harvinaiset oireyhtymät) tai suunnaltaan huolestuttavia: nivelreumassa eläinkoe viittaa, että estrogeenin esto voi pahentaa tulehdusta.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Fimean valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista (tällä hetkellä estää turvallisuusseulonnan).
 - Vaikutusmekanismitietojen täydentämistä (esim. DrugBankista).
 - Lisää esikliinistä näyttöä ER-estosta HIV:n latenssissa ja mahdollisesti eläinmallikokeita.
-- Arviota fulvestrantin antoreitistä (lihaksensisäinen injektio) ja valmisteen saatavuudesta Suomessa myyntilupien peruutuksen jälkeen.
+- Arviota fulvestrantin antoreitistä (lihaksensisäinen injektio).
 - Yhteisvaikutusten vaikeusastearviota HIV-lääkityksen kannalta.
 ## Vastuuvapauslauseke
 

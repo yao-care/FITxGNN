@@ -43,7 +43,6 @@ Näytön taso: **N/A** | Ennustetut käyttöaiheet: **0** kpl
 | Alkuperäinen indikaatio | Arthritis, Psoriatic;Psoriasis;Behcet Syndrome;Oral Ulcer; Arthritis, Psoriatic;Psoriasis;Behcet Syndrome |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
 | Myyntilupien määrä | 2 (voimassa: 2) |
-| Taiwanin markkinatilanne | Ei ole markkinoitu |
 | Hyväksyntöjen määrä | 0 |
 
 ---

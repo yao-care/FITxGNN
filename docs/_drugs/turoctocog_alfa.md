@@ -84,8 +84,6 @@ Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 |---------|------|------|-----------|
 | EMEA/H/C/002719 | NovoEight | – | Hemofilia A |
 
-Myyntilupa (valmistaja Novo Nordisk A/S) on tilassa peruutettu, eikä voimassa olevia myyntilupia ole.
-
 ---
 
 ## Turvallisuusnäkökohdat
@@ -101,7 +99,7 @@ Yksi ennustetuista käyttöaiheista, tromboottinen trombosytopeeninen purppura (
 **Päätös: Hold (odotetaan)**
 
 **Perustelut:**
-- Ennuste perustuu vain tietämysgraafiin (L5), eikä sen tueksi ole kliinisiä tutkimuksia tai julkaisuja. Useimmille ennustetuille käyttöaiheille ei ole mekanistista perustetta, ja osassa on tukosriski. Lisäksi Suomen myyntilupa on peruutettu.
+- Ennuste perustuu vain tietämysgraafiin (L5), eikä sen tueksi ole kliinisiä tutkimuksia tai julkaisuja. Useimmille ennustetuille käyttöaiheille ei ole mekanistista perustetta, ja osassa on tukosriski.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista ja jäsentämistä

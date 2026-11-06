@@ -113,7 +113,7 @@ Aineistossa on lisäksi muita tutkimuksia (mm. NCT07163572, NCT06067412, NCT0417
 | EMEA/H/C/002305 | Levetiracetam Actavis Group | – | Epilepsia |
 | EMEA/H/C/002783 | Levetiracetam Hospira | – | Epilepsia |
 
-Kaikki yhdeksän myyntilupaa on merkitty peruutetuiksi, eikä voimassa olevia lupia ole. Taulukossa on viisi esimerkkiä.
+Taulukossa on viisi esimerkkiä.
 
 ---
 
@@ -133,7 +133,6 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla, joten niihin
 
 **Perustelu:**
 - Kaksi vaiheen 3 satunnaistettua tutkimusta (NCT01960075, NCT01150331) ja useita vaiheen 2 tutkimuksia sekä merkittäviä julkaistuja RCT:itä (ESETT, EcLiPSE) tukevat käyttöä status epilepticuksessa. Näyttö vastaa tasoa L1. Käyttö on kuitenkin lähellä alkuperäistä käyttöaihetta.
-- Suomessa kaikki myyntiluvat on peruutettu, mikä on selvitettävä ennen käyttöönottoa.
 
 **Muut ennusteet (kaikki heikommin tuettuja):**
 - **Startle-epilepsia (säpsähdysepilepsia):** taso L3, Research Question. Pienet avoimet tutkimukset ja tapausraportit, ei RCT:itä.
@@ -144,7 +143,7 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla, joten niihin
 **Etenemiseksi tarvitaan:**
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet Fimean sivustolta (puute estää turvallisuusseulonnan).
 - Tarkempi vaikutusmekanismitieto DrugBankista.
-- Selvitys Suomen markkinatilanteesta, koska kaikki myyntiluvat on peruutettu.
+- Selvitys Suomen markkinatilanteesta.
 - Hoitolinjan sijoittelu paikallisten hoitosuositusten mukaan, munuaisten toiminnan mukainen annoksen säätö sekä käytöshaittojen (mielialan ja käytöksen muutokset) seuranta.
 - Aiheiden, joissa vain heikkoa näyttöä (startle-epilepsia, audiogeeniset kohtaukset), osalta kontrolloidut tutkimukset ennen jatkokäsittelyä.
 ## Vastuuvapauslauseke

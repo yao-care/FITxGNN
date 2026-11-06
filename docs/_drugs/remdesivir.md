@@ -113,8 +113,6 @@ Ensisijaiselle ennusteelle ei ole kirjallisuutta. Alla on tärkeimmät HIV-ennus
 |---------|------|------|-----------|
 | EMEA/H/C/005622 | Veklury | – | COVID-19-virusinfektio |
 
-Myyntilupa (valmistaja Gilead Sciences Ireland UC) on tilassa peruutettu. Voimassa olevia myyntilupia ei ole.
-
 ---
 
 ## Turvallisuusnäkökohdat
@@ -134,7 +132,7 @@ Muista varoituksista ja vasta-aiheista katso valmisteyhteenveto.
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ensisijaiselle ennusteelle (multippeli endokriininen neoplasia) ei ole kliinistä tai kirjallista näyttöä eikä uskottavaa mekanistista yhteyttä, joten ennuste on vain mallipohjainen (L5). Lisäksi Suomen myyntilupa on peruutettu.
+- Ensisijaiselle ennusteelle (multippeli endokriininen neoplasia) ei ole kliinistä tai kirjallista näyttöä eikä uskottavaa mekanistista yhteyttä, joten ennuste on vain mallipohjainen (L5).
 
 **Jatkamiseksi tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvitys (Fimean sivusto), sillä turvallisuusseulonta ei ole mahdollista ilman niitä

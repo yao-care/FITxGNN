@@ -78,8 +78,6 @@ Ei tällä hetkellä aiheeseen liittyvää kirjallisuutta.
 | EMEA/H/C/000833 | Effentora | – | Kipu; syöpä (peruutettu) |
 | EMEA/H/C/000959 | Instanyl | – | Kipu; syöpä (peruutettu) |
 
-Kaikki kolme myyntilupaa on peruutettu, eikä voimassa olevia lupia ole.
-
 ## Solunsalpaajaominaisuudet
 
 Fentanyyli on opioidikipulääke, ei syöpälääke, joten tämä osio ei koske sitä.
@@ -110,7 +108,7 @@ Tarkemmat varoitukset ja vasta-aiheet on tarkistettava valmisteyhteenvedosta.
 
 **Perustelut:**
 - Molemmat ennusteet perustuvat vain graafimallin tulokseen (L5), eikä tueksi ole kliinisiä tutkimuksia, kirjallisuutta eikä uskottavaa mekanismia. Nefrogeenisessa antidiureesioireyhtymässä opioidin vaikutus olisi todennäköisesti haitallinen, ja Touretten oireyhtymässä riski–hyötysuhde on huono.
-- Valmisteilla ei ole voimassa olevia myyntilupia Suomessa, ja yhteisvaikutuksia on runsaasti.
+- Yhteisvaikutuksia on runsaasti.
 
 **Jatkoa varten tarvitaan:**
 - Fentanyylin vaikutusmekanismin tiedot (esim. DrugBankista)

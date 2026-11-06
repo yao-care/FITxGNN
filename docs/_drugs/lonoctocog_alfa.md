@@ -93,8 +93,6 @@ Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 |---------|------|------|-----------|
 | EMEA/H/C/004075 | Afstyla | – | Hemofilia A |
 
-Myyntilupa on peruutettu, eikä voimassa olevia myyntilupia ole.
-
 ---
 
 ## Turvallisuusnäkökohdat
@@ -108,7 +106,7 @@ Turvallisuustiedot on tarkistettava valmisteyhteenvedosta. Lääkkeiden yhteisva
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu pelkästään TxGNN-malliin (L5), eikä tueksi ole kliinisiä tutkimuksia tai kirjallisuutta. Mekanistinen peruste on heikko, koska ensisijainen vika on verihiutaleperäinen. Lisäksi valmisteen myyntilupa Suomessa on peruutettu.
+- Ennuste perustuu pelkästään TxGNN-malliin (L5), eikä tueksi ole kliinisiä tutkimuksia tai kirjallisuutta. Mekanistinen peruste on heikko, koska ensisijainen vika on verihiutaleperäinen.
 
 **Eteneminen edellyttää seuraavaa:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen ja läpikäynti (Fimean sivusto), sillä ne puuttuvat ja estävät turvallisuusseulonnan

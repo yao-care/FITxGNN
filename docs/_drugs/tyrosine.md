@@ -115,7 +115,7 @@ Turvallisuustiedoista (varoitukset, vasta-aiheet, yhteisvaikutukset) ei ole täl
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste on pelkkä tietämysgraafiin perustuva tulos (L5) ilman kliinisiä tutkimuksia, kirjallisuutta tai tunnistettavaa mekanistista yhteyttä. Lisäksi ainoa Suomessa tunnettu myyntilupa on peruutettu.
+- Ennuste on pelkkä tietämysgraafiin perustuva tulos (L5) ilman kliinisiä tutkimuksia, kirjallisuutta tai tunnistettavaa mekanistista yhteyttä.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Vaikutusmekanismin (MOA) tietojen hankkimista DrugBankista

@@ -107,14 +107,13 @@ Lääkeinteraktioita ei löytynyt (haun tulos: ei tuloksia). Valmisteyhteenvedon
 **Päätös: Hold (odota)**
 
 **Perustelu:**
-- Ennuste perustuu vain graafimalliin (L5). Kliinistä tai kirjallisuusnäyttöä ei ole, uskottavaa mekanismia ei ole tunnistettu, ja kirjallisuusosumat johtuvat avainsanaharhasta. Lisäksi Suomen myyntiluvat on peruutettu ja turvallisuustiedot ovat puutteelliset.
+- Ennuste perustuu vain graafimalliin (L5). Kliinistä tai kirjallisuusnäyttöä ei ole, uskottavaa mekanismia ei ole tunnistettu, ja kirjallisuusosumat johtuvat avainsanaharhasta. Turvallisuustiedot ovat puutteelliset.
 
 **Jatkoa varten tarvitaan:**
 - Seriinin vaikutusmekanismitiedot (DrugBank)
 - Fimean valmisteyhteenvedon varoitukset ja vasta-aiheet (estävä tietopuute turvallisuusseulonnalle)
 - Prekliininen tai mekanistinen näyttö seriinin vaikutuksesta suolen sileälihaksen myopatiaan
 - Selvitys antoreiteistä ja lääkemuodoista (tieto puuttuu)
-- Selvitys peruutetun myyntiluvan syistä
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

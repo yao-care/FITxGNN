@@ -110,7 +110,7 @@ Muita turvallisuustietoja (varoitukset, vasta-aiheet) ei ole saatavilla. Katso t
 **Päätös: Hold (odotetaan)**
 
 **Perustelut:**
-- Ennuste perustuu pelkkään mallilaskentaan: kliinisiä tutkimuksia ja julkaisuja ei ole, mekanistista yhteyttä ei ole osoitettu, ja Suomessa ainoa myyntilupa on peruttu.
+- Ennuste perustuu pelkkään mallilaskentaan: kliinisiä tutkimuksia ja julkaisuja ei ole, mekanistista yhteyttä ei ole osoitettu.
 
 **Jatkoa varten tarvitaan:**
 - Vaikutusmekanismitiedot (esim. DrugBankista) ja mekanistisen yhteyden arviointi
@@ -118,7 +118,6 @@ Muita turvallisuustietoja (varoitukset, vasta-aiheet) ei ole saatavilla. Katso t
 - Prekliininen näyttö pegvaliaasin vaikutuksesta diabeettisen retinopatian malleissa
 - Arvio lääkkeen pääsystä silmään ja antoreitin soveltuvuudesta
 - Immunogeenisuuden ja yliherkkyyden riskin arviointi potilailla, joilla ei ole fenyyliketonuriaa
-- Selvitys myyntiluvan peruuntumisen syistä
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

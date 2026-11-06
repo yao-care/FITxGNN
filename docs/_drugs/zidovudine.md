@@ -117,8 +117,6 @@ Ensisijaisen ennusteen (kissan immuunipuutos) kirjallisuus on kokonaan eläintut
 | EMEA/H/C/000190 | Combivir (peruutettu) | Ei tiedossa | HIV-infektio |
 | EMEA/H/C/000338 | Trizivir (peruutettu) | Ei tiedossa | HIV-infektio |
 
-Molemmat myyntiluvat on peruutettu, eikä voimassa olevia myyntilupia ole.
-
 ---
 
 ## Turvallisuusnäkökohdat
@@ -152,7 +150,7 @@ Kaksi viimeistä ennustetta eivät ole aitoa uudelleenkäyttöä, koska ARC on h
 
 **Perustelu:**
 - Ennuste perustuu eläinkokeisiin, eikä ihmisen käyttöaihetta ole. Mekanistinen perustelu on vahva, mutta kyseessä on eläintauti, joten ennuste ei tue ihmisen lääkkeen uudelleenkäyttöä. Näytön taso on L4.
-- Kahdessa HIV:n alle kuuluvassa ennusteessa (ARC ja synnynnäinen HIV) on L1-tason näyttö, ja niiden osalta päätös on Proceed with Guardrails: käyttö vain yhdistelmähoidon osana, hematologisen toksisuuden seuranta (mm. vastasyntyneillä) ja raskauden aikaisen käytön turvallisuustiedot (PMID 28537936). Tsidovudiinimonoterapia ei ole nykyinen hoitostandardi resistenssin ja luuydintoksisuuden vuoksi. Lisäksi molemmat Suomen myyntiluvat on peruutettu.
+- Kahdessa HIV:n alle kuuluvassa ennusteessa (ARC ja synnynnäinen HIV) on L1-tason näyttö, ja niiden osalta päätös on Proceed with Guardrails: käyttö vain yhdistelmähoidon osana, hematologisen toksisuuden seuranta (mm. vastasyntyneillä) ja raskauden aikaisen käytön turvallisuustiedot (PMID 28537936). Tsidovudiinimonoterapia ei ole nykyinen hoitostandardi resistenssin ja luuydintoksisuuden vuoksi.
 
 **Jatkotoimina tarvitaan:**
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet Fimean sivustolta

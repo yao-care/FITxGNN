@@ -118,13 +118,12 @@ Huomioita ennustettuihin käyttöaiheisiin liittyen: syvällä sijaitsevat kasva
 **Päätös: Hold (odotetaan)**
 
 **Perustelut:**
-- Ennuste perustuu pelkästään TxGNN-mallin pistemäärään (L5), eikä kliinisiä tutkimuksia tai kohdennettua kirjallisuutta ole. Lisäksi ainoa Suomessa tunnettu myyntilupa on peruutettu ja turvallisuustiedot puuttuvat.
+- Ennuste perustuu pelkästään TxGNN-mallin pistemäärään (L5), eikä kliinisiä tutkimuksia tai kohdennettua kirjallisuutta ole.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista (Fimean sivusto), mikä on estävä tietoaukko
 - Vaikutusmekanismin tietojen täydentämistä (DrugBank)
 - Kohdennettua kirjallisuushakua ennustetusta käyttöaiheesta; mielekkäämpää voisi olla priorisoida pään ja kaulan alueen kohteet, kuten epiglottiksen kasvain tai suuontelon esiasteiset muutokset
-- Selvitystä temoporfiinin nykyisestä saatavuudesta Suomessa myyntiluvan peruutuksen jälkeen
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

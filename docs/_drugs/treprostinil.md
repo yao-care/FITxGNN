@@ -102,8 +102,6 @@ Muiden ennusteiden näyttö:
 |---------|------|------|-----------|
 | EMEA/H/C/005207 | Trepulmix (SciPharm Sàrl) | Ei tiedossa | Keuhkoverenpainetauti (peruutettu) |
 
-Valmisteella on tällä hetkellä vain peruutettu myyntilupa, joten voimassa olevaa valmistetta ei ole.
-
 ---
 
 ## Turvallisuusnäkökohdat
@@ -128,7 +126,7 @@ Muuten turvallisuustiedoista on tutustuttava valmisteyhteenvetoon.
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankinta Fimeasta (kriittinen tietoaukko, estää turvallisuusseulonnan).
 - Vaikutusmekanismin (MOA) täydentäminen DrugBankista.
 - Tutkimusasetelmien vahvistus (tyypit on päätelty otsikoista) ja CTD-alaryhmien koon arviointi.
-- Suomen myyntilupatilanteen selvitys, koska ainoa lupa on peruutettu.
+- Suomen myyntilupatilanteen selvitys.
 - Turvallisuusseurantasuunnitelma erityisryhmille, erityisesti CHD-PAH:n oikovirtausriski.
 ## Vastuuvapauslauseke
 

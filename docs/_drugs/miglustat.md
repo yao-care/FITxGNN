@@ -108,8 +108,6 @@ Näyttö on kuitenkin ristiriitaista. Myöhäisalkuisessa Tay-Sachsin taudissa t
 | EMEA/H/C/004904 | Miglustat Dipharma | – | Gaucherin tauti |
 | EMEA/H/C/005695 | Opfolda | – | Pompen tauti (glykogeenin varastotauti tyyppi II) |
 
-Kaikki viisi myyntilupaa on peruutettu, joten voimassa olevaa valmistetta ei tällä hetkellä ole.
-
 ---
 
 ## Turvallisuushuomioita
@@ -127,7 +125,7 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat, joten niiden osalta o
 **Päätös: Hold**
 
 **Perustelu:**
-Tay-Sachsin taudille on olemassa mekanistisesti uskottava perustelu ja useita tutkimuksia, mutta ne ovat pieniä, keskeytyneitä tai suunniteltu lähinnä turvallisuuden ja farmakokinetiikan arviointiin. Hyöty on osoittautunut rajalliseksi ja ruoansulatuskanavan haittavaikutukset ovat merkittäviä. Lisäksi kaikki Suomen myyntiluvat on peruutettu, eikä turvallisuusarviointia (S1) voida aloittaa ilman valmisteyhteenvetoa.
+Tay-Sachsin taudille on olemassa mekanistisesti uskottava perustelu ja useita tutkimuksia, mutta ne ovat pieniä, keskeytyneitä tai suunniteltu lähinnä turvallisuuden ja farmakokinetiikan arviointiin. Hyöty on osoittautunut rajalliseksi ja ruoansulatuskanavan haittavaikutukset ovat merkittäviä.
 
 **Jatkotoimiin tarvitaan:**
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (Fimean sivusto)

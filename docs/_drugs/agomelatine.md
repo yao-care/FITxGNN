@@ -106,13 +106,12 @@ Farmakologiset kohdetiedot: agomelatiini sitoutuu reseptoreihin 5-HT2A, 5-HT2B, 
 
 **Perustelut:**
 - Parhaan pistemäärän saaneelle ennusteelle (lapsuuden hyvänlaatuinen kohtauksittainen kaularankakouristus) ei ole mekanistista perustetta, kliinisiä tutkimuksia eikä kirjallisuutta. Ennuste perustuu vain graafimalliin (L5).
-- Masennukseen liittyvät ennusteet (melankolia, neuroottinen masennus, dystymia) ovat L4-tasoa, mutta ne ovat pääosin nykyisen käyttöaiheen uudelleenmäärittelyä. Agomelatiinin myyntilupa Suomessa on lisäksi peruutettu.
+- Masennukseen liittyvät ennusteet (melankolia, neuroottinen masennus, dystymia) ovat L4-tasoa, mutta ne ovat pääosin nykyisen käyttöaiheen uudelleenmäärittelyä.
 
 **Jatkotoimien edellytykset:**
 - Valmisteyhteenvedon varoitus- ja vasta-aihetietojen hankkiminen turvallisuusarviointia varten (estävä tietopuute).
 - Yksityiskohtaisen vaikutusmekanismitiedon täydentäminen.
 - Agorafobian ja ahdistuneisuushäiriöiden osalta kohdennettu kirjallisuushaku ja mahdollisten tutkimusten kartoitus.
-- Peruutetun myyntiluvan syyn ja uudelleenhakemisen mahdollisuuden selvittäminen.
 - Harvinaisten geneettisten oireyhtymien ennusteiden (Ohdo, Keppen-Lubinsky, ligneous-sidekalvotulehdus) jättäminen pois, ellei biologista perustetta löydy.
 ## Vastuuvapauslauseke
 

@@ -1,0 +1,29 @@
+{
+ "acalabrutinib": [
+  {
+   "sentence": "Nämä täydennettiin yleisestä tiedosta; näyttöpaketti ei sisältänyt TFDA-kohtaisia turvallisuustietoja.",
+   "reason": "「TFDA」是 TwTxGNN 模板殘留（台灣食藥署）；只刪分號後講 TFDA 安全性資料的子句，保留「Nämä täydennettiin yleisestä tiedosta.」（2026-11-06）",
+   "cut": "; näyttöpaketti ei sisältänyt TFDA-kohtaisia turvallisuustietoja"
+  },
+  {
+   "sentence": "## Taiwanin markkinatiedot",
+   "reason": "標題「台灣市場資訊」是 TwTxGNN 模板殘留，底下是程式產生的芬蘭市場狀態列；只刪「Taiwanin 」，首字母大寫成「Markkinatiedot」（2026-11-06）",
+   "cut": "Taiwanin ",
+   "capitalize": true
+  }
+ ],
+ "azilsartan_medoxomil": [
+  {
+   "sentence": "Lataa ja jäsennä pakkausseloste-PDF TFDA-verkkosivustolta",
+   "reason": "「TFDA」是 TwTxGNN 模板殘留；只刪「 TFDA-verkkosivustolta」（從 TFDA 網站），下載解析仿單的待辦保留（2026-11-06）",
+   "cut": " TFDA-verkkosivustolta"
+  }
+ ],
+ "basiliximab": [
+  {
+   "sentence": "Lataa ja jäsennä EMA/TFDA-pakettitarra-PDF",
+   "reason": "「TFDA」是 TwTxGNN 模板殘留；只刪「/TFDA」（2026-11-06）",
+   "cut": "/TFDA"
+  }
+ ]
+}

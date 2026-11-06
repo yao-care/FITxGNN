@@ -43,7 +43,6 @@ Näytön taso: **N/A** | Ennustetut käyttöaiheet: **0** kpl
 | Alkuperäinen indikaatio | Lupus Erythematosus, Systemic |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |
-| Taiwanin markkinatila | ✗ Ei markkinoitavana |
 | Lupien lukumäärä | 0 |
 
 ---

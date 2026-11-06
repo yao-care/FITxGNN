@@ -93,8 +93,6 @@ Ensisijaiselle ennusteelle (Ambras-tyypin liikakarvoitus) ei ole saatavilla kirj
 | EMEA/H/C/003787 | Tadalafil Mylan | – | Erektiohäiriö (peruutettu) |
 | EMEA/H/C/000436 | Cialis | – | Erektiohäiriö (peruutettu) |
 
-Lisäksi yksi peruutettu myyntilupa (Yuvanci, EMEA/H/C/005001, keuhkovaltimoverenpaine).
-
 ---
 
 ## Turvallisuusnäkökohdat
@@ -112,7 +110,7 @@ Pakkausselosteen varoitus- ja vasta-aihetietoja ei ollut käytettävissä, joten
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennusteen tueksi ei ole kliinisiä tutkimuksia eikä kirjallisuutta, eikä uskottavaa mekanismia ole tunnistettu. Korkea pistemäärä näyttää johtuvan tietämysgraafin rakenteesta. Lisäksi kaikki tadalafiilin myyntiluvat Suomessa on peruutettu.
+- Ennusteen tueksi ei ole kliinisiä tutkimuksia eikä kirjallisuutta, eikä uskottavaa mekanismia ole tunnistettu. Korkea pistemäärä näyttää johtuvan tietämysgraafin rakenteesta.
 
 **Jatkoon tarvitaan:**
 - Tadalafiilin vaikutusmekanismia koskevat tiedot (esim. DrugBankista)

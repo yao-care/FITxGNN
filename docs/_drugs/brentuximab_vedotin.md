@@ -137,7 +137,7 @@ Muuten turvallisuustietojen osalta katso valmisteyhteenveto.
 
 **Perustelut:**
 - Follikulaarisen lymfooman näyttö koostuu pienistä vaiheen 2 tutkimuksista, joista kolme on peruttu ja kaksi keskeytetty. Ainoa suoraan kohdeindikaatiota tutkiva tutkimus (NCT04587687, n=23) on yhä käynnissä eikä ole tuottanut tuloksia. Follikulaarinen lymfooma ilmentää CD30:a harvoin, mikä heikentää mekanistista perustetta.
-- Lisäksi suomalainen myyntilupa on peruutettu ja valmisteyhteenvedon turvallisuustiedot puuttuvat.
+- Valmisteyhteenvedon turvallisuustiedot puuttuvat.
 
 **Etenemiseksi tarvitaan:**
 - NCT04587687-tutkimuksen tulokset

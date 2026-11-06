@@ -122,14 +122,14 @@ Aineiston lääkeinteraktiotiedoissa on vain lääkkeen farmakologinen kohde (ME
 **Päätös: Hold (tutkimuskysymyksenä jatkettava)**
 
 **Perustelut:**
-- Biologinen perustelu on vahva, mutta kliininen näyttö on vähäistä: ainoa valmistunut tutkimus keskeytyi 10 potilaan jälkeen, ja kaksi uutta tutkimusta ei ole vielä alkanut. Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa.
+- Biologinen perustelu on vahva, mutta kliininen näyttö on vähäistä: ainoa valmistunut tutkimus keskeytyi 10 potilaan jälkeen, ja kaksi uutta tutkimusta ei ole vielä alkanut.
 
 **Jatkamiseksi tarvitaan:**
 - Selvitys tutkimuksen NCT03095248 keskeytyksen syystä ja mahdollisista tuloksista
 - Seuranta tutkimuksista NCT07707947 ja NCT07713745 (selumetinibin mukanaolo)
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden kerääminen (kriittinen aukko)
 - Vaikutusmekanismitietojen täydentäminen DrugBankista
-- Myyntilupatilanteen selvitys Suomessa (peruutetun luvan syy)
+- Myyntilupatilanteen selvitys Suomessa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -99,8 +99,6 @@ Julkaisut ovat pääosin katsauksia ja asiantuntijakommentteja. Satunnaistettuja
 |---------|------|------|-----------|
 | EMEA/H/C/002400 | Adasuve | – | Skitsofrenia; kaksisuuntainen mielialahäiriö |
 
-Tämä myyntilupa on peruutettu.
-
 ---
 
 ## Turvallisuushuomiot
@@ -123,13 +121,12 @@ Pakkausselosteen varoitus- ja vasta-aihetietoja ei ollut käytettävissä. Lue t
 
 **Perustelut:**
 - Mekanismi sopii manian ja agitaation hoitoon, ja kaksisuuntainen mielialahäiriö kuuluu jo alkuperäisiin käyttöaiheisiin. Näyttö koskee kuitenkin pääosin akuuttia agitaatiota inhaloitavalla valmisteella, ei maanisen oireyhtymän hoitoa sinänsä, eikä aineistossa ole rekisteröityjä kliinisiä tutkimuksia. Näytön taso on siksi L3.
-- Ainoa myyntilupa on peruutettu, joten valmisteen saatavuus on epävarma.
 
 **Etenemiseksi tarvitaan:**
 - Valmisteyhteenvedon varoitus- ja vasta-aihetietojen hankinta (Fimean verkkosivut), koska turvallisuusseulonta ei muuten voi edetä
 - Mekanismitietojen täydentäminen DrugBankista
 - Inhaloitavan loksapiinin keskeisten vaiheen 3 tutkimusten hankinta ja arviointi, koska niitä ei ollut käytettävissä
-- Saatavuuden selvitys Suomessa (peruutettu myyntilupa, mahdolliset muut valmisteet tai erityislupamenettely)
+- Saatavuuden selvitys Suomessa
 - Turvallisuusseurantasuunnitelma erityisesti sydän- ja verisuonisairauksille, kouristusalttiudelle, muistisairauksille sekä antikolinergien ja keskushermostoa lamaavien lääkkeiden yhteiskäytölle
 ## Vastuuvapauslauseke
 

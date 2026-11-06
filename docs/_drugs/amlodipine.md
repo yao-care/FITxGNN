@@ -120,7 +120,7 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ollut tähän raporttiin koo
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Aivorunkoinfarktille ei löytynyt kliinisiä tutkimuksia eikä kirjallisuutta, joten ennuste on pelkkä mallin tuottama hypoteesi (L5). Lisäksi kaikki Suomen myyntiluvat on peruttu.
+- Aivorunkoinfarktille ei löytynyt kliinisiä tutkimuksia eikä kirjallisuutta, joten ennuste on pelkkä mallin tuottama hypoteesi (L5).
 - Sukulaisindikaatio, aivoverenvuodon uusiutumisen ehkäisy, on huomattavasti vahvemmin tuettu (L1, TRIDENT). Siinä hyöty tulee kuitenkin kolmen lääkkeen kiinteästä yhdistelmästä, eikä sitä voi kohdistaa pelkästään amlodipiinille.
 
 **Jatkoon tarvitaan:**

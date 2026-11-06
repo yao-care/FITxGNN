@@ -139,13 +139,12 @@ Kirjallisuudessa on lisäksi nostettu esiin BTK-estäjiin liittyvä hepatiitti B
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Korkeasta TxGNN-pisteestä (0,9965) huolimatta myeloidista leukemiaa koskevaa suoraa kliinistä tai prekliinistä näyttöä ei ole. Ainoa liittyvä tutkimus on vaiheen 1 tutkimus, jossa zanubrutinibi on vain yhdistelmäkumppani, ja kirjallisuus koskee lymfaattisia syöpiä. Lisäksi lääkkeellä ei ole Suomessa voimassa olevaa myyntilupaa.
+- Korkeasta TxGNN-pisteestä (0,9965) huolimatta myeloidista leukemiaa koskevaa suoraa kliinistä tai prekliinistä näyttöä ei ole. Ainoa liittyvä tutkimus on vaiheen 1 tutkimus, jossa zanubrutinibi on vain yhdistelmäkumppani, ja kirjallisuus koskee lymfaattisia syöpiä.
 
 **Jatkotoimiin tarvitaan:**
 - Vaikutusmekanismia koskevat tiedot (MOA) ja BTK-signaloinnin merkityksen arviointi myeloidisessa leukemiassa
 - Prekliiniset tutkimukset (solulinjat, eläinmallit) zanubrutinibista myeloidisessa leukemiassa
 - Valmisteyhteenvedon (Fimea) varoitus- ja vasta-aihetiedot turvallisuusseulontaa varten
-- Selvitys Brukinsan myyntiluvan peruutuksen syistä ja nykyisestä saatavuudesta Suomessa
 - Yhteisvaikutusten arviointi, erityisesti CYP3A:n estäjien ja induktorien osalta
 ## Vastuuvapauslauseke
 

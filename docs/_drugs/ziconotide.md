@@ -111,14 +111,14 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet on tarkistettava erikseen.
 **Päätös: Hold (odota) – tutkimuskysymys**
 
 **Perustelu:**
-Mekanistinen yhteys migreeniin on uskottava, mutta näyttö rajoittuu kolmeen julkaisuun, joista kaksi on tapausselostuksia, eikä kliinisiä tutkimuksia ole. Intratekaalinen antotapa, neuropsykiatriset haittavaikutukset ja lääkkeen peruutettu myyntilupa Suomessa heikentävät käytännön toteutettavuutta.
+Mekanistinen yhteys migreeniin on uskottava, mutta näyttö rajoittuu kolmeen julkaisuun, joista kaksi on tapausselostuksia, eikä kliinisiä tutkimuksia ole. Intratekaalinen antotapa, neuropsykiatriset haittavaikutukset.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Fimean valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista ja arviointia (estävä tietoaukko)
 - Vaikutusmekanismitietojen täydentämistä (DrugBank)
 - Kontrolloituja tutkimuksia tai laajempaa tapaussarjadataa kroonisesta migreenistä
 - Riski-hyötyarviota intratekaalisen annon ja neuropsykiatristen haittojen osalta
-- Selvitystä lääkkeen saatavuudesta Suomessa, koska myyntilupa on peruutettu
+- Selvitystä lääkkeen saatavuudesta Suomessa
 
 **Muut ennustetut käyttöaiheet:** Muille ennusteille (mm. aivorungon aurallinen migreeni, cauda equina -oireyhtymä, lihavuus, ohimenevä aivoverenkiertohäiriö, glaukooma, neurogeeninen rakko, preeklampsia) ei ole kliinistä näyttöä, ja ne ovat tasolla L5 (pelkkä mallin ennuste). Ne on suositeltavaa pitää tilassa Hold.
 ## Vastuuvapauslauseke

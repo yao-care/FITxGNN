@@ -82,8 +82,6 @@ Tällä hetkellä ei ole aiheeseen liittyvää kirjallisuutta.
 |---------|------|------|-----------|
 | EMEA/H/C/003954 | Orkambi | – | Kystinen fibroosi |
 
-Tämä myyntilupa on tilassa "peruutettu", joten voimassa olevia lupia ei ole.
-
 ---
 
 ## Turvallisuushuomiot
@@ -110,7 +108,7 @@ Muista turvallisuustiedoista, kuten varoituksista ja vasta-aiheista, katso valmi
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu pelkkään mallilaskentaan (näytön taso L5), eikä sitä tue yksikään kliininen tutkimus tai julkaisu. Lisäksi uskottava vaikutusmekanismi puuttuu ja myyntilupa Suomessa on peruutettu.
+- Ennuste perustuu pelkkään mallilaskentaan (näytön taso L5), eikä sitä tue yksikään kliininen tutkimus tai julkaisu. Lisäksi uskottava vaikutusmekanismi puuttuu.
 
 **Jatkoa varten tarvitaan:**
 - Vaikutusmekanismin (MOA) tiedot ja selvitys mahdollisesta biologisesta yhteydestä lepraan

@@ -95,8 +95,6 @@ Ei tällä hetkellä aiheeseen liittyvää kirjallisuutta.
 |---------|------|------|-----------|
 | EMEA/H/C/004514 | Ilumetri | – | Psoriaasi |
 
-Myyntilupa on tilassa "peruutettu", eikä voimassa olevia myyntilupia ole.
-
 ---
 
 ## Turvallisuusnäkökohdat
@@ -116,7 +114,7 @@ Pakkausselosteen varoituksia ja vasta-aiheita ei ollut käytettävissä. Tarkist
 **Päätös: Hold (odota)**
 
 **Perustelu:**
-- Ennusteen pistemäärä on korkea (0,9963), mutta näyttö on tasoa L5: ei kliinisiä tutkimuksia, ei julkaisuja eikä prekliinistä aineistoa. Lisäksi systeemisen vasta-aineen silmäpenetraatio on rajallinen ja vakiintuneet hoidot ovat vahvoja. Myyntilupakin on Suomessa peruutettu.
+- Ennusteen pistemäärä on korkea (0,9963), mutta näyttö on tasoa L5: ei kliinisiä tutkimuksia, ei julkaisuja eikä prekliinistä aineistoa. Lisäksi systeemisen vasta-aineen silmäpenetraatio on rajallinen ja vakiintuneet hoidot ovat vahvoja.
 
 **Jatkaminen edellyttää seuraavaa:**
 - Vaikutusmekanismin (MOA) tietojen täydentäminen

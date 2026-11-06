@@ -108,12 +108,11 @@ Turvallisuustiedot on tarkistettava valmisteyhteenvedosta. Farmakologiatiedoissa
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennustettu käyttöaihe on jo hyväksytyn käyttöaiheen alatyyppi, ja näyttö on epäsuoraa (L4): yleisen migreenin tutkimuksissa ei ole analysoitu aivorunkoaurapotilaita erikseen. Lisäksi Suomen myyntiluvat ovat vain peruutettuja, ja turvallisuustiedot puuttuvat.
+- Ennustettu käyttöaihe on jo hyväksytyn käyttöaiheen alatyyppi, ja näyttö on epäsuoraa (L4): yleisen migreenin tutkimuksissa ei ole analysoitu aivorunkoaurapotilaita erikseen.
 
 **Eteneminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimeasta (estää turvallisuusarvioinnin)
 - Vaikutusmekanismitietojen täydentämistä
-- Myyntilupatilanteen selvittämistä (peruutuksen syy ja mahdollinen uusi hakeminen)
 - Aivorunkoaurapotilaiden alaryhmäanalyysia aiemmista vaiheen 3 tutkimuksista tai kohdennettua tutkimusta
 
 ---

@@ -88,7 +88,7 @@ Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
 ## Suomen markkinatiedot
 
-Kaikki myyntiluvat on peruutettu. Alla on viisi esimerkkiä (kaikki yhdistelmävalmisteita, joissa metformiini on yhtenä vaikuttavana aineena):
+Alla on viisi esimerkkiä (kaikki yhdistelmävalmisteita, joissa metformiini on yhtenä vaikuttavana aineena):
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
@@ -127,14 +127,14 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat tästä aineistosta, j
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste on pelkkä mallilaskenta (L5): kliinisiä tutkimuksia ja julkaisuja ei ole, eikä mekanistinen yhteys metformiinin vaikutukseen ole uskottava. Lisäksi Suomessa ei ole voimassa olevia metformiinia sisältäviä myyntilupia.
+- Ennuste on pelkkä mallilaskenta (L5): kliinisiä tutkimuksia ja julkaisuja ei ole, eikä mekanistinen yhteys metformiinin vaikutukseen ole uskottava.
 
 **Jatkaminen edellyttää seuraavaa:**
 - Vaikutusmekanismitietojen (MOA) täydentäminen
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean aineistosta (turvallisuusarvion edellytys)
 - Prekliinisen tai mekanistisen näytön kartoittaminen metformiinin vaikutuksesta jäykän ihmisen oireyhtymän kirjoon (esim. AMPK/mTOR-vaikutukset T-soluihin)
 - Systemaattinen kirjallisuushaku ja kliinisten tutkimusten rekisterihaku
-- Tarkistus, onko Suomessa voimassa olevia metformiinivalmisteita (nykyisessä aineistossa kaikki 19 myyntilupaa on peruutettu)
+- Tarkistus, onko Suomessa voimassa olevia metformiinivalmisteita
 - Muiden ennustettujen käyttöaiheiden (erityisesti lipodystrofia ja tiamiinille vastaava oireyhtymä) vertailu, sillä niillä on epäsuora biologinen perustelu
 ## Vastuuvapauslauseke
 

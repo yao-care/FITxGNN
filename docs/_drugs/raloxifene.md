@@ -96,7 +96,7 @@ Pakkausselosteen varoitus- ja vasta-aihetietoja ei ole tällä hetkellä saatavi
 
 **Perustelut:**
 - Ennusteen tueksi ei ole kliinisiä tutkimuksia eikä kirjallisuutta (näytön taso L5), eikä mekanistista yhteyttä pohjukaissuolen haavaumaan ole osoitettu.
-- Suomessa kaikki myyntiluvat on peruutettu, ja tietämysgraafin mukaan vasta-aiheita on runsaasti.
+- Tietämysgraafin mukaan vasta-aiheita on runsaasti.
 
 **Eteneminen edellyttää seuraavaa:**
 - Vaikutusmekanismitiedot (MOA), esimerkiksi DrugBankista
@@ -104,7 +104,7 @@ Pakkausselosteen varoitus- ja vasta-aihetietoja ei ole tällä hetkellä saatavi
 - Prekliininen tai mekanistinen näyttö raloksifeenin vaikutuksesta pohjukaissuolen haavaumaan
 - Systemaattinen kirjallisuushaku ja kliinisten tutkimusten rekisterihaku
 - Alkuperäisen ja uuden käyttöaiheen samankaltaisuuden sekä antoreittien yhteensopivuuden arviointi
-- Selvitys siitä, onko lääkkeen saatavuus Suomessa mahdollista, kun voimassa olevia myyntilupia ei ole
+- Selvitys siitä, onko lääkkeen saatavuus Suomessa mahdollista
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

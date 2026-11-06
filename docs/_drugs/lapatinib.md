@@ -74,8 +74,6 @@ Tällä hetkellä ei ole aiheeseen liittyvää kirjallisuutta.
 |---------|------|------|-----------|
 | EMEA/H/C/000795 | Tyverb | – | Rintasyöpä (Breast Neoplasms) |
 
-Myyntilupa on peruutettu (valmistaja Novartis Europharm Limited), eikä Suomessa ole voimassa olevia myyntilupia.
-
 ## Sytotoksisuus
 
 | Kohde | Sisältö |
@@ -100,13 +98,13 @@ Muuta turvallisuustietoa varten katso valmisteyhteenveto.
 **Päätös: Hold (odotetaan)**
 
 **Perustelut:**
-- Vaikka TxGNN-pistemäärä on korkea (0,9930), ennuste on pelkkä laskennallinen ehdotus ilman kliinisiä tutkimuksia tai julkaisuja (näyttötaso L5). Lapatinibilla ei ole osoitettua vaikutusta DFSP:n pääajuriin PDGFRB:hen, ja DFSP:lle on jo vakiintunut kohdennettu hoito (imatinibi). Lisäksi Suomen myyntilupa on peruutettu.
+- Vaikka TxGNN-pistemäärä on korkea (0,9930), ennuste on pelkkä laskennallinen ehdotus ilman kliinisiä tutkimuksia tai julkaisuja (näyttötaso L5). Lapatinibilla ei ole osoitettua vaikutusta DFSP:n pääajuriin PDGFRB:hen, ja DFSP:lle on jo vakiintunut kohdennettu hoito (imatinibi).
 
 **Eteenpäin siirtyminen edellyttää:**
 - Vaikutusmekanismitietojen täydentämistä (esim. DrugBankista) ja mekanistisen yhteyden arviointia DFSP:hen
 - Prekliinistä näyttöä (esim. DFSP-solulinjat, EGFR/HER2-ekspression ja -signaloinnin tarkastelu kasvaimissa)
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivustolta turvallisuusarviota varten
-- Arviota siitä, tuoko lapatinibi lisäarvoa imatinibiin verrattuna, sekä tilanteen selvittämistä, kun valmiste ei ole markkinoilla Suomessa
+- Arviota siitä, tuoko lapatinibi lisäarvoa imatinibiin verrattuna, sekä tilanteen selvittämistä
 - Sydän- (QT-aika, sydämen vajaatoiminta), maksa- ja keuhkoturvallisuuden seurantasuunnitelmaa, jos jatkotutkimuksia harkitaan
 ## Vastuuvapauslauseke
 

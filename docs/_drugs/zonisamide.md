@@ -98,7 +98,7 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla tähän rapor
 **Päätös: Hold (odotetaan)**
 
 **Perustelut:**
-- Touretten oireyhtymän ennuste on pelkkä laskennallinen tulos (L5) ilman kliinisiä tutkimuksia tai kirjallisuutta, ja epilepsialääkkeisiin liittyy tic-oireiden riski. Lisäksi lääkkeellä ei ole voimassa olevaa myyntilupaa Suomessa.
+- Touretten oireyhtymän ennuste on pelkkä laskennallinen tulos (L5) ilman kliinisiä tutkimuksia tai kirjallisuutta, ja epilepsialääkkeisiin liittyy tic-oireiden riski.
 
 **Jatkoa varten tarvitaan:**
 - Tsoniamidin vaikutusmekanismin tiedot (DrugBank)

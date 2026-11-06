@@ -121,7 +121,7 @@ HLH-ehdokkaan suojatoimet: käyttö erikoissairaanhoidon keskuksissa, sytopenioi
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden kokoaminen Fimean sivustolta (nykyinen tietoaukko estää turvallisuusseulonnan).
 - Vaikutusmekanismin tarkka kuvaus DrugBankista.
 - Prospektiiviset kliiniset tutkimukset HLH:ssa ja rekisteröityjen tutkimusten haku.
-- Suomen myyntilupatilanteen selvittäminen, koska kaikki luvat on peruutettu.
+- Suomen myyntilupatilanteen selvittäminen.
 - HLH:n osalta aikuisten ja lasten erillisarviointi sekä malignitologiaan liittyvän HLH:n omat tutkimukset.
 ## Vastuuvapauslauseke
 

@@ -100,7 +100,7 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole tässä aineistossa saat
 **Päätös: Hold (odota)**
 
 **Perustelu:**
-- Ennuste perustuu pelkästään korkeaan TxGNN-pistemäärään (L5), eikä kliinisiä tutkimuksia tai julkaisuja ole. Kohonnut plasman sinkki on laboratoriolöydös, ja mekanistinen yhteys on spekulatiivinen. Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa, ja turvallisuustiedot puuttuvat.
+- Ennuste perustuu pelkästään korkeaan TxGNN-pistemäärään (L5), eikä kliinisiä tutkimuksia tai julkaisuja ole. Kohonnut plasman sinkki on laboratoriolöydös, ja mekanistinen yhteys on spekulatiivinen.
 
 **Etenemiseksi tarvitaan:**
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (Fimea), jotka estävät turvallisuusarvioinnin jatkamisen

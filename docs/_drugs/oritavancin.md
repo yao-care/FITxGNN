@@ -106,7 +106,7 @@ Muista turvallisuustiedoista (varoitukset, vasta-aiheet) katso valmisteyhteenvet
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu vain mallin pisteytykseen (L5), eikä kliinisiä tutkimuksia tai kirjallisuutta ole. Mekanistinen yhteys on biologisesti heikko, koska glykopeptidit eivät yleensä läpäise gram-negatiivisten anaerobien ulkokalvoa. Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa.
+- Ennuste perustuu vain mallin pisteytykseen (L5), eikä kliinisiä tutkimuksia tai kirjallisuutta ole. Mekanistinen yhteys on biologisesti heikko, koska glykopeptidit eivät yleensä läpäise gram-negatiivisten anaerobien ulkokalvoa.
 
 **Jatkoa varten tarvitaan:**
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet turvallisuusarvioinnin tekemiseksi

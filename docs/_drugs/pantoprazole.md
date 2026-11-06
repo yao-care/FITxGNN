@@ -117,8 +117,6 @@ Pohjukaissuolihaavan osalta vahvimmat suorat tutkimukset ovat satunnaistetut ver
 | EMEA/H/C/001098 | Somac Control | – | Gastroesofageaalinen refluksi |
 | EMEA/H/C/001013 | Pantozol Control | – | Gastroesofageaalinen refluksi |
 
-Kaikki kolme myyntilupaa (valmistaja Takeda GmbH) on peruutettu, eikä voimassa olevia lupia ole.
-
 ## Turvallisuushuomiot
 
 - **Tietokannan vasta-aiheet (tietämysgraafiin perustuvat, eivät valmisteyhteenvedosta):** osteoporoosi, postmenopausaalinen osteoporoosi, luunmurtuma ja pernisiöösi anemia.
@@ -137,13 +135,12 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat, joten ne tulee tarkis
 **Perustelut:**
 - Pantopratsolin happoestomekanismi sopii suoraan peptisen haavataudin ja pohjukaissuolihaavan hoitoon, ja näille on useita vaiheen 3 tutkimuksia sekä satunnaistettuja vertailuja ranitidiiniin ja omepratsoliin. Peptisen haavataudin ensisijaisessa ennusteessa suoraa tukea antaa kuitenkin vain yksi päättynyt vaiheen 3 tutkimus, jonka otsikko on katkaistu.
 - Muiden ennustettujen käyttöaiheiden päätökset: gastrojejunaalihaava, haavan puhkeama ja duodenogastrinen refluksi ovat tutkimuskysymystasolla (L3), ja pohjukaissuolen tukos on pidossa (Hold; L5), koska tila on mekaaninen eikä happoesto ratkaise sitä.
-- Suomessa kaikki myyntiluvat on peruutettu, mikä rajoittaa suoraa käyttöönottoa.
 
 **Etenemiseksi tarvitaan:**
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (turvallisuusseulonnan estävä aineistopuute)
 - Tutkimuksen NCT02084420 vertailuasetelman ja päätetapahtuman varmistus
 - Virallinen mekanismitieto (DrugBank)
-- Myyntilupatilanteen selvitys Suomessa, koska voimassa olevia lupia ei ole
+- Myyntilupatilanteen selvitys Suomessa
 - Luustoon liittyvien vasta-aiheiden (osteoporoosi, murtumat) ja B12-puutteen arviointi pitkäaikaiskäytössä
 ## Vastuuvapauslauseke
 

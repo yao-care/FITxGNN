@@ -137,7 +137,6 @@ Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 **Perustelut:**
 - Pemetreksedi-platina on käytännössä vakiintunut vatsakalvon mesoteliooman systeeminen hoito, ja näyttöä on vaiheen 2 tutkimuksista ja retrospektiivisistä aineistoista. Vatsakalvokohtaisia vaiheen 3 tutkimuksia ei kuitenkaan ole, joten näytön taso on L2.
-- Kaikki neljä suomalaista myyntilupaa on peruutettu, joten saatavuus on selvitettävä.
 
 **Jatkoon tarvitaan:**
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (tällä hetkellä puuttuvat; estävä tietoaukko)

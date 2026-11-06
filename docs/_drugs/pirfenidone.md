@@ -93,8 +93,6 @@ Kirjallisuutta löytyi vain fibroblastiselle neoplasialle (ennuste sijalla 9). M
 
 ## Markkinatiedot Suomessa
 
-Kaikki kolme myyntilupaa on peruutettu, eikä voimassa olevia lupia ole.
-
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
 | EMEA/H/C/005862 | Pirfenidone Viatris | – | Idiopaattinen keuhkofibroosi; keuhkosairaudet; hengitystiesairaudet (peruutettu) |
@@ -128,14 +126,13 @@ Muuten turvallisuustiedoista, varoituksista ja vasta-aiheista, tulee tutustua va
 **Päätös: Hold (odotetaan)**
 
 **Perustelut:**
-- Ensisijaisella ennusteella ja yhdeksällä kymmenestä ennusteesta ei ole yhtään kliinistä tutkimusta tai kirjallisuutta, ja mekanistinen yhteys on heikko tai puuttuu. Ainoa hieman tuettu ennuste (fibroblastinen neoplasia) perustuu soluviljelytutkimuksiin hyvänlaatuisesta taudista, ja samalla on esiintynyt ristiriitaisia turvallisuussignaaleja kasvainten osalta. Lisäksi lääkkeellä ei ole voimassa olevaa myyntilupaa Suomessa.
+- Ensisijaisella ennusteella ja yhdeksällä kymmenestä ennusteesta ei ole yhtään kliinistä tutkimusta tai kirjallisuutta, ja mekanistinen yhteys on heikko tai puuttuu. Ainoa hieman tuettu ennuste (fibroblastinen neoplasia) perustuu soluviljelytutkimuksiin hyvänlaatuisesta taudista, ja samalla on esiintynyt ristiriitaisia turvallisuussignaaleja kasvainten osalta.
 
 **Jatkaminen edellyttää seuraavaa:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittäminen (kriittinen puute, estää turvallisuusseulonnan)
 - Yksityiskohtaisen vaikutusmekanismin tietojen täydentäminen
 - Prekliiniset tutkimukset pahanlaatuisissa fibroblastisissa solumalleissa ennen kliinisiä suunnitelmia
 - Turvallisuussignaalien (sarkooma, dermatofibroomat) arviointi
-- Myyntiluvan peruuntumisen syiden ja tämän vaikutuksen selvittäminen
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

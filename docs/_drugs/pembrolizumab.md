@@ -98,7 +98,7 @@ Muuten turvallisuustietoja varten tulee tutustua valmisteyhteenvetoon.
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu pelkästään mallilaskentaan: kliinisiä tutkimuksia ja julkaisuja ei ole, eikä PD-1-estolle ole uskottavaa biologista perustetta hyvänlaatuisessa ienkasvun häiriössä. Lisäksi Suomessa on vain peruutettu myyntilupa.
+- Ennuste perustuu pelkästään mallilaskentaan: kliinisiä tutkimuksia ja julkaisuja ei ole, eikä PD-1-estolle ole uskottavaa biologista perustetta hyvänlaatuisessa ienkasvun häiriössä.
 
 **Etenemiseksi tarvitaan:**
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (Fimea) sekä vaikutusmekanismitiedot (DrugBank).

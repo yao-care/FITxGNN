@@ -120,8 +120,6 @@ Alla on valikoima merkityksellisimpiä tutkimuksia (enintään 10).
 |---------|------|------|-----------|
 | EMEA/H/C/000818 | Nevanac | – | Leikkauksen jälkeinen kipu; silmäkirurgiset toimenpiteet (tila: peruutettu) |
 
-Ainoa myyntilupa (Novartis Europharm Limited) on peruutettu, joten tuotteen saatavuus on tarkistettava.
-
 ---
 
 ## Turvallisuusnäkökohdat
@@ -143,7 +141,6 @@ Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 **Jatkoa varten tarvitaan:**
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet Fimean lähteistä (nykyinen tietoaukko estää turvallisuusarvioinnin)
 - Yksityiskohtaiset vaikutusmekanismitiedot (MOA) lääketietokannasta
-- Saatavuuden varmistaminen, koska Suomen myyntilupa on peruutettu (mahdolliset muut valmisteet, esim. 0,3 % vahvuus)
 - Sarveiskalvon sairauksien ja diabeteksen riskipotilaiden turvallisuusseurantasuunnitelma
 - Arvio siitä, kuinka laajasti "silmäsairaus"-ennuste on tarkennettava konkreettisiin käyttöaiheisiin (esim. makulaturvotus)
 ## Vastuuvapauslauseke

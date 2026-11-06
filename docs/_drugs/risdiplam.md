@@ -85,14 +85,13 @@ Muiden turvallisuustietojen osalta katso valmisteyhteenveto.
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu yksinomaan mallin pistemäärään (L5), eikä kliinisiä tutkimuksia, kirjallisuutta tai dokumentoitua vaikutusmekanismia ole. Lisäksi valmisteen myyntilupa Suomessa on peruutettu.
+- Ennuste perustuu yksinomaan mallin pistemäärään (L5), eikä kliinisiä tutkimuksia, kirjallisuutta tai dokumentoitua vaikutusmekanismia ole.
 
 **Jatkamiseksi tarvitaan:**
 - Vaikutusmekanismin tiedot ja biologisen yhteyden arviointi aknen patogeneesiin
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet turvallisuusseulontaa varten
 - Prekliiniset tai varhaiset kliiniset tutkimukset, jotka tukevat aknen käyttöaihetta
 - Antoreittien yhteensopivuuden arviointi (akne vs. nykyinen valmistemuoto)
-- Myyntiluvan peruuntumisen syyn ja nykyisen saatavuuden selvittäminen Suomessa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

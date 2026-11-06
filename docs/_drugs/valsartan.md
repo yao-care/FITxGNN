@@ -121,8 +121,6 @@ Toissijaisen ennusteen (pahanlaatuinen renovaskulaarinen hypertensio) tuki:
 | EMEA/H/C/004037 | Amlodipine / Valsartan Mylan | – | Verenpainetauti |
 | EMEA/H/C/004062 | Entresto | – | Sydämen vajaatoiminta |
 
-Kaikki yhdeksän myyntilupaa on peruutettu.
-
 ---
 
 ## Turvallisuusnäkökohdat
@@ -140,7 +138,7 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla; ne on tarkis
 **Päätös: Hold (odotetaan)**
 
 **Perustelut:**
-- Ennuste perustuu lähinnä TxGNN-pisteisiin; kliinisiä tutkimuksia ei ole, ja ainoa kirjallisuuslöydös koskee toista lääkettä (avosentaani). Valsartaani on jo käytössä verenpainetaudissa, joten lisäarvo olisi pieni. Lisäksi kaikki Suomen myyntiluvat on peruutettu.
+- Ennuste perustuu lähinnä TxGNN-pisteisiin; kliinisiä tutkimuksia ei ole, ja ainoa kirjallisuuslöydös koskee toista lääkettä (avosentaani). Valsartaani on jo käytössä verenpainetaudissa, joten lisäarvo olisi pieni.
 
 **Eteneminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivuilta (estää turvallisuusseulonnan).

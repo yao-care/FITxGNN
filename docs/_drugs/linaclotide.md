@@ -109,13 +109,12 @@ Lieviä yhteisvaikutuksia on mm. protonipumpun estäjien (esim. rabepratsoli, es
 **Päätös: Hold (odotetaan)**
 
 **Perustelut:**
-- Kaikki kolme ennustetta ovat tasolla L5: pelkkää mallin ennustetta ilman kliinisiä tutkimuksia tai julkaisuja. Mekanistinen yhteys on heikko tai epäsuora, ja mahdollinen hyöty rajoittuisi neurogeenisen suolen oireisiin. Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa.
+- Kaikki kolme ennustetta ovat tasolla L5: pelkkää mallin ennustetta ilman kliinisiä tutkimuksia tai julkaisuja. Mekanistinen yhteys on heikko tai epäsuora, ja mahdollinen hyöty rajoittuisi neurogeenisen suolen oireisiin.
 
 **Edetäkseen tarvitaan seuraavat:**
 - Valmisteyhteenvedon turvallisuustiedot (varoitukset ja vasta-aiheet) Fimean sivuilta. Tämä on estävä tietoaukko.
 - Yksityiskohtaiset vaikutusmekanismitiedot DrugBankista.
 - Systemaattinen kirjallisuushaku neurogeenisen suolen toimintahäiriön hoidosta linaklotidilla selkäydin- ja cauda equina -vammapotilailla.
-- Arvio markkinatilanteesta: nykyisen myyntiluvan peruutuksen syyt ja mahdolliset muut linaklotidivalmisteet EU:ssa.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

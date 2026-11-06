@@ -42,7 +42,6 @@ Näytön taso: **N/A** | Ennustetut käyttöaiheet: **0** kpl
 |------|------|
 | Alkuperäinen käyttöaihe | Breast Neoplasms |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
-| Taiwanin markkinatilanne | ✗ Ei markkinoilla |
 | Myyntilupien määrä | 1 (voimassa: 1) |
 
 ---

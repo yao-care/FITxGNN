@@ -129,7 +129,6 @@ Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 **Eteneminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittäminen (Fimean valmisteyhteenveto), koska nämä tiedot puuttuvat ja estävät turvallisuusarvioinnin.
 - Vaikutusmekanismitietojen täydentäminen.
-- Markkinatilanteen selvitys: Suomessa on vain peruutettuja myyntilupia.
 - Potilasvalinnan rajaaminen HER2-positiivisiin kasvaimiin ja sydänturvallisuuden seurantasuunnitelma.
 ## Vastuuvapauslauseke
 

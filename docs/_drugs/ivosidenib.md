@@ -117,14 +117,14 @@ Muiden turvallisuustietojen osalta tarkista valmisteyhteenveto.
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Bulbaarisen polion ennuste perustuu pelkkään mallilaskentaan (L5), ilman kliinisiä tutkimuksia tai kirjallisuutta, eikä uskottavaa mekanistista yhteyttä ole. Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa.
+- Bulbaarisen polion ennuste perustuu pelkkään mallilaskentaan (L5), ilman kliinisiä tutkimuksia tai kirjallisuutta, eikä uskottavaa mekanistista yhteyttä ole.
 - Hoitoon liittyvät akuutit myeloidileukemiat ja myelodysplastiset oireyhtymät ovat biologisesti uskottavampia, mutta nekin vaativat lisänäyttöä.
 
 **Jatkotoimiin tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittäminen (estää turvallisuusseulonnan jatkamisen)
 - Vaikutusmekanismitietojen täydentäminen
 - Selvitys siitä, ovatko olemassa olevat akuutin myeloidileukemian tai myelodysplastisen oireyhtymän tutkimukset sisältäneet hoitoon liittyviä tapauksia, sekä IDH1-mutaatiostatuksen vahvistaminen
-- Myyntilupatilanteen selvittäminen Suomessa (nykyinen lupa on peruutettu)
+- Myyntilupatilanteen selvittäminen Suomessa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

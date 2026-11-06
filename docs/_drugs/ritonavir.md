@@ -135,14 +135,12 @@ Keskivaikeita (Moderate) ovat mm. asarboosi, hydrokortisoni, metformiini, deksam
 **Perustelut:**
 - Ennusteet perustuvat laskennalliseen malliin ilman kliinisiä tutkimuksia. FIV:lle ei ole lainkaan kirjallisuutta, ja SIV-näyttö on epäsuoraa esikliinistä tietoa. SIV on lisäksi HIV:n eläinmalli, ei uusi ihmisen käyttöaihe.
 - Neurokehityshäiriöllä ei ole tunnistettavaa mekanistista yhteyttä.
-- Ritonaviirilla ei ole tällä hetkellä voimassa olevia myyntilupia Suomessa.
 
 **Jatkotoimiin tarvitaan:**
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (estää tällä hetkellä turvallisuusseulonnan)
 - Yksityiskohtaiset vaikutusmekanismitiedot (DrugBank)
 - FIV-proteaasin ritonaviiriherkkyyttä koskevat in vitro -tiedot ja eläinlääkinnällinen turvallisuusarvio
 - SIV-tutkimusten täydet tekstit, jotta ritonaviirin osuus voidaan erottaa muista yhdistelmähoidon lääkkeistä
-- Selvitys myyntilupien peruuntumisen syistä ja nykyisestä saatavuudesta
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

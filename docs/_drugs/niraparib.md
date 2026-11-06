@@ -136,7 +136,6 @@ Muuten turvallisuustietojen osalta katso valmisteyhteenveto.
 
 **Perustelut:**
 - Kystisen neoplasian osalta näyttö on epäsuoraa: tutkimukset koskevat seroosia munasarja- ja kohdun limakalvon syöpää, ja ne ovat pääosin alkuperäisen käyttöaiheen laajennuksia. Vaiheen 3 satunnaistettua tutkimusta ei ole, ainoa vaiheen 2 tutkimus on yhä käynnissä ilman tuloksia, ja kaksi muuta tutkimusta on keskeytetty tai peruttu. Muiden yhdeksän ennusteen (mm. epiglottiksen, kielen, suunpohjan ja hypofarynxin kasvaimet, kohdunkaulan neuroblastooma, kives- ja lisäkivesten kasvain, sisäkorvan kasvain, esiasteneoplasia, jugulaarisen aukon schwannooma) kohdalla ei ole lainkaan tutkimus- tai kirjallisuusnäyttöä (L5), ja korkea pistemäärä vaikuttaa yleiseltä kasvainluokan signaalilta. Hyvänlaatuisissa kasvaimissa riski–hyötysuhde on lisäksi epäedullinen.
-- Suomessa kummatkin myyntiluvat on peruttu.
 
 **Jatkoon siirtymiseksi tarvitaan:**
 - Valmisteyhteenvedon (Fimea) varoitukset ja vasta-aiheet, jotka ovat estävä tietoaukko turvallisuusseulonnassa
@@ -144,7 +143,6 @@ Muuten turvallisuustietojen osalta katso valmisteyhteenveto.
 - Kystisen neoplasian täsmällinen määrittely ja sen biologisen yhteyden (esim. HRD-status) selvittäminen
 - Käynnissä olevan vaiheen 2 tutkimuksen (NCT04716686) tulokset
 - Kirjallisuuden relevanssiarvioinnin viimeistely (osa julkaisuista vielä arvioimatta)
-- Selvitys myyntilupien peruuntumisen syistä ja nykyisestä saatavuudesta Suomessa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

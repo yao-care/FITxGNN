@@ -152,14 +152,14 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet eivät ole saatavilla; katso tuo
 **Päätös: Hold (odota; tutkimuskysymys)**
 
 **Perustelut:**
-- Ennustettu myeloidinen leukemia perustuu monilääkeprotokolliin, joissa merkaptopuriinin oma panos ei erotu, ja yksittäishoidon satunnaistettua näyttöä ei ole. Suomessa ainoa myyntilupa on peruutettu.
+- Ennustettu myeloidinen leukemia perustuu monilääkeprotokolliin, joissa merkaptopuriinin oma panos ei erotu, ja yksittäishoidon satunnaistettua näyttöä ei ole.
 - Aineiston vahvimmat tulokset (ALL, prekursori-lymfoblastileukemia/lymfooma; L1, "Proceed with Guardrails") ovat lääkkeen alkuperäistä käyttöä, eivät uudelleenkäyttöä.
 
 **Jatkaminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankinta (puute estää turvallisuusseulonnan)
 - Vaikutusmekanismin tarkka dokumentointi
 - Merkaptopuriinin osuuden erottaminen AML-ylläpitohoidosta (esim. kontrolloitu tutkimus tai alaryhmäanalyysi)
-- Valmisteen saatavuuden vahvistaminen Suomessa (myyntilupa peruutettu)
+- Valmisteen saatavuuden vahvistaminen Suomessa
 - Suojatoimet: TPMT/NUDT15-genotyypitys ja annoksen säätö, luuydin- ja maksatoksisuuden seuranta sekä yhteisvaikutusten hallinta (esim. allopurinoli, metotreksaatti)
 ## Vastuuvapauslauseke
 

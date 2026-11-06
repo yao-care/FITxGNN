@@ -126,13 +126,12 @@ Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Korkeimmin pisteytetyille ennusteille (hyperamylasemia, hyperviskositeettioireyhtymä, analbuminemia) ei ole mekanistista perustetta eikä tutkimusnäyttöä. Gonokokkiuretriitti on uskottavin (L3), mutta se on suora antibakteerinen käyttö ilman satunnaistettuja tutkimuksia, resistenssiä on raportoitu ja Suomen myyntilupa on peruutettu.
+- Korkeimmin pisteytetyille ennusteille (hyperamylasemia, hyperviskositeettioireyhtymä, analbuminemia) ei ole mekanistista perustetta eikä tutkimusnäyttöä. Gonokokkiuretriitti on uskottavin (L3), mutta se on suora antibakteerinen käyttö ilman satunnaistettuja tutkimuksia, resistenssiä on raportoitu.
 
 **Jatkoon tarvitaan:**
 - Valmisteyhteenvedon varoitus- ja vasta-aihetiedot (Fimea) – estävä tietoaukko
 - Vaikutusmekanismitiedot (DrugBank)
 - Gonokokkiuretriitille satunnaistettu tutkimusnäyttö ja ajantasainen resistenssitieto sekä vertailu nykyisiin suosituksiin
-- Arvio myyntiluvan tilanteesta ja saatavuudesta Suomessa (Emblaveo peruutettu)
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

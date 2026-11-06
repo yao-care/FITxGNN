@@ -125,7 +125,7 @@ Muiden varoitusten ja vasta-aiheiden osalta katso valmisteyhteenveto.
 
 **Perustelut:**
 - Suoraa anti-HBV-tehoa ei ole osoitettu: ainoa kohdeindikaation tutkimus on pieni (n=21), yksihaarainen faasin 2 tutkimus, ja aineisto koostuu pääosin HCV/HBV-samanaikaisinfektiosta, jossa HBV:n uudelleenaktivoituminen on keskeinen turvallisuusriski.
-- Mekanistinen peruste on heikko (HBV:llä ei ole NS5A-kohdetta), ja Suomen myyntilupa on peruutettu.
+- Mekanistinen peruste on heikko (HBV:llä ei ole NS5A-kohdetta).
 
 **Eteenpäin vietäessä tarvitaan:**
 - Satunnaistettu, kontrolloitu tutkimus HBV-monoinfektiossa, jossa on suurempi otos ja kliinisesti merkityksellisiä päätepisteitä

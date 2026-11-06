@@ -119,13 +119,11 @@ Muiden turvallisuustietojen osalta katso valmisteyhteenveto.
 
 **Perustelut:**
 - SIV-näyttö on suoraa ei-ihmisprimaattinäyttöä lääkkeen antiviraalisesta vaikutuksesta, mutta se on eläinmallidataa ilman ihmisillä tehtyjä kliinisiä tutkimuksia. SIV on lisäksi pääasiassa HIV:n tutkimusmalli, joten se ei ole itsenäinen ihmisen hoitoaihe ja tuo vähän lisäarvoa alkuperäiseen käyttöaiheeseen nähden.
-- Lääkkeen myyntilupa Suomessa on peruutettu, ja kaksi muuta ennustetta (FIV ja neurokehityshäiriö) perustuvat pelkkään mallipohjaiseen ennusteeseen (L5) ilman tukevaa näyttöä.
 
 **Eteneminen edellyttäisi seuraavaa:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimeasta (puute estää turvallisuusarvioinnin).
 - Vaikutusmekanismin tiedot (esim. DrugBankista) mekanistisen yhteyden analysointia varten.
 - Selkeä kysymys siitä, onko ennusteella ihmisen hoidon kannalta merkitystä, tai vaihtoehtoisesti eläinlääketieteellisen käytön (FIV) arviointi erikseen.
-- Myyntiluvan peruuntumisen syyn selvittäminen ja saatavuuden arviointi Suomessa.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

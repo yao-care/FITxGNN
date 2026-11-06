@@ -95,7 +95,7 @@ Muilta osin tarkemmat turvallisuustiedot, varoitukset ja vasta-aiheet löytyvät
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu pelkkään mallilaskentaan (L5): kliinisiä tutkimuksia ja julkaisuja ei ole, mekanismitieto puuttuu ja Suomessa valmisteen myyntilupa on peruutettu.
+- Ennuste perustuu pelkkään mallilaskentaan (L5): kliinisiä tutkimuksia ja julkaisuja ei ole, mekanismitieto puuttuu.
 
 **Jatkotoimiin tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden kokoaminen (turvallisuusarvion estävä puute)

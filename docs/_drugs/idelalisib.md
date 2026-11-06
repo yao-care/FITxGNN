@@ -56,7 +56,7 @@ Ennustetta tukevat tähän raporttiin koottujen tietojen mukaan **5 kliinistä t
 | Myyntilupien määrä | 1 (voimassa: 1) |
 | Suositeltu päätös | Hold (odota) |
 
-Huomio: tietojen mukainen pisteytys luokittelee manttelisolulymfooman tutkimuskysymykseksi (S1). Koska satunnaistettua näyttöä manttelisolulymfoomasta ei ole ja myyntilupa on peruutettu, päätös on varovainen.
+Huomio: tietojen mukainen pisteytys luokittelee manttelisolulymfooman tutkimuskysymykseksi (S1). Koska satunnaistettua näyttöä manttelisolulymfoomasta ei ole, päätös on varovainen.
 
 ---
 
@@ -123,7 +123,6 @@ Satunnaistettua, loppuun asti viedyä näyttöä manttelisolulymfoomasta ei ole.
 
 - **Lääkeyhteisvaikutukset:** Yhteisvaikutustietoja löytyi 100 kappaletta. Vakavaksi (Major) luokiteltuja ovat mm. loperamidi, triamsinoloni, budesonidi ja eliglustaatti. Kohtalaisia (Moderate) ovat mm. deksametasoni, hydrokortisoni, klaritromysiini, bupropioni, aprepitantti, pioglitatsoni, doksisykliini ja minosykliini.
 - **Tunnetut vakavat haitat:** Kootun näytön mukaan idelalisibiin liittyy maksatoksisuutta, vaikeaa ripulia/koliittia, pneumoniittia ja infektioita. Koliitti on erityinen huolenaihe ruoansulatuskanavan syövissä, kuten paksusuolen adenokarsinoomassa.
-- Valmisteen myyntilupa on peruutettu.
 
 Muilta osin turvallisuustiedot: ks. valmisteyhteenveto.
 
@@ -134,7 +133,7 @@ Muilta osin turvallisuustiedot: ks. valmisteyhteenveto.
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Manttelisolulymfoomasta on vain vaiheen 1 ja keskeytetty vaiheen 2 näyttöä, eikä loppuun vietyä satunnaistettua tutkimusta ole. Myyntilupa on peruutettu, tunnetut vakavat haitat (maksatoksisuus, koliitti, infektiot) ovat merkittäviä, ja uudemmat BTK- ja BCL2-estäjät ovat syrjäyttäneet idelalisibin.
+- Manttelisolulymfoomasta on vain vaiheen 1 ja keskeytetty vaiheen 2 näyttöä, eikä loppuun vietyä satunnaistettua tutkimusta ole.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivustolta (turvallisuusarvioinnin estävä tietoaukko)

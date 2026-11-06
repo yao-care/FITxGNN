@@ -126,13 +126,11 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole tämän raportin aineist
 **Perustelut:**
 - Korkeimman pistemäärän ennusteilla (polymikrogyria, ALS ym.) ei ole kliinistä näyttöä eikä uskottavaa mekanismia.
 - Unettomuudelle on vahva mekanistinen perustelu ja käynnissä oleva vaiheen 3 tutkimus (NCT06953869), mutta tuloksia ei vielä ole eikä valmista vaiheen 3 RCT:tä. Näyttötaso on siksi L3. Positiiviset tulokset voisivat nostaa tason L1:een.
-- Suomessa tasimelteonin ainoa myyntilupa on peruutettu, mikä rajoittaa käytännön saatavuutta.
 
 **Eteenpäin siirtyminen edellyttää:**
 - NCT06953869-tutkimuksen tulosten seuraamista (arvioitu päättyminen 2028).
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivuilta.
 - Tasimelteonin vaikutusmekanismitietojen täydentämistä DrugBankista.
-- Peruutetun myyntiluvan syyn selvittämistä sekä lääkemuoto- ja antoreittitietojen täydentämistä.
 - Masennuksen osalta suoran kliinisen datan hankkimista tasimelteonille ennen jatkoa.
 ## Vastuuvapauslauseke
 

@@ -119,7 +119,7 @@ Lääkkeiden yhteisvaikutuksia ei löytynyt kyselyssä.
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Gastropareesiennusteella on korkea laskennallinen pistemäärä, mutta ei kliinisiä tutkimuksia, ei kirjallisuutta eikä mekanistista perustetta (L5). Sklerosoivan kolangiitin prekliininen näyttö (L4) puhuu histidiinin hyödyllisyyttä vastaan, koska histamiinireitin esto lievensi tautia. Lisäksi Suomessa ainoa myyntilupa on peruutettu.
+- Gastropareesiennusteella on korkea laskennallinen pistemäärä, mutta ei kliinisiä tutkimuksia, ei kirjallisuutta eikä mekanistista perustetta (L5). Sklerosoivan kolangiitin prekliininen näyttö (L4) puhuu histidiinin hyödyllisyyttä vastaan, koska histamiinireitin esto lievensi tautia.
 
 **Jatkotoimiin tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvitys (Fimean sivusto), jotta turvallisuusseulonta on mahdollinen

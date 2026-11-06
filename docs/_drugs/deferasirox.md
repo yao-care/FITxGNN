@@ -108,14 +108,14 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut saatavilla tätä ra
 **Päätös: Hold (tutkimuskysymys)**
 
 **Perustelut:**
-- Ennuste perustuu mallipisteeseen ja yhteen prekliiniseen mekanistiseen tutkimukseen. Kliinistä näyttöä HIV-käytöstä ei ole, ja kaikki suomalaiset myyntiluvat on peruutettu.
+- Ennuste perustuu mallipisteeseen ja yhteen prekliiniseen mekanistiseen tutkimukseen. Kliinistä näyttöä HIV-käytöstä ei ole.
 
 **Eteenpäin siirtymiseksi tarvitaan:**
 - Vaikutusmekanismitiedot (MOA)
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet turvallisuusarviointia varten
 - Lisää prekliinistä näyttöä (esim. solu- ja eläinmallit) deferasiroksin vaikutuksesta HIV:hen
 - Kliinisen tutkimuksen suunnitelma ja arvio hyöty–haitta-suhteesta, erityisesti maksan, munuaisten ja veriarvojen turvallisuuden osalta
-- Selvitys valmisteen saatavuudesta Suomessa, koska kaikki myyntiluvat on peruutettu
+- Selvitys valmisteen saatavuudesta Suomessa
 
 **Muut ennustetut käyttöaiheet (kaikki tasolla L5, ei tukevaa näyttöä):** krooninen hepatiitti C -infektio (Hold; mekanistinen yhteys vain pääteltävissä), harvinainen neurokehityshäiriö, vanhentunut perinnöllisen yhdistetyn hyperlipidemian termi sekä dermatofibrosarcoma protuberans.
 ## Vastuuvapauslauseke

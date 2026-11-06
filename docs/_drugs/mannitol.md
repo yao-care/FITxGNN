@@ -102,7 +102,6 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet on tarkistettava Fimean valmiste
 
 **Perustelut:**
 - Ennusteen pistemäärä on korkea, mutta tutkimus- tai kirjallisuusnäyttöä mannitolista NSIAD:ssa ei ole. Mekanistinen yhteys on heikko ja käyttöön liittyy haittojen riski (translokaatiohyponatremia).
-- Ainoa Suomen myyntilupa on peruutettu.
 
 **Jatkoa varten tarvitaan:**
 - Mannitolin vaikutusmekanismitiedot (DrugBank)

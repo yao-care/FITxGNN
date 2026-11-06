@@ -120,7 +120,7 @@ Muilta osin tarkista turvallisuustiedot valmisteyhteenvedosta.
 
 **Perustelut:**
 - Ennusteella on korkeat pisteet mutta ei yhtään kliinistä tutkimusta, julkaisua tai tunnistettua mekanistista yhteyttä. Näyttö on vain mallipohjaista (L5).
-- Valmisteen myyntilupa Suomessa on peruutettu, ja valmisteyhteenvedon turvallisuustietoja ei ole saatavilla.
+- Valmisteyhteenvedon turvallisuustietoja ei ole saatavilla.
 
 **Jatkoon tarvitaan:**
 - Vaikutusmekanismin (MOA) tiedot, esimerkiksi DrugBankista

@@ -124,14 +124,13 @@ Lisätietoja varoituksista ja vasta-aiheista on valmisteyhteenvedossa.
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennusteelle ei ole mekanistista perustetta: HBV:llä ei ole NS5A-kohdetta, ja kaikki tutkimukset koskevat HCV-hoitoa tai HCV/HBV-samanaikaista infektiota, jossa HBV:hen tehoaa TAF. Suomessa kummankin valmisteen myyntiluvat on peruutettu.
+- Ennusteelle ei ole mekanistista perustetta: HBV:llä ei ole NS5A-kohdetta, ja kaikki tutkimukset koskevat HCV-hoitoa tai HCV/HBV-samanaikaista infektiota, jossa HBV:hen tehoaa TAF.
 - Muista ennustetuista käyttöaiheista (mm. hepatiitti E ja A, HIV, Omskin verenvuotokuume, Kyasanur-metsätauti) mikään ei saa tukea tutkimuksista tai kirjallisuudesta. Hepatiitti A- ja HIV-tutkimukset ovat HCV-tutkimuksia, jotka on liitetty ennusteeseen luokkien päällekkäisyyden perusteella.
 
 **Etenemiseksi tarvitaan:**
 - Velpatasviirin vaikutusmekanismitiedot (esim. DrugBankista)
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet Fimeasta (puuttuvat, estävä aukko turvallisuusarvioinnissa)
 - In vitro -näyttö velpatasviirin mahdollisesta anti-HBV-aktiivisuudesta
-- Selvitys myyntilupien peruuttamisen syistä ja nykyisestä saatavuudesta Suomessa
 - HBV-reaktivaation seurantasuunnitelma, jos käyttöä HCV/HBV-samanaikaisinfektiossa harkitaan
 ## Vastuuvapauslauseke
 

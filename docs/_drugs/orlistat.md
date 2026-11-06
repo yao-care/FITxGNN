@@ -90,7 +90,7 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat aineistosta, joten ne 
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu pelkkään laskennalliseen malliin (L5) ilman kliinistä tai kirjallista näyttöä. Lisäksi lääkkeen tunnettu haittavaikutus, vitamiinipuutos, on ristiriidassa käyttöaiheen kanssa, ja kaikki myyntiluvat Suomessa on peruutettu.
+- Ennuste perustuu pelkkään laskennalliseen malliin (L5) ilman kliinistä tai kirjallista näyttöä. Lisäksi lääkkeen tunnettu haittavaikutus, vitamiinipuutos, on ristiriidassa käyttöaiheen kanssa.
 
 **Eteneminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hakemista Fimean sivustolta (estää turvallisuusarvioinnin jatkamisen).

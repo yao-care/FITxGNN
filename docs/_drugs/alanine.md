@@ -108,7 +108,7 @@ Lääkeyhteisvaikutuksia ei löytynyt. Valmisteyhteenvedon varoituksia ja vasta-
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu pelkästään TxGNN-mallin pisteytykseen (näytön taso L5). Kliinisiä tutkimuksia ei ole, eikä löydetyistä julkaisuista mikään tutki alaniinia gastropareesin hoidossa. Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa.
+- Ennuste perustuu pelkästään TxGNN-mallin pisteytykseen (näytön taso L5). Kliinisiä tutkimuksia ei ole, eikä löydetyistä julkaisuista mikään tutki alaniinia gastropareesin hoidossa.
 
 **Jatkoon siirtyminen edellyttää:**
 - Vaikutusmekanismitietojen (MOA) täydentämistä ja mekanistisen yhteyden selvittämistä alaniinin ja mahalaukun motiliteetin välillä

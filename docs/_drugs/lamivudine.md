@@ -86,8 +86,6 @@ Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkim
 
 ## Suomen markkinatiedot
 
-Kaikki lamivudiinia sisältävät keskitetyt myyntiluvat on peruutettu.
-
 | Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
 | EMEA/H/C/000242 | Zeffix | – | Krooninen hepatiitti B |
@@ -112,7 +110,7 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla, joten tarkis
 **Päätös: Hold**
 
 **Perustelut:**
-- Ennuste on mekanistisesti uskottava, mutta näyttö on vain eläinlääketieteellistä ja yhdistelmähoitoihin perustuvaa. Lamivudiinin oma osuus on erottamatta, eikä kyseessä ole uusi ihmisen käyttöaihe. Lääkkeellä ei myöskään ole voimassa olevia myyntilupia Suomessa.
+- Ennuste on mekanistisesti uskottava, mutta näyttö on vain eläinlääketieteellistä ja yhdistelmähoitoihin perustuvaa. Lamivudiinin oma osuus on erottamatta, eikä kyseessä ole uusi ihmisen käyttöaihe.
 
 **Edetäkseen tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden haku ja jäsentäminen Fimean sivuilta (estää turvallisuusarvioinnin jatkamisen)

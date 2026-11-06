@@ -119,13 +119,11 @@ Pakkausselosteen varoituksia ja vasta-aiheita ei ollut saatavilla, joten ne on t
 
 **Perustelut:**
 - Unettomuudesta ei ole kliinisiä tutkimuksia, ja pitolisantin valppautta lisäävä vaikutus on ristiriidassa unettomuuden hoidon kanssa. Korkea ennustepistemäärä on todennäköisesti verkostoartefakta.
-- Lisäksi molemmat Suomen myyntiluvat on peruutettu.
 
 **Jatkoa varten tarvitaan:**
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (Fimea), jotta turvallisuusarviointi voidaan aloittaa
 - Yksityiskohtainen vaikutusmekanismitieto (DrugBank)
 - Jos halutaan jatkaa, ADHD on mekanistisesti uskottavampi tutkimuskysymys (suositus: tutkimushypoteesi), mutta se vaatii omat ADHD-kohtaiset tutkimukset
-- Myyntilupien peruutuksen syiden selvittäminen ja lääkemuotojen tiedot
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

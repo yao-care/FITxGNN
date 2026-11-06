@@ -77,8 +77,6 @@ Toinen ennuste, kolobomatoottinen mikroftalmia-rhizomeelinen dysplasia -oireyhty
 | EMEA/H/C/001227 | Leflunomide medac | – | Nivelreuma |
 | EMEA/H/C/002035 | Leflunomide ratiopharm | – | Nivelreuma |
 
-Kaikki neljä myyntilupaa on peruutettu, eikä voimassa olevia myyntilupia ole.
-
 ---
 
 ## Turvallisuusnäkökohdat
@@ -107,7 +105,7 @@ Lisäksi leflunomidin aktiivinen metaboliitti on teratogeeninen, mikä on merkit
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennusteilla ei ole kliinistä eikä kirjallisuusnäyttöä (taso L5), ja ennustetut sairaudet ovat synnynnäisiä rakenteellisia epämuodostumia, joiden lääkkeellinen hoito on biologisesti epäuskottavaa. Lisäksi lääke on teratogeeninen ja kaikki Suomen myyntiluvat on peruutettu.
+- Ennusteilla ei ole kliinistä eikä kirjallisuusnäyttöä (taso L5), ja ennustetut sairaudet ovat synnynnäisiä rakenteellisia epämuodostumia, joiden lääkkeellinen hoito on biologisesti epäuskottavaa. Lisäksi lääke on teratogeeninen.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Vaikutusmekanismitietojen täydentämistä (esim. DrugBankista)

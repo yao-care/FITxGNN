@@ -99,8 +99,6 @@ Toiseksi sijoittuneesta ennusteesta (lepra) haettiin kahdeksan julkaisua, mutta 
 |---------|------|------|-----------|
 | EMEA/H/C/005167 | Dovprela (aiemmin Pretomanid FGK) | – | Monilääkeresistentti tuberkuloosi |
 
-Tämä myyntilupa on tilaltaan peruutettu, eikä Suomessa ole voimassa olevia pretomanidivalmisteiden myyntilupia.
-
 ---
 
 ## Turvallisuusnäkökohdat
@@ -119,7 +117,7 @@ Varoituksia ja vasta-aiheita koskevat tiedot tulee tarkistaa valmisteyhteenvedos
 **Päätös: Hold (odotetaan)**
 
 **Perustelut:**
-- Kaikkien viiden ennustetun käyttöaiheen näyttö on tasoa L5: kyse on vain mallin ennusteesta, eikä kliinisiä tutkimuksia tai aiheeseen osuvaa kirjallisuutta ole. Mekanistista yhteyttä ei ole osoitettu kandidoosille eikä sydän- ja verisuonitaudeille, ja lepran osalta se on vain teoreettisesti mahdollinen. Lääkkeellä ei myöskään ole voimassa olevaa myyntilupaa Suomessa.
+- Kaikkien viiden ennustetun käyttöaiheen näyttö on tasoa L5: kyse on vain mallin ennusteesta, eikä kliinisiä tutkimuksia tai aiheeseen osuvaa kirjallisuutta ole. Mekanistista yhteyttä ei ole osoitettu kandidoosille eikä sydän- ja verisuonitaudeille, ja lepran osalta se on vain teoreettisesti mahdollinen.
 
 **Etenemiseksi tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvitys (Fimean sivustolta), sillä turvallisuusarviointia ei voi tehdä ilman niitä

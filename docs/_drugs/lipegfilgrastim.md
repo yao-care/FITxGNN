@@ -104,7 +104,7 @@ Turvallisuustiedot on tarkistettava valmisteyhteenvedosta ja pakkausselosteesta.
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu pelkästään graafipohjaiseen malliin: kliinisiä tutkimuksia ja julkaisuja ei ole, eikä uskottavaa mekanistista yhteyttä ole tunnistettu. Lisäksi valmisteen myyntilupa Suomessa on peruutettu, mikä heikentää käytännön toteutettavuutta.
+- Ennuste perustuu pelkästään graafipohjaiseen malliin: kliinisiä tutkimuksia ja julkaisuja ei ole, eikä uskottavaa mekanistista yhteyttä ole tunnistettu.
 
 **Eteenpäin siirtyminen edellyttää seuraavaa:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankinta ja läpikäynti (estävä tietoaukko turvallisuusseulonnalle)

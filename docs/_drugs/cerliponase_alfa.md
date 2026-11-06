@@ -105,7 +105,7 @@ Turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 **Perustelut:**
 - Ennusteelle ei ole kliinistä tai kirjallista tukea (näytön taso L5), eikä ole mekanistista perustetta, koska TPP1 ei korvaa iduronidaasia. Kaikki kymmenen ennustettua käyttöaihetta on arvioitu tasolla Hold.
-- Lisäksi Suomessa on vain yksi peruutettu myyntilupa, ja turvallisuustiedot puuttuvat, joten edetä ei voi.
+- Turvallisuustiedot puuttuvat, joten edetä ei voi.
 
 **Eteneminen edellyttäisi seuraavaa:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimeasta (estävä tietoaukko)

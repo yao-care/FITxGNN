@@ -102,14 +102,14 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat tästä aineistosta, j
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu yksinomaan TxGNN-pisteisiin. Kliinisiä tutkimuksia tai kirjallisuutta ei ole, ja sairauden perinnöllinen, ei-androgeenivälitteinen luonne tekee mekanistisesta yhteydestä epäuskottavan. Lisäksi ainoa suomalainen myyntilupa on peruutettu.
+- Ennuste perustuu yksinomaan TxGNN-pisteisiin. Kliinisiä tutkimuksia tai kirjallisuutta ei ole, ja sairauden perinnöllinen, ei-androgeenivälitteinen luonne tekee mekanistisesta yhteydestä epäuskottavan.
 
 **Jatkotoimenpiteet:**
 - Hakea valmisteyhteenvedon varoitukset ja vasta-aiheet Fimean sivustolta (tämä estää turvallisuusseulonnan jatkamisen).
 - Täydentää vaikutusmekanismitiedot (esim. DrugBankista) ja arvioida mekanistinen yhteys uudelleen.
 - Selvittää systemaattisella kirjallisuushaulla ja tutkimusrekistereistä, onko spironolaktonista hypotrichosis-tyyppisissä perinnöllisissä hiustenlähtösairauksissa mitään näyttöä.
 - Arvioida antotapa (esim. paikallinen valmiste) ja sen soveltuvuus, koska reittien yhteensopivuutta ei ole vielä selvitetty.
-- Arvioida kaupallisen saatavuuden tilanne Suomessa, koska voimassa olevia myyntilupia ei ole.
+- Arvioida kaupallisen saatavuuden tilanne Suomessa.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

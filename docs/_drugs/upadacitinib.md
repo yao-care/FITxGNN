@@ -76,8 +76,6 @@ Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 |---------|------|------|-----------|
 | EMEA/H/C/004760 | Rinvoq | – | Nivelreuma |
 
-Kyseinen myyntilupa on tilassa "peruutettu", eikä voimassa olevia myyntilupia ole.
-
 ## Turvallisuusnäkökohdat
 
 Varoituksista ja vasta-aiheista ei ole saatavilla tietoa tässä aineistossa. Tarkista turvallisuustiedot valmisteyhteenvedosta.
@@ -95,14 +93,13 @@ Huomionarvoista on, että useat kortikosteroidit on luokiteltu merkittäviksi yh
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennusteen ainoa tuki on korkea TxGNN-pistemäärä. Kliinisiä tutkimuksia ja julkaisuja ei ole, eikä JAK1-eston ja kohdesairauden synnynnäisen kehityksellisen patologian välille voida osoittaa uskottavaa mekanistista yhteyttä. Lisäksi Suomessa on vain peruutettu myyntilupa.
+- Ennusteen ainoa tuki on korkea TxGNN-pistemäärä. Kliinisiä tutkimuksia ja julkaisuja ei ole, eikä JAK1-eston ja kohdesairauden synnynnäisen kehityksellisen patologian välille voida osoittaa uskottavaa mekanistista yhteyttä.
 
 **Jatkoon siirtyminen edellyttää seuraavaa:**
 - Vaikutusmekanismin (MOA) tietojen täydentäminen DrugBankista
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean verkkosivuilta (turvallisuusseulonnan estävä tietoaukko)
 - Mekanistisen perustelun selvittäminen: onko JAK-STAT-reitillä tosiasiallista yhteyttä kohdesairauden patogeneesiin
 - Prekliinisen tai kirjallisuusnäytön kartoitus ennen mahdollisia jatkotoimia
-- Myyntilupatilanteen selvittäminen (peruutettu myyntilupa Suomessa)
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

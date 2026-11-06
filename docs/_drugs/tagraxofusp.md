@@ -119,7 +119,7 @@ Kattavat varoitukset ja vasta-aiheet puuttuvat, joten niiden osalta on tarkistet
 **Päätös: Hold (odota)**
 
 **Perustelu:**
-- Ennuste perustuu pelkästään tietoverkkomalliin (L5), eikä siihen liity kliinisiä tutkimuksia, kirjallisuutta tai uskottavaa mekanistista yhteyttä. Lisäksi lääkkeen myyntilupa Suomessa on peruutettu ja sen toksisuusprofiili on merkittävä.
+- Ennuste perustuu pelkästään tietoverkkomalliin (L5), eikä siihen liity kliinisiä tutkimuksia, kirjallisuutta tai uskottavaa mekanistista yhteyttä. Sen toksisuusprofiili on merkittävä.
 
 **Jatkoon etenemiseksi tarvitaan:**
 - Fimean valmisteyhteenvedon varoitusten ja vasta-aiheiden hankinta (estää turvallisuusarvioinnin jatkamisen)

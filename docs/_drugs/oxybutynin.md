@@ -122,7 +122,7 @@ Kohtalaisia (Moderate) yhteisvaikutuksia on mm. muiden antikolinergisten tai ant
 
 **Perustelut:**
 - Levottomien jalkojen oireyhtymän ennuste perustuu pelkästään mallin pistemäärään: kliinisiä tutkimuksia ja kirjallisuutta ei ole, uskottavaa mekanismia ei tunnistettu ja antikolinergit voivat jopa pahentaa oireita.
-- Peptisen haavauman osalta kirjallisuus on vanhaa ja epäsuoraa, ja oksibutyniinin aiheuttama refluksiesofagiitti on turvallisuussignaali käyttöä vastaan. Lisäksi Suomessa ainoa myyntilupa on peruutettu.
+- Peptisen haavauman osalta kirjallisuus on vanhaa ja epäsuoraa, ja oksibutyniinin aiheuttama refluksiesofagiitti on turvallisuussignaali käyttöä vastaan.
 
 **Jatkotoimien edellytyksenä on:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean sivuilta (turvallisuusarvioinnin estävä tietoaukko)

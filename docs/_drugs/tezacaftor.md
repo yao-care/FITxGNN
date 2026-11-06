@@ -86,8 +86,6 @@ Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 | EMEA/H/C/006382 | Alyftrek | – | Kystinen fibroosi |
 | EMEA/H/C/005269 | Kaftrio | – | Kystinen fibroosi |
 
-Kaikki kolme myyntilupaa (valmistaja Vertex Pharmaceuticals (Ireland) Limited) on merkitty peruutetuiksi.
-
 ---
 
 ## Turvallisuushuomiot
@@ -103,7 +101,7 @@ Muilta osin turvallisuustiedot (varoitukset ja vasta-aiheet) tulee tarkistaa val
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennusteen tueksi ei ole kliinisiä tutkimuksia, kirjallisuutta eikä mekanistista yhteyttä, joten näytön taso on L5 (vain mallin ennuste). Lisäksi kaikki Suomen myyntiluvat on peruutettu.
+- Ennusteen tueksi ei ole kliinisiä tutkimuksia, kirjallisuutta eikä mekanistista yhteyttä, joten näytön taso on L5 (vain mallin ennuste).
 
 **Eteenpäin siirtyminen edellyttää seuraavaa:**
 - Yksityiskohtaiset vaikutusmekanismitiedot (MOA), esimerkiksi DrugBankista, ja mekanistisen yhteyden arviointi CFTR-korjauksen ja HIV:n välillä

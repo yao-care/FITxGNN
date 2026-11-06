@@ -110,13 +110,12 @@ Muista turvallisuustiedoista (varoitukset, vasta-aiheet) tarkista tiedot valmist
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu ainoastaan TxGNN-mallin pistemäärään (näytön taso L5). Kliinisiä tutkimuksia tai julkaisuja ei ole, eikä uskottavaa mekanistista yhteyttä ole osoitettu. Lisäksi lääkkeen myyntilupa Suomessa on peruutettu.
+- Ennuste perustuu ainoastaan TxGNN-mallin pistemäärään (näytön taso L5). Kliinisiä tutkimuksia tai julkaisuja ei ole, eikä uskottavaa mekanistista yhteyttä ole osoitettu.
 
 **Jatkotoimien edellytykset:**
 - Vaikutusmekanismitietojen (MOA) täydentäminen esimerkiksi DrugBankista
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean sivustolta, jotta turvallisuusarviointi voidaan aloittaa
 - Prekliiniset tai mekanistiset tutkimukset, jotka selvittävät mahdollisen yhteyden luuhun ja osteoporoosiin
-- Myyntiluvan peruuntumisen syyn ja nykyisen saatavuuden selvittäminen
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -88,7 +88,7 @@ Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 | EMEA/H/C/002075 | Entacapone Teva | – | Parkinsonin tauti |
 | EMEA/H/C/002441 | Levodopa/Carbidopa/Entacapone Orion | – | Parkinsonin tauti |
 
-Kaikki seitsemän myyntilupaa on peruutettu. Taulukossa on viisi pääasiallista.
+Taulukossa on viisi pääasiallista.
 
 ---
 
@@ -107,14 +107,14 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ole saatavilla, joten niih
 **Päätös: Hold (odota)**
 
 **Perustelu:**
-- Ennusteen tueksi ei ole kliinisiä tutkimuksia eikä julkaisuja (näytön taso L5). Lisäksi kaikki Suomen myyntiluvat on peruutettu, ja vaikutusmekanismitieto sekä valmisteyhteenvedon turvallisuustiedot puuttuvat.
+- Ennusteen tueksi ei ole kliinisiä tutkimuksia eikä julkaisuja (näytön taso L5). Vaikutusmekanismitieto sekä valmisteyhteenvedon turvallisuustiedot puuttuvat.
 - Entakaponi voisi lievittää enintään oireita eikä vaikuttaisi sairauden perimmäiseen mekanismiin.
 
 **Jatkoon tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvitys (estää turvallisuusseulonnan etenemisen)
 - Yksityiskohtainen vaikutusmekanismitieto (MOA)
 - Prekliiniset tai tapauskohtaiset tiedot entakaponista PLA2G6-assosioituneessa neurodegeneraatiossa
-- Selvitys valmisteen saatavuudesta Suomessa, koska kaikki myyntiluvat on peruutettu
+- Selvitys valmisteen saatavuudesta Suomessa
 
 ---
 

@@ -100,14 +100,13 @@ Muiden turvallisuustietojen osalta katso valmisteyhteenveto.
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu pelkästään TxGNN-malliin (näytön taso L5), eikä tukevia kliinisiä tutkimuksia tai julkaisuja ole. Ruusufinnin sidekalvotulehduksen taustamekanismeissa histamiinin rooli on epävarma, ja hyöty rajoittuisi todennäköisesti oireiden lievitykseen. Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa.
+- Ennuste perustuu pelkästään TxGNN-malliin (näytön taso L5), eikä tukevia kliinisiä tutkimuksia tai julkaisuja ole. Ruusufinnin sidekalvotulehduksen taustamekanismeissa histamiinin rooli on epävarma, ja hyöty rajoittuisi todennäköisesti oireiden lievitykseen.
 
 **Jatkoon tarvitaan:**
 - Valmisteyhteenvedon varoitus- ja vasta-aihetietojen hankinta Fimeasta (estää tällä hetkellä turvallisuusseulonnan).
 - Tarkka vaikutusmekanismitieto (esim. DrugBankista).
 - Kirjallisuushaku ja prekliiniset tai pilottitutkimukset olopatadiinin vaikutuksesta silmän ruusufinnissa.
 - Antoreittien yhteensopivuuden ja mahdollisen samankaltaisuuden arviointi alkuperäiseen käyttöaiheeseen nähden.
-- Myyntilupatilanteen selvitys, sillä ainoa tunnettu myyntilupa on peruutettu.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

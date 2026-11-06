@@ -82,8 +82,6 @@ Ennustettuun käyttöaiheeseen liittyvää kirjallisuutta ei ole tällä hetkell
 |---------|------|------|-----------|
 | EMEA/H/C/001177 | Sycrest (Organon N.V.) | – | Kaksisuuntainen mielialahäiriö |
 
-Tämä myyntilupa on peruutettu, joten voimassa olevaa asenapiinivalmistetta ei Suomessa ole.
-
 ---
 
 ## Turvallisuusnäkökohdat
@@ -108,7 +106,7 @@ Julkaisuissa mainitaan lisäksi uneliaisuus, akatisia ja painonnousu antipsykoot
 
 **Perustelut:**
 - Ennuste perustuu pelkästään mallin pistemäärään (L5). Kliinisiä tutkimuksia ja kirjallisuutta ei ole, eikä asenapiinin farmakologian ja verkkokalvon dystrofian välillä ole uskottavaa mekanistista yhteyttä.
-- Suomessa ei ole voimassa olevaa myyntilupaa, ja lääkkeellä on laaja mahdollisten vasta-aiheiden profiili.
+- Lääkkeellä on laaja mahdollisten vasta-aiheiden profiili.
 
 **Jatkoon tarvitaan:**
 - Vaikutusmekanismitiedot ja selvitys siitä, voisiko mikään asenapiinin kohteista liittyä verkkokalvon patologiaan

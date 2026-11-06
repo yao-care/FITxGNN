@@ -117,7 +117,7 @@ Muista turvallisuustiedoista, kuten varoituksista ja vasta-aiheista, katso valmi
 
 **Perustelut:**
 - Ennuste perustuu pelkästään TxGNN-pistemäärään (0,9993), eikä tukena ole kliinisiä tutkimuksia eikä kirjallisuutta (näytön taso L5).
-- Suomessa vismodegibin myyntiluvat on peruutettu, ja turvallisuusprofiili (teratogeenisuus) vaatii huolellista harkintaa.
+- Turvallisuusprofiili (teratogeenisuus) vaatii huolellista harkintaa.
 
 **Etenemiseksi tarvitaan:**
 - Systemaattinen kirjallisuushaku medulloblastoomasta ja vismodegibista, myös lasten aiemmat tutkimukset.

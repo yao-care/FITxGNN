@@ -102,14 +102,13 @@ Loput tarkastelluista ovat luokkaa kohtalainen (Moderate), mm. aprepitantti, sim
 **Päätös: Hold (odotetaan)**
 
 **Perustelut:**
-- Ennuste perustuu vain TxGNN-mallin pisteisiin (näytön taso L5). Kliinisiä tutkimuksia ja julkaisuja ei ole, eikä CD79b:n ja HER2-positiivisen rintasyövän välillä ole tunnistettu mekanistista yhteyttä. Lisäksi Suomen myyntilupa on peruutettu.
+- Ennuste perustuu vain TxGNN-mallin pisteisiin (näytön taso L5). Kliinisiä tutkimuksia ja julkaisuja ei ole, eikä CD79b:n ja HER2-positiivisen rintasyövän välillä ole tunnistettu mekanistista yhteyttä.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista (estää turvallisuusarvioinnin jatkamisen)
 - Vaikutusmekanismitietojen täydentämistä
 - CD79b:n ilmentymisen selvittämistä rintasyöpäkudoksessa
 - Prekliinistä näyttöä tehosta HER2-positiivisessa rintasyövässä
-- Myyntiluvan peruutuksen syiden ja nykyisen saatavuuden selvittämistä
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

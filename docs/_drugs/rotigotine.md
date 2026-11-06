@@ -114,13 +114,13 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat, joten niihin on tutus
 **Päätös: Hold (odota)**
 
 **Perustelu:**
-- Ennuste perustuu pelkästään TxGNN-mallin pistemäärään. ADHD:sta ei ole rotigotiinia koskevia kliinisiä tutkimuksia, ja kirjallisuus on epäsuoraa. Lisäksi Suomen myyntiluvat on peruutettu, eikä valmisteyhteenvedon turvallisuustietoja ole saatavilla.
+- Ennuste perustuu pelkästään TxGNN-mallin pistemäärään. ADHD:sta ei ole rotigotiinia koskevia kliinisiä tutkimuksia, ja kirjallisuus on epäsuoraa.
 
 **Edetäkseen tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankinta Fimeasta (estää turvallisuusseulonnan jatkamisen)
 - Yksityiskohtaiset vaikutusmekanismitiedot (MOA) DrugBankista
 - Rotigotiinin prekliiniset ja kliiniset tutkimukset ADHD:ssa, erityisesti lasten ja nuorten turvallisuusarviointi
-- Arvio siitä, onko ihon kautta annettava lääkemuoto saatavilla ja soveltuva, sekä myyntiluvan peruuttamisen syyt
+- Arvio siitä, onko ihon kautta annettava lääkemuoto saatavilla ja soveltuva
 - Skitsofrenian osalta psykoosin pahenemisriskin arviointi ennen jatkoa
 ## Vastuuvapauslauseke
 

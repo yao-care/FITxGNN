@@ -103,13 +103,12 @@ Turvallisuustietoja ei ole tämän raportin aineistossa saatavilla. Lääkeyhtei
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu vain graafipohjaiseen malliin: kliinisiä tutkimuksia ja julkaisuja ei ole, mekanistista yhteyttä ei ole tunnistettu, ja ainoa Suomen myyntilupa on peruutettu.
+- Ennuste perustuu vain graafipohjaiseen malliin: kliinisiä tutkimuksia ja julkaisuja ei ole, mekanistista yhteyttä ei ole tunnistettu.
 
 **Jatkoon tarvitaan:**
 - Valmisteyhteenvedon varoitus- ja vasta-aihetietojen hankinta Fimean sivuilta (nykyinen estävä tietoaukko turvallisuusseulonnassa)
 - Yksityiskohtaiset vaikutusmekanismitiedot (esim. DrugBankista)
 - Prekliininen tai mekanistinen näyttö TNSALP-korvaushoidon vaikutuksesta mitokondrion hengitysketjun häiriöihin
-- Myyntiluvan peruutuksen syyn ja valmisteen saatavuuden selvitys Suomessa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -106,7 +106,7 @@ Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 **Perustelut:**
 - Ennuste perustuu pelkästään graafimalliin (L5). Migreenin hoidosta ei ole kliinisiä tutkimuksia eikä kirjallisuutta, ja ainoa löytynyt julkaisu on turvallisuushavainto.
-- Valmisteen myyntilupa Suomessa on peruutettu, ja turvallisuustietojen puutteet estävät etenemisen turvallisuusseulontaan.
+- Turvallisuustietojen puutteet estävät etenemisen turvallisuusseulontaan.
 
 **Etenemiseksi tarvitaan:**
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (Fimea)

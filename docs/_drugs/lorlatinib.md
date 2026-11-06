@@ -125,7 +125,7 @@ Muiden varoitusten ja vasta-aiheiden osalta katso valmisteyhteenveto.
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennusteella on korkea laskennallinen pistemäärä, mutta ei kliinistä eikä kirjallista näyttöä, eikä mekanistista yhteyttä ALK/ROS1-estoon. Myyntilupa Suomessa on lisäksi peruutettu.
+- Ennusteella on korkea laskennallinen pistemäärä, mutta ei kliinistä eikä kirjallista näyttöä, eikä mekanistista yhteyttä ALK/ROS1-estoon.
 
 **Eteenpäin siirtymiseksi tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen ja läpikäynti (estää tällä hetkellä turvallisuusseulonnan)

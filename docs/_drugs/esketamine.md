@@ -72,8 +72,6 @@ Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 |---------|------|------|-----------|
 | EMEA/H/C/004535 | Spravato | – | Depressiivinen häiriö |
 
-Tämä myyntilupa on peruutettu, eikä voimassa olevia myyntilupia ole.
-
 ## Turvallisuusnäkökohdat
 
 - **Lääkeyhteisvaikutukset:** Yhteisvaikutuksia löytyi yhteensä 70. Seuraavassa on esimerkkejä luetelluista.
@@ -88,7 +86,7 @@ Muista turvallisuustiedoista, kuten varoituksista ja vasta-aiheista, katso valmi
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste on pelkkä laskennallinen tulos (L5), eikä kliinistä tai kirjallista näyttöä ole. Lisäksi Suomen myyntilupa on peruutettu, ja turvallisuustiedoissa on merkittäviä puutteita.
+- Ennuste on pelkkä laskennallinen tulos (L5), eikä kliinistä tai kirjallista näyttöä ole. Turvallisuustiedoissa on merkittäviä puutteita.
 
 **Jatkaminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivustolta

@@ -124,13 +124,12 @@ Katso turvallisuustiedot valmisteyhteenvedosta. Lääkeinteraktioita ei löytyny
 **Päätös: Hold (odota)**
 
 **Perustelu:**
-- Ennuste perustuu vain mallin pisteytykseen (L5). Kliinisiä tutkimuksia tai kohdennettuja julkaisuja ei ole, eikä mekanistista yhteyttä rakenteelliseen sydänvikaan ole. Lisäksi Suomen ainoa myyntilupa on peruutettu.
+- Ennuste perustuu vain mallin pisteytykseen (L5). Kliinisiä tutkimuksia tai kohdennettuja julkaisuja ei ole, eikä mekanistista yhteyttä rakenteelliseen sydänvikaan ole.
 
 **Jatkaminen edellyttäisi:**
 - Uskottavaa biologista perustetta ennustetulle käyttöaiheelle
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankintaa (Fimea)
 - Yksityiskohtaisen vaikutusmekanismitiedon (MOA) täydentämistä DrugBankista
-- Myyntilupatilanteen selvittämistä, sillä valmisteella ei ole voimassa olevaa myyntilupaa Suomessa
 - Harkintaa siitä, kannattaisiko resurssit suunnata muihin ehdokkaisiin, koska kaikki kymmenen ylintä ennustetta ovat L5-tasoa ilman mekanistista perustetta
 ## Vastuuvapauslauseke
 

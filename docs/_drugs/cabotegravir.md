@@ -96,7 +96,6 @@ Muuta turvallisuustietoa varten tutustu valmisteyhteenvetoon.
 
 **Perustelut:**
 - Ennuste perustuu pelkkään graafipohjaiseen laskentaan (L5). Kliinistä tai kirjallisuusnäyttöä ei ole, eikä uskottavaa mekanistista yhteyttä nivelreumaan ole tunnistettu.
-- Kabotegraviirin kaikki Suomen myyntiluvat on peruutettu, joten valmiste ei ole tällä hetkellä markkinoilla.
 
 **Jatkotoimiin tarvitaan seuraavat tiedot:**
 - Yksityiskohtainen vaikutusmekanismitieto (esim. DrugBankista).

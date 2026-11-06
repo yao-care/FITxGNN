@@ -112,8 +112,6 @@ Aineistossa on lisäksi useita vaiheen 1 farmakodynamiikkatutkimuksia ja kaksi l
 | EMEA/H/C/002499 | Ryzodeg | – | Diabetes mellitus (peruutettu) |
 | EMEA/H/C/002647 | Xultophy | – | Tyypin 2 diabetes mellitus (peruutettu) |
 
-Kaikki kolme myyntilupaa on peruutettu, joten voimassa olevaa myyntilupaa ei ole.
-
 ---
 
 ## Turvallisuusnäkökohdat
@@ -129,13 +127,12 @@ Varoituksia ja vasta-aiheita koskevia valmisteyhteenvetotietoja ei ollut käytet
 **Päätös: Proceed with Guardrails (eteneminen suojatoimin)**
 
 **Perustelut:**
-- Tyypin 1 diabeteksen näyttö on vahva: useita valmistuneita vaiheen 3 satunnaistettuja tutkimuksia ja useita RCT-julkaisuja sekä järjestelmällisiä katsauksia. Käyttöaihe on kuitenkin käytännössä merkinnän mukainen, joten kyse ei ole varsinaisesta uudelleenkäytöstä. Kaikki Suomen myyntiluvat on peruutettu, mikä rajoittaa saatavuutta.
+- Tyypin 1 diabeteksen näyttö on vahva: useita valmistuneita vaiheen 3 satunnaistettuja tutkimuksia ja useita RCT-julkaisuja sekä järjestelmällisiä katsauksia. Käyttöaihe on kuitenkin käytännössä merkinnän mukainen, joten kyse ei ole varsinaisesta uudelleenkäytöstä.
 - Muut ennustetut käyttöaiheet (rank 2–6) jäävät tasolle Hold, koska niistä ei ole kliinistä näyttöä.
 
 **Etenemiseksi tarvitaan:**
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (turvallisuusseulonta ei ole mahdollinen ilman niitä)
 - Vaikutusmekanismin tarkka kuvaus
-- Selvitys valmisteen nykyisestä saatavuudesta ja myyntiluvan tilasta Suomessa (peruutettujen lupien syy ja mahdolliset korvaavat valmisteet)
 - Hypoglykemian seurantasuunnitelma ja yhteisvaikutusten hallinta erityisesti samanaikaisessa beetasalpaaja- ja sympatomimeettihoidossa
 ## Vastuuvapauslauseke
 

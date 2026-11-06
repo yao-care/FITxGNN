@@ -86,8 +86,6 @@ Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 |---------|------|------|-----------|
 | EMEA/H/C/001176 | Rapiscan | – | Sydänlihaksen perfuusiokuvantaminen |
 
-Tämä myyntilupa on tilassa "peruutettu". Voimassa olevia myyntilupia ei ole.
-
 ---
 
 ## Turvallisuusnäkökohdat
@@ -109,7 +107,6 @@ Tarkemmat turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 **Perustelu:**
 - Ennuste perustuu pelkästään laskennalliseen malliin ilman kliinistä tai kirjallista näyttöä (L5). Vaikutuksen suunta on epävarma, ja lääkkeellä itsellään on anafylaksiaan liittyviä varoituksia.
-- Suomessa ainoa myyntilupa on peruutettu.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hakemista Fimean sivustolta (turvallisuusarvioinnin estävä tietoaukko)

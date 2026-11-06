@@ -92,8 +92,6 @@ Ensisijaisesta ennusteesta (ekstrakutaaninen mastosytooma) ei ole saatavilla kir
 |---------|------|------|-----------|
 | EMEA/H/C/003708 | Sylvant (Recordati Netherlands B.V.) | – | Jättimäinen imusolmukehyperplasia (Castlemanin tauti) |
 
-Myyntilupa on tilassa "peruutettu", eikä voimassa olevia myyntilupia ole.
-
 ---
 
 ## Turvallisuusnäkökohdat
@@ -115,14 +113,14 @@ Huomionarvoista on, että IL-6:n esto voi palauttaa tiettyjen CYP450-entsyymien 
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennustetta tukee vain korkea TxGNN-pistemäärä (0,9964). Kliinisiä tutkimuksia ja kirjallisuutta ei ole, joten näytön taso on L5. Lisäksi lääkkeen Suomen myyntilupa on peruutettu.
+- Ennustetta tukee vain korkea TxGNN-pistemäärä (0,9964). Kliinisiä tutkimuksia ja kirjallisuutta ei ole, joten näytön taso on L5.
 - Kaposin sarkooma on ennustelistan ainoa kohde, jolla on epäsuora biologinen perustelu (HHV-8 ja IL-6), ja se voisi olla jatkoselvityksen tutkimuskysymys (L4).
 
 **Eteenpäin siirtyminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivustolta (turvallisuusseulonnan estävä tietoaukko)
 - Vaikutusmekanismitietojen täydentämistä (esim. DrugBank)
 - Kirjallisuushakua IL-6:n eston ja syöttösolusairauksien yhteydestä sekä siltuksimabista HHV-8-liitännäisissä sairauksissa
-- Reittiyhteensopivuuden ja saatavuuden selvittämistä, koska voimassa olevaa myyntilupaa ei ole
+- Reittiyhteensopivuuden ja saatavuuden selvittämistä
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

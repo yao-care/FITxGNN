@@ -58,7 +58,7 @@ Tämän selvityksen yhteydessä koottu aineisto ei sisällä yksityiskohtaista t
 
 Plummer-Vinsonin oireyhtymälle (jota kutsutaan myös Paterson-Brown-Kelly-oireyhtymäksi) ovat tyypillisiä raudanpuuteanemia, nielemisvaikeus ruokatorven kalvomuodostumien vuoksi sekä kielitulehdus. Taustalla olevan raudanpuutteen korjaaminen on mekanistisesti uskottavaa ja kuuluu tämän tilan hoidon perusperiaatteisiin.
 
-Pistemäärä 0,9998 on kuitenkin todennäköisesti seurausta lääkkeen tunnetusta raudanpuuteanemiaan liittyvästä asemasta ja mallin sisäisestä läheisyydestä, ei itsenäisestä näytöstä. Ruokatorven kalvomuodostumat ovat rakenteellisia, eikä niiden odoteta korjaantuvan pelkällä raudalla. Lisäksi lupa on tilassa "peruutettu", mikä rajoittaa käytännön saatavuutta.
+Pistemäärä 0,9998 on kuitenkin todennäköisesti seurausta lääkkeen tunnetusta raudanpuuteanemiaan liittyvästä asemasta ja mallin sisäisestä läheisyydestä, ei itsenäisestä näytöstä. Ruokatorven kalvomuodostumat ovat rakenteellisia, eikä niiden odoteta korjaantuvan pelkällä raudalla.
 
 ## Kliininen tutkimusnäyttö
 

@@ -40,7 +40,7 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **9** kpl
 
 Insulindetemir on pitkävaikutteinen perusinsuliinianalogi, jota on alun perin käytetty diabeteksen hoitoon.
 TxGNN-malli ennustaa sen sopivan **tyypin 1 diabetekseen**, mutta kyseessä on käytännössä myönteisen käyttöaiheen vahvistus, ei varsinainen lääkkeen uudelleenkäyttö.
-Tukena on yli **30 kliinistä tutkimusta** ja **20 julkaisua**, ja Suomessa valmisteen myyntilupa on tällä hetkellä vain peruutettu.
+Tukena on yli **30 kliinistä tutkimusta** ja **20 julkaisua**.
 
 ---
 
@@ -62,7 +62,7 @@ Tukena on yli **30 kliinistä tutkimusta** ja **20 julkaisua**, ja Suomessa valm
 
 Insulindetemir on liukoinen, pitkävaikutteinen ihmisinsuliinin analogi. Siitä on poistettu treoniini kohdassa B30, ja lysiiniin B29 on liitetty 14-hiilinen rasvahappo (myristiinihappo). Muutos lisää molekyylin itseassosiaatiota ja mahdollistaa sitoutumisen albumiiniin. Tämä hidastaa imeytymistä ihonalaisesta pistoskohdasta ja pidentää vaikutusta. Insuliinireseptoriin sitoutuessaan lääke korvaa puutteellisen oman insuliinin.
 
-Tyypin 1 diabeteksessa elimistö ei tuota riittävästi insuliinia, joten perusinsuliini on hoidon ydin. Tyypin 1 diabetes kuuluu lääkkeen alkuperäisen käyttöaiheen (diabetes mellitus) piiriin. Ennuste on siis johdonmukainen, mutta se ei tuo uutta terapeuttista käyttöä. Huomattavaa on, että valmisteen myyntiluvan tila on "vain peruutettu". Käytännön suojatoimien tulee siksi koskea valmisteen saatavuutta ja korvaamista muilla perusinsuliinianalogeilla, kuten glargiinilla ja degludekilla.
+Tyypin 1 diabeteksessa elimistö ei tuota riittävästi insuliinia, joten perusinsuliini on hoidon ydin. Tyypin 1 diabetes kuuluu lääkkeen alkuperäisen käyttöaiheen (diabetes mellitus) piiriin. Ennuste on siis johdonmukainen, mutta se ei tuo uutta terapeuttista käyttöä. Käytännön suojatoimien tulee siksi koskea valmisteen saatavuutta ja korvaamista muilla perusinsuliinianalogeilla, kuten glargiinilla ja degludekilla.
 
 Ennustelistan muut kohteet (esim. autoimmuuninen munasarjatulehdus, stiff person -oireyhtymä, paikalliset lipodystrofiat) perustuvat lähinnä verkostoyhteyksiin, eikä niille ole kliinistä näyttöä. Ne on arvioitu tasolle L5 ja suositus on Hold. Haimattomuus (pancreatic agenesis) on fysiologisesti perusteltu insuliinikorvauksen kohde, mutta detemirille ei ole omaa näyttöä (L4, tutkimuskysymys).
 
@@ -130,7 +130,7 @@ Pakkausselosteen varoitukset ja vasta-aiheet tulee tarkistaa valmisteyhteenvedos
 **Päätös: Proceed with Guardrails (jatka suojatoimin)**
 
 **Perustelut:**
-- Useat valmistuneet vaiheen 3 satunnaistetut tutkimukset ja Cochrane-katsaukset tukevat detemirin tehoa ja turvallisuutta tyypin 1 diabeteksessa, joten näyttö on vahva (L1). Kyseessä on kuitenkin lääkkeen oma ydinkäyttöaihe, ei varsinainen uudelleenkäyttö, ja Suomessa myyntilupa on vain peruutettu.
+- Useat valmistuneet vaiheen 3 satunnaistetut tutkimukset ja Cochrane-katsaukset tukevat detemirin tehoa ja turvallisuutta tyypin 1 diabeteksessa, joten näyttö on vahva (L1). Kyseessä on kuitenkin lääkkeen oma ydinkäyttöaihe, ei varsinainen uudelleenkäyttö.
 
 **Jatkamiseksi tarvitaan:**
 - Valmisteen saatavuuden ja korvaavien perusinsuliinien (glargiini, degludek) arviointi

@@ -108,7 +108,7 @@ Turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu lähinnä eteisvärinän ja aivohalvauksen väliseen epäsuoraan yhteyteen tietämysgraafissa. Kliinisiä tutkimuksia ei ole, kirjallisuus ei tue aivohalvausvaikutusta, ja ainoa Suomen myyntilupa on peruutettu.
+- Ennuste perustuu lähinnä eteisvärinän ja aivohalvauksen väliseen epäsuoraan yhteyteen tietämysgraafissa. Kliinisiä tutkimuksia ei ole, kirjallisuus ei tue aivohalvausvaikutusta.
 
 **Eteneminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista (estää turvallisuusseulonnan)

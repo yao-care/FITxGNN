@@ -87,8 +87,6 @@ Tällä hetkellä ei ole aiheeseen liittyvää kirjallisuutta.
 |---------|------|------|-----------|
 | EMEA/H/C/000232 | ReFacto AF (Pfizer Europe MA EEIG) | – | Hemofilia A |
 
-Tämä myyntilupa on peruutettu, joten valmiste ei ole tällä hetkellä myynnissä Suomessa.
-
 ## Turvallisuusnäkökohdat
 
 Turvallisuustietoja ei ole saatavilla tämän raportin aineistossa. Lääkkeiden yhteisvaikutuksia ei löytynyt. Tarkista turvallisuustiedot valmisteyhteenvedosta.
@@ -98,7 +96,7 @@ Turvallisuustietoja ei ole saatavilla tämän raportin aineistossa. Lääkkeiden
 **Päätös: Hold**
 
 **Perustelut:**
-- Ennuste perustuu pelkästään mallin pisteytykseen: tutkimus- tai kirjallisuusnäyttöä ei ole, mekanistinen yhteys on heikko tai puuttuu, ja ainoa Suomen myyntilupa on peruutettu.
+- Ennuste perustuu pelkästään mallin pisteytykseen: tutkimus- tai kirjallisuusnäyttöä ei ole, mekanistinen yhteys on heikko tai puuttuu.
 
 **Jatkamiseksi tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden haku Fimean sivustolta (estävä tietoaukko turvallisuusseulonnalle)

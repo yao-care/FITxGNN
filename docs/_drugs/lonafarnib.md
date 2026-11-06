@@ -84,8 +84,6 @@ Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 |---------|------|------|-----------|
 | EMEA/H/C/005271 | Zokinvy | – | Progeria; laminopatiat |
 
-Myyntilupa on tilassa "peruutettu".
-
 ---
 
 ## Turvallisuusnäkökohdat
@@ -113,7 +111,7 @@ Muiden turvallisuustietojen (varoitukset, vasta-aiheet) osalta katso valmisteyht
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu yksinomaan tietämysgraafimalliin, eikä sitä tue yksikään kliininen tutkimus tai julkaisu (taso L5). Lisäksi Suomen myyntilupa on peruutettu ja yhteisvaikutuskuorma on suuri, erityisesti lepran vakiohoidon kanssa.
+- Ennuste perustuu yksinomaan tietämysgraafimalliin, eikä sitä tue yksikään kliininen tutkimus tai julkaisu (taso L5). Yhteisvaikutuskuorma on suuri, erityisesti lepran vakiohoidon kanssa.
 
 **Eteenpäin siirtyminen edellyttää seuraavaa:**
 - Vaikutusmekanismin tarkempi selvitys (DrugBank) ja mekanistisen yhteyden arviointi lepraan

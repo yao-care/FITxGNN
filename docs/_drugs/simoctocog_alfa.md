@@ -103,7 +103,7 @@ Tällä hetkellä aiheeseen liittyvää kirjallisuutta ei ole saatavilla.
 | EMEA/H/C/004459 | Vihuma | – | Hemofilia A (peruutettu) |
 | EMEA/H/C/002813 | Nuwiq | – | Hemofilia A (peruutettu) |
 
-Molemmat myyntiluvat ovat peruutettuja, joten valmiste ei ole tällä hetkellä markkinoilla Suomessa. Myyntiluvan haltija on Octapharma AB.
+Myyntiluvan haltija on Octapharma AB.
 
 ---
 
@@ -120,14 +120,13 @@ Yksittäisen ennustetun käyttöaiheen osalta on huomattava, että TTP:ssä FVII
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu pelkästään verkostopohjaiseen laskentaan (L5): kliinisiä tutkimuksia tai julkaisuja ei ole, ja useimmissa ennustetuissa käyttöaiheissa perusvika on verihiutalelähtöinen, jota FVIII ei korjaa. Lisäksi valmisteen myyntiluvat Suomessa on peruutettu.
+- Ennuste perustuu pelkästään verkostopohjaiseen laskentaan (L5): kliinisiä tutkimuksia tai julkaisuja ei ole, ja useimmissa ennustetuissa käyttöaiheissa perusvika on verihiutalelähtöinen, jota FVIII ei korjaa.
 
 **Jatkotoimiin ryhtyminen edellyttää seuraavaa:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittäminen (estävä tietoaukko)
 - Vaikutusmekanismin tiedot DrugBankista
 - Kirjallisuushaku ja prekliiniset tutkimukset, erityisesti VWF–FVIII-vuorovaikutuksesta pseudo-von Willebrandin taudissa
 - Hankinnaisen hyytymistekijäpuutoksen osalta alatyypin täsmentäminen (esim. hankinnainen hemofilia A vs. monitekijäpuutokset)
-- Myyntiluvan peruutuksen syiden ja valmisteen saatavuuden selvittäminen Suomessa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

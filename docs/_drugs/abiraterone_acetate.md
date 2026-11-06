@@ -44,7 +44,6 @@ Näytön taso: **N/A** | Ennustetut käyttöaiheet: **0** kpl
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 5/5) |
 | Myyntilupien määrä | 5 (voimassa: 5) |
 | Todisteiden taso | **N/A** — Ei ennakointeja tai tukevia tutkimuksia saatavilla |
-| Taiwanin markkinoiden asema | ❌ Ei markkinoilla (Ei markkinoilla) |
 | Lupien lukumäärä | 0 |
 
 ---

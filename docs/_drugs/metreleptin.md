@@ -101,13 +101,12 @@ Muista turvallisuustiedoista (varoitukset ja vasta-aiheet) katso valmisteyhteenv
 **Päätös: Hold (odota)**
 
 **Perustelu:**
-- Ennuste perustuu vain graafimalliin (näytön taso L5), eikä sen tueksi ole kliinisiä tutkimuksia, kirjallisuutta eikä uskottavaa mekanistista yhteyttä. Lisäksi Suomessa ainoa myyntilupa on peruutettu.
+- Ennuste perustuu vain graafimalliin (näytön taso L5), eikä sen tueksi ole kliinisiä tutkimuksia, kirjallisuutta eikä uskottavaa mekanistista yhteyttä.
 
 **Jatkoon siirtyminen edellyttää seuraavaa:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean sivustolta (estää turvallisuusseulonnan tässä vaiheessa)
 - Yksityiskohtaiset vaikutusmekanismitiedot (esim. DrugBankista)
 - Prekliininen tai mekanistinen näyttö leptiinireitin roolista kohdesairaudessa
-- Selvitys peruutetun myyntiluvan syistä ja lääkkeen saatavuudesta Suomessa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -110,7 +110,7 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet tulee tarkistaa valmisteyhteenve
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Näyttö perustuu pieniin, yli 35 vuotta vanhoihin tutkimuksiin, eikä rekisteröityjä kliinisiä tutkimuksia ole. Serotoniinireitin vaikutussuunta levottomissa jaloissa on epäselvä, ja valmisteen myyntilupa on peruutettu.
+- Näyttö perustuu pieniin, yli 35 vuotta vanhoihin tutkimuksiin, eikä rekisteröityjä kliinisiä tutkimuksia ole. Serotoniinireitin vaikutussuunta levottomissa jaloissa on epäselvä.
 
 **Jatkoa varten tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden kerääminen (estää nykyisellään turvallisuusseulonnan).

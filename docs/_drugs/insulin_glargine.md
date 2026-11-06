@@ -95,8 +95,6 @@ Vertailun vuoksi: sijalla 6 olevalle haiman agenesialle haettu kirjallisuus on y
 
 ## Markkinatiedot Suomessa
 
-Kaikki viisi myyntilupaa on peruutettu.
-
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
 | EMEA/H/C/004280 | Semglee | – | Diabetes mellitus |
@@ -125,14 +123,12 @@ Monet näistä vaikuttavat verensokeritasoon, joten verensokeria on seurattava t
 
 **Perustelut:**
 - Ennustetta tukevaa kliinistä tai kirjallista näyttöä ei ole (taso L5). Korkea TxGNN-pistemäärä on pelkkä mallin ennuste, ja mekanistinen perusta puuttuu. Ennuste on todennäköisesti tietämysgraafin läheisyydestä johtuva artefakti.
-- Lisäksi kaikki Suomen myyntiluvat on peruutettu, eikä turvallisuustietoja ole saatavilla.
 
 **Eteenpäin siirtymiseksi tarvitaan:**
 - Valmisteyhteenvedon varoitus- ja vasta-aihetiedot (estävä tietoaukko)
 - Tiedot vaikutusmekanismista
 - Kirjallisuushaku ja prekliiniset tutkimukset autoimmuunisesta munasarjatulehduksesta
 - Selvitys siitä, mitkä ennusteista ovat uusia käyttöaiheita ja mitkä pelkkää diabeteksen oireenmukaista hoitoa
-- Markkinatilanteen selvitys (kaikki myyntiluvat peruutettu)
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

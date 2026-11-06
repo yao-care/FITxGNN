@@ -125,13 +125,13 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla tähän rapor
 **Päätös: Hold**
 
 **Perustelut:**
-- Liposarkoomaa koskeva näyttö on epäsuoraa ja rajallista: kaksi vaiheen 2 tutkimusta pehmytkudossarkoomissa yleisesti, yksi tapausselostus eikä vaiheen 3 näyttöä. Teho vaikuttaa histologiasta riippuvaiselta ja rajalliselta. Lisäksi Suomessa kaikki sunitinibin myyntiluvat on peruutettu, ja turvallisuustiedot (valmisteyhteenveto) puuttuvat.
+- Liposarkoomaa koskeva näyttö on epäsuoraa ja rajallista: kaksi vaiheen 2 tutkimusta pehmytkudossarkoomissa yleisesti, yksi tapausselostus eikä vaiheen 3 näyttöä. Teho vaikuttaa histologiasta riippuvaiselta ja rajalliselta. Turvallisuustiedot (valmisteyhteenveto) puuttuvat.
 
 **Etenemiseksi tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden haku Fimeasta (estää turvallisuusseulonnan)
 - Vaikutusmekanismitietojen täydentäminen DrugBankista
 - Liposarkoomakohtaisten tulosten erittely vaiheen 2 tutkimuksista (NCT00474994, NCT00400569, PMID 21154746)
-- Selvitys sunitinibin saatavuudesta Suomessa, koska myyntiluvat on peruutettu
+- Selvitys sunitinibin saatavuudesta Suomessa
 - Yhteisvaikutusten ja sydän- ja maksaturvallisuuden seurantasuunnitelma
 
 ---

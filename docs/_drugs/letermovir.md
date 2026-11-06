@@ -88,7 +88,7 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole tämän raportin aineist
 **Päätös: Hold (odota)**
 
 **Perustelu:**
-Ennuste perustuu vain tietämysgraafimalliin (L5), eikä sille ole kliinistä tai kirjallisuusnäyttöä. Lisäksi letermoviirin kohde puuttuu Candida-sienistä, joten mekanistinen perustelu on heikko. Suomessa ainoa myyntilupa on peruutettu.
+Ennuste perustuu vain tietämysgraafimalliin (L5), eikä sille ole kliinistä tai kirjallisuusnäyttöä. Lisäksi letermoviirin kohde puuttuu Candida-sienistä, joten mekanistinen perustelu on heikko.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Candida-lajien in vitro -herkkyystestejä letermoviirille

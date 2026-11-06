@@ -92,8 +92,6 @@ Ensisijaiseen ennusteeseen (kissan immuunipuutosoireyhtymä) ei ole saatavilla k
 | EMEA/H/C/004747 | Pifeltro (peruutettu) | – | HIV-infektiot |
 | EMEA/H/C/004746 | Delstrigo (peruutettu) | – | HIV-infektiot |
 
-Molemmat myyntiluvat on peruutettu, eikä voimassa olevia myyntilupia ole.
-
 ---
 
 ## Turvallisuusnäkökohdat
@@ -112,7 +110,7 @@ Muita turvallisuustietoja (varoitukset, vasta-aiheet) ei ollut saatavilla; niide
 **Päätös: Hold**
 
 **Perustelut:**
-- Ennuste perustuu vain mallin pisteytykseen (L5). Kliinisiä tutkimuksia ei ole, eikä doravirinia koskevaa kirjallisuutta ole. Biologinen perustelu on heikko, koska NNRTI-lääkkeet tehoavat huonosti FIV:hen ja SIV:hen. Lisäksi lääkkeen kaikki myyntiluvat Suomessa on peruutettu.
+- Ennuste perustuu vain mallin pisteytykseen (L5). Kliinisiä tutkimuksia ei ole, eikä doravirinia koskevaa kirjallisuutta ole. Biologinen perustelu on heikko, koska NNRTI-lääkkeet tehoavat huonosti FIV:hen ja SIV:hen.
 
 **Eteneminen edellyttää seuraavaa:**
 - Vaikutusmekanismitietojen täydentäminen (DrugBank)

@@ -109,13 +109,11 @@ Muita turvallisuustietoja (varoitukset, vasta-aiheet) ei ole saatavilla; ne tule
 
 **Perustelut:**
 - Ensisijaiselle ennusteelle (verihiutaleiden vapautumishäiriö) ei ole kliinistä eikä kohdennettua kirjallista näyttöä, ja mekanistisesti verihiutalemäärän lisääminen ei korjaisi laadullista vikaa. Korkea pistemäärä näyttää johtuvan läheisyydestä ITP:hen.
-- Myyntilupa Suomessa on peruutettu.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista (estävä tietoaukko)
 - Vaikutusmekanismin yksityiskohtaisia tietoja
 - Perinnöllisten trombosytopenioiden (rivi 6 ja 9) ja FNAIT:n tarkempaa kirjallisuuskartoitusta sekä FNAIT:n osalta istukan läpäisyn ja sikiön turvallisuuden arviointia
-- Myyntiluvan peruutuksen syyn ja nykyisen saatavuuden selvittämistä Suomessa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

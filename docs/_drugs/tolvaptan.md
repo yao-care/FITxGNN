@@ -116,14 +116,13 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet eivät olleet saatavilla tämän
 **Päätös: Proceed with Guardrails (Jatka suojatoimin)**
 
 **Perustelut:**
-- Tolvaptaanin teho ADPKD:ssa on osoitettu keskeisillä RCT-tutkimuksilla, ja PKD3 jakaa saman cAMP-välitteisen kystogeenisen mekanismin. Alatyypille ei kuitenkaan ole omaa kliinistä näyttöä, ja Suomessa kaikki myyntiluvat on peruutettu.
+- Tolvaptaanin teho ADPKD:ssa on osoitettu keskeisillä RCT-tutkimuksilla, ja PKD3 jakaa saman cAMP-välitteisen kystogeenisen mekanismin. Alatyypille ei kuitenkaan ole omaa kliinistä näyttöä.
 
 **Jatkaminen edellyttää seuraavaa:**
 - Alatyyppikohtainen näyttö (PKD3/GANAB) tai perusteltu ekstrapolaatio ADPKD-tutkimuksista
 - Fimean valmisteyhteenvedon varoitusten ja vasta-aiheiden läpikäynti (ei saatavilla tässä aineistossa)
 - Maksa-arvojen seurantasuunnitelma (DILI-riski)
 - CYP3A4-yhteisvaikutusten ja 100 yhteisvaikutuksen arviointi
-- Myyntiluvan peruutuksen syiden selvitys ja saatavuuden varmistaminen Suomessa
 - Vaikutusmekanismitietojen (MOA) täydentäminen lääketietokannasta
 
 ---

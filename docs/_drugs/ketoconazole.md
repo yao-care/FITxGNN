@@ -121,7 +121,7 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut tämän raportin ain
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Näyttö jää tasolle L4: ainoa kliininen tutkimus on pieni, ilman tuloksia ja vaiheluokittelematon, ja kirjallisuus on pääosin epäsuoraa tai laboratoriotasoa. Lisäksi suun kautta otettavan ketokonatsolin turvallisuusprofiili (mm. maksa- ja QT-aikariskit sekä runsaat yhteisvaikutukset) sekä peruutettu myyntilupa Suomessa rajoittavat etenemistä.
+- Näyttö jää tasolle L4: ainoa kliininen tutkimus on pieni, ilman tuloksia ja vaiheluokittelematon, ja kirjallisuus on pääosin epäsuoraa tai laboratoriotasoa.
 
 **Etenemiseksi tarvitaan:**
 - Tutkimuksen NCT07237763 tulokset sekä satunnaistettuja vaiheen 2/3 tutkimuksia aknessa

@@ -93,8 +93,6 @@ Muille ennustetuille käyttöaiheille ei ole rekisteröityjä kliinisiä tutkimu
 |---------|------|------|-----------|
 | EMEA/H/C/000984 (peruutettu) | Efient | Ei tiedossa | Akuutti sepelvaltimotautioireyhtymä, epästabiili angina pectoris, sydäninfarkti |
 
-Voimassa olevia myyntilupia ei ole.
-
 ## Turvallisuusnäkökohdat
 
 Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla tämän raportin tiedoissa, joten turvallisuusarviointia ei voida viedä eteenpäin ennen niiden hankkimista. Tarkista turvallisuustiedot valmisteyhteenvedosta.
@@ -110,14 +108,14 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla tämän rapor
 **Päätös: Hold** (keuhkoverenpainetauti ja muut korkeimmin pisteytetyt ennusteet). Migreenin PFO-alaryhmässä jatkotutkimus on perusteltu tutkimuskysymyksenä.
 
 **Perustelut:**
-- Ensisijaisella ennusteella (keuhkoverenpainetauti) on vain mallin ennuste ilman prasugreelia koskevaa tutkimusnäyttöä (L5). Migreenin PFO-alaryhmällä on rajallista, epäsuoraa ja heikkotasoista kliinistä signaalia (L3), mutta ei prasugreelin satunnaistettua tutkimusta. Lisäksi lääkkeellä ei ole voimassa olevaa myyntilupaa Suomessa.
+- Ensisijaisella ennusteella (keuhkoverenpainetauti) on vain mallin ennuste ilman prasugreelia koskevaa tutkimusnäyttöä (L5). Migreenin PFO-alaryhmällä on rajallista, epäsuoraa ja heikkotasoista kliinistä signaalia (L3), mutta ei prasugreelin satunnaistettua tutkimusta.
 
 **Etenemiseksi tarvitaan:**
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (estää nykyisellään turvallisuusseulonnan)
 - Yksityiskohtaiset vaikutusmekanismitiedot
 - Prasugreelia suoraan arvioiva satunnaistettu tutkimus PFO:hon liittyvässä migreenissä
 - Verenvuotoriskin arviointi migreenipotilailla, erityisesti kun käytössä on NSAID-lääkkeitä tai asetyylisalisyylihappoa
-- Selvitys prasugreelin saatavuudesta Suomessa, koska myyntilupa on peruutettu
+- Selvitys prasugreelin saatavuudesta Suomessa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

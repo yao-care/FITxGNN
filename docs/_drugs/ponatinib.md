@@ -125,7 +125,7 @@ Sydän- ja verisuoni- sekä tromboosiriskeistä on huomattava, että ne ovat tä
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu vain korkeaan TxGNN-pistemäärään (0,9904), eikä sen tueksi ole kliinisiä tutkimuksia tai kirjallisuutta (näyttötaso L5). Lisäksi lääke ei ole tällä hetkellä markkinoilla Suomessa (ainoa myyntilupa peruutettu), ja turvallisuustiedot puuttuvat.
+- Ennuste perustuu vain korkeaan TxGNN-pistemäärään (0,9904), eikä sen tueksi ole kliinisiä tutkimuksia tai kirjallisuutta (näyttötaso L5).
 
 **Eteenpäin siirtymiseksi tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankinta ja läpikäynti (estää nykyisellään turvallisuusseulonnan)

@@ -78,7 +78,7 @@ Tälle käyttöaiheelle ei ole tällä hetkellä saatavilla aiheeseen liittyvä�
 
 ## Suomen markkinatiedot
 
-Kaikki seitsemän myyntilupaa on peruutettu. Voimassa olevia vildagliptiinivalmisteita ei siis ole tässä aineistossa. Luvat ovat EU:n keskitettyjä myyntilupia (EMEA/H/C), ja kaikkien hyväksytty käyttöaihe on tyypin 2 diabetes.
+Luvat ovat EU:n keskitettyjä myyntilupia (EMEA/H/C), ja kaikkien hyväksytty käyttöaihe on tyypin 2 diabetes.
 
 | Myyntiluvan numero | Valmisteen nimi | Hyväksytty käyttöaihe |
 |---------|------|-----------|
@@ -132,7 +132,7 @@ Muut ennusteet, kuten jäykän ihmisen oireyhtymä, lipodystrofiat ja haiman age
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ensisijaisella ennusteella (klassinen jäykän ihmisen oireyhtymä) ei ole tutkimuksia eikä kirjallisuutta, eikä mekanistista yhteyttä voida perustella. Kaikki Suomen myyntiluvat on lisäksi peruutettu.
+- Ensisijaisella ennusteella (klassinen jäykän ihmisen oireyhtymä) ei ole tutkimuksia eikä kirjallisuutta, eikä mekanistista yhteyttä voida perustella.
 - Tyypin 1 diabeteksessa on pieniä vaiheen 2–4 tutkimuksia, mutta vahvistettuja kliinisiä tulosmuuttujia sisältävää vaiheen 3 näyttöä ei ole.
 
 **Jatkoon tarvitaan:**

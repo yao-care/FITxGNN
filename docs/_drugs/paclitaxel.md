@@ -113,8 +113,6 @@ Huomio: vaiheen 3 tutkimuksissa paklitakseli on useimmiten osa yhdistelmää tai
 | EMEA/H/C/006173 | Naveruclif (peruutettu) | – | Rintasyöpä; haimasyöpä; ei-pienisoluinen keuhkosyöpä |
 | EMEA/H/C/004441 | Pazenir (peruutettu) | – | Rintasyöpä |
 
-Kaikki neljä myyntilupaa ovat peruutettuja, eikä voimassa olevia lupia ole.
-
 ## Sytotoksisuus
 
 | Kohta | Sisältö |
@@ -139,12 +137,12 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ole saatavilla, joten niih
 **Päätös: Proceed with Guardrails (etene varauksin)**
 
 **Perustelu:**
-- Rintasyöpä on jo paklitakselin vakiintunut käyttöaihe, ja aineistossa on useita valmistuneita vaiheen 2 ja 3 tutkimuksia. Paklitakselia tutkitaan kuitenkin pääosin yhdistelmähoitojen osana, ja Suomessa ei ole voimassa olevia myyntilupia.
+- Rintasyöpä on jo paklitakselin vakiintunut käyttöaihe, ja aineistossa on useita valmistuneita vaiheen 2 ja 3 tutkimuksia. Paklitakselia tutkitaan kuitenkin pääosin yhdistelmähoitojen osana.
 
 **Etenemiseksi tarvitaan:**
 - Valmisteyhteenvedon varoitus- ja vasta-aihetiedot (Fimea) – tämä on estävä tietoaukko.
 - Yksityiskohtaiset vaikutusmekanismitiedot (DrugBank).
-- Arvio voimassa olevan valmisteen saatavuudesta Suomessa, koska kaikki aineiston myyntiluvat on peruutettu.
+- Arvio voimassa olevan valmisteen saatavuudesta Suomessa.
 - Suoraan paklitakselia (ei nab-muotoa) vertaavat vaiheen 3 -tiedot kolmoisnegatiiviseen ja hormoniresistenttiin tautiin.
 - Turvallisuuden seurantasuunnitelma (verenkuva, neuropatia, maksa- ja munuaistoiminta, CYP-yhteisvaikutukset).
 ## Vastuuvapauslauseke

@@ -82,8 +82,6 @@ Aiheesta ei ole tällä hetkellä saatavilla kirjallisuutta.
 |---------|------|------|-----------|
 | EMEA/H/C/005406 | Okedi | – | Skitsofrenia |
 
-Tämä myyntilupa on tilassa "peruutettu". Voimassa olevia yhden tai useamman vaikuttavan aineen valmisteiden myyntilupia ei ole.
-
 ---
 
 ## Turvallisuusnäkökohdat
@@ -117,7 +115,7 @@ Samalle lääkkeelle on tehty muitakin ennusteita, joista osa on huomattavasti p
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ykkösennusteelle ei löydy kliinistä tutkimusta, kirjallisuutta eikä uskottavaa mekanistista yhteyttä. Korkea ennustepistemäärä ei yksin riitä perusteeksi jatkaa. Lisäksi risperidonilla ei ole Suomessa voimassa olevaa myyntilupaa.
+- Ykkösennusteelle ei löydy kliinistä tutkimusta, kirjallisuutta eikä uskottavaa mekanistista yhteyttä. Korkea ennustepistemäärä ei yksin riitä perusteeksi jatkaa.
 
 **Jatkaminen edellyttäisi:**
 - Perustelua, miksi juuri tämä ennuste on kliinisesti mielekäs, tai ennusteen hylkäämistä.

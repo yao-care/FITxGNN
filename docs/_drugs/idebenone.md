@@ -98,14 +98,14 @@ Turvallisuustiedot on tarkistettava valmisteyhteenvedosta. Lääkeyhteisvaikutuk
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu pelkästään TxGNN-malliin (L5), eikä kliinisiä tutkimuksia, kirjallisuutta tai suoraa mekanistista näyttöä ole. Lisäksi Suomessa ainoa myyntilupa on peruutettu.
+- Ennuste perustuu pelkästään TxGNN-malliin (L5), eikä kliinisiä tutkimuksia, kirjallisuutta tai suoraa mekanistista näyttöä ole.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimeasta (estää tällä hetkellä turvallisuusseulonnan)
 - Vaikutusmekanismin (MOA) tietojen täydentämistä DrugBankista
 - Prekliinistä tai mekanistista näyttöä idebenonin vaikutuksesta porfyriaan liittyvään maksavaurioon
 - Kirjallisuushakua ja tutkimusrekisterien tarkistusta
-- Selvitystä siitä, miksi myyntilupa on peruutettu, sekä reittien ja lääkemuotojen soveltuvuuden arviointia
+- Selvitystä siitä, sekä reittien ja lääkemuotojen soveltuvuuden arviointia
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

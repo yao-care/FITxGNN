@@ -70,8 +70,6 @@ Ennusteeseen liittyy kuitenkin merkittäviä varauksia. Amenorrea on hormonaalis
 |---------|------|------|-----------|
 | EMEA/H/C/000410 | Evra | – | Ehkäisy |
 
-Myyntilupa on tilassa "peruutettu", eikä Suomessa ole voimassa olevia myyntilupia.
-
 ---
 
 ## Turvallisuusnäkökohdat
@@ -92,7 +90,7 @@ Valmistetekstin varoitus- ja vasta-aihetietoja ei ollut saatavilla tähän rapor
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu vain malliin (L5): kliinisiä tutkimuksia tai julkaisuja ei ole, ja amenorrea on ehkäisyvalmisteiden tunnettu vaikutus, ei validoitu hoidon kohde. Lisäksi valmisteella ei ole voimassa olevaa myyntilupaa Suomessa, ja turvallisuustiedot ovat puutteelliset.
+- Ennuste perustuu vain malliin (L5): kliinisiä tutkimuksia tai julkaisuja ei ole, ja amenorrea on ehkäisyvalmisteiden tunnettu vaikutus, ei validoitu hoidon kohde. Turvallisuustiedot ovat puutteelliset.
 
 **Jatkoa varten tarvitaan:**
 - Valmisteyhteenvedon varoitus- ja vasta-aihetiedot (estää turvallisuusseulonnan jatkamisen)

@@ -82,7 +82,7 @@ Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkim
 | EMEA/H/C/001181 | Rivastigmine 1 A Pharma | – | Alzheimerin tauti, dementia, Parkinsonin tauti |
 | EMEA/H/C/001182 | Rivastigmine Hexal | – | Dementia, Alzheimerin tauti, Parkinsonin tauti |
 
-Kaikki kuusi myyntilupaa on peruutettu, joten voimassa olevia valmisteita ei ole. Taulukossa on listattu viisi kuudesta; kuudes on Rivastigmine Sandoz (EMEA/H/C/001183).
+Taulukossa on listattu viisi kuudesta; kuudes on Rivastigmine Sandoz (EMEA/H/C/001183).
 
 ## Turvallisuusnäkökohdat
 
@@ -95,7 +95,7 @@ Kaikki kuusi myyntilupaa on peruutettu, joten voimassa olevia valmisteita ei ole
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Näyttö rajoittuu yhteen kaniinikokeeseen ja kahteen katsaukseen, eikä ihmisillä tehtyjä tutkimuksia ole. Myyntiluvat on peruutettu, ja silmään annettava valmiste vaatisi uutta kehitystä.
+- Näyttö rajoittuu yhteen kaniinikokeeseen ja kahteen katsaukseen, eikä ihmisillä tehtyjä tutkimuksia ole. Silmään annettava valmiste vaatisi uutta kehitystä.
 
 **Eteneminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimeasta (estävä tietoaukko)

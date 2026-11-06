@@ -70,7 +70,6 @@ Kirjallisuudessa on RIDE/RISE-tutkimusten analyysejä, joissa diabeettinen retin
 
 ## Kliininen tutkimusnäyttö
 
-
 ---
 
 ## Kirjallisuusnäyttö
@@ -100,8 +99,6 @@ Kirjallisuudessa on RIDE/RISE-tutkimusten analyysejä, joissa diabeettinen retin
 | EMEA/H/C/005019 | Ranivisio | – | Kostea silmänpohjan ikärappeuma, makulaturvotus, diabeettinen retinopatia, diabeteksen komplikaatiot (peruutettu) |
 | EMEA/H/C/006055 | Rimmyrah | – | Kostea silmänpohjan ikärappeuma, makulaturvotus, diabeteksen komplikaatiot, rappeuttava myopia, suonikalvon uudissuonittuminen (peruutettu) |
 
-Kaikkiaan myyntilupia on 7, ja ne ovat kaikki peruutettuja.
-
 ---
 
 ## Turvallisuushuomioita
@@ -119,13 +116,12 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet eivät olleet saatavilla, joten 
 **Päätös: Etene suojatoimin (Proceed with Guardrails)**
 
 **Perustelut:**
-- Ennuste on mekanistisesti uskottava (VEGF-esto), ja kirjallisuudessa on satunnaistettu tutkimus (Pavilion) sekä RIDE/RISE-analyysejä. Ennustettuun käyttöaiheeseen ei ole annettu rekisteröityjä tutkimuksia, joten L1-taso perustuu kirjallisuuteen, ja suomalaiset myyntiluvat ovat kaikki peruutettuja.
+- Ennuste on mekanistisesti uskottava (VEGF-esto), ja kirjallisuudessa on satunnaistettu tutkimus (Pavilion) sekä RIDE/RISE-analyysejä. Ennustettuun käyttöaiheeseen ei ole annettu rekisteröityjä tutkimuksia, joten L1-taso perustuu kirjallisuuteen.
 
 **Jatkaminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivustolta (estävä tietoaukko).
 - Vaikutusmekanismin vahvistamista DrugBankista.
 - Kirjallisuuden suhteen tarkistamista, koskevatko tulokset nimenomaan vaikeaa ei-proliferatiivista retinopatiaa.
-- Myyntilupatilanteen selvittämistä (peruutettujen lupien syyt ja mahdollinen uusi lupa tai käyttö muilla reiteillä).
 
 **Muut ennustetut käyttöaiheet (Odota / Hold):** Kaihin eri muodot (kypsymätön, kypsä, tetaaninen, kraniostenoosiin liittyvä, nukleaarinen, kortikaalinen, seniili ja tyypin 2 diabetekseen liittyvä kaihi) sekä vastasyntyneen verenvuototauti saivat korkeat ennustepisteet, mutta niille ei löytynyt uskottavaa mekanistista yhteyttä tai tukevaa terapeuttista näyttöä. Kirjallisuus koski pääosin verkkokalvosairauksia tai kaihileikkauksen yhteydessä annettua ranibitsumabia. Ainoa rekisteröity tutkimus (NCT01406639, perinnöllinen verenvuototauti HHT) peruttiin ilman osallistujia, eikä toinen tutkimus (NCT00470977) liity ennustettuun käyttöaiheeseen. Näitä ei suositella jatkoon.
 ## Vastuuvapauslauseke

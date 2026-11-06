@@ -134,7 +134,7 @@ Muilta osin turvallisuustiedot, vasta-aiheet ja yhteisvaikutukset: katso valmist
 **Päätös: Proceed with Guardrails (jatka suojatoimin)**
 
 **Perustelut:**
-- Suuret vaiheen 3 tutkimukset tukevat S-1-yhdistelmää paksusuolisyövässä, ja yksi niistä (NCT00660894, n=1535) on valmistunut. Näyttö koskee kuitenkin koko yhdistelmää, ei oteraciilia yksinään, jolla ei ole omaa kasvainvaikutusta. Lisäksi myyntilupa on vain peruutettu eikä yhtään voimassa olevaa lupaa ole.
+- Suuret vaiheen 3 tutkimukset tukevat S-1-yhdistelmää paksusuolisyövässä, ja yksi niistä (NCT00660894, n=1535) on valmistunut. Näyttö koskee kuitenkin koko yhdistelmää, ei oteraciilia yksinään, jolla ei ole omaa kasvainvaikutusta.
 - Muut ennustetut käyttöaiheet (esim. hyvänlaatuiset kasvaimet, kuten lipooma ja hemangiooma) perustuvat vain mallin ennusteeseen, eikä niille ole näyttöä. Ne kannattaa jättää odottamaan (Hold).
 
 **Jatkamiseksi tarvitaan:**

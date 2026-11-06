@@ -79,7 +79,7 @@ Ei tällä hetkellä aiheeseen liittyvää kirjallisuutta.
 
 ## Suomen markkinatiedot
 
-Kaikki seitsemän myyntilupaa on peruutettu. Viisi ensimmäistä:
+Viisi ensimmäistä:
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
@@ -107,13 +107,13 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet on tarkistettava Fimean valmiste
 **Päätös: Hold (odota)**
 
 **Perustelu:**
-- Ennuste on vain mallilaskennan tulos: kliinisiä tutkimuksia ja julkaisuja ei ole, eikä biologisesti uskottavaa mekanismia ole osoitettu. Lisäksi kaikki Suomen myyntiluvat on peruutettu.
+- Ennuste on vain mallilaskennan tulos: kliinisiä tutkimuksia ja julkaisuja ei ole, eikä biologisesti uskottavaa mekanismia ole osoitettu.
 
 **Jatkoon tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvitys Fimean sivustolta
 - Vaikutusmekanismin tarkempi kuvaus (esim. DrugBankista) ja arvio sen yhteydestä pohjukaissuolen haavaumaan
 - Prekliininen tai mekanistinen näyttö ennen kliinisiä jatkoaskelia
-- Tuotteiden saatavuuden varmistaminen, koska kaikki myyntiluvat on peruutettu
+- Tuotteiden saatavuuden varmistaminen
 
 ## Vastuuvapauslauseke
 

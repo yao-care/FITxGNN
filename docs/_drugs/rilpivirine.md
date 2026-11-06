@@ -110,8 +110,6 @@ Muiden ennusteiden tukena olevaa kirjallisuutta (valikoima):
 | EMEA/H/C/006491 | Emtricitabine / Rilpivirine / Tenofovir Alafenamide Viatris | – | HIV-infektiot (peruutettu) |
 | EMEA/H/C/004156 | Odefsey | – | HIV-infektiot (peruutettu) |
 
-Yhteensä myyntilupia on 6, ja kaikki on peruutettu. Kuudes lupa (Eviplera, EMEA/H/C/002312) on myös peruutettu.
-
 ## Turvallisuusnäkökohdat
 
 Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ollut tämän raportin aineistossa saatavilla, joten niihin tulee perehtyä valmisteyhteenvedosta.
@@ -124,7 +122,7 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ollut tämän raportin ainei
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu pääosin malliin. Tukena on vain yksi in vitro -tutkimus, kliinisiä kokeita ei ole ja käyttöaihe on eläinlääkinnällinen. Rilpiviriinin myyntiluvat Suomessa on lisäksi peruutettu.
+- Ennuste perustuu pääosin malliin. Tukena on vain yksi in vitro -tutkimus, kliinisiä kokeita ei ole ja käyttöaihe on eläinlääkinnällinen.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Rilpiviriinin vaikutusmekanismitietojen täydentämistä

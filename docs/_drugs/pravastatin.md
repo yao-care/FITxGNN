@@ -109,13 +109,13 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut saatavilla; tarkista
 **Päätös: Hold**
 
 **Perustelut:**
-- Ennusteella on korkea pistemäärä, mutta ei suoraa kliinistä näyttöä pravastatiinille tässä käyttöaiheessa. Ainoa tutkimus koskee alirokumabia, ja homotsygoottisessa muodossa LDL-reseptorin toiminnan puute rajoittaa statiinien tehoa. Lisäksi pravastatiinin ainoa Suomen myyntilupa on peruutettu.
+- Ennusteella on korkea pistemäärä, mutta ei suoraa kliinistä näyttöä pravastatiinille tässä käyttöaiheessa. Ainoa tutkimus koskee alirokumabia, ja homotsygoottisessa muodossa LDL-reseptorin toiminnan puute rajoittaa statiinien tehoa.
 
 **Jatkotoimenpiteet:**
 - Selvitä pravastatiinia suoraan homotsygoottisessa FH:ssa tutkivat tutkimukset.
 - Arvioi ensisijaisesti heterotsygoottista familiaalista hyperkolesterolemiaa, jossa näyttö on vahvempi.
 - Hanki valmisteyhteenvedon varoitukset ja vasta-aiheet sekä mekanismitiedot.
-- Selvitä valmisteen saatavuus Suomessa, koska myyntilupa on peruutettu.
+- Selvitä valmisteen saatavuus Suomessa.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

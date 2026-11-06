@@ -90,8 +90,6 @@ Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 |---------|------|------|-----------|
 | EMEA/H/C/005647 | Winrevair | – | Keuhkoverenpainetauti (pulmonaalihypertensio) |
 
-Tämä myyntilupa on tilaltaan peruutettu, eikä voimassa olevia myyntilupia ole.
-
 ## Turvallisuusnäkökohdat
 
 Turvallisuustiedot on tarkistettava valmisteyhteenvedosta. Lääkkeiden yhteisvaikutuksia ei löytynyt käytetyistä tiedoista.
@@ -101,7 +99,7 @@ Turvallisuustiedot on tarkistettava valmisteyhteenvedosta. Lääkkeiden yhteisva
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu yksinomaan TxGNN-mallin pisteisiin (taso L5), eikä kliinisiä tutkimuksia, kirjallisuutta tai varmennettua vaikutusmekanismia ole. Lisäksi Suomen myyntilupa on peruutettu.
+- Ennuste perustuu yksinomaan TxGNN-mallin pisteisiin (taso L5), eikä kliinisiä tutkimuksia, kirjallisuutta tai varmennettua vaikutusmekanismia ole.
 
 **Eteenpäin siirtymiseksi tarvitaan:**
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (estää tällä hetkellä turvallisuusseulonnan)

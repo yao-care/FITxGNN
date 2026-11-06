@@ -93,7 +93,7 @@ Muuta turvallisuustietoa, kuten varoituksia ja vasta-aiheita, ei ole tässä rap
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu pelkästään TxGNN-mallin pisteytykseen (L5). Tukevia kliinisiä tutkimuksia tai julkaisuja ei ole, ja valmisteen ainoa Suomen myyntilupa on peruutettu.
+- Ennuste perustuu pelkästään TxGNN-mallin pisteytykseen (L5). Tukevia kliinisiä tutkimuksia tai julkaisuja ei ole.
 - Turvallisuuden arvioinnin estävä tietoaukko (valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat) estää etenemisen turvallisuusseulontaan.
 
 **Jatkaminen edellyttää seuraavaa:**

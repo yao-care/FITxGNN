@@ -103,7 +103,7 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet tulee tarkistaa erikseen.
 **Päätös: Hold (odota)**
 
 **Perustelu:**
-- Ennuste perustuu lähinnä mallin samankaltaisuuteen hyväksytyn käyttöaiheen kanssa. Kliinisiä tutkimuksia ei ole, ja reaktiivisessa trombosytoosissa verihiutaleiden alentaminen ei yleensä ole aiheellista. Lisäksi lääkkeen kaikki myyntiluvat Suomessa on peruutettu.
+- Ennuste perustuu lähinnä mallin samankaltaisuuteen hyväksytyn käyttöaiheen kanssa. Kliinisiä tutkimuksia ei ole, ja reaktiivisessa trombosytoosissa verihiutaleiden alentaminen ei yleensä ole aiheellista.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Vaikutusmekanismin tietojen täydentämistä (DrugBank)

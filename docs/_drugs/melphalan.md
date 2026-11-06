@@ -135,13 +135,12 @@ Tarkemmat tiedot: ks. valmisteyhteenvedon varoitukset ja varotoimet.
 **Päätös: Hold**
 
 **Perustelut:**
-- Korkea ennustepistemäärä ja yksi suoraan itusolukasvaimia koskeva vaiheen 2 tutkimus tekevät suunnasta tutkimisen arvoisen, mutta melfalaani on tutkimuksissa vain osa yhdistelmähoitoa, eikä sen oma osuus ole erotettavissa. Kirjallisuusnäyttö on lähes olematonta, ja Suomessa ainoa myyntilupa on peruutettu.
+- Korkea ennustepistemäärä ja yksi suoraan itusolukasvaimia koskeva vaiheen 2 tutkimus tekevät suunnasta tutkimisen arvoisen, mutta melfalaani on tutkimuksissa vain osa yhdistelmähoitoa, eikä sen oma osuus ole erotettavissa. Kirjallisuusnäyttö on lähes olematonta.
 
 **Eteenpäin siirtyminen edellyttää:**
 - NCT00936936-tutkimuksen tulosten ja melfalaanin osuuden arviointia
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimealta (estää nykyisellään turvallisuusseulonnan)
 - Vaikutusmekanismitietojen täydentämistä DrugBankista
-- Selvitystä melfalaanivalmisteen saatavuudesta Suomessa myyntiluvan peruutuksen jälkeen
 - Turvallisuuden seurantasuunnitelmaa luuydinsuppression, munuaisten ja keuhkojen riskeille
 ## Vastuuvapauslauseke
 

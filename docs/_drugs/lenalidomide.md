@@ -112,8 +112,6 @@ Kirjallisuudessa ei ole satunnaistettua kontrolloitua tutkimusta lenalidomidista
 | EMEA/H/C/000717 | Revlimid | – | Multippeli myelooma, manttelisolulymfooma, myelodysplastiset oireyhtymät |
 | EMEA/H/C/004857 | Lenalidomide Accord | – | Multippeli myelooma |
 
-Kaikki kolme myyntilupaa on merkitty peruutetuiksi.
-
 ---
 
 ## Sytotoksisuus
@@ -143,14 +141,14 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ollut tälle raportille saat
 
 **Perustelut:**
 - Myeloidisessa leukemiassa on useita valmistuneita vaiheen 1–2 tutkimuksia, mutta ne ovat pieniä ja pääosin yksihaaraisia, eikä valmistunutta vaiheen 3 satunnaistettua tutkimusta ole. Näytön taso L2 on rajallinen.
-- Lenalidomidilla ei tällä hetkellä ole voimassa olevaa myyntilupaa Suomessa, ja turvallisuustiedot puuttuvat. Luuydinsuppression riski on merkittävä.
+- Luuydinsuppression riski on merkittävä.
 - Muiden ennustettujen käyttöaiheiden näyttö on heikompaa: myelodysplastinen oireyhtymä (luokittelematon, L3), lasten refraktaarinen sytopenia (L3), aregeneratiivinen anemia (L4) ja kaksi muuta ennustetta (L5). Kromosomin 5 pitkän käden osittainen deleetio vastaa jo vakiintunutta del(5q)-MDS-käyttöaihetta, joten se ei ole varsinaista uudelleenkäyttöä.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivuilta
 - Yksityiskohtaisten vaikutusmekanismitietojen täydentämistä (DrugBank)
 - Kunnollista vertailevaa (satunnaistettua) näyttöä AML:ssä, esimerkiksi vaiheen 2/3 tutkimuksista
-- Selvitystä myyntilupatilanteesta Suomessa (kaikki kolme myyntilupaa on peruutettu)
+- Selvitystä myyntilupatilanteesta Suomessa
 - Turvallisuuden seurantasuunnitelmaa luuydinsuppression, tromboembolian ja sikiövaurioriskin osalta sekä statiiniyhteisvaikutusten arviointia
 ## Vastuuvapauslauseke
 

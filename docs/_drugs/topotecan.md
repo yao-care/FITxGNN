@@ -137,13 +137,13 @@ Useiden lääkkeiden (mm. omepratsoli, ondansetroni, deksametasoni, morfiini) yh
 **Päätös: Hold (odotetaan)**
 
 **Perustelut:**
-- Rintasyöpäindikaation tuki on pääosin prekliinistä, ja kliiniset tutkimukset ovat yhdistelmä- tai varhaisvaiheen tutkimuksia, joista topotekaanin oma osuus ei erotu. Vanhin monoterapiatutkimus ei osoittanut merkittävää tehoa. Lisäksi Suomessa ei ole voimassa olevia myyntilupia.
+- Rintasyöpäindikaation tuki on pääosin prekliinistä, ja kliiniset tutkimukset ovat yhdistelmä- tai varhaisvaiheen tutkimuksia, joista topotekaanin oma osuus ei erotu. Vanhin monoterapiatutkimus ei osoittanut merkittävää tehoa.
 
 **Jatkoa varten tarvitaan:**
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (estävä tietoaukko turvallisuusarviointiin)
 - Yksityiskohtainen vaikutusmekanismitieto
 - Topotekaanin monoterapiaa tai selkeästi eroteltua tehoa arvioivia vaiheen 2 tutkimuksia rintasyövässä, erityisesti kolmoisnegatiivisessa tai MYC-ohjatussa alatyypissä
-- Arvio Suomen myyntilupatilanteesta (kaikki luvat peruutettu) ja saatavuudesta
+- Arvio Suomen myyntilupatilanteesta ja saatavuudesta
 
 ---
 

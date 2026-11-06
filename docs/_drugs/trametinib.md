@@ -124,7 +124,7 @@ Muuta turvallisuustietoa varten katso valmisteyhteenveto.
 - **Ei-ihomelanooma: Proceed with Guardrails**
 
 **Perustelut:**
-- Choroideremian ennuste on todennäköisesti tilastollinen artefakti: näyttöä ei ole, eikä tunnettua MEK-yhteyttä. Ei-ihomelanoomalle on useita vaiheen 1–2 tutkimuksia ja mekanistisesti uskottava peruste, mutta tutkimukset ovat pieniä ja heterogeenisia. Suomessa trametinibin ainoa myyntilupa on peruutettu.
+- Choroideremian ennuste on todennäköisesti tilastollinen artefakti: näyttöä ei ole, eikä tunnettua MEK-yhteyttä. Ei-ihomelanoomalle on useita vaiheen 1–2 tutkimuksia ja mekanistisesti uskottava peruste, mutta tutkimukset ovat pieniä ja heterogeenisia.
 
 **Jatkotoimiin tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvitys (Fimean verkkosivusto), koska turvallisuusseulontaa ei voi viedä loppuun ilman niitä

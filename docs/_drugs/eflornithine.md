@@ -86,8 +86,6 @@ Aiheesta ei ole tällä hetkellä saatavilla asiaan liittyvää kirjallisuutta.
 |---------|------|------|-----------|
 | EMEA/H/C/000325 | Vaniqa | – | Hirsutismi |
 
-Tämä myyntilupa on peruutettu, eikä voimassa olevia myyntilupia ole.
-
 ---
 
 ## Turvallisuusnäkökohdat
@@ -104,7 +102,7 @@ Muita turvallisuustietoja saa valmisteyhteenvedosta.
 **Päätös: Hold**
 
 **Perustelut:**
-- Ennuste perustuu pelkkään mallipisteytykseen (L5). Kliinistä tai kirjallisuusnäyttöä ei ole, eikä uskottavaa mekanistista yhteyttä esotropiaan tai neurotrofiseen keratopatiaan ole osoitettu. Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa.
+- Ennuste perustuu pelkkään mallipisteytykseen (L5). Kliinistä tai kirjallisuusnäyttöä ei ole, eikä uskottavaa mekanistista yhteyttä esotropiaan tai neurotrofiseen keratopatiaan ole osoitettu.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Vaikutusmekanismin tietojen täydentämistä (esim. DrugBankista)

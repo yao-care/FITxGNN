@@ -127,7 +127,7 @@ Lisätietoja turvallisuudesta on lääkevalmisteen valmisteyhteenvedossa.
 **Päätös: Hold (kokonaisuutena); neuralgia: tutkimuskysymys jatkoselvitystä varten**
 
 **Perustelut:**
-- Parhaiten pisteytetylle ennusteelle (papillaarinen konjunktiviitti) ja useimmille muille ennusteille ei ole kliinistä eikä kirjallisuusnäyttöä (L5). Ainoa kohtuullisen uskottava suunta on neuralgia (L3), mutta näyttö on pientä, vanhaa, enimmäkseen kontrolloimatonta ja sekoittunutta lidokaiinin vaikutuksen kanssa. Lisäksi Suomessa ainoa myyntilupa on peruutettu.
+- Parhaiten pisteytetylle ennusteelle (papillaarinen konjunktiviitti) ja useimmille muille ennusteille ei ole kliinistä eikä kirjallisuusnäyttöä (L5). Ainoa kohtuullisen uskottava suunta on neuralgia (L3), mutta näyttö on pientä, vanhaa, enimmäkseen kontrolloimatonta ja sekoittunutta lidokaiinin vaikutuksen kanssa.
 
 **Eteneminen edellyttää seuraavia:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean sivustolta (tällä hetkellä puuttuu ja estää turvallisuusseulonnan)

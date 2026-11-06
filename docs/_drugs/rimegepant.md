@@ -110,12 +110,11 @@ Muuta turvallisuustietoa, kuten varoituksia ja vasta-aiheita, varten tulee tutus
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennustetta tukee läheinen sukulaisuus lääkkeen alkuperäiseen migreenin käyttöaiheeseen, mutta aivorunkoauraa koskevaa suoraa näyttöä ei ole. Lisäksi Suomessa ainoa myyntilupa on peruutettu.
+- Ennustetta tukee läheinen sukulaisuus lääkkeen alkuperäiseen migreenin käyttöaiheeseen, mutta aivorunkoauraa koskevaa suoraa näyttöä ei ole.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista (turvallisuusarvioinnin estävä tietoaukko)
 - Vaikutusmekanismitietojen täydentämistä
-- Myyntiluvan peruuttamisen syyn ja nykyisen markkinatilanteen selvittämistä
 - Aivorunkoaurallista migreeniä sairastavien potilaiden alaryhmäanalyysiä tai kohdennettua tutkimusta
 - Tarkempaa arviota yhteisvaikutuksista, erityisesti suurten (Major) yhteisvaikutusten osalta
 ## Vastuuvapauslauseke

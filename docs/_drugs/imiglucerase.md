@@ -88,8 +88,6 @@ Hurlerin oireyhtymään liittyviä kliinisiä tutkimuksia ei ole tällä hetkell
 |---------|------|------|-----------|
 | EMEA/H/C/000157 | Cerezyme (Sanofi B.V.) | – | Gaucherin tauti |
 
-Tämä myyntilupa on tilassa "peruutettu", eikä voimassa olevia myyntilupia ole.
-
 ## Turvallisuusnäkökohdat
 
 - **Lääkeyhteisvaikutukset:** Yksi kohtalaisen tason yhteisvaikutus on tunnistettu miglustaatin kanssa (lähde: DDInter).
@@ -101,7 +99,7 @@ Muuten turvallisuustiedot on luettava valmisteyhteenvedosta.
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu vain tietoverkon läheisyyteen. Imiglusidaasi ei korvaa MPS I:ssä puuttuvaa alfa-L-iduronidaasia, kliinisiä tutkimuksia ei ole, ainoa kirjallisuuslähde on yleinen katsaus ja MPS I:lle on jo olemassa spesifinen hoito (laronidaasi). Myös Suomen myyntilupa on peruutettu.
+- Ennuste perustuu vain tietoverkon läheisyyteen. Imiglusidaasi ei korvaa MPS I:ssä puuttuvaa alfa-L-iduronidaasia, kliinisiä tutkimuksia ei ole, ainoa kirjallisuuslähde on yleinen katsaus ja MPS I:lle on jo olemassa spesifinen hoito (laronidaasi).
 
 **Jatkoa varten tarvitaan:**
 - Yksityiskohtainen vaikutusmekanismitieto (esim. DrugBankista)

@@ -87,8 +87,6 @@ Tällä hetkellä aiheeseen liittyvää kirjallisuutta ei ole saatavilla.
 | EMEA/H/C/001092 | Urorec | Eturauhasen hyvänlaatuinen liikakasvu |
 | EMEA/H/C/001209 | Silodyx | Eturauhasen hyvänlaatuinen liikakasvu |
 
-Kaikki kolme myyntilupaa (haltija Recordati Ireland Ltd) on peruutettu, eikä voimassa olevia lupia ole.
-
 ---
 
 ## Turvallisuusnäkökohdat
@@ -108,14 +106,14 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet eivät ole saatavilla; ne tulee 
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste on pelkkä mallilaskelma (L5): kliinisiä tutkimuksia ja julkaisuja ei ole, eikä uskottavaa mekanistista yhteyttä ole tunnistettu. Lisäksi valmisteen kaikki Suomen myyntiluvat on peruutettu.
+- Ennuste on pelkkä mallilaskelma (L5): kliinisiä tutkimuksia ja julkaisuja ei ole, eikä uskottavaa mekanistista yhteyttä ole tunnistettu.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Silodosiinin vaikutusmekanismin tietojen täydentämistä (esim. DrugBankista)
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivustolta (nykyinen puute estää turvallisuusseulonnan)
 - Prekliinistä tai mekanistista näyttöä siitä, että alfa-1A-salpaus vaikuttaa karvatuppien kasvuun tai TRPS1-säätelyyn
 - Tarkempaa tarkastelua siitä, ovatko ennusteet vain tietämysgraafin artefakteja, sekä mahdollisesti mielekkäämpien ennustettujen käyttöaiheiden arviointia
-- Antoreittien yhteensopivuuden ja valmisteen saatavuuden selvittämistä, koska myyntiluvat on peruutettu
+- Antoreittien yhteensopivuuden ja valmisteen saatavuuden selvittämistä
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

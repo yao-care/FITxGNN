@@ -101,8 +101,6 @@ Alkuperäinen käyttöaihe (osittaisepilepsia) ja uusi käyttöaihe (kohtaustila
 |---------|------|------|-----------|
 | EMEA/H/C/002434 | Fycompa | – | Osittaisepilepsiat (Epilepsies, Partial) |
 
-Lupa on peruutettu, joten voimassa olevia myyntilupia ei ole.
-
 ---
 
 ## Turvallisuusnäkökohdat
@@ -126,7 +124,7 @@ Mekanistinen peruste on vahva ja useat systemaattiset katsaukset sekä kohorttit
 - Yksityiskohtainen vaikutusmekanismitieto (DrugBank)
 - Valmistunut satunnaistettu tutkimus (esim. NCT06401707:n tulokset)
 - Käyttäytymishaittojen ja interaktioiden seurantasuunnitelma
-- Selvitys Suomen markkinatilanteesta, koska Fycompa-lupa on peruutettu, sekä lääkemuodon ja antoreitin soveltuvuudesta tehohoitoon
+- Selvitys Suomen markkinatilanteesta, sekä lääkemuodon ja antoreitin soveltuvuudesta tehohoitoon
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

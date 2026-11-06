@@ -74,8 +74,6 @@ Tällä hetkellä ei ole aiheeseen liittyvää kirjallisuutta.
 |---------|------|------|-----------|
 | EMEA/H/C/005012 | Tavlesse | – | Trombosytopenia |
 
-Myyntilupa on tilassa "peruutettu", joten voimassa olevia myyntilupia ei ole.
-
 ## Turvallisuusnäkökohdat
 
 **Lääkkeiden yhteisvaikutukset:** Yhteisvaikutustietokannasta löytyi yhteensä 100 yhteisvaikutusta. Alla on esimerkkejä ensimmäisistä 20 tuloksesta.
@@ -90,14 +88,13 @@ Muiden turvallisuustietojen osalta katso valmisteyhteenveto.
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Kummallekin ennustetulle käyttöaiheelle on vain mallipohjainen ennuste (L5) ilman kliinistä tai kirjallisuusnäyttöä. Ensimmäisen ennusteen mekanistinen perustelu on heikko (sairaus ei todennäköisesti ole immuunivälitteinen) ja toisen uskottavaa mekanismia ei ole. Lisäksi lääkkeellä ei ole voimassa olevaa myyntilupaa Suomessa.
+- Kummallekin ennustetulle käyttöaiheelle on vain mallipohjainen ennuste (L5) ilman kliinistä tai kirjallisuusnäyttöä. Ensimmäisen ennusteen mekanistinen perustelu on heikko (sairaus ei todennäköisesti ole immuunivälitteinen) ja toisen uskottavaa mekanismia ei ole.
 
 **Etenemiseksi tarvitaan:**
 - Valmisteyhteenvedon varoitus- ja vasta-aihetietojen hankinta Fimeasta (estää turvallisuusseulonnan jatkamisen)
 - Vaikutusmekanismitietojen (MOA) täydentäminen DrugBankista
 - Selvitys siitä, onko ennustetun perinnöllisen trombosytopenian taustalla SYK-reitin mekanismi
 - Prekliiniset tai kirjallisuuteen perustuvat selvitykset ennen mahdollisia kliinisiä tutkimuksia
-- Myyntiluvan peruutuksen syyn ja nykyisen saatavuuden selvittäminen
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

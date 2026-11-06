@@ -107,8 +107,6 @@ Muista ennusteista vahvin on monen nivelen lastenreuma (polyartikulaarinen JIA),
 | EMEA/H/C/005781 | Tyenne | – | Nivelreuma, sytokiinipäästöoireyhtymä, lastenreuma, COVID-19, jättisoluarteriitti (peruutettu) |
 | EMEA/H/C/005984 | Tocilizumab STADA (aiemmin Tofidence) | – | Nivelreuma, COVID-19, lastenreuma (peruutettu) |
 
-Kaikki neljä myyntilupaa on merkitty peruutetuiksi, joten voimassa olevia lupia ei ole.
-
 ---
 
 ## Turvallisuusnäkökohdat
@@ -132,7 +130,7 @@ Muilta osin turvallisuustiedot on luettava valmisteyhteenvedosta.
 **Päätös: Hold**
 
 **Perustelut:**
-- Selkärankareuman osalta molemmat vaiheen 3 tutkimukset keskeytettiin, eikä aineistosta käy ilmi osoitettua kliinistä tehoa. IL-6-salpaus on mekanistisesti uskottava, mutta TNF- ja IL-17-estäjät ovat vakiintuneempia vaihtoehtoja, joten tämä on toistaiseksi tutkimuskysymys. Lisäksi Suomessa ei ole voimassa olevia myyntilupia.
+- Selkärankareuman osalta molemmat vaiheen 3 tutkimukset keskeytettiin, eikä aineistosta käy ilmi osoitettua kliinistä tehoa. IL-6-salpaus on mekanistisesti uskottava, mutta TNF- ja IL-17-estäjät ovat vakiintuneempia vaihtoehtoja, joten tämä on toistaiseksi tutkimuskysymys.
 
 **Eteneminen edellyttää:**
 - Keskeytettyjen tutkimusten (NCT01209689, NCT01209702) tulosten ja keskeyttämissyiden tarkistamista sekä BUILDER-1/2-julkaisun (PMID 23765873) arviointia

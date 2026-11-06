@@ -58,7 +58,6 @@ Tällä hetkellä yksityiskohtaista vaikutusmekanismia koskevia tietoja ei ole s
 
 TxGNN-pistemäärä on hyvin korkea (0,9985), mutta se on pelkkä mallipohjainen ennuste. Ennustetta ei voida verrata tunnettuun mekanismiin, eikä aineistossa ole glysiinikohtaista tietoa, joka yhdistäisi sen nenäontelon patologiaan. Ennustetta ei siksi voida pitää uskottavana ilman lisänäyttöä.
 
-
 ## Kliininen tutkimusnäyttö
 
 | Tutkimustunnus | Vaihe | Tila | Osallistujamäärä | Keskeiset havainnot |
@@ -96,7 +95,7 @@ Lääkeyhteisvaikutuksista ei löytynyt tietoja.
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu pelkästään TxGNN-mallin pisteisiin (L5). Ainoa löytynyt tutkimus on glysiiniin liittymätön kuvantamistutkimus, kirjallisuus on eläin- ja perustutkimusta ilman glysiinitietoa, eikä mekanistista yhteyttä voida osoittaa. Lisäksi valmisteen myyntiluvat Suomessa on peruutettu.
+- Ennuste perustuu pelkästään TxGNN-mallin pisteisiin (L5). Ainoa löytynyt tutkimus on glysiiniin liittymätön kuvantamistutkimus, kirjallisuus on eläin- ja perustutkimusta ilman glysiinitietoa, eikä mekanistista yhteyttä voida osoittaa.
 
 **Eteneminen edellyttää seuraavaa:**
 - Glysiinin vaikutusmekanismin selvittäminen (esim. DrugBankista).

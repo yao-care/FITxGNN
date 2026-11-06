@@ -98,8 +98,6 @@ Mikään julkaisuista ei osoita posakonatsolin tehoa pneumokystoosin hoidossa.
 | EMEA/H/C/005005 | Posaconazole Accord | – | Mykoosit |
 | EMEA/H/C/005028 | Posaconazole AHCL | – | Mykoosit |
 
-Kaikki kolme myyntilupaa on tilassa "peruutettu".
-
 ---
 
 ## Turvallisuusnäkökohdat
@@ -119,7 +117,7 @@ Pelkistä lääkeaineen turvallisuustiedoista (varoitukset, vasta-aiheet) ei ole
 
 **Perustelut:**
 - Ennuste perustuu lähinnä mallin korkeaan pistemäärään. Kliininen tutkimus ei testaa posakonatsolia, kirjallisuus on epäsuoraa, ja mekanistisesti *Pneumocystis* on vähäisen ergosterolipitoisuutensa vuoksi atsolien kohteena epätodennäköinen. Näytön taso on L4.
-- Valmisteiden myyntiluvat Suomessa on peruutettu, ja valmisteyhteenvedon turvallisuustiedot puuttuvat.
+- Valmisteyhteenvedon turvallisuustiedot puuttuvat.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Prekliinistä tai kliinistä näyttöä posakonatsolin vaikutuksesta *Pneumocystis jirovecii* -infektioon (in vitro -herkkyys, eläinmallit, tapaussarjat)

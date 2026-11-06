@@ -90,7 +90,7 @@ Tarkemmat turvallisuustiedot, varoitukset ja vasta-aiheet on tarkistettava valmi
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennusteet perustuvat pelkästään laskennalliseen malliin (L5), eikä yhtään kliinistä tutkimusta tai julkaisua tue niitä. Lisäksi Suomessa ainoa myyntilupa on peruttu.
+- Ennusteet perustuvat pelkästään laskennalliseen malliin (L5), eikä yhtään kliinistä tutkimusta tai julkaisua tue niitä.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hakemista Fimeasta (turvallisuusseulonta ei ole mahdollista ilman niitä)
@@ -98,7 +98,6 @@ Tarkemmat turvallisuustiedot, varoitukset ja vasta-aiheet on tarkistettava valmi
 - Kirjallisuushakua ja kliinisten tutkimusten rekisterihakua perinnöllisistä makrotrombosytopenioista
 - Tautinimikkeiden (esim. "thrombocytopenia with normal platelets") tarkistamista mahdollisten ontologia-artefaktien poissulkemiseksi
 - Lapsipotilaiden ja vastasyntyneiden turvallisuustietojen arviointia, jos nämä käyttöaiheet otetaan tarkasteluun
-- Myyntiluvan peruuntumisen syyn selvittämistä sekä sen vaikutusta lääkkeen saatavuuteen Suomessa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

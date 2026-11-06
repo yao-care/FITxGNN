@@ -109,7 +109,7 @@ Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste on pelkkä mallilaskenta (näytön taso L5). Mekanistista yhteyttä ei ole, eikä tutkimuksia tai kirjallisuutta ole. Lisäksi lääkkeen myyntilupa Suomessa on peruutettu.
+- Ennuste on pelkkä mallilaskenta (näytön taso L5). Mekanistista yhteyttä ei ole, eikä tutkimuksia tai kirjallisuutta ole.
 
 **Eteenpäin siirtyminen edellyttäisi:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista ja läpikäyntiä

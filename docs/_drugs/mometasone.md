@@ -86,7 +86,7 @@ Farmakologinen tieto: mometasoni sitoutuu glukokortikoidireseptoriin (NR3C1). Mu
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu vain laskennalliseen malliin (L5). Kliinisiä tutkimuksia ei ole, ja kaksi tapausselostusta ei tue mometasonin tehoa. Myyntilupa on lisäksi peruutettu.
+- Ennuste perustuu vain laskennalliseen malliin (L5). Kliinisiä tutkimuksia ei ole, ja kaksi tapausselostusta ei tue mometasonin tehoa.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittämistä (Fimea)

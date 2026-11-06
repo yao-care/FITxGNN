@@ -102,8 +102,6 @@ Alla on keskeisimmät julkaisut (kaikki eläin- tai prekliinisiä tutkimuksia; s
 | EMEA/H/C/004274 | Efavirenz/Emtricitabine/Tenofovir disoproxil Krka | – | HIV-infektio |
 | EMEA/H/C/004240 | Efavirenz/Emtricitabine/Tenofovir disoproxil Mylan | – | HIV-infektio |
 
-Kaikki viisi myyntilupaa on peruutettu.
-
 ---
 
 ## Turvallisuushuomiot
@@ -121,7 +119,7 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat, joten niiden tarkistu
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennustettu SIV-infektio on eläintutkimusmalli, ei ihmisen hoitoindikaatio, ja näyttö on pelkästään prekliinistä (L4) ilman kliinisiä kokeita. Efavirentsin teho riippuu HIV-1-RT-kimeerasta, ja korkea pistemäärä heijastaa pääosin jo hyväksyttyä HIV-käyttöaihetta. Lisäksi kaikki Suomen myyntiluvat on peruutettu.
+- Ennustettu SIV-infektio on eläintutkimusmalli, ei ihmisen hoitoindikaatio, ja näyttö on pelkästään prekliinistä (L4) ilman kliinisiä kokeita. Efavirentsin teho riippuu HIV-1-RT-kimeerasta, ja korkea pistemäärä heijastaa pääosin jo hyväksyttyä HIV-käyttöaihetta.
 
 **Jatkoon tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden haku Fimean sivuilta (estävä tietoaukko turvallisuusseulonnalle).

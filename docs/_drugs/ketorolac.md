@@ -130,7 +130,7 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat tästä raportista, jo
 **Päätös: Proceed with Guardrails (eteneminen suojatoimin)**
 
 **Perustelut:**
-- Päänsärkyhäiriön (erityisesti migreenin ja jännityspäänsäryn) osalta on useita päättyneitä vaiheen 2–4 tutkimuksia, systemaattisia katsauksia, meta-analyysi ja kansainvälisiä hoito-ohjeita, jotka tukevat ketorolaakin käyttöä. Näytön taso on L1. Suomessa ainoa myyntilupa (Omidria) on kuitenkin peruutettu, eikä kyseinen valmiste ole päänsäryn hoitoon tarkoitettu.
+- Päänsärkyhäiriön (erityisesti migreenin ja jännityspäänsäryn) osalta on useita päättyneitä vaiheen 2–4 tutkimuksia, systemaattisia katsauksia, meta-analyysi ja kansainvälisiä hoito-ohjeita, jotka tukevat ketorolaakin käyttöä. Näytön taso on L1.
 - Ennusteet ruusufinnin sidekalvotulehdukseen (L5) ja trigeminaaliseen autonomiseen päänsärkyyn (L4) ovat tässä vaiheessa Hold-tasolla.
 
 **Jatkoon tarvitaan:**

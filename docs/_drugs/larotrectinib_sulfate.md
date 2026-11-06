@@ -45,7 +45,6 @@ Näytön taso: **N/A** | Ennustetut käyttöaiheet: **0** kpl
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |
 | Todistusten taso | Ei arvioitavissa |
-| Taiwanin markkinoiden asema | ✗ Ei markkinoitu (0 lupaa) |
 | Valtuuksien lukumäärä | 0 |
 
 ---

@@ -96,7 +96,7 @@ Tietämyskuvaajaan (TxGNN/PrimeKG) perustuvat vasta-aihesuhteet eivät ole valmi
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu ainoastaan TxGNN-pisteisiin (näytön taso L5). Kliinisiä tutkimuksia ja kirjallisuutta ei ole, eikä mekanistista yhteyttä ole osoitettu. Kohdetilat ovat hyvänlaatuisia ja hoidettavissa paikallisesti, joten systeemisen lääkkeen riski–hyötysuhde on epäsuotuisa. Lisäksi Suomen myyntilupa on peruutettu.
+- Ennuste perustuu ainoastaan TxGNN-pisteisiin (näytön taso L5). Kliinisiä tutkimuksia ja kirjallisuutta ei ole, eikä mekanistista yhteyttä ole osoitettu. Kohdetilat ovat hyvänlaatuisia ja hoidettavissa paikallisesti, joten systeemisen lääkkeen riski–hyötysuhde on epäsuotuisa.
 
 **Eteneminen edellyttää seuraavaa:**
 - Vaikutusmekanismin (MOA) tietojen täydentäminen

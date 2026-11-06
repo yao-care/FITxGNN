@@ -92,8 +92,6 @@ Erittäin korkea TxGNN-pistemäärä johtuu todennäköisesti verkostolähellä 
 | EMEA/H/C/004374 | Febuxostat Viatris (aiemmin Febuxostat Mylan) | – | Hyperurikemia, kihtiartriitti, kihti |
 | EMEA/H/C/000777 | Adenuric | – | Kihti |
 
-Kaikki kolme myyntilupaa on peruutettu.
-
 ---
 
 ## Turvallisuusnäkökohdat
@@ -119,7 +117,7 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet eivät ole tämän raportin aine
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Mekanistinen peruste on heikko tai jopa ristiriitainen, koska virtsahapon laskeminen ei ole järkevää tilassa, jossa virtsahappo on jo matala. Näyttö rajoittuu yhteen tapausraporttiin ja yleiskatsaukseen, ja ainoa kliininen tutkimus ei liity käyttöaiheeseen. Suomessa kaikki myyntiluvat on lisäksi peruutettu.
+- Mekanistinen peruste on heikko tai jopa ristiriitainen, koska virtsahapon laskeminen ei ole järkevää tilassa, jossa virtsahappo on jo matala. Näyttö rajoittuu yhteen tapausraporttiin ja yleiskatsaukseen, ja ainoa kliininen tutkimus ei liity käyttöaiheeseen.
 
 **Jatkoon tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittäminen Fimean sivuilta (turvallisuusarvioinnin estävä tietoaukko)

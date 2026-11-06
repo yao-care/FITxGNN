@@ -120,7 +120,7 @@ Lisäksi valmisteyhteenvedon varoitukset ja vasta-aiheet tulee tarkistaa alkuper
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Biologinen perustelu on uskottava, mutta kliininen näyttö on epäsuoraa: tutkimukset ovat varhaisen vaiheen, sekapopulaatioita tai yhdistelmähoitoja, eikä liposarkoomakohtaista tehoa ole osoitettu. Lääkkeellä ei myöskään ole voimassa olevaa myyntilupaa Suomessa.
+- Biologinen perustelu on uskottava, mutta kliininen näyttö on epäsuoraa: tutkimukset ovat varhaisen vaiheen, sekapopulaatioita tai yhdistelmähoitoja, eikä liposarkoomakohtaista tehoa ole osoitettu.
 - Muut ennustetut käyttöaiheet (munasarjan myksoidi liposarkooma, vulvan sarkooma) eivät saa tukea kliinisistä tutkimuksista tai kirjallisuudesta.
 
 **Eteneminen edellyttää seuraavaa:**
@@ -128,7 +128,7 @@ Lisäksi valmisteyhteenvedon varoitukset ja vasta-aiheet tulee tarkistaa alkuper
 - Mekanismitietojen (MOA) täydentäminen DrugBankista
 - Liposarkoomakohtaisten tulosten haku NCT00949325-tutkimuksen alaryhmäanalyyseista
 - Tarvittaessa liposarkoomaa koskeva vaiheen 2 tutkimus, jossa on mukana MDM2/CDK4-tilan ja PI3K/AKT/mTOR-reitin aktiivisuuden biomarkkerit
-- Myyntilupatilanteen ja saatavuuden selvittäminen (nykyinen lupa peruttu)
+- Myyntilupatilanteen ja saatavuuden selvittäminen
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

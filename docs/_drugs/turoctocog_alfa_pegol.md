@@ -100,7 +100,7 @@ Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 |---------|------|------|-----------|
 | EMEA/H/C/004883 | Esperoct | – | Hemofilia A (tila: peruutettu) |
 
-Valmistaja: Novo Nordisk A/S. Voimassa olevia myyntilupia ei ole.
+Valmistaja: Novo Nordisk A/S.
 
 ---
 
@@ -115,7 +115,7 @@ Turvallisuustietoja (varoitukset, vasta-aiheet) ei ole tällä hetkellä saatavi
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu pelkästään malliin (L5), eikä kliinisiä tutkimuksia tai julkaisuja ole. Mekanistinen arvio osoittaa, että FVIII-korvaus ei korjaisi ennustettujen sairauksien taustalla olevia verihiutale- tai muita vikoja. Lisäksi valmisteella ei ole voimassa olevaa myyntilupaa Suomessa.
+- Ennuste perustuu pelkästään malliin (L5), eikä kliinisiä tutkimuksia tai julkaisuja ole. Mekanistinen arvio osoittaa, että FVIII-korvaus ei korjaisi ennustettujen sairauksien taustalla olevia verihiutale- tai muita vikoja.
 
 **Eteenpäin siirtyminen edellyttäisi:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivustolta

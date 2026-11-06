@@ -92,8 +92,6 @@ Muut ennustetut käyttöaiheet ovat heikommin tuettuja. Parapsoriaasista on vain
 | EMEA/H/C/000374 | Protopic | – | Atooppinen ihottuma |
 | EMEA/H/C/000954 | Modigraf | – | Elinsiirteen hyljintä |
 
-Kaikki viisi myyntilupaa on merkitty peruutetuiksi, joten voimassa olevia myyntilupia ei tähän raporttiin koottujen tietojen mukaan ole.
-
 ## Turvallisuushuomiot
 
 - **Tietokannan vasta-aiheet (tietämysgraafi, ei valmisteyhteenvedon teksti):** Tietämysgraafi liittää takrolimuusiin mm. seuraavia sairauksia: kohonnut verenpaine, pitkä QT-oireyhtymä ja kääntyvien kärkien takykardia, maksan vajaatoiminta, munuaissairaus, epilepsia, hyperglykemia ja diabetes (mukaan lukien ketoasidoosi), infektiot (mm. herpes simplex, vyöruusu, Epstein–Barr-virusinfektiot), syöpä ja lymfooma (mm. primaarinen keskushermoston lymfooma), progressiivinen multifokaalinen leukoenkefalopatia, posteriorinen leukoenkefalopatiaoireyhtymä sekä aplastiset anemiat. Nämä ovat pääosin systeemiseen käyttöön liittyviä huomioita, eikä niitä ole vahvistettu valmisteyhteenvedosta.
@@ -107,12 +105,11 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut saatavilla, joten ni
 **Päätös: Etene suojatoimin (Proceed with Guardrails)**
 
 **Perustelu:**
-- Seborrooisesta ihottumasta on valmistunut vaiheen 3 tutkimus (n=120), vaiheen 4 tutkimus (n=104) ja satunnaistettu, kaksoissokkoutettu, vehikkelikontrolloitu tutkimus (n=75). Mekanismi on uskottava ja TxGNN-pistemäärä korkea. Näyttö on kuitenkin pääosin ylläpitohoidosta kasvoilla, ja Suomessa ei ole voimassa olevaa myyntilupaa.
+- Seborrooisesta ihottumasta on valmistunut vaiheen 3 tutkimus (n=120), vaiheen 4 tutkimus (n=104) ja satunnaistettu, kaksoissokkoutettu, vehikkelikontrolloitu tutkimus (n=75). Mekanismi on uskottava ja TxGNN-pistemäärä korkea. Näyttö on kuitenkin pääosin ylläpitohoidosta kasvoilla.
 
 **Eteneminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittämistä (tämä on estävä tietoaukko).
 - Yksityiskohtaisten vaikutusmekanismitietojen täydentämistä.
-- Suomen myyntilupatilanteen selvittämistä, koska kaikki lupatiedot ovat peruutettuja, sekä paikallisen lääkemuodon saatavuuden varmistamista.
 - Pitkäaikaisen turvallisuuden seurantasuunnitelmaa (mm. pahanlaatuisten kasvainten riski) ja käytön rajaamista paikalliseen antoon.
 - Vaiheen 3 tulosten ja satunnaistettujen tutkimusten tarkempaa arviointia sekä ihottuman alatyyppikohtaista validointia.
 ## Vastuuvapauslauseke

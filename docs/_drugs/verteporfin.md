@@ -106,7 +106,7 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole koottu tähän raporttii
 **Päätös: Hold (odota)**
 
 **Perustelu:**
-- Ennuste perustuu pelkästään korkeaan TxGNN-pisteeseen ilman kliinistä tai kirjallista tukea (L5). Vaikutuksen suunta on epäselvä ja voi olla haitallinen, koska valoherkistäjä tuottaa reaktiivisia happilajeja. Lisäksi Suomessa on vain peruutettu myyntilupa ja yhteisvaikutuksia on runsaasti.
+- Ennuste perustuu pelkästään korkeaan TxGNN-pisteeseen ilman kliinistä tai kirjallista tukea (L5). Vaikutuksen suunta on epäselvä ja voi olla haitallinen, koska valoherkistäjä tuottaa reaktiivisia happilajeja. Yhteisvaikutuksia on runsaasti.
 
 **Eteneminen edellyttää seuraavaa:**
 - Vaikutusmekanismin tarkka selvitys (MOA), erityisesti vaikutukset mitokondrioihin ja oksidatiiviseen stressiin

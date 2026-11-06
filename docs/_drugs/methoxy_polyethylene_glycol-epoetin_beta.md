@@ -98,8 +98,6 @@ Ei tällä hetkellä aiheeseen liittyvää kirjallisuutta.
 |---------|------|------|-----------|
 | EMEA/H/C/000739 | Mircera (Roche Registration GmbH) | – | Anemia; krooninen munuaisten vajaatoiminta |
 
-Tämä myyntilupa on tilassa "peruutettu", eikä voimassa olevia myyntilupia ole.
-
 ---
 
 ## Turvallisuusnäkökohdat
@@ -115,14 +113,13 @@ Lääkeyhteisvaikutuksia ei löytynyt. Muuten turvallisuustiedoista saa lisätie
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste on pelkästään laskennallinen (L5), eikä sen tueksi ole kliinisiä tutkimuksia eikä julkaisuja. Mekanistinen perustelu on heikko, ja luokkaan liittyvä tromboosiriski puhuu käyttöä vastaan. Lisäksi ainoa myyntilupa Suomessa on peruutettu.
+- Ennuste on pelkästään laskennallinen (L5), eikä sen tueksi ole kliinisiä tutkimuksia eikä julkaisuja. Mekanistinen perustelu on heikko, ja luokkaan liittyvä tromboosiriski puhuu käyttöä vastaan.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Lääkkeen vaikutusmekanismin tietojen täydentämistä.
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimealta.
 - Mekanistista tai prekliinistä näyttöä EPO-reseptorin roolista verihiutaleiden toiminnassa.
 - Tromboosiriskin arviointia ennen kuin tutkimussuuntaa harkitaan.
-- Markkinatilanteen selvittämistä, koska voimassa olevaa myyntilupaa ei ole.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

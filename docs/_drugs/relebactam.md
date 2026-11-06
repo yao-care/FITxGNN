@@ -85,8 +85,6 @@ Ei tällä hetkellä aiheeseen liittyvää kirjallisuutta.
 |---------|------|------|-----------|
 | EMEA/H/C/004808 | Recarbrio | – | Gramnegatiiviset bakteeri-infektiot |
 
-Tämä myyntilupa on peruutettu.
-
 ---
 
 ## Turvallisuusnäkökohdat
@@ -100,7 +98,7 @@ Turvallisuustiedot on tarkistettava valmisteyhteenvedosta. Lääkeyhteisvaikutuk
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste on pelkkä mallin tuottama (taso L5), eikä sille ole kliinistä tai kirjallisuusnäyttöä eikä mekanistista selitystä. Lisäksi Suomessa on vain peruutettu myyntilupa.
+- Ennuste on pelkkä mallin tuottama (taso L5), eikä sille ole kliinistä tai kirjallisuusnäyttöä eikä mekanistista selitystä.
 
 **Etenemiseksi tarvitaan:**
 - Vaikutusmekanismitiedot (MOA) esim. DrugBankista

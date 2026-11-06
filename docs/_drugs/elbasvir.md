@@ -119,7 +119,7 @@ HIV-lääkkeiden kanssa on lisäksi kirjallisuuden mukaan huomioitava yhteisvaik
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Hepatiitti B -ennusteen tueksi ei ole HBV:tä koskevaa kliinistä tai kokeellista näyttöä. Kohdepohjaista mekanistista perustetta ei ole, ja ennuste vaikuttaa verkkopohjaiselta artefaktilta. Valmisteella ei ole voimassa olevaa myyntilupaa Suomessa.
+- Hepatiitti B -ennusteen tueksi ei ole HBV:tä koskevaa kliinistä tai kokeellista näyttöä. Kohdepohjaista mekanistista perustetta ei ole, ja ennuste vaikuttaa verkkopohjaiselta artefaktilta.
 - Hepatiitti E on tutkimuskysymyksenä kiinnostavampi, mutta näyttö rajoittuu yhteen in vitro -tutkimukseen.
 
 **Jatkaminen edellyttää:**

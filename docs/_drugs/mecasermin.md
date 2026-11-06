@@ -102,13 +102,13 @@ Muuta turvallisuustietoa (varoitukset ja vasta-aiheet) ei ole saatavilla. Katso 
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu vain mallin laskennalliseen pisteytykseen (L5), eikä kliinisiä tutkimuksia tai julkaisuja ole. Mekanistinen peruste Turnerin oireyhtymässä on heikko, ja Suomessa valmisteen myyntilupa on peruutettu.
+- Ennuste perustuu vain mallin laskennalliseen pisteytykseen (L5), eikä kliinisiä tutkimuksia tai julkaisuja ole. Mekanistinen peruste Turnerin oireyhtymässä on heikko.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimeasta (estävä tietoaukko turvallisuusseulonnalle)
 - Vaikutusmekanismitietojen täydentämistä (esim. DrugBankista)
 - Kohdennettua kirjallisuuskatsausta erityisesti kasvuhormoniresistenssioireyhtymästä, johon liittyy immuunisäätelyn häiriö (sija 3), sekä Turnerin oireyhtymän IGF-1-tilasta
-- Selvitystä valmisteen saatavuudesta Suomessa, koska myyntilupa on peruutettu
+- Selvitystä valmisteen saatavuudesta Suomessa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

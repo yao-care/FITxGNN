@@ -90,7 +90,7 @@ Muista turvallisuustiedoista (varoitukset ja vasta-aiheet) katso valmisteyhteenv
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu vain TxGNN-mallin pisteytykseen (näytön taso L5). Kliinisiä tutkimuksia ei ole, kirjallisuus ei käsittele rintasyöpää, eikä CD20-kohteen ja CD20-negatiivisen rintasyövän välillä ole mekanistista yhteyttä. Lisäksi Suomen myyntilupa on peruutettu.
+- Ennuste perustuu vain TxGNN-mallin pisteytykseen (näytön taso L5). Kliinisiä tutkimuksia ei ole, kirjallisuus ei käsittele rintasyöpää, eikä CD20-kohteen ja CD20-negatiivisen rintasyövän välillä ole mekanistista yhteyttä.
 
 **Eteenpäin siirtymiseksi tarvitaan:**
 - Vaikutusmekanismitiedot (MOA) ja selvitys siitä, mikä verkostotason yhteys selittää mallin korkean pistemäärän

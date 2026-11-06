@@ -114,7 +114,7 @@ Muuta turvallisuustietoa, kuten varoituksia ja vasta-aiheita, katso valmisteyhte
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu ainoastaan TxGNN-mallin korkeaan pistemäärään. Kliinisiä tutkimuksia tai julkaisuja ei ole, vaikutusmekanismi on tuntematon ja EGFR:n eston vaikutus luuhun voi olla haitallinen. Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa.
+- Ennuste perustuu ainoastaan TxGNN-mallin korkeaan pistemäärään. Kliinisiä tutkimuksia tai julkaisuja ei ole, vaikutusmekanismi on tuntematon ja EGFR:n eston vaikutus luuhun voi olla haitallinen.
 
 **Jatkoon tarvitaan:**
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (Fimea), koska nykyisellään turvallisuusarviointia ei voida viedä eteenpäin

@@ -95,7 +95,7 @@ Taulukossa on ensisijaisesti prekliiniset tutkimukset ja katsaukset (ei satunnai
 
 ## Suomen markkinatiedot
 
-Kaikki 14 myyntilupaa on peruutettu. Taulukossa on viisi ensimmäistä.
+Taulukossa on viisi ensimmäistä.
 
 | Myyntilupanumero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
@@ -134,14 +134,14 @@ Nämä ovat vain tietämyskaavion signaaleja, ja ne on vahvistettava viralliseen
 **Päätös: Hold (odotettava)**
 
 **Perustelut:**
-- Ennuste perustuu lähinnä makakeilla tehtyihin prekliinisiin kokeisiin jo hyväksytyn HIV-käyttöaiheen eläinmallissa. Kyseessä ei ole uusi ihmisen hoitokäyttö, eikä kliinisiä tutkimuksia ole. Lisäksi kaikki lääkkeen myyntiluvat Suomessa on peruutettu.
+- Ennuste perustuu lähinnä makakeilla tehtyihin prekliinisiin kokeisiin jo hyväksytyn HIV-käyttöaiheen eläinmallissa. Kyseessä ei ole uusi ihmisen hoitokäyttö, eikä kliinisiä tutkimuksia ole.
 - Muut ennusteet (vauvakissojen FIV, harvinainen neurokehityshäiriö, vanhentunut familiaalinen hyperlipidemia) ovat joko veterinäärisiä tai ilman mekanistista yhteyttä, ja ne näyttävät johtuvan tietämyskaavion artefakteista.
 
 **Jatkoon edetäkseen tarvitaan:**
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (estää tällä hetkellä turvallisuusseulonnan)
 - Yksityiskohtaiset vaikutusmekanismitiedot (DrugBank)
 - Selvitys siitä, onko ennusteella ihmisen hoidon kannalta uutta tutkimuskysymystä HIV:n hyväksytyn käyttöaiheen lisäksi
-- Myyntilupatilanteen selvitys Suomessa (kaikki 14 lupaa peruutettu)
+- Myyntilupatilanteen selvitys Suomessa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

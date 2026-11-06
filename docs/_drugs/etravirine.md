@@ -104,7 +104,7 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet ovat tarkistamatta; katso turval
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Näyttö rajoittuu yhteen välillisesti aiheeseen liittyvään prekliiniseen julkaisuun, eikä kliinisiä tutkimuksia ole. SIV on lisäksi luontaisesti NNRTI-resistentti, ja ennuste on pikemmin eläinmallin laajennus kuin ihmisen uusi hoitokäyttö. Myyntilupa Suomessa on peruutettu.
+- Näyttö rajoittuu yhteen välillisesti aiheeseen liittyvään prekliiniseen julkaisuun, eikä kliinisiä tutkimuksia ole. SIV on lisäksi luontaisesti NNRTI-resistentti, ja ennuste on pikemmin eläinmallin laajennus kuin ihmisen uusi hoitokäyttö.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Etraviriinin suoraa in vitro -tehotestausta SIV:tä vastaan

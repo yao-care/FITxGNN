@@ -99,7 +99,7 @@ Prinzmetalin angiinalle ei ole löytynyt kirjallisuutta. Alla on aivoverenvuodon
 
 ## Myyntiluvat Suomessa
 
-Kaikki 12 myyntilupaa on peruutettu. Seuraavassa on viisi ensimmäistä.
+Seuraavassa on viisi ensimmäistä.
 
 | Myyntilupanumero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
@@ -126,7 +126,7 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet on tarkistettava erikseen.
 **Päätös: Hold (odotetaan)**
 
 **Perustelut:**
-- Sijalla 1 oleva Prinzmetalin angiina perustuu pelkkään mallin ennusteeseen (L5) ilman tutkimuksia tai kirjallisuutta. Lisäksi kaikki myyntiluvat Suomessa on peruutettu ja turvallisuustiedot ovat puutteelliset.
+- Sijalla 1 oleva Prinzmetalin angiina perustuu pelkkään mallin ennusteeseen (L5) ilman tutkimuksia tai kirjallisuutta. Turvallisuustiedot ovat puutteelliset.
 - Aivoverenvuoto (L2) on parhaiten tuettu uusi suunta, mutta näyttö koskee yhdistelmävalmistetta, ja hyöty johtuu pääosin verenpaineen laskusta. Se on tutkimuskysymys, ei valmis suositus.
 
 **Jatkoon etenemiseksi tarvitaan:**
@@ -134,7 +134,7 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet on tarkistettava erikseen.
 - Vaikutusmekanismin tiedot (esim. DrugBankista)
 - TRIDENT-tutkimuksen tulosten (PMID 42019018) tarkistus ja telmisartaanin osuuden arviointi
 - Prinzmetalin angiinan osalta kirjallisuushaku vasospasmista ja ARB-lääkkeistä sekä mahdollinen prekliininen validointi
-- Selvitys, onko telmisartaanivalmisteita tosiasiallisesti saatavilla Suomessa, koska kaikki myyntiluvat on peruutettu
+- Selvitys, onko telmisartaanivalmisteita tosiasiallisesti saatavilla Suomessa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

@@ -95,7 +95,7 @@ TxGNN-ennuste-pipeline palautti ei kandidaatti-indikaatioita basiliximabille, ja
 1. **Täydennä MOA-tietoraon (DG002):** Kysy DrugBank API:a jäsenneltyjen farmakologian tietojen osalta ja täytä `original_moa`-kenttä niin, että tietokaavio voi rakentaa oikeat solmun upotukset.
 2. **Luokittele alkuperäinen indikaatio (DG001):** Kartoita basiliximab jäsennettyyn sairauden ontologian termiin (esim. MONDO tai ICD-10 "munuaisen allosiirron hylkäämisen esto") ja suorita TxGNN-ennuste-pipeline uudelleen.
 3. **Suorita TxGNN uudelleen:** Kun ratkaiset yllä olevat raot, suorita ennuste-pipeline; kandidaatti-indikaatiot (esim. GVHD, autoimmunipneumatiikka) odotetaan ilmestyvän.
-4. **Hanki turvallisuuden lähdetiedot:** Lataa ja jäsennä EMA/TFDA-pakettitarra-PDF täyttääksesi varoitus- ja vasta-aihe-kentät ennen kuin siirryt turvallisuuden seulontavaiheeseen (S1).
+4. **Hanki turvallisuuden lähdetiedot:** Lataa ja jäsennä EMA-pakettitarra-PDF täyttääksesi varoitus- ja vasta-aihe-kentät ennen kuin siirryt turvallisuuden seulontavaiheeseen (S1).
 5. **Vahvista Suomen rekisteröintireitti:** Jos uudelleenkäyttökandidaatti tunnistetaan, arvioi, voiko EMA-hyväksytty siirtymisen hylkäämisen esto-indikaatio ankkuroida rivi-laajennushakemuksen Suomessa.
 
 ## Vastuuvapauslauseke

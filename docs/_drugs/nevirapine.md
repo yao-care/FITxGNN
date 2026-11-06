@@ -128,7 +128,7 @@ Täydelliset turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Näyttö rajoittuu yhteen prekliiniseen tutkimukseen (L4), eikä kliinisiä tutkimuksia ole. Ennustetut käyttöaiheet ovat eläinlääketieteellisiä tai eläinmalleihin liittyviä, eikä niillä ole suoraa ihmisen kliinistä merkitystä. Lisäksi valmiste on Suomessa peruutettu ja NNRTI-lääkkeiden teho muihin kuin HIV-1-lentiviruksiin on tunnetusti rajallinen.
+- Näyttö rajoittuu yhteen prekliiniseen tutkimukseen (L4), eikä kliinisiä tutkimuksia ole. Ennustetut käyttöaiheet ovat eläinlääketieteellisiä tai eläinmalleihin liittyviä, eikä niillä ole suoraa ihmisen kliinistä merkitystä. NNRTI-lääkkeiden teho muihin kuin HIV-1-lentiviruksiin on tunnetusti rajallinen.
 - Kolmannella ennusteella (neurokehityshäiriö) ei ole mitään tukevaa näyttöä (L5).
 
 **Jatkoa varten tarvitaan:**

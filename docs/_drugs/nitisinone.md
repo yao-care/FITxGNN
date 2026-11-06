@@ -117,14 +117,14 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet tulee tarkistaa pakkausselostees
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu pelkästään malliin (L5), eikä kliinisiä tutkimuksia tai suoraa kirjallisuutta ole. Mekanistinen yhteys on epäsuora ja voi johtua siitä, että munuaistubulusten toimintahäiriö kuuluu tyrosinemia tyypin 1 kuvaan. Lisäksi Suomessa ei ole voimassa olevia myyntilupia ja tietämysgraafi liittää munuaissairauden vasta-aiheeksi.
+- Ennuste perustuu pelkästään malliin (L5), eikä kliinisiä tutkimuksia tai suoraa kirjallisuutta ole. Mekanistinen yhteys on epäsuora ja voi johtua siitä, että munuaistubulusten toimintahäiriö kuuluu tyrosinemia tyypin 1 kuvaan. Tietämysgraafi liittää munuaissairauden vasta-aiheeksi.
 
 **Jatkoon etenemiseksi tarvitaan:**
 - Tarkka vaikutusmekanismitieto (MOA) esimerkiksi DrugBankista
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet Fimean sivustolta (turvallisuusseulonnan edellytys)
 - Prekliiniset tai kliiniset tutkimukset, jotka osoittavat nitisinonin vaikutuksen primaarisessa munuaisten tubulusasidoosissa
 - Arvio siitä, ovatko ennusteet erotettavissa tyrosinemia tyypin 1 aiheuttamasta tubulopatiasta
-- Selvitys valmisteen saatavuudesta Suomessa, koska kaikki myyntiluvat on peruutettu
+- Selvitys valmisteen saatavuudesta Suomessa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

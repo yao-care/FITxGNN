@@ -92,12 +92,11 @@ Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu pääosin laskennalliseen malliin. Hyperfosfatemiasta ei ole kliinisiä tutkimuksia, ja lääkkeen vaikutus fosfaattiin on epäsuora. Lisäksi myyntilupa on peruutettu, joten saatavuus on epävarma.
+- Ennuste perustuu pääosin laskennalliseen malliin. Hyperfosfatemiasta ei ole kliinisiä tutkimuksia, ja lääkkeen vaikutus fosfaattiin on epäsuora.
 
 **Jatkotoimiin tarvitaan:**
 - Vaikutusmekanismin yksityiskohtaiset tiedot
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (turvallisuusseulonta ei ole mahdollinen ilman niitä)
-- Selvitys peruutetun myyntiluvan syystä ja valmisteen saatavuudesta Suomessa
 - Systemaattinen kirjallisuushaku etelcalcetiden vaikutuksesta seerumin fosfaattiin (esim. DUET-kokeen ja muiden kokeiden toissijaiset päätetapahtumat)
 - Tarvittaessa prekliininen tai pilottivaiheen tutkimus hyperfosfatemiaa ensisijaisena päätetapahtumana
 ## Vastuuvapauslauseke

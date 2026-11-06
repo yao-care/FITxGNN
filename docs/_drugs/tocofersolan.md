@@ -87,8 +87,6 @@ Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 |---------|------|------|-----------|
 | EMEA/H/C/000920 | Vedrop | – | Kolestaasi; E-vitamiinin puutos |
 
-Myyntilupa on tilaltaan peruutettu, joten valmiste ei ole tällä hetkellä markkinoilla Suomessa.
-
 ---
 
 ## Turvallisuusnäkökohdat
@@ -102,14 +100,14 @@ Turvallisuustiedot ovat valmisteyhteenvedossa. Tässä raportissa käytetystä a
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennusteet (amenorrea ja akne) perustuvat pelkästään TxGNN-mallin pisteisiin (näytön taso L5). Kliinisiä tutkimuksia tai julkaisuja ei ole, vaikutusmekanismi puuttuu ja myyntilupa Suomessa on peruutettu.
+- Ennusteet (amenorrea ja akne) perustuvat pelkästään TxGNN-mallin pisteisiin (näytön taso L5). Kliinisiä tutkimuksia tai julkaisuja ei ole, vaikutusmekanismi puuttuu.
 
 **Eteneminen edellyttää seuraavaa:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean sivustolta (estävä tietoaukko turvallisuusseulonnalle)
 - Vaikutusmekanismin tietojen täydentäminen DrugBankista
 - Systemaattinen kirjallisuushaku amenorrean ja aknen osalta sekä prekliinisen tai mekanistisen näytön kartoitus
 - Antoreittien soveltuvuuden arviointi uusille käyttöaiheille
-- Myyntiluvan tilanteen selvittäminen, koska nykyinen lupa on peruutettu
+- Myyntiluvan tilanteen selvittäminen
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

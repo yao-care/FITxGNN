@@ -114,7 +114,7 @@ Taulukossa on 10 relevanteimpaa tutkimusta, mutta tälle käyttöaiheelle on kai
 | EMEA/H/C/004916 | Ogivri | – | Mahalaukun syöpä; rintasyöpä |
 | EMEA/H/C/004463 | Trazimera | – | Mahalaukun syöpä; rintasyöpä |
 
-Kaikki 11 myyntilupaa on peruutettu, eikä voimassa olevia valmisteita ole. Taulukossa on viisi esimerkkiä.
+Taulukossa on viisi esimerkkiä.
 
 ---
 
@@ -154,7 +154,6 @@ Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 **Perustelut:**
 - Trastutsumabin teho HER2-positiivisessa rintasyövässä on vahvasti osoitettu suurilla vaiheen 3 tutkimuksilla, ja teho määräytyy HER2-statuksen, ei PR-statuksen mukaan. Kyseessä on pikemminkin vakiintunut käyttö kuin uusi käyttöaihe.
-- Suomessa kaikki myyntiluvat on peruutettu, joten saatavuus on selvitettävä.
 
 **Eteneminen edellyttää:**
 - HER2-statuksen varmistamista ennen hoitoa ja HER2-negatiivisen (kolmoisnegatiivisen) taudin rajaamista pois

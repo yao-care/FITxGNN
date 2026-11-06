@@ -106,7 +106,7 @@ Muiden ennustettujen käyttöaiheiden kirjallisuus (psoriaasi, parapsoriaasi, ak
 **Päätös: Hold (odota)**
 
 **Perustelu:**
-- Korkeasta TxGNN-pistemäärästä (0,9946) huolimatta ennusteelle ei ole kliinistä eikä kirjallista tukea (taso L5). Lääkkeen PML-riski ja infektioalttiuden lisääntyminen tekevät riski-hyötysuhteesta epäedullisen keuhkoputkentulehduksessa. Lisäksi Suomessa kaikki myyntiluvat on peruutettu.
+- Korkeasta TxGNN-pistemäärästä (0,9946) huolimatta ennusteelle ei ole kliinistä eikä kirjallista tukea (taso L5). Lääkkeen PML-riski ja infektioalttiuden lisääntyminen tekevät riski-hyötysuhteesta epäedullisen keuhkoputkentulehduksessa.
 
 **Eteneminen edellyttäisi seuraavaa:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankinta ja läpikäynti Fimeasta (estää tällä hetkellä turvallisuusseulonnan)

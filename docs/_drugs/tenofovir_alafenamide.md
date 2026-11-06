@@ -95,8 +95,6 @@ Kaikki julkaisut ovat prekliinisiä. Tutkimustyypit on päätelty otsikoista ja 
 
 ## Myyntiluvat Suomessa
 
-Kaikki 8 myyntilupaa on peruutettu.
-
 | Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
 | EMEA/H/C/004169 | Vemlidy | – | Hepatiitti B |
@@ -128,7 +126,7 @@ Yhteisvaikutuksista aineistossa oli vain yksi farmakologinen merkintä: tenofovi
 - Selvitetään, onko SIV-käyttöaihe todellinen uudelleenkäyttökohde vai vain HIV:n mallijärjestelmä (todennäköisesti jälkimmäinen).
 - Haetaan valmisteyhteenvetojen varoitukset ja vasta-aiheet Fimean sivuilta (puute estää turvallisuusarvioinnin).
 - Täydennetään vaikutusmekanismitiedot (esim. DrugBankista).
-- Selvitetään, miksi kaikki Suomen myyntiluvat on merkitty peruutetuiksi, ja tarkistetaan nykyinen markkinatilanne.
+- Selvitetään, ja tarkistetaan nykyinen markkinatilanne.
 - Eläinlääkinnällisissä ennusteissa (kissa) tarvitaan erillinen farmakologia- ja turvallisuusaineisto.
 ## Vastuuvapauslauseke
 

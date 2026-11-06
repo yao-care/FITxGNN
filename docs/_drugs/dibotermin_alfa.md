@@ -92,8 +92,6 @@ Esotropialle ei löytynyt kirjallisuutta. Ainoa ennustettuihin käyttöaiheisiin
 |---------|------|------|-----------|
 | EMEA/H/C/000408 | Inductos | – | Sääriluun murtumat; sisäinen murtumafiksaatio; selkärangan fuusio |
 
-Myyntilupa on peruutettu, eikä voimassa olevia myyntilupia ole.
-
 ---
 
 ## Turvallisuusnäkökohdat
@@ -109,7 +107,7 @@ Aineiston perusteella huomioitava: rintasyöpäennusteiden osalta ulkoinen BMP-2
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste on L5-tasoa: pelkkä mallin tuottama ennuste ilman kliinistä tai kirjallisuusnäyttöä, eikä uskottavaa mekanistista yhteyttä ole osoitettu. Lisäksi Suomen myyntiluvat on peruutettu ja rintasyöpäkäyttöön liittyy mahdollinen turvallisuushuoli.
+- Ennuste on L5-tasoa: pelkkä mallin tuottama ennuste ilman kliinistä tai kirjallisuusnäyttöä, eikä uskottavaa mekanistista yhteyttä ole osoitettu. Rintasyöpäkäyttöön liittyy mahdollinen turvallisuushuoli.
 
 **Etenemiseksi tarvitaan:**
 - Valmisteyhteenvedon varoitus- ja vasta-aihetiedot (estää turvallisuusseulonnan jatkamisen)

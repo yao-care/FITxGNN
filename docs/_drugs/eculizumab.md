@@ -111,7 +111,7 @@ Varoitusten ja vasta-aiheiden osalta tarkista turvallisuustiedot valmisteyhteenv
 - Yksityiskohtainen vaikutusmekanismitieto (esim. DrugBankista)
 - Prekliininen tai mekanistinen näyttö komplementin roolista syklisessä hematopoieesissa
 - Infektioriskin arviointi neutropenisilla potilailla
-- Huomioitava, että kaikki Suomen myyntiluvat ovat peruutettuja, mikä vaikuttaa saatavuuteen
+- Huomioitava, mikä vaikuttaa saatavuuteen
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

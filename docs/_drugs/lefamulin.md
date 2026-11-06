@@ -107,7 +107,6 @@ Muiden turvallisuustietojen osalta tutustu valmisteyhteenvetoon.
 
 **Perustelut:**
 - Ennuste perustuu pelkästään tietämysgraafimalliin, eikä sen tueksi ole kliinisiä tutkimuksia tai julkaisuja. Mekanistinen yhteys on epäuskottava, koska lääkkeen bakteeriribosomikohde ei vastaa eukaryoottista loista.
-- Lääkkeellä on Suomessa vain peruutettu myyntilupa.
 
 **Jatkoon etenemiseksi tarvitaan:**
 - Valmisteyhteenvedon varoitus- ja vasta-aihetiedot (Fimea), jotka estävät nykyisellään turvallisuusseulonnan.

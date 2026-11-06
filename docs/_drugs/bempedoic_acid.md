@@ -88,12 +88,11 @@ Muiden turvallisuustietojen osalta katso valmisteyhteenveto.
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu vain malliin (L5). Mekanistista yhteyttä, kliinisiä tutkimuksia ja kirjallisuutta ei ole, eikä lääkkeellä ole tällä hetkellä aktiivista myyntilupaa Suomessa.
+- Ennuste perustuu vain malliin (L5).
 
 **Jatkaminen edellyttäisi:**
 - uskottavan mekanistisen hypoteesin ja prekliinistä näyttöä kilpirauhasen liikatoiminnasta
 - valmisteyhteenvedon varoitus- ja vasta-aihetietojen täydentämistä
-- myyntilupatilanteen selvittämistä, koska molemmat luvat on peruttu
 - resurssien kohdistamista mieluummin tutkimuskysymykseen homotsygoottisesta familiaalisesta hyperkolesterolemiasta, jolla on jo kirjallisuusnäyttöä
 ## Vastuuvapauslauseke
 

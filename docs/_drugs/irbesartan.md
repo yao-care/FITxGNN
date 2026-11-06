@@ -95,8 +95,6 @@ Osa haetuista julkaisuista ei liity irbesartaaniin (yrttiuutteita koskevat tutki
 
 ## Markkinatiedot Suomessa
 
-Kaikki kymmenen myyntilupaa on peruutettu, eikä voimassa olevia lupia ole.
-
 | Myyntilupanumero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
 | EMEA/H/C/001093 | Irbesartan Teva | – | Verenpainetauti |
@@ -135,7 +133,7 @@ Tietämysverkosta (PrimeKG) johdetut vasta-aiheisiin viittaavat yhteydet (eivät
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste on uskottava mekanistisesti, mutta se on lähinnä alkuperäisen verenpainekäyttöaiheen laajennus. Näyttö on tasoa L5 (pelkkä mallin ennuste), eikä kliinisiä tutkimuksia tai julkaisuja ole. Lisäksi kaikki Suomen myyntiluvat on peruutettu ja valmisteyhteenvedon turvallisuustiedot puuttuvat.
+- Ennuste on uskottava mekanistisesti, mutta se on lähinnä alkuperäisen verenpainekäyttöaiheen laajennus. Näyttö on tasoa L5 (pelkkä mallin ennuste), eikä kliinisiä tutkimuksia tai julkaisuja ole. Valmisteyhteenvedon turvallisuustiedot puuttuvat.
 - Hypoksiaan liittyvä keuhkoverenpainetauti (L4) voidaan kirjata tutkimuskysymykseksi, mutta sen näyttö on pelkästään prekliinistä.
 
 **Jatkotoimenpiteet:**

@@ -139,14 +139,13 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut saatavilla; ne tulee
 **Päätös: Hold (pidätetään)**
 
 **Perustelut:**
-- Luokittelemattoman munuaissolusyövän osalta näyttö rajoittuu retrospektiivisiin aineistoihin ja yhteen yksihaaraiseen vaiheen 2 tutkimukseen, eikä satunnaistettua näyttöä ole. Pazopanibin myyntilupa Suomessa on lisäksi peruutettu, ja keskeiset turvallisuustiedot puuttuvat.
+- Luokittelemattoman munuaissolusyövän osalta näyttö rajoittuu retrospektiivisiin aineistoihin ja yhteen yksihaaraiseen vaiheen 2 tutkimukseen, eikä satunnaistettua näyttöä ole. Keskeiset turvallisuustiedot puuttuvat.
 - Vahvempi näyttö on sarkoomissa, erityisesti DFSP:ssä ja liposarkoomassa (L2), joita kannattaa tarkastella erillisinä tutkimuskysymyksinä. Näiden tulokset eivät kuitenkaan ole tässä aineistossa nähtävissä, ja liposarkooma on rajattu pois pehmytkudossarkooman virallisesta käyttöaiheesta.
 
 **Jatkoon tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankinta Fimeasta (estää turvallisuusseulonnan)
 - Vaikutusmekanismitiedon täydentäminen DrugBankista
 - Ei-kirkassoluisten ja luokittelemattomien munuaissolusyöpien tutkimusten tulosten läpikäynti ja vertailu nykyisiin vaihtoehtoihin (esim. kabotsantinibi, immuno-onkologiset yhdistelmät)
-- Selvitys myyntiluvan peruuttamisen syistä ja nykyisestä saatavuudesta Suomessa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

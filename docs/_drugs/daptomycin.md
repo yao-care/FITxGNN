@@ -138,7 +138,7 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat tästä aineistosta, j
 **Päätös: Hold (odotetaan)**
 
 **Perustelut:**
-- Nivelrikon osalta ennusteella ei ole kliinistä eikä mekanistista tukea: löydetty kirjallisuus koskee nivelinfektioita, ei nivelrikkoa. Näytön taso on L4 ja päätös Hold. Nivelreuma on lupaavampi mutta pelkästään prekliininen tutkimuskysymys. Lisäksi daptomysiinillä ei ole tällä hetkellä voimassa olevaa myyntilupaa Suomessa.
+- Nivelrikon osalta ennusteella ei ole kliinistä eikä mekanistista tukea: löydetty kirjallisuus koskee nivelinfektioita, ei nivelrikkoa. Näytön taso on L4 ja päätös Hold. Nivelreuma on lupaavampi mutta pelkästään prekliininen tutkimuskysymys.
 
 **Etenemiseksi tarvitaan:**
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (kriittinen puute, estää turvallisuusarvioinnin)
@@ -146,7 +146,6 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat tästä aineistosta, j
 - Nivelreuman prekliinisten löydösten (NF-κB, kollageeniartriittimalli) itsenäinen toistaminen
 - Farmakokineettinen ja turvallisuusarvio kroonista käyttöä varten, erityisesti lihastoksisuuden (myopatia, rabdomyolyysi) osalta
 - Laskimoon annettavan lääkkeen soveltuvuus krooniseen nivelsairauteen sekä antoreitin yhteensopivuuden arviointi
-- Markkinatilanteen selvitys, koska kaikki Suomen myyntiluvat on peruutettu
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

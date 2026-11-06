@@ -100,7 +100,7 @@ Mekanistinen sopivuus on kuitenkin vain osittainen: atooppista ihottumaa ohjaava
 
 ## Myyntiluvat Suomessa
 
-Kaikki 13 myyntilupaa on peruutettu. Viisi esimerkkiä:
+Viisi esimerkkiä:
 
 | Myyntilupanumero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
@@ -130,7 +130,7 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole tässä aineistossa saat
 **Päätös: Hold**
 
 **Perustelut:**
-- Ustekinumabista on kaksi päättynyttä vaiheen 2 tutkimusta atooppisessa ihottumassa, mutta otokset ovat pieniä ja kliininen teho on ollut vaatimaton. Mekanistinen sopivuus on vain osittainen, koska atooppista ihottumaa ohjaavat pääasiassa Th2-reitit. Suomessa kaikki myyntiluvat on lisäksi peruutettu, ja turvallisuustiedot puuttuvat.
+- Ustekinumabista on kaksi päättynyttä vaiheen 2 tutkimusta atooppisessa ihottumassa, mutta otokset ovat pieniä ja kliininen teho on ollut vaatimaton. Mekanistinen sopivuus on vain osittainen, koska atooppista ihottumaa ohjaavat pääasiassa Th2-reitit.
 - Muut ennustetut käyttöaiheet (esim. dermatomyosiitti, pityriasis lichenoides, diabeettinen retinopatia) perustuvat pelkkään malliennusteeseen (L5) ilman tutkimuksia tai kirjallisuutta.
 
 **Etenemiseksi tarvitaan:**

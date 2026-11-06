@@ -103,7 +103,7 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetiedot puuttuvat, joten ne on tarkist
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste on puhtaasti malliperusteinen (L5), eikä kliinistä tai kirjallisuusnäyttöä ole. Mekanistista yhteyttä COMT:n estoon ei ole osoitettu, ja tolkaponin maksaturvallisuushuoli sekä myyntilupien peruuntuminen Suomessa heikentävät asemaa entisestään.
+- Ennuste on puhtaasti malliperusteinen (L5), eikä kliinistä tai kirjallisuusnäyttöä ole. Mekanistista yhteyttä COMT:n estoon ei ole osoitettu.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Vaikutusmekanismitietojen (MOA) täydentämistä esimerkiksi DrugBankista

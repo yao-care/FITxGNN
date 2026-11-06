@@ -110,7 +110,7 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat aineistosta, joten ne 
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Biologinen perustelu on vahva ja vanhoja kontrolloituja tutkimuksia on (1980–1990-luvut), mutta ne ovat vanhoja, eikä viimeaikaista vahvistavaa näyttöä ole. Suomessa ainoa myyntilupa on peruutettu, joten valmistetta ei ole saatavilla, ja turvallisuustietojen keskeinen aukko estää etenemisen turvallisuusseulontaan.
+- Biologinen perustelu on vahva ja vanhoja kontrolloituja tutkimuksia on (1980–1990-luvut), mutta ne ovat vanhoja, eikä viimeaikaista vahvistavaa näyttöä ole.
 
 **Etenemiseksi tarvitaan:**
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet Fimeasta (estävä tietoaukko).

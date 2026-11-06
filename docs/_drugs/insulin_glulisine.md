@@ -62,7 +62,7 @@ Insuliiniglulisiini on pikavaikutteinen ihmisinsuliinin analogi, joka sitoutuu i
 
 Tyypin 1 diabeteksessa elimistö ei tuota riittävästi insuliinia, joten aterioiden yhteydessä annettava pikavaikutteinen insuliini on vakiintunut hoitomuoto. Ennuste on siis mekanistisesti uskottava ja kliinisesti jo vahvistettu.
 
-Markkinatilanne on kaupallinen rajoite, ei näytön puute: Apidra-valmisteen myyntilupa on peruutettu.
+Markkinatilanne on kaupallinen rajoite.
 
 ---
 
@@ -106,8 +106,6 @@ Markkinatilanne on kaupallinen rajoite, ei näytön puute: Apidra-valmisteen myy
 |---------|------|------|-----------|
 | EMEA/H/C/000557 | Apidra | – | Diabetes mellitus |
 
-Tämä myyntilupa on tilassa "peruutettu".
-
 ---
 
 ## Turvallisuushuomiot
@@ -133,12 +131,11 @@ Lisäksi lieviä (Minor) yhteisvaikutuksia on mm. paikallisesti käytettävien k
 
 **Perustelut:**
 - Tyypin 1 diabetes on insuliinin vakiintunut käyttöaihe. Useat vaiheen 3 ja 4 tutkimukset sekä satunnaistetut julkaisut tukevat glulisiinin tehoa ja turvallisuutta, joten näyttö on vahvaa (L1).
-- Myyntilupa Suomessa on peruutettu, mikä on kaupallinen ja saatavuuteen liittyvä rajoite eikä näytön puute.
 
 **Jatkoon tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittäminen (Fimean tai EMA:n lähteistä)
 - Yksityiskohtaiset vaikutusmekanismitiedot
-- Selvitys valmisteen saatavuudesta ja myyntiluvan peruutuksen syystä
+- Selvitys valmisteen saatavuudesta
 - Yhteisvaikutusten (erityisesti muiden diabeteslääkkeiden ja sympatomimeettien) seurantasuunnitelma
 
 ---

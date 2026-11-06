@@ -138,7 +138,6 @@ Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 
 **Perustelut:**
 - Hepatiitti E:llä on ennustetuista indikaatioista vahvin biologinen perustelu (RdRp-kohde, in vitro- ja eläinkoenäyttö) ja ainoa suora kliininen pilottitutkimus. Kliininen teho on kuitenkin vahvistamatta: pysyvää vastetta ei saavutettu ja resistenssiä ilmaantui.
-- Sofosbuviirilla ei ole tällä hetkellä voimassa olevaa myyntilupaa Suomessa, mikä vaikeuttaa käyttöönottoa.
 
 **Etenemiseksi tarvitaan:**
 - Suurempi, mieluiten satunnaistettu ja kontrolloitu tutkimus kroonisessa HEV-infektiossa, erityisesti ribaviriinille reagoimattomilla immuunipuutteisilla potilailla (esim. yhdistelmähoidot ja resistenssin seuranta)

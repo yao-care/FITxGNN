@@ -107,7 +107,7 @@ Vain kaksi tutkimusta (ENHANCE ja nuorten ezetimibi–simvastatiinitutkimus) arv
 |---------|------|------|-----------|
 | EMEA/H/C/002559 | Cholib | Ei tiedossa | Dyslipidemiat (peruutettu) |
 
-Valmisteella on vain yksi, peruutettu myyntilupa. Voimassa olevia simvastatiinivalmisteita ei tässä aineistossa ole.
+Valmisteella on vain yksi.
 
 ---
 
@@ -127,7 +127,7 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet puuttuvat tästä aineistosta, j
 
 **Perustelut:**
 - Simvastatiinin mekanismi on sama kuin alkuperäisessä käyttöaiheessa, ja familiaalisessa hyperkolesterolemiassa on useita vaiheen 3 tutkimuksia ja ohjeistuksia. Näyttötaso on L1, mutta suoraan simvastatiinia arvioivia tutkimuksia on vain kaksi.
-- Suomessa ei ole voimassa olevaa myyntilupaa, ja valmisteyhteenvedon turvallisuustiedot puuttuvat, mikä rajoittaa etenemistä.
+- Valmisteyhteenvedon turvallisuustiedot puuttuvat, mikä rajoittaa etenemistä.
 
 **Jatkaminen edellyttää:**
 - Fimean valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista ja läpikäyntiä (turvallisuusseulonnan estävä tietoaukko)

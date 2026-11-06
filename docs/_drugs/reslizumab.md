@@ -89,13 +89,13 @@ Turvallisuustiedot on tarkistettava valmisteyhteenvedosta. Lääkkeiden yhteisva
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu vain laskennalliseen malliin (L5): kliinisiä tutkimuksia ei ole, eikä kirjallisuus tue sitä, ja mekanistinen yhteys on heikko. Lisäksi ainoa Suomessa ollut myyntilupa on peruutettu.
+- Ennuste perustuu vain laskennalliseen malliin (L5): kliinisiä tutkimuksia ei ole, eikä kirjallisuus tue sitä, ja mekanistinen yhteys on heikko.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Vaikutusmekanismitietojen (MOA) täydentämistä
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivuilta (turvallisuusarvio ei ole mahdollinen ilman niitä)
 - Mekanistisen yhteyden selvittämistä (esim. eosinofiilien tai Th2-aktiivisuuden rooli immuunivälitteisessä trombosytopeniassa) esikliinisillä tai kirjallisuuteen perustuvilla selvityksillä
-- Lääkkeen myyntitilanteen ja saatavuuden selvittämistä, koska myyntilupa on peruutettu
+- Lääkkeen myyntitilanteen ja saatavuuden selvittämistä
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

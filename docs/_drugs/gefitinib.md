@@ -140,7 +140,6 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla, joten niiden
 
 **Perustelut:**
 - Ensisijaiselle ennusteelle (ientenfibromatoosi) ei löydy kliinisiä tutkimuksia eikä kirjallisuutta, joten näytön taso on L5 eli pelkkä mallin ennuste. Myöskään muiden ennustettujen käyttöaiheiden näyttö ei riitä jatkoon: osa on vain ei-pienisoluisen keuhkosyövän muunnelmia tai julkaisut ovat kohteen kannalta epärelevantteja.
-- Gefitinibin ainoa Suomessa rekisteröity myyntilupa on peruutettu.
 
 **Jatkoa varten tarvitaan:**
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (tällä hetkellä estävä tietoaukko turvallisuusarvioinnin kannalta)
@@ -148,7 +147,6 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla, joten niiden
 - Prekliiniset tai mekanistiset tutkimukset, jotka osoittavat EGFR:n roolin ientenfibromatoosissa
 - Arvio siitä, miten tietämyskuvaajan vasta-aiheet (maksasairaus, interstitiaalinen keuhkosairaus, keuhkofibroosi) vaikuttavat kohdepotilasryhmään
 - Selvitys reitti- ja lääkemuotosoveltuvuudesta (esim. paikallinen annostelu ientenfibromatoosissa)
-- Selvitys myyntiluvan peruuttamisen syistä ja nykyisestä saatavuudesta Suomessa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

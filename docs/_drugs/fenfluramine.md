@@ -88,14 +88,13 @@ Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu ainoastaan malliin (L5): kliinisiä tutkimuksia ja julkaisuja ei ole, ja mekanistinen yhteys on vahvistamaton hypoteesi. Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa, ja tietämysgraafi tuo esiin merkittäviä vasta-aiheita.
+- Ennuste perustuu ainoastaan malliin (L5): kliinisiä tutkimuksia ja julkaisuja ei ole, ja mekanistinen yhteys on vahvistamaton hypoteesi. Tietämysgraafi tuo esiin merkittäviä vasta-aiheita.
 
 **Jatkoon tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankinta ja jäsentäminen Fimean sivustolta (estävä tietoaukko turvallisuusarvioinnin jatkamiselle)
 - Yksityiskohtaiset vaikutusmekanismitiedot (MOA) esimerkiksi DrugBankista
 - Kirjallisuushaku ja prekliiniset tutkimukset fenfluramiinista 16p11.2-deleetiomalleissa
 - Selvitys antoreittien yhteensopivuudesta ja käyttöaiheen samankaltaisuudesta alkuperäiseen käyttöaiheeseen
-- Myyntiluvan peruutuksen syyn ja nykyisen saatavuuden selvittäminen Suomessa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

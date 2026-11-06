@@ -77,8 +77,6 @@ Ei toistaiseksi aiheeseen liittyvää kirjallisuutta.
 | EMEA/H/C/003957 | Rasagiline ratiopharm | – | Parkinsonin tauti |
 | EMEA/H/C/000574 | Azilect | – | Parkinsonin tauti |
 
-Kaikki kolme myyntilupaa on peruutettu.
-
 ## Turvallisuusnäkökohdat
 
 Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut saatavilla tätä raporttia varten. Katso turvallisuustiedot valmisteyhteenvedosta.
@@ -93,14 +91,14 @@ Valmisteyhteenvedon varoitus- ja vasta-aihetietoja ei ollut saatavilla tätä ra
 **Päätös: Hold (odota)**
 
 **Perustelu:**
-- Ennuste perustuu pelkkään mallipisteeseen ilman kliinistä tai kirjallista näyttöä (L5). Lisäksi Suomen myyntiluvat on peruutettu ja turvallisuustiedot puuttuvat.
+- Ennuste perustuu pelkkään mallipisteeseen ilman kliinistä tai kirjallista näyttöä (L5).
 
 **Eteenpäin siirtyminen edellyttää:**
 - Valmisteyhteenvedon varoitus- ja vasta-aihetietojen hankintaa (Fimea).
 - Vaikutusmekanismitietojen täydentämistä (DrugBank).
 - Kirjallisuushakua PLA2G6-liitännäisestä neurodegeneraatiosta ja MAO-B:n estäjistä.
 - Nuorten parkinsonismin (Huntin tyyppi) tutkimuskysymyksen muotoilua, esimerkiksi rekisteri- tai retrospektiivisenä selvityksenä.
-- Selvitystä rasagiliinin saatavuudesta Suomessa, koska kaikki myyntiluvat on peruutettu.
+- Selvitystä rasagiliinin saatavuudesta Suomessa.
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

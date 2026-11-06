@@ -107,7 +107,7 @@ Muiden turvallisuustietojen osalta katso valmisteyhteenveto.
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu lähinnä malliin. Kliinisiä tutkimuksia ei ole, prekliininen näyttö on ristiriitaista ja osa viittaa HIV:n replikaation lisääntymiseen. Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa.
+- Ennuste perustuu lähinnä malliin. Kliinisiä tutkimuksia ei ole, prekliininen näyttö on ristiriitaista ja osa viittaa HIV:n replikaation lisääntymiseen.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Vaikutusmekanismin tarkempaa kuvausta.

@@ -44,7 +44,6 @@ Näytön taso: **N/A** | Ennustetut käyttöaiheet: **0** kpl
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 6/6) |
 | Myyntilupien määrä | 6 (voimassa: 6) |
 | Todisteiden taso | Ei arvioitavissa |
-| Taiwanese markkinoiden tila | Ei markkinoilla (TFDA: 0 hyväksyntää) |
 | Hyväksyntöjen lukumäärä | 0 |
 
 ---

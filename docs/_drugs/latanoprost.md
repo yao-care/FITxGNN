@@ -117,7 +117,7 @@ Muilta osin tarkemmat turvallisuustiedot, varoitukset ja vasta-aiheet löytyvät
 **Päätös: Hold**
 
 **Perustelut:**
-- Lisäksi lasten ja kehityksellisten glaukoomien vaste lääkehoitoon on usein heikko, ja Suomessa kaikki tunnetut myyntiluvat on peruutettu.
+- Lisäksi lasten ja kehityksellisten glaukoomien vaste lääkehoitoon on usein heikko.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimeasta (estää tällä hetkellä turvallisuusseulonnan)

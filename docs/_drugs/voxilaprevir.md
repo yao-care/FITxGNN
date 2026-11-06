@@ -94,8 +94,6 @@ Kaikki haetut julkaisut koskevat C-hepatiitin uudelleenhoitoa, resistenssiä, hi
 |---------|------|------|-----------|
 | EMEA/H/C/004350 | Vosevi | – | Krooninen C-hepatiitti |
 
-Myyntilupa on tilassa "peruutettu".
-
 ---
 
 ## Turvallisuusnäkökohdat
@@ -116,13 +114,12 @@ Varoituksia ja vasta-aiheita koskevia tietoja varten tulee tutustua valmisteyhte
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu pelkkään tietämysgraafin pisteytykseen (L5). HBV:llä ei ole voksilapreviirin kohteena olevaa proteaasia, eikä kliinisiä tutkimuksia tai B-hepatiittia käsitteleviä julkaisuja ole. Lisäksi Suomen myyntilupa on peruutettu.
+- Ennuste perustuu pelkkään tietämysgraafin pisteytykseen (L5). HBV:llä ei ole voksilapreviirin kohteena olevaa proteaasia, eikä kliinisiä tutkimuksia tai B-hepatiittia käsitteleviä julkaisuja ole.
 
 **Jatkotoimiin tarvitaan:**
 - Valmisteyhteenvedon varoitus- ja vasta-aihetiedot (Fimea)
 - Vaikutusmekanismin tiedot (DrugBank)
 - Prekliiniset in vitro -kokeet voksilapreviirin vaikutuksesta HBV:hen
-- Selvitys valmisteen saatavuudesta Suomessa myyntiluvan peruutuksen jälkeen
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

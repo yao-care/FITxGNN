@@ -70,7 +70,6 @@ Luokittelemattoman munuaissolusyövän kohdalla perustelu on vahvempi: MET- ja V
 |---------|------|------|------|---------|
 | [NCT05836571](https://clinicaltrials.gov/study/NCT05836571) | Vaihe 2 | Aktiivinen, ei rekrytoi | 66 | Satunnaistettu tutkimus: ipilimumabi + nivolumabi verrattuna samaan yhdistelmään kabotsantinibin kanssa pitkälle edenneessä pehmytkudossarkoomassa. Tuloksia ei vielä ole. |
 
-
 | Tutkimusnumero | Vaihe | Tila | Osallistujia | Keskeiset havainnot |
 |---------|------|------|------|---------|
 | [NCT04413123](https://clinicaltrials.gov/study/NCT04413123) | Vaihe 2 | Aktiivinen, ei rekrytoi | 60 | Kabotsantinibi + nivolumabi + ipilimumabi pitkälle edenneessä ei-kirkassolusyövässä |
@@ -104,8 +103,6 @@ Luokittelemattoman munuaissolusyövän kohdalla perustelu on vahvempi: MET- ja V
 |---------|------|------|-----------|------|
 | EMEA/H/C/004163 | Cabometyx | – | Munuaissolusyöpä, maksasolusyöpä | Peruutettu |
 | EMEA/H/C/002640 | Cometriq | – | Kilpirauhasen kasvaimet | Peruutettu |
-
-Molemmat myyntiluvat on peruutettu, eikä voimassa olevia valmisteita ole.
 
 ## Sytotoksisuus
 
@@ -154,7 +151,7 @@ Munuaiskarsinooman L1-näyttö perustuu vaiheen 3 tutkimuksiin (METEOR, CheckMat
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (Fimea) on selvitettävä; tämä on tällä hetkellä estävä tietoaukko turvallisuusarviolle.
 - Vaikutusmekanismitiedot on täydennettävä (DrugBank).
 - NCT05836571:n tulokset ja liposarkoomaspesifiset alaryhmäanalyysit on odotettava.
-- Suomen myyntilupien peruutuksen syy ja nykyinen saatavuus (esim. keskitetty EU-myyntilupa) on selvitettävä.
+- Nykyinen saatavuus (esim. keskitetty EU-myyntilupa) on selvitettävä.
 - Yhteisvaikutusten hallintasuunnitelma (erityisesti QT-aikaa pidentävät ja CYP3A4:n kautta vaikuttavat lääkkeet) ja turvallisuusseurantasuunnitelma on laadittava.
 ## Vastuuvapauslauseke
 

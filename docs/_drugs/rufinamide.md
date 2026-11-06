@@ -86,13 +86,12 @@ Muilta osin turvallisuustiedoista on tarkistettava valmisteyhteenveto.
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennustetta ei tue yksikään kliininen tutkimus eikä julkaisu (näytön taso L5). Ennuste perustuu mallin verkostoläheisyyteen, ja FIRES:n tulehdusperäinen patologia heikentää mekanistista perustetta. Lisäksi ainoa Suomen myyntilupa on peruutettu.
+- Ennustetta ei tue yksikään kliininen tutkimus eikä julkaisu (näytön taso L5). Ennuste perustuu mallin verkostoläheisyyteen, ja FIRES:n tulehdusperäinen patologia heikentää mekanistista perustetta.
 
 **Jatkoa varten tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankinta Fimeasta (tämä estää turvallisuusseulonnan jatkamisen)
 - Rufinamidin vaikutusmekanismin tiedot DrugBankista
 - Kirjallisuushaku FIRES-potilaiden rufinamidihoidosta ja mahdollisten tutkimusten rekisteröinti
-- Selvitys myyntiluvan peruuntumisen syystä ja valmisteen saatavuudesta Suomessa
 - Annosmuodon ja antoreitin yhteensopivuuden arviointi
 ## Vastuuvapauslauseke
 

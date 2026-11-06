@@ -102,7 +102,7 @@ Turvallisuustiedot on tarkistettava valmisteyhteenvedosta. Lääkeyhteisvaikutuk
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu pelkästään laskennalliseen malliin. Kliinisiä tutkimuksia ja julkaisuja ei ole, mekanistista yhteyttä ei ole tunnistettu, ja Suomessa ainoa myyntilupa on peruutettu.
+- Ennuste perustuu pelkästään laskennalliseen malliin. Kliinisiä tutkimuksia ja julkaisuja ei ole, mekanistista yhteyttä ei ole tunnistettu.
 
 **Eteenpäin siirtyminen edellyttäisi:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivustolta

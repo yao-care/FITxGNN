@@ -88,7 +88,7 @@ Alla olevat tutkimukset liittyvät listan 10. ennusteeseen (platelet-type bleedi
 
 ## Myyntiluvat Suomessa
 
-Kaikki seitsemän myyntilupaa on peruutettu. Valmisteista ei ole tässä aineistossa annettu lääkemuotoa.
+Valmisteista ei ole tässä aineistossa annettu lääkemuotoa.
 
 | Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
@@ -119,13 +119,11 @@ Suuri osa näistä liittyy syöpähoitoihin, joissa filgrastiimia yleensä käyt
 
 **Perustelut:**
 - Ennuste perustuu pelkästään laskennalliseen malliin (L5). Mekanistinen yhteys verihiutaleiden toimintahäiriöihin on heikko, eikä suoria kliinisiä tai kirjallisuusnäyttöjä ole. Ainoa löytynyt tutkimusaineisto (7 kantasolusiirtotutkimusta) on epäsuoraa eikä testaa tätä käyttöaihetta.
-- Lisäksi kaikki Suomen myyntiluvat on peruutettu, joten valmisteen saatavuus on epävarma.
 
 **Jatkoa varten tarvitaan:**
 - Valmisteyhteenvedon varoitus- ja vasta-aihetiedot (Fimean sivustolta), jotta turvallisuusarviointi voidaan tehdä
 - Vaikutusmekanismitiedot (esim. DrugBankista) mekanistisen yhteyden arviointia varten
 - Systemaattinen kirjallisuushaku filgrastiimista ja verihiutaleiden toimintahäiriöistä (prekliiniset ja kliiniset tutkimukset)
-- Selvitys myyntilupien peruuttamisen syistä ja nykyisestä saatavuudesta Suomessa
 - Reittien ja lääkemuotojen yhteensopivuuden arviointi, jos hanketta jatketaan
 ## Vastuuvapauslauseke
 

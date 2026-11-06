@@ -107,7 +107,7 @@ Tarkemmat varoitukset ja vasta-aiheet on tarkistettava valmisteyhteenvedosta.
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu lähinnä mallin pisteytykseen (L4). Kliinisiä tutkimuksia ei ole, kirjallisuus on epäsuoraa, ja sarveiskalvon epiteelitoksisuus on huomattava turvallisuushuoli. Tobramysiinillä ei lisäksi ole voimassa olevia myyntilupia Suomessa.
+- Ennuste perustuu lähinnä mallin pisteytykseen (L4). Kliinisiä tutkimuksia ei ole, kirjallisuus on epäsuoraa, ja sarveiskalvon epiteelitoksisuus on huomattava turvallisuushuoli.
 
 **Eteneminen edellyttää seuraavaa:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittäminen Fimean sivuilta (estää tällä hetkellä turvallisuusarvioinnin).

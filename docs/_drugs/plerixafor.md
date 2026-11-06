@@ -138,8 +138,6 @@ Myeloidileukemian osalta ei ole esitetty vaiheen 3 satunnaistettua tutkimusta, j
 | EMEA/H/C/001030 | Mozobil | – | Multippeli myelooma, hematopoieettinen kantasolusiirto, lymfooma |
 | EMEA/H/C/005943 | Plerixafor Accord | – | Multippeli myelooma, hematopoieettinen kantasolusiirto |
 
-Molemmat myyntiluvat on peruutettu, eikä voimassa olevia valmisteita ole.
-
 ---
 
 ## Sytotoksisuus
@@ -168,7 +166,7 @@ Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 **Päätös: Hold (odota)**
 
 **Perustelu:**
-- Indolentille plasmasolumyeloomalle ennuste perustuu vain laskennalliseen malliin (L5), eikä tutkimuksia tai julkaisuja ole. Nykyinen käyttö on tukihoitoa, ei taudin hoitoa. Lisäksi kaikki Suomen myyntiluvat on peruutettu.
+- Indolentille plasmasolumyeloomalle ennuste perustuu vain laskennalliseen malliin (L5), eikä tutkimuksia tai julkaisuja ole. Nykyinen käyttö on tukihoitoa, ei taudin hoitoa.
 - Myeloidileukemiassa on useita vaiheen 1 ja 1/2 tutkimuksia (L2), joten sitä kannattaa tarkastella erillisenä tutkimuskysymyksenä, ei valmiina käyttöaiheena.
 
 **Jatkoa varten tarvitaan:**
@@ -176,7 +174,6 @@ Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 - Indolentin plasmasolumyeloomaan liittyvän kirjallisuuden ja prekliinisen näytön kartoitus
 - Vaiheen 2/3 satunnaistettu tutkimus myeloidileukemiassa, jos tätä suuntaa halutaan edistää
 - Selvitys graafin leukemia-vasta-aiheesta ja leukemiasolujen mobilisaation turvallisuusvaikutuksista
-- Selvitys myyntilupien peruutuksen syistä ja valmisteen saatavuudesta Suomessa
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

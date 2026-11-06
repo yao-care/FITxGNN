@@ -107,7 +107,7 @@ Turvallisuustietoja varten katso valmisteyhteenveto. Tähän raporttiin koottu a
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu pelkästään mallilaskentaan (L5), eikä sille ole kliinistä tai kirjallista tukea. Uskottavaa mekanistista yhteyttä ei ole, ja valmisteen sytotoksinen profiili on huomattava riski silmäsairauden hoidossa. Lisäksi ainoa Suomen myyntilupa on peruutettu.
+- Ennuste perustuu pelkästään mallilaskentaan (L5), eikä sille ole kliinistä tai kirjallista tukea. Uskottavaa mekanistista yhteyttä ei ole, ja valmisteen sytotoksinen profiili on huomattava riski silmäsairauden hoidossa.
 
 **Eteneminen edellyttäisi seuraavaa:**
 - Tarkat vaikutusmekanismitiedot (MOA) ja arvio mahdollisesta yhteydestä kaihin patogeneesiin

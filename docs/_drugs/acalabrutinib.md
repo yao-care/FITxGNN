@@ -50,7 +50,6 @@ Acalabrutinib on valikoiva Brutonin tyrosiinikinaasin (BTK) estäjä, joka on hy
 | Ennustettu uusi indikaatio | — (ei TxGNN-ennustusta saatavilla) |
 | TxGNN-ennustuspistemäärä | — |
 | Näytön taso | L5 (ei ennustusta tai tukevia tutkimuksia) |
-| Taiwanin markkinatilanne | ✗ Ei markkinoilla (Ei markkinoilla) |
 | Hyväksyntöjen lukumäärä | 0 |
 | Suositeltu päätös | **Odota** |
 
@@ -82,13 +81,10 @@ Tällä hetkellä tähän näyttöpakettiin ei ole liittyvää kirjallisuutta.
 
 ---
 
-## Taiwanin markkinatiedot
-
-Acalabrutinib ei ole tällä hetkellä markkinoilla Taiwanissa. TFDA-lisenssejä ei löytynyt.
+## Markkinatiedot
 
 | Kohta | Sisältö |
 |------|---------|
-| TFDA-lupa | Ei mitään (0 lupaa) |
 | Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/1) |
 | Myyntilupien määrä | 1 (voimassa: 1) |
 
@@ -123,7 +119,7 @@ Acalabrutinib on antineoplastinen lääke (BTK-estäjäluokka, kohdennettu hoito
 > - **Toissijaiset pahanlaatuiset kasvaimet**
 > - **Hepatiitti B:n reaktivaatio**
 >
-> *Nämä täydennettiin yleisestä tiedosta; näyttöpaketti ei sisältänyt TFDA-kohtaisia turvallisuustietoja.*
+> *Nämä täydennettiin yleisestä tiedosta.*
 
 ---
 
@@ -132,14 +128,12 @@ Acalabrutinib on antineoplastinen lääke (BTK-estäjäluokka, kohdennettu hoito
 **Päätös: Odota**
 
 **Perustelut:**
-Acalabrutiniibin osalta ei ole tällä hetkellä TxGNN-ennustettuja uusia indikaatioita saatavilla. Lisäksi lääkettä ei ole markkinoilla Taiwanissa (0 TFDA-lupaa), eikä ydinturvallisuustiedot (pakkauksen varoitukset, vasta-aiheet, lääkeyhteisvaikutukset) ole täydennetty näyttöpakettiin. Ilman ennustettua indikaatiota ja lähtötason sääntely-/turvallisuustietoja, uudelleenkäyttötarkoituksen arviointia ei voida jatkaa.
+Acalabrutiniibin osalta ei ole tällä hetkellä TxGNN-ennustettuja uusia indikaatioita saatavilla. Ilman ennustettua indikaatiota ja lähtötason sääntely-/turvallisuustietoja, uudelleenkäyttötarkoituksen arviointia ei voida jatkaa.
 
 **Etenemiseksi tarvitaan seuraavaa:**
 - **TxGNN-ennustusajo** — Suorita TxGNN-malli acalabrutiniipin osalta (DB11703) tuottaaksesi ehdokasindikaaatiot ennustuspisteillä
 - **MOA-tiedot** — Kysy DrugBank-ohjelmointirajapinnasta virallista vaikutusmekanismin dokumentaatiota (vastaa tietoaukko DG002:een)
-- **TFDA-pakkauksen tiedot** — Hanki ja jäsennä Taiwanin pakkauksen tiedot varoituksista, vasta-aiheista ja turvallisuustiedoista (vastaa tietoaukko DG001:een)
 - **Lääkeyhteisvaikutustiedot** — Hanki lääkeyhteisvaikutustiedot DrugBankista tai muista vuorovaikutustietokannoista
-- **Taiwanin sääntelyreittiarvio** — Koska lääkettä ei ole markkinoilla Taiwanissa, arvioi, soveltuisiko tuontiin tai hyväntahtoisen käytön reitti mihin tahansa tulevaisuuden uudelleenkäyttöindikaatioon
 
 ## Vastuuvapauslauseke
 

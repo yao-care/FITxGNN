@@ -81,7 +81,7 @@ Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
 ## Tietoa Suomen markkinoista
 
-Kaikki 14 myyntilupaa on peruutettu. Valmisteet on lueteltu alla (enintään 5).
+Valmisteet on lueteltu alla (enintään 5).
 
 | Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
@@ -115,7 +115,7 @@ Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta. Valmisteyhteen
 **Päätös: Hold (odotetaan)**
 
 **Perustelut:**
-- Ennuste perustuu vain TxGNN-malliin (L5), eikä kliinisiä tutkimuksia tai julkaisuja ole. Suoraa mekanistista yhteyttä esotropiaan ei ole tunnistettu, ja lisäksi kaikki Suomen myyntiluvat on peruutettu.
+- Ennuste perustuu vain TxGNN-malliin (L5), eikä kliinisiä tutkimuksia tai julkaisuja ole. Suoraa mekanistista yhteyttä esotropiaan ei ole tunnistettu.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivustolta (estää turvallisuusseulonnan jatkamisen)
@@ -123,7 +123,6 @@ Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta. Valmisteyhteen
 - Kirjallisuushakua anti-VEGF-hoidoista kierosilmäisyyteen ja keskosen retinopatiaan
 - Prekliinistä tai mekanistista näyttöä VEGF:n roolista esotropiassa
 - Antoreittien yhteensopivuuden ja lääkemuotojen arviointia
-- Myyntilupatilanteen selvittämistä, koska voimassa olevia lupia ei ole
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

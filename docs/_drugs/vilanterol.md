@@ -113,8 +113,6 @@ Lisäksi aineistossa on useita astmatutkimuksia (esim. NCT01134042, NCT01686633,
 | EMEA/H/C/002673 | Relvar Ellipta | Ei tiedossa | Krooninen keuhkoahtaumatauti (peruutettu) |
 | EMEA/H/C/003754 | Laventair Ellipta (aiemmin Laventair) | Ei tiedossa | Krooninen keuhkoahtaumatauti (peruutettu) |
 
-Molemmat myyntiluvat on peruutettu, eikä voimassa olevia lupia ole.
-
 ---
 
 ## Turvallisuushuomiot
@@ -139,7 +137,7 @@ Varoituksista ja vasta-aiheista ei ollut saatavilla tietoa. Tarkista ne valmiste
 **Jatkoa varten tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittäminen Fimean sivuilta (nykyisellään estävä tietoaukko turvallisuusarvioinnille)
 - Yksityiskohtaiset vaikutusmekanismitiedot (DrugBank)
-- Selvitys siitä, miksi molemmat suomalaiset myyntiluvat on peruutettu ja onko vilanterolia sisältäviä valmisteita saatavilla muulla tavoin
+- Selvitys siitä ja onko vilanterolia sisältäviä valmisteita saatavilla muulla tavoin
 - Tulosten odottaminen tutkimuksesta NCT04536675, jos keuhkosyöpäleikkauksen yhteydessä tapahtuva tukihoito kiinnostaa
 ## Vastuuvapauslauseke
 

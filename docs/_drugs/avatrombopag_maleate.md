@@ -92,7 +92,6 @@ Evidence Pack -kokoelma on kriittisesti epätäydellinen — TxGNN ei palauttanu
 
 - **Suorita TxGNN-ennustusputki uudelleen** avatrombopag maleatille ja varmista, että ehdokasindikaatiot kirjoitetaan kohteeseen `predicted_indications`
 - **Hae vaikutusmekanismi (MOA) DrugBankista** — onnistunut kysely kirjattiin (result_count: 1), mutta tiedot ei välitetty Evidence Pack -kokoelmaan; tutkittava jäsentämisvaihetta
-- **Jäsennä pakkausseloste** — TFDA pakkausseloste -kysely palautti myös 1 tuloksen (result_count: 1), mutta varoitukset ja vasta-aiheet jäivät tyhjiksi; tarkista PDF-poimimislogiikka
 - **Varmista alkuperäinen hyväksytty indikaatio** Fimean / EMA:n sääntelytiedostoista lääkkeen uusiokäytön peruslinjan määrittämiseksi
 - **Kun yllä mainitut asiat on ratkaistu**, luo Evidence Pack uudelleen (v5+) ja lähetä uudelleen täydelliseen arviointiin
 

@@ -108,7 +108,7 @@ Haiman agenesian (sija 9) osalta haetut 7 julkaisua (mm. PMID [20859539](https:/
 | EMEA/H/C/000680 | Tandemact | – | Tyypin 2 diabetes (peruutettu) |
 | EMEA/H/C/000655 | Competact | – | Tyypin 2 diabetes (peruutettu) |
 
-Kaikki kuusi myyntilupaa on peruutettu; voimassa olevia lupia ei ole. Viides taulukon ulkopuolinen lupa: Incresync (EMEA/H/C/002178, Takeda Pharma A/S), myös peruutettu.
+Viides taulukon ulkopuolinen lupa: Incresync (EMEA/H/C/002178, Takeda Pharma A/S), myös peruutettu.
 
 ---
 
@@ -129,13 +129,13 @@ Lääkevalmisteyhteenvedon varoituksia ja vasta-aiheita ei ole saatavilla täss�
 **Päätös: Hold**
 
 **Perustelut:**
-- Ennusteet perustuvat vain TxGNN-mallin pisteisiin; kliinistä tutkimusta tai kohdennettua kirjallisuutta ei ole, ja mekanistiset yhteydet ovat spekulatiivisia. Lisäksi Suomessa ei ole voimassa olevia myyntilupia.
+- Ennusteet perustuvat vain TxGNN-mallin pisteisiin; kliinistä tutkimusta tai kohdennettua kirjallisuutta ei ole, ja mekanistiset yhteydet ovat spekulatiivisia.
 
 **Etenemiseksi tarvitaan:**
 - Vaikutusmekanismin tiedot (MOA) esimerkiksi DrugBankista
 - Valmisteyhteenvedon turvallisuustiedot Fimeasta (estää turvallisuusarvioinnin etenemisen)
 - Prekliiniset tai mekanistiset tutkimukset opsismodysplasian (INPPL1/SHIP2) ja PPAR-gamma-reitin yhteydestä
-- Arvio myyntiluvan uudelleenhakemisen tai tutkimuskäytön edellytyksistä, koska kaikki luvat on peruutettu
+- Arvio myyntiluvan uudelleenhakemisen tai tutkimuskäytön edellytyksistä
 - Sydämen vajaatoimintaan ja muihin graafipohjaisiin vasta-aiheisiin liittyvä riskiarvio
 ## Vastuuvapauslauseke
 

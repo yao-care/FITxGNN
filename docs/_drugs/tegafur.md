@@ -135,12 +135,12 @@ Kirjallisuudessa on raportoitu yksittäinen tapaus UFT:hen liittyvästä hemolyy
 **Päätös: Proceed with Guardrails (eteneminen suojatoimin)**
 
 **Perustelu:**
-- Useat päättyneet laajat vaiheen 3 satunnaistetut tutkimukset (esim. NCT00378716, NCT00392899, NCT00660894, NCT00152230) tukevat tegafuuripohjaisten hoitojen käyttöä paksusuolisyövän liitännäishoidossa, joten näytön taso on L1. Tegafuurin ainoa Suomen myyntilupa on kuitenkin peruutettu, eikä turvallisuustietoja ole saatavilla.
+- Useat päättyneet laajat vaiheen 3 satunnaistetut tutkimukset (esim. NCT00378716, NCT00392899, NCT00660894, NCT00152230) tukevat tegafuuripohjaisten hoitojen käyttöä paksusuolisyövän liitännäishoidossa, joten näytön taso on L1.
 
 **Eteneminen edellyttää seuraavaa:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankinta ja tarkistus (estävä tietoaukko)
 - Yksityiskohtaiset vaikutusmekanismitiedot DrugBankista
-- Suomen sääntelytilanteen selvitys, koska voimassa olevaa myyntilupaa ei ole
+- Suomen sääntelytilanteen selvitys
 - DPD-puutoksen testaus- ja turvallisuusseurantasuunnitelma
 - Muut ennustetut käyttöaiheet (hyvänlaatuiset kasvaimet ja muut) jäävät odotustilaan (Hold), koska niistä ei ole näyttöä; peräsuolen ja sigmasuolen liitoskohdan kasvain on käsiteltävä osana kolorektaalista käyttöaihetta
 ## Vastuuvapauslauseke

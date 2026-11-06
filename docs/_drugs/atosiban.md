@@ -87,8 +87,6 @@ Sivuhuomio: toiseksi viimeisenä luetellun ennusteen "verisuonisairaus" osalta a
 | EMEA/H/C/002329 | Atosiban SUN (peruutettu) | – | Ennenaikainen synnytys |
 | EMEA/H/C/000253 | Tractocile (peruutettu) | – | Ennenaikainen synnytys |
 
-Kumpikaan myyntilupa ei ole voimassa.
-
 ---
 
 ## Turvallisuusnäkökohdat
@@ -105,7 +103,7 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ollut saatavilla tätä rapo
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ennuste perustuu pelkästään laskennalliseen malliin (L5). Kliinisiä tutkimuksia tai kirjallisuutta ei ole, eikä uskottavaa mekanistista yhteyttä glaukoomaan ole osoitettu. Lisäksi lääkkeen kaikki Suomen myyntiluvat on peruutettu, ja peptidinä sen antoreitti (infuusio) ei sovellu silmäsairauden pitkäaikaishoitoon ilman uutta lääkemuotoa.
+- Ennuste perustuu pelkästään laskennalliseen malliin (L5). Kliinisiä tutkimuksia tai kirjallisuutta ei ole, eikä uskottavaa mekanistista yhteyttä glaukoomaan ole osoitettu. Peptidinä sen antoreitti (infuusio) ei sovellu silmäsairauden pitkäaikaishoitoon ilman uutta lääkemuotoa.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Mekanistista selvitystä oksitosiini- ja vasopressiinireseptoreiden roolista silmänsisäisessä paineessa ja kammiovesidynamiikassa
@@ -113,7 +111,6 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ollut saatavilla tätä rapo
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden kokoamista turvallisuusarviointia varten
 - Vaikutusmekanismitietojen täydentämistä (esim. DrugBankista)
 - Antoreitin ja lääkemuodon (esim. paikallinen silmälääke) soveltuvuuden arviointia
-- Myyntilupatilanteen selvittämistä, koska voimassa olevia lupia ei ole
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

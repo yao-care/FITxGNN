@@ -118,14 +118,13 @@ Muilta osin turvallisuustiedot (varoitukset, vasta-aiheet) tulee tarkistaa valmi
 **Päätös: Hold**
 
 **Perustelut:**
-- Status epilepticuksen näyttö on tasoa L3: se perustuu pääosin havainnoiviin tutkimuksiin ja systemaattisiin katsauksiin, ja ainoa kliininen tutkimus (NCT07163572) on vaiheeltaan NA ilman tuloksia. Lisäksi brivarasetaamin myyntilupa Suomessa on peruutettu, ja valmisteyhteenvedon turvallisuustiedot puuttuvat.
+- Status epilepticuksen näyttö on tasoa L3: se perustuu pääosin havainnoiviin tutkimuksiin ja systemaattisiin katsauksiin, ja ainoa kliininen tutkimus (NCT07163572) on vaiheeltaan NA ilman tuloksia. Valmisteyhteenvedon turvallisuustiedot puuttuvat.
 
 **Jatkoon tarvitaan:**
 - NCT07163572:n tulokset ja suunnittelun (satunnaistus, sokkoutus) varmistaminen
 - Satunnaistettuja kontrolloituja vaiheen 2/3 tutkimuksia suonensisäisestä brivarasetaamista status epilepticuksessa
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkiminen Fimean sivuilta
 - Yksityiskohtaiset vaikutusmekanismitiedot (DrugBank)
-- Myyntilupatilanteen selvittäminen (peruutuksen syy ja mahdollinen uusi lupa)
 - Käyttäytymiseen liittyvien haittavaikutusten ja yhteisvaikutusten seurantasuunnitelma
 ## Vastuuvapauslauseke
 

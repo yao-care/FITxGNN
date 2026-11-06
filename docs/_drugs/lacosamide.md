@@ -119,7 +119,6 @@ Varoitukset ja vasta-aiheet on tarkistettava valmisteyhteenvedosta.
 
 **Perustelut:**
 - Migreenistä on valmistuneita vaiheen 3 tutkimuksia ja julkaistu RCT, joten muodollinen näytön taso on L1. Tulosten sisältöä ei kuitenkaan ole varmennettu tässä aineistossa: vaiheen 2 lumekontrolloidun tutkimuksen ja CGRP-pilotin tulokset ovat epäselviä, ja topiramaattivertailun tila on tuntematon. Siksi suositus on odottaa tulosten tarkistamista.
-- Suomessa kaikki lakosamidin myyntiluvat on peruutettu, mikä vaikuttaa käytännön toteutettavuuteen.
 
 **Jatkotoimiin tarvitaan:**
 - Julkaisun PMID 41863672 sekä tutkimusten NCT05851781 ja NCT00440518 tulosten tarkistaminen (teho, turvallisuus, keskeyttämiset)

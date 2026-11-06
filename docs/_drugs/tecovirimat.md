@@ -116,14 +116,13 @@ Turvallisuustietoja varten tulee tutustua valmisteyhteenvetoon. Kootuissa tiedoi
 **Päätös: Hold (odotetaan)**
 
 **Perustelut:**
-- Ensisijaiselle ennusteelle (ohrainen) on vain mallin ennuste (L5): ei tutkimuksia, ei julkaisuja eikä uskottavaa vaikutusmekanismia, sillä tekovirimaatin kohde puuttuu bakteereilta. Lisäksi Suomen myyntilupa on peruutettu.
+- Ensisijaiselle ennusteelle (ohrainen) on vain mallin ennuste (L5): ei tutkimuksia, ei julkaisuja eikä uskottavaa vaikutusmekanismia, sillä tekovirimaatin kohde puuttuu bakteereilta.
 - Vacciniarokko ja siihen liittyvät mpox-käytöt ovat jo alkuperäisten käyttöaiheiden piirissä, eikä niissä ole kyse uudesta lääkkeen uudelleenkäytöstä.
 
 **Edetäkseen tarvitaan seuraavat tiedot:**
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (Fimean sivusto), jotka estävät turvallisuusarvioinnin jatkamisen
 - Yksityiskohtainen vaikutusmekanismitieto (DrugBank)
 - Perusteltu biologinen hypoteesi ennustetulle käyttöaiheelle ennen mitään kliinistä työtä
-- Selvitys Suomen myyntiluvan peruuttamisen syystä ja nykyisestä saatavuudesta
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

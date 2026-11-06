@@ -90,8 +90,6 @@ Muut ennusteet:
 
 ## Markkinatiedot Suomessa
 
-Kaikki 8 myyntilupaa on peruutettu, joten markkinoilla ei tällä hetkellä ole voimassa olevia memantiinivalmisteita näiden tietojen mukaan.
-
 | Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
 | EMEA/H/C/002680 | Nemdatine | – | Alzheimerin tauti |
@@ -112,14 +110,14 @@ Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Migreenin osalta on yksi valmistunut vaiheen 3 tutkimus, mutta se on pieni (n=33), tuloksia ei ole saatavilla ja vertailukohteena oli vaikuttava aine. Kirjallisuus on enimmäkseen katsauksia, ja yleisarvio on, että näyttö on rajallista. Lisäksi Suomessa ei ole voimassa olevia myyntilupia, ja turvallisuustietojen keskeiset osat puuttuvat.
+- Migreenin osalta on yksi valmistunut vaiheen 3 tutkimus, mutta se on pieni (n=33), tuloksia ei ole saatavilla ja vertailukohteena oli vaikuttava aine. Kirjallisuus on enimmäkseen katsauksia, ja yleisarvio on, että näyttö on rajallista. Turvallisuustietojen keskeiset osat puuttuvat.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivustolta (estävä tietoaukko)
 - Memantiinin vaikutusmekanismitietojen täydentämistä (esim. DrugBankista)
 - NCT04698525-tutkimuksen tulosten selvittämistä sekä meta-analyysien (PMID 33961371, 34352118) arvioimista tarkemmin
 - Suurempaa, lumekontrolloitua vaiheen 3 tutkimusta migreenin ehkäisystä
-- Myyntilupatilanteen selvittämistä (nykyiset luvat peruutettu) ja soveltuvien antoreittien arviointia
+- Myyntilupatilanteen selvittämistä ja soveltuvien antoreittien arviointia
 - Muiden ennusteiden (keuhkoverenpainetauti, kyfoskolioottinen sydänsairaus) osalta ensin perustason näytön ja mekanistisen perustelun kokoamista
 ## Vastuuvapauslauseke
 

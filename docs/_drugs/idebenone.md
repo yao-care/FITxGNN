@@ -105,7 +105,7 @@ Turvallisuustiedot on tarkistettava valmisteyhteenvedosta. Lääkeyhteisvaikutuk
 - Vaikutusmekanismin (MOA) tietojen täydentämistä DrugBankista
 - Prekliinistä tai mekanistista näyttöä idebenonin vaikutuksesta porfyriaan liittyvään maksavaurioon
 - Kirjallisuushakua ja tutkimusrekisterien tarkistusta
-- Selvitystä siitä, sekä reittien ja lääkemuotojen soveltuvuuden arviointia
+- Selvitystä reittien ja lääkemuotojen soveltuvuuden arviointia
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

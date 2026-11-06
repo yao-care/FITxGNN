@@ -126,7 +126,7 @@ Yhteisvaikutuksista aineistossa oli vain yksi farmakologinen merkintä: tenofovi
 - Selvitetään, onko SIV-käyttöaihe todellinen uudelleenkäyttökohde vai vain HIV:n mallijärjestelmä (todennäköisesti jälkimmäinen).
 - Haetaan valmisteyhteenvetojen varoitukset ja vasta-aiheet Fimean sivuilta (puute estää turvallisuusarvioinnin).
 - Täydennetään vaikutusmekanismitiedot (esim. DrugBankista).
-- Selvitetään, ja tarkistetaan nykyinen markkinatilanne.
+- Tarkistetaan nykyinen markkinatilanne.
 - Eläinlääkinnällisissä ennusteissa (kissa) tarvitaan erillinen farmakologia- ja turvallisuusaineisto.
 ## Vastuuvapauslauseke
 

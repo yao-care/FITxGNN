@@ -25,5 +25,46 @@
    "reason": "「TFDA」是 TwTxGNN 模板殘留；只刪「/TFDA」（2026-11-06）",
    "cut": "/TFDA"
   }
+ ],
+ "idebenone": [
+  {
+   "sentence": "Selvitystä siitä, miksi myyntilupa on peruutettu, sekä reittien ja lääkemuotojen soveltuvuuden arviointia",
+   "reason": "事實：EMA 集中許可有效、沒有註銷；只刪「siitä, miksi myyntilupa on peruutettu, sekä 」，留下「Selvitystä reittien ja lääkemuotojen soveltuvuuden arviointia」（2026-11-06，修正前一版留下的殘句）",
+   "cut": "siitä, miksi myyntilupa on peruutettu, sekä "
+  }
+ ],
+ "tenofovir_alafenamide": [
+  {
+   "sentence": "Selvitetään, miksi kaikki Suomen myyntiluvat on merkitty peruutetuiksi, ja tarkistetaan nykyinen markkinatilanne.",
+   "reason": "事實：EMA 集中許可 8 張、都有效；只刪前半的許可子句，留下「Tarkistetaan nykyinen markkinatilanne.」（2026-11-06，修正前一版留下的殘句）",
+   "cut": "Selvitetään, miksi kaikki Suomen myyntiluvat on merkitty peruutetuiksi, ja ",
+   "capitalize": true
+  }
+ ],
+ "vilanterol": [
+  {
+   "sentence": "Selvitys siitä, miksi molemmat suomalaiset myyntiluvat on peruutettu ja onko vilanterolia sisältäviä valmisteita saatavilla muulla tavoin",
+   "reason": "事實：EMA 集中許可有效、沒有註銷；只刪「miksi molemmat suomalaiset myyntiluvat on peruutettu ja 」，留下「Selvitys siitä, onko … saatavilla muulla tavoin」（2026-11-06，修正前一版留下的殘句）",
+   "cut": "miksi molemmat suomalaiset myyntiluvat on peruutettu ja "
+  }
+ ],
+ "simvastatin": [
+  {
+   "sentence": "Valmisteella on vain yksi, peruutettu myyntilupa.",
+   "reason": "事實：EMA 集中許可 1 張、有效；整句講唯一許可已註銷，只刪子句會留下「Valmisteella on vain yksi.」殘句，整句刪（2026-11-06）"
+  }
+ ],
+ "amifampridine": [
+  {
+   "sentence": "Kouristusriski, 68 yhteisvaikutusta ja peruutetut myyntiluvat lisäävät kehitystyön epävarmuutta.",
+   "reason": "事實：EMA 集中許可 2 張、都有效；只刪「 ja peruutetut myyntiluvat」，痙攣風險與交互作用保留（2026-11-06）",
+   "cut": " ja peruutetut myyntiluvat"
+  }
+ ],
+ "insulin_glulisine": [
+  {
+   "sentence": "Markkinatilanne on kaupallinen rajoite, ei näytön puute: Apidra-valmisteen myyntilupa on peruutettu.",
+   "reason": "事實：EMA 集中許可 1 張、有效；整句以「許可已註銷」為前提（市場狀況是商業限制），只刪後半會留下錯誤前提，整句刪（2026-11-06）"
+  }
  ]
 }

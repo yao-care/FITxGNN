@@ -62,8 +62,6 @@ Insuliiniglulisiini on pikavaikutteinen ihmisinsuliinin analogi, joka sitoutuu i
 
 Tyypin 1 diabeteksessa elimistö ei tuota riittävästi insuliinia, joten aterioiden yhteydessä annettava pikavaikutteinen insuliini on vakiintunut hoitomuoto. Ennuste on siis mekanistisesti uskottava ja kliinisesti jo vahvistettu.
 
-Markkinatilanne on kaupallinen rajoite.
-
 ---
 
 ## Kliininen tutkimusnäyttö

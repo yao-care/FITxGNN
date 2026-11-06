@@ -107,8 +107,6 @@ Vain kaksi tutkimusta (ENHANCE ja nuorten ezetimibi–simvastatiinitutkimus) arv
 |---------|------|------|-----------|
 | EMEA/H/C/002559 | Cholib | Ei tiedossa | Dyslipidemiat (peruutettu) |
 
-Valmisteella on vain yksi.
-
 ---
 
 ## Turvallisuushuomiot

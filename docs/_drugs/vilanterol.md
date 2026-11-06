@@ -137,7 +137,7 @@ Varoituksista ja vasta-aiheista ei ollut saatavilla tietoa. Tarkista ne valmiste
 **Jatkoa varten tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittäminen Fimean sivuilta (nykyisellään estävä tietoaukko turvallisuusarvioinnille)
 - Yksityiskohtaiset vaikutusmekanismitiedot (DrugBank)
-- Selvitys siitä ja onko vilanterolia sisältäviä valmisteita saatavilla muulla tavoin
+- Selvitys siitä, onko vilanterolia sisältäviä valmisteita saatavilla muulla tavoin
 - Tulosten odottaminen tutkimuksesta NCT04536675, jos keuhkosyöpäleikkauksen yhteydessä tapahtuva tukihoito kiinnostaa
 ## Vastuuvapauslauseke
 

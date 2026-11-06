@@ -92,7 +92,7 @@ Muista varoituksista ja vasta-aiheista tietoja ei ole saatavilla. Tarkista ne va
 
 **Perustelut:**
 - Ennuste perustuu pelkästään TxGNN-mallin pisteisiin (näytön taso L5). Kliinisiä tutkimuksia, kirjallisuutta tai mekanistista tukea ei ole.
-- Kouristusriski, 68 yhteisvaikutusta.
+- Kouristusriski, 68 yhteisvaikutusta lisäävät kehitystyön epävarmuutta.
 
 **Eteenpäin siirtyminen edellyttää:**
 - Vaikutusmekanismin tietojen täydentämistä (esim. DrugBankista).

@@ -1409,7 +1409,7 @@
       "evidence_level": "L5",
       "indication_count": 6,
       "original_indication": "",
-      "predicted_indication": "Ennustettu käyttöaihe",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/erdafitinib/"
     },
@@ -1609,7 +1609,7 @@
       "evidence_level": "L5",
       "indication_count": 7,
       "original_indication": "",
-      "predicted_indication": "Ennustettu käyttöaihe",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/fluticasone-furoate/"
     },
@@ -2029,7 +2029,7 @@
       "evidence_level": "L5",
       "indication_count": 10,
       "original_indication": "",
-      "predicted_indication": "Autoimmuuniooforiitti",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/insulin-human/"
     },
@@ -2329,7 +2329,7 @@
       "evidence_level": "L5",
       "indication_count": 4,
       "original_indication": "",
-      "predicted_indication": "Ennustettu käyttöaihe",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/lonoctocog-alfa/"
     },
@@ -2449,7 +2449,7 @@
       "evidence_level": "L5",
       "indication_count": 5,
       "original_indication": "",
-      "predicted_indication": "Ennustettu käyttöaihe",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/mepolizumab/"
     },
@@ -2489,7 +2489,7 @@
       "evidence_level": "L5",
       "indication_count": 10,
       "original_indication": "",
-      "predicted_indication": "Ennustettu käyttöaihe",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/methionine/"
     },
@@ -2499,7 +2499,7 @@
       "evidence_level": "L5",
       "indication_count": 7,
       "original_indication": "",
-      "predicted_indication": "Keuhkoblastooma",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/methotrexate/"
     },
@@ -2899,7 +2899,7 @@
       "evidence_level": "L5",
       "indication_count": 10,
       "original_indication": "",
-      "predicted_indication": "Hyvänlaatuinen kielen kasvain",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/palivizumab/"
     },
@@ -3129,7 +3129,7 @@
       "evidence_level": "L5",
       "indication_count": 6,
       "original_indication": "",
-      "predicted_indication": "Käyttöaihe",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/plerixafor/"
     },
@@ -3509,7 +3509,7 @@
       "evidence_level": "L5",
       "indication_count": 10,
       "original_indication": "",
-      "predicted_indication": "Laubry-Pezzin oireyhtymä",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/ropeginterferon-alfa-2b/"
     },
@@ -3669,7 +3669,7 @@
       "evidence_level": "L5",
       "indication_count": 9,
       "original_indication": "",
-      "predicted_indication": "Pseudo-von Willebrandin tauti",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/simoctocog-alfa/"
     },
@@ -4259,7 +4259,7 @@
       "evidence_level": "L4",
       "indication_count": 6,
       "original_indication": "",
-      "predicted_indication": "Käyttöaihe",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/valsartan/"
     },

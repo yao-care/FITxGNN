@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-11-07T23:08:53.012324+00:00",
+  "fetched_at": "2026-11-08T02:53:16.448744+00:00",
   "source": "Google News Health RSS",
-  "count": 43,
+  "count": 45,
   "articles": [
     {
       "id": "900208a69847",
@@ -21,6 +21,16 @@
       "source": {
         "name": "Iltalehti",
         "url": "https://www.iltalehti.fi"
+      }
+    },
+    {
+      "id": "bd4815f50334",
+      "title": "Sinikka Sokka salaili oireitaan, unohti tutkimukset ja jätti lääkkeet syömättä – ”Heräsin sohvalta ulkotakki päälläni hämärän rajamailla” - Apu360",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQd3FmLWI3RjBJSXhSb1JjcFVwbWVwRlR6dVVGNURIbVpZckpNdFJkQzV3RnZtMFZyZUIwdXpIcFpyV25VTzNac0kzcEJtZHZHTmNaZ3U4ajJfTjV0b3pCYmZLVE84NHJpUWdfdHBvSGNOM2IwdjlkN0ZMUEFVWjBfbmNlX3Q5WmpPaWQydHdfWFVVR0VtX2JWcUhldFV0ZkRwZ3h3bXFiUGF6Nzg?oc=5",
+      "published": "2026-11-02T16:00:00+00:00",
+      "source": {
+        "name": "Apu360",
+        "url": "https://www.apu.fi"
       }
     },
     {
@@ -144,30 +154,20 @@
       }
     },
     {
-      "id": "908b4cf14ccc",
-      "title": "Naiskeho, mieslääkkeet - Helsinki.fi",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9sal83eUcxREU3b281RFhiXzY2TWNoZHYyX1JqTjVDbnFRR3J2Y3lOX0FvSFVJT3BZZW5kOHBhR2w4VW1hanFMSmV2LVNVTWRHNTlzRWlrSVhtSktfZEVaQjl3MXJNdGtzZ3h1OVFNWnl6RGVjZE9od3d6dzE?oc=5",
-      "published": "2025-04-28T07:00:00+00:00",
+      "id": "175014ab68bc",
+      "title": "Ensimmäinen suomenkielinen oppikirja lääkkeiden ympäristövaikutuksista ilmestynyt toukokuussa - Helsinki.fi",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPelZYQi1vdXJlS1Z1YzZvRXJLQ3Zob0FmTFN6SUpPeFV6bWo3NFZ3dkVHdl9BRU9pNWtSUDQ4Ry01dHBtRVAyR24za2toYXJKcVg4dmZuMGZpdE1tU2QyRWJlTnE2QmZLZGRsaWUwSnVuMnJBSGZpaDRGWURlVXNiS2JLenZyZ2RnX0dDMVZ5OFBoWV8wLVcyN1lCblVlSm9WTy1JdHoyQmNUcDlqdnNtZmpkZl9TbHFjeDFGYXNseEJwMjR6YkdFdlVpSkRoYWtpbjhvZW1jV1dIZWNCc3cyU1ZKX09TNFRkN09J?oc=5",
+      "published": "2024-05-16T07:00:00+00:00",
       "source": {
         "name": "Helsinki.fi",
         "url": "https://www.helsinki.fi"
       }
     },
     {
-      "id": "6b6ff09594e3",
-      "title": "Satojen lääkkeiden hinnat halpenevat tänään - Yle",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE56VnRjMWlIeXdVbTBTNXVreFhaa3FhTGJsdEFQUGI0SEhURndWU0VqZy1SeGEyVW1ZWk56dVNYcUhndw?oc=5",
-      "published": "2025-02-28T08:00:00+00:00",
-      "source": {
-        "name": "Yle",
-        "url": "https://yle.fi"
-      }
-    },
-    {
-      "id": "175014ab68bc",
-      "title": "Ensimmäinen suomenkielinen oppikirja lääkkeiden ympäristövaikutuksista ilmestynyt toukokuussa - Helsinki.fi",
-      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPelZYQi1vdXJlS1Z1YzZvRXJLQ3Zob0FmTFN6SUpPeFV6bWo3NFZ3dkVHdl9BRU9pNWtSUDQ4Ry01dHBtRVAyR24za2toYXJKcVg4dmZuMGZpdE1tU2QyRWJlTnE2QmZLZGRsaWUwSnVuMnJBSGZpaDRGWURlVXNiS2JLenZyZ2RnX0dDMVZ5OFBoWV8wLVcyN1lCblVlSm9WTy1JdHoyQmNUcDlqdnNtZmpkZl9TbHFjeDFGYXNseEJwMjR6YkdFdlVpSkRoYWtpbjhvZW1jV1dIZWNCc3cyU1ZKX09TNFRkN09J?oc=5",
-      "published": "2024-05-16T07:00:00+00:00",
+      "id": "908b4cf14ccc",
+      "title": "Naiskeho, mieslääkkeet - Helsinki.fi",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9sal83eUcxREU3b281RFhiXzY2TWNoZHYyX1JqTjVDbnFRR3J2Y3lOX0FvSFVJT3BZZW5kOHBhR2w4VW1hanFMSmV2LVNVTWRHNTlzRWlrSVhtSktfZEVaQjl3MXJNdGtzZ3h1OVFNWnl6RGVjZE9od3d6dzE?oc=5",
+      "published": "2025-04-28T07:00:00+00:00",
       "source": {
         "name": "Helsinki.fi",
         "url": "https://www.helsinki.fi"
@@ -184,10 +184,10 @@
       }
     },
     {
-      "id": "bc10383a5bc0",
-      "title": "Luuston hoitoon tarkoitettu lääke lisää merkittävästi leukakuolion riskiä, kertoo uusi tutkimus - Yle",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9vNF84RkI0T3FmQUJiU0NnMDE1OVdYWFlmeTZPSTRQanRzZkwzODJHNVRaTUszWExZYXAxUUxBUUVndw?oc=5",
-      "published": "2025-06-02T07:00:00+00:00",
+      "id": "6b6ff09594e3",
+      "title": "Satojen lääkkeiden hinnat halpenevat tänään - Yle",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE56VnRjMWlIeXdVbTBTNXVreFhaa3FhTGJsdEFQUGI0SEhURndWU0VqZy1SeGEyVW1ZWk56dVNYcUhndw?oc=5",
+      "published": "2025-02-28T08:00:00+00:00",
       "source": {
         "name": "Yle",
         "url": "https://yle.fi"
@@ -198,6 +198,16 @@
       "title": "Jo kolmas Alzheimerin tautia hidastava lääke löytyi, mutta Suomeen lääkettä joudutaan odottamaan vielä vuosikausia - Yle",
       "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBKT0FiMnI4Z1NVQkwwR29oWFUzTmx5ZjVER3FtWUlkM0EtMVcyeE9GX3ZkbWJlNzM0bmJLdTZadTNodw?oc=5",
       "published": "2023-05-04T07:00:00+00:00",
+      "source": {
+        "name": "Yle",
+        "url": "https://yle.fi"
+      }
+    },
+    {
+      "id": "bc10383a5bc0",
+      "title": "Luuston hoitoon tarkoitettu lääke lisää merkittävästi leukakuolion riskiä, kertoo uusi tutkimus - Yle",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9vNF84RkI0T3FmQUJiU0NnMDE1OVdYWFlmeTZPSTRQanRzZkwzODJHNVRaTUszWExZYXAxUUxBUUVndw?oc=5",
+      "published": "2025-06-02T07:00:00+00:00",
       "source": {
         "name": "Yle",
         "url": "https://yle.fi"
@@ -244,26 +254,6 @@
       }
     },
     {
-      "id": "f8a52b94c7e9",
-      "title": "Luonto tekee parhaat lääkkeet - Hyvä Terveys",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBwbUNsUHBCbDRadlJndVB4T0ZBcjQzd2ItR0tUYksyN0tyRS1kNXlpSTluYm51TTk2dEtSUVdqUXF6NURrdmticE1EVllpQmZrckxjbGJwa0JMUG8wZUxsb3k0SU0yRjlDOFJraXY5cktwY3QzQ0swTHBmR3haVUk?oc=5",
-      "published": "2016-10-19T07:00:00+00:00",
-      "source": {
-        "name": "Hyvä Terveys",
-        "url": "https://www.hyvaterveys.fi"
-      }
-    },
-    {
-      "id": "1136e763b5df",
-      "title": "Lääke ei toimi – mistä se johtuu? - Terve.fi",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE90QmNkcnYyZy1qSWMyZlVlVi1YTS0zWjhlMllCWTYzSWVLOHc4VlpFNVVHWUFxRS1KX3hzQzFpRkVCSmhwMTBjc0tVNnFDejFJNWtaTEFXTVBpUnhxZDk3Mk1R?oc=5",
-      "published": "2019-10-13T07:00:00+00:00",
-      "source": {
-        "name": "Terve.fi",
-        "url": "https://www.terve.fi"
-      }
-    },
-    {
       "id": "880aa536e023",
       "title": "Tuomas Lilius tuo laajan kokemuksen lääkkeiden vaikutuksesta ja myrkyllisten aineiden tutkimuksesta farmasian tiedekuntaan - Helsinki.fi",
       "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQSDdFenJObVIzV0Rla1h4OEV5S1VzUjRkNzNraWQ0X0xCYmRBNWt2T1diN0J2VG1sSXdOUFFoZ19KeFZDSXh3X3duczJ0aVBuR29kelF4NUFwZzNlcDNZeWczeWdVNU12UE5lNWQ2djA0OHJveHo3NlRvdk1TRFpjRmM1LVgwa2t0bWVFcUltVnpGYXJiZjF0OGgyVEljYlRWN2dVdTNMZ1pTUENyRlpvNV9YQU1nUXI5RTdBMC0xMVJZNGZmaEJuSVprS3RZd2x5RW9OaE43V0tPeHktd25UMWVHbWRBNmtselRuRnJ0VGxjUVpUcUtyeXhVWERlWkc2cWNQYU50Zy1PYjZLamJOOXpR?oc=5",
@@ -284,10 +274,20 @@
       }
     },
     {
-      "id": "6d1dd8d58ee5",
-      "title": "Lääke lihottaa - Terve.fi",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE16QnhYRWZvaWtjSlFYSTk1UElQZjV4c1NueVlPV3MtXzlqWlhsTWsyZkFkT1NOZ21ieDJ2ZXRQcDNGTVBPdUtQQXM5dGhNcGZ5UTFFRVBUNG5hbGVWRkcyag?oc=5",
-      "published": "2019-01-09T08:00:00+00:00",
+      "id": "f8a52b94c7e9",
+      "title": "Luonto tekee parhaat lääkkeet - Hyvä Terveys",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBwbUNsUHBCbDRadlJndVB4T0ZBcjQzd2ItR0tUYksyN0tyRS1kNXlpSTluYm51TTk2dEtSUVdqUXF6NURrdmticE1EVllpQmZrckxjbGJwa0JMUG8wZUxsb3k0SU0yRjlDOFJraXY5cktwY3QzQ0swTHBmR3haVUk?oc=5",
+      "published": "2016-10-19T07:00:00+00:00",
+      "source": {
+        "name": "Hyvä Terveys",
+        "url": "https://www.hyvaterveys.fi"
+      }
+    },
+    {
+      "id": "1136e763b5df",
+      "title": "Lääke ei toimi – mistä se johtuu? - Terve.fi",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE90QmNkcnYyZy1qSWMyZlVlVi1YTS0zWjhlMllCWTYzSWVLOHc4VlpFNVVHWUFxRS1KX3hzQzFpRkVCSmhwMTBjc0tVNnFDejFJNWtaTEFXTVBpUnhxZDk3Mk1R?oc=5",
+      "published": "2019-10-13T07:00:00+00:00",
       "source": {
         "name": "Terve.fi",
         "url": "https://www.terve.fi"
@@ -304,13 +304,13 @@
       }
     },
     {
-      "id": "2c9d28ff2ee3",
-      "title": "Musiikki tehoaa kuin lääke - Hyvä Terveys",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBEMUxsdFlLSGFRREREd2owMjdIWW9xMUlGVU5SU0F5NEl4b0VQbDZPS2Z1U0RJTmh6UUx2ZUh5VEJWV1lIejJ0OHB6Ym00b2NyR2huZTk4eUFZeG0zQzM4a3V5aVZYRlNzbkRyUmlRZjkycVpKUDVBNg?oc=5",
-      "published": "2012-12-22T08:00:00+00:00",
+      "id": "6d1dd8d58ee5",
+      "title": "Lääke lihottaa - Terve.fi",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE16QnhYRWZvaWtjSlFYSTk1UElQZjV4c1NueVlPV3MtXzlqWlhsTWsyZkFkT1NOZ21ieDJ2ZXRQcDNGTVBPdUtQQXM5dGhNcGZ5UTFFRVBUNG5hbGVWRkcyag?oc=5",
+      "published": "2019-01-09T08:00:00+00:00",
       "source": {
-        "name": "Hyvä Terveys",
-        "url": "https://www.hyvaterveys.fi"
+        "name": "Terve.fi",
+        "url": "https://www.terve.fi"
       }
     },
     {
@@ -321,6 +321,16 @@
       "source": {
         "name": "Ilta-Sanomat",
         "url": "https://www.is.fi"
+      }
+    },
+    {
+      "id": "2c9d28ff2ee3",
+      "title": "Musiikki tehoaa kuin lääke - Hyvä Terveys",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBEMUxsdFlLSGFRREREd2owMjdIWW9xMUlGVU5SU0F5NEl4b0VQbDZPS2Z1U0RJTmh6UUx2ZUh5VEJWV1lIejJ0OHB6Ym00b2NyR2huZTk4eUFZeG0zQzM4a3V5aVZYRlNzbkRyUmlRZjkycVpKUDVBNg?oc=5",
+      "published": "2012-12-22T08:00:00+00:00",
+      "source": {
+        "name": "Hyvä Terveys",
+        "url": "https://www.hyvaterveys.fi"
       }
     },
     {
@@ -411,6 +421,16 @@
       "source": {
         "name": "Terve.fi",
         "url": "https://www.terve.fi"
+      }
+    },
+    {
+      "id": "7287d9fce3c2",
+      "title": "Suosittu kolesterolilääke on myyty loppuun – Tästä on kyse - Iltalehti",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5kakQ2cWQ0endjbGc5cDZpQm0yQmtueWEtczc1aThtcmcyeUpQanF0dmZWeDIwb1VWcDY0dTY5ZTloNWp4eXNxdDNiazlJc1JxTUFTN0VMQnh0NHlCUF90M3pfMHpyVG9yd3BPR3NLR2EwcEI3UEVQOQ?oc=5",
+      "published": "2024-09-26T07:00:00+00:00",
+      "source": {
+        "name": "Iltalehti",
+        "url": "https://www.iltalehti.fi"
       }
     },
     {

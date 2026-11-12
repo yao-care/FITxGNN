@@ -127,6 +127,7 @@ C = _json.loads(r"""{
   "figures": "Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu {total} myyntilupaa, joista {valid} voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa.",
   "data_as_of": "EMA:n keskitetysti myönnetyt myyntiluvat, tilanne {date}",
   "notes": {
+   "rewrite": "Korjattu: väite ei vastannut myyntilupatietoja ({d}), ja se korvattiin nykyisellä sanamuodolla.",
    "tw": "Poistettu: Taiwanin mallipohjasta (TFDA) jäänyt teksti, joka ei koske tätä sivua.",
    "combo": "Poistettu: tieto yksi- tai yhdistelmävalmisteista ei vastannut myyntilupatietoja ({d}).",
    "cancel": "Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja ({d}).",

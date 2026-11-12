@@ -72,7 +72,13 @@ Aiheeseen liittyvää kirjallisuutta ei ole tällä hetkellä saatavilla.
 
 | Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/002213 (peruutettu) | Yervoy | – | Melanooma, munuaissolusyöpä, ei-pienisoluinen keuhkosyöpä, pahanlaatuinen mesoteliooma, kolorektaalinen kasvain |
+| EMEA/H/C/002213 (voimassa) | Yervoy | – | Melanooma, munuaissolusyöpä, ei-pienisoluinen keuhkosyöpä, pahanlaatuinen mesoteliooma, kolorektaalinen kasvain |
+
+<!-- review:begin fi-row-20261112-ipilimumab-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/002213 (peruutettu) / Yervoy / – / Melanooma, munuaissolusyöpä, ei-pienisoluinen keuhkosyöpä, pahanlaatuinen mesoteliooma, kolorektaalinen kasvain” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntilupa Yervoy (EMEA/H/C/002213 (peruutettu)) on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-ipilimumab-1 -->
 
 ## Sytotoksisuus
 
@@ -109,6 +115,19 @@ Mukana on esimerkiksi vaiheen 2 tutkimus NCT02626962, jossa nivolumabia ja ipili
 - Yksityiskohtaiset vaikutusmekanismitiedot (DrugBank).
 - Prekliinistä tai mekanistista näyttöä CTLA-4-reitin merkityksestä koroideremiassa. Ilman sitä ennustetta ei kannata viedä eteenpäin.
 - Erillinen arviointi ei-ihomelanooman ennusteelle, mukaan lukien tutkimusrekisterien tietojen tarkistus kokotekstien perusteella.
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-12 | Taulukko: Yervoy (EMEA/H/C/002213 (peruutettu)) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

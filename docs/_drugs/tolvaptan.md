@@ -95,9 +95,15 @@ Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkim
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/005961 | Tolvaptan Accord | – | Epätarkoituksenmukaisen ADH-erityksen oireyhtymä (peruutettu) |
-| EMEA/H/C/000980 | Samsca | – | Epätarkoituksenmukaisen ADH-erityksen oireyhtymä (peruutettu) |
-| EMEA/H/C/002788 | Jinarc | – | Autosomaalisesti vallitseva polykystinen munuaistauti (peruutettu) |
+| EMEA/H/C/005961 | Tolvaptan Accord | – | Epätarkoituksenmukaisen ADH-erityksen oireyhtymä (voimassa) |
+| EMEA/H/C/000980 | Samsca | – | Epätarkoituksenmukaisen ADH-erityksen oireyhtymä (voimassa) |
+| EMEA/H/C/002788 | Jinarc | – | Autosomaalisesti vallitseva polykystinen munuaistauti (voimassa) |
+
+<!-- review:begin fi-row-20261112-tolvaptan-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/005961 / Tolvaptan Accord / – / Epätarkoituksenmukaisen ADH-erityksen oireyhtymä (peruutettu); EMEA/H/C/000980 / Samsca / – / Epätarkoituksenmukaisen ADH-erityksen oireyhtymä (peruutettu); EMEA/H/C/002788 / Jinarc / – / Autosomaalisesti vallitseva polykystinen munuaistauti (peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Tolvaptan Accord (EMEA/H/C/005961), Samsca (EMEA/H/C/000980), Jinarc (EMEA/H/C/002788) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-tolvaptan-1 -->
 
 ---
 
@@ -165,6 +171,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”ja Suomessa kaikki myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Myyntiluvan peruutuksen syiden selvitys ja saatavuuden varmistaminen Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 3 myyntilupaa (Tolvaptan Accord (EMEA/H/C/005961), Samsca (EMEA/H/C/000980), Jinarc (EMEA/H/C/002788)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

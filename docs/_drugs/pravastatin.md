@@ -91,7 +91,13 @@ Siitä on suoraa lapsipotilaiden näyttöä pravastatiinille (farmakokinetiikka-
 
 | Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/001243 | Pravafenix (peruutettu) | – | Dyslipidemiat |
+| EMEA/H/C/001243 | Pravafenix (voimassa) | – | Dyslipidemiat |
+
+<!-- review:begin fi-row-20261112-pravastatin-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/001243 / Pravafenix (peruutettu) / – / Dyslipidemiat” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntilupa Pravafenix (EMEA/H/C/001243) on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-pravastatin-1 -->
 
 ---
 
@@ -139,6 +145,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi pravastatiinin ainoa Suomen myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”koska myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: Pravafenix (EMEA/H/C/001243) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

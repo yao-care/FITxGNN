@@ -123,8 +123,14 @@ Osa kirjallisuudesta koskee metotreksaattiin liittyviä lymfoproliferatiivisia s
 
 | Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/003756 | Jylamvo | Ei tiedossa | Psoriaattinen artriitti, akuutti lymfoblastileukemia/lymfooma, psoriaasi, nivelreuma... (peruutettu) |
-| EMEA/H/C/003983 | Nordimet | Ei tiedossa | Psoriaattinen artriitti, psoriaasi, lasten nivelreuma, nivelreuma (peruutettu) |
+| EMEA/H/C/003756 | Jylamvo | Ei tiedossa | Psoriaattinen artriitti, akuutti lymfoblastileukemia/lymfooma, psoriaasi, nivelreuma... (voimassa) |
+| EMEA/H/C/003983 | Nordimet | Ei tiedossa | Psoriaattinen artriitti, psoriaasi, lasten nivelreuma, nivelreuma (voimassa) |
+
+<!-- review:begin fi-row-20261112-methotrexate-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/003756 / Jylamvo / Ei tiedossa / Psoriaattinen artriitti, akuutti lymfoblastileukemia/lymfooma, psoriaasi, nivelreuma... (peruutettu); EMEA/H/C/003983 / Nordimet / Ei tiedossa / Psoriaattinen artriitti, psoriaasi, lasten nivelreuma, nivelreuma (peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Jylamvo (EMEA/H/C/003756), Nordimet (EMEA/H/C/003983) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-methotrexate-1 -->
 
 ---
 
@@ -199,6 +205,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Molemmat myyntiluvat on peruutettu, joten voimassa olevia yksittäisvalmisteen myyntilupia ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Suomessa ei ole voimassa olevaa myyntilupaa, ja v” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 2 myyntilupaa (Jylamvo (EMEA/H/C/003756), Nordimet (EMEA/H/C/003983)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

@@ -90,7 +90,13 @@ Toissijaiselle ennusteelle (liposarkooma) on saatavilla yksi julkaisu:
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/002695 | Iclusig | – | Myeloinen leukemia; lymfaattinen leukemia (tila: peruutettu) |
+| EMEA/H/C/002695 | Iclusig | – | Myeloinen leukemia; lymfaattinen leukemia (tila: voimassa) |
+
+<!-- review:begin fi-row-20261112-ponatinib-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/002695 / Iclusig / – / Myeloinen leukemia; lymfaattinen leukemia (tila: peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntilupa Iclusig (EMEA/H/C/002695) on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-ponatinib-1 -->
 
 ---
 
@@ -149,6 +155,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi lääke ei ole tällä hetkellä markkinoilla Suomessa (ainoa myyntilupa peruutettu), ja turvallisuustiedot puuttuvat” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: Iclusig (EMEA/H/C/002695) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

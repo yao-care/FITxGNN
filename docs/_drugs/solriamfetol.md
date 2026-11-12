@@ -95,7 +95,13 @@ Ennuste on mekanistisesti uskottava, mutta tehosta ei vielä ole julkaistuja vah
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/004893 | Sunosi | – | Narkolepsia; obstruktiivinen uniapnea (tila: peruutettu) |
+| EMEA/H/C/004893 | Sunosi | – | Narkolepsia; obstruktiivinen uniapnea (tila: voimassa) |
+
+<!-- review:begin fi-row-20261112-solriamfetol-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/004893 / Sunosi / – / Narkolepsia; obstruktiivinen uniapnea (tila: peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntilupa Sunosi (EMEA/H/C/004893) on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-solriamfetol-1 -->
 
 ---
 
@@ -119,6 +125,18 @@ Farmakologisen kyselyn mukaan solriamfetoli vaikuttaa noradrenaliinin kuljettaja
 - Lasten ja nuorten vaiheen 3 tutkimusten tulokset
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden läpikäynti
 - Sydän- ja verisuoniturvallisuuden seurantasuunnitelma
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-12 | Taulukko: Sunosi (EMEA/H/C/004893) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
 
 ## Vastuuvapauslauseke
 

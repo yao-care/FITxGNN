@@ -84,7 +84,13 @@ Aiheeseen liittyvää kirjallisuutta ei ole tällä hetkellä saatavilla.
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/001106 | Elonva (Organon N.V.) | – | Avustetut lisääntymistekniikat; ovulaation induktio; tutkimusmenetelmät (tila: peruutettu) |
+| EMEA/H/C/001106 | Elonva (Organon N.V.) | – | Avustetut lisääntymistekniikat; ovulaation induktio; tutkimusmenetelmät (tila: voimassa) |
+
+<!-- review:begin fi-row-20261112-corifollitropin_alfa-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/001106 / Elonva (Organon N.V.) / – / Avustetut lisääntymistekniikat; ovulaation induktio; tutkimusmenetelmät (tila: peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntilupa Elonva (EMEA/H/C/001106) on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-corifollitropin_alfa-1 -->
 
 ## Turvallisuusnäkökohdat
 
@@ -120,6 +126,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”ja Suomessa valmisteen ainoa myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: Elonva (EMEA/H/C/001106) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

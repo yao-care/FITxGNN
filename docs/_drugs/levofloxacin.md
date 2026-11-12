@@ -84,7 +84,13 @@ Julkaisu ei tutki ennustettua tautia suoraan eikä arvioi levofloksasiinia hoito
 
 | Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/002789 | Quinsair | – | Kystinen fibroosi; hengitystieinfektiot (peruutettu) |
+| EMEA/H/C/002789 | Quinsair | – | Kystinen fibroosi; hengitystieinfektiot (voimassa) |
+
+<!-- review:begin fi-row-20261112-levofloxacin-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/002789 / Quinsair / – / Kystinen fibroosi; hengitystieinfektiot (peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntilupa Quinsair (EMEA/H/C/002789) on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-levofloxacin-1 -->
 
 ---
 
@@ -136,6 +142,18 @@ Pakkausselosteen varoituksia ja vasta-aiheita ei ole saatavilla. Tarkista ne Fim
 - Pakkausselosteen turvallisuustiedot (varoitukset, vasta-aiheet).
 - Arvio antoreitistä, sillä silmän pintaan sopiva valmiste edellyttäisi paikallista antoa.
 - Prekliiniset tai pienimuotoiset kliiniset tutkimukset, ennen kuin ennustetta voidaan viedä eteenpäin.
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-12 | Taulukko: Quinsair (EMEA/H/C/002789) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
 
 ## Vastuuvapauslauseke
 

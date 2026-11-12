@@ -33,3 +33,5 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 2026-10-31～11-06 正文裡跟許可證事實矛盾、直接刪掉的子句，2026-11-12 已用 `scripts/reviews_from_edits.py --git` 轉成 555 筆紀錄（300 頁；
 其中 0 筆因報告在 11 月經 AI 重產、原句已不在頁面，標 resolved_by_regeneration）。
 2026-11-12 正文許可證張數／狀態對事實層的掃描，以 11 筆 `fi-lic-20261112-*` 更正 9 頁：crizotinib、ramucirumab（表格與決策理由寫芬蘭許可已失效）、mometasone、pioglitazone、vildagliptin（寫另幾張已撤銷）、anagrelide、bictegravir、leflunomide、tezacaftor（下一步以「已撤銷的許可」為前提）；EMA 資料這些都是 Authorised。另有約 215 頁、313 列許可證表格把 Authorised 的產品標成 peruutettu／mitätöity（母目錄 checker 的表格列狀態檢查只對 Us 生效），未在這次處理。
+2026-11-12 許可證表格列狀態：311 列（213 頁）把 EMA 現行有效（Authorised）的許可寫成 peruutettu（11 月 AI 重產照證據包錯誤狀態寫的），以 213 筆 `fi-row-20261112-*`（每張表一筆）把狀態字改成站上有效列的寫法（(voimassa)／Voimassa），其他文字不動；母目錄 `check_drug_page.py --row-status FITxGNN` 為 0。
+同時 site_config 的 MARKET_RE 由 `[Mm]arkkina` 放寬為 `[Mm]arkkin|Myyntilu|Myyntitiedot`：原本認不得「Tiedot Suomen markkinoilta／markkinoista」「Myyntiluvat／Myyntilupatiedot／Myyntitiedot Suomessa」標題（約 120 頁），這些市場段落的號碼歸屬與表格列狀態都漏驗；放寬後 gate 仍 exit 0。

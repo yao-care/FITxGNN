@@ -97,7 +97,13 @@ Muille ennustetuille käyttöaiheille ei ole rekisteröityjä kliinisiä tutkimu
 
 | Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/000984 (peruutettu) | Efient | Ei tiedossa | Akuutti sepelvaltimotautioireyhtymä, epästabiili angina pectoris, sydäninfarkti |
+| EMEA/H/C/000984 (voimassa) | Efient | Ei tiedossa | Akuutti sepelvaltimotautioireyhtymä, epästabiili angina pectoris, sydäninfarkti |
+
+<!-- review:begin fi-row-20261112-prasugrel-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/000984 (peruutettu) / Efient / Ei tiedossa / Akuutti sepelvaltimotautioireyhtymä, epästabiili angina pectoris, sydäninfarkti” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntilupa Efient (EMEA/H/C/000984 (peruutettu)) on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-prasugrel-1 -->
 
 ## Turvallisuusnäkökohdat
 
@@ -146,6 +152,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | 2026-11-06 | Poistettu: ”Voimassa olevia myyntilupia ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi lääkkeellä ei ole voimassa olevaa myyntilupaa Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”koska myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: Efient (EMEA/H/C/000984 (peruutettu)) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

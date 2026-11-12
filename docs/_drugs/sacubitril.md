@@ -93,8 +93,14 @@ Muut ennusteet: aivojen pienten suonten taudin 1 osalta ainoa löydetty julkaisu
 
 | Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/004343 | Neparvis (peruutettu) | – | Sydämen vajaatoiminta |
-| EMEA/H/C/004062 | Entresto (peruutettu) | – | Sydämen vajaatoiminta |
+| EMEA/H/C/004343 | Neparvis (voimassa) | – | Sydämen vajaatoiminta |
+| EMEA/H/C/004062 | Entresto (voimassa) | – | Sydämen vajaatoiminta |
+
+<!-- review:begin fi-row-20261112-sacubitril-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/004343 / Neparvis (peruutettu) / – / Sydämen vajaatoiminta; EMEA/H/C/004062 / Entresto (peruutettu) / – / Sydämen vajaatoiminta” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Neparvis (EMEA/H/C/004343), Entresto (EMEA/H/C/004062) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-sacubitril-1 -->
 
 ## Turvallisuusnäkökohdat
 
@@ -137,6 +143,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa ei ole voimassa olevia myyntilupia, ja v” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”(kaikki myyntiluvat peruutettu)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 2 myyntilupaa (Neparvis (EMEA/H/C/004343), Entresto (EMEA/H/C/004062)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

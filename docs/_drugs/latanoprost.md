@@ -98,8 +98,14 @@ Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/005933 | Catiolanze (Santen Oy) | – | Avokulmaglaukooma (peruutettu) |
-| EMEA/H/C/005107 | Roclanda (Santen Oy) | – | Avokulmaglaukooma; silmänpainetauti (peruutettu) |
+| EMEA/H/C/005933 | Catiolanze (Santen Oy) | – | Avokulmaglaukooma (voimassa) |
+| EMEA/H/C/005107 | Roclanda (Santen Oy) | – | Avokulmaglaukooma; silmänpainetauti (voimassa) |
+
+<!-- review:begin fi-row-20261112-latanoprost-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/005933 / Catiolanze (Santen Oy) / – / Avokulmaglaukooma (peruutettu); EMEA/H/C/005107 / Roclanda (Santen Oy) / – / Avokulmaglaukooma; silmänpainetauti (peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Catiolanze (EMEA/H/C/005933), Roclanda (EMEA/H/C/005107) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-latanoprost-1 -->
 
 ---
 
@@ -142,6 +148,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”ja Suomessa kaikki tunnetut myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 2 myyntilupaa (Catiolanze (EMEA/H/C/005933), Roclanda (EMEA/H/C/005107)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

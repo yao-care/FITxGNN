@@ -103,10 +103,16 @@ Näyttö vatsakalvon kohdalta perustuu kuitenkin vaiheen 2 tutkimuksiin, retrosp
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/000564 | Alimta | – | Mesotelioomaa; ei-pienisoluinen keuhkosyöpä (peruutettu) |
+| EMEA/H/C/000564 | Alimta | – | Mesotelioomaa; ei-pienisoluinen keuhkosyöpä (voimassa) |
 | EMEA/H/C/003905 | Pemetrexed medac | – | Ei-pienisoluinen keuhkosyöpä; mesotelioma (peruutettu) |
-| EMEA/H/C/003895 | Pemetrexed Fresenius Kabi | – | Ei-pienisoluinen keuhkosyöpä; mesotelioma (peruutettu) |
-| EMEA/H/C/003970 | Pemetrexed Pfizer (aiemmin Pemetrexed Hospira) | – | Ei-pienisoluinen keuhkosyöpä; mesotelioma (peruutettu) |
+| EMEA/H/C/003895 | Pemetrexed Fresenius Kabi | – | Ei-pienisoluinen keuhkosyöpä; mesotelioma (voimassa) |
+| EMEA/H/C/003970 | Pemetrexed Pfizer (aiemmin Pemetrexed Hospira) | – | Ei-pienisoluinen keuhkosyöpä; mesotelioma (voimassa) |
+
+<!-- review:begin fi-row-20261112-pemetrexed-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/000564 / Alimta / – / Mesotelioomaa; ei-pienisoluinen keuhkosyöpä (peruutettu); EMEA/H/C/003905 / Pemetrexed medac / – / Ei-pienisoluinen keuhkosyöpä; mesotelioma (peruutettu); EMEA/H/C/003895 / Pemetrexed Fresenius Kabi / – / Ei-pienisoluinen keuhkosyöpä; mesotelioma (peruutettu); EMEA/H/C/003970 / Pemetrexed Pfizer (aiemmin Pemetrexed Hospira) / – / Ei-pienisoluinen keuhkosyöpä; mesotelioma (peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Alimta (EMEA/H/C/000564), Pemetrexed Fresenius Kabi (EMEA/H/C/003895), Pemetrexed Pfizer (EMEA/H/C/003970) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-pemetrexed-1 -->
 
 ---
 
@@ -171,6 +177,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki neljä suomalaista myyntilupaa on peruutettu, joten saatavuus on selvitettävä” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 3 myyntilupaa (Alimta (EMEA/H/C/000564), Pemetrexed Fresenius Kabi (EMEA/H/C/003895), Pemetrexed Pfizer (EMEA/H/C/003970)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

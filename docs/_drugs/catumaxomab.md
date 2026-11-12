@@ -82,7 +82,13 @@ Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/005697 | Korjuny | – | Askites (tila: peruutettu) |
+| EMEA/H/C/005697 | Korjuny | – | Askites (tila: voimassa) |
+
+<!-- review:begin fi-row-20261112-catumaxomab-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/005697 / Korjuny / – / Askites (tila: peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntilupa Korjuny (EMEA/H/C/005697) on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-catumaxomab-1 -->
 
 Valmisteen EU-myyntilupa peruutettiin aiemmin valmistajan pyynnöstä kaupallisista syistä (2017), ja farmakologiatietojen mukaan pahanlaatuisen askiteksen myyntilupa on myönnetty uudelleen vuoden 2025 alussa.
 
@@ -154,6 +160,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Fimean tietojen mukaan myyntilupa on kuitenkin tällä hetkellä merkitty vain peruutetuksi, mikä rajoittaa kehityksen käytännön toteutettavuut” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Myyntilupa on lisäksi peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: Korjuny (EMEA/H/C/005697) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

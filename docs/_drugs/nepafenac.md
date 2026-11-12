@@ -118,7 +118,13 @@ Alla on valikoima merkityksellisimpiä tutkimuksia (enintään 10).
 
 | Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/000818 | Nevanac | – | Leikkauksen jälkeinen kipu; silmäkirurgiset toimenpiteet (tila: peruutettu) |
+| EMEA/H/C/000818 | Nevanac | – | Leikkauksen jälkeinen kipu; silmäkirurgiset toimenpiteet (tila: voimassa) |
+
+<!-- review:begin fi-row-20261112-nepafenac-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/000818 / Nevanac / – / Leikkauksen jälkeinen kipu; silmäkirurgiset toimenpiteet (tila: peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntilupa Nevanac (EMEA/H/C/000818) on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-nepafenac-1 -->
 
 ---
 
@@ -166,6 +172,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Ainoa myyntilupa (Novartis Europharm Limited) on peruutettu, joten tuotteen saatavuus on tarkistettava” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Saatavuuden varmistaminen, koska Suomen myyntilupa on peruutettu (mahdolliset muut valmisteet, esim. 0,3 % vahvuus)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: Nevanac (EMEA/H/C/000818) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

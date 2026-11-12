@@ -111,7 +111,13 @@ Ennustetulle ensisijaiselle indikaatiolle ei ole aiheeseen liittyvää kirjallis
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/004426 | Cablivi (Ablynx NV) | Ei tiedossa | Trombootinen trombosytopeeninen purppura (myyntilupa peruutettu) |
+| EMEA/H/C/004426 | Cablivi (Ablynx NV) | Ei tiedossa | Trombootinen trombosytopeeninen purppura (myyntilupa voimassa) |
+
+<!-- review:begin fi-row-20261112-caplacizumab-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/004426 / Cablivi (Ablynx NV) / Ei tiedossa / Trombootinen trombosytopeeninen purppura (myyntilupa peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntilupa Cablivi (EMEA/H/C/004426) on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-caplacizumab-1 -->
 
 ---
 
@@ -155,6 +161,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Myyntiluvan tilan selvitys: Suomessa on vain peruutettu lupa, mikä tulee täsmentää alueellisen sääntelytilanteen kanssa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: Cablivi (EMEA/H/C/004426) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

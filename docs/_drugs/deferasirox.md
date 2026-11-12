@@ -85,9 +85,15 @@ Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkim
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/005014 | Deferasirox Mylan (peruutettu) | – | Raudan ylikuormitus; beetatalassemia |
-| EMEA/H/C/005156 | Deferasirox Accord (peruutettu) | – | Raudan ylikuormitus; beetatalassemia |
-| EMEA/H/C/000670 | Exjade (peruutettu) | – | Beetatalassemia; raudan ylikuormitus |
+| EMEA/H/C/005014 | Deferasirox Mylan (voimassa) | – | Raudan ylikuormitus; beetatalassemia |
+| EMEA/H/C/005156 | Deferasirox Accord (voimassa) | – | Raudan ylikuormitus; beetatalassemia |
+| EMEA/H/C/000670 | Exjade (voimassa) | – | Beetatalassemia; raudan ylikuormitus |
+
+<!-- review:begin fi-row-20261112-deferasirox-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/005014 / Deferasirox Mylan (peruutettu) / – / Raudan ylikuormitus; beetatalassemia; EMEA/H/C/005156 / Deferasirox Accord (peruutettu) / – / Raudan ylikuormitus; beetatalassemia; EMEA/H/C/000670 / Exjade (peruutettu) / – / Beetatalassemia; raudan ylikuormitus” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Deferasirox Mylan (EMEA/H/C/005014), Deferasirox Accord (EMEA/H/C/005156), Exjade (EMEA/H/C/000670) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-deferasirox-1 -->
 
 ---
 
@@ -141,6 +147,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”ja kaikki suomalaiset myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”koska kaikki myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 3 myyntilupaa (Deferasirox Mylan (EMEA/H/C/005014), Deferasirox Accord (EMEA/H/C/005156), Exjade (EMEA/H/C/000670)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

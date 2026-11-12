@@ -109,7 +109,13 @@ Satunnaistettua, loppuun asti viedyä näyttöä manttelisolulymfoomasta ei ole.
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/003843 | Zydelig | – | Non-Hodgkin-lymfooma; krooninen B-solulymfaattinen leukemia (tila: peruutettu) |
+| EMEA/H/C/003843 | Zydelig | – | Non-Hodgkin-lymfooma; krooninen B-solulymfaattinen leukemia (tila: voimassa) |
+
+<!-- review:begin fi-row-20261112-idelalisib-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/003843 / Zydelig / – / Non-Hodgkin-lymfooma; krooninen B-solulymfaattinen leukemia (tila: peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntilupa Zydelig (EMEA/H/C/003843) on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-idelalisib-1 -->
 
 ---
 
@@ -178,6 +184,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | 2026-11-06 | Poistettu: ”ja myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Valmisteen myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Myyntilupa on peruutettu, tunnetut vakavat haitat (maksatoksisuus, koliitti, infektiot) ovat merkittäviä, ja uudemmat BTK- ja BCL2-estäjät o” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: Zydelig (EMEA/H/C/003843) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

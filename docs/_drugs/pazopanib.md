@@ -104,7 +104,13 @@ Aineiston tietojen perusteella yksittäisten tutkimusten asetelmia ja tuloksia e
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/001141 | Votrient | – | Munuaissolusyöpä (Carcinoma, Renal Cell); tila: peruutettu |
+| EMEA/H/C/001141 | Votrient | – | Munuaissolusyöpä (Carcinoma, Renal Cell); tila: voimassa |
+
+<!-- review:begin fi-row-20261112-pazopanib-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/001141 / Votrient / – / Munuaissolusyöpä (Carcinoma, Renal Cell); tila: peruutettu” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntilupa Votrient (EMEA/H/C/001141) on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-pazopanib-1 -->
 
 ---
 
@@ -169,6 +175,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Pazopanibin myyntilupa Suomessa on lisäksi peruutettu, ja k” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Selvitys myyntiluvan peruuttamisen syistä ja nykyisestä saatavuudesta Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: Votrient (EMEA/H/C/001141) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

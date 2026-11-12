@@ -107,8 +107,14 @@ Alla on nivelrikkoon liittyvät keskeisimmät julkaisut. Yksikään ei tutki dap
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe | Tila |
 |---------|------|------|-----------|------|
-| EMEA/H/C/000637 | Cubicin | – | Gram-positiiviset bakteeri-infektiot, bakteremia, pehmytkudosinfektiot, bakteeriperäinen endokardiitti | Peruutettu |
-| EMEA/H/C/004310 | Daptomycin Hospira | – | Pehmytkudosinfektiot, bakteeriperäiset ihosairaudet | Peruutettu |
+| EMEA/H/C/000637 | Cubicin | – | Gram-positiiviset bakteeri-infektiot, bakteremia, pehmytkudosinfektiot, bakteeriperäinen endokardiitti | Voimassa |
+| EMEA/H/C/004310 | Daptomycin Hospira | – | Pehmytkudosinfektiot, bakteeriperäiset ihosairaudet | Voimassa |
+
+<!-- review:begin fi-row-20261112-daptomycin-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/000637 / Cubicin / – / Gram-positiiviset bakteeri-infektiot, bakteremia, pehmytkudosinfektiot, bakteeriperäinen endokardiitti / Peruutettu; EMEA/H/C/004310 / Daptomycin Hospira / – / Pehmytkudosinfektiot, bakteeriperäiset ihosairaudet / Peruutettu” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Cubicin (EMEA/H/C/000637), Daptomycin Hospira (EMEA/H/C/004310) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-daptomycin-1 -->
 
 ---
 
@@ -169,6 +175,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi daptomysiinillä ei ole tällä hetkellä voimassa olevaa myyntilupaa Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Markkinatilanteen selvitys, koska kaikki Suomen myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 2 myyntilupaa (Cubicin (EMEA/H/C/000637), Daptomycin Hospira (EMEA/H/C/004310)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

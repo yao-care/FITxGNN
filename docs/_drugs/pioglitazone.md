@@ -102,11 +102,17 @@ Haiman agenesian (sija 9) osalta haetut 7 julkaisua (mm. PMID [20859539](https:/
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/000285 | Actos | – | Tyypin 2 diabetes (peruutettu) |
-| EMEA/H/C/002277 | Pioglitazone Accord | – | Tyypin 2 diabetes (peruutettu) |
-| EMEA/H/C/002324 | Pioglitazone Actavis | – | Tyypin 2 diabetes (peruutettu) |
-| EMEA/H/C/000680 | Tandemact | – | Tyypin 2 diabetes (peruutettu) |
-| EMEA/H/C/000655 | Competact | – | Tyypin 2 diabetes (peruutettu) |
+| EMEA/H/C/000285 | Actos | – | Tyypin 2 diabetes (voimassa) |
+| EMEA/H/C/002277 | Pioglitazone Accord | – | Tyypin 2 diabetes (voimassa) |
+| EMEA/H/C/002324 | Pioglitazone Actavis | – | Tyypin 2 diabetes (voimassa) |
+| EMEA/H/C/000680 | Tandemact | – | Tyypin 2 diabetes (voimassa) |
+| EMEA/H/C/000655 | Competact | – | Tyypin 2 diabetes (voimassa) |
+
+<!-- review:begin fi-row-20261112-pioglitazone-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/000285 / Actos / – / Tyypin 2 diabetes (peruutettu); EMEA/H/C/002277 / Pioglitazone Accord / – / Tyypin 2 diabetes (peruutettu); EMEA/H/C/002324 / Pioglitazone Actavis / – / Tyypin 2 diabetes (peruutettu); EMEA/H/C/000680 / Tandemact / – / Tyypin 2 diabetes (peruutettu); EMEA/H/C/000655 / Competact / – / Tyypin 2 diabetes (peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Actos (EMEA/H/C/000285), Pioglitazone Accord (EMEA/H/C/002277), Pioglitazone Actavis (EMEA/H/C/002324), Tandemact (EMEA/H/C/000680), Competact (EMEA/H/C/000655) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-pioglitazone-1 -->
 
 Viides taulukon ulkopuolinen lupa: Incresync (EMEA/H/C/002178, Takeda Pharma A/S), voimassa.
 
@@ -174,6 +180,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa ei ole voimassa olevia myyntilupia” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”koska kaikki luvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Incresync (EMEA/H/C/002178): voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 5 myyntilupaa (Actos (EMEA/H/C/000285), Pioglitazone Accord (EMEA/H/C/002277), Pioglitazone Actavis (EMEA/H/C/002324), Tandemact (EMEA/H/C/000680), Competact (EMEA/H/C/000655)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

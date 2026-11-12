@@ -114,10 +114,16 @@ Huomio: vaiheen 3 tutkimuksissa paklitakseli on useimmiten osa yhdistelmää tai
 
 | Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/000778 | Abraxane (peruutettu) | – | Rintasyöpä; haimasyöpä; ei-pienisoluinen keuhkosyöpä |
-| EMEA/H/C/005997 | Apexelsin (peruutettu) | – | Rintasyöpä; haimasyöpä; ei-pienisoluinen keuhkosyöpä |
-| EMEA/H/C/006173 | Naveruclif (peruutettu) | – | Rintasyöpä; haimasyöpä; ei-pienisoluinen keuhkosyöpä |
-| EMEA/H/C/004441 | Pazenir (peruutettu) | – | Rintasyöpä |
+| EMEA/H/C/000778 | Abraxane (voimassa) | – | Rintasyöpä; haimasyöpä; ei-pienisoluinen keuhkosyöpä |
+| EMEA/H/C/005997 | Apexelsin (voimassa) | – | Rintasyöpä; haimasyöpä; ei-pienisoluinen keuhkosyöpä |
+| EMEA/H/C/006173 | Naveruclif (voimassa) | – | Rintasyöpä; haimasyöpä; ei-pienisoluinen keuhkosyöpä |
+| EMEA/H/C/004441 | Pazenir (voimassa) | – | Rintasyöpä |
+
+<!-- review:begin fi-row-20261112-paclitaxel-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/000778 / Abraxane (peruutettu) / – / Rintasyöpä; haimasyöpä; ei-pienisoluinen keuhkosyöpä; EMEA/H/C/005997 / Apexelsin (peruutettu) / – / Rintasyöpä; haimasyöpä; ei-pienisoluinen keuhkosyöpä; EMEA/H/C/006173 / Naveruclif (peruutettu) / – / Rintasyöpä; haimasyöpä; ei-pienisoluinen keuhkosyöpä; EMEA/H/C/004441 / Pazenir (peruutettu) / – / Rintasyöpä” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Abraxane (EMEA/H/C/000778), Apexelsin (EMEA/H/C/005997), Naveruclif (EMEA/H/C/006173), Pazenir (EMEA/H/C/004441) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-paclitaxel-1 -->
 
 ## Sytotoksisuus
 
@@ -175,6 +181,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | 2026-11-06 | Poistettu: ”Kaikki neljä myyntilupaa ovat peruutettuja, eikä voimassa olevia lupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”ja Suomessa ei ole voimassa olevia myyntilupia” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”koska kaikki aineiston myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 4 myyntilupaa (Abraxane (EMEA/H/C/000778), Apexelsin (EMEA/H/C/005997), Naveruclif (EMEA/H/C/006173), Pazenir (EMEA/H/C/004441)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

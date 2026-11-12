@@ -96,7 +96,13 @@ Huomio: yksikään julkaisu ei tutki zanubrutinibia myeloidisessa leukemiassa. N
 
 | Myyntilupanumero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe | Tila |
 |---------|------|------|-----------|------|
-| EMEA/H/C/004978 | Brukinsa | – | Waldenströmin makroglobulinemia | Peruutettu |
+| EMEA/H/C/004978 | Brukinsa | – | Waldenströmin makroglobulinemia | Voimassa |
+
+<!-- review:begin fi-row-20261112-zanubrutinib-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/004978 / Brukinsa / – / Waldenströmin makroglobulinemia / Peruutettu” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntilupa Brukinsa (EMEA/H/C/004978) on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-zanubrutinib-1 -->
 
 ---
 
@@ -169,6 +175,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi lääkkeellä ei ole Suomessa voimassa olevaa myyntilupaa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Selvitys Brukinsan myyntiluvan peruutuksen syistä ja nykyisestä saatavuudesta Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: Brukinsa (EMEA/H/C/004978) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

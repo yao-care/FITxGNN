@@ -101,9 +101,15 @@ Kirjallisuutta löytyi vain fibroblastiselle neoplasialle (ennuste sijalla 9). M
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/005862 | Pirfenidone Viatris | – | Idiopaattinen keuhkofibroosi; keuhkosairaudet; hengitystiesairaudet (peruutettu) |
-| EMEA/H/C/002154 | Esbriet | – | Idiopaattinen keuhkofibroosi; keuhkosairaudet; hengitystiesairaudet (peruutettu) |
-| EMEA/H/C/005873 | Pirfenidone axunio (aiemmin Pirfenidone AET) | – | Idiopaattinen keuhkofibroosi (peruutettu) |
+| EMEA/H/C/005862 | Pirfenidone Viatris | – | Idiopaattinen keuhkofibroosi; keuhkosairaudet; hengitystiesairaudet (voimassa) |
+| EMEA/H/C/002154 | Esbriet | – | Idiopaattinen keuhkofibroosi; keuhkosairaudet; hengitystiesairaudet (voimassa) |
+| EMEA/H/C/005873 | Pirfenidone axunio (aiemmin Pirfenidone AET) | – | Idiopaattinen keuhkofibroosi (voimassa) |
+
+<!-- review:begin fi-row-20261112-pirfenidone-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/005862 / Pirfenidone Viatris / – / Idiopaattinen keuhkofibroosi; keuhkosairaudet; hengitystiesairaudet (peruutettu); EMEA/H/C/002154 / Esbriet / – / Idiopaattinen keuhkofibroosi; keuhkosairaudet; hengitystiesairaudet (peruutettu); EMEA/H/C/005873 / Pirfenidone axunio (aiemmin Pirfenidone AET) / – / Idiopaattinen keuhkofibroosi (peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Pirfenidone Viatris (EMEA/H/C/005862), Esbriet (EMEA/H/C/002154), Pirfenidone axunio (EMEA/H/C/005873) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-pirfenidone-1 -->
 
 ---
 
@@ -163,6 +169,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | 2026-11-06 | Poistettu: ”Kaikki kolme myyntilupaa on peruutettu, eikä voimassa olevia lupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi lääkkeellä ei ole voimassa olevaa myyntilupaa Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Myyntiluvan peruuntumisen syiden ja tämän vaikutuksen selvittäminen” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 3 myyntilupaa (Pirfenidone Viatris (EMEA/H/C/005862), Esbriet (EMEA/H/C/002154), Pirfenidone axunio (EMEA/H/C/005873)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

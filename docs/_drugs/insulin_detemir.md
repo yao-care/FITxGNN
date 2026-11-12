@@ -120,7 +120,13 @@ Tietoaineistossa on yli 30 tyypin 1 diabetekseen liittyvää tutkimusta. Alla on
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/000528 | Levemir (Novo Nordisk A/S) | – | Diabetes mellitus (tila: peruutettu) |
+| EMEA/H/C/000528 | Levemir (Novo Nordisk A/S) | – | Diabetes mellitus (tila: voimassa) |
+
+<!-- review:begin fi-row-20261112-insulin_detemir-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/000528 / Levemir (Novo Nordisk A/S) / – / Diabetes mellitus (tila: peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntilupa Levemir (EMEA/H/C/000528) on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-insulin_detemir-1 -->
 
 ---
 
@@ -167,6 +173,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | 2026-11-06 | Poistettu: ”ja Suomessa valmisteen myyntilupa on tällä hetkellä vain peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Huomattavaa on, että valmisteen myyntiluvan tila on "vain peruutettu"” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”ja Suomessa myyntilupa on vain peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: Levemir (EMEA/H/C/000528) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

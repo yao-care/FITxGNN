@@ -88,7 +88,13 @@ Yksikään julkaisu ei ole satunnaistettu kontrolloitu tutkimus metyylifenidaati
 
 | Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/005975 | Tuzulby | – | Tarkkaavaisuus- ja ylivilkkaushäiriö (ADHD) (tila: peruutettu) |
+| EMEA/H/C/005975 | Tuzulby | – | Tarkkaavaisuus- ja ylivilkkaushäiriö (ADHD) (tila: voimassa) |
+
+<!-- review:begin fi-row-20261112-methylphenidate-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/005975 / Tuzulby / – / Tarkkaavaisuus- ja ylivilkkaushäiriö (ADHD) (tila: peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntilupa Tuzulby (EMEA/H/C/005975) on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-methylphenidate-1 -->
 
 ## Turvallisuusnäkökohdat
 
@@ -131,6 +137,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: Tuzulby (EMEA/H/C/005975) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

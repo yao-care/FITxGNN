@@ -75,8 +75,14 @@ Muiden ennusteiden osalta: raloksifeeni muuttaa lipidiarvoja (laskee LDL-koleste
 | Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe | Tila |
 |---------|------|------|-----------|------|
 | EMEA/H/C/000185 | Optruma | – | Postmenopausaalinen osteoporoosi | Withdrawn |
-| EMEA/H/C/000184 | Evista | – | Postmenopausaalinen osteoporoosi | Peruutettu |
-| EMEA/H/C/001075 | Raloxifene Teva | – | Postmenopausaalinen osteoporoosi | Peruutettu |
+| EMEA/H/C/000184 | Evista | – | Postmenopausaalinen osteoporoosi | Voimassa |
+| EMEA/H/C/001075 | Raloxifene Teva | – | Postmenopausaalinen osteoporoosi | Voimassa |
+
+<!-- review:begin fi-row-20261112-raloxifene-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/000184 / Evista / – / Postmenopausaalinen osteoporoosi / Peruutettu; EMEA/H/C/001075 / Raloxifene Teva / – / Postmenopausaalinen osteoporoosi / Peruutettu” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Evista (EMEA/H/C/000184), Raloxifene Teva (EMEA/H/C/001075) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-raloxifene-1 -->
 
 ## Turvallisuusnäkökohdat
 
@@ -128,6 +134,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Suomessa kaikki myyntiluvat on peruutettu, ja t” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”kun voimassa olevia myyntilupia ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 2 myyntilupaa (Evista (EMEA/H/C/000184), Raloxifene Teva (EMEA/H/C/001075)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

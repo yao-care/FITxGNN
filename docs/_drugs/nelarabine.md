@@ -74,7 +74,13 @@ Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
 | Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/000752 | Atriance (Sandoz Pharmaceuticals d.d.), peruutettu | – | Prekursori-T-solulymfoblastinen leukemia-lymfooma |
+| EMEA/H/C/000752 | Atriance (Sandoz Pharmaceuticals d.d.), voimassa | – | Prekursori-T-solulymfoblastinen leukemia-lymfooma |
+
+<!-- review:begin fi-row-20261112-nelarabine-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/000752 / Atriance (Sandoz Pharmaceuticals d.d.), peruutettu / – / Prekursori-T-solulymfoblastinen leukemia-lymfooma” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntilupa Atriance (EMEA/H/C/000752) on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-nelarabine-1 -->
 
 ## Sytotoksisuus
 
@@ -132,6 +138,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa on vain peruutettu myyntilupa ja y” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: Atriance (EMEA/H/C/000752) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

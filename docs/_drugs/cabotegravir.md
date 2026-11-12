@@ -72,8 +72,14 @@ Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/005756 | Apretude | – | HIV-infektio (peruutettu) |
-| EMEA/H/C/004976 | Vocabria | – | HIV-infektio (peruutettu) |
+| EMEA/H/C/005756 | Apretude | – | HIV-infektio (voimassa) |
+| EMEA/H/C/004976 | Vocabria | – | HIV-infektio (voimassa) |
+
+<!-- review:begin fi-row-20261112-cabotegravir-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/005756 / Apretude / – / HIV-infektio (peruutettu); EMEA/H/C/004976 / Vocabria / – / HIV-infektio (peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Apretude (EMEA/H/C/005756), Vocabria (EMEA/H/C/004976) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-cabotegravir-1 -->
 
 Molempien valmisteiden myyntiluvanhaltija on ViiV Healthcare B.V.
 
@@ -118,6 +124,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kabotegraviirin kaikki Suomen myyntiluvat on peruutettu, joten valmiste ei ole tällä hetkellä markkinoilla” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 2 myyntilupaa (Apretude (EMEA/H/C/005756), Vocabria (EMEA/H/C/004976)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

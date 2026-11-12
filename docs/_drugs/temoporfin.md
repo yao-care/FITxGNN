@@ -89,7 +89,13 @@ Ensisijaiselle ennusteelle (nenänielun teratooma) ei löytynyt kirjallisuutta. 
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe | Tila |
 |---------|------|------|-----------|------|
-| EMEA/H/C/000318 | Foscan | – | Pään ja kaulan alueen kasvaimet; levyepiteelisyöpä | Peruutettu |
+| EMEA/H/C/000318 | Foscan | – | Pään ja kaulan alueen kasvaimet; levyepiteelisyöpä | Voimassa |
+
+<!-- review:begin fi-row-20261112-temoporfin-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/000318 / Foscan / – / Pään ja kaulan alueen kasvaimet; levyepiteelisyöpä / Peruutettu” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntilupa Foscan (EMEA/H/C/000318) on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-temoporfin-1 -->
 
 ---
 
@@ -147,6 +153,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi ainoa Suomessa tunnettu myyntilupa on peruutettu ja turvallisuustiedot puuttuvat” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Selvitystä temoporfiinin nykyisestä saatavuudesta Suomessa myyntiluvan peruutuksen jälkeen” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: Foscan (EMEA/H/C/000318) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

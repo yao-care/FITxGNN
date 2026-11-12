@@ -84,7 +84,13 @@ Scheien oireyhtymää koskevaa kirjallisuutta ei tällä hetkellä ole saatavill
 
 | Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/004438 | Mepsevii | – | Mukopolysakkaridoosi VII (tila: peruutettu) |
+| EMEA/H/C/004438 | Mepsevii | – | Mukopolysakkaridoosi VII (tila: voimassa) |
+
+<!-- review:begin fi-row-20261112-vestronidase_alfa-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/004438 / Mepsevii / – / Mukopolysakkaridoosi VII (tila: peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntilupa Mepsevii (EMEA/H/C/004438) on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-vestronidase_alfa-1 -->
 
 Lupa on voimassa; valmistaja on Ultragenyx Germany GmbH.
 
@@ -108,6 +114,18 @@ Ennuste perustuu pelkkään malliin: kliinisiä tutkimuksia tai julkaisuja Schei
 - Yksityiskohtaisia vaikutusmekanismitietoja
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden läpikäyntiä
 - Vertailua olemassa olevaan laronidaasihoitoon
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-12 | Taulukko: Mepsevii (EMEA/H/C/004438) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
 
 ## Vastuuvapauslauseke
 

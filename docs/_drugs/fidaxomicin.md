@@ -89,7 +89,13 @@ Ensisijaiselle ennusteelle (SSSS) ei ole saatavilla aiheeseen liittyvää kirjal
 
 | Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/002087 | Dificlir | – | Clostridium-infektiot (tila: peruutettu) |
+| EMEA/H/C/002087 | Dificlir | – | Clostridium-infektiot (tila: voimassa) |
+
+<!-- review:begin fi-row-20261112-fidaxomicin-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/002087 / Dificlir / – / Clostridium-infektiot (tila: peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntilupa Dificlir (EMEA/H/C/002087) on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-fidaxomicin-1 -->
 
 ## Turvallisuusnäkökohdat
 
@@ -132,6 +138,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomen myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: Dificlir (EMEA/H/C/002087) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

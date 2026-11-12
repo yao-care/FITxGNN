@@ -81,8 +81,14 @@ Tälle käyttöaiheelle ei ole tällä hetkellä rekisteröityjä kliinisiä tut
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/000480 | Xagrid (peruutettu) | – | Essentiaalinen trombosytemia |
-| EMEA/H/C/004585 | Anagrelide Viatris, aiemmin Anagrelide Mylan (peruutettu) | – | Essentiaalinen trombosytemia |
+| EMEA/H/C/000480 | Xagrid (voimassa) | – | Essentiaalinen trombosytemia |
+| EMEA/H/C/004585 | Anagrelide Viatris, aiemmin Anagrelide Mylan (voimassa) | – | Essentiaalinen trombosytemia |
+
+<!-- review:begin fi-row-20261112-anagrelide-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/000480 / Xagrid (peruutettu) / – / Essentiaalinen trombosytemia; EMEA/H/C/004585 / Anagrelide Viatris, aiemmin Anagrelide Mylan (peruutettu) / – / Essentiaalinen trombosytemia” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Xagrid (EMEA/H/C/000480), Anagrelide Viatris, aiemmin Anagrelide Mylan (EMEA/H/C/004585) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-anagrelide-1 -->
 
 ## Sytotoksisuus
 
@@ -136,6 +142,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi lääkkeen kaikki myyntiluvat Suomessa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-12 | Poistettu: ”peruutettujen myyntilupien syistä” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 2 myyntilupaa (Xagrid (EMEA/H/C/000480), Anagrelide Viatris, aiemmin Anagrelide Mylan (EMEA/H/C/004585)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

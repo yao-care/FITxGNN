@@ -96,7 +96,13 @@ Tutkimukset kohdistuvat suoraan myeloiseen leukemiaan, erityisesti AML:ään. Va
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/003725 | Farydak (peruutettu) | – | Multippeli myelooma |
+| EMEA/H/C/003725 | Farydak (voimassa) | – | Multippeli myelooma |
+
+<!-- review:begin fi-row-20261112-panobinostat-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/003725 / Farydak (peruutettu) / – / Multippeli myelooma” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntilupa Farydak (EMEA/H/C/003725) on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-panobinostat-1 -->
 
 ## Solunsalpaajan ominaisuudet
 
@@ -138,6 +144,18 @@ Kohtalaisia (Moderate) ovat mm. famotidiini, loperamidi, aprepitantti, deksameta
 - Tarkempaa vaikutusmekanismia koskevien tietojen täydentämistä
 - Yhteisvaikutusten, erityisesti QT-aikaan vaikuttavien lääkkeiden, riskinarviointia
 - Potilasryhmäkohtaista turvallisuusseurantasuunnitelmaa
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-12 | Taulukko: Farydak (EMEA/H/C/003725) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
 
 ## Vastuuvapauslauseke
 

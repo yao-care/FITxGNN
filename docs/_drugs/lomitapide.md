@@ -102,7 +102,13 @@ Kaikki tutkimukset ovat yhden haaran tai avoimia, eikä satunnaistettuja vertail
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/002578 | Lojuxta | – | Hyperkolesterolemia (tila: peruutettu) |
+| EMEA/H/C/002578 | Lojuxta | – | Hyperkolesterolemia (tila: voimassa) |
+
+<!-- review:begin fi-row-20261112-lomitapide-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/002578 / Lojuxta / – / Hyperkolesterolemia (tila: peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntilupa Lojuxta (EMEA/H/C/002578) on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-lomitapide-1 -->
 
 ## Turvallisuusnäkökohdat
 
@@ -140,6 +146,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Ainoa myyntilupa on peruutettu, joten valmisteen saatavuus Suomessa tulee varmistaa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”koska ainoa myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: Lojuxta (EMEA/H/C/002578) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

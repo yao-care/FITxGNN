@@ -80,7 +80,13 @@ Ennuste liittyy pehmytkudossarkoomiin, joissa regorafenibista on satunnaistettua
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/002573 | Stivarga (Bayer Pharma AG) | Ei tietoa | Kolorektaalisyöpä (tila: peruutettu) |
+| EMEA/H/C/002573 | Stivarga (Bayer Pharma AG) | Ei tietoa | Kolorektaalisyöpä (tila: voimassa) |
+
+<!-- review:begin fi-row-20261112-regorafenib-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/002573 / Stivarga (Bayer Pharma AG) / Ei tietoa / Kolorektaalisyöpä (tila: peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntilupa Stivarga (EMEA/H/C/002573) on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-regorafenib-1 -->
 
 ## Sytotoksisuus
 
@@ -120,6 +126,18 @@ Näytön taso on L2: satunnaistettuja lumekontrolloituja faasin 2 tutkimuksia on
 - Vaikutusmekanismia koskevan tiedon täydentäminen
 - Liposarkooman alatyyppikohtainen analyysi (esim. erilaistunut/erilaistumaton) ja mahdolliset yhdistelmähoitostrategiat
 - Turvallisuuden seurantasuunnitelma, erityisesti verenvuotoriskiä lisäävien lääkkeiden osalta
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-12 | Taulukko: Stivarga (EMEA/H/C/002573) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
 
 ## Vastuuvapauslauseke
 

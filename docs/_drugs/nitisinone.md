@@ -98,8 +98,14 @@ Ensisijaiselle ennusteelle (munuaisten tubulusasidoosi) ei ole saatavilla kirjal
 
 | Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/004582 | Nityr (peruutettu) | – | Tyrosinemiat |
-| EMEA/H/C/000555 | Orfadin (peruutettu) | – | Tyrosinemiat |
+| EMEA/H/C/004582 | Nityr (voimassa) | – | Tyrosinemiat |
+| EMEA/H/C/000555 | Orfadin (voimassa) | – | Tyrosinemiat |
+
+<!-- review:begin fi-row-20261112-nitisinone-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/004582 / Nityr (peruutettu) / – / Tyrosinemiat; EMEA/H/C/000555 / Orfadin (peruutettu) / – / Tyrosinemiat” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Nityr (EMEA/H/C/004582), Orfadin (EMEA/H/C/000555) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-nitisinone-1 -->
 
 ---
 
@@ -148,6 +154,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa ei ole voimassa olevia myyntilupia ja t” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”koska kaikki myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 2 myyntilupaa (Nityr (EMEA/H/C/004582), Orfadin (EMEA/H/C/000555)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

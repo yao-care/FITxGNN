@@ -70,7 +70,13 @@ Aiheesta ei ole saatavilla kirjallisuutta.
 
 | Lupanumero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/004808 | Recarbrio | – | Gram-negatiiviset bakteeri-infektiot (myyntilupa peruutettu) |
+| EMEA/H/C/004808 | Recarbrio | – | Gram-negatiiviset bakteeri-infektiot (myyntilupa voimassa) |
+
+<!-- review:begin fi-row-20261112-imipenem-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/004808 / Recarbrio / – / Gram-negatiiviset bakteeri-infektiot (myyntilupa peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntilupa Recarbrio (EMEA/H/C/004808) on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-imipenem-1 -->
 
 Paikallisten tietojen mukaan voimassa on yksi myyntilupa, ja valmiste on markkinoilla. Tämän myyntiluvan perusteella ei voi päätellä yksittäisen vaikuttavan aineen asemaa.
 
@@ -93,6 +99,18 @@ Varoituksia ja vasta-aiheita koskevat valmisteyhteenvedon tiedot eivät ole saat
 - Perusteltua biologista hypoteesia siitä, miten imipenem voisi vaikuttaa systeemisen skleroosin patologiaan.
 - Prekliinistä näyttöä asiaan sopivissa malleissa ennen kliinisiä tutkimuksia.
 - Valmisteyhteenvedon turvallisuustietojen tarkistamista ja pitkäaikaisen laskimonsisäisen käytön riskien arviointia kroonisessa sairaudessa.
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-12 | Taulukko: Recarbrio (EMEA/H/C/004808) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
 
 ## Vastuuvapauslauseke
 

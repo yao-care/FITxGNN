@@ -70,8 +70,14 @@ Tällä hetkellä aiheeseen liittyvää kirjallisuutta ei ole saatavilla.
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/000109 | Rilutek (peruutettu) | – | Amyotrofinen lateraaliskleroosi |
-| EMEA/H/C/002622 | Riluzole Zentiva (peruutettu) | – | Amyotrofinen lateraaliskleroosi |
+| EMEA/H/C/000109 | Rilutek (voimassa) | – | Amyotrofinen lateraaliskleroosi |
+| EMEA/H/C/002622 | Riluzole Zentiva (voimassa) | – | Amyotrofinen lateraaliskleroosi |
+
+<!-- review:begin fi-row-20261112-riluzole-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/000109 / Rilutek (peruutettu) / – / Amyotrofinen lateraaliskleroosi; EMEA/H/C/002622 / Riluzole Zentiva (peruutettu) / – / Amyotrofinen lateraaliskleroosi” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Rilutek (EMEA/H/C/000109), Riluzole Zentiva (EMEA/H/C/002622) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-riluzole-1 -->
 
 Molemmat myyntiluvat ovat voimassa.
 
@@ -93,6 +99,18 @@ Ennusteelle ei ole kliinistä eikä kirjallista tukea, ja mekanistinen yhteys on
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden selvittämistä
 - Prekliinistä tai kliinistä näyttöä, joka suoraan tutkii riluzolia tässä sairaudessa
 - Arviota siitä, onko oireenmukaiselle hoidolle (esim. epileptinen yliärtyvyys) perusteltu kliininen tavoite
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-12 | Taulukko: 2 myyntilupaa (Rilutek (EMEA/H/C/000109), Riluzole Zentiva (EMEA/H/C/002622)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
 
 ## Vastuuvapauslauseke
 

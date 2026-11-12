@@ -93,8 +93,14 @@ Progesteronireseptoripositiivinen (PR+) rintasyöpä on reseptorien perusteella 
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/002547 | Perjeta (peruutettu) | – | Rintasyöpä |
-| EMEA/H/C/005386 | Phesgo (peruutettu) | – | Rintasyöpä |
+| EMEA/H/C/002547 | Perjeta (voimassa) | – | Rintasyöpä |
+| EMEA/H/C/005386 | Phesgo (voimassa) | – | Rintasyöpä |
+
+<!-- review:begin fi-row-20261112-pertuzumab-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/002547 / Perjeta (peruutettu) / – / Rintasyöpä; EMEA/H/C/005386 / Phesgo (peruutettu) / – / Rintasyöpä” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Perjeta (EMEA/H/C/002547), Phesgo (EMEA/H/C/005386) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-pertuzumab-1 -->
 
 ---
 
@@ -146,6 +152,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Markkinatilanteen selvitys: Suomessa on vain peruutettuja myyntilupia” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 2 myyntilupaa (Perjeta (EMEA/H/C/002547), Phesgo (EMEA/H/C/005386)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

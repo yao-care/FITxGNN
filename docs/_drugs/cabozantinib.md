@@ -107,8 +107,14 @@ Luokittelemattoman munuaissolusyövän kohdalla perustelu on vahvempi: MET- ja V
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Käyttöaihe | Tila |
 |---------|------|------|-----------|------|
-| EMEA/H/C/004163 | Cabometyx | – | Munuaissolusyöpä, maksasolusyöpä | Peruutettu |
-| EMEA/H/C/002640 | Cometriq | – | Kilpirauhasen kasvaimet | Peruutettu |
+| EMEA/H/C/004163 | Cabometyx | – | Munuaissolusyöpä, maksasolusyöpä | Voimassa |
+| EMEA/H/C/002640 | Cometriq | – | Kilpirauhasen kasvaimet | Voimassa |
+
+<!-- review:begin fi-row-20261112-cabozantinib-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/004163 / Cabometyx / – / Munuaissolusyöpä, maksasolusyöpä / Peruutettu; EMEA/H/C/002640 / Cometriq / – / Kilpirauhasen kasvaimet / Peruutettu” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Cabometyx (EMEA/H/C/004163), Cometriq (EMEA/H/C/002640) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-cabozantinib-1 -->
 
 ## Sytotoksisuus
 
@@ -176,6 +182,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Molemmat myyntiluvat on peruutettu, eikä voimassa olevia valmisteita ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Suomen myyntilupien peruutuksen syy ja n” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 2 myyntilupaa (Cabometyx (EMEA/H/C/004163), Cometriq (EMEA/H/C/002640)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

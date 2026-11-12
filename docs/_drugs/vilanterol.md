@@ -110,8 +110,14 @@ Lisäksi aineistossa on useita astmatutkimuksia (esim. NCT01134042, NCT01686633,
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/002673 | Relvar Ellipta | Ei tiedossa | Krooninen keuhkoahtaumatauti (peruutettu) |
-| EMEA/H/C/003754 | Laventair Ellipta (aiemmin Laventair) | Ei tiedossa | Krooninen keuhkoahtaumatauti (peruutettu) |
+| EMEA/H/C/002673 | Relvar Ellipta | Ei tiedossa | Krooninen keuhkoahtaumatauti (voimassa) |
+| EMEA/H/C/003754 | Laventair Ellipta (aiemmin Laventair) | Ei tiedossa | Krooninen keuhkoahtaumatauti (voimassa) |
+
+<!-- review:begin fi-row-20261112-vilanterol-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/002673 / Relvar Ellipta / Ei tiedossa / Krooninen keuhkoahtaumatauti (peruutettu); EMEA/H/C/003754 / Laventair Ellipta (aiemmin Laventair) / Ei tiedossa / Krooninen keuhkoahtaumatauti (peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Relvar Ellipta (EMEA/H/C/002673), Laventair Ellipta (EMEA/H/C/003754) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-vilanterol-1 -->
 
 ---
 
@@ -162,6 +168,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Molemmat myyntiluvat on peruutettu, eikä voimassa olevia lupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”miksi molemmat suomalaiset myyntiluvat on peruutettu ja” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 2 myyntilupaa (Relvar Ellipta (EMEA/H/C/002673), Laventair Ellipta (EMEA/H/C/003754)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

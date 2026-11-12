@@ -84,9 +84,15 @@ Huomionarvoista: muiden listalla olevien ennusteiden yhteydessä haetut julkaisu
 
 | Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/000791 | Soliris | – | Paroksysmaalinen hemoglobinuria (peruutettu) |
-| EMEA/H/C/005652 | Bekemv | – | Paroksysmaalinen hemoglobinuria (peruutettu) |
-| EMEA/H/C/006036 | Epysqli | – | Paroksysmaalinen hemoglobinuria (peruutettu) |
+| EMEA/H/C/000791 | Soliris | – | Paroksysmaalinen hemoglobinuria (voimassa) |
+| EMEA/H/C/005652 | Bekemv | – | Paroksysmaalinen hemoglobinuria (voimassa) |
+| EMEA/H/C/006036 | Epysqli | – | Paroksysmaalinen hemoglobinuria (voimassa) |
+
+<!-- review:begin fi-row-20261112-eculizumab-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/000791 / Soliris / – / Paroksysmaalinen hemoglobinuria (peruutettu); EMEA/H/C/005652 / Bekemv / – / Paroksysmaalinen hemoglobinuria (peruutettu); EMEA/H/C/006036 / Epysqli / – / Paroksysmaalinen hemoglobinuria (peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Soliris (EMEA/H/C/000791), Bekemv (EMEA/H/C/005652), Epysqli (EMEA/H/C/006036) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-eculizumab-1 -->
 
 ---
 
@@ -127,6 +133,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Huomioitava, että kaikki Suomen myyntiluvat ovat peruutettuja, mikä vaikuttaa saatavuuteen” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 3 myyntilupaa (Soliris (EMEA/H/C/000791), Bekemv (EMEA/H/C/005652), Epysqli (EMEA/H/C/006036)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

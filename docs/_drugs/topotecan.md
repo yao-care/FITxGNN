@@ -99,9 +99,15 @@ Kliininen tuki on kuitenkin heikko. Vuoden 1997 jatkuvan infuusion tutkimuksessa
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/002282 | Potactasol (peruutettu) | – | Kohdunkaulan syöpä; pienisoluinen keuhkosyöpä |
-| EMEA/H/C/001192 | Topotecan Hospira (peruutettu) | – | Kohdunkaulan syöpä; pienisoluinen keuhkosyöpä |
-| EMEA/H/C/000123 | Hycamtin (peruutettu) | – | Munasarjasyöpä; kohdunkaulan syöpä; pienisoluinen keuhkosyöpä |
+| EMEA/H/C/002282 | Potactasol (voimassa) | – | Kohdunkaulan syöpä; pienisoluinen keuhkosyöpä |
+| EMEA/H/C/001192 | Topotecan Hospira (voimassa) | – | Kohdunkaulan syöpä; pienisoluinen keuhkosyöpä |
+| EMEA/H/C/000123 | Hycamtin (voimassa) | – | Munasarjasyöpä; kohdunkaulan syöpä; pienisoluinen keuhkosyöpä |
+
+<!-- review:begin fi-row-20261112-topotecan-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/002282 / Potactasol (peruutettu) / – / Kohdunkaulan syöpä; pienisoluinen keuhkosyöpä; EMEA/H/C/001192 / Topotecan Hospira (peruutettu) / – / Kohdunkaulan syöpä; pienisoluinen keuhkosyöpä; EMEA/H/C/000123 / Hycamtin (peruutettu) / – / Munasarjasyöpä; kohdunkaulan syöpä; pienisoluinen keuhkosyöpä” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Potactasol (EMEA/H/C/002282), Topotecan Hospira (EMEA/H/C/001192), Hycamtin (EMEA/H/C/000123) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-topotecan-1 -->
 
 ---
 
@@ -173,6 +179,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa ei ole voimassa olevia myyntilupia” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”(kaikki luvat peruutettu)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 3 myyntilupaa (Potactasol (EMEA/H/C/002282), Topotecan Hospira (EMEA/H/C/001192), Hycamtin (EMEA/H/C/000123)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

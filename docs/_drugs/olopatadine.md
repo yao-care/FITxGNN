@@ -82,7 +82,13 @@ Ei tällä hetkellä saatavilla aiheeseen liittyvää kirjallisuutta.
 
 | Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/000407 | Opatanol (Novartis Europharm Limited) | – | Allerginen sidekalvotulehdus (peruutettu) |
+| EMEA/H/C/000407 | Opatanol (Novartis Europharm Limited) | – | Allerginen sidekalvotulehdus (voimassa) |
+
+<!-- review:begin fi-row-20261112-olopatadine-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/000407 / Opatanol (Novartis Europharm Limited) / – / Allerginen sidekalvotulehdus (peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntilupa Opatanol (EMEA/H/C/000407) on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-olopatadine-1 -->
 
 ---
 
@@ -130,6 +136,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa ei ole voimassa olevaa myyntilupaa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Myyntilupatilanteen selvitys, sillä ainoa tunnettu myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: Opatanol (EMEA/H/C/000407) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

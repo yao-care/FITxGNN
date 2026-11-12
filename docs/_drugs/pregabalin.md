@@ -95,11 +95,17 @@ Taulukossa on 5 niistä.
 
 | Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Myyntilupaan hyväksytty käyttöaihe | Tila |
 |---------|------|------|-----------|------|
-| EMEA/H/C/000546 | Lyrica | Ei ilmoitettu | Epilepsia, ahdistuneisuushäiriöt, hermosärky | Peruutettu |
-| EMEA/H/C/003900 | Pregabalin Zentiva | Ei ilmoitettu | Ahdistuneisuushäiriöt, epilepsia | Peruutettu |
-| EMEA/H/C/003880 | Pregabalin Viatris Pharma (aiemmin Pregabalin Pfizer) | Ei ilmoitettu | Ahdistuneisuushäiriöt, epilepsia | Peruutettu |
-| EMEA/H/C/004078 | Pregabalin Viatris (aiemmin Pregabalin Mylan) | Ei ilmoitettu | Ahdistuneisuushäiriöt, epilepsia | Peruutettu |
-| EMEA/H/C/004010 | Pregabalin Sandoz | Ei ilmoitettu | Ahdistuneisuushäiriöt, hermosärky, epilepsia | Peruutettu |
+| EMEA/H/C/000546 | Lyrica | Ei ilmoitettu | Epilepsia, ahdistuneisuushäiriöt, hermosärky | Voimassa |
+| EMEA/H/C/003900 | Pregabalin Zentiva | Ei ilmoitettu | Ahdistuneisuushäiriöt, epilepsia | Voimassa |
+| EMEA/H/C/003880 | Pregabalin Viatris Pharma (aiemmin Pregabalin Pfizer) | Ei ilmoitettu | Ahdistuneisuushäiriöt, epilepsia | Voimassa |
+| EMEA/H/C/004078 | Pregabalin Viatris (aiemmin Pregabalin Mylan) | Ei ilmoitettu | Ahdistuneisuushäiriöt, epilepsia | Voimassa |
+| EMEA/H/C/004010 | Pregabalin Sandoz | Ei ilmoitettu | Ahdistuneisuushäiriöt, hermosärky, epilepsia | Voimassa |
+
+<!-- review:begin fi-row-20261112-pregabalin-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/000546 / Lyrica / Ei ilmoitettu / Epilepsia, ahdistuneisuushäiriöt, hermosärky / Peruutettu; EMEA/H/C/003900 / Pregabalin Zentiva / Ei ilmoitettu / Ahdistuneisuushäiriöt, epilepsia / Peruutettu; EMEA/H/C/003880 / Pregabalin Viatris Pharma (aiemmin Pregabalin Pfizer) / Ei ilmoitettu / Ahdistuneisuushäiriöt, epilepsia / Peruutettu; EMEA/H/C/004078 / Pregabalin Viatris (aiemmin Pregabalin Mylan) / Ei ilmoitettu / Ahdistuneisuushäiriöt, epilepsia / Peruutettu; EMEA/H/C/004010 / Pregabalin Sandoz / Ei ilmoitettu / Ahdistuneisuushäiriöt, hermosärky, epilepsia / Peruutettu” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Lyrica (EMEA/H/C/000546), Pregabalin Zentiva (EMEA/H/C/003900), Pregabalin Viatris Pharma (EMEA/H/C/003880), Pregabalin Viatris (EMEA/H/C/004078), Pregabalin Sandoz (EMEA/H/C/004010) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-pregabalin-1 -->
 
 ---
 
@@ -163,6 +169,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | 2026-11-06 | Poistettu: ”Kaikki 6 myyntilupaa ovat keskitettyjä EU-myyntilupia, ja ne on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”koska keskitetyt myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 5 myyntilupaa (Lyrica (EMEA/H/C/000546), Pregabalin Zentiva (EMEA/H/C/003900), Pregabalin Viatris Pharma (EMEA/H/C/003880), Pregabalin Viatris (EMEA/H/C/004078), Pregabalin Sandoz (EMEA/H/C/004010)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

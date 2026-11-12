@@ -97,7 +97,13 @@ Alla on valikoima merkityksellisimmistä julkaisuista (ensisijaisesti ei-ihmispr
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/000860 | Isentress (peruutettu) | – | HIV-infektiot |
+| EMEA/H/C/000860 | Isentress (voimassa) | – | HIV-infektiot |
+
+<!-- review:begin fi-row-20261112-raltegravir-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/000860 / Isentress (peruutettu) / – / HIV-infektiot” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntilupa Isentress (EMEA/H/C/000860) on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-raltegravir-1 -->
 
 ---
 
@@ -147,6 +153,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lääkkeen myyntilupa Suomessa on peruutettu, ja kaksi muuta ennustetta (FIV ja neurokehityshäiriö) perustuvat pelkkään mallipohjaiseen ennust” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Myyntiluvan peruuntumisen syyn selvittäminen ja saatavuuden arviointi Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: Isentress (EMEA/H/C/000860) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

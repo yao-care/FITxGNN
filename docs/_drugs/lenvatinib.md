@@ -78,8 +78,14 @@ Eribuliini on mikrotubulusten estäjä, ja prekliinisissä tutkimuksissa sillä 
 
 | Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/003727 | Lenvima | – | Kilpirauhasen kasvaimet (peruutettu) |
-| EMEA/H/C/004224 | Kisplyx | – | Munuaissolusyöpä (peruutettu) |
+| EMEA/H/C/003727 | Lenvima | – | Kilpirauhasen kasvaimet (voimassa) |
+| EMEA/H/C/004224 | Kisplyx | – | Munuaissolusyöpä (voimassa) |
+
+<!-- review:begin fi-row-20261112-lenvatinib-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/003727 / Lenvima / – / Kilpirauhasen kasvaimet (peruutettu); EMEA/H/C/004224 / Kisplyx / – / Munuaissolusyöpä (peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Lenvima (EMEA/H/C/003727), Kisplyx (EMEA/H/C/004224) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-lenvatinib-1 -->
 
 ## Kemoterapian tyyppiset ominaisuudet (sytotoksisuus)
 
@@ -113,6 +119,18 @@ Ennusteen tueksi on yksi yhden haaran vaiheen Ib/II tutkimus (30 potilasta) ilma
 - Valmisteyhteenvedon turvallisuustietojen tarkistus ja hoidon riski–hyötyarvio kohdepotilasryhmässä
 - Yhteisvaikutusten arviointi, erityisesti QT-aikaa pidentävien lääkkeiden kanssa
 - Yksityiskohtaiset vaikutusmekanismitiedot
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-12 | Taulukko: 2 myyntilupaa (Lenvima (EMEA/H/C/003727), Kisplyx (EMEA/H/C/004224)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
 
 ## Vastuuvapauslauseke
 

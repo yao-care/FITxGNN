@@ -111,10 +111,16 @@ Kliiniset signaalit ovat kuitenkin ristiriitaisia. Pilottitutkimuksessa virusmä
 
 | Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/002798 | Sovaldi | – | Krooninen C-hepatiitti (peruutettu) |
-| EMEA/H/C/003850 | Harvoni | – | Krooninen C-hepatiitti (peruutettu) |
-| EMEA/H/C/004210 | Epclusa | – | Krooninen C-hepatiitti (peruutettu) |
-| EMEA/H/C/004350 | Vosevi | – | Krooninen C-hepatiitti (peruutettu) |
+| EMEA/H/C/002798 | Sovaldi | – | Krooninen C-hepatiitti (voimassa) |
+| EMEA/H/C/003850 | Harvoni | – | Krooninen C-hepatiitti (voimassa) |
+| EMEA/H/C/004210 | Epclusa | – | Krooninen C-hepatiitti (voimassa) |
+| EMEA/H/C/004350 | Vosevi | – | Krooninen C-hepatiitti (voimassa) |
+
+<!-- review:begin fi-row-20261112-sofosbuvir-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/002798 / Sovaldi / – / Krooninen C-hepatiitti (peruutettu); EMEA/H/C/003850 / Harvoni / – / Krooninen C-hepatiitti (peruutettu); EMEA/H/C/004210 / Epclusa / – / Krooninen C-hepatiitti (peruutettu); EMEA/H/C/004350 / Vosevi / – / Krooninen C-hepatiitti (peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Sovaldi (EMEA/H/C/002798), Harvoni (EMEA/H/C/003850), Epclusa (EMEA/H/C/004210), Vosevi (EMEA/H/C/004350) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-sofosbuvir-1 -->
 
 ---
 
@@ -161,6 +167,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Sofosbuviirilla ei ole tällä hetkellä voimassa olevaa myyntilupaa Suomessa, mikä vaikeuttaa käyttöönottoa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 4 myyntilupaa (Sovaldi (EMEA/H/C/002798), Harvoni (EMEA/H/C/003850), Epclusa (EMEA/H/C/004210), Vosevi (EMEA/H/C/004350)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

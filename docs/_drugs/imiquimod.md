@@ -96,8 +96,14 @@ Ennusteen piirissä on myös useita muita kohteita, joista suurimmalla osalla ei
 
 | Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/002387 | Zyclara | – | Keratoosi, aktiininen keratoosi (peruutettu) |
-| EMEA/H/C/000179 | Aldara | – | Kondyloomat, keratoosi, aktiininen keratoosi, tyvisolusyöpä (peruutettu) |
+| EMEA/H/C/002387 | Zyclara | – | Keratoosi, aktiininen keratoosi (voimassa) |
+| EMEA/H/C/000179 | Aldara | – | Kondyloomat, keratoosi, aktiininen keratoosi, tyvisolusyöpä (voimassa) |
+
+<!-- review:begin fi-row-20261112-imiquimod-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/002387 / Zyclara / – / Keratoosi, aktiininen keratoosi (peruutettu); EMEA/H/C/000179 / Aldara / – / Kondyloomat, keratoosi, aktiininen keratoosi, tyvisolusyöpä (peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Zyclara (EMEA/H/C/002387), Aldara (EMEA/H/C/000179) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-imiquimod-1 -->
 
 ---
 
@@ -160,6 +166,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Molemmat myyntiluvat ovat peruutettuja, joten voimassa olevaa myyntilupaa Suomessa ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”(kaikki luvat peruutettu)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 2 myyntilupaa (Zyclara (EMEA/H/C/002387), Aldara (EMEA/H/C/000179)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

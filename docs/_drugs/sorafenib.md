@@ -79,7 +79,13 @@ Mekanistinen perustelu on kuitenkin heikko. Kliininen vaste sarkoomissa riippuu 
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/000690 | Nexavar (peruutettu) | – | Maksasolusyöpä; munuaissolusyöpä |
+| EMEA/H/C/000690 | Nexavar (voimassa) | – | Maksasolusyöpä; munuaissolusyöpä |
+
+<!-- review:begin fi-row-20261112-sorafenib-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/000690 / Nexavar (peruutettu) / – / Maksasolusyöpä; munuaissolusyöpä” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntilupa Nexavar (EMEA/H/C/000690) on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-sorafenib-1 -->
 
 ## Sytotoksisuus
 
@@ -107,6 +113,18 @@ Mekanistinen perustelu on kuitenkin heikko. Kliininen vaste sarkoomissa riippuu 
 - Liposarkoomaspesifisiä alaryhmäanalyysejä SWOG S0505 -tutkimuksesta tai uusi liposarkoomaan rajattu tutkimus
 - Tarkempi mekanismitieto (MOA) ja valmisteyhteenvedon turvallisuustiedot
 - Turvallisuuden seurantasuunnitelma, erityisesti verenpaineen, maksan ja ihoreaktioiden osalta
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-12 | Taulukko: Nexavar (EMEA/H/C/000690) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
 
 ## Vastuuvapauslauseke
 

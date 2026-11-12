@@ -98,7 +98,13 @@ Väliseinäinfarktin osalta löytyneet julkaisut ovat vain epäsuoria: keuhkoemb
 
 | Myyntilupanumero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/000306 | Metalyse | – | Sydäninfarkti (tila: peruutettu) |
+| EMEA/H/C/000306 | Metalyse | – | Sydäninfarkti (tila: voimassa) |
+
+<!-- review:begin fi-row-20261112-tenecteplase-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/000306 / Metalyse / – / Sydäninfarkti (tila: peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntilupa Metalyse (EMEA/H/C/000306) on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-tenecteplase-1 -->
 
 ---
 
@@ -149,6 +155,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi ainoa Suomen myyntilupa on peruutettu, ja turvallisuustiedot puuttuvat” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Tarkennus myyntiluvan tilasta Suomessa (peruutuksen syy ja mahdolliset muut tenekteplaasivalmisteet)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: Metalyse (EMEA/H/C/000306) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

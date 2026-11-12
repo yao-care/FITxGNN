@@ -21,7 +21,8 @@ C = _json.loads(r"""{
  "DESC_LEVEL_FMT": "näytön taso {lv}",
  "NA_DESC": "vain tunnetut käytöt",
  "HEADER_RULE_NOTE": "2026-11-12 實測：有 Quick Overview 等級的頁，頁首等於第一個等級（427 頁）；另 4 頁是頁首 N/A、沒有預測的頁（格內只寫說明），不重算",
- "MARKET_RE": "[Mm]arkkina",
+ "MARKET_RE": "[Mm]arkkin|Myyntilu|Myyntitiedot",
+ "MARKET_RE_NOTE": "2026-11-12：市場段落標題變體（Tiedot Suomen markkinoilta／markkinoista、Myyntiluvat／Myyntilupatiedot／Myyntitiedot Suomessa）原本只認 markkina，這些段落的表格列與號碼歸屬都漏驗",
  "ID_RE": "EMEA/H/C/\\d{4,6}(?:/X/\\d+)?",
  "PROSE_ID_RE": "EMEA/H/C/\\d{4,6}",
  "ORIGINAL_LABELS": [

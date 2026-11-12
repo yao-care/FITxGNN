@@ -70,8 +70,14 @@ Tähän ennusteeseen liittyvää kirjallisuutta ei ole tällä hetkellä saatavi
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/001140 | Ozurdex (peruutettu) | – | Makulaödeema, uveiitti |
-| EMEA/H/C/004071 | Neofordex (peruutettu) | – | Multippeli myelooma |
+| EMEA/H/C/001140 | Ozurdex (voimassa) | – | Makulaödeema, uveiitti |
+| EMEA/H/C/004071 | Neofordex (voimassa) | – | Multippeli myelooma |
+
+<!-- review:begin fi-row-20261112-dexamethasone-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/001140 / Ozurdex (peruutettu) / – / Makulaödeema, uveiitti; EMEA/H/C/004071 / Neofordex (peruutettu) / – / Multippeli myelooma” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Ozurdex (EMEA/H/C/001140), Neofordex (EMEA/H/C/004071) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-dexamethasone-1 -->
 
 ## Sytotoksisuus
 
@@ -105,6 +111,18 @@ Ennuste perustuu ainoastaan laskennalliseen malliin (näytön taso L5), eikä se
 - Vaikutusmekanismia koskevien tietojen täydentäminen
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden läpikäynti
 - Selvitys sopivasta antoreitistä (esim. paikallinen tai intralesionaalinen) ja sen soveltuvuudesta
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-12 | Taulukko: 2 myyntilupaa (Ozurdex (EMEA/H/C/001140), Neofordex (EMEA/H/C/004071)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
 
 ## Vastuuvapauslauseke
 

@@ -90,11 +90,17 @@ Kumpikaan julkaisu ei tutki flutikasonifuroaattia ihottuman hoidossa.
 
 | Myyntilupanumero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/000770 | Avamys | – | Kausiluonteinen ja ympärivuotinen allerginen nuha (peruutettu) |
-| EMEA/H/C/002673 | Relvar Ellipta | – | Keuhkoahtaumatauti (peruutettu) |
-| EMEA/H/C/002745 | Revinty Ellipta | – | Astma (peruutettu) |
-| EMEA/H/C/004363 | Trelegy Ellipta | – | Keuhkoahtaumatauti (peruutettu) |
-| EMEA/H/C/004781 | Elebrato Ellipta | – | Keuhkoahtaumatauti (peruutettu) |
+| EMEA/H/C/000770 | Avamys | – | Kausiluonteinen ja ympärivuotinen allerginen nuha (voimassa) |
+| EMEA/H/C/002673 | Relvar Ellipta | – | Keuhkoahtaumatauti (voimassa) |
+| EMEA/H/C/002745 | Revinty Ellipta | – | Astma (voimassa) |
+| EMEA/H/C/004363 | Trelegy Ellipta | – | Keuhkoahtaumatauti (voimassa) |
+| EMEA/H/C/004781 | Elebrato Ellipta | – | Keuhkoahtaumatauti (voimassa) |
+
+<!-- review:begin fi-row-20261112-fluticasone_furoate-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/000770 / Avamys / – / Kausiluonteinen ja ympärivuotinen allerginen nuha (peruutettu); EMEA/H/C/002673 / Relvar Ellipta / – / Keuhkoahtaumatauti (peruutettu); EMEA/H/C/002745 / Revinty Ellipta / – / Astma (peruutettu); EMEA/H/C/004363 / Trelegy Ellipta / – / Keuhkoahtaumatauti (peruutettu); EMEA/H/C/004781 / Elebrato Ellipta / – / Keuhkoahtaumatauti (peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Avamys (EMEA/H/C/000770), Relvar Ellipta (EMEA/H/C/002673), Revinty Ellipta (EMEA/H/C/002745), Trelegy Ellipta (EMEA/H/C/004363), Elebrato Ellipta (EMEA/H/C/004781) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-fluticasone_furoate-1 -->
 
 ## Turvallisuushuomiot
 
@@ -137,6 +143,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 5 myyntilupaa (Avamys (EMEA/H/C/000770), Relvar Ellipta (EMEA/H/C/002673), Revinty Ellipta (EMEA/H/C/002745), Trelegy Ellipta (EMEA/H/C/004363), Elebrato Ellipta (EMEA/H/C/004781)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

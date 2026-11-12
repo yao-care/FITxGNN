@@ -92,7 +92,13 @@ Toistaiseksi ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkimuksia
 
 | Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/000772 | Aerinaze (Organon N.V.) | – | Kausiluontoinen allerginen nuha (peruutettu) |
+| EMEA/H/C/000772 | Aerinaze (Organon N.V.) | – | Kausiluontoinen allerginen nuha (voimassa) |
+
+<!-- review:begin fi-row-20261112-pseudoephedrine-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/000772 / Aerinaze (Organon N.V.) / – / Kausiluontoinen allerginen nuha (peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntilupa Aerinaze (EMEA/H/C/000772) on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-pseudoephedrine-1 -->
 
 ---
 
@@ -135,6 +141,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Valmisteen myyntilupa on lisäksi peruutettu, ja turvallisuustiedot puuttuvat” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: Aerinaze (EMEA/H/C/000772) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

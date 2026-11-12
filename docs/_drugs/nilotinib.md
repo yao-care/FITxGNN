@@ -86,8 +86,14 @@ Tällä hetkellä ei ole aiheeseen liittyviä rekisteröityjä kliinisiä tutkim
 
 | Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/000798 | Tasigna (peruutettu) | – | BCR-ABL-positiivinen krooninen myelooinen leukemia |
-| EMEA/H/C/006315 | Nilotinib Accord (peruutettu) | – | BCR-ABL-positiivinen krooninen myelooinen leukemia |
+| EMEA/H/C/000798 | Tasigna (voimassa) | – | BCR-ABL-positiivinen krooninen myelooinen leukemia |
+| EMEA/H/C/006315 | Nilotinib Accord (voimassa) | – | BCR-ABL-positiivinen krooninen myelooinen leukemia |
+
+<!-- review:begin fi-row-20261112-nilotinib-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/000798 / Tasigna (peruutettu) / – / BCR-ABL-positiivinen krooninen myelooinen leukemia; EMEA/H/C/006315 / Nilotinib Accord (peruutettu) / – / BCR-ABL-positiivinen krooninen myelooinen leukemia” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Tasigna (EMEA/H/C/000798), Nilotinib Accord (EMEA/H/C/006315) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-nilotinib-1 -->
 
 ---
 
@@ -141,6 +147,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi lääkkeellä ei ole voimassa olevaa myyntilupaa Suomessa, ja v” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 2 myyntilupaa (Tasigna (EMEA/H/C/000798), Nilotinib Accord (EMEA/H/C/006315)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

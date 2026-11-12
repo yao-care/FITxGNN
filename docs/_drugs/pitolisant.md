@@ -98,8 +98,14 @@ Alla olevat julkaisut koskevat pitolisanttia muissa käyttöaiheissa. Yksikään
 
 | Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/005117 | Ozawade | – | Obstruktiivinen uniapnea (peruutettu) |
-| EMEA/H/C/002616 | Wakix | – | Narkolepsia (peruutettu) |
+| EMEA/H/C/005117 | Ozawade | – | Obstruktiivinen uniapnea (voimassa) |
+| EMEA/H/C/002616 | Wakix | – | Narkolepsia (voimassa) |
+
+<!-- review:begin fi-row-20261112-pitolisant-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/005117 / Ozawade / – / Obstruktiivinen uniapnea (peruutettu); EMEA/H/C/002616 / Wakix / – / Narkolepsia (peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Ozawade (EMEA/H/C/005117), Wakix (EMEA/H/C/002616) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-pitolisant-1 -->
 
 ---
 
@@ -147,6 +153,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi molemmat Suomen myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Myyntilupien peruutuksen syiden selvittäminen ja lääkemuotojen tiedot” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 2 myyntilupaa (Ozawade (EMEA/H/C/005117), Wakix (EMEA/H/C/002616)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

@@ -100,7 +100,13 @@ Ensisijaisen ennusteen lisäksi aineistossa on yhdeksän muuta ennustetta. Yksik
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/001016 | Iressa (AstraZeneca AB) | – | Ei-pienisoluinen keuhkosyöpä (tila: peruutettu) |
+| EMEA/H/C/001016 | Iressa (AstraZeneca AB) | – | Ei-pienisoluinen keuhkosyöpä (tila: voimassa) |
+
+<!-- review:begin fi-row-20261112-gefitinib-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/001016 / Iressa (AstraZeneca AB) / – / Ei-pienisoluinen keuhkosyöpä (tila: peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntilupa Iressa (EMEA/H/C/001016) on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-gefitinib-1 -->
 
 ---
 
@@ -170,6 +176,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Gefitinibin ainoa Suomessa rekisteröity myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Selvitys myyntiluvan peruuttamisen syistä ja nykyisestä saatavuudesta Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: Iressa (EMEA/H/C/001016) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

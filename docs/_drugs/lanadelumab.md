@@ -72,7 +72,13 @@ Tällä hetkellä aiheeseen liittyvää kirjallisuutta ei ole saatavilla.
 
 | Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/004806 | Takhzyro | – | Perinnöllinen angioedeema (tila: peruutettu) |
+| EMEA/H/C/004806 | Takhzyro | – | Perinnöllinen angioedeema (tila: voimassa) |
+
+<!-- review:begin fi-row-20261112-lanadelumab-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/004806 / Takhzyro / – / Perinnöllinen angioedeema (tila: peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntilupa Takhzyro (EMEA/H/C/004806) on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-lanadelumab-1 -->
 
 ## Turvallisuushuomioita
 
@@ -92,6 +98,18 @@ Muilta osin turvallisuustiedot ks. valmisteyhteenveto.
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden kerääminen Fimean aineistosta
 - Prekliininen tai mekanistinen tutkimus, joka osoittaa kallikreiinin eston vaikutuksen serpiinien polymeroitumiseen
 - Kirjallisuushaku ja tutkimusrekisterien tarkistus uusien tutkimusten varalta
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-12 | Taulukko: Takhzyro (EMEA/H/C/004806) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
 
 ## Vastuuvapauslauseke
 

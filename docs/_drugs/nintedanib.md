@@ -84,10 +84,16 @@ Tällä hetkellä ei ole rekisteröityjä aiheeseen liittyviä kliinisiä tutkim
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/006486 | Nintedanib Viatris | – | Idiopaattinen keuhkofibroosi, interstitiaaliset keuhkosairaudet, keuhkofibroosi (peruutettu) |
-| EMEA/H/C/003821 | Ofev | – | Idiopaattinen keuhkofibroosi, interstitiaaliset keuhkosairaudet, keuhkofibroosi, systeeminen skleroosi (peruutettu) |
-| EMEA/H/C/006179 | Nintedanib Accord | – | Idiopaattinen keuhkofibroosi, interstitiaaliset keuhkosairaudet, systeeminen skleroosi, keuhkofibroosi (peruutettu) |
-| EMEA/H/C/002569 | Vargatef | – | Ei-pienisoluinen keuhkosyöpä (peruutettu) |
+| EMEA/H/C/006486 | Nintedanib Viatris | – | Idiopaattinen keuhkofibroosi, interstitiaaliset keuhkosairaudet, keuhkofibroosi (voimassa) |
+| EMEA/H/C/003821 | Ofev | – | Idiopaattinen keuhkofibroosi, interstitiaaliset keuhkosairaudet, keuhkofibroosi, systeeminen skleroosi (voimassa) |
+| EMEA/H/C/006179 | Nintedanib Accord | – | Idiopaattinen keuhkofibroosi, interstitiaaliset keuhkosairaudet, systeeminen skleroosi, keuhkofibroosi (voimassa) |
+| EMEA/H/C/002569 | Vargatef | – | Ei-pienisoluinen keuhkosyöpä (voimassa) |
+
+<!-- review:begin fi-row-20261112-nintedanib-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/006486 / Nintedanib Viatris / – / Idiopaattinen keuhkofibroosi, interstitiaaliset keuhkosairaudet, keuhkofibroosi (peruutettu); EMEA/H/C/003821 / Ofev / – / Idiopaattinen keuhkofibroosi, interstitiaaliset keuhkosairaudet, keuhkofibroosi, systeeminen skleroosi (peruutettu); EMEA/H/C/006179 / Nintedanib Accord / – / Idiopaattinen keuhkofibroosi, interstitiaaliset keuhkosairaudet, systeeminen skleroosi, keuhkofibroosi (peruutettu); EMEA/H/C/002569 / Vargatef / – / Ei-pienisoluinen keuhkosyöpä (peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Nintedanib Viatris (EMEA/H/C/006486), Ofev (EMEA/H/C/003821), Nintedanib Accord (EMEA/H/C/006179), Vargatef (EMEA/H/C/002569) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-nintedanib-1 -->
 
 ---
 
@@ -160,6 +166,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi kaikki nintedanibin myyntiluvat Suomessa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”koska voimassa olevia myyntilupia ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 4 myyntilupaa (Nintedanib Viatris (EMEA/H/C/006486), Ofev (EMEA/H/C/003821), Nintedanib Accord (EMEA/H/C/006179), Vargatef (EMEA/H/C/002569)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

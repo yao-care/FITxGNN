@@ -92,7 +92,13 @@ Itusolukasvaimet ovat tunnetusti herkkiä DNA:ta vaurioittaville solunsalpaajill
 
 | Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/005173 (peruutettu) | Phelinun | Ei tietoa | Multippeli myelooma, Hodgkinin tauti, non-Hodgkin-lymfooma, prekursorisolujen lymfoblastileukemia/-lymfooma, akuutti myeloidileukemia, neuroblastooma... |
+| EMEA/H/C/005173 (voimassa) | Phelinun | Ei tietoa | Multippeli myelooma, Hodgkinin tauti, non-Hodgkin-lymfooma, prekursorisolujen lymfoblastileukemia/-lymfooma, akuutti myeloidileukemia, neuroblastooma... |
+
+<!-- review:begin fi-row-20261112-melphalan-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/005173 (peruutettu) / Phelinun / Ei tietoa / Multippeli myelooma, Hodgkinin tauti, non-Hodgkin-lymfooma, prekursorisolujen lymfoblastileukemia/-lymfooma, akuutti myeloidileukemia, neuroblastooma...” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntilupa Phelinun (EMEA/H/C/005173 (peruutettu)) on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-melphalan-1 -->
 
 ---
 
@@ -165,6 +171,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”ja Suomessa ainoa myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Selvitystä melfalaanivalmisteen saatavuudesta Suomessa myyntiluvan peruutuksen jälkeen” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: Phelinun (EMEA/H/C/005173 (peruutettu)) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

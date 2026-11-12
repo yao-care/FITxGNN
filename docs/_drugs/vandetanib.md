@@ -82,7 +82,13 @@ Kilpirauhasen kasvaimissa vandetanibin teho perustuu RET-signaloinnin estoon. Mu
 
 | Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/002315 | Caprelsa (Sanofi B.V.) | – | Kilpirauhasen kasvaimet (peruutettu) |
+| EMEA/H/C/002315 | Caprelsa (Sanofi B.V.) | – | Kilpirauhasen kasvaimet (voimassa) |
+
+<!-- review:begin fi-row-20261112-vandetanib-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/002315 / Caprelsa (Sanofi B.V.) / – / Kilpirauhasen kasvaimet (peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntilupa Caprelsa (EMEA/H/C/002315) on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-vandetanib-1 -->
 
 ## Sytotoksisuus
 
@@ -112,6 +118,18 @@ Kilpirauhasen kasvaimissa vandetanibin teho perustuu RET-signaloinnin estoon. Mu
 - Yksityiskohtaisten vaikutusmekanismitietojen ja valmisteyhteenvedon varoitusten ja vasta-aiheiden kokoamista
 - QT-ajan, verenpaineen ja elektrolyyttien seurantasuunnitelmaa sekä yhteisvaikutusten (erityisesti QT-aikaa pidentävät lääkkeet) hallintaa
 - Vertailua nykyisiin munuaissyövän VEGFR-estäjähoitoihin
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-12 | Taulukko: Caprelsa (EMEA/H/C/002315) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
 
 ## Vastuuvapauslauseke
 

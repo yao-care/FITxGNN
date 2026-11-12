@@ -101,8 +101,14 @@ Yksikään julkaisu ei osoita velpatasviirin omaa tehoa HBV:tä vastaan.
 
 | Myyntilupanumero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/004210 | Epclusa | – | Krooninen hepatiitti C (peruutettu) |
-| EMEA/H/C/004350 | Vosevi | – | Krooninen hepatiitti C (peruutettu) |
+| EMEA/H/C/004210 | Epclusa | – | Krooninen hepatiitti C (voimassa) |
+| EMEA/H/C/004350 | Vosevi | – | Krooninen hepatiitti C (voimassa) |
+
+<!-- review:begin fi-row-20261112-velpatasvir-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/004210 / Epclusa / – / Krooninen hepatiitti C (peruutettu); EMEA/H/C/004350 / Vosevi / – / Krooninen hepatiitti C (peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Epclusa (EMEA/H/C/004210), Vosevi (EMEA/H/C/004350) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-velpatasvir-1 -->
 
 ---
 
@@ -155,6 +161,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Suomessa kummankin valmisteen myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Selvitys myyntilupien peruuttamisen syistä ja nykyisestä saatavuudesta Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 2 myyntilupaa (Epclusa (EMEA/H/C/004210), Vosevi (EMEA/H/C/004350)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

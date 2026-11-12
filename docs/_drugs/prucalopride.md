@@ -84,7 +84,13 @@ Ennustettuun käyttöaiheeseen ei ole saatavilla aiheeseen liittyvää kirjallis
 
 | Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe | Tila |
 |---------|------|------|-----------|------|
-| EMEA/H/C/001012 | Resolor | – | Ummetus | Peruutettu |
+| EMEA/H/C/001012 | Resolor | – | Ummetus | Voimassa |
+
+<!-- review:begin fi-row-20261112-prucalopride-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/001012 / Resolor / – / Ummetus / Peruutettu” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntilupa Resolor (EMEA/H/C/001012) on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-prucalopride-1 -->
 
 Valmistaja: Takeda Pharmaceuticals International AG Ireland.
 
@@ -132,6 +138,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi lääkkeen myyntilupa Suomessa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: Resolor (EMEA/H/C/001012) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

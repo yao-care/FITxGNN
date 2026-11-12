@@ -101,7 +101,13 @@ Huomioitavaa: aineisto koostuu pääosin kerronnallisista katsauksista, eikä ke
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/005248 (peruutettu) | Tecovirimat SIGA | Ei tiedossa | Poksvirusinfektiot, lehmärokko, apinarokko, vacciniarokko, isorokko |
+| EMEA/H/C/005248 (voimassa) | Tecovirimat SIGA | Ei tiedossa | Poksvirusinfektiot, lehmärokko, apinarokko, vacciniarokko, isorokko |
+
+<!-- review:begin fi-row-20261112-tecovirimat-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/005248 (peruutettu) / Tecovirimat SIGA / Ei tiedossa / Poksvirusinfektiot, lehmärokko, apinarokko, vacciniarokko, isorokko” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntilupa Tecovirimat SIGA (EMEA/H/C/005248 (peruutettu)) on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-tecovirimat-1 -->
 
 ---
 
@@ -146,6 +152,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomen myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Selvitys Suomen myyntiluvan peruuttamisen syystä ja nykyisestä saatavuudesta” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: Tecovirimat SIGA (EMEA/H/C/005248 (peruutettu)) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

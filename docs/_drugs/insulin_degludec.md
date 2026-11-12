@@ -108,9 +108,15 @@ Aineistossa on lisäksi useita vaiheen 1 farmakodynamiikkatutkimuksia ja kaksi l
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/002498 | Tresiba | – | Diabetes mellitus (peruutettu) |
-| EMEA/H/C/002499 | Ryzodeg | – | Diabetes mellitus (peruutettu) |
-| EMEA/H/C/002647 | Xultophy | – | Tyypin 2 diabetes mellitus (peruutettu) |
+| EMEA/H/C/002498 | Tresiba | – | Diabetes mellitus (voimassa) |
+| EMEA/H/C/002499 | Ryzodeg | – | Diabetes mellitus (voimassa) |
+| EMEA/H/C/002647 | Xultophy | – | Tyypin 2 diabetes mellitus (voimassa) |
+
+<!-- review:begin fi-row-20261112-insulin_degludec-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/002498 / Tresiba / – / Diabetes mellitus (peruutettu); EMEA/H/C/002499 / Ryzodeg / – / Diabetes mellitus (peruutettu); EMEA/H/C/002647 / Xultophy / – / Tyypin 2 diabetes mellitus (peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Tresiba (EMEA/H/C/002498), Ryzodeg (EMEA/H/C/002499), Xultophy (EMEA/H/C/002647) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-insulin_degludec-1 -->
 
 ---
 
@@ -164,6 +170,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | 2026-11-06 | Poistettu: ”Kaikki kolme myyntilupaa on peruutettu, joten voimassa olevaa myyntilupaa ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Kaikki Suomen myyntiluvat on peruutettu, mikä rajoittaa saatavuutta” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Selvitys valmisteen nykyisestä saatavuudesta ja myyntiluvan tilasta Suomessa (peruutettujen lupien syy ja mahdolliset korvaavat valmisteet)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 3 myyntilupaa (Tresiba (EMEA/H/C/002498), Ryzodeg (EMEA/H/C/002499), Xultophy (EMEA/H/C/002647)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

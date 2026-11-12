@@ -84,7 +84,13 @@ Harvinaissoluleukemiaan ei tällä hetkellä ole saatavilla asiaan liittyvää k
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/000081 | Betaferon (Bayer AG) | – | Multippeliskleroosi (myyntilupa peruutettu) |
+| EMEA/H/C/000081 | Betaferon (Bayer AG) | – | Multippeliskleroosi (myyntilupa voimassa) |
+
+<!-- review:begin fi-row-20261112-interferon_beta-1b-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/000081 / Betaferon (Bayer AG) / – / Multippeliskleroosi (myyntilupa peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntilupa Betaferon (EMEA/H/C/000081) on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-interferon_beta-1b-1 -->
 
 ---
 
@@ -141,6 +147,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Betaferonin myyntilupa Suomessa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”(nykyinen lupa on peruutettu)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: Betaferon (EMEA/H/C/000081) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

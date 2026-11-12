@@ -120,9 +120,15 @@ Lisäksi yksi tapauskertomus ([19107053](https://pubmed.ncbi.nlm.nih.gov/1910705
 
 | Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/000390 | Travatan | – | Avokulmaglaukooma; silmänpainetauti (peruutettu) |
-| EMEA/H/C/002738 | Izba | – | Silmänpainetauti; avokulmaglaukooma (peruutettu) |
-| EMEA/H/C/000665 | DuoTrav | – | Avokulmaglaukooma; silmänpainetauti (peruutettu) |
+| EMEA/H/C/000390 | Travatan | – | Avokulmaglaukooma; silmänpainetauti (voimassa) |
+| EMEA/H/C/002738 | Izba | – | Silmänpainetauti; avokulmaglaukooma (voimassa) |
+| EMEA/H/C/000665 | DuoTrav | – | Avokulmaglaukooma; silmänpainetauti (voimassa) |
+
+<!-- review:begin fi-row-20261112-travoprost-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/000390 / Travatan / – / Avokulmaglaukooma; silmänpainetauti (peruutettu); EMEA/H/C/002738 / Izba / – / Silmänpainetauti; avokulmaglaukooma (peruutettu); EMEA/H/C/000665 / DuoTrav / – / Avokulmaglaukooma; silmänpainetauti (peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Travatan (EMEA/H/C/000390), Izba (EMEA/H/C/002738), DuoTrav (EMEA/H/C/000665) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-travoprost-1 -->
 
 ---
 
@@ -166,6 +172,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki kolme myyntilupaa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 3 myyntilupaa (Travatan (EMEA/H/C/000390), Izba (EMEA/H/C/002738), DuoTrav (EMEA/H/C/000665)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

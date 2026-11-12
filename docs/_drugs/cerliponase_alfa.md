@@ -89,7 +89,13 @@ Muiden ennustettujen käyttöaiheiden osalta löytyi vain yksi julkaisu (Gaucher
 
 | Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/004065 | Brineura | – | Neuronaaliset seroidilipofuskinoosit (tila: peruutettu) |
+| EMEA/H/C/004065 | Brineura | – | Neuronaaliset seroidilipofuskinoosit (tila: voimassa) |
+
+<!-- review:begin fi-row-20261112-cerliponase_alfa-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/004065 / Brineura / – / Neuronaaliset seroidilipofuskinoosit (tila: peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntilupa Brineura (EMEA/H/C/004065) on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-cerliponase_alfa-1 -->
 
 ---
 
@@ -129,6 +135,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa on vain yksi peruutettu myyntilupa, ja t” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: Brineura (EMEA/H/C/004065) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

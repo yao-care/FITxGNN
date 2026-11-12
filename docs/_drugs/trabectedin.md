@@ -85,8 +85,14 @@ Alkuperäiset käyttöaiheet (sarkooma, munasarjasyöpä) jakavat osittain saman
 
 | Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe | Tila |
 |---------|------|------|-----------|------|
-| EMEA/H/C/006433 | Trabectedin Accord | – | Sarkooma; munasarjasyöpä | Peruutettu |
-| EMEA/H/C/000773 | Yondelis | – | Munasarjasyöpä; sarkooma | Peruutettu |
+| EMEA/H/C/006433 | Trabectedin Accord | – | Sarkooma; munasarjasyöpä | Voimassa |
+| EMEA/H/C/000773 | Yondelis | – | Munasarjasyöpä; sarkooma | Voimassa |
+
+<!-- review:begin fi-row-20261112-trabectedin-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/006433 / Trabectedin Accord / – / Sarkooma; munasarjasyöpä / Peruutettu; EMEA/H/C/000773 / Yondelis / – / Munasarjasyöpä; sarkooma / Peruutettu” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Trabectedin Accord (EMEA/H/C/006433), Yondelis (EMEA/H/C/000773) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-trabectedin-1 -->
 
 ## Sytotoksisuus
 
@@ -147,6 +153,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi molemmat Suomen myyntiluvat on peruutettu, eikä valmisteyhteenvedon turvallisuustietoja ole saatavilla” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Selvitys myyntiluvan peruuttamisen syistä ja valmisteen saatavuudesta Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 2 myyntilupaa (Trabectedin Accord (EMEA/H/C/006433), Yondelis (EMEA/H/C/000773)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

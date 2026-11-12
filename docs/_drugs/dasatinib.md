@@ -96,8 +96,14 @@ Kliininen teho on kuitenkin epävarma. Vaiheen 2 tutkimuksessa edenneissä sarko
 
 | Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/000709 | Sprycel (peruutettu) | – | Prekursorisolu-lymfoblastileukemia/lymfooma; krooninen myelooinen leukemia, BCR-ABL-positiivinen |
-| EMEA/H/C/006251 | Dasatinib Accord Healthcare (peruutettu) | – | Prekursorisolu-lymfoblastileukemia/lymfooma; krooninen myelooinen leukemia, BCR-ABL-positiivinen |
+| EMEA/H/C/000709 | Sprycel (voimassa) | – | Prekursorisolu-lymfoblastileukemia/lymfooma; krooninen myelooinen leukemia, BCR-ABL-positiivinen |
+| EMEA/H/C/006251 | Dasatinib Accord Healthcare (voimassa) | – | Prekursorisolu-lymfoblastileukemia/lymfooma; krooninen myelooinen leukemia, BCR-ABL-positiivinen |
+
+<!-- review:begin fi-row-20261112-dasatinib-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/000709 / Sprycel (peruutettu) / – / Prekursorisolu-lymfoblastileukemia/lymfooma; krooninen myelooinen leukemia, BCR-ABL-positiivinen; EMEA/H/C/006251 / Dasatinib Accord Healthcare (peruutettu) / – / Prekursorisolu-lymfoblastileukemia/lymfooma; krooninen myelooinen leukemia, BCR-ABL-positiivinen” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Sprycel (EMEA/H/C/000709), Dasatinib Accord Healthcare (EMEA/H/C/006251) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-dasatinib-1 -->
 
 ---
 
@@ -158,6 +164,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa ei ole voimassa olevia myyntilupia” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Selvitys myyntilupien peruuttamisen syistä ja valmisteen saatavuudesta Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 2 myyntilupaa (Sprycel (EMEA/H/C/000709), Dasatinib Accord Healthcare (EMEA/H/C/006251)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

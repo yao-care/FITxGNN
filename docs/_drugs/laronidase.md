@@ -88,7 +88,13 @@ Aiheeseen liittyviä kliinisiä tutkimuksia ei ole tällä hetkellä rekisteröi
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/000477 | Aldurazyme (peruutettu) | – | Mukopolysakkaridoosi I |
+| EMEA/H/C/000477 | Aldurazyme (voimassa) | – | Mukopolysakkaridoosi I |
+
+<!-- review:begin fi-row-20261112-laronidase-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/000477 / Aldurazyme (peruutettu) / – / Mukopolysakkaridoosi I” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntilupa Aldurazyme (EMEA/H/C/000477) on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-laronidase-1 -->
 
 ---
 
@@ -136,6 +142,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Valmisteen myyntilupa Suomessa on lisäksi peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: Aldurazyme (EMEA/H/C/000477) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

@@ -96,10 +96,16 @@ Mekanistinen yhteys on siis uskottava, mutta kliinisten tulosten varmentaminen o
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/000863 | Vimpat | – | Epilepsia (peruutettu) |
-| EMEA/H/C/005243 | Lacosamide UCB | – | Osittaisalkuinen epilepsia (peruutettu) |
-| EMEA/H/C/004443 | Lacosamide Accord | – | Epilepsia (peruutettu) |
-| EMEA/H/C/006047 | Lacosamide Adroiq | – | Epilepsia (peruutettu) |
+| EMEA/H/C/000863 | Vimpat | – | Epilepsia (voimassa) |
+| EMEA/H/C/005243 | Lacosamide UCB | – | Osittaisalkuinen epilepsia (voimassa) |
+| EMEA/H/C/004443 | Lacosamide Accord | – | Epilepsia (voimassa) |
+| EMEA/H/C/006047 | Lacosamide Adroiq | – | Epilepsia (voimassa) |
+
+<!-- review:begin fi-row-20261112-lacosamide-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/000863 / Vimpat / – / Epilepsia (peruutettu); EMEA/H/C/005243 / Lacosamide UCB / – / Osittaisalkuinen epilepsia (peruutettu); EMEA/H/C/004443 / Lacosamide Accord / – / Epilepsia (peruutettu); EMEA/H/C/006047 / Lacosamide Adroiq / – / Epilepsia (peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Vimpat (EMEA/H/C/000863), Lacosamide UCB (EMEA/H/C/005243), Lacosamide Accord (EMEA/H/C/004443), Lacosamide Adroiq (EMEA/H/C/006047) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-lacosamide-1 -->
 
 ---
 
@@ -160,6 +166,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Suomessa kaikki lakosamidin myyntiluvat on peruutettu, mikä vaikuttaa käytännön toteutettavuuteen” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 4 myyntilupaa (Vimpat (EMEA/H/C/000863), Lacosamide UCB (EMEA/H/C/005243), Lacosamide Accord (EMEA/H/C/004443), Lacosamide Adroiq (EMEA/H/C/006047)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

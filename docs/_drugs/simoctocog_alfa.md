@@ -100,8 +100,14 @@ Tällä hetkellä aiheeseen liittyvää kirjallisuutta ei ole saatavilla.
 
 | Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/004459 | Vihuma | – | Hemofilia A (peruutettu) |
-| EMEA/H/C/002813 | Nuwiq | – | Hemofilia A (peruutettu) |
+| EMEA/H/C/004459 | Vihuma | – | Hemofilia A (voimassa) |
+| EMEA/H/C/002813 | Nuwiq | – | Hemofilia A (voimassa) |
+
+<!-- review:begin fi-row-20261112-simoctocog_alfa-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/004459 / Vihuma / – / Hemofilia A (peruutettu); EMEA/H/C/002813 / Nuwiq / – / Hemofilia A (peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Vihuma (EMEA/H/C/004459), Nuwiq (EMEA/H/C/002813) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-simoctocog_alfa-1 -->
 
 Myyntiluvan haltija on Octapharma AB.
 
@@ -157,6 +163,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | 2026-11-06 | Poistettu: ”Molemmat myyntiluvat ovat peruutettuja, joten valmiste ei ole tällä hetkellä markkinoilla Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi valmisteen myyntiluvat Suomessa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Myyntiluvan peruutuksen syiden ja valmisteen saatavuuden selvittäminen Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 2 myyntilupaa (Vihuma (EMEA/H/C/004459), Nuwiq (EMEA/H/C/002813)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

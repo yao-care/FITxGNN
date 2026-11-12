@@ -94,8 +94,14 @@ Teho liposarkoomassa vaikuttaa kuitenkin rajalliselta ja riippuvaiselta histolog
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/005419 | Sunitinib Accord (Accord Healthcare S.L.U.) | – | GIST, munuaissolusyöpä, neuroendokriiniset kasvaimet (peruutettu) |
-| EMEA/H/C/000687 | Sutent (Pfizer Limited) | – | GIST, munuaissolusyöpä, neuroendokriiniset kasvaimet (peruutettu) |
+| EMEA/H/C/005419 | Sunitinib Accord (Accord Healthcare S.L.U.) | – | GIST, munuaissolusyöpä, neuroendokriiniset kasvaimet (voimassa) |
+| EMEA/H/C/000687 | Sutent (Pfizer Limited) | – | GIST, munuaissolusyöpä, neuroendokriiniset kasvaimet (voimassa) |
+
+<!-- review:begin fi-row-20261112-sunitinib-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/005419 / Sunitinib Accord (Accord Healthcare S.L.U.) / – / GIST, munuaissolusyöpä, neuroendokriiniset kasvaimet (peruutettu); EMEA/H/C/000687 / Sutent (Pfizer Limited) / – / GIST, munuaissolusyöpä, neuroendokriiniset kasvaimet (peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Sunitinib Accord (EMEA/H/C/005419), Sutent (EMEA/H/C/000687) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-sunitinib-1 -->
 
 ---
 
@@ -162,6 +168,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa kaikki sunitinibin myyntiluvat on peruutettu, ja t” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”koska myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 2 myyntilupaa (Sunitinib Accord (EMEA/H/C/005419), Sutent (EMEA/H/C/000687)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

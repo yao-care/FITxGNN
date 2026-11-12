@@ -83,7 +83,13 @@ Tällä hetkellä aiheeseen liittyviä kliinisiä tutkimuksia ei ole rekisteröi
 
 | Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/001043 | Multaq (peruutettu) | – | Eteisvärinä |
+| EMEA/H/C/001043 | Multaq (voimassa) | – | Eteisvärinä |
+
+<!-- review:begin fi-row-20261112-dronedarone-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/001043 / Multaq (peruutettu) / – / Eteisvärinä” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntilupa Multaq (EMEA/H/C/001043) on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-dronedarone-1 -->
 
 ## Turvallisuusnäkökohdat
 
@@ -112,6 +118,18 @@ Muilta osin turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 - Aivohalvaus ensisijaisena tulosmuuttujana oleva satunnaistettu tutkimus tai vähintään erillinen vaikuttavuusanalyysi sopivassa potilasryhmässä.
 - Tarkka vaikutusmekanismitieto ja jatkotutkimukset dronedaronin veren hyytymistä ja verihiutaleita estävistä vaikutuksista.
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden läpikäynti sekä yhteisvaikutusten, erityisesti antikoagulanttien, turvallisuusarvio.
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-12 | Taulukko: Multaq (EMEA/H/C/001043) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
 
 ## Vastuuvapauslauseke
 

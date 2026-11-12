@@ -77,8 +77,14 @@ Huomio: toiseksi sijoittuneelle ennusteelle (moninainen endokriininen neoplasia)
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/004649 | Fulvestrant Mylan (peruutettu) | – | Rintasyöpä |
-| EMEA/H/C/000540 | Faslodex (peruutettu) | – | Rintasyöpä |
+| EMEA/H/C/004649 | Fulvestrant Mylan (voimassa) | – | Rintasyöpä |
+| EMEA/H/C/000540 | Faslodex (voimassa) | – | Rintasyöpä |
+
+<!-- review:begin fi-row-20261112-fulvestrant-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/004649 / Fulvestrant Mylan (peruutettu) / – / Rintasyöpä; EMEA/H/C/000540 / Faslodex (peruutettu) / – / Rintasyöpä” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Fulvestrant Mylan (EMEA/H/C/004649), Faslodex (EMEA/H/C/000540) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-fulvestrant-1 -->
 
 ## Solunsalpaajaominaisuudet
 
@@ -128,6 +134,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa kaikki fulvestrantin myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”ja valmisteen saatavuudesta Suomessa myyntilupien peruutuksen jälkeen” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 2 myyntilupaa (Fulvestrant Mylan (EMEA/H/C/004649), Faslodex (EMEA/H/C/000540)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

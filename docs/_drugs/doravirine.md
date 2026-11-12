@@ -95,8 +95,14 @@ Ensisijaiseen ennusteeseen (kissan immuunipuutosoireyhtymä) ei ole saatavilla k
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/004747 | Pifeltro (peruutettu) | – | HIV-infektiot |
-| EMEA/H/C/004746 | Delstrigo (peruutettu) | – | HIV-infektiot |
+| EMEA/H/C/004747 | Pifeltro (voimassa) | – | HIV-infektiot |
+| EMEA/H/C/004746 | Delstrigo (voimassa) | – | HIV-infektiot |
+
+<!-- review:begin fi-row-20261112-doravirine-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/004747 / Pifeltro (peruutettu) / – / HIV-infektiot; EMEA/H/C/004746 / Delstrigo (peruutettu) / – / HIV-infektiot” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Pifeltro (EMEA/H/C/004747), Delstrigo (EMEA/H/C/004746) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-doravirine-1 -->
 
 ---
 
@@ -140,6 +146,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Molemmat myyntiluvat on peruutettu, eikä voimassa olevia myyntilupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi lääkkeen kaikki myyntiluvat Suomessa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 2 myyntilupaa (Pifeltro (EMEA/H/C/004747), Delstrigo (EMEA/H/C/004746)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

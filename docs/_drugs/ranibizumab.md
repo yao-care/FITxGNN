@@ -93,11 +93,17 @@ Kirjallisuudessa on RIDE/RISE-tutkimusten analyysejä, joissa diabeettinen retin
 
 | Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/005617 | Ximluci | – | Kostea silmänpohjan ikärappeuma, makulaturvotus, diabeettinen retinopatia, diabeteksen komplikaatiot (peruutettu) |
-| EMEA/H/C/000715 | Lucentis | – | Kostea silmänpohjan ikärappeuma, makulaturvotus, diabeteksen komplikaatiot, rappeuttava myopia, suonikalvon uudissuonittuminen (peruutettu) |
-| EMEA/H/C/006528 | Epruvy (aiemmin Ranibizumab Midas) | – | Kostea silmänpohjan ikärappeuma, makulaturvotus, suonikalvon uudissuonittuminen, diabeteksen komplikaatiot (peruutettu) |
-| EMEA/H/C/005019 | Ranivisio | – | Kostea silmänpohjan ikärappeuma, makulaturvotus, diabeettinen retinopatia, diabeteksen komplikaatiot (peruutettu) |
-| EMEA/H/C/006055 | Rimmyrah | – | Kostea silmänpohjan ikärappeuma, makulaturvotus, diabeteksen komplikaatiot, rappeuttava myopia, suonikalvon uudissuonittuminen (peruutettu) |
+| EMEA/H/C/005617 | Ximluci | – | Kostea silmänpohjan ikärappeuma, makulaturvotus, diabeettinen retinopatia, diabeteksen komplikaatiot (voimassa) |
+| EMEA/H/C/000715 | Lucentis | – | Kostea silmänpohjan ikärappeuma, makulaturvotus, diabeteksen komplikaatiot, rappeuttava myopia, suonikalvon uudissuonittuminen (voimassa) |
+| EMEA/H/C/006528 | Epruvy (aiemmin Ranibizumab Midas) | – | Kostea silmänpohjan ikärappeuma, makulaturvotus, suonikalvon uudissuonittuminen, diabeteksen komplikaatiot (voimassa) |
+| EMEA/H/C/005019 | Ranivisio | – | Kostea silmänpohjan ikärappeuma, makulaturvotus, diabeettinen retinopatia, diabeteksen komplikaatiot (voimassa) |
+| EMEA/H/C/006055 | Rimmyrah | – | Kostea silmänpohjan ikärappeuma, makulaturvotus, diabeteksen komplikaatiot, rappeuttava myopia, suonikalvon uudissuonittuminen (voimassa) |
+
+<!-- review:begin fi-row-20261112-ranibizumab-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/005617 / Ximluci / – / Kostea silmänpohjan ikärappeuma, makulaturvotus, diabeettinen retinopatia, diabeteksen komplikaatiot (peruutettu); EMEA/H/C/000715 / Lucentis / – / Kostea silmänpohjan ikärappeuma, makulaturvotus, diabeteksen komplikaatiot, rappeuttava myopia, suonikalvon uudissuonittuminen (peruutettu); EMEA/H/C/006528 / Epruvy (aiemmin Ranibizumab Midas) / – / Kostea silmänpohjan ikärappeuma, makulaturvotus, suonikalvon uudissuonittuminen, diabeteksen komplikaatiot (peruutettu); EMEA/H/C/005019 / Ranivisio / – / Kostea silmänpohjan ikärappeuma, makulaturvotus, diabeettinen retinopatia, diabeteksen komplikaatiot (peruutettu); EMEA/H/C/006055 / Rimmyrah / – / Kostea silmänpohjan ikärappeuma, makulaturvotus, diabeteksen komplikaatiot, rappeuttava myopia, suonikalvon uudissuonittuminen (peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Ximluci (EMEA/H/C/005617), Lucentis (EMEA/H/C/000715), Epruvy (EMEA/H/C/006528), Ranivisio (EMEA/H/C/005019), Rimmyrah (EMEA/H/C/006055) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-ranibizumab-1 -->
 
 ---
 
@@ -154,6 +160,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | 2026-11-06 | Poistettu: ”Kaikkiaan myyntilupia on 7, ja ne ovat kaikki peruutettuja” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”ja suomalaiset myyntiluvat ovat kaikki peruutettuja” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Myyntilupatilanteen selvittämistä (peruutettujen lupien syyt ja mahdollinen uusi lupa tai käyttö muilla reiteillä)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 5 myyntilupaa (Ximluci (EMEA/H/C/005617), Lucentis (EMEA/H/C/000715), Epruvy (EMEA/H/C/006528), Ranivisio (EMEA/H/C/005019), Rimmyrah (EMEA/H/C/006055)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

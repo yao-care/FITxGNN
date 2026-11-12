@@ -90,8 +90,14 @@ Sivuhuomio: toiseksi viimeisenä luetellun ennusteen "verisuonisairaus" osalta a
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/002329 | Atosiban SUN (peruutettu) | – | Ennenaikainen synnytys |
-| EMEA/H/C/000253 | Tractocile (peruutettu) | – | Ennenaikainen synnytys |
+| EMEA/H/C/002329 | Atosiban SUN (voimassa) | – | Ennenaikainen synnytys |
+| EMEA/H/C/000253 | Tractocile (voimassa) | – | Ennenaikainen synnytys |
+
+<!-- review:begin fi-row-20261112-atosiban-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/002329 / Atosiban SUN (peruutettu) / – / Ennenaikainen synnytys; EMEA/H/C/000253 / Tractocile (peruutettu) / – / Ennenaikainen synnytys” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Atosiban SUN (EMEA/H/C/002329), Tractocile (EMEA/H/C/000253) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-atosiban-1 -->
 
 ---
 
@@ -141,6 +147,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | 2026-11-06 | Poistettu: ”Kumpikaan myyntilupa ei ole voimassa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi lääkkeen kaikki Suomen myyntiluvat on peruutettu, ja p” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Myyntilupatilanteen selvittämistä, koska voimassa olevia lupia ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 2 myyntilupaa (Atosiban SUN (EMEA/H/C/002329), Tractocile (EMEA/H/C/000253)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

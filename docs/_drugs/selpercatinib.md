@@ -78,7 +78,13 @@ Mikään julkaisuista ei tutki selpercatinibia keuhkoverenpainetaudissa. Ne kosk
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/005375 | Retsevmo (peruutettu) | – | Ei-pienisoluinen keuhkosyöpä; kilpirauhasen kasvaimet |
+| EMEA/H/C/005375 | Retsevmo (voimassa) | – | Ei-pienisoluinen keuhkosyöpä; kilpirauhasen kasvaimet |
+
+<!-- review:begin fi-row-20261112-selpercatinib-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/005375 / Retsevmo (peruutettu) / – / Ei-pienisoluinen keuhkosyöpä; kilpirauhasen kasvaimet” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntilupa Retsevmo (EMEA/H/C/005375) on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-selpercatinib-1 -->
 
 ## Solunsalpaajaominaisuudet
 
@@ -135,6 +141,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa on vain peruutettu myyntilupa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”koska myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: Retsevmo (EMEA/H/C/005375) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

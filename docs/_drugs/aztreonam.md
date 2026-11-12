@@ -102,7 +102,13 @@ Muut ennusteet (epäsuora tai epärelevantti näyttö):
 
 | Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/006113 (peruutettu) | Emblaveo | – | Gramnegatiiviset bakteeri-infektiot, virtsatieinfektiot, sairaalaperäinen keuhkokuume, pehmytkudosinfektiot |
+| EMEA/H/C/006113 (voimassa) | Emblaveo | – | Gramnegatiiviset bakteeri-infektiot, virtsatieinfektiot, sairaalaperäinen keuhkokuume, pehmytkudosinfektiot |
+
+<!-- review:begin fi-row-20261112-aztreonam-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/006113 (peruutettu) / Emblaveo / – / Gramnegatiiviset bakteeri-infektiot, virtsatieinfektiot, sairaalaperäinen keuhkokuume, pehmytkudosinfektiot” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntilupa Emblaveo (EMEA/H/C/006113 (peruutettu)) on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-aztreonam-1 -->
 
 ---
 
@@ -155,6 +161,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”ja Suomen myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Arvio myyntiluvan tilanteesta ja saatavuudesta Suomessa (Emblaveo peruutettu)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: Emblaveo (EMEA/H/C/006113 (peruutettu)) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

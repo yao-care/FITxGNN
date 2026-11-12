@@ -87,7 +87,13 @@ Yhdellekään näistä ei ole tunnistettu mekanistista yhteyttä.
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/000257 | Synagis (AstraZeneca AB) | – | Hengitysteiden synsytiaaliviruksen infektiot (tila: peruutettu) |
+| EMEA/H/C/000257 | Synagis (AstraZeneca AB) | – | Hengitysteiden synsytiaaliviruksen infektiot (tila: voimassa) |
+
+<!-- review:begin fi-row-20261112-palivizumab-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/000257 / Synagis (AstraZeneca AB) / – / Hengitysteiden synsytiaaliviruksen infektiot (tila: peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntilupa Synagis (EMEA/H/C/000257) on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-palivizumab-1 -->
 
 ---
 
@@ -125,6 +131,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”ja Suomessa ainoa myyntilupa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: Synagis (EMEA/H/C/000257) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

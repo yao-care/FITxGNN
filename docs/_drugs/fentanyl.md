@@ -80,9 +80,15 @@ Ei tällä hetkellä aiheeseen liittyvää kirjallisuutta.
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/001164 | PecFent | – | Kipu; syöpä (peruutettu) |
-| EMEA/H/C/000833 | Effentora | – | Kipu; syöpä (peruutettu) |
-| EMEA/H/C/000959 | Instanyl | – | Kipu; syöpä (peruutettu) |
+| EMEA/H/C/001164 | PecFent | – | Kipu; syöpä (voimassa) |
+| EMEA/H/C/000833 | Effentora | – | Kipu; syöpä (voimassa) |
+| EMEA/H/C/000959 | Instanyl | – | Kipu; syöpä (voimassa) |
+
+<!-- review:begin fi-row-20261112-fentanyl-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/001164 / PecFent / – / Kipu; syöpä (peruutettu); EMEA/H/C/000833 / Effentora / – / Kipu; syöpä (peruutettu); EMEA/H/C/000959 / Instanyl / – / Kipu; syöpä (peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat PecFent (EMEA/H/C/001164), Effentora (EMEA/H/C/000833), Instanyl (EMEA/H/C/000959) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-fentanyl-1 -->
 
 ## Solunsalpaajaominaisuudet
 
@@ -138,6 +144,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki kolme myyntilupaa on peruutettu, eikä voimassa olevia lupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Valmisteilla ei ole voimassa olevia myyntilupia Suomessa, ja y” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 3 myyntilupaa (PecFent (EMEA/H/C/001164), Effentora (EMEA/H/C/000833), Instanyl (EMEA/H/C/000959)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

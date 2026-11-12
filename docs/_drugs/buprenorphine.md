@@ -84,10 +84,16 @@ Ennustettuun käyttöaiheeseen liittyviä kliinisiä tutkimuksia ei ole tällä 
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/004651 | Buvidal (peruutettu) | – | Opioidiriippuvuus |
-| EMEA/H/C/006188 | Buprenorphine Neuraxpharm (peruutettu) | – | Opioidiriippuvuus |
-| EMEA/H/C/004407 | Zubsolv (peruutettu) | – | Opioidiriippuvuus |
+| EMEA/H/C/004651 | Buvidal (voimassa) | – | Opioidiriippuvuus |
+| EMEA/H/C/006188 | Buprenorphine Neuraxpharm (voimassa) | – | Opioidiriippuvuus |
+| EMEA/H/C/004407 | Zubsolv (voimassa) | – | Opioidiriippuvuus |
 | EMEA/H/C/000697 | Suboxone (peruutettu) | – | Opioidiriippuvuus |
+
+<!-- review:begin fi-row-20261112-buprenorphine-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/004651 / Buvidal (peruutettu) / – / Opioidiriippuvuus; EMEA/H/C/006188 / Buprenorphine Neuraxpharm (peruutettu) / – / Opioidiriippuvuus; EMEA/H/C/004407 / Zubsolv (peruutettu) / – / Opioidiriippuvuus” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Buvidal (EMEA/H/C/004651), Buprenorphine Neuraxpharm (EMEA/H/C/006188), Zubsolv (EMEA/H/C/004407) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-buprenorphine-1 -->
 
 ---
 
@@ -134,6 +140,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi kaikki neljä suomalaista myyntilupaa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 3 myyntilupaa (Buvidal (EMEA/H/C/004651), Buprenorphine Neuraxpharm (EMEA/H/C/006188), Zubsolv (EMEA/H/C/004407)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

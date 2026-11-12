@@ -83,8 +83,14 @@ Ennusteen korkea pistemäärä kuvaa mallin tilastollista assosiaatiota, ei klii
 
 | Myyntiluvan numero | Valmisteen nimi | Hyväksytty käyttöaihe |
 |---------|------|-----------|
-| EMEA/H/C/000606 | Xolair (Novartis Europharm Limited), peruutettu | Astma, nokkosihottuma, nuha |
-| EMEA/H/C/005958 | Omlyclo (Celltrion Healthcare Hungary Kft.), peruutettu | Astma, nokkosihottuma |
+| EMEA/H/C/000606 | Xolair (Novartis Europharm Limited), voimassa | Astma, nokkosihottuma, nuha |
+| EMEA/H/C/005958 | Omlyclo (Celltrion Healthcare Hungary Kft.), voimassa | Astma, nokkosihottuma |
+
+<!-- review:begin fi-row-20261112-omalizumab-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/000606 / Xolair (Novartis Europharm Limited), peruutettu / Astma, nokkosihottuma, nuha; EMEA/H/C/005958 / Omlyclo (Celltrion Healthcare Hungary Kft.), peruutettu / Astma, nokkosihottuma” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Xolair (EMEA/H/C/000606), Omlyclo (EMEA/H/C/005958) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-omalizumab-1 -->
 
 ## Turvallisuusnäkökohdat
 
@@ -105,6 +111,18 @@ Muista turvallisuustiedoista, kuten varoituksista ja vasta-aiheista, katso valmi
 - Bronkiittia suoraan tutkivia kliinisiä tutkimuksia tai riittävän kattavaa julkaistua näyttöä.
 - Yksityiskohtaisia vaikutusmekanismitietoja.
 - Valmisteyhteenvedon varoitus- ja vasta-aihetietojen kokoamista ja turvallisuusarviointia.
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-12 | Taulukko: 2 myyntilupaa (Xolair (EMEA/H/C/000606), Omlyclo (EMEA/H/C/005958)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
 
 ## Vastuuvapauslauseke
 

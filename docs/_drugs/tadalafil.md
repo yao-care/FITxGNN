@@ -93,11 +93,17 @@ Ensisijaiselle ennusteelle (Ambras-tyypin liikakarvoitus) ei ole saatavilla kirj
 
 | Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/004666 | Tadalafil Lilly | – | Erektiohäiriö (peruutettu) |
-| EMEA/H/C/004297 | Talmanco | – | Keuhkovaltimoverenpaine (peruutettu) |
-| EMEA/H/C/001021 | Adcirca | – | Keuhkovaltimoverenpaine (peruutettu) |
-| EMEA/H/C/003787 | Tadalafil Mylan | – | Erektiohäiriö (peruutettu) |
-| EMEA/H/C/000436 | Cialis | – | Erektiohäiriö (peruutettu) |
+| EMEA/H/C/004666 | Tadalafil Lilly | – | Erektiohäiriö (voimassa) |
+| EMEA/H/C/004297 | Talmanco | – | Keuhkovaltimoverenpaine (voimassa) |
+| EMEA/H/C/001021 | Adcirca | – | Keuhkovaltimoverenpaine (voimassa) |
+| EMEA/H/C/003787 | Tadalafil Mylan | – | Erektiohäiriö (voimassa) |
+| EMEA/H/C/000436 | Cialis | – | Erektiohäiriö (voimassa) |
+
+<!-- review:begin fi-row-20261112-tadalafil-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/004666 / Tadalafil Lilly / – / Erektiohäiriö (peruutettu); EMEA/H/C/004297 / Talmanco / – / Keuhkovaltimoverenpaine (peruutettu); EMEA/H/C/001021 / Adcirca / – / Keuhkovaltimoverenpaine (peruutettu); EMEA/H/C/003787 / Tadalafil Mylan / – / Erektiohäiriö (peruutettu); EMEA/H/C/000436 / Cialis / – / Erektiohäiriö (peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Tadalafil Lilly (EMEA/H/C/004666), Talmanco (EMEA/H/C/004297), Adcirca (EMEA/H/C/001021), Tadalafil Mylan (EMEA/H/C/003787), Cialis (EMEA/H/C/000436) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-tadalafil-1 -->
 
 ---
 
@@ -140,6 +146,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi yksi peruutettu myyntilupa (Yuvanci, EMEA/H/C/005001, keuhkovaltimoverenpaine)” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi kaikki tadalafiilin myyntiluvat Suomessa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 5 myyntilupaa (Tadalafil Lilly (EMEA/H/C/004666), Talmanco (EMEA/H/C/004297), Adcirca (EMEA/H/C/001021), Tadalafil Mylan (EMEA/H/C/003787), Cialis (EMEA/H/C/000436)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

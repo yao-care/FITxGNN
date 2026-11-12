@@ -105,7 +105,13 @@ Sijan 1 ennusteelle ei ole kirjallisuutta. Alla on sijan 2 (unettomuus) ja sijan
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/003870 | Hetlioz | – | Vuorokausirytmin unihäiriöt (peruutettu) |
+| EMEA/H/C/003870 | Hetlioz | – | Vuorokausirytmin unihäiriöt (voimassa) |
+
+<!-- review:begin fi-row-20261112-tasimelteon-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/003870 / Hetlioz / – / Vuorokausirytmin unihäiriöt (peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntilupa Hetlioz (EMEA/H/C/003870) on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-tasimelteon-1 -->
 
 ---
 
@@ -155,6 +161,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Suomessa tasimelteonin ainoa myyntilupa on peruutettu, mikä rajoittaa käytännön saatavuutta” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Peruutetun myyntiluvan syyn selvittämistä sekä lääkemuoto- ja antoreittitietojen täydentämistä” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: Hetlioz (EMEA/H/C/003870) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

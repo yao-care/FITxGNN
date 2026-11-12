@@ -106,7 +106,13 @@ Kaikki tutkimukset koskevat HCV:n hoitoa; yksikään ei osoita vaikutusta HIV:he
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/004126 | Zepatier | Ei tietoa | Krooninen C-hepatiitti (tila: peruutettu) |
+| EMEA/H/C/004126 | Zepatier | Ei tietoa | Krooninen C-hepatiitti (tila: voimassa) |
+
+<!-- review:begin fi-row-20261112-grazoprevir-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/004126 / Zepatier / Ei tietoa / Krooninen C-hepatiitti (tila: peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntilupa Zepatier (EMEA/H/C/004126) on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-grazoprevir-1 -->
 
 ---
 
@@ -170,6 +176,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Suomessa ainoa myyntilupa on peruutettu, joten käyttö edellyttäisi saatavuuden selvittämistä” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: Zepatier (EMEA/H/C/004126) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

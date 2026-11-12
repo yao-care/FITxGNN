@@ -103,7 +103,13 @@ Suurin osa kirjallisuudesta koskee perifeerisiä T-solulymfoomia eikä follikula
 
 | Myyntilupanumero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/002455 | Adcetris (Takeda Pharma A/S) | – | Non-Hodgkin-lymfooma; Hodgkinin tauti (tila: peruutettu) |
+| EMEA/H/C/002455 | Adcetris (Takeda Pharma A/S) | – | Non-Hodgkin-lymfooma; Hodgkinin tauti (tila: voimassa) |
+
+<!-- review:begin fi-row-20261112-brentuximab_vedotin-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/002455 / Adcetris (Takeda Pharma A/S) / – / Non-Hodgkin-lymfooma; Hodgkinin tauti (tila: peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntilupa Adcetris (EMEA/H/C/002455) on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-brentuximab_vedotin-1 -->
 
 ---
 
@@ -165,6 +171,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi suomalainen myyntilupa on peruutettu ja v” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: Adcetris (EMEA/H/C/002455) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

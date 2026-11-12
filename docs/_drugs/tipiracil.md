@@ -70,7 +70,13 @@ Tällä hetkellä ei ole saatavilla aiheeseen liittyvää kirjallisuutta.
 
 | Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/003897 | Lonsurf | – | Kolorektaalisyöpä (tila: peruutettu) |
+| EMEA/H/C/003897 | Lonsurf | – | Kolorektaalisyöpä (tila: voimassa) |
+
+<!-- review:begin fi-row-20261112-tipiracil-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/003897 / Lonsurf / – / Kolorektaalisyöpä (tila: peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntilupa Lonsurf (EMEA/H/C/003897) on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-tipiracil-1 -->
 
 Myyntilupa on voimassa (1 lupa, joka on voimassa). Valmiste on yhdistelmävalmiste, joka sisältää myös trifluridiinia.
 
@@ -92,6 +98,18 @@ Muuten turvallisuustiedot on tarkistettava valmisteyhteenvedosta.
 - Yksityiskohtaista vaikutusmekanismitietoa
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden kokoamista
 - Hyöty–haitta-arviota suhteessa nykyisiin tähystys- ja leikkaushoitoihin
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-12 | Taulukko: Lonsurf (EMEA/H/C/003897) on voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
 
 ## Vastuuvapauslauseke
 

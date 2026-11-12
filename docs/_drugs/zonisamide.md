@@ -82,8 +82,14 @@ Näistä poissaolokohtausepilepsia on lähinnä jo hyväksyttyä käyttöä, kos
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/000577 | Zonegran (peruutettu) | – | Osittaiset epilepsiakohtaukset |
-| EMEA/H/C/004127 | Zonisamide Viatris (aiemmin Zonisamide Mylan) (peruutettu) | – | Epilepsia |
+| EMEA/H/C/000577 | Zonegran (voimassa) | – | Osittaiset epilepsiakohtaukset |
+| EMEA/H/C/004127 | Zonisamide Viatris (aiemmin Zonisamide Mylan) (voimassa) | – | Epilepsia |
+
+<!-- review:begin fi-row-20261112-zonisamide-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/000577 / Zonegran (peruutettu) / – / Osittaiset epilepsiakohtaukset; EMEA/H/C/004127 / Zonisamide Viatris (aiemmin Zonisamide Mylan) (peruutettu) / – / Epilepsia” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Zonegran (EMEA/H/C/000577), Zonisamide Viatris (EMEA/H/C/004127) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-zonisamide-1 -->
 
 ## Turvallisuusnäkökohdat
 
@@ -121,6 +127,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi lääkkeellä ei ole voimassa olevaa myyntilupaa Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 2 myyntilupaa (Zonegran (EMEA/H/C/000577), Zonisamide Viatris (EMEA/H/C/004127)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

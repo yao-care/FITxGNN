@@ -91,8 +91,14 @@ Julkaisut ovat pääosin epäsuoria, eikä yksikään niistä osoita tobramysiin
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/005086 | Vantobra (aiemmin Tobramycin PARI) | – | Hengitystieinfektiot; kystinen fibroosi (peruutettu) |
-| EMEA/H/C/002155 | Tobi Podhaler | – | Kystinen fibroosi; hengitystieinfektiot (peruutettu) |
+| EMEA/H/C/005086 | Vantobra (aiemmin Tobramycin PARI) | – | Hengitystieinfektiot; kystinen fibroosi (voimassa) |
+| EMEA/H/C/002155 | Tobi Podhaler | – | Kystinen fibroosi; hengitystieinfektiot (voimassa) |
+
+<!-- review:begin fi-row-20261112-tobramycin-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/005086 / Vantobra (aiemmin Tobramycin PARI) / – / Hengitystieinfektiot; kystinen fibroosi (peruutettu); EMEA/H/C/002155 / Tobi Podhaler / – / Kystinen fibroosi; hengitystieinfektiot (peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Vantobra (EMEA/H/C/005086), Tobi Podhaler (EMEA/H/C/002155) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-tobramycin-1 -->
 
 ## Turvallisuusnäkökohdat
 
@@ -131,6 +137,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Tobramysiinillä ei lisäksi ole voimassa olevia myyntilupia Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 2 myyntilupaa (Vantobra (EMEA/H/C/005086), Tobi Podhaler (EMEA/H/C/002155)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

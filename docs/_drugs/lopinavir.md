@@ -88,8 +88,14 @@ Aiheeseen ei ole tällä hetkellä rekisteröity kliinisiä tutkimuksia.
 
 | Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/004025 | Lopinavir/Ritonavir Viatris (aiemmin Ritonavir Mylan) | – | HIV-infektiot (peruutettu) |
-| EMEA/H/C/000368 | Kaletra | – | HIV-infektiot (peruutettu) |
+| EMEA/H/C/004025 | Lopinavir/Ritonavir Viatris (aiemmin Ritonavir Mylan) | – | HIV-infektiot (voimassa) |
+| EMEA/H/C/000368 | Kaletra | – | HIV-infektiot (voimassa) |
+
+<!-- review:begin fi-row-20261112-lopinavir-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/004025 / Lopinavir/Ritonavir Viatris (aiemmin Ritonavir Mylan) / – / HIV-infektiot (peruutettu); EMEA/H/C/000368 / Kaletra / – / HIV-infektiot (peruutettu)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Lopinavir/Ritonavir Viatris (EMEA/H/C/004025), Kaletra (EMEA/H/C/000368) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-row-20261112-lopinavir-1 -->
 
 ---
 
@@ -131,6 +137,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”ja lääkkeen myyntiluvat Suomessa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: 2 myyntilupaa (Lopinavir/Ritonavir Viatris (EMEA/H/C/004025), Kaletra (EMEA/H/C/000368)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 244
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-13
 monitor_inn: "LAMIVUDINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "chronic hepatitis C virus infection"]
 description: "Lamivudine: ennustettu uusi käyttöaihe Feline acquired immunodeficiency syndrome (näytön taso L5). Alkuperäinen käyttöaihe: Hepatitis B, Chronic"
@@ -52,8 +52,8 @@ Tämä on tutkimuskysymys, ei ihmisille tarkoitettu uusi käyttöaihe.
 | Ennustettu uusi käyttöaihe | Feline acquired immunodeficiency syndrome |
 | TxGNN-ennustepistemäärä | 0.9993 |
 | Näytön taso | L5 (rajoittuu eläimillä tehtyihin kohorttitutkimuksiin ja prekliiniseen näyttöön; ihmisillä ei tutkimuksia) |
-| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 10/10) |
-| Myyntilupien määrä | 10 (voimassa: 10) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 9/10) |
+| Myyntilupien määrä | 10 (voimassa: 9) |
 | Suositeltu päätös | Hold (odotetaan; jatkotutkimus tutkimuskysymyksenä) |
 
 ---

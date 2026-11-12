@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 479
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-13
 monitor_inn: "ZIDOVUDINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
 description: "Zidovudine: ennustettu uusi käyttöaihe Kissan hankinnainen immuunipuutosoireyhtymä (feline acquired immunodeficiency syndrome) (näytön taso L5). Alkuperäinen käyttöaihe: Ei kirjattu paikallisiin tiet…"
@@ -52,8 +52,8 @@ Tämä ennuste ei ole ihmisen lääkkeen uudelleenkäyttöä. Raportin lopussa a
 | Ennustettu uusi käyttöaihe | Kissan hankinnainen immuunipuutosoireyhtymä (feline acquired immunodeficiency syndrome) |
 | TxGNN-ennustepistemäärä | 0.9996 |
 | Näytön taso | L5 (eläin- ja prekliininen näyttö) |
-| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 2/2) |
-| Myyntilupien määrä | 2 (voimassa: 2) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 1/2) |
+| Myyntilupien määrä | 2 (voimassa: 1) |
 | Suositeltu päätös | Hold (ihmiskäyttöä ajatellen tämä ennuste on tutkimuskysymys) |
 
 ---
@@ -121,11 +121,11 @@ Ensisijaisen ennusteen (kissan immuunipuutos) kirjallisuus on kokonaan eläintut
 | Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
 | EMEA/H/C/000190 | Combivir (voimassa) | Ei tiedossa | HIV-infektio |
-| EMEA/H/C/000338 | Trizivir (voimassa) | Ei tiedossa | HIV-infektio |
+| EMEA/H/C/000338 | Trizivir (peruutettu) | Ei tiedossa | HIV-infektio |
 
 <!-- review:begin fi-row-20261112-zidovudine-1 -->
 
-> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/000190 / Combivir (peruutettu) / Ei tiedossa / HIV-infektio; EMEA/H/C/000338 / Trizivir (peruutettu) / Ei tiedossa / HIV-infektio” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Combivir (EMEA/H/C/000190), Trizivir (EMEA/H/C/000338) ovat voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”EMEA/H/C/000190 / Combivir (peruutettu) / Ei tiedossa / HIV-infektio; EMEA/H/C/000338 / Trizivir (peruutettu) / Ei tiedossa / HIV-infektio” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-12) mukaan Combivir (EMEA/H/C/000190) on voimassa (Authorised) ja Trizivir (EMEA/H/C/000338) on peruutettu (Withdrawn). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-row-20261112-zidovudine-1 -->
 
@@ -186,7 +186,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Molemmat myyntiluvat on peruutettu, eikä voimassa olevia myyntilupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi molemmat Suomen myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
-| 2026-11-12 | Taulukko: 2 myyntilupaa (Combivir (EMEA/H/C/000190), Trizivir (EMEA/H/C/000338)) ovat voimassa, ei peruutettuja | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Taulukko: Combivir (EMEA/H/C/000190) on voimassa; Trizivir (EMEA/H/C/000338) on peruutettu | Korjattu (päivitetty 2026-11-12; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

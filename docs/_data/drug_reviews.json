@@ -15195,19 +15195,43 @@
    "file": "zidovudine.md",
    "action": "correct",
    "claim": "| EMEA/H/C/000190 | Combivir (peruutettu) | Ei tiedossa | HIV-infektio |\n| EMEA/H/C/000338 | Trizivir (peruutettu) | Ei tiedossa | HIV-infektio |",
-   "replacement": "| EMEA/H/C/000190 | Combivir (voimassa) | Ei tiedossa | HIV-infektio |\n| EMEA/H/C/000338 | Trizivir (voimassa) | Ei tiedossa | HIV-infektio |",
-   "summary": "Taulukko: 2 myyntilupaa (Combivir (EMEA/H/C/000190), Trizivir (EMEA/H/C/000338)) ovat voimassa, ei peruutettuja",
-   "note": "EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Combivir (EMEA/H/C/000190), Trizivir (EMEA/H/C/000338) ovat voimassa (Authorised).",
-   "finding": "許可證表 2 列把 EMA 現行有效（Authorised）的許可寫成 peruutettu（11 月 AI 重產照證據包狀態對應錯誤寫的）；事實層（data-20261109-131325）與 EMA 皆有效，只改狀態字",
+   "replacement": "| EMEA/H/C/000190 | Combivir (voimassa) | Ei tiedossa | HIV-infektio |\n| EMEA/H/C/000338 | Trizivir (peruutettu) | Ei tiedossa | HIV-infektio |",
+   "summary": "Taulukko: Combivir (EMEA/H/C/000190) on voimassa; Trizivir (EMEA/H/C/000338) on peruutettu",
+   "note": "EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-12) mukaan Combivir (EMEA/H/C/000190) on voimassa (Authorised) ja Trizivir (EMEA/H/C/000338) on peruutettu (Withdrawn).",
+   "finding": "許可證表 2 列：Combivir EMA 現行有效（11 月 AI 重產誤寫 peruutettu，改 voimassa）；Trizivir 2026-11-12 EMA 改為 Withdrawn，維持 peruutettu（同 id 重發，前版存 history）",
    "sources": [
     {
      "title": "EMA – Medicines output (European public assessment reports)",
      "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
-     "accessed": "2026-11-09"
+     "accessed": "2026-11-12"
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（表格列狀態對事實層，check_drug_page.py --row-status）"
+   "method": "2026-11-12 人工查核（表格列狀態對事實層，check_drug_page.py --row-status）",
+   "history": [
+    {
+     "id": "fi-row-20261112-zidovudine-1",
+     "drug": "zidovudine",
+     "file": "zidovudine.md",
+     "action": "correct",
+     "claim": "| EMEA/H/C/000190 | Combivir (peruutettu) | Ei tiedossa | HIV-infektio |\n| EMEA/H/C/000338 | Trizivir (peruutettu) | Ei tiedossa | HIV-infektio |",
+     "replacement": "| EMEA/H/C/000190 | Combivir (voimassa) | Ei tiedossa | HIV-infektio |\n| EMEA/H/C/000338 | Trizivir (voimassa) | Ei tiedossa | HIV-infektio |",
+     "summary": "Taulukko: 2 myyntilupaa (Combivir (EMEA/H/C/000190), Trizivir (EMEA/H/C/000338)) ovat voimassa, ei peruutettuja",
+     "note": "EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan myyntiluvat Combivir (EMEA/H/C/000190), Trizivir (EMEA/H/C/000338) ovat voimassa (Authorised).",
+     "finding": "許可證表 2 列把 EMA 現行有效（Authorised）的許可寫成 peruutettu（11 月 AI 重產照證據包狀態對應錯誤寫的）；事實層（data-20261109-131325）與 EMA 皆有效，只改狀態字",
+     "sources": [
+      {
+       "title": "EMA – Medicines output (European public assessment reports)",
+       "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+       "accessed": "2026-11-09"
+      }
+     ],
+     "checked": "2026-11-12",
+     "method": "2026-11-12 人工查核（表格列狀態對事實層，check_drug_page.py --row-status）",
+     "retired": "2026-11-12",
+     "reason": "2026-11-12 每週更新：EMA 把 Trizivir（EMEA/H/C/000338）改為 Withdrawn，前版把它改成 voimassa 已不成立；Combivir 仍是 Authorised"
+    }
+   ]
   },
   {
    "id": "fi-lic-20261106-zonisamide-1",

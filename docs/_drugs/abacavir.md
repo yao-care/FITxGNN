@@ -5,7 +5,7 @@ parent: Pelkkä mallin ennuste (L5)
 nav_order: 11
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-13
 description: "Abacavir: ennustettu uusi käyttöaihe Apinoiden immuunikatovirusinfektio (SIV) (näytön taso L5). Alkuperäinen käyttöaihe: HIV-infektiot"
 monitor_inn: "ABACAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -50,8 +50,8 @@ Abakaviiri on nukleosidirakenteinen käänteiskopioijaentsyymin estäjä, jota o
 | Ennustettu uusi käyttöaihe | Apinoiden immuunikatovirusinfektio (SIV) |
 | TxGNN-ennusteen pistemäärä | 0,9979 |
 | Näytön taso | L5 |
-| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 4/4) |
-| Myyntilupien määrä | 4 (voimassa: 4) |
+| Markkinatilanne Suomessa | Markkinoilla (voimassa olevia lupia: 3/4) |
+| Myyntilupien määrä | 4 (voimassa: 3) |
 | Suositeltu päätös | Hold (odota) |
 
 ---

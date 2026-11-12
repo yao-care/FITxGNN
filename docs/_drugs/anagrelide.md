@@ -116,7 +116,13 @@ Valmisteyhteenvedon varoitukset ja vasta-aiheet tulee tarkistaa erikseen.
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivuilta
 - Kliinisen tarpeen osoittamista: potilasryhmä, jossa reaktiivinen trombosytoosi on vaikea ja hoitoresistentti
 - Tutkimusnäyttöä (esim. tapaussarjoja tai pilottitutkimus) anagrelidin käytöstä tässä tilassa
-- Selvitystä peruutettujen myyntilupien syistä ja valmisteen saatavuudesta Suomessa
+- Selvitystä valmisteen saatavuudesta Suomessa
+
+<!-- review:begin fi-lic-20261112-anagrelide-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”Selvitystä peruutettujen myyntilupien syistä ja valmisteen saatavuudesta Suomessa” Poistettu: EMA:n tietojen (2026-11-09) mukaan anagrelidin molemmat myyntiluvat (EMEA/H/C/000480, EMEA/H/C/004585) ovat voimassa, joten peruutettuja lupia ei ole. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261112-anagrelide-1 -->
 
 **Sivuhuomio:** Toinen ennustettu käyttöaihe, käänteinen Klippel–Trenaunayn oireyhtymä (TxGNN-pistemäärä 0,9959), perustuu pelkkään mallin ennusteeseen (L5), eikä sille ole tutkimuksia tai kirjallisuutta. Sille ei voida perustella mekanistista yhteyttä toimitetun aineiston pohjalta, ja suositus on myös Hold.
 
@@ -129,6 +135,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lisäksi lääkkeen kaikki myyntiluvat Suomessa on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Poistettu: ”peruutettujen myyntilupien syistä” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

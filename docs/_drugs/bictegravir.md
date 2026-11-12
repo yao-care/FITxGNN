@@ -111,7 +111,12 @@ Valmisteyhteenvedon varoituksia ja vasta-aiheita ei ole tässä aineistossa saat
 - Vaikutusmekanismitiedon täydentäminen DrugBankista
 - FIV-spesifinen prekliininen näyttö (esim. in vitro -herkkyystutkimus FIV-integraasia vastaan)
 - Päätös siitä, onko eläinlääkinnällinen tai prekliininen suunta tutkimusstrategian kannalta relevantti
-- Peruutettujen myyntilupien tilanteen selvittäminen
+
+<!-- review:begin fi-lic-20261112-bictegravir-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”Peruutettujen myyntilupien tilanteen selvittäminen” Poistettu: EMA:n tietojen (2026-11-09) mukaan bictegraviiria sisältävän valmisteen myyntilupa (EMEA/H/C/004449) on voimassa, joten peruutettuja lupia ei ole. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261112-bictegravir-1 -->
 
 <!-- review:begin log -->
 
@@ -122,6 +127,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Lääkkeellä ei ole voimassa olevaa myyntilupaa Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Poistettu: ”Peruutettujen myyntilupien tilanteen selvittäminen” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

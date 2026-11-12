@@ -38,9 +38,15 @@ Näytön taso: **L5** | Ennustetut käyttöaiheet: **1** kpl
 
 ## Yhden lauseen yhteenveto
 
-Mometasoni on glukokortikoidi, jota on käytetty astman hoidossa (Suomessa myyntiluvallinen yhdistelmävalmiste Enerzair Breezhaler, nykyisin peruutettu).
+Mometasoni on glukokortikoidi, jota on käytetty astman hoidossa (Suomessa myyntiluvallinen yhdistelmävalmiste Enerzair Breezhaler).
 TxGNN-malli ennustaa sen voivan tehota **primaariseen ihon T-solulymfoomaan**.
 Ennustetta tukee tällä hetkellä vain **2 tapausselostusta** eikä yhtään kliinistä tutkimusta, joten näyttö on heikko.
+
+<!-- review:begin fi-lic-20261112-mometasone-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”Enerzair Breezhaler, nykyisin peruutettu)” Poistettu: EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan Enerzair Breezhalerin (EMEA/H/C/005061) myyntilupa on voimassa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261112-mometasone-1 -->
 
 ## Pikayhteenveto
 
@@ -110,6 +116,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Myyntilupa on lisäksi peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Poistettu: ”nykyisin peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

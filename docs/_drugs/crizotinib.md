@@ -103,7 +103,13 @@ Huomio: RCT-tutkimukset koskevat pahanlaatuista ALK-positiivista keuhkosyöpää
 
 | Myyntiluvan numero | Tuotenimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/002489 | Xalkori | – | Ei-pienisoluinen keuhkosyöpä (tila: mitätöity) |
+| EMEA/H/C/002489 | Xalkori | – | Ei-pienisoluinen keuhkosyöpä |
+
+<!-- review:begin fi-lic-20261112-crizotinib-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”Ei-pienisoluinen keuhkosyöpä (tila: mitätöity)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan Xalkorin (EMEA/H/C/002489) myyntilupa on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261112-crizotinib-1 -->
 
 ---
 
@@ -143,7 +149,13 @@ Varoituksista ja vasta-aiheista katso valmisteyhteenveto.
 **Päätös: Hold (odota)**
 
 **Perustelut:**
-- Ensisijaiselle ennusteelle (ientten fibromatoosi) on vain mallin pistemäärä (L5) eikä yhtään tutkimusta tai julkaisua, eikä biologista yhteyttä ALK/ROS1/MET-estoon ole nähtävissä. Lisäksi Suomen myyntilupa on mitätöity ja valmisteyhteenvedon turvallisuustiedot puuttuvat.
+- Ensisijaiselle ennusteelle (ientten fibromatoosi) on vain mallin pistemäärä (L5) eikä yhtään tutkimusta tai julkaisua, eikä biologista yhteyttä ALK/ROS1/MET-estoon ole nähtävissä. Lisäksi valmisteyhteenvedon turvallisuustiedot puuttuvat.
+
+<!-- review:begin fi-lic-20261112-crizotinib-2 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”Lisäksi Suomen myyntilupa on mitätöity ja valmisteyhteenvedon turvallisuustiedot puuttuvat.” Poistettu: EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan Xalkorin (EMEA/H/C/002489) myyntilupa on voimassa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261112-crizotinib-2 -->
 
 **Jatkoon tarvitaan:**
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankinta Fimeasta (estää turvallisuusseulonnan etenemisen)
@@ -151,6 +163,20 @@ Varoituksista ja vasta-aiheista katso valmisteyhteenveto.
 - Ennustetun käyttöaiheen biologisen perustelun selvitys (esim. kinaasireitit fibroblastien lisääntymisessä)
 - Jos selvitystä jatketaan, kohdennettava mieluummin keuhkoalueen kohteisiin (esim. keuhkon sukusolukasvain, ALK/ROS1-positiiviset kasvaimet), joissa on tuumorista riippumattomia tutkimuksia
 - Tarkistettava crizotinibin markkinatilanne Suomessa ja mahdolliset korvaavat valmisteet
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-12 | Taulukko: Xalkori (EMEA/H/C/002489) on voimassa, ei mitätöity | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Poistettu: ”Suomen myyntilupa on mitätöity” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

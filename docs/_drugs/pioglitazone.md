@@ -108,13 +108,19 @@ Haiman agenesian (sija 9) osalta haetut 7 julkaisua (mm. PMID [20859539](https:/
 | EMEA/H/C/000680 | Tandemact | – | Tyypin 2 diabetes (peruutettu) |
 | EMEA/H/C/000655 | Competact | – | Tyypin 2 diabetes (peruutettu) |
 
-Viides taulukon ulkopuolinen lupa: Incresync (EMEA/H/C/002178, Takeda Pharma A/S), myös peruutettu.
+Viides taulukon ulkopuolinen lupa: Incresync (EMEA/H/C/002178, Takeda Pharma A/S), voimassa.
 
 <!-- review:begin fi-lic-20261106-pioglitazone-1 -->
 
 > **Tarkistuskorjaus (2026-11-06)**: Alun perin tässä luki: ”Kaikki kuusi myyntilupaa on peruutettu; voimassa olevia lupia ei ole. Viides taulukon ulkopuolinen lupa: Incresync (EMEA/H/C/002178, Takeda Pharma A/S), myös peruutettu.” Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 6 myyntilupaa, joista 6 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
 
 <!-- review:end fi-lic-20261106-pioglitazone-1 -->
+
+<!-- review:begin fi-lic-20261112-pioglitazone-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”(EMEA/H/C/002178, Takeda Pharma A/S), myös peruutettu.” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan Incresyncin (EMEA/H/C/002178) myyntilupa on voimassa; kaikki kuusi pioglitatsonin myyntilupaa ovat voimassa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261112-pioglitazone-1 -->
 
 ---
 
@@ -164,9 +170,10 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 
 | Tarkistuspäivä | Kohta | Toimenpide | Lähde |
 |------|------|------|------|
-| 2026-11-06 | Poistettu: ”Kaikki kuusi myyntilupaa on peruutettu; voimassa olevia lupia ei ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-06 | Poistettu: ”Kaikki kuusi myyntilupaa on peruutettu; voimassa olevia lupia ei ole” | Korjattu (päivitetty 2026-11-12; aiempi versio tallessa lokissa) | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi Suomessa ei ole voimassa olevia myyntilupia” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”koska kaikki luvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Incresync (EMEA/H/C/002178): voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

@@ -124,7 +124,13 @@ Lisäksi leflunomidin aktiivinen metaboliitti on teratogeeninen, mikä on merkit
 - Valmisteyhteenvedon varoitusten ja vasta-aiheiden hankkimista Fimean sivuilta
 - Prekliinistä tai mekanistista näyttöä ennustetuista käyttöaiheista
 - Arviota teratogeenisuuden ja ennustetun käyttöaiheen yhteensopivuudesta
-- Selvitystä peruutettujen myyntilupien syistä ja nykyisistä saatavuusreiteistä
+- Selvitystä nykyisistä saatavuusreiteistä
+
+<!-- review:begin fi-lic-20261112-leflunomide-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”Selvitystä peruutettujen myyntilupien syistä ja nykyisistä saatavuusreiteistä” Poistettu: EMA:n tietojen (2026-11-09) mukaan leflunomidin neljä myyntilupaa ovat voimassa, joten peruutettuja lupia ei ole. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261112-leflunomide-1 -->
 
 <!-- review:begin log -->
 
@@ -136,6 +142,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki neljä myyntilupaa on peruutettu, eikä voimassa olevia myyntilupia ole” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”ja kaikki Suomen myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Poistettu: ”peruutettujen myyntilupien syistä” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

@@ -62,6 +62,12 @@ Ramusirumabi on VEGFR2:ta (verisuonten endoteelikasvutekijän reseptori 2) kohde
 
 Mahasyöpä ja ennustettu kohdun ligamentin adenokarsinooma ovat molemmat adenokarsinoomia, joiden kasvu voi olla riippuvaista angiogeneesistä. Yhteys on kuitenkin löyhä: ennuste nojaa yksinomaan TxGNN-mallin pisteisiin, eikä sitä tue mikään kliininen näyttö tälle käyttöaiheelle.
 
+<!-- review:begin fi-lic-20261112-ramucirumab-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”Mahasyöpä (tila: mitätöity)” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan Cyramzan (EMEA/H/C/002829) myyntilupa on voimassa (Authorised). Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261112-ramucirumab-1 -->
+
 Samankaltaisia ennusteita mallin kärkisijoilta ovat muun muassa kohdunkaulan endoserviikaalinen karsinooma, kohdunkaulan adenoidikystinen karsinooma sekä useat kohdun ligamentin adenokarsinoomien histologiset alatyypit (seroosi, endometrioidi, kirkassoluinen, musinoottinen). Kaikissa näissä näyttö on L5-tasoa. Kohdunkaulan syövässä anti-angiogeeninen hoito (bevasitsumabi) on osoittanut tehoa, mikä antaa epäsuoran biologisen perustelun. Signettisolu- ja suolen tyyppiset kohdunkaulan musinoottiset adenokarsinoomat muistuttavat histologisesti maha-suolikanavan syöpää, mutta tämä ei ole näyttöä tehosta. Korkeat pisteet johtuvat todennäköisesti jaetuista kohdunkaulansyövän ontologiaa koskevista naapurisolmuista eikä tautikohtaisesta datasta.
 
 ---
@@ -82,7 +88,7 @@ Aiheesta ei ole tällä hetkellä saatavilla asiaan liittyvää kirjallisuutta.
 
 | Myyntiluvan numero | Valmisteen nimi | Lääkemuoto | Hyväksytty käyttöaihe |
 |---------|------|------|-----------|
-| EMEA/H/C/002829 | Cyramza (Eli Lilly Nederland B.V.) | – | Mahasyöpä (tila: mitätöity) |
+| EMEA/H/C/002829 | Cyramza (Eli Lilly Nederland B.V.) | – | Mahasyöpä |
 
 ---
 
@@ -117,7 +123,13 @@ Keskivaikeita (Moderate) yhteisvaikutuksia on mm. deksfenfluramiinin, fenflurami
 **Päätös: Hold (odotetaan)**
 
 **Perustelut:**
-- Ennuste perustuu pelkästään TxGNN-pisteisiin (L5), eikä ainuttakaan kliinistä tutkimusta tai julkaisua ole. Lisäksi ramusirumabin myyntilupa Suomessa on mitätöity ja turvallisuustiedot puuttuvat.
+- Ennuste perustuu pelkästään TxGNN-pisteisiin (L5), eikä ainuttakaan kliinistä tutkimusta tai julkaisua ole. Lisäksi turvallisuustiedot puuttuvat.
+
+<!-- review:begin fi-lic-20261112-ramucirumab-2 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”Lisäksi ramusirumabin myyntilupa Suomessa on mitätöity ja turvallisuustiedot puuttuvat.” Poistettu: EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan Cyramzan (EMEA/H/C/002829) myyntilupa on voimassa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261112-ramucirumab-2 -->
 
 **Etenemiseksi tarvitaan:**
 - Valmisteyhteenvedon varoitukset ja vasta-aiheet (Fimea), jotta turvallisuusseulonta voidaan tehdä
@@ -125,6 +137,20 @@ Keskivaikeita (Moderate) yhteisvaikutuksia on mm. deksfenfluramiinin, fenflurami
 - Prekliininen tai kliininen näyttö ramusirumabista gynekologisissa adenokarsinoomissa, sekä kirjallisuushaku ja tutkimusrekisterien selvitys
 - Selvitys valmisteen saatavuudesta ja myyntilupatilanteesta Suomessa
 - Verenvuotoriskiin liittyvä yhteisvaikutusten arviointi (antikoagulantit ja verihiutaleiden estäjät)
+
+<!-- review:begin log -->
+
+## Tarkistusloki
+
+Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisista myyntilupatiedoista (EMA:n keskitetysti myönnetyt myyntiluvat). Korjaukset koskevat vain perustietoja; mallin ennusteita, näytön tasoja ja johtopäätöksiä ei ole kirjoitettu uudelleen.
+
+| Tarkistuspäivä | Kohta | Toimenpide | Lähde |
+|------|------|------|------|
+| 2026-11-12 | Taulukko: Cyramza (EMEA/H/C/002829) on voimassa, ei mitätöity | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Poistettu: ”ramusirumabin myyntilupa Suomessa on mitätöity” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+
+<!-- review:end log -->
+
 ## Vastuuvapauslauseke
 
 Tämä sisältö on tarkoitettu ainoastaan tutkimuskäyttöön eikä se ole lääketieteellistä neuvontaa.

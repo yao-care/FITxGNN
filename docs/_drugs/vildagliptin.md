@@ -94,7 +94,13 @@ Luvat ovat EU:n keskitettyjä myyntilupia (EMEA/H/C), ja kaikkien hyväksytty k�
 | EMEA/H/C/001049 | Zomarist | Tyypin 2 diabetes |
 | EMEA/H/C/000807 | Eucreas | Tyypin 2 diabetes |
 
-Lisäksi luettelossa on kaksi muuta peruutettua metformiinin kanssa yhdistettyä valmistetta: Icandra ja Vildagliptin / Metformin hydrochloride Accord.
+Lisäksi luettelossa on kaksi muuta voimassa olevaa metformiinin kanssa yhdistettyä valmistetta: Icandra ja Vildagliptin / Metformin hydrochloride Accord.
+
+<!-- review:begin fi-lic-20261112-vildagliptin-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”kaksi muuta peruutettua metformiinin kanssa yhdistettyä valmistetta” EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan kaikki seitsemän vildagliptiinin myyntilupaa, myös Icandra ja Vildagliptin / Metformin hydrochloride Accord, ovat voimassa. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261112-vildagliptin-1 -->
 
 ---
 
@@ -163,6 +169,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki seitsemän myyntilupaa on peruutettu. Voimassa olevia vildagliptiinivalmisteita ei siis ole tässä aineistossa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Kaikki Suomen myyntiluvat on lisäksi peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Icandra ja Vildagliptin / Metformin hydrochloride Accord: voimassa, ei peruutettu | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 

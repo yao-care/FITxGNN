@@ -467,6 +467,26 @@
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：60471841（2026-11-06）"
   },
   {
+   "id": "fi-lic-20261112-anagrelide-1",
+   "drug": "anagrelide",
+   "file": "anagrelide.md",
+   "action": "correct",
+   "claim": "Selvitystä peruutettujen myyntilupien syistä ja valmisteen saatavuudesta Suomessa",
+   "replacement": "Selvitystä valmisteen saatavuudesta Suomessa",
+   "summary": "Poistettu: ”peruutettujen myyntilupien syistä”",
+   "note": "Poistettu: EMA:n tietojen (2026-11-09) mukaan anagrelidin molemmat myyntiluvat (EMEA/H/C/000480, EMEA/H/C/004585) ovat voimassa, joten peruutettuja lupia ei ole.",
+   "finding": "下一步以「已撤銷的許可」為前提；證據包 EMA 2 張全 Authorised。只刪這個前提",
+   "sources": [
+    {
+     "title": "EMA – Medicines output (European public assessment reports)",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文許可證狀態對事實層與證據包）"
+  },
+  {
    "id": "fi-lic-20261106-aripiprazole-1",
    "drug": "aripiprazole",
    "file": "aripiprazole.md",
@@ -949,6 +969,27 @@
    "checked": "2026-11-06",
    "summary": "Poistettu: ”Lääkkeellä ei ole voimassa olevaa myyntilupaa Suomessa”",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：60471841（2026-11-06）"
+  },
+  {
+   "id": "fi-lic-20261112-bictegravir-1",
+   "drug": "bictegravir",
+   "file": "bictegravir.md",
+   "action": "correct",
+   "claim": "\n- Peruutettujen myyntilupien tilanteen selvittäminen",
+   "replacement": "",
+   "summary": "Poistettu: ”Peruutettujen myyntilupien tilanteen selvittäminen”",
+   "note": "Poistettu: EMA:n tietojen (2026-11-09) mukaan bictegraviiria sisältävän valmisteen myyntilupa (EMEA/H/C/004449) on voimassa, joten peruutettuja lupia ei ole.",
+   "finding": "下一步整項以「已撤銷的許可」為前提；證據包 EMA 004449：Authorised。整項刪除",
+   "sources": [
+    {
+     "title": "EMA – Medicines output (European public assessment reports)",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文許可證狀態對事實層與證據包）",
+   "anchor": "- Päätös siitä, onko eläinlääkinnällinen tai prekliininen suunta tutkimusstrategian kannalta relevantti"
   },
   {
    "id": "fi-lic-20261106-brentuximab_vedotin-1",
@@ -4104,6 +4145,26 @@
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：60471841（2026-11-06）"
   },
   {
+   "id": "fi-lic-20261112-leflunomide-1",
+   "drug": "leflunomide",
+   "file": "leflunomide.md",
+   "action": "correct",
+   "claim": "Selvitystä peruutettujen myyntilupien syistä ja nykyisistä saatavuusreiteistä",
+   "replacement": "Selvitystä nykyisistä saatavuusreiteistä",
+   "summary": "Poistettu: ”peruutettujen myyntilupien syistä”",
+   "note": "Poistettu: EMA:n tietojen (2026-11-09) mukaan leflunomidin neljä myyntilupaa ovat voimassa, joten peruutettuja lupia ei ole.",
+   "finding": "下一步以「已撤銷的許可」為前提；證據包 EMA 4 張全 Authorised。只刪這個前提",
+   "sources": [
+    {
+     "title": "EMA – Medicines output (European public assessment reports)",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文許可證狀態對事實層與證據包）"
+  },
+  {
    "id": "fi-lic-20261106-lenalidomide-1",
    "drug": "lenalidomide",
    "file": "lenalidomide.md",
@@ -5314,6 +5375,26 @@
    "checked": "2026-11-06",
    "summary": "Poistettu: ”Myyntilupa on lisäksi peruutettu”",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：60471841（2026-11-06）"
+  },
+  {
+   "id": "fi-lic-20261112-mometasone-1",
+   "drug": "mometasone",
+   "file": "mometasone.md",
+   "action": "correct",
+   "claim": "Enerzair Breezhaler, nykyisin peruutettu)",
+   "replacement": "Enerzair Breezhaler)",
+   "summary": "Poistettu: ”nykyisin peruutettu”",
+   "note": "Poistettu: EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan Enerzair Breezhalerin (EMEA/H/C/005061) myyntilupa on voimassa.",
+   "finding": "正文說 Enerzair 已撤銷；證據包 EMA 005061：Authorised",
+   "sources": [
+    {
+     "title": "EMA – Medicines output (European public assessment reports)",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文許可證狀態對事實層與證據包）"
   },
   {
    "id": "fi-lic-20261106-moroctocog_alfa-1",
@@ -6681,7 +6762,32 @@
    ],
    "checked": "2026-11-06",
    "summary": "Poistettu: ”Kaikki kuusi myyntilupaa on peruutettu; voimassa olevia lupia ei ole”",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：60471841（2026-11-06）"
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：60471841（2026-11-06）",
+   "history": [
+    {
+     "id": "fi-lic-20261106-pioglitazone-1",
+     "drug": "pioglitazone",
+     "file": "pioglitazone.md",
+     "action": "correct",
+     "claim": "Kaikki kuusi myyntilupaa on peruutettu; voimassa olevia lupia ei ole. Viides taulukon ulkopuolinen lupa: Incresync (EMEA/H/C/002178, Takeda Pharma A/S), myös peruutettu.",
+     "replacement": "Viides taulukon ulkopuolinen lupa: Incresync (EMEA/H/C/002178, Takeda Pharma A/S), myös peruutettu.",
+     "note": "Poistettu: väite, että myyntiluvat olisivat peruttuja, lakanneita tai mitättömiä, ei vastannut myyntilupatietoja (EMA:n keskitetysti myönnetyt myyntiluvat, tilanne 2026-11-06). Tiedoissa (EMA:n keskitetysti myönnetyt myyntiluvat) tälle lääkkeelle on kirjattu 6 myyntilupaa, joista 6 voimassa; ajantasaiset luvut ovat pikakatsauksessa ja markkinatiedoissa.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "EMA – Medicines output (European public assessment reports)",
+       "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+       "accessed": "2026-11-06"
+      }
+     ],
+     "checked": "2026-11-06",
+     "summary": "Poistettu: ”Kaikki kuusi myyntilupaa on peruutettu; voimassa olevia lupia ei ole”",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：60471841（2026-11-06）",
+     "retired": "2026-11-12",
+     "reason": "錨點那句由 fi-lic-20261112-pioglitazone-1 依事實層更正；錨點改成句中不受更正影響的片段，框的位置不變"
+    }
+   ],
+   "anchor": "Viides taulukon ulkopuolinen lupa: Incresync"
   },
   {
    "id": "fi-lic-20261106-pioglitazone-2",
@@ -6722,6 +6828,26 @@
    "checked": "2026-11-06",
    "summary": "Poistettu: ”koska kaikki luvat on peruutettu”",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：60471841（2026-11-06）"
+  },
+  {
+   "id": "fi-lic-20261112-pioglitazone-1",
+   "drug": "pioglitazone",
+   "file": "pioglitazone.md",
+   "action": "correct",
+   "claim": "(EMEA/H/C/002178, Takeda Pharma A/S), myös peruutettu.",
+   "replacement": "(EMEA/H/C/002178, Takeda Pharma A/S), voimassa.",
+   "summary": "Incresync (EMEA/H/C/002178): voimassa, ei peruutettu",
+   "note": "EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan Incresyncin (EMEA/H/C/002178) myyntilupa on voimassa; kaikki kuusi pioglitatsonin myyntilupaa ovat voimassa.",
+   "finding": "11-06 刪掉「六張全撤銷」後留下「Incresync 也撤銷」的殘句；證據包 EMA 002178：Authorised",
+   "sources": [
+    {
+     "title": "EMA – Medicines output (European public assessment reports)",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文許可證狀態對事實層與證據包）"
   },
   {
    "id": "fi-lic-20261106-pirfenidone-1",
@@ -9729,6 +9855,27 @@
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：60471841（2026-11-06）"
   },
   {
+   "id": "fi-lic-20261112-tezacaftor-1",
+   "drug": "tezacaftor",
+   "file": "tezacaftor.md",
+   "action": "correct",
+   "claim": " sekä peruutettujen myyntilupien tilanteesta Suomessa",
+   "replacement": "",
+   "summary": "Poistettu: ”sekä peruutettujen myyntilupien tilanteesta Suomessa”",
+   "note": "Poistettu: EMA:n tietojen (2026-11-09) mukaan tezakaftoria sisältävien valmisteiden kolme myyntilupaa ovat voimassa, joten peruutettuja lupia ei ole.",
+   "finding": "下一步以「已撤銷的許可」為前提；證據包 EMA 3 張全 Authorised。只刪這個前提",
+   "sources": [
+    {
+     "title": "EMA – Medicines output (European public assessment reports)",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文許可證狀態對事實層與證據包）",
+   "anchor": "- Arvio reittien ja lääkemuotojen soveltuvuudesta"
+  },
+  {
    "id": "fi-lic-20261106-threonine-1",
    "drug": "threonine",
    "file": "threonine.md",
@@ -10901,6 +11048,26 @@
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：60471841（2026-11-06）"
   },
   {
+   "id": "fi-lic-20261112-vildagliptin-1",
+   "drug": "vildagliptin",
+   "file": "vildagliptin.md",
+   "action": "correct",
+   "claim": "kaksi muuta peruutettua metformiinin kanssa yhdistettyä valmistetta",
+   "replacement": "kaksi muuta voimassa olevaa metformiinin kanssa yhdistettyä valmistetta",
+   "summary": "Icandra ja Vildagliptin / Metformin hydrochloride Accord: voimassa, ei peruutettu",
+   "note": "EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan kaikki seitsemän vildagliptiinin myyntilupaa, myös Icandra ja Vildagliptin / Metformin hydrochloride Accord, ovat voimassa.",
+   "finding": "正文說另兩張複方已撤銷；證據包 EMA 7 張全 Authorised",
+   "sources": [
+    {
+     "title": "EMA – Medicines output (European public assessment reports)",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文許可證狀態對事實層與證據包）"
+  },
+  {
    "id": "fi-lic-20261106-vismodegib-1",
    "drug": "vismodegib",
    "file": "vismodegib.md",
@@ -11201,6 +11368,86 @@
    "checked": "2026-11-06",
    "summary": "Poistettu: ”Lisäksi lääkkeellä ei ole voimassa olevaa myyntilupaa Suomessa”",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：60471841（2026-11-06）"
+  },
+  {
+   "id": "fi-lic-20261112-crizotinib-1",
+   "drug": "crizotinib",
+   "file": "crizotinib.md",
+   "action": "correct",
+   "claim": "Ei-pienisoluinen keuhkosyöpä (tila: mitätöity)",
+   "replacement": "Ei-pienisoluinen keuhkosyöpä",
+   "summary": "Taulukko: Xalkori (EMEA/H/C/002489) on voimassa, ei mitätöity",
+   "note": "EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan Xalkorin (EMEA/H/C/002489) myyntilupa on voimassa (Authorised).",
+   "finding": "表格列把 Xalkori 標成 mitätöity；證據包 EMA：Authorised",
+   "sources": [
+    {
+     "title": "EMA – Medicines output (European public assessment reports)",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文許可證狀態對事實層與證據包）"
+  },
+  {
+   "id": "fi-lic-20261112-crizotinib-2",
+   "drug": "crizotinib",
+   "file": "crizotinib.md",
+   "action": "correct",
+   "claim": " Lisäksi Suomen myyntilupa on mitätöity ja valmisteyhteenvedon turvallisuustiedot puuttuvat.",
+   "replacement": " Lisäksi valmisteyhteenvedon turvallisuustiedot puuttuvat.",
+   "summary": "Poistettu: ”Suomen myyntilupa on mitätöity”",
+   "note": "Poistettu: EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan Xalkorin (EMEA/H/C/002489) myyntilupa on voimassa.",
+   "finding": "決策理由說芬蘭許可已失效；證據包 EMA：Authorised。只刪這個子句",
+   "sources": [
+    {
+     "title": "EMA – Medicines output (European public assessment reports)",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文許可證狀態對事實層與證據包）"
+  },
+  {
+   "id": "fi-lic-20261112-ramucirumab-1",
+   "drug": "ramucirumab",
+   "file": "ramucirumab.md",
+   "action": "correct",
+   "claim": "Mahasyöpä (tila: mitätöity)",
+   "replacement": "Mahasyöpä",
+   "summary": "Taulukko: Cyramza (EMEA/H/C/002829) on voimassa, ei mitätöity",
+   "note": "EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan Cyramzan (EMEA/H/C/002829) myyntilupa on voimassa (Authorised).",
+   "finding": "表格列把 Cyramza 標成 mitätöity；證據包 EMA：Authorised",
+   "sources": [
+    {
+     "title": "EMA – Medicines output (European public assessment reports)",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文許可證狀態對事實層與證據包）"
+  },
+  {
+   "id": "fi-lic-20261112-ramucirumab-2",
+   "drug": "ramucirumab",
+   "file": "ramucirumab.md",
+   "action": "correct",
+   "claim": " Lisäksi ramusirumabin myyntilupa Suomessa on mitätöity ja turvallisuustiedot puuttuvat.",
+   "replacement": " Lisäksi turvallisuustiedot puuttuvat.",
+   "summary": "Poistettu: ”ramusirumabin myyntilupa Suomessa on mitätöity”",
+   "note": "Poistettu: EMA:n keskitetysti myönnettyjen myyntilupien tietojen (2026-11-09) mukaan Cyramzan (EMEA/H/C/002829) myyntilupa on voimassa.",
+   "finding": "決策理由說芬蘭許可已失效；證據包 EMA：Authorised。只刪這個子句",
+   "sources": [
+    {
+     "title": "EMA – Medicines output (European public assessment reports)",
+     "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+     "accessed": "2026-11-09"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文許可證狀態對事實層與證據包）"
   }
  ]
 }

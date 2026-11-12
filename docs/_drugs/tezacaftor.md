@@ -119,7 +119,13 @@ Muilta osin turvallisuustiedot (varoitukset ja vasta-aiheet) tulee tarkistaa val
 - Yksityiskohtaiset vaikutusmekanismitiedot (MOA), esimerkiksi DrugBankista, ja mekanistisen yhteyden arviointi CFTR-korjauksen ja HIV:n välillä
 - Esikliinistä tai kirjallisuuteen perustuvaa näyttöä, joka tukee ennustetta
 - Valmisteyhteenvedon turvallisuustietojen (varoitukset ja vasta-aiheet) hankinta Fimean verkkosivuilta
-- Arvio reittien ja lääkemuotojen soveltuvuudesta sekä peruutettujen myyntilupien tilanteesta Suomessa
+- Arvio reittien ja lääkemuotojen soveltuvuudesta
+
+<!-- review:begin fi-lic-20261112-tezacaftor-1 -->
+
+> **Tarkistuskorjaus (2026-11-12)**: Alun perin tässä luki: ”sekä peruutettujen myyntilupien tilanteesta Suomessa” Poistettu: EMA:n tietojen (2026-11-09) mukaan tezakaftoria sisältävien valmisteiden kolme myyntilupaa ovat voimassa, joten peruutettuja lupia ei ole. Lähde: [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx).
+
+<!-- review:end fi-lic-20261112-tezacaftor-1 -->
 
 <!-- review:begin log -->
 
@@ -131,6 +137,7 @@ Alla on tämän sivun tarkistusloki: väitteet, jotka on tarkistettu virallisist
 |------|------|------|------|
 | 2026-11-06 | Poistettu: ”Kaikki kolme myyntilupaa (valmistaja Vertex Pharmaceuticals (Ireland) Limited) on merkitty peruutetuiksi” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 | 2026-11-06 | Poistettu: ”Lisäksi kaikki Suomen myyntiluvat on peruutettu” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
+| 2026-11-12 | Poistettu: ”sekä peruutettujen myyntilupien tilanteesta Suomessa” | Korjattu | [EMA – Medicines output (European public assessment reports)](https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) |
 
 <!-- review:end log -->
 
